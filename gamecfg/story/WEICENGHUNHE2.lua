@@ -10,7 +10,7 @@ return {
 			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			say = "数日前，前往巴拿马要塞的支援舰队在发出了一封增援请求的电文后便失去了联络.",
+			say = "A few days ago, a patrol fleet lead by Baltimore suddenly went missing in a mysterious fog en route to the Canal Stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "NY司令部紧急组织了调查舰队前往要塞驻扎，同时寻找失联舰队的踪迹.",
+			say = "A rescue fleet was immediately formed to locate the missing fleet, and to lend aid to the stronghold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			}
 		},
 		{
-			say = "巴拿马要塞东侧·外海",
+			say = "Canal Stronghold - Surrounding waters",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇哦，这就是传说中的巴拿马要塞？！实际到这里来还是第一次…看上去真壮观啊！",
+			say = "So this is the legendary Canal Stronghold? I've heard all sorts of rumors about it, but it's even more awesome seeing it in person!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "布莱默顿一直在大西洋内活跃，没有路过这里的经历吧。",
+			say = "Bremerton, have you never left NY City in your life? How have you never been here before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "巴拿马要塞是对抗塞壬的重要据点，其守护的运河更是极其重要的战略通道。",
+			say = "In any case, this stronghold is a crucial holdout against the Sirens because of how important the canal is, so of course it's gotta be big.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "尤其是对于后勤运输系统来说，简直可以称作枢纽通道哦。",
+			say = "That's right. The safety of this canal is not just vitally important for the armed forces. The civilians depend on it as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "源源不断的商船和运输舰通过运河连接着两片大洋。对于现在长期的拉锯战来说，这种通道就像生命血管一样重要。",
+			say = "That's why we can't spare any expenses in preparing for a large-scale Siren assault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 103240,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎？原来只知道这里很重要，没想到这么厉害啊！开始期待起来在这里的驻防生活了~",
+			say = "I see... I'm still worried about Baltimore and the others though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔…都快到要塞了，一路上别说塞壬了连点战斗的痕迹都没有发现。",
+			say = "We've almost arrived at the fortress, but there still hasn't been a single trace of Siren activity...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "风平浪静的，巴尔的摩她们完全是毫无征兆的失踪了…这下麻烦了啊。",
+			say = "There's no way Baltimore and the others would allow themselves to be captured without a fight, but there's no sign of a battle anywhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "埃塞克斯，她们会不会是被卷入镜面海域迷航了？",
+			say = "Do you think they got trapped in a Mirror Sea? This fog appearing out of nowhere clearly isn't normal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是是被卷入镜面海域的话，我们肯定会在某一刻突然失去她们的通讯才对，不太可能会收到求援通讯…",
+			say = "I don't think that's likely. Normally, all communications are cut off from the Mirror Sea. However, I've been receiving a string of messages.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 106550,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "根据记录，在失踪当日附近航线上的运输舰队也没有汇报任何有关塞壬袭击造成损失或者运输舰失联的情况。",
+			say = "Furthermore, a convoy that was patrolling the canal safely arrived at the stronghold, even having to go through the mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过气象部门倒是说当时那片区域出现了大面积的海雾，有没有可能和这个有关？",
+			say = "However, it was mentioned that the mist was so expansive that its size couldn't be accurately assessed from coastal monitoring stations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 107110,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "遭遇海雾，然后通讯系统和导航系统全都发生故障，最后误入塞壬聚集的海域…不会有这么倒霉的迷航理由吧，啊哈哈。",
+			say = "In other words, their communication equipment started to fail after entering the fog, and then they encountered Sirens... This sure doesn't smell like a coincidence to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "企业前辈有什么发现么？",
+			say = "I agree... What do you think, Enterprise?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没，目前为止什么发现都没有，反而总感觉平静的有点反常。",
+			say = "I'm with Intrepid. This situation is no accident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 107060,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "就算现在看起来一切正常也不能掉以轻心，巴尔的摩她们是不会无缘无故发来警告的。",
+			say = "However, given the present conditions, we don't have a lead as to where to start searching, and we can't cover this entire area.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,23 +374,7 @@ return {
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我们的任务除了寻找失踪舰队还有加强要塞防御本身…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 107060,
-			side = 2,
-			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "这样吧，大家先前往要塞进行驻防交接，之后以要塞作为基地展开后续搜索行动。",
+			say = "For the time being, let's head back and join up with the stronghold reinforcement fleet. We can organize our information and then draft a rescue plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

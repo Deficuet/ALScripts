@@ -26,7 +26,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "在当前海域压制完成后，可以点击海域地图外区域进入作战总览界面。",
+				text = "After you’ve secured a zone, just tap on a tile outside of the map to go into Operation Overview!",
 				mode = 2,
 				posY = -160,
 				char = "1",
@@ -69,7 +69,7 @@ return {
 				"Tips"
 			},
 			style = {
-				text = "每成功压制一片海域，周边可探索海域就会增加。现在已经可以前往带有主线任务标识的海域了！",
+				text = "With every zone you secure, you gain access to new zones! Now you can proceed with the story!",
 				mode = 2,
 				posY = -150,
 				char = "1",
@@ -80,7 +80,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请点击此处返回作战海域中。",
+				text = "Tap here to return to current sector",
 				mode = 2,
 				posY = 245.23,
 				char = "1",

@@ -23,11 +23,11 @@ return {
 			},
 			options = {
 				{
-					content = "{namecode:50:能代}——",
+					content = "Noshiro.",
 					flag = 1
 				},
 				{
-					content = "{namecode:50:能代}——！",
+					content = "Noshiro!",
 					flag = 1
 				}
 			}
@@ -37,14 +37,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "突然用这种方式喊我的名字……怎么了吗？",
+			say = "{dorm3d}? Why are you calling my name out of nowhere?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "只是突然想起有这种看即时反应的游戏。",
+					content = "I was just curious how you'd react to it.",
 					flag = 1
 				}
 			},
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "原来如此……是为了看我被你叫到的时候的表情啊。",
+			say = "I see... You wanted to see my expression, did you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那，再多喊几次也没关系，{dorm3d}。",
+			say = "Well, you're free to call my name more often.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我会一直等待着，你呼喊我名字的那个瞬间。",
+			say = "I'm always waiting for that moment – the moment when you call for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

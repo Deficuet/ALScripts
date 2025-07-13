@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"永夜之城的魅影\n\n<size=45>七 逃离“古堡”</size>",
+					"Tales From the Count's Castle\n\n<size=45>7 Escaping the Castle</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在不断爆炸的烟雾弹中不停地奔跑着，可却像是原地踏步一般，狭窄的走廊怎么也看不到尽头。",
+			say = "We ran for our lives through the smoke from their grenades, and despite our best efforts, we were unable to reach the exit.",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "束手就擒吧，吸血鬼也好，吸血鬼的眷属也好——",
+			say = "Would you vampires and this vermin of a vassal please stop struggling and let me tie you up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "哎呀~真是紧张刺激的追逐战呢~",
+			say = "Hahahah! Gotta say, that was pretty fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "突然，从两侧的墙壁中出现了许多巨大的摆锤，摆动着将连贯的走廊分成了数段。",
+			say = "As we were being tied up, a number of swinging axes suddenly descended from the ceiling and chopped the corridor up into pieces.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "咦？等等，追逐战的场景里有安排过这些机关吗？！",
+			say = "Excuse me, what? The script didn't mention this!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯。这些机关是{namecode:428}和{namecode:98}临时新加的，从客观上来说你确实不知道。",
+			say = "Eugen and Akashi just installed these, so it's no wonder you don't know about them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "那你为什么不早点告诉我——",
+			say = "Hrmph! How come nobody told me about–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 404041,
-			say = "呀——！！",
+			say = "Eeeeeeek.",
 			effects = {
 				{
 					active = true,
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "{namecode:461}话音未落，突然掉了下去……",
+			say = "Lützow dropped down a pitfall that abruptly opened right beneath her. She let out an astonishingly flat scream.",
 			effects = {
 				{
 					active = false,
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405041,
-			say = "指挥官，你不用担心{namecode:461}，下面有足够多的缓冲软垫。",
+			say = "Rest assured, she's fine. There are plenty of cushions to soften her impact down there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405041,
-			say = "那么，按照剧本，我也该在这里退场了。小心面前的地板，祝你能够顺利通关。",
+			say = "Now, the script dictates that it's my time to go. Beware of the traps on the floor... Ooooh nooooo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "说完，{namecode:466}也跟着坠落了下去。",
+			say = "Thüringen, also, dropped down a pitfall.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样一来，就只剩下你了。束手就擒吧！",
+			say = "There's only the vassal left! Prepare to meet your maker!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 202084,
-			say = "区区眷属还挺有能耐的，但是你又能坚持多久呢？",
+			say = "You are vermin and will be dealt with as such. You may try to flee, but how fast can you run?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "快速思考一下接下来应该采取的策略————",
+			say = "Escaping these two would be extremely hard. I could only really think of two options...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,11 +314,11 @@ return {
 			},
 			options = {
 				{
-					content = "速度是通关的关键！",
+					content = "Run to the hills, run for your life",
 					flag = 1
 				},
 				{
-					content = "谨慎是第一位的！",
+					content = "Count prime numbers and calm down",
 					flag = 2
 				}
 			}
@@ -328,7 +328,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "加速前进，与{namecode:460}和谢菲尔德之间的距离正逐渐拉开。",
+			say = "These two have style, grace, and fervor... but the one thing they lack is speed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "终点就在眼前，只要能到达那个地方……！",
+			say = "The exit is right up ahead. If I just run, I can make it...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "——欸？踩……空了？",
+			say = "...Where'd the floor go?",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -396,7 +396,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=51>BAD END 04：失足</size>",
+					"Bad Ending – You Activated My Trap",
 					2
 				}
 			}
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "指挥官大人小心！",
+			say = "Commandant! Look out!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -451,7 +451,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "被一个箭步冲上前来的{namecode:460}抱住，随后一同落了下去。",
+			say = "Seydlitz closed the distance at breakneck speed, grabbed hold of me, and fell down the pitfall with me.",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -474,7 +474,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "指挥官大人，您没有受伤吧？！",
+			say = "...Commandant, are you all right?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			say = "因为下层的缓冲软垫再加上{namecode:460}的保护，可以说是毫发无损……不过这样一来，就算失败了吧。",
+			say = "\"Thanks for saving me by making sure I landed on the cushions. Although you couldn't save me from losing the game right before the finish line...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			actor = 404031,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "是的，很遗憾，指挥官大人。",
+			say = "I'm afraid I couldn't, no. My condolences.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:428}说过，如果指挥官大人在这里落入陷阱的话，就直接前往终点……总之，我们先从这里上去吧？",
+			say = "Well, there's little else to do now but take the stairs back to the corridor. I will escort you to the exit from there, as per Eugen's instructions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "紧急时刻更需要细心，以防忙中出错。",
+			say = "Acting without thinking is never the way to go. It will only make things worse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "仔细观察的话不难发现，除了摆锤之外，地板的某些部分也出现了明显的裂痕，恐怕这里才是更加危险的部分。",
+			say = "Staring at the pitfalls, I noticed they opened and shut at regular intervals. I could make it safely out if I just timed my steps.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "一边躲避着裂缝，一边谨慎的前进。",
+			say = "So I did. I made careful progress, paying close attention to the floor below me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "{namecode:460}与谢菲尔德逐渐追了上来……但是，终点已经就在眼前了！",
+			say = "Seydlit and Sheffield were gaining on me, but it didn't matter – the exit was just steps away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 202084,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "就差了一点……",
+			say = "A little more...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "不愧是指挥官大人，慌乱之中也不乏谨慎呢。",
+			say = "Incredible, Commandant! You remain calm even in the most tense of situations!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "一口气推开终点的大门，终于成功逃离了这座“古堡”——",
+			say = "I threw open the door at the end of the corridor. On the other side of it was the port I knew and loved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			say = "周围响起了彩花礼炮的声音。",
+			say = "I'd finally made it out. My success was immediately celebrated with party poppers.",
 			effects = {
 				{
 					active = true,
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "恭喜指挥官成功抵达终点喵！",
+			say = "You escaped the room, nya! Congratulations, nya!",
 			effects = {
 				{
 					active = false,
@@ -699,7 +699,7 @@ return {
 			}
 		},
 		{
-			say = "一段时间后",
+			say = "A few days later...",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
@@ -737,7 +737,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官的宝贵反馈我都记下来了喵~",
+			say = "Thanks for your input, nya. Now I know what's good and what could be improved, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这样一来，“密室”的改进也有了方向，再次恭喜通关喵！",
+			say = "Soon the finalized escape room will be open for the whole port to enjoy, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然不清楚指挥官用了几次“续关”喵~",
+			say = "Wish I could ask about what – if any – bad endings you encountered, but oh well, nya...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个嘛，我就不说了，看指挥官想不想说咯~",
+			say = "Hey now, that's a secret, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +815,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼呼，等到改进完成之后，欢迎指挥官再来玩喵！",
+			say = "I know, I know, nya. Anyway, be sure to visit again after I've implemented everyone's feedback, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -832,7 +832,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "参演NPC的同伴们也都很开心，等到密室改造结束之后请务必再来玩哦~",
+			say = "Seconded. We'd love to see you again. Be sure to bring your friends, 'kay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "确实是远超想象的精彩密室。",
+			say = "...All in all, it was an interesting escape room scenario filled with surprises.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			bgName = "star_level_bg_156",
 			dir = 1,
 			blackBg = true,
-			say = "等密室改造结束之后，也带港区的其他同伴们一起来玩吧——",
+			say = "I already knew I'd come back another day with a number of friends in tow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

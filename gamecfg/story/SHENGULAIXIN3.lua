@@ -15,7 +15,7 @@ return {
 			bgm = "theme-room-rosy",
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "干净明亮的病房中，护士富兰克林抬起头，目光从手里的医疗记录转移到推门而入的我身上。",
+			say = "Nurse Franklin stands by my bedside in a clean hospital room. She shifts her gaze from the patient records in her hand and onto me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "这位患者，有什么我能帮上忙的么？",
+			say = "So, Commander, any way I can help you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "我没有立即回话，而是仔细地观察着眼前的富兰克林。",
+			say = "I hold my tongue for the moment and study her closely.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她神色从容地笑着，看不出什么异常，可仔细观察，又能看见她身上莫名布满了汗水。",
+			say = "Although she has the same composed smile as always, her body is strangely covered in a faint layer of sweat.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -87,7 +87,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "咔嗒——",
+			say = "CLUNK!",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "身后的门突然关上并落下了锁。",
+			say = "Just then, the door in the back closes, and I even hear it lock up.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "按照以往的经验，想必一时半会是无法打开这扇门了。",
+			say = "Based on my experience thus far, that door won't be opening for a while.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -130,18 +130,18 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "你的手受伤了？",
+			say = "Looks like you've hurt your hand, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "（点头）",
+					content = "(Nod.)",
 					flag = 1
 				},
 				{
-					content = "小伤，我自己处理就好。",
+					content = "It's no big deal. I'll tend to it myself.",
 					flag = 2
 				}
 			}
@@ -155,7 +155,7 @@ return {
 			optionFlag = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "那我来帮你处理伤口吧~",
+			say = "Alright. Let me patch you up, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			optionFlag = 2,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "自己处理？",
+			say = "By yourself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			optionFlag = 2,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "那可不行，明明身为护士的我都在这里了……",
+			say = "No, we can't do that. You have a nurse ready to help right here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			optionFlag = 2,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "还让病人自己处理伤口的话，那不就成了我的失职？",
+			say = "I wouldn't be doing my job if I let my patients treat their own wounds.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她的笑意如潮水般层层漫开，眸光潋滟，似在努力地压抑着无处安放的渴望。",
+			say = "A sensual undertone in her smile gradually deepens. Her eyes ooze with irrepressible yearning.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -227,7 +227,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "还傻傻站着干什么呢~？",
+			say = "What are you staring at?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "快让我来帮你处理伤口吧~",
+			say = "Come on, let me tend to your hand.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "富兰克林目光灼灼，热烈而不加掩饰地上下打量着我，脸上的绯红也越发明显。",
+			say = "She gazes at me with unabashed passion, the redness of her cheeks becoming increasingly evident.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "话说……你有没有觉得……房间里有些热啊。",
+			say = "Phew... Is it just me, or is it hot in here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "富兰克林抬手扯了扯自己的领子，又用手给自己扇了扇风。",
+			say = "She loosens her collar and uses her hand to fan herself, as if trying to cool down.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -296,7 +296,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不能心急……不能心急♡~",
+			say = "Settle down, me... Don't get impatient...♡",
 			fontsize = 24,
 			typewriter = {
 				speed = 0.05,
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "好了，把手伸出来，富兰克林护士姐姐要来帮你处理伤口了~",
+			say = "Okay, let's see that hand. Nurse Franklin will take good care of you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "富兰克林取来医药箱，在我身前蹲下，身体靠在我的膝盖上，温暖的体温透过布料传递过来。",
+			say = "First aid kit in hand, she crouches in front of me and leans against my knees. Her warmth seeps through the fabric.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -338,7 +338,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她托起我的手，为我处理伤口，动作干脆利落，力道很重。",
+			say = "Then, she takes my hand and expertly tends to my wound, moving with swift precision but applying a jarring amount of force.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -352,7 +352,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "伤口的疼痛令我不由自主地蜷曲了一下手指。",
+			say = "The pain causes my fingers to stiffen.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -366,7 +366,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "富兰克林敏锐地察觉到了我细微的动作，倏然放轻了手上的动作。",
+			say = "She clearly picks up on this small reaction and loosens her grip.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "我弄疼你了？",
+			say = "Did that hurt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "抱歉，我习惯性就……有些没轻没重的。",
+			say = "Sorry about that. I can be a little... careless sometimes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她抬眼看我，向我投来难以明说的目光。",
+			say = "She looks up to meet my gaze. There is an inexplicable glimmer in her eyes.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "接下来，我一定会温柔地、好好地为你治疗的♡~",
+			say = "Next, I'll be more careful and gentle♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "这样……处理好了~！",
+			say = "There we go... All done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			actorName = "{playername}",
-			say = "谢谢。",
+			say = "Thank you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "你和我之间，还需要这么客气么~？",
+			say = "No need to thank me. It's just the way we are with each other, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "不过呢……",
+			say = "Having said that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "富兰克林用双手握住我的手，拉着我起身，上前一步将我抱住。",
+			say = "She squeezes my hand with both of hers, pulls me up, and takes a sudden step forward to embrace me.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -523,7 +523,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她湿热的体温就这么传递过来，发丝轻擦过我的脸庞，带着她特有的馨香。",
+			say = "Her sweaty, hot body sticks to me, and her hair graces my cheek, carrying her unique fragrance.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "如果你真的这么想表达感谢的话，就帮帮我吧……",
+			say = "If you really wanna thank me, can you do me a favor?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "眼前的事物颠倒置换，反应过来时，我已被富兰克林推倒在病床上。",
+			say = "My vision blurs all of a sudden. Before I know it, I'm on the bed after she's pushed me into it.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -565,7 +565,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
-			say = "她身上似乎出了更多的汗。",
+			say = "It looks like she's sweating more than just a moment ago.",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "……我好像只有与你贴近，才能够缓解这灼热的温度……",
+			say = "I just... It feels like being close to you is the only way to release this heat inside of me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "就这样……再靠近些吧♡",
+			say = "Come on... Come closer♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

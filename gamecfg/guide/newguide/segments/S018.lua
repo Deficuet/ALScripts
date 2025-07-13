@@ -1,11 +1,11 @@
 local var_0_0 = {
-	"让我们前往<color=#ff7d36>船坞</color>",
-	"选择一名角色，查看她的详细情况",
-	"点击<color=#ff7d36>装备</color>按钮，查看她当前使用的装备",
-	"现在对该<color=#ff7d36>装备强化</color>一次吧！",
-	"确定强化",
-	"这里会显示出<color=#ff7d36>强化后装备提升的属性！</color>",
-	"点击<color=#ff7d36>强化</color>开始强化"
+	"Let's head to the <color=#ff7d36>Dock</color>.",
+	"Select one of your girls and tap to view her details.",
+	"Tap <color=#ff7d36>gear</color> to see what gear she currently has equipped.",
+	"Let's <color=#ff7d36>enhance this gear</color> one time!",
+	"Tap to confirm.",
+	"This is where you'll see <color=#ff7d36>the gear's stats after it's been enhanced!</color>",
+	"Tap <color=#ff7d36>enhance</color> to start enhancing."
 }
 
 return {

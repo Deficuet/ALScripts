@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"献给碧海之歌\n\n<size=45>六　真正的心意</size>",
+					"An Ode to the Sea\n\n<size=45>6 The Answer is in Your Heart</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "与有些烦恼的列克星敦一起站在星空下——",
+			say = "Lexington and I leave the rehearsal room, find a place to sit, and stargaze.",
 			bgmDelay = 1,
 			bgm = "story-2",
 			flashout = {
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，究竟怎么样才是正确的呢……",
+			say = "What am I supposed to do, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			},
 			options = {
 				{
-					content = "做出回应。",
+					content = "\"The way I see it...\"",
 					flag = 1
 				}
 			}
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "列克星敦，萨拉托加从来没觉得演出变得无聊。",
+			say = "\"Nobody can deny how hard you work every day, helping people in the way only a big sister can.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "正相反的是，她因为更加成功的演出而感到满足。这唯一美中不足的点……在你身上。",
+			say = "\"It's also clear that you take being an idol very seriously. But, you have a problem – that you shoulder too many burdens for one person.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我……？",
+			say = "You think I've bitten off more than I can chew?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "萨拉托加只是想和你分享喜悦而已，这没什么复杂的。",
+			say = "\"Yes. It doesn't matter if you take a shortcut or two as long as people love your concert.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,23 +117,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "所谓偶像，是要给大家都带来欢笑的职业，当然也包括你自己，列克星敦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 107020,
-			side = 2,
-			bgName = "bg_night",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "所以饭菜是不是机器做的并不重要，真正重要的是一起吃饭的我们……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "\"I'm not the most well-versed when it comes to idol work, but you shouldn't be afraid to ask others for help. That's what friends are for.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +129,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "谢谢，指挥官……我好像有些明白了。",
+			say = "So it's about the big picture, not the details... Like the food in the canteen. Who or what made it isn't important, sharing it with your friends is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +145,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家关注的是共闯难关的过程，在意的是分享成功的喜悦。",
+			say = "I think I understand now. Thank you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +161,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "而我却自顾自地觉得自己的付出不够重要，又擅自认为需要承担大家的困难……",
+			say = "It's about overcoming obstacles alongside other people and celebrating it together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +177,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "所以萨拉才会这么担心我……指挥官，我大概明白该做什么了。",
+			say = "I can't shoulder everyone's burdens on my own. That's just impossible on every level.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +193,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只有这份热忱的心意在是不够的，也许我该先尊重自己，然后才能带领——不，是和大家一起面对困难。",
+			say = "It's no wonder people have been saying they're concerned about me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +209,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这就是我最后的答案了，指挥官。",
+			say = "I need to rely on others more. Together, we can overcome any challenge we face.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +225,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……当然，我知道指挥官不是为了说教而来，所以就不用做出评价了。",
+			say = "That's the solution to my problem, isn't it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +241,23 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这之后的路，就让时间去证明吧。",
+			say = "Thank you, Commander, for spending the day with me and helping me realize this.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 107020,
+			side = 2,
+			bgName = "bg_night",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "I'll make a habit of asking for a helping hand whenever I can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,14 +271,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_night",
-			say = "恭喜，列克星敦。不过呢——",
+			say = "\"Well, seeing as you've solved your problem...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "——我只是在享受一场约会罢了。",
+					content = "\"Let's stay and enjoy our date a while longer.\"",
 					flag = 1
 				}
 			}
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "欸？……欸——？！约、约会……？",
+			say = "This is a date?! Has it been one, all along?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "真是的，指挥官就喜欢开玩笑……要是觉得姐姐我什么都包容就大错特错了唷？",
+			say = "I suppose, in a way, it is. Darn, I should've realized sooner and said it myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "忽然有点想唱歌呢，你愿意听吗？",
+			say = "Hey, I'm in a singing mood right now. Will you stay and listen?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯~就当是，给指挥官的……个人Live好了——",
+			say = "Think of it like a special concert, just for you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1

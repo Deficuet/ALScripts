@@ -1,5 +1,88 @@
 pg = pg or {}
 pg.enemy_data_statistics_246 = {
+	[15903111] = {
+		cannon = 22,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 626,
+		pilot_ai_template_id = 20004,
+		air = 0,
+		battle_unit_type = 50,
+		dodge = 22,
+		base = 90624,
+		durability_growth = 21600,
+		antiaircraft = 72,
+		reload_growth = 0,
+		dodge_growth = 360,
+		speed = 36,
+		luck = 0,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 3000,
+		torpedo = 94,
+		durability = 3060,
+		armor_growth = 0,
+		torpedo_growth = 5200,
+		luck_growth = 0,
+		hit_growth = 280,
+		armor = 0,
+		id = 15903111,
+		fog_fx = "",
+		antisub = 0,
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearsmall",
+			"nuofukedanchuan_buff_01"
+		},
+		equipment_list = {
+			1005593,
+			896004,
+			896008
+		}
+	},
+	[15903112] = {
+		cannon = 38,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 936,
+		pilot_ai_template_id = 20004,
+		air = 0,
+		battle_unit_type = 55,
+		dodge = 11,
+		base = 90625,
+		durability_growth = 30400,
+		antiaircraft = 156,
+		reload_growth = 0,
+		dodge_growth = 162,
+		speed = 25,
+		luck = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 3744,
+		torpedo = 76,
+		durability = 3570,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		id = 15903112,
+		fog_fx = "",
+		antisub = 0,
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearsmall",
+			"nuofukedanchuan_buff_01"
+		},
+		equipment_list = {
+			1005608,
+			896004,
+			896008,
+			1005628
+		}
+	},
 	[15903113] = {
 		cannon = 54,
 		reload = 150,
@@ -342,7 +425,7 @@ pg.enemy_data_statistics_246 = {
 	},
 	[15903131] = {
 		cannon = 22,
-		name = "噩梦投射-「驱逐舰」",
+		name = "Data Phantom DD",
 		type = 1,
 		speed_growth = 0,
 		hit_growth = 280,
@@ -385,7 +468,7 @@ pg.enemy_data_statistics_246 = {
 	},
 	[15903132] = {
 		cannon = 54,
-		name = "噩梦投射-「重巡洋舰」",
+		name = "Data Phantom CA",
 		type = 3,
 		speed_growth = 0,
 		hit_growth = 280,
@@ -429,7 +512,7 @@ pg.enemy_data_statistics_246 = {
 	},
 	[15903133] = {
 		cannon = 78,
-		name = "噩梦投射-「战列舰」 ",
+		name = "Data Phantom BB",
 		type = 5,
 		speed_growth = 0,
 		hit_growth = 280,
@@ -474,7 +557,7 @@ pg.enemy_data_statistics_246 = {
 	},
 	[15903134] = {
 		cannon = 36,
-		name = "噩梦投射-「航空母舰」",
+		name = "Data Phantom CV",
 		type = 7,
 		speed_growth = 0,
 		hit_growth = 280,
@@ -952,7 +1035,7 @@ pg.enemy_data_statistics_246 = {
 	},
 	[15903209] = {
 		cannon = 105,
-		name = "噩梦投射-「驱逐舰」",
+		name = "Data Phantom DD",
 		type = 1,
 		speed_growth = 0,
 		hit_growth = 210,
@@ -1000,7 +1083,7 @@ pg.enemy_data_statistics_246 = {
 	},
 	[15903210] = {
 		cannon = 135,
-		name = "噩梦投射-「航空母舰」",
+		name = "Data Phantom CV",
 		type = 7,
 		speed_growth = 0,
 		hit_growth = 210,
@@ -1049,7 +1132,7 @@ pg.enemy_data_statistics_246 = {
 	},
 	[15903301] = {
 		cannon = 280,
-		name = "噩梦映像-「KGV」",
+		name = "Vision of King George V",
 		hit_growth = 330,
 		speed_growth = 0,
 		pilot_ai_template_id = 10001,
@@ -1098,7 +1181,7 @@ pg.enemy_data_statistics_246 = {
 	},
 	[15903302] = {
 		cannon = 160,
-		name = "航母「Queen」-重装型",
+		name = "Up-Armored Queen",
 		hit_growth = 210,
 		speed_growth = 0,
 		fog_fx = "",
@@ -1146,7 +1229,7 @@ pg.enemy_data_statistics_246 = {
 	},
 	[15903303] = {
 		cannon = 300,
-		name = "噩梦映像-「禁卫骑士」",
+		name = "Vision of Vanguard",
 		hit_growth = 210,
 		speed_growth = 0,
 		fog_fx = "",
@@ -1291,110 +1374,6 @@ pg.enemy_data_statistics_246 = {
 			1100044,
 			1100574,
 			1100459
-		}
-	},
-	[15904004] = {
-		cannon = 47,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 2200,
-		pilot_ai_template_id = 20004,
-		air = 0,
-		battle_unit_type = 60,
-		dodge = 0,
-		base = 90316,
-		durability_growth = 70400,
-		antiaircraft = 135,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		luck = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 1400,
-		torpedo = 0,
-		durability = 5270,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		id = 15904004,
-		fog_fx = "",
-		antisub = 0,
-		specific_fx_scale = {},
-		equipment_list = {
-			1100044,
-			1100574,
-			1100724
-		}
-	},
-	[15904005] = {
-		cannon = 0,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20004,
-		air = 55,
-		battle_unit_type = 65,
-		dodge = 0,
-		base = 90317,
-		durability_growth = 65600,
-		antiaircraft = 150,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 15,
-		luck = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 2000,
-		antiaircraft_growth = 1800,
-		torpedo = 0,
-		durability = 4680,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		id = 15904005,
-		fog_fx = "",
-		antisub = 0,
-		bound_bone = {
-			cannon = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.07,
-					0.24,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			plane = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			}
-		},
-		specific_fx_scale = {},
-		equipment_list = {
-			1100784,
-			1100789,
-			1100079
 		}
 	}
 }

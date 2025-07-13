@@ -7,7 +7,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "在信标作战中出现的特殊状态会显示在此处，点击图标可以查看效果详细信息",
+				text = "You can check any special buffs that may be active during this Ashes Showdown by tapping this button.",
 				mode = 1,
 				posY = 353,
 				char = "1",

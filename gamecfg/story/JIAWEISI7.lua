@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"听你说喜欢\n\n<size=45>七　听你说喜欢</size>",
+					"Nursing Honesty\n\n<size=45>7 Tell Me Directly</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "贾维斯一言不发地走进了房间，在她的位置上坐下。",
+			say = "Jervis entered my office and sat down where she always does without saying a word.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "刚刚雅努斯的话希望指挥官不要在意，那孩子以为我被指挥官误会了所以才想着要解释的。",
+			say = "Please don't overthink what Janus said. She simply wanted to clarify what I meant, in case you misunderstood...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "怎么说好呢，她虽然是好心，但是有时候自作主张会让我有些头疼……",
+			say = "She can be kind to a fault, which sometimes causes me a bit of inconvenience, I suppose you could say...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "总之希望指挥官不要怪她。",
+			say = "Just please, don't think badly of her for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示不介意",
+					content = "\"I didn't take any offense. Don't worry.\"",
 					flag = 1
 				}
 			}
@@ -168,7 +168,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官不介意就好。",
+			say = "I see. That's good to hear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "然后就是我和你之间的事情了……",
+			say = "A-also, I'd like to make a couple of things clear between us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "咳……我承认我确实有过一些奇怪的想法。",
+			say = "Ahem... There have been a few times I've felt things that baffle even me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "比如说会期待指挥官需要卧床休息而我则是负责照顾之类的……",
+			say = "For instance, I've felt excitement when thinking about the idea of nursing you if you were to become really ill...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的，和指挥官在一起的时间越久类似的想法就越多。",
+			say = "Even more strangely, these nonsensical feelings only seem to grow stronger the more time I spend with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "原来我居然是这么贪心的人啊……",
+			say = "It's made me realise what a greedy person I really am at heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "所以说——这样的解释指挥官能明白么？",
+			say = "...Having said all that, do you understand what I'm talking about?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "现在的贾维斯与之前相比确实稍微坦率了一些。",
+			say = "I had an idea of what she meant. She'd become considerably more open since I first met her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "不过————",
+			say = "But I still wasn't entirely sure I was right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,11 +323,11 @@ return {
 			},
 			options = {
 				{
-					content = "希望能听你亲口说出来。",
+					content = "\"Tell me exactly what you mean.\"",
 					flag = 2
 				},
 				{
-					content = "………………",
+					content = "Say nothing",
 					flag = 3
 				}
 			}
@@ -341,7 +341,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "笨蛋，想得美。",
+			say = "I-idiot... Think before you blurt stuff out...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "怎么了……难道你是希望我更加直白地说出来么？",
+			say = "...Y-you really want to know, do you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是拿你没办法……",
+			say = "Very well. To put it succinctly... Um...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "（小声）喜、喜欢你。",
+			say = "I... like you, I suppose...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "……这样就可以了吧！",
+			say = "There, I said it! Are you happy?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "好、好了，该继续去工作了，笨蛋指挥官————！",
+			say = "We've wasted enough time! It's time to get back to work, you prat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

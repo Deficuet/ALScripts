@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "成功击败了本月困难难度仲裁者量产型机体。回到作战港口后再次进入，可以重复挑战困难难度仲裁机关模拟战，但无法获取任何奖励。",
+			say = "You've already completed this Arbiter Battle. Re-enter this zone to start a practice battle against the Arbiter on Hard difficulty. No rewards will be given.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 			},
 			options = {
 				{
-					content = "确认",
+					content = "Confirm",
 					flag = 1
 				}
 			}

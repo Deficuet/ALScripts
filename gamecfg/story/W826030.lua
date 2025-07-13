@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "是否开始运输能源矩阵？",
+			say = "Would you like to activate the Energy Matrix?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,11 +18,11 @@ return {
 			},
 			options = {
 				{
-					content = "是",
+					content = "Yes.",
 					flag = 0
 				},
 				{
-					content = "否",
+					content = "No.",
 					flag = 1
 				}
 			}

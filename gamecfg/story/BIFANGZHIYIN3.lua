@@ -12,7 +12,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "通风系统……正常♪照明系统……合适♪",
+			say = "Ventilation systems all green. Lights... working as normal.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "地毯柔软度……完美♪",
+			say = "Then there's this carpet. Soft to perfection.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
-			say = "装潢奢华的车厢中，心情愉快的黑衣少女在细致地巡视着自己的“领地”。",
+			say = "A proud queen dressed in black stood inside a lavishly decorated train wagon, admiring every detail of her domain.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这辆车确实不错，参考了“东方快车”的设计理念？",
+			say = "Yes, it is a nice wagon. Did you reference the Orient Express, by any chance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "外壳和装潢确实参考了一下经典要素，不过内在可是大相径庭哦。",
+			say = "Only for its exterior and interior design. The nuts and bolts of the train are completely different.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,78 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你没感觉进来之后空间大了不少么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯……确实比看上去宽了一倍还多。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9705040,
-			say = "其实要变得更宽也是可以的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9705040,
-			say = "只是我觉得既然设定的概念是「列车」，那总归得在空间感上做些限制才好。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9705040,
-			say = "况且缩小空间也有利于增强防御性，所以最后就这么定了。",
+			say = "But that's all rather insignificant. Haven't you noticed how spacious it is?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,59 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以自由拓展空间……这是镜面海域技术的另一种应用方式么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9705040,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			say = "呵~本王这个技术可比镜面海域高级多了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9705040,
-			say = "名字叫……唔，倒是也没起过名字。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9705040,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			say = "现场起一个……嗯，就叫“镜面车厢”技术好了！",
+			say = "Of course I have. It looks easily twice as big on the inside as the outside makes it seem.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "相比镜面海域技术，本王的这个镜面车厢技术在隔绝性、防护性和可塑性上都更胜一筹。",
+			say = "Yes, and we could make it even bigger if we so desired.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +163,25 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "更重要的是，这项技术可以给每个划分出来的空间绑定“概念”。",
+			say = "To a degree, at least. It is still bound by the limitations inherent to the concept of a train.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9705040,
+			say = "And besides, its defences are stronger the smaller it is, so we settled on this size.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "绑定……概念？",
+			say = "Fascinating, isn't it? The things you can do with spatial distortions. Did you base this technology on that found in Mirror Seas?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,25 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "就用本王的女王之光号来举例子好了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9705040,
-			say = "女王之光号一共有七节「车厢」，每一节车厢都运用了该技术。因此车上一共有七个彼此独立的空间。",
+			say = "Hah! What a silly comparison. The Queen's Light is far more advanced than any Mirror Sea!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +233,24 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "镜面车厢技术既是构建车厢所用到的技术，又是经过构建后而形成的「车厢」本身。",
+			say = "Though, we can see why you'd think that way. More importantly, we haven't named the technology yet.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9705040,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "How about... Yes, let's call them Mirror Rails!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "所以并没有一个所谓的“镜面车厢生成装置”放在车厢的某个地方藏起来。",
+			say = "These Mirror Rails boast far superior electromagnetic shielding, defences, and plasticity over a Mirror Sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,24 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "这一点可以说与塞壬使用的镜面海域技术在表象上的最大不同。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9705040,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			say = "而更进一步，这些“车厢”的概念，又可以被纳入一个名为“列车”的集合之中，从而形成一个整体——女王之光号。",
+			say = "But that's not their most impressive feature! You see, each wagon or engine can be affixed with its own concept.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +303,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……整体大于部分的简单之和？",
+			say = "Really? A different concept for each one?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9705040,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "Indeed. The Queen's Light has much more than just one concept attached.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,25 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "聪明。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9705040,
-			say = "单从防护力上来说，这辆列车上每一个点的防护力都等于七节车厢的防护力之和。",
+			say = "It has not one, not two, but seven different and independent conceptual spaces!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "而在必要的时候，各车厢又可以彼此作为独立个体看待，从而展现出不同的功能和性质。",
+			say = "Which is to say, each section of the train exists independently of the others as its own Mirror Rail.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,41 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "——你所打击的到底是「列车」、「车厢」、还是「第三节车厢」？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9705040,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			say = "概念不明确的话，打击效果可是会大打折扣的哦~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "star_level_bg_590",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "听上去就像玩文字游戏时进行的诡辩一样呢……",
+			say = "What's more, they do not require a central control device somewhere within their space like a Mirror Sea does.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +392,41 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "概念层面上的攻防，简单来看的话就是这样。",
+			say = "That's what sets them apart from Siren technology more than anything else.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9705040,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "Additionally, the concepts of each of these Rails are tied together by another concept – that of the Queen's Light.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Interesting. And since they're collectively perceived as a train, it strengthens their concepts as Rails.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +444,25 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "要在道理上想明白这点不难。但在实际操作中，稳固自己定义的“概念”可是需要相当高昂的成本哦。",
+			say = "Indeed it does. Aren't we brilliant?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9705040,
+			say = "As long as they form a collective, the defence of each Rail is also bolstered by the concept associated with it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "就比如「第一节车厢」的制作成本大概和你的阿瓦隆相等，可是之后每再增加一节车厢，成本就要再翻一倍。",
+			say = "If necessary, though, the Rails can be decoupled and operate independently of one another.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +498,24 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "所以尽管我也想给列车多加一些车厢，不过就我个人的能力而言，七节车厢就是极限了。",
+			say = "That means, from an attacker's perspective, they must choose between three targets – the train as a collective, the individual Rails, and the third dimension.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9705040,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "This makes the Rails particularly resistant to conceptual attacks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +532,79 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊？！那做满七节车厢花费的成本岂不是……岂不是……！",
+			say = "Right. That sounds like a lot of sophistry to me.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9705040,
+			say = "This is just how offence and defence work at the conceptual level.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9705040,
+			say = "The theory of it isn't hard to grasp. Reinforcing a concept in practice, however, is a very costly endeavour.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9705040,
+			say = "Supposing that a single Rail costs as much as your gate of Camelot, that cost doubles with each additional Rail you add.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9705040,
+			say = "Theoretically, you can keep adding new Rails, but for now, 7 Rails is the limit.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +621,24 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这简直不可思议！投入如此海量的资源最后就得到了一辆小小的列车？！",
+			say = "2 to the power of 6... That makes it 64 times the cost!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "star_level_bg_590",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "That's utterly absurd. All that time, money, and resources for what? A mere train?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "第一，本王的车并不小！第二……算了，你现在不理解也没关系。",
+			say = "It's not MERELY a train! And besides... Bah, forget it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,7 +674,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "等你见到外面那群牛鬼蛇神之后，自然就会理解了。",
+			say = "Once you see what abominations there are out there, you'll understand.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,11 +686,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的机器",
+			actorName = "Strange Device",
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "叮叮叮——咚咚咚——",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,11 +717,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的机器",
+			actorName = "Strange Device",
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哐哐哐——哒哒哒——",
+			say = "BEEP BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,11 +748,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的机器",
+			actorName = "Strange Device",
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哔哔哔——啪啪啪——",
+			say = "BEEP BEEP BEEP BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,9 +783,9 @@ return {
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			portraitNoise = true,
-			actorName = "D小姐",
+			actorName = "Miss D",
 			nameColor = "#A9F548FF",
-			say = "伊丽莎白，什么时候发车！",
+			say = "Elizabeth! Start the train already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,9 +803,9 @@ return {
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			portraitNoise = true,
-			actorName = "D小姐",
+			actorName = "Miss D",
 			nameColor = "#A9F548FF",
-			say = "快发车，快发车~我要等不及了！！",
+			say = "Come on! I've waited for aaages!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -824,7 +824,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "别急，本王还在做最终检查呢。",
+			say = "Don't rush us! We're performing the final check!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,9 +840,9 @@ return {
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			portraitNoise = true,
-			actorName = "D小姐",
+			actorName = "Miss D",
 			nameColor = "#A9F548FF",
-			say = "快一点，快一点，快~一点~",
+			say = "No! Hurry uuup! Come on already!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "再急也要等本王完成检查。要是没做好检查就上路，出了事故你赔么？",
+			say = "Telling us to hurry up won't do anything. Or what, will you reimburse us when something breaks if we depart unprepared?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,9 +877,9 @@ return {
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			portraitNoise = true,
-			actorName = "D小姐",
+			actorName = "Miss D",
 			nameColor = "#A9F548FF",
-			say = "赔不起……略~",
+			say = "I can't afford that. Fiiine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -891,9 +891,9 @@ return {
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			portraitNoise = true,
-			actorName = "D小姐",
+			actorName = "Miss D",
 			nameColor = "#A9F548FF",
-			say = "那你好好检查，但是要快一点——！",
+			say = "Do your checks or whatever, but make it quick! I'm getting bored!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -906,11 +906,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "奇怪的机器",
+			actorName = "Strange Device",
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "通讯结束，哔啵——",
+			say = "Your call has been terminated. BEEEEP...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +924,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "吵死了……真不想带它上车。",
+			say = "She can be such a bloody nuisance. If we could choose, we wouldn't take her along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -942,7 +942,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "但是这次情况确实有些复杂……不带上又不行。",
+			say = "But, things are the way they are, so we just have to put up with her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,7 +960,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "你那边没什么要带的了吧？本王准备发车了。",
+			say = "Now, have you any last-minute luggage to stow before we set off?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -977,7 +977,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……现在就发车？就咱们两个人去狩猎么？",
+			say = "What? You mean we're departing now? Are we really going hunting with only the two of us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -995,7 +995,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "谁说本王是发车去狩猎了？换个地方做准备罢了。",
+			say = "We never said we were going hunting. We're only moving to a new location to prepare.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1012,7 +1012,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯……总之先开去你家好了，相信你的院子里肯定能停下一列火车吧？",
+			say = "Say, why don't we travel to your branch? Your Camelot can surely accommodate one single train.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1029,7 +1029,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊？",
+			say = "What?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1046,7 +1046,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等、等等、你跟D小姐要直接来我家？！",
+			say = "Hold on a minute! I've never said you're welcome to stay for who knows how long!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1062,7 +1062,7 @@ return {
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "是啊。你在本王这里白吃白住了那么多天，礼尚往来一下也是应该的吧~",
+			say = "Lack of permission didn't stop YOU from crashing at OUR place and helping yourself to our tea and biscuits! What goes around comes around!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,7 +1074,7 @@ return {
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "女王之光号，出发——！",
+			say = "Now shush! Onward, Queen's Light!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "又到度假出行的时间了，这一次去哪里玩比较好呢？",
+			say = "Vacation season has come again! Where should we go this time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感觉这是个难题呢，毕竟选择范围好像越来越小了。",
+			say = "That's a tricky question. Our list of destinations grows smaller with each year.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没关系，拉菲只要有地方睡觉就好……zZZZZ……",
+			say = "As long as there's a place to sleep, I can vacation anywhere... Zzz...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有没有那种更特别的地方啊？我想玩点不一样的嘛，更刺激一点的！",
+			say = "How about something special this time? Y'know, a place where you can experience something exciting and unique!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408130,
-			say = "刺激的~？去潜水如何？朝着海洋深处，探寻不可思议——",
+			say = "Scuba diving is an option. Think about it – diving into the deep sea, uncovering mysteries...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？我刚刚听到有人在说不可思议？在哪在哪儿？！",
+			say = "Did someone say MYSTERIES? Where? Tell me now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408130,
-			say = "开个玩笑而已啦……真的去深海里应该也很危险吧？",
+			say = "I was just kidding... There are no mysteries in the deep sea, only danger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 408130,
-			say = "要好好选一个既有趣，又能保证指挥官安全的度假地点呢~",
+			say = "Our destination's gotta be something fun but also safe for the Commander's sake.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女们聚在一起，认真地讨论着度假地点。",
+			say = "Many shipgirls have gathered in one place to earnestly discuss vacation destinations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……指挥官，我感觉像这样讨论很难有个明确的结果。",
+			say = "Hmm... Commander, it doesn't feel like this conversation is going anywhere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "的确。不过也确实如你刚才所说……选择范围不多。",
+			say = "It really isn't. Like you said earlier, though, there aren't many destinations to choose from.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,8 +182,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "匹兹堡",
-			say = "呵呵~我好像听到有人在因为选择度假地而烦恼呢？",
+			actorName = "Pittsburgh",
+			say = "Heehee. Unable to reach a consensus on where to go on vacation, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "匹兹堡说着从门外走了进来，她的食指和中指夹着一封邀请函，在我面前晃了晃。",
+			say = "Pittsburgh walks in through the office door, holding an envelope between her index and middle finger. She waves it around to get my attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "打开看看吧~指挥官。能够有效解决大家当下的困扰哦？",
+			say = "Go on, open it. I think it'll solve your problem just like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,19 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "从她手中接过邀请函打开后，信笺中端正又不失潇洒的熟悉字迹映入眼帘。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "“相信诸位在这个时刻，一定会因为选择度假地而烦恼。”",
+			say = "She hands me the envelope, and I open it. The first thing that jumps out at me is the familiar handwriting, simultaneously neat and yet casual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +231,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“所以我们诚挚的邀请各位前往帕里塞克度假小镇，体验不同的度假之旅。印第安纳、企业敬上……”",
+			say = "\"At this point, you're presumably all having trouble deciding where to go on vacation.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "\"We thought you'd like something different, something new, so you are all invited to the resort town of Parisek. Signed: Indiana and Enterprise.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦？帕里塞克度假小镇？那是什么？",
+			say = "A resort town, eh? I wonder where it is!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听起来就像是有软软的床的地方……",
+			say = "Sounds like it has comfy beds...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106550,
-			say = "……帕里塞克（Parisek）这个名字总感觉有点熟悉……",
+			say = "Parisek... That name sounds familiar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你在哪里听说过这个名字么？",
+			say = "Have you heard it somewhere before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个名字可是大家完完全全重新起的，应该不会重名吧！",
+			say = "We came up with the name ourselves. If it sounds familiar, you're probably imaginin' it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "帕里塞克（Parisek）……帕里塞得（Palisade）……？",
+			say = "Parisek... Palisade?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 106550,
-			say = "啊……没什么，请别在意。",
+			say = "Actually... Never mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那说回到度假小镇上吧~？",
+			say = "Let's get back on topic, shall we?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我知道了~既然是白鹰特色风情，一定是那种张开嘴就会有机器人喂你可乐、吃汉堡和爆米花的地方吧！",
+			say = "I get the idea! The resort is in the Eagle Union, so we can expect to have soda, popcorn, and burgers hand-fed to us by robots!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "……之前大家不是一起去过重樱的离岛泡温泉么？虽然途中发生了一些小插曲。",
+			say = "Err... No. As I was saying... You all liked that Sakuran hot spring resort, right? Well, there was the drama with the Youkai Troupe, but let's ignore that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "从那次之后，企业她们就一直想找个机会，也让大家体验一下属于白鹰的特色风情。",
+			say = "Ever since then, we've been planning an opportunity for you to experience some good ol' Eagle Union culture.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "所以私下一直在筹备着这个度假小镇……现在终于可以对大家公开了~",
+			say = "So we set up this resort town in secret, and now it's finally time to tell you all about it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦~！所以一定是那种张开嘴就会有机器人喂你喝可乐，吃汉堡和爆米花的地方吧~！",
+			say = "Ooh! So we're DEFINITELY talking about a place with robots that'll hand-feed us soda, popcorn, and burgers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不用强调两遍啊……！",
+			say = "Give it a rest, Fu Shun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然我也无法否认这种刻板印象确实存在……但总之肯定不是这样的吧！",
+			say = "Reinforcing stereotypes is very rude, whether or not they have any basis in reality!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "白鹰的特色风情……难道是牛仔？",
+			say = "You said, \"good old\" Eagle Union culture. Are we talking about the Wild West?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "呵呵，没错。不愧是指挥官~立刻就找到了正确答案。",
+			say = "Ding-ding-ding. That's correct.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "和提到重樱就会想起温泉一样，提到白鹰就会想起牛仔才对吧~？",
+			say = "Just like how the Sakura Empire is synonymous with hot springs, the Eagle Union is synonymous with the Wild West.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "牛仔么……也就是说，我们可以去一睹西部风情了？！",
+			say = "Ooh. Are we gonna get to see a real frontier town?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯哼哼~我一定要拍很多很多照片留念~！",
+			say = "Brilliant! I'm gonna take SO many photos!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这次也是多亏了法戈，用无人机帮忙运送了不少物资，不然可能就赶不上了！哈哈！",
+			say = "We've got Fargo to thank for mostly takin' care of the logistics. Without her, I doubt we'd have finished on schedule!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "为客户提供足够优质的服务是我司的使命和愿景。",
+			say = "It is my mission and sincere desire to provide my clients with only the finest service.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "面无表情的少女在得到夸奖后，适时地将一张名片递到了我的手中。",
+			say = "At the first sign of praise, Fargo takes out a business card and presents it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102330,
-			say = "虽然目前在创业中，且老板与员工都由我一人担任……总之，请指挥官今后多与我合作。",
+			say = "We're a new company, and I'm currently the owner and the sole employee. Still, please do consider becoming our business partner in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喵？创业中的速递公司？喵呼呼……有没有兴趣和{namecode:98:明石}签长期合作协议喵？",
+			say = "So your logistics company only just became incorporated, nya. Nyahaha... You should consider signing a long-term contract with me, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305130,
-			say = "啊，又被{namecode:98:明石}抢先了一步……我也有问题想问啦~能运新鲜蔬菜水果么~",
+			say = "Dammit, she got the first word in again! Fargo, I just wanna ask if you'd consider doin' delivery for seasonal fruits and veggies!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "名为法戈的少女被立刻“包围”。",
+			say = "The next moment, Fargo is surrounded by potential business partners.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不去干预几人的未来“商业会谈”，将视线重新投注到匹兹堡和内华达身上。",
+			say = "While I hope they can work out some sort of deal, I have more pertinent matters to talk about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们怎么去度假小镇？",
+			say = "So, how exactly do we get to this resort town?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个不用担心，企业安排了客运飞机，明天就会来接大家。",
+			say = "Don't you worry 'bout that. Enterprise has reserved a plane that can come pick us up as early as tomorrow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家今天收拾好行李就行！",
+			say = "If you're raring to go, I suggest you start packin'!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101490,
-			say = "好耶！西部的荒野，呼啸的狂风，一定还有什么神秘的金矿和诅咒之类的不可思议——！",
+			say = "Yippee! I can't wait to see the western prairies, feel the cool winds... and explore mysterious gold mines and cursed estates!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，顺带一提，本次旅途中的导游就是我。",
+			say = "Heehee. Also, I'm going to be your tour guide this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "匹兹堡一边说着，一边又向我的身边凑近。",
+			say = "Pittsburgh comes closer to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "一定会让指挥官有一趟难·忘的旅程呢~",
+			say = "I promise you it's gonna be an unforgettable adventure♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在决定应企业和印第安纳的邀约，前往她们精心准备的帕里塞克度假小镇之后。",
+			say = "I accept the invitation, and the girls all start beaming with excitement at the idea of visiting a frontier town.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "大家欢呼着纷纷回去收拾行李，等待着接下来的度假之旅。",
+			say = "Filled with anticipation, they return to their rooms and start packing their belongings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "第二天一早，跟随着匹兹堡的指引登上客运飞机。",
+			say = "The following morning, we all board the plane together with Pittsburgh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "又过了一段时间后——",
+			say = "Sometime later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好困啊……我昨晚激动地没睡好觉……",
+			say = "So tired... I was so excited I barely got any sleep last night...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "应该快到了的说，{namecode:6:绫波}已经看到风景不一样了的说。",
+			say = "Yes, but we're almost there. It's starting to look like the Wild West down there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,7 +799,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的耶！西部小镇……酒馆……牛仔服！我们来啦！",
+			say = "You're right! I can already picture it. Wooden buildings, a saloon, and cowgirls! Soon!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -810,7 +810,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "说话间，飞机缓缓降落。",
+			say = "The girls chat about the upcoming adventure while the plane slowly descends.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "但是从舱门出来后，映入眼帘的却是一望无际的荒地和沙漠。",
+			say = "Once the door opens, however, the only thing we're greeted by is an endless, barren prairie.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小镇……呢？说好的度假……呢？",
+			say = "Hey, where's the town? I don't see a dang thing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "哎呀，昨天喝了太多果汁，导致忘了和大家说了……",
+			say = "Oops... I, uh, might have had too much juice yesterday and I forgot to tell you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然是邀请大家去度假，但是要体验完整的西部风情，第一步要从拓荒开始。",
+			say = "We wanted you to get the full Wild West experience, which means finding an unsettled stretch of land to colonize before the vacation can truly begin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901110,
-			say = "拓、拓荒……？",
+			say = "So you mean WE have to colonize it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,18 +889,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 401430,
-			say = "也、也就是说，我们其实是被骗来做苦力？！",
+			say = "You withheld information just so you could exploit us for free labor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我喜欢挑战！",
+					content = "Now we're talkin'!",
 					flag = 1
 				},
 				{
-					content = "（沉默地看向匹兹堡）",
+					content = "(Stare silently at Pittsburgh.)",
 					flag = 2
 				}
 			}
@@ -912,7 +912,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没…没关系……重剑没问题……会连带着把指挥官的那一份也做好……",
+			say = "I-it's okay... I'll work twice as hard for you, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噗哈哈哈……一看就是开玩笑的啦~你们也太好骗了吧。",
+			say = "Come on, it's obvious she was joking. You're all so easily duped!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "呵呵，确实是开玩笑的。这里只是特意做过硬化处理的临时停机坪。",
+			say = "Heehee. Yes, sorry if I upset anyone. In reality, this place is just a temporary airfield.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "接下来要去坐火车前往度假小镇，大家请跟我来吧。",
+			say = "The actual town is a short train ride away. Come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -964,7 +964,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "跟着匹兹堡，登上了通往帕里塞克度假小镇的专列。",
+			say = "Following Pittsburgh's lead, we walk to the train tracks and board the resort express.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -978,7 +978,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103280,
-			say = "真正的度假之旅，现在才要刚刚开始哦——",
+			say = "Get ready, because the real vacation is about to start.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

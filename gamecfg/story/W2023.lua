@@ -9,7 +9,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "维护结束，舰队全员的耐久值恢复完毕！指挥官，接下来的作战加油哦~",
+			say = "There, all better! You’d best be on your way now, Commander. Give it your all out there~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

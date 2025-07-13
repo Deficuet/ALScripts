@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰衣草味的“恶魔”\n\n<size=45>六　薰衣草的香气</size>",
+					"Work Hard, Play Harder!\n\n<size=45>6 Casual Closeness</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "休息日前，最后一个工作日的指挥室内——",
+			say = "Later, on the day before our day off...",
 			bgm = "story-1",
 			flashout = {
 				black = true,
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "也许是几个演习日程重叠的原因，今天的工作比往日都要多。",
+			say = "I have a lot more work to get through than usual due to an overlap in exercise schedules.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在工作了许久之后抬起头来确认了一下剩余工作量。",
+			say = "Though I have already gotten a lot done, the amount of paperwork pending my review and approval is staggering.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "要处理的工作还有……嗯，还剩下大概半张书桌。",
+			say = "How much, exactly? About half of my available desk space's worth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "……在椅子上伸了个懒腰，感觉一周份的疲惫都压了过来。",
+			say = "I recline in my chair and stretch my arms. Fatigue washes over me when I realize that my rest day would not come until tomorrow – so close, yet so far.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "突然，感受到了薰衣草的香气。一个温暖而柔软的触感攀上了肩头。",
+			say = "Nevertheless, I have to keep chipping away. Just when I go to pick up my pen again, I feel something soft press down on my head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "指挥官，整天光顾着说教我，你自己也要记得好好休息啊……",
+			say = "You know, Commander, you should really practice what you preach about taking breaks~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嘿咻……指挥官的大腿，到达——这样说话就方便了。",
+			say = "I'm gonna sit on your lap. Can't get any work done now, can you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "我也累了，就这样靠在你肩膀上可以么？不介意吧~",
+			say = "...Don't give me that look. I'm tired too. All I'm doing is resting on you instead of a pillow. Nothing wrong with that, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "虽然答案显而易见就是了~",
+			say = "Oh, and I won't take no for an answer~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "……还没能做出反应，就被她乘虚而入靠了过来。",
+			say = "Pamiat' is having none of my objections. She turns around and plops herself into my lap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "黑色的头发触手可及，散发出更多薰衣草的气味。",
+			say = "Her long, smooth hair drapes down right in front of me. My chest and thighs, where she's resting against me, won't stop singing praises of her softness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "嗯……坐上去比高级座椅还舒服，以后这个位置得多来几次了……",
+			say = "You're comfier than any high-end chair I've sat on. I seriously need to do this more often, hehe~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "上次你答应过要给我奖励的事，还记得么？",
+			say = "Oh yeah, I haven't told you what I came up with for my reward yet, have I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "最近{namecode:98}又不知道被谁撺掇着大肆扩建了一轮游乐园，我还是挺感兴趣的……",
+			say = "Well, someone pressured Akashi into expanding the port's amusement park not long ago, and I wanna go check it out~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "指挥官，我们的休息日就去游乐园如何？",
+			say = "Wanna go there tomorrow, just the two of us?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702020,
-			say = "当然，这次轮到你为我忙前忙后了哦！",
+			say = "Of course, it wouldn't be much of a reward if I had to pay for my own ticket. You'll cover it, won't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "游乐园么……一提到游玩这种事情，水星纪念总是会突然变得精神无比。",
+			say = "She seems really keen on this idea. I feel as if I have no choice but to agree to her every whim until she's satisfied.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "那就，决定是游乐园好了——",
+			say = "\"Alright. We'll go to the amusement park tomorrow.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

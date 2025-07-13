@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"淑女的小小提案\n\n<size=45>七 两人的特别场所</size>",
+					"A Lady's Modest Proposal\n\n<size=45>Chapter 7 - Our Special Spot</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "茶会当天。",
+			say = "It was the day of the tea party.",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "虽然有些小波折，茶会还是在光辉找到的这个地方顺利举办了。",
+			say = "While there were many troubles along the way, we were able to successfully host a tea party at the secret spot Illustrious found.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "非常感谢你的邀请，美丽的光辉女士。这里的风景确实很美呢。",
+			say = "I'm enthralled to be invited to an elegant tea party like this by a beautiful signorina such as yourself. The scenery here is truly wonderful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哥哥…刚才胡德小姐…对遮阳伞…赞不绝口……好开心…欸嘿嘿…",
+			say = "Hehe... Hood just complimented me on finding this parasol. I'm so happy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，话又说回来，还真的可以环视港区耶～",
+			say = "Seriously, I'm still impressed by how beautiful the port looks from up here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "脚下也打扫干净了，那以后就经常在这里开茶会吧！",
+			say = "I mean, the path's been cleared up and all. I think we should continue to have tea parties here from time to time in the future. How about it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "众人纷纷对光辉找到的这个场所开口赞扬。",
+			say = "The secret spot Illustrious had found received a storm of positive reactions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "看到大家品味着茶和点心，享受茶会的样子，不禁松了一口气。",
+			say = "The black tea and neatly lined-up sweets were all tasty as well. It was satisfying to see everyone enjoying themselves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "有种“工作告一段落”的感觉，突然想一个人静静，于是悄悄离开了大家。",
+			say = "It felt as if I had just completed a big task. Wanting to be alone for a bit, I separated from the group.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "正在眺望港区的时候，发现光辉来到了身边。",
+			say = "While I was looking down at the wide view of the port, Illustrious came to my side.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -216,7 +216,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天也是风平浪静的一天呢，指挥官。",
+			say = "There's no wind today and the sea looks so calm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "晴空万里无云，大海透蓝平静…没想到茶会当天的天气会这么好。",
+			say = "It's wonderful weather, without even a single cloud. The transparent, azure sea is so still... I had never thought that the weather would be this great on the day of the tea party.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "正是最令人安心的和平景象。",
+			say = "This is the image of peace, that which I love the most.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,37 +262,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "阳光洒在海面上波光粼粼，可以听到海面上传来的阵阵涛声。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 207030,
-			side = 2,
-			bgName = "bg_main_day",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "指挥官…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_main_day",
-			say = "与光辉望着同一处，两人的手默默地交叠在了一起。",
+			say = "I can hear the relaxing sound of waves from the sea, sparkling beneath the sun's rays.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +278,21 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官总是像这样，很温柔地握着我的手呢。而且…好温暖。",
+			say = "Commander...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_main_day",
+			say = "Our gazes meet. Neither of us say a word, we simply grasp each other's hands.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +308,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个…如果可以的话，下次还能再一起来这里吗？就我们两人…",
+			say = "Commander, you always grasp my hands so gently. And... you're always so warm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,21 +324,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后到那时，可以不光聊茶会，而是跟我说说，更多关于指挥官的事情吧。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_main_day",
-			say = "光辉一边说着，一边露出了幸福的笑容。",
+			say = "Um... If you don't mind, could you spare some time to come to this place with me again? Just the two of us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +340,7 @@ return {
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，还有很多很多的东西想聊呢，我也…有很多想让指挥官知道的事情。",
+			say = "This time, it won't be to prepare for a tea party. I'd like you... to tell me more about yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +354,23 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "只要和光辉在一起，就感觉有说不完的话。",
+			say = "Saying that, Illustrious graced me with an angelic smile.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 207030,
+			side = 2,
+			bgName = "bg_main_day",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Hehe. Let's talk about other things too. I... have many things about myself that I wish to tell you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +384,21 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "所以，在心中暗暗做了决定，以后还要来这里很多很多次。",
+			say = "I'm sure... If it's the two of us, we'll have so much to talk about that we won't have enough time for it all.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_main_day",
+			say = "And that means we'll have to revisit this place, time and time again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,
-			say = "来到这个美丽而又和平的、属于两人的珍藏之地——",
+			say = "This beautiful and peaceful place. Our secret spot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ PLATFORM_JP = 2
 PLATFORM_KR = 3
 PLATFORM_US = 4
 PLATFORM_CHT = 5
-PLATFORM_CODE = PLATFORM_CH
+PLATFORM_CODE = PLATFORM_US
 IsUnityEditor = UnityEngine.Application.isEditor
 
 require("Include")

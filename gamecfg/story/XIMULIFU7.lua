@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"祈愿与祝福之宴\n\n<size=45>七　祝福的花火</size>",
+					"A Prayer for Peace\n\n<size=45>Chapter 7 - Fireworks</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_night",
-			say = "港区·空地",
+			say = "Port - Empty Field",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -53,7 +53,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:37}、{namecode:20}，准备好了喵？",
+			say = "Yuubari, Shiranui, are you two ready, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "随时可以…",
+			say = "Ready when you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "OK！",
+			say = "On your count!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那就准备放了喵，三、二、一，点火喵！",
+			say = "All right, let's do this, nya. 3... 2... 1... light 'em, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			}
 		},
 		{
-			say = "港区·宴会场外",
+			say = "Outside the Banquet Hall",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喔～不错嘛～",
+			say = "Now that... is a nice sight.",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -167,7 +167,7 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的烟花还是一如既往地华丽呀",
+			say = "You can say that again. Oooh, the light in the destroyers' cute little faces! *click*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "港区·宴会场",
+			say = "Port - Banquet Hall",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -214,7 +214,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "快看窗外，是烟花呀！",
+			say = "Look outside the windows - the fireworks are starting!",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊…",
+			say = "Oooh...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好漂亮…",
+			say = "So pretty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这还真是…",
+			say = "Hehe... Akashi really outdid herself this time.",
 			soundeffect = "event:/battle/firework",
 			flashout = {
 				black = true,
@@ -297,7 +297,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "真是壮观……",
+			say = "Wunderbar...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要是有一天，和平能够到来，大家可以真正地放下一切，像这样看着漂亮的烟花就好了呢…",
+			say = "One day when the seas are peaceful, I'd like to see these fireworks again with everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 405011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "... ...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 205051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "和平么…",
+			say = "Peace, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，只要我们、还有指挥官，大家一起努力，总会迎来那么一天的啦！",
+			say = "That's right! As long as we keep working hard with Commander, we'll definitely be able to return peace to the seas!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			actor = 405011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是俗套的台词…",
+			say = "How cliché.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我相信会有这么一天的哦！{namecode:435}姐姐！",
+			say = "Lord Bismarck! I also believe that such a day will come!",
 			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
@@ -413,7 +413,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是{namecode:416}啊，逛完会场了？",
+			say = "So it's you, U-556. Are you enjoying the banquet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 408041,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！吃了好多好吃的东西！还遇到了许多皇家的同伴～",
+			say = "Mmhmm! Everything's so delicious, I've been stuffing myself! I also ran into some familiar faces from the Royal Navy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			actor = 405011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相信…吗？呵…那我也姑且相信一回吧，为了迎接这么一天，接下来还有许多事要做呢",
+			say = "Lasting peace... with everyone else, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 205051,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心吧，我们都在这里，不会让你独自忙碌的",
+			say = "There's nothing to be afraid of. We're all friends here, fighting under the same banner. You're not alone anymore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在就先享受下这一时的和平安宁吧——",
+			say = "Let tonight be a taste of the peace that we're all fighting for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "灿烂的烟花一轮又一轮地绽放在上空，灿烂的烟花像是在祝福每一个人一般。",
+			say = "I pray that one day... we will all be able to enjoy that peace together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

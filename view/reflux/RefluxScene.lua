@@ -37,6 +37,22 @@ function var_0_0.willExit(arg_4_0)
 			iter_4_1:Destroy()
 		end
 	end
+
+	if arg_4_0.signView and arg_4_0.signView:GetLoaded() then
+		arg_4_0.signView:Destroy()
+	end
+
+	if arg_4_0.taskView and arg_4_0.taskView:GetLoaded() then
+		arg_4_0.taskView:Destroy()
+	end
+
+	if arg_4_0.ptView and arg_4_0.ptView:GetLoaded() then
+		arg_4_0.ptView:Destroy()
+	end
+
+	if arg_4_0.shopView and arg_4_0.shopView:GetLoaded() then
+		arg_4_0.shopView:Destroy()
+	end
 end
 
 function var_0_0.onBackPressed(arg_5_0)

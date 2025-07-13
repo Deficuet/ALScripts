@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在，可以查看各项课程的升级条件",
+				text = "Here you can view the level-up requirements for all activities.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处按钮，可切换显示该课程的升级条件",
+				text = "Tap this button to show or hide the level-up requirements for the activity.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -49,7 +49,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "当升级条件达成时，该课程将会自动升级",
+				text = "The next activity level will automatically unlock when you meet the requirements.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -62,7 +62,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "升级后的课程可以获得更多属性数值",
+				text = "Higher-level activities give you bigger parameter boosts.",
 				mode = 2,
 				dir = -1,
 				char = 1,

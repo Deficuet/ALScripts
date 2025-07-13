@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"可以使用材料对「炮击」「雷击」「航空」「装填」属性中的可强化属性进行强化。",
-	"对应材料可以通过「资讯同步」奖励及大型作战中港口商店购买获取",
-	"达到指定强化率后还可获得额外属性加成。"
+	"META ships require special rigging upgrade materials to improve their FP, TRP, AVI, and RLD.",
+	"You can get these materials in two ways: as a Sync Point accumulation reward, or through shops found at port across Operation Siren.",
+	"Once you reach a certain upgrade threshold, they’ll get yet another stat boost!"
 }
 
 return {

@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.activity_ryza_recipe = {
 	{
-		display = "这把镰刀被改良得更方便采集，可以像风一样安静轻巧地割下花草。",
+		display = "An improved tool for gathering grass and flowers. It's been modified to make gathering easier, and reaps everything as quietly and lightly as the wind.",
 		rarity = 3,
-		name = "寂静镰刀",
+		name = "Silent Sickle",
 		type = 3,
 		id = 1,
 		item_num = 1,
@@ -26,9 +26,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "因为经过改良，仔细调整了锋利度和重量，采集木材和木柴会比一般斧头更轻松。",
+		display = "An improved tool for splitting firewood and cutting down trees for lumber. It's been modified for better balance and sharpness, making gathering easier than ever.",
 		rarity = 3,
-		name = "黄金之斧",
+		name = "Golden Axe",
 		type = 3,
 		id = 2,
 		item_num = 1,
@@ -52,9 +52,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "炎烧杖的强化版。前端的宝玉更换为蓝色，因此能更有效率地破坏岩石和水晶。",
+		display = "A stronger version of the Bomb Rod. The jewel at the tip is blue now, and it can destroy rocks and crystals more easily.",
 		rarity = 3,
-		name = "蓝炎烧杖",
+		name = "Blue Bomb Rod",
 		type = 3,
 		id = 3,
 		item_num = 1,
@@ -78,9 +78,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "钓鱼竿的强化版。经过强化后，会让鱼失去戒心主动靠近。",
+		display = "An improved Fishing Rod. Fish will no longer flee from it, and some will even be more attracted to it than usual.",
 		rarity = 3,
-		name = "神杆慈悲",
+		name = "Divine Fishing Rod",
 		type = 3,
 		id = 4,
 		item_num = 1,
@@ -105,9 +105,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "拥有强大的握力和推力的塞壬机械臂，还能发射灼热的开采激光——用来进行炼金术素材的采集似乎是个不错的选择？",
+		display = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
 		rarity = 3,
-		name = "激光切割器",
+		name = "Laser Cutter",
 		type = 3,
 		id = 5,
 		item_num = 1,
@@ -128,9 +128,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[10] = {
-		display = "莱莎琳·斯托特使用的武器。\n散发强烈光芒的手杖。即使什么都不做也会持续闪烁耀眼光辉。沐浴在这道光芒中，不仅装备者，连四周的人都会感觉内心变得光明。",
+		display = "An Augment Module for Reisalin Stout. A constantly glowing staff. It continues to give off a bright, dazzling light even if you don't do anything. It's said that its light makes the hearts of everyone it shines on brighter.",
 		rarity = 4,
-		name = "闪耀梦想",
+		name = "Sparkling Reverie",
 		type = 1,
 		id = 10,
 		item_num = 1,
@@ -154,9 +154,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[20] = {
-		display = "科洛蒂娅·巴兰茨使用的武器。\n射出的箭矢会在黑暗中如星星般闪耀，因此而得名。应该谁都不想在黑暗中被这种弓瞄准吧。",
+		display = "An Augment Module for Klaudia Valentz. This bow is named for the way the arrows it releases shine like stars in the dark. It must be awful seeing someone aim this at you in the darkness...",
 		rarity = 4,
-		name = "暗夜星矢",
+		name = "Astrumnox",
 		type = 1,
 		id = 20,
 		item_num = 1,
@@ -180,9 +180,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[30] = {
-		display = "帕特莉夏·阿贝尔海姆使用的武器。\n据说这把剑具有意志，会自己选择使用者。如果没有高尚的灵魂，再厉害的高手都无法驾驭。",
+		display = "An Augment Module for Patricia Abelheim. A sentient sword that chooses its own wielder. If a warrior doesn't have a proud soul, they'll never be able to use it no matter how skilled they might be.",
 		rarity = 4,
-		name = "爱瑟尔剑",
+		name = "Edel Schwert",
 		type = 1,
 		id = 30,
 		item_num = 1,
@@ -207,9 +207,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[40] = {
-		display = "莉拉·德西亚斯使用的武器。\n欧兰族曾经使用的传统武器之一。据称，将武器背在身上，周遭居住的精灵便会赋予其力量。",
+		display = "An Augment Module for Lila Decyrus. A legendary weapon once wielded by warriors of the Oren race. It's said that simply equipping it grants you the strength of nature spirits in your surroundings.",
 		rarity = 4,
-		name = "幽兰爪",
+		name = "Oren Herald",
 		type = 1,
 		id = 40,
 		item_num = 1,
@@ -236,9 +236,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[50] = {
-		display = "赛莉·古劳斯使用的武器。\n据说曾被称为“花之贤者”的人物戴过的手环。佩戴者行走在路上，四周的花朵就会盛开，因此“花之贤者”的周围好像总是一片花田。",
+		display = "An Augment Module for Serri Glaus. This band was once worn by someone known as the Flower Sage. Apparently, this person was always surrounded by flowers, and flowers will bloom wherever the wearer walks.",
 		rarity = 4,
-		name = "百花盛开",
+		name = "Grand Floracion",
 		type = 1,
 		id = 50,
 		item_num = 1,
@@ -263,9 +263,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[60] = {
-		display = "卡菈·伊迪亚斯使用的武器。\n奇形怪状的战锤。平坦的部分另一侧的造型纯粹是为了美观。",
+		display = "An Augment Module for Kala Ideas. A war hammer with an unusual shape. The opposite side of the flat part is just stylish.",
 		rarity = 4,
-		name = "百合长老",
+		name = "Elder Lily",
 		type = 1,
 		id = 60,
 		item_num = 1,
@@ -292,9 +292,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[70] = {
-		display = "一种威力强大的火属性炸弹，使用后可以对敌人造成伤害。",
+		display = "An incredibly powerful explosive with fire affinity. Deals damage to the enemy.",
 		rarity = 4,
-		name = "炙烈炎烧",
+		name = "Grand Bomb",
 		type = 1,
 		id = 70,
 		item_num = 1,
@@ -322,9 +322,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[80] = {
-		display = "一种威力强大的冰属性炸弹，使用后可以对敌人造成伤害。",
+		display = "An incredibly powerful explosive with ice affinity. Deals damage to the enemy.",
 		rarity = 4,
-		name = "结晶冰精",
+		name = "Crystal Ice Bomb",
 		type = 1,
 		id = 80,
 		item_num = 1,
@@ -352,9 +352,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[90] = {
-		display = "一种威力强大的雷属性炸弹，使用后可以对敌人造成伤害。",
+		display = "An incredibly powerful explosive with lightning affinity. Deals damage to the enemy.",
 		rarity = 4,
-		name = "震耳雷球",
+		name = "Laute Plajig",
 		type = 1,
 		id = 90,
 		item_num = 1,
@@ -382,9 +382,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[100] = {
-		display = "一种威力强大的风属性炸弹，使用后可以对敌人造成伤害。",
+		display = "An incredibly powerful explosive with wind affinity. Deals damage to the enemy.",
 		rarity = 4,
-		name = "涡旋风精",
+		name = "Wirbel Luft",
 		type = 1,
 		id = 100,
 		item_num = 1,
@@ -411,9 +411,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[110] = {
-		display = "用力一敲就能让大地剧烈摇晃的槌子。大地摇晃时空气振动及天空传来鸣响的样子，让人联想到创世的景象，所以如此命名。",
+		display = "A hammer that has the power to shake the earth with a single powerful strike. It got its name due to the fact that when the earth shakes and the air trembles, it reminds people of the creation of the world.",
 		rarity = 4,
-		name = "创世之槌",
+		name = "Genesis Hammer",
 		type = 1,
 		id = 110,
 		item_num = 1,
@@ -442,9 +442,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[120] = {
-		display = "不需要枪管的子弹。将前端对准目标发射，子弹会先在上空盘旋，然后笔直地朝目标前进，在打中的瞬间爆炸。",
+		display = "A bullet that does not require a gun barrel. When you release it toward the target, it will fly around in the sky and then go in a straight line to the target, exploding on impact.",
 		rarity = 4,
-		name = "泡云弹车",
+		name = "Bubble Bullet",
 		type = 1,
 		id = 120,
 		item_num = 1,
@@ -476,9 +476,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[130] = {
-		display = "一种威力强大的炸弹，使用后可以降低敌人的防御力。",
+		display = "An incredibly powerful explosive. Can lower the enemy's defense.",
 		rarity = 4,
-		name = "Ｎ／Ａ",
+		name = "N/A",
 		type = 1,
 		id = 130,
 		item_num = 1,
@@ -507,9 +507,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[140] = {
-		display = "一种威力强大的道具，使用后可以降低敌人属性，但使用时会消耗使用者的HP。",
+		display = "An incredibly powerful item. Can lower the enemy's stats, but using it consumes HP.",
 		rarity = 4,
-		name = "默示录",
+		name = "Apocalypse",
 		type = 1,
 		id = 140,
 		item_num = 1,
@@ -546,9 +546,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[150] = {
-		display = "色调带有神秘感的羽衣。虽然是薄得可以一眼看透的布料，但展开之后可以保护自己不受任何攻击。",
+		display = "A thin cloth with a mystical pattern. Spread it over yourself to protect against all kinds of attacks.",
 		rarity = 4,
-		name = "神秘的羽衣",
+		name = "Mystic Robe",
 		type = 1,
 		id = 150,
 		item_num = 1,
@@ -583,9 +583,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[160] = {
-		display = "不仅能治好任何伤和疾病，就连死亡也能应对的超强力药剂。只有极少数的炼金术士才做得出来，被视为炼金术的终极技术之一。",
+		display = "A powerful medicine said to heal all illness and injuries, and even revive the dead. It's one of alchemy's greatest creations, and only a handful of alchemists are skilled enough to make it.",
 		rarity = 4,
-		name = "万灵药剂",
+		name = "Elixir",
 		type = 1,
 		id = 160,
 		item_num = 1,
@@ -618,9 +618,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[170] = {
-		display = "可将意志化作音色的口琴。不仅吹奏的人，听到口琴音色的人也会被赋予各种力量。",
+		display = "A harmonica that will convey your feelings and thoughts through its sound. It provides various enhancements both to the one who plays it and to those who hear it.",
 		rarity = 4,
-		name = "形意口琴",
+		name = "Energianica",
 		type = 1,
 		id = 170,
 		item_num = 1,
@@ -643,9 +643,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[180] = {
-		display = "可以获得一件随机的炼金工房风格外观装备",
+		display = "Contains a random Alchemist's Workshop-themed gear skin.",
 		rarity = 4,
-		name = "装备外观箱(炼金工房)",
+		name = "Random Gear Skin Box (Atelier Ryza)",
 		type = 2,
 		id = 180,
 		item_num = 10,
@@ -674,9 +674,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[190] = {
-		display = "借助炼金术融合四把钥匙之后形成的类似门卡的装置，形状似乎能与核心之所大门上的凹槽完美对应。",
+		display = "An item resembling a keycard, made from combining the other four keys. It should slot into the device by the barrier's door at the Central Foundation.",
 		rarity = 3,
-		name = "遗迹之钥·核心之所",
+		name = "Central Foundation Key",
 		type = 2,
 		id = 190,
 		item_num = 1,
@@ -694,9 +694,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[200] = {
-		display = "利用从遗迹中回收的素材制作的精美雕塑，纪念这一段充满惊喜的秘密遗迹群岛冒险之旅。——「炼金术士与秘密遗迹群岛」活动纪念\n「……嗯，这也是桶子！」",
+		display = "A sculpture made from materials gathered among the ruins, commemorating the glorious adventure you've had. Obtained from the collab event The Alchemist and the Archipelago of Secrets.\n \"...Yup, this is also a barrel! \"",
 		rarity = 4,
-		name = "遗迹冒险之证",
+		name = "Ruins Explorer Sculpture",
 		type = 2,
 		id = 200,
 		item_num = 1,
@@ -727,9 +727,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[210] = {
-		display = "小瓶中封存了以炼金术人工制造的精灵之力。可适应任何属性，却不易使用。",
+		display = "A small bottle containing elemental power. It has an affinity with all elements, which is useful but also makes it difficult to work with.",
 		rarity = 2,
-		name = "精灵的小瓶",
+		name = "Spirit Bottle",
 		type = 4,
 		id = 210,
 		item_num = -1,
@@ -745,9 +745,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[220] = {
-		display = "频繁出现在炼金术调合中的基础药剂。为红色液体，与火属性素材的契合度高。",
+		display = "A common alchemic compound. A red liquid with fire affinity.",
 		rarity = 3,
-		name = "中和剂·红",
+		name = "Red Neutralizer",
 		type = 4,
 		id = 220,
 		item_num = -1,
@@ -764,9 +764,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[230] = {
-		display = "频繁出现在炼金术调合中的基础药剂。为蓝色液体，与冰属性素材的契合度高。",
+		display = "A common alchemic compound. A blue liquid with ice affinity.",
 		rarity = 3,
-		name = "中和剂·蓝",
+		name = "Blue Neutralizer",
 		type = 4,
 		id = 230,
 		item_num = -1,
@@ -783,9 +783,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[240] = {
-		display = "频繁出现在炼金术调合中的基础药剂。为黄色液体，与雷属性素材的契合度高。",
+		display = "A common alchemic compound. A yellow liquid with lightning affinity.",
 		rarity = 3,
-		name = "中和剂·黄",
+		name = "Yellow Neutralizer",
 		type = 4,
 		id = 240,
 		item_num = -1,
@@ -802,9 +802,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[250] = {
-		display = "频繁出现在炼金术调合中的基础药剂。为绿色液体，与风属性素材的契合度高。",
+		display = "A common alchemic compound. A green liquid with wind affinity.",
 		rarity = 3,
-		name = "中和剂·绿",
+		name = "Green Neutralizer",
 		type = 4,
 		id = 250,
 		item_num = -1,
@@ -821,9 +821,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[260] = {
-		display = "从四种元素核心制作而成的最高阶素材之一。具备全属性与高属性值，进行高阶调合时可派上用场。",
+		display = "An advanced material created from the four Elemental Cores. Since it has high affinity with all elements, it's extremely useful in alchemy.",
 		rarity = 4,
-		name = "核水晶元素",
+		name = "Crystal Element",
 		type = 4,
 		id = 260,
 		item_num = -1,
@@ -841,9 +841,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[270] = {
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得炮击、航空、雷击属性提高的效果",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: increases the FP, AVI, and TRP of your ships.",
 		rarity = 4,
-		name = "输出提升核心",
+		name = "Offense Boost Core",
 		type = 2,
 		id = 270,
 		item_num = 2,
@@ -865,9 +865,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[280] = {
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得伤害降低的效果",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: reduces the DMG taken by your ships.",
 		rarity = 4,
-		name = "防御提升核心",
+		name = "Defense Boost Core",
 		type = 2,
 		id = 280,
 		item_num = 3,
@@ -889,9 +889,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[290] = {
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得恢复耐久的效果",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: in combat, your ships slowly restore HP over time.",
 		rarity = 4,
-		name = "缓慢修复核心",
+		name = "Regeneration Core",
 		type = 2,
 		id = 290,
 		item_num = 3,
@@ -913,9 +913,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[300] = {
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得损伤管控的效果",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: once per battle, when one of your ship's HP falls beneath 20.0%, she will regain a portion of her HP.",
 		rarity = 4,
-		name = "损伤管控核心",
+		name = "Damage Control Core",
 		type = 2,
 		id = 300,
 		item_num = 3,
@@ -937,9 +937,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[310] = {
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得点燃弹幕支援的效果",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that Burn enemies hit.",
 		rarity = 4,
-		name = "点燃支援核心",
+		name = "Covering Fire Core",
 		type = 2,
 		id = 310,
 		item_num = 3,
@@ -961,9 +961,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[320] = {
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得易伤弹幕支援的效果",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that will temporarily increase the DMG taken by enemies hit.",
 		rarity = 4,
-		name = "易伤支援核心",
+		name = "Anti-Armor Volley Core",
 		type = 2,
 		id = 320,
 		item_num = 3,
@@ -985,9 +985,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[330] = {
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得经验提升的效果",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive additional EXP from sorties.",
 		rarity = 4,
-		name = "经验提升核心",
+		name = "Experience Boost Core",
 		type = 2,
 		id = 330,
 		item_num = 3,
@@ -1009,9 +1009,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[340] = {
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得好感提升的效果",
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will gain additional Affinity from sorties.",
 		rarity = 4,
-		name = "好感提升核心",
+		name = "Affinity Boost Core",
 		type = 2,
 		id = 340,
 		item_num = 1,
@@ -1033,9 +1033,9 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[350] = {
-		display = "兵装强化石，主要用于特殊兵装的制造、强化、突破。",
+		display = "Resource used to craft, upgrade and convert Augment Modules.",
 		rarity = 3,
-		name = "兵装强化石T2",
+		name = "Augment Module Stone T2",
 		type = 2,
 		id = 350,
 		item_num = 100,

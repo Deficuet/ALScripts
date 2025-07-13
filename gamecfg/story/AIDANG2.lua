@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"和姐姐的一日约会\n\n<size=45>二 出发！</size>",
+					"A Date With Atago\n\n<size=45>Chapter 2: Let's Go!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "次日·早晨",
+			say = "Next Morning -",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -47,12 +47,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "哎呀？指挥官，早安。今天来的挺早啊。",
+			say = "Ah, good morning, Commander. You're up early today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,12 +63,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "比约定的时间早了半个小时？你该不会是……觉得姐姐我是和你一样守规矩又懂礼貌的好孩子？",
+			say = "You're half an hour early, you know? Could it be... you thought that your big sister would be waiting for you wistfully?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,12 +79,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "那你可就误会了哦？姐姐来得早是因为……你看那边。",
+			say = "You'd be getting a little ahead of yourself~ The reason I came so early was... look over there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +95,11 @@ return {
 		},
 		{
 			actor = 303110,
-			actorName = "{namecode:66}",
-			bgName = "bg_story_outdoor",
 			side = 2,
-			dir = 1,
+			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
-			say = "{namecode:67}？还有……指挥官？你们也是来晨练的吗？",
+			dir = 1,
+			say = "Atago? And... Commander? Did you two also come here to carry out morning training?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -132,12 +128,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "不是。啊，这个先给你。",
+			say = "Not quite. Ah, before I forget, this is for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +146,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "{namecode:67}拿出一瓶运动饮料，递给{namecode:66}。",
+			say = "Atago took a sports drink out of her bag and passed it to Takao.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,12 +154,11 @@ return {
 		},
 		{
 			actor = 303110,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:66}",
-			say = "多谢。指挥官，其实{namecode:67}每天早上都会在晨练的时候给我送这个。相当于是日课吧。",
+			say = "Thank you very much. Ah, Commander, Atago always helps me refuel during my morning training. You could say it's become a routine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,12 +170,11 @@ return {
 		},
 		{
 			actor = 303110,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:66}",
-			say = "刚，刚开始我是有拒绝的，但是她怎么说都不听……",
+			say = "O-of course I refused at first, but she was so insistent...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,12 +186,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "啊啦，是谁说什么只要有拼搏精神就足够了，连口水都不肯喝一个劲死练，最后演习的时候中暑累趴下了？",
+			say = "Oh my. Who was the one who refused to take even a single sip of water while yelling something like \"MY BURNING SPIRIT SHALL SUSTAIN ME\" until she finally passed out in the middle of a combat drill?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,12 +202,11 @@ return {
 		},
 		{
 			actor = 303110,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:66}",
-			say = "……咳咳！话说回来，指挥官今天不是休息吗？",
+			say = "...Pfffftt! Ahem... uhh, in any case, are you taking the day off, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,12 +218,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "呵呵，{namecode:66}很在意吗？其实呢……",
+			say = "*giggles* Takao~ aren't you the curious one? Between us girls...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +236,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "{namecode:67}凑到{namecode:66}耳边窃窃私语了一番。",
+			say = "Atago whispered something into Takao's ear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,12 +244,11 @@ return {
 		},
 		{
 			actor = 303110,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:66}",
-			say = "什么！？指挥官！就、就算是休息，作、作为军人，这不太合适吧！",
+			say = "Wh-what!? Commander! E-Even if it's your day off, as a commanding officer, there are some things that are inappropriate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,12 +260,11 @@ return {
 		},
 		{
 			actor = 303120,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:67}",
-			say = "{namecode:66}也想来的我们三个人一起做也可以哦？",
+			say = "Takao, if you want to come along as well, the three of us could do it~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,12 +276,11 @@ return {
 		},
 		{
 			actor = 303110,
-			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
 			dir = 1,
-			actorName = "{namecode:66}",
-			say = "在下还是免了吧！",
+			say = "I shall humbly decline! Goodbye!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +294,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "不知为何变得气呼呼的{namecode:66}，揣着刀一路跑开了。",
+			say = "For some reason, Takao was beet red as if she was about to shoot steam from her ears. She quickly sheathed her sword, turned around, and sprinted off.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +304,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "到底{namecode:67}对她说了什么……",
+			say = "What in the world did Atago tell her...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样就行了？也、也不是在期待后续……///",
+			say = "Will this do? I-I'm not excited for what comes next, not at all...",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_furniture3_tone7",
 			typewriter = {
 				speed = 0.05,

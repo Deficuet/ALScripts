@@ -6,7 +6,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "众人拉开距离，一面对出现的清除者机体发动攻击，一面收集着这些新型塞壬量产型的情报。",
+			say = "While distancing themselves from the enemy, the Fist unit attacked Omitter's vessel and gathered information on the hostile mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -15,7 +15,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "突然，刮起了一阵猛烈的狂风，天色似乎也变得更加昏暗了。",
+			say = "Suddenly, there was a strong gust of wind that seemed to darken the sky all at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "天……黑了？",
+			say = "Is it just me, or is it darker now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -48,7 +48,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "伏尔加忽然感觉到一股刺骨的寒意。在风雪肆虐的昏暗中，她似乎看到了一个更加漆黑的身影。",
+			say = "There was a biting chill as the blizzard intensified. In its midst appeared a figure darker than the sky itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重樱的航空母舰……？",
+			say = "A Sakura Empire carrier...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "不知道为何，在她心中凭空产生了这样的联想。",
+			say = "For just an instant, Volga felt as though she'd been spirited away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "一瞬间，伏尔加感觉自己离开了极地的暴风雪，回到了冰层之下的“苏丽珂”号中。",
+			say = "Her senses left the battlefield, returning to the Suliko that slept in the depths of the Arctic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "而面前的样本分析装置，正闪烁着耀眼又奇异的光芒。",
+			say = "Shards of meteorite, the sample analysis device shining with an odd glow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "不知过了多久，等到她回过神来时，不论是黑影还是样本分析装置都消失不见了。",
+			say = "When her senses returned to the present, both the figure and the device had disappeared.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "通讯器中只剩下滋滋的噪音，在风雪的干扰下，特制的通讯装置也失去了效用。",
+			say = "The communicator set up for this mission only buzzed, its signal blocked out by the interference of the raging blizzard.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "伏尔加一个踉跄险些摔倒，但手臂处却又传来温热的触感，她被什么人从后面托了一把。",
+			say = "Volga stumbled. Just as she was about to fall, somebody caught her and helped her back up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你没事吧伏尔加！",
+			say = "Volga, are you okay?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "被击中了么？",
+			say = "Did a Siren attack hit you?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没……没有，只是有些走神了。你看到刚才的黑影了么？",
+			say = "I-I'm fine! I was just a little distracted... Did you see that person just now?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……黑影？你在说什么？",
+			say = "A person? What do you mean?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我只知道我们被这场突然肆虐的狂风暴雪冲散了……",
+			say = "All I know is that the sudden intensification of the snowstorm separated us from the rest of our unit and mass-produced ships.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之先不要轻举妄动，我已经让量产型进入了自律模式。",
+			say = "Anyway, we shouldn't do anything crazy. I've set what few mass-produced ships we still have to patrol mode.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然可能没什么大用，但应该能抵挡一阵吧，但愿……",
+			say = "Who knows if they'll help, though? I just hope they can buy us some time...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "舰队都被打散了啊，这下可糟了……",
+			say = "The fleet is all separated... Oh, what do we do?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心————！",
+			say = "Watch out!",
 			painting = {
 				alpha = 0.3,
 				time = 1

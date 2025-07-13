@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "镜面海域·起始的孤岛",
+			say = "Mirror Sea - Outset Island",
 			bgm = "sk-az-story",
 			typewriter = {
 				speed = 0.05,
@@ -24,7 +24,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "原来如此……抱歉，是我武断了。",
+			say = "So that's what happened... Forgive me. I jumped to conclusions.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "抱歉让你受惊了。我叫斑鸠，和飞鸟小姐一样，也是半藏学院的学生。",
+			say = "And you, I'm sorry for frightening you. To reintroduce myself, I am Ikaruga. Like Asuka, I am a student at Hanzō Academy.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来斑鸠小姐也来到了这个世界啊！",
+			say = "Imagine my surprise to see you in this world, too!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "嗯，我一醒来就在这里了。然后为了了解情况，首先对周边环境进行了侦察……",
+			say = "Indeed. The next thing I knew, here I was. Now, let us get a hold of the situation and survey our surroundings.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "因为看到从这里有光球向外飞了出去，所以我急忙赶了过来……",
+			say = "I saw a burst of light from this direction and came over in a hurry. What was that?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -95,7 +95,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那，那个其实是……",
+			say = "W-well, you see...",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
-			say = "是这样啊，雪不归小姐她……",
+			say = "Oh. Someone kidnapped Fubuki...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -142,7 +142,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，所以我们必须马上去找她！",
+			say = "Yeah, and we need to start looking for her now!",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "飞鸟小姐，你要去哪里找？现在我们甚至连自己在哪里都不知道哦？",
+			say = "The question is, where? We don't even know where WE are at the moment.",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
-			say = "而且……这座岛的周围可全是海哦？没有船和飞机，我们要怎么穿越海洋呢？",
+			say = "Furthermore, we're surrounded by water in all directions. How are we supposed to cross it without a boat or an airplane?",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -185,7 +185,7 @@ return {
 			actor = 11000010,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "话是这么说啦……我说，{namecode:11:晓}酱，能用你的忍术想想办法解决吗？",
+			say = "Good point... Hey, Akatsuki, can your ninjutsu get us out of this pickle somehow?",
 			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？用忍术？！嗯，那个……如果只是移动或许还可以，但如果要追踪甚至是战斗的话，在没有舰装的情况下实在是……",
+			say = "What? My ninjutsu? Well... Getting around is one thing, but fighting or pursuing someone without a rigging is borderline impossible.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			side = 2,
 			actor = 11000020,
-			say = "舰装？你说的是你身上装备的像忍具一样的东西吗？那刚刚我们……",
+			say = "\"Rigging\"? Does that refer to the equipment you're wearing? Because if so...",
 			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确，确实是舰装。数量也刚好，这大概是……专门为你们准备的……",
+			say = "Um, yes, those are riggings. There is one each, so they must be for you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……说实话非常可疑。",
+			say = "But, to be frank, this seems extremely fishy to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000030,
-			say = "可疑？你是说可能是个陷阱？",
+			say = "Fishy? You think it's a trap?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与其说是陷阱……但其实之前也发生过类似的事……",
+			say = "Not exactly. I mean that this has happened before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "以前从其它世界来的人也是不知不觉间就被准备了舰装，然后就装备着它们进行战斗了之类的……",
+			say = "The last time people from another world came here, they also obtained riggings at some point and brought them into battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000030,
-			say = "也就是说，这次就算我们用了这些也不会有什么问题？那就简单了。",
+			say = "You're saying there won't be any problems with us doing the same thing? Then the answer's pretty clear to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "总之只要使用这些，我们就可以穿越海洋去找雪不归小姐了对吧！那还等什么！",
+			say = "So, basically, we can use these things to traverse the sea and go rescue Fubuki! Everything works out!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯，就现状而言，就算没有后援抵达，只靠我们自己也确实可以出发了。",
+			say = "Indeed. You can sail out by yourselves rather than waiting for rescue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实际上……很抱歉，从刚才开始我就一直试图和港区取得联络，但是没能成功。",
+			say = "Speaking of which... As embarrassing as it is, I've been unable to reach the port for a while now.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果港区能够派出搜索队的话，搜索面积会更广，雪不归小姐也可能更容易被找到……",
+			say = "If they have dispatched a search party, it'll be easier to locate your lost friend with more eyes on the sea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "原来如此……如果能顺势找到{namecode:11:晓}的同伴们的话，问题就能一口气解决了呢！",
+			say = "This situation should be resolved very quickly if we can group up with the search party, then.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 11000020,
-			say = "呼，这样看来现在是行动的良机。事不宜迟，既然已经决定了，那就马上行动吧。",
+			say = "Phew. Then now is the time to act. Make hay while the sun shines, as they say.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:11:晓}小姐，你能教我们怎么使用舰装吗？",
+			say = "Akatsuki, would you mind showing us how to equip these riggings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，没问题！",
+			say = "Oh, sure!",
 			painting = {
 				alpha = 0.3,
 				time = 1

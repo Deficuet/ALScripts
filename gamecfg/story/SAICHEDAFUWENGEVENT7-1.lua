@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "参观赛车场，获得了纪念品【快速完成工具*1】"
+			say = "You visited the circuit venue and got a souvenir! You received 1 Quick Finisher!"
 		}
 	}
 }

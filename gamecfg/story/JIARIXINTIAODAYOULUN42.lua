@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"假日！心跳！大邮轮！\n\n<size=45>水色间的游曳</size>",
+					"Pleasure, Leisure, and Treasure\n\n<size=45>42 A Glimpse of Greatness</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
-			say = "在一处浴池中，我终于发现了{namecode:81:土佐}的身影——",
+			say = "I walk around in search of Tosa. In the private bath, I finally manage to find her.",
 			bgm = "story-niceship-soft",
 			typewriter = {
 				speed = 0.05,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "指挥官……？ 你不是应该和她们一起准备舞会的事么？",
+			say = "Commander? Shouldn't you be preparing for the dance?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实——",
+			say = "Actually...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "原来如此，因为发现我不在了，所以你来抓我回去么？",
+			say = "Oh. So you noticed I was gone and came here to take me back to the venue?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原本是这么打算的，但是中途就放弃了。",
+			say = "That was the plan, but I've given up on that by now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然你会选择中途离开，就证明你不是很想参与，所以我只是想确认下你现在的状态。",
+			say = "I think you left because you're not interested in joining the dance. So now I'm just here to check on you personally.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "呼……好吧，我还以为我躲得很好呢，看来也没那么好。",
+			say = "Hmm, really? I thought I'd be able to wait out the storm here, but I guess not.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,26 +169,11 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "你是怎么知道我在这里的？",
+			say = "So, how did you figure out I was here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_172",
-			actorName = "{playername}",
-			hideRecordIco = true,
-			actor = 900434,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这个……该怎么说，直觉吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +188,22 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你不喜欢那些繁琐的准备工作……所以我猜你会躲起来清净一下。",
+			say = "How? I guess... intuition?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_172",
+			actorName = "{playername}",
+			hideRecordIco = true,
+			actor = 900434,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "You don't take to trivial tasks... so I figured you must have gone somewhere looking for a change of scenery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "不愧是指挥官，直觉真准……",
+			say = "*sigh*... Nothing gets past you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "不过这么一来，你的直觉和我的想法不谋而合，岂不就成了心有灵犀么？",
+			say = "Oh, whatever. Your intuition was correct, so I guess that means you and I think alike, in a way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也许这是和{namecode:81:土佐}长时间相处久了的默契吧……？",
+			say = "Well, we've known each other for a long time now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵……原来如此。",
+			say = "Heehee. Let's go with that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "好吧。不过你现在既然来了，要不要和我一起泡一会？",
+			say = "Well, you've successfully checked up on me. Care to join me?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "反正你现在除了站在那里盯着我看，也没什么其他事做吧？",
+			say = "You can't do much but watch if you just stand there, no?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,11 +314,11 @@ return {
 			},
 			options = {
 				{
-					content = "点点头",
+					content = "Don't mind if I do.",
 					flag = 1
 				},
 				{
-					content = "这怎么可以呢！",
+					content = "Uhh, I dunno...",
 					flag = 2
 				}
 			}
@@ -332,7 +332,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这怎么不可以了？让你来你就来。",
+			say = "You wouldn't have said all that if you couldn't do it. Quit being indecisive and just get in.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "于是——我踏入了水池之中，和{namecode:81:土佐}一起享受这片刻的宁静。",
+			say = "I step into the bath and enjoy a moment's peace with Tosa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "透过水雾，隐约可见窗外透出的夜色与点点繁星。",
+			say = "Through the steam, I can see the stars dotting the night sky.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来，{namecode:81:土佐}等下还会去参加舞会么？",
+			say = "So are you sure you don't want to join the dance?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "……也许会改变主意去参加吧。",
+			say = "...If I feel like it, I might.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她说着，随意地将外袍往上拢了拢。",
+			say = "Upon saying so, she languidly pushes up her robe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "不过现在，要在这里好好欣赏风景。",
+			say = "For now, enjoy the scenery before your eyes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "邮轮虽大，却也喧嚣。能悠闲地欣赏这片夜空的机会却不多。",
+			say = "The cruise ship might be big, but it's noisy to match. You don't get many opportunities to quietly gaze at the night sky.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再度看向窗外，繁星跟随着邮轮一同前进着。",
+			say = "The stars seem to move in time with the cruise ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "水中的月影也随着波浪荡漾，在邮轮的灯照下泛出奇妙的蓝。",
+			say = "The moon's reflection dances on the waves, glowing under the ship's lights.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			actor = 900434,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一如眼前少女始终戴在头上的发饰的色彩。",
+			say = "It's an uncanny blue, reminiscent of her hair accessory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "远离尘嚣，置身于如此美景之中，就连心情也变得好了一些。",
+			say = "Taking myself away from the hustle and bustle and immersing myself in the sights makes me feel so much better.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			hidePaintObj = true,
 			actorName = "{playername}",
 			side = 2,
-			say = "嗯？……你之前不太开心吗？",
+			say = "Were you unhappy before, then?",
 			hideRecordIco = true,
 			typewriter = {
 				speed = 0.05,
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "这倒是没有，只是略感无趣罢了。",
+			say = "Not at all. I was just... a little bored.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "不过，即便是这样美丽的夜景，也还不足以让我彻底心情变好。",
+			say = "But even the beauty of the night sky isn't quite enough to excite me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,11 +569,11 @@ return {
 			},
 			options = {
 				{
-					content = "有什么能让你心情变好吗？",
+					content = "If you'd like me to help...",
 					flag = 1
 				},
 				{
-					content = "需要我为你做些什么么？",
+					content = "What should I do?",
 					flag = 2
 				}
 			}
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "当然。",
+			say = "Hmm... Good idea.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "常言说“心如镜而情如影，影动则心动，心动则镜迁”……",
+			say = "\"The heart is a reflecting pool, the moon's reflection mirrors your emotions. When one moves, the other dances in turn.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "对我来说虽然美景让人沉醉，但最重要的……果然还是有指挥官相伴。",
+			say = "Mesmerizing beauty is one thing... but having you by my side is much more important to me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "指挥官，方便的话能再陪我一会吗？",
+			say = "Care to stay a little longer, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "也许我们能做一些……更舒畅，让我的心情变得更好的事。",
+			say = "With you around, I think I can do something a little more exciting... a little more satisfying.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900434,
-			say = "不然，就太浪费这样美丽的夜色了——不是么？",
+			say = "I wouldn't want to put such a beautiful night to waste. Would you?",
 			painting = {
 				alpha = 0.3,
 				time = 1

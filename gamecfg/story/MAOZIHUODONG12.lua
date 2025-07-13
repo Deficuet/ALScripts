@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "bgm-cccp3",
 			dir = 1,
-			say = "啧…保持距离会收到光束攻击，试图近身又会被范围冲击击退，真是棘手…！",
+			say = "Son of a... Now we've also gotta keep an eye out for that new weapon they have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 107070,
 			dir = 1,
-			say = "那个光束…难道是闪电吗…？这里该不会是塞壬的秘密兵器试验场吧！？",
+			say = "Doesn't seem to affect my planes, at least. Anyone else reckon the Sirens use this place as a testing ground for their new technology?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，目标的机动能力似乎并不强，要绕开它么？",
+			say = "We won't know until we investigate further. What do you suggest, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "不行，现在花时间绕开的话，会被增援的塞壬舰队再次包围的",
+			say = "If they keep hitting us with that weapon, we'll be in deep trouble. In that case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "现在应该------",
+			say = "Now what...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,15 +80,15 @@ return {
 			},
 			options = {
 				{
-					content = "选用鱼雷进行攻击！",
+					content = "We'll take them out using torpedoes!",
 					flag = 1
 				},
 				{
-					content = "继续用轰炸机进行高空投弹！",
+					content = "Saratoga, target them with your airstrikes!",
 					flag = 2
 				},
 				{
-					content = "用战列舰主炮进行集中射击！",
+					content = "Bombarding them from afar will make short work of them!",
 					flag = 3
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "水面下移动的鱼雷确实能够躲过冲击，不过驱逐舰和巡洋舰目前根本无法近身到发射鱼雷的位置…",
+			say = "That is a great plan, but there is the risk that they'll surround us before we get within range...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
-			say = "高空投弹的精准度无法保证，面对塞壬精英单位将会消耗大量时间。不过也只能试试了么…",
+			say = "Roger! Give 'em hell, bombers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgm = "story-masazhusai",
 			dir = 1,
-			say = "指挥官，电力系统已经修复完毕，南达科他现在重新加入战斗序列",
+			say = "Let me handle it, Commander! My fire control just came back online!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "感谢各位在战斗中提供的宝贵数据，接下来的事就交给我吧",
+			say = "Turrets 1 through 3 are locked and loaded!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,22 +162,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "一号炮塔至三号炮塔全部装填瞄准完毕",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 105140,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "MK6，主炮齐射，开火！",
+			say = "Mark 6 guns, take aim and fire!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +176,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "高速飞行的炮弹，撕开了敌人的防御网，随着一连串剧烈的爆炸，海面上的塞壬舰船化成了燃烧着的残骸",
+			say = "South Dakota's volleys land a direct hit on the Siren wielding the strange new weapon while also tearing the enemy line to shreds. Fire and smoke envelop the waters where the Sirens stood.",
 			flashN = {
 				color = {
 					1,
@@ -241,7 +226,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "多么朴实无华，枯燥且无味的动能打击啊…",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,26 +242,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/boom2",
-			say = "……………嗯？爆炸声还没停止？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
 			actor = 702020,
 			dir = 1,
-			say = "这、这是——！？",
+			say = "Wha... What the hell?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +260,7 @@ return {
 		{
 			stopbgm = true,
 			side = 2,
-			say = "发生了什么！？",
+			say = "The ship is rocking! What's going on?!",
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
@@ -317,7 +288,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "不好，指挥舰发生了剧烈颠簸，脑袋…撞上扶手了",
+			say = "\"Urgh! *cough*! Crazy Sirens... Now you've really gone and done it!\"",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -341,7 +312,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "通讯器里也乱成了一团……被击中了么，发生了什么事？！",
+			say = "\"You leave me no choice! Sorry for this, but it's gotta be done!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +331,7 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "意识在…逐渐…",
+			say = "All of a sudden, I feel my consciousness begin to fade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +350,21 @@ return {
 			dir = 1,
 			side = 2,
 			blackBg = true,
-			say = "……………………",
+			say = "Rapidly... until everything goes black...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			blackBg = true,
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

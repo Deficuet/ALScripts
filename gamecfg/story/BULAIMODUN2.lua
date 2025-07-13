@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"谈心小屋，今日休假！\n\n<size=45>二　谈心小屋，营业中！</size>",
+					"Consultation Corner's Day Off\n\n<size=45>2 Open for Business!</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "终于到了线下谈心小屋营业的日子。",
+			say = "It's finally opening day for the consultation office.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "将指挥室留给布莱默顿和她的客人后，我便离开了。",
+			say = "I head out, surrendering my office to Bremerton and her clients.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "直到傍晚时分，在收到布莱默顿的消息后，重新回到了指挥室。",
+			say = "In the evening, she calls me and lets me know that I can come back.",
 			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "指挥官，你回来啦~！谈心小屋开业大成功噢！",
+			say = "Welcome back, Commander! The consultation office was a huge success!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那真是太好了。",
+			say = "That's great!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "环顾四周，指挥室中用来布置谈心小屋的那些摆件等等早已消失不见。",
+			say = "I look around. Every part of her setup is gone, as if it was never there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "我是全部收拾好了以后才叫你的，嘿嘿~",
+			say = "I cleaned everything up before I called. Heheh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你回来的时间正好，我刚把能让你帮我优化的建议筛选好，喏~",
+			say = "Good timing, though! I was just narrowing down the list of resolutions I wanted your opinions on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女晃了晃手中的文件。",
+			say = "She shows off a bundle of papers and waves it at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "辛苦了。流程方面的复盘呢？",
+			say = "Good work. In that case, should we do the review together as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "这部分其实我后来又想了想，决定自己先出一份复盘报告，自己反思总结一下~",
+			say = "Uh, about that... I was kind of thinking I should do it on my own first and put together my own thoughts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "等我写好复盘报告再来让指挥官帮忙~",
+			say = "I'll have you help me after I do that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "现在就先麻烦指挥官帮我看看这些建议有没有改进空间啦~！",
+			say = "Now, first things first... How do you think I can improve my problem-solving process? All opinions welcome!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "接过布莱默顿递过来的资料。",
+			say = "She hands over the documents, and I open them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,22 +217,22 @@ return {
 			hidePaintObj = true,
 			recallOption = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "从顶部抽一份",
+					content = "(Pick one from the top at random.)",
 					flag = 1
 				},
 				{
-					content = "从中间抽一份",
+					content = "(Grab one from the middle.)",
 					flag = 2
 				},
 				{
-					content = "从下方抽一份",
+					content = "(Pull one off the bottom.)",
 					flag = 3
 				}
 			}
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "翻开最上面的那份文件——咨询人：布里斯托尔。",
+			say = "I take a random sheet from the top of the bundle. Client: Bristol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "咨询问题：总感觉身体疲惫，精神不济。本人认为是太忙的原因，希望给到调节的方法。",
+			say = "Consultation: She's been exhausted lately. She considers herself too busy, so she's looking for help finding a solution to that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（太忙……？忙着调查不可思议事件么……？）",
+			say = "(Too busy? What, too busy investigating mysteries?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是建议她尝试将房间布置得干净清爽一些，换上更柔软的沙发和床之类的。",
+			say = "I suggested she clean her room and replace her couch and bed with softer ones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "然后多看看不同题材的小说，从中吸取成为更优秀的调查员的经验……",
+			say = "Then, she should read novels from various genres and broaden her horizons as an investigator.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之是通过这样那样的建议让她待在房间里休息一下……",
+			say = "Basically, I told her to stay in her room and rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "第二份文件上——咨询人：路易斯维尔",
+			say = "I choose one from the middle this time. Client: Louisville.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "咨询问题：经常忘记事情怎么办，希望给到解决方法。",
+			say = "Consultation: She wants help being less forgetful.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我推荐她先把需要备忘的事情记录下来，然后强迫自己从最重要的事情开始记起……",
+			say = "I recommended she take notes and force herself to memorize the things she cares the most about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如先好好记住跟指挥官相关的事情之类的……",
+			say = "For example, things related to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "第三份文件上——咨询人：济安",
+			say = "I pull from the bottom of the pile. Client: Chi An.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "咨询问题：如何快速提升自己的做饭水平？",
+			say = "Consultation: She needs a way to get really good at cooking as fast as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
-			say = "这个的话，建议还是多请教擅长烹饪的同伴呢，像龙武啦、女灶神啦……",
+			say = "She needs a skilled friend to teach her, of course. For example, Lung Wu or Vestal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有一点建议是，千万不要把练手用的菜肴给指挥官吃……",
+			say = "Of course, I did warn her not to feed you her practice dishes, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大概就是这样啦~下一份是……",
+			say = "That should do. Next...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在看完被布莱默顿筛选出来的全部资料后——",
+			say = "I've checked Bremerton's consultations to her satisfaction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这些建议其实都很有用，没什么需要我优化的地方。",
+			say = "This is all good advice. I honestly don't see anywhere I can contribute.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "真的吗？！",
+			say = "Really?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女原本有些忐忑的目光一瞬间亮了起来。",
+			say = "Her previously worried eyes open wide with joy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "看来线下的谈心小屋也能好好地解决大家的烦恼了~",
+			say = "So my consultation office can help people, after all!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "欸嘿嘿，当然啦，这次能成功也离不开指挥官的支持！",
+			say = "Ahaha~ But it only went so well thanks to your help, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "我现在就把我刚刚收好放在角落的东西搬回去，彻底把指挥室还给你哦。",
+			say = "Here, I'll put everything back where it was. Your office will be all yours again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我帮你搬吧。",
+			say = "I'll help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "嘻嘻，指挥官so sweet~！",
+			say = "Hehe, thanks, Commander! You're too sweet♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "帮布莱默顿把物品搬回她的房间后——",
+			say = "The two of us hauled all the documents and decorations to Bremerton's room.",
 			bgm = "story-richang-8",
 			typewriter = {
 				speed = 0.05,
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "放这里就好了……谢啦！要不要喝杯饮料什么的~？",
+			say = "You can put it right there! Thanks, Commander! Want a drink before you go?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "啊！不好意思指挥官，又有消息了，我看看……",
+			say = "...Oh! Sorry, got another message... Let's see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,7 +639,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（第一时间就开始关注线上消息，看来今晚也不会好好休息吧。）",
+			say = "(She sure keeps an eye on those messages. I doubt she'll sleep well like that.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好了！消息回好了——！",
+			say = "Aaand, sent! Okay, all done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "我们刚刚说到哪里了？……啊，要不要喝杯饮料？",
+			say = "So, where was I...? Oh! Do you want a drink, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用。倒是你……谈心小屋举办完了，让自己放松一下吧。",
+			say = "I'm fine, thanks. You've had a long day today – you should really take a break.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,7 +692,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "嗯~？指挥官是在担心我吗？没事的。你看，我现在精神还很好哦~！",
+			say = "Hm? Are you that worried about me? I'm fine! See, I'm still full of energy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过既然指挥官都这么说了……",
+			say = "But if you say so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "之后找天你有空的时候，我们去约会吧♡",
+			say = "Heheh, go on a date with me next time you're off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "就当是为了让我好好放松的方式嘛~就这么说定了哦~！",
+			say = "You wanted me to take a break, riiight? Then it's a deal. See you then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"碳酸与红茶\n\n<size=45>九 一杯热茶</size>",
+					"Tonic and Tea\n\n<size=45>9. Your Cup of Tea</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 205015,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "哦哦！仆从你来得正好！我们店里刚推出了新服务！",
+			say = "There you are, servant! You're going to test a new teahouse service we're working on!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
-			say = "一进入店中，就被热情的伊丽莎白拉向了包间。",
+			say = "The moment I set foot inside The Royal Tea, Elizabeth begins shouting at me from her executive throne.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你可没有拒绝的权利！赶快体验一下然后告诉本店长感觉如何吧？",
+			say = "Hurry up and follow the maids! You have no power to refuse our kind offer!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
-			say = "面前，是身着女仆装正在准备茶点的豪和佩内洛珀。",
+			say = "I'm shown to a separate room. Howe and Penelope are setting the table for a tea party.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -120,8 +120,8 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "这就是本店新推出的贵族体验服务，本次用餐将会有三位专属女仆对你进行服务哦，感动吧，仆从！",
+			actorName = "Queen Elizabeth",
+			say = "Here it is – our deluxe service! An extravagant tea party with 3 of our maids!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			},
 			options = {
 				{
-					content = "三位女仆？",
+					content = "\"3? I only count 2.\"",
 					flag = 1
 				}
 			}
@@ -143,8 +143,8 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "豪、佩内洛珀、还有女仆体验中的本王！",
+			actorName = "Queen Elizabeth",
+			say = "How dare you overlook ME! Can't you see my maid uniform?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,24 +158,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
-			say = "记得伊丽莎白现在已经挂着体验店长的头衔了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "体验店长兼！体验女仆！",
+			say = "\"Oh, right. If I remember right, didn't you say at some point you wanted to see for yourself what it's like to be a maid?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,36 +174,8 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "在此发号施令，就是本店长兼女仆在本次服务中的工作！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_coffeetea_2",
-			say = "有些难懂，不过很有伊丽莎白的风格。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_coffeetea_2",
-			say = "坐在舒适的座椅上欣赏着佩内洛珀与豪泡茶时的样子——",
+			actorName = "Queen Elizabeth",
+			say = "Indeed I did! I am presently serving the roles of queen, teahouse manager, and maid all concurrently!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,8 +191,53 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "豪",
-			say = "佩内洛珀，茶不要倒得太多，大概七分满就可以了哦。",
+			actorName = "Queen Elizabeth",
+			say = "By serving as a maid, I learn first-hand what my staff's responsibilities are. Accordingly, I am better able to manage the teahouse!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_coffeetea_2",
+			say = "While I'm not sure I follow her train of thought, I'll take her word for it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_coffeetea_2",
+			say = "I turn my attention from Elizabeth to Howe and Penelope, watching quietly while they put things down on the table.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_coffeetea_2",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Howe",
+			say = "Stop once the cup is three quarters full, Penelope. Don't overpour.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,8 +253,8 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佩内洛珀",
-			say = "嗯……七分满……七分满…………",
+			actorName = "Penelope",
+			say = "Three quarters... Got it. Three quarters...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,8 +270,8 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佩内洛珀",
-			say = "制作完成……请指挥官用茶。",
+			actorName = "Penelope",
+			say = "Here you are, Commander. I hope it is to your liking.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,52 +285,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
-			say = "诶……好像还没有点过单呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#a9f548",
-			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "自然是本店长替你点了！选的是最适合仆从今天饮用的茶！你尽管享受就是~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_coffeetea_2",
-			say = "接过了佩内洛珀递来的茶杯，轻抿一口热茶——茶香浓郁，妙不可言。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_coffeetea_2",
-			say = "联想到佩内洛珀与豪不久前泡制的身影，这杯茶似乎更有滋味了。",
+			say = "\"Thanks. Hang on... It just struck me I haven't ordered anything yet.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,8 +301,36 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "哼哼，看仆从的表情，已经充分享受到这项服务的美妙之处了呢。",
+			actorName = "Queen Elizabeth",
+			say = "You are already being served! I expect you'll enjoy the tea. I also expect some appreciation once my prediction proves right. Now drink!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_coffeetea_2",
+			say = "I do as urged and drink the tea Penelope poured for me. It tastes pretty good. I'd gladly have another cup.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_coffeetea_2",
+			say = "\"It's good. Doesn't quite hold up to the Royal Maids' high standards, but even so, I can taste how much effort you and Howe put into this.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,8 +346,25 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "伊丽莎白女王",
-			say = "什么都不用多说，本王可是有整整一支女仆队呢，自然是懂得。",
+			actorName = "Queen Elizabeth",
+			say = "Well? Satisfied with our service? I thought so!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#a9f548",
+			bgName = "bg_coffeetea_2",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Queen Elizabeth",
+			say = "Being so accustomed to the Royal Maids' splendid work, I of all people would know what constitutes good service!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,8 +380,8 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "佩内洛珀",
-			say = "能合您的口味真是太好了……那么我去准备下一杯。点心的服务交给你可以么，豪？",
+			actorName = "Penelope",
+			say = "I'm just glad you liked it... That covers the tea, now let's get you some dessert. Howe, go ahead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,8 +397,8 @@ return {
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "豪",
-			say = "没问题，就让我来为指挥官服务吧~",
+			actorName = "Howe",
+			say = "Right. Stay put and I'll bring you some cookies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
-			say = "点心的服务……？",
+			say = "\"Cookies are part of the package?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,13 +424,13 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "伊丽莎白女王",
+			actorName = "Queen Elizabeth",
 			bgName = "bg_coffeetea_2",
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "这个你过一会就知道了~时间还很多，请慢慢享受哦~",
+			say = "Correct! We're only getting started here, servant! Brace yourself for an evening of desserts and entertainment!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

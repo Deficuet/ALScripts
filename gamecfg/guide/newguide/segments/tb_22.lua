@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭窗口",
+				text = "Tap your screen to return.",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "系统升级后，行动力上限也提升了哦。",
+				text = "You have reached a new growth stage and your action points cap has increased.",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -42,7 +42,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "接下来，点击<color=#39bfff>行程计划</color>按钮",
+				text = "Tap the Weekly Schedule button.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -63,7 +63,7 @@ return {
 			delay = 0.5,
 			alpha = 0,
 			style = {
-				text = "此时，行程计划中开放了<color=#39bfff>第三行行程格</color>，在规划行程时还请注意哦",
+				text = "A third row of timeslots has been unlocked. Be sure to fill in your timeslots.",
 				mode = 2,
 				posY = -13.52,
 				char = 1,

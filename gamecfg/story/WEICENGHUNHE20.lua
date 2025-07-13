@@ -9,7 +9,7 @@ return {
 			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_underwater",
-			say = "巴拿马要塞东侧？ 稍早前",
+			say = "Canal Stronghold? - Out at sea?",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
@@ -36,7 +36,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_underwater",
 			dir = 1,
-			say = "水面之下，蓝鳃鱼正向着要塞的方向狂奔着。",
+			say = "Right before Intrepid and the others arrived at the Canal Stronghold...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 108040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终……终于甩掉了么，太好了！得赶紧告大家塞壬在水下的行动-----",
+			say = "Finally... I finally got them off my tail... I've got to hurry up and tell everyone about the Siren situation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "嗖—-嗖——-！",
+			say = "―――・―――・―――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 108040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些声音是…什么？！",
+			say = "This sound...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_banama_4",
 			dir = 1,
-			say = "深渊之中，无数的塞壬潜艇正结成长队正向要塞的方向移动着。",
+			say = "The sea shimmered with specks of mysterious light as a multitude of shadows approached the stronghold. Underneath them were countless Siren submarines.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_banama_4",
-			say = "仿佛迁徙中的深海鱼群一样无穷无尽，稍微盯着看一会，就会由心底感到毛骨悚然。",
+			say = "The mass-produced Sirens, moving like a school of fish, was an undeniably terrifying sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,41 +133,25 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "蓝鳃鱼",
-			bgName = "bg_banama_4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "什么时候绕到前面来的？！……完了……这怎么办啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_banama_4",
-			say = "这里距离要塞应该不远了，可是，由无数塞壬潜艇组成的屏障无论如何不可能突破过去的…",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			side = 2,
-			actorName = "蓝鳃鱼",
+			actorName = "Bluegill",
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "怎么办，就算在这里和塞壬同归于尽也帮不上要塞的大家多少忙啊，呜呜呜…",
+			say = "When'd they surround me...?! Shoot, is this the end? What should I do...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_banama_4",
+			say = "Even though the stronghold was not far away along the coast, Bluegill saw no way to break through the Siren encirclement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,11 +163,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "蓝鳃鱼",
+			actorName = "Bluegill",
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对不对，这群塞壬好像还没有发现我的行踪，难道说…其实我现在的位置才是最安全的？",
+			say = "If I fall here, I won't be able to get this information to my friends!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,11 +179,27 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "蓝鳃鱼",
+			actorName = "Bluegill",
 			bgName = "bg_banama_4",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎嘿嘿，这样的话……",
+			say = "...Wait a sec. Now that I think about it, none of them seem to know that I'm here. In other words, I should be safest right here...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 2,
+			actorName = "Bluegill",
+			bgName = "bg_banama_4",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "This'll do! If I remember correctly, that one large Siren was...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "蓝鳃鱼躲在礁石的阴影中凝视着塞壬的潜艇群，终于，她发现了一个异常的目标。",
+			say = "Concealed behind a reef, the small hunter carefully took aim.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好大…！这个就是指挥系统吧。",
+			say = "That one must be the flagship! ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 108040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果我在这里把塞壬的指挥官解决掉，进攻要塞的塞壬变得群龙无首，我们不就赢定了嘛！",
+			say = "If I can take it out, I'll be able to disrupt their command chain, and victory will be ours!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			actor = 108040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "以后这场战斗都会被大家称为“蓝鳃鱼式的胜利”了，哎嘿嘿嘿----",
+			say = "Okay! This one's called the Victory Snipe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦？起雾了…？不可能不可能，海水里怎么会起雾啊！",
+			say = "W-wait! Huh? Why is there a thick mist covering the ocean?!",
 			effects = {
 				{
 					active = true,
@@ -336,7 +336,7 @@ return {
 			actor = 108040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这究竟是------",
+			say = "What's going on... Woooooahhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 108040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哇啊啊啊啊啊啊----------------------",
+			say = "Aaaaaahhhhh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "在发动攻击之前，蓝鳃鱼的视野被突然出现的白色覆盖，然后身体就像被扔进了滚桶中一样，天旋地转起来。",
+			say = "Bluegill's vision turned white as a raging torrent consumed her, as if a washing machine was tossing her around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			say = "等再次回过神来的时候…",
+			say = "After a while, when the waters finally calmed down...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -435,7 +435,7 @@ return {
 			actor = 108040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "疼疼疼…塞壬舰队怎么不见了…这是在哪儿啊…",
+			say = "Owwie... Huh? Where'd the Siren fleet go? Where am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			bgName = "bg_underwater",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？！喂~~~喂~~~~！？前方正在游泳的是无畏么？！",
+			say = "Wait... Is that Intrepid over there?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

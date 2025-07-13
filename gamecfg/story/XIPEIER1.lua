@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"幸福的范式\n\n<size=45>一 比以往更加…</size>",
+					"Paradigm of Happiness\n\n<size=45>Chapter 1 - Moreso than Usual...</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室外",
+			say = "Port - Outside the Office",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "现在的秘书舰·{namecode:426}之妹，{namecode:425}级3号舰，{namecode:427}此刻正站在指挥室前。",
+			say = "One day, Prinz Eugen, third ship of the Admiral Hipper class and little sister to my secretary, was standing outside of the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,8 +61,8 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:427}",
-			say = "哎呀，guten Morgen，指挥官。今天起得还真够晚的嘛？姐姐已经气得不行了哦，她可是一直在等着你来呢~",
+			actorName = "Prinz Eugen",
+			say = "Oh my. Guten Morgen, Commander. Aren't you quite the sleepyhead today~ You have no idea how pouty my poor sister was, having to wait for you this whole time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,8 +78,8 @@ return {
 			bgName = "bg_main_day",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:427}",
-			say = "呵呵，应该是很想让指挥官好好看看她作为秘书舰优秀的一面吧？既然人来了，我就先走咯。姐姐就交给你应付了~",
+			actorName = "Prinz Eugen",
+			say = "You know, she really wants to make a good impression on you as your secretary~ In any case, I need to get going. Have fun, you two... Hehe~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			say = "似乎已经能看到进指挥室后{namecode:426}愤怒的神情了…下定决定推开门——",
+			say = "As soon as I heard those words from Prinz Eugen's lips, I already could picture Hipper's furious expression in my mind... Nevertheless, I took a deep breath and pushed the office doors open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,10 +112,10 @@ return {
 			actor = 403010,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "{namecode:425}",
+			actorName = "Admiral Hipper",
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…啊！！来、来得也太晚了吧，你这瞌睡虫！打算让我等多久啊！",
+			say = "H-hey...! Y-you sure took your sweet time today! Do you know how long I've been waiting here?",
 			flashout = {
 				black = false,
 				dur = 0.5,
@@ -158,8 +158,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:425}",
-			say = "哈啊？想要我喊你起床？蠢、蠢货！对着秘书舰说什么傻话呢！",
+			actorName = "Admiral Hipper",
+			say = "Eh? You wanted me to come wake you up? Excuse me? Wh-who do you take your secretary for?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一边安心于{namecode:426}一如既往的反应，一边坐了下来。",
+			say = "I sat down, sighing a breath of relief, knowing that Hipper is acting the same as always.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,8 +185,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:425}",
-			say = "…………（偷看）",
+			actorName = "Admiral Hipper",
+			say = "...(Glances sideways)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "这被人盯着的感觉……",
+			say = "She's staring at me intently...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,8 +222,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:425}",
-			say = "干、干嘛啦？给我集中精力好好工作！还是说…你有什么别的重大事项要宣布……？",
+			actorName = "Admiral Hipper",
+			say = "Wh-what's your deal? Focus on your work already! Or... did you have something more important to tell me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,8 +249,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:425}",
-			say = "……哈，哈啊！？才没有看你咧！谁会没事盯着你这种人看啊！你才是，一副若无其事的样子！明明这边一直都……",
+			actorName = "Admiral Hipper",
+			say = "...Wh-what?! Staring? Was not! Who would stare at the likes of you?! And you, how can you act like nothing just happened?! I was worried that something bad had...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,8 +276,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:425}",
-			say = "啊啊真是的，好不容易集中起来的精神状态都没了！我稍微出去呼吸下新鲜空气！先说好这可不是偷懒哦！！",
+			actorName = "Admiral Hipper",
+			say = "Ah geez, I completely lost my work rhythm because of you! I'm heading out real quick for some fresh air! B-but you'd better not assume I'm slacking off or anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "连珠炮般说完，{namecode:426}跑出了指挥室。",
+			say = "After firing those words out of her mouth like a machine gun, Hipper darted out of the office.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,8 +320,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:427}",
-			say = "哎呀…想说把之前的报告拿过来，就发现{namecode:426}跑了出去…指挥官？现在是什么情况？",
+			actorName = "Prinz Eugen",
+			say = "Oh my... I was about to bring over the previous report, but saw Hipper running down the hall... What'd you do this time, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,11 +332,11 @@ return {
 			},
 			options = {
 				{
-					content = "「不清楚」",
+					content = "\"No clue.\"",
 					flag = 1
 				},
 				{
-					content = "「惹恼她了？」",
+					content = "\"I ticked her off, apparently?\"",
 					flag = 2
 				}
 			}
@@ -347,8 +347,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:427}",
-			say = "呵呵、一脸搞不清楚状况的表情呢，果然像是指挥官会有的反应啊~",
+			actorName = "Prinz Eugen",
+			say = "Hehe. Clueless as ever, I see. But that's very much like you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,8 +364,8 @@ return {
 			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
-			actorName = "{namecode:427}",
-			say = "别看姐姐那样，该害羞的时候还是会害羞的哦？",
+			actorName = "Prinz Eugen",
+			say = "Despite how she acts, my sister can be really bashful, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:428}露出一副了然于心的微笑，究竟是什么情况…？",
+			say = "Prinz Eugen smiled at me with warmth and compassion in her eyes. What is going on today...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

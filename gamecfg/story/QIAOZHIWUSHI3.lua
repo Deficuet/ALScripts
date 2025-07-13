@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"另一个领导者？\n\n<size=45>三　女王陛下</size>",
+					"Another Leader?\n\n<size=45>Chapter 3 - Her Majesty</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·皇家宿舍",
+			say = "Port - Royal Navy Dorms",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "某日，路过皇家宿舍的时候，忽然听到里面传来怒吼。",
+			say = "One day, I suddenly heard Queen Elizabeth's distinctive voice as I passed by the Royal dorms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "star_level_bg_107",
 			actorName = "？？？",
 			dir = 1,
-			say = "这是什么啊，乔治！",
+			say = "What's the meaning of this, George!?",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -84,7 +84,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "似乎是伊丽莎白正在大发雷霆的样子，而对象似乎是……乔治五世？",
+			say = "To say that the Queen was not very happy would be an understatement, and the target of her anger was... King George V?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "过去看看吧。",
+			say = "I had to see what was going on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "餐厅中，伊丽莎白正在对着一盘鲜红的料理不停地吐着舌头。",
+			say = "When I entered the room, I saw Queen Elizabeth flushed and sweating profusely, trying to fan her tongue as she sat in front of a plate of supernaturally red food.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这这这、这是什么东西啊，怎么会这么辣！你不是说不辣的吗！",
+			say = "Wh-wh-what is this dish? You said it wouldn't be spicy at all and I believed you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "水，贝尔法斯特，快给本王水！",
+			say = "Bel! Hurry and get me water, right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "遵命。",
+			say = "As you wish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，这道菜是我问东煌的同僚们学来的，叫做麻婆豆腐。",
+			say = "Your Majesty, this is authentic \"mapo tofu\" recipe I learned from the girls of the Dragon Empery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "她们向我介绍的时候是说“习惯了就不辣”的，这点应该跟陛下说过了吧……？",
+			say = "They told me that \"you'll stop tasting the spiciness after your mouth goes numb.\" Perhaps I should have relayed that message, Your Majesty...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			say = "虽然好像是这么回事……",
+			say = "Probably would have been a good idea...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "可恶……虽然很辣……但是居然还有点好吃……",
+			say = "Ughh... so spicy... but there does seem to be a nice flavour lingering in my mouth...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，水。",
+			say = "Your Majesty, the water.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -307,7 +307,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "伊丽莎白接过水后，一口喝下，然后继续与面前的麻婆豆腐奋战起来。",
+			say = "Queen Elizabeth gulped down the glass of water, and immediately afterwards, continued her showdown with the mapo tofu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "陛下，我还从其他阵营那里学了不少有趣的菜式。",
+			say = "Your Majesty, I've actually learned a variety of different dishes from the various camps here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳咳……呼，辣死本王了……不过，本王要一个一个尝试过去！",
+			say = "We'll talk about it later! Ack...! I can't feel my tongue!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没问题~",
+			say = "In that case, excuse me. Please enjoy your meal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哦？指挥官，你也来了……你看到刚才了吗？",
+			say = "Oh, what's this? Were you watching us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "Nod...",
 					flag = 1
 				}
 			}
@@ -396,7 +396,7 @@ return {
 			actor = 205050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呵呵，不过是一点兴趣而已。“人是铁饭是钢”——我听说东洋有这么一句谚语",
+			say = "Ah, it is but a small hobby of mine. Have you heard of the saying, \"an army marches on its stomach?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，即使是普通的用来填饱肚子料理……做的美味一点也无妨吧？",
+			say = "Having that said though, even if we're just eating to survive, it can't hurt to make things a bit tastier, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			bgName = "star_level_bg_107",
 			dir = 1,
 			blackBg = true,
-			say = "就在那时，对陛下的忠臣之心和料理人之魂（？）——在乔治五世的伟岸的背影后茫茫闪烁着",
+			say = "At that time, I swore I could almost see the warrior-chef's soul burning bright in her chest, full of loyalty for her Queen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

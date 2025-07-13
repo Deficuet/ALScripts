@@ -7,7 +7,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "一名优秀的指挥官应该不断挑战自己的极限喵！",
+			say = "A talented Commander should constantly challenge himself to his limits!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "——就是那个挑战喵！让{namecode:98}看看指挥官的毅力喵！",
+			say = "--- Now that’s a challenge! Let {namecode:98} witness firsthand your determination and perseverance!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "有缺什么就来{namecode:98}这看看，{namecode:98}会尽力支援指挥官的喵！",
+			say = "If you’re short on equipment then come find {namecode:98}, she will support you, Commander, to the best of her abilities!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 312010,
 			side = 2,
 			dir = -1,
-			say = "首先是商船护送喵！加油奋斗喵！",
+			say = "Firstly, let's escort those cargo ships. C’mon, to battle! Growl~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

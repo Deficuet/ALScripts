@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我想和Honey更亲近一些……",
+			say = "I want to be even closer to you.",
 			voice = "event:/dorm/drom3d_Newjersey_other/drom3d_NewJersey_ik_gfit2_tone3",
 			typewriter = {
 				speed = 0.05,

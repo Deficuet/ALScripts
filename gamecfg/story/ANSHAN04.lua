@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鞍山的绘图日记\n\n<size=45>四　大家的绘图本</size>",
+					"An Shan's Coloring Book\n\n<size=45>Chapter 4 - Drawing Together</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "总觉得…越来越热闹了呢",
+			say = "With all of us together like this... I think we're causing a lot of noise.",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "诶嘿，大家一起才好玩呀~",
+			say = "It's fine, no big deal! They say the more, the merrier, right?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这里让平海来涂~",
+			say = "I'll color this part~",
 			shake = {
 				speed = 5,
 				number = 3
@@ -79,7 +79,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "平海这孩子，跟抚顺玩得特别好呢",
+			say = "Ping and Fu Shun play together like they're on the same wavelength...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "真是对不住…宁海姐姐，我们家抚顺给你们添麻烦了",
+			say = "Ning... Let me say I'm sorry for Fu Shun causing you so much trouble...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "鞍山姐姐，担心太多会长皱纹的哟",
+			say = "An Shan, if you worry so much all the time, you'll develop wrinkles on your face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "哈啊…也不想想是谁让我整天这么多担心…",
+			say = "Sigh... And who do you think is making me worry so much in the first place...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈，鞍山也真是辛苦了啊",
+			say = "Ahahah, you must have it really tough, An Shan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过，看她们玩得这么开心，很多东西也就不那么重要了呢",
+			say = "But still, we should let everyone enjoy themselves and not fuss over the details, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "啊哈哈…宁海姐姐说的是…",
+			say = "Ahahaha... You're totally right, Ning.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "好~我也要涂~这里让我来~",
+			say = "Alright, I'll join in! Let me handle this part!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "那、那我也——",
+			say = "O-okay... I'll join in, too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

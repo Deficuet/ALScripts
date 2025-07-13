@@ -10,7 +10,7 @@ return {
 			side = 2,
 			bgm = "hunhe-battle",
 			dir = 1,
-			say = "嗡---------",
+			say = "――――",
 			effects = {
 				{
 					active = true,
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬轰炸机，从什么时候绕过来的？！",
+			say = "Siren aircraft incoming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 102260,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "休想得逞，看招！",
+			say = "Just leave it to me!",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -99,7 +99,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "数架利用迷雾掩护的轰炸机试图对邦克山发动最后的偷袭，然后在里诺及时而凶猛对空火力下变为了一团团燃烧的残渣。",
+			say = "The enemy's aerial ambush was quickly mowed down by the combined anti-air fire of the Atlanta and Oakland-class ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			actor = 107170,
 			dir = 1,
-			say = "多谢，在战斗结束的时候因为偷袭挂彩可划不来。",
+			say = "Thanks for covering us, Reno.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			actor = 103240,
 			dir = 1,
-			say = "我这也搞定了！刚刚那招很帅哦，里诺！",
+			say = "We've destroyed the enemies over here too!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "我可是专防空特化的亚特兰大级，英雄们的后背放心交给我来守护吧。",
+			say = "No luck over here... Doesn't look like this was the enemy's command ship either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			actor = 106550,
 			dir = 1,
-			say = "周围没有发现更多塞壬靠近的迹象了，战斗暂时结束。要先回要塞补给一下么？",
+			say = "Another miss. The mist still hasn't cleared up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "迷雾还没消散，恐怕没这么简单…听----",
+			say = "Damn... Even if head back to the stronghold, nothing will have changed...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			actor = 102260,
 			dir = 1,
-			say = "唔，这个声音…是Last Boss登场的声音么？",
+			say = "Shh... I hear something...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不对，声音越来越大了。这个声音是…波涛的咆哮声！大家稳住，巨浪要来了--！",
+			say = "I hear it too. It sounds like... the rushing of water... and it's getting closer and closer...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 106550,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎哎？！怎么平白无故海面上会出现滔天巨浪啊！",
+			say = "What?! Everyone, look out, it's a tsunami!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			actor = 103240,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "总感觉是冲着我们来的，大家注意规避，千万别被卷到海底进去哦！",
+			say = "How does a huge wave like this appear out of nowhere?! Hang on, everyone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "滔天的巨浪与浓密的海雾，仿佛整片大海都成为了敌人。众人就像落入了捕食者的巨口中一样，全力避免着被吞噬的命运…",
+			say = "The ships were desperately hanging on as a wall of water began to swallow the mass-produced Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

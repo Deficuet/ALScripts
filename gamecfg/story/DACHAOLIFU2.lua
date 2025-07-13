@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"心血来潮的夜宴\n\n<size=45>二 Prost！</size>",
+					"Swept Away in the Moment\n\n<size=45>Chapter 2 - Prost!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在这场铁血之宴的某个角落，同样是惯例般的光景，也在静静地展开——",
+			say = "Now, as for the ways to enjoy oneself at this party...",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼呼…这些可都是为了这样的日子特意准备的好东西呢，大家请尽兴～",
+			say = "Hehehe... I've been saving all these drinks just for this occasion. Today, I can drink as much as I please.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔，{namecode:428}，虽说宴会可以适当纵情…你这是不是太放开了一点……",
+			say = "Eugen, isn't that a little overboard? Soon you'll make a habit of drinking yourself senseless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，早就听重樱的同伴说过，{namecode:428}小姐喝起酒来非常“豪迈”……",
+			say = "My sisters did say ya like to drink a whole bunch, but wow...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今天算是百闻不如一见了呢～",
+			say = "Didn't really believe it till I saw it, I suppose~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 905011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼，比起那种束手束脚的正式宴会，还是这种纵情饮酒的氛围更让人感到舒服",
+			say = "What's the big deal? I'd also rather have as much as I want than be tied down by some arbitrary code of conduct and not even be able to enjoy a glass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 905011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "“铁血之宴”吗……就这方面来说，倒是挺对我胃口的",
+			say = "Honestly, I like how sensible the Iron Blood is when it comes to this kinda stuff.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀，那还真是万分荣幸呢，如果不嫌弃的话，再多来几杯如何？",
+			say = "Haha, I'm delighted that we're in agreement. Say, would you be interested in some of this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然异邦的美酒也不错，不过，还是铁血的酒最让人停不下来呢～",
+			say = "The Vichya Dominion makes fine liquor, but it wouldn't hurt to try what the Iron Blood has to offer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你也一起来吧，重樱的小姑娘～光是说话多没意思～",
+			say = "And you... Ooshio, was it? How about a drink?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 905011,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哼……",
+			say = "Good point. I wouldn't mind a taste.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 301642,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "哎呀～谢谢～",
+			say = "I'd be right happy to~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 405022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "曾经的我，一定无法想象有一天能有这样的光景吧……",
+			say = "Hm... I must say, I never imagined I would feel at home in a situation like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 405022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "能和同伴们纵情痛饮的温暖时光……",
+			say = "That is, drinking with good company simply to have a good time, rather than to be polite...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 403033,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:436}～在闷头想什么呢～再来喝一杯～",
+			say = "Oh, Tirpitz, what are you saying? Stop sweating the small stuff and just knock back a glass.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……嗯，来了",
+			say = "Hm... You're right. I'll try not to think too much.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

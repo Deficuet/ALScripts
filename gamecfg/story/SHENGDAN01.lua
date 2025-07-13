@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"爱与和平的圣夜祭\n\n<size=45>一　摄影大会！</size>",
+					"The Holy Night of Love and Peace\n\n<size=45>Chapter 1 - Holy Night Photo Shoot!</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿嘿，今天的小加加还是那么可爱呢~——",
+			say = "Guhehe, Sara's just as cute as ever~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇！……原来是指挥官啊，别在人家正在想事情的时候吓人嘛",
+			say = "Wah! ...Oh, it's just you, Commander. Don't just approach people out of the blue when they're thinking about stuff!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "欸？这个是…最新型的相机？送我的！？",
+			say = "Huh? This is a... brand new camera? And you're giving it to me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞礼物？啊~这么说差不多又是这个日子了呢~",
+			say = "It's my Christmas present? Oh right! Come to think of it, Christmas is just around the corner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？代替不能亲自四处走的指挥官，留下大家的圣诞记忆？",
+			say = "Hm? You want me to take photos of everyone's Christmas experience this year?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，我明白了！给我几分钟~~",
+			say = "Alright, you got it! Just wait here a sec~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "锵锵~节日特派记者格里德利，准备出发啦~",
+			say = "Tadaaah! Christmas Photography Mode Gridley, ready to go!",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "圣诞特别摄影大会，开始~",
+			say = "The Holy Night Photo Shoot Extravaganza begins now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

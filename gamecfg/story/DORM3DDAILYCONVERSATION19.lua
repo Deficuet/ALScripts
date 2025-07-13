@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯？{dorm3d}想知道天狼星有没有考虑过换个发型？",
+			say = "Have I ever thought about restyling my hair, you ask?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这倒是没有考虑过呢……毕竟短发方便打理，也不会影响战斗。",
+			say = "I can't say I have. Short hair is simple to maintain and doesn't get in the way during combat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "真是实用主义的发言啊。",
+			say = "Can't deny that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为了更好的侍奉{dorm3d}，节约自身一切不必要的时间也是女仆的必修课哦。",
+			say = "Cutting down on time wasters in order to provide better service is compulsory for a maid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "而且，天狼星也希望侍奉在您身边的时间能够更长一些，我骄傲的{dorm3d}……",
+			say = "I want to be at your side, ready to serve as long as possible, my honourable {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

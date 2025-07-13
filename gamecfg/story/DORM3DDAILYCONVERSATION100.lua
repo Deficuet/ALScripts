@@ -2,24 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DDAILYCONVERSATION100",
 	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION100",
 	hideSkip = true,
 	hideAuto = true,
-	placeholder = {
-		"dorm3d"
-	},
-	placeholder = {
-		"dorm3d"
-	},
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，您身为指挥官，因为工作方面的需要也游历过许多国家……",
+			say = "主人，您身为指挥官，因为工作方面的需要也游历过许多国家……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +49,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "可以告诉天狼星，您眼中最美丽的风景在哪里吗？",
+			say = "可以告诉Sirius，您眼中最美丽的风景在哪里吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +58,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星会想办法让这里接近您记忆中的风景，这样您每次来也会觉得更惬意一些。",
+			say = "Sirius会想办法让这里接近您记忆中的风景，这样您每次来也会觉得更惬意一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +67,7 @@ return {
 		{
 			actorName = "指挥官",
 			nameColor = "#FFFFFF",
-			say = "比起这个，我更好奇天狼星眼中最美的风景是什么？",
+			say = "比起这个，我更好奇Sirius眼中最美的风景是什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +115,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "只要您出现在天狼星的视线范围内，那对天狼星而言就是最美丽的风景。",
+			say = "只要您出现在Sirius的视线范围内，那对Sirius而言就是最美丽的风景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +124,7 @@ return {
 		{
 			actorName = "指挥官",
 			nameColor = "#FFFFFF",
-			say = "天狼星……也有这么“肉麻”的时刻啊。",
+			say = "Sirius……也有这么“肉麻”的时刻啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +133,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "天狼星只是将心中的答案如实地传达给了您哦。",
+			say = "Sirius只是将心中的答案如实地传达给了您哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +172,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "无论何时何地，只要您出现，您耀眼的光芒就会成为天狼星眼中最美丽也是最极致的风景。",
+			say = "无论何时何地，只要您出现，您耀眼的光芒就会成为Sirius眼中最美丽也是最极致的风景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +220,7 @@ return {
 		{
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "也请让我永远永远，陪在您的身边——我骄傲的{dorm3d}。",
+			say = "也请让我永远永远，陪在您的身边——我骄傲的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

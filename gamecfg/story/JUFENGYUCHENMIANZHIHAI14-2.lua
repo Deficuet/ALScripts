@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "伴随着飓风船团的战斗，海雾中的光点以肉眼可见的速度消散着。",
+			say = "Tempesta gets to work, dispatching the monsters. The lights in the mist begin to disappear at a perceivable pace.",
 			bgm = "story-temepest-2",
 			typewriter = {
 				speed = 0.05,
@@ -39,12 +39,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的同伴，效率很高。",
+			say = "Those are powerful allies you have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,23 +54,23 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也有些，按捺不住了。",
+			say = "It's about time that I did something, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你要出击了？",
+					content = "Are you going to fight?",
 					flag = 1
 				},
 				{
-					content = "你要进食了？",
+					content = "Time to have lunch?",
 					flag = 2
 				}
 			}
@@ -78,13 +78,13 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			optionFlag = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍微，也想活动一下了呢。",
+			say = "Yes. To flex my muscles a bit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,13 +94,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			optionFlag = 2,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吃一点，就吃一点哦。",
+			say = "Yes. Just a little bite to appease my cravings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "紫色的火焰凭空出现，如同液体一般在空气中流动着。",
+			say = "The air around Fancy bursts into purple flames that spread out like waves.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "黑色的眼罩被火焰所点燃，露出了那双布满迷雾的双眼。",
+			say = "Her blindfold turns to ash, revealing the inhuman eyes below.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "少女的嘴角微微抿起，触手伴随着火焰向着海雾中肆意延伸。",
+			say = "Lips parted, she thrusts her blazing tentacles into the sea of mist.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,12 +161,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "寂静之灵",
+			actorName = "Silent Souls",
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
 			hidePainting = true,
-			say = "嘶——吼————",
+			say = "HISSSSS!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "被冠以“寂静之名”的灵魂，此刻正散发出痛苦的嚎叫声。",
+			say = "The deathly shrieks of the so-called silent souls echo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,12 +193,12 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			side = 2,
 			hidePainting = true,
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这便是“真实的我”。",
+			say = "This is my true form. My true form as an abyssal being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,12 +208,12 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			side = 2,
 			hidePainting = true,
-			factiontag = "深海魔物",
+			factiontag = "Abyssal Being",
 			dir = 1,
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自幻想之中诞生的魔物再次向你问好，{playername}阁下。",
+			say = "It's a pleasure to see you, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "在这首由战栗声与咀嚼声构成的交响乐中，海雾中的光点彻底消失了。",
+			say = "Water sloshes, explosions boom, and mandibles rip and chew. The lost souls are devoured with nothing left behind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

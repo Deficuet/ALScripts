@@ -11,10 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "我骄傲的{dorm3d}，天狼星刚好为您泡好了红茶，要不要品尝一下呢？就等您品尝之后，再让天狼星为您提供更多的侍奉吧~？",
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello6",
+			nameColor = "#FFFFFF",
+			say = "My honourable {dorm3d}, I just brewed some black tea. Would you like to partake? After you've had a drink, I'd be happy to provide you with further service.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

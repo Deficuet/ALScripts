@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "接下来请尝试打出各种指令，击败模拟中的敌方单位通过测试。",
+				text = "Make good use of your Command cards to destroy the enemy and finish the exercise!",
 				mode = 1,
 				posY = -220,
 				dir = -1,

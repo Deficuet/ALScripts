@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "设备已被破坏，正在对残余部分进行解析……",
+			say = "Siren device has been successfully neutralized. Commencing component analysis...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "警告:设备的警报装置已启动，塞壬舰队正在接近。",
+			say = "Warning: The device's built-in alarm has activated, and a Siren fleet is approaching.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,11 +37,11 @@ return {
 			},
 			options = {
 				{
-					content = "迎击",
+					content = "Intercept them.",
 					flag = 0
 				},
 				{
-					content = "离开",
+					content = "Evade them.",
 					flag = 1
 				}
 			}

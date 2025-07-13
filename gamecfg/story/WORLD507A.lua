@@ -9,11 +9,11 @@ return {
 			actor = 900227,
 			stopbgm = true,
 			bgName = "bg_burningsea_1",
-			actorName = "企业·META",
+			actorName = "Enterprise META",
 			dir = 1,
 			side = 2,
 			nameColor = "#ffa500",
-			say = "感觉怎么样？",
+			say = "How are you feeling?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,7 +39,7 @@ return {
 			actor = 9707020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "有种熟悉又讨厌的感觉……",
+			say = "Disgusted, in a familiar way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "哦对，来到这个阶段的实验场你还是第一次。",
+			say = "Ah, right. You've never been to a test site that's progressed to this stage before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 9707020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "你们已经经历了很多次了么……？",
+			say = "You mean to say you're used to this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "差不多算是吧~别忘了我们之间彼此不谈论过去的约定哦。",
+			say = "We agreed not to ask questions about each other's pasts. Don't forget that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 9707020,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "抱歉……",
+			say = "Sorry. It won't happen again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,8 +123,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "闲聊到此为止，敌人开始行动了。",
+			actorName = "Enterprise META",
+			say = "Save the chitchat for later. The enemy's coming.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 9707010,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "这么做果然还是太招摇了，这样下去仲裁机关到达也只是时间问题了哦。",
+			say = "Hate to be blunt, but we stick out like a sore thumb here. It's only a matter of time before the Arbiters come for us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,8 +157,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "既然决定留在这里，不管在哪里开都一样。",
+			actorName = "Enterprise META",
+			say = "It doesn't matter. They'll pursue us no matter what branch we escape to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,8 +174,8 @@ return {
 			bgName = "bg_burningsea_1",
 			side = 2,
 			dir = 1,
-			actorName = "企业·META",
-			say = "直到奇异点稳定之前，用任何方式拖下去……就是你们接下来的任务。",
+			actorName = "Enterprise META",
+			say = "Remember, our mission is to stall them by any means necessary until the Singularity stabilizes. That is all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 202120,
 			side = 2,
 			nameColor = "#a9f548",
-			say = "指挥官大人，感觉好些了么？",
+			say = "How are you feeling, Master?",
 			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
 			flashout = {
@@ -221,7 +221,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "感觉好多了——",
+			say = "Belfast and Vestal gave me first aid. I'm feeling much better now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,11 +232,11 @@ return {
 			},
 			options = {
 				{
-					content = "多亏贝法的照顾。",
+					content = "\"A lot better, thanks to you.\"",
 					flag = 1
 				},
 				{
-					content = "多亏女灶神的治疗。",
+					content = "\"Almost like new, thanks to Vestal.\"",
 					flag = 2
 				}
 			}
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 1,
-			say = "这是贝法作为女仆分内的工作，指挥官大人请不用客气。",
+			say = "Think nothing of it, Master. I simply did what is expected of a maid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
-			say = "呵呵，能在这种状况下遭遇到女灶神小姐的后勤舰队，我们的运气还真是出奇的好呢~",
+			say = "That is wonderful to hear. Miss Vestal truly outdid herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "喂……那边的庶民！梦也做的也差不多了吧？",
+			say = "Comma– Ahem! Servant! Are you all right? No lingering pain, I presume?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "外面出现了十分不得了的情况，我觉得你还是出来看看比较好！",
+			say = "Phew... You've recovered splendidly! Quickly now, see what's happening outside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "来到船舱外，映入眼帘的是一幅令人震惊的景象。",
+			say = "I got up on the deck of the mass-produced battleship and looked around. What I saw left my jaw agape in shock.",
 			flashout = {
 				black = true,
 				dur = 0.25,
@@ -346,7 +346,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "以咫尺的眼前为起点，以虚幻的地平线为终点。放眼望去，映入眼帘之物皆是漂浮的残骸。",
+			say = "Wrecks. Countless wrecks, littering the sea's surface all the way into the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "密度之大，需要舰队维持单纵阵，依靠量产型战列舰开路才能勉强继续前行。",
+			say = "So dense that our fleet has to use the bow of a ship to plow a way forward through the wreckage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，这种情况是半小时前开始出现的。",
+			say = "This started around half an hour ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "原本舰队一边戒备着敌人一边前进，可是预想中的伏击没有到来，取而代之的就是这些……残骸。",
+			say = "It began with just a few broken-off fragments floating in with the waves. Then more appeared, and then even more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "最开始只是随着海水飘来的一片、两片……然后是一团、两团……",
+			say = "Until eventually it got to the point where we are now, struggling to even move forward because of all the debris.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			side = 2,
 			actor = 102160,
 			dir = 1,
-			say = "仅仅在半个小时内，舰队就被残骸彻底包围了。",
+			say = "And to think they're all Siren wrecks... I suppose this explains where they all went.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如此惨烈的景象我也是第一次见。从这些残骸的量级上来看……与其说是战场，不如说更像是……",
+			say = "I've never seen such a gruesome sight before. Calling this the site of a battle doesn't do it justice...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			side = 2,
 			actor = 107060,
 			dir = 1,
-			say = "坟场……",
+			say = "It's more like the site of a one-sided slaughter. No... a dumping ground for their broken husks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "视野之中不存在任何敌人，存在的只是一望无际的残骸。",
+			say = "There was no hostility in Enterprise's or Memphis's voices. Everyone was simply in shock at what they were seeing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "残骸相互堆叠着，静静漂浮在诡异的海面上。",
+			say = "Layers upon layers of broken metal piled atop each other. No gunfire, no explosion, no screams. Only destruction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "虽然不时有碎片被舰队推开，相互刮擦发出朽钝的撞击声，但也很快继续归于宁静。",
+			say = "Metal screeches against metal as our ships slowly push past, like the groaning of a demon in the thralls of its final death. But before long, silence had returned.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "以眼前的氛围来说，称这里为坟场或许最为恰当。",
+			say = "If I had to describe this scene with just one word... it would be \"graveyard.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "………………",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "舰队保持阵型规避残骸前进。派出全部侦察机，尽快搞清海域状况。",
+			say = "I solemnly ordered the fleet to keep advancing in formation, launch additional recon planes, and gather intel on the sector as quickly as possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

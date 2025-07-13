@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"黄金的秘宝\n\n<size=45>一 黄金的秘宝·上篇</size>",
+					"The Golden Doubulin\n\n<size=45>The Golden Doubulin, Part I</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "某日？·港区",
+			say = "One day, at the port...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "buli~♪今天也要全力以赴地bulibuli~♪",
+			say = "Buli~♪ I'm gonna bulibuli as hard as I can today~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "buli？好像钻出了奇怪的信…？",
+			say = "Buli? I dug out a letter...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这…这是！？",
+			say = "Wow...!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -116,15 +116,15 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>「想要黄金的秘宝喵？」</size>",
+					"<size=51>\"Do you seek a golden doubulin nya?\"</size>",
 					1
 				},
 				{
-					"<size=51>「想要的话可以全部给你喵，去找吧！」</size>",
+					"<size=51>\"It could very well be yours nya, if you search it out!\"</size>",
 					3
 				},
 				{
-					"<size=51>「所有的宝贝都放在那里了喵！」</size>",
+					"<size=51>\"It's all there waiting for you nya!\"</size>",
 					5
 				}
 			}
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "buli？黄金的！？是像姐姐那样金闪闪的颜色吗！",
+			say = "Buli? Gold! Bright and sparkly like my sister, that kind of gold?!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然不知道是什么情况，不过感觉好厉害的样子！",
+			say = "I don't really get it, but it sounds Bulin awesome!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，不过“那里”是哪里buli？",
+			say = "Oh, but where is \"there\" buli?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "buli？信封里还有一张单独的纸条？难、难道说这就是…传说中的“线索”buli？",
+			say = "Buli? There's a scrap of paper in the envelope? I-is it... buli! It must be a clue!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "好！就让人家把传说中的秘宝buli出来吧buli！",
+			say = "Alright! I'll buli out that legendary treasure buli!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

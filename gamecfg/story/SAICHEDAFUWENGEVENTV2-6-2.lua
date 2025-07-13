@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "扬起的尘土中，意外发现了遗落的图纸，获得了【四星装备设计图纸*6】"
+			say = "You found some lost blueprints among a pile of junk. You received six SR gear blueprints!"
 		}
 	}
 }

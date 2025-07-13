@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日里的“惊喜”\n\n<size=45>七　爱斯基摩人的快乐</size>",
+					"Summer Surprise\n\n<size=45>7 What Fun Means to Eskimo</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "在少女们的欢声笑语中，不知不觉到太阳落山的时间了。",
+			say = "While everyone was having fun throwing snowballs at each other, the sun was beginning to set.",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "不得不说，在炎热的夏日里创造出短暂的冬季，这个想法真的很厉害。",
+			say = "I must say, I was impressed by the idea of turning a hot summer day into a little bit of winter. Definitely might be something worth repeating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，玩得真开心啊~指挥官怎么样，玩的开心么？",
+			say = "Phew... That was a lot of fun. So, what's the verdict, Commander? Had a good time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示玩得很开心",
+					content = "\"Sure did.\"",
 					flag = 1
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，那就太好了~太阳要落山了，大家都陆续回去，指挥官也快点回去吧。",
+			say = "Hehe, that's what I wanted to hear! The sun's about to set and everyone's planning to head back, so maybe you should as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我还要留在这里处理一下收尾工作，得把泳池恢复原状才是嘛~",
+			say = "I've gotta stay and clean up though. Have to return things the way you found 'em!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			},
 			options = {
 				{
-					content = "表示多一个人会收拾的更快",
+					content = "\"That'll go faster with two people.\"",
 					flag = 1
 				}
 			}
@@ -129,7 +129,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎？指挥官愿意留下来帮忙么，太好了~！那就让我们一起为这场惊喜画上句号吧。",
+			say = "Huh? You're gonna stay to help me? Hooray! Then, let's get this done!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "收尾工作花费了比预想中更多的时间，爱斯基摩人居然一个人就准备好了这些么。",
+			say = "The clean-up work took longer than expected. And to think that Eskimo set everything up all by herself...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "之前在准备的时候确实感觉好忙好累啊~不过只要能看到大家的笑容，这一切都是值得的！嗯！",
+			say = "Sure, getting everything set up was a bit difficult and had me real tired, but everyone was totally blown away! Seeing their smiles made all the hard work worth it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "只要大家能开心起来，我也能开心起来哦。",
+			say = "After all, seeing other people happy is what makes me happy as well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "像这样大家在一起热热闹闹的玩，对我来说就是最快乐的事~",
+			say = "Being able to play with everyone like this is the very definition of fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "说起来，指挥官喜欢什么鱼？",
+			say = "Oh, by the way, Commander, what's your favorite kind of fish?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "喜欢的鱼么，唔--------------",
+			say = "My favorite kind of fish...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,23 +252,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = " ......哎？为什么突然问起这种事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201320,
-			side = 2,
-			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "哼哼~一场惊喜的落幕，肯定预示着另一场惊喜的开始嘛~",
+			say = "Why would she ask me about that all of a sudden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +268,23 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "今后我还打算继续做更多能让港区的大家都能感到快乐的事哦！",
+			say = "Heheh, the end of this surprise marks the beginning of a new surprise~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 201320,
+			side = 2,
+			bgName = "bg_main_twilight",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I'm going to work harder and harder to make everyone happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "下次的话......就按之前本森提到过的，举办一场钓鱼大赛好了。",
+			say = "Maybe next time... I'll hold a fishing competition just like Benson wanted~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_main_twilight",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这一次，指挥官愿意陪着我一起准备么？",
+			say = "Commander, will you help me make that a reality too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "bg_main_twilight",
 			dir = 1,
 			blackBg = true,
-			say = "如果能让爱斯基摩人和港区的同伴感到快乐的话，这样的活动多来一些也无妨吧——",
+			say = "For the sake of seeing more brightly-shining smiles like Eskimo's... Maybe more events like this wouldn't be a bad idea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

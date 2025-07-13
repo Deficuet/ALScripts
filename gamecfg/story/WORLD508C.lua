@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-ashes-theme",
 			dir = 1,
-			say = "应对及时，但是无效。在你发动攻击前，我的战术就已经成功了。",
+			say = "Not bad, but it ends here. My web was already spun before you launched your first attack. Execute combat link protocol.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "机关系统IX=XIV连协干扰机制，启动。",
+			say = "On it! Executing IX-XIV Linked Jamming Protocol!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

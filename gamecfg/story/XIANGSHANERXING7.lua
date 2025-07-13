@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
-			say = "帕克菲克洋·铁血浮岛要塞群",
+			say = "Pacific Ocean - Iron Blood Floating Fortress",
 			bgm = "bsm-4",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安塔迪卡……又是安塔迪卡么。",
+			say = "Antarctica again, you say?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "是的。虽然观察者已经销声匿迹相当长一段时间了。",
+			say = "Yes. We've picked up Observer's trail.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,32 +70,7 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，通过近来一段时间，我们为试探其他海域的高阶塞壬进行的排除法作战。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
-			side = 2,
-			actor = 407030,
-			say = "我已基本可以确认，观察者的主机位于SA海域、中帕克菲克洋、陆间海以及安塔迪卡洋，四处海域之一。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 407030,
-			side = 2,
-			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "考虑到观察者做事周密又狡猾，且从来不亲自参加战斗的性格，",
+			say = "Our investigation led us to conclude her mainframe is somewhere in the South Atlantic, the Central Pacific, the Southern Ocean, or the Mediterranean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +83,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "人迹罕至，又同时与多片大洋相互连通的安塔迪卡洋无疑是其中的最优选择。",
+			say = "Having said that, it's been long since she last showed herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +95,32 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以我才认为，其主机位于安塔迪卡洋中的可能性最高。",
+			say = "She has almost never directly engaged us in combat before, so our intel on her is severely lacking.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_guild_red_n",
+			hidePaintObj = true,
+			side = 2,
+			actor = 407030,
+			say = "But, judging by her disposition, she's most likely hiding in an unexplored location that connects to another ocean.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 407030,
+			side = 2,
+			bgName = "bg_guild_red_n",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "If we narrow our scope down using those constraints, we're left with the Southern Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "……不知阁下说的“又”是指什么意思？",
+			say = "Also, if I may ask – why did you say, Antarctica \"again\"?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "其实，我这里也收到了一个和安塔迪卡有关的情报。",
+			say = "I've come across some odd intel about it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "前天收到审判庭发来的消息，她们的情报网络发现，北方联合和白鹰最近似乎都在围绕安塔迪卡做文章。",
+			say = "The Eagle Union and the Northern Parliament have been talking about Naval HQ doing something there. The Tribunal's intel network picked up on it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……难道她们也在找观察者的主机？",
+			say = "Are they searching for Observer's mainframe? No, wait, Naval HQ wouldn't be doing that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恐怕不是。",
+			say = "Exactly. We can rule that out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "昨日，我联系了科考站，让其调查一下安塔迪卡让白鹰和北方联合都如此在意的原因。",
+			say = "I asked some people stationed nearby to investigate, and not long after, an unusual thawing phenomenon was observed in an Antarctic mountain range.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "然后我收到了一份报告，科研团队在山脉中发现了一些异常的冰层融化区。",
+			say = "It seems they've discovered \"extraordinary crystals.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "并从其中回收到了某种似乎可以与舰装形成共鸣的矿物样本。",
+			say = "When they analyzed the sample they collected, they found out that these crystals seem to resonate with riggings.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "初步研究表明，共鸣现象发生时，舰装的作战效能有可见的提高。",
+			say = "They say it's capable of drastically improving a rigging's power output and combat performance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再之后，我就与科考站失去了联系。",
+			say = "After that... I lost contact with them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "和科考站失去了联系……？",
+			say = "Wait, they stopped responding to you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "白鹰和北方联合在安塔迪卡的行动，应该确实与此发现有关。",
+			say = "I could see why the Eagle Union and the Northern Parliament would also want to get their hands on the crystals, but I can't see them attacking us for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "但是我们的科考站失联……恐怕不是它们所为。",
+			say = "There are no Reenactments going on in that region either, for that matter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也是这么想的。在这个正在举行会谈的时间点，它们没理由也没动机做这种事。",
+			say = "I agree. It doesn't make sense to sour our relationship at the same time as the Commander is calling for all factions to reform the Azur Lane.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种抛出一个“变量”，引得各家之间心生嫌隙的操作……反而是让我想起来一个人。",
+			say = "That leaves only Naval HQ... or the Sirens. We should probably approach this as a conspiracy orchestrated by Observer.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "观察者……原来如此，这件事确实有可能和观察者存在关联。",
+			say = "It can't be a coincidence. Everything lines up too well. I certainly wouldn't put this past the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过……如果观察者的主机真的位于安塔迪卡洋的话，白鹰与北方联合的舰队岂不是危险了？",
+			say = "If this really is a trap to protect her mainframe, then our fleet is not the only one at risk. The Eagle Union's and the Northern Parliament's are, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "或许。你立刻准备舰队，前往安塔迪卡查明科考站失联的原因。",
+			say = "Precisely. I want you to form a fleet and head to our Antarctic research base at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "然后，根据事态发展——随机应变。",
+			say = "You'll have to improvise according to the situation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "遵命。",
+			say = "Got it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

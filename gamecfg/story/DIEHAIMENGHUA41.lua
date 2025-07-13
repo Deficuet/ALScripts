@@ -9,7 +9,7 @@ return {
 		{
 			bgmDelay = 1,
 			side = 2,
-			say = "重樱本岛·某处",
+			say = "Somewhere in the Sakura Empire's main island...",
 			dir = 1,
 			blackBg = true,
 			bgm = "bsm-2",
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "观察者你在听吧，给我出来。",
+			say = "I know you're there, Observer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "怎么大清早就把人家喊过来，我可是很忙的哟。",
+			actorName = "Observer",
+			say = "Hehe. How cautious of you if you're calling me to this place. Aren't you afraid of getting found out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "你从一开始就知道吧，「海若」与{namecode:182}诞生的关系，以及换掉海若后对{namecode:182}带来的影响！",
+			say = "You knew it from the very beginning. The connection between Watatsumi and Shinano's powers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,8 +88,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "呵呵呵，现在铁血送来了你想要的东西，{namecode:182}也提前苏醒了，我可一点都没骗你哦~",
+			actorName = "Observer",
+			say = "Is it my fault you never bothered to ask?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,8 +106,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "至于海若与{namecode:182}的关系，你之前也没有主动问我嘛。",
+			actorName = "Observer",
+			say = "Besides, what are you dissatisfied with? You got what you wanted from the Iron Blood, and Shinano woke up. I've been doing nothing but good here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "这么虚弱的{namecode:182}就算醒来能有什么用…哼，还好我听{namecode:92}的建议留了后手。",
+			say = "And, Shinano got ambushed by Tester immediately after waking up. If not for Kaga's warning—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,8 +140,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "留后手的潜台词就是对我的计划表示不信任呢，真是太令人伤心了。",
+			actorName = "Observer",
+			say = "How sad. Do you have so little faith in your God?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "会乖乖信你鬼话的人才有问题。别会错意了，我们只是相互利用的关系而已。信赖，是不需要的。",
+			say = "You and your ilk are not gods. You whisper nothing but lies to those you seek to use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "还有，{namecode:182}路上遭遇的袭击又是怎么回事，你还想要测试什么？",
+			say = "Don't make me repeat myself. Stop targeting Shinano with your petty experiments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "本岛附近的所有镜面海域的位置我都要知晓，这是协议好的内容吧。",
+			say = "And tell me the location of all the Mirror Seas around the Sakura Empire. This was all part of our original agreement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,8 +206,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "虽然你对{namecode:182}没报什么期待，我们可是特别期待了很多哦。",
+			actorName = "Observer",
+			say = "What a spoilsport. We just wanted to see how significantly an \"unobservable\" could break our calculations.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,8 +224,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "这次的袭击嘛，反正也没造成实际损失，你就当成一次「故障」好了。就算精密的机器，运行久了出现一些小故障也是可以被原谅的吧。",
+			actorName = "Observer",
+			say = "In any case, I'll leave that child alone. Consider what happened with Tester... an unexpected system malfunction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,8 +242,8 @@ return {
 			actor = 900232,
 			dir = 1,
 			blackBg = true,
-			actorName = "观察者",
-			say = "嗯？突然有有趣的联络接进来了。我还有事，今天就不奉陪了哦，再会~",
+			actorName = "Observer",
+			say = "...Oh my, it seems that I have a visitor. I'll be taking my leave then. Have a nice day, Akagi~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "不要把重樱的领海当成自己的后花园啊，可恶的塞壬……！",
+			say = "...Siren, I'll make you pay for stepping on the Sakura Empire as if it was your doormat...",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -280,7 +280,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "啧…算了，计划正在顺利进行，这样的局面不会持续很久了……",
+			say = "Don't expect this arrangement to last long... Once my plans come to fruition...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"虚拟与现实的双向镜-日常篇\n\n<size=45>七 神乐舞</size>",
+					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 7: Kagura Dance</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "大家都到齐了吗~？",
+			say = "Is everyone here?",
 			bgm = "holo-sora",
 			flashout = {
 				black = true,
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，诗音酱还没有到。",
+			say = "Oh, looks like Shion isn't here yet!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 900211,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "诗音那家伙八成又睡过头了吧~",
+			say = "I bet she overslept again~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我听到了哦，阿库娅酱！！！！",
+			say = "I heard that, Aqua!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是的....只是不小心迷路了而已，不要以为诗音每次都会睡过头啊！",
+			say = "Jeez... It just took me a while to find my way! Don't just always assume that I overslept!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，和预定的时间还差一点点，了不起了不起~",
+			say = "You're actually a few minutes early. Good job, Shion~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "别把我当小孩……唔，是空前辈就算了。",
+			say = "Don't treat me like a kid... Um, but since it's you, Sora, I guess it's fine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 900213,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "终于到观光时间了，余已经等不及咯~",
+			say = "Is it finally time to go sightseeing? Ay can't wait~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "祭酱，表情很奇怪哦？",
+			say = "Matsuri, what's with that look?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 900212,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "重樱区....兽耳驱逐舰....嘿嘿嘿嘿",
+			say = "Sakura Empire... Floofy catgirl destroyers... Ehehe... Ehehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = ".........空前辈，看来大家都到齐了~",
+			say = "... Sora, I think everyone's here~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 900210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯！也不要让重樱的各位等太久，我们现在就出发吧~",
+			say = "All right. Let's head out immediately so we don't keep our hosts waiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "欢迎来到{namecode:74}大人的居城",
+			say = "Welcome to Lady Nagato's castle.",
 			bgm = "nagato-map",
 			flashout = {
 				black = true,
@@ -287,7 +287,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，{namecode:158}！！！",
+			say = "Ah, Kawakaze!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "有...有点太近了。",
+			say = "P-Personal space...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，向导是{namecode:158}吗？",
+			say = "Huh? Kawakaze, are you going to be our guide?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:74}大人听说你们要参观天守阁，特地派我来陪你们。",
+			say = "Lady Nagato was most pleased to hear that you would be visiting her castle. I was selected to be your guide.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 900210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "非常感谢！没有给你添麻烦吧……？",
+			say = "Thank you very much. We're not bothering you in any way, are we...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没有的事。{namecode:74}大人可是很欢迎来访者的",
+			say = "Not at all. Rather, Lady Nagato said that guests are welcome here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然我对每个阵营都很有兴趣，不过果然想最先从重樱开始呢~",
+			say = "I want to see all the different factions eventually, but we just had to start with the Sakura Empire~!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "各位，一路上的旅途辛苦了",
+			say = "Everyone, thank you for making the arduous trip here.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -444,7 +444,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦，为什么{namecode:78}姐姐会在这里？",
+			say = "Huh? Why is Fusou here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "为了表示对hololive各位的欢迎，{namecode:74}大人特别吩咐我和{namecode:79}在这里为各位展现一下技艺",
+			say = "Lady Nagato asked us to put on a performance to welcome all of you here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "如果各位不介意的话，要不要稍微看一下我们练习神乐舞的场景？",
+			say = "If it suits you, would you like to watch us practice our Kagura dances for a little while?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那个......虽然还在练习中，如果各位不介意的话...",
+			say = "Sure... But, um, I'm still practicing over here...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "重樱的神乐之舞，请务必欣赏一下！",
+			say = "Please enjoy the Sakura Empire's traditional Kagura dances to the fullest!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:79}，不用紧张哦。",
+			say = "Yamashiro, you don't have to be so nervous!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，远道而来的各位客人，接下来就请欣赏我们姐妹的舞蹈吧。",
+			say = "In any case, girls who visited our world from Hololive, please enjoy your stay here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			actor = 900215,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好漂亮的舞蹈，感觉心灵都被洗涤了呢……",
+			say = "A splendid dance... It feels like my soul has been cleansed~",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "美少女巫女，原来是真的存在啊……",
+			say = "Such a beautiful shrine maiden... so they really do exist...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "祭为什么一点反应都没有，还活着么…？",
+			say = "Matsuri, why aren't you saying anything? Are you still with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			actor = 900212,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,7 +651,7 @@ return {
 			actor = 900210,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "咦，祭怎么一动也不动了？",
+			say = "What's the matter, Matsuri? Are you spacing out?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			actor = 900209,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……唉，算了空前辈，不用管她，这才是祭的正常状态。",
+			say = "Sora, don't worry about her. This is just part of her normal routine.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			bgName = "bg_story_tiancheng6",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "看起来你们相当满意的样子。",
+			say = "It seems like you're all quite satisfied.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			actor = 900214,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "满意，满意，十分超级满意！",
+			say = "Of course! That was absolutely amazing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "那么请各位继续前进吧",
+			say = "Then, let us continue to the next show.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-heroines-image",
 			dir = 1,
-			say = "敌方十分谨慎……突袭结束后对于我们的反击没有过多纠缠，短时间内就分散撤离了。",
+			say = "The Sakura aircraft broke formation and retreated. Did the routine module of the Pawn malfunction as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "不行，无法全部追击……我没能追踪到敌方母舰的位置，你那边怎么样？",
+			say = "It's impossible to track down all of them. Weser, were you able to locate the carrier?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			actor = 406010,
 			dir = 1,
-			say = "没有发现敌方母舰。不过……倒是发现了更多重樱量产型舰队。{namecode:471}，看来出现问题的不是几批飞机，或者几艘航舰棋子而已。",
+			say = "I found an entire mass-produced Sakura fleet placed in an unplanned area, but there were no carriers present. Apparently, we're dealing with more than one device failure...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "所有训练用的敌舰都变成了装填实弹的版本么……",
+			say = "...I don't want to think too much about it, but... this must be Siren interference.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "能悄无声息绕开我们的安全系统，又能比我们还要熟练地操作海域中的设施，除了塞壬本身之外不可能有第二个可能性了吧……",
+			say = "Yeah. Other than us, the only ones here that could operate the facilities here... would be the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			actor = 407030,
 			dir = 1,
-			say = "我也是这么想的，没想到预感成真……",
+			say = "Inconceivable. The worst-case scenario is actually happening...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过那些量产型的撤退方向…………呵呵呵，这还真是……",
+			say = "I still have authorization over the D13 sector. Weser, are you able to effectively command the mass-produced ships?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "要利用你提前设置为最高警戒级别的D13防御模块了么？",
+			say = "Strasser, are you planning to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不知道是未卜先知呢，还是歪打正着呢……事不宜迟，让我们开始新的作战吧~",
+			say = "Yes, you should already know. Hehehe... We'll see just who is the rightful owner of this research facility...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

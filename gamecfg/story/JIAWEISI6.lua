@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"听你说喜欢\n\n<size=45>六　被隐藏的真心</size>",
+					"Nursing Honesty\n\n<size=45>6 Reading Between the Lines</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "正要和贾维斯离开演习海域时，刚刚结束演习的雅努斯跑了过来。",
+			say = "When Jervis and I were about to leave, Janus ran over to us after just having finished the exercise.",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
@@ -57,7 +57,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 900328,
-			say = "指挥官和贾维斯……你们是来查看演习结果的么？",
+			say = "Did... Did you come to see the results?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 201340,
-			say = "咳……没错，正是如此。",
+			say = "Um, yes. Exactly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			},
 			options = {
 				{
-					content = "称赞雅努斯",
+					content = "\"You did well.\"",
 					flag = 1
 				}
 			}
@@ -100,7 +100,7 @@ return {
 			actor = 900328,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "欸？谢、谢谢指挥官……",
+			say = "Huh? Th-thank you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 900328,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "我、我会继续加油的！",
+			say = "B-but I can do better.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "演习平稳结束真是太好了，接下来的作战也按照这种感觉来，不要受伤了。",
+			say = "I'm just glad you didn't get hurt. Try to play it safe in all future exercises as well, okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 900328,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嗯，我明白的，谢谢你贾维斯。",
+			say = "I know, I will. Thanks for looking out for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "然后不要忘记提交演习相关的报告。",
+			say = "Also, don't forget to submit an after-action report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "虽然指挥官在现场，但是该提交的报告还是要提交的。",
+			say = "The Commander spectated the whole thing, yes, but you still need to make one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "真是的，为了视察演习之前决定的行程都得重新安排……",
+			say = "I wish the Commander HADN'T come here... Now we need to restructure today's programme from the ground up...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "接下来要一起辛苦一阵子了……",
+			say = "Finishing on time today will be tight, I bet...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "为了健康考虑，我可不是每一次都会同意这样更改的。",
+			say = "Commander, please don't make a habit of suddenly changing plans. It complicates my job.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "临时更改行程确实增加了工作量，不过这次演习雅努斯表现不错，贾维斯应该也可以放心了。",
+			say = "While, yes, I'd get more work as a consequence of this, it was worth it to see the relieved look on Jervis' face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "稍微忙碌一点换取这样的结果还是很值得的。",
+			say = "I'd just be a little busy for a bit. That was no big deal.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 900328,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "那、那个，指挥官……",
+			say = "Umm, Commander...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 900328,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "贾维斯不是在抱怨，她、她其实只是关心指挥官！",
+			say = "Jervis isn't, uh, having a go at you. She's just expressing concern for your well-being.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "喂，雅努斯——",
+			say = "Janus! Don't say that!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 900328,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "贾维斯其实很在意指挥官的！她不希望指挥官工作太辛苦所以才会这样说的！",
+			say = "I know she cares a lot about you! It's why she said that just now – she doesn't want you to become overburdened with work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 900328,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "所、所以请指挥官不要误会贾维斯！",
+			say = "M-my point is: please don't take what she said in a bad way!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -431,7 +431,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "不要再说了雅努斯！",
+			say = "That's enough, Janus!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "指挥官请在这里稍等，我很快就回来",
+			say = "Commander, wait here for just a moment. I'll be right back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "话音未落，贾维斯一把拉起雅努斯跑开了。",
+			say = "Jervis took Janus and led her away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			optionFlag = 1,
-			say = "雅努斯看来也用自己的方式关心着贾维斯啊————",
+			say = "It seemed like Janus was looking after Jervis in her own special way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

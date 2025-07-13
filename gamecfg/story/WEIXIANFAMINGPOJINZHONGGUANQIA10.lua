@@ -10,7 +10,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"复制体活动海域·第一信号点",
+					"Doppelganger Activity Zone - First Checkpoint",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "由娜娜和古手川唯，以及利物浦、德文郡、努比亚人三名皇家女仆所组成的搜索队正在搜索着附近海域。",
+			say = "An exploration team consisting of Nana, Yui, Liverpool, Devonshire, and Nubian searched the nearby sea.",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "奇怪……超级游戏制作机提示的位置就是这附近吧？",
+			say = "Weird... This should be the area Questy pointed out, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "为什么甚至都找不到敌人呢……",
+			say = "But there's no sign of hostiles whatsoever.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "确实，这里平静的有些异常……大家还是提高警惕为好。",
+			say = "It is quiet here... Too quiet. Everyone, now is the time to be alert.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "古手川小姐说的对，大家还是保持警惕比较好呢~",
+			say = "Kotegawa is right. Maintain vigilance...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "然而，就在这时远处的数枚炮弹呼啸接近并炸开，接着远处的敌人朝着众人发起了攻击。",
+			say = "Before she could finish speaking, artillery fire whooshed by and then exploded behind them. Enemies had appeared on the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哼哼，终于出现了吗？我还以为这些家伙已经怕到不敢出来了！",
+			say = "Heh, finally come out to play? Here I thought they'd gotten scared and ran!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "众人互相掩护，迅速对敌人展开反击。",
+			say = "The team quickly launched a counterattack, supporting each other throughout.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "咦？这些家伙……之前也是这么弱吗？",
+			say = "Hm? Were these things this weak before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "它们的攻击感觉毫无章法呢，而且威力也比之前要弱多了……",
+			say = "Their attacks seem so... sloppy. And the power behind each one is so much less than before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也许，是超级游戏制作机失控的情况有所好转，所以敌人变弱了？",
+			say = "Do you think they're getting weaker because that Questy MacGuffin thing is starting to work again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也有可能吧~毕竟刚刚修复港口的时候，也许有剩余的能源供它自我修复？",
+			say = "Maybe! Like, what if it had energy left over after fixing the base, and it used it to repair itself?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "打打看就知道了，开始战斗！",
+			say = "I say we just fight and figure it out as we go. Let's kick butt!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_tolove_2",
-			say = "不多时，第一搜索队轻松消灭了敌人，但却没有发现能量石的踪迹。",
+			say = "In no time, the first exploration team had trounced their targets. However, they found no trace of the Energy Stone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100020,
-			say = "可恶……怎么没有能量石嘛，这不是白白浪费时间了！",
+			say = "Darn it! If there's no Energy Stone here, then that was a total waste of time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100060,
-			say = "德文郡小姐，麻烦你把情况报告给伊丽莎白小姐吧，我有种奇怪的感觉。",
+			say = "Devonshire, can you report the situation to Elizabeth for us? I have a bad feeling about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 203130,
-			say = "嗯，我立刻处理。",
+			say = "Understood. I'll contact Her Majesty at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

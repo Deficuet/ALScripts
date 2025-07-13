@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我偶尔也会产生这样的想法呢——想要独占这样的Honey……",
+			say = "I always find myself thinking... that I want you all to myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

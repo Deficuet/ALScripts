@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"平安夜的姜饼物语\n\n<size=45>五 欢笑与祝福的平安夜</size>",
+					"Christmas Party!\n\n<size=45>Christmas Party!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "平安夜·派对会场",
+			say = "At the Christmas party...",
 			side = 2,
 			bgName = "star_level_bg_100",
 			dir = 1,
@@ -56,7 +56,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼~派对的准备顺利完成了，姜饼也都完成了，嘿嘿，多亏了大家的帮忙呢~",
+			say = "Phew... I finished the cookies on time, and the party was a huge hit. Thanks, guys! I couldn't have done it without your help!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 101022,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "西雅图小姐烤的姜饼，很好吃哦",
+			say = "Seattle, your gingerbread cookies were good.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 301541,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "兔兔造型，很可爱…",
+			say = "The ones shaped like Hoppy... so cute...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呼呼呼…撒满了糖霜的甜蜜加强版姜饼…很棒！",
+			say = "Gingerbread cookies supercharged with pure sugar... Pure bliss~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿，多亏了大家的各种建议~不过，皇家各位做的那个，实际看到成品果然还是很有魄力啊…",
+			say = "But man, the Royal Navy's gingergiant really dwarfs everything in its presence...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然听{namecode:141}说了，不过，还是不得不佩服一下，姜饼雕像，真是厉害啊，哈哈哈",
+			say = "I heard about it from Wakaba, but seeing it in person is a whole other deal... Ahaha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这、这是！？",
+			say = "Wh-what is this...?!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "是为了陛下特别制作的姜饼雕像哦",
+			say = "This is a gingerbread statue that was sculpted in Your Majesty's likeness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "名字就叫做《女王陛下的侧身像》！",
+			say = "We've christened it the \"Queen's Profile,\" Your Majesty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦、噢噢噢！干得好！这个感觉可以跟铁血的那个笨蛋好好晒一番了啊！！",
+			say = "Spectacular! You've outdone yourself, Warspite! Now, I shall boast to that girl who calls herself the \"spiritual leader\" of the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵，不愧是厌战大人和海王星大人，确实是充满气魄的作品呢",
+			say = "Well done, Lady Warspite, Lady Neptune.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "哼哼，就算是你也该大吃一惊了吧",
+			say = "Heheh~ I figured even you would be shocked by something of this scale, Miss Head Maid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 301231,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "姜、姜饼已经够了…我、我要吃点咸的东西！！",
+			say = "I've had enough gingerbread for a lifetime... I'm going to go search for some nuts.",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -356,7 +356,7 @@ return {
 			actor = 302052,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊，大家的礼物都放在圣诞树旁边了，没有拿的小伙伴都可以拿一个哦~",
+			say = "Ah, umm, the presents for the gift exchange are under the tree~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 302201,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘻嘻，不知道谁会拿到我准备的礼物呢，真让人期待啊~",
+			say = "I'm looking forward to finding out who's the lucky recipient of my present~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 299011,
-			say = "真是的，说到礼物就开始吵吵闹闹起来了",
+			say = "Good grief, things always get so noisy whenever someone talks about presents...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "偶尔这样也不错啦，反正就算今年不闹，到了明年也会再闹一次的~",
+			say = "Hey, it's only Christmas once a year. Besides, it'll come again next year, so might as well get used to it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			actor = 102182,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "毕竟是圣诞节嘛♪",
+			say = "That's right! That's what the Christmas spirit is all about~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 199012,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嘿嘿，说得好，肯定没问题的！好啦，大家一起来干一杯吧~圣诞快乐！",
+			say = "Hehe, well said! There's no need to worry at all! All right, everyone, cheers!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,12 +473,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_100",
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "干杯~圣诞快乐！",
+			say = "Cheers! Merry Christmas!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,

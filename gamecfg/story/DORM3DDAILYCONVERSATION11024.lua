@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……好苦，果然咖啡什么的……",
+			say = "Urgh... Too bitter. I just can't stand coffee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "但，Honey还在继续坚持，我也没有现在结束的道理呢。",
+			say = "You're working so hard, honey. There's no reason for me to stop before we finish.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过比起坚持，Honey，还是要多保重身体哦？",
+			say = "But don't push yourself too much, okay? Take care of yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

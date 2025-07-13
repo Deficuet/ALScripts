@@ -31,7 +31,7 @@ var_0_0.SPWEAPON_BAG_SIZE_ITEM = 59360
 var_0_0.CRUISE_QUICK_TASK_TICKET_ID = 61017
 var_0_0.SHOW_TYPE_TECH = "tech"
 var_0_0.SHOW_TYPE_BATTLE_UI = "uigift"
-var_0_0.CUR_PACKET_ID = 27
+var_0_0.CUR_PACKET_ID = 138
 
 function var_0_0.Ctor(arg_1_0)
 	assert(false, "does not call this function, use Create instead")

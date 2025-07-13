@@ -1,1599 +1,1599 @@
 pg = pg or {}
 pg.name_code = {
 	{
-		name = "峰风",
+		name = "Minekaze",
 		type = 1,
 		id = 1,
-		code = "樱",
+		code = "Minekaze",
 		nation = 0
 	},
 	{
-		name = "吹雪",
+		name = "Fubuki",
 		type = 1,
 		id = 2,
-		code = "桐",
+		code = "Fubuki",
 		nation = 0
 	},
 	{
-		name = "白雪",
+		name = "Shirayuki",
 		type = 1,
 		id = 3,
-		code = "杉",
+		code = "Shirayuki",
 		nation = 0
 	},
 	{
-		name = "初雪",
+		name = "Hatsuyuki",
 		type = 1,
 		id = 4,
-		code = "杨",
+		code = "Hatsuyuki",
 		nation = 0
 	},
 	{
-		name = "深雪",
+		name = "Miyuki",
 		type = 1,
 		id = 5,
-		code = "梧",
+		code = "Miyuki",
 		nation = 0
 	},
 	{
-		name = "绫波",
+		name = "Ayanami",
 		type = 1,
 		id = 6,
-		code = "柚",
+		code = "Ayanami",
 		nation = 0
 	},
 	{
-		name = "敷波",
+		name = "Shikinami",
 		type = 1,
 		id = 7,
-		code = "柿",
+		code = "Shikinami",
 		nation = 0
 	},
 	{
-		name = "曙",
+		name = "Akebono",
 		type = 1,
 		id = 8,
-		code = "棪",
+		code = "Akebono",
 		nation = 0
 	},
 	{
-		name = "涟",
+		name = "Sazanami",
 		type = 1,
 		id = 9,
-		code = "槿",
+		code = "Sazanami",
 		nation = 0
 	},
 	{
-		name = "潮",
+		name = "Ushio",
 		type = 1,
 		id = 10,
-		code = "槟",
+		code = "Ushio",
 		nation = 0
 	},
 	{
-		name = "晓",
+		name = "Akatsuki",
 		type = 1,
 		id = 11,
-		code = "枫",
+		code = "Akatsuki",
 		nation = 0
 	},
 	{
-		name = "响",
+		name = "Hibiki",
 		type = 1,
 		id = 12,
-		code = "栀",
+		code = "Hibiki",
 		nation = 0
 	},
 	{
-		name = "雷",
+		name = "Ikazuchi",
 		type = 1,
 		id = 13,
-		code = "梓",
+		code = "Ikazuchi",
 		nation = 0
 	},
 	{
-		name = "电",
+		name = "Inazuma",
 		type = 1,
 		id = 14,
-		code = "柏",
+		code = "Inazuma",
 		nation = 0
 	},
 	{
-		name = "白露",
+		name = "Shiratsuyu",
 		type = 1,
 		id = 15,
-		code = "梿",
+		code = "Shiratsuyu",
 		nation = 0
 	},
 	{
-		name = "夕立",
+		name = "Yuudachi",
 		type = 1,
 		id = 16,
-		code = "椿",
+		code = "Yuudachi",
 		nation = 0
 	},
 	{
-		name = "时雨",
+		name = "Shigure",
 		type = 1,
 		id = 17,
-		code = "栴",
+		code = "Shigure",
 		nation = 0
 	},
 	{
-		name = "岛风",
+		name = "Shimakaze",
 		type = 1,
 		id = 18,
-		code = "芒",
+		code = "Shimakaze",
 		nation = 0
 	},
 	{
-		name = "阳炎",
+		name = "Kagerou",
 		type = 1,
 		id = 19,
-		code = "萩",
+		code = "Kagerou",
 		nation = 0
 	},
 	{
-		name = "不知火",
+		name = "Shiranui",
 		type = 1,
 		id = 20,
-		code = "蒲",
+		code = "Shiranui",
 		nation = 0
 	},
 	{
-		name = "黑潮",
+		name = "Kuroshio",
 		type = 1,
 		id = 21,
-		code = "蓉",
+		code = "Kuroshio",
 		nation = 0
 	},
 	{
-		name = "雪风",
+		name = "Yukikaze",
 		type = 1,
 		id = 22,
-		code = "莲",
+		code = "Yukikaze",
 		nation = 0
 	},
 	{
-		name = "天津风",
+		name = "Amatsukaze",
 		type = 1,
 		id = 23,
-		code = "菡",
+		code = "Amatsukaze",
 		nation = 0
 	},
 	{
-		name = "野分",
+		name = "Nowaki",
 		type = 1,
 		id = 24,
-		code = "苓",
+		code = "Nowaki",
 		nation = 0
 	},
 	{
-		name = "岚",
+		name = "Arashi",
 		type = 1,
 		id = 25,
-		code = "萍",
+		code = "Arashi",
 		nation = 0
 	},
 	{
-		name = "秋月",
+		name = "Akizuki",
 		type = 1,
 		id = 26,
-		code = "椛",
+		code = "Akizuki",
 		nation = 0
 	},
 	{
-		name = "凉月",
+		name = "Suzutsuki",
 		type = 1,
 		id = 27,
-		code = "栎",
+		code = "Suzutsuki",
 		nation = 0
 	},
 	{
-		name = "宵月",
+		name = "Yoizuki",
 		type = 1,
 		id = 28,
-		code = "楛",
+		code = "Yoizuki",
 		nation = 0
 	},
 	{
-		name = "花月",
+		name = "Hanazuki",
 		type = 1,
 		id = 29,
-		code = "榵",
+		code = "Hanazuki",
 		nation = 0
 	},
 	{
-		name = "初春",
+		name = "Hatsuharu",
 		type = 1,
 		id = 30,
-		code = "梅",
+		code = "Hatsuharu",
 		nation = 0
 	},
 	{
-		name = "有明",
+		name = "Ariake",
 		type = 1,
 		id = 31,
-		code = "榎",
+		code = "Ariake",
 		nation = 0
 	},
 	{
-		name = "夕暮",
+		name = "Yuugure",
 		type = 1,
 		id = 32,
-		code = "棭",
+		code = "Yuugure",
 		nation = 0
 	},
 	{
-		name = "睦月",
+		name = "Mutsuki",
 		type = 1,
 		id = 33,
-		code = "松",
+		code = "Mutsuki",
 		nation = 0
 	},
 	{
-		name = "如月",
+		name = "Kisaragi",
 		type = 1,
 		id = 34,
-		code = "樟",
+		code = "Kisaragi",
 		nation = 0
 	},
 	{
-		name = "夕云",
+		name = "Yuugumo",
 		type = 1,
 		id = 35,
-		code = "茭",
+		code = "Yuugumo",
 		nation = 0
 	},
 	{
-		name = "卷云",
+		name = "Makinami",
 		type = 1,
 		id = 36,
-		code = "荨",
+		code = "Makinami",
 		nation = 0
 	},
 	{
-		name = "夕张",
+		name = "Yuubari",
 		type = 1,
 		id = 37,
-		code = "狐",
+		code = "Yuubari",
 		nation = 0
 	},
 	{
-		name = "川内",
+		name = "Sendai",
 		type = 1,
 		id = 38,
-		code = "貆",
+		code = "Sendai",
 		nation = 0
 	},
 	{
-		name = "神通",
+		name = "Jintsuu",
 		type = 1,
 		id = 39,
-		code = "貎",
+		code = "Jintsuu",
 		nation = 0
 	},
 	{
-		name = "那珂",
+		name = "Naka",
 		type = 1,
 		id = 40,
-		code = "豻",
+		code = "Naka",
 		nation = 0
 	},
 	{
-		name = "天龙",
+		name = "Tenryuu",
 		type = 1,
 		id = 41,
-		code = "豺",
+		code = "Tenryuu",
 		nation = 0
 	},
 	{
-		name = "龙田",
+		name = "Tatsuta",
 		type = 1,
 		id = 42,
-		code = "豹",
+		code = "Tatsuta",
 		nation = 0
 	},
 	{
-		name = "球磨",
+		name = "Kuma",
 		type = 1,
 		id = 43,
-		code = "熊",
+		code = "Kuma",
 		nation = 0
 	},
 	{
-		name = "北上",
+		name = "Kitakami",
 		type = 1,
 		id = 44,
-		code = "狸",
+		code = "Kitakami",
 		nation = 0
 	},
 	{
-		name = "大井",
+		name = "Ooi",
 		type = 1,
 		id = 45,
-		code = "獾",
+		code = "Ooi",
 		nation = 0
 	},
 	{
-		name = "长良",
+		name = "Nagara",
 		type = 1,
 		id = 46,
-		code = "貊",
+		code = "Nagara",
 		nation = 0
 	},
 	{
-		name = "阿武隈",
+		name = "Abukuma",
 		type = 1,
 		id = 47,
-		code = "貃",
+		code = "Abukuma",
 		nation = 0
 	},
 	{
-		name = "五十铃",
+		name = "Isuzu",
 		type = 1,
 		id = 48,
-		code = "貉",
+		code = "Isuzu",
 		nation = 0
 	},
 	{
-		name = "阿贺野",
+		name = "Agano",
 		type = 1,
 		id = 49,
-		code = "豼",
+		code = "Agano",
 		nation = 0
 	},
 	{
-		name = "能代",
+		name = "Noshiro",
 		type = 1,
 		id = 50,
-		code = "貅",
+		code = "Noshiro",
 		nation = 0
 	},
 	{
-		name = "矢矧",
+		name = "Yahagi",
 		type = 1,
 		id = 51,
-		code = "貁",
+		code = "Yahagi",
 		nation = 0
 	},
 	{
-		name = "大淀",
+		name = "Ooyodo",
 		type = 1,
 		id = 52,
-		code = "淀",
+		code = "Ooyodo",
 		nation = 0
 	},
 	{
-		name = "古鹰",
+		name = "Furutaka",
 		type = 1,
 		id = 53,
-		code = "狼",
+		code = "Furutaka",
 		nation = 0
 	},
 	{
-		name = "加古",
+		name = "Kako",
 		type = 1,
 		id = 54,
-		code = "狌",
+		code = "Kako",
 		nation = 0
 	},
 	{
-		name = "青叶",
+		name = "Aoba",
 		type = 1,
 		id = 55,
-		code = "犹",
+		code = "Aoba",
 		nation = 0
 	},
 	{
-		name = "衣笠",
+		name = "Kinugasa",
 		type = 1,
 		id = 56,
-		code = "猅",
+		code = "Kinugasa",
 		nation = 0
 	},
 	{
-		name = "最上",
+		name = "Mogami",
 		type = 1,
 		id = 57,
-		code = "猨",
+		code = "Mogami",
 		nation = 0
 	},
 	{
-		name = "三隈",
+		name = "Mikuma",
 		type = 1,
 		id = 58,
-		code = "狻",
+		code = "Mikuma",
 		nation = 0
 	},
 	{
-		name = "铃谷",
+		name = "Suzuya",
 		type = 1,
 		id = 59,
-		code = "狺",
+		code = "Suzuya",
 		nation = 0
 	},
 	{
-		name = "熊野",
+		name = "Kumano",
 		type = 1,
 		id = 60,
-		code = "猁",
+		code = "Kumano",
 		nation = 0
 	},
 	{
-		name = "利根",
+		name = "Tone",
 		type = 1,
 		id = 61,
-		code = "猑",
+		code = "Tone",
 		nation = 0
 	},
 	{
-		name = "筑摩",
+		name = "Chikuma",
 		type = 1,
 		id = 62,
-		code = "狘",
+		code = "Chikuma",
 		nation = 0
 	},
 	{
-		name = "妙高",
+		name = "Myoukou",
 		type = 1,
 		id = 63,
-		code = "獌",
+		code = "Myoukou",
 		nation = 0
 	},
 	{
-		name = "那智",
+		name = "Nachi",
 		type = 1,
 		id = 64,
-		code = "狏",
+		code = "Nachi",
 		nation = 0
 	},
 	{
-		name = "羽黑",
+		name = "Haguro",
 		type = 1,
 		id = 65,
-		code = "犰",
+		code = "Haguro",
 		nation = 0
 	},
 	{
-		name = "高雄",
+		name = "Takao",
 		type = 1,
 		id = 66,
-		code = "獒",
+		code = "Takao",
 		nation = 0
 	},
 	{
-		name = "爱宕",
+		name = "Atago",
 		type = 1,
 		id = 67,
-		code = "犬",
+		code = "Atago",
 		nation = 0
 	},
 	{
-		name = "摩耶",
+		name = "Maya",
 		type = 1,
 		id = 68,
-		code = "犮",
+		code = "Maya",
 		nation = 0
 	},
 	{
-		name = "鸟海",
+		name = "Choukai",
 		type = 1,
 		id = 69,
-		code = "猋",
+		code = "Choukai",
 		nation = 0
 	},
 	{
-		name = "金刚",
+		name = "Kongou",
 		type = 1,
 		id = 70,
-		code = "鲤",
+		code = "Kongou",
 		nation = 0
 	},
 	{
-		name = "比叡",
+		name = "Hiei",
 		type = 1,
 		id = 71,
-		code = "鲟",
+		code = "Hiei",
 		nation = 0
 	},
 	{
-		name = "榛名",
+		name = "Haruna",
 		type = 1,
 		id = 72,
-		code = "鲑",
+		code = "Haruna",
 		nation = 0
 	},
 	{
-		name = "雾岛",
+		name = "Kirishima",
 		type = 1,
 		id = 73,
-		code = "鳗",
+		code = "Kirishima",
 		nation = 0
 	},
 	{
-		name = "长门",
+		name = "Nagato",
 		type = 1,
 		id = 74,
-		code = "鲨",
+		code = "Nagato",
 		nation = 0
 	},
 	{
-		name = "陆奥",
+		name = "Mutsu",
 		type = 1,
 		id = 75,
-		code = "鲛",
+		code = "Mutsu",
 		nation = 0
 	},
 	{
-		name = "伊势",
+		name = "Ise",
 		type = 1,
 		id = 76,
-		code = "鳌",
+		code = "Ise",
 		nation = 0
 	},
 	{
-		name = "日向",
+		name = "Hyuuga",
 		type = 1,
 		id = 77,
-		code = "螯",
+		code = "Hyuuga",
 		nation = 0
 	},
 	{
-		name = "扶桑",
+		name = "Fusou",
 		type = 1,
 		id = 78,
-		code = "魟",
+		code = "Fusou",
 		nation = 0
 	},
 	{
-		name = "山城",
+		name = "Yamashiro",
 		type = 1,
 		id = 79,
-		code = "鲼",
+		code = "Yamashiro",
 		nation = 0
 	},
 	{
-		name = "纪伊",
+		name = "Kii",
 		type = 1,
 		id = 80,
-		code = "鲣",
+		code = "Kii",
 		nation = 0
 	},
 	{
-		name = "土佐",
+		name = "Tosa",
 		type = 1,
 		id = 81,
-		code = "䲠",
+		code = "Tosa",
 		nation = 0
 	},
 	{
-		name = "三笠",
+		name = "Mikasa",
 		type = 1,
 		id = 82,
-		code = "鲐",
+		code = "Mikasa",
 		nation = 0
 	},
 	{
-		name = "大和",
+		name = "Yamato",
 		type = 1,
 		id = 83,
-		code = "鲸",
+		code = "Yamato",
 		nation = 0
 	},
 	{
-		name = "武藏",
+		name = "Musashi",
 		type = 1,
 		id = 84,
-		code = "鳄",
+		code = "Musashi",
 		nation = 0
 	},
 	{
-		name = "飞鹰",
+		name = "Hiyou",
 		type = 1,
 		id = 85,
-		code = "鸱",
+		code = "Hiyou",
 		nation = 0
 	},
 	{
-		name = "隼鹰",
+		name = "Junyou",
 		type = 1,
 		id = 86,
-		code = "鸢",
+		code = "Junyou",
 		nation = 0
 	},
 	{
-		name = "祥凤",
+		name = "Shouhou",
 		type = 1,
 		id = 87,
-		code = "鹞",
+		code = "Shouhou",
 		nation = 0
 	},
 	{
-		name = "瑞凤",
+		name = "Zuihou",
 		type = 1,
 		id = 88,
-		code = "鹳",
+		code = "Zuihou",
 		nation = 0
 	},
 	{
-		name = "凤翔",
+		name = "Houshou",
 		type = 1,
 		id = 89,
-		code = "凤",
+		code = "Houshou",
 		nation = 0
 	},
 	{
-		name = "龙骧",
+		name = "Ryuujou",
 		type = 1,
 		id = 90,
-		code = "枭",
+		code = "Ryuujou",
 		nation = 0
 	},
 	{
-		name = "赤城",
+		name = "Akagi",
 		type = 1,
 		id = 91,
-		code = "凰",
+		code = "Akagi",
 		nation = 0
 	},
 	{
-		name = "加贺",
+		name = "Kaga",
 		type = 1,
 		id = 92,
-		code = "鸾",
+		code = "Kaga",
 		nation = 0
 	},
 	{
-		name = "苍龙",
+		name = "Souryuu",
 		type = 1,
 		id = 93,
-		code = "蛟",
+		code = "Souryuu",
 		nation = 0
 	},
 	{
-		name = "飞龙",
+		name = "Hiryuu",
 		type = 1,
 		id = 94,
-		code = "龙",
+		code = "Hiryuu",
 		nation = 0
 	},
 	{
-		name = "翔鹤",
+		name = "Shoukaku",
 		type = 1,
 		id = 95,
-		code = "鹬",
+		code = "Shoukaku",
 		nation = 0
 	},
 	{
-		name = "瑞鹤",
+		name = "Zuikaku",
 		type = 1,
 		id = 96,
-		code = "鹤",
+		code = "Zuikaku",
 		nation = 0
 	},
 	{
-		name = "大凤",
+		name = "Taihou",
 		type = 1,
 		id = 97,
-		code = "鹩",
+		code = "Taihou",
 		nation = 0
 	},
 	{
-		name = "明石",
+		name = "Akashi",
 		type = 1,
 		id = 98,
-		code = "茗",
+		code = "Akashi",
 		nation = 0
 	},
 	{
 		name = "IJN",
 		type = 1,
 		id = 99,
-		code = "SIN",
+		code = "IJN",
 		nation = 0
 	},
 	{
-		name = "一航战",
+		name = "First Carrier Division",
 		type = 1,
 		id = 100,
-		code = "一航战",
+		code = "First Carrier Division",
 		nation = 0
 	},
 	{
-		name = "二航战",
+		name = "Second Carrier Division",
 		type = 1,
 		id = 101,
-		code = "二航战",
+		code = "Second Carrier Division",
 		nation = 0
 	},
 	{
-		name = "五航战",
+		name = "Fifth Carrier Division",
 		type = 1,
 		id = 102,
-		code = "五航战",
+		code = "Fifth Carrier Division",
 		nation = 0
 	},
 	{
-		name = "千岁",
+		name = "Chitose",
 		type = 1,
 		id = 103,
-		code = "鹂",
+		code = "Chitose",
 		nation = 0
 	},
 	{
-		name = "千代田",
+		name = "Chiyoda",
 		type = 1,
 		id = 104,
-		code = "鹃",
+		code = "Chiyoda",
 		nation = 0
 	},
 	{
-		name = "吹雪级量产型",
+		name = "Fubuki Production",
 		type = 1,
 		id = 105,
-		code = "桐级量产型",
+		code = "Fubuki Production",
 		nation = 0
 	},
 	{
-		name = "白露级量产型",
+		name = "Shiratsuyu Production",
 		type = 1,
 		id = 106,
-		code = "梿级量产型",
+		code = "Shiratsuyu Production",
 		nation = 0
 	},
 	{
-		name = "阳炎级量产型",
+		name = "Kagerou Production",
 		type = 1,
 		id = 107,
-		code = "萩级量产型",
+		code = "Kagerou Production",
 		nation = 0
 	},
 	{
-		name = "夕云级量产型",
+		name = "Yuugumo Production",
 		type = 1,
 		id = 108,
-		code = "茭级量产型",
+		code = "Yuugumo Production",
 		nation = 0
 	},
 	{
-		name = "睦月级量产型",
+		name = "Mutsuki Production",
 		type = 1,
 		id = 109,
-		code = "松级量产型",
+		code = "Mutsuki Production",
 		nation = 0
 	},
 	{
-		name = "长良级量产型",
+		name = "Nagara Production",
 		type = 1,
 		id = 110,
-		code = "貊级量产型",
+		code = "Nagara Production",
 		nation = 0
 	},
 	{
-		name = "川内级量产型",
+		name = "Sendai Production",
 		type = 1,
 		id = 111,
-		code = "貆级量产型",
+		code = "Sendai Production",
 		nation = 0
 	},
 	{
-		name = "五十铃量产型",
+		name = "Isuzu Production",
 		type = 1,
 		id = 112,
-		code = "貉量产型",
+		code = "Isuzu Production",
 		nation = 0
 	},
 	{
-		name = "古鹰级量产型",
+		name = "Furutaka Production",
 		type = 1,
 		id = 113,
-		code = "狼级量产型",
+		code = "Furutaka Production",
 		nation = 0
 	},
 	{
-		name = "青叶级量产型",
+		name = "Aoba Production",
 		type = 1,
 		id = 114,
-		code = "犹级量产型",
+		code = "Aoba Production",
 		nation = 0
 	},
 	{
-		name = "妙高级量产型",
+		name = "Myoukou Production",
 		type = 1,
 		id = 115,
-		code = "獌级量产型",
+		code = "Myoukou Production",
 		nation = 0
 	},
 	{
-		name = "高雄级量产型",
+		name = "Takao Production",
 		type = 1,
 		id = 116,
-		code = "獒级量产型",
+		code = "Takao Production",
 		nation = 0
 	},
 	{
-		name = "最上级量产型",
+		name = "Mogami Production",
 		type = 1,
 		id = 117,
-		code = "猨级量产型",
+		code = "Mogami Production",
 		nation = 0
 	},
 	{
-		name = "战舰·比叡",
+		name = "Battleship Hiei",
 		type = 1,
 		id = 118,
-		code = "战舰·鲟",
+		code = "Battleship Hiei",
 		nation = 0
 	},
 	{
-		name = "战舰·雾岛",
+		name = "Battleship Kirishima",
 		type = 1,
 		id = 119,
-		code = "战舰·鳗",
+		code = "Battleship Kirishima",
 		nation = 0
 	},
 	{
-		name = "空母·赤城",
+		name = "Carrier Akagi",
 		type = 1,
 		id = 120,
-		code = "空母·凰",
+		code = "Carrier Akagi",
 		nation = 0
 	},
 	{
-		name = "空母·加贺",
+		name = "Carrier Kaga",
 		type = 1,
 		id = 121,
-		code = "空母·鸾",
+		code = "Carrier Kaga",
 		nation = 0
 	},
 	{
-		name = "初风",
+		name = "Hatsukaze",
 		type = 1,
 		id = 122,
-		code = "菙",
+		code = "Hatsukaze",
 		nation = 0
 	},
 	{
-		name = "球磨级量产型",
+		name = "Kuma Production",
 		type = 1,
 		id = 123,
-		code = "熊级量产型",
+		code = "Kuma Production",
 		nation = 0
 	},
 	{
-		name = "神风",
+		name = "Kamikaze",
 		type = 1,
 		id = 124,
-		code = "榊",
+		code = "Kamikaze",
 		nation = 0
 	},
 	{
-		name = "新月",
+		name = "Niizuki",
 		type = 1,
 		id = 125,
-		code = "枥",
+		code = "Niizuki",
 		nation = 3
 	},
 	{
-		name = "三日月",
+		name = "Mikazuki",
 		type = 1,
 		id = 126,
-		code = "檧",
+		code = "Mikazuki",
 		nation = 0
 	},
 	{
-		name = "谷风",
+		name = "Tanikaze",
 		type = 1,
 		id = 127,
-		code = "栭",
+		code = "Tanikaze",
 		nation = 0
 	},
 	{
-		name = "滨风",
+		name = "Hamakaze",
 		type = 1,
 		id = 128,
-		code = "樇",
+		code = "Hamakaze",
 		nation = 0
 	},
 	{
-		name = "初霜",
+		name = "Hatsushimo",
 		type = 1,
 		id = 129,
-		code = "檨",
+		code = "Hatsushimo",
 		nation = 0
 	},
 	{
-		name = "舞风",
+		name = "Maikaze",
 		type = 1,
 		id = 130,
-		code = "蒠",
+		code = "Maikaze",
 		nation = 0
 	},
 	{
-		name = "萩风",
+		name = "Hagikaze",
 		type = 1,
 		id = 131,
-		code = "莵",
+		code = "Hagikaze",
 		nation = 0
 	},
 	{
-		name = "山城改",
+		name = "Yamashiro (Retrofit)",
 		type = 1,
 		id = 132,
-		code = "鲼.改",
+		code = "Yamashiro (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "水无月",
+		name = "Minazuki",
 		type = 1,
 		id = 133,
-		code = "杌",
+		code = "Minazuki",
 		nation = 0
 	},
 	{
-		name = "松风",
+		name = "Matsukaze",
 		type = 1,
 		id = 134,
-		code = "棡",
+		code = "Matsukaze",
 		nation = 0
 	},
 	{
-		name = "亲潮",
+		name = "Oyashio",
 		type = 1,
 		id = 135,
-		code = "藮",
+		code = "Oyashio",
 		nation = 0
 	},
 	{
-		name = "敷岛",
+		name = "Shikishima",
 		type = 1,
 		id = 136,
-		code = "鲙",
+		code = "Shikishima",
 		nation = 0
 	},
 	{
-		name = "卯月",
+		name = "Uzuki",
 		type = 1,
 		id = 137,
-		code = "楙",
+		code = "Uzuki",
 		nation = 0
 	},
 	{
-		name = "朝风",
+		name = "Asakaze",
 		type = 1,
 		id = 138,
-		code = "櫂",
+		code = "Asakaze",
 		nation = 0
 	},
 	{
-		name = "春风",
+		name = "Harukaze",
 		type = 1,
 		id = 139,
-		code = "橪",
+		code = "Harukaze",
 		nation = 0
 	},
 	{
-		name = "旗风",
+		name = "Hatakaze",
 		type = 1,
 		id = 140,
-		code = "樋",
+		code = "Hatakaze",
 		nation = 0
 	},
 	{
-		name = "若叶",
+		name = "Wakaba",
 		type = 1,
 		id = 141,
-		code = "楉",
+		code = "Wakaba",
 		nation = 0
 	},
 	{
-		name = "浦风",
+		name = "Urakaze",
 		type = 1,
 		id = 142,
-		code = "槆",
+		code = "Urakaze",
 		nation = 0
 	},
 	{
-		name = "矶风",
+		name = "Isokaze",
 		type = 1,
 		id = 143,
-		code = "柉",
+		code = "Isokaze",
 		nation = 0
 	},
 	{
-		name = "足柄",
+		name = "Ashigara",
 		type = 1,
 		id = 144,
-		code = "狳",
+		code = "Ashigara",
 		nation = 0
 	},
 	{
-		name = "朝潮",
+		name = "Asashio",
 		type = 1,
 		id = 145,
-		code = "棹",
+		code = "Asashio",
 		nation = 0
 	},
 	{
-		name = "大潮",
+		name = "Ooshio",
 		type = 1,
 		id = 146,
-		code = "荙",
+		code = "Ooshio",
 		nation = 0
 	},
 	{
-		name = "满潮",
+		name = "Michishio",
 		type = 1,
 		id = 147,
-		code = "樠",
+		code = "Michishio",
 		nation = 0
 	},
 	{
-		name = "荒潮",
+		name = "Arashio",
 		type = 1,
 		id = 148,
-		code = "栘",
+		code = "Arashio",
 		nation = 0
 	},
 	{
-		name = "凉风",
+		name = "Suzukaze",
 		type = 1,
 		id = 149,
-		code = "莨",
+		code = "Suzukaze",
 		nation = 0
 	},
 	{
-		name = "海风",
+		name = "Umikaze",
 		type = 1,
 		id = 150,
-		code = "菪",
+		code = "Umikaze",
 		nation = 0
 	},
 	{
-		name = "出云",
+		name = "Izumo",
 		type = 1,
 		id = 151,
-		code = "侌",
+		code = "Izumo",
 		nation = 0
 	},
 	{
-		name = "伊吹",
+		name = "Ibuki",
 		type = 1,
 		id = 152,
-		code = "峦",
+		code = "Ibuki",
 		nation = 0
 	},
 	{
-		name = "夕凪",
+		name = "Yuunagi",
 		type = 1,
 		id = 153,
-		code = "枳",
+		code = "Yuunagi",
 		nation = 0
 	},
 	{
-		name = "伊19",
+		name = "I-19",
 		type = 1,
 		id = 154,
-		code = "衣玖",
+		code = "I-19",
 		nation = 0
 	},
 	{
-		name = "伊26",
+		name = "I-26",
 		type = 1,
 		id = 155,
-		code = "双叶梦",
+		code = "I-26",
 		nation = 0
 	},
 	{
-		name = "伊58",
+		name = "I-58",
 		type = 1,
 		id = 156,
-		code = "冴矢",
+		code = "I-58",
 		nation = 0
 	},
 	{
-		name = "春月",
+		name = "Harutsuki",
 		type = 1,
 		id = 157,
-		code = "桸",
+		code = "Harutsuki",
 		nation = 0
 	},
 	{
-		name = "江风",
+		name = "Kawakaze",
 		type = 1,
 		id = 158,
-		code = "茳",
+		code = "Kawakaze",
 		nation = 0
 	},
 	{
-		name = "文月",
+		name = "Fumizuki",
 		type = 1,
 		id = 159,
-		code = "橗",
+		code = "Fumizuki",
 		nation = 0
 	},
 	{
-		name = "长月",
+		name = "Nagatsuki",
 		type = 1,
 		id = 160,
-		code = "枨",
+		code = "Nagatsuki",
 		nation = 0
 	},
 	{
-		name = "天城",
+		name = "Amagi",
 		type = 1,
 		id = 161,
-		code = "鳐",
+		code = "Amagi",
 		nation = 0
 	},
 	{
-		name = "卷波",
+		name = "Makinami",
 		type = 1,
 		id = 162,
-		code = "棬",
+		code = "Makinami",
 		nation = 0
 	},
 	{
-		name = "伊13",
+		name = "I-13",
 		type = 1,
 		id = 163,
-		code = "十纱",
+		code = "I-13",
 		nation = 0
 	},
 	{
-		name = "北风",
+		name = "Kitakaze",
 		type = 1,
 		id = 164,
-		code = "苝",
+		code = "Kitakaze",
 		nation = 0
 	},
 	{
-		name = "吾妻",
+		name = "Azuma",
 		type = 1,
 		id = 165,
-		code = "猉",
+		code = "Azuma",
 		nation = 0
 	},
 	{
-		name = "特II型绫波",
+		name = "Type II Ayanami",
 		type = 1,
 		id = 166,
-		code = "特II型柚",
+		code = "Type II Ayanami",
 		nation = 0
 	},
 	{
-		name = "特I型吹雪",
+		name = "Type I Fubuki",
 		type = 1,
 		id = 167,
-		code = "特I型桐",
+		code = "Type I Fubuki",
 		nation = 0
 	},
 	{
-		name = "特III型晓",
+		name = "Type III Akatsuki",
 		type = 1,
 		id = 168,
-		code = "特III型枫",
+		code = "Type III Akatsuki",
 		nation = 0
 	},
 	{
-		name = "小比叡",
+		name = "Hiei-chan",
 		type = 1,
 		id = 169,
-		code = "小鲟",
+		code = "Hiei-chan",
 		nation = 0
 	},
 	{
-		name = "小赤城",
+		name = "Akagi-chan",
 		type = 1,
 		id = 170,
-		code = "小凰",
+		code = "Akagi-chan",
 		nation = 0
 	},
 	{
-		name = "阳炎级量产型.verAI",
+		name = "AI-Type Kagerou Production",
 		type = 1,
 		id = 171,
-		code = "萩级量产型.verAI",
+		code = "AI-Type Kagerou Production",
 		nation = 0
 	},
 	{
-		name = "妙高级量产型.verAI",
+		name = "AI-Type Myoukou Production",
 		type = 1,
 		id = 172,
-		code = "獌级量产型.verAI",
+		code = "AI-Type Myoukou Production",
 		nation = 0
 	},
 	{
-		name = "扶桑级量产型.verAI",
+		name = "AI-Type Fusou Production",
 		type = 1,
 		id = 173,
-		code = "魟量产型.verAI",
+		code = "AI-Type Fusou Production",
 		nation = 0
 	},
 	{
-		name = "清波",
+		name = "Kiyonami",
 		type = 1,
 		id = 174,
-		code = "棈",
+		code = "Kiyonami",
 		nation = 0
 	},
 	{
-		name = "骏河",
+		name = "Suruga",
 		type = 1,
 		id = 175,
-		code = "鲪",
+		code = "Suruga",
 		nation = 0
 	},
 	{
-		name = "赤城(μ兵装)",
+		name = "Akagi μ",
 		type = 1,
 		id = 176,
-		code = "凰(μ兵装)",
+		code = "Akagi μ",
 		nation = 0
 	},
 	{
-		name = "伊势级量产型",
+		name = "Ise Production",
 		type = 1,
 		id = 177,
-		code = "鳌级量产型",
+		code = "Ise Production",
 		nation = 0
 	},
 	{
-		name = "扶桑级量产型",
+		name = "Fusou Production",
 		type = 1,
 		id = 178,
-		code = "魟级量产型",
+		code = "Fusou Production",
 		nation = 0
 	},
 	{
-		name = "龙凤",
+		name = "Ryuuhou",
 		type = 1,
 		id = 179,
-		code = "鸗",
+		code = "Ryuuhou",
 		nation = 0
 	},
 	{
-		name = "霞",
+		name = "Kasumi",
 		type = 1,
 		id = 180,
-		code = "蕸",
+		code = "Kasumi",
 		nation = 0
 	},
 	{
-		name = "鬼怒",
+		name = "Kinu",
 		type = 1,
 		id = 181,
-		code = "猤",
+		code = "Kinu",
 		nation = 0
 	},
 	{
-		name = "信浓",
+		name = "Shinano",
 		type = 1,
 		id = 182,
-		code = "鵗",
+		code = "Shinano",
 		nation = 0
 	},
 	{
-		name = "大鲸",
+		name = "Taigei",
 		type = 1,
 		id = 183,
-		code = "迖",
+		code = "Taigei",
 		nation = 0
 	},
 	{
-		name = "浦波",
+		name = "Uranami",
 		type = 1,
 		id = 184,
-		code = "朴",
+		code = "Uranami",
 		nation = 0
 	},
 	{
-		name = "长波",
+		name = "Naganami",
 		type = 1,
 		id = 185,
-		code = "苌",
+		code = "Naganami",
 		nation = 0
 	},
 	{
-		name = "冬月",
+		name = "Fuyutsuki",
 		type = 1,
 		id = 186,
-		code = "㮔",
+		code = "Fuyutsuki",
 		nation = 0
 	},
 	{
-		name = "满月",
+		name = "Michitsuki",
 		type = 1,
 		id = 187,
-		code = "槾",
+		code = "Michitsuki",
 		nation = 0
 	},
 	{
-		name = "樫野",
+		name = "Kashino",
 		type = 1,
 		id = 188,
-		code = "㭴",
+		code = "Kashino",
 		nation = 0
 	},
 	{
-		name = "初月",
+		name = "Hatsuzuki",
 		type = 1,
 		id = 189,
-		code = "檚",
+		code = "Hatsuzuki",
 		nation = 0
 	},
 	{
-		name = "大凤(μ兵装)",
+		name = "Taihou μ",
 		type = 1,
 		id = 190,
-		code = "鹩(μ兵装)",
+		code = "Taihou μ",
 		nation = 0
 	},
 	{
-		name = "飞龙·META",
+		name = "Hiryuu META",
 		type = 1,
 		id = 191,
-		code = "龙·META",
+		code = "Hiryuu META",
 		nation = 0
 	},
 	{
-		name = "追风",
+		name = "Oite",
 		type = 1,
 		id = 192,
-		code = "椎",
+		code = "Oite",
 		nation = 0
 	},
 	{
-		name = "小天城",
+		name = "Amagi-chan",
 		type = 1,
 		id = 193,
-		code = "小鳐",
+		code = "Amagi-chan",
 		nation = 0
 	},
 	{
-		name = "提康德罗加",
+		name = "Ticonderoga",
 		type = 1,
 		id = 194,
-		code = "卡莉永",
+		code = "Ticonderoga",
 		nation = 0
 	},
 	{
-		name = "旧金山",
+		name = "San Francisco",
 		type = 1,
 		id = 195,
-		code = "雾城",
+		code = "San Francisco",
 		nation = 0
 	},
 	{
-		name = "射水鱼",
+		name = "Archerfish",
 		type = 1,
 		id = 196,
-		code = "喷水鱼",
+		code = "Archerfish",
 		nation = 0
 	},
 	{
-		name = "博伊西",
+		name = "Boise",
 		type = 1,
 		id = 197,
-		code = "树城",
+		code = "Boise",
 		nation = 0
 	},
 	{
-		name = "莫里森",
+		name = "Morrison",
 		type = 1,
 		id = 198,
-		code = "赛普拉斯",
+		code = "Morrison",
 		nation = 0
 	},
 	{
-		name = "新泽西",
+		name = "New Jersey",
 		type = 1,
 		id = 199,
-		code = "花园",
+		code = "New Jersey",
 		nation = 0
 	},
 	{
-		name = "提康",
+		name = "Ticonderoga",
 		type = 1,
 		id = 200,
-		code = "卡莉",
+		code = "Ticonderoga",
 		nation = 0
 	},
 	{
-		name = "衣阿华",
+		name = "Iowa",
 		type = 1,
 		id = 201,
-		code = "霍克艾",
+		code = "Iowa",
 		nation = 0
 	},
 	{
-		name = "巴劳鱵",
+		name = "Balao",
 		type = 1,
 		id = 202,
-		code = "鱵",
+		code = "Balao",
 		nation = 0
 	},
 	{
-		name = "风云",
+		name = "Kazagumo",
 		type = 1,
 		id = 203,
-		code = "枟",
+		code = "Kazagumo",
 		nation = 0
 	},
 	{
-		name = "白龙",
+		name = "Hakuryuu",
 		type = 1,
 		id = 204,
-		code = "鹫",
+		code = "Hakuryuu",
 		nation = 0
 	},
 	{
-		name = "苍龙·META",
+		name = "Souryuu Meta",
 		type = 1,
 		id = 205,
-		code = "蛟·META",
+		code = "Souryuu Meta",
 		nation = 0
 	},
 	{
-		name = "由良",
+		name = "Yura",
 		type = 1,
 		id = 206,
-		code = "㹨",
+		code = "Yura",
 		nation = 0
 	},
 	{
-		name = "山风",
+		name = "Yamakaze",
 		type = 1,
 		id = 207,
-		code = "杣",
+		code = "Yamakaze",
 		nation = 0
 	},
 	{
-		name = "葛城",
+		name = "Katsuragi",
 		type = 1,
 		id = 208,
-		code = "鹖",
+		code = "Katsuragi",
 		nation = 0
 	},
 	{
-		name = "云龙",
+		name = "Unryuu",
 		type = 1,
 		id = 209,
-		code = "靇",
+		code = "Unryuu",
 		nation = 0
 	},
 	{
-		name = "扶桑·META",
+		name = "Fusou META",
 		type = 1,
 		id = 210,
-		code = "魟·META",
+		code = "Fusou META",
 		nation = 0
 	},
 	{
-		name = "扶桑改",
+		name = "Fusou (Retrofit)",
 		type = 1,
 		id = 211,
-		code = "魟.改",
+		code = "Fusou (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "最上改",
+		name = "Mogami (Retrofit)",
 		type = 1,
 		id = 212,
-		code = "猨.改",
+		code = "Mogami (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "夕立.改",
+		name = "Yuudachi (Retrofit)",
 		type = 1,
 		id = 213,
-		code = "椿.改",
+		code = "Yuudachi (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "最上.改",
+		name = "Mogami (Retrofit)",
 		type = 1,
 		id = 214,
-		code = "猨.改",
+		code = "Mogami (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "扶桑.改",
+		name = "Fusou (Retrofit)",
 		type = 1,
 		id = 215,
-		code = "魟.改",
+		code = "Fusou (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "山城.改",
+		name = "Yamashiro (Retrofit)",
 		type = 1,
 		id = 216,
-		code = "鲼.改",
+		code = "Yamashiro (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "伊势.改",
+		name = "Ise (Retrofit)",
 		type = 1,
 		id = 217,
-		code = "鳌.改",
+		code = "Ise (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "日向.改",
+		name = "Hyuuga (Retrofit)",
 		type = 1,
 		id = 218,
-		code = "螯.改",
+		code = "Hyuuga (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "霞.改",
+		name = "Kasumi (Retrofit)",
 		type = 1,
 		id = 219,
-		code = "蕸.改",
+		code = "Kasumi (Retrofit)",
 		nation = 0
 	},
 	{
-		name = "飞鹰·META",
+		name = "Hiyou META",
 		type = 1,
 		id = 220,
-		code = "鸱·META",
+		code = "Hiyou META",
 		nation = 0
 	},
 	{
-		name = "隼鹰·META",
+		name = "Junyou META",
 		type = 1,
 		id = 221,
-		code = "鸢·META",
+		code = "Junyou META",
 		nation = 0
 	},
 	[223] = {
-		name = "山城·META",
+		name = "Yamashiro META",
 		type = 1,
 		id = 223,
-		code = "鲼·META",
+		code = "Yamashiro META",
 		nation = 0
 	},
 	[224] = {
-		name = "哈尔滨",
+		name = "Harbin",
 		type = 1,
 		id = 224,
-		code = "滨江",
+		code = "Harbin",
 		nation = 0
 	},
 	[225] = {
-		name = "若月",
+		name = "Wakatsuki",
 		type = 1,
 		id = 225,
-		code = "若",
+		code = "Wakatsuki",
 		nation = 0
 	},
 	[226] = {
-		name = "酒匂",
+		name = "Sakawa",
 		type = 1,
 		id = 226,
-		code = "貄",
+		code = "Sakawa",
 		nation = 0
 	},
 	[227] = {
-		name = "能代(μ兵装)",
+		name = "Noshiro μ",
 		type = 1,
 		id = 227,
-		code = "貅(μ兵装)",
+		code = "Noshiro μ",
 		nation = 0
 	},
 	[228] = {
-		name = "金刚(μ兵装)",
+		name = "Kongou μ",
 		type = 1,
 		id = 228,
-		code = "鲤(μ兵装)",
+		code = "Kongou μ",
 		nation = 0
 	},
 	[229] = {
-		name = "霞·META",
+		name = "Kasumi META",
 		type = 1,
 		id = 229,
-		code = "蕸·META",
+		code = "Kasumi META",
 		nation = 0
 	},
 	[235] = {
@@ -1611,857 +1611,857 @@ pg.name_code = {
 		nation = 0
 	},
 	[230] = {
-		name = "长门·META",
+		name = "Nagato META",
 		type = 1,
 		id = 230,
-		code = "鲨·META",
+		code = "Nagato META",
 		nation = 0
 	},
 	[231] = {
-		name = "渡良濑",
+		name = "Watarase",
 		type = 1,
 		id = 231,
-		code = "獭",
+		code = "Watarase",
 		nation = 0
 	},
 	[232] = {
-		name = "比叡·META",
+		name = "Hiei META",
 		type = 1,
 		id = 232,
-		code = "鲟·META",
+		code = "Hiei META",
 		nation = 0
 	},
 	[233] = {
-		name = "绫濑",
+		name = "Ayase",
 		type = 1,
 		id = 233,
-		code = "狑",
+		code = "Ayase",
 		nation = 0
 	},
 	[234] = {
-		name = "凉波",
+		name = "Suzunami",
 		type = 1,
 		id = 234,
-		code = "椋",
+		code = "Suzunami",
 		nation = 0
 	},
 	[237] = {
-		name = "凤翔·META",
+		name = "Houshou META",
 		type = 1,
 		id = 237,
-		code = "凤·META",
+		code = "Houshou META",
 		nation = 0
 	},
 	[238] = {
-		name = "大凤·META",
+		name = "Taihou META",
 		type = 1,
 		id = 238,
-		code = "鹩·META",
+		code = "Taihou META",
 		nation = 0
 	},
 	[250] = {
-		name = "伊9",
+		name = "I-9",
 		type = 1,
 		id = 250,
-		code = "玖",
+		code = "I-9",
 		nation = 0
 	},
 	[251] = {
-		name = "伊16",
+		name = "I-16",
 		type = 1,
 		id = 251,
-		code = "伊知梦",
+		code = "I-16",
 		nation = 0
 	},
 	[252] = {
-		name = "伊25",
+		name = "I-25",
 		type = 1,
 		id = 252,
-		code = "双叶檎",
+		code = "I-25",
 		nation = 0
 	},
 	[253] = {
-		name = "伊54",
+		name = "I-54",
 		type = 1,
 		id = 253,
-		code = "冴诗",
+		code = "I-54",
 		nation = 0
 	},
 	[254] = {
-		name = "伊56",
+		name = "I-56",
 		type = 1,
 		id = 254,
-		code = "冴梦",
+		code = "I-56",
 		nation = 0
 	},
 	[255] = {
-		name = "伊60",
+		name = "I-60",
 		type = 1,
 		id = 255,
-		code = "六重",
+		code = "I-60",
 		nation = 0
 	},
 	[256] = {
-		name = "伊168",
+		name = "I-168",
 		type = 1,
 		id = 256,
-		code = "伊吕波",
+		code = "I-168",
 		nation = 0
 	},
 	[257] = {
-		name = "伊490",
+		name = "I-490",
 		type = 1,
 		id = 257,
-		code = "诗玖玲",
+		code = "I-490",
 		nation = 0
 	},
 	[280] = {
-		name = "巡潜乙型",
+		name = "Type B1",
 		type = 1,
 		id = 280,
-		code = "Type-B型",
+		code = "Type B1",
 		nation = 0
 	},
 	[281] = {
-		name = "海大型",
+		name = "Kaidai Type",
 		type = 1,
 		id = 281,
-		code = "KD型",
+		code = "Kaidai Type",
 		nation = 0
 	},
 	[282] = {
-		name = "巡潜甲型改二型",
+		name = "Type A Mod. 2",
 		type = 1,
 		id = 282,
-		code = "Type-A Mod.2",
+		code = "Type A Mod. 2",
 		nation = 0
 	},
 	[283] = {
-		name = "巡潜乙型改二型",
+		name = "Type B Mod. 2",
 		type = 1,
 		id = 283,
-		code = "Type-B Mod.2",
+		code = "Type B Mod. 2",
 		nation = 0
 	},
 	[284] = {
-		name = "海大VI型a型",
+		name = "Kaidai Type VIa",
 		type = 1,
 		id = 284,
-		code = "KD VIa型",
+		code = "Kaidai Type VIa",
 		nation = 0
 	},
 	[285] = {
-		name = "伊型",
+		name = "I-Type",
 		type = 1,
 		id = 285,
-		code = "衣型",
+		code = "I-Type",
 		nation = 0
 	},
 	[286] = {
-		name = "夕云级量产型T2",
+		name = "Mass-Produced Yuugumo Class MK 2",
 		type = 1,
 		id = 286,
-		code = "茭级量产型T2",
+		code = "Mass-Produced Yuugumo Class MK 2",
 		nation = 0
 	},
 	[287] = {
-		name = "川内级量产型T2",
+		name = "Mass-Produced Sendai Class MK 2",
 		type = 1,
 		id = 287,
-		code = "貆级量产型T2",
+		code = "Mass-Produced Sendai Class MK 2",
 		nation = 0
 	},
 	[288] = {
-		name = "最上级量产型T2",
+		name = "Mass-Produced Mogami Class MK 2",
 		type = 1,
 		id = 288,
-		code = "猨级量产型T2",
+		code = "Mass-Produced Mogami Class MK 2",
 		nation = 0
 	},
 	[289] = {
-		name = "扶桑级量产型T2",
+		name = "Mass-Produced Fusou Class MK 2",
 		type = 1,
 		id = 289,
-		code = "魟级量产型T2",
+		code = "Mass-Produced Fusou Class MK 2",
 		nation = 0
 	},
 	[290] = {
-		name = "赤城级量产型T2",
+		name = "Mass-Produced Akagi Class MK 2",
 		type = 1,
 		id = 290,
-		code = "凰级量产型T2",
+		code = "Mass-Produced Akagi Class MK 2",
 		nation = 0
 	},
 	[291] = {
-		name = "小大凤",
+		name = "Taihou-chan",
 		type = 1,
 		id = 291,
-		code = "小鹩",
+		code = "Taihou-chan",
 		nation = 0
 	},
 	[292] = {
-		name = "四万十",
+		name = "Shimanto",
 		type = 1,
 		id = 292,
-		code = "虒",
+		code = "Shimanto",
 		nation = 0
 	},
 	[293] = {
-		name = "神通·META",
+		name = "Jintsuu META",
 		type = 1,
 		id = 293,
-		code = "貎·META",
+		code = "Jintsuu META",
 		nation = 0
 	},
 	[294] = {
 		name = "云仙",
 		type = 1,
 		id = 294,
-		code = "猃",
+		code = "Unzen",
 		nation = 0
 	},
 	[295] = {
 		name = "尾张",
 		type = 1,
 		id = 295,
-		code = "鳂",
+		code = "Owari",
 		nation = 0
 	},
 	[297] = {
 		name = "名取",
 		type = 1,
 		id = 297,
-		code = "猽",
+		code = "Beach Paradise",
 		nation = 0
 	},
 	[298] = {
 		name = "朝凪",
 		type = 1,
 		id = 298,
-		code = "桎",
+		code = "Asanagi",
 		nation = 0
 	},
 	[299] = {
-		name = "大山",
+		name = "Daisen",
 		type = 1,
 		id = 299,
-		code = "鳝",
+		code = "Daisen",
 		nation = 0
 	},
 	[300] = {
-		name = "江风·META",
+		name = "Kawakaze META",
 		type = 1,
 		id = 300,
-		code = "茳·META",
+		code = "Kawakaze META",
 		nation = 0
 	},
 	[400] = {
 		name = "Z1",
 		type = 1,
 		id = 400,
-		code = "莉泽洛特",
+		code = "Z1",
 		nation = 0
 	},
 	[401] = {
 		name = "Z2",
 		type = 1,
 		id = 401,
-		code = "格尔达",
+		code = "Z2",
 		nation = 0
 	},
 	[402] = {
 		name = "Z5",
 		type = 1,
 		id = 402,
-		code = "保拉",
+		code = "Z5",
 		nation = 0
 	},
 	[403] = {
 		name = "Z17",
 		type = 1,
 		id = 403,
-		code = "迪特琳德",
+		code = "Z17",
 		nation = 0
 	},
 	[404] = {
 		name = "Z18",
 		type = 1,
 		id = 404,
-		code = "汉娜",
+		code = "Z18",
 		nation = 0
 	},
 	[405] = {
 		name = "Z19",
 		type = 1,
 		id = 405,
-		code = "赫尔米娜",
+		code = "Z19",
 		nation = 0
 	},
 	[406] = {
 		name = "Z20",
 		type = 1,
 		id = 406,
-		code = "卡洛琳",
+		code = "Z20",
 		nation = 0
 	},
 	[407] = {
 		name = "Z21",
 		type = 1,
 		id = 407,
-		code = "威尔赫米娜",
+		code = "Z21",
 		nation = 0
 	},
 	[408] = {
 		name = "Z23",
 		type = 1,
 		id = 408,
-		code = "妮米",
+		code = "Z23",
 		nation = 0
 	},
 	[409] = {
 		name = "Z25",
 		type = 1,
 		id = 409,
-		code = "妮可",
+		code = "Z25",
 		nation = 0
 	},
 	[410] = {
 		name = "Z35",
 		type = 1,
 		id = 410,
-		code = "咪菓",
+		code = "Z35",
 		nation = 0
 	},
 	[411] = {
 		name = "Z36",
 		type = 1,
 		id = 411,
-		code = "咪露",
+		code = "Z36",
 		nation = 0
 	},
 	[412] = {
 		name = "Z46",
 		type = 1,
 		id = 412,
-		code = "希露",
+		code = "Z46",
 		nation = 0
 	},
 	[413] = {
 		name = "U-47",
 		type = 1,
 		id = 413,
-		code = "优希娜",
+		code = "U-47",
 		nation = 0
 	},
 	[414] = {
 		name = "U-81",
 		type = 1,
 		id = 414,
-		code = "优哈依",
+		code = "U-81",
 		nation = 0
 	},
 	[415] = {
 		name = "U-557",
 		type = 1,
 		id = 415,
-		code = "优可可娜",
+		code = "U-557",
 		nation = 0
 	},
 	[416] = {
 		name = "U-556",
 		type = 1,
 		id = 416,
-		code = "优可可洛",
+		code = "U-556",
 		nation = 0
 	},
 	[417] = {
 		name = "U-73",
 		type = 1,
 		id = 417,
-		code = "优娜米",
+		code = "U-73",
 		nation = 0
 	},
 	[418] = {
 		name = "U-101",
 		type = 1,
 		id = 418,
-		code = "优伊欧伊",
+		code = "U-101",
 		nation = 0
 	},
 	[419] = {
 		name = "U-522",
 		type = 1,
 		id = 419,
-		code = "优柯妮妮",
+		code = "U-522",
 		nation = 0
 	},
 	[420] = {
 		name = "U-110",
 		type = 1,
 		id = 420,
-		code = "优伊伊丽",
+		code = "U-110",
 		nation = 0
 	},
 	[421] = {
-		name = "柯尼斯堡",
+		name = "Königsberg",
 		type = 1,
 		id = 421,
-		code = "阿尔伯缇娜",
+		code = "Königsberg",
 		nation = 0
 	},
 	[422] = {
-		name = "卡尔斯鲁厄",
+		name = "Karlsruhe",
 		type = 1,
 		id = 422,
-		code = "夏璐尔",
+		code = "Karlsruhe",
 		nation = 0
 	},
 	[423] = {
-		name = "科隆",
+		name = "Köln",
 		type = 1,
 		id = 423,
-		code = "克劳迪亚",
+		code = "Köln",
 		nation = 0
 	},
 	[424] = {
-		name = "莱比锡",
+		name = "Leipzig",
 		type = 1,
 		id = 424,
-		code = "莉普莎",
+		code = "Leipzig",
 		nation = 0
 	},
 	[425] = {
-		name = "希佩尔海军上将",
+		name = "Admiral Hipper",
 		type = 1,
 		id = 425,
-		code = "芙兰希卡",
+		code = "Admiral Hipper",
 		nation = 0
 	},
 	[426] = {
-		name = "希佩尔",
+		name = "Hipper",
 		type = 1,
 		id = 426,
-		code = "芙兰希卡",
+		code = "Hipper",
 		nation = 0
 	},
 	[427] = {
-		name = "欧根亲王",
+		name = "Prinz Eugen",
 		type = 1,
 		id = 427,
-		code = "萨沃伊亲王",
+		code = "Prinz Eugen",
 		nation = 0
 	},
 	[428] = {
-		name = "欧根",
+		name = "Eugen",
 		type = 1,
 		id = 428,
-		code = "萨沃伊",
+		code = "Eugen",
 		nation = 0
 	},
 	[429] = {
-		name = "德意志",
+		name = "Deutschland",
 		type = 1,
 		id = 429,
-		code = "亚勒玛妮亚",
+		code = "Deutschland",
 		nation = 0
 	},
 	[430] = {
-		name = "斯佩伯爵海军上将",
+		name = "Admiral Graf Spee",
 		type = 1,
 		id = 430,
-		code = "休贝塔伯爵",
+		code = "Admiral Graf Spee",
 		nation = 0
 	},
 	[431] = {
-		name = "斯佩伯爵",
+		name = "Graf Spee",
 		type = 1,
 		id = 431,
-		code = "休贝塔伯爵",
+		code = "Graf Spee",
 		nation = 0
 	},
 	[432] = {
-		name = "斯佩",
+		name = "Spee",
 		type = 1,
 		id = 432,
-		code = "休贝塔",
+		code = "Spee",
 		nation = 0
 	},
 	[433] = {
-		name = "沙恩霍斯特",
+		name = "Scharnhorst",
 		type = 1,
 		id = 433,
-		code = "格尔林德",
+		code = "Scharnhorst",
 		nation = 0
 	},
 	[434] = {
-		name = "格奈森瑙",
+		name = "Gneisenau",
 		type = 1,
 		id = 434,
-		code = "奥古斯塔",
+		code = "Gneisenau",
 		nation = 0
 	},
 	[435] = {
-		name = "俾斯麦",
+		name = "Bismarck",
 		type = 1,
 		id = 435,
-		code = "奥德莉亚",
+		code = "Bismarck",
 		nation = 0
 	},
 	[436] = {
-		name = "提尔比茨",
+		name = "Tirpitz",
 		type = 1,
 		id = 436,
-		code = "阿尔芙莉达",
+		code = "Tirpitz",
 		nation = 0
 	},
 	[437] = {
-		name = "齐柏林伯爵",
+		name = "Graf Zeppelin",
 		type = 1,
 		id = 437,
-		code = "海拉伯爵",
+		code = "Graf Zeppelin",
 		nation = 0
 	},
 	[438] = {
-		name = "齐柏林",
+		name = "Zeppelin",
 		type = 1,
 		id = 438,
-		code = "海拉",
+		code = "Zeppelin",
 		nation = 0
 	},
 	[439] = {
-		name = "罗恩",
+		name = "Roon",
 		type = 1,
 		id = 439,
-		code = "艾伯塔",
+		code = "Roon",
 		nation = 0
 	},
 	[440] = {
-		name = "腓特烈大帝",
+		name = "Friedrich der Grosse",
 		type = 1,
 		id = 440,
-		code = "腓德雷卡大帝",
+		code = "Friedrich der Grosse",
 		nation = 0
 	},
 	[441] = {
-		name = "腓特烈",
+		name = "Friedrich",
 		type = 1,
 		id = 441,
-		code = "腓德雷卡",
+		code = "Friedrich",
 		nation = 0
 	},
 	[442] = {
 		name = "Z16",
 		type = 1,
 		id = 442,
-		code = "弗蕾德贡",
+		code = "Z16",
 		nation = 0
 	},
 	[443] = {
 		name = "Z24",
 		type = 1,
 		id = 443,
-		code = "妮丝",
+		code = "Z24",
 		nation = 0
 	},
 	[444] = {
 		name = "Z26",
 		type = 1,
 		id = 444,
-		code = "妮露",
+		code = "Z26",
 		nation = 0
 	},
 	[445] = {
 		name = "Z28",
 		type = 1,
 		id = 445,
-		code = "妮娅",
+		code = "Z28",
 		nation = 0
 	},
 	[446] = {
-		name = "纽伦堡",
+		name = "Nürnberg ",
 		type = 1,
 		id = 446,
-		code = "诺菈",
+		code = "Nürnberg ",
 		nation = 0
 	},
 	[447] = {
-		name = "马格德堡",
+		name = "Magdeburg",
 		type = 1,
 		id = 447,
-		code = "马格达莱娜",
+		code = "Magdeburg",
 		nation = 0
 	},
 	[448] = {
-		name = "埃姆登",
+		name = "Emden",
 		type = 1,
 		id = 448,
-		code = "埃玛",
+		code = "Emden",
 		nation = 0
 	},
 	[449] = {
-		name = "埃尔宾",
+		name = "Elbing",
 		type = 1,
 		id = 449,
-		code = "埃尔薇菈",
+		code = "Elbing",
 		nation = 0
 	},
 	[450] = {
-		name = "布吕歇尔",
+		name = "Blücher",
 		type = 1,
 		id = 450,
-		code = "布丽吉特",
+		code = "Blücher",
 		nation = 0
 	},
 	[451] = {
-		name = "希佩尔海军上将(μ兵装)",
+		name = "Admiral Hipper μ",
 		type = 1,
 		id = 451,
-		code = "芙兰希卡(μ兵装)",
+		code = "Admiral Hipper μ",
 		nation = 0
 	},
 	[452] = {
-		name = "罗恩(μ兵装)",
+		name = "Roon μ ",
 		type = 1,
 		id = 452,
-		code = "艾伯塔(μ兵装)",
+		code = "Roon μ ",
 		nation = 0
 	},
 	[453] = {
-		name = "海因里希亲王",
+		name = "Prinz Heinrich ",
 		type = 1,
 		id = 453,
-		code = "赫莉米娜亲王",
+		code = "Prinz Heinrich ",
 		nation = 0
 	},
 	[454] = {
-		name = "海因里希",
+		name = "Heinrich ",
 		type = 1,
 		id = 454,
-		code = "赫莉米娜",
+		code = "Heinrich ",
 		nation = 0
 	},
 	[455] = {
-		name = "阿达尔伯特亲王",
+		name = "Prinz Adalbert",
 		type = 1,
 		id = 455,
-		code = "阿德莉娅亲王",
+		code = "Prinz Adalbert",
 		nation = 0
 	},
 	[456] = {
-		name = "阿达尔伯特",
+		name = "Adalbert",
 		type = 1,
 		id = 456,
-		code = "阿德莉娅",
+		code = "Adalbert",
 		nation = 0
 	},
 	[457] = {
-		name = "约克",
+		name = "York",
 		type = 1,
 		id = 457,
-		code = "伊冯娜",
+		code = "York",
 		nation = 4
 	},
 	[458] = {
-		name = "小欧根",
+		name = "Little Prinz Eugen",
 		type = 1,
 		id = 458,
-		code = "小萨沃伊",
+		code = "Little Prinz Eugen",
 		nation = 0
 	},
 	[459] = {
-		name = "小斯佩",
+		name = "Little Spee",
 		type = 1,
 		id = 459,
-		code = "小休贝塔",
+		code = "Little Spee",
 		nation = 0
 	},
 	[460] = {
-		name = "塞德利茨",
+		name = "Seydlitz",
 		type = 1,
 		id = 460,
-		code = "桑德菈",
+		code = "Seydlitz",
 		nation = 0
 	},
 	[461] = {
-		name = "吕佐夫",
+		name = "Lützow",
 		type = 1,
 		id = 461,
-		code = "露西",
+		code = "Lützow",
 		nation = 0
 	},
 	[462] = {
-		name = "布伦希尔德",
+		name = "Brünhilde",
 		type = 1,
 		id = 462,
-		code = "贝尔莎",
+		code = "Brünhilde",
 		nation = 0
 	},
 	[463] = {
-		name = "乌尔里希·冯·胡滕",
+		name = "Ulrich von Hutten",
 		type = 1,
 		id = 463,
-		code = "乌尔里克·冯·胡贝尔",
+		code = "Ulrich von Hutten",
 		nation = 0
 	},
 	[464] = {
-		name = "乌尔里希",
+		name = "Hutten",
 		type = 1,
 		id = 464,
-		code = "乌尔里克",
+		code = "Hutten",
 		nation = 0
 	},
 	[465] = {
-		name = "胡滕",
+		name = "Hutten",
 		type = 1,
 		id = 465,
-		code = "胡贝尔",
+		code = "Hutten",
 		nation = 0
 	},
 	[466] = {
-		name = "图林根",
+		name = "Thüringen",
 		type = 1,
 		id = 466,
-		code = "特鲁德",
+		code = "Thüringen",
 		nation = 0
 	},
 	[467] = {
-		name = "威悉",
+		name = "Weser",
 		type = 1,
 		id = 467,
-		code = "威尔玛",
+		code = "Weser",
 		nation = 0
 	},
 	[468] = {
-		name = "易北",
+		name = "Elbe",
 		type = 1,
 		id = 468,
-		code = "埃尔斯贝特",
+		code = "Elbe",
 		nation = 0
 	},
 	[469] = {
-		name = "小齐柏林",
+		name = "Zeppy",
 		type = 1,
 		id = 469,
-		code = "小海拉",
+		code = "Zeppy",
 		nation = 0
 	},
 	[470] = {
-		name = "彼得·史特拉塞",
+		name = "Peter Strasser",
 		type = 1,
 		id = 470,
-		code = "佩特菈·斯坦贝瑟",
+		code = "Peter Strasser",
 		nation = 0
 	},
 	[471] = {
-		name = "彼得",
+		name = "Peter",
 		type = 1,
 		id = 471,
-		code = "佩特菈",
+		code = "Peter",
 		nation = 0
 	},
 	[472] = {
-		name = "史特拉塞",
+		name = "Strasser",
 		type = 1,
 		id = 472,
-		code = "斯坦贝瑟",
+		code = "Strasser",
 		nation = 0
 	},
 	[473] = {
 		name = "U-96",
 		type = 1,
 		id = 473,
-		code = "优玖露",
+		code = "U-96",
 		nation = 0
 	},
 	[474] = {
 		name = "U-37",
 		type = 1,
 		id = 474,
-		code = "优米娜",
+		code = "U-37",
 		nation = 0
 	},
 	[475] = {
 		name = "U-410",
 		type = 1,
 		id = 475,
-		code = "优斯伊丽",
+		code = "U-410",
 		nation = 0
 	},
 	[476] = {
 		name = "U-1206",
 		type = 1,
 		id = 476,
-		code = "优伊妮欧露",
+		code = "U-1206",
 		nation = 0
 	},
 	[477] = {
-		name = "格奈森瑙·META",
+		name = "Gneisenau META",
 		type = 1,
 		id = 477,
-		code = "奥古斯塔·META",
+		code = "Gneisenau META",
 		nation = 0
 	},
 	[478] = {
-		name = "沙恩霍斯特·META",
+		name = "Scharnhorst META",
 		type = 1,
 		id = 478,
-		code = "格尔林德·META",
+		code = "Scharnhorst META",
 		nation = 0
 	},
 	[479] = {
-		name = "美因茨",
+		name = "Mainz",
 		type = 1,
 		id = 479,
-		code = "米兹",
+		code = "Mainz",
 		nation = 0
 	},
 	[480] = {
-		name = "埃吉尔",
+		name = "Ägir",
 		type = 1,
 		id = 480,
-		code = "埃格妮丝",
+		code = "Ägir",
 		nation = 0
 	},
 	[481] = {
-		name = "奥古斯特·冯·帕塞瓦尔",
+		name = "August von Parseval",
 		type = 1,
 		id = 481,
-		code = "奥斯特雷德·冯·帕赫贝尔",
+		code = "August von Parseval",
 		nation = 0
 	},
 	[482] = {
-		name = "奥古斯特",
+		name = "August",
 		type = 1,
 		id = 482,
-		code = "奥斯特雷德",
+		code = "August",
 		nation = 0
 	},
 	[483] = {
-		name = "帕塞瓦尔",
+		name = "Parseval",
 		type = 1,
 		id = 483,
-		code = "帕赫贝尔",
+		code = "Parseval",
 		nation = 0
 	},
 	[484] = {
-		name = "鲁普雷希特亲王",
+		name = "Prinz Rupprecht",
 		type = 1,
 		id = 484,
-		code = "蕾贝卡亲王",
+		code = "Prinz Rupprecht",
 		nation = 0
 	},
 	[485] = {
-		name = "鲁普雷希特",
+		name = "Rupprecht",
 		type = 1,
 		id = 485,
-		code = "蕾贝卡",
+		code = "Rupprecht",
 		nation = 0
 	},
 	[486] = {
-		name = "奥丁",
+		name = "Odin",
 		type = 1,
 		id = 486,
-		code = "沃登",
+		code = "Odin",
 		nation = 0
 	},
 	[487] = {
@@ -2517,455 +2517,455 @@ pg.name_code = {
 		name = "Z47",
 		type = 1,
 		id = 494,
-		code = "希娜",
+		code = "Z47",
 		nation = 0
 	},
 	[495] = {
 		name = "Z9",
 		type = 1,
 		id = 495,
-		code = "沃尔普加",
+		code = "Z9",
 		nation = 0
 	},
 	[496] = {
 		name = "Z11",
 		type = 1,
 		id = 496,
-		code = "伯莎",
+		code = "Z11",
 		nation = 0
 	},
 	[497] = {
 		name = "Z12",
 		type = 1,
 		id = 497,
-		code = "埃丽卡",
+		code = "Z12",
 		nation = 0
 	},
 	[498] = {
 		name = "Z13",
 		type = 1,
 		id = 498,
-		code = "埃丝特",
+		code = "Z13",
 		nation = 0
 	},
 	[499] = {
 		name = "Z22",
 		type = 1,
 		id = 499,
-		code = "安妮特",
+		code = "Z22",
 		nation = 0
 	},
 	[500] = {
-		name = "德意志级量产型",
+		name = "Deutschland-class Production Model",
 		type = 1,
 		id = 500,
-		code = "亚勒玛妮亚级量产型",
+		code = "Deutschland-class Production Model",
 		nation = 0
 	},
 	[501] = {
-		name = "柯尼斯堡级量产型",
+		name = "Königsberg-class Production Model",
 		type = 1,
 		id = 501,
-		code = "阿尔伯缇娜级量产型",
+		code = "Königsberg-class Production Model",
 		nation = 0
 	},
 	[502] = {
-		name = "希佩尔海军上将级量产型",
+		name = "Admiral Hipper-class Production Model",
 		type = 1,
 		id = 502,
-		code = "芙兰希卡级量产型",
+		code = "Admiral Hipper-class Production Model",
 		nation = 0
 	},
 	[503] = {
-		name = "沙恩霍斯特级量产型",
+		name = "Scharnhorst-class Production Model",
 		type = 1,
 		id = 503,
-		code = "格尔林德级量产型",
+		code = "Scharnhorst-class Production Model",
 		nation = 0
 	},
 	[504] = {
-		name = "齐柏林级量产型",
+		name = "Zeppelin-class Production Model",
 		type = 1,
 		id = 504,
-		code = "海拉级量产型",
+		code = "Zeppelin-class Production Model",
 		nation = 0
 	},
 	[505] = {
-		name = "德意志级量产型·改I",
+		name = "Mass-Produced Deutschland-classs Mod I",
 		type = 1,
 		id = 505,
-		code = "亚勒玛妮亚级量产型·改I",
+		code = "Mass-Produced Deutschland-classs Mod I",
 		nation = 0
 	},
 	[506] = {
-		name = "柯尼斯堡级量产型·改I",
+		name = "Mass-Produced Königsberg-class Mod I",
 		type = 1,
 		id = 506,
-		code = "阿尔伯缇娜级量产型·改I",
+		code = "Mass-Produced Königsberg-class Mod I",
 		nation = 0
 	},
 	[507] = {
-		name = "希佩尔海军上将级量产型·改I",
+		name = "Mass-Produced Admiral Hipper-class Mod I",
 		type = 1,
 		id = 507,
-		code = "芙兰希卡级量产型·改I",
+		code = "Mass-Produced Admiral Hipper-class Mod I",
 		nation = 0
 	},
 	[508] = {
-		name = "沙恩霍斯特级量产型·改I",
+		name = "Mass-Produced Scharnhorst-class Mod I",
 		type = 1,
 		id = 508,
-		code = "格尔林德级量产型·改I",
+		code = "Mass-Produced Scharnhorst-class Mod I",
 		nation = 0
 	},
 	[509] = {
-		name = "齐柏林级量产型·改I",
+		name = "Mass-Produced Graf Zeppelin-class Mod I",
 		type = 1,
 		id = 509,
-		code = "海拉级量产型·改I",
+		code = "Mass-Produced Graf Zeppelin-class Mod I",
 		nation = 0
 	},
 	[510] = {
-		name = "奥托·冯·阿尔文斯莱本",
+		name = "Otto von Alvensleben",
 		type = 1,
 		id = 510,
-		code = "奥莉薇娅·冯·阿诺德",
+		code = "Otto von Alvensleben",
 		nation = 0
 	},
 	[511] = {
-		name = "奥托",
+		name = "Otto",
 		type = 1,
 		id = 511,
-		code = "奥莉薇娅",
+		code = "Otto",
 		nation = 0
 	},
 	[512] = {
-		name = "阿尔文斯莱本",
+		name = "Alvensleben",
 		type = 1,
 		id = 512,
-		code = "阿诺德",
+		code = "Alvensleben",
 		nation = 0
 	},
 	[513] = {
-		name = "阿尔文斯",
+		name = "Alvensleben",
 		type = 1,
 		id = 513,
-		code = "阿诺德",
+		code = "Alvensleben",
 		nation = 0
 	},
 	[514] = {
-		name = "俾斯麦Zwei",
+		name = "Bismarck Zwei",
 		type = 1,
 		id = 514,
-		code = "奥德莉亚Zwei",
+		code = "Bismarck Zwei",
 		nation = 0
 	},
 	[515] = {
-		name = "U-556·META",
+		name = "U-556 META",
 		type = 1,
 		id = 515,
-		code = "优可可洛·META",
+		code = "U-556 META",
 		nation = 0
 	},
 	[516] = {
-		name = "雷根斯堡",
+		name = "Regensburg",
 		type = 1,
 		id = 516,
-		code = "瑞吉娜",
+		code = "Regensburg",
 		nation = 0
 	},
 	[517] = {
-		name = "U-556.META？",
+		name = "U-556 META?",
 		type = 1,
 		id = 517,
-		code = "优可可洛·META？",
+		code = "U-556 META?",
 		nation = 0
 	},
 	[518] = {
-		name = "菲利克斯·舒尔茨",
+		name = "Felix Schultz",
 		type = 1,
 		id = 518,
-		code = "弗郎西斯卡·舒伯特",
+		code = "Felix Schultz",
 		nation = 0
 	},
 	[519] = {
-		name = "菲利克斯",
+		name = "Felix Schultz",
 		type = 1,
 		id = 519,
-		code = "弗郎西斯卡",
+		code = "Felix Schultz",
 		nation = 0
 	},
 	[520] = {
-		name = "舒尔茨",
+		name = "Felix Schultz",
 		type = 1,
 		id = 520,
-		code = "舒伯特",
+		code = "Felix Schultz",
 		nation = 0
 	},
 	[521] = {
-		name = "兴登堡",
+		name = "Hindenburg",
 		type = 1,
 		id = 521,
-		code = "希尔德加德",
+		code = "Hindenburg",
 		nation = 0
 	},
 	[522] = {
-		name = "旗风·META",
+		name = "Hatakaze META",
 		type = 1,
 		id = 522,
-		code = "樋·META",
+		code = "Hatakaze META",
 		nation = 0
 	},
 	[523] = {
-		name = "让·巴尔",
+		name = "Jean Bart",
 		type = 1,
 		id = 523,
-		code = "简·布罗伊",
+		code = "Jean Bart",
 		nation = 0
 	},
 	[524] = {
-		name = "圣地亚哥",
+		name = "San Diego",
 		type = 1,
 		id = 524,
-		code = "圣戴安娜",
+		code = "San Diego",
 		nation = 0
 	},
 	[525] = {
-		name = "英格拉罕",
+		name = "Ingraham",
 		type = 1,
 		id = 525,
-		code = "格拉哈姆",
+		code = "Ingraham",
 		nation = 0
 	},
 	[526] = {
-		name = "扎拉",
+		name = "Zara",
 		type = 1,
 		id = 526,
-		code = "扎达尔",
+		code = "Zara",
 		nation = 0
 	},
 	[527] = {
-		name = "小圣地亚哥",
+		name = "Li'l Sandy",
 		type = 1,
 		id = 527,
-		code = "小圣戴安娜",
+		code = "Li'l Sandy",
 		nation = 0
 	},
 	[528] = {
-		name = "圣地亚哥.改",
+		name = "San Diego Retrofit",
 		type = 1,
 		id = 528,
-		code = "圣戴安娜.改",
+		code = "San Diego Retrofit",
 		nation = 0
 	},
 	[529] = {
-		name = "苏维埃同盟",
+		name = "Sovetsky Soyuz",
 		type = 1,
 		id = 529,
-		code = "苏维埃萨尤斯",
+		code = "Sovetsky Soyuz",
 		nation = 0
 	},
 	[530] = {
-		name = "同盟",
+		name = "Soyuz",
 		type = 1,
 		id = 530,
-		code = "萨尤斯",
+		code = "Soyuz",
 		nation = 0
 	},
 	[531] = {
-		name = "腓特烈·卡尔",
+		name = "Friedrich Carl",
 		type = 1,
 		id = 531,
-		code = "腓德雷卡·卡尔 ",
+		code = "Friedrich Carl",
 		nation = 0
 	},
 	[532] = {
-		name = "欧根亲王(μ兵装)",
+		name = "Prinz Eugen μ",
 		type = 1,
 		id = 532,
-		code = "萨沃伊亲王(μ兵装)",
+		code = "Prinz Eugen μ",
 		nation = 0
 	},
 	[533] = {
-		name = "博伊西(μ兵装)",
+		name = "Boise μ",
 		type = 1,
 		id = 533,
-		code = "树城(μ兵装)",
+		code = "Boise μ",
 		nation = 0
 	},
 	[534] = {
-		name = "小信浓",
+		name = "Shinano-chan",
 		type = 1,
 		id = 534,
-		code = "小鵗",
+		code = "Shinano-chan",
 		nation = 0
 	},
 	[535] = {
-		name = "小腓特烈",
+		name = "Little Friedrich",
 		type = 1,
 		id = 535,
-		code = "小腓德雷卡",
+		code = "Little Friedrich",
 		nation = 0
 	},
 	[536] = {
 		name = "U-31",
 		type = 1,
 		id = 536,
-		code = "优咪伊",
+		code = "U-31",
 		nation = 0
 	},
 	[537] = {
 		name = "Z43",
 		type = 1,
 		id = 537,
-		code = "希咪",
+		code = "Z43",
 		nation = 0
 	},
 	[538] = {
 		name = "Z9",
 		type = 1,
 		id = 538,
-		code = "沃尔普加",
+		code = "Z9",
 		nation = 0
 	},
 	[539] = {
 		name = "Z11",
 		type = 1,
 		id = 539,
-		code = "伯莎",
+		code = "Z11",
 		nation = 0
 	},
 	[540] = {
 		name = "Z52",
 		type = 1,
 		id = 540,
-		code = "柯妮",
+		code = "Z52",
 		nation = 0
 	},
 	[541] = {
-		name = "杜伊斯堡",
+		name = "Duisburg",
 		type = 1,
 		id = 541,
-		code = "多琳妮娅",
+		code = "Duisburg",
 		nation = 0
 	},
 	[542] = {
-		name = "弗里茨·鲁梅",
+		name = "Fritz Rumey",
 		type = 1,
 		id = 542,
-		code = "菲莉西娅·鲁梅",
+		code = "Fritz Rumey",
 		nation = 0
 	},
 	[543] = {
-		name = "希佩尔海军上将·META",
+		name = "Admiral Hipper META",
 		type = 1,
 		id = 543,
-		code = "芙兰希卡·META",
+		code = "Admiral Hipper META",
 		nation = 0
 	},
 	[544] = {
-		name = "小埃吉尔",
+		name = "Little Ägir",
 		type = 1,
 		id = 544,
-		code = "小埃格妮丝",
+		code = "Little Ägir",
 		nation = 0
 	},
 	[545] = {
 		name = "U-552",
 		type = 1,
 		id = 545,
-		code = "优可可妮",
+		code = "U-552",
 		nation = 0
 	},
 	[546] = {
-		name = "曾克海军上将",
+		name = "Admiral Zenker",
 		type = 1,
 		id = 546,
-		code = "泽特",
+		code = "Zenker",
 		nation = 0
 	},
 	[547] = {
-		name = "曾克",
+		name = "Zenker",
 		type = 1,
 		id = 547,
-		code = "泽特",
+		code = "Zenker",
 		nation = 0
 	},
 	[548] = {
-		name = "U552",
+		name = "U-552",
 		type = 1,
 		id = 548,
-		code = "优可可妮",
+		code = "U-552",
 		nation = 0
 	},
 	[549] = {
-		name = "U37",
+		name = "U-37",
 		type = 1,
 		id = 549,
-		code = "优米娜",
+		code = "U-37",
 		nation = 0
 	},
 	[550] = {
-		name = "梅克伦堡",
+		name = "Mecklenburg",
 		type = 1,
 		id = 550,
-		code = "梅克琳达",
+		code = "Mecklenburg",
 		nation = 0
 	},
 	[10000] = {
-		name = "零战五二型",
+		name = "Type 0 Fighter Model 52",
 		type = 2,
 		id = 10000,
-		code = "泽克战斗机",
+		code = "Type 0 Fighter Model 52",
 		nation = 0
 	},
 	[10001] = {
-		name = "天山",
+		name = "Tenzan",
 		type = 2,
 		id = 10001,
-		code = "吉鲁鱼雷机",
+		code = "Tenzan",
 		nation = 0
 	},
 	[10002] = {
-		name = "F6F地狱猫",
+		name = "F6F Hellcat",
 		type = 2,
 		id = 10002,
-		code = "赫尔卡特战斗机",
+		code = "F6F Hellcat",
 		nation = 0
 	},
 	[10003] = {
-		name = "SB2C地狱俯冲者",
+		name = "SB2C Helldiver",
 		type = 2,
 		id = 10003,
-		code = "赫尔代瓦轰炸机",
+		code = "SB2C Helldiver",
 		nation = 0
 	},
 	[10004] = {
-		name = "瑞云",
+		name = "Aichi E16A Zuiun",
 		type = 2,
 		id = 10004,
-		code = "保罗水上侦察机",
+		code = "Aichi E16A Zuiun",
 		nation = 0
 	},
 	[10005] = {
-		name = "海毒牙",
+		name = "Seafang",
 		type = 2,
 		id = 10005,
-		code = "希方各战斗机",
+		code = "Seafang",
 		nation = 0
 	},
 	[10006] = {
-		name = "F6F地狱猫（HVAR搭载型）",
+		name = "F6F Hellcat (HVAR-Mounted)",
 		type = 2,
 		id = 10006,
-		code = "赫尔卡特战斗机（HVAR搭载型）",
+		code = "F6F Hellcat (HVAR-Mounted)",
 		nation = 0
 	},
 	[10007] = {
-		name = "天山改",
+		name = "Tenzan Kai",
 		type = 2,
 		id = 10007,
-		code = "吉鲁改鱼雷机",
+		code = "Tenzan Kai",
 		nation = 0
 	}
 }

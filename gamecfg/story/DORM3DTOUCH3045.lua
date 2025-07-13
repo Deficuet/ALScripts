@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "被{dorm3d}……抓住了！",
+			say = "You got me, {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

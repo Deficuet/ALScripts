@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"才不是小孩子！\n\n<size=45>一 功劳！</size>",
+					"I'm Not A Baby!\n\n<size=45>Chapter 1 - Getting Work Done!</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "舰队的事务，需要在各个部门之间往返。",
+			say = "To supervise a whole fleet, a method of communication to transmit and receive messages and materials throughout the port's many departments is of utmost importance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "有时是传递文件，有时是交付材料……总之，免不了一顿奔波。",
+			say = "Just as there are times where one phone call is sufficient, there are times where just a single slip of paper has to be delivered by a messenger.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过，一个小帮手的出现，着实减轻了不少这方面的负担——",
+			say = "It's times like the latter when she – my secretary – is a huge help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官！",
+			say = "Commander!",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -137,7 +137,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "让我带给后勤部门的慰问品，已经全部送到啦！",
+			say = "I've delivered the documents to the provisions manager!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "然后是——这个！",
+			say = "Also, I've got something for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "今天的仓库管理报告！按照指挥官的要求拿过来了！",
+			say = "This! Your regularly scheduled inventory report! I asked for one just like you told me to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			},
 			options = {
 				{
-					content = "接过递来的文件。",
+					content = "Take the inventory report",
 					flag = 1
 				}
 			}
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还有什么要我做的吗？",
+			say = "Anything else you want me to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			},
 			options = {
 				{
-					content = "让棘鳍休息下",
+					content = "Give Cavalla some time to rest",
 					flag = 1
 				}
 			}
@@ -215,7 +215,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "明白了！",
+			say = "Okey-dokey, I will!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "♪~~",
+			say = "Whoopee♪",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -265,7 +265,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我看看…今天我一共帮指挥官完成了三次跑腿任务，分别是科研部门，学院和后勤——",
+			say = "I got three tasks done for the commander today! I went to the research lab, school, and the depot...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 108030,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "噢噢，我超级厉害！",
+			say = "Way to go, me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			withoutActorName = true,
 			actor = 108030,
 			nameColor = "#a9f548",
-			say = "棘鳍一脸洋洋得意的样子。",
+			say = "Cavalla looked pleased with herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,11 +311,11 @@ return {
 			},
 			options = {
 				{
-					content = "夸奖她",
+					content = "Tell her she did well",
 					flag = 1
 				},
 				{
-					content = "摸摸头",
+					content = "Pat her on the head",
 					flag = 2
 				}
 			}
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "哼哼，指挥官没有我就什么都做不到了呢！",
+			say = "Heheh~ You couldn't manage without me, could you~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 1,
-			say = "确实有棘鳍在省下了不少工作量，就稍微顺着她一点……也没问题吧",
+			say = "I wouldn't say I couldn't make do without her, but I'm still grateful because she's such a big help.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "！？唔——指挥官，别把我当成小孩子！",
+			say = "Bah... Don't treat me like a baby, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			optionFlag = 2,
-			say = "棘鳍似乎对被摸头有些介意",
+			say = "She doesn't seem to like it when I pat her on the head.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "今天的工作就到此为止了，明天再让她继续帮忙吧。",
+			say = "Let's call it here for today and ask for her help again later tomorrow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

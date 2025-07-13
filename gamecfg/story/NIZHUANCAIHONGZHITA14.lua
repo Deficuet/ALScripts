@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "在炮火与轰鸣的战场中，{namecode:463}一边开火，一边冷静地思考着。",
+			say = "While avoiding the bombardment from the META ship, Gneisenau, Ulrich racked her brain for answers.",
 			side = 2,
 			bgName = "bg_midgard_3",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "局势焦灼，但并不绝望。",
+			say = "(Her powers are immense, but nothing beyond what we predicted.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,71 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "因为铁血舰队的人数优势，虽然还没取得上风，却牢牢把握着战斗主动权。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_midgard_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "可META是能通过人数轻易压倒的么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_midgard_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
-			actor = 405030,
-			say = "是她太弱了，我们太强了还是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_3",
-			say = "细看下来，{namecode:434}行动确实的有不自然之处。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_midgard_3",
-			say = "虽然每一发炮击都蕴含着夸张威力，但在机动性上就逊色了许多。宁可硬吃下不少火力，也不愿轻易移动位置。",
+			say = "Even though the Iron Blood fleet was outgunned, they continued to establish a positional advantage using their superior numbers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +71,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "原来如此，受伤了啊。",
+			say = "(But, our objective here is not to subdue the META ship, much less sink her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +89,71 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "受伤确实会影响战斗力。但是还不止……还有什么原因在影响着局势。",
+			say = "(In the first place, it seems inconceivable that a META ship would be able to be subdued through numbers alone...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_3",
+			say = "Ulrich once again focused her attention on observing Gneisenau's movements.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_midgard_3",
+			say = "Or rather, the lack thereof. While Gneisenau's firepower was indeed formidable, she made little effort to avoid incoming shells, hardly moving from her spot.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_midgard_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "(Is she... injured?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_midgard_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#a9f548",
+			actor = 405030,
+			say = "(If so, that would explain why she doesn't match up to the caliber of the \"META\" ships mentioned in the briefings...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "之前提到铁血命令的时候，我看到了她眼神中燃起的一丝火焰。",
+			say = "(She also mentioned that she knows the Iron Blood, but has never heard of me or Friedrich.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "可是再次提到{namecode:441}的时候，火焰又熄灭了……",
+			say = "(In that case, it is useless to mention the specific circumstances around our particular Iron Blood, and the same applies to the subject of the Commander.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "……原来如此，所以才准备了“另一份命令”么。",
+			say = "(.........But, I happen to be in a betting mood today.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "{namecode:464}像是想到了什么一般，突然停止了炮击，然后打开了舰队广播。",
+			say = "With determination flaring in her eyes, Ulrich called off the attack and relayed her instructions to the rest of the fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这里是舰队旗舰{namecode:463}，舰队立刻停止射击，全员后撤。",
+			say = "This is Ulrich. Lower your weapons and pull back to a safe distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "重复一遍，舰队立刻停止射击，全员后撤。",
+			say = "Once again, lower your weapons and pull back to a safe distance. You've done enough here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "啊……为什么要现在后撤？",
+			say = "Huh? Wait, why?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我感觉再过一小会就能取得胜利了哎！",
+			say = "Ulrich, you can't be serious... You're going to fight the META alone?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "突袭也马上就能发动了！（震惊）",
+			say = "I know I haven't been able to help much at this range, but still...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "指令太跳跃了，稍微解释一下……{namecode:464}。",
+			say = "Heyyyy, Ulrich! What's going on? Care for an explanation?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			say = "无视了震惊的众人，{namecode:464}接下来说出了更加令人震惊的话语。",
+			say = "Her sudden instructions left her companions flabbergasted, but no instructions would follow. Ulrich simply continued to mutter to herself calmly as if nothing had happened.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 405030,
-			say = "让舰队撤退，自然是为了腾出场地来————",
+			say = "Leave the two of us alone... Just me and that META.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 405030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "{namecode:434}，来一对一的决斗吧！",
+			say = "...We've got a lot of things to talk about.",
 			effects = {
 				{
 					active = true,

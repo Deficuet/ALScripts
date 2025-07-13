@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "进入了新的成长阶段，需要重新设定成长目标。",
+				text = "You have reached a new growth stage. It's time to set new growth goals.",
 				mode = 2,
 				dir = 1,
 				char = 1,

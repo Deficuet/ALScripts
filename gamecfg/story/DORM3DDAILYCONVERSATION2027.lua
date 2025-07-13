@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "摩天轮真是不错，缓缓升起的视野，紧闭的空间，还有面对面的二人……",
+			say = "Isn't the Ferris wheel nice? You get a great view in a closed space with a person you like...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "在一起升到最高点的时候……会发生什么呢？",
+			say = "I wonder – what happens when you reach the peak together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要现在就出发去坐摩天轮吗？",
+					content = "Do you wanna find out right now?",
 					flag = 1
 				}
 			},
@@ -68,7 +68,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔……看来你也很在意那个我那个问题的答案呢。",
+			say = "Umm... I'll take that to mean that you're also curious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那，稍后一起去吧。",
+			say = "Let's ride one and find out. Later.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

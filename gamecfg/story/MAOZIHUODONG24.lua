@@ -13,7 +13,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…我明白了，会合地点就定在……",
+			say = "...Understood. Our rendezvous coordinates are...",
 			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
@@ -31,7 +31,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官同志，刚收到基洛夫的联络，她们那边已经成功和白鹰舰队会合，现在正在赶来的路上",
+			say = "There's a message from Kirov. She's successfully joined up with the Eagle Union fleet and is making her way here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "…之前就一直有疑问，明明是在通讯全体受到干扰的镜面海域…",
+			say = "Communication technology in the Mirror Seas? We're going to have look into this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			},
 			options = {
 				{
-					content = "北方联合是怎么做到保持通讯的？",
+					content = "Does the Northern Parliament have a way to bypass the Mirror Sea's jamming effect?",
 					flag = 1
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "指挥官同志在意这件事啊，白鹰那边没有这样的技术么？实际上——",
+			say = "Oh? Are you interested in that? Does the Eagle Union perchance not have that technology?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "不过是一群窃贼。在尔等的文化中，对，如同那窃火的普罗米修斯一般，卑劣的窃贼",
+			say = "From Prometheus to Goemon, your lives are nasty, brutish, and short.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "谁在通讯器里说话！",
+			say = "Who's there?!",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "北方联合的通信器也被干扰了？！",
+			say = "An unfamiliar, alien voice rose from the transmission.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "未经邀请，擅自前来。粗鲁之极，愚蠢之极",
+			say = "I don't remember inviting you barbarous louts to my estate. Crass creatures, stupid beyond comprehension.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "此处与尔等本无关系，实验也并非为尔等准备",
+			say = "I'll say this in a way you idiots will understand. Get the hell out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "即便如此，尔等依然不知感恩，莫非妄求埋藏于此处的真实？",
+			say = "Overzealous ignoramuses! Boundless greed and avarice!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "真是，贪心，贪心，贪心。在此迎接尔等的只有苦痛与湮灭！",
+			say = "Yes, begone, thieves in the night! Plunderers! Face destruction and sink by my hand!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			actor = 701020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…冰墙出现了变化，巨大的冰块…正在重组。",
+			say = "The ice walls are closing in around us!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 702020,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "真是壮观…不是，我是说大事不妙了！",
+			say = "Shoot...! I don't like the looks of this! Everyone, retreat, hurry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "冰墙结构发生了改变，仿佛一只巨大的生物正在露出獠牙一般",
+			say = "The stronghold stirred like a behemoth given life by the mysterious Siren voice, rough winds and waves forming as sheets of ice deformed and convulsed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			say = "天气也变得更加恶劣，阴云笼罩了整个上空，除了雷暴之时几乎伸手不见五指…",
+			say = "No, the very stronghold - and the entire Mirror Sea - was beginning to move.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来塞壬的干扰升级了，和基洛夫她们也失去了联络。",
+			say = "We've lost contact with Kirov! These damn Sirens...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_cccp_7",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "塞壬舰队看来正在准备最后的抵抗，决战的大幕已经拉开，接下来怎么办，指挥官？",
+			say = "All the Siren forces are congregating around us! Commander, at this rate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,11 +300,11 @@ return {
 			},
 			options = {
 				{
-					content = "正面迎战，坚持到白鹰舰队到来",
+					content = "Our only option is to meet up with the Eagle Union fleet!",
 					flag = 1
 				},
 				{
-					content = "暂且与敌方周旋，等到白鹰舰队到达后一同决战",
+					content = "Our only option is to fight back right now!",
 					flag = 2
 				}
 			}
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
-			say = "英勇的选择。在绝境中面对敌人之时若想取得胜利，无畏的勇气是不可或缺的。 ",
+			say = "A courageous choice. Heh, in that case, we'll have to muster up the courage to match you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
-			say = "稳重的判断，指挥者不能被局势的改变冲昏头脑，这一点来看，指挥官真的很优秀呢~",
+			say = "A calculated decision, Commander. As expected, you've taken stock of the situation quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "同志们，这里是我们北方联合的家园，我们没有退路",
+			say = "...Comrades, we have no choice but to fight!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			actor = 705050,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "为了我们所钟爱的一切，北方的利刃必将撕裂一切来犯之敌！",
+			say = "Our lives are in your hands, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

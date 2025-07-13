@@ -11,7 +11,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "根据情报，{namecode:431}虽然击沉了数只商船，但是救助了落水的船员，看在这一点的份上，放你一马。",
+			say = "Graf Spee has sunk many ships, but she always lets their crews get to safety first... Seeing as she plays nice, I'll let you off the hook now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff0000",
 			dir = 1,
-			say = "呵……你这人，虽然阴险，人还不错……嘛……",
+			say = "Guh... You're a twisted sadist... but... at least you're not all bad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "昏过去了……真的把她丢在这里就好吗？",
+			say = "I think she has lost consciousness. Is it really okay to leave her like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
-			say = "虽然我不介意多个玩具，不过我们现在可没有带着个俘虏面对{namecode:431}的空间哦？",
+			say = "As much as I love having more toys to play with... we can't fight Graf Spee with the burden of a captive on our backs.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -75,7 +75,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "还是说，出于高贵的骑士精神，你想要自告奋勇拖着她走？",
+			say = "Or does the \"honour of the Crown\" dictate that you tow her all the way home?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你这人……我知道了，继续前进吧。",
+			say = "People like you are just... Ugh, fine! We're moving on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

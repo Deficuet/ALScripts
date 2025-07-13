@@ -8,20 +8,20 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "神秘商人",
+			actorName = "Mysterious Merchant",
 			dir = 1,
-			say = "喵？你问我是谁喵！？我只是一个冒着危险向一线作战人员提供补给售卖的神秘商人喵！所以要不要来买点东西喵？",
+			say = "Nya? Who am I, nya?! I'm only the brave merchant who's risking her hide to sell supplies to those fighting on the frontlines, nya!...So, how about it? Want to take a look, nya?",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			options = {
 				{
-					content = "进入商店",
+					content = "Enter the shop.",
 					flag = 1
 				},
 				{
-					content = "离开",
+					content = "Leave for now.",
 					flag = 2
 				}
 			}
@@ -30,10 +30,10 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "神秘商人",
+			actorName = "Mysterious Merchant",
 			dir = 1,
 			optionFlag = 2,
-			say = "偶尔也会有这种时候喵…欢迎再次光临喵~！",
+			say = "It's hard to do business out here sometimes... I hope to see you again soon, nya~!~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

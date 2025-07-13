@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"樱花烂漫开学祭\n\n<size=45>六　放学后的特别辅导</size>",
+					"School Day Celebrations\n\n<size=45> VI    「After School Special Training」 </size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			side = 2,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "那么…开始今天的特别辅导吧——",
+			say = "Then...let's start today's special training — —",
 			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "站在讲台上的{namecode:93}姐姐，果然还是很威风凛凛呢！",
+			say = "Standing on the podium, {namecode:93} sister looks very commanding!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "欸~~为什么我都要参加辅导啊~明明成绩是No.1才对！",
+			say = "Hey~~~ Why do I have to participate in training~ I'm No.1, remember?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:2}",
-			say = "呜呜…测验的时候不小心忘记写名字了…",
+			say = "Whines... I accidentally forgot to write my name on the test...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "呼…首先是{namecode:2}！",
+			say = "First calling..., {namecode:2} !",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:2}",
-			say = "是、是！",
+			say = "Yes, yes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "虽然学力一直都没什么问题，但却总是在奇怪的地方犯错误…",
+			say = "There's no issues with your school academics, but you always make silly mistakes in strange places...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "名字忘记写什么的…答案填错格什么的…",
+			say = "Papers without names, answers in wrong places...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			side = 0,
 			dir = -1,
 			actorName = "{namecode:2}",
-			say = "呜……为什么我总是会在一些奇怪的地方出漏子呢…",
+			say = "Whines... why am I so careless...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "总之把你留下来也只是为了给你提个醒，倒也没什么…",
+			say = "Anyway, I asked you to stay so I could give you a friendly reminder. Not really a big issue though...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "问题是{namecode:400}！",
+			say = "The real problem is the Z1!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "欸~？",
+			say = "Eh~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "还有{namecode:94}！",
+			say = "And {namecode:94}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			side = 0,
 			dir = 1,
 			actorName = "{namecode:94}",
-			say = "是、是！",
+			say = "Yes, yes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "对于你们两个精力过剩的“问题儿童”，有必要从最基本的“学生的本分”开始教育起了呢…",
+			say = "You two troublemakers, it is time to teach you the basics of \"student duties\"...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			side = 1,
 			dir = 1,
 			actorName = "{namecode:93}",
-			say = "做好心理准备吧！今天的辅导课，会很长哦！",
+			say = "Best prepare yourself! Today's training class will be a long one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,8 +315,8 @@ return {
 			dir = 1,
 			blackBg = true,
 			hideOther = true,
-			actorName = "{namecode:94}&{namecode:400}",
-			say = "欸~~~~~~~",
+			actorName = "{namecode:94}&Z1",
+			say = "No~~~~~~~",
 			subActors = {
 				{
 					actor = 401011,

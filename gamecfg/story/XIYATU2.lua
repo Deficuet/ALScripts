@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"热闹的“环球”晚宴\n\n<size=45>二　西雅图的奇思妙想</size>",
+					"A Party for the Ages\n\n<size=45>2.Operation Extravaganza</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "走在港区洒满阳光的街道上——",
+			say = "Several days pass. I'm walking down the road when I notice something odd.",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -49,18 +49,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "奇怪，为什么行道树上挂满了彩灯与装饰……",
+			say = "Neon lights, strung up in the trees on both sides of me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这是……？",
+					content = "\"What in the world is going on here...?\"",
 					flag = 1
 				},
 				{
-					content = "要过节了……？",
+					content = "\"Are these party decorations?\"",
 					flag = 2
 				}
 			}
@@ -74,7 +74,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然是节日装饰啊！",
+			say = "The lights? Can't you tell, they're totally party decorations.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官不会把这件事情完全忘记了吧？",
+			say = "You know, like in the project folder? The one you greenlit, remember?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么是疑问句啊！",
+			say = "Yup, they sure are!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "批准我可以进行节日装饰工程的不就是指挥官吗！",
+			say = "Ain't that kinda obvious? You're the one who approved 'em!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "……这样吗？",
+			say = "\"Did I?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "那个作战计划！想起来了么！",
+			say = "Well, yeah! It's all part of Operation Extravaganza! Don't tell me you forgot already~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "努力从记忆的夹缝中回想……好像是有这么回事。",
+			say = "I rack my brain for a moment and vaguely remember her saying something about it the other day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼~现在这些节日装饰就是计划的第一步哦！",
+			say = "These decorations are just like, phase one of the whole plan.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "紧接着就是第二步……指挥官能猜到是什么嘛？！",
+			say = "And phase two, that's about... Ah, you probably don't remember.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实当时也写到笔记本里了，不过你肯定忘记了所以猜猜看好了~",
+			say = "Actually, I wanna test your memory. Try to guess what it is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "提示————一个能够让人放松下来的，有很多人一起参加的团体活动！",
+			say = "Whaddya call an event where people get together and have a hell of a time?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,22 +273,22 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "说带西雅图会准备的活动……",
+			say = "Knowing her, I think I know the answer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "派对！",
+					content = "\"Is it... a party?\"",
 					flag = 1
 				},
 				{
-					content = "是派对吧！",
+					content = "\"A party, of course.\"",
 					flag = 2
 				},
 				{
-					content = "难道是……派对？",
+					content = "\"The best party the port's ever seen!\"",
 					flag = 3
 				}
 			}
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "回答正确！",
+			say = "Ding, ding, ding!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "虽然我知道节日前一定会度过一段忙碌时光，但指挥官也太过沉浸于工作啦！",
+			say = "And still I had to jog your memory... I know you're busy, but so busy you forgot what you even approved? You're overworking yourself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "不！过！现在节日可是马上就要来临了哦？到了该休息的时间了！",
+			say = "Good thing we have a holiday coming up so someone can force you to take a load off!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "这个派对就是为了让港区的大家——特别是指挥官你！能够放松下来而准备的。",
+			say = "That's what this party will be all about: giving everyone, including you, a venue to relax, drink, eat, or whatever floats your boat!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199010,
-			say = "派对主题是“环球之旅”，这样的话，从东煌到撒丁，什么样的风格都能出现在派对里！",
+			say = "The theme is like a world cruise, featuring all factions – from the Dragon Empery to Sardegna – and everyone's invited!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个灵感最初还是佐治亚给我的呢，不错吧？",
+			say = "Didn't plan it all myself, of course. Georgia helped me iron out some of the deets.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_103",
-			say = "最近一直在尝试各种风格的早餐也是这个原因……？",
+			say = "\"Such a big event needs a lot of food... Is that why you've had me try all those breakfast options?\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎嘿嘿……被你发现了~",
+			say = "Bingo. You connected the dots! Hahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1

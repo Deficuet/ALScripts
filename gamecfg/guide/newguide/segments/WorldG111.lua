@@ -7,7 +7,7 @@ return {
 				"TipsWord"
 			},
 			style = {
-				text = "每个编号塞壬实验场中都存在若干谜题，跟随文本提示可以一步步进行解谜。",
+				text = "To uncover what’s really happening at the Siren research facility, you’ll need to get through their puzzling security!",
 				mode = 2,
 				posY = -100,
 				char = "1",
@@ -32,7 +32,7 @@ return {
 				"ExitButton"
 			},
 			style = {
-				text = "点击退出按钮可以暂时离开塞壬实验场返回通常海域，不过再次进入后解密进度将恢复为初始状态。",
+				text = "Remember: you can retreat at any point you want. But! This will reset the puzzle as well!",
 				mode = 2,
 				posY = -100,
 				char = "1",

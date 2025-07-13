@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"指挥官，该动筷了！\n\n<size=45>六　美食攻心的谋略</size>",
+					"Commander, It's Time to Eat!\n\n<size=45>6 From Your Stomach to Your Heart</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "之后的时光，济安和我就在厨房里度过。",
+			say = "After that, we immersed ourselves in the kitchen together.",
 			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "从炒菜到烘焙，为了确保各种入门级操作济安都能理解，全程都是手把手教学。",
+			say = "From cooking to baking, I guided Chi An through every step to ensure she grasped all the basics.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "直至深夜，我和她才从厨房离开。",
+			say = "We stayed there until late at night before finally leaving.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "托指挥官的福，我学到了不少呢~",
+			say = "Thanks to you, Commander, I've learned so many things.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "做饭原来基础入门都这么复杂……",
+			say = "Even the most fundamental parts of cooking are so elaborate...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "哎呀，看来我真的不该对着龙武的操作依葫芦画瓢的。",
+			say = "I knew I shouldn't have just learned by watching Lung Wu.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？依葫芦画瓢是怎么回事？",
+			say = "Hm? You only learned by watching?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "唔……最开始龙武她还让我进厨房的时候，我是提过要跟她学两手的。",
+			say = "Umm... Before she forbade me from entering the kitchen, I asked her to teach me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "她说看不懂的地方可以问她，我都看懂了呀，所以就充满了自信呢~",
+			say = "She then showed me and said I could ask about anything I didn't understand, but just by watching, I thought I understood them all. I even had an unearned confidence.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "再然后……就被勒令不准进厨房了……欸嘿☆",
+			say = "And then.... well, I ended up being banned from the kitchen. Aww♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……原来如此。",
+			say = "I see...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "不过指挥官这下可以放心了，明天我会努力重新做一份美味的食物来招待您的哦~",
+			say = "But be at ease now. Tomorrow, I'll put my newfound skills to use and treat you to a delicious meal again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "姐姐我可是非常有自信，明天一定会成功呢。",
+			say = "I'm certain it'll work out this time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这么笃定么？",
+			say = "Someone's confident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "那是因为我已经在指挥官的帮助下，获得了能让食物变美味的最重要的佐料哦~♪",
+			say = "Because your training has helped me discover the most essential ingredient that makes food truly delicious, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "实际上，我选择下厨的原因……不只是为了给您补充营养这么简单。",
+			say = "In reality... I started cooking not just to make sure you get enough nutrition.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还有别的含义吗？",
+			say = "What does that mean?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "当然。姐姐我原本可是想要用美食抓住您的心呢。",
+			say = "My scheme was to seize your heart with my delicious food.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "不过呢，我已经想明白了……",
+			say = "So through our studies today, I learned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "重要的不是美食，也不是这以美食为名的计谋，而是——",
+			say = "What matters isn't the food itself, or even the scheme that I was using it for...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女拖长了尾音，却又在关键的位置戛然而止，换上了一副略带狡黠的笑容。",
+			say = "She draws out her words, intentionally stopping herself before the most important part, all while wearing a sly grin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "唔……我又想了想，现在还不是说这句话的时候呢~",
+			say = "Hmm... Maybe it's too early to tell you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 502090,
-			say = "谜底，就留在您明天来验收我今日的特训成果的时候揭晓吧！",
+			say = "The secret shall be revealed when you come to see the fruits of my training tomorrow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

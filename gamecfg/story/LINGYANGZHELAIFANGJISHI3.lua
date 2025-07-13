@@ -16,7 +16,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师……还有娜比娅……来了！",
+			say = "Teacher... and Navi... You're here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
-			say = "注意到我们的到来，少女起身蹦蹦跳跳地来到了我们面前。",
+			say = "Now aware of our arrival, Anchorage gets up and excitedly hops over to us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "老师……快看！安克雷奇……学会了……新的折纸！",
+			say = "Teacher, look! I learned... a new origami fold!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			nameColor = "#A9F548FF",
-			say = "哼~真看不出废柴{tb}会对这种幼稚的玩法感兴趣呢~",
+			say = "Hmph. I can't believe this dweeb is into kiddy stuff like playing with paper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "安克雷奇……不是玩……安克雷奇……做……做……",
+			say = "No... Not playing! Anchorage worked hard on it... It took effort...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "做礼物……！老师……娜比娅……礼物！",
+			say = "These are gifts! For... you... and Teacher!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安克雷奇……要送！",
+			say = "I'm going to give them... to you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 199030,
-			say = "但是……安克雷奇……还没有全折好……",
+			say = "But... Not done yet. I haven't finished all of them...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,18 +138,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
-			say = "安克雷奇有些失落。",
+			say = "Anchorage looks despondent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "提议和安克雷奇一起折纸",
+					content = "(Suggest folding the rest together with her.)",
 					flag = 1
 				},
 				{
-					content = "夸奖安克雷奇的心意",
+					content = "(Praise her for her hard work.)",
 					flag = 2
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "安克雷奇，我和娜比娅一起帮你折吧？",
+			say = "How about we finish the rest of them together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "礼物……安克雷奇……自己做！",
+			say = "No... I'll do my best! On my own!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 0,
-			say = "没关系的，你的心意我们已经收到了，而且大家一起做也更有意义。",
+			say = "Come on, let's do it together. It'll be more fun, and you've already shown how nice you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的……可以吗……？",
+			say = "Are you... sure?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安克雷奇……想和老师一起……！",
+			say = "Okay, Teacher... Together!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,12 +231,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_150",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "切——真是拿你们没办法……我、我就勉强陪你们玩一下好了！",
+			say = "Seriously? Ugh, fine. Just for a little while then!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……！娜比娅……也来！安克雷奇……教你……！",
+			say = "Okay! Navi, you help! Anchorage can teach you how!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "三人坐在一起，安克雷奇认真地教着娜比娅折纸的步骤。",
+			say = "The three of us sit down, and Anchorage starts showing Navi how to fold the paper.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样……这样……然后……",
+			say = "First you do this... Then this... And then this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "啊！娜比娅……好厉害……！",
+			say = "Wooow! Navi, you're amazing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,12 +302,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_150",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 1,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼~这种简单的东西，人家一看就会了啦！",
+			say = "Hmph. This is way too easy. I knew what to do after just one look!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "娜比娅的嘴角微微上扬。",
+			say = "Despite her bragging, the compliment clearly got to her – there's the faintest hint of a smile on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "安克雷奇想要送我们礼物，是个善良的好孩子。",
+			say = "You'll give them to us? Aww, you're so nice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸嘿嘿……老师……对安克雷奇好……！",
+			say = "Heehee... Teacher... nice to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安克雷奇也要…让你们开心……嗯！",
+			say = "So Anchorage... wants to make you both happy!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安克雷奇……会加油的……！老师……等……安克雷奇！",
+			say = "I'll be fast... Wait just a minute, Teacher!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "好。",
+			say = "Of course.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "安克雷奇重新坐下，专注地折起纸来。",
+			say = "Anchorage sits back down and starts folding paper again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,22 +416,7 @@ return {
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "过了一会儿后，安克雷奇将两样东西分别塞进了我和娜比娅的手里。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 8,
-			side = 2,
-			bgName = "star_level_bg_150",
-			dir = 1,
-			optionFlag = 2,
-			actor = 199030,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "做好了……！给……老师的小船……！",
+			say = "Sometime later, she hands both me and Navi a paper creation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +431,22 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "娜比娅的……小星星……！",
+			say = "Done! For you, Teacher... A boat!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 8,
+			side = 2,
+			bgName = "star_level_bg_150",
+			dir = 1,
+			optionFlag = 2,
+			actor = 199030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "And for Navi, a star!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,12 +456,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_150",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼~倒是还挺精致的嘛……",
+			say = "Hmm. I have to admit it's pretty well made...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安克雷奇……用心做的！欸嘿嘿！",
+			say = "Anchorage worked super-duper hard on it! Heehee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,13 +486,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_150",
-			actorName = "娜比娅",
+			actorName = "Navi",
 			optionFlag = 2,
 			fontsize = 24,
 			actor = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢、谢谢了……",
+			say = "Th-thanks...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_150",
 			hidePaintObj = true,
-			say = "这天下午，三人一起度过了温馨的时光。",
+			say = "And so, the three of us spent a heartwarming afternoon together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

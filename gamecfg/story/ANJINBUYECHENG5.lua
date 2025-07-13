@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "不夜城·街区13·废弃的游戏厅",
+			say = "Sleepless City - Block 13, Abandoned Arcade",
 			bgm = "story-antarctica-serious",
 			typewriter = {
 				speed = 0.05,
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "在东躲西藏了近一小时后，终于逃到了一处安全的地方。",
+			say = "We hide out in several places for nearly an hour until we finally arrive at a safe house.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "这是一处废弃的游戏厅，“艺术家”似乎对这里相当熟稔。",
+			say = "It's an abandoned arcade. Svirepy, the Artist, seems to know a lot about this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "她像是要放松下一般，凑到了一个看起来还算能用的抓娃娃机前。",
+			say = "Apparently looking for a change of pace, she continues to fiddle with a barely-operating crane game.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "可惜，她操纵抓娃娃机的能力实在烂的可以，几次尝试都以惨败收场。",
+			say = "...She keeps trying, but she fails to win anything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "“艺术家”本想再试一次，但装着游戏币的口袋却已经空空如也了。",
+			say = "Realizing the tokens in her pocket have run out, she turns around to face me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,8 +87,8 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 3,
 			side = 2,
-			actorName = "艺术家",
-			say = "……唔，是今天事情太多，注意力不集中了么？",
+			actorName = "Artist",
+			say = "Tch. Too much going on today to focus.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,8 +100,8 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 1,
 			side = 2,
-			actorName = "艺术家",
-			say = "本想问问你要不要试试的，这下倒是省了。",
+			actorName = "Artist",
+			say = "I was gonna ask you if you wanted to play, but too bad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "“艺术家”耸耸肩，倚在了娃娃机旁白画满了涂鸦的柜子上。",
+			say = "She shrugs and leans against a shelf covered in graffiti.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,16 +121,16 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "（也许应该陪她聊一聊……）",
+			say = "(Is she... trying to chat with me, or?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "说起来，我还不知道你的名字。",
+					content = "Svire... Ahem. I don't think I've gotten your name, stranger.",
 					flag = 1
 				}
 			}
@@ -141,8 +141,8 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 1,
 			side = 2,
-			actorName = "艺术家",
-			say = "在这座城市……那是什么重要的东西么？",
+			actorName = "Artist",
+			say = "Hmph. Names don't mean much in this city.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,8 +154,8 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 4,
 			side = 2,
-			actorName = "艺术家",
-			say = "……好吧，我的名字是凶猛。",
+			actorName = "Artist",
+			say = "...D-don't look at me like that. Fine, it's Svirepy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,10 +165,10 @@ return {
 			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过相比起来，我还是更喜欢我的“花名”呢。",
+			say = "Ahem. I'd prefer if you used my pseudonym, though.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,11 +182,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			actor = 701121,
 			nameColor = "#A9F548FF",
-			say = "把城市作为画布，用“艺术”尽情泼洒新的规则，那正是我存在的意义。",
+			say = "I'm the Artist. I use this city as a canvas, painting over it with the rule of art.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,9 +200,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "「指挥官」",
+			factiontag = "Commander",
 			nameColor = "#A9F548FF",
-			say = "包括这里的涂鸦，也算是你的“规则”？",
+			say = "Hmm... So that graffiti there is one of your rules?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,10 +212,10 @@ return {
 			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊哈，没错！更直接点说，我就是这里的“规则”。",
+			say = "Hahaha, close enough! Let's make it simpler – I'M the rules here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,11 +229,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			actor = 701121,
 			nameColor = "#A9F548FF",
-			say = "但规则就是要遵守的，尽管这里是我的地盘，我想强行拿奖品也是随随便便。",
+			say = "Rules only have meaning when you enforce them. This is my territory, so I could just break into this game and take the prizes if I wanted.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,10 +247,10 @@ return {
 			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但我还是选择尊重这些游戏机的规则，不然也太无趣了，不是么？",
+			say = "But that breaks a rule, and that's lame as hell.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,11 +261,11 @@ return {
 			},
 			options = {
 				{
-					content = "……你是在维护自己的规则？",
+					content = "So your philosophy is that we should all follow the rules?",
 					flag = 1
 				},
 				{
-					content = "……我还以为你是更彻底的那一类？",
+					content = "But aren't you painting over the rules?",
 					flag = 2
 				}
 			}
@@ -274,12 +274,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			optionFlag = 1,
 			actor = 701121,
 			nameColor = "#A9F548FF",
-			say = "制定规则的是人，维护秩序的也是人。",
+			say = "Humans make the rules, and humans enforce them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,11 +293,11 @@ return {
 			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "那么我也可以。",
+			say = "I'm no exception!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,11 +311,11 @@ return {
 			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
-			say = "啊哈哈哈~我可从来没说过讨厌秩序哦？",
+			say = "Ahahaha! C'mon, I gotta leave some canvas for other artists.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,10 +329,10 @@ return {
 			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里是我生活的地方，我热爱这座城市就像热爱我自己。",
+			say = "Most of all, I was born and raised in this city. I love it like I love myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,11 +346,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			actor = 701121,
 			nameColor = "#A9F548FF",
-			say = "说到底，我只是讨厌那些把城市变成下水道，还自诩高贵的烂泥罢了……",
+			say = "I just can't stand the scum that pollute it and act like they're better than us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,11 +364,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			actor = 701121,
 			nameColor = "#A9F548FF",
-			say = "……嗯？",
+			say = "...Mm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,11 +382,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			actor = 701121,
 			nameColor = "#A9F548FF",
-			say = "有人在偷听我们说话。",
+			say = "Someone's eavesdropping on us.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,10 +398,10 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "？？？",
+			actorName = "???",
 			bgName = "star_level_bg_145",
 			nameColor = "#FEF15E",
-			say = "哎呀，被发现咯~",
+			say = "Aww, you got me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,11 +411,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "艺术家",
+			factiontag = "Artist",
 			dir = 1,
 			actor = 701121,
 			nameColor = "#A9F548FF",
-			say = "……出来，别装神弄鬼！",
+			say = "Quit hiding, already. Show yourself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "正在阐述理想的凶猛，突然警觉地盯向了废弃游戏厅的另一处出口。",
+			say = "While Svirepy talks about her ideals, she suddenly becomes alert and yells at the arcade door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "在凶猛的喝问声中，落满灰尘的出口在发出了一阵吱吱呀呀的声音后打开了。",
+			say = "When she does, the dusty door opens with a creak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "缓缓踏入游戏厅的，居然是一个叼着面包的、侦探模样的少女。",
+			say = "From it appears a girl wearing detective clothes and holding bread in her mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,8 +461,8 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 5,
 			side = 2,
-			actorName = "私家侦探",
-			say = "晚上好，两位。",
+			actorName = "Private Detective",
+			say = "G-good evening~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,10 +472,10 @@ return {
 			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "不必紧张，如你们所见，伏尔加我，只是一介私家侦探而已哟？",
+			say = "Don't be so tense~ As you can see, I'm just a private detective...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,11 +489,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			actor = 707011,
 			nameColor = "#FEF15E",
-			say = "而且~我和你的观点一样呢。",
+			say = "U-umm... I TOTALLY agree with you, Svirepy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,10 +507,10 @@ return {
 			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "我也觉得，这座城市的旧秩序，该改变一下了。",
+			say = "The rules of this city need to be changed from the bottom up!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,11 +524,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			actor = 707011,
 			nameColor = "#FEF15E",
-			say = "不夜城的传奇——我总算找到你了。",
+			say = "...I've finally found you, legend of the Sleepless City.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			},
 			options = {
 				{
-					content = "……专程来找我的？",
+					content = "You mean me?",
 					flag = 1
 				}
 			}
@@ -548,10 +548,10 @@ return {
 			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "无须意外哦。你在这座城市的名声，远比你想的还要大呢。",
+			say = "Don't be surprised. You're more famous in this city than you think.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,11 +565,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			actor = 707011,
 			nameColor = "#FEF15E",
-			say = "不论是作为治安者的传奇指挥官，还是作为在下城区行侠仗义的「指挥官」，这座城市的历史中已经有属于你的印记了。",
+			say = "Famous Commander of the security force, famous do-gooder of downtown... You're all over the history of this city. *munch*",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "相当自来熟的私家侦探总算咽掉了嘴里的面包，摆出了谈正事的样子。",
+			say = "The oddly familiar private detective Volga takes a bite of her bread before turning serious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,10 +593,10 @@ return {
 			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "……我带来了一个邀约，指挥官。",
+			say = "...I come with an invitation.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,11 +610,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			actor = 707011,
 			nameColor = "#FEF15E",
-			say = "我的委托人愿意送你去「天啾塔」——只要你与她见一面就行。",
+			say = "My client is willing to take you to the Manjuu Tower – as long as you're willing to meet with her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			},
 			options = {
 				{
-					content = "我没有拒绝的余地，对么。",
+					content = "She won't take no for an answer, will she?",
 					flag = 1
 				}
 			}
@@ -634,10 +634,10 @@ return {
 			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "这是你自己的理解哟，我就当是你同意了。",
+			say = "I-I wonder... Can I take that as a yes, though?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,11 +651,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			actor = 707011,
 			nameColor = "#FEF15E",
-			say = "看来我的委托人判断的很正确呢，唯独这个理由你不会拒绝。",
+			say = "Hehehe, you're just like my client said~ She knew you wouldn't refuse.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,10 +669,10 @@ return {
 			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "唉，真是亏了一大笔~你赌赢了哦，“女王”的部下。",
+			say = "This means I lost my bet, though... It's your victory, subordinate of the Queen.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,8 +688,8 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 2,
 			side = 2,
-			actorName = "联络人",
-			say = "“女王”是不会犯错的，侦探。",
+			actorName = "Contact",
+			say = "The Queen never loses, Detective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_145",
-			say = "联络人的身影从街巷的黑暗中浮现，语气里带着毫不迟疑的坚定。",
+			say = "A voice, full of firm resolve, was accompanied by the appearance of another girl from the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,8 +711,8 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 4,
 			side = 2,
-			actorName = "联络人",
-			say = "请不要质疑女王的决定。",
+			actorName = "Contact",
+			say = "Do not doubt the Queen's decisions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,11 +722,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			actor = 707011,
 			nameColor = "#FEF15E",
-			say = "哎呀，冒犯冒犯~",
+			say = "Oh, I-I'm sorry...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,11 +740,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			actor = 707011,
 			nameColor = "#FEF15E",
-			say = "那么，我的回合就此结束，接下来，还请「指挥官」跟着联络人行动。",
+			say = "Anyway, I should go... Commander, you just work with the Contact from now on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,10 +758,10 @@ return {
 			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
-			factiontag = "私家侦探",
+			factiontag = "Private Detective",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "剩下的痕迹，由我来消除就好了。",
+			say = "Oh, and I'll get rid of any trace that we met here~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,8 +777,8 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 1,
 			side = 2,
-			actorName = "联络人",
-			say = "两位，请和我来——",
+			actorName = "Contact",
+			say = "Right. Come with me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

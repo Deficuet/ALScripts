@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "信标档案已开启，指挥官可以在信标档案中解析往期信标，获取同步值奖励。",
+				text = "The Dossier Analysis feature has been added. You can initiate META Showdowns against past META ships in Operation Siren after you unlock this feature in the META Lab.",
 				mode = 2,
 				posY = -252.61,
 				char = "1",

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"笑容之下的真心\n\n<size=45>六 耀眼的笑容</size>",
+					"The Heart Beneath the Smile\n\n<size=45>Chapter 6 - Dazzling Smile</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "把工作暂时交给了声望，外出寻找反击。既然她说要去演习海域，那她现在应该还在港口——",
+			say = "I'll leave the work to Renown for now and head out to find Repulse. She said she was going out to the waters where we'll hold the war games, but she should still be in port.",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
@@ -53,7 +53,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "果然，在栈桥发现了正在眺望演习海域的反击的身影。",
+			say = "Sure enough, I find her standing on the pier, staring out at the water.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官？",
+			say = "Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "目光相对的瞬间，反击惊愕地瞪大双眼，但很快又恢复了一贯的笑容。",
+			say = "The moment our eyes meet, Repluse's widen in shock, but she quickly reverts to her typical smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿！指挥官，怎么能留下姐姐一个人工作，来这里偷懒呀？快回去快回去啦！",
+			say = "Hey, Commander! How could you leave my sister to do all your work while you come out to play? Get back in there!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "反击似乎还是老样子。但既然已经注意到了她的反常，就得想办法弄清她的真正意图。",
+			say = "Repulse seems like her old self. But knowing how abnormal she's been, I have to figure out exactly what's going on behind that smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,37 +147,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "这不仅仅是为了港区和声望着想，也是为了她自己。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204020,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "等等......这是要干嘛？靠太近的话，指挥官可是会掉海里的哦！啊哈哈……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			say = "坚持着自己的想法，继续盯着她看。",
+			say = "Not just for the fleet, or Renown, but for Repulse herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +163,21 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唉……我果然藏不住事……",
+			say = "Wait... what are you doing? Don't get too close to the water or you'll fall in! Ahahaha...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			say = "I study her carefully.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,35 +193,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官也真是的，好不容易两人独处了，为什么要浪费大好机会啊。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			say = "轻轻地碰了碰反击的手。反击瞬间吃了一惊，但马上又垂下头，撇开目光。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			say = "终于，她喃喃说道——",
+			say = "*Sigh*... I guess there's no use trying to hide it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +209,35 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "…只要看到你们幸福，我就放心了",
+			say = "What's wrong with you, Commander? I've been trying so hard to give you two your space, but here you are wasting your big chance.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			say = "I touch Repulse's hand. She jumps, at first, before drooping her head and averting her eyes.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			say = "Finally, she mumbles—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +253,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我又马虎又不善于思考，比起动脑更擅长体力活……就算想努力成为姐姐那样的人，大概也做不到吧…",
+			say = "...As long as you two are happy. That's all I want.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,21 +269,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "比起我，当然是姐姐更适合陪在指挥官身侧……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			say = "立马表示了否定。",
+			say = "I'm sloppy, and I'm better with my hands than my brain... Even if I wanted to be like Renown, I probably wouldn't be able to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +285,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我……",
+			say = "It's only natural my sister would be a better match for you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,21 +299,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "拿出了几张密密麻麻写满了字的纸，递到了她面前。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			say = "那正是——和声望一起为反击制作的，秘书舰事务工作专用手册。",
+			say = "That's not true.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +315,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官和姐姐……亲手为我制作的手册？",
+			say = "I...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,39 +329,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "准确的说，是由声望提案，自己给出创意，在反击至今为止所有努力的基础之上写成的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204020,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "但是，为什么要做这些……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204020,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "明明我都已经把姐姐叫来了。你看，有姐姐在，就能帮上指挥官更多的忙……",
+			say = "I take out several pages, filled with text, and hand them to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,35 +343,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			say = "声望在文书工作方面的能力明显优于反击。若只考虑效率的话，确实没有制作手册的必要。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			say = "不过，并非任何事情都只有声望才能做得到。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			dir = 1,
-			side = 2,
-			bgName = "bg_story_outdoor",
-			say = "反击是秘书舰。而且，重要的是，我更希望声望和反击都能留在我身边。",
+			say = "It's Renown's work, a special manual describing, in detail, how to be a secretary ship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +359,111 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯……谢谢你，指挥官！ 很抱歉给你添麻烦了！",
+			say = "You and Renown... made this for me?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			say = "To be more precise: it was Renown's idea, with my input, built on your work.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 204020,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "But... why though...?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 204020,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "I'm the one who asked her to help. I mean, it's obvious she's much more able to assist you...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			say = "Renown is much better at paperwork than you are. If we only cared about efficiency then yes, this manual would be a waste of time.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			say = "But Renown can't do everything by herself.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			say = "You're my secretary ship. And, more importantly, I want both you and Renown at my side.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actor = 204020,
+			side = 2,
+			bgName = "bg_story_outdoor",
+			nameColor = "#a9f548",
+			dir = 1,
+			say = "Oh... yes! Thank you, Commander! I'm so sorry to have troubled you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,
-			say = "反击擦了擦自己的眼角，笑了出来，脸上的表情，是比以往的任何笑容都要耀眼的真诚微笑。",
+			say = "Repulse rubs her eyes and smiles a bright, genuine smile, more dazzling than any she has ever beamed before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

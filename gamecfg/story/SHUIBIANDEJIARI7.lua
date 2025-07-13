@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"水边的假日\n\n<size=45>白昼的美人鱼</size>",
+					"Beachside Vacation Vignettes\n\n<size=45>Bright-Sky Mermaid</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "story-richang-6",
 			actor = 107101,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这样的姿势可以吗？",
+			say = "How does this pose look, Commander?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -59,7 +59,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你是说，感觉我有些紧张吗？",
+			say = "...I look nervous to you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，没事的，只是因为换上了不习惯的衣服，所以……让我整理一下心情就好了，不用很久的。",
+			say = "I don't feel nervous, I just don't know how to pose in a bikini... Give me a minute to compose myself and I'll figure it out.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "泳装吗？泳装是大黄蜂帮我选的。",
+			say = "...It looks good on me? Thank you. Hornet picked it for me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大黄蜂说，在海滩就要坦率一点，然后就给我推荐了一套“坦率”的泳装。",
+			say = "She said I should be forward with you on our beach trip, and that an \"equally forward swimsuit\" would help with that.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚看到的时候，我在想：这么大胆的泳装，我真的适合么……",
+			say = "When I first saw it, I thought it was far too revealing for my tastes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过实际来到海滩，看到还有许多孩子比这还大胆以后……好像也没那么不适应了。",
+			say = "But then I went to the beach and saw others wearing even more revealing swimwear. So I reconsidered. Maybe it wasn't so wrong after all, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，这里也没有其他人。穿得大胆一点，应该没关系吧……",
+			say = "Besides, I can live with wearing something a more risqué when there's no one but us around.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……海风虽然有点大，不过吹在身上的感觉挺舒服的呢。",
+			say = "Whew... The wind feels lovely, but it is a bit strong...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么了，指挥官？为什么突然把视线撇开——",
+			say = "...Hm? What's the matter, Commander?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			},
 			options = {
 				{
-					content = "衣、衣服……",
+					content = "\"It's just that your bikini... well...\"",
 					flag = 1
 				}
 			}
@@ -218,7 +218,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "衣服是指……欸？！什、什么时候……",
+			say = "What about it? I– Oh my goodness! The strap came loose!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉指挥官，是我没注意到……不、不要紧吧？！",
+			say = "My deepest apologies, Commander! I had no idea... Hold on a second!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "结果等约克城将衣服重新整理好后，又花了不少时间，双方才重新平复心情……",
+			say = "She quickly fixes her wardrobe malfunction, but the awkwardness of it stays in the air for some time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样就好了吧？指挥官特地挑选了这套布景，十分地有品位呢。",
+			say = "This backdrop you chose is very tasteful, Commander. Also, is this pose any good?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，看你好像有些累了呢。",
+			say = "...Oh, forgive me, you must be exhausted. You poor thing.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陪那么多的孩子玩，满足她们不同的任性要求，您也一定辛苦了。",
+			say = "I know you've been busy socializing with others all day and indulging their requests.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可以的话……不如就躺在我的腿上休息一会？",
+			say = "You need a well-earned break. If you'd like, you may rest your head on my lap.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事的哦，我对哈曼，还有企业、大黄蜂她们都这么做过，不用害羞的~",
+			say = "No need to be shy. I've let Hammann, Enterprise, and even Hornet do the same before. It's not weird to me.~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您是约克城拼上性命也要守护的重要之人，这一点点对我而言不算什么。",
+			say = "Come now. This is the least I can offer to the person I'd give my life to protect.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			spine = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在就放松自己，闭上眼睛，在这海滩上尽情享受海风与潮声吧~",
+			say = "Relax, close your eyes, and listen to the tranquil sounds of the wind and the sea with me~.",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"3星豪华恋物语\n\n<size=45>一 凝视的力量</size>",
+					"Three-Star Luxury Romance\n\n<size=45>1.Easily Distracted</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·指挥室",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "♪～啊，这个东西{namecode:98}的商店里会不会进货呀！好想要！",
+			say = "Oh, man! I so need to get these! Wonder if Akashi sells 'em at her store?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "库珀在看的小说发售新本了！嘿嘿，赶紧看完然后去说给她听！",
+			say = "Ooh, they made a sequel to that novel Cooper liked! I'll give it a read then tell her about it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对、如果剧透就不好了！唔…还是之后再看吧…",
+			say = "Although... I don't wanna end up spoiling it for her. Hmm... I guess I'll save it for later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "本来应该给艾伦·萨姆纳安排了整理委托相关的文件才对…",
+			say = "I tasked Allen M. Sumner, my secretary, with organizing commission paperwork. It seemed she hadn't made much progress.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			},
 			options = {
 				{
-					content = "打招呼",
+					content = "\"Hey, Allen?\"",
 					flag = 1
 				}
 			}
@@ -150,7 +150,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊！",
+			say = "Right here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "指挥官，怎么了？",
+			say = "What's up, Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "额……刚才交给我的工作完成的怎么样了…………？",
+			say = "...The work you just assigned me? Oh, right, uhh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "艾伦一脸抱歉的将手中的杂志扔到了沙发角落。",
+			say = "My query caught her off guard. She quickly hid the magazine in her hand behind a pillow on the couch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不、不好意思！刚才给我的文件里夹着一本杂志，不知不觉就……啊哈哈哈…",
+			say = "Sorry about that! I found that little mag among the docs you gave me, and kinda got sidetracked...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "工作中走神倒也不是不能理解，但是今天已经是第三回了吧…",
+			say = "I couldn't blame her for getting distracted now and then, but this was the third time just today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我立刻开始处理剩下的文件、稍等一下哦！",
+			say = "Enough being lazy, time to sort through the stuff right now! Just gimme a sec!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 101450,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "呼…这样就没问题了吧？",
+			say = "Whew... Here you go. How'd I do?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -308,7 +308,7 @@ return {
 			},
 			options = {
 				{
-					content = "拿过文件",
+					content = "\"Let's have a look.\"",
 					flag = 1
 				}
 			}
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（紧张不安）",
+			say = "(Fingers crossed!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "虽然拖到了截止时间前，但是在她拼命的努力下总算还是弄好了。",
+			say = "We only barely finished the work on time, but her concentrated effort was what made it possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看来艾伦本身的工作能力没什么问题，不过需要一直让人提醒也挺难办……",
+			say = "There was no problem with her performance in and of itself, but having to keep tabs on her like this felt cumbersome.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "要不准备一些完成工作后的奖励给她好了…",
+			say = "She may need an incentive to stay focused. I decided to brainstorm some ideas...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

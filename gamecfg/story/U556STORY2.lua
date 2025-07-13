@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"小小的骑士誓言！\n\n<size=45>二　指挥官很忙？</size>",
+					"A Knight's Promise\n\n<size=45>Chapter 2 - Are You Busy, Commander?</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "一番忙碌之后，今天的工作终于步入正轨。",
+			say = "After a bit of a hectic start, we finally got the day back on track.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -49,7 +49,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "原本接下来要指导她秘书舰的日常工作，没想到今天要处理的工作格外多，至少上午是没有指导工作的时间了...",
+			say = "At first, U-556 needed a lot of guidance in performing her secretarial duties. But by mid morning she knew what she was doing and was ready to help with a workload a bit heavier than usual.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼~",
+			say = "Hmmhmmhmmm♪～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "她正在一旁看着之前的演习报告书。就这样稍微放置一会……应该没问题的吧？",
+			say = "She was engrossed in reading some After Action Reports. I decided to let her focus on her work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "（15分钟后）",
+			say = "Fifteen minutes later...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔唔，好无聊啊。我之前听说秘书舰是简单又好玩的工作，还能跟指挥官一起玩啥的……",
+			say = "Ugh, I'm so bored! I thought being secretary ship would be easy and fun. I thought I'd just be playing with the Commander all the time...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了对了！指挥官，要不先放一放工作，我们出去玩吧！",
+			say = "Heyyyy, Commanderrr! How about we knock off work and go play for a while!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			},
 			options = {
 				{
-					content = "婉拒",
+					content = "Tactfully decline her offer.",
 					flag = 1
 				}
 			}
@@ -186,7 +186,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸——",
+			say = "Awwww!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			withoutActorName = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:416}看起来有点沮丧。",
+			say = "U-556 looked a little dejected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这些工作真的有那么重要吗…？",
+			say = "Is this work really that important?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "似乎{namecode:416}并不清楚指挥官和秘书舰在舰队中的作用。从她的印象来看，更像是玩伴一样的存在？",
+			say = "It seemed like U-556 fundamentally misunderstood the relationship between commander and secretary ship. To her, they were little more than playmates.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,24 +248,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过一大早来翻资料的干劲倒还是值得表扬的…总之先和她说一下指挥官工作的重要性吧",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			actor = 408040,
-			dir = 1,
-			nameColor = "#a9f548",
-			say = "指挥官？怎么了吗？突然一副严肃的表情……",
+			say = "Still, the way she took to organizing the office and earnestly focused on her work from dawn until now was certainly praiseworthy... I decided to explain to her the meaning behind our efforts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +265,24 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "原来如此…离开了指挥官的工作，整个港区就没法维持运作了。指挥官的工作，原来其实这么重要的啊…",
+			say = "Commander? What's wrong? Why do you suddenly look all serious...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			actor = 408040,
+			dir = 1,
+			nameColor = "#a9f548",
+			say = "I get it now... Without you, the whole port wouldn't be able to function. The Commander's work is really more important than I ever thought...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -316,7 +316,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我也想帮上指挥官的忙！",
+			say = "That's why I gotta help out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:416}似乎明白了工作的重要性。既然如此，这里就顺势交给她一些简单的事情处理吧。",
+			say = "U-556 seemed like she understood what we were doing. So I took advantage of her enthusiasm and gave her some simple things to work on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 408040,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "把这个交给商店的{namecode:98}小姐吗？我知道了！",
+			say = "Just hand this over to Akashi down at the shop? I'm on it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "{namecode:416}拿了资料，门也不关地跑了出去。",
+			say = "U-556 snatched the document out of my hand and flew out the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "果然，只要有热情的话，简单的工作她还是能做好的嘛。",
+			say = "It turned out that with the right spirit, she'd be able to handle something like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "……",
+			say = "......",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -441,7 +441,7 @@ return {
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
-			say = "结果，直到上午的工作时间结束，也没等到{namecode:416}回来。",
+			say = "But by lunchtime, U-556 still hadn't come back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

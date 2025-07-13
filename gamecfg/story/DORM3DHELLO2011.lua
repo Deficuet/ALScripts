@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，今天你想如何度过呢？无论是阅读、喝茶还是其他，我都会陪着你的。不过……一直忙着准备招待你用的东西，还没来得及仔细收拾房间……///",
+			say = "How do you want to spend the day, {dorm3d}? I'm happy to read a book, have some tea, or do anything with you. It's just... I was so busy getting ready for you that I haven't got the time to clean the place.",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello11",
 			typewriter = {
 				speed = 0.05,

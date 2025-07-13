@@ -11,13 +11,13 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"祈愿与祝福之宴\n\n<size=45>四　未知的晚会</size>",
+					"A Prayer for Peace\n\n<size=45>Chapter 4 - A Novel Anniversary</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "宴会场的另一边——",
+			say = "On the other side of the Banquet Hall...",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没想到来参加的人这么多呢…",
+			say = "Who knew there would be so many people...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "毕竟是赌上铁血和皇家威信的宴会，大家当然都会来参加",
+			say = "Hmph. Of course there are a lot of participants. Don't you see that this is also a battle for prestige between the Royal Navy and our Iron Blood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你就好好学习一下如何享受就好。",
+			say = "All you have to do is sit back and enjoy the show, Spee!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "顺便给这些家伙展示一下我们铁血的优雅气质吧！",
+			say = "You will soon witness that true elegance belongs only to the Iron Blood!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼哼，今天就让皇家的那帮家伙们见识一下我妹妹有多么可爱！我这边还有点事，{namecode:432}先自己转转，好好享受一下宴会吧！",
+			say = "Muahaha! Tonight, the Royal Navy shall bear witness to the terrifying cuteness of my little sister! Ah, Spee, there's something I have to do, so go ahead and enjoy the banquet first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 403053,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等等，姐姐，啊…走掉了。",
+			say = "Wait... Aww, she already ran off...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 403053,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "享受宴会…究竟该怎么做比较好？",
+			say = "Enjoy the banquet...? How am I supposed to do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 403053,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "…那是…？重樱的…{namecode:32}小姐？",
+			say = "Um... is that Miss Yuugure over there... from the Sakura fleet?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 301263,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:31}姐姐……唔啊！是铁血的{namecode:432}小姐…对、对不起，果汁差点就洒到了…",
+			say = "Ariake...? Eek?! I'm so sorry, I almost spilled juice all over you... Um, you're Miss Graf Spee from the Iron Blood, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgName = "star_level_bg_115",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没关系，反正没有弄脏礼服…不过，你怎么了吗，慌慌张张的…",
+			say = "Don't worry about it. You didn't get anything on my dress anyway. How about you, though? You look like you're in a bit of a hurry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "其实是…",
+			say = "Um... y-yes... Actually...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

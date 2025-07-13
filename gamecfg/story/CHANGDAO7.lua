@@ -10,7 +10,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"长岛小姐提不起劲\n\n<size=45>七　别了，梦想中的休假</size>",
+					"Long Island's Inner Peace\n\n<size=45>VII 「Farewell, Dream Vacation」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "回、回来了……呼呼……还是这个位置最适合我……",
+			say = "I-I’m back... hmm... I still think this place suits me best...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啊～要是能永远这么瘫着该有多好啊……人生……再无遗憾……",
+			say = "Ah~ If I can always stay here like this, how great would that be... then my life would have no regrets...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？指、指挥官？",
+			say = "Hmm? C-Commander?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "先说好，我可不打算再出门了哦？",
+			say = "I’ll say it here and now, I don’t plan to go outside just so you know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "——最后一次？之后给我买新的游戏？还有新的模型？",
+			say = "--- One last time? And you’ll buy me a new video game? And a new model toy?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜呜……我去，我去就是嘛，我的理想休假啊啊啊——",
+			say = "Sigh...I’ll go, I’ll go already, there goes my ideal vacation---",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

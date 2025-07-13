@@ -9,7 +9,7 @@ return {
 			side = 1,
 			nameColor = "#ff5c5c",
 			bgName = "bg_ssss_1",
-			actorName = "巨构武装:「弧光」",
+			actorName = "Enemy Kaiju",
 			dir = 1,
 			bgmDelay = 2,
 			say = "█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁█▇▆▅▄▃▂▁",
@@ -47,7 +47,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔啊，这次是什么攻击啊！",
+			say = "Woah...! What the heck was that attack?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 306060,
-			say = "不但影响了周围的水面，连空气都开始震动了！",
+			say = "It feels like the entire world is vibrating, water and air alike...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像空间震动一样……等等，我们的电子设备是不是开始失灵了？！",
+			say = "We've encountered other Mirror Seas like this before! I think it's a special combination attack that's also causing anomalous weather, Souryuu!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这个攻击是……没想居然还有电子作战模块。",
+			say = "Indeed. My electronic devices have been completely disabled...!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "净化亲，你还好么？！要不要暂时撤退一下？",
+			say = "Purifier! Are you okay? Do you need to retreat first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,9 +153,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "嗯？我还好哦，没什么问题。",
+			say = "Huh? Retreat? I barely even felt that!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不会吧……为什么只有净化亲的电子设备一切正常啊？！",
+			say = "Did your rigging not get affected by that electromagnetic attack?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,9 +193,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "大概是因为我原本是高阶塞壬的原因？这种程度的干扰对我来说不值一提哎！",
+			say = "Don't think so? I might be immune to stuff like that!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果是这样的话……嗯哼，好像还可以这样！",
+			say = "Wow... If the kaiju's attack didn't work on Purity, then–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "净化亲，那个塞壬怪兽肯定以为你也中招了，你就装作中招不要动。",
+			say = "Purity, listen to me! Pretend you've been disabled by that attack!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等怪兽大意下来之后，用火力最强的主炮一口气解决战斗！",
+			say = "Lure the kaiju into thinking it can finish you off, then blow it to pieces when it's lowered its guard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,9 +277,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "哎？！好，我明白了！",
+			say = "Huh? Oh, I see! ...Blargh! Curses! I'm done foooooor––!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -297,7 +297,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			say = "怪兽的电子攻击持续了一阵子之后终于停止了。",
+			say = "Due to Purity's strange behavior, the rampaging kaiju finally paused its attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			say = "海面上的所有舰船、控制的塞壬量产型、还有巨大的净化亲都陷入了“瘫痪”状态，阵型也被海浪冲的七零八散。",
+			say = "Shipgirls and Sirens were littered around the water, rendered motionless by the prior attack. The massive Purity seemed weakened and vulnerable as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_ssss_1",
-			say = "怪兽似乎有些满意的巡视着眼前的风景，注意力暂时从净化亲身上离开了。",
+			say = "As if satisfied by the apparent incapacitation of the elite Siren, the kaiju momentarily took its aim off from Purity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "等待的机会就是现在，净化亲，快射击！",
+			say = "Now's your chance, Purity! Hit it hard!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,9 +359,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "交给我吧！主炮早就充能完毕了，没想到吧大怪兽，本净化亲完全没受到影响哦！",
+			say = "Hell yeah! You've activated my trap card! Take this!!!!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -382,9 +382,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "接招吧——————额…………",
+			say = "Look at me – it's the last thing you'll ever see, loser......!",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -405,9 +405,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "这里是不是应该插入一个帅气的招式名比较好？以前我都是怎么喊的……？",
+			say = "Huh? What's wrong with me today? Surely I could've come up with a better insult than that...",
 			actorPosition = {
 				x = 150,
 				y = -400
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这种事谁注意过，鬼知道啊……！",
+			say = "NOW'S NOT THE TIME FOR THAT!! HURRY UP AND SHOOT!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "随便什么光线都好吧，快点射击，怪兽要反应过来了！",
+			say = "Pull out a Something Beam, anything! Hurry up, or that kaiju's going to get you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,9 +463,9 @@ return {
 			dir = 1,
 			actorScale = 2,
 			actor = 900233,
-			actorName = "净化亲（巨大）",
+			actorName = "Giant Purity",
 			hidePaintObj = true,
-			say = "好好好，我知道了！主炮锁定完毕——————随便什么光线，射击！！！！！！！！！",
+			say = "Let a girl enjoy her two seconds in the spotlight, jeez! Target, locked on! Whatchamacallit Something Beam... FIIIIIIIIIIIRE!!",
 			actorPosition = {
 				x = 150,
 				y = -400

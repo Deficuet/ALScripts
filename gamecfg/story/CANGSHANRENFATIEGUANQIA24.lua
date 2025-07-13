@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgName = "bg_kagura_2",
 			hidePaintObj = true,
-			say = "镜面海域·风云城外围区域",
+			say = "Akashi Castle - Outside the Castle",
 			bgm = "sk-az-pv1",
 			typewriter = {
 				speed = 0.05,
@@ -25,7 +25,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈～终于出来了……等等，这是？镜面海域被解除了？",
+			say = "Phew! We're finally free... Huh? Has the Mirror Sea been dispelled?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "或许是由于解救了雪不归小姐的缘故，所以相应的海域也被解除了……这样？",
+			say = "Guess they made it something like, the Mirror Sea would disappear when we freed Fubuki, or something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "要是没有解除的话，在出来之后我们应该还会碰上几股敌人才是。",
+			say = "Because otherwise, they'd probably have made us fight more before we could escape.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 319010,
-			say = "和港区的联系也恢复了。指挥官说是马上让{namecode:98:明石}她们来调查，让我们先护送受伤的人回港区。",
+			say = "We've regained connection to the port. I'll ask Akashi to bring an investigation team while we escort the wounded home to safety.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "也是，经历了这么久的战斗，大家都应该先回港区修整一下才是。",
+			say = "You do that. I desperately need to rest back at the port.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404040,
-			say = "话说回来，为什么那帮塞壬要搞这么麻烦又绕来绕去的事啊~真是的！",
+			say = "What was the point of all this, anyway? I hate the Sirens and their stupid, confusing schemes!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "和大家这么冒险一番之后我觉得，或许是塞壬只是对名为“忍者”的独特存在产生兴趣了吧。",
+			say = "After all of that, I think I know. The unique beings known as shinobis and their feats caught the Sirens' interest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "就像{namecode:11:晓}和里诺对你们感兴趣一样……",
+			say = "In the same way they caught Akatsuki's and Reno's interest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸！？不不不，我觉得在下和塞壬可不一样哦！",
+			say = "What?! I am no Siren! You should not compare me to them!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "呵呵~也是，试图理解它们的目的确实是毫无意义的。我只是随口一说罢了~",
+			say = "Of course not. While their way of thinking may seem complicated, in truth, there's no point trying to understand them.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "……各位，这次真的给大家添麻烦了。等到了安全的地方之后，请让我再进行正式的道歉。",
+			say = "...Ladies, I'm sorry for all the trouble you had to go through today. Allow me to apologize to you once more, when we're in a safer place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "你们真没必要介意啦！某种意义上，这也算是“某种日常”了！",
+			say = "C'mon, it's nothing for you to apologize over! We're practically used to this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			side = 2,
 			bgName = "bg_kagura_2",
 			hidePaintObj = true,
-			say = "轰隆隆——",
+			say = "RUMBLE!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "好刺眼……“门”从水面下出现了？",
+			say = "Can't see a thing... Huh? Is that a door?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "这个难道就是……能够送你们回到原来世界的门？听说之前也出现过类似的情况呢。",
+			say = "I... guess this is your literal doorway back home, girls. If nothing else, the Sirens do tie everything up in a nice bow at the end...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "哇，进入这里就能回到原来的世界吗？！",
+			say = "Wait, we can go back if we go through the door?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "确实……它类似于异界之门，但又有些不同……有种令人怀念的感觉。",
+			say = "It does resemble a world gateway... Yet something's different about it. It feels a little nostalgic.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "通常来说……这扇门肯定是坏的……这次估计也不例外。",
+			say = "If our past experiences are any indication, it's probably broken. One of our interdimensional doorway experts should be on the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 103240,
-			say = "不过不用担心，关于这方面的专家正在来这里的路上啦，过不了多久就能解决问题。",
+			say = "It'll take a while to fix it, but at least we'll figure out its functions as we examine it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在此期间，你们来我们港区稍微休息一下吧！也可以让雪不归小姐好好恢复一下！",
+			say = "Until it's running again, you're welcome to stay at our port and rest! Fubuki'll need a check-up anyway!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "我也在此正式邀请诸位前来港区做客！我还没和雪不归小姐好好打招呼呢？",
+			say = "Indeed. You've yet to formally introduce yourself as well, Fubuki. We'll have plenty of time to talk after you've healed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "等雪不归小姐康复之后，我计划举办一场皇家茶会招待诸位。我对于泡茶还是颇有自信的，到时一定请诸位品尝！！",
+			say = "Please, do allow me to invite you to a tea party after that. I'm not bad at brewing tea, as a matter of fact. You're going to love it!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "呃，那有点……",
+			say = "I wouldn't if I were you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "什么？",
+			say = "Wouldn't what, hmm?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102260,
-			say = "……没，没什么啊哈哈哈……",
+			say = "Uhh... Never mind...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000050,
-			say = "我们才是，到现在都没能好好打招呼……真是非常抱歉。那接下来的一段时间，就再次承蒙关照了。",
+			say = "Kindly forgive me for not giving you my due introduction. I'm pleased to be staying with you for a while.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了~又能和大家再呆一段时间了！飞鸟阁下，请再教我一些忍者的技能吧！",
+			say = "It looks like we'll all be here for some time! Hooray! Asuka, you must teach me more ninjutsu!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 11000010,
-			say = "嗯，交给我吧！我会好好训练你的！",
+			say = "You got it! I'll whip you up into a great shinobi!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜，还请手下留情……",
+			say = "Err, instruct me by all means, but please no whipping...",
 			painting = {
 				alpha = 0.3,
 				time = 1

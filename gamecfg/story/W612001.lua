@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "结果确认中：指挥官，海域中的1处塞壬洋流控制器被摧毁了。",
+			say = "An ocean current control device has been eliminated. Proceed to next target.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

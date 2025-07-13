@@ -12,7 +12,7 @@ return {
 			side = 2,
 			bgm = "holo-tokiwa",
 			dir = 1,
-			say = "我回来了~队长，净化亲你们还好么。",
+			say = "Captain, we're home~ How're things going?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "祭！！一直没回来担心死我了。吹雪和澪，你们也平安无事真是太好了！",
+			say = "Hey, Matsuri! You were gone for so long I was starting to worry. Nice to see Fubuki and Mio made it in one piece!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "啊，祭回来了啊~正好阿库娅的舰装也调试完毕，旁边的是你失散的同伴么？",
+			say = "Look at that, Matsuri's back! Good timing, we just finished testing Aqua's rigging. Oh, guessing you brought some friends with you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "嗯！这位是白上吹雪，吹雪，这位是大神澪，澪。",
+			say = "Sure did! This here's Shirakami Fubuki, and this is Ookami Mio.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "旁边的两位是在战斗中帮助了我们的，{namecode:96}小姐和{namecode:158}小姐,都是新加入反抗军的宝贵力量！",
+			say = "And then the girls who got them out of a tight situation: Kawakaze and Zuikaku. The Resistance grows stronger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,9 +90,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "欢迎欢迎~战斗力又加强了呢，那边的是……",
+			say = "Welcome aboard, folks! We've got fun and games!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……净化者，这是在搞的哪一出？",
+			say = "You... I remember you, Purifier!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个距离，用刀就可以了！",
+			say = "I can take your head in the blink of an eye at this range!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哇哇哇，{namecode:158}，{namecode:96}，你们等一下！",
+			say = "Wait, wait, WAIT! Calm down, you two!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……标枪，到底怎么回事？",
+			say = "What, Javelin?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化者失忆了？！",
+			say = "Purifier's... lost her memories?",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -199,7 +199,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没错！看到净化者竟然帮我解决了面前量产型的时候，真把我吓了一跳…",
+			say = "Yeah. I was pretty shocked too when she came in and blew up all the mass-produced Sirens attacking us...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,9 +213,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "之后我们救下了祭和阿库娅，就跟着她们来到了这个基地。",
+			say = "Then I went and saved Aqua and Matsuri and brought them here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这真的不是演技么……？",
+			say = "... You're not pretending to be on our side, are you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就算是真的，失忆也不能让她过去的所作所为一笔勾销，为了我们的世界，我必须在这里解决你。",
+			say = "She's a Siren. After all the Sirens have done, I'm not going to simply take her word for it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "等一下！净化亲这么可爱，不是会做出那种事的人，那些事肯定是，相似的什么别的人做的啦！",
+			say = "You have to believe us! Purity would never hurt anyone! You must be confusing her for someone else who looks like her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:158}稍等下！虽然我能理解你的想法，但是，我们现在对这里完全不了解，而且……",
+			say = "I couldn't believe it at first either, but Purifi– I mean, Purity really did save us, and she's on our side...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,9 +290,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "那个，我真的对你们做了很过分的事情吗？要是那样的话…我还是现在就出去和测试怪人拼了算了！",
+			say = "Uhh, have I horribly wronged some of you in the past? I mean, if you want us to prove our allegiance, I can go out back and commit double suicide with Tessy. We can always get new bodies.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "测试怪人…？总觉得，战意都提不起来了。",
+			say = "Who's \"Tessy\"? Wait... Tester's here too?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "现在比起战斗，不如先一起调查怎么从这里离开吧，好吗？",
+			say = "Yup... Anyway, we need to come up with a plan for what to do next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我会盯着她。",
+			say = "I'll stay with Purifi– Purity, and keep an eye on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯！之后指挥官如果责怪下来，我会承担的！",
+			say = "Thank you, Kawakaze!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……那倒不必。非常时期，特殊处理。不过大家切不可掉以轻心",
+			say = "These are abnormal circumstances, and I'm willing to accept abnormal things within reason. But don't get careless, Javelin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			side = 2,
 			actor = 900215,
 			dir = 1,
-			say = "太好了，刚才{namecode:158}的样子把咱吓的都不敢动了……那现在大家是统一战线的伙伴了吧？",
+			say = "Phew, you had me spooked for a second there, Kawakaze... So, all friends here, yeah?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "充其量只是临时休战而已。净化者，吹雪和澪的舰装就交给你了，请努力工作哦",
+			say = "No, this is merely a ceasefire. I'm– Hey, stop that! Why are you measuring them, Purifier?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,9 +412,9 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
+			actorName = "Purity",
 			dir = 1,
-			say = "切…我知道啦！已经差不多熟悉感觉了，很快就能造出几套很厉害的舰装让你们刮目相看的！",
+			say = "Uh, so I can make them some rigging too? Surely getting more people equipped to search for their friends is more important than keeping their 3 measurements a secret?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你们还有多少同伴在这里？",
+			say = "Search for their friends? There are more than just Fubuki, Mio, Aqua, and Matsuri?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "绫目，诗音，时乃空前辈，还有三个人，不知道她们现在怎么样了。",
+			say = "We still haven't found Ayame, Shion, or Miss Sora yet. Wherever they are, I hope they're okay.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "绫目有鬼神之力，诗音是魔法使，她们两个肯定没问题。空前辈的话…因为是空前辈所以肯定也没问题啦！祭的直觉是这么说的！",
+			say = "Ayame has her demon powers and Shion can use magic, so they're probably fine. Miss Sora, on the other hand... Well, it's Miss Sora, I'm sure she can manage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "三个人…我们这边也有三个人……",
+			say = "Maybe they can, but we're not gonna just leave them to fend for themselves out there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,11 +486,12 @@ return {
 			}
 		},
 		{
-			actor = 301490,
-			side = 2,
+			actor = 900021,
 			nameColor = "#a9f548",
+			side = 2,
+			actorName = "Purity",
 			dir = 1,
-			say = "分头行动吧，{namecode:96}和阿库娅和标枪，我和夏色祭，两组同时搜索，吹雪和澪就留在这里等待舰装制作完成。",
+			say = "Sounds like a plan! You girls with riggings go out and look for the last three while yours truly stays behind. Somebody's gotta kit out Fubuki and Mio, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +506,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咱刚刚检查了一下，基地的库存还不是充足状态，考虑到持久战的可能性，沿路也注意一下收集补给品吧。",
+			say = "This could end up becoming a drawn-out battle, so we should probably try to collect resources when we can...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +522,7 @@ return {
 			side = 2,
 			actor = 10500030,
 			dir = 1,
-			say = "呼呼呼，收集反抗军用的物资可是我最擅长的，交给本阿库娅大人吧~",
+			say = "Gathering resources is my middle name! Leave it to Lady Aqua~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +537,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那么，既然计划定下来了，大家先休息一下，我去给大家准备一些路上用的便当~",
+			say = "You girls should take a break, and I'll prepare you some hefty lunches in the meanwhile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +553,7 @@ return {
 			side = 2,
 			actor = 10500040,
 			dir = 1,
-			say = "标枪，以后一定会成为好妻子的……",
+			say = "Aww, you're so sweet, Javelin. You'll make a lovely wife one day...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +568,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "（回去之后向大家推荐碧蓝航线吧，嗯！）",
+			say = "(Once we're back home, I'd better get the rest of the gang to play AL. For now though, time to rest...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

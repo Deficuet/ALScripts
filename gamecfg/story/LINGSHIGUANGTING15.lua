@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "众人打开设施厚重的大门，见到了此行的目标。",
+			say = "Deep inside Point Berth – a mysterious permanent anchorage within a Mirror Sea – the search party finally located their missing person.",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "陛下，抱歉我们来迟了。",
+			say = "Your Majesty! Please forgive us for not finding you sooner!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "是前卫啊，还把君主也找来了。",
+			say = "If it isn't Vanguard! And Monarch, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "很好！本王就知道你是不会置失踪的本王于不顾的！",
+			say = "I commend you for all your efforts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下您没事吧，有不舒服的地方么，我来给您检查一下？",
+			say = "Your Majesty, are you all right? Please allow me to tend to any of your injuries.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不用了贾维斯，本王没事。",
+			say = "I'm fine. Go give a hand to Cheshire and Neptune in the kitchen instead.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "陛下，这里不安全，请随我们尽快离开。",
+			say = "Your Majesty, it is unwise to remain here for long. Kindly follow us back to Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "倒也不用着急。除了无法从内部打开之外，这里还算挺安全的。",
+			say = "No need. There may be no clear way out of here, though it is extremely safe.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "空间宽敞，装潢品味不错，休闲设施也一应俱全。",
+			say = "I know what you're thinking. \"But this place is crawling with Sirens.\" Yes, it's normal to react that way. It took me a while to grasp the situation as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "你们一路奔波过来辛苦了，暂时休息一下吧。这里的茶水和点心也很不错哦。",
+			say = "In short, this facility – nay, this very Mirror Sea – is for conducting Reenactments.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 207120,
-			say = "陛下……？这里可是在塞壬镜面海域的正中心啊！",
+			say = "All of it? Was our encounter with Purifier just before all part of the act as well?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心休息，本王有数。",
+			say = "That's right. She's just another vessel for the script, so to speak.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "对了，不少人是第一次见海王星和柴郡吧？事到如今也瞒不下去了，你们就趁机好好交流一下。",
+			say = "Neptune, Cheshire, and I decided to play along, and she brought us here just like that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前卫和君主跟本王来书房，本王有话要说。",
+			say = "Now, Vanguard and Monarch, fill me in on what happened on your end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "…………事情居然是这样……君主，你做的太过了！",
+			say = "I see... You heard Her Majesty bemoan how hard it'd be to find a cure for Hood, so you decided to take matters into your own hands?",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -326,7 +326,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "抱歉……将伊丽莎白女王和诸位卷进来并非我的本意。",
+			say = "Yes. After activating Camelot, it took me to a destination where I ran into a goblin by the name of Bon Homme Richard. Then Her Majesty appeared and saved me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "不论你的本意为何！你有作为骑士的自觉么？！",
+			say = "There's no defending such recklessness even if you had noble intentions! You nearly got Her Majesty killed!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我是皇家的骑士，我要做有利于皇家的事。",
+			say = "You're right. There is no excusing it, and there is no denying this was my fault.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "再优柔寡断下去，我们就真的要永远失去胡德女士了啊！",
+			say = "My selfish desire for acknowledgement nearly cost us everything...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "……那也不能成为你擅自鲁莽行动的理由！你知道纪律与服从的含义么？！",
+			say = "Please tell me you had some sort of plan! Or did you rush headfirst all alone into a Mirror Sea, expecting to find a lead on a Black Cube?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "万一这次行动非但没有找到目标，反而让卡美洛之庭受损的话……！",
+			say = "I don't have to remind you how dangerous handling one is. Did you think being a blueprint ship makes you immune to–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好了……现在不是吵架的时候。",
+			say = "That's enough. She has already expressed remorse for her actions.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "截止目前，除了被意外击晕的谢菲和擅自行动而负伤的君主之外，我们没有其他损失。",
+			say = "Besides, everyone made it out alive, and your expedition team has procured information pertaining to a cure for Hood. Everything worked out in the end.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "因为前卫的正确判断，此行还与两名META产生了友好联系。",
+			say = "There are only two things I'm wondering about... First, Monarch, what exactly were those coordinates you saw?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在本王不想再继续追究这些事了。",
+			say = "And second, what drove you to jump into Camelot without any support or supplies?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "……遵命。",
+			say = "I'm wondering as well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "君主，本王需要更多关于好人理查德的情报。在本王到达之前，你跟她之间发生了什么？",
+			say = "It goes beyond plain curiosity. The teleporter cannot be operated by one person. How did you manage to use it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我很难用语言描述……她好像一直试图干涉我的思维，有些声音甚至直接从我的脑海中出现了……",
+			say = "To answer your questions, the coordinates were already entered on the terminal when I found it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她还一直在劝说我成为META，然后还……试图攻击我心理的弱点。",
+			say = "I hardly even touched anything. I just stepped onto the platform, and the warp sequence initiated by itself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然看起来是她在战斗中受到的伤害比较大，但是不知为何，我感觉如果再继续下去的话，输的人会是我。",
+			say = "When it finished, I was in that Mirror Sea with Richard. She urged me to \"become META,\" and when I refused, she attacked me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "总而言之，是一个既疯狂又难缠的对手……",
+			say = "Or rather, she subjected me to haunting visions, then she summoned a giant tornado out of thin air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "唔……居然能让你都觉得这么难缠，看来确实是强敌。",
+			say = "And just when it was about to take you, Her Majesty appeared, huh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "果然如此……本王也感觉到了一股难以名状的恐怖。",
+			say = "Correct. After our arrival, Richard did something to Camelot's energy output, causing it to fluctuate horribly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "作为人工奇异点核心设备，卡美洛之庭可不是能被轻易干涉的存在。",
+			say = "The tornado would've annihilated not only us, but also Camelot in its entirety if we hadn't resorted to drastic measures to get out of there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -669,7 +669,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "简直就像她比我们更熟悉这套装置的运行逻辑……然后拥有比人工奇异点更强大的力量一样……",
+			say = "Whoever this Richard is, she has made it clear that not only is she a great threat in her own Mirror Sea, but also that she can manipulate Camelot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,7 +686,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "虽然希望她不会追过来，不过大概这只是本王的一厢情愿罢了。",
+			say = "I've no doubt in my mind the whole teleporter incident was a trap laid by her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "要是战斗不可避免的话……也算因祸得福，谢菲醒来之后肯定能带增援过来。",
+			say = "(But then... where did the other coordinates leading to those META ships come from?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好了，你们先去外面让大家做好离开准备，本王喝完手头的茶就出去。",
+			say = "Hmm... I've changed my mind. Vanguard, tell Janus to prepare the gate to take us back at once.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 205130,
-			say = "遵命。",
+			say = "Yes, Your Majesty!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			say = "在所有人都离开之后——",
+			say = "Some time later...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -786,7 +786,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "感谢情报交换，我会善用的。那么本王要回去了，你也多保重。",
+			say = "\"Point Berth\"... Bah, it's just a detainment facility with a fancy name. That talk about \"the other Elizabeth\" being here is all nons–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "伊丽莎白望着后方紧闭的卧室门，留下了这样的话语——",
+			say = "Elizabeth put her cup of Neptune's tea to her lips, and before she could finish speaking, her vision faded to black.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

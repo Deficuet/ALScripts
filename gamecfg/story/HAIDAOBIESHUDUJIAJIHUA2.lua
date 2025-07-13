@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"夏日重建！海岛别墅度假计划！\n\n<size=45>重建！蒸蒸日上的码头</size>",
+					"Midsummer Returns: The Villa Reconstruction\n\n<size=45>2 Busy Pier, Busy Shore</size>",
 					1
 				}
 			}
@@ -18,7 +18,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "海浪轻轻拍打着新鲜加固过的堤岸，修复完毕的码头在阳光下闪闪发亮。",
+			say = "The water laps against the newly rebuilt embankments, and the repaired pier glimmers under the sun.",
 			bgm = "story-villaisland-light",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "突堤表层的灰色混凝土看似单调，但只要走近了，就能在道路上发现几处油漆未干的可爱爪印。",
+			say = "While the pier's grey concrete may feel dull from a distance, up close, one can see a handful of cute little shoeprints dotting the still-drying paint.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,20 +41,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "远方，几艘来自港区的物资运输船正缓缓越过海平线。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_539",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……说起来，{namecode:18:岛风}她们好像去迎接新来的运输船了。",
+			say = "On the distant horizon, several ships carrying supplies from the port slowly approach the island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +54,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "拿望远镜看看她们在哪里吧。",
+			say = "Oh yeah, aren't Shimakaze and some others coming to welcome the ships?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_539",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Let's have a look through the telescope.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
-			say = "透过望远镜，几道身影以毫厘之差咬住彼此的航迹，在运输船前方展开一场惊心动魄的贴身竞速。",
+			say = "Through the telescope, I see several shipgirls running closely behind each other. A high-octane race begins in front of transport ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "——呀哈，超过瘾~！！",
+			say = "Hippity hoppity! I love sprinting so much!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈哈，不小心冲过头了——你们还能跟得上吗？",
+			say = "Haha, yeah! Was I too fast back there? Can you girls keep up?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "速度固然重要，但决胜点……其实是走位呢！",
+			say = "While speed is important, positioning is the deciding factor in a race!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 901140,
-			say = "那就让你们见识一下吧——在绝对的速度面前，任何技巧都是徒劳的。",
+			say = "Well, then allow me to demonstrate how technique means nothing when faced with unparalleled speed!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "呀哈哈哈，时代早就变啦！就让{namecode:18:岛风}开创新时代的里程碑吧——呜哇！",
+			say = "Hahaha! The times have changed, ladies! I shall set another milestone for speed in this new– Whuah?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小心了，{namecode:18:岛风}。轮到你来追赶我的背影了。",
+			say = "Do be careful, Shimakaze! With all due respect, it's your turn to eat my dust!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actor = 0,
-			say = "……这应该就是在度假吧，说好的“迎接运输船”呢？",
+			say = "Looks like they're having fun. Weren't they supposed to help with the cargo, though?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过，对海岛别墅的重建工作已经踏出第一步……",
+			say = "Well, in their defense, we've finished the first stage of reconstruction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "适当放松一下也好。",
+			say = "It's fine for the girls to have a bit of fun.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "这么想着，就在不知不觉间走到了人群稠密的海岸边。",
+			say = "As I think to myself, I realize I've wandered onto the bustling shore.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,20 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "新区域的重建规划尚未确立，互相熟悉的少女们凑在一起闲聊着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_701",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "夏日、海风、果汁……嗯，有度假的感觉了。",
+			say = "Since the plans for the new area aren't set in stone yet, the girls have spontaneously gathered here to chat with each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +267,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……等下，有哪里不对，非常不对。",
+			say = "Summer, the sea breeze, and a glass of fruit juice. This is starting to look like a real vacation.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_701",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "...Wait a second. Something's wrong here. Very wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "——几乎每个人手中，都捧着一杯印着绿色猫猫头商标的果汁饮料。",
+			say = "There is a logo with green cat ears printed on the label of the drinks that practically everyone is holding.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你也要来一杯冰冰爽爽的菠萝椰子水喵~",
+			say = "Commander, help yourself to some cold and refreshing pineapple and coconut water, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（果然……又让她赚到了！）",
+			say = "(I knew it! She's lining her pockets again!)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你还真是不错过任何商机啊。",
+			say = "You're nothing if not a crafty businesswoman.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 312010,
-			say = "{namecode:98:明石}的摊位是为了满足大家的需求而存在的，这明明是在做慈善喵！",
+			say = "My stall exists to satisfy the people's needs, nya! It's basically a charity, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官先坐下吧，我为辛苦工作的你准备了现炸薯条哦~",
+			say = "Commander, have a seat! I've made some fresh chips for you! You deserve it for working so hard even now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,18 +370,18 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦……薯条全部不见了？！发生了什么！",
+			say = "Wait... Where did my chips go? What happened to them?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……我觉得你可能猜到我要说什么了。",
+					content = "I think we both know who – or rather, what – took them.",
 					flag = 1
 				},
 				{
-					content = "没错，是海鸥干的。",
+					content = "Yep, it was the seagulls.",
 					flag = 2
 				}
 			}
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎、怎么办啊，那是妹妹托付给我的最后的薯条了——",
+			say = "Oh no... Those were the last chips! Bel entrusted them to me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "就这样在轻松惬意的氛围中休息了一会儿。",
+			say = "I stop and rest with the girls, enjoying this laid-back atmosphere.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，你露出了一副很有成就感的表情啊。",
+			say = "You look awfully satisfied.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "看着一片废墟似的码头区变成了现在的样子，是不是很能激发人的干劲呢？",
+			say = "Doesn't it get you fired up to see the pier area restored? And to think it was almost just a pile of rubble before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_701",
 			hidePaintObj = true,
-			say = "孟菲斯将一杯猫猫头出品的菠萝椰子汁推了过来。",
+			say = "Memphis presents a drink to me – a bottle of pineapple and coconut water with Akashi's logo on it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是……天下没有免费的果汁。",
+			say = "No such thing as a free drink, I'm guessing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，这可是关系着后续重建计划的——世界第一贵重……菠萝椰子汁。",
+			say = "Correct. This is the world's most valuable drink. It's related to our next reconstruction plan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,18 +483,18 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官快点喝掉吧，这样我才好心安理得地继续和你商量接下来的工作~",
+			say = "Drink it. Then we can discuss things with peace of mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "慢条斯理地喝完果汁。",
+					content = "(Drink it slowly.)",
 					flag = 1
 				},
 				{
-					content = "光速喝完果汁。",
+					content = "(Chug it at lightning speed!)",
 					flag = 2
 				}
 			}
@@ -508,7 +508,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你……喝得这么慢，是故意的吧！",
+			say = "Oh, so NOW you decide to take it slow. Are you doing this on purpose?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒、倒也不必喝得这么快，我又没有催你……",
+			say = "Y-you didn't have to down it in one gulp... I wasn't trying to rush you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好了，休息时间结束——",
+			say = "Okay, that's enough sitting around.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于后续维修计划，让同伴们总留在运输船里或者搭帐篷总是不合适的。",
+			say = "So, the next reconstruction plan. I propose that we tackle the residential area next.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "因此我的建议是，接下来优先修缮别墅居住区。",
+			say = "We can't let everyone live on transport ships or in tents forever, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "首先住到了别墅里面，大家才有心情度假……也有动力去完成后面的重建工作嘛。",
+			say = "It'll help get that vacation mood back if we're able to sleep in the villa, and it'll motivate people for the rest of the reconstruction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "另外，别墅和码头之间的道路也已经清理完成，现在可以正常通行了。",
+			say = "Also, the road from the pier to the villa has been cleared for traffic now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "我们先过去看看别墅那边的状况吧，指挥官~",
+			say = "Come. Let's go examine where we'll be staying.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

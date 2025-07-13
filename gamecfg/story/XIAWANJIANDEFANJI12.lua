@@ -11,7 +11,7 @@ return {
 			side = 2,
 			bgm = "battle-boss-1",
 			dir = 1,
-			say = "果然驱逐舰想要挑战战列舰还是太勉强了么…",
+			say = "Of course a destroyer can't challenge a battleship.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "{namecode:401}，我的弹药已经打光了…",
+			say = "Z2, I'm totally out of ammo.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hideOther = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "到此为止了，铁血的驱逐舰，你们战斗得很英勇。",
+			say = "It's over, Iron Blood destroyers. You've fought bravely.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轰-------------！",
+			say = "BOOM!",
 			flashN = {
 				color = {
 					1,
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？哪来的炮击声！",
+			say = "Huh? Where did that shot come from?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
-			say = "铁血驱逐舰{namecode:497}和{namecode:403}正从侧后方向我们发动攻击。",
+			say = "Iron Blood destroyers Z12 and Z17 engaging from the rear.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -142,7 +142,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……嗯。",
+			say = "Hm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:401}和{namecode:404}正在向峡湾的深处缓慢撤退，要追击么？",
+			say = "Z2 and Z18 are advancing deeper into the fjord. Should we pursue?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这条峡湾的尽头，是死路吧。",
+			say = "This fjord is a dead end, isn't it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "是的…",
+			say = "Yes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "……我们先去追击{namecode:497}和{namecode:403}，不能让她们跑了。",
+			say = "Then we will deal with Z12 and Z17 first. Do not let them escape.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "至于{namecode:401}和{namecode:404}…这点时间我们还是可以给的。",
+			say = "As for Z2 and Z18, we can give them some time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "就当做是为勇敢献上的敬意吧。",
+			say = "Call it a tribute to their bravery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我明白了…舰队调整航向，准备追击铁血驱逐舰{namecode:497}和{namecode:403}的作战！",
+			say = "Roger. Adjusting course to pursue Iron Blood destroyers Z12 and Z17!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

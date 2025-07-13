@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "米德加尔特之塔·第一码头",
+			say = "Tower of Midgard - Pier",
 			side = 2,
 			bgName = "bg_midgard_2",
 			dir = 1,
@@ -35,7 +35,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
-			say = "正当铁血众人就餐时，突然感受到了一阵有规律的震动。",
+			say = "Not long after the girls finished their meals, the ground began to rumble.",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "餐具和地板都突然抖起来了……",
+			say = "Hey, who put the facility on vibrate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "这是奇异点正在顺利启动的标志哦。",
+			say = "That's just the Singularity generator powering up. Nothing to worry about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:471}~你终于开完会了！接下来我们要做什么，启动之后工作就结束了么？",
+			say = "Hi there, Strasser! Just making sure: we've gotta go stand guard around the facility, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "等到{namecode:464}阁下的探索舰队进入奇异点，然后再顺利出来的话，我们的工作才算告一段落哦。",
+			say = "Correct, and you are to stay on guard until Ulrich's team finishes and returns from the Singularity. Understood?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "好耶！接下来就是休假——",
+			say = "You got it! And if it goes well, Eisen and I will finally get some time off!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前提是一切顺利才行。现在人工奇异点启动，我们的掩护就消失了，接下来肯定还要应付一下不请自来的塞壬才是。",
+			say = "The key word is, \"if.\" The Sirens will start coming for the Tower now that we've lost our active camouflage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没关系哦！要是塞壬来了的话正好活动活动身子~！",
+			say = "Not a problem! I could use some after-lunch exercise.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406010,
-			say = "{namecode:472}，这里是正在执行侦察任务的{namecode:467}。",
+			say = "This is Weser. I have a report to make.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 406010,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "你的判断是对的，幻光系统正在失效，周围海域已经出现塞壬先遣舰队了。",
+			say = "The Sirens have indeed noticed us and are on their way to attack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "来得好快啊……",
+			say = "Already? They're faster than I expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "不过根据我在前线观察得出的结论……有一个好消息和一个坏消息，你们想听哪一个？",
+			say = "Sooo, there's good news and bad news. Which do you want to hear first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "你是……刚刚到达的{namecode:476}？请按顺序说明吧。",
+			say = "It makes no difference. Just tell me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "好消息是，来袭的敌人以量产型为主。",
+			say = "Okay, the good news is, the Siren forces consist of mostly mass-produced ships.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 408120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "坏消息呢，巨大的米德加尔特之塔就像是黑夜中的火把，而被火光照亮的我们就是最显眼的目标！",
+			say = "And the bad news is... they're all heading straight for us, almost like they're being pulled in by gravity!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 406020,
-			say = "{namecode:476}，怎么一会不见，你就跑去和{namecode:467}一起巡逻了？",
+			say = "I see... So you were scouting all this time? Is that why you weren't at the cafeteria?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "不知不觉，顺其自然！",
+			say = "Yeah. I saw Weser head out, so I thought I'd better tag along!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 402060,
-			say = "没想到错过午餐的不是{namecode:456}，是你啊。",
+			say = "So neither of you have had lunch...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 408120,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "嘿嘿，才没有~第二码头也有食堂哦，{namecode:467}已经带我去吃过了！",
+			say = "Nah, we just went and ate at a different cafeteria!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 408120,
-			say = "我和{namecode:467}会先发动突袭争取时间，不过我建议尽快布置防线比较好哦。",
+			say = "Anyway, we can't really enter the Singularity yet, can we? Sirens come first, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我认同，与其死守，不如主动出击，在远处消灭威胁。",
+			say = "Indeed. We must seize the initiative against them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "不过，即将执行探索任务的各位就不用参与了，请直接前往内环区，{namecode:464}阁下正在等待各位。",
+			say = "Your team, however, will proceed to the Singularity's entrance. Ulrich is waiting for you there.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "是让我们袖手旁观的意思么？",
+			say = "You sure you don't need our help?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "带领舰队保卫米德加尔特之塔，确保探索舰队顺利进入奇异点是我们的工作。",
+			say = "Would you not waste time questioning my orders? My mission is to ensure you get inside the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 407030,
-			say = "带领舰队进入奇异点，执行探索任务是你们的工作。分工明确，不要想多了哦。",
+			say = "And your mission is to explore the Singularity and return safely. Remember that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "有道理，你说得对。{namecode:468}，{namecode:447}，还有现在不知道在哪个位置的{namecode:476}。",
+			say = "You're the boss... Then let's not keep Ulrich waiting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 403100,
-			say = "前往内环区吧，我们还有重要的任务要做。",
+			say = "Let's go, Elbe, Magde, and U-1206.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:454}，外围战斗加油哦。",
+			say = "Oh, and Heinrich, good luck with the Sirens and all that.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "放心！这段时间都没什么机会战斗，再加上刚吃饱饭，最适合大闹一场了！",
+			say = "Thanks, but I don't need luck! I've got a belly full of food and I'm ready to do some damage!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			actor = 403090,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "出击咯~出——击——！",
+			say = "Time to go! Let's get 'em, Eisen!",
 			effects = {
 				{
 					active = true,

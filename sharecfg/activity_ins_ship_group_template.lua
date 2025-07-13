@@ -290,7 +290,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[30221] = {
 		ship_group = 30221,
-		name = "Nshiro",
+		name = "Noshiro",
 		background = "",
 		sculpture = "nengdai_idol",
 		nationality = 0,
@@ -338,7 +338,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[40135] = {
 		ship_group = 40135,
-		name = "funf♡3536",
+		name = "Fünf♡3536",
 		background = "",
 		sculpture = "z35_2",
 		nationality = 0,
@@ -346,7 +346,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[40136] = {
 		ship_group = 40136,
-		name = "Zech✛3536",
+		name = "Zechs✛3536",
 		background = "",
 		sculpture = "z36",
 		nationality = 0,
@@ -1202,7 +1202,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[30503] = {
 		ship_group = 30503,
-		name = "Isei",
+		name = "Ise",
 		background = "",
 		sculpture = "yishi",
 		nationality = 0,
@@ -1298,7 +1298,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[10226] = {
 		ship_group = 10226,
-		name = "HerosAides",
+		name = "HerosAide",
 		background = "",
 		sculpture = "linuo",
 		nationality = 0,
@@ -1834,7 +1834,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[70203] = {
 		ship_group = 70203,
-		name = "Chapaev",
+		name = "Chapayev",
 		background = "",
 		sculpture = "qiabayefu",
 		nationality = 7,
@@ -1962,7 +1962,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[70107] = {
 		ship_group = 70107,
-		name = "ремящий",
+		name = "Гремящий",
 		background = "",
 		sculpture = "leiming",
 		nationality = 0,
@@ -2794,7 +2794,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[20601] = {
 		ship_group = 20601,
-		name = "Hermes@Dual",
+		name = "Hermes@Duel",
 		background = "",
 		sculpture = "jingjishen",
 		nationality = 0,
@@ -4146,7 +4146,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[101] = {
 		ship_group = 101,
-		name = "白鹰阵营专用频道",
+		name = "Eagle Union Group Chat",
 		background = "101",
 		sculpture = "101",
 		nationality = 1,
@@ -4154,7 +4154,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[102] = {
 		ship_group = 102,
-		name = "北方联合阵营专用频道",
+		name = "Northern Parliament Group Chat",
 		background = "102",
 		sculpture = "102",
 		nationality = 7,
@@ -4162,7 +4162,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[103] = {
 		ship_group = 103,
-		name = "东煌阵营专用频道",
+		name = "Dragon Empery Group Chat",
 		background = "103",
 		sculpture = "103",
 		nationality = 5,
@@ -4170,7 +4170,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[104] = {
 		ship_group = 104,
-		name = "撒丁阵营专用频道",
+		name = "Sardegna Empire Group Chat",
 		background = "104",
 		sculpture = "104",
 		nationality = 6,
@@ -4178,7 +4178,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[105] = {
 		ship_group = 105,
-		name = "铁血阵营专用频道",
+		name = "Iron Blood Group Chat",
 		background = "105",
 		sculpture = "105",
 		nationality = 4,
@@ -4186,7 +4186,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[106] = {
 		ship_group = 106,
-		name = "鸢尾阵营专用频道",
+		name = "Iris Orthodoxy Group Chat",
 		background = "106",
 		sculpture = "106",
 		nationality = 8,
@@ -4194,7 +4194,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[107] = {
 		ship_group = 107,
-		name = "重樱阵营专用频道",
+		name = "Sakura Empire Group Chat",
 		background = "107",
 		sculpture = "107",
 		nationality = 3,
@@ -4202,7 +4202,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[108] = {
 		ship_group = 108,
-		name = "皇家阵营专用频道",
+		name = "Royal Navy Group Chat",
 		background = "108",
 		sculpture = "108",
 		nationality = 2,
@@ -4210,7 +4210,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[109] = {
 		ship_group = 109,
-		name = "飓风阵营专用频道",
+		name = "Tempesta Group Chat",
 		background = "109",
 		sculpture = "109",
 		nationality = 10,
@@ -4218,7 +4218,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[200] = {
 		ship_group = 200,
-		name = "公共频道",
+		name = "General Chat",
 		background = "200",
 		sculpture = "200",
 		nationality = 12,

@@ -7,7 +7,7 @@ return {
 		{
 			dir = 1,
 			side = 2,
-			say = "为了避免遭受陷阱区域伤害，舰队已返回起始点。",
+			say = "Our fleet retreated to the entry point to avoid stepping into a Siren trap.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "建议：规避陷阱区域，谨慎前行。",
+			say = "Siren traps are present in this zone. Proceed with caution.",
 			voice = "event:/tb/11/tb-11",
 			typewriter = {
 				speed = 0.05,

@@ -12,12 +12,12 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			tbActor = true,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgm = "story-richang-flexible",
 			actor = 1008,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{tb}，这道菜……好有趣。",
+			say = "{tb}, this dish looks interesting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "她指着电视里的一档名为《料理课堂之反面素材篇》的节目。",
+			say = "TB points at the TV. It's playing an episode of a show called \"Kitchen Blunders: Your Food is Cooked.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "节目正在展示一份看起来相当“能够启发人创新思维”的料理。",
+			say = "They're showing a dish that, to put it nicely, makes you wonder what was going through the chef's mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			tbActor = true,
 			actor = 1008,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想学……",
+			say = "I'd like to replicate this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "看着菜品的“鲜艳”颜色与“奇异”造型，我不禁擦了擦头上的冷汗。",
+			say = "The food's color is offputtingly vivid, and it's prepared in an alien way. I break into a cold sweat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，你不想。",
+			say = "Trust me, you don't want to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "最后用动画片转移了TB的注意力。",
+			say = "I change the channel and distract her with a cartoon episode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

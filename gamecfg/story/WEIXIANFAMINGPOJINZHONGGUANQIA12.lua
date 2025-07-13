@@ -10,11 +10,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"复制体活动海域·第三信号点",
+					"Doppelganger Activity Zone - Third Checkpoint",
 					1
 				},
 				{
-					"不久前——",
+					"Shortly before...",
 					2
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_2",
 			hidePaintObj = true,
-			say = "由菈菈，金色暗影、伊丽莎白女王以及贝尔法斯特组成的搜索舰队主力，正朝着第三个能量反应点前进着。",
+			say = "The main force of the exploration fleet – Lala, Golden Darkness, Queen Elizabeth, and Belfast – proceeded toward the third checkpoint.",
 			bgm = "story-richang-refreshing",
 			typewriter = {
 				speed = 0.05,
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "根据超级游戏制作机的探测，前面一定有一块能量石！",
+			say = "Questy MacGuffin's readings say the Energy Stone is dead ahead!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很好，我们加速拿回来~！",
+			say = "Very good. Let's hurry and retrieve it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_2",
 			hidePaintObj = true,
-			say = "女王的号令下，众人加快航速，破开水花朝着目标海域驶去。",
+			say = "Under Her Majesty's orders, the team sped along the waves toward their objective.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_2",
 			hidePaintObj = true,
-			say = "然而，随着距离接近，伊丽莎白女王突然眉头轻皱。",
+			say = "However, as they approached it, she was seized by a vague, yet powerful sense of anxiety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（不太对，为何本王会有这种心神不宁的感觉……）",
+			say = "(Something is wrong. My mind won't stop racing...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_2",
 			hidePaintObj = true,
-			say = "伊丽莎白女王略微减速，试图捕捉脑海中闪过的那一丝不安。",
+			say = "She slowed down slightly and probed for the source of that anxiety.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，您怎么了？",
+			say = "Your Majesty, is something wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我突然有种不好的预感。",
+			say = "I have a bad feeling about this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……你也是么。",
+			say = "...You do, too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……贝法，你能联系到其他舰队么？",
+			say = "Bel. Can you reach the other teams?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,11 +173,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "bg_tolove_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滋……滋……",
+			say = "BZZT... BZZT...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "陛下，我们似乎被孤立了。",
+			say = "Our communications are jammed. Your Majesty, we appear to be isolated.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然……本王就知道事情没那么简单。",
+			say = "I knew it... Nothing can ever be that easy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "怎么了怎么了？发生什么事了吗？",
+			say = "What? What happened?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "有娜娜和梦梦在的话，她们应该不会受伤的！",
+			say = "Don't worry! As long as Nana and Momo are there, your people won't get hurt!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，菈菈小姐，她们不是敌人的目标。",
+			say = "No, Miss Lala, the enemy isn't after them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很明显，敌人真正的目标是你，或是你手中的超级游戏制作机。",
+			say = "It's after you – or perhaps the Questy MacGuffin you bear.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，做好战斗准备！",
+			say = "Everyone, prepare for combat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "……",
+			say = "...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_2",
 			hidePaintObj = true,
-			say = "金色暗影没有说话，而是与众人一同操作检查着舰装的状态，同时目光冰冷地注视着前方。",
+			say = "Without a word, Golden Darkness checked her rigging status and gazed ahead with cold eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_2",
 			hidePaintObj = true,
-			say = "而她所注视的前方与四周，象征着敌人的红色光点正不断涌现。",
+			say = "Her line of sight was directed firmly toward red spots of light – hostiles in the distance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

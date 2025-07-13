@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"抚顺的大冒险\n\n<size=45>四　然后，世界恢复了和平</size>",
+					"Fu Shun's Great Adventure\n\n<size=45>Chapter 4 - Then the World was at Peace...</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "那里那里！快攻击！",
+			say = "Get that guy! Attack him!",
 			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我知道！看我的！超必杀！",
+			say = "I know! Here, have a taste of THIIIIIS!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -61,11 +61,11 @@ return {
 			actor = 501020,
 			actorShadow = true,
 			bgName = "bg_story_school",
-			actorName = "抚顺&长春",
+			actorName = "Fu Shun & Chang Chun",
 			side = 0,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "哦哦哦…",
+			say = "Whoooa!",
 			subActors = {
 				{
 					actor = 501030,
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嘿嘿~勇者抚顺，又一次成功地拯救了世界~",
+			say = "Woohoo! The world has been saved!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "虽然机器和画面看上去都很古老…但意外的有趣呢……",
+			say = "The graphics and the controls are as retro as you'd expect... but it's surprisingly fun to play...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，这里还可以看到排行榜一样的东西欸",
+			say = "Hey, what's this? A scoreboard?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "不过…好像除了抚顺以外只有一个名字呢…",
+			say = "Huh? There's another name there besides yours...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "我看看…R…E…K…O…R——",
+			say = "I think it says... A-n-s-h-a...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "难、难道…",
+			say = "D-do you think that's...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "抚~~~顺！！你又捣乱了对不对！",
+			say = "There you are, Fu Shun! You've been going around causing trouble again, haven't you?!",
 			shake = {
 				speed = 1,
 				number = 2
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "唔哇啊啊啊啊啊，是鞍山姐姐！！",
+			say = "Oh crap! An Shan?!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "把旧仓库的锁弄坏了！还把里面翻得乱七八糟的！",
+			say = "Not only did you break the padlock to the warehouse, you even made a big mess inside!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜——",
+			say = "Yikes, let's get outta-",
 			shake = {
 				speed = 8,
 				number = 3,
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "长春你也别想跑！肯定是你煽动抚顺的吧！",
+			say = "You're not going anywhere! And you, Chang Chun! You coaxed her into doing it, didn't you?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "呜——",
+			say = "*Gulp*...",
 			shake = {
 				speed = 8,
 				number = 3,
@@ -301,7 +301,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "都给我站好了！今天一定——",
+			say = "Stay right where you are! You're going to get a severe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯？这、这个难道是！？",
+			say = "...Hm? Wait, i-isn't this that old...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个是我在旧仓库发现的哦~本来都坏掉了呢，多亏了{namecode:98}才修好的~",
+			say = "We found it in the warehouse. It was broken, but Akashi fixed it for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "竟然修好了啊…",
+			say = "S-she fixed it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = -1,
-			say = "刚才看到的名字…难道说……",
+			say = "That other name we saw on the scoreboard... wasn't that...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "咳、咳咳！总之！今天一定要好好说说你们！",
+			say = "BE QUIET! As I was saying: you're both going to get a severe scolding today!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "呜…生气的鞍山姐比游戏里的魔王还要难对付呢…",
+			say = "Eeek... An Shan's scarier than the final boss when she gets mad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "你说什么！？",
+			say = "What was that?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "没、什么都没说！",
+			say = "N-nothing! I didn't say anything!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个东西！没收！",
+			say = "Also, I'll be seizing this console!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,11 +459,11 @@ return {
 			actor = 501020,
 			actorShadow = true,
 			bgName = "bg_story_school",
-			actorName = "抚顺&长春",
+			actorName = "Fu Shun & Chang Chun",
 			side = 0,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "呜——",
+			say = "Whaaaat?!",
 			subActors = {
 				{
 					actor = 501030,
@@ -487,7 +487,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真是让人怀念的东西啊…没想到竟然还能找出来…",
+			say = "Ahh, so nostalgic... I'm amazed someone was able to find it...",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -520,7 +520,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "而且竟然还留着当时的记录…哈哈…",
+			say = "It even has my save data from back then... Hehehehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "那个果然是鞍山姐姐的东西呢",
+			say = "I knew it, that console was yours all along.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -556,7 +556,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哇啊！！长、长春？",
+			say = "Waahh! Chang Chun?!",
 			shake = {
 				speed = 5,
 				x = 2,
@@ -577,7 +577,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "哎呀，没想到鞍山姐姐也有爱玩的一面呢",
+			say = "Well what do you know~ An Shan is a gamer~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "抚顺也在？！",
+			say = "You too?! How long have you been here?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "鞍山姐姐…真可爱…",
+			say = "Aww, look at An Shan... She's adorable...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "连太原都？！呜…这个不是、我……",
+			say = "ALL of you are here?! Uhh... Look, um, it's not what you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "哎呀~谁都有年轻的时候嘛，鞍山姐姐",
+			say = "Hey, it's fine, we were all kids once! Usually, people grow out of their old toys though, right, An Shan?♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "嘻嘻，不要自己偷偷玩，大家一起玩游戏才好玩嘛，鞍山姐姐~",
+			say = "Heheheh~ Wouldn't it be more fun if we all play it together?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "真、真拿你们没办法…那就——",
+			say = "W-well, it can't be helped now... I guess we could...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "于是，世界恢复了和平，可喜可贺可喜可贺——",
+			say = "And so, the world was at peace again! And everyone lived happily ever after!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "别擅自做这种奇怪的总结啦！",
+			say = "Hey! Don't try to wrap the story up like that!",
 			shake = {
 				speed = 8,
 				number = 3
@@ -722,12 +722,12 @@ return {
 		{
 			actor = 501040,
 			actorShadow = true,
-			actorName = "太原&长春&抚顺",
+			actorName = "Tai Yuan & Fu Shun & Chang Chun",
 			side = 0,
 			hideOther = true,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "哈哈哈……",
+			say = "Hahahahaha...",
 			subActors = {
 				{
 					actor = 501020,

@@ -5,7 +5,7 @@ return {
 	once = true,
 	scripts = {
 		{
-			say = "在街上见到了紫色的精灵，但立刻就消失了，找到了奖励【强化部件T3*20】"
+			say = "You got a surprise visit from the Prototype Bulin MKII! Collect 20 T3 Parts!"
 		}
 	}
 }

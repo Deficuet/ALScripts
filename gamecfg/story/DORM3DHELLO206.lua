@@ -15,7 +15,7 @@ return {
 			actorName = 30221,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯……感觉最近{dorm3d}做事越来越有条理了呢，也许……会是我帮上忙了吗？如果有什么工作方面的事需要帮忙，也可以不用客气地告诉我哦。",
+			say = "Hmm... I noticed you've been getting more organized lately. I hope that's because I've been of help in some way. If you also need assistance with anything work-related, please don't hesitate to let me know.",
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello6",
 			typewriter = {
 				speed = 0.05,

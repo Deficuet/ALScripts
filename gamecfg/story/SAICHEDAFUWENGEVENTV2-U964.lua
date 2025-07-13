@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_3",
-			actorName = "{namecode:473}",
+			actorName = "U96",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "向着终点油门全开 —— 获胜了要回去开香槟哦！"
+			say = "Pedal to the metal and aim for the finish line! I'll treat ya to some champagne if ya win."
 		}
 	}
 }

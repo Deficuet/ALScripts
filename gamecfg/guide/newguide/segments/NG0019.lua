@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"点击这里可以对一键退役的条件进行设置",
-	"上方选择优先级可以对稀有度优先级进行设置",
-	"下方可以对拥有或未拥有满星舰船时的选择条件进行设置",
-	"点击帮助按钮可以查看详细退役条件"
+	"Tap here to change Quick Retire settings.",
+	"In the top part, select which ship rarities you would like to prioritize.",
+	"In the bottom part, select what you would like to do for duplicate copies of ships you already own.",
+	"Tap on the Help button to view detailed Quick Retire conditions"
 }
 
 return {

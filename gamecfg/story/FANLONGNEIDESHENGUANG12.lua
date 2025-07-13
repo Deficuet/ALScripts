@@ -11,11 +11,11 @@ return {
 			say = "？？？·？？？",
 			sequence = {
 				{
-					"？？？·？？？",
+					"Unknown location",
 					1
 				},
 				{
-					"？？？？",
+					"Unknown time",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "再次从门中返回后，我与远方空间中的那个纯白的轮廓更近了一步。",
+			say = "When I return from the recorded memory beyond the door, the distant silhouette seems a little closer.",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（ProjectM……M女士……仲裁者·麦纪莎·I）",
+			say = "(Project M, Madam M. The Magician.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（那个形象与声音……虽然语气听上去僵硬了许多，但毫无疑问就是她。）",
+			say = "(That figure and that voice... She spoke more robotically, but that was definitely her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（编号为I，但是诞生却比编号为V的海洛芬特要晚……）",
+			say = "(Her number is I, but she seems to have been born after Hierophant, which is V...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（奥斯塔那家伙还真是靠灵感来做的仲裁机关么……）",
+			say = "(Did Dr. Aoste really build the Arbiters based on pure whim?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……所以，你当年到底给安蒂克丝系统下达了什么命令，才会让它们变成如今这样……）",
+			say = "(What kind of orders to the Antiochus system led to the Sirens of today?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "——审判者计划，一个由奥斯塔……或许再加上安洁，甚至还包括我和众多我还没能回忆起来的老朋友在内都知晓并为之准备的计划。",
+			say = "\"The Magister Plan.\" The crux of Aoste's work. A project that involved me, and perhaps even Dr. Anzeel, along with old friends who I can no longer remember.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "关于这项计划，观察者告诉我，这是一个为了未来而寻求变化的庞大计划，并且拿出来了众多它所负责执行的实验记录。",
+			say = "Observer called it a grand plan to create change for the future, and provided me with extensive records of experiments she had been involved in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "伊丽莎白女王·META发来了 “物竞天择，适者生存”八个大字作为其个人总结。",
+			say = "Queen Elizabeth META simply described it as, \"survival of the fittest.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "海伦娜·META则只是让我相信安洁的选择，除此之外就不愿意多说了。",
+			say = "And, as cryptically as ever, Helena META had only told me to trust in Dr. Anzeel's decision. Nothing else.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……还真是复杂。",
+			say = "...It's all too complex.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "心生感慨之际，道路前方又出现了一扇门。",
+			say = "While I rack my brain over it, another door appears on the path forward.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
-			say = "伸手触碰门扉之后，眼前的世界随即改变——",
+			say = "I reach out to touch it, and everything changes abruptly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "阴云之下，海面正在燃烧。",
+			say = "The sea burns beneath dark clouds.",
 			bgm = "battle-executor-type1",
 			flashout = {
 				black = true,
@@ -249,7 +249,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……威奇塔，外层镜面海域被打破了。",
+			say = "Wichita, the outer Mirror Sea has been pierced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "此处沦陷只是时间问题，我们守不住了。",
+			say = "It's only a matter of time before this place falls. We can't protect it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "为了进攻我们这个小小的支援据点，居然出动了迪贝路和海洛芬特两套系统……",
+			say = "I can't believe they dispatched Devil and Hierophant just for one little support outpost...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不好，我们的计划被察觉了，大部队有危险！",
+			say = "They must have figured out our plan! The main force is in danger!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……留在这里已经没有意义了，无需硬碰硬，我们快撤。",
+			say = "There's no point staying here... Fighting 'em head-on would be reckless. Let's retreat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			oldPhoto = true,
-			say = "就是可惜了这处据点了……塞壬完成终盘清算的实验场世界，原本应该是其最大的盲区才对。",
+			say = "I hate to outright abandon this base... Here I thought the Sirens would never think of checking a world that's been wiped clean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "不要再抵抗了，就此束手就擒如何？",
+			say = "That's enough resistance. Why not surrender now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "小鬼，是谁给你的底气这么跟我说话的，你身后的海洛芬特么？",
+			say = "You've got a big mouth, kid! Who's really talking, though? Is it your puppeteer, Hierophant?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "呵，我反正按流程劝降过了。既然你们没这个打算，那就——",
+			say = "Hah! Well, I gave you the option to surrender. Now that you've refused–",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			shakeTime = 2,
-			say = "轰隆隆——",
+			say = "BOOM BOOM BOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			side = 2,
-			say = "不远处的半空中，突然传来了一连串如同炸雷般的巨响。",
+			say = "A series of thunderous booms erupted in the skies above.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			side = 2,
-			say = "而后在仿佛空间瓦解的冲击中，一个身影一闪而过。",
+			say = "Space itself seemed to collapse for an instant, heralding the appearance of one girl.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 900406,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这里……是……？",
+			say = "Where... am I?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "埃、埃塞克斯……？！",
+			say = "Essex?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不，不可能是我们的埃塞克斯……她早就已经不在了。",
+			say = "No, that can't be. Our Essex left us so long ago...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			oldPhoto = true,
-			say = "本处实验场残留下来的……还是从其他实验场冲出来的？！",
+			say = "Are you a remnant of this test site, or did you wander in from another one somehow?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……威奇塔，还有些更糟糕的东西随她一起冒出来了。",
+			say = "Wichita, I think something much more problematic came in alongside her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "远方，风暴正在凝聚。",
+			say = "In the distance, a great storm brewed.",
 			bgm = "theme-objectx-spread",
 			typewriter = {
 				speed = 0.05,
@@ -521,7 +521,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "风暴之下，散发着幽蓝色光芒的流体物质漂浮在海中，如同水面上的浮萍。",
+			say = "Beneath the storm, a fluid emitting an uncanny blue light coated the sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "浮萍之中，更多无法辨认的独立个体爬动着、喧嚣着。",
+			say = "Countless things seemed to stagger, squirm, and crowd upon it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……居然是拟态兽？！！",
+			say = "Mimic beasts?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -798,7 +798,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "啧……作战目标改变，准备迎击拟态兽。",
+			say = "Tch... Change of plans. I have to fight those mimic beasts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……哦？看来X的威胁等级比我们高得多啊，趁机快撤！",
+			say = "Hm? Does the X threaten her more than we do? Let's take this opportunity to retreat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -833,7 +833,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你说，要不要把她带上？",
+			say = "Should we take her with us?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "唔……看上去是挺能打的。",
+			say = "Hmm... Yeah. She might be useful in a fight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果她愿意跟我们走的话，就带上吧！",
+			say = "If she's willing to come, then let's take her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,7 +893,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "呵，有人运气好，有人运气就不好。",
+			say = "Hmph. You win some, you lose some.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +924,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "拟态兽居然撞到我们头上来了啊……",
+			say = "Mimic beasts coming straight for us... I'd call that a loss.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "海洛芬特，还是老样子，我来为你增幅「裁决之杖」。",
+			say = "Hierophant, same plan as usual. I'll amplify the Rod of Hierophant for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,7 +952,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "我们尽快完成中和，不要给污染扩散的机会！",
+			say = "Neutralize it as soon as possible and stop the corrosion!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "光芒涌现，久未消散。",
+			say = "The light flows ceaselessly.",
 			bgm = "theme-underheaven",
 			flashout = {
 				black = false,
@@ -992,7 +992,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "我依然在门中的世界，然而门内的景色已然与门外无异。",
+			say = "I'm still on the inside of the door, but I realize that the inside and outside are no different now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,7 +1003,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "齐颂之音在纯白的世界中响起，在我的耳边回荡。",
+			say = "Chanting echoes throughout the pure-white world and pierces my ears.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1014,7 +1014,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "不知为何，这些陌生又怪异的音节，此时是如此柔和。",
+			say = "For some reason, the strange, grating chorus sounds oddly soft now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1022,11 +1022,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ÓÚĘÇŁŹ˝ĚťĘĘšÓĂÁËËüľÄČ¨ŐČşŁłąĆ˝Ď˘ÁËľkŇŕÉîĎÝşŁłąÖŽÖĐ",
+			say = "AOBZ, AOL OPLYVWOHUA BZLK PAZ ZJLWALY",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……「于是，教皇使用了它的权杖」",
+			say = "\"Thus, the Hierophant used its scepter.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1047,11 +1047,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "şŁłąĆ˝Ď˘ÁËľkŇŕÉîĎÝşŁłąÖŽÖĐ",
+			say = "AOL APKL ZBIZPKLK",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,7 +1064,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……「海潮平息了」",
+			say = "\"The tide subsided...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1072,11 +1072,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "齐颂之音",
+			actorName = "The Chorus",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "ľkŇŕÉîĎÝşŁłąÖŽÖĐ",
+			say = "HUK KVDU PA ZBUR PUAV AOL KLWAOZ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1089,7 +1089,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……「祂亦深陷海潮之中」",
+			say = "\"...And down it sunk into the depths.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,19 +11,19 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>特殊指令验证</size>",
+					"<size=51>Special exercise battle mode unlocked.</size>",
 					1
 				},
 				{
-					"<size=51>----验证通过/专家模式启用</size>",
+					"<size=51>Authentication complete. Expert difficulty has been unlocked.</size>",
 					2.5
 				},
 				{
-					"<size=51>----战斗限制解除/<火力全开></size>",
+					"<size=51>Combat inhibitors removed. Weapons will fire at maximum output.</size>",
 					4
 				},
 				{
-					"<size=51>----请做好战斗准备</size> ",
+					"<size=51>Special high-explosive torpedo bomber squadrons are ready for takeoff. Let's do this!</size> ",
 					5.5
 				}
 			}

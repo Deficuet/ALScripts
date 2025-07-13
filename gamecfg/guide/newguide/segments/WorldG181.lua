@@ -7,7 +7,7 @@ return {
 				"clickBtn"
 			},
 			style = {
-				text = "点击打开储物仓。",
+				text = "First off: head to the Depot!",
 				mode = 2,
 				posY = -229.8,
 				char = "1",
@@ -35,7 +35,7 @@ return {
 				"openBox"
 			},
 			style = {
-				text = "点击战役信息记录仪。",
+				text = "Now tap the Operation Siren Data Logger!",
 				mode = 2,
 				posY = -229.8,
 				char = "1",
@@ -63,7 +63,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击使用。",
+				text = "Tap here to unlock the zone!",
 				mode = 2,
 				posY = -229.8,
 				char = "1",

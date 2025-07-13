@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "第一次考核开启！",
+				text = "Your first growth assessment has started.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "娜比娅将根据自身的属性数值对课程怪物发起挑战，数值越高攻击越奏效",
+				text = "Navi will take on an activity monster based on her parameters. The higher her parameters, the more effective her attacks are.",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -31,7 +31,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "而最终击杀的速度越快，娜比娅所获得的考核评价也就越高",
+				text = "The faster she defeats the monster, the better her assessment will be.",
 				mode = 2,
 				dir = 1,
 				char = 1,

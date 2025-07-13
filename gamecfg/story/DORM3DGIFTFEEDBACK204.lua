@@ -13,7 +13,7 @@ return {
 		{
 			actorName = 30221,
 			nameColor = "#FFFFFF",
-			say = "啊！没想到{dorm3d}居然会送我这个……！",
+			say = "Oh! This is one gift I certainly wasn't expecting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			actorName = 30221,
 			nameColor = "#FFFFFF",
-			say = "嗯~既然是{dorm3d}送我的鞋子，之后我就要更用心保养才行呢。",
+			say = "I'll look after these shoes with great care. They're a present from you, after all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

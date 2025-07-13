@@ -7,7 +7,7 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "远方，{namecode:91}一行人正静静观察着公海舰队与塞壬战斗的身影。",
+			say = "A group of shipgirls watched from afar as the reborn warships practiced with their riggings.",
 			side = 2,
 			bgName = "bg_endingsong_5",
 			dir = 1,
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "现在公海舰队已经击破了塞壬外围侦察队，正维持着有利阵型消耗着塞壬舰队主力。",
+			say = "Looks like they've gotten the hang of it. Taking out the small fry Sirens around here should be a breeze for them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "相信战斗很快就能结束了！",
+			say = "Once that's done, I reckon we can start surveying the area beyond the anchorage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（加油……加油……！加油啊，各位前辈们！）",
+			say = "Then there's only one thing left to do – find out what that Siren superweapon was.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "不错，现在的进展速度终于差不多能赶上一支驱逐侦察小队的效率了。",
+			say = "(Friedrich has done it again...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "II型塞壬也没那么难对付吧？",
+			say = "(The power balance between the four big factions is at risk of collapsing entirely if the Iron Blood's forces keep growing at this rate.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "前辈，这似乎有点太严格了……",
+			say = "...Akagi?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "她们才刚刚用这副身体战斗，就第一次来说已经打得很不错了哦！",
+			say = "Is there something on your mind?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "是么？",
+			say = "No, nothing in particular.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "那来回忆一下，你的第一次战斗是怎么样的？",
+			say = "Say, Zuikaku, have we ever needed to learn the very basics of our riggings?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "欸……前辈也知道我当时的成绩……而且航空母舰和战列舰区别还是很大的！",
+			say = "Now that you mention it... No. We do study the specifics of new planes and gear and the like, but that's different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "但确实没有这样的习惯过程，不是么？",
+			say = "I long thought it impossible to directly compare Sakura Empire and Iron Blood riggings due to their design differences. It seems I was wrong.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "唔…………我那时候好像自然而然就明白了熟练战斗的技巧和知识……",
+			say = "Wrong? How so? Is there something unusual about theirs?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "也许她们都是很老的船了，所以会更吃力一些？",
+			say = "They look in line with all other Iron Blood riggings I've seen before...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "如果是这样的话，那只能让我更加怀疑。",
+			say = "Think about it. Mikasa predates even those girls, but she never had to learn how to use her rigging.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:441}，这支舰队真的没问题么？",
+			say = "This is only speculation, but I see this as a strong indication that those girls were never meant to equip these riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没有问题。",
+			say = "Heheh. How perceptive you are.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "作为心智魔方的造物，讨论船体本身的古老与否是没有意义的。",
+			say = "The notion that the Cube creates rigging based on a particular ship's hull is not entirely true. While this does occur in many instances, it is a guideline rather than a hard rule.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "至于战斗经验。我们在做过去从未有人做过的事，自然经验也无法凭空产生。",
+			say = "We learned this through our research. All I've done here is put it to good use.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 499020,
-			say = "我们的行为，正实实在在开辟着新的历史哦。",
+			say = "Let me remind you, Akagi, that our rondo is still underway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "稍安勿躁，静静地看，老朋友是不会让我们失望的。",
+			say = "Please be patient and see it to its conclusion. I assure you, you will not be disappointed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……你说是，那便是，不争论。反正这次我不过是被邀请来的观众而已。",
+			say = "...Very well. I will do as you say and wait for the finale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "（更重要的是时间，现在还有时间能在这里浪费么？）",
+			say = "(That's assuming Azur Lane doesn't show up and end her performance prematurely, anyway.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "（如果这个时候外部攻下斯卡帕湾，等我们出去就又是另一番光景了吧……）",
+			say = "(The clock is ticking on the Singularity. Friedrich is wasting time on these frivolities...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "嗯………………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………？{namecode:91}，你这么盯着本王干嘛？",
+			say = "Why are you staring at me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "现在应该关注的是前方的战斗，而不是观察战斗的本王吧？",
+			say = "You and I are both spectators here. I cannot speculate on what Friedrich's grand plan is.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 307010,
-			say = "（呵呵……说的也是，只要她还在我们的手上，碧蓝航线就不可能轻举妄动。）",
+			say = "(Then there's Elizabeth... It'd be naive to think she's granting us access to Scapa Flow just out of the kindness of her heart.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "（有如此底牌在，我也稍安勿躁的看看吧。）",
+			say = "(There must be something of greater importance to this place than what we've seen so far.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "（以这样的方式获得“新生”的公海舰队，究竟能走到哪一步呢……）",
+			say = "(I can only hope the Commander knows what that is... But if not...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			actor = 107070,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "明明帝国也有舰载机，居然到现在还没有汇合……",
+			say = "Impero's supposed to have her own planes, but we haven't been able to get in contact yet...",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "寻找撒丁的同伴的过程比想象中要困难啊。",
+			say = "Maybe finding their fleet isn't going to be as easy as we first expected.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "我们来的时候也不知道她们的准确方位，也许是正好错开了？",
+			say = "We didn't have their exact coordinates when we showed up. We could've passed right by each other for all we know.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "中心区域的塔一直在释放着强烈干扰，那里肯定有什么特别不妙的东西。",
+			say = "That tower in the middle seems to be messing with our communications too... Maybe they're over there investigating the situation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "向中心移动吧。撒丁舰队也知道破坏镜面海域的方法，目标一致肯定能碰上的。",
+			say = "Sounds like a plan. If Impero's fleet is trying to disrupt the Mirror Sea, that's going to be the first place they look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "记得一路上多弄出一些动静来，这样更容易吸引到舰载机的注意。",
+			say = "In the meantime, let's make as much noise as we can to get the attention of their planes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "比如姐姐可以发出那种被萤火虫头槌击中的声音？",
+			say = "For example, that earsplitting sound my sister made when she got headbutted by Glowworm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "萤火虫根本就不在这里吧？",
+			say = "Glowworm isn't even here right now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "不对，谁会发出那种声音啊！",
+			say = "Wait, back up! That never even happened! I did NOT make any such sound!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "向着中心前进的话，敌人应该有很多……我觉得光是战斗的声音就足够吸引人了。",
+			say = "The deeper in we go, the more enemies are likely to appear. The sound of combat should be all we need, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "没错！{namecode:96}说的多有道理！",
+			say = "Exactly! At least someone here is using her brain!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "啊~这里有个老实人——",
+			say = "I'm glad we have one reliable person here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:428}！！！",
+			say = "EUGEN!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#a9f548",
 			actor = 107070,
-			say = "该说这姐妹俩是关系好呢还是不好呢......",
+			say = "Those two sure get along well...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "这大概就是不同的姐妹间的不同相处方式吧……",
+			say = "Good enough. Not like you get to pick your family anyway.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "……嗯？在前往中心区域的航路上发现了更多塞壬舰队！",
+			say = "...Hm? Looks like we've discovered Sirens blocking our way to the tower!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "看来愉快的闲聊时间要告一段落了呢，加油哦姐姐！",
+			say = "Looks like our fun time has to be put on hold. Time to get serious, sis!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "只有你在单方面感到愉快吧！！",
+			say = "You're the only one here having fun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "还有！这次你给我冲在最前面！",
+			say = "So stop messing around and help us reach the tower first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
-			say = "从刚刚开始就在一直摸鱼偷懒！接下来给我认真一点！",
+			say = "You've been making fun of me this entire time, so I'll have you do your job properly!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

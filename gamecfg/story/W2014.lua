@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "分析模块同步中：指挥官，前方发现了一处特殊塞壬资源点。资源点周边的塞壬装置因为能源枯竭已经停止运行，正在分析周边海况——————",
+			say = "Scan complete. A Siren resource node has been located. Unfortunately, you do not have an energy source.Scanning energy level of nearby Siren construct...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 900284,
 			dir = 1,
-			say = "结果确认中：周边区域中存在的塞壬能源模块已经记录入G.M系统中，建议进行收集。",
+			say = "Displaying position of Energy Matrixes on navigation system interface..",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "{namecode:464}阁下，一支执行者IV型舰队从侧面过来了。",
+			say = "There are so many humanoid Sirens! I just can't stand these things!",
 			bgm = "battle-midgard-hunting",
 			typewriter = {
 				speed = 0.05,
@@ -30,7 +30,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
-			say = "数量不多，不难应对。",
+			say = "There aren't that many. It shouldn't be too hard to deal with them.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:434}带着{namecode:433}与我继续前进，其余人交替掩护断后。",
+			say = "Gneisenau, Scharnhorst, let's hurry.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,10 +59,10 @@ return {
 		{
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "铁血众人",
+			actorName = "Everyone",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是！",
+			say = "Yeah!",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,

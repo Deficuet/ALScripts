@@ -12,7 +12,7 @@ return {
 			bgName = "bg_yujin_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
-			say = "指挥官~大型作战一别后好久不见！",
+			say = "Commander! Haven't seen you since the NA counterattack operation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
-			say = "皇家海军驱逐舰格伦维尔，带领游击舰队前来支援！",
+			say = "Royal Navy destroyer Grenville, head of the search-and-destroy fleet, reporting in!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "很好，战斗损害还没有扩大，看来我们来得正是时候呢。",
+			say = "The battle hasn't yet resulted in significant casualties. It seems we've arrived at the perfect time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官同志，我们已经完成了善后工作，现在与皇家舰队一同前来增援！",
+			say = "We're done mopping up the stragglers. I'll join up with you and the Royal Navy soon, Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_yujin_3",
 			side = 2,
 			actor = 702080,
-			say = "哎哟，那些大家伙我还是第一次见呢！",
+			say = "Whoa-ho! Those must be the biggest foes I've ever seen!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_yujin_3",
 			side = 2,
 			actor = 702080,
-			say = "嘿嘿嘿……好想拆开残骸分析一下！",
+			say = "Heheh... I'd love to pick their wreckages apart!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201360,
-			say = "那我们还等什么呢？冲冲冲——！",
+			say = "What're we waiting for? Get 'em! Chaaarge!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

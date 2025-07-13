@@ -16,7 +16,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之兽*/",
+			say = "P HT AOL ZAHY ILHZA",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ŇýĐÇśřŔ´/*引星而来*/",
+			say = "NBPKPUN AOL ZAHYZ KV P HWWLHY",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ĐŻĐÇśřČĽ/*携星而去*/",
+			say = "ILHYPUN AOL ZAHYZ KV P SLHCL",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ĚěľŘÎŰ×Ç/*天地污浊*/",
+			say = "AOL DVYSK OHZ ILLU ZBSSPLK",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ËéśřşóÉú/*碎而后生*/",
+			say = "IBYU PA KVDU P ZOHSS HUK PA DPSS IL YLIVYU",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "天地万物仿佛在白色的光芒中徐徐瓦解。",
+			say = "Absolutely everything crumbles to dust in the dazzling light.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "刷刷——",
+			say = "SHUFFLE...",
 			soundeffect = "event:/ui/xipai",
 			typewriter = {
 				speed = 0.05,
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "耳边，似乎传来了洗牌的声音——",
+			say = "Then, I hear the sound of cards shuffling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

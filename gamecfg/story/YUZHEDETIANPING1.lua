@@ -12,39 +12,39 @@ return {
 			bgm = "story-expo-lastday",
 			sequence = {
 				{
-					"「于是，战争结束了。」",
+					"\"And so, the war ended.\"",
 					1
 				},
 				{
-					"「和平回到了这片饱经战火的土地。」",
+					"\"Peace returned once again to this war-torn land.\"",
 					2
 				},
 				{
-					"「所有人都过上了幸福的生活。」",
+					"\"And everyone lived happily ever after.\"",
 					3
 				},
 				{
-					"「就像每个团圆剧都应该有的结局一样。」",
+					"\"It's a satisfying ending, isn't it? Just like every drama should have.\"",
 					4
 				},
 				{
-					"「可喜可贺。」",
+					"\"Congratulations, Commander.\"",
 					5
 				},
 				{
-					"「可贺可喜。」",
+					"\"Hip hip hooray.\"",
 					6
 				},
 				{
-					"「指挥官。」",
+					"\"Now, go and join the celebration.\"",
 					7
 				},
 				{
-					"「享受此时。」",
+					"\"Enjoy this moment of peace.\"",
 					8
 				},
 				{
-					"「然后，尽情欢庆吧。」",
+					"\"Yes, enjoy it... while it lasts.\"",
 					9
 				}
 			}

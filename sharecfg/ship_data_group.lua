@@ -1475,6 +1475,9 @@ pg.ship_data_group = setmetatable({
 		[40807] = {
 			400
 		},
+		[40814] = {
+			695
+		},
 		[40804] = {
 			386
 		},
@@ -1483,9 +1486,6 @@ pg.ship_data_group = setmetatable({
 		},
 		[40812] = {
 			528
-		},
-		[40814] = {
-			695
 		},
 		[50101] = {
 			253
@@ -2887,10 +2887,10 @@ pg.ship_data_group = setmetatable({
 			416,
 			492,
 			400,
+			695,
 			386,
 			344,
 			528,
-			695,
 			253,
 			254,
 			255,
@@ -3693,10 +3693,10 @@ pg.ship_data_group = setmetatable({
 		416,
 		492,
 		400,
+		695,
 		386,
 		344,
 		528,
-		695,
 		253,
 		254,
 		255,
@@ -25630,7 +25630,7 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
-	[386] = {
+	[695] = {
 		type = 8,
 		redirect_id = 101,
 		hide = 0,
@@ -25638,6 +25638,38 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		handbook_type = 0,
 		index_id = 494,
+		code = 695,
+		group_type = 40814,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：迷彩都市的寻踪者",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[386] = {
+		type = 8,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 4,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 495,
 		code = 386,
 		group_type = 40804,
 		trans_type = 0,
@@ -25689,7 +25721,7 @@ pg.base.ship_data_group = {
 		nationality = 4,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 495,
+		index_id = 496,
 		code = 344,
 		group_type = 40803,
 		trans_type = 0,
@@ -25741,7 +25773,7 @@ pg.base.ship_data_group = {
 		nationality = 4,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 496,
+		index_id = 497,
 		code = 528,
 		group_type = 40812,
 		trans_type = 0,
@@ -25771,38 +25803,6 @@ pg.base.ship_data_group = {
 					{
 						warp = "supplies"
 					}
-				},
-				0
-			}
-		}
-	},
-	[695] = {
-		type = 8,
-		redirect_id = 101,
-		hide = 0,
-		nationality = 4,
-		trans_skin = 0,
-		handbook_type = 0,
-		index_id = 497,
-		code = 695,
-		group_type = 40814,
-		trans_type = 0,
-		share_group_id = {},
-		property_hexagon = {
-			"D",
-			"S",
-			"E",
-			"D",
-			"E",
-			"D"
-		},
-		trans_radar_chart = {},
-		trans_skill = {},
-		description = {
-			{
-				"限时活动：迷彩都市的寻踪者",
-				{
-					""
 				},
 				0
 			}

@@ -24,7 +24,12 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			local var_2_0 = {}
 
 			for iter_2_0, iter_2_1 in ipairs(arg_2_0.reward_list) do
-				var_2_0[iter_2_0] = PlayerConst.addTranDrop(iter_2_1.drop_list)
+				table.insertto(var_2_0, PlayerConst.addTranDrop(iter_2_1.drop_list))
+				table.insertto(var_2_0, underscore.map(PlayerConst.addTranDrop(iter_2_1.extra_drop_list or {}), function(arg_3_0)
+					arg_3_0.riraty = true
+
+					return arg_3_0
+				end))
 			end
 
 			var_1_4.data[var_1_1] = (var_1_4.data[var_1_1] or 0) + var_1_3

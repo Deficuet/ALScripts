@@ -159246,6 +159246,135 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21785] = {
+		name = "20250717『嘉年华』系列返场 登陆奖励1",
+		guild_coin_award = 0,
+		award = 905247,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21785,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21786] = {
+		name = "20250717『嘉年华』系列返场 登陆奖励2",
+		guild_coin_award = 0,
+		award = 905248,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21786,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21787] = {
+		name = "20250717『嘉年华』系列返场 登陆奖励3",
+		guild_coin_award = 0,
+		award = 905249,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21787,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -178692,6 +178821,612 @@ end)()
 				1,
 				516,
 				150
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23896] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务1",
+		guild_coin_award = 0,
+		award = 906497,
+		type = 26,
+		desc = "舰队出征，以S评价通关10次",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23896,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23897] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务2",
+		guild_coin_award = 0,
+		award = 906498,
+		type = 26,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23897,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23898] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务3",
+		guild_coin_award = 0,
+		award = 906499,
+		type = 26,
+		desc = "进行2次演习",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23898,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23899] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务4",
+		guild_coin_award = 0,
+		award = 906500,
+		type = 26,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23899,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23900] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务5",
+		guild_coin_award = 0,
+		award = 906501,
+		type = 26,
+		desc = "舰船退役2次",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23900,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23901] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务6",
+		guild_coin_award = 0,
+		award = 906502,
+		type = 26,
+		desc = "完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23901,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23902] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务7",
+		guild_coin_award = 0,
+		award = 906503,
+		type = 26,
+		desc = "舰船强化5次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23902,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23903] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务8",
+		guild_coin_award = 0,
+		award = 906504,
+		type = 26,
+		desc = "进行战术训练2次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23903,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23904] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务9",
+		guild_coin_award = 0,
+		award = 906505,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23904,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23905] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务10",
+		guild_coin_award = 0,
+		award = 906506,
+		type = 26,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23905,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23906] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务11",
+		guild_coin_award = 0,
+		award = 906507,
+		type = 26,
+		desc = "建造舰船2次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23906,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23907] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务12",
+		guild_coin_award = 0,
+		award = 906508,
+		type = 26,
+		desc = "打开任意科技箱1个",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23907,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23908] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务13",
+		guild_coin_award = 0,
+		award = 906509,
+		type = 26,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23908,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23909] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务14",
+		guild_coin_award = 0,
+		award = 906510,
+		type = 26,
+		desc = "击败旗舰3次 ",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23909,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				7,
+				403023,
+				1
 			}
 		},
 		scene = {
@@ -294014,6 +294749,339 @@ end)()
 				2,
 				18033,
 				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500141] = {
+		name = "葡萄成熟时",
+		guild_coin_award = 0,
+		award = 500141,
+		type = 5,
+		desc = "提交3个《鱼雷天妇罗》",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500142",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "DUNKEERKE1",
+		tutorial_handbook_pic = "",
+		id = 500141,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500142] = {
+		name = "时光风味",
+		guild_coin_award = 0,
+		award = 500142,
+		type = 5,
+		desc = "强化任意角色10次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE2",
+		ryza_icon = "",
+		next_task = "500143",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500142,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500143] = {
+		name = "酝酿甜蜜",
+		guild_coin_award = 0,
+		award = 500143,
+		type = 5,
+		desc = "敦刻尔克上阵出击(关卡)胜利20次",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE3",
+		ryza_icon = "",
+		next_task = "500144",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500143,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500144] = {
+		name = "温柔的秘密",
+		guild_coin_award = 0,
+		award = 500144,
+		type = 5,
+		desc = "累计消耗石油500",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE4",
+		ryza_icon = "",
+		next_task = "500145",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500144,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500145] = {
+		name = "共同的作品",
+		guild_coin_award = 0,
+		award = 500145,
+		type = 5,
+		desc = "敦刻尔克好感度达到100",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE5",
+		ryza_icon = "",
+		next_task = "500146",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500145,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500146] = {
+		name = "酸甜碰撞",
+		guild_coin_award = 0,
+		award = 500146,
+		type = 5,
+		desc = "敦刻尔克突破至满星",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE6",
+		ryza_icon = "",
+		next_task = "500147",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500146,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500147] = {
+		name = "微醺夜色",
+		guild_coin_award = 0,
+		award = 500147,
+		type = 5,
+		desc = "敦刻尔克等级达到100",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500147,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				2
 			}
 		}
 	}

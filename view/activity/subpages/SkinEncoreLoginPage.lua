@@ -35,7 +35,7 @@ function var_0_0.OnFirstFlush(arg_4_0)
 	onButton(arg_4_0, arg_4_0.btnHelp, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.SkinDiscountHelp_School.tip
+			helps = arg_4_0:GetTips()
 		})
 	end, SFX_PANEL)
 	onButton(arg_4_0, arg_4_0.btnShop, function()
@@ -45,7 +45,7 @@ function var_0_0.OnFirstFlush(arg_4_0)
 	end, SFX_PANEL)
 	onButton(arg_4_0, arg_4_0.btnGift, function()
 		arg_4_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_GIFT
+			wrap = arg_4_0:GetGiftShopType()
 		})
 	end, SFX_PANEL)
 
@@ -105,8 +105,20 @@ function var_0_0.OnUpdateFlush(arg_11_0)
 	end, SFX_CONFIRM)
 	updateDrop(arg_11_0.rtSkinCoupon:Find("icon/IconTpl"), var_11_5)
 	setActive(arg_11_0.rtSkinCoupon:Find("icon/get"), arg_11_0.couponGet > 0)
-	setText(arg_11_0.rtSkinCoupon:Find("count"), i18n("SkinDiscount_Got", arg_11_0.couponCount))
+	setText(arg_11_0.rtSkinCoupon:Find("count"), i18n("SkinDiscount_Got", arg_11_0:GetCouponCountText()))
 	setActive(arg_11_0.rtSkinCoupon:Find("icon/get"), arg_11_0.couponGet > 0)
+end
+
+function var_0_0.GetTips(arg_13_0)
+	return pg.gametip.SkinDiscountHelp_School.tip
+end
+
+function var_0_0.GetCouponCountText(arg_14_0)
+	return arg_14_0.couponCount
+end
+
+function var_0_0.GetGiftShopType(arg_15_0)
+	return ChargeScene.TYPE_GIFT
 end
 
 return var_0_0

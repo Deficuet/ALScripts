@@ -74696,6 +74696,48 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.barrage_template[82098] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.05,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 5,
+		primal_repeat = 19,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 82098,
+		senior_delay = 0,
+		angle = -35,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82099] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.05,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -5,
+		primal_repeat = 19,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 82099,
+		senior_delay = 0,
+		angle = 35,
+		trans_ID = -1
+	}
+end)()
+
+(function()
 	_G.pg.base.barrage_template[90002] = {
 		offset_prioritise = false,
 		delta_offset_x = 0,

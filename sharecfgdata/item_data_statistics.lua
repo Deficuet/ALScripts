@@ -120510,6 +120510,140 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[81215] = {
+		open_directly = 1,
+		name = "换装礼盒(嘉年华)",
+		display = "购买礼包可获得列表中未拥有的换装*1（拥有列表中的所有换装则转换为获得680钻石），物资*2000，石油*1000，心智单元*20",
+		type = 17,
+		display_effect = "",
+		id = 81215,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_random_skin",
+		link_id = 0,
+		icon = "Props/fudai26",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86215,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			998317,
+			680,
+			{
+				103082,
+				101461,
+				101471,
+				201023,
+				302082,
+				103141,
+				105171,
+				107141,
+				108061,
+				308013,
+				201032,
+				101481,
+				108071,
+				301471,
+				301481,
+				101511,
+				202244,
+				302053,
+				302071,
+				307121,
+				103121,
+				102311,
+				103271,
+				104011,
+				107301,
+				499091,
+				901051,
+				901061
+			}
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81216] = {
+		open_directly = 1,
+		name = "嘉年华折扣礼包",
+		display = "购买礼包可获得换装折扣券（嘉年华）*1，特殊兵装核心*15，兵装强化石T2*30",
+		type = 17,
+		display_effect = "",
+		id = 81216,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/boxSkindiscount",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "998557",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				65551,
+				1
+			},
+			{
+				2,
+				15014,
+				15
+			},
+			{
+				2,
+				15016,
+				30
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[81407] = {
 		open_directly = 1,
 		name = "冬日自选礼包1",

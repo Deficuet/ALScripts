@@ -10766,6 +10766,126 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[403023] = {
+		ship_group = 40302,
+		name = "放学后的等待",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 403023,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "bulvxieer_4",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "bulvxieer_4",
+		shop_type_id = 0,
+		shop_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "147",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "呀吼~我就知道指挥官一定会来接我的！但下次看到消息不用这么着急哦！我等多久都可以，可不能把我最最最喜欢的指挥官累到啦！",
+		voice_actor = 132,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.075,
+					0.829,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.127,
+					0.922,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.278,
+					-0.064,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.852,
+					2.133,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.568,
+							2.259,
+							-0.081
+						}
+					}
+				}
+			}
+		}
+	},
 	[403030] = {
 		ship_group = 40303,
 		name = "{namecode:427}",
@@ -15348,124 +15468,6 @@ pg.base.ship_skin_template_11 = {
 					300,
 					-114,
 					2.5
-				}
-			}
-		}
-	},
-	[403150] = {
-		ship_group = 40315,
-		name = "{namecode:427}(μ兵装)",
-		hand_id = 1,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 403150,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "ougen_idol",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "ougen_idol",
-		shop_type_id = 0,
-		shop_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "我是参与本次μ舰装实验的重巡洋舰——{namecode:427}，现在是偶像{namecode:428}哦~指挥官好像对我现在的打扮感兴趣嘛，嘻嘻……那就还请一如既往期待我的亮眼表现哦？",
-		voice_actor = 21,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.318,
-					1.469,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.215,
-					1.47,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.103,
-					2.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.45,
-							0
-						}
-					}
 				}
 			}
 		}

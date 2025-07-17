@@ -58,7 +58,17 @@ function var_0_0.Ctor(arg_7_0, arg_7_1)
 
 	arg_7_0.seaCameraGO = GameObject.Find("BarrageCamera")
 	arg_7_0.seaCamera = arg_7_0.seaCameraGO:GetComponent(typeof(Camera))
-	arg_7_0.seaCamera.targetTexture = arg_7_0.rawImage.texture
+
+	local var_7_0 = arg_7_0.rawImage.texture
+
+	var_7_0:Release()
+
+	var_7_0.width = 1920
+	var_7_0.height = 1080
+
+	var_7_0:Create()
+
+	arg_7_0.seaCamera.targetTexture = var_7_0
 	arg_7_0.seaCamera.enabled = true
 end
 

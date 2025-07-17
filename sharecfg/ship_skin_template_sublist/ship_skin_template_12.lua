@@ -1,6 +1,124 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_12 = {
+	[403150] = {
+		ship_group = 40315,
+		name = "{namecode:427}(μ兵装)",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 403150,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "ougen_idol",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "ougen_idol",
+		shop_type_id = 0,
+		shop_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "我是参与本次μ舰装实验的重巡洋舰——{namecode:427}，现在是偶像{namecode:428}哦~指挥官好像对我现在的打扮感兴趣嘛，嘻嘻……那就还请一如既往期待我的亮眼表现哦？",
+		voice_actor = 21,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.318,
+					1.469,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.215,
+					1.47,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.103,
+					2.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[403160] = {
 		ship_group = 40316,
 		name = "小{namecode:480}",
@@ -1255,7 +1373,7 @@ pg.base.ship_skin_template_12 = {
 		shop_id = 70684,
 		illustrator = -1,
 		lip_smoothing = 0,
-		bg = "156",
+		bg = "107",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
@@ -1274,7 +1392,6 @@ pg.base.ship_skin_template_12 = {
 		time = "",
 		get_showing = "",
 		lip_sync_gain = 0,
-		live2d_offset_profile = "",
 		show_skin = "stand",
 		ship_l2d_id = "",
 		tag = {
@@ -1283,8 +1400,15 @@ pg.base.ship_skin_template_12 = {
 		},
 		live2d_offset = {
 			42,
+			48,
 			0,
-			0
+			33
+		},
+		live2d_offset_profile = {
+			42,
+			48,
+			0,
+			33
 		},
 		fx_container = {
 			{
@@ -14590,126 +14714,6 @@ pg.base.ship_skin_template_12 = {
 						{
 							-0.26,
 							2.22,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[501071] = {
-		ship_group = 50107,
-		name = "飞云在天",
-		hand_id = 10,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 501071,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "feiyun_2",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "feiyun_2",
-		shop_type_id = 3,
-		shop_id = 70968,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "144",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = 414,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "新、新年快乐指挥官……那个……能、能先把飞云放下来吗？……呜呜呜~我保证不会去厨房冒险了QAQ",
-		voice_actor = 397,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.495,
-					1.096,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.521,
-					1.093,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.48,
-					1.726,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.338,
-							2.21,
 							0
 						}
 					}

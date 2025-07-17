@@ -1,6 +1,126 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[501071] = {
+		ship_group = 50107,
+		name = "飞云在天",
+		hand_id = 10,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 501071,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "feiyun_2",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "feiyun_2",
+		shop_type_id = 3,
+		shop_id = 70968,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "144",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = 414,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "新、新年快乐指挥官……那个……能、能先把飞云放下来吗？……呜呜呜~我保证不会去厨房冒险了QAQ",
+		voice_actor = 397,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.495,
+					1.096,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.521,
+					1.093,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.48,
+					1.726,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.338,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[501080] = {
 		ship_group = 50108,
 		name = "长风",
@@ -9965,7 +10085,7 @@ pg.base.ship_skin_template_13 = {
 		l2d_animations = "",
 		l2d_para_range = "",
 		l2d_voice_calibrate = "",
-		bg = "109",
+		bg = "185",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		spine_offset_profile = "",
@@ -15192,126 +15312,6 @@ pg.base.ship_skin_template_13 = {
 				{
 					1.19,
 					1.36,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.72,
-							2.09,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[605071] = {
-		ship_group = 60507,
-		name = "安心舒适之旅",
-		hand_id = 1,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 605071,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "andelieyaduoliya_2",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "andelieyaduoliya_2",
-		shop_type_id = 23,
-		shop_id = 70867,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "170",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 4,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "空中乘务员安德烈亚·多利亚，竭诚为您服务。指挥官，您觉得我现在看起来……自然吗？还是有点紧张？毕竟是没体验过的工作呢……",
-		voice_actor = 370,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.09,
-					1.32,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.09,
-					1.32,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.09,
-					1.32,
 					0
 				}
 			}

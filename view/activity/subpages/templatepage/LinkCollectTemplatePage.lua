@@ -25,9 +25,7 @@ function var_0_0.OnDataSetting(arg_2_0)
 end
 
 function var_0_0.BuildDatas(arg_3_0)
-	local var_3_0 = pg.activity_limit_item_guide.get_id_list_by_activity[arg_3_0.activity.id]
-
-	assert(var_3_0, "activity_limit_item_guide not exist activity id: " .. arg_3_0.activity.id)
+	local var_3_0 = pg.activity_limit_item_guide.get_id_list_by_activity[arg_3_0.activity.id] or {}
 
 	arg_3_0.dataList = {}
 
@@ -148,15 +146,7 @@ function var_0_0.OnUpdateItem(arg_14_0, arg_14_1, arg_14_2)
 
 	updateDrop(var_14_1, var_14_2)
 	onButton(arg_14_0, var_14_1, function()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_LIKN_COLLECT_GUIDE,
-			show_type = Msgbox4LinkCollectGuide.SHOW_TYPE_LIMIT,
-			drop_type = var_14_0.config.type,
-			drop_id = var_14_0.config.drop_id,
-			count = var_14_0.count,
-			count_limit = var_14_0.config.count,
-			skipable_list = var_14_0.config.link_params
-		})
+		arg_14_0:OnClickItem(var_14_0)
 	end, SFX_PANEL)
 	changeToScrollText(arg_14_0:findTF("name_mask/name", arg_14_2), Drop.New({
 		type = var_14_0.config.type,
@@ -170,36 +160,48 @@ function var_0_0.OnUpdateItem(arg_14_0, arg_14_1, arg_14_2)
 	setActive(arg_14_0:findTF("new", arg_14_2), var_14_0.config.is_new == "1")
 end
 
-function var_0_0.UpdatePage(arg_16_0, arg_16_1)
-	arg_16_0.curPage = arg_16_1
-	arg_16_0.showDataList = {}
+function var_0_0.OnClickItem(arg_16_0, arg_16_1)
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		type = MSGBOX_TYPE_LIKN_COLLECT_GUIDE,
+		show_type = Msgbox4LinkCollectGuide.SHOW_TYPE_LIMIT,
+		drop_type = arg_16_1.config.type,
+		drop_id = arg_16_1.config.drop_id,
+		count = arg_16_1.count,
+		count_limit = arg_16_1.config.count,
+		skipable_list = arg_16_1.config.link_params
+	})
+end
 
-	for iter_16_0, iter_16_1 in ipairs(arg_16_0.dataList) do
-		if arg_16_0.guideConfig[iter_16_1.id].type == arg_16_1 then
-			table.insert(arg_16_0.showDataList, iter_16_1)
+function var_0_0.UpdatePage(arg_17_0, arg_17_1)
+	arg_17_0.curPage = arg_17_1
+	arg_17_0.showDataList = {}
+
+	for iter_17_0, iter_17_1 in ipairs(arg_17_0.dataList) do
+		if arg_17_0.guideConfig[iter_17_1.id].type == arg_17_1 then
+			table.insert(arg_17_0.showDataList, iter_17_1)
 		end
 	end
 
-	table.sort(arg_16_0.showDataList, CompareFuncs({
-		function(arg_17_0)
-			return arg_17_0.count < arg_17_0.config.count and 0 or 1
-		end,
+	table.sort(arg_17_0.showDataList, CompareFuncs({
 		function(arg_18_0)
-			return arg_18_0.config.order
+			return arg_18_0.count < arg_18_0.config.count and 0 or 1
 		end,
 		function(arg_19_0)
-			return arg_19_0.id
+			return arg_19_0.config.order
+		end,
+		function(arg_20_0)
+			return arg_20_0.id
 		end
 	}))
-	arg_16_0.itemList:align(#arg_16_0.showDataList)
+	arg_17_0.itemList:align(#arg_17_0.showDataList)
 end
 
-function var_0_0.DoSkip(arg_20_0, arg_20_1, arg_20_2)
-	if arg_20_1 == 2 then
-		pg.m02:sendNotification(GAME.GO_SCENE, arg_20_2[1], arg_20_2[2] or {})
-	elseif arg_20_1 == 3 then
+function var_0_0.DoSkip(arg_21_0, arg_21_1, arg_21_2)
+	if arg_21_1 == 2 then
+		pg.m02:sendNotification(GAME.GO_SCENE, arg_21_2[1], arg_21_2[2] or {})
+	elseif arg_21_1 == 3 then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
-			id = arg_20_2
+			id = arg_21_2
 		})
 	end
 end

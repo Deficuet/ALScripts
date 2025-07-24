@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					12,
@@ -40,9 +40,10 @@ pg.activity_banner = {
 		pic = "temp3",
 		type = 2,
 		param = {
-			"scene charge",
+			"scene get boat",
 			{
-				wrap = 4
+				projectName = "new",
+				page = 1
 			}
 		},
 		time = {
@@ -50,7 +51,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -61,8 +62,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					12,
@@ -73,16 +74,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50031",
 		id = 3,
 		pic = "temp4",
-		type = 3,
+		type = 2,
+		param = {
+			"scene core activity",
+			{
+				coreName = "ALYCoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -93,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					12,
@@ -119,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -130,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					12,
@@ -146,14 +152,14 @@ pg.activity_banner = {
 		pic = "temp1",
 		type = 2,
 		param = {
-			"dorm 3d select"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					17
+					8,
+					1
 				},
 				{
 					0,
@@ -164,8 +170,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					14
 				},
 				{
 					12,
@@ -176,16 +182,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50033",
 		id = 6,
 		pic = "temp7",
-		type = 3,
+		type = 2,
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -196,8 +207,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					12,
@@ -212,17 +223,20 @@ pg.activity_banner = {
 		pic = "temp8",
 		type = 2,
 		param = {
-			"scene level"
+			"scene core activity",
+			{
+				coreName = "RyzaCoreActivityUI"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					26
 				},
 				{
-					0,
+					9,
 					0,
 					0
 				}
@@ -230,8 +244,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					12,
@@ -259,14 +273,15 @@ pg.activity_banner = {
 		pic = "temp6",
 		type = 2,
 		param = {
-			"scene level"
+			"scene Cryptolalia",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -277,8 +292,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					12,
@@ -298,7 +313,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -309,8 +324,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					12,
@@ -380,15 +395,13 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
+			6,
 			7,
 			8,
 			9
-		},
-		[3] = {
-			3,
-			6
 		},
 		[9] = {
 			90,

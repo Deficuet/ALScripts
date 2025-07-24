@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_1",
 			stopbgm = true,
 			say = "傍晚时分，结束了水下迷宫探索的一行人带着满载而归的战利品返回了起始之地。",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-12",
 			flashout = {
 				black = true,
 				dur = 1,

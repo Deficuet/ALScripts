@@ -68,6 +68,18 @@ function var_0_0.GetVoices(arg_12_0)
 	return arg_12_0:getConfig("got_voice")
 end
 
+function var_0_0.GetCategory(arg_13_0)
+	return arg_13_0:getConfig("prop_type")
+end
+
+function var_0_0.GetVersion(arg_14_0)
+	return arg_14_0:getConfig("version")
+end
+
+function var_0_0.IsShow(arg_15_0)
+	return arg_15_0:getConfig("is_show")
+end
+
 local var_0_1 = {
 	1,
 	1,
@@ -76,38 +88,38 @@ local var_0_1 = {
 	0
 }
 
-function var_0_0.GetBaseCircleTransform(arg_13_0)
-	local var_13_0 = arg_13_0:getConfig("base_circle")
+function var_0_0.GetBaseCircleTransform(arg_16_0)
+	local var_16_0 = arg_16_0:getConfig("base_circle")
 
-	return type(var_13_0) == "table" and var_13_0 or var_0_1
+	return type(var_16_0) == "table" and var_16_0 or var_0_1
 end
 
-function var_0_0.GetNormalCircleTransform(arg_14_0)
-	local var_14_0 = arg_14_0:getConfig("normal_circle")
+function var_0_0.GetNormalCircleTransform(arg_17_0)
+	local var_17_0 = arg_17_0:getConfig("normal_circle")
 
-	return type(var_14_0) == "table" and var_14_0 or var_0_1
+	return type(var_17_0) == "table" and var_17_0 or var_0_1
 end
 
-function var_0_0.IsNormal(arg_15_0)
-	local var_15_0 = arg_15_0:GetType()
+function var_0_0.IsNormal(arg_18_0)
+	local var_18_0 = arg_18_0:GetType()
 
-	return var_15_0 == var_0_0.TYPE.NORMAL or var_15_0 == var_0_0.TYPE.MOD or var_15_0 == var_0_0.TYPE.SAIREN
+	return var_18_0 == var_0_0.TYPE.NORMAL or var_18_0 == var_0_0.TYPE.MOD or var_18_0 == var_0_0.TYPE.SAIREN
 end
 
-function var_0_0.UpdateRyzaItem(arg_16_0, arg_16_1, arg_16_2)
-	arg_16_2 = arg_16_2 or {}
+function var_0_0.UpdateRyzaItem(arg_19_0, arg_19_1, arg_19_2)
+	arg_19_2 = arg_19_2 or {}
 
-	local var_16_0 = ItemRarity.Rarity2Print(arg_16_1:GetRarity())
+	local var_19_0 = ItemRarity.Rarity2Print(arg_19_1:GetRarity())
 
-	setImageSprite(findTF(arg_16_0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. var_16_0))
-	setFrame(findTF(arg_16_0, "icon_bg/frame"), var_16_0)
+	setImageSprite(findTF(arg_19_0, "icon_bg"), GetSpriteFromAtlas("weaponframes", "bg" .. var_19_0))
+	setFrame(findTF(arg_19_0, "icon_bg/frame"), var_19_0)
 
-	local var_16_1 = findTF(arg_16_0, "icon_bg/icon")
+	local var_19_1 = findTF(arg_19_0, "icon_bg/icon")
 
-	GetImageSpriteFromAtlasAsync(arg_16_1:GetIconPath(), "", var_16_1)
-	setIconStars(arg_16_0, false)
-	setIconName(arg_16_0, arg_16_1:GetName(), arg_16_2)
-	setIconColorful(arg_16_0, arg_16_1:GetRarity(), arg_16_2)
+	GetImageSpriteFromAtlasAsync(arg_19_1:GetIconPath(), "", var_19_1)
+	setIconStars(arg_19_0, false)
+	setIconName(arg_19_0, arg_19_1:GetName(), arg_19_2)
+	setIconColorful(arg_19_0, arg_19_1:GetRarity(), arg_19_2)
 end
 
 return var_0_0

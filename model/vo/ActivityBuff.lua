@@ -43,62 +43,74 @@ function var_0_0.isActivate(arg_4_0)
 				var_4_0 = true
 			end
 		else
-			var_4_0 = (function()
-				local var_5_0 = arg_4_0:getConfig("benefit_condition")
+			local var_4_2 = noEmptyStr(arg_4_0:getConfig("benefit_condition"))
 
-				if var_5_0[1] == "lv" then
-					local var_5_1 = getProxy(PlayerProxy):getRawData()
+			var_4_0 = not var_4_2 and true or switch(var_4_2[1], {
+				lv = function()
+					local var_5_0 = getProxy(PlayerProxy):getRawData()
 
-					return var_0_1(var_5_1.level, var_5_0[2], var_5_0[3])
-				elseif var_5_0[1] == "activity" then
-					if var_5_0[3] == 0 then
+					return var_0_1(var_5_0.level, var_4_2[2], var_4_2[3])
+				end,
+				activity = function()
+					if var_4_2[3] == 0 then
 						return true
 					end
 
 					if var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
-						local var_5_2 = var_5_0[3][1]
+						local var_6_0 = var_4_2[3][1]
 
-						return (var_4_1.data1KeyValueList[2][var_5_2] or 1) == var_5_0[3][2]
+						return (var_4_1.data1KeyValueList[2][var_6_0] or 1) == var_4_2[3][2]
 					end
-				end
-
-				if var_5_0 == "" then
+				end,
+				chapter = function(arg_7_0)
 					return true
 				end
-			end)() or false
+			}, function()
+				return false
+			end) or false
 		end
 	end
 
 	return var_4_0
 end
 
-function var_0_0.getLeftTime(arg_6_0)
-	local var_6_0 = pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.checkChaper(arg_9_0, arg_9_1)
+	local var_9_0 = noEmptyStr(arg_9_0:getConfig("benefit_condition"))
 
-	return getProxy(ActivityProxy):getActivityById(arg_6_0.activityId).stopTime - var_6_0
+	if not var_9_0 or var_9_0[1] ~= "chapter" then
+		return true
+	else
+		return table.contains(var_9_0[2], arg_9_1)
+	end
 end
 
-function var_0_0.isAddedBuff(arg_7_0)
-	local var_7_0 = true
-	local var_7_1 = getProxy(ActivityProxy):getActivityById(arg_7_0.activityId)
+function var_0_0.getLeftTime(arg_10_0)
+	local var_10_0 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	if var_7_1 and not var_7_1:isEnd() then
-		local var_7_2 = arg_7_0:getConfig("benefit_condition")
+	return getProxy(ActivityProxy):getActivityById(arg_10_0.activityId).stopTime - var_10_0
+end
 
-		if var_7_2[1] == "pt" then
-			local var_7_3 = var_7_2[2]
-			local var_7_4 = var_7_2[3]
-			local var_7_5 = var_7_2[4]
-			local var_7_6 = pg.player_resource[var_7_3].name
-			local var_7_7 = getProxy(PlayerProxy):getData()[var_7_6] or 0
+function var_0_0.isAddedBuff(arg_11_0)
+	local var_11_0 = true
+	local var_11_1 = getProxy(ActivityProxy):getActivityById(arg_11_0.activityId)
 
-			if not (var_7_4 <= var_7_7) or not (var_7_7 < var_7_5) then
-				var_7_0 = false
+	if var_11_1 and not var_11_1:isEnd() then
+		local var_11_2 = arg_11_0:getConfig("benefit_condition")
+
+		if var_11_2[1] == "pt" then
+			local var_11_3 = var_11_2[2]
+			local var_11_4 = var_11_2[3]
+			local var_11_5 = var_11_2[4]
+			local var_11_6 = pg.player_resource[var_11_3].name
+			local var_11_7 = getProxy(PlayerProxy):getData()[var_11_6] or 0
+
+			if not (var_11_4 <= var_11_7) or not (var_11_7 < var_11_5) then
+				var_11_0 = false
 			end
 		end
 	end
 
-	return var_7_0
+	return var_11_0
 end
 
 return var_0_0

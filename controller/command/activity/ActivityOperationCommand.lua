@@ -652,6 +652,30 @@ function var_0_0.updateActivityData(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 			arg_3_3:updateDataList(arg_3_1.arg1)
 			getProxy(ActivityProxy):updateActivity(arg_3_3)
 		end
+	elseif var_3_0 == ActivityConst.ACTIVITY_TYPE_STRONGHOLD then
+		if arg_3_1.cmd == 1 then
+			arg_3_3:updateDataList(arg_3_1.arg1)
+
+			local var_3_55 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
+
+			for iter_3_9, iter_3_10 in ipairs(arg_3_1.consumes) do
+				local var_3_56 = iter_3_10[2]
+				local var_3_57 = iter_3_10[3]
+
+				if var_3_56 == 6 then
+					local var_3_58 = var_3_1:getData()
+
+					var_3_58:consume({
+						[id2res(var_3_56)] = var_3_57
+					})
+					var_3_1:updatePlayer(var_3_58)
+				else
+					var_3_55:subItemCount(var_3_56, var_3_57)
+				end
+			end
+		elseif arg_3_1.cmd == 2 then
+			arg_3_3:updateKVPList(1, arg_3_1.arg1, arg_3_1.canGetIndex)
+		end
 	end
 
 	return arg_3_3

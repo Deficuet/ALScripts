@@ -239,24 +239,12 @@ function var_0_0.UpdateView(arg_21_0)
 			arg_21_0:PlayStory(var_23_0, arg_23_0)
 		end,
 		function(arg_24_0)
-			local var_24_0 = true
+			if underscore.all(underscore.values(arg_21_0.storyNodesDict), function(arg_25_0)
+				return arg_25_0:IsReaded()
+			end) and arg_21_0.storyTask and arg_21_0.storyTask:getTaskStatus() == 2 then
+				local var_24_0 = arg_21_0.activity:getConfig("config_client").endStory
 
-			for iter_24_0, iter_24_1 in pairs(arg_21_0.storyNodesDict) do
-				local var_24_1 = iter_24_1:GetStory()
-
-				if var_24_1 and var_24_1 ~= "" then
-					var_24_0 = var_24_0 and pg.NewStoryMgr.GetInstance():IsPlayed(var_24_1)
-				end
-
-				if not var_24_0 then
-					break
-				end
-			end
-
-			if not var_21_0 and var_24_0 and arg_21_0.storyTask and arg_21_0.storyTask:getTaskStatus() == 2 then
-				local var_24_2 = arg_21_0.activity:getConfig("config_client").endStory
-
-				arg_21_0:PlayStory(var_24_2, arg_24_0)
+				arg_21_0:PlayStory(var_24_0, arg_24_0)
 			else
 				arg_24_0()
 			end
@@ -264,34 +252,34 @@ function var_0_0.UpdateView(arg_21_0)
 	})
 end
 
-function var_0_0.UpdateBattle(arg_25_0)
-	local var_25_0 = arg_25_0.activity
+function var_0_0.UpdateBattle(arg_26_0)
+	local var_26_0 = arg_26_0.activity
 
-	for iter_25_0, iter_25_1 in ipairs(var_25_0:GetActiveSeriesIds()) do
-		local var_25_1 = arg_25_0.seriesNodes[tostring(iter_25_1)]
-		local var_25_2 = BossRushSeriesData.New({
-			id = iter_25_1,
-			actId = var_25_0.id
+	for iter_26_0, iter_26_1 in ipairs(var_26_0:GetActiveSeriesIds()) do
+		local var_26_1 = arg_26_0.seriesNodes[tostring(iter_26_1)]
+		local var_26_2 = BossRushSeriesData.New({
+			id = iter_26_1,
+			actId = var_26_0.id
 		})
-		local var_25_3 = var_25_2:IsUnlock(var_25_0)
+		local var_26_3 = var_26_2:IsUnlock(var_26_0)
 
-		setActive(var_25_1, var_25_3)
+		setActive(var_26_1, var_26_3)
 
-		local var_25_4 = var_25_2:GetType()
+		local var_26_4 = var_26_2:GetType()
 
-		setActive(var_25_1:Find("blue"), var_25_4 == BossRushSeriesData.TYPE.NORMAL)
-		setActive(var_25_1:Find("red"), var_25_4 ~= BossRushSeriesData.TYPE.NORMAL)
+		setActive(var_26_1:Find("blue"), var_26_4 == BossRushSeriesData.TYPE.NORMAL)
+		setActive(var_26_1:Find("red"), var_26_4 ~= BossRushSeriesData.TYPE.NORMAL)
 
-		local var_25_5
+		local var_26_5
 
-		if var_25_4 == BossRushSeriesData.TYPE.NORMAL then
-			var_25_5 = var_25_1:Find("blue")
+		if var_26_4 == BossRushSeriesData.TYPE.NORMAL then
+			var_26_5 = var_26_1:Find("blue")
 		else
-			var_25_5 = var_25_1:Find("red")
+			var_26_5 = var_26_1:Find("red")
 		end
 
-		setText(var_25_5:Find("Text"), var_25_2:GetName())
-		setText(var_25_5:Find("diff/Text"), switch(iter_25_1, {
+		setText(var_26_5:Find("Text"), var_26_2:GetName())
+		setText(var_26_5:Find("diff/Text"), switch(iter_26_1, {
 			[3001] = function()
 				return i18n("zengke_series_easy")
 			end,
@@ -309,179 +297,171 @@ function var_0_0.UpdateBattle(arg_25_0)
 			end
 		}))
 
-		local var_25_6 = var_25_4 == BossRushSeriesData.TYPE.SP
+		local var_26_6 = var_26_4 == BossRushSeriesData.TYPE.SP
 
-		setActive(var_25_1:Find("times"), var_25_6)
+		setActive(var_26_1:Find("times"), var_26_6)
 
-		local var_25_7 = true
+		local var_26_7 = true
 
-		if var_25_6 then
-			local var_25_8 = var_25_0:GetUsedBonus()[iter_25_0] or 0
-			local var_25_9 = var_25_2:GetMaxBonusCount()
+		if var_26_6 then
+			local var_26_8 = var_26_0:GetUsedBonus()[iter_26_0] or 0
+			local var_26_9 = var_26_2:GetMaxBonusCount()
 
-			var_25_7 = var_25_9 - var_25_8 > 0
+			var_26_7 = var_26_9 - var_26_8 > 0
 
-			setText(var_25_1:Find("times/Text"), i18n("series_enemy_SP_count") .. setColorStr(math.max(0, var_25_9 - var_25_8) .. "/" .. var_25_9, var_25_7 and "#6EE868" or "#7f7f7f"))
+			setText(var_26_1:Find("times/Text"), i18n("series_enemy_SP_count") .. setColorStr(math.max(0, var_26_9 - var_26_8) .. "/" .. var_26_9, var_26_7 and "#6EE868" or "#7f7f7f"))
 		end
 
-		onButton(arg_25_0, var_25_1, function()
-			if not var_25_3 then
-				local var_31_0 = var_25_2:GetPreSeriesId()
-				local var_31_1 = BossRushSeriesData.New({
-					id = var_31_0
+		onButton(arg_26_0, var_26_1, function()
+			if not var_26_3 then
+				local var_32_0 = var_26_2:GetPreSeriesId()
+				local var_32_1 = BossRushSeriesData.New({
+					id = var_32_0
 				})
 
-				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_unlock", var_31_1:GetName()))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_unlock", var_32_1:GetName()))
 
 				return
 			end
 
-			if not var_25_7 then
+			if not var_26_7 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_SP_error"))
 
 				return
 			end
 
-			arg_25_0:emit(BossRushVerZenkerMediator.ON_FLEET_SELECT, var_25_2)
+			arg_26_0:emit(BossRushVerZenkerMediator.ON_FLEET_SELECT, var_26_2)
 		end, SFX_PANEL)
 	end
 end
 
-function var_0_0.UpdateStory(arg_32_0)
-	local var_32_0 = {}
-	local var_32_1 = pg.NewStoryMgr.GetInstance()
-	local var_32_2 = 1
-	local var_32_3 = 2
-	local var_32_4 = 3
-	local var_32_5 = 0
-	local var_32_6 = 0
+function var_0_0.UpdateStory(arg_33_0)
+	local var_33_0 = pg.NewStoryMgr.GetInstance()
+	local var_33_1 = 0
+	local var_33_2 = 0
 
-	for iter_32_0, iter_32_1 in pairs(arg_32_0.storyNodesDict) do
-		var_32_0[iter_32_0] = {}
+	for iter_33_0, iter_33_1 in pairs(arg_33_0.storyNodesDict) do
+		local var_33_3 = arg_33_0.nodes[tostring(iter_33_1.id)]
+		local var_33_4 = iter_33_1:IsActive(arg_33_0.activity, arg_33_0.ptActivity)
 
-		local var_32_7 = iter_32_1:GetStory()
-		local var_32_8 = true
+		setActive(var_33_3, var_33_3)
+		setText(var_33_3:Find("main/char/bg/Text"), iter_33_1:GetName())
 
-		if var_32_7 and var_32_7 ~= "" then
-			var_32_8 = var_32_1:IsPlayed(var_32_7)
-			var_32_5 = var_32_5 + (var_32_8 and 1 or 0)
-			var_32_6 = var_32_6 + 1
-		end
+		local var_33_5 = iter_33_1:IsReaded()
 
-		var_32_0[iter_32_0].status = var_32_8 and var_32_4 or var_32_2
-	end
+		var_33_1 = var_33_1 + (var_33_5 and 1 or 0)
+		var_33_2 = var_33_2 + 1
 
-	setText(arg_32_0.progressText, i18n("zengke_story_reward_count") .. string.format("(" .. setColorStr("%d/%d", "#AEB2E3") .. ")", var_32_5, var_32_6))
-	underscore(arg_32_0.storyNodesDict):chain():values():sort(CompareFuncs({
-		function(arg_33_0)
-			return arg_33_0.id
-		end
-	})):each(function(arg_34_0)
-		local var_34_0 = arg_34_0:GetTriggers()
-
-		if var_32_0[arg_34_0.id].status == var_32_4 then
-			return
-		end
-
-		if not _.any(var_34_0, function(arg_35_0)
-			if arg_35_0.type == BossRushStoryNode.TRIGGER_TYPE.PT_GOT then
-				return arg_32_0.ptActivity.data1 < arg_35_0.value
-			elseif arg_35_0.type == BossRushStoryNode.TRIGGER_TYPE.SERIES_PASSED then
-				return not BossRushSeriesData.New({
-					id = arg_35_0.value,
-					actId = arg_32_0.activity.id
-				}):IsUnlock(arg_32_0.activity)
-			elseif arg_35_0.type == BossRushStoryNode.TRIGGER_TYPE.STORY_READED then
-				return var_32_0[arg_35_0.value].status < var_32_4
-			end
-		end) then
-			var_32_0[arg_34_0.id].status = var_32_3
-		end
-	end)
-
-	for iter_32_2, iter_32_3 in pairs(arg_32_0.storyNodesDict) do
-		local var_32_9 = arg_32_0.nodes[tostring(iter_32_3.id)]
-
-		setActive(var_32_9, var_32_2 < var_32_0[iter_32_2].status)
-		setText(var_32_9:Find("main/char/bg/Text"), iter_32_3:GetName())
-
-		local var_32_10 = var_32_0[iter_32_2].status == var_32_4
-
-		setActive(var_32_9:Find("main/char"), not var_32_10)
-		setActive(var_32_9:Find("main/talk"), var_32_10)
-		onButton(arg_32_0, var_32_9, function()
-			if not isActive or var_32_10 then
+		setActive(var_33_3:Find("main/char"), not var_33_5)
+		setActive(var_33_3:Find("main/talk"), var_33_5)
+		onButton(arg_33_0, var_33_3, function()
+			if not var_33_4 or var_33_5 then
 				return
 			end
 
-			local var_36_0 = iter_32_3:GetStory()
+			local var_34_0 = iter_33_1:GetStory()
 
-			arg_32_0:PlayStory(var_36_0, function()
-				arg_32_0:UpdateView()
+			arg_33_0:PlayStory(var_34_0, function()
+				arg_33_0:UpdateView()
 			end)
 		end)
 	end
+
+	setText(arg_33_0.progressText, i18n("zengke_story_reward_count") .. var_33_1 .. "/" .. var_33_2)
+	setActive(arg_33_0.storyAward, tobool(arg_33_0.storyTask))
+
+	if arg_33_0.storyTask then
+		local var_33_6 = arg_33_0.storyTask:getConfig("award_display")
+		local var_33_7 = Drop.Create(var_33_6[1])
+		local var_33_8 = arg_33_0.storyAward:Find("award_bg")
+
+		updateDrop(var_33_8:Find("IconTpl"), var_33_7)
+		onButton(arg_33_0, var_33_8, function()
+			arg_33_0:emit(BaseUI.ON_DROP, var_33_7)
+		end, SFX_PANEL)
+
+		local var_33_9 = arg_33_0.storyTask:getTaskStatus()
+
+		setActive(var_33_8:Find("get"), var_33_9 == 1)
+		setActive(var_33_8:Find("got"), var_33_9 == 2)
+
+		if var_33_9 == 1 then
+			arg_33_0:emit(BossRushVerZenkerMediator.ON_TASK_SUBMIT, arg_33_0.storyTask)
+		end
+	end
 end
 
-function var_0_0.PlayStory(arg_38_0, arg_38_1, arg_38_2)
-	if not arg_38_1 then
-		return existCall(arg_38_2)
+function var_0_0.PlayStory(arg_37_0, arg_37_1, arg_37_2)
+	if not arg_37_1 then
+		return existCall(arg_37_2)
 	end
 
-	local var_38_0 = pg.NewStoryMgr.GetInstance()
-	local var_38_1 = var_38_0:IsPlayed(arg_38_1)
+	local var_37_0 = pg.NewStoryMgr.GetInstance()
+	local var_37_1 = var_37_0:IsPlayed(arg_37_1)
 
 	seriesAsync({
-		function(arg_39_0)
-			if var_38_1 then
-				return arg_39_0()
+		function(arg_38_0)
+			if var_37_1 then
+				return arg_38_0()
 			end
 
-			local var_39_0 = tonumber(arg_38_1)
+			local var_38_0 = tonumber(arg_37_1)
 
-			if var_39_0 and var_39_0 > 0 then
-				arg_38_0:emit(BossRushVerZenkerMediator.ON_PERFORM_COMBAT, var_39_0)
+			if var_38_0 and var_38_0 > 0 then
+				arg_37_0:emit(BossRushVerZenkerMediator.ON_PERFORM_COMBAT, var_38_0)
 			else
-				var_38_0:Play(arg_38_1, arg_39_0)
+				var_37_0:Play(arg_37_1, arg_38_0)
 			end
 		end
-	}, arg_38_2)
+	}, arg_37_2)
 end
 
-function var_0_0.UpdateStoryTask(arg_40_0)
-	local var_40_0 = arg_40_0.activity:getConfig("config_client").tasks[1]
+function var_0_0.UpdateStoryTask(arg_39_0)
+	local var_39_0 = arg_39_0.activity:getConfig("config_client").tasks[1]
 
-	arg_40_0.storyTask = getProxy(TaskProxy):getTaskVO(var_40_0) or Task.New({
+	arg_39_0.storyTask = getProxy(TaskProxy):getTaskVO(var_39_0) or Task.New({
 		submit_time = 1,
-		id = var_40_0
+		id = var_39_0
 	})
 
-	setActive(arg_40_0.switchToggle:Find("Story/new"), arg_40_0.storyTask and arg_40_0.storyTask:getTaskStatus() ~= 2)
-	setActive(arg_40_0.taskTip, Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ZENGKEHAIJUNSHANGJIANG_TASK_ACT_ID)))
+	setActive(arg_39_0.switchToggle:Find("Story/new"), arg_39_0.storyTask and arg_39_0.storyTask:getTaskStatus() ~= 2)
+	setActive(arg_39_0.taskTip, Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ZENGKEHAIJUNSHANGJIANG_TASK_ACT_ID)))
 
-	local var_40_1 = arg_40_0.storyTask:getConfig("award_display")
-	local var_40_2 = Drop.Create(var_40_1[1])
-	local var_40_3 = arg_40_0.storyAward:Find("award_bg")
+	local var_39_1 = arg_39_0.storyTask:getConfig("award_display")
+	local var_39_2 = Drop.Create(var_39_1[1])
+	local var_39_3 = arg_39_0.storyAward:Find("award_bg")
 
-	updateDrop(var_40_3:Find("IconTpl"), var_40_2)
-	onButton(arg_40_0, var_40_3, function()
-		arg_40_0:emit(BaseUI.ON_DROP, var_40_2)
+	updateDrop(var_39_3:Find("IconTpl"), var_39_2)
+	onButton(arg_39_0, var_39_3, function()
+		arg_39_0:emit(BaseUI.ON_DROP, var_39_2)
 	end, SFX_PANEL)
 
-	local var_40_4 = arg_40_0.storyTask:getTaskStatus()
+	local var_39_4 = arg_39_0.storyTask:getTaskStatus()
 
-	setActive(var_40_3:Find("get"), var_40_4 == 1)
-	setActive(var_40_3:Find("got"), var_40_4 == 2)
+	setActive(var_39_3:Find("get"), var_39_4 == 1)
+	setActive(var_39_3:Find("got"), var_39_4 == 2)
 
-	if var_40_4 == 1 then
-		arg_40_0:emit(BossRushVerZenkerMediator.ON_TASK_SUBMIT, arg_40_0.storyTask)
+	if var_39_4 == 1 then
+		arg_39_0:emit(BossRushVerZenkerMediator.ON_TASK_SUBMIT, arg_39_0.storyTask)
 	end
 end
 
-function var_0_0.addbubbleMsgBoxList(arg_42_0, arg_42_1)
+function var_0_0.addbubbleMsgBoxList(arg_41_0, arg_41_1)
+	local var_41_0 = #arg_41_0.ActionSequence == 0
+
+	table.insertto(arg_41_0.ActionSequence, arg_41_1)
+
+	if not var_41_0 then
+		return
+	end
+
+	arg_41_0:resumeBubble()
+end
+
+function var_0_0.addbubbleMsgBox(arg_42_0, arg_42_1)
 	local var_42_0 = #arg_42_0.ActionSequence == 0
 
-	table.insertto(arg_42_0.ActionSequence, arg_42_1)
+	table.insert(arg_42_0.ActionSequence, arg_42_1)
 
 	if not var_42_0 then
 		return
@@ -490,48 +470,36 @@ function var_0_0.addbubbleMsgBoxList(arg_42_0, arg_42_1)
 	arg_42_0:resumeBubble()
 end
 
-function var_0_0.addbubbleMsgBox(arg_43_0, arg_43_1)
-	local var_43_0 = #arg_43_0.ActionSequence == 0
-
-	table.insert(arg_43_0.ActionSequence, arg_43_1)
-
-	if not var_43_0 then
+function var_0_0.resumeBubble(arg_43_0)
+	if #arg_43_0.ActionSequence == 0 then
 		return
 	end
 
-	arg_43_0:resumeBubble()
-end
+	local var_43_0
 
-function var_0_0.resumeBubble(arg_44_0)
-	if #arg_44_0.ActionSequence == 0 then
-		return
-	end
+	local function var_43_1()
+		local var_44_0 = arg_43_0.ActionSequence[1]
 
-	local var_44_0
-
-	local function var_44_1()
-		local var_45_0 = arg_44_0.ActionSequence[1]
-
-		if var_45_0 then
-			var_45_0(function()
-				table.remove(arg_44_0.ActionSequence, 1)
-				var_44_1()
+		if var_44_0 then
+			var_44_0(function()
+				table.remove(arg_43_0.ActionSequence, 1)
+				var_43_1()
 			end)
 		end
 	end
 
-	var_44_1()
+	var_43_1()
 end
 
-function var_0_0.CleanBubbleMsgbox(arg_47_0)
-	table.clean(arg_47_0.ActionSequence)
+function var_0_0.CleanBubbleMsgbox(arg_46_0)
+	table.clean(arg_46_0.ActionSequence)
 end
 
-function var_0_0.willExit(arg_48_0)
-	if arg_48_0.camEventId then
-		pg.CameraFixMgr.GetInstance():disconnect(arg_48_0.camEventId)
+function var_0_0.willExit(arg_47_0)
+	if arg_47_0.camEventId then
+		pg.CameraFixMgr.GetInstance():disconnect(arg_47_0.camEventId)
 
-		arg_48_0.camEventId = nil
+		arg_47_0.camEventId = nil
 	end
 end
 

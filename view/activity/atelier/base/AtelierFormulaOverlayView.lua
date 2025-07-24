@@ -1,0 +1,69 @@
+local var_0_0 = class("AtelierFormulaOverlayView", import("view.base.BasePanel"))
+
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
+	arg_1_0._go = arg_1_1.gameObject
+	arg_1_0._tf = arg_1_1
+	arg_1_0._parentClass = arg_1_2
+	arg_1_0.bundleName = arg_1_2.bundleName
+
+	arg_1_0:attach(arg_1_2)
+	arg_1_0:Init()
+end
+
+function var_0_0.Init(arg_2_0)
+	arg_2_0:InitCustom()
+end
+
+function var_0_0.InitCustom(arg_3_0)
+	return
+end
+
+function var_0_0.SetContextData(arg_4_0, arg_4_1)
+	arg_4_0.contextData = arg_4_1
+end
+
+function var_0_0.SetActivity(arg_5_0, arg_5_1)
+	arg_5_0.activity = arg_5_1
+end
+
+function var_0_0.didEnter(arg_6_0)
+	onButton(arg_6_0, arg_6_0:findTF("List"), function()
+		arg_6_0._parentClass:OnClickFormulaBack()
+	end)
+end
+
+local var_0_1 = {
+	[AtelierFormula.TYPE.EQUIP] = "text_equip",
+	[AtelierFormula.TYPE.ITEM] = "text_item",
+	[AtelierFormula.TYPE.TOOL] = "text_other",
+	[AtelierFormula.TYPE.OTHER] = "text_other"
+}
+
+function var_0_0.RefreshFormulaInfo(arg_8_0, arg_8_1)
+	arg_8_0.contextData.formulaId = arg_8_1:GetConfigID()
+
+	arg_8_0._parentClass.loader:GetSpriteQuiet(arg_8_0.bundleName, var_0_1[arg_8_1:GetType()], arg_8_0:findTF("Type", description))
+
+	local var_8_0 = {
+		type = arg_8_1:GetProduction()[1],
+		id = arg_8_1:GetProduction()[2]
+	}
+
+	arg_8_0._parentClass:UpdateRyzaDrop(arg_8_0:findTF("Icon"), var_8_0)
+	setText(arg_8_0:findTF("Name"), arg_8_1:GetName())
+	setText(arg_8_0:findTF("Description/Text"), arg_8_1:GetDesc())
+
+	local var_8_1 = tostring(arg_8_1:GetMaxLimit() - arg_8_1:GetUsedCount())
+
+	if arg_8_1:GetMaxLimit() < 0 then
+		var_8_1 = "∞"
+	end
+
+	setText(arg_8_0:findTF("RestCount/Text"), i18n("ryza_rest_produce_count", var_8_1))
+end
+
+function var_0_0.willExit(arg_9_0)
+	arg_9_0:detach()
+end
+
+return var_0_0

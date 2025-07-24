@@ -97,20 +97,25 @@ end
 function var_0_0.CollectDrops(arg_12_0)
 	local var_12_0 = false
 	local var_12_1 = {}
+	local var_12_2 = NewBattleResultYumiaMaterialPage.YUMIA_MATERIAL_DROP_TYPE_LIST
 
 	for iter_12_0, iter_12_1 in ipairs(arg_12_0.contextData.drops or {}) do
-		table.insert(var_12_1, iter_12_1)
+		if not table.contains(var_12_2, iter_12_1.type) then
+			table.insert(var_12_1, iter_12_1)
+		end
 	end
 
 	for iter_12_2, iter_12_3 in ipairs(arg_12_0.contextData.extraDrops or {}) do
 		iter_12_3.riraty = true
 
-		table.insert(var_12_1, iter_12_3)
+		if not table.contains(var_12_2, iter_12_3.type) then
+			table.insert(var_12_1, iter_12_3)
+		end
 	end
 
-	local var_12_2 = arg_12_0.contextData.extraBuffList
+	local var_12_3 = arg_12_0.contextData.extraBuffList
 
-	for iter_12_4, iter_12_5 in ipairs(var_12_2 or {}) do
+	for iter_12_4, iter_12_5 in ipairs(var_12_3 or {}) do
 		if pg.benefit_buff_template[iter_12_5].benefit_type == Chapter.OPERATION_BUFF_TYPE_REWARD then
 			var_12_0 = true
 

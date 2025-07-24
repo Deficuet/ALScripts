@@ -19,7 +19,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "story-1",
+			bgm = "ryza-12",
 			blackBg = true,
 			say = "终于，温泉乡的建设全部完成了——————",
 			flashout = {

@@ -5,9 +5,18 @@ function var_0_0.register(arg_1_0)
 		arg_1_0:sendNotification(GAME.UPDATE_ATELIER_BUFF, arg_2_1)
 	end)
 	arg_1_0:bind(AtelierMaterialDetailMediator.SHOW_DETAIL, function(arg_3_0, arg_3_1)
+		local var_3_0 = arg_3_1:GetVersion()
+		local var_3_1
+
+		if var_3_0 == 1 then
+			var_3_1 = AtelierMaterialDetailLayer
+		else
+			var_3_1 = AtelierMaterialDetailYumiaLayer
+		end
+
 		arg_1_0:addSubLayers(Context.New({
 			mediator = AtelierMaterialDetailMediator,
-			viewComponent = AtelierMaterialDetailLayer,
+			viewComponent = var_3_1,
 			data = {
 				material = arg_3_1
 			}

@@ -179436,6 +179436,7293 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[24150] = {
+		name = "探索「T1-新的冒险」",
+		guild_coin_award = 0,
+		award = 906709,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T1-新的冒险」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24150,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				42,
+				1
+			},
+			{
+				1001,
+				28,
+				1
+			},
+			{
+				1001,
+				12,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690001,
+				mapIdx = 1690001,
+				openChapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24151] = {
+		name = "探索「T2-素材与调合」",
+		guild_coin_award = 0,
+		award = 906710,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T2-素材与调合」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24151,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				43,
+				1
+			},
+			{
+				1001,
+				27,
+				1
+			},
+			{
+				1001,
+				15,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690002,
+				mapIdx = 1690001,
+				openChapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24152] = {
+		name = "探索「T3-调查与比赛」",
+		guild_coin_award = 0,
+		award = 906711,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T3-调查与比赛」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24152,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				45,
+				1
+			},
+			{
+				1001,
+				30,
+				1
+			},
+			{
+				1001,
+				9,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690003,
+				mapIdx = 1690001,
+				openChapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24153] = {
+		name = "探索「T4-迷宫与宝藏」",
+		guild_coin_award = 0,
+		award = 906712,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T4-迷宫与宝藏」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24153,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				44,
+				1
+			},
+			{
+				1001,
+				29,
+				1
+			},
+			{
+				1001,
+				6,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690004,
+				mapIdx = 1690001,
+				openChapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24154] = {
+		name = "探索「T5-冒险的尾声」",
+		guild_coin_award = 0,
+		award = 906713,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T5-冒险的尾声」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24154,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				1,
+				1
+			},
+			{
+				1001,
+				2,
+				1
+			},
+			{
+				1001,
+				3,
+				1
+			},
+			{
+				1001,
+				4,
+				1
+			},
+			{
+				1001,
+				5,
+				1
+			},
+			{
+				5,
+				95127,
+				1
+			},
+			{
+				1001,
+				7,
+				5
+			},
+			{
+				1001,
+				10,
+				5
+			},
+			{
+				1001,
+				13,
+				5
+			},
+			{
+				1001,
+				16,
+				5
+			},
+			{
+				1001,
+				34,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690005,
+				mapIdx = 1690001,
+				openChapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24155] = {
+		name = "完全探索「TH1-起始之地」",
+		guild_coin_award = 0,
+		award = 906714,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH1-起始之地」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1696013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24155,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				51,
+				1
+			},
+			{
+				1001,
+				14,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690021,
+				mapIdx = 1690002,
+				openChapterId = 1690021
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24156] = {
+		name = "完全探索「TH2-异界之森」",
+		guild_coin_award = 0,
+		award = 906715,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH2-异界之森」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1697013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24156,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				50,
+				1
+			},
+			{
+				1001,
+				17,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690022,
+				mapIdx = 1690002,
+				openChapterId = 1690022
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24157] = {
+		name = "完全探索「TH3-争斗之城」",
+		guild_coin_award = 0,
+		award = 906716,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH3-争斗之城」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1698013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24157,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				48,
+				1
+			},
+			{
+				1001,
+				11,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690023,
+				mapIdx = 1690002,
+				openChapterId = 1690023
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24158] = {
+		name = "完全探索「TH4-失落之都」",
+		guild_coin_award = 0,
+		award = 906717,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH4-失落之都」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1699013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24158,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				49,
+				1
+			},
+			{
+				1001,
+				8,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690024,
+				mapIdx = 1690002,
+				openChapterId = 1690024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24159] = {
+		name = "完全探索「TH5-核心之所」",
+		guild_coin_award = 0,
+		award = 906718,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH5-核心之所」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1694014",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24159,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				20,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690025,
+				mapIdx = 1690002,
+				openChapterId = 1690025
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24160] = {
+		name = "向着遗迹群岛，出发！",
+		guild_coin_award = 0,
+		award = 906719,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」活动期间，登录游戏一次。",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "shoes",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24160,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				527,
+				3
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24161] = {
+		name = "加入了炼金素材的建造！",
+		guild_coin_award = 0,
+		award = 906720,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」活动期间，完成建造20次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24161,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24162] = {
+		name = "石油，也可以作为炼金素材么？",
+		guild_coin_award = 0,
+		award = 906721,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」活动期间，累计消耗石油10000点。",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24162,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				46,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24163] = {
+		name = "第一个工具！",
+		guild_coin_award = 0,
+		award = 906722,
+		type = 6,
+		desc = "在「炼金工房」中，累计完成1次调合。（「炼金术士与遗迹群岛」）",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24163,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				150
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24164] = {
+		name = "准备齐全！",
+		guild_coin_award = 0,
+		award = 906723,
+		type = 6,
+		desc = "在「炼金工房」中，累计完成5次调合。（「炼金术士与遗迹群岛」）",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24164,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				1,
+				523,
+				150
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24165] = {
+		name = "更熟练的调合",
+		guild_coin_award = 0,
+		award = 906724,
+		type = 6,
+		desc = "在「炼金工房」中，累计完成10次调合。（「炼金术士与遗迹群岛」）",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24165,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1,
+				523,
+				300
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				300
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24166] = {
+		name = "收集「遗迹水晶簇」",
+		guild_coin_award = 0,
+		award = 906725,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」活动期间，累计获得「遗迹水晶簇」*10000。",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50051",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "523",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24166,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				32,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24167] = {
+		name = "温泉开发完成！",
+		guild_coin_award = 0,
+		award = 906726,
+		type = 6,
+		desc = "完成「温泉开发战」-DAY 7。",
+		count_inherit = 0,
+		sub_type = 415,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24167,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			36
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				33,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24168] = {
+		name = "讨伐「菲尔弗萨级量产型」I",
+		guild_coin_award = 0,
+		award = 906727,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人50艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24168,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24169] = {
+		name = "讨伐「菲尔弗萨级量产型」II",
+		guild_coin_award = 0,
+		award = 906728,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人100艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24169,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95119,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24170] = {
+		name = "讨伐「菲尔弗萨级量产型」III",
+		guild_coin_award = 0,
+		award = 906729,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人150艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24170,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24171] = {
+		name = "讨伐「菲尔弗萨级量产型」IV",
+		guild_coin_award = 0,
+		award = 906730,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人200艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24171,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95115,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24172] = {
+		name = "讨伐「菲尔弗萨级量产型」V",
+		guild_coin_award = 0,
+		award = 906731,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人250艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24172,
+		target_num = 250,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				47,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24173] = {
+		name = "讨伐「古代遗迹型执行者」I",
+		guild_coin_award = 0,
+		award = 906732,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计消灭「古代遗迹型执行者」精英敌人15次。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24173,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				522,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24174] = {
+		name = "讨伐「古代遗迹型执行者」II",
+		guild_coin_award = 0,
+		award = 906733,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计消灭「古代遗迹型执行者」精英敌人30次。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24174,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95131,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24175] = {
+		name = "讨伐「古代遗迹守护者原型机」",
+		guild_coin_award = 0,
+		award = 906734,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计消灭「古代遗迹守护者原型机」10次。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24175,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16304306
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95132,
+				1
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24176] = {
+		name = "收集「闪电矿」·大量",
+		guild_coin_award = 0,
+		award = 906735,
+		type = 6,
+		desc = "拥有雷之力的矿石，究竟是怎样的呢？\n需求素材: 「闪电矿」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "15",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "wuzang",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24176,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				57,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24177] = {
+		name = "收集 「沙丁鱼」·少量",
+		guild_coin_award = 0,
+		award = 906736,
+		type = 6,
+		desc = "为了烧烤派对，请收集一些沙丁鱼来！\n需求素材: 「沙丁鱼」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "7",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiyatu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24177,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				56,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24178] = {
+		name = "收集 「岩浆粉」",
+		guild_coin_award = 0,
+		award = 906737,
+		type = 6,
+		desc = "能自动发热的熔岩粉末，一定能做成特别棒的烟花！请帮忙收集一些回来！\n需求素材:「岩浆粉」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "11",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "fushun",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24178,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				58,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24179] = {
+		name = "收集「小晶石」·大量",
+		guild_coin_award = 0,
+		award = 906738,
+		type = 6,
+		desc = "亮闪闪……好看。想要……\n需求素材: 「小晶石」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "9",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aierdeliqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24179,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				52,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24180] = {
+		name = "收集「翼叶草」·少量",
+		guild_coin_award = 0,
+		award = 906739,
+		type = 6,
+		desc = "形状像鸟类翅膀的植物，真漂亮啊……我想收集一些来种在花圃里！\n需求素材: 「翼叶草」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "13",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "huayue",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24180,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				53,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24181] = {
+		name = "收集「未知能源核心」",
+		guild_coin_award = 0,
+		award = 906740,
+		type = 6,
+		desc = "据说是古代遗迹守护者异常动力的来源……有必要详细调查一番才行。\n需求素材: 「未知能源核心」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "20",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "yinggelahan",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24181,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				54,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24182] = {
+		name = "收集「普鲁姆鲁螺」·大量",
+		guild_coin_award = 0,
+		award = 906741,
+		type = 6,
+		desc = "贝法想尝试一下新的海鲜料理，于是拜托我去收集一些螺回来，所以我就来发委托了——\n需求素材: 「普鲁姆鲁螺」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "6",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aidingbao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24182,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				55,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24183] = {
+		name = "收集 「可燃之砂」·少量",
+		guild_coin_award = 0,
+		award = 906742,
+		type = 6,
+		desc = "请收集一些这种一点就燃的沙子来，用途的话暂时保密~拜托咯！\n需求素材: 「可燃之砂」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "10",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "daqinghuayu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24183,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95113,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24184] = {
+		name = "收集「血红通草」",
+		guild_coin_award = 0,
+		award = 906743,
+		type = 6,
+		desc = "与鲜血颜色相同的草，用来点缀人家的头饰或许不错呢~\n需求素材:「血红通草」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "14",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xixuegui",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24184,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24185] = {
+		name = "收集 「未知结晶矿」·大量",
+		guild_coin_award = 0,
+		award = 906744,
+		type = 6,
+		desc = "从核心区找到的未知结晶……感觉很有价值喵。收集的事就拜托了喵~\n需求素材: 「未知结晶矿」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "18",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24185,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24186] = {
+		name = "收集「引导之星碎片」·少量",
+		guild_coin_award = 0,
+		award = 906745,
+		type = 6,
+		desc = "蕴含有奇妙能量的天外碎片，妾身有点在意它的用途……\n需求素材: 「引导之星碎片」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "16",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xinnong",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24186,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24187] = {
+		name = "收集「湖底之主」",
+		guild_coin_award = 0,
+		award = 906746,
+		type = 6,
+		desc = "这么厉害的鱼一定能做成非常美味的仰望星空派吧……等做好之后欢迎来品尝哦！\n需求素材: 「湖底之主」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "8",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "manchesite",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24187,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95108,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24188] = {
+		name = "收集「无名草」·大量",
+		guild_coin_award = 0,
+		award = 906747,
+		type = 6,
+		desc = "希望能获得大量无名草作为忍者的训练道具。\n需求素材: 「无名草」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "12",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24188,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24189] = {
+		name = "收集「未知装甲板」·少量",
+		guild_coin_award = 0,
+		award = 906748,
+		type = 6,
+		desc = "为了升级训练场中标靶的质量，请收集一些塞壬在海域中制作的新型装甲版来。\n需求素材: 「未知装甲板」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "19",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "qianwei",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24189,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95140,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24190] = {
+		name = "收集「圣石」",
+		guild_coin_award = 0,
+		award = 906749,
+		type = 6,
+		desc = "呼呼呼，这个名叫「圣石」的矿石……真是有趣。下次出门就拜托给我带点回来咯？\n需求素材: 「圣石」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "17",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "makeboluo",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24190,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24191] = {
+		name = "研究「精灵的小瓶」的奥秘！",
+		guild_coin_award = 0,
+		award = 906750,
+		type = 16,
+		desc = "请收集一些「精灵的小瓶」来，越多越好！（P.S.达芬奇正在废寝忘食的工作中，本条委托由阿尔弗雷多代发。）\n需求:「精灵的小瓶」10个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "21",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "dafenqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24191,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24192] = {
+		name = "「中和剂·红」的研究喵！",
+		guild_coin_award = 0,
+		award = 906751,
+		type = 16,
+		desc = "这都是为了研究喵~请尽可能多的提交过来喵~\n需求:「中和剂·红」6个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "22",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24192,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24193] = {
+		name = "「中和剂·蓝」的研究喵！",
+		guild_coin_award = 0,
+		award = 906752,
+		type = 16,
+		desc = "这都是为了研究喵~请尽可能多的提交过来喵~\n需求:「中和剂·蓝」6个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "23",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24193,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24194] = {
+		name = "「中和剂·黄」的研究喵！",
+		guild_coin_award = 0,
+		award = 906753,
+		type = 16,
+		desc = "这都是为了研究喵~请尽可能多的提交过来喵~\n需求:「中和剂·黄」6个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "24",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24194,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24195] = {
+		name = "「中和剂·绿」的研究喵！",
+		guild_coin_award = 0,
+		award = 906754,
+		type = 16,
+		desc = "这都是为了研究喵~请尽可能多的提交过来喵~\n需求:「中和剂·绿」6个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "25",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24195,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24196] = {
+		name = "关于「核水晶元素」的研究！",
+		guild_coin_award = 0,
+		award = 906755,
+		type = 16,
+		desc = "为了彻底解析「核水晶元素」的结构，需要更多研究素材……有劳了。\n需求:「核水晶元素」4个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "26",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "tuolichaili",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24196,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				120
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24197] = {
+		name = "『莱莎联动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 906756,
+		type = 6,
+		desc = "开启20个外观装备箱(炼金工房)",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24197,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			30340,
+			30373
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30513,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24198] = {
+		name = "『莱莎联动』-日常建造",
+		guild_coin_award = 0,
+		award = 906757,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24198,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65652,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24199] = {
+		name = "『莱莎联动』-日常出击",
+		guild_coin_award = 0,
+		award = 906758,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24199,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65652,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24200] = {
+		name = "『莱莎联动』-日常困难本",
+		guild_coin_award = 0,
+		award = 906759,
+		type = 36,
+		desc = "通关1次任意困难关卡。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24200,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65652,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24201] = {
+		name = "『莱莎联动』通关T1",
+		guild_coin_award = 0,
+		award = 906760,
+		type = 6,
+		desc = "通关「炼金术士与遗迹群岛」特别作战关卡T1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "24202",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24201,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24202] = {
+		name = "『莱莎联动』通关T2",
+		guild_coin_award = 0,
+		award = 906761,
+		type = 6,
+		desc = "通关「炼金术士与遗迹群岛」特别作战关卡T2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "24203",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24202,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24203] = {
+		name = "『莱莎联动』通关T3",
+		guild_coin_award = 0,
+		award = 906762,
+		type = 6,
+		desc = "通关「炼金术士与遗迹群岛」特别作战关卡T3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "24204",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24203,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65652,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24204] = {
+		name = "『莱莎联动』通关T4",
+		guild_coin_award = 0,
+		award = 906763,
+		type = 6,
+		desc = "通关「炼金术士与遗迹群岛」特别作战关卡T4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "24205",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24204,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24205] = {
+		name = "『莱莎联动』通关T5",
+		guild_coin_award = 0,
+		award = 906764,
+		type = 6,
+		desc = "通关「炼金术士与遗迹群岛」特别作战关卡T5",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "24206",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24205,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24206] = {
+		name = "『莱莎联动』通关A.SP",
+		guild_coin_award = 0,
+		award = 906765,
+		type = 6,
+		desc = "通关「炼金术士与遗迹群岛」特别作战关卡A.SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24206,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690003,
+				chapterId = 1690041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24207] = {
+		name = "『莱莎联动』T1的3星",
+		guild_coin_award = 0,
+		award = 906766,
+		type = 6,
+		desc = "完成「炼金术士与遗迹群岛」特别作战关卡T1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "24208",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24207,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24208] = {
+		name = "『莱莎联动』T2的3星",
+		guild_coin_award = 0,
+		award = 906767,
+		type = 6,
+		desc = "完成「炼金术士与遗迹群岛」特别作战关卡T2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "24209",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24208,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24209] = {
+		name = "『莱莎联动』T3的3星",
+		guild_coin_award = 0,
+		award = 906768,
+		type = 6,
+		desc = "完成「炼金术士与遗迹群岛」特别作战关卡T3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "24210",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24209,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24210] = {
+		name = "『莱莎联动』T4的3星",
+		guild_coin_award = 0,
+		award = 906769,
+		type = 6,
+		desc = "完成「炼金术士与遗迹群岛」特别作战关卡T4的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "24211",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24210,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24211] = {
+		name = "『莱莎联动』T5的3星",
+		guild_coin_award = 0,
+		award = 906770,
+		type = 6,
+		desc = "完成「炼金术士与遗迹群岛」特别作战关卡T5的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24211,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24212] = {
+		name = "『莱莎联动』通关EX",
+		guild_coin_award = 0,
+		award = 906771,
+		type = 6,
+		desc = "通关「炼金术士与遗迹群岛」特别作战关卡EX",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690051",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24212,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690004,
+				chapterId = 1690051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24213] = {
+		name = "『莱莎联动』获得大佬章",
+		guild_coin_award = 0,
+		award = 906772,
+		type = 6,
+		desc = "于炼金工房中调合获得「遗迹冒险之证」（「炼金术士与遗迹群岛」）",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24213,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			200
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				9,
+				1218,
+				1
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24214] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906601,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24214,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300201,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24215] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906602,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24215,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300202,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24216] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906603,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24216,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300203,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24217] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906604,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24217,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				8
+			},
+			{
+				102,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300204,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24218] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906605,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24218,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300205,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24219] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906606,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24219,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300206,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24220] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906607,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24220,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300207,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24221] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906608,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24221,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				8
+			},
+			{
+				104,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300208,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24222] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906609,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24222,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				4
+			},
+			{
+				106,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300209,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24223] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906610,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24223,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				4
+			},
+			{
+				106,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300210,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24224] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906611,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24224,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				4
+			},
+			{
+				106,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300211,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24225] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906612,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24225,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				8
+			},
+			{
+				106,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300212,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24226] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906613,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24226,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				4
+			},
+			{
+				108,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300213,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24227] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906614,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24227,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				4
+			},
+			{
+				108,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300214,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24228] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906615,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24228,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				4
+			},
+			{
+				108,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300215,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24229] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906616,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24229,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				8
+			},
+			{
+				108,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300216,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24230] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906617,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24230,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				4
+			},
+			{
+				110,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300217,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24231] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906618,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24231,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				4
+			},
+			{
+				110,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300218,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24232] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906619,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24232,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				4
+			},
+			{
+				110,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300219,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24233] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906620,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24233,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				8
+			},
+			{
+				110,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300220,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24235] = {
+		name = "『优米雅联动』剧情模式",
+		guild_coin_award = 0,
+		award = 906625,
+		type = 6,
+		desc = "完成「炼金术士与天际交汇之塔」的「剧情模式」",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24235,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			6988
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24236] = {
+		name = "『优米雅联动』日常剧情触发1",
+		guild_coin_award = 0,
+		award = 906785,
+		type = 6,
+		desc = "在「炼金术士与天际交汇之塔」活动期间，累计获得「天际微尘」*5000。",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50060",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN1",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "24237",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "528",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24236,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24237] = {
+		name = "『优米雅联动』日常剧情触发2",
+		guild_coin_award = 0,
+		award = 906786,
+		type = 6,
+		desc = "在「炼金工房」中，累计完成10次调合。（「炼金术士与天际交汇之塔」）",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN2",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "24238",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24237,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24238] = {
+		name = "『优米雅联动』日常剧情触发3",
+		guild_coin_award = 0,
+		award = 906787,
+		type = 6,
+		desc = "通关20次「炼金术士与天际交汇之塔」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN3",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "24239",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24238,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24239] = {
+		name = "『优米雅联动』日常剧情触发4",
+		guild_coin_award = 0,
+		award = 906788,
+		type = 6,
+		desc = "在「炼金工房」中，累计完成30次调合。（「炼金术士与天际交汇之塔」）",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN4",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24239,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24240] = {
+		name = "『优米雅联动』-日常建造",
+		guild_coin_award = 0,
+		award = 906790,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24240,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65663,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24241] = {
+		name = "『优米雅联动』-日常出击",
+		guild_coin_award = 0,
+		award = 906791,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24241,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65663,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24242] = {
+		name = "『优米雅联动』-日常困难本",
+		guild_coin_award = 0,
+		award = 906792,
+		type = 36,
+		desc = "通关1次任意困难关卡。",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24242,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65663,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24243] = {
+		name = "『优米雅联动』-通关T1",
+		guild_coin_award = 0,
+		award = 906793,
+		type = 6,
+		desc = "通关「炼金术士与天际交汇之塔」特别作战关卡T1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940001",
+		next_task = "24244",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24243,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24244] = {
+		name = "『优米雅联动』-通关T2",
+		guild_coin_award = 0,
+		award = 906794,
+		type = 6,
+		desc = "通关「炼金术士与天际交汇之塔」特别作战关卡T2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940002",
+		next_task = "24245",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24244,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24245] = {
+		name = "『优米雅联动』-通关T3",
+		guild_coin_award = 0,
+		award = 906795,
+		type = 6,
+		desc = "通关「炼金术士与天际交汇之塔」特别作战关卡T3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940003",
+		next_task = "24246",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24245,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65663,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24246] = {
+		name = "『优米雅联动』-通关T4",
+		guild_coin_award = 0,
+		award = 906796,
+		type = 6,
+		desc = "通关「炼金术士与天际交汇之塔」特别作战关卡T4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940004",
+		next_task = "24247",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24246,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24247] = {
+		name = "『优米雅联动』-通关T5",
+		guild_coin_award = 0,
+		award = 906797,
+		type = 6,
+		desc = "通关「炼金术士与天际交汇之塔」特别作战关卡T5",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940005",
+		next_task = "24248",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24247,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24248] = {
+		name = "『优米雅联动』-通关Y.SP",
+		guild_coin_award = 0,
+		award = 906798,
+		type = 6,
+		desc = "通关「炼金术士与天际交汇之塔」特别作战关卡Y.SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940041",
+		next_task = "24236",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24248,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1940003,
+				chapterId = 1940041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24249] = {
+		name = "『优米雅联动』-T1的3星",
+		guild_coin_award = 0,
+		award = 906799,
+		type = 6,
+		desc = "完成「炼金术士与天际交汇之塔」特别作战关卡T1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940001",
+		next_task = "24250",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24249,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24250] = {
+		name = "『优米雅联动』-T2的3星",
+		guild_coin_award = 0,
+		award = 906800,
+		type = 6,
+		desc = "完成「炼金术士与天际交汇之塔」特别作战关卡T2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940002",
+		next_task = "24251",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24250,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24251] = {
+		name = "『优米雅联动』-T3的3星",
+		guild_coin_award = 0,
+		award = 906801,
+		type = 6,
+		desc = "完成「炼金术士与天际交汇之塔」特别作战关卡T3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940003",
+		next_task = "24252",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24251,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24252] = {
+		name = "『优米雅联动』-T4的3星",
+		guild_coin_award = 0,
+		award = 906802,
+		type = 6,
+		desc = "完成「炼金术士与天际交汇之塔」特别作战关卡T4的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940004",
+		next_task = "24253",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24252,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24253] = {
+		name = "『优米雅联动』-T5的3星",
+		guild_coin_award = 0,
+		award = 906803,
+		type = 6,
+		desc = "完成「炼金术士与天际交汇之塔」特别作战关卡T5的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24253,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24254] = {
+		name = "『优米雅联动』-通关EX",
+		guild_coin_award = 0,
+		award = 906804,
+		type = 6,
+		desc = "通关「炼金术士与天际交汇之塔」特别作战关卡EX",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24254,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940051,
+			1940052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1940004,
+				chapterId = 1940051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24255] = {
+		name = "『优米雅联动』-累计通关活动关卡10次",
+		guild_coin_award = 0,
+		award = 906805,
+		type = 6,
+		desc = "通关10次「炼金术士与天际交汇之塔」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24255,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				500
+			},
+			{
+				5,
+				325110,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24256] = {
+		name = "『优米雅联动』-累计通关活动关卡20次",
+		guild_coin_award = 0,
+		award = 906806,
+		type = 6,
+		desc = "通关20次「炼金术士与天际交汇之塔」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24256,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				128,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24257] = {
+		name = "『优米雅联动』-累计通关活动关卡30次",
+		guild_coin_award = 0,
+		award = 906807,
+		type = 6,
+		desc = "通关30次「炼金术士与天际交汇之塔」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24257,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				127,
+				1
+			},
+			{
+				1,
+				528,
+				1000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24258] = {
+		name = "『优米雅联动』-累计通关活动关卡40次",
+		guild_coin_award = 0,
+		award = 906808,
+		type = 6,
+		desc = "通关40次「炼金术士与天际交汇之塔」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24258,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				325110,
+				1
+			},
+			{
+				1001,
+				101,
+				4
+			},
+			{
+				1001,
+				102,
+				4
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24259] = {
+		name = "『优米雅联动』-累计通关活动关卡50次",
+		guild_coin_award = 0,
+		award = 906809,
+		type = 6,
+		desc = "通关50次「炼金术士与天际交汇之塔」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24259,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1499,
+				1
+			},
+			{
+				1001,
+				101,
+				8
+			},
+			{
+				1001,
+				102,
+				8
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24260] = {
+		name = "『优米雅联动』-累计通关活动关卡60次",
+		guild_coin_award = 0,
+		award = 906810,
+		type = 6,
+		desc = "通关60次「炼金术士与天际交汇之塔」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24260,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				3000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24261] = {
+		name = "『优米雅联动』-通关素材关1",
+		guild_coin_award = 0,
+		award = 906811,
+		type = 6,
+		desc = "通关1次「炼金术士与天际交汇之塔」特别作战关卡-TS1",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24261,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				116,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24262] = {
+		name = "『优米雅联动』-通关素材关2",
+		guild_coin_award = 0,
+		award = 906812,
+		type = 6,
+		desc = "通关1次「炼金术士与天际交汇之塔」特别作战关卡-TS2",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24262,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940022
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				117,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24263] = {
+		name = "『优米雅联动』-通关素材关3",
+		guild_coin_award = 0,
+		award = 906813,
+		type = 6,
+		desc = "通关1次「炼金术士与天际交汇之塔」特别作战关卡-TS3",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24263,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940023
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				118,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24264] = {
+		name = "『优米雅联动』-通关素材关4",
+		guild_coin_award = 0,
+		award = 906814,
+		type = 6,
+		desc = "通关1次「炼金术士与天际交汇之塔」特别作战关卡-TS4",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24264,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				119,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24265] = {
+		name = "『优米雅联动』-通关素材关5",
+		guild_coin_award = 0,
+		award = 906815,
+		type = 6,
+		desc = "通关1次「炼金术士与天际交汇之塔」特别作战关卡-TS5",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24265,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940025
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				120,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24266] = {
+		name = "『优米雅联动』-中和剂回收·红",
+		guild_coin_award = 0,
+		award = 906816,
+		type = 16,
+		desc = "提交15个中和剂·红（「炼金术士与天际交汇之塔」）",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "129",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24266,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24267] = {
+		name = "『优米雅联动』-中和剂回收·蓝",
+		guild_coin_award = 0,
+		award = 906817,
+		type = 16,
+		desc = "提交15个中和剂·蓝（「炼金术士与天际交汇之塔」）",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "130",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24267,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24268] = {
+		name = "『优米雅联动』-中和剂回收·绿",
+		guild_coin_award = 0,
+		award = 906818,
+		type = 16,
+		desc = "提交15个中和剂·绿（「炼金术士与天际交汇之塔」）",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "131",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24268,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24269] = {
+		name = "『优米雅联动』-中和剂回收·黄",
+		guild_coin_award = 0,
+		award = 906819,
+		type = 16,
+		desc = "提交15个中和剂·黄（「炼金术士与天际交汇之塔」）",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "132",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24269,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24270] = {
+		name = "『优米雅联动』-中和剂回收·七彩",
+		guild_coin_award = 0,
+		award = 906820,
+		type = 16,
+		desc = "提交10个中和剂·七彩（「炼金术士与天际交汇之塔」）",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "133",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24270,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24271] = {
+		name = "『优米雅联动』-外观装备箱",
+		guild_coin_award = 0,
+		award = 906789,
+		type = 6,
+		desc = "开启20个外观装备箱(炼金工房II)",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24271,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			30370,
+			30372
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30557,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24272] = {
+		name = "『优米雅联动』大佬章任务",
+		guild_coin_award = 0,
+		award = 906828,
+		type = 6,
+		desc = "在「炼金工房」中，累计完成25种配方的调合。（「炼金术士与天际交汇之塔」）",
+		count_inherit = 0,
+		sub_type = 9007,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24272,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1001,
+			1002,
+			1003,
+			1004,
+			1011,
+			1012,
+			1013,
+			1014,
+			1015,
+			1016,
+			1017,
+			1018,
+			1019,
+			1020,
+			1021,
+			1022,
+			1023,
+			1024,
+			1025,
+			1026,
+			1027,
+			1028,
+			1029,
+			1030,
+			1031
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				311,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24273] = {
+		name = "『优米雅联动』能源核心满级1",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "在「炼金术士与天际交汇之塔」特别作战中，核心：起始区段达到满级",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24273,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24217
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24274] = {
+		name = "『优米雅联动』能源核心满级2",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "在「炼金术士与天际交汇之塔」特别作战中，核心：L1区段达到满级",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24274,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24221
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24275] = {
+		name = "『优米雅联动』能源核心满级3",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "在「炼金术士与天际交汇之塔」特别作战中，核心：L2区段达到满级",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24275,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24225
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24276] = {
+		name = "『优米雅联动』能源核心满级4",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "在「炼金术士与天际交汇之塔」特别作战中，核心：L3区段达到满级",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24276,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24229
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24277] = {
+		name = "『优米雅联动』能源核心满级5",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "在「炼金术士与天际交汇之塔」特别作战中，核心：塔尖区段达到满级",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24277,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24233
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[31017] = {
 		name = "殿堂奖励第一名",
 		guild_coin_award = 0,
@@ -254899,6 +262186,2937 @@ end)()
 		award_display = {},
 		scene = {
 			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56201] = {
+		name = "探索「T1-新的冒险」",
+		guild_coin_award = 0,
+		award = 98551,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T1-新的冒险」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56201,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				42,
+				1
+			},
+			{
+				1001,
+				28,
+				1
+			},
+			{
+				1001,
+				12,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690001,
+				mapIdx = 1690001,
+				openChapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56202] = {
+		name = "探索「T2-素材与调合」",
+		guild_coin_award = 0,
+		award = 98552,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T2-素材与调合」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56202,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				43,
+				1
+			},
+			{
+				1001,
+				27,
+				1
+			},
+			{
+				1001,
+				15,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690002,
+				mapIdx = 1690001,
+				openChapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56203] = {
+		name = "探索「T3-调查与比赛」",
+		guild_coin_award = 0,
+		award = 98553,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T3-调查与比赛」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56203,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				45,
+				1
+			},
+			{
+				1001,
+				30,
+				1
+			},
+			{
+				1001,
+				9,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690003,
+				mapIdx = 1690001,
+				openChapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56204] = {
+		name = "探索「T4-迷宫与宝藏」",
+		guild_coin_award = 0,
+		award = 98554,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T4-迷宫与宝藏」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56204,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				44,
+				1
+			},
+			{
+				1001,
+				29,
+				1
+			},
+			{
+				1001,
+				6,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690004,
+				mapIdx = 1690001,
+				openChapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56205] = {
+		name = "探索「T5-冒险的尾声」",
+		guild_coin_award = 0,
+		award = 98555,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，以100%进度通关「T5-冒险的尾声」！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56205,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95127,
+				1
+			},
+			{
+				1001,
+				7,
+				1
+			},
+			{
+				1001,
+				10,
+				1
+			},
+			{
+				1001,
+				13,
+				1
+			},
+			{
+				1001,
+				16,
+				1
+			},
+			{
+				1001,
+				34,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690005,
+				mapIdx = 1690001,
+				openChapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56206] = {
+		name = "完全探索「TH1-起始之地」",
+		guild_coin_award = 0,
+		award = 98556,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH1-起始之地」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1696013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56206,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				51,
+				1
+			},
+			{
+				1001,
+				14,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690021,
+				mapIdx = 1690002,
+				openChapterId = 1690021
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56207] = {
+		name = "完全探索「TH2-异界之森」",
+		guild_coin_award = 0,
+		award = 98557,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH2-异界之森」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1697013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56207,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				50,
+				1
+			},
+			{
+				1001,
+				17,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690022,
+				mapIdx = 1690002,
+				openChapterId = 1690022
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56208] = {
+		name = "完全探索「TH3-争斗之城」",
+		guild_coin_award = 0,
+		award = 98558,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH3-争斗之城」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1698013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56208,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				48,
+				1
+			},
+			{
+				1001,
+				11,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690023,
+				mapIdx = 1690002,
+				openChapterId = 1690023
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56209] = {
+		name = "完全探索「TH4-失落之都」",
+		guild_coin_award = 0,
+		award = 98559,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH4-失落之都」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1699013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56209,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				49,
+				1
+			},
+			{
+				1001,
+				8,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690024,
+				mapIdx = 1690002,
+				openChapterId = 1690024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56210] = {
+		name = "完全探索「TH5-核心之所」",
+		guild_coin_award = 0,
+		award = 98560,
+		type = 6,
+		desc = "参与「炼金术士与遗迹群岛」作战，通关采集地「TH5-核心之所」10次！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1694014",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56210,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				20,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690025,
+				mapIdx = 1690002,
+				openChapterId = 1690025
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56211] = {
+		name = "向着遗迹群岛，出发！",
+		guild_coin_award = 0,
+		award = 98561,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」活动期间，登录游戏一次。",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "shoes",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56211,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				288,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56212] = {
+		name = "加入了炼金素材的建造！",
+		guild_coin_award = 0,
+		award = 98562,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」活动期间，完成建造20次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56212,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56213] = {
+		name = "石油，也可以作为炼金素材么？",
+		guild_coin_award = 0,
+		award = 98563,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」活动期间，累计消耗石油10000点。",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56213,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				46,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56214] = {
+		name = "第一个工具！",
+		guild_coin_award = 0,
+		award = 98564,
+		type = 6,
+		desc = "在「炼金工房」中，利用配方调合出任意1种工具。",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56214,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1,
+			2,
+			3,
+			4,
+			5
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				150
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56215] = {
+		name = "准备齐全！",
+		guild_coin_award = 0,
+		award = 98565,
+		type = 6,
+		desc = "在「炼金工房」中，利用配方调合出全部5种工具。",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56215,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1,
+			2,
+			3,
+			4,
+			5
+		},
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				1,
+				287,
+				150
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56216] = {
+		name = "更熟练的调合",
+		guild_coin_award = 0,
+		award = 98566,
+		type = 6,
+		desc = "在「炼金工房」中，累计完成10次调合。",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56216,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1,
+				287,
+				300
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				286,
+				300
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56217] = {
+		name = "收集「遗迹水晶簇」",
+		guild_coin_award = 0,
+		award = 98567,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」活动期间，累计获得「遗迹水晶簇」*10000。",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50051",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "523",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56217,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				32,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56218] = {
+		name = "温泉开发完成！",
+		guild_coin_award = 0,
+		award = 98568,
+		type = 6,
+		desc = "完成「温泉开发战」-DAY 7。",
+		count_inherit = 0,
+		sub_type = 63,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "95128",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56218,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				33,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"RYZA_URBAN_AREA"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56219] = {
+		name = "讨伐「菲尔弗萨级量产型」I",
+		guild_coin_award = 0,
+		award = 98569,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人50艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56219,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56220] = {
+		name = "讨伐「菲尔弗萨级量产型」II",
+		guild_coin_award = 0,
+		award = 98570,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人100艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56220,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95119,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56221] = {
+		name = "讨伐「菲尔弗萨级量产型」III",
+		guild_coin_award = 0,
+		award = 98571,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人150艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56221,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56222] = {
+		name = "讨伐「菲尔弗萨级量产型」IV",
+		guild_coin_award = 0,
+		award = 98572,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人200艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56222,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95115,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56223] = {
+		name = "讨伐「菲尔弗萨级量产型」V",
+		guild_coin_award = 0,
+		award = 98573,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计击沉「菲尔弗萨级量产型」敌人250艘。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56223,
+		target_num = 250,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				47,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56224] = {
+		name = "讨伐「古代遗迹型执行者」I",
+		guild_coin_award = 0,
+		award = 98574,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计消灭「古代遗迹型执行者」精英敌人15次。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56224,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				286,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56225] = {
+		name = "讨伐「古代遗迹型执行者」II",
+		guild_coin_award = 0,
+		award = 98575,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计消灭「古代遗迹型执行者」精英敌人30次。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56225,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95131,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56226] = {
+		name = "讨伐「古代遗迹守护者原型机」",
+		guild_coin_award = 0,
+		award = 98576,
+		type = 6,
+		desc = "在「炼金术士与遗迹群岛」关卡中，累计消灭「古代遗迹守护者原型机」10次。",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56226,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16304306
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95132,
+				1
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56227] = {
+		name = "收集「闪电矿」·大量",
+		guild_coin_award = 0,
+		award = 98577,
+		type = 6,
+		desc = "拥有雷之力的矿石，究竟是怎样的呢？\n需求素材: 「闪电矿」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "15",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "wuzang",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56227,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				57,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56228] = {
+		name = "收集 「沙丁鱼」·少量",
+		guild_coin_award = 0,
+		award = 98578,
+		type = 6,
+		desc = "为了烧烤派对，请收集一些沙丁鱼来！\n需求素材: 「沙丁鱼」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "7",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiyatu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56228,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				56,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56229] = {
+		name = "收集 「岩浆粉」",
+		guild_coin_award = 0,
+		award = 98579,
+		type = 6,
+		desc = "能自动发热的熔岩粉末，一定能做成特别棒的烟花！请帮忙收集一些回来！\n需求素材:「岩浆粉」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "11",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "fushun",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56229,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				58,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56230] = {
+		name = "收集「小晶石」·大量",
+		guild_coin_award = 0,
+		award = 98580,
+		type = 6,
+		desc = "亮闪闪……好看。想要……\n需求素材: 「小晶石」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "9",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aierdeliqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56230,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				52,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56231] = {
+		name = "收集「翼叶草」·少量",
+		guild_coin_award = 0,
+		award = 98581,
+		type = 6,
+		desc = "形状像鸟类翅膀的植物，真漂亮啊……我想收集一些来种在花圃里！\n需求素材: 「翼叶草」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "13",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "huayue",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56231,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				53,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56232] = {
+		name = "收集「未知能源核心」",
+		guild_coin_award = 0,
+		award = 98582,
+		type = 6,
+		desc = "据说是古代遗迹守护者异常动力的来源……有必要详细调查一番才行。\n需求素材: 「未知能源核心」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "20",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "yinggelahan",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56232,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				54,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56233] = {
+		name = "收集「普鲁姆鲁螺」·大量",
+		guild_coin_award = 0,
+		award = 98583,
+		type = 6,
+		desc = "贝法想尝试一下新的海鲜料理，于是拜托我去收集一些螺回来，所以我就来发委托了——\n需求素材: 「普鲁姆鲁螺」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "6",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aidingbao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56233,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				55,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56234] = {
+		name = "收集 「可燃之砂」·少量",
+		guild_coin_award = 0,
+		award = 98584,
+		type = 6,
+		desc = "请收集一些这种一点就燃的沙子来，用途的话暂时保密~拜托咯！\n需求素材: 「可燃之砂」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "10",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "daqinghuayu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56234,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95113,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56235] = {
+		name = "收集「血红通草」",
+		guild_coin_award = 0,
+		award = 98585,
+		type = 6,
+		desc = "与鲜血颜色相同的草，用来点缀人家的头饰或许不错呢~\n需求素材:「血红通草」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "14",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xixuegui",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56235,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56236] = {
+		name = "收集 「未知结晶矿」·大量",
+		guild_coin_award = 0,
+		award = 98586,
+		type = 6,
+		desc = "从核心区找到的未知结晶……感觉很有价值喵。收集的事就拜托了喵~\n需求素材: 「未知结晶矿」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "18",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56236,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56237] = {
+		name = "收集「引导之星碎片」·少量",
+		guild_coin_award = 0,
+		award = 98587,
+		type = 6,
+		desc = "蕴含有奇妙能量的天外碎片，妾身有点在意它的用途……\n需求素材: 「引导之星碎片」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "16",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xinnong",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56237,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56238] = {
+		name = "收集「湖底之主」",
+		guild_coin_award = 0,
+		award = 98588,
+		type = 6,
+		desc = "这么厉害的鱼一定能做成非常美味的仰望星空派吧……等做好之后欢迎来品尝哦！\n需求素材: 「湖底之主」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "8",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "manchesite",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56238,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95108,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56239] = {
+		name = "收集「无名草」·大量",
+		guild_coin_award = 0,
+		award = 98589,
+		type = 6,
+		desc = "希望能获得大量无名草作为忍者的训练道具。\n需求素材: 「无名草」5个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "12",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56239,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56240] = {
+		name = "收集「未知装甲板」·少量",
+		guild_coin_award = 0,
+		award = 98590,
+		type = 6,
+		desc = "为了升级训练场中标靶的质量，请收集一些塞壬在海域中制作的新型装甲版来。\n需求素材: 「未知装甲板」3个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "19",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "qianwei",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56240,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95140,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56241] = {
+		name = "收集「圣石」",
+		guild_coin_award = 0,
+		award = 98591,
+		type = 6,
+		desc = "呼呼呼，这个名叫「圣石」的矿石……真是有趣。下次出门就拜托给我带点回来咯？\n需求素材: 「圣石」1个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "17",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "makeboluo",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56241,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56242] = {
+		name = "研究「精灵的小瓶」的奥秘！",
+		guild_coin_award = 0,
+		award = 98592,
+		type = 16,
+		desc = "请收集一些「精灵的小瓶」来，越多越好！（P.S.达芬奇正在废寝忘食的工作中，本条委托由阿尔弗雷多代发。）\n需求:「精灵的小瓶」10个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "21",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "dafenqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56242,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56243] = {
+		name = "「中和剂·红」的研究喵！",
+		guild_coin_award = 0,
+		award = 98593,
+		type = 16,
+		desc = "这都是为了研究喵~请尽可能多的提交过来喵~\n需求:「中和剂·红」6个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "22",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56243,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56244] = {
+		name = "「中和剂·蓝」的研究喵！",
+		guild_coin_award = 0,
+		award = 98594,
+		type = 16,
+		desc = "这都是为了研究喵~请尽可能多的提交过来喵~\n需求:「中和剂·蓝」6个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "23",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56244,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56245] = {
+		name = "「中和剂·黄」的研究喵！",
+		guild_coin_award = 0,
+		award = 98595,
+		type = 16,
+		desc = "这都是为了研究喵~请尽可能多的提交过来喵~\n需求:「中和剂·黄」6个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "24",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56245,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56246] = {
+		name = "「中和剂·绿」的研究喵！",
+		guild_coin_award = 0,
+		award = 98596,
+		type = 16,
+		desc = "这都是为了研究喵~请尽可能多的提交过来喵~\n需求:「中和剂·绿」6个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "25",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56246,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56247] = {
+		name = "关于「核水晶元素」的研究！",
+		guild_coin_award = 0,
+		award = 98597,
+		type = 16,
+		desc = "为了彻底解析「核水晶元素」的结构，需要更多研究素材……有劳了。\n需求:「核水晶元素」4个",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "26",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "tuolichaili",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56247,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				120
+			},
+			{
+				1,
+				286,
+				100
+			}
 		}
 	}
 end)()

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_ryza_2",
 			stopbgm = true,
 			say = "遗迹群岛·争斗之城 一段时间后",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-8",
 			flashout = {
 				black = true,
 				dur = 1,

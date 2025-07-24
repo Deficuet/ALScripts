@@ -49,12 +49,20 @@ local function var_0_1(arg_6_0)
 end
 
 function var_0_0.InitData(arg_7_0)
-	arg_7_0.pages = NewBattleResultSystem2Pages[arg_7_0.contextData.system] or {
+	local var_7_0 = NewBattleResultYumiaMaterialPage.NeedShowYumiaMaterailDrop(arg_7_0.contextData.drops) and {
+		NewBattleResultGradePage,
+		NewBattleResultDisplayAwardPage,
+		NewBattleResultYumiaMaterialPage,
+		NewBattleResultDisplayPaintingsPage,
+		NewBattleResultStatisticsPage
+	} or {
 		NewBattleResultGradePage,
 		NewBattleResultDisplayAwardPage,
 		NewBattleResultDisplayPaintingsPage,
 		NewBattleResultStatisticsPage
 	}
+
+	arg_7_0.pages = NewBattleResultSystem2Pages[arg_7_0.contextData.system] or var_7_0
 
 	var_0_1(arg_7_0.pages)
 

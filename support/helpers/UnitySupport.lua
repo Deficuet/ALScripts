@@ -37,6 +37,12 @@ end
 destroy = Destroy
 
 function SetActive(arg_8_0, arg_8_1)
+	if arg_8_0 == nil then
+		print("<color=red>SetActive Object is NIL!!!!</color>")
+
+		return
+	end
+
 	LuaHelper.SetActiveForLua(arg_8_0, tobool(arg_8_1))
 end
 
@@ -460,13 +466,15 @@ function RemoveComponent(arg_56_0, arg_56_1)
 	end
 end
 
-function SetCompomentEnabled(arg_57_0, arg_57_1, arg_57_2)
+function SetComponentEnabled(arg_57_0, arg_57_1, arg_57_2)
 	local var_57_0 = arg_57_0:GetComponent(arg_57_1)
 
 	assert(var_57_0, "compoment not found")
 
 	var_57_0.enabled = tobool(arg_57_2)
 end
+
+SetCompomentEnabled = SetComponentEnabled
 
 function GetInChildren(arg_58_0, arg_58_1)
 	local function var_58_0(arg_59_0, arg_59_1)

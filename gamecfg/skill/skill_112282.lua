@@ -1,0 +1,261 @@
+return {
+	effect_list = {
+		{
+			type = "BattleSkillFire",
+			casterAniEffect = "",
+			target_choise = "TargetHarmRandomByWeight",
+			targetAniEffect = "",
+			arg_list = {
+				weapon_id = 168721
+			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			target_choise = "TargetSelf",
+			targetAniEffect = "",
+			arg_list = {
+				buff_id = 112283,
+				delay = 2
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168721
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168722
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168723
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168724
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168725
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168726
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168727
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168728
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168729
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleSkillFire",
+				casterAniEffect = "",
+				target_choise = "TargetHarmRandomByWeight",
+				targetAniEffect = "",
+				arg_list = {
+					weapon_id = 168730
+				}
+			},
+			{
+				type = "BattleSkillAddBuff",
+				casterAniEffect = "",
+				target_choise = "TargetSelf",
+				targetAniEffect = "",
+				arg_list = {
+					buff_id = 112283,
+					delay = 2
+				}
+			}
+		}
+	},
+	uiEffect = "",
+	name = "",
+	cd = 0,
+	painting = 1,
+	id = 112282,
+	picture = "1",
+	castCV = "skill",
+	desc = ""
+}

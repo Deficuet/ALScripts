@@ -83,12 +83,10 @@ local function var_0_1(arg_1_0, arg_1_1)
 		end
 	end
 
-	for iter_1_8, iter_1_9 in pairs(arg_1_1:GetBuffList()) do
-		table.insert(arg_1_0, iter_1_9)
-	end
+	table.insertto(arg_1_0, arg_1_1:GetBuffList())
 end
 
-function var_0_0.GetAllBuff(arg_4_0)
+function var_0_0.GetAllBuff()
 	local var_4_0 = {}
 	local var_4_1 = getProxy(PlayerProxy):getRawData()
 
@@ -99,31 +97,31 @@ function var_0_0.GetAllBuff(arg_4_0)
 	local var_4_2 = getProxy(ActivityProxy):getRawData()
 
 	for iter_4_2, iter_4_3 in pairs(var_4_2) do
-		if (function()
-			if arg_4_0 and arg_4_0.system and arg_4_0.system == SYSTEM_SCENARIO and iter_4_3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_ATELIER_LINK then
-				local var_5_0 = getProxy(ChapterProxy):getActiveChapter(true)
-				local var_5_1 = var_5_0 and getProxy(ChapterProxy):getMapById(var_5_0:getConfig("map")) or nil
-
-				if var_5_1 and not AtelierActivity.IsActivityBuffMap(var_5_1) then
-					return false
-				end
-			end
-
-			return true
-		end)() then
-			var_0_1(var_4_0, iter_4_3)
-		end
+		var_0_1(var_4_0, iter_4_3)
 	end
 
 	return var_4_0
 end
 
 function var_0_0.GetBackYardExpBuffs()
+	local var_5_0 = {}
+	local var_5_1 = var_0_0.GetAllBuff()
+
+	for iter_5_0, iter_5_1 in ipairs(var_5_1) do
+		if iter_5_1:BackYardExpUsage() then
+			table.insert(var_5_0, iter_5_1)
+		end
+	end
+
+	return var_5_0
+end
+
+function var_0_0.GetBackYardEnergyBuffs()
 	local var_6_0 = {}
 	local var_6_1 = var_0_0.GetAllBuff()
 
 	for iter_6_0, iter_6_1 in ipairs(var_6_1) do
-		if iter_6_1:BackYardExpUsage() then
+		if iter_6_1:BackyardEnergyUsage() then
 			table.insert(var_6_0, iter_6_1)
 		end
 	end
@@ -132,7 +130,16 @@ function var_0_0.GetBackYardExpBuffs()
 end
 
 function var_0_0.GetShipModExpBuff()
-	return getProxy(ActivityProxy):getShipModExpActivity()
+	local var_7_0 = {}
+	local var_7_1 = var_0_0.GetAllBuff()
+
+	for iter_7_0, iter_7_1 in ipairs(var_7_1) do
+		if iter_7_1:ShipModExpUsage() then
+			table.insert(var_7_0, iter_7_1)
+		end
+	end
+
+	return var_7_0
 end
 
 function var_0_0.GetBackYardPlayerBuffs()
@@ -152,9 +159,7 @@ end
 
 function var_0_0.GetBattleBuffs(arg_9_0)
 	local var_9_0 = {}
-	local var_9_1 = var_0_0.GetAllBuff({
-		system = arg_9_0
-	})
+	local var_9_1 = var_0_0.GetAllBuff()
 
 	for iter_9_0, iter_9_1 in ipairs(var_9_1) do
 		if iter_9_1:BattleUsage() then

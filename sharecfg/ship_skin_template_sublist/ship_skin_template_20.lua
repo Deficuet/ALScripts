@@ -1380,7 +1380,6 @@ pg.base.ship_skin_template_20 = {
 		bg = "106",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
-		spine_offset_profile = "",
 		skin_type = 4,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -1407,6 +1406,12 @@ pg.base.ship_skin_template_20 = {
 			0,
 			0,
 			0
+		},
+		spine_offset_profile = {
+			72.5,
+			-714.7,
+			0,
+			0.85
 		},
 		fx_container = {
 			{

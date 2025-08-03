@@ -8057,6 +8057,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_pt_4 = {
+		tip = "已获取"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.couplete_pair_3 = {
 		tip = "夜雨瞒人去润花"
 	}
@@ -17408,7 +17414,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.yumia_pt_1 = {
-		tip = "活动期间，累计Pt可获取活动限定奖励。※领取时间延长至8月6日 24时"
+		tip = "活动期间，累计Pt可获取活动限定奖励。※领取时间延长至8月13日 24时"
 	}
 end)()
 
@@ -21673,7 +21679,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.yumia_mana_battle_tip = {
-		tip = "环境玛娜达到100%时，所有Atelier Yumia联动角色进入【降临】状态，随后环境玛娜降至0%"
+		tip = "环境玛那达到100%时，所有Atelier Yumia联动角色进入【降临】状态，随后环境玛那降至0%"
 	}
 end)()
 

@@ -164494,7 +164494,7 @@ end)()
 		type = 17,
 		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「生活区」</color>-<color=#e7b000>「学院」</color>-<color=#e7b000>「收藏室」</color>确认当前已拥有的勋章；\n·在<color=#e7b000>「主界面」</color>-<color=#e7b000>「个人头像」</color>-<color=#e7b000>「装扮」</color>可进入装扮调整界面，在左侧<color=#e7b000>「展示勋章」</color>选项中可调整当前展示的勋章；\n·勋章佩戴后可在个人名片中展示；\n·不同的勋章拥有不同获取条件，达成对应条件后可在勋章收藏室中领取相应的勋章，任务详情可以通过点击各勋章，并在详情弹窗内确认。",
 		count_inherit = 0,
-		sub_type = 160,
+		sub_type = 162,
 		target_id_2 = "0",
 		story_icon = "",
 		is_head = 1,
@@ -164533,7 +164533,7 @@ end)()
 		type = 17,
 		desc = "部分勋章有多个等级的版本，领取上一级勋章后，才能进行下一级勋章的获取；\n·部分与角色相关的勋章中，退役已有角色不会影响已达成的勋章进度，且同名舰船不重复计算进度；\n·另外，在部分活动中也可获取活动相关的纪念勋章。",
 		count_inherit = 0,
-		sub_type = 160,
+		sub_type = 162,
 		target_id_2 = "0",
 		story_icon = "",
 		is_head = 1,
@@ -185680,7 +185680,7 @@ end)()
 			{
 				1,
 				528,
-				1000
+				1500
 			}
 		},
 		scene = {
@@ -186230,11 +186230,11 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[24268] = {
-		name = "『优米雅联动』-中和剂回收·绿",
+		name = "『优米雅联动』-中和剂回收·黄",
 		guild_coin_award = 0,
 		award = 906818,
 		type = 16,
-		desc = "提交15个中和剂·绿（「炼金术士与天际交汇之塔」）",
+		desc = "提交15个中和剂·黄（「炼金术士与天际交汇之塔」）",
 		count_inherit = 0,
 		sub_type = 1006,
 		target_id_2 = "131",
@@ -186273,11 +186273,11 @@ end)()
 
 (function()
 	_G.pg.base.task_data_template[24269] = {
-		name = "『优米雅联动』-中和剂回收·黄",
+		name = "『优米雅联动』-中和剂回收·绿",
 		guild_coin_award = 0,
 		award = 906819,
 		type = 16,
-		desc = "提交15个中和剂·黄（「炼金术士与天际交汇之塔」）",
+		desc = "提交15个中和剂·绿（「炼金术士与天际交汇之塔」）",
 		count_inherit = 0,
 		sub_type = 1006,
 		target_id_2 = "132",

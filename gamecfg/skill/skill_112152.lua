@@ -4,7 +4,7 @@ return {
 	cd = 0,
 	painting = 1,
 	id = 112152,
-	desc = "道具让技能时间减少",
+	desc = "弹条用",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -13,15 +13,5 @@ return {
 			0
 		}
 	},
-	effect_list = {
-		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
-			targetAniEffect = "",
-			arg_list = {
-				buff_id = 112151
-			}
-		}
-	}
+	effect_list = {}
 }

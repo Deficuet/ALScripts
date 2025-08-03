@@ -6,7 +6,7 @@ return {
 	picture = "",
 	desc = "",
 	stack = 10,
-	id = 112151,
+	id = 112154,
 	icon = 112110,
 	last_effect = "",
 	effect_list = {

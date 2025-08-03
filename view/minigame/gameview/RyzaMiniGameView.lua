@@ -118,8 +118,11 @@ function var_0_0.updateMainUI(arg_10_0)
 	arg_10_0:checkGet()
 
 	if var_10_2 == 1 and var_10_4 == 2 then
-		scrollTo(var_10_5, nil, 1)
-		pg.NewGuideMgr.GetInstance():Play("Ryza_MiniGame")
+		if PlayerPrefs.GetInt("ryza_minigame_guide", 0) == 0 then
+			scrollTo(var_10_5, nil, 1)
+			pg.NewGuideMgr.GetInstance():Play("Ryza_MiniGame")
+			PlayerPrefs.SetInt("ryza_minigame_guide", 1)
+		end
 	elseif PlayerPrefs.GetInt("ryza_minigame_help", 0) == 0 then
 		triggerButton(arg_10_0.rtTitlePage:Find("main/btn_rule"))
 	end

@@ -27984,7 +27984,7 @@ pg.activity_template = {
 								warp = "shopstreet"
 							}
 						},
-						"军需商店兑换"
+						"军火商店兑换"
 					},
 					{
 						2,
@@ -28115,10 +28115,7 @@ pg.activity_template = {
 		config_client = {
 			furniture_theme_link = {
 				3,
-				{
-					50063,
-					{}
-				}
+				50063
 			},
 			medal_link = {
 				2,
@@ -28138,7 +28135,7 @@ pg.activity_template = {
 								warp = "shopstreet"
 							}
 						},
-						"军需商店兑换"
+						"军火商店兑换"
 					},
 					{
 						2,

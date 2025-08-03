@@ -29,8 +29,8 @@ function var_0_3.init(arg_2_0)
 	arg_2_0._barVector = rtf(arg_2_0._progress).sizeDelta
 
 	arg_2_0:UpdateMana(0)
-	setText(findTF(arg_2_0._tf, "tips/text", i18n("yumia_mana_battle_tip")))
-	setText(findTF(arg_2_0._tf, "tips/text_shade", i18n("yumia_mana_battle_tip")))
+	setText(findTF(arg_2_0._tf, "tips/text"), i18n("yumia_mana_battle_tip"))
+	setText(findTF(arg_2_0._tf, "tips/text_shade"), i18n("yumia_mana_battle_tip"))
 	onButton(arg_2_0, arg_2_0._tf, function()
 		arg_2_0:showTips()
 	end)

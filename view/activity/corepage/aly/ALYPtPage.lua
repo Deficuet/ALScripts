@@ -68,6 +68,7 @@ function var_0_0.UpdateAward(arg_7_0, arg_7_1, arg_7_2)
 	local var_7_3 = not var_7_2 and var_7_0 <= arg_7_0.ptData:GetMaxAvailableTargetIndex()
 	local var_7_4 = not var_7_2 and not var_7_3
 
+	setText(arg_7_2:Find("got/got_text"), i18n("yumia_pt_4"))
 	setActive(arg_7_2:Find("got"), var_7_2)
 	setActive(arg_7_2:Find("get"), var_7_3)
 	setActive(arg_7_2:Find("lock"), var_7_4)
@@ -93,7 +94,7 @@ function var_0_0.UpdateNextAward(arg_10_0, arg_10_1)
 
 			break
 		elseif iter_10_0 == #arg_10_0.importantPos then
-			-- block empty
+			arg_10_0:UpdateAward(iter_10_1.index - 1, arg_10_0.spAward)
 		end
 	end
 end

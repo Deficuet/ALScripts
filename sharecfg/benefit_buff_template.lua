@@ -2910,7 +2910,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -2928,7 +2928,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -2946,7 +2946,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -2964,7 +2964,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -2982,7 +2982,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000
 		}
@@ -3000,7 +3000,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -3018,7 +3018,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -3036,7 +3036,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -3054,7 +3054,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -3072,7 +3072,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000
 		}
@@ -3090,7 +3090,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -3108,7 +3108,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -3126,7 +3126,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -3144,7 +3144,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -3162,7 +3162,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000
 		}
@@ -3180,7 +3180,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -3198,7 +3198,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -3216,7 +3216,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -3234,7 +3234,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -3252,7 +3252,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000
 		}
@@ -3479,7 +3479,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高5%",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		benefit_effect = "201455",
 		id = 300201,
 		icon = "Props/buff_yumia_1",
@@ -3497,7 +3497,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，每5秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		benefit_effect = "201456",
 		id = 300202,
 		icon = "Props/buff_yumia_2",
@@ -3515,7 +3515,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的10%易伤效果",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		benefit_effect = "201459",
 		id = 300203,
 		icon = "Props/buff_yumia_3",
@@ -3551,7 +3551,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高5%",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		benefit_effect = "201455",
 		id = 300205,
 		icon = "Props/buff_yumia_1",
@@ -3569,7 +3569,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，每5秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		benefit_effect = "201456",
 		id = 300206,
 		icon = "Props/buff_yumia_2",
@@ -3587,7 +3587,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的10%易伤效果",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		benefit_effect = "201459",
 		id = 300207,
 		icon = "Props/buff_yumia_3",
@@ -3623,7 +3623,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高5%",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		benefit_effect = "201455",
 		id = 300209,
 		icon = "Props/buff_yumia_1",
@@ -3641,7 +3641,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，每5秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		benefit_effect = "201456",
 		id = 300210,
 		icon = "Props/buff_yumia_2",
@@ -3659,7 +3659,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的10%易伤效果",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		benefit_effect = "201459",
 		id = 300211,
 		icon = "Props/buff_yumia_3",
@@ -3695,7 +3695,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高5%",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		benefit_effect = "201455",
 		id = 300213,
 		icon = "Props/buff_yumia_1",
@@ -3713,7 +3713,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，每5秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		benefit_effect = "201456",
 		id = 300214,
 		icon = "Props/buff_yumia_2",
@@ -3731,7 +3731,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的10%易伤效果",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		benefit_effect = "201459",
 		id = 300215,
 		icon = "Props/buff_yumia_3",
@@ -3767,7 +3767,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高5%",
+		desc = "战斗中，己方角色的炮击、航空、雷击属性值提高3%",
 		benefit_effect = "201455",
 		id = 300217,
 		icon = "Props/buff_yumia_1",
@@ -3785,7 +3785,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗中，每5秒会百分比回复己方当前耐久值最低的角色1%耐久",
+		desc = "战斗中，每15秒会百分比回复己方当前耐久值最低的角色1%耐久",
 		benefit_effect = "201456",
 		id = 300218,
 		icon = "Props/buff_yumia_2",
@@ -3803,7 +3803,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 50065,
-		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的10%易伤效果",
+		desc = "战斗开始后第15秒及之后每过20秒释放支援弹幕，造成持续8秒的3%易伤效果",
 		benefit_effect = "201459",
 		id = 300219,
 		icon = "Props/buff_yumia_3",

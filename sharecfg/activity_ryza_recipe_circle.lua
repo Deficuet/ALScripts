@@ -7778,7 +7778,7 @@ pg.activity_ryza_recipe_circle = {
 	},
 	[10066] = {
 		star_list = "",
-		prop = 4,
+		prop = 0,
 		prop_type = 0,
 		type = 5,
 		id = 10066,
@@ -9137,8 +9137,8 @@ pg.activity_ryza_recipe_circle = {
 		ryza_item_id = 0,
 		circle_connect = {
 			2,
-			172.4,
-			174
+			-189.8,
+			-176
 		}
 	},
 	[10243] = {
@@ -9152,8 +9152,8 @@ pg.activity_ryza_recipe_circle = {
 		ryza_item_id = 0,
 		circle_connect = {
 			2,
-			-189.8,
-			-176
+			172.4,
+			174
 		}
 	},
 	all = {

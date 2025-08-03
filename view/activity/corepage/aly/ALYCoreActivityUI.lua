@@ -26,7 +26,7 @@ function var_0_0.init(arg_2_0, ...)
 
 			if arg_2_0.pageDic[var_3_0.id] ~= nil then
 				if var_3_0.id == 50063 or var_3_0.id == 50058 then
-					local var_3_1 = arg_2_0:findTF("tip/tip_1", arg_3_2)
+					local var_3_1 = arg_2_0:findTF("tip", arg_3_2)
 
 					setActive(var_3_1, var_3_0:readyToAchieve())
 				else

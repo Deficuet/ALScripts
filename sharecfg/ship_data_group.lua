@@ -1475,6 +1475,9 @@ pg.ship_data_group = setmetatable({
 		[40807] = {
 			400
 		},
+		[40814] = {
+			695
+		},
 		[40804] = {
 			386
 		},
@@ -1483,9 +1486,6 @@ pg.ship_data_group = setmetatable({
 		},
 		[40812] = {
 			528
-		},
-		[40814] = {
-			695
 		},
 		[50101] = {
 			253
@@ -2114,6 +2114,18 @@ pg.ship_data_group = setmetatable({
 		[1120002] = {
 			10122
 		},
+		[1130001] = {
+			10131
+		},
+		[1130002] = {
+			10132
+		},
+		[1130003] = {
+			10133
+		},
+		[1130004] = {
+			10134
+		},
 		[29901] = {
 			20001
 		},
@@ -2386,6 +2398,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970108] = {
 			30049
+		},
+		[970406] = {
+			30050
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -2881,10 +2896,10 @@ pg.ship_data_group = setmetatable({
 			416,
 			492,
 			400,
+			695,
 			386,
 			344,
 			528,
-			695,
 			253,
 			254,
 			255,
@@ -3095,7 +3110,11 @@ pg.ship_data_group = setmetatable({
 			10115,
 			10116,
 			10121,
-			10122
+			10122,
+			10131,
+			10132,
+			10133,
+			10134
 		},
 		{
 			20001,
@@ -3190,7 +3209,8 @@ pg.ship_data_group = setmetatable({
 			30046,
 			30047,
 			30048,
-			30049
+			30049,
+			30050
 		}
 	},
 	all = {
@@ -3685,10 +3705,10 @@ pg.ship_data_group = setmetatable({
 		416,
 		492,
 		400,
+		695,
 		386,
 		344,
 		528,
-		695,
 		253,
 		254,
 		255,
@@ -3898,6 +3918,10 @@ pg.ship_data_group = setmetatable({
 		10116,
 		10121,
 		10122,
+		10131,
+		10132,
+		10133,
+		10134,
 		20001,
 		20002,
 		20003,
@@ -3988,7 +4012,8 @@ pg.ship_data_group = setmetatable({
 		30046,
 		30047,
 		30048,
-		30049
+		30049,
+		30050
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23728,6 +23753,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23758,6 +23794,17 @@ pg.base.ship_data_group = {
 				"イベント：吟ずる瑠璃の楽章",
 				{
 					""
+				},
+				0
+			},
+			{
+				"小型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24659,6 +24706,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24863,6 +24921,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24893,6 +24962,17 @@ pg.base.ship_data_group = {
 				"イベント：吟ずる瑠璃の楽章",
 				{
 					""
+				},
+				0
+			},
+			{
+				"大型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25181,6 +25261,16 @@ pg.base.ship_data_group = {
 				"イベント：吟ずる瑠璃の楽章",
 				{
 					""
+				},
+				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -25965,7 +26055,7 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
-	[386] = {
+	[695] = {
 		type = 8,
 		redirect_id = 101,
 		hide = 0,
@@ -25973,6 +26063,38 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		handbook_type = 0,
 		index_id = 494,
+		code = 695,
+		group_type = 40814,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：ネオンシティの探索者",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[386] = {
+		type = 8,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 4,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 495,
 		code = 386,
 		group_type = 40804,
 		trans_type = 0,
@@ -26024,7 +26146,7 @@ pg.base.ship_data_group = {
 		nationality = 4,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 495,
+		index_id = 496,
 		code = 344,
 		group_type = 40803,
 		trans_type = 0,
@@ -26076,7 +26198,7 @@ pg.base.ship_data_group = {
 		nationality = 4,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 496,
+		index_id = 497,
 		code = 528,
 		group_type = 40812,
 		trans_type = 0,
@@ -26106,38 +26228,6 @@ pg.base.ship_data_group = {
 					{
 						warp = "supplies"
 					}
-				},
-				0
-			}
-		}
-	},
-	[695] = {
-		type = 8,
-		redirect_id = 101,
-		hide = 0,
-		nationality = 4,
-		trans_skin = 0,
-		handbook_type = 0,
-		index_id = 497,
-		code = 695,
-		group_type = 40814,
-		trans_type = 0,
-		share_group_id = {},
-		property_hexagon = {
-			"D",
-			"S",
-			"E",
-			"D",
-			"E",
-			"D"
-		},
-		trans_radar_chart = {},
-		trans_skill = {},
-		description = {
-			{
-				"イベント：ネオンシティの探索者",
-				{
-					""
 				},
 				0
 			}
@@ -34004,6 +34094,134 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[10131] = {
+		type = 6,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 113,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10131,
+		code = 10131,
+		group_type = 1130001,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"E",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：錬金術士と天空邂逅の塔",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10132] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 113,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10132,
+		code = 10132,
+		group_type = 1130002,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：錬金術士と天空邂逅の塔",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10133] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 113,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10133,
+		code = 10133,
+		group_type = 1130003,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：錬金術士と天空邂逅の塔",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10134] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 113,
+		trans_skin = 0,
+		handbook_type = 1,
+		index_id = 10134,
+		code = 10134,
+		group_type = 1130004,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：錬金術士と天空邂逅の塔",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[20001] = {
 		type = 2,
 		redirect_id = 101,
@@ -37166,6 +37384,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9701081
+					}
+				},
+				0
+			}
+		}
+	},
+	[30050] = {
+		type = 4,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30050,
+		code = 30050,
+		group_type = 970406,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・シーズン任務",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9704061
 					}
 				},
 				0

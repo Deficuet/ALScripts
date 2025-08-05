@@ -623,5 +623,252 @@ pg.character_voice = {
 			0,
 			0
 		}
+	},
+	skill_1 = {
+		resource_key = "skill_1",
+		key = "skill_1",
+		voice_name = "スキル1",
+		spine_action = "skill",
+		profile_index = 49,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	skill_2 = {
+		resource_key = "skill_2",
+		key = "skill_2",
+		voice_name = "スキル2",
+		spine_action = "skill",
+		profile_index = 50,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_shop_1 = {
+		resource_key = "atelier_yumia_shop_1",
+		key = "atelier_yumia_shop_1",
+		voice_name = "ショップ1",
+		spine_action = "stand",
+		profile_index = 51,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_shop_2 = {
+		resource_key = "atelier_yumia_shop_2",
+		key = "atelier_yumia_shop_2",
+		voice_name = "ショップ2",
+		spine_action = "stand",
+		profile_index = 52,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_shop_3 = {
+		resource_key = "atelier_yumia_shop_3",
+		key = "atelier_yumia_shop_3",
+		voice_name = "ショップ3",
+		spine_action = "stand",
+		profile_index = 53,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_shop_4 = {
+		resource_key = "atelier_yumia_shop_4",
+		key = "atelier_yumia_shop_4",
+		voice_name = "ショップ4",
+		spine_action = "stand",
+		profile_index = 54,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_shop_5 = {
+		resource_key = "atelier_yumia_shop_5",
+		key = "atelier_yumia_shop_5",
+		voice_name = "ショップ5",
+		spine_action = "stand",
+		profile_index = 55,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_1 = {
+		resource_key = "atelier_yumia_item_1",
+		key = "atelier_yumia_item_1",
+		voice_name = "素材入手1",
+		spine_action = "stand",
+		profile_index = 56,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_2 = {
+		resource_key = "atelier_yumia_item_2",
+		key = "atelier_yumia_item_2",
+		voice_name = "素材入手2",
+		spine_action = "stand",
+		profile_index = 57,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_3 = {
+		resource_key = "atelier_yumia_item_3",
+		key = "atelier_yumia_item_3",
+		voice_name = "素材入手3",
+		spine_action = "stand",
+		profile_index = 58,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_4 = {
+		resource_key = "atelier_yumia_item_4",
+		key = "atelier_yumia_item_4",
+		voice_name = "素材入手4",
+		spine_action = "stand",
+		profile_index = 59,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_5 = {
+		resource_key = "atelier_yumia_item_5",
+		key = "atelier_yumia_item_5",
+		voice_name = "素材入手5",
+		spine_action = "stand",
+		profile_index = 60,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_6 = {
+		resource_key = "atelier_yumia_item_6",
+		key = "atelier_yumia_item_6",
+		voice_name = "素材入手6",
+		spine_action = "stand",
+		profile_index = 61,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_7 = {
+		resource_key = "atelier_yumia_item_7",
+		key = "atelier_yumia_item_7",
+		voice_name = "素材入手7",
+		spine_action = "stand",
+		profile_index = 62,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_8 = {
+		resource_key = "atelier_yumia_item_8",
+		key = "atelier_yumia_item_8",
+		voice_name = "素材入手8",
+		spine_action = "stand",
+		profile_index = 63,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_9 = {
+		resource_key = "atelier_yumia_item_9",
+		key = "atelier_yumia_item_9",
+		voice_name = "素材入手9",
+		spine_action = "stand",
+		profile_index = 64,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_10 = {
+		resource_key = "atelier_yumia_item_10",
+		key = "atelier_yumia_item_10",
+		voice_name = "素材入手10",
+		spine_action = "stand",
+		profile_index = 65,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_11 = {
+		resource_key = "atelier_yumia_item_11",
+		key = "atelier_yumia_item_11",
+		voice_name = "素材入手11",
+		spine_action = "stand",
+		profile_index = 66,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	atelier_yumia_item_12 = {
+		resource_key = "atelier_yumia_item_12",
+		key = "atelier_yumia_item_12",
+		voice_name = "素材入手12",
+		spine_action = "stand",
+		profile_index = 67,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
 	}
 }

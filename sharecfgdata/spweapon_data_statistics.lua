@@ -32408,3 +32408,699 @@ end)()
 	}
 end)()
 
+(function()
+	_G.pg.base.spweapon_data_statistics[14320] = {
+		tech = 0,
+		name = "エフェメラルレコード",
+		value_2_random = 0,
+		type = 7,
+		value_1_random = 0,
+		value_1 = 20,
+		effect_id_display = 112150,
+		level = 1,
+		descrip = "銃撃と打撃の威力を最大限に引き出すことを目的として作られた杖銃。凝縮したマナが光源のランプがついている",
+		uncraftable = 1,
+		next = 14321,
+		upgrade_id = 10001,
+		value_2 = 10,
+		icon = "14320",
+		effect_id = 112150,
+		attribute_2 = "hit",
+		id = 14320,
+		rarity = 4,
+		unique = 1130001,
+		important = 2,
+		prev = 0,
+		attribute_1 = "air",
+		usability = {
+			6
+		},
+		skill_upgrade = {
+			{
+				0,
+				112130
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14321] = {
+		prev = 14320,
+		base = 14320,
+		next = 14322,
+		upgrade_id = 10002,
+		id = 14321,
+		value_2 = 11,
+		value_1 = 22,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14322] = {
+		prev = 14321,
+		base = 14320,
+		next = 14323,
+		upgrade_id = 10003,
+		id = 14322,
+		value_2 = 12,
+		value_1 = 24,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14323] = {
+		prev = 14322,
+		base = 14320,
+		next = 14324,
+		upgrade_id = 10004,
+		id = 14323,
+		value_2 = 13,
+		value_1 = 26,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14324] = {
+		prev = 14323,
+		base = 14320,
+		next = 14325,
+		upgrade_id = 10005,
+		id = 14324,
+		value_2 = 14,
+		value_1 = 28,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14325] = {
+		prev = 14324,
+		base = 14320,
+		next = 14326,
+		upgrade_id = 10006,
+		id = 14325,
+		value_2 = 15,
+		value_1 = 30,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14326] = {
+		prev = 14325,
+		base = 14320,
+		next = 14327,
+		upgrade_id = 10007,
+		id = 14326,
+		value_2 = 16,
+		value_1 = 32,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14327] = {
+		prev = 14326,
+		base = 14320,
+		next = 14328,
+		upgrade_id = 10008,
+		id = 14327,
+		value_2 = 17,
+		value_1 = 34,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14328] = {
+		prev = 14327,
+		base = 14320,
+		next = 14329,
+		upgrade_id = 10009,
+		id = 14328,
+		value_2 = 18,
+		value_1 = 36,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14329] = {
+		prev = 14328,
+		base = 14320,
+		next = 14330,
+		upgrade_id = 10010,
+		id = 14329,
+		value_2 = 19,
+		value_1 = 38,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14330] = {
+		base = 14320,
+		prev = 14329,
+		next = 0,
+		upgrade_id = 10011,
+		id = 14330,
+		value_2 = 20,
+		value_1 = 40,
+		level = 11,
+		skill_upgrade = {
+			{
+				112110,
+				112130
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14340] = {
+		tech = 0,
+		name = "秘槍トリアイナ",
+		value_2_random = 0,
+		type = 2,
+		value_1_random = 0,
+		value_1 = 25,
+		effect_id_display = 112300,
+		level = 1,
+		descrip = "穂先が宝石の槍。例え穂先が折れてもいつでも交換できるようになっている",
+		uncraftable = 1,
+		next = 14341,
+		upgrade_id = 10001,
+		value_2 = 10,
+		icon = "14340",
+		effect_id = 112300,
+		attribute_2 = "reload",
+		id = 14340,
+		rarity = 4,
+		unique = 1130002,
+		important = 2,
+		prev = 0,
+		attribute_1 = "cannon",
+		usability = {
+			2
+		},
+		skill_upgrade = {
+			{
+				0,
+				112290
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14341] = {
+		prev = 14340,
+		base = 14340,
+		next = 14342,
+		upgrade_id = 10002,
+		id = 14341,
+		value_2 = 11,
+		value_1 = 26,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14342] = {
+		prev = 14341,
+		base = 14340,
+		next = 14343,
+		upgrade_id = 10003,
+		id = 14342,
+		value_2 = 12,
+		value_1 = 27,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14343] = {
+		prev = 14342,
+		base = 14340,
+		next = 14344,
+		upgrade_id = 10004,
+		id = 14343,
+		value_2 = 13,
+		value_1 = 28,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14344] = {
+		prev = 14343,
+		base = 14340,
+		next = 14345,
+		upgrade_id = 10005,
+		id = 14344,
+		value_2 = 14,
+		value_1 = 29,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14345] = {
+		prev = 14344,
+		base = 14340,
+		next = 14346,
+		upgrade_id = 10006,
+		id = 14345,
+		value_2 = 15,
+		value_1 = 30,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14346] = {
+		prev = 14345,
+		base = 14340,
+		next = 14347,
+		upgrade_id = 10007,
+		id = 14346,
+		value_2 = 16,
+		value_1 = 31,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14347] = {
+		prev = 14346,
+		base = 14340,
+		next = 14348,
+		upgrade_id = 10008,
+		id = 14347,
+		value_2 = 17,
+		value_1 = 32,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14348] = {
+		prev = 14347,
+		base = 14340,
+		next = 14349,
+		upgrade_id = 10009,
+		id = 14348,
+		value_2 = 18,
+		value_1 = 33,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14349] = {
+		prev = 14348,
+		base = 14340,
+		next = 14350,
+		upgrade_id = 10010,
+		id = 14349,
+		value_2 = 19,
+		value_1 = 34,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14350] = {
+		base = 14340,
+		prev = 14349,
+		next = 0,
+		upgrade_id = 10011,
+		id = 14350,
+		value_2 = 20,
+		value_1 = 35,
+		level = 11,
+		skill_upgrade = {
+			{
+				112280,
+				112290
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14360] = {
+		tech = 0,
+		name = "ハントレス",
+		value_2_random = 0,
+		type = 6,
+		value_1_random = 0,
+		value_1 = 25,
+		effect_id_display = 112250,
+		level = 1,
+		descrip = "使いやすいサイズの短銃とダガー。ダガーは軽くて切れ味抜群で、短銃は威力があるものの反動がそこそこ強い",
+		uncraftable = 1,
+		next = 14361,
+		upgrade_id = 10001,
+		value_2 = 6,
+		icon = "14360",
+		effect_id = 112250,
+		attribute_2 = "reload",
+		id = 14360,
+		rarity = 4,
+		unique = 1130003,
+		important = 2,
+		prev = 0,
+		attribute_1 = "cannon",
+		usability = {
+			5
+		},
+		skill_upgrade = {
+			{
+				0,
+				112240
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14361] = {
+		prev = 14360,
+		base = 14360,
+		next = 14362,
+		upgrade_id = 10002,
+		id = 14361,
+		value_2 = 6,
+		value_1 = 26,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14362] = {
+		prev = 14361,
+		base = 14360,
+		next = 14363,
+		upgrade_id = 10003,
+		id = 14362,
+		value_2 = 7,
+		value_1 = 27,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14363] = {
+		prev = 14362,
+		base = 14360,
+		next = 14364,
+		upgrade_id = 10004,
+		id = 14363,
+		value_2 = 8,
+		value_1 = 28,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14364] = {
+		prev = 14363,
+		base = 14360,
+		next = 14365,
+		upgrade_id = 10005,
+		id = 14364,
+		value_2 = 9,
+		value_1 = 29,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14365] = {
+		prev = 14364,
+		base = 14360,
+		next = 14366,
+		upgrade_id = 10006,
+		id = 14365,
+		value_2 = 10,
+		value_1 = 30,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14366] = {
+		prev = 14365,
+		base = 14360,
+		next = 14367,
+		upgrade_id = 10007,
+		id = 14366,
+		value_2 = 11,
+		value_1 = 31,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14367] = {
+		prev = 14366,
+		base = 14360,
+		next = 14368,
+		upgrade_id = 10008,
+		id = 14367,
+		value_2 = 12,
+		value_1 = 32,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14368] = {
+		prev = 14367,
+		base = 14360,
+		next = 14369,
+		upgrade_id = 10009,
+		id = 14368,
+		value_2 = 13,
+		value_1 = 33,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14369] = {
+		prev = 14368,
+		base = 14360,
+		next = 14370,
+		upgrade_id = 10010,
+		id = 14369,
+		value_2 = 14,
+		value_1 = 34,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14370] = {
+		base = 14360,
+		prev = 14369,
+		next = 0,
+		upgrade_id = 10011,
+		id = 14370,
+		value_2 = 15,
+		value_1 = 35,
+		level = 11,
+		skill_upgrade = {
+			{
+				112220,
+				112240
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14380] = {
+		tech = 0,
+		name = "黄泉之蟷螂",
+		value_2_random = 0,
+		type = 1,
+		value_1_random = 0,
+		value_1 = 25,
+		effect_id_display = 112210,
+		level = 1,
+		descrip = "斬るというより、ノコギリのように切り裂く武器。切られた傷が治りにくいだけでなく、傷跡も残りやすい",
+		uncraftable = 1,
+		next = 14381,
+		upgrade_id = 10001,
+		value_2 = 6,
+		icon = "14380",
+		effect_id = 112210,
+		attribute_2 = "hit",
+		id = 14380,
+		rarity = 4,
+		unique = 1130004,
+		important = 2,
+		prev = 0,
+		attribute_1 = "torpedo",
+		usability = {
+			1
+		},
+		skill_upgrade = {
+			{
+				0,
+				112200
+			}
+		},
+		hide_buff_upgrade = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14381] = {
+		prev = 14380,
+		base = 14380,
+		next = 14382,
+		upgrade_id = 10002,
+		id = 14381,
+		value_2 = 6,
+		value_1 = 26,
+		level = 2
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14382] = {
+		prev = 14381,
+		base = 14380,
+		next = 14383,
+		upgrade_id = 10003,
+		id = 14382,
+		value_2 = 7,
+		value_1 = 27,
+		level = 3
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14383] = {
+		prev = 14382,
+		base = 14380,
+		next = 14384,
+		upgrade_id = 10004,
+		id = 14383,
+		value_2 = 8,
+		value_1 = 28,
+		level = 4
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14384] = {
+		prev = 14383,
+		base = 14380,
+		next = 14385,
+		upgrade_id = 10005,
+		id = 14384,
+		value_2 = 9,
+		value_1 = 29,
+		level = 5
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14385] = {
+		prev = 14384,
+		base = 14380,
+		next = 14386,
+		upgrade_id = 10006,
+		id = 14385,
+		value_2 = 10,
+		value_1 = 30,
+		level = 6
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14386] = {
+		prev = 14385,
+		base = 14380,
+		next = 14387,
+		upgrade_id = 10007,
+		id = 14386,
+		value_2 = 11,
+		value_1 = 31,
+		level = 7
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14387] = {
+		prev = 14386,
+		base = 14380,
+		next = 14388,
+		upgrade_id = 10008,
+		id = 14387,
+		value_2 = 12,
+		value_1 = 32,
+		level = 8
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14388] = {
+		prev = 14387,
+		base = 14380,
+		next = 14389,
+		upgrade_id = 10009,
+		id = 14388,
+		value_2 = 13,
+		value_1 = 33,
+		level = 9
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14389] = {
+		prev = 14388,
+		base = 14380,
+		next = 14390,
+		upgrade_id = 10010,
+		id = 14389,
+		value_2 = 14,
+		value_1 = 34,
+		level = 10
+	}
+end)()
+
+(function()
+	_G.pg.base.spweapon_data_statistics[14390] = {
+		base = 14380,
+		prev = 14389,
+		next = 0,
+		upgrade_id = 10011,
+		id = 14390,
+		value_2 = 15,
+		value_1 = 35,
+		level = 11,
+		skill_upgrade = {
+			{
+				112190,
+				112200
+			}
+		}
+	}
+end)()
+

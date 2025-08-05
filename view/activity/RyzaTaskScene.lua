@@ -361,13 +361,12 @@ function var_0_0.didEnter(arg_5_0)
 			local var_16_0 = tonumber(arg_5_0.selectTask:getConfig("target_id_2"))
 
 			if var_16_0 and var_16_0 > 0 then
-				local var_16_1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
-				local var_16_2 = AtelierMaterial.New({
+				local var_16_1 = AtelierMaterial.New({
 					configId = var_16_0,
 					count = arg_5_0.selectTask:getConfig("target_num")
 				})
 
-				arg_5_0:emit(RyzaTaskMediator.SHOW_DETAIL, var_16_2)
+				arg_5_0:emit(RyzaTaskMediator.SHOW_DETAIL, var_16_1)
 			end
 		end
 	end, SOUND_BACK)

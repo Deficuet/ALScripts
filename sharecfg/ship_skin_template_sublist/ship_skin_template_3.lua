@@ -1,125 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103245] = {
-		ship_group = 10324,
-		name = "ピロー・コンサルテーション",
-		hand_id = 13,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 103245,
-		group_index = 5,
-		purchase_offset = "",
-		painting = "bulaimodun_6",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "bulaimodun_6",
-		shop_type_id = 26,
-		shop_id = 71055,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "180",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指揮官、動かないでね～。この体勢じゃ力を抜かないとこっちもうまく動けないんだから。素直に疲れた体を私に預けて――ほぉら、手から腕、首筋と肩をぐっと押し込んでっと！",
-		voice_actor = 134,
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			6,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.9,
-					0.662,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.874,
-					0.639,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.367,
-							2.469,
-							0.14
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			2,
-			-369,
-			0,
-			0.37
-		}
-	},
 	[103248] = {
 		ship_group = 10324,
 		name = "幸せトラッキング",
@@ -14394,6 +14275,229 @@ pg.base.ship_skin_template_3 = {
 			plane = {
 				{
 					1.308,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107232] = {
+		ship_group = 10723,
+		name = "ロリポップ・饅頭ランド",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 107232,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "pulinsidun_3",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "pulinsidun_3",
+		shop_type_id = 4,
+		shop_id = 70503,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "108",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 5,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "来たわね？…あ、私も来たばかりだから別にいいわよ。そろそろ出発…する？",
+		voice_actor = 249,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.126,
+					0.999,
+					0
+				}
+			},
+			plane = {
+				{
+					1.14,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		},
+		time = {
+			{
+				2021,
+				2,
+				14
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[107233] = {
+		ship_group = 10723,
+		name = "トナカイさんからの贈り物",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 107233,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "pulinsidun_4",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "pulinsidun_4",
+		shop_type_id = 1,
+		shop_id = 70792,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "125",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "着替えてきたけど……これが「トナカイさん」の衣装なの？ちょっと大胆すぎる気が……あ、指揮官、ちょうどいいところに来たわね。私からのクリスマスプレゼントを受け取って",
+		voice_actor = 249,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.33,
+					1.27,
+					0
+				}
+			},
+			plane = {
+				{
+					1.439,
 					0.955,
 					0
 				}

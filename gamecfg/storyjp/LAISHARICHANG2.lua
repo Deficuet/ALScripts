@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			bgm = "story-1",
+			bgm = "ryza-12",
 			say = "母港・ライザのアトリエ（仮）",
 			flashout = {
 				black = true,
@@ -716,7 +716,7 @@ return {
 			bgName = "bg_story_task",
 			stopbgm = true,
 			say = "こうして、四人の努力によって、爆弾制作（？）に必要な素材集めは無事完了した。",
-			bgm = "story-1",
+			bgm = "ryza-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

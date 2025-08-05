@@ -33,7 +33,8 @@ function var_0_0.InitBtns(arg_2_0)
 		MainActBoatAdBtn.New(arg_2_0.actBtnTpl, arg_2_0.event),
 		MainActBlackFridaySalesBtn.New(arg_2_0.actBtnTpl, arg_2_0.event),
 		MainActToLoveBtn.New(arg_2_0.actBtnTpl, arg_2_0.event),
-		MainActHolidayVillaBtn.New(arg_2_0.actBtnTpl, arg_2_0.event)
+		MainActHolidayVillaBtn.New(arg_2_0.actBtnTpl, arg_2_0.event),
+		MainCoreActivityBtn2.New(arg_2_0.actBtnTpl, arg_2_0.event)
 	}
 	arg_2_0.specailBtns = {
 		MainActInsBtn.New(arg_2_0._tf, arg_2_0.event),
@@ -139,9 +140,11 @@ function var_0_0.FilterActivityBtns(arg_17_0)
 		end
 	end
 
-	table.sort(var_17_0, function(arg_18_0, arg_18_1)
-		return arg_18_0.config.group_id < arg_18_1.config.group_id
-	end)
+	table.sort(var_17_0, CompareFuncs({
+		function(arg_18_0)
+			return arg_18_0.config.group_id
+		end
+	}))
 
 	return var_17_0, var_17_1
 end

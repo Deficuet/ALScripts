@@ -66,7 +66,7 @@ function var_0_0.UpdateItemDetail(arg_6_0)
 
 			local var_7_5 = var_7_4:GetFormulas()[var_6_1.recipeid]
 
-			if var_7_5:GetType() ~= AtelierFormula.TYPE.TOOL and not var_7_4:IsCompleteAllTools() then
+			if var_7_5:GetType() ~= AtelierFormula.TYPE.TOOL and not var_7_4:IsCompleteAllTools(var_7_5:getConfig("version")) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("ryza_tip_unlock_all_tools"))
 
 				return
@@ -88,8 +88,9 @@ function var_0_0.UpdateItemDetail(arg_6_0)
 				return
 			end
 
-			arg_6_0:emit(GAME.GO_SCENE, SCENE.RYZA_TASK, {
-				task_id = var_6_1.taskid
+			arg_6_0:emit(GAME.GO_SCENE, SCENE.CORE_ACTIVITY, {
+				coreName = var_7_6:getConfig("page_core"),
+				id = var_7_6.id
 			})
 		end
 	end, SFX_PANEL)
@@ -124,7 +125,7 @@ function var_0_0.UpdateRyzaItem(arg_8_0, arg_8_1, arg_8_2, arg_8_3)
 end
 
 function var_0_0.willExit(arg_9_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_9_0.layerItemDetail, arg_9_0._tf)
+	pg.UIMgr.GetInstance():UnblurPanel(arg_9_0.layerItemDetail)
 	arg_9_0.loader:Clear()
 end
 

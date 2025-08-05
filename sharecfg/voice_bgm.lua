@@ -41,9 +41,9 @@ pg.voice_bgm = {
 		bgm = "cw-level"
 	},
 	CourtYardScene = {
-		default_bgm = "backyard",
+		default_bgm = "yumia-61",
 		special_bgm = "",
-		bgm = "backyard"
+		bgm = "yumia-61"
 	},
 	BattleScene = {
 		default_bgm = "battle-1",
@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "yumia-79",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "yumia-79"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-glorious-meta",
+		default_bgm = "yumia-81",
 		special_bgm = "",
-		bgm = "theme-glorious-meta"
+		bgm = "yumia-81"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2264,5 +2264,85 @@ pg.voice_bgm = {
 		default_bgm = "story-spycity-fashion",
 		special_bgm = "",
 		bgm = "story-spycity-fashion"
+	},
+	SkinEncoreLoginRePage = {
+		default_bgm = "story-dazy-style",
+		special_bgm = "",
+		bgm = "story-dazy-style"
+	},
+	DailyLevelPage = {
+		default_bgm = "level",
+		special_bgm = "",
+		bgm = "level"
+	},
+	LuXieErSkinPage = {
+		default_bgm = "story-richang-7",
+		special_bgm = "",
+		bgm = "story-richang-7"
+	},
+	RyzaMainRePage = {
+		default_bgm = "ryza-1",
+		special_bgm = "",
+		bgm = "ryza-1"
+	},
+	RyzaPtRePage = {
+		default_bgm = "ryza-4",
+		special_bgm = "",
+		bgm = "ryza-4"
+	},
+	RyzaMGPage = {
+		default_bgm = "ryza-5",
+		special_bgm = "",
+		bgm = "ryza-5"
+	},
+	RyzaAwardRePage = {
+		default_bgm = "ryza-1",
+		special_bgm = "",
+		bgm = "ryza-1"
+	},
+	RyzaTaskRePage = {
+		default_bgm = "ryza-2",
+		special_bgm = "",
+		bgm = "ryza-2"
+	},
+	RyzaAtelierCompositeRePage = {
+		default_bgm = "ryza-10",
+		special_bgm = "",
+		bgm = "ryza-10"
+	},
+	ALYMainPage = {
+		default_bgm = "yumia-79",
+		special_bgm = "",
+		bgm = "yumia-79"
+	},
+	ALYAwardPage = {
+		default_bgm = "yumia-az-story",
+		special_bgm = "",
+		bgm = "yumia-az-story"
+	},
+	ALYPtPage = {
+		default_bgm = "yumia-70",
+		special_bgm = "",
+		bgm = "yumia-70"
+	},
+	YoumiyaStrongholdActPage = {
+		default_bgm = "yumia-46",
+		special_bgm = "",
+		bgm = "yumia-46"
+	},
+	ALYAtelierCompositeRePage = {
+		default_bgm = "yumia-70",
+		special_bgm = "",
+		bgm = "yumia-70"
+	},
+	AterialYumiaCoreBuffLayer = {
+		default_bgm = "yumia-az-theme-pv",
+		special_bgm = "",
+		bgm = "yumia-az-theme-pv"
+	},
+	NewSkinShopScene = {
+		default_bgm = "yumia-81",
+		special_bgm = "",
+		bgm = "yumia-81"
 	}
 }

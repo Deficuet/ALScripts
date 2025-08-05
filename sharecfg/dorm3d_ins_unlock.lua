@@ -252,6 +252,15 @@ pg.dorm3d_ins_unlock = {
 		content = 10517202,
 		trigger_type = 101
 	},
+	[10517203] = {
+		text = "新泽西契合度11级",
+		trigger_id = 0,
+		trigger_num = 11,
+		type = 3,
+		id = 10517203,
+		content = 10517203,
+		trigger_type = 101
+	},
 	[10517301] = {
 		text = "新泽西进入宿舍1天",
 		trigger_id = 0,
@@ -260,6 +269,15 @@ pg.dorm3d_ins_unlock = {
 		id = 10517301,
 		content = 10517301,
 		trigger_type = 152
+	},
+	[10517302] = {
+		text = "新泽西契合度12级",
+		trigger_id = 0,
+		trigger_num = 12,
+		type = 2,
+		id = 10517302,
+		content = 10517302,
+		trigger_type = 101
 	},
 	get_id_list_by_type = {
 		{
@@ -292,10 +310,12 @@ pg.dorm3d_ins_unlock = {
 			21,
 			22,
 			10517201,
-			10517202
+			10517202,
+			10517203
 		},
 		{
-			10517301
+			10517301,
+			10517302
 		}
 	},
 	all = {
@@ -327,6 +347,8 @@ pg.dorm3d_ins_unlock = {
 		10517104,
 		10517201,
 		10517202,
-		10517301
+		10517203,
+		10517301,
+		10517302
 	}
 }

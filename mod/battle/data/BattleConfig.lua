@@ -406,10 +406,12 @@ var_0_0.AIM_BIAS_MAX_RANGE_SUB = 25
 var_0_0.AIM_BIAS_ENEMY_INIT_TIME = 1.5
 var_0_0.FLEET_ATTR_CAP = {
 	shenpanzhijian = 6,
-	yuanchou = 9,
+	YumiaManaFlow = 10,
 	ReisalinAP = 99,
 	KansasSP = 3,
 	Judgement = 12,
+	YumiaMANA = 100,
+	yuanchou = 9,
 	huohun = 5
 }
 var_0_0.TARGET_SELECT_PRIORITY = {
@@ -449,3 +451,7 @@ var_0_0.ALCHEMIST_AP_UI = {
 	109
 }
 var_0_0.ALCHEMIST_AP_NAME = "ReisalinAP"
+var_0_0.YUMIA_MANA_UI = {
+	113
+}
+var_0_0.YUMIA_MANA_NAME = "YumiaMANA"

@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
-			bgm = "story-1",
+			bgm = "ryza-11",
 			say = "母港・ロイヤル寮",
 			flashout = {
 				black = true,

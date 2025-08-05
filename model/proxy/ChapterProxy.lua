@@ -560,17 +560,36 @@ function var_0_0.getRemasterMaps(arg_41_0, arg_41_1)
 	end
 end
 
-function var_0_0.getMapsByActivities(arg_43_0)
-	local var_43_0 = {}
-	local var_43_1 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT)
+function var_0_0.getMapsByActivities(arg_43_0, arg_43_1)
+	local var_43_0 = getProxy(ActivityProxy)
+	local var_43_1
 
-	underscore.each(var_43_1, function(arg_44_0)
-		if not arg_44_0:isEnd() then
-			var_43_0 = table.mergeArray(var_43_0, arg_43_0:getMapsByActId(arg_44_0.id))
-		end
-	end)
+	if arg_43_1 then
+		var_43_1 = var_43_0:getActivityById(arg_43_1)
+	else
+		local var_43_2 = var_43_0:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT)
 
-	return var_43_0
+		table.sort(var_43_2, CompareFuncs({
+			function(arg_44_0)
+				return defaultValue(arg_44_0:GetConfigClientSetting("order"), 1)
+			end
+		}))
+
+		var_43_1 = var_43_2[1]
+	end
+
+	if not var_43_1 then
+		return {}
+	end
+
+	local var_43_3 = pg.chapter_template[var_43_1:getConfig("config_data")[1]].map
+	local var_43_4 = pg.expedition_data_by_map[var_43_3].on_activity
+
+	if getProxy(ActivityProxy):IsActivityNotEnd(var_43_4) then
+		return arg_43_0:getMapsByActId(var_43_4)
+	else
+		return {}
+	end
 end
 
 function var_0_0.getLastUnlockMap(arg_45_0)
@@ -783,7 +802,7 @@ function var_0_0.GetLastNormalMap(arg_61_0)
 	return arg_61_0:getLastUnlockMap().id
 end
 
-function var_0_0.getLastMapForActivity(arg_62_0)
+function var_0_0.getLastMapForActivity(arg_62_0, arg_62_1)
 	local var_62_0
 	local var_62_1
 	local var_62_2 = arg_62_0:getActiveChapter()
@@ -798,7 +817,7 @@ function var_0_0.getLastMapForActivity(arg_62_0)
 
 	local var_62_4 = Map.lastMapForActivity and arg_62_0:getMapById(Map.lastMapForActivity)
 
-	if var_62_4 and not var_62_4:isRemaster() and var_62_4:isUnlock() then
+	if var_62_4 and not var_62_4:isRemaster() and var_62_4:isUnlock() and (not arg_62_1 or var_62_4:getConfig("on_activity") == arg_62_1) then
 		return Map.lastMapForActivity
 	end
 
@@ -806,49 +825,43 @@ function var_0_0.getLastMapForActivity(arg_62_0)
 		arg_62_0:recordLastMap(var_0_0.LAST_MAP_FOR_ACTIVITY, 0)
 	end
 
-	local var_62_5 = arg_62_0:getMapsByActivities()
+	return arg_62_0:getActivityLastUnlockMap(arg_62_1)
+end
 
-	table.sort(var_62_5, function(arg_63_0, arg_63_1)
-		return arg_63_0.id > arg_63_1.id
-	end)
+function var_0_0.getActivityLastUnlockMap(arg_63_0, arg_63_1)
+	local var_63_0 = arg_63_0:getMapsByActivities(arg_63_1)
 
-	local var_62_6 = {}
-
-	if _.all(var_62_5, function(arg_64_0)
+	if not _.all(var_63_0, function(arg_64_0)
 		return arg_64_0:getConfig("type") == Map.EVENT
 	end) then
-		var_62_6 = var_62_5
-	else
-		for iter_62_0, iter_62_1 in ipairs({
+		for iter_63_0, iter_63_1 in ipairs({
 			Map.ACTIVITY_EASY,
 			Map.ACTIVITY_HARD
 		}) do
-			local var_62_7 = underscore.filter(var_62_5, function(arg_65_0)
-				return arg_65_0:getMapType() == iter_62_1
+			local var_63_1 = underscore.filter(var_63_0, function(arg_65_0)
+				return arg_65_0:getMapType() == iter_63_1
 			end)
 
-			if #var_62_7 > 0 then
-				var_62_6 = var_62_7
+			if #var_63_1 > 0 and underscore.any(var_63_1, function(arg_66_0)
+				return not arg_66_0:isClearForActivity()
+			end) then
+				var_63_0 = var_63_1
 
-				if underscore.any(var_62_6, function(arg_66_0)
-					return not arg_66_0:isClearForActivity()
-				end) then
-					break
-				end
+				break
 			end
 		end
 	end
 
-	for iter_62_2 = #var_62_6, 1, -1 do
-		local var_62_8 = var_62_6[iter_62_2]
+	for iter_63_2 = #var_63_0, 1, -1 do
+		local var_63_2 = var_63_0[iter_63_2]
 
-		if var_62_8:isUnlock() then
-			return var_62_8.id
+		if var_63_2:isUnlock() then
+			return var_63_2.id
 		end
 	end
 
-	if #var_62_5 > 0 then
-		return var_62_5[1].id
+	if #var_63_0 > 0 then
+		return var_63_0[1].id
 	end
 end
 
@@ -1104,14 +1117,14 @@ function var_0_0.getLastMap(arg_84_0, arg_84_1)
 	end
 end
 
-function var_0_0.IsActivitySPChapterActive(arg_85_0)
-	local var_85_0 = arg_85_0:getMapsByActivities()
+function var_0_0.IsActivitySPChapterActive(arg_85_0, arg_85_1)
+	local var_85_0 = arg_85_0:getMapsByActivities(arg_85_1)
 	local var_85_1 = _.reduce(var_85_0, {}, function(arg_86_0, arg_86_1)
-		local var_86_0 = _.select(arg_86_1:getChapters(), function(arg_87_0)
+		table.insertto(arg_86_0, _.select(arg_86_1:getChapters(), function(arg_87_0)
 			return arg_87_0:IsSpChapter()
-		end)
+		end))
 
-		return table.mergeArray(arg_86_0, var_86_0)
+		return arg_86_0
 	end)
 
 	return _.any(var_85_1, function(arg_88_0)

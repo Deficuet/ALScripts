@@ -180,7 +180,28 @@ pg.benefit_buff_template = setmetatable({
 		300109,
 		300110,
 		300111,
-		300112
+		300112,
+		300201,
+		300202,
+		300203,
+		300204,
+		300205,
+		300206,
+		300207,
+		300208,
+		300209,
+		300210,
+		300211,
+		300212,
+		300213,
+		300214,
+		300215,
+		300216,
+		300217,
+		300218,
+		300219,
+		300220,
+		300221
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -192,7 +213,7 @@ pg.base.benefit_buff_template = {
 		max_time = 86400,
 		act_id = 0,
 		benefit_condition = "",
-		desc = "寮舎経験値5％UP",
+		desc = "寮舎経験値5%UP",
 		benefit_effect = "5",
 		id = 1,
 		icon = "Props/haijungali",
@@ -205,7 +226,7 @@ pg.base.benefit_buff_template = {
 		max_time = 86400,
 		act_id = 0,
 		benefit_condition = "",
-		desc = "寮舎経験値10％UP",
+		desc = "寮舎経験値10%UP",
 		benefit_effect = "10",
 		id = 2,
 		icon = "Props/huangjialiaoli",
@@ -218,7 +239,7 @@ pg.base.benefit_buff_template = {
 		max_time = 86400,
 		act_id = 0,
 		benefit_condition = "",
-		desc = "寮舎経験値20％UP",
+		desc = "寮舎経験値20%UP",
 		benefit_effect = "20",
 		id = 3,
 		icon = "Props/manhanquanxi",
@@ -531,7 +552,7 @@ pg.base.benefit_buff_template = {
 		hide = 0,
 		max_time = 0,
 		act_id = 0,
-		desc = "寮舎経験値入手＋3％",
+		desc = "寮舎経験値入手＋3%",
 		benefit_effect = "3",
 		id = 22,
 		icon = "Props/buff_minigame_12",
@@ -551,7 +572,7 @@ pg.base.benefit_buff_template = {
 		hide = 0,
 		max_time = 0,
 		act_id = 0,
-		desc = "寮舎経験値入手＋4％",
+		desc = "寮舎経験値入手＋4%",
 		benefit_effect = "4",
 		id = 23,
 		icon = "Props/buff_minigame_12",
@@ -571,7 +592,7 @@ pg.base.benefit_buff_template = {
 		hide = 0,
 		max_time = 0,
 		act_id = 0,
-		desc = "寮舎経験値入手＋5％",
+		desc = "寮舎経験値入手＋5%",
 		benefit_effect = "5",
 		id = 24,
 		icon = "Props/buff_minigame_12",
@@ -910,7 +931,7 @@ pg.base.benefit_buff_template = {
 		hide = 0,
 		max_time = 0,
 		act_id = 0,
-		desc = "寮舎経験値入手＋3％",
+		desc = "寮舎経験値入手＋3%",
 		benefit_effect = "3",
 		id = 44,
 		icon = "Props/buff_minigame_12",
@@ -927,7 +948,7 @@ pg.base.benefit_buff_template = {
 		hide = 0,
 		max_time = 0,
 		act_id = 0,
-		desc = "寮舎経験値入手＋4％",
+		desc = "寮舎経験値入手＋4%",
 		benefit_effect = "4",
 		id = 45,
 		icon = "Props/buff_minigame_12",
@@ -944,7 +965,7 @@ pg.base.benefit_buff_template = {
 		hide = 0,
 		max_time = 0,
 		act_id = 0,
-		desc = "寮舎経験値入手＋5％",
+		desc = "寮舎経験値入手＋5%",
 		benefit_effect = "5",
 		id = 46,
 		icon = "Props/buff_minigame_12",
@@ -1677,7 +1698,7 @@ pg.base.benefit_buff_template = {
 		max_time = 0,
 		act_id = 0,
 		benefit_condition = "",
-		desc = "寮舎で入手できる経験値が50％UP",
+		desc = "寮舎で入手できる経験値が50%UP",
 		benefit_effect = "50",
 		id = 102,
 		icon = "Props/newserver_backyard",
@@ -2584,7 +2605,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 0,
-		desc = "戦闘中に一度だけ、味方キャラの耐久が上限の20％を下回った場合、上限の10％だけそのキャラの耐久が回復する",
+		desc = "戦闘中に一度だけ、味方キャラの耐久が上限の20%を下回った場合、上限の10%だけそのキャラの耐久が回復する",
 		benefit_effect = "200159",
 		id = 300031,
 		icon = "Props/300031",
@@ -2608,7 +2629,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 0,
-		desc = "戦闘中に一度だけ、味方キャラの耐久が上限の20％を下回った場合、上限の15％だけそのキャラの耐久が回復する",
+		desc = "戦闘中に一度だけ、味方キャラの耐久が上限の20%を下回った場合、上限の15%だけそのキャラの耐久が回復する",
 		benefit_effect = "200161",
 		id = 300032,
 		icon = "Props/300032",
@@ -2632,7 +2653,7 @@ pg.base.benefit_buff_template = {
 		hide = 1,
 		max_time = 0,
 		act_id = 0,
-		desc = "戦闘中に一度だけ、味方キャラの耐久が上限の20％を下回った場合、上限の20％だけそのキャラの耐久が回復する",
+		desc = "戦闘中に一度だけ、味方キャラの耐久が上限の20%を下回った場合、上限の20%だけそのキャラの耐久が回復する",
 		benefit_effect = "200163",
 		id = 300033,
 		icon = "Props/300033",
@@ -2903,7 +2924,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -2921,7 +2942,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -2939,7 +2960,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -2957,7 +2978,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -2975,7 +2996,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000
 		}
@@ -2993,7 +3014,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -3011,7 +3032,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -3029,7 +3050,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -3047,7 +3068,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -3065,7 +3086,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000
 		}
@@ -3083,7 +3104,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -3101,7 +3122,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -3119,7 +3140,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -3137,7 +3158,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -3155,7 +3176,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "skill_learncost_up",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000
 		}
@@ -3173,7 +3194,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			0,
 			1000
 		}
@@ -3191,7 +3212,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			1000,
 			2000
 		}
@@ -3209,7 +3230,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			2000,
 			3500
 		}
@@ -3227,7 +3248,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			3500,
 			5000
 		}
@@ -3245,7 +3266,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "dorm_exp",
 		benefit_condition = {
 			"pt",
-			286,
+			522,
 			5000,
 			1000000000000
 		}
@@ -3465,5 +3486,378 @@ pg.base.benefit_buff_template = {
 			45,
 			1000
 		}
+	},
+	[300201] = {
+		type_priority = 0,
+		name = "コアレベルLv1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		benefit_effect = "201455",
+		id = 300201,
+		icon = "Props/buff_yumia_1",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940021
+			}
+		}
+	},
+	[300202] = {
+		type_priority = 0,
+		name = "コアレベルLv2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1%分回復する",
+		benefit_effect = "201456",
+		id = 300202,
+		icon = "Props/buff_yumia_2",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940021
+			}
+		}
+	},
+	[300203] = {
+		type_priority = 0,
+		name = "コアレベルLv3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3%アップする",
+		benefit_effect = "201459",
+		id = 300203,
+		icon = "Props/buff_yumia_3",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940021
+			}
+		}
+	},
+	[300204] = {
+		type_priority = 0,
+		name = "コアレベルLv4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		benefit_effect = "1",
+		id = 300204,
+		icon = "Props/buff_yumia_4",
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940021
+			}
+		}
+	},
+	[300205] = {
+		type_priority = 0,
+		name = "コアレベルLv1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		benefit_effect = "201455",
+		id = 300205,
+		icon = "Props/buff_yumia_1",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940022
+			}
+		}
+	},
+	[300206] = {
+		type_priority = 0,
+		name = "コアレベルLv2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1%分回復する",
+		benefit_effect = "201456",
+		id = 300206,
+		icon = "Props/buff_yumia_2",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940022
+			}
+		}
+	},
+	[300207] = {
+		type_priority = 0,
+		name = "コアレベルLv3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3%アップする",
+		benefit_effect = "201459",
+		id = 300207,
+		icon = "Props/buff_yumia_3",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940022
+			}
+		}
+	},
+	[300208] = {
+		type_priority = 0,
+		name = "コアレベルLv4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		benefit_effect = "1",
+		id = 300208,
+		icon = "Props/buff_yumia_4",
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940022
+			}
+		}
+	},
+	[300209] = {
+		type_priority = 0,
+		name = "コアレベルLv1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		benefit_effect = "201455",
+		id = 300209,
+		icon = "Props/buff_yumia_1",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300210] = {
+		type_priority = 0,
+		name = "コアレベルLv2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1%分回復する",
+		benefit_effect = "201456",
+		id = 300210,
+		icon = "Props/buff_yumia_2",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300211] = {
+		type_priority = 0,
+		name = "コアレベルLv3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3%アップする",
+		benefit_effect = "201459",
+		id = 300211,
+		icon = "Props/buff_yumia_3",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300212] = {
+		type_priority = 0,
+		name = "コアレベルLv4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		benefit_effect = "1",
+		id = 300212,
+		icon = "Props/buff_yumia_4",
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300213] = {
+		type_priority = 0,
+		name = "コアレベルLv1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		benefit_effect = "201455",
+		id = 300213,
+		icon = "Props/buff_yumia_1",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940024
+			}
+		}
+	},
+	[300214] = {
+		type_priority = 0,
+		name = "コアレベルLv2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1%分回復する",
+		benefit_effect = "201456",
+		id = 300214,
+		icon = "Props/buff_yumia_2",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940024
+			}
+		}
+	},
+	[300215] = {
+		type_priority = 0,
+		name = "コアレベルLv3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3%アップする",
+		benefit_effect = "201459",
+		id = 300215,
+		icon = "Props/buff_yumia_3",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940024
+			}
+		}
+	},
+	[300216] = {
+		type_priority = 0,
+		name = "コアレベルLv4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		benefit_effect = "1",
+		id = 300216,
+		icon = "Props/buff_yumia_4",
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940024
+			}
+		}
+	},
+	[300217] = {
+		type_priority = 0,
+		name = "コアレベルLv1",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中、味方の火力・航空・雷装が3%アップ",
+		benefit_effect = "201455",
+		id = 300217,
+		icon = "Props/buff_yumia_1",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940025
+			}
+		}
+	},
+	[300218] = {
+		type_priority = 0,
+		name = "コアレベルLv2",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘中15秒毎に、味方の耐久が上限を占める割合が一番低いキャラの耐久が上限の1%分回復する",
+		benefit_effect = "201456",
+		id = 300218,
+		icon = "Props/buff_yumia_2",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940025
+			}
+		}
+	},
+	[300219] = {
+		type_priority = 0,
+		name = "コアレベルLv3",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘開始後15秒及びその後20秒毎に支援弾幕を展開し、この弾幕が命中した敵は8秒間受けるダメージが3%アップする",
+		benefit_effect = "201459",
+		id = 300219,
+		icon = "Props/buff_yumia_3",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940025
+			}
+		}
+	},
+	[300220] = {
+		type_priority = 0,
+		name = "コアレベルLv4",
+		hide = 1,
+		max_time = 0,
+		act_id = 50065,
+		desc = "戦闘で味方キャラが入手する好感度がアップする",
+		benefit_effect = "1",
+		id = 300220,
+		icon = "Props/buff_yumia_4",
+		benefit_type = "ship_battle_intimacy",
+		benefit_condition = {
+			"chapter",
+			{
+				1940025
+			}
+		}
+	},
+	[300221] = {
+		type_priority = 0,
+		name = "「錬金術士と謎の遺跡群島」特別強化",
+		hide = 0,
+		max_time = 0,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "「錬金術士と謎の遺跡群島」ステージでの「遺跡水晶クラスター」と調合材料入手数+200%",
+		benefit_effect = "0",
+		id = 300221,
+		icon = "Props/buff_yumia_ryzare",
+		benefit_type = "desc"
 	}
 }

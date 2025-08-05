@@ -56,12 +56,12 @@ function var_0_0.initBtn(arg_5_0)
 			end)
 		end,
 		shop = function(arg_9_0)
-			local var_9_0 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_10_0)
-				return arg_10_0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
-			end)
-
 			onButton(arg_5_0, arg_9_0, function()
-				if var_5_1.shopLinkActID and var_5_0(var_5_1.shopLinkActID) then
+				local var_10_0 = var_5_1.shopLinkActID and getProxy(ActivityProxy):getActivitiesById(var_5_1.shopLinkActID) or underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_11_0)
+					return not arg_11_0:isEnd()
+				end)
+
+				if not var_10_0 or var_10_0:isEnd() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 					return
@@ -69,7 +69,7 @@ function var_0_0.initBtn(arg_5_0)
 
 				arg_5_0:emit(ActivityMediator.GO_SHOPS_LAYER, {
 					warp = NewShopsScene.TYPE_ACTIVITY,
-					actId = var_9_0 and var_9_0.id
+					actId = var_10_0.id
 				})
 			end)
 		end,

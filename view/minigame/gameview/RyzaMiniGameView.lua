@@ -118,8 +118,11 @@ function var_0_0.updateMainUI(arg_10_0)
 	arg_10_0:checkGet()
 
 	if var_10_2 == 1 and var_10_4 == 2 then
-		scrollTo(var_10_5, nil, 1)
-		pg.NewGuideMgr.GetInstance():Play("Ryza_MiniGame")
+		if PlayerPrefs.GetInt("ryza_minigame_guide", 0) == 0 then
+			scrollTo(var_10_5, nil, 1)
+			pg.NewGuideMgr.GetInstance():Play("Ryza_MiniGame")
+			PlayerPrefs.SetInt("ryza_minigame_guide", 1)
+		end
 	elseif PlayerPrefs.GetInt("ryza_minigame_help", 0) == 0 then
 		triggerButton(arg_10_0.rtTitlePage:Find("main/btn_rule"))
 	end
@@ -795,15 +798,16 @@ function var_0_0.onTimer(arg_67_0)
 	local var_67_0 = arg_67_0.responder:GetJoyStick()
 
 	if var_67_0.x ~= 0 or var_67_0.y ~= 0 then
-		local var_67_1 = arg_67_0.reactorUIs[arg_67_0.responder.reactorRyza]:Find("dir")
+		local var_67_1 = RyzaMiniGameConfig.ReSetDir(var_67_0)
+		local var_67_2 = arg_67_0.reactorUIs[arg_67_0.responder.reactorRyza]:Find("dir")
 
-		if var_67_0.x == 0 then
-			setLocalEulerAngles(var_67_1, {
-				z = var_67_0.y > 0 and 270 or 90
+		if var_67_1.x == 0 then
+			setLocalEulerAngles(var_67_2, {
+				z = var_67_1.y > 0 and 270 or 90
 			})
 		else
-			setLocalEulerAngles(var_67_1, {
-				z = math.atan2(-var_67_0.y, var_67_0.x) / math.pi * 180
+			setLocalEulerAngles(var_67_2, {
+				z = math.atan2(-var_67_1.y, var_67_1.x) / math.pi * 180
 			})
 		end
 	end
@@ -835,7 +839,7 @@ function var_0_0.onBackPressed(arg_69_0)
 			return
 		end
 	}, function()
-		assert(arg_69_0.gameStartFlag)
+		assert(arg_69_0.gameStartFlag, "game start false")
 		arg_69_0:openUI("pause")
 	end)
 end

@@ -16,6 +16,7 @@ var_0_0.WITH_BGM = 5
 var_0_0.WITH_SPINE = 6
 var_0_0.WITH_SPINE_PLUS = 7
 var_0_0.WITH_CHANGE = 8
+var_0_0.WITH_LIVE2D_PLUS = 9
 
 function var_0_0.Tag2Name(arg_1_0)
 	if not var_0_0.Tag2NameTab then
@@ -27,7 +28,8 @@ function var_0_0.Tag2Name(arg_1_0)
 			[var_0_0.WITH_LIVE2D] = "live2d",
 			[var_0_0.WITH_SPINE] = "spine",
 			[var_0_0.WITH_SPINE_PLUS] = "spine_plus",
-			[var_0_0.WITH_CHANGE] = "change"
+			[var_0_0.WITH_CHANGE] = "change",
+			[var_0_0.WITH_LIVE2D_PLUS] = "live2d_plus"
 		}
 	end
 

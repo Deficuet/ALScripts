@@ -4877,3 +4877,21 @@ function stringInset(arg_346_0, ...)
 
 	return arg_346_0
 end
+
+function addSubLayer(arg_347_0, arg_347_1, arg_347_2, arg_347_3, arg_347_4)
+	if arg_347_2 then
+		while arg_347_1.parent do
+			arg_347_1 = arg_347_1.parent
+		end
+	end
+
+	local var_347_0 = {
+		parentContext = arg_347_1,
+		context = arg_347_0,
+		callback = arg_347_3
+	}
+
+	var_347_0 = arg_347_4 and table.merge(var_347_0, arg_347_4) or var_347_0
+
+	pg.m02:sendNotification(GAME.LOAD_LAYERS, var_347_0)
+end

@@ -457,23 +457,21 @@ function var_0_0.showRewardInfo(arg_23_0)
 			end
 		end
 
-		local var_25_10 = PlayerConst.BonusItemMarker(var_25_0)
-
-		if table.getCount(var_25_10) > 0 then
-			local var_25_11 = arg_23_0.skipFlag
-			local var_25_12 = false
+		if table.getCount(var_25_0) > 0 then
+			local var_25_10 = arg_23_0.skipFlag
+			local var_25_11 = false
 
 			if arg_23_0.contextData.system == SYSTEM_SCENARIO then
-				local var_25_13 = getProxy(ChapterProxy):getActiveChapter(true)
+				local var_25_12 = getProxy(ChapterProxy):getActiveChapter(true)
 
-				if var_25_13 then
-					if var_25_13:isLoop() then
-						getProxy(ChapterProxy):AddExtendChapterDataArray(var_25_13.id, "TotalDrops", var_25_7)
+				if var_25_12 then
+					if var_25_12:isLoop() then
+						getProxy(ChapterProxy):AddExtendChapterDataArray(var_25_12.id, "TotalDrops", var_25_7)
 
-						var_25_12 = getProxy(ChapterProxy):GetChapterAutoFlag(var_25_13.id) == 1
+						var_25_11 = getProxy(ChapterProxy):GetChapterAutoFlag(var_25_12.id) == 1
 					end
 
-					var_25_13:writeDrops(var_25_7)
+					var_25_12:writeDrops(var_25_7)
 				end
 			elseif arg_23_0.contextData.system == SYSTEM_ACT_BOSS then
 				if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
@@ -491,22 +489,22 @@ function var_0_0.showRewardInfo(arg_23_0)
 				items = var_25_7,
 				extraBonus = var_25_8,
 				removeFunc = var_23_1,
-				closeOnCompleted = var_25_11
+				closeOnCompleted = var_25_10
 			})
 			coroutine.yield()
 
-			local var_25_14 = #_.filter(var_25_7, function(arg_29_0)
+			local var_25_13 = #_.filter(var_25_7, function(arg_29_0)
 				return arg_29_0.type == DROP_TYPE_SHIP
 			end)
-			local var_25_15 = getProxy(BayProxy):getNewShip(true)
+			local var_25_14 = getProxy(BayProxy):getNewShip(true)
 
-			for iter_25_6 = math.max(1, #var_25_15 - var_25_14 + 1), #var_25_15 do
-				local var_25_16 = var_25_15[iter_25_6]
+			for iter_25_6 = math.max(1, #var_25_14 - var_25_13 + 1), #var_25_14 do
+				local var_25_15 = var_25_14[iter_25_6]
 
-				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_25_16.virgin or var_25_16:getRarity() >= ShipRarity.Purple then
-					local var_25_17 = var_25_12 and not var_25_16.virgin and 3 or nil
+				if PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_25_15.virgin or var_25_15:getRarity() >= ShipRarity.Purple then
+					local var_25_16 = var_25_11 and not var_25_15.virgin and 3 or nil
 
-					arg_23_0:emit(BattleResultMediator.GET_NEW_SHIP, var_25_16, var_23_1, var_25_17)
+					arg_23_0:emit(BattleResultMediator.GET_NEW_SHIP, var_25_15, var_23_1, var_25_16)
 					coroutine.yield()
 				end
 			end

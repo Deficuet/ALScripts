@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_134",
 			stopbgm = true,
 			say = "鏡面海域（海底）・過去",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-11",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -356,7 +356,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "遺跡の鏡面海域・「始まりの地」　仮設アトリエ",
 			bgmDelay = 2,
-			bgm = "ryza-az-theme",
+			bgm = "ryza-13",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "遺跡の鏡面海域・南方海域・潜水艦にて",
 			bgmDelay = 1,
-			bgm = "ryza-az-theme",
+			bgm = "ryza-9",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

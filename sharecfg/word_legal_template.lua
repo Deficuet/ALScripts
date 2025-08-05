@@ -2636,6 +2636,21 @@ function temp()
 					}
 				}
 			}
+		},
+		ー = {
+			ナ = {
+				・ = {
+					フ = {
+						リ = {
+							ー = {
+								デ = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -3552,6 +3567,31 @@ function temp()
 			テ = {
 				ィ = {
 					this = true
+				}
+			}
+		},
+		イ = {
+			ラ = {
+				・ = {
+					フ = {
+						ォ = {
+							ン = {
+								・ = {
+									デ = {
+										ュ = {
+											ー = {
+												ラ = {
+													ー = {
+														this = true
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -5342,6 +5382,13 @@ function temp()
 					}
 				}
 			}
+		},
+		イ = {
+			ニ = {
+				ャ = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -5885,6 +5932,27 @@ function temp()
 						this = true,
 						改 = {
 							this = true
+						}
+					}
+				}
+			}
+		},
+		ミ = {
+			ア = {
+				・ = {
+					リ = {
+						ー = {
+							ス = {
+								フ = {
+									ェ = {
+										ル = {
+											ト = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -8037,7 +8105,23 @@ function temp()
 		顺 = {
 			["."] = {
 				改 = {
-					this = true
+					this = true,
+					（ = {
+						后 = {
+							排 = {
+								） = {
+									this = true
+								}
+							}
+						},
+						前 = {
+							排 = {
+								） = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -8434,6 +8518,108 @@ function temp()
 			主 = {
 				宰 = {
 					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.朴 = {
+		茨 = {
+			茅 = {
+				斯 = {
+					冒 = {
+						险 = {
+							号 = {
+								（ = {
+									后 = {
+										排 = {
+											） = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.艾 = {
+		菈 = {
+			· = {
+				冯 = {
+					· = {
+						杜 = {
+							勒 = {
+								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.蕾 = {
+		妮 = {
+			雅 = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.优 = {
+		米 = {
+			雅 = {
+				· = {
+					利 = {
+						斯 = {
+							菲 = {
+								尔 = {
+									德 = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.妮 = {
+		娜 = {
+			· = {
+				弗 = {
+					里 = {
+						德 = {
+							this = true
+						}
+					}
 				}
 			}
 		}

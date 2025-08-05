@@ -143,7 +143,7 @@ function var_0_0.recoverAllShipEnergy(arg_7_0)
 				var_7_5 = var_7_5 + Ship.BACKYARD_2F_ENERGY_ADDITION
 			end
 
-			for iter_7_2, iter_7_3 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
+			for iter_7_2, iter_7_3 in ipairs(BuffHelper.GetBackYardEnergyBuffs()) do
 				var_7_5 = var_7_5 + tonumber(iter_7_3:getConfig("benefit_effect"))
 			end
 

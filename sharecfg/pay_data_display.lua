@@ -87,6 +87,7 @@ pg.pay_data_display = setmetatable({
 		92,
 		93,
 		94,
+		95,
 		1000,
 		1001,
 		1002,
@@ -110,6 +111,7 @@ pg.pay_data_display = setmetatable({
 		1020,
 		1021,
 		1022,
+		1023,
 		2001,
 		2002,
 		2003,
@@ -9709,6 +9711,110 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[95] = {
+		descrip = "<size=18>下記着せ替え中の未所持着せ替えをランダムで1着（全部所持している場合自動でダイヤに変換されます）とその他アイテムを入手できます</size>",
+		name = "着せ替えパック(バニー)",
+		descrip_extra = "※福袋はメールボックスに送られます\n※全部所持している場合自動でダイヤ×680に変換されます",
+		type = 1,
+		limit_group = 0,
+		type_order = 2,
+		subject = "着せ替えパック(バニー)",
+		tip = "",
+		tip_open = 0,
+		id = 95,
+		money = 1000,
+		name_display = "着せ替えパック(バニー)",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "fudai26",
+		skin_inquire_relation = 86215,
+		id_str = "com.bilibili.blhx.zuanshi195",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 2,
+		airijp_id = "com.yostarjp.azurlane.diamond183",
+		extra_service_item = {
+			{
+				2,
+				86215,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86215,
+				1
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81215,
+				1
+			}
+		}
+	},
 	[1000] = {
 		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
 		name = "クルーズパス",
@@ -11566,6 +11672,87 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7023,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1023] = {
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(25夏)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		limit_group = 0,
+		type_order = 6,
+		subject = "クルーズパス(25夏)",
+		tip = "",
+		tip_open = 0,
+		id = 1023,
+		money = 1200,
+		name_display = "クルーズパス(25夏)",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 4,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass25",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostarjp.azurlane.seasonpass24",
+		extra_service_item = {
+			{
+				1,
+				4024,
+				1500
+			},
+			{
+				8,
+				65101,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7024,
 			1500
 		},
 		ignorePlatform = {},

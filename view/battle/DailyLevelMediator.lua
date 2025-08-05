@@ -8,8 +8,6 @@ var_0_0.ON_CHALLENGE_EDIT_FLEET = "DailyLevelMediator:ON_CHALLENGE_EDIT_FLEET"
 var_0_0.ON_REQUEST_CHALLENGE = "DailyLevelMediator:ON_REQUEST_CHALLENGE"
 var_0_0.ON_CHALLENGE_FLEET_CLEAR = "DailyLevelMediator.ON_CHALLENGE_FLEET_CLEAR"
 var_0_0.ON_CHALLENGE_FLEET_RECOMMEND = "DailyLevelMediator.ON_CHALLENGE_FLEET_RECOMMEND"
-var_0_0.ON_CHALLENGE_OPEN_DOCK = "DailyLevelMediator:ON_CHALLENGE_OPEN_DOCK"
-var_0_0.ON_CHALLENGE_OPEN_RANK = "DailyLevelMediator:ON_CHALLENGE_OPEN_RANK"
 var_0_0.ON_QUICK_BATTLE = "DailyLevelMediator:ON_QUICK_BATTLE"
 
 function var_0_0.register(arg_1_0)
@@ -24,6 +22,7 @@ function var_0_0.register(arg_1_0)
 	local var_1_1 = getProxy(PlayerProxy):getData()
 
 	arg_1_0.viewComponent:updateRes(var_1_1)
+	arg_1_0.viewComponent:setActivity(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_DAILY_STAGE_BONUS))
 	arg_1_0:bind(var_0_0.ON_QUICK_BATTLE, function(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 		arg_1_0:CheckShipExpItemOverflow(arg_2_2, function()
 			arg_1_0:sendNotification(GAME.DAILY_LEVEL_QUICK_BATTLE, {
@@ -95,7 +94,7 @@ function var_0_0.handleNotification(arg_9_0, arg_9_1)
 		local var_9_2 = var_9_1.awards
 
 		if #var_9_2 > 0 then
-			arg_9_0:DisplayAwards(var_9_2)
+			arg_9_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_9_2)
 		end
 
 		local var_9_3 = getProxy(DailyLevelProxy)
@@ -109,18 +108,6 @@ function var_0_0.handleNotification(arg_9_0, arg_9_1)
 	elseif var_9_0 == GAME.REMOVE_LAYERS and var_9_1.context.mediator.__cname == "PreCombatMediator" then
 		setActive(arg_9_0.viewComponent.blurPanel, true)
 	end
-end
-
-function var_0_0.DisplayAwards(arg_10_0, arg_10_1)
-	local var_10_0 = {}
-
-	for iter_10_0, iter_10_1 in ipairs(arg_10_1) do
-		for iter_10_2, iter_10_3 in ipairs(iter_10_1) do
-			table.insert(var_10_0, iter_10_3)
-		end
-	end
-
-	arg_10_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_10_0)
 end
 
 return var_0_0

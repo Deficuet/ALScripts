@@ -161571,6 +161571,135 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21785] = {
+		name = "20250717『嘉年华』系列返场 登陆奖励1",
+		guild_coin_award = 0,
+		award = 905247,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21785,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21786] = {
+		name = "20250717『嘉年华』系列返场 登陆奖励2",
+		guild_coin_award = 0,
+		award = 905248,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21786,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21787] = {
+		name = "20250717『嘉年华』系列返场 登陆奖励3",
+		guild_coin_award = 0,
+		award = 905249,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21787,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -166690,7 +166819,7 @@ end)()
 		type = 17,
 		desc = "「メイン画面」-「母港」-「学園」-「展示室」で現在所持している勲章を確認することができます\n\n「メイン画面」-「プロフィール」-「装飾」-「勲章展示」で展示する勲章を変更できます\n\n勲章を装備すると、自身のプロフィールページに勲章が表示されるようになります\n\n各種勲章にはそれぞれ異なる入手条件があり、対応する条件を達成すると、勲章展示室でその勲章を受け取ることができます。勲章の入手条件は勲章をタップすることで確認できます",
 		count_inherit = 0,
-		sub_type = 160,
+		sub_type = 162,
 		target_id_2 = "0",
 		story_icon = "",
 		is_head = 1,
@@ -166729,7 +166858,7 @@ end)()
 		type = 17,
 		desc = "一部の勲章にはレベルが存在し、下位のレベルの勲章を入手すると、上位のレベルの勲章の入手が開放されます\n\n艦船に関する一部の勲章は、艦船を退役させても進捗には影響しません。また、同名の艦船で進捗を重複して計算しません\n\nまた、一部のイベントでは、イベント記念勲章も獲得することができます",
 		count_inherit = 0,
-		sub_type = 160,
+		sub_type = 162,
 		target_id_2 = "0",
 		story_icon = "",
 		is_head = 1,
@@ -181107,6 +181236,7942 @@ end)()
 		},
 		scene = {
 			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23896] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务1",
+		guild_coin_award = 0,
+		award = 906497,
+		type = 26,
+		desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23896,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23897] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务2",
+		guild_coin_award = 0,
+		award = 906498,
+		type = 26,
+		desc = "ゲームにログインせよ！",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23897,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23898] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务3",
+		guild_coin_award = 0,
+		award = 906499,
+		type = 26,
+		desc = "演習を2回行う",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23898,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23899] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务4",
+		guild_coin_award = 0,
+		award = 906500,
+		type = 26,
+		desc = "「軍事委託」を2回遂行する",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23899,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23900] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务5",
+		guild_coin_award = 0,
+		award = 906501,
+		type = 26,
+		desc = "艦を2隻「退役」して、艦隊を再編せよ！",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23900,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23901] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务6",
+		guild_coin_award = 0,
+		award = 906502,
+		type = 26,
+		desc = "「デイリーチャレンジ」を三回行う ",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23901,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23902] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务7",
+		guild_coin_award = 0,
+		award = 906503,
+		type = 26,
+		desc = "艦を5回強化する",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23902,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23903] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务8",
+		guild_coin_award = 0,
+		award = 906504,
+		type = 26,
+		desc = "戦術教室で戦術訓練を2回行う",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23903,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23904] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务9",
+		guild_coin_award = 0,
+		award = 906505,
+		type = 26,
+		desc = "任意の敵艦を20隻撃破する",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23904,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23905] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务10",
+		guild_coin_award = 0,
+		award = 906506,
+		type = 26,
+		desc = "寮舎で食糧を5回補充する",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23905,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23906] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务11",
+		guild_coin_award = 0,
+		award = 906507,
+		type = 26,
+		desc = "艦を2隻「建造」せよ！",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23906,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23907] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务12",
+		guild_coin_award = 0,
+		award = 906508,
+		type = 26,
+		desc = "装備箱を1個開ける",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23907,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23908] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务13",
+		guild_coin_award = 0,
+		award = 906509,
+		type = 26,
+		desc = "戦術教室で戦術訓練を2回遂行せよ！",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23908,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23909] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务14",
+		guild_coin_award = 0,
+		award = 906510,
+		type = 26,
+		desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23909,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				7,
+				403023,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24150] = {
+		name = "「T1-新たな冒険」を探索",
+		guild_coin_award = 0,
+		award = 906709,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、「T1-新たな冒険」を100%クリア！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24150,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				42,
+				1
+			},
+			{
+				1001,
+				28,
+				1
+			},
+			{
+				1001,
+				12,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690001,
+				mapIdx = 1690001,
+				openChapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24151] = {
+		name = "「T2-材料と調合」を探索",
+		guild_coin_award = 0,
+		award = 906710,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、「T2-材料と調合」を100%クリア！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24151,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				43,
+				1
+			},
+			{
+				1001,
+				27,
+				1
+			},
+			{
+				1001,
+				15,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690002,
+				mapIdx = 1690001,
+				openChapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24152] = {
+		name = "「T3-調査と試合」を探索",
+		guild_coin_award = 0,
+		award = 906711,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、「T3-調査と試合」を100%クリア！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24152,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				45,
+				1
+			},
+			{
+				1001,
+				30,
+				1
+			},
+			{
+				1001,
+				9,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690003,
+				mapIdx = 1690001,
+				openChapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24153] = {
+		name = "「T4-迷宮と宝物」を探索",
+		guild_coin_award = 0,
+		award = 906712,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、「T4-迷宮と宝物」を100%クリア！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24153,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				44,
+				1
+			},
+			{
+				1001,
+				29,
+				1
+			},
+			{
+				1001,
+				6,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690004,
+				mapIdx = 1690001,
+				openChapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24154] = {
+		name = "「T5-そして結末へ」を探索",
+		guild_coin_award = 0,
+		award = 906713,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、「T5-そして結末へ」を100%クリア！",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24154,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				1,
+				1
+			},
+			{
+				1001,
+				2,
+				1
+			},
+			{
+				1001,
+				3,
+				1
+			},
+			{
+				1001,
+				4,
+				1
+			},
+			{
+				1001,
+				5,
+				1
+			},
+			{
+				5,
+				95127,
+				1
+			},
+			{
+				1001,
+				7,
+				5
+			},
+			{
+				1001,
+				10,
+				5
+			},
+			{
+				1001,
+				13,
+				5
+			},
+			{
+				1001,
+				16,
+				5
+			},
+			{
+				1001,
+				34,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690005,
+				mapIdx = 1690001,
+				openChapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24155] = {
+		name = "「TH1-始まりの地」を完全探索",
+		guild_coin_award = 0,
+		award = 906714,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、採取地「TH1-始まりの地」を10回クリア！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1696013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24155,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				51,
+				1
+			},
+			{
+				1001,
+				14,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690021,
+				mapIdx = 1690002,
+				openChapterId = 1690021
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24156] = {
+		name = "「TH2-異界の森」を完全探索",
+		guild_coin_award = 0,
+		award = 906715,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、採取地「TH2-異界の森」を10回クリア！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1697013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24156,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				50,
+				1
+			},
+			{
+				1001,
+				17,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690022,
+				mapIdx = 1690002,
+				openChapterId = 1690022
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24157] = {
+		name = "「TH3-紛争の城」を完全探索",
+		guild_coin_award = 0,
+		award = 906716,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、採取地「TH3-紛争の城」を10回クリア！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1698013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24157,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				48,
+				1
+			},
+			{
+				1001,
+				11,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690023,
+				mapIdx = 1690002,
+				openChapterId = 1690023
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24158] = {
+		name = "「TH4-滅失の都」を完全探索",
+		guild_coin_award = 0,
+		award = 906717,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、採取地「TH4-滅失の都」を10回クリア！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1699013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24158,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				49,
+				1
+			},
+			{
+				1001,
+				8,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690024,
+				mapIdx = 1690002,
+				openChapterId = 1690024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24159] = {
+		name = "「TH5-中枢の拠」を完全探索",
+		guild_coin_award = 0,
+		award = 906718,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」に参加し、採取地「TH5-中枢の拠」を10回クリア！",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1694014",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24159,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				20,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690025,
+				mapIdx = 1690002,
+				openChapterId = 1690025
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24160] = {
+		name = "遺跡群島を目指して、出発！",
+		guild_coin_award = 0,
+		award = 906719,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」イベント期間中、一回ログインする",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "shoes",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24160,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				527,
+				3
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24161] = {
+		name = "錬金術で建造しよう？！",
+		guild_coin_award = 0,
+		award = 906720,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」イベント期間中、建造を20回行う",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24161,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24162] = {
+		name = "燃料も、材料になれる？",
+		guild_coin_award = 0,
+		award = 906721,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」イベント期間中、燃料を累計10000消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24162,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				46,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24163] = {
+		name = "最初の採取道具！",
+		guild_coin_award = 0,
+		award = 906722,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」で調合を1回行う",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24163,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				150
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24164] = {
+		name = "準備万端！",
+		guild_coin_award = 0,
+		award = 906723,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」で調合を累計5回行う",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24164,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				1,
+				523,
+				150
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24165] = {
+		name = "もっと調合しよう",
+		guild_coin_award = 0,
+		award = 906724,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」で調合を累計10回行う",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24165,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1,
+				523,
+				300
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				300
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24166] = {
+		name = "「遺跡水晶クラスター」を集めよう",
+		guild_coin_award = 0,
+		award = 906725,
+		type = 6,
+		desc = "「遺跡水晶クラスター」を累計10000個獲得する",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50051",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "523",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24166,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				32,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24167] = {
+		name = "温泉開発完了！",
+		guild_coin_award = 0,
+		award = 906726,
+		type = 6,
+		desc = "「温泉開発競争」-DAY 7をクリアする",
+		count_inherit = 0,
+		sub_type = 415,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24167,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			36
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				33,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24168] = {
+		name = "「フィルフサ級量産型」Iを討伐",
+		guild_coin_award = 0,
+		award = 906727,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」ステージで、敵「フィルフサ級量産型」を累計50隻撃破",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24168,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24169] = {
+		name = "「フィルフサ級量産型」IIを討伐",
+		guild_coin_award = 0,
+		award = 906728,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」ステージで、敵「フィルフサ級量産型」を累計100隻撃破",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24169,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95119,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24170] = {
+		name = "「フィルフサ級量産型」IIIを討伐",
+		guild_coin_award = 0,
+		award = 906729,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」ステージで、敵「フィルフサ級量産型」を累計150隻撃破",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24170,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24171] = {
+		name = "「フィルフサ級量産型」IVを討伐",
+		guild_coin_award = 0,
+		award = 906730,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」ステージで、敵「フィルフサ級量産型」を累計200隻撃破",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24171,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95115,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24172] = {
+		name = "「フィルフサ級量産型」Vを討伐",
+		guild_coin_award = 0,
+		award = 906731,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」ステージで、敵「フィルフサ級量産型」を累計250隻撃破",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24172,
+		target_num = 250,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				47,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24173] = {
+		name = "「古代遺跡型エンフォーサー」Iを討伐",
+		guild_coin_award = 0,
+		award = 906732,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」ステージで、人型セイレーンを累計15体撃破",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24173,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				522,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24174] = {
+		name = "「古代遺跡型エンフォーサー」IIを討伐",
+		guild_coin_award = 0,
+		award = 906733,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」ステージで、人型セイレーンを累計30体撃破",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24174,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95131,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24175] = {
+		name = "「古代遺跡守護者プロトタイプ」を討伐",
+		guild_coin_award = 0,
+		award = 906734,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」ステージで、「古代遺跡守護者プロトタイプ」を10回撃破する",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24175,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16304306
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95132,
+				1
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24176] = {
+		name = "「イナズマ鉱」を大量採取",
+		guild_coin_award = 0,
+		award = 906735,
+		type = 6,
+		desc = "雷の力を有する鉱石、一体どんなものか気になるわ\n素材消費: 「イナズマ鉱」5つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "15",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "wuzang",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24176,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				57,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24177] = {
+		name = "「サルディン」を少量採取",
+		guild_coin_award = 0,
+		award = 906736,
+		type = 6,
+		desc = "バーベキューパーティーやるから、サルディンをお願いっす！\n素材消費: 「サルディン」3つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "7",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiyatu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24177,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				56,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24178] = {
+		name = "「マグマパウダー」を採取",
+		guild_coin_award = 0,
+		award = 906737,
+		type = 6,
+		desc = "放置しているだけで発熱するマグマパウダーなら、きっと最高な花火にできるね！集めるのを手伝って！\n素材消費:「マグマパウダー」1つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "11",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "fushun",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24178,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				58,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24179] = {
+		name = "「小さな晶石」を大量採取",
+		guild_coin_award = 0,
+		award = 906738,
+		type = 6,
+		desc = "キラキラ……きれい。欲しい……\n素材消費: 「小さな晶石」5つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "9",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aierdeliqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24179,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				52,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24180] = {
+		name = "「ウィングプラント」を少量採取",
+		guild_coin_award = 0,
+		award = 906739,
+		type = 6,
+		desc = "鳥の羽みたいな形、すごく綺麗…採取してガーデンハウスに植えたいです！\n素材消費: 「ウィングプラント」3つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "13",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "huayue",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24180,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				53,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24181] = {
+		name = "「謎のエナジーコア」を採取",
+		guild_coin_award = 0,
+		award = 906740,
+		type = 6,
+		desc = "古代遺跡守護者プロトタイプの異常な動力の源らしい…じっくり調べておかないと\n素材消費: 「謎のエナジーコア」1つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "20",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "yinggelahan",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24181,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				54,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24182] = {
+		name = "「プルムル」を大量採取",
+		guild_coin_award = 0,
+		award = 906741,
+		type = 6,
+		desc = "ベルが新しい海鮮料理を作るから貝類がほしいって頼まれたから、依頼を出してみたんですー\n素材消費: 「プルムル」5つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "6",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aidingbao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24182,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				55,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24183] = {
+		name = "「燃える砂」を少量採取",
+		guild_coin_award = 0,
+		award = 906742,
+		type = 6,
+		desc = "この、火をつけると燃え上がる砂を集めてきて！どこに使うかは、まだヒミツ♪イヒヒ、お願いね☆\n素材消費: 「燃える砂」3つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "10",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "daqinghuayu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24183,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95113,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24184] = {
+		name = "「ブラッドトーン」を採取",
+		guild_coin_award = 0,
+		award = 906743,
+		type = 6,
+		desc = "鮮血と同じ色の草、頭飾りにしたら悪くないかも♪\n素材消費:「ブラッドトーン」1つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "14",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xixuegui",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24184,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24185] = {
+		name = "「謎の結晶鉱」を大量採取",
+		guild_coin_award = 0,
+		award = 906744,
+		type = 6,
+		desc = "中枢エリアから見つかった未知なる結晶…お金の匂いがするにゃ。採取をお願いにゃ！\n素材消費: 「謎の結晶鉱」5つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "18",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24185,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24186] = {
+		name = "「導きの星の欠片」を少量採取",
+		guild_coin_award = 0,
+		award = 906745,
+		type = 6,
+		desc = "空から出ずる、不思議な力を持つ欠片…使い方、少しばかり心案じ……\n素材消費: 「導きの星の欠片」3つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "16",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xinnong",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24186,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24187] = {
+		name = "「湖底のぬし」を採取",
+		guild_coin_award = 0,
+		award = 906746,
+		type = 6,
+		desc = "こんなすごい魚なら、きっと美味しいスターゲイジー・パイにできるよ！出来上がったらぜひ召し上がってね！\n素材消費: 「湖底のぬし」1つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "8",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "manchesite",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24187,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95108,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24188] = {
+		name = "「ナナシ草」を大量採取",
+		guild_coin_award = 0,
+		award = 906747,
+		type = 6,
+		desc = "ニンジャの訓練道具として、できればナナシ草を多くいただきたいでござる\n素材消費: 「ナナシ草」5つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "12",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24188,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24189] = {
+		name = "「謎の装甲材」を少量採取",
+		guild_coin_award = 0,
+		award = 906748,
+		type = 6,
+		desc = "訓練海域の的の強度を上げるから、例のセイレーンが作った新型装甲材を頼むわ\n素材消費: 「謎の装甲材」3つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "19",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "qianwei",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24189,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95140,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24190] = {
+		name = "「セプトリエン」を採取",
+		guild_coin_award = 0,
+		award = 906749,
+		type = 6,
+		desc = "この「セプトリエン」という鉱石、なかなか面白いわ。今度出かける時のお土産ってことで、お願いね\n素材消費: 「セプトリエン」1つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "17",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "makeboluo",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24190,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24191] = {
+		name = "「精霊の小瓶」の謎を暴く！",
+		guild_coin_award = 0,
+		award = 906750,
+		type = 16,
+		desc = "「精霊の小瓶」をできるだけ多く集めてきてほしい！（PS.ダ・ヴィンチ先生は寝食を忘れて頑張ってるから、この委託はアルフレードから！）\n素材消費: 「精霊の小瓶」10つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "21",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "dafenqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24191,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24192] = {
+		name = "「中和剤・赤」を研究するにゃ！",
+		guild_coin_award = 0,
+		award = 906751,
+		type = 16,
+		desc = "全ては研究のためにゃ！ありったけ持って来てにゃ！\n素材消費: 「中和剤・赤」6個（錬金術士と謎の遺跡群島）",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "22",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24192,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24193] = {
+		name = "「中和剤・青」を研究するにゃ！",
+		guild_coin_award = 0,
+		award = 906752,
+		type = 16,
+		desc = "全ては研究のためにゃ！ありったけ持って来てにゃ！\n素材消費: 「中和剤・青」6個（錬金術士と謎の遺跡群島）",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "23",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24193,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24194] = {
+		name = "「中和剤・黄」を研究するにゃ！",
+		guild_coin_award = 0,
+		award = 906753,
+		type = 16,
+		desc = "全ては研究のためにゃ！ありったけ持って来てにゃ！\n素材消費: 「中和剤・黄」6個（錬金術士と謎の遺跡群島）",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "24",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24194,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24195] = {
+		name = "「中和剤・緑」を研究するにゃ！",
+		guild_coin_award = 0,
+		award = 906754,
+		type = 16,
+		desc = "全ては研究のためにゃ！ありったけ持って来てにゃ！\n素材消費: 「中和剤・緑」6個（錬金術士と謎の遺跡群島）",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "25",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24195,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24196] = {
+		name = "「クリスタルエレメント」についての研究",
+		guild_coin_award = 0,
+		award = 906755,
+		type = 16,
+		desc = "むふふふ…「クリスタルエレメント」を徹底的に解析するために、材料が沢山必要なの…\n素材消費: 「クリスタルエレメント」4つ",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "26",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "tuolichaili",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24196,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				120
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24197] = {
+		name = "『莱莎联动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 906756,
+		type = 6,
+		desc = "調合システム、購買部、イベントショップのいずれかで装備外装箱（ライザのアトリエ）を20個交換する",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24197,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			30340,
+			30373
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30513,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24198] = {
+		name = "『莱莎联动』-日常建造",
+		guild_coin_award = 0,
+		award = 906757,
+		type = 36,
+		desc = "艦船を3隻建造する",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24198,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65652,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24199] = {
+		name = "『莱莎联动』-日常出击",
+		guild_coin_award = 0,
+		award = 906758,
+		type = 36,
+		desc = "艦隊を出撃させ、15回勝利する",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24199,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65652,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24200] = {
+		name = "『莱莎联动』-日常困难本",
+		guild_coin_award = 0,
+		award = 906759,
+		type = 36,
+		desc = "通常海域ハードモードを1回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24200,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65652,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24201] = {
+		name = "『莱莎联动』通关T1",
+		guild_coin_award = 0,
+		award = 906760,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T1をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "24202",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24201,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24202] = {
+		name = "『莱莎联动』通关T2",
+		guild_coin_award = 0,
+		award = 906761,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T2をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "24203",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24202,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24203] = {
+		name = "『莱莎联动』通关T3",
+		guild_coin_award = 0,
+		award = 906762,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T3をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "24204",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24203,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65652,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24204] = {
+		name = "『莱莎联动』通关T4",
+		guild_coin_award = 0,
+		award = 906763,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T4をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "24205",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24204,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24205] = {
+		name = "『莱莎联动』通关T5",
+		guild_coin_award = 0,
+		award = 906764,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T5をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "24206",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24205,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24206] = {
+		name = "『莱莎联动』通关A.SP",
+		guild_coin_award = 0,
+		award = 906765,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」A.SPをクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24206,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690003,
+				chapterId = 1690041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24207] = {
+		name = "『莱莎联动』T1的3星",
+		guild_coin_award = 0,
+		award = 906766,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T1を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "24208",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24207,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24208] = {
+		name = "『莱莎联动』T2的3星",
+		guild_coin_award = 0,
+		award = 906767,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T2を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "24209",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24208,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24209] = {
+		name = "『莱莎联动』T3的3星",
+		guild_coin_award = 0,
+		award = 906768,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T3を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "24210",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24209,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24210] = {
+		name = "『莱莎联动』T4的3星",
+		guild_coin_award = 0,
+		award = 906769,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T4を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "24211",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24210,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24211] = {
+		name = "『莱莎联动』T5的3星",
+		guild_coin_award = 0,
+		award = 906770,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」T5を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24211,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24212] = {
+		name = "『莱莎联动』通关EX",
+		guild_coin_award = 0,
+		award = 906771,
+		type = 6,
+		desc = "「錬金術士と謎の遺跡群島」EXをクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690051",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24212,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690004,
+				chapterId = 1690051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24213] = {
+		name = "『莱莎联动』获得大佬章",
+		guild_coin_award = 0,
+		award = 906772,
+		type = 6,
+		desc = "調合で「遺跡冒険記念」を入手する",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24213,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			200
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				9,
+				1218,
+				1
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24214] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906601,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24214,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300201,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24215] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906602,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24215,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300202,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24216] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906603,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24216,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300203,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24217] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906604,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24217,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				8
+			},
+			{
+				102,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300204,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24218] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906605,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24218,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300205,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24219] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906606,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24219,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300206,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24220] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906607,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24220,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300207,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24221] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906608,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24221,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				8
+			},
+			{
+				104,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300208,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24222] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906609,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24222,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				4
+			},
+			{
+				106,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300209,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24223] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906610,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24223,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				4
+			},
+			{
+				106,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300210,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24224] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906611,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24224,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				4
+			},
+			{
+				106,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300211,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24225] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906612,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24225,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				8
+			},
+			{
+				106,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300212,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24226] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906613,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24226,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				4
+			},
+			{
+				108,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300213,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24227] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906614,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24227,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				4
+			},
+			{
+				108,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300214,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24228] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906615,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24228,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				4
+			},
+			{
+				108,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300215,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24229] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906616,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24229,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				8
+			},
+			{
+				108,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300216,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24230] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906617,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24230,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				4
+			},
+			{
+				110,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300217,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24231] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906618,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24231,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				4
+			},
+			{
+				110,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300218,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24232] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906619,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24232,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				4
+			},
+			{
+				110,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300219,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24233] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906620,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24233,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				8
+			},
+			{
+				110,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300220,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24234] = {
+		name = "『优米雅联动』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906624,
+		type = 6,
+		desc = "ゲームにログインする",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24234,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				527,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24235] = {
+		name = "『优米雅联动』剧情模式",
+		guild_coin_award = 0,
+		award = 906625,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」のストーリーをすべて読む",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24235,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			6988
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24236] = {
+		name = "『优米雅联动』日常剧情触发1",
+		guild_coin_award = 0,
+		award = 906785,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」で「蒼穹の塵」を5000個入手する",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50060",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN1",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "24237",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "528",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24236,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24237] = {
+		name = "『优米雅联动』日常剧情触发2",
+		guild_coin_award = 0,
+		award = 906786,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」で累計で10回調合する",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN2",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "24238",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24237,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24238] = {
+		name = "『优米雅联动』日常剧情触发3",
+		guild_coin_award = 0,
+		award = 906787,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」のステージを20回クリアする",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN3",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "24239",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24238,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24239] = {
+		name = "『优米雅联动』日常剧情触发4",
+		guild_coin_award = 0,
+		award = 906788,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」で累計で30回調合する",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN4",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24239,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24240] = {
+		name = "『优米雅联动』-日常建造",
+		guild_coin_award = 0,
+		award = 906790,
+		type = 36,
+		desc = "艦船を3隻建造する",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24240,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65663,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24241] = {
+		name = "『优米雅联动』-日常出击",
+		guild_coin_award = 0,
+		award = 906791,
+		type = 36,
+		desc = "艦隊を出撃させ、15回勝利する",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24241,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65663,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24242] = {
+		name = "『优米雅联动』-日常困难本",
+		guild_coin_award = 0,
+		award = 906792,
+		type = 36,
+		desc = "通常海域ハードモードを1回クリアする",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24242,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65663,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24243] = {
+		name = "『优米雅联动』-通关T1",
+		guild_coin_award = 0,
+		award = 906793,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T1をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940001",
+		next_task = "24244",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24243,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24244] = {
+		name = "『优米雅联动』-通关T2",
+		guild_coin_award = 0,
+		award = 906794,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T2をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940002",
+		next_task = "24245",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24244,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24245] = {
+		name = "『优米雅联动』-通关T3",
+		guild_coin_award = 0,
+		award = 906795,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T3をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940003",
+		next_task = "24246",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24245,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65663,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24246] = {
+		name = "『优米雅联动』-通关T4",
+		guild_coin_award = 0,
+		award = 906796,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T4をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940004",
+		next_task = "24247",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24246,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24247] = {
+		name = "『优米雅联动』-通关T5",
+		guild_coin_award = 0,
+		award = 906797,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T5をクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940005",
+		next_task = "24248",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24247,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24248] = {
+		name = "『优米雅联动』-通关Y.SP",
+		guild_coin_award = 0,
+		award = 906798,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」Y.SPをクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940041",
+		next_task = "24236",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24248,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1940003,
+				chapterId = 1940041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24249] = {
+		name = "『优米雅联动』-T1的3星",
+		guild_coin_award = 0,
+		award = 906799,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T1を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940001",
+		next_task = "24250",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24249,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24250] = {
+		name = "『优米雅联动』-T2的3星",
+		guild_coin_award = 0,
+		award = 906800,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T2を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940002",
+		next_task = "24251",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24250,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24251] = {
+		name = "『优米雅联动』-T3的3星",
+		guild_coin_award = 0,
+		award = 906801,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T3を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940003",
+		next_task = "24252",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24251,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24252] = {
+		name = "『优米雅联动』-T4的3星",
+		guild_coin_award = 0,
+		award = 906802,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T4を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940004",
+		next_task = "24253",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24252,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24253] = {
+		name = "『优米雅联动』-T5的3星",
+		guild_coin_award = 0,
+		award = 906803,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」T5を☆3達成",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24253,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24254] = {
+		name = "『优米雅联动』-通关EX",
+		guild_coin_award = 0,
+		award = 906804,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」EXをクリア",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24254,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940051,
+			1940052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1940004,
+				chapterId = 1940051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24255] = {
+		name = "『优米雅联动』-累计通关活动关卡10次",
+		guild_coin_award = 0,
+		award = 906805,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」ステージを10回クリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24255,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				500
+			},
+			{
+				5,
+				325110,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24256] = {
+		name = "『优米雅联动』-累计通关活动关卡20次",
+		guild_coin_award = 0,
+		award = 906806,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」ステージを20回クリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24256,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				128,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24257] = {
+		name = "『优米雅联动』-累计通关活动关卡30次",
+		guild_coin_award = 0,
+		award = 906807,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」ステージを30回クリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24257,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				127,
+				1
+			},
+			{
+				1,
+				528,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24258] = {
+		name = "『优米雅联动』-累计通关活动关卡40次",
+		guild_coin_award = 0,
+		award = 906808,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」ステージを40回クリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24258,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				325110,
+				1
+			},
+			{
+				1001,
+				101,
+				4
+			},
+			{
+				1001,
+				102,
+				4
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24259] = {
+		name = "『优米雅联动』-累计通关活动关卡50次",
+		guild_coin_award = 0,
+		award = 906809,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」ステージを50回クリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24259,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1499,
+				1
+			},
+			{
+				1001,
+				101,
+				8
+			},
+			{
+				1001,
+				102,
+				8
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24260] = {
+		name = "『优米雅联动』-累计通关活动关卡60次",
+		guild_coin_award = 0,
+		award = 906810,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」ステージを60回クリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24260,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				3000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24261] = {
+		name = "『优米雅联动』-通关素材关1",
+		guild_coin_award = 0,
+		award = 906811,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」TS1をクリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24261,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				116,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24262] = {
+		name = "『优米雅联动』-通关素材关2",
+		guild_coin_award = 0,
+		award = 906812,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」TS2をクリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24262,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940022
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				117,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24263] = {
+		name = "『优米雅联动』-通关素材关3",
+		guild_coin_award = 0,
+		award = 906813,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」TS3をクリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24263,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940023
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				118,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24264] = {
+		name = "『优米雅联动』-通关素材关4",
+		guild_coin_award = 0,
+		award = 906814,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」TS4をクリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24264,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				119,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24265] = {
+		name = "『优米雅联动』-通关素材关5",
+		guild_coin_award = 0,
+		award = 906815,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」TS5をクリア",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24265,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940025
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				120,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24266] = {
+		name = "『优米雅联动』-中和剂回收·红",
+		guild_coin_award = 0,
+		award = 906816,
+		type = 16,
+		desc = "「錬金術士と天空邂逅の塔」で、「中和剤・赤」を15個提出する",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "129",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24266,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24267] = {
+		name = "『优米雅联动』-中和剂回收·蓝",
+		guild_coin_award = 0,
+		award = 906817,
+		type = 16,
+		desc = "「錬金術士と天空邂逅の塔」で、「中和剤・青」を15個提出する",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "130",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24267,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24268] = {
+		name = "『优米雅联动』-中和剂回收·黄",
+		guild_coin_award = 0,
+		award = 906818,
+		type = 16,
+		desc = "「錬金術士と天空邂逅の塔」で、「中和剤・黄」を15個提出する",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "131",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24268,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24269] = {
+		name = "『优米雅联动』-中和剂回收·绿",
+		guild_coin_award = 0,
+		award = 906819,
+		type = 16,
+		desc = "「錬金術士と天空邂逅の塔」で、「中和剤・緑」を15個提出する",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "132",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24269,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24270] = {
+		name = "『优米雅联动』-中和剂回收·七彩",
+		guild_coin_award = 0,
+		award = 906820,
+		type = 16,
+		desc = "「錬金術士と天空邂逅の塔」で、「中和剤・虹」を10個提出する",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "133",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24270,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24271] = {
+		name = "『优米雅联动』-外观装备箱",
+		guild_coin_award = 0,
+		award = 906789,
+		type = 6,
+		desc = "アトリエ、購買部、イベントショップのいずれかで装備外装箱（ユミアのアトリエ）を20個交換する",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24271,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			30370,
+			30372
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30557,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24272] = {
+		name = "『优米雅联动』大佬章任务",
+		guild_coin_award = 0,
+		award = 906828,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」で25個のレシピを調合する",
+		count_inherit = 0,
+		sub_type = 9007,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24272,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1001,
+			1002,
+			1003,
+			1004,
+			1011,
+			1012,
+			1013,
+			1014,
+			1015,
+			1016,
+			1017,
+			1018,
+			1019,
+			1020,
+			1021,
+			1022,
+			1023,
+			1024,
+			1025,
+			1026,
+			1027,
+			1028,
+			1029,
+			1030,
+			1031
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				311,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24273] = {
+		name = "『优米雅联动』能源核心满级1",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」の出撃強化「始まりのエリア」がレベルMAX",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24273,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24217
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24274] = {
+		name = "『优米雅联动』能源核心满级2",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」の出撃強化「L1エリア」がレベルMAX",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24274,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24221
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24275] = {
+		name = "『优米雅联动』能源核心满级3",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」の出撃強化「L2エリア」がレベルMAX",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24275,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24225
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24276] = {
+		name = "『优米雅联动』能源核心满级4",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」の出撃強化「L3エリア」がレベルMAX",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24276,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24229
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24277] = {
+		name = "『优米雅联动』能源核心满级5",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "「錬金術士と天空邂逅の塔」の出撃強化「頂上エリア」がレベルMAX",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24277,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24233
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
 		}
 	}
 end)()
@@ -264993,6 +273058,339 @@ end)()
 				2,
 				18033,
 				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500141] = {
+		name = "葡萄が熟したとき",
+		guild_coin_award = 0,
+		award = 500141,
+		type = 5,
+		desc = "魚雷天ぷらを3個準備する（消費）",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500142",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "DUNKEERKE1",
+		tutorial_handbook_pic = "",
+		id = 500141,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500142] = {
+		name = "年月の風味",
+		guild_coin_award = 0,
+		award = 500142,
+		type = 5,
+		desc = "任意の艦を10回強化する",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE2",
+		ryza_icon = "",
+		next_task = "500143",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500142,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500143] = {
+		name = "甘いひとときを仕込んで",
+		guild_coin_award = 0,
+		award = 500143,
+		type = 5,
+		desc = "ダンケルクを含めた艦隊で出撃し、20回勝利する",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE3",
+		ryza_icon = "",
+		next_task = "500144",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500143,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500144] = {
+		name = "優しさの秘密",
+		guild_coin_award = 0,
+		award = 500144,
+		type = 5,
+		desc = "燃料を500消費する",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE4",
+		ryza_icon = "",
+		next_task = "500145",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500144,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500145] = {
+		name = "共同作品",
+		guild_coin_award = 0,
+		award = 500145,
+		type = 5,
+		desc = "ダンケルクの親密度が100に到達",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE5",
+		ryza_icon = "",
+		next_task = "500146",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500145,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500146] = {
+		name = "味覚ハーモニー",
+		guild_coin_award = 0,
+		award = 500146,
+		type = 5,
+		desc = "ダンケルクを3回限界突破する",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE6",
+		ryza_icon = "",
+		next_task = "500147",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500146,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500147] = {
+		name = "夜は酩酊に溶け",
+		guild_coin_award = 0,
+		award = 500147,
+		type = 5,
+		desc = "ダンケルクのレベルが100に到達",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500147,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				2
 			}
 		}
 	}

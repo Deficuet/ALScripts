@@ -44,13 +44,19 @@ function var_0_0.OnFirstFlush(arg_2_0)
 
 	onButton(arg_2_0, arg_2_0.shopBtn, function()
 		arg_2_0:PlayClickEffect(arg_2_0.shopBtn, function()
-			local var_10_0 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_11_0)
-				return arg_11_0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
+			local var_10_0 = configClinet.shopLinkActID and getProxy(ActivityProxy):getActivitiesById(configClinet.shopLinkActID) or underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_11_0)
+				return not arg_11_0:isEnd()
 			end)
+
+			if not var_10_0 or var_10_0:isEnd() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+				return
+			end
 
 			arg_2_0:emit(ActivityMediator.GO_SHOPS_LAYER, {
 				warp = NewShopsScene.TYPE_ACTIVITY,
-				actId = var_10_0 and var_10_0.id
+				actId = var_10_0.id
 			})
 		end)
 	end, SFX_PANEL)

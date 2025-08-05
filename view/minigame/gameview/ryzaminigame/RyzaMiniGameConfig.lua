@@ -361,4 +361,23 @@ function var_0_0.GetPassGamePoint(arg_52_0)
 	return math.floor(10000 / math.log(arg_52_0))
 end
 
+function var_0_0.ReSetDir(arg_53_0)
+	if arg_53_0.x ~= 0 and arg_53_0.y ~= 0 then
+		local var_53_0 = math.sign(arg_53_0.x)
+		local var_53_1 = math.sign(arg_53_0.y)
+		local var_53_2 = math.abs(arg_53_0.x)
+		local var_53_3 = math.abs(arg_53_0.y)
+
+		if var_53_3 < var_53_2 then
+			arg_53_0.x = math.ceil(var_53_2) * var_53_0
+			arg_53_0.y = 0
+		else
+			arg_53_0.x = 0
+			arg_53_0.y = math.ceil(var_53_3) * var_53_1
+		end
+	end
+
+	return arg_53_0
+end
+
 return var_0_0

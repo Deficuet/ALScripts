@@ -182314,6 +182314,1189 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[150680] = {
+		type = 10,
+		name = "グランシャイン",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "虹色の輝きを放つ大剣。あらゆる力を兼ね備えている",
+		nationality = 113,
+		rarity = 5,
+		id = 150680,
+		value_3 = 0,
+		attribute_1 = "antiaircraft",
+		icon = "150680",
+		value_1 = "40",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60860,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV",
+			"GRANSHINE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150681] = {
+		id = 150681,
+		value_1 = "41",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150682] = {
+		id = 150682,
+		value_1 = "42",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150683] = {
+		id = 150683,
+		value_1 = "43",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150684] = {
+		id = 150684,
+		value_1 = "44",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150685] = {
+		id = 150685,
+		value_1 = "45",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150686] = {
+		id = 150686,
+		value_1 = "46",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150687] = {
+		id = 150687,
+		value_1 = "48",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150688] = {
+		id = 150688,
+		value_1 = "50",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150689] = {
+		id = 150689,
+		value_1 = "52",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150690] = {
+		id = 150690,
+		value_1 = "55",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150691] = {
+		id = 150691,
+		anti_siren = 100,
+		value_1 = "58",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150692] = {
+		id = 150692,
+		anti_siren = 200,
+		value_1 = "60",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150693] = {
+		id = 150693,
+		anti_siren = 300,
+		value_1 = "65",
+		base = 150680,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150700] = {
+		type = 10,
+		name = "スペリオルグリモア",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "強力な風の力を封じ込めた魔導書。本を開けば中の力を解放できる",
+		nationality = 113,
+		rarity = 5,
+		id = 150700,
+		value_3 = 0,
+		attribute_1 = "air",
+		icon = "150700",
+		value_1 = "40",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60870,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150701] = {
+		id = 150701,
+		value_1 = "46",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150702] = {
+		id = 150702,
+		value_1 = "52",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150703] = {
+		id = 150703,
+		value_1 = "58",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150704] = {
+		id = 150704,
+		value_1 = "64",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150705] = {
+		id = 150705,
+		value_1 = "70",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150706] = {
+		id = 150706,
+		value_1 = "76",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150707] = {
+		id = 150707,
+		value_1 = "82",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150708] = {
+		id = 150708,
+		value_1 = "88",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150709] = {
+		id = 150709,
+		value_1 = "94",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150710] = {
+		id = 150710,
+		value_1 = "100",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150711] = {
+		id = 150711,
+		anti_siren = 100,
+		value_1 = "106",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150712] = {
+		id = 150712,
+		anti_siren = 200,
+		value_1 = "112",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150713] = {
+		id = 150713,
+		anti_siren = 300,
+		value_1 = "118",
+		base = 150700,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150720] = {
+		type = 10,
+		name = "エンデメテオ",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 2,
+		ammo = 10,
+		nationality = 113,
+		descrip = "火と雷の力を纏わせた双頭剣。使いこなせば２つの力をすぐに振るうことができる",
+		rarity = 5,
+		attribute_1 = "air",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 150720,
+		icon = "150720",
+		value_1 = "18",
+		attribute_2 = "dodge",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60880,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {
+			6,
+			7,
+			10
+		},
+		part_sub = {
+			6,
+			7,
+			10
+		},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150721] = {
+		id = 150721,
+		value_2 = 2,
+		value_1 = "22",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150722] = {
+		id = 150722,
+		value_2 = 3,
+		value_1 = "26",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150723] = {
+		id = 150723,
+		value_2 = 3,
+		value_1 = "30",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150724] = {
+		id = 150724,
+		value_2 = 3,
+		value_1 = "34",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150725] = {
+		id = 150725,
+		value_2 = 4,
+		value_1 = "39",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150726] = {
+		id = 150726,
+		value_2 = 4,
+		value_1 = "43",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150727] = {
+		id = 150727,
+		value_2 = 4,
+		value_1 = "47",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150728] = {
+		id = 150728,
+		value_2 = 5,
+		value_1 = "51",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150729] = {
+		id = 150729,
+		value_2 = 5,
+		value_1 = "55",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150730] = {
+		id = 150730,
+		value_2 = 6,
+		value_1 = "60",
+		base = 150720,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150731] = {
+		value_2 = 6,
+		anti_siren = 100,
+		base = 150720,
+		id = 150731,
+		value_1 = "65",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150732] = {
+		value_2 = 6,
+		anti_siren = 200,
+		base = 150720,
+		id = 150732,
+		value_1 = "68",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150733] = {
+		value_2 = 7,
+		anti_siren = 300,
+		base = 150720,
+		id = 150733,
+		value_1 = "77",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150740] = {
+		type = 10,
+		name = "パナケイアスフィア",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 1,
+		ammo = 10,
+		nationality = 113,
+		descrip = "美しい花畑と青空を映し出す水晶玉。すべての傷を癒す効果を持つ",
+		rarity = 5,
+		attribute_1 = "durability",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 150740,
+		icon = "150740",
+		value_1 = "100",
+		attribute_2 = "speed",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60890,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150741] = {
+		id = 150741,
+		value_1 = "130",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150742] = {
+		id = 150742,
+		value_1 = "160",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150743] = {
+		id = 150743,
+		value_1 = "190",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150744] = {
+		id = 150744,
+		value_2 = 2,
+		value_1 = "220",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150745] = {
+		id = 150745,
+		value_2 = 2,
+		value_1 = "250",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150746] = {
+		id = 150746,
+		value_2 = 2,
+		value_1 = "280",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150747] = {
+		id = 150747,
+		value_2 = 3,
+		value_1 = "310",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150748] = {
+		id = 150748,
+		value_2 = 3,
+		value_1 = "340",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150749] = {
+		id = 150749,
+		value_2 = 3,
+		value_1 = "370",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150750] = {
+		id = 150750,
+		value_2 = 4,
+		value_1 = "400",
+		base = 150740,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150751] = {
+		value_2 = 4,
+		anti_siren = 100,
+		base = 150740,
+		id = 150751,
+		value_1 = "424",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150752] = {
+		value_2 = 4,
+		anti_siren = 200,
+		base = 150740,
+		id = 150752,
+		value_1 = "448",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150753] = {
+		value_2 = 4,
+		anti_siren = 300,
+		base = 150740,
+		id = 150753,
+		value_1 = "472",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150760] = {
+		type = 10,
+		name = "アンフェルキューブ",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 6,
+		ammo = 10,
+		nationality = 113,
+		descrip = "太古の恐ろしい魔物を封印しているキューブ。解くのはやめたほうがいいよ",
+		rarity = 5,
+		attribute_1 = "hit",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 150760,
+		icon = "150760",
+		value_1 = "14",
+		attribute_2 = "dodge",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60900,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150761] = {
+		id = 150761,
+		value_1 = "16",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150762] = {
+		id = 150762,
+		value_2 = 7,
+		value_1 = "18",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150763] = {
+		id = 150763,
+		value_2 = 8,
+		value_1 = "20",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150764] = {
+		id = 150764,
+		value_2 = 9,
+		value_1 = "22",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150765] = {
+		id = 150765,
+		value_2 = 10,
+		value_1 = "24",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150766] = {
+		id = 150766,
+		value_2 = 11,
+		value_1 = "26",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150767] = {
+		id = 150767,
+		value_2 = 12,
+		value_1 = "28",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150768] = {
+		id = 150768,
+		value_2 = 13,
+		value_1 = "30",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150769] = {
+		id = 150769,
+		value_2 = 14,
+		value_1 = "32",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150770] = {
+		id = 150770,
+		value_2 = 15,
+		value_1 = "35",
+		base = 150760,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150771] = {
+		value_2 = 16,
+		anti_siren = 100,
+		base = 150760,
+		id = 150771,
+		value_1 = "38",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150772] = {
+		value_2 = 17,
+		anti_siren = 200,
+		base = 150760,
+		id = 150772,
+		value_1 = "41",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150773] = {
+		value_2 = 18,
+		anti_siren = 300,
+		base = 150760,
+		id = 150773,
+		value_1 = "44",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150780] = {
+		type = 10,
+		name = "天恵のアーミラリ",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "再生の力を有する天球儀。中心の宝石には癒しの力が秘められている",
+		nationality = 113,
+		rarity = 5,
+		id = 150780,
+		value_3 = 0,
+		attribute_1 = "durability",
+		icon = "150780",
+		value_1 = "250",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60910,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150781] = {
+		id = 150781,
+		value_1 = "280",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150782] = {
+		id = 150782,
+		value_1 = "310",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150783] = {
+		id = 150783,
+		value_1 = "340",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150784] = {
+		id = 150784,
+		value_1 = "370",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150785] = {
+		id = 150785,
+		value_1 = "400",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150786] = {
+		id = 150786,
+		value_1 = "430",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150787] = {
+		id = 150787,
+		value_1 = "460",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150788] = {
+		id = 150788,
+		value_1 = "490",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150789] = {
+		id = 150789,
+		value_1 = "520",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150790] = {
+		id = 150790,
+		value_1 = "550",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150791] = {
+		id = 150791,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150792] = {
+		id = 150792,
+		anti_siren = 200,
+		value_1 = "610",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150793] = {
+		id = 150793,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 150780,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150800] = {
+		type = 10,
+		name = "フラミィ",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "探索を助けてくれる不思議な装置。本人曰く「機能豊富で超高性能」らしい",
+		nationality = 113,
+		rarity = 5,
+		id = 150800,
+		value_3 = 0,
+		attribute_1 = "durability",
+		icon = "150800",
+		value_1 = "250",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60920,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150801] = {
+		id = 150801,
+		value_1 = "280",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150802] = {
+		id = 150802,
+		value_1 = "310",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150803] = {
+		id = 150803,
+		value_1 = "340",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150804] = {
+		id = 150804,
+		value_1 = "370",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150805] = {
+		id = 150805,
+		value_1 = "400",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150806] = {
+		id = 150806,
+		value_1 = "430",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150807] = {
+		id = 150807,
+		value_1 = "460",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150808] = {
+		id = 150808,
+		value_1 = "490",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150809] = {
+		id = 150809,
+		value_1 = "520",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150810] = {
+		id = 150810,
+		value_1 = "550",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150811] = {
+		id = 150811,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150812] = {
+		id = 150812,
+		anti_siren = 200,
+		value_1 = "610",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150813] = {
+		id = 150813,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 150800,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[170001] = {
 		type = 1,
 		name = "专属弹幕-古比雪夫I",
@@ -186914,6 +188097,124 @@ end)()
 		},
 		equip_parameters = {},
 		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[3297001] = {
+		rarity = 5,
+		name = "【2025优米雅联动 剧情战】我方优米雅战斗机",
+		speciality = "<[AIR]>",
+		type = 7,
+		tech = 0,
+		ammo = 5,
+		nationality = 1,
+		descrip = "以“海盗旗”为队徽而闻名的海军航空中队。",
+		id = 3297001,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		value_2 = 45,
+		icon = "17260",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50473
+			},
+			{
+				5,
+				52373
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			17273,
+			81273
+		},
+		skill_id = {
+			{
+				6250,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"FT"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[3297002] = {
+		rarity = 5,
+		name = "【2025优米雅联动 剧情战】我方优米雅鱼雷机",
+		speciality = "<[TRP]>",
+		type = 8,
+		tech = 0,
+		ammo = 5,
+		nationality = 4,
+		descrip = "说明未填写",
+		id = 3297002,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		value_2 = 45,
+		icon = "48040",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				59340
+			},
+			{
+				4,
+				59700
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			48053
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"KMS",
+			"CV",
+			"TB"
+		}
 	}
 end)()
 

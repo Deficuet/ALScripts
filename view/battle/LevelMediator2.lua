@@ -363,12 +363,14 @@ function var_0_0.register(arg_1_0)
 		var_35_2:duplicateSupportFleet(var_35_1)
 		arg_1_0.viewComponent:RefreshFleetSelectView(var_35_1)
 	end)
-	arg_1_0:bind(var_0_0.ON_ACTIVITY_MAP, function()
+	arg_1_0:bind(var_0_0.ON_ACTIVITY_MAP, function(arg_36_0, arg_36_1)
 		local var_36_0 = getProxy(ChapterProxy)
-		local var_36_1, var_36_2 = var_36_0:getLastMapForActivity()
+		local var_36_1, var_36_2 = var_36_0:getLastMapForActivity(arg_36_1)
 
 		if not var_36_1 or not var_36_0:getMapById(var_36_1):isUnlock() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
 		end
 
 		arg_1_0.viewComponent:ShowSelectedMap(var_36_1, function()
@@ -389,34 +391,43 @@ function var_0_0.register(arg_1_0)
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.CLUE_MAP)
 	end)
 	arg_1_0:bind(var_0_0.GO_ACT_SHOP, function()
-		local var_41_0 = pg.gameset.activity_res_id.key_value
-		local var_41_1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY)
+		local var_41_0 = arg_1_0.contextData.map and arg_1_0.contextData.map:getConfig("on_activity") or nil
+		local var_41_1 = var_41_0 and var_41_0 ~= 0 and getProxy(ActivityProxy):getActivityById(var_41_0)
+		local var_41_2 = var_41_1 and not var_41_1:isEnd() and var_41_1:GetConfigClientSetting("PTID")
+		local var_41_3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY)
 
-		if var_41_1 and var_41_1:getConfig("config_client").resId == var_41_0 and not var_41_1:isEnd() then
+		if var_41_3 and var_41_3:getConfig("config_client").resId == var_41_2 and not var_41_3:isEnd() then
 			arg_1_0:addSubLayers(Context.New({
 				mediator = LotteryMediator,
 				viewComponent = LotteryLayer,
 				data = {
-					activityId = var_41_1.id
+					activityId = var_41_3.id
 				}
 			}), false)
 		else
-			local var_41_2 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_42_0)
-				return arg_42_0:getConfig("config_client").pt_id == var_41_0
+			local var_41_4 = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_42_0)
+				return arg_42_0:getConfig("config_client").pt_id == var_41_2
 			end)
-			local var_41_3 = var_41_2 and var_41_2.id
+			local var_41_5 = var_41_4 and var_41_4.id
 
 			arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.SHOP, {
 				warp = NewShopsScene.TYPE_ACTIVITY,
-				actId = var_41_3
+				actId = var_41_5
 			})
 		end
 	end)
-	arg_1_0:bind(var_0_0.SHOW_ATELIER_BUFF, function(arg_43_0)
-		arg_1_0:addSubLayers(Context.New({
-			mediator = AtelierBuffMediator,
-			viewComponent = AtelierBuffLayer
-		}))
+	arg_1_0:bind(var_0_0.SHOW_ATELIER_BUFF, function(arg_43_0, arg_43_1)
+		if arg_43_1 then
+			arg_1_0:addSubLayers(Context.New({
+				mediator = AterialYumiaCoreBuffMediator,
+				viewComponent = AterialYumiaCoreBuffLayer
+			}))
+		else
+			arg_1_0:addSubLayers(Context.New({
+				mediator = AtelierBuffMediator,
+				viewComponent = AtelierBuffLayer
+			}))
+		end
 	end)
 	arg_1_0:bind(var_0_0.ON_SHIP_DETAIL, function(arg_44_0, arg_44_1)
 		arg_1_0.contextData.selectedChapterVO = arg_44_1.chapter
@@ -629,39 +640,31 @@ function var_0_0.register(arg_1_0)
 
 	arg_1_0.viewComponent:setCommanderPrefabs(var_1_5)
 
-	local var_1_6 = var_1_4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_RANK)
+	local var_1_6 = getProxy(DailyLevelProxy)
 
-	for iter_1_0, iter_1_1 in ipairs(var_1_6) do
-		if iter_1_1:getConfig("config_id") == pg.gameset.activity_res_id.key_value then
-			arg_1_0.viewComponent:updatePtActivity(iter_1_1)
-
-			break
-		end
-	end
-
-	local var_1_7 = getProxy(DailyLevelProxy)
-
-	arg_1_0.viewComponent:setEliteQuota(var_1_7.eliteCount, pg.gameset.elite_quota.key_value)
+	arg_1_0.viewComponent:setEliteQuota(var_1_6.eliteCount, pg.gameset.elite_quota.key_value)
 	getProxy(ChapterProxy):updateActiveChapterShips()
 
-	local var_1_8 = getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET)
+	local var_1_7 = getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET)
 
-	arg_1_0.viewComponent:setSpecialOperationTickets(var_1_8)
+	arg_1_0.viewComponent:setSpecialOperationTickets(var_1_7)
 end
 
 function var_0_0.DidEnterLevelMainUI(arg_73_0, arg_73_1)
 	arg_73_0.viewComponent:setMap(arg_73_1)
 
 	if arg_73_0.contextData.openChapterId then
-		arg_73_0.viewComponent.mapBuilder:TryOpenChapter(arg_73_0.contextData.openChapterId)
+		local var_73_0 = arg_73_0.contextData.openChapterId
+
+		arg_73_0.viewComponent.mapBuilder:ActionInvoke("TryOpenChapter", var_73_0)
 
 		arg_73_0.contextData.openChapterId = nil
 	end
 
-	local var_73_0 = arg_73_0.contextData.chapterVO
+	local var_73_1 = arg_73_0.contextData.chapterVO
 
-	if var_73_0 and var_73_0.active then
-		arg_73_0.viewComponent:switchToChapter(var_73_0)
+	if var_73_1 and var_73_1.active then
+		arg_73_0.viewComponent:switchToChapter(var_73_1)
 	elseif arg_73_0.contextData.map:isSkirmish() then
 		arg_73_0.viewComponent:ShowCurtains(true)
 		arg_73_0.viewComponent:doPlayAnim("TV01", function(arg_74_0)
@@ -679,15 +682,15 @@ function var_0_0.DidEnterLevelMainUI(arg_73_0, arg_73_1)
 	end
 
 	if arg_73_0.contextData.StopAutoFightFlag then
-		local var_73_1 = getProxy(ChapterProxy)
-		local var_73_2 = var_73_1:getActiveChapter()
+		local var_73_2 = getProxy(ChapterProxy)
+		local var_73_3 = var_73_2:getActiveChapter()
 
-		if var_73_2 then
-			var_73_1:SetChapterAutoFlag(var_73_2.id, false)
+		if var_73_3 then
+			var_73_2:SetChapterAutoFlag(var_73_3.id, false)
 
-			local var_73_3 = bit.bor(ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
+			local var_73_4 = bit.bor(ChapterConst.DirtyAttachment, ChapterConst.DirtyStrategy)
 
-			arg_73_0.viewComponent:updateChapterVO(var_73_2, var_73_3)
+			arg_73_0.viewComponent:updateChapterVO(var_73_3, var_73_4)
 		end
 
 		arg_73_0.contextData.StopAutoFightFlag = nil
@@ -1227,7 +1230,7 @@ function var_0_0.handleNotification(arg_82_0, arg_82_1)
 	elseif var_82_0 == ActivityProxy.ACTIVITY_OPERATION_DONE then
 		arg_82_0.viewComponent.mapBuilder:UpdateMapItems()
 	elseif var_82_0 == ActivityProxy.ACTIVITY_UPDATED then
-		if var_82_1 and var_82_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then
+		if var_82_1 and arg_82_0.viewComponent.ptActivity and var_82_1.id == arg_82_0.viewComponent.ptActivity.id then
 			arg_82_0.viewComponent:updatePtActivity(var_82_1)
 		end
 	elseif var_82_0 == GAME.GET_REMASTER_TICKETS_DONE then

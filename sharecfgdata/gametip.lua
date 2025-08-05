@@ -101,8 +101,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt4_tip = {
-		tip = "チョコができたよー…報酬の受け取りも忘れないでねー"
+	_G.pg.base.gametip.valentinesday__txt2_tip = {
+		tip = "チョコレートを食べさせてあげましょうか？ふふふ"
 	}
 end)()
 
@@ -366,8 +366,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_catchup_none_x = {
-		tip = "強化指向$1期/未選択"
+	_G.pg.base.gametip.meta_switch_skill_box_title = {
+		tip = "$1の習得を開始しますか？"
 	}
 end)()
 
@@ -1212,12 +1212,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_reset_tip = {
-		tip = {
-			{
-				info = "■簡易まとめ\n・セイレーン作戦のストーリー4章をクリアすると、毎月1日0時に下記の動作が行われます。\n　　①エリアの「確保」状況がリセットされます。\n　　②指揮官行動力と艦船の「適応調整」がリセットされます。\n　　③セイレーン作戦専用アイテムが削除され、一部アイテムは「備蓄物資交換券」に変換されます。\n　・セイレーン作戦トップ画面の「ショップ」で下記のアイテムを購入可能です。\n　　①「燃料」を5000を消費し、便利アイテム「セイレーン海域情報」を購入できます。\n　　②「備蓄物資交換券」を消費し、様々なアイテムを購入できます。\n・「セイレーン海域情報」は「アイテム」で使用すると、セイレーン作戦専用資源アイテムを大量に入手し、さらにエリア移動制限を解除できます。\n\n■リセットの条件\nセイレーン作戦の「リセット」は、セイレーン作戦四章全てのストーリーをクリアしていると、\n毎月1日0:00にセイレーン作戦の海域確保状況・ステータスがリセットされます。\n\nリセットの反映は、0：00以降「セイレーン作戦」トップ画面に移行する際に行われます。\nすでに配置済みの艦隊は「リバープール」エリアに戻されます。\n\n■リセットされるコンテンツセイレーン作戦のリセット発生時、下記のコンテンツがリセットされます。\n\n①各エリアの確保状況\nセイレーン作戦における、各エリアの「確保」状況がリセットされます。\nまた、各エリアの「確保報酬」（エリアマップ一覧でのエリア情報画面に表示される報酬）が再度取得できます\n。\n※各エリアの「星集め」こと「探索実績」はリセットされません。\n\n下記リセットショップ（特殊補給）でアイテム「セイレーン海域情報」を購入し、セイレーン作戦の「アイテム」画面で使用することで、エリアを一括で開放し確保報酬を全部入手することができます。\n\nセイレーン海域情報を使用することで貰えるアイテムまとめ：\n適応調整・攻撃×90\n適応調整・耐久×90\n適応調整・回復×90\n応急修理箱×45\nEN補給箱・小×45\n作戦補給コイン×84000\n\n※ランダムで出現する「海域の敵全撃破で出現するアイテム」は受け取れません。\n\n②艦隊の「セイレーン作戦」におけるステータスセイレーン作戦にて展開中の艦隊の残り耐久、特殊状態、適応調整の数値がリセットされます。\nまた、指揮官行動力が200にリセットされます。"
-			}
-		}
+	_G.pg.base.gametip.text_nofood_no = {
+		tip = "無視する"
 	}
 end)()
 
@@ -1228,8 +1224,54 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_word_battle_type = {
-		tip = "作戦内容："
+	_G.pg.base.gametip.levelScene_sphunt_help_tip = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/sphunt_1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/sphunt_2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/sphunt_3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/sphunt_4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/sphunt_5",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
@@ -1396,6 +1438,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_stronghold_1 = {
+		tip = "拠点へ"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.oil_max_tip_title = {
 		tip = "燃料が上限になっています"
 	}
@@ -1476,8 +1524,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_onceagain = {
-		tip = "再度出撃"
+	_G.pg.base.gametip.autofight_tip_bigworld_stop = {
+		tip = "本艦隊の自動攻略モードが中止しました"
 	}
 end)()
 
@@ -1490,6 +1538,16 @@ end)()
 (function()
 	_G.pg.base.gametip.word_collection = {
 		tip = "蒐集品"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2508 = {
+		tip = {
+			{
+				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n ①週次開放任務\n キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n ②全期間任務\n 最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n ダイヤを消費しますので、オススメしません……\n 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
 	}
 end)()
 
@@ -1736,8 +1794,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100213 = {
-		tip = "連携解除に失敗しました"
+	_G.pg.base.gametip.shops_rest_day = {
+		tip = "ラインナップ更新まで:"
 	}
 end)()
 
@@ -1812,8 +1870,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_progress_tip_desc = {
-		tip = "セイレーン作戦で、座標情報を一定数入手すると、お知らせ画面を表示。\nOFF：お知らせ画面を表示しない\n100Pt毎：100か200入手した場合に表示\n200Pt毎：200入手した場合に表示"
+	_G.pg.base.gametip.report_type_other_2 = {
+		tip = "内容を記入してください"
 	}
 end)()
 
@@ -1866,8 +1924,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.change = {
-		tip = "変更"
+	_G.pg.base.gametip.resource_clear_all = {
+		tip = "キャッシュデータをクリアしますか？\n（キャッシュクリア完了後アプリが自動で終了します）"
 	}
 end)()
 
@@ -1906,8 +1964,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_joint_whitout_guild = {
-		tip = "まだ大艦隊に加入していません"
+	_G.pg.base.gametip.channel_name_5 = {
+		tip = "艦隊"
 	}
 end)()
 
@@ -2429,8 +2487,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_310044 = {
-		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	_G.pg.base.gametip.ship_remould_warning_520044 = {
+		tip = "改造を行うと艦種が下記のものになります：\nミサイル駆逐艦（前衛艦隊配置モード）\n艦船のステータスと戦闘中の挙動が変化します\n改造を行いますか？"
 	}
 end)()
 
@@ -2519,6 +2577,16 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.SkinDiscountHelp_Carnival = {
+		tip = {
+			{
+				info = "1.キャンペーン期間中、<color=#92fc63>クーポンを使用せずに</color>「バニー」シリーズ着せ替えを購入するか、着せ替えパック（バニー）を購入した場合、キャンペーンページにて<color=#92fc63>着せ替えクーポン（バニー）</color>を入手できます\n2.<color=#92fc63>着せ替えクーポン（バニー）</color>は「バニー」シリーズの着せ替えを購入する際に、ダイヤ×300分割引になります（お得パックを購入する時には使用できません）\n3.キャンペーン終了時【2025年8月13日（水）23:59:59】、未使用の<color=#92fc63>着せ替えクーポン（バニー）</color>は削除されます"
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.help_equipment = {
 		tip = {
 			{
@@ -2535,8 +2603,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_live2dfiles_checkend_title = {
-		tip = "アセット確認完了"
+	_G.pg.base.gametip.word_live2dfiles_checking_title = {
+		tip = "チェック中…"
 	}
 end)()
 
@@ -2852,8 +2920,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.resource_max_tip_event = {
-		tip = "委託報酬を受け取ることができません"
+	_G.pg.base.gametip.guild_tech_label_condition = {
+		tip = "物資進捗が上昇しました"
 	}
 end)()
 
@@ -2900,8 +2968,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_levelScene_0Oil = {
-		tip = "燃料ポイントが空になりました"
+	_G.pg.base.gametip.ssssmedal_desc1 = {
+		tip = "スカベンジャーの特殊兵装。敏捷性を誇り、高い速力を発揮可能"
 	}
 end)()
 
@@ -3114,6 +3182,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_stronghold_3 = {
+		tip = "快適度"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.five_shujuhuigu1 = {
 		tip = "進捗：$1"
 	}
@@ -3274,8 +3348,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_gift_title = {
-		tip = "お得パック"
+	_G.pg.base.gametip.help_vote = {
+		tip = {
+			{
+				info = "アズールレーン人気投票2021\n人気投票概要：\n  アズールレーン人気投票2021はゲーム内投票で人気投票を競うキャンペーンになります。【予選】・【予選復活戦】・【グループ戦】【決勝復活戦】・【決勝戦】の5ステップでそれぞれ投票が行われます。\n\n  人気投票のステップごとに、各サーバーの票数を集計し、合計投票数によって、次のステップへの進出か、優勝が決定されます。\n  予選で同票した場合、先に票数を達成したキャラクターの順位が繰り上げます。\n  予選以外で同票した場合、予選順位の上のキャラクターの順位が繰り上げます。\n\n  前回・前々回投票（2017年・2019年）で決勝のTOP3の艦船（後述）は今回では【殿堂入り】とみなし、投票の対象外となります。\n  また、コラボキャラクター（特別計画艦を除く）・META艦船・「μ兵装」艦船・2021年10月14日（木）以降ゲーム内で実装した艦船も今回の投票の対象外となります。\n ※殿堂入りのキャラクター（<color=#FFDD00>エンタープライズ・ベルファスト・綾波・シリアス・長門・ローン</color>）については、「人気投票」イベントバナーの「殿堂入り」ページで、特別のミニストーリーを読むことができ、更に限定チャットフレームを入手出来ます。\n\n人気投票ルール\n\nスケジュール\n①予選：2021年10月14日メンテ後―2021年10月25日23：59まで\n予選では、全451名の艦船が参加し、順位200位の艦船がグループ戦に進出します。\n※予選では順位のみ表示され、詳細の得票数が表示されません。\n\n②予選復活戦：2021年10月28日00：00-11月1日23：59まで\n予選復活戦では、予選で落選した全251名の艦船が参加し、順位15位までの艦船が決勝復活戦に進出します。\n\n③グループ戦：\nグループA：2021年11月4日00：00-11月8日23：59まで \nグループB：2021年11月11日00：00-11月15日23：59まで \nグループC：2021年11月18日00：00-11月22日23：59まで \nグループD：2021年11月25日00：00-11月29日23：59まで \nグループE：2021年12月2日00：00-12月6日23：59まで\nグループ戦の各グループは、それぞれ40名の艦船が参加し、順位4位までの艦船が決戦に進出し、順位5－12位の艦船が決勝復活戦に進出します。グループ戦進出艦船のグループ分けについては順位の1桁の数字によって決定されます。\n\n④決勝復活戦：2021年12月9日00：00-12月12日23：59まで\n予選復活戦で選出された15名と、グループ戦で決勝復活戦に進出した40名が参加し、順位12位までの艦船が決戦に進出します。\n\n⑤決勝戦：2021年12月17日0:00-12月23日23:59まで\n各グループ戦と、決勝復活戦の12名、計32名の艦船による決勝戦になります。\n\n結果発表：\n  決勝戦を除く各ステップ終了後、翌日の昼12時にゲーム内及びウェブサイトにて投票結果が公開されます。\n  決勝戦は翌日メンテナンス開始後Twitterにて票数結果を発表します。\n\n投票方法：\n指揮官レベルが25を達成すると、下記の二通りの方法で投票用の「投票券」を入手出来ます。\n  1、キャンペーン期間で登場する限定任務（「任務一覧」で確認可能）をクリアする\n  2、3章以降のメイン海域/イベント海域に出撃し、敵中枢艦隊を撃破すると、「応援指令」（※）を入手することがあります。「応援指令」を海域選択画面や人気投票バナーで使用すると、「応援Pt」を入手することができます。入手した「応援Pt」の累計数に応じて、人気投票バナー下部で「投票券」\nを入手することが出来ます。\n\n  入手した「投票券」は人気投票バナーの「投票へ」で各キャラに投票することが出来ます。また、各ステップ終了時、「投票券」は全て削除されます。\n\n※「応援指令」について\n・「応援指令」は<color=#FFDD00>【メイン海域（ノーマル限定）】と、作戦履歴以外の【イベント海域】</color>の敵中枢艦隊を撃破することで、入手することができます。\n・「応援指令」は同時に1個しか所持できず、海域選択画面か、人気投票イベントバナーの該当アイコン/ボタンをタップすることで使用できます。\n・「応援指令」を使用すると、画面でいくつかのSDキャラが表示されます。SDキャラをタップし、全員の向きを【饅頭が指した方向】にすると、「応援指令」が消費され、「応援Pt」を入手することができます。\n・「応援指令」は一定時間内に使用しなかった場合、削除されます。\n・各海域で入手する「応援指令」の使用効果は海域によって異なります。\n  3章……120Pt\n  4章……150Pt\n  5章……180Pt\n  6章……220Pt\n  7章……270Pt\n  8章……350Pt\n  9章……450Pt\n  10章……550Pt\n  11章……700Pt\n  12章……850Pt\n  13章……1000Pt\n"
+			}
+		}
 	}
 end)()
 
@@ -3332,12 +3410,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_newyear_stamp = {
-		tip = {
-			{
-				info = "チケット所持中でミニゲームをプレイすると入手可能！\nスタンプを7つ集めて、報酬を手に入れよう！"
-			}
-		}
+	_G.pg.base.gametip.word_soundfiles_update_failed = {
+		tip = "ボイス更新失敗"
 	}
 end)()
 
@@ -3744,8 +3818,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_attr_air = {
-		tip = "航空"
+	_G.pg.base.gametip.mail_takeAttachment_error_magazine_full = {
+		tip = "<color=#92fc63>受取失敗:</color><color=#92fc63>装備倉庫が一杯です</color>"
 	}
 end)()
 
@@ -4156,8 +4230,59 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_22 = {
-		tip = "艦載機最大回避"
+	_G.pg.base.gametip.yumia_atelier_tip22 = {
+		tip = {
+			{
+				"atelier_yumia_1",
+				"なに作ろうかな？"
+			},
+			{
+				"atelier_yumia_2",
+				"どれがいいかな？"
+			},
+			{
+				"atelier_yumia_3",
+				"どうしよう…"
+			},
+			{
+				"atelier_yumia_4",
+				"使えそうなのは…"
+			},
+			{
+				"atelier_yumia_5",
+				"これでいいかな？"
+			},
+			{
+				"atelier_yumia_6",
+				"これでいけそう！"
+			},
+			{
+				"atelier_yumia_7",
+				"うん、ばっちり！"
+			},
+			{
+				"atelier_yumia_8",
+				"上手くいきますように……"
+			},
+			{
+				"atelier_yumia_9",
+				"どんな感じになるかな？"
+			},
+			{
+				"atelier_yumia_10",
+				"よしっ、成功した！"
+			},
+			{
+				"atelier_yumia_11",
+				"こんな感じかな？"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_switch_award_pool_failed = {
+		tip = "次の段階は目玉報酬を全部交換したことで開放されます"
 	}
 end)()
 
@@ -4274,8 +4399,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.task_is_not_existence = {
-		tip = "任務$1は存在しません"
+	_G.pg.base.gametip.guild_event_is_lock = {
+		tip = "作戦事件が開放されていません"
 	}
 end)()
 
@@ -4328,8 +4453,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_equipToShip_ok = {
-		tip = "<color=#FFFFFF><color=#92fc63>$1</color>を装備しました</color>"
+	_G.pg.base.gametip.vote_vote_time = {
+		tip = "投票期間: $1-$2"
 	}
 end)()
 
@@ -4376,14 +4501,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_hit = {
-		tip = "命中"
+	_G.pg.base.gametip.stage_beginStage_error_noTicket = {
+		tip = "特別戦闘券が必要です"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_300101 = {
-		tip = "シェア機能が有効化されていません"
+	_G.pg.base.gametip.player_name_change_windows_tip = {
+		tip = "*<color=#92fc63>$1:$2</color>を消費します。<color=#92fc63>30</color>日に一度変更可能"
 	}
 end)()
 
@@ -4400,8 +4525,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guidl_r_box_time_desc = {
-		tip = "ネコハコR訓練時間短縮$1"
+	_G.pg.base.gametip.words_autoFight_battery_savemode = {
+		tip = "自動攻略省エネ化"
 	}
 end)()
 
@@ -4454,8 +4579,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.common_no_rmb = {
-		tip = "<color=#92fc63>ダイヤ</color>が足りません！"
+	_G.pg.base.gametip.guild_create_error = {
+		tip = "大艦隊結成失敗"
 	}
 end)()
 
@@ -4762,8 +4887,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_mapbuff_tip = {
-		tip = "エリア内の敵戦力上昇中"
+	_G.pg.base.gametip.new_airi_error_code_400080 = {
+		tip = "このYostar IDはほかのニンテンドーアカウントとすでに連携済みです"
 	}
 end)()
 
@@ -4796,10 +4921,10 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.game_room_help = {
+	_G.pg.base.gametip.battlepass_main_help_2508 = {
 		tip = {
 			{
-				info = "■ゲームロビーとは：\nゲームロビーとは、ミニゲームを遊べる機能です。\nミニゲームをプレイする際、「ゲームコイン」を消費すると、クリア時に「報酬交換チケット」を入手できます。\n「報酬交換チケット」は「ショップ」で一部の復刻アイテムと交換できます。\n\nゲームコインを消費しなくても、ミニゲームをプレイできます。\n\n■ゲームコインについて\n「ゲームコイン」とは、ミニゲームをクリアした時に、「報酬交換チケット」に変換できるアイテムです。\nミニゲームのスタート画面で、消費する「ゲームコイン」数を選択できます\n「ゲームコイン」は毎週、ゲームロビーにいる明石から10枚入手できるほか、ミニゲームの開始画面で資金から交換できます。\n「ゲームコイン」は最大40枚まで所持できます。\n\n■報酬交換チケットについて\n「報酬交換チケット」とは、「ショップ」の「チケット」で報酬と交換できるアイテムです。\n「報酬交換チケット」は、ゲームロビーのミニゲームをプレイ時「ゲームコイン」を消費することで入手できます。\nミニゲームで入手できるチケットの数は消費ゲームコインの数に応じて変動します。また、そのミニゲームのスコアによっても多少変動します。\n「報酬交換チケット」は最大50000まで所持でき、また一ヶ月の入手可能上限は10000までとなります。"
+				info = "■キャンペーン開催期間\n 2025.8.1（金）0:00～2025.9.30（火）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「ダンケルク(META)」、SP報酬からは駆逐艦「モントピリア」の限定着せ替え「ほろ酔いに熱冷まし」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n ①週次開放任務\n キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n ②全期間任務\n 最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n ①通常報酬\n 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n ②SP報酬\n 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n ダイヤを消費しますので、オススメしません。\n 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
 			}
 		}
 	}
@@ -4842,8 +4967,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_status_series_enemy = {
-		tip = "<size=24>ｲﾍﾞﾝﾄ編成中</size>"
+	_G.pg.base.gametip.mail_get_oneclick = {
+		tip = "一括受取"
 	}
 end)()
 
@@ -4941,6 +5066,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_buff_desc_5 = {
+		tip = "コア効果適用ステージ：TS5 \n 下記の素材を入れるとレベルアップ"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.need_break_tip = {
 		tip = "要限界突破"
 	}
@@ -5031,8 +5162,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_300300 = {
-		tip = "Yostar ID連携に失敗しました"
+	_G.pg.base.gametip.new_airi_error_code_200300 = {
+		tip = "このアイテムは現在購入できません"
 	}
 end)()
 
@@ -5089,8 +5220,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_dead_score = {
-		tip = "味方戦闘不能*$1："
+	_G.pg.base.gametip.battle_result_base_score = {
+		tip = "ステージクリア："
 	}
 end)()
 
@@ -5159,8 +5290,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.course_sunday_tip = {
-		tip = "日曜日：出撃時熟練度の入手量が2倍"
+	_G.pg.base.gametip.ship_energy_low_warn = {
+		tip = "$1の$2のコンディションが良くない模様。出撃すると親密度が下がり、もらえる経験値が50%になる"
 	}
 end)()
 
@@ -5255,8 +5386,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.secretary_unlock2 = {
-		tip = "3-4クリアで開放"
+	_G.pg.base.gametip.common_dont_remind_dur_login = {
+		tip = "次回アプリ起動まで表示しない"
 	}
 end)()
 
@@ -5380,8 +5511,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battlepass_main_tip_2502 = {
-		tip = "2025/2/1-2025/3/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ボルツァーノ(META)」</color>などを入手可能"
+	_G.pg.base.gametip.word_chuansong = {
+		tip = "コイン"
 	}
 end)()
 
@@ -5692,8 +5823,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_newPlayerScene_word_biaoqiang = {
-		tip = "私の名前はジャベリン！はい！指揮官も名前を教えてくださいね！"
+	_G.pg.base.gametip.guild_shop_refresh_done = {
+		tip = "リセットしました"
 	}
 end)()
 
@@ -6008,8 +6139,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_entrust = {
-		tip = "緊急委託出現：$1"
+	_G.pg.base.gametip.which_day_2 = {
+		tip = "$1日目"
 	}
 end)()
 
@@ -6020,8 +6151,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipment_aircraft = {
-		tip = "艦載機"
+	_G.pg.base.gametip.ship_remould_warning_303154 = {
+		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n艦種変更で装備不可となる<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。\n改造を続けますか？</size>"
 	}
 end)()
 
@@ -6164,8 +6295,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_commit_tip = {
-		tip = "開発任務を完了するには<color=#92fc63>$1</color>を消費します。開発任務を完了しますか？"
+	_G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
+		tip = "<size=26>食糧備蓄は</size>"
 	}
 end)()
 
@@ -6312,8 +6443,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.result_firework_produce = {
-		tip = "花火制作完了！評価："
+	_G.pg.base.gametip.win_condition_display_qijian = {
+		tip = "敵中枢艦隊撃破"
 	}
 end)()
 
@@ -6366,14 +6497,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_atelier_tip7 = {
+		tip = "コアをタップして素材を入れる"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.backyard_theme_word_buy = {
 		tip = "購入"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_ship_healthy = {
-		tip = "対象は修理する必要がございません。\n本当に使用しますか？"
+	_G.pg.base.gametip.guild_member_max_cnt_desc = {
+		tip = "大艦隊最大メンバー数+$1"
 	}
 end)()
 
@@ -6705,6 +6842,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.open_today = {
+		tip = "本日開放"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battle_resourceSiteLayer_endError_notStar = {
 		tip = "委託はまだ開始されていません"
 	}
@@ -6844,8 +6987,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_send_msg_erro_tip = {
-		tip = "友達がオフラインです"
+	_G.pg.base.gametip.sham_count_reset = {
+		tip = "「鏡面海域」掃討作戦は既に完了しました。戦況をリセット（1回/日）しますか？"
 	}
 end)()
 
@@ -7141,8 +7284,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.resource_max_tip_mail = {
-		tip = "メールを受取ることができません"
+	_G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n380mm四連装砲Mle1935\n152mm三連装砲Mle1930\n二連装37mm高射砲Mle1936</color></size>"
 	}
 end)()
 
@@ -7183,8 +7326,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_event_start_event_tip = {
-		tip = "派遣を行いますと、作戦終了まで艦船を変更できません。艦船を派遣しますか？"
+	_G.pg.base.gametip.activity_puzzle_get12 = {
+		tip = "<color=#92fc63FF>入手方法\n限定任務3</color>"
 	}
 end)()
 
@@ -7268,7 +7411,7 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_skin_no_old_ship = {
+	_G.pg.base.gametip.equipment_skin_no_new_ship = {
 		tip = "艦が存在しません"
 	}
 end)()
@@ -7298,8 +7441,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.option_desc9 = {
-		tip = "ONにすると、自分が訪問した友達の寮舎に自分の秘書艦が表示されるようになる"
+	_G.pg.base.gametip.build_ship_quickly_buy_tool = {
+		tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\n高速建造材を<color=#92fc63>$2</color>個購入しますか？"
 	}
 end)()
 
@@ -7353,8 +7496,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.longxiang_total_count = {
-		tip = "所持式札J"
+	_G.pg.base.gametip.ship_profile_voice_locked_propose = {
+		tip = "ケッコンで開放"
 	}
 end)()
 
@@ -7589,8 +7732,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_create_exp = {
-		tip = "製造に必要な強化経験値"
+	_G.pg.base.gametip.guild_tech_gold_desc = {
+		tip = "物資備蓄上限＋$1"
 	}
 end)()
 
@@ -7717,8 +7860,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.map_event_stop_battle_tip = {
-		tip = "<color=#92fc63>特定の敵を撃破する</color>ことで通行禁止状態を解除できます"
+	_G.pg.base.gametip.guild_open_event_info_when_exist_active = {
+		tip = "$1の大作戦が発令中のため、大作戦を選択できません"
 	}
 end)()
 
@@ -7879,8 +8022,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_catchup_none_1 = {
-		tip = "強化指向Ⅰ期/未選択"
+	_G.pg.base.gametip.meta_help = {
+		tip = {
+			{
+				info = "■メタラボとは\nメタラボとは、「META」艦船を入手・強化できる専用システムになります。\nメタラボでは、下記の操作を行うことができます。\n・「META」艦船別の入手情報の確認と、艦船の入手\n・「META」艦船別の解析Pt報酬を入手\n・「META」艦船の艤装強化、スキル習得、限界突破\n・「META艦船は1種類につき1隻しか所有できず、また「META」艦船は退役/強化素材にすることはできません。\n・同じ「META」艦船の2隻目を入手した場合、限界突破アイテム「結晶」に変換されます。\n\n■解析Ptについて\n・「セイレーン作戦」の「META戦」では、特定の「META」艦船に対応する「解析Pt」を入手することができます。\n・メタラボで当該艦船のタブ選択すると、その艦船の「解析Pt」に関する報酬を確認することができます。\n・解析Ptを一定数貯めると、「META艦船」を入手できます。\n・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することができます。\n\n※<color=#92fc63>2025.6.5-2025.9.4</color>江風(META) META戦開放期間は「江風(META)」の解析Ptを入手できます。\n 解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。\n\n■「META」艦船の艤装強化について\n・入手済の「META」艦船画面の「艤装強化」をタップすると、艤装強化画面を確認することができます。\n・強化を行う際、砲撃/雷撃/航空/装填の任意の項目を選択して強化できます。\n・強化を行うと、対応のステータスが上昇します。さらに、強化を一定段階進めると、ステータスの追加ボーナスを得ることができます。\n・「META」艦船の「艤装強化」は特定の素材を消費するようになります。\n\n■「META」艦船の限界突破について\n・入手済の「META」艦船画面の「限界突破」をタップすると、限界突破画面を確認することができます。\n・限界突破を行うには、「ブリ」と異なりその艦船に対応するアイテム「結晶」を消費します。\n・「結晶」はメタラボの解析Pt報酬にて入手可能です。\n■「META」艦船のスキル習得について\n・「META」艦船のスキル習得と強化は「メタラボ」\nでのみ行うことができます。\n・入手済の「META」艦船画面の「限界突破」をタップすると、スキル習得画面を確認することができます。\n・「META」艦船のスキルの習得は素材を消費することで行え、強化は専用任務をこなし習得EXPを貯めることで行うことができます\n （習得EXPは1日に入手できる上限が存在します）\n・「META」艦船はそれぞれ1種類のスキルまでしか同時に強化できません。\n"
+			}
+		}
 	}
 end)()
 
@@ -7899,6 +8046,12 @@ end)()
 (function()
 	_G.pg.base.gametip.pre_combat_consume = {
 		tip = "消費："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_pt_4 = {
+		tip = "入手済"
 	}
 end)()
 
@@ -8029,6 +8182,12 @@ end)()
 (function()
 	_G.pg.base.gametip.hand_account_tip = {
 		tip = "アイテムを集めることで開放可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_2 = {
+		tip = "拠点を建設し、限定家具をGET！"
 	}
 end)()
 
@@ -8175,8 +8334,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_modShip_error_notEnoughGold = {
-		tip = "<color=#92fc63>資金が不足しています</color>"
+	_G.pg.base.gametip.stage_beginStage_error_noEnergy = {
+		tip = "<color=#92fc63>体力</color>が足りません!"
 	}
 end)()
 
@@ -8294,8 +8453,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.time_remaining_tip = {
-		tip = " 残り："
+	_G.pg.base.gametip.word_equipment_small_cannon = {
+		tip = "小口径艦砲"
 	}
 end)()
 
@@ -8834,8 +8993,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_target_need_print = {
-		tip = "強化残り"
+	_G.pg.base.gametip.words_information = {
+		tip = "情報"
 	}
 end)()
 
@@ -9056,8 +9215,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_book_is_over = {
-		tip = "人気投票キャンペーンは終了しました"
+	_G.pg.base.gametip.friend_add_ok = {
+		tip = "友達追加しました"
 	}
 end)()
 
@@ -9140,8 +9299,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_29904 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型234mm三連装砲\n533mm四連装魚雷\n六連装ボフォース40mm対空砲</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_39904 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装310mm砲\n100mm二連装九八式高角砲\n試作型五式40mm高射機関砲</color></size>"
 	}
 end)()
 
@@ -9212,8 +9371,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.challenge_normal_tip = {
-		tip = "チャレンジステージをクリアし、自己ベストを狙おう！"
+	_G.pg.base.gametip.word_shipNation_um = {
+		tip = "うたわれるもの"
 	}
 end)()
 
@@ -9224,8 +9383,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battlepass_main_tip_2212 = {
-		tip = "<size=23>2022.12.1-2023.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「フォーチュン(META)」</color>などを入手可能！</size>"
+	_G.pg.base.gametip.newplayer_notice_7 = {
+		tip = "前段階の任務クリア後に開放"
 	}
 end)()
 
@@ -9402,8 +9561,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.naval_academy_res_desc_cateen = {
-		tip = "みんながワイワイ盛り上げる食堂。増築で<color=#92fc63>燃料の入手量</color>と<color=#92fc63>備蓄上限</color>UP！"
+	_G.pg.base.gametip.msgbox_text_iknow = {
+		tip = "了 解"
 	}
 end)()
 
@@ -9462,8 +9621,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_save_success = {
-		tip = "艦隊編成を保存しました"
+	_G.pg.base.gametip.msgbox_text_apply = {
+		tip = "申 請"
 	}
 end)()
 
@@ -9648,12 +9807,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blackfriday_help = {
-		tip = {
-			{
-				info = "ルール説明：\n1.キャンペーン期間中、復刻きせかえの購入数に応じて、キャンペーン報酬を入手出来ます\n2.限定家具「ジェム・スプリング」は家具ショップでもダイヤで直接購入できます。すでに「ジェム・スプリング」を所持している状態で再度キャンペーンから入手した場合、自動でダイヤに変換されます。\n3.既に復刻衣装92着を全部所持、もしくは購入可能分がキャンペーン報酬を入手できる購入数に満たない場合、キャンペーン報酬の入手条件に関係なく、その報酬を獲得することが可能です。"
-			}
-		}
+	_G.pg.base.gametip.not_exist_guild_use_item = {
+		tip = "大艦隊に所属していないため、アイテムを使用できません"
 	}
 end)()
 
@@ -9718,8 +9873,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginMediator_registerFail_error = {
-		tip = "登録失敗:"
+	_G.pg.base.gametip.eva_count_limit = {
+		tip = "本日のコメント上限に達しました"
 	}
 end)()
 
@@ -9772,8 +9927,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.player_changePlayerIcon_error = {
-		tip = "プロフィール画像変更失敗:"
+	_G.pg.base.gametip.player_changePlayerName_error = {
+		tip = "名前変更失敗:"
 	}
 end)()
 
@@ -9842,8 +9997,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_soundfiles_checkend = {
-		tip = "更新開始"
+	_G.pg.base.gametip.anniversary_task_title_1 = {
+		tip = "それは異型の外敵を断つ剣、人類の最後の守り手。"
 	}
 end)()
 
@@ -9896,8 +10051,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.error_pray_select_ship_max = {
-		tip = "これ以上選択できません"
+	_G.pg.base.gametip.collection_award_ship = {
+		tip = "$1開発完了！建造ラインナップに追加されました"
 	}
 end)()
 
@@ -9948,8 +10103,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.idle = {
-		tip = "待機"
+	_G.pg.base.gametip.new_airi_error_code_100802 = {
+		tip = "アンケートIDが存在しないため、読み込めませんでした"
 	}
 end)()
 
@@ -10030,14 +10185,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_speciality = {
-		tip = "特性"
+	_G.pg.base.gametip.formation_switch_success = {
+		tip = "操作艦隊を$1に切り替えました"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_soundfiles_checkfailed = {
-		tip = "更新チェック失敗"
+	_G.pg.base.gametip.backyard_shipAlreadyExit = {
+		tip = "既に休憩枠から外されました"
 	}
 end)()
 
@@ -10070,14 +10225,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_forward = {
-		tip = "確 認"
+	_G.pg.base.gametip.loading_tip_PoolMgr = {
+		tip = "有機塗装素子充填中…"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.main_notificationLayer_enter_room = {
-		tip = "ルーム<color=#92fc63>$1</color>に入室しました"
+	_G.pg.base.gametip.ambush_display_0 = {
+		tip = "接敵"
 	}
 end)()
 
@@ -10283,6 +10438,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_award_2 = {
+		tip = "家具"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.feast_no_invitation = {
 		tip = "招待状はありません"
 	}
@@ -10337,8 +10498,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_startError_limit = {
-		tip = "委託条件を満たしていません:<color=#92fc63>$1</color>"
+	_G.pg.base.gametip.word_shop = {
+		tip = "ショップ"
 	}
 end)()
 
@@ -10415,8 +10576,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.auto_battle_limit_tip = {
-		tip = "自律戦闘は1-3クリアで開放されます"
+	_G.pg.base.gametip.world_stamina_not_enough = {
+		tip = "指揮官行動力が不足しています"
 	}
 end)()
 
@@ -10457,8 +10618,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginMediator_kickUndefined = {
-		tip = "接続が中断されました:[$1]"
+	_G.pg.base.gametip.word_attr_armor = {
+		tip = "装甲"
 	}
 end)()
 
@@ -10535,8 +10696,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_main_tip_7 = {
+		tip = "拠点建設"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_battle_count = {
 		tip = "交战次数说明文本占坑"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip3 = {
+		tip = "アイテム"
 	}
 end)()
 
@@ -11187,8 +11360,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_analyse = {
-		tip = "分 解"
+	_G.pg.base.gametip.world_automode_title_2 = {
+		tip = "OPERATION"
 	}
 end)()
 
@@ -11211,8 +11384,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_morale_4 = {
-		tip = "オーダー使用後、一定時間経過まで再度使用できません"
+	_G.pg.base.gametip.extra_chapter_locked_tip = {
+		tip = "イベントハード最終海域を攻略すると開放されます"
 	}
 end)()
 
@@ -11501,8 +11674,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_buyItem_ok = {
-		tip = "<color=#92fc63>$2を$1つ</color>購入しました"
+	_G.pg.base.gametip.world_instruction_port_goods_locked = {
+		tip = "エリア確保進捗"
 	}
 end)()
 
@@ -11639,8 +11812,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_puzzle_get4 = {
-		tip = "<color=#92fc63FF>入手方法\nノーマル3-1</color>"
+	_G.pg.base.gametip.guild_total_damage = {
+		tip = "ダメージ"
 	}
 end)()
 
@@ -11769,8 +11942,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.login_game_login_full = {
-		tip = "同時接続数が上限になっています。しばらく置いてから再度お試しください"
+	_G.pg.base.gametip.word_mat = {
+		tip = "マット"
 	}
 end)()
 
@@ -11906,8 +12079,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.acquisitionmode_is_not_open = {
-		tip = "入手方法は現在開放されていません"
+	_G.pg.base.gametip.ship_shipModLayer_effect = {
+		tip = "経験値:<color=#92fc63>$1/$2</color>\n"
 	}
 end)()
 
@@ -12218,6 +12391,12 @@ end)()
 (function()
 	_G.pg.base.gametip.msgbox_text_exit = {
 		tip = "撤 退"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_5 = {
+		tip = "イベント"
 	}
 end)()
 
@@ -12577,8 +12756,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_cancel_assult_ship_recommend_conflict = {
-		tip = "大艦隊作戦・支援派遣の通常枠に設定されています"
+	_G.pg.base.gametip.formationScene_use_oil_limit_tip = {
+		tip = "燃料消費上限:"
 	}
 end)()
 
@@ -12731,6 +12910,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_stronghold_8 = {
+		tip = "必要素材"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battlepass_main_help_2404 = {
 		tip = {
 			{
@@ -12807,8 +12992,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_start_tip = {
-		tip = "合計$2ダイヤが手に入ります"
+	_G.pg.base.gametip.word_attr_range = {
+		tip = "射程"
 	}
 end)()
 
@@ -12847,12 +13032,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_help = {
-		tip = {
-			{
-				info = "■「黄金の秘宝」とは\n期間限定イベント「黄金の秘宝」では、母港とノーマル\n海域に隠されている「秘宝のヒント」を9種類集めると、\nスペシャルステージを解禁することができます。\nスペシャルステージをクリアすると、特別な報酬を手に\n入れることができます。\n\n■遊び方\n・イベント期間中、母港の一部画面とノーマル海域に「\n秘宝のヒント」が出現します。\n　母港画面では「秘宝のヒント」マークをタップ；\n　ノーマル海域では「秘宝のヒント」マスに艦隊を移動\nさせると；\n　「秘宝のヒント」を手に入れることができます。\n・「秘宝のヒント」を手に入れると、イベントバナーの\n対応のパネルが点灯します。\n・未入手の「秘宝のヒント」について、イベントバナー\n下部にあるパネルをタップすると、入手先に関するヒン\nトを表示させることができます。\n　（20分の間に1回しか表示させることができません）\n・「秘宝のヒント」9種類を全部入手すると、イベントバ\nナー右下のボタンをタップすることでスペシャルステー\nジに挑むことが出来ます。\n　スペシャルステージをクリアすると、特別な報酬を入\n手することができます。"
-			}
-		}
+	_G.pg.base.gametip.battlepass_main_tip_2304 = {
+		tip = "<size=23> 2023.4.1-2023.5.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「ラ·ガリソニエール(META)」</color>などを入手可能！</size>"
 	}
 end)()
 
@@ -13223,6 +13404,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_atelier_tip18 = {
+		tip = "調合開始"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.task_target_chapter_in_progress = {
 		tip = "任务目标地图正在攻略中，不能接取该任务"
 	}
@@ -13401,8 +13588,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.coloring_color_not_enough = {
-		tip = "絵の具が不足しています"
+	_G.pg.base.gametip.air_supremacy_value = {
+		tip = "制空値"
 	}
 end)()
 
@@ -13573,8 +13760,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.chapter_tip_aovid_succeed = {
-		tip = "回避成功"
+	_G.pg.base.gametip.emoji_type_1 = {
+		tip = "デフォルト"
 	}
 end)()
 
@@ -15327,8 +15514,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spece_illegal_tip = {
-		tip = "名前にスペースを入れることはできません"
+	_G.pg.base.gametip.ship_remould_warning_402134 = {
+		tip = "<size=35>改造で<color=#92fc63>1つ目の【設備】</color>が\n<color=#92fc63>【ヘリ】</color>を装備できるようになり。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 	}
 end)()
 
@@ -15437,6 +15624,12 @@ end)()
 (function()
 	_G.pg.base.gametip.ship_formationMediator_quest_replace = {
 		tip = "選択中の艦は既に<color=#92fc63>$1</color>に編成されています。 入れ替えますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_name_2 = {
+		tip = "コア：L1エリア"
 	}
 end)()
 
@@ -16016,8 +16209,68 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_pt_tip = {
+		tip = "累計PT"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_storymode_tip2 = {
+		tip = "調合で入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_storymode_tip1 = {
+		tip = "$1入手で解放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.bulin_tip4 = {
+		tip = "ドックの様子をチェックにゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_room_floor_2 = {
+		tip = "ロフト"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip21 = {
+		tip = "これ以上は調合できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip20 = {
+		tip = "$1 * $2 を調合しますか"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip19 = {
+		tip = "$1 を調合しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip17 = {
+		tip = "スロットをタップし材料を入れよう"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.challenge_current_score = {
 		tip = "累計得点：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip16 = {
+		tip = "倉庫"
 	}
 end)()
 
@@ -16028,8 +16281,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_atelier_tip15 = {
+		tip = "制作数：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip14 = {
+		tip = "詳細"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.meta_pt_point = {
 		tip = "解析Pt"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip13 = {
+		tip = "タップして戻る"
 	}
 end)()
 
@@ -16058,6 +16329,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_atelier_tip12 = {
+		tip = "未入手素材"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.tips_shakebeads = {
 		tip = {
 			{
@@ -16068,8 +16345,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_atelier_tip11 = {
+		tip = "入手済み素材"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip10 = {
+		tip = "使用可能素材"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.meta_pt_left = {
 		tip = "残り$1日"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip9 = {
+		tip = "レシピに戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip8 = {
+		tip = "残り調合可能数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_map_version = {
+		tip = "アセットが更新されましたため、エリアがリセットされました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip5 = {
+		tip = "左側のレシピ一覧からレシピを選択"
 	}
 end)()
 
@@ -16082,6 +16395,12 @@ end)()
 (function()
 	_G.pg.base.gametip.skin_gift_desc = {
 		tip = "下記着せ替えからランダムな1着を入手します（すでに所持している場合、自動でダイヤに変換されます）\n出現する着せ替えと出現率は下記になります：\n$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_unselect_SP_OP = {
+		tip = "アイテムを使用しない"
 	}
 end)()
 
@@ -16104,6 +16423,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dont_add_self = {
+		tip = "自分を追加できません"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.number_1 = {
 		tip = "一"
 	}
@@ -16112,6 +16437,36 @@ end)()
 (function()
 	_G.pg.base.gametip.meta_syn_finish = {
 		tip = "情報解析完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
+		tip = "前衛・主力に艦船が1隻しか編成されていません。別の艦に変更してから再度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_4 = {
+		tip = "コアレベル<color=#7bd2ceff>LV.$1</color>で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_build_pool_tip = {
+		tip = "$2つの$1を消費し、オフニャを訓練しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_2 = {
+		tip = "強化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_1 = {
+		tip = "必要素材"
 	}
 end)()
 
@@ -16128,8 +16483,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.child2_plan_upgrade_condition = {
+		tip = "[レベルアップ条件]"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.new_airi_error_code_400460 = {
 		tip = "ページが読み込めませんでした。もう一度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_desc_3 = {
+		tip = "コア効果適用ステージ：TS3 \n 下記の素材を入れるとレベルアップ"
 	}
 end)()
 
@@ -16146,6 +16513,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_buff_desc_2 = {
+		tip = "コア効果適用ステージ：TS2 \n 下記の素材を入れるとレベルアップ"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_boss_fleet_cnt_invaild = {
 		tip = "編成にエラーが発生しました。メンバー変更を行ってください"
 	}
@@ -16154,6 +16527,12 @@ end)()
 (function()
 	_G.pg.base.gametip.jiujiu_expedition_book_tip = {
 		tip = "前のコレクションが完成すると開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_desc_1 = {
+		tip = "コア効果適用ステージ：TS1 \n 下記の素材を入れるとレベルアップ"
 	}
 end)()
 
@@ -16176,8 +16555,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_set_skin_error = {
-		tip = "衣装変更失敗:"
+	_G.pg.base.gametip.yumia_buff_name_5 = {
+		tip = "コア：頂上エリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_10 = {
+		tip = "T2 療養センター（夜）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_storeroom_max_4 = {
+		tip = "※受け取ると、資金所持数が所持上限を超えてしまいます"
 	}
 end)()
 
@@ -16257,8 +16648,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_buff_name_3 = {
+		tip = "コア：L2エリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_name_1 = {
+		tip = "コア：始まりのエリア"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.dorm3d_privatechat_room_download = {
 		tip = "$1のアセットをDLしておく必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_tag5 = {
+		tip = "会話内容開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_log_event_group_title1 = {
+		tip = "記録・①"
 	}
 end)()
 
@@ -16271,6 +16686,12 @@ end)()
 (function()
 	_G.pg.base.gametip.world_instruction_redeploy_2 = {
 		tip = "艦隊が再編成され、耐久・士気が回復しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_pt_2 = {
+		tip = "一括受取"
 	}
 end)()
 
@@ -16299,6 +16720,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_pt_1 = {
+		tip = "イベントに参加し、累計PT報酬を手に入れよう！取得期限：8.13 23:59まで"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_map_title_tips = {
 		tip = "作戦情報"
 	}
@@ -16311,14 +16738,62 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_award_4 = {
+		tip = "専用特殊装備"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_status_train = {
 		tip = "<size=24>訓練中</size>"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.intimacy_desc_3_buff = {
+		tip = "補正値：全性能（速力、装備以外）1%アップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_award_1 = {
+		tip = "装備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_10 = {
+		tip = "家具制作"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_9 = {
+		tip = "入手"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_7 = {
+		tip = "制作完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_6 = {
+		tip = "入手済"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.backyard_sort_tag_comfortable = {
 		tip = "快適度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_5 = {
+		tip = "快適度報酬"
 	}
 end)()
 
@@ -16399,8 +16874,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_stronghold_4 = {
+		tip = "入手率"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.child_btn_news = {
 		tip = "今月のニュース"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_base_name_3 = {
+		tip = "アトリエ庭スペース"
 	}
 end)()
 
@@ -16413,6 +16900,12 @@ end)()
 (function()
 	_G.pg.base.gametip.child2_site_exit = {
 		tip = "離れる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_base_name_2 = {
+		tip = "アトリエ休憩スペース"
 	}
 end)()
 
@@ -16435,6 +16928,36 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_base_name_1 = {
+		tip = "アトリエ作業スペース"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_9 = {
+		tip = "報酬一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_8 = {
+		tip = "累計PT"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_6 = {
+		tip = "アトリエ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_4 = {
+		tip = "残り$1日（8.7メンテまで）"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.build_pools_intro = {
 		tip = "キューブと資源を使って、艦隊を大きくしましょう！"
 	}
@@ -16443,6 +16966,12 @@ end)()
 (function()
 	_G.pg.base.gametip.battlepass_main_tip_2208 = {
 		tip = "<size=24>2022.8.1-2022.9.30キャンペーン期間中、シーズン任務報酬で<color=#854747>「トレント(META)」</color>などを入手可能！</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_3 = {
+		tip = "着せ替え"
 	}
 end)()
 
@@ -16475,14 +17004,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_main_tip_2 = {
+		tip = "限定海域"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_1 = {
+		tip = "限定建造"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_least_page = {
 		tip = "最小"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.juuschat_reddot_title = {
+		tip = "艦チャット"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.spweapon_tip_owned = {
 		tip = "所持数：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
+		tip = "低"
 	}
 end)()
 
@@ -16511,6 +17064,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
+		tip = "高"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.open_system_tip = {
 		tip = "$1が開放されました！"
 	}
@@ -16525,6 +17084,12 @@ end)()
 (function()
 	_G.pg.base.gametip.blueprint_build_time_tip = {
 		tip = "開発開始・再開24時間以内は開発対象を変更できません。\n\nこのまま開発を開始しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_bloom = {
+		tip = "ブルーム"
 	}
 end)()
 
@@ -16551,62 +17116,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_stamina_text2 = {
-		tip = "<color=#92fc63>$1</color>を消費し行動力を<color=#92fc63>$2</color>回復しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
-		tip = "低"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
-		tip = "高"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_getShip_error_noShip = {
-		tip = "建造中の艦がありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_bloom = {
-		tip = "ブルーム"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_task_pt_label = {
-		tip = "雰囲気:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_ammo_type_7 = {
-		tip = "SAP弾"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pocky_jiujiu_desc = {
-		tip = "今日も饅頭たちが頑張って働いている…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_wall = {
-		tip = "壁飾り"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.lanternRiddles_answer_is_right = {
-		tip = "正解です！"
+	_G.pg.base.gametip.pocky_jiujiu = {
+		tip = "饅頭量産中"
 	}
 end)()
 
@@ -16617,14 +17128,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.chat_level_not_enough = {
-		tip = "指揮官Lv$1以上で発言できるようになります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_new_messages = {
-		tip = "新着なし"
+	_G.pg.base.gametip.world_stamina_text2 = {
+		tip = "<color=#92fc63>$1</color>を消費し行動力を<color=#92fc63>$2</color>回復しました"
 	}
 end)()
 
@@ -16641,30 +17146,114 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.couplete_remind = {
-		tip = "正解は「$1」"
+	_G.pg.base.gametip.couplet_index_desc = {
+		tip = "$1問目"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.music_juus = {
+	_G.pg.base.gametip.attr_antiaircraft = {
+		tip = "対空"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_getShip_error_noShip = {
+		tip = "建造中の艦がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_yanhua_tip7 = {
+		tip = "花火をもう一度タップすると打ち上げ順から削除できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_task_pt_label = {
+		tip = "雰囲気:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_ammo_type_7 = {
+		tip = "SAP弾"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_story_reward_count = {
+		tip = "全てのストーリーを読むと限定装備外装を入手：$1/9"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_wall = {
+		tip = "壁飾り"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.lanternRiddles_answer_is_right = {
+		tip = "正解です！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_series_confirm = {
+		tip = "出撃へ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chat_level_not_enough = {
+		tip = "指揮官Lv$1以上で発言できるようになります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_new_messages = {
+		tip = "新着なし"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_series_task_small = {
+		tip = "TASK"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_series_rank_small = {
+		tip = "RANKING"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_series_pt = {
+		tip = "累計"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_series_help = {
 		tip = {
 			{
-				info = "「艦チャット＆艦船通信」について：\n\n  艦チャットと艦船通信とは母港の艦船たちが利用しているSNSであり、艦船たちの投稿を読み「いいね」を押したり、艦船とチャットする会話コンテンツを楽しめるシステムになります。\n 画面左下のボタンで「艦チャット」「艦船通信」を切り替えることができます。\n\n  艦チャットについて\n 1.艦チャットでは「個人チャンネル」「グループチャンネル」それぞれで艦船とのチャット（会話）を楽しむことができます\n 2.未読メッセージが存在する場合、「艦チャット＆艦船通信」ボタンにアイコンが表示されます\n 3.チャンネルは画面左のチャンネルバーをタップして切り替える事ができます\n 4.チャット画面右上のハートアイコンをタップすると、チャンネルバーの表示優先順位を上げる事ができます。また、右上のボタンをタップすると話題切り替え、チャット背景の変更が可能です\n\n\n  艦船通信について\n 1.艦船通信で艦船たちの投稿を読み、「いいね」を押したり、コメントしたりすることができます。\n 2.艦船による投稿は一定時間毎に自動で行われます。\n 3.「艦チャット＆艦船通信」ボタンにアイコンが表示されます\n"
+				info = "遊び方：\n<color=#92fc63>6.26-7.10メンテ</color>まで、期間限定イベント「ネオンシティの探索者」が開催されます！\n限定任務をこなし、艦隊を編成し限定ステージをクリアすることで、「シティ映画チケット」を集めて報酬を手に入れましょう！\n\n①画面左下のボタンで「探索物語（ストーリー）」と「特別戦闘」画面を切り替えることができます。\n②「特別戦闘」では、艦隊を編成しSPステージに挑戦でき、収集Ptアイテム「シティ映画チケット」を入手できます\n出撃の際に、出撃する艦隊数が異なる<color=#92fc63>「単独出撃」</color>、<color=#92fc63>「協同出撃」</color>を選択できます\n・単独出撃では、1個の艦隊のみで各ステージに連続して挑むことができます（戦闘開始時に艦隊の耐久が全回復します）\n・協同出撃では、ステージに応じてそれぞれ艦隊を編成し出撃させ、戦闘をそれぞれの艦隊で行います。協同出撃でクリアした場合、追加の報酬を入手できます\n\n③ 「シティ映画チケット」は累計入手数報酬でSR艦船<color=#92fc63>「Z13」</color>、<color=#92fc63>「試作型305mmSKC39三連装砲」</color>などを入手できます\n④「限定任務」では、イベント開催期間に登場するイベント任務を確認し報酬を受け取ることができます。\n④「探索物語」では特別ストーリーを読むことができます。ストーリーを全部読むと、記念装備外装を入手できます"
 			}
 		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_puzzle_get12 = {
-		tip = "<color=#92fc63FF>入手方法\n限定任務3</color>"
+	_G.pg.base.gametip.dorm3d_collection_cafe = {
+		tip = "カフェ"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_story_reward_count = {
-		tip = "全てのストーリーを読むと限定装備外装を入手："
+	_G.pg.base.gametip.dorm3d_dance_button = {
+		tip = "ダンス"
 	}
 end)()
 
@@ -16709,8 +17298,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_series_confirm = {
-		tip = "出撃へ"
+	_G.pg.base.gametip.brs_reward_tip_1 = {
+		tip = "入手方法"
 	}
 end)()
 
@@ -16721,8 +17310,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_series_task_small = {
-		tip = "TASK"
+	_G.pg.base.gametip.brs_dmact_tip = {
+		tip = "累計撃破数"
 	}
 end)()
 
@@ -16739,8 +17328,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.zengke_series_rank_small = {
-		tip = "RANKING"
+	_G.pg.base.gametip.brs_expedition_tip = {
+		tip = "チャレンジステージをクリアすると限定報酬を入手可能！"
 	}
 end)()
 
@@ -16753,110 +17342,6 @@ end)()
 (function()
 	_G.pg.base.gametip.word_shipType_quZhu = {
 		tip = "駆逐"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.zengke_series_pt = {
-		tip = "累計"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_removeError_onlyShip = {
-		tip = "前衛艦隊と主力艦隊には最低1艦ずつ配置する必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.upgrade_complete_tip = {
-		tip = "レッスン完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.zengke_series_help = {
-		tip = {
-			{
-				info = "遊び方：\n<color=#92fc63>6.26-7.10メンテ</color>まで、期間限定イベント「ネオンシティの探索者」が開催されます！\n限定任務をこなし、艦隊を編成し限定ステージをクリアすることで、「シティ映画チケット」を集めて報酬を手に入れましょう！\n\n①画面左下のボタンで「探索物語（ストーリー）」と「特別戦闘」画面を切り替えることができます。\n②「特別戦闘」では、艦隊を編成しSPステージに挑戦でき、収集Ptアイテム「シティ映画チケット」を入手できます\n出撃の際に、出撃する艦隊数が異なる<color=#92fc63>「単独出撃」</color>、<color=#92fc63>「協同出撃」</color>を選択できます\n・単独出撃では、1個の艦隊のみで各ステージに連続して挑むことができます（戦闘開始時に艦隊の耐久が全回復します）\n・協同出撃では、ステージに応じてそれぞれ艦隊を編成し出撃させ、戦闘をそれぞれの艦隊で行います。協同出撃でクリアした場合、追加の報酬を入手できます\n\n③ 「シティ映画チケット」は累計入手数報酬でSR艦船<color=#92fc63>「Z13」</color>、<color=#92fc63>「試作型305mmSKC39三連装砲」</color>などを入手できます\n④「限定任務」では、イベント開催期間に登場するイベント任務を確認し報酬を受け取ることができます。\n④「探索物語」では特別ストーリーを読むことができます。ストーリーを全部読むと、記念装備外装を入手できます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collection_cafe = {
-		tip = "カフェ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_awakening = {
-		tip = "<size=32>認識覚醒可</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_help_2206 = {
-		tip = {
-			{
-				info = "■キャンペーン開催期間\n 2022.6.1（水）0:00～2022.7.31（日）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「メンフィス(META)」、SP報酬からは駆逐艦「暁」の限定着せ替え「ニンジャ曲芸の大一番！」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_dance_button = {
-		tip = "ダンス"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.brs_reward_tip_1 = {
-		tip = "入手方法"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.volleyball_end_tip = {
-		tip = "$1と楽しい午後を過ごした"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.brs_dmact_tip = {
-		tip = "累計撃破数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
-		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n試作型283mm/54.5三連装砲\n100mm二連装九八式高角砲改\n二連装57mm/L60ボフォース対空機関砲 Mle1951\n</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
-		tip = "<color=#92fc63>変化後のステータス</color>を適用させますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.brs_expedition_tip = {
-		tip = "チャレンジステージをクリアすると限定報酬を入手可能！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipment_bomber = {
-		tip = "爆撃機"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activityboss_sp_score_not_update = {
-		tip = "最高スコア未更新"
 	}
 end)()
 
@@ -16889,6 +17374,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ship_formationUI_removeError_onlyShip = {
+		tip = "前衛艦隊と主力艦隊には最低1艦ずつ配置する必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.upgrade_complete_tip = {
+		tip = "レッスン完了"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.projection_help = {
 		tip = {
 			{
@@ -16916,16 +17413,22 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_mailMediator_mailread = {
-		tip = "メールが既読状態になりました"
+	_G.pg.base.gametip.mission_complete = {
+		tip = "任務\n完了"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.maid_task_tips1 = {
+	_G.pg.base.gametip.spweapon_ui_cancelselect = {
+		tip = "選択中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_help_2206 = {
 		tip = {
 			{
-				info = "■概要\nミニストーリーイベント「炭酸と紅茶」とは、期間限定で出現する限定任務をクリアし「増築許可」を集め、裏山のカフェ施設をレベルアップしていくことで、限定家具を入手できるミニイベントです。\n\n■遊び方\n・2022年1月4日（火）まで、毎日2つの限定任務が開放されます\n・限定任務をクリアすると、イベントバナーにて「増築許可」を入手できます\n・入手した「増築許可」は裏山の「ロイヤルカフェ」「鉄血カフェ」で施設のレベルアップを行えます\n・それぞれの施設がレベルアップすると、イベント期間中艦隊に強化効果を与えることができます。\n・イベントバナーでの任務を最後までクリアすると、限定家具を入手できます\n・施設を全部レベル4にすると、更に任務一覧画面で隠し任務が開放されます\n・任務を全部クリアすると、ミニストーリーを全部閲覧できます"
+				info = "■キャンペーン開催期間\n 2022.6.1（水）0:00～2022.7.31（日）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「メンフィス(META)」、SP報酬からは駆逐艦「暁」の限定着せ替え「ニンジャ曲芸の大一番！」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
 			}
 		}
 	}
@@ -16944,8 +17447,90 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_polaroid_get_tip = {
-		tip = "収録済みのコンテンツは「大事な瞬間」にて確認できます"
+	_G.pg.base.gametip.volleyball_end_tip = {
+		tip = "$1と楽しい午後を過ごした"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_armor_type = {
+		tip = "装甲種別"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
+		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n(<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n試作型283mm/54.5三連装砲\n100mm二連装九八式高角砲改\n二連装57mm/L60ボフォース対空機関砲 Mle1951\n</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
+		tip = "<color=#92fc63>変化後のステータス</color>を適用させますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.add_skin_random_secretary_ship_list = {
+		tip = "ランダム秘書艦に追加"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_equipment_bomber = {
+		tip = "爆撃機"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activityboss_sp_score_not_update = {
+		tip = "最高スコア未更新"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.add_skin_secretary_ship = {
+		tip = "秘書艦枠に配置"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shadow_skin_change_success = {
+		tip = "投影の着せ替えを変更しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_mailMediator_mailread = {
+		tip = "メールが既読状態になりました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shadow_unlock_tip = {
+		tip = "投影制作任務の達成で投影を制作できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shadow_scene_name = {
+		tip = "着替投影"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tech_shadow_commit_tip = {
+		tip = "<color=#92fc63>$1</color>を消費します。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.music_juus = {
+		tip = {
+			{
+				info = "「艦チャット＆艦船通信」について：\n\n  艦チャットと艦船通信とは母港の艦船たちが利用しているSNSであり、艦船たちの投稿を読み「いいね」を押したり、艦船とチャットする会話コンテンツを楽しめるシステムになります。\n 画面左下のボタンで「艦チャット」「艦船通信」を切り替えることができます。\n\n  艦チャットについて\n 1.艦チャットでは「個人チャンネル」「グループチャンネル」それぞれで艦船とのチャット（会話）を楽しむことができます\n 2.未読メッセージが存在する場合、「艦チャット＆艦船通信」ボタンにアイコンが表示されます\n 3.チャンネルは画面左のチャンネルバーをタップして切り替える事ができます\n 4.チャット画面右上のハートアイコンをタップすると、チャンネルバーの表示優先順位を上げる事ができます。また、右上のボタンをタップすると話題切り替え、チャット背景の変更が可能です\n\n\n  艦船通信について\n 1.艦船通信で艦船たちの投稿を読み、「いいね」を押したり、コメントしたりすることができます。\n 2.艦船による投稿は一定時間毎に自動で行われます。\n 3.「艦チャット＆艦船通信」ボタンにアイコンが表示されます\n"
+			}
+		}
 	}
 end)()
 
@@ -16968,14 +17553,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.add_skin_random_secretary_ship_list = {
-		tip = "ランダム秘書艦に追加"
+	_G.pg.base.gametip.holiday_villa_locked = {
+		tip = "イベント<color=#92fc63>「リゾート準備中」</color>クリアで開放"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.add_skin_secretary_ship = {
-		tip = "秘書艦枠に配置"
+	_G.pg.base.gametip.storyline_goto = {
+		tip = "思い出確認"
 	}
 end)()
 
@@ -16998,8 +17583,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shadow_skin_change_success = {
-		tip = "投影の着せ替えを変更しました"
+	_G.pg.base.gametip.cruise_tip_skin = {
+		tip = "シーズン任務へ"
 	}
 end)()
 
@@ -17010,14 +17595,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shadow_unlock_tip = {
-		tip = "投影制作任務の達成で投影を制作できます"
+	_G.pg.base.gametip.dorm3d_shop_gift_not_owned = {
+		tip = "未所持の贈り物です"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shadow_scene_name = {
-		tip = "着替投影"
+	_G.pg.base.gametip.collection_book_tag_2 = {
+		tip = "余暇\n時間"
 	}
 end)()
 
@@ -17046,17886 +17631,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tech_shadow_commit_tip = {
-		tip = "<color=#92fc63>$1</color>を消費します。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_id_copy_ok = {
-		tip = "クリップボードにコピーしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ad_0 = {
-		tip = ""
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_villa_locked = {
-		tip = "イベント<color=#92fc63>「リゾート準備中」</color>クリアで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.storyline_goto = {
-		tip = "思い出確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.workbench_tips3 = {
-		tip = "これ以上クラフトできません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_notificationLayer_roomId_invaild = {
-		tip = "ルームが存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
-		tip = "新しい投稿はありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.upgrade_to_next_maxlevel_failed = {
-		tip = "レベルが最大です。\n現在はこれ以上認識覚醒できません。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.bulin_tip1 = {
-		tip = "1-2海域に出撃にゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collection_book_tag_2 = {
-		tip = "余暇\n時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.wwf_bamboo_tip2 = {
-		tip = "（平海）次の報酬まで"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.collection_book_tag_1 = {
 		tip = "施設\n記録"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipment_small_cannon = {
-		tip = "小口径艦砲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.list_empty_tip_friendui_request = {
-		tip = "友達申請はありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.watermelon_minigame_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/watermelon_minigame",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_catchup_0 = {
-		tip = "Ⅰ期"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_nation_award_finish = {
-		tip = "-受取済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_quit_erro = {
-		tip = "脱退に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resolve_equip_tip = {
-		tip = "廃棄する装備を選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_skin_replace_done = {
-		tip = "装備外装を変更しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settings_sound_title_bgm = {
-		tip = "  ミュージック"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.email_text = {
-		tip = "メールアドレス"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.linkBtn_text = {
-		tip = "連携"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandnode_tips4 = {
-		tip = "正解おめでとうピョ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_week_day5 = {
-		tip = "金曜日"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_transfer_president_confirm = {
-		tip = "「艦隊司令」権限を$1に委譲すると、指揮官は「一般メンバー」になります。委譲を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sure_exit_resolve_equip = {
-		tip = "操作を行わないと、全ての装備が<color=#5f984d>倉庫</color>に格納されます\n 前の画面に戻りますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_log_event_group_title3 = {
-		tip = "記録・③"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.storyline_memorysearch2 = {
-		tip = "検索..."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.storyline_memorysearch1 = {
-		tip = "ストーリー検索"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.without_selected_ship = {
-		tip = "条件に合う艦船がいません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.file_down_mgr_title = {
-		tip = "アセットをダウンロード中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_rest_HP = {
-		tip = "港耐久度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.storyline_chapter3 = {
-		tip = "第三章"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.storyline_chapter1 = {
-		tip = "第一章"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.storyline_chapter0 = {
-		tip = "序章"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_trans_tip = {
-		tip = "輸送埠頭"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.desc_base_hp = {
-		tip = "港耐久度：$1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.like_ship_success = {
-		tip = "応援ありがとうございます！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.game_goldbyicon = {
-		tip = "資金$1を消費し、コイン$2枚を購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_trans_not = {
-		tip = "輸送に必要な輸送力が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_limit_level = {
-		tip = "必要指揮官Lv:<color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_mediumArmor = {
-		tip = "中装甲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_trans_get = {
-		tip = "再建任務をクリアすると輸送力を入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_award_limit = {
-		tip = "作戦進捗<color=#FFDE00FF>$1%</color>で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_notificationLayer_deleteFriend = {
-		tip = "友達削除"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_finish = {
-		tip = "リゾート島の再建が<color=#5f984d>全て完了</color>しました。余った再建物資を<color=#5f984d>再建コイン</color>に変換しましょう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_share_listempty = {
-		tip = "まだ装備編成がシェアされていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_task_now = {
-		tip = "現在目標"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.NewMusic_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/music_help",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_trans = {
-		tip = "輸送埠頭"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_2 = {
-		tip = "メイン\n2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovemainpage_build_countdown = {
-		tip = "終了間近"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_bath = {
-		tip = "夏のテルマエ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_close = {
-		tip = "セイレーン作戦開催期間外です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_minigame2 = {
-		tip = "サルベージ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_name_2 = {
-		tip = "スコアUP！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yostar_trans_btn = {
-		tip = "復旧&連携ページ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amercian_notice_5 = {
-		tip = "本段階はまだ開放されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.NewMusic_6 = {
-		tip = "アルバム一覧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_shipinfo_fashion = {
-		tip = {
-			{
-				info = "\n着せ替え：\n\n 「期間外」着せ替え入手期間外です"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Settings_title_FPS = {
-		tip = "フレーム"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_switch_skill_disable = {
-		tip = "本日はこれ以上習得スキルを切り替えできません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.NewMusic_5 = {
-		tip = "お気に入り"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.NewMusic_2 = {
-		tip = "検索..."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commission_label_go_mellow = {
-		tip = "確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_donate_addition_capital_tip = {
-		tip = "大艦隊資金が$1増加しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_pack_lock = {
-		tip = "$1解放後に購入できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_time_limit = {
-		tip = "敵艦隊を$1秒内で撃破"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_research_final_task_desc_locked = {
-		tip = "$1の全ての開発任務をクリアすると本段階最終任務が開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.flagship_display_mode_2 = {
-		tip = "特殊秘書艦のみ表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.remould_ship_count_more = {
-		tip = "1隻以上選択しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_fail_1 = {
-		tip = "どこかが間違っていますね…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.draw_little_luck_1 = {
-		tip = "これから運がよくなるにゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_gametip = {
-		tip = {
-			{
-				info = "「指揮官メモ」について："
-			},
-			{
-				info = "「指揮官メモ」には、新兵任務）、開発任務、機能案内の3つの任務群があります。"
-			},
-			{
-				info = "<b>1.新兵任務：</b>\n·初心者指揮官向けの一連の任務群になります。\n·任務は全部で9つの段階があり、それぞれの段階でいくつかの任務が存在します。\n·前の段階の任務を6つクリアすると、次の段階の任務が開放されます、それぞれの段階の全ての任務をクリアすると、段階クリア報酬を入手できます。\n·全部で9つの段階の任務を全部クリアすると、「新兵任務UR交換チケット」を入手できます。チケットを使用すると、UR艦船<color=#92fc63>「信濃」</color>か<color=#92fc63>「ニュージャージー」</color>から一人を選んで入手できます。"
-			},
-			{
-				info = "<b>2.開発任務：</b>\n·指揮官レベル30で開放され、開発ドックで活用できるデータパックや強化ユニットを入手できる一連の任務群になります。\n·指揮官は特別計画艦の期数から選んで任務を進めることができます。\n·注意：一度開発任務を開放すると、その期の開発任務を全てクリアしない限り、他の期の開発任務に切り替えることはできません。"
-			},
-			{
-				info = "<b>3.機能案内：</b>\n·新規指揮官向けの機能チュートリアルと説明案内のまとめになります。\n·各機能グループではそれぞれのチュートリアル任務と説明が存在し、グループの任務を全部クリアするとメンタルキューブを入手できます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_finished = {
-		tip = "受取済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.simulation_enhanced = {
-		tip = "相手は特殊戦術を発動しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settings_text_account_del_btn = {
-		tip = "削除確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_claim = {
-		tip = "受取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_break = {
-		tip = "※限界突破で★UP！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_process = {
-		tip = "未完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.town_lock_level = {
-		tip = "タウンレベル$1達成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.simulation_disadvantage_counting = {
-		tip = "$1秒後特殊戦術を発動します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.avatar_upgrad_2 = {
-		tip = "突破2回"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resourceSite_finishResourceSite_error = {
-		tip = "資源獲得完了失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_duty_is_too_low = {
-		tip = "任務をこなし、資源拠出を行い貢献度を100まで上げましょう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_lock_erro = {
-		tip = "保護に失敗しました$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_need_star = {
-		tip = "星$1が必要"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_new_player_task_locked_by_section = {
-		tip = "前段階の全ての任務をクリアして開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_skin_count_noenough = {
-		tip = "装備外装が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_reload_unlock_name = {
-		tip = "?????"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
-		tip = "DOF"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_tip = {
-		tip = "「<color=#7e7e7f>$1</color>」が作戦進捗に<color=#8299bc>$2</color>Ptを貢献しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.upgrade_idol_tip = {
-		tip = "レッスンを行う項目を選んでください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_unlock_done = {
-		tip = "保護解除に成功しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200100 = {
-		tip = "購入に失敗しました、誕生日が設定されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_enable_post_process = {
-		tip = "ポストプロセス"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_character_quality = {
-		tip = "キャラの品質"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_enable_additional_lights = {
-		tip = "マルチライト"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_deputy_commder = {
-		tip = "副司令"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_title = {
-		tip = "<size=32>人気投票開催期間</size> <size=24>2023/12/7 - 2024/2/5 24時</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_save_empty_theme = {
-		tip = "マイセットを保存できませんでした"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname1 = {
-		tip = "中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_all_4_2 = {
-		tip = "OFF"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_addShip_error = {
-		tip = "休憩艦船配置失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.set_birth_success = {
-		tip = "誕生日を設定しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_btn_home = {
-		tip = "帰宅"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_summer_food = {
-		tip = {
-			{
-				info = "■概要\n「グルメ街」とは、艦船の買い出しの依頼に応じ、制\n限時間内にみんなが欲しがる食べ物を屋台で購入する\nミニゲームになります。\n正しい食べ物を購入すると、制限時間が増加し、得点\nを得ることが出来ます。\n制限時間終了、もしくはゲームを中断した場合、ゲー\nムクリアになります。\n■遊び方\n・「スタート」をタップすると、画面左のキャラに買\nい出し内容が表示されます。\n・10秒後、買い出し内容の表示が消え、代わりに購入\nできる食べ物の一覧が出現します。\n・制限時間内に食べ物のアイコンをタップすると、購\n入する食べ物を選択することができます。また選択済\nみの食べ物アイコンをタップすると、選択をキャンセ\nルすることができます。\n・食べ物を3種類選択すると、買い出し結果画面が表\n示されます。\n・購入した食べ物が買い出し内容と一致（並び順を含\nむ）した場合、得点を入手することが出来ます。\n・結果画面で「続ける」をタップすると、ミニゲーム\nを継続することが出来ます。「終了」をタップするか\n、もしくは制限時間が0になると、ミニゲームを終了\nできます。\n■報酬について\nゲーム終了時の得点に応じて、賞品を入手出来ます。\n一等賞　20点以上\n二等賞　12点以上\n三等賞　5点以上\n四等賞　4点以下"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_level_no_enough = {
-		tip = "大艦隊レベルが不足しているため、作戦を発令できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.expbook_max_tip_title = {
-		tip = "経験値パックが上限になっています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_4 = {
-		tip = "スキル"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality = {
-		tip = "環境の品質"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.area_zhuxian = {
-		tip = "ﾒｲﾝ海域"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname3 = {
-		tip = "毎フレーム"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_shop_discount_item_link = {
-		tip = "<color=#92fc63>割引クーポン</color><color=#ffea00>-$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_train = {
-		tip = "訓練"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.indexsort_sort = {
-		tip = "ソート"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname1 = {
-		tip = "中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_buff_pt_boost = {
-		tip = "1つ追加する度にPt入手+5%"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_noneedupdate = {
-		tip = "更新完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname0 = {
-		tip = "低"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode = {
-		tip = "影の更新頻度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_ammo = {
-		tip = "弾薬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_all = {
-		tip = "全陣営"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname2 = {
-		tip = "中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.personal_property_title = {
-		tip = "ステータス"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_89904 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n152mm三連装砲Mle1930（榴弾）\n三連装550mm魚雷\n二連装57mm／L60ボフォース対空機関砲Mle1951</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_task_help_2302 = {
-		tip = {
-			{
-				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200231 = {
-		tip = "OneStore決裁が失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname0 = {
-		tip = "オフ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_keep_attr = {
-		tip = "変化中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality = {
-		tip = "影の品質"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname1 = {
-		tip = "高"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_request_msg_placeholder = {
-		tip = "申請を送信しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exchangecode_use_error_8 = {
-		tip = "無効なシリアルコードです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_506124 = {
-		tip = "改造（近代化改修）を行うと<color=#92fc63>【1つ目の装備枠に戦闘機装備可能】【2つ目の装備枠に艦載機装備可能】</color>、<color=#92fc63>【1つ目と2つ目の装備枠の威力補正+10%】</color>\n改造を続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_updateShipLock_error = {
-		tip = "ロック/アンロック失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_extendship_success = {
-		tip = "ドック拡張成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_catchup_4 = {
-		tip = "Ⅳ期"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_all_2_2 = {
-		tip = "100Ptごと"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname1 = {
-		tip = "高"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_chunjie_jiulou = {
-		tip = {
-			{
-				info = "■饅頭年玉について\n・「饅頭年玉」では、ミニゲームで手に入れた「年玉」を開封し、報酬を入手できます。\n・「年玉」は「撫順の大冒険」「おえかき」「伏波の完全作戦」「母港花火大会」を遊ぶことで入手できます。\n・入手した「年玉」は15個目までは「年玉・大」になります。\n・入手した「年玉」を開封する際は「年玉・大」から優先的に開封されます。\n開封すると、ダイヤなどの報酬をランダムで獲得できます。\nまた、「年玉」を累計15個開封すると、<color=#92fc63>「撫順」の着せ替え（復刻）</color>を入手できます。「年玉」を累計25個開封すると、<color=#92fc63>「若月」の着せ替え（復刻）</color>を入手できます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname0 = {
-		tip = "低"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.report_type_3_1 = {
-		tip = "人種や性別、特定の対象への攻撃的な発言"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality = {
-		tip = "レンダリング精度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname2 = {
-		tip = "2K"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname0 = {
-		tip = "720P"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
-		tip = "GPUPUを許可"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yostar_account_btn = {
-		tip = "アカウント管理"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.techpackage_item_use = {
-		tip = "特別開放を行うと、PR艦船交換アイテムが消費されます。$1を特別開放しますか？（艦船「$1」を入手でき、レベル・強化レベルは1）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.holiday_tip_minigame1 = {
-		tip = "カンセンゲーム"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yostar_login_btn = {
-		tip = "ログイン"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
-		tip = "EX潜水艦隊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_cafe_minigame5 = {
-		tip = "終了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_cafe_minigame3 = {
-		tip = "撮影完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
-		tip = "$1の即興ダンス"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_getShip_error_notFinish = {
-		tip = "建造が完了していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_composite_count = {
-		tip = "調合個数："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exercise_award_tip = {
-		tip = "演習期間中、階級が昇格すると、1階級一回のみ報酬が貰えます:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_monopoly_car_2 = {
-		tip = {
-			{
-				info = "■遊び方"
-			},
-			{
-				info = "「饅頭レース」とは、毎日ログインすることで手に入る\n5つのサイコロ（前進回数）を消費し、各種マスの報酬\nを手に入れるボーナスゲームになります。"
-			},
-			{
-				info = "「饅頭レース」の開始地点を通過すると、【資金200】\nを入手できます。また、開始地点を4回通過すると、特\n殊家具を入手できます。"
-			},
-			{
-				info = "「饅頭レース」で止まった各種マスに応じて下記の効果\nを獲得します。"
-			},
-			{
-				info = "    ：資金を少し入手できます；",
-				icon = {
-					path = "saichejinbi",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "    ：燃料を少し入手できます；",
-				icon = {
-					path = "saicheshiyou",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "    ：ちょっとしたイベントが発生します；",
-				icon = {
-					path = "saicheminyun",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "    ：ランダムな報酬を入手できます；",
-				icon = {
-					path = "saichedaoju",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "    ：何マスか前進します；",
-				icon = {
-					path = "saicheteshu",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "毎日ログインするとアクセル（サイコロ）回数を獲得！開始地点を<color=#92fc63>4</color>回通過すると家具をGET！"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.utaware_warmup_notice = {
-		tip = {
-			{
-				info = "ルール："
-			},
-			{
-				info = "    1.コラボイベント期間中、メイン海域（ノーマル）3章以降のステージの中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することが出来ます；"
-			},
-			{
-				info = "    2.コラボキャラとして仮加入した【フミルィル】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることが出来ません；"
-			},
-			{
-				info = "    3.【フミルィル】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【フミルィル】が戦闘可能な状態の場合、獲得する「友好度」が2倍になります；"
-			},
-			{
-				info = "    4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【フミルィル】を「正式加入」させることができます（友好度が1500必要）。イベント終了時、「正式加入」していない【フミルィル】は消失します；"
-			},
-			{
-				info = "    5.友好度報酬は11/28（水）まで毎日1段階ずつ解放されます；"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.worldinpicture_task_help = {
-		tip = {
-			{
-				info = "■概要\n「画中世界」とは、任務クリアでられる「探索回数」「名物配置回数」を消費し、画中世界を探索するミニゲームになります。\n「探索回数」を全部消費すると、艦船「海圻」を入手できます。\n「探索回数」「名物配置回数」を全部消費すると、艦船「海天」を入手できます。\n\n■遊び方\n・1/24（火）まで毎日解放される任務をクリアすると、「探索回数」「名物配置回数」を入手できます。\n・画中世界では、画面をタップすることで「探索回数」を消費し画面を探索することが可能です。また、宝箱を探索すると「お年玉」を入手できます。\n・画面左下のボタンで、「探索」「名物配置」を切り替える事ができます。\n・「名物配置」では、探索済みのマスをタップすると「名物配置回数」を消費し、名物を配置できます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_furniture = {
-		tip = "家具"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_gift1 = {
-		tip = "プレゼント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SuperBulin2_lock_tip = {
-		tip = "ヒントをすべて集めると限定ステージを可能！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.AR_plane_long_press_to_summon = {
-		tip = "平面を長押しして、キャラを呼び出してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_sold_out = {
-		tip = "売切れ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_lock_tip = {
-		tip = "ヒントをすべて集めると限定ステージを可能！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_2 = {
-		tip = "$1があなたのことをもっと知りたいようだ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_chunjie_monopoly = {
-		tip = {
-			{
-				info = "ルール："
-			},
-			{
-				info = "1.右下のサイコロをタップすると、アイテム「サイコロ」\nを1個消費し、すごろく盤で一回移動することができま\nす；"
-			},
-			{
-				info = "2.サイコロを5個消費する度に、年玉（特別ボーナス）\nを入手することができます；"
-			},
-			{
-				info = "3.サイコロはイベント期間中、毎日5つ自動で加算され\nます。"
-			},
-			{
-				info = "4.すごろくの各マスで様々な効果があります。また、出\n発時点を通過すると資金を少しを入手することができま\nす；"
-			},
-			{
-				info = "    ：資金を少し入手できます；",
-				icon = {
-					path = "jinbi",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "    ：燃料を少し入手できます；",
-				icon = {
-					path = "shiyou",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "    ：ランダムなミニイベントが起きます；",
-				icon = {
-					path = "minyun",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "    ：ランダムなアイテムを入手できます；",
-				icon = {
-					path = "daoju",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			},
-			{
-				info = "    ：ランダムな移動イベント；",
-				icon = {
-					path = "teshu",
-					atlas = "attricon",
-					posY = 0,
-					scale = 0.19,
-					posX = 0
-				}
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100207 = {
-		tip = "Google Play GamesのローカルToken認証に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_all = {
-		tip = "全て"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_line_tip = {
-		tip = "一筆描きですべてのパーツをつなげよう!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SuperBulin2_help = {
-		tip = {
-			{
-				info = "遊び方：\n1.イベント期間中、母港と海域の特定の場所に「ヒント」が現れるプリン！\n2.見つけられない場合は、「ヒント」のアイコンをタップするといいプリン！\n ヘルプは10分に1個しか開放できないプリン！\n3.「ヒント」をすべて集めると、特殊ステージに挑戦できるプリン！\n 特殊ステージをクリアすると、報酬を入手できるプリン！"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_gift_favor_max = {
-		tip = "親愛度が上限に達しています。プレゼントを贈っても親愛度は上昇しません。プレゼントを贈りますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_index_shipType_qianTing = {
-		tip = "潜水"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.warning_pray_build_pool = {
-		tip = "「選べる特別建造」の出現率変更の艦船を<color=#FF5C5C>確定すると以後</color>変更できません。\n出現確率変更艦船を選び直しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_maxLv = {
-		tip = "最高<color=#92fc63>Lv$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_consume_for_battle = {
-		tip = "発令消費"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.build_detail_intro = {
-		tip = "同時建造可能数："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_week = {
-		tip = "週"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_ui_giveup = {
-		tip = "中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_shop_limit_cnt = {
-		tip = "限定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_deleteread_button = {
-		tip = "既読削除"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_max_tip_storeroom = {
-		tip = "所持上限以上の資源は取り出せません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.notify_clock_button = {
-		tip = "アラーム権限を許可する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.item_type13_tip2 = {
-		tip = "内容一覧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_use_ticket_title = {
-		tip = "チケットで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.change_technology_refresh_sucess = {
-		tip = "研究項目・変更成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_duel_main_rage = {
-		tip = "前衛艦隊全滅、戦闘を加速します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SuperBulin2_tip1 = {
-		tip = "倉庫で暗号を探そうプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_buff_ticket_tips = {
-		tip = "チェックボックスをタップし「天狐グループバッジ」を使用と報酬を追加入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_12 = {
-		tip = "T4 研究センター（夜）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control_buff_not_obtain = {
-		tip = "未所持"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_10 = {
-		tip = "T2 療養センター（夜）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_collection_1 = {
-		tip = "完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_9 = {
-		tip = "T1 入院棟（夜）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_daily_task_none = {
-		tip = "現在受注できる任務はありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_8 = {
-		tip = "T4 研究センター（黄昏）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_6 = {
-		tip = "T2 療養センター（黄昏）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_map_locked_border = {
-		tip = "周辺エリアが確保されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_feed = {
-		tip = "食糧補充"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_click_desc = {
-		tip = "SDキャラを3回タップすると正解を閲覧可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ranking_word_6 = {
-		tip = "階級"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_4 = {
-		tip = "T4 研究センター（正午）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.jp6th_spring_tip2 = {
-		tip = "温泉手形が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_pair_5 = {
-		tip = "みづくくるとは"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_finish = {
-		tip = "在庫しょ…じゃにゃくて、報酬はすべて交換済みにゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_torpedo = {
-		tip = "雷装"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_cancel = {
-		tip = "戻 る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.towerclimbing_gametip = {
-		tip = {
-			{
-				info = "■概要\n「饅頭大冒険」とは、移動とジャンプでできるだけ高い階層を目指すミニゲームになります。\n「ゲーム回数」を所持している状態でゲームをクリアすると、「ゲーム回数」が1回消費され、「探検コイン」を入手できます。\n\n■ゲームルール\n・画面下部の矢印キーとジャンプボタンで、SDサラトガを操作して上の階層に移動します。\n・棘や罠にぶつかったり、画面下部の饅頭に触れたりすると、ライフが1個減ります。ライフが０になるとゲーム終了（クリア）になります。\n・到達する階層数によって得点（スコア）が記録されます。ハイスコアを目指しましょう！"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_stamina_recover = {
-		tip = "※行動力が200を下回った場合、 <color=#92fc63>10分</color> 毎に行動力が<color=#92fc63>1</color>回復します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_3 = {
-		tip = "T3 物流センター（正午）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100223 = {
-		tip = "Google連携に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_accept_erro = {
-		tip = "申請承認に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_fit = {
-		tip = "適用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_newyear_shrine = {
-		tip = {
-			{
-				info = "■概要\n「幸運祈願」では、お賽銭（5資金）を消費することで、\n一定時間、様々な効果を得られます。\n幸運祈願の可能回数はスタンプを1回手に入れるたびに2\n回増えます。\n\n■遊び方\n・賽銭箱の上の縄をスワイプして引っ張ると、幸運祈願の\n効果を選択することが出来ます。\n・幸運祈願効果\n　学業祈願：戦術教室でスキルを新たに強化する場合、\n所要時間が少し短縮\n　開運招福：メイン海域及び作戦履歴海域戦闘時、味方\nが与えるダメージが微増\n　良縁祈願：秘書艦の親密度上昇スピードがアップ\n・幸運祈願は同時に一種類しか適用できず、同じ祈願を複\n数回行っても効果は上乗せされません。\n・幸運祈願の効果は24時間持続します。また、幸運祈願\nの効果適用中にもう一回祈願すると、前の祈願の効果・\n持続時間が上書きされます。\n<size=31><color=#92fc63>■注意\n（new！）「幸運祈願可能回数」は最大14回まで貯められ\nます\n「幸運祈願可能回数」が0の場合でもお賽銭を入れること\nが出来ますが、幸運祈願を行うことが出来ません。</color></size>"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200130 = {
-		tip = "購入に失敗しました、決済システムにエラーが発生しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_common_2 = {
-		tip = "警告：<color=#ffc038>バトルデータ異常</color>を探知しました。味方<color=#f1f102>特定装備・スキル効果が無効になります！</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_propose_changename_tip2 = {
-		tip = "*名前変更は30日に一度です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_desc_unlock = {
-		tip = "パスワード機能で制限されている操作です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_confirm_doublecheck = {
-		tip = "読み込んだ装備編成を適用しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ssssmedal_name6 = {
-		tip = "ピュリっち"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_progress_tip_title = {
-		tip = "座標情報お知らせ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_pt_tip = {
-		tip = "累計 x"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_close_tip = {
-		tip = "画面タップで戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_unselect_tip = {
-		tip = "調査攻略で調査目標を選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_lock_tip2 = {
-		tip = "$1を開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_label_make_ticket_failed_tip = {
-		tip = "制作手順をもう一度確認しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_no_recent_ships = {
-		tip = "スキル強化歴はありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_task_goto = {
-		tip = "調査開始"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_title_4 = {
-		tip = "ストーリー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_tip_operation_time_is_not_ample = {
-		tip = "大艦隊作戦開放期間が残りわずか（7日間以下）なため、進捗によっては作戦が最後まで進められない場合があります。本当に参加可能回数を消費し、大艦隊作戦に参加しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_title_3 = {
-		tip = "重要情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Supplement_pay3 = {
-		tip = "アイテム購入が全て正常に処理されました。ゲームを再起動すると正常にログインできます。ご協力頂きありがとうございました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.firework_2025_got = {
-		tip = "受取済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exercise_fleet_exit_tip = {
-		tip = "<color=#92fc63>演習防衛艦隊</color>から外しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_shipAddMoney_error = {
-		tip = "コイン獲得失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_refresh_time_tip = {
-		tip = "请勿频繁刷新"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.energy_desc_angry = {
-		tip = "もう動けないorz 早く休ませてあげよう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SkinDiscount_Hint = {
-		tip = "未受取の着せ替えクーポンがあります。クーポン受け取りページに移動しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SkinDiscountHelp_School = {
-		tip = {
-			{
-				info = "1.キャンペーン期間中、<color=#92fc63>クーポンを使用せずに</color>「学園」シリーズ着せ替えを購入するか、着せ替えパック（学園）を購入した場合、キャンペーンページにて<color=#92fc63>着せ替えクーポン（学園）</color>を入手できます\n2.<color=#92fc63>着せ替えクーポン（学園）</color>は「学園」シリーズの着せ替えを購入する際に、ダイヤ×300分割引になります（お得パックを購入する時には使用できません）\n3.キャンペーン終了時【2025年4月9日（水）23:59:59】、未使用の<color=#92fc63>着せ替えクーポン（学園）</color>は削除されます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_movelimit_event_text = {
-		tip = "エリアに未完了の任務が存在しているため、エリカ移動を行えません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.rps_game_take_card = {
-		tip = "カード確定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2025Valentine_minigame_c"] = {
-		tip = "えっと……この味、本当に大丈夫かしら？ロイヤルメイドなのにこんな出来栄えじゃ……指揮官、もう一度作り直させて！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2025Valentine_minigame_b"] = {
-		tip = "やっとできた！想像してたのとちょっと違うわね……でも指揮官がたくさん手伝ってくれたから、そんなに悪くないはずだよね？えへへ☆"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_wait_tip = {
-		tip = "同時接続数が最大になっています。\n（接続待ち:$1人）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_shop_point_sure = {
-		tip = "行動力は上限までしか所持できません（上限を超えた行動力は自動で破棄されます）。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_300200 = {
-		tip = "本人確認が不要です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_mood_desc3 = {
-		tip = "現在の気分：普通； 報酬獲得に影響しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remouldShip_error = {
-		tip = "限界突破失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_mood_desc2 = {
-		tip = "現在の気分：不調； <color=#ff6767>報酬獲得-20%%</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_mood_desc1 = {
-		tip = "現在の気分：絶不調； <color=#ee4a4a>報酬獲得-40%%</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_food_count = {
-		tip = "食糧庫上限: $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_share = {
-		tip = "シェア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_type_unreached = {
-		tip = "出撃条件未達成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_error_noShip = {
-		tip = "艦が存在しません: <color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.verification_code_req_tip1 = {
-		tip = "メールアドレスを入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_special_character_buy_unlock = {
-		tip = "キャラクターを所持していません。<color=#39bfff>「育成」</color>コンテンツで開放可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_custom_theme = {
-		tip = "マイセット"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.firework_2025_tip2 = {
-		tip = "コンディション回復速度："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_pass_2 = {
-		tip = "正解ですよ。指揮官"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.buildship_heavy_tip = {
-		tip = "「ローマ」「ボルツァーノ」常設実装！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attrset_disable = {
-		tip = "作戦中の艦船がいるため、設定できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_skill_unlock_tip = {
-		tip = "突破後で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_buildShip_error = {
-		tip = "建造失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_original_price = {
-		tip = "通常"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.firework_2025_get = {
-		tip = "受取可"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.firework_2025_pt = {
-		tip = "雰囲気Pt"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.firework_2025_level = {
-		tip = "レベル$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.idolmaster_voice_name_feeling1 = {
-		tip = "失望"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_replay_continue = {
-		tip = "続ける"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_replay_clear = {
-		tip = "戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_replay_tip = {
-		tip = "ゲーム中断を検出しました。中断時の進捗に戻りますか？（ボタン「戻る」をタップすると前の画面に戻ります）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_label_private = {
-		tip = "隐私协议"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.please_input_1_99 = {
-		tip = "1～99を入力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_room_floor_2 = {
-		tip = "ロフト"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
-		tip = "リビング"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_skin_already = {
-		tip = "適用中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_skin_confirm = {
-		tip = "適用確定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipment_special = {
-		tip = "その他"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_video_call = {
-		tip = "ビデオ通話"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.building_complete_tip = {
-		tip = "増築に成功しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_sairen_description1 = {
-		tip = "エリアのセイレーン支配度　<color=#3dc6ff>$1%</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_dangerbattle_confirm = {
-		tip = "通常より戦力が強化されている敵艦隊と遭遇しました！\n本当に戦闘を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
-		tip = "未確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_telephone = {
-		tip = "未開放です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_room_guide = {
-		tip = "ビーチに訪問してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
-		tip = "ロフト"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.lesson_endToLearn_error = {
-		tip = "課程中止失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_vo_fighting = {
-		tip = "戦場に出撃中です！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.gift_act_help = {
-		tip = {
-			{
-				info = "「饅頭手芸」とは：\n饅頭手芸では、冒険マップや「クラフト」で入手する素材を消費し、艦船たちに贈るお土産を作ることができます。\nお土産を艦船に贈ると、「探検コイン」などの報酬を入手することができます。\n\n遊び方：\n1.プレゼントしたい艦船を選択し、画面のヒント通りに操作し、お土産を作ることができます。\n2.完成したお土産をドラッグで艦船に贈ることができます。艦船にプレゼントすると、返礼として「探検コイン」などのアイテムを入手できます。\n3.同じ艦船に1回しかプレゼントできません。\n4.「輝く宝石」は、「饅頭探検隊」に入手できる「クラフト用鉱石」を「クラフト」で消費することで生成できます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_syn_value_label = {
-		tip = "累計解析Pt"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.package_view_4 = {
-		tip = "入手済："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_luck = {
-		tip = "消費"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.emptymarkroom_tip_mailboxui_en = {
-		tip = "C O M M A N D E R ， N O  M A I L  H A S  B E E N  A R C H I V E D  Y E T "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200250 = {
-		tip = "APIに問題が発生しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hololive_lianliankan = {
-		tip = {
-			{
-				info = "■概要\n「集まれ！ホロライブレジスタス」とは、ミニゲームを\nプレイし、限定装備をGETできるミニイベントになりま\nす。"
-			},
-			{
-				info = "■遊び方"
-			},
-			{
-				info = "1.「集まれ！ホロライブレジスタンス」のミニゲームは\n全8ステージあり、それぞれ解放条件が異なります。"
-			},
-			{
-				info = "2.ステージをクリアすると、一回のみ報酬を入手できま\nす。また、全ステージをクリアすると、コラボ限定装備\nを入手できます。"
-			},
-			{
-				info = "3.ミニゲームの遊び方：\n・同じキャラのアイコンをタップし、条件を満たすとア\nイコンを消すことができます。アイコンを全て消すとゲ\nームクリアになります。\n・2つのキャラアイコンの間でほかのキャラアイコンを\n経由することなく、3つ以下の直線（横・縦）で繋げら\nれた場合、キャラアイコンを消すことができます。\n・右上の「リセット」ボタンをタップで、現在のキャラ\nアイコンの配置位置をリセットすることができます。"
-			},
-			{
-				info = "4.各ステージの解放条件\nステージ1：コラボイベント海域T1をクリア\nステージ2：コラボイベント海域T2をクリア&「集まれ\n！ホロライブレジスタンス」ステージ1をクリア\nステージ3：コラボイベント海域T3をクリア&「集まれ\n！ホロライブレジスタンス」ステージ2をクリア\nステージ4：コラボイベント海域T4をクリア&「集まれ\n！ホロライブレジスタンス」ステージ3をクリア\nステージ5：コラボイベント海域T5をクリア&「集まれ\n！ホロライブレジスタンス」ステージ4をクリア\nステージ6：コラボイベント海域T6をクリア&「集まれ\n！ホロライブレジスタンス」ステージ5をクリア\nステージ7：「集まれ！ホロライブレジスタンス」ステ\nージ6をクリア\nステージEX：「集まれ！ホロライブレジスタンス」ス\nテージ1～7をクリア"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_dr_char = {
-		tip = "決戦計画"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_room_beach = {
-		tip = "海辺、水着、バレーボール…潮風の中で楽しもう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collection_book_tag_3 = {
-		tip = "特別\n邂逅"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chat_msg_ban = {
-		tip = "不適切な発言により利用が制限されています。\n\n制限解除：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_new_topics = {
-		tip = "$1に新しい投稿があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_ins = {
-		tip = "艦船通信"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_addExp_Info = {
-		tip = "留守の||<color=#FAFAF7FF>$1</color>|| の間、十分に休憩しました！||食糧を|| <color=#92fc63FF>$2</color>|| 消費し、経験値|| <color=#92fc63FF>$3</color>|| を入手しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_topics = {
-		tip = "艦船通信"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_new_calls = {
-		tip = "新着あり"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_resume_attack_count = {
-		tip = "出撃数:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_phone = {
-		tip = "通話"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
-		tip = "新着あり"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.anniversary_task_title_4 = {
-		tip = "揺るがぬ信念を抱く武威は水平線に立ちはだかる試練を超克す。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_help_2408 = {
-		tip = {
-			{
-				info = "■キャンペーン開催期間\n 2024.8.1（木）0:00～2024.9.30（月）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「霞(META)」、SP報酬からは戦艦「ローマ」の限定着せ替え「デヴェレの休日」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません。\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_shop_enoughRes_tip = {
-		tip = "指揮官の物資は全部補充してあげたにゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shan_luan_task_level_tip = {
-		tip = "秘伝ﾚﾍﾞﾙ：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
-		tip = "未開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_xinnian2022_feast = {
-		tip = {
-			{
-				info = "■概要\nキャンペーン「母港正月」は下記の内容で構成されています。\n・幸運祈願\n・施設増築（ミニストーリーイベント）\n・花火工房（復刻イベント）\n・ミニゲーム\n\n■幸運祈願\n・キャンペーン期間中、毎日「艦船絵馬」回数が1回増加します（最大7個）\n・「艦船絵馬」を所持している状態では、「幸運祈願」で艦船の絵馬を飾ることができます\n・「艦船絵馬」を飾ると、艦隊に強化効果を付与できるほか、「正月オリヅル」を1個入手できます\n・「正月オリヅル」を7個集めると、イベントバナーにてSSR艦船と交換できる招待券アイテムを入手できます\n\n■施設増築（ミニストーリーイベント）\n・キャンペーン期間中、母港裏山に「ロイヤルカフェ」「鉄血カフェ」の施設が出現します\n・施設はレベルに応じて艦隊に強化効果を付与できます\n・施設をレベルアップするには、イベントバナーの「炭酸と紅茶」にて出現する限定任務をクリアし、「増築許可」を入手する必要があります\n・イベントバナーでの任務を全部クリアすると、限定家具を入手でき、さらに隠し任務を開放できます（隠し任務は任務一覧に表示されます）\n\n■花火工房（復刻イベント）\n・キャンペーン期間中、毎日ゲーム回数が1回加算されます（最大7回まで）\n・ゲーム回数を所持している状態では、花火工房で花火を制作し打ち上げる際に、ゲーム回数が消費され「花火工房チケット」を入手できます\n・「花火工房チケット」を7枚入手すると、イベントバナーで駆逐艦「Z28」を入手することができます\n・現在所持しているゲーム回数は花火工房画面右上にて確認できます\n\n■ミニゲーム\n・キャンペーン期間中、毎日ゲーム回数が1回加算されます（最大7回まで）\n・ゲーム回数を所持している状態でミニゲームをクリアすると、ゲーム回数が1回消費されます\n・毎日開放されるミニゲームを7日目まで全部クリアすると、「サウサンプトン」の着せ替え「午後のクロチェット」を入手できます\n・ゲーム回数の所持数は画面右側、ログイン回数の所持数は招待券バナーにて確認できます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_target_count = {
-		tip = "入手可能な報酬数 $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.idol3rd_practice = {
-		tip = {
-			{
-				info = "■レッスンについて\n海域や期間限定任務で獲得した<color=#92fc63>「共鳴のエンブレム」</color>が\n一定数を越えると、イベントバナーより「レッスン」を\n行うことができます。 \n\n「レッスン」を行うと、「レッスンLv」が上昇し、イ\nベント期間中、各種海域の戦闘で有利になります。\nまた、「レッスンLv」を最大まで上昇させると、追加\nの報酬を入手できます。\n\n「レッスン」は3種類あり、「レッスンLv」を上げる\nことで下記の効果がそれぞれ強化されていきます。\nアピールVocal：海域における味方艦隊が敵艦隊に与\nえるダメージを上昇させる\nエンゲージDance：海域における味方艦隊が敵艦隊か\nら受けるダメージを軽減させる\nメモリーPerformance：海域における味方艦隊が得ら\nれる経験値を上昇させる\n\n現在の「レッスンLv」はイベントバナー右側のアイコ\nンをタップすることで確認できます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_minigame_Luna = {
-		tip = "ルナ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_add_ok = {
-		tip = "友達追加しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_compare_not_more_than = {
-		tip = "≤"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["0815_main_help"] = {
-		tip = {
-			{
-				info = "遊び方：\n 期間限定イベント「荒野休日開拓記」が<color=#92fc63>8.15（木）-8.29（木）メンテ</color>まで開催！\n\n ·イベント期間中、「開拓タウン」で入手できる「開拓コイン」を使って施設をレベルアップし、繁栄度レベルを上げることで、様々なストーリーを開放可能！\n ·さらに、限定任務クリアなど条件を達成することで、限定<color=#92fc63>チャットアイコン</color>、<color=#92fc63>チャットフレーム</color>、<color=#92fc63>限定家具</color>をGET！また、イベント開始後8日目に新しい「累計燃料消費」任務が開放され、完了すると「開拓タウン」で使用できるタウン繁栄度を上昇できる開拓コインを入手できます。\n ·8.21（水）まで毎日ミニゲーム回数を1回加算されます！ミニゲーム回数を所持している状態で「開拓タウン」のミニゲームをプレイすると、回数を消費し報酬をGET！"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.adventure_award_end_tip = {
-		tip = "※4.17（水） 24時まで受取可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
-		tip = "$1からの通話"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_equip_exchange_tip = {
-		tip = "<color=#92fc63>$1</color>に装備されている<color=#92fc63>$2</color>を<color=#92fc63>$3</color>に装備しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
-		tip = "$1からの招待"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_upgrade_ok = {
-		tip = "装備強化成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SuperBulin2_tip9 = {
-		tip = "建造画面で暗号を探そうプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_xinzexi_bed = {
-		tip = "寝室"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_index_shipType_zhongXun = {
-		tip = "重巡"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_xinzexi_table = {
-		tip = "ダイニング"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
-		tip = "寝室"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_tip_dissolve = {
-		tip = "大艦隊が解散されると、大艦隊資金＆大艦隊兵站上限、大艦隊作戦未受領の報酬が消失します。\n大艦隊を解散しますか？\n\n※個人の貢献Ptは影響されません。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_resourceSiteMediator_shipState_study = {
-		tip = "戦術教室で勉強中です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_giveup = {
-		tip = "委託中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sofmapsd_3 = {
-		tip = "ムフフ、これで売上がUPにゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200370 = {
-		tip = "パラメータの名前が重複しています\nエラーコード:200370"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_room_floor_1 = {
-		tip = "ビーチ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
-		tip = "娯楽エリア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_guide_beach_tip = {
-		tip = "対応キャラのアセットをDLする必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_retreat_erro = {
-		tip = "撤退失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_yanhua_tip1 = {
-		tip = "花火"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_noshiro_bed = {
-		tip = "寝室"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furniture_used = {
-		tip = "<color=#00a3ef>[配置済み]</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_noshiro_table = {
-		tip = "広縁"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.defense_formation_tip_npc = {
-		tip = "仮加入の艦船が第一艦隊に編成されているため、演習編成には編成できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_guide_tip = {
-		tip = "シリアスの部屋を見てみよう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_delete_finish = {
-		tip = "削除しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_confirm_set_important_flag = {
-		tip = "メールを保護しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_vo_event = {
-		tip = "特殊任務に参加しています！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_now_is_downloading = {
-		tip = "アセットDL中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_group_error = {
-		tip = "この兵装を装備できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_shop_template_extratext = {
-		tip = "活動追趕道具兌換 "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.option_desc10 = {
-		tip = "（ON状態）戦闘時衣装の背景が一部表示されなくなる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_23 = {
-		tip = "適用艦種"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_activity_not_open = {
-		tip = "開催期間外"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_got_pt = {
-		tip = "入手済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_photo_contrast = {
-		tip = "コントラスト"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_show_expire_content = {
-		tip = "入手不可コンテンツを表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.nodisplay_player_home_share = {
-		tip = "テーマ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.title_item_ways = {
-		tip = "<color=#92fc63>$1</color>は下記の方法で入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_starLightAlbum = {
-		tip = {
-			{
-				info = "作戦実績："
-			},
-			{
-				info = "1. 「思い出」画面に「作戦実績」が新規追加されます。\n2. イベント開催時、当該イベントの任務をクリアすると<color=#92fc63>「記念ステッカー」</color>を入手でき、さらにステッカーを集めると、記念章家具と勲章を入手できます。\n ※ イベント開催中、<color=#92fc63>イベントバナーの「実績」か、「思い出」の「作戦実績」</color>から「記念ステッカー」ページに移動できます；\n ※ イベント終了後、<color=#92fc63>「思い出」の「作戦実績」</color>でのみ「記念ステッカー」を確認できます；\n ※ 「記念ステッカー」はイベント任務クリアで入手できます；\n ※ 報酬受け取り画面はイベント終了後でも一定期間開放されます；"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_manager_title = {
-		tip = "メール管理"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_detail_connection = {
-		tip = "回路設計"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.flagship_display_mode_3 = {
-		tip = "全て表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_shop_use_label = {
-		tip = "割引適用する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mktea_3 = {
-		tip = "茶の香りを保つために、殺青は欠かせないステップです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49902 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mmSKC連装砲\n150mmTbtsKC/36連装砲\n105mmSKC連装高角砲</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200410 = {
-		tip = "決済失敗：決済タイプエラー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_use = {
-		tip = "使用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_shop_nonuse_label = {
-		tip = "割引適用しない"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_ptshop = {
-		tip = "PT商店（不需要本地化）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.item_type16_tip1 = {
-		tip = "内容一覧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_stage_desc1 = {
-		tip = "育成段階Ⅰ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_help = {
-		tip = {
-			{
-				info = "<color=#92fc63>★遊び方</color>"
-			},
-			{
-				info = "イベント「新春華裳協奏曲」とは、<color=#92fc63>「演習Pt」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
-			},
-			{
-				info = "イベント期間中、敵艦隊を相手に戦う「演習作戦」特別ステージが登場します。\n作戦を完遂するには指揮官同士で協力し、「演習Pt」を集め、作戦進捗を進める<color=#92fc63>（演習ゲージを0%まで削る）</color>必要があります。\n作戦に成功した場合、作戦に参加した指揮官に報酬として特別兵装をメールで配布します。\n※メール数が1000を超えると報酬メールを受け取れない場合がありますので、ご注意ください。\n（演習ゲージが<color=#92fc63>0%</color>になっても、引き続き特別ステージに挑戦することで「演習Pt」を獲得できます）"
-			},
-			{
-				info = "<color=#92fc63>-演習Ptについて-</color>\n1 特別ステージをクリアすると「演習Pt」を獲得できます。\n2 同じサーバーのすべての指揮官が獲得した「演習Pt」の合計数が作戦の進捗を左右します。\n3 演習ゲージが0%になると、作戦が成功になります。各サーバーの作戦進捗はそれぞれで計算されます。\n4 イベント期間中に獲得した「演習Pt」の累計数に応じて、イベントバナーより「Pt累計報酬」を入手できます。"
-			},
-			{
-				info = "<color=#92fc63>-特別ステージについて-</color>\n1 特別ステージは難易度に応じて、「簡単」「普通」「難しい」「EX」の四種類があります。\n2 「EX」以外の難易度で得られる演習Ptは固定で、「EX」では戦闘中に与えたダメージ総量によって演習Pt\n•報酬が変化します。\n3 特別ステージは通常の艦隊とは違う<color=#92fc63>「特別演習編成」</color>を使用します(ステージ出撃時に編成可能)。\n4 特別ステージは出撃/勝利時には通常海域の出撃と同じく燃料•コンディションを消費します。また、勝利時に経験値•通常クリア報酬の獲得と、コンディションが増減します。\n　•特別ステージの「EX」では作戦制限時間は<color=#92fc63>【60秒】</color>になります。60秒経過•敵を撃破•味方旗艦大破するとクリア扱いになります\n　•特別ステージでは艦船が戦闘不能になっても、コンディションは低下しません\n　•「EX」ステージの「模擬戦」に出撃する場合、燃料•コンディション•特別戦闘券（後述）は増減せず、経験値•報酬も入手できません\n5 特別演習編成では潜水艦•オフニャを配置できます。\n戦闘中に潜水支援を行う場合、燃料を消費します。\n6 特別ステージの「簡単」「普通」「難しい」は回数無制限に出撃できます。「EX」は「特別戦闘券」を<color=#92fc63>1枚</color>消費しなければ出撃することができません。"
-			},
-			{
-				info = "<color=#92fc63>-ボーナス出撃と「特別戦闘券」について-</color>\n1 特別ステージの「簡単」「普通」「難しい」はそれぞれ、毎日の<color=#92fc63>15回</color>までの出撃は「ボーナス出撃」になり、得られる報酬が通常時より多くなります。\n2 ボーナス出撃回数が残り<color=#92fc63>0回</color>の状態で上記ステージに出撃する場合、アイテム「特別戦闘券」を<color=#92fc63>1枚</color>消費し、出撃を「ボーナス出撃」に変更できます。\n•上記のボーナス出撃を途中で中止した場合、特別戦闘券は消費されません。\n3 「特別戦闘券」は「EX」に出撃する際にも消費されます。\n4 「特別戦闘券」はイベント期間中に出現する限定任務で入手できます。"
-			},
-			{
-				info = "<color=#ff5c5c>※注意点</color>\n1 「EX」での戦闘を中止した場合、特別戦闘券のみが消費され、報酬•演習Ptを得ることができません。\n2 「EX」での戦闘は<color=#92fc63>マニュアル（手動）</color>操作でのチャレンジをおすすめします。\n3 「EX」の出撃編成画面では「模擬戦」に出撃できます。\n4 「簡単」「普通」「難しい」の戦闘を中止した場合、「ボーナス出撃回数」が減ることはありません。\n5 艦隊の戦力•コンディション•好感度を鑑み、<color=#92fc63>過度に連続出撃しないことをおすすめします。</color>\n6 各サーバーのユーザーデータによって作戦成功に必要な全指揮官のクリア回数が異なります。"
-			},
-			{
-				info = "<color=#92fc63>連続挑戦について</color>：\n1.「連続挑戦」機能は、設定した出撃回数分、自動でステージに出撃しクリアする機能になります\n2.「連続挑戦」機能は、難易度「簡単」「普通」「難しい」の特別ステージを一回クリアすると、当該ステージ出撃時の編成画面の右下に「自動挑戦」ボタンが開放されます。\n3.「連続挑戦」ボタンをタップすると、出撃回数（最大15回まで）を設定できます。\n4.「連続挑戦」では、戦闘が<color=#92fc63>「オート戦闘」</color>になり、また配置した潜水艦隊を<color=#92fc63>自動で戦闘中に呼び出します</color>。\n5.「連続挑戦」は随時中止することができます。中止すると、戦闘終了後の結果画面で自動で前の画面に戻ります。\n6.「連続挑戦」は戦闘中に中止すると、手動戦闘に切り替えることが可能です。また「連続挑戦」を再開した場合、自動で「オート戦闘」に切り替わります。\n6.「連続挑戦」は下記の場合自動で中止します：\n　\t·所持燃料が出撃消費分を下回った場合\n　\t·出撃艦船のコンディション値が一定値を下回った場合\n　\t·戦闘で敗北した場合"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_use = {
-		tip = "使用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_dailypack = {
-		tip = "デイリーパック"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_stop_reason3 = {
-		tip = "ドックの空きがないため"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.evaluate_too_loog = {
-		tip = "コメントが長すぎです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Word_Ship_Exp_Buff = {
-		tip = "経験値＋"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_coinshop = {
-		tip = "物资商店（不需要本地化）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_shop = {
-		tip = "ショップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_recommend = {
-		tip = "オススメ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.notify_clock_tip = {
-		tip = "該当権限が許可されていないため、お知らせ機能を有効にすることができません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_storeroom_max_2 = {
-		tip = "<color=#238c40>$1</color>を入力して操作を続けてください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_save = {
-		tip = "保存"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shipchange_alert_inguildbossevent = {
-		tip = "この艦船は大艦隊作戦の強敵戦で編成されています。大艦隊作戦強敵戦での編成から外しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.task_get = {
-		tip = "受取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.maintenance_message_stop_text = {
-		tip = "サーバー停止中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_detail = {
-		tip = "詳細"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_buildSingleShip = {
-		tip = "<color=#92fc63>$1ダイヤ</color>で<color=#92fc63>1隻分高速建造</color>しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_bominghan = {
-		tip = "命中した敵の動きを一瞬止め、さらに分裂する花火を発射できるぞ。（分裂後の小さな花火は敵の動きを止めない）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Settings_title_agreement = {
-		tip = "利用規約"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_lock = {
-		tip = "未開放依頼"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_mood_desc5 = {
-		tip = "絶好調"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_pop_save = {
-		tip = "進捗セーブしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_newPlayerScene_name_tooLong = {
-		tip = "名前が長すぎです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_pop_next = {
-		tip = "次へ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_polaroid_lock_tip = {
-		tip = "育成段階解放またはTBの個性を解放すると確認可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_confirm = {
-		tip = "確定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_member_rank_title_finish_cnt = {
-		tip = "完成回数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.building_tip = {
-		tip = "任務一覧の<color=#92fc63>期間限定任務</color>をクリアし、増築に必要な素材を入手しよう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_unlock_ending = {
-		tip = "エンディング"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipUpgradeLayer2_effect1or2 = {
-		tip = "上昇値: <color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_moveone_button = {
-		tip = "メール移動"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_request_msg_placeholder = {
-		tip = "申請内容を入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.inform_sueecss = {
-		tip = "通報に成功しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_vitae_skin_setting = {
-		tip = "着せ替え設定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_spweapon_success = {
-		tip = "特殊装備所持数上限が増加しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_detail_collect = {
-		tip = "素材収集へ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.quota_shop_good_limit = {
-		tip = "上限到達"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_task_need = {
-		tip = "必要素材："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_summer_shooting = {
-		tip = {
-			{
-				info = "■概要\n「射的」は、制限時間内にセイレーンの的をできるだ\nけ多く撃破して得点を稼ぐゲームになります。\n■遊び方\n・「開始」をタップすると、画面内に的が12個出現し\nます。\n・画面左下のスティックを操作して照準を合わせ、画\n面右下のボタンで銃を発射できます。\n・銃は一度発射すると一定時間、発射することができ\nません。\n・的に命中した場合、残りの的がランダムで画面に再\n配置されます。\n・残り時間が0になった場合、ゲームクリアになります。\n・命中した的に応じて得点が計算され、ゲームクリア\n時の得点に応じて賞品を入手できます。\n　一等賞：35点以上\n　二等賞：25点以上\n　三等賞：10点以上"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_ship_need = {
-		tip = "$1からの依頼"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovemainpage_skin_countdown = {
-		tip = "残り$1時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_recover_tip1 = {
-		tip = "メール再送機能を使用するには「メール確認」を先に行う必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_collected = {
-		tip = "受取済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_shop_lable = {
-		tip = "※交換可能期間：\n<color=#FFF693>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_collect = {
-		tip = "受取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login = {
-		tip = "ログ\nイン"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tech_select_tip4 = {
-		tip = "アイテム交換"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_proceed = {
-		tip = "確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_exchange_erro = {
-		tip = "支援要請に失敗しました：<color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_finish_fail = {
-		tip = "委託完了失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_chattip1 = {
-		tip = "[ボイスメッセージ]"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_not_exist_battle = {
-		tip = "大艦隊作戦が存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_select_all = {
-		tip = "全て選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tips_dispense_completed = {
-		tip = "装薬完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_minigame_Marie = {
-		tip = "マリー·ローズ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_switch_2 = {
-		tip = "バフ無効"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100110 = {
-		tip = "ログイン中にエラーが発生しました（UIDとtoken照合失敗）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_lock_2 = {
-		tip = "$1時間後に解放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023Valentine_minigame_s"] = {
-		tip = "これはものすごいチョコレートができたようですね…指揮官、どうぞ召し上がってください！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_lock_1 = {
-		tip = "$1日$2時間後に解放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_score = {
-		tip = "スコア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_desc_7 = {
-		tip = "ゲーム開始時にシールドを1枚所持し、制限時間が10秒延長される。ゲーム終了時、最終スコアが1.2倍になる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exchangecode_use_error_7 = {
-		tip = "使用済のシリアルコードです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n380mm四連装砲Mle1935\n152mm三連装砲Mle1930\n二連装37mm高射砲Mle1936</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_remaster_tip2 = {
-		tip = "出撃へ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_desc_5 = {
-		tip = "ゲーム終了時、最終スコアが1.2倍になる。また、5ラウンドごとにスコア倍率が0.01増加する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_buildBatchShip = {
-		tip = "<color=#92fc63>$1ダイヤ</color>で<color=#92fc63>10隻分一括建造</color>しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.trade_card_tips1 = {
-		tip = "ショップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_desc_3 = {
-		tip = "ゲーム開始時、制限時間が10秒延長される"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_desc_2 = {
-		tip = "ゲーム終了時、最終スコアが1.2倍になる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_desc_1 = {
-		tip = "ゲーム開始時にシールドを1枚所持。シールド1枚につき爆発を1回防げる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e7 = {
-		tip = "ピュリファイアー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_name_6 = {
-		tip = "制限時間超UP！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.reselect_music_game = {
-		tip = "進行中のゲームを中断し、曲選択からやり直しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_detail_award = {
-		tip = "報酬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_shop_tip = {
-		tip = "$1日$2時に開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.package_detail_tip = {
-		tip = "詳細確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2402 = {
-		tip = "<size=23> 2024.2.1-2024.3.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「キンバリー(META)」</color>などを入手可能！</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_main_tip = {
-		tip = {
-			{
-				info = "遊び方：\n·<color=#92fc63>2.27-3.12 23:59まで</color>キャンペーン「明石の迎春セール」が開催されます。\n·限定任務\n任務をクリアするとキャンペーンPtを入手可能\n·ショップ\nショップではキャンペーンPtで報酬と交換可能\n·お得パック\n3.5 0時まで每日無料パックとお得パックが1つずつ開放されます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_preCombatLayer_sink_limit = {
-		tip = "戦闘不能艦が$1以下"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.drom3d_memory_limit_tip = {
-		tip = "端末メモリは推奨スペックを下回っているため、ゲームがクラッシュする可能性があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.airforce_desc_5 = {
-		tip = "歼-20机身表面使用了一种低观测反射的涂料材质，表面采用了类似微型山峰的设计，能够反弹并散射掉雷达信号，使得敌方雷达难以发现并锁定目标。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.airforce_desc_3 = {
-		tip = "涡扇15“峨眉” 涡扇发动机，是为我国第五代战斗机研制的小涵道比推力矢量涡扇发动机"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_japanese = {
-		tip = "①"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49906 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型BF-109G（特別計画艦仕様）\nJu-87C急降下爆撃機\nJu-87 D-4</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room11 = {
-		tip = "ベッドルーム"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_invite_confirm_original = {
-		tip = "$1<color=#39bfff>$2</color>を消費し、<color=#39bfff>$3</color>の$4配置を開放しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.airforce_title_4 = {
-		tip = "无附面层隔板进气道"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_2023_reward_word_2 = {
-		tip = "これは……私の胸にある不安、疑惑、隠し事、欲望…それが分かっていても尚、私を選んでくれたんですね。指揮官、分かりました。この最初の感動のためにも、時空のカケラに私たちの永遠の契りを見届けさせましょう――"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_title_2 = {
-		tip = "キャラ情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.airforce_title_1 = {
-		tip = "航电系统"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_unlock_intimacy = {
-		tip = "好感度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_queue_in_mission_incomplete = {
-		tip = "研究完了条件をクリアしていないため、予定列に追加できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_background_tip1 = {
-		tip = "未所持"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.UrExchange_Pt_help = {
-		tip = {
-			{
-				info = "イベントバナーでの交換とイベントショップと同様にカウントされます。\n合計で2回のみ交換できます。\n1回目：URチケット×200；2回目：300URチケット×300。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.use_amount_prefix = {
-		tip = "使用数量:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.BoatAdGame_minigame_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/boatadgame_minigame_help",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_map_not_open = {
-		tip = "エリアが解放されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate4 = {
-		tip = "嗜好"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chargetip_monthcard_2 = {
-		tip = "貿易許可証のデイリー報酬はメールボックスに送られました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_guide_tip2 = {
-		tip = "まずはビーチを見てみよう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate1 = {
-		tip = "達人"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_yunxian_3 = {
-		tip = "闇靄の「核」を撃破した！艦船を模した影も崩壊し始めた"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior11 = {
-		tip = "散歩"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior8 = {
-		tip = "料理"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior7 = {
-		tip = "掃除"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior6 = {
-		tip = "運動"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_ssss = {
-		tip = "SSSS"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_choose = {
-		tip = "今日の予定を教えてね："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_voice_name_feeling1 = {
-		tip = "失望"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ui_word_levelui2_inevent = {
-		tip = "行動中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_remember = {
-		tip = "今日の予定を覚えてね"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight_function3 = {
-		tip = "全戦闘"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_reject_erro = {
-		tip = "申請拒否に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_silent_tip_1 = {
-		tip = "個の艦隊が委託を完了し帰還しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ambush_display_6 = {
-		tip = "危険"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_day6 = {
-		tip = "土"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_day3 = {
-		tip = "水"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
-		tip = "<color=#92fc63>$1X$2</color>が編成されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_day1 = {
-		tip = "月"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_no_item = {
-		tip = "アイテムが不足しています！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_accompany_not_download = {
-		tip = "$1のアセットを先にDLする必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardScene_expression_label_3 = {
-		tip = "快適"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.change_display_medal_success = {
-		tip = "勲章展示設定を変更しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tech_simulate_closed = {
-		tip = "弾幕確認機能が開放されていませ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_gift_owned = {
-		tip = "これ以上は購入できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_4 = {
-		tip = "$1があなたと一緒にいるといつも嬉しそう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_appellation_waring3 = {
-		tip = "呼び方テキストが短すぎです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["202406_wenquan_unlock"] = {
-		tip = "リトルスター増築チケットを$1消費し、施設を増築しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_filter_empty = {
-		tip = "当該チャットは存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.map_event_save_kizuna = {
-		tip = "成功救出<color=#92fc63>绊爱</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_left_donate_cnt = {
-		tip = "残り拠出回数：$1回"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_tracking_error_pre = {
-		tip = "<color=#92fc63>$1</color>クリアで参加可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_filter_subtitle1 = {
-		tip = "既読・未読"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_reddot_title = {
-		tip = "艦チャット"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_wind_move = {
-		tip = "目標エリアに移動できません。目標エリアにいる艦隊を移動してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dont_send_message_frequently = {
-		tip = "発信間隔に注意"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_gift_owner_num = {
-		tip = "数量："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_chattip2 = {
-		tip = "[プレゼント]"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_label2 = {
-		tip = "確認中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_detail = {
-		tip = "確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight_rewards = {
-		tip = "報酬入手合計"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_filter_tip4 = {
-		tip = "個人"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_recommend_fail = {
-		tip = "軍事委託の編成条件を満たせません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_filter_tip3 = {
-		tip = "未返信"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_acc_title_2 = {
-		tip = "累計投票数："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_join_event_progress_label = {
-		tip = "作戦進捗："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settle_rewards_subtitle = {
-		tip = "SETTLE REWARDS"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_help_2204 = {
-		tip = {
-			{
-				info = "■キャンペーン開催期間\n 2022.4.1（金）0:00～2022.5.31（火）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「山城(META)」、SP報酬からは空母「エンタープライズ」の限定着せ替え「Partons en voyage （いざ、旅へ）」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_updateShipLock_ok_lock = {
-		tip = "<color=#92fc63>$1</color>をロックしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cook_game_elbe = {
-		tip = "スイーツ両手持ち"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_filter_tip2 = {
-		tip = "返信済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_filter_title = {
-		tip = "絞り込み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_mapselect_normal = {
-		tip = "普通"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_target_type2 = {
-		tip = "自由探索"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_join_cd = {
-		tip = "大艦隊から脱退すると、24時間は新たな大艦隊に参加できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.genBtn_text = {
-		tip = "送信する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_toast_fullexp = {
-		tip = "EXP入手MAX"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guardian_sure_btn = {
-		tip = "装備"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.escort_less_count_to_combat = {
-		tip = "今日はこれ以上挑戦できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_mapselect_ex = {
-		tip = "EX"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_mapselect_tp = {
-		tip = "TP"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
-		tip = "シリーズ家具を1個ずつ購入する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.faest_nothing_to_get = {
-		tip = "入手できる報酬はありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_mapselect_part2 = {
-		tip = "後編"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_mapselect_part1 = {
-		tip = "前編"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_file_tip = {
-		tip = "※画面スライドでページスクロール可能。画面タップで閉じる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipModLayer_modSuccess = {
-		tip = "強化成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_limit_daily = {
-		tip = "本日購入可能回数：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_shop_benefit_sure2 = {
-		tip = "すでにこの「状態」を所持しているため、購入しても新たに「状態」を獲得できません。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_battleMediator_quest_exist = {
-		tip = "撤退すると<color=#92fc63>アイテムと艦</color>が入手できなくなります。\n撤退しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_bisimaiz_6 = {
-		tip = "現在の侵食レベル：<color=#ff5c5c>5</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_reward_tip1 = {
-		tip = "基本報酬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_chunjie_feast = {
-		tip = {
-			{
-				info = "母港春節\n「饅頭タワー」：ミニゲームをプレイしスタンプを集め\n、駆逐艦「浦波」をGET!\n「おえかき」：絵を完成させ、駆逐艦「鞍山」をGET!\n「撫順の大冒険」：ミニゲームで年獣を倒し、駆逐艦\n「撫順」をGET！\n「春節すごろく」：毎日すごろくを遊び、報酬と年玉を\nGET!\n「饅頭の年玉」：ミニゲームなどで手に入れた年玉はこ\nこで開封可能！\n「着せ替え」：着せかえショップに移動する\n「限定建造」：限定建造ページに移動する\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardGranaryLayer_noFood = {
-		tip = "寮舎の食糧庫が空っぽになりました…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_shop_title = {
-		tip = "大艦隊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_schedule_sure_tip2 = {
-		tip = "まだ使用されていない行動力があります。次のターンに進みますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_tip7"] = {
-		tip = "$1がレベルアップしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_filter_award_nature = {
-		tip = "個性"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_not_start = {
-		tip = "まだ開始していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_select_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help5",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandnode_tips6 = {
-		tip = "花畑はまだ収穫できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_study = {
-		tip = "戦術教室で勉強中です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_class_spend_time = {
-		tip = "必要時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_enter = {
-		tip = "育成を開始する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_profile_voice_locked_propose = {
-		tip = "ケッコンで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_submarine_8 = {
-		tip = "前に発動したオーダーからの時間経過に応じて消費行動力が変化します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_endings_toggle_on = {
-		tip = "エンディング確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_plan_upgrade_condition = {
-		tip = "[レベルアップ条件]"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_ship_upgrade_favor = {
-		tip = "$1とのイベント進捗度が$2になりました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_personal_change = {
-		tip = "性格変化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode = {
-		tip = "ランダム秘書艦候補リスト"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_personal_tag2 = {
-		tip = "ワガママ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
-		tip = "まだメールを保管していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_no_avgLv = {
-		tip = "平均練度は<color=#92fc63>Lv$1</color>に達していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_site_drop_add = {
-		tip = "$1が $2 → $3 にアップ(合計で $4 )"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_soundfiles_checking = {
-		tip = "チェック中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_freeGem = {
-		tip = "ダイヤ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_unlock_site_round = {
-		tip = "次のレベル解放まであと$1ターン"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_discount_timelimit = {
-		tip = "アイテム$1は$2メンテナンス後に削除されます。削除前に着せ替えショップで使用してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationMediator_replaceError_onlyShip = {
-		tip = "選択中の <color=#92fc63>$1</color>は唯一の<color=#92fc63>$2</color>であるため、入れ替えできません！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_assess_tip = {
-		tip = "$1ターン後に<color=#393a3c>判定開始</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_status_time2 = {
-		tip = "永続"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_chapter_level_limit = {
-		tip = "指揮官Lv<color=#92fc63>$1</color>で開放します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_talent_unlock_tip = {
-		tip = "$1ターン目で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100241 = {
-		tip = "Apple連携がキャンセルされました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_sp = {
-		tip = "ｶｽﾀﾏｲｽﾞ前衛"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_status_title = {
-		tip = "状態"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.return_award_bind_success = {
-		tip = "UID入力成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_other = {
-		tip = "その他"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.challenge_share = {
-		tip = ""
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_scene_title_word_4 = {
-		tip = "空域:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_limit_lv = {
-		tip = "Lv$1で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_main_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help7",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help8",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help9",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help10",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help11",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/educate_tb_help12",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_pt_notenough = {
-		tip = "セイレーン作戦の【META戦】で解析Ptを手に入れよう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_ending_stage = {
-		tip = "エンディング段階"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_assess_target = {
-		tip = "能力目標：$1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_203124 = {
-		tip = "<size=35>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_volleyball_button = {
-		tip = "ビーチバレー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_reset_2 = {
-		tip = "作戦マップは明日<color=#92fc63>$1</color>時リセットされます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loading_tip_FontMgr = {
-		tip = "自律ライブラリー初期化中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
-		tip = "\n（今週購入回数$1/$2）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_end_subtitle1 = {
-		tip = "報酬獲得"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_treasure_3 = {
-		tip = "セイレーン作戦リセット後に購入可能です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amusementpark_shop_exchange2 = {
-		tip = " <icon name=Props/AmusementparkshopPT w=0.7 h=0.7/> $1個で\n$3を$2個交換するピョ？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_activity_ui_text2 = {
-		tip = "*「特殊装備コア」「特殊装備強化石」は特殊装備の製造・強化に使用します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_resource_delete = {
-		tip = "アセットを削除しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ssssmedal_name5 = {
-		tip = "コンダクター"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_cancel = {
-		tip = "戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_download_complete = {
-		tip = "アセットダウンロード完了しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mktea_2 = {
-		tip = "茶葉を広げて、水分を蒸発させ、柔らかくしましょう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dress_up_success = {
-		tip = "装飾設定変更成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_day_night_switching2 = {
-		tip = "すでに夜になっています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.AR_plane_summon_success = {
-		tip = "キャラの呼び出しに成功しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.AR_plane_summon_fail_by_near = {
-		tip = "距離が近すぎるため、キャラの呼び出しに失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.AR_plane_distance_near = {
-		tip = "距離が近すぎるとキャラが非表示になります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.AR_plane_check = {
-		tip = "平面を検出してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_reserve_count_is_max = {
-		tip = "これ以上は購入できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_gift_maximum = {
-		tip = "最大数量に達しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_recall_locked = {
-		tip = "未開放？？？？？？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furniture_replace_tip = {
-		tip = "対応の家具を配置してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_serverLoadVindicate = {
-		tip = "<color=#a2a2a2>メンテ</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_gift_story_unlock = {
-		tip = "特別ストーリー開放済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_nextpage = {
-		tip = "前へ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_cur_round = {
-		tip = "$1ターン目"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_role_locked = {
-		tip = "コンテンツを開放しておく必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_accompany_locked = {
-		tip = "未開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_plan_check_tip3 = {
-		tip = "前段階の予定の実行回数が不足しています。予定を追加できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furniture_locked = {
-		tip = "家具未開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_photo_no_role = {
-		tip = "キャラ未開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipState_fight = {
-		tip = "出撃中です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_skin_locked = {
-		tip = "未開放衣装"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_resume_ship_count = {
-		tip = "艦船入手:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_story_unlock_tip = {
-		tip = "開放済ストーリー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_skin_detail_count = {
-		tip = "所持中:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.challenge_minigame_unlock = {
-		tip = "ミニゲーム未開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pizzahut_help = {
-		tip = {
-			{
-				info = "■概要\n「饅頭ピザ屋」とは、「饅頭の食材」を集め、報酬を\n入手できるミニイベントになります。\n\n■遊び方\n・3章以降のメイン海域（ノーマル）か、イベント「虚\n畳なりし限象」海域（EX除く）の敵中枢艦隊を撃破\nすると、「饅頭の食材」を入手可能\n・「饅頭の食材」累計入手数に応じて、イベント画面で\n吹雪の限定着せ替えなど、様々な報酬を入手可能\n・「饅頭の食材」累計獲得数報酬を全部入手すると、画\n面左の「饅頭ピザ」をタップすることで、オリジナル\nの饅頭ピザを表示させることが可能！"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_title_2408 = {
-		tip = "シーズン任務・18期"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_shop = {
-		tip = "ショップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.gift_act_tips = {
-		tip = "$1が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_tip_base = {
-		tip = "-基本報酬-"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_chapter_notInStrategy = {
-		tip = "攻略していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_tip_skin = {
-		tip = "シーズン任務へ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_shop_lock_tip = {
-		tip = "開催中シーズン任務Lv50達成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_shop_title_equip_skin = {
-		tip = "外装"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_stamina_not_enough = {
-		tip = "指揮官行動力が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_energy_active_box_tip = {
-		tip = "META艦船を限界突破しますか？\n（艦船の★が増加します）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.task_got = {
-		tip = "完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.task_go = {
-		tip = "確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_btn_all = {
-		tip = "一括受取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_shop_no_open = {
-		tip = "10/1 0時開放予定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_picked = {
-		tip = "主力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_time_title = {
-		tip = "今期残り時間："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_title_2506 = {
-		tip = "シーズン任務・23期"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.fate_attr_word = {
-		tip = "竜骨編纂による強化効果："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_report_type_1 = {
-		tip = "装備編成が意味不明"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_tianchengCV_1 = {
-		tip = "「<color=#ff8800>紅き炎</color>、<color=#5cccff>青き華</color>、此岸に降臨せん！」"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_title_2504 = {
-		tip = "シーズン任務・22期"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_pt_up = {
-		tip = "$1強化効果を入手しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_title_2502 = {
-		tip = "シーズン任務・21期"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_title_2412 = {
-		tip = "シーズン任務・20期"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newserver_shop_timelimit = {
-		tip = "$1に開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.award_overflow_tip = {
-		tip = "上限分を超えた報酬アイテムは手動でお受取りください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.max_level_notice = {
-		tip = "レベル最大・限界突破で最大レベル$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_purchase_confirm_free = {
-		tip = "$1<color=#fc4670><size=34>無料</size></color>(割引前価格$2)で<color=#169fff>$3</color>を購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_food_shop_tip = {
-		tip = "購入費用："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sofmap_attention = {
-		tip = {
-			{
-				info = "通关下列指定关卡会获得不同数量的代金券\n    三章及以后的普通主线海域\n   活动关卡SP1、SP2、SP3"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_meta_index = {
-		tip = "META"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Settings_title_sound = {
-		tip = "音声設定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_phase_title = {
-		tip = "段階"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mission = {
-		tip = "任務"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
-		tip = "アイテムは家具$1に入れ替えられたため、現在入手できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_purchase_outtime = {
-		tip = "販売期間外です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loading_tip_PoolMgr = {
-		tip = "有機塗装素子充填中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_tactics_unlock = {
-		tip = "スキル習得"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_purchase_confirm_original = {
-		tip = "$1<color=#169fff>$2</color>を消費し、<color=#169fff>$3</color>を購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_rest = {
-		tip = "休憩"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_upgradeStar_error_4010 = {
-		tip = "「鏡面海域」に出撃中の艦がいます！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_invite_confirm_discount = {
-		tip = "$1<color=#39bfff>$2</color>（割引前価格$3）を消費し、<color=#39bfff>$4</color>の$5配置を開放しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_month_card_title = {
-		tip = "$1ダイヤプレゼント！さらに30日間毎日燃料・資金が貰える！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_fleet_can_not_edit = {
-		tip = "艦隊を編集できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100218 = {
-		tip = "このアプリはX(旧ツイッター)ではログインできません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.airforce_title_5 = {
-		tip = "吸波隐身涂层"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_sendFriendRequest_success = {
-		tip = "申請を送信しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tips_shrine_nobuff = {
-		tip = "賽銭︵資金5︶を入れました。\nこれ以上は祈願できません…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.breakout_tip_ultimatebonus_aux = {
-		tip = "設備によるステータス増加+30%"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_gem_icon = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_beach_switch = {
-		tip = "ビーチ準備中……"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_extralevel_1 = {
-		tip = "レベル1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_10 = {
-		tip = "機銃射程"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_tag5 = {
-		tip = "会話内容開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_tag4 = {
-		tip = "特殊ストーリー開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sham_reset_confirm = {
-		tip = "本日「鏡面海域」の掃討はまだ完了していません。戦況をリセットしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_map_locked_stage = {
-		tip = "エリアが解放されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_retreat = {
-		tip = "撤 退"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_extend_tip_2 = {
-		tip = " 個を消費しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guardian_select_title = {
-		tip = "加護選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_cancel = {
-		tip = "戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_tag2 = {
-		tip = "撮影モーションを開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_tag1 = {
-		tip = "専用タッチを開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_universal = {
-		tip = "汎用3D設定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_energy_ship_level_need = {
-		tip = "必要艦船Lv： $1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_quality_option_high = {
-		tip = "高画質"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room6 = {
-		tip = "執事ルーム"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_exchange_select_display = {
-		tip = "選択数/必要数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_total_exp_addition = {
-		tip = "経験強化効果："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_resource_tip_2 = {
-		tip = "未资源提示1(未使用)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_quality_option_low = {
-		tip = "低画質"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attire_combatui_confirm = {
-		tip = "装飾"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attr_speed = {
-		tip = "速力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_photo_regular_anim = {
-		tip = "基本"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_joint_boss_award_expired = {
-		tip = "報酬の受取に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.week_task_title_label = {
-		tip = "週次任務報酬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.box_account_reborn_content = {
-		tip = "アカウント削除は<color=#92fc63>$1</color>日後に行われます。アカウント削除までゲームにログインすると、アカウント削除が行われなくなります。\nアカウント削除依頼を取り下げ、ゲームにログインしますか？ （アカウントは削除されなくなります）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.compensate_ui_nothing2 = {
-		tip = "No compensation received yet"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.compensate_ui_title1 = {
-		tip = "補填"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.compensate_ui_expiration_hour = {
-		tip = "$1時間後無効になります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_ui_unlock = {
-		tip = "装飾開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_on = {
-		tip = "ランダム秘書艦機能をONにしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ui_pack_tip2 = {
-		tip = "単品"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ui_pack_tip1 = {
-		tip = "どれか一つしか購入できません。購入されたアイテムはメールボックスに送られます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_reset_talent_is_not_need = {
-		tip = "初期状態ではリセットできません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cook_game_pnelope = {
-		tip = "2回正しく届ける度に1点追加"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.no_share_skin_jiahehangmu = {
-		tip = "加賀(空母)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_quick_change_nofreeequip = {
-		tip = "変更する装備は他の艦に装備されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
-		tip = "天城(巡洋戦艦)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_transform_materal_check = {
-		tip = "改造に必要な素材を選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.formation_reform_tip = {
-		tip = "隊列維持ができません！編成しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_gift_already_given = {
-		tip = "すでにプレゼントした贈り物です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_scene_full_hp = {
-		tip = "使用失敗:耐久が満タンです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
-		tip = "天城(空母)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destory_important_equipment_input_erro = {
-		tip = "装備名が間違えています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dreamland_main_desc = {
-		tip = "9.10-10.2、<color=#85E7FF>楽園探索</color>と<color=#85E7FF>ミニゲーム</color>で報酬を入手可能！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_mapbuff_compare_txt = {
-		tip = "適応優勢"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_maintenance = {
-		tip = "メンテナンス開始直前のため、挑戦できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.missile_attack_area_confirm = {
-		tip = "攻撃開始"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dream_land_tip = {
-		tip = {
-			{
-				info = "遊び方：\n ·<color=#92fc63>9.12-10.2 23:59</color>期間限定裏山イベント「ドリームランド・ドリームデイズ」開催！\n\n  ·楽園を探索しストーリーと新たなエリアを解放して、<color=#92fc63>限定家具</color>・<color=#92fc63>装備外装箱</color>などの報酬を入手可能！\n ·それぞれのエリアではタップなどの操作で探索可能なポイントがあります。うまく見つからない場合はマップ上に表示される<color=#92fc63>「星」</color>や<color=#92fc63>「楽園手帳」</color>に表示されるヒントを確認しよう！楽園を探索すると、報酬として<color=#92fc63>限定家具</color>、<color=#92fc63>装備外装箱</color>などの報酬を入手可能！\n ·一部の探索ポイントは「時間」を調整しないと出現しません。ストーリーを全部解放すると解禁される機能「時間変更」で、楽園の時間を変更できます！\n ·「安眠の夢」に艦船を配置すると、艦船が楽園に出現できるようになり、さらにコンディション回復速度がUP！配置枠は探索エリアが増えるとともに自動的に拡張されます！"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dreamland_spring_tip = {
-		tip = "楽園でのコンディション回復 $1/h"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_count = {
-		tip = "数量"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
-		tip = "式降ろし:特定の「後退」「減速」マークがある妖怪を退散させると得られる効果の持続時間が長くなる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dreamland_area_lock_tip = {
-		tip = "- エリアはストーリー閲覧後に開放されます -"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dreamland_label_explore_award_tip = {
-		tip = "探索完了で入手"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dreamland_label_explore = {
-		tip = "探索"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dreamland_label_area = {
-		tip = "エリア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_queue_getaward = {
-		tip = "報酬受取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_vo_moveout_backyard = {
-		tip = "寮舎から外しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_proposeShip_error_1 = {
-		tip = "操作は無効です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_ship_on_furnitrue = {
-		tip = "艦がくつろいでいますが…本当に外しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_102174 = {
-		tip = "近代化改修は<color=#92fc63>輝く☆マイク</color>を消費します。\n続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_exp_limit = {
-		tip = "オフニャのレベルが上限に達しています。これ以上オフニャを追加できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_chat = {
-		tip = "チャット"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.draw_big_luck_3 = {
-		tip = "今日はきっといいことがあるにゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collect_not_owned = {
-		tip = "まだ入手していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_tendency_cur_x = {
-		tip = "研究指向 / $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_piece = {
-		tip = "個"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_minigame_close = {
-		tip = "戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_is_frozen_when_start_tech = {
-		tip = "この大艦隊は現在利用不可です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.report_sent_title = {
-		tip = "通報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_gift_not_owned = {
-		tip = "未所持の贈り物です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_dorm3d_info = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/3ddorm_1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/3ddorm_2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/3ddorm_3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/3ddorm_4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/3ddorm_5",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/3ddorm_6",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_toast_item_got = {
-		tip = "調合素材"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_expResource_mail_fullBag = {
-		tip = "上限超過分の資源が受け取りできません。続きますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sail_boat_equip_tip_5 = {
-		tip = "<color=#E3CEAF>船員饅頭</color>\n<color=#F1B969>装備すると速力が上がる</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_role_assets_download = {
-		tip = "<color=#39bfff>$1</color>の部屋を開放しますか？\nアセットダウンロード：$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_data_go = {
-		tip = "<color=#39bfff>$1</color>配置キャラを選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardScene_clearSuccess = {
-		tip = "<color=#92fc63>マイセットをクリアしました</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attr_ammo = {
-		tip = "弾薬量"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_role_manage_role = {
-		tip = "キャラ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_role_manage = {
-		tip = "宿舎管理"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_hour = {
-		tip = "時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_role_check_in = {
-		tip = "<color=#39bfff>$1</color>の部屋を開放しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_beach_role = {
-		tip = "開放すると<color=#39bfff>$1</color>を配置することが可能です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_role_choose = {
-		tip = "部屋選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
-		tip = "※30分に一度更新されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_verify_success = {
-		tip = "キャッシュクリアが完了しました。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.retire_2 = {
-		tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持していない</color>場合、その艦船と同名の艦船は"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_own_favor = {
-		tip = "所持していると親愛度100上昇"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_map_level = {
-		tip = "艦隊作戦レベル：<color=#92fc63>$1</color> \n艦隊戦力レベルと同じレベル以下のエリアの攻略をオススメします。（艦隊作戦レベルは戦力・適応調整によって影響されます）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_3_detail = {
-		tip = "$1があなたことが信頼できると考えている\n<color=#92fc63><size=18>性能（速力以外）＋1%</size></color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_rest = {
-		tip = "寮舎で休憩中です…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginMediator_quest_RegisterSuccess = {
-		tip = "ユーザー登録が完了しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collect_unlock = {
-		tip = "- 未開放 -"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_reload_favor = {
-		tip = "親愛度ストーリー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_supply_2 = {
-		tip = "艦隊整備発令可能になるまであと$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_reload_unlock = {
-		tip = "- 未開放 -"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_manage_2 = {
-		tip = "下記アイテムのみ含まれるメール"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_sirius_bed = {
-		tip = "寝室"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_sirius_chair = {
-		tip = "リビング"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collect_not_found = {
-		tip = "$1で入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collect_locked = {
-		tip = "親愛度Lv$1で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collect_favor_plus = {
-		tip = "ボーナス：親愛度+"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_sort_blhx = {
-		tip = "アズールレーン"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_target_type3 = {
-		tip = "異常事件調査"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_lock = {
-		tip = "未開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amazon_unlink_btn_text = {
-		tip = "Amazonアカウント連携済み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_vo_vanguardFleet_exist_same_ship = {
-		tip = "前衛艦隊に同じ艦を編成できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_unlock = {
-		tip = "開放済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipModMediator_noticeStarOver4 = {
-		tip = "星4以上"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardScene_error_noFurniture = {
-		tip = "配置できる家具がありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_selected_3 = {
-		tip = "強化指向Ⅲ期/選択中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_send_msg_null_tip = {
-		tip = "空メッセージを送信できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.lose_condition_display_quanmie = {
-		tip = "味方艦隊全滅"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_photo_animspeed = {
-		tip = "モーション$1x"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get14 = {
-		tip = "<color=#92fc63FF>入手方法\n限定任務5</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_title = {
-		tip = "$1で$3を$2つ購入します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.list_empty_tip_friendui = {
-		tip = "対象指揮官がいません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_photo_lighting = {
-		tip = "ライティング"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_notCargo = {
-		tip = "宝箱が発見できませんでした"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_photo_paramaters = {
-		tip = "設定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sham_count_limit = {
-		tip = "本日の「鏡面海域」掃討作戦は既に完了しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_notPosition_shipExit = {
-		tip = "休憩枠が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_photo_focusstrength = {
-		tip = "ぼかし強さ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_placed_furniture = {
-		tip = "配置済み家具"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_filter_title = {
-		tip = "絞り込み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pipe_minigame_rank = {
-		tip = "友達と大艦隊メンバーのみ表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_event_start_done = {
-		tip = "派遣成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.award_max_warning_minigame = {
-		tip = "報酬を入手する際、<color=#ff5c5c>所持数上限を超えた部分</color>の報酬アイテムは破棄されます。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.set_birth_confirm_tip = {
-		tip = "誕生日を$1に設定しますか？\n<color=#ff5c5c>※あとから変更できません</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_0815_town_memory = {
-		tip = "アイテムが不足しています。限定任務をクリアして思い出を開放しよう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200390 = {
-		tip = "決済システムへの通信時にエラーが発生しました\nエラーコード:200390"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.town_unlcok_level = {
-		tip = "レベル上限アップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
-		tip = "すでに支援艦隊に編成されています。編成を切り替えますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_condition_torpedo = {
-		tip = "雷撃合計"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.town_place_next_title = {
-		tip = "次のレベルで"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_task_locked_by_chapter = {
-		tip = "ステージ「$1」クリアで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tips_yuandanhuoyue2023 = {
-		tip = {
-			{
-				info = "開催期間：<color=#92fc63>2022.12.22-2023.1.5</color>\n遊び方：\n1.12月31日まで毎日0時に運試し回数が加算されます（最大10回まで）\n2.小包をタップすると、運試し回数を消費し，開封できます\n3.小包から下記の報酬を入手できます\n　各種ランクの報酬個数：一等賞×1、二等賞×2、三等賞×3、四等賞×4。\n\n　　報酬の詳細は下記になります：\n　一等賞：限定家具「運試し小包」\n　二等賞：ランダム教科書T3×1\n　三等賞：ランダムパーツT3×5\n　四等賞：ランダム装備箱T3×1\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_exit_tip = {
-		tip = "メイン画面に戻りますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mingshi_task_tip_2 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>O</color>>\n次の目標は…<<color=#92fc63>スキルを上げる場所</color>>にゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
-		tip = "$1か$2クリアで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sitelasibao_expup_name = {
-		tip = "経験強化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_floorpaper = {
-		tip = "床"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_cant_unload = {
-		tip = "<color=#92fc63>倉庫がいっぱいです</color>…装備解除できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight_tip_bigworld_dead = {
-		tip = "艦隊戦闘敗北のため、自動攻略モードが中止されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.MonopolyCar2024Game_total_num_tip = {
-		tip = "残り前進回数:$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Settings_title_Secpw = {
-		tip = "パスワード機能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.number_5 = {
-		tip = "五"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cat_accelfrate_notenough = {
-		tip = "ネコハコ加速材が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.MonopolyCar2024Game_open_auto_tip = {
-		tip = "自動前進モード開放。開始地点を通過する時、スタッフが自動で変更されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.MonopolyCar2024Game_sel_label = {
-		tip = "選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.MonopolyCar2024Game_pick_tip = {
-		tip = "開始地点を通過するとスタッフを変更でき、スタッフと一緒にクリアすると報酬を入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["202406_main_help"] = {
-		tip = {
-			{
-				info = "遊び方：\n <color=#92fc63>6.27-7.11メンテ</color>まで、期間限定イベント「リトル学園へようこそ」が開催されます！\n 限定任務をこなし、艦隊を編成し限定ステージをクリアすることで、「カラフルらくがき」を集めて報酬を手に入れましょう！\n\n  ①画面左下のボタンで「ストーリー」と「特別戦闘」画面を切り替えることができます。\n ②「特別戦闘」では、艦隊を編成しSPステージに挑戦でき、収集Ptアイテム「カラフルらくがき」を入手できます\n 　「カラフルらくがき」は累計入手数報酬でSR艦船<color=#92fc63>「U-31」</color>、<color=#92fc63>「533mm四連装磁気魚雷改」</color>などを入手できます\n ③「限定任務」では、イベント開催期間に登場するイベント任務を確認し報酬を受け取ることができます。\n ④「ストーリー」では特別ストーリーを読むことができます。ストーリーを全部読むと、記念装備外装を入手できます\n ⑤「遊び場」に艦船を配置すると、配置された艦船のコンディション回復速度を上げることができます。イベントで入手できる「リトルスター増築チケット」を消費すると、配置枠を増やすことができます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_part_sub_title = {
-		tip = "適用(副砲)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_year = {
-		tip = "一年内"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["202406_wenquan_unlock_tip2"] = {
-		tip = "必要な資源が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settings_enter_standby_mode_time = {
-		tip = "待機画面自動移行"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settings_flagship_interaction = {
-		tip = "待機画面セリフ再生"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.idol3rd_houshan = {
-		tip = {
-			{
-				info = "■共鳴のパッションとは"
-			},
-			{
-				info = "共鳴のパッションとは、イベント「共鳴のパッション」のトップページであり、ここからイベントの各画面に移動できます。\n"
-			},
-			{
-				info = "■各コンテンツの説明\n限定海域：\nイベント期間中に開放される限定海域。イベント海域をクリアすると、アイテム「共鳴のエンブレム」を集めることができます。\n \nショップ：\n「共鳴のエンブレム」を各種報酬と交換することができます。\n \n累計報酬：\n入手した「共鳴のエンブレム」の累計数により、艦船「ル・テメレール(μ兵装)」など様々な報酬を入手できます。\n限定建造：\n建造の「期間限定建造」ページに移動します。\n \n着せ替え：\nショップの「着せ替え」ページに移動します。\n \n記念章：\n様々な条件を達成すことで、「グッズ」を集めることが\nできます。「グッズ」を全部集めると、限定アイテム「共鳴のミニステージ」を入手できます。\n \nミニゲーム：\nリズムゲームをプレイすることができます。７日間プレイすると、限定設備「パッションμチケット」を入手できます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settings_enable_standby_mode = {
-		tip = "待機画面を有効にする"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_not_add = {
-		tip = "まだ友達ではありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_catsearch_help_4 = {
-		tip = "作業中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.show_fate_demand_count = {
-		tip = "<color=#92fc63>竜骨編纂</color>に必要な数量を表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_battle_area = {
-		tip = "作戦海域："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.unique_ship_retire_before_tip = {
-		tip = "続けますか"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_bisimaiz_5 = {
-		tip = "現在の侵食レベル：<color=#ffc038>4</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.unique_ship_retire_protect = {
-		tip = "単独所持艦船誤退役保護"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.one_click_retire_subtitle = {
-		tip = "誤退役防止確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip4 = {
-		tip = "ドック…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_register_full = {
-		tip = "サーバーは満員です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_sort_cszz = {
-		tip = "レッドアクシズ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_extralevel_0 = {
-		tip = "レベル0"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shan_luan_task_progress_tip = {
-		tip = "達成数：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guardian_cancel_btn = {
-		tip = "解除"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_exchanged = {
-		tip = "報酬は1種類につき1回しか交換できにゃいにゃ～"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.UrExchange_Pt_charges = {
-		tip = "（残り$1回）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.UrExchange_Pt_NotEnough = {
-		tip = "交換用のPtアイテムが不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_class_t_level_3 = {
-		tip = "焔追の灰"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_activity_lock = {
-		tip = "「出航の前準備」クリアで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/2024liner",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_event_title3 = {
-		tip = "手がかり③"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_public_tech_tip = {
-		tip = {
-			{
-				info = "■公共大艦隊兵站について："
-			},
-			{
-				info = "公共大艦隊兵站とは、大艦隊に所属していない指揮官でも、兵站施設による効果を利用できるようにする機能です。"
-			},
-			{
-				info = "公共大艦隊兵站施設のレベルUP時の資源消費は、大艦隊に所属している際の資源消費より多くなります。"
-			},
-			{
-				info = "大艦隊に加入していない場合は、現在の公共大艦隊の施設レベル上限分だけ、兵站施設のレベル上限が適用されます。"
-			},
-			{
-				info = "指揮官が既に取得済みの兵站レベルが上限を上回った場合、指揮官の取得済みの最も高い兵站レベルが適用され、もう一度レベルアップさせる必要はありません。"
-			},
-			{
-				info = "■公共大艦隊兵站を利用するには："
-			},
-			{
-				info = "1.兵站施設をレベルUPするには、貢献Pt/資金を消費する必要があります。"
-			},
-			{
-				info = "2.公共大艦隊兵站施設の最大レベルは、大艦隊全体の兵站施設の最大レベルによって決められます。また、公共大艦隊兵站のレベル上限の増加進捗は毎日少しずつ自動で進行します。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_kiss = {
-		tip = "(*ﾟ▽ﾟ*)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_mode_1 = {
-		tip = "単独出撃"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settings_sound_title_effct = {
-		tip = "  サウンド"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_mod_addition_lock = {
-		tip = "強化レベル$1到達で開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.buy_countLimit = {
-		tip = "これ以上購入できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_silent_tip_4 = {
-		tip = "名のキャラのスキル強化が完了しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_select_materials_tip = {
-		tip = "素材を選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_rest = {
-		tip = "休憩"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_dockyardUpgrade = {
-		tip = "限界突破"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipType_other = {
-		tip = "他"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_room_get_tip = {
-		tip = "探索済み：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_event_award_tip2 = {
-		tip = "手がかりを全部集めました。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_school_sure_tip = {
-		tip = "入学すると、成長目標がリセットされ、まだ使用されていない行動力は引き継がれません。次の育成段階に進めますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_1024_memory_get = {
-		tip = "- 受取済 -"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_log_event_group_title1 = {
-		tip = "記録・①"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight = {
-		tip = "自動攻略"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_intimacy = {
-		tip = "好感度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_reward_tip3 = {
-		tip = "クリア報酬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_log_event_title = {
-		tip = "異常事件調査"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get13 = {
-		tip = "<color=#92fc63FF>入手方法\n限定任務4</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.box_ship_del_click = {
-		tip = "タップして数字を入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_rename_success = {
-		tip = "寮舎名前変更成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_takeAttachment_error_noWorld = {
-		tip = "セイレーン作戦にが開放されていないため、アイテムを受け取れませんでした"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_catsearch_success = {
-		tip = "オフニャがサルベージを開始しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_target_type1 = {
-		tip = "固定イベント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_sign_unlock_tip = {
-		tip = "5.21メンテ後開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_chunjie2024 = {
-		tip = {
-			{
-				info = "開催期間：<color=#92fc63>2024.1.30-2024.2.22メンテまで</color>\n遊び方：\n<color=#92fc63>「美意延年」</color>：イベント任務を全てクリアすると<color=#92fc63>太原</color>改造素材を入手可能\n<color=#92fc63>「新春大冒険」</color>：ゲームにログインすると艦船<color=#92fc63>「飛雲」</color>と装備外装を入手可能\n<color=#92fc63>「新春の花火」</color>：3章以降の海域ステージ、もしくは共闘ステージクリアで「花火の星」を稼ぎ、花火を全部開放すると限定艦船<color=#92fc63>「定安」</color>を入手可能\n<color=#92fc63>「おえかき」</color>：絵の具を稼ぎ、艦船<color=#92fc63>「鞍山」</color>を入手可能\n<color=#92fc63>「撫順の大冒険Ⅴ」</color>：ミニゲームを7日間プレイすると<color=#92fc63>「撫順」</color>を入手可能\n<color=#92fc63>「饅頭の年玉」</color>：各種ミニイベントやミニゲームで入手できる年玉を開封可能。15個開封で撫順の限定着せ替え（復刻）を入手でき、25個開封で若月の限定着せ替え（新規）<color=#92fc63>「春待ちの青羽根」</color>を入手可能\n<color=#92fc63>「着せ替え」</color>：着せ替えショップに移動可能\n<color=#92fc63>「限定建造」</color>：限定建造ページに移動可能"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commission_label_unlock_event_tip = {
-		tip = "指揮官Lv.12で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commission_label_finish_mellow = {
-		tip = "完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_item_usage_tip = {
-		tip = "開催中のMETA戦と記憶履歴の座標情報を同時に解析できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_soundfiles_noneedupdate = {
-		tip = "更新完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.NewMusic_1 = {
-		tip = "お気に入り($1)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commission_label_go = {
-		tip = "確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_event_title1 = {
-		tip = "手がかり①"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_exchange_confirm = {
-		tip = "<color=#92fc63>$1*1</color>を消費して<color=#92fc63>$2</color>と交換しますか"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.group_download_tip = {
-		tip = "更新するには$1のデータをダウンロードする必要があります。更新を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_luck1 = {
-		tip = "運"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_silent_tip_2 = {
-		tip = "隻の艦船の建造が完了しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_unlock_tips = {
-		tip = "親愛度$1で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_4_buff = {
-		tip = "補正値：全性能（速力、装備以外）3%アップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_now_clothing = {
-		tip = "現在"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100120 = {
-		tip = "このIPアドレスでのアクセスは制限されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_now_time = {
-		tip = "現在時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_part_title = {
-		tip = "適用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_time_choose = {
-		tip = "時間選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100225 = {
-		tip = "Google連携を解除しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_notificationLayer_searchInput = {
-		tip = "ユーザー名を入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_read_oneclick = {
-		tip = "一括既読"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cat_home_interaction = {
-		tip = "本日はすでに$1をしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_settingsScene_quest_exist = {
-		tip = "ログアウトしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_urgency_event = {
-		tip = "紧急事件"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipState_collect = {
-		tip = "委託に出かけています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_waiting = {
-		tip = "準備中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furniture_unfit = {
-		tip = "適用不可"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_no_lesson = {
-		tip = "教科書がありません…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_target_filter_tip1 = {
-		tip = "すべて"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furniture_lack = {
-		tip = "[未所持]"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_noshiro_chair = {
-		tip = "居間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furniture_count = {
-		tip = "数量：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_escort_help_tip = {
-		tip = {
-			{
-				info = "海上護衛の遊び方 "
-			},
-			{
-				info = "    1.開催期間：1月13日～27日；"
-			},
-			{
-				info = "    2.海上護衛は、出現する敵艦隊と機雷に対処し、輸送船団が目標地点に辿り着くまで護衛するステージです\n；"
-			},
-			{
-				info = "    3.海上護衛は一日一回挑戦できます。挑戦回数は出撃時に消費されます。海上護衛はイージー・ノーマル・ハードの3つの難易度があります；"
-			},
-			{
-				info = "    4.味方艦隊が一回行動するたびに、輸送船団も1マス目標地点に向かって進みます；"
-			},
-			{
-				info = "    5.輸送船団が敵艦隊に遭遇した場合、耐久が1減少し、「会敵中」状態になります。「会敵中」の輸送船団は味方艦隊が輸送船団を襲撃する敵艦隊を撃破するまで、味方艦隊が行動するたびに体力が減少します；"
-			},
-			{
-				info = "    6.輸送船団が機雷に接触した場合、耐久が2減少します。味方艦隊も機雷に接触した際に耐久が減少しますが、駆逐艦を含む艦隊が機雷マスに接触する場合、機雷を排除できます；"
-			},
-			{
-				info = "    海上護衛の報酬はステージ終了時の輸送船団の残り耐久により変動します；"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_visit_time = {
-		tip = "$1日前"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settings_time_system = {
-		tip = "待機画面時刻表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mini_game_cur_score = {
-		tip = "今回得点:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_range = {
-		tip = "射程"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_shipAddInimacy_ships_ok = {
-		tip = "<color=#92fc63>$1たち</color>の親密度が<color=#92fc63>アップ</color>しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_2023_reward_word_3 = {
-		tip = "とろふぃー？ありがとうございます。でも天城、指揮官さまともっと一緒にいたほうがいいと思って……あ、あの！お返しにこの鈴をさしあげます！天城が指揮官さまのそばにいなくても、これを天城と思っていただければ……"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amusementpark_shop_success = {
-		tip = "ありがとうピョ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_update = {
-		tip = "更新中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_ap = {
-		tip = "行動力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.otherworld_terminal_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help5",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help3",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_mod_skin_unlock = {
-		tip = "着せ替え獲得：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.otherworld_backhill_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/otherworld_help5",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
-		tip = "マイセットを<color=#92fc63>クリア</color>しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_rare_page = {
-		tip = "特殊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.personal_random_tip = {
-		tip = "<color=#92fc63>ストーリーを読むと</color>開放可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_exchange = {
-		tip = "交 換"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Announcements_Donotshow = {
-		tip = "今日はこれ以上表示しない"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_deputy_commander_cnt = {
-		tip = "<color=#C3C3C3>任命しました：<color=#92fc63>$1/$2</color></color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_cant_give_gift_tip = {
-		tip = "まずは招待状を制作し艦船に贈ろう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pgs_login_binding_exist1 = {
-		tip = "このアカウントは既に他のPGSアカウントと連携されています。\n連携するPGSアカウントを変更しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_shipType_qinXun = {
-		tip = "軽巡"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.package_view_2 = {
-		tip = "貿易許可証有効期間内は毎日報酬を入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Announcements_Event_Notice = {
-		tip = "イベント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_title_getitem_month = {
-		tip = "30日間毎日入手："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.adventure_get_all = {
-		tip = "一括受取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_6_buff = {
-		tip = "補正値：全性能（速力、装備以外）9%アップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_tag3 = {
-		tip = "ときめきモードモーション開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.idolmaster_main = {
-		tip = {
-			{
-				info = "■概要\nキャンペーン「裏山会場」は下記の内容で構成されます。\n・コラボイベント「海に響くアイドルの歌」海域への移動ボタン\n・ミニゲーム\n・記念章\n\n■コラボイベント\n・7.22-8.5の間、コラボイベント限定海域が開放され、「コラボPt」を入手できます。\n・「コラボPt」は累計入手数報酬のほか、ショップにて様々な報酬と交換できます。\n・また、7.22-8.4の間に毎日1個特殊委託が開放されます。委託を完成させると、特殊報酬を入手できます。\n　※特殊委託の報酬受領期限は8.11まで\n\n■ミニゲームについて\n・ミニゲーム「饅頭渡し会」は7.28まで毎日新しい進捗が開放されます。\n・ミニゲームを7日間プレイし、最後まで進捗させると、兵装「輝きのブレスレット」を入手できます。\n\n■記念章について\n・記念章ページの各種実績を達成すると、コラボキャラのプロフィール紹介が開放されます。\n・プロフォールを全14個開放（全実績達成）すると、記念家具「765記念章」を入手できます。\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.test_ship_intensify_tip = {
-		tip = "ブリは強化できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_change_attr_text1 = {
-		tip = "<color=#ffde38>変化前のステータス</color>を保留します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.firework_2025_tip1 = {
-		tip = "海域クリアで花火が確率で開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_skill_ui_info = {
-		tip = "情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.coloring_help_tip = {
-		tip = {
-			{
-				info = "※遊び方※\n・「おえかき」では、着色枠に指定された番号の絵の具\nを選択して、タップすると、枠に色を塗ることが出来ま\nす；\n・塗エリアはピンチ操作で拡大・縮小できます\n・色塗りは、同じ色の枠が完全に着色されるか、絵の具\nが全て消費されるかまで自動で行われます；\n・色塗りは「絵の具」を消費します。絵の具の残量が0\nになると、該当する色の枠を色塗りすることができませ\nん；\n・「絵の具」はイベント期間限定任務「累計燃料消費数」\nの報酬で入手できます；\n・絵が完成（着色枠を全て着色・「空白絵」は除く）す\nると、報酬を入手することができます。\n・おえかき完成の報酬一覧：\nNo.1 ランダム教科書T3×2\nNo.2 年玉×2\nNo.3 限定家具「玉竹バブルマシン」\nNo.4 年玉×2\nNo.5 限定家具「玉竹バブルマシン」\nNo.6 年玉×2\nNo.7 艦船「鞍山」、年玉×1\n・イベント終了後、未使用の絵の具はリセットされます\n・1月22日(水)まで毎日新しい絵が一枚ずつ解放され\nます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_permanent_progress = {
-		tip = "現在進捗："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.emailhold_text = {
-		tip = "入力したメールアドレスに認証コードを送信します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.adventure_progress_title = {
-		tip = "次のレベルまで："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.adventure_award_title = {
-		tip = "冒険レベル報酬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_cancel_assult_ship_recommend = {
-		tip = "大艦隊作戦・支援派遣の通常枠に設定しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.military_shop_no_open_tip = {
-		tip = "<color=#92fc63>特別補給</color>は指揮官Lv<color=#92fc63>15</color>で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.personal_info_title = {
-		tip = "基礎情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2506 = {
-		tip = "2025/6/1-2025/7/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ネバダ(META)」</color>などを入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.terminal_adventure_title = {
-		tip = "冒険データ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipType_zhongXun = {
-		tip = "重巡"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_reward_word7 = {
-		tip = "第六幕"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.terminal_personal_title = {
-		tip = "指揮官情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_task_tag_all = {
-		tip = "すべて"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_task_tag_daily = {
-		tip = "デイリー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_brs = {
-		tip = "ブラック★ロックシューター"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.emoji_type_2 = {
-		tip = "アニメ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_battleMediator_clear_warning = {
-		tip = "戦闘を中断すると、チャレンジ進捗がリセットされ、累計得点は一つ前のステージの得点まで計算されます。戦闘を中断しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_r = {
-		tip = "R"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.create_player_success = {
-		tip = "ユーザー登録しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_task_goto0 = {
-		tip = "現在のエリアは任務エリアではありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_task_type_daily = {
-		tip = "デイリー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amusementpark_shop_help = {
-		tip = {
-			{
-				info = "■遊び方\n・「饅頭引換券」では、「饅頭引換券」を消費することで様々な報酬を交換できます\n・アイテム「饅頭ランド建築材」を入手するには、期間限定任務をクリアする必要があります。\n・期間限定任務は、メイン画面の「任務」（任務一覧）に表示されます。また、6月2日（水）毎日0時に新しい期間限定任務が開放されます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100233 = {
-		tip = "このアカウントは削除されたため、ログインできません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_temple_award_desc = {
-		tip = "饅頭の像に「王国金貨」を捧げて祈りをすると、報酬と加護を入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_temple_lottery_all = {
-		tip = "報酬コンプ済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_manager_rare = {
-		tip = "下記アイテムのみ含まれるメール"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_label = {
-		tip = "ﾗﾝﾀﾞﾑ艦船"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.siren_chase_warning = {
-		tip = "危険エリア拡大中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.unlock_date_tip = {
-		tip = "<color=#92fc63>$1月$2日</color>開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_reward_got = {
-		tip = "受取済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_temple_award_last = {
-		tip = "残り$1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_switch_archives = {
-		tip = "$1の記憶履歴が開放中です。別のMETA艦船に開放先を切り替えますか？\n（既に進行中のMETA戦に影響しません）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_temple_char_title = {
-		tip = "加護一覧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_temple_char = {
-		tip = "加護一覧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_yanhua_tip4 = {
-		tip = "花火の星$1を消費し花火を開放しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_temple_toggle_2 = {
-		tip = "豊穣の像"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_temple_toggle_1 = {
-		tip = "力の像"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
-		tip = "（<color=#92fc63>特典$1</color> ）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_get_emoji = {
-		tip = "「$1」"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launchball_lock_Shinano = {
-		tip = "ショップで<color=#92fc63>「信濃プレイアブル」</color>購入で選択可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_shop_benefit_sure = {
-		tip = "状態持続中です（残り$1ターン）。購入すると持続時間がリセットされます。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_week_day7 = {
-		tip = "日曜日"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exchangecode_use_error_20 = {
-		tip = "無効なシリアルコードです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_week_day6 = {
-		tip = "土曜日"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型艦上式Su-2\n試作型艦上式Su-2\n試作型VIT-2(VK107) </color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_past_boss_item_info = {
-		tip = "記憶履歴座標情報解析装置|セイレーン作戦で集めた「META座標」情報を記録する装置。「記憶履歴」で記憶履歴を開放し、さらに解析を行うと過去に開催した「META戦」を開放できます。\n「META戦」が溜まった状態では新たに解析を行うことはできません。\n「META戦」本日開放数：$1/$2\n座標情報所持上限：$3/$4"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_take_effect = {
-		tip = "で有効化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_target_set_empty = {
-		tip = "育成目標は設定されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_unlock_new_secretary = {
-		tip = "新しい着せ替えモジュールが開放されました。「特殊秘書艦」画面で設定を変更できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_task_finish_all = {
-		tip = "現段階の育成目標を達成しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_buyItem_error = {
-		tip = "購入失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_random_ops_drop = {
-		tip = "大事な瞬間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_random_polaroid_drop = {
-		tip = "ランダム報酬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commission_label_unlock_tech_tip = {
-		tip = "指揮官Lv.30で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.apply_permission_camera_tip3 = {
-		tip = "カメラの権限がOFFの場合、ARカメラ機能を利用できません。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_pt_get_way = {
-		tip = "可以通过以下方式获取同步值(未使用)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_not_exist_boss = {
-		tip = "強敵データはありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_frame = {
-		tip = "FPS"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_news_import_title = {
-		tip = "重要イベント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_exchange_usetip = {
-		tip = "アイテム$1が倉庫に送られました。倉庫にて使用可能です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.live2d_reset_desc = {
-		tip = "L2D演出設定が初期化されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_page_desc = {
-		tip = "ゲームにログインして毎日$1個報酬\nミニストーリーを開放可能！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.last_times_sign = {
-		tip = "報酬受取可能回数：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newyear2024_backhill_help = {
-		tip = {
-			{
-				info = "開催期間：<color=#92fc63>2023.12.21-2024.1.4メンテまで</color>\n■概要\nキャンペーン「新年裏山」は下記の内容で構成されています。\n・絵馬祈願\n・ミニゲーム\n・着せ替え\n・限定建造\n\n■絵馬祈願\n・キャンペーン期間中、毎日「艦船絵馬」個数が1個増加します（最大7個）\n・「艦船絵馬」を所持している状態では、「絵馬祈願」で艦船の絵馬を飾ることができます\n・「艦船絵馬」を飾ると、艦隊に強化効果を付与できるほか、艦船の返礼を1個入手できます\n\n■ミニゲーム\n・キャンペーン期間中、毎日ゲーム回数が1回加算されます（最大7回まで）\n・ゲーム回数を所持している状態でミニゲームをクリアすると、ゲーム回数が1回消費されます\n・ミニゲームでは、限定家具「サプライズライト」「スタイリッシュライト」、UR艦船「ラフィーⅡ」と交換できる「ウサウサURチケット」を入手できます\n\n■着せ替え\n着せ替えショップに遷移できます\n\n■限定建造\n限定建造画面に遷移できます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_skill_ui_confirm = {
-		tip = "確定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_quality_option_custom = {
-		tip = "カスタム"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_battle_hide_bg = {
-		tip = "衣装背景の戦闘時非表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_6 = {
-		tip = "$1があなたにすべてを託している"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.task_notfound_error = {
-		tip = "任務データが見つかりませんでした。ゲームを再起動しデータの更新をお願い致します。エラーid:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_morale_2 = {
-		tip = "艦隊の士気は最大です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_label_rank = {
-		tip = " 順位"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_total_damage = {
-		tip = "合計ダメージ："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.energy_desc_tired = {
-		tip = "疲れた…普段通りには戦えないようです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activityboss_sp_score = {
-		tip = "現在スコア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_shop_flash_success = {
-		tip = "更新完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_ship_votes = {
-		tip = "$1票"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_strengthen = {
-		tip = "強化可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_newPlayerScene_error_notChoiseShip = {
-		tip = "初期艦を選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_task_title = {
-		tip = "限定任務"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.course_class_name = {
-		tip = "今日の授業：《$1》"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_daily_task_tip = {
-		tip = "<size=28>デイリー任務クリアで</size>$1<size=28>入手</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_profile_label_diff = {
-		tip = "追加"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_daily_task_title = {
-		tip = "デイリー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_ability_replace_warning = {
-		tip = "上位アビリティは習得予定のアビリティに上書きされます。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_window_title = {
-		tip = "報酬一覧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_info_page_tip = {
-		tip = "友達はタップで訪問可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_get_skills_done = {
-		tip = "習得可能リストの取得に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_curr_title_1 = {
-		tip = "項目投票"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_stamina_text = {
-		tip = "燃料を<color=#92fc63>$1</color>消費し行動力を<color=#92fc63>$2</color>回復します（今週回復可能回数$3/$4回）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight_cat = {
-		tip = "オフニャ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_tendency_2 = {
-		tip = "特別計画Ⅱ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attr_oxy_max = {
-		tip = "潜航力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_acc_title_1 = {
-		tip = "累計投票"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.littleSanDiego_npc = {
-		tip = {
-			{
-				info = "■概要\n「明日の星　新登場」とは、イベント開始時に仮加入した【リトル・サンディエゴ】の「友好度」を海域に出撃することで貯め、【リトル・サンディエゴ】を正式加入させるイベントになります。"
-			},
-			{
-				info = "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージの中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
-			},
-			{
-				info = "2.【リトル・サンディエゴ】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。"
-			},
-			{
-				info = "3.【リトル・サンディエゴ】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【リトル・サンディエゴ】が戦闘可能な状態の場合、獲得できる「友好度」が2倍になります。"
-			},
-			{
-				info = "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【リトル・サンディエゴ】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【リトル・サンディエゴ】は母港からいなくなります。"
-			},
-			{
-				info = "5.友好度報酬は12/22（水）まで毎日1段階ずつ解放されます。"
-			},
-			{
-				info = "6.仮加入状態の【リトル・サンディエゴ】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
-			},
-			{
-				info = "7.仮加入状態の【リトル・サンディエゴ】は大艦隊作戦には参加できません。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_voting = {
-		tip = "進行中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_not_start = {
-		tip = "未開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tech_simulate_quit = {
-		tip = "弾幕確認機能を終了しますか？\n（※実際の能力とは異なります）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furnitrue_type_table = {
-		tip = "テーブル"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furnitrue_type_couch = {
-		tip = "ソファ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.school_title_xiaomaibu = {
-		tip = "海軍売店"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senrankagura_backhill_help = {
-		tip = {
-			{
-				info = "概要：\n <color=#92fc63>11.23-12.07 メンテ</color>コラボイベント「蒼閃忍法帖」開催！\n\n  ■遊び方：\n ・限定海域（イベント海域）や任務をクリアうすると、Ptアイテム「城観覧券」を入手できます。\n 　「城観覧券」は「ショップ」でSSRコラボキャラ「斑鳩」などの報酬と交換できます。\n 　また、「城観覧券」の累計獲得数に応じて、「累計報酬」でSRコラボキャラ「紫」を入手できます。\n\n  ・「パネル任務」では7日間、毎日新しい任務を開放できます。任務をクリアするとPtアイテム「忍指南」と限定家具「忍引き戸」を入手できます。\n\n  3.「秘伝忍法書」では、キャラそれぞれの特別任務をクリアすることで、Ptアイテム「忍指南」、コラボキャラの専用装備、記念家具「暴風城絵巻」などの報酬を入手できます。\n\n  4.「忍術指導場」では、入手したPtアイテム「忍指南」を消費することで属性レベルを上げることができ、SSRコラボキャラ「焔」を入手できます。\n\n  5.「着せ替え」をタップすると、着せ替えショップに遷移できます。\n\n  6.「限定建造」をタップすると、限定建造画面に遷移できます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amercian_notice_1 = {
-		tip = "女王の褒章<color=#92fc63>$1</color>を消費し、作戦補給を<color=#92fc63>$2</color>回交換しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senran_pt_words_xishao = {
-		tip = {
-			{
-				"1100007/pt1",
-				"よ、よろしく…おねがいします……"
-			},
-			{
-				"1100007/pt2",
-				"もっと…頑張れます……"
-			},
-			{
-				"1100007/pt3",
-				"少し自信がついてきた…気がします"
-			},
-			{
-				"1100007/pt4",
-				"まだまだ…これからです"
-			},
-			{
-				"1100007/pt5",
-				"次も…頑張りますね……"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Settings_title_LoginJP = {
-		tip = "アカウント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_torpedo = {
-		tip = "魚雷"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_using = {
-		tip = "$1Fに配置中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_take_canget_msgbox = {
-		tip = "受け取ると下記を入手可能："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senran_pt_words_zi = {
-		tip = {
-			{
-				"1100006/pt1",
-				"今日も…頑張り…ます……"
-			},
-			{
-				"1100006/pt2",
-				"わたし…強くなれて…いるのでしょうか…？"
-			},
-			{
-				"1100006/pt3",
-				"もう少しだけ…頑張ってみたいです……"
-			},
-			{
-				"1100006/pt4",
-				"なんだか…うまくできてる…気がします"
-			},
-			{
-				"1100006/pt5",
-				"もうちょっとだけ…やりませんか…？"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senran_pt_words_xuebugui = {
-		tip = {
-			{
-				"1100005/pt1",
-				"お忙しいところお時間を割いて頂き、ありがとうございます"
-			},
-			{
-				"1100005/pt2",
-				"ふふっ、こんな感じでしょうか？"
-			},
-			{
-				"1100005/pt3",
-				"こうしていると…意外な発見があるものですね"
-			},
-			{
-				"1100005/pt4",
-				"あぁ、指揮官さんが人気なのもうなずけます"
-			},
-			{
-				"1100005/pt5",
-				"次の機会も楽しみにしていますね"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sculpture_close_tip = {
-		tip = "画面タップで戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_meta_energy = {
-		tip = "限界突破可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senran_pt_words_yan = {
-		tip = {
-			{
-				"1100003/pt1",
-				"ふふっ、今日も楽しみだ。期待してるぞ"
-			},
-			{
-				"1100003/pt2",
-				"さぁ、休んでないで次だ次！"
-			},
-			{
-				"1100003/pt3",
-				"指揮官もなかなかやるじゃないか"
-			},
-			{
-				"1100003/pt4",
-				"この程度で終わりじゃないだろう？"
-			},
-			{
-				"1100003/pt5",
-				"お疲れ。強くなるのを実感できるのも、指揮官のおかげだな"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.monopoly_world_tip2 = {
-		tip = "キャンペーン期間中毎日$1回移動回数が加算されます！コントローラータップで移動して報酬を手に入れよう！！あと1週で入手:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senran_pt_words_feiniao = {
-		tip = {
-			{
-				"1100001/pt1",
-				"指揮官、待ってました！"
-			},
-			{
-				"1100001/pt2",
-				"なんだか緊張しちゃいますね"
-			},
-			{
-				"1100001/pt3",
-				"ちゃんと結果、でてますか？"
-			},
-			{
-				"1100001/pt4",
-				"私、まだまだやれます！"
-			},
-			{
-				"1100001/pt5",
-				"これからもずっと、ご指導ご鞭撻よろしくお願いします！"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senran_pt_help = {
-		tip = {
-			{
-				info = "開催期間：<color=#92fc63>11.23-12.7 メンテ </color>\n\n  1.コラボイベント開催期間中、任務イベント「パネル任務」「秘伝忍法書」に参加し、限定任務をクリアするとPtアイテム<color=#92fc63>「忍指南」</color>を入手できます。\n 2.「忍術指導場」で「忍指南」を消費し各属性のレベルを合計8上げると、SSR<color=#92fc63>「焔」</color>などの報酬を入手できます。\n 3.「焔」の受け取り期間は<color=#92fc63>12月13日24時</color>まで。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.workbench_tips4 = {
-		tip = "クラフトLv.$1で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senran_pt_not_enough = {
-		tip = "<color=#92fc63>忍指南</color>が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shan_luan_task_buff_default = {
-		tip = "？？？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_gift = {
-		tip = "プレゼント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_exchange_timelimit = {
-		tip = "下記アイテムの交換対象は$1メンテナンス後に変更されます。お早めにご使用ください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_discount_desc = {
-		tip = "$1 *1を消費し、割引価格$2で$3着せ替えを購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destination_can_not_reach_safety = {
-		tip = "目標海域には辿り着けません：途中接敵のため"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.anniversary_task_title_12 = {
-		tip = "再誕された「艦船」――私達の歌声でその存在の錨を下ろそう。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.take_all_mail = {
-		tip = "<color='#92fc63FF'>全てのメールを開封</color>しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_tech_equipbag_desc = {
-		tip = "倉庫容量+$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_exchange_title = {
-		tip = "下記着せ替え交換可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_silent_tip_3 = {
-		tip = "個の科学研究が完了しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_choice_talent_reset = {
-		tip = "資金$1を消費しアビリティを初期化しますか？\tアビリティが初期配置になり、アビリティポイント$2を入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newserver_build_tip = {
-		tip = "着任支援建造チケットを消費してのみ建造を行えます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_get_commander_coptyright = {
-		tip = "オフニャ管理センター——"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_shipinfo_hunting = {
-		tip = {
-			{
-				info = "支援範囲について\n・海域マップに出撃した時、潜水艦隊の旗艦の支援範囲が潜水艦隊の「支援範囲」になります。\n\n・潜水艦隊は支援範囲内の敵に向かって自動で移動し、「漸減作戦」で敵の戦力を弱体化させます。\n\n・また、味方艦隊が潜水艦隊の支援範囲内で敵艦隊と戦闘を行った場合、戦闘中に「潜水支援」が使用可能になります。\n\n・「漸減作戦」は弾薬のみ消費します。「潜水支援」は弾薬と燃料を消費します。\n\n・「漸減作戦」の有無（移動の有無）は海域移動画面右の態勢変更ボタンで変更できます。\n\n支援範囲レベル：\n・支援範囲レベルが高い程、自身の支援範囲が広くなります。\n\n・支援範囲レベルは限界突破や装備、スキルで上昇させることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_normal_2 = {
-		tip = "普通"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.change_player_name_illegal = {
-		tip = "不適切なワードが含まれていたため、テーマ名が<color=#FFDE38FF>$1</color>に変更されました\nテーマ名を再度変更してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_tactical_ability = {
-		tip = "戦術補助"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_logistics_ability = {
-		tip = "兵站補助"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_command_ability = {
-		tip = "指揮補助"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_use_box_queue = {
-		tip = "訓練選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_use_box_tip = {
-		tip = "ネコハコ選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dockyard_data_loss_detected = {
-		tip = "ドック情報の同期トラブルが発生しました。ログイン画面に戻りますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_month = {
-		tip = "一月内"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_status_inHardFormation = {
-		tip = "<size=24>ﾊｰﾄﾞ編成中</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_auto_battle_label = {
-		tip = "戦闘終了通知"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49903 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n150mmSKC/28三連装砲\n533mm四連装磁気魚雷\n105mmSKC連装高角砲</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_choice_talent_3 = {
-		tip = "新たに習得できません。入れ替えるアビリティを選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_all_2 = {
-		tip = "META座標開放可能時一時中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_show_ship_name_label = {
-		tip = "艦名変更を反映"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_choice_talent_2 = {
-		tip = "アビリティ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_choice_talent_1 = {
-		tip = "取得または成長させるアビリティを選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_skill_effect = {
-		tip = "スキル"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_name_change_windows_tip = {
-		tip = "*<color=#92fc63>$1:$2</color>を消費します。<color=#92fc63>30</color>日に一度変更可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.report_type_1_1 = {
-		tip = "スパムやセンシティブ・不適切な発言"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_confirm_tip = {
-		tip = "*強化素材に使われるオフニャは消費されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_subtile_talent = {
-		tip = "アビリティ効果"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_subtile_ablity = {
-		tip = "基本能力効果"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_click_to_close = {
-		tip = "画面タップで戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_talent = {
-		tip = "ｱﾋﾞﾘﾃｨ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipment_equip = {
-		tip = "設備"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commandercat_label_display_name = {
-		tip = "変更後名前"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_disable_unsatisfied = {
-		tip = "この章の全ステージが☆3達成必須です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commandercat_label_raw_name = {
-		tip = "元の名前"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginMediator_serverLoginFail_error = {
-		tip = "サーバー接続エラー:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_nature_title = {
-		tip = "性格："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.stage_beginStage_error_noTicket = {
-		tip = "特別戦闘券が必要です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_shop_refresh_all_tip = {
-		tip = "$2を<color=#92fc63>$1</color><icon name=guildicon w=0.7 h=0.7/>消費し、ラインナップを更新しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.item_type17_tip1 = {
-		tip = "報酬詳細"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_ending_tip1 = {
-		tip = "1Fと2Fのすべてのエリアを探索し物語の終末を確かめよう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_reward_got = {
-		tip = "受取済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collection_lock = {
-		tip = "まだ開放されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_520024 = {
-		tip = "改造（近代化改修）を行うと艦種は：\nミサイル駆逐艦（前衛配置モード）に変更されます\n一部ステータスが変化します\n改造を続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_drag_gift_tip = {
-		tip = "*記念品をキャラにドラッグして贈る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_retry = {
-		tip = "タップで再開"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_card_info = {
-		tip = "基本情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_checking = {
-		tip = "チェック中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_noname = {
-		tip = "名前を入力してからボタンをタップしてください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_unlock = {
-		tip = "すべてのエンディングを集めると探索者を作成できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_label_give_invitation_finish = {
-		tip = "招待完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.propose_intimacy_tip = {
-		tip = "好感度100(現在$1)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_reward_tip = {
-		tip = "完成済$1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_reward_word2 = {
-		tip = "第一幕"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_reward_word1 = {
-		tip = "序幕"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_notimes = {
-		tip = "ロール回数が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_recent_ship_label = {
-		tip = "ｽｷﾙ強化歴"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_attr_list = {
-		tip = {
-			"説得",
-			"応急手当",
-			"META研究",
-			"ｾｲﾚｰﾝ研究",
-			"情報分析",
-			"機械修理",
-			"薬理学",
-			"民俗学",
-			"心理学",
-			"地質学",
-			"鍵開け",
-			"目星",
-			"手さばき",
-			"ランニング",
-			"ダイビング",
-			"メカ操縦",
-			"戦術研究",
-			"格闘",
-			"射撃",
-			"サバイバル",
-			"キューブ研究",
-			"危険察知",
-			"魅惑",
-			"釣り",
-			"法律学",
-			"量産艦操縦",
-			"艤装修理",
-			"罠制作",
-			"砲術",
-			"天文学",
-			"暗号学",
-			"法律研究",
-			"料理",
-			"石油調査",
-			"図書館",
-			"ナビゲート",
-			"乗馬",
-			"ヒプノシス",
-			"追跡",
-			"言語",
-			"登攀",
-			"ｱｲﾃﾑ整理",
-			"時間調整",
-			"書類作業",
-			"艦隊集結",
-			"兵站業務",
-			"外交学",
-			"保健",
-			"農学",
-			"土木工事",
-			"戦術指揮"
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room17 = {
-		tip = "ガーデン"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.stage_beginStage_error_noEnergy = {
-		tip = "<color=#92fc63>体力</color>が足りません!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.rename_input = {
-		tip = "名前を入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_ssr = {
-		tip = "SSR"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room14 = {
-		tip = "ベッドルーム"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_setting_title = {
-		tip = "セイレーン作戦設定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_mailLayer_noNewMail = {
-		tip = "新しいメールがありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room13 = {
-		tip = "2Fホール"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room9 = {
-		tip = "宴会ホール"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_fetchFriendMsg_error = {
-		tip = "情報取得失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room7 = {
-		tip = "ダイニング"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_upgrade = {
-		tip = "突破"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room4 = {
-		tip = "中庭"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_102304 = {
-		tip = "改造を行うと<color=#92fc63>【主砲砲座+1】</color>\nスキル<color=#92fc63>【戦争の悲劇】</color>が<color=#92fc63>【戦争の悲劇·改】</color>に変化\nスキル<color=#92fc63>【全弾発射II】</color>が<color=#92fc63>【全弾発射III】に変化</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_preCombatMediator_timeout = {
-		tip = "<color=#92fc63>作戦制限時間</color>を過ぎました。作戦失敗…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_get_week_done = {
-		tip = "新しい大艦隊任務が発令されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room1 = {
-		tip = "使用人部屋"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.harbor_backhill_help = {
-		tip = {
-			{
-				info = "イベント概要：\n裏山キャンペーン「饅頭アジト」<color=#92fc63>10.26-11.9 メンテナンスまで</color>開催！\n\n■遊び方\n・秘密造船所\n「秘密造船所」をタップすると、前哨戦イベント「テンペスタの秘密造船所」に参加することができます。\nさらに、前哨戦イベントをクリアするとミニゲームを遊ぶことができ、11/1まで毎日開放されるステージをすべてクリアすると下記豪華報酬を入手できます！\n　ステージ3　テンペスタ用新SR設備「果物の補給」\n　ステージ5　テンペスタ兵装セット　ステージ7　限定家具「始まりの冒険船」\n\n・記念アイテム\n「記念アイテム」をタップすると、イベントの限定任務を確認・報酬受取することができます。\n任務をクリアすると、SSR主砲「旧式重火砲」、新オフニャ「べらーみ」「きっど」、限定家具「燦々たる針路」を入手可能！\n\n・イベント交換\n海域イベント「テンペスタと若返りの泉」交換ショップに遷移できます。\n\n・限定建造\n限定建造画面に遷移できます。\n\n・着せ替え\nきせかえショップに遷移できます。\n\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.reflux_help_tip = {
-		tip = {
-			{
-				info = "明石Pt入手方法："
-			},
-			{
-				info = "1.デイリーチャレンジを１回クリア+20Pt\n（一日最大<color=#92fc63>[task=13852]</color>/120pt）"
-			},
-			{
-				info = "2.演習を一回行う+5Pt\n（一日最大<color=#92fc63>[task=13853]</color>/50pt）"
-			},
-			{
-				info = "3.通常ハード海域を一回クリア+20Pt\n（一日最大<color=#92fc63>[task=13854]</color>/60pt）"
-			},
-			{
-				info = "4.敵中枢艦隊撃破+10Pt\n（一日最大<color=#92fc63>[task=13855]</color>/500pt）"
-			},
-			{
-				info = "5.艦を一回強化する+5Pt\n（一日最大<color=#92fc63>[task=13856]</color>/50pt）"
-			},
-			{
-				info = "6.艦を一回退役させる+5Pt\n（一日最大<color=#92fc63>[task=13857]</color>/50pt）"
-			},
-			{
-				info = "7.軍事委託を一回遂行する+10Pt\n（一日最大<color=#92fc63>[task=13858]</color>/100pt）"
-			},
-			{
-				info = "8.建造を一回行う+15Pt\n（一日最大<color=#92fc63>[task=13859]</color>/750pt）"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.item_type16_tip2 = {
-		tip = "内容一覧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.area_unkown = {
-		tip = "未知エリア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_battle_is_exist = {
-		tip = "すでに大艦隊作戦が発令されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_collect_lock = {
-		tip = "-未開放-"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_build_1 = {
-		tip = "\t\t\t\t\t   <size=25>$1建造概率分布</size>\n\n\t\t\t\t\t\t\t<color=#ffde38>超稀有舰船</color>：$2%\n\t\t\t\t\t\t\t <color=#d797ff>精锐舰船</color>：$3%\n\t\t\t\t\t\t\t <color=#3dc6ff>稀有舰船</color>：$4%\n\t\t\t\t\t\t\t 普通舰船：$5%"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_level_unreached = {
-		tip = "練度不足"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sail_boat_equip_tip_2 = {
-		tip = "<color=#E3CEAF>威力・装填速度共に普通な火砲</color>\n<color=#F1B969>装備すると速力が下がる</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_plan_type4 = {
-		tip = "自由行動"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loading_tip_StoryMgr = {
-		tip = "パラレル記憶子ライティング中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_skin_no_new_ship = {
-		tip = "艦が存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_share_errorcode7 = {
-		tip = "今日はすでにこの艦船の装備編成をシェアしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_share_ruletips = {
-		tip = "ラベルを2つ設定し装備編成をシェアしましょう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_unsaved_tips = {
-		tip = "読み込んだ装備編成は適用されません。前の画面に戻りますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_export_success = {
-		tip = "装備コードをコピーしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.qiuqiu_count = {
-		tip = "目標数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_12 = {
-		tip = "投射範囲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chapter_no = {
-		tip = "<color=#92fc63>$1</color>章"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_supply_no_open = {
-		tip = "大艦隊補給が購入されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_level_unmatched = {
-		tip = "ﾚﾍﾞﾙ違い"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_report_warning = {
-		tip = "短期間に大量に通報されると一時的にシェアできなくなります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_word_cancel = {
-		tip = "戻 る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pre_combat_submarine = {
-		tip = "潜水艦隊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_dislike_success = {
-		tip = "通報しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ssss_game_tip = {
-		tip = {
-			{
-				info = "■概要\nミニゲーム「激闘！電光饅頭VS怪獣饅頭」とは、制限時間内で画面下のブロックをタップで消し、同じ色のブロックを揃えることでスコアを獲得していくミニゲームです。\n\nミニゲームは7.26（水）まで毎日新しいゲームが開放され、クリアすると装備外装箱や弧光結晶、限定家具を入手できます。\n（開放されたステージ1個につき1回しか入手できません）\n\n■遊び方\n・画面下部のブロックをタップすると、タップしたブロックと、そのブロックと隣接している同じ色のブロックを消すことができます。更に、ブロックを消すことで同じ色のブロックが3つ以上揃うと、同じ色のブロックが全部消えます。\n・2つ以上のブロックが消える度に、SDキャラが攻撃を行い、スコアを入手するとともにその色に対応する画面上部の必殺技ゲージ、画面下部の変身ゲージがたまります。\n・必殺技ゲージがMAXになると、SDキャラが必殺技を使用し、スコアを得ることができます\n・変身ゲージがMAXになると、SDキャラがパワーアップします。また、必殺技の演出・得られるスコアも変わります。\n・パワーアップ状態でブロックを消しても、変身ゲージは上昇しません。また、パワーアップ状態では変身ゲージが減り続け、0になると元に戻ります。\n・制限時間が0になると、ゲームクリアになります。\n・ゲームは何回も挑戦できます。\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_like_success = {
-		tip = "いいねしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_plan_check_tip1 = {
-		tip = "予定枠が不足しています。予定枠を空けてから再度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.prop_destroyProp_error_notEnoughItem = {
-		tip = "売却するアイテムが存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destory_important_equipment_tip = {
-		tip = "装備<color=#FFDE00FF>“$1”</color>を廃棄しますか？下の枠に装備の名前を入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.venusvolleyball_help = {
-		tip = {
-			{
-				info = "ヴィーナス練習試合とは"
-			},
-			{
-				info = "「ヴィーナス練習試合」とは、ビーチバレーのミニゲー\nムをプレイすることで、報酬を入手できるミニイベント\nです。\nキャラクターを選択し、7日間毎日1回開放される試合を\nクリアすると、コラボ兵装「ヴィーナス覚醒ジェム」を\n入手できます。"
-			},
-			{
-				info = "■遊び方"
-			},
-			{
-				info = "本試合と、本試合クリア後に開放される自由にプレイで\nきる練習試合の2種類あります。\n・試合に参加するには、「スタート」をタップし、チー\nムキャラを選択する必要があります。\n・試合では、メンバーが自動でフィールドを動き、また\n画面をタイミングよくタップすると、サーブやアタック\nが成功判定になります。\n・本試合はチームメンバーを変更することができません。\n・本試合は毎日、何回でも再チャレンジすることができ\nます。\n・自由試合は毎回、チームメンバーを選び直すことがで\nきます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm = {
-		tip = "弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_import_success = {
-		tip = "装備編成を適用しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_share_exceedlimit = {
-		tip = "ラベルは2つまでしか選択できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_update_end = {
-		tip = "更新完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_share_nolabel = {
-		tip = "ラベルを2つ設定してからシェアできます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_slot_unmatch = {
-		tip = "適用できない装備編成です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_title_highest_damge = {
-		tip = "最大ダメージ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_sort_relax = {
-		tip = "まったり"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_share_label_8 = {
-		tip = "ﾃﾞｲﾘｰ用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_share_label_7 = {
-		tip = "ﾒｲﾝ用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_upgrade_overlimit = {
-		tip = "これ以上強化できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_upgradeStar_select_material_tip = {
-		tip = "突破素材を選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_filter_award_attr2 = {
-		tip = "能力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_checking_title = {
-		tip = "チェック中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_yanhua_tip2 = {
-		tip = "解放済み花火"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_6_detail = {
-		tip = "愛は幸せの導き、想いは永遠の絆\n守りたいものはあなたの笑顔\nお互いを深く愛し、支え合い\n末永く運命を共にすることを、誓います\n                                          $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_share_label_2 = {
-		tip = "対中装甲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.warning_mail_max_5 = {
-		tip = "※上限に達するとメールを受信できなくなります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_sort_level = {
-		tip = "練度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_shipAddMoney_ok = {
-		tip = "<color=#92fc63>$1</color>が<color=#92fc63>$2</color>コインを発見しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_scene_formation_active_already = {
-		tip = "陣形が変更されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_go = {
-		tip = "確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.zero_hour_command_error = {
-		tip = "日付変更処理・データ更新にエラーが発生しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_recover_text1 = {
-		tip = "<color=#ffde38>メール再送</color>を行うと、メール保管庫に<color=#ffde38>$1</color>年の<color=#ffde38>$2</color>からのバレンタインメール（添付アイテムは含まれない）が再送されます\n*メール再送機能は記念アイテム毎に1回しか使用できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_empty_collection_list = {
-		tip = "没有找到符合条件的收藏"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_extralevel_3 = {
-		tip = "レベル3"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname2 = {
-		tip = "高"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_cancel_share = {
-		tip = "シェア中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_pool_awards_empty = {
-		tip = "本段階の報酬が既に全部交換しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.not_exist_guild_use_item = {
-		tip = "大艦隊に所属していないため、アイテムを使用できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_place_pnekey = {
-		tip = "一括配置"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.maintenance_message_text = {
-		tip = "$1後にメンテナンスが開始します。メンテ中はゲームをプレイできません。ご注意ください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_navalAcademyScene_quest_Classover_short = {
-		tip = "0"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_autoselect = {
-		tip = "自動選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destroy_confirm_access = {
-		tip = "確 定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ranking_word_9 = {
-		tip = "得点"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_tip_material_stock = {
-		tip = "所持"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_system_theme = {
-		tip = "プリセット"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.firework_2025_tip = {
-		tip = {
-			{
-				info = "遊び方："
-			},
-			{
-				info = "1.花火を開放したり、花火大会限定任務をクリアすると「母港花火大会雰囲気Pt（雰囲気Pt）」を入手可能。「雰囲気Pt」累計報酬で「年玉」装備外装「瑞蛇花火箱」、「红包」などを入手可能。"
-			},
-			{
-				info = "2.メイン海域３章以降のステージをクリアしたり、共闘イベントに参加すると、確率で「新春花火」を開放可能。「花火打上」で花火を開放すると、「雰囲気Pt」などの報酬を入手可能。"
-			},
-			{
-				info = "3.イベント期間中、「大会広場」で、艦船を配置枠に配置し、配置艦船のコンディション回復速度を上げることができます。「大会広場」はイベントの「進捗Lv」に応じて配置枠を増やせることができます（最大10枠まで）"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_filter_subtitle2 = {
-		tip = "個人・グループ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_finish = {
-		tip = "連続挑戦が完了しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_use_gem_title = {
-		tip = "ダイヤで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_time = {
-		tip = "时间"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_filter = {
-		tip = "絞り込み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_save_theme = {
-		tip = "テーマセーブ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_save = {
-		tip = "セーブ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_name_change_time_limit_tip = {
-		tip = "<color=#92fc63>$1</color>後指揮官名を変更できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100227 = {
-		tip = "このアカウントでのログインに失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_clear = {
-		tip = "クリア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200190 = {
-		tip = "購入リクエストが存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_photo_len = {
-		tip = "カメラ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Supplement_pay7 = {
-		tip = "払い戻し："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_exp_addition = {
-		tip = "経験効果"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.challenge_casual_reset = {
-		tip = "チャレンジモードが中断されました。\n累計得点:$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_buyExtendItem_question = {
-		tip = "<color=#92fc63>$1</color>を消費します。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tech_change_version_mark = {
-		tip = "研究指向"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_reset_talent_time_no_rearch = {
-		tip = "一定時間内では1回しかリセットできません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginMediator_kickIntError = {
-		tip = "接続中にエラーが発生しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tip_account_del_dismatch = {
-		tip = "入力内容は不正です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_capacity = {
-		tip = "食糧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_nengdai = {
-		tip = "花火を同時に2発発射できるぞ！\nさらに敵に命中すると、一定範囲内の味方の攻撃速度・ダメージが10秒間1％アップ！（最大10回まで効果が加算可能）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_extendequip_success = {
-		tip = "倉庫拡張成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_event_lock = {
-		tip = "ブリストルたちの調査隊参加後に開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_limit_all = {
-		tip = "購入回数：$1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tw_unsupport_tip = {
-		tip = "ツイッターアカウント連携は現在利用できません。Yostarアカウント連携を行ってください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.town_unlcok_new = {
-		tip = "作業地点開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_status_inSupportFleet = {
-		tip = "支援出撃中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_supportfleet = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/supportfleet_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/supportfleet_help2",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shipyard_button_1 = {
-		tip = "乞うご期待"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shipyard_phase_2 = {
-		tip = "废弃"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_AR_switch = {
-		tip = "AR機能メンテナンス中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
-		tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>下</color>に1マス移動させる。オーダーを確定しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_stop_reason1 = {
-		tip = "燃料が不足しているため"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight_farm = {
-		tip = "周回モード"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
-		tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>上</color>に1マス移動させる。オーダーを確定しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
-		tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>左</color>に1マス移動させる。オーダーを確定しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.course_energy_not_enough = {
-		tip = "<color=#92fc63>$1</color>のコンディションが低く、授業には参加できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_start_tip5 = {
-		tip = "確保済みのエリアでのみ使用できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_airexpel_outrange = {
-		tip = "敵艦隊を移動させられるマスがありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_airexpel_select_enemy = {
-		tip = "敵艦隊のみ選択できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_airexpel_cancel = {
-		tip = "駆逐中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200236 = {
-		tip = "決済がキャンセルされました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_deploy_submarine = {
-		tip = "目標確定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_condition_antisub = {
-		tip = "対潜合計"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_unlock_bag = {
-		tip = "持ち物"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sp_no_quota = {
-		tip = "今日はこれ以上出撃できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_ammo_type_2 = {
-		tip = "榴弾"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chapter_ap_not_enough = {
-		tip = "AP不足"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_mood_desc3 = {
-		tip = "普通"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
-		tip = "素材確保"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolove_main_help = {
-		tip = {
-			{
-				info = "イベント紹介："
-			},
-			{
-				info = "<color=#92fc63>11月21日（木）~12月5日（木） メンテまで</color>コラボイベント「危険発明接近中！」開催"
-			},
-			{
-				info = "<color=#7D7D7D>記念章家具、累計Pt報酬受取、イベントショップ交換は12月11日（水）23:59まで</color>\n"
-			},
-			{
-				info = "イベントステージに<color=#FCD400>出撃</color>\nイベント海域に出撃し、Ptアイテム「エナジーストーン」を集め「作戦収穫 累計中！」や「ショップ」で報酬を交換可能！\n"
-			},
-			{
-				info = "<color=#FCD400>「助けて、ララさん！」</color>\nイベント海域・メイン海域3章以降のステージで「エネルギーの破片」を集めると、「助けて！ララさん」で母港の艦船たちの発明依頼を開放可能。ミニゲームで発明を完成し依頼を達成すると、「仕事が楽しくなるメカ」などの限定装備を入手可能。\n"
-			},
-			{
-				info = "ミニゲーム<color=#FCD400>「ピポピポトレーニングくん」</color>\n11/27（水）まで毎日開放されるミニゲームステージをクリアすると、家具「プリンセスの絵」などの限定家具をGET！さらに「特訓任務」をクリアすると報酬を入手可能。\n"
-			},
-			{
-				info = "<color=#FCD400>「記念章」</color>\nイベント期間中に開放される各種コンテンツを遊ぶと、6種類の「データチップ」を入手可能。「データチップ」をすべて集めると、「記念章」ページで家具「デビルーク風記念章」と交換可能！\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_sort_power = {
-		tip = "がっつり"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
-		tip = "艦船強化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_unlock_tip = {
-		tip = "解放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_reset_sure_tip = {
-		tip = "TB育成をリスタートすると、育成段階Ⅰから再度育成することが可能です。育成をリスタートしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_extraAttr_sure_tip = {
-		tip = "是否确认个性补正？确认后将无法修改"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_log_event_group_title4 = {
-		tip = "記録・④"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_upgrade_sure_tip = {
-		tip = "次の育成段階に進むと、成長目標がリセットされ、まだ使用されていない行動力は引き継がれません。次の育成段階に進めますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_date_text4 = {
-		tip = "更新準備"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_107984 = {
-		tip = "近代化改修で<color=#92fc63>【戦闘機機数+1】、【攻撃機機数+1】</color>\n近代化改修を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.total_rewards_subtitle = {
-		tip = "TOTAL REWARDS"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_date_text1 = {
-		tip = "在宅育成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_plan_perform_title = {
-		tip = "予定を組む"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_redeploy_not_change = {
-		tip = "再編成後のメンバーは編成前のメンバーから変更していません。再編成を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_count_noenough = {
-		tip = "回数が足りません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_buildship_tip = {
-		tip = "<color=#92fc63>$4</color>建造を行うには：\n<color=#92fc63>$1資金</color>と<color=#92fc63>$3$2個</color>を消費"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip3 = {
-		tip = "キャンペーン期間中、任務をクリアし<icon name=pt w=1 h=1/>\nを集め、<color=#92fc63>「ヨークタウン」限定着せ替え</color>、\n<color=#92fc63>ダイヤ</color>などの報酬を手に入れよう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_m_craft = {
-		tip = "花火を作ってコストをどんどん回復してくれるピョ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_task_system_type2 = {
-		tip = "育成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_attr_name2 = {
-		tip = "能力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_archives_auto_battle_reusle_title = {
-		tip = "自動戦闘完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_free_tag = {
-		tip = "無料"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023Valentine_minigame_b"] = {
-		tip = "これでよしっと……味の方は大丈夫でしょうか？ええと、指揮官、よかったらどうぞ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.title_info = {
-		tip = "情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_newPlayerScene_invalideName = {
-		tip = "NGワードが含まれています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_attr_name1 = {
-		tip = "属性"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_plan_skip = {
-		tip = "演出動画をスキップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_word_equip = {
-		tip = "特殊装備"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_2_detail = {
-		tip = "$1があなたのことをもっと知りたいようだ\n<color=#ffde38><size=18>(効果なし)</size></color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_donate_tip = {
-		tip = "<color=#92FC63FF>$1×$2</color>(所持数：<color=$4>$3</color>)を大艦隊に拠出しようとしています。拠出を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_5_buff = {
-		tip = "補正値：全性能（速力、装備以外）6%アップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_special_name = {
-		tip = "TB"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_start_event_consume_tip_extra = {
-		tip = "今月は大艦隊作戦を<color=#ff5c5c>$3</color>回開放しました。資源$1を消費し、大艦隊作戦“$2”を開放しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_maingroup_updating = {
-		tip = "更新中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_submit = {
-		tip = "提出"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_stage_desc2 = {
-		tip = "育成段階Ⅱ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_unlock_attr3 = {
-		tip = "能力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_mood_desc1 = {
-		tip = "絶不調"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_share_label_6 = {
-		tip = "安定火力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_recover_tip4 = {
-		tip = "その年にはまだ未実装だったキャラです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_schedule_sure_tip = {
-		tip = "まだ設定されていない予定があります。次のターンに進みますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_filter_award_res = {
-		tip = "TB"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_score_addition = {
-		tip = "評価UP："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e5_desc = {
-		tip = "バランスの取れた性能を持っているセイレーンだ。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_battle_expose_line = {
-		tip = "空母発見範囲を表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_help_meta = {
-		tip = {
-			{
-				info = "<color=#92fc63>2025.6.5-2025.9.4</color>\nMETA戦・江風(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。\n（※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）\n\n■META戦について\n■「META戦」とは、「META」艦船に挑戦し、「解析Pt」を含む報酬入手することができる共闘コンテンツです。\n「META戦」は下記の2つの要素によって構成されます。\n・META座標解析＝META艦船の挑戦権開放\n・META艦船との戦闘\n\n「META戦」システムはセイレーン作戦のストーリーを進めると開放されます。\n\n■META戦座標解析\n・「セイレーン作戦」では、戦闘などの方法で「META座標情報」を入手することができます。\n・「META座標情報」作戦海域マップ画面の右上に表示され、META座標情報所持数が所持可能上限に達する度に、META座標を全て消費して「META戦」の「情報解析」でMETA艦船の挑戦権を開放できます。\n・「情報解析」は1日2回しか行えません。また、毎日0時に情報解析可能回数のほかに、META座標所持数は一定数を残して初期所持数にリセットされます。\n\n■META戦について\n・「セイレーン作戦」海域マップ画面の右下にある「META戦」アイコンをタップすると、META艦船に挑戦できます。・META戦では、\n ①自分でMETA座標を解析することで開放される戦闘\n ②味方の「META戦援軍要請」を受け取った戦闘\n ⇨これらに挑戦するには「座標一覧」を確認する必要があります。\n・META戦では、味方の艦隊で挑戦することができます。また、潜水艦とオフニャは使用できません。\n・自分で解析したMETAを撃破した場合、次に開放されるMETAは強さが上がった（Lvが上昇）状態で出現します。\n・一度の戦闘で敵を撃破できなかった場合、戦闘終了時に「援軍要請」を行い、ほかのプレイヤーに戦闘を開放する事ができます。\n・META戦では上記①と②のいずれでも、敵が撃破された（HPが0になった）時、戦闘に参加した指揮官全員が「解析Pt」を入手することができます。\n\n■注意\n・開放された戦闘は24時間挑戦できます。24時間経過した場合META戦の表示が消失し、挑戦できなくなります。\n・自分で解放した戦闘に挑戦するには【燃料】を消費し、METAのHPが0になるまで何回も挑戦できます。\n・味方の救援要請を受け取った戦闘に挑戦するには【挑戦ポイント】を消費します。（挑戦ポイントは毎日回復します）\n・同じ戦闘は最大30人まで挑戦することができます。人数が上限いっぱいになった場合、表示されたMETA座標でも挑戦することができなくなります。\n・META戦では経験値を入手することができず、また士気コンディション/勝利数にも影響しません。\n・META戦の出現敵艦変更から31日経過すると、指揮官は自身が開放したMETA戦に挑戦する際に、一度の戦闘に一度だけ、味方支援火力によりMETA艦船にダメージ（直接ダメージとスリップダメージの2種類）を与えられるようになります。このダメージは出現敵艦の変更より時間が経つほど上昇していきます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.course_state_lession = {
-		tip = "授業時間："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandshop_tips2 = {
-		tip = "限定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_plan_event = {
-		tip = "特別予定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_plan_check_tip5 = {
-		tip = "TBのコンディションが不調です。予定を追加できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_plan_check_tip4 = {
-		tip = "所持金が不足しています。予定を追加できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_schedule_sure_tip2 = {
-		tip = "まだ行動力が残っています。次の週に入りますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room15 = {
-		tip = "書斎"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_schedule_event_tip = {
-		tip = "すでに予定が設定されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_mind_time_title = {
-		tip = "残り時間："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.jiujiu_expedition_stg_tip = {
-		tip = "現在のステージをクリアすると解放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_mind_processing_title = {
-		tip = "進行中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_not_enough = {
-		tip = "票が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
-		tip = "自動戦闘中のため、戦闘を開始できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_item_type4 = {
-		tip = "その他"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.jp6th_lihoushan_time = {
-		tip = "翌日0時に新しいステージが開放されます！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_pair_2 = {
-		tip = "ゆきはふりつつ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_dodge = {
-		tip = "回避"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_resume_fleet_gs = {
-		tip = "艦隊戦力:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
-		tip = "残り時間:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_item_type2 = {
-		tip = "楽器"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_task_help_2208 = {
-		tip = {
-			{
-				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_item_type1 = {
-		tip = "書籍"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.npc_learn_skill_tip = {
-		tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※スキル強化に使用したアイテムは返還されません。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_item_type0 = {
-		tip = "ずべて"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_target_title2 = {
-		tip = "育成目標"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.memory_actiivty_ex = {
-		tip = "イベント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_time_out = {
-		tip = "支払情報を確認しています…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ore_minigame_help = {
-		tip = {
-			{
-				info = "概要：\n「饅頭採鉱戦」とは、明石を操作し画面上部の鉱石を下部に運び、ハイスコアを狙うミニゲームになります\n\n遊び方：\n1.画面左下のコントローラーで明石を移動させることができます。\n2.明石を画面上部に採鉱饅頭たちが落とした鉱石に近づけ、右下の「運搬」ボタンをタップすると、鉱石を持ち上げられます。\n　 鉱石を持っている状態でも新たに鉱石を持ち上げられますが、一定の重量を超えると鉱石を同時に持つことができません。\n　さらに、持っている鉱石が一定の重量を超えると、移動速度が低下します。\n3.鉱石を持っている明石を画面下部のタラップに移動すると、鉱石を下ろすことができます。鉱石を下ろすと、スコアを入手できます。\n4.鉱石を持っている状態で通過する饅頭とぶつかると、持っている鉱石が全て失われます。\n5.残り時間が0になるか、ゲームを終了すると、ゲームクリアになります。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_buyFurniture_error = {
-		tip = "家具購入失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninghai_nianye = {
-		tip = "バオズできたわよ！指揮官、一つどう？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_target_finish_tip = {
-		tip = "現段階の育成目標を達成しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
-		tip = "限界突破に必要な素材を選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.err_resloveequip_nochoice = {
-		tip = "廃棄したい装備を選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_news_other_title = {
-		tip = "一般イベント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_archive_name = {
-		tip = "名前"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_hit_monster_erro = {
-		tip = "攻撃に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.school_title_zhihuimiao = {
-		tip = "オフニャ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_btn_bag = {
-		tip = "持ち物"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_success = {
-		tip = "投票成功！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_btn_mind = {
-		tip = "考え事"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e3 = {
-		tip = "ナビゲーター"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.keep_fate_tip = {
-		tip = "<color=#92fc63>竜骨編纂</color>用の強化ユニットを除く"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_harbour = {
-		tip = "母港"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guidl_event_ship_in_event = {
-		tip = "ほかの任務に従事しているため、選択できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleMore = {
-		tip = " <color=#92fc63>$1</color> 隻以上選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_which_week = {
-		tip = "$1週目"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_which_month = {
-		tip = "$1ヶ月目"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_close_tip = {
-		tip = "画面をタップして戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_add_shadow_complete = {
-		tip = "ランダム秘書艦候補リストに追加しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_msg_title_tip = {
-		tip = "tips"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_2 = {
-		tip = "進入するエリア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.list_empty_tip_storehouseui_equip = {
-		tip = "装備を所持していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_boss_formation_2 = {
-		tip = "一人のメンバーの支援派遣艦船を最大1隻まで選択できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.challenge_help = {
-		tip = {
-			{
-				info = "  【概要】"
-			},
-			{
-				info = "  限界挑戦とは練度の指揮官（Lv80以上）が参加可能なコンテンツになります。\n 専用の編成で数々のステージをクリアしていくと、難易度に応じて限定チャットアイコン・チャットフレームを入手できます。\n"
-			},
-			{
-				info = "【遊び方】"
-			},
-			{
-				info = "  1. 限界挑戦モードでは、3つの難易度のステージが登場します。ステージをクリアすると、最短クリア時間が記録され、クリアしたステージに応じて一度だけ限定の報酬（チャットアイコン、チャットフレーム）を入手できます。すでに入手したアイテムを再度入手した場合、自動で資金に変換されます"
-			},
-			{
-				info = "  2. 限界挑戦モード画面では、「編成」でチャレンジ専用編成を編成でき、「戦闘開始」でステージに挑むことができます。また、限界挑戦モードではオフニャ・潜水艦を編成でき、一回の戦闘につき、潜水支援を1回行うことができます"
-			},
-			{
-				info = "  3. 限界挑戦モードにおける戦闘は燃料を消費せず、艦船の好感度・勝敗数計算・艦船/指揮官/オフニャ経験値には影響しません。また、開放期間中に何回でも挑むことができます"
-			},
-			{
-				info = "  4. 戦闘中はいつでも戦闘を中断することができます。戦闘を中断した場合、クリア時間は記録されません。\n"
-			},
-			{
-				info = "  【ステージリセットについて】"
-			},
-			{
-				info = "  1. 限界挑戦のステージは、毎月初日0時に新しいステージになり、また攻略状況・クリア時間記録・報酬・出現ボスも新しいものになります"
-			},
-			{
-				info = "  2. 毎月初日0時時点で限界挑戦のステージ中にいて、その戦闘で勝利しても、新しいステージをクリアした扱いにはなりません。ご注意ください。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_favor_maximize = {
-		tip = "親愛度がmaxになっています。操作を続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.racing_rank_half_h = {
-		tip = "*30分毎に更新"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.racing_cost = {
-		tip = "報酬\n進捗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sevenday_nianye = {
-		tip = {
-			{
-				info = "開催期間中、1日に1度ゲームにログインし、イベントバナー右側の「タップで入手」ボタンをタップすると、出現する料理に応じてメンタルキューブをGET！\n　料理は開催期間中全部で7日間出現します。また出現する料理の種類は全部で7種類になります。\n　全ての指揮官が7日間ゲームにログインすることで入手できる報酬の量は同じになります。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.luckybag_skin_islive2d = {
-		tip = "Live 2d"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_weektask_log = {
-		tip = "[$1] 大艦隊任務が完成されました。 大艦隊資金＋$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_help_2308 = {
-		tip = {
-			{
-				info = "■キャンペーン開催期間\n 2023.8.1（火）0:00～2023.9.30（土）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「旗風(META)」、SP報酬からは重巡洋艦「フォッシュ」の限定着せ替え「愛寵のマジョルドム」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません厖\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_equip_same_group_equipment = {
-		tip = "【唯一】装備は2つ以上装備できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_notificationLayer_noInput = {
-		tip = "空メッセージは送信できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_sairen_title = {
-		tip = "セイレーン支配度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.luckybag_skin_isani = {
-		tip = "プチMOTION"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launchball_spilt_many = {
-		tip = "マルチプル：一度に妖怪を3体以上退散させると、入手スコアが上昇する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launchball_spilt_over = {
-		tip = "突き抜け：妖怪を退散させた後、できた空間へと再度札を発射し、その前方の妖怪を退散させると、入手スコアが上昇する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launchball_spilt_mix = {
-		tip = "吸い付き：妖怪を退散させた後、両端の妖怪が同じ色の場合、前の妖怪が自動で後ろの妖怪に吸い付く。その際妖怪を退散させると、入手スコアが上昇する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.target_chapter_is_lock = {
-		tip = "この章の海域はまだ開放されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collect_tip = {
-		tip = "出撃編成中の艦船がいます。委託チームを編成できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launchball_spilt_series = {
-		tip = "コンボ：札を一回発射して複数回妖怪を退散させると、入手スコアが上昇する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launchball_lock_Shimakaze = {
-		tip = "ショップで<color=#92fc63>「島風プレイアブル」</color>購入で選択可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.draw_big_luck_1 = {
-		tip = "お正月に幸運がつきものだにゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launchball_lock_Yura = {
-		tip = "ショップで<color=#92fc63>「由良プレイアブル」</color>購入で選択可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launchball_minigame_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/zuma2023_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/zuma2023_help2",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.jp6th_lihoushan_order = {
-		tip = "前のステージをクリアすると開放されます！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.bulin_tip6 = {
-		tip = "みんなお腹が減ってるのかにゃ？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_shipExit_error = {
-		tip = "配置解除失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cattery_settlement_dialogue_4 = {
-		tip = "を入手したにゃ～"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
-		tip = "電光石火:妖怪を1回退散させる度に、「疾風迅雷」の再使用可能までの時間を0.5秒短縮させる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.twitter_link_title = {
-		tip = "連携中のツイッター：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_index_shipType_qinXun = {
-		tip = "軽巡"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
-		tip = "疾風迅雷:前方扇状の範囲内にいる妖怪を全て退散させる（スコアは基本スコア分だけ入手する）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dreamland_spring_lock_tip = {
-		tip = "ストーリー閲覧後に開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.compose_amount_prefix = {
-		tip = "合成数："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_yura_skill_2 = {
-		tip = "パッシブ:式降ろし"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cook_game_august = {
-		tip = "移動速度UP"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
-		tip = "退妖鬼式:5秒間、妖怪行列の行進スピードを大幅にダウンさせる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_collection_back = {
-		tip = "タップで戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_yura_skill_1 = {
-		tip = "アクティブ:退妖鬼式"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
-		tip = "永久の蝶:10秒間攻撃しなかった場合、信濃が寝てしまい、その後眠っている間の2秒毎にランダムで妖怪を1体退散させる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.retire_selectzero = {
-		tip = "一括退役できる艦船が存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control_buff = {
-		tip = "強化効果はTH1～TH5、SP、EXステージに適用されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_extendArea_ok = {
-		tip = "寮舎拡張に成功しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_hatsuduki_skill_2_desc = {
-		tip = "妖怪苦手:妖怪が中央に近づくと、初月の攻撃速度がアップ\n乱れ撃ち:10秒間攻撃しなかった場合、初月が不貞腐れてしまいランダムな3方向に向けて3回攻撃し、妖怪行列を少し下がらせる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_hatsuduki_skill_1_desc = {
-		tip = "妖怪退散:5秒間、発射した札が妖怪行列を少し下がらせる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.LinkLinkGame_CurTime = {
-		tip = "所要時間:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ambush_display_none = {
-		tip = "なし"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_skill_desc = {
-		tip = "詳細確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_skill_locked = {
-		tip = "【未開放】"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_collection_2 = {
-		tip = "完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_mailMediator_mailDelete = {
-		tip = "削除しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_reward = {
-		tip = "報酬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.decoration_medal_placeholder = {
-		tip = "勲章を入手していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tips_fail_secondarypwd_much_times = {
-		tip = "パスワードが間違っています。<color=#92FC63>%s</color>後再度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100243 = {
-		tip = "Apple連携に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hit_preview = {
-		tip = "命中演出"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shoot_preview = {
-		tip = "発射演出"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_go = {
-		tip = "確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get6 = {
-		tip = "<color=#92fc63FF>入手方法\nノーマル3-4</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_timelimie = {
-		tip = "期間限定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get5 = {
-		tip = "<color=#92fc63FF>入手方法\nノーマル3-3</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_drag_invitation_tip = {
-		tip = "*招待状をキャラにドラッグして贈る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_invitation_part3 = {
-		tip = "招待状を入れる封筒。招待状の用紙同様プレミアム仕様で、相手への敬意、そしてパーティーの格式高さを上手く伝えられるだろう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
-		tip = "どれも美味そう…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_get_date = {
-		tip = "入手時間:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_invitation_part1 = {
-		tip = "艦船のアイコンを所定の場所に貼ろう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.class_label_upgradetime = {
-		tip = "必要時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_recommend_limit = {
-		tip = "大艦隊作戦・支援派遣の優先枠はすでに9隻が設定されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_shop_title = {
-		tip = "イベント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_compare_equal = {
-		tip = "="
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_task_tag_daily = {
-		tip = "毎日任務-"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipskin_tarpedo = {
-		tip = "魚雷"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_task_pt_got = {
-		tip = "入手済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_clear = {
-		tip = "クリア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipment_antiaircraft = {
-		tip = "対空"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_talent_learned = {
-		tip = "アビリティ$1を習得しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.drom3d_beach_memory_limit_tip = {
-		tip = "端末スペックが不足しているため、キャラを3人配置するとプレイ中ゲームがクラッシュする可能性があります。配置を確定しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_task_btn_label = {
-		tip = "雰囲気Lv"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.star_require_enemy_check = {
-		tip = "確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_click_to_close = {
-		tip = "*画面タップで戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_delete_res_tip = {
-		tip = "メモリーズアセットを削除しますか？($1)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_mapselect_sp = {
-		tip = "SP"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_mission_complate = {
-		tip = "大艦隊任務完了：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_progress_item_desc = {
-		tip = "セイレーン作戦で集めた「META座標情報」は解析を行うと、META戦を開放することが出来ます。META座標情報は一度解析すると消費され、また最大値まで溜まった状態では新たなMETA座標情報を入手することが出来ません。\n本日の解析回数：$1/$2\nMETA座標情報入手量　$3"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_favor_level_story = {
-		tip = "特別ストーリー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
-		tip = "ディストーション"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_createNewPlayer_error_nameNull = {
-		tip = "名前を入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_repair_cipher = {
-		tip = "アセット再ダウンロード"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.metaskill_overflow_tip = {
-		tip = "上限を上回った<color=#FFDE60>$1</color>のスキル強化経験値は加算されません。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.metaskill_up = {
-		tip = "<color=#E0E0E0>*「META汎用戦技教科書」で入手できる経験値は毎日入手可能経験上限に含まれない </color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_shop_title = {
-		tip = "META"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_current_boss_label = {
-		tip = "本日入手"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_donate_capital_toplimit = {
-		tip = "本日の資源拠出による大艦隊資金入手数が上限に達しています（個人貢献Ptは増加します）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_default = {
-		tip = "自動"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_no_resource = {
-		tip = "資源が不足しています！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2202 = {
-		tip = "2022.2.1-2022.3.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「隼鷹(META)」</color>などを入手可能！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.game_icon_max = {
-		tip = "コインが所持上限に達しているため、上限分を超えたゲームコインを入手できません。コインを入手しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_selecte_exceed = {
-		tip = "1隻以上選択しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_vo_moveout_formation = {
-		tip = "艦隊から外しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.map_event_save_nekone = {
-		tip = "<color=#92fc63>ネコネ</color>の救出に成功しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_schedule_sure_tip3 = {
-		tip = "まだ使用されていない行動力/設定されていない予定があります。次のターンに進みますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_ammo_empty = {
-		tip = "弾薬が$1補充されました。補給ポイントが消滅しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_levelScene_hard_lock = {
-		tip = "対応するメイン海域がまだクリアされていません。<color=#92fc63>前のステージ</color>を攻略すると開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_label_give_gift_finish = {
-		tip = "贈り物完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_vanguard_fleet = {
-		tip = "前衛"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_level_add = {
-		tip = "評価効果"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collection_way_is_unopen = {
-		tip = "現在は入手できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activityboss_sp_score_update = {
-		tip = "最高スコア更新"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activityboss_sp_score_target = {
-		tip = "目標スコア："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_date_text3 = {
-		tip = "段階上昇"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_none_2 = {
-		tip = "強化指向Ⅱ期/未選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_list_subtitle = {
-		tip = "合計$1個"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activityboss_sp_score_bonus = {
-		tip = "スコア増加"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_sp_ss = {
-		tip = "ｶｽﾀﾏｲｽﾞ潜水"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_ac = {
-		tip = "制空"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_harvestResource_error = {
-		tip = "資源調達失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_no_ticket = {
-		tip = "メモリーズ開放チケットが不足しています。ショップでダイヤを消費し購入可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.area_renwu = {
-		tip = "任務海域"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_unopen = {
-		tip = "未開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_coming_soom = {
-		tip = "日服不用这个"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_effect_addition = {
-		tip = "効率UP："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_download_done = {
-		tip = "アセットDL完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_tag_explore = {
-		tip = "探索"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_list_title = {
-		tip = "メモリーズ一覧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_exchange_success = {
-		tip = "開放しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_start = {
-		tip = "委託開始"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_unequip_all_tip = {
-		tip = "装備を全部外しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SuperBulin2_tip5 = {
-		tip = "海域2-4で暗号を探そうプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backayrd_theme_delete_sucess = {
-		tip = "セット削除成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cryptolalia_not_download_res = {
-		tip = "未DLアセット"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_manga_updating = {
-		tip = "更新中:$1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.fleet_repairShips_quest = {
-		tip = "<color=#92fc63>$1</color>資金で耐久を回復しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_game_limit_num = {
-		tip = "所持数:$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control = {
-		tip = "強化コアを配置して強化効果を入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_maingroup_updatefailure = {
-		tip = "更新に失敗しました。再度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100235 = {
-		tip = "メールアドレスの入力が無効です。もう一度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_maingroup_updatesuccess = {
-		tip = "更新完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_max_page = {
-		tip = "最大"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_pizibao_2 = {
-		tip = "支援艦隊が<color=#f1f102>撃破された</color>！厳しい戦いになりそうだ…！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get11 = {
-		tip = "<color=#92fc63FF>入手方法\n限定任務2</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_maingroup_checkfailure = {
-		tip = "チェックに失敗しました。再度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_group_msgbox_content = {
-		tip = "フルアセットのダウンロードを行うと、実装済みのすべてのコンテンツのダウンロードが行われます。$1のデータのダウンロードを行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_group_prefs_tip = {
-		tip = "起動時に自動更新"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.file_down_mgr_progress = {
-		tip = "$1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2504 = {
-		tip = "2025/4/1-2025/5/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ネバダ(META)」</color>などを入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.storyline_chapter4 = {
-		tip = "第四章"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_title_getitem_soon = {
-		tip = "すぐに入手："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.file_down_msgbox = {
-		tip = "ゲーム起動に必要なアセットが不足しています。\n<color=#92fc63>$1</color>のデータをダウンロードしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_no_dorm_gold = {
-		tip = "<color=#92fc63>コイン</color>が足りません！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.game_icon_max_full = {
-		tip = "すでに所持数上限に到達しているため、これ以上は入手できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
-		tip = "報酬交換チケットが不足しています。ミニゲームロビーに戻りますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.game_room_shooting_tip = {
-		tip = "スコア:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_game_room_coin_tip = {
-		tip = "資金を<color=#92fc63><icon name=res_gold w=0.4 h=0.4/>$1</color>消費し、<color=$3>$4 <icon name=res_coin w=0.4 h=0.4/>× $2</color>を購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mingshi_task_tip_3 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>U</color>>\n次の目標は…<<color=#92fc63>アイテムを売る場所</color>>にゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_tip_to_consumption = {
-		tip = "必要資金"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.wwf_bamboo_tip3 = {
-		tip = "限定任務をクリアし、笹を手に入れましょう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_status_activity = {
-		tip = "<size=24>ｲﾍﾞﾝﾄ出撃中</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attr_antisub = {
-		tip = "対潜"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.remould_ship_ok = {
-		tip = "改造成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200400 = {
-		tip = "決済システムへの通信時にエラーが発生しました\nエラーコード:200400"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.littleTaihou_npc = {
-		tip = {
-			{
-				info = "■概要\n「熱烈の告白演習」とは、イベント開始時に仮加入した【大鳳ちゃん】の「友好度」を海域に出撃することで貯め、【大鳳ちゃん】を正式加入させるイベントになります。"
-			},
-			{
-				info = "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージまたはイベント海域（常設イベントを除く）の中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
-			},
-			{
-				info = "2.【大鳳ちゃん】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。"
-			},
-			{
-				info = "3.【大鳳ちゃん】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【大鳳ちゃん】が戦闘可能な状態の場合、獲得できる「友好度」が2倍になります。"
-			},
-			{
-				info = "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【大鳳ちゃん】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【大鳳ちゃん】は母港からいなくなります。"
-			},
-			{
-				info = "5.友好度報酬は6/18（水）まで毎日1段階ずつ解放されます。"
-			},
-			{
-				info = "6.仮加入状態の【大鳳ちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
-			},
-			{
-				info = "7.仮加入状態の【大鳳ちゃん】は大艦隊作戦には参加できません。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
-		tip = "自動戦闘再開"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.notice_label_tip = {
-		tip = "<size=25>ルームがいっぱいになると入室できません</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_main_end = {
-		tip = "※予想連続出撃数（海域クリア数）<color=#92fc63>$1</color>回、実働海域クリア数<color=#92fc63>$2</color>回"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.notice_label_room = {
-		tip = "ルーム"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.notice_label_send = {
-		tip = "送信"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mktea_4 = {
-		tip = "殺青後の茶葉を涼しい場所に置き、薄く広げて水分を戻します。冷めたら形の整わない葉の欠片をふるい落とします"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_joint_call_guild_support_txt = {
-		tip = "大舰队成员$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_name_modify = {
-		tip = "クルーズ名変更に成功しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sculpture_drawline_exit = {
-		tip = "製作を中止すると、製作進捗がリセットされます。製作を中止しますか？\n（製作を再開するときに素材は消費されません）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_shop_tip = {
-		tip = "限界突破MAX分まで交換可能です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_remain_time = {
-		tip = "販売終了まで"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.anniversary_task_title_11 = {
-		tip = "鋼の記憶をリュウコツに、人々の願いで形作られし者、"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_start_tip3 = {
-		tip = "確保済みのエリアではありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_target_title1 = {
-		tip = "主要目標"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_seaplane = {
-		tip = "水上機"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.eventshop_unlock_hint = {
-		tip = "$1クリアで開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_game_limit_help = {
-		tip = "毎日0時にミニゲーム回数が$1回加算"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_history_desc = {
-		tip = "探検が最後まで進捗すると、隠し宝箱のヒントが出現！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_build_desc = {
-		tip = "施設を拡張すると、拠点LvをUPさせることができます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_name_4 = {
-		tip = "シールド超UP！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型203mmSKC三連装砲改\n533mm四連装磁気魚雷\n試作型203mmSKC三連装砲改</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newplayer_notice_8 = {
-		tip = "海域を上手く攻略できない時は、「新兵任務」で様々な報酬を手に入れて戦力を充実させましょう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.package_view_3 = {
-		tip = "クルーズパス購入済み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipState_npc = {
-		tip = "仮加入状態の艦船を編成できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chargetip_crusing = {
-		tip = "シーズン任務・SP報酬を開放しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_option_limit = {
-		tip = "限定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200310 = {
-		tip = "Google Playへの接続に失敗しました、電波の良いところで再度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_help_2402 = {
-		tip = {
-			{
-				info = "■キャンペーン開催期間\n 2024.2.1（木）0:00～2024.3.31（日）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「キンバリー(META)」、SP報酬からは駆逐艦「深雪」の限定着せ替え「青空とクレープ」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません厖\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ur_exchange_help_tip = {
-		tip = {
-			{
-				info = "■ブリ集めとは"
-			},
-			{
-				info = "ブリ集めとは、「特装型ブリMKⅢ」と交換する「特装コア」を入手できる常設キャンペーンになります。キャンペーン開催期間中、下記の方法で「特装コア」を入手することができ、また毎月の入手可能個数に上限が存在します。入手可能数上限は毎月1日0:00にリセットされます。"
-			},
-			{
-				info = "■「特装コア」の入手方法"
-			},
-			{
-				info = "①ウィークリー任務「常設デイリー任務を20/50個クリアする」をクリアすると、「特装コア」を大量に入手することが出来ます。\n②メイン海域（ノーマル・ハード）、イベント海域、作戦履歴の常設化イベント海域に出撃し、敵中枢艦隊を撃破した際、「特装コア」を少し入手することができます。\n③科学研究室で科学研究を行うと、「特装コア」を少し入手することがあります。\n④建造で入手したUレア艦船を退役すると、「特装コア」を入手することができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandnode_tips9 = {
-		tip = "裏山拠点を拡張し拠点レベルを上げ、ストーリーを開放しよう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_archives_boss_list_help = {
-		tip = {
-			{
-				info = "記憶履歴について\n\n1. 記憶履歴で開放可能な艦船（入手していない艦船）の解析Ptは、当該艦船のMETA戦イベント初回開催時の解析Ptが引き継がれます。また、累計解析Pt報酬の受け取り状況も引き継がれます。\n2.記憶履歴では、当該META艦船の履歴解放・累計解析Pt報酬の受け取りが行なえます。\n3.全ての累計解析Pt報酬を入手した場合、当該艦船は「Pt報酬受取済」タブに移動されます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandnode_tips7 = {
-		tip = "指揮官がいない間、$1は花畑はの世話をした！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_extendBackYard_error = {
-		tip = "休憩枠追加失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandnode_tips5 = {
-		tip = "不正解ピョ…次はきっと正解できるピョ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandnode_tips2 = {
-		tip = "TIPS"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_level_up_tip = {
-		tip = "※レベル5上がる度にアビリティPtを1Pt得られます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/island_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help5",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help6",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help7",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_device = {
-		tip = "設備"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_4 = {
-		tip = "メイ\nン4"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.workbench_tips10 = {
-		tip = "製作可能なレシピのみ表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.workbench_tips9 = {
-		tip = "必要素材"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_shop_title = {
-		tip = "復刻ショップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sham_count_reset = {
-		tip = "「鏡面海域」掃討作戦は既に完了しました。戦況をリセット（1回/日）しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_archives_item_count_noenough = {
-		tip = "記憶履歴情報が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_noRes_info_tip = {
-		tip = "<color=#ff5c5c>$2$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_not_exist_donate_task = {
-		tip = "この任務が存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_desc_resolve_equip = {
-		tip = "パスワード機能で制限されている操作です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.haidaojudian_building_tip = {
-		tip = "施設拡張に必要な素材が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.card_puzzle_deck = {
-		tip = "デッキ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_get_report_failed = {
-		tip = "作戦報告情報を受け取るのに失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.haidaojudian_help = {
-		tip = {
-			{
-				info = "イベント概要：\n 「潮風と夏の無人島」イベントとは「無人島」を探検し「探検コイン」を集め、様々な報酬を入手できるイベントになります。\n 「潮風と夏の無人島」は、「冒険マップ」と「裏山拠点」の2つのパートに分かれています。\n 「無人島」でマップ探検し、様々なイベントやミニゲームをプレイすることで、「探検コイン」を入手し「ショップ」で報酬と交換することができます。\n 「裏山拠点」では「無人島」で獲得した素材を使い、拠点の拡張したりアイテムを製作（クラフト）したりすることで「無人島」で探検するエリアを開放し、様々な報酬を得ることができます。\n\n「裏山拠点」について：\n「裏山拠点」ではアイコンをタップすることで、更に様々な機能に遷移できます。\nさらに「裏山拠点」にはレベルが存在し、レベルを上げるとイベント期間中に艦隊全体に強化効果を付与できます。\nレベルを上げるには、冒険マップや「クラフト」で集めた素材を消費し、各施設を「拡張」する必要があります。\n各施設を一通り拡張すると、拠点レベルは自動で上昇します。（現在の拠点レベルについては「冒険任務」で確認できます）\n\n各種機能について：\n①クラフト\n　無人島の冒険マップや「饅頭探検隊」、実績任務で入手した素材を消費し、限定家具やほかの機能に使用する素材アイテムなど、様々なアイテムを生成することができます。\n　「クラフト」を拡張すれば、生成できるアイテムの種類が増えます。\n\n②饅頭探検隊\n　毎日一度だけ、「饅頭探検隊」から自動で素材アイテムを入手できます。\n　「饅頭探検隊」で入手できるアイテムの数は、「饅頭探検隊」とその他の施設を拡張することで増やすことができます。\n\n③饅頭手芸\n　饅頭手芸では、冒険マップや「クラフト」で入手する素材を消費し、艦船たちに贈るお土産を作ることができます。\n　お土産を作って艦船に贈ると、返礼として「探検コイン」などの報酬を入手することができます。\n\n④冒険任務\n　実績任務を確認することができます。任務を達成すると、「探検コイン」などの報酬を入手することができます。\n　また、「冒険進捗」では現在のストーリー進捗と探検進行度を確認することができます。ページを埋めると、冒険マップでの隠し宝箱のヒントも表示されます。\n\n⑤饅頭給食隊、饅頭補給隊\n　「拡張」を行うと拠点レベルを上げられるほか、「饅頭探検隊」で入手できるアイテムも増やせることができます。\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_act_tips1 = {
-		tip = "画面をタップして戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_shop_limit_tip = {
-		tip = "今月残り購入可能回数："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_levelMediator_ok_takeResource = {
-		tip = "資源を調達しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activityboss_sp_window_best_score = {
-		tip = "達成済スコア："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_donate_list_update_failed = {
-		tip = "物資拠出回数がリセットされませんました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_remaster_story_tip = {
-		tip = "ストーリー「$1」が開放されました。\n「図鑑」の「思い出」で確認できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_screen_all = {
-		tip = "すべて"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sculpture_gratitude_tip = {
-		tip = "お土産を艦船にドラッグしてプレゼントしよう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.urdraw_tip = {
-		tip = "まだ受け取っていない累計建造数報酬があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
-		tip = "出撃艦を配置しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sculpture_drawline_done = {
-		tip = "設計通りにお土産のパーツを組み合わせられました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_combatperformance = {
-		tip = "戦闘性能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_activity_end = {
-		tip = "<color=#92fc63>終了済み</color>のイベントです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_minigame_help = {
-		tip = {
-			{
-				icon = {
-					posY = 0,
-					atlas = "helpbg/doa_minigame_1",
-					path = "",
-					posX = 0
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_minigame_Tamaki = {
-		tip = "たまき"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_error_disable = {
-		tip = "ストア決済機能がメンテナンス中です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_redeploy_cost_tip = {
-		tip = "再編成するには行動力を$1消費します。再編成を行いますか？（指揮官行動力：$2 指揮官指令は前に発動した指令からの時間経過に応じて消費行動力が変化します）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_minigame_Misaki = {
-		tip = "みさき"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_recommend_level1 = {
-		tip = "条件を満たした艦船がいません。ロック済み・Lv.1の艦船を自動で編成に加えしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.coloring_erase_all_warning = {
-		tip = "「リセット」は、既に着色済みの全ての枠の色を削除します。本当にリセットしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_submarine_4 = {
-		tip = "潜水艦隊が編成されていないため支援要請できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_buy_tips = {
-		tip = "$1<color=#169fff>$2</color>消費（合計$1<color=#169fff>$3</color>）し、<color=#169fff>$4</color> を購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_task_quickfinish3 = {
-		tip = "アイテムを使用しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_ship_bag_max = {
-		tip = "現在はこれ以上拡張できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip11 = {
-		tip = "「図鑑」でヒントを見つけられるプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100190 = {
-		tip = "SNSアカウント連携状況の照合に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip10 = {
-		tip = "「建造」…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_select_device_destroy_nobonus_tip = {
-		tip = "入手素材なし"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip9 = {
-		tip = "「ショップ」…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip6 = {
-		tip = "寮舎…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_dmg = {
-		tip = "ダメージ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_lock_ship_label = {
-		tip = "新登録艦船自動ロック"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip2 = {
-		tip = "倉庫…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_tip1 = {
-		tip = "通常海域の1-2に何かがあるプリン？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_entry_inhibited = {
-		tip = "利用が制限されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get8 = {
-		tip = "<color=#92fc63FF>入手方法\nノーマル2-4</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_help = {
-		tip = {
-			{
-				info = "遊び方：\n裏山キャンペーン「妖怪温泉街」にて、「饅頭温泉」が<color=#92fc63>9.14-10.4 23:59</color>まで開放されます！\n1.饅頭温泉の入浴枠をタップすると、艦船を配置しコンディションの回復速度を上昇させられます\n2.配置済みの艦船をドラッグ&ドロップすると温泉での位置を調整できます\n3.ミニゲーム「温泉街神隠し事件」をプレイすると、アイテム<color=#92fc63>温泉手形</color>を最大4個まで入手できます\n4.「増築」ボタンをタップすると、<color=#92fc63>温泉手形</color>を消費し入浴枠を追加することが可能です"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_cd = {
-		tip = "攻速"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.game_ticket_max_month = {
-		tip = "今月の入手可能チケット数が上限に達しているため、上限分を超えた報酬交換チケットを入手できません。ゲームをプレイしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_manga_checkfailure = {
-		tip = "チェックに失敗しました。再度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_team_notenough = {
-		tip = "出撃条件（前衛と主力艦隊それぞれ1隻以上）に満たない艦隊があるため出撃できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pt_ship_now = {
-		tip = "撃破数合計："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hide_chat_warning = {
-		tip = "チャット機能を停止すると、チャットメッセージを受信しなくなります。チャット機能を停止しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_event_title2 = {
-		tip = "手がかり②"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_reward = {
-		tip = "累計Pt報酬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_visit_backyard_toggle = {
-		tip = "友達の寮舎訪問を許可"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_2 = {
-		tip = "発射速度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_noRes_info_tip_link = {
-		tip = "と"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_empty_plan = {
-		tip = "予定はありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_105224 = {
-		tip = "改造（近代化改修）を行うと<color=#92fc63>【BIG SEVEN】</color>スキルが\n<color=#92fc63>【BIG SEVEN·メリーランド】に強化されます</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_systemClose = {
-		tip = "この機能は現在開放されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_skill_desc_learn = {
-		tip = "($1)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.eva_comment_send_null = {
-		tip = "コメントを入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ai_change_2 = {
-		tip = "潜水艦隊・主動索敵態勢に移行しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_storyreward = {
-		tip = "解放済："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_storyunlock = {
-		tip = "次のストーリーを開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_5 = {
-		tip = "T1 入院棟（黄昏）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_ask_help = {
-		tip = "このチャンネルには援軍要請を行えません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_reward_tip4 = {
-		tip = "最高スコア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_mood_error = {
-		tip = "コンディションが30以下の艦船がいるため単独出撃できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_310034 = {
-		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_insufficient = {
-		tip = "引換券が足りないにゃ。温泉の増築を手伝ってくれたら引換券をあげるにゃ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_hit_monster_nocount = {
-		tip = "回数が足りません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_mood = {
-		tip = "戦意低下"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_tianchengCV_3 = {
-		tip = "敵が大技を使ってきます！法陣を起動して支援攻撃を呼び出しましょう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100301 = {
-		tip = "メールアドレスが一致しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_maingroup_idle = {
-		tip = "更新情報無効"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newplayer_notice_7 = {
-		tip = "前段階の任務クリア後に開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_teach = {
-		tip = "授業"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_daily_limit = {
-		tip = "解析回数不足"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guidl_ssr_box_time_desc = {
-		tip = "ネコハコSSR訓練時間短縮$3"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.bulin_tip_other1 = {
-		tip = "入手条件ヒントは10分につき1個しか表示できないプリン！表示するプリン？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_haidao_1 = {
-		tip = "///「テンペスタ」じゃないなら全力を出そう！///"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chapter_tip_aovid_failed = {
-		tip = "回避失敗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_all = {
-		tip = "すべて"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_fleetName2 = {
-		tip = "第 二 艦 隊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_op_only_administrator = {
-		tip = "この操作は大艦隊司令/副司令でのみ行なえます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tech_select_tip1 = {
-		tip = "PR艦船交換"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_bisimaiz_7 = {
-		tip = "侵食が浄化されました。現在の侵食レベル：<color=#92fc63>0</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.unique_ship_tip1 = {
-		tip = "選択中の艦船で<color=#92fc63>1隻しか所持していない艦船</color>があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_bisimaiz_2 = {
-		tip = "現在の侵食レベル：<color=#f1f102>1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.gem_shop_xinzhi_tip = {
-		tip = "今月購入済　$1/15回"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.option_desc3 = {
-		tip = "（ON状態）レアリティSSR以上の艦船入手時、端末バイブレーション機能で通知する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_chinese = {
-		tip = "中文"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_bisimaiz_1 = {
-		tip = "現在の侵食レベル：<color=#92fc63>0</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_catsearch_help_3 = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/tactics",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amusementpark_shop_carousel2 = {
-		tip = "揺れたりしない直線で～丁寧に描くピョ～♪"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_yingxiv4_9 = {
-		tip = "敵の主砲攻撃をうまく誘導し装置を破壊させよ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_yingxiv4_8 = {
-		tip = "騎士は味方主力艦隊をロックオンしている"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_exchange_tip3 = {
-		tip = "補填メールをメールボックスにてご確認ください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_yingxiv4_5 = {
-		tip = "騎士の出力が上昇している！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_stop_reason4 = {
-		tip = "戦闘敗北のため"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_resourceSiteMediator_shipState_rest = {
-		tip = "寮舎で休憩中です…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_summary_data = {
-		tip = "入手日："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_yingxiv4_3 = {
-		tip = "騎士はチャージをしている（右）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_yingxiv4_1 = {
-		tip = "騎士はチャージをしている（左）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control_buff_upgrade = {
-		tip = "強化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_mapbuff_attrtxt_3 = {
-		tip = "回復撹乱"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_level = {
-		tip = "レベル上限"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_buff_stage_loot = {
-		tip = "クリア報酬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_recover_bottom3 = {
-		tip = "$1年"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_noFood = {
-		tip = "食糧が足りません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_item_lantern"] = {
-		tip = "新春灯籠|使用すると年獣を遠ざけられ、5秒間接近してこれなくなる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_buildShip_not_position = {
-		tip = "建造待ちが一杯です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_recover_bottom1 = {
-		tip = "メール確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_recover_tip7 = {
-		tip = "メール確認が終了しました。既にバレンタインメールがメールボックス/保管庫に存在しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_recover_tip6 = {
-		tip = "メール確認が終了しました。$1年のバレンタインメールを再送できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_filter_award_attr1 = {
-		tip = "属性"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_yingxiv4_7 = {
-		tip = "騎士が警戒状態だ！動きを慎重に！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resorts_help = {
-		tip = {
-			{
-				info = "開催期間：<color=#92fc63>2022.12.22-2023.1.5メンテナンスまで</color>\n裏山キャンペーンについて：\n「ミニゲーム」：ミニゲームを7日間プレイし、バーミンガムの着せ替え「行き先は風次第」を入手可能！\n「裏山温泉」：艦船を配置し、コンディション回復速度UP！さらに報酬家具「饅頭温泉宿」などと交換可能\n「運試し」：毎日ログインして運試しを行い、限定家具「福引き小包」を入手可能\n「幸運祈願」：毎日ログインして幸運祈願を行い、SSR艦船と交換可能な「招待状」アイテムをGET！\n「着せ替え」：着せ替えショップに移動する\n「限定建造」：限定建造に移動する"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_exchange_tip2 = {
-		tip = "明石メールのアイテムを一度受け取ってからお試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_exchange_tip1 = {
-		tip = "明石メールが削除されています。運営窓口までご連絡ください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_sea = {
-		tip = "近海"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.nav_tactics_sel_skill_title = {
-		tip = "スキル確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amusementpark_shop_0 = {
-		tip = "焔の匂いが染み付いて……君はこの戦場を生き残ることができるだろうかピョ？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_rest_time = {
-		tip = "進捗:$1/$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.enter_extend_food_label = {
-		tip = "拡張"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_filter_placeholder = {
-		tip = "対象のメールがありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sort_energy = {
-		tip = "ｺﾝﾃﾞｨｼｮﾝ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_game_rigister_full = {
-		tip = "サーバーは満員です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Supplement_pay5 = {
-		tip = "不正な支払い（払い戻し）情報が発生した項目をタップし、支払手続きを再度行ってください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_39905 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型彩雲（艦攻型・特別計画艦仕様）\n試作型天雷（特別計画艦仕様）\n試作型彩雲（艦攻型・特別計画艦仕様）</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Valentine_minigame_label2 = {
-		tip = "報酬開放ステージ："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_resdownload_title_live2d = {
-		tip = "Live2D更新"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_toggle_only_composite = {
-		tip = "調合可能のみ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
-		tip = "当前完成："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.class_label_gen = {
-		tip = "生成中:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.channel_name_4 = {
-		tip = "友達"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.notice_label_recv = {
-		tip = "受信"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_equipdetail = {
-		tip = "装備詳細"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_collection = {
-		tip = {
-			{
-				info = "■キャラ好物情報について"
-			},
-			{
-				info = "「キャラ好物情報」では、コラボイベントに参加し、様\n々な条件を達成することで「キャラ好物情報」を開放す\nることができます。\n「キャラ好物情報」を全18個開放すると、限定家具「\nヴィーナス記念像」（合計で1個しか所持できません）、「装備外装箱（ヴィーナスバカンス）*3」を入手できます。"
-			},
-			{
-				info = "■キャラ好物情報の解放方法"
-			},
-			{
-				info = "キャラ好物情報は下記それぞれの方法によって開放され\nます。\n・イベント海域（ステージ）をクリア\n・イベント任務をクリア\n・ヴィーナスPt「累計獲得数報酬」\n・「ミニゲーム新規（どんけつゲーム）」「ミニゲーム復刻（ヴィーナス練習試合）」に参加\n\nキャラ好物情報の開放報酬は5月17日（水）23:59ま\nでの期間限定で受け取れます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_class_tip = {
-		tip = "授業に参加すると経験値が上昇します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["3match_tip"] = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/3match_1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/3match_2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/3match_3",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_propose_skin = {
-		tip = "ｹｯｺﾝ衣装"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_retry_desc = {
-		tip = "連続出撃$1回"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exercise_clear_fleet_tip = {
-		tip = "<color=#92fc63>演習防衛艦隊</color>がクリアされます。確認しますか？（※演習で挑まれた時第一艦隊が防衛側になります）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill4"] = {
-		tip = "重力年獣|撫順の移動速度を15％ダウンさせる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipInfoScene_infomation = {
-		tip = "艦船詳細"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
-		tip = "完成次数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.eventshop_time_hint = {
-		tip = "$1メンテナンスまで交換可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_main_tip = {
-		tip = "※連続出撃中に<color=#92fc63>自動移動・オート戦闘</color>モードが適用されます。\n※自動移動を中止させると、連続出撃モードも中止されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_stop_reason2 = {
-		tip = "編成中の<color=#92fc63>$2</color>のコンディションが低いため"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_stop_tip_end = {
-		tip = "。連続挑戦が中止されました。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_finish_tip = {
-		tip = "<color=#92fc63>連続挑戦</color>が完了しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_end_status = {
-		tip = "連続挑戦設定出撃回数<color=#92fc63>$1</color>回。中止・終了時出撃回数<color=#92fc63>$2</color>回。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_stop_end = {
-		tip = "　　連続挑戦が中止されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_formation = {
-		tip = "出撃"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_add_tip2 = {
-		tip = "下記の艦船が候補リストに追加されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.confirm_unlock = {
-		tip = "$1は現在「保護（ロック掛け）」状態になっています。\n$1をアンロックしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.task_taskMediator_getResource = {
-		tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newplayer_notice_6 = {
-		tip = "クリアで「フッド」「サンディエゴ」「エンタープライズ」「イラストリアス」から一隻を入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_update_end_title = {
-		tip = "アセット更新完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_akashi_pick_title = {
-		tip = "オススメ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_resume_tip = {
-		tip = "<color=#92fc63>連続挑戦</color>を継続します"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.warning_mail_max_1 = {
-		tip = "メール所持件数が上限(<color=#FF5C5C>$1</color>/$2)に近づいています。メールを整理してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
-		tip = "吸引年獣|20秒毎にランダムでブラックホールを作り出す。撫順が近づくと移動速度がダウンし、さらに中心に入ると1秒間移動不可となる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipInfoMediator_destory = {
-		tip = "退役完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_share_label_4 = {
-		tip = "対航空"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_locked_tip = {
-		tip = "当該ステージ一回クリアで<color=#92fc63>連続作戦</color>機能が開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_weixi = {
-		tip = "ヴィシア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_title_eng = {
-		tip = "Multiple Sorties"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_title = {
-		tip = "連続挑戦"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SkinDiscount_Got = {
-		tip = "所持中:$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_tip2"] = {
-		tip = "装備済み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_1_3 = {
-		tip = "6"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_tip1"] = {
-		tip = "装備"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_level_limit_tip = {
-		tip = "注意：<color=#92fc63>指揮官レベル50以上、またはノーマルモードを全部クリアしないと</color>ハードモードを選択できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill8"] = {
-		tip = "爆速年獣|10秒毎に発動し、5秒間移動速度が20％アップする（効果持続中に攻撃すると効果が無効になる）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_cost3 = {
-		tip = "<color=#92fc63>「大作戦指令書<icon name=ticket w=0.7 h=0.7/>$1」</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill5"] = {
-		tip = "分身年獣|分身を召喚する。分身は特殊能力を持たず、移動速度が本物の70％になる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.nine_choose_one = {
-		tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n※艦船「<color=#92fc63>$1</color>」と記念アイテムを入手できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_bless_substitute_up"] = {
-		tip = "スキル「デコイ」を開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_ship = {
-		tip = "専用装備"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_bless_speed"] = {
-		tip = "ハイスピード|基本移動速度が上昇する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_skill_sprint_up"] = {
-		tip = "スキル「クイックステップ」を開放。持続時間5秒。スキルクールダウン20秒|移動速度がさらに10％アップ|持続時間が2秒伸びる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName1 = {
-		tip = "第一艦隊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_cmdClose = {
-		tip = "準備中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_skill_sprint"] = {
-		tip = "クイックステップ|一定時間移動速度が20％アップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_item_firecracker"] = {
-		tip = "バクチク|使用すると周りの年獣をびっくりさせ5秒間逃げさせる事が可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_pair_7 = {
-		tip = "いでしつきかも"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_minute = {
-		tip = "分"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_pair_1 = {
-		tip = "つゆにぬれつつ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_complete = {
-		tip = "句が全て完成しましたね"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.zengke_series_ex = {
-		tip = "E.X"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_chapter_timeout = {
-		tip = "作戦時間終了。母港に帰還しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_fleet_busy = {
-		tip = "これ以上委託を請負できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_drag_tip = {
-		tip = "※ドラッグして字の並びを調整可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplet_index_desc = {
-		tip = "$1問目"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tip_nianye = {
-		tip = "SDキャラ演出完了まで少々お待ちください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_story_speed_1 = {
-		tip = "遅い"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_fleetName4 = {
-		tip = "第 四 艦 隊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SkinMagazinePage2_tip = {
-		tip = "受け取り"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.zengke_series_easy = {
-		tip = "簡単"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_attr_title = {
-		tip = "パラメータ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_yanhua_tip7 = {
-		tip = "花火をもう一度タップすると打ち上げ順から削除できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_yanhua_tip5 = {
-		tip = "花火の星が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_yanhua_tip3 = {
-		tip = "現在開放済みの花火数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yixian_nianye = {
-		tip = "連年有余、平安歳歳。新しい一年、全て上手くいきますように"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_defaultname = {
-		tip = "マイセット"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.taiyuan_nianye = {
-		tip = "よかった……どれも皮が破れていない…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.zhaohe_nianye = {
-		tip = "焦げたりしていないわね？ふん、私だってちゃんと作れるわ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_lesson_start_tip = {
-		tip = "<color=#92fc63>「$1」</color>を<color=#92fc63>1冊</color>使って、<color=#92fc63>「$2」</color>の<color=#92fc63>$3</color>を強化しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_target_time_title = {
-		tip = "残り時間："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e7_desc = {
-		tip = "自身の周りに存在する煙幕や速力低下効果を無効にするぞ。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e6_desc = {
-		tip = "耐久が50％を下回ると、フィールドの全てのセイレーンに、自身の耐久上限の10％分のダメージを吸収するシールドを生成するぞ！\nシールドは同時に一枚しか存在できない。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_story_lock = {
-		tip = "需要完成前置剧情才能进行资讯同步(未使用)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_sham_win = {
-		tip = "「鏡面海域」掃討完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_plan_type2 = {
-		tip = "趣味活動"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_npc_formation_tip = {
-		tip = "仮加入状態の艦船を編成できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e4_desc = {
-		tip = "高い耐久と攻撃力を持っているセイレーンだ。でも行動が遅いぞ。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_interface_save_success = {
-		tip = "ボタン配置を保存しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e3_desc = {
-		tip = "普通のセイレーン。スカベンジャーより攻撃速度が早いぞ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_preCombatLayer_victory = {
-		tip = "敵艦隊を撃破"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e2_desc = {
-		tip = "普通のセイレーン。スカベンジャーより移動速度が早いぞ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e1_desc = {
-		tip = "移動と攻撃を行う普通のセイレーンだ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_tech_oil_desc = {
-		tip = "燃料備蓄上限+$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e6 = {
-		tip = "テスター"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pgs_binding_account = {
-		tip = "連携中のPGSアカウント：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e2 = {
-		tip = "チェイサー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_story_speed_4 = {
-		tip = "非常に速い"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e1 = {
-		tip = "スカベンジャー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_m_guard_name = {
-		tip = "防衛饅頭"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_label1 = {
-		tip = "使用中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_m_craft_name = {
-		tip = "生産饅頭"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_shop_refresh_done = {
-		tip = "リセットしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_m_atk = {
-		tip = "花火を発射し敵を攻撃してくれるピョ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_fleet_in_vortex = {
-		tip = "艦隊は渦に飲み込まれそうになってしまっており、普段どおり移動できなくなっている"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_bisimaiz_9 = {
-		tip = "「<color=#ffc038>シンクロナイズ解離</color>」-自律型艤装の防御が<color=#f1f102>大幅にダウン</color>している！攻撃を集中しよう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_msg_title_detail = {
-		tip = "詳細"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_task_help_2410 = {
-		tip = {
-			{
-				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_updateShipLock_ok_unlock = {
-		tip = "<color=#92fc63>$1</color>をアンロックしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.which_day_2 = {
-		tip = "$1日目"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yostar_unlink_btn_text = {
-		tip = "Yostarアカウント連携済み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_exchange = {
-		tip = " <icon name=Props/wenquanjuan w=0.7 h=0.7/> を$1個消費して、$3を$2個交換しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_success1 = {
-		tip = "毎度ありにゃ～"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_touch2 = {
-		tip = "報酬はただじゃあげられにゃいにゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_touch1 = {
-		tip = "明石は交換できにゃいにゃ～"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_success2 = {
-		tip = "いいセンスにゃ♪"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_shop_touch3 = {
-		tip = "明石をからかってるのかにゃ？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_preview = {
-		tip = "予想"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_remove_title = {
-		tip = "艦船削除"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.coures_exp_npc_tip = {
-		tip = "仮加入キャラ（正式加入が済ませていない）であるため、イベント終了時に母港からいなくなります。続きますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_dressed = {
-		tip = "着替適用済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_site_drop_item = {
-		tip = "状態【$1】入手"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.utaware_formal_notice = {
-		tip = {
-			{
-				info = "SP4クリア後、下記ステージで特定の条件を達成すると、ストー\nリーが開放可能になります。\n"
-			},
-			{
-				info = "ヒント：\n SP1\n※鏡面海域にもう一度訪れよう！\n※最初の戦場で敵を殲滅せよ！\n"
-			},
-			{
-				info = " SP2\n※鏡面海域にもう一度訪れよう！\n※戦場の敵を全て撃破せよ！\n※立ちはだかる強敵を撃破せよ！\n"
-			},
-			{
-				info = " SP3\n※もう一度仲間たちを救出せよ！\n※二つの封印を同時に解除せよ！\n"
-			},
-			{
-				info = " SP4\n※二人の強敵を撃破せよ！\n※戦場の敵を全て撃破せよ！\n※夢幻の封印を追え！"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_add_complete = {
-		tip = "候補リストに追加しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.jiujiu_expedition_reward_tip = {
-		tip = "ステージを探索し、報酬を手に入れよう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
-		tip = "艦船を選んで候補リストに追加できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_main_empty = {
-		tip = "ランダム秘書艦候補リストに艦船がいません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
-		tip = "追加"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_empty = {
-		tip = "ランダム秘書艦候補リストに艦船を追加しましょう"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_buff = {
-		tip = "夏のテルマエ|入浴中の艦船のコンディション回復速度がUP"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_m_atk_name = {
-		tip = "戦闘饅頭"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_stage_desc3 = {
-		tip = "育成段階Ⅲ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collect_page_got = {
-		tip = "入手済："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100140 = {
-		tip = "アカウント認証に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_toast_tactics = {
-		tip = "習得EXP"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipModLayer_effect1or2 = {
-		tip = "増加補正: <color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_notificationLayer_addFriendError_friendAlready = {
-		tip = "既に友達になっているユーザーです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tips_confirm_teleport_sub = {
-		tip = "作戦指示：<color=#92fc63FF>潜水艦隊</color>の作戦エリアを<color=#92fc63FF>$1</color>から<color=#92fc63FF>$2</color>に変更するには<color=#92fc63FF>$3</color>マス移動させる必要があり、燃料<color=#92fc63FF>$4</color>を消費します。作戦エリアを変更しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_level_num = {
-		tip = "評価レベル"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_condition_durability = {
-		tip = "耐久合計"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.electrotherapy_wanning = {
-		tip = "鏡面海域化領域・接近中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.springtask_tip = {
-		tip = "裏山拠点の「クラフト」で必要なアイテムを作り、温泉施設を完成しよう！\n温泉施設を完成すると、配置するコンディション回復速度をUPさせる温泉機能が利用可能！（5/29全任務開放）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_duty_id_is_null = {
-		tip = "役職を設定する必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_detail_content = {
-		tip = "内容"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_angry = {
-		tip = "<color=#E40006>不満</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_tag_adventure = {
-		tip = "探検"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_tag_battle = {
-		tip = "討伐"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_level_desc = {
-		tip = "母港評価"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.anniversary_task_title_2 = {
-		tip = "共に進むは波を切る鋼鉄の大翼、想い寄せられし歴史の結び目。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tip_build_ticket_expired = {
-		tip = "イベントがすでに終了したため、【$1】を使用できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_battle_ac = {
-		tip = {
-			{
-				info = "■制空値とは：\n「制空値」とは海域における航空戦力の拮抗状況に影響するもので、味方出撃艦隊と出撃海域それぞれに「制空値」があり、味方の制空値と敵制空値との比較によって「制空権」が決定されます。\n\n「制空権」の状況により、下記の項目に影響があります。\n・味方の航空攻撃が与えるダメージ\n・味方艦隊が受ける敵航空攻撃によるダメージ\n・味方艦隊の一部ステータス（命中・回避・偵察値が微増/減）\n\nまた、味方艦隊と海域の制空値が両方一定の数値より低い場合、「制空権」による影響が無効になります。\n制空権の効果は海域マップ画面上部のアイコンをタップすることで確認することが出来ます。\n\n■制空値の決め方\n味方艦隊の制空値は下記の項目を参照します。\n・味方艦隊の制空艦（正規空母、軽空母、航空戦艦、潜水空母）数\n・味方艦隊の「航空」ステータス\n・味方艦隊の搭載中の艦載機（戦闘機・爆撃機・攻撃機・水上機）\n味方艦隊の初期制空値は海域マップ選択画面の出撃準備画面で確認することが出来ます。\n\n海域制空値は下記の項目を参照します。\n・海域深度（章数）\n・味方艦隊の「対空」ステータスハードモードにおける海域制空値は「周回モード」の設定により変化します。\n\n■tips\n・味方艦隊の現在の制空値は「海域マップ画面で戦闘可能な艦」によって決められます。\n・味方艦隊が直接戦闘に参加しなくても、制空値に貢献することができます。\n・味方制空艦が戦闘不能になると、その艦の分だけ味方艦隊の制空値が低下します。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_composite_help_tip = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/ryza_composite_1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/ryza_composite_2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/ryza_composite_3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/ryza_composite_4",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_levelScene_ryza_lock = {
-		tip = "採取地ステージはイベントステージT5クリアで開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_tempesteve = {
-		tip = {
-			{
-				info = "遊び方："
-			},
-			{
-				info = "「迫り来る嵐」では、進行回数を消費することでイベン\nト戦闘（固定編成による戦闘）などの条件をクリアする\nことで、作戦進捗を進行させることができます。"
-			},
-			{
-				info = "  作戦進捗を進めると、イベントアイテム「作戦レポー\nト」を入手することができます。作戦進捗をMAXにす\nると、設備「偵察報告書・NY周辺海域」を入手できま\nす。"
-			},
-			{
-				info = "  作戦進捗3/24までは１日１回進行させることができ、\nまた3/19以降は前日分を進行させることができます。"
-			},
-			{
-				info = "  P1　イベント戦闘をクリア\n  P2　イベントステージをクリア\n  P3　イベントストーリーを閲覧\n  P4　イベントステージをクリア\n  P5　イベントステージをクリア\n  P6　イベントストーリーを閲覧\n  P7　イベントステージをクリア"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.game_ticket_notenough = {
-		tip = "報酬交換チケットが不足しています。ミニゲームロビーに戻りますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control_buff_already_active_tip = {
-		tip = "配置済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_levelScene_close = {
-		tip = "イベント海域が開放されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control_buff_limit = {
-		tip = "配置上限"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_control_buff_replace = {
-		tip = "変更"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_no_item = {
-		tip = "調合素材を所持していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.memory_activity_sp = {
-		tip = "SPイベ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_task_view2 = {
-		tip = "現在エリア："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.lanternRiddles_gametip = {
-		tip = {
-			{
-				info = "■概要\n「饅頭クイズ」とは、表示されるクイズに答え報酬を獲得できるミニイベントになります。\n\n■遊び方 \n ・画面に表示される「クイズシート」をタップすると、クイズが表示され、回答することができます。 \n ・クイズに正解すると、進行度が1つ達成されます。クイズに不正解の場合、再回答時間が経過するまでクイズに回答することができません。\n ・イベント開始日から1日につき1つ、イベントの最大進行可能回数が1つ増加します。\n ・クイズに正解すると、正答したクイズ数に応じて最大7回まで、報酬を手に入れることができます。\n\n■注意\n ・クイズは正解するまで、何度でも回答する事ができます。正解したクイズは再度回答することができません\n ・クイズは全14問あります。8回目以降は正解しても報酬を得ることができません。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_composite_unlock = {
-		tip = "調合システムはイベントステージT5クリアで開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_level_difficulty_tip = {
-		tip = "注意：ハードモードを選択すると、<color=#92fc63>ノーマルモードでの攻略進捗がなくなります</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_put_materials = {
-		tip = "サークルをタップし調合素材を投入してください($1/$2)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_tip_select_recipe = {
-		tip = "左のレシピを選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_task_help_2206 = {
-		tip = {
-			{
-				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.prop_destroyProp_error_canNotSell = {
-		tip = "このアイテムは売却できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_tili = {
-		tip = "STM"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_composite_confirm = {
-		tip = "$1 × $2 を調合しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_special_title_physiognomy = {
-		tip = "モジュール変更"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_other = {
-		tip = "素材関連"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_duty_tip_1 = {
-		tip = "<color=#7FAFFF>職務</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.win_condition_display_shangchuan_tip = {
-		tip = "輸送船が目標地点に到着しました。海上護衛成功！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.breakout_tip = {
-		tip = "*限界突破を行うと星が上昇"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_shop_must_select_goods = {
-		tip = "交換するアイテムを選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.fight_strengthen = {
-		tip = "全艦隊を海域から引き上げ（撤退）、ドックで艦船の強化・限界突破を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.read_the_user_agreement = {
-		tip = "利用規約を最後までスクロールしてご確認ください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_e5 = {
-		tip = "コンダクター"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pgs_login_binding_exist3 = {
-		tip = "このゲームアカウントは既に他のPGSアカウントと連携されています。\nまた、変更先のPGSアカウントは既に他のゲームアカウントと連携されています。\nゲームアカウント·PGSアカウントの連携先を変更しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate2 = {
-		tip = "超人"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_start_erro = {
-		tip = "研究失敗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.build_rate_title = {
-		tip = "提供割合"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.build_count_tip = {
-		tip = "累計"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ex_pass_use = {
-		tip = "使用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_pair_4 = {
-		tip = "ながめせしまに"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_select_SP_OP = {
-		tip = "タップでアイテム選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100114 = {
-		tip = "このIPアドレスでのアクセスは制限されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_exchange_empty_tip = {
-		tip = "交換できる対象アイテムは存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_2_2 = {
-		tip = "ランダムなエリアに進入"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ten_even_draw_confirm = {
-		tip = "$1回交換しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_sueecss = {
-		tip = "改造に成功しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
-		tip = "着せ替え変更"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_task_update_tip = {
-		tip = "艦船の開発進捗に更新がありました。開発ドックをご確認ください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.lesson_startToLearn_error = {
-		tip = "強化失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.littleSpee_npc = {
-		tip = {
-			{
-				info = "■概要\n「追撃　シュペーちゃん」とは、イベント開始時に仮加入した【シュペーちゃん】の「友好度」を限定任務で入手できる「情報Pt」から変換し貯めることで、【シュペーちゃん】を正式加入させるイベントになります。"
-			},
-			{
-				info = "■遊び方\n1.イベント期間中、ノーマルメイン海域3章以降の敵中枢艦隊を撃破すると、「情報Pt」を入手できます。「情報Pt」はイベントページの「受取」ボタンで友好度に変換されます。\n味方戦闘艦隊に【シュペーちゃん】が編成されており、かつ敵中枢艦隊撃破時に【シュペーちゃん】が戦闘可能である場合、得られる「情報Pt」が2倍になります。"
-			},
-			{
-				info = "2.【シュペーちゃん】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、強化・限界突破素材への選択をすることができません。"
-			},
-			{
-				info = "3.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【シュペーちゃん】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【シュペーちゃん】は母港からいなくなります。\nまた、シュペーちゃんの強化・限界突破などに使用した素材は返還されません。"
-			},
-			{
-				info = "4.友好度報酬は5/15（水）まで毎日1段階ずつ解放されます。"
-			},
-			{
-				info = "5.仮加入状態の【シュペーちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
-			},
-			{
-				info = "6.仮加入状態の【シュペーちゃん】は大艦隊作戦には参加できません。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_locked_mode = {
-		tip = "ロック済艦船"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sofmapsd_1 = {
-		tip = "うにゃ！？クーポンを海域に\n落としたにゃ！指揮官、助けて\nにゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_score = {
-		tip = "スコア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_tips2 = {
-		tip = "秘書艦枠の設定艦船を変更できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
-		tip = "$1の資金を消費し、強化を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_durability = {
-		tip = "耐久"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yostar_link_title = {
-		tip = "アカウント連携中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_open_detail = {
-		tip = "依頼をこなす"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_test_ship = {
-		tip = "ブリはダメです、ブリ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_temple_award_title_2 = {
-		tip = "豊穣の像の恵み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_now = {
-		tip = "秘書艦枠確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_disable_formation_unsatisfied = {
-		tip = "編成条件に満たしていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.switch_to_shop_tip_1 = {
-		tip = "材料が不足しています。ショップで購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.idolmaster_voice_name_feeling4 = {
-		tip = "協力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ui_pack_tip3 = {
-		tip = "セット"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cook_game_constellation_skill_desc = {
-		tip = "7秒間ライバルのスイーツを受け取らなくなり、また味方が正しい注文を届けた時のスコアが2倍になる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_extendcommander_success = {
-		tip = "猫ハウス（オフニャ所持数）増築に成功しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.item_type17_tip2 = {
-		tip = "報酬詳細"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cook_game_constellation = {
-		tip = "正しく届けると確率で客を<color=#FFE555>特殊状態</color>にする"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_shipAddInimacy_error = {
-		tip = "親密度上昇失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cook_game_janus = {
-		tip = "届ける時の正誤に応じてランダムで得点変化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_ship_in_battle = {
-		tip = "$1は作戦に参加しています。作戦終了後に派遣編成が更新されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.black_white_grid_reset = {
-		tip = "是否重置?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cook_game_laffey = {
-		tip = "正しく届けると次に正しく届けた時得点UP"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cook_game_marcopolo = {
-		tip = "味方チームのみ時間＋"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_chattip3 = {
-		tip = "[返信待ち]"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_mod_word_unlock = {
-		tip = "セリフ開放：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_7_detail = {
-		tip = "愛は幸せの導き、想いは永遠の絆\n守りたいものはあなたの笑顔\nお互いを深く愛し、支え合い\n末永く運命を共にすることを、誓います\n                                          $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_name_change_time_lv_tip = {
-		tip = "指揮官Lv<color=#92fc63>$1</color>で指揮官名変更機能が開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_final_rule2 = {
-		tip = "本戦ランキング上位艦に新しい衣装が実装される可能性があります。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.support_rate_title = {
-		tip = "出現確率"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.challenge_season_update_infinite_switch = {
-		tip = "現在UNLIMITEDモードです。\n現在のステージ:$1\nチャレンジステージが更新されたため、最高クリア数が更新されません。\nモードを切り替えますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_equip_occupied = {
-		tip = "使用中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_comfort_level = {
-		tip = "快適度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200320 = {
-		tip = "Google Playへの接続に失敗しました、電波の良いところで再度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_task_none_tip = {
-		tip = "-なし-"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_status_inFight = {
-		tip = "<size=24>出撃中</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_prev_lock = {
-		tip = "改造不可"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100401 = {
-		tip = "Steam認証失敗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_ema = {
-		tip = "絵馬"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_702124 = {
-		tip = "<size=35>改造で主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（駆逐用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_schedule_sure_tip = {
-		tip = "全ての予定枠が設定されていません。未設定の予定枠は「自由行動」になりますが、予定を実行しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_task_go = {
-		tip = "確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destroy_importantequipment_tip = {
-		tip = "<color=#92fc63>重要</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_title_desc = {
-		tip = "依頼詳細"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.playerinfo_mask_word = {
-		tip = "NGワードが含まれています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_cannon = {
-		tip = "艦砲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_cancelselect = {
-		tip = "選択中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mingshi_get_tip = {
-		tip = "「奇妙な素材」を発見しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.town_gold_tip = {
-		tip = "開拓コインの所持数が上限になっています。受け取ると上限を超える分の「開拓コイン」は破棄されます。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_game_banned = {
-		tip = "利用が停止されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_max_tip_collect = {
-		tip = "報酬を受け取ることができません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_task_build_tip = {
-		tip = "研究開始するには下記の資源・アイテムを消費します：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2210 = {
-		tip = "<size=24>2022.10.1-2022.11.30キャンペーン期間中、シーズン任務報酬で<color=#854747>「ハンター(META)」</color>などを入手可能！</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ten_even_draw = {
-		tip = "$1回交換する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100245 = {
-		tip = "Apple連携に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
-		tip = "前衛・主力に艦船が1隻しか編成されていません。別の艦に変更してから再度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_9 = {
-		tip = "破壊範囲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ranking_word_3 = {
-		tip = "0"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.story_label_auto = {
-		tip = "オート"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100100 = {
-		tip = "このデバイスによるゲーム利用は制限されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.build_ship_quickly_buy_tool = {
-		tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\n高速建造材を<color=#92fc63>$2</color>個購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_pizibao_1 = {
-		tip = "支援艦隊到着！<color=#f1f102>敵の攻撃を引きつけて</color>味方を守ろう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loading_tip_FModMgr = {
-		tip = "声帯ユニット動作確認中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.SuperBulin2_tip3 = {
-		tip = "海域1-4で暗号を探そうプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2025Valentine_minigame_s"] = {
-		tip = "やったー！新しい作り方だけど、今回は大成功～！指揮官、この気持ちをたっぷり込めたチョコを早く味見してみて！えへへ～ハッピーバレンタイン☆"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settings_battle_Btn_edit = {
-		tip = "修正"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2112 = {
-		tip = "2021.12.1-2022.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「飛鷹(META)」</color>などを入手可能！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.medal_notice_2 = {
-		tip = "選択中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_word_expired = {
-		tip = "座標の有効期限が過ぎています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["not yet completed"] = {
-		tip = ""
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200230 = {
-		tip = "決済システムへの通信がキャンセルされました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_queue_full = {
-		tip = "予定列が満杯です。研究項目を追加できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.buleprint_need_level_tip = {
-		tip = "該当艦がレベル$1で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_relieveblacklist_success = {
-		tip = "ブロックを解除しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_preCombatLayer_ready = {
-		tip = "艦隊準備万端！いつでも出撃できます！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_select_overflow_tip = {
-		tip = "交換しようとしている<color=#22ff22> $1</color>は必要な数量より<color=#ff5c5c>$2個</color>上回っています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_build_rate_tip = {
-		tip = "ネコハコ出現率：SSR 5%、SR 35%、R 60%"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.buyProp_noResource_error = {
-		tip = "<color=#92fc63>$1</color>不足"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_rest_times = {
-		tip = "<color=#FFDE38FF>残り回数 ：%s回</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_scene_title_word_3 = {
-		tip = "制空値:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_mode_2 = {
-		tip = "協同出撃"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.breakout_tip_ultimatebonus_gunner = {
-		tip = "全弾発射/特殊弾幕発動に必要な主砲攻撃回数半減"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.evaluate_ban_word = {
-		tip = "NGワードが含まれています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_pop_finish = {
-		tip = "完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_soundfiles_checkend_title = {
-		tip = "更新チェック完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ssssmedal_belonging2 = {
-		tip = "多分上位個体？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2312 = {
-		tip = "<size=23> 2023.12.1-2024.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「エレバス(META)」</color>などを入手可能！</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_renameShip_error = {
-		tip = "名前変更に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_no_open = {
-		tip = "準備中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_total_score = {
-		tip = "合計スコア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_propose_cost_tip2 = {
-		tip = "誓いの指輪<color=#92fc63>1</color>個を絆のティアラ<color=#ff5c5c>1</color>個に交換しますか？\n<color=#92fc63>※交換後、誓いの指輪に戻すことはできません\n</color>※このキャラの名前は変更できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19902 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型457mm連装砲MKA\n127mm連装両用砲MK12\n四連装ボフォース40mm機関砲</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100303 = {
-		tip = "正しい認証コードを入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_201514 = {
-		tip = "改造後、「魚雷」砲座が-1、「対空砲」砲座が+1されます。改造を続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_exchange_tip = {
-		tip = "1.R以上の艦を退役すると勲章を獲得できます\n2.支援要請では勲章を使って艦と引き換えることができます\n3.支援ラインナップは毎日<color=#92fc63>6時</color>・<color=#92fc63>18時</color>に更新されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_sort_time = {
-		tip = "時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardScene_expression_label_1 = {
-		tip = "清貧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_consume = {
-		tip = "消費"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_joint_call_world_support_txt = {
-		tip = "指挥官$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_addblacklist_success = {
-		tip = "ブロックしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2412 = {
-		tip = "2024/12/1-2025/1/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ジュリオ・チェザーレ(META)」</color>などを入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Settings_title_Notification = {
-		tip = "プッシュ通知"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ins_push_comment_success = {
-		tip = "コメントしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.stage_beginStage_error_noResource = {
-		tip = "<color=#92fc63>燃料</color>が足りません!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.refresh_shopStreet_question = {
-		tip = "<color=#92fc63>$2</color>の$1で商品リストを更新しますか？\n\n<size=22>( 本日は既に<size=25><color=#ff5c5c>$3</color></size> 回購入しました)</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_402134 = {
-		tip = "<size=35>改造で<color=#92fc63>1つ目の【設備】</color>が\n<color=#92fc63>【ヘリ】</color>を装備できるようになり。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.inform_sueecss_tip = {
-		tip = "通報しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_act_catchup_btn_word = {
-		tip = "強化イベント"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_create_button = {
-		tip = "装備製造"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_all_1_1 = {
-		tip = "自動確保を中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sham_formation_invalid = {
-		tip = "これ以上は艦隊を編成できません。出撃中の艦から艦隊を編成してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_310014 = {
-		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_autoFIght_down_frame_des = {
-		tip = "自動攻略省エネ化モードでは、ゲームのfpsを低下させます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_build_5 = {
-		tip = "<size=19>\t\t\t\t\t\t\t<color=#ffde38>超稀有舰船</color>：$2%\n\t\t\t\t\t\t\t <color=#d797ff>精锐舰船</color>：$3%\n\t\t\t\t\t\t\t <color=#3dc6ff>稀有舰船</color>：$4%\n\t\t\t\t\t\t\t 普通舰船：$5%\n\n\t\t\t\t\t\t\t  【限时建造】\n\t\t\t<color=#ffde38>圣黑之心</color>：2.25%<color=#92fc63FF>(up!)</color>    <color=#ffde38>翡绿之心</color>：2.25%<color=#92fc63FF>(up!)</color>\n\t\t\t<color=#ffde38>绀紫之心</color>：0.75%           <color=#ffde38>群白之心</color>：0.75%\n\t\t\t<color=#d797ff>诺瓦露　</color>：3.15%<color=#92fc63FF>(up!)</color>     <color=#d797ff>布兰　　</color>：1.05%</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.list_empty_tip_friendui_black = {
-		tip = "指揮官をブロックしていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commission_open_tip = {
-		tip = "$1章クリアで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100229 = {
-		tip = "すでに削除済みです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.number_4 = {
-		tip = "四"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.noacceleration_tips = {
-		tip = "使用できるネコハコ加速材はありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.gift_act_drawline_help = {
-		tip = {
-			{
-				info = "「饅頭手芸」とは：\n饅頭手芸では、冒険マップや「クラフト」で入手する素材を消費し、艦船たちに贈るお土産を作ることができます。\nお土産を艦船に贈ると、「探検コイン」などの報酬を入手することができます。\n\n遊び方：\n1.プレゼントしたい艦船を選択し、画面のヒント通りに操作し、お土産を作ることができます。\n2.完成したお土産をドラッグで艦船に贈ることができます。艦船にプレゼントすると、返礼として「探検コイン」などのアイテムを入手できます。\n3.同じ艦船に1回しかプレゼントできません。\n4.「輝く宝石」は、「饅頭探検隊」に入手できる「クラフト用鉱石」を「クラフト」で消費することで生成できます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_newPlayerScene_word_yingHuoChong = {
-		tip = "わぁい！新しい指揮官だ！グローウォームと一緒に遊ぼう！名前教えて！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100117 = {
-		tip = "認証データにエラーが発生しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_help_2110 = {
-		tip = {
-			{
-				info = "■キャンペーン開催期間\n10.1（金）0:00～11.30（火）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「扶桑(META)」、SP報酬からは空母「ヨークタウン」の限定着せ替え「聖者の翼」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_event_info_desc3 = {
-		tip = "$1艦船(現在$2)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_materal_no_enough = {
-		tip = "素材が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_ins_no_msg = {
-		tip = "新着なし"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_battle_result_boss_is_death = {
-		tip = "強敵の耐久が０になっていたため、戦闘結果が無効になりました。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sham_team_limit = {
-		tip = "主力艦隊と前衛艦隊それぞれ１隻以上が必要です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_bomb_help_tip = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/spboom_1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/spboom_2",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 836,
-				y = 740
-			},
-			windowPos = {
-				y = 15
-			},
-			helpSize = {
-				x = 836,
-				y = 660
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.number_3 = {
-		tip = "三"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destroy_inHardFormation_tip = {
-		tip = "<color=#92fc63>ﾊｰﾄﾞ編成中</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.onebutton_max_tip = {
-		tip = "一括分解"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_story_tip_2 = {
-		tip = "后开放(未使用)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.class_label_tran = {
-		tip = "変換: "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_use_donateitem_success = {
-		tip = "資源拠出可能回数が+$1回復しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_fame_tip = {
-		tip = "※殿堂入りキャラをタップし、記念チャットフレームを手に入れよう！$1、$2、$3"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_select_tip = {
-		tip = "特別計画艦「$1」を選択しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_item_num = {
-		tip = "入手済："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_warp_to_latest_map = {
-		tip = "最新章に切り替えました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_online = {
-		tip = "ログイン中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight_file = {
-		tip = "情報開放：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ssss_main_help = {
-		tip = {
-			{
-				info = "■概要\nキャンペーン「裏山学園」は下記の内容で構成されます。\n・コラボイベント「弧光は交わる世界にて」海域への移動ボタン\n・「弧光結晶」累計入手数報酬ページへの移動ボタン\n・期間限定建造\n・着せ替えショップ\n・スペシャルログインボーナス\n・ミニゲーム\n・記念章\n\n■コラボイベント\n・7.20-8.3の間、コラボイベント限定海域が開放され、「弧光結晶」を入手できます。\n・「弧光結晶」は累計入手数報酬のほか、ショップにて様々な報酬と交換できます。\n・また、イベント海域ではSSR「飛鳥川ちせ」、コラボ装備外装箱を入手できます。\n\n■スペシャルログインボーナスについて\n・キャンペーンページの画面右下のコントローラーをタップするとSDキャラを移動させることができ、踏んだマスによって報酬を入手できます。\n・キャンペーン期間中（7.20-8.3）、毎日移動可能回数が5回加算されます。\n・ログインボーナスキャンペーンでは、限定家具や「弧光結晶」を入手できます。\n\n■ミニゲームについて\n・ミニゲーム「激闘！電光饅頭VS怪獣饅頭」は7.26まで毎日新しい進捗が開放されます。\n・ミニゲームを7日間プレイし、最後まで進捗させると、兵装「輝きのブレスレット」を入手できます。\n・ミニゲームでは、限定家具を入手できます\n\n■記念章について\n・各種実績任務をクリアすると、収集アイテム「セイレーン情報」を入手できます。\n・「セイレーン情報」を12個入手すると、記念家具「SSSS記念章」と装備外装箱を入手できます。※報酬の入手時間は8/9（水）23:59まで"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_battle_rule = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/battle_maincanon",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/battle_plane",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/battle_sub_3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/battle_sub_4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/battle_sub_5",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.draw_big_luck_2 = {
-		tip = "豪運にゃ！ちょっと羨ましいにゃ～"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_catchup_5 = {
-		tip = "Ⅴ期"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
-		tip = "休憩艦船を配置しないと、<color=#92fc63>食糧が消費されません</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.upgrade_to_next_maxlevel_succeed = {
-		tip = "認識覚醒完了\nレベル上限が<color=#92fc63FF>$1</color>になりました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_upgrade_unequip_tip = {
-		tip = "<color=$2>$1</color>に装備されている装備は外されます。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_compare_larger = {
-		tip = ">"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_new_1_4 = {
-		tip = "6"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.missile_attack_area_cancel = {
-		tip = "攻撃中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.user_is_banned = {
-		tip = "このアカウントは利用停止されています\n利用制限期間: ($1)まで"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_no_oil = {
-		tip = "出撃するための燃料が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_end_title = {
-		tip = "戦闘結果"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_set_duty_title = {
-		tip = "$1に任命する："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_autoFight_battery_savemode = {
-		tip = "自動攻略省エネ化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_resume_attack_win_rate = {
-		tip = "出撃勝率:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_boss_formation_exist_invaild_ship = {
-		tip = "大艦隊メンバーの支援派遣編成が変更されたため、強敵戦編成が更新されました。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_create_error = {
-		tip = "大艦隊結成失敗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_investigate = {
-		tip = "索敵"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_sort_duty = {
-		tip = "役職"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_empty = {
-		tip = "特殊装備がありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_search_succeed = {
-		tip = "検索完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.same_player_name_tip = {
-		tip = "同じ指揮官名には変更できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_task_quickfinish1 = {
-		tip = "任務をスキップ（クリア状態に）するにはシーズン任務チケットを<color=#ff5c5c>$1枚</color>消費します。\n（シーズン任務チケット所持数；<color=#92fc63>$2</color>）\nシーズン任務チケットを使用しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_clear = {
-		tip = "クリア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_finish_3 = {
-		tip = "強化指向Ⅲ期/完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200180 = {
-		tip = "サーバーと通信中です。しばらくお待ち下さい"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_SP_count = {
-		tip = "残り回数："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_tech_label_condition = {
-		tip = "物資進捗が上昇しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.series_enemy_fleet_prefix = {
-		tip = "艦隊$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200120 = {
-		tip = "購入に失敗しました、アイテムが存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100220 = {
-		tip = "連携を解除しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_profile_action_words = {
-		tip = "L2Dアニメ鑑賞"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_soundfiles_update = {
-		tip = "更新中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_material_unlock_skill = {
-		tip = "習得: <color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_shop_empty_tip = {
-		tip = "-販売中のアイテムはありません-"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commandercat_label_custom_name = {
-		tip = "変更後名前"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_rare4 = {
-		tip = "Sレア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_compare_not_less_than = {
-		tip = "≥"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_tip_quit = {
-		tip = "大艦隊から脱退しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill3"] = {
-		tip = "剛力年獣|氷の壁を破壊できる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ranking_word_2 = {
-		tip = "入手率"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_reset = {
-		tip = "クリア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.list_empty_tip_friendui_search = {
-		tip = "条件を満たす指揮官がいません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_status_world = {
-		tip = "<size=24>ｾｲﾚｰﾝ作戦</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
-		tip = "AR録画機能を利用するには、\n音声の録音を許可する必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_upgrade_quick_interface_materials_consume = {
-		tip = "下記の素材が消費されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loading_tip_ShaderMgr = {
-		tip = "視覚センサー起動中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_level_easy_tip = {
-		tip = "注意：ノーマルモードを選択すると、<color=#92fc63>ノーマルモードを全部クリアしないと</color>ハードモードを選択できなくなります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_mission_info_tip = {
-		tip = {
-			{
-				info = "作戦事件について：\n"
-			},
-			{
-				info = "■作戦事件を進捗させるには\n・「作戦事件」が発生すると、大艦隊メンバーがそれぞれ最大4名の艦船を派遣し、進捗させることが可能です。\n    派遣は作戦事件開始時と行うことができ、また6/12/18/21時に1度だけ追加の派遣可能回数が増加します。\n・「作戦事件」参加から6時間経過するごとに、更に1回派遣を追加で行うことが可能です。\n※一回の「作戦事件」では、大艦隊メンバーは最大4名×4回、計16隻の艦船を派遣させることが出来ます。\n・派遣される艦船が多ければ多い程、作戦事件の進捗が早くなります。\n・また、派遣艦船が特定な条件を満たすと、作戦事件の進捗が早くなります。\n"
-			},
-			{
-				info = "■作戦事件の評価について\n・作戦事件では、参加者（艦船を派遣したメンバー）はそれぞれ評価によって様々な報酬を受け取ることが出来ます。\n・大艦隊全員で派遣された艦船が多ければ多い程、評価が上がる確率が上昇します。\n・また、特定な条件を満たすと、評価が上がることもあります。\n・「報酬」「作戦事件」進捗完了後、「作戦報告」「作戦報酬」画面にて受け取ることが出来ます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_skin_out_of_stock = {
-		tip = "販売期間外です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_destory_tip = {
-		tip = "特別計画艦は廃棄できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_destroy_advanced_tip = {
-		tip = "退役艦船に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.workbench_help = {
-		tip = {
-			{
-				info = "概要：\n「クラフト」では、無人島の冒険マップや「饅頭探検隊」、実績任務で入手した素材を消費し、\n限定家具やほかの機能に使用する素材アイテムなど、様々なアイテムを生成することができます。\n\n遊び方\n1.レシピを選択し、素材を消費することでアイテムを生成できます。\n2.一部レシピは「クラフト」右下のボタンをタップして、施設を拡張することで開放されます。\n3.所持している素材は「倉庫」で確認できます。またレシピ画面の素材アイテムアイコンをタップすると、素材の入手方法を確認できます。\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_cannon = {
-		tip = "火力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mingshi_task_tip_11 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>I30</color>>\n最初の目標は…<<color=#92fc63>みんなが集まる場所</color>>にゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_end_to_learn = {
-		tip = "<color=#92fc63>「$1」</color>強化完了、スキル<color=#92fc63>「$2」</color>は<color=#92fc63>$3</color>の経験値を獲得しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_upgrade_erro = {
-		tip = "装備強化失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_stop_erro = {
-		tip = "研究中止に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_who_to_retreat = {
-		tip = "$1を撤退させますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exchangecode_use_error_9 = {
-		tip = "無効なシリアルコードです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_healthy = {
-		tip = "回復"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exchangecode_use_error_3 = {
-		tip = "無効なシリアルコードです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_purchase_label_special = {
-		tip = "特典"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
-		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n試作型180mm三連装砲B-1-P Model1932改\n550mm三連装魚雷発射管\n二連装57mm/L60ボフォース対空機関砲 Mle1951\n</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.valentinesday__shop_tip = {
-		tip = "着せ替えショップを確認しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.fleet_antisub_range_tip = {
-		tip = {
-			{
-				info = "対潜探知について\n\n■概要\n味方前衛艦隊に【駆逐艦】【軽巡洋艦】が編成されており、かつ戦闘中戦闘可能な状態でいる場合、敵潜水艦が味方の「探知範囲」内に入ると自動で「探知済」状態になります。\n「探知済」状態の敵潜水艦は味方の爆雷攻撃で狙えるようになりますが、「探知範囲」から離れて一定の時間が経過すると再度「未探知」状態に戻ります。\n\n■探知範囲の計算方法について\n味方前衛艦隊の「探知範囲」の広さ（同心円の半径）は4つの項目で計算されます。\n①前衛艦隊【駆逐艦】【軽巡洋艦】のそれぞれ「対潜」艦船基本ステータスの最大値\n②主力艦隊艦船の「対潜」ステータスの合計値\n③兵装「ソナー」による「探知範囲」の増加値\n④その他海域マップ効果・敵艦スキルなど\n\n※スキルや装備、オフニャ、艦隊技術による「対潜」ステータスは探知範囲に影響しません\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardShipInfoMediator_quest_moveOutFleet = {
-		tip = "艦隊に編成されています。艦隊から外しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_backyard = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/strength",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/break",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/equip",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/bullet",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/energy",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/maxlevel",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/levelup",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/fanqian",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 8,
-			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_condition_ship_level = {
-		tip = "Lv<color=#92fc63>$1</color>以上の艦<color=#92fc63>1隻</color>以上の必須"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_repair_special_name = {
-		tip = "本日残り回数:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_diff_selected = {
-		tip = "変更済み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_setting_submititem = {
-		tip = "自動攻略ｱｲﾃﾑ自動使用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_armor = {
-		tip = "装甲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardScene_restSuccess = {
-		tip = "<color=#92fc63>マイセットを戻しました</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_new_chapter_coming = {
-		tip = "新章開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_word_friend = {
-		tip = "友達"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_get_box_tip_1 = {
-		tip = "ネコハコ？？型"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_transform = {
-		tip = "性能変化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_chapter_unlock_tip = {
-		tip = "指揮官Lv<color=#92fc63>$1</color>で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_commder = {
-		tip = "司令"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_text_luodeni_2 = {
-		tip = "<color=#ffc038>一つになる調和、永遠に等しき刹那、来たる「終焉」を見届けよう——</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_skin_unmatch_equipment = {
-		tip = "この兵装は装備中の外装を適用できません。外装は倉庫に戻されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_5_detail = {
-		tip = "$1の目から想いが伝わってくる\n<color=#92fc63><size=18>性能（速力以外）＋6%</size></color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_4_detail = {
-		tip = "$1があなたと一緒にいるといつも嬉しそうだ\n<color=#92fc63><size=18>性能（速力以外）＋3%</size></color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_buildShipImmediately_error_noItem = {
-		tip = "高速建造材がありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.adventure_record_grade_title = {
-		tip = "冒険者ランク："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_status_inEventFinished = {
-		tip = "<size=24>完了</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hololive_dashenling = {
-		tip = {
-			{
-				info = "■概要\n「ミオの母港占い館」とは、イベント開始時に仮加入し\nた【大神ミオ】の「友好度」を海域に出撃することで貯\nめ、【大神ミオ】を正式加入させるイベントになります。"
-			},
-			{
-				info = "■遊び方\n1.コラボイベント期間中、メイン海域（ノーマル）3章\n以降のステージか、「ホロライブ」コラボ限定海域の中\n枢艦隊を撃破すると、「友好度」を獲得する事ができま\nす。獲得した「友好度」が一定の数値に到達すると、\n「友好度報酬」を入手することができます\n2.コラボキャラとして仮加入した【大神ミオ】は、友好\n度報酬（7段階目）の「正式加入」を達成しない限り、\nケッコンすることができず、また退役や強化・限界突破\n素材への選択をすることができません。\n3.【大神ミオ】を編成に入れている艦隊で上記ステージ\nの敵中枢艦隊を撃破し、かつ勝利時【大神ミオ】が戦闘\n可能な状態の場合、獲得できる「友好度」が2倍になり\nます。\n4.イベント終了までにイベントページの「友好度報酬」\nを最後まで受け取ると、【大神ミオ】を「正式加入」さ\nせることができます（友好度が1000必要）。イベント\n終了時、「正式加入」していない【大神ミオ】は消失し\nます。\n5.友好度報酬は12/3（水）まで毎日1段階ずつ解放され\nます。"
-			},
-			{
-				info = "■「仮加入」キャラについて\n・「仮加入」とは：\nコラボキャラは「イベント期間中限定で」艦隊に加入し\nます。イベント終了時に「正式加入」を達成していない\n場合、艦隊からいなくなります（強化や限界突破に消費\nされたアイテムは返還されません）。\n・「正式加入」とは：\nコラボキャラを「正式加入」させるには、「友好度」を\n入手し、コラボイベントページで各段階の「友好度報酬」\nを全て獲得することにより「正式加入」させることが出\n来ます。\n・「正式加入」可能な期間について：\n「ホロライブ」コラボキャラクター【大神ミオ】\n2019年11月27日～2019年12月11日"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_shipinfo_actnpc = {
-		tip = {
-			{
-				info = "「仮加入」キャラについて：\n\n・「仮加入」とは：\n仮加入キャラは「イベント期間中限定で」艦隊に加入します。イベント終了時に「正式加入」を達成していない場合、艦隊からいなくなります（強化や限界突破に消費されたアイテムは返還されません）。\n・「正式加入」とは：\nキャラを「正式加入」させるには、「友好度」を入手し、イベントページで各段階の「友好度報酬」を全て獲得することにより「正式加入」させることが出来ます。\n\n※「仮加入」キャラの機能制限：\n「仮加入」状態のキャラクターは「正式加入」しない限り、一部の機能しか利用することが出来ません。\n利用可能機能：\n（演習以外の）艦隊への編成、戦闘参加、強化、スキル強化、限界突破\n利用不可機能：\n退役、強化素材として消費、限界突破素材として消費、軍事委託、ケッコン、認識覚醒、秘書艦への設定、大講堂、セイレーン作戦（META戦含む）、大艦隊作戦"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_lock_tip = {
-		tip = "このセットは<color=#92fc63>未開放</color>です。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_navalAcademyScene_upgrade_complete = {
-		tip = "$1増築完了、備蓄上限+$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_battleMediator_existFight = {
-		tip = "戦闘中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100217 = {
-		tip = "このアプリはX(旧Twitter)での新規登録はできません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_mat = {
-		tip = "マット"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_exp_per_day = {
-		tip = "習得EXP"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_ending_tip2 = {
-		tip = "1Fと2Fのすべてのエリアを探索しよう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_photo_alpha = {
-		tip = "透明度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_destroy_uncommon_tip = {
-		tip = "退役艦船にSR以上の艦船がありますが、続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100311 = {
-		tip = "認証トークンが無効になりました。もう一度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100204 = {
-		tip = "現在ご利用しているゲームデータは別の端末に移行するには、ほかのSNSアカウントやメールアドレスなどと連携する必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_303154 = {
-		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n艦種変更で装備不可となる<color=#92fc63>【特殊装備】</color>は倉庫に戻されます。\n改造を続けますか？</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_touch = {
-		tip = "タッチ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_3_buff = {
-		tip = "補正値：全性能（速力、装備以外）1%アップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_help_tip = {
-		tip = {
-			{
-				info = "■強化指向とは"
-			},
-			{
-				info = "科学研究項目完了時に選択した特別計画艦の強化ユニットを追加入手できる機能です。"
-			},
-			{
-				info = "◇「強化指向」について"
-			},
-			{
-				info = "①「強化指向」を有効化するには、「強化指向」で特別計画艦を1隻選択する必要があります。\n②同時に選択できる特別計画艦は1隻のみです。選択中の特別計画艦はいつでも変更できます。\n③科学研究項目完了時、選択中の特別計画艦の強化ユニットを手に入れることができます。\n\n"
-			},
-			{
-				info = "※注意\n「強化指向」で入手できる特別計画艦3期の強化ユニット数は、下記のようになります：\n・PR：4隻合計で最大300個までです。\n・DR：1隻それぞれで最大150個までです。\n「強化指向」とは別に、特定艦船の強化ユニットを追加入手できるイベントを開催予定です。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_food = {
-		tip = "食糧"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_map_version = {
-		tip = "アセットが更新されましたため、エリアがリセットされました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_interface_cancel_check = {
-		tip = "現在の設定をキャンセルしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_32 = {
-		tip = "偏差射撃補正"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_task_pt_level = {
-		tip = "Lv$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_contribution = {
-		tip = "贡献"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_fire_tip = {
-		tip = "このメンバーを除名しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_contribution = {
-		tip = "演習進捗："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipModLayer_effect = {
-		tip = "経験値:<color=#92fc63>$1/$2</color>\n"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resourceSite_startResourceSite_error = {
-		tip = "委託進行失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_name_change_failed = {
-		tip = "指揮官名変更失敗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.firend_relieve_blacklist_ok = {
-		tip = "解除成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_exp = {
-		tip = "EXP"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.reject_all_friend_ok = {
-		tip = "一括拒否しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_rare_ship_vibrate = {
-		tip = "バイブレーション"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.l2d_32xbanned_warning = {
-		tip = "現在の端末環境ではL2Dコンテンツを正常に表示できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
-		tip = "<color=#92fc63>性能変化</color>を確定させますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_flare_supply = {
-		tip = "照明弾補給を入手しました。入手艦隊は今後$1回の戦闘中照明弾支援が行われます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName12 = {
-		tip = "第二潜水艦隊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_pos_save = {
-		tip = "秘書艦の表示設定を保存しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newplayer_notice_3 = {
-		tip = "上級任務全クリアで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_dodge_limit = {
-		tip = "回避上限"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.medal_notice_1 = {
-		tip = "最高レベルの勲章のみ表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_select_device_tip = {
-		tip = "装備を選択してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200380 = {
-		tip = "利用規約が承認されていません\nエラーコード:200380"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_changePlayerName_ok = {
-		tip = "名前を変更しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200140 = {
-		tip = "購入に失敗しました、サーバーとの通信に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.feast_no_gift = {
-		tip = "贈り物はありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collection_hadAward = {
-		tip = "報酬受取済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_noPos_clear = {
-		tip = "整 理"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_dongHuang = {
-		tip = "東煌"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.valentinesday__txt1_tip = {
-		tip = "美味しいチョコを食べたければ、素材を集めることですわ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_shimakaze_skill_2 = {
-		tip = "パッシブ:電光石火"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.emoji_type_1 = {
-		tip = "デフォルト"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_item_type3 = {
-		tip = "道具"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.refresh_shopStreet_ok = {
-		tip = "商品更新成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_delet_button = {
-		tip = "削除"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mingshi_task_tip_7 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>K</color>>\n次の目標は…<<color=#92fc63>これくしょん</color>>にゃ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_daily_task_lock = {
-		tip = "デイリーミッションはセイレーン作戦4章クリアで開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight_errors_tip = {
-		tip = "戦闘対象が見つかりません。自動攻略モードが解除されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.music_collection = {
-		tip = {
-			{
-				info = "遊び方："
-			},
-			{
-				info = "・11月12日（木）メンテナンスまでに「激唱のユニバ\nース」イベントに参加し、「μ兵装」艦船たちの「グッ\nズアイテム」を12種類全部集めると、限定家具「激唱\nの記念章」を入手可能。"
-			},
-			{
-				info = "・「グッズアイテム」は下記の方法で入手可能\n  ①イベント海域を☆3でクリア\n  ②イベント限定任務（イベント一覧＆「限定任務」ペ\nージ）を完遂\n  ③イベントアイテム「激奏エンブレム」累計入手数報\n酬"
-			},
-			{
-				info = "・入手条件が「？？？」のグッズアイテムは「一日一回\n限定のSPステージ」をクリアした後、イベント海域を\nクリアすると入手可能…？\n\n・すべての「グッズアイテム」を入手すると、グッズを\n画面上に配置可能になります。また、画面右の「シェア\n」ボタンで配置済の画面をシェア可能\n\n・報酬の受け取り期限は11月18日（月）23:59まで"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_permanent_tips4 = {
-		tip = "  イベントは同時に1つしか開放できません。\n 現在開放中のイベントをクリアすることで、\n別のイベントを開放できるようになります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_iknow = {
-		tip = "了解"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_jiqiao = {
-		tip = "TEC"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_newPlayerScene_word_lingBo = {
-		tip = "特型駆逐艦綾波、です。「キジン」とよく言われているのです。名前を教えてもらってもいいです？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_task_locked_by_other_task = {
-		tip = "任務「$1」クリアで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100111 = {
-		tip = "アカウント作成に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_daily_task_none_2 = {
-		tip = "No missions currently available"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_search_page_tip = {
-		tip = "一回で<color=#92fc63>$1</color>人まで検索できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_shop = {
-		tip = "ショップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_interface_revert_check = {
-		tip = "ボタン配置を初期化しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_gift_tip = {
-		tip = "<color=#7c7e81>購入すると<color=#169fff>特別ストーリー</color>を開放できます</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_chapter_count_tip = {
-		tip = "残り回数： "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_escort_retreat = {
-		tip = "海上護衛から撤退しますか？\n※本日の挑戦回数は回復しません。\n※若干報酬を手に入れることができます。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_joint_max_challenge_people_cnt = {
-		tip = "挑戦人数が上限に達しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_event_award_tip1 = {
-		tip = "手がかりはまだ残っています。エリアを探索し手がかりを手に入れよう！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_tracking_error_3001 = {
-		tip = "委託に出かけている艦があります！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.quota_shop_title1 = {
-		tip = "コア限定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.reflux_word_2 = {
-		tip = "開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_upgradeStar_error_noEnoughMatrail = {
-		tip = "素材が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_input_erro = {
-		tip = "正しいテキストを入力すると受け取れます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_sonarInterval = {
-		tip = "発信頻度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_resource_tip_1 = {
-		tip = "未资源提示1(未使用)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_angle = {
-		tip = "射角"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_boxtitle_information = {
-		tip = "情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_refresh_count_insufficient = {
-		tip = "演習相手はこれ以上更新できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_expend = {
-		tip = "消費"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_301534 = {
-		tip = "改造でスキル<color=#92fc63>【ふわりんと仲間たちと】</color>が強化されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newserver_soldout = {
-		tip = "購買可能回数が上限になりました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_start_success = {
-		tip = "委託開始"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.task_lock = {
-		tip = "レベル$1で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200300 = {
-		tip = "このアイテムは現在購入できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname1 = {
-		tip = "低"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_intensify_phase = {
-		tip = "強化段階"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_storeroom_addgold = {
-		tip = "備蓄資金："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_durability = {
-		tip = "耐久"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_victory = {
-		tip = "敵艦隊を撃破"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Normalbuild_URexchange_text3 = {
-		tip = "交換可能艦船を確認"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_tech_price_inc_tip = {
-		tip = "大艦隊兵站施設レベルアップ条件を満たしていないため、兵站施設をレベルアップさせるには通常より多くの資源を消費します。兵站レベルをアップさせますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_delete = {
-		tip = "削除"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight_function5 = {
-		tip = "自動潜水支援"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dont_remind = {
-		tip = "これ以上表示しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_dockyard = {
-		tip = "ドック"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginMediator_kickServerClose = {
-		tip = "ただいまメンテナンス中です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipType_zhanLie = {
-		tip = "戦艦"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_impeach_sucess = {
-		tip = "弾劾しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tag_level_narrative = {
-		tip = "ストーリー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_yisegefuke_pt = {
-		tip = "Pt素子"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_14 = {
-		tip = "装備性能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_ui_recommend = {
-		tip = "オススメ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_boss_destruct = {
-		tip = "自爆を阻止した上ボス撃破"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exchange_limit_skin_tip = {
-		tip = "試着貸出チケット$1枚を消費して\n【$2】を$3日$4時間を着せ替え可能にしますか?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginScene_error_noPassword = {
-		tip = "パスワードを入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.stage_beginStage_error_teamEmpty = {
-		tip = "<color=#92fc63>$1</color>は最低<color=#92fc63>$2隻</color>以上必要です！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get7 = {
-		tip = "<color=#92fc63FF>入手方法\nノーマル2-2</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_battle_pause2 = {
-		tip = "セイレーン作戦"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_main_emergent = {
-		tip = "<color=#92fc63>$1</color>が大きな損傷を受けました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_upgrade_equipped_tag = {
-		tip = "装備中："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_soundfiles_retry = {
-		tip = "リトライ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_special_update = {
-		tip = "緊急委託「$1」出現！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pvzminigame_help = {
-		tip = {
-			{
-				info = "強敵VS花火　について：\n「強敵VS花火」とは、フィールドに饅頭や水着艦船を配置し、来襲するセイレーンを倒してスコアを稼ぐゲームです。\n<color=#92fc63>2024.1.10</color>まで、毎日0時に<color=#92fc63>新しいステージ</color>が開放されます。\nステージをすべてクリアすると、バーミンガムの着せ替え「行き先は風次第」を入手できます。\n\n遊び方：\n1.コストである「花火」を消費し、キャラをドラッグ＆ドロップでフィールドを配置できます\n2.配置できるキャラはそれぞれ特徴があり、そのうち艦船は一人までしか配置できません\n3.饅頭キャラ：戦闘饅頭、防衛饅頭、生産饅頭\n　艦船キャラ：能代、チェシャー、樫野、リットリオ、バーミンガム\n　コストの「花火」は生産饅頭を配置すると自動で補充されます\n4.画面右下のボタンをタップし、フィールドに配置済みのキャラを配置解除できます。また、配置解除時にコスト「花火」が払い戻されません。\n5.味方、敵キャラや特殊ギミックについては「遊び方」で確認できます。\n6.ゲームオーバーになるか、ゲームを終了ボタンで一時中止すると、ゲームクリアになります。\n7.7日目のステージはスコアアタックステージになります"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型130mm連装砲Model 1936\n533mm三連装魚雷\n37mm対空機関砲70-K </color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_energy_low_desc = {
-		tip = "疲労\n 出撃すると親密度が下がり、もらえる経験値が半分に"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exercise_rule_tip = {
-		tip = "1、演習強化期間は<color=#92fc63>14</color>日で1シーズンで、期間中昇格すると報酬が貰えます\n2、演習で勝利すると、階級に応じて報酬が貰えます。失敗しても勝利時の報酬の<color=#92fc63>半分</color>を入手できます\n3、演習で勝利するとスコアが上昇します。失敗してもスコアが<color=#92fc63>下がりません</color>\n4、他人に挑まれた場合、挑まれた側のスコアは変化しません\n5、スコアが一定の数値に達すると、階級が（大佐まで）昇格します<color=#92fc63>大佐以上</color>の階級はランキング順位で決められます\n6、階級昇格の報酬は1回しか受け取れません\n7、戦果ポイントは特殊補給でアイテムと交換することができます\n8、演習相手リストは毎日<color=#92fc63>5</color>回まで変更できます\n9、演習後、演習相手リストはリセットされます\n10、演習可能回数は00:00、12:00、18:00にリセットされます\n11、演習期間終了後、演習可能回数、全ユーザーの階級とスコアはリセットされます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_7 = {
-		tip = "$1があなたにすべてを託している"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipState_guild_boss = {
-		tip = "大艦隊の強敵戦に編成されている艦船です。編成から外し、対象に選択しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_rename_warning = {
-		tip = "オフニャの名前を$1に変更しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_preCombatMediator_activity_timeout = {
-		tip = "イベントが終了しました。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_target_type5 = {
-		tip = "バカンスが終了しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_fleet_update_done = {
-		tip = "艦隊編成が更新されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.acl_gold_count = {
-		tip = "目標消費："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.game_openwords = {
-		tip = "セリフ欄を表示に設定しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginMediator_vertifyFail = {
-		tip = "データにエラー:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.adventure_lv_title = {
-		tip = "冒険レベル："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200290 = {
-		tip = "このアイテムはすでに所持済みです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_story_speed_3 = {
-		tip = "速い"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.report_cannot_comment = {
-		tip = "コメント機能が一時停止されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_takeAttachment_error_noAttach = {
-		tip = "添付アイテムは受け取りできませんでした"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_map_title_tips_en = {
-		tip = "OPERATION INFO"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_29903 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型234mm連装砲\n533mm四連装魚雷\n連装ボフォース40mm機関砲STAAG</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.task_taskMediator_getEquip = {
-		tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_breakout_exp = {
-		tip = "限界突破に必要な経験値"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_none_3 = {
-		tip = "強化指向Ⅲ期/未選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_build_consume = {
-		tip = "$1を消費し、開発を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commission_event_tip = {
-		tip = {
-			{
-				info = "遊び方：\n1.イベント期間中、軍事委託の報酬に「軍事委託Pt」が追加されます\n<color=#92fc63>「軍事委託Pt」は委託の必要時間が5分につき、1Pt加算されます</color>\n例：必要時間が1時間の委託を完了した場合、報酬として「軍事委託Pt」が12入手できます\n2.イベント期間中に開始・完了した委託のみ「軍事委託Pt」の報酬を受け取れます\n3.軍事委託を中止した場合、「軍事委託Pt」を入手できません\n4.ショップの「イベント」タブで、軍事委託Ptを消費し様々なアイテムと交換できます\n5.交換ラインナップの一部アイテムは、特定のメイン海域をクリアしてからでないと交換できません"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_emptyBlock = {
-		tip = "対応する兵装が装備されていません…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attr_hit = {
-		tip = "命中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_exchange = {
-		tip = "交 換"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_transform_attrmax = {
-		tip = "変化性能がすでにmaxです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dailyLevel_unopened = {
-		tip = "準備中です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.system_database_busy = {
-		tip = "通信エラーが発生しました。しばらく置いてから再度接続してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_28 = {
-		tip = "強化ダメージ補正"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_queue_processing = {
-		tip = "進行中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_exp_item_title = {
-		tip = "Exp育成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_drop_desc_default = {
-		tip = "艦船獲得"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_hit_monster_death = {
-		tip = "年獣は既に倒されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_task_goto3 = {
-		tip = "すでに任務エリアに艦隊が展開してあります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_class_start = {
-		tip = "学習開始"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_catsearch_leavemap = {
-		tip = "サルベージ作業中のオフニャが作業を中止してしまいます。（ターン経過分の報酬を入手できます）\nエリアから移動しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_title_1 = {
-		tip = "自動確保モード"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_shipAddMoney_ships_ok = {
-		tip = "<color=#92fc63>$1たち</color>は意外な発見をしました！家具コイン<color=#92fc63>+$2</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_tech_gold_desc = {
-		tip = "物資備蓄上限＋$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_map_lock = {
-		tip = "この章をクリアする必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_files_repair = {
-		tip = "ﾀｯﾌﾟで修復"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.win_condition_display_judian = {
-		tip = "敵拠点を全て破壊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_repair_l2d = {
-		tip = "Live2D修復"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_pay_tip = {
-		tip = "シーズン任務報酬開放："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_not_exist_activation_tech = {
-		tip = "作業中の兵站施設が存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pgs_unbind_tip2 = {
-		tip = "ログイン中のゲームアカウントはPGSアカウントと連携されています。\n他の連携をすべて解除すると、PGSアカウントとの連携も解除されます。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_anyone_is_in_fleet = {
-		tip = "装備中のオフニャが選択されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_collecTime = {
-		tip = "委託時間: <color=#92fc63>--:--:--</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_shop_label_2 = {
-		tip = "交換可能数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_tracking_erro = {
-		tip = "失敗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleLess = {
-		tip = " <color=#92fc63>$1</color> まで選択できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_rarity = {
-		tip = "レア度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_reload = {
-		tip = "装填"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_buff_unselect = {
-		tip = "-調査内容が選択されていません-"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_help_storage = {
-		tip = {
-			{
-				info = "★特殊装備について\n特殊装備とは、艦船が最大まで限界突破すると（特別計画艦・UR艦船・META艦船は最初から）開放できる特殊装備枠に装備できる装備を指します。\n特殊装備を装備すると、艦船の能力を上昇させることができるほか、スキルの効果を強化したり戦闘中敵弾を消したりなど、様々な効果を発揮できます。\n\n特殊装備は1隻につき1個しか装備できず、また一部の艦船には専用の特殊装備が存在します。\nまた、特殊装備は倉庫の所持枠とは別枠で保存できます。\n\n・特殊装備の入手について\n特殊装備は、【デイリーチャレンジ】か【製造】で入手できます。\n【デイリーチャレンジ】の「特殊装備」は毎週２回まで挑戦可能で、特殊装備と特殊装備に関わる各種素材を入手できます。\n【製造】は倉庫の「設計図」タブか、ドック画面の特殊装備枠タップで行うことができ、指定の特殊装備を入手できます。\n\n【製造】を行う際は「特殊装備コア」「資金」を使用しますが、その上でさらに「特殊装備強化石」や余った特殊装備を消費して装備の強化経験値を一定以上付与して初めて【製造】が行えます。\nまた、専用特殊装備が存在する艦船のドック画面で製造を行うと、専用特殊装備を製造することが可能です。\n\n・特殊装備の性能について\n特殊装備の性能には「基本性能」「変化性能」「装備効果」が存在します。\n\n「基本性能」とは、特殊装備の種類に応じて存在するステータス上昇値で、「強化」や「限界突破」によって上昇させることができます。\n「強化」は、「特殊装備強化石」や余った特殊装備を消費して強化経験値を溜め、特殊装備の強化Lvを上昇させます。\n「限界突破」は、「特殊装備コア」・資金・強化素材を消費し、特殊装備のレアリティを上昇させ、強化レベルがリセットされます。限界突破は現在R→SRのみ開放されています。\n\n「変化性能」は、特殊装備それぞれが持つ「変動」する性能で、装備の種類によって定められた範囲内からランダムで付与されます。\n特殊装備は「変化」で、「特殊装備変化石」を消費し「変化性能」を付与し直すことができます。\n取得した変化性能は、「変化確定」で特殊装備に付与、または「変化中止」で破棄することができます。\n\n「装備効果」とは、特殊装備を一定レベルまで強化すると開放される特殊効果/能力のことです。\n一部の専用特殊装備は「装備効果」のほかに、特定スキルを強化できる効果も持ちます。\n\n・特殊装備の戦闘時の挙動について\n一部特殊装備は戦闘中、「装備効果」として敵弾を消す「特殊斬撃」を自動で放ちます。\n「特殊斬撃」は特殊装備の種類・装備艦船の艦種/数量によって、斬撃の範囲/軌跡と消せる敵弾の種類が異なります。\n\n該当特殊装備を装備する艦船は、「特殊斬撃」が1回までチャージされます。\nチャージされた状態でその艦船がダメージを受けるか、もしくはダメージを受けずに5秒間経過すると「特殊斬撃」を自動で放ち、チャージ状態をリセットします。\n「特殊斬撃」をチャージするには15秒かかります。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.multiple_sorties_cost1 = {
-		tip = "消費：<color=#92fc63>「燃料<icon name=oil w=0.7 h=0.7/>$1」</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.energy_desc_3 = {
-		tip = "今のような毎日が続きますように"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_yujinwangguo = {
-		tip = "チュリッパ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_range_view = {
-		tip = "射程"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_1 = {
-		tip = "ダメージ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_selected_1 = {
-		tip = "強化指向Ⅰ期/選択中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_shop_title_skin = {
-		tip = "着せ替え"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_imas = {
-		tip = "アイドルマスター"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_400090 = {
-		tip = "このYostar IDはニンテンドーアカウントアカウントと連携されておりません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_bought = {
-		tip = "既に購入済みです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.bismarck_chapter_desc = {
-		tip = "実績達成で記念アイテムGET！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.jiujiu_expedition_amount_tip = {
-		tip = "探索回数が不足しています（探索回数はデイリーログイン・限定任務で入手できます）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_propose_vertical = {
-		tip = "愛は幸せの導き、想いは永遠の絆\n守りたいものはあなたの笑顔\nお互いを深く愛し、支え合い\n末永く運命を共にすることを、誓います\n\n         $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_escort_win = {
-		tip = "輸送船が目標地点に到着しました。海上護衛成功！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_trainee_duty_change_tip = {
-		tip = "メンバー貢献度が100に到達する必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exchangecode_use_error = {
-		tip = "エラー："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_task_locked_by_level = {
-		tip = "指揮官レベル$1で開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_confirm = {
-		tip = "確定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipment_cannon = {
-		tip = "艦砲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_buy_button = {
-		tip = "購入"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.open_skill_pos_discount = {
-		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffde38>$2</color>を消費し\n教室枠を拡張しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.click_back_tip = {
-		tip = "画面タップで戻る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.submarine_approach_desc = {
-		tip = "敵潜水艦が海域に出現中！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mini_game_pause = {
-		tip = "ゲームを再開しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_info_change_name_b = {
-		tip = "203mm連装砲Mle1931"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.technology_help_text = {
-		tip = {
-			{
-				info = "変更点（2022.7.14）\n第五期特別計画艦実装に伴い、科学研究室の仕様が変更\n・コンテンツ追加\n科学研究項目に新たに「第五期」が追加\n\n・仕様変更\n①艦船の強化ユニットを強化（竜骨編纂）最大値まで強化できる分所持している場合、当該艦船の指向性研究項目が出現しなくなります。\n\n注意：\n・「研究指向」を「なし」以外で、当期のすべての艦船の強化が完了、もしくは強化完了分までのユニットを所持している場合、それぞれの艦船の研究項目が出現するようになります。\n・「研究指向」を「なし」を選択している場合、強化が未完了・かつ強化完了分のユニットを所持していない艦船の研究項目のみ出現するようになります。\n・指向性研究項目自体の出現確率は、艦船の強化ユニット所持数に関係ありません。\n\n変更点\n第三期特別計画艦実装に伴い、科学研究室の仕様が変更\n・追加されました\n\n①\n科学研究の項目に新たに「第三期」が追加されました。\n科学研究項目左上の「Ⅰ」「Ⅱ」「Ⅲ」マークから確認できます。\n\n②\n研究項目一覧画面右下の「研究指向」選択画面が一新されました。\n「研究指向」では、研究項目の出現傾向（最低三つ当該研究項目が出現する）を「第一期」「第二期」「第三期」から選択することが可能です。\nまた、新たに追加された「強化指向」では、特別計画艦を1隻選択することで、科学研究項目完了時にその艦船の強化ユニットを追加で入手できます。\n\n研究指向、強化指向の対象は科学研究室のメイン画面下部の「指向設定」バナーから確認できます。\n※新機能：研究予定列\n ·開始した研究項目は【研究完了条件】を資源消費などで条件を満たすと、【研究予定列】に追加できます\n【研究予定列】にある研究項目は追加された順番に沿って、研究時間が完了すると自動で完了していきます\nまた、【研究予定列】に科学研究項目を追加すると、項目一覧画面の研究候補項目がリセットされます\n【研究予定列】は最大5個まで研究項目を追加でき、一度研究予定列に追加された項目は完了まで予定列から外せません"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_resourceSiteMediator_shipState_fight = {
-		tip = "戦場に出撃中です！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_target_goto = {
-		tip = "エリア移動"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.open_skill_pos = {
-		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>を消費し\n教室枠を拡張しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_fleet_stop = {
-		tip = "艦隊移動が停止しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_submarine_1 = {
-		tip = "この海域では命令を発令できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_task_help_2310 = {
-		tip = {
-			{
-				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_xinnian2021__meishi = {
-		tip = {
-			{
-				info = "■概要\n「饅頭グルメ」とは、艦船の買い出しの依頼に応じ、制限時間内にみんなが欲しがる食べ物を屋台で購入するミニゲームになります。\n正しい食べ物を購入すると、制限時間が増加し、得点を得ることができます。\n\n制限時間終了、もしくはゲームを中断した場合、ゲームクリアになります。"
-			},
-			{
-				info = "■遊び方"
-			},
-			{
-				info = "・ゲーム回数を所持している状態でミニゲームをクリアすると、アイテム「グルメ券」を入手できます。「グルメ券」を7つ集めると、駆逐艦「Z28」を入手できます。\n・「スタート」をタップすると、画面左のキャラに買い出し内容が表示されます。\n・5秒後、買い出し内容の表示が消え、代わりに購入できる食べ物の一覧が出現します。\n・制限時間内に食べ物のアイコンをタップすると、購入する食べ物を選択することができます。また選択済みの食べ物アイコンをタップすると、選択をキャンセルすることができます。\n・食べ物を3種類選択すると、買い出し結果画面が表示されます。\n・購入した食べ物が買い出し内容と一致（並び順を含む）した場合、得点を入手することができます。\n・結果画面で「続ける」をタップすると、ミニゲームを継続することができます。「終了」をタップするか、もしくは制限時間が0になると、ミニゲームを終了できます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.empty_tip_mailboxui_en = {
-		tip = "C O M M A N D E R ， N O  M A I L  H A S  B E E N  A C Q U I R E D  Y E T "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_can_not_get_tip = {
-		tip = "作戦事件に参加していなかったため、報酬を受け取れませんでした"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.special_operation_tip2 = {
-		tip = "消費アイテムがありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_cannon = {
-		tip = "火力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_soundfiles_download_title = {
-		tip = "ボイス更新"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attr_reload = {
-		tip = "装填"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_snapshot_share_title = {
-		tip = "アズールレーン　利用規約"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pile_game_notice = {
-		tip = {
-			{
-				info = "■饅頭タワーとは\n「饅頭タワー」とは、落ちてきたブロックでタワーをできるだけ高く積み上げ、最高スコアを目指すミニゲームになります\n開催期間中、「饅頭タワー」のステージを最後までプレイすると、艦船「浦波」を入手可能。\n「饅頭タワー」ステージは1/18（水）まで毎日1ステージ開放されます。\n\n■饅頭タワーのルール\n・画面をタップすると、画面上部のブロックが画面下部に落とされます。\n・ブロックを「タワー」の上に落とすと、タワーが積み上げられ、スコアを得ることができます。ブロックがタワー以外の場所に3回落とされてしまうと、ゲーム終了になります。\n・「タワー」には「バランス値」が設定されており、バランスが悪くなりすぎると（画面右の饅頭が赤いエリアに到達すると）タワーが崩れ落ちてしまい、ゲーム終了になります。\n・ゲームを途中で止めた場合、「プレイ回数」が消費されず、「スタンプ」を入手できません。\n・「プレイ回数」を所持していなくても、「饅頭タワー」をプレイできます。\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.rolling_ball_help = {
-		tip = {
-			{
-				info = "■遊び方\n・キャンペーン期間中、毎日ゲーム回数が１回加算されます（最大７回まで）\n・ゲーム回数を所持している状態でミニゲームをクリアすると、ゲーム回数が1回消費され、さらに「初夏招待券」を手に入れるのに必要なログイン回数が１回加算されます。\n・ログイン回数を7回入手すると、イベントバナーにて「初夏招待券2021」を入手できます。\n・ゲーム回数の所持数は「饅頭ランド」画面右側、ログイン回数の所持数は招待券バナーにて確認できます。\n・イベントバナーはイベント一覧のほか、「饅頭ランド」で「招待状」ボタンタップで遷移できます。\n・ゲーム回数を所持していない状態でミニゲームをクリアしても、ログイン回数は加算されません。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_sender_default = {
-		tip = "司令部"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_task_help_2110 = {
-		tip = {
-			{
-				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_6 = {
-		tip = "弾薬速度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room8 = {
-		tip = "キッチン"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipInfoScene_effect = {
-		tip = "経験値:<color=#92fc63>$1/$2</color>\n"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_help_1 = {
-		tip = {
-			{
-				info = "  ■オーダーについて\nセイレーン作戦では、指揮官が【指揮官行動力】を消費し、様々なオーダーを発令することが出来ます。\n\n①艦隊再編成\n味方の【港】があるエリアでは、指揮官は行動力を消費し、セイレーン作戦に参加する艦隊を再編成することが出来ます。艦隊再編成を行うと、全ての味方艦船の耐久・士気（セイレーン作戦における「コンディション」）が全回復し、状態異常が解除されます。\n\n②艦隊整備\n指揮官は行動力を消費し、味方艦隊全員の耐久・士気を回復し、さらにバッドステータス「戦闘損傷」を解除出来ます。\n\n③偵察命令\n指揮官は行動力を消費し、未偵察状態のエリアを偵察し、エリアマップ全体を可視化出来ます。\n\n④潜水支援\n指揮官は行動力を消費し、予め編成した潜水艦隊をエリアに呼び出せます。潜水艦隊がエリアマップに配置されている場合、通常海域同様、漸減邀撃や戦闘中の支援が行え"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_result_kill_count = {
-		tip = "撃破数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.handbook_research_final_task_btn_claim = {
-		tip = "受取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.win_condition_display_tuoli = {
-		tip = "艦隊が指定地点に到達"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_upgrade_feedback_equipment_can_be_produced = {
-		tip = "素材となる兵装が不足しています。兵装開発で素材を入手してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_detect_2 = {
-		tip = "海域偵察を行いました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
-		tip = "攻撃中止"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_unlock3 = {
-		tip = "6-4クリアで開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_catsearch_help_1 = {
-		tip = "ターンが進むと、サルベージ進捗が経過します。オフニャを呼び戻しますか？（報酬を一部入手できます）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cattery_op_play_success = {
-		tip = "オフニャと遊びました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_destroy = {
-		tip = "退役"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.area_lock = {
-		tip = "この海域が開放されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mot_class_t_level_1 = {
-		tip = "星を導く者"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName_1 = {
-		tip = "T1 入院棟（正午）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
-		tip = "母港ビーチ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
-		tip = "専用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_guild_res = {
-		tip = "舰队资源"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
-		tip = "強化素材にSR以上の艦が選択されていますが、続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipskin_typewrong_en = {
-		tip = "GEAR SKIN UNAVAILABLE"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_get_box_tip = {
-		tip = "ランダムなオフニャ入り"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.formation_forbid_when_in_chapter = {
-		tip = "艦隊が出撃しています！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_speed = {
-		tip = "速力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_task_get_all = {
-		tip = "一括受取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.apple_link_title = {
-		tip = "連携中のアカウント完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.confirm_app_exit = {
-		tip = "ゲームを終了しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.number_8 = {
-		tip = "八"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_all_page = {
-		tip = "全て"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.award_max_warning = {
-		tip = "下記の報酬は所持上限分までしか入手できません。続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_meta_repair = {
-		tip = "艤装強化可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_time_out = {
-		tip = "作戦時間終了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_buildShipImmediately_error_noSHip = {
-		tip = "建造中の艦がありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_recycle_notice = {
-		tip = "セイレーン作戦がリセットされています。今の画面から移動しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100232 = {
-		tip = "このアカウントは削除されていないため、復元できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200200 = {
-		tip = "購入時に通信エラーが発生しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_addStarExp_error = {
-		tip = "経験値上昇失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_getShip_error_full = {
-		tip = "<color=#92fc63>ドックが一杯です</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_new_1 = {
-		tip = "確保必要エリアの脅威度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
-		tip = "限界突破で装備枠開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.star_require_enemy_title = {
-		tip = "残存敵艦隊数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collection_fetched = {
-		tip = "受取済みです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_favor_level = {
-		tip = "親愛度LV："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.discount_time = {
-		tip = "<color=grey>割引残り時間</color> <color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_mailLayer_quest_clear_choice = {
-		tip = "選択中の既読メールをすべて削除しますか？<color=#92fc63>（添付ファイルを未受取のメールは削除されません）</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.chang_ship_skin_window_title = {
-		tip = "衣装"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_catchup_3 = {
-		tip = "Ⅲ期"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.harbour_bomb_tip = {
-		tip = "港が破壊されました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_select_box_tip = {
-		tip = "ネコハコ$1個を訓練しますか？（同時に訓練できるのは最大4個のみ）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_shipinfo_equip = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/strength",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/break",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/equip",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/bullet",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/energy",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/maxlevel",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/levelup",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/fanqian",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 8,
-			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.special_animal7 = {
-		tip = "[浦波のカワイイ図鑑No.7]\nレインボーマンチカン：寝るときに虹のようなよだれを垂らしてしまう謎生物。そのよだれもまた虹を作る永久機関なのだ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_expAdd = {
-		tip = "EXP+$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_inpout_key_tip = {
-		tip = "検索ワードを入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_primary_weapons = {
-		tip = "主兵装"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destroy_high_level_tip = {
-		tip = "<color=#92fc63>$1Lv1以外</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_fighter = {
-		tip = "戦闘機"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_energy_low_warn = {
-		tip = "$1の$2のコンディションが良くない模様。出撃すると親密度が下がり、もらえる経験値が50%になる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_arrears_tips = {
-		tip = "不正な支払い（払い戻し）情報が確認されました。下記のサーバーにのみログインできます：【$1】"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
-		tip = "主力艦隊は一隻以上が必須です！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_switch_1 = {
-		tip = "バフ有効"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resolve_equip_title = {
-		tip = "下記の素材が入手できます:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clear_transcode_cache_success = {
-		tip = "ユーザーデータを削除しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipUpgradeLayer2_advanced_tip = {
-		tip = "強化素材に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_talent_not_exist = {
-		tip = "不正なアビリティ（すでに存在しているアビリティ）です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_sub_cannons = {
-		tip = "副砲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_lesson_repeated = {
-		tip = "既に戦術教室で勉強中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_special_title_age = {
-		tip = "モジュール変更"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_addFood_ok = {
-		tip = "食糧が<color=#92fc63>+$1</color>補充されました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.super_bulin_tip = {
-		tip = "タップで特殊チャレンジだプリン！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_extendArea_erro = {
-		tip = "寮舎拡張に失敗しました…<color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_daily_favor = {
-		tip = "本日ボーナス親愛度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_skill_dailyexp = {
-		tip = "本日入手経験値"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_armor = {
-		tip = "装甲"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.anniversary_task_title_8 = {
-		tip = "いわば弁証。偽りの永劫を望郷する者こそ真なる超人に至らん。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_fleet_outof_limit = {
-		tip = "これ以上艦隊を出撃させられません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.res_pic_new_tip = {
-		tip = "$1枚のスチルが更新されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
-		tip = "高速建造材が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_join_member_cnt = {
-		tip = "参加団員："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_setting_all_3_1 = {
-		tip = "OFF"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100170 = {
-		tip = "誕生日は【YYYYMMDD】の形式（例：19900101）で入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ai_change_1 = {
-		tip = "潜水艦隊・支援待機態勢に移行しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.special_animal5 = {
-		tip = "[浦波のカワイイ図鑑No.5]\nインビジブルワンワン：尻以外を不可視化できるワンワンのような謎生物。…なぜ尻なんだ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_saDing = {
-		tip = "サディア帝国"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_synthesize_power = {
-		tip = "総合戦力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_quest_end = {
-		tip = "緊急帰還させると、この委託がリストから消滅します。強制帰還させますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_battle_pause = {
-		tip = "OPERATION"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loading_tip_MsgboxMgr = {
-		tip = "対話インタフェース構築中…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_continue_to_learn_other_ship_skill = {
-		tip = "\nスキルを強化する艦船を変更しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.challenge_infinite_reset = {
-		tip = "チャレンジモードが中断されました。\nチャレンジステージクリア数:$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_name_5 = {
-		tip = "スコア超UP！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.qte_game_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/guinu_help1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/guinu_help2",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_boss_unlock = {
-		tip = "セイレーン作戦1章クリアで開放された「META戦」」で、解析Ptを入手できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_xinnian2022_firework = {
-		tip = {
-			{
-				info = "■概要\n「花火工房」とは、自分の花火を制作するミニゲーム\nになります。\n好きな火薬を選び、装薬量が所定の適切値になるよう\n装薬し、装薬値が所定の適切値に近ければ近いほど、\nより良い景品がもらえます。\nまた、「花火工場」で制作した花火は、イベントぺー\nジ画面の「打ち上げ」をタップすることで打ち上げる\nことが出来ます。\n打ち上げられた花火はイベントページから離れる\nまで表示されます。\n■操作方法\n画面下部の「装薬開始」をタップすると、花火の制作\nを開始できます。\n①火薬を選ぼう\n画面の右側にある、花火の星の色を合計3種類任意に選\nびます。\n火薬玉（星）の並び順によって花火の親星と芯星の色\nが変わりますので、要注意！\n「装薬完了」をタップすると火薬の種類の選択が完了\nします。\n②火薬を装填しよう\n画面下部の「開始」をタップすると、花火の装填量を\n決めることが出来ます。\n開始ボタンをタップすると装填が開始し、もう一回ボ\nタンをタップすると装薬が終了します。\n装填が3回行われると、花火の制作が完了します。\n1回の装填量が50％のライン（緑ライン）に近いほど\n装薬量が適切になり、3回の合計装填料が150%に近い\nほど、より良い景品がもらえます。\n③花火を打ち上げよう\n花火の制作が完了すると、裏山キャンペーンページで\n「花火打上」ボタンが表示されます。\n「打ち上げ」ボタンをタップすると、制作した花火が\nイベントページの背景に打ち上がります。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.res_music_no_next_tip = {
-		tip = "最後のBGMです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Settings_title_AdjustScr = {
-		tip = "画面サイズ調整"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginScene_error_noUserName = {
-		tip = "名前を入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_CANTUSE = {
-		tip = "適用不可"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_newyear_feast = {
-		tip = {
-			{
-				info = "■概要\n「母港正月」イベントとは、裏山の屋台（ミニゲーム）\nを楽しみながら、スタンプを集め「鬼怒」の着せ替えを\n入手するイベントです。\nスタンプを集めるには、イベント期間中にゲームにログ\nインすることで入手できる「チケット」が必要です。\n\n■チケットとスタンプの集め方\nイベント期間中毎日ログインするたびに、「チケット」\nを1枚入手することができます。\n前日までの分の「チケット」を入手していなかった場合、\nログイン日の前日までの分のチケットが一括で配布され\nます。\n\n■ミニゲームについて\n「新年対決」をタップすると、ミニゲーム「行くぜ！節\n奏（リズム）対決」をプレイすることが出来ます。\n「チケット」を所持している状態でゲームをクリアする\nと、スタンプを1つ入手するとともに、「幸運祈願」で\nきる回数が2回増加します。\n\n「スタンプ」を7つ集めると、画面右の「スタンプ」をタ\nップし、鬼怒の着せ替えを入手できます。\n「幸運祈願」を7回すると、イベントバナーの対応バナー\nで「正月招待状2020」を入手できます。\n\n※「チケット」を所持していなくてもミニゲームを遊べ\nますが、スタンプと景品・幸運祈願可能回数を入手する\nことはできません。\n※ミニゲームを途中でやめると、チケットは消費されず、\nスタンプと祈願回数も入手できません。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intensify = {
-		tip = "強化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.formation_switch_success = {
-		tip = "操作艦隊を$1に切り替えました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_rank_in_current_server = {
-		tip = "※現在のサーバーでの順位です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_help_2506 = {
-		tip = {
-			{
-				info = "■キャンペーン開催期間\n 2025.6.1（日）0:00～2025.7.31（木）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「クレンヴィル(META)」、SP報酬からは駆逐艦「初月」の限定着せ替え「祝いの日の贅沢タイム♪」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n ①週次開放任務\n キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n ②全期間任務\n 最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n ①通常報酬\n 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n ②SP報酬\n 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n ダイヤを消費しますので、オススメしません。\n 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_extend_tip_1 = {
-		tip = "拡張許可書"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200150 = {
-		tip = "領収書の照合に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pirate_wanted_help = {
-		tip = "イベント期間：10.26-11.9 メンテナンスまで\n\n遊び方\n1.イベント期間中、限定任務が出現します\n2.限定任務をクリアすると、様々な報酬を入手できます\nアビリティ固定の新オフニャ、限定テンペスタ用設備、家具「燦々たる針路」   \n受け取り時間は11月15日（水）23:59まで"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pre_combat_atlasloot = {
-		tip = "出現"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200240 = {
-		tip = "Google Playをバージョンアップしてください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginMediator_kickLoginOut = {
-		tip = "サーバーとの接続が中断しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_assess_start_tip = {
-		tip = "判定開始"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_mod_value = {
-		tip = "強化値"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.list_empty_tip_equipmentdesignui = {
-		tip = "設計図を所持していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_capacity = {
-		tip = "所持:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.liner_log_room_title = {
-		tip = "エリア調査記録"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_acttime_limit = {
-		tip = "限定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_consume = {
-		tip = "確定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_no_exist = {
-		tip = "セットが存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.autofight_tip_bigworld_stop = {
-		tip = "本艦隊の自動攻略モードが中止しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.common_activity_not_start = {
-		tip = "イベントはまだ開始されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipType_weiXiu = {
-		tip = "工作"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_changeFormationError_flag = {
-		tip = "陣形変更時にエラーが発生しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100231 = {
-		tip = "このアカウントは完全に削除されたため、復元できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_ship_from = {
-		tip = "from:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.secretary_closed = {
-		tip = "準備中です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_create = {
-		tip = "製造"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attr_antiaircraft = {
-		tip = "対空"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_member_tip = {
-		tip = {
-			{
-				info = "メンバー管理について："
-			},
-			{
-				info = "1.大艦隊のメンバーはこの画面で他のメンバー情報を確認できます。"
-			},
-			{
-				info = "2.艦隊司令・副司令は<color=#92fc63>職位が自分より低いメンバー</color>の役割を自由に変更できます。大艦隊司令は<color=#92fc63>副司令</color>から新しい司令を任命することが可能です。また、大艦隊副司令は最大<color=#92fc63>4</color>人まで任命できます"
-			},
-			{
-				info = "3.艦隊司令・副司令は<color=#92fc63>職位が自分より低いメンバー</color>を大艦隊から除名できます。"
-			},
-			{
-				info = "4.大艦隊司令は<color=#92fc63>10</color>日間ゲームにログインしていない場合、副司令は大艦隊司令を<color=#92fc63>弾劾</color>出来ます。"
-			},
-			{
-				info = "5.弾劾について：弾劾が行われた場合、<color=#92fc63>24</color>時間内艦隊司令は弾劾を取り消すことが出来ます。<color=#92fc63>24</color>時間内弾劾が取り消されない場合、大艦隊司令の権限は<color=#92fc63>活躍度が最も高い</color>に移行されます。"
-			},
-			{
-				info = "6.<color=#92fc63>見習いメンバーについて</color>："
-			},
-			{
-				info = "  大艦隊に新たに参加したメンバーは「見習い」メンバーになります"
-			},
-			{
-				info = "  「見習い」メンバーの貢献度が100に到達すると、「一般メンバー」になります"
-			},
-			{
-				info = "  「見習い」メンバーは職位を変更できません"
-			},
-			{
-				info = "  「見習い」メンバーは大艦隊兵站施設を利用できません"
-			},
-			{
-				info = "  「見習い」メンバーは大艦隊補給を利用できません"
-			},
-			{
-				info = "  「見習い」メンバーは大艦隊作戦に参加できますが、一般メンバーに昇格しないかぎり作戦事件報酬を受け取りできません"
-			},
-			{
-				info = "    ほかの各種権限については「見習い」メンバーは一般メンバーと同じ扱いになります"
-			},
-			{
-				info = "※「見習い」メンバーが除名された場合、「大艦隊作戦」の作戦事件報酬はメールボックスに送られます"
-			},
-			{
-				info = "7.<color=#92fc63>貢献度</color>について："
-			},
-			{
-				info = "メイン画面⇨「任務」の任務を完了するか、大艦隊コンテンツで活躍することで、<color=#92fc63>「貢献度」</color>を上げることが出来ます："
-			},
-			{
-				info = "    デイリー任務：<color=#92fc63>2</color>"
-			},
-			{
-				info = "    ウィークリー任務：<color=#92fc63>5</color>"
-			},
-			{
-				info = "    大艦隊任務（1回につき）：<color=#92fc63>2</color>"
-			},
-			{
-				info = "    大艦隊資源拠出（1回につき）：<color=#92fc63>10</color>"
-			},
-			{
-				info = "    大艦隊作戦事件参加（1回につき）：<color=#92fc63>1</color>"
-			},
-			{
-				info = "    大艦隊作戦・強敵に挑戦する：<color=#92fc63>10</color>"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_main_pos = {
-		tip = "指揮ニャ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100302 = {
-		tip = "認証メッセージの送信回数が上限に達したため、しばらく経ってからお試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.idolmaster_game_tip1 = {
-		tip = "ゲームを再開しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_newPlayerScene_inputName = {
-		tip = "名前を入力してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_risk_level_mitigation_rate = {
-		tip = "<size=32>海域危険度判定：<color=#92fc63>【$1】</color>\n出撃艦隊ダメージ軽減<color=#92fc63>$2%</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.option_desc6 = {
-		tip = "（ON状態）ロード画面のアスペクト比に端末の画面設定を適用させる"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_special = {
-		tip = "特殊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_already_add = {
-		tip = "既に友達になっています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.desc_defense_reward = {
-		tip = "クリア時、防御対象の耐久度に応じて報酬を獲得できます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
-		tip = "勲章が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_title_new = {
-		tip = "メール"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginScene_server_full = {
-		tip = "サーバーは満員です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_ship_repair_1 = {
-		tip = "通常修理$1 資源消費：\n<icon name=world_money w=0.7 h=0.7/>*$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.qiuqiu_total_count = {
-		tip = "累計数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.zengke_series_serverinfo = {
-		tip = "サーバー:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shipyard_phase_1 = {
-		tip = {
-			{
-				info = "イベント概要：\n 「テンペスタの秘密造船所」とは、任務イベント「テンペスタの秘密造船所」で造った船を操縦し、大海原で敵を倒したり、お宝を回収したりしつつ終点を目指し、スコアを稼ぐミニゲームになります。\n イベントは<color=#92fc63>10月24日（木）～-11月7日（木）23:59</color>まで開催されます。\n\n  遊び方：\n ・10月30日（水）まで、毎日限定任務が開放されます。開放されたすべての限定任務をクリアすると、ミニゲームで使用する船が完成します。\n ・ミニゲームでは、ステージを選択し、更に装備したい兵装を選択すると、海戦ゲームをプレイすることができます。\n ・ミニゲームのステージをクリアすると、それぞれのステージで1度だけクリア報酬を入手でき、さらに7つのステージを全部クリアすると、限定家具「始まりの冒険船」をGETできます。\n ・ステージ7をクリアすると、任意のステージを選択してプレイすることができます"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_shop_template_normaltext = {
-		tip = "活動常規道具兌換 "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2410 = {
-		tip = "2024/10/1-2024/11/30キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「鳳翔(META)」</color>などを入手可能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.option_desc5 = {
-		tip = "（ON状態）画面タップ時、タップ時演出を表示する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_should_input_keyword = {
-		tip = "キーワードが入力されていません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.music_main = {
-		tip = {
-			{
-				info = "■激唱ハウスとは"
-			},
-			{
-				info = "激唱ハウスとは、イベント「激唱のユニバース」のトッ\nプページであり、イベントの各画面に移動することがで\nきます。\n"
-			},
-			{
-				info = "■各コンテンツの説明\n特別海域：\nイベント期間中に開放される限定海域。イベント海域を\nクリアすると、アイテム「激唱エンブレム」を集めるこ\nとができます。\n \n作戦補給：\n「激唱エンブレム」を各種報酬と交換することができま\nす。\n \n累計報酬：\n入手した「激唱エンブレム」の累計数により、艦船「イ\nラストリアス(μ兵装)」など様々な報酬を入手できま\nす。 \n限定建造：\n建造の「期間限定建造」ページに移動します。\n \n着せ替え：\nショップの「着せ替え」ページに移動します。\n \n記念章：\n様々な条件を達成すことで、「グッズ」を集めることが\nできます。「グッズ」を全部集めると、限定アイテム「\n激唱記念章」を入手できます。\n \n激唱舞台：\nリズムゲームをプレイすることができます。７日間プレ\nイすると、SR「ル・マラン(μ兵装)」を入手できま\nす。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newplayer_notice_5 = {
-		tip = "クリアで「ネルソン」をGET"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_start_supply_consume_tip = {
-		tip = "大艦隊資金$1を消費し、大艦隊補給を購入しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_fleet_not_exist = {
-		tip = "艦隊が存在していません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_chapter_open_count_down = {
-		tip = "残り時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.map_event_save_rurutie = {
-		tip = "<color=#92fc63>ルルティエ</color>の救出に成功しました！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100600 = {
-		tip = "API起動失敗、パラメータの取得に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["card_battle_card details"] = {
-		tip = "コマンド詳細"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_week_title = {
-		tip = "曜日"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_start_tip1 = {
-		tip = "条件を満たしているエリアが存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collection_award_ship = {
-		tip = "$1開発完了！建造ラインナップに追加されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_news_other_empty = {
-		tip = "今月に一般イベントはありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_storeroom_page = {
-		tip = "貯蔵庫"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_tendency_4 = {
-		tip = "特別計画Ⅳ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_finish = {
-		tip = "委託完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100160 = {
-		tip = "誕生日が入力済です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_need_level = {
-		tip = "Lv.$1が必要"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_goldField = {
-		tip = "貿易港"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_information = {
-		tip = "情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_inbattle = {
-		tip = "METAとの戦闘中のため、新たにMETA戦を開始できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amusementpark_shop_exchange = {
-		tip = "引換券がないピョ。任務をクリアして引換券を手に入れるピョ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipType_qinXun = {
-		tip = "軽巡"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_shipinfo_detail = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/strength",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/break",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/equip",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/bullet",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/energy",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/BoostEXP",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/maxlevel",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/levelup",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/fanqian",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 8,
-			windowSize = {
-				x = 836,
-				y = 720
-			},
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_toggle_off = {
-		tip = "OFF"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_resume_data_title = {
-		tip = "情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100210 = {
-		tip = "ゲームアカウントと連携していないSNSアカウントです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_condition_ship_count = {
-		tip = "<color=#92fc63>$1</color>隻以上必要"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2110 = {
-		tip = "10.1~11.30キャンペーン期間中、シーズン任務報酬で<color=#854747>「扶桑(META)」</color>などを入手可能！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.anniversary_task_title_6 = {
-		tip = "いわば勇気。自由を信ずる者は机械なる神の叡冠を戴くが運命。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100305 = {
-		tip = "このメールアドレスでの利用は制限されています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.town_help = {
-		tip = {
-			{
-				info = "遊び方：\n期間限定イベント「荒野休日開拓記」が<color=#92fc63>8.15（木）-8.29（木）メンテ</color>まで開催！\n\n  ·開拓タウンでは、時間経過で「開拓コイン」を入手できます。また、一部限定任務や出現するキャラをタップしても「開拓コイン」を入手できます。\n ·「開拓コイン」を消費すると、施設（作業地点）のレベルを上げることができます。施設レベルが高いほど、「開拓コイン」の入手効率も上昇するほか、タウンの「繁栄度」が上昇します。\n ·タウンの「繁栄度」が一定数値を達成すると、「開拓コイン」を消費してタウンレベルを上げる事ができます。タウンレベルが上がると、新しい施設（作業地点）などのコンテンツが開放されます。\n ·「開拓仲間」にキャラを配置すると、配置されたキャラの出撃時に得られる好感度ボーナスが上昇します。さらにキャラが開拓タウンに出現することがあり、タップすると「開拓コイン」を少し手に入れることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_synthesize = {
-		tip = "総合"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100300 = {
-		tip = "無効なメールアドレスです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_preCombatLayer_save_confirm = {
-		tip = "現在の編成を保存しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.clue_buff_research = {
-		tip = "調査内容"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_exploit = {
-		tip = "戦果"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.just_now = {
-		tip = "直前"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.caibulin_help = {
-		tip = {
-			{
-				info = "遊び方：\n1.イベント期間中、母港と海域の特定の場所に「ヒント」が現れるプリン！\n2.見つけられない場合は、「ヒント」のアイコンをタップするといいプリン！\n  ヘルプは10分に1個しか開放できないプリン！\n3.「ヒント」をすべて集めると、特殊ステージに挑戦できるプリン！\n   特殊ステージをクリアすると、報酬を入手できるプリン！"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mmSKC連装砲\n150mmTbtsKC/36連装砲\n試作型四連装30mm機関砲 </color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_create_error_nofaction = {
-		tip = "大艦隊陣営が必要です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_repair_rate = {
-		tip = "艤装強化率"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exercise_count_recover_tip = {
-		tip = "( <color=#92fc63>$1</color> 後回復)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_view = {
-		tip = "<material=underline event=displayDetail>タップで確認</material>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_nofood_no = {
-		tip = "無視する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.launch_ball_shinano_skill_1 = {
-		tip = "アクティブ:刹那の夢"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_resume_title_metal = {
-		tip = "最高階級:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_cant_buy_tip = {
-		tip = "購入できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.techpackage_item_use_1 = {
-		tip = "特別開放は同年度に実装する特別計画艦1隻のみを選択して入手できます。<color=#92fc63>$1</color>を選択しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_open_tip = {
-		tip = "開放条件:\n指揮官Lv<color=#92fc63>$1</color>以上"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tactics_max_level = {
-		tip = "既に最大レベルです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_level_limit = {
-		tip = "練度不足"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shop = {
-		tip = "ショップ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Settings_title_Redeem_input_label = {
-		tip = "シリアル入力:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pray_build_select_ship_instruction = {
-		tip = "艦船を二人選択"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.formation_switch_failed = {
-		tip = "切り替える艦隊がありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.no_airspace_competition = {
-		tip = "制空戦なし"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_skin = {
-		tip = "着替所持"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.disassemble_selected = {
-		tip = "選択済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.warning_mail_max_4 = {
-		tip = "メールボックスがいっぱいです。所持数が所持上限に達しているとメールを新たに受信できません。メールボックスを閉じますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2206 = {
-		tip = "<size=24>2022.6.1-2022.7.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「メンフィス(META)」</color>などを入手可能！</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.box_account_del_success_content = {
-		tip = "アカウントは <color=#92fc63>$1</color> に削除される予定です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.courtyard_label_empty_custom_template_list = {
-		tip = "没有找到符合条件的家具主题\n请前往管理界面重新保存自定义主题"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_propose_changename_title = {
-		tip = "<color=#92fc63>$1</color>はあなたの専属艦になりました。名前を変更しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_finish_1 = {
-		tip = "強化指向Ⅰ期/完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
-		tip = "<size=28>すでに交換可能な全着せ替えを所持しています。\n<color=#92fc63>$1*1</color>を\n<color=#92fc63>$2*1</color>に変換しますか？</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_max_count_1 = {
-		tip = "相手の友達数がいっぱいです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_word_member = {
-		tip = "メンバー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_change_attr = {
-		tip = "変化確定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_item_origin = {
-		tip = "入手条件"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.expedition_drop_use_out = {
-		tip = "当該難易度の本日の追加報酬は全て入手しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.trade_card_tips3 = {
-		tip = "お知らせにゃ。\n指揮官が購入した貿易許可証は、$1で期間満了になるにゃ。\n貿易許可証を購入すると毎日ボーナスが貰えるにゃ～\n明石のお店で、引き続き購入するのはいかがかにゃ？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_box_confirm = {
-		tip = "確定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_add_new = {
-		tip = "New!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_dissolve_erro = {
-		tip = "解散に失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_member_rank_title_donate = {
-		tip = "拠出回数"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_shipType_hangMu = {
-		tip = "空母"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.daily_level_quick_battle_label1 = {
-		tip = "一括挑戦$1回"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_bg_fit_mode = {
-		tip = "ﾛｰﾄﾞ画面のｱｽ比自動適応"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_vote_time = {
-		tip = "投票期間: $1-$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_max_tip_battle = {
-		tip = "出撃すると資源は入手できません。本当に出撃しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_version_tip = {
-		tip = "アプリが更新されました。最新データのダウンロードを行うため、アプリを再起動します。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_destroyEquipments_error_noEquip = {
-		tip = "装備が存在しません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_day7 = {
-		tip = "日"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_rare3 = {
-		tip = "レア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200210 = {
-		tip = "決済システムにエラーが発生しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_rename_coldtime_tip = {
-		tip = "オフニャは24時間以内で1回しか名前を変更できません。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.use_oil_limit_help = {
-		tip = "艦隊戦闘の燃料消費<icon name=oil w=0.7 h=0.7/>$1が燃料消費上限を上回っているため、燃料消費は燃料消費上限<icon name=oil w=0.7 h=0.7/>$2になります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardGranaryLayer_full = {
-		tip = "<color=red>食糧はもういっぱいです！</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_expedition_reward_display2 = {
-		tip = "HP $1%"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_shipType_zhanLie = {
-		tip = "戦艦"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shopStreet_refresh_max_count = {
-		tip = "本日はもう更新できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_condition_reload = {
-		tip = "装填合計"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.class_label_upgrading = {
-		tip = "強化中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.school_title_xiaoyouxiting = {
-		tip = "ゲームロビー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_levelScene_lock = {
-		tip = "海域が開放されていません。<color=#92fc63>前のステージ</color>を攻略すると開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
-		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n試作型305mm四連装砲SKC39\n127mmKM40連装砲\n試作型55mm Gerät 58対空砲\n</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_threaten_exclude = {
-		tip = "脅威排除"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_show_the_finished_version = {
-		tip = "既に完了（素材確保）した指向も選択する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_max_count = {
-		tip = "相手の友達人数が上限になっています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_prefab_name = {
-		tip = "セット$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_chapter_state_safety = {
-		tip = "<color=#92fc63>【安全海域】</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_extendMagazine_error = {
-		tip = "倉庫拡張失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_is_in_guild = {
-		tip = "大艦隊の強敵戦に編成されているオフニャです。編成から外し、対象に選択しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.event_same_type_not_allowed = {
-		tip = "同じ艦を編成できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.formation_invalide = {
-		tip = "戦闘可能な艦隊がありません…作戦失敗です…"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_box_quickly_tool_tip_3 = {
-		tip = "残り時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_rare2 = {
-		tip = "ノーマル"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_69902 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型254mm三連装砲Mod1939\n試作型152mm三連装砲Model1936\n試作型90mm連装高角砲Model1939</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_39907 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型410mm連装砲Mod.A\n140mm単装砲\n試作型五式40mm高射機関砲</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_shipAlreadyExit = {
-		tip = "既に休憩枠から外されました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_cancel_g = {
-		tip = "戻 る"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dockyard_search_holder = {
-		tip = "キャラ名入力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginScene_server_vindicate = {
-		tip = "メンテナンス中です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_mailMediator_notingToTake = {
-		tip = "受け取れるアイテムはありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型四連装152mm砲\n533mm四連装魚雷MarkIX\n20mm二連装エリコン機関砲</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.loveletter_recover_bottom2 = {
-		tip = "メール再送"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型305mmSKC39三連装砲\n533mm四連装磁気魚雷\n105mmSKC連装高角砲</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_expand = {
-		tip = "裏山温泉コインを$1消費し温泉を増築しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_task_help_2404 = {
-		tip = {
-			{
-				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_ui_spweapon = {
-		tip = "特殊装備"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.coloring_erase_warning = {
-		tip = "着色済みの枠から色を削除した場合、着色した際に使用した絵の具はもとに戻りません。本当に削除しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_buff_desc_6 = {
-		tip = "ゲーム開始時、制限時間が10秒延長される。時間切れになる度、50%の確率でさらに10秒延長される"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_level = {
-		tip = "練度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19901 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装152mm両用砲Mk17\n試作型三連装152mm両用砲Mk17\n四連装ボフォース40mm機関砲</color></size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sham_shop_title = {
-		tip = "コア月度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.special_animal1 = {
-		tip = "[浦波のカワイイ図鑑No.1]\nブリザードウーパー：急速冷凍のスキルを有する謎生物。拡張パックでさらなる能力を会得できるらしい"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.no_open_system_tip = {
-		tip = "<color=#92fc63>$1</color>は指揮官Lv<color=#92fc63>$2</color>で開放されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_room_unlock = {
-		tip = "アセットをダウンロードする必要があります"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.monopoly3thre_tip = {
-		tip = "※着せ替えを既に所有している場合は、自動で資金に変換されます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_limit_notice = {
-		tip = "*潜水艦ステータスが含まれない"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.batch_destroy = {
-		tip = "一括廃棄"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
-		tip = "<color=#92fc63>受取失敗:</color><color=#92fc63>ドックが一杯です</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_create_error_nomoney = {
-		tip = "ダイヤが足りません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.upgrade_introduce_tip = {
-		tip = "$1レッスンlv.MAXで追加報酬GET!"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_personality_title = {
-		tip = "性格"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.area_shenyuan = {
-		tip = "強敵座標"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100803 = {
-		tip = "エラー：文字数オーバー"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_oni_lose = {
-		tip = "特殊目標拿捕失敗・目標が海域から離脱しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_300100 = {
-		tip = "システムシェアに失敗しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_shipNation_link = {
-		tip = "コラボ"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_rest_tip = {
-		tip = "寮舎の「休憩」に配置された艦はコンディションが回復する"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tips_shrine_buff = {
-		tip = "賽銭︵資金5︶を入れ   　 を祈願しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_destroy_tip = {
-		tip = "META艦船は退役できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_spweapon = {
-		tip = "専用装備"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.Supplement_pay8 = {
-		tip = "残り $1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.number_7 = {
-		tip = "七"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_resume_manoeuvre_count = {
-		tip = "演習回数:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pgs_unbind = {
-		tip = "PGSアカウントの連携解除"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.air_supremacy_value = {
-		tip = "制空値"
 	}
 end)()
 
@@ -35112,20 +17819,17895 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ad_0 = {
+		tip = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.watermelon_minigame_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/watermelon_minigame",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_catchup_0 = {
+		tip = "Ⅰ期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_sub_cannons = {
+		tip = "副砲"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_notificationLayer_roomId_invaild = {
+		tip = "ルームが存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resolve_equip_tip = {
+		tip = "廃棄する装備を選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.upgrade_to_next_maxlevel_failed = {
+		tip = "レベルが最大です。\n現在はこれ以上認識覚醒できません。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.bulin_tip1 = {
+		tip = "1-2海域に出撃にゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sure_exit_resolve_equip = {
+		tip = "操作を行わないと、全ての装備が<color=#5f984d>倉庫</color>に格納されます\n 前の画面に戻りますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.wwf_bamboo_tip2 = {
+		tip = "（平海）次の報酬まで"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior7 = {
+		tip = "掃除"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.storyline_memorysearch2 = {
+		tip = "検索..."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.list_empty_tip_friendui_request = {
+		tip = "友達申請はありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.storyline_memorysearch1 = {
+		tip = "ストーリー検索"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
+		tip = "報酬交換チケットが不足しています。ミニゲームロビーに戻りますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_nation_award_finish = {
+		tip = "-受取済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.storyline_chapter3 = {
+		tip = "第三章"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.storyline_chapter1 = {
+		tip = "第一章"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_skin_replace_done = {
+		tip = "装備外装を変更しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.settings_sound_title_bgm = {
+		tip = "  ミュージック"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.email_text = {
+		tip = "メールアドレス"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.linkBtn_text = {
+		tip = "連携"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.islandnode_tips4 = {
+		tip = "正解おめでとうピョ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_week_day5 = {
+		tip = "金曜日"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_transfer_president_confirm = {
+		tip = "「艦隊司令」権限を$1に委譲すると、指揮官は「一般メンバー」になります。委譲を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.storyline_chapter0 = {
+		tip = "序章"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_trans_tip = {
+		tip = "輸送埠頭"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.nav_tactics_sel_skill_title = {
+		tip = "スキル確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_trans_not = {
+		tip = "輸送に必要な輸送力が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.without_selected_ship = {
+		tip = "条件に合う艦船がいません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_trans_get = {
+		tip = "再建任務をクリアすると輸送力を入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_rest_HP = {
+		tip = "港耐久度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_finish = {
+		tip = "リゾート島の再建が<color=#5f984d>全て完了</color>しました。余った再建物資を<color=#5f984d>再建コイン</color>に変換しましょう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_task_now = {
+		tip = "現在目標"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_trans = {
+		tip = "輸送埠頭"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_bath = {
+		tip = "夏のテルマエ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.desc_base_hp = {
+		tip = "港耐久度：$1/$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_minigame2 = {
+		tip = "サルベージ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.game_goldbyicon = {
+		tip = "資金$1を消費し、コイン$2枚を購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_furniture = {
+		tip = "家具"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_limit_level = {
+		tip = "必要指揮官Lv:<color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_mediumArmor = {
+		tip = "中装甲"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.NewMusic_6 = {
+		tip = "アルバム一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_award_limit = {
+		tip = "作戦進捗<color=#FFDE00FF>$1%</color>で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_notificationLayer_deleteFriend = {
+		tip = "友達削除"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.NewMusic_5 = {
+		tip = "お気に入り"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_share_listempty = {
+		tip = "まだ装備編成がシェアされていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.NewMusic_2 = {
+		tip = "検索..."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.NewMusic_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/music_help",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_silent_tip_2 = {
+		tip = "隻の艦船の建造が完了しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_2 = {
+		tip = "メイン\n2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovemainpage_build_countdown = {
+		tip = "終了間近"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_time_limit = {
+		tip = "敵艦隊を$1秒内で撃破"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_close = {
+		tip = "セイレーン作戦開催期間外です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_research_final_task_desc_locked = {
+		tip = "$1の全ての開発任務をクリアすると本段階最終任務が開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_name_2 = {
+		tip = "スコアUP！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_gametip = {
+		tip = {
+			{
+				info = "「指揮官メモ」について："
+			},
+			{
+				info = "「指揮官メモ」には、新兵任務）、開発任務、機能案内の3つの任務群があります。"
+			},
+			{
+				info = "<b>1.新兵任務：</b>\n·初心者指揮官向けの一連の任務群になります。\n·任務は全部で9つの段階があり、それぞれの段階でいくつかの任務が存在します。\n·前の段階の任務を6つクリアすると、次の段階の任務が開放されます、それぞれの段階の全ての任務をクリアすると、段階クリア報酬を入手できます。\n·全部で9つの段階の任務を全部クリアすると、「新兵任務UR交換チケット」を入手できます。チケットを使用すると、UR艦船<color=#92fc63>「信濃」</color>か<color=#92fc63>「ニュージャージー」</color>から一人を選んで入手できます。"
+			},
+			{
+				info = "<b>2.開発任務：</b>\n·指揮官レベル30で開放され、開発ドックで活用できるデータパックや強化ユニットを入手できる一連の任務群になります。\n·指揮官は特別計画艦の期数から選んで任務を進めることができます。\n·注意：一度開発任務を開放すると、その期の開発任務を全てクリアしない限り、他の期の開発任務に切り替えることはできません。"
+			},
+			{
+				info = "<b>3.機能案内：</b>\n·新規指揮官向けの機能チュートリアルと説明案内のまとめになります。\n·各機能グループではそれぞれのチュートリアル任務と説明が存在し、グループの任務を全部クリアするとメンタルキューブを入手できます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amercian_notice_5 = {
+		tip = "本段階はまだ開放されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_finished = {
+		tip = "受取済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_shipinfo_fashion = {
+		tip = {
+			{
+				info = "\n着せ替え：\n\n 「期間外」着せ替え入手期間外です"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Settings_title_FPS = {
+		tip = "フレーム"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_switch_skill_disable = {
+		tip = "本日はこれ以上習得スキルを切り替えできません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_claim = {
+		tip = "受取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_process = {
+		tip = "未完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.MonopolyCar2024Game_open_auto_tip = {
+		tip = "自動前進モード開放。開始地点を通過する時、スタッフが自動で変更されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_donate_addition_capital_tip = {
+		tip = "大艦隊資金が$1増加しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_pack_lock = {
+		tip = "$1解放後に購入できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_kickIntError = {
+		tip = "接続中にエラーが発生しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
+		tip = "製造に必要な強化経験値が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.flagship_display_mode_2 = {
+		tip = "特殊秘書艦のみ表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.remould_ship_count_more = {
+		tip = "1隻以上選択しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_fail_1 = {
+		tip = "どこかが間違っていますね…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.draw_little_luck_1 = {
+		tip = "これから運がよくなるにゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_impeach_sucess = {
+		tip = "弾劾しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_new_player_task_locked_by_section = {
+		tip = "前段階の全ての任務をクリアして開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.simulation_enhanced = {
+		tip = "相手は特殊戦術を発動しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.settings_text_account_del_btn = {
+		tip = "削除確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
+		tip = "DOF"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_break = {
+		tip = "※限界突破で★UP！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.metaskill_up = {
+		tip = "<color=#E0E0E0>*「META汎用戦技教科書」で入手できる経験値は毎日入手可能経験上限に含まれない </color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_enable_post_process = {
+		tip = "ポストプロセス"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.simulation_disadvantage_counting = {
+		tip = "$1秒後特殊戦術を発動します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.avatar_upgrad_2 = {
+		tip = "突破2回"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_character_quality = {
+		tip = "キャラの品質"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_enable_additional_lights = {
+		tip = "マルチライト"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_detail = {
+		tip = "詳細"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_need_star = {
+		tip = "星$1が必要"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname1 = {
+		tip = "中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_skin_count_noenough = {
+		tip = "装備外装が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_reload_unlock_name = {
+		tip = "?????"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality = {
+		tip = "環境の品質"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ranking_word_3 = {
+		tip = "0"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.upgrade_idol_tip = {
+		tip = "レッスンを行う項目を選んでください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_unlock_done = {
+		tip = "保護解除に成功しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname3 = {
+		tip = "毎フレーム"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname1 = {
+		tip = "中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname0 = {
+		tip = "低"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode = {
+		tip = "影の更新頻度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname2 = {
+		tip = "中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_title = {
+		tip = "<size=32>人気投票開催期間</size> <size=24>2023/12/7 - 2024/2/5 24時</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_save_empty_theme = {
+		tip = "マイセットを保存できませんでした"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_buyItem_ok = {
+		tip = "<color=#92fc63>$2を$1つ</color>購入しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_all_4_2 = {
+		tip = "OFF"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_addShip_error = {
+		tip = "休憩艦船配置失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.set_birth_success = {
+		tip = "誕生日を設定しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_btn_home = {
+		tip = "帰宅"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_summer_food = {
+		tip = {
+			{
+				info = "■概要\n「グルメ街」とは、艦船の買い出しの依頼に応じ、制\n限時間内にみんなが欲しがる食べ物を屋台で購入する\nミニゲームになります。\n正しい食べ物を購入すると、制限時間が増加し、得点\nを得ることが出来ます。\n制限時間終了、もしくはゲームを中断した場合、ゲー\nムクリアになります。\n■遊び方\n・「スタート」をタップすると、画面左のキャラに買\nい出し内容が表示されます。\n・10秒後、買い出し内容の表示が消え、代わりに購入\nできる食べ物の一覧が出現します。\n・制限時間内に食べ物のアイコンをタップすると、購\n入する食べ物を選択することができます。また選択済\nみの食べ物アイコンをタップすると、選択をキャンセ\nルすることができます。\n・食べ物を3種類選択すると、買い出し結果画面が表\n示されます。\n・購入した食べ物が買い出し内容と一致（並び順を含\nむ）した場合、得点を入手することが出来ます。\n・結果画面で「続ける」をタップすると、ミニゲーム\nを継続することが出来ます。「終了」をタップするか\n、もしくは制限時間が0になると、ミニゲームを終了\nできます。\n■報酬について\nゲーム終了時の得点に応じて、賞品を入手出来ます。\n一等賞　20点以上\n二等賞　12点以上\n三等賞　5点以上\n四等賞　4点以下"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_level_no_enough = {
+		tip = "大艦隊レベルが不足しているため、作戦を発令できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.expbook_max_tip_title = {
+		tip = "経験値パックが上限になっています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_4 = {
+		tip = "スキル"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname0 = {
+		tip = "オフ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.area_zhuxian = {
+		tip = "ﾒｲﾝ海域"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality = {
+		tip = "影の品質"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_shop_discount_item_link = {
+		tip = "<color=#92fc63>割引クーポン</color><color=#ffea00>-$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_train = {
+		tip = "訓練"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.indexsort_sort = {
+		tip = "ソート"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname1 = {
+		tip = "高"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_buff_pt_boost = {
+		tip = "1つ追加する度にPt入手+5%"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_live2dfiles_noneedupdate = {
+		tip = "更新完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_drop_desc_default = {
+		tip = "艦船獲得"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname1 = {
+		tip = "高"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_ammo = {
+		tip = "弾薬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_all = {
+		tip = "全陣営"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname0 = {
+		tip = "低"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.personal_property_title = {
+		tip = "ステータス"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_rendering_quality = {
+		tip = "レンダリング精度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2302 = {
+		tip = {
+			{
+				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200231 = {
+		tip = "OneStore決裁が失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname2 = {
+		tip = "2K"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_keep_attr = {
+		tip = "変化中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname0 = {
+		tip = "720P"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
+		tip = "GPUPUを許可"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_request_msg_placeholder = {
+		tip = "申請を送信しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yostar_account_btn = {
+		tip = "アカウント管理"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_506124 = {
+		tip = "改造（近代化改修）を行うと<color=#92fc63>【1つ目の装備枠に戦闘機装備可能】【2つ目の装備枠に艦載機装備可能】</color>、<color=#92fc63>【1つ目と2つ目の装備枠の威力補正+10%】</color>\n改造を続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_updateShipLock_error = {
+		tip = "ロック/アンロック失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_extendship_success = {
+		tip = "ドック拡張成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_catchup_4 = {
+		tip = "Ⅳ期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_reward = {
+		tip = "報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yostar_trans_btn = {
+		tip = "復旧&連携ページ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_chunjie_jiulou = {
+		tip = {
+			{
+				info = "■饅頭年玉について\n・「饅頭年玉」では、ミニゲームで手に入れた「年玉」を開封し、報酬を入手できます。\n・「年玉」は「撫順の大冒険」「おえかき」「伏波の完全作戦」「母港花火大会」を遊ぶことで入手できます。\n・入手した「年玉」は15個目までは「年玉・大」になります。\n・入手した「年玉」を開封する際は「年玉・大」から優先的に開封されます。\n開封すると、ダイヤなどの報酬をランダムで獲得できます。\nまた、「年玉」を累計15個開封すると、<color=#92fc63>「撫順」の着せ替え（復刻）</color>を入手できます。「年玉」を累計25個開封すると、<color=#92fc63>「若月」の着せ替え（復刻）</color>を入手できます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yostar_login_btn = {
+		tip = "ログイン"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.report_type_3_1 = {
+		tip = "人種や性別、特定の対象への攻撃的な発言"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_win_condition = {
+		tip = "勝利条件"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_cafe_minigame5 = {
+		tip = "終了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_cafe_minigame3 = {
+		tip = "撮影完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
+		tip = "$1の即興ダンス"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_hit = {
+		tip = "命中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.techpackage_item_use = {
+		tip = "特別開放を行うと、PR艦船交換アイテムが消費されます。$1を特別開放しますか？（艦船「$1」を入手でき、レベル・強化レベルは1）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_minigame1 = {
+		tip = "カンセンゲーム"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_gift1 = {
+		tip = "プレゼント"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_buff_ticket_tips = {
+		tip = "チェックボックスをタップし「天狐グループバッジ」を使用と報酬を追加入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_sold_out = {
+		tip = "売切れ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_tip10 = {
+		tip = "「建造」…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SuperBulin2_lock_tip = {
+		tip = "ヒントをすべて集めると限定ステージを可能！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_getShip_error_notFinish = {
+		tip = "建造が完了していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_composite_count = {
+		tip = "調合個数："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exercise_award_tip = {
+		tip = "演習期間中、階級が昇格すると、1階級一回のみ報酬が貰えます:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_monopoly_car_2 = {
+		tip = {
+			{
+				info = "■遊び方"
+			},
+			{
+				info = "「饅頭レース」とは、毎日ログインすることで手に入る\n5つのサイコロ（前進回数）を消費し、各種マスの報酬\nを手に入れるボーナスゲームになります。"
+			},
+			{
+				info = "「饅頭レース」の開始地点を通過すると、【資金200】\nを入手できます。また、開始地点を4回通過すると、特\n殊家具を入手できます。"
+			},
+			{
+				info = "「饅頭レース」で止まった各種マスに応じて下記の効果\nを獲得します。"
+			},
+			{
+				info = "    ：資金を少し入手できます；",
+				icon = {
+					path = "saichejinbi",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "    ：燃料を少し入手できます；",
+				icon = {
+					path = "saicheshiyou",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "    ：ちょっとしたイベントが発生します；",
+				icon = {
+					path = "saicheminyun",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "    ：ランダムな報酬を入手できます；",
+				icon = {
+					path = "saichedaoju",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "    ：何マスか前進します；",
+				icon = {
+					path = "saicheteshu",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "毎日ログインするとアクセル（サイコロ）回数を獲得！開始地点を<color=#92fc63>4</color>回通過すると家具をGET！"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SuperBulin2_help = {
+		tip = {
+			{
+				info = "遊び方：\n1.イベント期間中、母港と海域の特定の場所に「ヒント」が現れるプリン！\n2.見つけられない場合は、「ヒント」のアイコンをタップするといいプリン！\n ヘルプは10分に1個しか開放できないプリン！\n3.「ヒント」をすべて集めると、特殊ステージに挑戦できるプリン！\n 特殊ステージをクリアすると、報酬を入手できるプリン！"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.worldinpicture_task_help = {
+		tip = {
+			{
+				info = "■概要\n「画中世界」とは、任務クリアでられる「探索回数」「名物配置回数」を消費し、画中世界を探索するミニゲームになります。\n「探索回数」を全部消費すると、艦船「海圻」を入手できます。\n「探索回数」「名物配置回数」を全部消費すると、艦船「海天」を入手できます。\n\n■遊び方\n・1/24（火）まで毎日解放される任務をクリアすると、「探索回数」「名物配置回数」を入手できます。\n・画中世界では、画面をタップすることで「探索回数」を消費し画面を探索することが可能です。また、宝箱を探索すると「お年玉」を入手できます。\n・画面左下のボタンで、「探索」「名物配置」を切り替える事ができます。\n・「名物配置」では、探索済みのマスをタップすると「名物配置回数」を消費し、名物を配置できます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_noshiro_bed = {
+		tip = "寝室"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.buleprint_need_level_tip = {
+		tip = "該当艦がレベル$1で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pt_ship_now = {
+		tip = "撃破数合計："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.AR_plane_long_press_to_summon = {
+		tip = "平面を長押しして、キャラを呼び出してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_gift_title = {
+		tip = "お得パック"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SuperBulin2_tip1 = {
+		tip = "倉庫で暗号を探そうプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_2 = {
+		tip = "$1があなたのことをもっと知りたいようだ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_chunjie_monopoly = {
+		tip = {
+			{
+				info = "ルール："
+			},
+			{
+				info = "1.右下のサイコロをタップすると、アイテム「サイコロ」\nを1個消費し、すごろく盤で一回移動することができま\nす；"
+			},
+			{
+				info = "2.サイコロを5個消費する度に、年玉（特別ボーナス）\nを入手することができます；"
+			},
+			{
+				info = "3.サイコロはイベント期間中、毎日5つ自動で加算され\nます。"
+			},
+			{
+				info = "4.すごろくの各マスで様々な効果があります。また、出\n発時点を通過すると資金を少しを入手することができま\nす；"
+			},
+			{
+				info = "    ：資金を少し入手できます；",
+				icon = {
+					path = "jinbi",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "    ：燃料を少し入手できます；",
+				icon = {
+					path = "shiyou",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "    ：ランダムなミニイベントが起きます；",
+				icon = {
+					path = "minyun",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "    ：ランダムなアイテムを入手できます；",
+				icon = {
+					path = "daoju",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			},
+			{
+				info = "    ：ランダムな移動イベント；",
+				icon = {
+					path = "teshu",
+					atlas = "attricon",
+					posY = 0,
+					scale = 0.19,
+					posX = 0
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100207 = {
+		tip = "Google Play GamesのローカルToken認証に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_all = {
+		tip = "全て"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_line_tip = {
+		tip = "一筆描きですべてのパーツをつなげよう!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_12 = {
+		tip = "T4 研究センター（夜）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_name_4 = {
+		tip = "コア：L3エリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_index_shipType_qianTing = {
+		tip = "潜水"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.warning_pray_build_pool = {
+		tip = "「選べる特別建造」の出現率変更の艦船を<color=#FF5C5C>確定すると以後</color>変更できません。\n出現確率変更艦船を選び直しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteLayer_maxLv = {
+		tip = "最高<color=#92fc63>Lv$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_consume_for_battle = {
+		tip = "発令消費"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.build_detail_intro = {
+		tip = "同時建造可能数："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_week = {
+		tip = "週"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_ui_giveup = {
+		tip = "中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_shop_limit_cnt = {
+		tip = "限定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_deleteread_button = {
+		tip = "既読削除"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_max_tip_storeroom = {
+		tip = "所持上限以上の資源は取り出せません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.notify_clock_button = {
+		tip = "アラーム権限を許可する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_9 = {
+		tip = "T1 入院棟（夜）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_8 = {
+		tip = "T4 研究センター（黄昏）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.change_technology_refresh_sucess = {
+		tip = "研究項目・変更成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_6 = {
+		tip = "T2 療養センター（黄昏）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_mood_error = {
+		tip = "コンディションが30以下の艦船がいるため単独出撃できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_4 = {
+		tip = "T4 研究センター（正午）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_3 = {
+		tip = "T3 物流センター（正午）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control_buff_not_obtain = {
+		tip = "未所持"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_emptyBlock = {
+		tip = "対応する兵装が装備されていません…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_collection_1 = {
+		tip = "完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_yujinwangguo = {
+		tip = "チュリッパ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_daily_task_none = {
+		tip = "現在受注できる任務はありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.special_animal3 = {
+		tip = "[浦波のカワイイ図鑑No.3]\nアザラシボール：空気を大量に吸い込むことで、短時間ながら浮遊できる謎生物。鉄血のHe 178のエンジンがこいつから着想したわけではない"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_tactics_unlock = {
+		tip = "スキル習得"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_map_locked_border = {
+		tip = "周辺エリアが確保されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_noFood = {
+		tip = "食糧が足りません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_click_desc = {
+		tip = "SDキャラを3回タップすると正解を閲覧可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ranking_word_6 = {
+		tip = "階級"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200390 = {
+		tip = "決済システムへの通信時にエラーが発生しました\nエラーコード:200390"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.jp6th_spring_tip2 = {
+		tip = "温泉手形が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_pair_5 = {
+		tip = "みづくくるとは"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_finish = {
+		tip = "在庫しょ…じゃにゃくて、報酬はすべて交換済みにゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_torpedo = {
+		tip = "雷装"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_cancel = {
+		tip = "戻 る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.towerclimbing_gametip = {
+		tip = {
+			{
+				info = "■概要\n「饅頭大冒険」とは、移動とジャンプでできるだけ高い階層を目指すミニゲームになります。\n「ゲーム回数」を所持している状態でゲームをクリアすると、「ゲーム回数」が1回消費され、「探検コイン」を入手できます。\n\n■ゲームルール\n・画面下部の矢印キーとジャンプボタンで、SDサラトガを操作して上の階層に移動します。\n・棘や罠にぶつかったり、画面下部の饅頭に触れたりすると、ライフが1個減ります。ライフが０になるとゲーム終了（クリア）になります。\n・到達する階層数によって得点（スコア）が記録されます。ハイスコアを目指しましょう！"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_stamina_recover = {
+		tip = "※行動力が200を下回った場合、 <color=#92fc63>10分</color> 毎に行動力が<color=#92fc63>1</color>回復します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_pt_tip = {
+		tip = "累計 x"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_close_tip = {
+		tip = "画面タップで戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_accept_erro = {
+		tip = "申請承認に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_unselect_tip = {
+		tip = "調査攻略で調査目標を選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_lock_tip2 = {
+		tip = "$1を開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_task_goto = {
+		tip = "調査開始"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_title_4 = {
+		tip = "ストーリー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_propose_changename_tip2 = {
+		tip = "*名前変更は30日に一度です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_title_3 = {
+		tip = "重要情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_confirm_doublecheck = {
+		tip = "読み込んだ装備編成を適用しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ssssmedal_name6 = {
+		tip = "ピュリっち"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_progress_tip_title = {
+		tip = "座標情報お知らせ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate1 = {
+		tip = "達人"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_vitae_skin_setting = {
+		tip = "着せ替え設定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_tip1"] = {
+		tip = "装備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SkinDiscount_Hint = {
+		tip = "未受取の着せ替えクーポンがあります。クーポン受け取りページに移動しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_label_make_ticket_failed_tip = {
+		tip = "制作手順をもう一度確認しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_no_recent_ships = {
+		tip = "スキル強化歴はありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SkinDiscountHelp_School = {
+		tip = {
+			{
+				info = "1.キャンペーン期間中、<color=#92fc63>クーポンを使用せずに</color>「学園」シリーズ着せ替えを購入するか、着せ替えパック（学園）を購入した場合、キャンペーンページにて<color=#92fc63>着せ替えクーポン（学園）</color>を入手できます\n2.<color=#92fc63>着せ替えクーポン（学園）</color>は「学園」シリーズの着せ替えを購入する際に、ダイヤ×300分割引になります（お得パックを購入する時には使用できません）\n3.キャンペーン終了時【2025年4月9日（水）23:59:59】、未使用の<color=#92fc63>着せ替えクーポン（学園）</color>は削除されます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.rps_game_take_card = {
+		tip = "カード確定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_tip_operation_time_is_not_ample = {
+		tip = "大艦隊作戦開放期間が残りわずか（7日間以下）なため、進捗によっては作戦が最後まで進められない場合があります。本当に参加可能回数を消費し、大艦隊作戦に参加しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2025Valentine_minigame_c"] = {
+		tip = "えっと……この味、本当に大丈夫かしら？ロイヤルメイドなのにこんな出来栄えじゃ……指揮官、もう一度作り直させて！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2025Valentine_minigame_b"] = {
+		tip = "やっとできた！想像してたのとちょっと違うわね……でも指揮官がたくさん手伝ってくれたから、そんなに悪くないはずだよね？えへへ☆"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["not yet completed"] = {
+		tip = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_shop_point_sure = {
+		tip = "行動力は上限までしか所持できません（上限を超えた行動力は自動で破棄されます）。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_equipment_special = {
+		tip = "その他"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_theme_refresh_time_tip = {
+		tip = "请勿频繁刷新"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.energy_desc_angry = {
+		tip = "もう動けないorz 早く休ませてあげよう"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_live2dfiles_download_title = {
 		tip = "Live2Dアセット更新"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_300220 = {
-		tip = "本人確認情報が期限切れです"
+	_G.pg.base.gametip.child2_mood_desc3 = {
+		tip = "現在の気分：普通； 報酬獲得に影響しません"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.monoply_drop_ship_step = {
-		tip = "在经过$1圈，可获得角色换装【东煌之风】"
+	_G.pg.base.gametip.world_movelimit_event_text = {
+		tip = "エリアに未完了の任務が存在しているため、エリカ移動を行えません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_mood_desc2 = {
+		tip = "現在の気分：不調； <color=#ff6767>報酬獲得-20%%</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_mood_desc1 = {
+		tip = "現在の気分：絶不調； <color=#ee4a4a>報酬獲得-40%%</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_special_character_buy_unlock = {
+		tip = "キャラクターを所持していません。<color=#39bfff>「育成」</color>コンテンツで開放可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_save_theme = {
+		tip = "テーマセーブ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firework_2025_tip2 = {
+		tip = "コンディション回復速度："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_buildShip_error = {
+		tip = "建造失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firework_2025_got = {
+		tip = "受取済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remouldShip_error = {
+		tip = "限界突破失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firework_2025_get = {
+		tip = "受取可"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firework_2025_pt = {
+		tip = "雰囲気Pt"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_food_count = {
+		tip = "食糧庫上限: $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_share = {
+		tip = "シェア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_type_unreached = {
+		tip = "出撃条件未達成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_error_noShip = {
+		tip = "艦が存在しません: <color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.verification_code_req_tip1 = {
+		tip = "メールアドレスを入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firework_2025_level = {
+		tip = "レベル$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_replay_continue = {
+		tip = "続ける"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_replay_clear = {
+		tip = "戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_pass_2 = {
+		tip = "正解ですよ。指揮官"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.buildship_heavy_tip = {
+		tip = "「リュッツォウ」「ザイドリッツ」「ヨルク」常設実装！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attrset_disable = {
+		tip = "作戦中の艦船がいるため、設定できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_skill_unlock_tip = {
+		tip = "突破後で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_replay_tip = {
+		tip = "ゲーム中断を検出しました。中断時の進捗に戻りますか？（ボタン「戻る」をタップすると前の画面に戻ります）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_original_price = {
+		tip = "通常"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.please_input_1_99 = {
+		tip = "1～99を入力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip23 = {
+		tip = "一括投入"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_guide_tip = {
+		tip = "シリアスの部屋を見てみよう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.idolmaster_voice_name_feeling1 = {
+		tip = "失望"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_skin_already = {
+		tip = "適用中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_skin_confirm = {
+		tip = "適用確定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_battle_pause2 = {
+		tip = "セイレーン作戦"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_video_call = {
+		tip = "ビデオ通話"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
+		tip = "未確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_telephone = {
+		tip = "未開放です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_room_guide = {
+		tip = "ビーチに訪問してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
+		tip = "ロフト"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_vo_fighting = {
+		tip = "戦場に出撃中です！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sculpture_drawline_done = {
+		tip = "設計通りにお土産のパーツを組み合わせられました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_consume_carry_tips = {
+		tip = "未配置tip"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.building_complete_tip = {
+		tip = "増築に成功しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_sairen_description1 = {
+		tip = "エリアのセイレーン支配度　<color=#3dc6ff>$1%</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_400050 = {
+		tip = "このニンテンドーアカウントはYostar IDと連携されておりません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_310044 = {
+		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_room_beach = {
+		tip = "海辺、水着、バレーボール…潮風の中で楽しもう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
+		tip = "新しい投稿はありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_new_topics = {
+		tip = "$1に新しい投稿があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.lesson_endToLearn_error = {
+		tip = "課程中止失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_ins = {
+		tip = "艦船通信"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_topics = {
+		tip = "艦船通信"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_syn_value_label = {
+		tip = "累計解析Pt"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.package_view_4 = {
+		tip = "入手済："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_new_calls = {
+		tip = "新着あり"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.emptymarkroom_tip_mailboxui_en = {
+		tip = "C O M M A N D E R ， N O  M A I L  H A S  B E E N  A R C H I V E D  Y E T "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200250 = {
+		tip = "APIに問題が発生しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hololive_lianliankan = {
+		tip = {
+			{
+				info = "■概要\n「集まれ！ホロライブレジスタス」とは、ミニゲームを\nプレイし、限定装備をGETできるミニイベントになりま\nす。"
+			},
+			{
+				info = "■遊び方"
+			},
+			{
+				info = "1.「集まれ！ホロライブレジスタンス」のミニゲームは\n全8ステージあり、それぞれ解放条件が異なります。"
+			},
+			{
+				info = "2.ステージをクリアすると、一回のみ報酬を入手できま\nす。また、全ステージをクリアすると、コラボ限定装備\nを入手できます。"
+			},
+			{
+				info = "3.ミニゲームの遊び方：\n・同じキャラのアイコンをタップし、条件を満たすとア\nイコンを消すことができます。アイコンを全て消すとゲ\nームクリアになります。\n・2つのキャラアイコンの間でほかのキャラアイコンを\n経由することなく、3つ以下の直線（横・縦）で繋げら\nれた場合、キャラアイコンを消すことができます。\n・右上の「リセット」ボタンをタップで、現在のキャラ\nアイコンの配置位置をリセットすることができます。"
+			},
+			{
+				info = "4.各ステージの解放条件\nステージ1：コラボイベント海域T1をクリア\nステージ2：コラボイベント海域T2をクリア&「集まれ\n！ホロライブレジスタンス」ステージ1をクリア\nステージ3：コラボイベント海域T3をクリア&「集まれ\n！ホロライブレジスタンス」ステージ2をクリア\nステージ4：コラボイベント海域T4をクリア&「集まれ\n！ホロライブレジスタンス」ステージ3をクリア\nステージ5：コラボイベント海域T5をクリア&「集まれ\n！ホロライブレジスタンス」ステージ4をクリア\nステージ6：コラボイベント海域T6をクリア&「集まれ\n！ホロライブレジスタンス」ステージ5をクリア\nステージ7：「集まれ！ホロライブレジスタンス」ステ\nージ6をクリア\nステージEX：「集まれ！ホロライブレジスタンス」ス\nテージ1～7をクリア"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_phone = {
+		tip = "通話"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
+		tip = "新着あり"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.collection_book_tag_3 = {
+		tip = "特別\n邂逅"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chat_msg_ban = {
+		tip = "不適切な発言により利用が制限されています。\n\n制限解除：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_exchange_confirm = {
+		tip = "<color=#92fc63>$1*1</color>を消費して<color=#92fc63>$2</color>と交換しますか"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
+		tip = "未開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_addExp_Info = {
+		tip = "留守の||<color=#FAFAF7FF>$1</color>|| の間、十分に休憩しました！||食糧を|| <color=#92fc63FF>$2</color>|| 消費し、経験値|| <color=#92fc63FF>$3</color>|| を入手しました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_2023_reward_word_3 = {
+		tip = "とろふぃー？ありがとうございます。でも天城、指揮官さまともっと一緒にいたほうがいいと思って……あ、あの！お返しにこの鈴をさしあげます！天城が指揮官さまのそばにいなくても、これを天城と思っていただければ……"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dont_send_message_frequently = {
+		tip = "発信間隔に注意"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_resume_attack_count = {
+		tip = "出撃数:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
+		tip = "$1からの通話"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
+		tip = "$1からの招待"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.anniversary_task_title_4 = {
+		tip = "揺るがぬ信念を抱く武威は水平線に立ちはだかる試練を超克す。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_help_2408 = {
+		tip = {
+			{
+				info = "■キャンペーン開催期間\n 2024.8.1（木）0:00～2024.9.30（月）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「霞(META)」、SP報酬からは戦艦「ローマ」の限定着せ替え「デヴェレの休日」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません。\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_gift_favor_max = {
+		tip = "親愛度が上限に達しています。プレゼントを贈っても親愛度は上昇しません。プレゼントを贈りますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_xinzexi_bed = {
+		tip = "寝室"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_xinzexi_table = {
+		tip = "ダイニング"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_xinnian2022_feast = {
+		tip = {
+			{
+				info = "■概要\nキャンペーン「母港正月」は下記の内容で構成されています。\n・幸運祈願\n・施設増築（ミニストーリーイベント）\n・花火工房（復刻イベント）\n・ミニゲーム\n\n■幸運祈願\n・キャンペーン期間中、毎日「艦船絵馬」回数が1回増加します（最大7個）\n・「艦船絵馬」を所持している状態では、「幸運祈願」で艦船の絵馬を飾ることができます\n・「艦船絵馬」を飾ると、艦隊に強化効果を付与できるほか、「正月オリヅル」を1個入手できます\n・「正月オリヅル」を7個集めると、イベントバナーにてSSR艦船と交換できる招待券アイテムを入手できます\n\n■施設増築（ミニストーリーイベント）\n・キャンペーン期間中、母港裏山に「ロイヤルカフェ」「鉄血カフェ」の施設が出現します\n・施設はレベルに応じて艦隊に強化効果を付与できます\n・施設をレベルアップするには、イベントバナーの「炭酸と紅茶」にて出現する限定任務をクリアし、「増築許可」を入手する必要があります\n・イベントバナーでの任務を全部クリアすると、限定家具を入手でき、さらに隠し任務を開放できます（隠し任務は任務一覧に表示されます）\n\n■花火工房（復刻イベント）\n・キャンペーン期間中、毎日ゲーム回数が1回加算されます（最大7回まで）\n・ゲーム回数を所持している状態では、花火工房で花火を制作し打ち上げる際に、ゲーム回数が消費され「花火工房チケット」を入手できます\n・「花火工房チケット」を7枚入手すると、イベントバナーで駆逐艦「Z28」を入手することができます\n・現在所持しているゲーム回数は花火工房画面右上にて確認できます\n\n■ミニゲーム\n・キャンペーン期間中、毎日ゲーム回数が1回加算されます（最大7回まで）\n・ゲーム回数を所持している状態でミニゲームをクリアすると、ゲーム回数が1回消費されます\n・毎日開放されるミニゲームを7日目まで全部クリアすると、「サウサンプトン」の着せ替え「午後のクロチェット」を入手できます\n・ゲーム回数の所持数は画面右側、ログイン回数の所持数は招待券バナーにて確認できます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_target_count = {
+		tip = "入手可能な報酬数 $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
+		tip = "寝室"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_minigame_Luna = {
+		tip = "ルナ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
+		tip = "リビング"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_compare_not_more_than = {
+		tip = "≤"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["0815_main_help"] = {
+		tip = {
+			{
+				info = "遊び方：\n 期間限定イベント「荒野休日開拓記」が<color=#92fc63>8.15（木）-8.29（木）メンテ</color>まで開催！\n\n ·イベント期間中、「開拓タウン」で入手できる「開拓コイン」を使って施設をレベルアップし、繁栄度レベルを上げることで、様々なストーリーを開放可能！\n ·さらに、限定任務クリアなど条件を達成することで、限定<color=#92fc63>チャットアイコン</color>、<color=#92fc63>チャットフレーム</color>、<color=#92fc63>限定家具</color>をGET！また、イベント開始後8日目に新しい「累計燃料消費」任務が開放され、完了すると「開拓タウン」で使用できるタウン繁栄度を上昇できる開拓コインを入手できます。\n ·8.21（水）まで毎日ミニゲーム回数を1回加算されます！ミニゲーム回数を所持している状態で「開拓タウン」のミニゲームをプレイすると、回数を消費し報酬をGET！"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.adventure_award_end_tip = {
+		tip = "※4.17（水） 24時まで受取可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
+		tip = "娯楽エリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_equip_exchange_tip = {
+		tip = "<color=#92fc63>$1</color>に装備されている<color=#92fc63>$2</color>を<color=#92fc63>$3</color>に装備しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_guide_beach_tip = {
+		tip = "対応キャラのアセットをDLする必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_upgrade_ok = {
+		tip = "装備強化成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SuperBulin2_tip9 = {
+		tip = "建造画面で暗号を探そうプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_map_lock = {
+		tip = "この章をクリアする必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_index_shipType_zhongXun = {
+		tip = "重巡"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_noshiro_table = {
+		tip = "広縁"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_remember = {
+		tip = "今日の予定を覚えてね"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_tip_dissolve = {
+		tip = "大艦隊が解散されると、大艦隊資金＆大艦隊兵站上限、大艦隊作戦未受領の報酬が消失します。\n大艦隊を解散しますか？\n\n※個人の貢献Ptは影響されません。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteMediator_shipState_study = {
+		tip = "戦術教室で勉強中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_giveup = {
+		tip = "委託中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sofmapsd_3 = {
+		tip = "ムフフ、これで売上がUPにゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200370 = {
+		tip = "パラメータの名前が重複しています\nエラーコード:200370"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_room_floor_1 = {
+		tip = "ビーチ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_delete_finish = {
+		tip = "削除しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_now_is_downloading = {
+		tip = "アセットDL中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_addFood_ok = {
+		tip = "食糧が<color=#92fc63>+$1</color>補充されました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_yanhua_tip1 = {
+		tip = "花火"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_shop_template_extratext = {
+		tip = "活動追趕道具兌換 "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_jiujiu_expedition_game = {
+		tip = {
+			{
+				info = "■遊び方\n・饅頭の隣にある「未探索のマス」をタップすると、\n「探索回数」を1回消費し饅頭を移動させることができ\nます。\n・饅頭が未探索マスに移動すると、未探索のマスが探索\n済マスになり、マスの内容によって下記の結果が発生し\nます。\n通常マス：資源を少し入手します\n宝箱マス：宝箱が出現します。宝箱を開けると、ランダ\nムな報酬を入手できます\n敵マス：敵が出現します。敵をタップするとイベント戦\n闘を開始でき、イベント戦闘に勝利すると報酬を入手で\nきます・ミニマップを全部探索すると、次のミニマップ\nに移動できます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_activity_not_open = {
+		tip = "開催期間外"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_got_pt = {
+		tip = "入手済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_show_expire_content = {
+		tip = "入手不可コンテンツを表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exercise_count_insufficient = {
+		tip = "演習回数が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_confirm_set_important_flag = {
+		tip = "メールを保護しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_vo_event = {
+		tip = "特殊任務に参加しています！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_starLightAlbum = {
+		tip = {
+			{
+				info = "作戦実績："
+			},
+			{
+				info = "1. 「思い出」画面に「作戦実績」が新規追加されます。\n2. イベント開催時、当該イベントの任務をクリアすると<color=#92fc63>「記念ステッカー」</color>を入手でき、さらにステッカーを集めると、記念章家具と勲章を入手できます。\n ※ イベント開催中、<color=#92fc63>イベントバナーの「実績」か、「思い出」の「作戦実績」</color>から「記念ステッカー」ページに移動できます；\n ※ イベント終了後、<color=#92fc63>「思い出」の「作戦実績」</color>でのみ「記念ステッカー」を確認できます；\n ※ 「記念ステッカー」はイベント任務クリアで入手できます；\n ※ 報酬受け取り画面はイベント終了後でも一定期間開放されます；"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_group_error = {
+		tip = "この兵装を装備できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_shop_use_label = {
+		tip = "割引適用する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_shop_nonuse_label = {
+		tip = "割引適用しない"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_23 = {
+		tip = "適用艦種"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_ptshop = {
+		tip = "PT商店（不需要本地化）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.item_type16_tip1 = {
+		tip = "内容一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_contrast = {
+		tip = "コントラスト"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_dailypack = {
+		tip = "デイリーパック"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.nodisplay_player_home_share = {
+		tip = "テーマ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_coinshop = {
+		tip = "物资商店（不需要本地化）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_shop = {
+		tip = "ショップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_manager_title = {
+		tip = "メール管理"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_detail_connection = {
+		tip = "回路設計"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.flagship_display_mode_3 = {
+		tip = "全て表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.notify_clock_tip = {
+		tip = "該当権限が許可されていないため、お知らせ機能を有効にすることができません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mktea_3 = {
+		tip = "茶の香りを保つために、殺青は欠かせないステップです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_89902 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mm/50三連装砲\n152mm三連装砲Mle1930\n二連装37mm高射砲Mle1936</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200410 = {
+		tip = "決済失敗：決済タイプエラー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_use = {
+		tip = "使用"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_get = {
+		tip = "受取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.maintenance_message_stop_text = {
+		tip = "サーバー停止中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ai_change_2 = {
+		tip = "潜水艦隊・主動索敵態勢に移行しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_stage_desc1 = {
+		tip = "育成段階Ⅰ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_help = {
+		tip = {
+			{
+				info = "<color=#92fc63>★遊び方</color>"
+			},
+			{
+				info = "イベント「新春華裳協奏曲」とは、<color=#92fc63>「演習Pt」</color>を集めて作戦進捗を進めると、個人累計Pt報酬と作戦進捗報酬が得られるイベントになります。"
+			},
+			{
+				info = "イベント期間中、敵艦隊を相手に戦う「演習作戦」特別ステージが登場します。\n作戦を完遂するには指揮官同士で協力し、「演習Pt」を集め、作戦進捗を進める<color=#92fc63>（演習ゲージを0%まで削る）</color>必要があります。\n作戦に成功した場合、作戦に参加した指揮官に報酬として特別兵装をメールで配布します。\n※メール数が1000を超えると報酬メールを受け取れない場合がありますので、ご注意ください。\n（演習ゲージが<color=#92fc63>0%</color>になっても、引き続き特別ステージに挑戦することで「演習Pt」を獲得できます）"
+			},
+			{
+				info = "<color=#92fc63>-演習Ptについて-</color>\n1 特別ステージをクリアすると「演習Pt」を獲得できます。\n2 同じサーバーのすべての指揮官が獲得した「演習Pt」の合計数が作戦の進捗を左右します。\n3 演習ゲージが0%になると、作戦が成功になります。各サーバーの作戦進捗はそれぞれで計算されます。\n4 イベント期間中に獲得した「演習Pt」の累計数に応じて、イベントバナーより「Pt累計報酬」を入手できます。"
+			},
+			{
+				info = "<color=#92fc63>-特別ステージについて-</color>\n1 特別ステージは難易度に応じて、「簡単」「普通」「難しい」「EX」の四種類があります。\n2 「EX」以外の難易度で得られる演習Ptは固定で、「EX」では戦闘中に与えたダメージ総量によって演習Pt\n•報酬が変化します。\n3 特別ステージは通常の艦隊とは違う<color=#92fc63>「特別演習編成」</color>を使用します(ステージ出撃時に編成可能)。\n4 特別ステージは出撃/勝利時には通常海域の出撃と同じく燃料•コンディションを消費します。また、勝利時に経験値•通常クリア報酬の獲得と、コンディションが増減します。\n　•特別ステージの「EX」では作戦制限時間は<color=#92fc63>【60秒】</color>になります。60秒経過•敵を撃破•味方旗艦大破するとクリア扱いになります\n　•特別ステージでは艦船が戦闘不能になっても、コンディションは低下しません\n　•「EX」ステージの「模擬戦」に出撃する場合、燃料•コンディション•特別戦闘券（後述）は増減せず、経験値•報酬も入手できません\n5 特別演習編成では潜水艦•オフニャを配置できます。\n戦闘中に潜水支援を行う場合、燃料を消費します。\n6 特別ステージの「簡単」「普通」「難しい」は回数無制限に出撃できます。「EX」は「特別戦闘券」を<color=#92fc63>1枚</color>消費しなければ出撃することができません。"
+			},
+			{
+				info = "<color=#92fc63>-ボーナス出撃と「特別戦闘券」について-</color>\n1 特別ステージの「簡単」「普通」「難しい」はそれぞれ、毎日の<color=#92fc63>15回</color>までの出撃は「ボーナス出撃」になり、得られる報酬が通常時より多くなります。\n2 ボーナス出撃回数が残り<color=#92fc63>0回</color>の状態で上記ステージに出撃する場合、アイテム「特別戦闘券」を<color=#92fc63>1枚</color>消費し、出撃を「ボーナス出撃」に変更できます。\n•上記のボーナス出撃を途中で中止した場合、特別戦闘券は消費されません。\n3 「特別戦闘券」は「EX」に出撃する際にも消費されます。\n4 「特別戦闘券」はイベント期間中に出現する限定任務で入手できます。"
+			},
+			{
+				info = "<color=#ff5c5c>※注意点</color>\n1 「EX」での戦闘を中止した場合、特別戦闘券のみが消費され、報酬•演習Ptを得ることができません。\n2 「EX」での戦闘は<color=#92fc63>マニュアル（手動）</color>操作でのチャレンジをおすすめします。\n3 「EX」の出撃編成画面では「模擬戦」に出撃できます。\n4 「簡単」「普通」「難しい」の戦闘を中止した場合、「ボーナス出撃回数」が減ることはありません。\n5 艦隊の戦力•コンディション•好感度を鑑み、<color=#92fc63>過度に連続出撃しないことをおすすめします。</color>\n6 各サーバーのユーザーデータによって作戦成功に必要な全指揮官のクリア回数が異なります。"
+			},
+			{
+				info = "<color=#92fc63>連続挑戦について</color>：\n1.「連続挑戦」機能は、設定した出撃回数分、自動でステージに出撃しクリアする機能になります\n2.「連続挑戦」機能は、難易度「簡単」「普通」「難しい」の特別ステージを一回クリアすると、当該ステージ出撃時の編成画面の右下に「自動挑戦」ボタンが開放されます。\n3.「連続挑戦」ボタンをタップすると、出撃回数（最大15回まで）を設定できます。\n4.「連続挑戦」では、戦闘が<color=#92fc63>「オート戦闘」</color>になり、また配置した潜水艦隊を<color=#92fc63>自動で戦闘中に呼び出します</color>。\n5.「連続挑戦」は随時中止することができます。中止すると、戦闘終了後の結果画面で自動で前の画面に戻ります。\n6.「連続挑戦」は戦闘中に中止すると、手動戦闘に切り替えることが可能です。また「連続挑戦」を再開した場合、自動で「オート戦闘」に切り替わります。\n6.「連続挑戦」は下記の場合自動で中止します：\n　\t·所持燃料が出撃消費分を下回った場合\n　\t·出撃艦船のコンディション値が一定値を下回った場合\n　\t·戦闘で敗北した場合"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_live2dfiles_download = {
+		tip = "ダウンロード開始"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_tracking_error_pre = {
+		tip = "<color=#92fc63>$1</color>クリアで参加可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_stop_reason3 = {
+		tip = "ドックの空きがないため"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.evaluate_too_loog = {
+		tip = "コメントが長すぎです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Word_Ship_Exp_Buff = {
+		tip = "経験値＋"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_lock = {
+		tip = "未開放依頼"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_pop_save = {
+		tip = "進捗セーブしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_recommend = {
+		tip = "オススメ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ssssmedal_belonging2 = {
+		tip = "多分上位個体？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_storeroom_max_2 = {
+		tip = "<color=#238c40>$1</color>を入力して操作を続けてください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_save = {
+		tip = "保存"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shipchange_alert_inguildbossevent = {
+		tip = "この艦船は大艦隊作戦の強敵戦で編成されています。大艦隊作戦強敵戦での編成から外しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_pop_next = {
+		tip = "次へ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_event_recomm_ship_failed = {
+		tip = "条件を満たしている艦船がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_extraAttr_sure_tip = {
+		tip = "是否确认个性补正？确认后将无法修改"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_now = {
+		tip = "秘書艦枠確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_bominghan = {
+		tip = "命中した敵の動きを一瞬止め、さらに分裂する花火を発射できるぞ。（分裂後の小さな花火は敵の動きを止めない）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Settings_title_agreement = {
+		tip = "利用規約"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_shop_label_2 = {
+		tip = "交換可能数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_mood_desc5 = {
+		tip = "絶好調"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_detail_collect = {
+		tip = "素材収集へ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_task_need = {
+		tip = "必要素材："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_ship_need = {
+		tip = "$1からの依頼"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_polaroid_lock_tip = {
+		tip = "育成段階解放またはTBの個性を解放すると確認可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_confirm = {
+		tip = "確定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_member_rank_title_finish_cnt = {
+		tip = "完成回数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovemainpage_skin_countdown = {
+		tip = "残り$1時間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_collected = {
+		tip = "受取済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipUpgradeLayer2_effect1or2 = {
+		tip = "上昇値: <color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_moveone_button = {
+		tip = "メール移動"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_request_msg_placeholder = {
+		tip = "申請内容を入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.inform_sueecss = {
+		tip = "通報に成功しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_collect = {
+		tip = "受取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_proceed = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_switch_2 = {
+		tip = "バフ無効"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.quota_shop_good_limit = {
+		tip = "上限到達"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.coloring_color_not_enough = {
+		tip = "絵の具が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_summer_shooting = {
+		tip = {
+			{
+				info = "■概要\n「射的」は、制限時間内にセイレーンの的をできるだ\nけ多く撃破して得点を稼ぐゲームになります。\n■遊び方\n・「開始」をタップすると、画面内に的が12個出現し\nます。\n・画面左下のスティックを操作して照準を合わせ、画\n面右下のボタンで銃を発射できます。\n・銃は一度発射すると一定時間、発射することができ\nません。\n・的に命中した場合、残りの的がランダムで画面に再\n配置されます。\n・残り時間が0になった場合、ゲームクリアになります。\n・命中した的に応じて得点が計算され、ゲームクリア\n時の得点に応じて賞品を入手できます。\n　一等賞：35点以上\n　二等賞：25点以上\n　三等賞：10点以上"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_lock_2 = {
+		tip = "$1時間後に解放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_lock_1 = {
+		tip = "$1日$2時間後に解放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_recover_tip1 = {
+		tip = "メール再送機能を使用するには「メール確認」を先に行う必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_score = {
+		tip = "スコア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_shop_lable = {
+		tip = "※交換可能期間：\n<color=#FFF693>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_desc_7 = {
+		tip = "ゲーム開始時にシールドを1枚所持し、制限時間が10秒延長される。ゲーム終了時、最終スコアが1.2倍になる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login = {
+		tip = "ログ\nイン"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tech_select_tip4 = {
+		tip = "アイテム交換"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mmSKC連装砲\n150mmTbtsKC/36連装砲\n試作型四連装30mm機関砲 </color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_exchange_erro = {
+		tip = "支援要請に失敗しました：<color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_finish_fail = {
+		tip = "委託完了失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_chattip1 = {
+		tip = "[ボイスメッセージ]"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sham_formation_invalid = {
+		tip = "これ以上は艦隊を編成できません。出撃中の艦から艦隊を編成してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_select_all = {
+		tip = "全て選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tips_dispense_completed = {
+		tip = "装薬完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_minigame_Marie = {
+		tip = "マリー·ローズ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_desc_5 = {
+		tip = "ゲーム終了時、最終スコアが1.2倍になる。また、5ラウンドごとにスコア倍率が0.01増加する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_new_1_3 = {
+		tip = "5"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_desc_3 = {
+		tip = "ゲーム開始時、制限時間が10秒延長される"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023Valentine_minigame_s"] = {
+		tip = "これはものすごいチョコレートができたようですね…指揮官、どうぞ召し上がってください！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_desc_2 = {
+		tip = "ゲーム終了時、最終スコアが1.2倍になる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_desc_1 = {
+		tip = "ゲーム開始時にシールドを1枚所持。シールド1枚につき爆発を1回防げる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_name_6 = {
+		tip = "制限時間超UP！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exchangecode_use_error_7 = {
+		tip = "使用済のシリアルコードです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.special_animal5 = {
+		tip = "[浦波のカワイイ図鑑No.5]\nインビジブルワンワン：尻以外を不可視化できるワンワンのような謎生物。…なぜ尻なんだ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_remaster_tip2 = {
+		tip = "出撃へ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.islandshop_tips2 = {
+		tip = "限定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_buildBatchShip = {
+		tip = "<color=#92fc63>$1ダイヤ</color>で<color=#92fc63>10隻分一括建造</color>しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_shop_tip = {
+		tip = "$1日$2時に開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_main_tip = {
+		tip = {
+			{
+				info = "遊び方：\n·<color=#92fc63>2.27-3.12 23:59まで</color>キャンペーン「明石の迎春セール」が開催されます。\n·限定任務\n任務をクリアするとキャンペーンPtを入手可能\n·ショップ\nショップではキャンペーンPtで報酬と交換可能\n·お得パック\n3.5 0時まで每日無料パックとお得パックが1つずつ開放されます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.faest_nothing_to_get = {
+		tip = "入手できる報酬はありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.drom3d_memory_limit_tip = {
+		tip = "端末メモリは推奨スペックを下回っているため、ゲームがクラッシュする可能性があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e7 = {
+		tip = "ピュリファイアー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.airforce_desc_5 = {
+		tip = "歼-20机身表面使用了一种低观测反射的涂料材质，表面采用了类似微型山峰的设计，能够反弹并散射掉雷达信号，使得敌方雷达难以发现并锁定目标。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.airforce_desc_3 = {
+		tip = "涡扇15“峨眉” 涡扇发动机，是为我国第五代战斗机研制的小涵道比推力矢量涡扇发动机"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型380mm三連装砲Mle1935\n152mm三連装砲Mle1930\n二連装ボフォース40mm機関砲</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_tag4 = {
+		tip = "特殊ストーリー開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.package_detail_tip = {
+		tip = "詳細確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2402 = {
+		tip = "<size=23> 2024.2.1-2024.3.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「キンバリー(META)」</color>などを入手可能！</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.airforce_title_4 = {
+		tip = "无附面层隔板进气道"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_registerFail_error = {
+		tip = "登録失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.airforce_title_1 = {
+		tip = "航电系统"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_background_tip1 = {
+		tip = "未所持"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_puzzle_get13 = {
+		tip = "<color=#92fc63FF>入手方法\n限定任務4</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_japanese = {
+		tip = "①"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.BoatAdGame_minigame_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/boatadgame_minigame_help",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room11 = {
+		tip = "ベッドルーム"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate4 = {
+		tip = "嗜好"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip6 = {
+		tip = "アトリエ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_2023_reward_word_2 = {
+		tip = "これは……私の胸にある不安、疑惑、隠し事、欲望…それが分かっていても尚、私を選んでくれたんですね。指揮官、分かりました。この最初の感動のためにも、時空のカケラに私たちの永遠の契りを見届けさせましょう――"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_title_2 = {
+		tip = "キャラ情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior11 = {
+		tip = "散歩"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_unlock_intimacy = {
+		tip = "好感度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_queue_in_mission_incomplete = {
+		tip = "研究完了条件をクリアしていないため、予定列に追加できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior8 = {
+		tip = "料理"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.UrExchange_Pt_help = {
+		tip = {
+			{
+				info = "イベントバナーでの交換とイベントショップと同様にカウントされます。\n合計で2回のみ交換できます。\n1回目：URチケット×200；2回目：300URチケット×300。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.use_amount_prefix = {
+		tip = "使用数量:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior6 = {
+		tip = "運動"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_reject_erro = {
+		tip = "申請拒否に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_choose = {
+		tip = "今日の予定を教えてね："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chargetip_monthcard_2 = {
+		tip = "貿易許可証のデイリー報酬はメールボックスに送られました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_guide_tip2 = {
+		tip = "まずはビーチを見てみよう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_storeroom_extend = {
+		tip = "貯蔵庫容量アップ："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_yunxian_3 = {
+		tip = "闇靄の「核」を撃破した！艦船を模した影も崩壊し始めた"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_day6 = {
+		tip = "土"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_day3 = {
+		tip = "水"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_day1 = {
+		tip = "月"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_accompany_not_download = {
+		tip = "$1のアセットを先にDLする必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_ssss = {
+		tip = "SSSS"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_gift_owned = {
+		tip = "これ以上は購入できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_voice_name_feeling1 = {
+		tip = "失望"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ui_word_levelui2_inevent = {
+		tip = "行動中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_appellation_waring3 = {
+		tip = "呼び方テキストが短すぎです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_function3 = {
+		tip = "全戦闘"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_filter_empty = {
+		tip = "当該チャットは存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_silent_tip_1 = {
+		tip = "個の艦隊が委託を完了し帰還しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ambush_display_6 = {
+		tip = "危険"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_save = {
+		tip = "セーブ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_filter_subtitle1 = {
+		tip = "既読・未読"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
+		tip = "<color=#92fc63>$1X$2</color>が編成されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.daily_level_go = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_no_item = {
+		tip = "アイテムが不足しています！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_name_change_time_lv_tip = {
+		tip = "指揮官Lv<color=#92fc63>$1</color>で指揮官名変更機能が開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardScene_expression_label_3 = {
+		tip = "快適"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.change_display_medal_success = {
+		tip = "勲章展示設定を変更しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_mailLayer_quest_deleteNotRead = {
+		tip = "<color=#92fc63>未読メールがあります</color>。本当に削除しますか?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_chattip2 = {
+		tip = "[プレゼント]"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_4 = {
+		tip = "$1があなたと一緒にいるといつも嬉しそう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_label2 = {
+		tip = "確認中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["202406_wenquan_unlock"] = {
+		tip = "リトルスター増築チケットを$1消費し、施設を増築しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_scene_buy_confirm = {
+		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.map_event_save_kizuna = {
+		tip = "成功救出<color=#92fc63>绊爱</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_left_donate_cnt = {
+		tip = "残り拠出回数：$1回"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_filter_tip4 = {
+		tip = "個人"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_filter_tip3 = {
+		tip = "未返信"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_filter_tip2 = {
+		tip = "返信済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_wind_move = {
+		tip = "目標エリアに移動できません。目標エリアにいる艦隊を移動してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_filter_title = {
+		tip = "絞り込み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_gift_owner_num = {
+		tip = "数量："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.senrankagura_backhill_help = {
+		tip = {
+			{
+				info = "概要：\n <color=#92fc63>11.23-12.07 メンテ</color>コラボイベント「蒼閃忍法帖」開催！\n\n  ■遊び方：\n ・限定海域（イベント海域）や任務をクリアうすると、Ptアイテム「城観覧券」を入手できます。\n 　「城観覧券」は「ショップ」でSSRコラボキャラ「斑鳩」などの報酬と交換できます。\n 　また、「城観覧券」の累計獲得数に応じて、「累計報酬」でSRコラボキャラ「紫」を入手できます。\n\n  ・「パネル任務」では7日間、毎日新しい任務を開放できます。任務をクリアするとPtアイテム「忍指南」と限定家具「忍引き戸」を入手できます。\n\n  3.「秘伝忍法書」では、キャラそれぞれの特別任務をクリアすることで、Ptアイテム「忍指南」、コラボキャラの専用装備、記念家具「暴風城絵巻」などの報酬を入手できます。\n\n  4.「忍術指導場」では、入手したPtアイテム「忍指南」を消費することで属性レベルを上げることができ、SSRコラボキャラ「焔」を入手できます。\n\n  5.「着せ替え」をタップすると、着せ替えショップに遷移できます。\n\n  6.「限定建造」をタップすると、限定建造画面に遷移できます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_mapselect_material = {
+		tip = "材料"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_mapselect_normal = {
+		tip = "普通"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_rewards = {
+		tip = "報酬入手合計"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_mapselect_ex = {
+		tip = "EX"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_recommend_fail = {
+		tip = "軍事委託の編成条件を満たせません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_mapselect_tp = {
+		tip = "TP"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_acc_title_2 = {
+		tip = "累計投票数："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_join_event_progress_label = {
+		tip = "作戦進捗："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.settle_rewards_subtitle = {
+		tip = "SETTLE REWARDS"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_help_2204 = {
+		tip = {
+			{
+				info = "■キャンペーン開催期間\n 2022.4.1（金）0:00～2022.5.31（火）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「山城(META)」、SP報酬からは空母「エンタープライズ」の限定着せ替え「Partons en voyage （いざ、旅へ）」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_updateShipLock_ok_lock = {
+		tip = "<color=#92fc63>$1</color>をロックしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cook_game_elbe = {
+		tip = "スイーツ両手持ち"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_repair_cipher = {
+		tip = "アセット再ダウンロード"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_mapselect_part2 = {
+		tip = "後編"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_mapselect_part1 = {
+		tip = "前編"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_target_type2 = {
+		tip = "自由探索"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_inFight = {
+		tip = "<size=24>出撃中</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.genBtn_text = {
+		tip = "送信する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_toast_fullexp = {
+		tip = "EXP入手MAX"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guardian_sure_btn = {
+		tip = "装備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.escort_less_count_to_combat = {
+		tip = "今日はこれ以上挑戦できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_file_tip = {
+		tip = "※画面スライドでページスクロール可能。画面タップで閉じる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_shop_benefit_sure2 = {
+		tip = "すでにこの「状態」を所持しているため、購入しても新たに「状態」を獲得できません。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
+		tip = "シリーズ家具を1個ずつ購入する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_search_sucess = {
+		tip = "検索完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.refresh_shopStreet_ok = {
+		tip = "商品更新成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_shop_title = {
+		tip = "イベント"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_schedule_sure_tip2 = {
+		tip = "まだ使用されていない行動力があります。次のターンに進みますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipModLayer_modSuccess = {
+		tip = "強化成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_limit_daily = {
+		tip = "本日購入可能回数：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_none_1 = {
+		tip = "強化指向Ⅰ期/未選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_battleMediator_quest_exist = {
+		tip = "撤退すると<color=#92fc63>アイテムと艦</color>が入手できなくなります。\n撤退しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_bisimaiz_6 = {
+		tip = "現在の侵食レベル：<color=#ff5c5c>5</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_reward_tip1 = {
+		tip = "基本報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_not_start = {
+		tip = "まだ開始していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_select_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help5",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_enter = {
+		tip = "育成を開始する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteLayer_startError_limit = {
+		tip = "委託条件を満たしていません:<color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_tip7"] = {
+		tip = "$1がレベルアップしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_endings_toggle_on = {
+		tip = "エンディング確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_desc_4 = {
+		tip = "コア効果適用ステージ：TS4 \n 下記の素材を入れるとレベルアップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_ship_upgrade_favor = {
+		tip = "$1とのイベント進捗度が$2になりました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.islandnode_tips6 = {
+		tip = "花畑はまだ収穫できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_study = {
+		tip = "戦術教室で勉強中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_class_spend_time = {
+		tip = "必要時間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_personal_change = {
+		tip = "性格変化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_personal_tag2 = {
+		tip = "ワガママ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_submarine_8 = {
+		tip = "前に発動したオーダーからの時間経過に応じて消費行動力が変化します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_limit_lv = {
+		tip = "Lv$1で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_site_drop_add = {
+		tip = "$1が $2 → $3 にアップ(合計で $4 )"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_unlock_site_round = {
+		tip = "次のレベル解放まであと$1ターン"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_assess_tip = {
+		tip = "$1ターン後に<color=#393a3c>判定開始</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode = {
+		tip = "ランダム秘書艦候補リスト"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_status_time2 = {
+		tip = "永続"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_talent_unlock_tip = {
+		tip = "$1ターン目で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteLayer_no_avgLv = {
+		tip = "平均練度は<color=#92fc63>Lv$1</color>に達していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_status_title = {
+		tip = "状態"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_soundfiles_checking = {
+		tip = "チェック中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_freeGem = {
+		tip = "ダイヤ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.error_pray_select_ship_max = {
+		tip = "これ以上選択できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_discount_timelimit = {
+		tip = "アイテム$1は$2メンテナンス後に削除されます。削除前に着せ替えショップで使用してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationMediator_replaceError_onlyShip = {
+		tip = "選択中の <color=#92fc63>$1</color>は唯一の<color=#92fc63>$2</color>であるため、入れ替えできません！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_yanhua_tip5 = {
+		tip = "花火の星が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_changePlayerIcon_error = {
+		tip = "プロフィール画像変更失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_chapter_level_limit = {
+		tip = "指揮官Lv<color=#92fc63>$1</color>で開放します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_main_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help7",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help8",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help9",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help10",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help11",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/educate_tb_help12",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100241 = {
+		tip = "Apple連携がキャンセルされました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_sp = {
+		tip = "ｶｽﾀﾏｲｽﾞ前衛"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_live2dfiles_checkend_title = {
+		tip = "アセット確認完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_ending_stage = {
+		tip = "エンディング段階"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_assess_target = {
+		tip = "能力目標：$1/$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.challenge_share = {
+		tip = ""
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_skin_locked = {
+		tip = "未開放衣装"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_newSkinLayer_get = {
+		tip = "<color=#92fc63>$1</color>着せ替え衣装—<color=#92fc63>$2</color>を入手しました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
+		tip = "\n（今週購入回数$1/$2）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_warp_to_latest_map = {
+		tip = "最新章に切り替えました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_resource_delete = {
+		tip = "アセットを削除しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_download_complete = {
+		tip = "アセットダウンロード完了しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_203124 = {
+		tip = "<size=35>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_day_night_switching2 = {
+		tip = "すでに夜になっています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_reset_2 = {
+		tip = "作戦マップは明日<color=#92fc63>$1</color>時リセットされます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loading_tip_FontMgr = {
+		tip = "自律ライブラリー初期化中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.AR_plane_summon_success = {
+		tip = "キャラの呼び出しに成功しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_end_subtitle1 = {
+		tip = "報酬獲得"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_treasure_3 = {
+		tip = "セイレーン作戦リセット後に購入可能です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.AR_plane_summon_fail_by_near = {
+		tip = "距離が近すぎるため、キャラの呼び出しに失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_activity_ui_text2 = {
+		tip = "*「特殊装備コア」「特殊装備強化石」は特殊装備の製造・強化に使用します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.AR_plane_distance_near = {
+		tip = "距離が近すぎるとキャラが非表示になります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ssssmedal_name5 = {
+		tip = "コンダクター"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_cancel = {
+		tip = "戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.AR_plane_check = {
+		tip = "平面を検出してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mktea_2 = {
+		tip = "茶葉を広げて、水分を蒸発させ、柔らかくしましょう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dress_up_success = {
+		tip = "装飾設定変更成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_view = {
+		tip = "<material=underline event=displayDetail>タップで確認</material>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_gift_maximum = {
+		tip = "最大数量に達しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_recall_locked = {
+		tip = "未開放？？？？？？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_replace_tip = {
+		tip = "対応の家具を配置してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_gift_story_unlock = {
+		tip = "特別ストーリー開放済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_volleyball_button = {
+		tip = "ビーチバレー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_role_locked = {
+		tip = "コンテンツを開放しておく必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_accompany_locked = {
+		tip = "未開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_locked = {
+		tip = "家具未開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_serverLoadVindicate = {
+		tip = "<color=#a2a2a2>メンテ</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_no_role = {
+		tip = "キャラ未開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_nextpage = {
+		tip = "前へ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_cur_round = {
+		tip = "$1ターン目"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_story_unlock_tip = {
+		tip = "開放済ストーリー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.metaskill_overflow_tip = {
+		tip = "上限を上回った<color=#FFDE60>$1</color>のスキル強化経験値は加算されません。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_check_tip3 = {
+		tip = "前段階の予定の実行回数が不足しています。予定を追加できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.haidaojudian_building_tip = {
+		tip = "施設拡張に必要な素材が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_title_2408 = {
+		tip = "シーズン任務・18期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipState_fight = {
+		tip = "出撃中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_energy_low_desc = {
+		tip = "疲労\n 出撃すると親密度が下がり、もらえる経験値が半分に"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_resume_ship_count = {
+		tip = "艦船入手:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sculpture_gratitude_tip = {
+		tip = "お土産を艦船にドラッグしてプレゼントしよう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_tip_base = {
+		tip = "-基本報酬-"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.challenge_minigame_unlock = {
+		tip = "ミニゲーム未開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pizzahut_help = {
+		tip = {
+			{
+				info = "■概要\n「饅頭ピザ屋」とは、「饅頭の食材」を集め、報酬を\n入手できるミニイベントになります。\n\n■遊び方\n・3章以降のメイン海域（ノーマル）か、イベント「虚\n畳なりし限象」海域（EX除く）の敵中枢艦隊を撃破\nすると、「饅頭の食材」を入手可能\n・「饅頭の食材」累計入手数に応じて、イベント画面で\n吹雪の限定着せ替えなど、様々な報酬を入手可能\n・「饅頭の食材」累計獲得数報酬を全部入手すると、画\n面左の「饅頭ピザ」をタップすることで、オリジナル\nの饅頭ピザを表示させることが可能！"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_shop_lock_tip = {
+		tip = "開催中シーズン任務Lv50達成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_shop_title_equip_skin = {
+		tip = "外装"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_target_goto = {
+		tip = "エリア移動"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_got = {
+		tip = "完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_chapter_notInStrategy = {
+		tip = "攻略していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_go = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_btn_all = {
+		tip = "一括受取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_shop_no_open = {
+		tip = "10/1 0時開放予定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_time_title = {
+		tip = "今期残り時間："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_energy_active_box_tip = {
+		tip = "META艦船を限界突破しますか？\n（艦船の★が増加します）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_remind = {
+		tip = "正解は「$1」"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_title_2506 = {
+		tip = "シーズン任務・23期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_title_2504 = {
+		tip = "シーズン任務・22期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_title_2502 = {
+		tip = "シーズン任務・21期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_picked = {
+		tip = "主力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_title_2412 = {
+		tip = "シーズン任務・20期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Settings_title_resUpdate = {
+		tip = "アセッ卜"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.fate_attr_word = {
+		tip = "竜骨編纂による強化効果："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_report_type_1 = {
+		tip = "装備編成が意味不明"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_tianchengCV_1 = {
+		tip = "「<color=#ff8800>紅き炎</color>、<color=#5cccff>青き華</color>、此岸に降臨せん！」"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_phase_title = {
+		tip = "段階"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_pt_up = {
+		tip = "$1強化効果を入手しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
+		tip = "アイテムは家具$1に入れ替えられたため、現在入手できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_purchase_outtime = {
+		tip = "販売期間外です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newserver_shop_timelimit = {
+		tip = "$1に開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.award_overflow_tip = {
+		tip = "上限分を超えた報酬アイテムは手動でお受取りください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_buildShipImmediately_error_noItem = {
+		tip = "高速建造材がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_purchase_confirm_free = {
+		tip = "$1<color=#fc4670><size=34>無料</size></color>(割引前価格$2)で<color=#169fff>$3</color>を購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_food_shop_tip = {
+		tip = "購入費用："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sofmap_attention = {
+		tip = {
+			{
+				info = "通关下列指定关卡会获得不同数量的代金券\n    三章及以后的普通主线海域\n   活动关卡SP1、SP2、SP3"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_meta_index = {
+		tip = "META"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.number_3 = {
+		tip = "三"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_guild_res = {
+		tip = "舰队资源"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mission = {
+		tip = "任務"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_purchase_confirm_original = {
+		tip = "$1<color=#169fff>$2</color>を消費し、<color=#169fff>$3</color>を購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_invite_confirm_discount = {
+		tip = "$1<color=#39bfff>$2</color>（割引前価格$3）を消費し、<color=#39bfff>$4</color>の$5配置を開放しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_invite_confirm_original = {
+		tip = "$1<color=#39bfff>$2</color>を消費し、<color=#39bfff>$3</color>の$4配置を開放しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_airexpel_outrange = {
+		tip = "敵艦隊を移動させられるマスがありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_beach_switch = {
+		tip = "ビーチ準備中……"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_rest = {
+		tip = "休憩"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_upgradeStar_error_4010 = {
+		tip = "「鏡面海域」に出撃中の艦がいます！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_mana_battle_tip = {
+		tip = "環境マナが100%になる時、すべての『ユミアのアトリエ』コラボキャラが【アドベント】状態になり、同時に環境マナが0%に戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_destroy = {
+		tip = "退役"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_fleet_can_not_edit = {
+		tip = "艦隊を編集できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100218 = {
+		tip = "このアプリはX(旧ツイッター)ではログインできません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.airforce_title_5 = {
+		tip = "吸波隐身涂层"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_sendFriendRequest_success = {
+		tip = "申請を送信しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tips_shrine_nobuff = {
+		tip = "賽銭︵資金5︶を入れました。\nこれ以上は祈願できません…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.breakout_tip_ultimatebonus_aux = {
+		tip = "設備によるステータス増加+30%"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.adventure_progress_title = {
+		tip = "次のレベルまで："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_tag2 = {
+		tip = "撮影モーションを開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_extralevel_1 = {
+		tip = "レベル1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_10 = {
+		tip = "機銃射程"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_tag1 = {
+		tip = "専用タッチを開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_universal = {
+		tip = "汎用3D設定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sham_reset_confirm = {
+		tip = "本日「鏡面海域」の掃討はまだ完了していません。戦況をリセットしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_map_locked_stage = {
+		tip = "エリアが解放されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_retreat = {
+		tip = "撤 退"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_extend_tip_2 = {
+		tip = " 個を消費しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_task_title = {
+		tip = "限定任務"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_cancel = {
+		tip = "戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_quality_option_high = {
+		tip = "高画質"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_buff_3 = {
+		tip = "強化済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_quality_option_low = {
+		tip = "低画質"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attire_combatui_confirm = {
+		tip = "装飾"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.compensate_ui_nothing2 = {
+		tip = "No compensation received yet"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room6 = {
+		tip = "執事ルーム"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_exchange_select_display = {
+		tip = "選択数/必要数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_total_exp_addition = {
+		tip = "経験強化効果："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.compensate_ui_title1 = {
+		tip = "補填"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.compensate_ui_expiration_hour = {
+		tip = "$1時間後無効になります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_ui_unlock = {
+		tip = "装飾開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attr_speed = {
+		tip = "速力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_regular_anim = {
+		tip = "基本"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_joint_boss_award_expired = {
+		tip = "報酬の受取に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.week_task_title_label = {
+		tip = "週次任務報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.box_account_reborn_content = {
+		tip = "アカウント削除は<color=#92fc63>$1</color>日後に行われます。アカウント削除までゲームにログインすると、アカウント削除が行われなくなります。\nアカウント削除依頼を取り下げ、ゲームにログインしますか？ （アカウントは削除されなくなります）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cook_game_constellation = {
+		tip = "正しく届けると確率で客を<color=#FFE555>特殊状態</color>にする"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ui_pack_tip2 = {
+		tip = "単品"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ui_pack_tip1 = {
+		tip = "どれか一つしか購入できません。購入されたアイテムはメールボックスに送られます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.no_share_skin_jiahehangmu = {
+		tip = "加賀(空母)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
+		tip = "天城(巡洋戦艦)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
+		tip = "天城(空母)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dreamland_main_desc = {
+		tip = "9.10-10.2、<color=#85E7FF>楽園探索</color>と<color=#85E7FF>ミニゲーム</color>で報酬を入手可能！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_reset_talent_is_not_need = {
+		tip = "初期状態ではリセットできません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cook_game_pnelope = {
+		tip = "2回正しく届ける度に1点追加"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dream_land_tip = {
+		tip = {
+			{
+				info = "遊び方：\n ·<color=#92fc63>9.12-10.2 23:59</color>期間限定裏山イベント「ドリームランド・ドリームデイズ」開催！\n\n  ·楽園を探索しストーリーと新たなエリアを解放して、<color=#92fc63>限定家具</color>・<color=#92fc63>装備外装箱</color>などの報酬を入手可能！\n ·それぞれのエリアではタップなどの操作で探索可能なポイントがあります。うまく見つからない場合はマップ上に表示される<color=#92fc63>「星」</color>や<color=#92fc63>「楽園手帳」</color>に表示されるヒントを確認しよう！楽園を探索すると、報酬として<color=#92fc63>限定家具</color>、<color=#92fc63>装備外装箱</color>などの報酬を入手可能！\n ·一部の探索ポイントは「時間」を調整しないと出現しません。ストーリーを全部解放すると解禁される機能「時間変更」で、楽園の時間を変更できます！\n ·「安眠の夢」に艦船を配置すると、艦船が楽園に出現できるようになり、さらにコンディション回復速度がUP！配置枠は探索エリアが増えるとともに自動的に拡張されます！"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_quick_change_nofreeequip = {
+		tip = "変更する装備は他の艦に装備されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dreamland_spring_tip = {
+		tip = "楽園でのコンディション回復 $1/h"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_transform_materal_check = {
+		tip = "改造に必要な素材を選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_reform_tip = {
+		tip = "隊列維持ができません！編成しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_gift_already_given = {
+		tip = "すでにプレゼントした贈り物です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_scene_full_hp = {
+		tip = "使用失敗:耐久が満タンです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_yura_skill_1 = {
+		tip = "アクティブ:退妖鬼式"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destory_important_equipment_input_erro = {
+		tip = "装備名が間違えています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dreamland_area_lock_tip = {
+		tip = "- エリアはストーリー閲覧後に開放されます -"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_mapbuff_compare_txt = {
+		tip = "適応優勢"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_empty = {
+		tip = "特殊装備がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.missile_attack_area_confirm = {
+		tip = "攻撃開始"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dreamland_label_explore_award_tip = {
+		tip = "探索完了で入手"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dreamland_label_explore = {
+		tip = "探索"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_count = {
+		tip = "数量"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dreamland_label_area = {
+		tip = "エリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_select_tip = {
+		tip = "特別計画艦「$1」を選択しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_exp_limit = {
+		tip = "オフニャのレベルが上限に達しています。これ以上オフニャを追加できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dont_remind_session = {
+		tip = "次回からは表示しない"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_collect_not_owned = {
+		tip = "まだ入手していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_queue_getaward = {
+		tip = "報酬受取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_vo_moveout_backyard = {
+		tip = "寮舎から外しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_proposeShip_error_1 = {
+		tip = "操作は無効です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_build_solt_deficiency = {
+		tip = "同時に10個まで訓練できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_ship_bag_max = {
+		tip = "現在はこれ以上拡張できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_minigame_close = {
+		tip = "戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_chat = {
+		tip = "チャット"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.same_player_name_tip = {
+		tip = "同じ指揮官名には変更できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_dorm3d_info = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/3ddorm_1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/3ddorm_2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/3ddorm_3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/3ddorm_4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/3ddorm_5",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/3ddorm_6",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_role_assets_download = {
+		tip = "<color=#39bfff>$1</color>の部屋を開放しますか？\nアセットダウンロード：$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_piece = {
+		tip = "個"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_data_go = {
+		tip = "<color=#39bfff>$1</color>配置キャラを選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_is_frozen_when_start_tech = {
+		tip = "この大艦隊は現在利用不可です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.report_sent_title = {
+		tip = "通報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_role_manage_role = {
+		tip = "キャラ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_role_manage = {
+		tip = "宿舎管理"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_toast_item_got = {
+		tip = "調合素材"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_expResource_mail_fullBag = {
+		tip = "上限超過分の資源が受け取りできません。続きますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sail_boat_equip_tip_5 = {
+		tip = "<color=#E3CEAF>船員饅頭</color>\n<color=#F1B969>装備すると速力が上がる</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_role_check_in = {
+		tip = "<color=#39bfff>$1</color>の部屋を開放しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_beach_role = {
+		tip = "開放すると<color=#39bfff>$1</color>を配置することが可能です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardScene_clearSuccess = {
+		tip = "<color=#92fc63>マイセットをクリアしました</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attr_ammo = {
+		tip = "弾薬量"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_role_choose = {
+		tip = "部屋選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_own_favor = {
+		tip = "所持していると親愛度100上昇"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_hour = {
+		tip = "時間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Normalbuild_URexchange_text1 = {
+		tip = "常設UR交換"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_collect_unlock = {
+		tip = "- 未開放 -"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_reload_favor = {
+		tip = "親愛度ストーリー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
+		tip = "※30分に一度更新されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_verify_success = {
+		tip = "キャッシュクリアが完了しました。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.retire_2 = {
+		tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持していない</color>場合、その艦船と同名の艦船は"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_reload_unlock = {
+		tip = "- 未開放 -"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_map_level = {
+		tip = "艦隊作戦レベル：<color=#92fc63>$1</color> \n艦隊戦力レベルと同じレベル以下のエリアの攻略をオススメします。（艦隊作戦レベルは戦力・適応調整によって影響されます）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_max_tip_event = {
+		tip = "委託報酬を受け取ることができません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_rest = {
+		tip = "寮舎で休憩中です…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_quest_RegisterSuccess = {
+		tip = "ユーザー登録が完了しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_sirius_bed = {
+		tip = "寝室"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_sirius_chair = {
+		tip = "リビング"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_supply_2 = {
+		tip = "艦隊整備発令可能になるまであと$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_collect_not_found = {
+		tip = "$1で入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_collect_locked = {
+		tip = "親愛度Lv$1で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_collect_favor_plus = {
+		tip = "ボーナス：親愛度+"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_lock = {
+		tip = "未開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_unlock = {
+		tip = "開放済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.return_lock_tip = {
+		tip = "11月17日（木）までメンテナンス中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_mailLayer_takeAttach = {
+		tip = "添付受取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_sort_blhx = {
+		tip = "アズールレーン"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_target_type3 = {
+		tip = "異常事件調査"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_animspeed = {
+		tip = "モーション$1x"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amazon_unlink_btn_text = {
+		tip = "Amazonアカウント連携済み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_vo_vanguardFleet_exist_same_ship = {
+		tip = "前衛艦隊に同じ艦を編成できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_game_login_full = {
+		tip = "同時接続数が上限になっています。しばらく置いてから再度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipModMediator_noticeStarOver4 = {
+		tip = "星4以上"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardScene_error_noFurniture = {
+		tip = "配置できる家具がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_selected_3 = {
+		tip = "強化指向Ⅲ期/選択中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_lighting = {
+		tip = "ライティング"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100217 = {
+		tip = "このアプリはX(旧Twitter)での新規登録はできません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_paramaters = {
+		tip = "設定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_puzzle_get14 = {
+		tip = "<color=#92fc63FF>入手方法\n限定任務5</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_focusstrength = {
+		tip = "ぼかし強さ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.list_empty_tip_friendui = {
+		tip = "対象指揮官がいません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_rest = {
+		tip = "休憩"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.award_max_warning_minigame = {
+		tip = "報酬を入手する際、<color=#ff5c5c>所持数上限を超えた部分</color>の報酬アイテムは破棄されます。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.venusvolleyball_rule_tip = {
+		tip = "先に$1点をGET"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sham_count_limit = {
+		tip = "本日の「鏡面海域」掃討作戦は既に完了しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_notPosition_shipExit = {
+		tip = "休憩枠が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_0815_town_memory = {
+		tip = "アイテムが不足しています。限定任務をクリアして思い出を開放しよう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tips_fail_secondarypwd_much_times = {
+		tip = "パスワードが間違っています。<color=#92FC63>%s</color>後再度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_filter_title = {
+		tip = "絞り込み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pipe_minigame_rank = {
+		tip = "友達と大艦隊メンバーのみ表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_event_start_done = {
+		tip = "派遣成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.town_unlcok_level = {
+		tip = "レベル上限アップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shipyard_phase_2 = {
+		tip = "废弃"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.town_place_next_title = {
+		tip = "次のレベルで"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.town_lock_level = {
+		tip = "タウンレベル$1達成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
+		tip = "$1か$2クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sitelasibao_expup_name = {
+		tip = "経験強化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_condition_torpedo = {
+		tip = "雷撃合計"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.MonopolyCar2024Game_total_num_tip = {
+		tip = "残り前進回数:$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_task_locked_by_chapter = {
+		tip = "ステージ「$1」クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tips_yuandanhuoyue2023 = {
+		tip = {
+			{
+				info = "開催期間：<color=#92fc63>2022.12.22-2023.1.5</color>\n遊び方：\n1.12月31日まで毎日0時に運試し回数が加算されます（最大10回まで）\n2.小包をタップすると、運試し回数を消費し，開封できます\n3.小包から下記の報酬を入手できます\n　各種ランクの報酬個数：一等賞×1、二等賞×2、三等賞×3、四等賞×4。\n\n　　報酬の詳細は下記になります：\n　一等賞：限定家具「運試し小包」\n　二等賞：ランダム教科書T3×1\n　三等賞：ランダムパーツT3×5\n　四等賞：ランダム装備箱T3×1\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_exit_tip = {
+		tip = "メイン画面に戻りますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mingshi_task_tip_2 = {
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>O</color>>\n次の目標は…<<color=#92fc63>スキルを上げる場所</color>>にゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.MonopolyCar2024Game_sel_label = {
+		tip = "選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.MonopolyCar2024Game_pick_tip = {
+		tip = "開始地点を通過するとスタッフを変更でき、スタッフと一緒にクリアすると報酬を入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_floorpaper = {
+		tip = "床"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_cant_unload = {
+		tip = "<color=#92fc63>倉庫がいっぱいです</color>…装備解除できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_tip_bigworld_dead = {
+		tip = "艦隊戦闘敗北のため、自動攻略モードが中止されました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["202406_main_help"] = {
+		tip = {
+			{
+				info = "遊び方：\n <color=#92fc63>6.27-7.11メンテ</color>まで、期間限定イベント「リトル学園へようこそ」が開催されます！\n 限定任務をこなし、艦隊を編成し限定ステージをクリアすることで、「カラフルらくがき」を集めて報酬を手に入れましょう！\n\n  ①画面左下のボタンで「ストーリー」と「特別戦闘」画面を切り替えることができます。\n ②「特別戦闘」では、艦隊を編成しSPステージに挑戦でき、収集Ptアイテム「カラフルらくがき」を入手できます\n 　「カラフルらくがき」は累計入手数報酬でSR艦船<color=#92fc63>「U-31」</color>、<color=#92fc63>「533mm四連装磁気魚雷改」</color>などを入手できます\n ③「限定任務」では、イベント開催期間に登場するイベント任務を確認し報酬を受け取ることができます。\n ④「ストーリー」では特別ストーリーを読むことができます。ストーリーを全部読むと、記念装備外装を入手できます\n ⑤「遊び場」に艦船を配置すると、配置された艦船のコンディション回復速度を上げることができます。イベントで入手できる「リトルスター増築チケット」を消費すると、配置枠を増やすことができます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Settings_title_Secpw = {
+		tip = "パスワード機能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.number_5 = {
+		tip = "五"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cat_accelfrate_notenough = {
+		tip = "ネコハコ加速材が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["202406_wenquan_unlock_tip2"] = {
+		tip = "必要な資源が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.settings_enter_standby_mode_time = {
+		tip = "待機画面自動移行"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.settings_flagship_interaction = {
+		tip = "待機画面セリフ再生"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.otherworld_terminal_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help5",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help3",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_part_sub_title = {
+		tip = "適用(副砲)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_year = {
+		tip = "一年内"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.settings_enable_standby_mode = {
+		tip = "待機画面を有効にする"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_shop_must_select_goods = {
+		tip = "交換するアイテムを選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_toggle_off = {
+		tip = "OFF"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.unique_ship_retire_before_tip = {
+		tip = "続けますか"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_bisimaiz_1 = {
+		tip = "現在の侵食レベル：<color=#92fc63>0</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.unique_ship_retire_protect = {
+		tip = "単独所持艦船誤退役保護"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_catsearch_help_4 = {
+		tip = "作業中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.one_click_retire_subtitle = {
+		tip = "誤退役防止確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_battle_area = {
+		tip = "作戦海域："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.game_ticket_max_month = {
+		tip = "今月の入手可能チケット数が上限に達しているため、上限分を超えた報酬交換チケットを入手できません。ゲームをプレイしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.trade_card_tips2 = {
+		tip = "お知らせにゃ。\n指揮官が購入した貿易許可証は、$1で期間満了になったにゃ。\n貿易許可証を購入すると毎日ボーナスが貰えるにゃ～\n明石のお店で、引き続き購入するのはいかがかにゃ？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.UrExchange_Pt_charges = {
+		tip = "（残り$1回）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.UrExchange_Pt_NotEnough = {
+		tip = "交換用のPtアイテムが不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ore_minigame_help = {
+		tip = {
+			{
+				info = "概要：\n「饅頭採鉱戦」とは、明石を操作し画面上部の鉱石を下部に運び、ハイスコアを狙うミニゲームになります\n\n遊び方：\n1.画面左下のコントローラーで明石を移動させることができます。\n2.明石を画面上部に採鉱饅頭たちが落とした鉱石に近づけ、右下の「運搬」ボタンをタップすると、鉱石を持ち上げられます。\n　 鉱石を持っている状態でも新たに鉱石を持ち上げられますが、一定の重量を超えると鉱石を同時に持つことができません。\n　さらに、持っている鉱石が一定の重量を超えると、移動速度が低下します。\n3.鉱石を持っている明石を画面下部のタラップに移動すると、鉱石を下ろすことができます。鉱石を下ろすと、スコアを入手できます。\n4.鉱石を持っている状態で通過する饅頭とぶつかると、持っている鉱石が全て失われます。\n5.残り時間が0になるか、ゲームを終了すると、ゲームクリアになります。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_register_full = {
+		tip = "サーバーは満員です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_sort_cszz = {
+		tip = "レッドアクシズ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_activity_lock = {
+		tip = "「出航の前準備」クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shan_luan_task_progress_tip = {
+		tip = "達成数：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guardian_cancel_btn = {
+		tip = "解除"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_exchanged = {
+		tip = "報酬は1種類につき1回しか交換できにゃいにゃ～"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/2024liner",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_event_title3 = {
+		tip = "手がかり③"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_label_private = {
+		tip = "隐私协议"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_sametask_tip = {
+		tip = "任務受領に失敗しました：同じ任務は同時に一つしか受領できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_supportfleet = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/supportfleet_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/supportfleet_help2",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_300200 = {
+		tip = "本人確認が不要です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_public_tech_tip = {
+		tip = {
+			{
+				info = "■公共大艦隊兵站について："
+			},
+			{
+				info = "公共大艦隊兵站とは、大艦隊に所属していない指揮官でも、兵站施設による効果を利用できるようにする機能です。"
+			},
+			{
+				info = "公共大艦隊兵站施設のレベルUP時の資源消費は、大艦隊に所属している際の資源消費より多くなります。"
+			},
+			{
+				info = "大艦隊に加入していない場合は、現在の公共大艦隊の施設レベル上限分だけ、兵站施設のレベル上限が適用されます。"
+			},
+			{
+				info = "指揮官が既に取得済みの兵站レベルが上限を上回った場合、指揮官の取得済みの最も高い兵站レベルが適用され、もう一度レベルアップさせる必要はありません。"
+			},
+			{
+				info = "■公共大艦隊兵站を利用するには："
+			},
+			{
+				info = "1.兵站施設をレベルUPするには、貢献Pt/資金を消費する必要があります。"
+			},
+			{
+				info = "2.公共大艦隊兵站施設の最大レベルは、大艦隊全体の兵站施設の最大レベルによって決められます。また、公共大艦隊兵站のレベル上限の増加進捗は毎日少しずつ自動で進行します。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_kiss = {
+		tip = "(*ﾟ▽ﾟ*)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_room_get_tip = {
+		tip = "探索済み：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.settings_sound_title_effct = {
+		tip = "  サウンド"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_mod_addition_lock = {
+		tip = "強化レベル$1到達で開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.buy_countLimit = {
+		tip = "これ以上購入できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_event_award_tip2 = {
+		tip = "手がかりを全部集めました。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_select_materials_tip = {
+		tip = "素材を選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_date_text1 = {
+		tip = "在宅育成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_dockyardUpgrade = {
+		tip = "限界突破"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_log_event_group_title3 = {
+		tip = "記録・③"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_pt_3 = {
+		tip = "ショップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_battle_pause = {
+		tip = "OPERATION"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_log_event_title = {
+		tip = "異常事件調査"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_1024_memory_get = {
+		tip = "- 受取済 -"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_upgrade_unequip_tip = {
+		tip = "<color=$2>$1</color>に装備されている装備は外されます。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight = {
+		tip = "自動攻略"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_target_type1 = {
+		tip = "固定イベント"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_reward_tip3 = {
+		tip = "クリア報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_sign_unlock_tip = {
+		tip = "5.21メンテ後開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.live2d_reset_desc = {
+		tip = "L2D演出設定が初期化されました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.box_ship_del_click = {
+		tip = "タップして数字を入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_rename_success = {
+		tip = "寮舎名前変更成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commission_label_unlock_event_tip = {
+		tip = "指揮官Lv.12で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_catsearch_success = {
+		tip = "オフニャがサルベージを開始しました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commission_label_finish_mellow = {
+		tip = "完成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commission_label_go_mellow = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commission_label_go = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_silent_tip_4 = {
+		tip = "名のキャラのスキル強化が完了しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_tactical_ability = {
+		tip = "戦術補助"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_item_usage_tip = {
+		tip = "開催中のMETA戦と記憶履歴の座標情報を同時に解析できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_soundfiles_noneedupdate = {
+		tip = "更新完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.NewMusic_1 = {
+		tip = "お気に入り($1)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_unlock_tips = {
+		tip = "親愛度$1で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_event_title1 = {
+		tip = "手がかり①"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_now_clothing = {
+		tip = "現在"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.group_download_tip = {
+		tip = "更新するには$1のデータをダウンロードする必要があります。更新を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_luck1 = {
+		tip = "運"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_now_time = {
+		tip = "現在時間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_time_choose = {
+		tip = "時間選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_notificationLayer_searchInput = {
+		tip = "ユーザー名を入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_all_1 = {
+		tip = "この機能はまだ開放されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100120 = {
+		tip = "このIPアドレスでのアクセスは制限されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_waiting = {
+		tip = "準備中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_part_title = {
+		tip = "適用"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_unfit = {
+		tip = "適用不可"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_lack = {
+		tip = "[未所持]"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_destory_tip = {
+		tip = "特別計画艦は廃棄できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_read_oneclick = {
+		tip = "一括既読"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_used = {
+		tip = "<color=#00a3ef>[配置済み]</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_settingsScene_quest_exist = {
+		tip = "ログアウトしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_urgency_event = {
+		tip = "紧急事件"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipState_collect = {
+		tip = "委託に出かけています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_count = {
+		tip = "数量：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.idol3rd_practice = {
+		tip = {
+			{
+				info = "■レッスンについて\n海域や期間限定任務で獲得した<color=#92fc63>「共鳴のエンブレム」</color>が\n一定数を越えると、イベントバナーより「レッスン」を\n行うことができます。 \n\n「レッスン」を行うと、「レッスンLv」が上昇し、イ\nベント期間中、各種海域の戦闘で有利になります。\nまた、「レッスンLv」を最大まで上昇させると、追加\nの報酬を入手できます。\n\n「レッスン」は3種類あり、「レッスンLv」を上げる\nことで下記の効果がそれぞれ強化されていきます。\nアピールVocal：海域における味方艦隊が敵艦隊に与\nえるダメージを上昇させる\nエンゲージDance：海域における味方艦隊が敵艦隊か\nら受けるダメージを軽減させる\nメモリーPerformance：海域における味方艦隊が得ら\nれる経験値を上昇させる\n\n現在の「レッスンLv」はイベントバナー右側のアイコ\nンをタップすることで確認できます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_no_lesson = {
+		tip = "教科書がありません…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_target_filter_tip1 = {
+		tip = "すべて"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.idol3rd_houshan = {
+		tip = {
+			{
+				info = "■共鳴のパッションとは"
+			},
+			{
+				info = "共鳴のパッションとは、イベント「共鳴のパッション」のトップページであり、ここからイベントの各画面に移動できます。\n"
+			},
+			{
+				info = "■各コンテンツの説明\n限定海域：\nイベント期間中に開放される限定海域。イベント海域をクリアすると、アイテム「共鳴のエンブレム」を集めることができます。\n \nショップ：\n「共鳴のエンブレム」を各種報酬と交換することができます。\n \n累計報酬：\n入手した「共鳴のエンブレム」の累計数により、艦船「ル・テメレール(μ兵装)」など様々な報酬を入手できます。\n限定建造：\n建造の「期間限定建造」ページに移動します。\n \n着せ替え：\nショップの「着せ替え」ページに移動します。\n \n記念章：\n様々な条件を達成すことで、「グッズ」を集めることが\nできます。「グッズ」を全部集めると、限定アイテム「共鳴のミニステージ」を入手できます。\n \nミニゲーム：\nリズムゲームをプレイすることができます。７日間プレイすると、限定設備「パッションμチケット」を入手できます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_noshiro_chair = {
+		tip = "居間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_shipAddInimacy_ships_ok = {
+		tip = "<color=#92fc63>$1たち</color>の親密度が<color=#92fc63>アップ</color>しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_escort_help_tip = {
+		tip = {
+			{
+				info = "海上護衛の遊び方 "
+			},
+			{
+				info = "    1.開催期間：1月13日～27日；"
+			},
+			{
+				info = "    2.海上護衛は、出現する敵艦隊と機雷に対処し、輸送船団が目標地点に辿り着くまで護衛するステージです\n；"
+			},
+			{
+				info = "    3.海上護衛は一日一回挑戦できます。挑戦回数は出撃時に消費されます。海上護衛はイージー・ノーマル・ハードの3つの難易度があります；"
+			},
+			{
+				info = "    4.味方艦隊が一回行動するたびに、輸送船団も1マス目標地点に向かって進みます；"
+			},
+			{
+				info = "    5.輸送船団が敵艦隊に遭遇した場合、耐久が1減少し、「会敵中」状態になります。「会敵中」の輸送船団は味方艦隊が輸送船団を襲撃する敵艦隊を撃破するまで、味方艦隊が行動するたびに体力が減少します；"
+			},
+			{
+				info = "    6.輸送船団が機雷に接触した場合、耐久が2減少します。味方艦隊も機雷に接触した際に耐久が減少しますが、駆逐艦を含む艦隊が機雷マスに接触する場合、機雷を排除できます；"
+			},
+			{
+				info = "    海上護衛の報酬はステージ終了時の輸送船団の残り耐久により変動します；"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_visit_time = {
+		tip = "$1日前"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.settings_time_system = {
+		tip = "待機画面時刻表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mini_game_cur_score = {
+		tip = "今回得点:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.otherworld_backhill_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/otherworld_help5",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.personal_random_tip = {
+		tip = "<color=#92fc63>ストーリーを読むと</color>開放可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Announcements_Donotshow = {
+		tip = "今日はこれ以上表示しない"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amusementpark_shop_success = {
+		tip = "ありがとうピョ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_live2dfiles_update = {
+		tip = "更新中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_ap = {
+		tip = "行動力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Announcements_Event_Notice = {
+		tip = "イベント"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_mod_skin_unlock = {
+		tip = "着せ替え獲得：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.adventure_get_all = {
+		tip = "一括受取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
+		tip = "マイセットを<color=#92fc63>クリア</color>しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_rare_page = {
+		tip = "特殊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exchange_limit_skin_tip = {
+		tip = "試着貸出チケット$1枚を消費して\n【$2】を$3日$4時間を着せ替え可能にしますか?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_exchange = {
+		tip = "交 換"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guardian_select_title = {
+		tip = "加護選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_deputy_commander_cnt = {
+		tip = "<color=#C3C3C3>任命しました：<color=#92fc63>$1/$2</color></color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_cant_give_gift_tip = {
+		tip = "まずは招待状を制作し艦船に贈ろう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pgs_login_binding_exist1 = {
+		tip = "このアカウントは既に他のPGSアカウントと連携されています。\n連携するPGSアカウントを変更しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_shipType_qinXun = {
+		tip = "軽巡"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.package_view_2 = {
+		tip = "貿易許可証有効期間内は毎日報酬を入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_equipToShip_ok = {
+		tip = "<color=#FFFFFF><color=#92fc63>$1</color>を装備しました</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_title_getitem_month = {
+		tip = "30日間毎日入手："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_entrust = {
+		tip = "緊急委託出現：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_build_consume = {
+		tip = "$1を消費し、開発を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_tag3 = {
+		tip = "ときめきモードモーション開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.idolmaster_main = {
+		tip = {
+			{
+				info = "■概要\nキャンペーン「裏山会場」は下記の内容で構成されます。\n・コラボイベント「海に響くアイドルの歌」海域への移動ボタン\n・ミニゲーム\n・記念章\n\n■コラボイベント\n・7.22-8.5の間、コラボイベント限定海域が開放され、「コラボPt」を入手できます。\n・「コラボPt」は累計入手数報酬のほか、ショップにて様々な報酬と交換できます。\n・また、7.22-8.4の間に毎日1個特殊委託が開放されます。委託を完成させると、特殊報酬を入手できます。\n　※特殊委託の報酬受領期限は8.11まで\n\n■ミニゲームについて\n・ミニゲーム「饅頭渡し会」は7.28まで毎日新しい進捗が開放されます。\n・ミニゲームを7日間プレイし、最後まで進捗させると、兵装「輝きのブレスレット」を入手できます。\n\n■記念章について\n・記念章ページの各種実績を達成すると、コラボキャラのプロフィール紹介が開放されます。\n・プロフォールを全14個開放（全実績達成）すると、記念家具「765記念章」を入手できます。\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.adventure_award_title = {
+		tip = "冒険レベル報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_change_attr_text1 = {
+		tip = "<color=#ffde38>変化前のステータス</color>を保留します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firework_2025_tip1 = {
+		tip = "海域クリアで花火が確率で開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_skill_ui_info = {
+		tip = "情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.personal_info_title = {
+		tip = "基礎情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_permanent_progress = {
+		tip = "現在進捗："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.emailhold_text = {
+		tip = "入力したメールアドレスに認証コードを送信します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.terminal_adventure_title = {
+		tip = "冒険データ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.terminal_personal_title = {
+		tip = "指揮官情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_task_tag_all = {
+		tip = "すべて"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.military_shop_no_open_tip = {
+		tip = "<color=#92fc63>特別補給</color>は指揮官Lv<color=#92fc63>15</color>で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_task_tag_daily = {
+		tip = "デイリー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2506 = {
+		tip = "2025/6/1-2025/7/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ネバダ(META)」</color>などを入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.playerinfo_mask_word = {
+		tip = "NGワードが含まれています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipType_zhongXun = {
+		tip = "重巡"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_reward_word7 = {
+		tip = "第六幕"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.anniversary_task_title_14 = {
+		tip = "あなたは、支配されない自我を持つ「ニンゲン」に相応しい――"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_2_buff = {
+		tip = "補正値：なし"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_task_type_daily = {
+		tip = "デイリー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_brs = {
+		tip = "ブラック★ロックシューター"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_temple_award_desc = {
+		tip = "饅頭の像に「王国金貨」を捧げて祈りをすると、報酬と加護を入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_date = {
+		tip = "日"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_temple_lottery_all = {
+		tip = "報酬コンプ済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_level_upperLimit = {
+		tip = "Lv最大"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_newyear_shrine = {
+		tip = {
+			{
+				info = "■概要\n「幸運祈願」では、お賽銭（5資金）を消費することで、\n一定時間、様々な効果を得られます。\n幸運祈願の可能回数はスタンプを1回手に入れるたびに2\n回増えます。\n\n■遊び方\n・賽銭箱の上の縄をスワイプして引っ張ると、幸運祈願の\n効果を選択することが出来ます。\n・幸運祈願効果\n　学業祈願：戦術教室でスキルを新たに強化する場合、\n所要時間が少し短縮\n　開運招福：メイン海域及び作戦履歴海域戦闘時、味方\nが与えるダメージが微増\n　良縁祈願：秘書艦の親密度上昇スピードがアップ\n・幸運祈願は同時に一種類しか適用できず、同じ祈願を複\n数回行っても効果は上乗せされません。\n・幸運祈願の効果は24時間持続します。また、幸運祈願\nの効果適用中にもう一回祈願すると、前の祈願の効果・\n持続時間が上書きされます。\n<size=31><color=#92fc63>■注意\n（new！）「幸運祈願可能回数」は最大14回まで貯められ\nます\n「幸運祈願可能回数」が0の場合でもお賽銭を入れること\nが出来ますが、幸運祈願を行うことが出来ません。</color></size>"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.idle = {
+		tip = "待機"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amusementpark_shop_help = {
+		tip = {
+			{
+				info = "■遊び方\n・「饅頭引換券」では、「饅頭引換券」を消費することで様々な報酬を交換できます\n・アイテム「饅頭ランド建築材」を入手するには、期間限定任務をクリアする必要があります。\n・期間限定任務は、メイン画面の「任務」（任務一覧）に表示されます。また、6月2日（水）毎日0時に新しい期間限定任務が開放されます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100233 = {
+		tip = "このアカウントは削除されたため、ログインできません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_temple_award_last = {
+		tip = "残り$1/$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_temple_char_title = {
+		tip = "加護一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_manager_rare = {
+		tip = "下記アイテムのみ含まれるメール"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_temple_char = {
+		tip = "加護一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_temple_toggle_2 = {
+		tip = "豊穣の像"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.unlock_date_tip = {
+		tip = "<color=#92fc63>$1月$2日</color>開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_reward_got = {
+		tip = "受取済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_temple_toggle_1 = {
+		tip = "力の像"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_switch_archives = {
+		tip = "$1の記憶履歴が開放中です。別のMETA艦船に開放先を切り替えますか？\n（既に進行中のMETA戦に影響しません）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
+		tip = "（<color=#92fc63>特典$1</color> ）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_get_emoji = {
+		tip = "「$1」"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_yanhua_tip4 = {
+		tip = "花火の星$1を消費し花火を開放しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_no_cache = {
+		tip = "修復するアセットはありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_week_day7 = {
+		tip = "日曜日"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_week_day6 = {
+		tip = "土曜日"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipUpgradeLayer2_advanced_tip = {
+		tip = "強化素材に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launchball_lock_Shinano = {
+		tip = "ショップで<color=#92fc63>「信濃プレイアブル」</color>購入で選択可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_shop_benefit_sure = {
+		tip = "状態持続中です（残り$1ターン）。購入すると持続時間がリセットされます。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.valentinesday__txt5_tip = {
+		tip = "まずはチョコレートの素材を集めるべきですね"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_rest_tip = {
+		tip = "寮舎の「休憩」に配置された艦はコンディションが回復する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_target_set_empty = {
+		tip = "育成目標は設定されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_unlock_new_secretary = {
+		tip = "新しい着せ替えモジュールが開放されました。「特殊秘書艦」画面で設定を変更できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_task_finish_all = {
+		tip = "現段階の育成目標を達成しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_battle_type = {
+		tip = "作戦内容："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_random_ops_drop = {
+		tip = "大事な瞬間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_random_polaroid_drop = {
+		tip = "ランダム報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_chunjie2024 = {
+		tip = {
+			{
+				info = "開催期間：<color=#92fc63>2024.1.30-2024.2.22メンテまで</color>\n遊び方：\n<color=#92fc63>「美意延年」</color>：イベント任務を全てクリアすると<color=#92fc63>太原</color>改造素材を入手可能\n<color=#92fc63>「新春大冒険」</color>：ゲームにログインすると艦船<color=#92fc63>「飛雲」</color>と装備外装を入手可能\n<color=#92fc63>「新春の花火」</color>：3章以降の海域ステージ、もしくは共闘ステージクリアで「花火の星」を稼ぎ、花火を全部開放すると限定艦船<color=#92fc63>「定安」</color>を入手可能\n<color=#92fc63>「おえかき」</color>：絵の具を稼ぎ、艦船<color=#92fc63>「鞍山」</color>を入手可能\n<color=#92fc63>「撫順の大冒険Ⅴ」</color>：ミニゲームを7日間プレイすると<color=#92fc63>「撫順」</color>を入手可能\n<color=#92fc63>「饅頭の年玉」</color>：各種ミニイベントやミニゲームで入手できる年玉を開封可能。15個開封で撫順の限定着せ替え（復刻）を入手でき、25個開封で若月の限定着せ替え（新規）<color=#92fc63>「春待ちの青羽根」</color>を入手可能\n<color=#92fc63>「着せ替え」</color>：着せ替えショップに移動可能\n<color=#92fc63>「限定建造」</color>：限定建造ページに移動可能"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipState_rest = {
+		tip = "寮舎で休憩中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.box_account_del_success_content = {
+		tip = "アカウントは <color=#92fc63>$1</color> に削除される予定です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_exchange_usetip = {
+		tip = "アイテム$1が倉庫に送られました。倉庫にて使用可能です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commission_label_unlock_tech_tip = {
+		tip = "指揮官Lv.30で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.apply_permission_camera_tip3 = {
+		tip = "カメラの権限がOFFの場合、ARカメラ機能を利用できません。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_page_desc = {
+		tip = "ゲームにログインして毎日$1個報酬\nミニストーリーを開放可能！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.last_times_sign = {
+		tip = "報酬受取可能回数：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_frame = {
+		tip = "FPS"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_news_import_title = {
+		tip = "重要イベント"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newyear2024_backhill_help = {
+		tip = {
+			{
+				info = "開催期間：<color=#92fc63>2023.12.21-2024.1.4メンテまで</color>\n■概要\nキャンペーン「新年裏山」は下記の内容で構成されています。\n・絵馬祈願\n・ミニゲーム\n・着せ替え\n・限定建造\n\n■絵馬祈願\n・キャンペーン期間中、毎日「艦船絵馬」個数が1個増加します（最大7個）\n・「艦船絵馬」を所持している状態では、「絵馬祈願」で艦船の絵馬を飾ることができます\n・「艦船絵馬」を飾ると、艦隊に強化効果を付与できるほか、艦船の返礼を1個入手できます\n\n■ミニゲーム\n・キャンペーン期間中、毎日ゲーム回数が1回加算されます（最大7回まで）\n・ゲーム回数を所持している状態でミニゲームをクリアすると、ゲーム回数が1回消費されます\n・ミニゲームでは、限定家具「サプライズライト」「スタイリッシュライト」、UR艦船「ラフィーⅡ」と交換できる「ウサウサURチケット」を入手できます\n\n■着せ替え\n着せ替えショップに遷移できます\n\n■限定建造\n限定建造画面に遷移できます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_skill_ui_confirm = {
+		tip = "確定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.map_event_save_nekone = {
+		tip = "<color=#92fc63>ネコネ</color>の救出に成功しました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_label_rank = {
+		tip = " 順位"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_ship_votes = {
+		tip = "$1票"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_onceagain = {
+		tip = "再度出撃"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_quality_option_custom = {
+		tip = "カスタム"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_battle_hide_bg = {
+		tip = "衣装背景の戦闘時非表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_6 = {
+		tip = "$1があなたにすべてを託している"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_notfound_error = {
+		tip = "任務データが見つかりませんでした。ゲームを再起動しデータの更新をお願い致します。エラーid:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_morale_2 = {
+		tip = "艦隊の士気は最大です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_daily_task_tip = {
+		tip = "<size=28>デイリー任務クリアで</size>$1<size=28>入手</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_total_damage = {
+		tip = "合計ダメージ："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.energy_desc_tired = {
+		tip = "疲れた…普段通りには戦えないようです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activityboss_sp_score = {
+		tip = "現在スコア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_defeat_all_enemys = {
+		tip = "敵艦をすべて撃破"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_daily_task_title = {
+		tip = "デイリー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_rename_coldtime_tip = {
+		tip = "オフニャは24時間以内で1回しか名前を変更できません。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_newPlayerScene_error_notChoiseShip = {
+		tip = "初期艦を選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_window_title = {
+		tip = "報酬一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.course_class_name = {
+		tip = "今日の授業：《$1》"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_reserve_count_is_max = {
+		tip = "これ以上は購入できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.decodegame_gametip = {
+		tip = {
+			{
+				info = "■情報解読\n情報解読では、「情報画面」をタップし情報解読することで「暗号ページ」を解禁し、「暗号ページ」の暗号の「情報画面」をタップすることで、報酬を入手できる\nミニイベントになります。\n情報を解読するには、イベント「絶海前話」限定任務クリアで「情報解読Pt」を入手する必要があります。"
+			},
+			{
+				info = "■画面紹介\n画面左側に、現在の「情報解読可能回数」が表示されます。画面右側のスイッチをタップすることで、表示され\nる「解読情報」を変更することができます。\n画面中央の「情報画面」の未解読（ノイズ状の表示）箇所をタップすることで、情報を解読できます。\n画面右下のボタンをタップすることで「暗号ページ」を開けます。\n情報解読が完了した場合、画面左下から最終報酬アイテムを受け取ることができます。"
+			},
+			{
+				info = "■遊び方\n1 イベント「絶海前話」限定任務をクリアすることで、「情報解読Pt」を入手することができます。「情報解読Pt」を累計で<color=#92fc63>200</color>獲得するたびに、情報解読可能回数が1回増えます。\n2 画面右側のスイッチをタップすると、「解読情報」が表示され、また未解読（ノイズ状の表示）箇所をタップすることで、情報を解読できます。解読するたびに、情報解読可能回数が1回消費されます。\n3 情報が全箇所解読されると、情報が完全に解読され、画面のノイズが消失します。その場合、画面右のスイッチをタップすることで別の「解読情報」に切り替えるこ\nとができます。\n4 情報が全部解読されると、画面右下の「暗号ページ」が開放されます。\n5 暗号ページを一度開くと、各「解読情報」ページで「暗号」が表示されます。\n6 「解読情報」の「情報画面」で暗号を順番通り入力すると、画面左上の信号が緑になります。\n7 3つの「解読情報」で暗号を全部正確に入力すると、報酬アイテムを画面左下から受け取ることができます。\n8 また、情報解読を行った回数に応じて、下記の報酬を受け取ることができます。\n　10回：資金*1000\n　20回：汎用改造素材T3*5\n　30回：資金*1000\n　40回：攻撃教科書T3*2\n　50回：ランダム改造図T3*2\n　60回：支援教科書T3*2\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_curr_title_1 = {
+		tip = "項目投票"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_acc_title_1 = {
+		tip = "累計投票"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_voting = {
+		tip = "進行中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_info_page_tip = {
+		tip = "友達はタップで訪問可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_lable_not_start = {
+		tip = "未開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furnitrue_type_table = {
+		tip = "テーブル"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_stamina_text = {
+		tip = "燃料を<color=#92fc63>$1</color>消費し行動力を<color=#92fc63>$2</color>回復します（今週回復可能回数$3/$4回）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_cat = {
+		tip = "オフニャ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_tendency_2 = {
+		tip = "特別計画Ⅱ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attr_oxy_max = {
+		tip = "潜航力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furnitrue_type_couch = {
+		tip = "ソファ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.littleSanDiego_npc = {
+		tip = {
+			{
+				info = "■概要\n「明日の星　新登場」とは、イベント開始時に仮加入した【リトル・サンディエゴ】の「友好度」を海域に出撃することで貯め、【リトル・サンディエゴ】を正式加入させるイベントになります。"
+			},
+			{
+				info = "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージの中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
+			},
+			{
+				info = "2.【リトル・サンディエゴ】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。"
+			},
+			{
+				info = "3.【リトル・サンディエゴ】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【リトル・サンディエゴ】が戦闘可能な状態の場合、獲得できる「友好度」が2倍になります。"
+			},
+			{
+				info = "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【リトル・サンディエゴ】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【リトル・サンディエゴ】は母港からいなくなります。"
+			},
+			{
+				info = "5.友好度報酬は12/22（水）まで毎日1段階ずつ解放されます。"
+			},
+			{
+				info = "6.仮加入状態の【リトル・サンディエゴ】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
+			},
+			{
+				info = "7.仮加入状態の【リトル・サンディエゴ】は大艦隊作戦には参加できません。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_title_story = {
+		tip = "·物語"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.senran_pt_words_xishao = {
+		tip = {
+			{
+				"1100007/pt1",
+				"よ、よろしく…おねがいします……"
+			},
+			{
+				"1100007/pt2",
+				"もっと…頑張れます……"
+			},
+			{
+				"1100007/pt3",
+				"少し自信がついてきた…気がします"
+			},
+			{
+				"1100007/pt4",
+				"まだまだ…これからです"
+			},
+			{
+				"1100007/pt5",
+				"次も…頑張りますね……"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tech_simulate_quit = {
+		tip = "弾幕確認機能を終了しますか？\n（※実際の能力とは異なります）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.senran_pt_words_zi = {
+		tip = {
+			{
+				"1100006/pt1",
+				"今日も…頑張り…ます……"
+			},
+			{
+				"1100006/pt2",
+				"わたし…強くなれて…いるのでしょうか…？"
+			},
+			{
+				"1100006/pt3",
+				"もう少しだけ…頑張ってみたいです……"
+			},
+			{
+				"1100006/pt4",
+				"なんだか…うまくできてる…気がします"
+			},
+			{
+				"1100006/pt5",
+				"もうちょっとだけ…やりませんか…？"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.senran_pt_words_xuebugui = {
+		tip = {
+			{
+				"1100005/pt1",
+				"お忙しいところお時間を割いて頂き、ありがとうございます"
+			},
+			{
+				"1100005/pt2",
+				"ふふっ、こんな感じでしょうか？"
+			},
+			{
+				"1100005/pt3",
+				"こうしていると…意外な発見があるものですね"
+			},
+			{
+				"1100005/pt4",
+				"あぁ、指揮官さんが人気なのもうなずけます"
+			},
+			{
+				"1100005/pt5",
+				"次の機会も楽しみにしていますね"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.school_title_xiaomaibu = {
+		tip = "海軍売店"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.senran_pt_words_yan = {
+		tip = {
+			{
+				"1100003/pt1",
+				"ふふっ、今日も楽しみだ。期待してるぞ"
+			},
+			{
+				"1100003/pt2",
+				"さぁ、休んでないで次だ次！"
+			},
+			{
+				"1100003/pt3",
+				"指揮官もなかなかやるじゃないか"
+			},
+			{
+				"1100003/pt4",
+				"この程度で終わりじゃないだろう？"
+			},
+			{
+				"1100003/pt5",
+				"お疲れ。強くなるのを実感できるのも、指揮官のおかげだな"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amercian_notice_1 = {
+		tip = "女王の褒章<color=#92fc63>$1</color>を消費し、作戦補給を<color=#92fc63>$2</color>回交換しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.senran_pt_words_feiniao = {
+		tip = {
+			{
+				"1100001/pt1",
+				"指揮官、待ってました！"
+			},
+			{
+				"1100001/pt2",
+				"なんだか緊張しちゃいますね"
+			},
+			{
+				"1100001/pt3",
+				"ちゃんと結果、でてますか？"
+			},
+			{
+				"1100001/pt4",
+				"私、まだまだやれます！"
+			},
+			{
+				"1100001/pt5",
+				"これからもずっと、ご指導ご鞭撻よろしくお願いします！"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_extendMagazine_error = {
+		tip = "倉庫拡張失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_torpedo = {
+		tip = "魚雷"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_using = {
+		tip = "$1Fに配置中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_escort_win = {
+		tip = "輸送船が目標地点に到着しました。海上護衛成功！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.senran_pt_help = {
+		tip = {
+			{
+				info = "開催期間：<color=#92fc63>11.23-12.7 メンテ </color>\n\n  1.コラボイベント開催期間中、任務イベント「パネル任務」「秘伝忍法書」に参加し、限定任務をクリアするとPtアイテム<color=#92fc63>「忍指南」</color>を入手できます。\n 2.「忍術指導場」で「忍指南」を消費し各属性のレベルを合計8上げると、SSR<color=#92fc63>「焔」</color>などの報酬を入手できます。\n 3.「焔」の受け取り期間は<color=#92fc63>12月13日24時</color>まで。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.senran_pt_not_enough = {
+		tip = "<color=#92fc63>忍指南</color>が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sculpture_close_tip = {
+		tip = "画面タップで戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_meta_energy = {
+		tip = "限界突破可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shan_luan_task_buff_default = {
+		tip = "？？？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.monopoly_world_tip2 = {
+		tip = "キャンペーン期間中毎日$1回移動回数が加算されます！コントローラータップで移動して報酬を手に入れよう！！あと1週で入手:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shan_luan_task_level_tip = {
+		tip = "秘伝ﾚﾍﾞﾙ：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_exchange_timelimit = {
+		tip = "下記アイテムの交換対象は$1メンテナンス後に変更されます。お早めにご使用ください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.workbench_tips4 = {
+		tip = "クラフトLv.$1で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_discount_desc = {
+		tip = "$1 *1を消費し、割引価格$2で$3着せ替えを購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_exchange_title = {
+		tip = "下記着せ替え交換可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_gift = {
+		tip = "プレゼント"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_choice_talent_reset = {
+		tip = "資金$1を消費しアビリティを初期化しますか？\tアビリティが初期配置になり、アビリティポイント$2を入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_get_commander_coptyright = {
+		tip = "オフニャ管理センター——"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destination_can_not_reach_safety = {
+		tip = "目標海域には辿り着けません：途中接敵のため"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.anniversary_task_title_12 = {
+		tip = "再誕された「艦船」――私達の歌声でその存在の錨を下ろそう。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.take_all_mail = {
+		tip = "<color='#92fc63FF'>全てのメールを開封</color>しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_tech_equipbag_desc = {
+		tip = "倉庫容量+$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.option_desc8 = {
+		tip = "ONにすると、自分の寮舎画面で来訪した（寮舎表示をONにした）友達の秘書艦が表示される"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_silent_tip_3 = {
+		tip = "個の科学研究が完了しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_logistics_ability = {
+		tip = "兵站補助"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newserver_build_tip = {
+		tip = "着任支援建造チケットを消費してのみ建造を行えます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_command_ability = {
+		tip = "指揮補助"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_use_box_queue = {
+		tip = "訓練選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_max_tip_eventstart = {
+		tip = "委託を請負うことができません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.change_player_name_illegal = {
+		tip = "不適切なワードが含まれていたため、テーマ名が<color=#FFDE38FF>$1</color>に変更されました\nテーマ名を再度変更してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_use_box_tip = {
+		tip = "ネコハコ選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_speed = {
+		tip = "速力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_no_exist = {
+		tip = "大艦隊は存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_choice_talent_3 = {
+		tip = "新たに習得できません。入れ替えるアビリティを選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_choice_talent_2 = {
+		tip = "アビリティ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dockyard_data_loss_detected = {
+		tip = "ドック情報の同期トラブルが発生しました。ログイン画面に戻りますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_month = {
+		tip = "一月内"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_choice_talent_1 = {
+		tip = "取得または成長させるアビリティを選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_auto_battle_label = {
+		tip = "戦闘終了通知"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_skill_effect = {
+		tip = "スキル"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.workbench_tips9 = {
+		tip = "必要素材"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_all_2 = {
+		tip = "META座標開放可能時一時中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_show_ship_name_label = {
+		tip = "艦名変更を反映"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_confirm_tip = {
+		tip = "*強化素材に使われるオフニャは消費されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_subtile_talent = {
+		tip = "アビリティ効果"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_subtile_ablity = {
+		tip = "基本能力効果"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_click_to_close = {
+		tip = "画面タップで戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.report_type_1_1 = {
+		tip = "スパムやセンシティブ・不適切な発言"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_talent = {
+		tip = "ｱﾋﾞﾘﾃｨ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commandercat_label_display_name = {
+		tip = "変更後名前"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_rare4 = {
+		tip = "Sレア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commandercat_label_raw_name = {
+		tip = "元の名前"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_pt_notenough = {
+		tip = "セイレーン作戦の【META戦】で解析Ptを手に入れよう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_equipment_equip = {
+		tip = "設備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_ending_tip1 = {
+		tip = "1Fと2Fのすべてのエリアを探索し物語の終末を確かめよう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_reward_got = {
+		tip = "受取済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_card_info = {
+		tip = "基本情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_serverLoginFail_error = {
+		tip = "サーバー接続エラー:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_nature_title = {
+		tip = "性格："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_noname = {
+		tip = "名前を入力してからボタンをタップしてください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_shop_refresh_all_tip = {
+		tip = "$2を<color=#92fc63>$1</color><icon name=guildicon w=0.7 h=0.7/>消費し、ラインナップを更新しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.item_type17_tip1 = {
+		tip = "報酬詳細"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_unlock = {
+		tip = "すべてのエンディングを集めると探索者を作成できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_reward_tip = {
+		tip = "完成済$1/$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.collection_lock = {
+		tip = "まだ開放されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_310024 = {
+		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_drag_gift_tip = {
+		tip = "*記念品をキャラにドラッグして贈る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_live2dfiles_retry = {
+		tip = "タップで再開"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_reward_word2 = {
+		tip = "第一幕"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_live2dfiles_checking = {
+		tip = "チェック中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_reward_word1 = {
+		tip = "序幕"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_notimes = {
+		tip = "ロール回数が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_label_give_invitation_finish = {
+		tip = "招待完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.propose_intimacy_tip = {
+		tip = "好感度100(現在$1)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_attr_list = {
+		tip = {
+			"説得",
+			"応急手当",
+			"META研究",
+			"ｾｲﾚｰﾝ研究",
+			"情報分析",
+			"機械修理",
+			"薬理学",
+			"民俗学",
+			"心理学",
+			"地質学",
+			"鍵開け",
+			"目星",
+			"手さばき",
+			"ランニング",
+			"ダイビング",
+			"メカ操縦",
+			"戦術研究",
+			"格闘",
+			"射撃",
+			"サバイバル",
+			"キューブ研究",
+			"危険察知",
+			"魅惑",
+			"釣り",
+			"法律学",
+			"量産艦操縦",
+			"艤装修理",
+			"罠制作",
+			"砲術",
+			"天文学",
+			"暗号学",
+			"法律研究",
+			"料理",
+			"石油調査",
+			"図書館",
+			"ナビゲート",
+			"乗馬",
+			"ヒプノシス",
+			"追跡",
+			"言語",
+			"登攀",
+			"ｱｲﾃﾑ整理",
+			"時間調整",
+			"書類作業",
+			"艦隊集結",
+			"兵站業務",
+			"外交学",
+			"保健",
+			"農学",
+			"土木工事",
+			"戦術指揮"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room17 = {
+		tip = "ガーデン"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_mind_processing_title = {
+		tip = "進行中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room14 = {
+		tip = "ベッドルーム"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_recent_ship_label = {
+		tip = "ｽｷﾙ強化歴"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room13 = {
+		tip = "2Fホール"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room9 = {
+		tip = "宴会ホール"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_exist_activation_tech = {
+		tip = "兵站施設は同時に1種類までしか開発できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.rename_input = {
+		tip = "名前を入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_ssr = {
+		tip = "SSR"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room7 = {
+		tip = "ダイニング"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_setting_title = {
+		tip = "セイレーン作戦設定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_mailLayer_noNewMail = {
+		tip = "新しいメールがありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room4 = {
+		tip = "中庭"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_noPos_buy = {
+		tip = "拡張"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room1 = {
+		tip = "使用人部屋"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
+		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_upgrade = {
+		tip = "突破"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.harbor_backhill_help = {
+		tip = {
+			{
+				info = "イベント概要：\n裏山キャンペーン「饅頭アジト」<color=#92fc63>10.26-11.9 メンテナンスまで</color>開催！\n\n■遊び方\n・秘密造船所\n「秘密造船所」をタップすると、前哨戦イベント「テンペスタの秘密造船所」に参加することができます。\nさらに、前哨戦イベントをクリアするとミニゲームを遊ぶことができ、11/1まで毎日開放されるステージをすべてクリアすると下記豪華報酬を入手できます！\n　ステージ3　テンペスタ用新SR設備「果物の補給」\n　ステージ5　テンペスタ兵装セット　ステージ7　限定家具「始まりの冒険船」\n\n・記念アイテム\n「記念アイテム」をタップすると、イベントの限定任務を確認・報酬受取することができます。\n任務をクリアすると、SSR主砲「旧式重火砲」、新オフニャ「べらーみ」「きっど」、限定家具「燦々たる針路」を入手可能！\n\n・イベント交換\n海域イベント「テンペスタと若返りの泉」交換ショップに遷移できます。\n\n・限定建造\n限定建造画面に遷移できます。\n\n・着せ替え\nきせかえショップに遷移できます。\n\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_102304 = {
+		tip = "改造を行うと<color=#92fc63>【主砲砲座+1】</color>\nスキル<color=#92fc63>【戦争の悲劇】</color>が<color=#92fc63>【戦争の悲劇·改】</color>に変化\nスキル<color=#92fc63>【全弾発射II】</color>が<color=#92fc63>【全弾発射III】に変化</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_preCombatMediator_timeout = {
+		tip = "<color=#92fc63>作戦制限時間</color>を過ぎました。作戦失敗…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_kickLoginOut = {
+		tip = "サーバーとの接続が中断しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.item_type16_tip2 = {
+		tip = "内容一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sail_boat_equip_tip_2 = {
+		tip = "<color=#E3CEAF>威力・装填速度共に普通な火砲</color>\n<color=#F1B969>装備すると速力が下がる</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_buildShip_not_position = {
+		tip = "建造待ちが一杯です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_share_errorcode7 = {
+		tip = "今日はすでにこの艦船の装備編成をシェアしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_share_ruletips = {
+		tip = "ラベルを2つ設定し装備編成をシェアしましょう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.area_unkown = {
+		tip = "未知エリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_battle_is_exist = {
+		tip = "すでに大艦隊作戦が発令されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_collect_lock = {
+		tip = "-未開放-"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_build_1 = {
+		tip = "\t\t\t\t\t   <size=25>$1建造概率分布</size>\n\n\t\t\t\t\t\t\t<color=#ffde38>超稀有舰船</color>：$2%\n\t\t\t\t\t\t\t <color=#d797ff>精锐舰船</color>：$3%\n\t\t\t\t\t\t\t <color=#3dc6ff>稀有舰船</color>：$4%\n\t\t\t\t\t\t\t 普通舰船：$5%"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_level_unreached = {
+		tip = "練度不足"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_unsaved_tips = {
+		tip = "読み込んだ装備編成は適用されません。前の画面に戻りますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_type4 = {
+		tip = "自由行動"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loading_tip_StoryMgr = {
+		tip = "パラレル記憶子ライティング中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_export_success = {
+		tip = "装備コードをコピーしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_repair_special_name = {
+		tip = "本日残り回数:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_not_exist_activation_tech = {
+		tip = "作業中の兵站施設が存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_level_unmatched = {
+		tip = "ﾚﾍﾞﾙ違い"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_report_warning = {
+		tip = "短期間に大量に通報されると一時的にシェアできなくなります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.qiuqiu_count = {
+		tip = "目標数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_12 = {
+		tip = "投射範囲"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_dislike_success = {
+		tip = "通報しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_like_success = {
+		tip = "いいねしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_import_success = {
+		tip = "装備編成を適用しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_share_exceedlimit = {
+		tip = "ラベルは2つまでしか選択できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_word_cancel = {
+		tip = "戻 る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pre_combat_submarine = {
+		tip = "潜水艦隊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_share_nolabel = {
+		tip = "ラベルを2つ設定してからシェアできます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ssss_game_tip = {
+		tip = {
+			{
+				info = "■概要\nミニゲーム「激闘！電光饅頭VS怪獣饅頭」とは、制限時間内で画面下のブロックをタップで消し、同じ色のブロックを揃えることでスコアを獲得していくミニゲームです。\n\nミニゲームは7.26（水）まで毎日新しいゲームが開放され、クリアすると装備外装箱や弧光結晶、限定家具を入手できます。\n（開放されたステージ1個につき1回しか入手できません）\n\n■遊び方\n・画面下部のブロックをタップすると、タップしたブロックと、そのブロックと隣接している同じ色のブロックを消すことができます。更に、ブロックを消すことで同じ色のブロックが3つ以上揃うと、同じ色のブロックが全部消えます。\n・2つ以上のブロックが消える度に、SDキャラが攻撃を行い、スコアを入手するとともにその色に対応する画面上部の必殺技ゲージ、画面下部の変身ゲージがたまります。\n・必殺技ゲージがMAXになると、SDキャラが必殺技を使用し、スコアを得ることができます\n・変身ゲージがMAXになると、SDキャラがパワーアップします。また、必殺技の演出・得られるスコアも変わります。\n・パワーアップ状態でブロックを消しても、変身ゲージは上昇しません。また、パワーアップ状態では変身ゲージが減り続け、0になると元に戻ります。\n・制限時間が0になると、ゲームクリアになります。\n・ゲームは何回も挑戦できます。\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_slot_unmatch = {
+		tip = "適用できない装備編成です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_check_tip1 = {
+		tip = "予定枠が不足しています。予定枠を空けてから再度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.prop_destroyProp_error_notEnoughItem = {
+		tip = "売却するアイテムが存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destory_important_equipment_tip = {
+		tip = "装備<color=#FFDE00FF>“$1”</color>を廃棄しますか？下の枠に装備の名前を入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_fire_tip = {
+		tip = "このメンバーを除名しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm = {
+		tip = "弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_share_label_8 = {
+		tip = "ﾃﾞｲﾘｰ用"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_share_label_7 = {
+		tip = "ﾒｲﾝ用"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_live2dfiles_update_end = {
+		tip = "更新完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_filter_award_res = {
+		tip = "TB"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_title_eng = {
+		tip = "Multiple Sorties"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_title_highest_damge = {
+		tip = "最大ダメージ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_sort_relax = {
+		tip = "まったり"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_share_label_2 = {
+		tip = "対中装甲"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100223 = {
+		tip = "Google連携に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_upgrade_overlimit = {
+		tip = "これ以上強化できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_upgradeStar_select_material_tip = {
+		tip = "突破素材を選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_go = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_empty_collection_list = {
+		tip = "没有找到符合条件的收藏"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_yanhua_tip2 = {
+		tip = "解放済み花火"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_2_detail = {
+		tip = "$1があなたのことをもっと知りたいようだ\n<color=#ffde38><size=18>(効果なし)</size></color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_19903 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n203mm三連装砲Mk15\n533mm四連装魚雷Mk17\n四連装28mm対空機銃「シカゴピアノ」</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.warning_mail_max_5 = {
+		tip = "※上限に達するとメールを受信できなくなります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_cancel_share = {
+		tip = "シェア中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_shipAddMoney_ok = {
+		tip = "<color=#92fc63>$1</color>が<color=#92fc63>$2</color>コインを発見しました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_scene_formation_active_already = {
+		tip = "陣形が変更されました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_boss_destruct = {
+		tip = "自爆を阻止した上ボス撃破"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zero_hour_command_error = {
+		tip = "日付変更処理・データ更新にエラーが発生しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_recover_text1 = {
+		tip = "<color=#ffde38>メール再送</color>を行うと、メール保管庫に<color=#ffde38>$1</color>年の<color=#ffde38>$2</color>からのバレンタインメール（添付アイテムは含まれない）が再送されます\n*メール再送機能は記念アイテム毎に1回しか使用できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_place_pnekey = {
+		tip = "一括配置"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_extralevel_3 = {
+		tip = "レベル3"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname2 = {
+		tip = "高"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_select_overflow_tip = {
+		tip = "交換しようとしている<color=#22ff22> $1</color>は必要な数量より<color=#ff5c5c>$2個</color>上回っています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_pool_awards_empty = {
+		tip = "本段階の報酬が既に全部交換しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_system_theme = {
+		tip = "プリセット"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_custom_theme = {
+		tip = "マイセット"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.maintenance_message_text = {
+		tip = "$1後にメンテナンスが開始します。メンテ中はゲームをプレイできません。ご注意ください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_navalAcademyScene_quest_Classover_short = {
+		tip = "0"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_time = {
+		tip = "时间"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destroy_confirm_access = {
+		tip = "確 定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ranking_word_9 = {
+		tip = "得点"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_tip_material_stock = {
+		tip = "所持"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_filter = {
+		tip = "絞り込み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firework_2025_tip = {
+		tip = {
+			{
+				info = "遊び方："
+			},
+			{
+				info = "1.花火を開放したり、花火大会限定任務をクリアすると「母港花火大会雰囲気Pt（雰囲気Pt）」を入手可能。「雰囲気Pt」累計報酬で「年玉」装備外装「瑞蛇花火箱」、「红包」などを入手可能。"
+			},
+			{
+				info = "2.メイン海域３章以降のステージをクリアしたり、共闘イベントに参加すると、確率で「新春花火」を開放可能。「花火打上」で花火を開放すると、「雰囲気Pt」などの報酬を入手可能。"
+			},
+			{
+				info = "3.イベント期間中、「大会広場」で、艦船を配置枠に配置し、配置艦船のコンディション回復速度を上げることができます。「大会広場」はイベントの「進捗Lv」に応じて配置枠を増やせることができます（最大10枠まで）"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_filter_subtitle2 = {
+		tip = "個人・グループ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_finish = {
+		tip = "連続挑戦が完了しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_use_gem_title = {
+		tip = "ダイヤで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_clear = {
+		tip = "クリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_placed_furniture = {
+		tip = "配置済み家具"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_exp_addition = {
+		tip = "経験効果"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intensify = {
+		tip = "強化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_name_change_time_limit_tip = {
+		tip = "<color=#92fc63>$1</color>後指揮官名を変更できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100227 = {
+		tip = "このアカウントでのログインに失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_capacity = {
+		tip = "食糧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200190 = {
+		tip = "購入リクエストが存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_len = {
+		tip = "カメラ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Supplement_pay7 = {
+		tip = "払い戻し："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tw_unsupport_tip = {
+		tip = "ツイッターアカウント連携は現在利用できません。Yostarアカウント連携を行ってください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.challenge_casual_reset = {
+		tip = "チャレンジモードが中断されました。\n累計得点:$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_buyExtendItem_question = {
+		tip = "<color=#92fc63>$1</color>を消費します。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tech_change_version_mark = {
+		tip = "研究指向"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_reset_talent_time_no_rearch = {
+		tip = "一定時間内では1回しかリセットできません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
+		tip = "すでに支援艦隊に編成されています。編成を切り替えますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tip_account_del_dismatch = {
+		tip = "入力内容は不正です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_inSupportFleet = {
+		tip = "支援出撃中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_nengdai = {
+		tip = "花火を同時に2発発射できるぞ！\nさらに敵に命中すると、一定範囲内の味方の攻撃速度・ダメージが10秒間1％アップ！（最大10回まで効果が加算可能）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_extendequip_success = {
+		tip = "倉庫拡張成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_event_lock = {
+		tip = "ブリストルたちの調査隊参加後に開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_limit_all = {
+		tip = "購入回数：$1/$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shipyard_button_1 = {
+		tip = "乞うご期待"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.town_unlcok_new = {
+		tip = "作業地点開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pocky_jiujiu_desc = {
+		tip = "今日も饅頭たちが頑張って働いている…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
+		tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>下</color>に1マス移動させる。オーダーを確定しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
+		tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>上</color>に1マス移動させる。オーダーを確定しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
+		tip = "オーダー発令：<color=#92fc63>$1</color>を<color=#92fc63>左</color>に1マス移動させる。オーダーを確定しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_AR_switch = {
+		tip = "AR機能メンテナンス中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_airexpel_select_enemy = {
+		tip = "敵艦隊のみ選択できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_stop_reason1 = {
+		tip = "燃料が不足しているため"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_farm = {
+		tip = "周回モード"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_airexpel_cancel = {
+		tip = "駆逐中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_takeAttachment_error_noAttach = {
+		tip = "添付アイテムは受け取りできませんでした"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.course_energy_not_enough = {
+		tip = "<color=#92fc63>$1</color>のコンディションが低く、授業には参加できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_start_tip5 = {
+		tip = "確保済みのエリアでのみ使用できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_deploy_submarine = {
+		tip = "目標確定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_resume_attack_win_rate = {
+		tip = "出撃勝率:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_unlock_bag = {
+		tip = "持ち物"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_unlock_attr3 = {
+		tip = "能力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_unlock_ending = {
+		tip = "エンディング"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_moveto_markroom_max = {
+		tip = "<color=#92fc63>【保管庫】</color>のメール保管数上限に達しています。メールを移動できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_unlock_tip = {
+		tip = "解放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sp_no_quota = {
+		tip = "今日はこれ以上出撃できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_ammo_type_2 = {
+		tip = "榴弾"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chapter_ap_not_enough = {
+		tip = "AP不足"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_reset_sure_tip = {
+		tip = "TB育成をリスタートすると、育成段階Ⅰから再度育成することが可能です。育成をリスタートしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
+		tip = "素材確保"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolove_main_help = {
+		tip = {
+			{
+				info = "イベント紹介："
+			},
+			{
+				info = "<color=#92fc63>11月21日（木）~12月5日（木） メンテまで</color>コラボイベント「危険発明接近中！」開催"
+			},
+			{
+				info = "<color=#7D7D7D>記念章家具、累計Pt報酬受取、イベントショップ交換は12月11日（水）23:59まで</color>\n"
+			},
+			{
+				info = "イベントステージに<color=#FCD400>出撃</color>\nイベント海域に出撃し、Ptアイテム「エナジーストーン」を集め「作戦収穫 累計中！」や「ショップ」で報酬を交換可能！\n"
+			},
+			{
+				info = "<color=#FCD400>「助けて、ララさん！」</color>\nイベント海域・メイン海域3章以降のステージで「エネルギーの破片」を集めると、「助けて！ララさん」で母港の艦船たちの発明依頼を開放可能。ミニゲームで発明を完成し依頼を達成すると、「仕事が楽しくなるメカ」などの限定装備を入手可能。\n"
+			},
+			{
+				info = "ミニゲーム<color=#FCD400>「ピポピポトレーニングくん」</color>\n11/27（水）まで毎日開放されるミニゲームステージをクリアすると、家具「プリンセスの絵」などの限定家具をGET！さらに「特訓任務」をクリアすると報酬を入手可能。\n"
+			},
+			{
+				info = "<color=#FCD400>「記念章」</color>\nイベント期間中に開放される各種コンテンツを遊ぶと、6種類の「データチップ」を入手可能。「データチップ」をすべて集めると、「記念章」ページで家具「デビルーク風記念章」と交換可能！\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_school_sure_tip = {
+		tip = "入学すると、成長目標がリセットされ、まだ使用されていない行動力は引き継がれません。次の育成段階に進めますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_not_exist_notifycation = {
+		tip = "大艦隊連絡板に書き込みはありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_upgrade_sure_tip = {
+		tip = "次の育成段階に進むと、成長目標がリセットされ、まだ使用されていない行動力は引き継がれません。次の育成段階に進めますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_date_text4 = {
+		tip = "更新準備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_no_ticket = {
+		tip = "メモリーズ開放チケットが不足しています。ショップでダイヤを消費し購入可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_log_event_group_title4 = {
+		tip = "記録・④"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_perform_title = {
+		tip = "予定を組む"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_task_system_type2 = {
+		tip = "育成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_attr_name2 = {
+		tip = "能力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.total_rewards_subtitle = {
+		tip = "TOTAL REWARDS"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_attr_name1 = {
+		tip = "属性"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_skip = {
+		tip = "演出動画をスキップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_redeploy_not_change = {
+		tip = "再編成後のメンバーは編成前のメンバーから変更していません。再編成を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_count_noenough = {
+		tip = "回数が足りません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_buildship_tip = {
+		tip = "<color=#92fc63>$4</color>建造を行うには：\n<color=#92fc63>$1資金</color>と<color=#92fc63>$3$2個</color>を消費"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip3 = {
+		tip = "キャンペーン期間中、任務をクリアし<icon name=pt w=1 h=1/>\nを集め、<color=#92fc63>「ヨークタウン」限定着せ替え</color>、\n<color=#92fc63>ダイヤ</color>などの報酬を手に入れよう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_m_craft = {
+		tip = "花火を作ってコストをどんどん回復してくれるピョ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_propose_cost_tip = {
+		tip = "<size=32>ケッコンは誓いの指輪を<color=#92fc63>1</color>つ消費します（所持数：<color=#92fc63>$1</color>）</size>\n\n<size=32>*ケッコンした艦船は専属艦になり、名前を変更でき、更に性能が<color=#92fc63>3%</color>強化されます</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_awakening = {
+		tip = "<size=32>認識覚醒可</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_archives_auto_battle_reusle_title = {
+		tip = "自動戦闘完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_free_tag = {
+		tip = "無料"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023Valentine_minigame_b"] = {
+		tip = "これでよしっと……味の方は大丈夫でしょうか？ええと、指揮官、よかったらどうぞ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.title_info = {
+		tip = "情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_newPlayerScene_invalideName = {
+		tip = "NGワードが含まれています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.paint_hide_other_obj_tip = {
+		tip = "    背景非表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_special_name = {
+		tip = "TB"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_level_num = {
+		tip = "評価レベル"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_stage_desc2 = {
+		tip = "育成段階Ⅱ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_donate_tip = {
+		tip = "<color=#92FC63FF>$1×$2</color>(所持数：<color=$4>$3</color>)を大艦隊に拠出しようとしています。拠出を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_mood_desc3 = {
+		tip = "普通"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_mood_desc1 = {
+		tip = "絶不調"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_start_event_consume_tip_extra = {
+		tip = "今月は大艦隊作戦を<color=#ff5c5c>$3</color>回開放しました。資源$1を消費し、大艦隊作戦“$2”を開放しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_maingroup_updating = {
+		tip = "更新中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_filter_award_attr2 = {
+		tip = "能力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_exchange_tip2 = {
+		tip = "明石メールのアイテムを一度受け取ってからお試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dailyLevel_bonus_activity = {
+		tip = "限定ボーナス"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_filter_award_nature = {
+		tip = "個性"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_share_label_6 = {
+		tip = "安定火力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e3_desc = {
+		tip = "普通のセイレーン。スカベンジャーより攻撃速度が早いぞ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_schedule_sure_tip = {
+		tip = "まだ設定されていない予定があります。次のターンに進みますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.complete = {
+		tip = "委託\n完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_score_addition = {
+		tip = "評価UP："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.islandnode_tips7 = {
+		tip = "指揮官がいない間、$1は花畑はの世話をした！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_event = {
+		tip = "特別予定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_help_meta = {
+		tip = {
+			{
+				info = "<color=#92fc63>2025.6.5-2025.9.4</color>\nMETA戦・江風(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。\n（※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）\n\n■META戦について\n■「META戦」とは、「META」艦船に挑戦し、「解析Pt」を含む報酬入手することができる共闘コンテンツです。\n「META戦」は下記の2つの要素によって構成されます。\n・META座標解析＝META艦船の挑戦権開放\n・META艦船との戦闘\n\n「META戦」システムはセイレーン作戦のストーリーを進めると開放されます。\n\n■META戦座標解析\n・「セイレーン作戦」では、戦闘などの方法で「META座標情報」を入手することができます。\n・「META座標情報」作戦海域マップ画面の右上に表示され、META座標情報所持数が所持可能上限に達する度に、META座標を全て消費して「META戦」の「情報解析」でMETA艦船の挑戦権を開放できます。\n・「情報解析」は1日2回しか行えません。また、毎日0時に情報解析可能回数のほかに、META座標所持数は一定数を残して初期所持数にリセットされます。\n\n■META戦について\n・「セイレーン作戦」海域マップ画面の右下にある「META戦」アイコンをタップすると、META艦船に挑戦できます。・META戦では、\n ①自分でMETA座標を解析することで開放される戦闘\n ②味方の「META戦援軍要請」を受け取った戦闘\n ⇨これらに挑戦するには「座標一覧」を確認する必要があります。\n・META戦では、味方の艦隊で挑戦することができます。また、潜水艦とオフニャは使用できません。\n・自分で解析したMETAを撃破した場合、次に開放されるMETAは強さが上がった（Lvが上昇）状態で出現します。\n・一度の戦闘で敵を撃破できなかった場合、戦闘終了時に「援軍要請」を行い、ほかのプレイヤーに戦闘を開放する事ができます。\n・META戦では上記①と②のいずれでも、敵が撃破された（HPが0になった）時、戦闘に参加した指揮官全員が「解析Pt」を入手することができます。\n\n■注意\n・開放された戦闘は24時間挑戦できます。24時間経過した場合META戦の表示が消失し、挑戦できなくなります。\n・自分で解放した戦闘に挑戦するには【燃料】を消費し、METAのHPが0になるまで何回も挑戦できます。\n・味方の救援要請を受け取った戦闘に挑戦するには【挑戦ポイント】を消費します。（挑戦ポイントは毎日回復します）\n・同じ戦闘は最大30人まで挑戦することができます。人数が上限いっぱいになった場合、表示されたMETA座標でも挑戦することができなくなります。\n・META戦では経験値を入手することができず、また士気コンディション/勝利数にも影響しません。\n・META戦の出現敵艦変更から31日経過すると、指揮官は自身が開放したMETA戦に挑戦する際に、一度の戦闘に一度だけ、味方支援火力によりMETA艦船にダメージ（直接ダメージとスリップダメージの2種類）を与えられるようになります。このダメージは出現敵艦の変更より時間が経つほど上昇していきます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_check_tip5 = {
+		tip = "TBのコンディションが不調です。予定を追加できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_check_tip4 = {
+		tip = "所持金が不足しています。予定を追加できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_schedule_sure_tip2 = {
+		tip = "まだ行動力が残っています。次の週に入りますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.set_birth_confirm_tip = {
+		tip = "誕生日を$1に設定しますか？\n<color=#ff5c5c>※あとから変更できません</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_schedule_event_tip = {
+		tip = "すでに予定が設定されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_mind_time_title = {
+		tip = "残り時間："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room15 = {
+		tip = "書斎"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_item_type4 = {
+		tip = "その他"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_resume_fleet_gs = {
+		tip = "艦隊戦力:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.jiujiu_expedition_stg_tip = {
+		tip = "現在のステージをクリアすると解放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_item_type2 = {
+		tip = "楽器"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_not_enough = {
+		tip = "票が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
+		tip = "自動戦闘中のため、戦闘を開始できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_item_type1 = {
+		tip = "書籍"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.jp6th_lihoushan_time = {
+		tip = "翌日0時に新しいステージが開放されます！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_pair_2 = {
+		tip = "ゆきはふりつつ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_dodge = {
+		tip = "回避"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_item_type0 = {
+		tip = "ずべて"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
+		tip = "残り時間:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_target_title2 = {
+		tip = "育成目標"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2208 = {
+		tip = {
+			{
+				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_build_desc = {
+		tip = "施設を拡張すると、拠点LvをUPさせることができます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.npc_learn_skill_tip = {
+		tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※スキル強化に使用したアイテムは返還されません。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e6_desc = {
+		tip = "耐久が50％を下回ると、フィールドの全てのセイレーンに、自身の耐久上限の10％分のダメージを吸収するシールドを生成するぞ！\nシールドは同時に一枚しか存在できない。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_target_finish_tip = {
+		tip = "現段階の育成目標を達成しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.memory_actiivty_ex = {
+		tip = "イベント"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_time_out = {
+		tip = "支払情報を確認しています…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardScene_expression_label_2 = {
+		tip = "普通"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_buyFurniture_error = {
+		tip = "家具購入失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.err_resloveequip_nochoice = {
+		tip = "廃棄したい装備を選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_news_other_title = {
+		tip = "一般イベント"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_archive_name = {
+		tip = "名前"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_btn_bag = {
+		tip = "持ち物"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_btn_mind = {
+		tip = "考え事"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_harbour = {
+		tip = "母港"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_hit_monster_erro = {
+		tip = "攻撃に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.school_title_zhihuimiao = {
+		tip = "オフニャ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleMore = {
+		tip = " <color=#92fc63>$1</color> 隻以上選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_success = {
+		tip = "投票成功！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_which_week = {
+		tip = "$1週目"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e3 = {
+		tip = "ナビゲーター"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.keep_fate_tip = {
+		tip = "<color=#92fc63>竜骨編纂</color>用の強化ユニットを除く"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_which_month = {
+		tip = "$1ヶ月目"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guidl_event_ship_in_event = {
+		tip = "ほかの任務に従事しているため、選択できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_close_tip = {
+		tip = "画面をタップして戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_polaroid_get_tip = {
+		tip = "収録済みのコンテンツは「大事な瞬間」にて確認できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_msg_title_tip = {
+		tip = "tips"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_activity_bossbattle = {
+		tip = {
+			{
+				info = "                                     ※遊び方※\n"
+			},
+			{
+				info = "1.同じサーバーに所属する指揮官全員が協力し、特別ステージを攻略し作戦を完遂するコンテンツです；"
+			},
+			{
+				info = "2.出現する特別ステージをクリアすると、個人用の累計報酬がもらえる「演習Pt」を入手できる他、全指揮官用の作戦進捗ゲージを進める事ができます；"
+			},
+			{
+				info = "3.特別ステージは毎日最初にクリアした回数（初級<color=#92fc63>20</color>回・中級\n<color=#92fc63>20</color>回・上級<color=#92fc63>40</color>回まで）ではクリア報酬（演習Pt・経験値除く）が増量します；"
+			},
+			{
+				info = "4.作戦成功（=作戦ゲージが満タンになると）、作戦に参加した（序章を含めた特別ステージを１回以上クリアした）指揮官に軽巡洋艦「ニューカッスル」がメールボックスに送られます；"
+			},
+			{
+				info = "5.作戦完了後、イベント期間中は引き続き「序章」以外の特別ステージに挑戦でき、演習Ptを入手できます；"
+			},
+			{
+				info = "6.累計演習Pt報酬獲得期間は<color=#92fc63>2018.10.18 23:59:59</color>までになります；"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_add_shadow_complete = {
+		tip = "ランダム秘書艦候補リストに追加しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.racing_rank_half_h = {
+		tip = "*30分毎に更新"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_2 = {
+		tip = "進入するエリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.list_empty_tip_storehouseui_equip = {
+		tip = "装備を所持していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.racing_cost = {
+		tip = "報酬\n進捗"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.challenge_help = {
+		tip = {
+			{
+				info = "  【概要】"
+			},
+			{
+				info = "  限界挑戦とは練度の指揮官（Lv80以上）が参加可能なコンテンツになります。\n 専用の編成で数々のステージをクリアしていくと、難易度に応じて限定チャットアイコン・チャットフレームを入手できます。\n"
+			},
+			{
+				info = "【遊び方】"
+			},
+			{
+				info = "  1. 限界挑戦モードでは、3つの難易度のステージが登場します。ステージをクリアすると、最短クリア時間が記録され、クリアしたステージに応じて一度だけ限定の報酬（チャットアイコン、チャットフレーム）を入手できます。すでに入手したアイテムを再度入手した場合、自動で資金に変換されます"
+			},
+			{
+				info = "  2. 限界挑戦モード画面では、「編成」でチャレンジ専用編成を編成でき、「戦闘開始」でステージに挑むことができます。また、限界挑戦モードではオフニャ・潜水艦を編成でき、一回の戦闘につき、潜水支援を1回行うことができます"
+			},
+			{
+				info = "  3. 限界挑戦モードにおける戦闘は燃料を消費せず、艦船の好感度・勝敗数計算・艦船/指揮官/オフニャ経験値には影響しません。また、開放期間中に何回でも挑むことができます"
+			},
+			{
+				info = "  4. 戦闘中はいつでも戦闘を中断することができます。戦闘を中断した場合、クリア時間は記録されません。\n"
+			},
+			{
+				info = "  【ステージリセットについて】"
+			},
+			{
+				info = "  1. 限界挑戦のステージは、毎月初日0時に新しいステージになり、また攻略状況・クリア時間記録・報酬・出現ボスも新しいものになります"
+			},
+			{
+				info = "  2. 毎月初日0時時点で限界挑戦のステージ中にいて、その戦闘で勝利しても、新しいステージをクリアした扱いにはなりません。ご注意ください。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_favor_maximize = {
+		tip = "親愛度がmaxになっています。操作を続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.luckybag_skin_islive2d = {
+		tip = "Live 2d"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.luckybag_skin_isani = {
+		tip = "プチMOTION"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launchball_spilt_many = {
+		tip = "マルチプル：一度に妖怪を3体以上退散させると、入手スコアが上昇する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launchball_spilt_over = {
+		tip = "突き抜け：妖怪を退散させた後、できた空間へと再度札を発射し、その前方の妖怪を退散させると、入手スコアが上昇する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_weektask_log = {
+		tip = "[$1] 大艦隊任務が完成されました。 大艦隊資金＋$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_help_2308 = {
+		tip = {
+			{
+				info = "■キャンペーン開催期間\n 2023.8.1（火）0:00～2023.9.30（土）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「旗風(META)」、SP報酬からは重巡洋艦「フォッシュ」の限定着せ替え「愛寵のマジョルドム」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません厖\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_equip_same_group_equipment = {
+		tip = "【唯一】装備は2つ以上装備できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_notificationLayer_noInput = {
+		tip = "空メッセージは送信できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_sairen_title = {
+		tip = "セイレーン支配度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launchball_spilt_mix = {
+		tip = "吸い付き：妖怪を退散させた後、両端の妖怪が同じ色の場合、前の妖怪が自動で後ろの妖怪に吸い付く。その際妖怪を退散させると、入手スコアが上昇する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launchball_spilt_series = {
+		tip = "コンボ：札を一回発射して複数回妖怪を退散させると、入手スコアが上昇する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launchball_lock_Shimakaze = {
+		tip = "ショップで<color=#92fc63>「島風プレイアブル」</color>購入で選択可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launchball_lock_Yura = {
+		tip = "ショップで<color=#92fc63>「由良プレイアブル」</color>購入で選択可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.target_chapter_is_lock = {
+		tip = "この章の海域はまだ開放されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.collect_tip = {
+		tip = "出撃編成中の艦船がいます。委託チームを編成できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launchball_minigame_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/zuma2023_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/zuma2023_help2",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.jp6th_lihoushan_order = {
+		tip = "前のステージをクリアすると開放されます！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.draw_big_luck_1 = {
+		tip = "お正月に幸運がつきものだにゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.item_type13_tip2 = {
+		tip = "内容一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_inEvent = {
+		tip = "<size=24>委託中</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
+		tip = "電光石火:妖怪を1回退散させる度に、「疾風迅雷」の再使用可能までの時間を0.5秒短縮させる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.firend_relieve_blacklist_ok = {
+		tip = "解除成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
+		tip = "疾風迅雷:前方扇状の範囲内にいる妖怪を全て退散させる（スコアは基本スコア分だけ入手する）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cattery_settlement_dialogue_4 = {
+		tip = "を入手したにゃ～"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
+		tip = "式降ろし:特定の「後退」「減速」マークがある妖怪を退散させると得られる効果の持続時間が長くなる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.twitter_link_title = {
+		tip = "連携中のツイッター：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_yura_skill_2 = {
+		tip = "パッシブ:式降ろし"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
+		tip = "退妖鬼式:5秒間、妖怪行列の行進スピードを大幅にダウンさせる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dreamland_spring_lock_tip = {
+		tip = "ストーリー閲覧後に開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.compose_amount_prefix = {
+		tip = "合成数："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
+		tip = "永久の蝶:10秒間攻撃しなかった場合、信濃が寝てしまい、その後眠っている間の2秒毎にランダムで妖怪を1体退散させる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cook_game_august = {
+		tip = "移動速度UP"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_buy_fashion_tip = {
+		tip = "$1ダイヤで$2を購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_collection_back = {
+		tip = "タップで戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_hatsuduki_skill_2_desc = {
+		tip = "妖怪苦手:妖怪が中央に近づくと、初月の攻撃速度がアップ\n乱れ撃ち:10秒間攻撃しなかった場合、初月が不貞腐れてしまいランダムな3方向に向けて3回攻撃し、妖怪行列を少し下がらせる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_hatsuduki_skill_1_desc = {
+		tip = "妖怪退散:5秒間、発射した札が妖怪行列を少し下がらせる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.retire_selectzero = {
+		tip = "一括退役できる艦船が存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control_buff = {
+		tip = "強化効果はTH1～TH5、SP、EXステージに適用されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_skill_desc = {
+		tip = "詳細確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chapter_tip_aovid_succeed = {
+		tip = "回避成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hit_preview = {
+		tip = "命中演出"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.LinkLinkGame_CurTime = {
+		tip = "所要時間:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ambush_display_none = {
+		tip = "なし"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shoot_preview = {
+		tip = "発射演出"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_skill_locked = {
+		tip = "【未開放】"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_collection_2 = {
+		tip = "完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_mailMediator_mailDelete = {
+		tip = "削除しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_drag_invitation_tip = {
+		tip = "*招待状をキャラにドラッグして贈る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.decoration_medal_placeholder = {
+		tip = "勲章を入手していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
+		tip = "艦隊は一隻以上が必須です！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100243 = {
+		tip = "Apple連携に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_invitation_part3 = {
+		tip = "招待状を入れる封筒。招待状の用紙同様プレミアム仕様で、相手への敬意、そしてパーティーの格式高さを上手く伝えられるだろう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_invitation_part1 = {
+		tip = "艦船のアイコンを所定の場所に貼ろう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_go = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_material_is_rarity = {
+		tip = "SSRのオフニャが選択されています。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_timelimie = {
+		tip = "期間限定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_puzzle_get5 = {
+		tip = "<color=#92fc63FF>入手方法\nノーマル3-3</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activityboss_sp_score_target = {
+		tip = "目標スコア："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_changePlayerName_ok = {
+		tip = "名前を変更しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
+		tip = "どれも美味そう…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_get_date = {
+		tip = "入手時間:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_task_tag_daily = {
+		tip = "毎日任務-"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.class_label_upgradetime = {
+		tip = "必要時間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_recommend_limit = {
+		tip = "大艦隊作戦・支援派遣の優先枠はすでに9隻が設定されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_task_pt_got = {
+		tip = "入手済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip2 = {
+		tip = "装備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_no_rmb = {
+		tip = "<color=#92fc63>ダイヤ</color>が足りません！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exercise_rule_tip = {
+		tip = "1、演習強化期間は<color=#92fc63>14</color>日で1シーズンで、期間中昇格すると報酬が貰えます\n2、演習で勝利すると、階級に応じて報酬が貰えます。失敗しても勝利時の報酬の<color=#92fc63>半分</color>を入手できます\n3、演習で勝利するとスコアが上昇します。失敗してもスコアが<color=#92fc63>下がりません</color>\n4、他人に挑まれた場合、挑まれた側のスコアは変化しません\n5、スコアが一定の数値に達すると、階級が（大佐まで）昇格します<color=#92fc63>大佐以上</color>の階級はランキング順位で決められます\n6、階級昇格の報酬は1回しか受け取れません\n7、戦果ポイントは特殊補給でアイテムと交換することができます\n8、演習相手リストは毎日<color=#92fc63>5</color>回まで変更できます\n9、演習後、演習相手リストはリセットされます\n10、演習可能回数は00:00、12:00、18:00にリセットされます\n11、演習期間終了後、演習可能回数、全ユーザーの階級とスコアはリセットされます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_task_btn_label = {
+		tip = "雰囲気Lv"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_clear = {
+		tip = "クリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_equipment_antiaircraft = {
+		tip = "対空"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_click_to_close = {
+		tip = "*画面タップで戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.drom3d_beach_memory_limit_tip = {
+		tip = "端末スペックが不足しているため、キャラを3人配置するとプレイ中ゲームがクラッシュする可能性があります。配置を確定しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_skin_detail_count = {
+		tip = "所持中:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.star_require_enemy_check = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
+		tip = "艦船強化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_delete_res_tip = {
+		tip = "メモリーズアセットを削除しますか？($1)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_mapselect_sp = {
+		tip = "SP"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_mission_complate = {
+		tip = "大艦隊任務完了：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_progress_item_desc = {
+		tip = "セイレーン作戦で集めた「META座標情報」は解析を行うと、META戦を開放することが出来ます。META座標情報は一度解析すると消費され、また最大値まで溜まった状態では新たなMETA座標情報を入手することが出来ません。\n本日の解析回数：$1/$2\nMETA座標情報入手量　$3"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_favor_level_story = {
+		tip = "特別ストーリー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
+		tip = "ディストーション"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_createNewPlayer_error_nameNull = {
+		tip = "名前を入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_shop_title = {
+		tip = "META"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.seven_choose_one = {
+		tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n（艦船と記念アイテムを入手できます）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_shop_title = {
+		tip = "大艦隊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_ammo_empty = {
+		tip = "弾薬が$1補充されました。補給ポイントが消滅しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_current_boss_label = {
+		tip = "本日入手"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_donate_capital_toplimit = {
+		tip = "本日の資源拠出による大艦隊資金入手数が上限に達しています（個人貢献Ptは増加します）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_default = {
+		tip = "自動"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_no_resource = {
+		tip = "資源が不足しています！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2202 = {
+		tip = "2022.2.1-2022.3.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「隼鷹(META)」</color>などを入手可能！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.game_icon_max = {
+		tip = "コインが所持上限に達しているため、上限分を超えたゲームコインを入手できません。コインを入手しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_selecte_exceed = {
+		tip = "1隻以上選択しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_vo_moveout_formation = {
+		tip = "艦隊から外しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_boxtitle_information = {
+		tip = "情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_schedule_sure_tip3 = {
+		tip = "まだ使用されていない行動力/設定されていない予定があります。次のターンに進みますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_detail_award = {
+		tip = "報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activityboss_sp_score_update = {
+		tip = "最高スコア更新"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_label_give_gift_finish = {
+		tip = "贈り物完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_vanguard_fleet = {
+		tip = "前衛"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sculpture_drawline_exit = {
+		tip = "製作を中止すると、製作進捗がリセットされます。製作を中止しますか？\n（製作を再開するときに素材は消費されません）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.collection_way_is_unopen = {
+		tip = "現在は入手できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activityboss_sp_score_bonus = {
+		tip = "スコア増加"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_sp_ss = {
+		tip = "ｶｽﾀﾏｲｽﾞ潜水"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_date_text3 = {
+		tip = "段階上昇"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_none_2 = {
+		tip = "強化指向Ⅱ期/未選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_list_subtitle = {
+		tip = "合計$1個"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_unopen = {
+		tip = "未開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_coming_soom = {
+		tip = "日服不用这个"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_ac = {
+		tip = "制空"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_harvestResource_error = {
+		tip = "資源調達失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_download_done = {
+		tip = "アセットDL完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.area_renwu = {
+		tip = "任務海域"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_list_title = {
+		tip = "メモリーズ一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_exchange_success = {
+		tip = "開放しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_effect_addition = {
+		tip = "効率UP："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.wwf_bamboo_tip3 = {
+		tip = "限定任務をクリアし、笹を手に入れましょう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_tag_explore = {
+		tip = "探索"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_use_ticket_title = {
+		tip = "チケットで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_not_download_res = {
+		tip = "未DLアセット"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_start = {
+		tip = "委託開始"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_manga_updating = {
+		tip = "更新中:$1/$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SuperBulin2_tip5 = {
+		tip = "海域2-4で暗号を探そうプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backayrd_theme_delete_sucess = {
+		tip = "セット削除成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_maingroup_updatefailure = {
+		tip = "更新に失敗しました。再度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_maingroup_updatesuccess = {
+		tip = "更新完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.fleet_repairShips_quest = {
+		tip = "<color=#92fc63>$1</color>資金で耐久を回復しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_game_limit_num = {
+		tip = "所持数:$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_all = {
+		tip = "すべて"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_dr_char = {
+		tip = "決戦計画"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100235 = {
+		tip = "メールアドレスの入力が無効です。もう一度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_maingroup_checkfailure = {
+		tip = "チェックに失敗しました。再度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_group_msgbox_content = {
+		tip = "フルアセットのダウンロードを行うと、実装済みのすべてのコンテンツのダウンロードが行われます。$1のデータのダウンロードを行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_group_prefs_tip = {
+		tip = "起動時に自動更新"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_puzzle_get11 = {
+		tip = "<color=#92fc63FF>入手方法\n限定任務2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.file_down_mgr_progress = {
+		tip = "$1/$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.file_down_mgr_title = {
+		tip = "アセットをダウンロード中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.file_down_msgbox = {
+		tip = "ゲーム起動に必要なアセットが不足しています。\n<color=#92fc63>$1</color>のデータをダウンロードしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.game_icon_max_full = {
+		tip = "すでに所持数上限に到達しているため、これ以上は入手できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2504 = {
+		tip = "2025/4/1-2025/5/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ネバダ(META)」</color>などを入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.storyline_chapter4 = {
+		tip = "第四章"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_title_getitem_soon = {
+		tip = "すぐに入手："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.game_room_shooting_tip = {
+		tip = "スコア:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_no_dorm_gold = {
+		tip = "<color=#92fc63>コイン</color>が足りません！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_game_room_coin_tip = {
+		tip = "資金を<color=#92fc63><icon name=res_gold w=0.4 h=0.4/>$1</color>消費し、<color=$3>$4 <icon name=res_coin w=0.4 h=0.4/>× $2</color>を購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_new_chapter_coming = {
+		tip = "新章開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_word_friend = {
+		tip = "友達"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_activity = {
+		tip = "<size=24>ｲﾍﾞﾝﾄ出撃中</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attr_antisub = {
+		tip = "対潜"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_tip_to_consumption = {
+		tip = "必要資金"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
+		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n(<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n試作型305mm四連装砲SKC39\n127mmKM40連装砲\n試作型55mm Gerät 58対空砲\n</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.littleTaihou_npc = {
+		tip = {
+			{
+				info = "■概要\n「熱烈の告白演習」とは、イベント開始時に仮加入した【大鳳ちゃん】の「友好度」を海域に出撃することで貯め、【大鳳ちゃん】を正式加入させるイベントになります。"
+			},
+			{
+				info = "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージまたはイベント海域（常設イベントを除く）の中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
+			},
+			{
+				info = "2.【大鳳ちゃん】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。"
+			},
+			{
+				info = "3.【大鳳ちゃん】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【大鳳ちゃん】が戦闘可能な状態の場合、獲得できる「友好度」が2倍になります。"
+			},
+			{
+				info = "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【大鳳ちゃん】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【大鳳ちゃん】は母港からいなくなります。"
+			},
+			{
+				info = "5.友好度報酬は6/18（水）まで毎日1段階ずつ解放されます。"
+			},
+			{
+				info = "6.仮加入状態の【大鳳ちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
+			},
+			{
+				info = "7.仮加入状態の【大鳳ちゃん】は大艦隊作戦には参加できません。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.notice_label_tip = {
+		tip = "<size=25>ルームがいっぱいになると入室できません</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.remould_ship_ok = {
+		tip = "改造成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_retry_desc = {
+		tip = "連続出撃$1回"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.notice_label_room = {
+		tip = "ルーム"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
+		tip = "自動戦闘再開"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.notice_label_send = {
+		tip = "送信"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mktea_4 = {
+		tip = "殺青後の茶葉を涼しい場所に置き、薄く広げて水分を戻します。冷めたら形の整わない葉の欠片をふるい落とします"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_49903 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n150mmSKC/28三連装砲\n533mm四連装磁気魚雷\n105mmSKC連装高角砲</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_class_t_level_3 = {
+		tip = "焔追の灰"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_minigame_help = {
+		tip = {
+			{
+				icon = {
+					posY = 0,
+					atlas = "helpbg/doa_minigame_1",
+					path = "",
+					posX = 0
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_shop_tip = {
+		tip = "限界突破MAX分まで交換可能です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_name_modify = {
+		tip = "クルーズ名変更に成功しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_game_limit_help = {
+		tip = "毎日0時にミニゲーム回数が$1回加算"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_history_desc = {
+		tip = "探検が最後まで進捗すると、隠し宝箱のヒントが出現！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_remain_time = {
+		tip = "販売終了まで"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.anniversary_task_title_11 = {
+		tip = "鋼の記憶をリュウコツに、人々の願いで形作られし者、"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_start_tip3 = {
+		tip = "確保済みのエリアではありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_target_title1 = {
+		tip = "主要目標"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_seaplane = {
+		tip = "水上機"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.eventshop_unlock_hint = {
+		tip = "$1クリアで開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.maid_task_tips1 = {
+		tip = {
+			{
+				info = "■概要\nミニストーリーイベント「炭酸と紅茶」とは、期間限定で出現する限定任務をクリアし「増築許可」を集め、裏山のカフェ施設をレベルアップしていくことで、限定家具を入手できるミニイベントです。\n\n■遊び方\n・2022年1月4日（火）まで、毎日2つの限定任務が開放されます\n・限定任務をクリアすると、イベントバナーにて「増築許可」を入手できます\n・入手した「増築許可」は裏山の「ロイヤルカフェ」「鉄血カフェ」で施設のレベルアップを行えます\n・それぞれの施設がレベルアップすると、イベント期間中艦隊に強化効果を与えることができます。\n・イベントバナーでの任務を最後までクリアすると、限定家具を入手できます\n・施設を全部レベル4にすると、更に任務一覧画面で隠し任務が開放されます\n・任務を全部クリアすると、ミニストーリーを全部閲覧できます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.package_view_3 = {
+		tip = "クルーズパス購入済み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chargetip_crusing = {
+		tip = "シーズン任務・SP報酬を開放しました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_name_4 = {
+		tip = "シールド超UP！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型203mmSKC三連装砲改\n533mm四連装磁気魚雷\n試作型203mmSKC三連装砲改</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newplayer_notice_8 = {
+		tip = "海域を上手く攻略できない時は、「新兵任務」で様々な報酬を手に入れて戦力を充実させましょう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipskin_typewrong_en = {
+		tip = "GEAR SKIN UNAVAILABLE"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipState_npc = {
+		tip = "仮加入状態の艦船を編成できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.islandnode_tips9 = {
+		tip = "裏山拠点を拡張し拠点レベルを上げ、ストーリーを開放しよう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_option_limit = {
+		tip = "限定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.islandnode_tips5 = {
+		tip = "不正解ピョ…次はきっと正解できるピョ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_help_2402 = {
+		tip = {
+			{
+				info = "■キャンペーン開催期間\n 2024.2.1（木）0:00～2024.3.31（日）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「キンバリー(META)」、SP報酬からは駆逐艦「深雪」の限定着せ替え「青空とクレープ」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません厖\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ur_exchange_help_tip = {
+		tip = {
+			{
+				info = "■ブリ集めとは"
+			},
+			{
+				info = "ブリ集めとは、「特装型ブリMKⅢ」と交換する「特装コア」を入手できる常設キャンペーンになります。キャンペーン開催期間中、下記の方法で「特装コア」を入手することができ、また毎月の入手可能個数に上限が存在します。入手可能数上限は毎月1日0:00にリセットされます。"
+			},
+			{
+				info = "■「特装コア」の入手方法"
+			},
+			{
+				info = "①ウィークリー任務「常設デイリー任務を20/50個クリアする」をクリアすると、「特装コア」を大量に入手することが出来ます。\n②メイン海域（ノーマル・ハード）、イベント海域、作戦履歴の常設化イベント海域に出撃し、敵中枢艦隊を撃破した際、「特装コア」を少し入手することができます。\n③科学研究室で科学研究を行うと、「特装コア」を少し入手することがあります。\n④建造で入手したUレア艦船を退役すると、「特装コア」を入手することができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.islandnode_tips2 = {
+		tip = "TIPS"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_archives_boss_list_help = {
+		tip = {
+			{
+				info = "記憶履歴について\n\n1. 記憶履歴で開放可能な艦船（入手していない艦船）の解析Ptは、当該艦船のMETA戦イベント初回開催時の解析Ptが引き継がれます。また、累計解析Pt報酬の受け取り状況も引き継がれます。\n2.記憶履歴では、当該META艦船の履歴解放・累計解析Pt報酬の受け取りが行なえます。\n3.全ての累計解析Pt報酬を入手した場合、当該艦船は「Pt報酬受取済」タブに移動されます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.memory_activity_sp = {
+		tip = "SPイベ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_extendBackYard_error = {
+		tip = "休憩枠追加失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/island_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help5",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help6",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help7",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.workbench_tips10 = {
+		tip = "製作可能なレシピのみ表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_level_up_tip = {
+		tip = "※レベル5上がる度にアビリティPtを1Pt得られます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.workbench_tips3 = {
+		tip = "これ以上クラフトできません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_device = {
+		tip = "設備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_4 = {
+		tip = "メイ\nン4"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_verify_fail = {
+		tip = "キャッシュクリアが完了しました。「確定」をタップしてゲームを再起動し、最新データの適用をお願いします$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_cannon = {
+		tip = "火力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_shop_title = {
+		tip = "復刻ショップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.haidaojudian_help = {
+		tip = {
+			{
+				info = "イベント概要：\n 「潮風と夏の無人島」イベントとは「無人島」を探検し「探検コイン」を集め、様々な報酬を入手できるイベントになります。\n 「潮風と夏の無人島」は、「冒険マップ」と「裏山拠点」の2つのパートに分かれています。\n 「無人島」でマップ探検し、様々なイベントやミニゲームをプレイすることで、「探検コイン」を入手し「ショップ」で報酬と交換することができます。\n 「裏山拠点」では「無人島」で獲得した素材を使い、拠点の拡張したりアイテムを製作（クラフト）したりすることで「無人島」で探検するエリアを開放し、様々な報酬を得ることができます。\n\n「裏山拠点」について：\n「裏山拠点」ではアイコンをタップすることで、更に様々な機能に遷移できます。\nさらに「裏山拠点」にはレベルが存在し、レベルを上げるとイベント期間中に艦隊全体に強化効果を付与できます。\nレベルを上げるには、冒険マップや「クラフト」で集めた素材を消費し、各施設を「拡張」する必要があります。\n各施設を一通り拡張すると、拠点レベルは自動で上昇します。（現在の拠点レベルについては「冒険任務」で確認できます）\n\n各種機能について：\n①クラフト\n　無人島の冒険マップや「饅頭探検隊」、実績任務で入手した素材を消費し、限定家具やほかの機能に使用する素材アイテムなど、様々なアイテムを生成することができます。\n　「クラフト」を拡張すれば、生成できるアイテムの種類が増えます。\n\n②饅頭探検隊\n　毎日一度だけ、「饅頭探検隊」から自動で素材アイテムを入手できます。\n　「饅頭探検隊」で入手できるアイテムの数は、「饅頭探検隊」とその他の施設を拡張することで増やすことができます。\n\n③饅頭手芸\n　饅頭手芸では、冒険マップや「クラフト」で入手する素材を消費し、艦船たちに贈るお土産を作ることができます。\n　お土産を作って艦船に贈ると、返礼として「探検コイン」などの報酬を入手することができます。\n\n④冒険任務\n　実績任務を確認することができます。任務を達成すると、「探検コイン」などの報酬を入手することができます。\n　また、「冒険進捗」では現在のストーリー進捗と探検進行度を確認することができます。ページを埋めると、冒険マップでの隠し宝箱のヒントも表示されます。\n\n⑤饅頭給食隊、饅頭補給隊\n　「拡張」を行うと拠点レベルを上げられるほか、「饅頭探検隊」で入手できるアイテムも増やせることができます。\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_archives_item_count_noenough = {
+		tip = "記憶履歴情報が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_act_tips1 = {
+		tip = "画面をタップして戻る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_not_exist_donate_task = {
+		tip = "この任務が存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_desc_resolve_equip = {
+		tip = "パスワード機能で制限されている操作です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.gift_act_tips = {
+		tip = "$1が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.card_puzzle_deck = {
+		tip = "デッキ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_get_report_failed = {
+		tip = "作戦報告情報を受け取るのに失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_air = {
+		tip = "航空"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.gift_act_help = {
+		tip = {
+			{
+				info = "「饅頭手芸」とは：\n饅頭手芸では、冒険マップや「クラフト」で入手する素材を消費し、艦船たちに贈るお土産を作ることができます。\nお土産を艦船に贈ると、「探検コイン」などの報酬を入手することができます。\n\n遊び方：\n1.プレゼントしたい艦船を選択し、画面のヒント通りに操作し、お土産を作ることができます。\n2.完成したお土産をドラッグで艦船に贈ることができます。艦船にプレゼントすると、返礼として「探検コイン」などのアイテムを入手できます。\n3.同じ艦船に1回しかプレゼントできません。\n4.「輝く宝石」は、「饅頭探検隊」に入手できる「クラフト用鉱石」を「クラフト」で消費することで生成できます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_shop_limit_tip = {
+		tip = "今月残り購入可能回数："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_levelMediator_ok_takeResource = {
+		tip = "資源を調達しました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activityboss_sp_window_best_score = {
+		tip = "達成済スコア："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_donate_list_update_failed = {
+		tip = "物資拠出回数がリセットされませんました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_remaster_story_tip = {
+		tip = "ストーリー「$1」が開放されました。\n「図鑑」の「思い出」で確認できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_screen_all = {
+		tip = "すべて"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_combatperformance = {
+		tip = "戦闘性能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.urdraw_tip = {
+		tip = "まだ受け取っていない累計建造数報酬があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
+		tip = "出撃艦を配置しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_minigame_Tamaki = {
+		tip = "たまき"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_minigame_Misaki = {
+		tip = "みさき"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_activity_end = {
+		tip = "<color=#92fc63>終了済み</color>のイベントです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_recommend_level1 = {
+		tip = "条件を満たした艦船がいません。ロック済み・Lv.1の艦船を自動で編成に加えしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.list_empty_tip_friendui_search = {
+		tip = "条件を満たす指揮官がいません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_summer_stamp = {
+		tip = {
+			{
+				info = "■概要\nミニゲームを遊んで「スタンプ」を14個集めると、画面\n左側のイラスト内のボタンをタップすることで、\n駆逐艦「ジュノー」の着せ替え「ちょっと美味しい日」\nを入手できます。\n※ボタンはスタンプを14個全部集めると表示されます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_redeploy_cost_tip = {
+		tip = "再編成するには行動力を$1消費します。再編成を行いますか？（指揮官行動力：$2 指揮官指令は前に発動した指令からの時間経過に応じて消費行動力が変化します）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_lock_tip = {
+		tip = "ヒントをすべて集めると限定ステージを可能！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_tip11 = {
+		tip = "「図鑑」でヒントを見つけられるプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_navalAcademyScene_class_upgrade_complete = {
+		tip = "$1増築完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_rarity = {
+		tip = "レア度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_buy_tips = {
+		tip = "$1<color=#169fff>$2</color>消費（合計$1<color=#169fff>$3</color>）し、<color=#169fff>$4</color> を購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_task_quickfinish3 = {
+		tip = "アイテムを使用しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_dongHuang = {
+		tip = "東煌"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_tip9 = {
+		tip = "「ショップ」…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_tip6 = {
+		tip = "寮舎…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_tip4 = {
+		tip = "ドック…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_select_device_destroy_nobonus_tip = {
+		tip = "入手素材なし"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_tip2 = {
+		tip = "倉庫…疑わしいプリン！ヒントを隠すのにいい場所かもプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_tip1 = {
+		tip = "通常海域の1-2に何かがあるプリン？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_dmg = {
+		tip = "ダメージ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_lock_ship_label = {
+		tip = "新登録艦船自動ロック"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control_buff_limit = {
+		tip = "配置上限"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.game_room_help = {
+		tip = {
+			{
+				info = "■ゲームロビーとは：\nゲームロビーとは、ミニゲームを遊べる機能です。\nミニゲームをプレイする際、「ゲームコイン」を消費すると、クリア時に「報酬交換チケット」を入手できます。\n「報酬交換チケット」は「ショップ」で一部の復刻アイテムと交換できます。\n\nゲームコインを消費しなくても、ミニゲームをプレイできます。\n\n■ゲームコインについて\n「ゲームコイン」とは、ミニゲームをクリアした時に、「報酬交換チケット」に変換できるアイテムです。\nミニゲームのスタート画面で、消費する「ゲームコイン」数を選択できます\n「ゲームコイン」は毎週、ゲームロビーにいる明石から10枚入手できるほか、ミニゲームの開始画面で資金から交換できます。\n「ゲームコイン」は最大40枚まで所持できます。\n\n■報酬交換チケットについて\n「報酬交換チケット」とは、「ショップ」の「チケット」で報酬と交換できるアイテムです。\n「報酬交換チケット」は、ゲームロビーのミニゲームをプレイ時「ゲームコイン」を消費することで入手できます。\nミニゲームで入手できるチケットの数は消費ゲームコインの数に応じて変動します。また、そのミニゲームのスコアによっても多少変動します。\n「報酬交換チケット」は最大50000まで所持でき、また一ヶ月の入手可能上限は10000までとなります。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_entry_inhibited = {
+		tip = "利用が制限されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_puzzle_get8 = {
+		tip = "<color=#92fc63FF>入手方法\nノーマル2-4</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_help = {
+		tip = {
+			{
+				info = "遊び方：\n裏山キャンペーン「妖怪温泉街」にて、「饅頭温泉」が<color=#92fc63>9.14-10.4 23:59</color>まで開放されます！\n1.饅頭温泉の入浴枠をタップすると、艦船を配置しコンディションの回復速度を上昇させられます\n2.配置済みの艦船をドラッグ&ドロップすると温泉での位置を調整できます\n3.ミニゲーム「温泉街神隠し事件」をプレイすると、アイテム<color=#92fc63>温泉手形</color>を最大4個まで入手できます\n4.「増築」ボタンをタップすると、<color=#92fc63>温泉手形</color>を消費し入浴枠を追加することが可能です"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_cd = {
+		tip = "攻速"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_team_notenough = {
+		tip = "出撃条件（前衛と主力艦隊それぞれ1隻以上）に満たない艦隊があるため出撃できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_manga_checkfailure = {
+		tip = "チェックに失敗しました。再度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hide_chat_warning = {
+		tip = "チャット機能を停止すると、チャットメッセージを受信しなくなります。チャット機能を停止しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_mode_1 = {
+		tip = "単独出撃"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_reward = {
+		tip = "累計Pt報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_event_title2 = {
+		tip = "手がかり②"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_521024 = {
+		tip = "改造（近代化改修）を行うと艦種は：\nミサイル駆逐艦（主力配置モード）に変更されます\n一部ステータスが変化します\n改造を続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_visit_backyard_toggle = {
+		tip = "友達の寮舎訪問を許可"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_2 = {
+		tip = "発射速度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_noRes_info_tip_link = {
+		tip = "と"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_empty_plan = {
+		tip = "予定はありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_105224 = {
+		tip = "改造（近代化改修）を行うと<color=#92fc63>【BIG SEVEN】</color>スキルが\n<color=#92fc63>【BIG SEVEN·メリーランド】に強化されます</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_systemClose = {
+		tip = "この機能は現在開放されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_storyreward = {
+		tip = "解放済："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.eva_comment_send_null = {
+		tip = "コメントを入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_storyunlock = {
+		tip = "次のストーリーを開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_propose_skin = {
+		tip = "ｹｯｺﾝ衣装"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_reward_tip4 = {
+		tip = "最高スコア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_5 = {
+		tip = "T1 入院棟（黄昏）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_ask_help = {
+		tip = "このチャンネルには援軍要請を行えません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_mood = {
+		tip = "戦意低下"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_tianchengCV_3 = {
+		tip = "敵が大技を使ってきます！法陣を起動して支援攻撃を呼び出しましょう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_520034 = {
+		tip = "改造を行うと艦種が下記のものになります：\nミサイル駆逐艦（前衛艦隊配置モード）\n艦船のステータスと戦闘中の挙動が変化します\n改造を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_insufficient = {
+		tip = "引換券が足りないにゃ。温泉の増築を手伝ってくれたら引換券をあげるにゃ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_unlock5 = {
+		tip = "12-4クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_pizibao_2 = {
+		tip = "支援艦隊が<color=#f1f102>撃破された</color>！厳しい戦いになりそうだ…！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_wait_tip = {
+		tip = "同時接続数が最大になっています。\n（接続待ち:$1人）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100301 = {
+		tip = "メールアドレスが一致しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_maingroup_idle = {
+		tip = "更新情報無効"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_not_exist_battle = {
+		tip = "大艦隊作戦が存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_teach = {
+		tip = "授業"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_haidao_1 = {
+		tip = "///「テンペスタ」じゃないなら全力を出そう！///"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guidl_ssr_box_time_desc = {
+		tip = "ネコハコSSR訓練時間短縮$3"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型艦上式Su-2\n試作型艦上式Su-2\n試作型VIT-2(VK107) </color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_bisimaiz_7 = {
+		tip = "侵食が浄化されました。現在の侵食レベル：<color=#92fc63>0</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chapter_tip_aovid_failed = {
+		tip = "回避失敗"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_bisimaiz_5 = {
+		tip = "現在の侵食レベル：<color=#ffc038>4</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_fleetName2 = {
+		tip = "第 二 艦 隊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_op_only_administrator = {
+		tip = "この操作は大艦隊司令/副司令でのみ行なえます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tech_select_tip1 = {
+		tip = "PR艦船交換"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_bisimaiz_2 = {
+		tip = "現在の侵食レベル：<color=#f1f102>1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.unique_ship_tip1 = {
+		tip = "選択中の艦船で<color=#92fc63>1隻しか所持していない艦船</color>があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_yingxiv4_9 = {
+		tip = "敵の主砲攻撃をうまく誘導し装置を破壊させよ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.gem_shop_xinzhi_tip = {
+		tip = "今月購入済　$1/15回"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.option_desc3 = {
+		tip = "（ON状態）レアリティSSR以上の艦船入手時、端末バイブレーション機能で通知する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_chinese = {
+		tip = "中文"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_yingxiv4_8 = {
+		tip = "騎士は味方主力艦隊をロックオンしている"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_catsearch_help_3 = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/tactics",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amusementpark_shop_carousel2 = {
+		tip = "揺れたりしない直線で～丁寧に描くピョ～♪"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_exchange_tip1 = {
+		tip = "明石メールが削除されています。運営窓口までご連絡ください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_yingxiv4_5 = {
+		tip = "騎士の出力が上昇している！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_28 = {
+		tip = "強化ダメージ補正"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_yingxiv4_3 = {
+		tip = "騎士はチャージをしている（右）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_stop_reason4 = {
+		tip = "戦闘敗北のため"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteMediator_shipState_rest = {
+		tip = "寮舎で休憩中です…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_yingxiv4_1 = {
+		tip = "騎士はチャージをしている（左）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100110 = {
+		tip = "ログイン中にエラーが発生しました（UIDとtoken照合失敗）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_common_2 = {
+		tip = "警告：<color=#ffc038>バトルデータ異常</color>を探知しました。味方<color=#f1f102>特定装備・スキル効果が無効になります！</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control_buff_upgrade = {
+		tip = "強化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_mapbuff_attrtxt_3 = {
+		tip = "回復撹乱"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_recover_bottom3 = {
+		tip = "$1年"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_buff_stage_loot = {
+		tip = "クリア報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_recover_bottom1 = {
+		tip = "メール確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_recover_tip7 = {
+		tip = "メール確認が終了しました。既にバレンタインメールがメールボックス/保管庫に存在しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_item_lantern"] = {
+		tip = "新春灯籠|使用すると年獣を遠ざけられ、5秒間接近してこれなくなる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_id_copy_ok = {
+		tip = "クリップボードにコピーしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_recover_tip6 = {
+		tip = "メール確認が終了しました。$1年のバレンタインメールを再送できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_recover_tip4 = {
+		tip = "その年にはまだ未実装だったキャラです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_exchange_tip3 = {
+		tip = "補填メールをメールボックスにてご確認ください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_filter_award_attr1 = {
+		tip = "属性"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_yingxiv4_7 = {
+		tip = "騎士が警戒状態だ！動きを慎重に！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resorts_help = {
+		tip = {
+			{
+				info = "開催期間：<color=#92fc63>2022.12.22-2023.1.5メンテナンスまで</color>\n裏山キャンペーンについて：\n「ミニゲーム」：ミニゲームを7日間プレイし、バーミンガムの着せ替え「行き先は風次第」を入手可能！\n「裏山温泉」：艦船を配置し、コンディション回復速度UP！さらに報酬家具「饅頭温泉宿」などと交換可能\n「運試し」：毎日ログインして運試しを行い、限定家具「福引き小包」を入手可能\n「幸運祈願」：毎日ログインして幸運祈願を行い、SSR艦船と交換可能な「招待状」アイテムをGET！\n「着せ替え」：着せ替えショップに移動する\n「限定建造」：限定建造に移動する"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100117 = {
+		tip = "認証データにエラーが発生しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sort_energy = {
+		tip = "ｺﾝﾃﾞｨｼｮﾝ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_sea = {
+		tip = "近海"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Valentine_minigame_label2 = {
+		tip = "報酬開放ステージ："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amusementpark_shop_0 = {
+		tip = "焔の匂いが染み付いて……君はこの戦場を生き残ることができるだろうかピョ？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_rest_time = {
+		tip = "進捗:$1/$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.enter_extend_food_label = {
+		tip = "拡張"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_filter_placeholder = {
+		tip = "対象のメールがありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+		tip = "当前完成："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_game_rigister_full = {
+		tip = "サーバーは満員です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Supplement_pay5 = {
+		tip = "不正な支払い（払い戻し）情報が発生した項目をタップし、支払手続きを再度行ってください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型四連装152mm砲\n533mm四連装魚雷MarkIX\n20mm二連装エリコン機関砲</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_stop_reason2 = {
+		tip = "編成中の<color=#92fc63>$2</color>のコンディションが低いため"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_resdownload_title_live2d = {
+		tip = "Live2D更新"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_toggle_only_composite = {
+		tip = "調合可能のみ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_310034 = {
+		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.class_label_gen = {
+		tip = "生成中:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.channel_name_4 = {
+		tip = "友達"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.notice_label_recv = {
+		tip = "受信"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_equipdetail = {
+		tip = "装備詳細"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_102174 = {
+		tip = "近代化改修は<color=#92fc63>輝く☆マイク</color>を消費します。\n続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_class_tip = {
+		tip = "授業に参加すると経験値が上昇します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["3match_tip"] = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/3match_1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/3match_2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/3match_3",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_main_end = {
+		tip = "※予想連続出撃数（海域クリア数）<color=#92fc63>$1</color>回、実働海域クリア数<color=#92fc63>$2</color>回"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_main_tip = {
+		tip = "※連続出撃中に<color=#92fc63>自動移動・オート戦闘</color>モードが適用されます。\n※自動移動を中止させると、連続出撃モードも中止されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exercise_clear_fleet_tip = {
+		tip = "<color=#92fc63>演習防衛艦隊</color>がクリアされます。確認しますか？（※演習で挑まれた時第一艦隊が防衛側になります）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill4"] = {
+		tip = "重力年獣|撫順の移動速度を15％ダウンさせる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipInfoScene_infomation = {
+		tip = "艦船詳細"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+		tip = "完成次数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.eventshop_time_hint = {
+		tip = "$1メンテナンスまで交換可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_stop_tip_end = {
+		tip = "。連続挑戦が中止されました。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_finish_tip = {
+		tip = "<color=#92fc63>連続挑戦</color>が完了しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_end_status = {
+		tip = "連続挑戦設定出撃回数<color=#92fc63>$1</color>回。中止・終了時出撃回数<color=#92fc63>$2</color>回。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_stop_end = {
+		tip = "　　連続挑戦が中止されました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_resume_tip = {
+		tip = "<color=#92fc63>連続挑戦</color>を継続します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_shop_exchange_limit = {
+		tip = "未所持"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_formation = {
+		tip = "出撃"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_add_tip2 = {
+		tip = "下記の艦船が候補リストに追加されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.confirm_unlock = {
+		tip = "$1は現在「保護（ロック掛け）」状態になっています。\n$1をアンロックしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_taskMediator_getResource = {
+		tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newplayer_notice_6 = {
+		tip = "クリアで「フッド」「サンディエゴ」「エンタープライズ」「イラストリアス」から一隻を入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_live2dfiles_update_end_title = {
+		tip = "アセット更新完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_akashi_pick_title = {
+		tip = "オススメ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_help_1 = {
+		tip = {
+			{
+				info = "  ■オーダーについて\nセイレーン作戦では、指揮官が【指揮官行動力】を消費し、様々なオーダーを発令することが出来ます。\n\n①艦隊再編成\n味方の【港】があるエリアでは、指揮官は行動力を消費し、セイレーン作戦に参加する艦隊を再編成することが出来ます。艦隊再編成を行うと、全ての味方艦船の耐久・士気（セイレーン作戦における「コンディション」）が全回復し、状態異常が解除されます。\n\n②艦隊整備\n指揮官は行動力を消費し、味方艦隊全員の耐久・士気を回復し、さらにバッドステータス「戦闘損傷」を解除出来ます。\n\n③偵察命令\n指揮官は行動力を消費し、未偵察状態のエリアを偵察し、エリアマップ全体を可視化出来ます。\n\n④潜水支援\n指揮官は行動力を消費し、予め編成した潜水艦隊をエリアに呼び出せます。潜水艦隊がエリアマップに配置されている場合、通常海域同様、漸減邀撃や戦闘中の支援が行え"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.warning_mail_max_1 = {
+		tip = "メール所持件数が上限(<color=#FF5C5C>$1</color>/$2)に近づいています。メールを整理してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_locked_tip = {
+		tip = "当該ステージ一回クリアで<color=#92fc63>連続作戦</color>機能が開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipInfoMediator_destory = {
+		tip = "退役完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_share_label_4 = {
+		tip = "対航空"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_title = {
+		tip = "連続挑戦"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_weixi = {
+		tip = "ヴィシア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
+		tip = "既に秘書艦です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_tip2"] = {
+		tip = "装備済み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SkinDiscount_Got = {
+		tip = "所持中:$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill8"] = {
+		tip = "爆速年獣|10秒毎に発動し、5秒間移動速度が20％アップする（効果持続中に攻撃すると効果が無効になる）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_1_3 = {
+		tip = "6"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
+		tip = "吸引年獣|20秒毎にランダムでブラックホールを作り出す。撫順が近づくと移動速度がダウンし、さらに中心に入ると1秒間移動不可となる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_level_limit_tip = {
+		tip = "注意：<color=#92fc63>指揮官レベル50以上、またはノーマルモードを全部クリアしないと</color>ハードモードを選択できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill5"] = {
+		tip = "分身年獣|分身を召喚する。分身は特殊能力を持たず、移動速度が本物の70％になる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_cost3 = {
+		tip = "<color=#92fc63>「大作戦指令書<icon name=ticket w=0.7 h=0.7/>$1」</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_bless_substitute_up"] = {
+		tip = "スキル「デコイ」を開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_bless_speed"] = {
+		tip = "ハイスピード|基本移動速度が上昇する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_skill_sprint_up"] = {
+		tip = "スキル「クイックステップ」を開放。持続時間5秒。スキルクールダウン20秒|移動速度がさらに10％アップ|持続時間が2秒伸びる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_ship = {
+		tip = "専用装備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_skill_sprint"] = {
+		tip = "クイックステップ|一定時間移動速度が20％アップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_item_firecracker"] = {
+		tip = "バクチク|使用すると周りの年獣をびっくりさせ5秒間逃げさせる事が可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName1 = {
+		tip = "第一艦隊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_cmdClose = {
+		tip = "準備中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_pair_7 = {
+		tip = "いでしつきかも"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
+		tip = "着せ替え変更"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_pair_1 = {
+		tip = "つゆにぬれつつ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_complete = {
+		tip = "句が全て完成しましたね"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_title_2508 = {
+		tip = "シーズン任務・24期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_drag_tip = {
+		tip = "※ドラッグして字の並びを調整可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_series_ex = {
+		tip = "E.X"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_chapter_timeout = {
+		tip = "作戦時間終了。母港に帰還しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_fleet_busy = {
+		tip = "これ以上委託を請負できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tip_nianye = {
+		tip = "SDキャラ演出完了まで少々お待ちください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sevenday_nianye = {
+		tip = {
+			{
+				info = "開催期間中、1日に1度ゲームにログインし、イベントバナー右側の「タップで入手」ボタンをタップすると、出現する料理に応じてメンタルキューブをGET！\n　料理は開催期間中全部で7日間出現します。また出現する料理の種類は全部で7種類になります。\n　全ての指揮官が7日間ゲームにログインすることで入手できる報酬の量は同じになります。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100310 = {
+		tip = "認証できませんでした、もう一度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_story_speed_1 = {
+		tip = "遅い"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_fleetName4 = {
+		tip = "第 四 艦 隊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SkinMagazinePage2_tip = {
+		tip = "受け取り"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_series_easy = {
+		tip = "簡単"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_attr_title = {
+		tip = "パラメータ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_yanhua_tip3 = {
+		tip = "現在開放済みの花火数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yixian_nianye = {
+		tip = "連年有余、平安歳歳。新しい一年、全て上手くいきますように"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.taiyuan_nianye = {
+		tip = "よかった……どれも皮が破れていない…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zhaohe_nianye = {
+		tip = "焦げたりしていないわね？ふん、私だってちゃんと作れるわ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_theme_defaultname = {
+		tip = "マイセット"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ninghai_nianye = {
+		tip = "バオズできたわよ！指揮官、一つどう？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e7_desc = {
+		tip = "自身の周りに存在する煙幕や速力低下効果を無効にするぞ。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_lesson_start_tip = {
+		tip = "<color=#92fc63>「$1」</color>を<color=#92fc63>1冊</color>使って、<color=#92fc63>「$2」</color>の<color=#92fc63>$3</color>を強化しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_target_time_title = {
+		tip = "残り時間："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e5_desc = {
+		tip = "バランスの取れた性能を持っているセイレーンだ。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e4_desc = {
+		tip = "高い耐久と攻撃力を持っているセイレーンだ。でも行動が遅いぞ。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_story_lock = {
+		tip = "需要完成前置剧情才能进行资讯同步(未使用)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_sham_win = {
+		tip = "「鏡面海域」掃討完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_plan_type2 = {
+		tip = "趣味活動"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_npc_formation_tip = {
+		tip = "仮加入状態の艦船を編成できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e2_desc = {
+		tip = "普通のセイレーン。スカベンジャーより移動速度が早いぞ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_interface_save_success = {
+		tip = "ボタン配置を保存しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e1_desc = {
+		tip = "移動と攻撃を行う普通のセイレーンだ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_preCombatLayer_victory = {
+		tip = "敵艦隊を撃破"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e6 = {
+		tip = "テスター"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.defense_formation_tip_npc = {
+		tip = "仮加入の艦船が第一艦隊に編成されているため、演習編成には編成できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_tech_oil_desc = {
+		tip = "燃料備蓄上限+$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e2 = {
+		tip = "チェイサー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e1 = {
+		tip = "スカベンジャー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_m_guard_name = {
+		tip = "防衛饅頭"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_story_speed_4 = {
+		tip = "非常に速い"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_level_add = {
+		tip = "評価効果"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_m_craft_name = {
+		tip = "生産饅頭"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_label1 = {
+		tip = "使用中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_m_atk = {
+		tip = "花火を発射し敵を攻撃してくれるピョ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_battle_expose_line = {
+		tip = "空母発見範囲を表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.challenge_normal_tip = {
+		tip = "チャレンジステージをクリアし、自己ベストを狙おう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_takeAttachment_error_noWorld = {
+		tip = "セイレーン作戦にが開放されていないため、アイテムを受け取れませんでした"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_bisimaiz_9 = {
+		tip = "「<color=#ffc038>シンクロナイズ解離</color>」-自律型艤装の防御が<color=#f1f102>大幅にダウン</color>している！攻撃を集中しよう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_msg_title_detail = {
+		tip = "詳細"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2410 = {
+		tip = {
+			{
+				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_exchange = {
+		tip = " <icon name=Props/wenquanjuan w=0.7 h=0.7/> を$1個消費して、$3を$2個交換しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_remove_title = {
+		tip = "艦船削除"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yostar_unlink_btn_text = {
+		tip = "Yostarアカウント連携済み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_touch2 = {
+		tip = "報酬はただじゃあげられにゃいにゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_touch1 = {
+		tip = "明石は交換できにゃいにゃ～"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_success2 = {
+		tip = "いいセンスにゃ♪"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_success1 = {
+		tip = "毎度ありにゃ～"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_preview = {
+		tip = "予想"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_shop_touch3 = {
+		tip = "明石をからかってるのかにゃ？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_dressed = {
+		tip = "着替適用済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_start_tip1 = {
+		tip = "条件を満たしているエリアが存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.coures_exp_npc_tip = {
+		tip = "仮加入キャラ（正式加入が済ませていない）であるため、イベント終了時に母港からいなくなります。続きますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_add_complete = {
+		tip = "候補リストに追加しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_site_drop_item = {
+		tip = "状態【$1】入手"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.utaware_formal_notice = {
+		tip = {
+			{
+				info = "SP4クリア後、下記ステージで特定の条件を達成すると、ストー\nリーが開放可能になります。\n"
+			},
+			{
+				info = "ヒント：\n SP1\n※鏡面海域にもう一度訪れよう！\n※最初の戦場で敵を殲滅せよ！\n"
+			},
+			{
+				info = " SP2\n※鏡面海域にもう一度訪れよう！\n※戦場の敵を全て撃破せよ！\n※立ちはだかる強敵を撃破せよ！\n"
+			},
+			{
+				info = " SP3\n※もう一度仲間たちを救出せよ！\n※二つの封印を同時に解除せよ！\n"
+			},
+			{
+				info = " SP4\n※二人の強敵を撃破せよ！\n※戦場の敵を全て撃破せよ！\n※夢幻の封印を追え！"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
+		tip = "艦船を選んで候補リストに追加できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_main_empty = {
+		tip = "ランダム秘書艦候補リストに艦船がいません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
+		tip = "追加"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_custom_mode_empty = {
+		tip = "ランダム秘書艦候補リストに艦船を追加しましょう"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_buff = {
+		tip = "夏のテルマエ|入浴中の艦船のコンディション回復速度がUP"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_detail = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_submit = {
+		tip = "提出"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_m_atk_name = {
+		tip = "戦闘饅頭"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_stage_desc3 = {
+		tip = "育成段階Ⅲ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.collect_page_got = {
+		tip = "入手済："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100140 = {
+		tip = "アカウント認証に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_toast_tactics = {
+		tip = "習得EXP"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipModLayer_effect1or2 = {
+		tip = "増加補正: <color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_notificationLayer_addFriendError_friendAlready = {
+		tip = "既に友達になっているユーザーです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tips_confirm_teleport_sub = {
+		tip = "作戦指示：<color=#92fc63FF>潜水艦隊</color>の作戦エリアを<color=#92fc63FF>$1</color>から<color=#92fc63FF>$2</color>に変更するには<color=#92fc63FF>$3</color>マス移動させる必要があり、燃料<color=#92fc63FF>$4</color>を消費します。作戦エリアを変更しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_detail_content = {
+		tip = "内容"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_condition_durability = {
+		tip = "耐久合計"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.electrotherapy_wanning = {
+		tip = "鏡面海域化領域・接近中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.springtask_tip = {
+		tip = "裏山拠点の「クラフト」で必要なアイテムを作り、温泉施設を完成しよう！\n温泉施設を完成すると、配置するコンディション回復速度をUPさせる温泉機能が利用可能！（5/29全任務開放）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_duty_id_is_null = {
+		tip = "役職を設定する必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_tag_adventure = {
+		tip = "探検"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_tag_battle = {
+		tip = "討伐"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_task_level_desc = {
+		tip = "母港評価"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_composite_help_tip = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/ryza_composite_1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/ryza_composite_2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/ryza_composite_3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/ryza_composite_4",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_levelScene_ryza_lock = {
+		tip = "採取地ステージはイベントステージT5クリアで開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.anniversary_task_title_2 = {
+		tip = "共に進むは波を切る鋼鉄の大翼、想い寄せられし歴史の結び目。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tip_build_ticket_expired = {
+		tip = "イベントがすでに終了したため、【$1】を使用できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_battle_ac = {
+		tip = {
+			{
+				info = "■制空値とは：\n「制空値」とは海域における航空戦力の拮抗状況に影響するもので、味方出撃艦隊と出撃海域それぞれに「制空値」があり、味方の制空値と敵制空値との比較によって「制空権」が決定されます。\n\n「制空権」の状況により、下記の項目に影響があります。\n・味方の航空攻撃が与えるダメージ\n・味方艦隊が受ける敵航空攻撃によるダメージ\n・味方艦隊の一部ステータス（命中・回避・偵察値が微増/減）\n\nまた、味方艦隊と海域の制空値が両方一定の数値より低い場合、「制空権」による影響が無効になります。\n制空権の効果は海域マップ画面上部のアイコンをタップすることで確認することが出来ます。\n\n■制空値の決め方\n味方艦隊の制空値は下記の項目を参照します。\n・味方艦隊の制空艦（正規空母、軽空母、航空戦艦、潜水空母）数\n・味方艦隊の「航空」ステータス\n・味方艦隊の搭載中の艦載機（戦闘機・爆撃機・攻撃機・水上機）\n味方艦隊の初期制空値は海域マップ選択画面の出撃準備画面で確認することが出来ます。\n\n海域制空値は下記の項目を参照します。\n・海域深度（章数）\n・味方艦隊の「対空」ステータスハードモードにおける海域制空値は「周回モード」の設定により変化します。\n\n■tips\n・味方艦隊の現在の制空値は「海域マップ画面で戦闘可能な艦」によって決められます。\n・味方艦隊が直接戦闘に参加しなくても、制空値に貢献することができます。\n・味方制空艦が戦闘不能になると、その艦の分だけ味方艦隊の制空値が低下します。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control = {
+		tip = "強化コアを配置して強化効果を入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control_buff_already_active_tip = {
+		tip = "配置済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_tempesteve = {
+		tip = {
+			{
+				info = "遊び方："
+			},
+			{
+				info = "「迫り来る嵐」では、進行回数を消費することでイベン\nト戦闘（固定編成による戦闘）などの条件をクリアする\nことで、作戦進捗を進行させることができます。"
+			},
+			{
+				info = "  作戦進捗を進めると、イベントアイテム「作戦レポー\nト」を入手することができます。作戦進捗をMAXにす\nると、設備「偵察報告書・NY周辺海域」を入手できま\nす。"
+			},
+			{
+				info = "  作戦進捗3/24までは１日１回進行させることができ、\nまた3/19以降は前日分を進行させることができます。"
+			},
+			{
+				info = "  P1　イベント戦闘をクリア\n  P2　イベントステージをクリア\n  P3　イベントストーリーを閲覧\n  P4　イベントステージをクリア\n  P5　イベントステージをクリア\n  P6　イベントストーリーを閲覧\n  P7　イベントステージをクリア"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.game_ticket_notenough = {
+		tip = "報酬交換チケットが不足しています。ミニゲームロビーに戻りますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_control_buff_replace = {
+		tip = "変更"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_levelScene_close = {
+		tip = "イベント海域が開放されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_no_item = {
+		tip = "調合素材を所持していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_not_exist_boss = {
+		tip = "強敵データはありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_composite_unlock = {
+		tip = "調合システムはイベントステージT5クリアで開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_put_materials = {
+		tip = "サークルをタップし調合素材を投入してください($1/$2)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_task_view2 = {
+		tip = "現在エリア："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.lanternRiddles_gametip = {
+		tip = {
+			{
+				info = "■概要\n「饅頭クイズ」とは、表示されるクイズに答え報酬を獲得できるミニイベントになります。\n\n■遊び方 \n ・画面に表示される「クイズシート」をタップすると、クイズが表示され、回答することができます。 \n ・クイズに正解すると、進行度が1つ達成されます。クイズに不正解の場合、再回答時間が経過するまでクイズに回答することができません。\n ・イベント開始日から1日につき1つ、イベントの最大進行可能回数が1つ増加します。\n ・クイズに正解すると、正答したクイズ数に応じて最大7回まで、報酬を手に入れることができます。\n\n■注意\n ・クイズは正解するまで、何度でも回答する事ができます。正解したクイズは再度回答することができません\n ・クイズは全14問あります。8回目以降は正解しても報酬を得ることができません。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_tip_select_recipe = {
+		tip = "左のレシピを選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_level_difficulty_tip = {
+		tip = "注意：ハードモードを選択すると、<color=#92fc63>ノーマルモードでの攻略進捗がなくなります</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_composite_confirm = {
+		tip = "$1 × $2 を調合しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ryza_word_equip = {
+		tip = "特殊装備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2206 = {
+		tip = {
+			{
+				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.prop_destroyProp_error_canNotSell = {
+		tip = "このアイテムは売却できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_tili = {
+		tip = "STM"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_other = {
+		tip = "素材関連"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_special_title_physiognomy = {
+		tip = "モジュール変更"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteLayer_collecTime = {
+		tip = "委託時間: <color=#92fc63>--:--:--</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_duty_tip_1 = {
+		tip = "<color=#7FAFFF>職務</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.win_condition_display_shangchuan_tip = {
+		tip = "輸送船が目標地点に到着しました。海上護衛成功！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.breakout_tip = {
+		tip = "*限界突破を行うと星が上昇"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pgs_binding_account = {
+		tip = "連携中のPGSアカウント：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.fight_strengthen = {
+		tip = "全艦隊を海域から引き上げ（撤退）、ドックで艦船の強化・限界突破を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pgs_login_binding_exist3 = {
+		tip = "このゲームアカウントは既に他のPGSアカウントと連携されています。\nまた、変更先のPGSアカウントは既に他のゲームアカウントと連携されています。\nゲームアカウント·PGSアカウントの連携先を変更しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_e5 = {
+		tip = "コンダクター"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ex_pass_use = {
+		tip = "使用"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate2 = {
+		tip = "超人"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_start_erro = {
+		tip = "研究失敗"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.build_rate_title = {
+		tip = "提供割合"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.build_count_tip = {
+		tip = "累計"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loading_tip_MsgboxMgr = {
+		tip = "対話インタフェース構築中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_pair_4 = {
+		tip = "ながめせしまに"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_select_SP_OP = {
+		tip = "タップでアイテム選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.littleSpee_npc = {
+		tip = {
+			{
+				info = "■概要\n「追撃　シュペーちゃん」とは、イベント開始時に仮加入した【シュペーちゃん】の「友好度」を限定任務で入手できる「情報Pt」から変換し貯めることで、【シュペーちゃん】を正式加入させるイベントになります。"
+			},
+			{
+				info = "■遊び方\n1.イベント期間中、ノーマルメイン海域3章以降の敵中枢艦隊を撃破すると、「情報Pt」を入手できます。「情報Pt」はイベントページの「受取」ボタンで友好度に変換されます。\n味方戦闘艦隊に【シュペーちゃん】が編成されており、かつ敵中枢艦隊撃破時に【シュペーちゃん】が戦闘可能である場合、得られる「情報Pt」が2倍になります。"
+			},
+			{
+				info = "2.【シュペーちゃん】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、強化・限界突破素材への選択をすることができません。"
+			},
+			{
+				info = "3.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【シュペーちゃん】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【シュペーちゃん】は母港からいなくなります。\nまた、シュペーちゃんの強化・限界突破などに使用した素材は返還されません。"
+			},
+			{
+				info = "4.友好度報酬は5/15（水）まで毎日1段階ずつ解放されます。"
+			},
+			{
+				info = "5.仮加入状態の【シュペーちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
+			},
+			{
+				info = "6.仮加入状態の【シュペーちゃん】は大艦隊作戦には参加できません。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_exchange_empty_tip = {
+		tip = "交換できる対象アイテムは存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_2_2 = {
+		tip = "ランダムなエリアに進入"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ten_even_draw_confirm = {
+		tip = "$1回交換しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_sueecss = {
+		tip = "改造に成功しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_locked_mode = {
+		tip = "ロック済艦船"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_task_update_tip = {
+		tip = "艦船の開発進捗に更新がありました。開発ドックをご確認ください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.lesson_startToLearn_error = {
+		tip = "強化失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_1 = {
+		tip = "自動確保するエリアの侵攻レベル"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_tips2 = {
+		tip = "秘書艦枠の設定艦船を変更できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sofmapsd_1 = {
+		tip = "うにゃ！？クーポンを海域に\n落としたにゃ！指揮官、助けて\nにゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_score = {
+		tip = "スコア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_label = {
+		tip = "ﾗﾝﾀﾞﾑ艦船"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
+		tip = "$1の資金を消費し、強化を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_durability = {
+		tip = "耐久"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yostar_link_title = {
+		tip = "アカウント連携中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_open_detail = {
+		tip = "依頼をこなす"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_test_ship = {
+		tip = "ブリはダメです、ブリ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_temple_award_title_2 = {
+		tip = "豊穣の像の恵み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.random_ship_on = {
+		tip = "ランダム秘書艦機能をONにしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cook_game_constellation_skill_desc = {
+		tip = "7秒間ライバルのスイーツを受け取らなくなり、また味方が正しい注文を届けた時のスコアが2倍になる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.switch_to_shop_tip_1 = {
+		tip = "材料が不足しています。ショップで購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.idolmaster_voice_name_feeling4 = {
+		tip = "協力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ui_pack_tip3 = {
+		tip = "セット"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cook_game_janus = {
+		tip = "届ける時の正誤に応じてランダムで得点変化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_mailLayer_quest_clear_choice = {
+		tip = "選択中の既読メールをすべて削除しますか？<color=#92fc63>（添付ファイルを未受取のメールは削除されません）</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.item_type17_tip2 = {
+		tip = "報酬詳細"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cook_game_laffey = {
+		tip = "正しく届けると次に正しく届けた時得点UP"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_shipAddInimacy_error = {
+		tip = "親密度上昇失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cook_game_marcopolo = {
+		tip = "味方チームのみ時間＋"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_ship_in_battle = {
+		tip = "$1は作戦に参加しています。作戦終了後に派遣編成が更新されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.black_white_grid_reset = {
+		tip = "是否重置?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200400 = {
+		tip = "決済システムへの通信時にエラーが発生しました\nエラーコード:200400"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_mod_word_unlock = {
+		tip = "セリフ開放：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.juuschat_chattip3 = {
+		tip = "[返信待ち]"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_skin_no_old_ship = {
+		tip = "艦が存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_final_rule2 = {
+		tip = "本戦ランキング上位艦に新しい衣装が実装される可能性があります。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_redeploy_3 = {
+		tip = "エネルギー供給装置を運んでいるため、艦隊を再編成できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_task_none_tip = {
+		tip = "-なし-"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.support_rate_title = {
+		tip = "出現確率"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.challenge_season_update_infinite_switch = {
+		tip = "現在UNLIMITEDモードです。\n現在のステージ:$1\nチャレンジステージが更新されたため、最高クリア数が更新されません。\nモードを切り替えますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_equip_occupied = {
+		tip = "使用中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_comfort_level = {
+		tip = "快適度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200320 = {
+		tip = "Google Playへの接続に失敗しました、電波の良いところで再度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destroy_importantequipment_tip = {
+		tip = "<color=#92fc63>重要</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.time_remaining_tip = {
+		tip = " 残り："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_prev_lock = {
+		tip = "改造不可"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.emoji_type_2 = {
+		tip = "アニメ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_ema = {
+		tip = "絵馬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.building_tip = {
+		tip = "任務一覧の<color=#92fc63>期間限定任務</color>をクリアし、増築に必要な素材を入手しよう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_schedule_sure_tip = {
+		tip = "全ての予定枠が設定されていません。未設定の予定枠は「自由行動」になりますが、予定を実行しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_task_go = {
+		tip = "確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_cannon = {
+		tip = "艦砲"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_title_desc = {
+		tip = "依頼詳細"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_bg_fit_mode = {
+		tip = "ﾛｰﾄﾞ画面のｱｽ比自動適応"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_equipment_submarine_torpedo = {
+		tip = "潜水艦魚雷"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_vote_group = {
+		tip = "$1グループ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mingshi_get_tip = {
+		tip = "「奇妙な素材」を発見しました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.town_gold_tip = {
+		tip = "開拓コインの所持数が上限になっています。受け取ると上限を超える分の「開拓コイン」は破棄されます。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_game_banned = {
+		tip = "利用が停止されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ten_even_draw = {
+		tip = "$1回交換する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_task_build_tip = {
+		tip = "研究開始するには下記の資源・アイテムを消費します：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2212 = {
+		tip = {
+			{
+				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2212 = {
+		tip = "<size=23>2022.12.1-2023.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「フォーチュン(META)」</color>などを入手可能！</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100245 = {
+		tip = "Apple連携に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip1 = {
+		tip = "アトリエはイベントストーリーEP1-6クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_9 = {
+		tip = "破壊範囲"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100100 = {
+		tip = "このデバイスによるゲーム利用は制限されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.story_label_auto = {
+		tip = "オート"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ssss_medal_tip = {
+		tip = {
+			{
+				info = "■概要\n記念章キャンペーン「アカネのコレクション」とは、様々な実績を達成することで任務画面で収集アイテム「セイレーン情報」を入手できます。セイレーン情報を12個集めると、コラボ参加記念アイテム「SSSS記念章」と「装備外装箱(SSSS)」を入手できます。\n\n「SSSS」記念章は8.9（木）23:59まで入手できます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_duel_main_rage = {
+		tip = "前衛艦隊全滅、戦闘を加速します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_pizibao_1 = {
+		tip = "支援艦隊到着！<color=#f1f102>敵の攻撃を引きつけて</color>味方を守ろう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loading_tip_FModMgr = {
+		tip = "声帯ユニット動作確認中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.SuperBulin2_tip3 = {
+		tip = "海域1-4で暗号を探そうプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2025Valentine_minigame_s"] = {
+		tip = "やったー！新しい作り方だけど、今回は大成功～！指揮官、この気持ちをたっぷり込めたチョコを早く味見してみて！えへへ～ハッピーバレンタイン☆"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200230 = {
+		tip = "決済システムへの通信がキャンセルされました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2112 = {
+		tip = "2021.12.1-2022.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「飛鷹(META)」</color>などを入手可能！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.medal_notice_2 = {
+		tip = "選択中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_word_expired = {
+		tip = "座標の有効期限が過ぎています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipState_study = {
+		tip = "大講堂で勉強中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.settings_battle_Btn_edit = {
+		tip = "修正"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_queue_full = {
+		tip = "予定列が満杯です。研究項目を追加できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tag_ship_locked = {
+		tip = "図鑑未開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_relieveblacklist_success = {
+		tip = "ブロックを解除しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_scene_title_word_3 = {
+		tip = "制空値:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_anyone_is_in_fleet = {
+		tip = "装備中のオフニャが選択されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_build_rate_tip = {
+		tip = "ネコハコ出現率：SSR 5%、SR 35%、R 60%"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mingshi_task_tip_3 = {
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>U</color>>\n次の目標は…<<color=#92fc63>アイテムを売る場所</color>>にゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_rest_times = {
+		tip = "<color=#FFDE38FF>残り回数 ：%s回</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_soundfiles_checkend_title = {
+		tip = "更新チェック完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_mode_2 = {
+		tip = "協同出撃"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.breakout_tip_ultimatebonus_gunner = {
+		tip = "全弾発射/特殊弾幕発動に必要な主砲攻撃回数半減"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.evaluate_ban_word = {
+		tip = "NGワードが含まれています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_pop_finish = {
+		tip = "完成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.number_6 = {
+		tip = "六"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_no_open = {
+		tip = "準備中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2312 = {
+		tip = "<size=23> 2023.12.1-2024.1.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「エレバス(META)」</color>などを入手可能！</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_newPlayerScene_name_tooLong = {
+		tip = "名前が長すぎです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_puzzle_get9 = {
+		tip = "<color=#92fc63FF>入手方法\nノーマル3-2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_total_score = {
+		tip = "合計スコア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_propose_cost_tip2 = {
+		tip = "誓いの指輪<color=#92fc63>1</color>個を絆のティアラ<color=#ff5c5c>1</color>個に交換しますか？\n<color=#92fc63>※交換後、誓いの指輪に戻すことはできません\n</color>※このキャラの名前は変更できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_201514 = {
+		tip = "改造後、「魚雷」砲座が-1、「対空砲」砲座が+1されます。改造を続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100303 = {
+		tip = "正しい認証コードを入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_exchange_tip = {
+		tip = "1.R以上の艦を退役すると勲章を獲得できます\n2.支援要請では勲章を使って艦と引き換えることができます\n3.支援ラインナップは毎日<color=#92fc63>6時</color>・<color=#92fc63>18時</color>に更新されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_sort_time = {
+		tip = "時間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Settings_title_Notification = {
+		tip = "プッシュ通知"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardScene_expression_label_1 = {
+		tip = "清貧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_consume = {
+		tip = "消費"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_joint_call_world_support_txt = {
+		tip = "指挥官$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_addblacklist_success = {
+		tip = "ブロックしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2412 = {
+		tip = "2024/12/1-2025/1/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ジュリオ・チェザーレ(META)」</color>などを入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_atelier_tip4 = {
+		tip = "レシピ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ins_push_comment_success = {
+		tip = "コメントしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.stage_beginStage_error_noResource = {
+		tip = "<color=#92fc63>燃料</color>が足りません!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.refresh_shopStreet_question = {
+		tip = "<color=#92fc63>$2</color>の$1で商品リストを更新しますか？\n\n<size=22>( 本日は既に<size=25><color=#ff5c5c>$3</color></size> 回購入しました)</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mingshi_task_tip_5 = {
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>H</color>>\n次の目標は…<<color=#92fc63>艦隊を編成する場所</color>>にゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_all_1_1 = {
+		tip = "自動確保を中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_act_catchup_btn_word = {
+		tip = "強化イベント"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_create_button = {
+		tip = "装備製造"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attr_air = {
+		tip = "航空"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_7_detail = {
+		tip = "愛は幸せの導き、想いは永遠の絆\n守りたいものはあなたの笑顔\nお互いを深く愛し、支え合い\n末永く運命を共にすることを、誓います\n                                          $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_autoFIght_down_frame_des = {
+		tip = "自動攻略省エネ化モードでは、ゲームのfpsを低下させます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.list_empty_tip_friendui_black = {
+		tip = "指揮官をブロックしていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_build_5 = {
+		tip = "<size=19>\t\t\t\t\t\t\t<color=#ffde38>超稀有舰船</color>：$2%\n\t\t\t\t\t\t\t <color=#d797ff>精锐舰船</color>：$3%\n\t\t\t\t\t\t\t <color=#3dc6ff>稀有舰船</color>：$4%\n\t\t\t\t\t\t\t 普通舰船：$5%\n\n\t\t\t\t\t\t\t  【限时建造】\n\t\t\t<color=#ffde38>圣黑之心</color>：2.25%<color=#92fc63FF>(up!)</color>    <color=#ffde38>翡绿之心</color>：2.25%<color=#92fc63FF>(up!)</color>\n\t\t\t<color=#ffde38>绀紫之心</color>：0.75%           <color=#ffde38>群白之心</color>：0.75%\n\t\t\t<color=#d797ff>诺瓦露　</color>：3.15%<color=#92fc63FF>(up!)</color>     <color=#d797ff>布兰　　</color>：1.05%</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_107984 = {
+		tip = "近代化改修で<color=#92fc63>【戦闘機機数+1】、【攻撃機機数+1】</color>\n近代化改修を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commission_open_tip = {
+		tip = "$1章クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100229 = {
+		tip = "すでに削除済みです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_newPlayerScene_word_yingHuoChong = {
+		tip = "わぁい！新しい指揮官だ！グローウォームと一緒に遊ぼう！名前教えて！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.noacceleration_tips = {
+		tip = "使用できるネコハコ加速材はありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.gift_act_drawline_help = {
+		tip = {
+			{
+				info = "「饅頭手芸」とは：\n饅頭手芸では、冒険マップや「クラフト」で入手する素材を消費し、艦船たちに贈るお土産を作ることができます。\nお土産を艦船に贈ると、「探検コイン」などの報酬を入手することができます。\n\n遊び方：\n1.プレゼントしたい艦船を選択し、画面のヒント通りに操作し、お土産を作ることができます。\n2.完成したお土産をドラッグで艦船に贈ることができます。艦船にプレゼントすると、返礼として「探検コイン」などのアイテムを入手できます。\n3.同じ艦船に1回しかプレゼントできません。\n4.「輝く宝石」は、「饅頭探検隊」に入手できる「クラフト用鉱石」を「クラフト」で消費することで生成できます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.inform_chat_msg = {
+		tip = "空メッセージを送信できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_reset = {
+		tip = "クリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_help_2110 = {
+		tip = {
+			{
+				info = "■キャンペーン開催期間\n10.1（金）0:00～11.30（火）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「扶桑(META)」、SP報酬からは空母「ヨークタウン」の限定着せ替え「聖者の翼」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_event_info_desc3 = {
+		tip = "$1艦船(現在$2)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_materal_no_enough = {
+		tip = "素材が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_ins_no_msg = {
+		tip = "新着なし"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_battle_result_boss_is_death = {
+		tip = "強敵の耐久が０になっていたため、戦闘結果が無効になりました。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_condition_air = {
+		tip = "航空合計"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_bomb_help_tip = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/spboom_1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/spboom_2",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 836,
+				y = 740
+			},
+			windowPos = {
+				y = 15
+			},
+			helpSize = {
+				x = 836,
+				y = 660
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_6_detail = {
+		tip = "愛は幸せの導き、想いは永遠の絆\n守りたいものはあなたの笑顔\nお互いを深く愛し、支え合い\n末永く運命を共にすることを、誓います\n                                          $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destroy_inHardFormation_tip = {
+		tip = "<color=#92fc63>ﾊｰﾄﾞ編成中</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.class_attr_costproficiency = {
+		tip = "熟練度消費"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_story_tip_2 = {
+		tip = "后开放(未使用)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.class_label_tran = {
+		tip = "変換: "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_use_donateitem_success = {
+		tip = "資源拠出可能回数が+$1回復しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_energy_low_warn_no_exp = {
+		tip = "編成中の<color=#92fc63FF>$2</color>のコンディションが低い状態になっています。出撃すると<color=#D6341D>親密度が下がってしまいます</color>が、出撃しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_newSkin_name = {
+		tip = "<color=#FFDE38>「$1」</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_item_num = {
+		tip = "入手済："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_battle_rule = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/battle_maincanon",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/battle_plane",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/battle_sub_3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/battle_sub_4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/battle_sub_5",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_online = {
+		tip = "ログイン中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_file = {
+		tip = "情報開放：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ssss_main_help = {
+		tip = {
+			{
+				info = "■概要\nキャンペーン「裏山学園」は下記の内容で構成されます。\n・コラボイベント「弧光は交わる世界にて」海域への移動ボタン\n・「弧光結晶」累計入手数報酬ページへの移動ボタン\n・期間限定建造\n・着せ替えショップ\n・スペシャルログインボーナス\n・ミニゲーム\n・記念章\n\n■コラボイベント\n・7.20-8.3の間、コラボイベント限定海域が開放され、「弧光結晶」を入手できます。\n・「弧光結晶」は累計入手数報酬のほか、ショップにて様々な報酬と交換できます。\n・また、イベント海域ではSSR「飛鳥川ちせ」、コラボ装備外装箱を入手できます。\n\n■スペシャルログインボーナスについて\n・キャンペーンページの画面右下のコントローラーをタップするとSDキャラを移動させることができ、踏んだマスによって報酬を入手できます。\n・キャンペーン期間中（7.20-8.3）、毎日移動可能回数が5回加算されます。\n・ログインボーナスキャンペーンでは、限定家具や「弧光結晶」を入手できます。\n\n■ミニゲームについて\n・ミニゲーム「激闘！電光饅頭VS怪獣饅頭」は7.26まで毎日新しい進捗が開放されます。\n・ミニゲームを7日間プレイし、最後まで進捗させると、兵装「輝きのブレスレット」を入手できます。\n・ミニゲームでは、限定家具を入手できます\n\n■記念章について\n・各種実績任務をクリアすると、収集アイテム「セイレーン情報」を入手できます。\n・「セイレーン情報」を12個入手すると、記念家具「SSSS記念章」と装備外装箱を入手できます。※報酬の入手時間は8/9（水）23:59まで"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_tip_no_consumption = {
+		tip = "消費なし"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.upgrade_to_next_maxlevel_succeed = {
+		tip = "認識覚醒完了\nレベル上限が<color=#92fc63FF>$1</color>になりました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_catchup_5 = {
+		tip = "Ⅴ期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
+		tip = "休憩艦船を配置しないと、<color=#92fc63>食糧が消費されません</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_version_tip = {
+		tip = "アプリが更新されました。最新データのダウンロードを行うため、アプリを再起動します。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_compare_larger = {
+		tip = ">"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_storeroom_max_3 = {
+		tip = "※受け取ると、燃料所持数が所持上限を超えてしまいます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_new_1_4 = {
+		tip = "6"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.missile_attack_area_cancel = {
+		tip = "攻撃中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.user_is_banned = {
+		tip = "このアカウントは利用停止されています\n利用制限期間: ($1)まで"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_no_oil = {
+		tip = "出撃するための燃料が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_set_duty_title = {
+		tip = "$1に任命する："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_use = {
+		tip = "使用"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ssssmedal_tip = {
+		tip = "セイレーン情報を<color=#9D46FF>「$1/12」</color> 集めると<color=#9D46FF>「SSSS記念章」</color>をGET！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_sort_duty = {
+		tip = "役職"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_boss_formation_exist_invaild_ship = {
+		tip = "大艦隊メンバーの支援派遣編成が変更されたため、強敵戦編成が更新されました。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_is_not_existence = {
+		tip = "任務$1は存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_investigate = {
+		tip = "索敵"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_msg_is_null = {
+		tip = "空メッセージは送信できません。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amusementpark_shop_exchange2 = {
+		tip = " <icon name=Props/AmusementparkshopPT w=0.7 h=0.7/> $1個で\n$3を$2個交換するピョ？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_search_succeed = {
+		tip = "検索完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_new_1_2 = {
+		tip = "4"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200120 = {
+		tip = "購入に失敗しました、アイテムが存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_clear = {
+		tip = "クリア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_finish_3 = {
+		tip = "強化指向Ⅲ期/完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100220 = {
+		tip = "連携を解除しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_SP_count = {
+		tip = "残り回数："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_disable_unsatisfied = {
+		tip = "この章の全ステージが☆3達成必須です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.series_enemy_fleet_prefix = {
+		tip = "艦隊$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_tip_quit = {
+		tip = "大艦隊から脱退しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_condition_antisub = {
+		tip = "対潜合計"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_profile_action_words = {
+		tip = "L2Dアニメ鑑賞"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_soundfiles_update = {
+		tip = "更新中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_material_unlock_skill = {
+		tip = "習得: <color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_shop_empty_tip = {
+		tip = "-販売中のアイテムはありません-"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commandercat_label_custom_name = {
+		tip = "変更後名前"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100190 = {
+		tip = "SNSアカウント連携状況の照合に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_702124 = {
+		tip = "<size=35>改造で主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（駆逐用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.nine_choose_one = {
+		tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n※艦船「<color=#92fc63>$1</color>」と記念アイテムを入手できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill3"] = {
+		tip = "剛力年獣|氷の壁を破壊できる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_world = {
+		tip = "<size=24>ｾｲﾚｰﾝ作戦</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
+		tip = "AR録画機能を利用するには、\n音声の録音を許可する必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.naval_academy_res_desc_class = {
+		tip = "学園の大講堂。LvUPすると、<color=#92fc63>経験値生成上限、熟練度上限</color>、<color=#92fc63>熟練度入手効率</color>などを上昇可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_mission_info_tip = {
+		tip = {
+			{
+				info = "作戦事件について：\n"
+			},
+			{
+				info = "■作戦事件を進捗させるには\n・「作戦事件」が発生すると、大艦隊メンバーがそれぞれ最大4名の艦船を派遣し、進捗させることが可能です。\n    派遣は作戦事件開始時と行うことができ、また6/12/18/21時に1度だけ追加の派遣可能回数が増加します。\n・「作戦事件」参加から6時間経過するごとに、更に1回派遣を追加で行うことが可能です。\n※一回の「作戦事件」では、大艦隊メンバーは最大4名×4回、計16隻の艦船を派遣させることが出来ます。\n・派遣される艦船が多ければ多い程、作戦事件の進捗が早くなります。\n・また、派遣艦船が特定な条件を満たすと、作戦事件の進捗が早くなります。\n"
+			},
+			{
+				info = "■作戦事件の評価について\n・作戦事件では、参加者（艦船を派遣したメンバー）はそれぞれ評価によって様々な報酬を受け取ることが出来ます。\n・大艦隊全員で派遣された艦船が多ければ多い程、評価が上がる確率が上昇します。\n・また、特定な条件を満たすと、評価が上がることもあります。\n・「報酬」「作戦事件」進捗完了後、「作戦報告」「作戦報酬」画面にて受け取ることが出来ます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exchangecode_use_error_9 = {
+		tip = "無効なシリアルコードです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_upgrade_quick_interface_materials_consume = {
+		tip = "下記の素材が消費されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loading_tip_ShaderMgr = {
+		tip = "視覚センサー起動中…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_level_easy_tip = {
+		tip = "注意：ノーマルモードを選択すると、<color=#92fc63>ノーマルモードを全部クリアしないと</color>ハードモードを選択できなくなります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_error_disable = {
+		tip = "ストア決済機能がメンテナンス中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_skin_out_of_stock = {
+		tip = "販売期間外です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_5_detail = {
+		tip = "$1の目から想いが伝わってくる\n<color=#92fc63><size=18>性能（速力以外）＋6%</size></color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_destroy_advanced_tip = {
+		tip = "退役艦船に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.workbench_help = {
+		tip = {
+			{
+				info = "概要：\n「クラフト」では、無人島の冒険マップや「饅頭探検隊」、実績任務で入手した素材を消費し、\n限定家具やほかの機能に使用する素材アイテムなど、様々なアイテムを生成することができます。\n\n遊び方\n1.レシピを選択し、素材を消費することでアイテムを生成できます。\n2.一部レシピは「クラフト」右下のボタンをタップして、施設を拡張することで開放されます。\n3.所持している素材は「倉庫」で確認できます。またレシピ画面の素材アイテムアイコンをタップすると、素材の入手方法を確認できます。\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_stop_erro = {
+		tip = "研究中止に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mingshi_task_tip_11 = {
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>I30</color>>\n最初の目標は…<<color=#92fc63>みんなが集まる場所</color>>にゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_end_to_learn = {
+		tip = "<color=#92fc63>「$1」</color>強化完了、スキル<color=#92fc63>「$2」</color>は<color=#92fc63>$3</color>の経験値を獲得しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_upgrade_erro = {
+		tip = "装備強化失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
+		tip = "<color=#92fc63>受取失敗:</color><color=#92fc63>ドックが一杯です</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.course_sunday_tip = {
+		tip = "日曜日：出撃時熟練度の入手量が2倍"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.confirm_app_exit = {
+		tip = "ゲームを終了しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_invalide = {
+		tip = "戦闘可能な艦隊がありません…作戦失敗です…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.number_4 = {
+		tip = "四"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_purchase_label_special = {
+		tip = "特典"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_who_to_retreat = {
+		tip = "$1を撤退させますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_all_2_2 = {
+		tip = "100Ptごと"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.fleet_antisub_range_tip = {
+		tip = {
+			{
+				info = "対潜探知について\n\n■概要\n味方前衛艦隊に【駆逐艦】【軽巡洋艦】が編成されており、かつ戦闘中戦闘可能な状態でいる場合、敵潜水艦が味方の「探知範囲」内に入ると自動で「探知済」状態になります。\n「探知済」状態の敵潜水艦は味方の爆雷攻撃で狙えるようになりますが、「探知範囲」から離れて一定の時間が経過すると再度「未探知」状態に戻ります。\n\n■探知範囲の計算方法について\n味方前衛艦隊の「探知範囲」の広さ（同心円の半径）は4つの項目で計算されます。\n①前衛艦隊【駆逐艦】【軽巡洋艦】のそれぞれ「対潜」艦船基本ステータスの最大値\n②主力艦隊艦船の「対潜」ステータスの合計値\n③兵装「ソナー」による「探知範囲」の増加値\n④その他海域マップ効果・敵艦スキルなど\n\n※スキルや装備、オフニャ、艦隊技術による「対潜」ステータスは探知範囲に影響しません\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardShipInfoMediator_quest_moveOutFleet = {
+		tip = "艦隊に編成されています。艦隊から外しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_backyard = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/strength",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/break",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/equip",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/bullet",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/energy",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/maxlevel",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/levelup",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/fanqian",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 8,
+			windowSize = {
+				x = 836,
+				y = 720
+			},
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_condition_ship_level = {
+		tip = "Lv<color=#92fc63>$1</color>以上の艦<color=#92fc63>1隻</color>以上の必須"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
+		tip = "強化素材に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_diff_selected = {
+		tip = "変更済み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chapter_no = {
+		tip = "<color=#92fc63>$1</color>章"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardScene_error_noPosPutFurniture = {
+		tip = "配置できる場所がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_function1 = {
+		tip = "道中戦闘"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardScene_restSuccess = {
+		tip = "<color=#92fc63>マイセットを戻しました</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_1_1 = {
+		tip = "4以下"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_get_box_tip_1 = {
+		tip = "ネコハコ？？型"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_unlock2 = {
+		tip = "3-4クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_skin_no_old_skinorequipment = {
+		tip = "兵装か外装が装備されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_puzzle_get4 = {
+		tip = "<color=#92fc63FF>入手方法\nノーマル3-1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_luodeni_2 = {
+		tip = "<color=#ffc038>一つになる調和、永遠に等しき刹那、来たる「終焉」を見届けよう——</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_inbattle = {
+		tip = "METAとの戦闘中のため、新たにMETA戦を開始できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_skin_unmatch_equipment = {
+		tip = "この兵装は装備中の外装を適用できません。外装は倉庫に戻されました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_1_detail = {
+		tip = "$1があなたに失望した…\n<color=#ffde38><size=18>(効果なし)</size></color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_theme_lock_tip = {
+		tip = "このセットは<color=#92fc63>未開放</color>です。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.adventure_record_grade_title = {
+		tip = "冒険者ランク："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_profile_label_diff = {
+		tip = "追加"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hololive_dashenling = {
+		tip = {
+			{
+				info = "■概要\n「ミオの母港占い館」とは、イベント開始時に仮加入し\nた【大神ミオ】の「友好度」を海域に出撃することで貯\nめ、【大神ミオ】を正式加入させるイベントになります。"
+			},
+			{
+				info = "■遊び方\n1.コラボイベント期間中、メイン海域（ノーマル）3章\n以降のステージか、「ホロライブ」コラボ限定海域の中\n枢艦隊を撃破すると、「友好度」を獲得する事ができま\nす。獲得した「友好度」が一定の数値に到達すると、\n「友好度報酬」を入手することができます\n2.コラボキャラとして仮加入した【大神ミオ】は、友好\n度報酬（7段階目）の「正式加入」を達成しない限り、\nケッコンすることができず、また退役や強化・限界突破\n素材への選択をすることができません。\n3.【大神ミオ】を編成に入れている艦隊で上記ステージ\nの敵中枢艦隊を撃破し、かつ勝利時【大神ミオ】が戦闘\n可能な状態の場合、獲得できる「友好度」が2倍になり\nます。\n4.イベント終了までにイベントページの「友好度報酬」\nを最後まで受け取ると、【大神ミオ】を「正式加入」さ\nせることができます（友好度が1000必要）。イベント\n終了時、「正式加入」していない【大神ミオ】は消失し\nます。\n5.友好度報酬は12/3（水）まで毎日1段階ずつ解放され\nます。"
+			},
+			{
+				info = "■「仮加入」キャラについて\n・「仮加入」とは：\nコラボキャラは「イベント期間中限定で」艦隊に加入し\nます。イベント終了時に「正式加入」を達成していない\n場合、艦隊からいなくなります（強化や限界突破に消費\nされたアイテムは返還されません）。\n・「正式加入」とは：\nコラボキャラを「正式加入」させるには、「友好度」を\n入手し、コラボイベントページで各段階の「友好度報酬」\nを全て獲得することにより「正式加入」させることが出\n来ます。\n・「正式加入」可能な期間について：\n「ホロライブ」コラボキャラクター【大神ミオ】\n2019年11月27日～2019年12月11日"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_shipinfo_actnpc = {
+		tip = {
+			{
+				info = "「仮加入」キャラについて：\n\n・「仮加入」とは：\n仮加入キャラは「イベント期間中限定で」艦隊に加入します。イベント終了時に「正式加入」を達成していない場合、艦隊からいなくなります（強化や限界突破に消費されたアイテムは返還されません）。\n・「正式加入」とは：\nキャラを「正式加入」させるには、「友好度」を入手し、イベントページで各段階の「友好度報酬」を全て獲得することにより「正式加入」させることが出来ます。\n\n※「仮加入」キャラの機能制限：\n「仮加入」状態のキャラクターは「正式加入」しない限り、一部の機能しか利用することが出来ません。\n利用可能機能：\n（演習以外の）艦隊への編成、戦闘参加、強化、スキル強化、限界突破\n利用不可機能：\n退役、強化素材として消費、限界突破素材として消費、軍事委託、ケッコン、認識覚醒、秘書艦への設定、大講堂、セイレーン作戦（META戦含む）、大艦隊作戦"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_inEventFinished = {
+		tip = "<size=24>完了</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_7_buff = {
+		tip = "補正値：全性能（速力、装備以外）12%アップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_battleMediator_existFight = {
+		tip = "戦闘中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_navalAcademyScene_upgrade_complete = {
+		tip = "$1増築完了、備蓄上限+$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_5_buff = {
+		tip = "補正値：全性能（速力、装備以外）6%アップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_4_buff = {
+		tip = "補正値：全性能（速力、装備以外）3%アップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_ending_tip2 = {
+		tip = "1Fと2Fのすべてのエリアを探索しよう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_photo_alpha = {
+		tip = "透明度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_destroy_uncommon_tip = {
+		tip = "退役艦船にSR以上の艦船がありますが、続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100311 = {
+		tip = "認証トークンが無効になりました。もう一度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_title = {
+		tip = "$1で$3を$2つ購入します"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100204 = {
+		tip = "現在ご利用しているゲームデータは別の端末に移行するには、ほかのSNSアカウントやメールアドレスなどと連携する必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_touch = {
+		tip = "タッチ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_interface_revert_check = {
+		tip = "ボタン配置を初期化しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_help_tip = {
+		tip = {
+			{
+				info = "■強化指向とは"
+			},
+			{
+				info = "科学研究項目完了時に選択した特別計画艦の強化ユニットを追加入手できる機能です。"
+			},
+			{
+				info = "◇「強化指向」について"
+			},
+			{
+				info = "①「強化指向」を有効化するには、「強化指向」で特別計画艦を1隻選択する必要があります。\n②同時に選択できる特別計画艦は1隻のみです。選択中の特別計画艦はいつでも変更できます。\n③科学研究項目完了時、選択中の特別計画艦の強化ユニットを手に入れることができます。\n\n"
+			},
+			{
+				info = "※注意\n「強化指向」で入手できる特別計画艦3期の強化ユニット数は、下記のようになります：\n・PR：4隻合計で最大300個までです。\n・DR：1隻それぞれで最大150個までです。\n「強化指向」とは別に、特定艦船の強化ユニットを追加入手できるイベントを開催予定です。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_items_title = {
+		tip = "下記アイテムを入手できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_food = {
+		tip = "食糧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.valentinesday__shop_tip = {
+		tip = "着せ替えショップを確認しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_32 = {
+		tip = "偏差射撃補正"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_task_pt_level = {
+		tip = "Lv$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_contribution = {
+		tip = "贡献"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_preCombatLayer_sink_limit = {
+		tip = "戦闘不能艦が$1以下"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_contribution = {
+		tip = "演習進捗："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.item_type13_tip1 = {
+		tip = "内容一覧"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resourceSite_startResourceSite_error = {
+		tip = "委託進行失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_name_change_failed = {
+		tip = "指揮官名変更失敗"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_box_confirm = {
+		tip = "確定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginScene_server_disabled = {
+		tip = "サーバーは利用できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.reject_all_friend_ok = {
+		tip = "一括拒否しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.no_open_system_tip = {
+		tip = "<color=#92fc63>$1</color>は指揮官Lv<color=#92fc63>$2</color>で開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.l2d_32xbanned_warning = {
+		tip = "現在の端末環境ではL2Dコンテンツを正常に表示できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
+		tip = "<color=#92fc63>性能変化</color>を確定させますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_start_tip = {
+		tip = "合計$2ダイヤが手に入ります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName12 = {
+		tip = "第二潜水艦隊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_pos_save = {
+		tip = "秘書艦の表示設定を保存しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.batch_destroy = {
+		tip = "一括廃棄"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_flare_supply = {
+		tip = "照明弾補給を入手しました。入手艦隊は今後$1回の戦闘中照明弾支援が行われます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newplayer_notice_3 = {
+		tip = "上級任務全クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_dodge_limit = {
+		tip = "回避上限"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.medal_notice_1 = {
+		tip = "最高レベルの勲章のみ表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_select_device_tip = {
+		tip = "装備を選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200380 = {
+		tip = "利用規約が承認されていません\nエラーコード:200380"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.feast_no_gift = {
+		tip = "贈り物はありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_stop_tip = {
+		tip = "研究を中止しますか？（消費したアイテム・資源は元に戻りません）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_compare_equal = {
+		tip = "="
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_noPos_clear = {
+		tip = "整 理"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.restart_music_game = {
+		tip = "進行中のゲームを中断し、最初からやり直しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_shimakaze_skill_2 = {
+		tip = "パッシブ:電光石火"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_index_shipType_qinXun = {
+		tip = "軽巡"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_item_type3 = {
+		tip = "道具"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mingshi_task_tip_7 = {
+		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>K</color>>\n次の目標は…<<color=#92fc63>これくしょん</color>>にゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_ship_healthy = {
+		tip = "対象は修理する必要がございません。\n本当に使用しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_not_add = {
+		tip = "まだ友達ではありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_daily_task_lock = {
+		tip = "デイリーミッションはセイレーン作戦4章クリアで開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.valentinesday__txt4_tip = {
+		tip = "チョコができたよー…報酬の受け取りも忘れないでねー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.music_collection = {
+		tip = {
+			{
+				info = "遊び方："
+			},
+			{
+				info = "・11月12日（木）メンテナンスまでに「激唱のユニバ\nース」イベントに参加し、「μ兵装」艦船たちの「グッ\nズアイテム」を12種類全部集めると、限定家具「激唱\nの記念章」を入手可能。"
+			},
+			{
+				info = "・「グッズアイテム」は下記の方法で入手可能\n  ①イベント海域を☆3でクリア\n  ②イベント限定任務（イベント一覧＆「限定任務」ペ\nージ）を完遂\n  ③イベントアイテム「激奏エンブレム」累計入手数報\n酬"
+			},
+			{
+				info = "・入手条件が「？？？」のグッズアイテムは「一日一回\n限定のSPステージ」をクリアした後、イベント海域を\nクリアすると入手可能…？\n\n・すべての「グッズアイテム」を入手すると、グッズを\n画面上に配置可能になります。また、画面右の「シェア\n」ボタンで配置済の画面をシェア可能\n\n・報酬の受け取り期限は11月18日（月）23:59まで"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_permanent_tips4 = {
+		tip = "  イベントは同時に1つしか開放できません。\n 現在開放中のイベントをクリアすることで、\n別のイベントを開放できるようになります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_no_request = {
+		tip = "友達申請がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_daily_task_none_2 = {
+		tip = "No missions currently available"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_newPlayerScene_word_lingBo = {
+		tip = "特型駆逐艦綾波、です。「キジン」とよく言われているのです。名前を教えてもらってもいいです？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_task_locked_by_other_task = {
+		tip = "任務「$1」クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100111 = {
+		tip = "アカウント作成に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_event_start_tip1 = {
+		tip = "新しい大艦隊作戦が発令されました。確定をタップして画面を更新してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_chapter_count_tip = {
+		tip = "残り回数： "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_shop = {
+		tip = "ショップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_interface_cancel_check = {
+		tip = "現在の設定をキャンセルしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_shop_gift_tip = {
+		tip = "<color=#7c7e81>購入すると<color=#169fff>特別ストーリー</color>を開放できます</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_take_canget_msgbox = {
+		tip = "受け取ると下記を入手可能："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_jiqiao = {
+		tip = "TEC"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_joint_max_challenge_people_cnt = {
+		tip = "挑戦人数が上限に達しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_event_award_tip1 = {
+		tip = "手がかりはまだ残っています。エリアを探索し手がかりを手に入れよう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_sonarInterval = {
+		tip = "発信頻度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.quota_shop_title1 = {
+		tip = "コア限定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.reflux_word_2 = {
+		tip = "開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_upgradeStar_error_noEnoughMatrail = {
+		tip = "素材が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_expend = {
+		tip = "消費"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_301534 = {
+		tip = "改造でスキル<color=#92fc63>【ふわりんと仲間たちと】</color>が強化されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_resource_tip_1 = {
+		tip = "未资源提示1(未使用)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_quick_change_noequip = {
+		tip = "変更する装備は存在ありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_strengthen = {
+		tip = "強化可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_refresh_count_insufficient = {
+		tip = "演習相手はこれ以上更新できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_durability = {
+		tip = "耐久"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_intensify_phase = {
+		tip = "強化段階"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newserver_soldout = {
+		tip = "購買可能回数が上限になりました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_victory = {
+		tip = "敵艦隊を撃破"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_lock = {
+		tip = "レベル$1で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.jiujiu_expedition_amount_tip = {
+		tip = "探索回数が不足しています（探索回数はデイリーログイン・限定任務で入手できます）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname1 = {
+		tip = "低"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_max_level = {
+		tip = "改造が最大になっています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_storeroom_addgold = {
+		tip = "備蓄資金："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200160 = {
+		tip = "不正な購入リクエストです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_ad = {
+		tip = "[$1]TIER.$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Normalbuild_URexchange_text3 = {
+		tip = "交換可能艦船を確認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_yisegefuke_pt = {
+		tip = "Pt素子"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_delete = {
+		tip = "削除"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.autofight_function5 = {
+		tip = "自動潜水支援"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dont_remind = {
+		tip = "これ以上表示しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_dockyard = {
+		tip = "ドック"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_mapbuff_attrtxt_2 = {
+		tip = "耐久適応"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newplayer_notice_4 = {
+		tip = "クリアで「ポートランド」をGET"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_operation_event_occurrence = {
+		tip = "大艦隊作戦で新しい作戦事件が発生中です。確認しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tag_level_narrative = {
+		tip = "ストーリー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_cancel_assult_ship_recommend_conflict = {
+		tip = "大艦隊作戦・支援派遣の通常枠に設定されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_14 = {
+		tip = "装備性能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_ui_recommend = {
+		tip = "オススメ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_start_success = {
+		tip = "委託開始"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_max_tip_mail = {
+		tip = "メールを受取ることができません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginScene_error_noPassword = {
+		tip = "パスワードを入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.stage_beginStage_error_teamEmpty = {
+		tip = "<color=#92fc63>$1</color>は最低<color=#92fc63>$2隻</color>以上必要です！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_puzzle_get7 = {
+		tip = "<color=#92fc63FF>入手方法\nノーマル2-2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100232 = {
+		tip = "このアカウントは削除されていないため、復元できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_main_emergent = {
+		tip = "<color=#92fc63>$1</color>が大きな損傷を受けました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_extralevel_0 = {
+		tip = "レベル0"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_soundfiles_retry = {
+		tip = "リトライ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_special_update = {
+		tip = "緊急委託「$1」出現！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pvzminigame_help = {
+		tip = {
+			{
+				info = "強敵VS花火　について：\n「強敵VS花火」とは、フィールドに饅頭や水着艦船を配置し、来襲するセイレーンを倒してスコアを稼ぐゲームです。\n<color=#92fc63>2024.1.10</color>まで、毎日0時に<color=#92fc63>新しいステージ</color>が開放されます。\nステージをすべてクリアすると、バーミンガムの着せ替え「行き先は風次第」を入手できます。\n\n遊び方：\n1.コストである「花火」を消費し、キャラをドラッグ＆ドロップでフィールドを配置できます\n2.配置できるキャラはそれぞれ特徴があり、そのうち艦船は一人までしか配置できません\n3.饅頭キャラ：戦闘饅頭、防衛饅頭、生産饅頭\n　艦船キャラ：能代、チェシャー、樫野、リットリオ、バーミンガム\n　コストの「花火」は生産饅頭を配置すると自動で補充されます\n4.画面右下のボタンをタップし、フィールドに配置済みのキャラを配置解除できます。また、配置解除時にコスト「花火」が払い戻されません。\n5.味方、敵キャラや特殊ギミックについては「遊び方」で確認できます。\n6.ゲームオーバーになるか、ゲームを終了ボタンで一時中止すると、ゲームクリアになります。\n7.7日目のステージはスコアアタックステージになります"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_retreat = {
+		tip = "撤 退"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_vertifyFail = {
+		tip = "データにエラー:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_supply_log = {
+		tip = "[$1] $2 は大艦隊資金$3 を消費し、大艦隊補給を$4日分購入しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_7 = {
+		tip = "$1があなたにすべてを託している"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipState_guild_boss = {
+		tip = "大艦隊の強敵戦に編成されている艦船です。編成から外し、対象に選択しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_rename_warning = {
+		tip = "オフニャの名前を$1に変更しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_preCombatMediator_activity_timeout = {
+		tip = "イベントが終了しました。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_target_type5 = {
+		tip = "バカンスが終了しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200236 = {
+		tip = "決済がキャンセルされました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.acl_gold_count = {
+		tip = "目標消費："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.game_openwords = {
+		tip = "セリフ欄を表示に設定しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exchangecode_use_error_8 = {
+		tip = "無効なシリアルコードです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.adventure_lv_title = {
+		tip = "冒険レベル："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200290 = {
+		tip = "このアイテムはすでに所持済みです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_story_speed_3 = {
+		tip = "速い"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.report_cannot_comment = {
+		tip = "コメント機能が一時停止されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_transform_attrmax = {
+		tip = "変化性能がすでにmaxです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.coloring_erase_all_warning = {
+		tip = "「リセット」は、既に着色済みの全ての枠の色を削除します。本当にリセットしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型四連装330mm砲設計図Mle1931(超巡用)\n138.6mm単装砲Mle1929\n二連装ボフォース40mm機関砲 </color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_taskMediator_getEquip = {
+		tip = "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_upgrade_equipped_tag = {
+		tip = "装備中："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_none_3 = {
+		tip = "強化指向Ⅲ期/未選択"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.system_database_busy = {
+		tip = "通信エラーが発生しました。しばらく置いてから再度接続してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commission_event_tip = {
+		tip = {
+			{
+				info = "遊び方：\n1.イベント期間中、軍事委託の報酬に「軍事委託Pt」が追加されます\n<color=#92fc63>「軍事委託Pt」は委託の必要時間が5分につき、1Pt加算されます</color>\n例：必要時間が1時間の委託を完了した場合、報酬として「軍事委託Pt」が12入手できます\n2.イベント期間中に開始・完了した委託のみ「軍事委託Pt」の報酬を受け取れます\n3.軍事委託を中止した場合、「軍事委託Pt」を入手できません\n4.ショップの「イベント」タブで、軍事委託Ptを消費し様々なアイテムと交換できます\n5.交換ラインナップの一部アイテムは、特定のメイン海域をクリアしてからでないと交換できません"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200235 = {
+		tip = "決済が時間切れになりました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attr_hit = {
+		tip = "命中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_exchange = {
+		tip = "交 換"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_event_start_event_tip = {
+		tip = "派遣を行いますと、作戦終了まで艦船を変更できません。艦船を派遣しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_hit_monster_death = {
+		tip = "年獣は既に倒されました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_mapbuff_tip = {
+		tip = "エリア内の敵戦力上昇中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_task_goto3 = {
+		tip = "すでに任務エリアに艦隊が展開してあります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_queue_processing = {
+		tip = "進行中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_exp_item_title = {
+		tip = "Exp育成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_catsearch_help_1 = {
+		tip = "ターンが進むと、サルベージ進捗が経過します。オフニャを呼び戻しますか？（報酬を一部入手できます）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_catsearch_leavemap = {
+		tip = "サルベージ作業中のオフニャが作業を中止してしまいます。（ターン経過分の報酬を入手できます）\nエリアから移動しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_breakout_exp = {
+		tip = "限界突破に必要な経験値"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_class_start = {
+		tip = "学習開始"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exchangecode_use_error_20 = {
+		tip = "無効なシリアルコードです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_title_1 = {
+		tip = "自動確保モード"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_shipAddMoney_ships_ok = {
+		tip = "<color=#92fc63>$1たち</color>は意外な発見をしました！家具コイン<color=#92fc63>+$2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_files_repair = {
+		tip = "ﾀｯﾌﾟで修復"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_shipSpeedUpEnergy_error = {
+		tip = "加速失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_end_title = {
+		tip = "戦闘結果"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.win_condition_display_judian = {
+		tip = "敵拠点を全て破壊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_repair_l2d = {
+		tip = "Live2D修復"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_pay_tip = {
+		tip = "シーズン任務報酬開放："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dailyLevel_unopened = {
+		tip = "準備中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pgs_unbind_tip2 = {
+		tip = "ログイン中のゲームアカウントはPGSアカウントと連携されています。\n他の連携をすべて解除すると、PGSアカウントとの連携も解除されます。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_ship_attr_desc = {
+		tip = "大艦隊作戦内$1の$2が$3"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_clean = {
+		tip = "清掃"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_submarine_4 = {
+		tip = "潜水艦隊が編成されていないため支援要請できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_tracking_erro = {
+		tip = "失敗"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_dockyardScene_error_choiseRoleLess = {
+		tip = " <color=#92fc63>$1</color> まで選択できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_fit = {
+		tip = "適用"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_reload = {
+		tip = "装填"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_buff_unselect = {
+		tip = "-調査内容が選択されていません-"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_help_storage = {
+		tip = {
+			{
+				info = "★特殊装備について\n特殊装備とは、艦船が最大まで限界突破すると（特別計画艦・UR艦船・META艦船は最初から）開放できる特殊装備枠に装備できる装備を指します。\n特殊装備を装備すると、艦船の能力を上昇させることができるほか、スキルの効果を強化したり戦闘中敵弾を消したりなど、様々な効果を発揮できます。\n\n特殊装備は1隻につき1個しか装備できず、また一部の艦船には専用の特殊装備が存在します。\nまた、特殊装備は倉庫の所持枠とは別枠で保存できます。\n\n・特殊装備の入手について\n特殊装備は、【デイリーチャレンジ】か【製造】で入手できます。\n【デイリーチャレンジ】の「特殊装備」は毎週２回まで挑戦可能で、特殊装備と特殊装備に関わる各種素材を入手できます。\n【製造】は倉庫の「設計図」タブか、ドック画面の特殊装備枠タップで行うことができ、指定の特殊装備を入手できます。\n\n【製造】を行う際は「特殊装備コア」「資金」を使用しますが、その上でさらに「特殊装備強化石」や余った特殊装備を消費して装備の強化経験値を一定以上付与して初めて【製造】が行えます。\nまた、専用特殊装備が存在する艦船のドック画面で製造を行うと、専用特殊装備を製造することが可能です。\n\n・特殊装備の性能について\n特殊装備の性能には「基本性能」「変化性能」「装備効果」が存在します。\n\n「基本性能」とは、特殊装備の種類に応じて存在するステータス上昇値で、「強化」や「限界突破」によって上昇させることができます。\n「強化」は、「特殊装備強化石」や余った特殊装備を消費して強化経験値を溜め、特殊装備の強化Lvを上昇させます。\n「限界突破」は、「特殊装備コア」・資金・強化素材を消費し、特殊装備のレアリティを上昇させ、強化レベルがリセットされます。限界突破は現在R→SRのみ開放されています。\n\n「変化性能」は、特殊装備それぞれが持つ「変動」する性能で、装備の種類によって定められた範囲内からランダムで付与されます。\n特殊装備は「変化」で、「特殊装備変化石」を消費し「変化性能」を付与し直すことができます。\n取得した変化性能は、「変化確定」で特殊装備に付与、または「変化中止」で破棄することができます。\n\n「装備効果」とは、特殊装備を一定レベルまで強化すると開放される特殊効果/能力のことです。\n一部の専用特殊装備は「装備効果」のほかに、特定スキルを強化できる効果も持ちます。\n\n・特殊装備の戦闘時の挙動について\n一部特殊装備は戦闘中、「装備効果」として敵弾を消す「特殊斬撃」を自動で放ちます。\n「特殊斬撃」は特殊装備の種類・装備艦船の艦種/数量によって、斬撃の範囲/軌跡と消せる敵弾の種類が異なります。\n\n該当特殊装備を装備する艦船は、「特殊斬撃」が1回までチャージされます。\nチャージされた状態でその艦船がダメージを受けるか、もしくはダメージを受けずに5秒間経過すると「特殊斬撃」を自動で放ち、チャージ状態をリセットします。\n「特殊斬撃」をチャージするには15秒かかります。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.multiple_sorties_cost1 = {
+		tip = "消費：<color=#92fc63>「燃料<icon name=oil w=0.7 h=0.7/>$1」</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.energy_desc_3 = {
+		tip = "今のような毎日が続きますように"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_range_view = {
+		tip = "射程"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_is_loading = {
+		tip = "ただいま家具を準備しています…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_imas = {
+		tip = "アイドルマスター"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_selected_1 = {
+		tip = "強化指向Ⅰ期/選択中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_shop_title_skin = {
+		tip = "着せ替え"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_theme_bought = {
+		tip = "既に購入済みです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_400090 = {
+		tip = "このYostar IDはニンテンドーアカウントアカウントと連携されておりません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pocky_help = {
+		tip = {
+			{
+				info = "■開催時間\n 11月14日（木）メンテナンス後～12月15日（日）\n23:59"
+			},
+			{
+				info = "■遊び方\n 饅頭量産計画とは、イベントページで確認できる3種類\nの限定任務を完了させることで、ベルファストの着せ替\nえ「メイド長とお買い物」を入手できるミニイベントで\nす。"
+			},
+			{
+				info = "■限定任務について\n 限定任務は全部で3種類あり、イベントページでは「ロ\nグイン」「委託」「生産」ボタンでそれぞれ完了させる\nことが出来ます。\n・「ログイン」はゲームにログインし、イベントページ\nの「ログイン」ボタンをタップすると自動で完了できま\nす。\n・「委託」はメイド長からの様々な委託をこなすことで\n任務を完了できます。\n・「生産」はイベント期間中累計燃料消費数が一定数値\n以上になった場合に完了できます。"
+			},
+			{
+				info = "■注意\n・「委託」任務はイベントページの「ログイン」ボタン\nをタップすると表示されます。\n・限定任務は1日に1段階開放され、次の任務を表示させ\nるには前日分の任務を全て完了させる必要があります。\n  11月27日（水）より全ての任務が開放されます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.bismarck_chapter_desc = {
+		tip = "実績達成で記念アイテムGET！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.jiujiu_expedition_reward_tip = {
+		tip = "ステージを探索し、報酬を手に入れよう！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_propose_vertical = {
+		tip = "愛は幸せの導き、想いは永遠の絆\n守りたいものはあなたの笑顔\nお互いを深く愛し、支え合い\n末永く運命を共にすることを、誓います\n\n         $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_preCombatLayer_save_march = {
+		tip = "現在の編成を保存して出撃しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_trainee_duty_change_tip = {
+		tip = "メンバー貢献度が100に到達する必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exchangecode_use_error = {
+		tip = "エラー："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_task_locked_by_level = {
+		tip = "指揮官レベル$1で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_confirm = {
+		tip = "確定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_equipment_cannon = {
+		tip = "艦砲"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_buy_button = {
+		tip = "購入"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.open_skill_pos_discount = {
+		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffde38>$2</color>を消費し\n教室枠を拡張しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_info_change_name_b = {
+		tip = "203mm連装砲Mle1931"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.technology_help_text = {
+		tip = {
+			{
+				info = "変更点（2022.7.14）\n第五期特別計画艦実装に伴い、科学研究室の仕様が変更\n・コンテンツ追加\n科学研究項目に新たに「第五期」が追加\n\n・仕様変更\n①艦船の強化ユニットを強化（竜骨編纂）最大値まで強化できる分所持している場合、当該艦船の指向性研究項目が出現しなくなります。\n\n注意：\n・「研究指向」を「なし」以外で、当期のすべての艦船の強化が完了、もしくは強化完了分までのユニットを所持している場合、それぞれの艦船の研究項目が出現するようになります。\n・「研究指向」を「なし」を選択している場合、強化が未完了・かつ強化完了分のユニットを所持していない艦船の研究項目のみ出現するようになります。\n・指向性研究項目自体の出現確率は、艦船の強化ユニット所持数に関係ありません。\n\n変更点\n第三期特別計画艦実装に伴い、科学研究室の仕様が変更\n・追加されました\n\n①\n科学研究の項目に新たに「第三期」が追加されました。\n科学研究項目左上の「Ⅰ」「Ⅱ」「Ⅲ」マークから確認できます。\n\n②\n研究項目一覧画面右下の「研究指向」選択画面が一新されました。\n「研究指向」では、研究項目の出現傾向（最低三つ当該研究項目が出現する）を「第一期」「第二期」「第三期」から選択することが可能です。\nまた、新たに追加された「強化指向」では、特別計画艦を1隻選択することで、科学研究項目完了時にその艦船の強化ユニットを追加で入手できます。\n\n研究指向、強化指向の対象は科学研究室のメイン画面下部の「指向設定」バナーから確認できます。\n※新機能：研究予定列\n ·開始した研究項目は【研究完了条件】を資源消費などで条件を満たすと、【研究予定列】に追加できます\n【研究予定列】にある研究項目は追加された順番に沿って、研究時間が完了すると自動で完了していきます\nまた、【研究予定列】に科学研究項目を追加すると、項目一覧画面の研究候補項目がリセットされます\n【研究予定列】は最大5個まで研究項目を追加でき、一度研究予定列に追加された項目は完了まで予定列から外せません"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mini_game_pause = {
+		tip = "ゲームを再開しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_levelScene_0Gold = {
+		tip = "資金ポイントが空になりました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteMediator_shipState_fight = {
+		tip = "戦場に出撃中です！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_get_week_done = {
+		tip = "新しい大艦隊任務が発令されました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_spweapon_success = {
+		tip = "特殊装備所持数上限が増加しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_soundfiles_download_title = {
+		tip = "ボイス更新"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_fleet_stop = {
+		tip = "艦隊移動が停止しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_submarine_1 = {
+		tip = "この海域では命令を発令できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2310 = {
+		tip = {
+			{
+				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_xinnian2021__meishi = {
+		tip = {
+			{
+				info = "■概要\n「饅頭グルメ」とは、艦船の買い出しの依頼に応じ、制限時間内にみんなが欲しがる食べ物を屋台で購入するミニゲームになります。\n正しい食べ物を購入すると、制限時間が増加し、得点を得ることができます。\n\n制限時間終了、もしくはゲームを中断した場合、ゲームクリアになります。"
+			},
+			{
+				info = "■遊び方"
+			},
+			{
+				info = "・ゲーム回数を所持している状態でミニゲームをクリアすると、アイテム「グルメ券」を入手できます。「グルメ券」を7つ集めると、駆逐艦「Z28」を入手できます。\n・「スタート」をタップすると、画面左のキャラに買い出し内容が表示されます。\n・5秒後、買い出し内容の表示が消え、代わりに購入できる食べ物の一覧が出現します。\n・制限時間内に食べ物のアイコンをタップすると、購入する食べ物を選択することができます。また選択済みの食べ物アイコンをタップすると、選択をキャンセルすることができます。\n・食べ物を3種類選択すると、買い出し結果画面が表示されます。\n・購入した食べ物が買い出し内容と一致（並び順を含む）した場合、得点を入手することができます。\n・結果画面で「続ける」をタップすると、ミニゲームを継続することができます。「終了」をタップするか、もしくは制限時間が0になると、ミニゲームを終了できます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.empty_tip_mailboxui_en = {
+		tip = "C O M M A N D E R ， N O  M A I L  H A S  B E E N  A C Q U I R E D  Y E T "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_can_not_get_tip = {
+		tip = "作戦事件に参加していなかったため、報酬を受け取れませんでした"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.special_operation_tip2 = {
+		tip = "消費アイテムがありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_cannon = {
+		tip = "火力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_need_print = {
+		tip = "強化残り"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_kickServerClose = {
+		tip = "ただいまメンテナンス中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_snapshot_share_title = {
+		tip = "アズールレーン　利用規約"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_tendency_cur_x = {
+		tip = "研究指向 / $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.rolling_ball_help = {
+		tip = {
+			{
+				info = "■遊び方\n・キャンペーン期間中、毎日ゲーム回数が１回加算されます（最大７回まで）\n・ゲーム回数を所持している状態でミニゲームをクリアすると、ゲーム回数が1回消費され、さらに「初夏招待券」を手に入れるのに必要なログイン回数が１回加算されます。\n・ログイン回数を7回入手すると、イベントバナーにて「初夏招待券2021」を入手できます。\n・ゲーム回数の所持数は「饅頭ランド」画面右側、ログイン回数の所持数は招待券バナーにて確認できます。\n・イベントバナーはイベント一覧のほか、「饅頭ランド」で「招待状」ボタンタップで遷移できます。\n・ゲーム回数を所持していない状態でミニゲームをクリアしても、ログイン回数は加算されません。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_sender_default = {
+		tip = "司令部"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2110 = {
+		tip = {
+			{
+				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_fetchFriendMsg_error = {
+		tip = "情報取得失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room8 = {
+		tip = "キッチン"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipInfoScene_effect = {
+		tip = "経験値:<color=#92fc63>$1/$2</color>\n"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_live2dfiles_checkend = {
+		tip = "更新開始"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_kill_count = {
+		tip = "撃破数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.handbook_research_final_task_btn_claim = {
+		tip = "受取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.npc_evaluation_tip = {
+		tip = "仮加入状態のキャラクターのコメントを確認することが出来ません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_upgrade_feedback_equipment_can_be_produced = {
+		tip = "素材となる兵装が不足しています。兵装開発で素材を入手してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_detect_2 = {
+		tip = "海域偵察を行いました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
+		tip = "攻撃中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_unlock3 = {
+		tip = "6-4クリアで開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_map_title_tips_en = {
+		tip = "OPERATION INFO"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cattery_op_play_success = {
+		tip = "オフニャと遊びました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_shopId_noFound = {
+		tip = "商品idが見つかりません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_6 = {
+		tip = "弾薬速度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mot_class_t_level_1 = {
+		tip = "星を導く者"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_1 = {
+		tip = "T1 入院棟（正午）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
+		tip = "母港ビーチ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
+		tip = "専用"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.res_music_no_pre_tip = {
+		tip = "最初のBGMです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.option_desc9 = {
+		tip = "ONにすると、自分が訪問した友達の寮舎に自分の秘書艦が表示されるようになる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_status_inHardFormation = {
+		tip = "<size=24>ﾊｰﾄﾞ編成中</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_get_box_tip = {
+		tip = "ランダムなオフニャ入り"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_forbid_when_in_chapter = {
+		tip = "艦隊が出撃しています！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_r = {
+		tip = "R"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_task_get_all = {
+		tip = "一括受取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_notificationLayer_quest_request = {
+		tip = "から友達申請されています。承認しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.list_empty_tip_eventui = {
+		tip = "遂行できる軍事委託はありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_noRes_info_tip = {
+		tip = "<color=#ff5c5c>$2$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_all_page = {
+		tip = "全て"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.award_max_warning = {
+		tip = "下記の報酬は所持上限分までしか入手できません。続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_meta_repair = {
+		tip = "艤装強化可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_buildShipImmediately_error_noSHip = {
+		tip = "建造中の艦がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_fleet_in_vortex = {
+		tip = "艦隊は渦に飲み込まれそうになってしまっており、普段どおり移動できなくなっている"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_recycle_notice = {
+		tip = "セイレーン作戦がリセットされています。今の画面から移動しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.draw_big_luck_2 = {
+		tip = "豪運にゃ！ちょっと羨ましいにゃ～"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.apple_link_title = {
+		tip = "連携中のアカウント完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_addStarExp_error = {
+		tip = "経験値上昇失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_shipinfo_hunting = {
+		tip = {
+			{
+				info = "支援範囲について\n・海域マップに出撃した時、潜水艦隊の旗艦の支援範囲が潜水艦隊の「支援範囲」になります。\n\n・潜水艦隊は支援範囲内の敵に向かって自動で移動し、「漸減作戦」で敵の戦力を弱体化させます。\n\n・また、味方艦隊が潜水艦隊の支援範囲内で敵艦隊と戦闘を行った場合、戦闘中に「潜水支援」が使用可能になります。\n\n・「漸減作戦」は弾薬のみ消費します。「潜水支援」は弾薬と燃料を消費します。\n\n・「漸減作戦」の有無（移動の有無）は海域移動画面右の態勢変更ボタンで変更できます。\n\n支援範囲レベル：\n・支援範囲レベルが高い程、自身の支援範囲が広くなります。\n\n・支援範囲レベルは限界突破や装備、スキルで上昇させることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_new_1 = {
+		tip = "確保必要エリアの脅威度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.res_music_no_next_tip = {
+		tip = "最後のBGMです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.star_require_enemy_title = {
+		tip = "残存敵艦隊数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_shipinfo_equip = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/strength",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/break",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/equip",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/bullet",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/energy",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/maxlevel",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/levelup",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/fanqian",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 8,
+			windowSize = {
+				x = 836,
+				y = 720
+			},
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_favor_level = {
+		tip = "親愛度LV："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.discount_time = {
+		tip = "<color=grey>割引残り時間</color> <color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_inpout_key_tip = {
+		tip = "検索ワードを入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.chang_ship_skin_window_title = {
+		tip = "衣装"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_catchup_3 = {
+		tip = "Ⅲ期"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.harbour_bomb_tip = {
+		tip = "港が破壊されました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_select_box_tip = {
+		tip = "ネコハコ$1個を訓練しますか？（同時に訓練できるのは最大4個のみ）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_expAdd = {
+		tip = "EXP+$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.special_animal7 = {
+		tip = "[浦波のカワイイ図鑑No.7]\nレインボーマンチカン：寝るときに虹のようなよだれを垂らしてしまう謎生物。そのよだれもまた虹を作る永久機関なのだ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_fighter = {
+		tip = "戦闘機"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.retire_marry_skin = {
+		tip = "艦船$1の着せ替えが元に戻りました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_primary_weapons = {
+		tip = "主兵装"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destroy_high_level_tip = {
+		tip = "<color=#92fc63>$1Lv1以外</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_quit_erro = {
+		tip = "脱退に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clear_transcode_cache_success = {
+		tip = "ユーザーデータを削除しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_arrears_tips = {
+		tip = "不正な支払い（払い戻し）情報が確認されました。下記のサーバーにのみログインできます：【$1】"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
+		tip = "主力艦隊は一隻以上が必須です！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_switch_1 = {
+		tip = "バフ有効"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resolve_equip_title = {
+		tip = "下記の素材が入手できます:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_equipment_aircraft = {
+		tip = "艦載機"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
+		tip = "強化素材にSR以上の艦が選択されていますが、続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_finish = {
+		tip = "委託完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_6_buff = {
+		tip = "補正値：全性能（速力、装備以外）9%アップ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_lesson_repeated = {
+		tip = "既に戦術教室で勉強中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_special_title_age = {
+		tip = "モジュール変更"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
+		tip = "限界突破に必要な素材を選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.super_bulin_tip = {
+		tip = "タップで特殊チャレンジだプリン！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_fleetrear = {
+		tip = "主力艦隊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_daily_favor = {
+		tip = "本日ボーナス親愛度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_skill_dailyexp = {
+		tip = "本日入手経験値"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.res_pic_new_tip = {
+		tip = "$1枚のスチルが更新されました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.anniversary_task_title_8 = {
+		tip = "いわば弁証。偽りの永劫を望郷する者こそ真なる超人に至らん。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_fleet_outof_limit = {
+		tip = "これ以上艦隊を出撃させられません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
+		tip = "高速建造材が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_400060 = {
+		tip = "エラーコード400060：ニンテンドーアカウントログイン認証が失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_join_member_cnt = {
+		tip = "参加団員："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_setting_all_3_1 = {
+		tip = "OFF"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.bulin_tip9 = {
+		tip = "お店に来てにゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ai_change_1 = {
+		tip = "潜水艦隊・支援待機態勢に移行しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_star = {
+		tip = "突破"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_saDing = {
+		tip = "サディア帝国"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_extendArea_erro = {
+		tip = "寮舎拡張に失敗しました…<color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteLayer_quest_end = {
+		tip = "緊急帰還させると、この委託がリストから消滅します。強制帰還させますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.reselect_music_game = {
+		tip = "進行中のゲームを中断し、曲選択からやり直しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_extralevel_2 = {
+		tip = "レベル2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_continue_to_learn_other_ship_skill = {
+		tip = "\nスキルを強化する艦船を変更しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.challenge_infinite_reset = {
+		tip = "チャレンジモードが中断されました。\nチャレンジステージクリア数:$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_name_5 = {
+		tip = "スコア超UP！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.special_animal1 = {
+		tip = "[浦波のカワイイ図鑑No.1]\nブリザードウーパー：急速冷凍のスキルを有する謎生物。拡張パックでさらなる能力を会得できるらしい"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_boss_unlock = {
+		tip = "セイレーン作戦1章クリアで開放された「META戦」」で、解析Ptを入手できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_xinnian2022_firework = {
+		tip = {
+			{
+				info = "■概要\n「花火工房」とは、自分の花火を制作するミニゲーム\nになります。\n好きな火薬を選び、装薬量が所定の適切値になるよう\n装薬し、装薬値が所定の適切値に近ければ近いほど、\nより良い景品がもらえます。\nまた、「花火工場」で制作した花火は、イベントぺー\nジ画面の「打ち上げ」をタップすることで打ち上げる\nことが出来ます。\n打ち上げられた花火はイベントページから離れる\nまで表示されます。\n■操作方法\n画面下部の「装薬開始」をタップすると、花火の制作\nを開始できます。\n①火薬を選ぼう\n画面の右側にある、花火の星の色を合計3種類任意に選\nびます。\n火薬玉（星）の並び順によって花火の親星と芯星の色\nが変わりますので、要注意！\n「装薬完了」をタップすると火薬の種類の選択が完了\nします。\n②火薬を装填しよう\n画面下部の「開始」をタップすると、花火の装填量を\n決めることが出来ます。\n開始ボタンをタップすると装填が開始し、もう一回ボ\nタンをタップすると装薬が終了します。\n装填が3回行われると、花火の制作が完了します。\n1回の装填量が50％のライン（緑ライン）に近いほど\n装薬量が適切になり、3回の合計装填料が150%に近い\nほど、より良い景品がもらえます。\n③花火を打ち上げよう\n花火の制作が完了すると、裏山キャンペーンページで\n「花火打上」ボタンが表示されます。\n「打ち上げ」ボタンをタップすると、制作した花火が\nイベントページの背景に打ち上がります。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_max_tip_battle = {
+		tip = "出撃すると資源は入手できません。本当に出撃しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Settings_title_AdjustScr = {
+		tip = "画面サイズ調整"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginScene_error_noUserName = {
+		tip = "名前を入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_CANTUSE = {
+		tip = "適用不可"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200260 = {
+		tip = "APIに問題が発生しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_rank_in_current_server = {
+		tip = "※現在のサーバーでの順位です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200150 = {
+		tip = "領収書の照合に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_equipskin_tarpedo = {
+		tip = "魚雷"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_help_2506 = {
+		tip = {
+			{
+				info = "■キャンペーン開催期間\n 2025.6.1（日）0:00～2025.7.31（木）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「クレンヴィル(META)」、SP報酬からは駆逐艦「初月」の限定着せ替え「祝いの日の贅沢タイム♪」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n ①週次開放任務\n キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n ②全期間任務\n 最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n ①通常報酬\n 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n ②SP報酬\n 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n ダイヤを消費しますので、オススメしません。\n 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_extend_tip_1 = {
+		tip = "拡張許可書"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200240 = {
+		tip = "Google Playをバージョンアップしてください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pirate_wanted_help = {
+		tip = "イベント期間：10.26-11.9 メンテナンスまで\n\n遊び方\n1.イベント期間中、限定任務が出現します\n2.限定任務をクリアすると、様々な報酬を入手できます\nアビリティ固定の新オフニャ、限定テンペスタ用設備、家具「燦々たる針路」   \n受け取り時間は11月15日（水）23:59まで"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pre_combat_atlasloot = {
+		tip = "出現"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardGranaryLayer_noFood = {
+		tip = "寮舎の食糧庫が空っぽになりました…"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.list_empty_tip_equipmentdesignui = {
+		tip = "設計図を所持していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_assess_start_tip = {
+		tip = "判定開始"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_mod_value = {
+		tip = "強化値"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sham_team_limit = {
+		tip = "主力艦隊と前衛艦隊それぞれ１隻以上が必要です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_capacity = {
+		tip = "所持:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_log_room_title = {
+		tip = "エリア調査記録"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_acttime_limit = {
+		tip = "限定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_consume = {
+		tip = "確定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_theme_no_exist = {
+		tip = "セットが存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.vote_final_title2 = {
+		tip = "報酬について"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.common_activity_not_start = {
+		tip = "イベントはまだ開始されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200180 = {
+		tip = "サーバーと通信中です。しばらくお待ち下さい"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipType_weiXiu = {
+		tip = "工作"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_changeFormationError_flag = {
+		tip = "陣形変更時にエラーが発生しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_ship_from = {
+		tip = "from:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100231 = {
+		tip = "このアカウントは完全に削除されたため、復元できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.map_event_stop_story_tip = {
+		tip = "<color=#92fc63>イベントマスを踏む</color>ことで通行禁止状態を解除できます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_create = {
+		tip = "製造"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_member_tip = {
+		tip = {
+			{
+				info = "メンバー管理について："
+			},
+			{
+				info = "1.大艦隊のメンバーはこの画面で他のメンバー情報を確認できます。"
+			},
+			{
+				info = "2.艦隊司令・副司令は<color=#92fc63>職位が自分より低いメンバー</color>の役割を自由に変更できます。大艦隊司令は<color=#92fc63>副司令</color>から新しい司令を任命することが可能です。また、大艦隊副司令は最大<color=#92fc63>4</color>人まで任命できます"
+			},
+			{
+				info = "3.艦隊司令・副司令は<color=#92fc63>職位が自分より低いメンバー</color>を大艦隊から除名できます。"
+			},
+			{
+				info = "4.大艦隊司令は<color=#92fc63>10</color>日間ゲームにログインしていない場合、副司令は大艦隊司令を<color=#92fc63>弾劾</color>出来ます。"
+			},
+			{
+				info = "5.弾劾について：弾劾が行われた場合、<color=#92fc63>24</color>時間内艦隊司令は弾劾を取り消すことが出来ます。<color=#92fc63>24</color>時間内弾劾が取り消されない場合、大艦隊司令の権限は<color=#92fc63>活躍度が最も高い</color>に移行されます。"
+			},
+			{
+				info = "6.<color=#92fc63>見習いメンバーについて</color>："
+			},
+			{
+				info = "  大艦隊に新たに参加したメンバーは「見習い」メンバーになります"
+			},
+			{
+				info = "  「見習い」メンバーの貢献度が100に到達すると、「一般メンバー」になります"
+			},
+			{
+				info = "  「見習い」メンバーは職位を変更できません"
+			},
+			{
+				info = "  「見習い」メンバーは大艦隊兵站施設を利用できません"
+			},
+			{
+				info = "  「見習い」メンバーは大艦隊補給を利用できません"
+			},
+			{
+				info = "  「見習い」メンバーは大艦隊作戦に参加できますが、一般メンバーに昇格しないかぎり作戦事件報酬を受け取りできません"
+			},
+			{
+				info = "    ほかの各種権限については「見習い」メンバーは一般メンバーと同じ扱いになります"
+			},
+			{
+				info = "※「見習い」メンバーが除名された場合、「大艦隊作戦」の作戦事件報酬はメールボックスに送られます"
+			},
+			{
+				info = "7.<color=#92fc63>貢献度</color>について："
+			},
+			{
+				info = "メイン画面⇨「任務」の任務を完了するか、大艦隊コンテンツで活躍することで、<color=#92fc63>「貢献度」</color>を上げることが出来ます："
+			},
+			{
+				info = "    デイリー任務：<color=#92fc63>2</color>"
+			},
+			{
+				info = "    ウィークリー任務：<color=#92fc63>5</color>"
+			},
+			{
+				info = "    大艦隊任務（1回につき）：<color=#92fc63>2</color>"
+			},
+			{
+				info = "    大艦隊資源拠出（1回につき）：<color=#92fc63>10</color>"
+			},
+			{
+				info = "    大艦隊作戦事件参加（1回につき）：<color=#92fc63>1</color>"
+			},
+			{
+				info = "    大艦隊作戦・強敵に挑戦する：<color=#92fc63>10</color>"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_noPos_buy = {
+		tip = "拡 張"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_main_pos = {
+		tip = "指揮ニャ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.idolmaster_game_tip1 = {
+		tip = "ゲームを再開しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_sys_lock_tip = {
+		tip = "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_newPlayerScene_inputName = {
+		tip = "名前を入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.option_desc6 = {
+		tip = "（ON状態）ロード画面のアスペクト比に端末の画面設定を適用させる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_risk_level_mitigation_rate = {
+		tip = "<size=32>海域危険度判定：<color=#92fc63>【$1】</color>\n出撃艦隊ダメージ軽減<color=#92fc63>$2%</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_already_add = {
+		tip = "既に友達になっています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_levelScene_0Oil = {
+		tip = "燃料ポイントが空になりました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Settings_title_sound = {
+		tip = "音声設定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_title_new = {
+		tip = "メール"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
+		tip = "勲章が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_ship_repair_1 = {
+		tip = "通常修理$1 資源消費：\n<icon name=world_money w=0.7 h=0.7/>*$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginScene_server_full = {
+		tip = "サーバーは満員です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.zengke_series_serverinfo = {
+		tip = "サーバー:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shipyard_phase_1 = {
+		tip = {
+			{
+				info = "イベント概要：\n 「テンペスタの秘密造船所」とは、任務イベント「テンペスタの秘密造船所」で造った船を操縦し、大海原で敵を倒したり、お宝を回収したりしつつ終点を目指し、スコアを稼ぐミニゲームになります。\n イベントは<color=#92fc63>10月24日（木）～-11月7日（木）23:59</color>まで開催されます。\n\n  遊び方：\n ・10月30日（水）まで、毎日限定任務が開放されます。開放されたすべての限定任務をクリアすると、ミニゲームで使用する船が完成します。\n ・ミニゲームでは、ステージを選択し、更に装備したい兵装を選択すると、海戦ゲームをプレイすることができます。\n ・ミニゲームのステージをクリアすると、それぞれのステージで1度だけクリア報酬を入手でき、さらに7つのステージを全部クリアすると、限定家具「始まりの冒険船」をGETできます。\n ・ステージ7をクリアすると、任意のステージを選択してプレイすることができます"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_shop_template_normaltext = {
+		tip = "活動常規道具兌換 "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2410 = {
+		tip = "2024/10/1-2024/11/30キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「鳳翔(META)」</color>などを入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ins_word_minu = {
+		tip = "$1分前"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_collection = {
+		tip = {
+			{
+				info = "■キャラ好物情報について"
+			},
+			{
+				info = "「キャラ好物情報」では、コラボイベントに参加し、様\n々な条件を達成することで「キャラ好物情報」を開放す\nることができます。\n「キャラ好物情報」を全18個開放すると、限定家具「\nヴィーナス記念像」（合計で1個しか所持できません）、「装備外装箱（ヴィーナスバカンス）*3」を入手できます。"
+			},
+			{
+				info = "■キャラ好物情報の解放方法"
+			},
+			{
+				info = "キャラ好物情報は下記それぞれの方法によって開放され\nます。\n・イベント海域（ステージ）をクリア\n・イベント任務をクリア\n・ヴィーナスPt「累計獲得数報酬」\n・「ミニゲーム新規（どんけつゲーム）」「ミニゲーム復刻（ヴィーナス練習試合）」に参加\n\nキャラ好物情報の開放報酬は5月17日（水）23:59ま\nでの期間限定で受け取れます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.music_main = {
+		tip = {
+			{
+				info = "■激唱ハウスとは"
+			},
+			{
+				info = "激唱ハウスとは、イベント「激唱のユニバース」のトッ\nプページであり、イベントの各画面に移動することがで\nきます。\n"
+			},
+			{
+				info = "■各コンテンツの説明\n特別海域：\nイベント期間中に開放される限定海域。イベント海域を\nクリアすると、アイテム「激唱エンブレム」を集めるこ\nとができます。\n \n作戦補給：\n「激唱エンブレム」を各種報酬と交換することができま\nす。\n \n累計報酬：\n入手した「激唱エンブレム」の累計数により、艦船「イ\nラストリアス(μ兵装)」など様々な報酬を入手できま\nす。 \n限定建造：\n建造の「期間限定建造」ページに移動します。\n \n着せ替え：\nショップの「着せ替え」ページに移動します。\n \n記念章：\n様々な条件を達成すことで、「グッズ」を集めることが\nできます。「グッズ」を全部集めると、限定アイテム「\n激唱記念章」を入手できます。\n \n激唱舞台：\nリズムゲームをプレイすることができます。７日間プレ\nイすると、SR「ル・マラン(μ兵装)」を入手できま\nす。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newplayer_notice_5 = {
+		tip = "クリアで「ネルソン」をGET"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_start_supply_consume_tip = {
+		tip = "大艦隊資金$1を消費し、大艦隊補給を購入しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_fleet_not_exist = {
+		tip = "艦隊が存在していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_chapter_open_count_down = {
+		tip = "残り時間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_scene_title_word_5 = {
+		tip = "推奨:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100600 = {
+		tip = "API起動失敗、パラメータの取得に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["card_battle_card details"] = {
+		tip = "コマンド詳細"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_week_title = {
+		tip = "曜日"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_name_change_warning = {
+		tip = "指揮官名を変更するには<color=#92fc63>$2</color>を<color=#92fc63>$1</color>つ消費します。<color=#92fc63>30</color>日に一度しか変更できません。指揮官名を<color=#92fc63>$3</color>に変更しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Supplement_pay3 = {
+		tip = "アイテム購入が全て正常に処理されました。ゲームを再起動すると正常にログインできます。ご協力頂きありがとうございました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_news_other_empty = {
+		tip = "今月に一般イベントはありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_storeroom_page = {
+		tip = "貯蔵庫"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_tendency_4 = {
+		tip = "特別計画Ⅳ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_chapter_unlock_tip = {
+		tip = "指揮官Lv<color=#92fc63>$1</color>で開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100160 = {
+		tip = "誕生日が入力済です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_need_level = {
+		tip = "Lv.$1が必要"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_goldField = {
+		tip = "貿易港"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.collection_hadAward = {
+		tip = "報酬受取済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_angle = {
+		tip = "射角"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amusementpark_shop_exchange = {
+		tip = "引換券がないピョ。任務をクリアして引換券を手に入れるピョ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_battleMediator_clear_warning = {
+		tip = "戦闘を中断すると、チャレンジ進捗がリセットされ、累計得点は一つ前のステージの得点まで計算されます。戦闘を中断しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipType_qinXun = {
+		tip = "軽巡"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_shipinfo_detail = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/strength",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/break",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/equip",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/bullet",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/energy",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/BoostEXP",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/maxlevel",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/levelup",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/fanqian",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 8,
+			windowSize = {
+				x = 836,
+				y = 720
+			},
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_resume_data_title = {
+		tip = "情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_205154 = {
+		tip = "改造（近代化改修）すると、スキル<color=#92fc63>【BIG SEVEN】</color>が\n<color=#92fc63>【BIG SEVEN·ネルソン】に強化されます</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_shipAddMoney_error = {
+		tip = "コイン獲得失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2110 = {
+		tip = "10.1~11.30キャンペーン期間中、シーズン任務報酬で<color=#854747>「扶桑(META)」</color>などを入手可能！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100210 = {
+		tip = "ゲームアカウントと連携していないSNSアカウントです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100305 = {
+		tip = "このメールアドレスでの利用は制限されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.town_help = {
+		tip = {
+			{
+				info = "遊び方：\n期間限定イベント「荒野休日開拓記」が<color=#92fc63>8.15（木）-8.29（木）メンテ</color>まで開催！\n\n  ·開拓タウンでは、時間経過で「開拓コイン」を入手できます。また、一部限定任務や出現するキャラをタップしても「開拓コイン」を入手できます。\n ·「開拓コイン」を消費すると、施設（作業地点）のレベルを上げることができます。施設レベルが高いほど、「開拓コイン」の入手効率も上昇するほか、タウンの「繁栄度」が上昇します。\n ·タウンの「繁栄度」が一定数値を達成すると、「開拓コイン」を消費してタウンレベルを上げる事ができます。タウンレベルが上がると、新しい施設（作業地点）などのコンテンツが開放されます。\n ·「開拓仲間」にキャラを配置すると、配置されたキャラの出撃時に得られる好感度ボーナスが上昇します。さらにキャラが開拓タウンに出現することがあり、タップすると「開拓コイン」を少し手に入れることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_synthesize = {
+		tip = "総合"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
+		tip = "まだメールを保管していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_preCombatLayer_save_confirm = {
+		tip = "現在の編成を保存しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.clue_buff_research = {
+		tip = "調査内容"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_exploit = {
+		tip = "戦果"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.just_now = {
+		tip = "直前"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.caibulin_help = {
+		tip = {
+			{
+				info = "遊び方：\n1.イベント期間中、母港と海域の特定の場所に「ヒント」が現れるプリン！\n2.見つけられない場合は、「ヒント」のアイコンをタップするといいプリン！\n  ヘルプは10分に1個しか開放できないプリン！\n3.「ヒント」をすべて集めると、特殊ステージに挑戦できるプリン！\n   特殊ステージをクリアすると、報酬を入手できるプリン！"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_desc_unlock = {
+		tip = "パスワード機能で制限されている操作です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_create_error_nofaction = {
+		tip = "大艦隊陣営が必要です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_repair_rate = {
+		tip = "艤装強化率"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_archives_stop_auto_battle = {
+		tip = "自動戦闘中止"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sham_my_assist_ship_level_limit = {
+		tip = "出撃する艦のレベルが$1以上必要です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.gold = {
+		tip = "資金"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.launch_ball_shinano_skill_1 = {
+		tip = "アクティブ:刹那の夢"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_extendArea_ok = {
+		tip = "寮舎拡張に成功しました！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_morale_4 = {
+		tip = "オーダー使用後、一定時間経過まで再度使用できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.techpackage_item_use_1 = {
+		tip = "特別開放は同年度に実装する特別計画艦1隻のみを選択して入手できます。<color=#92fc63>$1</color>を選択しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_resume_title_metal = {
+		tip = "最高階級:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tactics_max_level = {
+		tip = "既に最大レベルです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_cant_buy_tip = {
+		tip = "購入できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_theme_open_tip = {
+		tip = "開放条件:\n指揮官Lv<color=#92fc63>$1</color>以上"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_level_limit = {
+		tip = "練度不足"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_39903 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n100mm二連装九八式高角砲\n610mm四連装魚雷\n試作型五式40mm高射機関砲</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.formation_switch_failed = {
+		tip = "切り替える艦隊がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.no_airspace_competition = {
+		tip = "制空戦なし"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Settings_title_Redeem_input_label = {
+		tip = "シリアル入力:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.disassemble_selected = {
+		tip = "選択済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_skin = {
+		tip = "着替所持"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2206 = {
+		tip = "<size=24>2022.6.1-2022.7.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「メンフィス(META)」</color>などを入手可能！</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.exercise_count_recover_tip = {
+		tip = "( <color=#92fc63>$1</color> 後回復)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.courtyard_label_empty_custom_template_list = {
+		tip = "没有找到符合条件的家具主题\n请前往管理界面重新保存自定义主题"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_propose_changename_title = {
+		tip = "<color=#92fc63>$1</color>はあなたの専属艦になりました。名前を変更しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_finish_1 = {
+		tip = "強化指向Ⅰ期/完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
+		tip = "<size=28>すでに交換可能な全着せ替えを所持しています。\n<color=#92fc63>$1*1</color>を\n<color=#92fc63>$2*1</color>に変換しますか？</size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_should_input_keyword = {
+		tip = "キーワードが入力されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_max_count_1 = {
+		tip = "相手の友達数がいっぱいです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_change_attr = {
+		tip = "変化確定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_item_origin = {
+		tip = "入手条件"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.expedition_drop_use_out = {
+		tip = "当該難易度の本日の追加報酬は全て入手しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100114 = {
+		tip = "このIPアドレスでのアクセスは制限されています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.trade_card_tips3 = {
+		tip = "お知らせにゃ。\n指揮官が購入した貿易許可証は、$1で期間満了になるにゃ。\n貿易許可証を購入すると毎日ボーナスが貰えるにゃ～\n明石のお店で、引き続き購入するのはいかがかにゃ？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_add_new = {
+		tip = "New!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_dissolve_erro = {
+		tip = "解散に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_member_rank_title_donate = {
+		tip = "拠出回数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_shipType_hangMu = {
+		tip = "空母"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_exp = {
+		tip = "EXP"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.daily_level_quick_battle_label1 = {
+		tip = "一括挑戦$1回"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_max_page = {
+		tip = "最大"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_theme_save_tip = {
+		tip = "寮舎配置を保存しますか？:\n<color=#92fc63>$1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_max_tip_collect = {
+		tip = "報酬を受け取ることができません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_retreat_erro = {
+		tip = "撤退失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_day7 = {
+		tip = "日"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_manage_1 = {
+		tip = "すべて"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipment_destroyEquipments_error_noEquip = {
+		tip = "装備が存在しません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.warning_mail_max_4 = {
+		tip = "メールボックスがいっぱいです。所持数が所持上限に達しているとメールを新たに受信できません。メールボックスを閉じますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.use_oil_limit_help = {
+		tip = "艦隊戦闘の燃料消費<icon name=oil w=0.7 h=0.7/>$1が燃料消費上限を上回っているため、燃料消費は燃料消費上限<icon name=oil w=0.7 h=0.7/>$2になります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100300 = {
+		tip = "無効なメールアドレスです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_expedition_reward_display2 = {
+		tip = "HP $1%"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_other = {
+		tip = "その他"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shopStreet_refresh_max_count = {
+		tip = "本日はもう更新できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.number_8 = {
+		tip = "八"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_talent_learned = {
+		tip = "アビリティ$1を習得しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_intimacy = {
+		tip = "好感度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_levelScene_lock = {
+		tip = "海域が開放されていません。<color=#92fc63>前のステージ</color>を攻略すると開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.school_title_xiaoyouxiting = {
+		tip = "ゲームロビー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_threaten_exclude = {
+		tip = "脅威排除"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_shipType_zhanLie = {
+		tip = "戦艦"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_show_the_finished_version = {
+		tip = "既に完了（素材確保）した指向も選択する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_prefab_name = {
+		tip = "セット$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_max_count = {
+		tip = "相手の友達人数が上限になっています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shipchange_alert_inworld = {
+		tip = "この艦船はセイレーン作戦で編成されています。セイレーン作戦の編成から外しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
+		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n(<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n135mm連装砲Model1938\n試作型533mm四連装魚雷Si 270\n試作型20mmScotti六連装機関 Model1941\n</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型艦上式La-9\n試作型艦上式La-9\n試作型VIT-2（モードチェンジ）\n</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipType_other = {
+		tip = "他"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_box_quickly_tool_tip_3 = {
+		tip = "残り時間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_rare2 = {
+		tip = "ノーマル"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_chapter_state_safety = {
+		tip = "<color=#92fc63>【安全海域】</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.event_same_type_not_allowed = {
+		tip = "同じ艦を編成できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.inform_sueecss_tip = {
+		tip = "通報しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_cancel_g = {
+		tip = "戻 る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dockyard_search_holder = {
+		tip = "キャラ名入力"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginScene_server_vindicate = {
+		tip = "メンテナンス中です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.link_link_help_tip = {
+		tip = {
+			{
+				info = "                                     ※遊び方※\n"
+			},
+			{
+				info = "1.「サンディエゴスター」を入手できる回数は毎日0:00に1回増加します；"
+			},
+			{
+				info = "2.前日イベントに参加しなかった・ミニゲームをクリアしなかった場合でも回数が自動で上乗せされます；"
+			},
+			{
+				info = "3.「サンディエゴスター」の入手個数は「何度目の入手」かによって、毎回異なります；"
+			},
+			{
+				info = "4.同じキャラアイコンをタップして、下記の条件を満たすと、キャラアイコンを消すことができます；"
+			},
+			{
+				info = "5.条件：2つのキャラアイコンの間でほかのキャラアイコンを経由することなく、直線（横・縦）3つ以下で繋げられる場合、キャラアイコンを消すことができます；"
+			},
+			{
+				info = "6.すべてのキャラアイコンを消すと、「サンディエゴスター」を入手できます；"
+			},
+			{
+				info = "7.「サンディエゴスター」を7日間プレイして18個入手すると、改造素材「輝く☆マイク」を入手できます；"
+			},
+			{
+				info = "8.「輝く☆マイク」を入手済み、もしくは「サンディエゴ改」を持っている場合、代わりにアイテム「サンディエゴ☆スター」を入手できます；"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_mailMediator_notingToTake = {
+		tip = "受け取れるアイテムはありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.loveletter_recover_bottom2 = {
+		tip = "メール再送"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mm三連装砲Mk6改\nF8Fベアキャット\n127mm連装両用砲Mk12(時限信管)</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_expand = {
+		tip = "裏山温泉コインを$1消費し温泉を増築しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_task_help_2404 = {
+		tip = {
+			{
+				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_spweapon = {
+		tip = "特殊装備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.coloring_erase_warning = {
+		tip = "着色済みの枠から色を削除した場合、着色した際に使用した絵の具はもとに戻りません。本当に削除しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_buff_desc_6 = {
+		tip = "ゲーム開始時、制限時間が10秒延長される。時間切れになる度、50%の確率でさらに10秒延長される"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_level = {
+		tip = "練度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_49906 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型BF-109G（特別計画艦仕様）\nJu-87C急降下爆撃機\nJu-87 D-4</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sham_shop_title = {
+		tip = "コア月度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200310 = {
+		tip = "Google Playへの接続に失敗しました、電波の良いところで再度お試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.bulin_tip6 = {
+		tip = "みんなお腹が減ってるのかにゃ？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_room_unlock = {
+		tip = "アセットをダウンロードする必要があります"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.monopoly3thre_tip = {
+		tip = "※着せ替えを既に所有している場合は、自動で資金に変換されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_simulation_confirm_19901 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装152mm両用砲Mk17\n試作型三連装152mm両用砲Mk17\n四連装ボフォース40mm機関砲</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_create_error_nomoney = {
+		tip = "ダイヤが足りません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_show_touch_effect = {
+		tip = "タッチエフェクト表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.area_shenyuan = {
+		tip = "強敵座標"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.upgrade_introduce_tip = {
+		tip = "$1レッスンlv.MAXで追加報酬GET!"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child2_personality_title = {
+		tip = "性格"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100803 = {
+		tip = "エラー：文字数オーバー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_oni_lose = {
+		tip = "特殊目標拿捕失敗・目標が海域から離脱しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200130 = {
+		tip = "購入に失敗しました、決済システムにエラーが発生しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_scene_title_word_1 = {
+		tip = "索敵値:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_forward = {
+		tip = "確 認"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_cancel = {
+		tip = "戻 る"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tips_shrine_buff = {
+		tip = "賽銭︵資金5︶を入れ   　 を祈願しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_destroy_tip = {
+		tip = "META艦船は退役できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_spweapon = {
+		tip = "専用装備"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.show_fate_demand_count = {
+		tip = "<color=#92fc63>竜骨編纂</color>に必要な数量を表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_special = {
+		tip = "特殊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_resume_manoeuvre_count = {
+		tip = "演習回数:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pgs_unbind = {
+		tip = "PGSアカウントの連携解除"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_300100 = {
+		tip = "システムシェアに失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_total_score = {
+		tip = "スコア："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_cant_put_tip = {
+		tip = "配置できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_shipNation_yumia = {
+		tip = "ユミアのアトリエ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_loop_help_tip = {
+		tip = {
+			{
+				info = "海域攻略ゲージ100%を達成すると、海域選択画面で同ステージを<color=#92fc63>「周回モード」</color>に設定することが可能になります。\n\n「周回モード」の特徴は下記になります：\n1.周回モードのみ、敵艦隊との戦闘時、敵との「燃料消費上限」が追加され、味方水上艦隊・潜水支援の燃料消費が「燃料消費上限」を上回った場合でも、実際の燃料消費量は「燃料消費上限」に準ずる数値になります\n2.メインステージのハードモードステージでは、敵の護衛艦隊が<color=#92fc63>出現しなくなります</color>。\n3.イベントステージの敵の配置・行動ロジックが変化します。\n4.イベントステージで味方の<color=#92fc63>移動制限が解除され</color>、海域マップで自由に移動できます。\n5.ノーマル海域においては「空襲」、「待ち伏せ」が出現しなくなります\n6.周回モードでは、「出撃確認skip」機能を使用できます\n7.周回モードでは、<color=#92fc63>自動攻略モード</color>機能を使用できます\n\n自動攻略モードについて自動攻略モードでは艦隊の移動・戦闘確認・戦闘・戦闘結果画面確認の挙動が自動で行われます自動攻略モードのON/OFFは<color=#92fc63>海域選択画面下部のチェックボックス</color>と<color=#92fc63>マップ画面右下のボタンで</color>設定を変更できます\n\n自動攻略モードでは、艦隊の挙動が下記の仕様になります\n・敵に向けて<color=#92fc63>自動で</color>移動し、戦闘を仕掛けます\n・戦闘を仕掛ける敵の優先順位は<color=#92fc63>【敵中枢艦隊＞人型セ\nイレーン艦隊＞近くにいる量産型艦隊】</color>になります\n・艦隊の挙動は出撃準備画面の「自動設定」で下記四通りの設定に変更できます\n\n　道中戦闘：<color=#92fc63>敵中枢艦隊以外の艦隊</color>にのみ戦闘を仕掛けます。行動艦隊として海域で移動・戦闘を行います\n　中枢戦闘：<color=#92fc63>敵中枢艦隊にのみ</color>戦闘を仕掛けます。敵中枢艦隊が出現した場合、行動艦隊に切り替えられます\n　全戦闘：<color=#92fc63>敵艦隊全て</color>に戦闘を仕掛けます\n　待機：敵艦隊に戦闘を仕掛けず、移動しません\n\n※出撃艦隊が2ついる場合、「道中艦隊」と「中枢艦隊」の組み合わせ、もしくは「全戦闘」と「待機」の組み合せで設定しなければなりません\n　出撃艦隊が1つだけの場合、「全戦闘」で自動設定されます\n\n・戦闘中、潜水支援を行いません\n・自動攻略モードは、手動で停止するか、下記の状況が発生時に停止されます\n　艦船のコンディション低下している場合\n　資金が備蓄上限を上回った場合\n　戦闘可能な量の燃料がない場合\n　ドックが満杯になった場合\n　戦闘で敗北した場合（もしくは艦隊を維持できない場合）\n　新しい艦船を図鑑に登録した場合"
+			}
+		}
 	}
 end)()
 
@@ -35148,26 +35730,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dont_add_self = {
-		tip = "自分を追加できません"
+	_G.pg.base.gametip.anniversary_task_title_10 = {
+		tip = "いわば敬虔。輝く物語の結末を夢見る者に書き手のご加護あれ。"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_sys_lock_tip = {
-		tip = "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
+	_G.pg.base.gametip.world_boss_tip = {
+		tip = "「<color=#7e7e7f>$1</color>」が作戦進捗に<color=#8299bc>$2</color>Ptを貢献しました！"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.school_title_dajiangtang = {
-		tip = "大講堂"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_propose_cost_tip = {
-		tip = "<size=32>ケッコンは誓いの指輪を<color=#92fc63>1</color>つ消費します（所持数：<color=#92fc63>$1</color>）</size>\n\n<size=32>*ケッコンした艦船は専属艦になり、名前を変更でき、更に性能が<color=#92fc63>3%</color>強化されます</size>"
+	_G.pg.base.gametip.tactics_lesson_cancel = {
+		tip = "強化を中止すると、スキル経験値は少し入手できますが、<color=#92fc63>教科書は消費されます</color>。続けますか？"
 	}
 end)()
 
@@ -35178,26 +35754,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100246 = {
-		tip = "システムバージョンが古いため、Apple連携できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.friend_player_is_friend_tip = {
-		tip = "すでに友達になっているユーザーです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
-		tip = "強化素材に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_collection_beach = {
-		tip = "ビーチ"
+	_G.pg.base.gametip.mail_manage_2 = {
+		tip = "下記アイテムのみ含まれるメール"
 	}
 end)()
 
@@ -35208,26 +35766,50 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.friend_player_is_friend_tip = {
+		tip = "すでに友達になっているユーザーです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
+		tip = "強化素材にSR以上の艦が選択されていますが、続けますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_collection_beach = {
+		tip = "ビーチ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.school_title_dajiangtang = {
+		tip = "大講堂"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.pt_total_count = {
 		tip = "累計$1："
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_equip_to_fleet_erro = {
-		tip = "オフニャを装備できませんでした$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_all_1 = {
-		tip = "この機能はまだ開放されていません"
+	_G.pg.base.gametip.trade_card_tips1 = {
+		tip = "ショップ"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.resourceSite_collectResource_error = {
 		tip = "資源獲得失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_tendency_cur_4 = {
+		tip = "研究指向 / Ⅳ"
 	}
 end)()
 
@@ -35256,8 +35838,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_final_title2 = {
-		tip = "報酬について"
+	_G.pg.base.gametip.blueprint_stop_success = {
+		tip = "開発中止に成功しました"
 	}
 end)()
 
@@ -35290,8 +35872,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_stop_success = {
-		tip = "開発中止に成功しました"
+	_G.pg.base.gametip.guild_member_max_count = {
+		tip = "メンバー数は上限になっています"
 	}
 end)()
 
@@ -35302,14 +35884,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.amercian_notice_6 = {
-		tip = "所持資源（燃料/資金）が上限になっています。作戦補給で入手した資源が破棄されます。作戦補給を交換しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
-		tip = "食糧が不足しています。食糧を補充しますか？"
+	_G.pg.base.gametip.vote_final_title1 = {
+		tip = "本戦について"
 	}
 end)()
 
@@ -35320,20 +35896,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
+		tip = "食糧が不足しています。食糧を補充しますか？"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
 		tip = "選択中の編成をオススメ編成に変更しますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_getMailList_error_noNewMail = {
-		tip = "新しいメールがありません"
+	_G.pg.base.gametip.word_shipNation_link = {
+		tip = "コラボ"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_catchup_6 = {
-		tip = "Ⅵ期"
+	_G.pg.base.gametip.tec_notice_not_open_tip = {
+		tip = "前期の開発新兵任務クリアで開放"
 	}
 end)()
 
@@ -35366,8 +35948,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_catsearch_help_2 = {
-		tip = "入手可能報酬"
+	_G.pg.base.gametip.backyard_backyardScene_quest_saveFurniture = {
+		tip = "マイセットを<color=#92fc63>保存</color>しますか？"
 	}
 end)()
 
@@ -35378,24 +35960,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.newplayer_help_tip = {
-		tip = {
-			{
-				info = "※新要素"
-			},
-			{
-				info = "特別計画艦（三期）実装に合わせて、新兵任務に「開発\n任務」を追加しました。\n指揮官レベルが30に到達すると、新兵任務画面右下の「開発」タブが開放されます。\n「開放」タブをタップすると、開発ドック関連の任務を確認することができます。"
-			},
-			{
-				info = "「開発」任務をクリアすると、特別計画艦（一期）の開発の加速を行えるアイテム「戦術データパック」を入手できます。\n「戦術データパック」は開発ドックにて特定の艦船の「戦術データ蓄積」任務の経験値に変換できます。"
-			},
-			{
-				info = "ルール："
-			},
-			{
-				info = "1.新兵任務に開催期間はありません\n2.現段階（初級・中級・上級）の任務をすべてクリアすると、チャレンジ任務が開放されます\n3.チャレンジ任務をクリアすると、次の段階に進めます\n4.全ての任務をクリアし、報酬を受け取ったあと、新兵任務は消失します"
-			}
-		}
+	_G.pg.base.gametip.friend_send_msg_null_tip = {
+		tip = "空メッセージを送信できません"
 	}
 end)()
 
@@ -35412,14 +35978,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_final_title1 = {
-		tip = "本戦について"
+	_G.pg.base.gametip.backyard_extendArea_tip = {
+		tip = "拡張許可書 ||$1|| 個を消費しますか？||所持数:||$2||個"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_extendArea_tip = {
-		tip = "拡張許可書 ||$1|| 個を消費しますか？||所持数:||$2||個"
+	_G.pg.base.gametip.world_resource_tip_2 = {
+		tip = "未资源提示1(未使用)"
 	}
 end)()
 
@@ -35454,20 +36020,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_stop_tip = {
-		tip = "研究を中止しますか？（消費したアイテム・資源は元に戻りません）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.text_buy_fashion_tip = {
-		tip = "$1ダイヤで$2を購入しますか？"
+	_G.pg.base.gametip.commander_play_erro = {
+		tip = "強化に失敗しました$1"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.world_ship_repair_2 = {
 		tip = "完全修理$1 資源消費：\n<icon name=world_money w=0.7 h=0.7/>*$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.task_submitTask_error_client = {
+		tip = "任務完了失敗"
 	}
 end)()
 
@@ -35484,268 +36050,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
-		tip = "強化素材にSR以上の艦が選択されていますが、続けますか？"
+	_G.pg.base.gametip.commander_talent_not_exist = {
+		tip = "不正なアビリティ（すでに存在しているアビリティ）です"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.word_serverLoadNormal = {
 		tip = "<material=outline c=#252525FF x=1 y=-1><color=#92fc63FF>正常</color></material>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_port_goods_locked = {
-		tip = "エリア確保進捗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child2_game_cnt = {
-		tip = "$1週目"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_clear_all = {
-		tip = "キャッシュデータをクリアしますか？\n（キャッシュクリア完了後アプリが自動で終了します）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_drop_title = {
-		tip = "信标收集(未使用)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_verify_warn = {
-		tip = "キャッシュクリアを行いますか？（キャッシュクリア中に端末が短い間反応しなくなる場合がございます）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.res_wifi_tip = {
-		tip = "wifi環境でのダウンロードをお勧めします。ダウンロードを続行しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_star = {
-		tip = "突破"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tag_level_oni = {
-		tip = "特殊单位"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.anniversary_task_title_1 = {
-		tip = "それは異型の外敵を断つ剣、人類の最後の守り手。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.anniversary_task_title_5 = {
-		tip = "いわば忠義。栄光の女王陛下に仕えし者は自然の恩恵を授かる。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.touch_body = {
-		tip = "タッチ\n1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_resdownload_title_gallery = {
-		tip = "       スチル鑑賞アセット"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.other_world_temple_award_title_1 = {
-		tip = "力の像の恵み"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_catchup_errorfix = {
-		tip = "「科学研究・一期」の特殊任務は1回だけ復活します。（既に2回クリアした場合、特殊任務は復活しません）"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_pt_no_enough = {
-		tip = "限界突破に必要な強化経験値が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.anniversary_task_title_10 = {
-		tip = "いわば敬虔。輝く物語の結末を夢見る者に書き手のご加護あれ。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_shop_tip2 = {
-		tip = "※このアイテムは1回しか購入できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_mailMediator_attachTaken = {
-		tip = "添付アイテムを受け取りました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.complete = {
-		tip = "委託\n完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.beach_guard_m_guard = {
-		tip = "攻めてくるセイレーンをブロックしてくれるピョ！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginMediator_loginSuccess = {
-		tip = "ログインしました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.retire_setting_help = {
-		tip = {
-			{
-				info = " ·「誤退役防止確認」をONにすると、退役対象となる艦船でドック内に<color=#92fc63>ほかの同名艦船が存在しない</color>場合、退役確認画面が表示されるようになります\n ·一括退役について：\n  1.レアリティがSR、R、N\n  2.ロック（保護）状態ではない\n  3.レベルが1\n  4.ブリ以外\n  5.出撃中・編成中や秘書艦枠に設定中、委託中など、特殊状態ではない\n  ·「一括設定」は上記の1～5の条件を満たした艦船のみを選択します\n  ·レアリティはN・R・SR（自動選択の優先順位は設定画面で設定できます）"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.jp6th_biaohoushan_help = {
-		tip = {
-			{
-				info = "概要：\n裏山キャンペーン「妖怪温泉街」<color=#92fc63>9.14-10.4 23:59</color>が開催されます！\n「妖怪温泉街」の「ミニゲーム」をタップすると、ミニゲームを遊ぶとともに限定ストーリーを読むことができます。\nまた、ミニゲームの第7章をクリアすると、SSR艦船と交換できる特別招待状を入手できます。\n\n遊び方：\n1.裏山画面の「ミニゲーム」をタップすると、ミニゲーム「温泉街神隠し事件」画面に遷移できます。\n　「温泉街神隠し事件」では、9/20まで毎日開放されるミニゲームステージと限定任務、ショップが存在します。\n　限定任務では、ミニゲームで特定な条件を達成することで様々な報酬を入手することができます。\n　ショップでは、ミニゲームをプレイして得られるPtアイテムで、ミニゲームのキャラ解放・限定家具・装備外装箱などと交換できます。\n\n2.「饅頭温泉」をタップすると、温泉画面に遷移できます。\n　温泉では艦船を入浴枠に配置することで、艦船のコンディション回復速度を上昇させることができます。\n　温泉の入浴枠はミニゲームをプレイして入手できる「温泉手形」を消費することで拡張（増築）できます。\n\n3.「限定建造」をタップすると、限定建造画面に遷移できます\n4.「着せ替え」をタップすると、着せ替えショップに遷移できます\n5.「振り返り」をタップすると、指揮官の6週年データ振り返り画面に遷移できます\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_status_inEvent = {
-		tip = "<size=24>委託中</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_16 = {
-		tip = "照準角度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_521044 = {
-		tip = "改造を行うと艦種が下記のものになります：\nミサイル駆逐艦（主力艦隊配置モード）\n艦船のステータスと戦闘中の挙動が変化します\n改造を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mission_complete = {
-		tip = "任務\n完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_attr_antisub = {
-		tip = "対潜"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_favor_lock1 = {
-		tip = "好感度$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_random_secretary_tag = {
-		tip = "ランダム秘書艦"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dont_remind_session = {
-		tip = "次回からは表示しない"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_furniture_save_success = {
-		tip = "家具配置を保存しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.reflux_word_1 = {
-		tip = "残り時間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.collect_chapter_is_activation = {
-		tip = "海域に出撃中です。海域から撤退しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100202 = {
-		tip = "現在プレイ中のゲームデータはすでに別のGoogle Play Gamesアカウントと連携済みです。連携情報をリセットし、現在使用中のGoogle Play Gamesアカウントと連携しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_verify_fail = {
-		tip = "キャッシュクリアが完了しました。「確定」をタップしてゲームを再起動し、最新データの適用をお願いします$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tag_ship_unlocked = {
-		tip = "図鑑開放済"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_formationUI_fleetName5 = {
-		tip = "第五艦隊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_autoFight_right = {
-		tip = "自動攻略省エネ化を有効化するには、端末の関連権限の付与が必要です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_unequipFromShip_error_noEquip = {
-		tip = "装備がありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destory_ur_pt_overflowa = {
-		tip = "※今月の<color=#92fc63>「特装コア」</color>入手上限に達しているため、\n<color=#ff5c5c>上限を超えた分の<color=#92fc63>「特装コア」</color>は入手できません。</color>"
 	}
 end)()
 
@@ -35784,6 +36096,260 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.child2_game_cnt = {
+		tip = "$1週目"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_unequipFromShip_error_noEquip = {
+		tip = "装備がありません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_drop_title = {
+		tip = "信标收集(未使用)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_verify_warn = {
+		tip = "キャッシュクリアを行いますか？（キャッシュクリア中に端末が短い間反応しなくなる場合がございます）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.acquisitionmode_is_not_open = {
+		tip = "入手方法は現在開放されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.res_wifi_tip = {
+		tip = "wifi環境でのダウンロードをお勧めします。ダウンロードを続行しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tag_level_oni = {
+		tip = "特殊单位"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100170 = {
+		tip = "誕生日は【YYYYMMDD】の形式（例：19900101）で入力してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail = {
+		tip = "メール"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.siren_chase_warning = {
+		tip = "危険エリア拡大中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.setting_resdownload_title_gallery = {
+		tip = "       スチル鑑賞アセット"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.other_world_temple_award_title_1 = {
+		tip = "力の像の恵み"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_catchup_errorfix = {
+		tip = "「科学研究・一期」の特殊任務は1回だけ復活します。（既に2回クリアした場合、特殊任務は復活しません）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_tip_pt_no_enough = {
+		tip = "限界突破に必要な強化経験値が不足しています"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.anniversary_task_title_6 = {
+		tip = "いわば勇気。自由を信ずる者は机械なる神の叡冠を戴くが運命。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_shop_tip2 = {
+		tip = "※このアイテムは1回しか購入できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_mailMediator_attachTaken = {
+		tip = "添付アイテムを受け取りました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_shipExit_error = {
+		tip = "配置解除失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.beach_guard_m_guard = {
+		tip = "攻めてくるセイレーンをブロックしてくれるピョ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_loginSuccess = {
+		tip = "ログインしました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.retire_setting_help = {
+		tip = {
+			{
+				info = " ·「誤退役防止確認」をONにすると、退役対象となる艦船でドック内に<color=#92fc63>ほかの同名艦船が存在しない</color>場合、退役確認画面が表示されるようになります\n ·一括退役について：\n  1.レアリティがSR、R、N\n  2.ロック（保護）状態ではない\n  3.レベルが1\n  4.ブリ以外\n  5.出撃中・編成中や秘書艦枠に設定中、委託中など、特殊状態ではない\n  ·「一括設定」は上記の1～5の条件を満たした艦船のみを選択します\n  ·レアリティはN・R・SR（自動選択の優先順位は設定画面で設定できます）"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.jp6th_biaohoushan_help = {
+		tip = {
+			{
+				info = "概要：\n裏山キャンペーン「妖怪温泉街」<color=#92fc63>9.14-10.4 23:59</color>が開催されます！\n「妖怪温泉街」の「ミニゲーム」をタップすると、ミニゲームを遊ぶとともに限定ストーリーを読むことができます。\nまた、ミニゲームの第7章をクリアすると、SSR艦船と交換できる特別招待状を入手できます。\n\n遊び方：\n1.裏山画面の「ミニゲーム」をタップすると、ミニゲーム「温泉街神隠し事件」画面に遷移できます。\n　「温泉街神隠し事件」では、9/20まで毎日開放されるミニゲームステージと限定任務、ショップが存在します。\n　限定任務では、ミニゲームで特定な条件を達成することで様々な報酬を入手することができます。\n　ショップでは、ミニゲームをプレイして得られるPtアイテムで、ミニゲームのキャラ解放・限定家具・装備外装箱などと交換できます。\n\n2.「饅頭温泉」をタップすると、温泉画面に遷移できます。\n　温泉では艦船を入浴枠に配置することで、艦船のコンディション回復速度を上昇させることができます。\n　温泉の入浴枠はミニゲームをプレイして入手できる「温泉手形」を消費することで拡張（増築）できます。\n\n3.「限定建造」をタップすると、限定建造画面に遷移できます\n4.「着せ替え」をタップすると、着せ替えショップに遷移できます\n5.「振り返り」をタップすると、指揮官の6週年データ振り返り画面に遷移できます\n"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_limit_notice = {
+		tip = "*潜水艦ステータスが含まれない"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_16 = {
+		tip = "照準角度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_521044 = {
+		tip = "改造を行うと艦種が下記のものになります：\nミサイル駆逐艦（主力艦隊配置モード）\n艦船のステータスと戦闘中の挙動が変化します\n改造を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amercian_notice_3 = {
+		tip = "報酬交換期間：2019.1.24~2.20"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_antisub = {
+		tip = "対潜"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_favor_lock1 = {
+		tip = "好感度$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_random_secretary_tag = {
+		tip = "ランダム秘書艦"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.touch_body = {
+		tip = "タッチ\n1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_save_success = {
+		tip = "家具配置を保存しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_shop_enoughRes_tip = {
+		tip = "指揮官の物資は全部補充してあげたにゃ！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.reflux_word_1 = {
+		tip = "残り時間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100202 = {
+		tip = "現在プレイ中のゲームデータはすでに別のGoogle Play Gamesアカウントと連携済みです。連携情報をリセットし、現在使用中のGoogle Play Gamesアカウントと連携しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.collect_chapter_is_activation = {
+		tip = "海域に出撃中です。海域から撤退しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tag_ship_unlocked = {
+		tip = "図鑑開放済"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName5 = {
+		tip = "第五艦隊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_autoFight_right = {
+		tip = "自動攻略省エネ化を有効化するには、端末の関連権限の付与が必要です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_backyardGranaryLayer_full = {
+		tip = "<color=red>食糧はもういっぱいです！</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.destory_ur_pt_overflowa = {
+		tip = "※今月の<color=#92fc63>「特装コア」</color>入手上限に達しているため、\n<color=#ff5c5c>上限を超えた分の<color=#92fc63>「特装コア」</color>は入手できません。</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_commit_tip = {
+		tip = "開発任務を完了するには<color=#92fc63>$1</color>を消費します。開発任務を完了しますか？"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_guildgold_no_enough_for_battle = {
 		tip = "大艦隊作戦を発令するのに必要な大艦隊資金はありません"
 	}
@@ -35808,8 +36374,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_talent_learn_erro = {
-		tip = "アビリティを習得できませんでした$1"
+	_G.pg.base.gametip.new_airi_error_code_300101 = {
+		tip = "シェア機能が有効化されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_acquire_erro = {
+		tip = "オフニャを入手できませんでした$1"
 	}
 end)()
 
@@ -35820,26 +36392,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_play_erro = {
-		tip = "強化に失敗しました$1"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.mail_takeAttachment_error_noMail = {
 		tip = "メールがありません:$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.player_summary_from = {
-		tip = "入手イベント："
+	_G.pg.base.gametip.ship_remould_warning_520014 = {
+		tip = "改造を行うと艦種が下記のものになります：\nミサイル駆逐艦（前衛艦隊配置モード）\n艦船のステータスと戦闘中の挙動が変化します\n改造を行いますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_520014 = {
-		tip = "改造を行うと艦種が下記のものになります：\nミサイル駆逐艦（前衛艦隊配置モード）\n艦船のステータスと戦闘中の挙動が変化します\n改造を行いますか？"
+	_G.pg.base.gametip.commander_get_skills_done = {
+		tip = "習得可能リストの取得に失敗しました"
 	}
 end)()
 
@@ -35860,20 +36426,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_build_pool_tip = {
-		tip = "$2つの$1を消費し、オフニャを訓練しますか？"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.commander_select_matiral_erro = {
 		tip = "レベル最大です。同じ名前のオフニャを消費するスキル強化のみ行えます"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_material_is_rarity = {
-		tip = "SSRのオフニャが選択されています。続けますか？"
+	_G.pg.base.gametip.new_airi_error_code_100200 = {
+		tip = "すでに他のアカウントと連携済みです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_extendcommander_success = {
+		tip = "猫ハウス（オフニャ所持数）増築に成功しました"
 	}
 end)()
 
@@ -35978,8 +36544,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.friend_no_request = {
-		tip = "友達申請がありません"
+	_G.pg.base.gametip.win_condition_display_tuoli = {
+		tip = "艦隊が指定地点に到達"
 	}
 end)()
 
@@ -35990,8 +36556,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Normalbuild_URexchange_text1 = {
-		tip = "常設UR交換"
+	_G.pg.base.gametip.newplayer_help_tip = {
+		tip = {
+			{
+				info = "※新要素"
+			},
+			{
+				info = "特別計画艦（三期）実装に合わせて、新兵任務に「開発\n任務」を追加しました。\n指揮官レベルが30に到達すると、新兵任務画面右下の「開発」タブが開放されます。\n「開放」タブをタップすると、開発ドック関連の任務を確認することができます。"
+			},
+			{
+				info = "「開発」任務をクリアすると、特別計画艦（一期）の開発の加速を行えるアイテム「戦術データパック」を入手できます。\n「戦術データパック」は開発ドックにて特定の艦船の「戦術データ蓄積」任務の経験値に変換できます。"
+			},
+			{
+				info = "ルール："
+			},
+			{
+				info = "1.新兵任務に開催期間はありません\n2.現段階（初級・中級・上級）の任務をすべてクリアすると、チャレンジ任務が開放されます\n3.チャレンジ任務をクリアすると、次の段階に進めます\n4.全ての任務をクリアし、報酬を受け取ったあと、新兵任務は消失します"
+			}
+		}
 	}
 end)()
 
@@ -36008,20 +36590,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardScene_quest_saveFurniture = {
-		tip = "マイセットを<color=#92fc63>保存</color>しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newplayer_notice_4 = {
-		tip = "クリアで「ポートランド」をGET"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.word_soundfiles_download = {
 		tip = "ダウロード"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_log_quit = {
+		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から脱退しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_catchup_6 = {
+		tip = "Ⅵ期"
 	}
 end)()
 
@@ -36038,14 +36620,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_acquire_erro = {
-		tip = "オフニャを入手できませんでした$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_notice_not_open_tip = {
-		tip = "前期の開発新兵任務クリアで開放"
+	_G.pg.base.gametip.spweapon_ui_need_resource = {
+		tip = "必要素材："
 	}
 end)()
 
@@ -36056,8 +36632,90 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_need_resource = {
-		tip = "必要素材："
+	_G.pg.base.gametip.help_commander_play = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/commander_build",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/commander_info",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/commander_ability1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/commander_ability2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/commander_ability3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/commander_up",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/commander_skill1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/commander_skill2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/commander_9",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/commander_10",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 4,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_ability_replace_warning = {
+		tip = "上位アビリティは習得予定のアビリティに上書きされます。続けますか？"
 	}
 end)()
 
@@ -36074,12 +36732,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_loop_help_tip = {
-		tip = {
-			{
-				info = "海域攻略ゲージ100%を達成すると、海域選択画面で同ステージを<color=#92fc63>「周回モード」</color>に設定することが可能になります。\n\n「周回モード」の特徴は下記になります：\n1.周回モードのみ、敵艦隊との戦闘時、敵との「燃料消費上限」が追加され、味方水上艦隊・潜水支援の燃料消費が「燃料消費上限」を上回った場合でも、実際の燃料消費量は「燃料消費上限」に準ずる数値になります\n2.メインステージのハードモードステージでは、敵の護衛艦隊が<color=#92fc63>出現しなくなります</color>。\n3.イベントステージの敵の配置・行動ロジックが変化します。\n4.イベントステージで味方の<color=#92fc63>移動制限が解除され</color>、海域マップで自由に移動できます。\n5.ノーマル海域においては「空襲」、「待ち伏せ」が出現しなくなります\n6.周回モードでは、「出撃確認skip」機能を使用できます\n7.周回モードでは、<color=#92fc63>自動攻略モード</color>機能を使用できます\n\n自動攻略モードについて自動攻略モードでは艦隊の移動・戦闘確認・戦闘・戦闘結果画面確認の挙動が自動で行われます自動攻略モードのON/OFFは<color=#92fc63>海域選択画面下部のチェックボックス</color>と<color=#92fc63>マップ画面右下のボタンで</color>設定を変更できます\n\n自動攻略モードでは、艦隊の挙動が下記の仕様になります\n・敵に向けて<color=#92fc63>自動で</color>移動し、戦闘を仕掛けます\n・戦闘を仕掛ける敵の優先順位は<color=#92fc63>【敵中枢艦隊＞人型セ\nイレーン艦隊＞近くにいる量産型艦隊】</color>になります\n・艦隊の挙動は出撃準備画面の「自動設定」で下記四通りの設定に変更できます\n\n　道中戦闘：<color=#92fc63>敵中枢艦隊以外の艦隊</color>にのみ戦闘を仕掛けます。行動艦隊として海域で移動・戦闘を行います\n　中枢戦闘：<color=#92fc63>敵中枢艦隊にのみ</color>戦闘を仕掛けます。敵中枢艦隊が出現した場合、行動艦隊に切り替えられます\n　全戦闘：<color=#92fc63>敵艦隊全て</color>に戦闘を仕掛けます\n　待機：敵艦隊に戦闘を仕掛けず、移動しません\n\n※出撃艦隊が2ついる場合、「道中艦隊」と「中枢艦隊」の組み合わせ、もしくは「全戦闘」と「待機」の組み合せで設定しなければなりません\n　出撃艦隊が1つだけの場合、「全戦闘」で自動設定されます\n\n・戦闘中、潜水支援を行いません\n・自動攻略モードは、手動で停止するか、下記の状況が発生時に停止されます\n　艦船のコンディション低下している場合\n　資金が備蓄上限を上回った場合\n　戦闘可能な量の燃料がない場合\n　ドックが満杯になった場合\n　戦闘で敗北した場合（もしくは艦隊を維持できない場合）\n　新しい艦船を図鑑に登録した場合"
-			}
-		}
+	_G.pg.base.gametip.commander_rename_success_tip = {
+		tip = "更名成功"
 	}
 end)()
 
@@ -36090,14 +36744,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_rename_success_tip = {
-		tip = "更名成功"
+	_G.pg.base.gametip.amercian_notice_6 = {
+		tip = "所持資源（燃料/資金）が上限になっています。作戦補給で入手した資源が破棄されます。作戦補給を交換しますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.amercian_notice_3 = {
-		tip = "報酬交換期間：2019.1.24~2.20"
+	_G.pg.base.gametip.player_summary_data = {
+		tip = "入手日："
 	}
 end)()
 
@@ -36114,14 +36768,33 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_defeat_all_enemys = {
-		tip = "敵艦をすべて撃破"
+	_G.pg.base.gametip.formation_switch_tip = {
+		tip = "隊列維持ができません！操作艦隊を<color=#92fc63>$1</color>に変更します"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.extra_chapter_locked_tip = {
-		tip = "イベントハード最終海域を攻略すると開放されます"
+	_G.pg.base.gametip.utaware_warmup_notice = {
+		tip = {
+			{
+				info = "ルール："
+			},
+			{
+				info = "    1.コラボイベント期間中、メイン海域（ノーマル）3章以降のステージの中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することが出来ます；"
+			},
+			{
+				info = "    2.コラボキャラとして仮加入した【フミルィル】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることが出来ません；"
+			},
+			{
+				info = "    3.【フミルィル】を編成に入れている艦隊で上記ステージの敵中枢艦隊を撃破し、かつ勝利時【フミルィル】が戦闘可能な状態の場合、獲得する「友好度」が2倍になります；"
+			},
+			{
+				info = "    4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【フミルィル】を「正式加入」させることができます（友好度が1500必要）。イベント終了時、「正式加入」していない【フミルィル】は消失します；"
+			},
+			{
+				info = "    5.友好度報酬は11/28（水）まで毎日1段階ずつ解放されます；"
+			}
+		}
 	}
 end)()
 
@@ -36132,8 +36805,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
-		tip = "艦隊は一隻以上が必須です！"
+	_G.pg.base.gametip.npc_strength_tip = {
+		tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？"
 	}
 end)()
 
@@ -36144,20 +36817,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_member_max_count = {
-		tip = "メンバー数は上限になっています"
+	_G.pg.base.gametip.commander_equip_to_fleet_erro = {
+		tip = "オフニャを装備できませんでした$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.formation_switch_tip = {
-		tip = "隊列維持ができません！操作艦隊を<color=#92fc63>$1</color>に変更します"
+	_G.pg.base.gametip.battlepass_main_tip_2310 = {
+		tip = "<size=23> 2023.10.1-2023.11.30キャンペーン期間中、シーズン任務報酬で<color=#854747>「プリンストン(META)」</color>などを入手可能！</size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.npc_strength_tip = {
-		tip = "イベント終了時「正式加入」していないキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？"
+	_G.pg.base.gametip.map_event_stop_battle_tip = {
+		tip = "<color=#92fc63>特定の敵を撃破する</color>ことで通行禁止状態を解除できます"
 	}
 end)()
 
@@ -36174,8 +36847,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_chuansong = {
-		tip = "コイン"
+	_G.pg.base.gametip.draw_big_luck_3 = {
+		tip = "今日はきっといいことがあるにゃ！"
 	}
 end)()
 
@@ -36186,8 +36859,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battlepass_main_tip_2310 = {
-		tip = "<size=23> 2023.10.1-2023.11.30キャンペーン期間中、シーズン任務報酬で<color=#854747>「プリンストン(META)」</color>などを入手可能！</size>"
+	_G.pg.base.gametip.levelScene_notCargo = {
+		tip = "宝箱が発見できませんでした"
 	}
 end)()
 
@@ -36210,50 +36883,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.map_event_memory_collected = {
-		tip = "ストーリー「$1」開放成功！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.sham_my_assist_ship_level_limit = {
-		tip = "出撃する艦のレベルが$1以上必要です"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_equipment = {
-		tip = "素材となる兵装が不足しています。兵装開発で素材を入手してください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_task_samemap = {
-		tip = "エリアに未完了の任務が存在しているため、任務を新たに受領できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.npcfriendly_count = {
-		tip = "目標友好度："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.eva_count_limit = {
-		tip = "本日のコメント上限に達しました"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.tag_level_bomb = {
 		tip = "英系轰炸"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.seven_choose_one = {
-		tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n（艦船と記念アイテムを入手できます）"
 	}
 end)()
 
@@ -36336,8 +36967,50 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_is_loading = {
-		tip = "ただいま家具を準備しています…"
+	_G.pg.base.gametip.equipment_upgrade_feedback_lack_of_equipment = {
+		tip = "素材となる兵装が不足しています。兵装開発で素材を入手してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_task_samemap = {
+		tip = "エリアに未完了の任務が存在しているため、任務を新たに受領できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.npcfriendly_count = {
+		tip = "目標友好度："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spece_illegal_tip = {
+		tip = "名前にスペースを入れることはできません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.read_the_user_agreement = {
+		tip = "利用規約を最後までスクロールしてご確認ください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Supplement_pay8 = {
+		tip = "残り $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_catsearch_help_2 = {
+		tip = "入手可能報酬"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.secretary_unlock4 = {
+		tip = "9-4クリアで開放"
 	}
 end)()
 
@@ -36384,14 +37057,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.secretary_unlock4 = {
-		tip = "9-4クリアで開放"
+	_G.pg.base.gametip.level_scene_title_word_4 = {
+		tip = "空域:"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_live2dfiles_checkend = {
-		tip = "更新開始"
+	_G.pg.base.gametip.guild_word_deputy_commder = {
+		tip = "副司令"
 	}
 end)()
 
@@ -36402,8 +37075,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_retreat = {
-		tip = "撤 退"
+	_G.pg.base.gametip.guild_word_may_happen_event = {
+		tip = "大艦隊作戦事件発生中"
 	}
 end)()
 
@@ -36414,20 +37087,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.words_show_touch_effect = {
-		tip = "タッチエフェクト表示"
+	_G.pg.base.gametip.mail_delet_button = {
+		tip = "削除"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.level_scene_title_word_5 = {
-		tip = "推奨:"
+	_G.pg.base.gametip.tech_simulate_closed = {
+		tip = "弾幕確認機能が開放されていませ"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ambush_display_0 = {
-		tip = "接敵"
+	_G.pg.base.gametip.technology_uplevel_error_studying = {
+		tip = "$1—陣営技術を強化中です"
 	}
 end)()
 
@@ -36444,26 +37117,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_items_title = {
-		tip = "下記アイテムを入手できます"
+	_G.pg.base.gametip.ship_updateShipLock_ok_unlock = {
+		tip = "<color=#92fc63>$1</color>をアンロックしました"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_attr_antiaircraft = {
-		tip = "対空"
+	_G.pg.base.gametip.blueprint_simulation_confirm_29904 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型234mm三連装砲\n533mm四連装魚雷\n六連装ボフォース40mm対空砲</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_word_may_happen_event = {
-		tip = "大艦隊作戦事件発生中"
+	_G.pg.base.gametip.blueprint_simulation_confirm_39905 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型彩雲（艦攻型・特別計画艦仕様）\n試作型天雷（特別計画艦仕様）\n試作型彩雲（艦攻型・特別計画艦仕様）</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_uplevel_error_studying = {
-		tip = "$1—陣営技術を強化中です"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49905 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装305mmSKC39主砲（超巡）\n533mm四連装磁気魚雷\n105mmskc連装高角砲</color></size>"
 	}
 end)()
 
@@ -36492,8 +37165,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_consume_carry_tips = {
-		tip = "未配置tip"
+	_G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型130mm連装砲Model 1936\n533mm三連装魚雷\n37mm対空機関砲70-K </color></size>"
 	}
 end)()
 
@@ -36516,8 +37189,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装406mm主砲Model1940\n152mm三連装砲Model1934\n試作型90mm連装高角砲Model1939</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_19905 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n127mm単装砲\n五連装533mm魚雷\n試作型F8Fベアキャット（フロート）</color></size>"
 	}
 end)()
 
@@ -36534,20 +37207,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型四連装330mm砲設計図Mle1931(超巡用)\n138.6mm単装砲Mle1929\n二連装ボフォース40mm機関砲 </color></size>"
+	_G.pg.base.gametip.commander_is_in_guild = {
+		tip = "大艦隊の強敵戦に編成されているオフニャです。編成から外し、対象に選択しますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mm三連装砲Mk6改\nF8Fベアキャット\n127mm連装両用砲Mk12(時限信管)</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_69902 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型254mm三連装砲Mod1939\n試作型152mm三連装砲Model1936\n試作型90mm連装高角砲Model1939</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型380mm三連装砲Mle1935\n152mm三連装砲Mle1930\n二連装ボフォース40mm機関砲</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_89904 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n152mm三連装砲Mle1930（榴弾）\n三連装550mm魚雷\n二連装57mm／L60ボフォース対空機関砲Mle1951</color></size>"
 	}
 end)()
 
@@ -36564,36 +37237,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.link_link_help_tip = {
-		tip = {
-			{
-				info = "                                     ※遊び方※\n"
-			},
-			{
-				info = "1.「サンディエゴスター」を入手できる回数は毎日0:00に1回増加します；"
-			},
-			{
-				info = "2.前日イベントに参加しなかった・ミニゲームをクリアしなかった場合でも回数が自動で上乗せされます；"
-			},
-			{
-				info = "3.「サンディエゴスター」の入手個数は「何度目の入手」かによって、毎回異なります；"
-			},
-			{
-				info = "4.同じキャラアイコンをタップして、下記の条件を満たすと、キャラアイコンを消すことができます；"
-			},
-			{
-				info = "5.条件：2つのキャラアイコンの間でほかのキャラアイコンを経由することなく、直線（横・縦）3つ以下で繋げられる場合、キャラアイコンを消すことができます；"
-			},
-			{
-				info = "6.すべてのキャラアイコンを消すと、「サンディエゴスター」を入手できます；"
-			},
-			{
-				info = "7.「サンディエゴスター」を7日間プレイして18個入手すると、改造素材「輝く☆マイク」を入手できます；"
-			},
-			{
-				info = "8.「輝く☆マイク」を入手済み、もしくは「サンディエゴ改」を持っている場合、代わりにアイテム「サンディエゴ☆スター」を入手できます；"
-			}
-		}
+	_G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
+		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n(<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n試作型406mm/45三連装砲MK7\n127mm連装両用砲MK12\n四連装ボフォース40mm機関砲\n</color></size>"
 	}
 end)()
 
@@ -36604,14 +37249,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型艦上式La-9\n試作型艦上式La-9\n試作型VIT-2（モードチェンジ）\n</color></size>"
+	_G.pg.base.gametip.elite_condition_reload = {
+		tip = "装填合計"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
-		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n試作型406mm/45三連装砲MK7\n127mm連装両用砲MK12\n四連装ボフォース40mm機関砲\n</color></size>"
+	_G.pg.base.gametip.memorybook_get_award_tip = {
+		tip = "需要收集全部「港区回忆」才可获取「晃悠悠纪念章」"
 	}
 end)()
 
@@ -36640,14 +37285,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
-		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n135mm連装砲Model1938\n試作型533mm四連装魚雷Si 270\n試作型20mmScotti六連装機関 Model1941\n</color></size>"
+	_G.pg.base.gametip.new_airi_error_code_200210 = {
+		tip = "決済システムにエラーが発生しました"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.buildship_light_tip = {
-		tip = "「ジュゼッペ・ガリバルディ」「アルフレード・オリアーニ」常設実装！"
+		tip = "「エムデン」「エルビング」常設実装！"
 	}
 end)()
 
@@ -36658,8 +37303,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shipchange_alert_inworld = {
-		tip = "この艦船はセイレーン作戦で編成されています。セイレーン作戦の編成から外しますか？"
+	_G.pg.base.gametip.guild_sort_power = {
+		tip = "がっつり"
 	}
 end)()
 
@@ -36670,8 +37315,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_notificationLayer_quest_request = {
-		tip = "から友達申請されています。承認しますか？"
+	_G.pg.base.gametip.mail_getMailList_error_noNewMail = {
+		tip = "新しいメールがありません"
 	}
 end)()
 
@@ -36688,8 +37333,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipDestory = {
-		tip = "廃棄"
+	_G.pg.base.gametip.mail_moveto_markroom_1 = {
+		tip = "メールをメールボックスから<color=#92fc63>【保管庫】</color>に移動しますか？\n移動すると、メールの添付アイテムが自動で取り出されます"
 	}
 end)()
 
@@ -36712,8 +37357,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.channel_name_5 = {
-		tip = "艦隊"
+	_G.pg.base.gametip.new_airi_error_code_100225 = {
+		tip = "Google連携を解除しました"
 	}
 end)()
 
@@ -36724,68 +37369,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_moveto_markroom_1 = {
-		tip = "メールをメールボックスから<color=#92fc63>【保管庫】</color>に移動しますか？\n移動すると、メールの添付アイテムが自動で取り出されます"
+	_G.pg.base.gametip.ship_remould_material_ship_no_enough = {
+		tip = "素材が不足しています"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.word_easy = {
 		tip = "簡単"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.spweapon_tip_gold_no_enough = {
-		tip = "資金が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_moveto_markroom_max = {
-		tip = "<color=#92fc63>【保管庫】</color>のメール保管数上限に達しています。メールを移動できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100200 = {
-		tip = "すでに他のアカウントと連携済みです"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_manage_1 = {
-		tip = "すべて"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_chapter_state_low_risk = {
-		tip = "<color=#c5cfdf>【支配海域】</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_storeroom_extend = {
-		tip = "貯蔵庫容量アップ："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_storeroom_taken_1 = {
-		tip = "資源を取り出しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_level_upperLimit = {
-		tip = "Lv最大"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_material_ship_no_enough = {
-		tip = "素材が不足しています"
 	}
 end)()
 
@@ -36798,6 +37389,60 @@ end)()
 (function()
 	_G.pg.base.gametip.desc_quick_play = {
 		tip = "移動演出高速化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_word_member = {
+		tip = "メンバー"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_kickUndefined = {
+		tip = "接続が中断されました:[$1]"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_chapter_state_low_risk = {
+		tip = "<color=#c5cfdf>【支配海域】</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.auto_battle_limit_tip = {
+		tip = "自律戦闘は1-3クリアで開放されます"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.return_award_bind_success = {
+		tip = "UID入力成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_escort_retreat = {
+		tip = "海上護衛から撤退しますか？\n※本日の挑戦回数は回復しません。\n※若干報酬を手に入れることができます。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.level_diffcult_chapter_state_safety = {
+		tip = "<size=32><color=#92fc63>海域攻略ゲージ100%を達成すると、\n敵中枢艦隊が最初から出現します</color></size>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.friend_send_msg_erro_tip = {
+		tip = "友達がオフラインです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.course_state_lession = {
+		tip = "授業時間："
 	}
 end)()
 
@@ -36826,14 +37471,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_navalAcademyScene_class_upgrade_complete = {
-		tip = "$1増築完了"
+	_G.pg.base.gametip.tip_pray_build_pool_success = {
+		tip = "選べる特別建造・構築成功"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.limit_skin_time_day = {
-		tip = "殘り:$1日"
+	_G.pg.base.gametip.word_skill_desc_learn = {
+		tip = "($1)"
 	}
 end)()
 
@@ -36844,14 +37489,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.level_diffcult_chapter_state_safety = {
-		tip = "<size=32><color=#92fc63>海域攻略ゲージ100%を達成すると、\n敵中枢艦隊が最初から出現します</color></size>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型305mmSKC39三連装砲\n533mm四連装磁気魚雷\n105mmSKC連装高角砲</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt2_tip = {
-		tip = "チョコレートを食べさせてあげましょうか？ふふふ"
+	_G.pg.base.gametip.which_day = {
+		tip = "<color=#92fc63>$1</color>日目"
 	}
 end)()
 
@@ -36896,8 +37541,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.level_scene_title_word_1 = {
-		tip = "索敵値:"
+	_G.pg.base.gametip.pile_game_notice = {
+		tip = {
+			{
+				info = "■饅頭タワーとは\n「饅頭タワー」とは、落ちてきたブロックでタワーをできるだけ高く積み上げ、最高スコアを目指すミニゲームになります\n開催期間中、「饅頭タワー」のステージを最後までプレイすると、艦船「浦波」を入手可能。\n「饅頭タワー」ステージは1/18（水）まで毎日1ステージ開放されます。\n\n■饅頭タワーのルール\n・画面をタップすると、画面上部のブロックが画面下部に落とされます。\n・ブロックを「タワー」の上に落とすと、タワーが積み上げられ、スコアを得ることができます。ブロックがタワー以外の場所に3回落とされてしまうと、ゲーム終了になります。\n・「タワー」には「バランス値」が設定されており、バランスが悪くなりすぎると（画面右の饅頭が赤いエリアに到達すると）タワーが崩れ落ちてしまい、ゲーム終了になります。\n・ゲームを途中で止めた場合、「プレイ回数」が消費されず、「スタンプ」を入手できません。\n・「プレイ回数」を所持していなくても、「饅頭タワー」をプレイできます。\n"
+			}
+		}
 	}
 end)()
 
@@ -36908,48 +37557,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tip_pray_build_pool_success = {
-		tip = "選べる特別建造・構築成功"
+	_G.pg.base.gametip.ship_shipModMediator_choiseMaterial = {
+		tip = "素材を選択してください"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.pray_build_help = {
-		tip = {
-			{
-				info = "イベント説明：\n"
-			},
-			{
-				info = "「選べる特別建造」とは、常設三種類の通常建造から一つをベースに、特定の艦船を選択し、その艦船をピックアップ（出現率UP）状態にする特別な建造システムになります。"
-			},
-			{
-				info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一つを選ぶことで、特別建造のベースになります。（UR艦船は「大型艦建造」「特型艦建造」にしか出現しません）"
-			},
-			{
-				info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2025年3月26日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
-			},
-			{
-				info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2%  <color=#、、d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%"
-			},
-			{
-				info = "4.「選べる特別建造」の艦船のレアリティ別出現率は通常建造同様、下記となります：\n<color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26%  N..55% \n<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8% \n<color=#FF5C5C>特型艦建造</color>  <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8%"
-			},
-			{
-				info = "5.ベースとなる通常建造とピックアップ艦船を確定した後は「選べる特別建造」の内容の変更はできません"
-			},
-			{
-				info = "6.「選べる特別建造」は通常建造同様に最大で2隻までしか同時に建造できませんが、建造時間は高速建造材によって短縮させることができます"
-			},
-			{
-				info = "7.「選べる特別建造」は通常建造同様に建造時に使用されるキューブ数に応じて、通常建造におけるUR艦船交換時の回数にカウントされます"
-			}
-		}
+	_G.pg.base.gametip.simulation_enhancing = {
+		tip = "相手は特殊戦術を発動しました。装填強化とダメージ強化効果が付与されています"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.return_lock_tip = {
-		tip = "11月17日（木）までメンテナンス中です"
+	_G.pg.base.gametip.event_condition_ship_count = {
+		tip = "<color=#92fc63>$1</color>隻以上必要"
 	}
 end)()
 
@@ -36960,8 +37581,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19903 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n203mm三連装砲Mk15\n533mm四連装魚雷Mk17\n四連装28mm対空機銃「シカゴピアノ」</color></size>"
+	_G.pg.base.gametip.main_notificationLayer_enter_room = {
+		tip = "ルーム<color=#92fc63>$1</color>に入室しました"
 	}
 end)()
 
@@ -36976,20 +37597,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49905 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装305mmSKC39主砲（超巡）\n533mm四連装磁気魚雷\n105mmskc連装高角砲</color></size>"
+	_G.pg.base.gametip.word_registerFull = {
+		tip = "<color=#ff5c5c>満員</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.which_day = {
-		tip = "<color=#92fc63>$1</color>日目"
+	_G.pg.base.gametip.world_task_goto0 = {
+		tip = "現在のエリアは任務エリアではありません"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.challenge_season_update_casual_switch = {
-		tip = "現在NORMALモードです。\n累計得点:$1\nチャレンジステージが更新されたため、最高得点が更新されません。\nモードを切り替えますか？"
+	_G.pg.base.gametip.word_shipType_zhanLie = {
+		tip = "戦艦"
 	}
 end)()
 
@@ -37000,24 +37621,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.decodegame_gametip = {
-		tip = {
-			{
-				info = "■情報解読\n情報解読では、「情報画面」をタップし情報解読することで「暗号ページ」を解禁し、「暗号ページ」の暗号の「情報画面」をタップすることで、報酬を入手できる\nミニイベントになります。\n情報を解読するには、イベント「絶海前話」限定任務クリアで「情報解読Pt」を入手する必要があります。"
-			},
-			{
-				info = "■画面紹介\n画面左側に、現在の「情報解読可能回数」が表示されます。画面右側のスイッチをタップすることで、表示され\nる「解読情報」を変更することができます。\n画面中央の「情報画面」の未解読（ノイズ状の表示）箇所をタップすることで、情報を解読できます。\n画面右下のボタンをタップすることで「暗号ページ」を開けます。\n情報解読が完了した場合、画面左下から最終報酬アイテムを受け取ることができます。"
-			},
-			{
-				info = "■遊び方\n1 イベント「絶海前話」限定任務をクリアすることで、「情報解読Pt」を入手することができます。「情報解読Pt」を累計で<color=#92fc63>200</color>獲得するたびに、情報解読可能回数が1回増えます。\n2 画面右側のスイッチをタップすると、「解読情報」が表示され、また未解読（ノイズ状の表示）箇所をタップすることで、情報を解読できます。解読するたびに、情報解読可能回数が1回消費されます。\n3 情報が全箇所解読されると、情報が完全に解読され、画面のノイズが消失します。その場合、画面右のスイッチをタップすることで別の「解読情報」に切り替えるこ\nとができます。\n4 情報が全部解読されると、画面右下の「暗号ページ」が開放されます。\n5 暗号ページを一度開くと、各「解読情報」ページで「暗号」が表示されます。\n6 「解読情報」の「情報画面」で暗号を順番通り入力すると、画面左上の信号が緑になります。\n7 3つの「解読情報」で暗号を全部正確に入力すると、報酬アイテムを画面左下から受け取ることができます。\n8 また、情報解読を行った回数に応じて、下記の報酬を受け取ることができます。\n　10回：資金*1000\n　20回：汎用改造素材T3*5\n　30回：資金*1000\n　40回：攻撃教科書T3*2\n　50回：ランダム改造図T3*2\n　60回：支援教科書T3*2\n"
-			}
-		}
+	_G.pg.base.gametip.word_soundfiles_checkfailed = {
+		tip = "更新チェック失敗"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_39903 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n100mm二連装九八式高角砲\n610mm四連装魚雷\n試作型五式40mm高射機関砲</color></size>"
+	_G.pg.base.gametip.attribute_speciality = {
+		tip = "特性"
 	}
 end)()
 
@@ -37059,14 +37670,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipment_submarine_torpedo = {
-		tip = "潜水艦魚雷"
+	_G.pg.base.gametip.ship_remould_warning_310014 = {
+		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_shipModMediator_choiseMaterial = {
-		tip = "素材を選択してください"
+	_G.pg.base.gametip.list_empty_tip_dockyardui = {
+		tip = "条件を満たした艦船はいません"
 	}
 end)()
 
@@ -37087,8 +37698,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.list_empty_tip_eventui = {
-		tip = "遂行できる軍事委託はありません"
+	_G.pg.base.gametip.words_set_password = {
+		tip = "パスワード設定"
 	}
 end)()
 
@@ -37105,8 +37716,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.gold = {
-		tip = "資金"
+	_G.pg.base.gametip.guild_next_edit_fleet_time = {
+		tip = "$1後、新しい艦隊を派遣できます"
 	}
 end)()
 
@@ -37117,8 +37728,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.list_empty_tip_dockyardui = {
-		tip = "条件を満たした艦船はいません"
+	_G.pg.base.gametip.help_summer_feast = {
+		tip = {
+			{
+				info = "■概要\n「母港夏祭り」イベントとは、夏祭りの屋台（ミニゲ\nーム）を楽しみながら、スタンプを集め「ジュノー」\nの着せ替えを入手するイベントです。\nスタンプを集めるには、イベント期間中にゲームをロ\nグインすることで入手できる「チケット」が必要です。\n■チケットとスタンプの集め方\nイベント期間中毎日ログインするたびに、「チケット」\nを2枚入手することが出来ます。\n「チケット」を所持している状態でミニゲームをクリ\nアすると、チケットが1枚消費され、スタンプを1つ入\n手することが出来ます。\n前日までの分の「チケット」を入手していなかった場\n合、ログイン日の前日までの分のチケットが一括で配\n布されます。\n■ミニゲームについて\nミニゲームは「射的」「グルメ街」「花火工場」の3種\n類があります。\n「チケット」を所持している状態でゲームをクリアす\nると、ミニゲームの景品（ちょっとした報酬）を入手\nすることが出来ます。\nゲームクリア時の結果に応じて、入手できる景\n品は変化します。\n一等賞：資金150、ミルキィ饅頭1個\n二等賞：資金130、ミルキィ饅頭1個\n三等賞：資金110\n四等賞：資金100\n「チケット」を所持していなくてもミニゲームを遊べ\nますが、スタンプと景品可能回数を入手す\nることが出来ません。"
+			}
+		}
 	}
 end)()
 
@@ -37129,14 +37744,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.words_settings_create_inherit = {
-		tip = "引継コード発行"
+	_G.pg.base.gametip.msgbox_text_shop = {
+		tip = "ショップ"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.words_set_password = {
-		tip = "パスワード設定"
+	_G.pg.base.gametip.word_soundfiles_checkend = {
+		tip = "更新開始"
 	}
 end)()
 
@@ -37159,8 +37774,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_205154 = {
-		tip = "改造（近代化改修）すると、スキル<color=#92fc63>【BIG SEVEN】</color>が\n<color=#92fc63>【BIG SEVEN·ネルソン】に強化されます</color>"
+	_G.pg.base.gametip.vote_book_is_over = {
+		tip = "人気投票キャンペーンは終了しました"
 	}
 end)()
 
@@ -37171,8 +37786,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.memorybook_get_award_tip = {
-		tip = "需要收集全部「港区回忆」才可获取「晃悠悠纪念章」"
+	_G.pg.base.gametip.vote_fame_tip = {
+		tip = "※殿堂入りキャラをタップし、記念チャットフレームを手に入れよう！$1、$2、$3"
 	}
 end)()
 
@@ -37187,14 +37802,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_100802 = {
-		tip = "アンケートIDが存在しないため、読み込めませんでした"
+	_G.pg.base.gametip.words_rare_ship_vibrate = {
+		tip = "バイブレーション"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.text_win_condition = {
-		tip = "勝利条件"
+	_G.pg.base.gametip.new_airi_error_code_300220 = {
+		tip = "本人確認情報が期限切れです"
 	}
 end)()
 
@@ -37211,18 +37826,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_summer_feast = {
-		tip = {
-			{
-				info = "■概要\n「母港夏祭り」イベントとは、夏祭りの屋台（ミニゲ\nーム）を楽しみながら、スタンプを集め「ジュノー」\nの着せ替えを入手するイベントです。\nスタンプを集めるには、イベント期間中にゲームをロ\nグインすることで入手できる「チケット」が必要です。\n■チケットとスタンプの集め方\nイベント期間中毎日ログインするたびに、「チケット」\nを2枚入手することが出来ます。\n「チケット」を所持している状態でミニゲームをクリ\nアすると、チケットが1枚消費され、スタンプを1つ入\n手することが出来ます。\n前日までの分の「チケット」を入手していなかった場\n合、ログイン日の前日までの分のチケットが一括で配\n布されます。\n■ミニゲームについて\nミニゲームは「射的」「グルメ街」「花火工場」の3種\n類があります。\n「チケット」を所持している状態でゲームをクリアす\nると、ミニゲームの景品（ちょっとした報酬）を入手\nすることが出来ます。\nゲームクリア時の結果に応じて、入手できる景\n品は変化します。\n一等賞：資金150、ミルキィ饅頭1個\n二等賞：資金130、ミルキィ饅頭1個\n三等賞：資金110\n四等賞：資金100\n「チケット」を所持していなくてもミニゲームを遊べ\nますが、スタンプと景品可能回数を入手す\nることが出来ません。"
-			}
-		}
+	_G.pg.base.gametip.word_normal_junhe = {
+		tip = "普通"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tactics_lesson_cancel = {
-		tip = "強化を中止すると、スキル経験値は少し入手できますが、<color=#92fc63>教科書は消費されます</color>。続けますか？"
+	_G.pg.base.gametip.map_event_save_rurutie = {
+		tip = "<color=#92fc63>ルルティエ</color>の救出に成功しました！"
 	}
 end)()
 
@@ -37251,84 +37862,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_vote = {
-		tip = {
-			{
-				info = "アズールレーン人気投票2021\n人気投票概要：\n  アズールレーン人気投票2021はゲーム内投票で人気投票を競うキャンペーンになります。【予選】・【予選復活戦】・【グループ戦】【決勝復活戦】・【決勝戦】の5ステップでそれぞれ投票が行われます。\n\n  人気投票のステップごとに、各サーバーの票数を集計し、合計投票数によって、次のステップへの進出か、優勝が決定されます。\n  予選で同票した場合、先に票数を達成したキャラクターの順位が繰り上げます。\n  予選以外で同票した場合、予選順位の上のキャラクターの順位が繰り上げます。\n\n  前回・前々回投票（2017年・2019年）で決勝のTOP3の艦船（後述）は今回では【殿堂入り】とみなし、投票の対象外となります。\n  また、コラボキャラクター（特別計画艦を除く）・META艦船・「μ兵装」艦船・2021年10月14日（木）以降ゲーム内で実装した艦船も今回の投票の対象外となります。\n ※殿堂入りのキャラクター（<color=#FFDD00>エンタープライズ・ベルファスト・綾波・シリアス・長門・ローン</color>）については、「人気投票」イベントバナーの「殿堂入り」ページで、特別のミニストーリーを読むことができ、更に限定チャットフレームを入手出来ます。\n\n人気投票ルール\n\nスケジュール\n①予選：2021年10月14日メンテ後―2021年10月25日23：59まで\n予選では、全451名の艦船が参加し、順位200位の艦船がグループ戦に進出します。\n※予選では順位のみ表示され、詳細の得票数が表示されません。\n\n②予選復活戦：2021年10月28日00：00-11月1日23：59まで\n予選復活戦では、予選で落選した全251名の艦船が参加し、順位15位までの艦船が決勝復活戦に進出します。\n\n③グループ戦：\nグループA：2021年11月4日00：00-11月8日23：59まで \nグループB：2021年11月11日00：00-11月15日23：59まで \nグループC：2021年11月18日00：00-11月22日23：59まで \nグループD：2021年11月25日00：00-11月29日23：59まで \nグループE：2021年12月2日00：00-12月6日23：59まで\nグループ戦の各グループは、それぞれ40名の艦船が参加し、順位4位までの艦船が決戦に進出し、順位5－12位の艦船が決勝復活戦に進出します。グループ戦進出艦船のグループ分けについては順位の1桁の数字によって決定されます。\n\n④決勝復活戦：2021年12月9日00：00-12月12日23：59まで\n予選復活戦で選出された15名と、グループ戦で決勝復活戦に進出した40名が参加し、順位12位までの艦船が決戦に進出します。\n\n⑤決勝戦：2021年12月17日0:00-12月23日23:59まで\n各グループ戦と、決勝復活戦の12名、計32名の艦船による決勝戦になります。\n\n結果発表：\n  決勝戦を除く各ステップ終了後、翌日の昼12時にゲーム内及びウェブサイトにて投票結果が公開されます。\n  決勝戦は翌日メンテナンス開始後Twitterにて票数結果を発表します。\n\n投票方法：\n指揮官レベルが25を達成すると、下記の二通りの方法で投票用の「投票券」を入手出来ます。\n  1、キャンペーン期間で登場する限定任務（「任務一覧」で確認可能）をクリアする\n  2、3章以降のメイン海域/イベント海域に出撃し、敵中枢艦隊を撃破すると、「応援指令」（※）を入手することがあります。「応援指令」を海域選択画面や人気投票バナーで使用すると、「応援Pt」を入手することができます。入手した「応援Pt」の累計数に応じて、人気投票バナー下部で「投票券」\nを入手することが出来ます。\n\n  入手した「投票券」は人気投票バナーの「投票へ」で各キャラに投票することが出来ます。また、各ステップ終了時、「投票券」は全て削除されます。\n\n※「応援指令」について\n・「応援指令」は<color=#FFDD00>【メイン海域（ノーマル限定）】と、作戦履歴以外の【イベント海域】</color>の敵中枢艦隊を撃破することで、入手することができます。\n・「応援指令」は同時に1個しか所持できず、海域選択画面か、人気投票イベントバナーの該当アイコン/ボタンをタップすることで使用できます。\n・「応援指令」を使用すると、画面でいくつかのSDキャラが表示されます。SDキャラをタップし、全員の向きを【饅頭が指した方向】にすると、「応援指令」が消費され、「応援Pt」を入手することができます。\n・「応援指令」は一定時間内に使用しなかった場合、削除されます。\n・各海域で入手する「応援指令」の使用効果は海域によって異なります。\n  3章……120Pt\n  4章……150Pt\n  5章……180Pt\n  6章……220Pt\n  7章……270Pt\n  8章……350Pt\n  9章……450Pt\n  10章……550Pt\n  11章……700Pt\n  12章……850Pt\n  13章……1000Pt\n"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_download = {
-		tip = "ダウンロード開始"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_cant_put_tip = {
-		tip = "配置できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.login_loginScene_server_disabled = {
-		tip = "サーバーは利用できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_normal_junhe = {
-		tip = "普通"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_changePlayerName_error = {
-		tip = "名前変更失敗:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.airforce_title_2 = {
-		tip = "相控阵雷达"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_levelScene_0Gold = {
-		tip = "資金ポイントが空になりました"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.word_special_challenge_ticket = {
 		tip = "特別戦闘券"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_success = {
-		tip = "購入に成功しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.player_name_change_warning = {
-		tip = "指揮官名を変更するには<color=#92fc63>$2</color>を<color=#92fc63>$1</color>つ消費します。<color=#92fc63>30</color>日に一度しか変更できません。指揮官名を<color=#92fc63>$3</color>に変更しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tip_exchange_ticket = {
-		tip = "特別戦闘券を1枚消費し、$1ステージのボーナス出撃回数を1回増やしますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_acquire_attention = {
-		tip = "シーズン任務キャンペーン期間の残り時間は$1日$2時間です。下記のアイテムが未受領です。"
 	}
 end)()
 
@@ -37339,14 +37874,86 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt6_tip = {
-		tip = "チョコレートが完成しました。ご主人様、召し上がってください"
+	_G.pg.base.gametip.tip_exchange_ticket = {
+		tip = "特別戦闘券を1枚消費し、$1ステージのボーナス出撃回数を1回増やしますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_tip_attr_modify = {
-		tip = "【変化中止】か【変化確定】を選択すると、再び性能変化を行えるようになります"
+	_G.pg.base.gametip.levelScene_tracking_error_3001 = {
+		tip = "委託に出かけている艦があります！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.channel_name_2 = {
+		tip = "全員"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.number_7 = {
+		tip = "七"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.airforce_title_2 = {
+		tip = "相控阵雷达"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200220 = {
+		tip = "決済システムへの通信時にエラーが発生しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
+		tip = "EX潜水艦隊"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_success = {
+		tip = "購入に成功しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_talent_learn_erro = {
+		tip = "アビリティを習得できませんでした$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.option_desc5 = {
+		tip = "（ON状態）画面タップ時、タップ時演出を表示する"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_acquire_attention = {
+		tip = "シーズン任務キャンペーン期間の残り時間は$1日$2時間です。下記のアイテムが未受領です。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.option_desc10 = {
+		tip = "（ON状態）戦闘時衣装の背景が一部表示されなくなる"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.qiuqiu_total_count = {
+		tip = "累計数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.option_desc11 = {
+		tip = "空母の発見範囲（戦闘画面における青い枠）を表示\n\n■空母の状態について\n味方主力艦隊の空母には「発見状態」と「未発見状態\n」が存在します。\n戦闘開始時の空母は「未発見状態」ですが、「発見ゲ\nージ」が一度でも満タンになると、ゲージが一定値ま\nで下がらない限り「発見状態」になります。\n\n空母は「未発見」の状態では敵の攻撃・スキル対象に\nされにくくなります。\nまた、「未発見」の状態での艦載機による敵に与える\nダメージが増加します。\n\n■「発見ゲージ」について\n「発見ゲージ」とは味方空母が敵に発見される危険性\nを示すゲージになります。\nまた、「発見ゲージ」の上昇に左右される要素として\n、味方主力艦隊から一定の距離を示す範囲が「発見\n範囲」として存在します。\n\n下記の場合、「発見ゲージ」が上昇します：\n・敵艦船が「発見範囲」に存在する\n・敵艦船/艦載機が画面左奥に到達する\n・味方空母が航空攻撃を行う\n・一部の味方空母のスキルが発動する\n・味方空母が炎上状態になる（炎上状態中、発見ゲー\nジが一定値まで下降しない）\n\n「発見ゲージ」は、「発見範囲」に敵が存在しない時\nは下降し続けます。\n 「発見ゲージ」のMAX値は艦ごとに異なり、空母の\n回避が高ければ高いほど、「発見ゲージ」のMAX値\nが高くなります。\n\n■演習における仕様について\n演習における戦闘中は、空母の「発見ゲージ」が下降\nせず、また敵艦が味方主力艦隊に接近した場合、味方\n空母が全て「発見状態」になります。"
 	}
 end)()
 
@@ -37369,8 +37976,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_total_score = {
-		tip = "スコア："
+	_G.pg.base.gametip.desc_defense_reward = {
+		tip = "クリア時、防御対象の耐久度に応じて報酬を獲得できます"
 	}
 end)()
 
@@ -37393,8 +38000,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.option_desc11 = {
-		tip = "空母の発見範囲（戦闘画面における青い枠）を表示\n\n■空母の状態について\n味方主力艦隊の空母には「発見状態」と「未発見状態\n」が存在します。\n戦闘開始時の空母は「未発見状態」ですが、「発見ゲ\nージ」が一度でも満タンになると、ゲージが一定値ま\nで下がらない限り「発見状態」になります。\n\n空母は「未発見」の状態では敵の攻撃・スキル対象に\nされにくくなります。\nまた、「未発見」の状態での艦載機による敵に与える\nダメージが増加します。\n\n■「発見ゲージ」について\n「発見ゲージ」とは味方空母が敵に発見される危険性\nを示すゲージになります。\nまた、「発見ゲージ」の上昇に左右される要素として\n、味方主力艦隊から一定の距離を示す範囲が「発見\n範囲」として存在します。\n\n下記の場合、「発見ゲージ」が上昇します：\n・敵艦船が「発見範囲」に存在する\n・敵艦船/艦載機が画面左奥に到達する\n・味方空母が航空攻撃を行う\n・一部の味方空母のスキルが発動する\n・味方空母が炎上状態になる（炎上状態中、発見ゲー\nジが一定値まで下降しない）\n\n「発見ゲージ」は、「発見範囲」に敵が存在しない時\nは下降し続けます。\n 「発見ゲージ」のMAX値は艦ごとに異なり、空母の\n回避が高ければ高いほど、「発見ゲージ」のMAX値\nが高くなります。\n\n■演習における仕様について\n演習における戦闘中は、空母の「発見ゲージ」が下降\nせず、また敵艦が味方主力艦隊に接近した場合、味方\n空母が全て「発見状態」になります。"
+	_G.pg.base.gametip.world_map_not_open = {
+		tip = "エリアが解放されていません"
 	}
 end)()
 
@@ -37439,14 +38046,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_noPos_buy = {
-		tip = "拡張"
+	_G.pg.base.gametip.new_airi_error_code_100246 = {
+		tip = "システムバージョンが古いため、Apple連携できません"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ins_word_minu = {
-		tip = "$1分前"
+	_G.pg.base.gametip.secretary_closed = {
+		tip = "準備中です"
 	}
 end)()
 
@@ -37463,8 +38070,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_low_morale = {
-		tip = "艦隊の士気ステータスが低下しているため、強敵との戦闘を開始できません。\n艦隊整備オーダーを発令するか、戦闘を勝利させることで艦隊士気を回復できます"
+	_G.pg.base.gametip.title_limit_time = {
+		tip = "「限定」"
 	}
 end)()
 
@@ -37482,33 +38089,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pocky_jiujiu = {
-		tip = "饅頭量産中"
+	_G.pg.base.gametip.mail_storeroom_taken_1 = {
+		tip = "資源を取り出しました"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_7_buff = {
-		tip = "補正値：全性能（速力、装備以外）12%アップ"
+	_G.pg.base.gametip.msgbox_text_goon_fight = {
+		tip = "戦闘継続"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.pocky_help = {
-		tip = {
-			{
-				info = "■開催時間\n 11月14日（木）メンテナンス後～12月15日（日）\n23:59"
-			},
-			{
-				info = "■遊び方\n 饅頭量産計画とは、イベントページで確認できる3種類\nの限定任務を完了させることで、ベルファストの着せ替\nえ「メイド長とお買い物」を入手できるミニイベントで\nす。"
-			},
-			{
-				info = "■限定任務について\n 限定任務は全部で3種類あり、イベントページでは「ロ\nグイン」「委託」「生産」ボタンでそれぞれ完了させる\nことが出来ます。\n・「ログイン」はゲームにログインし、イベントページ\nの「ログイン」ボタンをタップすると自動で完了できま\nす。\n・「委託」はメイド長からの様々な委託をこなすことで\n任務を完了できます。\n・「生産」はイベント期間中累計燃料消費数が一定数値\n以上になった場合に完了できます。"
-			},
-			{
-				info = "■注意\n・「委託」任務はイベントページの「ログイン」ボタン\nをタップすると表示されます。\n・限定任務は1日に1段階開放され、次の任務を表示させ\nるには前日分の任務を全て完了させる必要があります。\n  11月27日（水）より全ての任務が開放されます。"
-			}
-		}
+	_G.pg.base.gametip.battle_preCombatLayer_save_success = {
+		tip = "艦隊編成を保存しました"
 	}
 end)()
 
@@ -37519,14 +38113,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.naval_academy_res_desc_class = {
-		tip = "学園の大講堂。LvUPすると、<color=#92fc63>経験値生成上限、熟練度上限</color>、<color=#92fc63>熟練度入手効率</color>などを上昇可能"
+	_G.pg.base.gametip.battlepass_task_quickfinish1 = {
+		tip = "任務をスキップ（クリア状態に）するにはシーズン任務チケットを<color=#ff5c5c>$1枚</color>消費します。\n（シーズン任務チケット所持数；<color=#92fc63>$2</color>）\nシーズン任務チケットを使用しますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.secretary_unlock5 = {
-		tip = "12-4クリアで開放"
+	_G.pg.base.gametip.word_equipment_intensify = {
+		tip = "強化"
 	}
 end)()
 
@@ -37600,38 +38194,66 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.naval_academy_res_desc_cateen = {
+		tip = "みんながワイワイ盛り上げる食堂。増築で<color=#92fc63>燃料の入手量</color>と<color=#92fc63>備蓄上限</color>UP！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_disable_formation_unsatisfied = {
+		tip = "編成条件に満たしていません"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.msgbox_text_consume = {
 		tip = "はい"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_material_ship_on_exist = {
-		tip = "素材がありません"
+	_G.pg.base.gametip.reflux_help_tip = {
+		tip = {
+			{
+				info = "明石Pt入手方法："
+			},
+			{
+				info = "1.デイリーチャレンジを１回クリア+20Pt\n（一日最大<color=#92fc63>[task=13852]</color>/120pt）"
+			},
+			{
+				info = "2.演習を一回行う+5Pt\n（一日最大<color=#92fc63>[task=13853]</color>/50pt）"
+			},
+			{
+				info = "3.通常ハード海域を一回クリア+20Pt\n（一日最大<color=#92fc63>[task=13854]</color>/60pt）"
+			},
+			{
+				info = "4.敵中枢艦隊撃破+10Pt\n（一日最大<color=#92fc63>[task=13855]</color>/500pt）"
+			},
+			{
+				info = "5.艦を一回強化する+5Pt\n（一日最大<color=#92fc63>[task=13856]</color>/50pt）"
+			},
+			{
+				info = "6.艦を一回退役させる+5Pt\n（一日最大<color=#92fc63>[task=13857]</color>/50pt）"
+			},
+			{
+				info = "7.軍事委託を一回遂行する+10Pt\n（一日最大<color=#92fc63>[task=13858]</color>/100pt）"
+			},
+			{
+				info = "8.建造を一回行う+15Pt\n（一日最大<color=#92fc63>[task=13859]</color>/750pt）"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_storeroom_max_4 = {
-		tip = "※受け取ると、資金所持数が所持上限を超えてしまいます"
+	_G.pg.base.gametip.msgbox_text_inconsume = {
+		tip = "いいえ"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_goon_fight = {
-		tip = "戦闘継続"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_apply = {
-		tip = "申 請"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_noPos_buy = {
-		tip = "拡 張"
+	_G.pg.base.gametip.shopStreet_upgrade_done = {
+		tip = "商店街増築完了"
 	}
 end)()
 
@@ -37642,8 +38264,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_iknow = {
-		tip = "了 解"
+	_G.pg.base.gametip.ship_dockyardMediator_destroy = {
+		tip = "退役完了"
 	}
 end)()
 
@@ -37654,14 +38276,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_equipment_intensify = {
-		tip = "強化"
+	_G.pg.base.gametip.msgbox_text_analyse = {
+		tip = "分 解"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.map_event_stop_story_tip = {
-		tip = "<color=#92fc63>イベントマスを踏む</color>ことで通行禁止状態を解除できます"
+	_G.pg.base.gametip.new_airi_error_code_200140 = {
+		tip = "購入に失敗しました、サーバーとの通信に失敗しました"
 	}
 end)()
 
@@ -37678,14 +38300,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_inconsume = {
-		tip = "いいえ"
+	_G.pg.base.gametip.help_newyear_stamp = {
+		tip = {
+			{
+				info = "チケット所持中でミニゲームをプレイすると入手可能！\nスタンプを7つ集めて、報酬を手に入れよう！"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_dockyardMediator_destroy = {
-		tip = "退役完了"
+	_G.pg.base.gametip.word_museum_1 = {
+		tip = "今日はこれ以上モデルパーツを入手できません"
 	}
 end)()
 
@@ -37696,8 +38322,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200220 = {
-		tip = "決済システムへの通信時にエラーが発生しました"
+	_G.pg.base.gametip.pray_build_select_ship_instruction = {
+		tip = "艦船を二人選択"
 	}
 end)()
 
@@ -37708,14 +38334,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shops_rest_day = {
-		tip = "ラインナップ更新まで:"
+	_G.pg.base.gametip.word_synthesize_power = {
+		tip = "総合戦力"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.title_limit_time = {
-		tip = "「限定」"
+	_G.pg.base.gametip.levelScene_escort_lose = {
+		tip = "輸送船が大破しました。海上護衛失敗……"
 	}
 end)()
 
@@ -37748,20 +38374,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attribute_armor_type = {
-		tip = "装甲種別"
+	_G.pg.base.gametip.ship_preference_common = {
+		tip = "常用艦船に設定しました"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_museum_1 = {
-		tip = "今日はこれ以上モデルパーツを入手できません"
+	_G.pg.base.gametip.word_attr_level = {
+		tip = "レベル上限"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_date = {
-		tip = "日"
+	_G.pg.base.gametip.bulin_help = {
+		tip = {
+			{
+				info = "■「黄金の秘宝」とは\n期間限定イベント「黄金の秘宝」では、母港とノーマル\n海域に隠されている「秘宝のヒント」を9種類集めると、\nスペシャルステージを解禁することができます。\nスペシャルステージをクリアすると、特別な報酬を手に\n入れることができます。\n\n■遊び方\n・イベント期間中、母港の一部画面とノーマル海域に「\n秘宝のヒント」が出現します。\n　母港画面では「秘宝のヒント」マークをタップ；\n　ノーマル海域では「秘宝のヒント」マスに艦隊を移動\nさせると；\n　「秘宝のヒント」を手に入れることができます。\n・「秘宝のヒント」を手に入れると、イベントバナーの\n対応のパネルが点灯します。\n・未入手の「秘宝のヒント」について、イベントバナー\n下部にあるパネルをタップすると、入手先に関するヒン\nトを表示させることができます。\n　（20分の間に1回しか表示させることができません）\n・「秘宝のヒント」9種類を全部入手すると、イベントバ\nナー右下のボタンをタップすることでスペシャルステー\nジに挑むことが出来ます。\n　スペシャルステージをクリアすると、特別な報酬を入\n手することができます。"
+			}
+		}
 	}
 end)()
 
@@ -37772,20 +38402,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipNation_um = {
-		tip = "うたわれるもの"
+	_G.pg.base.gametip.buyProp_noResource_error = {
+		tip = "<color=#92fc63>$1</color>不足"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shopStreet_upgrade_done = {
-		tip = "商店街増築完了"
+	_G.pg.base.gametip.cat_home_interaction = {
+		tip = "本日はすでに$1をしました"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_no_cache = {
-		tip = "修復するアセットはありません"
+	_G.pg.base.gametip.yumia_atelier_tip24 = {
+		tip = "確認"
 	}
 end)()
 
@@ -37796,8 +38426,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_escort_lose = {
-		tip = "輸送船が大破しました。海上護衛失敗……"
+	_G.pg.base.gametip.mail_important_page = {
+		tip = "重要"
 	}
 end)()
 
@@ -37808,8 +38438,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_cancel = {
-		tip = "戻 る"
+	_G.pg.base.gametip.bulin_tip7 = {
+		tip = "2-4海域に出撃にゃ！"
 	}
 end)()
 
@@ -37824,20 +38454,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_39904 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装310mm砲\n100mm二連装九八式高角砲\n試作型五式40mm高射機関砲</color></size>"
+	_G.pg.base.gametip.bulin_tip_other2 = {
+		tip = "＞＜まだ表示できないプリン"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_extralevel_2 = {
-		tip = "レベル2"
+	_G.pg.base.gametip.bulin_tip_other3 = {
+		tip = "ステージから撤退するブリン？（報酬を入手できません）"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_preference_common = {
-		tip = "常用艦船に設定しました"
+	_G.pg.base.gametip.monoply_drop_ship_step = {
+		tip = "在经过$1圈，可获得角色换装【东煌之风】"
 	}
 end)()
 
@@ -37848,14 +38478,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mingshi_task_tip_5 = {
-		tip = "見つかったにゃ？\n暗号は……<<color=#92fc63>H</color>>\n次の目標は…<<color=#92fc63>艦隊を編成する場所</color>>にゃ！"
+	_G.pg.base.gametip.sort_attribute = {
+		tip = "ｽﾃｰﾀｽ"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_19905 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n127mm単装砲\n五連装533mm魚雷\n試作型F8Fベアキャット（フロート）</color></size>"
+	_G.pg.base.gametip.sort_intimacy = {
+		tip = "親密度"
 	}
 end)()
 
@@ -37866,8 +38496,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip4 = {
-		tip = "ドックの様子をチェックにゃ！"
+	_G.pg.base.gametip.word_gem_icon = {
+		tip = "<icon name=diamond w=0.7 h=0.7/>"
 	}
 end)()
 
@@ -37888,8 +38518,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_important_page = {
-		tip = "重要"
+	_G.pg.base.gametip.collection_fetched = {
+		tip = "受取済みです"
 	}
 end)()
 
@@ -37900,26 +38530,30 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip9 = {
-		tip = "お店に来てにゃ！"
+	_G.pg.base.gametip.ship_getShip_error_full = {
+		tip = "<color=#92fc63>ドックが一杯です</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip_other2 = {
-		tip = "＞＜まだ表示できないプリン"
+	_G.pg.base.gametip.new_airi_error_code_200200 = {
+		tip = "購入時に通信エラーが発生しました"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip_other3 = {
-		tip = "ステージから撤退するブリン？（報酬を入手できません）"
+	_G.pg.base.gametip.help_newyear_feast = {
+		tip = {
+			{
+				info = "■概要\n「母港正月」イベントとは、裏山の屋台（ミニゲーム）\nを楽しみながら、スタンプを集め「鬼怒」の着せ替えを\n入手するイベントです。\nスタンプを集めるには、イベント期間中にゲームにログ\nインすることで入手できる「チケット」が必要です。\n\n■チケットとスタンプの集め方\nイベント期間中毎日ログインするたびに、「チケット」\nを1枚入手することができます。\n前日までの分の「チケット」を入手していなかった場合、\nログイン日の前日までの分のチケットが一括で配布され\nます。\n\n■ミニゲームについて\n「新年対決」をタップすると、ミニゲーム「行くぜ！節\n奏（リズム）対決」をプレイすることが出来ます。\n「チケット」を所持している状態でゲームをクリアする\nと、スタンプを1つ入手するとともに、「幸運祈願」で\nきる回数が2回増加します。\n\n「スタンプ」を7つ集めると、画面右の「スタンプ」をタ\nップし、鬼怒の着せ替えを入手できます。\n「幸運祈願」を7回すると、イベントバナーの対応バナー\nで「正月招待状2020」を入手できます。\n\n※「チケット」を所持していなくてもミニゲームを遊べ\nますが、スタンプと景品・幸運祈願可能回数を入手する\nことはできません。\n※ミニゲームを途中でやめると、チケットは消費されず、\nスタンプと祈願回数も入手できません。"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_400060 = {
-		tip = "エラーコード400060：ニンテンドーアカウントログイン認証が失敗しました"
+	_G.pg.base.gametip.spweapon_tip_create_sussess = {
+		tip = "特殊装備<color=#92fc63>【$1】</color>を入手しました"
 	}
 end)()
 
@@ -37942,20 +38576,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sort_attribute = {
-		tip = "ｽﾃｰﾀｽ"
+	_G.pg.base.gametip.yumia_award_3 = {
+		tip = "装備外装"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.sort_intimacy = {
-		tip = "親密度"
+	_G.pg.base.gametip.retire_1 = {
+		tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持している</color>場合、その艦船と同名の艦船は"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.index_fleetrear = {
-		tip = "主力艦隊"
+	_G.pg.base.gametip.levelScene_time_out = {
+		tip = "作戦時間終了"
 	}
 end)()
 
@@ -38018,8 +38652,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_tip_create_sussess = {
-		tip = "特殊装備<color=#92fc63>【$1】</color>を入手しました"
+	_G.pg.base.gametip.title_item_ways = {
+		tip = "<color=#92fc63>$1</color>は下記の方法で入手可能"
 	}
 end)()
 
@@ -38030,14 +38664,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.retire_1 = {
-		tip = "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持している</color>場合、その艦船と同名の艦船は"
+	_G.pg.base.gametip.word_weakness = {
+		tip = "損傷"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_310024 = {
-		tip = "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+	_G.pg.base.gametip.area_lock = {
+		tip = "この海域が開放されていません"
 	}
 end)()
 
@@ -38048,20 +38682,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_event_is_lock = {
-		tip = "作戦事件が開放されていません"
+	_G.pg.base.gametip.intimacy_desc_3_detail = {
+		tip = "$1があなたことが信頼できると考えている\n<color=#92fc63><size=18>性能（速力以外）＋1%</size></color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.res_music_no_pre_tip = {
-		tip = "最初のBGMです"
+	_G.pg.base.gametip.guild_exist_unreceived_supply_award = {
+		tip = "<color=red>未受取</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_log_quit = {
-		tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から脱退しました"
+	_G.pg.base.gametip.guild_sort_level = {
+		tip = "練度"
 	}
 end)()
 
@@ -38090,8 +38724,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_scene_buy_confirm = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>ダイヤ<color=#92fc63>$1</color>で、\n<color=#92fc63>$2</color>を購入しますか？"
+	_G.pg.base.gametip.new_airi_error_code_100401 = {
+		tip = "Steam認証失敗"
 	}
 end)()
 
@@ -38108,8 +38742,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.challenge_season_update_infinite_clear = {
-		tip = "現在のステージ:$1\nチャレンジステージが更新されましたため、最高クリア数が更新されません。\nチャレンジモードをリセットしますか？"
+	_G.pg.base.gametip.word_attr_luck = {
+		tip = "消費"
 	}
 end)()
 
@@ -38126,8 +38760,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.inform_chat_msg = {
-		tip = "空メッセージを送信できません"
+	_G.pg.base.gametip.win_condition_display_shangchuan = {
+		tip = "輸送船が指定位置に到達"
 	}
 end)()
 
@@ -38138,26 +38772,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_weakness = {
-		tip = "損傷"
+	_G.pg.base.gametip.lose_condition_display_quanmie = {
+		tip = "味方艦隊全滅"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_vote_group = {
-		tip = "$1グループ"
+	_G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
+		tip = "寮舎快適度を掲載する際に使用される家具の数は寮舎の\n拡張回数によって決まります。現在の拡張回数： <color=#72bc42>$1</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.destroy_ur_rarity_tip = {
-		tip = "<color=#92fc63>UR艦船</color>が選択されています、下の枠に<color=#92fc63>「$1」</color>を入力してください"
+	_G.pg.base.gametip.re_battle = {
+		tip = "再度出撃"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_exist_unreceived_supply_award = {
-		tip = "<color=red>未受取</color>"
+	_G.pg.base.gametip.equip_info_1 = {
+		tip = "ダメージ"
 	}
 end)()
 
@@ -38186,38 +38820,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.anniversary_task_title_14 = {
-		tip = "あなたは、支配されない自我を持つ「ニンゲン」に相応しい――"
+	_G.pg.base.gametip.equip_info_13 = {
+		tip = "特性"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.task_submitTask_error_client = {
-		tip = "任務完了失敗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.option_desc8 = {
-		tip = "ONにすると、自分の寮舎画面で来訪した（寮舎表示をONにした）友達の秘書艦が表示される"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exercise_count_insufficient = {
-		tip = "演習回数が不足しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.win_condition_display_qijian = {
-		tip = "敵中枢艦隊撃破"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail = {
+	_G.pg.base.gametip.mail_mail_page = {
 		tip = "メール"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.anniversary_task_title_5 = {
+		tip = "いわば忠義。栄光の女王陛下に仕えし者は自然の恩恵を授かる。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_cancel_only_once_pre_day = {
+		tip = "開発対象となる兵站施設は一日1回しか変更できません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_info_22 = {
+		tip = "艦載機最大回避"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_modShip_error_notEnoughGold = {
+		tip = "<color=#92fc63>資金が不足しています</color>"
 	}
 end)()
 
@@ -38240,20 +38874,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_unselect_SP_OP = {
-		tip = "アイテムを使用しない"
+	_G.pg.base.gametip.tec_settings_btn_word = {
+		tip = "指向設定"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.re_battle = {
-		tip = "再度出撃"
+	_G.pg.base.gametip.tec_tendency_x = {
+		tip = "特別計画$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
-		tip = "寮舎快適度を掲載する際に使用される家具の数は寮舎の\n拡張回数によって決まります。現在の拡張回数： <color=#72bc42>$1</color>"
+	_G.pg.base.gametip.open_skill_pos = {
+		tip = "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>を消費し\n教室枠を拡張しますか？"
 	}
 end)()
 
@@ -38270,8 +38904,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.sham_ship_equip_forbid_2 = {
-		tip = "「鏡面海域」に出撃すると出撃メンバーを変更できず、また出撃メンバーの装備も変更できません。出撃しますか？"
+	_G.pg.base.gametip.tec_target_catchup_none_x = {
+		tip = "強化指向$1期/未選択"
 	}
 end)()
 
@@ -38282,14 +38916,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_13 = {
-		tip = "特性"
+	_G.pg.base.gametip.challenge_season_update_casual_switch = {
+		tip = "現在NORMALモードです。\n累計得点:$1\nチャレンジステージが更新されたため、最高得点が更新されません。\nモードを切り替えますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.common_shopId_noFound = {
-		tip = "商品idが見つかりません"
+	_G.pg.base.gametip.limit_skin_time_day = {
+		tip = "殘り:$1日"
 	}
 end)()
 
@@ -38300,8 +38934,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_mail_page = {
-		tip = "メール"
+	_G.pg.base.gametip.attr_reload = {
+		tip = "装填"
 	}
 end)()
 
@@ -38318,14 +38952,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.npc_evaluation_tip = {
-		tip = "仮加入状態のキャラクターのコメントを確認することが出来ません"
+	_G.pg.base.gametip.equip_info_30 = {
+		tip = "属性效率"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.indexsort_campeng = {
-		tip = "AFFILIATION"
+	_G.pg.base.gametip.submarine_approach_desc = {
+		tip = "敵潜水艦が海域に出現中！"
 	}
 end)()
 
@@ -38336,20 +38970,48 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_mailLayer_takeAttach = {
-		tip = "添付受取"
+	_G.pg.base.gametip.qte_game_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/guinu_help1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/guinu_help2",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200260 = {
-		tip = "APIに問題が発生しました"
+	_G.pg.base.gametip.guild_duty_is_too_low = {
+		tip = "任務をこなし、資源拠出を行い貢献度を100まで上げましょう！"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_settings_btn_word = {
-		tip = "指向設定"
+	_G.pg.base.gametip.activity_hit_monster_nocount = {
+		tip = "回数が足りません"
 	}
 end)()
 
@@ -38366,20 +39028,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200160 = {
-		tip = "不正な購入リクエストです"
+	_G.pg.base.gametip.guild_commander_and_sub_op = {
+		tip = "この操作は大艦隊司令/副司令でのみ行なえます"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_tendency_cur_4 = {
-		tip = "研究指向 / Ⅳ"
+	_G.pg.base.gametip.guild_supply_no_open = {
+		tip = "大艦隊補給が購入されていません"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_takeAttachment_error_magazine_full = {
-		tip = "<color=#92fc63>受取失敗:</color><color=#92fc63>装備倉庫が一杯です</color>"
+	_G.pg.base.gametip.world_boss_daily_limit = {
+		tip = "解析回数不足"
 	}
 end)()
 
@@ -38396,84 +39058,6 @@ end)()
 				info = "■キャンペーン開催期間\n 2024.12.1（日）0:00～2025.1.31（金）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「ジュリオ・チェザーレ(META)」、SP報酬からは軽空母「ヴェーザー」の限定着せ替え「オフタイム・カフェ」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n ①週次開放任務\n キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ\n ②全期間任務\n 最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n ①通常報酬\n 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n ②SP報酬\n 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n ダイヤを消費しますので、オススメしません。\n 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
 			}
 		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_30 = {
-		tip = "属性效率"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.activity_puzzle_get2 = {
-		tip = "<color=#92fc63FF>入手方法\nノーマル2-1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_submarine_6 = {
-		tip = "エリア移動を行うと、潜水艦隊が出撃待機状態になります。エリア移動を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_show_friend_backyardship_toggle = {
-		tip = "寮舎で友達の秘書艦を表示"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_520034 = {
-		tip = "改造を行うと艦種が下記のものになります：\nミサイル駆逐艦（前衛艦隊配置モード）\n艦船のステータスと戦闘中の挙動が変化します\n改造を行いますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.roll_room3 = {
-		tip = "客間"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_lock_by_time = {
-		tip = "$1日$2時間後に解放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_sell_lock = {
-		tip = "未開放 "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_commander_and_sub_op = {
-		tip = "この操作は大艦隊司令/副司令でのみ行なえます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.main_scene_settings = {
-		tip = "待機画面設定"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equipcode_equipment_unowned = {
-		tip = "未所持"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_new_member_get_award_tip = {
-		tip = "大艦隊加入初日は大艦隊補給を入手できません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hotspring_tip2 = {
-		tip = "温泉コインが足りません"
 	}
 end)()
 
@@ -38509,14 +39093,96 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.activity_puzzle_get2 = {
+		tip = "<color=#92fc63FF>入手方法\nノーマル2-1</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_submarine_6 = {
+		tip = "エリア移動を行うと、潜水艦隊が出撃待機状態になります。エリア移動を行いますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_show_friend_backyardship_toggle = {
+		tip = "寮舎で友達の秘書艦を表示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_shop_label_1 = {
+		tip = "交換するアイテムを選択してください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.roll_room3 = {
+		tip = "客間"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_lock_by_time = {
+		tip = "$1日$2時間後に解放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_sell_lock = {
+		tip = "未開放 "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.help_equipment_skin = {
+		tip = {
+			{
+				info = "・装備外装は発射する弾や艦載機の外見のみを変更し、性能や判定には影響しません（弾道や弾速、発射速度、命中判定など）\n\n・装備外装は、個別に適用可能な兵装の種類が決まっています。装備外装は1つにつき1キャラ分しか装備できません\n\n・装備外装は倉庫の所持枠を消費しません"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.main_scene_settings = {
+		tip = "待機画面設定"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equipcode_equipment_unowned = {
+		tip = "未所持"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.bulin_tip_other1 = {
+		tip = "入手条件ヒントは10分につき1個しか表示できないプリン！表示するプリン？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hotspring_tip2 = {
+		tip = "温泉コインが足りません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_left_supply_day = {
+		tip = "残り$1日"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.ship_remould_warning_203114 = {
 		tip = "<size=35>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_cancel_only_once_pre_day = {
-		tip = "開発対象となる兵站施設は一日1回しか変更できません"
+	_G.pg.base.gametip.word_equipDestory = {
+		tip = "廃棄"
 	}
 end)()
 
@@ -38533,14 +39199,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
-		tip = "製造に必要な強化経験値が不足しています"
+	_G.pg.base.gametip.guidl_r_box_time_desc = {
+		tip = "ネコハコR訓練時間短縮$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_preCombatLayer_save_march = {
-		tip = "現在の編成を保存して出撃しますか？"
+	_G.pg.base.gametip.click_back_tip = {
+		tip = "画面タップで戻る"
 	}
 end)()
 
@@ -38551,8 +39217,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_shop_label_1 = {
-		tip = "交換するアイテムを選択してください"
+	_G.pg.base.gametip.text_iknow = {
+		tip = "了解"
 	}
 end)()
 
@@ -38609,36 +39275,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_activity_bossbattle = {
-		tip = {
-			{
-				info = "                                     ※遊び方※\n"
-			},
-			{
-				info = "1.同じサーバーに所属する指揮官全員が協力し、特別ステージを攻略し作戦を完遂するコンテンツです；"
-			},
-			{
-				info = "2.出現する特別ステージをクリアすると、個人用の累計報酬がもらえる「演習Pt」を入手できる他、全指揮官用の作戦進捗ゲージを進める事ができます；"
-			},
-			{
-				info = "3.特別ステージは毎日最初にクリアした回数（初級<color=#92fc63>20</color>回・中級\n<color=#92fc63>20</color>回・上級<color=#92fc63>40</color>回まで）ではクリア報酬（演習Pt・経験値除く）が増量します；"
-			},
-			{
-				info = "4.作戦成功（=作戦ゲージが満タンになると）、作戦に参加した（序章を含めた特別ステージを１回以上クリアした）指揮官に軽巡洋艦「ニューカッスル」がメールボックスに送られます；"
-			},
-			{
-				info = "5.作戦完了後、イベント期間中は引き続き「序章」以外の特別ステージに挑戦でき、演習Ptを入手できます；"
-			},
-			{
-				info = "6.累計演習Pt報酬獲得期間は<color=#92fc63>2018.10.18 23:59:59</color>までになります；"
-			}
-		}
+	_G.pg.base.gametip.levelScene_activate_loop_mode_failed = {
+		tip = "海域攻略ゲージ100%で周回モードを選択できるようになります"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_exist_activation_tech = {
-		tip = "兵站施設は同時に1種類までしか開発できません"
+	_G.pg.base.gametip.spweapon_ui_create_exp = {
+		tip = "製造に必要な強化経験値"
 	}
 end)()
 
@@ -38655,26 +39299,30 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_member_max_cnt_desc = {
-		tip = "大艦隊最大メンバー数+$1"
+	_G.pg.base.gametip.commander_lock_erro = {
+		tip = "保護に失敗しました$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.retire_marry_skin = {
-		tip = "艦船$1の着せ替えが元に戻りました"
+	_G.pg.base.gametip.coloring_help_tip = {
+		tip = {
+			{
+				info = "※遊び方※\n・「おえかき」では、着色枠に指定された番号の絵の具\nを選択して、タップすると、枠に色を塗ることが出来ま\nす；\n・塗エリアはピンチ操作で拡大・縮小できます\n・色塗りは、同じ色の枠が完全に着色されるか、絵の具\nが全て消費されるかまで自動で行われます；\n・色塗りは「絵の具」を消費します。絵の具の残量が0\nになると、該当する色の枠を色塗りすることができませ\nん；\n・「絵の具」はイベント期間限定任務「累計燃料消費数」\nの報酬で入手できます；\n・絵が完成（着色枠を全て着色・「空白絵」は除く）す\nると、報酬を入手することができます。\n・おえかき完成の報酬一覧：\nNo.1 ランダム教科書T3×2\nNo.2 年玉×2\nNo.3 限定家具「玉竹バブルマシン」\nNo.4 年玉×2\nNo.5 限定家具「玉竹バブルマシン」\nNo.6 年玉×2\nNo.7 艦船「鞍山」、年玉×1\n・イベント終了後、未使用の絵の具はリセットされます\n・1月22日(水)まで毎日新しい絵が一枚ずつ解放され\nます。"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.common_clean = {
-		tip = "清掃"
+	_G.pg.base.gametip.guild_fleet_exist_same_kind_ship = {
+		tip = "すでに支援派遣として大艦隊作戦に参加しています"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_ship_attr_desc = {
-		tip = "大艦隊作戦内$1の$2が$3"
+	_G.pg.base.gametip.guild_fleet_update_done = {
+		tip = "艦隊編成が更新されました"
 	}
 end)()
 
@@ -38721,14 +39369,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_shipSpeedUpEnergy_error = {
-		tip = "加速失敗:"
+	_G.pg.base.gametip.guild_boss_formation_2 = {
+		tip = "一人のメンバーの支援派遣艦船を最大1隻まで選択できます"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_activate_loop_mode_failed = {
-		tip = "海域攻略ゲージ100%で周回モードを選択できるようになります"
+	_G.pg.base.gametip.friend_search_page_tip = {
+		tip = "一回で<color=#92fc63>$1</color>人まで検索できます"
 	}
 end)()
 
@@ -38745,20 +39393,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_open_event_info_when_exist_active = {
-		tip = "$1の大作戦が発令中のため、大作戦を選択できません"
+	_G.pg.base.gametip.longxiang_total_count = {
+		tip = "所持式札J"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_1 = {
-		tip = "自動確保するエリアの侵攻レベル"
+	_G.pg.base.gametip.guild_new_member_get_award_tip = {
+		tip = "大艦隊加入初日は大艦隊補給を入手できません"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_join_event_exist_finished_mission_tip = {
-		tip = "すでに発生しました作戦事件の報酬を入手できません。作戦に参加しますか？"
+	_G.pg.base.gametip.charge_title_getitem = {
+		tip = "下記のアイテムが手に入ります："
 	}
 end)()
 
@@ -38799,8 +39447,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_next_edit_fleet_time = {
-		tip = "$1後、新しい艦隊を派遣できます"
+	_G.pg.base.gametip.activity_puzzle_get6 = {
+		tip = "<color=#92fc63FF>入手方法\nノーマル3-4</color>"
 	}
 end)()
 
@@ -38811,8 +39459,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200235 = {
-		tip = "決済が時間切れになりました"
+	_G.pg.base.gametip.blueprint_simulation_confirm_39907 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型410mm連装砲Mod.A\n140mm単装砲\n試作型五式40mm高射機関砲</color></size>"
 	}
 end)()
 
@@ -38823,8 +39471,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_msg_is_null = {
-		tip = "空メッセージは送信できません。"
+	_G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
+		tip = "限界突破で装備枠開放"
 	}
 end)()
 
@@ -38859,8 +39507,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_left_supply_day = {
-		tip = "残り$1日"
+	_G.pg.base.gametip.guild_donate_list_updated = {
+		tip = "物資拠出回数がリセットされました"
 	}
 end)()
 
@@ -38884,8 +39532,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_not_exist_notifycation = {
-		tip = "大艦隊連絡板に書き込みはありません"
+	_G.pg.base.gametip.guild_time_remaining_tip = {
+		tip = "作戦残り時間:"
 	}
 end)()
 
@@ -38896,8 +39544,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_supply_log = {
-		tip = "[$1] $2 は大艦隊資金$3 を消費し、大艦隊補給を$4日分購入しました"
+	_G.pg.base.gametip.battle_levelScene_hard_lock = {
+		tip = "対応するメイン海域がまだクリアされていません。<color=#92fc63>前のステージ</color>を攻略すると開放されます"
 	}
 end)()
 
@@ -38908,24 +39556,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.elite_condition_air = {
-		tip = "航空合計"
+	_G.pg.base.gametip.mail_input_erro = {
+		tip = "正しいテキストを入力すると受け取れます"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_public_office_tip = {
-		tip = {
-			{
-				info = "■物資拠出について"
-			},
-			{
-				info = "公共大艦隊でも、指揮官は「物資拠出」を行い、貢献Ptを入手することが可能です。"
-			},
-			{
-				info = "物資拠出は毎日3回まで行えます。"
-			}
-		}
+	_G.pg.base.gametip.destroy_ur_rarity_tip = {
+		tip = "<color=#92fc63>UR艦船</color>が選択されています、下の枠に<color=#92fc63>「$1」</color>を入力してください"
 	}
 end)()
 
@@ -38998,8 +39636,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_operation_event_occurrence = {
-		tip = "大艦隊作戦で新しい作戦事件が発生中です。確認しますか？"
+	_G.pg.base.gametip.new_airi_error_code_200270 = {
+		tip = "Google Playをバージョンアップしてください"
 	}
 end)()
 
@@ -39010,42 +39648,51 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_total_damage = {
-		tip = "ダメージ"
+	_G.pg.base.gametip.battle_resourceSiteLayer_shipTypeCount = {
+		tip = "$1X$2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_donate_list_updated = {
-		tip = "物資拠出回数がリセットされました"
+	_G.pg.base.gametip.meta_pt_get_way = {
+		tip = "可以通过以下方式获取同步值(未使用)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_mapbuff_attrtxt_2 = {
-		tip = "耐久適応"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_time_remaining_tip = {
-		tip = "作戦残り時間:"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.help_rollingBallGame = {
+	_G.pg.base.gametip.venusvolleyball_help = {
 		tip = {
 			{
-				info = "■概要\n饅頭パズルとは、画面上のドロップ（SDアイコン）をで\nきるだけ「同じドロップを3つ揃える」状態にすることで\nスコアを獲得していくミニゲームになります。\n\n■遊び方\n・饅頭パズルでは、ドロップをほかのドロップの位置にス\nワイプすることで位置を入れ替えられます。\n・一回スワイプを終わらせるか、7秒間経過するとゲーム\nが終了します。\n・ゲーム終了時、画面上で「同じドロップが3つ揃ってい\nる」とドロップが消え、スコアとして計算されます。\n・饅頭パズルを「チケット」を所持している状態でクリ\nアすると、「ゲーム回数」が1回消費され、「3周年の招\n待状」の獲得進捗が1回進捗します。\n・「3周年の招待状」獲得進捗が7回進捗すると、当該イ\nベントバナーでSSR艦船と交換できる「3周年の招待状」\nを入手できます。\n・「3周年の招待状」の獲得進捗は、「饅頭トラベル」\n画面右側の「招待状」アイコンをタップするか、当該\nイベントバナーにて確認できます。\n・「ゲーム回数」を所持していない状態でも「饅頭パズ\nル」をプレイできます。その場合、招待状の入手進捗は\n進捗しません。"
+				info = "ヴィーナス練習試合とは"
+			},
+			{
+				info = "「ヴィーナス練習試合」とは、ビーチバレーのミニゲー\nムをプレイすることで、報酬を入手できるミニイベント\nです。\nキャラクターを選択し、7日間毎日1回開放される試合を\nクリアすると、コラボ兵装「ヴィーナス覚醒ジェム」を\n入手できます。"
+			},
+			{
+				info = "■遊び方"
+			},
+			{
+				info = "本試合と、本試合クリア後に開放される自由にプレイで\nきる練習試合の2種類あります。\n・試合に参加するには、「スタート」をタップし、チー\nムキャラを選択する必要があります。\n・試合では、メンバーが自動でフィールドを動き、また\n画面をタイミングよくタップすると、サーブやアタック\nが成功判定になります。\n・本試合はチームメンバーを変更することができません。\n・本試合は毎日、何回でも再チャレンジすることができ\nます。\n・自由試合は毎回、チームメンバーを選び直すことがで\nきます。"
 			}
 		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200170 = {
-		tip = "不正な購入リクエストです"
+	_G.pg.base.gametip.exercise_fleet_exit_tip = {
+		tip = "<color=#92fc63>演習防衛艦隊</color>から外しますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.doa_pt_complete = {
+		tip = "強化完了"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_join_event_exist_finished_mission_tip = {
+		tip = "すでに発生しました作戦事件の報酬を入手できません。作戦に参加しますか？"
 	}
 end)()
 
@@ -39058,145 +39705,6 @@ end)()
 (function()
 	_G.pg.base.gametip.ship_formationUI_fleetName_easy = {
 		tip = "簡単艦隊"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_max_level = {
-		tip = "改造が最大になっています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.intimacy_desc_day = {
-		tip = ""
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.random_ship_custom_mode_select_number = {
-		tip = "選択済み："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.trade_card_tips2 = {
-		tip = "お知らせにゃ。\n指揮官が購入した貿易許可証は、$1で期間満了になったにゃ。\n貿易許可証を購入すると毎日ボーナスが貰えるにゃ～\n明石のお店で、引き続き購入するのはいかがかにゃ？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_100310 = {
-		tip = "認証できませんでした、もう一度お試しください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_lable_task_list_is_empty = {
-		tip = "すべての投票券を入手しました"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_fleet = {
-		tip = "META戦編成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.adventure_record_title = {
-		tip = "冒険記録"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_without_limit = {
-		tip = "無制限"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_quick_change_noequip = {
-		tip = "変更する装備は存在ありません"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.new_airi_error_code_200270 = {
-		tip = "Google Playをバージョンアップしてください"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_shipTypeCount = {
-		tip = "$1X$2"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.cruise_task_unlock = {
-		tip = "週次任務は$1日$2時間後に開放"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_repair_title = {
-		tip = "情報"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_purchase_over_price = {
-		tip = "<size=32><color=#92fc63>$1*1</color>を消費し、割引後\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>の着せ替え<color=#92fc63>$3</color>を購入しますか？（クーポン適用超過分のダイヤは返還されません）</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.venusvolleyball_rule_tip = {
-		tip = "先に$1点をGET"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["2023spring_minigame_tip3"] = {
-		tip = "スコア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.doa_pt_complete = {
-		tip = "強化完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_fleet_exist_same_kind_ship = {
-		tip = "すでに支援派遣として大艦隊作戦に参加しています"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.hunter_npc = {
-		tip = {
-			{
-				info = "「ルール："
-			},
-			{
-				info = "1.イベント期間中、メイン海域（ノーマル）3章以降の\nステージの中枢艦隊を撃破すると、「友好度」を獲得す\nる事が できます。獲得した「友好度」が一定の数値に到\n達すると、「友好度報酬」を入手することが出来ます；"
-			},
-			{
-				info = "2.キャラとして仮加入した【ハンター】は、友好度報酬\n（7段階目）の「正式加入」を達成しない限り、ケッコ\nンすることができず、また退役や強化・限界突破素材へ\nの選択をすることが出来ません；"
-			},
-			{
-				info = "3.【ハンター】（正式加入済・未正式加入問わず）を編\n成に入れている艦隊で上記ステージの敵中枢艦隊を撃破\nし、かつ勝利時【ハンター】が戦闘可能な状態の場合、\n獲得する「友好度」が2倍になります；"
-			},
-			{
-				info = "4.イベント終了までにイベントページの「友好度報酬」\nせることができます（友好度が1500必要）。イベント\n終了時、「正式加入」していない【ハンター】は消失し\nます；"
-			},
-			{
-				info = "5.友好度報酬は11/12（木）まで毎日1段階ずつ解放さ\nれます；"
-			}
-		}
 	}
 end)()
 
@@ -39235,32 +39743,50 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.buildship_new_tip = {
-		tip = "「アドミラル・ツェンカー」「U-552」出現確率UP！"
+	_G.pg.base.gametip.intimacy_desc_day = {
+		tip = ""
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cryptolalia_exchange = {
-		tip = "すぐに開放"
+	_G.pg.base.gametip.random_ship_custom_mode_select_number = {
+		tip = "選択済み："
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_event_start_tip1 = {
-		tip = "新しい大艦隊作戦が発令されました。確定をタップして画面を更新してください"
+	_G.pg.base.gametip.autofight_errors_tip = {
+		tip = "戦闘対象が見つかりません。自動攻略モードが解除されました"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_discovery = {
-		tip = "海域探索実績達成：$1"
+	_G.pg.base.gametip.ship_unequip_all_tip = {
+		tip = "装備を全部外しますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_addFood_error = {
-		tip = "食糧補充失敗:"
+	_G.pg.base.gametip.vote_lable_task_list_is_empty = {
+		tip = "すべての投票券を入手しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_boss_fleet = {
+		tip = "META戦編成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.adventure_record_title = {
+		tip = "冒険記録"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_without_limit = {
+		tip = "無制限"
 	}
 end)()
 
@@ -39277,26 +39803,147 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_manage_tip_1 = {
-		tip = "※一括削除は添付アイテムを受取済みのメールのみ削除されます"
+	_G.pg.base.gametip.guild_join_cd = {
+		tip = "大艦隊から脱退すると、24時間は新たな大艦隊に参加できません"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
-		tip = "既に秘書艦です"
+	_G.pg.base.gametip.cruise_task_unlock = {
+		tip = "週次任務は$1日$2時間後に開放"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipState_rest = {
-		tip = "寮舎で休憩中です"
+	_G.pg.base.gametip.msgbox_repair_title = {
+		tip = "情報"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_purchase_over_price = {
+		tip = "<size=32><color=#92fc63>$1*1</color>を消費し、割引後\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>の着せ替え<color=#92fc63>$3</color>を購入しますか？（クーポン適用超過分のダイヤは返還されません）</size>"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.new_airi_error_code_300102 = {
 		tip = "デバイスにアプリがインストールされていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["2023spring_minigame_tip3"] = {
+		tip = "スコア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.valentinesday__txt1_tip = {
+		tip = "美味しいチョコを食べたければ、素材を集めることですわ"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.valentinesday__txt3_tip = {
+		tip = "ココアパウダー、足りないみたい……Zzzz"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.hunter_npc = {
+		tip = {
+			{
+				info = "「ルール："
+			},
+			{
+				info = "1.イベント期間中、メイン海域（ノーマル）3章以降の\nステージの中枢艦隊を撃破すると、「友好度」を獲得す\nる事が できます。獲得した「友好度」が一定の数値に到\n達すると、「友好度報酬」を入手することが出来ます；"
+			},
+			{
+				info = "2.キャラとして仮加入した【ハンター】は、友好度報酬\n（7段階目）の「正式加入」を達成しない限り、ケッコ\nンすることができず、また退役や強化・限界突破素材へ\nの選択をすることが出来ません；"
+			},
+			{
+				info = "3.【ハンター】（正式加入済・未正式加入問わず）を編\n成に入れている艦隊で上記ステージの敵中枢艦隊を撃破\nし、かつ勝利時【ハンター】が戦闘可能な状態の場合、\n獲得する「友好度」が2倍になります；"
+			},
+			{
+				info = "4.イベント終了までにイベントページの「友好度報酬」\nせることができます（友好度が1500必要）。イベント\n終了時、「正式加入」していない【ハンター】は消失し\nます；"
+			},
+			{
+				info = "5.友好度報酬は11/12（木）まで毎日1段階ずつ解放さ\nれます；"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.valentinesday__txt6_tip = {
+		tip = "チョコレートが完成しました。ご主人様、召し上がってください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.buildship_new_tip = {
+		tip = "「ユミア・リースフェルト」「ニーナ・フリーデ」「レイニャ」出現確率UP！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cryptolalia_exchange = {
+		tip = "すぐに開放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_minute = {
+		tip = "分"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.result_firework_produce = {
+		tip = "花火制作完了！評価："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_addFood_error = {
+		tip = "食糧補充失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200100 = {
+		tip = "購入に失敗しました、誕生日が設定されていません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_100302 = {
+		tip = "認証メッセージの送信回数が上限に達したため、しばらく経ってからお試しください"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_joint_whitout_guild = {
+		tip = "まだ大艦隊に加入していません"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.indexsort_campeng = {
+		tip = "AFFILIATION"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.intimacy_desc_4_detail = {
+		tip = "$1があなたと一緒にいるといつも嬉しそうだ\n<color=#92fc63><size=18>性能（速力以外）＋3%</size></color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_joint_call_guild_support_txt = {
+		tip = "大舰队成员$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
 	}
 end)()
 
@@ -39313,14 +39960,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt3_tip = {
-		tip = "ココアパウダー、足りないみたい……Zzzz"
+	_G.pg.base.gametip.word_discount = {
+		tip = "割引"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.valentinesday__txt5_tip = {
-		tip = "まずはチョコレートの素材を集めるべきですね"
+	_G.pg.base.gametip.world_word_guild_member = {
+		tip = "大舰队成员(未使用)"
 	}
 end)()
 
@@ -39331,14 +39978,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_base_score = {
-		tip = "ステージクリア："
+	_G.pg.base.gametip.help_chunjie_feast = {
+		tip = {
+			{
+				info = "母港春節\n「饅頭タワー」：ミニゲームをプレイしスタンプを集め\n、駆逐艦「浦波」をGET!\n「おえかき」：絵を完成させ、駆逐艦「鞍山」をGET!\n「撫順の大冒険」：ミニゲームで年獣を倒し、駆逐艦\n「撫順」をGET！\n「春節すごろく」：毎日すごろくを遊び、報酬と年玉を\nGET!\n「饅頭の年玉」：ミニゲームなどで手に入れた年玉はこ\nこで開封可能！\n「着せ替え」：着せかえショップに移動する\n「限定建造」：限定建造ページに移動する\n"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_get_oneclick = {
-		tip = "一括受取"
+	_G.pg.base.gametip.word_normal_2 = {
+		tip = "普通"
 	}
 end)()
 
@@ -39367,14 +40018,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_1_detail = {
-		tip = "$1があなたに失望した…\n<color=#ffde38><size=18>(効果なし)</size></color>"
+	_G.pg.base.gametip.meta_award_get = {
+		tip = "開放済"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
-		tip = "<size=26>食糧備蓄は</size>"
+	_G.pg.base.gametip.guild_public_office_tip = {
+		tip = {
+			{
+				info = "■物資拠出について"
+			},
+			{
+				info = "公共大艦隊でも、指揮官は「物資拠出」を行い、貢献Ptを入手することが可能です。"
+			},
+			{
+				info = "物資拠出は毎日3回まで行えます。"
+			}
+		}
 	}
 end)()
 
@@ -39389,32 +40050,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.restart_music_game = {
-		tip = "進行中のゲームを中断し、最初からやり直しますか？"
+	_G.pg.base.gametip.equipment_skin_unload_failed = {
+		tip = "外装を装備できませんでした"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_word_guild_member = {
-		tip = "大舰队成员(未使用)"
+	_G.pg.base.gametip.meta_energy_ship_level_need = {
+		tip = "必要艦船Lv： $1/$2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_tip7 = {
-		tip = "2-4海域に出撃にゃ！"
+	_G.pg.base.gametip.meta_energy_preview_tip = {
+		tip = "好感度及びケッコンの効果は含まない"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_discount = {
-		tip = "割引"
+	_G.pg.base.gametip.ship_remould_warning_520024 = {
+		tip = "改造（近代化改修）を行うと艦種は：\nミサイル駆逐艦（前衛配置モード）に変更されます\n一部ステータスが変化します\n改造を続けますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.special_animal3 = {
-		tip = "[浦波のカワイイ図鑑No.3]\nアザラシボール：空気を大量に吸い込むことで、短時間ながら浮遊できる謎生物。鉄血のHe 178のエンジンがこいつから着想したわけではない"
+	_G.pg.base.gametip.meta_exp_per_day = {
+		tip = "習得EXP"
 	}
 end)()
 
@@ -39431,8 +40092,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.channel_name_2 = {
-		tip = "全員"
+	_G.pg.base.gametip.meta_voice_name_feeling3 = {
+		tip = "理解"
 	}
 end)()
 
@@ -39455,14 +40116,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.simulation_enhancing = {
-		tip = "相手は特殊戦術を発動しました。装填強化とダメージ強化効果が付与されています"
+	_G.pg.base.gametip.world_boss_pt_recove_desc = {
+		tip = "毎日０時回数リセット"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_89902 = {
-		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mm/50三連装砲\n152mm三連装砲Mle1930\n二連装37mm高射砲Mle1936</color></size>"
+	_G.pg.base.gametip.test_ship_intensify_tip = {
+		tip = "ブリは強化できません"
 	}
 end)()
 
@@ -39473,8 +40134,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_award_get = {
-		tip = "開放済"
+	_G.pg.base.gametip.battlepass_main_help_2306 = {
+		tip = {
+			{
+				info = "■キャンペーン開催期間\n 2023.6.1（木）0:00～2023.7.31（月）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「ヴェスタル(META)」、SP報酬からは航空母艦「加賀」の限定着せ替え「狐舞皚々」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません厖\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
+			}
+		}
 	}
 end)()
 
@@ -39491,14 +40156,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_skin_unload_failed = {
-		tip = "外装を装備できませんでした"
+	_G.pg.base.gametip.guild_word_commder = {
+		tip = "司令"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_energy_preview_tip = {
-		tip = "好感度及びケッコンの効果は含まない"
+	_G.pg.base.gametip.spweapon_ui_transform = {
+		tip = "性能変化"
 	}
 end)()
 
@@ -39509,14 +40174,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_switch_skill_box_title = {
-		tip = "$1の習得を開始しますか？"
+	_G.pg.base.gametip.blueprint_simulation_confirm_29903 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型234mm連装砲\n533mm四連装魚雷\n連装ボフォース40mm機関砲STAAG</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.item_type13_tip1 = {
-		tip = "内容一覧"
+	_G.pg.base.gametip.word_take_effect = {
+		tip = "で有効化"
 	}
 end)()
 
@@ -39527,8 +40192,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_voice_name_feeling3 = {
-		tip = "理解"
+	_G.pg.base.gametip.ship_remould_material_ship_on_exist = {
+		tip = "素材がありません"
 	}
 end)()
 
@@ -39539,8 +40204,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_pt_recove_desc = {
-		tip = "毎日０時回数リセット"
+	_G.pg.base.gametip.login_newPlayerScene_word_biaoqiang = {
+		tip = "私の名前はジャベリン！はい！指揮官も名前を教えてくださいね！"
 	}
 end)()
 
@@ -39551,20 +40216,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_ammo_type_5 = {
-		tip = "通常"
+	_G.pg.base.gametip.attribute_armor = {
+		tip = "装甲"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.resource_max_tip_eventstart = {
-		tip = "委託を請負うことができません"
+	_G.pg.base.gametip.guild_shop_flash_success = {
+		tip = "更新完了"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_sametask_tip = {
-		tip = "任務受領に失敗しました：同じ任務は同時に一つしか受領できません"
+	_G.pg.base.gametip.world_setting_submititem = {
+		tip = "自動攻略ｱｲﾃﾑ自動使用"
 	}
 end)()
 
@@ -39575,12 +40240,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_help = {
-		tip = {
-			{
-				info = "■メタラボとは\nメタラボとは、「META」艦船を入手・強化できる専用システムになります。\nメタラボでは、下記の操作を行うことができます。\n・「META」艦船別の入手情報の確認と、艦船の入手\n・「META」艦船別の解析Pt報酬を入手\n・「META」艦船の艤装強化、スキル習得、限界突破\n・「META艦船は1種類につき1隻しか所有できず、また「META」艦船は退役/強化素材にすることはできません。\n・同じ「META」艦船の2隻目を入手した場合、限界突破アイテム「結晶」に変換されます。\n\n■解析Ptについて\n・「セイレーン作戦」の「META戦」では、特定の「META」艦船に対応する「解析Pt」を入手することができます。\n・メタラボで当該艦船のタブ選択すると、その艦船の「解析Pt」に関する報酬を確認することができます。\n・解析Ptを一定数貯めると、「META艦船」を入手できます。\n・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することができます。\n\n※<color=#92fc63>2025.6.5-2025.9.4</color>江風(META) META戦開放期間は「江風(META)」の解析Ptを入手できます。\n 解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。\n\n■「META」艦船の艤装強化について\n・入手済の「META」艦船画面の「艤装強化」をタップすると、艤装強化画面を確認することができます。\n・強化を行う際、砲撃/雷撃/航空/装填の任意の項目を選択して強化できます。\n・強化を行うと、対応のステータスが上昇します。さらに、強化を一定段階進めると、ステータスの追加ボーナスを得ることができます。\n・「META」艦船の「艤装強化」は特定の素材を消費するようになります。\n\n■「META」艦船の限界突破について\n・入手済の「META」艦船画面の「限界突破」をタップすると、限界突破画面を確認することができます。\n・限界突破を行うには、「ブリ」と異なりその艦船に対応するアイテム「結晶」を消費します。\n・「結晶」はメタラボの解析Pt報酬にて入手可能です。\n■「META」艦船のスキル習得について\n・「META」艦船のスキル習得と強化は「メタラボ」\nでのみ行うことができます。\n・入手済の「META」艦船画面の「限界突破」をタップすると、スキル習得画面を確認することができます。\n・「META」艦船のスキルの習得は素材を消費することで行え、強化は専用任務をこなし習得EXPを貯めることで行うことができます\n （習得EXPは1日に入手できる上限が存在します）\n・「META」艦船はそれぞれ1種類のスキルまでしか同時に強化できません。\n"
-			}
-		}
+	_G.pg.base.gametip.world_boss_maintenance = {
+		tip = "メンテナンス開始直前のため、挑戦できません"
 	}
 end)()
 
@@ -39707,8 +40368,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_setting_submititemtip = {
-		tip = "on：自動攻略モード適用中、アイテムを消費する特殊イベントはアイテムが自動で消費されます\noff：自動攻略モード適用中、アイテムを消費する特殊イベントは無視されます"
+	_G.pg.base.gametip.create_player_success = {
+		tip = "ユーザー登録しました"
 	}
 end)()
 
@@ -39719,8 +40380,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_title_2 = {
-		tip = "OPERATION"
+	_G.pg.base.gametip.word_attr_healthy = {
+		tip = "回復"
 	}
 end)()
 
@@ -39731,18 +40392,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_summer_stamp = {
-		tip = {
-			{
-				info = "■概要\nミニゲームを遊んで「スタンプ」を14個集めると、画面\n左側のイラスト内のボタンをタップすることで、\n駆逐艦「ジュノー」の着せ替え「ちょっと美味しい日」\nを入手できます。\n※ボタンはスタンプを14個全部集めると表示されます。"
-			}
-		}
+	_G.pg.base.gametip.world_automode_setting_all_1_2 = {
+		tip = "自動確保を継続"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.equipment_skin_no_old_skinorequipment = {
-		tip = "兵装か外装が装備されていません"
+	_G.pg.base.gametip.spweapon_ui_levelmax = {
+		tip = "強化レベルMAX"
 	}
 end)()
 
@@ -39769,14 +40426,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_1_1 = {
-		tip = "4以下"
+	_G.pg.base.gametip.spweapon_tip_gold_no_enough = {
+		tip = "資金が不足しています"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_no_exist = {
-		tip = "大艦隊は存在しません"
+	_G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装406mm主砲Model1940\n152mm三連装砲Model1934\n試作型90mm連装高角砲Model1939</color></size>"
 	}
 end)()
 
@@ -39787,20 +40444,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_function1 = {
-		tip = "道中戦闘"
+	_G.pg.base.gametip.destory_ship_before_tip = {
+		tip = "本当に続けますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardScene_error_noPosPutFurniture = {
-		tip = "配置できる場所がありません"
+	_G.pg.base.gametip.world_low_morale = {
+		tip = "艦隊の士気ステータスが低下しているため、強敵との戦闘を開始できません。\n艦隊整備オーダーを発令するか、戦闘を勝利させることで艦隊士気を回復できます"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_all_1_2 = {
-		tip = "自動確保を継続"
+	_G.pg.base.gametip.player_summary_from = {
+		tip = "入手イベント："
 	}
 end)()
 
@@ -39811,8 +40468,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_levelmax = {
-		tip = "強化レベルMAX"
+	_G.pg.base.gametip.area_yaosai_2 = {
+		tip = "セイレーンの侵入が確認されたエリア"
 	}
 end)()
 
@@ -39829,44 +40486,24 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_new_1_2 = {
-		tip = "4"
+	_G.pg.base.gametip.world_reset_tip = {
+		tip = {
+			{
+				info = "■簡易まとめ\n・セイレーン作戦のストーリー4章をクリアすると、毎月1日0時に下記の動作が行われます。\n　　①エリアの「確保」状況がリセットされます。\n　　②指揮官行動力と艦船の「適応調整」がリセットされます。\n　　③セイレーン作戦専用アイテムが削除され、一部アイテムは「備蓄物資交換券」に変換されます。\n　・セイレーン作戦トップ画面の「ショップ」で下記のアイテムを購入可能です。\n　　①「燃料」を5000を消費し、便利アイテム「セイレーン海域情報」を購入できます。\n　　②「備蓄物資交換券」を消費し、様々なアイテムを購入できます。\n・「セイレーン海域情報」は「アイテム」で使用すると、セイレーン作戦専用資源アイテムを大量に入手し、さらにエリア移動制限を解除できます。\n\n■リセットの条件\nセイレーン作戦の「リセット」は、セイレーン作戦四章全てのストーリーをクリアしていると、\n毎月1日0:00にセイレーン作戦の海域確保状況・ステータスがリセットされます。\n\nリセットの反映は、0：00以降「セイレーン作戦」トップ画面に移行する際に行われます。\nすでに配置済みの艦隊は「リバープール」エリアに戻されます。\n\n■リセットされるコンテンツセイレーン作戦のリセット発生時、下記のコンテンツがリセットされます。\n\n①各エリアの確保状況\nセイレーン作戦における、各エリアの「確保」状況がリセットされます。\nまた、各エリアの「確保報酬」（エリアマップ一覧でのエリア情報画面に表示される報酬）が再度取得できます\n。\n※各エリアの「星集め」こと「探索実績」はリセットされません。\n\n下記リセットショップ（特殊補給）でアイテム「セイレーン海域情報」を購入し、セイレーン作戦の「アイテム」画面で使用することで、エリアを一括で開放し確保報酬を全部入手することができます。\n\nセイレーン海域情報を使用することで貰えるアイテムまとめ：\n適応調整・攻撃×90\n適応調整・耐久×90\n適応調整・回復×90\n応急修理箱×45\nEN補給箱・小×45\n作戦補給コイン×84000\n\n※ランダムで出現する「海域の敵全撃破で出現するアイテム」は受け取れません。\n\n②艦隊の「セイレーン作戦」におけるステータスセイレーン作戦にて展開中の艦隊の残り耐久、特殊状態、適応調整の数値がリセットされます。\nまた、指揮官行動力が200にリセットされます。"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_automode_setting_new_1_3 = {
-		tip = "5"
+	_G.pg.base.gametip.battle_result_dead_score = {
+		tip = "味方戦闘不能*$1："
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.common_dont_remind_dur_login = {
-		tip = "次回アプリ起動まで表示しない"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.destory_ship_before_tip = {
-		tip = "本当に続けますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_lv = {
-		tip = "練度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.area_yaosai_2 = {
-		tip = "セイレーンの侵入が確認されたエリア"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_current_boss_label1 = {
-		tip = "META戦開放消費"
+	_G.pg.base.gametip.spweapon_ui_autoselect = {
+		tip = "自動選択"
 	}
 end)()
 
@@ -39877,8 +40514,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.story_setting_label = {
-		tip = "オートページ送りスピード"
+	_G.pg.base.gametip.word_lv = {
+		tip = "練度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_dangerbattle_confirm = {
+		tip = "通常より戦力が強化されている敵艦隊と遭遇しました！\n本当に戦闘を行いますか？"
 	}
 end)()
 
@@ -39895,8 +40538,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.new_airi_error_code_300300 = {
+		tip = "Yostar ID連携に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.story_setting_label = {
+		tip = "オートページ送りスピード"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_shipNation_huangJia = {
 		tip = "ロイヤル"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ranking_word_2 = {
+		tip = "入手率"
 	}
 end)()
 
@@ -39919,30 +40580,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.win_condition_display_shangchuan = {
-		tip = "輸送船が指定位置に到達"
+	_G.pg.base.gametip.mail_manage_tip_1 = {
+		tip = "※一括削除は添付アイテムを受取済みのメールのみ削除されます"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_backyardScene_expression_label_2 = {
-		tip = "普通"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_shop_exchange_limit = {
-		tip = "未所持"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.fushun_adventure_help = {
-		tip = {
-			{
-				info = "■概要\nミニゲーム「撫順の大冒険Ⅱ」とは、撫順を操作し年獣饅頭を倒していくゲームです。\nミニゲームは2.4-2.10に毎日1ステージが開放され、最初の6ステージを1回目クリアすると「お年玉」、そして最終ステージをクリアすると駆逐艦「撫順」を入手できます。\n\nまた、手に入れたお年玉は「饅頭の年玉」で開封できます。\n\n■遊び方\n1.画面右から左へと移動する年獣饅頭が「攻撃可能エリア」内に入ると、画面左右のA・Bボタンがあるエリアをタップすることで年獣饅頭を攻撃できます。\n ※「攻撃可能エリア内」で年獣饅頭がいない場合ボタンをタップすると空振りしてしまう場合があります。\n2.年獣饅頭はサイズによって倒すのに必要な攻撃回数が異なり、またそれぞれの年獣饅頭を倒す際に得られるスコアも異なります\n 小型年獣饅頭：10pt\n 中型年獣饅頭：20pt\n 大型年獣饅頭：30pt\n3.年獣饅頭を倒すと、画面下部のエネルギーゲージが上昇します。エネルギーゲージが満タンになると、A・Bボタンを連打することで大量のスコアを手に入れることができます。\n4.年獣饅頭が撫順に接近すると、画面上部のHPが減少します。画面上部のHPがゼロになるか、ゲームを「終了」ボタンで終了すると、ゲームクリアになります。"
-			}
-		}
+	_G.pg.base.gametip.word_status_series_enemy = {
+		tip = "<size=24>ｲﾍﾞﾝﾄ編成中</size>"
 	}
 end)()
 
@@ -39966,20 +40611,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child2_mood_desc5 = {
-		tip = "現在の気分：絶好調； <color=#00c79b>報酬獲得+40%%</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.number_6 = {
-		tip = "六"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_impeach_erro = {
-		tip = "弾劾に失敗しました"
+	_G.pg.base.gametip.fushun_adventure_help = {
+		tip = {
+			{
+				info = "■概要\nミニゲーム「撫順の大冒険Ⅱ」とは、撫順を操作し年獣饅頭を倒していくゲームです。\nミニゲームは2.4-2.10に毎日1ステージが開放され、最初の6ステージを1回目クリアすると「お年玉」、そして最終ステージをクリアすると駆逐艦「撫順」を入手できます。\n\nまた、手に入れたお年玉は「饅頭の年玉」で開封できます。\n\n■遊び方\n1.画面右から左へと移動する年獣饅頭が「攻撃可能エリア」内に入ると、画面左右のA・Bボタンがあるエリアをタップすることで年獣饅頭を攻撃できます。\n ※「攻撃可能エリア内」で年獣饅頭がいない場合ボタンをタップすると空振りしてしまう場合があります。\n2.年獣饅頭はサイズによって倒すのに必要な攻撃回数が異なり、またそれぞれの年獣饅頭を倒す際に得られるスコアも異なります\n 小型年獣饅頭：10pt\n 中型年獣饅頭：20pt\n 大型年獣饅頭：30pt\n3.年獣饅頭を倒すと、画面下部のエネルギーゲージが上昇します。エネルギーゲージが満タンになると、A・Bボタンを連打することで大量のスコアを手に入れることができます。\n4.年獣饅頭が撫順に接近すると、画面上部のHPが減少します。画面上部のHPがゼロになるか、ゲームを「終了」ボタンで終了すると、ゲームクリアになります。"
+			}
+		}
 	}
 end)()
 
@@ -39990,8 +40627,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_400080 = {
-		tip = "このYostar IDはほかのニンテンドーアカウントとすでに連携済みです"
+	_G.pg.base.gametip.child2_mood_desc5 = {
+		tip = "現在の気分：絶好調； <color=#00c79b>報酬獲得+40%%</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_set_skin_error = {
+		tip = "衣装変更失敗:"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_impeach_erro = {
+		tip = "弾劾に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_attr_antiaircraft = {
+		tip = "対空"
 	}
 end)()
 
@@ -40002,14 +40657,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.tactics_noskill_erro = {
+		tip = "強化対象が必須です"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.bulin_tip2 = {
 		tip = "在庫商品を確認するにゃ！"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tactics_noskill_erro = {
-		tip = "強化対象が必須です"
+	_G.pg.base.gametip.common_feed = {
+		tip = "食糧補充"
 	}
 end)()
 
@@ -40020,8 +40681,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_build_solt_deficiency = {
-		tip = "同時に10個まで訓練できます"
+	_G.pg.base.gametip.spweapon_tip_attr_modify = {
+		tip = "【変化中止】か【変化確定】を選択すると、再び性能変化を行えるようになります"
 	}
 end)()
 
@@ -40044,8 +40705,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_tendency_x = {
-		tip = "特別計画$1"
+	_G.pg.base.gametip.backyard_ship_on_furnitrue = {
+		tip = "艦がくつろいでいますが…本当に外しますか？"
 	}
 end)()
 
@@ -40092,14 +40753,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.elite_condition_antiaircraft = {
-		tip = "対空合計"
+	_G.pg.base.gametip.idolmaster_game_tip5 = {
+		tip = "得点"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.idolmaster_game_tip5 = {
-		tip = "得点"
+	_G.pg.base.gametip.common_compare_not_less_than = {
+		tip = "≥"
 	}
 end)()
 
@@ -40110,8 +40771,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.paint_hide_other_obj_tip = {
-		tip = "    背景非表示"
+	_G.pg.base.gametip.charge_month_card_title = {
+		tip = "$1ダイヤプレゼント！さらに30日間毎日燃料・資金が貰える！"
 	}
 end)()
 
@@ -40140,26 +40801,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_storeroom_max_3 = {
-		tip = "※受け取ると、燃料所持数が所持上限を超えてしまいます"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.backyard_theme_save_tip = {
-		tip = "寮舎配置を保存しますか？:\n<color=#92fc63>$1</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_skill_learn = {
-		tip = "※アイコンをタップすると強化対象を変更可能"
+	_G.pg.base.gametip.max_level_notice = {
+		tip = "レベル最大・限界突破で最大レベル$1"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.new_airi_error_code_100242 = {
 		tip = "Apple連携に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_condition_antiaircraft = {
+		tip = "対空合計"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_skill_learn = {
+		tip = "※アイコンをタップすると強化対象を変更可能"
 	}
 end)()
 
@@ -40176,8 +40837,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_tip_no_consumption = {
-		tip = "消費なし"
+	_G.pg.base.gametip.map_event_memory_collected = {
+		tip = "ストーリー「$1」開放成功！"
 	}
 end)()
 
@@ -40194,8 +40855,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_switch_award_pool_failed = {
-		tip = "次の段階は目玉報酬を全部交換したことで開放されます"
+	_G.pg.base.gametip.ship_buildSingleShip = {
+		tip = "<color=#92fc63>$1ダイヤ</color>で<color=#92fc63>1隻分高速建造</color>しますか？"
 	}
 end)()
 
@@ -40206,8 +40867,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_ad = {
-		tip = "[$1]TIER.$2"
+	_G.pg.base.gametip.onebutton_max_tip = {
+		tip = "一括分解"
 	}
 end)()
 
@@ -40230,38 +40891,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_newSkinLayer_get = {
-		tip = "<color=#92fc63>$1</color>着せ替え衣装—<color=#92fc63>$2</color>を入手しました！"
+	_G.pg.base.gametip.class_label_upgrading = {
+		tip = "強化中"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_energy_low_warn_no_exp = {
-		tip = "編成中の<color=#92fc63FF>$2</color>のコンディションが低い状態になっています。出撃すると<color=#D6341D>親密度が下がってしまいます</color>が、出撃しますか？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_newSkin_name = {
-		tip = "<color=#FFDE38>「$1」</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.class_attr_costproficiency = {
-		tip = "熟練度消費"
+	_G.pg.base.gametip.guild_tech_price_inc_tip = {
+		tip = "大艦隊兵站施設レベルアップ条件を満たしていないため、兵站施設をレベルアップさせるには通常より多くの資源を消費します。兵站レベルをアップさせますか？"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.class_res_maxlevel_tip = {
 		tip = "レベルMAX"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.vote_tip_area_closed = {
-		tip = "イベント開催期間外です"
 	}
 end)()
 
@@ -40278,8 +40921,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.intimacy_desc_2_buff = {
-		tip = "補正値：なし"
+	_G.pg.base.gametip.vote_tip_area_closed = {
+		tip = "イベント開催期間外です"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.new_airi_error_code_200170 = {
+		tip = "不正な購入リクエストです"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.index_rare3 = {
+		tip = "レア"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.backyard_extendCapacity_error = {
+		tip = "拡張失敗:"
 	}
 end)()
 
@@ -40290,8 +40951,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_extendCapacity_error = {
-		tip = "拡張失敗:"
+	_G.pg.base.gametip.equip_ammo_type_9 = {
+		tip = "瞬発式"
 	}
 end)()
 
@@ -40306,14 +40967,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_ammo_type_9 = {
-		tip = "瞬発式"
+	_G.pg.base.gametip.common_no_item = {
+		tip = "アイテムが<color=#92fc63>[$1]</color>足りません！"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.common_no_item = {
-		tip = "アイテムが<color=#92fc63>[$1]</color>足りません！"
+	_G.pg.base.gametip.resourceSite_finishResourceSite_error = {
+		tip = "資源獲得完了失敗:"
 	}
 end)()
 
@@ -40330,8 +40991,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.main_mailLayer_quest_deleteNotRead = {
-		tip = "<color=#92fc63>未読メールがあります</color>。本当に削除しますか?"
+	_G.pg.base.gametip.exchangecode_use_error_3 = {
+		tip = "無効なシリアルコードです"
 	}
 end)()
 
@@ -40354,90 +41015,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_commander_play = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/commander_build",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/commander_info",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/commander_ability1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/commander_ability2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/commander_ability3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/commander_up",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/commander_skill1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/commander_skill2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/commander_9",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/commander_10",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 4,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.like_ship_success = {
+		tip = "応援ありがとうございます！"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.formationScene_use_oil_limit_tip = {
-		tip = "燃料消費上限:"
+	_G.pg.base.gametip.autofight_discovery = {
+		tip = "海域探索実績達成：$1"
 	}
 end)()
 
@@ -40464,8 +41049,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attr_air = {
-		tip = "航空"
+	_G.pg.base.gametip.battlepass_main_tip_2508 = {
+		tip = "2025/8/1-2025/9/30キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ダンケルク(META)」</color>などを入手可能"
 	}
 end)()
 
@@ -40488,8 +41073,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_registerFull = {
-		tip = "<color=#ff5c5c>満員</color>"
+	_G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
+		tip = "<size=28>\n弾幕確認機能（模擬戦）を起動しますか？\n(<color=#ff5c5c>※実際の艦の性能と異なります</color>）\n使用兵装：<color=#92fc63>\n試作型180mm三連装砲B-1-P Model1932改\n550mm三連装魚雷発射管\n二連装57mm/L60ボフォース対空機関砲 Mle1951\n</color></size>"
 	}
 end)()
 
@@ -40500,8 +41085,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ssssmedal_name4 = {
-		tip = "スマッシャー"
+	_G.pg.base.gametip.Settings_title_LoginJP = {
+		tip = "アカウント"
 	}
 end)()
 
@@ -40524,14 +41109,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Settings_title_resUpdate = {
-		tip = "アセッ卜"
+	_G.pg.base.gametip.blueprint_simulation_confirm_19902 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型457mm連装砲MKA\n127mm連装両用砲MK12\n四連装ボフォース40mm機関砲</color></size>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_soundfiles_update_failed = {
-		tip = "ボイス更新失敗"
+	_G.pg.base.gametip.world_boss_progress_tip_desc = {
+		tip = "セイレーン作戦で、座標情報を一定数入手すると、お知らせ画面を表示。\nOFF：お知らせ画面を表示しない\n100Pt毎：100か200入手した場合に表示\n200Pt毎：200入手した場合に表示"
 	}
 end)()
 
@@ -40542,8 +41127,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_puzzle_get9 = {
-		tip = "<color=#92fc63FF>入手方法\nノーマル3-2</color>"
+	_G.pg.base.gametip.mini_game_leave = {
+		tip = "ゲームを終了しますか？"
 	}
 end)()
 
@@ -40554,14 +41139,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mini_game_leave = {
-		tip = "ゲームを終了しますか？"
+	_G.pg.base.gametip.ssssmedal_name4 = {
+		tip = "スマッシャー"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ssssmedal_tip = {
-		tip = "セイレーン情報を<color=#9D46FF>「$1/12」</color> 集めると<color=#9D46FF>「SSSS記念章」</color>をGET！"
+	_G.pg.base.gametip.ship_renameShip_error = {
+		tip = "名前変更に失敗しました"
 	}
 end)()
 
@@ -40584,8 +41169,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ssssmedal_desc1 = {
-		tip = "スカベンジャーの特殊兵装。敏捷性を誇り、高い速力を発揮可能"
+	_G.pg.base.gametip.word_photo_mode = {
+		tip = "カメラ"
 	}
 end)()
 
@@ -40602,8 +41187,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_photo_mode = {
-		tip = "カメラ"
+	_G.pg.base.gametip.autofight_rewards_none = {
+		tip = "報酬を受け取れませんでした"
 	}
 end)()
 
@@ -40620,8 +41205,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_rewards_none = {
-		tip = "報酬を受け取れませんでした"
+	_G.pg.base.gametip.battle_preCombatLayer_ready = {
+		tip = "艦隊準備万端！いつでも出撃できます！"
 	}
 end)()
 
@@ -40638,8 +41223,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_400050 = {
-		tip = "このニンテンドーアカウントはYostar IDと連携されておりません"
+	_G.pg.base.gametip.word_angry = {
+		tip = "<color=#E40006>不満</color>"
 	}
 end)()
 
@@ -40656,8 +41241,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tag_ship_locked = {
-		tip = "図鑑未開放"
+	_G.pg.base.gametip.world_setting_submititemtip = {
+		tip = "on：自動攻略モード適用中、アイテムを消費する特殊イベントはアイテムが自動で消費されます\noff：自動攻略モード適用中、アイテムを消費する特殊イベントは無視されます"
 	}
 end)()
 
@@ -40698,28 +41283,48 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_shipState_study = {
-		tip = "大講堂で勉強中です"
+	_G.pg.base.gametip.equip_ammo_type_5 = {
+		tip = "通常"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ssss_medal_tip = {
+	_G.pg.base.gametip.pray_build_help = {
 		tip = {
 			{
-				info = "■概要\n記念章キャンペーン「アカネのコレクション」とは、様々な実績を達成することで任務画面で収集アイテム「セイレーン情報」を入手できます。セイレーン情報を12個集めると、コラボ参加記念アイテム「SSSS記念章」と「装備外装箱(SSSS)」を入手できます。\n\n「SSSS」記念章は8.9（木）23:59まで入手できます。"
+				info = "イベント説明：\n"
+			},
+			{
+				info = "「選べる特別建造」とは、常設三種類の通常建造から一つをベースに、特定の艦船を選択し、その艦船をピックアップ（出現率UP）状態にする特別な建造システムになります。"
+			},
+			{
+				info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一つを選ぶことで、特別建造のベースになります。（UR艦船は「大型艦建造」「特型艦建造」にしか出現しません）"
+			},
+			{
+				info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2025年3月26日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
+			},
+			{
+				info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2%  <color=#、、d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%"
+			},
+			{
+				info = "4.「選べる特別建造」の艦船のレアリティ別出現率は通常建造同様、下記となります：\n<color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26%  N..55% \n<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8% \n<color=#FF5C5C>特型艦建造</color>  <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8%"
+			},
+			{
+				info = "5.ベースとなる通常建造とピックアップ艦船を確定した後は「選べる特別建造」の内容の変更はできません"
+			},
+			{
+				info = "6.「選べる特別建造」は通常建造同様に最大で2隻までしか同時に建造できませんが、建造時間は高速建造材によって短縮させることができます"
+			},
+			{
+				info = "7.「選べる特別建造」は通常建造同様に建造時に使用されるキューブ数に応じて、通常建造におけるUR艦船交換時の回数にカウントされます"
 			}
 		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.help_jiujiu_expedition_game = {
-		tip = {
-			{
-				info = "■遊び方\n・饅頭の隣にある「未探索のマス」をタップすると、\n「探索回数」を1回消費し饅頭を移動させることができ\nます。\n・饅頭が未探索マスに移動すると、未探索のマスが探索\n済マスになり、マスの内容によって下記の結果が発生し\nます。\n通常マス：資源を少し入手します\n宝箱マス：宝箱が出現します。宝箱を開けると、ランダ\nムな報酬を入手できます\n敵マス：敵が出現します。敵をタップするとイベント戦\n闘を開始でき、イベント戦闘に勝利すると報酬を入手で\nきます・ミニマップを全部探索すると、次のミニマップ\nに移動できます"
-			}
-		}
+	_G.pg.base.gametip.build_ticket_description = {
+		tip = "※限定建造開催中のみ"
 	}
 end)()
 
@@ -40730,14 +41335,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_520044 = {
-		tip = "改造を行うと艦種が下記のものになります：\nミサイル駆逐艦（前衛艦隊配置モード）\n艦船のステータスと戦闘中の挙動が変化します\n改造を行いますか？"
+	_G.pg.base.gametip.help_rollingBallGame = {
+		tip = {
+			{
+				info = "■概要\n饅頭パズルとは、画面上のドロップ（SDアイコン）をで\nきるだけ「同じドロップを3つ揃える」状態にすることで\nスコアを獲得していくミニゲームになります。\n\n■遊び方\n・饅頭パズルでは、ドロップをほかのドロップの位置にス\nワイプすることで位置を入れ替えられます。\n・一回スワイプを終わらせるか、7秒間経過するとゲーム\nが終了します。\n・ゲーム終了時、画面上で「同じドロップが3つ揃ってい\nる」とドロップが消え、スコアとして計算されます。\n・饅頭パズルを「チケット」を所持している状態でクリ\nアすると、「ゲーム回数」が1回消費され、「3周年の招\n待状」の獲得進捗が1回進捗します。\n・「3周年の招待状」獲得進捗が7回進捗すると、当該イ\nベントバナーでSSR艦船と交換できる「3周年の招待状」\nを入手できます。\n・「3周年の招待状」の獲得進捗は、「饅頭トラベル」\n画面右側の「招待状」アイコンをタップするか、当該\nイベントバナーにて確認できます。\n・「ゲーム回数」を所持していない状態でも「饅頭パズ\nル」をプレイできます。その場合、招待状の入手進捗は\n進捗しません。"
+			}
+		}
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.build_ticket_description = {
-		tip = "※限定建造開催中のみ"
+	_G.pg.base.gametip.battlepass_main_tip_2210 = {
+		tip = "<size=24>2022.10.1-2022.11.30キャンペーン期間中、シーズン任務報酬で<color=#854747>「ハンター(META)」</color>などを入手可能！</size>"
 	}
 end)()
 
@@ -40766,34 +41375,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_task_help_2212 = {
-		tip = {
-			{
-				info = "■シーズン任務について\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n\n・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n\n・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません……\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2304 = {
-		tip = "<size=23> 2023.4.1-2023.5.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「ラ·ガリソニエール(META)」</color>などを入手可能！</size>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_help_2306 = {
-		tip = {
-			{
-				info = "■キャンペーン開催期間\n 2023.6.1（木）0:00～2023.7.31（月）23:59\n\n■概要\n「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。\nまた、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。\n通常報酬からは艦船「ヴェスタル(META)」、SP報酬からは航空母艦「加賀」の限定着せ替え「狐舞皚々」を入手できます。\n\n■遊び方\n・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。\n　①週次開放任務\n　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ\n　②全期間任務\n　最初から全開放される任務。全1グループ\n・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。\n　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。\n・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。\n　①通常報酬\n　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります\n　②SP報酬\n　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。\n・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。\n\n■Tips\n・プレイスタイル\n　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。\n\n・クルーズパス\n　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。\n\n・任務のスキップ（オススメしません）\n　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。\n　ダイヤを消費しますので、オススメしません厖\n　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_refresh_sure_tip = {
-		tip = "育成をリスタートしますか？"
+	_G.pg.base.gametip.shop_buyItem_error = {
+		tip = "購入失敗:"
 	}
 end)()
 
@@ -40808,14 +41391,36 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.battlepass_main_tip_2502 = {
+		tip = "2025/2/1-2025/3/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ボルツァーノ(META)」</color>などを入手可能"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_refresh_sure_tip = {
+		tip = "育成をリスタートしますか？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.change = {
+		tip = "変更"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.hand_account_resetting_tip = {
 		tip = "リセットを行いますか？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_event_recomm_ship_failed = {
-		tip = "条件を満たしている艦船がありません"
+	_G.pg.base.gametip.blackfriday_help = {
+		tip = {
+			{
+				info = "ルール説明：\n1.キャンペーン期間中、復刻きせかえの購入数に応じて、キャンペーン報酬を入手出来ます\n2.限定家具「ジェム・スプリング」は家具ショップでもダイヤで直接購入できます。すでに「ジェム・スプリング」を所持している状態で再度キャンペーンから入手した場合、自動でダイヤに変換されます。\n3.既に復刻衣装92着を全部所持、もしくは購入可能分がキャンペーン報酬を入手できる購入数に満たない場合、キャンペーン報酬の入手条件に関係なく、その報酬を獲得することが可能です。"
+			}
+		}
 	}
 end)()
 
@@ -40832,12 +41437,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_equipment_skin = {
-		tip = {
-			{
-				info = "・装備外装は発射する弾や艦載機の外見のみを変更し、性能や判定には影響しません（弾道や弾速、発射速度、命中判定など）\n\n・装備外装は、個別に適用可能な兵装の種類が決まっています。装備外装は1つにつき1キャラ分しか装備できません\n\n・装備外装は倉庫の所持枠を消費しません"
-			}
-		}
+	_G.pg.base.gametip.new_airi_error_code_100213 = {
+		tip = "連携解除に失敗しました"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.sham_ship_equip_forbid_2 = {
+		tip = "「鏡面海域」に出撃すると出撃メンバーを変更できず、また出撃メンバーの装備も変更できません。出撃しますか？"
 	}
 end)()
 
@@ -40848,14 +41455,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_title_getitem = {
-		tip = "下記のアイテムが手に入ります："
+	_G.pg.base.gametip.new_airi_error_code_200430 = {
+		tip = "GMOクレジットカード決済失敗"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.new_airi_error_code_200430 = {
-		tip = "GMOクレジットカード決済失敗"
+	_G.pg.base.gametip.words_settings_create_inherit = {
+		tip = "引継コード発行"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.challenge_season_update_infinite_clear = {
+		tip = "現在のステージ:$1\nチャレンジステージが更新されましたため、最高クリア数が更新されません。\nチャレンジモードをリセットしますか？"
 	}
 end)()
 
@@ -40866,78 +41479,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_search_sucess = {
-		tip = "検索完了"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelScene_sphunt_help_tip = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/sphunt_1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/sphunt_2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/sphunt_3",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/sphunt_4",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/sphunt_5",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.word_week_day2 = {
 		tip = "火曜日"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_boss_archives_stop_auto_battle = {
-		tip = "自動戦闘中止"
+	_G.pg.base.gametip.world_past_boss_item_info = {
+		tip = "記憶履歴座標情報解析装置|セイレーン作戦で集めた「META座標」情報を記録する装置。「記憶履歴」で記憶履歴を開放し、さらに解析を行うと過去に開催した「META戦」を開放できます。\n「META戦」が溜まった状態では新たに解析を行うことはできません。\n「META戦」本日開放数：$1/$2\n座標情報所持上限：$3/$4"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_instruction_redeploy_3 = {
-		tip = "エネルギー供給装置を運んでいるため、艦隊を再編成できません"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49902 = {
+		tip = "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mmSKC連装砲\n150mmTbtsKC/36連装砲\n105mmSKC連装高角砲</color></size>"
 	}
 end)()
 
@@ -40954,8 +41509,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_warning_521024 = {
-		tip = "改造（近代化改修）を行うと艦種は：\nミサイル駆逐艦（主力配置モード）に変更されます\n一部ステータスが変化します\n改造を続けますか？"
+	_G.pg.base.gametip.world_boss_current_boss_label1 = {
+		tip = "META戦開放消費"
 	}
 end)()
 
@@ -40978,8 +41533,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.report_type_other_2 = {
-		tip = "内容を記入してください"
+	_G.pg.base.gametip.guild_cancel_assult_ship_recommend = {
+		tip = "大艦隊作戦・支援派遣の通常枠に設定しました"
 	}
 end)()
 

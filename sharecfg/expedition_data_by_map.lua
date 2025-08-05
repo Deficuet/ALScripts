@@ -163,6 +163,10 @@ pg.expedition_data_by_map = setmetatable({
 		1920012,
 		1920025,
 		1920026,
+		1940001,
+		1940002,
+		1940003,
+		1940004,
 		2100000,
 		2100001,
 		2100010,
@@ -263,6 +267,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100482,
 		2100491,
 		2100492,
+		2100501,
+		2100502,
+		2100511,
+		2100512,
 		2200000,
 		2200010,
 		2200020,
@@ -2983,7 +2991,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4580,
+		on_activity = 50042,
 		ui_type = 7,
 		bg = "Map_1690001",
 		story_id = "",
@@ -3033,7 +3041,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4580,
+		on_activity = 50042,
 		ui_type = 7,
 		bg = "Map_1690002",
 		story_id = "",
@@ -3083,7 +3091,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4580,
+		on_activity = 50042,
 		ui_type = 7,
 		bg = "Map_1690002",
 		story_id = "",
@@ -3133,7 +3141,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4580,
+		on_activity = 50042,
 		ui_type = 7,
 		bg = "Map_1690002",
 		story_id = "",
@@ -10942,6 +10950,406 @@ pg.base.expedition_data_by_map = {
 			226
 		}
 	},
+	[1940001] = {
+		map = 1940001,
+		name = "天空邂逅の塔|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "yumia-az-theme-pv",
+		enter_story = "",
+		ani_name = "Map_1940001",
+		guide_id = "",
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		default_background = "bg_yumia_story_mode_1",
+		default_bgm = "Yumia-az-theme-pv",
+		uifx = "",
+		on_activity = 50054,
+		ui_type = 13,
+		bg = "Map_1940006",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "808183",
+		animtor = 1,
+		bind_map = 1940002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1940001,
+					"phase1"
+				}
+			},
+			{
+				1,
+				{
+					1940002,
+					"phase2"
+				}
+			},
+			{
+				1,
+				{
+					1940003,
+					"phase3"
+				}
+			},
+			{
+				1,
+				{
+					1940004,
+					"phase4"
+				}
+			},
+			{
+				1,
+				{
+					1940005,
+					"phase5"
+				}
+			},
+			{
+				2,
+				{
+					1940001,
+					"map_1940001"
+				}
+			},
+			{
+				2,
+				{
+					1940002,
+					"map_1940002"
+				}
+			},
+			{
+				2,
+				{
+					1940003,
+					"map_1940003"
+				}
+			},
+			{
+				2,
+				{
+					1940004,
+					"map_1940004"
+				}
+			},
+			{
+				2,
+				{
+					1940005,
+					"map_1940005"
+				}
+			}
+		},
+		chapterGroups = {
+			{
+				1940001
+			},
+			{
+				1940002
+			},
+			{
+				1940003
+			},
+			{
+				1940004
+			},
+			{
+				1940005
+			}
+		},
+		story_id = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120
+		}
+	},
+	[1940002] = {
+		map = 1940002,
+		name = "天空邂逅の塔·採取地|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "yumia-az-story",
+		enter_story = "",
+		ani_name = "Map_1940001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_material",
+		default_background = "bg_yumia_story_mode_1",
+		cloud_suffix = "",
+		default_bgm = "Yumia-az-theme-pv",
+		uifx = "",
+		on_activity = 50054,
+		ui_type = 13,
+		bg = "Map_1940006",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "808183",
+		animtor = 1,
+		bind_map = 1940001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1940021
+			},
+			{
+				1940022
+			},
+			{
+				1940023
+			},
+			{
+				1940024
+			},
+			{
+				1940025
+			}
+		},
+		story_id = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120
+		}
+	},
+	[1940003] = {
+		map = 1940003,
+		name = "天空邂逅の塔·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "yumia-79",
+		enter_story = "",
+		ani_name = "Map_1940001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_sp",
+		default_background = "bg_yumia_story_mode_1",
+		cloud_suffix = "",
+		default_bgm = "Yumia-az-theme-pv",
+		uifx = "",
+		on_activity = 50054,
+		ui_type = 13,
+		bg = "Map_1940006",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "808183",
+		animtor = 1,
+		bind_map = 1940002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1940041
+			}
+		},
+		story_id = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120
+		}
+	},
+	[1940004] = {
+		map = 1940004,
+		name = "天空邂逅の塔·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "yumia-az-battle",
+		enter_story = "",
+		ani_name = "Map_1940001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_ex",
+		default_background = "bg_yumia_story_mode_1",
+		cloud_suffix = "",
+		default_bgm = "Yumia-az-theme-pv",
+		uifx = "",
+		on_activity = 50054,
+		ui_type = 13,
+		bg = "Map_1940006",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "808183",
+		animtor = 1,
+		bind_map = 1940002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1940051,
+				1940052
+			}
+		},
+		story_id = {
+			100,
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -15972,6 +16380,218 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		}
+	},
+	[2100501] = {
+		map = 2100501,
+		name = "吟ずる瑠璃の楽章·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-highseasfleet",
+		ani_name = "Map_1640001",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1630001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100511,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[2100502] = {
+		map = 2100502,
+		name = "吟ずる瑠璃の楽章·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-highseasfleet-reborn",
+		ani_name = "Map_1640002",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1630002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100512,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[2100511] = {
+		map = 2100511,
+		name = "吟ずる瑠璃の楽章·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-highseasfleet",
+		ani_name = "Map_1640003",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1630003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100501,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[2100512] = {
+		map = 2100512,
+		name = "吟ずる瑠璃の楽章·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "battle-highseasfleet-reborn",
+		ani_name = "Map_1640004",
+		ani_controller = "",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1630004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100502,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[2200000] = {

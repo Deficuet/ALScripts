@@ -2663,7 +2663,7 @@ pg.base.dorm3d_collection_template = {
 		id = 1120,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item21",
-		desc = "看出人类历史最伟大的发明之一，它总能让室温变得恰到好处，营造出最治愈的舒适角落。",
+		desc = "堪称人类历史最伟大的发明之一，它总能让室温变得恰到好处，营造出最治愈的舒适角落。",
 		model = {
 			"fbx/litmap_01/pre_db_appliances01"
 		},

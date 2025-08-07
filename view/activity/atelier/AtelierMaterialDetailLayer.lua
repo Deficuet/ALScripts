@@ -36,10 +36,18 @@ function var_0_0.UpdateItemDetail(arg_6_0)
 		if var_6_1.chapterid then
 			local var_7_0 = getProxy(ChapterProxy):getChapterById(var_6_1.chapterid)
 			local var_7_1 = getProxy(ChapterProxy):getMapById(var_7_0:getConfig("map"))
-			local var_7_2, var_7_3 = var_7_1:isUnlock()
+			local var_7_2 = getProxy(ActivityProxy):getActivityByType(var_7_1:getConfig("on_activity"))
 
-			if not var_7_2 then
-				pg.TipsMgr.GetInstance():ShowTips(var_7_3)
+			if not var_7_2 or var_7_2:isEnd() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+				return
+			end
+
+			local var_7_3, var_7_4 = var_7_1:isUnlock()
+
+			if not var_7_3 then
+				pg.TipsMgr.GetInstance():ShowTips(var_7_4)
 
 				return
 			end
@@ -56,23 +64,23 @@ function var_0_0.UpdateItemDetail(arg_6_0)
 				mapIdx = var_7_1.id
 			})
 		elseif var_6_1.recipeid then
-			local var_7_4 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
+			local var_7_5 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
 
-			if not var_7_4 or var_7_4:isEnd() then
+			if not var_7_5 or var_7_5:isEnd() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 				return
 			end
 
-			local var_7_5 = var_7_4:GetFormulas()[var_6_1.recipeid]
+			local var_7_6 = var_7_5:GetFormulas()[var_6_1.recipeid]
 
-			if var_7_5:GetType() ~= AtelierFormula.TYPE.TOOL and not var_7_4:IsCompleteAllTools(var_7_5:getConfig("version")) then
+			if var_7_6:GetType() ~= AtelierFormula.TYPE.TOOL and not var_7_5:IsCompleteAllTools(var_7_6:getConfig("version")) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("ryza_tip_unlock_all_tools"))
 
 				return
 			end
 
-			if not var_7_5:IsAvaliable() then
+			if not var_7_6:IsAvaliable() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("ryza_tip_composite_invalid"))
 
 				return
@@ -80,17 +88,17 @@ function var_0_0.UpdateItemDetail(arg_6_0)
 
 			arg_6_0:emit(AtelierMaterialDetailMediator.GO_RECIPE, var_6_1.recipeid)
 		elseif var_6_1.taskid then
-			local var_7_6 = getProxy(ActivityProxy):getActivityById(ActivityConst.RYZA_TASK)
+			local var_7_7 = getProxy(ActivityProxy):getActivityById(ActivityConst.RYZA_TASK)
 
-			if not var_7_6 or var_7_6:isEnd() then
+			if not var_7_7 or var_7_7:isEnd() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 				return
 			end
 
 			arg_6_0:emit(GAME.GO_SCENE, SCENE.CORE_ACTIVITY, {
-				coreName = var_7_6:getConfig("page_core"),
-				id = var_7_6.id
+				coreName = var_7_7:getConfig("page_core"),
+				id = var_7_7.id
 			})
 		end
 	end, SFX_PANEL)

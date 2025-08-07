@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			say = "在两艘大船接近的同时，历尽千辛万苦终于抵达海滩的大冒险小分队也立刻发现了这一情况。",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

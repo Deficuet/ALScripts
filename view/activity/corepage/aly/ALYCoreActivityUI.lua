@@ -1,9 +1,11 @@
 local var_0_0 = class("ALYCoreActivityUI", import("view.activity.CorePage.CoreActivityMainScene"))
-local var_0_1 = 50054
+local var_0_1 = 50055
 
 function var_0_0.getUIName(arg_1_0)
 	return "ALYCoreActivityUI"
 end
+
+local var_0_2 = 0
 
 function var_0_0.init(arg_2_0, ...)
 	var_0_0.super.init(arg_2_0, ...)
@@ -18,17 +20,24 @@ function var_0_0.init(arg_2_0, ...)
 	end
 
 	setText(arg_2_0._tf:Find("adapt/top/btn_home/text_tip/Text (Legacy)"), i18n("yumia_main_tip_4", var_2_2))
+	arg_2_0:Reset()
 	arg_2_0.tabsList:make(function(arg_3_0, arg_3_1, arg_3_2)
 		if arg_3_0 == UIItemList.EventUpdate then
 			local var_3_0 = underscore.detect(arg_2_0.activities, function(arg_4_0)
 				return tostring(arg_4_0:getConfig("is_show")) == arg_3_2.name
 			end)
 
-			if arg_2_0.pageDic[var_3_0.id] ~= nil then
-				if var_3_0.id == 50063 or var_3_0.id == 50058 then
-					local var_3_1 = arg_2_0:findTF("tip", arg_3_2)
+			if not var_3_0 then
+				setActive(arg_3_2, false)
+			elseif not arg_2_0.pageDic[var_3_0.id] then
+				warning(string.format("without page in act:", var_3_0.id))
+			else
+				local var_3_1 = arg_2_0.pageDic[var_3_0.id]
 
-					setActive(var_3_1, var_3_0:readyToAchieve())
+				if var_3_0.id == 50063 or var_3_0.id == 50058 then
+					local var_3_2 = arg_2_0:findTF("tip", arg_3_2)
+
+					setActive(var_3_2, var_3_0:readyToAchieve())
 				else
 					setActive(arg_2_0:findTF("tip", arg_3_2), false)
 				end
@@ -41,11 +50,8 @@ function var_0_0.init(arg_2_0, ...)
 							setActive(arg_2_0._tf:Find("Image/VX"), true)
 						end
 
-						quickPlayAnimation(arg_2_0._tf, "Anim_ALYCoreActivityUI_Low_bg_In")
 						arg_2_0:selectActivity(var_3_0)
-						arg_2_0:Reset()
-						setActive(arg_2_0:findTF("off", arg_3_2), false)
-						setActive(arg_2_0:findTF("on", arg_3_2), true)
+						quickPlayAnimation(arg_2_0:findTF("on", arg_3_2), "Anim_ALYCoreActivityUI_tabs_selected")
 					end
 				end, SFX_PANEL)
 			end
@@ -112,34 +118,63 @@ function var_0_0.UpdateAdapt(arg_11_0)
 	SetComponentEnabled(arg_11_0._tf:Find("adapt"), "NotchAdapt", var_11_5)
 end
 
-function var_0_0.Reset(arg_12_0)
-	for iter_12_0 = 1, 5 do
-		setText(arg_12_0._tf:Find("adapt/tabs/" .. iter_12_0 .. "/off/Label/name_bg/name"), i18n("yumia_main_tip_" .. iter_12_0 + 4))
-		setText(arg_12_0._tf:Find("adapt/tabs/" .. iter_12_0 .. "/on/Label/name_bg/name"), i18n("yumia_main_tip_" .. iter_12_0 + 4))
-		setActive(arg_12_0._tf:Find("adapt/tabs/" .. iter_12_0 .. "/off"), true)
-		setActive(arg_12_0._tf:Find("adapt/tabs/" .. iter_12_0 .. "/on"), false)
+function var_0_0.updateActivity(arg_12_0, arg_12_1)
+	if ActivityConst.PageIdLink[arg_12_1.id] then
+		arg_12_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[arg_12_1.id])
+	end
+
+	if arg_12_1:isShow() and arg_12_1:isCorePage(arg_12_0.contextData.coreName) and not arg_12_1:isEnd() then
+		arg_12_0.activities[arg_12_0:getActivityIndex(arg_12_1.id) or #arg_12_0.activities + 1] = arg_12_1
+
+		table.sort(arg_12_0.activities, CompareFuncs({
+			function(arg_13_0)
+				return -arg_13_0:getShowPriority()
+			end,
+			function(arg_14_0)
+				return -arg_14_0.id
+			end
+		}))
+
+		if not arg_12_0.pageDic[arg_12_1.id] then
+			arg_12_0:instanceActivityPage(arg_12_1)
+		end
+
+		arg_12_0:flushTabs()
+
+		if arg_12_0.activity and arg_12_0.activity.id == arg_12_1.id then
+			arg_12_0.activity = arg_12_1
+
+			arg_12_0:verifyTabs(arg_12_1.id)
+		end
 	end
 end
 
-function var_0_0.skinCommdityTimeStamps(arg_13_0, arg_13_1)
-	local var_13_0 = pg.TimeMgr.GetInstance():GetServerTime()
-	local var_13_1 = math.max(arg_13_1 - var_13_0, 0)
-	local var_13_2 = math.floor(var_13_1 / 86400)
+function var_0_0.Reset(arg_15_0)
+	for iter_15_0 = 1, 5 do
+		setText(arg_15_0._tf:Find("adapt/tabs/" .. iter_15_0 .. "/off/Label/name_bg/name"), i18n("yumia_main_tip_" .. iter_15_0 + 4))
+		setText(arg_15_0._tf:Find("adapt/tabs/" .. iter_15_0 .. "/on/Label/name_bg/name"), i18n("yumia_main_tip_" .. iter_15_0 + 4))
+	end
+end
 
-	if var_13_2 > 0 then
-		return var_13_2
-	elseif var_13_2 <= 0 then
+function var_0_0.skinCommdityTimeStamps(arg_16_0, arg_16_1)
+	local var_16_0 = pg.TimeMgr.GetInstance():GetServerTime()
+	local var_16_1 = math.max(arg_16_1 - var_16_0, 0)
+	local var_16_2 = math.floor(var_16_1 / 86400)
+
+	if var_16_2 > 0 then
+		return var_16_2
+	elseif var_16_2 <= 0 then
 		return 0
 	end
 end
 
-function var_0_0.willExit(arg_14_0)
-	var_0_0.super.willExit(arg_14_0)
+function var_0_0.willExit(arg_17_0)
+	var_0_0.super.willExit(arg_17_0)
 
-	if arg_14_0.camEventId then
-		pg.CameraFixMgr.GetInstance():disconnect(arg_14_0.camEventId)
+	if arg_17_0.camEventId then
+		pg.CameraFixMgr.GetInstance():disconnect(arg_17_0.camEventId)
 
-		arg_14_0.camEventId = nil
+		arg_17_0.camEventId = nil
 	end
 end
 

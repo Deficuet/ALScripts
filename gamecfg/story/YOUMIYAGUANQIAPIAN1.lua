@@ -25,7 +25,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "某日，某处洞穴之中，阿拉迪斯调查团的一行人正在执行一项任务——",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

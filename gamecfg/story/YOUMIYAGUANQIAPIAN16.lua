@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "沿着腐蚀河流逆流而上，众人来到了一片废弃的村落中。",
-			bgm = "yumia-20",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "“天际高塔L3区段，通往天际高台，决战前的最后一战。”",
-			bgm = "yumia-43",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

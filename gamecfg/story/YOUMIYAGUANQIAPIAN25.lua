@@ -30,7 +30,7 @@ return {
 			bgName = "star_level_bg_582",
 			hidePaintObj = true,
 			say = "搭乘维修完毕的升降电梯，一行人顺利进入了全新的区域。",
-			bgm = "yumia-51",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

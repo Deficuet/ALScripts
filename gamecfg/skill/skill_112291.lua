@@ -118,7 +118,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168702
 				}
 			},
 			{
@@ -169,7 +169,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168703
 				}
 			},
 			{
@@ -220,7 +220,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168704
 				}
 			},
 			{
@@ -271,7 +271,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168705
 				}
 			},
 			{
@@ -322,7 +322,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168706
 				}
 			},
 			{
@@ -373,7 +373,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168707
 				}
 			},
 			{
@@ -424,7 +424,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168708
 				}
 			},
 			{
@@ -475,7 +475,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168709
 				}
 			},
 			{
@@ -526,7 +526,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 168701
+					weapon_id = 168710
 				}
 			},
 			{

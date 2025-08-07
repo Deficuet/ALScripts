@@ -350641,6 +350641,126 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property[168601] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 2,
+		range = 50,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 400,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 14,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 110,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 168601,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			170813,
+			170813
+		},
+		barrage_ID = {
+			82098,
+			82099
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168602] = {
+		id = 168602,
+		damage = 16,
+		base = 168601
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168603] = {
+		id = 168603,
+		damage = 18,
+		base = 168601
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168604] = {
+		id = 168604,
+		damage = 20,
+		base = 168601
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168605] = {
+		id = 168605,
+		damage = 22,
+		base = 168601
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168606] = {
+		id = 168606,
+		damage = 24,
+		base = 168601
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168607] = {
+		id = 168607,
+		damage = 26,
+		base = 168601
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168608] = {
+		id = 168608,
+		damage = 28,
+		base = 168601
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168609] = {
+		id = 168609,
+		damage = 30,
+		base = 168601
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168610] = {
+		id = 168610,
+		damage = 32,
+		base = 168601
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property[168611] = {
 		aim_type = 1,
 		action_index = "attack_main",
@@ -352585,6 +352705,126 @@ end)()
 		id = 168760,
 		damage = 140,
 		base = 168751
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168781] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 1,
+		range = 95,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 3000,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 14,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 168781,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			170814,
+			170814
+		},
+		barrage_ID = {
+			82121,
+			82122
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168782] = {
+		id = 168782,
+		damage = 15,
+		base = 168781
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168783] = {
+		id = 168783,
+		damage = 16,
+		base = 168781
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168784] = {
+		id = 168784,
+		damage = 17,
+		base = 168781
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168785] = {
+		id = 168785,
+		damage = 19,
+		base = 168781
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168786] = {
+		id = 168786,
+		damage = 21,
+		base = 168781
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168787] = {
+		id = 168787,
+		damage = 24,
+		base = 168781
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168788] = {
+		id = 168788,
+		damage = 28,
+		base = 168781
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168789] = {
+		id = 168789,
+		damage = 32,
+		base = 168781
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168790] = {
+		id = 168790,
+		damage = 36,
+		base = 168781
 	}
 end)()
 

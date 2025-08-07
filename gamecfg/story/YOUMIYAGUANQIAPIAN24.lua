@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "等到大冒险小分队再次睁开眼睛时，她们对于自己身处何方产生了深深的困惑。",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

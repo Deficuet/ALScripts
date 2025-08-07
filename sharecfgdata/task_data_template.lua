@@ -159375,6 +159375,612 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21788] = {
+		name = "『美服周年预热』送头像框任务1",
+		guild_coin_award = 0,
+		award = 906832,
+		type = 26,
+		desc = "舰队出征，以S评价通关10次",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21788,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21789] = {
+		name = "『美服周年预热』送头像框任务2",
+		guild_coin_award = 0,
+		award = 906833,
+		type = 26,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21789,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21790] = {
+		name = "『美服周年预热』送头像框任务3",
+		guild_coin_award = 0,
+		award = 906834,
+		type = 26,
+		desc = "进行2次演习",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21790,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21791] = {
+		name = "『美服周年预热』送头像框任务4",
+		guild_coin_award = 0,
+		award = 906835,
+		type = 26,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21791,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21792] = {
+		name = "『美服周年预热』送头像框任务5",
+		guild_coin_award = 0,
+		award = 906836,
+		type = 26,
+		desc = "舰船退役2次",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21792,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21793] = {
+		name = "『美服周年预热』送头像框任务6",
+		guild_coin_award = 0,
+		award = 906837,
+		type = 26,
+		desc = "完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21793,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21794] = {
+		name = "『美服周年预热』送头像框任务7",
+		guild_coin_award = 0,
+		award = 906838,
+		type = 26,
+		desc = "舰船强化5次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21794,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21795] = {
+		name = "『美服周年预热』送头像框任务8",
+		guild_coin_award = 0,
+		award = 906839,
+		type = 26,
+		desc = "进行战术训练2次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21795,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21796] = {
+		name = "『美服周年预热』送头像框任务9",
+		guild_coin_award = 0,
+		award = 906840,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21796,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21797] = {
+		name = "『美服周年预热』送头像框任务10",
+		guild_coin_award = 0,
+		award = 906841,
+		type = 26,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21797,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21798] = {
+		name = "『美服周年预热』送头像框任务11",
+		guild_coin_award = 0,
+		award = 906842,
+		type = 26,
+		desc = "建造舰船2次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21798,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21799] = {
+		name = "『美服周年预热』送头像框任务12",
+		guild_coin_award = 0,
+		award = 906843,
+		type = 26,
+		desc = "打开任意科技箱1个",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21799,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21800] = {
+		name = "『美服周年预热』送头像框任务13",
+		guild_coin_award = 0,
+		award = 906844,
+		type = 26,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21800,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21801] = {
+		name = "『美服周年预热』送头像框任务14",
+		guild_coin_award = 0,
+		award = 906845,
+		type = 26,
+		desc = "击败旗舰3次 ",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21801,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				611,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -305299,6 +305905,339 @@ end)()
 			{
 				2,
 				18022,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500151] = {
+		name = "指尖之舞",
+		guild_coin_award = 0,
+		award = 500151,
+		type = 5,
+		desc = "提交3个《鱼雷天妇罗》",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500152",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "HUAJIAN1",
+		tutorial_handbook_pic = "",
+		id = 500151,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500152] = {
+		name = "神秘圣地",
+		guild_coin_award = 0,
+		award = 500152,
+		type = 5,
+		desc = "强化任意角色10次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN2",
+		ryza_icon = "",
+		next_task = "500153",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500152,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500153] = {
+		name = "花的舞台",
+		guild_coin_award = 0,
+		award = 500153,
+		type = 5,
+		desc = "花剑上阵出击(关卡)胜利20次",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN3",
+		ryza_icon = "",
+		next_task = "500154",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90105",
+		tutorial_handbook_pic = "",
+		id = 500153,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500154] = {
+		name = "正确位置",
+		guild_coin_award = 0,
+		award = 500154,
+		type = 5,
+		desc = "累计消耗石油500",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN4",
+		ryza_icon = "",
+		next_task = "500155",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500154,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500155] = {
+		name = "二人的暗箱",
+		guild_coin_award = 0,
+		award = 500155,
+		type = 5,
+		desc = "花剑好感度达到100",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN5",
+		ryza_icon = "",
+		next_task = "500156",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90105",
+		tutorial_handbook_pic = "",
+		id = 500155,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500156] = {
+		name = "刺穿你的心",
+		guild_coin_award = 0,
+		award = 500156,
+		type = 5,
+		desc = "花剑突破至满星",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN6",
+		ryza_icon = "",
+		next_task = "500157",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90105",
+		tutorial_handbook_pic = "",
+		id = 500156,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500157] = {
+		name = "剑与花与你",
+		guild_coin_award = 0,
+		award = 500157,
+		type = 5,
+		desc = "花剑等级达到100",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90105",
+		tutorial_handbook_pic = "",
+		id = 500157,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
 				2
 			}
 		}

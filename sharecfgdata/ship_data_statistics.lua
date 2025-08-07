@@ -237500,7 +237500,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -237630,7 +237631,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -237760,7 +237762,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -237890,7 +237893,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238019,7 +238023,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238148,7 +238153,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238277,7 +238283,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238406,7 +238413,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238535,7 +238543,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238664,7 +238673,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238793,7 +238803,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238922,7 +238933,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -240086,7 +240098,8 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -240218,7 +240231,8 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -240350,7 +240364,8 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -240482,7 +240497,8 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -242677,7 +242693,8 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -242808,7 +242825,8 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -242939,7 +242957,8 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -243070,7 +243089,8 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -244242,7 +244262,8 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -244374,7 +244395,8 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -244506,7 +244528,8 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -244638,7 +244661,8 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -310128,7 +310152,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -310256,7 +310281,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -310384,7 +310410,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -310512,7 +310539,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
 		}
 	}
 end)()

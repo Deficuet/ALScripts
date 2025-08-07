@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "“死亡荒原，无情的风沙是这里的主旋律，小心别死在这里了哦，桀桀桀。”",
-			bgm = "yumia-28",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

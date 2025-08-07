@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			say = "穿过狭长的通道后，起始区段内的复杂金属建筑群呈现在众人眼前。",
-			bgm = "yumia-43",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			say = "一段时间后，安全舒适休息大厅内——",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

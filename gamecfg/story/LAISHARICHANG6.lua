@@ -20,7 +20,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
-			bgm = "ryza-11",
+			bgm = "story-1",
 			say = "港区·郊外",
 			flashout = {
 				black = true,
@@ -768,7 +768,7 @@ return {
 			}
 		},
 		{
-			expression = 7,
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,

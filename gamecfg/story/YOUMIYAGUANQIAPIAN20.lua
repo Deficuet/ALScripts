@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "“腐蚀林地，所有一切都有毒，还有魔物从天而降，一个讨厌的地方。”",
-			bgm = "yumia-49",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

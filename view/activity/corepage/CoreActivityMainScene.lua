@@ -28,16 +28,15 @@ function var_0_0.init(arg_3_0)
 				return tostring(arg_5_0:getConfig("is_show")) == arg_4_2.name
 			end)
 
-			if not var_4_0 or not arg_3_0.pageDic[var_4_0.id] then
-				warning(arg_4_2.name, var_4_0.id)
+			if not var_4_0 then
+				setActive(arg_4_2, false)
+			elseif not arg_3_0.pageDic[var_4_0.id] then
+				warning(string.format("without page in act:", var_4_0.id))
+			else
+				local var_4_1 = arg_3_0.pageDic[var_4_0.id]
+				local var_4_2 = arg_3_0:findTF("tip", arg_4_2)
 
-				return
-			end
-
-			if arg_3_0.pageDic[var_4_0.id] ~= nil then
-				local var_4_1 = arg_3_0:findTF("tip", arg_4_2)
-
-				setActive(var_4_1, var_4_0:readyToAchieve())
+				setActive(var_4_2, var_4_0:readyToAchieve())
 				onToggle(arg_3_0, arg_4_2, function(arg_6_0)
 					if arg_6_0 then
 						arg_3_0:selectActivity(var_4_0)
@@ -125,7 +124,7 @@ function var_0_0.updateEntrances(arg_19_0)
 end
 
 function var_0_0.flushTabs(arg_20_0)
-	arg_20_0.tabsList:align(#arg_20_0.activities)
+	arg_20_0.tabsList:align(arg_20_0.tabs.childCount)
 end
 
 function var_0_0.selectActivity(arg_21_0, arg_21_1)

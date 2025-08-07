@@ -30,7 +30,7 @@ return {
 			bgName = "star_level_bg_307",
 			hidePaintObj = true,
 			say = "乘坐电梯离开起始区段后，一片蔚蓝的大湖映入了众人的眼帘。",
-			bgm = "yumia-7",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "啊——海风与浪花，在大海上肆意驰骋，才是寻宝猎人的生存之道啊！",
-			bgm = "yumia-53",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

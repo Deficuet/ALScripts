@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			say = "港区周边·演习海域",
-			bgm = "yumia-83",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

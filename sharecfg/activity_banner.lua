@@ -3,41 +3,17 @@ pg.activity_banner = {
 	{
 		id = 1,
 		pic = "temp2",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
 		id = 2,
 		pic = "temp3",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene get boat",
@@ -45,50 +21,19 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	{
+		param = "50069",
 		id = 3,
 		pic = "temp4",
-		type = 2,
-		param = {
-			"scene core activity",
-			{
-				coreName = "ALYCoreActivityUI"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					0,
@@ -100,7 +45,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					7
+					14
 				},
 				{
 					12,
@@ -113,37 +58,12 @@ pg.activity_banner = {
 	{
 		id = 4,
 		pic = "temp5",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene charge",
 			{
 				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -186,17 +106,14 @@ pg.activity_banner = {
 		pic = "temp7",
 		type = 2,
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					0,
@@ -208,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					6
+					13
 				},
 				{
 					23,
@@ -219,24 +136,19 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "50070",
 		id = 7,
 		pic = "temp8",
-		type = 2,
-		param = {
-			"scene core activity",
-			{
-				coreName = "RyzaCoreActivityUI"
-			}
-		},
+		type = 3,
 		time = {
 			{
 				{
 					2025,
-					7,
-					26
+					8,
+					7
 				},
 				{
-					9,
+					0,
 					0,
 					0
 				}
@@ -245,7 +157,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					7
+					14
 				},
 				{
 					12,
@@ -258,7 +170,6 @@ pg.activity_banner = {
 	{
 		id = 8,
 		pic = "temp9",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene equip",
@@ -266,54 +177,13 @@ pg.activity_banner = {
 				designPage = 2,
 				warp = "WARP_TO_DESIGN"
 			}
-		}
-	},
-	{
-		id = 9,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene Cryptolalia",
-			{}
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[90] = {
-		param = "",
-		id = 90,
-		pic = "temp99",
-		type = 9,
-		time = {
-			{
-				{
-					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					0,
@@ -325,15 +195,54 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					6
+					14
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
+	},
+	{
+		param = "50068",
+		id = 9,
+		pic = "temp6",
+		type = 3,
+		time = {
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					14
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[90] = {
+		param = "",
+		time = "stop",
+		type = 9,
+		id = 90,
+		pic = "temp99"
 	},
 	[91] = {
 		param = "",
@@ -395,12 +304,14 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
 			4,
 			5,
 			6,
+			8
+		},
+		[3] = {
+			3,
 			7,
-			8,
 			9
 		},
 		[9] = {

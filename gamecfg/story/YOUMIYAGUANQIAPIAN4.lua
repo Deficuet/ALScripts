@@ -30,7 +30,7 @@ return {
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			say = "蓝天、白云、碧海、沙滩，还有高耸入云的山脉。",
-			bgm = "yumia-1",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

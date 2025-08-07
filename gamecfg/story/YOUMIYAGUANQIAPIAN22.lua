@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "yumia-28",
+			bgm = "yumia-az-story",
 			side = 2,
 			bgName = "star_level_bg_176",
 			dir = 1,
@@ -533,7 +533,7 @@ return {
 			bgName = "star_level_bg_187",
 			hidePaintObj = true,
 			say = "入夜后——",
-			bgm = "yumia-79",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

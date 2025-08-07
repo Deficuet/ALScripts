@@ -100512,6 +100512,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.shop_template[260332] = {
+		type_order = 0,
+		collaboration_skin_time = "",
+		group = 0,
+		type = 27,
+		resource_type = 14,
+		genre = "dorm3d_gift",
+		desc = "宿舍280钻石购买精致画框",
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		akashi_pick = 0,
+		time = "always",
+		package_tag = "",
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 260332,
+		resource_num = 280,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"count",
+				0,
+				1
+			}
+		},
+		effect_args = {
+			1990302
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.shop_template[260401] = {
 		type_order = 0,
 		collaboration_skin_time = "",
@@ -101293,6 +101331,69 @@ end)()
 		},
 		effect_args = {
 			223
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[270204] = {
+		type_order = 0,
+		collaboration_skin_time = "",
+		group = 0,
+		type = 26,
+		resource_type = 14,
+		genre = "dorm3d_gift",
+		desc = "宿舍680钻石购买动感飞轮",
+		group_limit = 0,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		akashi_pick = 0,
+		package_tag = "",
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 270204,
+		resource_num = 680,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"count",
+				0,
+				1
+			}
+		},
+		effect_args = {
+			1152
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	}
 end)()

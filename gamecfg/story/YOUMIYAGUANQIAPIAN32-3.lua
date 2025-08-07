@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			say = "——优米雅！",
-			bgm = "yumia-79",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

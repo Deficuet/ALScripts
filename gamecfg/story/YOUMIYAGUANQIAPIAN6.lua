@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "山崖的另一侧，经历了狂风、巨浪、海雾弥漫、通讯中断等一系列波折的大冒险小分队——",
-			bgm = "yumia-49",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

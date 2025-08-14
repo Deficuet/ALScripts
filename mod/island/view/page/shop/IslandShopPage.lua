@@ -188,7 +188,7 @@ function var_0_0.SetResources(arg_22_0)
 					setText(arg_23_2:Find("count"), arg_22_0.player:getTotalGem())
 
 					local function var_23_3()
-						if not pg.m02:hasMediator(ChargeMediator.__cname) then
+						if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
 							pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 								wrap = ChargeScene.TYPE_DIAMOND
 							})

@@ -3876,7 +3876,12 @@ end)()
 				9037
 			}
 		},
-		hide_buff_upgrade = {},
+		hide_buff_upgrade = {
+			{
+				9036,
+				9037
+			}
+		},
 		label = {}
 	}
 end)()

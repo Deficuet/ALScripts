@@ -688,4 +688,44 @@ function var_0_0.GetSkinProbabilitys(arg_48_0, arg_48_1)
 	return var_48_0
 end
 
+function var_0_0.GetInTimeSkins(arg_49_0)
+	local var_49_0 = arg_49_0:GetAllSkins()
+
+	for iter_49_0 = #var_49_0, 1, -1 do
+		local var_49_1 = var_49_0[iter_49_0]
+
+		if var_49_1.type == Goods.TYPE_SKIN then
+			if var_49_1:getConfig("time") == "always" then
+				table.remove(var_49_0, iter_49_0)
+			end
+		elseif var_49_1.type == Goods.TYPE_ACTIVITY_EXTRA and pg.activity_shop_extra[var_49_1.id].shop_tag ~= 1 then
+			table.remove(var_49_0, iter_49_0)
+		end
+	end
+
+	return var_49_0
+end
+
+function var_0_0.GetPermanentSkins(arg_50_0)
+	local var_50_0 = arg_50_0:GetAllSkins()
+
+	for iter_50_0 = #var_50_0, 1, -1 do
+		local var_50_1 = var_50_0[iter_50_0]
+
+		if var_50_1.type == Goods.TYPE_SKIN then
+			if var_50_1:getConfig("time") ~= "always" then
+				table.remove(var_50_0, iter_50_0)
+			end
+		elseif var_50_1.type == Goods.TYPE_ACTIVITY_EXTRA then
+			if pg.activity_shop_extra[var_50_1.id].shop_tag ~= 2 then
+				table.remove(var_50_0, iter_50_0)
+			end
+		elseif var_50_1.type == Goods.TYPE_ACTIVITY then
+			table.remove(var_50_0, iter_50_0)
+		end
+	end
+
+	return var_50_0
+end
+
 return var_0_0

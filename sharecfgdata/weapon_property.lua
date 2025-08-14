@@ -8044,7 +8044,7 @@ end)()
 		action_index = "attack",
 		axis_angle = 0,
 		type = 1,
-		range = 90,
+		range = 100,
 		fire_fx = "CLFire",
 		recover_time = 0,
 		fire_fx_loop_type = 3,
@@ -119338,6 +119338,78 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property[61771] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 2,
+		range = 50,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 400,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 1,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 61771,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			78241,
+			78241,
+			78242
+		},
+		barrage_ID = {
+			78101,
+			78102,
+			78105
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[61772] = {
+		id = 61772,
+		damage = 1,
+		base = 61771,
+		bullet_ID = {
+			78241,
+			78241,
+			78241,
+			78241,
+			78242
+		},
+		barrage_ID = {
+			78101,
+			78102,
+			78103,
+			78104,
+			78106
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property[62001] = {
 		aim_type = 1,
 		action_index = "attack_main",
@@ -219461,6 +219533,166 @@ end)()
 			78033,
 			78034
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[78101] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 2,
+		range = 50,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 400,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 12,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 78101,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			78241,
+			78241
+		},
+		barrage_ID = {
+			78101,
+			78102
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[78102] = {
+		id = 78102,
+		damage = 18,
+		base = 78101,
+		bullet_ID = {
+			78241,
+			78241,
+			78241,
+			78241
+		},
+		barrage_ID = {
+			78101,
+			78102,
+			78103,
+			78104
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[78103] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 3,
+		range = 90,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 2,
+		reload_max = 400,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 45,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 78103,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			78242
+		},
+		barrage_ID = {
+			78105
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[78104] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 3,
+		range = 90,
+		fire_fx = "CAFire",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 2,
+		reload_max = 400,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 45,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 78104,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			78242
+		},
+		barrage_ID = {
+			78106
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
 	}
 end)()
 
@@ -352709,6 +352941,281 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property[168761] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 10,
+		range = 90,
+		fire_fx = "",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 0,
+		reload_max = 2344,
+		expose = 5,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 1,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 168761,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			168761
+		},
+		barrage_ID = {
+			1500
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168762] = {
+		id = 168762,
+		reload_max = 2308,
+		base = 168761,
+		bullet_ID = {
+			168762
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168763] = {
+		id = 168763,
+		reload_max = 2272,
+		base = 168761,
+		bullet_ID = {
+			168763
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168764] = {
+		id = 168764,
+		reload_max = 2236,
+		base = 168761,
+		bullet_ID = {
+			168764
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168765] = {
+		id = 168765,
+		reload_max = 2200,
+		base = 168761,
+		bullet_ID = {
+			168765
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168766] = {
+		id = 168766,
+		reload_max = 2164,
+		base = 168761,
+		bullet_ID = {
+			168766
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168767] = {
+		reload_max = 2128,
+		id = 168767,
+		base = 168761,
+		bullet_ID = {
+			168767
+		},
+		barrage_ID = {
+			1501
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168768] = {
+		reload_max = 2092,
+		id = 168768,
+		base = 168761,
+		bullet_ID = {
+			168768
+		},
+		barrage_ID = {
+			1501
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168769] = {
+		reload_max = 2056,
+		id = 168769,
+		base = 168761,
+		bullet_ID = {
+			168769
+		},
+		barrage_ID = {
+			1501
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168770] = {
+		reload_max = 2020,
+		id = 168770,
+		base = 168761,
+		bullet_ID = {
+			168770
+		},
+		barrage_ID = {
+			1501
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168771] = {
+		aim_type = 1,
+		action_index = "",
+		axis_angle = -10,
+		type = 3,
+		range = 80,
+		fire_fx = "",
+		recover_time = 0,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 4,
+		reload_max = 9500,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 45,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 225,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 168771,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			164732
+		},
+		barrage_ID = {
+			164731
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168772] = {
+		id = 168772,
+		damage = 240,
+		base = 168771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168773] = {
+		id = 168773,
+		damage = 255,
+		base = 168771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168774] = {
+		id = 168774,
+		damage = 270,
+		base = 168771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168775] = {
+		id = 168775,
+		damage = 285,
+		base = 168771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168776] = {
+		id = 168776,
+		damage = 300,
+		base = 168771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168777] = {
+		id = 168777,
+		damage = 315,
+		base = 168771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168778] = {
+		id = 168778,
+		damage = 330,
+		base = 168771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168779] = {
+		id = 168779,
+		damage = 345,
+		base = 168771
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168780] = {
+		id = 168780,
+		damage = 360,
+		base = 168771
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property[168781] = {
 		aim_type = 0,
 		action_index = "attack",
@@ -352825,6 +353332,1831 @@ end)()
 		id = 168790,
 		damage = 36,
 		base = 168781
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168791] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 19,
+		range = 105,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 3000,
+		expose = 10,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 86,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 35,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 168791,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			160919
+		},
+		barrage_ID = {
+			81807
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jineng",
+			alertTime = 1,
+			time = 0.5,
+			isBound = true
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168792] = {
+		id = 168792,
+		damage = 96,
+		base = 168791
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168793] = {
+		id = 168793,
+		damage = 104,
+		base = 168791
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168794] = {
+		id = 168794,
+		damage = 114,
+		base = 168791
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168795] = {
+		id = 168795,
+		damage = 124,
+		base = 168791
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168796] = {
+		id = 168796,
+		damage = 134,
+		base = 168791
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168797] = {
+		id = 168797,
+		damage = 144,
+		base = 168791
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168798] = {
+		id = 168798,
+		damage = 152,
+		base = 168791
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168799] = {
+		id = 168799,
+		damage = 162,
+		base = 168791
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168800] = {
+		id = 168800,
+		damage = 172,
+		base = 168791
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168801] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 10,
+		range = 90,
+		fire_fx = "",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 0,
+		reload_max = 2490,
+		expose = 10,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 1,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 168801,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			1
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168802] = {
+		id = 168802,
+		base = 168801
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168803] = {
+		id = 168803,
+		base = 168801
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168804] = {
+		id = 168804,
+		base = 168801
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168805] = {
+		id = 168805,
+		base = 168801
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168806] = {
+		id = 168806,
+		base = 168801
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168807] = {
+		id = 168807,
+		base = 168801
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168808] = {
+		id = 168808,
+		base = 168801
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168809] = {
+		id = 168809,
+		base = 168801
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168810] = {
+		id = 168810,
+		base = 168801
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168811] = {
+		aim_type = 0,
+		action_index = "",
+		axis_angle = 0,
+		type = 3,
+		range = 75,
+		fire_fx = "",
+		recover_time = 0,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 4,
+		reload_max = 9500,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 24,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 120,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 168811,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			161161
+		},
+		barrage_ID = {
+			2113
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168812] = {
+		id = 168812,
+		damage = 139,
+		base = 168811
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168813] = {
+		id = 168813,
+		damage = 160,
+		base = 168811
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168814] = {
+		id = 168814,
+		damage = 179,
+		base = 168811
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168815] = {
+		id = 168815,
+		damage = 200,
+		base = 168811
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168816] = {
+		id = 168816,
+		damage = 221,
+		base = 168811
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168817] = {
+		id = 168817,
+		damage = 240,
+		base = 168811
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168818] = {
+		id = 168818,
+		damage = 261,
+		base = 168811
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168819] = {
+		id = 168819,
+		damage = 280,
+		base = 168811
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168820] = {
+		id = 168820,
+		damage = 301,
+		base = 168811
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168821] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 10,
+		range = 90,
+		fire_fx = "",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 0,
+		reload_max = 9500,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 1,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/cannon-main",
+		id = 168821,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			1
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168822] = {
+		id = 168822,
+		base = 168821
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168823] = {
+		id = 168823,
+		base = 168821
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168824] = {
+		id = 168824,
+		base = 168821
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168825] = {
+		id = 168825,
+		base = 168821
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168826] = {
+		id = 168826,
+		base = 168821
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168827] = {
+		id = 168827,
+		base = 168821
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168828] = {
+		id = 168828,
+		base = 168821
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168829] = {
+		id = 168829,
+		base = 168821
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168830] = {
+		id = 168830,
+		base = 168821
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168831] = {
+		aim_type = 1,
+		action_index = "",
+		axis_angle = -10,
+		type = 3,
+		range = 80,
+		fire_fx = "",
+		recover_time = 0,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 4,
+		reload_max = 9500,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 45,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 55,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 168831,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			161162
+		},
+		barrage_ID = {
+			168222
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168832] = {
+		id = 168832,
+		damage = 60,
+		base = 168831
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168833] = {
+		id = 168833,
+		damage = 65,
+		base = 168831
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168834] = {
+		id = 168834,
+		damage = 70,
+		base = 168831
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168835] = {
+		id = 168835,
+		damage = 75,
+		base = 168831
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168836] = {
+		id = 168836,
+		damage = 80,
+		base = 168831
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168837] = {
+		id = 168837,
+		damage = 85,
+		base = 168831
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168838] = {
+		id = 168838,
+		damage = 90,
+		base = 168831
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168839] = {
+		id = 168839,
+		damage = 95,
+		base = 168831
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168840] = {
+		id = 168840,
+		damage = 100,
+		base = 168831
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168841] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 10,
+		range = 90,
+		fire_fx = "",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 0,
+		reload_max = 9500,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 30,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 1,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		id = 168841,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {},
+		barrage_ID = {
+			12010
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168842] = {
+		id = 168842,
+		base = 168841
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168843] = {
+		id = 168843,
+		base = 168841
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168844] = {
+		id = 168844,
+		base = 168841
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168845] = {
+		id = 168845,
+		base = 168841
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168846] = {
+		id = 168846,
+		base = 168841
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168847] = {
+		id = 168847,
+		base = 168841
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168848] = {
+		id = 168848,
+		base = 168841
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168849] = {
+		id = 168849,
+		base = 168841
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168850] = {
+		id = 168850,
+		base = 168841
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168851] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 1,
+		range = 90,
+		fire_fx = "",
+		recover_time = 0,
+		fire_fx_loop_type = 3,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 6000,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 3,
+		suppress = 0,
+		charge_param = "",
+		damage = 36,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 168851,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			170815,
+			170815
+		},
+		barrage_ID = {
+			82124,
+			82125
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168852] = {
+		id = 168852,
+		damage = 41,
+		base = 168851
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168853] = {
+		id = 168853,
+		damage = 46,
+		base = 168851
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168854] = {
+		id = 168854,
+		damage = 51,
+		base = 168851
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168855] = {
+		id = 168855,
+		damage = 56,
+		base = 168851
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168856] = {
+		id = 168856,
+		damage = 60,
+		base = 168851
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168857] = {
+		id = 168857,
+		damage = 65,
+		base = 168851
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168858] = {
+		id = 168858,
+		damage = 70,
+		base = 168851
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168859] = {
+		id = 168859,
+		damage = 75,
+		base = 168851
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168860] = {
+		id = 168860,
+		damage = 80,
+		base = 168851
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168881] = {
+		aim_type = 1,
+		action_index = "",
+		axis_angle = 0,
+		type = 11,
+		range = 90,
+		fire_fx = "",
+		recover_time = 1,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 4,
+		reload_max = 3000,
+		expose = 10,
+		search_type = 1,
+		effect_move = 1,
+		angle = 90,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 1,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		id = 168881,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			168881
+		},
+		barrage_ID = {
+			12010
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168882] = {
+		id = 168882,
+		damage = 1,
+		base = 168881,
+		bullet_ID = {
+			168882
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168883] = {
+		id = 168883,
+		damage = 1,
+		base = 168881,
+		bullet_ID = {
+			168883
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168884] = {
+		id = 168884,
+		damage = 1,
+		base = 168881,
+		bullet_ID = {
+			168884
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168885] = {
+		id = 168885,
+		damage = 1,
+		base = 168881,
+		bullet_ID = {
+			168885
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168886] = {
+		id = 168886,
+		damage = 1,
+		base = 168881,
+		bullet_ID = {
+			168886
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168887] = {
+		id = 168887,
+		damage = 1,
+		base = 168881,
+		bullet_ID = {
+			168887
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168888] = {
+		id = 168888,
+		damage = 1,
+		base = 168881,
+		bullet_ID = {
+			168888
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168889] = {
+		id = 168889,
+		damage = 1,
+		base = 168881,
+		bullet_ID = {
+			168889
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168890] = {
+		id = 168890,
+		damage = 1,
+		base = 168881,
+		bullet_ID = {
+			168890
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168891] = {
+		aim_type = 0,
+		action_index = "",
+		axis_angle = 0,
+		type = 3,
+		range = 75,
+		fire_fx = "",
+		recover_time = 0,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 4,
+		reload_max = 9500,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 28,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 110,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 168891,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			2111
+		},
+		barrage_ID = {
+			2111
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168892] = {
+		id = 168892,
+		damage = 120,
+		base = 168891
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168893] = {
+		id = 168893,
+		damage = 130,
+		base = 168891
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168894] = {
+		id = 168894,
+		damage = 140,
+		base = 168891
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168895] = {
+		id = 168895,
+		damage = 150,
+		base = 168891
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168896] = {
+		id = 168896,
+		damage = 160,
+		base = 168891
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168897] = {
+		id = 168897,
+		damage = 170,
+		base = 168891
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168898] = {
+		id = 168898,
+		damage = 180,
+		base = 168891
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168899] = {
+		id = 168899,
+		damage = 190,
+		base = 168891
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168900] = {
+		id = 168900,
+		damage = 200,
+		base = 168891
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168901] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 10,
+		range = 90,
+		fire_fx = "",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 0,
+		reload_max = 1879,
+		expose = 0,
+		search_type = 1,
+		effect_move = 1,
+		angle = 30,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 1,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "plane",
+		fire_sfx = "battle/air-atk",
+		id = 168901,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			168901
+		},
+		barrage_ID = {
+			12009
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168902] = {
+		id = 168902,
+		reload_max = 1855,
+		base = 168901,
+		bullet_ID = {
+			168902
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168903] = {
+		id = 168903,
+		reload_max = 1831,
+		base = 168901,
+		bullet_ID = {
+			168903
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168904] = {
+		id = 168904,
+		reload_max = 1807,
+		base = 168901,
+		bullet_ID = {
+			168904
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168905] = {
+		id = 168905,
+		reload_max = 1783,
+		base = 168901,
+		bullet_ID = {
+			168905
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168906] = {
+		id = 168906,
+		reload_max = 1759,
+		base = 168901,
+		bullet_ID = {
+			168906
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168907] = {
+		id = 168907,
+		reload_max = 1735,
+		base = 168901,
+		bullet_ID = {
+			168907
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168908] = {
+		id = 168908,
+		reload_max = 1711,
+		base = 168901,
+		bullet_ID = {
+			168908
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168909] = {
+		id = 168909,
+		reload_max = 1687,
+		base = 168901,
+		bullet_ID = {
+			168909
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168910] = {
+		id = 168910,
+		reload_max = 1663,
+		base = 168901,
+		bullet_ID = {
+			168910
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168911] = {
+		aim_type = 1,
+		action_index = "",
+		axis_angle = -10,
+		type = 3,
+		range = 80,
+		fire_fx = "",
+		recover_time = 0,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 4,
+		reload_max = 9500,
+		expose = 0,
+		search_type = 2,
+		effect_move = 0,
+		angle = 45,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 35,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "torpedo",
+		fire_sfx = "",
+		id = 168911,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			170817
+		},
+		barrage_ID = {
+			82130
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168912] = {
+		id = 168912,
+		damage = 40,
+		base = 168911
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168913] = {
+		id = 168913,
+		damage = 45,
+		base = 168911
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168914] = {
+		id = 168914,
+		damage = 50,
+		base = 168911
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168915] = {
+		id = 168915,
+		damage = 55,
+		base = 168911
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168916] = {
+		id = 168916,
+		damage = 64,
+		base = 168911
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168917] = {
+		id = 168917,
+		damage = 73,
+		base = 168911
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168918] = {
+		id = 168918,
+		damage = 82,
+		base = 168911
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168919] = {
+		id = 168919,
+		damage = 91,
+		base = 168911
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168920] = {
+		id = 168920,
+		damage = 100,
+		base = 168911
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168921] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 19,
+		range = 105,
+		fire_fx = "CAFire",
+		recover_time = 0,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 3000,
+		expose = 10,
+		search_type = 1,
+		effect_move = 0,
+		angle = 60,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 100,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 35,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-main",
+		id = 168921,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			168921
+		},
+		barrage_ID = {
+			168921
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {
+			fx = "jineng",
+			alertTime = 1,
+			time = 0.5,
+			isBound = true
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168922] = {
+		id = 168922,
+		damage = 105,
+		base = 168921
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168923] = {
+		id = 168923,
+		damage = 110,
+		base = 168921
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168924] = {
+		id = 168924,
+		damage = 115,
+		base = 168921
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168925] = {
+		id = 168925,
+		damage = 125,
+		base = 168921
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168926] = {
+		id = 168926,
+		damage = 135,
+		base = 168921
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168927] = {
+		id = 168927,
+		damage = 145,
+		base = 168921
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168928] = {
+		id = 168928,
+		damage = 155,
+		base = 168921
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168929] = {
+		id = 168929,
+		damage = 165,
+		base = 168921
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168930] = {
+		id = 168930,
+		damage = 175,
+		base = 168921
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168931] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 1,
+		range = 90,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 500,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 120,
+		queue = 1,
+		suppress = 1,
+		charge_param = "",
+		damage = 10,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		fire_sfx = "battle/cannon-155mm",
+		id = 168931,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			168931,
+			168931,
+			168931,
+			168931,
+			168931,
+			168931,
+			168931,
+			168931
+		},
+		barrage_ID = {
+			168931,
+			168932,
+			168933,
+			168934,
+			168935,
+			168936,
+			168937,
+			168938
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		spawn_bound = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168932] = {
+		id = 168932,
+		damage = 11,
+		base = 168931
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168933] = {
+		id = 168933,
+		damage = 12,
+		base = 168931
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168934] = {
+		id = 168934,
+		damage = 13,
+		base = 168931
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168935] = {
+		id = 168935,
+		damage = 14,
+		base = 168931
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168936] = {
+		id = 168936,
+		damage = 15,
+		base = 168931
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168937] = {
+		id = 168937,
+		damage = 16,
+		base = 168931
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168938] = {
+		id = 168938,
+		damage = 18,
+		base = 168931
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168939] = {
+		id = 168939,
+		damage = 20,
+		base = 168931
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168940] = {
+		id = 168940,
+		damage = 23,
+		base = 168931
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168941] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 1,
+		range = 150,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 400,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 73,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 168941,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			170818
+		},
+		barrage_ID = {
+			82131
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168942] = {
+		id = 168942,
+		damage = 91,
+		base = 168941
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168943] = {
+		id = 168943,
+		damage = 111,
+		base = 168941
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168944] = {
+		id = 168944,
+		damage = 129,
+		base = 168941
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168945] = {
+		id = 168945,
+		damage = 149,
+		base = 168941
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168946] = {
+		id = 168946,
+		damage = 169,
+		base = 168941
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168947] = {
+		id = 168947,
+		damage = 187,
+		base = 168941
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168948] = {
+		id = 168948,
+		damage = 207,
+		base = 168941
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168949] = {
+		id = 168949,
+		damage = 225,
+		base = 168941
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168950] = {
+		id = 168950,
+		damage = 255,
+		base = 168941
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168951] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 1,
+		range = 150,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 400,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 73,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 168951,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			170818,
+			170818
+		},
+		barrage_ID = {
+			82131,
+			82132
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168952] = {
+		id = 168952,
+		damage = 91,
+		base = 168951
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168953] = {
+		id = 168953,
+		damage = 111,
+		base = 168951
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168954] = {
+		id = 168954,
+		damage = 129,
+		base = 168951
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168955] = {
+		id = 168955,
+		damage = 149,
+		base = 168951
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168956] = {
+		id = 168956,
+		damage = 169,
+		base = 168951
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168957] = {
+		id = 168957,
+		damage = 187,
+		base = 168951
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168958] = {
+		id = 168958,
+		damage = 207,
+		base = 168951
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168959] = {
+		id = 168959,
+		damage = 225,
+		base = 168951
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[168960] = {
+		id = 168960,
+		damage = 255,
+		base = 168951
 	}
 end)()
 
@@ -358837,6 +361169,148 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.weapon_property[170821] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 2,
+		range = 150,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 3000,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 30,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 170821,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			78232,
+			78233,
+			78231
+		},
+		barrage_ID = {
+			78231,
+			78232,
+			78233
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[170822] = {
+		id = 170822,
+		damage = 55,
+		base = 170821,
+		bullet_ID = {
+			78232,
+			78232,
+			78233,
+			78231
+		},
+		barrage_ID = {
+			78231,
+			78234,
+			78232,
+			78233
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[170831] = {
+		aim_type = 0,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 1,
+		range = 150,
+		fire_fx = "CLFire",
+		recover_time = 0.5,
+		fire_fx_loop_type = 1,
+		shakescreen = 0,
+		attack_attribute = 1,
+		reload_max = 3000,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 1,
+		suppress = 0,
+		charge_param = "",
+		damage = 20,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 170831,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			170819,
+			170819,
+			170819,
+			170819
+		},
+		barrage_ID = {
+			82133,
+			82134,
+			82135,
+			82136
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[170832] = {
+		id = 170832,
+		damage = 30,
+		base = 170831,
+		bullet_ID = {
+			170819,
+			170819,
+			170819,
+			170819
+		},
+		barrage_ID = {
+			82137,
+			82138,
+			82139,
+			82140
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.weapon_property[180000] = {
 		aim_type = 1,
 		action_index = "attack",
@@ -359527,6 +362001,58 @@ end)()
 		},
 		barrage_ID = {
 			2000
+		},
+		oxy_type = {
+			1
+		},
+		search_condition = {
+			1
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[180015] = {
+		aim_type = 1,
+		action_index = "attack",
+		axis_angle = 0,
+		type = 1,
+		range = 150,
+		fire_fx = "CLFire",
+		recover_time = 0,
+		fire_fx_loop_type = 3,
+		shakescreen = 0,
+		attack_attribute = 4,
+		reload_max = 600,
+		expose = 0,
+		search_type = 1,
+		effect_move = 0,
+		angle = 360,
+		queue = 2,
+		suppress = 1,
+		charge_param = "",
+		damage = 15,
+		auto_aftercast = 0,
+		initial_over_heat = 0,
+		corrected = 100,
+		min_range = 0,
+		spawn_bound = "cannon",
+		fire_sfx = "battle/cannon-155mm",
+		id = 180015,
+		attack_attribute_ratio = 100,
+		torpedo_ammo = 0,
+		bullet_ID = {
+			161163,
+			161164,
+			161163,
+			161164
+		},
+		barrage_ID = {
+			600805,
+			600806,
+			600807,
+			600808
 		},
 		oxy_type = {
 			1
@@ -1261370,6 +1263896,4338 @@ end)()
 			1
 		},
 		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300001] = {
+		reload_max = 600,
+		id = 3300001,
+		base = 1100010,
+		bullet_ID = {
+			3300001
+		},
+		barrage_ID = {
+			3300001
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300002] = {
+		reload_max = 600,
+		damage = 10,
+		base = 1100505,
+		id = 3300002,
+		angle = 360,
+		bullet_ID = {
+			3300002
+		},
+		barrage_ID = {
+			3300002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300003] = {
+		reload_max = 700,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3300003,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300003,
+			3300003,
+			3300003,
+			3300003,
+			3300003,
+			3300003,
+			3300003,
+			3300003
+		},
+		barrage_ID = {
+			3300003,
+			3300004,
+			3300005,
+			3300006,
+			3300007,
+			3300008,
+			3300009,
+			3300010
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300004] = {
+		reload_max = 800,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3300004,
+		queue = 3,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300004
+		},
+		barrage_ID = {
+			3300011
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300005] = {
+		reload_max = 700,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3300005,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300005,
+			3300005
+		},
+		barrage_ID = {
+			3300012,
+			3300013
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300006] = {
+		reload_max = 800,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3300006,
+		queue = 3,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300006,
+			3300007,
+			3300008,
+			3300006,
+			3300007,
+			3300008,
+			3300006,
+			3300007,
+			3300008
+		},
+		barrage_ID = {
+			3300014,
+			3300015,
+			3300016,
+			3300017,
+			3300018,
+			3300019,
+			3300020,
+			3300021,
+			3300022
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300101] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3300101,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300101
+		},
+		barrage_ID = {
+			3300101
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300102] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3300102,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300104,
+			3300105
+		},
+		barrage_ID = {
+			3300104,
+			3300105
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300103] = {
+		reload_max = 300,
+		recover_time = 0,
+		damage = 1,
+		base = 1002,
+		id = 3300103,
+		queue = 3,
+		action_index = "",
+		aim_type = 0,
+		barrage_ID = {
+			3300106
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300104] = {
+		reload_max = 300,
+		recover_time = 0,
+		damage = 1,
+		base = 1002,
+		id = 3300104,
+		queue = 4,
+		action_index = "",
+		aim_type = 0,
+		barrage_ID = {
+			3300107
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300105] = {
+		action_index = "",
+		range = 30,
+		damage = 10,
+		base = 1009,
+		attack_attribute = 4,
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 6000,
+		queue = 1,
+		id = 3300105,
+		aim_type = 1,
+		bullet_ID = {
+			3300106
+		},
+		barrage_ID = {
+			3076001
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300106] = {
+		suppress = 0,
+		range = 10,
+		damage = 16,
+		base = 1009,
+		attack_attribute = 4,
+		action_index = "",
+		reload_max = 6000,
+		id = 3300106,
+		aim_type = 0,
+		bullet_ID = {
+			3139027
+		},
+		barrage_ID = {
+			3076013
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300201] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3300201,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309022,
+			3309023
+		},
+		barrage_ID = {
+			3309019,
+			3309020
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300202] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3300202,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309025,
+			3309026
+		},
+		barrage_ID = {
+			3309021,
+			3309022
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300203] = {
+		type = 19,
+		action_index = "attack",
+		damage = 10,
+		base = 1009,
+		suppress = 1,
+		reload_max = 400,
+		queue = 3,
+		id = 3300203,
+		aim_type = 1,
+		bullet_ID = {
+			3309028
+		},
+		barrage_ID = {
+			3309023
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300204] = {
+		type = 19,
+		range = 150,
+		damage = 10,
+		base = 1009,
+		min_range = 85,
+		initial_over_heat = 1,
+		suppress = 1,
+		action_index = "",
+		reload_max = 1200,
+		queue = 3,
+		id = 3300204,
+		aim_type = 1,
+		bullet_ID = {
+			3139535,
+			3139536,
+			3139537,
+			3139538,
+			3139539,
+			3139540
+		},
+		barrage_ID = {
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3300205] = {
+		suppress = 0,
+		range = 120,
+		damage = 10,
+		base = 1009,
+		action_index = "attack",
+		reload_max = 6000,
+		queue = 4,
+		id = 3300205,
+		aim_type = 0,
+		bullet_ID = {
+			3240201
+		},
+		barrage_ID = {
+			3240204
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301001] = {
+		reload_max = 600,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3301001,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3300201,
+			3300201
+		},
+		barrage_ID = {
+			3300201,
+			3300202
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301002] = {
+		type = 1,
+		suppress = 1,
+		damage = 18,
+		base = 1009,
+		action_index = "",
+		reload_max = 750,
+		queue = 1,
+		id = 3301002,
+		aim_type = 1,
+		bullet_ID = {
+			3300208
+		},
+		barrage_ID = {
+			3300208
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301003] = {
+		reload_max = 300,
+		suppress = 1,
+		damage = 12,
+		base = 1009,
+		id = 3301003,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3300210
+		},
+		barrage_ID = {
+			3300212
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301004] = {
+		reload_max = 900,
+		suppress = 0,
+		damage = 10,
+		base = 1001,
+		id = 3301004,
+		queue = 3,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3300211,
+			3300211
+		},
+		barrage_ID = {
+			3300213,
+			3300214
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301101] = {
+		reload_max = 900,
+		base = 1002,
+		damage = 1,
+		queue = 3,
+		id = 3301101,
+		recover_time = 0,
+		action_index = "",
+		barrage_ID = {
+			3301111
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301102] = {
+		reload_max = 840,
+		base = 1002,
+		damage = 1,
+		queue = 4,
+		id = 3301102,
+		recover_time = 0,
+		action_index = "",
+		barrage_ID = {
+			3301112
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301103] = {
+		reload_max = 780,
+		base = 1002,
+		damage = 1,
+		queue = 5,
+		id = 3301103,
+		recover_time = 0,
+		action_index = "",
+		barrage_ID = {
+			3301113
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301104] = {
+		suppress = 1,
+		range = 30,
+		damage = 12,
+		base = 1009,
+		attack_attribute = 4,
+		action_index = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 3301104,
+		aim_type = 1,
+		bullet_ID = {
+			3301101
+		},
+		barrage_ID = {
+			899049
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301105] = {
+		suppress = 0,
+		range = 1,
+		damage = 14,
+		base = 1009,
+		attack_attribute = 4,
+		action_index = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 3301105,
+		aim_type = 0,
+		bullet_ID = {
+			3301102,
+			3301103
+		},
+		barrage_ID = {
+			130991,
+			130991
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301106] = {
+		suppress = 1,
+		range = 60,
+		damage = 16,
+		base = 1001,
+		attack_attribute = 4,
+		action_index = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 3301106,
+		aim_type = 1,
+		bullet_ID = {
+			3301104
+		},
+		barrage_ID = {
+			899050
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301107] = {
+		reload_max = 6000,
+		queue = 1,
+		damage = 8,
+		base = 1009,
+		id = 3301107,
+		suppress = 0,
+		aim_type = 0,
+		bullet_ID = {
+			3301105
+		},
+		barrage_ID = {
+			3301101
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301108] = {
+		reload_max = 6000,
+		queue = 1,
+		damage = 12,
+		base = 1009,
+		id = 3301108,
+		suppress = 1,
+		aim_type = 1,
+		bullet_ID = {
+			3029312
+		},
+		barrage_ID = {
+			3301104
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301109] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3301109,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301108
+		},
+		barrage_ID = {
+			3301107
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301110] = {
+		reload_max = 450,
+		suppress = 0,
+		damage = 12,
+		base = 1009,
+		id = 3301110,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301109
+		},
+		barrage_ID = {
+			3301108
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301111] = {
+		reload_max = 450,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3301111,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301115,
+			3301116
+		},
+		barrage_ID = {
+			3301109,
+			3301110
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301112] = {
+		type = 24,
+		suppress = 0,
+		damage = 1,
+		base = 1009,
+		action_index = "",
+		reload_max = 6000,
+		queue = 8,
+		id = 3301112,
+		aim_type = 0,
+		bullet_ID = {
+			3045007
+		},
+		barrage_ID = {
+			3217015
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301201] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3301201,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301201,
+			3301202
+		},
+		barrage_ID = {
+			3301201,
+			3301202
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301202] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3301202,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301205
+		},
+		barrage_ID = {
+			3301204
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301203] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3301203,
+		queue = 3,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301207
+		},
+		barrage_ID = {
+			3301206
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301204] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3301204,
+		queue = 4,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301210
+		},
+		barrage_ID = {
+			3301204
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301205] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3301205,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301212,
+			3301213,
+			3301212,
+			3301213
+		},
+		barrage_ID = {
+			3301209,
+			3301210,
+			3301211,
+			3301212
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301206] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3301206,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301216,
+			3301217
+		},
+		barrage_ID = {
+			3301214,
+			3301215
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301207] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3301207,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301220,
+			3301220,
+			3301220,
+			3301220
+		},
+		barrage_ID = {
+			3301218,
+			3301219,
+			3301220,
+			3301221
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301208] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3301208,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301222,
+			3301222
+		},
+		barrage_ID = {
+			3301223,
+			3301224
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301209] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3301209,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301223,
+			3301223,
+			3301223,
+			3301223
+		},
+		barrage_ID = {
+			3301225,
+			3301226,
+			3301227,
+			3301228
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301210] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3301210,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301225,
+			3301225
+		},
+		barrage_ID = {
+			3301223,
+			3301224
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3301211] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 1,
+		base = 1003,
+		id = 3301211,
+		queue = 3,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301226,
+			3301227,
+			3301227,
+			3301227,
+			3301227,
+			3301227,
+			3301227
+		},
+		barrage_ID = {
+			3301229,
+			3301230,
+			3301231,
+			3301232,
+			3301233,
+			3301234,
+			3301235
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302001] = {
+		reload_max = 600,
+		id = 3302001,
+		base = 1100010,
+		bullet_ID = {
+			3300001
+		},
+		barrage_ID = {
+			3300001
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302002] = {
+		reload_max = 600,
+		damage = 12,
+		base = 1100505,
+		id = 3302002,
+		angle = 360,
+		bullet_ID = {
+			3300002
+		},
+		barrage_ID = {
+			3300002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302003] = {
+		reload_max = 700,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3302003,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300003,
+			3300003,
+			3300003,
+			3300003,
+			3300003,
+			3300003,
+			3300003,
+			3300003
+		},
+		barrage_ID = {
+			3300003,
+			3300004,
+			3300005,
+			3300006,
+			3300007,
+			3300008,
+			3300009,
+			3300010
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302004] = {
+		reload_max = 800,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3302004,
+		queue = 3,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300004
+		},
+		barrage_ID = {
+			3300011
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302005] = {
+		reload_max = 700,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3302005,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300005,
+			3300005
+		},
+		barrage_ID = {
+			3300012,
+			3300013
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302006] = {
+		reload_max = 800,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3302006,
+		queue = 3,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300006,
+			3300007,
+			3300008,
+			3300006,
+			3300007,
+			3300008,
+			3300006,
+			3300007,
+			3300008
+		},
+		barrage_ID = {
+			3300014,
+			3300015,
+			3300016,
+			3300017,
+			3300018,
+			3300019,
+			3300020,
+			3300021,
+			3300022
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302101] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3302101,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300101
+		},
+		barrage_ID = {
+			3300101
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302102] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3302102,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3300104,
+			3300105
+		},
+		barrage_ID = {
+			3300104,
+			3300105
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302103] = {
+		reload_max = 300,
+		recover_time = 0,
+		damage = 1,
+		base = 1002,
+		id = 3302103,
+		queue = 3,
+		action_index = "",
+		aim_type = 0,
+		barrage_ID = {
+			3300106
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302104] = {
+		reload_max = 300,
+		recover_time = 0,
+		damage = 1,
+		base = 1002,
+		id = 3302104,
+		queue = 4,
+		action_index = "",
+		aim_type = 0,
+		barrage_ID = {
+			3300107
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302105] = {
+		action_index = "",
+		range = 30,
+		damage = 14,
+		base = 1009,
+		attack_attribute = 4,
+		fire_fx = "",
+		suppress = 1,
+		reload_max = 6000,
+		queue = 1,
+		id = 3302105,
+		aim_type = 1,
+		bullet_ID = {
+			3300106
+		},
+		barrage_ID = {
+			3076001
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302106] = {
+		suppress = 0,
+		range = 10,
+		damage = 18,
+		base = 1009,
+		attack_attribute = 4,
+		action_index = "",
+		reload_max = 6000,
+		id = 3302106,
+		aim_type = 0,
+		bullet_ID = {
+			3139027
+		},
+		barrage_ID = {
+			3076013
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302201] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3302201,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309022,
+			3309023
+		},
+		barrage_ID = {
+			3309019,
+			3309020
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302202] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3302202,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309025,
+			3309026
+		},
+		barrage_ID = {
+			3309021,
+			3309022
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302203] = {
+		type = 19,
+		action_index = "attack",
+		damage = 12,
+		base = 1009,
+		suppress = 1,
+		reload_max = 400,
+		queue = 3,
+		id = 3302203,
+		aim_type = 1,
+		bullet_ID = {
+			3309028
+		},
+		barrage_ID = {
+			3309023
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302204] = {
+		type = 19,
+		range = 150,
+		damage = 12,
+		base = 1009,
+		min_range = 85,
+		initial_over_heat = 1,
+		suppress = 1,
+		action_index = "",
+		reload_max = 1200,
+		queue = 3,
+		id = 3302204,
+		aim_type = 1,
+		bullet_ID = {
+			3139535,
+			3139536,
+			3139537,
+			3139538,
+			3139539,
+			3139540
+		},
+		barrage_ID = {
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3302205] = {
+		suppress = 0,
+		range = 120,
+		damage = 12,
+		base = 1009,
+		action_index = "attack",
+		reload_max = 6000,
+		queue = 4,
+		id = 3302205,
+		aim_type = 0,
+		bullet_ID = {
+			3240201
+		},
+		barrage_ID = {
+			3240204
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303001] = {
+		reload_max = 600,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3303001,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3300201,
+			3300201
+		},
+		barrage_ID = {
+			3300201,
+			3300202
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303002] = {
+		type = 1,
+		suppress = 1,
+		damage = 16,
+		base = 1009,
+		action_index = "",
+		reload_max = 750,
+		queue = 1,
+		id = 3303002,
+		aim_type = 1,
+		bullet_ID = {
+			3300208
+		},
+		barrage_ID = {
+			3300208
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303003] = {
+		reload_max = 300,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3303003,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3300210
+		},
+		barrage_ID = {
+			3300212
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303004] = {
+		reload_max = 900,
+		suppress = 0,
+		damage = 8,
+		base = 1001,
+		id = 3303004,
+		queue = 3,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3300211,
+			3300211
+		},
+		barrage_ID = {
+			3300213,
+			3300214
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303101] = {
+		reload_max = 900,
+		base = 1002,
+		damage = 1,
+		queue = 3,
+		id = 3303101,
+		recover_time = 0,
+		action_index = "",
+		barrage_ID = {
+			3301111
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303102] = {
+		reload_max = 840,
+		base = 1002,
+		damage = 1,
+		queue = 4,
+		id = 3303102,
+		recover_time = 0,
+		action_index = "",
+		barrage_ID = {
+			3301112
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303103] = {
+		reload_max = 780,
+		base = 1002,
+		damage = 1,
+		queue = 5,
+		id = 3303103,
+		recover_time = 0,
+		action_index = "",
+		barrage_ID = {
+			3301113
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303104] = {
+		suppress = 1,
+		range = 30,
+		damage = 14,
+		base = 1009,
+		attack_attribute = 4,
+		action_index = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 3303104,
+		aim_type = 1,
+		bullet_ID = {
+			3301101
+		},
+		barrage_ID = {
+			899049
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303105] = {
+		suppress = 0,
+		range = 1,
+		damage = 16,
+		base = 1009,
+		attack_attribute = 4,
+		action_index = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 3303105,
+		aim_type = 0,
+		bullet_ID = {
+			3301102,
+			3301103
+		},
+		barrage_ID = {
+			130991,
+			130991
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303106] = {
+		suppress = 1,
+		range = 60,
+		damage = 18,
+		base = 1001,
+		attack_attribute = 4,
+		action_index = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 3303106,
+		aim_type = 1,
+		bullet_ID = {
+			3301104
+		},
+		barrage_ID = {
+			899050
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303107] = {
+		reload_max = 6000,
+		queue = 1,
+		damage = 10,
+		base = 1009,
+		id = 3303107,
+		suppress = 0,
+		aim_type = 0,
+		bullet_ID = {
+			3301105
+		},
+		barrage_ID = {
+			3301101
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303108] = {
+		reload_max = 6000,
+		queue = 1,
+		damage = 12,
+		base = 1009,
+		id = 3303108,
+		suppress = 1,
+		aim_type = 1,
+		bullet_ID = {
+			3029312
+		},
+		barrage_ID = {
+			3301104
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303109] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3303109,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301108
+		},
+		barrage_ID = {
+			3301107
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303110] = {
+		reload_max = 450,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3303110,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301109
+		},
+		barrage_ID = {
+			3301108
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303111] = {
+		reload_max = 450,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3303111,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301115,
+			3301116
+		},
+		barrage_ID = {
+			3301109,
+			3301110
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303112] = {
+		type = 24,
+		suppress = 0,
+		damage = 1,
+		base = 1009,
+		action_index = "",
+		reload_max = 6000,
+		queue = 8,
+		id = 3303112,
+		aim_type = 0,
+		bullet_ID = {
+			3045007
+		},
+		barrage_ID = {
+			3217015
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303201] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3303201,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301201,
+			3301202
+		},
+		barrage_ID = {
+			3301201,
+			3301202
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303202] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 12,
+		base = 1009,
+		id = 3303202,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301205
+		},
+		barrage_ID = {
+			3301204
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303203] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3303203,
+		queue = 3,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301207
+		},
+		barrage_ID = {
+			3301206
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303204] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 12,
+		base = 1009,
+		id = 3303204,
+		queue = 4,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301210
+		},
+		barrage_ID = {
+			3301204
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303205] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3303205,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301212,
+			3301213,
+			3301212,
+			3301213
+		},
+		barrage_ID = {
+			3301209,
+			3301210,
+			3301211,
+			3301212
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303206] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3303206,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301216,
+			3301217
+		},
+		barrage_ID = {
+			3301214,
+			3301215
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303207] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3303207,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301220,
+			3301220,
+			3301220,
+			3301220
+		},
+		barrage_ID = {
+			3301218,
+			3301219,
+			3301220,
+			3301221
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303208] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3303208,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301222,
+			3301222
+		},
+		barrage_ID = {
+			3301223,
+			3301224
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303209] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 8,
+		base = 1009,
+		id = 3303209,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301223,
+			3301223,
+			3301223,
+			3301223
+		},
+		barrage_ID = {
+			3301225,
+			3301226,
+			3301227,
+			3301228
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303210] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 8,
+		base = 1009,
+		id = 3303210,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3301225,
+			3301225
+		},
+		barrage_ID = {
+			3301223,
+			3301224
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3303211] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 1,
+		base = 1003,
+		id = 3303211,
+		queue = 3,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3301226,
+			3301227,
+			3301227,
+			3301227,
+			3301227,
+			3301227,
+			3301227
+		},
+		barrage_ID = {
+			3301229,
+			3301230,
+			3301231,
+			3301232,
+			3301233,
+			3301234,
+			3301235
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304001] = {
+		reload_max = 600,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3304001,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3304001
+		},
+		barrage_ID = {
+			3304001
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304002] = {
+		reload_max = 900,
+		suppress = 1,
+		damage = 2,
+		base = 1003,
+		id = 3304002,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3309032
+		},
+		barrage_ID = {
+			3304002
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304003] = {
+		type = 19,
+		action_index = "attack",
+		damage = 8,
+		base = 1009,
+		suppress = 1,
+		reload_max = 900,
+		queue = 3,
+		id = 3304003,
+		aim_type = 1,
+		bullet_ID = {
+			3309033,
+			3309034
+		},
+		barrage_ID = {
+			3304003,
+			3304004
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304004] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3304004,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3304002,
+			3304003
+		},
+		barrage_ID = {
+			3304005,
+			3304006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304005] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3304005,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3304004
+		},
+		barrage_ID = {
+			3304007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304006] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3304006,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3304005
+		},
+		barrage_ID = {
+			3304008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304007] = {
+		type = 24,
+		suppress = 0,
+		damage = 1,
+		base = 1009,
+		action_index = "",
+		reload_max = 6000,
+		queue = 5,
+		id = 3304007,
+		aim_type = 0,
+		bullet_ID = {
+			3045007,
+			3045007,
+			3045007,
+			3045007,
+			3045007,
+			3045007
+		},
+		barrage_ID = {
+			3304014,
+			3304015,
+			3304016,
+			3304017,
+			3304018,
+			3304019
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304008] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3304008,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3304006,
+			3304006
+		},
+		barrage_ID = {
+			3304009,
+			3304010
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304009] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3304009,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3304007,
+			3304007
+		},
+		barrage_ID = {
+			3304009,
+			3304010
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304010] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3304010,
+		queue = 3,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3304009,
+			3304009
+		},
+		barrage_ID = {
+			3304009,
+			3304010
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304011] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 4,
+		base = 1009,
+		id = 3304011,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3304012,
+			3304014,
+			3304013,
+			3304015
+		},
+		barrage_ID = {
+			3304020,
+			3304021,
+			3304022,
+			3304023
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3304012] = {
+		type = 28,
+		suppress = 1,
+		damage = 10,
+		base = 1003,
+		action_index = "attack",
+		reload_max = 6000,
+		queue = 2,
+		id = 3304012,
+		effect_move = 1,
+		aim_type = 1,
+		bullet_ID = {
+			3304016
+		},
+		barrage_ID = {
+			3304024
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305101] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 10,
+		base = 1009,
+		id = 3305101,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3305101,
+			3305102,
+			3305103,
+			3305104,
+			3305105,
+			3305106,
+			3305107,
+			3305108
+		},
+		barrage_ID = {
+			3305201,
+			3305202,
+			3305203,
+			3305204,
+			3305205,
+			3305206,
+			3305207,
+			3305208
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305102] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 12,
+		base = 1009,
+		id = 3305102,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305111,
+			3305111
+		},
+		barrage_ID = {
+			3305217,
+			3305218
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305103] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 15,
+		base = 1009,
+		id = 3305103,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3305114
+		},
+		barrage_ID = {
+			3305221
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305104] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 12,
+		base = 1009,
+		id = 3305104,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305116
+		},
+		barrage_ID = {
+			1
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305105] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 10,
+		base = 1009,
+		id = 3305105,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305119
+		},
+		barrage_ID = {
+			1
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305106] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 12,
+		base = 1009,
+		id = 3305106,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3305130,
+			3305131,
+			3305132,
+			3305133,
+			3305134
+		},
+		barrage_ID = {
+			3305242,
+			3305242,
+			3305243,
+			3305243,
+			3305244
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305107] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 15,
+		base = 1009,
+		id = 3305107,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305135,
+			3305135
+		},
+		barrage_ID = {
+			3305245,
+			3305246
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305108] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 12,
+		base = 1009,
+		id = 3305108,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305137,
+			3305138
+		},
+		barrage_ID = {
+			3305248,
+			3305249
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305109] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 12,
+		base = 1009,
+		id = 3305109,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305141,
+			3305141,
+			3305141,
+			3305142,
+			3305146,
+			3305147,
+			3305150
+		},
+		barrage_ID = {
+			3305251,
+			3305252,
+			3305253,
+			3305254,
+			3305256,
+			3305257,
+			3305259
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305110] = {
+		suppress = 0,
+		range = 120,
+		damage = 15,
+		base = 1003,
+		action_index = "",
+		reload_max = 6000,
+		queue = 2,
+		id = 3305110,
+		aim_type = 0,
+		bullet_ID = {
+			3305153,
+			3305153,
+			3305153,
+			3305153,
+			3305153,
+			3305153
+		},
+		barrage_ID = {
+			3305262,
+			3305263,
+			3305264,
+			3305265,
+			3305266,
+			3305267
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305111] = {
+		suppress = 1,
+		range = 120,
+		damage = 15,
+		base = 1003,
+		action_index = "",
+		reload_max = 6000,
+		queue = 3,
+		id = 3305111,
+		aim_type = 1,
+		bullet_ID = {
+			3305154,
+			3305154
+		},
+		barrage_ID = {
+			3305270,
+			3305271
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305112] = {
+		suppress = 1,
+		range = 120,
+		damage = 15,
+		base = 1003,
+		action_index = "",
+		reload_max = 6000,
+		queue = 4,
+		id = 3305112,
+		aim_type = 1,
+		bullet_ID = {
+			3305154,
+			3305154
+		},
+		barrage_ID = {
+			3305272,
+			3305273
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305113] = {
+		suppress = 1,
+		range = 120,
+		damage = 15,
+		base = 1003,
+		action_index = "",
+		reload_max = 6000,
+		queue = 5,
+		id = 3305113,
+		aim_type = 1,
+		bullet_ID = {
+			3305154,
+			3305154
+		},
+		barrage_ID = {
+			3305274,
+			3305275
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305201] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 30,
+		base = 1009,
+		id = 3305201,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3305201,
+			3305202,
+			3305203,
+			3305204,
+			3305205,
+			3305206,
+			3305207,
+			3305208
+		},
+		barrage_ID = {
+			3305201,
+			3305202,
+			3305203,
+			3305204,
+			3305205,
+			3305206,
+			3305207,
+			3305208
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305202] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 50,
+		base = 1009,
+		id = 3305202,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305211,
+			3305211
+		},
+		barrage_ID = {
+			3305217,
+			3305218
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305203] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 80,
+		base = 1009,
+		id = 3305203,
+		queue = 2,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3305214
+		},
+		barrage_ID = {
+			3305221
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305204] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 50,
+		base = 1009,
+		id = 3305204,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305216
+		},
+		barrage_ID = {
+			1
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305205] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 30,
+		base = 1009,
+		id = 3305205,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305219
+		},
+		barrage_ID = {
+			1
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305206] = {
+		reload_max = 6000,
+		suppress = 1,
+		damage = 50,
+		base = 1009,
+		id = 3305206,
+		queue = 1,
+		action_index = "",
+		aim_type = 1,
+		bullet_ID = {
+			3305230,
+			3305231,
+			3305232,
+			3305233,
+			3305234
+		},
+		barrage_ID = {
+			3305242,
+			3305242,
+			3305243,
+			3305243,
+			3305244
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305207] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 80,
+		base = 1009,
+		id = 3305207,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305235,
+			3305235
+		},
+		barrage_ID = {
+			3305245,
+			3305246
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305208] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 50,
+		base = 1009,
+		id = 3305208,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305237,
+			3305238
+		},
+		barrage_ID = {
+			3305248,
+			3305249
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305209] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 50,
+		base = 1009,
+		id = 3305209,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3305241,
+			3305241,
+			3305241,
+			3305242,
+			3305246,
+			3305247,
+			3305250
+		},
+		barrage_ID = {
+			3305251,
+			3305252,
+			3305253,
+			3305254,
+			3305256,
+			3305257,
+			3305259
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305210] = {
+		suppress = 0,
+		range = 120,
+		damage = 100,
+		base = 1003,
+		action_index = "",
+		reload_max = 6000,
+		queue = 2,
+		id = 3305210,
+		aim_type = 0,
+		bullet_ID = {
+			3305253,
+			3305253,
+			3305253,
+			3305253,
+			3305253,
+			3305253
+		},
+		barrage_ID = {
+			3305262,
+			3305263,
+			3305264,
+			3305265,
+			3305266,
+			3305267
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305211] = {
+		suppress = 1,
+		range = 120,
+		damage = 100,
+		base = 1003,
+		action_index = "",
+		reload_max = 6000,
+		queue = 3,
+		id = 3305211,
+		aim_type = 1,
+		bullet_ID = {
+			3305254,
+			3305254
+		},
+		barrage_ID = {
+			3305270,
+			3305271
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305212] = {
+		suppress = 1,
+		range = 120,
+		damage = 100,
+		base = 1003,
+		action_index = "",
+		reload_max = 6000,
+		queue = 4,
+		id = 3305212,
+		aim_type = 1,
+		bullet_ID = {
+			3305254,
+			3305254
+		},
+		barrage_ID = {
+			3305272,
+			3305273
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3305213] = {
+		suppress = 1,
+		range = 120,
+		damage = 100,
+		base = 1003,
+		action_index = "",
+		reload_max = 6000,
+		queue = 5,
+		id = 3305213,
+		aim_type = 1,
+		bullet_ID = {
+			3305254,
+			3305254
+		},
+		barrage_ID = {
+			3305274,
+			3305275
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3306001] = {
+		type = 19,
+		range = 100,
+		damage = 50,
+		base = 1009,
+		min_range = 100,
+		suppress = 1,
+		reload_max = 6000,
+		queue = 1,
+		id = 3306001,
+		aim_type = 1,
+		bullet_ID = {
+			3306001,
+			3306001
+		},
+		barrage_ID = {
+			3306001,
+			3306002
+		},
+		precast_param = {
+			fx = "jinengenemy",
+			alertTime = 2,
+			time = 1
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3306002] = {
+		type = 2,
+		range = 120,
+		damage = 30,
+		base = 1001,
+		action_index = "",
+		suppress = 0,
+		reload_max = 6000,
+		queue = 1,
+		id = 3306002,
+		aim_type = 0,
+		bullet_ID = {
+			3306002,
+			3306002
+		},
+		barrage_ID = {
+			3306003,
+			3306004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3306003] = {
+		suppress = 0,
+		range = 120,
+		damage = 50,
+		base = 1002,
+		attack_attribute = 4,
+		reload_max = 6000,
+		queue = 1,
+		id = 3306003,
+		aim_type = 0,
+		barrage_ID = {
+			3306005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3306004] = {
+		suppress = 0,
+		range = 1,
+		damage = 50,
+		base = 1009,
+		attack_attribute = 4,
+		action_index = "",
+		reload_max = 6000,
+		queue = 1,
+		id = 3306004,
+		aim_type = 0,
+		bullet_ID = {
+			3125104,
+			3125105,
+			3125106,
+			3125107,
+			3125108,
+			3125109
+		},
+		barrage_ID = {
+			3306006,
+			3306006,
+			3306006,
+			3306006,
+			3306006,
+			3306006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309000] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 1,
+		base = 1009,
+		id = 3309000,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309001,
+			3309002,
+			3309003
+		},
+		barrage_ID = {
+			3309001,
+			3309002,
+			3309003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309001] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 2,
+		base = 1009,
+		id = 3309001,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309001,
+			3309002,
+			3309003
+		},
+		barrage_ID = {
+			3309001,
+			3309002,
+			3309003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309002] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 3,
+		base = 1009,
+		id = 3309002,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309001,
+			3309002,
+			3309003
+		},
+		barrage_ID = {
+			3309001,
+			3309002,
+			3309003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309003] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3309003,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309001,
+			3309002,
+			3309003
+		},
+		barrage_ID = {
+			3309001,
+			3309002,
+			3309003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309004] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 5,
+		base = 1009,
+		id = 3309004,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309001,
+			3309002,
+			3309003
+		},
+		barrage_ID = {
+			3309001,
+			3309002,
+			3309003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309005] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 2,
+		base = 1009,
+		id = 3309005,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309004,
+			3309005
+		},
+		barrage_ID = {
+			3309004,
+			3309005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309006] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 3,
+		base = 1009,
+		id = 3309006,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309004,
+			3309005
+		},
+		barrage_ID = {
+			3309004,
+			3309005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309007] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3309007,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309004,
+			3309005
+		},
+		barrage_ID = {
+			3309004,
+			3309005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309008] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 5,
+		base = 1009,
+		id = 3309008,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309004,
+			3309005
+		},
+		barrage_ID = {
+			3309004,
+			3309005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309009] = {
+		reload_max = 100,
+		suppress = 0,
+		damage = 6,
+		base = 1009,
+		id = 3309009,
+		queue = 2,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309004,
+			3309005
+		},
+		barrage_ID = {
+			3309004,
+			3309005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309010] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 2,
+		base = 1009,
+		id = 3309010,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006
+		},
+		barrage_ID = {
+			3309007,
+			3309008,
+			3309009,
+			3309010,
+			3309011,
+			3309012
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309011] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 3,
+		base = 1009,
+		id = 3309011,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006
+		},
+		barrage_ID = {
+			3309007,
+			3309008,
+			3309009,
+			3309010,
+			3309011,
+			3309012
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309012] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3309012,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006
+		},
+		barrage_ID = {
+			3309007,
+			3309008,
+			3309009,
+			3309010,
+			3309011,
+			3309012
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309013] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 5,
+		base = 1009,
+		id = 3309013,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006
+		},
+		barrage_ID = {
+			3309007,
+			3309008,
+			3309009,
+			3309010,
+			3309011,
+			3309012
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309014] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 6,
+		base = 1009,
+		id = 3309014,
+		queue = 1,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006,
+			3309006
+		},
+		barrage_ID = {
+			3309007,
+			3309008,
+			3309009,
+			3309010,
+			3309011,
+			3309012
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309015] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 2,
+		base = 1009,
+		id = 3309015,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309008,
+			3309009
+		},
+		barrage_ID = {
+			3309013,
+			3309014
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309016] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 3,
+		base = 1009,
+		id = 3309016,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309008,
+			3309009
+		},
+		barrage_ID = {
+			3309013,
+			3309014
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309017] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3309017,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309008,
+			3309009
+		},
+		barrage_ID = {
+			3309013,
+			3309014
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309018] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 5,
+		base = 1009,
+		id = 3309018,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309008,
+			3309009
+		},
+		barrage_ID = {
+			3309013,
+			3309014
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309019] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 6,
+		base = 1009,
+		id = 3309019,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309008,
+			3309009
+		},
+		barrage_ID = {
+			3309013,
+			3309014
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309020] = {
+		reload_max = 450,
+		suppress = 1,
+		damage = 3,
+		base = 1009,
+		id = 3309020,
+		queue = 3,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3309021,
+			3309021
+		},
+		barrage_ID = {
+			3309017,
+			3309018
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309021] = {
+		reload_max = 450,
+		suppress = 1,
+		damage = 4,
+		base = 1009,
+		id = 3309021,
+		queue = 3,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3309021,
+			3309021
+		},
+		barrage_ID = {
+			3309017,
+			3309018
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309022] = {
+		reload_max = 450,
+		suppress = 1,
+		damage = 5,
+		base = 1009,
+		id = 3309022,
+		queue = 3,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3309021,
+			3309021
+		},
+		barrage_ID = {
+			3309017,
+			3309018
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309023] = {
+		reload_max = 450,
+		suppress = 1,
+		damage = 6,
+		base = 1009,
+		id = 3309023,
+		queue = 3,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3309021,
+			3309021
+		},
+		barrage_ID = {
+			3309017,
+			3309018
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309024] = {
+		reload_max = 450,
+		suppress = 1,
+		damage = 7,
+		base = 1009,
+		id = 3309024,
+		queue = 3,
+		action_index = "attack",
+		aim_type = 1,
+		bullet_ID = {
+			3309021,
+			3309021
+		},
+		barrage_ID = {
+			3309017,
+			3309018
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309025] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 2,
+		base = 1009,
+		id = 3309025,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309022,
+			3309023
+		},
+		barrage_ID = {
+			3309019,
+			3309020
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309026] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 3,
+		base = 1009,
+		id = 3309026,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309022,
+			3309023
+		},
+		barrage_ID = {
+			3309019,
+			3309020
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309027] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3309027,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309022,
+			3309023
+		},
+		barrage_ID = {
+			3309019,
+			3309020
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309028] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 5,
+		base = 1009,
+		id = 3309028,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309022,
+			3309023
+		},
+		barrage_ID = {
+			3309019,
+			3309020
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309029] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 6,
+		base = 1009,
+		id = 3309029,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309022,
+			3309023
+		},
+		barrage_ID = {
+			3309019,
+			3309020
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309030] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 2,
+		base = 1009,
+		id = 3309030,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309025,
+			3309026
+		},
+		barrage_ID = {
+			3309021,
+			3309022
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309031] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 3,
+		base = 1009,
+		id = 3309031,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309025,
+			3309026
+		},
+		barrage_ID = {
+			3309021,
+			3309022
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309032] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3309032,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309025,
+			3309026
+		},
+		barrage_ID = {
+			3309021,
+			3309022
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309033] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 5,
+		base = 1009,
+		id = 3309033,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309025,
+			3309026
+		},
+		barrage_ID = {
+			3309021,
+			3309022
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309034] = {
+		reload_max = 6000,
+		suppress = 0,
+		damage = 6,
+		base = 1009,
+		id = 3309034,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309025,
+			3309026
+		},
+		barrage_ID = {
+			3309021,
+			3309022
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309035] = {
+		type = 19,
+		action_index = "attack",
+		damage = 3,
+		base = 1009,
+		suppress = 1,
+		reload_max = 750,
+		queue = 3,
+		id = 3309035,
+		aim_type = 1,
+		bullet_ID = {
+			3309028
+		},
+		barrage_ID = {
+			3309023
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309036] = {
+		type = 19,
+		action_index = "attack",
+		damage = 4,
+		base = 1009,
+		suppress = 1,
+		reload_max = 750,
+		queue = 3,
+		id = 3309036,
+		aim_type = 1,
+		bullet_ID = {
+			3309028
+		},
+		barrage_ID = {
+			3309023
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309037] = {
+		type = 19,
+		action_index = "attack",
+		damage = 5,
+		base = 1009,
+		suppress = 1,
+		reload_max = 750,
+		queue = 3,
+		id = 3309037,
+		aim_type = 1,
+		bullet_ID = {
+			3309028
+		},
+		barrage_ID = {
+			3309023
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309038] = {
+		type = 19,
+		action_index = "attack",
+		damage = 6,
+		base = 1009,
+		suppress = 1,
+		reload_max = 750,
+		queue = 3,
+		id = 3309038,
+		aim_type = 1,
+		bullet_ID = {
+			3309028
+		},
+		barrage_ID = {
+			3309023
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309039] = {
+		type = 19,
+		action_index = "attack",
+		damage = 7,
+		base = 1009,
+		suppress = 1,
+		reload_max = 750,
+		queue = 3,
+		id = 3309039,
+		aim_type = 1,
+		bullet_ID = {
+			3309028
+		},
+		barrage_ID = {
+			3309023
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309040] = {
+		reload_max = 600,
+		suppress = 0,
+		damage = 3,
+		base = 1009,
+		id = 3309040,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309029,
+			3309029
+		},
+		barrage_ID = {
+			3309024,
+			3309025
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309041] = {
+		reload_max = 600,
+		suppress = 0,
+		damage = 4,
+		base = 1009,
+		id = 3309041,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309029,
+			3309029
+		},
+		barrage_ID = {
+			3309024,
+			3309025
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309042] = {
+		reload_max = 600,
+		suppress = 0,
+		damage = 5,
+		base = 1009,
+		id = 3309042,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309029,
+			3309029
+		},
+		barrage_ID = {
+			3309024,
+			3309025
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309043] = {
+		reload_max = 600,
+		suppress = 0,
+		damage = 6,
+		base = 1009,
+		id = 3309043,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309029,
+			3309029
+		},
+		barrage_ID = {
+			3309024,
+			3309025
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309044] = {
+		reload_max = 600,
+		suppress = 0,
+		damage = 7,
+		base = 1009,
+		id = 3309044,
+		queue = 1,
+		action_index = "attack",
+		aim_type = 0,
+		bullet_ID = {
+			3309029,
+			3309029
+		},
+		barrage_ID = {
+			3309024,
+			3309025
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309045] = {
+		reload_max = 750,
+		suppress = 0,
+		damage = 1,
+		base = 1003,
+		id = 3309045,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032
+		},
+		barrage_ID = {
+			3309026,
+			3309027,
+			3309028,
+			3309029,
+			3309030,
+			3309031
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309046] = {
+		reload_max = 750,
+		suppress = 0,
+		damage = 2,
+		base = 1003,
+		id = 3309046,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032
+		},
+		barrage_ID = {
+			3309026,
+			3309027,
+			3309028,
+			3309029,
+			3309030,
+			3309031
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309047] = {
+		reload_max = 750,
+		suppress = 0,
+		damage = 3,
+		base = 1003,
+		id = 3309047,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032
+		},
+		barrage_ID = {
+			3309026,
+			3309027,
+			3309028,
+			3309029,
+			3309030,
+			3309031
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309048] = {
+		reload_max = 750,
+		suppress = 0,
+		damage = 4,
+		base = 1003,
+		id = 3309048,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032
+		},
+		barrage_ID = {
+			3309026,
+			3309027,
+			3309028,
+			3309029,
+			3309030,
+			3309031
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309049] = {
+		reload_max = 750,
+		suppress = 0,
+		damage = 5,
+		base = 1003,
+		id = 3309049,
+		queue = 2,
+		action_index = "",
+		aim_type = 0,
+		bullet_ID = {
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032,
+			3309032
+		},
+		barrage_ID = {
+			3309026,
+			3309027,
+			3309028,
+			3309029,
+			3309030,
+			3309031
+		},
+		precast_param = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309050] = {
+		type = 19,
+		range = 120,
+		damage = 3,
+		base = 1009,
+		action_index = "attack",
+		suppress = 1,
+		reload_max = 450,
+		queue = 3,
+		id = 3309050,
+		aim_type = 1,
+		bullet_ID = {
+			3309033,
+			3309034
+		},
+		barrage_ID = {
+			3309032,
+			3309033
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309051] = {
+		type = 19,
+		range = 120,
+		damage = 4,
+		base = 1009,
+		action_index = "attack",
+		suppress = 1,
+		reload_max = 450,
+		queue = 3,
+		id = 3309051,
+		aim_type = 1,
+		bullet_ID = {
+			3309033,
+			3309034
+		},
+		barrage_ID = {
+			3309032,
+			3309033
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309052] = {
+		type = 19,
+		range = 120,
+		damage = 5,
+		base = 1009,
+		action_index = "attack",
+		suppress = 1,
+		reload_max = 450,
+		queue = 3,
+		id = 3309052,
+		aim_type = 1,
+		bullet_ID = {
+			3309033,
+			3309034
+		},
+		barrage_ID = {
+			3309032,
+			3309033
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309053] = {
+		type = 19,
+		range = 120,
+		damage = 6,
+		base = 1009,
+		action_index = "attack",
+		suppress = 1,
+		reload_max = 450,
+		queue = 3,
+		id = 3309053,
+		aim_type = 1,
+		bullet_ID = {
+			3309033,
+			3309034
+		},
+		barrage_ID = {
+			3309032,
+			3309033
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309054] = {
+		type = 19,
+		range = 120,
+		damage = 7,
+		base = 1009,
+		action_index = "attack",
+		suppress = 1,
+		reload_max = 450,
+		queue = 3,
+		id = 3309054,
+		aim_type = 1,
+		bullet_ID = {
+			3309033,
+			3309034
+		},
+		barrage_ID = {
+			3309032,
+			3309033
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309055] = {
+		type = 19,
+		range = 150,
+		damage = 4,
+		base = 1009,
+		min_range = 85,
+		initial_over_heat = 1,
+		suppress = 1,
+		action_index = "",
+		reload_max = 900,
+		queue = 3,
+		id = 3309055,
+		aim_type = 1,
+		bullet_ID = {
+			3309035,
+			3309036,
+			3309037,
+			3309038,
+			3309039,
+			3309040
+		},
+		barrage_ID = {
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309056] = {
+		type = 19,
+		range = 150,
+		damage = 5,
+		base = 1009,
+		min_range = 85,
+		initial_over_heat = 1,
+		suppress = 1,
+		action_index = "",
+		reload_max = 900,
+		queue = 3,
+		id = 3309056,
+		aim_type = 1,
+		bullet_ID = {
+			3309035,
+			3309036,
+			3309037,
+			3309038,
+			3309039,
+			3309040
+		},
+		barrage_ID = {
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309057] = {
+		type = 19,
+		range = 150,
+		damage = 6,
+		base = 1009,
+		min_range = 85,
+		initial_over_heat = 1,
+		suppress = 1,
+		action_index = "",
+		reload_max = 900,
+		queue = 3,
+		id = 3309057,
+		aim_type = 1,
+		bullet_ID = {
+			3309035,
+			3309036,
+			3309037,
+			3309038,
+			3309039,
+			3309040
+		},
+		barrage_ID = {
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309058] = {
+		type = 19,
+		range = 150,
+		damage = 7,
+		base = 1009,
+		min_range = 85,
+		initial_over_heat = 1,
+		suppress = 1,
+		action_index = "",
+		reload_max = 900,
+		queue = 3,
+		id = 3309058,
+		aim_type = 1,
+		bullet_ID = {
+			3309035,
+			3309036,
+			3309037,
+			3309038,
+			3309039,
+			3309040
+		},
+		barrage_ID = {
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.weapon_property[3309059] = {
+		type = 19,
+		range = 150,
+		damage = 8,
+		base = 1009,
+		min_range = 85,
+		initial_over_heat = 1,
+		suppress = 1,
+		action_index = "",
+		reload_max = 900,
+		queue = 3,
+		id = 3309059,
+		aim_type = 1,
+		bullet_ID = {
+			3309035,
+			3309036,
+			3309037,
+			3309038,
+			3309039,
+			3309040
+		},
+		barrage_ID = {
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034,
+			3309034
+		},
+		precast_param = {
+			fx = "none",
+			alertTime = 1,
+			time = 0.01
+		}
 	}
 end)()
 

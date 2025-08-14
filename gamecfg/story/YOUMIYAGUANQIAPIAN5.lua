@@ -196,12 +196,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 900519,
 			say = "单纯穿过高浓度玛那领域可不会发生这种事……",
 			typewriter = {
 				speed = 0.05,

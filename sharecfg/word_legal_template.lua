@@ -866,7 +866,12 @@ function temp()
 		塞 = {
 			克 = {
 				斯 = {
-					this = true
+					this = true,
+					["."] = {
+						改 = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -963,6 +968,13 @@ function temp()
 			},
 			莎 = {
 				this = true
+			}
+		},
+		劳 = {
+			森 = {
+				林 = {
+					this = true
+				}
 			}
 		},
 		亚 = {
@@ -1290,6 +1302,11 @@ function temp()
 						}
 					}
 				}
+			}
+		},
+		塞 = {
+			纳 = {
+				this = true
 			}
 		},
 		赛 = {
@@ -3165,6 +3182,9 @@ function temp()
 			犬 = {
 				this = true
 			}
+		},
+		胆 = {
+			this = true
 		},
 		神 = {
 			澪 = {
@@ -7728,6 +7748,55 @@ end
 temp()
 
 function temp()
+	var_0_1.迪 = {
+		盖 = {
+			· = {
+				特 = {
+					鲁 = {
+						因 = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		凯 = {
+			纳 = {
+				this = true
+			}
+		},
+		普 = {
+			莱 = {
+				克 = {
+					斯 = {
+						this = true
+					}
+				}
+			}
+		},
+		米 = {
+			特 = {
+				里 = {
+					· = {
+						顿 = {
+							斯 = {
+								科 = {
+									伊 = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.絮 = {
 		弗 = {
 			伦 = {
@@ -7815,39 +7884,6 @@ function temp()
 	var_0_1.果 = {
 		敢 = {
 			this = true
-		}
-	}
-end
-
-temp()
-
-function temp()
-	var_0_1.迪 = {
-		普 = {
-			莱 = {
-				克 = {
-					斯 = {
-						this = true
-					}
-				}
-			}
-		},
-		米 = {
-			特 = {
-				里 = {
-					· = {
-						顿 = {
-							斯 = {
-								科 = {
-									伊 = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
 		}
 	}
 end

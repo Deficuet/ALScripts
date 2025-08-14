@@ -96,7 +96,7 @@ function var_0_0.addListener(arg_8_0)
 		arg_8_0:exit()
 	end, SFX_CANCEL)
 	onButton(arg_8_0, arg_8_0.shopBtn, function()
-		if getProxy(ContextProxy):getContextByMediator(ChargeMediator) then
+		if getProxy(ContextProxy):getContextByMediator(NewShopMainMediator) then
 			arg_8_0:exit()
 		else
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {

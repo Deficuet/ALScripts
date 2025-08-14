@@ -79,7 +79,7 @@ function var_0_0.setActivities(arg_13_0, arg_13_1)
 
 	table.sort(arg_13_0.activities, CompareFuncs({
 		function(arg_14_0)
-			return -arg_14_0:getShowPriority()
+			return arg_14_0:getShowPriority()
 		end,
 		function(arg_15_0)
 			return -arg_15_0.id
@@ -146,17 +146,14 @@ function var_0_0.selectActivity(arg_21_0, arg_21_1)
 end
 
 function var_0_0.verifyTabs(arg_22_0, arg_22_1)
-	local var_22_0 = underscore.detect(arg_22_0.activities, function(arg_23_0)
-		return arg_23_0.id == arg_22_1
-	end)
-	local var_22_1 = var_22_0 and var_22_0:getConfig("is_show") or 1
-	local var_22_2 = arg_22_0.tabs:Find(tostring(var_22_1))
+	local var_22_0 = arg_22_0.activities[arg_22_0:getActivityIndex(arg_22_1) or 1]:getConfig("is_show")
+	local var_22_1 = arg_22_0.tabs:Find(tostring(var_22_0))
 
-	triggerToggle(var_22_2, true)
+	triggerToggle(var_22_1, true)
 end
 
-function var_0_0.getActClass(arg_24_0, arg_24_1)
-	return _G[arg_24_1]
+function var_0_0.getActClass(arg_23_0, arg_23_1)
+	return _G[arg_23_1]
 end
 
 return var_0_0

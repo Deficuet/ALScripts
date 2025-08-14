@@ -40,7 +40,7 @@ function var_0_0.initUI(arg_4_0)
 end
 
 function var_0_0.initGift(arg_6_0, arg_6_1)
-	local var_6_0 = ChargeCard.New(arg_6_1)
+	local var_6_0 = OldChargeCard.New(arg_6_1)
 
 	onButton(arg_6_0, var_6_0.tr, function()
 		arg_6_0:confirm(var_6_0.goods)

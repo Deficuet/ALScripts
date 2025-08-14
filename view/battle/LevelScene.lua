@@ -43,9 +43,19 @@ function var_0_0.getBGM(arg_4_0)
 				for iter_6_2, iter_6_3 in ipairs(var_6_1) do
 					if string.find(iter_6_3, "^bgm_") and iter_6_1[1] == var_0_3 then
 						local var_6_2 = iter_6_1[2][1]
-						local var_6_3 = getProxy(ChapterProxy):GetChapterItemById(var_6_2)
+						local var_6_3 = false
 
-						if var_6_3 and not var_6_3:isClear() then
+						for iter_6_4, iter_6_5 in ipairs(var_6_2) do
+							local var_6_4 = chapterProxy:GetChapterItemById(iter_6_5)
+
+							if var_6_4 and var_6_4:isClear() then
+								var_6_3 = true
+
+								break
+							end
+						end
+
+						if not var_6_3 then
 							return string.sub(iter_6_3, 5)
 						end
 					end
@@ -818,6 +828,12 @@ function var_0_0.onBackPressed(arg_62_0)
 		return
 	end
 
+	if arg_62_0.contextData.map and arg_62_0.contextData.map:getConfig("ui_type") == MapBuilder.TYPEEXSP and arg_62_0.mapBuilder.personalPage:IsActive() then
+		arg_62_0.mapBuilder.personalPage:Hide()
+
+		return
+	end
+
 	if isActive(arg_62_0.helpPage) then
 		setActive(arg_62_0.helpPage, false)
 
@@ -1088,53 +1104,55 @@ function var_0_0.updateCouldAnimator(arg_76_0, arg_76_1, arg_76_2)
 		arg_77_0.localScale = var_77_0
 
 		if var_76_0 and #var_76_0 > 0 then
-			(function()
+			local var_77_1 = getProxy(ChapterProxy)
+
+			;(function()
 				for iter_78_0, iter_78_1 in ipairs(var_76_0) do
-					if iter_78_1[1] == var_0_2 then
-						local var_78_0 = iter_78_1[2][1]
-						local var_78_1 = _.rest(iter_78_1[2], 2)
+					if type(iter_78_1[2][1]) == "table" then
+						local var_78_0 = false
+						local var_78_1 = iter_78_1[2][1]
 
 						for iter_78_2, iter_78_3 in ipairs(var_78_1) do
-							local var_78_2 = arg_77_0:Find(iter_78_3)
+							local var_78_2 = var_77_1:GetChapterItemById(iter_78_3)
 
-							if not IsNil(var_78_2) then
-								local var_78_3 = getProxy(ChapterProxy):GetChapterItemById(var_78_0)
+							if var_78_2 and var_78_2:isClear() then
+								local var_78_3 = true
 
-								if var_78_3 and not var_78_3:isClear() then
-									setActive(var_78_2, false)
-								end
+								break
+							end
+						end
+					end
+
+					if iter_78_1[1] == var_0_2 then
+						local var_78_4 = _.rest(iter_78_1[2], 2)
+
+						for iter_78_4, iter_78_5 in ipairs(var_78_4) do
+							local var_78_5 = arg_77_0:Find(iter_78_5)
+
+							if not IsNil(var_78_5) and not anyClear then
+								setActive(var_78_5, false)
 							end
 						end
 					elseif iter_78_1[1] == var_0_3 then
-						local var_78_4 = iter_78_1[2][1]
-						local var_78_5 = _.rest(iter_78_1[2], 2)
+						local var_78_6 = _.rest(iter_78_1[2], 2)
 
-						for iter_78_4, iter_78_5 in ipairs(var_78_5) do
-							local var_78_6 = arg_77_0:Find(iter_78_5)
+						for iter_78_6, iter_78_7 in ipairs(var_78_6) do
+							local var_78_7 = arg_77_0:Find(iter_78_7)
 
-							if not IsNil(var_78_6) then
-								local var_78_7 = getProxy(ChapterProxy):GetChapterItemById(var_78_4)
+							if not IsNil(var_78_7) and not anyClear then
+								setActive(var_78_7, true)
 
-								if var_78_7 and not var_78_7:isClear() then
-									setActive(var_78_6, true)
-
-									return
-								end
+								return
 							end
 						end
 					elseif iter_78_1[1] == var_0_4 then
-						local var_78_8 = iter_78_1[2][1]
-						local var_78_9 = _.rest(iter_78_1[2], 2)
+						local var_78_8 = _.rest(iter_78_1[2], 2)
 
-						for iter_78_6, iter_78_7 in ipairs(var_78_9) do
-							local var_78_10 = arg_77_0:Find(iter_78_7)
+						for iter_78_8, iter_78_9 in ipairs(var_78_8) do
+							local var_78_9 = arg_77_0:Find(iter_78_9)
 
-							if not IsNil(var_78_10) then
-								local var_78_11 = getProxy(ChapterProxy):GetChapterItemById(var_78_8)
-
-								if var_78_11 and not var_78_11:isClear() then
-									setActive(var_78_10, true)
-								end
+							if not IsNil(var_78_9) and not anyClear then
+								setActive(var_78_9, true)
 							end
 						end
 					end
@@ -1674,7 +1692,8 @@ local var_0_6 = {
 	[var_0_5.TYPESPFULL] = "MapBuilderSPFull",
 	[var_0_5.TYPESPSERIES] = "MapBuilderSPSeries",
 	[var_0_5.TYPESPSERIESFULL] = "MapBuilderSPSeriesFull",
-	[var_0_5.TYPEATELIERYUMIA] = "MapBuilderAtelierYumia"
+	[var_0_5.TYPEATELIERYUMIA] = "MapBuilderAtelierYumia",
+	[var_0_5.TYPEEXSP] = "MapBuilderEXSP"
 }
 
 function var_0_0.SwitchMapBuilder(arg_123_0, arg_123_1)
@@ -2588,15 +2607,27 @@ function var_0_0.GetMapElement(arg_208_0, arg_208_1)
 
 	if var_208_1 and #var_208_1 > 0 then
 		(function()
+			local var_209_0 = getProxy(ChapterProxy)
+
 			for iter_209_0, iter_209_1 in ipairs(var_208_1) do
-				local var_209_0 = _.rest(iter_209_1[2], 2)
+				local var_209_1 = _.rest(iter_209_1[2], 2)
 
-				for iter_209_2, iter_209_3 in ipairs(var_209_0) do
+				for iter_209_2, iter_209_3 in ipairs(var_209_1) do
 					if string.find(iter_209_3, "^map_") and iter_209_1[1] == var_0_3 then
-						local var_209_1 = iter_209_1[2][1]
-						local var_209_2 = getProxy(ChapterProxy):GetChapterItemById(var_209_1)
+						local var_209_2 = iter_209_1[2][1]
+						local var_209_3 = false
 
-						if var_209_2 and not var_209_2:isClear() then
+						for iter_209_4, iter_209_5 in ipairs(var_209_2) do
+							local var_209_4 = var_209_0:GetChapterItemById(iter_209_5)
+
+							if var_209_4 and var_209_4:isClear() then
+								var_209_3 = true
+
+								break
+							end
+						end
+
+						if not var_209_3 then
 							var_208_0 = iter_209_3
 
 							return
@@ -2624,15 +2655,27 @@ function var_0_0.GetMapAnimator(arg_210_0, arg_210_1)
 
 		if var_210_1 and #var_210_1 > 0 then
 			(function()
+				local var_211_0 = getProxy(ChapterProxy)
+
 				for iter_211_0, iter_211_1 in ipairs(var_210_1) do
-					local var_211_0 = _.rest(iter_211_1[2], 2)
+					local var_211_1 = _.rest(iter_211_1[2], 2)
 
-					for iter_211_2, iter_211_3 in ipairs(var_211_0) do
+					for iter_211_2, iter_211_3 in ipairs(var_211_1) do
 						if string.find(iter_211_3, "^effect_") and iter_211_1[1] == var_0_3 then
-							local var_211_1 = iter_211_1[2][1]
-							local var_211_2 = getProxy(ChapterProxy):GetChapterItemById(var_211_1)
+							local var_211_2 = iter_211_1[2][1]
+							local var_211_3 = false
 
-							if var_211_2 and not var_211_2:isClear() then
+							for iter_211_4, iter_211_5 in ipairs(var_211_2) do
+								local var_211_4 = var_211_0:GetChapterItemById(iter_211_5)
+
+								if var_211_4 and var_211_4:isClear() then
+									var_211_3 = true
+
+									break
+								end
+							end
+
+							if not var_211_3 then
 								var_210_0 = "map_" .. string.sub(iter_211_3, 8)
 
 								return

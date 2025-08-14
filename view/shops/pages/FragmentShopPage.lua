@@ -1,140 +1,143 @@
 local var_0_0 = class("FragmentShopPage", import(".ShamShopPage"))
 
-function var_0_0.getUIName(arg_1_0)
-	return "FragmentShop"
-end
-
-function var_0_0.GetPaintingCommodityUpdateVoice(arg_2_0)
+function var_0_0.GetPaintingCommodityUpdateVoice(arg_1_0)
 	return
 end
 
-function var_0_0.CanOpen(arg_3_0, arg_3_1, arg_3_2)
-	return pg.SystemOpenMgr.GetInstance():isOpenSystem(arg_3_2.level, "FragmentShop")
+function var_0_0.CanOpen(arg_2_0, arg_2_1, arg_2_2)
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(arg_2_2.level, "FragmentShop")
 end
 
-function var_0_0.OnLoaded(arg_4_0)
-	arg_4_0.dayTxt = arg_4_0:findTF("time/day"):GetComponent(typeof(Text))
-	arg_4_0.fragment = arg_4_0:findTF("res_fragment/count"):GetComponent(typeof(Text))
-	arg_4_0.resolveBtn = arg_4_0:findTF("res_fragment/resolve")
-	arg_4_0.urRes = arg_4_0:findTF("res_ur/count"):GetComponent(typeof(Text))
+function var_0_0.init(arg_3_0)
+	var_0_0.super.init(arg_3_0)
 end
 
-function var_0_0.OnInit(arg_5_0)
-	var_0_0.super.OnInit(arg_5_0)
-	onButton(arg_5_0, arg_5_0.resolveBtn, function()
-		if not arg_5_0.resolvePanel then
-			arg_5_0.resolvePanel = FragResolvePanel.New(arg_5_0)
+function var_0_0.CustomInit(arg_4_0)
+	onButton(arg_4_0, arg_4_0.resolveBtn, function()
+		if not arg_4_0.resolvePanel then
+			arg_4_0.resolvePanel = FragResolvePanel.New(arg_4_0)
+			arg_4_0.resolvePanel.event = arg_4_0.event
 
-			arg_5_0.resolvePanel:Load()
+			arg_4_0.resolvePanel:Load()
 		end
 
-		arg_5_0.resolvePanel.buffer:Reset()
-		arg_5_0.resolvePanel.buffer:Trigger("control")
-	end, SFX_PANEL)
-	onButton(arg_5_0, arg_5_0:findTF("res_fragment"), function()
-		arg_5_0:emit(BaseUI.ON_ITEM, id2ItemId(PlayerConst.ResBlueprintFragment))
-	end, SFX_PANEL)
-	onButton(arg_5_0, arg_5_0:findTF("res_ur"), function()
-		local var_8_0 = pg.gameset.urpt_chapter_max.description[1]
-
-		arg_5_0:emit(BaseUI.ON_ITEM, var_8_0)
+		arg_4_0.resolvePanel.buffer:Reset()
+		arg_4_0.resolvePanel.buffer:Trigger("control")
 	end, SFX_PANEL)
 	getProxy(CommanderManualProxy):TaskProgressAdd(2023, 1)
 end
 
-function var_0_0.OnUpdatePlayer(arg_9_0)
-	local var_9_0 = arg_9_0.player
-	local var_9_1 = arg_9_0.player:getResource(PlayerConst.ResBlueprintFragment)
-
-	arg_9_0.fragment.text = var_9_1
+function var_0_0.OnUpdatePlayer(arg_6_0)
+	arg_6_0:RefreshResItemList()
 end
 
-function var_0_0.OnFragmentSellUpdate(arg_10_0)
-	if arg_10_0.resolvePanel then
-		arg_10_0.resolvePanel.buffer:Reset()
-		arg_10_0.resolvePanel.buffer:Trigger("control")
+function var_0_0.OnFragmentSellUpdate(arg_7_0)
+	if arg_7_0.resolvePanel then
+		arg_7_0.resolvePanel.buffer:Reset()
+		arg_7_0.resolvePanel.buffer:Trigger("control")
 	end
 end
 
-function var_0_0.OnUpdateItems(arg_11_0)
-	if not LOCK_UR_SHIP then
-		local var_11_0 = pg.gameset.urpt_chapter_max.description[1]
-		local var_11_1 = arg_11_0.items[var_11_0] or {
+function var_0_0.OnUpdateItems(arg_8_0)
+	arg_8_0:RefreshResItemList()
+end
+
+function var_0_0.GetResDataList(arg_9_0)
+	local var_9_0 = {
+		{
+			type = DROP_TYPE_RESOURCE,
+			resID = PlayerConst.ResBlueprintFragment,
+			cnt = arg_9_0.player:getResource(PlayerConst.ResBlueprintFragment)
+		}
+	}
+
+	if not LOCK_UR_SHIP and arg_9_0.items then
+		local var_9_1 = pg.gameset.urpt_chapter_max.description[1]
+		local var_9_2 = arg_9_0.items[var_9_1] or {
 			count = 0
 		}
 
-		arg_11_0.urRes.text = var_11_1.count
-	else
-		setActive(arg_11_0:findTF("res_ur"), false)
-		setAnchoredPosition(arg_11_0:findTF("res_fragment"), {
-			x = 938.5
+		table.insert(var_9_0, {
+			type = DROP_TYPE_ITEM,
+			resID = var_9_1,
+			cnt = var_9_2.count
 		})
 	end
+
+	return var_9_0
 end
 
-function var_0_0.OnUpdateCommodity(arg_12_0, arg_12_1)
-	local var_12_0
+function var_0_0.OnUpdateCommodity(arg_10_0, arg_10_1)
+	local var_10_0
 
-	for iter_12_0, iter_12_1 in pairs(arg_12_0.cards) do
-		if iter_12_1.goodsVO.id == arg_12_1.id then
-			var_12_0 = iter_12_1
+	for iter_10_0, iter_10_1 in pairs(arg_10_0.cards) do
+		if iter_10_1.goodsVO.id == arg_10_1.id then
+			var_10_0 = iter_10_1
 
 			break
 		end
 	end
 
-	if var_12_0 then
-		var_12_0.goodsVO = arg_12_1
+	if var_10_0 then
+		var_10_0.goodsVO = arg_10_1
 
-		ActivityGoodsCard.StaticUpdate(var_12_0.tr, arg_12_1, var_0_0.TYPE_FRAGMENT)
+		ActivityGoodsCard.StaticUpdate(var_10_0.tf, arg_10_1, var_0_0.TYPE_FRAGMENT)
 	end
 end
 
-function var_0_0.OnInitItem(arg_13_0, arg_13_1)
-	local var_13_0 = ActivityGoodsCard.New(arg_13_1)
+function var_0_0.RefreshUI(arg_11_0)
+	arg_11_0:UpdateTip()
+	setActive(arg_11_0.tipTextGo, true)
+	setActive(arg_11_0.helpBtn, false)
+	setActive(arg_11_0.resolveBtn, true)
+	setActive(arg_11_0.refreshBtn, false)
+end
 
-	onButton(arg_13_0, var_13_0.tr, function()
-		if not var_13_0.goodsVO:canPurchase() then
+function var_0_0.OnInitItem(arg_12_0, arg_12_1)
+	local var_12_0 = ActivityGoodsCard.New(arg_12_1)
+
+	onButton(arg_12_0, var_12_0.tf, function()
+		if not var_12_0.goodsVO:canPurchase() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
 			return
 		end
 
-		arg_13_0:OnClickCommodity(var_13_0.goodsVO, function(arg_15_0, arg_15_1)
-			arg_13_0:OnPurchase(arg_15_0, arg_15_1)
+		arg_12_0:OnClickCommodity(var_12_0.goodsVO, function(arg_14_0, arg_14_1)
+			arg_12_0:OnPurchase(arg_14_0, arg_14_1)
 		end)
 	end, SFX_PANEL)
 
-	arg_13_0.cards[arg_13_1] = var_13_0
+	arg_12_0.cards[arg_12_1] = var_12_0
 end
 
-function var_0_0.OnUpdateItem(arg_16_0, arg_16_1, arg_16_2)
-	local var_16_0 = arg_16_0.cards[arg_16_2]
+function var_0_0.OnUpdateItem(arg_15_0, arg_15_1, arg_15_2)
+	local var_15_0 = arg_15_0.cards[arg_15_2]
 
-	if not var_16_0 then
-		arg_16_0:OnInitItem(arg_16_2)
+	if not var_15_0 then
+		arg_15_0:OnInitItem(arg_15_2)
 
-		var_16_0 = arg_16_0.cards[arg_16_2]
+		var_15_0 = arg_15_0.cards[arg_15_2]
 	end
 
-	local var_16_1 = arg_16_0.displays[arg_16_1 + 1]
+	local var_15_1 = arg_15_0.displays[arg_15_1 + 1]
 
-	var_16_0.goodsVO = var_16_1
+	var_15_0.goodsVO = var_15_1
 
-	ActivityGoodsCard.StaticUpdate(var_16_0.tr, var_16_1, var_0_0.TYPE_FRAGMENT)
+	ActivityGoodsCard.StaticUpdate(var_15_0.tf, var_15_1, var_0_0.TYPE_FRAGMENT)
 end
 
-function var_0_0.OnPurchase(arg_17_0, arg_17_1, arg_17_2)
-	arg_17_0:emit(NewShopsMediator.ON_FRAGMENT_SHOPPING, arg_17_1.id, arg_17_2)
+function var_0_0.OnPurchase(arg_16_0, arg_16_1, arg_16_2)
+	arg_16_0:emit(NewShopMainMediator.ON_FRAGMENT_SHOPPING, arg_16_1.id, arg_16_2)
 end
 
-function var_0_0.OnDestroy(arg_18_0)
-	var_0_0.super.OnDestroy(arg_18_0)
+function var_0_0.OnDestroy(arg_17_0)
+	var_0_0.super.OnDestroy(arg_17_0)
 
-	if arg_18_0.resolvePanel then
-		arg_18_0.resolvePanel:Destroy()
+	if arg_17_0.resolvePanel then
+		arg_17_0.resolvePanel:Destroy()
 
-		arg_18_0.resolvePanel = nil
+		arg_17_0.resolvePanel = nil
 	end
 end
 

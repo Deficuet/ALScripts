@@ -27,4 +27,10 @@ function var_0_0.update(arg_1_0, arg_1_1, arg_1_2)
 	end
 end
 
+function var_0_0.GetResList(arg_2_0)
+	return {
+		59900
+	}
+end
+
 return var_0_0

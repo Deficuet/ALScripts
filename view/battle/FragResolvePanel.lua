@@ -61,7 +61,7 @@ function var_0_0.OnInit(arg_2_0)
 	onToggle(arg_2_0, arg_2_0.keepFateTog, function(arg_5_0)
 		var_0_0.keepFateState = arg_5_0
 
-		arg_2_0:emit(NewShopsMediator.SET_PLAYER_FLAG, SHOW_DONT_KEEP_FATE_ITEM, not arg_5_0)
+		arg_2_0:emit(NewShopMainMediator.SET_PLAYER_FLAG, SHOW_DONT_KEEP_FATE_ITEM, not arg_5_0)
 		arg_2_0:Trigger("control")
 	end)
 	arg_2_0:Trigger("control")
@@ -267,7 +267,7 @@ function var_0_0.Resetresolve(arg_19_0)
 		arg_19_0:Back()
 	end)
 	onButton(arg_19_0, var_19_0:Find("destroy_button"), function()
-		arg_19_0:emit(NewShopsMediator.SELL_BLUEPRINT, arg_19_0.resolveItems)
+		arg_19_0:emit(NewShopMainMediator.SELL_BLUEPRINT, arg_19_0.resolveItems)
 	end)
 end
 

@@ -107,7 +107,7 @@ function var_0_0.didEnter(arg_8_0)
 	end, SFX_PANEL)
 	onButton(arg_8_0, arg_8_0:findTF("gem", arg_8_0.resPanel), function()
 		local function var_11_0()
-			if not pg.m02:hasMediator(ChargeMediator.__cname) then
+			if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 					wrap = ChargeScene.TYPE_DIAMOND
 				})

@@ -1,107 +1,130 @@
 local var_0_0 = class("GuildShopPage", import(".MilitaryShopPage"))
 
-function var_0_0.getUIName(arg_1_0)
-	return "GuildShop"
-end
-
-function var_0_0.CanOpen(arg_2_0)
+function var_0_0.CanOpen(arg_1_0)
 	return true
 end
 
-function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0.refreshBtn, function()
-		local var_4_0 = arg_3_0.shop:GetResetConsume()
+function var_0_0.CustomInit(arg_2_0)
+	arg_2_0.purchaseWindow = GuildShopPurchasePanel.New(arg_2_0._tf, arg_2_0.parent.event)
+end
+
+function var_0_0.UpdateShop(arg_3_0, ...)
+	var_0_0.super.UpdateShop(arg_3_0, ...)
+
+	if arg_3_0.purchaseWindow:isShowing() then
+		arg_3_0.purchaseWindow:ExecuteAction("Hide")
+	end
+end
+
+function var_0_0.OnUpdatePlayer(arg_4_0)
+	arg_4_0:RefreshResItemList()
+end
+
+function var_0_0.GetResDataList(arg_5_0)
+	local var_5_0 = {}
+	local var_5_1 = arg_5_0.shop:GetResList()
+
+	for iter_5_0, iter_5_1 in ipairs(var_5_1) do
+		local var_5_2 = arg_5_0.player:getResource(PlayerConst.ResGuildCoin)
+
+		table.insert(var_5_0, {
+			type = DROP_TYPE_RESOURCE,
+			resID = iter_5_1,
+			cnt = var_5_2
+		})
+	end
+
+	return var_5_0
+end
+
+function var_0_0.OnSetUp(arg_6_0)
+	var_0_0.super.OnSetUp(arg_6_0)
+	arg_6_0:UpdateRefreshBtn()
+end
+
+function var_0_0.UpdateRefreshBtn(arg_7_0)
+	setButtonEnabled(arg_7_0.refreshBtn, arg_7_0.shop:CanRefresh())
+end
+
+function var_0_0.RefreshUI(arg_8_0)
+	setActive(arg_8_0.tipTextGo, false)
+	setActive(arg_8_0.helpBtn, false)
+	setActive(arg_8_0.resolveBtn, false)
+	setActive(arg_8_0.refreshBtn, true)
+	onButton(arg_8_0, arg_8_0.refreshBtn, function()
+		local var_9_0 = arg_8_0.shop:GetResetConsume()
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("guild_shop_refresh_all_tip", var_4_0, i18n("word_guildgold")),
+			content = i18n("guild_shop_refresh_all_tip", var_9_0, i18n("word_guildgold")),
 			onYes = function()
-				if arg_3_0.player:getResource(PlayerConst.ResGuildCoin) < var_4_0 then
+				if arg_8_0.player:getResource(PlayerConst.ResGuildCoin) < var_9_0 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 					return
 				else
-					arg_3_0:emit(NewShopsMediator.REFRESH_GUILD_SHOP, true)
+					arg_8_0:emit(NewShopMainMediator.REFRESH_GUILD_SHOP, true)
 				end
 			end
 		})
 	end, SFX_PANEL)
-
-	arg_3_0.purchaseWindow = GuildShopPurchasePanel.New(arg_3_0._tf, arg_3_0.event)
+	setButtonEnabled(arg_8_0.refreshBtn, arg_8_0.shop:CanRefresh())
 end
 
-function var_0_0.UpdateShop(arg_6_0, ...)
-	var_0_0.super.UpdateShop(arg_6_0, ...)
+function var_0_0.OnInitItem(arg_11_0, arg_11_1)
+	local var_11_0 = GuildGoodsCard.New(arg_11_1)
 
-	if arg_6_0.purchaseWindow:isShowing() then
-		arg_6_0.purchaseWindow:ExecuteAction("Hide")
-	end
-end
-
-function var_0_0.OnUpdatePlayer(arg_7_0)
-	local var_7_0 = arg_7_0.player
-
-	arg_7_0.exploitTF.text = var_7_0:getResource(PlayerConst.ResGuildCoin)
-end
-
-function var_0_0.OnSetUp(arg_8_0)
-	var_0_0.super.OnSetUp(arg_8_0)
-	arg_8_0:UpdateRefreshBtn()
-end
-
-function var_0_0.UpdateRefreshBtn(arg_9_0)
-	setButtonEnabled(arg_9_0.refreshBtn, arg_9_0.shop:CanRefresh())
-end
-
-function var_0_0.OnInitItem(arg_10_0, arg_10_1)
-	local var_10_0 = GuildGoodsCard.New(arg_10_1)
-
-	onButton(arg_10_0, var_10_0._go, function()
-		if not var_10_0.goods:CanPurchase() then
+	onButton(arg_11_0, var_11_0.go, function()
+		if not var_11_0.goodsVO:CanPurchase() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
 			return
 		end
 
-		arg_10_0:OnCardClick(var_10_0)
+		arg_11_0:OnCardClick(var_11_0)
 	end, SFX_PANEL)
 
-	arg_10_0.cards[arg_10_1] = var_10_0
+	arg_11_0.cards[arg_11_1] = var_11_0
 end
 
-function var_0_0.OnCardClick(arg_12_0, arg_12_1)
-	if arg_12_1.goods:Selectable() then
-		arg_12_0.purchaseWindow:ExecuteAction("Show", {
-			id = arg_12_1.goods.id,
-			count = arg_12_1.goods:GetMaxCnt(),
-			type = arg_12_1.goods:getConfig("type"),
-			price = arg_12_1.goods:getConfig("price"),
-			displays = arg_12_1.goods:getConfig("goods"),
-			num = arg_12_1.goods:getConfig("num")
+function var_0_0.OnCardClick(arg_13_0, arg_13_1)
+	if arg_13_1.goodsVO:Selectable() then
+		arg_13_0.purchaseWindow:ExecuteAction("Show", {
+			id = arg_13_1.goodsVO.id,
+			count = arg_13_1.goodsVO:GetMaxCnt(),
+			type = arg_13_1.goodsVO:getConfig("type"),
+			price = arg_13_1.goodsVO:getConfig("price"),
+			displays = arg_13_1.goodsVO:getConfig("goods"),
+			num = arg_13_1.goodsVO:getConfig("num")
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			yesText = "text_exchange",
 			content = i18n("guild_shop_exchange_tip"),
 			onYes = function()
-				if not arg_12_1.goods:CanPurchase() then
+				if not arg_13_1.goodsVO:CanPurchase() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
 					return
 				end
 
-				arg_12_0:emit(NewShopsMediator.ON_GUILD_SHOPPING, arg_12_1.goods.id, arg_12_1.goods:GetFirstDropId())
+				arg_13_0:emit(NewShopMainMediator.ON_GUILD_SHOPPING, arg_13_1.goodsVO.id, arg_13_1.goodsVO:GetFirstDropId())
 			end
 		})
 	end
 end
 
-function var_0_0.OnTimeOut(arg_14_0)
-	arg_14_0:emit(NewShopsMediator.REFRESH_GUILD_SHOP, false)
+function var_0_0.OnTimeOut(arg_15_0)
+	arg_15_0:emit(NewShopMainMediator.REFRESH_GUILD_SHOP, false)
 end
 
-function var_0_0.OnDestroy(arg_15_0)
-	var_0_0.super.OnDestroy(arg_15_0)
-	arg_15_0.purchaseWindow:Destroy()
+function var_0_0.OnDestroy(arg_16_0)
+	var_0_0.super.OnDestroy(arg_16_0)
+
+	if arg_16_0.purchaseWindow then
+		arg_16_0.purchaseWindow:Destroy()
+
+		arg_16_0.purchaseWindow = nil
+	end
 end
 
 return var_0_0

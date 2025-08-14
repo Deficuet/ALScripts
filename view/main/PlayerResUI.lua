@@ -179,7 +179,7 @@ function var_0_0.ClickGem(arg_16_0)
 	local var_16_0 = arg_16_0:GetPlayer()
 
 	local function var_16_1()
-		if not pg.m02:hasMediator(ChargeMediator.__cname) then
+		if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
 				wrap = ChargeScene.TYPE_DIAMOND
 			})

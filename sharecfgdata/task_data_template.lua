@@ -134388,7 +134388,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904640,
 		type = 26,
-		desc = "收集8个「星光下的余晖」纪念贴纸。",
+		desc = "收集全套「星光下的余晖」纪念贴纸",
 		count_inherit = 0,
 		sub_type = 131,
 		target_id_2 = "",
@@ -137078,7 +137078,7 @@ end)()
 		guild_coin_award = 0,
 		award = 904753,
 		type = 26,
-		desc = "收集8个「华裳巧展喜事长」纪念贴纸",
+		desc = "收集全套「华裳巧展喜事长」纪念贴纸",
 		count_inherit = 0,
 		sub_type = 131,
 		target_id_2 = "",
@@ -143568,7 +143568,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905112,
 		type = 26,
-		desc = "收集8个「樊笼内的神光」纪念贴纸",
+		desc = "收集全套「樊笼内的神光」纪念贴纸",
 		count_inherit = 0,
 		sub_type = 131,
 		target_id_2 = "",
@@ -153104,7 +153104,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905338,
 		type = 26,
-		desc = "收集8个「深谷来信」纪念贴纸",
+		desc = "收集全套「深谷来信」纪念贴纸",
 		count_inherit = 0,
 		sub_type = 131,
 		target_id_2 = "",
@@ -155503,7 +155503,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905605,
 		type = 26,
-		desc = "收集8个「扬起郁金之旗」纪念贴纸",
+		desc = "收集全套「扬起郁金之旗」纪念贴纸",
 		count_inherit = 0,
 		sub_type = 131,
 		target_id_2 = "",
@@ -155650,7 +155650,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905650,
 		type = 26,
-		desc = "收集8个「高塔上的蔷薇」纪念贴纸",
+		desc = "收集全套「高塔上的蔷薇」纪念贴纸",
 		count_inherit = 0,
 		sub_type = 131,
 		target_id_2 = "",
@@ -156281,7 +156281,7 @@ end)()
 		guild_coin_award = 0,
 		award = 905659,
 		type = 26,
-		desc = "收集7个「夏日重建」纪念贴纸",
+		desc = "收集全套「夏日重建」纪念贴纸",
 		count_inherit = 0,
 		sub_type = 131,
 		target_id_2 = "",
@@ -158754,7 +158754,7 @@ end)()
 		guild_coin_award = 0,
 		award = 906483,
 		type = 26,
-		desc = "收集8个「迷彩都市的寻踪者」纪念贴纸",
+		desc = "收集全套「迷彩都市的寻踪者」纪念贴纸",
 		count_inherit = 0,
 		sub_type = 131,
 		target_id_2 = "",
@@ -159976,6 +159976,899 @@ end)()
 		},
 		scene = {
 			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21802] = {
+		name = "『马塞纳美服周年庆版本』纪念任务1",
+		guild_coin_award = 0,
+		award = 906855,
+		type = 26,
+		desc = "收集全套「奇渊下的秘密」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50087",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21802,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				314,
+				1
+			},
+			{
+				8,
+				65665,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21803] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 906856,
+		type = 26,
+		desc = "收集7个「奇渊下的秘密」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50087",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21803,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65666,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21804] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 906857,
+		type = 26,
+		desc = "完成「奇渊下的秘密」剧情模式",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21804,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7044
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65667,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21805] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 906858,
+		type = 26,
+		desc = "在活动关卡中累计击沉敌人300次",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21805,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16760001,
+			16760002,
+			16760003,
+			16760004,
+			16760005,
+			16760006,
+			16760201,
+			16760202,
+			16760203,
+			16760204,
+			16760205,
+			16760206,
+			16760207,
+			16760208,
+			16760209,
+			16760301,
+			16760302,
+			16760303,
+			16760304,
+			16761001,
+			16761002,
+			16761003,
+			16761004,
+			16761005,
+			16761006,
+			16761201,
+			16761202,
+			16761203,
+			16761204,
+			16761205,
+			16761301,
+			16761302,
+			16761303,
+			16762001,
+			16762002,
+			16762003,
+			16762004,
+			16762005,
+			16762006,
+			16762201,
+			16762202,
+			16762203,
+			16762204,
+			16762205,
+			16762206,
+			16762207,
+			16762208,
+			16762209,
+			16762301,
+			16762302,
+			16762303,
+			16762304,
+			16763001,
+			16763002,
+			16763003,
+			16763004,
+			16763005,
+			16763006,
+			16763201,
+			16763202,
+			16763203,
+			16763204,
+			16763205,
+			16763301,
+			16763302,
+			16763303,
+			16764001,
+			16764002,
+			16764003,
+			16764004,
+			16764005,
+			16764006,
+			16764201,
+			16764301,
+			16764302,
+			16765001,
+			16765002
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65668,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21806] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 906859,
+		type = 26,
+		desc = "通关T3/HT3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21806,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950003,
+			1950023
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65669,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21807] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 906860,
+		type = 26,
+		desc = "通关T6/HT6",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21807,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950006,
+			1950026
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65670,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21808] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 906861,
+		type = 26,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1950041",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21808,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65671,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21809] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 906862,
+		type = 26,
+		desc = "通关50次「奇渊下的秘密」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21809,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950002,
+			1950003,
+			1950004,
+			1950005,
+			1950006,
+			1950021,
+			1950022,
+			1950023,
+			1950024,
+			1950025,
+			1950026,
+			1950041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65672,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21810] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 906863,
+		type = 26,
+		desc = "累计获取10000个「恩泽城金币」",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50085",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "534",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21810,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65673,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21811] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动1",
+		guild_coin_award = 0,
+		award = 906914,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21811,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21812] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动2",
+		guild_coin_award = 0,
+		award = 906915,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21812,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21813] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动3",
+		guild_coin_award = 0,
+		award = 906916,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21813,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21814] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动4",
+		guild_coin_award = 0,
+		award = 906917,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21814,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21815] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动5",
+		guild_coin_award = 0,
+		award = 906918,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21815,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21816] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动6",
+		guild_coin_award = 0,
+		award = 906919,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21816,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21817] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动7",
+		guild_coin_award = 0,
+		award = 906920,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21817,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21818] = {
+		name = "『马塞纳美服周年庆版本』剧情模式通关",
+		guild_coin_award = 0,
+		award = 906943,
+		type = 6,
+		desc = "完成「剧情模式」 ",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21818,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7044
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				313,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1950001,
+				displayMode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21819] = {
+		name = "『马塞纳美服周年庆版本』随机ROLL一次角色卡",
+		guild_coin_award = 0,
+		award = 906951,
+		type = 6,
+		desc = "完成剧情模式后，在「冒险角色卡」 中随机生成一次角色卡",
+		count_inherit = 0,
+		sub_type = 2025,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21819,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1950001,
+				displayMode = 2
+			}
 		}
 	}
 end)()
@@ -187325,6 +188218,1173 @@ end)()
 				1
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24279] = {
+		name = "『马塞纳活动』-日常建造",
+		guild_coin_award = 0,
+		award = 906921,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24279,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24280] = {
+		name = "『马塞纳活动』-日常出击",
+		guild_coin_award = 0,
+		award = 906922,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24280,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24281] = {
+		name = "『马塞纳活动』-日常困难本",
+		guild_coin_award = 0,
+		award = 906923,
+		type = 36,
+		desc = "通关1次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24281,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24282] = {
+		name = "『马塞纳活动』通关T1/HT1",
+		guild_coin_award = 0,
+		award = 906924,
+		type = 6,
+		desc = "通关T1或HT1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24283",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24282,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65674,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24283] = {
+		name = "『马塞纳活动』通关T2/HT2",
+		guild_coin_award = 0,
+		award = 906925,
+		type = 6,
+		desc = "通关T2或HT2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24284",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24283,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950002,
+			1950022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65674,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24284] = {
+		name = "『马塞纳活动』通关T3/HT3",
+		guild_coin_award = 0,
+		award = 906926,
+		type = 6,
+		desc = "通关T3或HT3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24285",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24284,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950003,
+			1950023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65674,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24285] = {
+		name = "『马塞纳活动』通关T4/HT4",
+		guild_coin_award = 0,
+		award = 906927,
+		type = 6,
+		desc = "通关T4或HT4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24286",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24285,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950004,
+			1950024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65674,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24286] = {
+		name = "『马塞纳活动』通关T5/HT5",
+		guild_coin_award = 0,
+		award = 906928,
+		type = 6,
+		desc = "通关T5或HT5",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24287",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24286,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950005,
+			1950025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65674,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24287] = {
+		name = "『马塞纳活动』通关T6/HT6",
+		guild_coin_award = 0,
+		award = 906929,
+		type = 6,
+		desc = "通关T6或HT6",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24288",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24287,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950006,
+			1950026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65674,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24288] = {
+		name = "『马塞纳活动』通关SP",
+		guild_coin_award = 0,
+		award = 906930,
+		type = 6,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1950041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24288,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1950025,
+				chapterId = 1950041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24289] = {
+		name = "『马塞纳活动』通关EX",
+		guild_coin_award = 0,
+		award = 906931,
+		type = 6,
+		desc = "通关EX关卡",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24289,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950051,
+			1950052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1950026,
+				chapterId = 1950051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24291] = {
+		name = "『马塞纳活动』T1/HT1的3星",
+		guild_coin_award = 0,
+		award = 906933,
+		type = 6,
+		desc = "完成T1或HT1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24292",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24291,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24292] = {
+		name = "『马塞纳活动』T2/HT2的3星",
+		guild_coin_award = 0,
+		award = 906934,
+		type = 6,
+		desc = "完成T2或HT2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24293",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24292,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950002,
+			1950022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24293] = {
+		name = "『马塞纳活动』T3/HT3的3星",
+		guild_coin_award = 0,
+		award = 906935,
+		type = 6,
+		desc = "完成T3或HT3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24294",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24293,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950003,
+			1950023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24294] = {
+		name = "『马塞纳活动』T4/HT4的3星",
+		guild_coin_award = 0,
+		award = 906936,
+		type = 6,
+		desc = "完成T4或HT4的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24295",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24294,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950004,
+			1950024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24295] = {
+		name = "『马塞纳活动』T5/HT5的3星",
+		guild_coin_award = 0,
+		award = 906937,
+		type = 6,
+		desc = "完成T5或HT5的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24296",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24295,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950005,
+			1950025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24296] = {
+		name = "『马塞纳活动』T6/HT6的3星",
+		guild_coin_award = 0,
+		award = 906938,
+		type = 6,
+		desc = "完成T6或HT6的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24296,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950006,
+			1950026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24297] = {
+		name = "『马塞纳活动』通关任务10次",
+		guild_coin_award = 0,
+		award = 906939,
+		type = 6,
+		desc = "通关10次『奇渊下的秘密』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24297,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950002,
+			1950003,
+			1950004,
+			1950005,
+			1950006,
+			1950021,
+			1950022,
+			1950023,
+			1950024,
+			1950025,
+			1950026,
+			1950041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24298] = {
+		name = "『马塞纳活动』通关任务30次",
+		guild_coin_award = 0,
+		award = 906940,
+		type = 6,
+		desc = "通关30次『奇渊下的秘密』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24298,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950002,
+			1950003,
+			1950004,
+			1950005,
+			1950006,
+			1950021,
+			1950022,
+			1950023,
+			1950024,
+			1950025,
+			1950026,
+			1950041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24299] = {
+		name = "『马塞纳活动』通关任务60次",
+		guild_coin_award = 0,
+		award = 906941,
+		type = 6,
+		desc = "通关60次『奇渊下的秘密』特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24299,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950002,
+			1950003,
+			1950004,
+			1950005,
+			1950006,
+			1950021,
+			1950022,
+			1950023,
+			1950024,
+			1950025,
+			1950026,
+			1950041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24300] = {
+		name = "『马塞纳活动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 906942,
+		type = 6,
+		desc = "通过「活动商店」兑换或「补给商店-军火」购买20个[外观装备箱(奇渊奇境)]",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30374",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24300,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30558,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24301] = {
+		name = "『马塞纳活动』观看剧情",
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		desc = "完成序幕剧情",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24301,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7044
+		},
+		open_need = {},
+		award_display = {}
 	}
 end)()
 

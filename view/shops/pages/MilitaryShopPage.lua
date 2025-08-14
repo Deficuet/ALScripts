@@ -1,80 +1,96 @@
 local var_0_0 = class("MilitaryShopPage", import(".BaseShopPage"))
 
-function var_0_0.getUIName(arg_1_0)
-	return "MilitaryShop"
-end
-
-function var_0_0.GetPaintingCommodityUpdateVoice(arg_2_0)
+function var_0_0.GetPaintingCommodityUpdateVoice(arg_1_0)
 	return
 end
 
-function var_0_0.CanOpen(arg_3_0, arg_3_1, arg_3_2)
-	return pg.SystemOpenMgr.GetInstance():isOpenSystem(arg_3_2.level, "MilitaryExerciseMediator")
+function var_0_0.CanOpen(arg_2_0, arg_2_1, arg_2_2)
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(arg_2_2.level, "MilitaryExerciseMediator")
 end
 
-function var_0_0.OnLoaded(arg_4_0)
-	arg_4_0.exploitTF = arg_4_0:findTF("res_exploit/bg/Text"):GetComponent(typeof(Text))
-	arg_4_0.timerTF = arg_4_0:findTF("timer_bg/Text"):GetComponent(typeof(Text))
-	arg_4_0.refreshBtn = arg_4_0:findTF("refresh_btn")
+function var_0_0.OnUpdatePlayer(arg_3_0)
+	arg_3_0:RefreshResItemList()
 end
 
-function var_0_0.OnInit(arg_5_0)
-	local var_5_0 = pg.arena_data_shop[1]
+function var_0_0.GetResDataList(arg_4_0)
+	local var_4_0 = {}
+	local var_4_1 = arg_4_0.shop:GetResList()
 
-	onButton(arg_5_0, arg_5_0.refreshBtn, function()
-		if arg_5_0.shop.refreshCount - 1 >= #var_5_0.refresh_price then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("shopStreet_refresh_max_count"))
+	for iter_4_0, iter_4_1 in ipairs(var_4_1) do
+		local var_4_2 = arg_4_0.player.exploit
 
-			return
-		end
-
-		local var_6_0 = var_5_0.refresh_price[arg_5_0.shop.refreshCount] or var_5_0.refresh_price[#var_5_0.refresh_price]
-
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("refresh_shopStreet_question", i18n("word_gem_icon"), var_6_0, arg_5_0.shop.refreshCount - 1),
-			onYes = function()
-				if arg_5_0.player:getTotalGem() < var_6_0 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
-
-					return
-				else
-					arg_5_0:emit(NewShopsMediator.REFRESH_MILITARY_SHOP, true)
-				end
-			end
+		table.insert(var_4_0, {
+			type = DROP_TYPE_RESOURCE,
+			resID = iter_4_1,
+			cnt = var_4_2
 		})
-	end, SFX_PANEL)
+	end
+
+	return var_4_0
 end
 
-function var_0_0.OnUpdatePlayer(arg_8_0)
-	local var_8_0 = arg_8_0.player
-
-	arg_8_0.exploitTF.text = var_8_0.exploit
+function var_0_0.OnSetUp(arg_5_0)
+	arg_5_0:RemoveTimer()
+	arg_5_0:AddTimer()
 end
 
-function var_0_0.OnSetUp(arg_9_0)
-	arg_9_0:RemoveTimer()
-	arg_9_0:AddTimer()
+function var_0_0.Hide(arg_6_0)
+	var_0_0.super.Hide(arg_6_0)
+	arg_6_0:RemoveTimer()
 end
 
-function var_0_0.OnUpdateAll(arg_10_0)
-	arg_10_0:InitCommodities()
-	arg_10_0:OnSetUp()
+function var_0_0.OnUpdateAll(arg_7_0)
+	arg_7_0:InitCommodities()
+	arg_7_0:OnSetUp()
 end
 
-function var_0_0.OnUpdateCommodity(arg_11_0, arg_11_1)
-	local var_11_0
+function var_0_0.OnUpdateCommodity(arg_8_0, arg_8_1)
+	local var_8_0
 
-	for iter_11_0, iter_11_1 in pairs(arg_11_0.cards) do
-		if iter_11_1.goodsVO.id == arg_11_1.id then
-			var_11_0 = iter_11_1
+	for iter_8_0, iter_8_1 in pairs(arg_8_0.cards) do
+		if iter_8_1.goodsVO.id == arg_8_1.id then
+			var_8_0 = iter_8_1
 
 			break
 		end
 	end
 
-	if var_11_0 then
-		var_11_0:update(arg_11_1)
+	if var_8_0 then
+		var_8_0:update(arg_8_1)
 	end
+end
+
+function var_0_0.RefreshUI(arg_9_0)
+	setActive(arg_9_0.tipTextGo, false)
+	setActive(arg_9_0.helpBtn, false)
+	setActive(arg_9_0.resolveBtn, false)
+	setActive(arg_9_0.refreshBtn, true)
+
+	local var_9_0 = pg.arena_data_shop[1]
+
+	onButton(arg_9_0, arg_9_0.refreshBtn, function()
+		if arg_9_0.shop.refreshCount - 1 >= #var_9_0.refresh_price then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("shopStreet_refresh_max_count"))
+
+			return
+		end
+
+		local var_10_0 = var_9_0.refresh_price[arg_9_0.shop.refreshCount] or var_9_0.refresh_price[#var_9_0.refresh_price]
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("refresh_shopStreet_question", i18n("word_gem_icon"), var_10_0, arg_9_0.shop.refreshCount - 1),
+			onYes = function()
+				if arg_9_0.player:getTotalGem() < var_10_0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+
+					return
+				else
+					arg_9_0:emit(NewShopMainMediator.REFRESH_MILITARY_SHOP, true)
+				end
+			end
+		})
+	end, SFX_PANEL)
+	setButtonEnabled(arg_9_0.refreshBtn, true)
 end
 
 function var_0_0.OnInitItem(arg_12_0, arg_12_1)
@@ -118,7 +134,7 @@ function var_0_0.OnClickCommodity(arg_15_0, arg_15_1)
 			type = var_15_0:getConfig("type")
 		},
 		onYes = function()
-			arg_15_0:emit(NewShopsMediator.ON_SHOPPING, var_15_0.id, 1)
+			arg_15_0:emit(NewShopMainMediator.BUY_ITEM, var_15_0.id, 1)
 		end
 	})
 end
@@ -135,7 +151,7 @@ function var_0_0.AddTimer(arg_17_0)
 		else
 			local var_18_1 = pg.TimeMgr.GetInstance():DescCDTime(var_18_0)
 
-			arg_17_0.timerTF.text = var_18_1
+			arg_17_0.timerText.text = i18n("shop_refresh_time", var_18_1)
 		end
 	end, 1, -1)
 
@@ -144,7 +160,7 @@ function var_0_0.AddTimer(arg_17_0)
 end
 
 function var_0_0.OnTimeOut(arg_19_0)
-	arg_19_0:emit(NewShopsMediator.REFRESH_MILITARY_SHOP)
+	arg_19_0:emit(NewShopMainMediator.REFRESH_MILITARY_SHOP)
 end
 
 function var_0_0.RemoveTimer(arg_20_0)
@@ -156,6 +172,7 @@ function var_0_0.RemoveTimer(arg_20_0)
 end
 
 function var_0_0.OnDestroy(arg_21_0)
+	var_0_0.super.OnDestroy(arg_21_0)
 	arg_21_0:RemoveTimer()
 end
 

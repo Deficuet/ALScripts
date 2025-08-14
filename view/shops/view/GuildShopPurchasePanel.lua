@@ -36,7 +36,7 @@ function var_0_0.OnInit(arg_3_0)
 end
 
 function var_0_0.OnConfirm(arg_6_0)
-	arg_6_0:emit(NewShopsMediator.ON_GUILD_SHOPPING, arg_6_0.data.id, arg_6_0.selectedList)
+	arg_6_0:emit(NewShopMainMediator.ON_GUILD_SHOPPING, arg_6_0.data.id, arg_6_0.selectedList)
 end
 
 function var_0_0.Show(arg_7_0, arg_7_1)

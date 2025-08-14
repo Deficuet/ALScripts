@@ -70774,6 +70774,135 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[107974] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "埃塞克斯.改",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 107090,
+		english_name = "USS Essex",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 107974,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2730,
+			0,
+			0,
+			155,
+			206,
+			48,
+			0,
+			30,
+			13,
+			33,
+			90,
+			0
+		},
+		attrs_growth = {
+			29755,
+			0,
+			0,
+			1329,
+			1018,
+			333,
+			0,
+			450,
+			327,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Essex-Class",
+			"Essex-Class-No-Yorktown",
+			"EssexG"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[107984] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -318214,6 +318343,514 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[801051] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "大胆",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801051,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			312,
+			23,
+			76,
+			34,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			49
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.1,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801052] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "大胆",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801052,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			388,
+			29,
+			95,
+			42,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			61
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.1,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801053] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "大胆",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801053,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			540,
+			40,
+			132,
+			59,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			85
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801054] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "大胆",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801054,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			768,
+			58,
+			188,
+			85,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			122
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[801071] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -321294,6 +321931,526 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[802041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "迪盖·特鲁因 ",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			523,
+			33,
+			62,
+			56,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			34
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			271
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "迪盖·特鲁因 ",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			651,
+			41,
+			77,
+			70,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			43
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			272
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.27,
+			1.42,
+			0.92,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "迪盖·特鲁因 ",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			906,
+			57,
+			108,
+			97,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			60
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			273
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			0.95,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "迪盖·特鲁因 ",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1289,
+			82,
+			154,
+			139,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			85
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			274
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[803011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -322313,6 +323470,1022 @@ end)()
 		},
 		tag_list = {
 			"Brennus"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "迪凯纳",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			563,
+			48,
+			33,
+			44,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			371
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.4,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "迪凯纳",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			700,
+			60,
+			41,
+			55,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			372
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "迪凯纳",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			975,
+			84,
+			58,
+			77,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			373
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "迪凯纳",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1387,
+			119,
+			82,
+			109,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			374
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.65,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "马塞纳",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1198,
+			66,
+			0,
+			44,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "马塞纳",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1490,
+			82,
+			0,
+			55,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "马塞纳",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2075,
+			115,
+			0,
+			76,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "马塞纳",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2952,
+			164,
+			0,
+			109,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
 		}
 	}
 end)()
@@ -323847,6 +326020,510 @@ end)()
 			"Alsace",
 			"AlsaceHA",
 			"PRE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "贝劳森林",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			866,
+			0,
+			0,
+			55,
+			70,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			18
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "贝劳森林",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1077,
+			0,
+			0,
+			68,
+			87,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			22
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "贝劳森林",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1500,
+			0,
+			0,
+			95,
+			122,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			31
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "贝劳森林",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2134,
+			0,
+			0,
+			135,
+			174,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			44
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			4,
+			4,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
 		}
 	}
 end)()

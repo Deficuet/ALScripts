@@ -1,122 +1,92 @@
 local var_0_0 = class("ActivityShopPage", import(".BaseShopPage"))
 
-function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4, arg_1_5)
-	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
+	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_2)
 
-	arg_1_0.scrollRectSpecial = arg_1_5
+	arg_1_0.scrollRectSpecial = scrollRectSpecial
 end
 
-function var_0_0.getUIName(arg_2_0)
-	return "ActivityShop"
-end
+function var_0_0.GetPaintingName(arg_2_0)
+	assert(arg_2_0.shop)
 
-function var_0_0.GetPaintingName(arg_3_0)
-	assert(arg_3_0.shop)
+	local var_2_0 = pg.activity_template[arg_2_0.shop.activityId]
+	local var_2_1 = getProxy(ActivityProxy):checkHxActivity(arg_2_0.shop.activityId)
 
-	local var_3_0 = pg.activity_template[arg_3_0.shop.activityId]
-	local var_3_1 = getProxy(ActivityProxy):checkHxActivity(arg_3_0.shop.activityId)
+	if var_2_0 and var_2_0.config_client then
+		if var_2_0.config_client.use_secretary or var_2_1 then
+			local var_2_2 = getProxy(PlayerProxy):getData()
+			local var_2_3 = getProxy(SettingsProxy):getCurrentSecretaryIndex()
 
-	if var_3_0 and var_3_0.config_client then
-		if var_3_0.config_client.use_secretary or var_3_1 then
-			local var_3_2 = getProxy(PlayerProxy):getData()
-			local var_3_3 = getProxy(SettingsProxy):getCurrentSecretaryIndex()
+			arg_2_0.tempFlagShip = getProxy(BayProxy):getShipById(var_2_2.characters[1])
 
-			arg_3_0.tempFlagShip = getProxy(BayProxy):getShipById(var_3_2.characters[1])
-
-			return arg_3_0.tempFlagShip:getPainting(), true, "build"
-		elseif var_3_0.config_client.painting then
-			return var_3_0.config_client.painting
+			return arg_2_0.tempFlagShip:getPainting(), true, "build"
+		elseif var_2_0.config_client.painting then
+			return var_2_0.config_client.painting, true
 		end
 	end
 
 	return "aijiang_pt"
 end
 
-function var_0_0.GetBg(arg_4_0, arg_4_1)
-	return (arg_4_1:getBgPath())
+function var_0_0.GetBg(arg_3_0, arg_3_1)
+	return (arg_3_1:getBgPath())
 end
 
-function var_0_0.GetPaintingEnterVoice(arg_5_0)
-	local var_5_0, var_5_1, var_5_2 = arg_5_0.shop:GetEnterVoice()
+function var_0_0.GetPaintingEnterVoice(arg_4_0)
+	local var_4_0, var_4_1, var_4_2 = arg_4_0.shop:GetEnterVoice()
+
+	return var_4_1, var_4_0, var_4_2
+end
+
+function var_0_0.GetPaintingCommodityUpdateVoice(arg_5_0)
+	local var_5_0, var_5_1, var_5_2 = arg_5_0.shop:GetPurchaseVoice()
 
 	return var_5_1, var_5_0, var_5_2
 end
 
-function var_0_0.GetPaintingCommodityUpdateVoice(arg_6_0)
-	local var_6_0, var_6_1, var_6_2 = arg_6_0.shop:GetPurchaseVoice()
+function var_0_0.GetPaintingAllPurchaseVoice(arg_6_0)
+	local var_6_0, var_6_1, var_6_2 = arg_6_0.shop:GetPurchaseAllVoice()
 
 	return var_6_1, var_6_0, var_6_2
 end
 
-function var_0_0.GetPaintingAllPurchaseVoice(arg_7_0)
-	local var_7_0, var_7_1, var_7_2 = arg_7_0.shop:GetPurchaseAllVoice()
+function var_0_0.GetPaintingTouchVoice(arg_7_0)
+	local var_7_0, var_7_1, var_7_2 = arg_7_0.shop:GetTouchVoice()
 
 	return var_7_1, var_7_0, var_7_2
 end
 
-function var_0_0.GetPaintingTouchVoice(arg_8_0)
-	local var_8_0, var_8_1, var_8_2 = arg_8_0.shop:GetTouchVoice()
+function var_0_0.init(arg_8_0)
+	var_0_0.super.init(arg_8_0)
 
-	return var_8_1, var_8_0, var_8_2
-end
-
-function var_0_0.OnLoaded(arg_9_0)
-	local var_9_0 = arg_9_0:findTF("res_battery"):GetComponent(typeof(Image))
-	local var_9_1 = arg_9_0:findTF("res_battery/icon"):GetComponent(typeof(Image))
-	local var_9_2 = arg_9_0:findTF("res_battery/Text"):GetComponent(typeof(Text))
-	local var_9_3 = arg_9_0:findTF("res_battery/label"):GetComponent(typeof(Text))
-	local var_9_4 = arg_9_0:findTF("res_battery1"):GetComponent(typeof(Image))
-	local var_9_5 = arg_9_0:findTF("res_battery1/icon"):GetComponent(typeof(Image))
-	local var_9_6 = arg_9_0:findTF("res_battery1/Text"):GetComponent(typeof(Text))
-	local var_9_7 = arg_9_0:findTF("res_battery1/label"):GetComponent(typeof(Text))
-
-	arg_9_0.resTrList = {
-		{
-			var_9_0,
-			var_9_1,
-			var_9_2,
-			var_9_3
-		},
-		{
-			var_9_4,
-			var_9_5,
-			var_9_6,
-			var_9_7
-		}
-	}
-	arg_9_0.eventResCnt = arg_9_0:findTF("event_res_battery/Text"):GetComponent(typeof(Text))
-	arg_9_0.time = arg_9_0:findTF("Text"):GetComponent(typeof(Text))
-
-	if arg_9_0.scrollRectSpecial then
-		arg_9_0.groupList = UIItemList.New(arg_9_0:findTF("viewport/view", arg_9_0.scrollRectSpecial), arg_9_0:findTF("viewport/view/group", arg_9_0.scrollRectSpecial))
+	if arg_8_0.scrollRectSpecial then
+		arg_8_0.groupList = UIItemList.New(arg_8_0:findTF("viewport/view", arg_8_0.scrollRectSpecial), arg_8_0:findTF("viewport/view/group", arg_8_0.scrollRectSpecial))
 	end
 end
 
-function var_0_0.OnInit(arg_10_0)
+function var_0_0.OnInit(arg_9_0)
 	return
 end
 
-function var_0_0.OnUpdatePlayer(arg_11_0)
-	if arg_11_0.shop:IsEventShop() then
-		local var_11_0 = arg_11_0.shop:getResId()
+function var_0_0.OnUpdatePlayer(arg_10_0)
+	arg_10_0:RefreshResItemList()
+end
 
-		arg_11_0.eventResCnt.text = arg_11_0.player:getResource(var_11_0)
-	else
-		local var_11_1 = arg_11_0.shop:GetResList()
+function var_0_0.GetResDataList(arg_11_0)
+	local var_11_0 = {}
+	local var_11_1 = arg_11_0.shop:GetResList()
 
-		for iter_11_0, iter_11_1 in pairs(arg_11_0.resTrList) do
-			local var_11_2 = iter_11_1[1]
-			local var_11_3 = iter_11_1[2]
-			local var_11_4 = iter_11_1[3]
-			local var_11_5 = var_11_1[iter_11_0]
+	for iter_11_0, iter_11_1 in ipairs(var_11_1) do
+		local var_11_2 = arg_11_0.player:getResource(iter_11_1)
 
-			setActive(var_11_2, var_11_5 ~= nil)
-
-			if var_11_5 ~= nil then
-				var_11_4.text = arg_11_0.player:getResource(var_11_5)
-			end
-		end
+		table.insert(var_11_0, {
+			type = DROP_TYPE_RESOURCE,
+			resID = iter_11_1,
+			cnt = var_11_2
+		})
 	end
+
+	return var_11_0
 end
 
 function var_0_0.OnSetUp(arg_12_0)
@@ -147,40 +117,20 @@ function var_0_0.OnUpdateCommodity(arg_14_0, arg_14_1)
 end
 
 function var_0_0.SetResIcon(arg_15_0, arg_15_1)
-	local var_15_0 = arg_15_0.shop:GetResList()
+	arg_15_0:RefreshResItemList()
+end
 
-	for iter_15_0, iter_15_1 in ipairs(arg_15_0.resTrList) do
-		local var_15_1 = iter_15_1[1]
-		local var_15_2 = iter_15_1[2]
-		local var_15_3 = iter_15_1[3]
-		local var_15_4 = iter_15_1[4]
-		local var_15_5 = var_15_0[iter_15_0]
-
-		if var_15_5 ~= nil then
-			local var_15_6 = Drop.New({
-				type = arg_15_1 or DROP_TYPE_RESOURCE,
-				id = var_15_5
-			})
-
-			GetSpriteFromAtlasAsync(var_15_6:getIcon(), "", function(arg_16_0)
-				var_15_2.sprite = arg_16_0
-			end)
-
-			var_15_4.text = var_15_6:getName()
-		end
-	end
-
-	local var_15_7 = arg_15_0.shop:IsEventShop()
-
-	setActive(arg_15_0:findTF("res_battery"), not var_15_7)
-	setActive(arg_15_0:findTF("res_battery1"), not var_15_7 and #var_15_0 > 1)
-	setActive(arg_15_0:findTF("event_res_battery"), var_15_7)
+function var_0_0.RefreshUI(arg_16_0)
+	setActive(arg_16_0.tipTextGo, true)
+	setActive(arg_16_0.helpBtn, false)
+	setActive(arg_16_0.resolveBtn, false)
+	setActive(arg_16_0.refreshBtn, false)
 end
 
 function var_0_0.UpdateTip(arg_17_0)
 	local var_17_0 = #arg_17_0.shop:GetResList() > 1 and 25 or 27
 
-	arg_17_0.time.text = "<size=" .. var_17_0 .. ">" .. i18n("activity_shop_lable", arg_17_0.shop:getOpenTime()) .. "</size>"
+	arg_17_0.tipText.text = "<size=" .. var_17_0 .. ">" .. i18n("activity_shop_lable", arg_17_0.shop:getOpenTime()) .. "</size>"
 end
 
 function var_0_0.OnInitItem(arg_18_0, arg_18_1)
@@ -188,7 +138,7 @@ function var_0_0.OnInitItem(arg_18_0, arg_18_1)
 
 	var_18_0.tagImg.raycastTarget = false
 
-	onButton(arg_18_0, var_18_0.tr, function()
+	onButton(arg_18_0, var_18_0.tf, function()
 		arg_18_0:OnClickCommodity(var_18_0.goodsVO, function(arg_20_0, arg_20_1)
 			arg_18_0:OnPurchase(arg_20_0, arg_20_1)
 		end)
@@ -243,7 +193,7 @@ function var_0_0.OnPurchase(arg_23_0, arg_23_1, arg_23_2)
 
 	local var_23_3 = arg_23_0.shop.activityId
 
-	arg_23_0:emit(NewShopsMediator.ON_ACT_SHOPPING, var_23_3, 1, arg_23_1.id, arg_23_2)
+	arg_23_0:emit(NewShopMainMediator.ON_ACT_SHOPPING, var_23_3, 1, arg_23_1.id, arg_23_2)
 end
 
 function var_0_0.OnClickCommodity(arg_24_0, arg_24_1, arg_24_2)
@@ -283,6 +233,7 @@ function var_0_0.Show(arg_25_0)
 	local var_25_0 = pg.activity_template[arg_25_0.shop.activityId]
 
 	if var_25_0 and var_25_0.config_client and var_25_0.config_client.category then
+		print("TODO:当前的界面不支持这中情况，需要找美术出资源")
 		setActive(go(arg_25_0.lScrollrect), false)
 		setActive(arg_25_0.scrollRectSpecial, true)
 		arg_25_0.groupList:make(function(arg_26_0, arg_26_1, arg_26_2)
@@ -300,7 +251,7 @@ function var_0_0.Show(arg_25_0)
 						arg_25_0.cards[arg_27_2] = var_27_0
 						var_27_0.tagImg.raycastTarget = false
 
-						onButton(arg_25_0, var_27_0.tr, function()
+						onButton(arg_25_0, var_27_0.tf, function()
 							arg_25_0:OnClickCommodity(var_27_0.goodsVO, function(arg_29_0, arg_29_1)
 								arg_25_0:OnPurchase(arg_29_0, arg_29_1)
 							end)
@@ -378,6 +329,7 @@ function var_0_0.SetUp(arg_31_0, arg_31_1, arg_31_2, arg_31_3)
 	arg_31_0:InitCommodities()
 	arg_31_0:OnSetUp()
 	arg_31_0:SetPainting()
+	arg_31_0:RefreshUI()
 end
 
 function var_0_0.InitCommodities(arg_32_0)

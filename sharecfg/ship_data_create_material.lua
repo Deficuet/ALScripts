@@ -66,7 +66,7 @@ pg.ship_data_create_material = {
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
-		build_anim = "building_yumia",
+		build_anim = "building",
 		number_1 = 2,
 		id = 4,
 		icon = "build_4",
@@ -76,13 +76,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>精锐舰船</color>：12%",
 			"<color=#3dc6ff>稀有舰船</color>：51%",
 			"普通舰船：30%",
-			"<color=#ffde38>优米雅·利斯菲尔德</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>马塞纳</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>妮娜·弗里德</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>贝劳森林</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>蕾妮雅</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>大胆</color>：0.5%",
 			" ",
-			"<color=#ffde38>艾菈·冯·杜勒</color>：0.5%"
+			"<color=#d797ff>迪凯纳</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{
@@ -92,7 +92,7 @@ pg.ship_data_create_material = {
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
-		build_anim = "building_laisha",
+		build_anim = "building",
 		number_1 = 2,
 		id = 5,
 		icon = "build_5",

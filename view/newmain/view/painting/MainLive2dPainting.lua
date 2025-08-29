@@ -18,12 +18,11 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 end
 
 function var_0_0.GetHalfBodyOffsetY(arg_3_0)
-	local var_3_0 = arg_3_0.container.parent
-	local var_3_1 = var_3_0.rect.height * -0.5
-	local var_3_2 = var_3_0:InverseTransformPoint(arg_3_0.live2dContainer.position)
-	local var_3_3 = arg_3_0.live2dContainer.localScale
+	if not arg_3_0:IslimitYPos() then
+		return 0
+	end
 
-	return var_3_1 - (arg_3_0.live2dContainer.rect.height * -0.5 * var_3_3.y + var_3_2.y)
+	return MainPaintingShift.GetHalfBodyOffsetY(arg_3_0.container.parent, arg_3_0.live2dContainer)
 end
 
 function var_0_0.OnLoad(arg_4_0, arg_4_1)
@@ -127,7 +126,7 @@ end
 function var_0_0.ResetContainerPosition(arg_13_0)
 	local var_13_0 = arg_13_0.live2dContainer.localPosition
 
-	arg_13_0.live2dContainer.localPosition = Vector3(var_13_0.x, 0, 0)
+	arg_13_0.live2dContainer.localPosition = Vector3(var_13_0.x, arg_13_0:GetHalfBodyOffsetY(), 0)
 end
 
 function var_0_0.OnUnload(arg_14_0)
@@ -358,9 +357,7 @@ function var_0_0.GetCenterPos(arg_34_0)
 end
 
 function var_0_0.IslimitYPos(arg_35_0)
-	local var_35_0 = arg_35_0.ship:getPainting()
-
-	return var_35_0 == "biaoqiang" or var_35_0 == "z23" or var_35_0 == "lafei" or var_35_0 == "lingbo" or var_35_0 == "mingshi" or var_35_0 == "xuefeng"
+	return MainPaintingShift.IsLimitYPos(arg_35_0.ship:getPainting())
 end
 
 return var_0_0

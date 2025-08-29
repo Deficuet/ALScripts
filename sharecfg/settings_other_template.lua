@@ -198,6 +198,15 @@ pg.settings_other_template = {
 		title = "自动锁定新获得角色",
 		desc = "功能开启后，自动锁定新获得角色，不再弹出锁定提示"
 	},
+	[24] = {
+		default = 1,
+		name = "GRAPHI_API_SWITCH_OPTION",
+		type = 3,
+		alignment = 0,
+		id = 24,
+		title = "渲染兼容模式",
+		desc = "功能开启后，可以解决部分机型在默认模式下会出现黑屏的问题"
+	},
 	all = {
 		1,
 		2,
@@ -220,6 +229,7 @@ pg.settings_other_template = {
 		19,
 		20,
 		21,
-		22
+		22,
+		24
 	}
 }

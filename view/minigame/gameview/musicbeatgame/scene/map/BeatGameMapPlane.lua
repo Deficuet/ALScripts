@@ -24,7 +24,9 @@ function var_0_0.onInit(arg_1_0)
 	end)
 
 	arg_1_0.leftSpine = GetComponent(findTF(arg_1_0._tf, "char_left/ad/char"), typeof(SpineAnimUI))
+	arg_1_0.leftSpineSkeleton = findTF(arg_1_0._tf, "char_left/ad/char"):GetComponent("SkeletonGraphic")
 	arg_1_0.rightSpine = GetComponent(findTF(arg_1_0._tf, "char_right/ad/char"), typeof(SpineAnimUI))
+	arg_1_0.rightSpineSkeleton = findTF(arg_1_0._tf, "char_right/ad/char"):GetComponent("SkeletonGraphic")
 	arg_1_0.emojiTf = findTF(arg_1_0._tf, "emoji")
 
 	setActive(arg_1_0.emojiTf, false)
@@ -77,7 +79,7 @@ function var_0_0.createDymItem(arg_8_0, arg_8_1)
 	local var_8_3 = arg_8_0:createItemTf(var_8_2.prefab)
 	local var_8_4 = GetComponent(var_8_3, typeof(Animator))
 
-	var_8_4.speed = 0
+	var_8_4.speed = 1
 
 	table.insert(arg_8_0.dymItems, {
 		check = true,
@@ -123,31 +125,30 @@ function var_0_0.keyTrigger(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
 	arg_11_0.triggerCd = var_0_2
 
 	arg_11_0:setCharAnimation(arg_11_0.leftSpine, arg_11_1, 0, function()
-		arg_11_0:setCharAnimation(arg_11_0.leftSpine, "idle", 0, function()
-			return
-		end)
+		arg_11_0:setCharAnimation(arg_11_0.leftSpine, "idle", 0)
+		arg_11_0.leftSpineSkeleton:Update(Time.deltaTime)
 	end, function()
-		local var_14_0 = arg_11_0:getCheckDymItem()
+		local var_13_0 = arg_11_0:getCheckDymItem()
 
-		if var_14_0 then
-			arg_11_0._event:emit(MusicBeatGameEvent.TRACK_EVENT_MATCH, var_14_0.track, function(arg_15_0, arg_15_1)
-				if arg_15_0 then
-					var_14_0.trigger = true
-					var_14_0.anim.speed = 1
+		if var_13_0 then
+			arg_11_0._event:emit(MusicBeatGameEvent.TRACK_EVENT_MATCH, var_13_0.track, function(arg_14_0, arg_14_1)
+				if arg_14_0 then
+					var_13_0.trigger = true
+					var_13_0.anim.speed = 1
 
-					var_14_0.anim:Play(arg_11_2, -1)
+					var_13_0.anim:Play(arg_11_2, -1)
 
-					if var_14_0.data.act == arg_11_3 then
-						var_14_0.typeMatch = true
+					if var_13_0.data.act == arg_11_3 then
+						var_13_0.typeMatch = true
 
 						arg_11_0._event:emit(MusicBeatGameEvent.ADD_SCORE, {
-							num = var_14_0.data.score
+							num = var_13_0.data.score
 						})
 						arg_11_0:setEmoji("success")
 						arg_11_0:changeLife(1)
 					else
-						if var_14_0.data.act == "flap" and arg_11_3 ~= "flap" then
-							var_14_0.typeMatch = false
+						if var_13_0.data.act == "flap" and arg_11_3 ~= "flap" then
+							var_13_0.typeMatch = false
 
 							arg_11_0:setCharAnimation(arg_11_0.leftSpine, "shock", 0, function()
 								arg_11_0:setCharAnimation(arg_11_0.leftSpine, "idle", 0)
@@ -158,23 +159,23 @@ function var_0_0.keyTrigger(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
 						arg_11_0:setEmoji("fail")
 					end
 
-					local var_15_0
+					local var_14_0
 
-					if var_14_0.typeMatch then
-						if var_14_0.data.act == "flap" then
-							var_15_0 = MusicBeatGameConst.sfx_plane_success_hit
-						elseif var_14_0.data.act == "touch" then
-							var_15_0 = MusicBeatGameConst.sfx_plane_success_touch
+					if var_13_0.typeMatch then
+						if var_13_0.data.act == "flap" then
+							var_14_0 = MusicBeatGameConst.sfx_plane_success_hit
+						elseif var_13_0.data.act == "touch" then
+							var_14_0 = MusicBeatGameConst.sfx_plane_success_touch
 						end
-					elseif var_14_0.data.act == "flap" then
-						var_15_0 = MusicBeatGameConst.sfx_plane_faild_hit
-					elseif var_14_0.data.act == "touch" then
-						var_15_0 = MusicBeatGameConst.sfx_plane_faild_touch
+					elseif var_13_0.data.act == "flap" then
+						var_14_0 = MusicBeatGameConst.sfx_plane_faild_hit
+					elseif var_13_0.data.act == "touch" then
+						var_14_0 = MusicBeatGameConst.sfx_plane_faild_touch
 					end
 
-					if var_15_0 then
-						print("play Effect sound " .. var_15_0)
-						pg.CriMgr.GetInstance():PlaySoundEffect_V3(var_15_0)
+					if var_14_0 then
+						print("play Effect sound " .. var_14_0)
+						pg.CriMgr.GetInstance():PlaySoundEffect_V3(var_14_0)
 					end
 				end
 			end)
@@ -182,199 +183,222 @@ function var_0_0.keyTrigger(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
 	end)
 end
 
-function var_0_0.onStart(arg_17_0)
-	arg_17_0.triggerCd = nil
-	arg_17_0.finalEnd = false
+function var_0_0.onStart(arg_16_0)
+	arg_16_0.triggerCd = nil
+	arg_16_0.finalEnd = false
 
 	onNextTick(function()
-		if arg_17_0.leftSpine then
-			arg_17_0.leftSpine:Resume()
+		if arg_16_0.leftSpine then
+			arg_16_0.leftSpine:Resume()
 		end
 
-		if arg_17_0.rightSpine then
-			arg_17_0.rightSpine:Resume()
+		if arg_16_0.rightSpine then
+			arg_16_0.rightSpine:Resume()
 		end
 	end)
 
-	arg_17_0.lifeCount = var_0_3
+	arg_16_0.lifeCount = var_0_3
 
-	arg_17_0:changeLife(0)
-	arg_17_0:setCharAnimation(arg_17_0.leftSpine, "idle", 0, function()
+	arg_16_0:changeLife(0)
+	arg_16_0:setCharAnimation(arg_16_0.leftSpine, "idle", 0, function()
 		return
 	end, function()
 		return
 	end)
-	arg_17_0:setCharAnimation(arg_17_0.rightSpine, "idle", 0, function()
+	arg_16_0:setCharAnimation(arg_16_0.rightSpine, "idle", 0, function()
 		return
 	end, function()
 		return
 	end)
 end
 
-function var_0_0.onStartTrack(arg_23_0, arg_23_1)
-	arg_23_0:createDymItem(arg_23_1)
+function var_0_0.onStartTrack(arg_22_0, arg_22_1)
+	arg_22_0:createDymItem(arg_22_1)
 end
 
-function var_0_0.onStep(arg_24_0)
-	if arg_24_0.triggerCd then
-		arg_24_0.triggerCd = arg_24_0.triggerCd - arg_24_0._gameVo.deltaTime
+function var_0_0.onStep(arg_23_0)
+	if arg_23_0.triggerCd then
+		arg_23_0.triggerCd = arg_23_0.triggerCd - arg_23_0._gameVo.deltaTime
 
-		if arg_24_0.triggerCd <= 0 then
-			arg_24_0.triggerCd = nil
+		if arg_23_0.triggerCd <= 0 then
+			arg_23_0.triggerCd = nil
 		end
 	end
 
-	local var_24_0 = arg_24_0._gameVo:getCriInfoTime()
+	local var_23_0 = arg_23_0._gameVo:getCriInfoTime()
 
-	if var_24_0 ~= -1 then
-		for iter_24_0 = #arg_24_0.dymItems, 1, -1 do
-			local var_24_1 = arg_24_0.dymItems[iter_24_0]
-			local var_24_2 = var_24_1.data.distance_time
-			local var_24_3 = var_24_1.track.begin_time
-			local var_24_4 = var_24_3 - var_24_0
+	if var_23_0 ~= -1 then
+		for iter_23_0 = #arg_23_0.dymItems, 1, -1 do
+			local var_23_1 = arg_23_0.dymItems[iter_23_0]
 
-			if var_24_1.active then
-				if not var_24_1.trigger then
-					local var_24_5 = 1 - (var_24_3 + var_0_1 - var_24_0) / (var_24_1.data.distance_time + var_0_1)
+			if var_23_1 then
+				local var_23_2 = var_23_1.data.distance_time
+				local var_23_3 = var_23_1.track.begin_time
+				local var_23_4 = var_23_3 - var_23_0
 
-					if var_24_5 >= 0 and var_24_5 <= 1 then
-						var_24_1.anim:Play("item_fly", -1, var_24_5)
+				if var_23_1.active then
+					if var_23_3 <= var_23_0 and var_23_0 - var_23_3 > var_0_1 then
+						var_23_1.active = false
+						var_23_1.remove = true
 					end
-				end
 
-				if var_24_3 <= var_24_0 and var_24_0 - var_24_3 > var_0_1 then
-					var_24_1.active = false
-					var_24_1.remove = true
-				end
+					if var_23_1.check and not var_23_1.trigger and var_23_0 - var_23_3 > MusicBeatGameConst.beat_offset then
+						var_23_1.check = false
 
-				if var_24_1.check and not var_24_1.trigger and var_24_0 - var_24_3 > MusicBeatGameConst.beat_offset then
-					var_24_1.check = false
+						if not var_23_1.trigger then
+							arg_23_0:setEmoji("miss")
 
-					if not var_24_1.trigger then
-						arg_24_0:setEmoji("miss")
-
-						if var_24_1.data.act == "flap" then
-							arg_24_0:changeLife(-1)
+							if var_23_1.data.act == "flap" then
+								arg_23_0:changeLife(-1)
+							end
 						end
 					end
+				elseif var_23_1.remove == true then
+					if var_23_1.data.final then
+						arg_23_0.finalEnd = true
+
+						local var_23_5
+						local var_23_6 = var_23_1.typeMatch and "final_correct" or "final_wrong"
+
+						arg_23_0:setCharAnimation(arg_23_0.leftSpine, var_23_6, 0, function()
+							arg_23_0.leftSpine:Pause()
+						end)
+						arg_23_0:setCharAnimation(arg_23_0.rightSpine, var_23_6, 0, function()
+							arg_23_0.rightSpine:Pause()
+						end)
+					end
+
+					local var_23_7 = table.remove(arg_23_0.dymItems, iter_23_0)
+
+					Destroy(var_23_7.tf)
+
+					var_23_7.tf = nil
+					var_23_7.anim = nil
+					var_23_7.track = nil
+
+					return
+				elseif var_23_4 > 0 and var_23_4 <= var_23_2 then
+					arg_23_0:activeDymItem(var_23_1)
+				elseif not var_23_1.throw and var_23_4 > 0 and var_23_4 <= var_23_2 + 100 then
+					var_23_1.throw = true
+
+					arg_23_0:setCharAnimation(arg_23_0.rightSpine, "throw", 0, function()
+						arg_23_0:setCharAnimation(arg_23_0.rightSpine, "idle", 0, nil, nil)
+					end, nil)
+				elseif var_23_4 <= var_23_2 / 2 or var_23_3 <= var_23_0 and not var_23_1.active then
+					var_23_1.remove = true
 				end
-			elseif var_24_1.remove == true then
-				if var_24_1.data.final then
-					arg_24_0.finalEnd = true
-
-					local var_24_6
-					local var_24_7 = var_24_1.typeMatch and "final_correct" or "final_wrong"
-
-					arg_24_0:setCharAnimation(arg_24_0.leftSpine, var_24_7, 0, function()
-						arg_24_0.leftSpine:Pause()
-					end)
-					arg_24_0:setCharAnimation(arg_24_0.rightSpine, var_24_7, 0, function()
-						arg_24_0.rightSpine:Pause()
-					end)
-				end
-
-				local var_24_8 = table.remove(arg_24_0.dymItems, iter_24_0)
-
-				Destroy(var_24_8.tf)
-
-				var_24_8.tf = nil
-				var_24_8.anim = nil
-				var_24_8.track = nil
-			elseif var_24_4 > 0 and var_24_4 <= var_24_2 then
-				arg_24_0:activeDymItem(var_24_1)
-			elseif not var_24_1.throw and var_24_4 > 0 and var_24_4 <= var_24_2 + 100 then
-				var_24_1.throw = true
-
-				arg_24_0:setCharAnimation(arg_24_0.rightSpine, "throw", 0, function()
-					arg_24_0:setCharAnimation(arg_24_0.rightSpine, "idle", 0, nil, nil)
-				end, nil)
-			elseif var_24_4 <= var_24_2 / 2 or var_24_3 <= var_24_0 and not var_24_1.active then
-				var_24_1.remove = true
+			else
+				warning("dymitem == nil")
 			end
 		end
 	end
 end
 
-function var_0_0.changeLife(arg_28_0, arg_28_1)
-	arg_28_0.lifeCount = arg_28_0.lifeCount + arg_28_1
+function var_0_0.onStop(arg_27_0)
+	for iter_27_0 = 1, #arg_27_0.dymItems do
+		local var_27_0 = arg_27_0.dymItems[iter_27_0].anim
 
-	if arg_28_0.lifeCount <= 0 then
-		arg_28_0._event:emit(MusicBeatGameEvent.GAME_OVER)
-	end
-
-	setText(findTF(arg_28_0.beatCount, "text"), arg_28_0.lifeCount)
-end
-
-function var_0_0.setEmoji(arg_29_0, arg_29_1)
-	setActive(arg_29_0.emojiTf, false)
-	arg_29_0:setChildVisible(findTF(arg_29_0.emojiTf, "ad"), false)
-
-	if arg_29_1 then
-		setActive(arg_29_0.emojiTf, true)
-		setActive(findTF(arg_29_0.emojiTf, "ad/" .. arg_29_1), true)
+		if var_27_0 then
+			var_27_0.speed = 0
+		end
 	end
 end
 
-function var_0_0.setChildVisible(arg_30_0, arg_30_1, arg_30_2)
-	for iter_30_0 = 1, arg_30_1.childCount do
-		local var_30_0 = arg_30_1:GetChild(iter_30_0 - 1)
+function var_0_0.onResume(arg_28_0)
+	for iter_28_0 = 1, #arg_28_0.dymItems do
+		local var_28_0 = arg_28_0.dymItems[iter_28_0].anim
 
-		setActive(var_30_0, arg_30_2)
+		if var_28_0 then
+			var_28_0.speed = 1
+		end
 	end
 end
 
-function var_0_0.getCheckDymItem(arg_31_0)
-	for iter_31_0 = 1, #arg_31_0.dymItems do
-		local var_31_0 = arg_31_0.dymItems[iter_31_0]
+function var_0_0.changeLife(arg_29_0, arg_29_1)
+	arg_29_0.lifeCount = arg_29_0.lifeCount + arg_29_1
 
-		if var_31_0.check and not var_31_0.trigger then
-			return var_31_0
+	if arg_29_0.lifeCount <= 0 then
+		arg_29_0._event:emit(MusicBeatGameEvent.GAME_OVER)
+	end
+
+	setText(findTF(arg_29_0.beatCount, "text"), arg_29_0.lifeCount)
+end
+
+function var_0_0.setEmoji(arg_30_0, arg_30_1)
+	setActive(arg_30_0.emojiTf, false)
+	arg_30_0:setChildVisible(findTF(arg_30_0.emojiTf, "ad"), false)
+
+	if arg_30_1 then
+		setActive(arg_30_0.emojiTf, true)
+		setActive(findTF(arg_30_0.emojiTf, "ad/" .. arg_30_1), true)
+	end
+end
+
+function var_0_0.setChildVisible(arg_31_0, arg_31_1, arg_31_2)
+	for iter_31_0 = 1, arg_31_1.childCount do
+		local var_31_0 = arg_31_1:GetChild(iter_31_0 - 1)
+
+		setActive(var_31_0, arg_31_2)
+	end
+end
+
+function var_0_0.getCheckDymItem(arg_32_0)
+	for iter_32_0 = 1, #arg_32_0.dymItems do
+		local var_32_0 = arg_32_0.dymItems[iter_32_0]
+
+		if var_32_0.check and not var_32_0.trigger then
+			return var_32_0
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.activeDymItem(arg_32_0, arg_32_1)
-	setActive(arg_32_1.tf, true)
+function var_0_0.activeDymItem(arg_33_0, arg_33_1)
+	setActive(arg_33_1.tf, true)
 
-	arg_32_1.active = true
+	arg_33_1.active = true
+
+	arg_33_1.anim:Play("item_fly", -1, 0)
+
+	arg_33_1.anim.speed = 1
 end
 
-function var_0_0.setCharAnimation(arg_33_0, arg_33_1, arg_33_2, arg_33_3, arg_33_4, arg_33_5)
-	if arg_33_1 then
-		arg_33_1:SetActionCallBack(nil)
-		arg_33_1:SetActionCallBack(function(arg_34_0)
-			if arg_34_0 == "finish" and arg_33_4 then
-				arg_33_1:SetActionCallBack(nil)
-				arg_33_4()
-			elseif arg_34_0 == "action" and arg_33_5 then
-				arg_33_5()
+function var_0_0.setCharAnimation(arg_34_0, arg_34_1, arg_34_2, arg_34_3, arg_34_4, arg_34_5)
+	if arg_34_1 then
+		arg_34_1:SetActionCallBack(nil)
+		arg_34_1:SetActionCallBack(function(arg_35_0)
+			if arg_35_0 == "finish" and arg_34_4 then
+				arg_34_1:SetActionCallBack(nil)
+				arg_34_4()
+			elseif arg_35_0 == "action" and arg_34_5 then
+				arg_34_5()
 			end
 		end)
 	end
 
-	if arg_33_1 == arg_33_0.leftSpine then
-		print("set action" .. arg_33_2)
+	if arg_34_1 == arg_34_0.leftSpine then
+		print("set action" .. arg_34_2)
 	end
 
-	arg_33_1:SetAction(arg_33_2, arg_33_3)
+	arg_34_1:SetAction(arg_34_2, arg_34_3)
 end
 
-function var_0_0.onClear(arg_35_0)
-	for iter_35_0 = 1, #arg_35_0.dymItems do
-		if arg_35_0.dymItems[iter_35_0].tf then
-			Destroy(arg_35_0.dymItems[iter_35_0].tf)
+function var_0_0.onClear(arg_36_0)
+	for iter_36_0 = 1, #arg_36_0.dymItems do
+		if arg_36_0.dymItems[iter_36_0].tf then
+			Destroy(arg_36_0.dymItems[iter_36_0].tf)
 
-			arg_35_0.dymItems[iter_35_0].tf = nil
-			arg_35_0.dymItems[iter_35_0].anim = nil
+			arg_36_0.dymItems[iter_36_0].tf = nil
+			arg_36_0.dymItems[iter_36_0].anim = nil
 		end
 	end
 
-	arg_35_0.dymItems = {}
+	arg_36_0.dymItems = {}
 end
 
-function var_0_0.onDispose(arg_36_0)
+function var_0_0.onDispose(arg_37_0)
 	return
 end
 

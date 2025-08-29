@@ -44,13 +44,13 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onAttach",
 				"onStack"
 			},
 			arg_list = {
-				buff_id = 801206,
+				skill_id = 801205,
 				maxWeaponNumber = 0,
 				check_weapon = true,
 				index = {

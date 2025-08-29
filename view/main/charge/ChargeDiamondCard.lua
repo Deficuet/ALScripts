@@ -79,7 +79,7 @@ function var_0_0.updateForMonthTF(arg_4_0, arg_4_1, arg_4_2)
 
 	setScrollText(arg_4_0.monthTF:Find("Tip/Text"), arg_4_1:getConfig("first_text"))
 	setScrollText(arg_4_0.monthTF:Find("Tip2/Text"), arg_4_1:getConfig("second_text"))
-	setScrollText(arg_4_0.monthTF:Find("title"), arg_4_1:getConfig("name_display"))
+	setScrollText(arg_4_0.monthTF:Find("title/Text"), arg_4_1:getConfig("name_display"))
 
 	local var_4_8 = arg_4_1:getConfig("gem") + arg_4_1:getConfig("extra_gem")
 
@@ -112,6 +112,7 @@ function var_0_0.updateForMonthTF(arg_4_0, arg_4_1, arg_4_2)
 		local var_4_15 = arg_4_1:getConfig("limit_arg") or 0
 
 		setScrollText(var_4_7, i18n("charge_month_card_lefttime_tip", var_4_14))
+		setScrollText(arg_4_0.monthTF:Find("Mask/leftTimeGo/Text"), i18n("charge_month_card_lefttime_tip", var_4_14))
 		setActive(var_4_7, true)
 		setActive(var_4_5, var_4_15 < var_4_14)
 		setActive(arg_4_0.monthTF:Find("NewTag"), false)

@@ -11,13 +11,15 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.name = nil
 	arg_1_0.chatting = false
 	arg_1_0.chatTrOffset = Vector3(118, -276, 0)
+
+	pg.DelegateInfo.New(arg_1_0)
 end
 
 function var_0_0.InitChatPosition(arg_2_0)
 	return
 end
 
-function var_0_0.Init(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
+function var_0_0.Init(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4, arg_3_5)
 	if not arg_3_0.isInitChatPosition then
 		arg_3_0.isInitChatPosition = true
 
@@ -39,182 +41,192 @@ function var_0_0.Init(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 	end
 
 	arg_3_0:Load(arg_3_3, arg_3_4)
+
+	if arg_3_5 then
+		onButton(arg_3_0, arg_3_0.touch, function()
+			arg_3_5()
+		end, SFX_PACNEL)
+	end
 end
 
-function var_0_0.Load(arg_4_0, arg_4_1, arg_4_2)
-	local var_4_0
+function var_0_0.Load(arg_5_0, arg_5_1, arg_5_2)
+	local var_5_0
 
-	if arg_4_0.name == "mingshi_live2d" then
-		var_4_0 = ShopMingShiPainting.New(arg_4_0._painting)
+	if arg_5_0.name == "mingshi_live2d" then
+		var_5_0 = ShopMingShiPainting.New(arg_5_0._painting)
 	else
-		var_4_0 = ShopMeshPainting.New(arg_4_0._painting)
+		var_5_0 = ShopMeshPainting.New(arg_5_0._painting)
 	end
 
-	arg_4_0.iShopPainting = var_4_0
+	arg_5_0.iShopPainting = var_5_0
 
-	var_4_0:Load(arg_4_0.name, arg_4_1, arg_4_2)
+	var_5_0:Load(arg_5_0.name, arg_5_1, arg_5_2)
 end
 
-function var_0_0.setSecretaryPos(arg_5_0, arg_5_1)
-	if arg_5_1 then
-		arg_5_0.secretaryTf = arg_5_1
+function var_0_0.setSecretaryPos(arg_6_0, arg_6_1)
+	if arg_6_1 then
+		arg_6_0.secretaryTf = arg_6_1
 	end
 end
 
-function var_0_0.Chat(arg_6_0, arg_6_1, arg_6_2, arg_6_3, arg_6_4)
-	local var_6_0 = 1
+function var_0_0.Chat(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
+	local var_7_0 = 1
 
-	if type(arg_6_1) == "table" then
-		var_6_0 = math.random(1, #arg_6_1)
-		arg_6_1 = arg_6_1[var_6_0]
+	if type(arg_7_1) == "table" then
+		var_7_0 = math.random(1, #arg_7_1)
+		arg_7_1 = arg_7_1[var_7_0]
 	end
 
-	if type(arg_6_2) == "table" then
-		arg_6_2 = arg_6_2[var_6_0]
+	if type(arg_7_2) == "table" then
+		arg_7_2 = arg_7_2[var_7_0]
 	end
 
-	if type(arg_6_3) == "table" then
-		arg_6_3 = arg_6_3[var_6_0]
+	if type(arg_7_3) == "table" then
+		arg_7_3 = arg_7_3[var_7_0]
 	end
 
-	local function var_6_1()
-		if arg_6_1 then
-			arg_6_0:ShowShipWord(arg_6_1)
+	local function var_7_1()
+		if arg_7_1 then
+			arg_7_0:ShowShipWord(arg_7_1)
 		end
 
-		if arg_6_3 and arg_6_0.iShopPainting then
-			arg_6_0.iShopPainting:Action(arg_6_3)
+		if arg_7_3 and arg_7_0.iShopPainting then
+			arg_7_0.iShopPainting:Action(arg_7_3)
 		end
 	end
 
-	if not arg_6_0.chatting or arg_6_4 then
-		arg_6_0:StopChat()
+	if not arg_7_0.chatting or arg_7_4 then
+		arg_7_0:StopChat()
 
-		if arg_6_2 then
-			arg_6_0:PlayCV(arg_6_2, function(arg_8_0)
-				if arg_8_0 then
-					arg_6_0._cueInfo = arg_8_0.cueInfo
+		if arg_7_2 then
+			arg_7_0:PlayCV(arg_7_2, function(arg_9_0)
+				if arg_9_0 then
+					arg_7_0._cueInfo = arg_9_0.cueInfo
 				end
 
-				var_6_1()
+				var_7_1()
 			end)
 		else
-			var_6_1()
+			var_7_1()
 		end
 	end
 end
 
-function var_0_0.ShowShipWord(arg_9_0, arg_9_1)
-	arg_9_0.chatting = true
+function var_0_0.ShowShipWord(arg_10_0, arg_10_1)
+	arg_10_0.chatting = true
 
-	if LeanTween.isTweening(go(arg_9_0.chat)) then
-		LeanTween.cancel(go(arg_9_0.chat))
+	if LeanTween.isTweening(go(arg_10_0.chat)) then
+		LeanTween.cancel(go(arg_10_0.chat))
 	end
 
-	local var_9_0 = 0.3
-	local var_9_1 = 3
+	local var_10_0 = 0.3
+	local var_10_1 = 3
 
-	if arg_9_0._cueInfo then
-		local var_9_2 = long2int(arg_9_0._cueInfo.length) / 1000
+	if arg_10_0._cueInfo then
+		local var_10_2 = long2int(arg_10_0._cueInfo.length) / 1000
 
-		if var_9_1 < var_9_2 then
-			var_9_1 = var_9_2
+		if var_10_1 < var_10_2 then
+			var_10_1 = var_10_2
 		end
 	end
 
-	setActive(arg_9_0.chat, true)
-	setText(arg_9_0.chatText, arg_9_1)
-	LeanTween.scale(arg_9_0.chat.gameObject, Vector3.New(1, 1, 1), var_9_0):setFrom(Vector3.New(0, 0, 0)):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function()
-		if IsNil(arg_9_0.chat) then
+	setActive(arg_10_0.chat, true)
+	setText(arg_10_0.chatText, arg_10_1)
+	LeanTween.scale(arg_10_0.chat.gameObject, Vector3.New(1, 1, 1), var_10_0):setFrom(Vector3.New(0, 0, 0)):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function()
+		if IsNil(arg_10_0.chat) then
 			return
 		end
 
-		LeanTween.scale(arg_9_0.chat.gameObject, Vector3.New(0, 0, 1), var_9_0):setFrom(Vector3.New(1, 1, 1)):setEase(LeanTweenType.easeInBack):setDelay(var_9_1):setOnComplete(System.Action(function()
-			if IsNil(arg_9_0.chat) then
+		LeanTween.scale(arg_10_0.chat.gameObject, Vector3.New(0, 0, 1), var_10_0):setFrom(Vector3.New(1, 1, 1)):setEase(LeanTweenType.easeInBack):setDelay(var_10_1):setOnComplete(System.Action(function()
+			if IsNil(arg_10_0.chat) then
 				return
 			end
 
-			arg_9_0:StopChat()
+			arg_10_0:StopChat()
 		end))
 	end))
 end
 
-function var_0_0.StopChat(arg_12_0)
-	arg_12_0.chatting = nil
+function var_0_0.StopChat(arg_13_0)
+	arg_13_0.chatting = nil
 
-	if LeanTween.isTweening(go(arg_12_0.chat)) then
-		LeanTween.cancel(go(arg_12_0.chat))
+	if LeanTween.isTweening(go(arg_13_0.chat)) then
+		LeanTween.cancel(go(arg_13_0.chat))
 	end
 
-	setActive(arg_12_0.chat, false)
-	arg_12_0:StopCV()
+	setActive(arg_13_0.chat, false)
+	arg_13_0:StopCV()
 end
 
-local function var_0_1(arg_13_0, arg_13_1)
-	local var_13_0
-	local var_13_1
+local function var_0_1(arg_14_0, arg_14_1)
+	local var_14_0
+	local var_14_1
 
-	if string.find(arg_13_1, "/") then
-		local var_13_2 = string.split(arg_13_1, "/")
+	if string.find(arg_14_1, "/") then
+		local var_14_2 = string.split(arg_14_1, "/")
 
-		var_13_0 = var_13_2[1]
-		var_13_1 = var_13_2[2]
-	elseif arg_13_0.name == "mingshi_live2d" then
-		var_13_0 = "cv-chargeShop"
-		var_13_1 = arg_13_1
-	elseif string.find(arg_13_1, "ryza_shop") then
-		var_13_0 = "cv-1090002"
-		var_13_1 = arg_13_1
-	elseif string.find(arg_13_1, "atelier_yumia_shop") then
-		var_13_0 = "cv-1130002"
-		var_13_1 = arg_13_1
+		var_14_0 = var_14_2[1]
+		var_14_1 = var_14_2[2]
+	elseif arg_14_0.name == "mingshi_live2d" then
+		var_14_0 = "cv-chargeShop"
+		var_14_1 = arg_14_1
+	elseif string.find(arg_14_1, "ryza_shop") then
+		var_14_0 = "cv-1090002"
+		var_14_1 = arg_14_1
+	elseif string.find(arg_14_1, "atelier_yumia_shop") then
+		var_14_0 = "cv-1130002"
+		var_14_1 = arg_14_1
 	else
-		var_13_0 = "cv-shop"
-		var_13_1 = arg_13_1
+		var_14_0 = "cv-shop"
+		var_14_1 = arg_14_1
 	end
 
-	return var_13_0, var_13_1
+	return var_14_0, var_14_1
 end
 
-function var_0_0.PlayCV(arg_14_0, arg_14_1, arg_14_2)
-	local var_14_0, var_14_1 = var_0_1(arg_14_0, arg_14_1)
+function var_0_0.PlayCV(arg_15_0, arg_15_1, arg_15_2)
+	local var_15_0, var_15_1 = var_0_1(arg_15_0, arg_15_1)
 
-	arg_14_0:StopCV()
-	pg.CriMgr.GetInstance():PlayCV_V3(var_14_0, var_14_1, arg_14_2)
+	arg_15_0:StopCV()
+	pg.CriMgr.GetInstance():PlayCV_V3(var_15_0, var_15_1, arg_15_2)
 
-	arg_14_0._currentVoice = var_14_0
+	arg_15_0._currentVoice = var_15_0
 end
 
-function var_0_0.StopCV(arg_15_0)
-	if arg_15_0._currentVoice then
-		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(arg_15_0._currentVoice)
+function var_0_0.StopCV(arg_16_0)
+	if arg_16_0._currentVoice then
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(arg_16_0._currentVoice)
 	end
 
-	arg_15_0._currentVoice = nil
-	arg_15_0._cueInfo = nil
+	arg_16_0._currentVoice = nil
+	arg_16_0._cueInfo = nil
 end
 
-function var_0_0.UnLoad(arg_16_0)
-	if arg_16_0.iShopPainting and arg_16_0.name then
-		arg_16_0.iShopPainting:UnLoad(arg_16_0.name)
+function var_0_0.UnLoad(arg_17_0)
+	if arg_17_0.iShopPainting and arg_17_0.name then
+		arg_17_0.iShopPainting:UnLoad(arg_17_0.name)
 
-		arg_16_0.name = nil
-		arg_16_0.iShopPainting = nil
+		arg_17_0.name = nil
+		arg_17_0.iShopPainting = nil
 	end
 end
 
-function var_0_0.Show(arg_17_0, arg_17_1)
-	if arg_17_1 then
-		setActive(arg_17_0._painting, true)
+function var_0_0.Show(arg_18_0, arg_18_1)
+	if arg_18_1 then
+		setActive(arg_18_0._painting, true)
 	else
-		setActive(arg_17_0._painting, false)
-		arg_17_0:StopCV()
+		setActive(arg_18_0._painting, false)
+
+		arg_18_0.name = nil
+
+		arg_18_0:StopCV()
 	end
 end
 
-function var_0_0.Dispose(arg_18_0)
-	arg_18_0:UnLoad()
-	arg_18_0:StopCV()
+function var_0_0.Dispose(arg_19_0)
+	pg.DelegateInfo.Dispose(arg_19_0)
+	arg_19_0:UnLoad()
+	arg_19_0:StopCV()
 end
 
 return var_0_0

@@ -12,7 +12,7 @@ function var_0_0.Add(arg_2_0, arg_2_1, arg_2_2)
 	local var_2_0
 
 	if arg_2_0.preTimeStampDic[arg_2_1] then
-		var_2_0 = arg_2_0.preTimeStampDic[arg_2_1] + arg_2_0.intervalTime
+		var_2_0 = math.min(arg_2_0.preTimeStampDic[arg_2_1] + arg_2_0.intervalTime, pg.TimeMgr.GetInstance():GetServerTimeMs() + arg_2_0.delayedTime)
 	else
 		arg_2_0.delayedDataDic[arg_2_1] = {}
 		var_2_0 = pg.TimeMgr.GetInstance():GetServerTimeMs() + arg_2_0.delayedTime
@@ -37,7 +37,17 @@ function var_0_0.Update(arg_3_0)
 	end
 end
 
-function var_0_0.Dispose(arg_4_0)
+function var_0_0.RemoveDataById(arg_4_0, arg_4_1)
+	if arg_4_0.delayedDataDic[arg_4_1] then
+		arg_4_0.delayedDataDic[arg_4_1] = nil
+	end
+
+	if arg_4_0.preTimeStampDic[arg_4_1] then
+		arg_4_0.preTimeStampDic[arg_4_1] = nil
+	end
+end
+
+function var_0_0.Dispose(arg_5_0)
 	return
 end
 

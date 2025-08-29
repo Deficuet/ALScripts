@@ -7,13 +7,14 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.valueTxt = arg_2_0:findTF("calc/value/Text"):GetComponent(typeof(Text))
+	arg_2_0.valueInput = arg_2_0:findTF("calc/value/InputField")
 	arg_2_0.addBtn = arg_2_0:findTF("calc/add")
 	arg_2_0.reduceBtn = arg_2_0:findTF("calc/reduce")
 	arg_2_0.sellBtn = arg_2_0:findTF("calc/sell_btn")
 	arg_2_0.priceTxt = arg_2_0:findTF("calc/sell_btn/price/Text"):GetComponent(typeof(Text))
 
-	setText(arg_2_0:findTF("calc/sell_btn/Text"), i18n1("出售"))
+	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, arg_2_0:findTF("calc/sell_btn/price/res"))
+	setText(arg_2_0:findTF("calc/sell_btn/Text"), i18n("island_word_convert"))
 end
 
 function var_0_0.OnShow(arg_3_0)
@@ -32,21 +33,34 @@ function var_0_0.OnShow(arg_3_0)
 		arg_3_0:UpdateValue(var_5_0)
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.sellBtn, function()
-		local var_6_0 = arg_3_0.item:GetSellingPrice()
-		local var_6_1 = var_6_0:getName()
-		local var_6_2 = arg_3_0.item:GetName()
-		local var_6_3 = arg_3_0.value
-		local var_6_4 = var_6_0.count * arg_3_0.value
+		arg_3_0:Hide()
 
-		arg_3_0:GetMsgBoxMgr():Show({
-			content = i18n1(string.format("是否确认出售,%sx%d\n获得%sx%d", var_6_2, var_6_3, var_6_1, var_6_4)),
-			onYes = function()
-				arg_3_0:emit(IslandMediator.ON_SELL_ITEM, arg_3_0.item.id, arg_3_0.value)
-				arg_3_0:Hide()
-			end
-		})
+		if _IslandCore then
+			_IslandCore:GetView():NotifiyIsland(ISLAND_EX_EVT.SHOW_MSG, {
+				content = i18n("island_season_window_transformtip"),
+				onYes = function()
+					arg_3_0:emit(IslandMediator.ON_CONVERT_SEASON_PT, {
+						{
+							id = arg_3_0.item.id,
+							num = arg_3_0.value
+						}
+					})
+				end
+			})
+		end
 	end, SFX_PANEL)
-	arg_3_0:bind(GAME.ISLAND_SELL_ITEM_DONE, function()
+	onInputEndEdit(arg_3_0, arg_3_0.valueInput, function(arg_8_0)
+		local var_8_0 = 0
+
+		if not arg_8_0 or arg_8_0 == "" or not tonumber(arg_8_0) then
+			local var_8_1 = 1
+		end
+
+		local var_8_2 = tonumber(arg_8_0)
+
+		arg_3_0:UpdateValue(var_8_2)
+	end)
+	arg_3_0:bind(GAME.ISLAND_CONVERT_SEASON_PT_DONE, function()
 		arg_3_0:FlushCalc(arg_3_0.item.id)
 	end)
 
@@ -55,22 +69,20 @@ function var_0_0.OnShow(arg_3_0)
 	arg_3_0:FlushCalc(var_3_1)
 end
 
-function var_0_0.FlushCalc(arg_9_0, arg_9_1)
-	arg_9_0.item = getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetItemById(arg_9_1) or IslandItem.New({
-		id = arg_9_1
+function var_0_0.FlushCalc(arg_10_0, arg_10_1)
+	arg_10_0.item = getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetItemById(arg_10_1) or IslandItem.New({
+		id = arg_10_1
 	})
-	arg_9_0.value = 1
+	arg_10_0.value = 1
 
-	arg_9_0:UpdateValue(arg_9_0.value)
+	arg_10_0:UpdateValue(arg_10_0.value)
 end
 
-function var_0_0.UpdateValue(arg_10_0, arg_10_1)
-	arg_10_0.value = math.max(1, math.min(arg_10_1, arg_10_0.item:GetCount()))
+function var_0_0.UpdateValue(arg_11_0, arg_11_1)
+	arg_11_0.value = math.max(1, math.min(arg_11_1, arg_11_0.item:GetCount()))
+	arg_11_0.priceTxt.text = "x" .. arg_11_0.item:GetConvertPt() * arg_11_0.value
 
-	local var_10_0 = arg_10_0.item:GetSellingPrice()
-
-	arg_10_0.priceTxt.text = "x" .. var_10_0.count * arg_10_0.value
-	arg_10_0.valueTxt.text = arg_10_0.value
+	setInputText(arg_11_0.valueInput, arg_11_0.value)
 end
 
 return var_0_0

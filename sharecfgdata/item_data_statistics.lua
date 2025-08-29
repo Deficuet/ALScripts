@@ -107143,7 +107143,7 @@ end)()
 		display_effect = "",
 		id = 59853,
 		other_resource_cost = "[]",
-		replace_item = 0,
+		replace_item = 59857,
 		usage = "usage_undefined",
 		link_id = 0,
 		icon = "Props/electboostdevice",
@@ -107264,6 +107264,38 @@ end)()
 		shiptrans_id = {
 			107974
 		},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[59857] = {
+		open_directly = 0,
+		name = "电气增幅装置纪念版",
+		display = "参与活动「电器功率增幅中」的纪念品",
+		type = 1,
+		display_effect = "",
+		id = 59857,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/electboostdevice_re",
+		order = 0,
+		rarity = 3,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
 		combination_display = {},
 		limit = {}
 	}

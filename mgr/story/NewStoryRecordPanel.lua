@@ -234,129 +234,133 @@ function var_0_0.PlayAnimation(arg_26_0, arg_26_1)
 	arg_26_1()
 end
 
-function var_0_0.UpdateRecord(arg_29_0, arg_29_1, arg_29_2)
-	GetOrAddComponent(arg_29_1, typeof(CanvasGroup)).alpha = 1
+function var_0_0.UpdateIcon(arg_29_0, arg_29_1, arg_29_2)
+	local var_29_0 = arg_29_1.icon
 
-	local var_29_0 = arg_29_1:Find("icon")
+	GetImageSpriteFromAtlasAsync("SquareIcon/" .. var_29_0, "", arg_29_2:Find("Image"))
+end
 
-	setActive(var_29_0, arg_29_2.icon)
+function var_0_0.UpdateRecord(arg_30_0, arg_30_1, arg_30_2)
+	GetOrAddComponent(arg_30_1, typeof(CanvasGroup)).alpha = 1
 
-	if arg_29_2.icon then
-		local var_29_1 = arg_29_2.icon
+	local var_30_0 = arg_30_1:Find("icon")
 
-		GetImageSpriteFromAtlasAsync("SquareIcon/" .. var_29_1, "", var_29_0:Find("Image"))
+	setActive(var_30_0, arg_30_2.icon)
+
+	if arg_30_2.icon then
+		arg_30_0:UpdateIcon(arg_30_2, var_30_0)
 	end
 
-	if arg_29_2.name and arg_29_2.nameColor then
-		local var_29_2 = string.gsub(arg_29_2.nameColor, "#", "")
+	if arg_30_2.name and arg_30_2.nameColor then
+		local var_30_1 = string.gsub(arg_30_2.nameColor, "#", "")
 
-		arg_29_1:Find("name"):GetComponent(typeof(Outline)).effectColor = Color.NewHex(var_29_2)
+		arg_30_1:Find("name"):GetComponent(typeof(Outline)).effectColor = Color.NewHex(var_30_1)
 
-		setText(arg_29_1:Find("name"), setColorStr(arg_29_2.name, arg_29_2.nameColor))
+		setText(arg_30_1:Find("name"), setColorStr(arg_30_2.name, arg_30_2.nameColor))
 	else
-		setText(arg_29_1:Find("name"), arg_29_2.name or "")
+		setText(arg_30_1:Find("name"), arg_30_2.name or "")
 	end
 
-	local var_29_3 = arg_29_2.list
-	local var_29_4 = UIItemList.New(arg_29_1:Find("content"), arg_29_1:Find("content/Text"))
+	local var_30_2 = arg_30_2.list
+	local var_30_3 = UIItemList.New(arg_30_1:Find("content"), arg_30_1:Find("content/Text"))
 
-	var_29_4:make(function(arg_30_0, arg_30_1, arg_30_2)
-		if arg_30_0 == UIItemList.EventUpdate then
-			setText(arg_30_2, var_29_3[arg_30_1 + 1])
+	var_30_3:make(function(arg_31_0, arg_31_1, arg_31_2)
+		if arg_31_0 == UIItemList.EventUpdate then
+			setText(arg_31_2, var_30_2[arg_31_1 + 1])
 		end
 	end)
-	var_29_4:align(#var_29_3)
-	setActive(arg_29_1:Find("player"), arg_29_2.icon == nil and arg_29_2.isPlayer)
+	var_30_3:align(#var_30_2)
+	setActive(arg_30_1:Find("player"), arg_30_2.icon == nil and arg_30_2.isPlayer)
 
-	local var_29_5 = arg_29_2.icon == nil and arg_29_2.name == nil
-	local var_29_6 = var_29_4.container:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
-	local var_29_7 = UnityEngine.RectOffset.New()
+	local var_30_4 = arg_30_2.icon == nil and arg_30_2.name == nil
+	local var_30_5 = var_30_3.container:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
+	local var_30_6 = UnityEngine.RectOffset.New()
 
-	var_29_7.left = 170
-	var_29_7.right = 0
-	var_29_7.top = var_29_5 and 25 or 90
-	var_29_7.bottom = var_29_5 and 25 or 50
-	var_29_6.padding = var_29_7
+	var_30_6.left = 170
+	var_30_6.right = 0
+	var_30_6.top = var_30_4 and 25 or 90
+	var_30_6.bottom = var_30_4 and 25 or 50
+	var_30_5.padding = var_30_6
 end
 
-function var_0_0.OnHide(arg_31_0)
-	arg_31_0:Clear()
-	arg_31_0:UnblurPanel()
-	setActive(arg_31_0._tf, false)
-	setButtonEnabled(arg_31_0.closeBtn, true)
+function var_0_0.OnHide(arg_32_0)
+	arg_32_0:Clear()
+	arg_32_0:UnblurPanel()
+	setActive(arg_32_0._tf, false)
+	setButtonEnabled(arg_32_0.closeBtn, true)
 
-	arg_31_0.state = var_0_5
+	arg_32_0.state = var_0_5
 end
 
-function var_0_0.Hide(arg_32_0)
-	if arg_32_0:IsShowing() then
-		arg_32_0.pageAnim:Play("anim_storyrecordUI_record_out")
+function var_0_0.Hide(arg_33_0)
+	if arg_33_0:IsShowing() then
+		arg_33_0.pageAnim:Play("anim_storyrecordUI_record_out")
 	end
 end
 
-function var_0_0.BlurPanel(arg_33_0)
+function var_0_0.BlurPanel(arg_34_0)
 	setParent(pg.NewStoryMgr.GetInstance()._tf, pg.UIMgr.GetInstance().UIMain)
 
-	local var_33_0 = pg.UIMgr.GetInstance().OverlayMain
+	local var_34_0 = pg.UIMgr.GetInstance().OverlayMain
 
-	arg_33_0.hideNodes = {}
+	arg_34_0.hideNodes = {}
 
-	for iter_33_0 = 1, var_33_0.childCount do
-		local var_33_1 = var_33_0:GetChild(iter_33_0 - 1)
+	for iter_34_0 = 1, var_34_0.childCount do
+		local var_34_1 = var_34_0:GetChild(iter_34_0 - 1)
 
-		if isActive(var_33_1) then
-			table.insert(arg_33_0.hideNodes, var_33_1)
-			setActive(var_33_1, false)
+		if isActive(var_34_1) then
+			table.insert(arg_34_0.hideNodes, var_34_1)
+			setActive(var_34_1, false)
 		end
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_33_0._tf, false, {
+	pg.UIMgr.GetInstance():BlurPanel(arg_34_0._tf, false, {
 		weight = LayerWeightConst.TOP_LAYER
 	})
 end
 
-function var_0_0.UnblurPanel(arg_34_0)
+function var_0_0.UnblurPanel(arg_35_0)
 	setParent(pg.NewStoryMgr.GetInstance()._tf, pg.UIMgr.GetInstance().OverlayToast)
 
-	if arg_34_0.hideNodes and #arg_34_0.hideNodes > 0 then
-		for iter_34_0, iter_34_1 in ipairs(arg_34_0.hideNodes) do
-			setActive(iter_34_1, true)
+	if arg_35_0.hideNodes and #arg_35_0.hideNodes > 0 then
+		for iter_35_0, iter_35_1 in ipairs(arg_35_0.hideNodes) do
+			setActive(iter_35_1, true)
 		end
 	end
 
-	arg_34_0.hideNodes = {}
+	arg_35_0.hideNodes = {}
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_34_0._tf, arg_34_0.parentTF)
+	pg.UIMgr.GetInstance():UnblurPanel(arg_35_0._tf, arg_35_0.parentTF)
 end
 
-function var_0_0.Clear(arg_35_0)
-	for iter_35_0, iter_35_1 in ipairs(arg_35_0.usingTpls) do
-		var_0_10(arg_35_0, iter_35_1)
+function var_0_0.Clear(arg_36_0)
+	for iter_36_0, iter_36_1 in ipairs(arg_36_0.usingTpls) do
+		var_0_10(arg_36_0, iter_36_1)
 	end
 
-	arg_35_0.usingTpls = {}
+	arg_36_0.usingTpls = {}
 end
 
-function var_0_0.Unload(arg_36_0)
-	if arg_36_0.state > var_0_2 then
-		arg_36_0.state = var_0_6
+function var_0_0.Unload(arg_37_0)
+	if arg_37_0.state > var_0_2 then
+		arg_37_0.state = var_0_6
 
-		if not IsNil(arg_36_0.closeBtn) then
-			removeOnButton(arg_36_0.closeBtn)
+		if not IsNil(arg_37_0.closeBtn) then
+			removeOnButton(arg_37_0.closeBtn)
 		end
 
-		Object.Destroy(arg_36_0._go)
+		Object.Destroy(arg_37_0._go)
 
-		arg_36_0._go = nil
-		arg_36_0._tf = nil
-		arg_36_0.container = nil
-		arg_36_0.tpl = nil
+		arg_37_0._go = nil
+		arg_37_0._tf = nil
+		arg_37_0.container = nil
+		arg_37_0.tpl = nil
 	end
 end
 
-function var_0_0.Dispose(arg_37_0)
-	arg_37_0:Hide()
-	arg_37_0:Unload()
+function var_0_0.Dispose(arg_38_0)
+	arg_38_0:Hide()
+	arg_38_0:Unload()
 end
 
 return var_0_0

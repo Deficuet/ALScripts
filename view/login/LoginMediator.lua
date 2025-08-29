@@ -324,35 +324,18 @@ function var_0_0.checkPaintingRes(arg_23_0)
 		arg_23_0.viewComponent.isNeedResCheck = true
 	end
 
-	local function var_23_2()
-		local var_26_0 = {
-			groupName = "L2D",
-			fileNameList = {
-				"live2d/mingshi"
-			}
-		}
-		local var_26_1 = {
-			dataList = {
-				var_26_0
-			},
-			onFinish = var_23_0
-		}
-
-		pg.FileDownloadMgr.GetInstance():Main(var_26_1)
-	end
-
 	pg.FileDownloadMgr.GetInstance():SetRemind(false)
 
-	local var_23_3 = PaintingGroupConst.GetPaintingNameListInLogin()
-	local var_23_4 = {
+	local var_23_2 = PaintingGroupConst.GetPaintingNameListInLogin()
+	local var_23_3 = {
 		isShowBox = true,
-		paintingNameList = var_23_3,
-		finishFunc = var_23_2,
+		paintingNameList = var_23_2,
+		finishFunc = var_23_0,
 		onNo = var_23_1,
 		onClose = var_23_1
 	}
 
-	PaintingGroupConst.PaintingDownload(var_23_4)
+	PaintingGroupConst.PaintingDownload(var_23_3)
 end
 
 return var_0_0

@@ -493,7 +493,7 @@ function var_0_0.updateSkin(arg_48_0)
 		pg.UIMgr.GetInstance():LoadingOn()
 
 		arg_48_0.live2dRequestId = pg.Live2DMgr.GetInstance():GetLive2DModelAsync(arg_48_0.paintSkin, function(arg_49_0)
-			UIUtil.SetLayerRecursively(arg_49_0, LayerMask.NameToLayer("UI"))
+			HotfixHelper.SetLayerRecursively(arg_49_0, LayerMask.NameToLayer("UI"))
 
 			local var_49_0 = arg_49_0.transform
 
@@ -770,7 +770,7 @@ function var_0_0.updateListItemRotate(arg_65_0, arg_65_1, arg_65_2)
 end
 
 function var_0_0.updateCameraCanvas(arg_66_0)
-	local var_66_0 = CameraMgr.instance.AspectRatio
+	local var_66_0 = pg.CameraFixMgr.GetInstance().targetRatio
 	local var_66_1 = UnityEngine.Screen.width
 	local var_66_2 = UnityEngine.Screen.height
 	local var_66_3 = 1

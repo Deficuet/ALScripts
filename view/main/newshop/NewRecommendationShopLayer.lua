@@ -6,7 +6,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.resources = arg_2_0._tf:Find("top/resources")
+	arg_2_0.resources = arg_2_0._tf:Find("adapt/top/resources")
 	arg_2_0.banners = {}
 	arg_2_0.banners.banner_big = BannerScrollRectDorm3dShop.New(arg_2_0._tf:Find("panel/banner_big/banner/mask/content"), arg_2_0._tf:Find("panel/banner_big/banner/dots"))
 	arg_2_0.banners.banner_middle = BannerScrollRectDorm3dShop.New(arg_2_0._tf:Find("panel/banner_middle/banner/mask/content"), arg_2_0._tf:Find("panel/banner_middle/banner/dots"))
@@ -326,6 +326,8 @@ function var_0_0.StartTimer(arg_16_0, arg_16_1)
 	if not arg_16_0.timers then
 		arg_16_0.timers = {}
 	end
+
+	arg_16_1()
 
 	local var_16_0 = Timer.New(function()
 		arg_16_1()

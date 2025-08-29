@@ -10641,7 +10641,7 @@ end)()
 		package_sort_id = 0,
 		collaboration_skin_time = "",
 		type = 2,
-		second_text = "免费材料",
+		second_text = "免费礼包",
 		package_tag = "",
 		first_icon = "",
 		desc = "领取每周免费礼包",
@@ -25432,6 +25432,72 @@ end)()
 					2025,
 					8,
 					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[60666] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 2,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "980钻石购买限时礼包-比翼双飞(0828马塞纳美服周年第二弹版本)",
+		group_limit = 0,
+		type_order = 5,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 0,
+		genre = "gift_package",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 60666,
+		resource_num = 980,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			40100
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					11
 				},
 				{
 					23,
@@ -90144,7 +90210,7 @@ end)()
 		tag = 2,
 		limit_args2 = "",
 		time_second = 0,
-		order = 4,
+		order = 5,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -90632,7 +90698,7 @@ end)()
 		tag = 2,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 4,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -90754,7 +90820,7 @@ end)()
 		tag = 2,
 		limit_args2 = "",
 		time_second = 0,
-		order = 4,
+		order = 5,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -91242,7 +91308,7 @@ end)()
 		tag = 2,
 		limit_args2 = "",
 		time_second = 0,
-		order = 5,
+		order = 4,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -112332,6 +112398,73 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.shop_template[270401] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 26,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "宿舍720钻石购买滑梯",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		genre = "dorm3d_gift",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 270401,
+		resource_num = 720,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"count",
+				0,
+				1
+			}
+		},
+		effect_args = {
+			401
+		},
+		time = {
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.shop_template[271101] = {
 		first_text = "",
 		package_sort_id = 0,
@@ -112622,6 +112755,48 @@ end)()
 					59
 				}
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[270303] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 26,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "宿舍480钻石购买付费沙发",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 1,
+		genre = "dorm3d_gift",
+		akashi_pick = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 270303,
+		resource_num = 480,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"count",
+				0,
+				1
+			}
+		},
+		effect_args = {
+			323
 		}
 	}
 end)()

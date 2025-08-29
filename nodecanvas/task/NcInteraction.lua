@@ -1,8 +1,8 @@
 local var_0_0 = class("NcInteraction", import("..base.NodeCanvasBaseTask"))
 
 function var_0_0.OnExecute(arg_1_0)
-	local var_1_0 = arg_1_0:GetArgByName("show")
-	local var_1_1 = arg_1_0:GetStringArg("id")
+	local var_1_0 = arg_1_0:GetBoolArg("show")
+	local var_1_1 = arg_1_0:GetAgent().gameObject:GetComponent(typeof(WorldObjectItem)).id
 
 	if var_1_0 then
 		local function var_1_2()

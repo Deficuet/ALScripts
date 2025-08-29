@@ -28,7 +28,7 @@ pg.dorm3d_accompany = {
 		id = 2,
 		image = "tianlangxing_accompany_beach",
 		timeline = "Xiangban_shatan",
-		sceneInfo = "map_beach_02|Beach",
+		sceneInfo = "map_beach_01|Beach",
 		favor = {
 			300,
 			{
@@ -52,7 +52,7 @@ pg.dorm3d_accompany = {
 		id = 21,
 		image = "nengdai_accompany_room",
 		timeline = "Xiangban_shinei_ND",
-		sceneInfo = "map_noshirohostel_02|Nengdai_DB/NoshiroHostel",
+		sceneInfo = "map_noshirohostel_01|Nengdai_DB/NoshiroHostel",
 		favor = {
 			300,
 			{
@@ -72,7 +72,7 @@ pg.dorm3d_accompany = {
 		id = 22,
 		image = "tianlangxing_accompany_beach",
 		timeline = "Xiangban_shatan_ND",
-		sceneInfo = "map_beach_02|Beach",
+		sceneInfo = "map_beach_01|Beach",
 		favor = {
 			300,
 			{
@@ -96,7 +96,7 @@ pg.dorm3d_accompany = {
 		id = 31,
 		image = "ankeleiqi_accompany_room",
 		timeline = "Xiangban_shinei_Ab",
-		sceneInfo = "map_anchoragehostel_02|Ankeleiqi_DB/Anchoragehostel",
+		sceneInfo = "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
 		favor = {
 			300,
 			{
@@ -116,7 +116,7 @@ pg.dorm3d_accompany = {
 		id = 32,
 		image = "tianlangxing_accompany_beach",
 		timeline = "Xiangban_shatan_Ab",
-		sceneInfo = "map_beach_02|Beach",
+		sceneInfo = "map_beach_01|Beach",
 		favor = {
 			300,
 			{
@@ -140,7 +140,7 @@ pg.dorm3d_accompany = {
 		id = 111,
 		image = "xinzexi_accompany_room",
 		timeline = "Xiangban_personal",
-		sceneInfo = "map_newjerseyhostel_02|Xinzexi_DB/Newjerseyhostel",
+		sceneInfo = "map_newjerseyhostel_01|Xinzexi_DB/Newjerseyhostel",
 		favor = {
 			300,
 			{
@@ -160,7 +160,7 @@ pg.dorm3d_accompany = {
 		id = 112,
 		image = "cafe_accompany",
 		timeline = "Xiangban_cafe",
-		sceneInfo = "map_publiccafe_02|Publiccafe",
+		sceneInfo = "map_publiccafe_01|Publiccafe",
 		favor = {
 			300,
 			{

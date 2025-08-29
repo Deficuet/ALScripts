@@ -8,78 +8,242 @@ var_0_0.TYPE_AGORA_CANCEL = 5
 var_0_0.TYPE_OPEN_PAGE = 6
 var_0_0.TYPE_TRANSFER = 7
 var_0_0.TYPE_BT_VALUE = 8
+var_0_0.TYPE_ITEM_INTERACT = 9
+var_0_0.TYPE_ITEM_INTERACT_CANCEL = 10
+var_0_0.TYPE_ACCEPT_TASK = 11
+var_0_0.TYPE_SUBMIT_TASK = 12
+var_0_0.TYPE_SIGNIN = 13
+var_0_0.TYPE_SELECT_GIFT = 14
+var_0_0.TYPE_NOTHING = 15
+var_0_0.TYPE_DECORATION = 18
+var_0_0.TYPE_EXTEND_AGORA = 19
+var_0_0.TYPE_ECHANGE_AGORA_BASE = 20
+var_0_0.TYPE_PERFORMANCE = 21
+var_0_0.TYPE_NEXT_INTERACTION = 22
+var_0_0.SIGNIN_TIME_ID = 4002
 
-function var_0_0.GetInteractionOptions(arg_1_0)
-	local var_1_0 = pg.island_interaction.get_id_list_by_groupId[arg_1_0] or {}
+function var_0_0.GetInteractionOptions(arg_1_0, arg_1_1, arg_1_2)
+	local var_1_0 = pg.island_interaction.get_id_list_by_groupId[arg_1_1] or {}
 
-	return _.map(var_1_0, function(arg_2_0)
+	return _(var_1_0):chain():map(function(arg_2_0)
 		return pg.island_interaction[arg_2_0]
+	end):select(function(arg_3_0)
+		if arg_3_0.only_self == 0 and arg_1_0.id ~= getProxy(IslandProxy):GetIsland().id then
+			return false
+		end
+
+		return _.all(arg_3_0.show_condition, function(arg_4_0)
+			return IslandInteractionConditionUntil.Check(arg_1_0, arg_4_0, arg_1_2)
+		end)
+	end):value()
+end
+
+local function var_0_1(arg_5_0, arg_5_1, arg_5_2)
+	require("nodecanvas.Task.NcPlayStory").New(nil, {}):DoAction(arg_5_0, function()
+		var_0_0.AddInteractionTaskProgress(arg_5_1, arg_5_2)
 	end)
 end
 
-local function var_0_1(arg_3_0)
-	require("nodecanvas.Task.NcPlayStory").New(nil, {}):DoAction(arg_3_0)
+local function var_0_2(arg_7_0, arg_7_1, arg_7_2)
+	require("nodecanvas.Task.NcPlayChatBubble").New(nil, {}):DoAction(arg_7_0, function()
+		var_0_0.AddInteractionTaskProgress(arg_7_1, arg_7_2)
+	end)
 end
 
-local function var_0_2(arg_4_0)
-	require("nodecanvas.Task.NcPlayChatBubble").New(nil, {}):DoAction(arg_4_0)
+local function var_0_3(arg_9_0, arg_9_1, arg_9_2)
+	local var_9_0 = (not arg_9_0 or arg_9_0 == 0) and arg_9_2.view.player or arg_9_2.view:GetUnitModule(arg_9_0)
+
+	if not var_9_0 then
+		return
+	end
+
+	if var_9_0._tf.childCount <= 0 then
+		return
+	end
+
+	local var_9_1 = var_9_0._tf:GetChild(0):GetComponent(typeof(Animator))
+
+	if not var_9_1 then
+		return
+	end
+
+	local var_9_2 = Animator.StringToHash(arg_9_1)
+
+	for iter_9_0 = 1, var_9_1.layerCount do
+		var_9_1:CrossFadeInFixedTime(var_9_2, 0.2, iter_9_0 - 1)
+	end
 end
 
-local function var_0_3(arg_5_0)
-	assert(false, "未处理类型:" .. var_0_0.TYPE_ACTION)
+local function var_0_4(arg_10_0, arg_10_1)
+	local var_10_0 = arg_10_1.view.player.id
+
+	arg_10_1:Op("InterAction", arg_10_0, var_10_0)
 end
 
-local function var_0_4(arg_6_0, arg_6_1)
-	local var_6_0 = arg_6_1.view.player.id
+local function var_0_5(arg_11_0, arg_11_1)
+	local var_11_0 = arg_11_1.view.player.id
 
-	arg_6_1:Op("InterAction", arg_6_0, var_6_0)
+	arg_11_1:Op("InterActionEnd", arg_11_0, var_11_0)
 end
 
-local function var_0_5(arg_7_0, arg_7_1)
-	local var_7_0 = arg_7_1.view.player.id
+local function var_0_6(arg_12_0, arg_12_1, arg_12_2)
+	local var_12_0 = Clone(arg_12_0)
+	local var_12_1 = var_12_0[1]
 
-	arg_7_1:Op("InterActionEnd", arg_7_0, var_7_0)
+	table.remove(var_12_0, 1)
+	table.insert(var_12_0, arg_12_2)
+	arg_12_1:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE, _G[var_12_1], unpack(var_12_0))
 end
 
-local function var_0_6(arg_8_0, arg_8_1, arg_8_2)
-	arg_8_1:Op("NotifiyIsland", ISLAND_EX_EVT.OPEN_PAGE, _G[arg_8_0], arg_8_2)
+local function var_0_7(arg_13_0, arg_13_1)
+	arg_13_1:NotifiyIsland(ISLAND_EX_EVT.SWITCH_MAP, tonumber(arg_13_0))
 end
 
-local function var_0_7(arg_9_0, arg_9_1)
-	arg_9_1:Op("NotifiyIsland", ISLAND_EX_EVT.SWITCH_MAP, tonumber(arg_9_0))
-end
+local function var_0_8(arg_14_0, arg_14_1, arg_14_2)
+	local var_14_0 = arg_14_2:GetView():GetUnitModule(arg_14_1)
 
-local function var_0_8(arg_10_0, arg_10_1, arg_10_2)
-	local var_10_0 = arg_10_2:GetView():GetUnitModule(arg_10_1)
-
-	if var_10_0.behaviourTreeOwner then
-		if tonumber(arg_10_0[2]) then
-			LuaHelper.NodeCanvasSetIntVariableValue(var_10_0.behaviourTreeOwner, arg_10_0[1], arg_10_0[2])
+	if var_14_0.behaviourTreeOwner then
+		if tonumber(arg_14_0[2]) then
+			LuaHelper.NodeCanvasSetIntVariableValue(var_14_0.behaviourTreeOwner, arg_14_0[1], arg_14_0[2])
 		else
-			var_10_0.behaviourTreeOwner.graph.blackboard:SetVariableValue(arg_10_0[1], arg_10_0[2])
+			var_14_0.behaviourTreeOwner.graph.blackboard:SetVariableValue(arg_14_0[1], arg_14_0[2])
 		end
 	end
 end
 
-function var_0_0.Response(arg_11_0, arg_11_1, arg_11_2)
-	local var_11_0 = pg.island_interaction[arg_11_2]
+local function var_0_9(arg_15_0, arg_15_1, arg_15_2)
+	local var_15_0 = arg_15_1.view.player.id
 
-	if var_11_0.type == var_0_0.TYPE_STORY then
-		var_0_1(var_11_0.param)
-	elseif var_11_0.type == var_0_0.TYPE_BUBBLE then
-		var_0_2(var_11_0.param)
-	elseif var_11_0.type == var_0_0.TYPE_ACTION then
-		var_0_3(var_11_0.param)
-	elseif var_11_0.type == var_0_0.TYPE_AGORA then
-		var_0_4(arg_11_1, arg_11_0)
-	elseif var_11_0.type == var_0_0.TYPE_AGORA_CANCEL then
-		var_0_5(arg_11_1, arg_11_0)
-	elseif var_11_0.type == var_0_0.TYPE_OPEN_PAGE then
-		var_0_6(var_11_0.param, arg_11_0, arg_11_1)
-	elseif var_11_0.type == var_0_0.TYPE_TRANSFER then
-		var_0_7(var_11_0.param, arg_11_0)
-	elseif var_11_0.type == var_0_0.TYPE_BT_VALUE then
-		var_0_8(var_11_0.param, arg_11_1, arg_11_0)
+	arg_15_1:Op("WorldObjectInterAction", arg_15_0, var_15_0, tonumber(arg_15_2))
+end
+
+local function var_0_10(arg_16_0, arg_16_1)
+	local var_16_0 = arg_16_1.view.player.id
+
+	arg_16_1:Op("WorldObjectInterActionEnd", arg_16_0, var_16_0)
+end
+
+local function var_0_11(arg_17_0, arg_17_1)
+	arg_17_1:NotifiyIsland(ISLAND_EX_EVT.TRIGGER_TASK, tonumber(arg_17_0))
+end
+
+local function var_0_12(arg_18_0, arg_18_1)
+	arg_18_1:NotifiyIsland(ISLAND_EX_EVT.SUBMIT_TASK, tonumber(arg_18_0))
+end
+
+local function var_0_13(arg_19_0)
+	arg_19_0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SIGNIN)
+end
+
+local function var_0_14(arg_20_0)
+	local var_20_0 = arg_20_0:GetView()
+	local var_20_1 = var_20_0:GetUnitModule(var_20_0.selectedUnitId)
+
+	if not var_20_1 then
+		return
+	end
+
+	local var_20_2 = var_20_0:GetIsland().id
+
+	arg_20_0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.SELECT_GIFT, var_20_2, var_20_1.data.index)
+end
+
+local function var_0_15(arg_21_0)
+	arg_21_0:NotifiyIsland(ISLAND_EX_EVT.OPEN_PAGE)
+end
+
+function var_0_0.AddInteractionTaskProgress(arg_22_0, arg_22_1)
+	arg_22_0:Op("NotifiyIsland", ISLAND_EX_EVT.ADD_TASK_PROGRESS, IslandTaskTargetType.INTERACTION, arg_22_1)
+end
+
+local function var_0_16(arg_23_0)
+	arg_23_0:NotifiyIsland(ISLAND_EX_EVT.EMIT, IslandMediator.GET_THEMES, function()
+		arg_23_0:Op("EnterEditMode")
+	end)
+end
+
+local function var_0_17(arg_25_0)
+	local var_25_0 = arg_25_0:GetView()
+	local var_25_1 = var_25_0:GetIsland()
+
+	if not var_25_1:GetAgoraAgency():CanUpgrade() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_max_level"))
+
+		return
+	end
+
+	var_25_0:ShowMsgbox({
+		type = IslandMsgBox.TYPE_AGORA_UPGRADE,
+		island = var_25_1,
+		onYes = function()
+			arg_25_0:Op("Upgrade")
+		end
+	})
+end
+
+local function var_0_18(arg_27_0, arg_27_1)
+	arg_27_0:NotifiyIsland(ISLAND_EX_EVT.PLAY_PERFORMANCE, {
+		name = arg_27_1
+	})
+end
+
+local function var_0_19(arg_28_0, arg_28_1)
+	arg_28_0:ShowNextInteractionBtns(arg_28_1)
+end
+
+function var_0_0.Response(arg_29_0, arg_29_1, arg_29_2)
+	local var_29_0 = pg.island_interaction[arg_29_2]
+
+	if var_29_0.type == var_0_0.TYPE_STORY then
+		var_0_1(var_29_0.param, arg_29_0, arg_29_2)
+	elseif var_29_0.type == var_0_0.TYPE_BUBBLE then
+		var_0_2(var_29_0.param, arg_29_0, arg_29_2)
+	elseif var_29_0.type == var_0_0.TYPE_ACTION then
+		var_0_3(var_29_0.param[1], var_29_0.param[2], arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_AGORA then
+		var_0_4(arg_29_1, arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_AGORA_CANCEL then
+		var_0_5(arg_29_1, arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_OPEN_PAGE then
+		var_0_6(var_29_0.param, arg_29_0, arg_29_1)
+	elseif var_29_0.type == var_0_0.TYPE_TRANSFER then
+		var_0_7(var_29_0.param, arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_BT_VALUE then
+		var_0_8(var_29_0.param, arg_29_1, arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_ITEM_INTERACT then
+		var_0_9(arg_29_1, arg_29_0, var_29_0.param)
+	elseif var_29_0.type == var_0_0.TYPE_ITEM_INTERACT_CANCEL then
+		var_0_10(arg_29_1, arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_ACCEPT_TASK then
+		var_0_11(var_29_0.param, arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_SUBMIT_TASK then
+		var_0_12(var_29_0.param, arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_SIGNIN then
+		var_0_13(arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_SELECT_GIFT then
+		var_0_14(arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_NOTHING then
+		-- block empty
+	elseif var_29_0.type == var_0_0.TYPE_DECORATION then
+		var_0_16(arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_EXTEND_AGORA then
+		var_0_17(arg_29_0)
+	elseif var_29_0.type == var_0_0.TYPE_ECHANGE_AGORA_BASE then
+		-- block empty
+	elseif var_29_0.type == var_0_0.TYPE_PERFORMANCE then
+		var_0_18(arg_29_0, var_29_0.param)
+	elseif var_29_0.type == var_0_0.TYPE_NEXT_INTERACTION then
+		var_0_19(arg_29_0, var_29_0.param)
+	else
+		assert(false, "未处理类型:" .. var_29_0.type)
+	end
+
+	if var_29_0.type ~= var_0_0.TYPE_STORY and var_29_0.type ~= var_0_0.TYPE_BUBBLE then
+		var_0_0.AddInteractionTaskProgress(arg_29_0, arg_29_2)
+	end
+
+	if var_29_0.type == var_0_0.TYPE_STORY or var_29_0.type == var_0_0.TYPE_BUBBLE then
+		IslandAchievementHelper.OnNpcInteract(IslandAchievementType.NPC_INTERACT_TYPE_TALK)
 	end
 end
 

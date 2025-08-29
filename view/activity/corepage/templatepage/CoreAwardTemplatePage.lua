@@ -126,7 +126,12 @@ function var_0_0.AddSpecialBtnListener(arg_12_0)
 
 	if arg_12_0.furnitureThemeBtn and var_12_0.furniture_theme_link then
 		onButton(arg_12_0, arg_12_0.furnitureThemeBtn, function()
-			arg_12_0:DoSkip(var_12_0.furniture_theme_link[1], var_12_0.furniture_theme_link[2])
+			local var_13_0 = var_12_0.furniture_theme_link
+			local var_13_1 = var_13_0[1]
+			local var_13_2 = var_13_0[2]
+			local var_13_3 = var_13_0[3]
+
+			arg_12_0:DoSkip(var_13_1, var_13_2)
 		end, SFX_PANEL)
 	end
 
@@ -134,7 +139,12 @@ function var_0_0.AddSpecialBtnListener(arg_12_0)
 
 	if arg_12_0.medalBtn and var_12_0.medal_link then
 		onButton(arg_12_0, arg_12_0.medalBtn, function()
-			arg_12_0:DoSkip(var_12_0.medal_link[1], var_12_0.medal_link[2])
+			local var_14_0 = var_12_0.medal_link
+			local var_14_1 = var_14_0[1]
+			local var_14_2 = var_14_0[2]
+			local var_14_3 = var_14_0[3]
+
+			arg_12_0:DoSkip(var_14_1, var_14_2)
 		end, SFX_PANEL)
 	end
 
@@ -259,12 +269,7 @@ function var_0_0.updateBoxPanel(arg_24_0, arg_24_1)
 
 			setText(arg_24_0:findTF("go", var_25_4), i18n("brs_reward_tip_2"))
 			onButton(arg_24_0, var_25_4, function()
-				if var_25_1 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
-					pg.m02:sendNotification(GAME.GO_SCENE, var_25_2[1], var_25_2[2] or {})
-				elseif var_25_1 == Msgbox4LinkCollectGuide.SKIP_TYPE_ACTIVITY then
-					arg_24_0:emit(ActivityMediator.SELECT_ACTIVITY, var_25_2)
-				end
-
+				arg_24_0:DoSkip(var_25_1, var_25_2)
 				arg_24_0:showBoxPanel(false)
 			end, SFX_PANEL)
 		end
@@ -282,9 +287,9 @@ function var_0_0.showBoxPanel(arg_27_0, arg_27_1)
 end
 
 function var_0_0.DoSkip(arg_28_0, arg_28_1, arg_28_2)
-	if arg_28_1 == 2 then
+	if arg_28_1 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
 		pg.m02:sendNotification(GAME.GO_SCENE, arg_28_2[1], arg_28_2[2] or {})
-	elseif arg_28_1 == 3 then
+	elseif arg_28_1 == Msgbox4LinkCollectGuide.SKIP_TYPE_SCENE then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = arg_28_2
 		})

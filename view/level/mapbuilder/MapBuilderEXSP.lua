@@ -178,25 +178,30 @@ function var_0_0.UpdateStory(arg_12_0)
 	table.sort(var_12_4, function(arg_30_0, arg_30_1)
 		return arg_30_0:getConfig("id") < arg_30_1:getConfig("id")
 	end)
-	setActive(arg_12_0.personalBtn, #var_12_4 > 0)
 
-	if #var_12_4 < 2 then
-		arg_12_0.personalPage:SetBossRushNode(var_12_4[1], var_12_4[1])
-	else
-		local var_12_15 = #var_12_4 - 1
+	local var_12_15 = var_12_4[#var_12_4]
+	local var_12_16
+	local var_12_17 = #var_12_4 - 1
 
-		if var_12_15 > 0 then
-			while var_12_15 > 0 do
-				if #arg_12_0.personalPage:GetActivitySingleEventOption(var_12_4[var_12_15]) > 0 then
-					arg_12_0.personalPage:SetBossRushNode(var_12_4[#var_12_4], var_12_4[var_12_15])
+	while var_12_17 > 0 do
+		if #arg_12_0.personalPage:GetActivitySingleEventOption(var_12_4[var_12_17]) > 0 then
+			var_12_16 = var_12_4[var_12_17]
 
-					break
-				end
-
-				var_12_15 = var_12_15 - 1
-			end
+			break
 		end
+
+		var_12_17 = var_12_17 - 1
 	end
+
+	if var_12_15 and #arg_12_0.personalPage:GetActivitySingleEventOption(var_12_15) > 0 or var_12_16 and #arg_12_0.personalPage:GetActivitySingleEventOption(var_12_16) > 0 then
+		setActive(arg_12_0.personalBtn, true)
+	else
+		setActive(arg_12_0.personalBtn, false)
+	end
+
+	var_12_16 = var_12_16 and var_12_16 or var_12_15
+
+	arg_12_0.personalPage:SetBossRushNode(var_12_15, var_12_16)
 
 	if var_12_2 == var_12_3 then
 		arg_12_0.personalPage:UnlockRandom()

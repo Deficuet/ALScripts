@@ -130,8 +130,102 @@ function var_0_0.ScreenToHitPoint(arg_12_0, arg_12_1, arg_12_2)
 	end
 end
 
-function var_0_0.GetUniqueId(arg_13_0)
-	return arg_13_0 * 100
+function var_0_0.GetUniqueId(arg_13_0, arg_13_1)
+	return arg_13_0 * 100 + arg_13_1
+end
+
+function var_0_0.RevertFormUniqueId(arg_14_0)
+	return math.floor(arg_14_0 * 0.01)
+end
+
+function var_0_0.DecodeLayer(arg_15_0)
+	local var_15_0 = LuaHelper.DecodeAgoraLayerProt(arg_15_0)
+	local var_15_1, var_15_2 = var_0_0.GroundPoint2MapPoint(var_15_0[2], var_15_0[3])
+
+	return var_0_0.GetUniqueId(var_15_0[0], 1), var_15_0[1], var_15_1, var_15_2
+end
+
+function var_0_0.EncodeLayer(arg_16_0)
+	return _.map(arg_16_0, function(arg_17_0)
+		local var_17_0 = var_0_0.RevertFormUniqueId(arg_17_0.id)
+		local var_17_1, var_17_2 = var_0_0.MapPoint2GroundPoint(arg_17_0.x, arg_17_0.y)
+
+		return LuaHelper.EncodeAgoraLayerProt(var_17_0, arg_17_0.shapeId, var_17_1, var_17_2)
+	end)
+end
+
+function var_0_0.GetGroundLeftBottomPoint()
+	local var_18_0 = IslandConst.AGORA_LEVEL_2_SIZE[#IslandConst.AGORA_LEVEL_2_SIZE]
+	local var_18_1 = Vector2(var_18_0, var_18_0)
+	local var_18_2 = AgoraCalc.GetSizeCoord(var_18_1)
+
+	return Vector2(var_18_2.x, var_18_2.w)
+end
+
+function var_0_0.MapPoint2GroundPoint(arg_19_0, arg_19_1)
+	local var_19_0 = var_0_0.GetGroundLeftBottomPoint()
+	local var_19_1 = Vector2(arg_19_0, arg_19_1) - var_19_0
+
+	return var_19_1.x, var_19_1.y
+end
+
+function var_0_0.GroundPoint2MapPoint(arg_20_0, arg_20_1)
+	local var_20_0 = var_0_0.GetGroundLeftBottomPoint()
+	local var_20_1 = Vector2(arg_20_0, arg_20_1) + var_20_0
+
+	return var_20_1.x, var_20_1.y
+end
+
+function var_0_0.EncodePlaced(arg_21_0)
+	return _.map(arg_21_0, function(arg_22_0)
+		return {
+			id = arg_22_0.id,
+			x = arg_22_0.x,
+			y = arg_22_0.y,
+			dir = arg_22_0.dir
+		}
+	end)
+end
+
+function var_0_0.GetChangePlacementList(arg_23_0, arg_23_1)
+	local function var_23_0(arg_24_0, arg_24_1)
+		for iter_24_0, iter_24_1 in ipairs(arg_24_1) do
+			if iter_24_1.id == arg_24_0.id then
+				return true
+			end
+		end
+
+		return false
+	end
+
+	local function var_23_1(arg_25_0, arg_25_1)
+		local var_25_0
+
+		for iter_25_0, iter_25_1 in ipairs(arg_25_1) do
+			if iter_25_1.id == arg_25_0.id then
+				var_25_0 = iter_25_1
+
+				break
+			end
+		end
+
+		return not arg_25_0:IsSame(var_25_0)
+	end
+
+	local var_23_2 = _.select(arg_23_0, function(arg_26_0)
+		return not var_23_0(arg_26_0, arg_23_1)
+	end)
+	local var_23_3 = _.select(arg_23_1, function(arg_27_0)
+		return not var_23_0(arg_27_0, arg_23_0)
+	end)
+
+	return _.select(arg_23_0, function(arg_28_0)
+		return not var_23_0(arg_28_0, var_23_2) and not var_23_0(arg_28_0, var_23_3) and var_23_1(arg_28_0, arg_23_1)
+	end), var_23_3, var_23_2
+end
+
+function var_0_0.BuildScreenShootSavePath(arg_29_0)
+	return Application.persistentDataPath .. "/screen_scratch/island_theme" .. arg_29_0 .. ".jpg"
 end
 
 return var_0_0

@@ -49,7 +49,6 @@ end
 
 function var_0_0.Refresh(arg_9_0, arg_9_1)
 	var_0_0.super.Refresh(arg_9_0, arg_9_1)
-	UIUtil.SetLayerRecursively(arg_9_0.fxEffect.gameObject, LayerMask.NameToLayer("UI"))
 	arg_9_0.animationPlayer:Play("anim_newmain_open")
 end
 
@@ -65,7 +64,6 @@ function var_0_0.Disable(arg_11_0)
 	var_0_0.super.Disable(arg_11_0)
 	arg_11_0.dftAniEvent:SetStartEvent(nil)
 	triggerToggle(arg_11_0.switcher, false)
-	UIUtil.SetLayerRecursively(arg_11_0.fxEffect.gameObject, LayerMask.NameToLayer("UIHidden"))
 end
 
 function var_0_0.OnDestroy(arg_12_0)

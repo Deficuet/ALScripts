@@ -4,10 +4,11 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.go = arg_1_1
 	arg_1_0._tf = arg_1_1.transform
 	arg_1_0.itemTr = findTF(arg_1_0._tf, "IslandItemTpl")
+	arg_1_0.countTr = arg_1_0.itemTr:Find("icon_bg/count_bg")
+	arg_1_0.countTxt = arg_1_0.itemTr:Find("icon_bg/count_bg/count"):GetComponent(typeof(Text))
 	arg_1_0.nameTxt = findTF(arg_1_0._tf, "name/Text"):GetComponent(typeof(Text))
 	arg_1_0.selected = findTF(arg_1_0._tf, "selected")
 	arg_1_0.heart = findTF(arg_1_0._tf, "heart")
-	arg_1_0.countTxt = findTF(arg_1_0._tf, "IslandItemTpl/icon_bg/count"):GetComponent(typeof(Text))
 end
 
 function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
@@ -22,10 +23,11 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 		count = arg_2_2:GetCount()
 	})
 
-	updateDrop(arg_2_0.itemTr, var_2_1)
+	updateCustomDrop(arg_2_0.itemTr, var_2_1)
+	setActive(arg_2_0.countTr, true)
 
-	arg_2_0.countTxt.text = var_2_1.count
 	arg_2_0.nameTxt.text = arg_2_2:GetName()
+	arg_2_0.countTxt.text = "X" .. arg_2_2:GetCount()
 
 	arg_2_0:UpdateSelected(arg_2_3)
 	setActive(arg_2_0.heart, table.contains(var_2_0, arg_2_0.itemId))

@@ -318,14 +318,7 @@ function var_0_0.didEnter(arg_7_0)
 			var_32_2(var_36_0, arg_36_0)
 		end
 
-		tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
-		ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-			typeof(Camera),
-			typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-		}, {
-			arg_7_0.mainCamera,
-			UnityEngine.Events.UnityAction_UnityEngine_Object(var_32_3)
-		})
+		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(arg_7_0.mainCamera, callback)
 	end, "ui-dorm_photograph")
 
 	GetOrAddComponent(arg_7_0._tf:Find("RightTop/Film"), typeof(CanvasGroup)).blocksRaycasts = false

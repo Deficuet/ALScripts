@@ -45,11 +45,74 @@ end
 
 function var_0_0.GetRandomPointOnCircle(arg_5_0, arg_5_1)
 	local var_5_0 = UnityEngine.Random.insideUnitCircle.normalized
-	local var_5_1 = arg_5_0 + Vector3(var_5_0.x, 0, var_5_0.y) * arg_5_1
 
-	print(var_5_1)
+	return arg_5_0 + Vector3(var_5_0.x, 0, var_5_0.y) * arg_5_1
+end
 
-	return var_5_1
+function var_0_0.GetPointOffset(arg_6_0, arg_6_1, arg_6_2)
+	if arg_6_2 % 2 == 0 then
+		return arg_6_0 + Vector3(arg_6_1 * 2, 0, 0) * math.ceil(arg_6_2 * 0.5)
+	else
+		return arg_6_0 - Vector3(arg_6_1 * 2, 0, 0) * math.ceil(arg_6_2 * 0.5)
+	end
+end
+
+function var_0_0.GetTypeAndIdByUniqueId(arg_7_0)
+	local var_7_0 = WorldObjectItem.GetTypeAndIdByUniqueId(arg_7_0)
+
+	return var_7_0[0], var_7_0[1]
+end
+
+function var_0_0.GetUnReHexPoints(arg_8_0, arg_8_1, arg_8_2)
+	local var_8_0 = arg_8_0 * 0.5
+	local var_8_1 = arg_8_1 * 0.5
+	local var_8_2 = {}
+	local var_8_3 = arg_8_2 * math.pi / 180
+	local var_8_4 = arg_8_0 * math.tan(var_8_3) * 0.5
+
+	table.insert(var_8_2, Vector2(0, var_8_1))
+	table.insert(var_8_2, Vector2(var_8_0, var_8_4))
+	table.insert(var_8_2, Vector2(var_8_0, -var_8_4))
+	table.insert(var_8_2, Vector2(0, -var_8_1))
+	table.insert(var_8_2, Vector2(-var_8_0, -var_8_4))
+	table.insert(var_8_2, Vector2(-var_8_0, var_8_4))
+
+	return var_8_2
+end
+
+function var_0_0.Vetor3Table2Array(arg_9_0)
+	local var_9_0 = System.Array.CreateInstance(typeof(UnityEngine.Vector3), #arg_9_0)
+
+	for iter_9_0, iter_9_1 in ipairs(arg_9_0) do
+		var_9_0[iter_9_0 - 1] = iter_9_1
+	end
+
+	return var_9_0
+end
+
+function var_0_0.ClampRect(arg_10_0, arg_10_1, arg_10_2, arg_10_3, arg_10_4)
+	local var_10_0 = arg_10_0 * 0.5 - arg_10_2 * 0.5
+	local var_10_1 = arg_10_1 * 0.5 - arg_10_3 * 0.5
+
+	if var_10_0 < arg_10_4.x then
+		arg_10_4.x = var_10_0
+	elseif arg_10_4.x < -var_10_0 then
+		arg_10_4.x = -var_10_0
+	end
+
+	if var_10_1 < arg_10_4.y then
+		arg_10_4.y = var_10_1
+	elseif arg_10_4.y < -var_10_1 then
+		arg_10_4.y = -var_10_1
+	end
+
+	return arg_10_4
+end
+
+function var_0_0.IsBehindCamera(arg_11_0)
+	local var_11_0 = IslandCameraMgr.instance._mainCamera
+
+	return Vector3.Dot(var_11_0.transform.forward, arg_11_0 - var_11_0.transform.position) < 0
 end
 
 return var_0_0

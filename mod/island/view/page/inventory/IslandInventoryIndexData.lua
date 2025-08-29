@@ -59,7 +59,7 @@ function var_0_0.GenLayoutData(arg_3_0, arg_3_1)
 		list = var_3_10,
 		names = var_3_11,
 		sortFuncName = var_3_12,
-		title = i18n1("排序")
+		title = i18n("island_word_sort")
 	}
 
 	table.insert(var_3_1, 1, var_3_15)

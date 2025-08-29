@@ -12,7 +12,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.ownTxt = arg_2_0:findTF("own"):GetComponent(typeof(Text))
 	arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("list"), arg_2_0:findTF("list/tpl"))
 
-	setText(arg_2_0:findTF("label/Text"), i18n1("获取途径"))
+	setText(arg_2_0:findTF("label/Text"), i18n("island_get_way"))
 end
 
 function var_0_0.OnShow(arg_3_0)
@@ -32,7 +32,7 @@ function var_0_0.FlushMain(arg_4_0, arg_4_1)
 
 	local var_4_1 = getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetOwnCount(arg_4_1)
 
-	arg_4_0.ownTxt.text = i18n1("已拥有:") .. setColorStr(var_4_1, "#39beff")
+	arg_4_0.ownTxt.text = i18n("island_own_cnt") .. setColorStr(var_4_1, "#39beff")
 
 	local var_4_2 = Drop.New({
 		count = 0,
@@ -40,7 +40,7 @@ function var_0_0.FlushMain(arg_4_0, arg_4_1)
 		id = arg_4_1
 	})
 
-	updateDrop(arg_4_0.itemTr, var_4_2)
+	updateCustomDrop(arg_4_0.itemTr, var_4_2)
 end
 
 function var_0_0.FlushAcquiringWay(arg_5_0, arg_5_1)
@@ -54,9 +54,9 @@ function var_0_0.FlushAcquiringWay(arg_5_0, arg_5_1)
 			local var_6_0 = var_5_0[arg_6_1 + 1]
 
 			setText(arg_6_2:Find("Text"), var_6_0[1])
-			setText(arg_6_2:Find("go/Text"), i18n1("前往"))
+			setText(arg_6_2:Find("go/Text"), i18n("island_word_go"))
 			onButton(arg_5_0, arg_6_2:Find("go"), function()
-				arg_5_0:GetMsgBoxMgr():emit(IslandMediator.OPEN_PAGE, var_6_0[2])
+				arg_5_0:GetMsgBoxMgr():emit(IslandMediator.OPEN_PAGE, var_6_0[2][1], var_6_0[2][2])
 				arg_5_0:Hide()
 			end, SFX_PANEL)
 		end

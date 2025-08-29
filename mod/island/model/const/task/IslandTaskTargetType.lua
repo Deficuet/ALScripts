@@ -1,0 +1,69 @@
+local var_0_0 = class("IslandTaskTargetType")
+
+var_0_0.INTERACTION = 1
+var_0_0.APPROACH = 2
+var_0_0.ORDER = 3
+var_0_0.RECYCLE = 4
+var_0_0.OBTAIN = 5
+var_0_0.HAND_GATHER = 6
+var_0_0.PRODUCTION = 7
+var_0_0.TECHNOLOGY = 8
+var_0_0.ISLAND_LV = 9
+var_0_0.FRAGMENT = 10
+var_0_0.UNLOCK_SHIP = 11
+var_0_0.SHIP_ORDER = 12
+var_0_0.SIGN_IN = 13
+var_0_0.HAND_PROD = 14
+var_0_0.FURNITURE = 15
+var_0_0.COMMANDER_DRESS = 16
+var_0_0.SHIP_DRESS = 17
+var_0_0.SHIP_SKIN = 18
+var_0_0.SKIN_ALL_COLOR = 19
+var_0_0.SKIN_COLOR = 20
+var_0_0.ACHIEVEMENT = 21
+var_0_0.TASK = 22
+var_0_0.TASK_TYPE = 23
+var_0_0.HAND_PROD_PLUS = 24
+var_0_0.GIVE_GIFT = 25
+var_0_0.PRDO_ITEM = 26
+var_0_0.RESTAURANT_SHELVE = 27
+var_0_0.RESTAURANT_SELL = 28
+var_0_0.RESTAURANT_SALES = 29
+var_0_0.RESTAURANT_RANK = 30
+var_0_0.RESTAURANT_OPEN = 31
+var_0_0.SHIP_EXP_BOOK = 32
+var_0_0.SHIP_SKILL_UPGRADE = 33
+var_0_0.STORY = 34
+
+function var_0_0.GetRuntimeTypes()
+	return {
+		var_0_0.RECYCLE,
+		var_0_0.ISLAND_LV,
+		var_0_0.FURNITURE,
+		var_0_0.COMMANDER_DRESS,
+		var_0_0.SHIP_DRESS,
+		var_0_0.SHIP_SKIN,
+		var_0_0.SKIN_ALL_COLOR,
+		var_0_0.SKIN_COLOR,
+		var_0_0.ACHIEVEMENT,
+		var_0_0.TASK,
+		var_0_0.RESTAURANT_RANK,
+		var_0_0.STORY
+	}
+end
+
+function var_0_0.GetClientTypes()
+	return {
+		var_0_0.INTERACTION,
+		var_0_0.APPROACH
+	}
+end
+
+function var_0_0.GetObjectLinkTypes()
+	return {
+		var_0_0.INTERACTION,
+		var_0_0.APPROACH
+	}
+end
+
+return var_0_0

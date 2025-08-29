@@ -1,4 +1,4 @@
-local var_0_0 = class("IslandStaticUnitBuilder", import(".IslandUnitBuilder"))
+local var_0_0 = class("IslandStaticUnitBuilder", import(".IslandGenericBuilder"))
 
 function var_0_0.GetModule(arg_1_0, arg_1_1, arg_1_2)
 	return IslandStaticUnit.New(arg_1_1, arg_1_2)
@@ -9,7 +9,7 @@ function var_0_0.SetTag(arg_2_0, arg_2_1)
 end
 
 function var_0_0.AddComponents(arg_3_0, arg_3_1, arg_3_2)
-	GetOrAddComponent(arg_3_1, typeof(WorldObjectItem)):SetItemId(arg_3_2.id)
+	return
 end
 
 return var_0_0

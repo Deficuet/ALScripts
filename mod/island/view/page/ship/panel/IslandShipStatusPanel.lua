@@ -1,7 +1,8 @@
 local var_0_0 = class("IslandShipStatusPanel")
 
-function var_0_0.Ctor(arg_1_0, arg_1_1)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.tf = arg_1_1
+	arg_1_0.emptyTf = arg_1_2
 	arg_1_0.state1Tr = findTF(arg_1_1, "1")
 	arg_1_0.state2Tr = findTF(arg_1_1, "2")
 	arg_1_0.state3Tr = findTF(arg_1_1, "3")
@@ -9,10 +10,12 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 end
 
 function var_0_0.Flush(arg_2_0, arg_2_1)
-	local var_2_0 = arg_2_1:GetValidStatus()
+	local var_2_0 = arg_2_1:GetDisplayStatus()
 
 	arg_2_0:UpdateLayout(#var_2_0)
 	arg_2_0:UpdateStatus(var_2_0)
+	setActive(arg_2_0.emptyTf, #var_2_0 <= 0)
+	setActive(arg_2_0.tf, #var_2_0 > 0)
 end
 
 function var_0_0.UpdateStatus(arg_3_0, arg_3_1)
@@ -31,7 +34,7 @@ function var_0_0.UpdateStatusTpl(arg_4_0, arg_4_1, arg_4_2)
 		local var_4_0 = Color.New(1, 0.5490196, 0.5490196, 1)
 		local var_4_1 = Color.New(0.3137255, 0.6745098, 0.9372549, 1)
 
-		arg_4_1:GetComponent(typeof(Image)).color = arg_4_2:IsDebuff() and var_4_0 or var_4_1
+		arg_4_1:GetComponent(typeof(Image)).color = arg_4_2:IsRed() and var_4_0 or var_4_1
 	end
 end
 

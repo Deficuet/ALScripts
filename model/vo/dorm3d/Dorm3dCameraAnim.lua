@@ -46,4 +46,24 @@ function var_0_0.GetStartPoint(arg_11_0)
 	return arg_11_0:getConfig("staypoint")
 end
 
+function var_0_0.GetEnterSceneAnim(arg_12_0)
+	local var_12_0 = arg_12_0:getConfig("enter_scene_anim")
+
+	if var_12_0 and var_12_0 ~= "" and #var_12_0 > 0 then
+		return var_12_0
+	else
+		return {}
+	end
+end
+
+function var_0_0.GetEnterExtraItem(arg_13_0)
+	local var_13_0 = arg_13_0:getConfig("enter_extra_item")
+
+	if var_13_0 and var_13_0 ~= "" and #var_13_0 > 0 then
+		return var_13_0
+	else
+		return {}
+	end
+end
+
 return var_0_0

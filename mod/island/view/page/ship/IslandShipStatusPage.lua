@@ -17,10 +17,10 @@ function var_0_0.OnLoaded(arg_2_0)
 
 	arg_2_0.giveBtn = arg_2_0:findTF("adapt/attr_panel/send_panel/give_btn")
 	arg_2_0.emptyTr = arg_2_0:findTF("adapt/attr_panel/send_panel/empty")
-	arg_2_0.giftEffectList = UIItemList.New(arg_2_0:findTF("adapt/attr_panel/send_panel/list"), arg_2_0:findTF("adapt/attr_panel/send_panel/list/tpl"))
-	arg_2_0.statusPanel = IslandShipStatusPanel.New(arg_2_0:findTF("adapt/attr_panel/status"))
+	arg_2_0.giftEffectList = UIItemList.New(arg_2_0:findTF("adapt/attr_panel/send_panel/scrollrect/list"), arg_2_0:findTF("adapt/attr_panel/send_panel/scrollrect/list/tpl"))
+	arg_2_0.statusPanel = IslandShipStatusPanel.New(arg_2_0:findTF("adapt/attr_panel/status"), arg_2_0:findTF("adapt/attr_panel/status_empty"))
 
-	setText(arg_2_0.emptyTr:Find("Text"), i18n1("点击选择赠送的礼物"))
+	setText(arg_2_0.emptyTr:Find("Text"), i18n("island_select_ship_gift"))
 end
 
 function var_0_0.OnInit(arg_5_0)
@@ -31,172 +31,174 @@ function var_0_0.OnInit(arg_5_0)
 			return
 		end
 
-		local var_6_0 = "island_energy_overflow" .. getProxy(PlayerProxy):getRawData().id
+		local var_6_0 = {}
+		local var_6_1 = arg_5_0:CollectGiftBuffs(arg_5_0.selectedId)
 
-		if arg_5_0:IsOverflowEnergy(arg_5_0.shipId, arg_5_0.selectedId) and arg_5_0:ShouldTip(var_6_0) then
-			arg_5_0:ShowMsgBox({
-				type = IslandMsgBox.TYPE_REMIND,
-				content = i18n1("赠送该礼物后角色的体力会超上限，超出的\n部分将会消失,是否确定赠送？"),
-				key = var_6_0,
-				onYes = function()
-					arg_5_0:emit(IslandMediator.ON_GIVE_GIFT, arg_5_0.selectedId, 1, arg_5_0.shipId)
-				end
-			})
-		else
-			arg_5_0:emit(IslandMediator.ON_GIVE_GIFT, arg_5_0.selectedId, 1, arg_5_0.shipId)
+		for iter_6_0, iter_6_1 in ipairs(var_6_1) do
+			table.insert(var_6_0, function(arg_7_0)
+				IslandAddShipStatusHelper.CheckAddStatus(arg_5_0, arg_5_0.ship, iter_6_1, arg_7_0)
+			end)
 		end
+
+		seriesAsync(var_6_0, function()
+			print("??????????????")
+			arg_5_0:emit(IslandMediator.ON_GIVE_GIFT, arg_5_0.selectedId, 1, arg_5_0.shipId)
+		end)
 	end, SFX_PANEL)
 end
 
-function var_0_0.ShouldTip(arg_8_0, arg_8_1)
-	local var_8_0 = PlayerPrefs.GetInt(arg_8_1, 0)
-
-	if var_8_0 == 0 then
-		return true
-	end
-
-	return var_8_0 <= pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.AddListeners(arg_9_0)
+	arg_9_0:AddListener(GAME.ISLAND_GIVE_GIFT_DONE, arg_9_0.OnUseItem)
 end
 
-function var_0_0.IsOverflowEnergy(arg_9_0, arg_9_1, arg_9_2)
-	local var_9_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_9_1)
-	local var_9_1 = var_9_0:GetEnergy()
-	local var_9_2 = var_9_0:GetMaxEnergy()
-	local var_9_3 = IslandItem.StaticGetUsageArg(arg_9_2)
-
-	return var_9_2 < var_9_1 + tonumber(var_9_3)
+function var_0_0.RemoveListeners(arg_10_0)
+	arg_10_0:RemoveListener(GAME.ISLAND_GIVE_GIFT_DONE, arg_10_0.OnUseItem)
 end
 
-function var_0_0.AddListeners(arg_10_0)
-	arg_10_0:AddListener(GAME.ISLAND_USE_ITEM_DONE, arg_10_0.OnUseItem)
+function var_0_0.OnUseItem(arg_11_0)
+	arg_11_0.selectedId = nil
+
+	arg_11_0:FlushStatus(arg_11_0.ship)
+	arg_11_0:FlushGifts()
 end
 
-function var_0_0.RemoveListeners(arg_11_0)
-	arg_11_0:RemoveListener(GAME.ISLAND_USE_ITEM_DONE, arg_11_0.OnUseItem)
-end
+function var_0_0.OnShow(arg_12_0, arg_12_1)
+	arg_12_0.selectedId = nil
 
-function var_0_0.OnUseItem(arg_12_0)
-	arg_12_0:FlushStatus(arg_12_0.ship)
-	arg_12_0:FlushGifts()
-end
+	local var_12_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_12_1)
 
-function var_0_0.OnShow(arg_13_0, arg_13_1)
-	arg_13_0.selectedId = nil
-
-	local var_13_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipByConfigId(arg_13_1)
-
-	if var_13_0 == nil then
+	if var_12_0 == nil then
 		return
 	end
 
-	arg_13_0.ship = var_13_0
-	arg_13_0.shipId = arg_13_0.ship.id
+	arg_12_0.ship = var_12_0
+	arg_12_0.shipId = arg_12_0.ship.id
 
-	arg_13_0:FlushStatus(var_13_0)
-	arg_13_0:FlushGifts()
-	arg_13_0:UpdateSelected(arg_13_0.selectedId)
+	arg_12_0:FlushStatus(var_12_0)
+	arg_12_0:FlushGifts()
+	arg_12_0:UpdateSelected(arg_12_0.selectedId)
 end
 
-function var_0_0.FlushStatus(arg_14_0, arg_14_1)
-	arg_14_0.statusPanel:Flush(arg_14_1)
+function var_0_0.FlushStatus(arg_13_0, arg_13_1)
+	arg_13_0.statusPanel:Flush(arg_13_1)
 
-	local var_14_0 = arg_14_1:GetValidStatus()
+	local var_13_0 = arg_13_1:GetDisplayStatus()
 
-	onButton(arg_14_0, arg_14_0.statusPanel.viewBtn, function()
-		arg_14_0:ShowMsgBox({
+	onButton(arg_13_0, arg_13_0.statusPanel.viewBtn, function()
+		arg_13_0:ShowMsgBox({
 			hideNo = true,
-			type = IslandMsgBox.TYPE_STATUS,
-			title = i18n1("详情"),
-			statusList = var_14_0
+			type = IslandMsgBox.TYPE_SHIP_OWN_STATUS,
+			title = i18n("island_word_ship_buff_desc"),
+			statusList = var_13_0
 		})
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnInitItem(arg_16_0, arg_16_1)
-	local var_16_0 = IslandGiftCard.New(arg_16_1)
+function var_0_0.OnInitItem(arg_15_0, arg_15_1)
+	local var_15_0 = IslandGiftCard.New(arg_15_1)
 
-	onButton(arg_16_0, var_16_0.go, function()
-		if var_16_0.item:GetCount() <= 0 then
-			arg_16_0:ShowMsgBox({
-				title = i18n1("详情"),
-				type = IslandMsgBox.TYPE_ITEM_DESC,
-				itemId = var_16_0.item.id
+	onButton(arg_15_0, var_15_0.go, function()
+		if var_15_0.item:GetCount() <= 0 then
+			arg_15_0:ShowMsgBox({
+				title = i18n("island_word_ship_buff_desc"),
+				type = IslandMsgBox.TYPE_COMMON_ITEM,
+				itemId = var_15_0.item.id
 			})
 
 			return
 		end
 
-		arg_16_0.selectedId = nil
+		arg_15_0.selectedId = nil
 
-		for iter_17_0, iter_17_1 in pairs(arg_16_0.cards) do
-			iter_17_1:UpdateSelected(arg_16_0.selectedId)
+		for iter_16_0, iter_16_1 in pairs(arg_15_0.cards) do
+			iter_16_1:UpdateSelected(arg_15_0.selectedId)
 		end
 
-		arg_16_0:UpdateSelected(var_16_0.itemId)
-		var_16_0:UpdateSelected(arg_16_0.selectedId)
+		arg_15_0:UpdateSelected(var_15_0.itemId)
+		var_15_0:UpdateSelected(arg_15_0.selectedId)
 	end, SFX_PANEL)
 
-	arg_16_0.cards[arg_16_1] = var_16_0
+	arg_15_0.cards[arg_15_1] = var_15_0
 end
 
-function var_0_0.OnUpdateItem(arg_18_0, arg_18_1, arg_18_2)
-	local var_18_0 = arg_18_0.cards[arg_18_2]
+function var_0_0.OnUpdateItem(arg_17_0, arg_17_1, arg_17_2)
+	local var_17_0 = arg_17_0.cards[arg_17_2]
 
-	if not var_18_0 then
-		arg_18_0:OnInitItem(arg_18_2)
+	if not var_17_0 then
+		arg_17_0:OnInitItem(arg_17_2)
 
-		var_18_0 = arg_18_0.cards[arg_18_2]
+		var_17_0 = arg_17_0.cards[arg_17_2]
 	end
 
-	var_18_0:Update(arg_18_0.shipId, arg_18_0.displays[arg_18_1 + 1], arg_18_0.selectedId)
+	var_17_0:Update(arg_17_0.shipId, arg_17_0.displays[arg_17_1 + 1], arg_17_0.selectedId)
 end
 
-function var_0_0.FlushGifts(arg_19_0)
-	local var_19_0 = getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetGifts()
+function var_0_0.FlushGifts(arg_18_0)
+	local var_18_0 = getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetGifts()
 
-	arg_19_0.displays = {}
+	arg_18_0.displays = {}
 
-	for iter_19_0, iter_19_1 in pairs(var_19_0) do
-		table.insert(arg_19_0.displays, iter_19_1)
+	for iter_18_0, iter_18_1 in pairs(var_18_0) do
+		table.insert(arg_18_0.displays, iter_18_1)
 	end
 
-	table.sort(arg_19_0.displays, function(arg_20_0, arg_20_1)
-		return arg_20_0.id < arg_20_1.id
+	table.sort(arg_18_0.displays, function(arg_19_0, arg_19_1)
+		return arg_19_0.id < arg_19_1.id
 	end)
-	arg_19_0.scrollRect:SetTotalCount(#arg_19_0.displays)
+	arg_18_0.scrollRect:SetTotalCount(#arg_18_0.displays)
 end
 
-function var_0_0.UpdateSelected(arg_21_0, arg_21_1)
-	arg_21_0.selectedId = arg_21_1
+function var_0_0.UpdateSelected(arg_20_0, arg_20_1)
+	arg_20_0.selectedId = arg_20_1
 
-	setActive(arg_21_0.emptyTr, arg_21_0.selectedId == nil)
-	setActive(arg_21_0.giftEffectList.container, arg_21_0.selectedId)
+	setActive(arg_20_0.emptyTr, arg_20_0.selectedId == nil)
+	setActive(arg_20_0.giftEffectList.container, arg_20_0.selectedId)
 
-	if arg_21_0.selectedId then
-		local var_21_0 = arg_21_0:CollectGiftEffect(arg_21_1)
+	if arg_20_0.selectedId then
+		local var_20_0 = arg_20_0:CollectGiftEffect(arg_20_1)
 
-		arg_21_0.giftEffectList:make(function(arg_22_0, arg_22_1, arg_22_2)
-			if arg_22_0 == UIItemList.EventUpdate then
-				setText(arg_22_2, var_21_0[arg_22_1 + 1])
+		arg_20_0.giftEffectList:make(function(arg_21_0, arg_21_1, arg_21_2)
+			if arg_21_0 == UIItemList.EventUpdate then
+				setText(arg_21_2, var_20_0[arg_21_1 + 1])
 			end
 		end)
-		arg_21_0.giftEffectList:align(#var_21_0)
+		arg_20_0.giftEffectList:align(#var_20_0)
 	end
+end
+
+function var_0_0.CollectGiftBuffs(arg_22_0, arg_22_1)
+	local var_22_0 = {}
+	local var_22_1 = IslandItem.StaticGetUsageArg(arg_22_1)
+	local var_22_2 = arg_22_0.ship:IsFavoriteGift(arg_22_1) and IslandConst.GIFT_INDEX_FAVORITE or IslandConst.GIFT_INDEX_COMMON
+
+	for iter_22_0, iter_22_1 in ipairs(var_22_1) do
+		if var_22_2 == iter_22_0 then
+			local var_22_3 = iter_22_1[2]
+
+			for iter_22_2, iter_22_3 in ipairs(var_22_3) do
+				table.insert(var_22_0, iter_22_3)
+			end
+		end
+	end
+
+	return var_22_0
 end
 
 function var_0_0.CollectGiftEffect(arg_23_0, arg_23_1)
 	local var_23_0 = {}
 	local var_23_1 = IslandItem.StaticGetUsageArg(arg_23_1)
+	local var_23_2 = IslandConst.GIFT_INDEX_COMMON
+	local var_23_3 = IslandConst.GIFT_INDEX_FAVORITE
+	local var_23_4 = arg_23_0.ship:IsFavoriteGift(arg_23_1) and var_23_1[var_23_3] or var_23_1[var_23_2]
 
-	table.insert(var_23_0, i18n1("角色体力+" .. var_23_1))
+	if var_23_4[var_23_2] > 0 then
+		table.insert(var_23_0, i18n("island_word_ship_enengy_recover") .. var_23_4[var_23_2])
+	end
 
-	local var_23_2 = arg_23_0.ship:GetFavoriteGift()
+	for iter_23_0, iter_23_1 in ipairs(var_23_4[2]) do
+		local var_23_5 = pg.island_buff_template[iter_23_1]
 
-	if table.contains(var_23_2, arg_23_1) then
-		local var_23_3 = IslandShip.StaticGetGiftStatue()
-		local var_23_4 = pg.island_ship_state[var_23_3]
-
-		table.insert(var_23_0, var_23_4.desc)
+		table.insert(var_23_0, var_23_5.buff_desc)
 	end
 
 	return var_23_0

@@ -3,7 +3,7 @@ local var_0_0 = class("ShopResItem")
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0._go = Object.Instantiate(arg_1_1, arg_1_2)
 	arg_1_0._tf = arg_1_0._go.transform
-	arg_1_0.icon = findTF(arg_1_0._tf, "icon")
+	arg_1_0.icon = findTF(arg_1_0._tf, "icon"):GetComponent(typeof(Image))
 	arg_1_0.cntText = findTF(arg_1_0._tf, "Text")
 end
 

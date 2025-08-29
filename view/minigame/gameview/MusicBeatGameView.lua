@@ -193,17 +193,17 @@ function var_0_0.gameStep(arg_26_0)
 end
 
 function var_0_0.timerStart(arg_27_0)
-	arg_27_0.gamestop = false
+	arg_27_0.gameStop = false
 end
 
 function var_0_0.timerResume(arg_28_0)
-	arg_28_0.gamestop = false
+	arg_28_0.gameStop = false
 
 	arg_28_0.gameScene:resume()
 end
 
 function var_0_0.timerStop(arg_29_0)
-	arg_29_0.gamestop = true
+	arg_29_0.gameStop = true
 
 	arg_29_0.gameScene:stop()
 end
@@ -314,7 +314,7 @@ function var_0_0.resumeGame(arg_40_0)
 end
 
 function var_0_0.clearGame(arg_41_0)
-	arg_41_0.gameStop = false
+	arg_41_0.gameStop = true
 end
 
 function var_0_0.onBackPressed(arg_42_0)

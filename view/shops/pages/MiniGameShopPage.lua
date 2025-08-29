@@ -4,9 +4,7 @@ function var_0_0.CanOpen(arg_1_0, arg_1_1, arg_1_2)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(arg_1_2.level, "GameHallMediator")
 end
 
-function var_0_0.init(arg_2_0)
-	var_0_0.super.init(arg_2_0)
-
+function var_0_0.CustomInit(arg_2_0)
 	arg_2_0.purchaseWindow = MiniGameShopPurchasePanel.New(arg_2_0._tf, arg_2_0.event)
 	arg_2_0.multiWindow = MiniGameShopMultiWindow.New(arg_2_0._tf, arg_2_0.event)
 end

@@ -19,6 +19,8 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.refreshBtn = arg_2_0:findTF("timeBtn")
 	arg_2_0.timerText = arg_2_0:findTF("timeBtn/Text"):GetComponent(typeof(Text))
 	arg_2_0.resolveBtn = arg_2_0:findTF("resolveBtn")
+
+	setText(arg_2_0:findTF("resolveBtn/Text"), i18n("shop_fragment_resolve"))
 end
 
 function var_0_0.CustomInit(arg_3_0)
@@ -76,9 +78,13 @@ function var_0_0.Show(arg_10_0)
 
 	arg_10_0.canvasGroup.alpha = 1
 	arg_10_0.canvasGroup.blocksRaycasts = true
+
+	arg_10_0:PlayBGM()
 end
 
 function var_0_0.Hide(arg_13_0)
+	arg_13_0:StopBGM()
+
 	for iter_13_0, iter_13_1 in pairs(arg_13_0.cards) do
 		iter_13_1:Dispose()
 	end
@@ -114,12 +120,11 @@ function var_0_0.SetPainting(arg_17_0)
 			local var_18_0, var_18_1, var_18_2 = arg_17_0:GetPaintingEnterVoice()
 
 			arg_17_0.contextData.paintingView:Chat(var_18_0, var_18_1, var_18_2, true)
-		end)
-		onButton(arg_17_0, arg_17_0.contextData.paintingView.touch, function()
+		end, function()
 			local var_19_0, var_19_1, var_19_2 = arg_17_0:GetPaintingTouchVoice()
 
 			arg_17_0.contextData.paintingView:Chat(var_19_0, var_19_1, var_19_2, false)
-		end, SFX_PANEL)
+		end)
 	end
 end
 
@@ -304,32 +309,54 @@ function var_0_0.OnSetUp(arg_38_0)
 	return
 end
 
-function var_0_0.OnUpdateAll(arg_39_0)
+function var_0_0.getBGM(arg_39_0)
+	return nil
+end
+
+function var_0_0.PlayBGM(arg_40_0)
+	local var_40_0 = arg_40_0:getBGM()
+	local var_40_1 = pg.voice_bgm[var_40_0]
+
+	if var_40_0 and var_40_1 then
+		pg.BgmMgr.GetInstance():Push(var_40_0, var_40_1.bgm)
+	end
+end
+
+function var_0_0.StopBGM(arg_41_0)
+	local var_41_0 = arg_41_0:getBGM()
+	local var_41_1 = pg.voice_bgm[var_41_0]
+
+	if var_41_0 and var_41_1 then
+		pg.BgmMgr.GetInstance():Pop(var_41_0)
+	end
+end
+
+function var_0_0.OnUpdateAll(arg_42_0)
 	return
 end
 
-function var_0_0.OnUpdateCommodity(arg_40_0, arg_40_1)
+function var_0_0.OnUpdateCommodity(arg_43_0, arg_43_1)
 	return
 end
 
-function var_0_0.OnUpdatePlayer(arg_41_0)
+function var_0_0.OnUpdatePlayer(arg_44_0)
 	return
 end
 
-function var_0_0.OnUpdateItems(arg_42_0)
+function var_0_0.OnUpdateItems(arg_45_0)
 	return
 end
 
-function var_0_0.OnInitItem(arg_43_0, arg_43_1)
+function var_0_0.OnInitItem(arg_46_0, arg_46_1)
 	return
 end
 
-function var_0_0.OnUpdateItem(arg_44_0, arg_44_1, arg_44_2)
+function var_0_0.OnUpdateItem(arg_47_0, arg_47_1, arg_47_2)
 	return
 end
 
-function var_0_0.CanOpenPurchaseWindow(arg_45_0, arg_45_1)
-	return arg_45_1:canPurchase()
+function var_0_0.CanOpenPurchaseWindow(arg_48_0, arg_48_1)
+	return arg_48_1:canPurchase()
 end
 
 return var_0_0

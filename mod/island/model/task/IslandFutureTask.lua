@@ -1,69 +1,92 @@
 local var_0_0 = class("IslandFutureTask", import("model.vo.BaseVO"))
 
-var_0_0.CONDITION_TYPE = {
-	FINISH_TASK = 2,
-	IN_TIME = 5,
-	EXIST_ABILITY = 3,
-	MUTEX_TASK = 4
-}
-
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.id = arg_1_1.task_id
 	arg_1_0.configId = arg_1_0.id
+
+	arg_1_0:InitTimeCfg()
 end
 
 function var_0_0.bindConfigTable(arg_2_0)
 	return pg.island_task
 end
 
-function var_0_0.InTime(arg_3_0)
+function var_0_0.InitTimeCfg(arg_3_0)
 	local var_3_0 = arg_3_0:getConfig("unlock_condition")
 
 	if var_3_0 == "" or #var_3_0 == 0 then
+		arg_3_0.unlockTime = 0
+		arg_3_0.endTime = 0
+	end
+
+	local var_3_1 = underscore.detect(var_3_0, function(arg_4_0)
+		return arg_4_0[1] == IslandTaskConditionType.IN_TIME
+	end)
+
+	if not var_3_1 then
+		arg_3_0.unlockTime = 0
+		arg_3_0.endTime = 0
+	else
+		local var_3_2 = pg.TimeMgr.GetInstance()
+
+		arg_3_0.unlockTime = var_3_2:parseTimeFromConfig(var_3_1[2][1])
+		arg_3_0.endTime = var_3_2:parseTimeFromConfig(var_3_1[2][2])
+	end
+end
+
+function var_0_0.GetUnlockTime(arg_5_0)
+	return arg_5_0.unlockTime
+end
+
+function var_0_0.InTime(arg_6_0)
+	if arg_6_0.unlockTime == 0 and arg_6_0.endTime == 0 then
 		return true
 	end
 
-	return underscore.all(var_3_0, function(arg_4_0)
-		return arg_4_0[1] ~= var_0_0.CONDITION_TYPE.IN_TIME or arg_4_0[1] == var_0_0.CONDITION_TYPE.IN_TIME and pg.TimeMgr.GetInstance():inTime(arg_4_0[2])
-	end)
+	local var_6_0 = pg.TimeMgr.GetInstance():GetServerTime()
+
+	return var_6_0 > arg_6_0.unlockTime and var_6_0 < arg_6_0.endTime
 end
 
-function var_0_0.IsAcceptImmediately(arg_5_0)
-	return arg_5_0:getConfig("trigger_type") == 2 and arg_5_0:getConfig("trigger_data") == 0
+function var_0_0.IsAcceptImmediately(arg_7_0)
+	return arg_7_0:getConfig("trigger_type") == 2 and arg_7_0:getConfig("trigger_data") == 0
 end
 
-function var_0_0.IsUnlock(arg_6_0)
-	local var_6_0 = arg_6_0:getConfig("unlock_condition")
+function var_0_0.CheckAcceptOnApproach(arg_8_0, arg_8_1)
+	return arg_8_0:getConfig("trigger_data") == arg_8_1 and arg_8_0:getConfig("trigger_type") == 2
+end
 
-	if var_6_0 == "" or #var_6_0 == 0 then
+function var_0_0.IsUnlock(arg_9_0)
+	local var_9_0 = arg_9_0:getConfig("unlock_condition")
+
+	if var_9_0 == "" or #var_9_0 == 0 then
 		return true
 	end
 
-	return underscore.all(var_6_0, function(arg_7_0)
-		return arg_6_0:MatchCondition(arg_7_0)
+	return underscore.all(var_9_0, function(arg_10_0)
+		return IslandTaskConditionType.IsMatch(arg_10_0)
 	end)
 end
 
-function var_0_0.MatchCondition(arg_8_0, arg_8_1)
-	local var_8_0 = arg_8_1[1]
-	local var_8_1 = arg_8_1[2]
+function var_0_0.IsUnlockWaitTime(arg_11_0)
+	local var_11_0 = arg_11_0:getConfig("unlock_condition")
 
-	return switch(var_8_0, {
-		[var_0_0.CONDITION_TYPE.FINISH_TASK] = function()
-			return getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(var_8_1)
-		end,
-		[var_0_0.CONDITION_TYPE.EXIST_ABILITY] = function()
-			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_8_1)
-		end,
-		[var_0_0.CONDITION_TYPE.MUTEX_TASK] = function()
-			return not getProxy(IslandProxy):GetIsland():GetTaskAgency():IsPassId(var_8_1)
-		end,
-		[var_0_0.CONDITION_TYPE.IN_TIME] = function()
-			return pg.TimeMgr.GetInstance():inTime(var_8_1)
-		end
-	}, function()
+	if var_11_0 == "" or #var_11_0 == 0 then
 		return false
-	end)
+	end
+
+	for iter_11_0, iter_11_1 in ipairs(var_11_0) do
+		local var_11_1 = IslandTaskConditionType.IsMatch(iter_11_1)
+		local var_11_2 = iter_11_1[1] == IslandTaskConditionType.IN_TIME
+
+		if var_11_2 and var_11_1 then
+			return false
+		elseif not var_11_2 and not var_11_1 then
+			return false
+		end
+	end
+
+	return true
 end
 
 return var_0_0

@@ -38,7 +38,12 @@ function var_0_0.OnDestroy(arg_4_0)
 	arg_4_0:unBlurView()
 
 	arg_4_0.prevBtn = nil
-	arg_4_0.page = nil
+
+	if arg_4_0.page then
+		arg_4_0.page:StopBGM()
+
+		arg_4_0.page = nil
+	end
 
 	arg_4_0:DestroyResItemList()
 
@@ -51,6 +56,29 @@ end
 
 function var_0_0.initUI(arg_5_0)
 	arg_5_0.lScrollRect = GetComponent(arg_5_0:findTF("scroll"), "LScrollRect")
+	arg_5_0.scrollContent = arg_5_0:findTF("scroll/content")
+	arg_5_0.scrollRectTF = GetComponent(arg_5_0.scrollContent, typeof(RectTransform))
+	arg_5_0.layoutGroup = GetComponent(arg_5_0.scrollContent, typeof(GridLayoutGroup))
+	arg_5_0.scrollRectSpecial = arg_5_0:findTF("scrollRectSpecial")
+
+	setActive(arg_5_0.scrollRectSpecial, false)
+
+	local var_5_0 = GetComponent(arg_5_0:findTF("viewport/view/group/items", arg_5_0.scrollRectSpecial), typeof(GridLayoutGroup))
+	local var_5_1 = arg_5_0.scrollRectTF.rect.width
+	local var_5_2 = arg_5_0.layoutGroup.cellSize.x
+	local var_5_3 = math.floor(var_5_1 / var_5_2)
+	local var_5_4 = var_5_1 % var_5_2 / var_5_3
+
+	if var_5_4 < 12 then
+		local var_5_5 = var_5_3 - 1
+
+		var_5_4 = (var_5_1 - var_5_2 * var_5_5) / var_5_5
+	end
+
+	arg_5_0.layoutGroup.spacing = Vector2(var_5_4, var_5_4)
+	arg_5_0.layoutGroup.padding.left = var_5_4 / 2
+	var_5_0.spacing = Vector2(var_5_4, var_5_4)
+	var_5_0.padding.left = var_5_4 / 2
 end
 
 function var_0_0.initData(arg_6_0)
@@ -97,11 +125,11 @@ function var_0_0.GetDefaultShopIndex(arg_8_0)
 			end
 		end
 	else
-		for iter_8_2, iter_8_3 in ipairs(arg_8_0.packageSortList) do
+		for iter_8_2, iter_8_3 in pairs(arg_8_0.packageSortList) do
 			if iter_8_3.type == arg_8_0.contextData.shopID then
 				local var_8_1 = arg_8_0.packageSortList[arg_8_0.supplyShopType].index
 				local var_8_2 = arg_8_0.packageSortList[arg_8_0.supplyShopType].type
-				local var_8_3 = arg_8_0.allShopList[var_8_2][var_8_1]
+				local var_8_3 = arg_8_0.allShopList[var_8_2][1]
 				local var_8_4, var_8_5 = arg_8_0.pages[iter_8_3.type]:CanOpen(var_8_3, arg_8_0.player)
 
 				if var_8_4 then
@@ -112,11 +140,10 @@ function var_0_0.GetDefaultShopIndex(arg_8_0)
 	end
 
 	for iter_8_4, iter_8_5 in pairs(arg_8_0.packageSortList) do
-		local var_8_6 = iter_8_5.index
-		local var_8_7 = arg_8_0.allShopList[iter_8_5.type][var_8_6]
-		local var_8_8, var_8_9 = arg_8_0.pages[iter_8_5.type]:CanOpen(var_8_7, arg_8_0.player)
+		local var_8_6 = arg_8_0.allShopList[iter_8_5.type][1]
+		local var_8_7, var_8_8 = arg_8_0.pages[iter_8_5.type]:CanOpen(var_8_6, arg_8_0.player)
 
-		if var_8_8 then
+		if var_8_7 then
 			return iter_8_5.index
 		end
 	end
@@ -143,7 +170,7 @@ function var_0_0.initToggleList(arg_10_0)
 			setText(arg_10_0:findTF("unselected/Label", arg_11_2), i18n(ShopConst.TYPE2NAME[var_11_0]))
 
 			local var_11_1 = arg_10_0.packageSortList[arg_11_1 + 1].index
-			local var_11_2 = arg_10_0.allShopList[var_11_0][var_11_1]
+			local var_11_2 = arg_10_0.allShopList[var_11_0][1]
 			local var_11_3, var_11_4 = arg_10_0.pages[var_11_0]:CanOpen(var_11_2, arg_10_0.player)
 
 			if var_11_3 == false then
@@ -163,7 +190,7 @@ function var_0_0.initToggleList(arg_10_0)
 				end
 
 				local var_12_1 = arg_10_0.packageSortList[arg_11_1 + 1].type
-				local var_12_2 = arg_10_0.allShopList[var_12_1][var_12_0]
+				local var_12_2 = arg_10_0.allShopList[var_12_1][1]
 				local var_12_3, var_12_4 = arg_10_0.pages[var_12_1]:CanOpen(var_12_2, arg_10_0.player)
 
 				if var_12_3 == false then
@@ -182,6 +209,7 @@ function var_0_0.initToggleList(arg_10_0)
 
 				arg_10_0.prevBtn = arg_11_2
 				arg_10_0.selectedPackageType = var_12_0
+				arg_10_0.contextData.shopID = var_12_1
 
 				arg_10_0:UpdateShop()
 			end, SFX_PANEL)
@@ -255,13 +283,29 @@ function var_0_0.OnUpdateShop(arg_22_0, arg_22_1, arg_22_2)
 	if arg_22_0.page == var_22_0 then
 		arg_22_0.page:UpdateShop(arg_22_2)
 	end
+
+	for iter_22_0, iter_22_1 in ipairs(arg_22_0.packageSortList) do
+		if iter_22_1.shopData:IsSameKind(arg_22_2) then
+			iter_22_1.shopData = arg_22_2
+
+			break
+		end
+	end
 end
 
 function var_0_0.OnUpdateCommodity(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
 	local var_23_0 = arg_23_0.pages[arg_23_1]
 
-	if arg_23_0.page == var_23_0 then
-		arg_23_0.page:UpdateCommodity(arg_23_2, arg_23_3)
+	for iter_23_0, iter_23_1 in ipairs(arg_23_0.packageSortList) do
+		if iter_23_1.shopData:IsSameKind(arg_23_2) then
+			iter_23_1.shopData = arg_23_2
+
+			if arg_23_0.page == var_23_0 then
+				arg_23_0.page:UpdateCommodity(arg_23_2, arg_23_3)
+			end
+
+			break
+		end
 	end
 end
 

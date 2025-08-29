@@ -80,7 +80,7 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.price = arg_3_0.adapt:Find("right/price")
 	arg_3_0.btns = arg_3_0.price:Find("btns")
 	arg_3_0.filterUI = arg_3_0.adapt:Find("subPage/filterUI")
-	arg_3_0.filterContent = arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content")
+	arg_3_0.filterContent = arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content")
 	arg_3_0.painting = arg_3_0._tf:Find("painting")
 	arg_3_0.paintingTF = arg_3_0._tf:Find("painting/paint")
 	arg_3_0.defaultPaintingPosition = arg_3_0.paintingTF.anchoredPosition
@@ -138,28 +138,28 @@ function var_0_0.init(arg_3_0)
 	setText(arg_3_0.price:Find("btn/tag/Text"), i18n("shop_new_gift"))
 	setText(arg_3_0.giftPack:Find("panel/desc"), i18n("shop_new_gem_transform"))
 	setText(arg_3_0.giftPack:Find("price/btns/yigoumai_button/Text"), i18n("shop_new_purchased"))
-	setText(arg_3_0.filterUI:Find("panel/title"), i18n("shop_new_sort"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/own/subTitleFrame/subTitle"), i18n("shop_new_review"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/own/options/0/Text"), i18n("shop_new_all"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/own/options/1/Text"), i18n("shop_new_owned"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/own/options/2/Text"), i18n("shop_new_havent_own"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/own/options/3/Text"), i18n("shop_new_unused"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/type/subTitleFrame/subTitle"), i18n("shop_new_type"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/0/Text"), i18n("shop_new_all"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/2/Text"), i18n("shop_new_static"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/3/Text"), i18n("shop_new_dynamic"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/4/Text"), i18n("shop_new_static_bg"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/5/Text"), i18n("shop_new_dynamic_bg"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/type/options/6/Text"), i18n("shop_new_bgm"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/shipHave/subTitleFrame/subTitle"), i18n("shop_new_index"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/shipHave/options/0/Text"), i18n("shop_new_all"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/shipHave/options/1/Text"), i18n("shop_new_ship_owned"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/shipHave/options/2/Text"), i18n("shop_new_ship_havent_owned"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/camp/subTitleFrame/subTitle"), i18n("shop_new_nation"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/rarity/subTitleFrame/subTitle"), i18n("shop_new_rarity"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/shipType/subTitleFrame/subTitle"), i18n("shop_new_category"))
-	setText(arg_3_0.filterUI:Find("panel/filterScroll/Viewport/Content/themeType/subTitleFrame/subTitle"), i18n("shop_new_skin_theme"))
-	setText(arg_3_0.filterUI:Find("panel/bottom/ok/Text"), i18n("shop_new_confirm"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/title"), i18n("shop_new_sort"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/subTitleFrame/subTitle"), i18n("shop_new_review"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/options/0/Text"), i18n("shop_new_all"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/options/1/Text"), i18n("shop_new_owned"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/options/2/Text"), i18n("shop_new_havent_own"))
+	setScrollText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/own/options/3/mask/Text"), i18n("shop_new_unused"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/subTitleFrame/subTitle"), i18n("shop_new_type"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/0/Text"), i18n("shop_new_all"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/2/Text"), i18n("shop_new_static"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/3/Text"), i18n("shop_new_dynamic"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/4/Text"), i18n("shop_new_static_bg"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/5/Text"), i18n("shop_new_dynamic_bg"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/type/options/6/Text"), i18n("shop_new_bgm"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipHave/subTitleFrame/subTitle"), i18n("shop_new_index"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipHave/options/0/Text"), i18n("shop_new_all"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipHave/options/1/Text"), i18n("shop_new_ship_owned"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipHave/options/2/Text"), i18n("shop_new_ship_havent_owned"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/camp/subTitleFrame/subTitle"), i18n("shop_new_nation"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/rarity/subTitleFrame/subTitle"), i18n("shop_new_rarity"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/shipType/subTitleFrame/subTitle"), i18n("shop_new_category"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/filterScroll/Viewport/Content/themeType/subTitleFrame/subTitle"), i18n("shop_new_skin_theme"))
+	setText(arg_3_0.filterUI:Find("panelMask/panel/bottom/ok/Text"), i18n("shop_new_confirm"))
 	arg_3_0:Overlay()
 end
 
@@ -175,7 +175,7 @@ function var_0_0.Overlay(arg_4_0)
 			arg_4_0.search,
 			arg_4_0.charContainer:Find("bg"),
 			arg_4_0.price:Find("consume"),
-			arg_4_0.filterUI:Find("panel")
+			arg_4_0.filterUI:Find("panelMask/panel")
 		}
 	})
 end
@@ -246,6 +246,7 @@ function var_0_0.didEnter(arg_6_0)
 	onButton(arg_6_0, arg_6_0.showOwnBtn, function()
 		arg_6_0:emit(LatestSkinShopMediator.OPEN_OWN_SKIN_LAYER)
 	end, SFX_PANEL)
+	getProxy(CommanderManualProxy):TaskProgressAdd(2021, 1)
 end
 
 function var_0_0.SetResource(arg_14_0)
@@ -1935,14 +1936,14 @@ function var_0_0.SetFilterPanel(arg_122_0)
 
 		setActive(arg_122_0.filterUI, false)
 	end, SFX_PANEL)
-	onButton(arg_122_0, arg_122_0.filterUI:Find("panel/closeBtn"), function()
+	onButton(arg_122_0, arg_122_0.filterUI:Find("panelMask/panel/closeBtn"), function()
 		for iter_124_0, iter_124_1 in pairs(arg_122_0.filterValues) do
 			arg_122_0.filterValuesTemp[iter_124_0] = Clone(arg_122_0.filterValues[iter_124_0])
 		end
 
 		setActive(arg_122_0.filterUI, false)
 	end, SFX_PANEL)
-	onButton(arg_122_0, arg_122_0.filterUI:Find("panel/bottom/ok"), function()
+	onButton(arg_122_0, arg_122_0.filterUI:Find("panelMask/panel/bottom/ok"), function()
 		for iter_125_0, iter_125_1 in pairs(arg_122_0.filterValues) do
 			arg_122_0.filterValues[iter_125_0] = Clone(arg_122_0.filterValuesTemp[iter_125_0])
 		end
@@ -1985,7 +1986,7 @@ function var_0_0.SetOptionList(arg_127_0, arg_127_1, arg_127_2, arg_127_3)
 
 			arg_128_2.name = arg_128_1
 
-			setText(arg_128_2:Find("Text"), var_128_0)
+			setScrollText(arg_128_2:Find("mask/Text"), var_128_0)
 		end
 	end)
 	var_127_0:align(#arg_127_2)
@@ -2066,7 +2067,13 @@ end
 function var_0_0.SetOptionSelect(arg_133_0, arg_133_1, arg_133_2)
 	setActive(arg_133_1:Find("selectedFrame"), arg_133_2)
 
-	local var_133_0 = arg_133_1:Find("Text"):GetComponent(typeof(Text))
+	local var_133_0
+
+	if IsNil(arg_133_1:Find("Text")) then
+		var_133_0 = arg_133_1:Find("mask/Text"):GetComponent(typeof(Text))
+	else
+		var_133_0 = arg_133_1:Find("Text"):GetComponent(typeof(Text))
+	end
 
 	if arg_133_2 then
 		var_133_0.color = Color.New(1, 1, 1, 1)
@@ -2121,11 +2128,11 @@ function var_0_0.GetSkinClassify(arg_134_0)
 
 	for iter_134_6, iter_134_7 in ipairs(arg_134_0.classifyIds) do
 		if iter_134_7 == var_0_12 then
-			table.insert(arg_134_0.classifyNames, "全部")
+			table.insert(arg_134_0.classifyNames, i18n("shop_filter_all"))
 		elseif iter_134_7 == var_0_13 or iter_134_7 == var_0_15 then
-			table.insert(arg_134_0.classifyNames, "体验")
+			table.insert(arg_134_0.classifyNames, i18n("shop_filter_trial"))
 		elseif iter_134_7 == var_0_14 then
-			table.insert(arg_134_0.classifyNames, "返场")
+			table.insert(arg_134_0.classifyNames, i18n("shop_filter_retro"))
 		else
 			table.insert(arg_134_0.classifyNames, pg.skin_page_template[iter_134_7].name)
 		end

@@ -89,7 +89,7 @@ end
 
 function var_0_0.didEnter(arg_13_0)
 	onButton(arg_13_0, arg_13_0.backBtn, function()
-		arg_13_0:emit(var_0_0.ON_BACK)
+		arg_13_0:closeView()
 	end, SFX_CANCEL)
 	onButton(arg_13_0, arg_13_0.logoutBtn, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

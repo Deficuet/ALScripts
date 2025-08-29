@@ -34,7 +34,7 @@ function var_0_0.setLevelMask(arg_4_0, arg_4_1)
 	setActive(arg_4_0.mask, var_4_1)
 
 	if var_4_1 then
-		setText(arg_4_0.levelTag, tostring(var_4_0) .. i18n("shop_charge_level_limit"))
+		setScrollText(arg_4_0.levelTag:Find("TextGo/Text"), tostring(var_4_0) .. i18n("shop_charge_level_limit"))
 		setActive(arg_4_0.levelTag, true)
 		setActive(arg_4_0.selloutTag, false)
 

@@ -23,7 +23,7 @@ return {
 	{},
 	init_effect = "",
 	name = "破盾监听",
-	time = 8,
+	time = 10,
 	picture = "",
 	desc = "监听器",
 	stack = 1,

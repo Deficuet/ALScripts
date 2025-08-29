@@ -54,4 +54,8 @@ function var_0_0.CollectActivity(arg_7_0)
 	return var_7_2, var_7_3
 end
 
+function var_0_0.GetTipImage(arg_8_0)
+	return "tip_1920"
+end
+
 return var_0_0

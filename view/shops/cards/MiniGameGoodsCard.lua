@@ -3,10 +3,6 @@ local var_0_0 = class("MiniGameGoodsCard", import(".BaseGoodsCard"))
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 	setActive(arg_1_0.selloutTag, true)
-	setText(arg_1_0.levelTag, i18n("shop_charge_level_limit"))
-
-	arg_1_0.levelTagText = arg_1_0.tf:Find("mask/tag/level_tag/Text")
-
 	onButton(arg_1_0, arg_1_0.mask, function()
 		pg.TipsMgr.GetInstance():ShowTips(arg_1_0.maskTip)
 	end, SFX_PANEL)
@@ -39,7 +35,7 @@ function var_0_0.setLevelMask(arg_4_0, arg_4_1)
 	setActive(arg_4_0.mask, var_4_1)
 
 	if var_4_1 then
-		setText(arg_4_0.levelTagText, tostring(var_4_0))
+		setScrollText(arg_4_0.levelTagText, tostring(var_4_0))
 		setActive(arg_4_0.levelTag, true)
 		setActive(arg_4_0.selloutTag, false)
 
@@ -69,6 +65,7 @@ function var_0_0.update(arg_5_0, arg_5_1)
 	local var_5_6 = arg_5_1:getConfig("goods_purchase_limit")
 
 	setText(arg_5_0.limitCountLabelTF, i18n("activity_shop_exchange_count") .. var_5_5 .. "/" .. var_5_6)
+	setActive(arg_5_0.limitCountLabelTF, true)
 	setActive(arg_5_0.discountTF, false)
 	setText(arg_5_0.countTF, math.ceil(var_5_4))
 	GetSpriteFromAtlasAsync("ui/ShopsUI_atlas", "minigameRes", function(arg_6_0)

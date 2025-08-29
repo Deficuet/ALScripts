@@ -27580,6 +27580,7 @@ pg.activity_template = {
 	[50068] = {
 		mark = 20250807,
 		title_res_tag = "forestframe",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -27615,33 +27616,6 @@ pg.activity_template = {
 			{
 				21800,
 				21801
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					12,
-					0,
-					0
-				}
 			}
 		},
 		page_info = {
@@ -27757,12 +27731,13 @@ pg.activity_template = {
 	},
 	[50081] = {
 		mark = 20250814,
-		id = 50081,
 		title_res_tag = "TrinidadMain",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 1,
+		id = 50081,
 		page_core = "SecretsAbyssCoreActivityUI",
 		config_data = {
 			1950001,
@@ -27771,33 +27746,6 @@ pg.activity_template = {
 			1950021,
 			1950022,
 			1950023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		},
 		page_info = {
 			class_name = "SecretsAbyssMainPage",
@@ -27862,12 +27810,13 @@ pg.activity_template = {
 	},
 	[50082] = {
 		mark = 20250814,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 50082,
 		page_core = "",
 		config_data = {
@@ -27881,33 +27830,6 @@ pg.activity_template = {
 			1950051,
 			1950052
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10",
 			task_id = 21818
@@ -27916,6 +27838,7 @@ pg.activity_template = {
 	[50083] = {
 		mark = 20250814,
 		title_res_tag = "",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 66,
@@ -27923,33 +27846,6 @@ pg.activity_template = {
 		config_data = "0",
 		id = 50083,
 		page_core = "SecretsAbyssCoreActivityUI",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "SecretsAbyssMGPage",
 			ui_name = "SecretsAbyssMGPage"
@@ -27960,12 +27856,13 @@ pg.activity_template = {
 	},
 	[50084] = {
 		mark = 20250814,
-		id = 50084,
 		title_res_tag = "skin_spring3",
+		time = "stop",
 		type = 86,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 3,
+		id = 50084,
 		page_core = "SecretsAbyssCoreActivityUI",
 		config_data = {
 			21811,
@@ -27975,33 +27872,6 @@ pg.activity_template = {
 			21815,
 			21816,
 			21817
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "SecretsAbyssSkinMagazinePage",
@@ -28304,12 +28174,13 @@ pg.activity_template = {
 	},
 	[50091] = {
 		mark = 20250814,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50091,
 		page_core = "",
@@ -28337,43 +28208,17 @@ pg.activity_template = {
 			24298,
 			24299,
 			24300
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50092] = {
 		mark = 20250814,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50092,
 		page_core = "",
@@ -28382,83 +28227,31 @@ pg.activity_template = {
 				31932,
 				100
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50093] = {
 		mark = 20250814,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50093,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50094] = {
 		mark = 20250814,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 112,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50094,
 		page_core = "",
@@ -28491,33 +28284,6 @@ pg.activity_template = {
 			3026,
 			3027,
 			3028
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					28
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50095] = {
@@ -28534,6 +28300,118 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			24301
+		}
+	},
+	[50098] = {
+		mark = 20250828,
+		title_res_tag = "",
+		page_info = "",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 50098,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2036,
+					1,
+					1
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[50099] = {
+		mark = 20250828,
+		title_res_tag = "dianqi",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		id = 50099,
+		page_core = "",
+		config_data = {
+			{
+				21821,
+				21822
+			},
+			{
+				21823,
+				21824
+			},
+			{
+				21825,
+				21826
+			},
+			{
+				21827,
+				21828
+			},
+			{
+				21829,
+				21830
+			},
+			{
+				21831,
+				21832
+			},
+			{
+				21833,
+				21834
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					8,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "AierdeliqiAlterItemRePage",
+			ui_name = "AierdeliqiAlterItemRePage"
 		}
 	},
 	[7011] = {
@@ -36844,84 +36722,6 @@ pg.activity_template = {
 			}
 		}
 	},
-	[40001] = {
-		mark = 20190920,
-		title_res_tag = "",
-		time = "stop",
-		type = 13,
-		login_pop = 0,
-		config_id = 0,
-		is_show = 0,
-		config_client = "",
-		id = 40001,
-		page_core = "",
-		config_data = {},
-		page_info = {
-			class_name = "AvroraTWCBTPage",
-			ui_name = "avroratwcbtpage"
-		}
-	},
-	[45025] = {
-		mark = 20200930,
-		title_res_tag = "bobing2",
-		type = 20,
-		login_pop = 0,
-		config_id = 8,
-		is_show = 1,
-		config_client = "",
-		id = 45025,
-		page_core = "",
-		config_data = {
-			{
-				8881,
-				8882,
-				8883,
-				8884,
-				8885,
-				8886,
-				8887
-			},
-			{
-				{
-					8,
-					8888,
-					"bobing_mail_title",
-					"bobing_mail_content"
-				}
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2020,
-					9,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2020,
-					10,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		page_info = {
-			class_name = "BobingPage",
-			ui_name = "BobingPage"
-		}
-	},
 	get_id_list_by_type = {
 		[3] = {
 			3,
@@ -37190,8 +36990,7 @@ pg.activity_template = {
 			1089,
 			1090,
 			1091,
-			100001,
-			40001
+			100001
 		},
 		[18] = {
 			713,
@@ -37243,6 +37042,7 @@ pg.activity_template = {
 			50032,
 			50033,
 			50068,
+			50099,
 			6000,
 			6001,
 			6002,
@@ -37933,6 +37733,7 @@ pg.activity_template = {
 			5350,
 			5568,
 			50055,
+			50098,
 			1068
 		},
 		[111] = {
@@ -38091,9 +37892,6 @@ pg.activity_template = {
 			1076,
 			1077,
 			1078
-		},
-		[20] = {
-			45025
 		}
 	},
 	all = {
@@ -38914,6 +38712,8 @@ pg.activity_template = {
 		50093,
 		50094,
 		50095,
+		50098,
+		50099,
 		7011,
 		7012,
 		7013,
@@ -39082,8 +38882,6 @@ pg.activity_template = {
 		6023,
 		100001,
 		100002,
-		100003,
-		40001,
-		45025
+		100003
 	}
 }

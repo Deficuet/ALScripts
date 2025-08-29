@@ -19,7 +19,7 @@ return {
 				}
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/ActivityMainUI(Clone)/pages/AprilFoolDiscoveryRePage(Clone)/AD/help_btn",
+				path = "UICamera/Canvas/UIMain/ActivityMainUI(Clone)/adapt/pages/AprilFoolDiscoveryRePage(Clone)/AD/help_btn",
 				pathIndex = -1,
 				triggerType = {
 					1

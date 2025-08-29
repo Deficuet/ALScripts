@@ -15836,7 +15836,7 @@ end)()
 		type = 5,
 		desc = "埃塞克斯突破至满星",
 		count_inherit = 0,
-		sub_type = 35,
+		sub_type = 33,
 		target_id_2 = "",
 		story_icon = "aisaikesi",
 		is_head = 0,
@@ -15855,10 +15855,10 @@ end)()
 		story_icon_shift = "",
 		fix_task = 0,
 		scene = "",
-		target_id = "107094",
+		target_id = "10709",
 		tutorial_handbook_pic = "",
 		id = 5266,
-		target_num = 1,
+		target_num = 6,
 		activity_client_config = "",
 		added_tip = 1,
 		award_display = {
@@ -160874,6 +160874,612 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21821] = {
+		name = "『埃尔德里奇改造复刻』七日任务1",
+		guild_coin_award = 0,
+		award = 906961,
+		type = 26,
+		desc = "舰队出征，以S评价通关10次",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21821,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21822] = {
+		name = "『埃尔德里奇改造复刻』七日任务2",
+		guild_coin_award = 0,
+		award = 906962,
+		type = 26,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21822,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21823] = {
+		name = "『埃尔德里奇改造复刻』七日任务3",
+		guild_coin_award = 0,
+		award = 906963,
+		type = 26,
+		desc = "进行2次演习",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21823,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21824] = {
+		name = "『埃尔德里奇改造复刻』七日任务4",
+		guild_coin_award = 0,
+		award = 906964,
+		type = 26,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21824,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21825] = {
+		name = "『埃尔德里奇改造复刻』七日任务5",
+		guild_coin_award = 0,
+		award = 906965,
+		type = 26,
+		desc = "舰船退役2次",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21825,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21826] = {
+		name = "『埃尔德里奇改造复刻』七日任务6",
+		guild_coin_award = 0,
+		award = 906966,
+		type = 26,
+		desc = "完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21826,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21827] = {
+		name = "『埃尔德里奇改造复刻』七日任务7",
+		guild_coin_award = 0,
+		award = 906967,
+		type = 26,
+		desc = "舰船强化5次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21827,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21828] = {
+		name = "『埃尔德里奇改造复刻』七日任务8",
+		guild_coin_award = 0,
+		award = 906968,
+		type = 26,
+		desc = "进行战术训练2次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21828,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21829] = {
+		name = "『埃尔德里奇改造复刻』七日任务9",
+		guild_coin_award = 0,
+		award = 906969,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21829,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21830] = {
+		name = "『埃尔德里奇改造复刻』七日任务10",
+		guild_coin_award = 0,
+		award = 906970,
+		type = 26,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21830,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21831] = {
+		name = "『埃尔德里奇改造复刻』七日任务11",
+		guild_coin_award = 0,
+		award = 906971,
+		type = 26,
+		desc = "建造舰船2次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21831,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21832] = {
+		name = "『埃尔德里奇改造复刻』七日任务12",
+		guild_coin_award = 0,
+		award = 906972,
+		type = 26,
+		desc = "打开任意科技箱1个",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21832,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21833] = {
+		name = "『埃尔德里奇改造复刻』七日任务13",
+		guild_coin_award = 0,
+		award = 906973,
+		type = 26,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21833,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21834] = {
+		name = "『埃尔德里奇改造复刻』七日任务14",
+		guild_coin_award = 0,
+		award = 906974,
+		type = 26,
+		desc = "击败旗舰3次 ",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21834,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59853,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -162480,7 +163086,7 @@ end)()
 		scene = {
 			"SHOP",
 			{
-				warp = "quota"
+				warp = "sham"
 			}
 		}
 	}
@@ -165758,7 +166364,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「优惠礼包」</color>选项进入礼包商店；\n·除了每周刷新的免费礼包之外，还会不定期上架超值礼包。",
+		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「茗的精选」和「优惠礼包」</color>选项进入礼包商店；\n·除了每周刷新的免费礼包之外，还会不定期上架超值礼包。",
 		count_inherit = 0,
 		sub_type = 154,
 		target_id_2 = "0",
@@ -165786,7 +166392,10 @@ end)()
 		open_need = {},
 		award_display = {},
 		scene = {
-			"CHARGE_MENU"
+			"CHARGE",
+			{
+				wrap = 4
+			}
 		}
 	}
 end)()
@@ -165836,7 +166445,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给商店」</color>，左侧的<color=#e7b000>「军火」</color>选项进入军火商店；\n·军火商店有概率出现心智魔方、快速完成工具等资源和道具，可消耗物资或钻石购买商品；\n·军火商店中的商品有概率打折；\n·军火商店中的商品每天0时、12点、18点自动刷新。",
+		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给道具」</color>-<color=#e7b000>「补给商店」</color>，上方的<color=#e7b000>「军火」</color>选项进入军火商店；\n·军火商店有概率出现心智魔方、快速完成工具等资源和道具，可消耗物资或钻石购买商品；\n·军火商店中的商品有概率打折；\n·军火商店中的商品每天0时、12点、18点自动刷新。",
 		count_inherit = 0,
 		sub_type = 150,
 		target_id_2 = "0",
@@ -166907,7 +167516,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给商店」</color>-<color=#e7b000>「月度商店」</color>，左侧的<color=#e7b000>「核心限定」</color>和<color=#e7b000>「核心月度」</color>选项进入核心兑换商店；\n·可消耗核心数据购买商品，核心数据可通过通关困难主线海域等途径取得；\n·核心兑换月度：每月1日0时刷新可兑换次数；\n·核心兑换限定：不刷新，且商品有兑换次数限制。",
+		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给道具」</color>-<color=#e7b000>「月度商店」</color>，上方的<color=#e7b000>「核心限定」</color>和<color=#e7b000>「核心月度」</color>选项进入核心兑换商店；\n·可消耗核心数据购买商品，核心数据可通过通关困难主线海域等途径取得；\n·核心兑换月度：每月1日0时刷新可兑换次数；\n·核心兑换限定：不刷新，且商品有兑换次数限制。",
 		count_inherit = 0,
 		sub_type = 152,
 		target_id_2 = "",
@@ -166937,7 +167546,7 @@ end)()
 		scene = {
 			"SHOP",
 			{
-				warp = "quota"
+				warp = "sham"
 			}
 		}
 	}
@@ -167097,7 +167706,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给商店」</color>，左侧的<color=#e7b000>「舰队」</color>选项进入舰队商店；\n·舰队商店中的商品每周一、周五0时自动刷新，也可点击右上方<color=#e7b000>「刷新」</color>选项消耗50舰队币手动刷新一次。",
+		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给道具」</color>-<color=#e7b000>「补给商店」</color>，上方的<color=#e7b000>「舰队」</color>选项进入舰队商店；\n·舰队商店中的商品每周一、周五0时自动刷新，也可点击右上方<color=#e7b000>「刷新」</color>选项消耗50舰队币手动刷新一次。",
 		count_inherit = 0,
 		sub_type = 151,
 		target_id_2 = "0",
@@ -167361,7 +167970,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给商店」</color>-<color=#e7b000>「月度商店」</color>，左侧的<color=#e7b000>「原型」</color>选项进入特装原型兑换商店；\n·可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「活动汇总」</color>，左侧的<color=#e7b000>「特装原型」</color>选项确认本月已获取的特装原型数量；\n·也可通过<color=#e7b000>「主界面」</color>左侧三角按钮，在展开的侧拉弹窗中快速确认本月的特装原型获取情况；\n·每月可获得特装原型上限为5000，每月1日0时重置获取上限；\n·可通过活动<color=#e7b000>「布里支援计划」</color>获取一定数量的特装原型，此处获取的特装原型数量不计入每月上限；\n·在<color=#e7b000>「勋章商店」</color>中可消耗<color=#e7b000>「荣誉勋章」</color>兑换特装原型，每月至多可兑换30次，此处获取的特装原型数量不计入每月上限。",
+		desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给道具」</color>-<color=#e7b000>「月度商店」</color>，上方的<color=#e7b000>「原型」</color>选项进入特装原型兑换商店；\n·可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「活动汇总」</color>，左侧的<color=#e7b000>「特装原型」</color>选项确认本月已获取的特装原型数量；\n·也可通过<color=#e7b000>「主界面」</color>左侧三角按钮，在展开的侧拉弹窗中快速确认本月的特装原型获取情况；\n·每月可获得特装原型上限为5000，每月1日0时重置获取上限；\n·可通过活动<color=#e7b000>「布里支援计划」</color>获取一定数量的特装原型，此处获取的特装原型数量不计入每月上限；\n·在<color=#e7b000>「勋章商店」</color>中可消耗<color=#e7b000>「荣誉勋章」</color>兑换特装原型，每月至多可兑换30次，此处获取的特装原型数量不计入每月上限。",
 		count_inherit = 0,
 		sub_type = 130,
 		target_id_2 = "0",

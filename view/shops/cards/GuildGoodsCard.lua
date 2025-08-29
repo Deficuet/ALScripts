@@ -15,6 +15,7 @@ function var_0_0.update(arg_2_0, arg_2_1)
 	end
 
 	setText(arg_2_0.limitCountLabelTF, i18n("activity_shop_exchange_count") .. arg_2_0.goodsVO.count .. "/" .. arg_2_0.goodsVO:GetLimit())
+	setActive(arg_2_0.limitCountLabelTF, true)
 
 	local var_2_0 = arg_2_0.goodsVO:CanPurchase()
 

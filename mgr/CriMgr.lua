@@ -51,7 +51,11 @@ function var_0_1.Init(arg_1_0, arg_1_1)
 end
 
 function var_0_1.InitCri(arg_8_0, arg_8_1)
-	arg_8_0.criInitializer = GameObject.Find("CRIWARE"):GetComponent(typeof(CriWare.CriWareInitializer))
+	local var_8_0 = GameObject.Find("CRIWARE")
+
+	var_8_0:AddComponent(typeof(CriWareMgr))
+
+	arg_8_0.criInitializer = var_8_0:GetComponent(typeof(CriWare.CriWareInitializer))
 	arg_8_0.criInitializer.fileSystemConfig.numberOfLoaders = 128
 	arg_8_0.criInitializer.manaConfig.numberOfDecoders = 128
 	arg_8_0.criInitializer.atomConfig.useRandomSeedWithTime = true

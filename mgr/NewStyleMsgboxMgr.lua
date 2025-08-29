@@ -253,7 +253,9 @@ function var_0_1.DisplaySetting(arg_22_0, arg_22_1, arg_22_2)
 			local var_24_0 = arg_24_0.drop
 			local var_24_1 = arg_22_0._tf:Find("window/middle")
 
-			updateDorm3dIcon(var_24_1:Find("Dorm3dIconTpl"), arg_24_0.drop)
+			updateCustomDrop(var_24_1:Find("Dorm3dIconTpl"), arg_24_0.drop, {
+				style = arg_24_0.style
+			})
 			setText(var_24_1:Find("info/name"), var_24_0:getName())
 			setText(var_24_1:Find("info/scroll/desc"), cancelColorRich(var_24_0.desc))
 

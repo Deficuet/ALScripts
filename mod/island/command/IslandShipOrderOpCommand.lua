@@ -17,6 +17,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		arg_1_0:HandleGetAward(var_1_4)
 	elseif var_1_1 == IslandShipOrder.OP_TYPE_LOADUP then
 		arg_1_0:HandleLoadUp(var_1_4, var_1_3)
+	elseif var_1_1 == IslandShipOrder.OP_TYPE_LOADUP_ALL then
+		arg_1_0:HandleLoadUpAll(var_1_4)
 	end
 end
 
@@ -82,31 +84,51 @@ function var_0_0.HandleGetAward(arg_4_0, arg_4_1)
 	end)
 end
 
-function var_0_0.HandleLoadUp(arg_6_0, arg_6_1, arg_6_2)
+function var_0_0.HandleLoadUpAll(arg_6_0, arg_6_1)
 	local var_6_0 = arg_6_1:GetOrder()
-	local var_6_1 = var_6_0:GetComsume(arg_6_2)
-	local var_6_2 = Drop.New(var_6_1)
-	local var_6_3 = var_6_0:GetConsumeAwards(arg_6_2)
+	local var_6_1 = 0
+	local var_6_2 = {}
+	local var_6_3 = {}
+	local var_6_4 = {}
 
-	if var_6_2:getOwnedCount() < var_6_2.count then
+	for iter_6_0, iter_6_1 in ipairs(var_6_0.consumeList) do
+		local var_6_5 = var_6_0:GetComsume(iter_6_0)
+		local var_6_6 = Drop.New(var_6_5)
+		local var_6_7 = var_6_0:GetConsumeAwards(iter_6_0)
+
+		if var_6_6:getOwnedCount() >= var_6_6.count then
+			var_6_1 = var_6_1 + var_6_7[2].count
+
+			table.insert(var_6_2, var_6_5.id)
+			table.insert(var_6_3, iter_6_0)
+			table.insert(var_6_4, var_6_6)
+		end
+	end
+
+	if #var_6_3 <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
 
-	local var_6_4 = var_6_3[2]
+	for iter_6_2, iter_6_3 in ipairs(var_6_2) do
+		print(iter_6_3)
+	end
 
 	pg.ConnectionMgr.GetInstance():Send(21416, {
 		ship_slot_id = arg_6_1.id,
-		item_id = var_6_1.id
+		item_id = var_6_2
 	}, 21417, function(arg_7_0)
 		if arg_7_0.result == 0 then
-			local var_7_0 = IslandDropHelper.AddItems(arg_7_0)
+			local var_7_0 = IslandDropHelper.AddItems(arg_7_0, var_6_1)
 
-			table.insert(var_7_0.awards, Drop.New(var_6_4))
-			getProxy(IslandProxy):GetIsland():AddExp(var_6_4.count)
-			arg_6_0:sendNotification(GAME.CONSUME_ITEM, var_6_2)
-			var_6_0:MarkLoadUp(arg_6_2)
+			for iter_7_0, iter_7_1 in ipairs(var_6_4) do
+				arg_6_0:sendNotification(GAME.CONSUME_ITEM, iter_7_1)
+			end
+
+			for iter_7_2, iter_7_3 in ipairs(var_6_3) do
+				var_6_0:MarkLoadUp(iter_7_3)
+			end
 
 			local var_7_1 = var_6_0:IsLoadUpAll()
 
@@ -122,6 +144,50 @@ function var_0_0.HandleLoadUp(arg_6_0, arg_6_1, arg_6_2)
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_7_0.result] .. arg_7_0.result)
+		end
+	end)
+end
+
+function var_0_0.HandleLoadUp(arg_8_0, arg_8_1, arg_8_2)
+	local var_8_0 = arg_8_1:GetOrder()
+	local var_8_1 = var_8_0:GetComsume(arg_8_2)
+	local var_8_2 = Drop.New(var_8_1)
+	local var_8_3 = var_8_0:GetConsumeAwards(arg_8_2)
+
+	if var_8_2:getOwnedCount() < var_8_2.count then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+
+		return
+	end
+
+	local var_8_4 = var_8_3[2]
+
+	pg.ConnectionMgr.GetInstance():Send(21416, {
+		ship_slot_id = arg_8_1.id,
+		item_id = {
+			var_8_1.id
+		}
+	}, 21417, function(arg_9_0)
+		if arg_9_0.result == 0 then
+			local var_9_0 = IslandDropHelper.AddItems(arg_9_0, var_8_4.count)
+
+			arg_8_0:sendNotification(GAME.CONSUME_ITEM, var_8_2)
+			var_8_0:MarkLoadUp(arg_8_2)
+
+			local var_9_1 = var_8_0:IsLoadUpAll()
+
+			if var_9_1 and arg_9_0.get_time then
+				arg_8_1:Submit(arg_9_0.get_time)
+			end
+
+			arg_8_0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP_DONE, {
+				isLoadUpAll = var_9_1,
+				op = IslandShipOrder.OP_TYPE_LOADUP,
+				dropData = var_9_0,
+				id = arg_8_1.id
+			})
+		else
+			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_9_0.result] .. arg_9_0.result)
 		end
 	end)
 end

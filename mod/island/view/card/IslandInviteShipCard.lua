@@ -6,19 +6,20 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.selectedTF = arg_1_0._tf:Find("frame/sel")
 	arg_1_0.selectedDotTF = arg_1_0._tf:Find("frame/sel_dot")
 	arg_1_0.frameTF = arg_1_0._tf:Find("frame")
-	arg_1_0.iconTF = arg_1_0.frameTF:Find("main/icon")
+	arg_1_0.iconTF = arg_1_0.frameTF:Find("main")
 	arg_1_0.textTF = arg_1_0.frameTF:Find("main/Text")
 end
 
 function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
-	arg_2_0.configId = arg_2_1
+	arg_2_0.item = arg_2_1
 
-	setText(arg_2_0.textTF, pg.island_ship[arg_2_1].name)
+	setText(arg_2_0.textTF, "")
+	GetImageSpriteFromAtlasAsync(string.format("island/islandInvitation/invite_%s", arg_2_0.item.shipId), "", arg_2_0.iconTF)
 	arg_2_0:UpdateSelected(arg_2_2)
 end
 
 function var_0_0.UpdateSelected(arg_3_0, arg_3_1)
-	local var_3_0 = arg_3_1 == arg_3_0.configId
+	local var_3_0 = arg_3_1 and arg_3_1 == arg_3_0.item.shipId
 
 	SetCompomentEnabled(arg_3_0.frameTF, "EventTriggerListener", var_3_0)
 	setActive(arg_3_0.selectedTF, var_3_0)

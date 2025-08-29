@@ -1188,7 +1188,7 @@ function var_0_0.createLive2D(arg_108_0, arg_108_1)
 		local var_109_0 = arg_109_0.transform
 		local var_109_1 = arg_108_0:findTF("live2d", arg_108_0.targetActorTF)
 
-		UIUtil.SetLayerRecursively(arg_109_0, LayerMask.NameToLayer("UI"))
+		HotfixHelper.SetLayerRecursively(arg_109_0, LayerMask.NameToLayer("UI"))
 		var_109_0:SetParent(var_109_1, true)
 
 		local var_109_2

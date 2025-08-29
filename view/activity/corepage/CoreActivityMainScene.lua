@@ -28,7 +28,7 @@ function var_0_0.init(arg_3_0)
 				return tostring(arg_5_0:getConfig("is_show")) == arg_4_2.name
 			end)
 
-			if not var_4_0 then
+			if not var_4_0 or var_4_0:isEnd() then
 				setActive(arg_4_2, false)
 			elseif not arg_3_0.pageDic[var_4_0.id] then
 				warning(string.format("without page in act:", var_4_0.id))
@@ -67,93 +67,93 @@ function var_0_0.didEnter(arg_7_0)
 end
 
 function var_0_0.setActivities(arg_13_0, arg_13_1)
-	arg_13_0.activities = arg_13_1 or {}
+	arg_13_0.activities = underscore.filter(arg_13_1 or {}, function(arg_14_0)
+		return not arg_14_0:isEnd()
+	end)
 	arg_13_0.shareData = arg_13_0.shareData or ActivityShareData.New()
 	arg_13_0.pageDic = arg_13_0.pageDic or {}
 
-	for iter_13_0, iter_13_1 in ipairs(arg_13_1) do
+	for iter_13_0, iter_13_1 in ipairs(arg_13_0.activities) do
 		arg_13_0:instanceActivityPage(iter_13_1)
 	end
 
-	arg_13_0.activity = nil
-
 	table.sort(arg_13_0.activities, CompareFuncs({
-		function(arg_14_0)
-			return arg_14_0:getShowPriority()
-		end,
 		function(arg_15_0)
-			return -arg_15_0.id
+			return arg_15_0:getShowPriority()
+		end,
+		function(arg_16_0)
+			return -arg_16_0.id
 		end
 	}))
 	arg_13_0:flushTabs()
 end
 
-function var_0_0.updateActivity(arg_16_0, arg_16_1)
-	if ActivityConst.PageIdLink[arg_16_1.id] then
-		arg_16_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[arg_16_1.id])
+function var_0_0.updateActivity(arg_17_0, arg_17_1)
+	if ActivityConst.PageIdLink[arg_17_1.id] then
+		arg_17_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[arg_17_1.id])
 	end
 
-	if arg_16_1:isShow() and arg_16_1:isCorePage(arg_16_0.contextData.coreName) and not arg_16_1:isEnd() then
-		arg_16_0.activities[arg_16_0:getActivityIndex(arg_16_1.id) or #arg_16_0.activities + 1] = arg_16_1
+	if arg_17_1:isShow() and arg_17_1:isCorePage(arg_17_0.contextData.coreName) and not arg_17_1:isEnd() then
+		arg_17_0.activities[arg_17_0:getActivityIndex(arg_17_1.id) or #arg_17_0.activities + 1] = arg_17_1
 
-		table.sort(arg_16_0.activities, CompareFuncs({
-			function(arg_17_0)
-				return -arg_17_0:getShowPriority()
-			end,
+		table.sort(arg_17_0.activities, CompareFuncs({
 			function(arg_18_0)
-				return -arg_18_0.id
+				return -arg_18_0:getShowPriority()
+			end,
+			function(arg_19_0)
+				return -arg_19_0.id
 			end
 		}))
 
-		if not arg_16_0.pageDic[arg_16_1.id] then
-			arg_16_0:instanceActivityPage(arg_16_1)
+		if not arg_17_0.pageDic[arg_17_1.id] then
+			arg_17_0:instanceActivityPage(arg_17_1)
 		end
 
-		arg_16_0:flushTabs()
+		arg_17_0:flushTabs()
 
-		if arg_16_0.activity and arg_16_0.activity.id == arg_16_1.id then
-			arg_16_0.activity = arg_16_1
+		if arg_17_0.activity and arg_17_0.activity.id == arg_17_1.id then
+			arg_17_0.activity = arg_17_1
 
-			arg_16_0.pageDic[arg_16_1.id]:ActionInvoke("Flush", arg_16_1)
+			arg_17_0.pageDic[arg_17_1.id]:ActionInvoke("Flush", arg_17_1)
 		end
 	end
 end
 
-function var_0_0.updateEntrances(arg_19_0)
+function var_0_0.updateEntrances(arg_20_0)
 	return
 end
 
-function var_0_0.flushTabs(arg_20_0)
-	arg_20_0.tabsList:align(arg_20_0.tabs.childCount)
+function var_0_0.flushTabs(arg_21_0)
+	arg_21_0.tabsList:align(arg_21_0.tabs.childCount)
 end
 
-function var_0_0.selectActivity(arg_21_0, arg_21_1)
-	if arg_21_1 and (not arg_21_0.activity or arg_21_0.activity.id ~= arg_21_1.id) then
-		local var_21_0 = arg_21_0.pageDic[arg_21_1.id]
+function var_0_0.selectActivity(arg_22_0, arg_22_1)
+	if arg_22_1 and (not arg_22_0.activity or arg_22_0.activity.id ~= arg_22_1.id) then
+		local var_22_0 = arg_22_0.pageDic[arg_22_1.id]
 
-		assert(var_21_0, "找不到id:" .. arg_21_1.id .. "的活动页，请检查")
-		var_21_0:Load()
-		var_21_0:ActionInvoke("Flush", arg_21_1)
-		var_21_0:ActionInvoke("ShowOrHide", true)
+		assert(var_22_0, "找不到id:" .. arg_22_1.id .. "的活动页，请检查")
+		var_22_0:Load()
+		var_22_0:ActionInvoke("Flush", arg_22_1)
+		var_22_0:ActionInvoke("ShowOrHide", true)
 
-		if arg_21_0.activity and arg_21_0.activity.id ~= arg_21_1.id then
-			arg_21_0.pageDic[arg_21_0.activity.id]:ActionInvoke("ShowOrHide", false)
+		if arg_22_0.activity and arg_22_0.activity.id ~= arg_22_1.id then
+			arg_22_0.pageDic[arg_22_0.activity.id]:ActionInvoke("ShowOrHide", false)
 		end
 
-		arg_21_0.activity = arg_21_1
-		arg_21_0.contextData.id = arg_21_1.id
+		arg_22_0.activity = arg_22_1
+		arg_22_0.contextData.id = arg_22_1.id
 	end
 end
 
-function var_0_0.verifyTabs(arg_22_0, arg_22_1)
-	local var_22_0 = arg_22_0.activities[arg_22_0:getActivityIndex(arg_22_1) or 1]:getConfig("is_show")
-	local var_22_1 = arg_22_0.tabs:Find(tostring(var_22_0))
+function var_0_0.verifyTabs(arg_23_0, arg_23_1)
+	local var_23_0 = arg_23_0.activities[arg_23_0:getActivityIndex(arg_23_1) or 1]:getConfig("is_show")
+	local var_23_1 = arg_23_0.tabs:Find(tostring(var_23_0))
 
-	triggerToggle(var_22_1, true)
+	triggerToggle(var_23_1, true)
 end
 
-function var_0_0.getActClass(arg_23_0, arg_23_1)
-	return _G[arg_23_1]
+function var_0_0.getActClass(arg_24_0, arg_24_1)
+	return _G[arg_24_1]
 end
 
 return var_0_0

@@ -9,9 +9,7 @@ var_0_0.DefaultColor = {
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
-	setActive(arg_1_0.limitCountLabelTF, true)
 
-	arg_1_0.tagImg = arg_1_0.tf:Find("mask/tag"):GetComponent(typeof(Image))
 	arg_1_0.limitPassTag = arg_1_0.tf:Find("mask/tag/pass_tag")
 end
 
@@ -45,12 +43,12 @@ function var_0_0.updateSingle(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 
 		if var_3_4 == "pass" then
 			setActive(arg_3_0.limitPassTag, true)
-			setText(findTF(arg_3_0.limitPassTag, "Text"), i18n("eventshop_unlock_info", var_3_5))
+			setScrollText(findTF(arg_3_0.limitPassTag, "TextGo/Text"), i18n("eventshop_unlock_info", var_3_5))
 			onButton(arg_3_0, arg_3_0.mask, function()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", var_3_5))
 			end, SFX_PANEL)
 		else
-			setText(arg_3_0.unexchangeTag, var_3_5)
+			setText(arg_3_0.unexchangeTag:Find("TextGo/Text"), var_3_5)
 
 			var_3_2 = true
 		end
@@ -106,6 +104,8 @@ function var_0_0.updateSingle(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 
 		setText(arg_3_0.limitCountLabelTF, i18n("activity_shop_exchange_count") .. math.max(var_3_12, 0) .. "/" .. var_3_11)
 	end
+
+	setActive(arg_3_0.limitCountLabelTF, true)
 end
 
 function var_0_0.updateSelectable(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
@@ -185,20 +185,22 @@ function var_0_0.StaticUpdate(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 
 	setScrollText(var_10_2, var_10_12)
 
-	var_10_3.sprite = GetSpriteFromAtlas(Drop.New({
+	local var_10_13 = Drop.New({
 		type = arg_10_1:getConfig("resource_category"),
 		id = arg_10_1:getConfig("resource_type")
-	}):getIcon(), "")
+	}):getIcon()
+
+	GetImageSpriteFromAtlasAsync(var_10_13, "", var_10_3)
 
 	if arg_10_1:getConfig("num_limit") == 0 then
 		setText(var_10_8, i18n("common_no_limit"))
 	else
-		local var_10_13 = arg_10_1:getConfig("num_limit")
+		local var_10_14 = arg_10_1:getConfig("num_limit")
 
 		if var_10_11.type == DROP_TYPE_SKIN and not var_10_9 then
-			setText(var_10_8, i18n("activity_shop_exchange_count") .. "0/" .. var_10_13)
+			setText(var_10_8, i18n("activity_shop_exchange_count") .. "0/" .. var_10_14)
 		else
-			setText(var_10_8, i18n("activity_shop_exchange_count") .. var_10_13 - arg_10_1.buyCount .. "/" .. var_10_13)
+			setText(var_10_8, i18n("activity_shop_exchange_count") .. var_10_14 - arg_10_1.buyCount .. "/" .. var_10_14)
 		end
 	end
 

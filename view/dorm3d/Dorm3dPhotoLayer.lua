@@ -349,14 +349,7 @@ function var_0_0.didEnter(arg_7_0)
 			var_32_2(var_36_0, arg_36_0)
 		end
 
-		tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
-		ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-			typeof(Camera),
-			typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-		}, {
-			arg_7_0.mainCamera,
-			UnityEngine.Events.UnityAction_UnityEngine_Object(var_32_3)
-		})
+		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(arg_7_0.mainCamera, var_32_3)
 	end, "ui-dorm_photograph")
 
 	GetOrAddComponent(arg_7_0._tf:Find("RightTop/Film"), typeof(CanvasGroup)).blocksRaycasts = false
@@ -698,8 +691,13 @@ function var_0_0.UpdateActionPanel(arg_69_0)
 			return
 		end
 
-		local var_74_7 = _.reduce(var_74_4, 0, function(arg_77_0, arg_77_1)
-			return arg_77_0 + math.max(var_0_2, arg_77_1:GetAnimTime())
+		local function var_74_7(arg_77_0, arg_77_1, arg_77_2)
+			arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayEnterSceneAnim", arg_77_0:GetEnterSceneAnim(), arg_77_2 ~= arg_77_1)
+			arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayEnterExtraItem", arg_77_0:GetEnterExtraItem(), arg_77_2 ~= arg_77_1)
+		end
+
+		local var_74_8 = _.reduce(var_74_4, 0, function(arg_78_0, arg_78_1)
+			return arg_78_0 + math.max(var_0_2, arg_78_1:GetAnimTime())
 		end)
 
 		if arg_69_0.timerAnim then
@@ -711,36 +709,36 @@ function var_0_0.UpdateActionPanel(arg_69_0)
 			passedTime = 0,
 			ratio = 0,
 			animPlayList = var_74_4,
-			totalTime = var_74_7,
+			totalTime = var_74_8,
 			startStamp = Time.time
 		}
 		arg_69_0.timerAnim = FrameTimer.New(function()
-			local var_78_0 = arg_69_0.animInfo
-			local var_78_1 = var_78_0.animPlayList[var_78_0.index]
-			local var_78_2 = math.max(var_0_2, var_78_1:GetAnimTime())
-			local var_78_3 = var_78_0.startStamp
-			local var_78_4 = Time.time
-			local var_78_5 = math.min(1, var_78_0.ratio + (var_78_4 - var_78_3) * arg_69_0.animSpeed / var_78_2)
-			local var_78_6 = var_78_0.passedTime + var_78_2 * var_78_5
+			local var_79_0 = arg_69_0.animInfo
+			local var_79_1 = var_79_0.animPlayList[var_79_0.index]
+			local var_79_2 = math.max(var_0_2, var_79_1:GetAnimTime())
+			local var_79_3 = var_79_0.startStamp
+			local var_79_4 = Time.time
+			local var_79_5 = math.min(1, var_79_0.ratio + (var_79_4 - var_79_3) * arg_69_0.animSpeed / var_79_2)
+			local var_79_6 = var_79_0.passedTime + var_79_2 * var_79_5
 
-			var_74_5.value = var_78_6 / var_74_7
+			var_74_5.value = var_79_6 / var_74_8
 
-			if var_78_5 < 1 then
+			if var_79_5 < 1 then
 				return
 			end
 
-			var_78_0.index = var_78_0.index + 1
-			var_78_0.ratio = 0
-			var_78_0.passedTime = var_78_0.passedTime + var_78_2
-			var_78_0.startStamp = var_78_4
+			var_79_0.index = var_79_0.index + 1
+			var_79_0.ratio = 0
+			var_79_0.passedTime = var_79_0.passedTime + var_79_2
+			var_79_0.startStamp = var_79_4
 
-			local var_78_7 = var_78_1:GetStartPoint()
+			local var_79_7 = var_79_1:GetStartPoint()
 
-			if #var_78_7 > 0 then
-				arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_78_7)
+			if #var_79_7 > 0 then
+				arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_79_7)
 			end
 
-			if var_78_0.index > #var_78_0.animPlayList then
+			if var_79_0.index > #var_79_0.animPlayList then
 				var_74_6()
 				arg_69_0.timerAnim:Stop()
 
@@ -750,630 +748,631 @@ function var_0_0.UpdateActionPanel(arg_69_0)
 				return
 			end
 
-			local var_78_8 = var_78_0.animPlayList[var_78_0.index]
+			local var_79_8 = var_79_0.animPlayList[var_79_0.index]
 
-			arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", var_78_8:GetStateName())
+			arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", var_79_8:GetStateName(), nil, 0)
+			var_74_7(var_79_8, var_74_0, var_74_2)
 		end, 1, -1)
 
-		local var_74_8 = arg_69_0.animInfo.animPlayList[1]
+		local var_74_9 = arg_69_0.animInfo.animPlayList[1]
 
 		if var_74_3 == 1 then
-			arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SwitchCurrentAnim", var_74_8:GetStateName())
+			arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SwitchCurrentAnim", var_74_9:GetStateName())
 			onNextTick(function()
-				local var_79_0 = var_74_8:GetStartPoint()
+				local var_80_0 = var_74_9:GetStartPoint()
 
-				if #var_79_0 == 0 then
-					var_79_0 = var_69_0:GetWatchCameraName()
+				if #var_80_0 == 0 then
+					var_80_0 = var_69_0:GetWatchCameraName()
 				end
 
-				arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_79_0)
+				arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_80_0)
 				arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
+				var_74_7(var_74_9, var_74_0, var_74_2)
 
 				if arg_69_0.freeMode then
-					local var_79_1 = arg_69_0.scene.cameras[arg_69_0.scene.CAMERA.PHOTO_FREE]
-					local var_79_2 = var_79_1:GetComponent(typeof(UnityEngine.CharacterController))
-					local var_79_3 = var_79_1.transform.forward
+					local var_80_1 = arg_69_0.scene.cameras[arg_69_0.scene.CAMERA.PHOTO_FREE]
+					local var_80_2 = var_80_1:GetComponent(typeof(UnityEngine.CharacterController))
+					local var_80_3 = var_80_1.transform.forward
 
-					var_79_3.y = 0
+					var_80_3.y = 0
 
-					var_79_3:Normalize()
+					var_80_3:Normalize()
 
-					local var_79_4 = var_79_3 * -0.01
+					local var_80_4 = var_80_3 * -0.01
 
-					var_79_2:Move(var_79_4)
-					var_79_2:Move(-var_79_4)
+					var_80_2:Move(var_80_4)
+					var_80_2:Move(-var_80_4)
 				end
 			end)
 		else
-			arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", var_74_8:GetStateName())
+			arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", var_74_9:GetStateName(), nil, 0)
+			var_74_7(var_74_9, var_74_0, var_74_2)
 		end
 
 		arg_69_0.timerAnim:Start()
 	end
 
-	UIItemList.StaticAlign(var_69_2, var_69_2:GetChild(0), #var_69_1, function(arg_80_0, arg_80_1, arg_80_2)
-		if arg_80_0 ~= UIItemList.EventUpdate then
+	UIItemList.StaticAlign(var_69_2, var_69_2:GetChild(0), #var_69_1, function(arg_81_0, arg_81_1, arg_81_2)
+		if arg_81_0 ~= UIItemList.EventUpdate then
 			return
 		end
 
-		arg_80_1 = arg_80_1 + 1
+		arg_81_1 = arg_81_1 + 1
 
-		local var_80_0 = var_69_1[arg_80_1]
+		local var_81_0 = var_69_1[arg_81_1]
 
-		setText(arg_80_2:Find("Name"), var_80_0:GetName())
-		GetImageSpriteFromAtlasAsync(string.format("Dorm3DPhoto/%s", var_80_0:GetZoneIcon()), "", arg_80_2:Find("Icon"))
-		setActive(arg_80_2:Find("Slider"), false)
-		setActive(arg_80_2:Find("Selected"), false)
-		onButton(arg_69_0, arg_80_2, function()
-			var_69_7(var_80_0, arg_80_2)
+		setText(arg_81_2:Find("Name"), var_81_0:GetName())
+		GetImageSpriteFromAtlasAsync(string.format("Dorm3DPhoto/%s", var_81_0:GetZoneIcon()), "", arg_81_2:Find("Icon"))
+		setActive(arg_81_2:Find("Slider"), false)
+		setActive(arg_81_2:Find("Selected"), false)
+		onButton(arg_69_0, arg_81_2, function()
+			var_69_7(var_81_0, arg_81_2)
 		end)
 	end)
 
 	local function var_69_8()
-		UIItemList.StaticAlign(var_69_4, var_69_4:GetChild(0), #var_69_3, function(arg_83_0, arg_83_1, arg_83_2)
-			if arg_83_0 ~= UIItemList.EventUpdate then
+		UIItemList.StaticAlign(var_69_4, var_69_4:GetChild(0), #var_69_3, function(arg_84_0, arg_84_1, arg_84_2)
+			if arg_84_0 ~= UIItemList.EventUpdate then
 				return
 			end
 
-			arg_83_1 = arg_83_1 + 1
+			arg_84_1 = arg_84_1 + 1
 
-			local var_83_0 = var_69_3[arg_83_1].anims
-			local var_83_1 = arg_83_2:Find("Actions")
+			local var_84_0 = var_69_3[arg_84_1].anims
+			local var_84_1 = arg_84_2:Find("Actions")
 
-			UIItemList.StaticAlign(var_83_1, var_83_1:GetChild(0), #var_83_0, function(arg_84_0, arg_84_1, arg_84_2)
-				if arg_84_0 ~= UIItemList.EventUpdate then
+			UIItemList.StaticAlign(var_84_1, var_84_1:GetChild(0), #var_84_0, function(arg_85_0, arg_85_1, arg_85_2)
+				if arg_85_0 ~= UIItemList.EventUpdate then
 					return
 				end
 
-				arg_84_1 = arg_84_1 + 1
+				arg_85_1 = arg_85_1 + 1
 
-				local var_84_0 = var_83_0[arg_84_1]
+				local var_85_0 = var_84_0[arg_85_1]
 
-				setActive(arg_84_2:Find("Selected"), var_84_0:GetConfigID() == arg_69_0.animID)
-				setActive(arg_84_2:Find("Slider"), var_84_0:GetConfigID() == arg_69_0.animID and tobool(arg_69_0.timerAnim))
+				setActive(arg_85_2:Find("Selected"), var_85_0:GetConfigID() == arg_69_0.animID)
+				setActive(arg_85_2:Find("Slider"), var_85_0:GetConfigID() == arg_69_0.animID and tobool(arg_69_0.timerAnim))
 			end)
 		end)
 	end
 
 	local function var_69_9()
-		UIItemList.StaticAlign(var_69_4, var_69_4:GetChild(0), #var_69_3, function(arg_86_0, arg_86_1, arg_86_2)
-			if arg_86_0 ~= UIItemList.EventUpdate then
+		UIItemList.StaticAlign(var_69_4, var_69_4:GetChild(0), #var_69_3, function(arg_87_0, arg_87_1, arg_87_2)
+			if arg_87_0 ~= UIItemList.EventUpdate then
 				return
 			end
 
-			arg_86_1 = arg_86_1 + 1
+			arg_87_1 = arg_87_1 + 1
 
-			setActive(arg_86_2:Find("Button/Active"), arg_69_0.settingSpecialFurnitureIndex == arg_86_1)
-			setActive(arg_86_2:Find("Actions"), arg_69_0.settingSpecialFurnitureIndex == arg_86_1)
+			setActive(arg_87_2:Find("Button/Active"), arg_69_0.settingSpecialFurnitureIndex == arg_87_1)
+			setActive(arg_87_2:Find("Actions"), arg_69_0.settingSpecialFurnitureIndex == arg_87_1)
 		end)
 		var_69_8()
 	end
 
-	local function var_69_10(arg_87_0, arg_87_1)
-		local var_87_0 = arg_87_1:Find("Actions")
-		local var_87_1 = arg_87_0.anims
+	local function var_69_10(arg_88_0, arg_88_1)
+		local var_88_0 = arg_88_1:Find("Actions")
+		local var_88_1 = arg_88_0.anims
 
-		UIItemList.StaticAlign(var_87_0, var_87_0:GetChild(0), #var_87_1, function(arg_88_0, arg_88_1, arg_88_2)
-			if arg_88_0 ~= UIItemList.EventUpdate then
+		UIItemList.StaticAlign(var_88_0, var_88_0:GetChild(0), #var_88_1, function(arg_89_0, arg_89_1, arg_89_2)
+			if arg_89_0 ~= UIItemList.EventUpdate then
 				return
 			end
 
-			arg_88_1 = arg_88_1 + 1
+			arg_89_1 = arg_89_1 + 1
 
-			local var_88_0 = var_87_1[arg_88_1]
-			local var_88_1 = var_69_0:CheckFurnitureIdInZone(arg_87_0.furnitureId)
-			local var_88_2 = arg_69_0.room:IsFurnitureSetIn(arg_87_0.furnitureId)
-			local var_88_3 = var_88_1 and var_88_2
+			local var_89_0 = var_88_1[arg_89_1]
+			local var_89_1 = var_69_0:CheckFurnitureIdInZone(arg_88_0.furnitureId)
+			local var_89_2 = arg_69_0.room:IsFurnitureSetIn(arg_88_0.furnitureId)
+			local var_89_3 = var_89_1 and var_89_2
 
-			SetActive(arg_88_2:Find("Other"), not var_88_3)
-			SetActive(arg_88_2:Find("Name"), var_88_3)
+			SetActive(arg_89_2:Find("Other"), not var_89_3)
+			SetActive(arg_89_2:Find("Name"), var_89_3)
 
-			if var_88_3 then
-				onButton(arg_69_0, arg_88_2, function()
-					arg_69_0.room:ReplaceFurniture(arg_87_0.slotId, arg_87_0.furnitureId)
-					arg_69_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RefreshSlots", arg_69_0.room)
-					var_69_7(var_88_0, arg_88_2)
+			if var_89_3 then
+				onButton(arg_69_0, arg_89_2, function()
+					var_69_7(var_89_0, arg_89_2)
 				end)
-				setText(arg_88_2:Find("Name"), var_88_0:GetName())
+				setText(arg_89_2:Find("Name"), var_89_0:GetName())
 			else
-				removeOnButton(arg_88_2)
+				removeOnButton(arg_89_2)
 
-				if not var_88_1 then
-					local var_88_4 = var_88_0:GetZoneName()
+				if not var_89_1 then
+					local var_89_4 = var_89_0:GetZoneName()
 
-					warnText = i18n("dorm3d_photo_active_zone", var_88_4)
+					warnText = i18n("dorm3d_photo_active_zone", var_89_4)
 				else
 					warnText = i18n("dorm3d_furniture_replace_tip")
 				end
 
-				setText(arg_88_2:Find("Other/Content"), warnText)
+				setText(arg_89_2:Find("Other/Content"), warnText)
 			end
 
-			GetImageSpriteFromAtlasAsync(string.format("Dorm3DPhoto/%s", var_88_0:GetZoneIcon()), "", arg_88_2:Find("Icon"))
-			setActive(arg_88_2:Find("Slider"), false)
-			setActive(arg_88_2:Find("Selected"), false)
+			GetImageSpriteFromAtlasAsync(string.format("Dorm3DPhoto/%s", var_89_0:GetZoneIcon()), "", arg_89_2:Find("Icon"))
+			setActive(arg_89_2:Find("Slider"), false)
+			setActive(arg_89_2:Find("Selected"), false)
 		end)
 	end
 
 	setActive(var_69_4, #var_69_3 > 0)
-	UIItemList.StaticAlign(var_69_4, var_69_4:GetChild(0), #var_69_3, function(arg_90_0, arg_90_1, arg_90_2)
-		if arg_90_0 ~= UIItemList.EventUpdate then
+	UIItemList.StaticAlign(var_69_4, var_69_4:GetChild(0), #var_69_3, function(arg_91_0, arg_91_1, arg_91_2)
+		if arg_91_0 ~= UIItemList.EventUpdate then
 			return
 		end
 
-		arg_90_1 = arg_90_1 + 1
+		arg_91_1 = arg_91_1 + 1
 
-		local var_90_0 = var_69_3[arg_90_1]
-		local var_90_1 = Dorm3dFurniture.New({
-			configId = var_90_0.furnitureId
+		local var_91_0 = var_69_3[arg_91_1]
+		local var_91_1 = Dorm3dFurniture.New({
+			configId = var_91_0.furnitureId
 		})
-		local var_90_2 = tobool(_.detect(arg_69_0.room:GetFurnitures(), function(arg_91_0)
-			return arg_91_0:GetConfigID() == var_90_0.furnitureId
+		local var_91_2 = tobool(_.detect(arg_69_0.room:GetFurnitures(), function(arg_92_0)
+			return arg_92_0:GetConfigID() == var_91_0.furnitureId
 		end))
 
-		setText(arg_90_2:Find("Button/Name"), var_90_1:GetName())
-		GetImageSpriteFromAtlasAsync(var_90_1:GetIcon(), "", arg_90_2:Find("Button/Icon"))
-		setActive(arg_90_2:Find("Button/Lock"), not var_90_2)
-		setActive(arg_90_2:Find("Button/BG"), var_90_2)
+		setText(arg_91_2:Find("Button/Name"), var_91_1:GetName())
+		GetImageSpriteFromAtlasAsync(var_91_1:GetIcon(), "", arg_91_2:Find("Button/Icon"))
+		setActive(arg_91_2:Find("Button/Lock"), not var_91_2)
+		setActive(arg_91_2:Find("Button/BG"), var_91_2)
 
-		local var_90_3 = var_69_0:CheckFurnitureIdInZone(var_90_0.furnitureId)
-		local var_90_4
+		local var_91_3 = var_69_0:CheckFurnitureIdInZone(var_91_0.furnitureId)
+		local var_91_4
 
-		if var_90_3 then
-			var_90_4 = Color.New(1, 1, 1, 0.8509803921568627)
+		if var_91_3 then
+			var_91_4 = Color.New(1, 1, 1, 0.8509803921568627)
 		else
-			var_90_4 = Color.New(0.788235294117647, 0.788235294117647, 0.788235294117647, 0.8509803921568627)
+			var_91_4 = Color.New(0.788235294117647, 0.788235294117647, 0.788235294117647, 0.8509803921568627)
 		end
 
-		setImageColor(arg_90_2:Find("Button/BG"), var_90_4)
-		onButton(arg_69_0, arg_90_2:Find("Button"), function()
-			if not var_90_2 then
+		setImageColor(arg_91_2:Find("Button/BG"), var_91_4)
+		onButton(arg_69_0, arg_91_2:Find("Button"), function()
+			if not var_91_2 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_furniture_locked"))
 
 				return
 			end
 
-			if arg_69_0.settingSpecialFurnitureIndex == arg_90_1 then
+			if arg_69_0.settingSpecialFurnitureIndex == arg_91_1 then
 				arg_69_0.settingSpecialFurnitureIndex = nil
 			else
-				arg_69_0.settingSpecialFurnitureIndex = arg_90_1
+				arg_69_0.settingSpecialFurnitureIndex = arg_91_1
 			end
 
 			var_69_9()
 		end)
-		var_69_10(var_90_0, arg_90_2)
+		var_69_10(var_91_0, arg_91_2)
 	end)
 	var_69_9()
 	var_69_6()
 end
 
-function var_0_0.BlockActionPanel(arg_93_0, arg_93_1)
+function var_0_0.BlockActionPanel(arg_94_0, arg_94_1)
 	return
 end
 
-function var_0_0.GetAnimPlayList(arg_94_0, arg_94_1)
-	local var_94_0 = arg_94_1
-	local var_94_1 = {}
-	local var_94_2 = 100
+function var_0_0.GetAnimPlayList(arg_95_0, arg_95_1)
+	local var_95_0 = arg_95_1
+	local var_95_1 = {}
+	local var_95_2 = 100
 
 	while true do
-		local var_94_3 = Dorm3dCameraAnim.New({
-			configId = var_94_0
+		local var_95_3 = Dorm3dCameraAnim.New({
+			configId = var_95_0
 		})
 
-		if not var_94_3 then
-			return var_94_1
+		if not var_95_3 then
+			return var_95_1
 		end
 
-		table.insert(var_94_1, 1, var_94_3)
+		table.insert(var_95_1, 1, var_95_3)
 
-		var_94_0 = var_94_3:GetPreAnimID()
+		var_95_0 = var_95_3:GetPreAnimID()
 
-		if var_94_0 == 0 then
-			return var_94_1
+		if var_95_0 == 0 then
+			return var_95_1
 		end
 
-		var_94_2 = var_94_2 - 1
+		var_95_2 = var_95_2 - 1
 
-		assert(var_94_2 > 0)
+		assert(var_95_2 > 0)
 	end
 end
 
-function var_0_0.UpdateCameraPanel(arg_95_0)
-	if not arg_95_0.activeSetting then
+function var_0_0.UpdateCameraPanel(arg_96_0)
+	if not arg_96_0.activeSetting then
 		return
 	end
 
-	if arg_95_0.activePanel ~= var_0_0.PANEL.CAMERA then
+	if arg_96_0.activePanel ~= var_0_0.PANEL.CAMERA then
 		return
 	end
 
 	;(function()
-		local var_96_0 = arg_95_0.panelCamera:Find("Layout/DepthOfField/Switch/Toggle")
+		local var_97_0 = arg_96_0.panelCamera:Find("Layout/DepthOfField/Switch/Toggle")
 
-		triggerToggle(var_96_0, arg_95_0.cameraSettings.depthOfField.enabled)
-		onToggle(arg_95_0, var_96_0, function(arg_97_0)
-			arg_95_0.cameraSettings.depthOfField.enabled = arg_97_0
+		triggerToggle(var_97_0, arg_96_0.cameraSettings.depthOfField.enabled)
+		onToggle(arg_96_0, var_97_0, function(arg_98_0)
+			arg_96_0.cameraSettings.depthOfField.enabled = arg_98_0
 
-			setActive(arg_95_0.panelCamera:Find("Layout/DepthOfField/DepthOfField"), arg_95_0.cameraSettings.depthOfField.enabled)
-			arg_95_0:RefreshCamera()
+			setActive(arg_96_0.panelCamera:Find("Layout/DepthOfField/DepthOfField"), arg_96_0.cameraSettings.depthOfField.enabled)
+			arg_96_0:RefreshCamera()
 		end, SFX_UI_TAG, SFX_UI_CANCEL)
 	end)()
-	setActive(arg_95_0.panelCamera:Find("Layout/DepthOfField/DepthOfField"), arg_95_0.cameraSettings.depthOfField.enabled)
+	setActive(arg_96_0.panelCamera:Find("Layout/DepthOfField/DepthOfField"), arg_96_0.cameraSettings.depthOfField.enabled)
 	;(function()
-		local var_98_0 = arg_95_0.cameraSettings.depthOfField.focusDistance
-		local var_98_1 = arg_95_0.panelCamera:Find("Layout/DepthOfField/DepthOfField/FocusDistance/Slider")
+		local var_99_0 = arg_96_0.cameraSettings.depthOfField.focusDistance
+		local var_99_1 = arg_96_0.panelCamera:Find("Layout/DepthOfField/DepthOfField/FocusDistance/Slider")
 
-		setSlider(var_98_1, var_98_0.min, var_98_0.max, var_98_0.value)
-		onSlider(arg_95_0, var_98_1, function(arg_99_0)
-			var_98_0.value = arg_99_0
+		setSlider(var_99_1, var_99_0.min, var_99_0.max, var_99_0.value)
+		onSlider(arg_96_0, var_99_1, function(arg_100_0)
+			var_99_0.value = arg_100_0
 
-			arg_95_0:RefreshCamera()
+			arg_96_0:RefreshCamera()
 		end)
 	end)()
 	;(function()
-		local var_100_0 = arg_95_0.cameraSettings.depthOfField.blurRadius
-		local var_100_1 = arg_95_0.panelCamera:Find("Layout/DepthOfField/DepthOfField/BlurRadius/Slider")
+		local var_101_0 = arg_96_0.cameraSettings.depthOfField.blurRadius
+		local var_101_1 = arg_96_0.panelCamera:Find("Layout/DepthOfField/DepthOfField/BlurRadius/Slider")
 
-		setSlider(var_100_1, var_100_0.min, var_100_0.max, var_100_0.value)
-		onSlider(arg_95_0, var_100_1, function(arg_101_0)
-			var_100_0.value = arg_101_0
+		setSlider(var_101_1, var_101_0.min, var_101_0.max, var_101_0.value)
+		onSlider(arg_96_0, var_101_1, function(arg_102_0)
+			var_101_0.value = arg_102_0
 
-			arg_95_0:RefreshCamera()
+			arg_96_0:RefreshCamera()
 		end)
 	end)()
 
-	local var_95_0 = {
+	local var_96_0 = {
 		"PostExposure",
 		"Saturation",
 		"Contrast"
 	}
 
-	arg_95_0.paramIndex = arg_95_0.paramIndex or 1
+	arg_96_0.paramIndex = arg_96_0.paramIndex or 1
 
-	local function var_95_1()
-		table.Ipairs(var_95_0, function(arg_103_0, arg_103_1)
-			local var_103_0 = arg_95_0.panelCamera:Find("Layout/Paramaters/Icons"):GetChild(arg_103_0 - 1)
+	local function var_96_1()
+		table.Ipairs(var_96_0, function(arg_104_0, arg_104_1)
+			local var_104_0 = arg_96_0.panelCamera:Find("Layout/Paramaters/Icons"):GetChild(arg_104_0 - 1)
 
-			setActive(var_103_0:Find("Selected"), arg_103_0 == arg_95_0.paramIndex)
-			setActive(arg_95_0.panelCamera:Find("Layout/Paramaters/" .. arg_103_1), arg_103_0 == arg_95_0.paramIndex)
+			setActive(var_104_0:Find("Selected"), arg_104_0 == arg_96_0.paramIndex)
+			setActive(arg_96_0.panelCamera:Find("Layout/Paramaters/" .. arg_104_1), arg_104_0 == arg_96_0.paramIndex)
 		end)
 	end
 
-	table.Ipairs(var_95_0, function(arg_104_0, arg_104_1)
-		local var_104_0 = arg_95_0.panelCamera:Find("Layout/Paramaters/Icons"):GetChild(arg_104_0 - 1)
+	table.Ipairs(var_96_0, function(arg_105_0, arg_105_1)
+		local var_105_0 = arg_96_0.panelCamera:Find("Layout/Paramaters/Icons"):GetChild(arg_105_0 - 1)
 
-		onButton(arg_95_0, var_104_0, function()
-			arg_95_0.paramIndex = arg_104_0
+		onButton(arg_96_0, var_105_0, function()
+			arg_96_0.paramIndex = arg_105_0
 
-			var_95_1()
+			var_96_1()
 		end, SFX_PANEL)
 	end)
-	var_95_1()
+	var_96_1()
 	;(function()
-		local var_106_0 = arg_95_0.cameraSettings.postExposure
-		local var_106_1 = arg_95_0.panelCamera:Find("Layout/Paramaters/PostExposure/PostExposure/Slider")
-		local var_106_2 = var_106_1:Find("Background/Fill")
+		local var_107_0 = arg_96_0.cameraSettings.postExposure
+		local var_107_1 = arg_96_0.panelCamera:Find("Layout/Paramaters/PostExposure/PostExposure/Slider")
+		local var_107_2 = var_107_1:Find("Background/Fill")
 
-		onSlider(arg_95_0, var_106_1, function(arg_107_0)
-			var_106_0.value = arg_107_0
+		onSlider(arg_96_0, var_107_1, function(arg_108_0)
+			var_107_0.value = arg_108_0
 
-			local var_107_0 = (arg_107_0 - var_106_0.min) / (var_106_0.max - var_106_0.min)
-			local var_107_1 = math.min(var_107_0, 0.5)
-			local var_107_2 = math.max(var_107_0, 0.5)
+			local var_108_0 = (arg_108_0 - var_107_0.min) / (var_107_0.max - var_107_0.min)
+			local var_108_1 = math.min(var_108_0, 0.5)
+			local var_108_2 = math.max(var_108_0, 0.5)
 
-			var_106_2.anchorMin = Vector2.New(var_107_1, 0)
-			var_106_2.anchorMax = Vector2.New(var_107_2, 1)
-			var_106_2.offsetMin = Vector2.zero
-			var_106_2.offsetMax = Vector2.zero
+			var_107_2.anchorMin = Vector2.New(var_108_1, 0)
+			var_107_2.anchorMax = Vector2.New(var_108_2, 1)
+			var_107_2.offsetMin = Vector2.zero
+			var_107_2.offsetMax = Vector2.zero
 
-			arg_95_0:RefreshCamera()
+			arg_96_0:RefreshCamera()
 		end)
-		setSlider(var_106_1, var_106_0.min, var_106_0.max, var_106_0.value)
+		setSlider(var_107_1, var_107_0.min, var_107_0.max, var_107_0.value)
 	end)()
 	;(function()
-		local var_108_0 = arg_95_0.cameraSettings.contrast
-		local var_108_1 = arg_95_0.panelCamera:Find("Layout/Paramaters/Contrast/Contrast/Slider")
-		local var_108_2 = var_108_1:Find("Background/Fill")
+		local var_109_0 = arg_96_0.cameraSettings.contrast
+		local var_109_1 = arg_96_0.panelCamera:Find("Layout/Paramaters/Contrast/Contrast/Slider")
+		local var_109_2 = var_109_1:Find("Background/Fill")
 
-		onSlider(arg_95_0, var_108_1, function(arg_109_0)
-			var_108_0.value = arg_109_0
+		onSlider(arg_96_0, var_109_1, function(arg_110_0)
+			var_109_0.value = arg_110_0
 
-			local var_109_0 = (arg_109_0 - var_108_0.min) / (var_108_0.max - var_108_0.min)
-			local var_109_1 = math.min(var_109_0, 0.5)
-			local var_109_2 = math.max(var_109_0, 0.5)
+			local var_110_0 = (arg_110_0 - var_109_0.min) / (var_109_0.max - var_109_0.min)
+			local var_110_1 = math.min(var_110_0, 0.5)
+			local var_110_2 = math.max(var_110_0, 0.5)
 
-			var_108_2.anchorMin = Vector2.New(var_109_1, 0)
-			var_108_2.anchorMax = Vector2.New(var_109_2, 1)
-			var_108_2.offsetMin = Vector2.zero
-			var_108_2.offsetMax = Vector2.zero
+			var_109_2.anchorMin = Vector2.New(var_110_1, 0)
+			var_109_2.anchorMax = Vector2.New(var_110_2, 1)
+			var_109_2.offsetMin = Vector2.zero
+			var_109_2.offsetMax = Vector2.zero
 
-			arg_95_0:RefreshCamera()
+			arg_96_0:RefreshCamera()
 		end)
-		setSlider(var_108_1, var_108_0.min, var_108_0.max, var_108_0.value)
+		setSlider(var_109_1, var_109_0.min, var_109_0.max, var_109_0.value)
 	end)()
 	;(function()
-		local var_110_0 = arg_95_0.cameraSettings.saturate
-		local var_110_1 = arg_95_0.panelCamera:Find("Layout/Paramaters/Saturation/Saturation/Slider")
-		local var_110_2 = var_110_1:Find("Background/Fill")
+		local var_111_0 = arg_96_0.cameraSettings.saturate
+		local var_111_1 = arg_96_0.panelCamera:Find("Layout/Paramaters/Saturation/Saturation/Slider")
+		local var_111_2 = var_111_1:Find("Background/Fill")
 
-		onSlider(arg_95_0, var_110_1, function(arg_111_0)
-			var_110_0.value = arg_111_0
+		onSlider(arg_96_0, var_111_1, function(arg_112_0)
+			var_111_0.value = arg_112_0
 
-			local var_111_0 = (arg_111_0 - var_110_0.min) / (var_110_0.max - var_110_0.min)
-			local var_111_1 = math.min(var_111_0, 0.5)
-			local var_111_2 = math.max(var_111_0, 0.5)
+			local var_112_0 = (arg_112_0 - var_111_0.min) / (var_111_0.max - var_111_0.min)
+			local var_112_1 = math.min(var_112_0, 0.5)
+			local var_112_2 = math.max(var_112_0, 0.5)
 
-			var_110_2.anchorMin = Vector2.New(var_111_1, 0)
-			var_110_2.anchorMax = Vector2.New(var_111_2, 1)
-			var_110_2.offsetMin = Vector2.zero
-			var_110_2.offsetMax = Vector2.zero
+			var_111_2.anchorMin = Vector2.New(var_112_1, 0)
+			var_111_2.anchorMax = Vector2.New(var_112_2, 1)
+			var_111_2.offsetMin = Vector2.zero
+			var_111_2.offsetMax = Vector2.zero
 
-			arg_95_0:RefreshCamera()
+			arg_96_0:RefreshCamera()
 		end)
-		setSlider(var_110_1, var_110_0.min, var_110_0.max, var_110_0.value)
+		setSlider(var_111_1, var_111_0.min, var_111_0.max, var_111_0.value)
 	end)()
 	;(function()
-		local var_112_0 = arg_95_0.panelCamera:Find("Layout/Other/FaceCamera/Toggle")
+		local var_113_0 = arg_96_0.panelCamera:Find("Layout/Other/FaceCamera/Toggle")
 
-		triggerToggle(var_112_0, arg_95_0.settingFaceCamera)
-		onToggle(arg_95_0, var_112_0, function(arg_113_0)
-			arg_95_0.settingFaceCamera = arg_113_0
+		triggerToggle(var_113_0, arg_96_0.settingFaceCamera)
+		onToggle(arg_96_0, var_113_0, function(arg_114_0)
+			arg_96_0.settingFaceCamera = arg_114_0
 
-			arg_95_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableCurrentHeadIK", arg_113_0)
+			arg_96_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableCurrentHeadIK", arg_114_0)
 		end, SFX_UI_TAG, SFX_UI_CANCEL)
 	end)()
 	;(function()
-		local var_114_0 = arg_95_0.panelCamera:Find("Layout/Other/HideCharacter/Toggle")
+		local var_115_0 = arg_96_0.panelCamera:Find("Layout/Other/HideCharacter/Toggle")
 
-		triggerToggle(var_114_0, arg_95_0.settingHideCharacter)
-		onToggle(arg_95_0, var_114_0, function(arg_115_0)
-			arg_95_0.settingHideCharacter = arg_115_0
+		triggerToggle(var_115_0, arg_96_0.settingHideCharacter)
+		onToggle(arg_96_0, var_115_0, function(arg_116_0)
+			arg_96_0.settingHideCharacter = arg_116_0
 
-			if arg_115_0 then
-				arg_95_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "HideCharacterBylayer")
+			if arg_116_0 then
+				arg_96_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "HideCharacterBylayer")
 			else
-				arg_95_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
+				arg_96_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
 			end
 		end, SFX_UI_TAG, SFX_UI_CANCEL)
 	end)()
 end
 
-function var_0_0.RefreshCamera(arg_116_0)
-	arg_116_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SettingCamera", arg_116_0.cameraSettings)
+function var_0_0.RefreshCamera(arg_117_0)
+	arg_117_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SettingCamera", arg_117_0.cameraSettings)
 end
 
-function var_0_0.UpdateAnimSpeedPanel(arg_117_0)
-	local function var_117_0()
-		if not arg_117_0.timerAnim then
+function var_0_0.UpdateAnimSpeedPanel(arg_118_0)
+	local function var_118_0()
+		if not arg_118_0.timerAnim then
 			return
 		end
 
-		local var_118_0 = arg_117_0.animInfo
-		local var_118_1 = var_118_0.animPlayList[var_118_0.index]
-		local var_118_2 = math.max(var_0_2, var_118_1:GetAnimTime())
-		local var_118_3 = var_118_0.startStamp
-		local var_118_4 = Time.time
+		local var_119_0 = arg_118_0.animInfo
+		local var_119_1 = var_119_0.animPlayList[var_119_0.index]
+		local var_119_2 = math.max(var_0_2, var_119_1:GetAnimTime())
+		local var_119_3 = var_119_0.startStamp
+		local var_119_4 = Time.time
 
-		var_118_0.ratio = math.min(1, var_118_0.ratio + (var_118_4 - var_118_3) * arg_117_0.animSpeed / var_118_2)
-		var_118_0.startStamp = var_118_4
+		var_119_0.ratio = math.min(1, var_119_0.ratio + (var_119_4 - var_119_3) * arg_118_0.animSpeed / var_119_2)
+		var_119_0.startStamp = var_119_4
 	end
 
-	local var_117_1 = arg_117_0.animSpeeds
+	local var_118_1 = arg_118_0.animSpeeds
 
-	UIItemList.StaticAlign(arg_117_0.listAnimSpeed, arg_117_0.listAnimSpeed:GetChild(0), #var_117_1, function(arg_119_0, arg_119_1, arg_119_2)
-		if arg_119_0 ~= UIItemList.EventUpdate then
+	UIItemList.StaticAlign(arg_118_0.listAnimSpeed, arg_118_0.listAnimSpeed:GetChild(0), #var_118_1, function(arg_120_0, arg_120_1, arg_120_2)
+		if arg_120_0 ~= UIItemList.EventUpdate then
 			return
 		end
 
-		arg_119_1 = #var_117_1 - arg_119_1
+		arg_120_1 = #var_118_1 - arg_120_1
 
-		local var_119_0 = var_117_1[arg_119_1]
+		local var_120_0 = var_118_1[arg_120_1]
 
-		setText(arg_119_2:Find("Name"), var_119_0)
-		setText(arg_119_2:Find("Selected"), var_119_0)
-		setActive(arg_119_2:Find("Line"), arg_119_1 ~= #var_117_1)
-		onButton(arg_117_0, arg_119_2, function()
-			if arg_117_0.animSpeed == var_119_0 then
+		setText(arg_120_2:Find("Name"), var_120_0)
+		setText(arg_120_2:Find("Selected"), var_120_0)
+		setActive(arg_120_2:Find("Line"), arg_120_1 ~= #var_118_1)
+		onButton(arg_118_0, arg_120_2, function()
+			if arg_118_0.animSpeed == var_120_0 then
 				return
 			end
 
-			var_117_0()
+			var_118_0()
 
-			arg_117_0.animSpeed = var_119_0
+			arg_118_0.animSpeed = var_120_0
 
-			arg_117_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", var_119_0)
-			arg_117_0:UpdateAnimSpeedPanel()
+			arg_118_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", var_120_0)
+			arg_118_0:UpdateAnimSpeedPanel()
 		end, SFX_PANEL)
 	end)
-	onButton(arg_117_0, arg_117_0.btnFreeze, function()
-		local var_121_0 = 0
+	onButton(arg_118_0, arg_118_0.btnFreeze, function()
+		local var_122_0 = 0
 
-		if arg_117_0.animSpeed ~= 0 then
-			arg_117_0.lastAnimSpeed = arg_117_0.animSpeed
+		if arg_118_0.animSpeed ~= 0 then
+			arg_118_0.lastAnimSpeed = arg_118_0.animSpeed
 		else
-			var_121_0 = arg_117_0.lastAnimSpeed or 1
-			arg_117_0.lastAnimSpeed = nil
+			var_122_0 = arg_118_0.lastAnimSpeed or 1
+			arg_118_0.lastAnimSpeed = nil
 		end
 
-		var_117_0()
+		var_118_0()
 
-		arg_117_0.animSpeed = var_121_0
+		arg_118_0.animSpeed = var_122_0
 
-		arg_117_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", var_121_0)
-		arg_117_0:UpdateAnimSpeedPanel()
+		arg_118_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", var_122_0)
+		arg_118_0:UpdateAnimSpeedPanel()
 	end, SFX_PANEL)
-	UIItemList.StaticAlign(arg_117_0.listAnimSpeed, arg_117_0.listAnimSpeed:GetChild(0), #var_117_1, function(arg_122_0, arg_122_1, arg_122_2)
-		if arg_122_0 ~= UIItemList.EventUpdate then
+	UIItemList.StaticAlign(arg_118_0.listAnimSpeed, arg_118_0.listAnimSpeed:GetChild(0), #var_118_1, function(arg_123_0, arg_123_1, arg_123_2)
+		if arg_123_0 ~= UIItemList.EventUpdate then
 			return
 		end
 
-		arg_122_1 = #var_117_1 - arg_122_1
+		arg_123_1 = #var_118_1 - arg_123_1
 
-		local var_122_0 = var_117_1[arg_122_1]
+		local var_123_0 = var_118_1[arg_123_1]
 
-		setActive(arg_122_2:Find("Name"), arg_117_0.animSpeed ~= var_122_0)
-		setActive(arg_122_2:Find("Selected"), arg_117_0.animSpeed == var_122_0)
+		setActive(arg_123_2:Find("Name"), arg_118_0.animSpeed ~= var_123_0)
+		setActive(arg_123_2:Find("Selected"), arg_118_0.animSpeed == var_123_0)
 	end)
-	setActive(arg_117_0.btnFreeze:Find("Icon"), arg_117_0.animSpeed ~= 0)
-	setActive(arg_117_0.btnFreeze:Find("Selected"), arg_117_0.animSpeed == 0)
-	setText(arg_117_0.textAnimSpeed, i18n("dorm3d_photo_animspeed", string.format("%.1f", arg_117_0.animSpeed)))
+	setActive(arg_118_0.btnFreeze:Find("Icon"), arg_118_0.animSpeed ~= 0)
+	setActive(arg_118_0.btnFreeze:Find("Selected"), arg_118_0.animSpeed == 0)
+	setText(arg_118_0.textAnimSpeed, i18n("dorm3d_photo_animspeed", string.format("%.1f", arg_118_0.animSpeed)))
 end
 
-function var_0_0.UpdateLightingPanel(arg_123_0)
-	if not arg_123_0.activeSetting then
+function var_0_0.UpdateLightingPanel(arg_124_0)
+	if not arg_124_0.activeSetting then
 		return
 	end
 
-	if arg_123_0.activePanel ~= var_0_0.PANEL.LIGHTING then
+	if arg_124_0.activePanel ~= var_0_0.PANEL.LIGHTING then
 		return
 	end
 
-	local var_123_0 = {}
+	local var_124_0 = {}
 
-	for iter_123_0, iter_123_1 in ipairs(pg.dorm3d_camera_volume_template.all) do
-		table.insert(var_123_0, iter_123_1)
+	for iter_124_0, iter_124_1 in ipairs(pg.dorm3d_camera_volume_template.all) do
+		table.insert(var_124_0, iter_124_1)
 	end
 
-	table.sort(var_123_0, function(arg_124_0, arg_124_1)
-		return arg_124_0 < arg_124_1
+	table.sort(var_124_0, function(arg_125_0, arg_125_1)
+		return arg_125_0 < arg_125_1
 	end)
 
-	local function var_123_1()
-		if not arg_123_0.settingFilterIndex then
-			arg_123_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
+	local function var_124_1()
+		if not arg_124_0.settingFilterIndex then
+			arg_124_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
 
 			return
 		end
 
-		local var_125_0 = pg.dorm3d_camera_volume_template[var_123_0[arg_123_0.settingFilterIndex]]
+		local var_126_0 = pg.dorm3d_camera_volume_template[var_124_0[arg_124_0.settingFilterIndex]]
 
-		arg_123_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetVolumeProfile", var_125_0.volume, arg_123_0.settingFilterStrength)
+		arg_124_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetVolumeProfile", var_126_0.volume, arg_124_0.settingFilterStrength)
 	end
 
-	UIItemList.StaticAlign(arg_123_0.panelLightning:Find("Layout/Filter/List"), arg_123_0.panelLightning:Find("Layout/Filter/List"):GetChild(0), #var_123_0, function(arg_126_0, arg_126_1, arg_126_2)
-		if arg_126_0 ~= UIItemList.EventUpdate then
+	UIItemList.StaticAlign(arg_124_0.panelLightning:Find("Layout/Filter/List"), arg_124_0.panelLightning:Find("Layout/Filter/List"):GetChild(0), #var_124_0, function(arg_127_0, arg_127_1, arg_127_2)
+		if arg_127_0 ~= UIItemList.EventUpdate then
 			return
 		end
 
-		arg_126_1 = arg_126_1 + 1
+		arg_127_1 = arg_127_1 + 1
 
-		local var_126_0 = pg.dorm3d_camera_volume_template[var_123_0[arg_126_1]]
+		local var_127_0 = pg.dorm3d_camera_volume_template[var_124_0[arg_127_1]]
 
-		setText(arg_126_2:Find("Name"), var_126_0.name)
+		setText(arg_127_2:Find("Name"), var_127_0.name)
 
-		var_126_0.icon = ""
+		var_127_0.icon = ""
 
-		if var_126_0.icon ~= "" then
-			GetImageSpriteFromAtlasAsync(string.format("Dorm3DPhoto/%s", var_126_0.icon), "", arg_126_2:Find("BG"))
+		if var_127_0.icon ~= "" then
+			GetImageSpriteFromAtlasAsync(string.format("Dorm3DPhoto/%s", var_127_0.icon), "", arg_127_2:Find("BG"))
 		end
 
-		if arg_123_0.settingFilterIndex == arg_126_1 then
-			setActive(arg_126_2:Find("Selected"), true)
+		if arg_124_0.settingFilterIndex == arg_127_1 then
+			setActive(arg_127_2:Find("Selected"), true)
 		else
-			setActive(arg_126_2:Find("Selected"), false)
+			setActive(arg_127_2:Find("Selected"), false)
 		end
 
-		local var_126_1, var_126_2 = ApartmentProxy.CheckUnlockConfig(var_126_0.unlock)
+		local var_127_1, var_127_2 = ApartmentProxy.CheckUnlockConfig(var_127_0.unlock)
 
-		setActive(arg_126_2:Find("lock"), not var_126_1)
+		setActive(arg_127_2:Find("lock"), not var_127_1)
 
-		if not var_126_1 then
-			setText(arg_126_2:Find("lock/Image/Text"), var_126_0.unlock_text)
+		if not var_127_1 then
+			setText(arg_127_2:Find("lock/Image/Text"), var_127_0.unlock_text)
 		end
 
-		onButton(arg_123_0, arg_126_2, function()
-			if not var_126_1 then
-				pg.TipsMgr.GetInstance():ShowTips(var_126_2)
+		onButton(arg_124_0, arg_127_2, function()
+			if not var_127_1 then
+				pg.TipsMgr.GetInstance():ShowTips(var_127_2)
 
 				return
 			end
 
-			local var_127_0 = arg_123_0.settingFilterIndex
+			local var_128_0 = arg_124_0.settingFilterIndex
 
-			if arg_123_0.settingFilterIndex ~= arg_126_1 then
-				arg_123_0.settingFilterIndex = arg_126_1
+			if arg_124_0.settingFilterIndex ~= arg_127_1 then
+				arg_124_0.settingFilterIndex = arg_127_1
 			else
-				arg_123_0.settingFilterIndex = nil
+				arg_124_0.settingFilterIndex = nil
 			end
 
-			var_123_1()
+			var_124_1()
 
-			if var_127_0 then
-				local var_127_1 = arg_123_0.panelLightning:Find("Layout/Filter/List"):GetChild(var_127_0 - 1)
+			if var_128_0 then
+				local var_128_1 = arg_124_0.panelLightning:Find("Layout/Filter/List"):GetChild(var_128_0 - 1)
 
-				setActive(var_127_1:Find("Selected"), false)
+				setActive(var_128_1:Find("Selected"), false)
 			end
 
-			if arg_123_0.settingFilterIndex == arg_126_1 then
-				setActive(arg_126_2:Find("Selected"), true)
+			if arg_124_0.settingFilterIndex == arg_127_1 then
+				setActive(arg_127_2:Find("Selected"), true)
 			end
 		end, SFX_PANEL)
 	end)
-	setActive(arg_123_0.panelLightning:Find("Layout/Filter/Slider"), false)
+	setActive(arg_124_0.panelLightning:Find("Layout/Filter/Slider"), false)
 end
 
-function var_0_0.OnSwitchSkin(arg_128_0, arg_128_1, arg_128_2, arg_128_3)
+function var_0_0.OnSwitchSkin(arg_129_0, arg_129_1, arg_129_2, arg_129_3)
 	seriesAsync({
-		function(arg_129_0)
-			if arg_128_0.settingHideCharacter then
-				arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
-			end
-
-			arg_128_1:SwitchCharacterSkin(arg_128_2, arg_128_3, arg_129_0)
-		end,
 		function(arg_130_0)
-			setActive(arg_128_1.ladySafeCollider, true)
-
-			if not arg_128_0.animInfo then
-				return arg_130_0()
+			if arg_129_0.settingHideCharacter then
+				arg_129_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
 			end
 
-			local var_130_0 = arg_128_0.animInfo
+			arg_129_1:SwitchCharacterSkin(arg_129_2, arg_129_3, arg_130_0)
+		end,
+		function(arg_131_0)
+			setActive(arg_129_1.ladySafeCollider, true)
 
-			for iter_130_0 = #var_130_0.animPlayList, 1, -1 do
-				local var_130_1 = var_130_0.animPlayList[iter_130_0]:GetStartPoint()
+			if not arg_129_0.animInfo then
+				return arg_131_0()
+			end
 
-				if #var_130_1 > 0 then
-					arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_130_1)
+			local var_131_0 = arg_129_0.animInfo
+
+			for iter_131_0 = #var_131_0.animPlayList, 1, -1 do
+				local var_131_1 = var_131_0.animPlayList[iter_131_0]:GetStartPoint()
+
+				if #var_131_1 > 0 then
+					arg_129_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_131_1)
 
 					break
 				end
 
-				if iter_130_0 == 1 then
-					local var_130_2 = arg_128_0.room:GetCameraZones()[arg_128_0.zoneIndex]
+				if iter_131_0 == 1 then
+					local var_131_2 = arg_129_0.room:GetCameraZones()[arg_129_0.zoneIndex]
 
-					arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_130_2:GetWatchCameraName())
+					arg_129_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_131_2:GetWatchCameraName())
 				end
 			end
 
-			arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
+			arg_129_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
 
-			local var_130_3 = var_130_0.animPlayList[#var_130_0.animPlayList]
-			local var_130_4 = var_130_3:GetAnimTime()
+			local var_131_3 = var_131_0.animPlayList[#var_131_0.animPlayList]
+			local var_131_4 = var_131_3:GetAnimTime()
 
-			arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", var_130_3:GetStateName())
-			arg_128_0.scene.ladyDict[arg_128_2].ladyAnimator:Update(var_130_4)
-			arg_128_0.timerAnim:Stop()
+			arg_129_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", var_131_3:GetStateName())
+			arg_129_0.scene.ladyDict[arg_129_2].ladyAnimator:Update(var_131_4)
+			arg_129_0.timerAnim:Stop()
 
-			arg_128_0.timerAnim = nil
-			arg_128_0.animInfo = nil
-			arg_128_0.animPlaying = nil
+			arg_129_0.timerAnim = nil
+			arg_129_0.animInfo = nil
+			arg_129_0.animPlaying = nil
 
-			arg_130_0()
+			arg_131_0()
 		end,
 		function()
-			arg_128_0:UpdateActionPanel()
+			arg_129_0:UpdateActionPanel()
 
-			if arg_128_0.settingHideCharacter then
-				arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "HideCharacterBylayer")
+			if arg_129_0.settingHideCharacter then
+				arg_129_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "HideCharacterBylayer")
 			end
 		end
 	})
 end
 
-function var_0_0.SetMute(arg_132_0)
-	if arg_132_0 then
+function var_0_0.SetMute(arg_133_0)
+	if arg_133_0 then
 		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
 		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
 		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
@@ -1384,48 +1383,50 @@ function var_0_0.SetMute(arg_132_0)
 	end
 end
 
-function var_0_0.willExit(arg_133_0)
-	arg_133_0.loader:Clear()
+function var_0_0.willExit(arg_134_0)
+	arg_134_0.loader:Clear()
 
-	if arg_133_0.timerAnim then
-		arg_133_0.timerAnim:Stop()
+	if arg_134_0.timerAnim then
+		arg_134_0.timerAnim:Stop()
 
-		arg_133_0.timerAnim = nil
+		arg_134_0.timerAnim = nil
 	end
 
-	if arg_133_0.animSpeed ~= 1 then
-		arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", 1)
+	if arg_134_0.animSpeed ~= 1 then
+		arg_134_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", 1)
 	end
 
-	if arg_133_0.settingHideCharacter then
-		arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
+	if arg_134_0.settingHideCharacter then
+		arg_134_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
 	end
 
-	if not arg_133_0.settingFaceCamera then
-		arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableCurrentHeadIK", true)
+	if not arg_134_0.settingFaceCamera then
+		arg_134_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableCurrentHeadIK", true)
 	end
 
-	arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterLight")
-	arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
-	arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCameraSettings")
-	arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ExitPhotoMode")
+	arg_134_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetSceneItemAnimators")
+	arg_134_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharacterExtraItem")
+	arg_134_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterLight")
+	arg_134_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
+	arg_134_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCameraSettings")
+	arg_134_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ExitPhotoMode")
 end
 
-function var_0_0.SetPhotoCameraSliderValue(arg_134_0, arg_134_1)
-	local var_134_0 = arg_134_0.normalPanel:Find("Zoom/Slider")
+function var_0_0.SetPhotoCameraSliderValue(arg_135_0, arg_135_1)
+	local var_135_0 = arg_135_0.normalPanel:Find("Zoom/Slider")
 
-	setSlider(var_134_0, 0, 1, arg_134_1)
+	setSlider(var_135_0, 0, 1, arg_135_1)
 end
 
-function var_0_0.SetPhotoStickDelta(arg_135_0, arg_135_1)
-	arg_135_1 = arg_135_1 * 0.5
+function var_0_0.SetPhotoStickDelta(arg_136_0, arg_136_1)
+	arg_136_1 = arg_136_1 * 0.5
 
-	local var_135_0 = arg_135_0._tf:Find("Center/Stick")
-	local var_135_1 = var_135_0.rect.height
-	local var_135_2 = var_135_0.rect.width
-	local var_135_3 = var_135_0:Find("Handler")
+	local var_136_0 = arg_136_0._tf:Find("Center/Stick")
+	local var_136_1 = var_136_0.rect.height
+	local var_136_2 = var_136_0.rect.width
+	local var_136_3 = var_136_0:Find("Handler")
 
-	setAnchoredPosition(var_135_3, Vector2.New(var_135_1 * arg_135_1.x, var_135_2 * arg_135_1.y))
+	setAnchoredPosition(var_136_3, Vector2.New(var_136_1 * arg_136_1.x, var_136_2 * arg_136_1.y))
 end
 
 return var_0_0

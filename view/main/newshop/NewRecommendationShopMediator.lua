@@ -4,8 +4,7 @@ var_0_0.GO_SHOP = "NewRecommendationShopMediator.GO_SHOP"
 
 function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.GO_SHOP, function(arg_2_0, arg_2_1, arg_2_2)
-		arg_1_0:sendNotification(GAME.GO_BACK)
-		arg_1_0:sendNotification(GAME.GO_SCENE, arg_2_1, arg_2_2)
+		arg_1_0:sendNotification(GAME.CHANGE_SCENE, arg_2_1, arg_2_2)
 	end)
 end
 

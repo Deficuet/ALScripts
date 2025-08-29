@@ -1108,51 +1108,49 @@ function var_0_0.updateCouldAnimator(arg_76_0, arg_76_1, arg_76_2)
 
 			;(function()
 				for iter_78_0, iter_78_1 in ipairs(var_76_0) do
-					if type(iter_78_1[2][1]) == "table" then
-						local var_78_0 = false
-						local var_78_1 = iter_78_1[2][1]
+					local var_78_0 = false
+					local var_78_1 = iter_78_1[2][1]
 
-						for iter_78_2, iter_78_3 in ipairs(var_78_1) do
-							local var_78_2 = var_77_1:GetChapterItemById(iter_78_3)
+					for iter_78_2, iter_78_3 in ipairs(var_78_1) do
+						local var_78_2 = var_77_1:GetChapterItemById(iter_78_3)
 
-							if var_78_2 and var_78_2:isClear() then
-								local var_78_3 = true
+						if var_78_2 and var_78_2:isClear() then
+							var_78_0 = true
 
-								break
-							end
+							break
 						end
 					end
 
 					if iter_78_1[1] == var_0_2 then
-						local var_78_4 = _.rest(iter_78_1[2], 2)
+						local var_78_3 = _.rest(iter_78_1[2], 2)
 
-						for iter_78_4, iter_78_5 in ipairs(var_78_4) do
-							local var_78_5 = arg_77_0:Find(iter_78_5)
+						for iter_78_4, iter_78_5 in ipairs(var_78_3) do
+							local var_78_4 = arg_77_0:Find(iter_78_5)
 
-							if not IsNil(var_78_5) and not anyClear then
-								setActive(var_78_5, false)
+							if not IsNil(var_78_4) and not var_78_0 then
+								setActive(var_78_4, false)
 							end
 						end
 					elseif iter_78_1[1] == var_0_3 then
-						local var_78_6 = _.rest(iter_78_1[2], 2)
+						local var_78_5 = _.rest(iter_78_1[2], 2)
 
-						for iter_78_6, iter_78_7 in ipairs(var_78_6) do
-							local var_78_7 = arg_77_0:Find(iter_78_7)
+						for iter_78_6, iter_78_7 in ipairs(var_78_5) do
+							local var_78_6 = arg_77_0:Find(iter_78_7)
 
-							if not IsNil(var_78_7) and not anyClear then
-								setActive(var_78_7, true)
+							if not IsNil(var_78_6) and not var_78_0 then
+								setActive(var_78_6, true)
 
 								return
 							end
 						end
 					elseif iter_78_1[1] == var_0_4 then
-						local var_78_8 = _.rest(iter_78_1[2], 2)
+						local var_78_7 = _.rest(iter_78_1[2], 2)
 
-						for iter_78_8, iter_78_9 in ipairs(var_78_8) do
-							local var_78_9 = arg_77_0:Find(iter_78_9)
+						for iter_78_8, iter_78_9 in ipairs(var_78_7) do
+							local var_78_8 = arg_77_0:Find(iter_78_9)
 
-							if not IsNil(var_78_9) and not anyClear then
-								setActive(var_78_9, true)
+							if not IsNil(var_78_8) and not var_78_0 then
+								setActive(var_78_8, true)
 							end
 						end
 					end

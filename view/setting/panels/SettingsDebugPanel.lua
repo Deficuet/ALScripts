@@ -1,7 +1,7 @@
 local var_0_0 = class("SettingsDebugPanel", import(".SettingsBasePanel"))
 
 function var_0_0.GetUIName(arg_1_0)
-	return "SettingsNotifications"
+	return "SettingsOther"
 end
 
 function var_0_0.GetTitle(arg_2_0)
@@ -35,6 +35,9 @@ function var_0_0.OnInit(arg_4_0)
 	arg_4_0:btn_save_photo()
 	arg_4_0:btn_record_start()
 	arg_4_0:btn_record_stop()
+	arg_4_0:btn_vulkan()
+	arg_4_0:btn_gles()
+	arg_4_0:btn_show_api()
 end
 
 function var_0_0.createBtn(arg_5_0, arg_5_1)
@@ -175,9 +178,7 @@ function var_0_0.btn_push_10s(arg_19_0)
 			local var_20_1 = var_20_0.year .. var_20_0.month .. var_20_0.day .. var_20_0.hour .. var_20_0.min .. var_20_0.sec
 			local var_20_2 = pg.TimeMgr.GetInstance():GetServerTime() + 10
 
-			pg.PushNotificationMgr.GetInstance():Push("测试标题11111", var_20_1, var_20_2)
-			pg.PushNotificationMgr.GetInstance():Push("测试标题22222", var_20_1, var_20_2)
-			pg.PushNotificationMgr.GetInstance():Push("测试标题33333", var_20_1, var_20_2)
+			pg.PushNotificationMgr.GetInstance():Push("测试标题", var_20_1, var_20_2)
 			pg.PushNotificationMgr.GetInstance():PushCache()
 		end
 	}
@@ -279,6 +280,66 @@ function var_0_0.btn_record_stop(arg_31_0)
 	end
 
 	arg_31_0:createBtn(var_31_0)
+end
+
+function var_0_0.btn_vulkan(arg_37_0)
+	local var_37_0 = GraphApiHelper.GetGraphApiSaveValue()
+	local var_37_1 = ""
+
+	if var_37_0 == 0 then
+		var_37_1 = " 当前未设置，Unity自己选择。"
+	elseif var_37_0 == 1 then
+		var_37_1 = " 当前强制设置Vulkan。"
+	elseif var_37_0 == 2 then
+		var_37_1 = " 当前强制设置GLES。"
+	end
+
+	local var_37_2 = {
+		go = "btn_vulkan",
+		text = "设置为Vulkan(需要重启)" .. var_37_1,
+		func = function()
+			GraphApiHelper.SetForceGraphApi(GraphApiHelper.Api.Force_Vulkan)
+		end
+	}
+
+	arg_37_0:createBtn(var_37_2)
+end
+
+function var_0_0.btn_gles(arg_39_0)
+	local var_39_0 = GraphApiHelper.GetGraphApiSaveValue()
+	local var_39_1 = ""
+
+	if var_39_0 == 0 then
+		var_39_1 = " 当前未设置，Unity自己选择。"
+	elseif var_39_0 == 1 then
+		var_39_1 = " 当前强制设置Vulkan。"
+	elseif var_39_0 == 2 then
+		var_39_1 = " 当前强制设置GLES。"
+	end
+
+	local var_39_2 = {
+		go = "btn_gles",
+		text = "设置为OpenGLES(需要重启)" .. var_39_1,
+		func = function()
+			GraphApiHelper.SetForceGraphApi(GraphApiHelper.Api.Force_OpenGLES)
+		end
+	}
+
+	arg_39_0:createBtn(var_39_2)
+end
+
+function var_0_0.btn_show_api(arg_41_0)
+	local var_41_0 = {
+		go = "btn_show_api",
+		text = "点击显示当前Api",
+		func = function()
+			local var_42_0 = GraphApiHelper.GetCurGraphApi()
+
+			pg.TipsMgr.GetInstance():ShowTips("当前Api:" .. var_42_0)
+		end
+	}
+
+	arg_41_0:createBtn(var_41_0)
 end
 
 return var_0_0

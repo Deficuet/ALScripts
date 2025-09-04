@@ -573,7 +573,7 @@ end
 function var_0_0.getSkinId(arg_49_0, arg_49_1)
 	local var_49_0 = arg_49_0:getPhantomSkin(arg_49_1 or 0)
 
-	if not arg_49_0.noChangeSkin and ShipSkin.IsChangeSkin(var_49_0) then
+	if not arg_49_0.noChangeSkin and tobool(arg_49_0.id) and ShipSkin.IsChangeSkin(var_49_0) then
 		local var_49_1 = ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(var_49_0), arg_49_0:GetShipPhantomMark())
 
 		if var_49_1 then

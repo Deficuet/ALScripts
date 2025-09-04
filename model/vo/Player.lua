@@ -329,7 +329,7 @@ function var_0_0.getPainting(arg_22_0)
 
 	if ShipSkin.GetChangeSkinData(arg_22_0.skinId) then
 		local var_22_1 = ShipSkin.GetChangeSkinGroupId(arg_22_0.skinId)
-		local var_22_2 = ShipSkin.GetStoreChangeSkinId(var_22_1)
+		local var_22_2 = ShipSkin.GetStoreChangeSkinId(var_22_1, arg_22_0:GetFlagShipPhantomMark())
 
 		if var_22_2 then
 			var_22_0 = pg.ship_skin_template[var_22_2]

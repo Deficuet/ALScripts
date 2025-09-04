@@ -2,27 +2,42 @@ pg = pg or {}
 pg.activity_banner = {
 	{
 		id = 1,
-		pic = "temp2",
-		time = "stop",
+		pic = "temp1",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
 		id = 2,
 		pic = "temp2",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp3",
 		time = "stop",
 		type = 2,
 		param = {
@@ -34,14 +49,77 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 4,
-		pic = "temp4",
-		time = "stop",
+		id = 3,
+		pic = "temp3",
 		type = 2,
 		param = {
 			"scene core activity",
 			{
-				coreName = "SecretsAbyssCoreActivityUI"
+				coreName = "TianYuTianYuanCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		id = 4,
+		pic = "temp4",
+		type = 2,
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					12,
+					0,
+					0
+				}
 			}
 		}
 	},
@@ -84,36 +162,17 @@ pg.activity_banner = {
 	},
 	{
 		id = 6,
-		pic = "temp1",
-		time = "stop",
+		pic = "temp6",
 		type = 2,
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
-		}
-	},
-	{
-		id = 7,
-		pic = "temp7",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene court yard"
-		}
-	},
-	{
-		param = "50099",
-		id = 8,
-		pic = "temp8",
-		type = 3,
+			"scene dailylevel"
+		},
 		time = {
 			{
 				{
 					2025,
-					8,
-					28
+					9,
+					4
 				},
 				{
 					0,
@@ -125,7 +184,73 @@ pg.activity_banner = {
 				{
 					2025,
 					9,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "50101",
+		id = 7,
+		pic = "temp7",
+		type = 3,
+		time = {
+			{
+				{
+					2025,
+					9,
 					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					12
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		id = 8,
+		pic = "temp8",
+		type = 2,
+		param = {
+			"metacharacter"
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					12
 				},
 				{
 					12,
@@ -240,11 +365,11 @@ pg.activity_banner = {
 			4,
 			5,
 			6,
-			7,
+			8,
 			9
 		},
 		[3] = {
-			8
+			7
 		},
 		[9] = {
 			90,

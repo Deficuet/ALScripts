@@ -1,4 +1,4 @@
-local var_0_0 = class("SwichSkinLayer", import("..base.BaseUI"))
+local var_0_0 = class("SwitchSkinLayer", import("..base.BaseUI"))
 
 function var_0_0.setShip(arg_1_0, arg_1_1)
 	arg_1_0.shipVO = arg_1_1
@@ -19,7 +19,7 @@ function var_0_0.setSkinList(arg_4_0, arg_4_1)
 end
 
 function var_0_0.getUIName(arg_5_0)
-	return "SwichSkinLayer"
+	return "SwitchSkinLayer"
 end
 
 function var_0_0.back(arg_6_0)
@@ -111,13 +111,18 @@ function var_0_0.Flush(arg_14_0, arg_14_1)
 		onToggle(arg_14_0, var_14_3.hideObjToggleTF, function(arg_15_0)
 			PlayerPrefs.SetInt("paint_hide_other_obj_" .. var_14_3.paintingName, arg_15_0 and 1 or 0)
 			var_14_3:flushSkin()
-			arg_14_0:emit(SwichSkinMediator.UPDATE_SKINCONFIG, arg_14_0.shipVO:getSkinId())
+			arg_14_0:emit(SwitchSkinMediator.UPDATE_SKINCONFIG, arg_14_0.shipVO:getSkinId())
 		end, SFX_PANEL)
 		onButton(arg_14_0, var_14_3.changeSkinTF, function(arg_16_0)
 			local var_16_0 = ShipSkin.GetChangeSkinNextId(iter_14_3.id)
 
-			ShipSkin.SetStoreChangeSkinId(var_16_0)
-			pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, arg_14_0.shipVO:GetShipPhantomMark())
+			ShipSkin.SetStoreChangeSkinId(var_16_0, arg_14_0.shipVO:GetShipPhantomMark())
+
+			if var_14_6 then
+				pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, arg_14_0.shipVO:GetShipPhantomMark())
+			end
+
+			arg_14_0:emit(GAME.CHANGE_SKIN_UPDATE)
 		end, SFX_PANEL)
 		onButton(arg_14_0, var_14_2, function()
 			if var_14_11 then
@@ -125,7 +130,7 @@ function var_0_0.Flush(arg_14_0, arg_14_1)
 			elseif ShipSkin.IsShareSkin(arg_14_0.shipVO, iter_14_3.id) and not ShipSkin.CanUseShareSkinForShip(arg_14_0.shipVO, iter_14_3.id) then
 				-- block empty
 			elseif var_14_12 then
-				arg_14_0:emit(SwichSkinMediator.CHANGE_SKIN, arg_14_0.shipVO:GetShipPhantomMark(), iter_14_3.id == arg_14_0.shipVO:getConfig("skin_id") and 0 or iter_14_3.id)
+				arg_14_0:emit(SwitchSkinMediator.CHANGE_SKIN, arg_14_0.shipVO:GetShipPhantomMark(), iter_14_3.id == arg_14_0.shipVO:getConfig("skin_id") and 0 or iter_14_3.id)
 				arg_14_0:back()
 			elseif var_14_9 then
 				if var_14_10 or var_14_13 then
@@ -136,7 +141,7 @@ function var_0_0.Flush(arg_14_0, arg_14_1)
 					}, Goods.TYPE_SKIN)
 
 					if var_17_0:isDisCount() and var_17_0:IsItemDiscountType() then
-						arg_14_0:emit(SwichSkinMediator.BUY_ITEM_BY_ACT, var_14_9.id, 1)
+						arg_14_0:emit(SwitchSkinMediator.BUY_ITEM_BY_ACT, var_14_9.id, 1)
 					else
 						local var_17_1 = var_17_0:GetPrice()
 						local var_17_2 = i18n("text_buy_fashion_tip", var_17_1, iter_14_3.name)
@@ -144,7 +149,7 @@ function var_0_0.Flush(arg_14_0, arg_14_1)
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							content = var_17_2,
 							onYes = function()
-								arg_14_0:emit(SwichSkinMediator.BUY_ITEM, var_14_9.id, 1)
+								arg_14_0:emit(SwitchSkinMediator.BUY_ITEM, var_14_9.id, 1)
 							end
 						})
 					end

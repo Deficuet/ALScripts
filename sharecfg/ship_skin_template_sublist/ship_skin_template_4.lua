@@ -4390,23 +4390,20 @@ pg.base.ship_skin_template_4 = {
 		bgm = "",
 		gyro = 0,
 		illustrator2 = -1,
-		shop_offset = "",
 		id = 137060,
-		group_index = 10,
-		purchase_offset = "",
-		painting = "qiye_9",
 		l2d_drag_rate = "",
+		group_index = 10,
 		part_scale = "",
+		painting = "qiye_9",
 		prefab = "qiye_9",
-		shop_type_id = 6,
 		shop_id = 70897,
 		illustrator = 8,
-		lip_smoothing = 0,
+		shop_type_id = 6,
 		l2d_para_range = "",
+		lip_smoothing = 0,
 		bg = "133",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
-		spine_offset_profile = "",
 		skin_type = 4,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4422,7 +4419,6 @@ pg.base.ship_skin_template_4 = {
 		time = "",
 		get_showing = "",
 		lip_sync_gain = 0,
-		live2d_offset_profile = "",
 		show_skin = "stand",
 		tag = {
 			1,
@@ -4431,7 +4427,32 @@ pg.base.ship_skin_template_4 = {
 		live2d_offset = {
 			0,
 			40,
-			0
+			0,
+			26.8
+		},
+		shop_offset = {
+			0,
+			40,
+			0,
+			26.8
+		},
+		purchase_offset = {
+			0,
+			40,
+			0,
+			26.8
+		},
+		live2d_offset_profile = {
+			0,
+			40,
+			0,
+			26.8
+		},
+		spine_offset_profile = {
+			0,
+			40,
+			0,
+			26.8
 		},
 		fx_container = {
 			{

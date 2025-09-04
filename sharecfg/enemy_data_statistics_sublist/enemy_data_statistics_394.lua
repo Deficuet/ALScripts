@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_394 = {
+	[295216] = {
+		cannon = 201,
+		name = "威奇塔·META(Tier.6)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 42,
+		base = 90941,
+		durability_growth = 0,
+		antiaircraft = 172,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 50,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 136000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295216,
+		buff_list = {
+			{
+				ID = 200956,
+				LV = 1
+			}
+		}
+	},
 	[295217] = {
 		cannon = 217,
 		name = "威奇塔·META(Tier.7)",
@@ -1037,47 +1074,6 @@ pg.enemy_data_statistics_394 = {
 			{
 				ID = 201171,
 				LV = 6
-			},
-			{
-				ID = 201175,
-				LV = 1
-			}
-		}
-	},
-	[295247] = {
-		cannon = 149,
-		name = "鹩·META(Tier.7)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 304,
-		hit_growth = 0,
-		dodge = 46,
-		base = 91025,
-		durability_growth = 0,
-		antiaircraft = 214,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 20,
-		luck = 50,
-		hit = 65,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 248000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295247,
-		buff_list = {
-			{
-				ID = 201171,
-				LV = 7
 			},
 			{
 				ID = 201175,

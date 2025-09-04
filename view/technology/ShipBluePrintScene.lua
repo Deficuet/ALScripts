@@ -2544,6 +2544,10 @@ function var_0_0.willExit(arg_181_0)
 		arg_181_0.cbTimer = nil
 	end
 
+	if arg_181_0.svQuickExchange:isShowing() then
+		arg_181_0.svQuickExchange:Hide()
+	end
+
 	arg_181_0.svQuickExchange:Destroy()
 end
 

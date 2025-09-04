@@ -358,22 +358,22 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970108",
+		banner = "meta_entrance_970109",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 9701081
+				autoOpenShipConfigID = 9701091
 			}
 		},
 		isShow = function()
-			local var_32_0 = 970108
+			local var_32_0 = 970109
 			local var_32_1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(var_32_0)
 
 			return var_32_1 and var_32_1:isInAct()
 		end,
 		isTip = function()
-			local var_33_0 = 970108
+			local var_33_0 = 970109
 			local var_33_1 = getProxy(MetaCharacterProxy):getMetaProgressVOByID(var_33_0)
 
 			if var_33_1:isPassType() then

@@ -325,13 +325,10 @@ function var_0_0.didEnter(arg_19_0)
 	end, SFX_PANEL)
 
 	for iter_19_0 = 1, #arg_19_0.toggleList do
-		local var_19_1 = arg_19_0.toggleList[iter_19_0].go
+		local var_19_1 = arg_19_0.toggleList[iter_19_0]
 
-		onToggle(arg_19_0, var_19_1, function(arg_29_0)
+		onToggle(arg_19_0, var_19_1.go, function(arg_29_0)
 			if arg_29_0 then
-				arg_19_0.contextData.type = ShopConst.SHOP_TYPE.CHARGE
-				arg_19_0.contextData.warp = arg_19_0.toggleList[iter_19_0].type
-
 				arg_19_0:ShowChargeWarp(true)
 				pg.m02:sendNotification(var_0_0.CLOSE_ALL_LAYER)
 
@@ -340,7 +337,14 @@ function var_0_0.didEnter(arg_19_0)
 				arg_19_0.shop1 = nil
 				arg_19_0.shop2 = nil
 
-				local var_29_0 = arg_19_0:GetShopID(arg_19_0.contextData.type, arg_19_0.contextData.warp)
+				originalPrint(string.format("Begin: toggleType=%s, goName=%s", var_19_1.type, var_19_1.go.parent.name))
+
+				arg_19_0.contextData.type = ShopConst.SHOP_TYPE.CHARGE
+				arg_19_0.contextData.warp = var_19_1.type
+
+				originalPrint(string.format("End: warp=%s", arg_19_0.contextData.warp))
+
+				local var_29_0 = arg_19_0:GetShopID(ShopConst.SHOP_TYPE.CHARGE, var_19_1.type)
 
 				arg_19_0:switchSubView(var_29_0)
 			end
@@ -373,9 +377,6 @@ function var_0_0.didEnter(arg_19_0)
 	for iter_19_1, iter_19_2 in ipairs(var_19_2) do
 		onToggle(arg_19_0, iter_19_2.go, function(arg_31_0)
 			if arg_31_0 then
-				arg_19_0.contextData.type = ShopConst.SHOP_TYPE.SUPPLY
-				arg_19_0.contextData.warp = iter_19_2.type
-
 				arg_19_0:ShowChargeWarp(true)
 				pg.m02:sendNotification(var_0_0.CLOSE_ALL_LAYER)
 
@@ -383,8 +384,10 @@ function var_0_0.didEnter(arg_19_0)
 				arg_19_0.contextData.shop2 = nil
 				arg_19_0.shop1 = nil
 				arg_19_0.shop2 = nil
+				arg_19_0.contextData.type = ShopConst.SHOP_TYPE.SUPPLY
+				arg_19_0.contextData.warp = iter_19_2.type
 
-				local var_31_0 = arg_19_0:GetShopID(arg_19_0.contextData.type, arg_19_0.contextData.warp)
+				local var_31_0 = arg_19_0:GetShopID(ShopConst.SHOP_TYPE.SUPPLY, iter_19_2.type)
 
 				arg_19_0:switchSubView(var_31_0)
 			end
@@ -644,14 +647,13 @@ function var_0_0.initSubView(arg_48_0)
 	arg_48_0.contextData.paintingView:setSecretaryPos(arg_48_0:findTF("frame/secretaryPos"))
 end
 
-function var_0_0.GetShopID(arg_49_0)
-	local var_49_0 = arg_49_0.contextData.type
-	local var_49_1 = arg_49_0.contextData.warp
-
-	return ShopConst.SHOP_LIST[var_49_0][var_49_1]
+function var_0_0.GetShopID(arg_49_0, arg_49_1, arg_49_2)
+	return ShopConst.SHOP_LIST[arg_49_1][arg_49_2]
 end
 
 function var_0_0.switchSubView(arg_50_0, arg_50_1)
+	originalPrint(string.format("End: shopID=%s curShopID=%s", arg_50_1, arg_50_0.curSubViewNum))
+
 	if arg_50_1 == arg_50_0.curSubViewNum then
 		return
 	end
@@ -709,6 +711,10 @@ end
 
 function var_0_0.updateCurSubView(arg_53_0)
 	local var_53_0 = arg_53_0.subViewList[arg_53_0.curSubViewNum]
+
+	if var_53_0 == nil then
+		return
+	end
 
 	var_53_0:setGoodData(arg_53_0.firstChargeIds, arg_53_0.chargedList, arg_53_0.normalList, arg_53_0.normalGroupList)
 	var_53_0:reUpdateAll()

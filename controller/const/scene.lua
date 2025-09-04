@@ -1412,7 +1412,7 @@ local var_0_1 = {
 		end)
 		seriesAsync(var_227_0, arg_227_1)
 	end,
-	SwichSkinMediator = function(arg_230_0, arg_230_1)
+	SwitchSkinMediator = function(arg_230_0, arg_230_1)
 		local var_230_0 = PaintingGroupConst.GetPaintingNameListByShipVO(arg_230_0.context.data.shipVO)
 		local var_230_1 = {
 			isShowBox = true,

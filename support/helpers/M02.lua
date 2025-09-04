@@ -2970,18 +2970,13 @@ function cameraPaintViewAdjust(arg_204_0)
 		local var_204_0 = GameObject.Find("UICamera/Canvas"):GetComponent(typeof(CanvasScaler))
 
 		if arg_204_0 then
-			CameraMgr.instance.AutoAdapt = false
-
-			CameraMgr.instance:Revert()
-
 			var_204_0.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight
 			var_204_0.matchWidthOrHeight = 1
 		else
 			var_204_0.screenMatchMode = CanvasScaler.ScreenMatchMode.Expand
-			CameraMgr.instance.AutoAdapt = true
-
-			CameraMgr.instance:Adapt()
 		end
+
+		pg.CameraFixMgr.GetInstance():BlockCameraRatioControll(arg_204_0)
 
 		PaintCameraAdjustOn = arg_204_0
 	end
@@ -3007,8 +3002,6 @@ preOrientation = nil
 preNotchFitterEnabled = false
 
 function openPortrait(arg_207_0)
-	enableNotch(arg_207_0, true)
-
 	preOrientation = Input.deviceOrientation:ToString()
 
 	originalPrint("Begining Orientation:" .. preOrientation)
@@ -3020,8 +3013,6 @@ function openPortrait(arg_207_0)
 end
 
 function closePortrait(arg_208_0)
-	enableNotch(arg_208_0, false)
-
 	Screen.autorotateToPortrait = false
 	Screen.autorotateToPortraitUpsideDown = false
 
@@ -3041,19 +3032,7 @@ function enableNotch(arg_210_0, arg_210_1)
 		return
 	end
 
-	local var_210_0 = arg_210_0:GetComponent("NotchAdapt")
-	local var_210_1 = arg_210_0:GetComponent("AspectRatioFitter")
-
-	var_210_0.enabled = arg_210_1
-
-	if var_210_1 then
-		if arg_210_1 then
-			var_210_1.enabled = preNotchFitterEnabled
-		else
-			preNotchFitterEnabled = var_210_1.enabled
-			var_210_1.enabled = false
-		end
-	end
+	arg_210_0:GetComponent("NotchAdapt").enabled = arg_210_1
 end
 
 function comma_value(arg_211_0)

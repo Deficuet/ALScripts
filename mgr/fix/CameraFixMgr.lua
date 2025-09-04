@@ -92,14 +92,36 @@ function var_0_0.SetForceRatio(arg_9_0, arg_9_1)
 	end
 end
 
-function var_0_0.Clear(arg_10_0)
-	if arg_10_0.adaptCall then
-		CameraMgr.instance:RemoveListener(arg_10_0.adaptCall)
+function var_0_0.BlockCameraRatioControll(arg_10_0, arg_10_1)
+	local var_10_0 = CameraMgr.instance
 
-		arg_10_0.adaptCall = nil
+	if arg_10_1 then
+		local var_10_1 = System.Array.CreateInstance(typeof("System.Single"), 2)
+
+		var_10_1[0] = 0
+		var_10_1[1] = 100
+
+		ReflectionHelp.RefSetField(var_10_0:GetType(), "AspectRatioRange", var_10_0, var_10_1)
+	else
+		local var_10_2 = System.Array.CreateInstance(typeof("System.Single"), 2)
+
+		var_10_2[0] = 1.3333333333333333
+		var_10_2[1] = 2.3333333333333335
+
+		ReflectionHelp.RefSetField(var_10_0:GetType(), "AspectRatioRange", var_10_0, var_10_2)
+	end
+
+	arg_10_0:Adapt()
+end
+
+function var_0_0.Clear(arg_11_0)
+	if arg_11_0.adaptCall then
+		CameraMgr.instance:RemoveListener(arg_11_0.adaptCall)
+
+		arg_11_0.adaptCall = nil
 	end
 end
 
-function var_0_0.Dispose(arg_11_0)
-	arg_11_0:Clear()
+function var_0_0.Dispose(arg_12_0)
+	arg_12_0:Clear()
 end

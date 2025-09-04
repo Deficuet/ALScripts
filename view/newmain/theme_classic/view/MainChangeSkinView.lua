@@ -43,7 +43,7 @@ function var_0_0.updateUI(arg_5_0)
 	end
 
 	if arg_5_0._changeSkinToggle and var_5_1 and var_5_1 > 0 then
-		arg_5_0._changeSkinToggle:setShipData(var_5_0)
+		arg_5_0._changeSkinToggle:setShipData(var_5_0, arg_5_0._flagShip:GetShipPhantomMark())
 	end
 end
 

@@ -114,6 +114,7 @@ end
 function var_0_0.RemoveLadySlide(arg_19_0, arg_19_1)
 	if arg_19_0.ladyDic[arg_19_1] then
 		arg_19_0:Func("ChangeCharacterPosition", arg_19_0.ladyDic[arg_19_1].ladyEnv)
+		arg_19_0.ladyDic[arg_19_1].ladyEnv:PlaySingleAction(SlideConst.IDLE_ANIM)
 		arg_19_0.ladyDic[arg_19_1]:Dispose()
 
 		arg_19_0.ladyDic[arg_19_1] = nil
@@ -204,8 +205,10 @@ function var_0_0.Dispose(arg_29_0)
 	arg_29_0.pickTimer:Stop()
 
 	for iter_29_0, iter_29_1 in pairs(arg_29_0.ladyDic) do
-		iter_29_1:Dispose()
+		arg_29_0:RemoveLadySlide(iter_29_0)
 	end
+
+	arg_29_0:Func("ChangePlayerPosition")
 
 	arg_29_0.slideTreeOwner.enabled = false
 	arg_29_0.performanceTreeOwner.enabled = false

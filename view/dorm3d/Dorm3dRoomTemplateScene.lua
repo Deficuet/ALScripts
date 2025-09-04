@@ -159,6 +159,10 @@ function var_0_0.init(arg_12_0)
 		if var_12_4 then
 			arg_12_0:SyncInterestTransform(arg_12_0.ladyDict[var_12_4])
 		end
+
+		if SlideExtraSystem.IsOpen(arg_12_0.room) and arg_12_0.contextData.inFurnitureName == SlideConst.SLIDE_ZONE then
+			arg_12_0:SyncInterestTransformByTf(arg_12_0:GetFurnitureByName(arg_12_0.contextData.inFurnitureName):Find("StayPoint"))
+		end
 	end
 
 	arg_12_0.retainCount = 0

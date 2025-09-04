@@ -51,7 +51,8 @@ local function var_0_11(arg_1_0, arg_1_1)
 
 		while var_0_4.find(var_1_4, "^%s") do
 			var_1_7 = var_1_7 .. var_1_4
-			var_1_4 = arg_1_0:receive()
+
+			local var_1_10 = arg_1_0:receive()
 
 			if var_1_9 then
 				return nil, var_1_9

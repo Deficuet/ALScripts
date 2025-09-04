@@ -315,6 +315,7 @@ function var_0_0.Dispose(arg_40_0)
 	arg_40_0:Cancel()
 	arg_40_0.ladyEnv:SetCollisible(true)
 	arg_40_0.ladyEnv:EnableCharacterTransparency(false)
+	arg_40_0.ladyEnv:BlockCanWatch(false)
 end
 
 return var_0_0

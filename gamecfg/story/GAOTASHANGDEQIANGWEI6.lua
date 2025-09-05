@@ -829,7 +829,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "Royal Islands - Isle of Wight",
+			actorName = "Cleopatra",
 			say = "Miss Governor! There are hostiles all around us trying to revive themselves! Something's moving under the water, too!",
 			typewriter = {
 				speed = 0.05,
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "Royal Islands - Isle of Wight",
+			actorName = "Cleopatra",
 			say = "Please retreat at once for your own safety!",
 			typewriter = {
 				speed = 0.05,

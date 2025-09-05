@@ -28,8 +28,22 @@ function var_0_0.initNotificationHandleDic(arg_4_0)
 
 			arg_5_0.viewComponent:UpdateSlideInviteList(var_5_0.groupIds, var_5_0.addIds, var_5_0.removeIds)
 		end,
-		[Dorm3dRoomMediator.REFRESH_FURNITURE_AND_SLOTS_DONE] = function(arg_6_0, arg_6_1)
-			arg_6_0.viewComponent:InitSlide()
+		[Dorm3dRoomScene.NOTIFY_UI_STATE] = function(arg_6_0, arg_6_1)
+			local var_6_0 = arg_6_1:getBody()
+
+			arg_6_0.viewComponent:HandleDormUIState(var_6_0)
+		end,
+		[SlideExtraSystem.SHOW_INTERACTION] = function(arg_7_0, arg_7_1)
+			arg_7_0.viewComponent:ShowInteraction()
+		end,
+		[SlideExtraSystem.HIDE_INTERACTION] = function(arg_8_0, arg_8_1)
+			arg_8_0.viewComponent:HideInteraction()
+		end,
+		[SlideExtraSystem.SHOW_PERFORMANCE] = function(arg_9_0, arg_9_1)
+			arg_9_0.viewComponent:ShowPerformance()
+		end,
+		[SlideExtraSystem.HIDE_PERFORMANCE] = function(arg_10_0, arg_10_1)
+			arg_10_0.viewComponent:HidePerformance()
 		end
 	}
 end

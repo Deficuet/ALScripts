@@ -3257,7 +3257,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 6,
 		ships = {
 			80103,
-			80104
+			80104,
+			80105
 		}
 	},
 	[80103] = {
@@ -3326,6 +3327,17 @@ pg.fleet_tech_ship_class = {
 			89904
 		}
 	},
+	[80205] = {
+		shiptype = 2,
+		name = "Duguay-Trouin-class",
+		nation = 8,
+		id = 80205,
+		t_level_1 = 131,
+		t_level = 2,
+		ships = {
+			80204
+		}
+	},
 	[80301] = {
 		shiptype = 3,
 		name = "Saint Louis Class",
@@ -3357,6 +3369,28 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			80302
+		}
+	},
+	[80304] = {
+		shiptype = 3,
+		name = "Duquesne-class",
+		nation = 8,
+		id = 80304,
+		t_level_1 = 138,
+		t_level = 5,
+		ships = {
+			80303
+		}
+	},
+	[80401] = {
+		shiptype = 4,
+		name = "Masséna",
+		nation = 8,
+		id = 80401,
+		t_level_1 = 1,
+		t_level = 3,
+		ships = {
+			80401
 		}
 	},
 	[80501] = {
@@ -3401,6 +3435,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 9,
 		ships = {
 			80503
+		}
+	},
+	[80601] = {
+		shiptype = 6,
+		name = "Bois Belleau",
+		nation = 8,
+		id = 80601,
+		t_level_1 = 30,
+		t_level = 4,
+		ships = {
+			80601
 		}
 	},
 	[80701] = {
@@ -3831,6 +3876,17 @@ pg.fleet_tech_ship_class = {
 			970108
 		}
 	},
+	[970109] = {
+		shiptype = 1,
+		name = "Yuudachi META",
+		nation = 97,
+		id = 970109,
+		t_level_1 = 15,
+		t_level = 1,
+		ships = {
+			970109
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "Helena META",
@@ -4027,6 +4083,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 3,
 		ships = {
 			970405
+		}
+	},
+	[970406] = {
+		shiptype = 4,
+		name = "Dunkerque META",
+		nation = 97,
+		id = 970406,
+		t_level_1 = 18,
+		t_level = 3,
+		ships = {
+			970406
 		}
 	},
 	[970501] = {
@@ -4557,13 +4624,17 @@ pg.fleet_tech_ship_class = {
 		80202,
 		80203,
 		80204,
+		80205,
 		80301,
 		80302,
 		80303,
+		80304,
+		80401,
 		80501,
 		80502,
 		80503,
 		80504,
+		80601,
 		80701,
 		80702,
 		80801,
@@ -4602,6 +4673,7 @@ pg.fleet_tech_ship_class = {
 		970106,
 		970107,
 		970108,
+		970109,
 		970201,
 		970202,
 		970203,
@@ -4620,6 +4692,7 @@ pg.fleet_tech_ship_class = {
 		970403,
 		970404,
 		970405,
+		970406,
 		970501,
 		970502,
 		970503,

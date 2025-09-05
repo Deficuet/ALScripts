@@ -206,7 +206,8 @@ pg.dorm3d_rooms = {
 			41,
 			42,
 			43,
-			51
+			51,
+			52
 		},
 		ar_anim = {
 			{
@@ -238,7 +239,7 @@ pg.dorm3d_rooms = {
 		tag = "beach",
 		resource_name = "Beach",
 		assets_prefix = "Beach",
-		scene_info = "map_beach_02|Beach",
+		scene_info = "map_beach_01|Beach",
 		is_common = 0,
 		in_map = "floor_1",
 		room = "Beach",

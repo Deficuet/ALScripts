@@ -120,7 +120,7 @@ function var_0_0.ShowAdmiral(arg_13_0)
 			after = var_15_1
 		})
 		arg_13_0:Hide()
-	end, SFX_CONFIGM)
+	end, SFX_CONFIRM)
 
 	arg_13_0.paintingInfo = {}
 

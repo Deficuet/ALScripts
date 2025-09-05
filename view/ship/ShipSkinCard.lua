@@ -104,7 +104,7 @@ function var_0_0.updateData(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
 		end
 
 		if var_6_0 then
-			arg_6_0.changeSkinToggle:setShipData(arg_6_0.skin.id, arg_6_0.ship.id)
+			arg_6_0.changeSkinToggle:setShipData(arg_6_0.skin.id, arg_6_0.ship:GetShipPhantomMark())
 		end
 
 		setActive(arg_6_0.nameBar, true)

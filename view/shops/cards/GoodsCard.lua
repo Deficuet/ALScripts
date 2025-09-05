@@ -2,30 +2,6 @@ local var_0_0 = class("GoodsCard", import(".BaseGoodsCard"))
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
-
-	arg_1_0.go = arg_1_1
-	arg_1_0.tr = tf(arg_1_1)
-	arg_1_0.mask = arg_1_0.tr:Find("mask")
-	arg_1_0.selloutTag = arg_1_0.tr:Find("mask/tag/sellout_tag")
-
-	setText(arg_1_0.selloutTag, i18n("common_sale_out"))
-
-	arg_1_0.levelTag = arg_1_0.tr:Find("mask/tag/level_tag")
-
-	setText(arg_1_0.levelTag, i18n("shop_charge_level_limit"))
-
-	arg_1_0.levelTagText = arg_1_0.tr:Find("mask/tag/level_tag/Text")
-	arg_1_0.stars = arg_1_0.tr:Find("item/icon_bg/stars")
-	arg_1_0.itemTF = findTF(arg_1_0.tr, "item")
-	arg_1_0.nameTxt = findTF(arg_1_0.tr, "item/name_mask/name")
-	arg_1_0.discountTF = findTF(arg_1_0.tr, "item/discount")
-	arg_1_0.discountTextTF = findTF(arg_1_0.discountTF, "Text"):GetComponent(typeof(Text))
-	arg_1_0.countTF = findTF(arg_1_0.tr, "item/consume/contain/Text"):GetComponent(typeof(Text))
-	arg_1_0.resIconTF = findTF(arg_1_0.tr, "item/consume/contain/icon"):GetComponent(typeof(Image))
-	arg_1_0.itemIconTF = arg_1_0.itemTF:Find("icon_bg/icon"):GetComponent(typeof(Image))
-	arg_1_0.itemCountTF = arg_1_0.itemTF:Find("icon_bg/count"):GetComponent(typeof(Text))
-	arg_1_0.maskTip = i18n("buy_countLimit")
-
 	onButton(arg_1_0, arg_1_0.mask, function()
 		pg.TipsMgr.GetInstance():ShowTips(arg_1_0.maskTip)
 	end, SFX_PANEL)
@@ -58,7 +34,7 @@ function var_0_0.setLevelMask(arg_4_0, arg_4_1)
 	setActive(arg_4_0.mask, var_4_1)
 
 	if var_4_1 then
-		setText(arg_4_0.levelTagText, tostring(var_4_0))
+		setScrollText(arg_4_0.levelTag:Find("TextGo/Text"), tostring(var_4_0) .. i18n("shop_charge_level_limit"))
 		setActive(arg_4_0.levelTag, true)
 		setActive(arg_4_0.selloutTag, false)
 
@@ -66,7 +42,9 @@ function var_0_0.setLevelMask(arg_4_0, arg_4_1)
 	end
 end
 
-function var_0_0.update(arg_5_0, arg_5_1)
+function var_0_0.update(arg_5_0, arg_5_1, arg_5_2)
+	setActive(arg_5_0.limitCountLabelTF, false)
+
 	arg_5_0.goodsVO = arg_5_1
 
 	local var_5_0 = arg_5_0.goodsVO:canPurchase()
@@ -81,7 +59,7 @@ function var_0_0.update(arg_5_0, arg_5_1)
 
 	local var_5_2 = var_5_1:getConfig("name") or ""
 
-	setText(arg_5_0.nameTxt, shortenString(var_5_2, 6))
+	setScrollText(arg_5_0.nameTxt, var_5_2)
 
 	local var_5_3 = ""
 	local var_5_4 = arg_5_1:getConfig("resource_num")
@@ -91,16 +69,9 @@ function var_0_0.update(arg_5_0, arg_5_1)
 		var_5_4 = var_5_4 * (arg_5_1.discount / 100)
 	end
 
-	setActive(arg_5_0.discountTF, false)
-
-	arg_5_0.discountTF = arg_5_1.activityDiscount and findTF(arg_5_0.tr, "item/discount_activity") or findTF(arg_5_0.tr, "item/discount")
-	arg_5_0.discountTextTF = findTF(arg_5_0.discountTF, "Text"):GetComponent(typeof(Text))
-
 	setActive(arg_5_0.discountTF, arg_5_1:hasDiscount())
-
-	arg_5_0.discountTextTF.text = var_5_3
-	arg_5_0.countTF.text = math.ceil(var_5_4)
-
+	setText(arg_5_0.discountTextTF, var_5_3)
+	setText(arg_5_0.countTF, math.ceil(var_5_4))
 	GetImageSpriteFromAtlasAsync(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = arg_5_1:getConfig("resource_type")

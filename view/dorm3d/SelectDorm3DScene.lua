@@ -420,7 +420,7 @@ function var_0_0.UpdateWeekTask(arg_51_0)
 
 	local var_51_5 = Drop.Create(var_51_1:getConfig("award_display")[1])
 
-	updateDorm3dIcon(var_51_4:Find("Dorm3dIconTpl"), var_51_5)
+	updateCustomDrop(var_51_4:Find("Dorm3dIconTpl"), var_51_5)
 	onButton(arg_51_0, var_51_4:Find("Dorm3dIconTpl"), function()
 		if not var_51_2 and var_51_1:isFinish() then
 			arg_51_0:emit(SelectDorm3DMediator.ON_SUBMIT_TASK, var_51_0)

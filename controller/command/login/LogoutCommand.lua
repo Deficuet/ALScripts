@@ -11,6 +11,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		return
 	end
 
+	if not LOCK_ISLAND_DISPLAY then
+		pg.IslandVisitorNotificationMgr.GetInstance():Quit()
+	end
+
 	pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_LOGOUT)
 	pg.GameTrackerMgr.GetInstance():Synchronization()
 

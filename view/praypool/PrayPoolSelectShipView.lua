@@ -274,6 +274,11 @@ function var_0_0.updateMax(arg_15_0)
 		if var_15_2 then
 			setActive(var_15_4, true)
 			setPaintingPrefabAsync(var_15_4, Ship.getPaintingName(var_15_2), "biandui")
+
+			if iter_15_0 == 2 then
+				var_15_4.localEulerAngles = Vector3(0, 0, 180)
+			end
+
 			setActive(var_15_5, false)
 			setActive(var_15_6, true)
 

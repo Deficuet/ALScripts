@@ -119,11 +119,9 @@ function var_0_0.submitActivity(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4)
 				}, arg_4_1.task_ids)
 			end
 
-			if var_5_0 and #var_5_0 >= 0 then
-				arg_4_0:sendNotification(GAME.SUBMIT_TASK_AWARD_DOWN, {
-					awards = var_5_0
-				}, arg_4_1.task_ids)
-			end
+			arg_4_0:sendNotification(GAME.SUBMIT_TASK_AWARD_DOWN, {
+				awards = var_5_0
+			}, arg_4_1.task_ids)
 
 			if arg_4_4 then
 				arg_4_4(true)

@@ -214,27 +214,39 @@ function var_0_0.Skip(arg_22_0, arg_22_1)
 	elseif arg_22_1.type == GAMEUI_BANNER_15 then
 		arg_22_0:emit(NewMainMediator.SKIP_INS)
 	elseif arg_22_1.type == GAMEUI_BANNER_16 then
-		arg_22_0:emit(NewMainMediator.SKIP_CORE_ACTIVITY, arg_22_1.param)
+		if type(arg_22_1.param) == "table" then
+			arg_22_0.IsPlayeds = pg.NewStoryMgr.GetInstance():IsPlayed(arg_22_1.param[2])
+
+			if not arg_22_0.IsPlayeds then
+				pg.NewStoryMgr.GetInstance():Play(arg_22_1.param[2], function()
+					arg_22_0:emit(NewMainMediator.SKIP_CORE_ACTIVITY, arg_22_1.param[1])
+				end)
+			else
+				arg_22_0:emit(NewMainMediator.SKIP_CORE_ACTIVITY, arg_22_1.param[1])
+			end
+		else
+			arg_22_0:emit(NewMainMediator.SKIP_CORE_ACTIVITY, arg_22_1.param)
+		end
 	end
 end
 
-function var_0_0.ResPath(arg_23_0)
+function var_0_0.ResPath(arg_24_0)
 	return "LinkButton"
 end
 
-function var_0_0.GetActivityID(arg_24_0)
+function var_0_0.GetActivityID(arg_25_0)
 	assert(false, "策划配置default类型 必须重写这个方法")
 end
 
-function var_0_0.CustomOnClick(arg_25_0)
+function var_0_0.CustomOnClick(arg_26_0)
 	assert(false, "策划配置type = 0 这个按钮必须自己定义跳转行为")
 end
 
-function var_0_0.GetEventName(arg_26_0)
+function var_0_0.GetEventName(arg_27_0)
 	assert(false, "overwrite me !!!")
 end
 
-function var_0_0.OnInit(arg_27_0)
+function var_0_0.OnInit(arg_28_0)
 	return
 end
 

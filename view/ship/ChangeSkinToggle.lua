@@ -17,11 +17,11 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	setActive(arg_1_0._tf, false)
 end
 
-function var_0_0.setShipData(arg_2_0, arg_2_1)
+function var_0_0.setShipData(arg_2_0, arg_2_1, arg_2_2)
 	arg_2_0._skinId = arg_2_1
 
 	local var_2_0 = ShipSkin.GetChangeSkinGroupId(arg_2_0._skinId)
-	local var_2_1 = ShipSkin.GetStoreChangeSkinId(var_2_0)
+	local var_2_1 = ShipSkin.GetStoreChangeSkinId(var_2_0, arg_2_2)
 
 	arg_2_0._toggleIndex = 1
 

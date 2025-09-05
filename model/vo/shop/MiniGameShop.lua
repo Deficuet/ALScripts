@@ -123,4 +123,10 @@ function var_0_0.updateGoods(arg_16_0, arg_16_1)
 	arg_16_0.goods[arg_16_1.id] = arg_16_1
 end
 
+function var_0_0.GetResList(arg_17_0)
+	return {
+		12
+	}
+end
+
 return var_0_0

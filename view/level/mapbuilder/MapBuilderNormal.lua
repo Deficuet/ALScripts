@@ -302,55 +302,56 @@ function var_0_0.UpdateMapItem(arg_15_0, arg_15_1, arg_15_2)
 		setText(var_15_18:Find("label"), i18n("levelScene_chapter_count_tip"))
 		setText(var_15_18:Find("Text"), setColorStr(var_15_20, var_15_19 <= arg_15_2:getTodayDefeatCount() and COLOR_RED or COLOR_GREEN))
 
-		local var_15_21 = getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip()
+		local var_15_21 = pg.expedition_data_by_map[arg_15_2:getConfig("map")].on_activity
+		local var_15_22 = getProxy(ChapterProxy):IsActivitySPChapterActive(var_15_21) and SettingsProxy.IsShowActivityMapSPTip()
 
-		setActive(var_15_18:Find("TipRect"), var_15_21)
+		setActive(var_15_18:Find("TipRect"), var_15_22)
 	end
 
-	local var_15_22 = arg_15_2:GetDailyBonusQuota()
-	local var_15_23 = findTF(var_15_1, "mark")
+	local var_15_23 = arg_15_2:GetDailyBonusQuota()
+	local var_15_24 = findTF(var_15_1, "mark")
 
-	setActive(var_15_23:Find("bonus"), var_15_22)
-	setActive(var_15_23, var_15_22)
+	setActive(var_15_24:Find("bonus"), var_15_23)
+	setActive(var_15_24, var_15_23)
 
-	if var_15_22 then
-		local var_15_24 = var_15_23:GetComponent(typeof(CanvasGroup))
-		local var_15_25 = arg_15_0.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us"
+	if var_15_23 then
+		local var_15_25 = var_15_24:GetComponent(typeof(CanvasGroup))
+		local var_15_26 = arg_15_0.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us"
 
-		arg_15_0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", var_15_25, var_15_23:Find("bonus"))
-		LeanTween.cancel(go(var_15_23), true)
+		arg_15_0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", var_15_26, var_15_24:Find("bonus"))
+		LeanTween.cancel(go(var_15_24), true)
 
-		local var_15_26 = var_15_23.anchoredPosition.y
+		local var_15_27 = var_15_24.anchoredPosition.y
 
-		var_15_24.alpha = 0
+		var_15_25.alpha = 0
 
-		LeanTween.value(go(var_15_23), 0, 1, 0.2):setOnUpdate(System.Action_float(function(arg_16_0)
-			var_15_24.alpha = arg_16_0
+		LeanTween.value(go(var_15_24), 0, 1, 0.2):setOnUpdate(System.Action_float(function(arg_16_0)
+			var_15_25.alpha = arg_16_0
 
-			local var_16_0 = var_15_23.anchoredPosition
+			local var_16_0 = var_15_24.anchoredPosition
 
-			var_16_0.y = var_15_26 * arg_16_0
-			var_15_23.anchoredPosition = var_16_0
+			var_16_0.y = var_15_27 * arg_16_0
+			var_15_24.anchoredPosition = var_16_0
 		end)):setOnComplete(System.Action(function()
-			var_15_24.alpha = 1
+			var_15_25.alpha = 1
 
-			local var_17_0 = var_15_23.anchoredPosition
+			local var_17_0 = var_15_24.anchoredPosition
 
-			var_17_0.y = var_15_26
-			var_15_23.anchoredPosition = var_17_0
+			var_17_0.y = var_15_27
+			var_15_24.anchoredPosition = var_17_0
 		end)):setEase(LeanTweenType.easeOutSine):setDelay(0.7)
 	end
 
-	local var_15_27 = arg_15_2.id
+	local var_15_28 = arg_15_2.id
 
 	onButton(arg_15_0, var_15_1, function()
-		if arg_15_0.chaptersInBackAnimating[var_15_27] then
+		if arg_15_0.chaptersInBackAnimating[var_15_28] then
 			return
 		end
 
 		local var_18_0 = arg_15_1.localPosition
 
-		arg_15_0:TryOpenChapterInfo(var_15_27, Vector3(var_18_0.x - 10, var_18_0.y + 150))
+		arg_15_0:TryOpenChapterInfo(var_15_28, Vector3(var_18_0.x - 10, var_18_0.y + 150))
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end
 

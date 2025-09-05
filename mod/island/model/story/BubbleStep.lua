@@ -4,8 +4,8 @@ var_0_0.HIDE_TYPE_IMMEDIATELY = 0
 var_0_0.HIDE_TYPE_NEVER = 1
 var_0_0.HIDE_TYPE_TIME = 2
 
-function var_0_0.Ctor(arg_1_0, arg_1_1)
-	var_0_0.super.Ctor(arg_1_0, arg_1_1)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
+	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_2)
 
 	arg_1_0.time = arg_1_1.time or 3
 	arg_1_0.hideType = arg_1_1.hideType or var_0_0.HIDE_TYPE_IMMEDIATELY

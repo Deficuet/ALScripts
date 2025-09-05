@@ -2,10 +2,18 @@ local var_0_0 = class("Dorm3dSlideInviteLayer", import("view.dorm3d.Dorm3dInvite
 
 function var_0_0.init(arg_1_0)
 	var_0_0.super.init(arg_1_0)
+	setText(arg_1_0.rtSelectPanel:Find("window/title/Text"), i18n("3ddorm_beach_slide_tip4"))
+	setText(arg_1_0.rtSelectPanel:Find("window/character/title"), i18n("3ddorm_beach_slide_tip5"))
+
+	arg_1_0.selectCountTip = i18n("3ddorm_beach_slide_tip6")
+
+	GetImageSpriteFromAtlasAsync("ui/3dd_select_atlas", "title_slide", arg_1_0.rtInvitePanel:Find("window/title"))
 end
 
 function var_0_0.ShowInvitePanel(arg_2_0)
 	var_0_0.super.ShowInvitePanel(arg_2_0)
+	GetImageSpriteFromAtlasAsync("dorm3dselect/slide_invite", "", arg_2_0.rtInvitePanel:Find("window/Image"))
+	setText(arg_2_0.rtInvitePanel:Find("window/Text"), i18n("dorm3d_data_go", i18n("3ddorm_beach_slide_tip3")))
 	onButton(arg_2_0, arg_2_0.rtInvitePanel:Find("window/btn_confirm"), function()
 		local var_3_0 = {}
 
@@ -22,15 +30,16 @@ function var_0_0.ShowInvitePanel(arg_2_0)
 			local var_5_0 = getProxy(ApartmentProxy)
 			local var_5_1 = ApartmentProxy.GetRoomInviteList(arg_2_0.contextData.roomId)
 			local var_5_2, var_5_3, var_5_4 = table.Diff(var_5_1, arg_2_0.selectIds)
+			local var_5_5 = arg_2_0.selectIds
 
 			if #var_5_3 > 0 then
-				local var_5_5 = table.merge(var_5_1, var_5_3)
+				local var_5_6 = table.mergeArray(var_5_1, var_5_3)
 
-				var_5_0:SetRoomInviteList(arg_2_0.contextData.roomId, var_5_5, function()
-					var_5_0:SetSlideInviteList(arg_2_0.selectIds)
+				var_5_0:SetRoomInviteList(arg_2_0.contextData.roomId, var_5_6, function()
+					var_5_0:SetSlideInviteList(var_5_5)
 				end)
 			else
-				var_5_0:SetSlideInviteList(arg_2_0.selectIds)
+				var_5_0:SetSlideInviteList(var_5_5)
 			end
 
 			arg_2_0:closeView()

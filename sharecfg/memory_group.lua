@@ -231,6 +231,11 @@ pg.memory_group = setmetatable({
 		331,
 		332,
 		333,
+		334,
+		335,
+		336,
+		337,
+		338,
 		501,
 		502,
 		503,
@@ -340,6 +345,8 @@ pg.memory_group = setmetatable({
 		609,
 		610,
 		611,
+		612,
+		613,
 		1000,
 		1001,
 		1002,
@@ -457,7 +464,10 @@ pg.base.memory_group = {
 			3321,
 			3801,
 			3802,
-			3803
+			3803,
+			4581,
+			4582,
+			4583
 		}
 	},
 	[99] = {
@@ -5679,6 +5689,142 @@ pg.base.memory_group = {
 			4460
 		}
 	},
+	[334] = {
+		id = 334,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 50054,
+		title = "The Alchemist and the Tower of Horizons",
+		group_id = "",
+		memories = {
+			4481,
+			4482,
+			4483,
+			4484,
+			4485,
+			4486,
+			4487,
+			4488,
+			4489,
+			4490,
+			4491,
+			4492,
+			4493,
+			4494,
+			4495,
+			4496,
+			4497,
+			4498,
+			4499,
+			4500,
+			4501,
+			4502,
+			4503,
+			4504,
+			4505,
+			4506,
+			4507,
+			4508,
+			4509,
+			4510,
+			4511,
+			4512,
+			4513,
+			4514
+		}
+	},
+	[335] = {
+		id = 335,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 50054,
+		title = "The Alchemist and the Tower of Horizons - Daily Life",
+		group_id = "",
+		memories = {
+			4521,
+			4522,
+			4523,
+			4524
+		}
+	},
+	[336] = {
+		id = 336,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 50081,
+		title = "Secrets of the Abyss",
+		group_id = "",
+		memories = {
+			4541,
+			4542,
+			4543,
+			4544,
+			4545,
+			4546,
+			4547,
+			4548,
+			4549,
+			4550,
+			4551,
+			4552,
+			4553,
+			4554,
+			4555,
+			4556,
+			4557,
+			4558,
+			4559,
+			4560,
+			4561,
+			4562,
+			4563,
+			4564,
+			4565,
+			4566,
+			4567,
+			4568,
+			4569
+		}
+	},
+	[337] = {
+		id = 337,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 50084,
+		title = "Port Fashion Collection: Lazy Vacation Days",
+		group_id = "",
+		memories = {
+			4571,
+			4572,
+			4573,
+			4574,
+			4575,
+			4576,
+			4577
+		}
+	},
+	[338] = {
+		id = 338,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 50104,
+		title = "Summons From the Sakura Empire",
+		group_id = "",
+		memories = {
+			4591,
+			4592,
+			4593,
+			4594,
+			4595,
+			4596,
+			4597
+		}
+	},
 	[501] = {
 		id = 501,
 		subtype = 0,
@@ -7865,6 +8011,46 @@ pg.base.memory_group = {
 			4445,
 			4446,
 			4447
+		},
+		group_id = {
+			10000
+		}
+	},
+	[612] = {
+		id = 612,
+		subtype = 0,
+		icon = "title_chara_dunkeerke",
+		type = 3,
+		link_event = 0,
+		title = "Intoxicating Feelings",
+		memories = {
+			4471,
+			4472,
+			4473,
+			4474,
+			4475,
+			4476,
+			4477
+		},
+		group_id = {
+			10000
+		}
+	},
+	[613] = {
+		id = 613,
+		subtype = 0,
+		icon = "title_chara_huajian",
+		type = 3,
+		link_event = 0,
+		title = "Magician of Flowers and Swords",
+		memories = {
+			4531,
+			4532,
+			4533,
+			4534,
+			4535,
+			4536,
+			4537
 		},
 		group_id = {
 			10000

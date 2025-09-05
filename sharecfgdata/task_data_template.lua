@@ -15836,7 +15836,7 @@ end)()
 		type = 5,
 		desc = "Fully Limit Break Essex.",
 		count_inherit = 0,
-		sub_type = 35,
+		sub_type = 33,
 		target_id_2 = "",
 		story_icon = "aisaikesi",
 		is_head = 0,
@@ -15855,10 +15855,10 @@ end)()
 		story_icon_shift = "",
 		fix_task = 0,
 		scene = "",
-		target_id = "107094",
+		target_id = "10709",
 		tutorial_handbook_pic = "",
 		id = 5266,
-		target_num = 1,
+		target_num = 6,
 		activity_client_config = "",
 		added_tip = 1,
 		award_display = {
@@ -54616,6 +54616,301 @@ end)()
 				4,
 				702011,
 				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12000] = {
+		name = "[Event] Emergency Module Development I",
+		guild_coin_award = 0,
+		award = 94085,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 1 time.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12000,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				2,
+				15021,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12001] = {
+		name = "[Event] Emergency Module Development II",
+		guild_coin_award = 0,
+		award = 94085,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 2 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12001,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				2,
+				15021,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12002] = {
+		name = "[Event] Emergency Module Development III",
+		guild_coin_award = 0,
+		award = 94086,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 3 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12002,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				1
+			},
+			{
+				2,
+				15016,
+				25
+			},
+			{
+				2,
+				15021,
+				1
+			},
+			{
+				2,
+				15020,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12003] = {
+		name = "[Event] Emergency Module Development IV",
+		guild_coin_award = 0,
+		award = 94087,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 4 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12003,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				2
+			},
+			{
+				2,
+				15016,
+				25
+			},
+			{
+				2,
+				15021,
+				1
+			},
+			{
+				2,
+				15020,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[12004] = {
+		name = "[Event] Emergency Module Development V",
+		guild_coin_award = 0,
+		award = 94088,
+		type = 6,
+		desc = "Clear the Emergency Module Development Daily Challenge 5 times.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 12004,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7010,
+			7011
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15014,
+				3
+			},
+			{
+				2,
+				15017,
+				5
+			},
+			{
+				2,
+				15021,
+				1
+			},
+			{
+				2,
+				15020,
+				4
 			}
 		}
 	}
@@ -243925,6 +244220,2240 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21785] = {
+		name = "20250717『嘉年华』系列返场 登陆奖励1",
+		guild_coin_award = 0,
+		award = 905247,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21785,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21786] = {
+		name = "20250717『嘉年华』系列返场 登陆奖励2",
+		guild_coin_award = 0,
+		award = 905248,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21786,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21787] = {
+		name = "20250717『嘉年华』系列返场 登陆奖励3",
+		guild_coin_award = 0,
+		award = 905249,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21787,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21788] = {
+		name = "『美服周年预热』送头像框任务1",
+		guild_coin_award = 0,
+		award = 906832,
+		type = 26,
+		desc = "Sortie and obtain 10 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21788,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21789] = {
+		name = "『美服周年预热』送头像框任务2",
+		guild_coin_award = 0,
+		award = 906833,
+		type = 26,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21789,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21790] = {
+		name = "『美服周年预热』送头像框任务3",
+		guild_coin_award = 0,
+		award = 906834,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21790,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21791] = {
+		name = "『美服周年预热』送头像框任务4",
+		guild_coin_award = 0,
+		award = 906835,
+		type = 26,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21791,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21792] = {
+		name = "『美服周年预热』送头像框任务5",
+		guild_coin_award = 0,
+		award = 906836,
+		type = 26,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21792,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21793] = {
+		name = "『美服周年预热』送头像框任务6",
+		guild_coin_award = 0,
+		award = 906837,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21793,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21794] = {
+		name = "『美服周年预热』送头像框任务7",
+		guild_coin_award = 0,
+		award = 906838,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21794,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21795] = {
+		name = "『美服周年预热』送头像框任务8",
+		guild_coin_award = 0,
+		award = 906839,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21795,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21796] = {
+		name = "『美服周年预热』送头像框任务9",
+		guild_coin_award = 0,
+		award = 906840,
+		type = 26,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21796,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21797] = {
+		name = "『美服周年预热』送头像框任务10",
+		guild_coin_award = 0,
+		award = 906841,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21797,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21798] = {
+		name = "『美服周年预热』送头像框任务11",
+		guild_coin_award = 0,
+		award = 906842,
+		type = 26,
+		desc = "Build 2 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21798,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21799] = {
+		name = "『美服周年预热』送头像框任务12",
+		guild_coin_award = 0,
+		award = 906843,
+		type = 26,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21799,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21800] = {
+		name = "『美服周年预热』送头像框任务13",
+		guild_coin_award = 0,
+		award = 906844,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21800,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21801] = {
+		name = "『美服周年预热』送头像框任务14",
+		guild_coin_award = 0,
+		award = 906845,
+		type = 26,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21801,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				611,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21802] = {
+		name = "『马塞纳美服周年庆版本』纪念任务1",
+		guild_coin_award = 0,
+		award = 906855,
+		type = 26,
+		desc = "Collect all stickers in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50087",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21802,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				314,
+				1
+			},
+			{
+				8,
+				65665,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21803] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 906856,
+		type = 26,
+		desc = "Collect 7 stickers in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50087",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21803,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65666,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21804] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 906857,
+		type = 26,
+		desc = "Read the whole story in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21804,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7044
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65667,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21805] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 906858,
+		type = 26,
+		desc = "Defeat 300 enemies on the event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21805,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16760001,
+			16760002,
+			16760003,
+			16760004,
+			16760005,
+			16760006,
+			16760201,
+			16760202,
+			16760203,
+			16760204,
+			16760205,
+			16760206,
+			16760207,
+			16760208,
+			16760209,
+			16760301,
+			16760302,
+			16760303,
+			16760304,
+			16761001,
+			16761002,
+			16761003,
+			16761004,
+			16761005,
+			16761006,
+			16761201,
+			16761202,
+			16761203,
+			16761204,
+			16761205,
+			16761301,
+			16761302,
+			16761303,
+			16762001,
+			16762002,
+			16762003,
+			16762004,
+			16762005,
+			16762006,
+			16762201,
+			16762202,
+			16762203,
+			16762204,
+			16762205,
+			16762206,
+			16762207,
+			16762208,
+			16762209,
+			16762301,
+			16762302,
+			16762303,
+			16762304,
+			16763001,
+			16763002,
+			16763003,
+			16763004,
+			16763005,
+			16763006,
+			16763201,
+			16763202,
+			16763203,
+			16763204,
+			16763205,
+			16763301,
+			16763302,
+			16763303,
+			16764001,
+			16764002,
+			16764003,
+			16764004,
+			16764005,
+			16764006,
+			16764201,
+			16764301,
+			16764302,
+			16765001,
+			16765002
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65668,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21806] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 906859,
+		type = 26,
+		desc = "Clear the stage T3/HT3 in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21806,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950003,
+			1950023
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65669,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21807] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 906860,
+		type = 26,
+		desc = "Clear the stage T6/HT6 in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21807,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950006,
+			1950026
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65670,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21808] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 906861,
+		type = 26,
+		desc = "Clear the SP stage in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1950041",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21808,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65671,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21809] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 906862,
+		type = 26,
+		desc = "Clear 50 stages in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21809,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950002,
+			1950003,
+			1950004,
+			1950005,
+			1950006,
+			1950021,
+			1950022,
+			1950023,
+			1950024,
+			1950025,
+			1950026,
+			1950041
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65672,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21810] = {
+		name = "『马塞纳美服周年庆版本』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 906863,
+		type = 26,
+		desc = "Collect a total of 10,000 Benedictus Coins.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50085",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "534",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21810,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65673,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21811] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动1",
+		guild_coin_award = 0,
+		award = 906914,
+		type = 14,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21811,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21812] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动2",
+		guild_coin_award = 0,
+		award = 906915,
+		type = 14,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21812,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21813] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动3",
+		guild_coin_award = 0,
+		award = 906916,
+		type = 14,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21813,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21814] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动4",
+		guild_coin_award = 0,
+		award = 906917,
+		type = 14,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21814,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21815] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动5",
+		guild_coin_award = 0,
+		award = 906918,
+		type = 14,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21815,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21816] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动6",
+		guild_coin_award = 0,
+		award = 906919,
+		type = 14,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21816,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21817] = {
+		name = "『马塞纳美服周年庆版本』皮肤剧情签到活动7",
+		guild_coin_award = 0,
+		award = 906920,
+		type = 14,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21817,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65675,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21818] = {
+		name = "『马塞纳美服周年庆版本』剧情模式通关",
+		guild_coin_award = 0,
+		award = 906943,
+		type = 6,
+		desc = "Read the whole story.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21818,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7044
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				313,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1950001,
+				displayMode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21819] = {
+		name = "『马塞纳美服周年庆版本』随机ROLL一次角色卡",
+		guild_coin_award = 0,
+		award = 906951,
+		type = 6,
+		desc = "Generate information once on the character sheet in Secrets of the Abyss after reading the whole story.",
+		count_inherit = 0,
+		sub_type = 2025,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21819,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1950001,
+				displayMode = 2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21821] = {
+		name = "『埃尔德里奇改造复刻』七日任务1",
+		guild_coin_award = 0,
+		award = 906961,
+		type = 26,
+		desc = "Sortie and obtain 10 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21821,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21822] = {
+		name = "『埃尔德里奇改造复刻』七日任务2",
+		guild_coin_award = 0,
+		award = 906962,
+		type = 26,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21822,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21823] = {
+		name = "『埃尔德里奇改造复刻』七日任务3",
+		guild_coin_award = 0,
+		award = 906963,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21823,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21824] = {
+		name = "『埃尔德里奇改造复刻』七日任务4",
+		guild_coin_award = 0,
+		award = 906964,
+		type = 26,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21824,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21825] = {
+		name = "『埃尔德里奇改造复刻』七日任务5",
+		guild_coin_award = 0,
+		award = 906965,
+		type = 26,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21825,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21826] = {
+		name = "『埃尔德里奇改造复刻』七日任务6",
+		guild_coin_award = 0,
+		award = 906966,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21826,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21827] = {
+		name = "『埃尔德里奇改造复刻』七日任务7",
+		guild_coin_award = 0,
+		award = 906967,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21827,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21828] = {
+		name = "『埃尔德里奇改造复刻』七日任务8",
+		guild_coin_award = 0,
+		award = 906968,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21828,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21829] = {
+		name = "『埃尔德里奇改造复刻』七日任务9",
+		guild_coin_award = 0,
+		award = 906969,
+		type = 26,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21829,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21830] = {
+		name = "『埃尔德里奇改造复刻』七日任务10",
+		guild_coin_award = 0,
+		award = 906970,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21830,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21831] = {
+		name = "『埃尔德里奇改造复刻』七日任务11",
+		guild_coin_award = 0,
+		award = 906971,
+		type = 26,
+		desc = "Build 2 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21831,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21832] = {
+		name = "『埃尔德里奇改造复刻』七日任务12",
+		guild_coin_award = 0,
+		award = 906972,
+		type = 26,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21832,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21833] = {
+		name = "『埃尔德里奇改造复刻』七日任务13",
+		guild_coin_award = 0,
+		award = 906973,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21833,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21834] = {
+		name = "『埃尔德里奇改造复刻』七日任务14",
+		guild_coin_award = 0,
+		award = 906974,
+		type = 26,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21834,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59853,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -245531,7 +248060,7 @@ end)()
 		scene = {
 			"SHOP",
 			{
-				warp = "quota"
+				warp = "sham"
 			}
 		}
 	}
@@ -248809,7 +251338,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "You can view available value packs by navigating from the home screen to \"Shop\", then to \"Packs\".\nIn addition to the Weekly Free Supplies Pack that can be claimed free of cost once per week, there will also be a number of value packs available for purchase.",
+		desc = "<color=#e7b000>Main Menu</color> -> <color=#e7b000>Shop</color> -> <color=#e7b000>Akashi Recommends and Packs</color> sections bring you to the shop's deals. \n\nThey feature a free weekly supplies pack, and they update with new deals from time to time.",
 		count_inherit = 0,
 		sub_type = 154,
 		target_id_2 = "0",
@@ -248837,7 +251366,10 @@ end)()
 		open_need = {},
 		award_display = {},
 		scene = {
-			"CHARGE_MENU"
+			"CHARGE",
+			{
+				wrap = 4
+			}
 		}
 	}
 end)()
@@ -248887,7 +251419,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "To visit the supply shop, head from the home screen to \"Shop\", tap the \"Supply\" button, then go to the Supply tab.\nIn the supply shop, resources and items such as Wisdom Cubes and Quick Finishers will appear at random. Certain listings can be purchased with Coins, while others can only be purchased with Gems.\nItems that appear in the supply shop have a chance to be discounted.\nThe supply shop's inventory refreshes every day at midnight, 12:00, and 18:00.",
+		desc = "<color=#e7b000>Main Menu</color> -> <color=#e7b000>Shop</color> -> <color=#e7b000>Supply</color> -> <color=#e7b000>Shop</color> brings you to a separate <color=#e7b000>supplies shop</color> which you can navigate using the tabs in the top center of the screen. Here, a random assortment of items and resources (including Wisdom Cubes and Quick Finishers) appears, which may be purchased using Coins or Gems. \n\nThere is a chance for items in thie supply shop to be discounted. \n\nThe supply shop resets every day at 00:00, 12:00, and 18:00 (UTC-7).",
 		count_inherit = 0,
 		sub_type = 150,
 		target_id_2 = "0",
@@ -249044,7 +251576,7 @@ end)()
 		type = 17,
 		desc = "To check the medals you've currently earned, head from the home screen to \"HQ\", then \"Academy\". From there, tap the facility labeled \"Medallion\".\nYou can change the medals you'd like to display on your profile by heading back to the home screen, tapping your profile icon, then tapping the \"Style\" button and navigating down to the \"Medallion\" tab.\nYou will have to satisfy a variety of unique conditions to obtain each medal, and once you've earned those medals, you will be able to obtain them from the Medal Collection Room. You can check how to obtain each medal by tapping on it.",
 		count_inherit = 0,
-		sub_type = 160,
+		sub_type = 162,
 		target_id_2 = "0",
 		story_icon = "",
 		is_head = 1,
@@ -249083,7 +251615,7 @@ end)()
 		type = 17,
 		desc = "Some medals have several different tiers. Upon obtaining a lower-tier version of the medal, you will be presented with additional conditions to upgrade the medal.\nCertain medals related to shipgirls will not have their progress affected even if you retire that shipgirl. Additionally, ships of the same name cannot contribute progress towards these medals twice.\nFinally, certain commemorative medals are only available through events.",
 		count_inherit = 0,
-		sub_type = 160,
+		sub_type = 162,
 		target_id_2 = "0",
 		story_icon = "",
 		is_head = 1,
@@ -249692,7 +252224,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "You can see which daily challenge stages you can attempt by going from the home screen to \"Battle\", then \"Daily Raids\".\nWhen you clear any daily raid stage for the first time, the Quick Battle feature will be enabled, allowing you to skip the battle and claim the rewards directly.\nModule Development stages are available every day of the week, but can only be attempted twice per week.\nModule Development stages drop materials such as Augment Module Stones, and Augment Module cores. There is also a chance to directly receive Augment Modules as drops.",
+		desc = "You can see which daily challenge stages you can attempt by going from the home screen to \"Battle\", then \"Daily Raids\".\nWhen you clear any daily raid stage with an S-victory for the first time, the Quick Battle feature will be enabled, allowing you to skip the battle and claim the rewards directly.\nModule Development stages are available every day of the week, but can only be attempted twice per week.\nModule Development stages drop materials such as Augment Module Stones, and Augment Module cores. There is also a chance to directly receive Augment Modules as drops.",
 		count_inherit = 0,
 		sub_type = 26,
 		target_id_2 = "0",
@@ -249958,7 +252490,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "To spend Core Data, head from the home screen to \"Shop\", then \"Supply\", then select the Monthly tab. There are two Core Data shops – Limited, and Monthly.\nIn the Core shops, you can exchange Core Data for a variety of items. Core Data is primarily obtained through completing hard mode stages.\nThe inventory for the Monthly Core shop is reset on the 1st of each month.\nThe inventory for the Limited Core shop will not be reset monthly. There is a limit to the number of times each item can be purchased.",
+		desc = "<color=#e7b000>Main Menu</color> -> <color=#e7b000>Shop</color> -> <color=#e7b000>Supply</color> -> <color=#e7b000>Monthly</color> brings you to the Core Shop, which you can navigate using the <color=#e7b000>Core (Ltd.)</color> and <color=#e7b000>Core (Mo.)</color> tabs in the top center of the screen. \n\nYou can spend Core Data to purchase items in this shop. Core Data can be earned from hard mode stages in the Campaign.\n\nThe Core (Mo.) shop is reset at midnight (UTC-7) on the 1st of every month. \n\nThe Core (Ltd.) shop is not updated regularly, and there is a limit to how many of each item you may purchase.",
 		count_inherit = 0,
 		sub_type = 152,
 		target_id_2 = "",
@@ -249988,7 +252520,7 @@ end)()
 		scene = {
 			"SHOP",
 			{
-				warp = "quota"
+				warp = "sham"
 			}
 		}
 	}
@@ -250148,7 +252680,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "You can access the Guild Shop by heading to \"Guild\" from the home screen, then tapping the \"Guild Shop\" button. The Guild Shop is located under the Supply Shop tab.\nThe inventory of the Guild Shop is automatically refreshed every Monday and Friday at midnight.\nYou can also manually refresh the inventory by tapping the \"Refresh\" button on the top-right corner of the screen, costing 50 Guild Tokens.",
+		desc = "<color=#e7b000>Main Menu</color> -> <color=#e7b000>Shop</color> -> <color=#e7b000>Supply</color> -> <color=#e7b000>Shop</color> -> <color=#e7b000>Guild tab</color> brings you to the Guild shop. \n\nThe Guild shop is updated at midnight (UTC-7) on Monday and Friday every week.\n\nThe shop's lineup can also be manually reset using the <color=#e7b000>button in the bottom right</color> and spending 50 Guild Tokens.",
 		count_inherit = 0,
 		sub_type = 151,
 		target_id_2 = "0",
@@ -250412,7 +252944,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "You can visit the Specialized Core exchange shop by heading from the home screen to \"Shop\", \"Supply\", then finding the Proto shop from the Monthly tab.\nYou can check the total number of Specialized Cores you've acquired this month from the Events page under the \"Specialized Core\" tab.\nYou can earn 5,000 Specialized Core each month, and this limit is reset on the first of every month at midnight.\nSpecialized Cores acquired through certain events will not count towards this limit.\nYou will additionally be able to exchange for Specialized Cores in the Medal shop 30 times per month. Specialized Cores obtained this way will not count towards the monthly limit.",
+		desc = "<color=#e7b000>Main Menu</color> -> <color=#e7b000>Shop</color> -> <color=#e7b000>Supply</color> -> <color=#e7b000>Shop</color> -> <color=#e7b000>Proto tab</color> brings you to the Prototype Core exchange shop.\n\n<color=#e7b000>Main Menu</color> -> <color=#e7b000>Event</color> -> <color=#e7b000>Specialized Core tab to the left</color> brings you to the screen where you can see the total number of Specialized Cores you've obtained this month.\n\nYou can also quickly view how many Specialized Cores you've obtained this month through the side menu to the left on the main menu.\n\nA maximum of 5,000 Specialized Cores may be obtained each month, and this tally is reset at midnight (UTC-7) on the 1st of every month.\n\nSpecialized Cores obtained through events, such as the Bulin Support Plan, do not count toward the monthly limit.\n\nSpecialized Cores can be purchased from the Medal shop (up to 30 each month). Specialized Cores purchased from the Medal shop also do not count toward the monthly limit.",
 		count_inherit = 0,
 		sub_type = 130,
 		target_id_2 = "0",
@@ -250606,7 +253138,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "To access your <color=#e7b000>Research Focus</color> settings, tap on the banner on the bottom-right corner of the screen, next to the Refresh button.\nBy selecting a PR/DR season to focus on, you are guaranteed to receive at least one project from that season every time the project list is refreshed, and a \"Pick Up\" label will appear on the project's banner.",
+		desc = "To access your <color=#e7b000>Research Focus</color> settings, tap on the banner on the bottom-right corner of the screen, next to the Refresh button.\nBy selecting a PR/DR season to focus on, you are guaranteed to receive at least 3 projects from that season every time the project list is refreshed, and a \"Pick Up\" label will appear on the project's banner.",
 		count_inherit = 0,
 		sub_type = 2024,
 		target_id_2 = "0",
@@ -250645,7 +253177,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 17,
-		desc = "To access your Research Focus settings, tap on the banner on the bottom-right corner of the screen, next to the Refresh button.\nIf you select a specific PR or DR shipgirl as the target of your Research Focus, you will obtain bonus blueprints for that shipgirl each time you finish a research project.\nFor each PR season, you will be able to obtain a total of 300 PR blueprints and 150 DR blueprints in this manner. The total number of blueprints you've earned in this manner for each season can be seen after selecting a season from the options on the left side of the screen.\nYou are able to freely choose your research focus target between different shipgirls and different PR seasons. The number of blueprints you have earned through research focus will not be reset.",
+		desc = "To access your Research Focus settings, tap on the banner on the bottom-right corner of the screen, next to the Refresh button.\nIf you select a specific PR or DR shipgirl as the target of your Research Focus, you will obtain bonus blueprints for that shipgirl each time you finish a research project.\nFor each PR season, you will be able to obtain 300 PR blueprints in total and 150 DR blueprints for each DR ship in this manner. The total number of blueprints you've earned in this manner for each season can be seen after selecting a season from the options on the left side of the screen.\nYou are able to freely choose your research focus target between different shipgirls and different PR seasons. The number of blueprints you have earned through research focus will not be reset.",
 		count_inherit = 0,
 		sub_type = 112,
 		target_id_2 = "0",
@@ -253146,6 +255678,1852 @@ end)()
 				106014,
 				1
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23601] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906109,
+		type = 26,
+		desc = "(1/14) Sortie and obtain 25 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23601,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23602] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906110,
+		type = 26,
+		desc = "(2/14) Conduct tactical training 6 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23602,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23603] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906111,
+		type = 26,
+		desc = "(3/14) Sortie and defeat 5 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23603,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23604] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906112,
+		type = 26,
+		desc = "(4/14) Conduct 10 Exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23604,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23605] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906113,
+		type = 26,
+		desc = "(5/14) Defeat 250 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23605,
+		target_num = 250,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23606] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906114,
+		type = 26,
+		desc = "(6/14) Sortie and obtain 35 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23606,
+		target_num = 35,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23607] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906115,
+		type = 26,
+		desc = "(7/14) Complete 10 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23607,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23608] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906116,
+		type = 26,
+		desc = "(8/14) Sortie and defeat 8 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23608,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23609] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906117,
+		type = 26,
+		desc = "(9/14) Enhance ships 20 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23609,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23610] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906118,
+		type = 26,
+		desc = "(10/14) Defeat 350 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23610,
+		target_num = 350,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23611] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906119,
+		type = 26,
+		desc = "(11/14) Sortie and obtain 45 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23611,
+		target_num = 45,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23612] = {
+		name = "召集者任务可获得PT：20",
+		guild_coin_award = 0,
+		award = 906120,
+		type = 26,
+		desc = "(12/14) Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23612,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				35
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23613] = {
+		name = "召集者任务可获得PT：30",
+		guild_coin_award = 0,
+		award = 906121,
+		type = 26,
+		desc = "(13/14) Sortie and defeat 10 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23613,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				40
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23614] = {
+		name = "召集者任务可获得PT：30",
+		guild_coin_award = 0,
+		award = 906122,
+		type = 26,
+		desc = "(14/14) Defeat 500 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23614,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				59581,
+				40
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23615] = {
+		name = "Active Commander Points Acquired: 30",
+		guild_coin_award = 0,
+		award = 906051,
+		type = 26,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23615,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				14,
+				301,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23616] = {
+		name = "Active Commander Points Acquired: 30",
+		guild_coin_award = 0,
+		award = 906052,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23616,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30305,
+				5
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23617] = {
+		name = "Active Commander Points Acquired: 30",
+		guild_coin_award = 0,
+		award = 906053,
+		type = 26,
+		desc = "Build 1 ship.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23617,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42060,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23618] = {
+		name = "Active Commander Points Acquired: 30",
+		guild_coin_award = 0,
+		award = 906054,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23618,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23619] = {
+		name = "Active Commander Points Acquired: 25",
+		guild_coin_award = 0,
+		award = 906055,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23619,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50005,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23620] = {
+		name = "Active Commander Points Acquired: 25",
+		guild_coin_award = 0,
+		award = 906056,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23620,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30310,
+				5
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23621] = {
+		name = "Active Commander Points Acquired: 25",
+		guild_coin_award = 0,
+		award = 906057,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23621,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23622] = {
+		name = "Active Commander Points Acquired: 25",
+		guild_coin_award = 0,
+		award = 906058,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23622,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23623] = {
+		name = "Active Commander Points Acquired: 20",
+		guild_coin_award = 0,
+		award = 906059,
+		type = 26,
+		desc = "Complete 3 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23623,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15003,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23624] = {
+		name = "Active Commander Points Acquired: 20",
+		guild_coin_award = 0,
+		award = 906060,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23624,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				15,
+				301,
+				1
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23625] = {
+		name = "Active Commander Points Acquired: 20",
+		guild_coin_award = 0,
+		award = 906061,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23625,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23626] = {
+		name = "Active Commander Points Acquired: 20",
+		guild_coin_award = 0,
+		award = 906062,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23626,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23627] = {
+		name = "Active Commander Points Acquired: 15",
+		guild_coin_award = 0,
+		award = 906063,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23627,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				1000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23628] = {
+		name = "Active Commander Points Acquired: 15",
+		guild_coin_award = 0,
+		award = 906064,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23628,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30309,
+				5
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23629] = {
+		name = "Active Commander Points Acquired: 15",
+		guild_coin_award = 0,
+		award = 906065,
+		type = 26,
+		desc = "Build 1 ship.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23629,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42060,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23630] = {
+		name = "Active Commander Points Acquired: 15",
+		guild_coin_award = 0,
+		award = 906066,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23630,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23631] = {
+		name = "Active Commander Points Acquired: 15",
+		guild_coin_award = 0,
+		award = 906067,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23631,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				50006,
+				4
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23632] = {
+		name = "Active Commander Points Acquired: 15",
+		guild_coin_award = 0,
+		award = 906068,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23632,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23633] = {
+		name = "Active Commander Points Acquired: 15",
+		guild_coin_award = 0,
+		award = 906069,
+		type = 26,
+		desc = "Complete 3 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23633,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15003,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23634] = {
+		name = "Active Commander Points Acquired: 15",
+		guild_coin_award = 0,
+		award = 906070,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23634,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42060,
+				5
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23635] = {
+		name = "Active Commander Points Acquired: 10",
+		guild_coin_award = 0,
+		award = 906071,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23635,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54034,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23636] = {
+		name = "Active Commander Points Acquired: 10",
+		guild_coin_award = 0,
+		award = 906072,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23636,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23637] = {
+		name = "Active Commander Points Acquired: 10",
+		guild_coin_award = 0,
+		award = 906073,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23637,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23638] = {
+		name = "Active Commander Points Acquired: 10",
+		guild_coin_award = 0,
+		award = 906074,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23638,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23639] = {
+		name = "Active Commander Points Acquired: 10",
+		guild_coin_award = 0,
+		award = 906075,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23639,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				42060,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23640] = {
+		name = "Active Commander Points Acquired: 10",
+		guild_coin_award = 0,
+		award = 906076,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23640,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			}
+		},
+		scene = {
+			"HARD_MAP"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23641] = {
+		name = "Active Commander Points Acquired: 10",
+		guild_coin_award = 0,
+		award = 906077,
+		type = 26,
+		desc = "Build 1 ship.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23641,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23642] = {
+		name = "Active Commander Points Acquired: 10",
+		guild_coin_award = 0,
+		award = 906078,
+		type = 26,
+		desc = "Clear 3 Hard Mode stages.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "10101",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23642,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30307,
+				5
+			}
+		},
+		scene = {
+			"HARD_MAP"
 		}
 	}
 end)()
@@ -261611,6 +265989,9758 @@ end)()
 				1,
 				516,
 				150
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23896] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务1",
+		guild_coin_award = 0,
+		award = 906497,
+		type = 26,
+		desc = "Sortie and obtain 10 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23896,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23897] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务2",
+		guild_coin_award = 0,
+		award = 906498,
+		type = 26,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23897,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23898] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务3",
+		guild_coin_award = 0,
+		award = 906499,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23898,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23899] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务4",
+		guild_coin_award = 0,
+		award = 906500,
+		type = 26,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23899,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23900] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务5",
+		guild_coin_award = 0,
+		award = 906501,
+		type = 26,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23900,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23901] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务6",
+		guild_coin_award = 0,
+		award = 906502,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23901,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23902] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务7",
+		guild_coin_award = 0,
+		award = 906503,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23902,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23903] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务8",
+		guild_coin_award = 0,
+		award = 906504,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23903,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23904] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务9",
+		guild_coin_award = 0,
+		award = 906505,
+		type = 26,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23904,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23905] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务10",
+		guild_coin_award = 0,
+		award = 906506,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23905,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23906] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务11",
+		guild_coin_award = 0,
+		award = 906507,
+		type = 26,
+		desc = "Build 2 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23906,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23907] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务12",
+		guild_coin_award = 0,
+		award = 906508,
+		type = 26,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23907,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23908] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务13",
+		guild_coin_award = 0,
+		award = 906509,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 23908,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[23909] = {
+		name = "『20250717』七天双任务送布吕歇尔JK换装七日任务14",
+		guild_coin_award = 0,
+		award = 906510,
+		type = 26,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 23909,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				7,
+				403023,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24150] = {
+		name = "Explore T1 - A New Adventure",
+		guild_coin_award = 0,
+		award = 906709,
+		type = 6,
+		desc = "100% clear T1 - A New Adventure in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24150,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				42,
+				1
+			},
+			{
+				1001,
+				28,
+				1
+			},
+			{
+				1001,
+				12,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690001,
+				mapIdx = 1690001,
+				openChapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24151] = {
+		name = "Explore T2 - Materials and Synthesis",
+		guild_coin_award = 0,
+		award = 906710,
+		type = 6,
+		desc = "100% clear T2 - Materials and Synthesis in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24151,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				43,
+				1
+			},
+			{
+				1001,
+				27,
+				1
+			},
+			{
+				1001,
+				15,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690002,
+				mapIdx = 1690001,
+				openChapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24152] = {
+		name = "Explore T3 - The Race to Investigate",
+		guild_coin_award = 0,
+		award = 906711,
+		type = 6,
+		desc = "100% clear T3 - The Race to Investigate in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24152,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				45,
+				1
+			},
+			{
+				1001,
+				30,
+				1
+			},
+			{
+				1001,
+				9,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690003,
+				mapIdx = 1690001,
+				openChapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24153] = {
+		name = "Explore T4 - Dungeons and Treasure",
+		guild_coin_award = 0,
+		award = 906712,
+		type = 6,
+		desc = "100% clear T4 - Dungeons and Treasure in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24153,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				44,
+				1
+			},
+			{
+				1001,
+				29,
+				1
+			},
+			{
+				1001,
+				6,
+				15
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690004,
+				mapIdx = 1690001,
+				openChapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24154] = {
+		name = "Explore T5 - The Home Stretch",
+		guild_coin_award = 0,
+		award = 906713,
+		type = 6,
+		desc = "100% clear T5 - The Home Stretch in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24154,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				1,
+				1
+			},
+			{
+				1001,
+				2,
+				1
+			},
+			{
+				1001,
+				3,
+				1
+			},
+			{
+				1001,
+				4,
+				1
+			},
+			{
+				1001,
+				5,
+				1
+			},
+			{
+				5,
+				95127,
+				1
+			},
+			{
+				1001,
+				7,
+				5
+			},
+			{
+				1001,
+				10,
+				5
+			},
+			{
+				1001,
+				13,
+				5
+			},
+			{
+				1001,
+				16,
+				5
+			},
+			{
+				1001,
+				34,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690005,
+				mapIdx = 1690001,
+				openChapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24155] = {
+		name = "Survey TH1 - The Land of Beginnings",
+		guild_coin_award = 0,
+		award = 906714,
+		type = 6,
+		desc = "Clear TH1 - The Land of Beginnings 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1696013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24155,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				51,
+				1
+			},
+			{
+				1001,
+				14,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690021,
+				mapIdx = 1690002,
+				openChapterId = 1690021
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24156] = {
+		name = "Survey TH2 - The Underworld Grove",
+		guild_coin_award = 0,
+		award = 906715,
+		type = 6,
+		desc = "Clear TH2 - The Underworld Grove 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1697013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24156,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				50,
+				1
+			},
+			{
+				1001,
+				17,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690022,
+				mapIdx = 1690002,
+				openChapterId = 1690022
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24157] = {
+		name = "Survey TH3 - The Castle of Strife",
+		guild_coin_award = 0,
+		award = 906716,
+		type = 6,
+		desc = "Clear TH3 - The Castle of Strife 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1698013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24157,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				48,
+				1
+			},
+			{
+				1001,
+				11,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690023,
+				mapIdx = 1690002,
+				openChapterId = 1690023
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24158] = {
+		name = "Survey TH4 - The Desolate Capital",
+		guild_coin_award = 0,
+		award = 906717,
+		type = 6,
+		desc = "Clear TH4 - The Desolate Capital 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1699013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24158,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				49,
+				1
+			},
+			{
+				1001,
+				8,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690024,
+				mapIdx = 1690002,
+				openChapterId = 1690024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24159] = {
+		name = "Survey TH5 - The Central Foundation",
+		guild_coin_award = 0,
+		award = 906718,
+		type = 6,
+		desc = "Clear TH5 - The Central Foundation 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1694014",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24159,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				20,
+				2
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690025,
+				mapIdx = 1690002,
+				openChapterId = 1690025
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24160] = {
+		name = "Set Sail for the Archipelago of Secrets!",
+		guild_coin_award = 0,
+		award = 906719,
+		type = 6,
+		desc = "Log in once during The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "shoes",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24160,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				527,
+				3
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24161] = {
+		name = "Building... Using Alchemy?!",
+		guild_coin_award = 0,
+		award = 906720,
+		type = 6,
+		desc = "Build 20 ships during The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24161,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24162] = {
+		name = "Even Oil is a Suitable Material!",
+		guild_coin_award = 0,
+		award = 906721,
+		type = 6,
+		desc = "Spend a total of 10,000 Oil during The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24162,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				46,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24163] = {
+		name = "My First Gathering Tool!",
+		guild_coin_award = 0,
+		award = 906722,
+		type = 6,
+		desc = "Synthesize 1 time in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24163,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				150
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24164] = {
+		name = "Prepped and Ready!",
+		guild_coin_award = 0,
+		award = 906723,
+		type = 6,
+		desc = "Synthesize 5 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24164,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				1,
+				523,
+				150
+			},
+			{
+				1,
+				522,
+				200
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24165] = {
+		name = "Synthesis Sensation",
+		guild_coin_award = 0,
+		award = 906724,
+		type = 6,
+		desc = "Synthesize 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24165,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1,
+				523,
+				300
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				300
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24166] = {
+		name = "Crazy for Crystal Clusters",
+		guild_coin_award = 0,
+		award = 906725,
+		type = 6,
+		desc = "Collect a total of 10,000 Crystal Clusters in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50051",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "523",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24166,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				32,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24167] = {
+		name = "I Came, I Built, I Bathed!",
+		guild_coin_award = 0,
+		award = 906726,
+		type = 6,
+		desc = "Complete Operation Hot Spring Day 7.",
+		count_inherit = 0,
+		sub_type = 415,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24167,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			36
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				33,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24168] = {
+		name = "Philuscha Fighter I",
+		guild_coin_award = 0,
+		award = 906727,
+		type = 6,
+		desc = "Sink a total of 50 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24168,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24169] = {
+		name = "Philuscha Fighter II",
+		guild_coin_award = 0,
+		award = 906728,
+		type = 6,
+		desc = "Sink a total of 100 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24169,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95119,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24170] = {
+		name = "Philuscha Fighter III",
+		guild_coin_award = 0,
+		award = 906729,
+		type = 6,
+		desc = "Sink a total of 150 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24170,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24171] = {
+		name = "Philuscha Fighter IV",
+		guild_coin_award = 0,
+		award = 906730,
+		type = 6,
+		desc = "Sink a total of 200 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24171,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95115,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24172] = {
+		name = "Philuscha Fighter V",
+		guild_coin_award = 0,
+		award = 906731,
+		type = 6,
+		desc = "Sink a total of 250 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24172,
+		target_num = 250,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				47,
+				1
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24173] = {
+		name = "Enforcer Eliminator I",
+		guild_coin_award = 0,
+		award = 906732,
+		type = 6,
+		desc = "Sink a total of 15 humanoid Sirens in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24173,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				522,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24174] = {
+		name = "Enforcer Eliminator II",
+		guild_coin_award = 0,
+		award = 906733,
+		type = 6,
+		desc = "Sink a total of 30 humanoid Sirens in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24174,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95131,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24175] = {
+		name = "Guardian Gravedigger",
+		guild_coin_award = 0,
+		award = 906734,
+		type = 6,
+		desc = "Sink a total of 10 Ancient Ruins Guardian Prototypes in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24175,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16304306
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95132,
+				1
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				522,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24176] = {
+		name = "The Lightning General",
+		guild_coin_award = 0,
+		award = 906735,
+		type = 6,
+		desc = "I've heard word of an ore with the power of lightning. I'd like to test their capabilities. \nMaterials required: Lightning Ore x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "15",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "wuzang",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24176,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				57,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24177] = {
+		name = "Lean Sardine Cuisine",
+		guild_coin_award = 0,
+		award = 906736,
+		type = 6,
+		desc = "So, I'm throwing a barbeque party and could use a few sardines! \nMaterials required: Sardine x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "7",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiyatu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24177,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				56,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24178] = {
+		name = "Crackle and Pop",
+		guild_coin_award = 0,
+		award = 906737,
+		type = 6,
+		desc = "If Magma Powder really heats up on its own, I could use it to make the world's best fireworks! Find me one, please! \nMaterials required: Magma Powder x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "11",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "fushun",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24178,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				58,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24179] = {
+		name = "All That Glimmers...",
+		guild_coin_award = 0,
+		award = 906738,
+		type = 6,
+		desc = "Sparkly crystals... Pretty. Want those... \nMaterials required: Small Crystals x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "9",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aierdeliqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24179,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				52,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24180] = {
+		name = "Birds of Soil",
+		guild_coin_award = 0,
+		award = 906739,
+		type = 6,
+		desc = "Those plants with wing-like leaves look so pretty... Could you please gather some for my greenhouse? \nMaterials required: Wing Plant x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "13",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "huayue",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24180,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				53,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24181] = {
+		name = "I Have the Power",
+		guild_coin_award = 0,
+		award = 906740,
+		type = 6,
+		desc = "Apparently, those cores are what power the Guardian... I want one to examine thoroughly. \nMaterials required: Strange Energy Core x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "20",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "yinggelahan",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24181,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				54,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24182] = {
+		name = "Shelling Out",
+		guild_coin_award = 0,
+		award = 906741,
+		type = 6,
+		desc = "Bel is working on a new seafood recipe and asked me to get some shells. Don't tell her about this request, please. \nMaterials required: Pourpremoule x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "6",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aidingbao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24182,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				55,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24183] = {
+		name = "It's Gonna Be Lit",
+		guild_coin_award = 0,
+		award = 906742,
+		type = 6,
+		desc = "Go out there and collect some of that combustible sand! What do I need it for, you wonder? You'll see~ Teehee♪ \nMaterials required: Burning Sand x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "10",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "daqinghuayu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24183,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95113,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24184] = {
+		name = "Bloody Beautiful",
+		guild_coin_award = 0,
+		award = 906743,
+		type = 6,
+		desc = "I want one of those blood-coloured flowers for use as a hair ornament♪ \nMaterials required: Blood Taun x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "14",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xixuegui",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24184,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24185] = {
+		name = "Deal Ore No Deal?",
+		guild_coin_award = 0,
+		award = 906744,
+		type = 6,
+		desc = "Those crystal ores found in the Central Foundation sound like good money, nya. Please go get some for me, nya! \nMaterials required: Strange Crystal Ore x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "18",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24185,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24186] = {
+		name = "Like Shooting Stars",
+		guild_coin_award = 0,
+		award = 906745,
+		type = 6,
+		desc = "Those fragments from a distant sky possess a curious power... This one seeks to learn their applications... \nMaterials required: Star Fragment x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "16",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xinnong",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24186,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24187] = {
+		name = "A Fishy Dish",
+		guild_coin_award = 0,
+		award = 906746,
+		type = 6,
+		desc = "A premium fish like the Lake Master would be brilliant in a stargazy pie. Get me one, and ya can have a slice after the pie's done! \nMaterials required: Lake Master x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "8",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "manchesite",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24187,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95108,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24188] = {
+		name = "The Grass With No Name",
+		guild_coin_award = 0,
+		award = 906747,
+		type = 6,
+		desc = "I require some Nameless Grass to use in a ninja training exercise I have planned. \nMaterials required: Nameless Grass x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "12",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24188,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24189] = {
+		name = "Harder and Stronger",
+		guild_coin_award = 0,
+		award = 906748,
+		type = 6,
+		desc = "I'll need a few of those Siren armor plates to make our training ground targets more durable. Mind getting me some? \nMaterials required: Strange Armor Plate x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "19",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "qianwei",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24189,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95140,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24190] = {
+		name = "Septrin for my Scepter",
+		guild_coin_award = 0,
+		award = 906749,
+		type = 6,
+		desc = "Septrin is quite the interesting gemstone. I'd appreciate if you could bring one back the next time you venture out. \nMaterials required: Septrin x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "17",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "makeboluo",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24190,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24191] = {
+		name = "Spirit Bottles, Not Bottled Spirits!",
+		guild_coin_award = 0,
+		award = 906750,
+		type = 16,
+		desc = "Get me as many Spirit Bottles as you can! P.S. Teach is busy with her work, so I (Alfredo) am making this request on her behalf! \nMaterials required: Spirit Bottle x 10",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "21",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "dafenqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24191,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24192] = {
+		name = "Red Neutralizer Research",
+		guild_coin_award = 0,
+		award = 906751,
+		type = 16,
+		desc = "I need a lot of neutralizers to do some science, nya! Bring as many as you can, nya! \nMaterials required: Red Neutralizer x 6",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "22",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24192,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24193] = {
+		name = "Blue Neutralizer Research",
+		guild_coin_award = 0,
+		award = 906752,
+		type = 16,
+		desc = "I need a lot of neutralizers to do some science, nya! Bring as many as you can, nya! \nMaterials required: Blue Neutralizer x 6",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "23",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24193,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24194] = {
+		name = "Yellow Neutralizer Research",
+		guild_coin_award = 0,
+		award = 906753,
+		type = 16,
+		desc = "I need a lot of neutralizers to do some science, nya! Bring as many as you can, nya! \nMaterials required: Yellow Neutralizer x 6",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "24",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24194,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24195] = {
+		name = "Green Neutralizer Research",
+		guild_coin_award = 0,
+		award = 906754,
+		type = 16,
+		desc = "I need a lot of neutralizers to do some science, nya! Bring as many as you can, nya! \nMaterials required: Green Neutralizer x 6",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "25",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24195,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				100
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24196] = {
+		name = "Crystal Element Research",
+		guild_coin_award = 0,
+		award = 906755,
+		type = 16,
+		desc = "Hehehe... I'll need lots and lots of Crystal Elements to analyze and figure out how they work... \nMaterials required: Crystal Element x 4",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "26",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "tuolichaili",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24196,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				523,
+				120
+			},
+			{
+				1,
+				522,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24197] = {
+		name = "『莱莎联动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 906756,
+		type = 6,
+		desc = "Open 20 Gear Skin Boxes (Atelier Ryza) (obtainable from Synthesis, the Event Exchange and the Supply Shop).",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24197,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			30340,
+			30373
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30513,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24198] = {
+		name = "『莱莎联动』-日常建造",
+		guild_coin_award = 0,
+		award = 906757,
+		type = 36,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24198,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65652,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24199] = {
+		name = "『莱莎联动』-日常出击",
+		guild_coin_award = 0,
+		award = 906758,
+		type = 36,
+		desc = "Sortie and obtain 15 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24199,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65652,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24200] = {
+		name = "『莱莎联动』-日常困难本",
+		guild_coin_award = 0,
+		award = 906759,
+		type = 36,
+		desc = "Sortie and clear 1 non-event hard mode stage.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24200,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65652,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24201] = {
+		name = "『莱莎联动』通关T1",
+		guild_coin_award = 0,
+		award = 906760,
+		type = 6,
+		desc = "Clear the T1 stage in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "24202",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24201,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24202] = {
+		name = "『莱莎联动』通关T2",
+		guild_coin_award = 0,
+		award = 906761,
+		type = 6,
+		desc = "Clear the T2 stage in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "24203",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24202,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24203] = {
+		name = "『莱莎联动』通关T3",
+		guild_coin_award = 0,
+		award = 906762,
+		type = 6,
+		desc = "Clear the T3 stage in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "24204",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24203,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65652,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24204] = {
+		name = "『莱莎联动』通关T4",
+		guild_coin_award = 0,
+		award = 906763,
+		type = 6,
+		desc = "Clear the T4 stage in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "24205",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24204,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				400
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24205] = {
+		name = "『莱莎联动』通关T5",
+		guild_coin_award = 0,
+		award = 906764,
+		type = 6,
+		desc = "Clear the T5 stage in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "24206",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24205,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65652,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24206] = {
+		name = "『莱莎联动』通关A.SP",
+		guild_coin_award = 0,
+		award = 906765,
+		type = 6,
+		desc = "Clear the A.SP stage in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24206,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690003,
+				chapterId = 1690041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24207] = {
+		name = "『莱莎联动』T1的3星",
+		guild_coin_award = 0,
+		award = 906766,
+		type = 6,
+		desc = "Clear the T1 stage with 3 stars in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "24208",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24207,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24208] = {
+		name = "『莱莎联动』T2的3星",
+		guild_coin_award = 0,
+		award = 906767,
+		type = 6,
+		desc = "Clear the T2 stage with 3 stars in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "24209",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24208,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24209] = {
+		name = "『莱莎联动』T3的3星",
+		guild_coin_award = 0,
+		award = 906768,
+		type = 6,
+		desc = "Clear the T3 stage with 3 stars in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "24210",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24209,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24210] = {
+		name = "『莱莎联动』T4的3星",
+		guild_coin_award = 0,
+		award = 906769,
+		type = 6,
+		desc = "Clear the T4 stage with 3 stars in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "24211",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24210,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24211] = {
+		name = "『莱莎联动』T5的3星",
+		guild_coin_award = 0,
+		award = 906770,
+		type = 6,
+		desc = "Clear the T5 stage with 3 stars in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24211,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690001,
+				chapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24212] = {
+		name = "『莱莎联动』通关EX",
+		guild_coin_award = 0,
+		award = 906771,
+		type = 6,
+		desc = "Clear the EX stage in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690051",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24212,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1690004,
+				chapterId = 1690051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24213] = {
+		name = "『莱莎联动』获得大佬章",
+		guild_coin_award = 0,
+		award = 906772,
+		type = 6,
+		desc = "Obtain Ruins Explorer Sculpture through Synthesis in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24213,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			200
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				9,
+				1218,
+				1
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24214] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906601,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24214,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300201,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24215] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906602,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24215,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300202,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24216] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906603,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24216,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				4
+			},
+			{
+				102,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300203,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24217] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906604,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24217,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				101,
+				8
+			},
+			{
+				102,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300204,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24218] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906605,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24218,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300205,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24219] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906606,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24219,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300206,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24220] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906607,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24220,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				4
+			},
+			{
+				104,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300207,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24221] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906608,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24221,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				103,
+				8
+			},
+			{
+				104,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300208,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24222] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906609,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24222,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				4
+			},
+			{
+				106,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300209,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24223] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906610,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24223,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				4
+			},
+			{
+				106,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300210,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24224] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906611,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24224,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				4
+			},
+			{
+				106,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300211,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24225] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906612,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24225,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				105,
+				8
+			},
+			{
+				106,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300212,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24226] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906613,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24226,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				4
+			},
+			{
+				108,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300213,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24227] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906614,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24227,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				4
+			},
+			{
+				108,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300214,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24228] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906615,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24228,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				4
+			},
+			{
+				108,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300215,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24229] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906616,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24229,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				107,
+				8
+			},
+			{
+				108,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300216,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24230] = {
+		name = "『优米雅联动』-关卡buff升级任务1-1",
+		guild_coin_award = 0,
+		award = 906617,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24230,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				4
+			},
+			{
+				110,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300217,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24231] = {
+		name = "『优米雅联动』-关卡buff升级任务1-2",
+		guild_coin_award = 0,
+		award = 906618,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24231,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				4
+			},
+			{
+				110,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300218,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24232] = {
+		name = "『优米雅联动』-关卡buff升级任务1-3",
+		guild_coin_award = 0,
+		award = 906619,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24232,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				4
+			},
+			{
+				110,
+				4
+			},
+			{
+				111,
+				1
+			},
+			{
+				112,
+				1
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300219,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24233] = {
+		name = "『优米雅联动』-关卡buff升级任务1-4",
+		guild_coin_award = 0,
+		award = 906620,
+		type = 6,
+		sub_type = 1007,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "不会显示",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 0,
+		ryza_type = 0,
+		story_id = "",
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24233,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id_2 = {
+			{
+				109,
+				8
+			},
+			{
+				110,
+				8
+			},
+			{
+				111,
+				2
+			},
+			{
+				112,
+				2
+			}
+		},
+		open_need = {},
+		award_display = {
+			{
+				24,
+				300220,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24234] = {
+		name = "『优米雅联动』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906624,
+		type = 6,
+		desc = "Log in to the game.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24234,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				527,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24235] = {
+		name = "『优米雅联动』剧情模式",
+		guild_coin_award = 0,
+		award = 906625,
+		type = 6,
+		desc = "Read the whole story in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24235,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			6988
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24236] = {
+		name = "『优米雅联动』日常剧情触发1",
+		guild_coin_award = 0,
+		award = 906785,
+		type = 6,
+		desc = "Collect 5,000 Skynexus Dust in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50060",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN1",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "24237",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "528",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24236,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24237] = {
+		name = "『优米雅联动』日常剧情触发2",
+		guild_coin_award = 0,
+		award = 906786,
+		type = 6,
+		desc = "Synthesize 10 times in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN2",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "24238",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24237,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24238] = {
+		name = "『优米雅联动』日常剧情触发3",
+		guild_coin_award = 0,
+		award = 906787,
+		type = 6,
+		desc = "Complete stages 20 times in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN3",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "24239",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24238,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24239] = {
+		name = "『优米雅联动』日常剧情触发4",
+		guild_coin_award = 0,
+		award = 906788,
+		type = 6,
+		desc = "Synthesize 30 times in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "YOUMIYARICHANGPIAN4",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24239,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24240] = {
+		name = "『优米雅联动』-日常建造",
+		guild_coin_award = 0,
+		award = 906790,
+		type = 36,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "youmiya",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24240,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65663,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24241] = {
+		name = "『优米雅联动』-日常出击",
+		guild_coin_award = 0,
+		award = 906791,
+		type = 36,
+		desc = "Sortie and obtain 15 victories.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24241,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65663,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24242] = {
+		name = "『优米雅联动』-日常困难本",
+		guild_coin_award = 0,
+		award = 906792,
+		type = 36,
+		desc = "Sortie and clear 1 non-event hard mode stage.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24242,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65663,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24243] = {
+		name = "『优米雅联动』-通关T1",
+		guild_coin_award = 0,
+		award = 906793,
+		type = 6,
+		desc = "Clear the T1 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940001",
+		next_task = "24244",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24243,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24244] = {
+		name = "『优米雅联动』-通关T2",
+		guild_coin_award = 0,
+		award = 906794,
+		type = 6,
+		desc = "Clear the T2 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940002",
+		next_task = "24245",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24244,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24245] = {
+		name = "『优米雅联动』-通关T3",
+		guild_coin_award = 0,
+		award = 906795,
+		type = 6,
+		desc = "Clear the T3 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940003",
+		next_task = "24246",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24245,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65663,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24246] = {
+		name = "『优米雅联动』-通关T4",
+		guild_coin_award = 0,
+		award = 906796,
+		type = 6,
+		desc = "Clear the T4 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940004",
+		next_task = "24247",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24246,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24247] = {
+		name = "『优米雅联动』-通关T5",
+		guild_coin_award = 0,
+		award = 906797,
+		type = 6,
+		desc = "Clear the T5 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940005",
+		next_task = "24248",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24247,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65663,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24248] = {
+		name = "『优米雅联动』-通关Y.SP",
+		guild_coin_award = 0,
+		award = 906798,
+		type = 6,
+		desc = "Clear the Y.SP stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940041",
+		next_task = "24236",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24248,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1940003,
+				chapterId = 1940041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24249] = {
+		name = "『优米雅联动』-T1的3星",
+		guild_coin_award = 0,
+		award = 906799,
+		type = 6,
+		desc = "Clear the T1 stage with 3 stars in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940001",
+		next_task = "24250",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24249,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24250] = {
+		name = "『优米雅联动』-T2的3星",
+		guild_coin_award = 0,
+		award = 906800,
+		type = 6,
+		desc = "Clear the T2 stage with 3 stars in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940002",
+		next_task = "24251",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24250,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24251] = {
+		name = "『优米雅联动』-T3的3星",
+		guild_coin_award = 0,
+		award = 906801,
+		type = 6,
+		desc = "Clear the T3 stage with 3 stars in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940003",
+		next_task = "24252",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24251,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24252] = {
+		name = "『优米雅联动』-T4的3星",
+		guild_coin_award = 0,
+		award = 906802,
+		type = 6,
+		desc = "Clear the T4 stage with 3 stars in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940004",
+		next_task = "24253",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24252,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24253] = {
+		name = "『优米雅联动』-T5的3星",
+		guild_coin_award = 0,
+		award = 906803,
+		type = 6,
+		desc = "Clear the T5 stage with 3 stars in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1940005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24253,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30371,
+				1
+			},
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24254] = {
+		name = "『优米雅联动』-通关EX",
+		guild_coin_award = 0,
+		award = 906804,
+		type = 6,
+		desc = "Clear the EX stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24254,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940051,
+			1940052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1940004,
+				chapterId = 1940051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24255] = {
+		name = "『优米雅联动』-累计通关活动关卡10次",
+		guild_coin_award = 0,
+		award = 906805,
+		type = 6,
+		desc = "Clear 10 stages in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24255,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				500
+			},
+			{
+				5,
+				325110,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24256] = {
+		name = "『优米雅联动』-累计通关活动关卡20次",
+		guild_coin_award = 0,
+		award = 906806,
+		type = 6,
+		desc = "Clear 20 stages in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24256,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				128,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24257] = {
+		name = "『优米雅联动』-累计通关活动关卡30次",
+		guild_coin_award = 0,
+		award = 906807,
+		type = 6,
+		desc = "Clear 30 stages in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24257,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				127,
+				1
+			},
+			{
+				1,
+				528,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24258] = {
+		name = "『优米雅联动』-累计通关活动关卡40次",
+		guild_coin_award = 0,
+		award = 906808,
+		type = 6,
+		desc = "Clear 40 stages in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24258,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				325110,
+				1
+			},
+			{
+				1001,
+				101,
+				4
+			},
+			{
+				1001,
+				102,
+				4
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24259] = {
+		name = "『优米雅联动』-累计通关活动关卡50次",
+		guild_coin_award = 0,
+		award = 906809,
+		type = 6,
+		desc = "Clear 50 stages in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24259,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1499,
+				1
+			},
+			{
+				1001,
+				101,
+				8
+			},
+			{
+				1001,
+				102,
+				8
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24260] = {
+		name = "『优米雅联动』-累计通关活动关卡60次",
+		guild_coin_award = 0,
+		award = 906810,
+		type = 6,
+		desc = "Clear 60 stages in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24260,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940001,
+			1940002,
+			1940003,
+			1940004,
+			1940005,
+			1940021,
+			1940022,
+			1940023,
+			1940024,
+			1940025,
+			1940041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				3000
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24261] = {
+		name = "『优米雅联动』-通关素材关1",
+		guild_coin_award = 0,
+		award = 906811,
+		type = 6,
+		desc = "Clear the TS1 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24261,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				116,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24262] = {
+		name = "『优米雅联动』-通关素材关2",
+		guild_coin_award = 0,
+		award = 906812,
+		type = 6,
+		desc = "Clear the TS2 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24262,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940022
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				117,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24263] = {
+		name = "『优米雅联动』-通关素材关3",
+		guild_coin_award = 0,
+		award = 906813,
+		type = 6,
+		desc = "Clear the TS3 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24263,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940023
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				118,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24264] = {
+		name = "『优米雅联动』-通关素材关4",
+		guild_coin_award = 0,
+		award = 906814,
+		type = 6,
+		desc = "Clear the TS4 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24264,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				119,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24265] = {
+		name = "『优米雅联动』-通关素材关5",
+		guild_coin_award = 0,
+		award = 906815,
+		type = 6,
+		desc = "Clear the TS5 stage in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24265,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1940025
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				120,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50054
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24266] = {
+		name = "『优米雅联动』-中和剂回收·红",
+		guild_coin_award = 0,
+		award = 906816,
+		type = 16,
+		desc = "Submit 15 Red Neutralizers in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "129",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24266,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24267] = {
+		name = "『优米雅联动』-中和剂回收·蓝",
+		guild_coin_award = 0,
+		award = 906817,
+		type = 16,
+		desc = "Submit 15 Blue Neutralizers in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "130",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24267,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24268] = {
+		name = "『优米雅联动』-中和剂回收·黄",
+		guild_coin_award = 0,
+		award = 906818,
+		type = 16,
+		desc = "Submit 15 Yellow Neutralizers in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "131",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24268,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24269] = {
+		name = "『优米雅联动』-中和剂回收·绿",
+		guild_coin_award = 0,
+		award = 906819,
+		type = 16,
+		desc = "Submit 15 Green Neutralizers in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "132",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24269,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24270] = {
+		name = "『优米雅联动』-中和剂回收·七彩",
+		guild_coin_award = 0,
+		award = 906820,
+		type = 16,
+		desc = "Submit 10 Rainbow Neutralizers in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "133",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24270,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				110
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24271] = {
+		name = "『优米雅联动』-外观装备箱",
+		guild_coin_award = 0,
+		award = 906789,
+		type = 6,
+		desc = "Open 20 Gear Skin Boxes (Atelier Yumia) (obtainable from Synthesis, the Event Exchange and the Supply Shop).",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24271,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			30370,
+			30372
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30557,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24272] = {
+		name = "『优米雅联动』大佬章任务",
+		guild_coin_award = 0,
+		award = 906828,
+		type = 6,
+		desc = "Synthesize 25 recipes in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 9007,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24272,
+		target_num = 25,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1001,
+			1002,
+			1003,
+			1004,
+			1011,
+			1012,
+			1013,
+			1014,
+			1015,
+			1016,
+			1017,
+			1018,
+			1019,
+			1020,
+			1021,
+			1022,
+			1023,
+			1024,
+			1025,
+			1026,
+			1027,
+			1028,
+			1029,
+			1030,
+			1031
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				311,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24273] = {
+		name = "『优米雅联动』能源核心满级1",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "Level up Core: Entrance Area to Level MAX in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24273,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24217
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24274] = {
+		name = "『优米雅联动』能源核心满级2",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "Level up Core: L1 Area to Level MAX in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24274,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24221
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24275] = {
+		name = "『优米雅联动』能源核心满级3",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "Level up Core: L2 Area to Level MAX in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24275,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24225
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24276] = {
+		name = "『优米雅联动』能源核心满级4",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "Level up Core: L3 Area to Level MAX in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24276,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24229
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24277] = {
+		name = "『优米雅联动』能源核心满级5",
+		guild_coin_award = 0,
+		award = 906829,
+		type = 6,
+		desc = "Level up Core: Top to Level MAX in The Alchemist and the Tower of Horizons.",
+		count_inherit = 0,
+		sub_type = 90,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24277,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			24233
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				528,
+				150
+			},
+			{
+				2,
+				30371,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24278] = {
+		name = "『250814马塞纳版本』登录送皮肤体验券活动",
+		guild_coin_award = 0,
+		award = 906854,
+		type = 6,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24278,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				532,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24279] = {
+		name = "『马塞纳活动』-日常建造",
+		guild_coin_award = 0,
+		award = 906921,
+		type = 36,
+		desc = "Build 3 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24279,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24280] = {
+		name = "『马塞纳活动』-日常出击",
+		guild_coin_award = 0,
+		award = 906922,
+		type = 36,
+		desc = "Sortie and obtain 15 victories",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24280,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24281] = {
+		name = "『马塞纳活动』-日常困难本",
+		guild_coin_award = 0,
+		award = 906923,
+		type = 36,
+		desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24281,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24282] = {
+		name = "『马塞纳活动』通关T1/HT1",
+		guild_coin_award = 0,
+		award = 906924,
+		type = 6,
+		desc = "Clear T1 or HT1.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24283",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24282,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65674,
+				200
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24283] = {
+		name = "『马塞纳活动』通关T2/HT2",
+		guild_coin_award = 0,
+		award = 906925,
+		type = 6,
+		desc = "Clear T2 or HT2.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24284",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24283,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950002,
+			1950022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65674,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24284] = {
+		name = "『马塞纳活动』通关T3/HT3",
+		guild_coin_award = 0,
+		award = 906926,
+		type = 6,
+		desc = "Clear T3 or HT3.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24285",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24284,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950003,
+			1950023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65674,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24285] = {
+		name = "『马塞纳活动』通关T4/HT4",
+		guild_coin_award = 0,
+		award = 906927,
+		type = 6,
+		desc = "Clear T4 or HT4.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24286",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24285,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950004,
+			1950024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65674,
+				400
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24286] = {
+		name = "『马塞纳活动』通关T5/HT5",
+		guild_coin_award = 0,
+		award = 906928,
+		type = 6,
+		desc = "Clear T5 or HT5.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24287",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24286,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950005,
+			1950025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			},
+			{
+				2,
+				65674,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24287] = {
+		name = "『马塞纳活动』通关T6/HT6",
+		guild_coin_award = 0,
+		award = 906929,
+		type = 6,
+		desc = "Clear T6 or HT6.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24288",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24287,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950006,
+			1950026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				2,
+				65674,
+				800
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24288] = {
+		name = "『马塞纳活动』通关SP",
+		guild_coin_award = 0,
+		award = 906930,
+		type = 6,
+		desc = "Clear the SP.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1950041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24288,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1950025,
+				chapterId = 1950041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24289] = {
+		name = "『马塞纳活动』通关EX",
+		guild_coin_award = 0,
+		award = 906931,
+		type = 6,
+		desc = "Clear EX.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24289,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950051,
+			1950052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1950026,
+				chapterId = 1950051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24291] = {
+		name = "『马塞纳活动』T1/HT1的3星",
+		guild_coin_award = 0,
+		award = 906933,
+		type = 6,
+		desc = "Complete T1 or HT1 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24292",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24291,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24292] = {
+		name = "『马塞纳活动』T2/HT2的3星",
+		guild_coin_award = 0,
+		award = 906934,
+		type = 6,
+		desc = "Complete T2 or HT2 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24293",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24292,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950002,
+			1950022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24293] = {
+		name = "『马塞纳活动』T3/HT3的3星",
+		guild_coin_award = 0,
+		award = 906935,
+		type = 6,
+		desc = "Complete T3 or HT3 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24294",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24293,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950003,
+			1950023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50081
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24294] = {
+		name = "『马塞纳活动』T4/HT4的3星",
+		guild_coin_award = 0,
+		award = 906936,
+		type = 6,
+		desc = "Complete T4 or HT4 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24295",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24294,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950004,
+			1950024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24295] = {
+		name = "『马塞纳活动』T5/HT5的3星",
+		guild_coin_award = 0,
+		award = 906937,
+		type = 6,
+		desc = "Complete T5 or HT5 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24296",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24295,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950005,
+			1950025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24296] = {
+		name = "『马塞纳活动』T6/HT6的3星",
+		guild_coin_award = 0,
+		award = 906938,
+		type = 6,
+		desc = "Complete T6 or HT6 with 3 stars.",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24296,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950006,
+			1950026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50082
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24297] = {
+		name = "『马塞纳活动』通关任务10次",
+		guild_coin_award = 0,
+		award = 906939,
+		type = 6,
+		desc = "Clear 10 stages in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24297,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950002,
+			1950003,
+			1950004,
+			1950005,
+			1950006,
+			1950021,
+			1950022,
+			1950023,
+			1950024,
+			1950025,
+			1950026,
+			1950041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24298] = {
+		name = "『马塞纳活动』通关任务30次",
+		guild_coin_award = 0,
+		award = 906940,
+		type = 6,
+		desc = "Clear 30 stages in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24298,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950002,
+			1950003,
+			1950004,
+			1950005,
+			1950006,
+			1950021,
+			1950022,
+			1950023,
+			1950024,
+			1950025,
+			1950026,
+			1950041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24299] = {
+		name = "『马塞纳活动』通关任务60次",
+		guild_coin_award = 0,
+		award = 906941,
+		type = 6,
+		desc = "Clear 60 stages in Secrets of the Abyss.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24299,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1950001,
+			1950002,
+			1950003,
+			1950004,
+			1950005,
+			1950006,
+			1950021,
+			1950022,
+			1950023,
+			1950024,
+			1950025,
+			1950026,
+			1950041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65674,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24300] = {
+		name = "『马塞纳活动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 906942,
+		type = 6,
+		desc = "Buy 20 Gear Skin Boxes (Aberrinth) from the Event Exchange or the Supply Shop.",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30374",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24300,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30558,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24301] = {
+		name = "『马塞纳活动』观看剧情",
+		guild_coin_award = 0,
+		award = 0,
+		type = 6,
+		desc = "Complete the intro of the Secrets of the Abyss story.",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24301,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7044
+		},
+		open_need = {},
+		award_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24311] = {
+		name = "『20250904』前哨战七日任务1",
+		guild_coin_award = 0,
+		award = 906984,
+		type = 26,
+		desc = "Sortie and obtain 10 victories with S-rating.",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24311,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24312] = {
+		name = "『20250904』前哨战七日任务2",
+		guild_coin_award = 0,
+		award = 906985,
+		type = 26,
+		desc = "Log in once.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24312,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24313] = {
+		name = "『20250904』前哨战七日任务3",
+		guild_coin_award = 0,
+		award = 906986,
+		type = 26,
+		desc = "Conduct 2 exercises.",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24313,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24314] = {
+		name = "『20250904』前哨战七日任务4",
+		guild_coin_award = 0,
+		award = 906987,
+		type = 26,
+		desc = "Complete 2 commissions.",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24314,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24315] = {
+		name = "『20250904』前哨战七日任务5",
+		guild_coin_award = 0,
+		award = 906988,
+		type = 26,
+		desc = "Retire 2 ships.",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24315,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24316] = {
+		name = "『20250904』前哨战七日任务6",
+		guild_coin_award = 0,
+		award = 906989,
+		type = 26,
+		desc = "Complete 3 Daily Challenges.",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24316,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24317] = {
+		name = "『20250904』前哨战七日任务7",
+		guild_coin_award = 0,
+		award = 906990,
+		type = 26,
+		desc = "Enhance ship 5 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24317,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24318] = {
+		name = "『20250904』前哨战七日任务8",
+		guild_coin_award = 0,
+		award = 906991,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24318,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24319] = {
+		name = "『20250904』前哨战七日任务9",
+		guild_coin_award = 0,
+		award = 906992,
+		type = 26,
+		desc = "Defeat 20 enemies.",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24319,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24320] = {
+		name = "『20250904』前哨战七日任务10",
+		guild_coin_award = 0,
+		award = 906993,
+		type = 26,
+		desc = "Restock snacks in your dorm 5 times.",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24320,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24321] = {
+		name = "『20250904』前哨战七日任务11",
+		guild_coin_award = 0,
+		award = 906994,
+		type = 26,
+		desc = "Build 2 ships.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24321,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24322] = {
+		name = "『20250904』前哨战七日任务12",
+		guild_coin_award = 0,
+		award = 906995,
+		type = 26,
+		desc = "Open 1 Tech Box.",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24322,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24323] = {
+		name = "『20250904』前哨战七日任务13",
+		guild_coin_award = 0,
+		award = 906996,
+		type = 26,
+		desc = "Conduct tactical training 2 times.",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24323,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24324] = {
+		name = "『20250904』前哨战七日任务14",
+		guild_coin_award = 0,
+		award = 906997,
+		type = 26,
+		desc = "Sortie and defeat 3 Boss Fleets.",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24324,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				3,
+				150820,
+				1
 			}
 		},
 		scene = {
@@ -324804,6 +338934,2937 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[56201] = {
+		name = "Explore T1 - A New Adventure",
+		guild_coin_award = 0,
+		award = 98551,
+		type = 6,
+		desc = "100% clear T1 - A New Adventure in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56201,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				42,
+				1
+			},
+			{
+				1001,
+				28,
+				1
+			},
+			{
+				1001,
+				12,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690001,
+				mapIdx = 1690001,
+				openChapterId = 1690001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56202] = {
+		name = "Explore T2 - Materials and Synthesis",
+		guild_coin_award = 0,
+		award = 98552,
+		type = 6,
+		desc = "100% clear T2 - Materials and Synthesis in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690002",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56202,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				43,
+				1
+			},
+			{
+				1001,
+				27,
+				1
+			},
+			{
+				1001,
+				15,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690002,
+				mapIdx = 1690001,
+				openChapterId = 1690002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56203] = {
+		name = "Explore T3 - The Race to Investigate",
+		guild_coin_award = 0,
+		award = 98553,
+		type = 6,
+		desc = "100% clear T3 - The Race to Investigate in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56203,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				45,
+				1
+			},
+			{
+				1001,
+				30,
+				1
+			},
+			{
+				1001,
+				9,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690003,
+				mapIdx = 1690001,
+				openChapterId = 1690003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56204] = {
+		name = "Explore T4 - Dungeons and Treasure",
+		guild_coin_award = 0,
+		award = 98554,
+		type = 6,
+		desc = "100% clear T4 - Dungeons and Treasure in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690004",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56204,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				44,
+				1
+			},
+			{
+				1001,
+				29,
+				1
+			},
+			{
+				1001,
+				6,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690004,
+				mapIdx = 1690001,
+				openChapterId = 1690004
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56205] = {
+		name = "Explore T5 - The Home Stretch",
+		guild_coin_award = 0,
+		award = 98555,
+		type = 6,
+		desc = "100% clear T5 - The Home Stretch in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1690005",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56205,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95127,
+				1
+			},
+			{
+				1001,
+				7,
+				1
+			},
+			{
+				1001,
+				10,
+				1
+			},
+			{
+				1001,
+				13,
+				1
+			},
+			{
+				1001,
+				16,
+				1
+			},
+			{
+				1001,
+				34,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690005,
+				mapIdx = 1690001,
+				openChapterId = 1690005
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56206] = {
+		name = "Survey TH1 - The Land of Beginnings",
+		guild_coin_award = 0,
+		award = 98556,
+		type = 6,
+		desc = "Clear TH1 - The Land of Beginnings 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1696013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56206,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				51,
+				1
+			},
+			{
+				1001,
+				14,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690021,
+				mapIdx = 1690002,
+				openChapterId = 1690021
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56207] = {
+		name = "Survey TH2 - The Underworld Grove",
+		guild_coin_award = 0,
+		award = 98557,
+		type = 6,
+		desc = "Clear TH2 - The Underworld Grove 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1697013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56207,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				50,
+				1
+			},
+			{
+				1001,
+				17,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690022,
+				mapIdx = 1690002,
+				openChapterId = 1690022
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56208] = {
+		name = "Survey TH3 - The Castle of Strife",
+		guild_coin_award = 0,
+		award = 98558,
+		type = 6,
+		desc = "Clear TH3 - The Castle of Strife 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1698013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56208,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				48,
+				1
+			},
+			{
+				1001,
+				11,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690023,
+				mapIdx = 1690002,
+				openChapterId = 1690023
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56209] = {
+		name = "Survey TH4 - The Desolate Capital",
+		guild_coin_award = 0,
+		award = 98559,
+		type = 6,
+		desc = "Clear TH4 - The Desolate Capital 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1699013",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56209,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				49,
+				1
+			},
+			{
+				1001,
+				8,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690024,
+				mapIdx = 1690002,
+				openChapterId = 1690024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56210] = {
+		name = "Survey TH5 - The Central Foundation",
+		guild_coin_award = 0,
+		award = 98560,
+		type = 6,
+		desc = "Clear TH5 - The Central Foundation 10 times in The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "shoes",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1694014",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56210,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				20,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				chapterId = 1690025,
+				mapIdx = 1690002,
+				openChapterId = 1690025
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56211] = {
+		name = "Set Sail for the Archipelago of Secrets!",
+		guild_coin_award = 0,
+		award = 98561,
+		type = 6,
+		desc = "Log in once during The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "shoes",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56211,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				288,
+				3
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56212] = {
+		name = "Building... Using Alchemy?!",
+		guild_coin_award = 0,
+		award = 98562,
+		type = 6,
+		desc = "Build 20 ships during The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56212,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56213] = {
+		name = "Even Oil is a Suitable Material!",
+		guild_coin_award = 0,
+		award = 98563,
+		type = 6,
+		desc = "Spend a total of 10,000 Oil during The Alchemist and the Archipelago of Secrets.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56213,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				46,
+				1
+			},
+			{
+				1,
+				2,
+				500
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56214] = {
+		name = "My First Gathering Tool!",
+		guild_coin_award = 0,
+		award = 98564,
+		type = 6,
+		desc = "Use Synthesis to create 1 gathering tool using recipes.",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56214,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1,
+			2,
+			3,
+			4,
+			5
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				150
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56215] = {
+		name = "Prepped and Ready!",
+		guild_coin_award = 0,
+		award = 98565,
+		type = 6,
+		desc = "Use Synthesis to create all 5 gathering tools using recipes.",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56215,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1,
+			2,
+			3,
+			4,
+			5
+		},
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				1,
+				287,
+				150
+			},
+			{
+				1,
+				286,
+				200
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56216] = {
+		name = "Synthesis Sensation",
+		guild_coin_award = 0,
+		award = 98566,
+		type = 6,
+		desc = "Successfully carry out Synthesis a total of 10 times.",
+		count_inherit = 0,
+		sub_type = 9001,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56216,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1,
+				287,
+				300
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				286,
+				300
+			}
+		},
+		scene = {
+			"ATELIER_COMPOSITE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56217] = {
+		name = "Crazy for Crystal Clusters",
+		guild_coin_award = 0,
+		award = 98567,
+		type = 6,
+		desc = "Collect a total of 10,000 Crystal Clusters.",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50051",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "luzi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "523",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56217,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				32,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56218] = {
+		name = "I Came, I Built, I Bathed!",
+		guild_coin_award = 0,
+		award = 98568,
+		type = 6,
+		desc = "Complete Operation Hot Spring Day 7.",
+		count_inherit = 0,
+		sub_type = 63,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "luzi",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "95128",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 56218,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				33,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		},
+		scene = {
+			"RYZA_URBAN_AREA"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56219] = {
+		name = "Philuscha Fighter I",
+		guild_coin_award = 0,
+		award = 98569,
+		type = 6,
+		desc = "Sink a total of 50 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56219,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56220] = {
+		name = "Philuscha Fighter II",
+		guild_coin_award = 0,
+		award = 98570,
+		type = 6,
+		desc = "Sink a total of 100 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56220,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95119,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56221] = {
+		name = "Philuscha Fighter III",
+		guild_coin_award = 0,
+		award = 98571,
+		type = 6,
+		desc = "Sink a total of 150 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56221,
+		target_num = 150,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				200
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				5
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56222] = {
+		name = "Philuscha Fighter IV",
+		guild_coin_award = 0,
+		award = 98572,
+		type = 6,
+		desc = "Sink a total of 200 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56222,
+		target_num = 200,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95115,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56223] = {
+		name = "Philuscha Fighter V",
+		guild_coin_award = 0,
+		award = 98573,
+		type = 6,
+		desc = "Sink a total of 250 Philuscha-class mass-produced ships in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56223,
+		target_num = 250,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16300001,
+			16300002,
+			16300003,
+			16300004,
+			16300005,
+			16300006,
+			16300007,
+			16301001,
+			16301002,
+			16301003,
+			16301004,
+			16301005,
+			16301006,
+			16301007,
+			16302001,
+			16302002,
+			16302003,
+			16302004,
+			16302005,
+			16302006,
+			16302007,
+			16303001,
+			16303002,
+			16303003,
+			16303004,
+			16303005,
+			16303006,
+			16303007,
+			16304001,
+			16304002,
+			16304003,
+			16304004,
+			16304005,
+			16304006,
+			16304007,
+			16305001,
+			16305002,
+			16305003,
+			16305004,
+			16305005,
+			16305006,
+			16305007
+		},
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				47,
+				1
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56224] = {
+		name = "Enforcer Eliminator I",
+		guild_coin_award = 0,
+		award = 98574,
+		type = 6,
+		desc = "Sink a total of 15 humanoid Sirens in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56224,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				1,
+				286,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56225] = {
+		name = "Enforcer Eliminator II",
+		guild_coin_award = 0,
+		award = 98575,
+		type = 6,
+		desc = "Sink a total of 30 humanoid Sirens in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56225,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1690301,
+			1691301,
+			1691302,
+			1692301,
+			1692302,
+			1693301,
+			1693302,
+			1693303,
+			1693321,
+			1693322,
+			1693323,
+			1694301,
+			1694302,
+			1695301,
+			1695302,
+			1696301,
+			1696302,
+			1697301,
+			1697302,
+			1698301,
+			1698302,
+			1699301,
+			1699302
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95131,
+				1
+			},
+			{
+				1001,
+				21,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				200
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56226] = {
+		name = "Guardian Gravedigger",
+		guild_coin_award = 0,
+		award = 98576,
+		type = 6,
+		desc = "Sink a total of 10 Ancient Ruins Guardian Prototypes in The Alchemist and the Archipelago of Secrets event stages.",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 2,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "attack",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56226,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16304306
+		},
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95132,
+				1
+			},
+			{
+				1001,
+				26,
+				1
+			},
+			{
+				2,
+				15016,
+				10
+			},
+			{
+				1,
+				286,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56227] = {
+		name = "The Lightning General",
+		guild_coin_award = 0,
+		award = 98577,
+		type = 6,
+		desc = "I've heard word of an ore with the power of lightning. I'd like to test their capabilities. \nMaterials required: Lightning Ore x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "15",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "wuzang",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56227,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				57,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56228] = {
+		name = "Lean Sardine Cuisine",
+		guild_coin_award = 0,
+		award = 98578,
+		type = 6,
+		desc = "So, I'm throwing a barbeque party and could use a few sardines! \nMaterials required: Sardine x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "7",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiyatu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56228,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				56,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56229] = {
+		name = "Crackle and Pop",
+		guild_coin_award = 0,
+		award = 98579,
+		type = 6,
+		desc = "If Magma Powder really heats up on its own, I could use it to make the world's best fireworks! Find me one, please! \nMaterials required: Magma Powder x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "11",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "fushun",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56229,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				58,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56230] = {
+		name = "All That Glimmers...",
+		guild_coin_award = 0,
+		award = 98580,
+		type = 6,
+		desc = "Sparkly crystals... Pretty. Want those... \nMaterials required: Small Crystals x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "9",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aierdeliqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56230,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				52,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56231] = {
+		name = "Birds of Soil",
+		guild_coin_award = 0,
+		award = 98581,
+		type = 6,
+		desc = "Those plants with wing-like leaves look so pretty... Could you please gather some for my greenhouse? \nMaterials required: Wing Plant x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "13",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "huayue",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56231,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				53,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56232] = {
+		name = "I Have the Power",
+		guild_coin_award = 0,
+		award = 98582,
+		type = 6,
+		desc = "Apparently, those cores are what power the Guardian... I want one to examine thoroughly. \nMaterials required: Strange Energy Core x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "20",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "yinggelahan",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56232,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				54,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56233] = {
+		name = "Shelling Out",
+		guild_coin_award = 0,
+		award = 98583,
+		type = 6,
+		desc = "Bel is working on a new seafood recipe and asked me to get some shells. Don't tell her about this request, please. \nMaterials required: Pourpremoule x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "6",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "aidingbao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56233,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1001,
+				55,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56234] = {
+		name = "It's Gonna Be Lit",
+		guild_coin_award = 0,
+		award = 98584,
+		type = 6,
+		desc = "Go out there and collect some of that combustible sand! What do I need it for, you wonder? You'll see~ Teehee♪ \nMaterials required: Burning Sand x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "10",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "daqinghuayu",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56234,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95113,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56235] = {
+		name = "Bloody Beautiful",
+		guild_coin_award = 0,
+		award = 98585,
+		type = 6,
+		desc = "I want one of those blood-coloured flowers for use as a hair ornament♪ \nMaterials required: Blood Taun x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "14",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xixuegui",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56235,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56236] = {
+		name = "Deal Ore No Deal?",
+		guild_coin_award = 0,
+		award = 98586,
+		type = 6,
+		desc = "Those crystal ores found in the Central Foundation sound like good money, nya. Please go get some for me, nya! \nMaterials required: Strange Crystal Ore x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "18",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56236,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				9,
+				1218,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56237] = {
+		name = "Like Shooting Stars",
+		guild_coin_award = 0,
+		award = 98587,
+		type = 6,
+		desc = "Those fragments from a distant sky possess a curious power... This one seeks to learn their applications... \nMaterials required: Star Fragment x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "16",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xinnong",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56237,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56238] = {
+		name = "A Fishy Dish",
+		guild_coin_award = 0,
+		award = 98588,
+		type = 6,
+		desc = "A premium fish like the Lake Master would be brilliant in a stargazy pie. Get me one, and ya can have a slice after the pie's done! \nMaterials required: Lake Master x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "8",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "manchesite",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56238,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95108,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56239] = {
+		name = "The Grass With No Name",
+		guild_coin_award = 0,
+		award = 98589,
+		type = 6,
+		desc = "I require some Nameless Grass to use in a ninja training exercise I have planned. \nMaterials required: Nameless Grass x 5",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "12",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "xiao",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56239,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56240] = {
+		name = "Harder and Stronger",
+		guild_coin_award = 0,
+		award = 98590,
+		type = 6,
+		desc = "I'll need a few of those Siren armor plates to make our training ground targets more durable. Mind getting me some? \nMaterials required: Strange Armor Plate x 3",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "19",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "qianwei",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56240,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95140,
+				1
+			},
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56241] = {
+		name = "Septrin for my Scepter",
+		guild_coin_award = 0,
+		award = 98591,
+		type = 6,
+		desc = "Septrin is quite the interesting gemstone. I'd appreciate if you could bring one back the next time you venture out. \nMaterials required: Septrin x 1",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "17",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 3,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "makeboluo",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56241,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				95144,
+				1
+			},
+			{
+				2,
+				30341,
+				1
+			},
+			{
+				2,
+				15016,
+				4
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56242] = {
+		name = "Spirit Bottles, Not Bottled Spirits!",
+		guild_coin_award = 0,
+		award = 98592,
+		type = 16,
+		desc = "Get me as many Spirit Bottles as you can! P.S. Teach is busy with her work, so I (Alfredo) am making this request on her behalf! \nMaterials required: Spirit Bottle x 10",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "21",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "dafenqi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56242,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56243] = {
+		name = "Red Neutralizer Research",
+		guild_coin_award = 0,
+		award = 98593,
+		type = 16,
+		desc = "I need a lot of neutralizers to do some science, nya! Bring as many as you can, nya! \nMaterials required: Red Neutralizer x 6",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "22",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56243,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56244] = {
+		name = "Blue Neutralizer Research",
+		guild_coin_award = 0,
+		award = 98594,
+		type = 16,
+		desc = "I need a lot of neutralizers to do some science, nya! Bring as many as you can, nya! \nMaterials required: Blue Neutralizer x 6",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "23",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56244,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56245] = {
+		name = "Yellow Neutralizer Research",
+		guild_coin_award = 0,
+		award = 98595,
+		type = 16,
+		desc = "I need a lot of neutralizers to do some science, nya! Bring as many as you can, nya! \nMaterials required: Yellow Neutralizer x 6",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "24",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56245,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56246] = {
+		name = "Green Neutralizer Research",
+		guild_coin_award = 0,
+		award = 98596,
+		type = 16,
+		desc = "I need a lot of neutralizers to do some science, nya! Bring as many as you can, nya! \nMaterials required: Green Neutralizer x 6",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "25",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "mingshi",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56246,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				100
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[56247] = {
+		name = "Crystal Element Research",
+		guild_coin_award = 0,
+		award = 98597,
+		type = 16,
+		desc = "Hehehe... I'll need lots and lots of Crystal Elements to analyze and figure out how they work... \nMaterials required: Crystal Element x 4",
+		count_inherit = 0,
+		sub_type = 1006,
+		target_id_2 = "26",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 4,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "tuolichaili",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1001",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 56247,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				287,
+				120
+			},
+			{
+				1,
+				286,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[60011] = {
 		name = "Prerequisite for Developing Neptune",
 		guild_coin_award = 0,
@@ -352423,6 +369484,672 @@ end)()
 				2,
 				18033,
 				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500141] = {
+		name = "When the Grapes Ripen",
+		guild_coin_award = 0,
+		award = 500141,
+		type = 5,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed).",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500142",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "DUNKEERKE1",
+		tutorial_handbook_pic = "",
+		id = 500141,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500142] = {
+		name = "Taste of the Times",
+		guild_coin_award = 0,
+		award = 500142,
+		type = 5,
+		desc = "Enhance any character 10 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE2",
+		ryza_icon = "",
+		next_task = "500143",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500142,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500143] = {
+		name = "Brewing a Sweet Moment",
+		guild_coin_award = 0,
+		award = 500143,
+		type = 5,
+		desc = "Sortie and obtain 20 victories with Dunkerque in the fleet.",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE3",
+		ryza_icon = "",
+		next_task = "500144",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500143,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500144] = {
+		name = "The Secret to Tenderness",
+		guild_coin_award = 0,
+		award = 500144,
+		type = 5,
+		desc = "Spend a total of 500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE4",
+		ryza_icon = "",
+		next_task = "500145",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500144,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500145] = {
+		name = "Team Effort",
+		guild_coin_award = 0,
+		award = 500145,
+		type = 5,
+		desc = "Reach 100 Affinity with Dunkerque.",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE5",
+		ryza_icon = "",
+		next_task = "500146",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500145,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500146] = {
+		name = "Flavor in Harmony",
+		guild_coin_award = 0,
+		award = 500146,
+		type = 5,
+		desc = "Fully Limit Break Dunkerque.",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE6",
+		ryza_icon = "",
+		next_task = "500147",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500146,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500147] = {
+		name = "One Tipsy Night",
+		guild_coin_award = 0,
+		award = 500147,
+		type = 5,
+		desc = "Get Dunkerque to Level 100.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "dunkeerke",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DUNKEERKE7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90401",
+		tutorial_handbook_pic = "",
+		id = 500147,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500151] = {
+		name = "Dancing Fingers",
+		guild_coin_award = 0,
+		award = 500151,
+		type = 5,
+		desc = "Acquire 3 \"Torpedo Tempura\" (will be automatically consumed).",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500152",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "HUAJIAN1",
+		tutorial_handbook_pic = "",
+		id = 500151,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500152] = {
+		name = "Secret Sanctuary",
+		guild_coin_award = 0,
+		award = 500152,
+		type = 5,
+		desc = "Enhance any character 10 times.",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN2",
+		ryza_icon = "",
+		next_task = "500153",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500152,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500153] = {
+		name = "A Floral Stage",
+		guild_coin_award = 0,
+		award = 500153,
+		type = 5,
+		desc = "Sortie and obtain 20 victories with Fleuret in the fleet.",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN3",
+		ryza_icon = "",
+		next_task = "500154",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90105",
+		tutorial_handbook_pic = "",
+		id = 500153,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500154] = {
+		name = "Precise Positioning",
+		guild_coin_award = 0,
+		award = 500154,
+		type = 5,
+		desc = "Spend a total of 500 Oil.",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN4",
+		ryza_icon = "",
+		next_task = "500155",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500154,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500155] = {
+		name = "Alone in a Black Box",
+		guild_coin_award = 0,
+		award = 500155,
+		type = 5,
+		desc = "Reach 100 Affinity with Fleuret.",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN5",
+		ryza_icon = "",
+		next_task = "500156",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90105",
+		tutorial_handbook_pic = "",
+		id = 500155,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500156] = {
+		name = "Pierced Through the Heart",
+		guild_coin_award = 0,
+		award = 500156,
+		type = 5,
+		desc = "Fully Limit Break Fleuret.",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN6",
+		ryza_icon = "",
+		next_task = "500157",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90105",
+		tutorial_handbook_pic = "",
+		id = 500156,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500157] = {
+		name = "Swords, Flowers, and You",
+		guild_coin_award = 0,
+		award = 500157,
+		type = 5,
+		desc = "Get Fleuret to Level 100.",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "huajian",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "HUAJIAN7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "90105",
+		tutorial_handbook_pic = "",
+		id = 500157,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18002,
+				2
 			}
 		}
 	}

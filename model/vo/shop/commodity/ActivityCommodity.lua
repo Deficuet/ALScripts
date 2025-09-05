@@ -65,8 +65,6 @@ local function var_0_1(arg_4_0, arg_4_1)
 		local var_4_1 = var_4_0:getMetaCharacter():getSpecialMaterialInfoToMaxStar()
 		local var_4_2 = getProxy(BagProxy):getItemCountById(var_4_1.itemID)
 
-		print(var_4_1, var_4_2)
-
 		return math.max(var_4_1.count - var_4_2, 0)
 	else
 		return arg_4_0:getConfig("num_limit") - arg_4_0.buyCount

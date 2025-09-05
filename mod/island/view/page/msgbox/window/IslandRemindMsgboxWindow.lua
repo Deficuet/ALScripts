@@ -9,7 +9,7 @@ function var_0_0.OnLoaded(arg_2_0)
 
 	arg_2_0.remindToggle = arg_2_0:findTF("remind")
 
-	setText(arg_2_0:findTF("remind/Text"), i18n1("今日不再提醒"))
+	setText(arg_2_0:findTF("remind/Text"), i18n("island_no_remind_today"))
 end
 
 function var_0_0.OnInit(arg_3_0)

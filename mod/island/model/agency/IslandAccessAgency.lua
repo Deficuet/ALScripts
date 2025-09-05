@@ -1,76 +1,136 @@
 local var_0_0 = class("IslandAccessAgency", import(".IslandBaseAgency"))
 
 function var_0_0.OnInit(arg_1_0, arg_1_1)
-	arg_1_0.accessType = arg_1_1.open_flag or IslandConst.ACCESS_TYPE_OPEN
 	arg_1_0.whiteList = {}
-
-	for iter_1_0, iter_1_1 in ipairs(arg_1_1.white_list) do
-		table.insert(arg_1_0.whiteList, iter_1_1)
-	end
-
 	arg_1_0.blackList = {}
-
-	for iter_1_2, iter_1_3 in ipairs(arg_1_1.black_list) do
-		table.insert(arg_1_0.blackList, iter_1_3)
-	end
-
 	arg_1_0.visitorList = {}
+	arg_1_0.inviteCode = ""
+	arg_1_0.freshInviteCodeFlag = 0
+	arg_1_0.openFlag = {}
 
-	for iter_1_4, iter_1_5 in ipairs(arg_1_1.visitor_history) do
-		table.insert(arg_1_0.visitorList, iter_1_5)
+	for iter_1_0, iter_1_1 in ipairs(arg_1_1.flag_list) do
+		table.insert(arg_1_0.openFlag, iter_1_1)
 	end
 end
 
-function var_0_0.SetWhiteList(arg_2_0, arg_2_1)
-	arg_2_0.whiteList = arg_2_1
-end
+function var_0_0.InitPrivateData(arg_2_0, arg_2_1)
+	arg_2_0.inviteCode = arg_2_1.invite_code
 
-function var_0_0.GetWhiteList(arg_3_0)
-	return arg_3_0.whiteList
-end
+	for iter_2_0, iter_2_1 in ipairs(arg_2_1.white_list or {}) do
+		table.insert(arg_2_0.whiteList, iter_2_1)
+	end
 
-function var_0_0.SetBlackList(arg_4_0, arg_4_1)
-	arg_4_0.blackList = arg_4_1
-end
+	for iter_2_2, iter_2_3 in ipairs(arg_2_1.black_list or {}) do
+		table.insert(arg_2_0.blackList, iter_2_3)
+	end
 
-function var_0_0.AddBlackList(arg_5_0, arg_5_1)
-	for iter_5_0, iter_5_1 in ipairs(arg_5_1) do
-		if not arg_5_0:InBlackList(iter_5_1) then
-			table.insert(arg_5_0.blackList, iter_5_1)
+	for iter_2_4, iter_2_5 in ipairs(arg_2_1.visitor_history or {}) do
+		table.insert(arg_2_0.visitorList, IslandVisitorLog.New(iter_2_5))
+	end
+
+	for iter_2_6, iter_2_7 in ipairs(arg_2_1.daily_list) do
+		if iter_2_7.key == IslandConst.DL_INVITE_CODE_FLAG then
+			arg_2_0.freshInviteCodeFlag = iter_2_7.value
 		end
 	end
 end
 
-function var_0_0.CanAccess(arg_6_0, arg_6_1)
-	if arg_6_0:InWhiteList(arg_6_1) then
-		return true
+function var_0_0.GetVisitorLogList(arg_3_0)
+	return arg_3_0.visitorList
+end
+
+function var_0_0.AddVisitorLog(arg_4_0, arg_4_1)
+	table.insert(arg_4_0.visitorList, arg_4_1)
+end
+
+function var_0_0.isFreshInviteCode(arg_5_0)
+	return arg_5_0.freshInviteCodeFlag == 1
+end
+
+function var_0_0.MarkFreshInviteCodeFlag(arg_6_0)
+	arg_6_0.freshInviteCodeFlag = 1
+end
+
+function var_0_0.ResetFreshInviteCodeFlag(arg_7_0)
+	arg_7_0.freshInviteCodeFlag = 0
+end
+
+function var_0_0.GetInviteCode(arg_8_0)
+	return arg_8_0.inviteCode
+end
+
+function var_0_0.SetInviteCode(arg_9_0, arg_9_1)
+	arg_9_0.inviteCode = arg_9_1
+end
+
+function var_0_0.GetOpenFlag(arg_10_0)
+	local var_10_0 = {}
+
+	for iter_10_0, iter_10_1 in ipairs(arg_10_0.openFlag) do
+		table.insert(var_10_0, iter_10_1)
 	end
 
-	if arg_6_0:InBlackList(arg_6_1) then
-		return false
+	return var_10_0
+end
+
+function var_0_0.HasOpenFlag(arg_11_0, arg_11_1)
+	return table.contains(arg_11_0.openFlag, arg_11_1)
+end
+
+function var_0_0.AddOpenFlag(arg_12_0, arg_12_1)
+	if arg_12_0:HasOpenFlag(arg_12_1) then
+		return
 	end
 
-	return arg_6_0:IsOpenAccess()
+	table.insert(arg_12_0.openFlag, arg_12_1)
 end
 
-function var_0_0.IsOpenAccess(arg_7_0)
-	return arg_7_0:GetAccessType() == IslandConst.ACCESS_TYPE_OPEN
+function var_0_0.RemoveOpenFlag(arg_13_0, arg_13_1)
+	if not arg_13_0:HasOpenFlag(arg_13_1) then
+		return
+	end
+
+	table.removebyvalue(arg_13_0.openFlag, arg_13_1)
 end
 
-function var_0_0.InWhiteList(arg_8_0, arg_8_1)
-	return table.contains(arg_8_0.whiteList, arg_8_1)
+function var_0_0.SetWhiteList(arg_14_0, arg_14_1)
+	arg_14_0.whiteList = {}
+
+	for iter_14_0, iter_14_1 in ipairs(arg_14_1) do
+		table.insert(arg_14_0.whiteList, iter_14_1)
+	end
 end
 
-function var_0_0.InBlackList(arg_9_0, arg_9_1)
-	return table.contains(arg_9_0.blackList, arg_9_1)
+function var_0_0.GetWhiteList(arg_15_0)
+	return arg_15_0.whiteList
 end
 
-function var_0_0.GetAccessType(arg_10_0)
-	return arg_10_0.accessType
+function var_0_0.SetBlackList(arg_16_0, arg_16_1)
+	arg_16_0.blackList = {}
+
+	for iter_16_0, iter_16_1 in ipairs(arg_16_1) do
+		table.insert(arg_16_0.blackList, iter_16_1)
+	end
 end
 
-function var_0_0.SetAccessType(arg_11_0, arg_11_1)
-	arg_11_0.accessType = arg_11_1
+function var_0_0.GetBlackList(arg_17_0)
+	return arg_17_0.blackList
+end
+
+function var_0_0.AddBlackList(arg_18_0, arg_18_1)
+	for iter_18_0, iter_18_1 in ipairs(arg_18_1) do
+		if not arg_18_0:InBlackList(iter_18_1) then
+			table.insert(arg_18_0.blackList, iter_18_1)
+		end
+	end
+end
+
+function var_0_0.InWhiteList(arg_19_0, arg_19_1)
+	return table.contains(arg_19_0.whiteList, arg_19_1)
+end
+
+function var_0_0.InBlackList(arg_20_0, arg_20_1)
+	return table.contains(arg_20_0.blackList, arg_20_1)
 end
 
 return var_0_0

@@ -30,75 +30,76 @@ local function var_0_1(arg_3_0, arg_3_1, arg_3_2)
 end
 
 function var_0_0.isActivate(arg_4_0)
-	local var_4_0 = false
-	local var_4_1 = getProxy(ActivityProxy):getActivityById(arg_4_0.activityId)
+	local var_4_0 = getProxy(ActivityProxy)
 
-	if var_4_1 and not var_4_1:isEnd() then
-		if var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUFF then
-			if arg_4_0:RookieBattleExpUsage() then
-				if getProxy(PlayerProxy):getRawData().level < arg_4_0:GetRookieBattleExpMaxLevel() then
-					var_4_0 = true
-				end
-			elseif arg_4_0:isAddedBuff() then
-				var_4_0 = true
+	if not var_4_0:IsActivityNotEnd(arg_4_0.activityId) then
+		return false
+	end
+
+	local var_4_1 = var_4_0:getActivityById(arg_4_0.activityId)
+
+	if var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF and not ActivityPtData.New(var_4_1):isInBuffTime() then
+		return false
+	end
+
+	local var_4_2 = noEmptyStr(arg_4_0:getConfig("benefit_condition"))
+
+	if not var_4_2 then
+		return true
+	end
+
+	return switch(var_4_2[1], {
+		pt = function()
+			local var_5_0, var_5_1, var_5_2, var_5_3 = unpack(var_4_2)
+			local var_5_4 = pg.player_resource[var_5_1].name
+			local var_5_5 = getProxy(PlayerProxy):getData()[var_5_4] or 0
+
+			return var_5_2 <= var_5_5 and var_5_5 < var_5_3
+		end,
+		lv = function()
+			local var_6_0 = getProxy(PlayerProxy):getRawData()
+
+			return var_0_1(var_6_0.level, var_4_2[2], var_4_2[3])
+		end,
+		activity = function()
+			if not var_4_0:IsActivityNotEnd(var_4_2[2]) then
+				return false
 			end
-		else
-			var_4_0 = (function()
-				local var_5_0 = arg_4_0:getConfig("benefit_condition")
 
-				if var_5_0[1] == "lv" then
-					local var_5_1 = getProxy(PlayerProxy):getRawData()
-
-					return var_0_1(var_5_1.level, var_5_0[2], var_5_0[3])
-				elseif var_5_0[1] == "activity" then
-					if var_5_0[3] == 0 then
-						return true
-					end
-
-					if var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
-						local var_5_2 = var_5_0[3][1]
-
-						return (var_4_1.data1KeyValueList[2][var_5_2] or 1) == var_5_0[3][2]
-					end
-				end
-
-				if var_5_0 == "" then
+			if var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF or var_4_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
+				if var_4_2[3] ~= 0 then
 					return true
 				end
-			end)() or false
-		end
-	end
 
-	return var_4_0
-end
+				local var_7_0 = var_4_2[3][1]
 
-function var_0_0.getLeftTime(arg_6_0)
-	local var_6_0 = pg.TimeMgr.GetInstance():GetServerTime()
-
-	return getProxy(ActivityProxy):getActivityById(arg_6_0.activityId).stopTime - var_6_0
-end
-
-function var_0_0.isAddedBuff(arg_7_0)
-	local var_7_0 = true
-	local var_7_1 = getProxy(ActivityProxy):getActivityById(arg_7_0.activityId)
-
-	if var_7_1 and not var_7_1:isEnd() then
-		local var_7_2 = arg_7_0:getConfig("benefit_condition")
-
-		if var_7_2[1] == "pt" then
-			local var_7_3 = var_7_2[2]
-			local var_7_4 = var_7_2[3]
-			local var_7_5 = var_7_2[4]
-			local var_7_6 = pg.player_resource[var_7_3].name
-			local var_7_7 = getProxy(PlayerProxy):getData()[var_7_6] or 0
-
-			if not (var_7_4 <= var_7_7) or not (var_7_7 < var_7_5) then
-				var_7_0 = false
+				return (var_4_1.data1KeyValueList[2][var_7_0] or 1) == var_4_2[3][2]
 			end
-		end
-	end
 
-	return var_7_0
+			return true
+		end,
+		chapter = function(arg_8_0)
+			return true
+		end
+	}, function()
+		return false
+	end)
+end
+
+function var_0_0.checkChaper(arg_10_0, arg_10_1)
+	local var_10_0 = noEmptyStr(arg_10_0:getConfig("benefit_condition"))
+
+	if not var_10_0 or var_10_0[1] ~= "chapter" then
+		return true
+	else
+		return table.contains(var_10_0[2], arg_10_1)
+	end
+end
+
+function var_0_0.getLeftTime(arg_11_0)
+	local var_11_0 = pg.TimeMgr.GetInstance():GetServerTime()
+
+	return getProxy(ActivityProxy):getActivityById(arg_11_0.activityId).stopTime - var_11_0
 end
 
 return var_0_0

@@ -394,7 +394,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[39904] = {
 		ship_group = 39904,
-		name = "AzumaB65",
+		name = "",
 		background = "",
 		sculpture = "wuqi",
 		nationality = 0,
@@ -453,7 +453,7 @@ pg.activity_ins_ship_group_template = {
 		name = "gateaumistress",
 		background = "",
 		sculpture = "dunkeerke",
-		nationality = 0,
+		nationality = 9,
 		type = 1
 	},
 	[10707] = {
@@ -581,7 +581,7 @@ pg.activity_ins_ship_group_template = {
 		name = "EssexG1",
 		background = "",
 		sculpture = "aisaikesi",
-		nationality = 0,
+		nationality = 1,
 		type = 1
 	},
 	[10601] = {
@@ -3893,7 +3893,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Fleuret",
 		background = "",
 		sculpture = "huajian",
-		nationality = 0,
+		nationality = 9,
 		type = 1
 	},
 	[90106] = {
@@ -4688,6 +4688,94 @@ pg.activity_ins_ship_group_template = {
 		nationality = 4,
 		type = 1
 	},
+	[1130001] = {
+		ship_group = 1130001,
+		name = "Yumia Liessfeldt",
+		background = "",
+		sculpture = "youmiya",
+		nationality = 0,
+		type = 1
+	},
+	[1130002] = {
+		ship_group = 1130002,
+		name = "Isla von Duerer",
+		background = "",
+		sculpture = "aila",
+		nationality = 0,
+		type = 1
+	},
+	[1130003] = {
+		ship_group = 1130003,
+		name = "Nina Friede",
+		background = "",
+		sculpture = "nina",
+		nationality = 0,
+		type = 1
+	},
+	[1130004] = {
+		ship_group = 1130004,
+		name = "Lenja",
+		background = "",
+		sculpture = "leiniya",
+		nationality = 0,
+		type = 1
+	},
+	[301541] = {
+		ship_group = 301541,
+		name = "Kiyonami",
+		background = "",
+		sculpture = "qingbo",
+		nationality = 0,
+		type = 1
+	},
+	[80401] = {
+		ship_group = 80401,
+		name = "Masséna",
+		background = "",
+		sculpture = "masaina",
+		nationality = 8,
+		type = 1
+	},
+	[80601] = {
+		ship_group = 80601,
+		name = "Bois Belleau",
+		background = "",
+		sculpture = "beilaosenlin",
+		nationality = 8,
+		type = 1
+	},
+	[80105] = {
+		ship_group = 80105,
+		name = "Le hardi",
+		background = "",
+		sculpture = "dadan",
+		nationality = 8,
+		type = 1
+	},
+	[80303] = {
+		ship_group = 80303,
+		name = "Duquesne ",
+		background = "",
+		sculpture = "dikaina",
+		nationality = 8,
+		type = 1
+	},
+	[80204] = {
+		ship_group = 80204,
+		name = "Duguay-Trouin ",
+		background = "",
+		sculpture = "digaiteluyin",
+		nationality = 8,
+		type = 1
+	},
+	[900939] = {
+		ship_group = 900939,
+		name = "Kansas",
+		background = "",
+		sculpture = "kansasi",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5274,6 +5362,17 @@ pg.activity_ins_ship_group_template = {
 		30149,
 		40407,
 		40814,
-		40113
+		40113,
+		1130001,
+		1130002,
+		1130003,
+		1130004,
+		301541,
+		80401,
+		80601,
+		80105,
+		80303,
+		80204,
+		900939
 	}
 }

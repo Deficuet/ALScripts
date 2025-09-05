@@ -617,7 +617,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "??? - Unknown sea",
+			actorName = "Cleopatra",
 			say = "It's white muscular tissue... with some blue metal affixed to it?",
 			typewriter = {
 				speed = 0.05,
@@ -656,7 +656,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "??? - Unknown sea",
+			actorName = "Cleopatra",
 			say = "What could it be? Is this part of a biological weapon?",
 			typewriter = {
 				speed = 0.05,

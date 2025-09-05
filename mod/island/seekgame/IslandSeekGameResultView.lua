@@ -1,15 +1,54 @@
 local var_0_0 = class("IslandSeekGameResultView", import("Mod.Island.Core.View.IslandBaseSubView"))
 
-function var_0_0.GetUIName(arg_1_0)
-	return "IslandSeekGameUI"
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
+	var_0_0.super.Ctor(arg_1_0, arg_1_1)
+
+	arg_1_0.uiName = arg_1_2
 end
 
-function var_0_0.FirstFlush(arg_2_0)
-	arg_2_0:Hide()
-	onButton(arg_2_0, arg_2_0._tf, function()
-		arg_2_0:GetView():RestartGame()
-		arg_2_0:Hide()
+function var_0_0.GetUIName(arg_2_0)
+	return arg_2_0.uiName
+end
+
+function var_0_0.FirstFlush(arg_3_0)
+	arg_3_0:Hide()
+
+	arg_3_0.animation = arg_3_0._tf:GetComponent(typeof(Animation))
+
+	local var_3_0 = arg_3_0._tf:GetComponent(typeof(DftAniEvent))
+
+	setText(arg_3_0._tf:Find("Text"), i18n("island_seek_game_tip"))
+	onButton(arg_3_0, arg_3_0._tf, function()
+		if arg_3_0.clickableTime and arg_3_0.clickableTime > pg.TimeMgr.GetInstance():GetServerTime() then
+			return
+		end
+
+		if arg_3_0.playAnimation then
+			return
+		end
+
+		arg_3_0.playAnimation = true
+
+		arg_3_0:GetView():RestartGame()
+		arg_3_0.animation:Play("anim_IslandSeekGameUI_out")
 	end, SFX_PANEL)
+	var_3_0:SetEndEvent(function(arg_5_0)
+		arg_3_0:Hide()
+
+		arg_3_0.playAnimation = false
+	end)
+
+	arg_3_0.aniDft = var_3_0
+end
+
+function var_0_0.Flush(arg_6_0)
+	arg_6_0.clickableTime = pg.island_set.seek_game_reset_cd.key_value_int + pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+function var_0_0.OnDestroy(arg_7_0)
+	if arg_7_0.aniDft then
+		arg_7_0.aniDft:SetEndEvent(nil)
+	end
 end
 
 return var_0_0

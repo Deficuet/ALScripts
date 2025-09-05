@@ -351,6 +351,10 @@ pg.dorm3d_camera_zone_template = {
 			{
 				251,
 				120303
+			},
+			{
+				223,
+				120303
 			}
 		},
 		anim_speeds = {
@@ -547,6 +551,10 @@ pg.dorm3d_camera_zone_template = {
 		special_furniture = {
 			{
 				303,
+				120303
+			},
+			{
+				323,
 				120303
 			}
 		},
@@ -935,6 +943,10 @@ pg.dorm3d_camera_zone_template = {
 			},
 			{
 				1151,
+				1110303
+			},
+			{
+				1152,
 				1110303
 			}
 		},

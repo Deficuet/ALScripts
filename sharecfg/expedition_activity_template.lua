@@ -1,5 +1,155 @@
 pg = pg or {}
 pg.expedition_activity_template = {
+	[2000] = {
+		id = 2000,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2001] = {
+		id = 2001,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2002] = {
+		id = 2002,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2003] = {
+		id = 2003,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2004] = {
+		id = 2004,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2005] = {
+		id = 2005,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2006] = {
+		id = 2006,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2007] = {
+		id = 2007,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2008] = {
+		id = 2008,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2009] = {
+		id = 2009,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2010] = {
+		id = 2010,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[2011] = {
+		id = 2011,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[3000] = {
+		id = 3000,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[3001] = {
+		id = 3001,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[3002] = {
+		id = 3002,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[3003] = {
+		id = 3003,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[3004] = {
+		id = 3004,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[3005] = {
+		id = 3005,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[4000] = {
+		id = 4000,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[4001] = {
+		id = 4001,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[4002] = {
+		id = 4002,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[4003] = {
+		id = 4003,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[4004] = {
+		id = 4004,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[4005] = {
+		id = 4005,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[6000] = {
+		id = 6000,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[6001] = {
+		id = 6001,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[6002] = {
+		id = 6002,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[6003] = {
+		id = 6003,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[6004] = {
+		id = 6004,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
+	[6005] = {
+		id = 6005,
+		pt_drop_display = "",
+		bonus_time = 0
+	},
 	[5009] = {
 		id = 5009,
 		pt_drop_display = "",
@@ -6029,8 +6179,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				30
 			}
 		}
 	},
@@ -6039,8 +6190,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				60
 			}
 		}
 	},
@@ -6049,8 +6201,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				90
 			}
 		}
 	},
@@ -6059,8 +6212,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				120
 			}
 		}
 	},
@@ -6069,8 +6223,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				100
 			}
 		}
 	},
@@ -6079,8 +6234,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				180
 			}
 		}
 	},
@@ -6089,8 +6245,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				180
 			}
 		}
 	},
@@ -6099,8 +6256,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				800
 			}
 		}
 	},
@@ -6109,8 +6267,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				180
 			}
 		}
 	},
@@ -6119,8 +6278,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				180
 			}
 		}
 	},
@@ -6129,8 +6289,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				180
 			}
 		}
 	},
@@ -6139,8 +6300,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4580,
-				287
+				50042,
+				523,
+				180
 			}
 		}
 	},
@@ -8734,6 +8896,270 @@ pg.expedition_activity_template = {
 		pt_drop_display = "",
 		bonus_time = 0
 	},
+	[1940013] = {
+		id = 1940013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				30
+			}
+		}
+	},
+	[1941013] = {
+		id = 1941013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				60
+			}
+		}
+	},
+	[1942013] = {
+		id = 1942013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				90
+			}
+		}
+	},
+	[1943013] = {
+		id = 1943013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				120
+			}
+		}
+	},
+	[1944013] = {
+		id = 1944013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				180
+			}
+		}
+	},
+	[1945013] = {
+		id = 1945013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				800
+			}
+		}
+	},
+	[1944101] = {
+		id = 1944101,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				180
+			}
+		}
+	},
+	[1944102] = {
+		id = 1944102,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				180
+			}
+		}
+	},
+	[1944103] = {
+		id = 1944103,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				180
+			}
+		}
+	},
+	[1944104] = {
+		id = 1944104,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				180
+			}
+		}
+	},
+	[1944105] = {
+		id = 1944105,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50054,
+				528,
+				180
+			}
+		}
+	},
+	[1950013] = {
+		id = 1950013,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50081,
+				534,
+				30
+			}
+		}
+	},
+	[1950113] = {
+		id = 1950113,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50081,
+				534,
+				40
+			}
+		}
+	},
+	[1950213] = {
+		id = 1950213,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50081,
+				534,
+				50
+			}
+		}
+	},
+	[1951013] = {
+		id = 1951013,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50082,
+				534,
+				60
+			}
+		}
+	},
+	[1951113] = {
+		id = 1951113,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50082,
+				534,
+				70
+			}
+		}
+	},
+	[1951213] = {
+		id = 1951213,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50082,
+				534,
+				80
+			}
+		}
+	},
+	[1952013] = {
+		id = 1952013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50081,
+				534,
+				90
+			}
+		}
+	},
+	[1952113] = {
+		id = 1952113,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50081,
+				534,
+				100
+			}
+		}
+	},
+	[1952213] = {
+		id = 1952213,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50081,
+				534,
+				110
+			}
+		}
+	},
+	[1953013] = {
+		id = 1953013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50082,
+				534,
+				120
+			}
+		}
+	},
+	[1953113] = {
+		id = 1953113,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50082,
+				534,
+				150
+			}
+		}
+	},
+	[1953213] = {
+		id = 1953213,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50082,
+				534,
+				180
+			}
+		}
+	},
+	[1954013] = {
+		id = 1954013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50082,
+				534,
+				800
+			}
+		}
+	},
 	[3000013] = {
 		id = 3000013,
 		bonus_time = 1,
@@ -8985,6 +9411,36 @@ pg.expedition_activity_template = {
 		}
 	},
 	all = {
+		2000,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		3000,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		4000,
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		6000,
+		6001,
+		6002,
+		6003,
+		6004,
+		6005,
 		5009,
 		5010,
 		5011,
@@ -9951,6 +10407,30 @@ pg.expedition_activity_template = {
 		1930503,
 		1930504,
 		1930505,
+		1940013,
+		1941013,
+		1942013,
+		1943013,
+		1944013,
+		1945013,
+		1944101,
+		1944102,
+		1944103,
+		1944104,
+		1944105,
+		1950013,
+		1950113,
+		1950213,
+		1951013,
+		1951113,
+		1951213,
+		1952013,
+		1952113,
+		1952213,
+		1953013,
+		1953113,
+		1953213,
+		1954013,
 		3000013,
 		3000113,
 		3000213,

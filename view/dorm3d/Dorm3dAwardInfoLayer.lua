@@ -36,7 +36,7 @@ function var_0_0.didEnter(arg_5_0)
 		if arg_6_0 == UIItemList.EventUpdate then
 			local var_6_0 = arg_5_0.contextData.items[arg_6_1]
 
-			updateDorm3dIcon(arg_6_2, var_6_0)
+			updateCustomDrop(arg_6_2, var_6_0)
 			onButton(arg_5_0, arg_6_2, function()
 				arg_5_0:emit(BaseUI.ON_NEW_DROP, {
 					drop = var_6_0

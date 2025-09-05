@@ -10,9 +10,9 @@ return {
 				delay = 1,
 				dynamicPath = function()
 					if getProxy(SettingsProxy):IsMellowStyle() then
-						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/MainActivityBtnMellowAdapt"
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/battle"
 					else
-						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActMapBtn"
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/right/combatBtn"
 					end
 				end,
 				triggerType = {
@@ -26,9 +26,9 @@ return {
 			baseui = {
 				dynamicPath = function()
 					if getProxy(SettingsProxy):IsMellowStyle() then
-						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/MainActivityBtnMellowAdapt"
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/battle"
 					else
-						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActMapBtn"
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/right/combatBtn"
 					end
 				end
 			},
@@ -42,12 +42,37 @@ return {
 		},
 		{
 			alpha = 0.4,
+			code = {
+				1
+			},
+			ui = {
+				delay = 1,
+				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/entrance/enters/right_panel/content/LevelSecondMapBtn",
+				triggerType = {
+					1
+				},
+				fingerPos = {
+					posY = -24.77,
+					posX = 56.5
+				}
+			},
+			style = {
+				text = "Tap to check out",
+				mode = 1,
+				posY = -36.4,
+				dir = -1,
+				posX = 258.8
+			}
+		},
+		{
+			alpha = 0.4,
 			waitScene = "LevelScene",
 			code = {
 				2
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/main/left_chapter/buttons/btn_ryza",
+				delay = 1,
+				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/main/left_chapter/buttons/btn_act_elite",
 				triggerType = {
 					1
 				},

@@ -484,7 +484,7 @@ function var_0_0.UpdateViewFurnitureItem(arg_63_0, arg_63_1)
 
 	var_63_2.name = var_63_1.id
 
-	updateDorm3dIcon(var_63_2:Find("Item/Dorm3dIconTpl"), Drop.New({
+	updateCustomDrop(var_63_2:Find("Item/Dorm3dIconTpl"), Drop.New({
 		type = DROP_TYPE_DORM3D_FURNITURE,
 		id = var_63_1.id,
 		count = var_63_1.count
@@ -520,7 +520,7 @@ function var_0_0.UpdateViewFurnitureItem(arg_63_0, arg_63_1)
 	setActive(var_63_2:Find("Item/Action"), false)
 
 	local var_63_7 = var_63_1.template:GetEndTime()
-	local var_63_8 = var_63_7 > 0 and var_63_7 > pg.TimeMgr.GetInstance():GetServerTime()
+	local var_63_8 = var_63_1.count == 0 and var_63_7 > 0 and var_63_7 > pg.TimeMgr.GetInstance():GetServerTime()
 
 	setActive(var_63_2:Find("TimeLimit"), var_63_8)
 

@@ -14,11 +14,17 @@ function var_0_0.GetParent(arg_3_0)
 	return arg_3_0.view._tf
 end
 
-function var_0_0.BlurPanel(arg_4_0)
+function var_0_0.UpdateIcon(arg_4_0, arg_4_1, arg_4_2)
+	local var_4_0 = arg_4_1.icon
+
+	GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. var_4_0, "", arg_4_2:Find("Image"))
+end
+
+function var_0_0.BlurPanel(arg_5_0)
 	return
 end
 
-function var_0_0.UnblurPanel(arg_5_0)
+function var_0_0.UnblurPanel(arg_6_0)
 	return
 end
 

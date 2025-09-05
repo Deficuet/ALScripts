@@ -1,297 +1,300 @@
 local var_0_0 = class("IslandSyncMgr")
 
-local function var_0_1(...)
-	if false then
-		warning(...)
-	end
-end
-
-var_0_0.INTERACRION_ITEMS = {
-	IslandConst.SYNC_TYPE_INTERACTION_TEST
-}
 var_0_0.ISLAND_SYNC_DATA_UPDATE = "IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE"
 var_0_0.ISLAND_SYNC_OBJ_UPDATE = "IslandSyncMgr.ISLAND_SYNC_OBJ_UPDATE"
 
-function var_0_0.Ctor(arg_2_0, arg_2_1)
-	arg_2_0.syncUnitDic = {}
-	arg_2_0.controlResultDic = {}
-	arg_2_0.tid2SyncIdDic = {}
-	arg_2_0.controller = arg_2_1
-	arg_2_0.island = arg_2_1.island
-	arg_2_0.lazyCount = 0
-	arg_2_0.playerId = getProxy(PlayerProxy):getPlayerId()
-	arg_2_0.syncDataDelayedProcessor = DelayedDataProcessor.New(IslandConst.SYNC_TIME_DELAY, IslandConst.SYNC_TIME_INTERVAL * 1000, function(arg_3_0)
-		arg_2_0:UpdateSyncData(arg_3_0)
+function var_0_0.Ctor(arg_1_0, arg_1_1)
+	arg_1_0.controlResultDic = {}
+	arg_1_0.visitorDic = {}
+	arg_1_0.unitDic = {}
+	arg_1_0.controller = arg_1_1
+	arg_1_0.island = arg_1_1.island
+	arg_1_0.view = arg_1_1:GetCore().view
+	arg_1_0.playerId = getProxy(PlayerProxy):getPlayerId()
+	arg_1_0.syncDataDelayedProcessor = DelayedDataProcessor.New(IslandConst.SYNC_TIME_DELAY, IslandConst.SYNC_TIME_INTERVAL * 1000, function(arg_2_0)
+		arg_1_0:UpdateVisitorSyncData(arg_2_0)
 	end)
-	arg_2_0.syncObjDelayedProcessor = DelayedDataProcessor.New(IslandConst.SYNC_TIME_DELAY, IslandConst.SYNC_TIME_INTERVAL * 1000, function(arg_4_0)
-		arg_2_0:UpdateSyncObj(arg_4_0)
+	arg_1_0.syncObjDelayedProcessor = DelayedDataProcessor.New(IslandConst.SYNC_TIME_DELAY, IslandConst.SYNC_TIME_INTERVAL * 1000, function(arg_3_0)
+		arg_1_0:UpdateSyncObj(arg_3_0)
 	end)
-	arg_2_0.syncUnitBuilder = SyncUnitBuilder.New(arg_2_0.controller)
-end
-
-function var_0_0.Init(arg_5_0)
-	local var_5_0 = getProxy(IslandProxy):GetSyncObjInitData()
-
-	for iter_5_0, iter_5_1 in ipairs(var_5_0) do
-		if iter_5_1.type ~= IslandConst.SYNC_TYPE_UNIT_MOVE or table.contains(var_0_0.INTERACRION_ITEMS, iter_5_1.tid) then
-			arg_5_0:AddSyncUnit(iter_5_1)
-		end
-	end
-
-	arg_5_0.collectClientStateTimer = Timer.New(function()
-		arg_5_0:UpdateMovableClientUnit()
+	arg_1_0.collectClientStateTimer = Timer.New(function()
+		arg_1_0:UpdateLocalPlayer()
 	end, IslandConst.SYNC_TIME_INTERVAL, -1)
+end
 
+function var_0_0.Init(arg_5_0, arg_5_1, arg_5_2)
+	arg_5_0:InitPlayer()
+	arg_5_0:InitVisitor()
+	arg_5_0:InitAgora(arg_5_2 or {})
+	arg_5_0:InitWorldObject(arg_5_1)
+	arg_5_0:InitSyncObj()
 	arg_5_0.collectClientStateTimer:Start()
-
-	arg_5_0.heartBeatTimer = Timer.New(function()
-		pg.m02:sendNotification(GAME.ISLAND_HEART_BEAT, arg_5_0.island.id)
-	end, IslandConst.HEART_BEAT_INTERVAL, -1)
-
-	arg_5_0.heartBeatTimer:Start()
 end
 
-function var_0_0.AddSyncUnit(arg_8_0, arg_8_1)
-	local var_8_0 = arg_8_0.syncUnitBuilder:Build(arg_8_1)
-
-	arg_8_0.syncUnitDic[arg_8_1.id] = var_8_0
-
-	if arg_8_0.tid2SyncIdDic[arg_8_1.type] == nil then
-		arg_8_0.tid2SyncIdDic[arg_8_1.type] = {}
-	end
-
-	arg_8_0.tid2SyncIdDic[arg_8_1.type][arg_8_1.tid] = arg_8_1.id
-end
-
-function var_0_0.RemoveSyncUnit(arg_9_0, arg_9_1)
-	local var_9_0 = arg_9_0.syncUnitDic[arg_9_1.id]
-
-	arg_9_0.tid2SyncIdDic[arg_9_1.type][arg_9_1.tid] = nil
-
-	var_9_0:Dispose()
-
-	arg_9_0.syncUnitDic[arg_9_1.id] = nil
-end
-
-function var_0_0.GetUnitByTid(arg_10_0, arg_10_1, arg_10_2)
-	local var_10_0 = arg_10_0.tid2SyncIdDic[arg_10_2][arg_10_1]
-	local var_10_1 = arg_10_0.syncUnitDic[var_10_0]
-
-	assert(var_10_1, "unit不存在 id=" .. var_10_0)
-
-	return var_10_1, var_10_0
-end
-
-function var_0_0.HandleSyncObj(arg_11_0, arg_11_1)
-	for iter_11_0, iter_11_1 in ipairs(arg_11_1) do
-		local var_11_0 = iter_11_1.id
-
-		arg_11_0.syncObjDelayedProcessor:Add(var_11_0, iter_11_1)
-	end
-end
-
-function var_0_0.UpdateSyncObj(arg_12_0, arg_12_1)
-	if arg_12_1.state == 0 then
-		local var_12_0 = arg_12_0.syncUnitDic[arg_12_1.id]
-
-		if arg_12_1.type == IslandConst.SYNC_TYPE_AGORA then
-			local var_12_1, var_12_2 = var_12_0:UpdateOwner(arg_12_1.slots)
-
-			if var_12_1 then
-				arg_12_0.controller:InterAction(var_12_0.tid, var_12_2, true)
-			else
-				arg_12_0.controller:InterActionEnd(var_12_0.tid, var_12_2, true)
-			end
-		elseif arg_12_1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
-			-- block empty
-		else
-			var_12_0:UpdateOwner(arg_12_1.slots)
-		end
-	elseif arg_12_1.state == 1 then
-		arg_12_0:AddSyncUnit(arg_12_1)
-	elseif arg_12_1.state == 2 then
-		arg_12_0:RemoveSyncUnit(arg_12_1)
-	end
-end
-
-function var_0_0.HandleSyncData(arg_13_0, arg_13_1)
-	_.each(arg_13_1, function(arg_14_0)
-		local var_14_0 = arg_14_0.id
-
-		arg_13_0.syncDataDelayedProcessor:Add(var_14_0, arg_14_0)
+function var_0_0.Update(arg_6_0)
+	xpcall(function()
+		arg_6_0.syncDataDelayedProcessor:Update()
+		arg_6_0.syncObjDelayedProcessor:Update()
+		arg_6_0:UpdateVisitorUnit()
+	end, function(...)
+		errorMsg(debug.traceback(...))
 	end)
 end
 
-function var_0_0.UpdateSyncData(arg_15_0, arg_15_1)
-	local var_15_0 = arg_15_1.id
-	local var_15_1 = arg_15_0.syncUnitDic[var_15_0]
+function var_0_0.InitPlayer(arg_9_0)
+	arg_9_0.player = SyncLocalPlayer.New(arg_9_0.playerId, arg_9_0.view.player)
+end
 
-	if not var_15_1 then
-		Debugger.LogWarning(string.format("unit 不存在 id=%d", var_15_0))
+function var_0_0.InitVisitor(arg_10_0)
+	local var_10_0 = arg_10_0.island:GetVisitorAgency():GetMapVisitorList()
 
-		return
+	for iter_10_0, iter_10_1 in pairs(var_10_0) do
+		local var_10_1 = arg_10_0.view:GetUnitModule(iter_10_1.id)
+
+		arg_10_0.visitorDic[iter_10_1.id] = SyncUnitVisitor.New(var_10_1)
 	end
-
-	var_15_1:UpdateSyncData(arg_15_1)
 end
 
-function var_0_0.Update(arg_16_0)
-	arg_16_0.syncObjDelayedProcessor:Update()
-	arg_16_0.syncDataDelayedProcessor:Update()
-	arg_16_0:UpdateMovableServerUnit()
+function var_0_0.OnVisitorEnter(arg_11_0, arg_11_1, arg_11_2)
+	arg_11_0.visitorDic[arg_11_1] = SyncUnitVisitor.New(arg_11_2)
 end
 
-function var_0_0.UpdateMovableClientUnit(arg_17_0)
-	local var_17_0 = {}
+function var_0_0.OnVisitorExit(arg_12_0, arg_12_1)
+	local var_12_0 = arg_12_0.visitorDic[arg_12_1]
 
-	for iter_17_0, iter_17_1 in pairs(arg_17_0.syncUnitDic) do
-		if isa(iter_17_1, SyncUnitMovable) and iter_17_1:IsLoaded() and iter_17_1:IsClient() and (iter_17_1:GetType() ~= IslandConst.SYNC_TYPE_PLAYER or not iter_17_1:InTimeline()) then
-			local var_17_1 = iter_17_1:CreateSyncData()
+	if var_12_0 then
+		local var_12_1 = var_12_0:GetLastInteract()
 
-			table.insert(var_17_0, var_17_1)
+		if var_12_1 then
+			arg_12_0:GetUnit(var_12_1.type, var_12_1.id):RemoveOwner(arg_12_1)
+
+			if var_12_1.type == IslandConst.SYNC_TYPE_AGORA then
+				arg_12_0.controller:InterActionEnd(var_12_1.id, arg_12_1, true)
+			elseif var_12_1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
+				arg_12_0.controller:WorldObjectInterActionEnd(var_12_1.id, arg_12_1, true)
+			end
 		end
+
+		arg_12_0.syncDataDelayedProcessor:RemoveDataById(arg_12_1)
+		var_12_0:Dispose()
+
+		arg_12_0.visitorDic[arg_12_1] = nil
+	end
+end
+
+function var_0_0.UpdateLocalPlayer(arg_13_0)
+	local var_13_0 = {}
+
+	if arg_13_0.player:IsLoaded() and not arg_13_0.player:InTimeline() then
+		local var_13_1 = arg_13_0.player:CreateSyncData()
+
+		table.insert(var_13_0, var_13_1)
 	end
 
-	if #var_17_0 > 0 then
+	if #var_13_0 > 0 then
 		pg.m02:sendNotification(GAME.ISLAND_SYNC_DATA, {
-			data = var_17_0,
-			islandId = arg_17_0.island.id
+			data = var_13_0,
+			islandId = arg_13_0.island.id
 		})
 	end
 end
 
-function var_0_0.UpdateMovableServerUnit(arg_18_0)
-	for iter_18_0, iter_18_1 in pairs(arg_18_0.syncUnitDic) do
-		if isa(iter_18_1, SyncUnitMovable) and iter_18_1:IsLoaded() and iter_18_1:IsServer() then
-			iter_18_1:Update()
+function var_0_0.UpdateVisitorUnit(arg_14_0)
+	for iter_14_0, iter_14_1 in pairs(arg_14_0.visitorDic) do
+		iter_14_1:Update()
+	end
+end
+
+function var_0_0.HandleSyncData(arg_15_0, arg_15_1)
+	_.each(arg_15_1, function(arg_16_0)
+		local var_16_0 = arg_16_0.id
+
+		arg_15_0.syncDataDelayedProcessor:Add(var_16_0, arg_16_0)
+	end)
+end
+
+function var_0_0.UpdateVisitorSyncData(arg_17_0, arg_17_1)
+	local var_17_0 = arg_17_1.id
+	local var_17_1 = arg_17_0.visitorDic[var_17_0]
+
+	if not var_17_1 then
+		return
+	end
+
+	var_17_1:UpdateSyncData(arg_17_1)
+end
+
+function var_0_0.SyncVisitorExist(arg_18_0, arg_18_1)
+	return arg_18_0.visitorDic[arg_18_1] ~= nil
+end
+
+function var_0_0.InitAgora(arg_19_0, arg_19_1)
+	local var_19_0 = {}
+
+	for iter_19_0, iter_19_1 in pairs(arg_19_1) do
+		var_19_0[iter_19_0] = SyncUnitInteract.New(iter_19_0, IslandConst.SYNC_TYPE_AGORA)
+	end
+
+	arg_19_0.unitDic[IslandConst.SYNC_TYPE_AGORA] = var_19_0
+end
+
+function var_0_0.OnClearAgora(arg_20_0)
+	return
+end
+
+function var_0_0.InitWorldObject(arg_21_0, arg_21_1)
+	local var_21_0 = {}
+
+	for iter_21_0, iter_21_1 in ipairs(arg_21_1) do
+		if iter_21_1.type == IslandConst.UNIT_TYPE_ITEM_INTERACT then
+			var_21_0[iter_21_1.id] = SyncUnitInteract.New(iter_21_1.id, IslandConst.SYNC_TYPE_UNIT_STATIC)
+		end
+	end
+
+	arg_21_0.unitDic[IslandConst.SYNC_TYPE_UNIT_STATIC] = var_21_0
+end
+
+function var_0_0.InitSyncObj(arg_22_0)
+	local var_22_0 = getProxy(IslandProxy):GetSyncObjInitData()
+
+	for iter_22_0, iter_22_1 in ipairs(var_22_0) do
+		local var_22_1 = arg_22_0:GetUnit(iter_22_1.type, iter_22_1.id)
+
+		if var_22_1 then
+			var_22_1:InitOwner(iter_22_1.slots)
+
+			if iter_22_1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
+				if var_22_1:OwnerCount() > 0 then
+					for iter_22_2, iter_22_3 in pairs(var_22_1.owners) do
+						if iter_22_3 ~= arg_22_0.playerId then
+							arg_22_0.controller:WorldObjectInterAction(iter_22_1.tid, iter_22_3, iter_22_1.status, true)
+						end
+					end
+				elseif iter_22_1.status > 0 then
+					arg_22_0.controller:WorldObjectInitStatus(iter_22_1.tid, iter_22_1.status)
+				end
+			elseif iter_22_1.type == IslandConst.SYNC_TYPE_AGORA and var_22_1:OwnerCount() > 0 then
+				for iter_22_4, iter_22_5 in pairs(var_22_1.owners) do
+					if iter_22_5 ~= arg_22_0.playerId then
+						arg_22_0.controller:InterAction(iter_22_1.tid, iter_22_5, true)
+					end
+				end
+			end
 		end
 	end
 end
 
-function var_0_0.TryControlUnitAgora(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
-	local var_19_0, var_19_1 = arg_19_0:GetUnitByTid(arg_19_1, IslandConst.SYNC_TYPE_AGORA)
+function var_0_0.GetUnit(arg_23_0, arg_23_1, arg_23_2)
+	if not arg_23_0.unitDic[arg_23_1] then
+		return nil
+	end
 
-	arg_19_0:ControlUnit(var_19_1, 4294967295, function(arg_20_0)
-		if arg_20_0 == 0 then
-			arg_19_0:GetUnitByTid(arg_19_0.playerId, IslandConst.SYNC_TYPE_PLAYER):SetInTimeline(true)
+	return arg_23_0.unitDic[arg_23_1][arg_23_2]
+end
+
+function var_0_0.HandleSyncObj(arg_24_0, arg_24_1)
+	for iter_24_0, iter_24_1 in ipairs(arg_24_1) do
+		arg_24_0.syncObjDelayedProcessor:Add(iter_24_1.id, iter_24_1)
+	end
+end
+
+function var_0_0.UpdateSyncObj(arg_25_0, arg_25_1)
+	if arg_25_1.type == IslandConst.SYNC_TYPE_AGORA then
+		arg_25_0:OnVisitorInteract(arg_25_1, function(arg_26_0)
+			if not arg_25_0:SyncVisitorExist(arg_26_0) then
+				return
+			end
+
+			arg_25_0.controller:InterAction(arg_25_1.id, arg_26_0, true)
+		end, function(arg_27_0)
+			arg_25_0.controller:InterActionEnd(arg_25_1.id, arg_27_0, true)
+		end)
+	elseif arg_25_1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
+		arg_25_0:OnVisitorInteract(arg_25_1, function(arg_28_0)
+			arg_25_0:GetUnit(arg_25_1.type, arg_25_1.id):SetStatus(arg_25_1.status)
+
+			if not arg_25_0:SyncVisitorExist(arg_28_0) then
+				return
+			end
+
+			arg_25_0.controller:WorldObjectInterAction(arg_25_1.id, arg_28_0, arg_25_1.status, true)
+		end, function(arg_29_0)
+			arg_25_0.controller:WorldObjectInterActionEnd(arg_25_1.id, arg_29_0, true)
+		end)
+	end
+end
+
+function var_0_0.OnVisitorInteract(arg_30_0, arg_30_1, arg_30_2, arg_30_3)
+	local var_30_0, var_30_1 = arg_30_0:GetUnit(arg_30_1.type, arg_30_1.id):UpdateOwner(arg_30_1.slots)
+
+	if var_30_1 == arg_30_0.playerId then
+		return
+	end
+
+	local var_30_2 = arg_30_0.visitorDic[var_30_1]
+
+	if var_30_0 then
+		var_30_2:RecordLastInteract(arg_30_1.id, arg_30_1.type)
+		arg_30_2(var_30_1)
+	else
+		var_30_2:ClearLastInteract()
+		arg_30_3(var_30_1)
+	end
+end
+
+function var_0_0.TryControlUnit(arg_31_0, arg_31_1, arg_31_2, arg_31_3, arg_31_4, arg_31_5)
+	local var_31_0 = arg_31_0:GetUnit(arg_31_1, arg_31_2)
+
+	arg_31_0:ControlUnit(arg_31_2, arg_31_3, 1, arg_31_4, arg_31_1, function(arg_32_0)
+		if arg_32_0 then
+			arg_31_0.player:SetInTimeline(true)
+			var_31_0:SetStatus(arg_31_4)
 		end
 
-		arg_19_3(arg_20_0)
+		arg_31_5(arg_32_0)
 	end)
 end
 
-function var_0_0.EndControlUnitAgora(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
-	local var_21_0, var_21_1 = arg_21_0:GetUnitByTid(arg_21_1, IslandConst.SYNC_TYPE_AGORA)
+function var_0_0.EndControlUnit(arg_33_0, arg_33_1, arg_33_2, arg_33_3, arg_33_4)
+	local var_33_0 = arg_33_0:GetUnit(arg_33_1, arg_33_2)
 
-	arg_21_0:ControlUnit(var_21_1, 0, function(arg_22_0)
-		if arg_22_0 == 0 then
-			arg_21_0:GetUnitByTid(arg_21_0.playerId, IslandConst.SYNC_TYPE_PLAYER):SetInTimeline(false)
+	arg_33_0:ControlUnit(arg_33_2, arg_33_3, 0, var_33_0:GetStatus(), arg_33_1, function(arg_34_0)
+		if arg_34_0 then
+			arg_33_0.player:SetInTimeline(false)
 		end
 
-		arg_21_3(arg_22_0)
+		arg_33_4(arg_34_0)
 	end)
 end
 
-function var_0_0.TryControlUnitInteraction(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
-	local var_23_0 = arg_23_0.syncUnitDic[arg_23_1]
-
-	assert(var_23_0:GetType() == IslandConst.SYNC_TYPE_UNIT_MOVE, "interact with wrong unit" .. arg_23_1)
-	var_23_0:SetOwnerType(SyncUnitMovable.OWNER_TYPE_CLIENT)
-	arg_23_0:ControlUnit(arg_23_1, arg_23_2, arg_23_3)
-end
-
-function var_0_0.ControlUnit(arg_24_0, arg_24_1, arg_24_2, arg_24_3)
-	if arg_24_0.controlResultDic[arg_24_1] then
-		arg_24_3(false)
+function var_0_0.ControlUnit(arg_35_0, arg_35_1, arg_35_2, arg_35_3, arg_35_4, arg_35_5, arg_35_6)
+	if arg_35_0.controlResultDic[arg_35_1] then
+		arg_35_6(false)
 
 		return
 	end
 
-	arg_24_0.controlResultDic[arg_24_1] = arg_24_3
+	arg_35_0.controlResultDic[arg_35_1] = arg_35_6
 
 	pg.m02:sendNotification(GAME.ISLAND_SYNC_CONTROL, {
-		islandId = arg_24_0.island.id,
-		objId = arg_24_1,
-		mseconds = arg_24_2,
-		onResult = function(arg_25_0)
-			local var_25_0 = arg_25_0 == 0
+		islandId = arg_35_0.island.id,
+		objId = arg_35_1,
+		slotId = arg_35_2,
+		op = arg_35_3,
+		status = arg_35_4,
+		type = arg_35_5,
+		onResult = function(arg_36_0)
+			local var_36_0 = arg_36_0 == 0
 
-			existCall(arg_24_0.controlResultDic[arg_24_1], var_25_0)
+			existCall(arg_35_0.controlResultDic[arg_35_1], var_36_0)
 
-			arg_24_0.controlResultDic[arg_24_1] = nil
+			arg_35_0.controlResultDic[arg_35_1] = nil
 		end
 	})
 end
 
-function var_0_0.Dispose(arg_26_0)
-	arg_26_0.collectClientStateTimer:Stop()
-	arg_26_0.heartBeatTimer:Stop()
-end
-
-function var_0_0.TestData(arg_27_0)
-	local var_27_0 = getProxy(IslandProxy):GetIsland()
-
-	local function var_27_1(arg_28_0)
-		local var_28_0 = tonumber(string.match(arg_28_0, "id=(%d+)"))
-		local var_28_1 = string.match(arg_28_0, "pos=%[([%d%.,-]+)%]")
-		local var_28_2 = string.match(arg_28_0, "dir=%[([%d%.,-]+)%]")
-		local var_28_3 = tonumber(string.match(arg_28_0, "status=(%d+)"))
-
-		local function var_28_4(arg_29_0)
-			local var_29_0, var_29_1, var_29_2 = arg_29_0:match("([%d%.%-]+),([%d%.%-]+),([%d%.%-]+)")
-
-			return Vector3(tonumber(var_29_0), tonumber(var_29_1), tonumber(var_29_2))
-		end
-
-		local function var_28_5(arg_30_0)
-			local var_30_0, var_30_1, var_30_2, var_30_3 = arg_30_0:match("([%d%.%-]+),([%d%.%-]+),([%d%.%-]+),([%d%.%-]+)")
-
-			return Quaternion(tonumber(var_30_0), tonumber(var_30_1), tonumber(var_30_2), tonumber(var_30_3))
-		end
-
-		local var_28_6 = var_28_4(var_28_1)
-		local var_28_7 = var_28_5(var_28_2)
-
-		return SyncUnitData.New({
-			id = var_28_0,
-			pos = var_28_6,
-			dir = var_28_7,
-			status = var_28_3
-		})
-	end
-
-	local var_27_2 = {}
-
-	for iter_27_0 in io.lines("D:\\Project\\SyncTest.txt") do
-		table.insert(var_27_2, iter_27_0)
-	end
-
-	local var_27_3 = 1
-
-	Timer.New(function()
-		if var_27_3 > #var_27_2 then
-			return
-		end
-
-		local var_31_0 = var_27_2[var_27_3]
-
-		var_27_3 = var_27_3 + 1
-
-		local var_31_1 = var_27_1(var_31_0)
-
-		var_31_1.id = 100
-		var_31_1.type = 1
-
-		local var_31_2 = {}
-
-		table.insert(var_31_2, var_31_1)
-
-		local var_31_3 = math.random(IslandConst.SYNC_TEST_DELAY_L, IslandConst.SYNC_TEST_DELAY_R)
-
-		LeanTween.delayedCall(var_31_3 / 1000, System.Action(function()
-			var_27_0:DispatchEvent(IslandSyncMgr.ISLAND_SYNC_DATA_UPDATE, var_31_2)
-		end))
-	end, IslandConst.SYNC_TIME_INTERVAL, -1):Start()
+function var_0_0.Dispose(arg_37_0)
+	arg_37_0.collectClientStateTimer:Stop()
 end
 
 return var_0_0

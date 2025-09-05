@@ -315,8 +315,7 @@ function var_0_1.SetToOverlayParent(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
 
 			SetParent(var_13_0, arg_13_0.OverlayMain, false)
 		else
-			var_13_0 = arg_13_0:GetAdaptObj()
-			var_13_0.name = arg_13_0:GetAdatpObjName(arg_13_1)
+			var_13_0 = arg_13_0:GetAdaptObj(arg_13_0:GetAdatpObjName(arg_13_1))
 
 			SetParent(arg_13_1, var_13_0, false)
 			SetParent(var_13_0, arg_13_0.OverlayMain, false)
@@ -350,8 +349,7 @@ function var_0_1.SetToOrigin(arg_14_0, arg_14_1, arg_14_2, arg_14_3, arg_14_4)
 		if var_14_0 ~= nil then
 			var_14_0 = arg_14_1.parent
 		else
-			var_14_0 = arg_14_0:GetAdaptObj()
-			var_14_0.name = arg_14_0:GetAdatpObjName(arg_14_1)
+			var_14_0 = arg_14_0:GetAdaptObj(arg_14_0:GetAdatpObjName(arg_14_1))
 
 			SetParent(arg_14_1, var_14_0, false)
 		end
@@ -414,17 +412,14 @@ function var_0_1.switchOriginParent(arg_19_0)
 	end
 end
 
-function var_0_1.GetAdaptObj(arg_20_0)
+function var_0_1.GetAdaptObj(arg_20_0, arg_20_1)
 	local var_20_0
 
 	if #arg_20_0.adaptPool > 0 then
 		var_20_0 = table.remove(arg_20_0.adaptPool, #arg_20_0.adaptPool)
+		var_20_0.name = arg_20_1
 	else
-		local var_20_1 = GameObject.New()
-
-		var_20_1:AddComponent(typeof(NotchAdapt))
-
-		var_20_0 = var_20_1:AddComponent(typeof(RectTransform))
+		var_20_0 = GameObject.New(arg_20_1, typeof(RectTransform), typeof(NotchAdapt)).transform
 	end
 
 	var_20_0.anchorMin = Vector2.zero

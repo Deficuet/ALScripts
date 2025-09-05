@@ -17,6 +17,11 @@ function var_0_0.OnLoaded(arg_2_0)
 	local var_2_0 = arg_2_0.panel:Find("content")
 
 	arg_2_0.uiList = UIItemList.New(var_2_0, var_2_0:Find("tpl"))
+
+	setText(var_2_0:Find("tpl/content/get/Image/Text"), i18n("island_tech_can_get"))
+	setText(arg_2_0.toggle:Find("normal/Text"), i18n("island_tech_nodev"))
+	setText(arg_2_0.toggle:Find("studying/Text"), i18n("island_tech_dev_starting"))
+	setText(arg_2_0.toggle:Find("finished/Text"), i18n("island_tech_dev_finish_1"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -29,71 +34,83 @@ function var_0_0.OnInit(arg_3_0)
 	end)
 
 	arg_3_0.timeMgr = pg.TimeMgr.GetInstance()
+
+	onButton(arg_3_0, arg_3_0._tf:Find("off"), function()
+		triggerToggle(arg_3_0.toggle, false)
+	end, SFX_PANEL)
+	onToggle(arg_3_0, arg_3_0.toggle, function(arg_6_0)
+		if arg_6_0 then
+			pg.UIMgr.GetInstance():OverlayPanelPB(arg_3_0._tf, {
+				pbList = {
+					arg_3_0.panel
+				},
+				groupName = LayerWeightConst.GROUP_ISLAND
+			})
+		else
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_3_0._tf, arg_3_0._parentTf)
+		end
+	end, SFX_PANEL)
 end
 
-function var_0_0.UpdateItem(arg_5_0, arg_5_1, arg_5_2)
-	local var_5_0 = arg_5_0.slotIds[arg_5_1 + 1]
-	local var_5_1 = arg_5_0.buildingData:GetDelegationSlotData(var_5_0)
-	local var_5_2 = var_5_1 and var_5_1:GetFormulaId()
+function var_0_0.UpdateItem(arg_7_0, arg_7_1, arg_7_2)
+	local var_7_0 = arg_7_0.slotIds[arg_7_1 + 1]
+	local var_7_1 = arg_7_0.buildingData:GetDelegationSlotData(var_7_0)
+	local var_7_2 = var_7_1 and var_7_1:GetFormulaId()
 
-	setActive(arg_5_2:Find("lock"), not var_5_1)
-	setActive(arg_5_2:Find("empty"), var_5_1 and not var_5_2)
-	setActive(arg_5_2:Find("content"), var_5_2)
+	setActive(arg_7_2:Find("lock"), not var_7_1)
+	setActive(arg_7_2:Find("empty"), var_7_1 and not var_7_2)
+	setActive(arg_7_2:Find("content"), var_7_2)
 
-	if var_5_2 then
-		local var_5_3 = arg_5_2:Find("content")
-		local var_5_4 = arg_5_0.technologyAgency:GetTechnologyByFormulaId(var_5_2)
+	if var_7_2 then
+		local var_7_3 = arg_7_2:Find("content")
+		local var_7_4 = arg_7_0.technologyAgency:GetTechnologyByFormulaId(var_7_2)
 
-		setText(var_5_3:Find("title"), var_5_4:getConfig("tech_name"))
+		setText(var_7_3:Find("title"), var_7_4:getConfig("tech_name"))
 
-		local var_5_5 = var_5_1:GetSlotRoleData()
+		local var_7_5 = var_7_1:GetSlotRoleData()
 
-		setActive(var_5_3:Find("icon"), var_5_5)
+		setActive(var_7_3:Find("icon_bg"), var_7_5)
 
-		if var_5_5 then
-			local var_5_6 = IslandShip.StaticGetPrefab(var_5_5.ship_id)
+		if var_7_5 then
+			local var_7_6 = IslandShip.StaticGetPrefab(var_7_5.ship_id)
 
-			GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. var_5_6, "", var_5_3:Find("icon"))
+			GetImageSpriteFromAtlasAsync("squareicon/" .. var_7_6, "", var_7_3:Find("icon_bg/mask/icon"))
 
-			local var_5_7 = var_5_5:GetFinishTime() - arg_5_0.timeMgr:GetServerTime()
+			local var_7_7 = var_7_5:GetFinishTime() - arg_7_0.timeMgr:GetServerTime()
 
-			setSlider(var_5_3:Find("silder"), 0, 1, 1 - var_5_7 / var_5_5:GetAllTime())
-			setText(var_5_3:Find("silder/Text"), arg_5_0.timeMgr:DescCDTime(var_5_7))
+			setSlider(var_7_3:Find("silder"), 0, 1, 1 - var_7_7 / var_7_5:GetAllTime())
+			setText(var_7_3:Find("silder/Text"), arg_7_0.timeMgr:DescCDTime(var_7_7))
 		end
 
-		local var_5_8 = var_5_1:GetSlotRewardData()
+		local var_7_8 = var_7_1:GetSlotRewardData()
 
-		setActive(var_5_3:Find("finished"), var_5_8)
-
-		if var_5_8 then
-			setSlider(var_5_3:Find("silder"), 0, 1, 1)
-			setText(var_5_3:Find("silder/Text"), "00:00:00")
-		end
+		setActive(var_7_3:Find("get"), var_7_8)
+		setActive(var_7_3:Find("silder"), not var_7_8)
 	end
 end
 
-function var_0_0.Flush(arg_6_0)
-	arg_6_0:StopTimer()
+function var_0_0.Flush(arg_8_0)
+	arg_8_0:StopTimer()
 
-	local var_6_0 = getProxy(IslandProxy):GetIsland()
+	local var_8_0 = getProxy(IslandProxy):GetIsland()
 
-	arg_6_0.technologyAgency = var_6_0:GetTechnologyAgency()
-	arg_6_0.buildingData = var_6_0:GetBuildingAgency():GetBuilding(IslandTechnologyAgency.PLACE_ID)
+	arg_8_0.technologyAgency = var_8_0:GetTechnologyAgency()
+	arg_8_0.buildingData = var_8_0:GetBuildingAgency():GetBuilding(IslandTechnologyAgency.PLACE_ID)
 
-	arg_6_0.uiList:align(#arg_6_0.slotIds)
-	arg_6_0:StartTimer()
-	arg_6_0:UpdateTime()
+	arg_8_0.uiList:align(#arg_8_0.slotIds)
+	arg_8_0:StartTimer()
+	arg_8_0:UpdateTime()
 end
 
-function var_0_0.GetToggleStatus(arg_7_0)
-	for iter_7_0, iter_7_1 in ipairs(arg_7_0.slotIds) do
-		local var_7_0 = arg_7_0.buildingData:GetDelegationSlotData(iter_7_1)
+function var_0_0.GetToggleStatus(arg_9_0)
+	for iter_9_0, iter_9_1 in ipairs(arg_9_0.slotIds) do
+		local var_9_0 = arg_9_0.buildingData:GetDelegationSlotData(iter_9_1)
 
-		if var_7_0 and var_7_0:GetSlotRewardData() then
+		if var_9_0 and var_9_0:GetSlotRewardData() then
 			return var_0_0.TOGGLE_STATUS.FINISHED
 		end
 
-		if var_7_0 and var_7_0:GetSlotRoleData() then
+		if var_9_0 and var_9_0:GetSlotRoleData() then
 			return var_0_0.TOGGLE_STATUS.STUDYING
 		end
 	end
@@ -101,108 +118,92 @@ function var_0_0.GetToggleStatus(arg_7_0)
 	return var_0_0.TOGGLE_STATUS.NORMAL
 end
 
-function var_0_0.UpdateToggleStatus(arg_8_0)
-	local var_8_0 = arg_8_0:GetToggleStatus()
-
-	onToggle(arg_8_0, arg_8_0.toggle, function(arg_9_0)
-		if arg_9_0 then
-			pg.UIMgr.GetInstance():OverlayPanelPB(arg_8_0._tf, {
-				pbList = {
-					arg_8_0.panel
-				},
-				groupName = LayerWeightConst.GROUP_DORM3D
-			})
-		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0._tf, arg_8_0._parentTf)
-		end
-
-		if var_8_0 ~= var_0_0.TOGGLE_STATUS.FINISHED then
-			return
-		end
-
-		arg_8_0:QuickGetAward()
-	end, SFX_PANEL)
-	eachChild(arg_8_0.toggle, function(arg_10_0)
-		setActive(arg_10_0, arg_10_0.name == var_8_0)
+function var_0_0.UpdateToggleStatus(arg_10_0)
+	eachChild(arg_10_0.toggle, function(arg_11_0)
+		setActive(arg_11_0, arg_11_0.name == arg_10_0.status)
 	end)
 end
 
-function var_0_0.QuickGetAward(arg_11_0)
-	local var_11_0 = underscore.detect(arg_11_0.slotIds, function(arg_12_0)
-		local var_12_0 = arg_11_0.buildingData:GetDelegationSlotData(arg_12_0)
+function var_0_0.QuickGetAward(arg_12_0)
+	local var_12_0 = underscore.detect(arg_12_0.slotIds, function(arg_13_0)
+		local var_13_0 = arg_12_0.buildingData:GetDelegationSlotData(arg_13_0)
 
-		return var_12_0 and var_12_0:GetSlotRewardData()
+		return var_13_0 and var_13_0:GetSlotRewardData()
 	end)
+	local var_12_1 = arg_12_0.buildingData:GetDelegationSlotData(var_12_0):GetSlotRewardData().formula_id
+	local var_12_2 = arg_12_0.technologyAgency:GetTechnologyByFormulaId(var_12_1).id
 
-	arg_11_0:emit(IslandMediator.GET_DELEGATION_AWARD, IslandTechnologyAgency.PLACE_ID, var_11_0, 2)
+	arg_12_0:emit(IslandMediator.GET_DELEGATION_AWARD, IslandTechnologyAgency.PLACE_ID, var_12_0, 2, function()
+		existCall(arg_12_0.contextData.onGetAwardDone, var_12_2)
+	end)
 end
 
-function var_0_0.UpdateTime(arg_13_0)
-	arg_13_0.uiList:eachActive(function(arg_14_0, arg_14_1)
-		local var_14_0 = arg_13_0.slotIds[arg_14_0 + 1]
-		local var_14_1 = arg_13_0.buildingData:GetDelegationSlotData(var_14_0)
+function var_0_0.UpdateTime(arg_15_0)
+	arg_15_0.status = arg_15_0:GetToggleStatus()
 
-		if var_14_1 and var_14_1:GetFormulaId() then
-			local var_14_2 = arg_14_1:Find("content")
-			local var_14_3 = var_14_1:GetSlotRoleData()
+	arg_15_0.uiList:eachActive(function(arg_16_0, arg_16_1)
+		local var_16_0 = arg_15_0.slotIds[arg_16_0 + 1]
+		local var_16_1 = arg_15_0.buildingData:GetDelegationSlotData(var_16_0)
 
-			setActive(var_14_2:Find("icon"), var_14_3)
+		if var_16_1 and var_16_1:GetFormulaId() then
+			local var_16_2 = arg_16_1:Find("content")
+			local var_16_3 = var_16_1:GetSlotRoleData()
 
-			if var_14_3 then
-				local var_14_4 = var_14_3:GetFinishTime() - arg_13_0.timeMgr:GetServerTime()
+			setActive(var_16_2:Find("icon_bg"), var_16_3)
 
-				setSlider(var_14_2:Find("silder"), 0, 1, 1 - var_14_4 / var_14_3:GetAllTime())
-				setText(var_14_2:Find("silder/Text"), arg_13_0.timeMgr:DescCDTime(var_14_4))
+			if var_16_3 then
+				local var_16_4 = var_16_3:GetFinishTime() - arg_15_0.timeMgr:GetServerTime()
+
+				setSlider(var_16_2:Find("silder"), 0, 1, 1 - var_16_4 / var_16_3:GetAllTime())
+				setText(var_16_2:Find("silder/Text"), arg_15_0.timeMgr:DescCDTime(var_16_4))
 			end
 
-			local var_14_5 = var_14_1:GetSlotRewardData()
+			local var_16_5 = var_16_1:GetSlotRewardData()
 
-			setActive(var_14_2:Find("finished"), var_14_5)
-			onButton(arg_13_0, arg_14_1, function()
-				if not var_14_5 then
+			setActive(var_16_2:Find("get"), var_16_5)
+			setActive(var_16_2:Find("silder"), not var_16_5)
+			onButton(arg_15_0, arg_16_1, function()
+				if not var_16_5 then
 					return
 				end
 
-				arg_13_0:QuickGetAward()
+				arg_15_0:QuickGetAward()
 			end, SFX_PANEL)
-
-			if var_14_5 then
-				setSlider(var_14_2:Find("silder"), 0, 1, 1)
-				setText(var_14_2:Find("silder/Text"), "00:00:00")
-			end
+		else
+			removeOnButton(arg_16_1)
 		end
 	end)
-	arg_13_0:UpdateToggleStatus()
+	arg_15_0:UpdateToggleStatus()
 end
 
-function var_0_0.StartTimer(arg_16_0)
-	arg_16_0.timer = Timer.New(function()
-		arg_16_0:UpdateTime()
+function var_0_0.StartTimer(arg_18_0)
+	arg_18_0.timer = Timer.New(function()
+		arg_18_0:UpdateTime()
 	end, 1, -1)
 
-	arg_16_0.timer:Start()
+	arg_18_0.timer:Start()
 end
 
-function var_0_0.StopTimer(arg_18_0)
-	if arg_18_0.timer ~= nil then
-		arg_18_0.timer:Stop()
+function var_0_0.StopTimer(arg_20_0)
+	if arg_20_0.timer ~= nil then
+		arg_20_0.timer:Stop()
 
-		arg_18_0.timer = nil
+		arg_20_0.timer = nil
 	end
 end
 
-function var_0_0.OffToggle(arg_19_0)
-	triggerToggle(arg_19_0.toggle, false)
+function var_0_0.OffToggle(arg_21_0)
+	triggerToggle(arg_21_0.toggle, false)
 end
 
-function var_0_0.Hide(arg_20_0)
-	arg_20_0:OffToggle()
-	var_0_0.super.Hide(arg_20_0)
+function var_0_0.Hide(arg_22_0)
+	arg_22_0:OffToggle()
+	var_0_0.super.Hide(arg_22_0)
 end
 
-function var_0_0.OnDestroy(arg_21_0)
-	arg_21_0:StopTimer()
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf, arg_21_0._parentTf)
+function var_0_0.OnDestroy(arg_23_0)
+	arg_23_0:StopTimer()
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_23_0._tf, arg_23_0._parentTf)
 end
 
 return var_0_0

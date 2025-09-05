@@ -87,4 +87,10 @@ function var_0_0.getLimitGoodCount(arg_12_0, arg_12_1)
 	assert(false, "good not limit_args 'quota' with good id: " .. arg_12_1)
 end
 
+function var_0_0.GetResList(arg_13_0)
+	return {
+		59900
+	}
+end
+
 return var_0_0

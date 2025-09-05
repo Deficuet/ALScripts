@@ -14,7 +14,7 @@ var_0_0.OnAiriBuying = -1
 var_0_0.BuyingLimit = 60
 
 function var_0_0.CheckAudit()
-	return NetConst.GATEWAY_PORT == 20001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+	return NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
 end
 
 function var_0_0.CheckPreAudit()
@@ -26,7 +26,7 @@ function var_0_0.CheckPretest()
 end
 
 function var_0_0.CheckGoogleSimulator()
-	return NetConst.GATEWAY_PORT == 50001 and NetConst.GATEWAY_HOST == "audit.us.yo-star.com"
+	return false
 end
 
 function var_0_0.GoSDkLoginScene()

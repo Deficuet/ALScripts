@@ -4,7 +4,7 @@ function var_0_0.Ctor(arg_1_0, ...)
 	var_0_0.super.Ctor(arg_1_0, ...)
 
 	arg_1_0.items = {}
-	arg_1_0.completeAllTools = false
+	arg_1_0.completeAllTools = {}
 	arg_1_0.slots = _.map({
 		1,
 		2,
@@ -99,51 +99,61 @@ function var_0_0.GetFormulas(arg_17_0)
 	return arg_17_0.formulas
 end
 
-function var_0_0.InitAllFormulas(arg_18_0)
-	arg_18_0.formulas = {}
+function var_0_0.GetFormulasByVersion(arg_18_0, arg_18_1)
+	local var_18_0 = {}
 
-	_.each(pg.activity_ryza_recipe.all, function(arg_19_0)
-		arg_18_0.formulas[arg_19_0] = AtelierFormula.New({
-			configId = arg_19_0
+	for iter_18_0, iter_18_1 in pairs(arg_18_0.formulas) do
+		if iter_18_1:getConfig("version") == arg_18_1 then
+			table.insert(var_18_0, iter_18_1)
+		end
+	end
+
+	return var_18_0
+end
+
+function var_0_0.InitAllFormulas(arg_19_0)
+	arg_19_0.formulas = {}
+
+	_.each(pg.activity_ryza_recipe.all, function(arg_20_0)
+		arg_19_0.formulas[arg_20_0] = AtelierFormula.New({
+			configId = arg_20_0
 		})
 	end)
 end
 
-function var_0_0.InitFormulaUseCounts(arg_20_0, arg_20_1)
-	_.each(arg_20_1, function(arg_21_0)
-		local var_21_0 = arg_21_0.key
-		local var_21_1 = arg_21_0.value
+function var_0_0.InitFormulaUseCounts(arg_21_0, arg_21_1)
+	_.each(arg_21_1, function(arg_22_0)
+		local var_22_0 = arg_22_0.key
+		local var_22_1 = arg_22_0.value
 
-		arg_20_0.formulas[var_21_0]:SetUsedCount(var_21_1)
+		arg_21_0.formulas[var_22_0]:SetUsedCount(var_22_1)
 	end)
-	arg_20_0:CheckCompleteAllTool()
 end
 
-function var_0_0.AddFormulaUseCount(arg_22_0, arg_22_1, arg_22_2)
-	arg_22_0.formulas[arg_22_1]:SetUsedCount(arg_22_0.formulas[arg_22_1]:GetUsedCount() + arg_22_2)
-	arg_22_0:CheckCompleteAllTool()
+function var_0_0.AddFormulaUseCount(arg_23_0, arg_23_1, arg_23_2)
+	arg_23_0.formulas[arg_23_1]:SetUsedCount(arg_23_0.formulas[arg_23_1]:GetUsedCount() + arg_23_2)
 end
 
-function var_0_0.CheckCompleteAllTool(arg_23_0)
-	if arg_23_0.completeAllTools then
-		return
+function var_0_0.IsCompleteAllTools(arg_24_0, arg_24_1)
+	arg_24_1 = arg_24_1 or 1
+
+	if arg_24_0.completeAllTools[arg_24_1] then
+		return true
 	end
 
-	arg_23_0.completeAllTools = _.all(_.values(arg_23_0.formulas), function(arg_24_0)
-		if arg_24_0:GetType() ~= AtelierFormula.TYPE.TOOL then
-			return true
+	arg_24_0.completeAllTools[arg_24_1] = _.all(_.values(arg_24_0.formulas), function(arg_25_0)
+		if arg_25_0:getConfig("version") == arg_24_1 then
+			if arg_25_0:GetType() ~= AtelierFormula.TYPE.TOOL then
+				return true
+			end
+
+			return not arg_25_0:IsAvaliable()
 		end
 
-		return not arg_24_0:IsAvaliable()
+		return true
 	end)
-end
 
-function var_0_0.IsCompleteAllTools(arg_25_0)
-	return arg_25_0.completeAllTools
-end
-
-function var_0_0.IsActivityBuffMap(arg_26_0)
-	return ChapterConst.IsAtelierMap(arg_26_0) and arg_26_0:getMapType() > Map.ACTIVITY_EASY
+	return arg_24_0.completeAllTools[arg_24_1]
 end
 
 return var_0_0

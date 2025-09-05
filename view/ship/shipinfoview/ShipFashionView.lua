@@ -150,7 +150,7 @@ function var_0_0.UpdateAllFashion(arg_13_0, arg_13_1)
 			onButton(arg_13_0, var_13_6.changeSkinTF, function(arg_14_0)
 				local var_14_0 = ShipSkin.GetChangeSkinNextId(var_13_4.id)
 
-				ShipSkin.SetStoreChangeSkinId(var_14_0)
+				ShipSkin.SetStoreChangeSkinId(var_14_0, var_13_0:GetShipPhantomMark())
 
 				if var_13_9 then
 					pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, arg_13_0:GetShipVO():GetShipPhantomMark())

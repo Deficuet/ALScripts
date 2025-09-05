@@ -267,6 +267,8 @@ function var_0_0.OnDestroy(arg_27_0)
 	arg_27_0.singleWindow:Destroy()
 
 	arg_27_0.singleWindow = nil
+
+	var_0_0.super.OnDestroy(arg_27_0)
 end
 
 return var_0_0

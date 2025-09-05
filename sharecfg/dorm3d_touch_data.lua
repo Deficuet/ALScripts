@@ -458,6 +458,30 @@ pg.dorm3d_touch_data = {
 			200610
 		}
 	},
+	[2200710] = {
+		default_favor = 1001,
+		id = 2200710,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			200710
+		}
+	},
 	[2210110] = {
 		default_favor = 1001,
 		id = 2210110,
@@ -602,6 +626,30 @@ pg.dorm3d_touch_data = {
 			300510
 		}
 	},
+	[1990360] = {
+		default_favor = 1001,
+		id = 1990360,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			300610
+		}
+	},
 	[1990390] = {
 		default_favor = 1001,
 		id = 1990390,
@@ -722,6 +770,30 @@ pg.dorm3d_touch_data = {
 			400410
 		}
 	},
+	[1051750] = {
+		default_favor = 1001,
+		id = 1051750,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400710
+		}
+	},
 	[1051790] = {
 		default_favor = 1001,
 		id = 1051790,
@@ -790,17 +862,20 @@ pg.dorm3d_touch_data = {
 		2200410,
 		2200510,
 		2200610,
+		2200710,
 		2210110,
 		1990310,
 		1990320,
 		1990330,
 		1990340,
 		1990350,
+		1990360,
 		1990390,
 		1051710,
 		1051720,
 		1051730,
 		1051740,
+		1051750,
 		1051790,
 		1051799
 	}

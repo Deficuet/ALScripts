@@ -756,6 +756,102 @@ pg.activity_medal_template = {
 		id = 5002108,
 		activity_medal_desc = "Order only exists if it is respected!"
 	},
+	[5008701] = {
+		prefab_node = "1",
+		next_medal = 0,
+		item = 65666,
+		remake_task_id = 0,
+		group = 50087,
+		task_id = 21803,
+		medal_asset = "ActivityMedal/5008701",
+		activity_medal_name = "Sticker: From Aberrinth",
+		id = 5008701,
+		activity_medal_desc = "From a fallen star Aberrinth was formed. When calamity comes, a magical codex shall appear."
+	},
+	[5008702] = {
+		prefab_node = "2",
+		next_medal = 0,
+		item = 65667,
+		remake_task_id = 0,
+		group = 50087,
+		task_id = 21804,
+		medal_asset = "ActivityMedal/5008702",
+		activity_medal_name = "Sticker: Benedictus",
+		id = 5008702,
+		activity_medal_desc = "The city where Uroboros Magic Academy is located. Everything in the city involves Aberrinth in one way or another."
+	},
+	[5008703] = {
+		prefab_node = "3",
+		next_medal = 0,
+		item = 65668,
+		remake_task_id = 0,
+		group = 50087,
+		task_id = 21805,
+		medal_asset = "ActivityMedal/5008703",
+		activity_medal_name = "Sticker: Armament Command Crown",
+		id = 5008703,
+		activity_medal_desc = "Peureux will take care of this easy peasy."
+	},
+	[5008704] = {
+		prefab_node = "4",
+		next_medal = 0,
+		item = 65669,
+		remake_task_id = 0,
+		group = 50087,
+		task_id = 21806,
+		medal_asset = "ActivityMedal/5008704",
+		activity_medal_name = "Sticker: Ancient Golem",
+		id = 5008704,
+		activity_medal_desc = "The best way to force your enemy into surrender is with overwhelming firepower!"
+	},
+	[5008705] = {
+		prefab_node = "5",
+		next_medal = 0,
+		item = 65670,
+		remake_task_id = 0,
+		group = 50087,
+		task_id = 21807,
+		medal_asset = "ActivityMedal/5008705",
+		activity_medal_name = "Sticker: The Mother Tree",
+		id = 5008705,
+		activity_medal_desc = "Withering branches stretch desperately upward, like the faded crowns of decayed gods, struggling to protect the dying elven bloodline even as they themselves die."
+	},
+	[5008706] = {
+		prefab_node = "6",
+		next_medal = 0,
+		item = 65671,
+		remake_task_id = 0,
+		group = 50087,
+		task_id = 21808,
+		medal_asset = "ActivityMedal/5008706",
+		activity_medal_name = "Sticker: Demon's Eye",
+		id = 5008706,
+		activity_medal_desc = "The Princess has her eyes on you."
+	},
+	[5008707] = {
+		prefab_node = "7",
+		next_medal = 0,
+		item = 65672,
+		remake_task_id = 0,
+		group = 50087,
+		task_id = 21809,
+		medal_asset = "ActivityMedal/5008707",
+		activity_medal_name = "Sticker: Hollowheart Tree",
+		id = 5008707,
+		activity_medal_desc = "The giant tree that once towered toward the heavens is now no more than a forgotten stump."
+	},
+	[5008708] = {
+		prefab_node = "8",
+		next_medal = 0,
+		item = 65673,
+		remake_task_id = 0,
+		group = 50087,
+		task_id = 21810,
+		medal_asset = "ActivityMedal/5008708",
+		activity_medal_name = "Sticker: The Frozen Crown",
+		id = 5008708,
+		activity_medal_desc = "Frostheim, your Winter General has returned to you!"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -835,6 +931,16 @@ pg.activity_medal_template = {
 			5002106,
 			5002107,
 			5002108
+		},
+		[50087] = {
+			5008701,
+			5008702,
+			5008703,
+			5008704,
+			5008705,
+			5008706,
+			5008707,
+			5008708
 		}
 	},
 	all = {
@@ -900,6 +1006,14 @@ pg.activity_medal_template = {
 		5002105,
 		5002106,
 		5002107,
-		5002108
+		5002108,
+		5008701,
+		5008702,
+		5008703,
+		5008704,
+		5008705,
+		5008706,
+		5008707,
+		5008708
 	}
 }

@@ -5,7 +5,7 @@
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.157291667",
+		pos_y = "0.209722223",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -274,7 +274,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.347916667",
+		pos_y = "0.463888889",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -652,7 +652,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.080208333",
+		pos_y = "0.106944444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -1064,7 +1064,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.446875",
+		pos_y = "0.595833333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -1563,7 +1563,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.15625",
+		pos_y = "0.208333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -2150,7 +2150,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.436458333",
+		pos_y = "0.581944444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -2790,7 +2790,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.35",
+		pos_y = "0.466666667",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -3407,7 +3407,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.0625",
+		pos_y = "0.083333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -3994,7 +3994,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.403125",
+		pos_y = "0.5375",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -4602,7 +4602,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.1125",
+		pos_y = "0.15",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -5234,7 +5234,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.491666667",
+		pos_y = "0.655555556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -5861,7 +5861,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -6474,7 +6474,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.313541667",
+		pos_y = "0.418055556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -7006,7 +7006,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.140625",
+		pos_y = "0.1875",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -7531,7 +7531,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.061458333",
+		pos_y = "0.081944444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -8001,7 +8001,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.328125",
+		pos_y = "0.4375",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -8608,7 +8608,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.25",
+		pos_y = "0.333333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -9220,7 +9220,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.071875",
+		pos_y = "0.095833333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -9770,7 +9770,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.25",
+		pos_y = "0.333333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -10290,7 +10290,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.408333333",
+		pos_y = "0.544444444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -10835,7 +10835,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.113541667",
+		pos_y = "0.151388889",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -11418,7 +11418,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.273958333",
+		pos_y = "0.365277777",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -12057,7 +12057,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.40625",
+		pos_y = "0.541666667",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -12620,7 +12620,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.186458333",
+		pos_y = "0.248611111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -13227,7 +13227,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.130208333",
+		pos_y = "0.173611111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -13657,7 +13657,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.442708333",
+		pos_y = "0.590277777",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -14190,7 +14190,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.335416667",
+		pos_y = "0.447222223",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -14794,7 +14794,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.163541667",
+		pos_y = "0.218055556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -15382,7 +15382,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.436458333",
+		pos_y = "0.581944444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -15834,7 +15834,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.258333333",
+		pos_y = "0.344444444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -16372,7 +16372,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.041666667",
+		pos_y = "0.055555556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -16973,7 +16973,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.153125",
+		pos_y = "0.204166667",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -17637,7 +17637,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -18184,7 +18184,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -18769,7 +18769,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -19378,7 +19378,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.09375",
+		pos_y = "0.125",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -20009,7 +20009,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -20575,7 +20575,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.234375",
+		pos_y = "0.3125",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -21197,7 +21197,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.070833333",
+		pos_y = "0.094444444",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -21836,7 +21836,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.378125",
+		pos_y = "0.504166667",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -22489,7 +22489,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.388541667",
+		pos_y = "0.518055556",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -23104,7 +23104,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.091666667",
+		pos_y = "0.122222223",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -23834,7 +23834,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.453125",
+		pos_y = "0.604166667",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -24534,7 +24534,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.167708333",
+		pos_y = "0.223611111",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -25343,7 +25343,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -25936,7 +25936,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -26642,7 +26642,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -27384,7 +27384,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.09375",
+		pos_y = "0.125",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -28242,7 +28242,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -28843,7 +28843,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -29549,7 +29549,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -30299,7 +30299,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.09375",
+		pos_y = "0.125",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -31158,7 +31158,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.347222222",
+		pos_y = "0.462962963",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -31825,7 +31825,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.197222222",
+		pos_y = "0.262962963",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -32598,7 +32598,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.117361111",
+		pos_y = "0.156481481",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -33432,7 +33432,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.416666666",
+		pos_y = "0.555555555",
 		model = 1,
 		progress_boss = 18,
 		is_ai = 0,
@@ -34889,7 +34889,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.087222222",
+		pos_y = "0.116296296",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -35540,7 +35540,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.287222222",
+		pos_y = "0.382962963",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -36302,7 +36302,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.307361111",
+		pos_y = "0.409814815",
 		model = 12,
 		progress_boss = 20,
 		is_ai = 0,
@@ -37116,7 +37116,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.476666666",
+		pos_y = "0.635555555",
 		model = 12,
 		progress_boss = 18,
 		is_ai = 0,
@@ -38045,7 +38045,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30007,
-		pos_y = "0.43125",
+		pos_y = "0.575",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -38459,7 +38459,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30007,
-		pos_y = "0.294791667",
+		pos_y = "0.393055556",
 		model = 1,
 		progress_boss = 42,
 		is_ai = 0,
@@ -38937,7 +38937,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30007,
-		pos_y = "0.080208333",
+		pos_y = "0.106944444",
 		model = 1,
 		progress_boss = 28,
 		is_ai = 0,
@@ -39445,7 +39445,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.157291667",
+		pos_y = "0.209722223",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -39754,7 +39754,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.347916667",
+		pos_y = "0.463888889",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -40170,7 +40170,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.080208333",
+		pos_y = "0.106944444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -40622,7 +40622,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.446875",
+		pos_y = "0.595833333",
 		model = 1,
 		progress_boss = 80,
 		is_ai = 0,
@@ -41157,7 +41157,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.15625",
+		pos_y = "0.208333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -41792,7 +41792,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.436458333",
+		pos_y = "0.581944444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -42480,7 +42480,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.35",
+		pos_y = "0.466666667",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -43145,7 +43145,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.0625",
+		pos_y = "0.083333333",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -43780,7 +43780,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.403125",
+		pos_y = "0.5375",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -44436,7 +44436,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.1125",
+		pos_y = "0.15",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -45116,7 +45116,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.491666667",
+		pos_y = "0.655555556",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -45791,7 +45791,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -46452,7 +46452,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.313541667",
+		pos_y = "0.418055556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -47030,7 +47030,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.140625",
+		pos_y = "0.1875",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -47601,7 +47601,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.061458333",
+		pos_y = "0.081944444",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -48117,7 +48117,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.328125",
+		pos_y = "0.4375",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -48770,7 +48770,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.25",
+		pos_y = "0.333333333",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -49428,7 +49428,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.071875",
+		pos_y = "0.095833333",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -50024,7 +50024,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.25",
+		pos_y = "0.333333333",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -50590,7 +50590,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.408333333",
+		pos_y = "0.544444444",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -51181,7 +51181,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.113541667",
+		pos_y = "0.151388889",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -51811,7 +51811,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.273958333",
+		pos_y = "0.365277777",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -52497,7 +52497,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.40625",
+		pos_y = "0.541666667",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -53107,7 +53107,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.186458333",
+		pos_y = "0.248611111",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -53761,7 +53761,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.130208333",
+		pos_y = "0.173611111",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -54240,7 +54240,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.442708333",
+		pos_y = "0.590277777",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -54822,7 +54822,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.335416667",
+		pos_y = "0.447222223",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -55475,7 +55475,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.163541667",
+		pos_y = "0.218055556",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -56112,7 +56112,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.436458333",
+		pos_y = "0.581944444",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -56617,7 +56617,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.258333333",
+		pos_y = "0.344444444",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -57208,7 +57208,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.041666667",
+		pos_y = "0.055555556",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -57862,7 +57862,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.153125",
+		pos_y = "0.204166667",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -58579,7 +58579,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -59178,7 +59178,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -59815,7 +59815,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -60476,7 +60476,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.09375",
+		pos_y = "0.125",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -61159,7 +61159,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -61777,7 +61777,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.234375",
+		pos_y = "0.3125",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -62451,7 +62451,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.070833333",
+		pos_y = "0.094444444",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -63142,7 +63142,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.378125",
+		pos_y = "0.504166667",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -63847,7 +63847,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.388541667",
+		pos_y = "0.518055556",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -64514,7 +64514,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.091666667",
+		pos_y = "0.122222223",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -65296,7 +65296,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.453125",
+		pos_y = "0.604166667",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -66048,7 +66048,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.167708333",
+		pos_y = "0.223611111",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -66909,7 +66909,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -67554,7 +67554,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -68312,7 +68312,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -69106,7 +69106,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.09375",
+		pos_y = "0.125",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -70016,7 +70016,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -70666,7 +70666,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -71421,7 +71421,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -72220,7 +72220,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.09375",
+		pos_y = "0.125",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -73128,7 +73128,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.258333333",
+		pos_y = "0.344444444",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -73619,7 +73619,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.041666667",
+		pos_y = "0.055555556",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -74162,7 +74162,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.153125",
+		pos_y = "0.204166667",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -74797,7 +74797,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.258333333",
+		pos_y = "0.344444444",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -75282,7 +75282,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.041666667",
+		pos_y = "0.055555556",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -75812,7 +75812,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.153125",
+		pos_y = "0.204166667",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -76434,7 +76434,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.258333333",
+		pos_y = "0.344444444",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -76918,7 +76918,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.041666667",
+		pos_y = "0.055555556",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -77453,7 +77453,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.153125",
+		pos_y = "0.204166667",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -78025,7 +78025,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.258333333",
+		pos_y = "0.344444444",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -78537,7 +78537,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.041666667",
+		pos_y = "0.055555556",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -79093,7 +79093,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.153125",
+		pos_y = "0.204166667",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -79693,7 +79693,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.258333333",
+		pos_y = "0.344444444",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -80205,7 +80205,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.041666667",
+		pos_y = "0.055555556",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -80761,7 +80761,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 0,
-		pos_y = "0.153125",
+		pos_y = "0.204166667",
 		model = 3,
 		progress_boss = 100,
 		is_ai = 1,
@@ -81361,7 +81361,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.444791667",
+		pos_y = "0.593055556",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -81900,7 +81900,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.088541667",
+		pos_y = "0.118055556",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -82494,7 +82494,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.367708333",
+		pos_y = "0.490277777",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -83157,7 +83157,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.090625",
+		pos_y = "0.120833333",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -83770,7 +83770,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.1125",
+		pos_y = "0.15",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -84482,7 +84482,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.4",
+		pos_y = "0.533333333",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -85191,7 +85191,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.444791667",
+		pos_y = "0.593055556",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -85771,7 +85771,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.088541667",
+		pos_y = "0.118055556",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -86406,7 +86406,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.367708333",
+		pos_y = "0.490277777",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -87111,7 +87111,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.090625",
+		pos_y = "0.120833333",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -87766,7 +87766,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.1125",
+		pos_y = "0.15",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -88520,7 +88520,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30012,
-		pos_y = "0.4",
+		pos_y = "0.533333333",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -89270,7 +89270,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30037,
-		pos_y = "0.394725",
+		pos_y = "0.5263",
 		model = 1,
 		progress_boss = 35,
 		is_ai = 0,
@@ -89797,7 +89797,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30037,
-		pos_y = "0.43335",
+		pos_y = "0.5778",
 		model = 1,
 		progress_boss = 28,
 		is_ai = 0,
@@ -90429,7 +90429,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30037,
-		pos_y = "0.03125",
+		pos_y = "0.041666667",
 		model = 1,
 		progress_boss = 22,
 		is_ai = 0,
@@ -91054,7 +91054,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30037,
-		pos_y = "0.11565",
+		pos_y = "0.1542",
 		model = 1,
 		progress_boss = 22,
 		is_ai = 0,
@@ -91792,7 +91792,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30037,
-		pos_y = "0.1635417",
+		pos_y = "0.2180556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -92577,7 +92577,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30495,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -93176,7 +93176,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30495,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 2,
 		progress_boss = 35,
 		is_ai = 1,
@@ -93924,7 +93924,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30495,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 2,
 		progress_boss = 28,
 		is_ai = 1,
@@ -94688,7 +94688,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30495,
-		pos_y = "0.10625",
+		pos_y = "0.141666667",
 		model = 2,
 		progress_boss = 22,
 		is_ai = 1,
@@ -95444,7 +95444,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30449,
-		pos_y = "0.375",
+		pos_y = "0.5",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -96055,7 +96055,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30449,
-		pos_y = "0.151041667",
+		pos_y = "0.201388889",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -96631,7 +96631,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30449,
-		pos_y = "0.09583",
+		pos_y = "0.127773333",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -97305,7 +97305,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30449,
-		pos_y = "0.334375",
+		pos_y = "0.445833333",
 		model = 2,
 		progress_boss = 25,
 		is_ai = 1,
@@ -97977,7 +97977,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30450,
-		pos_y = "0.175",
+		pos_y = "0.233333333",
 		model = 2,
 		progress_boss = 25,
 		is_ai = 1,
@@ -98700,7 +98700,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30450,
-		pos_y = "0.255208333",
+		pos_y = "0.340277777",
 		model = 2,
 		progress_boss = 25,
 		is_ai = 1,
@@ -99483,7 +99483,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30449,
-		pos_y = "0.375",
+		pos_y = "0.5",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -100136,7 +100136,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30449,
-		pos_y = "0.151041667",
+		pos_y = "0.201388889",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -100754,7 +100754,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30449,
-		pos_y = "0.09583",
+		pos_y = "0.127773333",
 		model = 2,
 		progress_boss = 25,
 		is_ai = 1,
@@ -101470,7 +101470,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30449,
-		pos_y = "0.334375",
+		pos_y = "0.445833333",
 		model = 2,
 		progress_boss = 25,
 		is_ai = 1,
@@ -102184,7 +102184,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30450,
-		pos_y = "0.175",
+		pos_y = "0.233333333",
 		model = 2,
 		progress_boss = 20,
 		is_ai = 1,
@@ -102951,7 +102951,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30450,
-		pos_y = "0.255208333",
+		pos_y = "0.340277777",
 		model = 2,
 		progress_boss = 20,
 		is_ai = 1,
@@ -103778,7 +103778,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30450,
-		pos_y = "0.277083333",
+		pos_y = "0.369444444",
 		model = 5,
 		progress_boss = 20,
 		is_ai = 0,
@@ -104201,7 +104201,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -104757,7 +104757,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -105419,7 +105419,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.1739",
+		pos_y = "0.231866667",
 		model = 2,
 		progress_boss = 25,
 		is_ai = 0,
@@ -106193,7 +106193,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 2,
 		progress_boss = 25,
 		is_ai = 1,
@@ -106762,7 +106762,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.076041667",
+		pos_y = "0.101388889",
 		model = 2,
 		progress_boss = 20,
 		is_ai = 1,
@@ -107436,7 +107436,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 2,
 		progress_boss = 20,
 		is_ai = 1,
@@ -108237,7 +108237,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -108834,7 +108834,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 2,
 		progress_boss = 25,
 		is_ai = 1,
@@ -109537,7 +109537,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.1739",
+		pos_y = "0.231866667",
 		model = 2,
 		progress_boss = 25,
 		is_ai = 1,
@@ -110352,7 +110352,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 2,
 		progress_boss = 20,
 		is_ai = 1,
@@ -110964,7 +110964,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.076041667",
+		pos_y = "0.101388889",
 		model = 2,
 		progress_boss = 20,
 		is_ai = 1,
@@ -111681,7 +111681,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 2,
 		progress_boss = 17,
 		is_ai = 1,
@@ -112524,7 +112524,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 20,
 		is_ai = 1,
@@ -113216,7 +113216,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30401,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -113612,7 +113612,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4773,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 11,
 		progress_boss = 50,
 		is_ai = 1,
@@ -114240,7 +114240,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4773,
-		pos_y = "0.116041667",
+		pos_y = "0.154722223",
 		model = 11,
 		progress_boss = 50,
 		is_ai = 1,
@@ -114922,7 +114922,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4773,
-		pos_y = "0.116041667",
+		pos_y = "0.154722223",
 		model = 11,
 		progress_boss = 50,
 		is_ai = 1,
@@ -115605,7 +115605,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4773,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 11,
 		progress_boss = 34,
 		is_ai = 1,
@@ -116375,7 +116375,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 4773,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 11,
 		progress_boss = 100,
 		is_ai = 0,
@@ -117033,7 +117033,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4773,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -117496,7 +117496,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4773,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -117966,7 +117966,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4050,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 11,
 		progress_boss = 34,
 		is_ai = 1,
@@ -118603,7 +118603,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4050,
-		pos_y = "0.116041667",
+		pos_y = "0.154722223",
 		model = 11,
 		progress_boss = 34,
 		is_ai = 1,
@@ -119295,7 +119295,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4050,
-		pos_y = "0.116041667",
+		pos_y = "0.154722223",
 		model = 11,
 		progress_boss = 25,
 		is_ai = 1,
@@ -119992,7 +119992,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4050,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 11,
 		progress_boss = 20,
 		is_ai = 1,
@@ -120764,7 +120764,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 4050,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 11,
 		progress_boss = 100,
 		is_ai = 0,
@@ -121456,7 +121456,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4050,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -121919,7 +121919,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.325694444",
+		pos_y = "0.434259259",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -122549,7 +122549,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.08125",
+		pos_y = "0.108333333",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -123230,7 +123230,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.160416667",
+		pos_y = "0.213888889",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -123925,7 +123925,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -124757,7 +124757,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.410208333",
+		pos_y = "0.546944444",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -125201,7 +125201,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -125571,7 +125571,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.081166667",
+		pos_y = "0.108222223",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -125955,7 +125955,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.079166667",
+		pos_y = "0.105555556",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -126399,7 +126399,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.2579",
+		pos_y = "0.343866667",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -126878,7 +126878,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.25625",
+		pos_y = "0.341666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -127604,7 +127604,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4932,
-		pos_y = "0.25625",
+		pos_y = "0.341666667",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -128067,7 +128067,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5802,
-		pos_y = "0.32",
+		pos_y = "0.426666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -128756,7 +128756,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5802,
-		pos_y = "0.081",
+		pos_y = "0.108",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -129501,7 +129501,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5802,
-		pos_y = "0.081",
+		pos_y = "0.108",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -130191,7 +130191,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5802,
-		pos_y = "0.32",
+		pos_y = "0.426666667",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -131007,7 +131007,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5802,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -131622,7 +131622,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5802,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -132012,8 +132012,8 @@ end)()
 		name = "A New Adventure",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.27",
+		act_id = 50042,
+		pos_y = "0.36",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -132747,8 +132747,8 @@ end)()
 		name = "Materials and Synthesis",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.43",
+		act_id = 50042,
+		pos_y = "0.573333333",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -133422,8 +133422,8 @@ end)()
 		name = "The Race to Investigate",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.07",
+		act_id = 50042,
+		pos_y = "0.093333333",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -134158,8 +134158,8 @@ end)()
 		name = "Dungeons and Treasure",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.08",
+		act_id = 50042,
+		pos_y = "0.106666667",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -134898,10 +134898,10 @@ end)()
 		name = "The Home Stretch",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.42",
+		act_id = 50042,
+		pos_y = "0.56",
 		model = 2,
-		progress_boss = 34,
+		progress_boss = 50,
 		is_ai = 1,
 		boss_refresh = 6,
 		is_limit_move = 1,
@@ -134941,7 +134941,7 @@ end)()
 		profiles = "The group's adventure nears its conclusion as they breach the Central Foundation. All that stands between them and their way home is an ancient guardian!",
 		star_require_3 = 3,
 		difficulty = 8,
-		num_2 = 23,
+		num_2 = 17,
 		star_require_2 = 2,
 		avoid_ratio = 12,
 		time = 43200,
@@ -135557,7 +135557,7 @@ end)()
 		},
 		defeat_story_count = {
 			1,
-			3
+			2
 		},
 		npc_data = {},
 		risk_levels = {
@@ -135695,8 +135695,8 @@ end)()
 		name = "The Land of Beginnings",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.27",
+		act_id = 50042,
+		pos_y = "0.36",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -136445,8 +136445,8 @@ end)()
 		name = "The Underworld Grove",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.43",
+		act_id = 50042,
+		pos_y = "0.573333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -137134,8 +137134,8 @@ end)()
 		name = "The Castle of Strife",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.07",
+		act_id = 50042,
+		pos_y = "0.093333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -137884,8 +137884,8 @@ end)()
 		name = "The Desolate Capital",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.08",
+		act_id = 50042,
+		pos_y = "0.106666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -138634,8 +138634,8 @@ end)()
 		name = "The Central Foundation",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.42",
+		act_id = 50042,
+		pos_y = "0.56",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -139336,8 +139336,8 @@ end)()
 		name = "Forceful Approach",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.42",
+		act_id = 50042,
+		pos_y = "0.56",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -139885,8 +139885,8 @@ end)()
 		name = "The Grand Reveal",
 		count = 1,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.2979",
+		act_id = 50042,
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -140622,8 +140622,8 @@ end)()
 		name = "The Archipelago Core",
 		count = 0,
 		pop_pic = "",
-		act_id = 4580,
-		pos_y = "0.2979",
+		act_id = 50042,
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -141012,7 +141012,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5749,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -141698,7 +141698,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5749,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -142383,7 +142383,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5749,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -143129,7 +143129,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5750,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -143875,7 +143875,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5750,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -144682,7 +144682,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5750,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -145522,7 +145522,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5749,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -146249,7 +146249,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5749,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -146975,7 +146975,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5749,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -147762,7 +147762,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5750,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -148553,7 +148553,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5750,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -149407,7 +149407,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5750,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -150294,7 +150294,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5750,
-		pos_y = "0.3579",
+		pos_y = "0.4772",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -151164,7 +151164,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5750,
-		pos_y = "0.3579",
+		pos_y = "0.4772",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -151623,7 +151623,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5860,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -152319,7 +152319,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5860,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -153007,7 +153007,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5860,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -153740,7 +153740,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5861,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -154489,7 +154489,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5861,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -155288,7 +155288,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5861,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -156177,7 +156177,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5860,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -156914,7 +156914,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5860,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -157643,7 +157643,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5860,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -158417,7 +158417,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5861,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -159211,7 +159211,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5861,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -160058,7 +160058,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5861,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -160995,7 +160995,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5861,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -161834,7 +161834,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5861,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -162222,7 +162222,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50003,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -163034,7 +163034,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50003,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -163830,7 +163830,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50003,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -164675,7 +164675,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -165480,7 +165480,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -166319,7 +166319,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -167128,7 +167128,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50003,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -167922,7 +167922,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -168725,7 +168725,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50003,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -169579,7 +169579,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50003,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -170417,7 +170417,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50003,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -171303,7 +171303,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -172153,7 +172153,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -173039,7 +173039,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -173895,7 +173895,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50003,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -174730,7 +174730,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -175576,7 +175576,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -176380,7 +176380,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 50004,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -177103,7 +177103,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4940,
-		pos_y = "0.34375",
+		pos_y = "0.458333333",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -177724,7 +177724,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4940,
-		pos_y = "0.070833333",
+		pos_y = "0.094444444",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -178358,7 +178358,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4940,
-		pos_y = "0.221875",
+		pos_y = "0.295833333",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -179126,7 +179126,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4967,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -179905,7 +179905,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4967,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -180784,7 +180784,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4967,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -181719,7 +181719,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4968,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -182416,7 +182416,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4968,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -183349,7 +183349,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4968,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -184964,7 +184964,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4967,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -185784,7 +185784,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4967,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -186704,7 +186704,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4967,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -187680,7 +187680,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4968,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -188422,7 +188422,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4968,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -189402,7 +189402,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4968,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -191064,7 +191064,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 4968,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -192094,7 +192094,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 4968,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -192392,7 +192392,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5001,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -193132,7 +193132,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5001,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -193775,7 +193775,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5001,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -194462,7 +194462,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5002,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -195143,7 +195143,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5002,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -195893,7 +195893,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5002,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -196870,7 +196870,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5001,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -197651,7 +197651,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5001,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -198335,7 +198335,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5001,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -199063,7 +199063,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5002,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -199790,7 +199790,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5002,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -200587,7 +200587,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5002,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -201611,7 +201611,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5002,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -202149,7 +202149,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5002,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -202540,7 +202540,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5051,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -203275,7 +203275,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5051,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -204010,7 +204010,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5051,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -204816,7 +204816,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5051,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -205616,7 +205616,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5051,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -206502,7 +206502,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5051,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -207418,7 +207418,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5051,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -208065,7 +208065,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5051,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -208530,7 +208530,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.43",
+		pos_y = "0.573333333",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -209261,7 +209261,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.08",
+		pos_y = "0.106666667",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -209952,7 +209952,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.07",
+		pos_y = "0.093333333",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -210696,7 +210696,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.42",
+		pos_y = "0.56",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -211456,7 +211456,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.27",
+		pos_y = "0.36",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -212335,7 +212335,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.43",
+		pos_y = "0.573333333",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -212708,7 +212708,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.08",
+		pos_y = "0.106666667",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -213081,7 +213081,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.07",
+		pos_y = "0.093333333",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -213454,7 +213454,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.42",
+		pos_y = "0.56",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -213827,7 +213827,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.27",
+		pos_y = "0.36",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -214200,7 +214200,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -215104,7 +215104,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5101,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -215525,7 +215525,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5131,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -216275,7 +216275,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5131,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -216913,7 +216913,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5131,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -217664,7 +217664,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5132,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -218351,7 +218351,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5132,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -219109,7 +219109,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5132,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -220044,7 +220044,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5131,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -220835,7 +220835,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5131,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -221515,7 +221515,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5131,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -222308,7 +222308,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5132,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -223040,7 +223040,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5132,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -223845,7 +223845,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5132,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -224827,7 +224827,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5132,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -225539,7 +225539,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5132,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -225930,7 +225930,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5221,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -226679,7 +226679,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5221,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -227419,7 +227419,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5221,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -228165,7 +228165,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5222,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -228913,7 +228913,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5222,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -229656,7 +229656,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5222,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -230609,7 +230609,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5221,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -231399,7 +231399,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5221,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -232180,7 +232180,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5221,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -232967,7 +232967,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5222,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -233760,7 +233760,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5222,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -234550,7 +234550,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5222,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -235550,7 +235550,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5222,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -237183,7 +237183,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5222,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -237590,7 +237590,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Cyanidin",
 		act_id = 5301,
-		pos_y = "0.43",
+		pos_y = "0.573333333",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -238334,7 +238334,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Alizarin",
 		act_id = 5301,
-		pos_y = "0.08",
+		pos_y = "0.106666667",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -239011,7 +239011,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Cyanidin",
 		act_id = 5301,
-		pos_y = "0.07",
+		pos_y = "0.093333333",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -239763,7 +239763,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Alizarin",
 		act_id = 5301,
-		pos_y = "0.42",
+		pos_y = "0.56",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -240516,7 +240516,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Cyanidin",
 		act_id = 5301,
-		pos_y = "0.27",
+		pos_y = "0.36",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -241337,7 +241337,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Cyanidin",
 		act_id = 5301,
-		pos_y = "0.34236",
+		pos_y = "0.45648",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -241714,7 +241714,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Alizarin",
 		act_id = 5301,
-		pos_y = "0.14972",
+		pos_y = "0.199626667",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -242091,7 +242091,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Cyanidin",
 		act_id = 5301,
-		pos_y = "0.4775",
+		pos_y = "0.636666667",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -242468,7 +242468,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Alizarin",
 		act_id = 5301,
-		pos_y = "0.06944",
+		pos_y = "0.092586667",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -242845,7 +242845,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Cyanidin",
 		act_id = 5301,
-		pos_y = "0.4236",
+		pos_y = "0.5648",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -243222,7 +243222,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart_Alizarin",
 		act_id = 5301,
-		pos_y = "0.27",
+		pos_y = "0.36",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -243599,7 +243599,7 @@ end)()
 		count = 1,
 		pop_pic = "LiveStart_AC",
 		act_id = 5301,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -244492,7 +244492,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5301,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -244936,7 +244936,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5331,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -245750,7 +245750,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5331,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -246502,7 +246502,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5331,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -247296,7 +247296,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5332,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -248121,7 +248121,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5332,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -248855,7 +248855,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5332,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -249789,7 +249789,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5331,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -250644,7 +250644,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5331,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -251437,7 +251437,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5331,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -252272,7 +252272,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5332,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -253142,7 +253142,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5332,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -253923,7 +253923,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5332,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -254904,7 +254904,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5332,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -255504,7 +255504,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5332,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -256033,7 +256033,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5501,
-		pos_y = "0.43",
+		pos_y = "0.573333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -256703,7 +256703,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5501,
-		pos_y = "0.08",
+		pos_y = "0.106666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -257390,7 +257390,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5501,
-		pos_y = "0.07",
+		pos_y = "0.093333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -258138,7 +258138,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5501,
-		pos_y = "0.43",
+		pos_y = "0.573333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -258850,7 +258850,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5501,
-		pos_y = "0.08",
+		pos_y = "0.106666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -259584,7 +259584,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5501,
-		pos_y = "0.07",
+		pos_y = "0.093333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -260379,7 +260379,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5501,
-		pos_y = "0.42",
+		pos_y = "0.56",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -261179,7 +261179,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5501,
-		pos_y = "0.27",
+		pos_y = "0.36",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -261684,7 +261684,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5521,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -262418,7 +262418,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5521,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -263159,7 +263159,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5521,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -263939,7 +263939,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5522,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -264868,7 +264868,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5522,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -265674,7 +265674,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5522,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -266605,7 +266605,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5521,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -267381,7 +267381,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5521,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
 		is_ai = 1,
@@ -268164,7 +268164,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5521,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -268986,7 +268986,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5522,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -269960,7 +269960,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5522,
-		pos_y = "0.15083333",
+		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -270813,7 +270813,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5522,
-		pos_y = "0.352708333",
+		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
 		is_ai = 1,
@@ -271791,7 +271791,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5522,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -272642,7 +272642,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5522,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -273263,7 +273263,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5541,
-		pos_y = "0.22",
+		pos_y = "0.293333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -273935,7 +273935,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5541,
-		pos_y = "0.09",
+		pos_y = "0.12",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -274671,7 +274671,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5541,
-		pos_y = "0.22",
+		pos_y = "0.293333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -275533,7 +275533,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5541,
-		pos_y = "0.43",
+		pos_y = "0.573333333",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -276320,7 +276320,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5562,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -276989,7 +276989,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5562,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -277733,7 +277733,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5562,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -278409,7 +278409,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5563,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -279264,7 +279264,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5563,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -280126,7 +280126,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5563,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -280926,7 +280926,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5562,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -281636,7 +281636,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5562,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -282421,7 +282421,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5562,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -283138,7 +283138,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5563,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -284038,7 +284038,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5563,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -284947,7 +284947,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5563,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -285794,7 +285794,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5563,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -286432,7 +286432,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5563,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -286897,7 +286897,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5563,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -287364,7 +287364,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5621,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -288112,7 +288112,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5621,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -288861,7 +288861,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5621,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -289670,7 +289670,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5621,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -290430,7 +290430,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5621,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -291291,7 +291291,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5621,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -292252,7 +292252,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5621,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -292896,7 +292896,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5621,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -293329,7 +293329,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.43",
+		pos_y = "0.573333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -294051,7 +294051,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.08",
+		pos_y = "0.106666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -294727,7 +294727,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.07",
+		pos_y = "0.093333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -295464,7 +295464,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.42",
+		pos_y = "0.56",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -296202,7 +296202,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.27",
+		pos_y = "0.36",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -297020,7 +297020,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.43",
+		pos_y = "0.573333333",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -297393,7 +297393,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.08",
+		pos_y = "0.106666667",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -297766,7 +297766,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.07",
+		pos_y = "0.093333333",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -298139,7 +298139,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.42",
+		pos_y = "0.56",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -298512,7 +298512,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.27",
+		pos_y = "0.36",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -298885,7 +298885,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -299599,7 +299599,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -300034,7 +300034,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5679,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -300471,7 +300471,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5711,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -301225,7 +301225,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5711,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -301976,7 +301976,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5711,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -302910,7 +302910,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5712,
-		pos_y = "0.277083333",
+		pos_y = "0.369444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -303772,7 +303772,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5712,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -304648,7 +304648,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5712,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -305583,7 +305583,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5711,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -306379,7 +306379,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5711,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -307172,7 +307172,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5711,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -308148,7 +308148,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5712,
-		pos_y = "0.277083333",
+		pos_y = "0.369444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -309055,7 +309055,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5712,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -309978,7 +309978,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5712,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -310960,7 +310960,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5712,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -311791,7 +311791,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5712,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -312221,7 +312221,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5712,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -312653,7 +312653,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5821,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -313376,7 +313376,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5821,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -314102,7 +314102,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5821,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -314899,7 +314899,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5822,
-		pos_y = "0.277083333",
+		pos_y = "0.369444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -315760,7 +315760,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5822,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -316592,7 +316592,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5822,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -317520,7 +317520,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5821,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -318284,7 +318284,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5821,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -319051,7 +319051,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5821,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -319889,7 +319889,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5822,
-		pos_y = "0.277083333",
+		pos_y = "0.369444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -320795,7 +320795,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5822,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -321674,7 +321674,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5822,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -322649,7 +322649,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5822,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -322873,7 +322873,7 @@ end)()
 			{
 				8,
 				6,
-				true,
+				false,
 				0
 			},
 			{
@@ -323464,7 +323464,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5822,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -323915,7 +323915,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5822,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -324368,7 +324368,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5901,
-		pos_y = "0.277083333",
+		pos_y = "0.369444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -325043,7 +325043,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5901,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -325721,7 +325721,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5901,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -326461,7 +326461,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5901,
-		pos_y = "0.277083333",
+		pos_y = "0.369444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -327178,7 +327178,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5901,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -327903,7 +327903,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5901,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -328690,7 +328690,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5901,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -329438,7 +329438,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5941,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -330178,7 +330178,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5941,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -330921,7 +330921,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5941,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -331711,7 +331711,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5942,
-		pos_y = "0.277083333",
+		pos_y = "0.369444444",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -332576,7 +332576,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5942,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -333444,7 +333444,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5942,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -334338,7 +334338,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5941,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -335120,7 +335120,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5941,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -335905,7 +335905,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5941,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -336737,7 +336737,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5942,
-		pos_y = "0.277083333",
+		pos_y = "0.369444444",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -337647,7 +337647,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5942,
-		pos_y = "0.152083333",
+		pos_y = "0.202777777",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -338562,7 +338562,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5942,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -339503,7 +339503,7 @@ end)()
 		count = 1,
 		pop_pic = "",
 		act_id = 5942,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -340375,7 +340375,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5942,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -340833,7 +340833,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 5942,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,
@@ -341287,13 +341287,20218 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.chapter_template[1940001] = {
+		special_operation_list = "",
+		name = "Pleasant Sands",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.106666667",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-1",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940001,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940001,
+		pos_x = "0.146",
+		formation = 1940001,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 150,
+		investigation_ratio = 0,
+		profiles = "You're now approaching the entrance area leading to the Skynexus Tower. There's no danger, so you can go forward with peace of mind. – Purity",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 7,
+		star_require_2 = 2,
+		avoid_ratio = 8,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 50,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1940001,
+				15,
+				0
+			},
+			{
+				1940002,
+				10,
+				0
+			},
+			{
+				1940003,
+				30,
+				1
+			},
+			{
+				1940004,
+				15,
+				0
+			},
+			{
+				1940005,
+				10,
+				0
+			},
+			{
+				1940006,
+				30,
+				1
+			},
+			{
+				1940007,
+				15,
+				0
+			},
+			{
+				1940008,
+				10,
+				0
+			},
+			{
+				1940009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1940002,
+			1940005,
+			1940008
+		},
+		ai_expedition_list = {
+			1940301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1940013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenzhongxun"
+		},
+		awards = {
+			{
+				2,
+				200507
+			},
+			{
+				2,
+				200485
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				200484
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				8
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				4
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				0,
+				"youmiya_1_3x1_1",
+				116,
+				4
+			},
+			{
+				6,
+				8,
+				"youmiya_1_1x1_2",
+				0,
+				0
+			},
+			{
+				4,
+				4,
+				"youmiya_1_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				7,
+				"youmiya_1_1x2_1",
+				-5,
+				-42
+			},
+			{
+				2,
+				1,
+				"youmiya_1_2x2_1",
+				50,
+				-43
+			},
+			{
+				0,
+				4,
+				"youmiya_1_3x1_1",
+				106,
+				4
+			},
+			{
+				0,
+				0,
+				"youmiya_1_1x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_1",
+			45,
+			20,
+			-213,
+			16,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			2,
+			21,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940002] = {
+		special_operation_list = "",
+		name = "Skynexus Tower: L1 Area",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.56",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-7",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940002,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940001,
+		pos_x = "0.15",
+		formation = 1940001,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 385,
+		investigation_ratio = 0,
+		profiles = "This is the Skynexus Tower's L1 area, which mainly... Eh, forget it. It's broken down, so it doesn't matter. – Purity",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 8,
+		star_require_2 = 2,
+		avoid_ratio = 9,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 295,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940001
+			}
+		},
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1941001,
+				15,
+				0
+			},
+			{
+				1941002,
+				10,
+				0
+			},
+			{
+				1941003,
+				30,
+				1
+			},
+			{
+				1941004,
+				15,
+				0
+			},
+			{
+				1941005,
+				10,
+				0
+			},
+			{
+				1941006,
+				30,
+				1
+			},
+			{
+				1941007,
+				15,
+				0
+			},
+			{
+				1941008,
+				10,
+				0
+			},
+			{
+				1941009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1941002,
+			1941005,
+			1941008
+		},
+		ai_expedition_list = {
+			1941301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1941013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenqingxun"
+		},
+		awards = {
+			{
+				2,
+				200508
+			},
+			{
+				2,
+				200486
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				200484
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				1
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				12
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				8
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"youmiya_2_1x2_1",
+				-9,
+				-47
+			},
+			{
+				6,
+				0,
+				"youmiya_2_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				5,
+				"youmiya_2_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				6,
+				"youmiya_2_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				4,
+				"youmiya_2_3x1_1",
+				105,
+				-5
+			},
+			{
+				2,
+				0,
+				"youmiya_2_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				8,
+				"youmiya_2_1x2_1",
+				0,
+				-36
+			},
+			{
+				0,
+				0,
+				"youmiya_2_2x2_1",
+				45,
+				-43
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_2",
+			45,
+			20,
+			-304,
+			44,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940003] = {
+		special_operation_list = "",
+		name = "Desert of Death",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.426666667",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-20",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940003,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940001,
+		pos_x = "0.42",
+		formation = 1940001,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 790,
+		investigation_ratio = 0,
+		profiles = "This here's the Desert of Death. It's dominated by ruthless winds and sand. Careful not to die here! Mwahahaha! – Purity",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 9,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 605,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940002
+			}
+		},
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1942001,
+				15,
+				0
+			},
+			{
+				1942002,
+				10,
+				0
+			},
+			{
+				1942003,
+				30,
+				1
+			},
+			{
+				1942004,
+				15,
+				0
+			},
+			{
+				1942005,
+				10,
+				0
+			},
+			{
+				1942006,
+				30,
+				1
+			},
+			{
+				1942007,
+				15,
+				0
+			},
+			{
+				1942008,
+				10,
+				0
+			},
+			{
+				1942009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1942002,
+			1942005,
+			1942008
+		},
+		ai_expedition_list = {
+			1942301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1942013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenquzhu"
+		},
+		awards = {
+			{
+				2,
+				200509
+			},
+			{
+				2,
+				200487
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				200484
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				8
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				8,
+				"youmiya_3_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				4,
+				"youmiya_3_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				2,
+				"youmiya_3_1x1_1",
+				0,
+				0
+			},
+			{
+				6,
+				0,
+				"youmiya_3_1x2_1",
+				0,
+				-40
+			},
+			{
+				4,
+				6,
+				"youmiya_3_2x2_1",
+				54,
+				-24
+			},
+			{
+				3,
+				0,
+				"youmiya_3_3x1_1",
+				98,
+				1
+			},
+			{
+				1,
+				2,
+				"youmiya_3_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				5,
+				"youmiya_3_3x1_1",
+				106,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_3",
+			45,
+			20,
+			-102,
+			-59,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			6,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940004] = {
+		special_operation_list = "",
+		name = "City of Ruins",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.346666667",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-28",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T4",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940004,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940001,
+		pos_x = "0.7",
+		formation = 1940001,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 780,
+		investigation_ratio = 0,
+		profiles = "This is the City of Ruins. Who do you think wrecked it? Also, if you want the treasure I left, you'll have to go looking for it! – Purity",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 10,
+		star_require_2 = 2,
+		avoid_ratio = 11,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 600,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940003
+			}
+		},
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1943001,
+				15,
+				0
+			},
+			{
+				1943002,
+				10,
+				0
+			},
+			{
+				1943003,
+				30,
+				1
+			},
+			{
+				1943004,
+				15,
+				0
+			},
+			{
+				1943005,
+				10,
+				0
+			},
+			{
+				1943006,
+				30,
+				1
+			},
+			{
+				1943007,
+				15,
+				0
+			},
+			{
+				1943008,
+				10,
+				0
+			},
+			{
+				1943009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1943002,
+			1943005,
+			1943008
+		},
+		ai_expedition_list = {
+			1943301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1943013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenzhanlie"
+		},
+		awards = {
+			{
+				2,
+				200510
+			},
+			{
+				2,
+				200488
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				200484
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				1
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				1
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"youmiya_4_3x1_1",
+				104,
+				12
+			},
+			{
+				6,
+				5,
+				"youmiya_4_1x1_1",
+				-3,
+				17
+			},
+			{
+				5,
+				2,
+				"youmiya_4_1x2_1",
+				-24,
+				-30
+			},
+			{
+				3,
+				8,
+				"youmiya_4_1x1_2",
+				7,
+				14
+			},
+			{
+				3,
+				5,
+				"youmiya_4_1x1_2",
+				6,
+				12
+			},
+			{
+				2,
+				2,
+				"youmiya_4_1x2_1",
+				-25,
+				-38
+			},
+			{
+				0,
+				5,
+				"youmiya_4_2x2_1",
+				36,
+				-12
+			},
+			{
+				0,
+				0,
+				"youmiya_4_3x1_1",
+				97,
+				10
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_4",
+			45,
+			20,
+			-385,
+			-49,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			8,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940005] = {
+		special_operation_list = "",
+		name = "Skynexus Tower: Top",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.64",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-53",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T5",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940005,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940001,
+		pos_x = "0.74",
+		formation = 1940001,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 780,
+		investigation_ratio = 0,
+		profiles = "This is hopeless. I can't even scratch her. If it's come to this, there's only one choice left: To blow myself up! To whoever comes after me: I wish you luck! – Purity",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 11,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 600,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940004
+			}
+		},
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1944001,
+				15,
+				0
+			},
+			{
+				1944002,
+				10,
+				0
+			},
+			{
+				1944003,
+				30,
+				1
+			},
+			{
+				1944004,
+				15,
+				0
+			},
+			{
+				1944005,
+				10,
+				0
+			},
+			{
+				1944006,
+				30,
+				1
+			},
+			{
+				1944007,
+				15,
+				0
+			},
+			{
+				1944008,
+				10,
+				0
+			},
+			{
+				1944009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1944002,
+			1944005,
+			1944008
+		},
+		ai_expedition_list = {
+			1944305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1944013
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			20,
+			30,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				200511
+			},
+			{
+				2,
+				200489
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				200484
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				6
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				8
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				1
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"youmiya_5_2x2_1",
+				51,
+				-26
+			},
+			{
+				7,
+				0,
+				"youmiya_5_2x2_1",
+				51,
+				-26
+			},
+			{
+				3,
+				8,
+				"youmiya_5_1x2_1",
+				0,
+				-33
+			},
+			{
+				3,
+				4,
+				"youmiya_5_1x1_1",
+				0,
+				9
+			},
+			{
+				3,
+				0,
+				"youmiya_5_1x2_1",
+				0,
+				-33
+			},
+			{
+				2,
+				3,
+				"youmiya_5_3x1_1",
+				108,
+				9
+			},
+			{
+				1,
+				4,
+				"youmiya_5_1x1_1",
+				0,
+				12
+			},
+			{
+				0,
+				5,
+				"youmiya_5_1x1_2",
+				6,
+				9
+			},
+			{
+				0,
+				3,
+				"youmiya_5_1x1_2",
+				6,
+				9
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_5",
+			45,
+			20,
+			-195,
+			-92,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940021] = {
+		special_operation_list = "",
+		name = "Gathering Site: Entrance Area",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.12",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-1",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "TS1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940021,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940002,
+		pos_x = "0.33",
+		formation = 1940002,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 150,
+		investigation_ratio = 0,
+		profiles = "Height above sea level: 0 m. Obtainable materials: Jewel Mushroom, Mock Mushroom, Skynexus Tower Crystal Ore, Skynexus Tower Energy Core.",
+		star_require_3 = 0,
+		difficulty = 5,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 50,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940005
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1944201,
+				15,
+				0
+			},
+			{
+				1944202,
+				10,
+				0
+			},
+			{
+				1944203,
+				30,
+				1
+			},
+			{
+				1944204,
+				15,
+				0
+			},
+			{
+				1944205,
+				10,
+				0
+			},
+			{
+				1944206,
+				30,
+				1
+			},
+			{
+				1944207,
+				15,
+				0
+			},
+			{
+				1944208,
+				10,
+				0
+			},
+			{
+				1944209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1944202,
+			1944205,
+			1944208
+		},
+		ai_expedition_list = {
+			1944301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1944101
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			20,
+			30,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenzhongxun"
+		},
+		awards = {
+			{
+				2,
+				200512
+			},
+			{
+				2,
+				200490
+			},
+			{
+				1001,
+				101
+			},
+			{
+				1001,
+				102
+			},
+			{
+				1001,
+				111
+			},
+			{
+				1001,
+				112
+			},
+			{
+				2,
+				200484
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				8
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				1
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				4
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				0,
+				"youmiya_1_3x1_1",
+				116,
+				4
+			},
+			{
+				6,
+				8,
+				"youmiya_1_1x1_2",
+				0,
+				0
+			},
+			{
+				4,
+				4,
+				"youmiya_1_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				7,
+				"youmiya_1_1x2_1",
+				-5,
+				-42
+			},
+			{
+				2,
+				1,
+				"youmiya_1_2x2_1",
+				50,
+				-43
+			},
+			{
+				0,
+				4,
+				"youmiya_1_3x1_1",
+				106,
+				4
+			},
+			{
+				0,
+				0,
+				"youmiya_1_1x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_1",
+			45,
+			20,
+			-213,
+			16,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940022] = {
+		special_operation_list = "",
+		name = "Gathering Site: Abundance Stratum",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.56",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-7",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "TS2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940022,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940002,
+		pos_x = "0.15",
+		formation = 1940002,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 385,
+		investigation_ratio = 0,
+		profiles = "Height above sea level: 2 km. Obtainable materials: Uni, Crystal Uni, Skynexus Tower Crystal Ore, Skynexus Tower Energy Core.",
+		star_require_3 = 0,
+		difficulty = 6,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 295,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940005
+			}
+		},
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1944211,
+				15,
+				0
+			},
+			{
+				1944212,
+				10,
+				0
+			},
+			{
+				1944213,
+				30,
+				1
+			},
+			{
+				1944214,
+				15,
+				0
+			},
+			{
+				1944215,
+				10,
+				0
+			},
+			{
+				1944216,
+				30,
+				1
+			},
+			{
+				1944217,
+				15,
+				0
+			},
+			{
+				1944218,
+				10,
+				0
+			},
+			{
+				1944219,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1944212,
+			1944215,
+			1944218
+		},
+		ai_expedition_list = {
+			1944302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1944102
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			20,
+			30,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenqingxun"
+		},
+		awards = {
+			{
+				2,
+				200513
+			},
+			{
+				2,
+				200491
+			},
+			{
+				1001,
+				103
+			},
+			{
+				1001,
+				104
+			},
+			{
+				1001,
+				111
+			},
+			{
+				1001,
+				112
+			},
+			{
+				2,
+				200484
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				1
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				1
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				12
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				8
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				2,
+				"youmiya_2_1x2_1",
+				-9,
+				-47
+			},
+			{
+				6,
+				0,
+				"youmiya_2_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				5,
+				"youmiya_2_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				6,
+				"youmiya_2_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				4,
+				"youmiya_2_3x1_1",
+				105,
+				-5
+			},
+			{
+				2,
+				0,
+				"youmiya_2_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				8,
+				"youmiya_2_1x2_1",
+				0,
+				-36
+			},
+			{
+				0,
+				0,
+				"youmiya_2_2x2_1",
+				45,
+				-43
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_2",
+			45,
+			20,
+			-304,
+			44,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940023] = {
+		special_operation_list = "",
+		name = "Gathering Site: Rot Stratum",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.28",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-20",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "TS3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940023,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940002,
+		pos_x = "0.76",
+		formation = 1940002,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 790,
+		investigation_ratio = 0,
+		profiles = "Height above sea level: 4 km. Obtainable materials: Rotwood Miasma, Air Chime, Skynexus Tower Crystal Ore, Skynexus Tower Energy Core.",
+		star_require_3 = 0,
+		difficulty = 7,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 605,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940005
+			}
+		},
+		scale = {
+			0.61,
+			0.41,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1944221,
+				15,
+				0
+			},
+			{
+				1944222,
+				10,
+				0
+			},
+			{
+				1944223,
+				30,
+				1
+			},
+			{
+				1944224,
+				15,
+				0
+			},
+			{
+				1944225,
+				10,
+				0
+			},
+			{
+				1944226,
+				30,
+				1
+			},
+			{
+				1944227,
+				15,
+				0
+			},
+			{
+				1944228,
+				10,
+				0
+			},
+			{
+				1944229,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1944222,
+			1944225,
+			1944228
+		},
+		ai_expedition_list = {
+			1944303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1944103
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			20,
+			30,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenquzhu"
+		},
+		awards = {
+			{
+				2,
+				200514
+			},
+			{
+				2,
+				200492
+			},
+			{
+				1001,
+				105
+			},
+			{
+				1001,
+				106
+			},
+			{
+				1001,
+				111
+			},
+			{
+				1001,
+				112
+			},
+			{
+				2,
+				200484
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				8
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				16
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				1
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				8,
+				"youmiya_3_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				4,
+				"youmiya_3_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				2,
+				"youmiya_3_1x1_1",
+				0,
+				0
+			},
+			{
+				6,
+				0,
+				"youmiya_3_1x2_1",
+				0,
+				-40
+			},
+			{
+				4,
+				6,
+				"youmiya_3_2x2_1",
+				54,
+				-24
+			},
+			{
+				3,
+				0,
+				"youmiya_3_3x1_1",
+				98,
+				1
+			},
+			{
+				1,
+				2,
+				"youmiya_3_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				5,
+				"youmiya_3_3x1_1",
+				106,
+				5
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_3",
+			45,
+			20,
+			-102,
+			-59,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940024] = {
+		special_operation_list = "",
+		name = "Gathering Site: Ruin Stratum",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.666666667",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-28",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "TS4",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940024,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940002,
+		pos_x = "0.45",
+		formation = 1940002,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 780,
+		investigation_ratio = 0,
+		profiles = "Height above sea level: 6 km. Obtainable materials: Glacial Stone, Hibismuth, Skynexus Tower Crystal Ore, Skynexus Tower Energy Core.",
+		star_require_3 = 0,
+		difficulty = 8,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 600,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940005
+			}
+		},
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1944231,
+				15,
+				0
+			},
+			{
+				1944232,
+				10,
+				0
+			},
+			{
+				1944233,
+				30,
+				1
+			},
+			{
+				1944234,
+				15,
+				0
+			},
+			{
+				1944235,
+				10,
+				0
+			},
+			{
+				1944236,
+				30,
+				1
+			},
+			{
+				1944237,
+				15,
+				0
+			},
+			{
+				1944238,
+				10,
+				0
+			},
+			{
+				1944239,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1944232,
+			1944235,
+			1944238
+		},
+		ai_expedition_list = {
+			1944304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1944104
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			20,
+			30,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenzhanlie"
+		},
+		awards = {
+			{
+				2,
+				200515
+			},
+			{
+				2,
+				200493
+			},
+			{
+				1001,
+				107
+			},
+			{
+				1001,
+				108
+			},
+			{
+				1001,
+				111
+			},
+			{
+				1001,
+				112
+			},
+			{
+				2,
+				200484
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				1
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				1
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"youmiya_4_3x1_1",
+				104,
+				12
+			},
+			{
+				6,
+				5,
+				"youmiya_4_1x1_1",
+				-3,
+				17
+			},
+			{
+				5,
+				2,
+				"youmiya_4_1x2_1",
+				-24,
+				-30
+			},
+			{
+				3,
+				8,
+				"youmiya_4_1x1_2",
+				7,
+				14
+			},
+			{
+				3,
+				5,
+				"youmiya_4_1x1_2",
+				6,
+				12
+			},
+			{
+				2,
+				2,
+				"youmiya_4_1x2_1",
+				-25,
+				-38
+			},
+			{
+				0,
+				5,
+				"youmiya_4_2x2_1",
+				36,
+				-12
+			},
+			{
+				0,
+				0,
+				"youmiya_4_3x1_1",
+				97,
+				10
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_4",
+			45,
+			20,
+			-385,
+			-49,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940025] = {
+		special_operation_list = "",
+		name = "Gathering Site: Skynexus Stratum",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.56",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-53",
+		icon_outline = 1,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "TS5",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940025,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940002,
+		pos_x = "0.74",
+		formation = 1940002,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 780,
+		investigation_ratio = 0,
+		profiles = "Height above sea level: 8 km. Obtainable materials: Marimo, Poisoned Puffer, Skynexus Tower Crystal Ore, Skynexus Tower Energy Core.",
+		star_require_3 = 0,
+		difficulty = 8,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 600,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940005
+			}
+		},
+		scale = {
+			0.49,
+			0.35,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1944241,
+				15,
+				0
+			},
+			{
+				1944242,
+				10,
+				0
+			},
+			{
+				1944243,
+				30,
+				1
+			},
+			{
+				1944244,
+				15,
+				0
+			},
+			{
+				1944245,
+				10,
+				0
+			},
+			{
+				1944246,
+				30,
+				1
+			},
+			{
+				1944247,
+				15,
+				0
+			},
+			{
+				1944248,
+				10,
+				0
+			},
+			{
+				1944249,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1944242,
+			1944245,
+			1944248
+		},
+		ai_expedition_list = {
+			1944305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1944105
+		},
+		enemy_refresh = {
+			2,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			1,
+			0
+		},
+		ai_refresh = {
+			2,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			20,
+			30,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"lianjin_II_sairenhangmu"
+		},
+		awards = {
+			{
+				2,
+				200516
+			},
+			{
+				2,
+				200494
+			},
+			{
+				1001,
+				109
+			},
+			{
+				1001,
+				110
+			},
+			{
+				1001,
+				111
+			},
+			{
+				1001,
+				112
+			},
+			{
+				2,
+				200484
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				6
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				8
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				12
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				4
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				1
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				1
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"youmiya_5_2x2_1",
+				51,
+				-26
+			},
+			{
+				7,
+				0,
+				"youmiya_5_2x2_1",
+				51,
+				-26
+			},
+			{
+				3,
+				8,
+				"youmiya_5_1x2_1",
+				0,
+				-33
+			},
+			{
+				3,
+				4,
+				"youmiya_5_1x1_1",
+				0,
+				9
+			},
+			{
+				3,
+				0,
+				"youmiya_5_1x2_1",
+				0,
+				-33
+			},
+			{
+				2,
+				3,
+				"youmiya_5_3x1_1",
+				108,
+				9
+			},
+			{
+				1,
+				4,
+				"youmiya_5_1x1_1",
+				0,
+				12
+			},
+			{
+				0,
+				5,
+				"youmiya_5_1x1_2",
+				6,
+				9
+			},
+			{
+				0,
+				3,
+				"youmiya_5_1x1_2",
+				6,
+				9
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_5",
+			45,
+			20,
+			-195,
+			-4,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940041] = {
+		special_operation_list = "",
+		name = "Skybound Journey of Chance",
+		count = 1,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.4",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 0,
+		boss_refresh = 7,
+		is_limit_move = 0,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-79",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "Y.SP",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940041,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940003,
+		pos_x = "0.44",
+		formation = 1940003,
+		mitigation_level = 0,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 1720,
+		investigation_ratio = 0,
+		profiles = "It is a survey, a treasure hunt, and an adventure... The journey to touch the sky begins now.",
+		star_require_3 = 0,
+		difficulty = 10,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 24,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1320,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940005
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1945001,
+				15,
+				0
+			},
+			{
+				1945002,
+				10,
+				0
+			},
+			{
+				1945003,
+				30,
+				0
+			},
+			{
+				1945004,
+				15,
+				0
+			},
+			{
+				1945005,
+				10,
+				0
+			},
+			{
+				1945006,
+				30,
+				0
+			},
+			{
+				1945007,
+				15,
+				0
+			},
+			{
+				1945008,
+				10,
+				0
+			},
+			{
+				1945009,
+				30,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1945301,
+			1945302,
+			1945303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1945013
+		},
+		enemy_refresh = {
+			8
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			3
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss27"
+		},
+		awards = {
+			{
+				2,
+				200517
+			},
+			{
+				2,
+				200495
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				200484
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				true,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				12
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				12
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				12
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				16
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				1
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				1
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				8
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				7,
+				"youmiya_5_1x1_2",
+				14,
+				13
+			},
+			{
+				8,
+				4,
+				"youmiya_5_3x1_1",
+				104,
+				6
+			},
+			{
+				8,
+				3,
+				"youmiya_5_1x1_2",
+				0,
+				13
+			},
+			{
+				7,
+				8,
+				"youmiya_5_2x2_1",
+				44,
+				-31
+			},
+			{
+				7,
+				1,
+				"youmiya_5_2x2_1",
+				46,
+				-32
+			},
+			{
+				5,
+				9,
+				"youmiya_5_1x2_1",
+				-8,
+				-33
+			},
+			{
+				5,
+				7,
+				"youmiya_5_1x1_2",
+				9,
+				8
+			},
+			{
+				5,
+				6,
+				"youmiya_5_1x2_1",
+				7,
+				-28
+			},
+			{
+				5,
+				4,
+				"youmiya_5_1x2_1",
+				-6,
+				-33
+			},
+			{
+				5,
+				3,
+				"youmiya_5_1x1_2",
+				6,
+				8
+			},
+			{
+				5,
+				1,
+				"youmiya_5_1x2_1",
+				-8,
+				-33
+			},
+			{
+				4,
+				9,
+				"youmiya_5_1x1_1",
+				0,
+				11
+			},
+			{
+				4,
+				1,
+				"youmiya_5_1x1_1",
+				0,
+				11
+			},
+			{
+				3,
+				7,
+				"youmiya_5_1x1_2",
+				13,
+				5
+			},
+			{
+				3,
+				6,
+				"youmiya_5_1x1_1",
+				1,
+				11
+			},
+			{
+				3,
+				4,
+				"youmiya_5_1x1_1",
+				-3,
+				11
+			},
+			{
+				3,
+				3,
+				"youmiya_5_1x1_2",
+				8,
+				7
+			},
+			{
+				2,
+				9,
+				"youmiya_5_1x2_1",
+				-8,
+				-33
+			},
+			{
+				2,
+				4,
+				"youmiya_5_3x1_1",
+				104,
+				11
+			},
+			{
+				2,
+				1,
+				"youmiya_5_1x2_1",
+				-8,
+				-33
+			},
+			{
+				1,
+				7,
+				"youmiya_5_3x1_1",
+				108,
+				14
+			},
+			{
+				1,
+				1,
+				"youmiya_5_3x1_1",
+				110,
+				14
+			},
+			{
+				0,
+				5,
+				"youmiya_5_1x1_2",
+				6,
+				11
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_5",
+			45,
+			20,
+			-293,
+			-18,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940051] = {
+		special_operation_list = "",
+		name = "Skynexus Tower Core",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.4",
+		model = 5,
+		progress_boss = 100,
+		is_ai = 0,
+		boss_refresh = 0,
+		is_limit_move = 0,
+		oil = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-az-battle",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "EX",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940051,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940004,
+		pos_x = "0.44",
+		formation = 1940004,
+		mitigation_level = 0,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 810,
+		investigation_ratio = 0,
+		profiles = "At the core area of the Skynexus Tower, a more powerful enemy awaits...\n<color=#5caaff>(Your score will not be added to the rankings.)</color>",
+		star_require_3 = 0,
+		difficulty = 10,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 17,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 620,
+		submarine_num = 0,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940041
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1946001
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss27"
+		},
+		awards = {},
+		grids = {
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				1
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				3,
+				3,
+				"youmiya_5_2x2_1",
+				60,
+				-31
+			},
+			{
+				3,
+				0,
+				"youmiya_5_2x2_1",
+				43,
+				-32
+			},
+			{
+				1,
+				2,
+				"youmiya_5_1x1_2",
+				10,
+				10
+			},
+			{
+				0,
+				1,
+				"youmiya_5_3x1_1",
+				108,
+				11
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_5",
+			45,
+			20,
+			-47,
+			-264,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_strategy = {
+			201461
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1940052] = {
+		special_operation_list = "",
+		name = "Skynexus Tower Core",
+		count = 0,
+		pop_pic = "",
+		act_id = 50054,
+		pos_y = "0.4",
+		model = 5,
+		progress_boss = 100,
+		is_ai = 0,
+		boss_refresh = 0,
+		is_limit_move = 0,
+		oil = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "yumia-az-battle",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "EX",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1940052,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1940004,
+		pos_x = "0.44",
+		formation = 1940004,
+		mitigation_level = 0,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 810,
+		investigation_ratio = 0,
+		profiles = "At the core area of the Skynexus Tower, a more powerful enemy awaits...\n<color=#ff5c5c>(Be aware that this map is exceedingly difficult.)</color>",
+		star_require_3 = 0,
+		difficulty = 10,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 17,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 620,
+		submarine_num = 0,
+		uifx = "",
+		pre_chapter = {
+			{
+				1940041
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1946002
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss27"
+		},
+		awards = {},
+		grids = {
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				1
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				3,
+				3,
+				"youmiya_5_2x2_1",
+				60,
+				-31
+			},
+			{
+				3,
+				0,
+				"youmiya_5_2x2_1",
+				43,
+				-32
+			},
+			{
+				1,
+				2,
+				"youmiya_5_1x1_2",
+				10,
+				10
+			},
+			{
+				0,
+				1,
+				"youmiya_5_3x1_1",
+				108,
+				11
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_youmiya_5",
+			45,
+			20,
+			-47,
+			-264,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_strategy = {
+			201462
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950001] = {
+		special_operation_list = "",
+		name = "Land of Auroras",
+		count = 0,
+		pop_pic = "",
+		act_id = 50081,
+		pos_y = "0.54",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 3,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950001,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950001,
+		pos_x = "0.25",
+		formation = 1950001,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 150,
+		investigation_ratio = 0,
+		profiles = "[Location: Land of Auroras] / A place where auroras and blizzards have interweaved since ancient times. You will fall into a boundless sea of light the moment you set foot here.",
+		star_require_3 = 3,
+		difficulty = 3,
+		num_2 = 7,
+		star_require_2 = 2,
+		avoid_ratio = 8,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 100,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1950001,
+				15,
+				0
+			},
+			{
+				1950002,
+				10,
+				0
+			},
+			{
+				1950003,
+				30,
+				1
+			},
+			{
+				1950004,
+				15,
+				0
+			},
+			{
+				1950005,
+				10,
+				0
+			},
+			{
+				1950006,
+				30,
+				1
+			},
+			{
+				1950007,
+				15,
+				0
+			},
+			{
+				1950008,
+				10,
+				0
+			},
+			{
+				1950009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1950002,
+			1950005,
+			1950008
+		},
+		ai_expedition_list = {
+			1950301,
+			1950302,
+			1950303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1950013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"bensen_2"
+		},
+		awards = {
+			{
+				2,
+				200544
+			},
+			{
+				2,
+				200518
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				1
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				12
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				1
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"masaina_1_1x1_1",
+				0,
+				2
+			},
+			{
+				4,
+				2,
+				"masaina_1_3x1_1",
+				103,
+				1
+			},
+			{
+				3,
+				8,
+				"masaina_1_1x1_2",
+				0,
+				6
+			},
+			{
+				1,
+				0,
+				"masaina_1_1x2_1",
+				2,
+				-37
+			},
+			{
+				0,
+				3,
+				"masaina_1_2x2_1",
+				57,
+				-36
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_1",
+			45,
+			20,
+			-237,
+			-358,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950002] = {
+		special_operation_list = "",
+		name = "Frostheim",
+		count = 0,
+		pop_pic = "",
+		act_id = 50081,
+		pos_y = "0.2",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950002,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950001,
+		pos_x = "0.2",
+		formation = 1950001,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 170,
+		investigation_ratio = 0,
+		profiles = "[Location: Frostheim] / A fortress amidst the snow guarded by Bois Belleau, the Winter General. It is the heart of this frozen land.",
+		star_require_3 = 3,
+		difficulty = 4,
+		num_2 = 7,
+		star_require_2 = 2,
+		avoid_ratio = 9,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 130,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950001
+			},
+			{
+				1950021
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1950101,
+				15,
+				0
+			},
+			{
+				1950102,
+				10,
+				0
+			},
+			{
+				1950103,
+				30,
+				1
+			},
+			{
+				1950104,
+				15,
+				0
+			},
+			{
+				1950105,
+				10,
+				0
+			},
+			{
+				1950106,
+				30,
+				1
+			},
+			{
+				1950107,
+				15,
+				0
+			},
+			{
+				1950108,
+				10,
+				0
+			},
+			{
+				1950109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1950102,
+			1950105,
+			1950108
+		},
+		ai_expedition_list = {
+			1950304,
+			1950305,
+			1950306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1950113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"beilaosenlin"
+		},
+		awards = {
+			{
+				2,
+				200545
+			},
+			{
+				2,
+				200519
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			}
+		},
+		grids = {
+			{
+				9,
+				6,
+				true,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				6
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				6
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				8
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				6
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				16
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				1
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				1
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				4,
+				"masaina_1_3x1_1",
+				98,
+				5
+			},
+			{
+				6,
+				0,
+				"masaina_1_3x1_1",
+				99,
+				5
+			},
+			{
+				2,
+				6,
+				"masaina_1_1x1_1",
+				0,
+				2
+			},
+			{
+				2,
+				5,
+				"masaina_1_1x2_1",
+				0,
+				-31
+			},
+			{
+				2,
+				1,
+				"masaina_1_1x2_1",
+				0,
+				-28
+			},
+			{
+				2,
+				0,
+				"masaina_1_1x1_1",
+				0,
+				2
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_1",
+			45,
+			20,
+			-141,
+			-289,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950003] = {
+		special_operation_list = "",
+		name = "Miasmic Swamp",
+		count = 0,
+		pop_pic = "",
+		act_id = 50081,
+		pos_y = "0.62",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950003,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950001,
+		pos_x = "0.56",
+		formation = 1950001,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 215,
+		investigation_ratio = 0,
+		profiles = "[Location: Miasmic Swamp] / A swamp riddled with foul air, sticking to this rotten land like bloated skin.",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 7,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 165,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950002
+			},
+			{
+				1950022
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1950201,
+				15,
+				0
+			},
+			{
+				1950202,
+				10,
+				0
+			},
+			{
+				1950203,
+				30,
+				1
+			},
+			{
+				1950204,
+				15,
+				0
+			},
+			{
+				1950205,
+				10,
+				0
+			},
+			{
+				1950206,
+				30,
+				1
+			},
+			{
+				1950207,
+				15,
+				0
+			},
+			{
+				1950208,
+				10,
+				0
+			},
+			{
+				1950209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1950202,
+			1950205,
+			1950208
+		},
+		ai_expedition_list = {
+			1950307,
+			1950308,
+			1950309
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1950213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"jiulaimu_emo"
+		},
+		awards = {
+			{
+				2,
+				200546
+			},
+			{
+				2,
+				200520
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			}
+		},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				4
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				2,
+				"masaina_2_1x1_1",
+				0,
+				10
+			},
+			{
+				4,
+				5,
+				"masaina_2_2x2_1",
+				57,
+				-27
+			},
+			{
+				3,
+				0,
+				"masaina_2_1x2_1",
+				0,
+				-39
+			},
+			{
+				1,
+				9,
+				"masaina_2_1x2_1",
+				3,
+				-41
+			},
+			{
+				0,
+				5,
+				"masaina_2_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"masaina_2_3x1_1",
+				98,
+				1
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_2",
+			45,
+			20,
+			-221,
+			-250,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950004] = {
+		special_operation_list = "",
+		name = "Palace of Pandemonium",
+		count = 0,
+		pop_pic = "",
+		act_id = 50082,
+		pos_y = "0.51",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T4",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950004,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950002,
+		pos_x = "0.69",
+		formation = 1950002,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 275,
+		investigation_ratio = 0,
+		profiles = "[Location: Palace of Pandemonium] / Home to Deutschland, the Demon Princess. Its deep black spire pierces the shadows and points at the sky like a sword of dominance forged from nightmares.",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 10,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 210,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950003
+			},
+			{
+				1950023
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1951001,
+				15,
+				0
+			},
+			{
+				1951002,
+				10,
+				0
+			},
+			{
+				1951003,
+				30,
+				1
+			},
+			{
+				1951004,
+				15,
+				0
+			},
+			{
+				1951005,
+				10,
+				0
+			},
+			{
+				1951006,
+				30,
+				1
+			},
+			{
+				1951007,
+				15,
+				0
+			},
+			{
+				1951008,
+				10,
+				0
+			},
+			{
+				1951009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1951002,
+			1951005,
+			1951008
+		},
+		ai_expedition_list = {
+			1951301,
+			1951302,
+			1951303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1951013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"deyizhi_2"
+		},
+		awards = {
+			{
+				2,
+				200547
+			},
+			{
+				2,
+				200521
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				7,
+				10,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				1
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				1
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				16
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				12
+			},
+			{
+				4,
+				8,
+				true,
+				8
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				0,
+				"masaina_2_1x1_2",
+				0,
+				0
+			},
+			{
+				6,
+				10,
+				"masaina_2_1x2_1",
+				4,
+				-32
+			},
+			{
+				6,
+				5,
+				"masaina_2_2x2_1",
+				58,
+				-37
+			},
+			{
+				5,
+				2,
+				"masaina_2_1x1_1",
+				0,
+				3
+			},
+			{
+				4,
+				1,
+				"masaina_2_3x1_1",
+				105,
+				6
+			},
+			{
+				3,
+				7,
+				"masaina_2_3x1_1",
+				103,
+				7
+			},
+			{
+				1,
+				3,
+				"masaina_2_2x2_1",
+				43,
+				-19
+			},
+			{
+				0,
+				7,
+				"masaina_2_1x2_1",
+				0,
+				-28
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_2",
+			45,
+			20,
+			-419,
+			-27,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950005] = {
+		special_operation_list = "",
+		name = "Spire of Cycles",
+		count = 0,
+		pop_pic = "",
+		act_id = 50082,
+		pos_y = "0.3",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T5",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950005,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950002,
+		pos_x = "0.45",
+		formation = 1950002,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 350,
+		investigation_ratio = 0,
+		profiles = "[Location: Spire of Cycles] / The three-layered tower commanded by Albion, the Lord of Aberrinth. It is both the terminus and the genesis of your journey.",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 10,
+		star_require_2 = 2,
+		avoid_ratio = 11,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 270,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950004
+			},
+			{
+				1950024
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1951101,
+				15,
+				0
+			},
+			{
+				1951102,
+				10,
+				0
+			},
+			{
+				1951103,
+				30,
+				1
+			},
+			{
+				1951104,
+				15,
+				0
+			},
+			{
+				1951105,
+				10,
+				0
+			},
+			{
+				1951106,
+				30,
+				1
+			},
+			{
+				1951107,
+				15,
+				0
+			},
+			{
+				1951108,
+				10,
+				0
+			},
+			{
+				1951109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1951102,
+			1951105,
+			1951108
+		},
+		ai_expedition_list = {
+			1951304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1951113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"aerbien_2"
+		},
+		awards = {
+			{
+				2,
+				200548
+			},
+			{
+				2,
+				200522
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				8
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				1
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"masaina_3_2x2_1",
+				47,
+				-38
+			},
+			{
+				6,
+				1,
+				"masaina_3_2x2_1",
+				46,
+				-40
+			},
+			{
+				4,
+				8,
+				"masaina_3_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				0,
+				"masaina_3_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"masaina_3_3x1_1",
+				101,
+				9
+			},
+			{
+				0,
+				7,
+				"masaina_3_2x2_1",
+				49,
+				-35
+			},
+			{
+				0,
+				0,
+				"masaina_3_2x2_1",
+				44,
+				-32
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_3",
+			45,
+			20,
+			-229,
+			-327,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950006] = {
+		special_operation_list = "",
+		name = "Realm of Slumber",
+		count = 0,
+		pop_pic = "",
+		act_id = 50082,
+		pos_y = "0.16",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "T6",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950006,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950002,
+		pos_x = "0.74",
+		formation = 1950002,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 430,
+		investigation_ratio = 0,
+		profiles = "[Location: Realm of Slumber] / Once the place where the tree of life extended its roots and the haven of the elder elves, it's now become the prison of an otherworldy being filled with evil.",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 11,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 330,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950005
+			},
+			{
+				1950025
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1951201,
+				15,
+				0
+			},
+			{
+				1951202,
+				10,
+				0
+			},
+			{
+				1951203,
+				30,
+				1
+			},
+			{
+				1951204,
+				15,
+				0
+			},
+			{
+				1951205,
+				10,
+				0
+			},
+			{
+				1951206,
+				30,
+				1
+			},
+			{
+				1951207,
+				15,
+				0
+			},
+			{
+				1951208,
+				10,
+				0
+			},
+			{
+				1951209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1951202,
+			1951205,
+			1951208
+		},
+		ai_expedition_list = {
+			1951305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1951213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"aimudeng_2"
+		},
+		awards = {
+			{
+				2,
+				200549
+			},
+			{
+				2,
+				200523
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				16
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				9,
+				"masaina_3_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				7,
+				"masaina_3_1x2_1",
+				0,
+				-39
+			},
+			{
+				7,
+				3,
+				"masaina_3_1x2_1",
+				-5,
+				-37
+			},
+			{
+				7,
+				1,
+				"masaina_3_1x1_2",
+				0,
+				0
+			},
+			{
+				3,
+				9,
+				"masaina_3_1x1_1",
+				-2,
+				5
+			},
+			{
+				3,
+				1,
+				"masaina_3_1x1_1",
+				-5,
+				3
+			},
+			{
+				2,
+				6,
+				"masaina_3_3x1_1",
+				121,
+				4
+			},
+			{
+				2,
+				2,
+				"masaina_3_3x1_1",
+				84,
+				6
+			},
+			{
+				0,
+				4,
+				"masaina_3_2x2_1",
+				98,
+				-27
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_3",
+			45,
+			20,
+			-316,
+			59,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950021] = {
+		special_operation_list = "",
+		name = "Land of Auroras",
+		count = 0,
+		pop_pic = "",
+		act_id = 50081,
+		pos_y = "0.54",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "HT1",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950021,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950011,
+		pos_x = "0.25",
+		formation = 1950011,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 590,
+		investigation_ratio = 0,
+		profiles = "[Location: Land of Auroras] / A place where auroras and blizzards have interweaved since ancient times. You will fall into a boundless sea of light the moment you set foot here.",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 9,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 455,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					"quzhu",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				500
+			},
+			{
+				"torpedo",
+				1,
+				400
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1952001,
+				15,
+				0
+			},
+			{
+				1952002,
+				10,
+				0
+			},
+			{
+				1952003,
+				30,
+				1
+			},
+			{
+				1952004,
+				15,
+				0
+			},
+			{
+				1952005,
+				10,
+				0
+			},
+			{
+				1952006,
+				30,
+				1
+			},
+			{
+				1952007,
+				15,
+				0
+			},
+			{
+				1952008,
+				10,
+				0
+			},
+			{
+				1952009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1952002,
+			1952005,
+			1952008
+		},
+		ai_expedition_list = {
+			1952301,
+			1952302,
+			1952303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1952013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"bensen_2"
+		},
+		awards = {
+			{
+				2,
+				200550
+			},
+			{
+				2,
+				200524
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				8
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				1
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				12
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				1
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"masaina_1_1x1_1",
+				0,
+				2
+			},
+			{
+				4,
+				2,
+				"masaina_1_3x1_1",
+				103,
+				1
+			},
+			{
+				3,
+				8,
+				"masaina_1_1x1_2",
+				0,
+				6
+			},
+			{
+				1,
+				0,
+				"masaina_1_1x2_1",
+				2,
+				-37
+			},
+			{
+				0,
+				3,
+				"masaina_1_2x2_1",
+				57,
+				-36
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_1",
+			45,
+			20,
+			-237,
+			-358,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950022] = {
+		special_operation_list = "",
+		name = "Frostheim",
+		count = 0,
+		pop_pic = "",
+		act_id = 50081,
+		pos_y = "0.2",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "HT2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950022,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950011,
+		pos_x = "0.2",
+		formation = 1950011,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 785,
+		investigation_ratio = 0,
+		profiles = "[Location: Frostheim] / A fortress amidst the snow guarded by Bois Belleau, the Winter General. It is the heart of this frozen land.",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 9,
+		star_require_2 = 2,
+		avoid_ratio = 13,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 605,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950001
+			},
+			{
+				1950021
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					"quzhu",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				650
+			},
+			{
+				"dodge",
+				1,
+				350
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1952101,
+				15,
+				0
+			},
+			{
+				1952102,
+				10,
+				0
+			},
+			{
+				1952103,
+				30,
+				1
+			},
+			{
+				1952104,
+				15,
+				0
+			},
+			{
+				1952105,
+				10,
+				0
+			},
+			{
+				1952106,
+				30,
+				1
+			},
+			{
+				1952107,
+				15,
+				0
+			},
+			{
+				1952108,
+				10,
+				0
+			},
+			{
+				1952109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1952102,
+			1952105,
+			1952108
+		},
+		ai_expedition_list = {
+			1952304,
+			1952305,
+			1952306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1952113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"beilaosenlin"
+		},
+		awards = {
+			{
+				2,
+				200551
+			},
+			{
+				2,
+				200525
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				9,
+				6,
+				true,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				6
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				6
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				8
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				6
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				16
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				4
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				1
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				1
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				4,
+				"masaina_1_3x1_1",
+				98,
+				5
+			},
+			{
+				6,
+				0,
+				"masaina_1_3x1_1",
+				99,
+				5
+			},
+			{
+				2,
+				6,
+				"masaina_1_1x1_1",
+				0,
+				2
+			},
+			{
+				2,
+				5,
+				"masaina_1_1x2_1",
+				0,
+				-31
+			},
+			{
+				2,
+				1,
+				"masaina_1_1x2_1",
+				0,
+				-28
+			},
+			{
+				2,
+				0,
+				"masaina_1_1x1_1",
+				0,
+				2
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_1",
+			45,
+			20,
+			-141,
+			-289,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950023] = {
+		special_operation_list = "",
+		name = "Miasmic Swamp",
+		count = 0,
+		pop_pic = "",
+		act_id = 50081,
+		pos_y = "0.62",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "HT3",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950023,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950011,
+		pos_x = "0.56",
+		formation = 1950011,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1010,
+		investigation_ratio = 0,
+		profiles = "[Location: Miasmic Swamp] / A swamp riddled with foul air, sticking to this rotten land like bloated skin.",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 9,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 775,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950002
+			},
+			{
+				1950022
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					"quzhu",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1952201,
+				15,
+				0
+			},
+			{
+				1952202,
+				10,
+				0
+			},
+			{
+				1952203,
+				30,
+				1
+			},
+			{
+				1952204,
+				15,
+				0
+			},
+			{
+				1952205,
+				10,
+				0
+			},
+			{
+				1952206,
+				30,
+				1
+			},
+			{
+				1952207,
+				15,
+				0
+			},
+			{
+				1952208,
+				10,
+				0
+			},
+			{
+				1952209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1952202,
+			1952205,
+			1952208
+		},
+		ai_expedition_list = {
+			1952307,
+			1952308,
+			1952309
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1952213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"jiulaimu_emo"
+		},
+		awards = {
+			{
+				2,
+				200552
+			},
+			{
+				2,
+				200526
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				4
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				8
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				2,
+				"masaina_2_1x1_1",
+				0,
+				10
+			},
+			{
+				4,
+				5,
+				"masaina_2_2x2_1",
+				57,
+				-27
+			},
+			{
+				3,
+				0,
+				"masaina_2_1x2_1",
+				0,
+				-39
+			},
+			{
+				1,
+				9,
+				"masaina_2_1x2_1",
+				3,
+				-41
+			},
+			{
+				0,
+				5,
+				"masaina_2_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"masaina_2_3x1_1",
+				98,
+				1
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_2",
+			45,
+			20,
+			-221,
+			-250,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950024] = {
+		special_operation_list = "",
+		name = "Palace of Pandemonium",
+		count = 0,
+		pop_pic = "",
+		act_id = 50082,
+		pos_y = "0.51",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "HT4",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950024,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950012,
+		pos_x = "0.69",
+		formation = 1950012,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1105,
+		investigation_ratio = 0,
+		profiles = "[Location: Palace of Pandemonium] / Home to Deutschland, the Demon Princess. Its deep black spire pierces the shadows and points at the sky like a sword of dominance forged from nightmares.",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 11,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 850,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950003
+			},
+			{
+				1950023
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				950
+			},
+			{
+				"dodge",
+				1,
+				600
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1953001,
+				15,
+				0
+			},
+			{
+				1953002,
+				10,
+				0
+			},
+			{
+				1953003,
+				30,
+				1
+			},
+			{
+				1953004,
+				15,
+				0
+			},
+			{
+				1953005,
+				10,
+				0
+			},
+			{
+				1953006,
+				30,
+				1
+			},
+			{
+				1953007,
+				15,
+				0
+			},
+			{
+				1953008,
+				10,
+				0
+			},
+			{
+				1953009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1953002,
+			1953005,
+			1953008
+		},
+		ai_expedition_list = {
+			1953301,
+			1953302,
+			1953303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1953013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"deyizhi_2"
+		},
+		awards = {
+			{
+				2,
+				200553
+			},
+			{
+				2,
+				200527
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				10,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				1
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				1
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				16
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				12
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				12
+			},
+			{
+				4,
+				8,
+				true,
+				8
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				0,
+				"masaina_2_1x1_2",
+				0,
+				0
+			},
+			{
+				6,
+				10,
+				"masaina_2_1x2_1",
+				4,
+				-32
+			},
+			{
+				6,
+				5,
+				"masaina_2_2x2_1",
+				58,
+				-37
+			},
+			{
+				5,
+				2,
+				"masaina_2_1x1_1",
+				0,
+				3
+			},
+			{
+				4,
+				1,
+				"masaina_2_3x1_1",
+				105,
+				6
+			},
+			{
+				3,
+				7,
+				"masaina_2_3x1_1",
+				103,
+				7
+			},
+			{
+				1,
+				3,
+				"masaina_2_2x2_1",
+				43,
+				-19
+			},
+			{
+				0,
+				7,
+				"masaina_2_1x2_1",
+				0,
+				-28
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_2",
+			45,
+			20,
+			-419,
+			-27,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950025] = {
+		special_operation_list = "",
+		name = "Spire of Cycles",
+		count = 0,
+		pop_pic = "",
+		act_id = 50082,
+		pos_y = "0.3",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "HT5",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950025,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950012,
+		pos_x = "0.45",
+		formation = 1950012,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1430,
+		investigation_ratio = 0,
+		profiles = "[Location: Spire of Cycles] / The three-layered tower commanded by Albion, the Lord of Aberrinth. It is both the terminus and the genesis of your journey.",
+		star_require_3 = 3,
+		difficulty = 9,
+		num_2 = 12,
+		star_require_2 = 2,
+		avoid_ratio = 15,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1100,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950004
+			},
+			{
+				1950024
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"torpedo",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1953101,
+				15,
+				0
+			},
+			{
+				1953102,
+				10,
+				0
+			},
+			{
+				1953103,
+				30,
+				1
+			},
+			{
+				1953104,
+				15,
+				0
+			},
+			{
+				1953105,
+				10,
+				0
+			},
+			{
+				1953106,
+				30,
+				1
+			},
+			{
+				1953107,
+				15,
+				0
+			},
+			{
+				1953108,
+				10,
+				0
+			},
+			{
+				1953109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1953102,
+			1953105,
+			1953108
+		},
+		ai_expedition_list = {
+			1953304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1953113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"aerbien_2"
+		},
+		awards = {
+			{
+				2,
+				200554
+			},
+			{
+				2,
+				200528
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				8
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				16
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				12
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				4
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				1
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				1
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"masaina_3_2x2_1",
+				47,
+				-38
+			},
+			{
+				6,
+				1,
+				"masaina_3_2x2_1",
+				46,
+				-40
+			},
+			{
+				4,
+				8,
+				"masaina_3_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				0,
+				"masaina_3_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"masaina_3_3x1_1",
+				101,
+				9
+			},
+			{
+				0,
+				7,
+				"masaina_3_2x2_1",
+				49,
+				-35
+			},
+			{
+				0,
+				0,
+				"masaina_3_2x2_1",
+				44,
+				-32
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_3",
+			45,
+			20,
+			-229,
+			-327,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950026] = {
+		special_operation_list = "",
+		name = "Realm of Slumber",
+		count = 0,
+		pop_pic = "",
+		act_id = 50082,
+		pos_y = "0.16",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-fushun-adventure",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "HT6",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950026,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950012,
+		pos_x = "0.74",
+		formation = 1950012,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1835,
+		investigation_ratio = 0,
+		profiles = "[Location: Realm of Slumber] / Once the place where the tree of life extended its roots and the haven of the elder elves, it's now become the prison of an otherworldy being filled with evil.",
+		star_require_3 = 3,
+		difficulty = 10,
+		num_2 = 12,
+		star_require_2 = 2,
+		avoid_ratio = 16,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1410,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950005
+			},
+			{
+				1950025
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"cannon",
+				1,
+				1600
+			},
+			{
+				"dodge",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1953201,
+				15,
+				0
+			},
+			{
+				1953202,
+				10,
+				0
+			},
+			{
+				1953203,
+				30,
+				1
+			},
+			{
+				1953204,
+				15,
+				0
+			},
+			{
+				1953205,
+				10,
+				0
+			},
+			{
+				1953206,
+				30,
+				1
+			},
+			{
+				1953207,
+				15,
+				0
+			},
+			{
+				1953208,
+				10,
+				0
+			},
+			{
+				1953209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1953202,
+			1953205,
+			1953208
+		},
+		ai_expedition_list = {
+			1953305
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1953213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"aimudeng_2"
+		},
+		awards = {
+			{
+				2,
+				200555
+			},
+			{
+				2,
+				200529
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				true,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				1
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				16
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				4
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				9,
+				"masaina_3_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				7,
+				"masaina_3_1x2_1",
+				0,
+				-39
+			},
+			{
+				7,
+				3,
+				"masaina_3_1x2_1",
+				-5,
+				-37
+			},
+			{
+				7,
+				1,
+				"masaina_3_1x1_2",
+				0,
+				0
+			},
+			{
+				3,
+				9,
+				"masaina_3_1x1_1",
+				-2,
+				5
+			},
+			{
+				3,
+				1,
+				"masaina_3_1x1_1",
+				-5,
+				3
+			},
+			{
+				2,
+				6,
+				"masaina_3_3x1_1",
+				121,
+				4
+			},
+			{
+				2,
+				2,
+				"masaina_3_3x1_1",
+				84,
+				6
+			},
+			{
+				0,
+				4,
+				"masaina_3_2x2_1",
+				98,
+				-27
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_3",
+			45,
+			20,
+			-316,
+			59,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950041] = {
+		special_operation_list = "",
+		name = "Benedictus",
+		count = 1,
+		pop_pic = "",
+		act_id = 50082,
+		pos_y = "0.6",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 0,
+		boss_refresh = 7,
+		is_limit_move = 0,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "battle-tulipa",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "SP",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950041,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950025,
+		pos_x = "0.44",
+		formation = 1950025,
+		mitigation_level = 0,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 2365,
+		investigation_ratio = 0,
+		profiles = "\"Since you have the resolve to uncover the gods' forbidden secrets, you must pay the price.\"\n\"And I will keep collecting until you breathe your last.\"",
+		star_require_3 = 0,
+		difficulty = 10,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 16,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1820,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950026
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1954001,
+				15,
+				0
+			},
+			{
+				1954002,
+				10,
+				0
+			},
+			{
+				1954003,
+				30,
+				0
+			},
+			{
+				1954004,
+				15,
+				0
+			},
+			{
+				1954005,
+				10,
+				0
+			},
+			{
+				1954006,
+				30,
+				0
+			},
+			{
+				1954007,
+				15,
+				0
+			},
+			{
+				1954008,
+				10,
+				0
+			},
+			{
+				1954009,
+				30,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1954301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1954013
+		},
+		enemy_refresh = {
+			8
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			3
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"kelaimengsuo"
+		},
+		awards = {
+			{
+				2,
+				200556
+			},
+			{
+				2,
+				200530
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				12
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				12
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				1
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				1
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				8
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				5,
+				"masaina_4_1x1_2",
+				0,
+				0
+			},
+			{
+				8,
+				3,
+				"masaina_4_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				5,
+				"masaina_4_3x1_1",
+				95,
+				13
+			},
+			{
+				7,
+				1,
+				"masaina_4_3x1_1",
+				95,
+				13
+			},
+			{
+				6,
+				7,
+				"masaina_4_1x1_1",
+				-3,
+				24
+			},
+			{
+				6,
+				1,
+				"masaina_4_1x1_1",
+				1,
+				25
+			},
+			{
+				4,
+				8,
+				"masaina_4_1x2_1",
+				-2,
+				-43
+			},
+			{
+				4,
+				0,
+				"masaina_4_1x2_1",
+				-8,
+				-43
+			},
+			{
+				0,
+				7,
+				"masaina_4_2x2_1",
+				53,
+				-18
+			},
+			{
+				0,
+				3,
+				"masaina_4_3x1_1",
+				94,
+				13
+			},
+			{
+				0,
+				0,
+				"masaina_4_2x2_1",
+				53,
+				-18
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_4",
+			45,
+			20,
+			-223,
+			-116,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950051] = {
+		special_operation_list = "",
+		name = "The Calamitous One",
+		count = 0,
+		pop_pic = "",
+		act_id = 50082,
+		pos_y = "0.6",
+		model = 5,
+		progress_boss = 100,
+		is_ai = 0,
+		boss_refresh = 0,
+		is_limit_move = 0,
+		oil = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "login-2022401us",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "EXTRA",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950051,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950026,
+		pos_x = "0.44",
+		formation = 1950026,
+		mitigation_level = 0,
+		friendly_id = 0,
+		group_num = 1,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 810,
+		investigation_ratio = 0,
+		profiles = "\"Feel the despair, malice, and eternal calamity upon you!\"\n\"So be it – let us bombard one another.\"\n<color=#5caaff>(Score does not count toward your ranking.)</color>",
+		star_require_3 = 0,
+		difficulty = 10,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 17,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 620,
+		submarine_num = 0,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950041
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1955001
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"aimudeng_2"
+		},
+		awards = {},
+		grids = {
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				8
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				2,
+				"masaina_4_3x1_1",
+				101,
+				13
+			},
+			{
+				3,
+				0,
+				"masaina_4_2x2_1",
+				41,
+				-33
+			},
+			{
+				0,
+				2,
+				"masaina_4_3x1_1",
+				101,
+				16
+			},
+			{
+				0,
+				0,
+				"masaina_4_2x2_1",
+				51,
+				-17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_4",
+			45,
+			20,
+			-34,
+			-261,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_strategy = {
+			201463
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1950052] = {
+		special_operation_list = "",
+		name = "The Calamitous One",
+		count = 0,
+		pop_pic = "",
+		act_id = 50082,
+		pos_y = "0.6",
+		model = 5,
+		progress_boss = 100,
+		is_ai = 0,
+		boss_refresh = 0,
+		is_limit_move = 0,
+		oil = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "login-2022401us",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "EXTRA",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1950052,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1950026,
+		pos_x = "0.44",
+		formation = 1950026,
+		mitigation_level = 0,
+		friendly_id = 0,
+		group_num = 1,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 810,
+		investigation_ratio = 0,
+		profiles = "\"Feel the despair, malice, and eternal calamity upon you!\"\n\"So be it – let us bombard one another.\"\n<color=#ff5c5c>(Hard mode – Be aware that this map is exceedingly difficult.)</color>",
+		star_require_3 = 0,
+		difficulty = 10,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 17,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 620,
+		submarine_num = 0,
+		uifx = "",
+		pre_chapter = {
+			{
+				1950041
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1955002
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"aimudeng_2"
+		},
+		awards = {},
+		grids = {
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				8
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				1
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				2,
+				"masaina_4_3x1_1",
+				101,
+				13
+			},
+			{
+				3,
+				0,
+				"masaina_4_2x2_1",
+				41,
+				-33
+			},
+			{
+				0,
+				2,
+				"masaina_4_3x1_1",
+				101,
+				16
+			},
+			{
+				0,
+				0,
+				"masaina_4_2x2_1",
+				51,
+				-17
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_masaina_4",
+			45,
+			20,
+			-34,
+			-261,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_strategy = {
+			201464
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.chapter_template[2100001] = {
 		special_operation_list = "",
 		name = "Storm's End",
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.444791667",
+		pos_y = "0.593055556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -341845,7 +362050,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.088541667",
+		pos_y = "0.118055556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -342454,7 +362659,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.367708333",
+		pos_y = "0.490277777",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -343130,7 +363335,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.090625",
+		pos_y = "0.120833333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -343756,7 +363961,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.1125",
+		pos_y = "0.15",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -344484,7 +364689,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.4",
+		pos_y = "0.533333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -345207,7 +365412,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.444791667",
+		pos_y = "0.593055556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -345800,7 +366005,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.088541667",
+		pos_y = "0.118055556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -346450,7 +366655,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.367708333",
+		pos_y = "0.490277777",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -347168,7 +367373,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.090625",
+		pos_y = "0.120833333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -347840,7 +368045,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.1125",
+		pos_y = "0.15",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -348614,7 +368819,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.4",
+		pos_y = "0.533333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -349382,7 +369587,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.361458333",
+		pos_y = "0.481944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -349885,7 +370090,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.111458333",
+		pos_y = "0.148611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -350450,7 +370655,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.3446875",
+		pos_y = "0.459583333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -351105,7 +371310,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.15",
+		pos_y = "0.2",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -351783,7 +371988,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.073958",
+		pos_y = "0.098610667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -352479,7 +372684,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.347395833",
+		pos_y = "0.463194444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -353350,7 +373555,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.361458333",
+		pos_y = "0.481944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -353894,7 +374099,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.111458333",
+		pos_y = "0.148611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -354500,7 +374705,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.3446875",
+		pos_y = "0.459583333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -355196,7 +375401,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.15",
+		pos_y = "0.2",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -355919,7 +376124,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.073958",
+		pos_y = "0.098610667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -356660,7 +376865,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.347395833",
+		pos_y = "0.463194444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -357576,7 +377781,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -358140,7 +378345,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -358844,7 +379049,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -359515,7 +379720,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.10625",
+		pos_y = "0.141666667",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -360304,7 +380509,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -360888,7 +381093,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.430208333",
+		pos_y = "0.573611111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -361480,7 +381685,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.076041667",
+		pos_y = "0.101388889",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -362127,7 +382332,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -362930,7 +383135,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -363535,7 +383740,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -364282,7 +384487,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -364994,7 +385199,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.10625",
+		pos_y = "0.141666667",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -365824,7 +386029,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -366453,7 +386658,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.430208333",
+		pos_y = "0.573611111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -367090,7 +387295,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.076041667",
+		pos_y = "0.101388889",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -367782,7 +387987,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -368630,7 +388835,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -369225,7 +389430,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -369878,7 +390083,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -370622,7 +390827,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -371304,7 +391509,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -372127,7 +392332,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -373129,7 +393334,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -373765,7 +393970,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -374459,7 +394664,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -375244,7 +395449,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -375971,7 +396176,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -376839,7 +397044,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -377886,7 +398091,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -378442,7 +398647,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -379104,7 +399309,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.1739",
+		pos_y = "0.231866667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -379878,7 +400083,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -380447,7 +400652,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.076041667",
+		pos_y = "0.101388889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -381121,7 +401326,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -381921,7 +402126,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -382518,7 +402723,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -383221,7 +403426,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.1739",
+		pos_y = "0.231866667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -384036,7 +404241,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -384650,7 +404855,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.076041667",
+		pos_y = "0.101388889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -385371,7 +405576,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -386218,7 +406423,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.375",
+		pos_y = "0.5",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -386829,7 +407034,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.151041667",
+		pos_y = "0.201388889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -387405,7 +407610,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.09583",
+		pos_y = "0.127773333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -388079,7 +408284,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.334375",
+		pos_y = "0.445833333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -388752,7 +408957,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.175",
+		pos_y = "0.233333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -389476,7 +409681,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.255208333",
+		pos_y = "0.340277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -390260,7 +410465,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.375",
+		pos_y = "0.5",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -390913,7 +411118,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.151041667",
+		pos_y = "0.201388889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -391531,7 +411736,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.09583",
+		pos_y = "0.127773333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -392247,7 +412452,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.334375",
+		pos_y = "0.445833333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -392962,7 +413167,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.175",
+		pos_y = "0.233333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -393734,7 +413939,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.255208333",
+		pos_y = "0.340277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -394566,7 +414771,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -395172,7 +415377,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -395749,7 +415954,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -396422,7 +416627,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -397097,7 +417302,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -397815,7 +418020,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -398507,7 +418712,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -399155,7 +419360,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -399774,7 +419979,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -400489,7 +420694,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -401210,7 +421415,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -401976,7 +422181,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -402716,7 +422921,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -403292,7 +423497,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -403870,7 +424075,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -404533,7 +424738,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -405206,7 +425411,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -405922,7 +426127,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -406610,7 +426815,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -407228,7 +427433,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -407848,7 +428053,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -408553,7 +428758,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -409272,7 +429477,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -410036,7 +430241,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -410772,7 +430977,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -411355,7 +431560,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -411958,7 +432163,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -412655,7 +432860,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -413202,7 +433407,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -413804,7 +434009,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -414417,7 +434622,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -415072,7 +435277,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -415693,7 +435898,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -416318,7 +436523,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -416961,7 +437166,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -417699,7 +437904,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -418288,7 +438493,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -418933,7 +439138,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -419591,7 +439796,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -420294,7 +440499,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -420962,7 +441167,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -421556,7 +441761,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -422198,7 +442403,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -422937,7 +443142,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -423569,7 +443774,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -424244,7 +444449,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -424891,7 +445096,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -425438,7 +445643,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -426041,7 +446246,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -426637,7 +446842,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -427290,7 +447495,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -427926,7 +448131,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -428610,7 +448815,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 10,
 		progress_boss = 100,
 		is_ai = 1,
@@ -429386,7 +449591,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -430064,7 +450269,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -430787,7 +450992,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -431482,7 +451687,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -432071,7 +452276,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -432716,7 +452921,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -433354,7 +453559,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -434051,7 +454256,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -434630,7 +454835,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -435226,7 +455431,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -435845,7 +456050,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -436480,7 +456685,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -437161,7 +457366,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -437805,7 +458010,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -438426,7 +458631,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -439065,7 +459270,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -439727,7 +459932,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -440408,7 +460613,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -441137,7 +461342,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -441829,7 +462034,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -442388,7 +462593,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -442975,7 +463180,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -443582,7 +463787,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -444226,7 +464431,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -444860,7 +465065,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -445566,7 +465771,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -446167,7 +466372,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -446796,7 +467001,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -447446,7 +467651,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -448136,7 +468341,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -448818,7 +469023,7 @@ end)()
 		count = 0,
 		pop_pic = "SeaFogPermeates",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -449572,7 +469777,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -450162,7 +470367,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -450783,7 +470988,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -451497,7 +471702,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -452201,7 +472406,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -453223,7 +473428,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -454997,7 +475202,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -455629,7 +475834,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -456292,7 +476497,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -457049,7 +477254,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -457798,7 +478003,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -458867,7 +479072,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -460688,7 +480893,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -461284,7 +481489,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -461865,7 +482070,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -462491,7 +482696,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -463130,7 +483335,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -463717,7 +483922,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -464367,7 +484572,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -465006,7 +485211,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -465630,7 +485835,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -466298,7 +486503,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -466983,7 +487188,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -467618,7 +487823,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -468316,7 +488521,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -469007,7 +489212,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -469683,7 +489888,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -470377,7 +490582,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -471130,7 +491335,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -471908,7 +492113,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -472783,7 +492988,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -473513,7 +493718,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -474228,7 +494433,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -474961,7 +495166,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -475758,7 +495963,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -476582,7 +496787,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -477504,7 +497709,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -478188,7 +498393,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -478858,7 +499063,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -479524,7 +499729,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -480281,7 +500486,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -481085,7 +501290,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -482064,7 +502269,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -482789,7 +502994,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -483500,7 +503705,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -484209,7 +504414,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -485011,7 +505216,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -485862,7 +506067,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -486888,7 +507093,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.26",
+		pos_y = "0.346666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -487683,7 +507888,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -488360,7 +508565,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -489217,7 +509422,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -490231,7 +510436,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -491149,7 +511354,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.26",
+		pos_y = "0.346666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -492179,7 +512384,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.26",
+		pos_y = "0.346666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -492712,7 +512917,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -493367,7 +513572,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.26",
+		pos_y = "0.346666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -494203,7 +514408,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -494922,7 +515127,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -495821,7 +516026,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -496880,7 +517085,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -497845,7 +518050,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.26",
+		pos_y = "0.346666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -498923,7 +519128,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.26",
+		pos_y = "0.346666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -499456,7 +519661,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -500111,7 +520316,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -500807,7 +521012,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -501523,7 +521728,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -502354,7 +522559,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -503173,7 +523378,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -504006,7 +524211,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -504846,7 +525051,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -505584,7 +525789,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -506342,7 +526547,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -507216,7 +527421,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -508081,7 +528286,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -508962,7 +529167,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -509849,7 +530054,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -510531,7 +530736,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -511229,7 +531434,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -512140,7 +532345,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -512934,7 +533139,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -513753,7 +533958,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -514682,7 +534887,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -515406,7 +535611,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -516146,7 +536351,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -517100,7 +537305,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -517939,7 +538144,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -518805,7 +539010,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -519781,7 +539986,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -520423,7 +540628,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -521120,7 +541325,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -521970,7 +542175,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -522788,7 +542993,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -523627,7 +543832,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -524550,7 +544755,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -525234,7 +545439,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -525973,7 +546178,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -526866,7 +547071,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -527730,7 +547935,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -528617,7 +548822,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -529587,7 +549792,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -530264,7 +550469,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -530960,7 +551165,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -531769,7 +551974,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -532682,7 +552887,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -533614,7 +553819,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -534562,7 +554767,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -535281,7 +555486,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -536019,7 +556224,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -536871,7 +557076,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -537830,7 +558035,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -538810,7 +559015,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -539805,7 +560010,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -540437,7 +560642,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -541128,7 +561333,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -541952,7 +562157,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -542756,7 +562961,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -543580,7 +563785,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -544334,7 +564539,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -545106,7 +565311,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -545780,7 +565985,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -546513,7 +566718,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -547379,7 +567584,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -548229,7 +568434,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -549101,7 +569306,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -549899,7 +570104,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -550717,7 +570922,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -551394,7 +571599,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -552192,7 +572397,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -553007,7 +573212,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -553648,7 +573853,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -554330,7 +574535,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -555186,7 +575391,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -555904,7 +576109,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -556743,7 +576948,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -557599,7 +577804,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -558285,7 +578490,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -559014,7 +579219,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -559917,7 +580122,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -560563,7 +580768,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -561246,7 +581451,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -562044,7 +582249,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -562725,7 +582930,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -563430,7 +583635,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -564299,7 +584504,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -564987,7 +585192,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -565712,7 +585917,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -566552,7 +586757,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -567279,7 +587484,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -568032,7 +588237,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -568948,7 +589153,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -569633,7 +589838,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -570452,7 +590657,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -571189,7 +591394,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.227083333",
+		pos_y = "0.302777777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -571978,7 +592183,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -572724,7 +592929,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.383333333",
+		pos_y = "0.511111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -573566,7 +593771,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.392708333",
+		pos_y = "0.523611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -574293,7 +594498,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.052083333",
+		pos_y = "0.069444444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -575154,7 +595359,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -575933,7 +596138,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -576767,7 +596972,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.122916667",
+		pos_y = "0.163888889",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -577560,7 +597765,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.35625",
+		pos_y = "0.475",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -578443,13 +598648,9005 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.chapter_template[2100501] = {
+		special_operation_list = "",
+		name = "Entr'acte",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.523611111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 3,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-highseasfleet",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU3",
+		is_ambush = 0,
+		chapter_name = "A1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU2",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100501,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100501,
+		pos_x = "0.2515625",
+		formation = 2100501,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 130,
+		investigation_ratio = 0,
+		profiles = "The instruments of war are winding. Iron Blood musicians assemble as Sakura Empire spectators take their seats.",
+		star_require_3 = 3,
+		difficulty = 3,
+		num_2 = 10,
+		star_require_2 = 2,
+		avoid_ratio = 8,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 100,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1640001,
+				15,
+				0
+			},
+			{
+				1640002,
+				20,
+				0
+			},
+			{
+				1640003,
+				30,
+				1
+			},
+			{
+				1640004,
+				15,
+				0
+			},
+			{
+				1640005,
+				20,
+				0
+			},
+			{
+				1640006,
+				30,
+				1
+			},
+			{
+				1640007,
+				15,
+				0
+			},
+			{
+				1640008,
+				20,
+				0
+			},
+			{
+				1640009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1640005,
+			1640008
+		},
+		ai_expedition_list = {
+			1640301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1640013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"tierbici"
+		},
+		awards = {
+			{
+				2,
+				58542
+			},
+			{
+				2,
+				58530
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				8
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				1,
+				"gonghai_I_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				6,
+				0,
+				"gonghai_I_normal_1x2_1",
+				10,
+				50
+			},
+			{
+				4,
+				5,
+				"gonghai_I_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				2,
+				2,
+				"gonghai_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				7,
+				"gonghai_I_normal_1x2_2",
+				0,
+				-50
+			},
+			{
+				0,
+				2,
+				"gonghai_I_normal_3x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_normal_I",
+			45,
+			20,
+			-112,
+			-195,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU5",
+			"HONGCAIDEZHONGMUQU6"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8941
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100502] = {
+		special_operation_list = "",
+		name = "Interworldly Gateway",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-highseasfleet",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU8",
+		is_ambush = 0,
+		chapter_name = "A2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU7",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100502,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100501,
+		pos_x = "0.38203125",
+		formation = 2100501,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 170,
+		investigation_ratio = 0,
+		profiles = "The gate through the Singularity has opened. What secrets – what truths – lie beyond the pale veil?",
+		star_require_3 = 3,
+		difficulty = 4,
+		num_2 = 11,
+		star_require_2 = 2,
+		avoid_ratio = 9,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 130,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100501
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1640101,
+				15,
+				0
+			},
+			{
+				1640102,
+				20,
+				0
+			},
+			{
+				1640103,
+				30,
+				1
+			},
+			{
+				1640104,
+				15,
+				0
+			},
+			{
+				1640105,
+				20,
+				0
+			},
+			{
+				1640106,
+				30,
+				1
+			},
+			{
+				1640107,
+				15,
+				0
+			},
+			{
+				1640108,
+				20,
+				0
+			},
+			{
+				1640109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1640105,
+			1640108
+		},
+		ai_expedition_list = {
+			1640302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1640113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_i"
+		},
+		awards = {
+			{
+				2,
+				58543
+			},
+			{
+				2,
+				58531
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				8
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				8
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				4
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"gonghai_II_normal_3x1_1",
+				0,
+				0
+			},
+			{
+				6,
+				1,
+				"gonghai_II_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				5,
+				"gonghai_II_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				2,
+				2,
+				"gonghai_II_normal_1x2_2",
+				0,
+				-50
+			},
+			{
+				0,
+				6,
+				"gonghai_II_normal_2x2_1",
+				40,
+				-40
+			},
+			{
+				0,
+				0,
+				"gonghai_II_normal_1x1_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_normal_II",
+			45,
+			20,
+			-167,
+			-367,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU10",
+			"HONGCAIDEZHONGMUQU11"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8942
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100503] = {
+		special_operation_list = "",
+		name = "Warriors Reborn",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.459722223",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-highseasfleet",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU14",
+		is_ambush = 0,
+		chapter_name = "A3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU12",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100503,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100501,
+		pos_x = "0.665625",
+		formation = 2100501,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 215,
+		investigation_ratio = 0,
+		profiles = "Old blood given new forms emerged from the gateway. Legends live once more. The crescendo draws near...",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 11,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 165,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100502
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1640201,
+				15,
+				0
+			},
+			{
+				1640202,
+				20,
+				0
+			},
+			{
+				1640203,
+				30,
+				1
+			},
+			{
+				1640204,
+				15,
+				0
+			},
+			{
+				1640205,
+				20,
+				0
+			},
+			{
+				1640206,
+				30,
+				1
+			},
+			{
+				1640207,
+				15,
+				0
+			},
+			{
+				1640208,
+				20,
+				0
+			},
+			{
+				1640209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1640205,
+			1640208
+		},
+		ai_expedition_list = {
+			1640303,
+			1640304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1640213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu_i"
+		},
+		awards = {
+			{
+				2,
+				58544
+			},
+			{
+				2,
+				58532
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				6
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				16
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				12
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				8,
+				"gonghai_II_normal_2x2_1",
+				40,
+				40
+			},
+			{
+				7,
+				2,
+				"gonghai_II_normal_1x1_2",
+				0,
+				10
+			},
+			{
+				4,
+				3,
+				"gonghai_II_normal_3x1_1",
+				100,
+				0
+			},
+			{
+				4,
+				0,
+				"gonghai_II_normal_1x2_2",
+				0,
+				-40
+			},
+			{
+				3,
+				6,
+				"gonghai_II_normal_1x1_3",
+				10,
+				10
+			},
+			{
+				3,
+				5,
+				"gonghai_II_normal_1x1_1",
+				0,
+				10
+			},
+			{
+				0,
+				7,
+				"gonghai_II_normal_3x1_2",
+				100,
+				10
+			},
+			{
+				0,
+				0,
+				"gonghai_II_normal_2x2_2",
+				50,
+				-40
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_normal_II",
+			45,
+			20,
+			-245,
+			124,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"HONGCAIDEZHONGMUQU13"
+		},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU15",
+			"HONGCAIDEZHONGMUQU16"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8942
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100504] = {
+		special_operation_list = "",
+		name = "Stalling Tactics",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.302777777",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "battle-highseasfleet-reborn",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU19",
+		is_ambush = 0,
+		chapter_name = "B1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU18",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100504,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100502,
+		pos_x = "0.23125",
+		formation = 2100502,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 275,
+		investigation_ratio = 0,
+		profiles = "The Azur Lane's fleets sail on, despite the Iron Blood's jamming and attempts to slow them. Scapa Flow harbor is on the horizon – what awaits them there?",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 14,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 210,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100503
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1641001,
+				15,
+				0
+			},
+			{
+				1641002,
+				20,
+				0
+			},
+			{
+				1641003,
+				30,
+				1
+			},
+			{
+				1641004,
+				15,
+				0
+			},
+			{
+				1641005,
+				20,
+				0
+			},
+			{
+				1641006,
+				30,
+				1
+			},
+			{
+				1641007,
+				15,
+				0
+			},
+			{
+				1641008,
+				20,
+				0
+			},
+			{
+				1641009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1641005,
+			1641008
+		},
+		ai_expedition_list = {
+			1641301,
+			1641302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1641013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"aoding"
+		},
+		awards = {
+			{
+				2,
+				58545
+			},
+			{
+				2,
+				58533
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				1
+			},
+			{
+				9,
+				7,
+				true,
+				1
+			},
+			{
+				9,
+				6,
+				true,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				6
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				6
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				6
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				12
+			},
+			{
+				7,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				16
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				1,
+				"gonghai_I_normal_2x2_2",
+				60,
+				40
+			},
+			{
+				8,
+				5,
+				"gonghai_I_normal_1x1_1",
+				-10,
+				0
+			},
+			{
+				6,
+				6,
+				"gonghai_I_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				3,
+				8,
+				"gonghai_I_normal_1x2_1",
+				-10,
+				-10
+			},
+			{
+				3,
+				3,
+				"gonghai_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				2,
+				"gonghai_I_normal_3x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_normal_I",
+			45,
+			20,
+			-286,
+			125,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU20",
+			"HONGCAIDEZHONGMUQU21"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8941
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100505] = {
+		special_operation_list = "",
+		name = "Resurging Flames",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "battle-highseasfleet-reborn",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU25",
+		is_ambush = 0,
+		chapter_name = "B2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU22",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100505,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100502,
+		pos_x = "0.5390625",
+		formation = 2100502,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 350,
+		investigation_ratio = 0,
+		profiles = "A Siren fog is taking shape around the harbor. Is this intervention spontaneous, or did the Iron Blood orchestrate it...?",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 15,
+		star_require_2 = 2,
+		avoid_ratio = 11,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 270,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100504
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1641101,
+				15,
+				0
+			},
+			{
+				1641102,
+				20,
+				0
+			},
+			{
+				1641103,
+				30,
+				1
+			},
+			{
+				1641104,
+				15,
+				0
+			},
+			{
+				1641105,
+				20,
+				0
+			},
+			{
+				1641106,
+				30,
+				1
+			},
+			{
+				1641107,
+				15,
+				0
+			},
+			{
+				1641108,
+				20,
+				0
+			},
+			{
+				1641109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1641105,
+			1641108
+		},
+		ai_expedition_list = {
+			1641303,
+			1641304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1641113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown5"
+		},
+		awards = {
+			{
+				2,
+				58546
+			},
+			{
+				2,
+				58534
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				8
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				12
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				12
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				16
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				1
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				8,
+				4,
+				"gonghai_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				8,
+				"gonghai_I_normal_2x2_2",
+				60,
+				-40
+			},
+			{
+				5,
+				1,
+				"gonghai_I_normal_3x1_1",
+				100,
+				0
+			},
+			{
+				4,
+				1,
+				"gonghai_I_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				2,
+				6,
+				"gonghai_I_normal_1x2_1",
+				0,
+				-80
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_normal_I",
+			45,
+			20,
+			-331,
+			-162,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"HONGCAIDEZHONGMUQU23",
+			"HONGCAIDEZHONGMUQU24"
+		},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU27"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8955
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100506] = {
+		special_operation_list = "",
+		name = "Finality's End",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.511111111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-arbitrator-tower",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU29",
+		is_ambush = 0,
+		chapter_name = "B3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU28",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100506,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100502,
+		pos_x = "0.67109375",
+		formation = 2100502,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 430,
+		investigation_ratio = 0,
+		profiles = "The Azur Lane and the Crimson Axis confront Compiler for a final battle. She must be taken out before she can use her trump card.",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 21,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 330,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100505
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1641201,
+				15,
+				0
+			},
+			{
+				1641202,
+				20,
+				0
+			},
+			{
+				1641203,
+				30,
+				1
+			},
+			{
+				1641204,
+				15,
+				0
+			},
+			{
+				1641205,
+				20,
+				0
+			},
+			{
+				1641206,
+				30,
+				1
+			},
+			{
+				1641207,
+				15,
+				0
+			},
+			{
+				1641208,
+				20,
+				0
+			},
+			{
+				1641209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1641205,
+			1641208
+		},
+		ai_expedition_list = {
+			1641305,
+			1641306,
+			1641307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1641213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown5"
+		},
+		awards = {
+			{
+				2,
+				58547
+			},
+			{
+				2,
+				58535
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				6
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				1
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				16
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				6,
+				"yidalisp_2x1_2",
+				60,
+				50
+			},
+			{
+				5,
+				4,
+				"yidalisp_1x2_1",
+				0,
+				-40
+			},
+			{
+				5,
+				1,
+				"yidalisp_2x1_2",
+				50,
+				60
+			},
+			{
+				3,
+				5,
+				"yidalisp_1x1_1",
+				0,
+				10
+			},
+			{
+				2,
+				6,
+				"yidalisp_2x1_1",
+				-30,
+				0
+			},
+			{
+				2,
+				3,
+				"yidalisp_2x2_1",
+				-40,
+				-20
+			},
+			{
+				1,
+				6,
+				"yidalisp_1x1_1",
+				0,
+				10
+			},
+			{
+				1,
+				2,
+				"yidalisp_1x2_1",
+				0,
+				40
+			},
+			{
+				0,
+				7,
+				"yidalisp_2x2_3",
+				40,
+				0
+			},
+			{
+				0,
+				6,
+				"yidalisp_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				4,
+				"yidalisp_3x2_1",
+				0,
+				-20
+			},
+			{
+				0,
+				1,
+				"yidalisp_2x2_2",
+				-40,
+				-40
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_yidalisp",
+			45,
+			20,
+			-229,
+			115,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			1645002,
+			"HONGCAIDEZHONGMUQU31",
+			"HONGCAIDEZHONGMUQU32",
+			"HONGCAIDEZHONGMUQU33",
+			"HONGCAIDEZHONGMUQU34"
+		},
+		defeat_story_count = {
+			1,
+			3,
+			4,
+			5,
+			6
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8943,
+			8955
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100511] = {
+		special_operation_list = "",
+		name = "Entr'acte",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.523611111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-highseasfleet",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU3",
+		is_ambush = 0,
+		chapter_name = "C1",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU2",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100511,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100511,
+		pos_x = "0.2515625",
+		formation = 2100511,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 590,
+		investigation_ratio = 0,
+		profiles = "The instruments of war are winding. Iron Blood musicians assemble as Sakura Empire spectators take their seats.",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 13,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 455,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				500
+			},
+			{
+				"torpedo",
+				1,
+				400
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1642001,
+				15,
+				0
+			},
+			{
+				1642002,
+				20,
+				0
+			},
+			{
+				1642003,
+				30,
+				1
+			},
+			{
+				1642004,
+				15,
+				0
+			},
+			{
+				1642005,
+				20,
+				0
+			},
+			{
+				1642006,
+				30,
+				1
+			},
+			{
+				1642007,
+				15,
+				0
+			},
+			{
+				1642008,
+				20,
+				0
+			},
+			{
+				1642009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1642005,
+			1642008
+		},
+		ai_expedition_list = {
+			1642301,
+			1642302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1642013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"tierbici"
+		},
+		awards = {
+			{
+				2,
+				58560
+			},
+			{
+				2,
+				58548
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				6
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				16
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				8
+			},
+			{
+				0,
+				6,
+				true,
+				8
+			},
+			{
+				0,
+				5,
+				true,
+				8
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				1,
+				"gonghai_I_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				6,
+				0,
+				"gonghai_I_hard_1x2_1",
+				10,
+				50
+			},
+			{
+				4,
+				5,
+				"gonghai_I_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				2,
+				2,
+				"gonghai_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				7,
+				"gonghai_I_hard_1x2_2",
+				0,
+				-50
+			},
+			{
+				0,
+				2,
+				"gonghai_I_hard_3x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_hard_I",
+			45,
+			20,
+			-112,
+			-195,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU5",
+			"HONGCAIDEZHONGMUQU6"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8941
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100512] = {
+		special_operation_list = "",
+		name = "Interworldly Gateway",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-highseasfleet",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU8",
+		is_ambush = 0,
+		chapter_name = "C2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU7",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100512,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100511,
+		pos_x = "0.38203125",
+		formation = 2100511,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 785,
+		investigation_ratio = 0,
+		profiles = "The gate through the Singularity has opened. What secrets – what truths – lie beyond the pale veil?",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 13,
+		star_require_2 = 2,
+		avoid_ratio = 13,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 605,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100511
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				650
+			},
+			{
+				"dodge",
+				1,
+				350
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1642101,
+				15,
+				0
+			},
+			{
+				1642102,
+				20,
+				0
+			},
+			{
+				1642103,
+				30,
+				1
+			},
+			{
+				1642104,
+				15,
+				0
+			},
+			{
+				1642105,
+				20,
+				0
+			},
+			{
+				1642106,
+				30,
+				1
+			},
+			{
+				1642107,
+				15,
+				0
+			},
+			{
+				1642108,
+				20,
+				0
+			},
+			{
+				1642109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1642105,
+			1642108
+		},
+		ai_expedition_list = {
+			1642303,
+			1642304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1642113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenzhanlie_i"
+		},
+		awards = {
+			{
+				2,
+				58561
+			},
+			{
+				2,
+				58549
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				8
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				12
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				4
+			},
+			{
+				5,
+				7,
+				true,
+				8
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				1
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				4
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"gonghai_II_hard_3x1_1",
+				0,
+				0
+			},
+			{
+				6,
+				1,
+				"gonghai_II_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				5,
+				"gonghai_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				2,
+				2,
+				"gonghai_II_hard_1x2_2",
+				0,
+				-50
+			},
+			{
+				0,
+				6,
+				"gonghai_II_hard_2x2_1",
+				40,
+				-40
+			},
+			{
+				0,
+				0,
+				"gonghai_II_hard_1x1_2",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_hard_II",
+			45,
+			20,
+			-167,
+			-367,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU10",
+			"HONGCAIDEZHONGMUQU11"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8942
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100513] = {
+		special_operation_list = "",
+		name = "Warriors Reborn",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.459722223",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-highseasfleet",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU14",
+		is_ambush = 0,
+		chapter_name = "C3",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU12",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100513,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100511,
+		pos_x = "0.665625",
+		formation = 2100511,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1010,
+		investigation_ratio = 0,
+		profiles = "Old blood given new forms emerged from the gateway. Legends live once more. The crescendo draws near...",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 14,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 775,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100512
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					"fanqian",
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1642201,
+				15,
+				0
+			},
+			{
+				1642202,
+				20,
+				0
+			},
+			{
+				1642203,
+				30,
+				1
+			},
+			{
+				1642204,
+				15,
+				0
+			},
+			{
+				1642205,
+				20,
+				0
+			},
+			{
+				1642206,
+				30,
+				1
+			},
+			{
+				1642207,
+				15,
+				0
+			},
+			{
+				1642208,
+				20,
+				0
+			},
+			{
+				1642209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1642205,
+			1642208
+		},
+		ai_expedition_list = {
+			1642305,
+			1642306,
+			1642307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1642213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenhangmu_i"
+		},
+		awards = {
+			{
+				2,
+				58562
+			},
+			{
+				2,
+				58550
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				6
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				1
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				1
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				8
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				16
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				9,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				12
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				8,
+				"gonghai_II_hard_2x2_1",
+				40,
+				40
+			},
+			{
+				7,
+				2,
+				"gonghai_II_hard_1x1_2",
+				0,
+				10
+			},
+			{
+				4,
+				3,
+				"gonghai_II_hard_3x1_1",
+				100,
+				0
+			},
+			{
+				4,
+				0,
+				"gonghai_II_hard_1x2_2",
+				0,
+				-40
+			},
+			{
+				3,
+				6,
+				"gonghai_II_hard_1x1_3",
+				10,
+				10
+			},
+			{
+				3,
+				5,
+				"gonghai_II_hard_1x1_1",
+				0,
+				10
+			},
+			{
+				0,
+				7,
+				"gonghai_II_hard_3x1_2",
+				100,
+				10
+			},
+			{
+				0,
+				0,
+				"gonghai_II_hard_2x2_2",
+				50,
+				-40
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_hard_II",
+			45,
+			20,
+			-245,
+			124,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"HONGCAIDEZHONGMUQU13"
+		},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU15",
+			"HONGCAIDEZHONGMUQU16"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8942
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100514] = {
+		special_operation_list = "",
+		name = "Stalling Tactics",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.506944444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "battle-highseasfleet-reborn",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU19",
+		is_ambush = 0,
+		chapter_name = "D1",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU18",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100514,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100512,
+		pos_x = "0.14609375",
+		formation = 2100512,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1105,
+		investigation_ratio = 0,
+		profiles = "The Azur Lane's fleets sail on, despite the Iron Blood's jamming and attempts to slow them. Scapa Flow harbor is on the horizon – what awaits them there?",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 21,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 850,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100513
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					4,
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1200
+			},
+			{
+				"torpedo",
+				1,
+				1200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1643001,
+				15,
+				0
+			},
+			{
+				1643002,
+				20,
+				0
+			},
+			{
+				1643003,
+				30,
+				1
+			},
+			{
+				1643004,
+				15,
+				0
+			},
+			{
+				1643005,
+				20,
+				0
+			},
+			{
+				1643006,
+				30,
+				1
+			},
+			{
+				1643007,
+				15,
+				0
+			},
+			{
+				1643008,
+				20,
+				0
+			},
+			{
+				1643009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1643005,
+			1643008
+		},
+		ai_expedition_list = {
+			1643301,
+			1643302,
+			1643303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1643013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"aoding"
+		},
+		awards = {
+			{
+				2,
+				58563
+			},
+			{
+				2,
+				58551
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				9,
+				8,
+				true,
+				1
+			},
+			{
+				9,
+				7,
+				true,
+				1
+			},
+			{
+				9,
+				6,
+				true,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				6
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				6
+			},
+			{
+				9,
+				2,
+				false,
+				0
+			},
+			{
+				9,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				6
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				12
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				12
+			},
+			{
+				7,
+				1,
+				true,
+				4
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				16
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				12
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				9,
+				1,
+				"gonghai_I_hard_2x2_2",
+				60,
+				40
+			},
+			{
+				8,
+				5,
+				"gonghai_I_hard_1x1_1",
+				-10,
+				0
+			},
+			{
+				6,
+				6,
+				"gonghai_I_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				3,
+				8,
+				"gonghai_I_hard_1x2_1",
+				-10,
+				-10
+			},
+			{
+				3,
+				3,
+				"gonghai_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				2,
+				"gonghai_I_hard_3x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_hard_I",
+			45,
+			20,
+			-286,
+			125,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU20",
+			"HONGCAIDEZHONGMUQU21"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8941
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100515] = {
+		special_operation_list = "",
+		name = "Resurging Flames",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.163888889",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "battle-highseasfleet-reborn",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU25",
+		is_ambush = 0,
+		chapter_name = "D2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU22",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100515,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100512,
+		pos_x = "0.28671875",
+		formation = 2100512,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1370,
+		investigation_ratio = 0,
+		profiles = "A Siren fog is taking shape around the harbor. Is this intervention spontaneous, or did the Iron Blood orchestrate it...?",
+		star_require_3 = 3,
+		difficulty = 9,
+		num_2 = 24,
+		star_require_2 = 2,
+		avoid_ratio = 15,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1055,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100514
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					4,
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"cannon",
+				1,
+				1400
+			},
+			{
+				"dodge",
+				1,
+				700
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1643101,
+				15,
+				0
+			},
+			{
+				1643102,
+				20,
+				0
+			},
+			{
+				1643103,
+				30,
+				1
+			},
+			{
+				1643104,
+				15,
+				0
+			},
+			{
+				1643105,
+				20,
+				0
+			},
+			{
+				1643106,
+				30,
+				1
+			},
+			{
+				1643107,
+				15,
+				0
+			},
+			{
+				1643108,
+				20,
+				0
+			},
+			{
+				1643109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1643105,
+			1643108
+		},
+		ai_expedition_list = {
+			1643304,
+			1643305,
+			1643306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1643113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown5"
+		},
+		awards = {
+			{
+				2,
+				58564
+			},
+			{
+				2,
+				58552
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				8
+			},
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				12
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				12
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				4
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				16
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				6
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				1
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				8,
+				4,
+				"gonghai_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				8,
+				"gonghai_I_hard_2x2_2",
+				60,
+				-40
+			},
+			{
+				5,
+				1,
+				"gonghai_I_hard_3x1_1",
+				100,
+				0
+			},
+			{
+				4,
+				1,
+				"gonghai_I_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				2,
+				6,
+				"gonghai_I_hard_1x2_1",
+				0,
+				-80
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_gonghai_hard_II",
+			45,
+			20,
+			-331,
+			-162,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {
+			"HONGCAIDEZHONGMUQU23",
+			"HONGCAIDEZHONGMUQU24"
+		},
+		defeat_story = {
+			"HONGCAIDEZHONGMUQU27"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8959
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100516] = {
+		special_operation_list = "",
+		name = "Finality's End",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.475",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-arbitrator-tower",
+		icon_outline = 0,
+		story_refresh_boss = "HONGCAIDEZHONGMUQU29",
+		is_ambush = 0,
+		chapter_name = "D3",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "HONGCAIDEZHONGMUQU28",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100516,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100512,
+		pos_x = "0.67109375",
+		formation = 2100512,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1620,
+		investigation_ratio = 0,
+		profiles = "The Azur Lane and the Crimson Axis confront Compiler for a final battle. She must be taken out before she can use her trump card.",
+		star_require_3 = 3,
+		difficulty = 10,
+		num_2 = 24,
+		star_require_2 = 2,
+		avoid_ratio = 16,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1245,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100515
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					4,
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"cannon",
+				1,
+				1600
+			},
+			{
+				"antisub",
+				1,
+				650
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1643201,
+				15,
+				0
+			},
+			{
+				1643202,
+				20,
+				0
+			},
+			{
+				1643203,
+				30,
+				1
+			},
+			{
+				1643204,
+				15,
+				0
+			},
+			{
+				1643205,
+				20,
+				0
+			},
+			{
+				1643206,
+				30,
+				1
+			},
+			{
+				1643207,
+				15,
+				0
+			},
+			{
+				1643208,
+				20,
+				0
+			},
+			{
+				1643209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1643205,
+			1643208
+		},
+		ai_expedition_list = {
+			1643307,
+			1643308,
+			1643309
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1643213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown5"
+		},
+		awards = {
+			{
+				2,
+				58565
+			},
+			{
+				2,
+				58553
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				6
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				1
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				16
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				16
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				4
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				8
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				6,
+				"yidalisp_2x1_2",
+				60,
+				50
+			},
+			{
+				5,
+				4,
+				"yidalisp_1x2_1",
+				0,
+				-40
+			},
+			{
+				5,
+				1,
+				"yidalisp_2x1_2",
+				50,
+				60
+			},
+			{
+				3,
+				5,
+				"yidalisp_1x1_1",
+				0,
+				10
+			},
+			{
+				2,
+				6,
+				"yidalisp_2x1_1",
+				-30,
+				0
+			},
+			{
+				2,
+				3,
+				"yidalisp_2x2_1",
+				-40,
+				-20
+			},
+			{
+				1,
+				6,
+				"yidalisp_1x1_1",
+				0,
+				10
+			},
+			{
+				1,
+				2,
+				"yidalisp_1x2_1",
+				0,
+				40
+			},
+			{
+				0,
+				7,
+				"yidalisp_2x2_3",
+				40,
+				0
+			},
+			{
+				0,
+				6,
+				"yidalisp_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				4,
+				"yidalisp_3x2_1",
+				0,
+				-20
+			},
+			{
+				0,
+				1,
+				"yidalisp_2x2_2",
+				-40,
+				-40
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_yidalisp",
+			45,
+			20,
+			-229,
+			115,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		story_refresh = {},
+		defeat_story = {
+			1645002,
+			"HONGCAIDEZHONGMUQU31",
+			"HONGCAIDEZHONGMUQU32",
+			"HONGCAIDEZHONGMUQU33",
+			"HONGCAIDEZHONGMUQU34"
+		},
+		defeat_story_count = {
+			1,
+			3,
+			4,
+			5,
+			6
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			8943,
+			8959
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.chapter_template[2200001] = {
 		special_operation_list = "",
 		name = "Intelligence",
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.43125",
+		pos_y = "0.575",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -578869,7 +608066,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.294791667",
+		pos_y = "0.393055556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -579364,7 +608561,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.080208333",
+		pos_y = "0.106944444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -579889,7 +609086,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.313541667",
+		pos_y = "0.418055556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -580483,7 +609680,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.079166667",
+		pos_y = "0.105555556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -581176,7 +610373,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.373958333",
+		pos_y = "0.498611111",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -581927,7 +611124,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.34375",
+		pos_y = "0.458333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -582631,7 +611828,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.070833333",
+		pos_y = "0.094444444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -583348,7 +612545,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.221875",
+		pos_y = "0.295833333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -584073,7 +613270,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.34375",
+		pos_y = "0.458333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -584594,7 +613791,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.070833333",
+		pos_y = "0.094444444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -585176,7 +614373,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.221875",
+		pos_y = "0.295833333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -585796,7 +614993,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.410208333",
+		pos_y = "0.546944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -586404,7 +615601,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -587102,7 +616299,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.081166667",
+		pos_y = "0.108222223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -587804,7 +617001,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.079166667",
+		pos_y = "0.105555556",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -588504,7 +617701,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.2579",
+		pos_y = "0.343866667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -589208,7 +618405,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.34375",
+		pos_y = "0.458333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -589750,7 +618947,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.070833333",
+		pos_y = "0.094444444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -590350,7 +619547,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.221875",
+		pos_y = "0.295833333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -590993,7 +620190,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.373958333",
+		pos_y = "0.498611111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -591574,7 +620771,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.079166667",
+		pos_y = "0.105555556",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -592256,7 +621453,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.313541667",
+		pos_y = "0.418055556",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -592904,7 +622101,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart",
 		act_id = 100001,
-		pos_y = "0.410208333",
+		pos_y = "0.546944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -593503,7 +622700,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart",
 		act_id = 100001,
-		pos_y = "0.380208333",
+		pos_y = "0.506944444",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -594187,7 +623384,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart",
 		act_id = 100001,
-		pos_y = "0.081166667",
+		pos_y = "0.108222223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -594878,7 +624075,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart",
 		act_id = 100001,
-		pos_y = "0.079166667",
+		pos_y = "0.105555556",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -595584,7 +624781,7 @@ end)()
 		count = 0,
 		pop_pic = "LiveStart",
 		act_id = 100001,
-		pos_y = "0.2579",
+		pos_y = "0.343866667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -596508,7 +625705,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -597107,7 +626304,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -597855,7 +627052,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -598619,7 +627816,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.10625",
+		pos_y = "0.141666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -599379,7 +628576,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.34375",
+		pos_y = "0.458333333",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -600000,7 +629197,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.09083333",
+		pos_y = "0.121111107",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -600681,7 +629878,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.344791667",
+		pos_y = "0.459722223",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 0,
@@ -601363,7 +630560,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -602117,7 +631314,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -602878,7 +632075,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.10625",
+		pos_y = "0.141666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -603640,7 +632837,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.34375",
+		pos_y = "0.458333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -604252,7 +633449,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.070833333",
+		pos_y = "0.094444444",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -604876,7 +634073,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.221875",
+		pos_y = "0.295833333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -605501,7 +634698,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.115",
+		pos_y = "0.153333333",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -606128,7 +635325,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.363",
+		pos_y = "0.484",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -606804,7 +636001,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.20966667",
+		pos_y = "0.27955556",
 		model = 1,
 		progress_boss = 100,
 		is_ai = 0,
@@ -607542,7 +636739,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.32",
+		pos_y = "0.426666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -608166,7 +637363,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.081",
+		pos_y = "0.108",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -608854,7 +638051,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.081",
+		pos_y = "0.108",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -609540,7 +638737,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 100001,
-		pos_y = "0.32",
+		pos_y = "0.426666667",
 		model = 2,
 		progress_boss = 100,
 		is_ai = 1,
@@ -610238,7 +639435,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 1,
 		progress_boss = 50,
 		is_ai = 0,
@@ -610802,7 +639999,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -611506,7 +640703,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -612177,7 +641374,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.10625",
+		pos_y = "0.141666667",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -612966,7 +642163,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -613550,7 +642747,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.430208333",
+		pos_y = "0.573611111",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -614142,7 +643339,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.076041667",
+		pos_y = "0.101388889",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -614789,7 +643986,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -615592,7 +644789,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.402083333",
+		pos_y = "0.536111111",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -616197,7 +645394,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.123958333",
+		pos_y = "0.165277777",
 		model = 1,
 		progress_boss = 34,
 		is_ai = 0,
@@ -616944,7 +646141,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.379166667",
+		pos_y = "0.505555556",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -617656,7 +646853,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.10625",
+		pos_y = "0.141666667",
 		model = 1,
 		progress_boss = 25,
 		is_ai = 0,
@@ -618486,7 +647683,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.3875",
+		pos_y = "0.516666667",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -619111,7 +648308,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.430208333",
+		pos_y = "0.573611111",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -619744,7 +648941,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.076041667",
+		pos_y = "0.101388889",
 		model = 1,
 		progress_boss = 20,
 		is_ai = 0,
@@ -620432,7 +649629,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.254166667",
+		pos_y = "0.338888889",
 		model = 1,
 		progress_boss = 17,
 		is_ai = 0,
@@ -621276,7 +650473,7 @@ end)()
 		count = 0,
 		pop_pic = "",
 		act_id = 30253,
-		pos_y = "0.2979",
+		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
 		is_ai = 0,

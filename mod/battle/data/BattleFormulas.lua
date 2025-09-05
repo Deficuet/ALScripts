@@ -166,7 +166,7 @@ function var_0_0.CreateContextCalculateDamage(arg_11_0)
 		local var_12_27 = math.max(var_12_5.attackRating, 0)
 		local var_12_28
 
-		if var_12_26 == 1 then
+		if var_12_26 >= 1 then
 			var_12_28 = true
 		else
 			local var_12_29 = var_12_4[1] + var_12_27 / (var_12_27 + var_12_14.dodgeRate + var_12_4[2]) + (var_12_25 + var_12_17) * var_0_6.PERCENT1

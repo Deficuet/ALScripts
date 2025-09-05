@@ -4,42 +4,70 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.configId = arg_1_1.configId
 	arg_1_0.config = pg.island_furniture_template[arg_1_0.configId]
 
+	assert(arg_1_0.config, arg_1_0.configId)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1, Vector2(arg_1_0.config.size[1], arg_1_0.config.size[2]))
 
 	arg_1_0.slots = {}
 
 	arg_1_0:InitSlots()
+	arg_1_0:InitTimlineInfo()
 end
 
-function var_0_0.InitSlots(arg_2_0)
-	for iter_2_0 = 1, arg_2_0.config.slot_cnt do
-		table.insert(arg_2_0.slots, AgoraFurnitureSlot.New(iter_2_0, arg_2_0.id))
+function var_0_0.GetMapType(arg_2_0)
+	if arg_2_0:IsNewTileType() then
+		return IslandConst.AGORA_MAP_TYPE_NEWTILE
+	elseif arg_2_0:IsBuildingType() then
+		return IslandConst.AGORA_MAP_TYPE_BUILDING
+	else
+		return IslandConst.AGORA_MAP_TYPE_COMMON
 	end
 end
 
-function var_0_0.GetEmptySlot(arg_3_0)
-	for iter_3_0, iter_3_1 in ipairs(arg_3_0.slots) do
-		if iter_3_1:IsEmpty() then
-			return iter_3_1
+function var_0_0.InitSlots(arg_3_0)
+	for iter_3_0 = 1, arg_3_0.config.slot_cnt do
+		table.insert(arg_3_0.slots, AgoraFurnitureSlot.New(iter_3_0, arg_3_0.id))
+	end
+end
+
+function var_0_0.CanInteraction(arg_4_0)
+	return #arg_4_0.slots > 0
+end
+
+function var_0_0.InitTimlineInfo(arg_5_0)
+	arg_5_0.timelineInfo = {}
+
+	if arg_5_0.config.timeline == nil or arg_5_0.config.timeline == "" then
+		return
+	end
+
+	for iter_5_0, iter_5_1 in ipairs(arg_5_0.config.timeline) do
+		table.insert(arg_5_0.timelineInfo, pg.island_item_timeline[iter_5_1])
+	end
+end
+
+function var_0_0.GetEmptySlot(arg_6_0)
+	for iter_6_0, iter_6_1 in ipairs(arg_6_0.slots) do
+		if iter_6_1:IsEmpty() then
+			return iter_6_1
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.GetUsingSlot(arg_4_0, arg_4_1)
-	for iter_4_0, iter_4_1 in ipairs(arg_4_0.slots) do
-		if not iter_4_1:IsEmpty() and iter_4_1:IsUsing(arg_4_1) then
-			return iter_4_1
+function var_0_0.GetUsingSlot(arg_7_0, arg_7_1)
+	for iter_7_0, iter_7_1 in ipairs(arg_7_0.slots) do
+		if not iter_7_1:IsEmpty() and iter_7_1:IsUsing(arg_7_1) then
+			return iter_7_1
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.AnySlotUsing(arg_5_0)
-	for iter_5_0, iter_5_1 in ipairs(arg_5_0.slots) do
-		if not iter_5_1:IsEmpty() then
+function var_0_0.AnySlotUsing(arg_8_0)
+	for iter_8_0, iter_8_1 in ipairs(arg_8_0.slots) do
+		if not iter_8_1:IsEmpty() then
 			return true
 		end
 	end
@@ -47,28 +75,114 @@ function var_0_0.AnySlotUsing(arg_5_0)
 	return false
 end
 
-function var_0_0.HasBt(arg_6_0)
-	return arg_6_0.config.bt ~= nil and arg_6_0.config.bt ~= ""
+function var_0_0.HasBt(arg_9_0)
+	return arg_9_0.config.bt ~= nil and arg_9_0.config.bt ~= ""
 end
 
-function var_0_0.GetBt(arg_7_0)
-	return arg_7_0.config.bt
+function var_0_0.GetBt(arg_10_0)
+	return arg_10_0.config.bt
 end
 
-function var_0_0.GetResPath(arg_8_0)
-	return arg_8_0.config.model
+function var_0_0.GetResPath(arg_11_0)
+	return arg_11_0.config.model
 end
 
-function var_0_0.HasTimeline(arg_9_0)
-	return arg_9_0.config.timeline ~= nil and arg_9_0.config.timeline ~= ""
+function var_0_0.GetTimeline(arg_12_0)
+	return arg_12_0.timelineInfo
 end
 
-function var_0_0.GetTimeline(arg_10_0)
-	return arg_10_0.config.timeline
+function var_0_0.HasTimeline(arg_13_0)
+	return #arg_13_0.timelineInfo > 0
 end
 
-function var_0_0.GetName(arg_11_0)
-	return arg_11_0.config.name
+function var_0_0.GetName(arg_14_0)
+	return arg_14_0.config.name
+end
+
+function var_0_0.GetCost(arg_15_0)
+	return arg_15_0.config.capacityCost
+end
+
+function var_0_0.GetRarity(arg_16_0)
+	return arg_16_0.config.rarity
+end
+
+function var_0_0.GetIcon(arg_17_0)
+	return arg_17_0.config.icon
+end
+
+function var_0_0.GetType(arg_18_0)
+	return arg_18_0.config.type
+end
+
+function var_0_0.GetTime(arg_19_0)
+	return 0
+end
+
+function var_0_0.GetDesc(arg_20_0)
+	return arg_20_0.config.describe or ""
+end
+
+function var_0_0.IsOptionalShapeType(arg_21_0)
+	return arg_21_0:GetType() == AgoraFurnitureType.FLOOR or arg_21_0:GetType() == AgoraFurnitureType.TILE
+end
+
+function var_0_0.IsFoundationType(arg_22_0)
+	return arg_22_0:GetType() == AgoraFurnitureType.FOUNDATION
+end
+
+function var_0_0.IsBuildingType(arg_23_0)
+	return arg_23_0:GetType() == AgoraFurnitureType.BUILDING
+end
+
+function var_0_0.IsNewTileType(arg_24_0)
+	return arg_24_0:GetType() == AgoraFurnitureType.TILE_NEW
+end
+
+function var_0_0.CanSelect(arg_25_0)
+	return true
+end
+
+function var_0_0.CanOp(arg_26_0)
+	if arg_26_0:IsFoundationType() or arg_26_0:IsBuildingType() then
+		return false
+	end
+
+	return true
+end
+
+function var_0_0.IsFloor(arg_27_0)
+	return arg_27_0:GetType() == AgoraFurnitureType.FLOOR
+end
+
+function var_0_0.IsTile(arg_28_0)
+	return arg_28_0:GetType() == AgoraFurnitureType.TILE
+end
+
+function var_0_0.Match(arg_29_0, arg_29_1)
+	if arg_29_1 == "" or not arg_29_1 then
+		return true
+	end
+
+	local var_29_0 = arg_29_0:GetName()
+
+	arg_29_1 = string.lower(arg_29_1)
+
+	local var_29_1 = string.lower(var_29_0)
+
+	if string.find(var_29_1, arg_29_1) then
+		return true
+	end
+
+	return false
+end
+
+function var_0_0.ToPlacementData(arg_30_0)
+	local var_30_0 = var_0_0.super.ToPlacementData(arg_30_0)
+
+	var_30_0.configId = arg_30_0.configId
+
+	return var_30_0
 end
 
 return var_0_0

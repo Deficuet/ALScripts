@@ -21,6 +21,7 @@ var_0_0.DRAG_CLICK_PARAMETER = 9
 var_0_0.DRAG_ANIMATION_PLAY = 10
 var_0_0.DRAG_CLICK_RANGE = 11
 var_0_0.DRAG_EXTEND_ACTION_RULE = 12
+var_0_0.DRAG_WITH_PARAMETER_MOVE = 13
 var_0_0.ON_ACTION_PLAY = 1
 var_0_0.ON_ACTION_DRAG_CLICK = 2
 var_0_0.ON_ACTION_CHANGE_IDLE = 3
@@ -616,7 +617,7 @@ local function var_0_17(arg_29_0, arg_29_1)
 	arg_29_0._go = arg_29_1
 	arg_29_0._tf = tf(arg_29_1)
 
-	UIUtil.SetLayerRecursively(arg_29_0._go, LayerMask.NameToLayer("UI"))
+	HotfixHelper.SetLayerRecursively(arg_29_0._go, LayerMask.NameToLayer("UI"))
 	arg_29_0._tf:SetParent(arg_29_0.live2dData.parent, true)
 
 	arg_29_0._tf.localScale = arg_29_0.live2dData.scale
@@ -918,6 +919,10 @@ end
 
 function var_0_0.inShopPreView(arg_45_0, arg_45_1)
 	arg_45_0._shopPreView = arg_45_1
+
+	if arg_45_1 then
+		arg_45_0:changeParamaterValue("shop_hx", 1)
+	end
 end
 
 function var_0_0.getDragEnable(arg_46_0, arg_46_1)

@@ -85,6 +85,8 @@ function var_0_0.handleNotification(arg_6_0, arg_6_1)
 		if arg_6_0.viewComponent.ShowTask then
 			arg_6_0.viewComponent:ShowTask()
 		end
+	elseif var_6_0 == GAME.SEND_MINI_GAME_OP_DONE and arg_6_0.viewComponent.OnSendMiniGameOPDoneShrine then
+		arg_6_0.viewComponent:OnSendMiniGameOPDoneShrine()
 	end
 end
 

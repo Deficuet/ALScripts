@@ -22,6 +22,9 @@ function var_0_0.Type2Tag(arg_1_0)
 			nil,
 			nil,
 			"subtitle_week",
+			nil,
+			nil,
+			"subtitle_activity",
 			[26] = "subtitle_activity",
 			[36] = "subtitle_activity"
 		}

@@ -199,11 +199,15 @@ function var_0_0.AdjustPositionWithAnim(arg_26_0, arg_26_1)
 	LeanTween.moveLocal(go(arg_26_0._tf), var_26_0, 0.3):setEase(LeanTweenType.easeInOutExpo)
 	LeanTween.moveLocal(go(arg_26_0._bgTf), var_26_0, 0.3):setEase(LeanTweenType.easeInOutExpo)
 
-	local var_26_1, var_26_2 = arg_26_0.shift:GetL2dShift()
+	local var_26_1, var_26_2 = arg_26_0.shift:GetSpineShift()
 
 	LeanTween.moveLocal(go(arg_26_0.spineContainer), var_26_1, 0.3):setEase(LeanTweenType.easeInOutExpo)
 
-	local var_26_3, var_26_4 = arg_26_0.shift:GetSpineShift()
+	local var_26_3, var_26_4 = arg_26_0.shift:GetL2dShift()
+
+	if arg_26_0.painting:IslimitYPos() then
+		var_26_3.y = arg_26_0.painting:GetHalfBodyOffsetY()
+	end
 
 	LeanTween.moveLocal(go(arg_26_0.l2dContainer), var_26_3, 0.3):setEase(LeanTweenType.easeInOutExpo):setOnComplete(System.Action(function()
 		arg_26_0:AdjustPosition(arg_26_1)
@@ -217,6 +221,10 @@ function var_0_0.AdjustPosition(arg_28_0, arg_28_1)
 	arg_28_0._bgTf.anchoredPosition = var_28_0
 
 	local var_28_2, var_28_3 = arg_28_0.shift:GetL2dShift()
+
+	if arg_28_0.painting:IslimitYPos() then
+		var_28_2.y = arg_28_0.painting:GetHalfBodyOffsetY()
+	end
 
 	arg_28_0.l2dContainer.anchoredPosition = var_28_2
 
@@ -365,8 +373,15 @@ function var_0_0.EnableDragAndZoom(arg_37_0)
 		end
 
 		local var_39_0 = var_0_0.Screen2Local(var_37_0.transform.parent, arg_39_1.position)
+		local var_39_1
 
-		arg_37_0._tf.localPosition = arg_37_0.painting:IslimitYPos() and Vector3(var_39_0.x, var_37_0.transform.localPosition.y, 0) + Vector3(var_37_3.x, 0, 0) or Vector3(var_39_0.x, var_39_0.y, 0) + var_37_3
+		if arg_37_0.painting:IslimitYPos() then
+			var_39_1 = Vector3(var_39_0.x, arg_37_0._tf.localPosition.y, 0) + Vector3(var_37_3.x, 0, 0)
+		else
+			var_39_1 = Vector3(var_39_0.x, var_39_0.y, 0) + var_37_3
+		end
+
+		arg_37_0._tf.localPosition = var_39_1
 		arg_37_0._bgTf.localPosition = arg_37_0.bgOffset + arg_37_0._tf.localPosition
 	end)
 	var_37_2:AddDragEndFunc(function()

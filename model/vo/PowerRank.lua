@@ -10,6 +10,7 @@ var_0_0.TYPE_ACT_BOSS_BATTLE = 7
 var_0_0.TYPE_GUILD_BATTLE = 8
 var_0_0.TYPE_MILITARY_RANK = 9
 var_0_0.TYPE_BOSSRUSH = 10
+var_0_0.TYPE_ISLAND_SEASON_PT = 11
 var_0_0.typeInfo = {
 	{
 		title_word = {

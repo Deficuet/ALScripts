@@ -47,7 +47,8 @@ local var_0_1 = {
 	[var_0_0.PAGE_TYPE_ACT] = {
 		[36] = true,
 		[6] = true,
-		[26] = true
+		[26] = true,
+		[16] = true
 	}
 }
 

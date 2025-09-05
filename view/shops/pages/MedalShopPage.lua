@@ -1,53 +1,64 @@
 local var_0_0 = class("MedalShopPage", import(".MilitaryShopPage"))
 
-function var_0_0.getUIName(arg_1_0)
-	return "MedalShop"
-end
-
-function var_0_0.CanOpen(arg_2_0)
+function var_0_0.CanOpen(arg_1_0)
 	return true
 end
 
-function var_0_0.OnLoaded(arg_3_0)
-	arg_3_0.exploitTF = arg_3_0._tf:Find("res_exploit/bg/Text"):GetComponent(typeof(Text))
-	arg_3_0.timerTF = arg_3_0._tf:Find("time/day"):GetComponent(typeof(Text))
-
-	setText(arg_3_0._tf:Find("time"), i18n("title_limit_time"))
-	setText(arg_3_0._tf:Find("time/text"), i18n("shops_rest_day"))
-	setText(arg_3_0._tf:Find("time/text_day"), i18n("word_date"))
+function var_0_0.CustomInit(arg_2_0)
+	arg_2_0.purchaseWindow = MedalShopPurchasePanel.New(arg_2_0._tf, arg_2_0.parent.event)
+	arg_2_0.multiWindow = MedalShopMultiWindow.New(arg_2_0._tf, arg_2_0.parent.event)
 end
 
-function var_0_0.OnInit(arg_4_0)
-	arg_4_0.purchaseWindow = MedalShopPurchasePanel.New(arg_4_0._tf, arg_4_0.event)
-	arg_4_0.multiWindow = MedalShopMultiWindow.New(arg_4_0._tf, arg_4_0.event)
-end
+function var_0_0.UpdateShop(arg_3_0, ...)
+	var_0_0.super.UpdateShop(arg_3_0, ...)
 
-function var_0_0.UpdateShop(arg_5_0, ...)
-	var_0_0.super.UpdateShop(arg_5_0, ...)
-
-	if arg_5_0.purchaseWindow:isShowing() then
-		arg_5_0.purchaseWindow:ExecuteAction("Hide")
+	if arg_3_0.purchaseWindow:isShowing() then
+		arg_3_0.purchaseWindow:ExecuteAction("Hide")
 	end
 
-	if arg_5_0.multiWindow:isShowing() then
-		arg_5_0.multiWindow:ExecuteAction("Hide")
+	if arg_3_0.multiWindow:isShowing() then
+		arg_3_0.multiWindow:ExecuteAction("Hide")
 	end
 end
 
-function var_0_0.OnUpdatePlayer(arg_6_0)
+function var_0_0.OnUpdatePlayer(arg_4_0)
 	return
 end
 
-function var_0_0.OnUpdateItems(arg_7_0)
-	local var_7_0 = arg_7_0.items
+function var_0_0.OnUpdateItems(arg_5_0)
+	arg_5_0:RefreshResItemList()
+end
 
-	arg_7_0.exploitTF.text = var_7_0[ITEM_ID_SILVER_HOOK] and var_7_0[ITEM_ID_SILVER_HOOK].count or 0
+function var_0_0.GetResDataList(arg_6_0)
+	local var_6_0 = {}
+	local var_6_1 = arg_6_0.shop:GetResList()
+
+	for iter_6_0, iter_6_1 in ipairs(var_6_1) do
+		local var_6_2
+		local var_6_3 = arg_6_0.items[ITEM_ID_SILVER_HOOK]
+		local var_6_4 = not var_6_3 and 0 or var_6_3.count
+
+		table.insert(var_6_0, {
+			type = DROP_TYPE_ITEM,
+			resID = iter_6_1,
+			cnt = var_6_4
+		})
+	end
+
+	return var_6_0
+end
+
+function var_0_0.RefreshUI(arg_7_0)
+	setActive(arg_7_0.tipTextGo, true)
+	setActive(arg_7_0.helpBtn, false)
+	setActive(arg_7_0.resolveBtn, false)
+	setActive(arg_7_0.refreshBtn, false)
 end
 
 function var_0_0.OnInitItem(arg_8_0, arg_8_1)
 	local var_8_0 = MedalGoodsCard.New(arg_8_1)
 
-	onButton(arg_8_0, var_8_0._go, function()
+	onButton(arg_8_0, var_8_0.go, function()
 		if not var_8_0.goods:CanPurchase() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
 
@@ -85,7 +96,7 @@ function var_0_0.OnCardClick(arg_10_0, arg_10_1)
 				table.insert(var_11_0, var_11_1)
 			end
 
-			arg_10_0:emit(NewShopsMediator.ON_MEDAL_SHOPPING, arg_10_1.goods.id, var_11_0)
+			arg_10_0:emit(NewShopMainMediator.ON_MEDAL_SHOPPING, arg_10_1.goods.id, var_11_0)
 		end)
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -98,7 +109,7 @@ function var_0_0.OnCardClick(arg_10_0, arg_10_1)
 					return
 				end
 
-				arg_10_0:emit(NewShopsMediator.ON_MEDAL_SHOPPING, arg_10_1.goods.id, arg_10_1.goods:GetFirstDropId())
+				arg_10_0:emit(NewShopMainMediator.ON_MEDAL_SHOPPING, arg_10_1.goods.id, arg_10_1.goods:GetFirstDropId())
 			end
 		})
 	end
@@ -113,8 +124,10 @@ function var_0_0.AddTimer(arg_13_0)
 		if var_14_0 <= 0 then
 			arg_13_0:RemoveTimer()
 			arg_13_0:OnTimeOut()
-		elseif arg_13_0.timerTF.text ~= tostring(1 + math.floor((var_14_0 - 1) / 86400)) then
-			arg_13_0.timerTF.text = string.format("%02d", 1 + math.floor((var_14_0 - 1) / 86400))
+		else
+			local var_14_1 = string.format("%02d", 1 + math.floor((var_14_0 - 1) / 86400))
+
+			setText(arg_13_0.tipText, i18n("title_limit_time") .. i18n("shops_rest_day") .. var_14_1 .. i18n("word_date"))
 		end
 	end, 1, -1)
 
@@ -123,7 +136,7 @@ function var_0_0.AddTimer(arg_13_0)
 end
 
 function var_0_0.OnTimeOut(arg_15_0)
-	arg_15_0:emit(NewShopsMediator.REFRESH_MEDAL_SHOP, false)
+	arg_15_0:emit(NewShopMainMediator.REFRESH_MEDAL_SHOP, false)
 end
 
 function var_0_0.OnDestroy(arg_16_0)

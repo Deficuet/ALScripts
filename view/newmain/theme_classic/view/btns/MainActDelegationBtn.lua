@@ -6,8 +6,9 @@ end
 
 function var_0_0.InShowTime(arg_2_0)
 	local var_2_0 = getProxy(ActivityProxy):getActivityById(ActivityConst.RYZA_TASK)
+	local var_2_1 = var_2_0 and var_2_0:getConfig("config_client").hide_main_btn or nil
 
-	return var_2_0 and not var_2_0:isEnd()
+	return var_2_0 and not var_2_0:isEnd() and var_2_1 ~= 1
 end
 
 function var_0_0.GetUIName(arg_3_0)

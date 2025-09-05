@@ -53,7 +53,7 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 	local var_8_1 = arg_8_1:getBody()
 
 	if var_8_0 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
-		if getProxy(ContextProxy):getCurrentContext().mediator.__cname ~= "ActivityMediator" then
+		if getProxy(ContextProxy):getCurrentContext().mediator.__cname == "WorldMediaCollectionMediator" then
 			arg_8_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_8_1.awards)
 		end
 

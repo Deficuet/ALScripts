@@ -17,7 +17,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.goldTxt = arg_2_0:findTF("adapt/attr_panel/consume/label/Text"):GetComponent(typeof(Text))
 	arg_2_0.goldIco = arg_2_0:findTF("adapt/attr_panel/consume/label/icon")
 
-	setText(arg_2_0:findTF("adapt/attr_panel/consume/label/label1"), i18n1("消耗"))
+	setText(arg_2_0:findTF("adapt/attr_panel/consume/label/label1"), i18n("island_ship_breakout_consume"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -43,7 +43,7 @@ function var_0_0.OnShow(arg_7_0, arg_7_1)
 end
 
 function var_0_0.Flush(arg_8_0)
-	local var_8_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipByConfigId(arg_8_0.selectedId)
+	local var_8_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_8_0.selectedId)
 
 	if var_8_0 == nil then
 		return
@@ -63,9 +63,9 @@ function var_0_0.UpdateMainView(arg_9_0, arg_9_1)
 end
 
 function var_0_0.FlushLevelAndIcon(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
-	local var_10_0 = pg.island_ship_skill[arg_10_2]
+	local var_10_0 = pg.island_chara_skill[arg_10_2]
 
-	GetImageSpriteFromAtlasAsync("IslandSkillIcon/" .. var_10_0.icon, "", arg_10_0.skillIcon)
+	GetImageSpriteFromAtlasAsync("island/IslandSkillIcon/" .. var_10_0.icon, "", arg_10_0.skillIcon)
 
 	arg_10_0.skillName.text = var_10_0.name
 
@@ -84,11 +84,11 @@ function var_0_0.FlushDesc(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
 			local var_12_0 = var_11_0[arg_12_1 + 1]
 			local var_12_1 = var_12_0.level
 			local var_12_2 = var_12_0.desc
-			local var_12_3 = pg.island_ship_skill[arg_11_2].level
+			local var_12_3 = pg.island_chara_skill[arg_11_2].level
 			local var_12_4 = var_12_3 + 1 == var_12_1 and "#006cff" or "#393a3c"
 
 			setText(arg_12_2:Find("level"), "<color=" .. var_12_4 .. ">[ Lv." .. var_12_1 .. " ]</color>")
-			setText(arg_12_2:Find("Text"), "<color=" .. var_12_4 .. ">" .. i18n1("解锁：") .. var_12_2 .. "</color>")
+			setText(arg_12_2:Find("Text"), "<color=" .. var_12_4 .. ">" .. i18n("island_word_unlock") .. var_12_2 .. "</color>")
 
 			GetOrAddComponent(arg_12_2, typeof(CanvasGroup)).alpha = var_12_1 <= var_12_3 + 1 and 1 or 0.4
 		end
@@ -96,11 +96,11 @@ function var_0_0.FlushDesc(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
 	arg_11_0.descList:align(#var_11_0)
 
 	if arg_11_3 then
-		local var_11_1 = pg.island_ship_skill[arg_11_3]
+		local var_11_1 = pg.island_chara_skill[arg_11_3]
 
 		arg_11_0.descTxt.text = var_11_1.desc
 	else
-		local var_11_2 = pg.island_ship_skill[arg_11_2]
+		local var_11_2 = pg.island_chara_skill[arg_11_2]
 
 		arg_11_0.descTxt.text = var_11_2.desc
 	end
@@ -119,7 +119,7 @@ function var_0_0.FlushConsume(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
 				count = var_14_0[3]
 			})
 
-			updateDrop(arg_14_2, var_14_1)
+			updateCustomDrop(arg_14_2, var_14_1)
 
 			local var_14_2 = var_13_1:GetOwnCount(var_14_1.id)
 			local var_14_3 = var_14_2 >= var_14_1.count and "#FFFFFF" or "#ff7e7e"
@@ -127,7 +127,7 @@ function var_0_0.FlushConsume(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
 			setText(arg_14_2:Find("icon_bg/count"), setColorStr(var_14_2, var_14_3) .. "/" .. var_14_1.count)
 			onButton(arg_13_0, arg_14_2, function()
 				arg_13_0:ShowMsgBox({
-					title = i18n1("详情"),
+					title = i18n("island_word_ship_buff_desc"),
 					type = IslandMsgBox.TYPE_ITEM_DESC,
 					itemId = var_14_1.id
 				})
@@ -146,10 +146,10 @@ function var_0_0.FlushUpgradeBtn(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
 	local var_16_2 = true
 
 	if arg_16_3 then
-		local var_16_3 = pg.island_ship_skill[arg_16_3].upgrade_unlock
+		local var_16_3 = pg.island_chara_skill[arg_16_3].upgrade_unlock
 
 		var_16_2 = var_16_3 <= arg_16_1:GetLevel()
-		arg_16_0.tipTxt.text = i18n1("需要角色等级达到" .. var_16_3)
+		arg_16_0.tipTxt.text = i18n("island_need_ship_level", var_16_3)
 	end
 
 	local var_16_4 = var_16_0[1]

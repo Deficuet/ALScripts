@@ -15,7 +15,7 @@ function var_0_0.OnInit(arg_1_0)
 	setText(arg_1_0.btnPay:Find("Text"), i18n("cruise_btn_pay"))
 	onButton(arg_1_0, arg_1_0.btnPay, function()
 		arg_1_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_PICK
+			warp = ChargeScene.TYPE_PICK
 		})
 	end, SFX_CONFIRM)
 

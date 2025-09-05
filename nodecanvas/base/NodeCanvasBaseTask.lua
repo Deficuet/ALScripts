@@ -21,40 +21,48 @@ function var_0_0.Resume(arg_5_0)
 	arg_5_0:OnResume()
 end
 
-function var_0_0.EndAction(arg_6_0, arg_6_1)
-	local var_6_0 = arg_6_0:GetNodeInstance()
+function var_0_0.DrawGizmosSelected(arg_6_0)
+	arg_6_0:OnDrawGizmosSelected()
+end
 
-	if var_6_0 then
-		var_6_0:EndAction(defaultValue(arg_6_1, true))
+function var_0_0.EndAction(arg_7_0, arg_7_1)
+	local var_7_0 = arg_7_0:GetNodeInstance()
+
+	if var_7_0 then
+		var_7_0:EndAction(defaultValue(arg_7_1, true))
 	end
 end
 
-function var_0_0.SendEvent(arg_7_0, arg_7_1, arg_7_2)
+function var_0_0.SendEvent(arg_8_0, arg_8_1, arg_8_2)
 	if not _IslandCore then
 		return
 	end
 
-	_IslandCore:GetController():NotifiyCore(arg_7_1, arg_7_2)
-	_IslandCore:GetController():NotifiyIsland(arg_7_1, arg_7_2)
+	_IslandCore:GetController():NotifiyCore(arg_8_1, arg_8_2)
+	_IslandCore:GetController():NotifiyIsland(arg_8_1, arg_8_2)
 end
 
-function var_0_0.OnExecute(arg_8_0)
+function var_0_0.OnExecute(arg_9_0)
 	return
 end
 
-function var_0_0.OnUpdate(arg_9_0)
+function var_0_0.OnUpdate(arg_10_0)
 	return
 end
 
-function var_0_0.OnStop(arg_10_0)
+function var_0_0.OnStop(arg_11_0)
 	return
 end
 
-function var_0_0.OnPause(arg_11_0)
+function var_0_0.OnPause(arg_12_0)
 	return
 end
 
-function var_0_0.OnResume(arg_12_0)
+function var_0_0.OnResume(arg_13_0)
+	return
+end
+
+function var_0_0.OnDrawGizmosSelected(arg_14_0)
 	return
 end
 

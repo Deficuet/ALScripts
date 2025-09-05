@@ -1,0 +1,86 @@
+local var_0_0 = class("IslandBuffHelper")
+
+function var_0_0.GetAllBuffsByType(arg_1_0, arg_1_1)
+	return table.mergeArray(var_0_0.GetShipBuffsByType(arg_1_0, arg_1_1), var_0_0.GetGlobalBuffsByType(arg_1_1))
+end
+
+function var_0_0.GetShipBuffsByType(arg_2_0, arg_2_1)
+	local var_2_0 = {}
+
+	for iter_2_0, iter_2_1 in ipairs(arg_2_0) do
+		for iter_2_2, iter_2_3 in ipairs(iter_2_1:GetSkill():GetUnlockShipEffectIds()) do
+			if pg.island_buff_template[iter_2_3].buff_type == arg_2_1 then
+				table.insert(var_2_0, IslandShipStatus.New({
+					isSkill = true,
+					id = iter_2_3
+				}))
+			end
+		end
+
+		var_2_0 = table.mergeArray(var_2_0, iter_2_1:GetVaildStatusByType(arg_2_1))
+	end
+
+	return var_2_0
+end
+
+function var_0_0.GetGlobalBuffsByType(arg_3_0)
+	return getProxy(IslandProxy):GetIsland():GetGlobalBuffAgency():GetBuffsByType(arg_3_0)
+end
+
+function var_0_0.GetAllShipManangeBuffs(arg_4_0, arg_4_1)
+	local var_4_0 = {
+		IslandBuffType.SHIP_MANAGE_SELL_PRICE,
+		IslandBuffType.SHIP_MANAGE_SELL_NUM
+	}
+	local var_4_1 = {}
+
+	for iter_4_0, iter_4_1 in ipairs(var_4_0) do
+		local var_4_2 = underscore.select(var_0_0.GetShipBuffsByType({
+			arg_4_0
+		}, iter_4_1), function(arg_5_0)
+			return table.contains(arg_5_0:GetBuffEffect()[1], arg_4_1)
+		end)
+
+		var_4_1 = table.mergeArray(var_4_1, var_4_2)
+	end
+
+	return var_4_1
+end
+
+function var_0_0.GetManangeSellPriceBuffs(arg_6_0, arg_6_1)
+	local var_6_0 = {
+		IslandBuffType.SHIP_MANAGE_SELL_PRICE,
+		IslandBuffType.GLOBAL_MANAGE_SELL_PRICE
+	}
+	local var_6_1 = {}
+
+	for iter_6_0, iter_6_1 in ipairs(var_6_0) do
+		local var_6_2 = underscore.select(var_0_0.GetAllBuffsByType(arg_6_0, iter_6_1), function(arg_7_0)
+			return table.contains(arg_7_0:GetBuffEffect()[1], arg_6_1)
+		end)
+
+		var_6_1 = table.mergeArray(var_6_1, var_6_2)
+	end
+
+	return var_6_1
+end
+
+function var_0_0.GetManangeSellNumBuffs(arg_8_0, arg_8_1)
+	local var_8_0 = {
+		IslandBuffType.SHIP_MANAGE_SELL_NUM,
+		IslandBuffType.GLOBAL_MANAGE_SELL_NUM
+	}
+	local var_8_1 = {}
+
+	for iter_8_0, iter_8_1 in ipairs(var_8_0) do
+		local var_8_2 = underscore.select(var_0_0.GetAllBuffsByType(arg_8_0, iter_8_1), function(arg_9_0)
+			return table.contains(arg_9_0:GetBuffEffect()[1], arg_8_1)
+		end)
+
+		var_8_1 = table.mergeArray(var_8_1, var_8_2)
+	end
+
+	return var_8_1
+end
+
+return var_0_0

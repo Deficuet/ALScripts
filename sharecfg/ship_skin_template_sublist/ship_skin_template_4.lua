@@ -1,214 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
-	[107229] = {
-		ship_group = 10722,
-		name = "Independence (Retrofit)",
-		hand_id = 1,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 107229,
-		group_index = 9,
-		purchase_offset = "",
-		painting = "duli_g",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "duli_g",
-		shop_type_id = 9997,
-		shop_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Light carrier Independence reporting. Retrofitting complete. I'm ready to take on harder, more vital missions. Leave anything like that to me.",
-		voice_actor = 130,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.1,
-					1.18,
-					0
-				}
-			},
-			plane = {
-				{
-					1.24,
-					1.17,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.63,
-							2.35,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107230] = {
-		ship_group = 10723,
-		name = "Princeton ",
-		hand_id = 13,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 107230,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "pulinsidun",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "pulinsidun",
-		shop_type_id = 0,
-		shop_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Independence-class light aircraft carrier – Princeton (CVL-23.) ",
-		voice_actor = 249,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.384,
-					0.917,
-					0
-				}
-			},
-			plane = {
-				{
-					1.439,
-					0.955,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
 	[107231] = {
 		ship_group = 10723,
 		name = "Seaside Training ",
@@ -4821,23 +4613,20 @@ pg.base.ship_skin_template_4 = {
 		bgm = "",
 		gyro = 0,
 		illustrator2 = -1,
-		shop_offset = "",
 		id = 137060,
-		group_index = 10,
-		purchase_offset = "",
-		painting = "qiye_9",
 		l2d_drag_rate = "",
+		group_index = 10,
 		part_scale = "",
+		painting = "qiye_9",
 		prefab = "qiye_9",
-		shop_type_id = 6,
 		shop_id = 70897,
 		illustrator = 8,
-		lip_smoothing = 0,
+		shop_type_id = 6,
 		l2d_para_range = "",
+		lip_smoothing = 0,
 		bg = "133",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
-		spine_offset_profile = "",
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
@@ -4853,7 +4642,6 @@ pg.base.ship_skin_template_4 = {
 		time = "",
 		get_showing = "",
 		lip_sync_gain = 0,
-		live2d_offset_profile = "",
 		show_skin = "stand",
 		tag = {
 			1,
@@ -4862,7 +4650,32 @@ pg.base.ship_skin_template_4 = {
 		live2d_offset = {
 			0,
 			40,
-			0
+			0,
+			26.8
+		},
+		shop_offset = {
+			0,
+			40,
+			0,
+			26.8
+		},
+		purchase_offset = {
+			0,
+			40,
+			0,
+			26.8
+		},
+		live2d_offset_profile = {
+			0,
+			40,
+			0,
+			26.8
+		},
+		spine_offset_profile = {
+			0,
+			40,
+			0,
+			26.8
 		},
 		fx_container = {
 			{
@@ -4939,6 +4752,210 @@ pg.base.ship_skin_template_4 = {
 			1370602,
 			1370603,
 			1370604
+		}
+	},
+	[137061] = {
+		ship_group = 10706,
+		name = "Bathing Under Sunny Skies",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		id = 137061,
+		l2d_drag_rate = "",
+		group_index = 11,
+		part_scale = "",
+		painting = "qiye_10",
+		prefab = "qiye_10",
+		shop_id = 71174,
+		illustrator = 8,
+		shop_type_id = 22,
+		lip_smoothing = 0,
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Oh, Commander? Sorry you have to see me like this – I overheated a little in the bath... Hm? You smell like nature... It's nice.",
+		voice_actor = 31,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1
+		},
+		live2d_offset = {
+			-80,
+			0,
+			0,
+			27
+		},
+		shop_offset = {
+			240,
+			0,
+			0,
+			27
+		},
+		purchase_offset = {
+			240,
+			0,
+			0,
+			27
+		},
+		live2d_offset_profile = {
+			260,
+			0,
+			0,
+			27
+		},
+		spine_offset_profile = {
+			-80,
+			0,
+			0,
+			27
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.783,
+					2.348,
+					0
+				}
+			},
+			plane = {
+				{
+					0.93,
+					0.899,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.8,
+							2.322,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			13706101,
+			13706102,
+			13706103,
+			13706104,
+			13706105,
+			13706106,
+			13706107,
+			13706108,
+			13706109,
+			13706110,
+			13706111,
+			13706112,
+			13706113,
+			13706114,
+			13706115,
+			13706116,
+			13706117,
+			13706118,
+			13706119,
+			13706120,
+			13706121,
+			13706122,
+			13706123,
+			13706124,
+			13706125,
+			13706126,
+			13706127,
+			13706128,
+			13706129,
+			13706130,
+			13706131,
+			13706132,
+			13706133
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-773,
+					147,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					519,
+					807,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					1251,
+					-256,
+					2,
+					0,
+					-100,
+					2
+				}
+			}
 		}
 	},
 	[201010] = {
@@ -14273,6 +14290,348 @@ pg.base.ship_skin_template_4 = {
 					}
 				}
 			}
+		}
+	},
+	[201371] = {
+		ship_group = 20137,
+		name = "Normal Potion Maker",
+		hand_id = 7,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 201371,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "nubiyaren_2",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "nubiyaren_2",
+		shop_type_id = 24,
+		shop_id = 70987,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "500",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I'm Nubian, the master concocter of magic potions! What kind of potion do you want, Commander? ...Huh? It's been so long since you visited a normal potion maker who brews using a cauldron so you don't know what to order? ...Come again?",
+		voice_actor = 402,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.6,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.48,
+					1.272,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.513,
+							2.111,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201372] = {
+		ship_group = 20137,
+		name = "The Modern-Day Clumsy Maid Escapade",
+		hand_id = 7,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 201372,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "nubiyaren_3",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "nubiyaren_3",
+		shop_type_id = 17,
+		shop_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "166",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Uh, teehee! I was trying to make chocolate, then I slipped for some reason! ...Hang on a minute! How did I slip? Even a modern clumsy maid wouldn't blunder like that... Would she?!",
+		voice_actor = 402,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.6,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.48,
+					1.272,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.513,
+							2.111,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201380] = {
+		ship_group = 20138,
+		name = "Trafalgar",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 201380,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "telafaerjia",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "telafaerjia",
+		shop_type_id = 0,
+		shop_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Battle-class destroyer – Trafalgar.",
+		voice_actor = 452,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.438,
+					1.233,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.135,
+					0.135,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.839,
+					2.365,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.516,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-85.3,
+			166.8,
+			0,
+			0.603
 		}
 	}
 }

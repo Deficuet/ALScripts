@@ -118,6 +118,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[108] = {
+		key = "SkinNormal_20250724",
+		name = "Natural Flow",
+		desc = "Listen to Mother Nature's vivid tune, performed by running water and birdsong.",
+		display_icon = "ui_108",
+		is_unlock = 1,
+		rare = 3,
+		unlock = "Cruise Missions S24",
+		id = 108,
+		icon = "108",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		key = "SkinNormal_20241209",
 		name = "Christmas",
@@ -195,6 +210,7 @@ pg.item_data_battleui = {
 		105,
 		106,
 		107,
+		108,
 		201,
 		202,
 		203,

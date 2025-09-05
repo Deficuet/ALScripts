@@ -241,9 +241,10 @@ function var_0_0.TimeUpdate(arg_27_0, arg_27_1)
 		end
 
 		local var_27_0, var_27_1 = arg_27_0:GetMoveInfo()
-		local var_27_2 = RyzaMiniGameConfig.GetEightDirMark(var_27_1)
+		local var_27_2 = RyzaMiniGameConfig.ReSetDir(var_27_1)
+		local var_27_3 = RyzaMiniGameConfig.GetEightDirMark(var_27_2)
 
-		if var_27_2 == "" then
+		if var_27_3 == "" then
 			if arg_27_0.spirit then
 				arg_27_0.neglectTime = 0
 
@@ -259,21 +260,21 @@ function var_0_0.TimeUpdate(arg_27_0, arg_27_1)
 			arg_27_0.neglectTime = 0
 
 			if arg_27_0:GetSpeed() < 7 then
-				arg_27_0:PlayAnim("Trot_" .. var_27_2)
+				arg_27_0:PlayAnim("Trot_" .. var_27_3)
 			else
-				arg_27_0:PlayAnim("Run_" .. var_27_2)
+				arg_27_0:PlayAnim("Run_" .. var_27_3)
 			end
 		end
 
-		local var_27_3 = arg_27_0:MoveDelta(var_27_1, arg_27_0:GetSpeedDis() * arg_27_1)
+		local var_27_4 = arg_27_0:MoveDelta(var_27_2, arg_27_0:GetSpeedDis() * arg_27_1)
 
-		arg_27_0:MoveUpdate(var_27_3)
+		arg_27_0:MoveUpdate(var_27_4)
 
-		if #var_27_2 == 1 and var_0_1[var_27_2][1] * var_27_3.x + var_0_1[var_27_2][2] * var_27_3.y == 0 then
+		if #var_27_3 == 1 and var_0_1[var_27_3][1] * var_27_4.x + var_0_1[var_27_3][2] * var_27_4.y == 0 then
 			arg_27_0:Calling("touch", {
 				arg_27_0
 			}, {
-				var_0_1[var_27_2]
+				var_0_1[var_27_3]
 			})
 		end
 	end

@@ -10,14 +10,12 @@ function var_0_0.EachSubDirector(arg_2_0, arg_2_1)
 	eachChild(arg_2_0, function(arg_3_0)
 		local var_3_0 = arg_3_0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
 
-		if not var_3_0 then
-			return
+		if var_3_0 then
+			table.IpairsCArray(TimelineHelper.GetTimelineTracks(var_3_0), function(arg_4_0, arg_4_1)
+				arg_2_1(arg_4_0, arg_4_1, var_3_0)
+			end)
+			var_0_0.EachSubDirector(var_3_0, arg_2_1)
 		end
-
-		table.IpairsCArray(TimelineHelper.GetTimelineTracks(var_3_0), function(arg_4_0, arg_4_1)
-			arg_2_1(arg_4_0, arg_4_1, var_3_0)
-		end)
-		var_0_0.EachSubDirector(var_3_0, arg_2_1)
 	end)
 end
 
@@ -99,6 +97,18 @@ function var_0_0.UnloadCriAtomTrack(arg_15_0)
 
 				pg.CriMgr.GetInstance():UnloadCueSheet(var_17_1)
 			end)
+		end
+	end)
+end
+
+function var_0_0.DisablePlayOnAwake(arg_18_0)
+	arg_18_0.playOnAwake = false
+
+	eachChild(arg_18_0, function(arg_19_0)
+		local var_19_0 = arg_19_0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
+
+		if var_19_0 then
+			var_0_0.DisablePlayOnAwake(var_19_0)
 		end
 	end)
 end

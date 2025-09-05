@@ -58,7 +58,7 @@ function var_0_0.getProgress(arg_6_0)
 		if var_6_6 then
 			var_6_0 = var_6_6.data1 or 0
 		else
-			warning("找不到活动数据中物品得的数量")
+			warning("找不到活动数据中物品得的数量", arg_6_0.id)
 
 			var_6_0 = 0
 		end

@@ -26,12 +26,26 @@ function var_0_0.Ctor(arg_2_0, arg_2_1, arg_2_2)
 	arg_2_0._closeBtn = findTF(arg_2_0._tf, "backbtn")
 
 	onButton(arg_2_0, arg_2_0._mask, function()
-		arg_2_0:SetActive(false)
+		if arg_2_0._parent.DETAIL_CLOSE_ANIM and arg_2_0._parent.DETAIL_CLOSE_ANIM_Time then
+			quickPlayAnimation(arg_2_0._go, arg_2_0._parent.DETAIL_CLOSE_ANIM)
+			onDelayTick(function()
+				arg_2_0:SetActive(false)
+			end, arg_2_0._parent.DETAIL_CLOSE_ANIM_Time)
+		else
+			arg_2_0:SetActive(false)
+		end
 	end, SFX_CANCEL)
 
 	if arg_2_0._closeBtn then
 		onButton(arg_2_0, arg_2_0._closeBtn, function()
-			arg_2_0:SetActive(false)
+			if arg_2_0._parent.DETAIL_CLOSE_ANIM and arg_2_0._parent.DETAIL_CLOSE_ANIM_Time then
+				quickPlayAnimation(arg_2_0._go, arg_2_0._parent.DETAIL_CLOSE_ANIM)
+				onDelayTick(function()
+					arg_2_0:SetActive(false)
+				end, arg_2_0._parent.DETAIL_CLOSE_ANIM_Time)
+			else
+				arg_2_0:SetActive(false)
+			end
 		end, SFX_CANCEL)
 	end
 
@@ -47,81 +61,81 @@ function var_0_0.Ctor(arg_2_0, arg_2_1, arg_2_2)
 	end)
 end
 
-function var_0_0.SetMedalGroup(arg_7_0, arg_7_1)
-	arg_7_0._medalGroup = arg_7_1
+function var_0_0.SetMedalGroup(arg_9_0, arg_9_1)
+	arg_9_0._medalGroup = arg_9_1
 end
 
-function var_0_0.SetCurrentIndex(arg_8_0, arg_8_1)
-	arg_8_0._currentIndex = arg_8_1
+function var_0_0.SetCurrentIndex(arg_10_0, arg_10_1)
+	arg_10_0._currentIndex = arg_10_1
 end
 
-function var_0_0.UpdateMedal(arg_9_0)
-	local var_9_0 = arg_9_0._medalGroup:GetMedalIds()[arg_9_0._currentIndex]
+function var_0_0.UpdateMedal(arg_11_0)
+	local var_11_0 = arg_11_0._medalGroup:GetMedalIds()[arg_11_0._currentIndex]
 
-	arg_9_0._medal = arg_9_0._medalGroup:GetMedalList()[var_9_0]
+	arg_11_0._medal = arg_11_0._medalGroup:GetMedalList()[var_11_0]
 
-	local var_9_1 = pg.activity_medal_template[var_9_0]
+	local var_11_1 = pg.activity_medal_template[var_11_0]
 
-	setText(arg_9_0._nameText, var_9_1.activity_medal_name)
-	setText(arg_9_0._descText, var_9_1.activity_medal_desc)
+	setText(arg_11_0._nameText, var_11_1.activity_medal_name)
+	setText(arg_11_0._descText, var_11_1.activity_medal_desc)
 
-	if arg_9_0._medal.timeStamp then
-		LoadImageSpriteAsync("activitymedal/" .. var_9_0, arg_9_0._medalIcon, true)
+	if arg_11_0._medal.timeStamp then
+		LoadImageSpriteAsync("activitymedal/" .. var_11_0, arg_11_0._medalIcon, true)
 	else
-		LoadImageSpriteAsync("activitymedal/" .. var_9_0 .. "_l", arg_9_0._medalIcon, true)
+		LoadImageSpriteAsync("activitymedal/" .. var_11_0 .. "_l", arg_11_0._medalIcon, true)
 	end
 
-	arg_9_0._medalIcon.transform.localScale = arg_9_0._iconScale
+	arg_11_0._medalIcon.transform.localScale = arg_11_0._iconScale
 
-	SetActive(arg_9_0._medalLock, not arg_9_0._medal.timeStamp)
+	SetActive(arg_11_0._medalLock, not arg_11_0._medal.timeStamp)
 
-	if arg_9_0._medal.timeStamp then
-		setText(arg_9_0._conditionText, i18n("word_gain_date") .. pg.TimeMgr.GetInstance():CTimeDescC(arg_9_0._medal.timeStamp, "%Y/%m/%d"))
-		setText(arg_9_0._progressText, i18n("word_unlock"))
+	if arg_11_0._medal.timeStamp then
+		setText(arg_11_0._conditionText, i18n("word_gain_date") .. pg.TimeMgr.GetInstance():CTimeDescC(arg_11_0._medal.timeStamp, "%Y/%m/%d"))
+		setText(arg_11_0._progressText, i18n("word_unlock"))
 	else
-		setText(arg_9_0._conditionText, pg.task_data_template[var_9_1.task_id].desc)
-		setText(arg_9_0._progressText, i18n("word_lock"))
+		setText(arg_11_0._conditionText, pg.task_data_template[var_11_1.task_id].desc)
+		setText(arg_11_0._progressText, i18n("word_lock"))
 	end
 
-	local var_9_2 = findTF(arg_9_0._tf, "progress/lock")
+	local var_11_2 = findTF(arg_11_0._tf, "progress/lock")
 
-	if var_9_2 then
-		SetActive(var_9_2, not arg_9_0._medal.timeStamp)
+	if var_11_2 then
+		SetActive(var_11_2, not arg_11_0._medal.timeStamp)
 	end
 
-	local var_9_3 = arg_9_0._medalGroup:GetMedalGroupState()
+	local var_11_3 = arg_11_0._medalGroup:GetMedalGroupState()
 
-	if var_9_3 == ActivityMedalGroup.STATE_EXPIRE then
-		setText(arg_9_0._stateText, setColorStr(i18n("word_cant_gain_anymore"), "#73757f"))
-	elseif var_9_3 == ActivityMedalGroup.STATE_CLOSE then
-		setText(arg_9_0._stateText, setColorStr(i18n("word_activity_not_open"), "#ed4646"))
+	if var_11_3 == ActivityMedalGroup.STATE_EXPIRE then
+		setText(arg_11_0._stateText, setColorStr(i18n("word_cant_gain_anymore"), "#73757f"))
+	elseif var_11_3 == ActivityMedalGroup.STATE_CLOSE then
+		setText(arg_11_0._stateText, setColorStr(i18n("word_activity_not_open"), "#ed4646"))
 	end
 
-	SetActive(arg_9_0._stateText, var_9_3 ~= ActivityMedalGroup.STATE_ACTIVE)
-	SetActive(arg_9_0._prevBtn, arg_9_0._currentIndex ~= 1)
-	SetActive(arg_9_0._nextBtn, arg_9_0._currentIndex ~= #arg_9_0._medalGroup:GetMedalIds())
+	SetActive(arg_11_0._stateText, var_11_3 ~= ActivityMedalGroup.STATE_ACTIVE)
+	SetActive(arg_11_0._prevBtn, arg_11_0._currentIndex ~= 1)
+	SetActive(arg_11_0._nextBtn, arg_11_0._currentIndex ~= #arg_11_0._medalGroup:GetMedalIds())
 end
 
-function var_0_0.SetActive(arg_10_0, arg_10_1)
-	SetActive(arg_10_0._go, arg_10_1)
+function var_0_0.SetActive(arg_12_0, arg_12_1)
+	SetActive(arg_12_0._go, arg_12_1)
 
-	arg_10_0._active = arg_10_1
+	arg_12_0._active = arg_12_1
 
-	if arg_10_1 then
-		pg.UIMgr.GetInstance():BlurPanel(arg_10_0._go, false, {
+	if arg_12_1 then
+		pg.UIMgr.GetInstance():BlurPanel(arg_12_0._go, false, {
 			weight = LayerWeightConst.SECOND_LAYER
 		})
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._go, arg_10_0._parent._tf)
+		pg.UIMgr.GetInstance():UnblurPanel(arg_12_0._go, arg_12_0._parent._tf)
 	end
 end
 
-function var_0_0.IsActive(arg_11_0)
-	return arg_11_0._active
+function var_0_0.IsActive(arg_13_0)
+	return arg_13_0._active
 end
 
-function var_0_0.Dispose(arg_12_0)
-	pg.DelegateInfo.Dispose(arg_12_0)
+function var_0_0.Dispose(arg_14_0)
+	pg.DelegateInfo.Dispose(arg_14_0)
 end
 
 return var_0_0

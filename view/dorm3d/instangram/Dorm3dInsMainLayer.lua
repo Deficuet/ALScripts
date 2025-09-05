@@ -430,8 +430,21 @@ function var_0_0.DeleteRoom(arg_58_0, arg_58_1)
 			var_59_1 = ShipGroup.getDefaultShipNameByGroupID(var_59_0:getPersonalGroupId())
 		end
 
+		local var_59_2
+
+		if var_59_0:isPersonalRoom() then
+			var_59_2 = DormGroupConst.GetDelRoomSize(string.lower(var_59_0:getConfig("resource_name")), {
+				"room",
+				"apartment"
+			})
+		else
+			var_59_2 = DormGroupConst.GetDelRoomSize(string.lower(var_59_0:getConfig("resource_name")), {
+				"room"
+			})
+		end
+
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("dorm3d_role_assets_delete", var_59_1),
+			content = i18n("dorm3d_role_assets_delete", var_59_1, var_59_2),
 			onYes = function()
 				if IsUnityEditor then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_open"))

@@ -851,10 +851,10 @@ end
 
 function var_0_0.GetSPBuffByItem(arg_70_0)
 	for iter_70_0, iter_70_1 in ipairs(pg.benefit_buff_template.all) do
-		buffConfig = pg.benefit_buff_template[iter_70_1]
+		local var_70_0 = pg.benefit_buff_template[iter_70_1]
 
-		if buffConfig.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and tonumber(buffConfig.benefit_condition) == arg_70_0 then
-			return buffConfig.id
+		if var_70_0.benefit_type == Chapter.OPERATION_BUFF_TYPE_DESC and tonumber(var_70_0.benefit_condition) == arg_70_0 then
+			return var_70_0.id
 		end
 	end
 end

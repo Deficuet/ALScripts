@@ -49,6 +49,10 @@ function var_0_1.SwitchIcon(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_0 = var_0_1.ICON_BY_INDEX[arg_5_1]
 	local var_5_1 = arg_5_2 or var_0_0.Battle.BattleState.GetCombatSkinKey()
 
+	if var_5_1 ~= "Standard" then
+		var_5_1 = ""
+	end
+
 	setImageSprite(arg_5_0._unfill, LoadSprite("ui/CombatUI" .. var_5_1 .. "_atlas", "weapon_unfill_" .. var_5_0))
 	setImageSprite(arg_5_0._filled, LoadSprite("ui/CombatUI" .. var_5_1 .. "_atlas", "filled_combined_" .. var_5_0))
 end
@@ -56,6 +60,10 @@ end
 function var_0_1.SwitchIconEffect(arg_6_0, arg_6_1, arg_6_2)
 	local var_6_0 = var_0_1.ICON_BY_INDEX[arg_6_1]
 	local var_6_1 = arg_6_2 or var_0_0.Battle.BattleState.GetCombatSkinKey()
+
+	if var_6_1 ~= "Standard" then
+		var_6_1 = ""
+	end
 
 	setImageSprite(arg_6_0._filledEffect, LoadSprite("ui/CombatUI" .. var_6_1 .. "_atlas", "filled_effect_" .. var_6_0), true)
 	setImageSprite(arg_6_0._jam, LoadSprite("ui/CombatUI" .. var_6_1 .. "_atlas", "skill_jam_" .. var_6_0), true)

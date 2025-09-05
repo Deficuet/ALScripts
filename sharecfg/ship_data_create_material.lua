@@ -76,9 +76,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>: 12%",
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 30%",
-			"<color=#ffde38>Admiral Zenker</color>: 2.0% <color=#92FC63>(up!)</color>",
+			"<color=#ffde38>Masséna</color>: 2.0% <color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>U-552</color>: 2.0% <color=#92FC63>(up!)</color>"
+			"<color=#ffde38>Bois Belleau</color>: 2.0% <color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#ffde38>Le Hardi</color>: 0.5%",
+			" ",
+			"<color=#d797ff>Duquesne</color>: 2.5% <color=#92FC63>(up!)</color>"
 		}
 	},
 	{

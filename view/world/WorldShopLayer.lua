@@ -51,7 +51,7 @@ function var_0_0.didEnter(arg_5_0)
 		if arg_8_0 == UIItemList.EventUpdate then
 			local var_8_1 = Goods.Create(arg_5_0.goodsList[var_8_0], Goods.TYPE_WORLD)
 
-			GoodsCard.New(arg_8_2):update(var_8_1)
+			WorldGoodsCard.New(arg_8_2):update(var_8_1)
 
 			local var_8_2 = var_8_1:getLimitCount()
 

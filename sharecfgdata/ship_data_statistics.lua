@@ -70774,6 +70774,135 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[107974] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Essex (Retrofit)",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 107090,
+		english_name = "USS Essex",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 107974,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2730,
+			0,
+			0,
+			155,
+			206,
+			48,
+			0,
+			30,
+			13,
+			33,
+			90,
+			0
+		},
+		attrs_growth = {
+			29755,
+			0,
+			0,
+			1329,
+			1018,
+			333,
+			0,
+			450,
+			327,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Essex-Class",
+			"Essex-Class-No-Yorktown",
+			"EssexG"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[107984] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -237500,7 +237629,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -237630,7 +237760,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -237760,7 +237891,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -237890,7 +238022,8 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238019,7 +238152,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238148,7 +238282,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238277,7 +238412,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238406,7 +238542,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238535,7 +238672,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238664,7 +238802,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238793,7 +238932,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -238922,7 +239062,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -240086,7 +240227,8 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -240218,7 +240360,8 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -240350,7 +240493,8 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -240482,7 +240626,8 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -242677,7 +242822,8 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -242808,7 +242954,8 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -242939,7 +243086,8 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -243070,7 +243218,8 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -244242,7 +244391,8 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -244374,7 +244524,8 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -244506,7 +244657,8 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -244638,7 +244790,8 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -269511,7 +269664,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An Shan",
+		english_name = "An Shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -269639,7 +269792,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An Shan",
+		english_name = "An Shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -269767,7 +269920,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An Shan",
+		english_name = "An Shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -269895,7 +270048,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An Shan",
+		english_name = "An Shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -270023,7 +270176,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu Shun",
+		english_name = "Fu Shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -270152,7 +270305,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu Shun",
+		english_name = "Fu Shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -270281,7 +270434,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu Shun",
+		english_name = "Fu Shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -270410,7 +270563,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu Shun",
+		english_name = "Fu Shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -270539,7 +270692,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -270667,7 +270820,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -270795,7 +270948,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -270923,7 +271076,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -271051,7 +271204,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -271179,7 +271332,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -271307,7 +271460,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -271435,7 +271588,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -274123,7 +274276,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -274251,7 +274404,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -274379,7 +274532,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -274507,7 +274660,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -274635,7 +274788,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -274763,7 +274916,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -274894,7 +275047,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -275025,7 +275178,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -275156,7 +275309,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -275287,7 +275440,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -275418,7 +275571,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -275549,7 +275702,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -275680,7 +275833,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -275811,7 +275964,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502040,
-		english_name = "ROC Ying Swei",
+		english_name = "Ying Swei",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -275941,7 +276094,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502040,
-		english_name = "ROC Ying Swei",
+		english_name = "Ying Swei",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -276071,7 +276224,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502040,
-		english_name = "ROC Ying Swei",
+		english_name = "Ying Swei",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -276201,7 +276354,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502040,
-		english_name = "ROC Ying Swei",
+		english_name = "Ying Swei",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -276331,7 +276484,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502050,
-		english_name = "ROC Chao Ho",
+		english_name = "Chao Ho",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -276461,7 +276614,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502050,
-		english_name = "ROC Chao Ho",
+		english_name = "Chao Ho",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -276591,7 +276744,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502050,
-		english_name = "ROC Chao Ho",
+		english_name = "Chao Ho",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -276721,7 +276874,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502050,
-		english_name = "ROC Chao Ho",
+		english_name = "Chao Ho",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -277891,7 +278044,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -278018,7 +278171,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -278145,7 +278298,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -278272,7 +278425,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -281673,7 +281826,7 @@ end)()
 		type = 20,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An Shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -281806,7 +281959,7 @@ end)()
 		type = 20,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu Shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -281940,7 +282093,7 @@ end)()
 		type = 20,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282073,7 +282226,7 @@ end)()
 		type = 20,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282206,7 +282359,7 @@ end)()
 		type = 21,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An Shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282340,7 +282493,7 @@ end)()
 		type = 21,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu Shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282475,7 +282628,7 @@ end)()
 		type = 21,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282609,7 +282762,7 @@ end)()
 		type = 21,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -310128,7 +310281,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -310256,7 +310410,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -310384,7 +310539,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -310512,7 +310668,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
 		}
 	}
 end)()
@@ -318186,6 +318343,514 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[801051] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Le Hardi",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801051,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			312,
+			23,
+			76,
+			34,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			49
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.1,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801052] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Le Hardi",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801052,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			388,
+			29,
+			95,
+			42,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			61
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.1,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801053] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Le Hardi",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801053,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			540,
+			40,
+			132,
+			59,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			85
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801054] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Le Hardi",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801054,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			768,
+			58,
+			188,
+			85,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			122
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[801071] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -321266,6 +321931,526 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[802041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Duguay-Trouin",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			523,
+			33,
+			62,
+			56,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			34
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			271
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Duguay-Trouin",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			651,
+			41,
+			77,
+			70,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			43
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			272
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.27,
+			1.42,
+			0.92,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Duguay-Trouin",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			906,
+			57,
+			108,
+			97,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			60
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			273
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			0.95,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Duguay-Trouin",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1289,
+			82,
+			154,
+			139,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			85
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			274
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[803011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -322285,6 +323470,1022 @@ end)()
 		},
 		tag_list = {
 			"Brennus"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Duquesne",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			563,
+			48,
+			33,
+			44,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			371
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.4,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Duquesne",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			700,
+			60,
+			41,
+			55,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			372
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Duquesne",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			975,
+			84,
+			58,
+			77,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			373
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Duquesne",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1387,
+			119,
+			82,
+			109,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			374
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.65,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Masséna",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1198,
+			66,
+			0,
+			44,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Masséna",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1490,
+			82,
+			0,
+			55,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Masséna",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2075,
+			115,
+			0,
+			76,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Masséna",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2952,
+			164,
+			0,
+			109,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
 		}
 	}
 end)()
@@ -323819,6 +326020,510 @@ end)()
 			"Alsace",
 			"AlsaceHA",
 			"PRE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Bois Belleau",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			866,
+			0,
+			0,
+			55,
+			70,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			18
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Bois Belleau",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1077,
+			0,
+			0,
+			68,
+			87,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			22
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Bois Belleau",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1500,
+			0,
+			0,
+			95,
+			122,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			31
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Bois Belleau",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2134,
+			0,
+			0,
+			135,
+			174,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			44
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			4,
+			4,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
 		}
 	}
 end)()
@@ -339427,7 +342132,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -339675,7 +342380,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 900022,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -339799,7 +342504,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 900023,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -339923,7 +342628,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 900024,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -340047,7 +342752,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502022,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -340171,7 +342876,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502032,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -340667,7 +343372,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -340791,7 +343496,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -340915,7 +343620,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 900032,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -351728,7 +354433,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -373358,11 +376063,11 @@ end)()
 	_G.pg.base.ship_data_statistics[900413] = {
 		raid_distance = 0,
 		oxy_max = 0,
-		name = "抚顺-勇者",
+		name = "Fu Shun - Hero",
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 900413,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -377628,7 +380333,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An Shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -377756,7 +380461,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -377883,7 +380588,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -385895,6 +388600,1042 @@ end)()
 		},
 		tag_list = {
 			"BRS"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900512] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Fu Po",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 501090,
+		english_name = "Fu Po",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900512,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			759,
+			44,
+			99,
+			56,
+			0,
+			74,
+			0,
+			68,
+			64,
+			43.2,
+			45,
+			80
+		},
+		attrs_growth = {
+			7642,
+			247,
+			554,
+			495,
+			0,
+			515,
+			0,
+			1068,
+			1212,
+			0,
+			0,
+			386
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			90173,
+			45253,
+			90633
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.4,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Fu Po",
+			"Chang Feng-Class",
+			"Fubo's Plan"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900513] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Fu Shun (Retrofit)",
+		type = 21,
+		oxy_cost = 0,
+		skin_id = 501020,
+		english_name = "Fu shun",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900513,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1409,
+			59,
+			106,
+			80,
+			0,
+			74,
+			0,
+			68,
+			21,
+			45.6,
+			51,
+			122
+		},
+		attrs_growth = {
+			16299,
+			328,
+			590,
+			709,
+			0,
+			515,
+			0,
+			1045,
+			1132,
+			0,
+			0,
+			564
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			90173,
+			96033,
+			90633
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.5,
+			1.05
+		},
+		strategy_list = {
+			{
+				18,
+				1
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class",
+			"PRE",
+			"Fubo's Plan"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900514] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "朴茨茅斯冒险号（后排）",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600100,
+		english_name = "MOT Adventure Portsmouth",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900514,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1801,
+			101,
+			0,
+			0,
+			0,
+			64,
+			0,
+			38,
+			9,
+			26.2,
+			68,
+			0
+		},
+		attrs_growth = {
+			18889,
+			562,
+			0,
+			0,
+			0,
+			445,
+			0,
+			607,
+			459,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			3217501,
+			150093,
+			150093
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900515] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Isla von Duerer",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11300020,
+		english_name = "Isla von Duerer",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900515,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1651,
+			75,
+			169,
+			169,
+			0,
+			71,
+			0,
+			55,
+			28,
+			32,
+			83,
+			89
+		},
+		attrs_growth = {
+			17992,
+			412,
+			874,
+			1429,
+			0,
+			488,
+			0,
+			816,
+			639,
+			0,
+			0,
+			421
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			22293,
+			25053,
+			26673
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.55,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Isla"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900516] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Lenja",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 11300040,
+		english_name = "Lenja",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900516,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			836,
+			45,
+			231,
+			77,
+			0,
+			88,
+			0,
+			73,
+			73,
+			48,
+			75,
+			122
+		},
+		attrs_growth = {
+			9670,
+			251,
+			1114,
+			686,
+			0,
+			615,
+			0,
+			1125,
+			1428,
+			0,
+			0,
+			560
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			11273,
+			15253,
+			16453
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Lenja"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900517] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yumia Liessfeldt",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 11300010,
+		english_name = "Yumia Liessfeldt",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 900517,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2534,
+			0,
+			0,
+			126,
+			203,
+			67,
+			0,
+			29,
+			17,
+			21,
+			26,
+			63
+		},
+		attrs_growth = {
+			29306,
+			0,
+			0,
+			1100,
+			1006,
+			467,
+			0,
+			415,
+			223,
+			0,
+			0,
+			309
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			3297001,
+			3297002,
+			26673
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.45,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"YumiaSelf"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900518] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Nina Friede",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 11300030,
+		english_name = "Nina Friede",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 900518,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3135,
+			199,
+			0,
+			104,
+			0,
+			57,
+			0,
+			23,
+			10,
+			35,
+			27,
+			0
+		},
+		attrs_growth = {
+			36256,
+			1160,
+			0,
+			916,
+			0,
+			400,
+			0,
+			327,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			33113,
+			22293,
+			90633
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Nina"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900519] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Fu Shun (Retrofit)",
+		type = 20,
+		oxy_cost = 0,
+		skin_id = 501020,
+		english_name = "Fu shun",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 5,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900519,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			904,
+			59,
+			106,
+			80,
+			0,
+			74,
+			0,
+			68,
+			61,
+			45.6,
+			51,
+			122
+		},
+		attrs_growth = {
+			10459,
+			328,
+			590,
+			709,
+			0,
+			515,
+			0,
+			1045,
+			1132,
+			0,
+			0,
+			564
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			90173,
+			96033,
+			90633
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.5,
+			1.05
+		},
+		strategy_list = {
+			{
+				18,
+				1
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Zhuque",
+			"Anshan-Class",
+			"Fubo's Plan"
 		}
 	}
 end)()
@@ -405459,6 +409200,514 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[9701091] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yuudachi META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701090,
+		english_name = "Yūdachi.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701091,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			295,
+			28,
+			100,
+			33,
+			0,
+			83,
+			0,
+			57,
+			72,
+			41,
+			32,
+			49
+		},
+		attrs_growth = {
+			5981,
+			349,
+			1198,
+			446,
+			0,
+			577,
+			0,
+			767,
+			945,
+			0,
+			0,
+			658
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YūdachiMETA"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701092] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yuudachi META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701090,
+		english_name = "Yūdachi.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701092,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			367,
+			35,
+			125,
+			41,
+			0,
+			83,
+			0,
+			57,
+			72,
+			41,
+			32,
+			61
+		},
+		attrs_growth = {
+			5981,
+			349,
+			1198,
+			446,
+			0,
+			577,
+			0,
+			767,
+			945,
+			0,
+			0,
+			658
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YūdachiMETA"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701093] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yuudachi META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701090,
+		english_name = "Yūdachi.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701093,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			511,
+			49,
+			174,
+			57,
+			0,
+			83,
+			0,
+			57,
+			72,
+			41,
+			32,
+			86
+		},
+		attrs_growth = {
+			5981,
+			349,
+			1198,
+			446,
+			0,
+			577,
+			0,
+			767,
+			945,
+			0,
+			0,
+			658
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.5,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YūdachiMETA"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701094] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yuudachi META",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701090,
+		english_name = "Yūdachi.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701094,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			726,
+			69,
+			249,
+			81,
+			0,
+			83,
+			0,
+			57,
+			72,
+			41,
+			32,
+			122
+		},
+		attrs_growth = {
+			5981,
+			349,
+			1198,
+			446,
+			0,
+			577,
+			0,
+			767,
+			945,
+			0,
+			0,
+			658
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.55,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YūdachiMETA"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[9702011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -414750,6 +418999,517 @@ end)()
 		},
 		tag_list = {
 			"HieiMETA"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9704061] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Dunkerque META",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 9704060,
+		english_name = "Dunkerque.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9704061,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1127,
+			68,
+			0,
+			49,
+			0,
+			60,
+			0,
+			18,
+			8,
+			31,
+			35,
+			0
+		},
+		attrs_growth = {
+			21251,
+			881,
+			0,
+			657,
+			0,
+			415,
+			0,
+			274,
+			241,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.8,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DunkerqueMETA"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9704062] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Dunkerque META",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 9704060,
+		english_name = "Dunkerque.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9704062,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1402,
+			85,
+			0,
+			61,
+			0,
+			60,
+			0,
+			18,
+			8,
+			31,
+			35,
+			0
+		},
+		attrs_growth = {
+			21251,
+			881,
+			0,
+			657,
+			0,
+			415,
+			0,
+			274,
+			241,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.8,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DunkerqueMETA",
+			"PRE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9704063] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Dunkerque META",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 9704060,
+		english_name = "Dunkerque.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9704063,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1952,
+			119,
+			0,
+			85,
+			0,
+			60,
+			0,
+			18,
+			8,
+			31,
+			35,
+			0
+		},
+		attrs_growth = {
+			21251,
+			881,
+			0,
+			657,
+			0,
+			415,
+			0,
+			274,
+			241,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.8,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DunkerqueMETA",
+			"PRE"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9704064] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Dunkerque META",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 9704060,
+		english_name = "Dunkerque.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9704064,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2776,
+			170,
+			0,
+			121,
+			0,
+			60,
+			0,
+			18,
+			8,
+			31,
+			35,
+			0
+		},
+		attrs_growth = {
+			21251,
+			881,
+			0,
+			657,
+			0,
+			415,
+			0,
+			274,
+			241,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.7,
+			1.8,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DunkerqueMETA",
+			"PRE"
 		}
 	}
 end)()
@@ -462027,6 +466787,2054 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[11300011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yumia Liessfeldt",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 11300010,
+		english_name = "Yumia Liessfeldt",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11300011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1029,
+			0,
+			0,
+			51,
+			82,
+			67,
+			0,
+			29,
+			17,
+			21,
+			26,
+			25
+		},
+		attrs_growth = {
+			29306,
+			0,
+			0,
+			1100,
+			1006,
+			467,
+			0,
+			415,
+			223,
+			0,
+			0,
+			309
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"YumiaSelf"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yumia Liessfeldt",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 11300010,
+		english_name = "Yumia Liessfeldt",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11300012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1280,
+			0,
+			0,
+			63,
+			102,
+			67,
+			0,
+			29,
+			17,
+			21,
+			26,
+			31
+		},
+		attrs_growth = {
+			29306,
+			0,
+			0,
+			1100,
+			1006,
+			467,
+			0,
+			415,
+			223,
+			0,
+			0,
+			309
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"YumiaSelf"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yumia Liessfeldt",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 11300010,
+		english_name = "Yumia Liessfeldt",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11300013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1782,
+			0,
+			0,
+			88,
+			143,
+			67,
+			0,
+			29,
+			17,
+			21,
+			26,
+			44
+		},
+		attrs_growth = {
+			29306,
+			0,
+			0,
+			1100,
+			1006,
+			467,
+			0,
+			415,
+			223,
+			0,
+			0,
+			309
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"YumiaSelf"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Yumia Liessfeldt",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 11300010,
+		english_name = "Yumia Liessfeldt",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11300014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2534,
+			0,
+			0,
+			126,
+			203,
+			67,
+			0,
+			29,
+			17,
+			21,
+			26,
+			63
+		},
+		attrs_growth = {
+			29306,
+			0,
+			0,
+			1100,
+			1006,
+			467,
+			0,
+			415,
+			223,
+			0,
+			0,
+			309
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			118,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.45,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"YumiaSelf"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Isla von Duerer",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11300020,
+		english_name = "Isla von Duerer",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11300021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			738,
+			34,
+			64,
+			68,
+			0,
+			71,
+			0,
+			56,
+			35,
+			32,
+			65,
+			36
+		},
+		attrs_growth = {
+			21014,
+			465,
+			841,
+			1431,
+			0,
+			492,
+			0,
+			810,
+			662,
+			0,
+			0,
+			426
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.3,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Isla"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Isla von Duerer",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11300020,
+		english_name = "Isla von Duerer",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11300022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			918,
+			42,
+			80,
+			85,
+			0,
+			71,
+			0,
+			56,
+			35,
+			32,
+			65,
+			45
+		},
+		attrs_growth = {
+			21014,
+			465,
+			841,
+			1431,
+			0,
+			492,
+			0,
+			810,
+			662,
+			0,
+			0,
+			426
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Isla"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Isla von Duerer",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11300020,
+		english_name = "Isla von Duerer",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11300023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1278,
+			59,
+			112,
+			118,
+			0,
+			71,
+			0,
+			56,
+			35,
+			32,
+			65,
+			63
+		},
+		attrs_growth = {
+			21014,
+			465,
+			841,
+			1431,
+			0,
+			492,
+			0,
+			810,
+			662,
+			0,
+			0,
+			426
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Isla"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Isla von Duerer",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11300020,
+		english_name = "Isla von Duerer",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11300024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1817,
+			84,
+			160,
+			169,
+			0,
+			71,
+			0,
+			56,
+			35,
+			32,
+			65,
+			89
+		},
+		attrs_growth = {
+			21014,
+			465,
+			841,
+			1431,
+			0,
+			492,
+			0,
+			810,
+			662,
+			0,
+			0,
+			426
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Isla"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Nina Friede",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 11300030,
+		english_name = "Nina Friede",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 11300031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1273,
+			80,
+			0,
+			42,
+			0,
+			57,
+			0,
+			23,
+			10,
+			35,
+			27,
+			0
+		},
+		attrs_growth = {
+			36256,
+			1160,
+			0,
+			916,
+			0,
+			400,
+			0,
+			327,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Nina"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Nina Friede",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 11300030,
+		english_name = "Nina Friede",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 11300032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1583,
+			100,
+			0,
+			52,
+			0,
+			57,
+			0,
+			23,
+			10,
+			35,
+			27,
+			0
+		},
+		attrs_growth = {
+			36256,
+			1160,
+			0,
+			916,
+			0,
+			400,
+			0,
+			327,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Nina"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Nina Friede",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 11300030,
+		english_name = "Nina Friede",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 11300033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2204,
+			139,
+			0,
+			73,
+			0,
+			57,
+			0,
+			23,
+			10,
+			35,
+			27,
+			0
+		},
+		attrs_growth = {
+			36256,
+			1160,
+			0,
+			916,
+			0,
+			400,
+			0,
+			327,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Nina"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Nina Friede",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 11300030,
+		english_name = "Nina Friede",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 11300034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3135,
+			199,
+			0,
+			104,
+			0,
+			57,
+			0,
+			23,
+			10,
+			35,
+			27,
+			0
+		},
+		attrs_growth = {
+			36256,
+			1160,
+			0,
+			916,
+			0,
+			400,
+			0,
+			327,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Nina"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Lenja",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 11300040,
+		english_name = "Lenja",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11300041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			339,
+			18,
+			93,
+			31,
+			0,
+			88,
+			0,
+			73,
+			73,
+			48,
+			75,
+			49
+		},
+		attrs_growth = {
+			9670,
+			251,
+			1114,
+			686,
+			0,
+			615,
+			0,
+			1125,
+			1428,
+			0,
+			0,
+			560
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.2,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Lenja"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Lenja",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 11300040,
+		english_name = "Lenja",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11300042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			422,
+			23,
+			116,
+			39,
+			0,
+			88,
+			0,
+			73,
+			73,
+			48,
+			75,
+			61
+		},
+		attrs_growth = {
+			9670,
+			251,
+			1114,
+			686,
+			0,
+			615,
+			0,
+			1125,
+			1428,
+			0,
+			0,
+			560
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Lenja"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Lenja",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 11300040,
+		english_name = "Lenja",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11300043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			587,
+			32,
+			162,
+			54,
+			0,
+			88,
+			0,
+			73,
+			73,
+			48,
+			75,
+			85
+		},
+		attrs_growth = {
+			9670,
+			251,
+			1114,
+			686,
+			0,
+			615,
+			0,
+			1125,
+			1428,
+			0,
+			0,
+			560
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.35,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Lenja"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11300044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "Lenja",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 11300040,
+		english_name = "Lenja",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 113,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11300044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			836,
+			45,
+			231,
+			77,
+			0,
+			88,
+			0,
+			73,
+			73,
+			48,
+			75,
+			122
+		},
+		attrs_growth = {
+			9670,
+			251,
+			1114,
+			686,
+			0,
+			615,
+			0,
+			1125,
+			1428,
+			0,
+			0,
+			560
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			106,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yumia",
+			"Lenja"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[299011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -474358,7 +481166,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -474488,7 +481296,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -474618,7 +481426,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -474748,7 +481556,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -481561,15 +488369,15 @@ end)()
 			0
 		},
 		attrs_growth = {
+			45699,
+			2058,
+			1245,
+			1051,
 			0,
+			426,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
+			324,
+			240,
 			0,
 			0,
 			0
@@ -481687,15 +488495,15 @@ end)()
 			0
 		},
 		attrs_growth = {
+			45699,
+			2058,
+			1245,
+			1051,
 			0,
+			426,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
+			324,
+			240,
 			0,
 			0,
 			0
@@ -481813,15 +488621,15 @@ end)()
 			0
 		},
 		attrs_growth = {
+			45699,
+			2058,
+			1245,
+			1051,
 			0,
+			426,
 			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
+			324,
+			240,
 			0,
 			0,
 			0

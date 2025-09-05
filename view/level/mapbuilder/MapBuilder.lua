@@ -10,6 +10,10 @@ var_0_0.TYPEATELIER = 7
 var_0_0.TYPESENRANKAGURA = 8
 var_0_0.TYPESP = 9
 var_0_0.TYPESPFULL = 10
+var_0_0.TYPESPSERIES = 11
+var_0_0.TYPESPSERIESFULL = 12
+var_0_0.TYPEATELIERYUMIA = 13
+var_0_0.TYPEEXSP = 14
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_2.event, arg_1_2.contextData)
@@ -18,8 +22,10 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.map = arg_1_1:Find("maps")
 	arg_1_0.float = arg_1_1:Find("float")
 	arg_1_0.tweens = {}
-	arg_1_0.mapWidth = 1920
-	arg_1_0.mapHeight = 1440
+
+	local var_1_0 = arg_1_0.sceneParent._tf.rect.size
+
+	arg_1_0.mapWidth, arg_1_0.mapHeight = var_1_0.x, var_1_0.y
 	arg_1_0.buffer = setmetatable({}, {
 		__index = function(arg_2_0, arg_2_1)
 			return function(arg_3_0, ...)

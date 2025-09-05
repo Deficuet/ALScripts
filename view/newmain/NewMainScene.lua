@@ -370,7 +370,11 @@ function var_0_0.OnDisVisible(arg_49_0)
 	arg_49_0.bgView:Disable()
 	arg_49_0.sequenceView:Disable()
 	arg_49_0.awakeSequenceView:Disable()
-	arg_49_0.theme:Disable()
+
+	if arg_49_0.theme then
+		arg_49_0.theme:Disable()
+	end
+
 	pg.redDotHelper:Disable()
 	arg_49_0.buffDescPage:Disable()
 	arg_49_0.silentChecker:Disable()

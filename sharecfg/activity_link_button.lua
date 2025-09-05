@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "50013",
+		param = "0",
 		name = "event_all",
 		type = 3,
 		text_pic = "text_event_all",
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50013
+			50081
 		}
 	},
 	{
@@ -47,8 +47,19 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50013
+			50081
 		}
+	},
+	[11] = {
+		param = "0",
+		name = "event_map_sub",
+		time = "stop",
+		text_pic = "text_event_map_sub",
+		type = 0,
+		pic = "event_map_sub",
+		id = 11,
+		group_id = 3,
+		order = 1
 	},
 	[20] = {
 		type = 2,
@@ -278,17 +289,59 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "BRSCoreActivityUI",
+		param = "TianYuTianYuanCoreActivityUI",
 		name = "event_core",
 		type = 16,
-		text_pic = "text_event_brs",
+		text_pic = "text_event_core",
 		id = 109,
 		group_id = 1,
-		pic = "event_brs",
+		pic = "event_core",
 		order = 1,
 		time = {
 			"default",
-			5985
+			50102
+		}
+	},
+	[110] = {
+		param = "ALYCoreActivityUI",
+		name = "event_core_2",
+		type = 16,
+		text_pic = "text_event_yumia",
+		id = 110,
+		group_id = 2,
+		pic = "event_yumia",
+		order = 2,
+		time = {
+			"default",
+			50058
+		}
+	},
+	[111] = {
+		param = "ALYCoreActivityUI",
+		name = "event_map_2",
+		type = 16,
+		text_pic = "text_event_ryzaAtelierRe",
+		id = 111,
+		group_id = 1,
+		pic = "event_ryzaAtelierRe",
+		order = 1,
+		time = {
+			"default",
+			50042
+		}
+	},
+	[112] = {
+		param = "0",
+		name = "event_second_map",
+		type = 0,
+		text_pic = "text_event_ryza_map",
+		id = 112,
+		group_id = 1,
+		pic = "event_ryza_map",
+		order = 1,
+		time = {
+			"default",
+			50042
 		}
 	},
 	get_id_list_by_name = {
@@ -299,6 +352,9 @@ pg.activity_link_button = {
 		},
 		event_map = {
 			10
+		},
+		event_map_sub = {
+			11
 		},
 		event_minigame = {
 			20,
@@ -348,6 +404,15 @@ pg.activity_link_button = {
 		},
 		event_core = {
 			109
+		},
+		event_core_2 = {
+			110
+		},
+		event_map_2 = {
+			111
+		},
+		event_second_map = {
+			112
 		}
 	},
 	all = {
@@ -355,6 +420,7 @@ pg.activity_link_button = {
 		2,
 		9,
 		10,
+		11,
 		20,
 		21,
 		30,
@@ -371,6 +437,9 @@ pg.activity_link_button = {
 		105,
 		107,
 		108,
-		109
+		109,
+		110,
+		111,
+		112
 	}
 }

@@ -531,7 +531,7 @@ function var_0_0.GetPaintingIcon(arg_50_0)
 		var_50_0 = (arg_50_0.actor ~= var_0_0.ACTOR_TYPE_PLAYER or nil) and (arg_50_0.actor ~= var_0_0.ACTOR_TYPE_TB or nil) and (arg_50_0.actor or nil) and (not arg_50_0.hideRecordIco or nil) and var_0_1[arg_50_0.actor].prefab
 	end
 
-	if var_50_0 == nil and arg_50_0:ExistPortrait() then
+	if var_50_0 == nil and arg_50_0:ExistPortrait() and not arg_50_0.hideRecordIco then
 		var_50_0 = arg_50_0:GetPortrait()
 	end
 

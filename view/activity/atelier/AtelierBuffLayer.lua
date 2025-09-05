@@ -8,9 +8,10 @@ function var_0_0.SetActivity(arg_2_0, arg_2_1)
 	arg_2_0.activity = arg_2_1
 
 	local var_2_0 = arg_2_1:GetItems()
+	local var_2_1 = AtelierMaterial.bindConfigTable()
 
-	arg_2_0.buffItems = _.map(_.filter(AtelierMaterial.bindConfigTable().all, function(arg_3_0)
-		return AtelierMaterial.bindConfigTable()[arg_3_0].type == AtelierMaterial.TYPE.STRENGTHEN
+	arg_2_0.buffItems = _.map(_.filter(var_2_1.all, function(arg_3_0)
+		return var_2_1[arg_3_0].type == AtelierMaterial.TYPE.STRENGTHEN
 	end), function(arg_4_0)
 		return var_2_0[arg_4_0] or AtelierMaterial.New({
 			configId = arg_4_0
@@ -32,9 +33,6 @@ function var_0_0.init(arg_5_0)
 
 	setText(arg_5_0._tf:Find("Items/List"):GetChild(0):Find("Max/Text"), i18n("ryza_tip_control_buff_limit"))
 	setText(arg_5_0._tf:Find("Items/List"):GetChild(0):Find("Min/Text"), i18n("ryza_tip_control_buff_not_obtain"))
-
-	arg_5_0.buffItemTFs = CustomIndexLayer.Clone2Full(arg_5_0._tf:Find("Items/List"), 8)
-
 	setText(arg_5_0._tf:Find("Top/Tips"), i18n("ryza_tip_control"))
 	setText(arg_5_0._tf:Find("Effects/Total"), i18n("ryza_tip_control_buff"))
 
@@ -42,6 +40,8 @@ function var_0_0.init(arg_5_0)
 end
 
 function var_0_0.didEnter(arg_7_0)
+	arg_7_0.buffItemTFs = CustomIndexLayer.Clone2Full(arg_7_0._tf:Find("Items/List"), #arg_7_0.buffItems)
+
 	onButton(arg_7_0, arg_7_0._tf:Find("Top/Back"), function()
 		arg_7_0:onBackPressed()
 	end, SFX_CANCEL)

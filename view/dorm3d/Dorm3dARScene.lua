@@ -1,5 +1,5 @@
 local var_0_0 = class("Dorm3dARScene", import("view.base.BaseUI"))
-local var_0_1 = "ARScene|common/ar"
+local var_0_1 = "ARScene2|common/ar"
 
 var_0_0.AR_FAIL_CODE = {
 	[0] = "None",
@@ -318,6 +318,12 @@ end
 function var_0_0.SetARLite(arg_35_0, arg_35_1)
 	arg_35_0.ARState = arg_35_1
 	arg_35_0.ARCheck = table.contains(var_0_0.AR_PASS_CODE, arg_35_1)
+
+	if GraphApiHelper.IsUsingVulkan() then
+		arg_35_0.ARCheck = false
+
+		warning("ar not allow on vulkan.")
+	end
 end
 
 function var_0_0.InitARPlane(arg_36_0)

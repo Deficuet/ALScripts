@@ -1594,6 +1594,710 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[101] = {
+		id = 101,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89420,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[102] = {
+		id = 102,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89440,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[103] = {
+		id = 103,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89460,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[104] = {
+		id = 104,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89480,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[105] = {
+		id = 105,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89500,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[106] = {
+		id = 106,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89520,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[107] = {
+		id = 107,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89540,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[108] = {
+		id = 108,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89560,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[109] = {
+		id = 109,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89580,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[110] = {
+		id = 110,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89600,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[111] = {
+		id = 111,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 89620,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[112] = {
+		id = 112,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 95108,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"Request Completion Rewards"
+			}
+		}
+	},
+	[113] = {
+		id = 113,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 95113,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"Request Completion Rewards"
+			}
+		}
+	},
+	[114] = {
+		id = 114,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 95115,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"Request Completion Rewards"
+			}
+		}
+	},
+	[116] = {
+		id = 116,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 95127,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"Request Completion Rewards"
+			}
+		}
+	},
+	[117] = {
+		id = 117,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 95128,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"Request Completion Rewards"
+			}
+		}
+	},
+	[118] = {
+		id = 118,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 95132,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"Request Completion Rewards"
+			}
+		}
+	},
+	[120] = {
+		id = 120,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 95140,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"Request Completion Rewards"
+			}
+		}
+	},
+	[122] = {
+		id = 122,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 95142,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50049,
+				"Puni's Fantastic Adventure Event Reward"
+			}
+		}
+	},
+	[123] = {
+		id = 123,
+		activity = 50064,
+		count = 10,
+		type = 5,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 95144,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"Request Completion Rewards"
+			},
+			{
+				3,
+				50046,
+				"Operation Hot Spring Rewards"
+			}
+		}
+	},
+	[124] = {
+		id = 124,
+		activity = 50064,
+		count = 4,
+		type = 9,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 1218,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"Request Completion Rewards"
+			},
+			{
+				3,
+				50046,
+				"Operation Hot Spring Rewards"
+			}
+		}
+	},
+	[125] = {
+		id = 125,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 10360,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[126] = {
+		id = 126,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 10380,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[127] = {
+		id = 127,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 10400,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[128] = {
+		id = 128,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 10420,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[129] = {
+		id = 129,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 10440,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[130] = {
+		id = 130,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		is_new = 0,
+		count_storage = 0,
+		drop_id = 10460,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[131] = {
+		id = 131,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150680,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[132] = {
+		id = 132,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150700,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[133] = {
+		id = 133,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150720,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[134] = {
+		id = 134,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150740,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[135] = {
+		id = 135,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150760,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[136] = {
+		id = 136,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150780,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[137] = {
+		id = 137,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150800,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50058,
+				"Skynexus Dust Milestone Reward"
+			}
+		}
+	},
+	[138] = {
+		id = 138,
+		activity = 50066,
+		count = 5,
+		type = 5,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 325110,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"Event Mission Rewards"
+			},
+			{
+				3,
+				50063,
+				"Base Building Rewards"
+			}
+		}
+	},
+	[139] = {
+		id = 139,
+		activity = 50066,
+		count = 4,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1499,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"Event Mission Rewards"
+			},
+			{
+				3,
+				50063,
+				"Base Building Rewards"
+			}
+		}
+	},
+	[140] = {
+		id = 140,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14320,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[141] = {
+		id = 141,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14340,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[142] = {
+		id = 142,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14360,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
+	[143] = {
+		id = 143,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14380,
+		order = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"Obtained From Synthesis in the Atelier"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -1684,6 +2388,50 @@ pg.activity_limit_item_guide = {
 			97,
 			98,
 			99
+		},
+		[50064] = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			116,
+			117,
+			118,
+			120,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128,
+			129,
+			130
+		},
+		[50066] = {
+			131,
+			132,
+			133,
+			134,
+			135,
+			136,
+			137,
+			138,
+			139,
+			140,
+			141,
+			142,
+			143
 		}
 	},
 	all = {
@@ -1770,6 +2518,46 @@ pg.activity_limit_item_guide = {
 		96,
 		97,
 		98,
-		99
+		99,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		116,
+		117,
+		118,
+		120,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141,
+		142,
+		143
 	}
 }

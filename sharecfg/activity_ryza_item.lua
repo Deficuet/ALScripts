@@ -3,10 +3,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "An improved Fishing Rod. Fish will no longer flee from it, and some will even be more attracted to it than usual.",
-		name = "Divine Fishing Rod",
-		type = 6,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 6,
+		version = 1,
+		is_show = 1,
 		prop_level = 1,
+		name = "Divine Fishing Rod",
 		base_circle = "",
 		got_voice = "",
 		id = 1,
@@ -24,10 +27,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A stronger version of the Bomb Rod. The jewel at the tip is blue now, and it can destroy rocks and crystals more easily.",
-		name = "Blue Bomb Rod",
-		type = 6,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 6,
+		version = 1,
+		is_show = 1,
 		prop_level = 1,
+		name = "Blue Bomb Rod",
 		base_circle = "",
 		got_voice = "",
 		id = 2,
@@ -44,10 +50,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "An improved tool for splitting firewood and cutting down trees for lumber. It's been modified for better balance and sharpness, making gathering easier than ever.",
-		name = "Golden Axe",
-		type = 6,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 6,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Golden Axe",
 		base_circle = "",
 		got_voice = "",
 		id = 3,
@@ -65,10 +74,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "An improved tool for gathering grass and flowers. It's been modified to make gathering easier, and reaps everything as quietly and lightly as the wind.",
-		name = "Silent Sickle",
-		type = 6,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 6,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Silent Sickle",
 		base_circle = "",
 		got_voice = "",
 		id = 4,
@@ -86,10 +98,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
-		name = "Laser Cutter",
-		type = 6,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 6,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Laser Cutter",
 		base_circle = "",
 		got_voice = "",
 		id = 5,
@@ -109,12 +124,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 2,
 		display = "A shellfish commonly found near beaches. Roast it over an open flame and dig in for a delicious meal.",
-		name = "Pourpremoule",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 1,
+		version = 1,
+		is_show = 1,
+		prop_level = 1,
+		name = "Pourpremoule",
 		id = 6,
 		icon = "ryza_item_6",
-		benefit_buff = "",
-		prop_level = 1,
 		prop = {
 			2
 		},
@@ -152,12 +170,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 3,
 		display = "A freshwater fish found in rivers and lakes. It is a common sight on the dinner table.",
-		name = "Sardine",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 1,
+		version = 1,
+		is_show = 1,
+		prop_level = 2,
+		name = "Sardine",
 		id = 7,
 		icon = "ryza_item_7",
-		benefit_buff = "",
-		prop_level = 2,
 		prop = {
 			2
 		},
@@ -195,12 +216,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "The lord of all fish that live in lakes.",
-		name = "Lake Master",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 1,
+		version = 1,
+		is_show = 1,
+		prop_level = 3,
+		name = "Lake Master",
 		id = 8,
 		icon = "ryza_item_8",
-		benefit_buff = "",
-		prop_level = 3,
 		prop = {
 			2
 		},
@@ -243,10 +267,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 2,
 		display = "A collection of transparent stone fragments. It includes a variety of materials, including rare and expensive jewels.",
-		name = "Small Crystals",
-		type = 1,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 1,
+		version = 1,
+		is_show = 1,
 		prop_level = 1,
+		name = "Small Crystals",
 		base_circle = "",
 		id = 9,
 		icon = "ryza_item_9",
@@ -285,12 +312,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 3,
 		display = "Sand that can be collected by pulverizing rocks. It smells like a volatile gas and burns up when lit.",
-		name = "Burning Sand",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 1,
+		version = 1,
+		is_show = 1,
+		prop_level = 2,
+		name = "Burning Sand",
 		id = 10,
 		icon = "ryza_item_10",
-		benefit_buff = "",
-		prop_level = 2,
 		prop = {
 			1
 		},
@@ -328,12 +358,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Crushed lava ore in a powdered form. Even as a powder, it's still magma and may suddenly combust if left unattended. It will be a disaster if you let it get scattered by the wind.",
-		name = "Magma Powder",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 1,
+		version = 1,
+		is_show = 1,
+		prop_level = 3,
+		name = "Magma Powder",
 		id = 11,
 		icon = "ryza_item_11",
-		benefit_buff = "",
-		prop_level = 3,
 		prop = {
 			1
 		},
@@ -371,10 +404,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 2,
 		display = "A common weed that grows absolutely everywhere. It has no distinct features, which is why it doesn't have a proper name. At the same time, it's also a staple ingredient in a large number of alchemy recipes.",
-		name = "Nameless Grass",
-		type = 1,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 1,
+		version = 1,
+		is_show = 1,
 		prop_level = 1,
+		name = "Nameless Grass",
 		base_circle = "",
 		id = 12,
 		icon = "ryza_item_12",
@@ -408,12 +444,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 3,
 		display = "A plant with leaves that resemble a bird's wings. They are very light and are easily carried around by the wind.",
-		name = "Wing Plant",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 1,
+		version = 1,
+		is_show = 1,
+		prop_level = 2,
+		name = "Wing Plant",
 		id = 13,
 		icon = "ryza_item_13",
-		benefit_buff = "",
-		prop_level = 2,
 		prop = {
 			4
 		},
@@ -451,12 +490,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "This type of Taun is distinct from regular Tauns due to its reddish-black coloration, which comes from the fact that it only grows in soil rich in iron. It is very flammable, even when it hasn't been dried.",
-		name = "Blood Taun",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 1,
+		version = 1,
+		is_show = 1,
+		prop_level = 3,
+		name = "Blood Taun",
 		id = 14,
 		icon = "ryza_item_14",
-		benefit_buff = "",
-		prop_level = 3,
 		prop = {
 			4
 		},
@@ -499,10 +541,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 2,
 		display = "A seemingly normal ore that hides the power of lightning. It's most often found at high areas where thunderstorms are common. Some believe the ore was transformed after being struck by lightning.",
-		name = "Lightning Ore",
-		type = 1,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 1,
+		version = 1,
+		is_show = 1,
 		prop_level = 1,
+		name = "Lightning Ore",
 		base_circle = "",
 		id = 15,
 		icon = "ryza_item_15",
@@ -536,12 +581,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 3,
 		display = "A fragment of a gigantic meteor. They always come in pairs, and are connected no matter how far they are from each other. Some say you can use them to teleport... maybe.",
-		name = "Star Fragment",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 1,
+		version = 1,
+		is_show = 1,
+		prop_level = 2,
+		name = "Star Fragment",
 		id = 16,
 		icon = "ryza_item_16",
-		benefit_buff = "",
-		prop_level = 2,
 		prop = {
 			3
 		},
@@ -584,12 +632,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A rainbow-colored ore that glows from within. Despite its appearance, it's actually one of the hardest known ores. In fact, it's nearly impossible to process using conventional means.",
-		name = "Septrin",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 1,
+		version = 1,
+		is_show = 1,
+		prop_level = 3,
+		name = "Septrin",
 		id = 17,
 		icon = "ryza_item_17",
-		benefit_buff = "",
-		prop_level = 3,
 		prop = {
 			3
 		},
@@ -627,12 +678,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 2,
 		display = "A strange crystal ore collected from the Central Foundation. It's durable, contains energy from all elements, and might serve as a good alchemy material.",
-		name = "Strange Crystal Ore",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 4,
+		version = 1,
+		is_show = 1,
+		prop_level = 1,
+		name = "Strange Crystal Ore",
 		id = 18,
 		icon = "ryza_item_18",
-		benefit_buff = "",
-		prop_level = 1,
 		prop = {
 			1,
 			2,
@@ -688,12 +742,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 3,
 		display = "An armor plate salvaged from a wreck in the Central Foundation. Its hard, splendid white surface appears to have been tempered using all elements. It may be useful as a potent alchemy material.",
-		name = "Strange Armor Plate",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 4,
+		version = 1,
+		is_show = 1,
+		prop_level = 2,
+		name = "Strange Armor Plate",
 		id = 19,
 		icon = "ryza_item_19",
-		benefit_buff = "",
-		prop_level = 2,
 		prop = {
 			1,
 			2,
@@ -749,12 +806,15 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core that powered the guardian of the ancient ruins. Even after being taken out of the guardian, it continues releasing energy, seemingly never running out.",
-		name = "Strange Energy Core",
+		prop_type = 0,
+		benefit_buff = "",
 		type = 4,
+		version = 1,
+		is_show = 1,
+		prop_level = 3,
+		name = "Strange Energy Core",
 		id = 20,
 		icon = "ryza_item_20",
-		benefit_buff = "",
-		prop_level = 3,
 		prop = {
 			1,
 			2,
@@ -810,10 +870,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 2,
 		display = "A small bottle containing elemental power. It has an affinity with all elements, which is useful but also makes it difficult to work with.",
-		name = "Spirit Bottle",
-		type = 2,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 2,
+		version = 1,
+		is_show = 1,
 		prop_level = 1,
+		name = "Spirit Bottle",
 		base_circle = "",
 		got_voice = "",
 		id = 21,
@@ -839,10 +902,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 3,
 		display = "A common alchemic compound. A red liquid with fire affinity.",
-		name = "Red Neutralizer",
-		type = 2,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 2,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Red Neutralizer",
 		base_circle = "",
 		got_voice = "",
 		id = 22,
@@ -865,10 +931,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 3,
 		display = "A common alchemic compound. A blue liquid with ice affinity.",
-		name = "Blue Neutralizer",
-		type = 2,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 2,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Blue Neutralizer",
 		base_circle = "",
 		got_voice = "",
 		id = 23,
@@ -891,10 +960,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 3,
 		display = "A common alchemic compound. A yellow liquid with lightning affinity.",
-		name = "Yellow Neutralizer",
-		type = 2,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 2,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Yellow Neutralizer",
 		base_circle = "",
 		got_voice = "",
 		id = 24,
@@ -917,10 +989,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 3,
 		display = "A common alchemic compound. A green liquid with wind affinity.",
-		name = "Green Neutralizer",
-		type = 2,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 2,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Green Neutralizer",
 		base_circle = "",
 		got_voice = "",
 		id = 25,
@@ -943,10 +1018,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "An advanced material created from the four Elemental Cores. Since it has high affinity with all elements, it's extremely useful in alchemy.",
-		name = "Crystal Element",
-		type = 2,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 2,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Crystal Element",
 		base_circle = "",
 		got_voice = "",
 		id = 26,
@@ -972,10 +1050,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A key that's symbolic of the Underworld Grove. Its handle is embellished with a light-pink topaz, evoking the image of a once lush forest when holding it.",
-		name = "Underworld Grove Key",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Underworld Grove Key",
 		base_circle = "",
 		got_voice = "",
 		id = 27,
@@ -992,10 +1073,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A key that's symbolic of the Land of Beginnings. Its handle is embellished with a flawless diamond that's as etermally pure as the hearts of those who seek out adventure.",
-		name = "Land of Beginnings Key",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Land of Beginnings Key",
 		base_circle = "",
 		got_voice = "",
 		id = 28,
@@ -1012,10 +1096,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A key that's symbolic of the Desolate Capital. Its handle is embellished with a turquoise emerald, reminding you that the true reward of an adventure is not gold and silver, but rather the journey itself.",
-		name = "Desolate Capital Key",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Desolate Capital Key",
 		base_circle = "",
 		got_voice = "",
 		id = 29,
@@ -1032,10 +1119,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A key that's symbolic of the Castle of Strife. Its handle is embellished with a dazzling ruby, making you wonder if the long-buried brutal truth has forever been lost to the sands of time.",
-		name = "Castle of Strife Key",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Castle of Strife Key",
 		base_circle = "",
 		got_voice = "",
 		id = 30,
@@ -1052,10 +1142,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 5,
 		display = "An item resembling a keycard, made from combining the other four keys. It should slot into the device by the barrier's door at the Central Foundation.",
-		name = "Central Foundation Key",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Central Foundation Key",
 		base_circle = "",
 		got_voice = "",
 		id = 31,
@@ -1075,10 +1168,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Obtained by gathering 10,000 Crystal Clusters. This item is required to make the Ruins Explorer Sculpture.",
-		name = "Crystal Cluster Badge",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Crystal Cluster Badge",
 		base_circle = "",
 		got_voice = "",
 		id = 32,
@@ -1096,10 +1192,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Obtained by playing Operation Hot Spring for seven days. This item is required to make the Ruins Explorer Sculpture.",
-		name = "Operation Hot Spring Badge",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Operation Hot Spring Badge",
 		base_circle = "",
 		got_voice = "",
 		id = 33,
@@ -1117,9 +1216,12 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: increases the FP, AVI, and TRP of your ships.",
-		name = "Offense Boost Core",
+		prop_type = 0,
 		type = 5,
+		version = 1,
 		prop_level = 2,
+		is_show = 1,
+		name = "Offense Boost Core",
 		base_circle = "",
 		got_voice = "",
 		id = 34,
@@ -1144,9 +1246,12 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: reduces the DMG taken by your ships.",
-		name = "Defense Boost Core",
+		prop_type = 0,
 		type = 5,
+		version = 1,
 		prop_level = 2,
+		is_show = 1,
+		name = "Defense Boost Core",
 		base_circle = "",
 		got_voice = "",
 		id = 35,
@@ -1171,9 +1276,12 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: in combat, your ships slowly restore HP over time.",
-		name = "Regeneration Core",
+		prop_type = 0,
 		type = 5,
+		version = 1,
 		prop_level = 2,
+		is_show = 1,
+		name = "Regeneration Core",
 		base_circle = "",
 		got_voice = "",
 		id = 36,
@@ -1198,9 +1306,12 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: once per battle, when one of your ship's HP falls beneath 20.0%, she will regain a portion of her HP.",
-		name = "Damage Control Core",
+		prop_type = 0,
 		type = 5,
+		version = 1,
 		prop_level = 2,
+		is_show = 1,
+		name = "Damage Control Core",
 		base_circle = "",
 		got_voice = "",
 		id = 37,
@@ -1225,9 +1336,12 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that Burn enemies hit.",
-		name = "Covering Fire Core",
+		prop_type = 0,
 		type = 5,
+		version = 1,
 		prop_level = 2,
+		is_show = 1,
+		name = "Covering Fire Core",
 		base_circle = "",
 		got_voice = "",
 		id = 38,
@@ -1252,9 +1366,12 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that will temporarily increase the DMG taken by enemies hit.",
-		name = "Anti-Armor Volley Core",
+		prop_type = 0,
 		type = 5,
+		version = 1,
 		prop_level = 2,
+		is_show = 1,
+		name = "Anti-Armor Volley Core",
 		base_circle = "",
 		got_voice = "",
 		id = 39,
@@ -1279,9 +1396,12 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive additional EXP from sorties.",
-		name = "Experience Boost Core",
+		prop_type = 0,
 		type = 5,
+		version = 1,
 		prop_level = 2,
+		is_show = 1,
+		name = "Experience Boost Core",
 		base_circle = "",
 		got_voice = "",
 		id = 40,
@@ -1306,9 +1426,12 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will gain additional Affinity from sorties.",
-		name = "Affinity Boost Core",
+		prop_type = 0,
 		type = 5,
+		version = 1,
 		prop_level = 2,
+		is_show = 1,
+		name = "Affinity Boost Core",
 		base_circle = "",
 		got_voice = "",
 		id = 41,
@@ -1331,10 +1454,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Augment Module - Sparkling Reverie. Can be used in synthesis.",
-		name = "Sparkling Reverie Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Sparkling Reverie Module",
 		got_voice = "",
 		id = 42,
 		icon = "ryza_item_42",
@@ -1358,10 +1484,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Augment Module - Astrumnox. Can be used in synthesis.",
-		name = "Astrumnox Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Astrumnox Module",
 		got_voice = "",
 		id = 43,
 		icon = "ryza_item_43",
@@ -1385,10 +1514,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Augment Module - Grand Floracion. Can be used in synthesis.",
-		name = "Grand Floracion Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Grand Floracion Module",
 		got_voice = "",
 		id = 44,
 		icon = "ryza_item_44",
@@ -1412,10 +1544,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Augment Module - Edel Schwert. Can be used in synthesis.",
-		name = "Edel Schwert Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Edel Schwert Module",
 		got_voice = "",
 		id = 45,
 		icon = "ryza_item_45",
@@ -1439,10 +1574,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Augment Module - Elder Lily. Can be used in synthesis.",
-		name = "Elder Lily Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Elder Lily Module",
 		got_voice = "",
 		id = 46,
 		icon = "ryza_item_46",
@@ -1466,10 +1604,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Augment Module - Oren Herald. Can be used in synthesis.",
-		name = "Oren Herald Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Oren Herald Module",
 		got_voice = "",
 		id = 47,
 		icon = "ryza_item_47",
@@ -1493,10 +1634,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Grand Bomb. Can be used in synthesis.",
-		name = "Grand Bomb Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Grand Bomb Module",
 		got_voice = "",
 		id = 48,
 		icon = "ryza_item_48",
@@ -1519,10 +1663,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Crystal Ice Bomb. Can be used in synthesis.",
-		name = "Crystal Ice Bomb Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Crystal Ice Bomb Module",
 		got_voice = "",
 		id = 49,
 		icon = "ryza_item_49",
@@ -1545,10 +1692,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Laute Plajig. Can be used in synthesis.",
-		name = "Laute Plajig Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Laute Plajig Module",
 		got_voice = "",
 		id = 50,
 		icon = "ryza_item_50",
@@ -1571,10 +1721,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Wirbel Luft. Can be used in synthesis.",
-		name = "Wirbel Luft Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Wirbel Luft Module",
 		got_voice = "",
 		id = 51,
 		icon = "ryza_item_51",
@@ -1597,10 +1750,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Genesis Hammer. Can be used in synthesis.",
-		name = "Genesis Hammer Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Genesis Hammer Module",
 		got_voice = "",
 		id = 52,
 		icon = "ryza_item_52",
@@ -1624,10 +1780,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Bubble Bullet. Can be used in synthesis.",
-		name = "Bubble Bullet Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Bubble Bullet Module",
 		got_voice = "",
 		id = 53,
 		icon = "ryza_item_53",
@@ -1651,10 +1810,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - N/A. Can be used in synthesis.",
-		name = "N/A Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "N/A Module",
 		got_voice = "",
 		id = 54,
 		icon = "ryza_item_54",
@@ -1678,10 +1840,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Apocalypse. Can be used in synthesis.",
-		name = "Apocalypse Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Apocalypse Module",
 		got_voice = "",
 		id = 55,
 		icon = "ryza_item_55",
@@ -1707,10 +1872,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Mystic Robe. Can be used in synthesis.",
-		name = "Mystic Robe Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Mystic Robe Module",
 		got_voice = "",
 		id = 56,
 		icon = "ryza_item_56",
@@ -1734,10 +1902,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Elixir. Can be used in synthesis.",
-		name = "Elixir Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 3,
+		name = "Elixir Module",
 		got_voice = "",
 		id = 57,
 		icon = "ryza_item_57",
@@ -1761,10 +1932,13 @@ pg.activity_ryza_item = {
 	{
 		rarity = 4,
 		display = "A core component of Auxiliary Gear - Energianica. Can be used in synthesis.",
-		name = "Energianica Module",
-		type = 3,
+		prop_type = 0,
 		benefit_buff = "",
+		type = 3,
+		version = 1,
+		is_show = 1,
 		prop_level = 2,
+		name = "Energianica Module",
 		got_voice = "",
 		id = 58,
 		icon = "ryza_item_58",
@@ -1784,6 +1958,1276 @@ pg.activity_ryza_item = {
 			0,
 			0
 		}
+	},
+	[101] = {
+		rarity = 2,
+		display = "A mushroom that contains crystallized spores in its cap. Inedible, of course. Its crystals are processed into jewelry.",
+		prop_type = 1,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Jewel Mushroom",
+		base_circle = "",
+		id = 101,
+		icon = "yumia_item_1",
+		normal_circle = "",
+		prop = {
+			4
+		},
+		get_access = {
+			"Obtained From: TS1 Gathering Site: Entrance Area",
+			chapterid = 1940021
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_1",
+				"youmiya"
+			}
+		}
+	},
+	[102] = {
+		rarity = 2,
+		display = "A bug that looks like it's carrying a mushroom on its back. The mushroom is actually part of the bug, so forget eating it.",
+		prop_type = 1,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Mock Mushroom",
+		base_circle = "",
+		id = 102,
+		icon = "yumia_item_2",
+		normal_circle = "",
+		prop = {
+			1
+		},
+		get_access = {
+			"Obtained From: TS1 Gathering Site: Entrance Area",
+			chapterid = 1940021
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_2",
+				"youmiya"
+			}
+		}
+	},
+	[103] = {
+		rarity = 2,
+		display = "The spiky fruit of a plant. Often used as a throwing weapon. Its flesh is also quite tasty if you crack it open.",
+		prop_type = 2,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Uni",
+		id = 103,
+		icon = "yumia_item_3",
+		prop = {
+			3
+		},
+		get_access = {
+			"Obtained From: TS2 Gathering Site: Abundance Stratum",
+			chapterid = 1940022
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_3",
+				"youmiya"
+			}
+		},
+		base_circle = {
+			1,
+			1,
+			1,
+			0,
+			0
+		},
+		normal_circle = {
+			0.78,
+			0.78,
+			0.78,
+			0.85,
+			0.85
+		}
+	},
+	[104] = {
+		rarity = 2,
+		display = "A type of Uni which has largely crystallized. The non-crystallized parts can be consumed, but they don't taste very good.",
+		prop_type = 2,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Crystal Uni",
+		id = 104,
+		icon = "yumia_item_4",
+		prop = {
+			2
+		},
+		get_access = {
+			"Obtained From: TS2 Gathering Site: Abundance Stratum",
+			chapterid = 1940022
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_4",
+				"youmiya"
+			}
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			2,
+			-1
+		},
+		normal_circle = {
+			0.7,
+			0.7,
+			0.7,
+			2.3,
+			-1
+		}
+	},
+	[105] = {
+		rarity = 2,
+		display = "Noxious gas collected from the emissions of rotting wood. The fumes are very toxic and can immobilize a person for days if inhaled.",
+		prop_type = 3,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Rotwood Miasma",
+		id = 105,
+		icon = "yumia_item_5",
+		prop = {
+			4
+		},
+		get_access = {
+			"Obtained From: TS3 Gathering Site: Rot Stratum",
+			chapterid = 1940023
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_5",
+				"youmiya"
+			}
+		},
+		base_circle = {
+			1.05,
+			1.05,
+			1.05,
+			0,
+			0
+		},
+		normal_circle = {
+			0.75,
+			0.75,
+			0.75,
+			0,
+			-1.5
+		}
+	},
+	[106] = {
+		rarity = 2,
+		display = "A fluffy, glittering bubble composed of incredibly tiny particles of metal. They're so small that it might be more accurate to call this a gas rather than a metal.",
+		prop_type = 3,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Air Chime",
+		base_circle = "",
+		id = 106,
+		icon = "yumia_item_6",
+		prop = {
+			3
+		},
+		get_access = {
+			"Obtained From: TS3 Gathering Site: Rot Stratum",
+			chapterid = 1940023
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_6",
+				"youmiya"
+			}
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			0,
+			0
+		}
+	},
+	[107] = {
+		rarity = 2,
+		display = "Ore that converts ambient heat into cool air. It's great for keeping materials fresh.",
+		prop_type = 4,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Glacial Stone",
+		id = 107,
+		icon = "yumia_item_7",
+		prop = {
+			2
+		},
+		get_access = {
+			"Obtained From: TS4 Gathering Site: Ruin Stratum",
+			chapterid = 1940024
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_7",
+				"youmiya"
+			}
+		},
+		base_circle = {
+			1.2,
+			1.2,
+			1.2,
+			0,
+			0
+		},
+		normal_circle = {
+			0.75,
+			0.75,
+			0.75,
+			0,
+			0
+		}
+	},
+	[108] = {
+		rarity = 2,
+		display = "A type of hibiscus that blooms around mining areas. As a material, it gets used as both a plant and as a metal.",
+		prop_type = 4,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Hibismuth",
+		id = 108,
+		icon = "yumia_item_8",
+		prop = {
+			1
+		},
+		get_access = {
+			"Obtained From: TS4 Gathering Site: Ruin Stratum",
+			chapterid = 1940024
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_8",
+				"youmiya"
+			}
+		},
+		base_circle = {
+			0.26,
+			0.26,
+			0.26,
+			0,
+			0
+		},
+		normal_circle = {
+			0.21,
+			0.21,
+			0.21,
+			0,
+			0
+		}
+	},
+	[109] = {
+		rarity = 2,
+		display = "It possesses sharp spines able to easily penetrate anything that touches its exterior. Despite being named after mossy balls of algae, this seaweed is actually a relative of Uni.",
+		prop_type = 5,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Marimo",
+		base_circle = "",
+		id = 109,
+		icon = "yumia_item_9",
+		prop = {
+			4
+		},
+		get_access = {
+			"Obtained From: TS5 Gathering Site: Skynexus Stratum",
+			chapterid = 1940025
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_11",
+				"youmiya"
+			}
+		},
+		normal_circle = {
+			0.72,
+			0.72,
+			0.72,
+			2,
+			-1.5
+		}
+	},
+	[110] = {
+		rarity = 2,
+		display = "A fish with toxic spines. It extends them to protect itself when threatened.",
+		prop_type = 5,
+		benefit_buff = "",
+		type = 1,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Poisoned Puffer",
+		id = 110,
+		icon = "yumia_item_10",
+		prop = {
+			4
+		},
+		get_access = {
+			"Obtained From: TS5 Gathering Site: Skynexus Stratum",
+			chapterid = 1940025
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_12",
+				"youmiya"
+			}
+		},
+		base_circle = {
+			1.1,
+			1.1,
+			1.1,
+			0,
+			0
+		},
+		normal_circle = {
+			0.77,
+			0.77,
+			0.77,
+			0,
+			0
+		}
+	},
+	[111] = {
+		rarity = 2,
+		display = "A crystal ore that grows around the Skynexus Tower. It possesses physical energy.",
+		prop_type = 6,
+		benefit_buff = "",
+		type = 4,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Skynexus Tower Crystal Ore",
+		id = 111,
+		icon = "yumia_item_11",
+		prop = {
+			1,
+			2,
+			3,
+			4
+		},
+		get_access = {
+			"Obtained From: Any gathering site",
+			chapterid = 1940021
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_9",
+				"youmiya"
+			}
+		},
+		base_circle = {
+			1.05,
+			1.05,
+			1.05,
+			-1,
+			6
+		},
+		normal_circle = {
+			0.8,
+			0.8,
+			0.8,
+			0,
+			0.46
+		}
+	},
+	[112] = {
+		rarity = 2,
+		display = "A core of condensed Skynexus Tower energy. It possesses immense energy.",
+		prop_type = 6,
+		benefit_buff = "",
+		type = 4,
+		version = 2,
+		is_show = 1,
+		prop_level = 1,
+		name = "Skynexus Tower Energy Core",
+		base_circle = "",
+		id = 112,
+		icon = "yumia_item_12",
+		prop = {
+			1,
+			2,
+			3,
+			4
+		},
+		get_access = {
+			"Obtained From: Any gathering site",
+			chapterid = 1940021
+		},
+		got_voice = {
+			{
+				11300010,
+				"atelier_yumia_item_10",
+				"youmiya"
+			}
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			0,
+			0
+		}
+	},
+	[116] = {
+		rarity = 4,
+		display = "A core component of the Augment Module Ephemeral Record. Can be used in the Atelier as a key material when synthesizing Ephemeral Record.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Ephemeral Record",
+		id = 116,
+		icon = "yumia_item_13",
+		prop = {
+			1
+		},
+		get_access = {
+			"Obtained From: Event missions",
+			taskid = 24261
+		},
+		got_voice = {
+			{
+				10900010,
+				"ryza_item5",
+				"laisha"
+			},
+			{
+				10900020,
+				"ryza_item5",
+				"keluodiya"
+			},
+			{
+				10900040,
+				"ryza_item5",
+				"lila"
+			},
+			{
+				10900050,
+				"ryza_item5",
+				"saili"
+			},
+			{
+				10900030,
+				"ryza_item5",
+				"patelixia"
+			}
+		},
+		base_circle = {
+			1.2,
+			1.2,
+			1.2,
+			-3,
+			1
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-1.15,
+			0
+		}
+	},
+	[117] = {
+		rarity = 4,
+		display = "A core component of the Augment Module Secret Triaina. Can be used in the Atelier as a key material when synthesizing Secret Triaina.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Secret Triaina",
+		id = 117,
+		icon = "yumia_item_14",
+		prop = {
+			3
+		},
+		get_access = {
+			"Obtained From: Event missions",
+			taskid = 24262
+		},
+		got_voice = {
+			{
+				10900010,
+				"ryza_item5",
+				"laisha"
+			},
+			{
+				10900020,
+				"ryza_item5",
+				"keluodiya"
+			},
+			{
+				10900040,
+				"ryza_item5",
+				"lila"
+			},
+			{
+				10900050,
+				"ryza_item5",
+				"saili"
+			},
+			{
+				10900030,
+				"ryza_item5",
+				"patelixia"
+			}
+		},
+		base_circle = {
+			1.1,
+			1.1,
+			1.1,
+			-3,
+			3.6
+		},
+		normal_circle = {
+			0.77,
+			0.77,
+			0.77,
+			-0.5,
+			3
+		}
+	},
+	[118] = {
+		rarity = 4,
+		display = "A core component of the Augment Module Huntress. Can be used in the Atelier as a key material when synthesizing Huntress.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Huntress",
+		id = 118,
+		icon = "yumia_item_15",
+		prop = {
+			4
+		},
+		get_access = {
+			"Obtained From: Event missions",
+			taskid = 24263
+		},
+		got_voice = {
+			{
+				10900010,
+				"ryza_item5",
+				"laisha"
+			},
+			{
+				10900020,
+				"ryza_item5",
+				"keluodiya"
+			},
+			{
+				10900040,
+				"ryza_item5",
+				"lila"
+			},
+			{
+				10900050,
+				"ryza_item5",
+				"saili"
+			},
+			{
+				10900030,
+				"ryza_item5",
+				"patelixia"
+			}
+		},
+		base_circle = {
+			0.85,
+			0.85,
+			0.85,
+			3.58,
+			2.38
+		},
+		normal_circle = {
+			0.8,
+			0.8,
+			0.8,
+			3.97,
+			0
+		}
+	},
+	[119] = {
+		rarity = 4,
+		display = "A core component of the Augment Module Hellion Mantis. Can be used in the Atelier as a key material when synthesizing Hellion Mantis.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Hellion Mantis",
+		got_voice = "",
+		id = 119,
+		icon = "yumia_item_16",
+		prop = {
+			1
+		},
+		get_access = {
+			"Obtained From: Event missions",
+			taskid = 24264
+		},
+		base_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-1,
+			1.7
+		},
+		normal_circle = {
+			0.75,
+			0.75,
+			0.75,
+			-0.8,
+			0
+		}
+	},
+	[120] = {
+		rarity = 4,
+		display = "A core component of the Auxiliary Gear Endemeteo. Can be used in the Atelier as a key material when synthesizing Endemeteo.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Endemeteo",
+		got_voice = "",
+		id = 120,
+		icon = "yumia_item_17",
+		prop = {
+			1,
+			3
+		},
+		get_access = {
+			"Obtained From: Event missions",
+			taskid = 24265
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.75,
+			0.75,
+			0.75,
+			-0.74,
+			0
+		}
+	},
+	[121] = {
+		rarity = 4,
+		display = "A core component of the Auxiliary Gear Superior Grimoire. Can be used in the Atelier as a key material when synthesizing Superior Grimoire.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Superior Grimoire",
+		got_voice = "",
+		id = 121,
+		icon = "yumia_item_18",
+		prop = {
+			4
+		},
+		get_access = {
+			"Obtained From: Base building",
+			strongholdid = 1690022
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.75,
+			0.75,
+			0.75,
+			-1.5,
+			1
+		}
+	},
+	[122] = {
+		rarity = 4,
+		display = "A core component of the Auxiliary Gear Granshine. Can be used in the Atelier as a key material when synthesizing Granshine.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Granshine",
+		got_voice = "",
+		id = 122,
+		icon = "yumia_item_19",
+		prop = {
+			1,
+			2,
+			3,
+			4
+		},
+		get_access = {
+			"Obtained From: Base building",
+			strongholdid = 1690022
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.8,
+			0.8,
+			0.8,
+			0,
+			0
+		}
+	},
+	[126] = {
+		rarity = 4,
+		display = "A core component of the Auxiliary Gear Panacea Sphere. Can be used in the Atelier as a key material when synthesizing Panacea Sphere.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Panacea Sphere",
+		got_voice = "",
+		id = 126,
+		icon = "yumia_item_20",
+		prop = {
+			3
+		},
+		get_access = {
+			"Obtained From: Base building",
+			strongholdid = 1690022
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[127] = {
+		rarity = 4,
+		display = "A core component of the Auxiliary Gear Heavenly Armillary. Can be used in the Atelier as a key material when synthesizing Heavenly Armillary.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Heavenly Armillary",
+		got_voice = "",
+		id = 127,
+		icon = "yumia_item_21",
+		prop = {
+			3
+		},
+		get_access = {
+			"Obtained From: Event missions",
+			taskid = 24257
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[128] = {
+		rarity = 4,
+		display = "A core component of the Auxiliary Gear Enfer Cube. Can be used in the Atelier as a key material when synthesizing Enfer Cube.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Module - Enfer Cube",
+		got_voice = "",
+		id = 128,
+		icon = "yumia_item_22",
+		prop = {
+			1
+		},
+		get_access = {
+			"Obtained From: Event missions",
+			taskid = 24260
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[129] = {
+		rarity = 2,
+		display = "A basic alchemical solution. Red Neutralizer has an affinity to fire.",
+		prop_type = 7,
+		benefit_buff = "",
+		type = 2,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Red Neutralizer",
+		got_voice = "",
+		id = 129,
+		icon = "yumia_item_23",
+		prop = {
+			1
+		},
+		get_access = {
+			"Obtained From: Synthesis in the Atelier",
+			recipeid = 1021
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[130] = {
+		rarity = 2,
+		display = "A basic alchemical solution. Blue Neutralizer has an affinity to ice.",
+		prop_type = 7,
+		benefit_buff = "",
+		type = 2,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Blue Neutralizer",
+		got_voice = "",
+		id = 130,
+		icon = "yumia_item_24",
+		prop = {
+			2
+		},
+		get_access = {
+			"Obtained From: Synthesis in the Atelier",
+			recipeid = 1022
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[131] = {
+		rarity = 2,
+		display = "A basic alchemical solution. Yellow Neutralizer has an affinity to bolt.",
+		prop_type = 7,
+		benefit_buff = "",
+		type = 2,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Yellow Neutralizer",
+		got_voice = "",
+		id = 131,
+		icon = "yumia_item_25",
+		prop = {
+			3
+		},
+		get_access = {
+			"Obtained From: Synthesis in the Atelier",
+			recipeid = 1023
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[132] = {
+		rarity = 2,
+		display = "A basic alchemical solution. Green Neutralizer has an affinity to air.",
+		prop_type = 7,
+		benefit_buff = "",
+		type = 2,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Green Neutralizer",
+		got_voice = "",
+		id = 132,
+		icon = "yumia_item_26",
+		prop = {
+			4
+		},
+		get_access = {
+			"Obtained From: Synthesis in the Atelier",
+			recipeid = 1024
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[133] = {
+		rarity = 3,
+		display = "Neutralizers are fundamental chemicals frequently used in alchemy. This is one was refined to be all-purpose and usable with any and all potential materials.",
+		prop_type = 7,
+		benefit_buff = "",
+		type = 2,
+		version = 2,
+		is_show = 1,
+		prop_level = 2,
+		name = "Rainbow Neutralizer",
+		got_voice = "",
+		id = 133,
+		icon = "yumia_item_27",
+		prop = {
+			1,
+			2,
+			3,
+			4
+		},
+		get_access = {
+			"Obtained From: Synthesis in the Atelier",
+			recipeid = 1025
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[134] = {
+		rarity = 4,
+		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 1.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 0,
+		prop_level = 2,
+		name = "Skynexus Tower Energy Tuner 1",
+		got_voice = "",
+		id = 134,
+		icon = "yumia_item_28",
+		prop = {},
+		get_access = {
+			"Obtained From: Synthesis in the Atelier",
+			recipeid = 1017
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[135] = {
+		rarity = 4,
+		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 2.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 0,
+		prop_level = 2,
+		name = "Skynexus Tower Energy Tuner 2",
+		got_voice = "",
+		id = 135,
+		icon = "yumia_item_29",
+		prop = {},
+		get_access = {
+			"Obtained From: Synthesis in the Atelier",
+			recipeid = 1018
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[136] = {
+		rarity = 4,
+		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 3.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 0,
+		prop_level = 2,
+		name = "Skynexus Tower Energy Tuner 3",
+		got_voice = "",
+		id = 136,
+		icon = "yumia_item_30",
+		prop = {},
+		get_access = {
+			"Obtained From: Synthesis in the Atelier",
+			recipeid = 1019
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[137] = {
+		rarity = 4,
+		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 4.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		version = 2,
+		is_show = 0,
+		prop_level = 2,
+		name = "Skynexus Tower Energy Tuner 4",
+		got_voice = "",
+		id = 137,
+		icon = "yumia_item_31",
+		prop = {},
+		get_access = {
+			"Obtained From: Synthesis in the Atelier",
+			recipeid = 1020
+		},
+		base_circle = {
+			0.9,
+			0.9,
+			0.9,
+			-2.9,
+			0.22
+		},
+		normal_circle = {
+			0.85,
+			0.85,
+			0.85,
+			-0.8,
+			0
+		}
+	},
+	[138] = {
+		rarity = 3,
+		display = "A general material used for base-building. Can be used to install wooden objects.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		get_access = "",
+		is_show = 0,
+		version = 2,
+		prop_level = 2,
+		name = "Wood Construction Materials",
+		base_circle = "",
+		got_voice = "",
+		id = 138,
+		icon = "65653",
+		normal_circle = "",
+		prop = {}
+	},
+	[139] = {
+		rarity = 3,
+		display = "A general material used for base-building. Can be used to install stone objects.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		get_access = "",
+		is_show = 0,
+		version = 2,
+		prop_level = 2,
+		name = "Stone Construction Materials",
+		base_circle = "",
+		got_voice = "",
+		id = 139,
+		icon = "65654",
+		normal_circle = "",
+		prop = {}
+	},
+	[140] = {
+		rarity = 3,
+		display = "A general material used for base-building. Can be used to install metal objects.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		get_access = "",
+		is_show = 0,
+		version = 2,
+		prop_level = 2,
+		name = "Metal Construction Materials",
+		base_circle = "",
+		got_voice = "",
+		id = 140,
+		icon = "65655",
+		normal_circle = "",
+		prop = {}
+	},
+	[141] = {
+		rarity = 3,
+		display = "A general material used for base-building. Can be used to install plant objects.",
+		prop_type = 0,
+		benefit_buff = "",
+		type = 3,
+		get_access = "",
+		is_show = 0,
+		version = 2,
+		prop_level = 2,
+		name = "Plants Construction Materials",
+		base_circle = "",
+		got_voice = "",
+		id = 141,
+		icon = "65656",
+		normal_circle = "",
+		prop = {}
 	},
 	all = {
 		1,
@@ -1843,6 +3287,41 @@ pg.activity_ryza_item = {
 		55,
 		56,
 		57,
-		58
+		58,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141
 	}
 }

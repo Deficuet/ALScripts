@@ -110,6 +110,33 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 15,
+		param = {
+			"scene core activity",
+			{
+				coreName = "ALYCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 16,
+		param = {
+			"scene core activity",
+			{
+				coreName = "RyzaCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 17,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SecretsAbyssCoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -124,6 +151,9 @@ pg.activity_banner_notice = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15,
+		16,
+		17
 	}
 }

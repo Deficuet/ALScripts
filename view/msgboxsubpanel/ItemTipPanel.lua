@@ -315,8 +315,30 @@ function var_0_0.ConfigGoScene(arg_15_0, arg_15_1, arg_15_2)
 
 			return
 		end
-	elseif arg_15_0 == SCENE.MILITARYEXERCISE and not getProxy(MilitaryExerciseProxy):getSeasonInfo():canExercise() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
+	elseif arg_15_0 == SCENE.MILITARYEXERCISE then
+		if not getProxy(MilitaryExerciseProxy):getSeasonInfo():canExercise() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("exercise_count_insufficient"))
+
+			return
+		end
+	elseif arg_15_0 == BaseUI.ON_ITEM then
+		existCall(arg_15_2)
+
+		local var_15_16 = getProxy(ContextProxy):getCurrentContext()
+
+		pg.m02:retrieveMediator(var_15_16.mediator.__cname):addSubLayers(Context.New({
+			mediator = ItemInfoMediator,
+			viewComponent = ItemInfoLayer,
+			data = {
+				drop = Drop.New({
+					type = DROP_TYPE_ITEM,
+					id = arg_15_1.itemId
+				}),
+				confirmCall = function()
+					return
+				end
+			}
+		}))
 
 		return
 	end

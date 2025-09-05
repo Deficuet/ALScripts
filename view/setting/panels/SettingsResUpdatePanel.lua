@@ -5,66 +5,92 @@ function var_0_0.GetUIName(arg_1_0)
 end
 
 function var_0_0.GetTitle(arg_2_0)
-	return i18n("Settings_title_resUpdate")
+	return i18n("Settings_title_resManage")
 end
 
 function var_0_0.GetTitleEn(arg_3_0)
-	return "  / DOWNLOAD"
+	return "  / RESOURCES"
 end
 
 function var_0_0.OnInit(arg_4_0)
 	arg_4_0.tpl = arg_4_0._tf:Find("Tpl")
-	arg_4_0.containerTF = arg_4_0._tf:Find("options/list")
 	arg_4_0.iconTF = arg_4_0._tf:Find("Icon")
+	arg_4_0.fullTF = arg_4_0._tf:Find("options_full")
+	arg_4_0.mainTF = arg_4_0._tf:Find("options_main")
+	arg_4_0.fullTitleText = arg_4_0._tf:Find("options_full/Title/Text")
+	arg_4_0.mainTitleText = arg_4_0._tf:Find("options_main/Title/Text")
+	arg_4_0.specialTitleText = arg_4_0._tf:Find("options_special/Title/Text")
 
-	local var_4_0 = arg_4_0._tf:Find("options/MainGroup")
-	local var_4_1 = not GroupMainHelper.IsVerSameWithServer()
+	setText(arg_4_0.fullTitleText, i18n("Settings_title_resManage_All"))
+	setText(arg_4_0.mainTitleText, i18n("Settings_title_resManage_Main"))
+	setText(arg_4_0.specialTitleText, i18n("Settings_title_resManage_Sub"))
 
-	setActive(var_4_0, var_4_1)
+	arg_4_0.fullGroupTF = arg_4_0._tf:Find("options_full/MainGroup")
+	arg_4_0.mainContainerTF = arg_4_0._tf:Find("options_main/list")
+	arg_4_0.specialContainerTF = arg_4_0._tf:Find("options_special/list")
 
-	if var_4_1 then
-		arg_4_0.mainGroupBtn = SettingsMainGroupBtn.New(var_4_0)
+	local var_4_0 = not GroupMainHelper.IsVerSameWithServer()
+
+	setActive(arg_4_0.fullTF, var_4_0)
+
+	if var_4_0 then
+		arg_4_0.mainGroupBtn = SettingsMainGroupBtn.New(arg_4_0.fullGroupTF)
+		GetComponent(arg_4_0.mainTF, typeof(VerticalLayoutGroup)).padding.top = 0
+	else
+		local var_4_1 = GetComponent(arg_4_0.fullTF, typeof(VerticalLayoutGroup)).padding.top
+
+		GetComponent(arg_4_0.mainTF, typeof(VerticalLayoutGroup)).padding.top = var_4_1
 	end
 
+	arg_4_0.galleryBtn = SettingsGalleryBtn.New({
+		isDel = true,
+		tpl = arg_4_0.tpl,
+		container = arg_4_0.specialContainerTF,
+		iconSP = getImageSprite(arg_4_0.iconTF:Find("GALLERY_PIC"))
+	})
+	arg_4_0.mangaBtn = SettingsMangaBtn.New({
+		isDel = true,
+		tpl = arg_4_0.tpl,
+		container = arg_4_0.specialContainerTF,
+		iconSP = getImageSprite(arg_4_0.iconTF:Find("MANGA"))
+	})
+	arg_4_0.dormBtn = SettingsDormBtn.New({
+		isDel = true,
+		tpl = arg_4_0.tpl,
+		container = arg_4_0.specialContainerTF,
+		iconSP = getImageSprite(arg_4_0.iconTF:Find("DORM"))
+	})
+	arg_4_0.mapBtn = SettingsMapBtn.New({
+		isDel = true,
+		tpl = arg_4_0.tpl,
+		container = arg_4_0.specialContainerTF,
+		iconSP = getImageSprite(arg_4_0.iconTF:Find("MAP"))
+	})
+	arg_4_0.repairBtn = SettingsResRepairBtn.New({
+		isDel = false,
+		tpl = arg_4_0.tpl,
+		container = arg_4_0.specialContainerTF,
+		iconSP = getImageSprite(arg_4_0.iconTF:Find("REPAIR"))
+	})
 	arg_4_0.soundBtn = SettingsSoundBtn.New({
 		tpl = arg_4_0.tpl,
-		container = arg_4_0.containerTF,
+		container = arg_4_0.mainContainerTF,
 		iconSP = getImageSprite(arg_4_0.iconTF:Find("CV"))
 	})
 	arg_4_0.live2dBtn = SettingsLive2DBtn.New({
 		tpl = arg_4_0.tpl,
-		container = arg_4_0.containerTF,
+		container = arg_4_0.mainContainerTF,
 		iconSP = getImageSprite(arg_4_0.iconTF:Find("L2D"))
-	})
-	arg_4_0.galleryBtn = SettingsGalleryBtn.New({
-		tpl = arg_4_0.tpl,
-		container = arg_4_0.containerTF,
-		iconSP = getImageSprite(arg_4_0.iconTF:Find("GALLERY_PIC"))
 	})
 	arg_4_0.musicBtn = SettingsMusicBtn.New({
 		tpl = arg_4_0.tpl,
-		container = arg_4_0.containerTF,
+		container = arg_4_0.mainContainerTF,
 		iconSP = getImageSprite(arg_4_0.iconTF:Find("GALLERY_BGM"))
 	})
-	arg_4_0.mangaBtn = SettingsMangaBtn.New({
-		tpl = arg_4_0.tpl,
-		container = arg_4_0.containerTF,
-		iconSP = getImageSprite(arg_4_0.iconTF:Find("MANGA"))
-	})
 
-	if not LOCK_3DDORM_RES_DOWNLOAD_BTN then
-		arg_4_0.dormBtn = SettingsDormBtn.New({
-			tpl = arg_4_0.tpl,
-			container = arg_4_0.containerTF,
-			iconSP = getImageSprite(arg_4_0.iconTF:Find("DORM"))
-		})
+	if LOCK_ISLAND_DISPLAY then
+		setActive(arg_4_0.mapBtn._tf, false)
 	end
-
-	arg_4_0.repairBtn = SettingsResRepairBtn.New({
-		tpl = arg_4_0.tpl,
-		container = arg_4_0.containerTF,
-		iconSP = getImageSprite(arg_4_0.iconTF:Find("REPAIR"))
-	})
 end
 
 function var_0_0.Dispose(arg_5_0)
@@ -95,11 +121,13 @@ function var_0_0.Dispose(arg_5_0)
 
 		arg_5_0.mangaBtn = nil
 
-		if arg_5_0.dormBtn then
-			arg_5_0.dormBtn:Dispose()
+		arg_5_0.dormBtn:Dispose()
 
-			arg_5_0.dormBtn = nil
-		end
+		arg_5_0.dormBtn = nil
+
+		arg_5_0.mapBtn:Dispose()
+
+		arg_5_0.mapBtn = nil
 
 		if arg_5_0.mainGroupBtn then
 			arg_5_0.mainGroupBtn:Dispose()

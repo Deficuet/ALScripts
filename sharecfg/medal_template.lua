@@ -2590,6 +2590,27 @@ pg.medal_template = {
 		target_num = 8,
 		target_id = "50021"
 	},
+	[200081] = {
+		explain1 = "Secrets of the Abyss",
+		name = "Secrets of the Abyss Medal",
+		explain2 = "Event",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "You brought Aberrinth's secrets to light and thwarted the Calamitous One's evil plans. Did you enjoy the journey, our esteemed Commander? \n\n– Signed, the Port Virtual Reality Project 2.0 Production Committee",
+		next = 0,
+		icon = "9081",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9081",
+		condition = "Collect 8 stickers in The Secrets of the Abyss",
+		rank = 1,
+		id = 200081,
+		target_num = 8,
+		target_id = "50087"
+	},
 	all = {
 		10011,
 		10012,
@@ -2708,6 +2729,7 @@ pg.medal_template = {
 		200041,
 		200051,
 		200061,
-		200071
+		200071,
+		200081
 	}
 }

@@ -768,7 +768,7 @@ return {
 			}
 		},
 		{
-			expression = 7,
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			hidePaintObj = true,

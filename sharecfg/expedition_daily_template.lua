@@ -21,7 +21,7 @@ pg.expedition_daily_template = {
 		show_with_count = 0,
 		limit_time = 3,
 		insert_daily = 0,
-		title = "商船护送",
+		title = "Escort Mission",
 		pic = "daily1",
 		des = "Our Cargo ship is damaged by enemy torpedoes! Escort it to get a large number of Equipment Materials",
 		limit_period = "",
@@ -89,7 +89,7 @@ pg.expedition_daily_template = {
 		show_with_count = 0,
 		limit_time = 3,
 		insert_daily = 0,
-		title = "海域突进",
+		title = "Advance Mission",
 		pic = "daily2",
 		des = "Enemy self-destruction boats are zerging around! Clear them will have a chance to get Tactical Materials",
 		limit_period = "",
@@ -133,7 +133,7 @@ pg.expedition_daily_template = {
 		show_with_count = 0,
 		limit_time = 3,
 		insert_daily = 0,
-		title = "斩首行动",
+		title = "Fierce Assault",
 		pic = "daily3",
 		des = "Warning! Enemy Bosses on sight! Destroy them will have a chance to get Mystery Tech Packs",
 		limit_period = "",
@@ -220,14 +220,14 @@ pg.expedition_daily_template = {
 		}
 	},
 	[601] = {
-		tips = "战术研修每天开启",
+		tips = "Daily",
 		limit_type = 1,
 		show_with_count = 0,
 		limit_time = 3,
 		insert_daily = 0,
-		title = "战术研修",
+		title = "Tactical Training",
 		pic = "daily6",
-		des = "强大的特战敌人出现了！击破有几率获得战术升级材料",
+		des = "Strong specialized enemies have appeared! Defeat them to get tactical materials.",
 		limit_period = "",
 		id = 601,
 		sort = "4",
@@ -323,8 +323,8 @@ pg.expedition_daily_template = {
 			{
 				{
 					2025,
-					6,
-					12
+					9,
+					4
 				},
 				{
 					0,
@@ -335,8 +335,8 @@ pg.expedition_daily_template = {
 			{
 				{
 					2025,
-					6,
-					18
+					9,
+					11
 				},
 				{
 					23,

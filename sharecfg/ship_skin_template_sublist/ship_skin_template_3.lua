@@ -1,140 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103243] = {
-		ship_group = 10324,
-		name = "Day-Off Date",
-		hand_id = 13,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 103243,
-		group_index = 3,
-		purchase_offset = "",
-		painting = "bulaimodun_2",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "bulaimodun_2",
-		shop_type_id = 9,
-		shop_id = 70623,
-		illustrator = -1,
-		lip_smoothing = 0,
-		bg = "108",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "I reckon we've done enough shopping for the moment. Let's stop and chill here for a bit, then have another look around~♪",
-		voice_actor = 134,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			10,
-			-90,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.229,
-					1.01,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.166,
-					0.998,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.463,
-							2.539,
-							0.14
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamAngleY = {
-				-15,
-				15
-			}
-		}
-	},
 	[103244] = {
 		ship_group = 10324,
 		name = "Relaxation Consultation",
@@ -4140,7 +4006,7 @@ pg.base.ship_skin_template_3 = {
 		l2d_drag_rate = "",
 		part_scale = "",
 		prefab = "malilan_g",
-		shop_type_id = 0,
+		shop_type_id = 9997,
 		shop_id = 0,
 		illustrator = -1,
 		lip_smoothing = 0,
@@ -12437,6 +12303,120 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
+	[107099] = {
+		ship_group = 10709,
+		name = "Essex (Retrofit)",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 107099,
+		group_index = 9,
+		purchase_offset = "",
+		painting = "aisaikesi_g",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "aisaikesi_g",
+		shop_type_id = 9997,
+		shop_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Essex's retrofitting has finished! Now Enterprise will be– No, YOU will be 120% satisfied with me, Commander! Anyway, I, Essex-class aircraft carrier Essex, am at your command!",
+		voice_actor = 149,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		spine_offset_profile = {
+			62,
+			-1006,
+			0,
+			0.85
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.806,
+					2.193,
+					0
+				}
+			},
+			plane = {
+				{
+					1.638,
+					1.068,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.825,
+							2.402,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			76,
+			-987,
+			0,
+			0.86
+		}
+	},
 	[107100] = {
 		ship_group = 10710,
 		name = "Yorktown II",
@@ -14377,6 +14357,214 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.421,
 							2.463,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107229] = {
+		ship_group = 10722,
+		name = "Independence (Retrofit)",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 107229,
+		group_index = 9,
+		purchase_offset = "",
+		painting = "duli_g",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "duli_g",
+		shop_type_id = 9997,
+		shop_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Light carrier Independence reporting. Retrofitting complete. I'm ready to take on harder, more vital missions. Leave anything like that to me.",
+		voice_actor = 130,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.1,
+					1.18,
+					0
+				}
+			},
+			plane = {
+				{
+					1.24,
+					1.17,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							2.35,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107230] = {
+		ship_group = 10723,
+		name = "Princeton ",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 107230,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "pulinsidun",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "pulinsidun",
+		shop_type_id = 0,
+		shop_id = 0,
+		illustrator = -1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Independence-class light aircraft carrier – Princeton (CVL-23.) ",
+		voice_actor = 249,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.384,
+					0.917,
+					0
+				}
+			},
+			plane = {
+				{
+					1.439,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
 							-0.25
 						}
 					}

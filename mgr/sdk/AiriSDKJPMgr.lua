@@ -235,7 +235,7 @@ function var_0_0.ShowSurvey(arg_30_0, arg_30_1)
 	if var_0_0.GetIsPlatform() then
 		local var_30_0 = getProxy(PlayerProxy):getData()
 
-		var_0_2:UserEventUpload(arg_30_0, tostring(var_30_0.id), arg_30_1)
+		var_0_2:ShowSurvey(arg_30_0, tostring(var_30_0.id), arg_30_1)
 	end
 end
 

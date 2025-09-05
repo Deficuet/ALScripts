@@ -39,7 +39,6 @@ function var_0_0.preload(arg_2_0, arg_2_1)
 			end)
 		end
 	}, arg_2_1)
-	tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
 end
 
 function var_0_0.init(arg_7_0)
@@ -313,13 +312,7 @@ function var_0_0.TakePhoto(arg_37_0)
 		arg_37_0.gameView:Flush()
 	end
 
-	ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-		typeof(Camera),
-		typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-	}, {
-		arg_37_0.timelineCamera,
-		UnityEngine.Events.UnityAction_UnityEngine_Object(var_37_0)
-	})
+	BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(arg_37_0.timelineCamera, var_37_0)
 end
 
 function var_0_0.GamePause(arg_39_0)
@@ -385,13 +378,7 @@ function var_0_0.SaveImage(arg_44_0, arg_44_1)
 		end)
 	end
 
-	ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-		typeof(Camera),
-		typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-	}, {
-		arg_44_0.overlayCamera,
-		UnityEngine.Events.UnityAction_UnityEngine_Object(var_44_0)
-	})
+	BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(arg_44_0.overlayCamera, var_44_0)
 end
 
 function var_0_0.willExit(arg_47_0)

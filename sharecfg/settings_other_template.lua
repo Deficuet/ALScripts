@@ -198,6 +198,15 @@ pg.settings_other_template = {
 		title = "Automatically Lock New Characters",
 		desc = "When enabled, shipgirls who are newly-acquired for the first time will automatically be locked."
 	},
+	[24] = {
+		default = 1,
+		name = "GRAPHI_API_SWITCH_OPTION",
+		type = 3,
+		alignment = 0,
+		id = 24,
+		title = "Rendering Compatibility Mode",
+		desc = "When toggled ON, this can reduce some bugs where the screen turns black under certain circumstances."
+	},
 	all = {
 		1,
 		2,
@@ -220,6 +229,7 @@ pg.settings_other_template = {
 		19,
 		20,
 		21,
-		22
+		22,
+		24
 	}
 }

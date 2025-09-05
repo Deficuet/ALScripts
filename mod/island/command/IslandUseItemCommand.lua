@@ -9,7 +9,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_5 = var_1_4:GetInventoryAgency()
 
 	if var_1_2 > var_1_5:GetOwnCount(var_1_1) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("数量不足"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -38,13 +38,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 end
 
 function var_0_0.HandleUsageEffect(arg_3_0, arg_3_1, arg_3_2)
-	if IslandItem.StaticGetUsageType(arg_3_1) == IslandItemUsage.usage_ship_state then
-		local var_3_0 = IslandItem.StaticGetUsageArg(arg_3_1)
-		local var_3_1 = tonumber(var_3_0)
-
-		getProxy(IslandProxy):GetIsland():GetCharacterAgency():AddShipState(arg_3_2[1], var_3_1)
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("赠送成功"))
-	end
+	local var_3_0 = IslandItem.StaticGetUsageType(arg_3_1)
 end
 
 return var_0_0

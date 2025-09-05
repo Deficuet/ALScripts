@@ -1,140 +1,16 @@
 pg = pg or {}
 pg.activity_ryza_recipe = {
-	{
-		display = "An improved tool for gathering grass and flowers. It's been modified to make gathering easier, and reaps everything as quietly and lightly as the wind.",
-		rarity = 3,
-		name = "Silent Sickle",
-		type = 3,
-		id = 1,
-		item_num = 1,
-		icon = "props/ryza_item_4",
-		item_id = {
-			1001,
-			4
-		},
-		recipe_circle = {
-			10,
-			12,
-			13,
-			14,
-			15,
-			16,
-			19,
-			17,
-			11,
-			18
-		}
-	},
-	{
-		display = "An improved tool for splitting firewood and cutting down trees for lumber. It's been modified for better balance and sharpness, making gathering easier than ever.",
-		rarity = 3,
-		name = "Golden Axe",
-		type = 3,
-		id = 2,
-		item_num = 1,
-		icon = "props/ryza_item_3",
-		item_id = {
-			1001,
-			3
-		},
-		recipe_circle = {
-			20,
-			23,
-			24,
-			25,
-			27,
-			28,
-			21,
-			29,
-			1,
-			22,
-			26
-		}
-	},
-	{
-		display = "A stronger version of the Bomb Rod. The jewel at the tip is blue now, and it can destroy rocks and crystals more easily.",
-		rarity = 3,
-		name = "Blue Bomb Rod",
-		type = 3,
-		id = 3,
-		item_num = 1,
-		icon = "props/ryza_item_2",
-		item_id = {
-			1001,
-			2
-		},
-		recipe_circle = {
-			30,
-			31,
-			35,
-			32,
-			33,
-			34,
-			36,
-			37,
-			38,
-			39,
-			2
-		}
-	},
-	{
-		display = "An improved Fishing Rod. Fish will no longer flee from it, and some will even be more attracted to it than usual.",
-		rarity = 3,
-		name = "Divine Fishing Rod",
-		type = 3,
-		id = 4,
-		item_num = 1,
-		icon = "props/ryza_item_1",
-		item_id = {
-			1001,
-			1
-		},
-		recipe_circle = {
-			40,
-			42,
-			43,
-			45,
-			47,
-			49,
-			41,
-			44,
-			46,
-			48,
-			50,
-			51
-		}
-	},
-	{
-		display = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
-		rarity = 3,
-		name = "Laser Cutter",
-		type = 3,
-		id = 5,
-		item_num = 1,
-		icon = "props/ryza_item_5",
-		item_id = {
-			1001,
-			5
-		},
-		recipe_circle = {
-			60,
-			62,
-			63,
-			64,
-			66,
-			67,
-			65,
-			61
-		}
-	},
 	[10] = {
 		display = "An Augment Module for Reisalin Stout. A constantly glowing staff. It continues to give off a bright, dazzling light even if you don't do anything. It's said that its light makes the hearts of everyone it shines on brighter.",
 		rarity = 4,
-		name = "Sparkling Reverie",
+		prop_type = "",
 		type = 1,
-		id = 10,
+		name = "Sparkling Reverie",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/10360",
+		id = 10,
+		version = 1,
 		item_id = {
 			21,
 			10360
@@ -156,11 +32,14 @@ pg.activity_ryza_recipe = {
 	[20] = {
 		display = "An Augment Module for Klaudia Valentz. This bow is named for the way the arrows it releases shine like stars in the dark. It must be awful seeing someone aim this at you in the darkness...",
 		rarity = 4,
-		name = "Astrumnox",
+		prop_type = "",
 		type = 1,
-		id = 20,
+		name = "Astrumnox",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/10380",
+		id = 20,
+		version = 1,
 		item_id = {
 			21,
 			10380
@@ -182,11 +61,14 @@ pg.activity_ryza_recipe = {
 	[30] = {
 		display = "An Augment Module for Patricia Abelheim. A sentient sword that chooses its own wielder. If a warrior doesn't have a proud soul, they'll never be able to use it no matter how skilled they might be.",
 		rarity = 4,
-		name = "Edel Schwert",
+		prop_type = "",
 		type = 1,
-		id = 30,
+		name = "Edel Schwert",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/10400",
+		id = 30,
+		version = 1,
 		item_id = {
 			21,
 			10400
@@ -209,11 +91,14 @@ pg.activity_ryza_recipe = {
 	[40] = {
 		display = "An Augment Module for Lila Decyrus. A legendary weapon once wielded by warriors of the Oren race. It's said that simply equipping it grants you the strength of nature spirits in your surroundings.",
 		rarity = 4,
-		name = "Oren Herald",
+		prop_type = "",
 		type = 1,
-		id = 40,
+		name = "Oren Herald",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/10420",
+		id = 40,
+		version = 1,
 		item_id = {
 			21,
 			10420
@@ -238,11 +123,14 @@ pg.activity_ryza_recipe = {
 	[50] = {
 		display = "An Augment Module for Serri Glaus. This band was once worn by someone known as the Flower Sage. Apparently, this person was always surrounded by flowers, and flowers will bloom wherever the wearer walks.",
 		rarity = 4,
-		name = "Grand Floracion",
+		prop_type = "",
 		type = 1,
-		id = 50,
+		name = "Grand Floracion",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/10440",
+		id = 50,
+		version = 1,
 		item_id = {
 			21,
 			10440
@@ -265,11 +153,14 @@ pg.activity_ryza_recipe = {
 	[60] = {
 		display = "An Augment Module for Kala Ideas. A war hammer with an unusual shape. The opposite side of the flat part is just stylish.",
 		rarity = 4,
-		name = "Elder Lily",
+		prop_type = "",
 		type = 1,
-		id = 60,
+		name = "Elder Lily",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/10460",
+		id = 60,
+		version = 1,
 		item_id = {
 			21,
 			10460
@@ -294,11 +185,14 @@ pg.activity_ryza_recipe = {
 	[70] = {
 		display = "An incredibly powerful explosive with fire affinity. Deals damage to the enemy.",
 		rarity = 4,
-		name = "Grand Bomb",
+		prop_type = "",
 		type = 1,
-		id = 70,
+		name = "Grand Bomb",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89420",
+		id = 70,
+		version = 1,
 		item_id = {
 			3,
 			89420
@@ -324,11 +218,14 @@ pg.activity_ryza_recipe = {
 	[80] = {
 		display = "An incredibly powerful explosive with ice affinity. Deals damage to the enemy.",
 		rarity = 4,
-		name = "Crystal Ice Bomb",
+		prop_type = "",
 		type = 1,
-		id = 80,
+		name = "Crystal Ice Bomb",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89440",
+		id = 80,
+		version = 1,
 		item_id = {
 			3,
 			89440
@@ -354,11 +251,14 @@ pg.activity_ryza_recipe = {
 	[90] = {
 		display = "An incredibly powerful explosive with lightning affinity. Deals damage to the enemy.",
 		rarity = 4,
-		name = "Laute Plajig",
+		prop_type = "",
 		type = 1,
-		id = 90,
+		name = "Laute Plajig",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89460",
+		id = 90,
+		version = 1,
 		item_id = {
 			3,
 			89460
@@ -384,11 +284,14 @@ pg.activity_ryza_recipe = {
 	[100] = {
 		display = "An incredibly powerful explosive with wind affinity. Deals damage to the enemy.",
 		rarity = 4,
-		name = "Wirbel Luft",
+		prop_type = "",
 		type = 1,
-		id = 100,
+		name = "Wirbel Luft",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89480",
+		id = 100,
+		version = 1,
 		item_id = {
 			3,
 			89480
@@ -413,11 +316,14 @@ pg.activity_ryza_recipe = {
 	[110] = {
 		display = "A hammer that has the power to shake the earth with a single powerful strike. It got its name due to the fact that when the earth shakes and the air trembles, it reminds people of the creation of the world.",
 		rarity = 4,
-		name = "Genesis Hammer",
+		prop_type = "",
 		type = 1,
-		id = 110,
+		name = "Genesis Hammer",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89580",
+		id = 110,
+		version = 1,
 		item_id = {
 			3,
 			89580
@@ -444,11 +350,14 @@ pg.activity_ryza_recipe = {
 	[120] = {
 		display = "A bullet that does not require a gun barrel. When you release it toward the target, it will fly around in the sky and then go in a straight line to the target, exploding on impact.",
 		rarity = 4,
-		name = "Bubble Bullet",
+		prop_type = "",
 		type = 1,
-		id = 120,
+		name = "Bubble Bullet",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89600",
+		id = 120,
+		version = 1,
 		item_id = {
 			3,
 			89600
@@ -478,11 +387,14 @@ pg.activity_ryza_recipe = {
 	[130] = {
 		display = "An incredibly powerful explosive. Can lower the enemy's defense.",
 		rarity = 4,
-		name = "N/A",
+		prop_type = "",
 		type = 1,
-		id = 130,
+		name = "N/A",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89560",
+		id = 130,
+		version = 1,
 		item_id = {
 			3,
 			89560
@@ -509,11 +421,14 @@ pg.activity_ryza_recipe = {
 	[140] = {
 		display = "An incredibly powerful item. Can lower the enemy's stats, but using it consumes HP.",
 		rarity = 4,
-		name = "Apocalypse",
+		prop_type = "",
 		type = 1,
-		id = 140,
+		name = "Apocalypse",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89540",
+		id = 140,
+		version = 1,
 		item_id = {
 			3,
 			89540
@@ -548,11 +463,14 @@ pg.activity_ryza_recipe = {
 	[150] = {
 		display = "A thin cloth with a mystical pattern. Spread it over yourself to protect against all kinds of attacks.",
 		rarity = 4,
-		name = "Mystic Robe",
+		prop_type = "",
 		type = 1,
-		id = 150,
+		name = "Mystic Robe",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89520",
+		id = 150,
+		version = 1,
 		item_id = {
 			3,
 			89520
@@ -585,11 +503,14 @@ pg.activity_ryza_recipe = {
 	[160] = {
 		display = "A powerful medicine said to heal all illness and injuries, and even revive the dead. It's one of alchemy's greatest creations, and only a handful of alchemists are skilled enough to make it.",
 		rarity = 4,
-		name = "Elixir",
+		prop_type = "",
 		type = 1,
-		id = 160,
+		name = "Elixir",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89500",
+		id = 160,
+		version = 1,
 		item_id = {
 			3,
 			89500
@@ -620,11 +541,14 @@ pg.activity_ryza_recipe = {
 	[170] = {
 		display = "A harmonica that will convey your feelings and thoughts through its sound. It provides various enhancements both to the one who plays it and to those who hear it.",
 		rarity = 4,
-		name = "Energianica",
+		prop_type = "",
 		type = 1,
-		id = 170,
+		name = "Energianica",
 		item_num = 1,
+		shape = 0,
 		icon = "equips/89620",
+		id = 170,
+		version = 1,
 		item_id = {
 			3,
 			89620
@@ -645,14 +569,17 @@ pg.activity_ryza_recipe = {
 	[180] = {
 		display = "Contains a random Alchemist's Workshop-themed gear skin.",
 		rarity = 4,
-		name = "Random Gear Skin Box (Atelier Ryza)",
+		prop_type = "",
 		type = 2,
-		id = 180,
+		name = "Random Gear Skin Box (Atelier Ryza)",
 		item_num = 10,
+		shape = 0,
 		icon = "props/appearanceboxlaisha",
+		id = 180,
+		version = 1,
 		item_id = {
 			2,
-			30340
+			30373
 		},
 		recipe_circle = {
 			1800,
@@ -676,11 +603,14 @@ pg.activity_ryza_recipe = {
 	[190] = {
 		display = "An item resembling a keycard, made from combining the other four keys. It should slot into the device by the barrier's door at the Central Foundation.",
 		rarity = 3,
-		name = "Central Foundation Key",
+		prop_type = "",
 		type = 2,
-		id = 190,
+		name = "Central Foundation Key",
 		item_num = 1,
+		shape = 0,
 		icon = "props/ryza_item_31",
+		id = 190,
+		version = 1,
 		item_id = {
 			1001,
 			31
@@ -696,11 +626,14 @@ pg.activity_ryza_recipe = {
 	[200] = {
 		display = "A sculpture made from materials gathered among the ruins, commemorating the glorious adventure you've had. Obtained from the collab event The Alchemist and the Archipelago of Secrets.\n \"...Yup, this is also a barrel! \"",
 		rarity = 4,
-		name = "Ruins Explorer Sculpture",
+		prop_type = "",
 		type = 2,
-		id = 200,
+		name = "Ruins Explorer Sculpture",
 		item_num = 1,
+		shape = 0,
 		icon = "furnitureicon/chuanmo/lianjinxunzhangicon",
+		id = 200,
+		version = 1,
 		item_id = {
 			5,
 			239
@@ -729,11 +662,14 @@ pg.activity_ryza_recipe = {
 	[210] = {
 		display = "A small bottle containing elemental power. It has an affinity with all elements, which is useful but also makes it difficult to work with.",
 		rarity = 2,
-		name = "Spirit Bottle",
+		prop_type = "",
 		type = 4,
-		id = 210,
+		name = "Spirit Bottle",
 		item_num = -1,
+		shape = 0,
 		icon = "props/ryza_item_21",
+		id = 210,
+		version = 1,
 		item_id = {
 			1001,
 			21
@@ -747,11 +683,14 @@ pg.activity_ryza_recipe = {
 	[220] = {
 		display = "A common alchemic compound. A red liquid with fire affinity.",
 		rarity = 3,
-		name = "Red Neutralizer",
+		prop_type = "",
 		type = 4,
-		id = 220,
+		name = "Red Neutralizer",
 		item_num = -1,
+		shape = 0,
 		icon = "props/ryza_item_22",
+		id = 220,
+		version = 1,
 		item_id = {
 			1001,
 			22
@@ -766,11 +705,14 @@ pg.activity_ryza_recipe = {
 	[230] = {
 		display = "A common alchemic compound. A blue liquid with ice affinity.",
 		rarity = 3,
-		name = "Blue Neutralizer",
+		prop_type = "",
 		type = 4,
-		id = 230,
+		name = "Blue Neutralizer",
 		item_num = -1,
+		shape = 0,
 		icon = "props/ryza_item_23",
+		id = 230,
+		version = 1,
 		item_id = {
 			1001,
 			23
@@ -785,11 +727,14 @@ pg.activity_ryza_recipe = {
 	[240] = {
 		display = "A common alchemic compound. A yellow liquid with lightning affinity.",
 		rarity = 3,
-		name = "Yellow Neutralizer",
+		prop_type = "",
 		type = 4,
-		id = 240,
+		name = "Yellow Neutralizer",
 		item_num = -1,
+		shape = 0,
 		icon = "props/ryza_item_25",
+		id = 240,
+		version = 1,
 		item_id = {
 			1001,
 			24
@@ -804,11 +749,14 @@ pg.activity_ryza_recipe = {
 	[250] = {
 		display = "A common alchemic compound. A green liquid with wind affinity.",
 		rarity = 3,
-		name = "Green Neutralizer",
+		prop_type = "",
 		type = 4,
-		id = 250,
+		name = "Green Neutralizer",
 		item_num = -1,
+		shape = 0,
 		icon = "props/ryza_item_24",
+		id = 250,
+		version = 1,
 		item_id = {
 			1001,
 			25
@@ -823,11 +771,14 @@ pg.activity_ryza_recipe = {
 	[260] = {
 		display = "An advanced material created from the four Elemental Cores. Since it has high affinity with all elements, it's extremely useful in alchemy.",
 		rarity = 4,
-		name = "Crystal Element",
+		prop_type = "",
 		type = 4,
-		id = 260,
+		name = "Crystal Element",
 		item_num = -1,
+		shape = 0,
 		icon = "props/ryza_item_26",
+		id = 260,
+		version = 1,
 		item_id = {
 			1001,
 			26
@@ -843,11 +794,14 @@ pg.activity_ryza_recipe = {
 	[270] = {
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: increases the FP, AVI, and TRP of your ships.",
 		rarity = 4,
-		name = "Offense Boost Core",
+		prop_type = "",
 		type = 2,
-		id = 270,
+		name = "Offense Boost Core",
 		item_num = 2,
+		shape = 0,
 		icon = "props/ryza_item_34",
+		id = 270,
+		version = 1,
 		item_id = {
 			1001,
 			34
@@ -867,11 +821,14 @@ pg.activity_ryza_recipe = {
 	[280] = {
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: reduces the DMG taken by your ships.",
 		rarity = 4,
-		name = "Defense Boost Core",
+		prop_type = "",
 		type = 2,
-		id = 280,
+		name = "Defense Boost Core",
 		item_num = 3,
+		shape = 0,
 		icon = "props/ryza_item_35",
+		id = 280,
+		version = 1,
 		item_id = {
 			1001,
 			35
@@ -891,11 +848,14 @@ pg.activity_ryza_recipe = {
 	[290] = {
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: in combat, your ships slowly restore HP over time.",
 		rarity = 4,
-		name = "Regeneration Core",
+		prop_type = "",
 		type = 2,
-		id = 290,
+		name = "Regeneration Core",
 		item_num = 3,
+		shape = 0,
 		icon = "props/ryza_item_36",
+		id = 290,
+		version = 1,
 		item_id = {
 			1001,
 			36
@@ -915,11 +875,14 @@ pg.activity_ryza_recipe = {
 	[300] = {
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: once per battle, when one of your ship's HP falls beneath 20.0%, she will regain a portion of her HP.",
 		rarity = 4,
-		name = "Damage Control Core",
+		prop_type = "",
 		type = 2,
-		id = 300,
+		name = "Damage Control Core",
 		item_num = 3,
+		shape = 0,
 		icon = "props/ryza_item_37",
+		id = 300,
+		version = 1,
 		item_id = {
 			1001,
 			37
@@ -939,11 +902,14 @@ pg.activity_ryza_recipe = {
 	[310] = {
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that Burn enemies hit.",
 		rarity = 4,
-		name = "Covering Fire Core",
+		prop_type = "",
 		type = 2,
-		id = 310,
+		name = "Covering Fire Core",
 		item_num = 3,
+		shape = 0,
 		icon = "props/ryza_item_38",
+		id = 310,
+		version = 1,
 		item_id = {
 			1001,
 			38
@@ -963,11 +929,14 @@ pg.activity_ryza_recipe = {
 	[320] = {
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that will temporarily increase the DMG taken by enemies hit.",
 		rarity = 4,
-		name = "Anti-Armor Volley Core",
+		prop_type = "",
 		type = 2,
-		id = 320,
+		name = "Anti-Armor Volley Core",
 		item_num = 3,
+		shape = 0,
 		icon = "props/ryza_item_39",
+		id = 320,
+		version = 1,
 		item_id = {
 			1001,
 			39
@@ -987,11 +956,14 @@ pg.activity_ryza_recipe = {
 	[330] = {
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive additional EXP from sorties.",
 		rarity = 4,
-		name = "Experience Boost Core",
+		prop_type = "",
 		type = 2,
-		id = 330,
+		name = "Experience Boost Core",
 		item_num = 3,
+		shape = 0,
 		icon = "props/ryza_item_40",
+		id = 330,
+		version = 1,
 		item_id = {
 			1001,
 			40
@@ -1011,11 +983,14 @@ pg.activity_ryza_recipe = {
 	[340] = {
 		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will gain additional Affinity from sorties.",
 		rarity = 4,
-		name = "Affinity Boost Core",
+		prop_type = "",
 		type = 2,
-		id = 340,
+		name = "Affinity Boost Core",
 		item_num = 1,
+		shape = 0,
 		icon = "props/ryza_item_41",
+		id = 340,
+		version = 1,
 		item_id = {
 			1001,
 			41
@@ -1035,11 +1010,14 @@ pg.activity_ryza_recipe = {
 	[350] = {
 		display = "Resource used to craft, upgrade and convert Augment Modules.",
 		rarity = 3,
-		name = "Augment Module Stone T2",
+		prop_type = "",
 		type = 2,
-		id = 350,
+		name = "Augment Module Stone T2",
 		item_num = 100,
+		shape = 0,
 		icon = "props/15016",
+		id = 350,
+		version = 1,
 		item_id = {
 			2,
 			15016
@@ -1050,12 +1028,596 @@ pg.activity_ryza_recipe = {
 			3503
 		}
 	},
+	[1001] = {
+		display = "Yumia Liessfeldt's weapon.\nA gunstaff designed to draw out its maximum potential when used for either shooting or striking. The lamp is lit by condensed mana.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Ephemeral Record",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1001,
+		version = 2,
+		item_id = {
+			21,
+			14320
+		},
+		recipe_circle = {
+			10001,
+			10002,
+			10003,
+			10004,
+			10005,
+			10006,
+			10007
+		}
+	},
+	[1002] = {
+		display = "Isla von Duerer's weapon.\nA spear with a tip made from a jewel. Even if the spearhead were to break, it can be replaced without needing to swap out any other part.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Secret Triaina",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1002,
+		version = 2,
+		item_id = {
+			21,
+			14340
+		},
+		recipe_circle = {
+			10011,
+			10012,
+			10013,
+			10014,
+			10015,
+			10016,
+			10017
+		}
+	},
+	[1003] = {
+		display = "Nina Friede's weapon.\nA pistol and dagger that are compact and easy to wield. The dagger is light and incredibly sharp, while the pistol boasts impressive firepower, though it has strong recoil.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Huntress",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1003,
+		version = 2,
+		item_id = {
+			21,
+			14360
+		},
+		recipe_circle = {
+			10021,
+			10022,
+			10023,
+			10024,
+			10025,
+			10026,
+			10027
+		}
+	},
+	[1004] = {
+		display = "Lenja's weapon.\nA weapon with a serrated edge that cuts more like a saw than a sword. The wounds it can create are difficult to heal and prone to scarring.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Hellion Mantis",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1004,
+		version = 2,
+		item_id = {
+			21,
+			14380
+		},
+		recipe_circle = {
+			10031,
+			10032,
+			10033,
+			10034,
+			10035,
+			10036,
+			10037
+		}
+	},
+	[1011] = {
+		display = "Its double-ended blade flickers with the power of both fire and lightning. Those who master its use can wield both elemental powers readily.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Endemeteo",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1011,
+		version = 2,
+		item_id = {
+			3,
+			150720
+		},
+		recipe_circle = {
+			10041,
+			10042,
+			10043,
+			10044,
+			10045,
+			10046,
+			10047
+		}
+	},
+	[1012] = {
+		display = "A grimoire with immense wind power trapped within its pages. Opening it unleashes its full force.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Superior Grimoire",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1012,
+		version = 2,
+		item_id = {
+			3,
+			150700
+		},
+		recipe_circle = {
+			10051,
+			10052,
+			10053,
+			10054,
+			10055,
+			10056,
+			10057
+		}
+	},
+	[1013] = {
+		display = "A large sword wrapped in rainbow light. It's imbued with every sort of power imaginable.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Granshine",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1013,
+		version = 2,
+		item_id = {
+			3,
+			150680
+		},
+		recipe_circle = {
+			10061,
+			10062,
+			10063,
+			10064,
+			10065,
+			10066,
+			10067
+		}
+	},
+	[1014] = {
+		display = "A crystal ball that projects an image of a field of flowers beneath a blue sky. It can heal all the beholder's wounds.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Panacea Sphere",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1014,
+		version = 2,
+		item_id = {
+			3,
+			150740
+		},
+		recipe_circle = {
+			10071,
+			10072,
+			10073,
+			10074,
+			10075,
+			10076,
+			10077
+		}
+	},
+	[1015] = {
+		display = "An armillary sphere with the power of regeneration. Its healing power lies within the jewel in the center.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Heavenly Armillary",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1015,
+		version = 2,
+		item_id = {
+			3,
+			150780
+		},
+		recipe_circle = {
+			10081,
+			10082,
+			10083,
+			10084,
+			10085,
+			10086,
+			10087
+		}
+	},
+	[1016] = {
+		display = "A cube containing an ancient, horrifying monster. You'd be smart to not try to break the seal.",
+		rarity = 3,
+		prop_type = "",
+		type = 1,
+		name = "Enfer Cube",
+		item_num = 1,
+		shape = 1,
+		icon = "props/ryza_item_4",
+		id = 1016,
+		version = 2,
+		item_id = {
+			3,
+			150760
+		},
+		recipe_circle = {
+			10091,
+			10092,
+			10093,
+			10094,
+			10095,
+			10096,
+			10097
+		}
+	},
+	[1017] = {
+		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 1.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Skynexus Tower Energy Tuner 1",
+		item_num = 1,
+		shape = 3,
+		icon = "props/yumia_item_28",
+		id = 1017,
+		version = 2,
+		item_id = {
+			1001,
+			134
+		},
+		recipe_circle = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10105,
+			10106,
+			10107,
+			10108
+		}
+	},
+	[1018] = {
+		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 2.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Skynexus Tower Energy Tuner 2",
+		item_num = 1,
+		shape = 3,
+		icon = "props/yumia_item_29",
+		id = 1018,
+		version = 2,
+		item_id = {
+			1001,
+			135
+		},
+		recipe_circle = {
+			10111,
+			10112,
+			10113,
+			10114,
+			10115,
+			10116,
+			10117,
+			10118
+		}
+	},
+	[1019] = {
+		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 3.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Skynexus Tower Energy Tuner 3",
+		item_num = 1,
+		shape = 3,
+		icon = "props/yumia_item_30",
+		id = 1019,
+		version = 2,
+		item_id = {
+			1001,
+			136
+		},
+		recipe_circle = {
+			10121,
+			10122,
+			10123,
+			10124,
+			10125,
+			10126,
+			10127,
+			10128
+		}
+	},
+	[1020] = {
+		display = "Specialized equipment for tuning the Skynexus Tower's energy. Equipment level 4.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Skynexus Tower Energy Tuner 4",
+		item_num = 1,
+		shape = 3,
+		icon = "props/yumia_item_31",
+		id = 1020,
+		version = 2,
+		item_id = {
+			1001,
+			137
+		},
+		recipe_circle = {
+			10131,
+			10132,
+			10133,
+			10134,
+			10135,
+			10136,
+			10137,
+			10138
+		}
+	},
+	[1021] = {
+		display = "A basic alchemical solution. Red Neutralizer has an affinity to fire.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Red Neutralizer",
+		item_num = -1,
+		shape = 2,
+		icon = "props/yumia_item_23",
+		id = 1021,
+		version = 2,
+		item_id = {
+			1001,
+			129
+		},
+		recipe_circle = {
+			10141,
+			10142,
+			10143
+		}
+	},
+	[1022] = {
+		display = "A basic alchemical solution. Blue Neutralizer has an affinity to ice.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Blue Neutralizer",
+		item_num = -1,
+		shape = 2,
+		icon = "props/yumia_item_24",
+		id = 1022,
+		version = 2,
+		item_id = {
+			1001,
+			130
+		},
+		recipe_circle = {
+			10151,
+			10152,
+			10153
+		}
+	},
+	[1023] = {
+		display = "A basic alchemical solution. Yellow Neutralizer has an affinity to bolt.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Yellow Neutralizer",
+		item_num = -1,
+		shape = 2,
+		icon = "props/yumia_item_25",
+		id = 1023,
+		version = 2,
+		item_id = {
+			1001,
+			131
+		},
+		recipe_circle = {
+			10161,
+			10162,
+			10163
+		}
+	},
+	[1024] = {
+		display = "A basic alchemical solution. Green Neutralizer has an affinity to air.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Green Neutralizer",
+		item_num = -1,
+		shape = 2,
+		icon = "props/yumia_item_26",
+		id = 1024,
+		version = 2,
+		item_id = {
+			1001,
+			132
+		},
+		recipe_circle = {
+			10171,
+			10172,
+			10173
+		}
+	},
+	[1025] = {
+		display = "Neutralizers are fundamental chemicals frequently used in alchemy. This is one was refined to be all-purpose and usable with any and all potential materials.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Rainbow Neutralizer",
+		item_num = -1,
+		shape = 2,
+		icon = "props/yumia_item_27",
+		id = 1025,
+		version = 2,
+		item_id = {
+			1001,
+			133
+		},
+		recipe_circle = {
+			10181,
+			10182,
+			10183,
+			10184,
+			10185
+		}
+	},
+	[1026] = {
+		display = "Contains a random Alchemist's Workshop (Yumia)-themed gear skin.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Gear Skin Box (Atelier Yumia)",
+		item_num = 5,
+		shape = 3,
+		icon = "Props/appearanceboxyoumiya",
+		id = 1026,
+		version = 2,
+		item_id = {
+			2,
+			30372
+		},
+		recipe_circle = {
+			10191,
+			10192,
+			10193,
+			10194
+		}
+	},
+	[1027] = {
+		display = "Resource used to craft, upgrade and convert Augment Modules.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Augment Module Stone T2",
+		item_num = 100,
+		shape = 3,
+		icon = "props/15016",
+		id = 1027,
+		version = 2,
+		item_id = {
+			2,
+			15016
+		},
+		recipe_circle = {
+			10201,
+			10202,
+			10203,
+			10204
+		}
+	},
+	[1028] = {
+		display = "A general material used for base-building. Can be used to install wooden objects.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Wood Construction Materials",
+		item_num = 30,
+		shape = 3,
+		icon = "Props/65653",
+		id = 1028,
+		version = 2,
+		item_id = {
+			1001,
+			138
+		},
+		recipe_circle = {
+			10211,
+			10212,
+			10213
+		}
+	},
+	[1029] = {
+		display = "A general material used for base-building. Can be used to install stone objects.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Stone Construction Materials",
+		item_num = 30,
+		shape = 3,
+		icon = "Props/65654",
+		id = 1029,
+		version = 2,
+		item_id = {
+			1001,
+			139
+		},
+		recipe_circle = {
+			10221,
+			10222,
+			10223
+		}
+	},
+	[1030] = {
+		display = "A general material used for base-building. Can be used to install metal objects.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Metal Construction Materials",
+		item_num = 30,
+		shape = 3,
+		icon = "Props/65655",
+		id = 1030,
+		version = 2,
+		item_id = {
+			1001,
+			140
+		},
+		recipe_circle = {
+			10231,
+			10232,
+			10233
+		}
+	},
+	[1031] = {
+		display = "A general material used for base-building. Can be used to install plant objects.",
+		rarity = 3,
+		prop_type = "",
+		type = 2,
+		name = "Plants Construction Materials",
+		item_num = 30,
+		shape = 3,
+		icon = "Props/65656",
+		id = 1031,
+		version = 2,
+		item_id = {
+			1001,
+			141
+		},
+		recipe_circle = {
+			10241,
+			10242,
+			10243
+		}
+	},
 	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
 		10,
 		20,
 		30,
@@ -1090,6 +1652,31 @@ pg.activity_ryza_recipe = {
 		320,
 		330,
 		340,
-		350
+		350,
+		1001,
+		1002,
+		1003,
+		1004,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1023,
+		1024,
+		1025,
+		1026,
+		1027,
+		1028,
+		1029,
+		1030,
+		1031
 	}
 }

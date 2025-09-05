@@ -54,18 +54,11 @@ function var_0_0.Flush(arg_9_0, arg_9_1)
 		y = var_9_1 and 460 or 401
 	})
 
-	local var_9_3 = (tf(pg.playerResUI._go).rect.width - arg_9_0._tf.rect.width) * 0.5
+	local var_9_3 = arg_9_1:GetPrice()
+	local var_9_4 = pg.ship_skin_template[arg_9_1:getSkinId()].name
+	local var_9_5 = var_9_3 <= getProxy(PlayerProxy):getRawData():getChargeGem() and COLOR_GREEN or COLOR_RED
 
-	print(var_9_3)
-	setAnchoredPosition(pg.playerResUI.gemAddBtn, {
-		x = -32 + math.abs(var_9_3)
-	})
-
-	local var_9_4 = arg_9_1:GetPrice()
-	local var_9_5 = pg.ship_skin_template[arg_9_1:getSkinId()].name
-	local var_9_6 = var_9_4 <= getProxy(PlayerProxy):getRawData():getChargeGem() and COLOR_GREEN or COLOR_RED
-
-	var_9_2.text = i18n("skin_shop_buy_confirm", var_9_6, var_9_4, var_9_5)
+	var_9_2.text = i18n("skin_shop_buy_confirm", var_9_5, var_9_3, var_9_4)
 
 	arg_9_0:SetTipText(arg_9_1:getSkinId())
 	arg_9_0:FlushGift(var_9_0)
@@ -129,9 +122,6 @@ end
 function var_0_0.Hide(arg_14_0)
 	var_0_0.super.Hide(arg_14_0)
 	arg_14_0:emit(NewSkinShopMainView.EVT_SHOW_OR_HIDE_PURCHASE_VIEW, false)
-	setAnchoredPosition(pg.playerResUI.gemAddBtn, {
-		x = -155
-	})
 
 	arg_14_0.commodity = nil
 end

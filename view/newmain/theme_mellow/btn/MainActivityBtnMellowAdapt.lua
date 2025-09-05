@@ -4,6 +4,9 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.activityBtn = arg_1_1
 
 	pg.DelegateInfo.New(arg_1_0)
+
+	arg_1_0.__cname = arg_1_1.__cname
+
 	setmetatable(arg_1_0, {
 		__index = function(arg_2_0, arg_2_1)
 			local var_2_0 = rawget(arg_2_0, "class")

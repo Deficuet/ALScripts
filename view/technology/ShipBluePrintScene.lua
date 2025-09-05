@@ -2016,8 +2016,8 @@ function var_0_0.updatePhantomQuest(arg_145_0)
 
 			local var_147_1 = string.format("%d", math.clamp(var_147_0.unlocked and var_147_0.config.target_num or var_147_0.progress, 0, var_147_0.config.target_num) * 100 / var_147_0.config.target_num)
 
-			setText(arg_147_2:Find("desc/info/Text/progress"), var_147_1 .. "%")
-			setText(arg_147_2:Find("desc/info/Text/progress/shadow"), var_147_1 .. "%")
+			setText(arg_147_2:Find("desc/info/progress"), var_147_1 .. "%")
+			setText(arg_147_2:Find("desc/info/progress/shadow"), var_147_1 .. "%")
 
 			local var_147_2 = ShipBluePrint.getPhantomQuestCostDrop(var_147_0)
 
@@ -2077,7 +2077,7 @@ end
 function var_0_0.createTask(arg_152_0, arg_152_1)
 	local var_152_0 = {
 		title = arg_152_0:findTF("title/name", arg_152_1),
-		desc = arg_152_0:findTF("desc/Text", arg_152_1),
+		desc = arg_152_0:findTF("desc/info/Text", arg_152_1),
 		timerTF = arg_152_0:findTF("title/timer", arg_152_1),
 		timerTFTxt = arg_152_0:findTF("title/timer/Text", arg_152_1),
 		timerOpen = arg_152_0:findTF("title/timer/open", arg_152_1),
@@ -2095,8 +2095,8 @@ function var_0_0.createTask(arg_152_0, arg_152_1)
 	var_152_0.progessSlider = var_152_0.progressTF:GetComponent(typeof(Slider))
 	var_152_0.lockBtn = arg_152_0:findTF("desc/commit_panel/lock_btn", arg_152_1)
 	var_152_0.itemCount = var_152_0.itemTpl:Find("award/icon_bg/count")
-	var_152_0.progres = arg_152_0:findTF("desc/Text/progress", arg_152_1)
-	var_152_0.progreshadow = arg_152_0:findTF("desc/Text/progress/shadow", arg_152_1)
+	var_152_0.progres = arg_152_0:findTF("desc/info/progress", arg_152_1)
+	var_152_0.progreshadow = arg_152_0:findTF("desc/info/progress/shadow", arg_152_1)
 	var_152_0.check = findTF(arg_152_1, "title/complete")
 	var_152_0.lock = findTF(arg_152_1, "title/lock")
 	var_152_0.working = findTF(arg_152_1, "title/working")
@@ -2542,6 +2542,10 @@ function var_0_0.willExit(arg_181_0)
 		arg_181_0.cbTimer:Stop()
 
 		arg_181_0.cbTimer = nil
+	end
+
+	if arg_181_0.svQuickExchange:isShowing() then
+		arg_181_0.svQuickExchange:Hide()
 	end
 
 	arg_181_0.svQuickExchange:Destroy()

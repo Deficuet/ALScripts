@@ -3,9 +3,9 @@ local var_0_0 = class("IslandItemKind")
 function var_0_0.Type2TagName(arg_1_0)
 	if not var_0_0.TagNames then
 		var_0_0.TagNames = {
-			i18n1("材料"),
-			i18n1("道具"),
-			i18n1("特殊道具")
+			i18n("island_item_type_res"),
+			i18n("island_item_type_consume"),
+			i18n("island_item_type_spe")
 		}
 	end
 

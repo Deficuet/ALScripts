@@ -1338,7 +1338,7 @@ pg.tutorial_handbook_task = {
 	},
 	[203201] = {
 		pt = 68930,
-		name = "大世界",
+		name = "大型作战",
 		eng_name = "HANDBOOK",
 		type = 2,
 		id = 203201,

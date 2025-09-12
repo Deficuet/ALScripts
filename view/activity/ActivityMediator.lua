@@ -334,8 +334,8 @@ function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.SELECT_ACTIVITY, function(arg_42_0, arg_42_1)
 		arg_1_0.viewComponent:verifyTabs(arg_42_1)
 	end)
-	arg_1_0:bind(var_0_0.SHOW_NEXT_ACTIVITY, function(arg_43_0)
-		arg_1_0:showNextActivity()
+	arg_1_0:bind(var_0_0.SHOW_NEXT_ACTIVITY, function(arg_43_0, arg_43_1)
+		arg_1_0:showNextActivity(arg_43_1)
 	end)
 	arg_1_0:bind(var_0_0.ACTIVITY_PERMANENT, function(arg_44_0, arg_44_1)
 		if PlayerPrefs.GetString("permanent_time", "") ~= pg.gameset.permanent_mark.description then
@@ -490,11 +490,9 @@ function var_0_0.initNotificationHandleDic(arg_58_0)
 				return
 			end
 
-			if ActivityConst.HOLOLIVE_MORNING_ID == var_62_0 then
-				local var_62_1 = arg_62_0.viewComponent.pageDic[ActivityConst.HOLOLIVE_MORNING_ID]
-			end
+			local var_62_1 = getProxy(ActivityProxy):getActivityById(var_62_0)
 
-			arg_62_0:showNextActivity()
+			arg_62_0:showNextActivity(var_62_1:getConfig("page_core"))
 		end,
 		[ActivityProxy.ACTIVITY_SHOW_AWARDS] = function(arg_63_0, arg_63_1)
 			local var_63_0 = arg_63_1:getBody()
@@ -673,14 +671,14 @@ function var_0_0.initNotificationHandleDic(arg_58_0)
 	}
 end
 
-function var_0_0.showNextActivity(arg_94_0)
+function var_0_0.showNextActivity(arg_94_0, arg_94_1)
 	local var_94_0 = getProxy(ActivityProxy)
 
 	if not var_94_0 then
 		return
 	end
 
-	local var_94_1 = var_94_0:findNextAutoActivity()
+	local var_94_1 = var_94_0:findNextAutoActivity(arg_94_1)
 
 	if var_94_1 then
 		if var_94_1.id == ActivityConst.BLACK_FRIDAY_SIGNIN_ACT_ID then
@@ -714,7 +712,7 @@ function var_0_0.showNextActivity(arg_94_0)
 		elseif var_94_1.id == ActivityConst.SHADOW_PLAY_ID then
 			var_94_1.clientData1 = 1
 
-			arg_94_0:showNextActivity()
+			arg_94_0:showNextActivity(arg_94_1)
 		end
 	elseif not arg_94_0.viewComponent.activity then
 		local var_94_4 = arg_94_0:getDisplayActivity()

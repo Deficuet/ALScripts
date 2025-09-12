@@ -60,10 +60,14 @@ function var_0_0.didEnter(arg_7_0)
 	onButton(arg_7_0, arg_7_0.btnBack, function()
 		arg_7_0:emit(var_0_0.ON_BACK)
 	end, SOUND_BACK)
-	onButton(arg_7_0, arg_7_0.btnSkin, function()
-		arg_7_0:emit(ActivityMediator.GO_CHANGE_SHOP)
-	end, SFX_PANEL)
-	arg_7_0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
+
+	if arg_7_0.btnSkin then
+		onButton(arg_7_0, arg_7_0.btnSkin, function()
+			arg_7_0:emit(ActivityMediator.GO_CHANGE_SHOP)
+		end, SFX_PANEL)
+	end
+
+	arg_7_0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY, arg_7_0.contextData.coreName)
 end
 
 function var_0_0.setActivities(arg_13_0, arg_13_1)
@@ -115,6 +119,7 @@ function var_0_0.updateActivity(arg_17_0, arg_17_1)
 			arg_17_0.activity = arg_17_1
 
 			arg_17_0.pageDic[arg_17_1.id]:ActionInvoke("Flush", arg_17_1)
+			arg_17_0:verifyTabs(arg_17_0.activity.id)
 		end
 	end
 end
@@ -146,14 +151,40 @@ function var_0_0.selectActivity(arg_22_0, arg_22_1)
 end
 
 function var_0_0.verifyTabs(arg_23_0, arg_23_1)
-	local var_23_0 = arg_23_0.activities[arg_23_0:getActivityIndex(arg_23_1) or 1]:getConfig("is_show")
-	local var_23_1 = arg_23_0.tabs:Find(tostring(var_23_0))
+	local var_23_0 = arg_23_0.activities[arg_23_0:getActivityIndex(arg_23_1) or arg_23_0:getActivityIndex(arg_23_0:GetActiveActivity()) or 1]
 
-	triggerToggle(var_23_1, true)
+	if var_23_0 == nil then
+		return
+	end
+
+	local var_23_1 = var_23_0:getConfig("is_show")
+	local var_23_2 = arg_23_0.tabs:Find(tostring(var_23_1))
+
+	triggerToggle(var_23_2, true)
 end
 
-function var_0_0.getActClass(arg_24_0, arg_24_1)
-	return _G[arg_24_1]
+function var_0_0.GetActiveActivity(arg_24_0)
+	for iter_24_0, iter_24_1 in ipairs(arg_24_0.activities) do
+		if not iter_24_1:isEnd() then
+			return iter_24_1.id
+		end
+	end
+end
+
+function var_0_0.onBackPressed(arg_25_0)
+	local var_25_0 = arg_25_0.pageDic[arg_25_0.activity.id]
+
+	if var_25_0:IsShowingPopWindow() then
+		var_25_0:ClosePopWindow()
+
+		return
+	end
+
+	var_0_0.super.onBackPressed(arg_25_0)
+end
+
+function var_0_0.getActClass(arg_26_0, arg_26_1)
+	return _G[arg_26_1]
 end
 
 return var_0_0

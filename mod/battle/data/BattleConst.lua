@@ -214,6 +214,7 @@ var_0_0.AOEField.BULLET = 4
 var_0_0.AreaType = {}
 var_0_0.AreaType.CUBE = 1
 var_0_0.AreaType.COLUMN = 2
+var_0_0.AreaType.ELLIPSE = 3
 var_0_0.ShakeType = {}
 var_0_0.ShakeType.HIT = 301
 var_0_0.ShakeType.FIRE = 302

@@ -10,8 +10,8 @@ var_0_0.optionsPath = {
 
 function var_0_0.init(arg_2_0, ...)
 	var_0_0.super.init(arg_2_0, ...)
-	setText(arg_2_0._tf:Find("adapt/TopPage/top/deco/Text"), i18n("Outpost_20250904_Title1"))
-	setText(arg_2_0._tf:Find("adapt/TopPage/top/deco/Text_1"), i18n("Outpost_20250904_Title2"))
+	setText(arg_2_0._tf:Find("adapt/TopPage/top/deco/Text"), i18n("outpost_20250904_Title1"))
+	setText(arg_2_0._tf:Find("adapt/TopPage/top/deco/Text/Text_1"), i18n("outpost_20250904_Title2"))
 
 	local var_2_0
 
@@ -26,7 +26,8 @@ function var_0_0.init(arg_2_0, ...)
 			elseif not arg_2_0.pageDic[var_3_0.id] then
 				warning(string.format("without page in act:", var_3_0.id))
 			else
-				setText(arg_2_0:findTF("name", arg_3_2), i18n("Outpost_20250904_Sidebar" .. var_3_0:getConfig("is_show")))
+				setText(arg_2_0:findTF("on/name", arg_3_2), i18n("outpost_20250904_Sidebar" .. var_3_0:getConfig("is_show")))
+				setText(arg_2_0:findTF("name", arg_3_2), i18n("outpost_20250904_Sidebar" .. var_3_0:getConfig("is_show")))
 
 				if arg_2_0.pageDic[var_3_0.id] ~= nil then
 					setActive(arg_2_0:findTF("tip", arg_3_2), var_3_0:readyToAchieve())

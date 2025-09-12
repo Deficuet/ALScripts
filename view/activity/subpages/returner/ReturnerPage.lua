@@ -52,6 +52,7 @@ function var_0_0.Init(arg_2_0)
 		arg_2_0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
 			cmd = ActivityConst.RETURN_AWARD_OP_SHOW_RETURNER_AWARD_OVERVIEW,
 			arg1 = {
+				blur = true,
 				tasklist = arg_2_0.config.task_list,
 				ptId = pg.activity_template_headhunting[arg_2_0.activity.id].pt,
 				totalPt = arg_2_0.pt,
@@ -155,54 +156,58 @@ end
 
 local function var_0_1(arg_14_0, arg_14_1, arg_14_2)
 	local var_14_0 = arg_14_2:getConfig("award_display")[1]
-
-	updateDrop(arg_14_1:Find("item"), {
+	local var_14_1 = {
 		type = var_14_0[1],
 		id = var_14_0[2],
 		count = var_14_0[3]
-	})
+	}
+
+	updateDrop(arg_14_1:Find("item"), var_14_1)
+	onButton(arg_14_0, arg_14_1:Find("item"), function()
+		arg_14_0._event:emit(BaseUI.ON_DROP, var_14_1)
+	end, SFX_PANEL)
 	setText(arg_14_1:Find("desc"), arg_14_2:getConfig("desc"))
 	setFillAmount(arg_14_1:Find("slider"), arg_14_2:getProgress() / arg_14_2:getConfig("target_num"))
 
-	local var_14_1 = arg_14_1:Find("go")
-	local var_14_2 = arg_14_1:Find("get")
-	local var_14_3 = arg_14_1:Find("got")
+	local var_14_2 = arg_14_1:Find("go")
+	local var_14_3 = arg_14_1:Find("get")
+	local var_14_4 = arg_14_1:Find("got")
 
-	setActive(var_14_1, not arg_14_2:isFinish())
-	setActive(var_14_2, arg_14_2:isFinish() and not arg_14_2:isReceive())
-	setActive(var_14_3, arg_14_2:isReceive())
-	onButton(arg_14_0, var_14_1, function()
+	setActive(var_14_2, not arg_14_2:isFinish())
+	setActive(var_14_3, arg_14_2:isFinish() and not arg_14_2:isReceive())
+	setActive(var_14_4, arg_14_2:isReceive())
+	onButton(arg_14_0, var_14_2, function()
 		arg_14_0._event:emit(ActivityMediator.ON_TASK_GO, arg_14_2)
 	end, SFX_PANEL)
-	onButton(arg_14_0, var_14_2, function()
+	onButton(arg_14_0, var_14_3, function()
 		arg_14_0._event:emit(ActivityMediator.ON_TASK_SUBMIT, arg_14_2)
 	end, SFX_PANEL)
 end
 
-function var_0_0.UpdateTasks(arg_17_0)
-	local var_17_0 = arg_17_0.config.task_list
-	local var_17_1 = var_17_0[arg_17_0.taskIndex] or {}
+function var_0_0.UpdateTasks(arg_18_0)
+	local var_18_0 = arg_18_0.config.task_list
+	local var_18_1 = var_18_0[arg_18_0.taskIndex] or {}
 
-	arg_17_0.taskUIlist:make(function(arg_18_0, arg_18_1, arg_18_2)
-		if arg_18_0 == UIItemList.EventUpdate then
-			local var_18_0 = var_17_1[arg_18_1 + 1]
-			local var_18_1 = getProxy(TaskProxy)
-			local var_18_2 = var_18_1:getTaskById(var_18_0) or var_18_1:getFinishTaskById(var_18_0)
+	arg_18_0.taskUIlist:make(function(arg_19_0, arg_19_1, arg_19_2)
+		if arg_19_0 == UIItemList.EventUpdate then
+			local var_19_0 = var_18_1[arg_19_1 + 1]
+			local var_19_1 = getProxy(TaskProxy)
+			local var_19_2 = var_19_1:getTaskById(var_19_0) or var_19_1:getFinishTaskById(var_19_0)
 
-			assert(var_18_2)
-			var_0_1(arg_17_0, arg_18_2, var_18_2)
+			assert(var_19_2)
+			var_0_1(arg_18_0, arg_19_2, var_19_2)
 		end
 	end)
-	arg_17_0.taskUIlist:align(#var_17_1)
+	arg_18_0.taskUIlist:align(#var_18_1)
 
-	arg_17_0.totalProgress.text = #var_17_0
-	arg_17_0.progress.text = arg_17_0.taskIndex
+	arg_18_0.totalProgress.text = #var_18_0
+	arg_18_0.progress.text = arg_18_0.taskIndex
 end
 
-function var_0_0.Dispose(arg_19_0)
-	pg.DelegateInfo.Dispose(arg_19_0)
+function var_0_0.Dispose(arg_20_0)
+	pg.DelegateInfo.Dispose(arg_20_0)
 
-	arg_19_0.bg.sprite = nil
+	arg_20_0.bg.sprite = nil
 end
 
 return var_0_0

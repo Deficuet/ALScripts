@@ -22,15 +22,15 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onUpdate"
 			},
 			arg_list = {
-				buff_id = 19895,
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				quota = 1,
+				target = "TargetSelf",
+				skill_id = 19894,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -76,15 +76,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -131,15 +131,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -186,15 +186,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -241,15 +241,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -296,15 +296,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -351,15 +351,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -406,15 +406,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -461,15 +461,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -516,15 +516,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"
@@ -571,15 +571,15 @@ return {
 				}
 			},
 			{
-				type = "BattleBuffAddBuff",
+				type = "BattleBuffCastSkill",
 				trigger = {
 					"onUpdate"
 				},
 				arg_list = {
-					buff_id = 19895,
 					minTargetNumber = 1,
-					target = "TargetSelf",
 					quota = 1,
+					target = "TargetSelf",
+					skill_id = 19894,
 					check_target = {
 						"TargetSelf",
 						"TargetShipTag"

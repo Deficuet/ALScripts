@@ -106,6 +106,7 @@ function var_0_0.InitUI(arg_7_0)
 	setText(arg_7_0.autoFightToggle:Find("Text"), i18n("autofight"))
 
 	arg_7_0.delayTween = {}
+	arg_7_0.doEaseIn = true
 end
 
 local var_0_1 = 525
@@ -366,16 +367,18 @@ function var_0_0.set(arg_9_0, arg_9_1, arg_9_2)
 		triggerToggle(arg_9_0.toggleQuickPlay, var_9_21 == 1)
 	end
 
-	local var_9_22 = arg_9_0:findTF("panel")
+	if arg_9_0.doEaseIn then
+		local var_9_22 = arg_9_0:findTF("panel")
 
-	var_9_22.transform.localPosition = arg_9_0.posStart
+		var_9_22.transform.localPosition = arg_9_0.posStart
 
-	table.insert(arg_9_0.delayTween, LeanTween.move(var_9_22, Vector3.zero, 0.2).uniqueId)
+		table.insert(arg_9_0.delayTween, LeanTween.move(var_9_22, Vector3.zero, 0.2).uniqueId)
 
-	var_9_22.localScale = Vector3.zero
+		var_9_22.localScale = Vector3.zero
 
-	table.insert(arg_9_0.delayTween, LeanTween.scale(var_9_22, Vector3(1, 1, 1), 0.2).uniqueId)
-	table.insert(arg_9_0.delayTween, LeanTween.moveX(arg_9_0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
+		table.insert(arg_9_0.delayTween, LeanTween.scale(var_9_22, Vector3(1, 1, 1), 0.2).uniqueId)
+		table.insert(arg_9_0.delayTween, LeanTween.moveX(arg_9_0.passState, 0, 0.35):setEase(LeanTweenType.easeInOutSine):setDelay(0.3).uniqueId)
+	end
 end
 
 function var_0_0.cancelTween(arg_28_0)

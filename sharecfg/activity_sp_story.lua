@@ -3988,6 +3988,342 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[231] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 龙宫秘境",
+		unlock_conditions = "",
+		change_prefab = "",
+		change_background = "star_level_bg_490",
+		story = "QIWUYUTIANYUANZHISHANG1",
+		change_bgm = "story-amahara-stage2",
+		id = 231,
+		lock = ""
+	},
+	[232] = {
+		story_type = 1,
+		name = "EP1-1 天岩户",
+		unlock_conditions = "完成EPS-1",
+		change_bgm = "story-amahara-stage2",
+		change_prefab = "",
+		change_background = "star_level_bg_492",
+		id = 232,
+		story = "QIWUYUTIANYUANZHISHANG2",
+		pre_event = {
+			231
+		},
+		lock = {
+			{
+				4,
+				231
+			}
+		}
+	},
+	[233] = {
+		story_type = 1,
+		name = "EP1-2 踏云而行",
+		unlock_conditions = "完成EP1-1",
+		change_bgm = "story-amahara-stage3",
+		change_prefab = "",
+		change_background = "bg_amahara_cg1",
+		id = 233,
+		story = "QIWUYUTIANYUANZHISHANG3",
+		pre_event = {
+			232
+		},
+		lock = {
+			{
+				4,
+				232
+			}
+		}
+	},
+	[234] = {
+		story_type = 1,
+		name = "EP1-3 云海之宴",
+		unlock_conditions = "完成EP1-2",
+		change_bgm = "story-amahara-stage1",
+		change_prefab = "",
+		change_background = "bg_amahara_1",
+		id = 234,
+		story = "QIWUYUTIANYUANZHISHANG4",
+		pre_event = {
+			233
+		},
+		lock = {
+			{
+				4,
+				233
+			}
+		}
+	},
+	[235] = {
+		story_type = 1,
+		name = "EP1-4 天原之景",
+		unlock_conditions = "完成EP1-3",
+		change_bgm = "story-mayrain",
+		change_prefab = "",
+		change_background = "star_level_bg_492",
+		id = 235,
+		story = "QIWUYUTIANYUANZHISHANG5",
+		pre_event = {
+			234
+		},
+		lock = {
+			{
+				4,
+				234
+			}
+		}
+	},
+	[236] = {
+		story_type = 1,
+		name = "EP1-5 幻梦石",
+		unlock_conditions = "完成EP1-4",
+		change_bgm = "story-amahara-stage2",
+		change_prefab = "",
+		change_background = "star_level_bg_490",
+		id = 236,
+		story = "QIWUYUTIANYUANZHISHANG6",
+		pre_event = {
+			235
+		},
+		lock = {
+			{
+				4,
+				235
+			}
+		}
+	},
+	[237] = {
+		story_type = 1,
+		name = "EP2-1 云海佳酿",
+		unlock_conditions = "完成EP1-5",
+		change_bgm = "story-amahara-stage2",
+		change_prefab = "",
+		change_background = "bg_amahara_cg5",
+		id = 237,
+		story = "QIWUYUTIANYUANZHISHANG7",
+		pre_event = {
+			236
+		},
+		lock = {
+			{
+				4,
+				236
+			}
+		}
+	},
+	[238] = {
+		story_type = 1,
+		name = "EP2-2 筑梦",
+		unlock_conditions = "完成EP2-1",
+		change_bgm = "story-island-soft",
+		change_prefab = "",
+		change_background = "star_level_bg_539",
+		id = 238,
+		story = "QIWUYUTIANYUANZHISHANG8",
+		pre_event = {
+			237
+		},
+		lock = {
+			{
+				4,
+				237
+			}
+		}
+	},
+	[239] = {
+		story_type = 1,
+		name = "EP2-3 和平？",
+		unlock_conditions = "完成EP2-2",
+		change_bgm = "battle-eagleunion",
+		change_prefab = "",
+		change_background = "bg_tieyiqingfeng_1",
+		id = 239,
+		story = "QIWUYUTIANYUANZHISHANG9",
+		pre_event = {
+			238
+		},
+		lock = {
+			{
+				4,
+				238
+			}
+		}
+	},
+	[240] = {
+		story_type = 1,
+		name = "EP2-4 宽广？",
+		unlock_conditions = "完成EP2-3",
+		change_bgm = "story-temepest-2",
+		change_prefab = "",
+		change_background = "star_level_bg_491",
+		id = 240,
+		story = "QIWUYUTIANYUANZHISHANG10",
+		pre_event = {
+			239
+		},
+		lock = {
+			{
+				4,
+				239
+			}
+		}
+	},
+	[241] = {
+		story_type = 1,
+		name = "EP2-5 不安？",
+		unlock_conditions = "完成EP2-4",
+		change_bgm = "musashi-2",
+		change_prefab = "",
+		change_background = "bg_amahara_2",
+		id = 241,
+		story = "QIWUYUTIANYUANZHISHANG11",
+		pre_event = {
+			240
+		},
+		lock = {
+			{
+				4,
+				240
+			}
+		}
+	},
+	[242] = {
+		story_type = 1,
+		name = "EPS-2 全域入侵",
+		unlock_conditions = "完成EP2-5",
+		change_bgm = "theme-starsea-core",
+		change_prefab = "",
+		change_background = "bg_port_chongdong",
+		id = 242,
+		story = "QIWUYUTIANYUANZHISHANG12",
+		pre_event = {
+			241
+		},
+		lock = {
+			{
+				4,
+				241
+			}
+		}
+	},
+	[243] = {
+		story_type = 1,
+		name = "EPS-3 旧日之网",
+		unlock_conditions = "完成EPS-2",
+		change_bgm = "battle-unzen-1",
+		change_prefab = "",
+		change_background = "bg_amahara_cg6",
+		id = 243,
+		story = "QIWUYUTIANYUANZHISHANG13",
+		pre_event = {
+			241
+		},
+		lock = {
+			{
+				4,
+				242
+			}
+		}
+	},
+	[244] = {
+		story_type = 2,
+		name = "EP3-1 穿越黑潮",
+		unlock_conditions = "完成EPS-3",
+		change_bgm = "theme-sakuraholyplace",
+		change_prefab = "",
+		change_background = "bg_amahara_cg7",
+		id = 244,
+		story = "1966001",
+		pre_event = {
+			242,
+			243
+		},
+		lock = {
+			{
+				4,
+				243
+			}
+		}
+	},
+	[245] = {
+		story_type = 1,
+		name = "EP3-2 相位变换",
+		unlock_conditions = "完成EP3-1",
+		change_bgm = "battle-boss-ucnf",
+		change_prefab = "",
+		change_background = "bg_amahara_3",
+		id = 245,
+		story = "QIWUYUTIANYUANZHISHANG15",
+		pre_event = {
+			244
+		},
+		lock = {
+			{
+				4,
+				244
+			}
+		}
+	},
+	[246] = {
+		story_type = 1,
+		name = "EP3-3 更深层",
+		unlock_conditions = "完成EP3-2",
+		change_bgm = "bgm-waterwave",
+		change_prefab = "",
+		change_background = "star_level_bg_493",
+		id = 246,
+		story = "QIWUYUTIANYUANZHISHANG16",
+		pre_event = {
+			245
+		},
+		lock = {
+			{
+				4,
+				245
+			}
+		}
+	},
+	[247] = {
+		story_type = 1,
+		name = "EP-？ 步入天原·上",
+		unlock_conditions = "完成EP3-3",
+		change_bgm = "bgm-waterwave",
+		change_prefab = "",
+		change_background = "star_level_bg_493",
+		id = 247,
+		story = "QIWUYUTIANYUANZHISHANG17",
+		pre_event = {
+			246
+		},
+		lock = {
+			{
+				4,
+				246
+			}
+		}
+	},
+	[248] = {
+		story_type = 99,
+		name = "9月19日维护后解锁",
+		unlock_conditions = "",
+		change_bgm = "",
+		change_prefab = "juqing_heisewuqi",
+		change_background = "",
+		id = 248,
+		story = "",
+		pre_event = {
+			247
+		},
+		lock = {
+			{
+				4,
+				247
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4200,6 +4536,24 @@ pg.activity_sp_story = {
 		223,
 		224,
 		225,
-		226
+		226,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237,
+		238,
+		239,
+		240,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
+		247,
+		248
 	}
 }

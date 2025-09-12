@@ -5221,6 +5221,16 @@ end
 temp()
 
 function temp()
+	var_0_1.杪 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.貊 = {
 		this = {
 			this = true
@@ -5348,6 +5358,16 @@ temp()
 
 function temp()
 	var_0_1.狑 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.鼯 = {
 		this = {
 			this = true
 		}
@@ -5559,6 +5579,16 @@ temp()
 
 function temp()
 	var_0_1.猃 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.猏 = {
 		this = {
 			this = true
 		}
@@ -5814,6 +5844,16 @@ temp()
 
 function temp()
 	var_0_1.鲪 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.鳉 = {
 		this = {
 			this = true
 		}
@@ -6089,6 +6129,16 @@ end
 temp()
 
 function temp()
+	var_0_1.䳆 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.衣 = {
 		玖 = {
 			this = true
@@ -6152,6 +6202,18 @@ function temp()
 	var_0_1.十 = {
 		纱 = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.诗 = {
+		玲 = {
+			寺 = {
+				this = true
+			}
 		}
 	}
 end
@@ -8207,6 +8269,24 @@ function temp()
 				亲 = {
 					王 = {
 						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.云 = {
+		仙 = {
+			（ = {
+				后 = {
+					排 = {
+						） = {
+							this = true
+						}
 					}
 				}
 			}

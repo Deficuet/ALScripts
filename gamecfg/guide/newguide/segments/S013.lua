@@ -45,12 +45,12 @@ return {
 				text = var_0_0[2]
 			},
 			spriteui = {
-				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/item_scrollview/item_grid",
+				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/adapt/item_scrollview/item_grid",
 				childPath = "bg/icon_bg/icon",
 				pathIndex = "#"
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/item_scrollview/item_grid",
+				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/adapt/item_scrollview/item_grid",
 				pathIndex = "#",
 				triggerType = {
 					1

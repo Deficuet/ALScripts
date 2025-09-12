@@ -641,6 +641,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	arg_1_0.facade:registerCommand(GAME.ISLAND_BUY_ROLE_SKIN_COLOR, IslandSendRoleSkinColorCommand)
 	arg_1_0.facade:registerCommand(GAME.ISLAND_BUY_ROLE_DRESS_COLOR, IslandSendDressColorCommand)
 	arg_1_0.facade:registerCommand(GAME.COMMANDER_MANUAL_OP, CommanderManualCommand)
+	arg_1_0.facade:registerCommand(GAME.CITY_REBUILD, CityRebuildCommand)
 end
 
 return var_0_0

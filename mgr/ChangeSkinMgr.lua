@@ -77,6 +77,7 @@ function var_0_0.play(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 	arg_7_0.changeIndex = ShipSkin.GetChangeSkinIndex(arg_7_1)
 	arg_7_0.changeState = ShipSkin.GetChangeSkinState(arg_7_1)
 	arg_7_0.changAction = ShipSkin.GetChangeSkinAction(arg_7_1)
+	arg_7_0.delayIn = ShipSkin.GetChangeSkinCustomDataId(arg_7_1, "delay_in")
 
 	if arg_7_0.changeState == var_0_1 then
 		arg_7_0._loadObjectName = "changeskin/" .. arg_7_0.changAction
@@ -117,7 +118,11 @@ function var_0_0.play(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 	elseif arg_7_0.changeState == var_0_3 then
 		-- block empty
 	elseif arg_7_0.changeState == var_0_4 then
-		arg_7_0._loadObjectName = "changeskin/changeempty"
+		if arg_7_0.changAction and #arg_7_0.changAction > 0 then
+			arg_7_0._loadObjectName = "changeskin/" .. arg_7_0.changAction
+		else
+			arg_7_0._loadObjectName = "changeskin/changeempty"
+		end
 
 		PoolMgr.GetInstance():GetPrefab(arg_7_0._loadObjectName, "", true, function(arg_10_0)
 			arg_7_0._go:SetActive(true)
@@ -144,36 +149,45 @@ function var_0_0.play(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 					arg_7_3()
 				end
 
-				arg_7_0:finish(arg_7_4)
+				if arg_7_0.delayIn then
+					arg_7_0:finish(nil)
+					onDelayTick(function()
+						if arg_7_4 then
+							arg_7_4()
+						end
+					end, arg_7_0.delayIn)
+				else
+					arg_7_0:finish(arg_7_4)
+				end
 			end)
 		end)
 	end
 end
 
-function var_0_0.finish(arg_13_0, arg_13_1)
-	if LeanTween.isTweening(arg_13_0._go) then
-		LeanTween.cancel(arg_13_0._go)
+function var_0_0.finish(arg_14_0, arg_14_1)
+	if LeanTween.isTweening(arg_14_0._go) then
+		LeanTween.cancel(arg_14_0._go)
 	end
 
 	LeanTween.delayedCall(0.5, System.Action(function()
-		if arg_13_0._spineAnimUI then
-			arg_13_0._spineAnimUI:SetActionCallBack(nil)
+		if arg_14_0._spineAnimUI then
+			arg_14_0._spineAnimUI:SetActionCallBack(nil)
 
-			arg_13_0._spineAnimUI = nil
+			arg_14_0._spineAnimUI = nil
 		end
 
-		if arg_13_0._loadObject then
-			PoolMgr.GetInstance():ReturnPrefab(arg_13_0._loadObjectName, "", arg_13_0._loadObject, true)
+		if arg_14_0._loadObject then
+			PoolMgr.GetInstance():ReturnPrefab(arg_14_0._loadObjectName, "", arg_14_0._loadObject, true)
 		end
 
-		arg_13_0._inPlaying = false
+		arg_14_0._inPlaying = false
 
-		if arg_13_0._go then
-			arg_13_0._go:SetActive(false)
+		if arg_14_0._go then
+			arg_14_0._go:SetActive(false)
 		end
 
-		if arg_13_1 then
-			arg_13_1()
+		if arg_14_1 then
+			arg_14_1()
 		end
 	end))
 end

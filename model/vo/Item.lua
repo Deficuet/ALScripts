@@ -156,201 +156,205 @@ function var_0_0.StaticCombinationDisplay(arg_22_0)
 		local var_23_1 = ShipSkin.New({
 			id = arg_23_0[1]
 		})
-		local var_23_2 = ""
+		local var_23_2 = {}
 
-		if var_23_1:IsLive2d() then
-			var_23_2 = "（<color=#92fc63>" .. i18n("luckybag_skin_islive2d") .. "</color>）"
-		elseif var_23_1:IsSpine() then
-			var_23_2 = "（<color=#92fc63>" .. i18n("luckybag_skin_isani") .. "</color>）"
+		for iter_23_0, iter_23_1 in ipairs(getGameset("random_skin_tag")[2]) do
+			var_23_2[iter_23_1[1]] = iter_23_1[2]
 		end
 
-		local var_23_3 = i18n("random_skin_list_item_desc_label")
-		local var_23_4 = ""
+		local var_23_3 = underscore(var_23_1:getConfig("tag")):chain():filter(function(arg_24_0)
+			return var_23_2[arg_24_0]
+		end):map(function(arg_25_0)
+			return var_23_2[arg_25_0]
+		end):value()
+		local var_23_4 = #var_23_3 > 0 and string.format("（<color=#92fc63>%s</color>）", table.concat(var_23_3, " ")) or ""
+		local var_23_5 = i18n("random_skin_list_item_desc_label")
+		local var_23_6 = ""
 
 		if var_23_1:ExistReward() then
-			var_23_4 = i18n("word_show_extra_reward_at_fudai_dialog", var_23_1:GetRewardListDesc())
+			var_23_6 = i18n("word_show_extra_reward_at_fudai_dialog", var_23_1:GetRewardListDesc())
 		end
 
-		return "\n（<color=#92fc63>" .. var_23_0 .. "%%</color>）" .. var_23_1.shipName .. var_23_3 .. var_23_1.skinName .. var_23_2 .. var_23_4
+		return "\n（<color=#92fc63>" .. var_23_0 .. "%%</color>）" .. var_23_1.shipName .. var_23_5 .. var_23_1.skinName .. var_23_4 .. var_23_6
 	end)
 	local var_22_1 = table.concat(var_22_0, ";")
 
 	return i18n("skin_gift_desc", var_22_1)
 end
 
-function var_0_0.CombinationDisplay(arg_24_0, arg_24_1)
-	return var_0_0.StaticCombinationDisplay(arg_24_1)
+function var_0_0.CombinationDisplay(arg_26_0, arg_26_1)
+	return var_0_0.StaticCombinationDisplay(arg_26_1)
 end
 
-function var_0_0.InTimeLimitSkinAssigned(arg_25_0)
-	local var_25_0 = var_0_0.getConfigData(arg_25_0)
+function var_0_0.InTimeLimitSkinAssigned(arg_27_0)
+	local var_27_0 = var_0_0.getConfigData(arg_27_0)
 
-	if var_25_0.type ~= var_0_0.SKIN_ASSIGNED_TYPE then
+	if var_27_0.type ~= var_0_0.SKIN_ASSIGNED_TYPE then
 		return false
 	end
 
-	local var_25_1 = var_25_0.usage_arg[1]
+	local var_27_1 = var_27_0.usage_arg[1]
 
-	return getProxy(ActivityProxy):IsActivityNotEnd(var_25_1)
+	return getProxy(ActivityProxy):IsActivityNotEnd(var_27_1)
 end
 
-function var_0_0.GetValidSkinList(arg_26_0)
-	assert(arg_26_0:getConfig("type") == var_0_0.SKIN_ASSIGNED_TYPE)
+function var_0_0.GetValidSkinList(arg_28_0)
+	assert(arg_28_0:getConfig("type") == var_0_0.SKIN_ASSIGNED_TYPE)
 
-	local var_26_0 = arg_26_0:getConfig("usage_arg")
+	local var_28_0 = arg_28_0:getConfig("usage_arg")
 
-	if Item.InTimeLimitSkinAssigned(arg_26_0.id) then
-		return table.mergeArray(var_26_0[2], var_26_0[3], true)
+	if Item.InTimeLimitSkinAssigned(arg_28_0.id) then
+		return table.mergeArray(var_28_0[2], var_28_0[3], true)
 	else
-		return underscore.rest(var_26_0[3], 1)
+		return underscore.rest(var_28_0[3], 1)
 	end
 end
 
-function var_0_0.IsAllSkinOwner(arg_27_0)
-	assert(arg_27_0:getConfig("type") == var_0_0.SKIN_ASSIGNED_TYPE)
+function var_0_0.IsAllSkinOwner(arg_29_0)
+	assert(arg_29_0:getConfig("type") == var_0_0.SKIN_ASSIGNED_TYPE)
 
-	local var_27_0 = getProxy(ShipSkinProxy)
+	local var_29_0 = getProxy(ShipSkinProxy)
 
-	return underscore.all(arg_27_0:GetValidSkinList(), function(arg_28_0)
-		return var_27_0:hasNonLimitSkin(arg_28_0)
+	return underscore.all(arg_29_0:GetValidSkinList(), function(arg_30_0)
+		return var_29_0:hasNonLimitSkin(arg_30_0)
 	end)
 end
 
-function var_0_0.GetOverflowCheckItems(arg_29_0, arg_29_1)
-	arg_29_1 = arg_29_1 or 1
+function var_0_0.GetOverflowCheckItems(arg_31_0, arg_31_1)
+	arg_31_1 = arg_31_1 or 1
 
-	local var_29_0 = {}
+	local var_31_0 = {}
 
-	if arg_29_0:getConfig("usage") == ItemUsage.DROP_TEMPLATE then
-		local var_29_1, var_29_2, var_29_3 = unpack(arg_29_0:getConfig("usage_arg"))
+	if arg_31_0:getConfig("usage") == ItemUsage.DROP_TEMPLATE then
+		local var_31_1, var_31_2, var_31_3 = unpack(arg_31_0:getConfig("usage_arg"))
 
-		if var_29_2 > 0 then
-			table.insert(var_29_0, {
+		if var_31_2 > 0 then
+			table.insert(var_31_0, {
 				type = DROP_TYPE_RESOURCE,
 				id = PlayerConst.ResGold,
-				count = var_29_2 * arg_29_1
+				count = var_31_2 * arg_31_1
 			})
 		end
 
-		if var_29_3 > 0 then
-			table.insert(var_29_0, {
+		if var_31_3 > 0 then
+			table.insert(var_31_0, {
 				type = DROP_TYPE_RESOURCE,
 				id = PlayerConst.ResOil,
-				count = var_29_3 * arg_29_1
+				count = var_31_3 * arg_31_1
 			})
 		end
 	end
 
-	switch(arg_29_0:getConfig("type"), {
+	switch(arg_31_0:getConfig("type"), {
 		[Item.EQUIPMENT_BOX_TYPE_5] = function()
-			table.insert(var_29_0, {
+			table.insert(var_31_0, {
 				type = DROP_TYPE_EQUIP,
 				id = EQUIP_OCCUPATION_ID,
-				count = arg_29_1
+				count = arg_31_1
 			})
 		end,
 		[Item.EQUIPMENT_ASSIGNED_TYPE] = function()
-			table.insert(var_29_0, {
+			table.insert(var_31_0, {
 				type = DROP_TYPE_EQUIP,
 				id = EQUIP_OCCUPATION_ID,
-				count = arg_29_1
+				count = arg_31_1
 			})
 		end
 	})
-	underscore.map(var_29_0, function(arg_32_0)
-		return Drop.New(arg_32_0)
+	underscore.map(var_31_0, function(arg_34_0)
+		return Drop.New(arg_34_0)
 	end)
 
-	return var_29_0
+	return var_31_0
 end
 
-function var_0_0.IsSkinShopDiscountType(arg_33_0)
-	return arg_33_0:getConfig("usage") == ItemUsage.SKIN_SHOP_DISCOUNT
+function var_0_0.IsSkinShopDiscountType(arg_35_0)
+	return arg_35_0:getConfig("usage") == ItemUsage.SKIN_SHOP_DISCOUNT
 end
 
-function var_0_0.IsExclusiveDiscountType(arg_34_0)
-	return arg_34_0:getConfig("usage") == ItemUsage.USAGE_SHOP_DISCOUNT
+function var_0_0.IsExclusiveDiscountType(arg_36_0)
+	return arg_36_0:getConfig("usage") == ItemUsage.USAGE_SHOP_DISCOUNT
 end
 
-function var_0_0.IsSkinExperienceType(arg_35_0)
-	return arg_35_0:getConfig("usage") == ItemUsage.USAGE_SKIN_EXP
+function var_0_0.IsSkinExperienceType(arg_37_0)
+	return arg_37_0:getConfig("usage") == ItemUsage.USAGE_SKIN_EXP
 end
 
-function var_0_0.CanUseForShop(arg_36_0, arg_36_1)
-	if arg_36_0:IsSkinShopDiscountType() then
-		local var_36_0 = arg_36_0:getConfig("usage_arg")
+function var_0_0.CanUseForShop(arg_38_0, arg_38_1)
+	if arg_38_0:IsSkinShopDiscountType() then
+		local var_38_0 = arg_38_0:getConfig("usage_arg")
 
-		if not var_36_0 or type(var_36_0) ~= "table" then
+		if not var_38_0 or type(var_38_0) ~= "table" then
 			return false
 		end
 
-		local var_36_1 = var_36_0[1] or {}
+		local var_38_1 = var_38_0[1] or {}
 
-		return #var_36_1 == 1 and var_36_1[1] == 0 or table.contains(var_36_1, arg_36_1)
-	elseif arg_36_0:IsSkinExperienceType() then
-		local var_36_2 = arg_36_0:getConfig("usage_arg")
+		return #var_38_1 == 1 and var_38_1[1] == 0 or table.contains(var_38_1, arg_38_1)
+	elseif arg_38_0:IsSkinExperienceType() then
+		local var_38_2 = arg_38_0:getConfig("usage_arg")
 
-		if not var_36_2 or type(var_36_2) ~= "table" then
+		if not var_38_2 or type(var_38_2) ~= "table" then
 			return false
 		end
 
-		return (var_36_2[1] or -1) == arg_36_1
-	elseif arg_36_0:IsExclusiveDiscountType() then
-		local var_36_3 = arg_36_0:getConfig("usage_arg")[1]
+		return (var_38_2[1] or -1) == arg_38_1
+	elseif arg_38_0:IsExclusiveDiscountType() then
+		local var_38_3 = arg_38_0:getConfig("usage_arg")[1]
 
-		if not var_36_3 or type(var_36_3) ~= "table" then
+		if not var_38_3 or type(var_38_3) ~= "table" then
 			return false
 		end
 
-		return (var_36_3[1] or -1) == arg_36_1
+		return (var_38_3[1] or -1) == arg_38_1
 	end
 
 	return false
 end
 
-function var_0_0.GetConsumeForSkinShopDiscount(arg_37_0, arg_37_1)
-	if arg_37_0:IsSkinShopDiscountType() or arg_37_0:IsExclusiveDiscountType() and arg_37_0:CanUseForShop(arg_37_1) then
-		local var_37_0 = pg.item_data_statistics[arg_37_0.configId].usage_arg[2] or 0
-		local var_37_1 = Goods.Create({
-			shop_id = arg_37_1
+function var_0_0.GetConsumeForSkinShopDiscount(arg_39_0, arg_39_1)
+	if arg_39_0:IsSkinShopDiscountType() or arg_39_0:IsExclusiveDiscountType() and arg_39_0:CanUseForShop(arg_39_1) then
+		local var_39_0 = pg.item_data_statistics[arg_39_0.configId].usage_arg[2] or 0
+		local var_39_1 = Goods.Create({
+			shop_id = arg_39_1
 		}, Goods.TYPE_SKIN)
 
-		return math.max(0, var_37_1:GetPrice() - var_37_0), var_37_1:getConfig("resource_type")
+		return math.max(0, var_39_1:GetPrice() - var_39_0), var_39_1:getConfig("resource_type")
 	else
 		return 0
 	end
 end
 
-function var_0_0.getName(arg_38_0)
-	return arg_38_0.name or arg_38_0:getConfig("name")
+function var_0_0.getName(arg_40_0)
+	return arg_40_0.name or arg_40_0:getConfig("name")
 end
 
-function var_0_0.getIcon(arg_39_0)
-	return arg_39_0:getConfig("Icon")
+function var_0_0.getIcon(arg_41_0)
+	return arg_41_0:getConfig("Icon")
 end
 
 local var_0_1
 
-function var_0_0.IsLoveLetterCheckItem(arg_40_0)
+function var_0_0.IsLoveLetterCheckItem(arg_42_0)
 	if not var_0_1 then
 		var_0_1 = {}
 
-		for iter_40_0, iter_40_1 in ipairs(getGameset("loveletter_item_old_year")[2]) do
-			local var_40_0, var_40_1 = unpack(iter_40_1)
+		for iter_42_0, iter_42_1 in ipairs(getGameset("loveletter_item_old_year")[2]) do
+			local var_42_0, var_42_1 = unpack(iter_42_1)
 
-			var_0_1[var_40_0] = underscore.flatten({
-				var_40_1
+			var_0_1[var_42_0] = underscore.flatten({
+				var_42_1
 			})
 		end
 
-		for iter_40_2, iter_40_3 in ipairs(pg.loveletter_2018_2021.all) do
-			var_0_1[iter_40_3] = {
-				pg.loveletter_2018_2021[iter_40_3].year
+		for iter_42_2, iter_42_3 in ipairs(pg.loveletter_2018_2021.all) do
+			var_0_1[iter_42_3] = {
+				pg.loveletter_2018_2021[iter_42_3].year
 			}
 		end
 	end
 
-	return var_0_1[arg_40_0]
+	return var_0_1[arg_42_0]
 end
 
 return var_0_0

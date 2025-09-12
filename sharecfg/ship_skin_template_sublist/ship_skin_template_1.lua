@@ -12090,6 +12090,163 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101472] = {
+		ship_group = 10147,
+		name = "科技？忍术？",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		id = 101472,
+		l2d_drag_rate = "",
+		group_index = 2,
+		purchase_offset = "",
+		painting = "molisen_3",
+		part_scale = "",
+		prefab = "molisen_3",
+		shop_id = 71213,
+		shop_type_id = 28,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "320",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "这里的环境很适合进行忍者修行的拍摄呢……咳！接下来就要给指挥官展示忍术了……请、请看，忍术·变化术！嘿！",
+		voice_actor = 277,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			7,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			354,
+			-1050,
+			0,
+			1.16
+		},
+		spine_offset_profile = {
+			417,
+			-1066,
+			0,
+			1.17
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.697,
+					0.683,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.461,
+					0.938,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.822,
+							2.495,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-30,
+			-626,
+			0,
+			0.7
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1350,
+					-873,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					-1038,
+					172,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					175,
+					32,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
+		}
+	},
 	[101480] = {
 		ship_group = 10148,
 		name = "{namecode:525}",

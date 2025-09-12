@@ -97,4 +97,12 @@ function var_0_0.UseSecondPage(arg_17_0, arg_17_1)
 	return false
 end
 
+function var_0_0.IsShowingPopWindow(arg_18_0)
+	return false
+end
+
+function var_0_0.ClosePopWindow(arg_19_0)
+	return
+end
+
 return var_0_0

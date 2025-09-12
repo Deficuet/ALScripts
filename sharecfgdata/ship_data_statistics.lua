@@ -171859,6 +171859,642 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[301921] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "妙风",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301920,
+		english_name = "IJN Taekaze",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301921,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			348,
+			12,
+			101,
+			29,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			56,
+			47
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1215,
+			634,
+			0,
+			551,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301922] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "妙风",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301920,
+		english_name = "IJN Taekaze",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301922,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			433,
+			15,
+			126,
+			36,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			56,
+			59
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1215,
+			634,
+			0,
+			551,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.4,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301923] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "妙风",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301920,
+		english_name = "IJN Taekaze",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301923,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			602,
+			21,
+			176,
+			50,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			56,
+			82
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1215,
+			634,
+			0,
+			551,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301924] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "妙风",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301920,
+		english_name = "IJN Taekaze",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301924,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			857,
+			30,
+			252,
+			72,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			56,
+			117
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1215,
+			634,
+			0,
+			551,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.55,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301934] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白露.改",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301130,
+		english_name = "IJN Shiratsuyu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.4",
+		rarity = 3,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301934,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			680,
+			30,
+			244,
+			69,
+			0,
+			72,
+			0,
+			67,
+			71,
+			40.8,
+			41,
+			100
+		},
+		attrs_growth = {
+			7866,
+			166,
+			1176,
+			612,
+			0,
+			503,
+			0,
+			1026,
+			1301,
+			0,
+			0,
+			474
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class",
+			"Shiratsuyu_ava"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[302011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -178541,6 +179177,526 @@ end)()
 			0,
 			0,
 			293
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.65,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302271] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水无濑",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302270,
+		english_name = "IJN Minase",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302271,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			467,
+			29,
+			68,
+			55,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			39,
+			26
+		},
+		attrs_growth = {
+			12008,
+			403,
+			791,
+			1183,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			314
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302272] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水无濑",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302270,
+		english_name = "IJN Minase",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302272,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			581,
+			36,
+			85,
+			69,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			39,
+			32
+		},
+		attrs_growth = {
+			12008,
+			403,
+			791,
+			1183,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			314
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302273] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水无濑",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302270,
+		english_name = "IJN Minase",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302273,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			809,
+			51,
+			118,
+			96,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			39,
+			45
+		},
+		attrs_growth = {
+			12008,
+			403,
+			791,
+			1183,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			314
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302274] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水无濑",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302270,
+		english_name = "IJN Minase",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302274,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1151,
+			72,
+			169,
+			136,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			39,
+			64
+		},
+		attrs_growth = {
+			12008,
+			403,
+			791,
+			1183,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			314
 		},
 		attrs_growth_extra = {
 			0,
@@ -189643,6 +190799,522 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[303201] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "浅间",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303200,
+		english_name = "IJN Asama",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303201,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			843,
+			55,
+			58,
+			37,
+			0,
+			69,
+			0,
+			49,
+			10,
+			28,
+			50,
+			0
+		},
+		attrs_growth = {
+			21434,
+			736,
+			769,
+			813,
+			0,
+			478,
+			0,
+			719,
+			477,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.8,
+			0.95,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ibuki-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303202] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "浅间",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303200,
+		english_name = "IJN Asama",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303202,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1049,
+			69,
+			72,
+			46,
+			0,
+			69,
+			0,
+			49,
+			10,
+			28,
+			50,
+			0
+		},
+		attrs_growth = {
+			21434,
+			736,
+			769,
+			813,
+			0,
+			478,
+			0,
+			719,
+			477,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.8,
+			0.95,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ibuki-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303203] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "浅间",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303200,
+		english_name = "IJN Asama",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303203,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1460,
+			96,
+			101,
+			64,
+			0,
+			69,
+			0,
+			49,
+			10,
+			28,
+			50,
+			0
+		},
+		attrs_growth = {
+			21434,
+			736,
+			769,
+			813,
+			0,
+			478,
+			0,
+			719,
+			477,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			2,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.8,
+			1.05,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ibuki-Class"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303204] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "浅间",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303200,
+		english_name = "IJN Asama",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303204,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2077,
+			136,
+			144,
+			92,
+			0,
+			69,
+			0,
+			49,
+			10,
+			28,
+			50,
+			0
+		},
+		attrs_growth = {
+			21434,
+			736,
+			769,
+			813,
+			0,
+			478,
+			0,
+			719,
+			477,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			2,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.85,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ibuki-Class"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[304011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -200362,6 +202034,514 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Suruga"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[305161] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "近江",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305160,
+		english_name = "IJN Oumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305161,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1317,
+			84,
+			26,
+			70,
+			0,
+			57,
+			0,
+			24,
+			10,
+			29,
+			40,
+			0
+		},
+		attrs_growth = {
+			37507,
+			1027,
+			363,
+			1464,
+			0,
+			400,
+			0,
+			350,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kii-Class",
+			"Oumi"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[305162] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "近江",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305160,
+		english_name = "IJN Oumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305162,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1638,
+			105,
+			33,
+			87,
+			0,
+			57,
+			0,
+			24,
+			10,
+			29,
+			40,
+			0
+		},
+		attrs_growth = {
+			37507,
+			1027,
+			363,
+			1464,
+			0,
+			400,
+			0,
+			350,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kii-Class",
+			"Oumi"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[305163] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "近江",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305160,
+		english_name = "IJN Oumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305163,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2280,
+			146,
+			46,
+			122,
+			0,
+			57,
+			0,
+			24,
+			10,
+			29,
+			40,
+			0
+		},
+		attrs_growth = {
+			37507,
+			1027,
+			363,
+			1464,
+			0,
+			400,
+			0,
+			350,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kii-Class",
+			"Oumi"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[305164] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "近江",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305160,
+		english_name = "IJN Oumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305164,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3244,
+			209,
+			65,
+			173,
+			0,
+			57,
+			0,
+			24,
+			10,
+			29,
+			40,
+			0
+		},
+		attrs_growth = {
+			37507,
+			1027,
+			363,
+			1464,
+			0,
+			400,
+			0,
+			350,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kii-Class",
+			"Oumi"
 		}
 	}
 end)()
@@ -212647,6 +214827,514 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[307161] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白凤",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307160,
+		english_name = "IJN Hakuhou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 307161,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1335,
+			0,
+			0,
+			63,
+			91,
+			46,
+			0,
+			28,
+			13,
+			32,
+			36,
+			0
+		},
+		attrs_growth = {
+			35854,
+			0,
+			0,
+			1329,
+			1091,
+			322,
+			0,
+			421,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.1,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hakuhou"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307162] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白凤",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307160,
+		english_name = "IJN Hakuhou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 307162,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1661,
+			0,
+			0,
+			78,
+			114,
+			46,
+			0,
+			28,
+			13,
+			32,
+			36,
+			0
+		},
+		attrs_growth = {
+			35854,
+			0,
+			0,
+			1329,
+			1091,
+			322,
+			0,
+			421,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.1,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hakuhou"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307163] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白凤",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307160,
+		english_name = "IJN Hakuhou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 307163,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2312,
+			0,
+			0,
+			109,
+			159,
+			46,
+			0,
+			28,
+			13,
+			32,
+			36,
+			0
+		},
+		attrs_growth = {
+			35854,
+			0,
+			0,
+			1329,
+			1091,
+			322,
+			0,
+			421,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			4
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.1,
+			1.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hakuhou"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307164] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白凤",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307160,
+		english_name = "IJN Hakuhou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 307164,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3289,
+			0,
+			0,
+			155,
+			226,
+			46,
+			0,
+			28,
+			13,
+			32,
+			36,
+			0
+		},
+		attrs_growth = {
+			35854,
+			0,
+			0,
+			1329,
+			1091,
+			322,
+			0,
+			421,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			5
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.15,
+			1.55
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hakuhou"
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[308011] = {
 		raid_distance = 30,
 		oxy_max = 200,
@@ -220450,6 +223138,1062 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[317021] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 317021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			604,
+			11,
+			103,
+			0,
+			86,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[317022] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 317022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			751,
+			14,
+			129,
+			0,
+			107,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[317023] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 317023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1046,
+			19,
+			180,
+			0,
+			150,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[317024] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 317024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1488,
+			27,
+			257,
+			0,
+			214,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.35,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
 		}
 	}
 end)()
@@ -394609,6 +398353,528 @@ end)()
 			"Zhuque",
 			"Anshan-Class",
 			"Fubo's Plan"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900520] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 900520,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1488,
+			27,
+			257,
+			0,
+			214,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.35,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900521] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "云仙（后排）",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 303190,
+		english_name = "IJN Unzen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 900521,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2946,
+			179,
+			0,
+			150,
+			0,
+			57,
+			0,
+			17,
+			7,
+			33,
+			85,
+			0
+		},
+		attrs_growth = {
+			20586,
+			913,
+			0,
+			788,
+			0,
+			399,
+			0,
+			254,
+			179,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			14513,
+			21633,
+			26673
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unzen-Class",
+			"yunxianzhiyuan"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900522] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "伊404（前排）",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900522,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1488,
+			27,
+			257,
+			0,
+			214,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.35,
+			1.8,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
 		}
 	}
 end)()

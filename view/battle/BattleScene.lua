@@ -299,7 +299,7 @@ function var_0_0.SkillHrzPop(arg_10_0, arg_10_1, arg_10_2, arg_10_3, arg_10_4)
 			end
 
 			var_10_21[var_10_19] = false
-			var_10_5.position = var_10_13
+			var_10_5.position = Vector3(var_10_13.x, var_10_13.y, -2)
 
 			local var_10_22 = var_10_5.anchoredPosition
 

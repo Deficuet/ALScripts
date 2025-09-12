@@ -676,10 +676,19 @@ end
 function var_0_0.hideAttrFrame(arg_57_0)
 	SetActive(arg_57_0._attrFrame, false)
 	pg.UIMgr.GetInstance():UnblurPanel(arg_57_0._blurLayer, arg_57_0._tf)
+
+	arg_57_0._blurLayer:GetComponent(typeof(AspectRatioFitter)).enabled = false
 end
 
 function var_0_0.displayAttrFrame(arg_58_0)
 	pg.UIMgr.GetInstance():BlurPanel(arg_58_0._blurLayer, false)
+
+	local var_58_0 = arg_58_0._blurLayer:GetComponent(typeof(AspectRatioFitter))
+
+	var_58_0.enabled = true
+	var_58_0.aspectMode = AspectMode.FitInParent
+	var_58_0.aspectRatio = arg_58_0._tf:GetComponent(typeof(AspectRatioFitter)).aspectRatio
+
 	SetActive(arg_58_0._attrFrame, true)
 	arg_58_0:initAttrFrame()
 end

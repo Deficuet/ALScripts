@@ -10,7 +10,7 @@ function var_0_0.init(arg_2_0)
 	local var_2_0 = arg_2_0.contextData
 
 	arg_2_0.topItems = arg_2_0:findTF("topItems")
-	arg_2_0.equipmentView = arg_2_0:findTF("equipment_scrollview")
+	arg_2_0.equipmentView = arg_2_0:findTF("adapt/equipment_scrollview")
 	arg_2_0.blurPanel = arg_2_0:findTF("blur_panel")
 	arg_2_0.topPanel = arg_2_0:findTF("adapt/top", arg_2_0.blurPanel)
 
@@ -81,7 +81,7 @@ function var_0_0.init(arg_2_0)
 	setActive(arg_2_0:findTF("adapt/select_panel", arg_2_0.topItems), false)
 
 	arg_2_0.selectTransformPanel = arg_2_0:findTF("adapt/select_transform_panel", arg_2_0.topItems)
-	arg_2_0.listEmptyTF = arg_2_0:findTF("empty")
+	arg_2_0.listEmptyTF = arg_2_0:findTF("adapt/empty")
 
 	setActive(arg_2_0.listEmptyTF, false)
 

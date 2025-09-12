@@ -69,7 +69,7 @@ end
 
 function var_0_0.SetParentTF(arg_9_0, arg_9_1)
 	arg_9_0.parentTF = arg_9_1
-	arg_9_0.equipmentView = arg_9_0:findTF("equipment_scrollview", arg_9_0.parentTF)
+	arg_9_0.equipmentView = arg_9_0:findTF("adapt/equipment_scrollview", arg_9_0.parentTF)
 
 	setActive(arg_9_0.equipmentView, false)
 end

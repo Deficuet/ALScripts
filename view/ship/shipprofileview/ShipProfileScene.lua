@@ -62,20 +62,20 @@ function var_0_0.init(arg_6_0)
 	arg_6_0.blurPanel = arg_6_0:findTF("blur_panel")
 	arg_6_0.top = arg_6_0:findTF("blur_panel/adapt/top")
 	arg_6_0.btnBack = arg_6_0:findTF("back", arg_6_0.top)
-	arg_6_0.bottomTF = arg_6_0:findTF("bottom")
+	arg_6_0.bottomTF = arg_6_0:findTF("adapt/bottom")
 	arg_6_0.labelHeart = arg_6_0:findTF("adapt/detail_left_panel/heart/label", arg_6_0.blurPanel)
 	arg_6_0.btnLike = arg_6_0:findTF("adapt/detail_left_panel/heart/btnLike", arg_6_0.blurPanel)
 	arg_6_0.btnChangeSkin = arg_6_0:findTF("adapt/detail_left_panel/change_skin", arg_6_0.blurPanel)
 	arg_6_0.changeSkinToggle = ChangeSkinToggle.New(findTF(arg_6_0.btnChangeSkin, "toggle_ui"))
 	arg_6_0.btnLikeAct = arg_6_0.btnLike:Find("like")
 	arg_6_0.btnLikeDisact = arg_6_0.btnLike:Find("unlike")
-	arg_6_0.obtainBtn = arg_6_0:findTF("bottom/others/obtain_btn")
-	arg_6_0.evaBtn = arg_6_0:findTF("bottom/others/eva_btn")
-	arg_6_0.viewBtn = arg_6_0:findTF("bottom/others/view_btn")
-	arg_6_0.shareBtn = arg_6_0:findTF("bottom/others/share_btn")
-	arg_6_0.rotateBtn = arg_6_0:findTF("bottom/others/rotate_btn")
-	arg_6_0.cryptolaliaBtn = arg_6_0:findTF("bottom/others/cryptolalia_btn")
-	arg_6_0.equipCodeBtn = arg_6_0:findTF("bottom/others/equip_code_btn")
+	arg_6_0.obtainBtn = arg_6_0:findTF("adapt/bottom/others/obtain_btn")
+	arg_6_0.evaBtn = arg_6_0:findTF("adapt/bottom/others/eva_btn")
+	arg_6_0.viewBtn = arg_6_0:findTF("adapt/bottom/others/view_btn")
+	arg_6_0.shareBtn = arg_6_0:findTF("adapt/bottom/others/share_btn")
+	arg_6_0.rotateBtn = arg_6_0:findTF("adapt/bottom/others/rotate_btn")
+	arg_6_0.cryptolaliaBtn = arg_6_0:findTF("adapt/bottom/others/cryptolalia_btn")
+	arg_6_0.equipCodeBtn = arg_6_0:findTF("adapt/bottom/others/equip_code_btn")
 	arg_6_0.leftProfile = arg_6_0:findTF("adapt/profile_left_panel", arg_6_0.blurPanel)
 	arg_6_0.modelContainer = arg_6_0:findTF("model", arg_6_0.leftProfile)
 	arg_6_0.live2DBtn = ShipProfileLive2dBtn.New(arg_6_0:findTF("L2D_btn", arg_6_0.blurPanel))
@@ -92,11 +92,11 @@ function var_0_0.init(arg_6_0)
 
 	arg_6_0.spinePaintingToggle = arg_6_0.spinePaintingBtn:Find("toggle")
 	arg_6_0.cvLoader = ShipProfileCVLoader.New()
-	arg_6_0.pageTFs = arg_6_0:findTF("pages")
+	arg_6_0.pageTFs = arg_6_0:findTF("adapt/pages")
 	arg_6_0.paintingView = ShipProfilePaintingView.New(arg_6_0._tf, arg_6_0.painting)
 	arg_6_0.toggles = {
-		arg_6_0:findTF("bottom/detail"),
-		arg_6_0:findTF("bottom/profile")
+		arg_6_0:findTF("adapt/bottom/detail"),
+		arg_6_0:findTF("adapt/bottom/profile")
 	}
 
 	local var_6_0 = ShipProfileInformationPage.New(arg_6_0.pageTFs, arg_6_0.event)
@@ -494,6 +494,7 @@ function var_0_0.ShiftSkin(arg_43_0, arg_43_1)
 	arg_43_0:LoadModel(arg_43_1)
 	arg_43_0:SetPainting(arg_43_1.id, false)
 	arg_43_0.live2DBtn:Disable()
+	arg_43_0:clearLive2dPainting()
 	arg_43_0.live2DBtn:Update(arg_43_0.paintingName, false)
 
 	local var_43_0
@@ -573,6 +574,8 @@ function var_0_0.CreateLive2D(arg_49_0)
 
 	if arg_49_0.l2dChar then
 		arg_49_0.l2dChar:Dispose()
+
+		arg_49_0.l2dChar = nil
 	end
 
 	local var_49_0 = arg_49_0.shipGroup:getShipConfigId()
@@ -950,75 +953,90 @@ function var_0_0.CreateSpinePainting(arg_79_0)
 	arg_79_0:DisplaySpinePainting(true)
 end
 
-function var_0_0.DestroySpinePainting(arg_81_0)
-	if arg_81_0.spinePainting then
-		arg_81_0.spinePainting:Dispose()
+function var_0_0.clearLive2dPainting(arg_81_0)
+	if arg_81_0.l2dChar then
+		arg_81_0.l2dChar:Dispose()
 
-		arg_81_0.spinePainting = nil
+		arg_81_0.l2dChar = nil
+		arg_81_0.l2dActioning = false
+		arg_81_0.cvLoader.prevCvPath = nil
+
+		arg_81_0:StopDailogue()
+		arg_81_0.cvLoader:StopSound()
 	end
-
-	arg_81_0.preSkinId = nil
 end
 
-function var_0_0.onWeddingReview(arg_82_0, arg_82_1)
-	if not arg_82_1 and arg_82_0.exitLoadL2d then
-		arg_82_0.exitLoadL2d = false
+function var_0_0.DestroySpinePainting(arg_82_0)
+	if arg_82_0.spinePainting then
+		arg_82_0.spinePainting:Dispose()
 
-		arg_82_0.live2DBtn:Update(arg_82_0.paintingName, true)
+		arg_82_0.spinePainting = nil
+	end
+
+	arg_82_0.preSkinId = nil
+end
+
+function var_0_0.onWeddingReview(arg_83_0, arg_83_1)
+	if not arg_83_1 and arg_83_0.exitLoadL2d then
+		arg_83_0.exitLoadL2d = false
+
+		arg_83_0.live2DBtn:Update(arg_83_0.paintingName, true)
 	else
-		arg_82_0.live2DBtn:Update(arg_82_0.paintingName, false)
+		arg_83_0.live2DBtn:Update(arg_83_0.paintingName, false)
 	end
 
-	arg_82_0.live2DBtn:SetEnable(not arg_82_1)
+	arg_83_0.live2DBtn:SetEnable(not arg_83_1)
 
-	if arg_82_0.l2dChar and arg_82_1 then
-		arg_82_0.l2dChar:Dispose()
+	if arg_83_0.l2dChar and arg_83_1 then
+		arg_83_0.l2dChar:Dispose()
 
-		arg_82_0.l2dChar = nil
-		arg_82_0.l2dActioning = false
-		arg_82_0.cvLoader.prevCvPath = nil
+		arg_83_0.l2dChar = nil
+		arg_83_0.l2dActioning = false
+		arg_83_0.cvLoader.prevCvPath = nil
 
-		arg_82_0:StopDailogue()
-		arg_82_0.cvLoader:StopSound()
+		arg_83_0:StopDailogue()
+		arg_83_0.cvLoader:StopSound()
 
-		arg_82_0.exitLoadL2d = true
+		arg_83_0.exitLoadL2d = true
 	end
 
-	if arg_82_0.spinePaintingRoot.childCount > 0 then
-		setActive(arg_82_0.commonPainting, not arg_82_0.spinePaintingisOn)
+	if arg_83_0.spinePaintingRoot.childCount > 0 then
+		setActive(arg_83_0.commonPainting, not arg_83_0.spinePaintingisOn)
 	end
 end
 
-function var_0_0.DisplaySpinePainting(arg_83_0, arg_83_1)
-	setActive(arg_83_0.spinePaintingRoot, arg_83_1)
-	setActive(arg_83_0.spinePaintingBgRoot, arg_83_1)
+function var_0_0.DisplaySpinePainting(arg_84_0, arg_84_1)
+	setActive(arg_84_0.spinePaintingRoot, arg_84_1)
+	setActive(arg_84_0.spinePaintingBgRoot, arg_84_1)
 end
 
-function var_0_0.willExit(arg_84_0)
+function var_0_0.willExit(arg_85_0)
 	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
-	SetParent(arg_84_0.bottomTF, arg_84_0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_84_0.blurPanel, arg_84_0._tf)
+	SetParent(arg_85_0.bottomTF, arg_85_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_85_0.blurPanel, arg_85_0._tf)
 
-	for iter_84_0, iter_84_1 in ipairs(arg_84_0.pages) do
-		iter_84_1:Destroy()
+	for iter_85_0, iter_85_1 in ipairs(arg_85_0.pages) do
+		iter_85_1:Destroy()
 	end
 
-	if arg_84_0.l2dChar then
-		arg_84_0.l2dChar:Dispose()
+	if arg_85_0.l2dChar then
+		arg_85_0.l2dChar:Dispose()
+
+		arg_85_0.l2dChar = nil
 	end
 
-	arg_84_0:DestroySpinePainting()
-	arg_84_0.paintingView:Dispose()
-	arg_84_0.live2DBtn:Dispose()
-	arg_84_0.cvLoader:Dispose()
-	arg_84_0:ReturnModel()
-	arg_84_0:RecyclePainting()
-	_.each(arg_84_0.skinBtns or {}, function(arg_85_0)
-		arg_85_0:Dispose()
+	arg_85_0:DestroySpinePainting()
+	arg_85_0.paintingView:Dispose()
+	arg_85_0.live2DBtn:Dispose()
+	arg_85_0.cvLoader:Dispose()
+	arg_85_0:ReturnModel()
+	arg_85_0:RecyclePainting()
+	_.each(arg_85_0.skinBtns or {}, function(arg_86_0)
+		arg_86_0:Dispose()
 	end)
-	arg_84_0:RemoveCvTimer()
-	arg_84_0:RemoveCvSeTimer()
-	arg_84_0:RemoveLive2DTimer()
+	arg_85_0:RemoveCvTimer()
+	arg_85_0:RemoveCvSeTimer()
+	arg_85_0:RemoveLive2DTimer()
 end
 
 return var_0_0

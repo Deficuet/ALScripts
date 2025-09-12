@@ -8,21 +8,21 @@ function var_0_0.OnInit(arg_2_0)
 	local var_2_0 = arg_2_0._tf:Find("operate")
 
 	arg_2_0.ulist = UIItemList.New(var_2_0:Find("got/bottom/list"), var_2_0:Find("got/bottom/list/tpl"))
-	arg_2_0.confirmBtn = var_2_0:Find("action/confirm")
+	arg_2_0.confirmBtn = var_2_0:Find("actions/confirm")
 
-	setText(arg_2_0.confirmBtn, i18n("text_confirm"))
+	setText(arg_2_0.confirmBtn:Find("Image"), i18n("text_confirm"))
 
-	arg_2_0.cancelBtn = var_2_0:Find("action/cancel")
+	arg_2_0.cancelBtn = var_2_0:Find("actions/cancel")
 
-	setText(arg_2_0.cancelBtn, i18n("text_cancel"))
+	setText(arg_2_0.cancelBtn:Find("Image"), i18n("text_cancel"))
 
 	arg_2_0.rightArr = var_2_0:Find("calc/value_bg/add")
 	arg_2_0.leftArr = var_2_0:Find("calc/value_bg/mius")
 	arg_2_0.maxBtn = var_2_0:Find("calc/max")
 	arg_2_0.valueText = var_2_0:Find("calc/value_bg/Text")
-	arg_2_0.itemTF = var_2_0:Find("item/left/IconTpl")
-	arg_2_0.nameTF = arg_2_0:findTF("item/display_panel/name_container/name")
-	arg_2_0.descTF = arg_2_0:findTF("item/display_panel/desc/Text")
+	arg_2_0.itemTF = var_2_0:Find("item")
+	arg_2_0.nameTF = var_2_0:Find("item/display_panel/name_container/name/Text")
+	arg_2_0.descTF = var_2_0:Find("item/display_panel/desc/Text")
 
 	onButton(arg_2_0, arg_2_0._tf:Find("bg"), function()
 		arg_2_0:Hide()
@@ -88,7 +88,7 @@ function var_0_0.updateValue(arg_11_0)
 			return
 		end
 
-		setText(arg_12_1:Find("item/bg/icon_bg/count"), arg_11_0.count)
+		setText(arg_12_1:Find("item/icon_bg/count"), arg_11_0.count)
 	end)
 end
 
@@ -109,9 +109,9 @@ function var_0_0.update(arg_13_0, arg_13_1)
 		arg_15_1 = arg_15_1 + 1
 
 		if arg_15_0 == UIItemList.EventUpdate then
-			updateDrop(arg_15_2:Find("item/bg"), arg_13_0.displayDrops[arg_15_1])
+			updateDrop(arg_15_2:Find("item"), arg_13_0.displayDrops[arg_15_1])
 
-			local var_15_0 = arg_15_2:Find("item/bg/icon_bg/count")
+			local var_15_0 = arg_15_2:Find("item/icon_bg/count")
 
 			onToggle(arg_13_0, arg_15_2, function(arg_16_0)
 				if arg_16_0 then
@@ -131,11 +131,11 @@ function var_0_0.update(arg_13_0, arg_13_1)
 	triggerToggle(arg_13_0.selectedItem, true)
 	arg_13_0:updateValue()
 
-	local var_13_0 = {
+	local var_13_0 = Drop.New({
 		type = arg_13_1.type,
 		id = arg_13_1.id,
 		count = arg_13_1.count
-	}
+	})
 
 	updateDrop(arg_13_0.itemTF:Find("left/IconTpl"), setmetatable({
 		count = 0

@@ -72,13 +72,14 @@ function var_0_0.updateToggleUI(arg_5_0)
 		setActive(var_5_2, true)
 
 		local var_5_3 = pg.ship_skin_template[arg_5_0._skinId].tag
+		local var_5_4 = pg.ship_skin_template[arg_5_0._nextSkinId].tag
 
 		if iter_5_0 == arg_5_0._toggleIndex then
 			setActive(findTF(var_5_2, "l2d"), table.contains(var_5_3, ShipSkin.WITH_LIVE2D) or table.contains(var_5_3, ShipSkin.WITH_LIVE2D_PLUS))
 			setActive(findTF(var_5_2, "spine"), table.contains(var_5_3, ShipSkin.WITH_SPINE) or table.contains(var_5_3, ShipSkin.WITH_SPINE_PLUS))
 		else
-			setActive(findTF(var_5_1, "tag/l2d"), table.contains(var_5_3, ShipSkin.WITH_LIVE2D) or table.contains(var_5_3, ShipSkin.WITH_LIVE2D_PLUS))
-			setActive(findTF(var_5_1, "tag/spine"), table.contains(var_5_3, ShipSkin.WITH_SPINE) or table.contains(var_5_3, ShipSkin.WITH_SPINE_PLUS))
+			setActive(findTF(var_5_1, "tag/l2d"), table.contains(var_5_4, ShipSkin.WITH_LIVE2D) or table.contains(var_5_4, ShipSkin.WITH_LIVE2D_PLUS))
+			setActive(findTF(var_5_1, "tag/spine"), table.contains(var_5_4, ShipSkin.WITH_SPINE) or table.contains(var_5_4, ShipSkin.WITH_SPINE_PLUS))
 		end
 	end
 end

@@ -110,6 +110,7 @@ function var_0_0.Refresh(arg_10_0)
 	arg_10_0:RefreshCharaPage()
 	arg_10_0:RefreshBuffPage()
 	triggerToggle(arg_10_0._tf:Find("panel/switch/" .. arg_10_0.page), true)
+	setActive(arg_10_0.charaTg:Find("tip"), var_0_0.ShouldShowTip())
 end
 
 function var_0_0.RefreshBuildingPage(arg_11_0)
@@ -444,13 +445,14 @@ function var_0_0.RefreshBuffPage(arg_29_0)
 			local var_31_2 = pg.activity_ninja_buff[var_31_1[1]]
 			local var_31_3 = pg.activity_ninja_buff[var_31_1[var_31_0.level + 1]]
 			local var_31_4 = var_29_2[arg_31_1 + 1]
+			local var_31_5 = pg.activity_ninja_city[5].buff[arg_31_1 + 1]
 
 			GetImageSpriteFromAtlasAsync(var_31_0.icon, "", arg_31_2:Find("icon"))
 			setText(arg_31_2:Find("name"), i18n(var_31_2.name))
 			setText(arg_31_2:Find("level"), "LV." .. var_31_0.level)
 
-			local var_31_5 = 0
-			local var_31_6 = switch(var_31_0.group, {
+			local var_31_6 = 0
+			local var_31_7 = switch(var_31_0.group, {
 				function()
 					return arg_29_0:GetParam(5)^(var_29_1[1] - 1)
 				end,
@@ -483,31 +485,35 @@ function var_0_0.RefreshBuffPage(arg_29_0)
 				end
 			})
 
-			setText(arg_31_2:Find("desc"), i18n("ninja_buff_effect" .. var_31_0.group, string.format("%.2f", var_31_6)))
+			setText(arg_31_2:Find("desc"), i18n("ninja_buff_effect" .. var_31_0.group, string.format("%.2f", var_31_7)))
 
-			local var_31_7 = var_31_4 > var_31_0.level and var_31_3
+			local var_31_8 = var_31_4 > var_31_0.level and var_31_3
 
-			setActive(arg_31_2:Find("nextLevelPt"), var_31_7)
-			setActive(arg_31_2:Find("upgradeBtn"), var_31_7)
-			setActive(arg_31_2:Find("upgradeTenBtn"), var_31_7)
-			setActive(arg_31_2:Find("levelMax"), not var_31_7)
+			setActive(arg_31_2:Find("nextLevelPt"), var_31_8)
+			setActive(arg_31_2:Find("upgradeBtn"), var_31_8)
+			setActive(arg_31_2:Find("upgradeTenBtn"), var_31_8)
+			setActive(arg_31_2:Find("levelMax"), not var_31_8)
 
-			if var_31_7 then
-				local var_31_8 = math.ceil(var_31_3.basic_cost * var_31_3.cost^(var_31_3.level - 1) * (1 - arg_29_0:GetParam(7) * var_29_1[6]))
+			if var_31_0.level == var_31_5 then
+				setActive(arg_31_2:Find("levelMax"), false)
+			end
 
-				setText(arg_31_2:Find("nextLevelPt/Text"), var_31_8)
+			if var_31_8 then
+				local var_31_9 = math.ceil(var_31_3.basic_cost * var_31_3.cost^(var_31_3.level - 1) * (1 - arg_29_0:GetParam(7) * var_29_1[6]))
+
+				setText(arg_31_2:Find("nextLevelPt/Text"), var_31_9)
 				onButton(arg_29_0, arg_31_2:Find("upgradeBtn"), function()
-					if arg_29_0.cityRebuildData.pt < var_31_8 then
+					if arg_29_0.cityRebuildData.pt < var_31_9 then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("ninja_game_update_failed"))
 
 						return
 					end
 
-					arg_29_0:emit(CityRebuildBookMediator.UPGRADE_BUFF, arg_29_0.activityId, arg_31_1 + 1, 1, var_31_8)
+					arg_29_0:emit(CityRebuildBookMediator.UPGRADE_BUFF, arg_29_0.activityId, arg_31_1 + 1, 1, var_31_9)
 				end, SFX_PANEL)
 				onButton(arg_29_0, arg_31_2:Find("upgradeTenBtn"), function()
 					local var_43_0 = 1
-					local var_43_1 = var_31_8
+					local var_43_1 = var_31_9
 
 					for iter_43_0 = 2, 10 do
 						local var_43_2 = pg.activity_ninja_buff[var_31_1[var_31_0.level + iter_43_0]]
@@ -624,6 +630,20 @@ function var_0_0.willExit(arg_51_0)
 	arg_51_0:RemoveTimer()
 	arg_51_0:RemoveAllTimers()
 	pg.UIMgr.GetInstance():UnblurPanel(arg_51_0._tf)
+end
+
+function var_0_0.ShouldShowTip()
+	local var_52_0 = getProxy(CityRebuildProxy):GetData(ActivityConst.NINJA_CITY_ACT_ID)
+
+	for iter_52_0, iter_52_1 in pairs(var_52_0.recruiting) do
+		local var_52_1 = pg.activity_ninja_building[iter_52_0]
+
+		if pg.TimeMgr.GetInstance():GetServerTime() - iter_52_1 >= var_52_1.time then
+			return true
+		end
+	end
+
+	return false
 end
 
 return var_0_0

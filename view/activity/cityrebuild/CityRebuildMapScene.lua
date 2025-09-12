@@ -20,6 +20,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.buildingList = UIItemList.New(arg_2_0._tf:Find("buildings"), arg_2_0._tf:Find("buildings/building"))
 	arg_2_0.storyList = UIItemList.New(arg_2_0._tf:Find("stories"), arg_2_0._tf:Find("stories/story"))
 
+	setText(arg_2_0.ui:Find("right/tip"), i18n("ninja_game_booktip"))
 	setText(arg_2_0.ui:Find("left/cityLevel/title"), i18n("ninja_game_citylevel"))
 	setText(arg_2_0.ui:Find("left/battleLevel/title"), i18n("ninja_game_wave"))
 end
@@ -80,6 +81,10 @@ function var_0_0.Refresh(arg_12_0)
 	}
 
 	updateDrop(arg_12_0.award:Find("IconTpl"), var_12_2)
+
+	local var_12_3 = var_12_0:isFinish()
+
+	setActive(arg_12_0.award:Find("got"), var_12_3)
 	onButton(arg_12_0, arg_12_0.award, function()
 		arg_12_0:emit(BaseUI.ON_DROP, var_12_2)
 	end, SFX_PANEL)
@@ -88,10 +93,13 @@ function var_0_0.Refresh(arg_12_0)
 	arg_12_0:SetStoryList()
 
 	for iter_12_0 = 2, 5 do
-		local var_12_3 = arg_12_0._tf:Find("bg/" .. iter_12_0)
+		local var_12_4 = arg_12_0._tf:Find("bg/" .. iter_12_0)
 
-		setActive(var_12_3, iter_12_0 > arg_12_0.cityRebuildData.cityLevel)
+		setActive(var_12_4, iter_12_0 > arg_12_0.cityRebuildData.cityLevel)
 	end
+
+	setActive(arg_12_0.bookBtn:Find("tip"), CityRebuildBookLayer.ShouldShowTip())
+	setActive(arg_12_0.taskBtn:Find("tip"), CityRebuildTasksLayer.ShouldShowTip())
 end
 
 function var_0_0.SetCharaList(arg_14_0)

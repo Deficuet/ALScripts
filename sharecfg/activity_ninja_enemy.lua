@@ -1806,7 +1806,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zhongxun",
 		first_drop = 907230,
 		id = 81,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -1827,7 +1827,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_shixianggui",
 		first_drop = 907231,
 		id = 82,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -1848,7 +1848,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_quzhu",
 		first_drop = 907232,
 		id = 83,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -1869,7 +1869,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zibao",
 		first_drop = 907233,
 		id = 84,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -1890,7 +1890,7 @@ pg.activity_ninja_enemy = {
 		model = "shuiwulai_2",
 		first_drop = 907234,
 		id = 85,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -1911,7 +1911,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_ruanniguai",
 		first_drop = 907235,
 		id = 86,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -1932,7 +1932,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu02",
 		first_drop = 907236,
 		id = 87,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -1953,7 +1953,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_guowang",
 		first_drop = 907237,
 		id = 88,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -1974,7 +1974,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zibao",
 		first_drop = 907238,
 		id = 89,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -1995,7 +1995,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu06",
 		first_drop = 907239,
 		id = 90,
-		basic = 300,
+		basic = 600,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2016,7 +2016,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zhongxun",
 		first_drop = 907240,
 		id = 91,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2037,7 +2037,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu01",
 		first_drop = 907241,
 		id = 92,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2058,7 +2058,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_emo",
 		first_drop = 907242,
 		id = 93,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2079,7 +2079,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu05",
 		first_drop = 907243,
 		id = 94,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2100,7 +2100,7 @@ pg.activity_ninja_enemy = {
 		model = "molisen_3",
 		first_drop = 907244,
 		id = 95,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2121,7 +2121,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu02",
 		first_drop = 907245,
 		id = 96,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2142,7 +2142,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_hangmu",
 		first_drop = 907246,
 		id = 97,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2163,7 +2163,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu01",
 		first_drop = 907247,
 		id = 98,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2184,7 +2184,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zhongxun",
 		first_drop = 907248,
 		id = 99,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2205,7 +2205,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu03",
 		first_drop = 907249,
 		id = 100,
-		basic = 300,
+		basic = 900,
 		scale = "1.4",
 		first_drop_show = {
 			{
@@ -2226,7 +2226,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zhongxun",
 		first_drop = 0,
 		id = 101,
-		basic = 300,
+		basic = 1500,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2236,7 +2236,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zibao",
 		first_drop = 0,
 		id = 102,
-		basic = 300,
+		basic = 2000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2246,7 +2246,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zhongxun",
 		first_drop = 0,
 		id = 103,
-		basic = 300,
+		basic = 2500,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2256,7 +2256,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zhanlie",
 		first_drop = 0,
 		id = 104,
-		basic = 300,
+		basic = 3000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2266,7 +2266,7 @@ pg.activity_ninja_enemy = {
 		model = "baifeng_2",
 		first_drop = 0,
 		id = 105,
-		basic = 300,
+		basic = 3500,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2276,7 +2276,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu05",
 		first_drop = 0,
 		id = 106,
-		basic = 300,
+		basic = 4000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2286,7 +2286,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_shixianggui",
 		first_drop = 0,
 		id = 107,
-		basic = 300,
+		basic = 4500,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2296,7 +2296,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zhongxun",
 		first_drop = 0,
 		id = 108,
-		basic = 300,
+		basic = 5000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2306,7 +2306,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_guowang",
 		first_drop = 0,
 		id = 109,
-		basic = 300,
+		basic = 5500,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2316,7 +2316,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu06",
 		first_drop = 0,
 		id = 110,
-		basic = 300,
+		basic = 6000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2326,7 +2326,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu01",
 		first_drop = 0,
 		id = 111,
-		basic = 300,
+		basic = 7000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2336,7 +2336,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_qingxun",
 		first_drop = 0,
 		id = 112,
-		basic = 300,
+		basic = 8000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2346,7 +2346,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu05",
 		first_drop = 0,
 		id = 113,
-		basic = 300,
+		basic = 9000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2356,7 +2356,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu05",
 		first_drop = 0,
 		id = 114,
-		basic = 300,
+		basic = 10000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2366,7 +2366,7 @@ pg.activity_ninja_enemy = {
 		model = "miaofeng_2",
 		first_drop = 0,
 		id = 115,
-		basic = 300,
+		basic = 11000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2376,7 +2376,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zibao",
 		first_drop = 0,
 		id = 116,
-		basic = 300,
+		basic = 14000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2386,7 +2386,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_qingxun",
 		first_drop = 0,
 		id = 117,
-		basic = 300,
+		basic = 17000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2396,7 +2396,7 @@ pg.activity_ninja_enemy = {
 		model = "jiulaimu_zhongxun",
 		first_drop = 0,
 		id = 118,
-		basic = 300,
+		basic = 20000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2406,7 +2406,7 @@ pg.activity_ninja_enemy = {
 		model = "fengfan_haigu02",
 		first_drop = 0,
 		id = 119,
-		basic = 300,
+		basic = 23000,
 		scale = "1.4",
 		first_drop_show = {}
 	},
@@ -2416,7 +2416,7 @@ pg.activity_ninja_enemy = {
 		model = "miaofeng_2",
 		first_drop = 0,
 		id = 120,
-		basic = 300,
+		basic = 26000,
 		scale = "1.4",
 		first_drop_show = {}
 	},

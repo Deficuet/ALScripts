@@ -134,12 +134,13 @@ function var_0_0.SetSpine(arg_17_0)
 	arg_17_0.aliveEnemy = 1
 
 	PoolMgr.GetInstance():GetSpineChar(var_17_0, true, function(arg_18_0)
-		if var_17_0 ~= arg_17_0.prefab then
+		if var_17_0 ~= arg_17_0.prefab or var_17_0 == arg_17_0.loadedPrefab then
 			PoolMgr.GetInstance():ReturnSpineChar(var_17_0, arg_18_0)
 
 			return
 		end
 
+		arg_17_0.loadedPrefab = var_17_0
 		arg_17_0.model = arg_18_0
 		arg_17_0.model.transform.localScale = Vector3.one
 		arg_17_0.model.transform.localPosition = Vector3.zero
@@ -152,12 +153,13 @@ function var_0_0.SetSpine(arg_17_0)
 		arg_17_0:WalkSpine(arg_17_0.model, arg_17_0.anim, arg_17_0._ship)
 	end)
 	PoolMgr.GetInstance():GetSpineChar(var_17_0, true, function(arg_19_0)
-		if var_17_0 ~= arg_17_0.prefab then
+		if var_17_0 ~= arg_17_0.prefab or var_17_0 == arg_17_0.loadedPrefab2 then
 			PoolMgr.GetInstance():ReturnSpineChar(var_17_0, arg_19_0)
 
 			return
 		end
 
+		arg_17_0.loadedPrefab2 = var_17_0
 		arg_17_0.model2 = arg_19_0
 		arg_17_0.model2.transform.localScale = Vector3.one
 		arg_17_0.model2.transform.localPosition = Vector3.zero
@@ -207,10 +209,14 @@ end
 function var_0_0.ClearSpine(arg_24_0)
 	if not IsNil(arg_24_0.model) then
 		PoolMgr.GetInstance():ReturnSpineChar(arg_24_0.prefab, arg_24_0.model)
+
+		arg_24_0.loadedPrefab = nil
 	end
 
 	if not IsNil(arg_24_0.model2) then
 		PoolMgr.GetInstance():ReturnSpineChar(arg_24_0.prefab, arg_24_0.model2)
+
+		arg_24_0.loadedPrefab2 = nil
 	end
 end
 
@@ -364,7 +370,7 @@ function var_0_0.SetSummaryPanelAndHp(arg_28_0)
 
 		if arg_28_0.effectWaitingTime == 0 then
 			arg_28_0.isPlayingEffect = true
-			arg_28_0.effectWaitingTime = math.random(5)
+			arg_28_0.effectWaitingTime = math.random(3)
 
 			for iter_29_0, iter_29_1 in ipairs(var_28_20) do
 				setActive(iter_29_1, true)

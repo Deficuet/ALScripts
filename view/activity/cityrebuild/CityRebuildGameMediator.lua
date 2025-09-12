@@ -64,6 +64,12 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 			local var_8_2 = var_8_1.awards
 			local var_8_3 = var_8_1.pt.k + var_8_1.pt.m * 1000000 + var_8_1.pt.b * 1000000000
 
+			if #var_8_2 == 0 and var_8_3 == 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("ninja_game_cant_pickup"))
+
+				return
+			end
+
 			local function var_8_4()
 				if var_8_3 > 0 then
 					table.insert(var_8_2, {

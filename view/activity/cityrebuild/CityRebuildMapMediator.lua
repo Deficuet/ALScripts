@@ -46,7 +46,8 @@ end
 function var_0_0.listNotificationInterests(arg_7_0)
 	return {
 		GAME.CITY_REBUILD_DONE,
-		GAME.STORY_UPDATE_DONE
+		GAME.STORY_UPDATE_DONE,
+		GAME.SUBMIT_TASK_AWARD_DOWN
 	}
 end
 
@@ -58,7 +59,7 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 		if var_8_1.operation == CityRebuildProxy.GET_DATA or var_8_1.operation == CityRebuildProxy.REBUILD_OR_START_RECRUIT or var_8_1.operation == CityRebuildProxy.END_RECRUIT or var_8_1.operation == CityRebuildProxy.CHOOSE_LEVEL or var_8_1.operation == CityRebuildProxy.INIT_TIME then
 			arg_8_0.viewComponent:Refresh()
 		end
-	elseif var_8_0 == GAME.STORY_UPDATE_DONE then
+	elseif var_8_0 == GAME.STORY_UPDATE_DONE or var_8_0 == GAME.SUBMIT_TASK_AWARD_DOWN then
 		arg_8_0.viewComponent:Refresh()
 	end
 end

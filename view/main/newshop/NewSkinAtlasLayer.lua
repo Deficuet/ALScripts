@@ -79,6 +79,15 @@ end
 function var_0_0.InitData(arg_8_0)
 	arg_8_0.skins = getProxy(ShipSkinProxy):GetOwnSkins()
 
+	for iter_8_0 = #arg_8_0.skins, 1, -1 do
+		local var_8_0 = arg_8_0.skins[iter_8_0]
+		local var_8_1 = ShipSkin.GetChangeSkinIndex(var_8_0.id)
+
+		if var_8_1 and var_8_1 ~= 1 then
+			table.remove(arg_8_0.skins, iter_8_0)
+		end
+	end
+
 	arg_8_0:GetSkinClassify()
 
 	arg_8_0.filterValues = {

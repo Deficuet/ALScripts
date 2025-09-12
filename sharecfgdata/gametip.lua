@@ -9717,6 +9717,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ninja_game_cant_pickup = {
+		tip = "暂无可拾取的奖励"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battle_resourceSiteMediator_noSite = {
 		tip = "资源点不存在"
 	}
@@ -11343,6 +11349,12 @@ end)()
 (function()
 	_G.pg.base.gametip["2023spring_minigame_bless_substitute"] = {
 		tip = "替身|遇袭的瞬间用冰块阻挡并闪现到远处(每场游戏仅能触发一次)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ninja_game_booktip = {
+		tip = "*在「城主手册」中招募援军、修复建筑可推进城市修复阶段。"
 	}
 end)()
 

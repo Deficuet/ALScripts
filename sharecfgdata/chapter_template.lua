@@ -337959,7 +337959,7 @@ end)()
 (function()
 	_G.pg.base.chapter_template[1960004] = {
 		special_operation_list = "",
-		name = "梦魇残片·其一",
+		name = "再临长岛",
 		count = 0,
 		pop_pic = "",
 		act_id = 50115,
@@ -337972,7 +337972,7 @@ end)()
 		oil = 10,
 		chapter_fx = "",
 		ItemTransformPattern = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		icon_outline = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -338002,7 +338002,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 275,
 		investigation_ratio = 0,
-		profiles = "此片段的真实尚隐藏在黑暗之中——",
+		profiles = "虚幻之中，亦有真实。如果这里是尚未沦陷的长岛防线，那么……",
 		star_require_3 = 3,
 		difficulty = 5,
 		num_2 = 10,
@@ -338642,14 +338642,14 @@ end)()
 			{
 				7,
 				8,
-				"baifeng_2_1x1_2",
+				"guandao_2_1x1_3",
 				-5,
 				3
 			},
 			{
 				6,
 				5,
-				"baifeng_2_1x2_2",
+				"guandao_2_1x2_2",
 				0,
 				-45
 			},
@@ -338677,16 +338677,16 @@ end)()
 			{
 				2,
 				0,
-				"baifeng_2_2x2_2",
+				"guandao_2_2x2_2",
 				45,
 				-13
 			},
 			{
 				0,
 				7,
-				"baifeng_2_1x1_3",
-				-2,
-				10
+				"guandao_2_1x1_2",
+				0,
+				0
 			},
 			{
 				0,
@@ -338758,7 +338758,7 @@ end)()
 (function()
 	_G.pg.base.chapter_template[1960005] = {
 		special_operation_list = "",
-		name = "梦魇残片·其二",
+		name = "战前准备",
 		count = 0,
 		pop_pic = "",
 		act_id = 50115,
@@ -338771,7 +338771,7 @@ end)()
 		oil = 10,
 		chapter_fx = "",
 		ItemTransformPattern = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		icon_outline = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -338801,7 +338801,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 350,
 		investigation_ratio = 0,
-		profiles = "此片段的真实尚隐藏在黑暗之中——",
+		profiles = "大批敌人正在逼近，在NY港中，用有限的资源争取尽可能多的时间吧……",
 		star_require_3 = 3,
 		difficulty = 6,
 		num_2 = 10,
@@ -339448,7 +339448,7 @@ end)()
 			{
 				6,
 				4,
-				"baifeng_2_1x2_2",
+				"guandao_2_1x2_1",
 				0,
 				-41
 			},
@@ -339462,9 +339462,9 @@ end)()
 			{
 				2,
 				8,
-				"baifeng_2_2x2_1",
+				"guandao_2_2x2_1",
 				54,
-				-41
+				-30
 			},
 			{
 				2,
@@ -339476,7 +339476,7 @@ end)()
 			{
 				1,
 				1,
-				"baifeng_2_1x1_1",
+				"guandao_2_1x1_2",
 				-6,
 				0
 			},
@@ -339490,7 +339490,7 @@ end)()
 			{
 				0,
 				3,
-				"baifeng_2_1x1_3",
+				"guandao_2_1x1_1",
 				0,
 				8
 			},
@@ -339564,7 +339564,7 @@ end)()
 (function()
 	_G.pg.base.chapter_template[1960006] = {
 		special_operation_list = "",
-		name = "梦魇残片·其三",
+		name = "黑色高墙",
 		count = 0,
 		pop_pic = "",
 		act_id = 50115,
@@ -339577,7 +339577,7 @@ end)()
 		oil = 10,
 		chapter_fx = "",
 		ItemTransformPattern = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		icon_outline = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -339607,7 +339607,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 430,
 		investigation_ratio = 0,
-		profiles = "此片段的真实尚隐藏在黑暗之中——",
+		profiles = "梦魇重组了攻势，一堵连接了云层与海面的黑色高墙从天际缓缓浮现了……",
 		star_require_3 = 3,
 		difficulty = 7,
 		num_2 = 11,
@@ -340375,9 +340375,9 @@ end)()
 			{
 				7,
 				5,
-				"baifeng_2_3x1_1",
+				"guandao_2_3x1_1",
 				110,
-				0
+				12
 			},
 			{
 				7,
@@ -340410,14 +340410,14 @@ end)()
 			{
 				5,
 				6,
-				"baifeng_2_1x1_1",
+				"guandao_2_1x1_2",
 				0,
 				0
 			},
 			{
 				3,
 				6,
-				"baifeng_2_1x1_1",
+				"guandao_2_1x1_3",
 				0,
 				0
 			},
@@ -340445,7 +340445,7 @@ end)()
 			{
 				1,
 				5,
-				"baifeng_2_3x1_1",
+				"guandao_2_3x1_2",
 				110,
 				0
 			},
@@ -342942,7 +342942,7 @@ end)()
 (function()
 	_G.pg.base.chapter_template[1960024] = {
 		special_operation_list = "",
-		name = "梦魇残片·其一",
+		name = "再临长岛",
 		count = 0,
 		pop_pic = "",
 		act_id = 50115,
@@ -342955,7 +342955,7 @@ end)()
 		oil = 10,
 		chapter_fx = "",
 		ItemTransformPattern = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		icon_outline = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -342985,7 +342985,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 1105,
 		investigation_ratio = 0,
-		profiles = "此片段的真实尚隐藏在黑暗之中——",
+		profiles = "虚幻之中，亦有真实。如果这里是尚未沦陷的长岛防线，那么……",
 		star_require_3 = 3,
 		difficulty = 8,
 		num_2 = 11,
@@ -343670,14 +343670,14 @@ end)()
 			{
 				7,
 				8,
-				"baifeng_2_1x1_2",
+				"guandao_2_1x1_3",
 				-5,
 				3
 			},
 			{
 				6,
 				5,
-				"baifeng_2_1x2_2",
+				"guandao_2_1x2_2",
 				0,
 				-45
 			},
@@ -343705,16 +343705,16 @@ end)()
 			{
 				2,
 				0,
-				"baifeng_2_2x2_2",
+				"guandao_2_2x2_2",
 				45,
 				-13
 			},
 			{
 				0,
 				7,
-				"baifeng_2_1x1_3",
-				-2,
-				10
+				"guandao_2_1x1_2",
+				0,
+				0
 			},
 			{
 				0,
@@ -343786,7 +343786,7 @@ end)()
 (function()
 	_G.pg.base.chapter_template[1960025] = {
 		special_operation_list = "",
-		name = "梦魇残片·其二",
+		name = "战前准备",
 		count = 0,
 		pop_pic = "",
 		act_id = 50115,
@@ -343799,7 +343799,7 @@ end)()
 		oil = 10,
 		chapter_fx = "",
 		ItemTransformPattern = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		icon_outline = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -343829,7 +343829,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 1430,
 		investigation_ratio = 0,
-		profiles = "此片段的真实尚隐藏在黑暗之中——",
+		profiles = "大批敌人正在逼近，在NY港中，用有限的资源争取尽可能多的时间吧……",
 		star_require_3 = 3,
 		difficulty = 9,
 		num_2 = 12,
@@ -344523,7 +344523,7 @@ end)()
 			{
 				6,
 				4,
-				"baifeng_2_1x2_2",
+				"guandao_2_1x2_1",
 				0,
 				-41
 			},
@@ -344537,9 +344537,9 @@ end)()
 			{
 				2,
 				8,
-				"baifeng_2_2x2_1",
+				"guandao_2_2x2_1",
 				54,
-				-41
+				-30
 			},
 			{
 				2,
@@ -344551,7 +344551,7 @@ end)()
 			{
 				1,
 				1,
-				"baifeng_2_1x1_1",
+				"guandao_2_1x1_2",
 				-6,
 				0
 			},
@@ -344565,7 +344565,7 @@ end)()
 			{
 				0,
 				3,
-				"baifeng_2_1x1_3",
+				"guandao_2_1x1_1",
 				0,
 				8
 			},
@@ -344639,7 +344639,7 @@ end)()
 (function()
 	_G.pg.base.chapter_template[1960026] = {
 		special_operation_list = "",
-		name = "梦魇残片·其三",
+		name = "黑色高墙",
 		count = 0,
 		pop_pic = "",
 		act_id = 50115,
@@ -344652,7 +344652,7 @@ end)()
 		oil = 10,
 		chapter_fx = "",
 		ItemTransformPattern = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		icon_outline = 0,
 		story_refresh_boss = "",
 		is_ambush = 0,
@@ -344682,7 +344682,7 @@ end)()
 		num_1 = 1,
 		best_air_dominance = 1835,
 		investigation_ratio = 0,
-		profiles = "此片段的真实尚隐藏在黑暗之中——",
+		profiles = "梦魇重组了攻势，一堵连接了云层与海面的黑色高墙从天际缓缓浮现了……",
 		star_require_3 = 3,
 		difficulty = 10,
 		num_2 = 12,
@@ -345497,9 +345497,9 @@ end)()
 			{
 				7,
 				5,
-				"baifeng_2_3x1_1",
+				"guandao_2_3x1_1",
 				110,
-				0
+				12
 			},
 			{
 				7,
@@ -345532,14 +345532,14 @@ end)()
 			{
 				5,
 				6,
-				"baifeng_2_1x1_1",
+				"guandao_2_1x1_2",
 				0,
 				0
 			},
 			{
 				3,
 				6,
-				"baifeng_2_1x1_1",
+				"guandao_2_1x1_3",
 				0,
 				0
 			},
@@ -345567,7 +345567,7 @@ end)()
 			{
 				1,
 				5,
-				"baifeng_2_3x1_1",
+				"guandao_2_3x1_2",
 				110,
 				0
 			},

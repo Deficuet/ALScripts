@@ -687,7 +687,7 @@ function var_0_0.displayAttrFrame(arg_58_0)
 
 	var_58_0.enabled = true
 	var_58_0.aspectMode = AspectMode.FitInParent
-	var_58_0.aspectRatio = arg_58_0._tf:GetComponent(typeof(AspectRatioFitter)).aspectRatio
+	var_58_0.aspectRatio = arg_58_0._tf.parent:GetComponent(typeof(AspectRatioFitter)).aspectRatio
 
 	SetActive(arg_58_0._attrFrame, true)
 	arg_58_0:initAttrFrame()

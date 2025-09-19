@@ -1,6 +1,117 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
+	[102059] = {
+		ship_group = 10205,
+		name = "海伦娜.改",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 102059,
+		group_index = 9,
+		purchase_offset = "",
+		painting = "hailunna_g",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "hailunna_g",
+		shop_type_id = 9997,
+		shop_id = 0,
+		illustrator = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "全新的装备…适应起来会稍微有些复杂呢，但是现在的我，有信心驾驱这些力量！指挥官，请期待我的表现吧！",
+		voice_actor = 34,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.315,
+					1.072,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.32,
+					1.085,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.34,
+					1.091,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.289,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102060] = {
 		ship_group = 10206,
 		name = "亚特兰大",
@@ -15244,117 +15355,6 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.361,
 							2.431,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103250] = {
-		ship_group = 10325,
-		name = "巴尔的摩(μ兵装)",
-		hand_id = 13,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 103250,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "baerdimo_idol",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "baerdimo_idol",
-		shop_type_id = 0,
-		shop_id = 0,
-		illustrator = -1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		bg = "140",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "我是白鹰重巡巴尔的摩。啊，这次不仅仅作为作战舰船，还有个“偶像”的身份来着。嘿嘿，既然要做，就全力做到最好！就拜托指挥官多给点支持啦~",
-		voice_actor = 191,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.304,
-					0.894,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.274,
-					0.914,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.427,
 							0.14
 						}
 					}

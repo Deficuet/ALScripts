@@ -5,6 +5,7 @@ var_0_0.L2D_SAVE_TEMPLATE_DISPOSE = {
 	705023
 }
 var_0_0.L2D_PARAMETER_DIC = {}
+var_0_0.L2D_LINK_PARAMETER = {}
 var_0_0.L2D_TYPE = 1
 var_0_0.SPINE_TYPE = 2
 var_0_0.change_parameter_link_idle = 1

@@ -51,7 +51,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 
 	arg_1_0.unlockBuildingOrCharaIds = Clone(var_0_1[1].include)
 
-	arg_1_0:TryUpgradeCityLevel(false)
+	arg_1_0:TryUpgradeCityLevel(true)
 
 	arg_1_0.Levelbuildings = {}
 	arg_1_0.Levelcharas = {}

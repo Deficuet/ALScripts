@@ -146091,9 +146091,8 @@ end)()
 		range_offset = 10,
 		modle_ID = "bullet2",
 		type = 1,
-		acceleration = "d",
-		antisub_enhancement = 0,
 		out_bound = 0,
+		antisub_enhancement = 0,
 		hit_fx = "pofang",
 		effect_type = 1,
 		id = 161017,
@@ -146122,6 +146121,20 @@ end)()
 			{
 				1,
 				1
+			}
+		},
+		acceleration = {
+			{
+				u = -0.035,
+				v = 0,
+				flip = false,
+				t = 0
+			},
+			{
+				u = 0.06,
+				v = 0.02,
+				flip = true,
+				t = 1
 			}
 		},
 		cld_box = {

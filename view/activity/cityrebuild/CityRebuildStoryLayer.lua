@@ -53,7 +53,7 @@ function var_0_0.Refresh(arg_7_0)
 
 			if var_8_2 then
 				GetImageSpriteFromAtlasAsync(var_8_1[6], "", arg_8_2:Find("normal/mask/pic"))
-				setText(arg_8_2:Find("normal/nameBg/name"), var_8_1[5])
+				setScrollText(arg_8_2:Find("normal/nameBg/name"), var_8_1[5])
 				onButton(arg_7_0, arg_8_2, function()
 					pg.NewStoryMgr.GetInstance():Play(var_8_1[1], nil, true)
 				end, SFX_PANEL)

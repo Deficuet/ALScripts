@@ -43,7 +43,7 @@ return {
 				posX = 491.03
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/Viewport/item_grid",
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/adapt/item_scrollview/Viewport/item_grid",
 				pathIndex = -1,
 				conditionData = {
 					"102"

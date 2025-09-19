@@ -37,6 +37,10 @@ function var_0_0.ShouldShowTip()
 	local var_7_3 = var_7_2:getConfig("config_data")
 	local var_7_4 = var_7_2.data3
 
+	if var_7_4 then
+		return falses
+	end
+
 	for iter_7_0 = 1, #var_7_3[var_7_4] do
 		if var_7_1:getTaskVO(var_7_3[var_7_4][iter_7_0]):getTaskStatus() == 1 then
 			return true

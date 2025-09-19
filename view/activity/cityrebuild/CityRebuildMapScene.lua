@@ -82,7 +82,7 @@ function var_0_0.Refresh(arg_12_0)
 
 	updateDrop(arg_12_0.award:Find("IconTpl"), var_12_2)
 
-	local var_12_3 = var_12_0:isFinish()
+	local var_12_3 = var_12_0:isReceive()
 
 	setActive(arg_12_0.award:Find("got"), var_12_3)
 	onButton(arg_12_0, arg_12_0.award, function()
@@ -118,7 +118,7 @@ function var_0_0.SetCharaList(arg_14_0)
 
 				arg_15_2.anchoredPosition = Vector2(var_15_4[1], var_15_4[2])
 
-				setText(arg_15_2:Find("name/Text"), var_15_2 and var_15_1.name[2] or var_15_1.name[1])
+				setActive(arg_15_2:Find("name"), false)
 			end
 		end
 	end)

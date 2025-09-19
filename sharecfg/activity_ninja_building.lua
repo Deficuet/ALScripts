@@ -388,14 +388,14 @@ pg.activity_ninja_building = {
 		},
 		story = {
 			"JIZHANRENZHEZHICHENG12",
-			"qicon/molisen_2",
+			"qicon/molisen_3",
 			{
 				-7.3845,
 				54.3171
 			},
 			"修复三御门外桥梁后解锁",
 			"忍术大失败",
-			"shipyardicon/molisen_2"
+			"shipyardicon/molisen_3"
 		},
 		handbook_pic = {
 			"ninjacityicon/icon_sanyumenwaiqiaoliang_b",
@@ -1144,7 +1144,7 @@ pg.activity_ninja_building = {
 				381.5325
 			},
 			"招募拉菲II后解锁",
-			"白免与梦乡",
+			"白兔与梦乡",
 			"shipyardicon/lafeiII_4"
 		},
 		handbook_pic = {

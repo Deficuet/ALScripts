@@ -1024778,7 +1024778,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961001,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1024798,7 +1024798,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1024858,7 +1024862,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961002,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1024878,7 +1024882,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1024938,7 +1024946,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961003,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1024958,7 +1024966,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025018,7 +1025030,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961004,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025038,7 +1025050,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025098,7 +1025114,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961005,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025118,7 +1025134,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025178,7 +1025198,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961006,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025198,7 +1025218,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025258,7 +1025282,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961007,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025278,7 +1025302,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025338,7 +1025366,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961008,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025358,7 +1025386,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025418,7 +1025450,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961009,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025438,7 +1025470,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025518,7 +1025554,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025574,7 +1025614,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961001,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025594,7 +1025634,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025654,7 +1025698,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961002,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025674,7 +1025718,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025734,7 +1025782,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961003,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025754,7 +1025802,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025814,7 +1025866,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961004,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025834,7 +1025886,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025894,7 +1025950,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961005,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025914,7 +1025970,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1025974,7 +1026034,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961006,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1025994,7 +1026054,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026054,7 +1026118,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961007,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026074,7 +1026138,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026134,7 +1026202,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961008,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026154,7 +1026222,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026214,7 +1026286,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961009,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026234,7 +1026306,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026314,7 +1026390,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026370,7 +1026450,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961001,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026390,7 +1026470,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026450,7 +1026534,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961002,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026470,7 +1026554,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026530,7 +1026618,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961003,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026550,7 +1026638,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026610,7 +1026702,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961004,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026630,7 +1026722,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026690,7 +1026786,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961005,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026710,7 +1026806,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026770,7 +1026870,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961006,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026790,7 +1026890,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026850,7 +1026954,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961007,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026870,7 +1026974,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1026930,7 +1027038,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961008,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1026950,7 +1027058,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1027010,7 +1027122,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1961009,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1027030,7 +1027142,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1027110,7 +1027226,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1027166,7 +1027286,7 @@ end)()
 		ai_mov = 2,
 		dungeon_id = 1961301,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1027186,7 +1027306,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1027246,7 +1027370,7 @@ end)()
 		ai_mov = 2,
 		dungeon_id = 1961302,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 0,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1027266,7 +1027390,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1027326,7 +1027454,7 @@ end)()
 		ai_mov = 2,
 		dungeon_id = 1961303,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 1,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1027346,7 +1027474,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1030274,7 +1030406,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963001,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1030294,7 +1030426,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1030354,7 +1030490,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963002,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1030374,7 +1030510,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1030434,7 +1030574,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963003,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1030454,7 +1030594,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1030514,7 +1030658,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963004,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1030534,7 +1030678,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1030594,7 +1030742,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963005,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1030614,7 +1030762,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1030674,7 +1030826,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963006,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1030694,7 +1030846,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1030754,7 +1030910,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963007,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1030774,7 +1030930,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1030834,7 +1030994,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963008,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1030854,7 +1031014,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1030914,7 +1031078,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963009,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1030934,7 +1031098,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031014,7 +1031182,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031070,7 +1031242,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963001,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031090,7 +1031262,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031150,7 +1031326,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963002,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031170,7 +1031346,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031230,7 +1031410,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963003,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031250,7 +1031430,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031310,7 +1031494,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963004,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031330,7 +1031514,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031390,7 +1031578,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963005,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031410,7 +1031598,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031470,7 +1031662,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963006,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031490,7 +1031682,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031550,7 +1031746,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963007,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031570,7 +1031766,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031630,7 +1031830,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963008,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031650,7 +1031850,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031710,7 +1031914,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963009,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031730,7 +1031934,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031810,7 +1032018,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031866,7 +1032078,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963001,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031886,7 +1032098,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1031946,7 +1032162,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963002,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1031966,7 +1032182,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032026,7 +1032246,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963003,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 3,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032046,7 +1032266,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032106,7 +1032330,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963004,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032126,7 +1032350,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032186,7 +1032414,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963005,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032206,7 +1032434,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032266,7 +1032498,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963006,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 3,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032286,7 +1032518,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032346,7 +1032582,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963007,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032366,7 +1032602,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032426,7 +1032666,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963008,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032446,7 +1032686,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032506,7 +1032750,7 @@ end)()
 		ai_mov = 0,
 		dungeon_id = 1963009,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 3,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032526,7 +1032770,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032606,7 +1032854,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032662,7 +1032914,7 @@ end)()
 		ai_mov = 2,
 		dungeon_id = 1963301,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032682,7 +1032934,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032742,7 +1032998,7 @@ end)()
 		ai_mov = 2,
 		dungeon_id = 1963302,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 2,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032762,7 +1033018,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {
@@ -1032822,7 +1033082,7 @@ end)()
 		ai_mov = 2,
 		dungeon_id = 1963303,
 		add_icon = "",
-		bgm = "story-amahara-stage1",
+		bgm = "story-worldα-brokenlight",
 		exp_commander = 3,
 		SLG_destroy_FX = "",
 		exp_commander_ratio = 30,
@@ -1032842,7 +1033102,11 @@ end)()
 		map_id = {
 			{
 				50209,
-				1
+				0.5
+			},
+			{
+				50151,
+				0.5
 			}
 		},
 		award_display = {

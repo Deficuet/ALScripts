@@ -540,6 +540,7 @@ function var_0_0.didEnter(arg_15_0)
 	pg.UIMgr.GetInstance():OverlayPanel(arg_15_0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
 	})
+	arg_15_0:PlayUIAnimation(arg_15_0.blurPanel, "enter")
 	pg.UIMgr.GetInstance():OverlayPanel(arg_15_0.topItems, {
 		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
 	})

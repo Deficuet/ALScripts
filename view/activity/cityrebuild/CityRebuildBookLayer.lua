@@ -635,6 +635,10 @@ end
 function var_0_0.ShouldShowTip()
 	local var_52_0 = getProxy(CityRebuildProxy):GetData(ActivityConst.NINJA_CITY_ACT_ID)
 
+	if not var_52_0 then
+		return false
+	end
+
 	for iter_52_0, iter_52_1 in pairs(var_52_0.recruiting) do
 		local var_52_1 = pg.activity_ninja_building[iter_52_0]
 

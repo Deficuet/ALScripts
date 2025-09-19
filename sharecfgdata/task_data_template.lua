@@ -197679,7 +197679,7 @@ end)()
 		is_head = 1,
 		task_fold = 0,
 		award_choice = "",
-		visibility = 0,
+		visibility = 1,
 		ryza_type = 0,
 		quick_finish = 0,
 		level = 1,
@@ -197705,6 +197705,51 @@ end)()
 				2,
 				20001,
 				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24466] = {
+		name = "『白凤活动』剧情模式",
+		guild_coin_award = 0,
+		award = 907299,
+		type = 6,
+		desc = "完成「起舞于天原之上」的「剧情模式」",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24466,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7111
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				3
 			}
 		}
 	}
@@ -316621,6 +316666,339 @@ end)()
 				2,
 				18002,
 				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500161] = {
+		name = "樱庭邀约",
+		guild_coin_award = 0,
+		award = 500161,
+		type = 5,
+		desc = "提交3个《鱼雷天妇罗》",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "dulianglai",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500162",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "DULIANGLAI1",
+		tutorial_handbook_pic = "",
+		id = 500161,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500162] = {
+		name = "量衣之距",
+		guild_coin_award = 0,
+		award = 500162,
+		type = 5,
+		desc = "强化任意角色10次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "dulianglai",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DULIANGLAI2",
+		ryza_icon = "",
+		next_task = "500163",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500162,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500163] = {
+		name = "经纬同心",
+		guild_coin_award = 0,
+		award = 500163,
+		type = 5,
+		desc = "{namecode:231}上阵出击(关卡)胜利20次",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "dulianglai",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DULIANGLAI3",
+		ryza_icon = "",
+		next_task = "500164",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "30225",
+		tutorial_handbook_pic = "",
+		id = 500163,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500164] = {
+		name = "织物的温度",
+		guild_coin_award = 0,
+		award = 500164,
+		type = 5,
+		desc = "累计消耗石油500",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "dulianglai",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DULIANGLAI4",
+		ryza_icon = "",
+		next_task = "500165",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500164,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500165] = {
+		name = "白泷公主",
+		guild_coin_award = 0,
+		award = 500165,
+		type = 5,
+		desc = "{namecode:231}好感度达到100",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "dulianglai",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DULIANGLAI5",
+		ryza_icon = "",
+		next_task = "500166",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "30225",
+		tutorial_handbook_pic = "",
+		id = 500165,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500166] = {
+		name = "天衣有缝",
+		guild_coin_award = 0,
+		award = 500166,
+		type = 5,
+		desc = "{namecode:231}突破至满星",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "dulianglai",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DULIANGLAI6",
+		ryza_icon = "",
+		next_task = "500167",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "30225",
+		tutorial_handbook_pic = "",
+		id = 500166,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500167] = {
+		name = "心帛缝樱",
+		guild_coin_award = 0,
+		award = 500167,
+		type = 5,
+		desc = "{namecode:231}等级达到100",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "dulianglai",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "DULIANGLAI7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "30225",
+		tutorial_handbook_pic = "",
+		id = 500167,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
 			}
 		}
 	}

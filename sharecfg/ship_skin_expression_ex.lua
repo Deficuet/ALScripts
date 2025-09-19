@@ -23451,5 +23451,58 @@ pg.ship_skin_expression_ex = {
 				"2"
 			}
 		}
+	},
+	jiasikenie_3 = {
+		main_2 = "",
+		feeling3 = "",
+		main_1 = "",
+		lose = "",
+		expedition = "",
+		win_mvp = "",
+		feeling4 = "",
+		mission = "",
+		skill = "",
+		profile = "",
+		painting = "jiasikenie_3",
+		mail = "",
+		feeling1 = "",
+		main_3 = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"6"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"7|6|8"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"7"
+			}
+		}
 	}
 }

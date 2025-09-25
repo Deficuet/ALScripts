@@ -58,9 +58,7 @@ function var_0_0.didEnter(arg_4_0)
 	arg_4_0.contextData.ChipIndex = arg_4_0.contextData.ChipIndex or 1
 
 	arg_4_0:UpdateView()
-	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf)
 end
 
 function var_0_0.AddListener(arg_5_0)

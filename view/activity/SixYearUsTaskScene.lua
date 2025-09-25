@@ -303,7 +303,7 @@ function var_0_0.getTaskTarget(arg_22_0, arg_22_1)
 end
 
 function var_0_0.willExit(arg_23_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_23_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_23_0._tf)
 end
 
 return var_0_0

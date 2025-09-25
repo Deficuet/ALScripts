@@ -66,7 +66,7 @@ function var_0_0.Hide(arg_10_0)
 end
 
 function var_0_0.willExit(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf)
 end
 
 return var_0_0

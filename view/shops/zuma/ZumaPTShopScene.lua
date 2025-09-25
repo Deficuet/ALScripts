@@ -73,7 +73,7 @@ function var_0_0.addListener(arg_9_0)
 				if not isActive(arg_9_0:findTF("Mask", arg_12_2)) then
 					arg_9_0:emit(ZumaPTShopMediator.OPEN_ZUMA_PT_SHOP_BUY_WINDOW, arg_9_0:getGoodVOByIndex(arg_12_1))
 				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("launchball_minigame_shop"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("launchball_minigame_shop"))
 				end
 			end, SFX_PANEL)
 		elseif arg_12_0 == UIItemList.EventUpdate then

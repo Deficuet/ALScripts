@@ -348,7 +348,7 @@ function var_0_0.willExit(arg_29_0)
 
 	arg_29_0._formationLogic = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_29_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_29_0._tf)
 end
 
 return var_0_0

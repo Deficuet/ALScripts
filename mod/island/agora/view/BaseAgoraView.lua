@@ -1,7 +1,7 @@
 local var_0_0 = class("BaseAgoraView", import("Mod.Island.Core.View.IslandView"))
 
-function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
-	var_0_0.super.Ctor(arg_1_0, arg_1_1)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
+	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_3)
 
 	arg_1_0.agora = arg_1_2
 	arg_1_0.agora_callbacks = {}

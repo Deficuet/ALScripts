@@ -8,7 +8,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_4 = var_1_1:getData()
 
 	if not var_1_3 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_no_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_no_exist"))
 
 		return
 	end
@@ -16,13 +16,13 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_5 = var_1_3:getTechnologyById(var_1_0)
 
 	if not var_1_5 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_not_exist_tech"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_not_exist_tech"))
 
 		return
 	end
 
 	if not var_1_5:CanUpgrade() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_is_max_level"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tech_is_max_level"))
 
 		return
 	end
@@ -30,13 +30,13 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_6, var_1_7 = var_1_5:GetConsume()
 
 	if var_1_7 > var_1_4.gold then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_gold_no_enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tech_gold_no_enough"))
 
 		return
 	end
 
 	if var_1_6 > var_1_4.guildCoin then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_tech_guildgold_no_enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_tech_guildgold_no_enough"))
 
 		return
 	end

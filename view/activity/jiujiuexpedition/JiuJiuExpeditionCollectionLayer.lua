@@ -88,7 +88,7 @@ function var_0_0.updateBooks(arg_10_0)
 			if var_10_0 then
 				arg_10_0:OpenBook(iter_10_0)
 			else
-				pg.TipsMgr:GetInstance():ShowTips(i18n("jiujiu_expedition_book_tip"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("jiujiu_expedition_book_tip"))
 			end
 		end, SFX_PANEL)
 	end
@@ -139,7 +139,7 @@ function var_0_0.OpenBook(arg_13_0, arg_13_1)
 		arg_13_0:emit(JiuJiuExpeditionCollectionMediator.ON_GET, arg_13_1)
 	end, SFX_PANEL)
 	onButton(arg_13_0, arg_13_0.goBtn, function()
-		pg.TipsMgr:GetInstance():ShowTips(i18n("jiujiu_expedition_reward_tip"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("jiujiu_expedition_reward_tip"))
 	end, SFX_PANEL)
 	triggerButton(arg_13_0.prevPageBtn)
 end
@@ -165,7 +165,7 @@ function var_0_0.CloseBook(arg_20_0)
 end
 
 function var_0_0.willExit(arg_21_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_21_0._tf, arg_21_0.parent)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf, arg_21_0.parent)
 end
 
 return var_0_0

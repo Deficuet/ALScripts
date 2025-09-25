@@ -23,7 +23,7 @@ function var_0_0.init(arg_3_0)
 end
 
 function var_0_0.didEnter(arg_4_0)
-	pg.GuildPaintingMgr:GetInstance():Hide()
+	pg.GuildPaintingMgr.GetInstance():Hide()
 end
 
 function var_0_0.initRequests(arg_5_0)

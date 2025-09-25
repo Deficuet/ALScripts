@@ -165,7 +165,7 @@ function var_0_0.onRightClick(arg_17_0, arg_17_1)
 end
 
 function var_0_0.willExit(arg_18_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_18_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_18_0._tf)
 end
 
 return var_0_0

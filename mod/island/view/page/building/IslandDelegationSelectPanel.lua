@@ -1,0 +1,451 @@
+local var_0_0 = class("IslandDelegationSelectPanel", import("view.base.BaseSubView"))
+
+function var_0_0.getUIName(arg_1_0)
+	return "IslandDelegationSelectPanel"
+end
+
+function var_0_0.OnLoaded(arg_2_0)
+	arg_2_0.closeBtn = arg_2_0._tf:Find("close")
+	arg_2_0.layoutTF = arg_2_0._tf:Find("layout")
+
+	local var_2_0 = arg_2_0._tf:Find("layout/select_container/selectInfo")
+
+	arg_2_0.slotNameTF = var_2_0:Find("slotName")
+	arg_2_0.unlockSlot = var_2_0:Find("unlock")
+	arg_2_0.lockSlot = var_2_0:Find("lock")
+	arg_2_0.emptyAddShipTF = arg_2_0.unlockSlot:Find("empty")
+	arg_2_0.emptyBtn = arg_2_0.unlockSlot:Find("emptyBtn")
+	arg_2_0.contentTF = arg_2_0.unlockSlot:Find("content")
+	arg_2_0.processTF = arg_2_0.contentTF:Find("process")
+	arg_2_0.selectShipTF = arg_2_0.processTF:Find("ship/selectShip")
+	arg_2_0.selectShipBtn = arg_2_0.selectShipTF:Find("selectShipButton")
+	arg_2_0.energySliderTF = arg_2_0.selectShipTF:Find("energy/energy_bar")
+	arg_2_0.energyTFText = arg_2_0.selectShipTF:Find("energy/Text")
+	arg_2_0.seletShipName = arg_2_0.selectShipTF:Find("name")
+	arg_2_0.shipIconTF = arg_2_0.selectShipTF:Find("icon_mask/icon")
+	arg_2_0.expGetTF = arg_2_0.selectShipTF:Find("exp_get")
+
+	setActive(arg_2_0.expGetTF, false)
+
+	arg_2_0.selectFormulaBtn = arg_2_0.processTF:Find("selectFormula")
+	arg_2_0.inprocessFormulaTF = arg_2_0.processTF:Find("inprocess")
+	arg_2_0.inproduction = arg_2_0.inprocessFormulaTF:Find("inproduction")
+	arg_2_0.speedupBtn = arg_2_0.inproduction:Find("quick")
+	arg_2_0.timeTF = arg_2_0.inproduction:Find("time/Text")
+	arg_2_0.roleDelegationSliderTF = arg_2_0.inproduction:Find("time/time_bar")
+	arg_2_0.currentFormula = arg_2_0.inprocessFormulaTF:Find("formulalayout/formula")
+	arg_2_0.currentFormulaIcon = arg_2_0.currentFormula:Find("curformula")
+	arg_2_0.currentFormulaNum = arg_2_0.currentFormulaIcon:Find("product_count_bg/product_count")
+	arg_2_0.currentFormulaLastNum = arg_2_0.currentFormula:Find("tips_num")
+	arg_2_0.formulaProcess = arg_2_0.currentFormula:Find("process"):GetComponent(typeof(Image))
+	arg_2_0.extraProduct = arg_2_0.inprocessFormulaTF:Find("formulalayout/second_formula")
+	arg_2_0.extraProductIcon = arg_2_0.extraProduct:Find("bg/icon")
+	arg_2_0.extraProductName = arg_2_0.extraProduct:Find("name")
+	arg_2_0.extraProductNum = arg_2_0.extraProductIcon:Find("product_count_bg/product_count")
+	arg_2_0.extraProductLastNum = arg_2_0.extraProduct:Find("name/num")
+	arg_2_0.currentExtroFormula = arg_2_0.inprocessFormulaTF:Find("formulalayout/second_formula")
+	arg_2_0.finishTF = arg_2_0.contentTF:Find("finish")
+	arg_2_0.finishFurmalaIcon = arg_2_0.finishTF:Find("formulalayout/formula/curformula")
+
+	setText(arg_2_0.finishTF:Find("formulalayout/formula/tips"), i18n("island_production_finish"))
+
+	arg_2_0.stopBtn = arg_2_0.contentTF:Find("btns/stop")
+	arg_2_0.getBtn = arg_2_0.contentTF:Find("btns/get")
+	arg_2_0.addBtn = arg_2_0.contentTF:Find("btns/add")
+	arg_2_0.canRewardIcon = arg_2_0.getBtn:Find("hasicon")
+	arg_2_0.canRewardNum = arg_2_0.getBtn:Find("num")
+	arg_2_0.shipDetailsBtn = arg_2_0.processTF:Find("ship/details")
+	arg_2_0.shipDetailsPanel = arg_2_0._tf:Find("layout/ship_container")
+	arg_2_0.shipDetailBack = arg_2_0.shipDetailsPanel:Find("back")
+	arg_2_0.shipSkillEmp = arg_2_0.shipDetailsPanel:Find("skillEmp")
+	arg_2_0.shipSkillEmpDes = arg_2_0.shipDetailsPanel:Find("skillEmp/Text")
+	arg_2_0.shipSkillDetails = arg_2_0.shipDetailsPanel:Find("skill")
+	arg_2_0.shipDetailsIcon = arg_2_0.shipSkillDetails:Find("icon")
+	arg_2_0.shipDetailsName = arg_2_0.shipSkillDetails:Find("name"):GetComponent(typeof(Text))
+	arg_2_0.shipDetailsDes = arg_2_0.shipSkillDetails:Find("desc/Text"):GetComponent(typeof(Text))
+
+	setText(arg_2_0.shipDetailsPanel:Find("title"), i18n("island_production_character_info"))
+	setText(arg_2_0.getBtn:Find("Text"), i18n("island_production_collect"))
+	arg_2_0:ApplyDiff()
+
+	arg_2_0.extraProductList = UIItemList.New(arg_2_0.extraProduct:Find("process"), arg_2_0.extraProduct:Find("process/item"))
+end
+
+function var_0_0.ApplyDiff(arg_3_0)
+	if arg_3_0.contextData and arg_3_0.contextData.isPermanent then
+		setActive(arg_3_0.closeBtn, false)
+	end
+
+	if arg_3_0.contextData and arg_3_0.contextData.alignRight then
+		arg_3_0.layoutTF.anchorMin = Vector2(1, 0.5)
+		arg_3_0.layoutTF.anchorMax = Vector2(1, 0.5)
+		arg_3_0.layoutTF.pivot = Vector2(1, 0.5)
+
+		setAnchoredPosition(arg_3_0.layoutTF, {
+			x = -35,
+			y = 0
+		})
+	end
+end
+
+function var_0_0.OnInit(arg_4_0)
+	onButton(arg_4_0, arg_4_0.closeBtn, function()
+		arg_4_0:Hide()
+	end, SFX_PANEL)
+	onButton(arg_4_0, arg_4_0.shipDetailsBtn, function()
+		arg_4_0:ShowDetailPanel()
+	end)
+	onButton(arg_4_0, arg_4_0.shipDetailBack, function()
+		arg_4_0:HideDetailPanel()
+	end)
+	onButton(arg_4_0, arg_4_0.emptyAddShipTF, function()
+		arg_4_0:OpenShipSelectPage()
+	end, SFX_PANEL)
+	onButton(arg_4_0, arg_4_0.selectShipBtn, function()
+		arg_4_0:OpenShipSelectPage()
+	end, SFX_PANEL)
+	onButton(arg_4_0, arg_4_0.selectFormulaBtn, function()
+		arg_4_0:OpenFormulaSelectPage()
+	end, SFX_PANEL)
+	onButton(arg_4_0, arg_4_0.getBtn, function()
+		local var_11_0 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(arg_4_0.placeId):GetDelegationSlotData(arg_4_0.slotId)
+
+		if not var_11_0 then
+			return
+		end
+
+		local var_11_1 = not var_11_0:GetSlotRoleData() and var_11_0:GetSlotRewardData() and 2 or 1
+
+		arg_4_0:emit(IslandMediator.GET_DELEGATION_AWARD, arg_4_0.placeId, arg_4_0.slotId, var_11_1, nil, arg_4_0.contextData.isPost)
+	end, SFX_PANEL)
+	onButton(arg_4_0, arg_4_0.stopBtn, function()
+		arg_4_0:emit(IslandMediator.STOP_DELEGATION, arg_4_0.placeId, arg_4_0.slotId)
+	end, SFX_PANEL)
+	onButton(arg_4_0, arg_4_0.speedupBtn, function()
+		arg_4_0:emit(IslandMediator.OPEN_PAGE, "IslandTicketUsePage", {
+			IslandUseTicketCommand.TYPES.APPOINT,
+			arg_4_0.slotId
+		})
+	end, SFX_PANEL)
+	arg_4_0.extraProductList:make(function(arg_14_0, arg_14_1, arg_14_2)
+		if arg_14_0 == UIItemList.EventInit then
+			-- block empty
+		elseif arg_14_0 == UIItemList.EventUpdate then
+			local var_14_0 = arg_14_1 < arg_4_0.extraProcess
+
+			setActive(arg_14_2:Find("inprocess"), var_14_0)
+		end
+	end)
+end
+
+function var_0_0.ShowDetailPanel(arg_15_0)
+	setActive(arg_15_0.shipDetailsPanel, true)
+
+	local var_15_0 = arg_15_0.showShip:GetSkill()
+	local var_15_1 = var_15_0:IsUnlock()
+
+	setActive(arg_15_0.shipSkillDetails, var_15_1)
+	setActive(arg_15_0.shipSkillEmp, not var_15_1)
+	setText(arg_15_0.shipSkillEmpDes, i18n("island_need_star", arg_15_0.showShip:GetSkillUnlockLevel()))
+	GetImageSpriteFromAtlasAsync("island/IslandSkillIcon/" .. var_15_0:GetIcon(), "", arg_15_0.shipDetailsIcon)
+
+	arg_15_0.shipDetailsName.text = string.format("%s - %s", var_15_0:GetName(), "[Lv." .. var_15_0:GetLevel() .. "]")
+	arg_15_0.shipDetailsDes.text = var_15_0:GetEffectDesc()
+end
+
+function var_0_0.HideDetailPanel(arg_16_0)
+	setActive(arg_16_0.shipDetailsPanel, false)
+end
+
+function var_0_0.Show(arg_17_0, arg_17_1, arg_17_2, arg_17_3, arg_17_4)
+	arg_17_0.super.Show(arg_17_0)
+
+	arg_17_0.loadCharacterFunc = arg_17_3
+	arg_17_0.unLoadCharacterFunc = arg_17_4
+	arg_17_0.selectedShipId = arg_17_2
+	arg_17_0.commissionId = arg_17_1 or arg_17_0.commissionId
+	arg_17_0.slotId = pg.island_production_commission[arg_17_0.commissionId].slot
+	arg_17_0.placeId = pg.island_production_slot[arg_17_0.slotId].place
+
+	if arg_17_0.placeId == IslandProductConst.PasturePlaceId then
+		IslandGuideChecker.CheckGuide("ISLAND_GUIDE_24")
+	end
+
+	arg_17_0.timeMgr = pg.TimeMgr.GetInstance()
+
+	arg_17_0:HideDetailPanel()
+	arg_17_0:Flush()
+end
+
+function var_0_0.Flush(arg_18_0)
+	arg_18_0:FlushInfos()
+	arg_18_0:StopTimer()
+	arg_18_0:StartTimer()
+end
+
+function var_0_0.FlushInfos(arg_19_0)
+	arg_19_0.slotData = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(arg_19_0.placeId):GetDelegationSlotData(arg_19_0.slotId)
+
+	local var_19_0 = pg.island_production_place[arg_19_0.placeId].name
+
+	setText(arg_19_0.slotNameTF, var_19_0 .. "-" .. pg.island_production_commission[arg_19_0.commissionId].name)
+	setActive(arg_19_0.lockSlot, not arg_19_0.slotData)
+	setActive(arg_19_0.unlockSlot, arg_19_0.slotData)
+	setActive(arg_19_0.addBtn, false)
+
+	if not arg_19_0.slotData then
+		return
+	end
+
+	if arg_19_0.slotData:CanStartDelegation() then
+		setActive(arg_19_0.finishTF, false)
+		setActive(arg_19_0.emptyAddShipTF, not arg_19_0.selectedShipId)
+		setActive(arg_19_0.contentTF, arg_19_0.selectedShipId)
+		setActive(arg_19_0.emptyBtn, not arg_19_0.selectedShipId)
+		setActive(arg_19_0.processTF, arg_19_0.selectedShipId)
+		setActive(arg_19_0.selectShipBtn, arg_19_0.selectedShipId)
+		setActive(arg_19_0.selectFormulaBtn, arg_19_0.selectedShipId)
+		setActive(arg_19_0.inprocessFormulaTF, false)
+
+		if arg_19_0.selectedShipId then
+			arg_19_0.showShip = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_19_0.selectedShipId)
+
+			local var_19_1 = arg_19_0.showShip:GetCurrentEnergy()
+			local var_19_2 = arg_19_0.showShip:GetMaxEnergy()
+
+			setText(arg_19_0.energyTFText, var_19_1 .. "/" .. var_19_2)
+			setSlider(arg_19_0.energySliderTF, 0, 1, var_19_1 / var_19_2)
+			setText(arg_19_0.seletShipName, arg_19_0.showShip:GetName())
+
+			local var_19_3 = IslandShip.StaticGetPrefab(arg_19_0.selectedShipId)
+
+			GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. var_19_3, "", arg_19_0.shipIconTF)
+		end
+
+		setActive(arg_19_0.stopBtn, false)
+		setActive(arg_19_0.getBtn, false)
+	else
+		setActive(arg_19_0.contentTF, true)
+		setActive(arg_19_0.emptyAddShipTF, false)
+		setActive(arg_19_0.emptyBtn, false)
+		setActive(arg_19_0.selectShipBtn, false)
+		setActive(arg_19_0.selectFormulaBtn, false)
+
+		local var_19_4 = arg_19_0.slotData:GetSlotRoleData()
+		local var_19_5 = arg_19_0.slotData:GetSlotRewardData()
+		local var_19_6 = not var_19_4 and var_19_5
+
+		setActive(arg_19_0.processTF, not var_19_6)
+		setActive(arg_19_0.finishTF, var_19_6)
+		setActive(arg_19_0.getBtn, var_19_6)
+		setActive(arg_19_0.stopBtn, not var_19_6)
+		setActive(arg_19_0.inprocessFormulaTF, not var_19_6)
+
+		if var_19_6 then
+			local var_19_7 = var_19_5.formula_id
+			local var_19_8 = pg.island_formula[var_19_7].commission_product
+			local var_19_9 = var_19_8[1][1]
+			local var_19_10 = var_19_5.formula_drop_list[1].num * var_19_8[1][2]
+			local var_19_11 = Drop.New({
+				count = 0,
+				type = DROP_TYPE_ISLAND_ITEM,
+				id = var_19_9
+			}):getConfigTable().icon
+
+			GetImageSpriteFromAtlasAsync("island/" .. var_19_11, "", arg_19_0.canRewardIcon)
+			setText(arg_19_0.canRewardNum, "×" .. var_19_10)
+
+			local var_19_12 = pg.island_formula[var_19_7].item_id
+			local var_19_13 = pg.island_item_data_template[var_19_12]
+
+			GetImageSpriteFromAtlasAsync("island/" .. var_19_13.icon, "", arg_19_0.finishFurmalaIcon)
+		end
+
+		if var_19_4 then
+			arg_19_0.showShip = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(var_19_4.ship_id)
+
+			local var_19_14 = arg_19_0.showShip:GetCurrentEnergy()
+			local var_19_15 = arg_19_0.showShip:GetMaxEnergy()
+
+			setText(arg_19_0.energyTFText, var_19_14 .. "/" .. var_19_15)
+			setSlider(arg_19_0.energySliderTF, 0, 1, var_19_14 / var_19_15)
+			setText(arg_19_0.seletShipName, arg_19_0.showShip:GetName())
+
+			local var_19_16 = IslandShip.StaticGetPrefab(var_19_4.ship_id)
+
+			GetImageSpriteFromAtlasAsync("ShipYardIcon/" .. var_19_16, "", arg_19_0.shipIconTF)
+
+			local var_19_17 = var_19_4.formula_id
+			local var_19_18 = pg.island_formula[var_19_17]
+			local var_19_19 = var_19_18.commission_product[1][1]
+			local var_19_20 = pg.island_item_data_template[var_19_19]
+
+			GetImageSpriteFromAtlasAsync("island/" .. var_19_20.icon, "", arg_19_0.currentFormulaIcon)
+			setText(arg_19_0.currentFormulaNum, "×" .. var_19_18.commission_product[1][2])
+
+			local var_19_21 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+
+			if #var_19_18.second_product == 0 or not var_19_21:IsUnlcokSecondProduct(var_19_17) then
+				setActive(arg_19_0.extraProduct, false)
+			else
+				setActive(arg_19_0.extraProduct, true)
+
+				local var_19_22 = var_19_18.second_product_display
+				local var_19_23 = var_19_22[1][1]
+				local var_19_24 = pg.island_item_data_template[var_19_23]
+
+				GetImageSpriteFromAtlasAsync("island/" .. var_19_24.icon, "", arg_19_0.extraProductIcon)
+				setText(arg_19_0.extraProductName, var_19_24.name)
+				setText(arg_19_0.extraProductNum, "×" .. var_19_22[1][2])
+			end
+		end
+	end
+end
+
+function var_0_0.AfterShipSelect(arg_20_0, arg_20_1)
+	arg_20_0.selectedShipId = arg_20_1
+
+	arg_20_0:Flush()
+	existCall(arg_20_0.loadCharacterFunc, arg_20_0.selectedShipId)
+	arg_20_0:OpenFormulaSelectPage()
+end
+
+function var_0_0.OpenShipSelectPage(arg_21_0)
+	local var_21_0 = pg.island_production_slot[arg_21_0.slotId].attribute
+
+	arg_21_0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
+		{
+			attrType = var_21_0,
+			confirmFunc = function(arg_22_0)
+				arg_21_0:AfterShipSelect(arg_22_0[1])
+			end,
+			placeId = arg_21_0.placeId
+		}
+	})
+end
+
+function var_0_0.OpenFormulaSelectPage(arg_23_0, arg_23_1, arg_23_2, arg_23_3, arg_23_4)
+	arg_23_0:emit(IslandMediator.OPEN_PAGE, "IslandFormulaSelectPage", {
+		{
+			commissionId = arg_23_0.commissionId,
+			selectedShipId = arg_23_4 or arg_23_0.selectedShipId,
+			unLoadCharacterFunc = arg_23_0.unLoadCharacterFunc,
+			addDelegateFormula = arg_23_1,
+			addDelegateFormulaTimes = arg_23_2,
+			canRewardTime = arg_23_3,
+			confirmFunc = function()
+				if arg_23_0.contextData and arg_23_0.contextData.isPermanent then
+					return
+				end
+
+				arg_23_0:Hide()
+			end
+		}
+	})
+	arg_23_0:HideDetailPanel()
+end
+
+function var_0_0.UpdateTime(arg_25_0)
+	local var_25_0 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(arg_25_0.placeId):GetDelegationSlotData(arg_25_0.slotId)
+
+	if not var_25_0 then
+		arg_25_0:FlushInfos()
+
+		return
+	end
+
+	local var_25_1 = var_25_0:GetSlotRoleData()
+	local var_25_2 = var_25_0:GetSlotRewardData()
+
+	if not var_25_1 then
+		arg_25_0:FlushInfos()
+
+		return
+	end
+
+	local var_25_3 = var_25_1:GetFinishTime() - arg_25_0.timeMgr:GetServerTime()
+
+	setText(arg_25_0.timeTF, arg_25_0.timeMgr:DescCDTime(var_25_3))
+	setSlider(arg_25_0.roleDelegationSliderTF, 0, 1, 1 - var_25_3 / var_25_1:GetAllTime())
+
+	local var_25_4 = var_25_1:CanRewardTimes()
+	local var_25_5 = var_25_1.formula_id
+	local var_25_6 = pg.island_formula[var_25_5]
+
+	setText(arg_25_0.canRewardNum, "×" .. tostring(var_25_6.commission_product[1][2] * var_25_4))
+
+	local var_25_7 = var_25_1:InCurrentTime()
+	local var_25_8 = arg_25_0.timeMgr:GetServerTime() - var_25_1:InCurrentTimeStart(var_25_7)
+
+	arg_25_0.formulaProcess.fillAmount = var_25_8 / var_25_1:CurrentTimeNeed(var_25_7)
+
+	local var_25_9 = var_25_6.commission_product[1][1]
+	local var_25_10 = pg.island_item_data_template[var_25_9]
+
+	GetImageSpriteFromAtlasAsync("island/" .. var_25_10.icon, "", arg_25_0.canRewardIcon)
+
+	local var_25_11 = var_25_1:LastTimes()
+
+	setText(arg_25_0.currentFormulaLastNum, var_25_11)
+
+	if var_25_4 > 0 then
+		setActive(arg_25_0.getBtn, true)
+		setActive(arg_25_0.addBtn, false)
+	else
+		setActive(arg_25_0.addBtn, var_25_11 < 5)
+		onButton(arg_25_0, arg_25_0.addBtn, function()
+			arg_25_0:OpenFormulaSelectPage(var_25_5, var_25_11, var_25_4, var_25_1.ship_id)
+		end, SFX_PANEL)
+	end
+
+	if #var_25_6.second_product == 0 then
+		return
+	end
+
+	local var_25_12 = var_25_0:GetFromulaTatalCount(var_25_6.id) + var_25_4
+	local var_25_13 = var_25_6.second_product[1]
+	local var_25_14 = math.floor(var_25_12 / var_25_13)
+	local var_25_15 = var_25_12 % var_25_13
+
+	if var_25_15 ~= arg_25_0.extraProcess then
+		arg_25_0.extraProcess = var_25_15
+
+		arg_25_0.extraProductList:align(var_25_13)
+	end
+
+	local var_25_16 = math.floor((var_25_11 + var_25_15) / var_25_13)
+
+	setText(arg_25_0.extraProductLastNum, "×" .. var_25_16)
+end
+
+function var_0_0.StartTimer(arg_27_0)
+	arg_27_0.timer = Timer.New(function()
+		arg_27_0:UpdateTime()
+	end, 1, -1)
+
+	arg_27_0.timer:Start()
+	arg_27_0:UpdateTime()
+end
+
+function var_0_0.StopTimer(arg_29_0)
+	if arg_29_0.timer ~= nil then
+		arg_29_0.timer:Stop()
+
+		arg_29_0.timer = nil
+	end
+end
+
+function var_0_0.Hide(arg_30_0)
+	arg_30_0.super.Hide(arg_30_0)
+	arg_30_0:OnHide()
+end
+
+function var_0_0.OnHide(arg_31_0)
+	arg_31_0:StopTimer()
+end
+
+function var_0_0.OnDestroy(arg_32_0)
+	arg_32_0:OnHide()
+end
+
+return var_0_0

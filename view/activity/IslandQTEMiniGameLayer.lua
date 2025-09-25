@@ -470,7 +470,7 @@ function var_0_0.onBackPressed(arg_41_0)
 end
 
 function var_0_0.willExit(arg_42_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_42_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_42_0._tf)
 
 	if arg_42_0.handle then
 		UpdateBeat:RemoveListener(arg_42_0.handle)

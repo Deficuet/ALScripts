@@ -327,6 +327,10 @@ function var_0_0.LoadSkinBg(arg_29_0, arg_29_1)
 
 		local function var_29_0(arg_30_0)
 			rtf(arg_30_0).localPosition = Vector3(0, 0, 200)
+			rtf(arg_30_0).anchorMin = Vector2.zero
+			rtf(arg_30_0).anchorMax = Vector2.one
+			rtf(arg_30_0).offsetMin = Vector2(0, 0)
+			rtf(arg_30_0).offsetMax = Vector2(0, 0)
 		end
 
 		local function var_29_1()
@@ -418,9 +422,7 @@ function var_0_0.SwitchPage(arg_36_0, arg_36_1)
 	if arg_36_0.index ~= arg_36_1 then
 		seriesAsync({
 			function(arg_37_0)
-				pg.UIMgr.GetInstance():OverlayPanel(arg_36_0.blurPanel, {
-					groupName = LayerWeightConst.GROUP_SHIP_PROFILE
-				})
+				arg_36_0:OverlayPanel(arg_36_0.blurPanel)
 				arg_37_0()
 			end,
 			function(arg_38_0)
@@ -890,7 +892,7 @@ function var_0_0.playOpening(arg_75_0, arg_75_1)
 			if arg_75_1 then
 				arg_75_1()
 			end
-		end, "ui/skinunlockanim", var_75_0, true, false, nil)
+		end, "ui/skinunlockanim", var_75_0, true, false)
 	elseif arg_75_1 then
 		arg_75_1()
 	end
@@ -1016,7 +1018,7 @@ end
 function var_0_0.willExit(arg_86_0)
 	pg.CpkPlayMgr.GetInstance():DisposeCpkMovie()
 	SetParent(arg_86_0.bottomTF, arg_86_0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_86_0.blurPanel, arg_86_0._tf)
+	arg_86_0:UnOverlayPanel(arg_86_0.blurPanel, arg_86_0._tf)
 
 	for iter_86_0, iter_86_1 in ipairs(arg_86_0.pages) do
 		iter_86_1:Destroy()

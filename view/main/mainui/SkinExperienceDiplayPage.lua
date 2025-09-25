@@ -24,14 +24,12 @@ end
 function var_0_0.Show(arg_7_0, arg_7_1)
 	var_0_0.super.Show(arg_7_0)
 	arg_7_0:Display(arg_7_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf)
 end
 
 function var_0_0.Hide(arg_8_0)
 	var_0_0.super.Hide(arg_8_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_8_0._tf, pg.UIMgr.GetInstance()._normalUIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0._tf, pg.UIMgr.GetInstance()._normalUIMain)
 end
 
 function var_0_0.Display(arg_9_0, arg_9_1)

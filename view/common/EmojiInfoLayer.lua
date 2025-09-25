@@ -66,7 +66,7 @@ function var_0_0.onBackPressed(arg_9_0)
 end
 
 function var_0_0.willExit(arg_10_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf)
 	arg_10_0:ReturnEmoji()
 end
 

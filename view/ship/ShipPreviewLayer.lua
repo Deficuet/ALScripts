@@ -8,13 +8,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.UIMgr = pg.UIMgr.GetInstance()
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
-	arg_2_0.UIMgr:BlurPanel(arg_2_0._tf, false, arg_2_0.contextData.weight and {
-		weight = arg_2_0.contextData.weight
-	} or {})
-
-	arg_2_0.UIMain = arg_2_0.UIMgr.UIMain
+	arg_2_0.UIMain = pg.UIMgr.GetInstance().UIMain
 	arg_2_0.seaCameraGO = GameObject.Find("BarrageCamera")
 	arg_2_0.leftPanel = arg_2_0:findTF("left_panel")
 	arg_2_0.sea = arg_2_0:findTF("sea", arg_2_0.leftPanel)
@@ -81,7 +77,7 @@ end
 function var_0_0.willExit(arg_13_0)
 	arg_13_0.seaCamera.enabled = false
 
-	arg_13_0.UIMgr:UnblurPanel(arg_13_0._tf, arg_13_0.UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf, arg_13_0.UIMain)
 
 	if arg_13_0.previewer then
 		arg_13_0.previewer:clear()

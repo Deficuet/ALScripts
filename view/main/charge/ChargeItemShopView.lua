@@ -373,7 +373,7 @@ function var_0_0.updateData(arg_24_0)
 end
 
 function var_0_0.blurView(arg_25_0)
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, arg_25_0._tf, {
+	arg_25_0:OverlayPanel(arg_25_0._tf, {
 		pbList = {
 			arg_25_0:findTF("bg")
 		}
@@ -381,7 +381,7 @@ function var_0_0.blurView(arg_25_0)
 end
 
 function var_0_0.unBlurView(arg_26_0)
-	pg.LayerWeightMgr.GetInstance():DelFromOverlay(arg_26_0._tf, arg_26_0._parentTf)
+	arg_26_0:UnOverlayPanel(arg_26_0._tf, arg_26_0._parentTf)
 end
 
 function var_0_0.IsSupplyShop(arg_27_0)

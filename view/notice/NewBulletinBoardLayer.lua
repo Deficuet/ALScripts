@@ -62,9 +62,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0._bgAnim = arg_2_0:findTF("bg"):GetComponent(typeof(Animation))
 	arg_2_0._contentAnim = arg_2_0:findTF("bg/content_view"):GetComponent(typeof(Animation))
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
 	arg_2_0._loadingFlag = {}
 	arg_2_0._contentList = {}
@@ -457,7 +455,7 @@ end
 
 function var_0_0.willExit(arg_29_0)
 	arg_29_0:clearLoadingPic()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_29_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_29_0._tf)
 end
 
 return var_0_0

@@ -39,7 +39,7 @@ function var_0_0.Resume(arg_7_0)
 	end
 end
 
-function var_0_0.Puase(arg_8_0)
+function var_0_0.Pause(arg_8_0)
 	if arg_8_0.timer then
 		arg_8_0.timer:Pause()
 	end

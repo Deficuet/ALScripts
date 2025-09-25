@@ -11,11 +11,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.ResUISettings(arg_2_0)
-	return {
-		anim = true,
-		showType = PlayerResUI.TYPE_ALL,
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
-	}
+	return true
 end
 
 function var_0_0.preload(arg_3_0, arg_3_1)
@@ -30,14 +26,7 @@ function var_0_0.preload(arg_3_0, arg_3_1)
 				return
 			end
 
-			local var_5_0 = PoolMgr.GetInstance()
-			local var_5_1 = "ShipDetailView"
-
-			if not var_5_0:HasCacheUI(var_5_1) then
-				var_5_0:PreloadUI(var_5_1, arg_5_0)
-			else
-				arg_5_0()
-			end
+			PoolMgr.GetInstance():PreloadUI("ShipDetailView", arg_5_0)
 		end
 	}, arg_3_1)
 end
@@ -302,6 +291,19 @@ function var_0_0.initPages(arg_26_0)
 	arg_26_0.shipCustomMsgBox = ShipCustomMsgBox.New(arg_26_0._tf, arg_26_0.event, arg_26_0.contextData)
 	arg_26_0.shipChangeNameView = ShipChangeNameView.New(arg_26_0._tf, arg_26_0.event, arg_26_0.contextData)
 	arg_26_0.expItemUsagePage = ShipExpItemUsagePage.New(arg_26_0._tf, arg_26_0.event, arg_26_0.contextData)
+
+	for iter_26_0, iter_26_1 in ipairs({
+		arg_26_0.shipDetailView,
+		arg_26_0.shipFashionView,
+		arg_26_0.shipEquipView,
+		arg_26_0.shipHuntingRangeView,
+		arg_26_0.shipCustomMsgBox,
+		arg_26_0.shipChangeNameView,
+		arg_26_0.expItemUsagePage
+	}) do
+		iter_26_1:RegisterView(arg_26_0)
+	end
+
 	arg_26_0.viewList = {}
 	arg_26_0.viewList[ShipViewConst.PAGE.DETAIL] = arg_26_0.shipDetailView
 	arg_26_0.viewList[ShipViewConst.PAGE.FASHION] = arg_26_0.shipFashionView
@@ -348,7 +350,7 @@ function var_0_0.initEvents(arg_28_0)
 	arg_28_0:bind(ShipViewConst.SET_CLICK_ENABLE, function(arg_33_0, arg_33_1)
 		arg_28_0.mainCanvasGroup.blocksRaycasts = arg_33_1
 		arg_28_0.commonCanvasGroup.blocksRaycasts = arg_33_1
-		GetComponent(arg_28_0.detailContainer, "CanvasGroup").blocksRaycasts = arg_33_1
+		GetOrAddComponent(arg_28_0.detailContainer, "CanvasGroup").blocksRaycasts = arg_33_1
 	end)
 	arg_28_0:bind(ShipViewConst.SHOW_CUSTOM_MSG, function(arg_34_0, arg_34_1)
 		arg_28_0.shipCustomMsgBox:Load()
@@ -441,12 +443,10 @@ function var_0_0.didEnter(arg_39_0)
 		arg_39_0:showEnergyDesc()
 		getProxy(CommanderManualProxy):TaskProgressAdd(2022, 1)
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_39_0.chat, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	arg_39_0:OverlayPanel(arg_39_0.chat, {
+		groupDelta = 1
 	})
-	pg.UIMgr.GetInstance():OverlayPanel(arg_39_0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
-	})
+	arg_39_0:OverlayPanel(arg_39_0.blurPanel)
 
 	local var_39_0 = arg_39_0:checkToggleActive(arg_39_0.contextData.page) and arg_39_0.contextData.page or ShipViewConst.PAGE.DETAIL
 
@@ -464,38 +464,32 @@ function var_0_0.openHelpPage(arg_50_0, arg_50_1)
 	if arg_50_1 == ShipViewConst.PAGE.EQUIPMENT then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_equip.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_equip.tip
 		})
 	elseif arg_50_1 == ShipViewConst.PAGE.DETAIL then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_detail.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_detail.tip
 		})
 	elseif arg_50_1 == ShipViewConst.PAGE.INTENSIFY then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_intensify.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_intensify.tip
 		})
 	elseif arg_50_1 == ShipViewConst.PAGE.UPGRADE then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_upgrate.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_upgrate.tip
 		})
 	elseif arg_50_1 == ShipViewConst.PAGE.FASHION then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_fashion.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_fashion.tip
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_maxlevel.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_maxlevel.tip
 		})
 	end
 end
@@ -512,13 +506,11 @@ function var_0_0.showAwakenCompleteAni(arg_51_0, arg_51_1)
 
 		local var_52_0 = tf(arg_51_0.awakenAni)
 
-		pg.UIMgr.GetInstance():BlurPanel(var_52_0, false, {
-			weight = LayerWeightConst.TOP_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(var_52_0)
 		setText(arg_51_0:findTF("window/desc", arg_51_0.awakenAni), arg_51_1)
 		var_52_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_54_0)
 			arg_51_0.awakenAni:GetComponent("Animator"):SetBool("endFlag", false)
-			pg.UIMgr.GetInstance():UnblurPanel(var_52_0, arg_51_0.common)
+			pg.UIMgr.GetInstance():UnOverlayPanel(var_52_0, arg_51_0.common)
 			arg_51_0.awakenAni:SetActive(false)
 
 			arg_51_0.awakenPlay = false
@@ -672,8 +664,6 @@ function var_0_0.displayShipWord(arg_65_0, arg_65_1, arg_65_2)
 		arg_65_0.chat.localPosition = Vector3(arg_65_0.character.localPosition.x + 100, arg_65_0.chat.localPosition.y, 0)
 
 		local var_65_0 = arg_65_0.shipVO:getCVIntimacy()
-
-		arg_65_0.chat:SetAsLastSibling()
 
 		if findTF(arg_65_0.nowPainting, "fitter").childCount > 0 then
 			ShipExpressionHelper.SetExpression(findTF(arg_65_0.nowPainting, "fitter"):GetChild(0), arg_65_0.paintingCode, arg_65_1, var_65_0)
@@ -924,8 +914,6 @@ function var_0_0.switchToPage(arg_77_0, arg_77_1, arg_77_2)
 end
 
 function var_0_0.blurPage(arg_80_0, arg_80_1, arg_80_2)
-	local var_80_0 = pg.UIMgr.GetInstance()
-
 	if arg_80_1 == ShipViewConst.PAGE.DETAIL then
 		arg_80_0.shipDetailView:ActionInvoke("OnSelected", arg_80_2)
 	elseif arg_80_1 == ShipViewConst.PAGE.EQUIPMENT then
@@ -1424,7 +1412,7 @@ end
 function var_0_0.willExit(arg_108_0)
 	Input.multiTouchEnabled = true
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_108_0.chat, arg_108_0.character)
+	arg_108_0:UnOverlayPanel(arg_108_0.chat, arg_108_0.character)
 	arg_108_0:blurPage(ShipViewConst.currentPage)
 	setActive(arg_108_0.background, false)
 
@@ -1479,7 +1467,7 @@ function var_0_0.willExit(arg_108_0)
 		cancelTweens(arg_108_0.tweens)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_108_0.blurPanel, arg_108_0._tf)
+	arg_108_0:UnOverlayPanel(arg_108_0.blurPanel, arg_108_0._tf)
 
 	arg_108_0.shareData = nil
 end

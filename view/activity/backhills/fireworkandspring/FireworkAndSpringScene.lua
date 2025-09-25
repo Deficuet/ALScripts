@@ -282,7 +282,7 @@ function var_0_0.OpenSubPanel(arg_28_0, arg_28_1)
 end
 
 function var_0_0.CloseSubPanel(arg_29_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_29_0.subPanelPanel, arg_29_0.subPanel)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_29_0.subPanelPanel, arg_29_0.subPanel)
 	setActive(arg_29_0.subPanel, false)
 end
 

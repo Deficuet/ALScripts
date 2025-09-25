@@ -103,7 +103,7 @@ function var_0_0.Set(arg_7_0, arg_7_1, arg_7_2)
 end
 
 function var_0_0.willExit(arg_10_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf)
 end
 
 return var_0_0

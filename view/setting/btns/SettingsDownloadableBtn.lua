@@ -70,20 +70,20 @@ function var_0_0.Init(arg_3_0)
 		end
 
 		local var_4_0 = arg_3_0:GetDownloadGroup()
-		local var_4_1 = pg.SettingsGroupMgr:GetInstance():GetState(var_4_0)
+		local var_4_1 = pg.SettingsGroupMgr.GetInstance():GetState(var_4_0)
 
 		if arg_3_0:isNeedUpdate() and var_4_1 ~= pg.SettingsGroupMgr.State.Updating then
 			local var_4_2 = {
 				var_4_0
 			}
-			local var_4_3 = pg.SettingsGroupMgr:GetInstance():GetTotalSize(var_4_2)
+			local var_4_3 = pg.SettingsGroupMgr.GetInstance():GetTotalSize(var_4_2)
 			local var_4_4 = HashUtil.BytesToString(var_4_3)
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_NORMAL,
 				content = string.format(i18n("group_download_tip", var_4_4)),
 				onYes = function()
-					pg.SettingsGroupMgr:GetInstance():StartDownload(var_4_0, var_4_2)
+					pg.SettingsGroupMgr.GetInstance():StartDownload(var_4_0, var_4_2)
 				end
 			})
 		end
@@ -169,7 +169,7 @@ function var_0_0.UpdateDownLoadState(arg_12_0)
 	local var_12_5
 	local var_12_6
 	local var_12_7 = false
-	local var_12_8 = pg.SettingsGroupMgr:GetInstance():GetState(var_12_0)
+	local var_12_8 = pg.SettingsGroupMgr.GetInstance():GetState(var_12_0)
 	local var_12_9
 	local var_12_10
 	local var_12_11
@@ -196,7 +196,7 @@ function var_0_0.UpdateDownLoadState(arg_12_0)
 		var_12_5 = 0
 		var_12_7 = false
 	elseif var_12_8 == pg.SettingsGroupMgr.State.Updating then
-		local var_12_12, var_12_13 = pg.SettingsGroupMgr:GetInstance():GetCountProgress(var_12_0)
+		local var_12_12, var_12_13 = pg.SettingsGroupMgr.GetInstance():GetCountProgress(var_12_0)
 
 		var_12_3 = i18n("word_maingroup_updating")
 		var_12_4 = string.format("(%d/%d)", var_12_12, var_12_13)

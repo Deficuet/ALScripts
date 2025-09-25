@@ -21,7 +21,7 @@ end
 function var_0_0.OnDestroy(arg_3_0)
 	arg_3_0.lockBackPress = false
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_3_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_3_0._tf)
 end
 
 function var_0_0.initUI(arg_4_0)

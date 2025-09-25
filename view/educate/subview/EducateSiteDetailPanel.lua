@@ -35,9 +35,8 @@ function var_0_0.OnInit(arg_2_0)
 	arg_2_0.performName = arg_2_0:findTF("name", arg_2_0.performTF)
 
 	arg_2_0:addListener()
-	pg.UIMgr.GetInstance():OverlayPanel(arg_2_0._tf, {
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER - 2
+	arg_2_0:OverlayPanel(arg_2_0._tf, {
+		groupDelta = -2
 	})
 end
 
@@ -368,7 +367,7 @@ end
 
 function var_0_0.OnDestroy(arg_35_0)
 	arg_35_0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0._tf)
+	arg_35_0:UnOverlayPanel(arg_35_0._tf)
 end
 
 return var_0_0

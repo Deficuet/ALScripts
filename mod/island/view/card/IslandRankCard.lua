@@ -24,7 +24,7 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
 	arg_2_0.rankVO = arg_2_1
 	arg_2_0.rankText.text = arg_2_1.rank > 9 and arg_2_1.rank or "0" .. arg_2_1.rank
 	arg_2_0.nameText.text = arg_2_1.name
-	arg_2_0.levelText.text = "Lv." .. arg_2_1.lv
+	arg_2_0.levelText.text = "Lv." .. arg_2_1.arenaRank
 	arg_2_0.ptText.text = arg_2_1.power
 
 	local var_2_0 = arg_2_1.rank < 4 and arg_2_1.rank or 0

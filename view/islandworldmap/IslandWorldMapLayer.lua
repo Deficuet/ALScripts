@@ -15,9 +15,7 @@ function var_0_0.didEnter(arg_3_0)
 	arg_3_0:initPanel()
 	arg_3_0:initButtonEvent()
 	arg_3_0:initMapTestButton()
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0.ad, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0.ad)
 end
 
 function var_0_0.initPanel(arg_4_0)
@@ -82,7 +80,7 @@ function var_0_0.willExit(arg_11_0)
 	arg_11_0.mapContainer:dispose()
 	arg_11_0.buildPanel:dispose()
 	arg_11_0.missionPanel:dispose()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.ad, arg_11_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.ad, arg_11_0._tf)
 end
 
 return var_0_0

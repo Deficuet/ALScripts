@@ -24,7 +24,7 @@ function var_0_0.BlurPanel(arg_5_0)
 	return
 end
 
-function var_0_0.UnblurPanel(arg_6_0)
+function var_0_0.UnOverlayPanel(arg_6_0)
 	return
 end
 

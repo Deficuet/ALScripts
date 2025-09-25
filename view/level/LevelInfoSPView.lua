@@ -67,7 +67,7 @@ function var_0_0.SetChapterGroupInfo(arg_7_0, arg_7_1)
 end
 
 function var_0_0.Show(arg_8_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_8_0._tf, nil, {
+	pg.UIMgr.GetInstance():BlurPanel(arg_8_0._tf, {
 		force = true
 	})
 	setActive(arg_8_0._tf, true)

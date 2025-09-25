@@ -80,11 +80,11 @@ function var_0_0.didEnter(arg_5_0)
 	end, SFX_PANEL)
 	arg_5_0:OnUpdateDailyTask()
 	triggerToggle(arg_5_0.toggleAll, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf)
 end
 
 function var_0_0.willExit(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf)
 	arg_11_0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateTask, arg_11_0.onUpdateTask)
 	arg_11_0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateDailyTaskIds, arg_11_0.onUpdateDailyTask)
 	arg_11_0.wsWorldInfo:Dispose()

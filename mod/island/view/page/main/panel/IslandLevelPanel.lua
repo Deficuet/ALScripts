@@ -12,6 +12,9 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.prosperityTxt = arg_2_0.levelPanel:Find("prosperity/Text"):GetComponent(typeof(Text))
 	arg_2_0.prosperityLabel = arg_2_0.levelPanel:Find("prosperity"):GetComponent(typeof(Text))
 	arg_2_0.levelTip = arg_2_0.levelPanel:Find("red_dot")
+
+	setActive(arg_2_0.levelPanel:Find("edit"), false)
+
 	arg_2_0.expBtn = arg_2_0.levelPanel:Find("level")
 	arg_2_0.expPanel = arg_2_0._tf:Find("exp")
 
@@ -24,7 +27,7 @@ end
 
 function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0.nameTxt.gameObject, function()
-		arg_3_0:emit(IslandMediator.OPEN_PAGE, "IslandEditNamePage")
+		arg_3_0:emit(IslandMediator.OPEN_PAGE, "IslandSelfCardPage")
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.expBtn, function()
 		arg_3_0:ShowExp()
@@ -98,7 +101,7 @@ function var_0_0.ShowExpAdd(arg_11_0, arg_11_1, arg_11_2)
 
 	local var_11_0 = getProxy(IslandProxy):GetIsland()
 
-	arg_11_0.expPanelTxt.text = "<color=#39bfff>" .. var_11_0:GetExp() + arg_11_1 .. "</color><color=#ffffff>/" .. var_11_0:GetTargeExp() .. "</color>"
+	arg_11_0.expPanelTxt.text = "<color=#39bfff>" .. var_11_0:GetExp() .. "</color><color=#ffffff>/" .. var_11_0:GetTargeExp() .. "</color>"
 
 	setActive(arg_11_0.expPanel:Find("effect"), true)
 	setActive(arg_11_0.expPanelAddTF, true)

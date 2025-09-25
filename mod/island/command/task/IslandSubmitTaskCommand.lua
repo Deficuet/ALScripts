@@ -19,8 +19,6 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				IslandAchievementHelper.UpdateRecord(IslandAchievementType.FINISH_MAIN_TASK, var_1_1, 1)
 			end
 
-			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandTaskSubmit(var_2_2:GetType(), var_2_2.id))
-
 			local var_2_5 = var_2_0:GetInventoryAgency()
 
 			for iter_2_0, iter_2_1 in ipairs(var_2_2:GetRecycleItemInfos()) do
@@ -64,11 +62,6 @@ function var_0_0.UpdateGuide(arg_4_0, arg_4_1)
 		[IslandGuideChecker.ORDER_TASK_ID] = function()
 			pg.m02:sendNotification(GAME.STORY_UPDATE, {
 				storyId = "ISLAND_GUIDE_7"
-			})
-		end,
-		[IslandGuideChecker.TECH_TASK_ID] = function()
-			pg.m02:sendNotification(GAME.STORY_UPDATE, {
-				storyId = "ISLAND_GUIDE_8"
 			})
 		end,
 		[IslandGuideChecker.INVITE_TASK_ID] = function()

@@ -44,24 +44,30 @@ end
 
 function var_0_0.UpdateTargetItem(arg_7_0, arg_7_1, arg_7_2)
 	local var_7_0 = arg_7_0.task:GetTargetList()[arg_7_1 + 1]
+	local var_7_1 = var_7_0:IsFinish()
 
-	setText(arg_7_2:Find("content/Text"), HXSet.hxLan(var_7_0:getConfig("name")))
+	setActive(arg_7_2:Find("status/unfinish"), not var_7_1)
+	setActive(arg_7_2:Find("status/finished"), var_7_1)
 
-	local var_7_1 = var_7_0:GetProgress()
-	local var_7_2 = var_7_0:GetTargetNum()
-
-	setText(arg_7_2:Find("content/num"), string.format("(%d/%d)", var_7_1, var_7_2))
-
-	local var_7_3 = var_7_0:IsFinish()
-
-	setActive(arg_7_2:Find("status/unfinish"), not var_7_3)
-	setActive(arg_7_2:Find("status/finished"), var_7_3)
-
-	if var_7_3 then
+	if var_7_1 then
 		arg_7_2:GetComponent(typeof(Animation)):Play("Island3dTaskTrackPanel_tpl_finish_in")
 	end
 
-	GetOrAddComponent(arg_7_2:Find("content"), "CanvasGroup").alpha = var_7_3 and 0.5 or 1
+	GetOrAddComponent(arg_7_2:Find("content"), "CanvasGroup").alpha = var_7_1 and 0.5 or 1
+
+	local var_7_2 = arg_7_0:GetMapTip(tonumber(var_7_0:GetTrackParma()))
+
+	if var_7_2 and not var_7_1 then
+		setText(arg_7_2:Find("content/Text"), var_7_2)
+		setText(arg_7_2:Find("content/num"), "")
+	else
+		setText(arg_7_2:Find("content/Text"), HXSet.hxLan(var_7_0:getConfig("name")))
+
+		local var_7_3 = var_7_0:GetProgress()
+		local var_7_4 = var_7_0:GetTargetNum()
+
+		setText(arg_7_2:Find("content/num"), string.format("(%d/%d)", var_7_3, var_7_4))
+	end
 end
 
 function var_0_0.Show(arg_8_0)
@@ -77,6 +83,10 @@ end
 
 function var_0_0.UpdateTask(arg_10_0)
 	arg_10_0.task = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
+
+	if not arg_10_0.task then
+		return
+	end
 
 	local var_10_0 = arg_10_0.task:GetShowType()
 
@@ -97,7 +107,13 @@ function var_0_0.UpdateTarget(arg_11_0)
 	setActive(arg_11_0.unFinishTF, not var_11_0)
 
 	if var_11_0 then
-		setText(arg_11_0.finishedTF:Find("Text"), HXSet.hxLan(arg_11_0.task:GetFinishedDesc()))
+		local var_11_1 = arg_11_0:GetMapTip(tonumber(arg_11_0.task:GetTraceParam()))
+
+		if var_11_1 then
+			setText(arg_11_0.finishedTF:Find("Text"), var_11_1)
+		else
+			setText(arg_11_0.finishedTF:Find("Text"), HXSet.hxLan(arg_11_0.task:GetFinishedDesc()))
+		end
 	else
 		arg_11_0.targetUIList:align(#arg_11_0.task:GetTargetList())
 	end
@@ -105,6 +121,10 @@ end
 
 function var_0_0.UpdateProgress(arg_12_0)
 	arg_12_0.task = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTraceTask()
+
+	if not arg_12_0.task then
+		return
+	end
 
 	arg_12_0:UpdateTarget()
 	arg_12_0:TrackUI()
@@ -126,15 +146,29 @@ function var_0_0.TrackUI(arg_13_0)
 				id = var_13_1
 			})
 		else
-			arg_13_0.targetUIList:eachActive(function(arg_14_0, arg_14_1)
-				if not arg_13_0.task:GetTargetList()[arg_14_0 + 1]:IsFinish() then
-					setText(arg_14_1:Find("content/Text"), i18n("island_word_go") .. pg.island_map[var_13_2].name)
-					setText(arg_14_1:Find("content/num"), "")
-				end
-			end)
 			arg_13_0:UnTrackUI()
 		end
+	else
+		arg_13_0:UnTrackUI()
 	end
+end
+
+function var_0_0.GetMapTip(arg_14_0, arg_14_1)
+	if not arg_14_1 then
+		return nil
+	end
+
+	local var_14_0 = pg.island_world_objects[arg_14_1]
+
+	if not var_14_0 then
+		return nil
+	end
+
+	if getProxy(IslandProxy):GetIsland():GetMapId() == var_14_0.mapId then
+		return nil
+	end
+
+	return i18n("island_word_go") .. pg.island_map[var_14_0.mapId].name
 end
 
 function var_0_0.UnTrackUI(arg_15_0)
@@ -159,8 +193,13 @@ function var_0_0.SetUnlock(arg_17_0)
 	end
 end
 
-function var_0_0.OnDestroy(arg_18_0)
-	arg_18_0.uiAnimEvent:SetEndEvent(nil)
+function var_0_0.Hide(arg_18_0)
+	var_0_0.super.Hide(arg_18_0)
+	arg_18_0:UnTrackUI()
+end
+
+function var_0_0.OnDestroy(arg_19_0)
+	arg_19_0.uiAnimEvent:SetEndEvent(nil)
 end
 
 return var_0_0

@@ -92,9 +92,7 @@ function var_0_0.didEnter(arg_2_0)
 	arg_2_0.closeCallBack = arg_2_0.contextData.callback
 	arg_2_0.skinId = arg_2_0.contextData.skinId
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0.ad, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0.ad)
 
 	if arg_2_0.skinId then
 		local var_2_0 = pg.ship_skin_template[arg_2_0.skinId]
@@ -339,7 +337,7 @@ function var_0_0.willExit(arg_24_0)
 		arg_24_0.closeCallBack = nil
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_24_0.ad, arg_24_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_24_0.ad, arg_24_0._tf)
 end
 
 return var_0_0

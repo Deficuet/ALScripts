@@ -229,7 +229,8 @@ function var_0_0.GetRedDots(arg_31_0)
 			pg.RedDotMgr.TYPES.SCHOOL,
 			pg.RedDotMgr.TYPES.COMMANDER,
 			pg.RedDotMgr.TYPES.DORM3D_SHOP_TIMELIMIT,
-			pg.RedDotMgr.TYPES.EDUCATE_NEW_CHILD
+			pg.RedDotMgr.TYPES.EDUCATE_NEW_CHILD,
+			pg.RedDotMgr.TYPES.ISLAND_3D
 		}),
 		SwitcherRedDotNode.New(arg_31_0._tf:Find("frame/right/switch"), {
 			pg.RedDotMgr.TYPES.COLLECTION,

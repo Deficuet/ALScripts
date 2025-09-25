@@ -665,8 +665,7 @@ function var_0_0.displayFleetInfo(arg_51_0)
 		onButton(arg_51_0, arg_51_0._costTip, function()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("use_oil_limit_help", var_51_15, var_51_13),
-				weight = LayerWeightConst.SECOND_LAYER
+				content = i18n("use_oil_limit_help", var_51_15, var_51_13)
 			})
 		end)
 	end
@@ -683,7 +682,7 @@ function var_0_0.onBackPressed(arg_61_0)
 end
 
 function var_0_0.willExit(arg_62_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_62_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_62_0._tf)
 	arg_62_0._formationLogic:Destroy()
 
 	arg_62_0._formationLogic = nil

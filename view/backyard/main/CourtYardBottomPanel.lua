@@ -105,8 +105,7 @@ function var_0_0.PlayBackYardThemeTemplate(arg_13_0)
 			modal = true,
 			hideNo = true,
 			hideClose = true,
-			content = i18n("open_backyard_theme_template_tip"),
-			weight = LayerWeightConst.TOP_LAYER
+			content = i18n("open_backyard_theme_template_tip")
 		})
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
 			storyId = "NG0020"

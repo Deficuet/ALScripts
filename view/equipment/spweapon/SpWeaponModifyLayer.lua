@@ -187,7 +187,7 @@ function var_0_0.UpdateView(arg_8_0)
 end
 
 function var_0_0.willExit(arg_21_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_21_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf)
 end
 
 return var_0_0

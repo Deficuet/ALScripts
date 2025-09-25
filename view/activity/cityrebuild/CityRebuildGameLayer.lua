@@ -475,7 +475,7 @@ function var_0_0.willExit(arg_37_0)
 	LeanTween.cancel(arg_37_0.bg1)
 	LeanTween.cancel(arg_37_0.bg2)
 	LeanTween.cancel(arg_37_0.bg3)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_37_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_37_0._tf)
 end
 
 return var_0_0

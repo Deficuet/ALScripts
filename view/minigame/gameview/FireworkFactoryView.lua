@@ -235,9 +235,7 @@ function var_0_0.didEnter(arg_8_0)
 	end
 
 	arg_8_0:ResetView()
-	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0.top, {
-		groupName = LayerWeightConst.GROUP_FIREWORK_PRODUCE
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0.top)
 
 	local var_8_2 = arg_8_0:GetMGData():GetSimpleValue("score_reference")
 	local var_8_3 = {}

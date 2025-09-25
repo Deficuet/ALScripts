@@ -206,7 +206,6 @@ function var_0_0.handleNotification(arg_22_0, arg_22_1)
 				hideNo = false,
 				hideClose = true,
 				content = var_22_11,
-				weight = LayerWeightConst.THIRD_LAYER,
 				onYes = function()
 					arg_22_0.openMsgBox = false
 
@@ -280,7 +279,6 @@ function var_0_0.HandleClassMaxLevel(arg_29_0, arg_29_1, arg_29_2, arg_29_3, arg
 			modal = true,
 			hideClose = true,
 			content = var_29_3,
-			weight = LayerWeightConst.THIRD_LAYER,
 			onYes = function()
 				arg_29_0:sendNotification(GAME.GO_SCENE, SCENE.NAVALTACTICS, {
 					shipToLesson = {

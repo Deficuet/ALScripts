@@ -17,10 +17,9 @@ function var_0_0.OnSceneInited(arg_2_0)
 	arg_2_0:DisableOp()
 
 	local var_2_0 = arg_2_0:GetSystemModule(IslandConst.SEEK_GAME_SYSTEM_ID)
-	local var_2_1 = IslandSeekGameResultView.New(arg_2_0, var_2_0.data:GetResultUIName())
 
-	var_2_1:Init()
-	table.insert(arg_2_0.views, var_2_1)
+	arg_2_0.resultView = IslandSeekGameResultView.New(arg_2_0, var_2_0.data:GetResultUIName())
+
 	var_2_0:OnSceneInitEnd()
 
 	arg_2_0.isInit = true
@@ -61,7 +60,7 @@ function var_0_0.OnGameFailed(arg_6_0)
 
 	arg_6_0:GetSystemModule(IslandConst.SEEK_GAME_SYSTEM_ID):StopGame()
 	arg_6_0:DisableOp()
-	arg_6_0:GetSubView(IslandSeekGameResultView):Show()
+	arg_6_0.resultView:Execute("Show")
 end
 
 function var_0_0.OnGameSuccess(arg_7_0)
@@ -88,25 +87,31 @@ end
 
 function var_0_0.OnEndPerformance(arg_9_0)
 	var_0_0.super.OnEndPerformance(arg_9_0)
-	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_24")
+	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_30")
 end
 
 function var_0_0.DisableOp(arg_10_0)
 	arg_10_0.player:StopMoveHandle()
 	arg_10_0:GetSubView(IslandOpView):TryDisablePlayerOp()
-	arg_10_0:GetSubView(IslandOpView):DisableInteraction()
-	arg_10_0:GetSubView(IslandOpView):Hide()
+	arg_10_0:GetSubView(IslandInteractionView):DisableInteraction()
+	arg_10_0:GetSubView(IslandOpView):TryDisable()
 end
 
 function var_0_0.EnableOp(arg_11_0)
 	arg_11_0:GetSubView(IslandOpView):TryEnablePlayerOp()
-	arg_11_0:GetSubView(IslandOpView):EnableInteraction()
-	arg_11_0:GetSubView(IslandOpView):Show()
+	arg_11_0:GetSubView(IslandInteractionView):EnableInteraction()
+	arg_11_0:GetSubView(IslandOpView):TryEnable()
 end
 
 function var_0_0.OnDispose(arg_12_0)
 	arg_12_0:Op("NotifiyIsland", ISLAND_EX_EVT.SEEK_GAME_END)
 	var_0_0.super.OnDispose(arg_12_0)
+
+	if arg_12_0.resultView then
+		arg_12_0.resultView:Dispose()
+
+		arg_12_0.resultView = nil
+	end
 end
 
 return var_0_0

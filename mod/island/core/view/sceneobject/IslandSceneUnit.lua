@@ -14,152 +14,159 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.unitType = nil
 end
 
-function var_0_0.GetDataVO(arg_2_0)
-	return arg_2_0.data
+function var_0_0.IsSelf(arg_2_0, arg_2_1)
+	return arg_2_0:GetUnitType() == arg_2_1:GetUnitType() and arg_2_0.id == arg_2_1.id
 end
 
-function var_0_0.ResetPosition(arg_3_0)
-	arg_3_0._go.transform.position = arg_3_0.position
-	arg_3_0._go.transform.eulerAngles = arg_3_0.rotation
+function var_0_0.GetDataVO(arg_3_0)
+	return arg_3_0.data
 end
 
-function var_0_0.OnInit(arg_4_0, arg_4_1, arg_4_2)
-	arg_4_0._go = arg_4_1
-	arg_4_0.builder = arg_4_2
-
-	assert(arg_4_0.builder and arg_4_0._go)
-	SetParent(arg_4_0._go, arg_4_0:GetView().root)
-
-	arg_4_0._go.name = arg_4_0.name
-	arg_4_0.behaviourTreeOwner = arg_4_0._go:GetComponent(typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner))
-
-	arg_4_0:OnAttach(arg_4_1)
-
+function var_0_0.ResetPosition(arg_4_0)
 	arg_4_0._go.transform.position = arg_4_0.position
 	arg_4_0._go.transform.eulerAngles = arg_4_0.rotation
+end
 
-	arg_4_0:OnLaterAttach(arg_4_1)
+function var_0_0.GetPosition(arg_5_0)
+	return arg_5_0._go.transform.position
+end
 
-	arg_4_0._go.transform.position = arg_4_0.position
-	arg_4_0._go.transform.eulerAngles = arg_4_0.rotation
+function var_0_0.OnInit(arg_6_0, arg_6_1, arg_6_2)
+	arg_6_0._go = arg_6_1
+	arg_6_0.builder = arg_6_2
 
-	if arg_4_0:GetView():IsInit() then
-		arg_4_0:Start()
+	assert(arg_6_0.builder and arg_6_0._go)
+	SetParent(arg_6_0._go, arg_6_0:GetView().root)
+
+	arg_6_0._go.name = arg_6_0.name
+	arg_6_0.behaviourTreeOwner = arg_6_0._go:GetComponent(typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner))
+
+	arg_6_0:OnAttach(arg_6_1)
+	arg_6_0:ResetPosition()
+	arg_6_0:OnLaterAttach(arg_6_1)
+	arg_6_0:ResetPosition()
+
+	if arg_6_0:GetView():IsInit() then
+		arg_6_0:Start()
 	end
 end
 
-function var_0_0.OnAnomalyInit(arg_5_0, arg_5_1, arg_5_2)
-	arg_5_2:Recycle(arg_5_0.data, arg_5_1)
+function var_0_0.OnAnomalyInit(arg_7_0, arg_7_1, arg_7_2)
+	arg_7_2:Recycle(arg_7_0.data, arg_7_1)
 end
 
-function var_0_0.SetUnitType(arg_6_0, arg_6_1)
-	arg_6_0.unitType = arg_6_1
+function var_0_0.SetUnitType(arg_8_0, arg_8_1)
+	arg_8_0.unitType = arg_8_1
 end
 
-function var_0_0.GetUnitType(arg_7_0)
-	return arg_7_0.unitType
+function var_0_0.GetUnitType(arg_9_0)
+	return arg_9_0.unitType
 end
 
-function var_0_0.Start(arg_8_0)
-	arg_8_0:SetupBt()
-	arg_8_0:OnStart()
+function var_0_0.Start(arg_10_0)
+	arg_10_0:SetupBt()
+	arg_10_0:OnStart()
 end
 
-function var_0_0.OnDispose(arg_9_0)
-	arg_9_0:OnDetach()
-	arg_9_0:ClearBt()
-	arg_9_0.builder:Recycle(arg_9_0.data, arg_9_0._go)
+function var_0_0.OnDispose(arg_11_0)
+	arg_11_0:OnDetach()
+	arg_11_0:ClearBt()
+	arg_11_0.builder:Recycle(arg_11_0.data, arg_11_0._go)
 
-	arg_9_0._go = nil
+	arg_11_0._go = nil
 end
 
-function var_0_0.Dispose(arg_10_0)
-	var_0_0.super.Dispose(arg_10_0)
+function var_0_0.Dispose(arg_12_0)
+	var_0_0.super.Dispose(arg_12_0)
 
-	arg_10_0.builder = nil
+	arg_12_0.builder = nil
 end
 
-function var_0_0.SetupBt(arg_11_0)
-	if not arg_11_0.behaviourTreeOwner then
-		return
-	end
-
-	arg_11_0.behaviourTreeOwner:StartBehaviour()
-end
-
-function var_0_0.RestartBt(arg_12_0)
-	if not arg_12_0.behaviourTreeOwner then
-		return
-	end
-
-	arg_12_0.behaviourTreeOwner:RestartBehaviour()
-end
-
-function var_0_0.PauseBt(arg_13_0)
+function var_0_0.SetupBt(arg_13_0)
 	if not arg_13_0.behaviourTreeOwner then
 		return
 	end
 
-	arg_13_0.behaviourTreeOwner:PauseBehaviour()
+	arg_13_0.behaviourTreeOwner:StartBehaviour()
 end
 
-function var_0_0.StopBt(arg_14_0)
+function var_0_0.RestartBt(arg_14_0)
 	if not arg_14_0.behaviourTreeOwner then
 		return
 	end
 
-	arg_14_0.behaviourTreeOwner:StopBehaviour()
+	arg_14_0.behaviourTreeOwner:RestartBehaviour()
 end
 
-function var_0_0.ClearBt(arg_15_0)
-	arg_15_0:StopBt()
-
-	arg_15_0.behaviourTreeOwner = nil
-end
-
-function var_0_0.Enable(arg_16_0)
-	if not arg_16_0:IsLoaded() then
+function var_0_0.PauseBt(arg_15_0)
+	if not arg_15_0.behaviourTreeOwner then
 		return
 	end
 
-	setActive(arg_16_0._go, true)
-	arg_16_0:ActiveOrDisactive(true)
+	arg_15_0.behaviourTreeOwner:PauseBehaviour()
 end
 
-function var_0_0.Disable(arg_17_0)
-	if not arg_17_0:IsLoaded() then
+function var_0_0.StopBt(arg_16_0)
+	if not arg_16_0.behaviourTreeOwner then
 		return
 	end
 
-	setActive(arg_17_0._go, false)
-	arg_17_0:ActiveOrDisactive(false)
+	arg_16_0.behaviourTreeOwner:StopBehaviour()
 end
 
-function var_0_0.ActiveOrDisactive(arg_18_0, arg_18_1)
-	arg_18_0.active = arg_18_1
+function var_0_0.ClearBt(arg_17_0)
+	arg_17_0:StopBt()
+
+	arg_17_0.behaviourTreeOwner = nil
 end
 
-function var_0_0.Update(arg_19_0)
-	if not arg_19_0.active then
+function var_0_0.Enable(arg_18_0)
+	if not arg_18_0:IsLoaded() then
 		return
 	end
 
-	var_0_0.super.Update(arg_19_0)
+	setActive(arg_18_0._go, true)
+	arg_18_0:ActiveOrDisactive(true)
 end
 
-function var_0_0.OnAttach(arg_20_0, arg_20_1)
+function var_0_0.Disable(arg_19_0)
+	if not arg_19_0:IsLoaded() then
+		return
+	end
+
+	setActive(arg_19_0._go, false)
+	arg_19_0:ActiveOrDisactive(false)
+end
+
+function var_0_0.ActiveOrDisactive(arg_20_0, arg_20_1)
+	arg_20_0.active = arg_20_1
+end
+
+function var_0_0.Update(arg_21_0)
+	if not arg_21_0.active then
+		return
+	end
+
+	var_0_0.super.Update(arg_21_0)
+end
+
+function var_0_0.IsActive(arg_22_0)
+	return arg_22_0.active
+end
+
+function var_0_0.OnAttach(arg_23_0, arg_23_1)
 	return
 end
 
-function var_0_0.OnLaterAttach(arg_21_0, arg_21_1)
+function var_0_0.OnLaterAttach(arg_24_0, arg_24_1)
 	return
 end
 
-function var_0_0.OnStart(arg_22_0)
+function var_0_0.OnStart(arg_25_0)
 	return
 end
 
-function var_0_0.OnDetach(arg_23_0)
+function var_0_0.OnDetach(arg_26_0)
 	return
 end
 

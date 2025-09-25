@@ -23,7 +23,6 @@ function var_0_0.Execute(arg_1_0, arg_1_1)
 			hideClose = true,
 			type = MSGBOX_TYPE_JUST_FOR_SHOW,
 			title = pg.MsgboxMgr.TITLE_INFORMATION,
-			weight = LayerWeightConst.TOP_LAYER,
 			onClose = var_1_2,
 			onYes = var_1_2
 		})

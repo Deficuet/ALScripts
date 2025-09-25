@@ -111,54 +111,57 @@ function var_0_0.CheckTarget(arg_7_0)
 
 			return var_8_0 and not var_8_0:GetTargetById(arg_8_0[2]):IsFinish()
 		end)
+		local var_7_3 = underscore.map(var_7_2, function(arg_9_0)
+			return arg_9_0[1]
+		end)
 
-		return var_0_0.GetFirstPriorityId(var_7_2)
+		return var_0_0.GetFirstPriorityId(var_7_3)
 	end
 
 	return nil
 end
 
-function var_0_0.GetFirstPriorityId(arg_9_0)
-	table.sort(arg_9_0, CompareFuncs({
-		function(arg_10_0)
-			local var_10_0 = IslandTaskType.Type2ShowType[pg.island_task[arg_10_0].type]
-
-			return IslandTaskType.GetHudPriority(var_10_0)
-		end,
+function var_0_0.GetFirstPriorityId(arg_10_0)
+	table.sort(arg_10_0, CompareFuncs({
 		function(arg_11_0)
-			return arg_11_0
+			local var_11_0 = IslandTaskType.Type2ShowType[pg.island_task[arg_11_0].type]
+
+			return IslandTaskType.GetHudPriority(var_11_0)
+		end,
+		function(arg_12_0)
+			return arg_12_0
 		end
 	}))
 
-	return arg_9_0[1]
+	return arg_10_0[1]
 end
 
-function var_0_0.GetObjectTaskHud(arg_12_0)
-	local var_12_0 = var_0_0.CheckSubmit(arg_12_0)
+function var_0_0.GetObjectTaskHud(arg_13_0)
+	local var_13_0 = var_0_0.CheckSubmit(arg_13_0)
 
-	if var_12_0 then
-		return var_0_0.TYPE_SUBMIT, var_12_0
+	if var_13_0 then
+		return var_0_0.TYPE_SUBMIT, var_13_0
 	end
 
-	local var_12_1 = var_0_0.CheckAccept(arg_12_0)
+	local var_13_1 = var_0_0.CheckAccept(arg_13_0)
 
-	if var_12_1 then
-		return var_0_0.TYPE_ACCEPT, var_12_1
+	if var_13_1 then
+		return var_0_0.TYPE_ACCEPT, var_13_1
 	end
 
-	local var_12_2 = var_0_0.CheckTarget(arg_12_0)
+	local var_13_2 = var_0_0.CheckTarget(arg_13_0)
 
-	if var_12_2 then
-		return var_0_0.TYPE_TARGET, var_12_2
+	if var_13_2 then
+		return var_0_0.TYPE_TARGET, var_13_2
 	end
 
 	return var_0_0.TYPE_NORMAL, nil
 end
 
-function var_0_0.GetHudDislayInfoByTaskId(arg_13_0)
-	local var_13_0 = IslandTaskType.Type2ShowType[pg.island_task[arg_13_0].type]
+function var_0_0.GetHudDislayInfoByTaskId(arg_14_0)
+	local var_14_0 = IslandTaskType.Type2ShowType[pg.island_task[arg_14_0].type]
 
-	return switch(var_13_0, {
+	return switch(var_14_0, {
 		[IslandTaskType.SHOW_MAIN] = function()
 			return "hud_main", "39befe"
 		end,
@@ -175,7 +178,7 @@ function var_0_0.GetHudDislayInfoByTaskId(arg_13_0)
 			return "hud_activity", "eed073"
 		end
 	}, function()
-		assert(false, "not exist task showType: " .. var_13_0)
+		assert(false, "not exist task showType: " .. var_14_0)
 	end)
 end
 

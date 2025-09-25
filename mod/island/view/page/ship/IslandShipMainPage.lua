@@ -13,11 +13,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.backBtn = arg_2_0:findTF("adapt/left_panel/back")
-	arg_2_0.homeBtn = arg_2_0:findTF("adapt/home")
+	arg_2_0.backBtn = arg_2_0:findTF("top/back")
+	arg_2_0.homeBtn = arg_2_0:findTF("top/home")
 	arg_2_0.leftPanel = arg_2_0:findTF("adapt/left_panel")
 	arg_2_0.dockBtn = arg_2_0:findTF("adapt/left_panel/dock_btn")
-	arg_2_0.togglePanel = arg_2_0:findTF("adapt/toggles")
+	arg_2_0.togglePanel = arg_2_0:findTF("top/toggles")
 	arg_2_0.shipRect = arg_2_0:findTF("adapt/left_panel/ships"):GetComponent("LScrollRect")
 	arg_2_0.shipContainer = arg_2_0:findTF("adapt/left_panel/ships/content")
 
@@ -30,10 +30,10 @@ function var_0_0.OnLoaded(arg_2_0)
 	end
 
 	arg_2_0.toggles = {
-		[var_0_0.PAGE_INFO] = arg_2_0:findTF("adapt/toggles/info"),
-		[var_0_0.PAGE_DRESS] = arg_2_0:findTF("adapt/toggles/dress"),
-		[var_0_0.PAGE_STATUS] = arg_2_0:findTF("adapt/toggles/gift"),
-		[var_0_0.PAGE_PROFILE] = arg_2_0:findTF("adapt/toggles/data")
+		[var_0_0.PAGE_INFO] = arg_2_0:findTF("top/toggles/info"),
+		[var_0_0.PAGE_DRESS] = arg_2_0:findTF("top/toggles/dress"),
+		[var_0_0.PAGE_STATUS] = arg_2_0:findTF("top/toggles/gift"),
+		[var_0_0.PAGE_PROFILE] = arg_2_0:findTF("top/toggles/data")
 	}
 	arg_2_0.pages = {
 		[var_0_0.PAGE_INFO] = IslandShipInfoPage,
@@ -44,11 +44,12 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.cards = {}
 
 	setActive(arg_2_0.togglePanel, true)
-	setText(arg_2_0:findTF("adapt/left_panel/title/Text"), i18n("island_word_ship_desc"))
+	setText(arg_2_0:findTF("top/title/Text"), i18n("island_chara_totalname"))
+	setText(arg_2_0:findTF("top/title/Text/en"), i18n("island_chara_totalname_en"))
 end
 
 function var_0_0.GetSmoothRotateObject(arg_5_0)
-	return GetOrAddComponent(arg_5_0:findTF("adapt/char"), typeof(SmoothRotateObject))
+	return arg_5_0:findTF("adapt/char")
 end
 
 function var_0_0.AddListeners(arg_6_0)
@@ -109,7 +110,6 @@ function var_0_0.OnInit(arg_14_0)
 	onButton(arg_14_0, arg_14_0.homeBtn, function()
 		arg_14_0:OnHome()
 	end, SFX_PANEL)
-	setActive(arg_14_0.homeBtn, not ISLAND_PLAYER_TESTING)
 	onButton(arg_14_0, arg_14_0.backBtn, function()
 		if arg_14_0.childPage then
 			arg_14_0.childPage:CheckInReturn(function()
@@ -155,13 +155,6 @@ function var_0_0.SwitchPage(arg_21_0, arg_21_1)
 	local var_21_0 = arg_21_0.pages[arg_21_1]
 
 	if arg_21_1 == 1 then
-		if not arg_21_0.shipDressHelper then
-			arg_21_0.shipDressHelper = IslandShipDressHelperNew.New()
-		end
-
-		arg_21_0.shipDressHelper:SetShipId(arg_21_0.contextData.selectedId)
-		arg_21_0.shipDressHelper:OnRoleLoaded(arg_21_0.role.transform, arg_21_0.modelData)
-
 		arg_21_0.childPage = arg_21_0:OpenPage(var_21_0, arg_21_0.contextData.selectedId, false, arg_21_0.shipDressHelper, function(arg_22_0)
 			arg_21_0:SetObjInitRotaion(arg_22_0)
 		end)
@@ -301,6 +294,11 @@ function var_0_0.UpdateMainView(arg_36_0, arg_36_1)
 		return
 	end
 
+	if not arg_36_0.shipDressHelper then
+		arg_36_0.shipDressHelper = IslandShipDressHelperNew.New()
+	end
+
+	arg_36_0.shipDressHelper:SetShipId(arg_36_1.configId)
 	arg_36_0:LoadCharacter(arg_36_1:GetModel())
 
 	arg_36_0.contextData.selectedId = arg_36_1.configId
@@ -346,10 +344,11 @@ end
 
 function var_0_0.SetObjInitRotaion(arg_41_0, arg_41_1)
 	local var_41_0 = arg_41_0:GetSmoothRotateObject()
+	local var_41_1 = GetOrAddComponent(var_41_0, typeof(SmoothRotateObject))
 
-	var_41_0.rotationSpeed = 5
+	var_41_1.rotationSpeed = 5
 
-	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", var_41_0, arg_41_1)
+	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", var_41_1, arg_41_1)
 
 	if arg_41_0.timer then
 		arg_41_0.timer:Stop()
@@ -358,7 +357,7 @@ function var_0_0.SetObjInitRotaion(arg_41_0, arg_41_1)
 	arg_41_0.timer = Timer.New(function()
 		local var_42_0 = pg.island_set.character_detail_camera_speed.key_value_int
 
-		var_41_0.rotationSpeed = var_42_0
+		var_41_1.rotationSpeed = var_42_0
 	end, 0.5, 1)
 
 	arg_41_0.timer:Start()

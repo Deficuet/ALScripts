@@ -401,7 +401,7 @@ function var_0_0.GetOffset(arg_42_0)
 	return MainPaintingView.MESH_POSITION_X_OFFSET
 end
 
-function var_0_0.OnPuase(arg_43_0)
+function var_0_0.OnPause(arg_43_0)
 	arg_43_0:StopBreath()
 end
 
@@ -427,7 +427,7 @@ function var_0_0.OnUnload(arg_46_0)
 	end
 end
 
-function var_0_0.OnPuase(arg_47_0)
+function var_0_0.OnPause(arg_47_0)
 	arg_47_0:ClearEffect()
 end
 

@@ -23,16 +23,14 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			content = i18n("island_rename_tip"),
 			onYes = function()
 				arg_1_0:Send(var_1_1, var_1_2)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("island_rename_confirm", var_1_1),
 			onYes = function()
 				arg_1_0:Send(var_1_1, var_1_2)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	end
 end
@@ -62,7 +60,9 @@ function var_0_0.Send(arg_4_0, arg_4_1, arg_4_2)
 			end
 
 			var_5_0:SetName(arg_4_1)
-			arg_4_0:sendNotification(GAME.ISLAND_SET_NAME_DONE)
+			arg_4_0:sendNotification(GAME.ISLAND_SET_NAME_DONE, {
+				name = arg_4_1
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_5_0.ret] .. arg_5_0.ret)
 		end

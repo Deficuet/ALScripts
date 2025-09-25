@@ -629,7 +629,7 @@ end
 function var_0_0.willExit(arg_51_0)
 	arg_51_0:RemoveTimer()
 	arg_51_0:RemoveAllTimers()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_51_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_51_0._tf)
 end
 
 function var_0_0.ShouldShowTip()

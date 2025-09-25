@@ -12,15 +12,13 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_3_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = arg_3_0:getWeightFromData()
-	})
+	arg_3_0:BlurPanel(arg_3_0._tf)
 	arg_3_0:updateTypeList()
 	triggerToggle(arg_3_0.typeContainer:GetChild(0), true)
 end
 
 function var_0_0.willExit(arg_4_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_4_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_4_0._tf)
 	arg_4_0.resLoader:Clear()
 end
 
@@ -267,7 +265,7 @@ function var_0_0.updateAttrTF(arg_32_0, arg_32_1, arg_32_2)
 			arg_32_0:setAttrValue(arg_32_0.curType, var_32_8, var_36_0)
 			setText(var_32_1, var_36_0)
 		elseif not var_36_0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("attrset_input_ill"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("attrset_input_ill"))
 		end
 
 		setInputText(var_32_7, "")
@@ -294,8 +292,7 @@ function var_0_0.openSaveBox(arg_39_0, arg_39_1, arg_39_2, arg_39_3)
 		content = i18n("attrset_ask_save"),
 		onYes = arg_39_1,
 		onNo = arg_39_2,
-		onClose = arg_39_3,
-		weight = LayerWeightConst.TOP_LAYER
+		onClose = arg_39_3
 	})
 end
 

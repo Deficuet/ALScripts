@@ -197,8 +197,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 					arg_1_0:sendNotification(GAME.ISLAND_SHOP_OP_DONE, {
 						operation = var_1_0.operation,
-						awards = arg_7_0.drop_list,
-						ptAward = var_7_1
+						awards = var_7_2.awards
 					})
 
 					if var_1_0.callback then

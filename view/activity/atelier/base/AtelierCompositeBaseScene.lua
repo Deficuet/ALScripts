@@ -523,9 +523,7 @@ function var_0_0.OnCompositeResult(arg_51_0, arg_51_1)
 	local var_51_1 = 0.5
 
 	arg_51_0.loader:GetPrefab("ui/" .. arg_51_0:GetAtelierCompositEffect(), "", function(arg_52_0)
-		pg.UIMgr.GetInstance():OverlayPanel(tf(arg_52_0), {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		pg.UIMgr.GetInstance():OverlayPanel(tf(arg_52_0))
 		setAnchoredPosition(arg_52_0, arg_51_0:GetAtelierCompositEffectPos())
 		arg_51_0:managedTween(LeanTween.alphaCanvas, nil, GetComponent(arg_51_0._tf, typeof(CanvasGroup)), 0, var_51_0):setFrom(1)
 		arg_51_0:managedTween(LeanTween.alphaCanvas, nil, GetComponent(arg_51_0.top, typeof(CanvasGroup)), 0, var_51_0):setFrom(1)

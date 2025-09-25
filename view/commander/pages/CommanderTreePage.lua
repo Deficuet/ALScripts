@@ -20,7 +20,7 @@ function var_0_0.OnInit(arg_2_0)
 	setText(arg_2_0._tf:Find("Text"), i18n("commander_choice_talent_4"))
 end
 
-function var_0_0.Show(arg_5_0, arg_5_1, arg_5_2)
+function var_0_0.Show(arg_5_0, arg_5_1)
 	setActive(arg_5_0.treePanel, true)
 	arg_5_0.treePanel:SetAsLastSibling()
 
@@ -50,9 +50,7 @@ function var_0_0.Show(arg_5_0, arg_5_1, arg_5_2)
 		end
 	end)
 	arg_5_0.treeList:align(#var_5_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf, false, {
-		weight = arg_5_2 or LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf)
 end
 
 function var_0_0.Hide(arg_9_0)
@@ -61,7 +59,7 @@ end
 
 function var_0_0.closeTreePanel(arg_10_0)
 	setActive(arg_10_0.treePanel, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf, arg_10_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_11_0)

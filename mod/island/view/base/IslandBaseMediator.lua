@@ -3,57 +3,99 @@ local var_0_0 = class("IslandBaseMediator", import("view.base.ContextMediator"))
 var_0_0.SET_UP = "IslandBaseScene:SET_UP"
 var_0_0.SWITCH_MAP = "IslandBaseMediator:SWITCH_MAP"
 var_0_0.RECORD_PLAYER_POS = "IslandBaseMediator:RECORD_PLAYER_POS"
+var_0_0.ANIMATION_OP = "IslandBaseMediator:ANIMATION_OP"
+var_0_0.SEND_CHAT = "IslandBaseMediator:SEND_CHAT"
+var_0_0.CHANGE_CHAT_ROOM = "IslandBaseMediator:CHANGE_CHAT_ROOM"
+var_0_0.OPEN_FRIEND_INFO = "IslandBaseMediator:OPEN_FRIEND_INFO"
 
 function var_0_0.register(arg_1_0)
-	arg_1_0:bind(var_0_0.SET_UP, function(arg_2_0)
+	arg_1_0:bind(var_0_0.OPEN_FRIEND_INFO, function(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
+		arg_1_0.friendInfoPosition = arg_2_2
+		arg_1_0.friendInfoMsg = arg_2_3
+
+		arg_1_0:sendNotification(GAME.FRIEND_SEARCH, {
+			type = SearchFriendCommand.SEARCH_TYPE_RESUME,
+			keyword = arg_2_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.CHANGE_CHAT_ROOM, function(arg_3_0, arg_3_1)
+		if not arg_3_1 then
+			return
+		end
+
+		if arg_3_1 <= 0 or arg_3_1 == "" then
+			return
+		end
+
+		arg_1_0:sendNotification(GAME.CHANGE_CHAT_ROOM, arg_3_1)
+	end)
+	arg_1_0:bind(var_0_0.SEND_CHAT, function(arg_4_0, arg_4_1, arg_4_2)
+		local var_4_0 = arg_1_0.viewComponent:GetIsland()
+
+		arg_1_0:sendNotification(GAME.ISLAND_SEND_CHAT, {
+			channel = arg_4_1,
+			islandId = var_4_0.id,
+			msg = arg_4_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.ANIMATION_OP, function(arg_5_0, arg_5_1, arg_5_2)
+		local var_5_0 = arg_1_0.viewComponent:GetIsland()
+
+		arg_1_0:sendNotification(GAME.ISLAND_ANIMATION_OP, {
+			islandId = var_5_0.id,
+			targetId = arg_5_1,
+			actionId = arg_5_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.SET_UP, function(arg_6_0)
 		arg_1_0:SetUp()
 	end)
-	arg_1_0:bind(var_0_0.SWITCH_MAP, function(arg_3_0, arg_3_1, arg_3_2)
-		local var_3_0 = arg_1_0.viewComponent:GetIsland()
+	arg_1_0:bind(var_0_0.SWITCH_MAP, function(arg_7_0, arg_7_1, arg_7_2)
+		local var_7_0 = arg_1_0.viewComponent:GetIsland()
 
-		if not var_3_0:GetAblityAgency():IsUnlockMap(arg_3_1) then
+		if not var_7_0:GetAblityAgency():IsUnlockMap(arg_7_1) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("island_lock_map_tip"))
 
 			return
 		end
 
 		arg_1_0:sendNotification(GAME.ISLAND_ENTER_MAP, {
-			islandId = var_3_0.id,
-			mapId = arg_3_1,
+			islandId = var_7_0.id,
+			mapId = arg_7_1,
 			callback = function()
-				local var_4_0 = pg.island_world_objects[arg_3_2]
+				local var_8_0 = pg.island_world_objects[arg_7_2]
 
-				if var_4_0 then
-					local var_4_1 = BuildVector3(var_4_0.param.position)
-					local var_4_2 = BuildVector3(var_4_0.param.rotation)
+				if var_8_0 then
+					local var_8_1 = BuildVector3(var_8_0.param.position)
+					local var_8_2 = BuildVector3(var_8_0.param.rotation)
 
-					arg_1_0:RecordPlayerPosition(arg_3_1, var_4_1, var_4_2)
+					arg_1_0:RecordPlayerPosition(arg_7_1, var_8_1, var_8_2)
 				end
 
-				arg_1_0:SwitchScene(arg_3_1, arg_3_2)
+				arg_1_0:SwitchScene(arg_7_1, arg_7_2)
 			end
 		})
 	end)
-	arg_1_0:bind(var_0_0.RECORD_PLAYER_POS, function(arg_5_0)
+	arg_1_0:bind(var_0_0.RECORD_PLAYER_POS, function(arg_9_0)
 		if not _IslandCore then
 			return
 		end
 
-		local var_5_0 = _IslandCore:GetController().mapId
-		local var_5_1 = _IslandCore:GetView().player
+		local var_9_0 = _IslandCore:GetController().mapId
+		local var_9_1 = _IslandCore:GetView().player
 
-		if not var_5_1 then
+		if not var_9_1 then
 			return
 		end
 
-		local var_5_2, var_5_3 = var_5_1:LastGroundedPosition()
+		local var_9_2, var_9_3 = var_9_1:LastGroundedPosition()
 
-		arg_1_0:RecordPlayerPosition(var_5_0, var_5_2, var_5_3)
+		arg_1_0:RecordPlayerPosition(var_9_0, var_9_2, var_9_3)
 	end)
 	arg_1_0:_register()
 end
 
-function var_0_0.RecordPlayerPosition(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
+function var_0_0.RecordPlayerPosition(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 	if not _IslandCore then
 		return
 	end
@@ -62,77 +104,126 @@ function var_0_0.RecordPlayerPosition(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
 		return
 	end
 
-	arg_6_0:sendNotification(GAME.ISLAND_RECORD_LAST_EXIT_POS, {
-		islandId = arg_6_0.viewComponent:GetIsland().id,
-		mapId = arg_6_1,
-		position = arg_6_2,
-		rotation = arg_6_3
+	arg_10_0:sendNotification(GAME.ISLAND_RECORD_LAST_EXIT_POS, {
+		islandId = arg_10_0.viewComponent:GetIsland().id,
+		mapId = arg_10_1,
+		position = arg_10_2,
+		rotation = arg_10_3
 	})
 end
 
-function var_0_0.listNotificationInterests(arg_7_0)
-	return arg_7_0:_listNotificationInterests()
-end
+function var_0_0.listNotificationInterests(arg_11_0)
+	local var_11_0 = {
+		ChatProxy.NEW_MSG,
+		FriendProxy.FRIEND_NEW_MSG,
+		GuildProxy.NEW_MSG_ADDED,
+		IslandProxy.CHAT_MSG_UPDATE,
+		GAME.CHANGE_CHAT_ROOM_DONE,
+		GAME.FRIEND_SEARCH_DONE,
+		GAME.ON_APPLICATION_PAUSE,
+		GAME.ISLAND_ON_HOME
+	}
+	local var_11_1 = arg_11_0:_listNotificationInterests()
 
-function var_0_0.handleNotification(arg_8_0, arg_8_1)
-	local var_8_0 = arg_8_1:getName()
-	local var_8_1 = arg_8_1:getBody()
-
-	arg_8_0:_handleNotification(arg_8_1)
-	arg_8_0.viewComponent:emit(var_8_0, var_8_1)
-end
-
-function var_0_0.SetUp(arg_9_0)
-	local var_9_0 = arg_9_0.viewComponent:GetIsland()
-	local var_9_1 = var_9_0.mapID
-	local var_9_2 = var_9_0.spawnPointId
-
-	_IslandCore = IslandCore.New(arg_9_0.viewComponent:GetPoolMgr(), var_9_0)
-
-	arg_9_0.viewComponent:OnSetUpCore(var_9_1, var_9_2)
-end
-
-function var_0_0.SwitchScene(arg_10_0, arg_10_1, arg_10_2)
-	local var_10_0 = arg_10_0.viewComponent:GetIsland()
-
-	var_10_0:SetMapId(arg_10_1)
-
-	if arg_10_2 then
-		var_10_0:SetSpawnPointId(arg_10_2)
+	for iter_11_0, iter_11_1 in ipairs(var_11_1) do
+		if not table.contains(var_11_0, iter_11_1) then
+			table.insert(var_11_0, iter_11_1)
+		end
 	end
 
-	arg_10_0:UnloadScene()
-	arg_10_0:SetUp()
+	return var_11_0
 end
 
-function var_0_0.UnloadScene(arg_11_0, arg_11_1)
-	arg_11_0.viewComponent:OnUnloadScene()
+function var_0_0.handleNotification(arg_12_0, arg_12_1)
+	local var_12_0 = arg_12_1:getName()
+	local var_12_1 = arg_12_1:getBody()
+
+	if var_12_0 == ChatProxy.NEW_MSG or var_12_0 == FriendProxy.FRIEND_NEW_MSG or var_12_0 == GuildProxy.NEW_MSG_ADDED or var_12_0 == IslandProxy.CHAT_MSG_UPDATE then
+		arg_12_0.viewComponent:emitCore(ISLAND_EVT.CHAT_MSG_UPDATE)
+
+		if var_12_0 == IslandProxy.CHAT_MSG_UPDATE and var_12_1.islandId == arg_12_0.viewComponent:GetIsland().id then
+			arg_12_0.viewComponent:emitCore(ISLAND_EVT.SHOW_CHAT_MSG, var_12_1.msg)
+		end
+	elseif var_12_0 == GAME.CHANGE_CHAT_ROOM_DONE then
+		arg_12_0.viewComponent:emitCore(ISLAND_EVT.CHAT_ROOM_UPDATE)
+	elseif var_12_0 == GAME.FRIEND_SEARCH_DONE and var_12_1.list[1] and var_12_1.type == SearchFriendCommand.SEARCH_TYPE_RESUME then
+		arg_12_0:addSubLayers(Context.New({
+			viewComponent = IslandFriendInfoLayer,
+			mediator = FriendInfoMediator,
+			data = {
+				friend = var_12_1.list[1],
+				msg = arg_12_0.friendInfoMsg,
+				pos = arg_12_0.friendInfoPosition
+			}
+		}))
+
+		arg_12_0.friendInfoPosition = nil
+		arg_12_0.friendInfoMsg = nil
+	elseif var_12_0 == GAME.ON_APPLICATION_PAUSE then
+		if not var_12_1 and _IslandCore then
+			arg_12_0:sendNotification(GAME.ISLAND_RECONNECT, {
+				islandId = _IslandCore:GetController():GetIsland().id
+			})
+		end
+	elseif var_12_0 == GAME.ISLAND_ON_HOME then
+		arg_12_0.viewComponent:emit(BaseUI.ON_HOME)
+	end
+
+	arg_12_0:_handleNotification(arg_12_1)
+	arg_12_0.viewComponent:emit(var_12_0, var_12_1)
+end
+
+function var_0_0.SetUp(arg_13_0)
+	local var_13_0 = arg_13_0.viewComponent:GetIsland()
+	local var_13_1 = var_13_0.mapID
+	local var_13_2 = var_13_0.spawnPointId
+
+	_IslandCore = IslandCore.New(arg_13_0.viewComponent:GetPoolMgr(), var_13_0, arg_13_0.viewComponent._container)
+
+	arg_13_0.viewComponent:OnSetUpCore(var_13_1, var_13_2)
+end
+
+function var_0_0.SwitchScene(arg_14_0, arg_14_1, arg_14_2)
+	local var_14_0 = arg_14_0.viewComponent:GetIsland()
+
+	var_14_0:SetMapId(arg_14_1)
+
+	if arg_14_2 then
+		var_14_0:SetSpawnPointId(arg_14_2)
+	end
+
+	arg_14_0:UnloadScene()
+	arg_14_0:SetUp()
+end
+
+function var_0_0.UnloadScene(arg_15_0, arg_15_1)
+	arg_15_0.viewComponent:OnUnloadScene()
 
 	if _IslandCore then
-		_IslandCore:Dispose(arg_11_1)
+		_IslandCore:Dispose(arg_15_1)
 
 		_IslandCore = nil
 	end
 end
 
-function var_0_0.remove(arg_12_0)
-	arg_12_0:UnloadScene(true)
-	arg_12_0:_remove()
+function var_0_0.remove(arg_16_0)
+	arg_16_0:UnloadScene(true)
+	arg_16_0:_remove()
 end
 
-function var_0_0._register(arg_13_0)
+function var_0_0._register(arg_17_0)
 	return
 end
 
-function var_0_0._listNotificationInterests(arg_14_0)
+function var_0_0._listNotificationInterests(arg_18_0)
 	return {}
 end
 
-function var_0_0._handleNotification(arg_15_0, arg_15_1)
+function var_0_0._handleNotification(arg_19_0, arg_19_1)
 	return
 end
 
-function var_0_0._remove(arg_16_0)
+function var_0_0._remove(arg_20_0)
 	return
 end
 

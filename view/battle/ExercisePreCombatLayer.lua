@@ -137,8 +137,7 @@ function var_0_0.didEnter(arg_18_0)
 							arg_20_0()
 						end)
 					end,
-					onNo = arg_20_0,
-					weight = LayerWeightConst.TOP_LAYER
+					onNo = arg_20_0
 				})
 			end)
 		end
@@ -167,8 +166,7 @@ function var_0_0.didEnter(arg_18_0)
 							pg.TipsMgr.GetInstance():ShowTips(i18n("battle_preCombatLayer_save_success"))
 							arg_26_0()
 						end)
-					end,
-					weight = LayerWeightConst.TOP_LAYER
+					end
 				})
 			end)
 		end

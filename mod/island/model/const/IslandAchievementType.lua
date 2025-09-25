@@ -35,8 +35,9 @@ var_0_0.NPC_INTERACT = 32
 var_0_0.FURNITURE = 33
 var_0_0.BUILDING_DELEGATE_PLUS = 34
 var_0_0.SHIP_DISPATCH_PLUS = 35
-var_0_0.NPC_INTERACT_TYPE_TALK = 1
-var_0_0.NPC_INTERACT_TYPE_HELLO = 2
+var_0_0.ACTION = 36
+var_0_0.TAKE_PHOTO = 37
+var_0_0.DRAW_AWARD = 38
 
 function var_0_0.GetAttrTypes()
 	return {
@@ -69,13 +70,14 @@ function var_0_0.GetRuntimeTypes()
 		var_0_0.FINISH_TECH,
 		var_0_0.FINISH_TYPE_TECH,
 		var_0_0.RESTAURANT_SALES,
-		var_0_0.FURNITURE
+		var_0_0.FURNITURE,
+		var_0_0.ACTION
 	}
 end
 
 function var_0_0.GetClientTypes()
 	return {
-		var_0_0.NPC_INTERACT
+		var_0_0.TAKE_PHOTO
 	}
 end
 

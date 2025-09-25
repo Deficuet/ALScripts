@@ -14,7 +14,7 @@ function var_0_0.OnDestroy(arg_3_0)
 	arg_3_0.onConfirm = nil
 	arg_3_0.onCancel = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_3_0._tf, arg_3_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_3_0._tf, arg_3_0._parentTf)
 end
 
 function var_0_0.setCBFunc(arg_4_0, arg_4_1, arg_4_2)

@@ -18,9 +18,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
 	arg_2_0.awards = _.select(arg_2_0.contextData.items or {}, function(arg_3_0)
 		return arg_3_0.type ~= DROP_TYPE_ICON_FRAME and arg_3_0.type ~= DROP_TYPE_CHAT_FRAME and arg_3_0.type ~= DROP_TYPE_LIVINGAREA_COVER
@@ -349,7 +347,7 @@ end
 function var_0_0.willExit(arg_30_0)
 	arg_30_0:RemoveCloseTimer()
 	setActive(arg_30_0.spriteMask, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_30_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_30_0._tf)
 
 	if arg_30_0.title ~= var_0_0.TITLE.SHIP then
 		for iter_30_0 = 0, arg_30_0.container.childCount - 1 do

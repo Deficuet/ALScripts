@@ -15,7 +15,7 @@ function var_0_0.getUIName(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, nil, {})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 	arg_3_0:InitUI()
 end
 
@@ -301,7 +301,7 @@ function var_0_0.ShowDropDetail(arg_30_0, arg_30_1)
 end
 
 function var_0_0.willExit(arg_31_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_31_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_31_0._tf)
 end
 
 function var_0_0.onCancelHard(arg_32_0)

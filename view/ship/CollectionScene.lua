@@ -120,7 +120,6 @@ function var_0_0.init(arg_9_0)
 	arg_9_0.blurPanel = arg_9_0:findTF("blur_panel")
 	arg_9_0.top = arg_9_0:findTF("blur_panel/adapt/top")
 	arg_9_0.leftPanel = arg_9_0:findTF("blur_panel/adapt/left_length")
-	arg_9_0.UIMgr = pg.UIMgr.GetInstance()
 	arg_9_0.backBtn = findTF(arg_9_0.top, "back_btn")
 	arg_9_0.contextData.toggle = arg_9_0.contextData.toggle or 2
 	arg_9_0.toggles = {
@@ -244,14 +243,12 @@ function var_0_0.didEnter(arg_17_0)
 		if arg_17_0.contextData.toggle == var_0_0.MUSIC_INDEX then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.NewMusic_help.tip,
-				weight = LayerWeightConst.THIRD_LAYER
+				helps = pg.gametip.NewMusic_help.tip
 			})
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.collection_help.tip,
-				weight = LayerWeightConst.THIRD_LAYER
+				helps = pg.gametip.collection_help.tip
 			})
 		end
 	end, SFX_PANEL)
@@ -381,9 +378,7 @@ function var_0_0.didEnter(arg_17_0)
 	end
 
 	arg_17_0:calFavoriteRate()
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_17_0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_COLLECTION
-	})
+	arg_17_0:OverlayPanel(arg_17_0.blurPanel)
 	onButton(arg_17_0, arg_17_0.bonusPanel, function()
 		arg_17_0:closeBonus()
 	end, SFX_PANEL)
@@ -761,7 +756,7 @@ function var_0_0.openBonus(arg_53_0, arg_53_1)
 end
 
 function var_0_0.closeBonus(arg_55_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_55_0.bonusPanel, arg_55_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_55_0.bonusPanel, arg_55_0._tf)
 	setActive(arg_55_0.bonusPanel, false)
 end
 
@@ -959,7 +954,7 @@ function var_0_0.willExit(arg_70_0)
 		cancelTweens(arg_70_0.tweens)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_70_0.blurPanel, arg_70_0._tf)
+	arg_70_0:UnOverlayPanel(arg_70_0.blurPanel, arg_70_0._tf)
 
 	if arg_70_0.bonusPanel.gameObject.activeSelf then
 		arg_70_0:closeBonus()
@@ -1002,6 +997,7 @@ function var_0_0.initGalleryPanel(arg_71_0)
 	if not arg_71_0.galleryView then
 		arg_71_0.galleryView = GalleryView.New(arg_71_0.galleryPanelContainer, arg_71_0.event, arg_71_0.contextData)
 
+		arg_71_0.galleryView:RegisterView(arg_71_0)
 		arg_71_0.galleryView:Reset()
 		arg_71_0.galleryView:Load()
 	end

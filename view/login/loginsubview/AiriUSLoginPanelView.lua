@@ -66,7 +66,7 @@ end
 
 function var_0_0.InitEvent(arg_5_0)
 	local function var_5_0()
-		pg.UIMgr.GetInstance():UnblurPanel(arg_5_0.firstAlertWin, arg_5_0.airijpPanel)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_5_0.firstAlertWin, arg_5_0.airijpPanel)
 		setActive(arg_5_0.firstAlertWin, false)
 	end
 

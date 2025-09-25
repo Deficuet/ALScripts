@@ -25,18 +25,9 @@ function var_0_0.RequestCamera(arg_3_0, arg_3_1)
 		end
 
 		local function var_3_1(arg_4_0, arg_4_1)
-			local var_4_0 = true
-			local var_4_1 = arg_4_1.Length
-
-			for iter_4_0 = 0, var_4_1 - 1 do
-				if arg_4_1[iter_4_0] ~= var_0_0.StateGranted then
-					var_4_0 = false
-
-					break
-				end
-			end
-
-			if var_4_0 then
+			if underscore.all(arg_4_1:ToTable(), function(arg_5_0)
+				return arg_5_0 == var_0_0.StateGranted
+			end) then
 				if arg_3_0 then
 					arg_3_0()
 				end
@@ -51,39 +42,30 @@ function var_0_0.RequestCamera(arg_3_0, arg_3_1)
 	end
 end
 
-function var_0_0.Request3DDorm(arg_5_0, arg_5_1)
+function var_0_0.Request3DDorm(arg_6_0, arg_6_1)
 	if var_0_0.IsAndroid() or var_0_0.IsIOS() then
-		local var_5_0 = {
+		local var_6_0 = {
 			YSNormalTool.PermissionTool.MIC
 		}
 
 		if var_0_0.IsAndroid() and YSNormalTool.OtherTool.GetAndroidBuildVersion() < var_0_0.Android10SDKLevel then
-			table.insert(var_5_0, YSNormalTool.PermissionTool.Photo)
+			table.insert(var_6_0, YSNormalTool.PermissionTool.Photo)
 		end
 
-		local function var_5_1(arg_6_0, arg_6_1)
-			local var_6_0 = true
-			local var_6_1 = arg_6_1.Length
-
-			for iter_6_0 = 0, var_6_1 - 1 do
-				if arg_6_1[iter_6_0] ~= var_0_0.StateGranted then
-					var_6_0 = false
-
-					break
+		local function var_6_1(arg_7_0, arg_7_1)
+			if underscore.all(arg_7_1:ToTable(), function(arg_8_0)
+				return arg_8_0 == var_0_0.StateGranted
+			end) then
+				if arg_6_0 then
+					arg_6_0()
 				end
-			end
-
-			if var_6_0 then
-				if arg_5_0 then
-					arg_5_0()
-				end
-			elseif arg_5_1 then
-				arg_5_1()
+			elseif arg_6_1 then
+				arg_6_1()
 			end
 		end
 
-		YSNormalTool.PermissionTool.RequestMultiPermission(var_5_0, var_5_1)
-	elseif arg_5_0 then
-		arg_5_0()
+		YSNormalTool.PermissionTool.RequestMultiPermission(var_6_0, var_6_1)
+	elseif arg_6_0 then
+		arg_6_0()
 	end
 end

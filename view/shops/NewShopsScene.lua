@@ -535,7 +535,7 @@ end
 function var_0_0.BlurView(arg_33_0)
 	local var_33_0 = arg_33_0.frameTr:Find("bg/blur")
 
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_33_0.frameTr, {
+	pg.UIMgr.GetInstance():OverlayPanel(arg_33_0.frameTr, {
 		pbList = {
 			arg_33_0.frameTr:Find("bg"),
 			var_33_0

@@ -68,9 +68,7 @@ function var_0_1.prepareLayer(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4)
 		table.insert(var_4_0, arg_4_3)
 		arg_4_2:addChild(arg_4_3)
 	else
-		for iter_4_0, iter_4_1 in ipairs(arg_4_3.children) do
-			table.insert(var_4_0, iter_4_1)
-		end
+		table.insertto(var_4_0, arg_4_3.children)
 	end
 
 	local var_4_2 = {}
@@ -88,10 +86,7 @@ function var_0_1.prepareLayer(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4)
 				arg_5_0()
 			end)
 		end)
-
-		for iter_4_2, iter_4_3 in ipairs(var_4_3.children) do
-			table.insert(var_4_0, iter_4_3)
-		end
+		table.insertto(var_4_0, var_4_3.children)
 	end
 
 	seriesAsync(var_4_2, function()
@@ -143,9 +138,7 @@ function var_0_1.removeLayer(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 			table.insert(var_10_1, var_10_2)
 		end
 
-		for iter_10_0, iter_10_1 in ipairs(var_10_2.children) do
-			table.insert(var_10_0, iter_10_1)
-		end
+		table.insertto(var_10_0, var_10_2.children)
 	end
 
 	if arg_10_2.parent == nil then
@@ -156,13 +149,12 @@ function var_0_1.removeLayer(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 
 	local var_10_3 = {}
 
-	for iter_10_2 = #var_10_1, 1, -1 do
-		local var_10_4 = var_10_1[iter_10_2]
+	for iter_10_0 = #var_10_1, 1, -1 do
+		local var_10_4 = var_10_1[iter_10_0]
 		local var_10_5 = arg_10_1:removeMediator(var_10_4.mediator.__cname)
 
 		table.insert(var_10_3, function(arg_11_0)
 			if var_10_5 then
-				arg_10_0:clearTempCache(var_10_5)
 				arg_10_0:remove(var_10_5, function()
 					var_10_4:onContextRemoved()
 					arg_11_0()
@@ -181,91 +173,100 @@ function var_0_1.removeLayerMediator(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
 		arg_13_2
 	}
 	local var_13_1 = {}
+	local var_13_2 = {}
 
 	while #var_13_0 > 0 do
-		local var_13_2 = table.remove(var_13_0, 1)
+		local var_13_3 = table.remove(var_13_0, 1)
 
-		if var_13_2.mediator then
-			table.insert(var_13_1, var_13_2)
+		if var_13_3.mediator then
+			table.insert(var_13_2, var_13_3)
 		end
 
-		for iter_13_0, iter_13_1 in ipairs(var_13_2.children) do
-			table.insert(var_13_0, iter_13_1)
-		end
+		table.insertto(var_13_0, var_13_3.children)
 	end
 
 	if arg_13_2.parent ~= nil then
 		arg_13_2.parent:removeChild(arg_13_2)
 	end
 
-	local var_13_3 = {}
+	local var_13_4 = {}
 
-	for iter_13_2 = #var_13_1, 1, -1 do
-		local var_13_4 = var_13_1[iter_13_2]
-		local var_13_5 = arg_13_1:removeMediator(var_13_4.mediator.__cname)
+	for iter_13_0 = #var_13_2, 1, -1 do
+		local var_13_5 = var_13_2[iter_13_0]
+		local var_13_6 = arg_13_1:removeMediator(var_13_5.mediator.__cname)
 
-		if var_13_5 then
-			table.insert(var_13_3, {
-				mediator = var_13_5,
-				context = var_13_4
+		if var_13_6 then
+			local var_13_7 = var_13_6:getViewComponent()
+
+			if var_13_7:CheckTempCache() then
+				PoolMgr.GetInstance():KeepUICache(var_13_7:getUIName(), false)
+			end
+
+			table.insert(var_13_4, {
+				mediator = var_13_6,
+				context = var_13_5
 			})
 		end
 	end
 
-	arg_13_3(var_13_3)
+	arg_13_3(var_13_4)
 end
 
-function var_0_1.clearTempCache(arg_14_0, arg_14_1)
+function var_0_1.remove(arg_14_0, arg_14_1, arg_14_2)
 	local var_14_0 = arg_14_1:getViewComponent()
 
-	if var_14_0:tempCache() then
-		var_14_0:RemoveTempCache()
-	end
-end
-
-function var_0_1.remove(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
-	local var_15_0 = arg_15_1:getViewComponent()
-	local var_15_1 = arg_15_0._cacheUI[arg_15_1.__cname]
-
-	if var_15_1 ~= nil and var_15_1 ~= var_15_0 then
-		var_15_1.event:clear()
-		arg_15_0:gc(var_15_1)
+	if var_14_0 == nil then
+		arg_14_2()
 	end
 
-	if var_15_0 == nil then
-		arg_15_2()
-	elseif var_15_0:needCache() and not arg_15_3 then
-		var_15_0:setVisible(false)
+	if var_14_0:needCache() and not arg_14_0._cacheUI[arg_14_1.__cname] then
+		var_14_0:setVisible(false)
 
-		arg_15_0._cacheUI[arg_15_1.__cname] = var_15_0
-		var_15_0._isCachedView = true
+		arg_14_0._cacheUI[arg_14_1.__cname] = var_14_0
+		var_14_0._isCachedView = true
 
-		arg_15_2()
+		arg_14_2()
 	else
-		var_15_0._isCachedView = false
+		var_14_0._isCachedView = false
 
-		var_15_0.event:connect(BaseUI.DID_EXIT, function()
-			var_15_0.event:clear()
-			arg_15_0:gc(var_15_0)
-			arg_15_2()
-		end)
-		var_15_0:exit()
+		arg_14_0:removeView(var_14_0, arg_14_2)
 	end
 end
 
-function var_0_1.gc(arg_17_0, arg_17_1)
-	local var_17_0 = arg_17_1:forceGC()
+function var_0_1.removeView(arg_15_0, arg_15_1, arg_15_2)
+	arg_15_1._isCachedView = false
 
-	table.clear(arg_17_1)
+	arg_15_1.event:connect(BaseUI.DID_EXIT, function()
+		arg_15_1.event:clear()
+		arg_15_0:gc(arg_15_1)
+		arg_15_2()
+	end)
+	arg_15_1:exit()
+end
 
-	arg_17_1.exited = true
+function var_0_1.clearCacheUI(arg_17_0)
+	parallelAsync(underscore(arg_17_0._cacheUI):chain():values():map(function(arg_18_0)
+		return function(arg_19_0)
+			arg_17_0:removeView(arg_18_0, arg_19_0)
+		end
+	end):value(), function()
+		arg_17_0._cacheUI = {}
+	end)
+end
 
-	if var_17_0 or arg_17_0._gcCounter >= arg_17_0._gcLimit then
-		arg_17_0._gcCounter = 0
+function var_0_1.gc(arg_21_0, arg_21_1)
+	local var_21_0 = arg_21_1:forceGC()
+
+	table.clear(arg_21_1)
+
+	arg_21_1.exited = true
+
+	if var_21_0 or arg_21_0._gcCounter >= arg_21_0._gcLimit then
+		arg_21_0._gcCounter = 0
 
 		gcAll(false)
 	else
-		arg_17_0._gcCounter = arg_17_0._gcCounter + 1
+		arg_21_0._gcCounter = arg_21_0._gcCounter + 1
 
 		GCThread.GetInstance():LuaGC(false)
 	end

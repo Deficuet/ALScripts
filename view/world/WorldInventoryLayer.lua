@@ -90,9 +90,7 @@ function var_0_0.didEnter(arg_4_0)
 			id = WorldConst.ResourceID
 		})
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf, {
-		groupName = arg_4_0:getGroupNameFromData()
-	})
+	arg_4_0:OverlayPanel(arg_4_0._tf)
 end
 
 function var_0_0.OverlayPanel(arg_6_0, arg_6_1)
@@ -137,7 +135,7 @@ end
 function var_0_0.willExit(arg_9_0)
 	arg_9_0.assignedItemView:Destroy()
 	arg_9_0.inventoryProxy:RemoveListener(WorldInventoryProxy.EventUpdateItem, arg_9_0.itemUpdateListenerFunc)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf)
+	arg_9_0:UnOverlayPanel(arg_9_0._tf)
 end
 
 function var_0_0.initData(arg_10_0)

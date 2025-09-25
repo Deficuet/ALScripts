@@ -1,4 +1,4 @@
-local var_0_0 = class("AgoraDebugMap", import("Mod.Island.Core.View.IslandBaseSubView"))
+local var_0_0 = class("AgoraDebugMap", import("Mod.Island.Core.View.IslandBaseOpView"))
 local var_0_1 = Color.New(1, 0, 0, 1)
 local var_0_2 = Color.New(0, 1, 0, 1)
 

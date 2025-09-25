@@ -111,7 +111,7 @@ end
 function var_0_0.Hide(arg_12_0)
 	var_0_0.super.Hide(arg_12_0)
 	arg_12_0:RemoveHideTimer()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_12_0._tf, arg_12_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf, arg_12_0._parentTf)
 end
 
 function var_0_0.SwitchPage(arg_13_0, arg_13_1)

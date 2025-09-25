@@ -33,7 +33,7 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 				return
 			end
 
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("guild_start_tech_group_tip", arg_2_1:getConfig("name")),
 				onYes = function()
 					arg_2_0.view:emit(GuildTechnologyMediator.ON_START, var_2_0)
@@ -61,7 +61,7 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 			return
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_cancel_tech_tip", arg_2_1:getConfig("name")),
 			onYes = function()
 				arg_2_0.view:emit(GuildTechnologyMediator.ON_CANCEL_TECH, var_2_0)

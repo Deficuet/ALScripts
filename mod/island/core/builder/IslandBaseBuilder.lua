@@ -6,6 +6,8 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	assert(arg_1_2)
 
 	arg_1_0.unitListType = arg_1_2
+	arg_1_0.loadingIdList = {}
+	arg_1_0.insIdList = {}
 end
 
 function var_0_0.Build(arg_2_0, arg_2_1, arg_2_2)
@@ -56,35 +58,53 @@ function var_0_0.GetPoolMgr(arg_10_0)
 	return arg_10_0.view:GetPoolMgr()
 end
 
-function var_0_0.Load(arg_11_0, arg_11_1, arg_11_2)
+function var_0_0.AddLoadingID(arg_11_0, arg_11_1)
+	table.insert(arg_11_0.loadingIdList, arg_11_1)
+end
+
+function var_0_0.Dispose(arg_12_0)
+	for iter_12_0, iter_12_1 in ipairs(arg_12_0.insIdList) do
+		FrameAsyncInstantiateManager.Instance:Cancel(iter_12_1)
+	end
+
+	arg_12_0.insIdList = nil
+
+	for iter_12_2, iter_12_3 in ipairs(arg_12_0.loadingIdList) do
+		IslandAssetLoadDispatcher.Instance:Cancel(iter_12_3)
+	end
+
+	arg_12_0.loadingIdList = nil
+end
+
+function var_0_0.Load(arg_13_0, arg_13_1, arg_13_2)
 	assert(false, "overwrite !!!")
 end
 
-function var_0_0.Recycle(arg_12_0, arg_12_1, arg_12_2)
+function var_0_0.Recycle(arg_14_0, arg_14_1, arg_14_2)
 	assert(false, "overwrite !!!")
 end
 
-function var_0_0.GetModule(arg_13_0, arg_13_1, arg_13_2)
+function var_0_0.GetModule(arg_15_0, arg_15_1, arg_15_2)
 	assert(false, "overwrite !!!")
 end
 
-function var_0_0.SetTag(arg_14_0, arg_14_1)
+function var_0_0.SetTag(arg_16_0, arg_16_1)
 	return
 end
 
-function var_0_0.AddComponents(arg_15_0, arg_15_1)
+function var_0_0.AddComponents(arg_17_0, arg_17_1)
 	return
 end
 
-function var_0_0.LoadTimeline(arg_16_0, arg_16_1, arg_16_2, arg_16_3, arg_16_4)
-	arg_16_4()
+function var_0_0.LoadTimeline(arg_18_0, arg_18_1, arg_18_2, arg_18_3, arg_18_4)
+	arg_18_4()
 end
 
-function var_0_0.LoadOtherPart(arg_17_0, arg_17_1, arg_17_2, arg_17_3, arg_17_4)
-	arg_17_4()
+function var_0_0.LoadOtherPart(arg_19_0, arg_19_1, arg_19_2, arg_19_3, arg_19_4)
+	arg_19_4()
 end
 
-function var_0_0.Dispose(arg_18_0)
+function var_0_0.OnDispose(arg_20_0)
 	return
 end
 

@@ -11,23 +11,23 @@ function var_0_0.OnLoaded(arg_2_0)
 
 	setText(arg_2_0.getAllBtn:Find("Text"), i18n("island_season_task_collectall"))
 
-	local var_2_1 = var_2_0:Find("view/content/tpl")
+	local var_2_1 = var_2_0:Find("tpl")
 
+	setActive(var_2_1, false)
 	setText(var_2_1:Find("get/Text"), i18n("island_season_task_collect"))
 	setText(var_2_1:Find("got/Text"), i18n("island_season_task_collected"))
 
-	arg_2_0.uiList = UIItemList.New(var_2_0:Find("view/content"), var_2_1)
+	arg_2_0.scrollCom = var_2_0:Find("view"):GetComponent("LScrollRect")
 end
 
 function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0.getAllBtn, function()
 		arg_3_0:emit(IslandMediator.ON_SUBMIT_TASK_ONE_STEP, arg_3_0.canSubmitIds)
 	end, SFX_PANEL)
-	arg_3_0.uiList:make(function(arg_5_0, arg_5_1, arg_5_2)
-		if arg_5_0 == UIItemList.EventUpdate then
-			arg_3_0:UpdateTask(arg_5_1, arg_5_2)
-		end
-	end)
+
+	function arg_3_0.scrollCom.onUpdateItem(arg_5_0, arg_5_1)
+		arg_3_0:UpdateTask(arg_5_0, tf(arg_5_1))
+	end
 end
 
 function var_0_0.UpdateTask(arg_6_0, arg_6_1, arg_6_2)
@@ -64,6 +64,7 @@ end
 function var_0_0.Show(arg_9_0)
 	arg_9_0.super.Show(arg_9_0)
 	arg_9_0:Flush()
+	IslandGuideChecker.CheckGuide("ISLAND_GUIDE_16")
 end
 
 function var_0_0.Flush(arg_10_0)
@@ -82,16 +83,19 @@ function var_0_0.Flush(arg_10_0)
 
 	table.sort(arg_10_0.taskIds, CompareFuncs({
 		function(arg_11_0)
-			return arg_10_0.taskVODic[arg_11_0] and 0 or 1
+			return arg_10_0.taskVODic[arg_11_0] and arg_10_0.taskVODic[arg_11_0]:IsFinish() and 0 or 1
 		end,
 		function(arg_12_0)
-			return arg_12_0
+			return arg_10_0.taskVODic[arg_12_0] and 0 or 1
+		end,
+		function(arg_13_0)
+			return arg_13_0
 		end
 	}))
-	arg_10_0.uiList:align(#arg_10_0.taskIds)
+	arg_10_0.scrollCom:SetTotalCount(#arg_10_0.taskIds, -1)
 
-	arg_10_0.canSubmitIds = underscore.select(arg_10_0.taskIds, function(arg_13_0)
-		return arg_10_0.taskVODic[arg_13_0] and arg_10_0.taskVODic[arg_13_0]:IsSubmitOnUI() and arg_10_0.taskVODic[arg_13_0]:IsFinish()
+	arg_10_0.canSubmitIds = underscore.select(arg_10_0.taskIds, function(arg_14_0)
+		return arg_10_0.taskVODic[arg_14_0] and arg_10_0.taskVODic[arg_14_0]:IsSubmitOnUI() and arg_10_0.taskVODic[arg_14_0]:IsFinish()
 	end)
 
 	setActive(arg_10_0.getAllBtn, #arg_10_0.canSubmitIds > 0)

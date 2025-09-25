@@ -33,11 +33,7 @@ function var_0_0.init(arg_6_0)
 	arg_6_0.otherPopTpl = arg_6_0:getTpl("frame/list/popo_other", arg_6_0.chatPanel)
 	arg_6_0.selfPopTpl = arg_6_0:getTpl("frame/list/popo_self", arg_6_0.chatPanel)
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_6_0.frame, false, {
-		groupName = LayerWeightConst.GROUP_CHATROOM
-	})
-
-	arg_6_0.mainPanel = pg.UIMgr.GetInstance().UIMain
+	arg_6_0:BlurPanel(arg_6_0.frame)
 end
 
 function var_0_0.didEnter(arg_7_0)
@@ -292,7 +288,7 @@ function var_0_0.closeChatPanel(arg_32_0)
 end
 
 function var_0_0.willExit(arg_33_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_33_0.frame, arg_33_0._tf)
+	arg_33_0:UnOverlayPanel(arg_33_0.frame, arg_33_0._tf)
 	eachChild(arg_33_0.chatsContainer, function(arg_34_0)
 		local var_34_0 = arg_33_0:findTF("face", arg_34_0)
 

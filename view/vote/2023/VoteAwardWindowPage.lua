@@ -71,7 +71,7 @@ end
 
 function var_0_0.Hide(arg_9_0)
 	var_0_0.super.Hide(arg_9_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_9_0._tf, arg_9_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf, arg_9_0._parentTf)
 end
 
 function var_0_0.GenCurrPtData(arg_10_0)

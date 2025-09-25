@@ -74,9 +74,8 @@ function var_0_0.addListener(arg_6_0)
 end
 
 function var_0_0.didEnter(arg_8_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0._tf, {
-		groupName = arg_8_0:getGroupNameFromData(),
-		weight = arg_8_0:getWeightFromData() + 1
+	arg_8_0:OverlayPanel(arg_8_0._tf, {
+		groupDelta = 1
 	})
 	arg_8_0:initNewsList()
 	arg_8_0:updateNewsList()
@@ -137,7 +136,7 @@ end
 
 function var_0_0.willExit(arg_19_0)
 	arg_19_0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0._tf)
+	arg_19_0:UnOverlayPanel(arg_19_0._tf)
 end
 
 return var_0_0

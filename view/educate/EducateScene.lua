@@ -76,17 +76,37 @@ function var_0_0.findUI(arg_7_0)
 	setText(arg_7_0:findTF("unlock/Text", arg_7_0.bagBtn), i18n("child_btn_bag"))
 
 	arg_7_0.datePanel = EducateDatePanel.New(arg_7_0:findTF("date", arg_7_0.topTF), arg_7_0.event)
+
+	arg_7_0.datePanel:RegisterView(arg_7_0)
+
 	arg_7_0.favorPanel = EducateFavorPanel.New(arg_7_0:findTF("favor_panel", arg_7_0.topTF), arg_7_0.event)
+
+	arg_7_0.favorPanel:RegisterView(arg_7_0)
+
 	arg_7_0.resPanel = EducateResPanel.New(arg_7_0:findTF("res", arg_7_0.topTF), arg_7_0.event)
+
+	arg_7_0.resPanel:RegisterView(arg_7_0)
+
 	arg_7_0.topPanel = EducateTopPanel.New(arg_7_0:findTF("top_right", arg_7_0.topTF), arg_7_0.event)
+
+	arg_7_0.topPanel:RegisterView(arg_7_0)
+
 	arg_7_0.targetPanel = EducateTargetPanel.New(arg_7_0:findTF("target", arg_7_0.topTF), arg_7_0.event)
+
+	arg_7_0.targetPanel:RegisterView(arg_7_0)
+
 	arg_7_0.bottomPanel = EducateBottomPanel.New(arg_7_0:findTF("right", arg_7_0.bottomTF), arg_7_0.event, {
 		isMainEnter = arg_7_0.contextData.isMainEnter
 	})
+
+	arg_7_0.bottomPanel:RegisterView(arg_7_0)
+
 	arg_7_0.archivePanel = EducateArchivePanel.New(arg_7_0:findTF("archive_panel", arg_7_0.mainTF), arg_7_0.event, {
 		isShow = true,
 		isMainEnter = arg_7_0.contextData.isMainEnter
 	})
+
+	arg_7_0.archivePanel:RegisterView(arg_7_0)
 end
 
 function var_0_0._loadSubViews(arg_9_0)
@@ -97,11 +117,10 @@ function var_0_0._loadSubViews(arg_9_0)
 	arg_9_0.targetPanel:Load()
 	arg_9_0.bottomPanel:Load()
 	arg_9_0.archivePanel:Load()
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_9_0.blurPanel, {
+	arg_9_0:OverlayPanel(arg_9_0.blurPanel, {
 		pbList = {
 			arg_9_0:findTF("bottom/left", arg_9_0.blurPanel)
-		},
-		groupName = arg_9_0:getGroupNameFromData()
+		}
 	})
 
 	local var_9_0 = arg_9_0.contextData.isMainEnter and "anim_educate_educateUI_bg_in" or "anim_educate_educateUI_bg_show"
@@ -564,7 +583,7 @@ function var_0_0.willExit(arg_75_0)
 		LeanTween.cancel(arg_75_0.dialogueTF)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_75_0.blurPanel, arg_75_0._tf)
+	arg_75_0:UnOverlayPanel(arg_75_0.blurPanel, arg_75_0._tf)
 end
 
 return var_0_0

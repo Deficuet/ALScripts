@@ -9,6 +9,8 @@ function var_0_0.SetTag(arg_2_0, arg_2_1)
 end
 
 function var_0_0.AddComponents(arg_3_0, arg_3_1, arg_3_2)
+	var_0_0.super.AddComponents(arg_3_0, arg_3_1, arg_3_2)
+
 	local var_3_0 = GetOrAddComponent(arg_3_1, typeof(CharacterController))
 
 	var_3_0.slopeLimit = 50

@@ -5,6 +5,7 @@ var_0_0.RENAME_SHIP = "ProposeMediator.RENAME_SHIP"
 var_0_0.HIDE_SHIP_MAIN_WORD = "ShipMainMediator.HIDE_SHIP_MAIN_WORD"
 var_0_0.EXCHANGE_TIARA = "ProposeMediator.EXCHANGE_TIARA"
 var_0_0.REGISTER_SHIP = "ProposeMediator.REGISTER_SHIP"
+var_0_0.GIFT_SHIP = "ProposeMediaotr.GIFT_SHIP"
 
 function var_0_0.register(arg_1_0)
 	local var_1_0 = getProxy(BayProxy)
@@ -47,9 +48,14 @@ function var_0_0.register(arg_1_0)
 			shipId = arg_6_1
 		})
 	end)
+	arg_1_0:bind(var_0_0.GIFT_SHIP, function(arg_7_0, arg_7_1)
+		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.SHIP_GIFT, {
+			shipID = arg_7_1
+		})
+	end)
 end
 
-function var_0_0.listNotificationInterests(arg_7_0)
+function var_0_0.listNotificationInterests(arg_8_0)
 	return {
 		GAME.PROPOSE_SHIP_DONE,
 		GAME.RENAME_SHIP_DONE,
@@ -58,32 +64,32 @@ function var_0_0.listNotificationInterests(arg_7_0)
 	}
 end
 
-function var_0_0.handleNotification(arg_8_0, arg_8_1)
-	local var_8_0 = arg_8_1:getName()
-	local var_8_1 = arg_8_1:getBody()
+function var_0_0.handleNotification(arg_9_0, arg_9_1)
+	local var_9_0 = arg_9_1:getName()
+	local var_9_1 = arg_9_1:getBody()
 
-	if var_8_0 == GAME.PROPOSE_SHIP_DONE then
-		local var_8_2 = var_8_1.ship:getProposeSkin()
+	if var_9_0 == GAME.PROPOSE_SHIP_DONE then
+		local var_9_2 = var_9_1.ship:getProposeSkin()
 
-		if var_8_2 then
-			arg_8_0:sendNotification(GAME.SET_SHIP_SKIN, {
+		if var_9_2 then
+			arg_9_0:sendNotification(GAME.SET_SHIP_SKIN, {
 				hideTip = true,
 				phantomId = 0,
-				shipId = var_8_1.ship.id,
-				skinId = var_8_2.id
+				shipId = var_9_1.ship.id,
+				skinId = var_9_2.id
 			})
 		end
 
-		arg_8_0.viewComponent:setShip(var_8_1.ship)
-		arg_8_0.viewComponent:RingFadeout()
-	elseif var_8_0 == GAME.RENAME_SHIP_DONE then
-		arg_8_0.viewComponent:closeView()
-	elseif var_8_0 == GAME.PROPOSE_EXCHANGE_RING_DONE then
-		arg_8_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_8_1.items, function()
-			arg_8_0.viewComponent:onUpdateItemCount()
+		arg_9_0.viewComponent:setShip(var_9_1.ship)
+		arg_9_0.viewComponent:RingFadeout()
+	elseif var_9_0 == GAME.RENAME_SHIP_DONE then
+		arg_9_0.viewComponent:closeView()
+	elseif var_9_0 == GAME.PROPOSE_EXCHANGE_RING_DONE then
+		arg_9_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_9_1.items, function()
+			arg_9_0.viewComponent:onUpdateItemCount()
 		end)
-	elseif var_8_0 == GAME.PROPOSE_REGISTER_SHIP_DONE and arg_8_0.viewComponent.afterRegisterCall then
-		arg_8_0.viewComponent.afterRegisterCall()
+	elseif var_9_0 == GAME.PROPOSE_REGISTER_SHIP_DONE and arg_9_0.viewComponent.afterRegisterCall then
+		arg_9_0.viewComponent.afterRegisterCall()
 	end
 end
 

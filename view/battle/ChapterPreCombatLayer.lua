@@ -145,10 +145,7 @@ function var_0_0.didEnter(arg_7_0)
 			setActive(arg_7_0._autoSubToggle, false)
 		end
 	end, SFX_PANEL, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_7_0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_LEVELUI
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_7_0._tf)
 	onNextTick(function()
 		if arg_7_0.exited then
 			return
@@ -165,8 +162,7 @@ function var_0_0.didEnter(arg_7_0)
 	onButton(arg_7_0, arg_7_0:findTF("middle/gear_score/vanguard/SonarTip"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.fleet_antisub_range_tip.tip,
-			weight = LayerWeightConst.SECOND_LAYER
+			helps = pg.gametip.fleet_antisub_range_tip.tip
 		})
 	end, SFX_PANEL)
 	onButton(arg_7_0, arg_7_0._costTip, function()
@@ -176,8 +172,7 @@ function var_0_0.didEnter(arg_7_0)
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
-			content = i18n("use_oil_limit_help", var_16_4, var_16_3),
-			weight = LayerWeightConst.SECOND_LAYER
+			content = i18n("use_oil_limit_help", var_16_4, var_16_3)
 		})
 	end)
 end
@@ -509,8 +504,7 @@ function var_0_0.displayFleetInfo(arg_35_0)
 						type = DROP_TYPE_ITEM,
 						id = var_38_0
 					},
-					intro = var_38_1.desc,
-					weight = LayerWeightConst.TOP_LAYER
+					intro = var_38_1.desc
 				})
 			end)
 		end
@@ -592,9 +586,7 @@ function var_0_0.displayStrategyInfo(arg_44_0, arg_44_1)
 
 	arg_44_0.strategyPanel:attach(arg_44_0)
 	arg_44_0.strategyPanel:set(arg_44_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_44_0.strategyPanel._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_44_0.strategyPanel._tf)
 
 	function arg_44_0.strategyPanel.onConfirm()
 		local var_45_0 = arg_44_0.chapter.fleet
@@ -621,7 +613,7 @@ end
 
 function var_0_0.hideStrategyInfo(arg_47_0)
 	if arg_47_0.strategyPanel then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_47_0.strategyPanel._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_47_0.strategyPanel._tf)
 		arg_47_0.strategyPanel:detach()
 	end
 end

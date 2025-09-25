@@ -27,9 +27,7 @@ function var_0_0.didEnter(arg_3_0)
 		if var_4_0 then
 			local var_4_1 = pg.dorm3d_camera_photo_frame[arg_3_0.selectFrameId]
 
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeDorm3dPhoto, nil, {
-				weight = LayerWeightConst.TOP_LAYER
-			}, true, var_4_0:Find("frame").sizeDelta, var_4_1.watermark_location)
+			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeDorm3dPhoto, nil, nil, true, var_4_0:Find("frame").sizeDelta, var_4_1.watermark_location)
 		end
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.confirmBtnTrans, function()
@@ -64,13 +62,13 @@ function var_0_0.didEnter(arg_3_0)
 	onButton(arg_3_0, arg_3_0.frameBtn, function()
 		arg_3_0:emit(Dorm3dPhotoShareLayerMediator.SELECTFRAME, arg_3_0.contextData.photoTex, arg_3_0.contextData.photoData)
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, true, {
-		weight = LayerWeightConst.SECOND_LAYER
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, {
+		staticBlur = true
 	})
 end
 
 function var_0_0.willExit(arg_9_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_9_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf)
 end
 
 function var_0_0.exit(arg_10_0)

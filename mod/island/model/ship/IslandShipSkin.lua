@@ -28,12 +28,16 @@ function var_0_0.SetCurrentColor(arg_3_0, arg_3_1)
 	arg_3_0.color_id = arg_3_1
 end
 
-function var_0_0.AddSkinColor(arg_4_0, arg_4_1)
-	table.insert(arg_4_0.color_list, arg_4_1)
+function var_0_0.GetCurrentColor(arg_4_0, arg_4_1)
+	return arg_4_0.color_id or 0
 end
 
-function var_0_0.IsOwnAllColor(arg_5_0)
-	return #arg_5_0.color_list == #pg.island_skin_colordiff_template.get_id_list_by_skin_group[arg_5_0.id]
+function var_0_0.AddSkinColor(arg_5_0, arg_5_1)
+	table.insert(arg_5_0.color_list, arg_5_1)
+end
+
+function var_0_0.IsOwnAllColor(arg_6_0)
+	return #arg_6_0.color_list == #pg.island_skin_colordiff_template.get_id_list_by_skin_group[arg_6_0.id]
 end
 
 return var_0_0

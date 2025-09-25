@@ -21,9 +21,7 @@ function var_0_0.didEnter(arg_4_0)
 		arg_4_0:PlayCloseAni()
 	end, SFX_CANCEL)
 	arg_4_0:UpdateItemDetail()
-	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf, nil, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf)
 end
 
 function var_0_0.PlayCloseAni(arg_7_0)
@@ -150,7 +148,7 @@ function var_0_0.UpdateRyzaItem(arg_12_0, arg_12_1, arg_12_2)
 end
 
 function var_0_0.willExit(arg_13_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_13_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf)
 end
 
 return var_0_0

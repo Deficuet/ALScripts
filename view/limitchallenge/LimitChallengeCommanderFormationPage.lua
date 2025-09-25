@@ -67,9 +67,7 @@ function var_0_0.openDescPanel(arg_6_0, arg_6_1)
 	})
 	LeanTween.moveX(arg_6_0.samllTF, 800, var_6_0):setOnComplete(System.Action(function()
 		setActive(arg_6_0.descPanel, true)
-		pg.UIMgr.GetInstance():OverlayPanel(arg_6_0._tf, {
-			groupName = LayerWeightConst.GROUP_FORMATION_PAGE
-		})
+		arg_6_0:OverlayPanel(arg_6_0._tf)
 		setAnchoredPosition(arg_6_0.descFrameTF, {
 			x = 800
 		})
@@ -93,7 +91,7 @@ function var_0_0.closeDescPanel(arg_8_0, arg_8_1)
 	})
 	LeanTween.moveX(arg_8_0.descFrameTF, 800, var_8_0):setOnComplete(System.Action(function()
 		setActive(arg_8_0.descPanel, false)
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0._tf, arg_8_0._parentTf)
+		arg_8_0:UnOverlayPanel(arg_8_0._tf, arg_8_0._parentTf)
 		setAnchoredPosition(arg_8_0.samllTF, {
 			x = 800
 		})
@@ -206,7 +204,7 @@ function var_0_0.OnDestroy(arg_19_0)
 		LeanTween.cancel(go(arg_19_0.descFrameTF))
 
 		if isActive(arg_19_0.descPanel) then
-			pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0._tf, arg_19_0._parentTf)
+			arg_19_0:UnOverlayPanel(arg_19_0._tf, arg_19_0._parentTf)
 		end
 	end
 end

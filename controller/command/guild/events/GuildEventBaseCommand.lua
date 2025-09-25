@@ -102,7 +102,7 @@ function var_0_0.IsAnim(arg_9_0)
 	local var_9_0 = getProxy(GuildProxy):getRawData()
 
 	if not GuildMember.IsAdministrator(var_9_0:getSelfDuty()) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_commander_and_sub_op"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_commander_and_sub_op"))
 
 		return false
 	end
@@ -112,7 +112,7 @@ end
 
 function var_0_0.CheckCapital(arg_10_0, arg_10_1, arg_10_2)
 	if getProxy(GuildProxy):getRawData():getCapital() < arg_10_1:GetConsume() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_guildgold_no_enough_for_battle"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_guildgold_no_enough_for_battle"))
 
 		return false
 	end

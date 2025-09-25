@@ -68,9 +68,15 @@ function var_0_0.Show(arg_8_0, arg_8_1, arg_8_2)
 
 	arg_8_0.targetTr = var_8_1 and arg_8_0.dropPanelTr or arg_8_0.onlnyLevelTr
 
-	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0._tf, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	local var_8_2 = arg_8_0.targetTr:GetComponent(typeof(Animation))
+
+	if arg_8_0.targetTr == arg_8_0.onlnyLevelTr then
+		var_8_2:Play("anim_Island_commonget_onlylv_in")
+	else
+		var_8_2:Play("anim_Island_commonget_single_in")
+	end
+
+	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0._tf)
 end
 
 function var_0_0.Hide(arg_9_0)
@@ -80,30 +86,40 @@ function var_0_0.Hide(arg_9_0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf, arg_9_0._parentTf)
 end
 
-function var_0_0.CommonSettings(arg_10_0, arg_10_1, arg_10_2)
-	local var_10_0 = arg_10_1:GetLevel()
-
-	setText(arg_10_2:Find("Board/Top/LV/prev/prev_1"), "<size=50>" .. var_10_0 - 1 .. "</size>")
-	setText(arg_10_2:Find("Board/Top/LV/next/next_1"), "<size=50>" .. var_10_0 .. "</size>")
+function var_0_0.OnShow(arg_10_0)
+	arg_10_0.canvasGroup.interactable = true
+	arg_10_0.canvasGroup.blocksRaycasts = true
 end
 
-function var_0_0.UpdateUnlockList(arg_11_0, arg_11_1)
-	arg_11_0.unlockUIList:make(function(arg_12_0, arg_12_1, arg_12_2)
-		if arg_12_0 == UIItemList.EventUpdate then
-			local var_12_0 = arg_11_1[arg_12_1 + 1]
+function var_0_0.OnHide(arg_11_0)
+	arg_11_0.canvasGroup.interactable = false
+	arg_11_0.canvasGroup.blocksRaycasts = false
+end
 
-			updateCustomDrop(arg_12_2, var_12_0)
-			setText(arg_12_2:Find("icon_bg/name_bg/Text"), shortenString(var_12_0:getConfigTable().unlock_text, 5))
+function var_0_0.CommonSettings(arg_12_0, arg_12_1, arg_12_2)
+	local var_12_0 = arg_12_1:GetLevel()
 
-			local var_12_1 = var_12_0:getConfigTable().show_type
+	setText(arg_12_2:Find("Board/Top/LV/prev/prev_1"), "<size=50>" .. var_12_0 - 1 .. "</size>")
+	setText(arg_12_2:Find("Board/Top/LV/next/next_1"), "<size=50>" .. var_12_0 .. "</size>")
+end
 
-			GetImageSpriteFromAtlasAsync("ui/islandupgradedisplayui_atlas", "ability_type" .. var_12_1, arg_12_2:Find("icon_bg/type"))
+function var_0_0.UpdateUnlockList(arg_13_0, arg_13_1)
+	arg_13_0.unlockUIList:make(function(arg_14_0, arg_14_1, arg_14_2)
+		if arg_14_0 == UIItemList.EventUpdate then
+			local var_14_0 = arg_13_1[arg_14_1 + 1]
+
+			updateCustomDrop(arg_14_2, var_14_0)
+			setText(arg_14_2:Find("icon_bg/name_bg/Text"), shortenString(var_14_0:getConfigTable().unlock_text, 5))
+
+			local var_14_1 = var_14_0:getConfigTable().show_type
+
+			GetImageSpriteFromAtlasAsync("ui/islandupgradedisplayui_atlas", "ability_type" .. var_14_1, arg_14_2:Find("icon_bg/type"))
 		end
 	end)
-	arg_11_0.unlockUIList:align(#arg_11_1)
+	arg_13_0.unlockUIList:align(#arg_13_1)
 end
 
-function var_0_0.OnDestroy(arg_13_0)
+function var_0_0.OnDestroy(arg_15_0)
 	return
 end
 

@@ -69,7 +69,7 @@ function var_0_0.Close(arg_10_0)
 	if arg_10_0.opening then
 		arg_10_0.opening = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf, arg_10_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 		arg_10_0:Hide()
 	end
 end

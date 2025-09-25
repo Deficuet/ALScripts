@@ -35,12 +35,9 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.optionalPanel = arg_3_0:findTF("main/right_panel/last/bg2/option")
 	arg_3_0.scroll = arg_3_0:findTF("main/right_panel/center/bottom/scroll")
 
-	if arg_3_0.contextData.tf then
-		SetParent(arg_3_0._tf, arg_3_0.contextData.tf)
-	end
-
 	setText(arg_3_0:findTF("main_bg/Text"), i18n("dorm3d_privatechat_topics"))
 	setText(arg_3_0.noMsgTF:Find("Text"), i18n("dorm3d_ins_no_msg"))
+	arg_3_0:OverlayPanel(arg_3_0._tf)
 end
 
 function var_0_0.didEnter(arg_4_0)

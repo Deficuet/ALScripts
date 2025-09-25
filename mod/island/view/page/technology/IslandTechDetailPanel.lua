@@ -63,7 +63,14 @@ function var_0_0.OnInit(arg_3_0)
 			local var_6_1 = arg_3_0.inventoryAgency:GetOwnCount(var_6_0.id)
 
 			updateCustomDrop(arg_6_2, var_6_0)
-			setText(arg_6_2:Find("icon_bg/count_bg/count"), var_6_1 .. "/" .. var_6_0.count)
+
+			local var_6_2 = arg_6_2:Find("icon_bg/count_bg/count")
+
+			if var_6_0.id == IslandItem.GOLD_ID then
+				setText(var_6_2, var_6_1 < var_6_0.count and setColorStr(var_6_0.count, "#FF6767"))
+			else
+				setText(var_6_2, (var_6_1 < var_6_0.count and setColorStr(var_6_1, "#FF6767") or var_6_1) .. "/" .. var_6_0.count)
+			end
 		end
 	end)
 
@@ -148,8 +155,8 @@ function var_0_0.Flush(arg_7_0)
 			end, SFX_PANEL)
 		end,
 		[IslandTechnology.STATUS.STUDYING] = function()
-			onButton(arg_7_0, arg_7_0.statusTFs[var_7_4]:Find("quick"), function()
-				pg.TipsMgr.GetInstance():ShowTips("TODO")
+			onButton(arg_7_0, arg_7_0.statusTFs[var_7_4]:Find("ticket"), function()
+				existCall(arg_7_0.contextData.openTicketPage, arg_7_0.showTechVO:GetSlotId())
 			end, SFX_PANEL)
 		end,
 		[IslandTechnology.STATUS.RECEIVE] = function()
@@ -185,12 +192,13 @@ function var_0_0.FlushSelectedItem(arg_22_0)
 
 	local var_22_0 = arg_22_0.techAgency:GetTechnology(arg_22_0.configId)
 
-	setText(arg_22_0.selectedTF:Find("name"), var_22_0:getConfig("tech_name"))
+	IslandTechTreePanel.SetTechName(arg_22_0.selectedTF:Find("name"), var_22_0:getConfig("tech_name"))
 
 	local var_22_1 = var_22_0:GetStatus()
 	local var_22_2 = var_22_1 == IslandTechnology.STATUS.FINISHED
 
-	setTextColor(arg_22_0.selectedTF:Find("name"), Color.NewHex(var_22_2 and "1b3650" or "ffffff"))
+	setTextColor(arg_22_0.selectedTF:Find("name/Text"), Color.NewHex(var_22_2 and "1b3650" or "ffffff"))
+	setTextColor(arg_22_0.selectedTF:Find("name/ScrollText"), Color.NewHex(var_22_2 and "1b3650" or "ffffff"))
 	LoadImageSpriteAsync("island/IslandTechnology/" .. var_22_0:getConfig("tech_icon"), arg_22_0.selectedTF:Find("icon"), true)
 	setActive(arg_22_0.selectedTF:Find("icon"), var_22_1 ~= IslandTechnology.STATUS.STUDYING and var_22_1 ~= IslandTechnology.STATUS.RECEIVE)
 	setImageColor(arg_22_0.selectedTF:Find("icon"), Color.NewHex(var_22_2 and "455a81" or "ffffff"))
@@ -211,9 +219,7 @@ function var_0_0.Show(arg_25_0, arg_25_1, arg_25_2)
 	arg_25_0.selectedItemPos = arg_25_2
 
 	arg_25_0:Flush()
-	pg.UIMgr.GetInstance():OverlayPanel(arg_25_0._tf, {
-		groupName = LayerWeightConst.GROUP_ISLAND
-	})
+	arg_25_0:OverlayPanel(arg_25_0._tf)
 end
 
 function var_0_0.OnShipSelected(arg_26_0, arg_26_1)
@@ -233,7 +239,7 @@ function var_0_0.UpdateTime(arg_27_0)
 		else
 			local var_27_2 = var_27_1:GetSlotRoleData():GetFinishTime() - arg_27_0.timeMgr:GetServerTime()
 
-			setText(arg_27_0.timeTextTF, arg_27_0.timeMgr:DescCDTime(var_27_2))
+			setText(arg_27_0.timeTextTF, var_27_2 > 0 and arg_27_0.timeMgr:DescCDTime(var_27_2) or "00:00:00")
 		end
 	else
 		setText(arg_27_0.timeTextTF, "??:??:??")
@@ -258,12 +264,12 @@ end
 
 function var_0_0.OnHide(arg_31_0)
 	arg_31_0:StopTimer()
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_31_0._tf, arg_31_0._parentTf)
+	arg_31_0:UnOverlayPanel(arg_31_0._tf, arg_31_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_32_0)
 	arg_32_0:StopTimer()
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_32_0._tf, arg_32_0._parentTf)
+	arg_32_0:UnOverlayPanel(arg_32_0._tf, arg_32_0._parentTf)
 end
 
 return var_0_0

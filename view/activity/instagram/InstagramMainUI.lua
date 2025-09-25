@@ -11,13 +11,10 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.juusBtn = arg_2_0:findTF("mainPanel/left/juusBtn")
 	arg_2_0.musicPlayerView = MainMusicPlayerView.New(arg_2_0._tf, arg_2_0.event)
 
-	arg_2_0.musicPlayerView:SetExtra(arg_2_0._tf:Find("MusicPlayer"))
+	arg_2_0.musicPlayerView:Load(arg_2_0._tf:Find("MusicPlayer").gameObject)
 	arg_2_0:ChangeChatTip()
 	arg_2_0:ChangeJuusTip()
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		groupName = "Instagram",
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	arg_2_0:BlurPanel(arg_2_0._tf)
 end
 
 function var_0_0.didEnter(arg_3_0)

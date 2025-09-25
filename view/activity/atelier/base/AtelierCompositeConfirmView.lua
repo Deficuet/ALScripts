@@ -153,7 +153,7 @@ function var_0_0.HideCompositeConfirmWindow(arg_17_0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_17_0._tf, arg_17_0._parentClass._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_17_0._tf, arg_17_0._parentClass._tf)
 	setActive(arg_17_0._go, false)
 
 	return true

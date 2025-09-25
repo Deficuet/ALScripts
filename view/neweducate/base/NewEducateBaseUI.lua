@@ -9,7 +9,7 @@ var_0_0.ON_BOX = "NewEducateBaseUI.ON_BOX"
 var_0_0.ON_SHOP = "NewEducateBaseUI.ON_SHOP"
 
 function var_0_0.getGroupName(arg_1_0)
-	return LayerWeightConst.GROUP_EDUCATE
+	return "NewEducateBaseUI"
 end
 
 return var_0_0

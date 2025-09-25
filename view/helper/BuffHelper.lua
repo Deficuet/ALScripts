@@ -237,7 +237,7 @@ function var_0_0.GetBuffsForMainUI()
 		local var_32_4 = getProxy(PlayerProxy):getRawData()
 
 		for iter_32_1, iter_32_2 in pairs(var_32_4.buff_list) do
-			if pg.TimeMgr:GetInstance():GetServerTime() < iter_32_2.timestamp and table.contains(var_32_3, iter_32_2.id) then
+			if pg.TimeMgr.GetInstance():GetServerTime() < iter_32_2.timestamp and table.contains(var_32_3, iter_32_2.id) then
 				local var_32_5 = ActivityBuff.New(var_32_2.id, iter_32_2.id, iter_32_2.timestamp)
 
 				if var_32_5:checkShow() then

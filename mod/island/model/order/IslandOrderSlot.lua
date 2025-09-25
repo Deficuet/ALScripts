@@ -50,10 +50,16 @@ function var_0_0.GenOrder(arg_5_0, arg_5_1)
 	elseif arg_5_1.type == IslandOrder.TYPE_URGENCY then
 		return IslandUrgencyOrder.New(arg_5_1)
 	elseif arg_5_1.type == IslandOrder.TYPE_FORM then
-		if pg.island_order[arg_5_1.id].type == 2 then
+		local var_5_0 = pg.island_order[arg_5_1.id].type
+
+		if var_5_0 == IslandFirmOrder.FIRM_ORDER_TYPE_URGENCY then
 			return IslandFirmUrgencyOrder.New(arg_5_1)
-		else
+		elseif var_5_0 == IslandFirmOrder.FIRM_ORDER_TYPE_ACT then
+			return IslandFirmActivityOrder.New(arg_5_1)
+		elseif var_5_0 == IslandFirmOrder.FIRM_ORDER_TYPE_COMMON then
 			return IslandFirmOrder.New(arg_5_1)
+		else
+			assert(false, "typ is nil" .. var_5_0)
 		end
 	end
 
@@ -121,6 +127,14 @@ end
 
 function var_0_0.GetOrder(arg_15_0)
 	return arg_15_0.order
+end
+
+function var_0_0.SetReduceTime(arg_16_0, arg_16_1)
+	arg_16_0.order:SetReduceTime(arg_16_1)
+end
+
+function var_0_0.AddReduceTime(arg_17_0, arg_17_1)
+	arg_17_0.order:AddReduceTime(arg_17_1)
 end
 
 return var_0_0

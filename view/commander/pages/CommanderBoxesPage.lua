@@ -208,16 +208,14 @@ function var_0_0.Show(arg_25_0)
 	arg_25_0.activation = true
 
 	setActive(arg_25_0._go, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_25_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_25_0._tf)
 end
 
 function var_0_0.Hide(arg_26_0)
 	arg_26_0.activation = false
 
 	setActive(arg_26_0._go, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_26_0._tf, arg_26_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_26_0._tf, arg_26_0._parentTf)
 end
 
 function var_0_0.isShow(arg_27_0)

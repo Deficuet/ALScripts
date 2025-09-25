@@ -74,7 +74,6 @@ function var_0_0.InitCharacter(arg_2_0, arg_2_1)
 		table.insert(arg_2_0.ladyTouchColliders, var_5_0)
 		setActive(var_5_0, false)
 	end)
-	arg_2_0:Func("HXCharacter", arg_2_0.lady)
 
 	arg_2_0.clothComps = {}
 	arg_2_0.ladyClothCompSettings = {}
@@ -387,6 +386,10 @@ function var_0_0.PlaySingleAction(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 			arg_29_0.nowState = arg_29_1
 			arg_29_0.stateCallback = arg_34_0
 
+			if IsUnityEditor and not arg_29_0.ladyAnimator:HasState(arg_29_0.ladyAnimBaseLayerIndex, Animator.StringToHash(arg_29_1)) then
+				errorMsg("！！！！！！！！动画不存在>>>>>>>>>>>>>", arg_29_1)
+			end
+
 			arg_29_0.ladyAnimator:CrossFadeInFixedTime(arg_29_1, arg_29_3, arg_29_0.ladyAnimBaseLayerIndex)
 		end,
 		function(arg_35_0)
@@ -404,6 +407,10 @@ function var_0_0.PlaySingleAction(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 end
 
 function var_0_0.PlayFaceAnim(arg_36_0, arg_36_1, arg_36_2)
+	if IsUnityEditor and not arg_36_0.ladyAnimator:HasState(arg_36_0.ladyAnimFaceLayerIndex, Animator.StringToHash(arg_36_1)) then
+		errorMsg("！！！！！！！！动画不存在>>>>>>>>>>>>>", arg_36_1)
+	end
+
 	arg_36_0.ladyAnimator:CrossFadeInFixedTime(arg_36_1, 0, arg_36_0.ladyAnimFaceLayerIndex)
 	existCall(arg_36_2)
 end

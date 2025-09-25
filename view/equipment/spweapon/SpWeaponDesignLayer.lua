@@ -62,9 +62,7 @@ function var_0_0.init(arg_8_0)
 	arg_8_0.listEmptyTxt = arg_8_0:findTF("Text", arg_8_0.listEmptyTF)
 
 	setText(arg_8_0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
-	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0.indexPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	arg_8_0:OverlayPanel(arg_8_0.indexPanel)
 end
 
 function var_0_0.SetParentTF(arg_9_0, arg_9_1)
@@ -311,7 +309,7 @@ function var_0_0.onBackPressed(arg_35_0)
 end
 
 function var_0_0.willExit(arg_36_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_36_0.indexPanel, arg_36_0._tf)
+	arg_36_0:UnOverlayPanel(arg_36_0.indexPanel, arg_36_0._tf)
 	setParent(arg_36_0.toggleOwned, arg_36_0._tf)
 	setParent(arg_36_0.top, arg_36_0._tf)
 end

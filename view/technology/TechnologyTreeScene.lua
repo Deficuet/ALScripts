@@ -125,9 +125,7 @@ function var_0_0.addBtnListener(arg_9_0)
 	onToggle(arg_9_0, arg_9_0.switchBtn, function(arg_12_0)
 		if arg_12_0 then
 			setActive(arg_9_0.pointTF, false)
-			pg.UIMgr.GetInstance():OverlayPanel(arg_9_0.blurPanel, {
-				weight = LayerWeightConst.SECOND_LAYER
-			})
+			pg.UIMgr.GetInstance():OverlayPanel(arg_9_0.blurPanel)
 			arg_9_0:emit(TechnologyConst.OPEN_TECHNOLOGY_NATION_LAYER)
 		else
 			setActive(arg_9_0.pointTF, true)
@@ -139,8 +137,7 @@ function var_0_0.addBtnListener(arg_9_0)
 		if pg.gametip.help_technologytree then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.help_technologytree.tip,
-				weight = LayerWeightConst.TOP_LAYER
+				helps = pg.gametip.help_technologytree.tip
 			})
 		end
 	end, SFX_PANEL)

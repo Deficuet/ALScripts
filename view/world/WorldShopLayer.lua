@@ -30,12 +30,11 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.goodsItemList = UIItemList.New(arg_3_0.rtShop:Find("content"), arg_3_0.rtShop:Find("content/item_tpl"))
 	arg_3_0.singleWindow = OriginShopSingleWindow.New(arg_3_0._tf, arg_3_0.event)
 	arg_3_0.multiWindow = OriginShopMultiWindow.New(arg_3_0._tf, arg_3_0.event)
+
+	arg_3_0:OverlayPanel(arg_3_0._tf)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0._tf, {
-		groupName = arg_5_0:getGroupNameFromData()
-	})
 	onButton(arg_5_0, arg_5_0.btnBack, function()
 		arg_5_0:closeView()
 	end, SFX_CANCEL)
@@ -122,7 +121,7 @@ function var_0_0.onBackPressed(arg_12_0)
 end
 
 function var_0_0.willExit(arg_13_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf)
+	arg_13_0:UnOverlayPanel(arg_13_0._tf)
 	arg_13_0:RemoveWorldListener()
 	arg_13_0.singleWindow:Destroy()
 	arg_13_0.multiWindow:Destroy()

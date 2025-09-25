@@ -113,7 +113,7 @@ function var_0_0.CheckFleetShipState(arg_11_0)
 	end
 
 	if #var_11_2 > 0 then
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
 			content = i18n("guild_boss_formation_exist_invaild_ship")
 		})

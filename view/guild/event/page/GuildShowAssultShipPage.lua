@@ -91,7 +91,7 @@ function var_0_0.OnInitItem(arg_10_0, arg_10_1)
 			return
 		end
 
-		pg.UIMgr:GetInstance():BlurPanel(arg_10_0._tf)
+		pg.UIMgr.GetInstance():BlurPanel(arg_10_0._tf)
 	end
 
 	local function var_10_2()
@@ -99,7 +99,7 @@ function var_0_0.OnInitItem(arg_10_0, arg_10_1)
 			return
 		end
 
-		pg.UIMgr:GetInstance():UnblurPanel(arg_10_0._tf, arg_10_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 	end
 
 	onButton(arg_10_0, var_10_0.viewEquipmentBtn, function()

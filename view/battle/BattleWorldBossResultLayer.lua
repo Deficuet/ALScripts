@@ -1028,7 +1028,7 @@ function var_0_0.willExit(arg_72_0)
 	LeanTween.cancel(go(arg_72_0._tf))
 
 	if arg_72_0._atkBG.gameObject.activeSelf then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_72_0._blurConatiner, arg_72_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_72_0._blurConatiner, arg_72_0._tf)
 	end
 
 	if arg_72_0.paintingName then
@@ -1039,7 +1039,7 @@ function var_0_0.willExit(arg_72_0)
 		arg_72_0._rightTimer:Stop()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_72_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_72_0._tf)
 
 	if arg_72_0._currentVoice then
 		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(arg_72_0._currentVoice)

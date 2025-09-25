@@ -18,7 +18,7 @@ local var_0_1 = {
 	"golden"
 }
 
-function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
+function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
 	arg_2_0.configId = arg_2_1
 
 	local var_2_0 = pg.island_skin_template[arg_2_0.configId]
@@ -29,7 +29,6 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 		GetImageSpriteFromAtlasAsync(string.format("island/IslandDressIcon/%s", var_2_0.icon), "", arg_2_0.tf:Find("icon"))
 	end
 
-	setActive(arg_2_0.notGetTF, not arg_2_3)
 	arg_2_0:UpdateSelected(arg_2_2)
 end
 

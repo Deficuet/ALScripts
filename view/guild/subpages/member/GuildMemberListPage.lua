@@ -15,7 +15,7 @@ function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0.rankBtn, function()
 		arg_3_0.contextData.rankPage:ExecuteAction("Flush", arg_3_0.ranks)
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_3_0._tf, {
+	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0._tf, {
 		pbList = {
 			arg_3_0.blurBg
 		},

@@ -267,7 +267,7 @@ function var_0_0.Show(arg_20_0, arg_20_1, arg_20_2)
 end
 
 function var_0_0.Hide(arg_25_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_25_0._tf, arg_25_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_25_0._tf, arg_25_0._parentTf)
 	setActive(arg_25_0._tf, false)
 end
 

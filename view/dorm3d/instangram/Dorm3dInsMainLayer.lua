@@ -64,10 +64,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.downloadProgress = arg_2_0.downloadTf:Find("progress")
 	arg_2_0.slider = arg_2_0.downloadProgress:Find("slider")
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		groupName = "Instagram",
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	arg_2_0:BlurPanel(arg_2_0._tf)
 	arg_2_0:InitData()
 end
 

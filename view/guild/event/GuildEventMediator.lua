@@ -885,7 +885,7 @@ function var_0_0.handleNotification(arg_69_0, arg_69_1)
 			var_69_3 = i18n("guild_event_start_tip2")
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
 			content = var_69_3,
 			onYes = function()

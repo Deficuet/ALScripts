@@ -139,9 +139,7 @@ function var_0_0.init(arg_13_0)
 end
 
 function var_0_0.BlurPanel(arg_14_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_14_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER + 1
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_14_0._tf)
 end
 
 function var_0_0.DoEnterAnimation(arg_15_0)

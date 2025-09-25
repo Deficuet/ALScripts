@@ -14,6 +14,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.descTxt = arg_2_0:findTF("Text"):GetComponent(typeof(Text))
 	arg_2_0.icon = arg_2_0:findTF("icon"):GetComponent(typeof(Image))
 	arg_2_0.cntTxt = arg_2_0:findTF("cnt/Text"):GetComponent(typeof(Text))
+
+	setActive(arg_2_0:findTF("cnt"), false)
 end
 
 function var_0_0.Show(arg_3_0, arg_3_1, arg_3_2)
@@ -40,7 +42,9 @@ function var_0_0.FlushInfo(arg_4_0, arg_4_1)
 	arg_4_0.cntTxt.text = arg_4_1:GetAvailableCnt()
 
 	LoadSpriteAsync("island/IslandFurnitureIcon/" .. var_4_0:GetIcon(), function(arg_5_0)
-		arg_4_0.icon.sprite = arg_5_0
+		if not IsNil(arg_4_0.icon) then
+			arg_4_0.icon.sprite = arg_5_0
+		end
 	end)
 end
 

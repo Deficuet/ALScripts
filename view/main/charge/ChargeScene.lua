@@ -517,7 +517,7 @@ function var_0_0.stopCV(arg_38_0)
 end
 
 function var_0_0.blurView(arg_39_0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_39_0.viewContainer, {
+	pg.UIMgr.GetInstance():OverlayPanel(arg_39_0.viewContainer, {
 		pbList = {
 			arg_39_0:findTF("blurBg", arg_39_0.viewContainer)
 		}

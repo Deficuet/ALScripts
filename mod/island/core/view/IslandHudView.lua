@@ -1,5 +1,11 @@
 local var_0_0 = class("IslandHudView")
 
+var_0_0.LuaName2ContainerName = {
+	IslandVisitorHudPanel = "visitorContainer",
+	IslandNormalHudPanel = "npcInfoContainer",
+	IslandCustomerHudPanel = "npcInfoContainer"
+}
+
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.view = arg_1_1
 	arg_1_0.hudPanelDic = {}

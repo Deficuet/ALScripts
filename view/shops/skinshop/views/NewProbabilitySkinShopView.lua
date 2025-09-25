@@ -90,6 +90,7 @@ function var_0_0.OnCharge(arg_10_0, arg_10_1)
 	local var_10_2 = {
 		isMonthCard = false,
 		isChargeType = true,
+		commodity = arg_10_1,
 		infoTip = var_10_0:GetInfoTip(),
 		icon = "chargeicon/" .. var_10_0:getConfig("picture"),
 		name = var_10_0:getConfig("name_display"),

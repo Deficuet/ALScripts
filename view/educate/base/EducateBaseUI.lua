@@ -9,7 +9,7 @@ var_0_0.EDUCATE_ON_MSG_TIP = "EDUCATE_ON_MSG_TIP"
 var_0_0.EDUCATE_ON_UNLOCK_TIP = "EDUCATE_ON_UNLOCK_TIP"
 
 function var_0_0.getGroupName(arg_1_0)
-	return LayerWeightConst.GROUP_EDUCATE
+	return "EducateBaseUI"
 end
 
 return var_0_0

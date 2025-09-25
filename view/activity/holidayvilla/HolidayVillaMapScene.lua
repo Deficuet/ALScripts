@@ -525,14 +525,14 @@ end
 
 function var_0_0.ShowSiteDescPage(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
 	setActive(arg_38_0.siteDescPage, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_38_0.siteDescPage, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_38_0.siteDescPage)
 	setActive(arg_38_0.siteDescPage:Find("repairComplete"), arg_38_2)
 	setText(arg_38_0:findTF("panel/name", arg_38_0.siteDescPage), arg_38_1.jumpto[1][1])
 	setText(arg_38_0:findTF("panel/desc", arg_38_0.siteDescPage), arg_38_1.jumpto[2][1])
 	LoadImageSpriteAsync(arg_38_1.jumpto[3][1], arg_38_0:findTF("panel/picBg/mask/picture", arg_38_0.siteDescPage))
 	onButton(arg_38_0, arg_38_0:findTF("bg", arg_38_0.siteDescPage), function()
 		setActive(arg_38_0.siteDescPage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_38_0.siteDescPage, arg_38_0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.siteDescPage, arg_38_0._tf:Find("subPages"))
 
 		if arg_38_3 then
 			arg_38_3()
@@ -540,7 +540,7 @@ function var_0_0.ShowSiteDescPage(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
 	end, SFX_CANCEL)
 	onButton(arg_38_0, arg_38_0:findTF("closeBtn", arg_38_0.siteDescPage), function()
 		setActive(arg_38_0.siteDescPage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_38_0.siteDescPage, arg_38_0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.siteDescPage, arg_38_0._tf:Find("subPages"))
 
 		if arg_38_3 then
 			arg_38_3()
@@ -550,16 +550,16 @@ end
 
 function var_0_0.ShowAllRepairPage(arg_41_0)
 	setActive(arg_41_0.allRepairCompletePage, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_41_0.allRepairCompletePage, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_41_0.allRepairCompletePage)
 	arg_41_0:SetRes(arg_41_0:findTF("panel/source/res", arg_41_0.allRepairCompletePage), arg_41_0.beforeExchangeResList)
 	setText(arg_41_0:findTF("panel/destination/res/Text", arg_41_0.allRepairCompletePage), arg_41_0.activity:getVitemNumber(66005) - arg_41_0.beforeExchangeResList[5][2])
 	onButton(arg_41_0, arg_41_0:findTF("bg", arg_41_0.allRepairCompletePage), function()
 		setActive(arg_41_0.allRepairCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_41_0.allRepairCompletePage, arg_41_0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_41_0.allRepairCompletePage, arg_41_0._tf:Find("subPages"))
 	end, SFX_CANCEL)
 	onButton(arg_41_0, arg_41_0:findTF("closeBtn", arg_41_0.allRepairCompletePage), function()
 		setActive(arg_41_0.allRepairCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_41_0.allRepairCompletePage, arg_41_0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_41_0.allRepairCompletePage, arg_41_0._tf:Find("subPages"))
 	end, SFX_CANCEL)
 end
 
@@ -570,14 +570,14 @@ end
 function var_0_0.onBackPressed(arg_45_0)
 	if isActive(arg_45_0.siteDescPage) then
 		setActive(arg_45_0.siteDescPage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_45_0.siteDescPage, arg_45_0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_45_0.siteDescPage, arg_45_0._tf:Find("subPages"))
 
 		return
 	end
 
 	if isActive(arg_45_0.allRepairCompletePage) then
 		setActive(arg_45_0.allRepairCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_45_0.allRepairCompletePage, arg_45_0._tf:Find("subPages"))
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_45_0.allRepairCompletePage, arg_45_0._tf:Find("subPages"))
 
 		return
 	end

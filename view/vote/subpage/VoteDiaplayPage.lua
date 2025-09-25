@@ -129,7 +129,7 @@ function var_0_0.Update(arg_6_0, arg_6_1)
 end
 
 function var_0_0.Close(arg_12_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_12_0._tf, arg_12_0._parent)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf, arg_12_0._parent)
 	setActive(arg_12_0._tf, false)
 	retPaintingPrefab(arg_12_0.paitingTF, arg_12_0.paintingName)
 

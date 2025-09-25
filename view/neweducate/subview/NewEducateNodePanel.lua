@@ -91,9 +91,8 @@ function var_0_0.OnInit(arg_4_0)
 			end
 		end
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf, {
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER + 2
+	arg_4_0:OverlayPanel(arg_4_0._tf, {
+		groupDelta = 2
 	})
 end
 
@@ -452,7 +451,7 @@ function var_0_0.Hide(arg_63_0)
 end
 
 function var_0_0.OnDestroy(arg_64_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_64_0._tf, arg_64_0._parentTf)
+	arg_64_0:UnOverlayPanel(arg_64_0._tf, arg_64_0._parentTf)
 
 	if arg_64_0.cpkHandler then
 		arg_64_0.cpkHandler:Destroy()

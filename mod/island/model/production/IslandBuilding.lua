@@ -19,119 +19,117 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 		arg_1_0:UpdateDeleationRewardDataBySlotId(iter_1_5.id, iter_1_5)
 	end
 
-	arg_1_0.collectionSlotData = {}
-
-	for iter_1_6, iter_1_7 in ipairs(arg_1_1.collect_list or {}) do
-		arg_1_0.collectionSlotData[iter_1_7.id] = IslandCollectSlot.New(arg_1_0.configId, iter_1_7)
-	end
-
 	arg_1_0.handSlotData = {}
 
-	for iter_1_8, iter_1_9 in ipairs(arg_1_1.hand_list or {}) do
-		arg_1_0.handSlotData[iter_1_9.id] = IslandHandSlot.New(arg_1_0.configId, iter_1_9)
+	for iter_1_6, iter_1_7 in ipairs(arg_1_1.hand_list or {}) do
+		arg_1_0.handSlotData[iter_1_7.id] = IslandHandSlot.New(arg_1_0.configId, iter_1_7)
+	end
+
+	if arg_1_1.build_collect then
+		arg_1_0.collectPlaceSystem = IslandCollectSlotPlace.New(arg_1_1.id, arg_1_1.build_collect)
 	end
 end
 
-function var_0_0.bindConfigTable(arg_2_0)
+function var_0_0.GetBuildingCollectData(arg_2_0)
+	return arg_2_0.collectPlaceSystem
+end
+
+function var_0_0.bindConfigTable(arg_3_0)
 	return pg.island_production_place
 end
 
-function var_0_0.GetDelegationSlotData(arg_3_0, arg_3_1)
-	return arg_3_0.delegationSlotData[arg_3_1]
+function var_0_0.GetDelegationSlotData(arg_4_0, arg_4_1)
+	return arg_4_0.delegationSlotData[arg_4_1]
 end
 
-function var_0_0.GetDelegationSlotDatas(arg_4_0)
-	return arg_4_0.delegationSlotData
+function var_0_0.GetDelegationSlotDatas(arg_5_0)
+	return arg_5_0.delegationSlotData
 end
 
-function var_0_0.GetDelegationSlotDataByFormulaId(arg_5_0, arg_5_1)
-	for iter_5_0, iter_5_1 in pairs(arg_5_0.delegationSlotData) do
-		if iter_5_1:GetFormulaId() and iter_5_1:GetFormulaId() == arg_5_1 then
-			return iter_5_1
+function var_0_0.GetDelegationSlotDataByFormulaId(arg_6_0, arg_6_1)
+	for iter_6_0, iter_6_1 in pairs(arg_6_0.delegationSlotData) do
+		if iter_6_1:GetFormulaId() and iter_6_1:GetFormulaId() == arg_6_1 then
+			return iter_6_1
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.GetCollectSlotDatas(arg_6_0)
-	return arg_6_0.collectionSlotData
+function var_0_0.GetHandPlantSlotData(arg_7_0, arg_7_1)
+	return arg_7_0.handSlotData[arg_7_1]
 end
 
-function var_0_0.GetCollectSlotData(arg_7_0, arg_7_1)
-	return arg_7_0.collectionSlotData[arg_7_1]
-end
+function var_0_0.InitSlotRoleDataByAbility(arg_8_0, arg_8_1)
+	local var_8_0 = pg.island_production_slot[arg_8_1]
 
-function var_0_0.GetHandPlantSlotData(arg_8_0, arg_8_1)
-	return arg_8_0.handSlotData[arg_8_1]
-end
-
-function var_0_0.InitSlotRoleDataByAbility(arg_9_0, arg_9_1)
-	local var_9_0 = pg.island_production_slot[arg_9_1]
-
-	if arg_9_0.delegationSlotData[arg_9_1] then
+	if arg_8_0.delegationSlotData[arg_8_1] then
 		warning("已经存在当前槽位的信息了")
 
 		return
 	end
 
-	local var_9_1 = {}
+	local var_8_1 = {}
 
-	if var_9_0.type == 3 then
-		local var_9_2 = var_9_0.animal == "" and {} or var_9_0.animal
+	if var_8_0.type == 3 then
+		local var_8_2 = var_8_0.animal == "" and {} or var_8_0.animal
 
-		for iter_9_0, iter_9_1 in ipairs(var_9_2) do
-			if pg.island_ranch_animal[iter_9_1].unlock_type == 0 then
-				table.insert(var_9_1, iter_9_1)
+		for iter_8_0, iter_8_1 in ipairs(var_8_2) do
+			if pg.island_ranch_animal[iter_8_1].unlock_type == 0 then
+				table.insert(var_8_1, iter_8_1)
 			end
 		end
 
 		getProxy(IslandProxy):GetIsland():DispatchEvent(IslandBuildingAgency.GEN_ANIMAL_INT, {
-			aniList = var_9_1,
-			slotId = arg_9_1
+			aniList = var_8_1,
+			slotId = arg_8_1
 		})
 	end
 
-	arg_9_0.delegationSlotData[arg_9_1] = IslandRoleDelegationSlot.New(arg_9_0.configId, {
-		id = arg_9_1,
-		part_list = var_9_1,
+	arg_8_0.delegationSlotData[arg_8_1] = IslandRoleDelegationSlot.New(arg_8_0.configId, {
+		id = arg_8_1,
+		part_list = var_8_1,
 		formula_list = {}
 	}, true)
 end
 
-function var_0_0.InitSlotHandPlantByAbility(arg_10_0, arg_10_1)
-	local var_10_0 = pg.island_production_slot[arg_10_1]
+function var_0_0.InitSlotHandPlantByAbility(arg_9_0, arg_9_1)
+	local var_9_0 = pg.island_production_slot[arg_9_1]
 
-	if arg_10_0.handSlotData[arg_10_1] then
+	if arg_9_0.handSlotData[arg_9_1] then
 		warning("已经存在当前槽位的信息了")
 
 		return
 	end
 
-	arg_10_0.handSlotData[arg_10_1] = IslandHandSlot.New(arg_10_1, {
+	arg_9_0.handSlotData[arg_9_1] = IslandHandSlot.New(arg_9_1, {
 		formula_id = 0,
 		start_time = 0,
 		end_time = 0,
 		state = 0,
-		id = arg_10_1
+		id = arg_9_1
 	})
 end
 
-function var_0_0.InitHandSlotData(arg_11_0, arg_11_1)
-	if arg_11_0.collectionSlotData[arg_11_1.id] then
-		warning("已经存在当前槽位的信息了")
+function var_0_0.InitHandSlotData(arg_10_0, arg_10_1)
+	if arg_10_0.collectPlaceSystem then
+		arg_10_0.collectPlaceSystem:InitHandSlotData(arg_10_1)
+	end
+end
+
+function var_0_0.UpdateDeleationRoleDataBySlotId(arg_11_0, arg_11_1, arg_11_2)
+	local var_11_0 = arg_11_0:GetDelegationSlotData(arg_11_1)
+
+	if not var_11_0 then
+		warning("下发数据有问题,下发的槽位id不是当前区域能委派的槽位,下发的槽位id为" .. arg_11_1)
 
 		return
 	end
 
-	local var_11_0 = IslandCollectSlot.New(arg_11_0.configId, arg_11_1)
-
-	arg_11_0.collectionSlotData[arg_11_1.id] = var_11_0
-
-	var_11_0:SetNeedLoadModel()
+	var_11_0:UpdateSlotRoleData(arg_11_2)
 end
 
-function var_0_0.UpdateDeleationRoleDataBySlotId(arg_12_0, arg_12_1, arg_12_2)
+function var_0_0.UpdateDeleationRewardDataBySlotId(arg_12_0, arg_12_1, arg_12_2)
 	local var_12_0 = arg_12_0:GetDelegationSlotData(arg_12_1)
 
 	if not var_12_0 then
@@ -140,23 +138,17 @@ function var_0_0.UpdateDeleationRoleDataBySlotId(arg_12_0, arg_12_1, arg_12_2)
 		return
 	end
 
-	var_12_0:UpdateSlotRoleData(arg_12_2)
+	var_12_0:UpdateSlotRewardData(arg_12_2)
 end
 
-function var_0_0.UpdateDeleationRewardDataBySlotId(arg_13_0, arg_13_1, arg_13_2)
-	local var_13_0 = arg_13_0:GetDelegationSlotData(arg_13_1)
-
-	if not var_13_0 then
-		warning("下发数据有问题,下发的槽位id不是当前区域能委派的槽位,下发的槽位id为" .. arg_13_1)
-
-		return
+function var_0_0.UpdateCollectDataBySlotId(arg_13_0, arg_13_1, arg_13_2)
+	if arg_13_0.collectPlaceSystem then
+		arg_13_0.collectPlaceSystem:UpdateCollectDataBySlotId(arg_13_1, arg_13_2)
 	end
-
-	var_13_0:UpdateSlotRewardData(arg_13_2)
 end
 
-function var_0_0.UpdateCollectDataBySlotId(arg_14_0, arg_14_1, arg_14_2)
-	local var_14_0 = arg_14_0:GetCollectSlotData(arg_14_1.id)
+function var_0_0.UpdateHandPlantDataBySlotId(arg_14_0, arg_14_1)
+	local var_14_0 = arg_14_0:GetHandPlantSlotData(arg_14_1.id)
 
 	if not var_14_0 then
 		warning("下发数据有问题,下发的槽位id不是当前区域能委派的槽位,下发的槽位id为" .. arg_14_1.id)
@@ -164,93 +156,93 @@ function var_0_0.UpdateCollectDataBySlotId(arg_14_0, arg_14_1, arg_14_2)
 		return
 	end
 
-	var_14_0:UpdateCollectData(arg_14_1, arg_14_2)
+	var_14_0:UpdateData(arg_14_1)
 end
 
-function var_0_0.UpdateHandPlantDataBySlotId(arg_15_0, arg_15_1)
-	local var_15_0 = arg_15_0:GetHandPlantSlotData(arg_15_1.id)
+function var_0_0.GetFormulaList(arg_15_0)
+	local var_15_0 = {}
 
-	if not var_15_0 then
-		warning("下发数据有问题,下发的槽位id不是当前区域能委派的槽位,下发的槽位id为" .. arg_15_1.id)
-
-		return
+	for iter_15_0, iter_15_1 in pairs(arg_15_0.formulaData) do
+		table.insert(var_15_0, iter_15_1)
 	end
 
-	var_15_0:UpdateData(arg_15_1)
+	return var_15_0
 end
 
-function var_0_0.GetFormulaList(arg_16_0)
-	local var_16_0 = {}
-
-	for iter_16_0, iter_16_1 in pairs(arg_16_0.formulaData) do
-		table.insert(var_16_0, iter_16_1)
-	end
-
-	return var_16_0
+function var_0_0.GetLevel(arg_16_0)
+	return arg_16_0.level
 end
 
-function var_0_0.GetLevel(arg_17_0)
-	return arg_17_0.level
+function var_0_0.IsMaxLevel(arg_17_0)
+	return arg_17_0:GetUpgradeCost() == ""
 end
 
-function var_0_0.IsMaxLevel(arg_18_0)
-	return arg_18_0:GetUpgradeCost() == ""
+function var_0_0.GetName(arg_18_0)
+	return arg_18_0:getConfig("name")
 end
 
-function var_0_0.GetName(arg_19_0)
-	return arg_19_0:getConfig("name")
-end
-
-function var_0_0.UpdatePerSecond(arg_20_0)
-	for iter_20_0, iter_20_1 in pairs(arg_20_0.delegationSlotData) do
-		iter_20_1:UpdatePerSecond(arg_20_0.isSelf)
-	end
-
-	for iter_20_2, iter_20_3 in pairs(arg_20_0.collectionSlotData) do
-		iter_20_3:UpdatePerSecond()
+function var_0_0.UpdatePerSecond(arg_19_0)
+	for iter_19_0, iter_19_1 in pairs(arg_19_0.delegationSlotData) do
+		iter_19_1:UpdatePerSecond(arg_19_0.isSelf)
 	end
 end
 
-function var_0_0.GetSlotUnitDataByModelData(arg_21_0)
-	local var_21_0 = {}
+function var_0_0.GetSlotUnitDataByModelData(arg_20_0)
+	local var_20_0 = {}
 
-	for iter_21_0, iter_21_1 in pairs(arg_21_0.collectionSlotData) do
-		local var_21_1 = iter_21_1:GetUnitData()
+	for iter_20_0, iter_20_1 in pairs(arg_20_0.collectionSlotData) do
+		local var_20_1 = iter_20_1:GetUnitData()
 
-		if var_21_1 then
-			table.insert(var_21_0, var_21_1)
+		if var_20_1 then
+			table.insert(var_20_0, var_20_1)
 		end
 	end
 
-	return var_21_0
+	return var_20_0
 end
 
-function var_0_0.GetMinRoleDeleGationTime(arg_22_0)
-	local var_22_0
+function var_0_0.GetMinRoleDeleGationTime(arg_21_0)
+	local var_21_0
+
+	for iter_21_0, iter_21_1 in pairs(arg_21_0.delegationSlotData) do
+		local var_21_1 = iter_21_1:GetRoleDelegateFinishTime()
+
+		if var_21_1 ~= -1 then
+			var_21_0 = var_21_0 and math.min(var_21_1, var_21_0) or var_21_1
+		end
+	end
+
+	return var_21_0 and var_21_0 or -1
+end
+
+function var_0_0.GetShipIdAndAreaIdList(arg_22_0)
+	local var_22_0 = {}
 
 	for iter_22_0, iter_22_1 in pairs(arg_22_0.delegationSlotData) do
-		local var_22_1 = iter_22_1:GetRoleDelegateFinishTime()
+		local var_22_1 = iter_22_1:GetRoleShipData()
 
-		if var_22_1 ~= -1 then
-			var_22_0 = var_22_0 and math.min(var_22_1, var_22_0) or var_22_1
+		if var_22_1 then
+			table.insert(var_22_0, var_22_1)
 		end
 	end
 
-	return var_22_0 and var_22_0 or -1
+	return var_22_0
 end
 
-function var_0_0.GetShipIdAndAreaIdList(arg_23_0)
-	local var_23_0 = {}
-
+function var_0_0.IsPostTip(arg_23_0)
 	for iter_23_0, iter_23_1 in pairs(arg_23_0.delegationSlotData) do
-		local var_23_1 = iter_23_1:GetRoleShipData()
-
-		if var_23_1 then
-			table.insert(var_23_0, var_23_1)
+		if iter_23_1:CanStartDelegation() or iter_23_1:GetSlotRewardData() then
+			return true
 		end
 	end
 
-	return var_23_0
+	return false
+end
+
+function var_0_0.GetCollectSlotData(arg_24_0, arg_24_1)
+	if arg_24_0.collectPlaceSystem then
+		return arg_24_0.collectPlaceSystem:GetCollectSlotData(arg_24_1)
+	end
 end
 
 return var_0_0

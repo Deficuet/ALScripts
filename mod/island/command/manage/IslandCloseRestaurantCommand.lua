@@ -3,13 +3,15 @@ local var_0_0 = class("IslandCloseRestaurantCommand", pm.SimpleCommand)
 var_0_0.CLOSE_RESTAURANT = "IslandCloseRestaurantCommand.CLOSE_RESTAURANT"
 
 function var_0_0.execute(arg_1_0, arg_1_1)
-	local var_1_0 = arg_1_1:getBody().restId
+	local var_1_0 = arg_1_1:getBody()
+	local var_1_1 = var_1_0.restId
+	local var_1_2 = var_1_0.isPost
 
 	pg.ConnectionMgr.GetInstance():Send(21420, {
-		trade_id = var_1_0
+		trade_id = var_1_1
 	}, 21421, function(arg_2_0)
 		if arg_2_0.result == 0 then
-			local var_2_0 = getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurant(var_1_0)
+			local var_2_0 = getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurant(var_1_1)
 			local var_2_1 = var_2_0:GetSellCommondities()
 			local var_2_2 = var_2_0:GetRemainCommodities()
 			local var_2_3 = var_2_0:GetSales()
@@ -29,11 +31,12 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			var_2_0:SetCommodities({}, {})
 			var_2_0:ClearAssistantShips()
 			var_2_0:SetEndTime(0)
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandCloseRest(var_1_2 and 1 or 0, arg_2_0.drop_list))
 
 			local var_2_7 = IslandDropHelper.AddItems(arg_2_0)
 
 			arg_1_0:sendNotification(GAME.ISLAND_CLOSE_RESTAURANT_DONE, {
-				restId = var_1_0,
+				restId = var_1_1,
 				saleList = var_2_1,
 				remainList = var_2_2,
 				isUpgrade = var_2_6,

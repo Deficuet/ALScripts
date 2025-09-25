@@ -33,9 +33,7 @@ function var_0_0.init(arg_2_0)
 		arg_2_0.skipAnim = false
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER + 1
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 	setText(arg_2_0:findTF("main/info/content/abilitys/attrs/command/name/Text"), i18n("commander_command_ability"))
 	setText(arg_2_0:findTF("main/info/content/abilitys/attrs/tactic/name/Text"), i18n("commander_tactical_ability"))
 	setText(arg_2_0:findTF("main/info/content/abilitys/attrs/support/name/Text"), i18n("commander_logistics_ability"))
@@ -44,7 +42,7 @@ end
 
 function var_0_0.openTreePanel(arg_3_0, arg_3_1)
 	local function var_3_0()
-		arg_3_0.treePanel:ActionInvoke("Show", arg_3_1, LayerWeightConst.SECOND_LAYER + 2)
+		arg_3_0.treePanel:ActionInvoke("Show", arg_3_1)
 	end
 
 	if arg_3_0.treePanel:GetLoaded() then
@@ -117,9 +115,7 @@ end
 function var_0_0.didEnter(arg_14_0)
 	arg_14_0:updateInfo()
 	onButton(arg_14_0, arg_14_0.shareBtn, function()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeCommander, pg.ShareMgr.PANEL_TYPE_PINK, {
-			weight = LayerWeightConst.TOP_LAYER
-		})
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeCommander, pg.ShareMgr.PANEL_TYPE_PINK)
 	end, SFX_PANEL)
 	onButton(arg_14_0, arg_14_0.skipBtn, function(arg_16_0)
 		if arg_14_0.isAnim then
@@ -163,7 +159,6 @@ function var_0_0.DoExit(arg_20_0)
 				arg_20_0:emit(NewCommanderMediator.ON_LOCK, arg_20_0.contextData.commander.id, 1)
 				arg_20_0:emit(var_0_0.ON_CLOSE)
 			end,
-			layer = LayerWeightConst.SECOND_LAYER + 2,
 			onNo = function()
 				arg_20_0:emit(var_0_0.ON_CLOSE)
 			end
@@ -252,7 +247,7 @@ function var_0_0.onBackPressed(arg_30_0)
 end
 
 function var_0_0.willExit(arg_31_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_31_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_31_0._tf, pg.UIMgr.GetInstance().UIMain)
 	arg_31_0.treePanel:Destroy()
 	arg_31_0.msgbox:Destroy()
 	retCommanderPaintingPrefab(arg_31_0.paintTF, arg_31_0.painting:getPainting())

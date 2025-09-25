@@ -434,29 +434,26 @@ function var_0_0.GetShipVO(arg_37_0)
 end
 
 function var_0_0.OnSelected(arg_38_0, arg_38_1)
-	local var_38_0 = pg.UIMgr.GetInstance()
-
 	if arg_38_1 then
-		var_38_0:OverlayPanelPB(arg_38_0._parentTf, {
+		arg_38_0:OverlayPanel(arg_38_0._parentTf, {
 			pbList = {
 				arg_38_0.detailPanel:Find("attrs"),
 				arg_38_0.detailPanel:Find("equipments"),
 				arg_38_0.detailPanel:Find("quick_panel")
 			},
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
 			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
-		var_38_0:UnOverlayPanel(arg_38_0._parentTf, arg_38_0.mainPanel)
+		arg_38_0:UnOverlayPanel(arg_38_0._parentTf, arg_38_0.mainPanel)
 	end
 
 	arg_38_0.onSelected = arg_38_1
 
 	if arg_38_0.onSelected and arg_38_0.selectedEquip then
-		local var_38_1 = arg_38_0.selectedEquip.index
+		local var_38_0 = arg_38_0.selectedEquip.index
 
 		arg_38_0:selectedEquipItem(nil)
-		arg_38_0:selectedEquipItem(var_38_1)
+		arg_38_0:selectedEquipItem(var_38_0)
 	end
 end
 
@@ -536,8 +533,7 @@ function var_0_0.UpdateEquipments(arg_44_0, arg_44_1)
 					arg_44_0:emit(BaseUI.ON_EQUIPMENT, {
 						type = EquipmentInfoMediator.TYPE_SHIP,
 						shipId = arg_44_0:GetShipVO().id,
-						pos = iter_44_0,
-						LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
+						pos = iter_44_0
 					})
 				end
 			end, SFX_UI_DOCKYARD_EQUIPADD)

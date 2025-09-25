@@ -29,9 +29,8 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0._tf, {
-		groupName = arg_5_0:getGroupNameFromData(),
-		weight = arg_5_0:getWeightFromData() + 1
+	arg_5_0:OverlayPanel(arg_5_0._tf, {
+		groupDelta = 1
 	})
 
 	local var_5_0 = EducateHelper.GetShowMonthNumber(arg_5_0.curTime.month)
@@ -46,7 +45,7 @@ function var_0_0.onBackPressed(arg_6_0)
 end
 
 function var_0_0.willExit(arg_7_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0._tf)
+	arg_7_0:UnOverlayPanel(arg_7_0._tf)
 
 	if arg_7_0.contextData.onExit then
 		arg_7_0.contextData.onExit()

@@ -56,7 +56,7 @@ function var_0_0.UpdateLayout(arg_7_0, arg_7_1)
 end
 
 function var_0_0.Hide(arg_8_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_8_0._tf, arg_8_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0._tf, arg_8_0._parentTf)
 	var_0_0.super.Hide(arg_8_0)
 
 	arg_8_0.text.text = ""

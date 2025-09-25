@@ -253,9 +253,8 @@ function var_0_0.didEnter(arg_21_0)
 	if arg_21_0.contextData.parent then
 		setParent(arg_21_0._tf, arg_21_0.contextData.parent)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(arg_21_0._tf, true, {
-			groupName = arg_21_0:getGroupNameFromData(),
-			weight = arg_21_0:getWeightFromData()
+		pg.UIMgr.GetInstance():BlurPanel(arg_21_0._tf, {
+			staticBlur = true
 		})
 	end
 
@@ -438,7 +437,7 @@ function var_0_0.SetInputXian(arg_40_0, arg_40_1)
 end
 
 function var_0_0.willExit(arg_41_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_41_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_41_0._tf)
 	arg_41_0:ClearAllTimers()
 end
 

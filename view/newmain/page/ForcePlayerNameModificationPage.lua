@@ -57,9 +57,7 @@ function var_0_0.Show(arg_6_0, arg_6_1)
 	arg_6_0.showing = true
 
 	var_0_0.super.Show(arg_6_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_6_0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_6_0._tf)
 
 	local var_6_0 = getProxy(PlayerProxy):getRawData()
 	local var_6_1 = i18n("change_player_name_illegal", var_6_0.name)
@@ -73,7 +71,7 @@ function var_0_0.Hide(arg_7_0)
 	if arg_7_0.showing then
 		arg_7_0.showing = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(arg_7_0._tf, arg_7_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0._tf, arg_7_0._parentTf)
 		var_0_0.super.Hide(arg_7_0)
 
 		arg_7_0.callback = nil

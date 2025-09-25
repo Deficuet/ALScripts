@@ -45,7 +45,7 @@ function var_0_0.Init(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4, arg_3_5)
 	if arg_3_5 then
 		onButton(arg_3_0, arg_3_0.touch, function()
 			arg_3_5()
-		end, SFX_PACNEL)
+		end, SFX_PANEL)
 	end
 end
 

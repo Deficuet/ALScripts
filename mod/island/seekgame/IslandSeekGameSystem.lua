@@ -56,7 +56,16 @@ function var_0_0.RestartGame(arg_5_0)
 end
 
 function var_0_0.GetObjUnitList(arg_6_0)
-	return arg_6_0:GetView():GetUnitListByKey(IslandConst.UNIT_LIST_OBJ)
+	local var_6_0 = {}
+	local var_6_1 = arg_6_0:GetView():GetUnitListByKey(IslandConst.UNIT_LIST_OBJ)
+
+	for iter_6_0, iter_6_1 in ipairs(var_6_1) do
+		table.insert(var_6_0, iter_6_1)
+	end
+
+	table.insert(var_6_0, arg_6_0:GetView().player)
+
+	return var_6_0
 end
 
 function var_0_0.GetUnitById(arg_7_0, arg_7_1)

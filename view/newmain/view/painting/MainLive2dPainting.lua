@@ -311,7 +311,7 @@ function var_0_0.OnDisplayWorld(arg_27_0)
 	return
 end
 
-function var_0_0.OnPuase(arg_28_0)
+function var_0_0.OnPause(arg_28_0)
 	arg_28_0:RemoveScreenChangeTimer()
 	arg_28_0:ResetContainerPosition()
 

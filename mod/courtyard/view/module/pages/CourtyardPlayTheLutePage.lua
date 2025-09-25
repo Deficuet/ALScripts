@@ -196,7 +196,7 @@ function var_0_0.Hide(arg_21_0)
 	Input.multiTouchEnabled = false
 
 	var_0_0.super.Hide(arg_21_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_21_0._tf, arg_21_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf, arg_21_0._parentTf)
 	arg_21_0:Emit("StopPlayMusicalInstruments", arg_21_0.furniture.id)
 end
 

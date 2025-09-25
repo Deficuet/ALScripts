@@ -267,7 +267,7 @@ function var_0_0.OnClick(arg_17_0, arg_17_1, arg_17_2, arg_17_3, arg_17_4)
 			end
 
 			arg_17_4()
-			pg.TipsMgr:GetInstance():ShowTips(i18n("world_boss_none"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_none"))
 
 			return
 		end

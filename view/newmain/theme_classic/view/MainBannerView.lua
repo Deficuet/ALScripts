@@ -53,7 +53,7 @@ function var_0_0.GetDirection(arg_7_0)
 end
 
 function var_0_0.Disable(arg_8_0)
-	arg_8_0.scrollSnap:Puase()
+	arg_8_0.scrollSnap:Pause()
 end
 
 function var_0_0.Clear(arg_9_0)

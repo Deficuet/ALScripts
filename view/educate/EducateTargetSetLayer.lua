@@ -175,7 +175,7 @@ function var_0_0.updateTarget(arg_20_0)
 end
 
 function var_0_0.willExit(arg_22_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_22_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_22_0._tf)
 end
 
 function var_0_0.onBackPressed(arg_23_0)

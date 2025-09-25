@@ -54,7 +54,7 @@ function var_0_0.didEnter(arg_3_0)
 	arg_3_0:InitView()
 	arg_3_0:UpdateView()
 	pg.BgmMgr.GetInstance():Push(arg_3_0.__cname, arg_3_0.bgm)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.InitData(arg_6_0)

@@ -331,7 +331,7 @@ function var_0_0.didEnter(arg_11_0)
 	onButton(arg_11_0, arg_11_0.btnPhantom, function()
 		arg_11_0:emit(ShipBluePrintMediator.OPEN_PHANTOM_LAYER, arg_11_0.version)
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_11_0.blurPanel, {
+	pg.UIMgr.GetInstance():OverlayPanel(arg_11_0.blurPanel, {
 		pbList = {
 			arg_11_0.rightPanel:Find("task_list"),
 			arg_11_0.rightPanel:Find("mod_panel"),
@@ -341,31 +341,31 @@ function var_0_0.didEnter(arg_11_0)
 	})
 	setText(arg_11_0:findTF("window/top/bg/infomation/title", arg_11_0.msgPanel), i18n("title_info"))
 	onButton(arg_11_0, arg_11_0:findTF("window/top/btnBack", arg_11_0.msgPanel), function()
-		pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.msgPanel, arg_11_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.msgPanel, arg_11_0.top)
 		setActive(arg_11_0.msgPanel, false)
 	end, SFX_CANCEL)
 	setText(arg_11_0:findTF("window/confirm_btn/Text", arg_11_0.msgPanel), i18n("text_confirm"))
 	onButton(arg_11_0, arg_11_0:findTF("window/confirm_btn", arg_11_0.msgPanel), function()
-		pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.msgPanel, arg_11_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.msgPanel, arg_11_0.top)
 		setActive(arg_11_0.msgPanel, false)
 	end, SFX_CANCEL)
 	onButton(arg_11_0, arg_11_0:findTF("bg", arg_11_0.msgPanel), function()
-		pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.msgPanel, arg_11_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.msgPanel, arg_11_0.top)
 		setActive(arg_11_0.msgPanel, false)
 	end, SFX_CANCEL)
 	onButton(arg_11_0, arg_11_0.unlockPanel:Find("window/top/btnBack"), function()
-		pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.unlockPanel, arg_11_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.unlockPanel, arg_11_0.top)
 		setActive(arg_11_0.unlockPanel, false)
 	end, SFX_CANCEL)
 	setText(arg_11_0.unlockPanel:Find("window/confirm_btn/Text"), i18n("text_confirm"))
 	setText(arg_11_0.unlockPanel:Find("window/cancel_btn/Text"), i18n("text_cancel"))
 	setText(arg_11_0.unlockPanel:Find("window/top/bg/infomation/title"), i18n("title_info"))
 	onButton(arg_11_0, arg_11_0.unlockPanel:Find("window/cancel_btn"), function()
-		pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.unlockPanel, arg_11_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.unlockPanel, arg_11_0.top)
 		setActive(arg_11_0.unlockPanel, false)
 	end, SFX_CANCEL)
 	onButton(arg_11_0, arg_11_0.unlockPanel:Find("bg"), function()
-		pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.unlockPanel, arg_11_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.unlockPanel, arg_11_0.top)
 		setActive(arg_11_0.unlockPanel, false)
 	end, SFX_CANCEL)
 	GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. arg_11_0.version, arg_11_0.versionBtn)
@@ -381,7 +381,7 @@ function var_0_0.didEnter(arg_11_0)
 			pg.UIMgr.GetInstance():BlurPanel(arg_11_0.versionPanel)
 		end, SFX_PANEL)
 		onButton(arg_11_0, arg_11_0.versionPanel:Find("bg"), function()
-			pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.versionPanel, arg_11_0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.versionPanel, arg_11_0._tf)
 			setActive(arg_11_0.versionPanel, false)
 		end, SFX_CANCEL)
 
@@ -412,7 +412,7 @@ function var_0_0.didEnter(arg_11_0)
 					arg_11_0:initShips()
 					arg_11_0:updateVersionBtnTip()
 					var_11_3:align(var_11_0)
-					pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.versionPanel, arg_11_0._tf)
+					pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.versionPanel, arg_11_0._tf)
 					setActive(arg_11_0.versionPanel, false)
 				end, SFX_CANCEL)
 			end
@@ -2394,7 +2394,7 @@ function var_0_0.closePreview(arg_168_0, arg_168_1)
 		SetParent(arg_168_0.blurPanel, pg.UIMgr.GetInstance().OverlayMain)
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_168_0.preViewer, arg_168_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_168_0.preViewer, arg_168_0._tf)
 
 	arg_168_0.isShowPreview = nil
 end
@@ -2489,10 +2489,10 @@ end
 
 function var_0_0.onBackPressed(arg_180_0)
 	if isActive(arg_180_0.msgPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_180_0.msgPanel, arg_180_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_180_0.msgPanel, arg_180_0.top)
 		setActive(arg_180_0.msgPanel, false)
 	elseif isActive(arg_180_0.unlockPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_180_0.unlockPanel, arg_180_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_180_0.unlockPanel, arg_180_0.top)
 		setActive(arg_180_0.unlockPanel, false)
 	elseif isActive(arg_180_0.versionPanel) then
 		triggerButton(arg_180_0.versionPanel:Find("bg"))
@@ -2509,12 +2509,12 @@ end
 
 function var_0_0.willExit(arg_181_0)
 	if isActive(arg_181_0.msgPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_181_0.msgPanel, arg_181_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_181_0.msgPanel, arg_181_0.top)
 		setActive(arg_181_0.msgPanel, false)
 	end
 
 	if isActive(arg_181_0.unlockPanel) then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_181_0.unlockPanel, arg_181_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_181_0.unlockPanel, arg_181_0.top)
 		setActive(arg_181_0.unlockPanel, false)
 	end
 
@@ -2574,7 +2574,7 @@ function var_0_0.buildStartAni(arg_183_0, arg_183_1, arg_183_2)
 		var_184_0:SetAsLastSibling()
 		var_184_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_185_0)
 			if not IsNil(arg_183_0.awakenAni) then
-				pg.UIMgr.GetInstance():UnblurPanel(var_184_0, arg_183_0.blurPanel)
+				pg.UIMgr.GetInstance():UnOverlayPanel(var_184_0, arg_183_0.blurPanel)
 				arg_183_0.awakenAni:SetActive(false)
 
 				arg_183_0.awakenPlay = false
@@ -2709,7 +2709,7 @@ function var_0_0.showUnlockPanel(arg_191_0)
 	GetImageSpriteFromAtlasAsync(var_191_2:getIcon(), "", arg_191_0.unlockPanel:Find("window/confirm_btn/Image/Image"))
 	setText(arg_191_0.unlockPanel:Find("window/confirm_btn/Image/Text"), i18n("event_ui_consume"))
 	onButton(arg_191_0, arg_191_0.unlockPanel:Find("window/confirm_btn"), function()
-		pg.UIMgr.GetInstance():UnblurPanel(arg_191_0.unlockPanel, arg_191_0.top)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_191_0.unlockPanel, arg_191_0.top)
 		setActive(arg_191_0.unlockPanel, false)
 		arg_191_0:emit(ShipBluePrintMediator.ON_ITEM_UNLOCK, var_191_0, var_191_1)
 	end, SFX_CANCEL)

@@ -628,7 +628,7 @@ function var_0_0.Sort(arg_62_0, arg_62_1, arg_62_2, arg_62_3)
 end
 
 function var_0_0.IsCouponType(arg_63_0, arg_63_1, arg_63_2)
-	if arg_63_1 and not SkinCouponActivity.StaticIsShop(arg_63_2.id) then
+	if arg_63_1 and not SkinCouponActivity.GetSkinCouponAct(arg_63_2.id) then
 		return false
 	end
 

@@ -29,9 +29,7 @@ function var_0_0.didEnter(arg_3_0)
 	onButton(arg_3_0, arg_3_0._skipBtn, function()
 		arg_3_0:skip()
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 	arg_3_0:display()
 end
 
@@ -278,7 +276,7 @@ function var_0_0.willExit(arg_24_0)
 
 	arg_24_0.timerId = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_24_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_24_0._tf)
 end
 
 return var_0_0

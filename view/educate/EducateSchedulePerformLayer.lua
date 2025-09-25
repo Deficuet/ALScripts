@@ -63,9 +63,8 @@ function var_0_0.findUI(arg_6_0)
 end
 
 function var_0_0.didEnter(arg_7_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_7_0._tf, {
-		groupName = arg_7_0:getGroupNameFromData(),
-		weight = arg_7_0:getWeightFromData() + 1
+	arg_7_0:OverlayPanel(arg_7_0._tf, {
+		groupDelta = 1
 	})
 	pg.PerformMgr.GetInstance():SetParamForUI(arg_7_0.__cname)
 	arg_7_0:initDayList()
@@ -194,7 +193,7 @@ function var_0_0.onBackPressed(arg_17_0)
 end
 
 function var_0_0.willExit(arg_18_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_18_0._tf)
+	arg_18_0:UnOverlayPanel(arg_18_0._tf)
 	pg.PerformMgr.GetInstance():SetParamForUI("Default")
 
 	if arg_18_0.contextData.onExit then

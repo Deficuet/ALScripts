@@ -121,7 +121,7 @@ function var_0_0.Hide(arg_10_0)
 
 	arg_10_0.spItemID = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf, arg_10_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 end
 
 function var_0_0.setOpenCommanderTag(arg_11_0, arg_11_1)
@@ -504,8 +504,7 @@ function var_0_0.set(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
 						id = var_30_1
 					},
 					intro = var_30_4,
-					onYes = var_30_5,
-					weight = LayerWeightConst.TOP_LAYER
+					onYes = var_30_5
 				})
 			else
 				var_30_0()

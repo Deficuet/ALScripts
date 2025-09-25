@@ -27,8 +27,7 @@ function var_0_0.ShowMsgBox(arg_2_0, arg_2_1)
 			arg_2_0:ShowItemBox(arg_3_0, function()
 				arg_2_0:ShowMsgBox(arg_2_1)
 			end)
-		end,
-		weight = LayerWeightConst.TOP_LAYER
+		end
 	})
 end
 
@@ -40,8 +39,7 @@ function var_0_0.ShowItemBox(arg_5_0, arg_5_1, arg_5_2)
 			data = {
 				equipmentId = arg_5_1:getConfig("id"),
 				type = EquipmentInfoMediator.TYPE_DISPLAY,
-				onRemoved = arg_5_2,
-				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+				onRemoved = arg_5_2
 			}
 		}))
 	elseif arg_5_1.type == DROP_TYPE_SPWEAPON then
@@ -51,8 +49,7 @@ function var_0_0.ShowItemBox(arg_5_0, arg_5_1, arg_5_2)
 			data = {
 				spWeaponConfigId = arg_5_1:getConfig("id"),
 				type = SpWeaponInfoLayer.TYPE_DISPLAY,
-				onRemoved = arg_5_2,
-				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
+				onRemoved = arg_5_2
 			}
 		}))
 	else
@@ -60,8 +57,7 @@ function var_0_0.ShowItemBox(arg_5_0, arg_5_1, arg_5_2)
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = arg_5_1,
 			onNo = arg_5_2,
-			onYes = arg_5_2,
-			weight = LayerWeightConst.TOP_LAYER
+			onYes = arg_5_2
 		})
 	end
 end

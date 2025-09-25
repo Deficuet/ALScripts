@@ -153,7 +153,7 @@ function var_0_0.setVisible(arg_14_0, arg_14_1)
 	else
 		arg_14_0.bulrFlag = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(arg_14_0._tf, arg_14_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_14_0._tf, arg_14_0._parentTf)
 	end
 
 	setActive(arg_14_0._tf, arg_14_1)
@@ -166,7 +166,7 @@ end
 
 function var_0_0.dispose(arg_16_0)
 	if arg_16_0.bulrFlag == true then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_16_0._tf, arg_16_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_16_0._tf, arg_16_0._parentTf)
 
 		arg_16_0.bulrFlag = false
 	end

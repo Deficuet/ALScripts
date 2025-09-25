@@ -47,9 +47,7 @@ function var_0_0.init(arg_4_0)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, arg_5_0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0._tf)
 	onButton(arg_5_0, arg_5_0._backBtn, function()
 		arg_5_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_CANCEL)

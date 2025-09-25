@@ -31,59 +31,100 @@ function var_0_0.SetUp(arg_7_0, arg_7_1)
 	local var_7_1
 	local var_7_2 = 0
 
-	for iter_7_0 = 1, 3 do
-		local var_7_3 = arg_7_0.commodityList:Find("commodity" .. iter_7_0)
+	if #arg_7_1[1]:GetItems() == 1 then
+		for iter_7_0 = 1, 3 do
+			local var_7_3 = arg_7_0.commodityList:Find("commodity" .. iter_7_0)
 
-		setActive(var_7_3:Find("normal"), iter_7_0 <= #arg_7_1)
-		setActive(var_7_3:Find("nothing"), iter_7_0 > #arg_7_1)
+			setActive(var_7_3:Find("normal"), iter_7_0 <= #arg_7_1)
+			setActive(var_7_3:Find("nothing"), iter_7_0 > #arg_7_1)
 
-		if iter_7_0 <= #arg_7_1 then
-			local var_7_4 = arg_7_1[iter_7_0]
+			if iter_7_0 <= #arg_7_1 then
+				local var_7_4 = arg_7_1[iter_7_0]
 
-			GetImageSpriteFromAtlasAsync(var_7_4:GetIcon(), "", var_7_3:Find("normal/IslandItemTpl/icon_bg/icon"))
-			setText(var_7_3:Find("normal/name"), var_7_4:GetName())
-			setActive(var_7_3:Find("normal/count"), false)
+				GetImageSpriteFromAtlasAsync(var_7_4:GetIcon(), "", var_7_3:Find("normal/IslandItemTpl/icon_bg/icon"))
+				setText(var_7_3:Find("normal/name"), var_7_4:GetName())
+				setActive(var_7_3:Find("normal/count"), false)
 
-			if #var_7_4:GetItems() == 1 then
-				local var_7_5 = 0
+				if #var_7_4:GetItems() == 1 then
+					local var_7_5 = 0
 
-				if var_7_4:GetItems()[1][1] == DROP_TYPE_ISLAND_FURNITURE then
-					local var_7_6 = getProxy(IslandProxy):GetIsland():GetAgoraAgency():GetFurnitures()
+					if var_7_4:GetItems()[1][1] == DROP_TYPE_ISLAND_FURNITURE then
+						local var_7_6 = getProxy(IslandProxy):GetIsland():GetAgoraAgency():GetFurnitures()
 
-					for iter_7_1, iter_7_2 in ipairs(var_7_6) do
-						if iter_7_2.id == var_7_4:GetItems()[1][2] then
-							var_7_5 = iter_7_2.count
+						for iter_7_1, iter_7_2 in ipairs(var_7_6) do
+							if iter_7_2.id == var_7_4:GetItems()[1][2] then
+								var_7_5 = iter_7_2.count
 
-							break
+								break
+							end
 						end
-					end
-
-					setActive(var_7_3:Find("normal/count"), true)
-					setText(var_7_3:Find("normal/count"), "拥有数量(" .. var_7_5 .. ")")
-				elseif var_7_4:GetItems()[1][1] == DROP_TYPE_ISLAND_DRESS then
-					local var_7_7 = var_7_4:GetItems()[1][2]
-
-					if pg.island_dress_template[var_7_7].belongto == 2 then
-						local var_7_8 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(var_7_7)
 
 						setActive(var_7_3:Find("normal/count"), true)
-						setText(var_7_3:Find("normal/count"), "拥有数量(" .. var_7_8 .. ")")
+						setText(var_7_3:Find("normal/count"), i18n("island_3Dshop_no_have", var_7_5))
+					elseif var_7_4:GetItems()[1][1] == DROP_TYPE_ISLAND_DRESS then
+						local var_7_7 = var_7_4:GetItems()[1][2]
+
+						if pg.island_dress_template[var_7_7].belongto == 2 then
+							local var_7_8 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(var_7_7)
+
+							setActive(var_7_3:Find("normal/count"), true)
+							setText(var_7_3:Find("normal/count"), i18n("island_3Dshop_no_have", var_7_8))
+						end
 					end
 				end
+
+				local var_7_9 = var_7_4:GetResourceConsume()
+
+				GetImageSpriteFromAtlasAsync(Drop.New({
+					type = var_7_9[1],
+					id = var_7_9[2]
+				}):getIcon(), "", var_7_3:Find("normal/consumeIcon"))
+				setText(var_7_3:Find("normal/consumeNum"), var_7_9[3])
+
+				var_7_0 = var_7_9[1]
+				var_7_1 = var_7_9[2]
+				var_7_2 = var_7_2 + var_7_9[3]
+
+				setActive(var_7_3:Find("normal/cost"), true)
+				setActive(var_7_3:Find("normal/consumeIcon"), true)
+				setActive(var_7_3:Find("normal/have"), false)
 			end
-
-			local var_7_9 = var_7_4:GetResourceConsume()
-
-			GetImageSpriteFromAtlasAsync(Drop.New({
-				type = var_7_9[1],
-				id = var_7_9[2]
-			}):getIcon(), "", var_7_3:Find("normal/consumeIcon"))
-			setText(var_7_3:Find("normal/consumeNum"), var_7_9[3])
-
-			var_7_0 = var_7_9[1]
-			var_7_1 = var_7_9[2]
-			var_7_2 = var_7_2 + var_7_9[3]
 		end
+	elseif arg_7_1[1]:GetItems()[1][1] == DROP_TYPE_ISLAND_DRESS then
+		for iter_7_3 = 1, 3 do
+			local var_7_10 = arg_7_0.commodityList:Find("commodity" .. iter_7_3)
+
+			setActive(var_7_10:Find("normal"), iter_7_3 <= #arg_7_1[1]:GetItems())
+			setActive(var_7_10:Find("nothing"), iter_7_3 > #arg_7_1[1]:GetItems())
+
+			if iter_7_3 <= #arg_7_1[1]:GetItems() then
+				local var_7_11 = arg_7_1[1]:GetItems()[iter_7_3][2]
+				local var_7_12 = pg.island_dress_template[var_7_11]
+
+				GetImageSpriteFromAtlasAsync("island/IslandGoodsIcon/" .. var_7_12.icon, "", var_7_10:Find("normal/IslandItemTpl/icon_bg/icon"))
+				setText(var_7_10:Find("normal/name"), var_7_12.name)
+				setActive(var_7_10:Find("normal/count"), false)
+
+				local var_7_13 = 0
+
+				if var_7_12.belongto == 1 then
+					var_7_13 = getProxy(IslandProxy):GetIsland():GetDressUpAgency():CheckOwnDress(var_7_11) and 1 or 0
+				elseif var_7_12.belongto == 2 then
+					var_7_13 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetOwnDressCountByDressId(var_7_11)
+				end
+
+				setText(var_7_10:Find("normal/consumeNum"), var_7_13)
+				setActive(var_7_10:Find("normal/cost"), false)
+				setActive(var_7_10:Find("normal/consumeIcon"), false)
+				setActive(var_7_10:Find("normal/have"), true)
+			end
+		end
+
+		local var_7_14 = arg_7_1[1]:GetResourceConsume()
+
+		var_7_0 = var_7_14[1]
+		var_7_1 = var_7_14[2]
+		var_7_2 = var_7_14[3]
 	end
 
 	GetImageSpriteFromAtlasAsync(Drop.New({
@@ -111,9 +152,7 @@ function var_0_0.Refresh(arg_9_0)
 end
 
 function var_0_0.OnShow(arg_10_0, arg_10_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_10_0._tf, false, {
-		groupName = "IslandShop"
-	})
+	arg_10_0:BlurPanel(arg_10_0._tf)
 
 	arg_10_0.commodities = arg_10_1
 
@@ -121,7 +160,7 @@ function var_0_0.OnShow(arg_10_0, arg_10_1)
 end
 
 function var_0_0.OnHide(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf, arg_11_0._parentTf)
+	arg_11_0:UnOverlayPanel(arg_11_0._tf, arg_11_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_12_0)

@@ -59,9 +59,8 @@ function var_0_0.Show(arg_6_0, arg_6_1)
 
 	arg_6_0.callback = arg_6_1
 
-	pg.UIMgr.GetInstance():OverlayPanel(arg_6_0._tf, {
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER + 1
+	arg_6_0:OverlayPanel(arg_6_0._tf, {
+		groupDelta = 1
 	})
 	arg_6_0:InitData()
 	arg_6_0:InitStaticUI()
@@ -304,7 +303,7 @@ function var_0_0.GetAnimationState(arg_40_0, arg_40_1)
 end
 
 function var_0_0.Hide(arg_41_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_41_0._tf)
+	arg_41_0:UnOverlayPanel(arg_41_0._tf)
 
 	if arg_41_0.bossName and arg_41_0.bossModel then
 		arg_41_0:GetAnimationState(arg_41_0.bossModel).TimeScale = 1

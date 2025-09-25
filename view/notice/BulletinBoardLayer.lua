@@ -30,9 +30,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0._scrollRect = arg_2_0:findTF("content_view"):GetComponent(typeof(ScrollRect))
 	arg_2_0._stopRemind = arg_2_0:findTF("dontshow_tab")
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
 	arg_2_0._loadingFlag = {}
 end
@@ -160,7 +158,7 @@ end
 
 function var_0_0.willExit(arg_13_0)
 	arg_13_0:clearLoadingPic()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_13_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf)
 end
 
 return var_0_0

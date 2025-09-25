@@ -18,9 +18,7 @@ function var_0_0.Show(arg_3_0, arg_3_1)
 	var_0_0.super.Show(arg_3_0)
 	arg_3_0:UpdateUrShipAndContent(arg_3_1)
 	arg_3_0:RegisterEvent(arg_3_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER - 1
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 local function var_0_1(arg_4_0)
@@ -99,7 +97,7 @@ end
 
 function var_0_0.Hide(arg_13_0)
 	var_0_0.super.Hide(arg_13_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_13_0._tf, arg_13_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf, arg_13_0._parentTf)
 	removeOnButton(arg_13_0.confirmBtn)
 	arg_13_0:RemoveTimer()
 end

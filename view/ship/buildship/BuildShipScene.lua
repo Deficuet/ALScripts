@@ -86,9 +86,7 @@ function var_0_0.init(arg_11_0)
 end
 
 function var_0_0.didEnter(arg_12_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_12_0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
-	})
+	arg_12_0:OverlayPanel(arg_12_0.blurPanel)
 	onButton(arg_12_0, arg_12_0.backBtn, function()
 		arg_12_0:emit(var_0_0.ON_BACK)
 	end, SFX_CANCEL)
@@ -245,7 +243,7 @@ function var_0_0.willExit(arg_23_0)
 	arg_23_0.contextData.helpWindow:Destroy()
 	arg_23_0.poolsPage:Destroy()
 	arg_23_0.supportShipPoolPage:Destroy()
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_23_0.blurPanel, arg_23_0._tf)
+	arg_23_0:UnOverlayPanel(arg_23_0.blurPanel, arg_23_0._tf)
 end
 
 return var_0_0

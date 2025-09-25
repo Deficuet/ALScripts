@@ -4,7 +4,7 @@ function var_0_0.Show(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	arg_1_0:UpdateData(arg_1_1, arg_1_2, arg_1_3)
 	var_0_0.super.Show(arg_1_0)
 	assert(arg_1_0._tf)
-	pg.UIMgr:GetInstance():BlurPanel(arg_1_0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(arg_1_0._tf)
 	arg_1_0:OnShow()
 
 	arg_1_0.inAnim = true
@@ -31,7 +31,7 @@ function var_0_0.Hide(arg_5_0, arg_5_1)
 		var_0_0.super.Hide(arg_5_0)
 		assert(arg_5_0._tf)
 		assert(arg_5_0._parentTf)
-		pg.UIMgr:GetInstance():UnblurPanel(arg_5_0._tf, arg_5_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_5_0._tf, arg_5_0._parentTf)
 
 		if not arg_5_1 and arg_5_0.exitCallback then
 			arg_5_0.exitCallback()

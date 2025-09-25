@@ -27,7 +27,7 @@ function var_0_0.didEnter(arg_3_0)
 		arg_3_0:closeView()
 	end, SFX_PANEL)
 	arg_3_0:SetClueGroup()
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.SetClueGroup(arg_5_0)

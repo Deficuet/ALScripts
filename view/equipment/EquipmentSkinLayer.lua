@@ -12,9 +12,7 @@ function var_0_0.setShip(arg_2_0, arg_2_1)
 end
 
 function var_0_0.init(arg_3_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, arg_3_0.contextData.weight and {
-		weight = arg_3_0.contextData.weight
-	} or {})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 
 	arg_3_0.displayPanel = arg_3_0:findTF("display")
 
@@ -173,7 +171,7 @@ function var_0_0.updateSkinView(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
 end
 
 function var_0_0.willExit(arg_19_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_19_0._tf, arg_19_0.UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0._tf, arg_19_0.UIMain)
 end
 
 return var_0_0

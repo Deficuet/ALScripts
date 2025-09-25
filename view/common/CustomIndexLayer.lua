@@ -335,7 +335,7 @@ function var_0_0.willExit(arg_25_0)
 
 	arg_25_0.updateList = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_25_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_25_0._tf)
 end
 
 function var_0_0.Clone2Full(arg_26_0, arg_26_1)

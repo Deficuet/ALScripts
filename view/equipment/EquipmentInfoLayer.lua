@@ -120,9 +120,7 @@ function var_0_0.didEnter(arg_9_0)
 		arg_9_0:updateOperation4()
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_9_0._tf, false, {
-		weight = arg_9_0:getWeightFromData()
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_9_0._tf)
 end
 
 function var_0_0.initAndSetBtn(arg_11_0, arg_11_1)
@@ -579,7 +577,7 @@ end
 
 function var_0_0.willExit(arg_43_0)
 	arg_43_0.equipDestroyConfirmWindow:Destroy()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_43_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_43_0._tf)
 end
 
 function var_0_0.onBackPressed(arg_44_0)

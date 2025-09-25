@@ -16551,6 +16551,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[21052] = {
+		open_directly = 0,
+		name = "结晶：杜威·META",
+		display = "杜威·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+		type = 4,
+		display_effect = "",
+		id = 21052,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Props/21052",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[21101] = {
 		open_directly = 0,
 		name = "结晶化热强钢",
@@ -30256,6 +30288,59 @@ end)()
 			{
 				9,
 				2104,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[30431] = {
+		open_directly = 1,
+		name = "外观装备箱(世界巡游)",
+		display = "可以随机获得一件本次世界巡游限定外观装备",
+		type = 11,
+		display_effect = "",
+		id = 30431,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "Props/appearanceboxshijiexunyou",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "111225",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				9,
+				2105,
+				1
+			},
+			{
+				9,
+				2106,
+				1
+			},
+			{
+				9,
+				2107,
+				1
+			},
+			{
+				9,
+				2108,
 				1
 			}
 		},
@@ -123687,7 +123772,6 @@ end)()
 		rarity = 4,
 		max_num = 0,
 		time_limit = 0,
-		limit = "[]",
 		virtual_type = 0,
 		other_item_cost = "[]",
 		usage_arg = "998311",
@@ -123734,7 +123818,8 @@ end)()
 		price = {},
 		index = {},
 		shiptrans_id = {},
-		combination_display = {}
+		combination_display = {},
+		limit = {}
 	}
 end)()
 
@@ -123755,7 +123840,6 @@ end)()
 		rarity = 4,
 		max_num = 0,
 		time_limit = 0,
-		limit = "[]",
 		virtual_type = 0,
 		other_item_cost = "[]",
 		usage_arg = "998312",
@@ -123802,7 +123886,8 @@ end)()
 		price = {},
 		index = {},
 		shiptrans_id = {},
-		combination_display = {}
+		combination_display = {},
+		limit = {}
 	}
 end)()
 
@@ -123823,7 +123908,6 @@ end)()
 		rarity = 4,
 		max_num = 0,
 		time_limit = 0,
-		limit = "[]",
 		virtual_type = 0,
 		other_item_cost = "[]",
 		usage_arg = "998313",
@@ -123870,7 +123954,8 @@ end)()
 		price = {},
 		index = {},
 		shiptrans_id = {},
-		combination_display = {}
+		combination_display = {},
+		limit = {}
 	}
 end)()
 
@@ -124026,7 +124111,6 @@ end)()
 		rarity = 4,
 		max_num = 0,
 		time_limit = 0,
-		limit = "[]",
 		virtual_type = 0,
 		other_item_cost = "[]",
 		usage_arg = "998315",
@@ -124073,7 +124157,8 @@ end)()
 		price = {},
 		index = {},
 		shiptrans_id = {},
-		combination_display = {}
+		combination_display = {},
+		limit = {}
 	}
 end)()
 
@@ -124094,7 +124179,6 @@ end)()
 		rarity = 4,
 		max_num = 0,
 		time_limit = 0,
-		limit = "[]",
 		virtual_type = 0,
 		other_item_cost = "[]",
 		usage_arg = "998316",
@@ -124141,7 +124225,8 @@ end)()
 		price = {},
 		index = {},
 		shiptrans_id = {},
-		combination_display = {}
+		combination_display = {},
+		limit = {}
 	}
 end)()
 
@@ -124296,7 +124381,6 @@ end)()
 		rarity = 4,
 		max_num = 0,
 		time_limit = 0,
-		limit = "[]",
 		virtual_type = 0,
 		other_item_cost = "[]",
 		usage_arg = "998318",
@@ -124343,7 +124427,8 @@ end)()
 		price = {},
 		index = {},
 		shiptrans_id = {},
-		combination_display = {}
+		combination_display = {},
+		limit = {}
 	}
 end)()
 
@@ -124364,7 +124449,6 @@ end)()
 		rarity = 4,
 		max_num = 0,
 		time_limit = 0,
-		limit = "[]",
 		virtual_type = 0,
 		other_item_cost = "[]",
 		usage_arg = "998319",
@@ -124411,7 +124495,101 @@ end)()
 		price = {},
 		index = {},
 		shiptrans_id = {},
-		combination_display = {}
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[81219] = {
+		open_directly = 1,
+		name = "换装礼盒(疾速狂热)",
+		display = "购买礼包可获得列表中未拥有的换装*1（拥有列表中的所有换装则转换为获得680钻石），物资*2000，石油*1000，心智单元*20",
+		type = 17,
+		display_effect = "",
+		id = 81219,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop_random_skin",
+		link_id = 0,
+		icon = "Props/fudai29",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				86219,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			998320,
+			680,
+			{
+				236032,
+				801033,
+				803011,
+				106551,
+				805021,
+				807021,
+				902021,
+				401161,
+				401242,
+				702043,
+				403021,
+				404051,
+				107073,
+				408092,
+				101352,
+				201105,
+				102271,
+				102261,
+				103132,
+				103162,
+				103241,
+				105112,
+				107111,
+				108041,
+				301581,
+				101255,
+				403034,
+				107066,
+				303115,
+				303124,
+				205064,
+				205073,
+				307052,
+				307062,
+				307073
+			}
+		},
+		limit = {}
 	}
 end)()
 
@@ -125187,7 +125365,6 @@ end)()
 		rarity = 4,
 		max_num = 0,
 		time_limit = 0,
-		limit = "[]",
 		virtual_type = 0,
 		other_item_cost = "[]",
 		usage_arg = "906148",
@@ -125204,7 +125381,8 @@ end)()
 		price = {},
 		index = {},
 		shiptrans_id = {},
-		combination_display = {}
+		combination_display = {},
+		limit = {}
 	}
 end)()
 

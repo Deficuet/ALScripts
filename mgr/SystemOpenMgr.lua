@@ -115,7 +115,6 @@ function var_0_0.notification(arg_7_0, arg_7_1)
 			hideNo = true,
 			hideClose = true,
 			content = i18n("open_system_tip", var_7_0.name),
-			weight = LayerWeightConst.TOP_LAYER,
 			onYes = function()
 				arg_7_0:doSystemGuide(var_7_0.id)
 			end

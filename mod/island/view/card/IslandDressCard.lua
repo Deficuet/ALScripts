@@ -7,8 +7,12 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 		arg_1_0.tf:Find("select")
 	}
 	arg_1_0.canSendTF = arg_1_0.tf:Find("canSend")
-	arg_1_0.ownNum = arg_1_0.canSendTF:Find("ownNum")
+	arg_1_0.ownNumTF = arg_1_0.tf:Find("icon/count_bg")
+	arg_1_0.ownNumText = arg_1_0.ownNumTF:Find("count")
 	arg_1_0.redDot = arg_1_0.tf:Find("red_dot")
+	arg_1_0.shipHoldTF = arg_1_0.tf:Find("shipHold")
+	arg_1_0.shipIcon = arg_1_0.shipHoldTF:Find("ship_icon")
+	arg_1_0.exclusionTF = arg_1_0.tf:Find("exclusion_item")
 end
 
 local var_0_1 = {
@@ -18,8 +22,7 @@ local var_0_1 = {
 	"golden"
 }
 
-function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
-	arg_2_0.isSend = arg_2_3
+function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
 	arg_2_0.configId = arg_2_1
 
 	local var_2_0 = pg.island_dress_template[arg_2_1]
@@ -37,26 +40,15 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 	end
 
 	arg_2_0:UpdateSelected(arg_2_2)
-	arg_2_0:FlushRedDot()
 end
 
-function var_0_0.FlushRedDot(arg_3_0)
-	local var_3_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetHasDressData(arg_3_0.configId)
-	local var_3_1 = var_3_0 and var_3_0.read == 0 or false
-	local var_3_2 = not arg_3_0.isSend and var_3_1
-
-	setActive(arg_3_0.redDot, var_3_2)
-end
-
-function var_0_0.UpdateSelected(arg_4_0, arg_4_1)
-	local var_4_0 = arg_4_1 == arg_4_0.configId
-
-	for iter_4_0, iter_4_1 in ipairs(arg_4_0.selectGos) do
-		setActive(iter_4_1, var_4_0)
+function var_0_0.UpdateSelected(arg_3_0, arg_3_1)
+	for iter_3_0, iter_3_1 in ipairs(arg_3_0.selectGos) do
+		setActive(iter_3_1, arg_3_1)
 	end
 end
 
-function var_0_0.Dispose(arg_5_0)
+function var_0_0.Dispose(arg_4_0)
 	return
 end
 

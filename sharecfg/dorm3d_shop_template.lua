@@ -27,7 +27,10 @@ pg.dorm3d_shop_template = setmetatable({
 		23,
 		24,
 		25,
-		26
+		26,
+		27,
+		28,
+		29
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -35,12 +38,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "甜蜜心事",
 		rarity = 4,
-		item_id = 121,
 		type = 1,
-		id = 1,
 		room_id = 20220,
-		order = "8",
 		unlock = "",
+		item_id = 121,
+		id = 1,
+		realroom_id = 0,
+		order = "8",
 		panel = {
 			2,
 			3,
@@ -56,12 +60,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "午后遐乡",
 		rarity = 4,
-		item_id = 122,
 		type = 1,
-		id = 2,
 		room_id = 20220,
-		order = "11",
 		unlock = "",
+		item_id = 122,
+		id = 2,
+		realroom_id = 0,
+		order = "11",
 		panel = {
 			2,
 			3,
@@ -77,12 +82,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "柔软怀抱",
 		rarity = 4,
-		item_id = 221,
 		type = 1,
-		id = 3,
 		room_id = 30221,
-		order = "9",
 		unlock = "",
+		item_id = 221,
+		id = 3,
+		realroom_id = 0,
+		order = "9",
 		panel = {
 			1,
 			2,
@@ -99,12 +105,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "对坐之谈",
 		rarity = 4,
-		item_id = 222,
 		type = 1,
-		id = 4,
 		room_id = 30221,
-		order = "14",
 		unlock = "",
+		item_id = 222,
+		id = 4,
+		realroom_id = 0,
+		order = "14",
 		panel = {
 			1,
 			2,
@@ -121,12 +128,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "圣诞雪橇沙发套组",
 		rarity = 5,
-		item_id = 151,
 		type = 1,
-		id = 5,
 		room_id = 20220,
-		order = "1",
 		unlock = "",
+		item_id = 151,
+		id = 5,
+		realroom_id = 0,
+		order = "1",
 		panel = {
 			1
 		},
@@ -140,12 +148,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "暖意入梦",
 		rarity = 5,
-		item_id = 251,
 		type = 1,
-		id = 6,
 		room_id = 30221,
-		order = "2",
 		unlock = "",
+		item_id = 251,
+		id = 6,
+		realroom_id = 0,
+		order = "2",
 		panel = {
 			1
 		},
@@ -159,12 +168,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "童心下午茶",
 		rarity = 4,
-		item_id = 321,
 		type = 1,
-		id = 7,
 		room_id = 19903,
-		order = "10",
 		unlock = "",
+		item_id = 321,
+		id = 7,
+		realroom_id = 0,
+		order = "10",
 		panel = {
 			1,
 			2,
@@ -181,12 +191,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "星河满船",
 		rarity = 4,
-		item_id = 322,
 		type = 1,
-		id = 8,
 		room_id = 19903,
-		order = "13",
 		unlock = "",
+		item_id = 322,
+		id = 8,
+		realroom_id = 0,
+		order = "13",
 		panel = {
 			1,
 			2,
@@ -203,12 +214,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "清扫工具箱",
 		rarity = 4,
-		item_id = 2022001,
 		type = 2,
-		id = 9,
 		room_id = 20220,
-		order = "16",
 		unlock = "",
+		item_id = 2022001,
+		id = 9,
+		realroom_id = 0,
+		order = "16",
 		panel = {
 			2,
 			3,
@@ -224,12 +236,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "茶享套装",
 		rarity = 4,
-		item_id = 2022002,
 		type = 2,
-		id = 10,
 		room_id = 20220,
-		order = "19",
 		unlock = "",
+		item_id = 2022002,
+		id = 10,
+		realroom_id = 0,
+		order = "19",
 		panel = {
 			2,
 			3,
@@ -245,12 +258,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "素色物语 ",
 		rarity = 4,
-		item_id = 3022101,
 		type = 2,
-		id = 11,
 		room_id = 30221,
-		order = "17",
 		unlock = "",
+		item_id = 3022101,
+		id = 11,
+		realroom_id = 0,
+		order = "17",
 		panel = {
 			2,
 			3,
@@ -266,12 +280,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "彩虹心语",
 		rarity = 4,
-		item_id = 1990301,
 		type = 2,
-		id = 12,
 		room_id = 19903,
-		order = "18",
 		unlock = "",
+		item_id = 1990301,
+		id = 12,
+		realroom_id = 0,
+		order = "18",
 		panel = {
 			2,
 			3,
@@ -287,12 +302,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "浪漫满分",
 		rarity = 3,
-		item_id = 1021002,
 		type = 2,
-		id = 13,
 		room_id = 0,
-		order = "998",
 		unlock = "",
+		item_id = 1021002,
+		id = 13,
+		realroom_id = 0,
+		order = "998",
 		panel = {
 			5
 		},
@@ -310,12 +326,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "蛋糕礼盒",
 		rarity = 3,
-		item_id = 1021003,
 		type = 2,
-		id = 14,
 		room_id = 0,
-		order = "999",
 		unlock = "",
+		item_id = 1021003,
+		id = 14,
+		realroom_id = 0,
+		order = "999",
 		panel = {
 			5
 		},
@@ -330,12 +347,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "天狼星沙滩邀请函",
 		rarity = 4,
-		item_id = 4,
 		type = 3,
-		id = 15,
 		room_id = 20220,
-		order = "4",
 		unlock = "",
+		item_id = 4,
+		id = 15,
+		realroom_id = 0,
+		order = "4",
 		panel = {
 			2
 		},
@@ -350,12 +368,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "{namecode:50}沙滩邀请函",
 		rarity = 4,
-		item_id = 4,
 		type = 3,
-		id = 16,
 		room_id = 30221,
-		order = "5",
 		unlock = "",
+		item_id = 4,
+		id = 16,
+		realroom_id = 0,
+		order = "5",
 		panel = {
 			2
 		},
@@ -369,12 +388,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "安克雷奇沙滩邀请函",
 		rarity = 4,
-		item_id = 4,
 		type = 3,
-		id = 17,
 		room_id = 19903,
-		order = "6",
 		unlock = "",
+		item_id = 4,
+		id = 17,
+		realroom_id = 0,
+		order = "6",
 		panel = {
 			2
 		},
@@ -388,12 +408,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "能量修复仪",
 		rarity = 4,
-		item_id = 3022102,
 		type = 2,
-		id = 18,
 		room_id = 30221,
-		order = "12",
 		unlock = "",
+		item_id = 3022102,
+		id = 18,
+		realroom_id = 0,
+		order = "12",
 		panel = {
 			2,
 			3,
@@ -409,12 +430,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "星球一隅",
 		rarity = 4,
-		item_id = 1151,
 		type = 1,
-		id = 19,
 		room_id = 10517,
-		order = "8",
 		unlock = "",
+		item_id = 1151,
+		id = 19,
+		realroom_id = 0,
+		order = "8",
 		panel = {
 			1,
 			2,
@@ -431,12 +453,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "水晶糖",
 		rarity = 4,
-		item_id = 1051701,
 		type = 2,
-		id = 20,
 		room_id = 10517,
-		order = "15",
 		unlock = "",
+		item_id = 1051701,
+		id = 20,
+		realroom_id = 0,
+		order = "15",
 		panel = {
 			2,
 			3,
@@ -452,12 +475,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "{namecode:199}咖啡馆邀请函",
 		rarity = 4,
-		item_id = 16,
 		type = 3,
-		id = 21,
 		room_id = 10517,
-		order = "8",
 		unlock = "",
+		item_id = 16,
+		id = 21,
+		realroom_id = 0,
+		order = "8",
 		panel = {
 			2
 		},
@@ -471,12 +495,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "安逸时光",
 		rarity = 4,
-		item_id = 223,
 		type = 1,
-		id = 22,
 		room_id = 30221,
-		order = "8",
 		unlock = "",
+		item_id = 223,
+		id = 22,
+		realroom_id = 0,
+		order = "8",
 		panel = {
 			1,
 			2,
@@ -493,12 +518,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "动感飞轮",
 		rarity = 4,
-		item_id = 1152,
 		type = 1,
-		id = 23,
 		room_id = 10517,
-		order = "7",
 		unlock = "",
+		item_id = 1152,
+		id = 23,
+		realroom_id = 0,
+		order = "7",
 		panel = {
 			1,
 			2,
@@ -515,12 +541,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "精致画框 ",
 		rarity = 4,
-		item_id = 1990302,
 		type = 2,
-		id = 24,
 		room_id = 19903,
-		order = "3",
 		unlock = "",
+		item_id = 1990302,
+		id = 24,
+		realroom_id = 0,
+		order = "3",
 		panel = {
 			2,
 			3,
@@ -536,12 +563,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "滨海欢愉",
 		rarity = 5,
-		item_id = 401,
 		type = 1,
-		id = 25,
 		room_id = 0,
-		order = "7",
 		unlock = "",
+		item_id = 401,
+		id = 25,
+		realroom_id = 4,
+		order = "7",
 		panel = {
 			1
 		},
@@ -555,12 +583,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "云中甜梦",
 		rarity = 4,
-		item_id = 323,
 		type = 1,
-		id = 26,
 		room_id = 19903,
-		order = "8",
 		unlock = "",
+		item_id = 323,
+		id = 26,
+		realroom_id = 0,
+		order = "8",
 		panel = {
 			1,
 			2,
@@ -569,6 +598,71 @@ pg.base.dorm3d_shop_template = {
 		},
 		shop_id = {
 			270303
+		},
+		banners = {
+			"banner_furniture323"
+		}
+	},
+	{
+		name = "爱之巢 ",
+		rarity = 4,
+		type = 1,
+		room_id = 30707,
+		unlock = "",
+		item_id = 1221,
+		id = 27,
+		realroom_id = 0,
+		order = "8",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270501
+		},
+		banners = {
+			"banner_gift1990302"
+		}
+	},
+	{
+		name = "相连的爱意 ",
+		rarity = 4,
+		type = 2,
+		room_id = 30707,
+		unlock = "",
+		item_id = 3070701,
+		id = 28,
+		realroom_id = 0,
+		order = "8",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260501
+		},
+		banners = {
+			"banner_furniture401"
+		}
+	},
+	{
+		name = "{namecode:97}咖啡馆邀请函",
+		rarity = 4,
+		type = 3,
+		room_id = 30707,
+		unlock = "",
+		item_id = 16,
+		id = 29,
+		realroom_id = 0,
+		order = "8",
+		panel = {
+			2
+		},
+		shop_id = {
+			270114
 		},
 		banners = {
 			"banner_furniture323"

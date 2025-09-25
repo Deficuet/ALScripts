@@ -28,7 +28,7 @@ function var_0_0.didEnter(arg_3_0)
 	end, SFX_CANCEL)
 	arg_3_0:Show()
 	setActive(arg_3_0.transportCompletePage, false)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.InitData(arg_6_0)
@@ -158,7 +158,7 @@ end
 
 function var_0_0.ShowCompletePage(arg_13_0)
 	setActive(arg_13_0.transportCompletePage, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_13_0.transportCompletePage, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_13_0.transportCompletePage)
 	SetAction(arg_13_0.transportCompletePage:Find("ani"), "normal" .. arg_13_0.doingTransCfg.id, false)
 	setText(arg_13_0:findTF("desc/Text", arg_13_0.transportCompletePage), arg_13_0.doingTransCfg.result_desc)
 	setActive(arg_13_0:findTF("desc/triangle", arg_13_0.transportCompletePage), false)
@@ -174,7 +174,7 @@ function var_0_0.ShowCompletePage(arg_13_0)
 	var_13_0:Play()
 	onButton(arg_13_0, arg_13_0:findTF("bg", arg_13_0.transportCompletePage), function()
 		setActive(arg_13_0.transportCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_13_0.transportCompletePage, arg_13_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0.transportCompletePage, arg_13_0._tf)
 
 		if not arg_13_0.hasShowedAwards and #arg_13_0.awards > 0 then
 			arg_13_0.hasShowedAwards = true
@@ -184,7 +184,7 @@ function var_0_0.ShowCompletePage(arg_13_0)
 	end, SFX_CANCEL)
 	onButton(arg_13_0, arg_13_0:findTF("desc", arg_13_0.transportCompletePage), function()
 		setActive(arg_13_0.transportCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_13_0.transportCompletePage, arg_13_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0.transportCompletePage, arg_13_0._tf)
 
 		if not arg_13_0.hasShowedAwards and #arg_13_0.awards > 0 then
 			arg_13_0.hasShowedAwards = true
@@ -200,13 +200,13 @@ function var_0_0.SetAwardsShow(arg_17_0, arg_17_1)
 end
 
 function var_0_0.willExit(arg_18_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_18_0._tf, arg_18_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_18_0._tf, arg_18_0._parentTf)
 end
 
 function var_0_0.onBackPressed(arg_19_0)
 	if isActive(arg_19_0.transportCompletePage) then
 		setActive(arg_19_0.transportCompletePage, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_19_0.transportCompletePage, arg_19_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0.transportCompletePage, arg_19_0._tf)
 
 		if not arg_19_0.hasShowedAwards and #arg_19_0.awards > 0 then
 			arg_19_0.hasShowedAwards = true

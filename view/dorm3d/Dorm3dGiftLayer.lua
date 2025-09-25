@@ -72,12 +72,11 @@ function var_0_0.init(arg_2_0)
 	onButton(arg_2_0, arg_2_0.rtLackWindow:Find("panel/title/btn_close"), function()
 		arg_2_0:HideLackWindow()
 	end, SFX_CANCEL)
-	pg.UIMgr.GetInstance():TempOverlayPanelPB(arg_2_0.rtGiftPanel, {
+	arg_2_0:TempOverlayPanelPB(arg_2_0.rtGiftPanel, {
 		pbList = {
 			arg_2_0.rtGiftPanel
 		},
-		baseCamera = arg_2_0.contextData.baseCamera,
-		groupName = LayerWeightConst.GROUP_DORM3D
+		baseCamera = arg_2_0.contextData.baseCamera
 	})
 end
 
@@ -392,15 +391,12 @@ function var_0_0.OpenInfoWindow(arg_41_0, arg_41_1)
 		pg.TipsMgr.GetInstance():ShowTips("without shop config")
 	end, SFX_CONFIRM)
 	setActive(arg_41_0.rtInfoWindow, true)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_41_0.rtInfoWindow, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_DORM3D
-	})
+	arg_41_0:OverlayPanel(arg_41_0.rtInfoWindow)
 end
 
 function var_0_0.HideInfoWindow(arg_43_0)
 	setActive(arg_43_0.rtInfoWindow, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_43_0.rtInfoWindow, arg_43_0._tf)
+	arg_43_0:UnOverlayPanel(arg_43_0.rtInfoWindow, arg_43_0._tf)
 end
 
 function var_0_0.OpenLackWindow(arg_44_0, arg_44_1)
@@ -448,15 +444,12 @@ function var_0_0.OpenLackWindow(arg_44_0, arg_44_1)
 		end
 	end)
 	setActive(arg_44_0.rtLackWindow, true)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_44_0.rtLackWindow, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_DORM3D
-	})
+	arg_44_0:OverlayPanel(arg_44_0.rtLackWindow)
 end
 
 function var_0_0.HideLackWindow(arg_48_0)
 	setActive(arg_48_0.rtLackWindow, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_48_0.rtLackWindow, arg_48_0._tf)
+	arg_48_0:UnOverlayPanel(arg_48_0.rtLackWindow, arg_48_0._tf)
 end
 
 function var_0_0.onBackPressed(arg_49_0)
@@ -484,7 +477,7 @@ function var_0_0.willExit(arg_50_0)
 		arg_50_0:HideLackWindow()
 	end
 
-	pg.UIMgr.GetInstance():TempUnblurPanel(arg_50_0.rtGiftPanel, arg_50_0._tf)
+	arg_50_0:TempUnOverlayPanelPB(arg_50_0.rtGiftPanel, arg_50_0._tf)
 end
 
 return var_0_0

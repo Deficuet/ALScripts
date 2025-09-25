@@ -118,29 +118,37 @@ function DumpTable(arg_12_0)
 end
 
 function PrintTable(arg_13_0)
-	local var_13_0 = {}
-	local var_13_1 = {}
+	if arg_13_0 == nil then
+		return "nil"
+	end
 
-	local function var_13_2(arg_14_0, arg_14_1, arg_14_2)
-		if var_13_1[arg_14_0] then
-			return
+	local var_13_0 = {}
+
+	local function var_13_1(arg_14_0, arg_14_1)
+		if var_13_0[arg_14_0] then
+			return tostring(var_13_0[arg_14_0])
 		end
 
-		var_13_1[arg_14_0] = true
+		var_13_0[arg_14_0] = true
+
+		local var_14_0 = {}
 
 		for iter_14_0, iter_14_1 in pairs(arg_14_0) do
 			if type(iter_14_1) == "table" then
-				table.insert(arg_14_1, arg_14_2 .. tostring(iter_14_0) .. ":\n")
-				var_13_2(iter_14_1, arg_14_1, arg_14_2 .. " ")
+				table.insert(var_14_0, string.format("%s[%s] = %s", arg_14_1 .. "  ", iter_14_0, var_13_1(iter_14_1, arg_14_1 .. "  ")))
 			else
-				table.insert(arg_14_1, arg_14_2 .. tostring(iter_14_0) .. ": " .. tostring(iter_14_1) .. "\n")
+				table.insert(var_14_0, string.format("%s[%s] = %s", arg_14_1 .. "  ", iter_14_0, iter_14_1))
 			end
+		end
+
+		if #var_14_0 == 0 then
+			return "{}"
+		else
+			return string.format("{\n%s\n%s}", table.concat(var_14_0, "\n"), arg_14_1)
 		end
 	end
 
-	var_13_2(arg_13_0, var_13_0, "")
-
-	return table.concat(var_13_0, "")
+	return var_13_1(arg_13_0, "")
 end
 
 function PrintLua(arg_15_0, arg_15_1)

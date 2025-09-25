@@ -111,8 +111,7 @@ function var_0_0.Show(arg_13_0)
 	pg.UIMgr.GetInstance():OverlayPanel(arg_13_0._tf, {
 		pbList = {
 			arg_13_0:findTF("frame/right")
-		},
-		weight = LayerWeightConst.SECOND_LAYER
+		}
 	})
 end
 

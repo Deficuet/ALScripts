@@ -12,7 +12,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		local var_1_6 = var_1_5:GetBossMission()
 
 		if var_1_6 and var_1_6:IsActive() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
 
 			return
 		end
@@ -64,7 +64,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			var_1_8:UpdateExternalAssaultFleet(var_1_1)
 			var_1_3:updateGuild(var_1_4)
 			arg_1_0:sendNotification(GAME.GUILD_UPDATE_MY_ASSAULT_FLEET_DONE)
-			pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildEvent")
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inGuildEvent")
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_2_0.result] .. arg_2_0.result)
 		end

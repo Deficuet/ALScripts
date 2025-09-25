@@ -14,9 +14,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
 	arg_2_0.drops = arg_2_0.contextData.items or {}
 	arg_2_0.awardWindow = arg_2_0:findTF("award_window")
@@ -239,7 +237,7 @@ function var_0_0.onBackPressed(arg_25_0)
 end
 
 function var_0_0.willExit(arg_26_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_26_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_26_0._tf)
 
 	if arg_26_0.contextData.removeFunc then
 		arg_26_0.contextData.removeFunc()

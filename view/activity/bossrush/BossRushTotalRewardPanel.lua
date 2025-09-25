@@ -11,9 +11,8 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_3_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, nil, {
-		lockGlobalBlur = true,
-		weight = LayerWeightConst.SECOND_LAYER
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, {
+		lockGlobalBlur = true
 	})
 	arg_3_0:UpdateView()
 

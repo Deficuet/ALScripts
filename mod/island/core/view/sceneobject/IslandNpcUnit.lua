@@ -19,7 +19,7 @@ function var_0_0.OnAttach(arg_1_0, arg_1_1)
 		arg_1_0:StateEnterFixHandle(arg_4_0, arg_4_1)
 	end)
 	arg_1_0.characterHandleController:AddStateExitFixCompleteFunc(function(arg_5_0, arg_5_1)
-		arg_1_0:StateExitFixHandle(arg_5_0, arg_5_1)
+		return
 	end)
 
 	arg_1_0.objTfList = {}
@@ -27,30 +27,34 @@ end
 
 function var_0_0.StateEnterHandle(arg_6_0, arg_6_1, arg_6_2)
 	if arg_6_1 == var_0_1.LoadToolHandle then
+		local var_6_0 = arg_6_0:GetToolId(arg_6_2)
+
 		arg_6_0:LoadInteractiveTool(arg_6_2)
 	end
 end
 
 function var_0_0.StateEnterFixHandle(arg_7_0, arg_7_1, arg_7_2)
-	pg.ViewUtils.SetLayer(arg_7_0.objTfList[arg_7_0.toolId], Layer.Default)
+	if arg_7_1 == var_0_1.LoadToolHandle then
+		local var_7_0 = arg_7_0:GetToolId(arg_7_2)
+
+		pg.ViewUtils.SetLayer(arg_7_0.objTfList[var_7_0], Layer.Default)
+	end
 end
 
-function var_0_0.StateExitFixHandle(arg_8_0, arg_8_1, arg_8_2)
-	pg.ViewUtils.SetLayer(arg_8_0.objTfList[arg_8_0.toolId], Layer.UIHidden)
+function var_0_0.StateExitHandle(arg_8_0, arg_8_1, arg_8_2)
+	if arg_8_1 == var_0_1.LoadToolHandle then
+		arg_8_0:UnLoadInteractiveTool(arg_8_2)
+	end
 end
 
-function var_0_0.StateExitHandle(arg_9_0, arg_9_1, arg_9_2)
-	if arg_9_1 == var_0_1.LoadToolHandle then
-		arg_9_0:UnLoadInteractiveTool()
+function var_0_0.GetToolId(arg_9_0, arg_9_1)
+	if arg_9_1 ~= 0 then
+		return arg_9_1
 	end
 end
 
 function var_0_0.LoadInteractiveTool(arg_10_0, arg_10_1)
-	if arg_10_1 ~= 0 then
-		arg_10_0.toolId = arg_10_1
-	end
-
-	local var_10_0 = arg_10_0.objTfList[arg_10_0.toolId]
+	local var_10_0 = arg_10_0.objTfList[arg_10_1]
 
 	if var_10_0 then
 		setActive(var_10_0, true)
@@ -60,10 +64,10 @@ function var_0_0.LoadInteractiveTool(arg_10_0, arg_10_1)
 		return
 	end
 
-	local var_10_1 = pg.island_animation_attachments[arg_10_0.toolId]
+	local var_10_1 = pg.island_animation_attachments[arg_10_1]
 	local var_10_2 = var_10_1.model
 
-	if arg_10_0.toolId == pg.island_set.island_manage_animation_extroversion.key_value_int or arg_10_0.toolId == pg.island_set.island_manage_animation_introverted.key_value_int then
+	if arg_10_1 == pg.island_set.island_manage_animation_extroversion.key_value_int or arg_10_1 == pg.island_set.island_manage_animation_introverted.key_value_int then
 		local var_10_3 = arg_10_0.behaviourTreeOwner.graph.blackboard:GetVariable("systemId").value
 
 		if var_10_3 ~= 0 then
@@ -74,20 +78,28 @@ function var_0_0.LoadInteractiveTool(arg_10_0, arg_10_1)
 	local var_10_4 = LoadAny(var_10_2, nil)
 	local var_10_5 = Object.Instantiate(var_10_4)
 
-	arg_10_0.objTfList[arg_10_0.toolId] = var_10_5.transform
+	arg_10_0.objTfList[arg_10_1] = var_10_5.transform
 
 	local var_10_6 = LoadAny(var_10_1.animator, nil, typeof(RuntimeAnimatorController))
 
-	GetOrAddComponent(arg_10_0.objTfList[arg_10_0.toolId], typeof(Animator)).runtimeAnimatorController = var_10_6
+	GetOrAddComponent(arg_10_0.objTfList[arg_10_1], typeof(Animator)).runtimeAnimatorController = var_10_6
 
-	setParent(arg_10_0.objTfList[arg_10_0.toolId], arg_10_0._tf)
-	pg.ViewUtils.SetLayer(arg_10_0.objTfList[arg_10_0.toolId], Layer.UIHidden)
+	setParent(arg_10_0.objTfList[arg_10_1], arg_10_0._tf)
+	pg.ViewUtils.SetLayer(arg_10_0.objTfList[arg_10_1], Layer.UIHidden)
 end
 
-function var_0_0.UnLoadInteractiveTool(arg_11_0)
-	if arg_11_0.objTfList[arg_11_0.toolId] then
-		setActive(arg_11_0.objTfList[arg_11_0.toolId], false)
+function var_0_0.UnLoadInteractiveTool(arg_11_0, arg_11_1)
+	if arg_11_0.objTfList[arg_11_1] then
+		setActive(arg_11_0.objTfList[arg_11_1], false)
 	end
+end
+
+function var_0_0.DestroyInteractiveTools(arg_12_0)
+	for iter_12_0, iter_12_1 in pairs(arg_12_0.objTfList) do
+		Object.Destroy(iter_12_1.gameObject)
+	end
+
+	arg_12_0.objTfList = {}
 end
 
 return var_0_0

@@ -38,7 +38,7 @@ function var_0_0.OnInit(arg_3_0)
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.goBtn, function()
 		if not GuildMember.IsAdministrator(arg_3_0.guild:getSelfDuty()) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_commander_and_sub_op"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_commander_and_sub_op"))
 
 			return
 		end
@@ -47,7 +47,7 @@ function var_0_0.OnInit(arg_3_0)
 		local var_6_1 = arg_3_0.gevent:GetConsume()
 		local var_6_2 = arg_3_0.guild:ShouldTipActiveEvent() and i18n("guild_start_event_consume_tip", var_6_1, var_6_0) or i18n("guild_start_event_consume_tip_extra", var_6_1, var_6_0, arg_3_0.guild:GetActiveEventCnt())
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = var_6_2,
 			onYes = function()
 				arg_3_0:emit(GuildEventMediator.ON_ACTIVE_EVENT, arg_3_0.gevent.id)
@@ -60,7 +60,7 @@ function var_0_0.OnInit(arg_3_0)
 		end
 
 		if arg_3_0.activeEvent:IsLimitedJoin() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_join_event_max_cnt_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_join_event_max_cnt_tip"))
 
 			return
 		end
@@ -74,7 +74,7 @@ function var_0_0.JoinEvent(arg_9_0)
 		local var_10_0, var_10_1 = arg_9_0.activeEvent:GetMainMissionCntAndFinishCnt()
 
 		if var_10_1 ~= 0 then
-			pg.MsgboxMgr:GetInstance():ShowMsgBox({
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("guild_join_event_exist_finished_mission_tip"),
 				onYes = function()
 					arg_9_0:emit(GuildEventMediator.ON_JOIN_EVENT)
@@ -86,7 +86,7 @@ function var_0_0.JoinEvent(arg_9_0)
 	end
 
 	if arg_9_0.activeEvent:GetLeftTime() <= 604800 then
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_tip_operation_time_is_not_ample"),
 			onYes = var_9_0
 		})

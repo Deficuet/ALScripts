@@ -337,7 +337,7 @@ function var_0_0.InitButton(arg_13_0)
 	end, SFX_PANEL)
 	onButton(arg_13_0, arg_13_0.characterWindowBg, function()
 		setActive(arg_13_0.characterWindow, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_13_0.characterCard, arg_13_0.characterWindowBg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0.characterCard, arg_13_0.characterWindowBg)
 		arg_13_0:UpdateFlush()
 		arg_13_0:CheckGuide()
 	end, SFX_CANCEL)
@@ -1020,7 +1020,7 @@ end
 function var_0_0.willExit(arg_75_0)
 	if isActive(arg_75_0.characterWindow) then
 		setActive(arg_75_0.characterWindow, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_75_0.characterCard, arg_75_0.characterWindowBg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_75_0.characterCard, arg_75_0.characterWindowBg)
 	end
 
 	LeanTween.cancel(go(arg_75_0._tf))

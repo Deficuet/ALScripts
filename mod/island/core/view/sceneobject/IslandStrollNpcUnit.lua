@@ -1,4 +1,4 @@
-local var_0_0 = class("IslandStrollNpcUnit", import(".IslandNpcUnit"))
+local var_0_0 = class("IslandStrollNpcUnit", import(".IslandDressupNpcUnit"))
 
 function var_0_0.SetupBt(arg_1_0)
 	if not arg_1_0.behaviourTreeOwner then

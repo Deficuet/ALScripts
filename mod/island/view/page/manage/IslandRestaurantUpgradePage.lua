@@ -81,7 +81,11 @@ function var_0_0.UpdataItem(arg_7_0, arg_7_1, arg_7_2)
 	setActive(arg_7_2:Find("dot/finished"), var_7_3)
 
 	local var_7_4 = arg_7_0.expData[var_7_1] or 0
-	local var_7_5 = (arg_7_0.sales - var_7_4) / (var_7_2 - var_7_4)
+	local var_7_5 = 0
+
+	if var_7_2 ~= var_7_4 then
+		var_7_5 = (arg_7_0.sales - var_7_4) / (var_7_2 - var_7_4)
+	end
 
 	setSlider(arg_7_2:Find("dot/silder"), 0, 1, var_7_5)
 end

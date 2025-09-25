@@ -66,7 +66,7 @@ function var_0_0.InitPanel(arg_7_0)
 end
 
 function var_0_0.willExit(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf)
 end
 
 function var_0_0.onBackPressed(arg_12_0)

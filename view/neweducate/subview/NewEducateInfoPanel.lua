@@ -77,12 +77,11 @@ function var_0_0.OnInit(arg_4_0)
 			arg_4_0:OnUpdateStatusItem(arg_9_1, arg_9_2)
 		end
 	end)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_4_0._tf, {
+	arg_4_0:OverlayPanel(arg_4_0._tf, {
+		groupDelta = -1,
 		pbList = {
 			arg_4_0.blurBg
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = arg_4_0.contextData.weight or LayerWeightConst.BASE_LAYER - 1
+		}
 	})
 	setActive(arg_4_0.foldPanelTF, true)
 	setActive(arg_4_0.showPanelTF, false)
@@ -219,7 +218,7 @@ function var_0_0.FlushStatus(arg_25_0)
 end
 
 function var_0_0.OnDestroy(arg_26_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_26_0._tf)
+	arg_26_0:UnOverlayPanel(arg_26_0._tf)
 end
 
 function var_0_0.GetArrtInfo(arg_27_0, arg_27_1)

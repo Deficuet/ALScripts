@@ -21,7 +21,7 @@ function var_0_0.willExit(arg_4_0)
 	arg_4_0.loader:Clear()
 	UpdateBeat:RemoveListener(arg_4_0.handle)
 	arg_4_0:ClearPreviewer()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_4_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_4_0._tf)
 end
 
 function var_0_0.InitData(arg_5_0)

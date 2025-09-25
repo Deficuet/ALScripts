@@ -136,7 +136,7 @@ function var_0_0.OnInit(arg_8_0)
 	end, SFX_PANEL)
 	onButton(arg_8_0, arg_8_0.goBtn, function()
 		if arg_8_0.mission:IsFinish() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_event_is_finish"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_event_is_finish"))
 
 			return
 		end
@@ -149,7 +149,7 @@ function var_0_0.OnInit(arg_8_0)
 			return
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_event_start_event_tip"),
 			onYes = function()
 				arg_8_0:emit(GuildEventMediator.JOIN_MISSION, arg_8_0.mission.id, arg_8_0.contextData.missionShips)
@@ -322,9 +322,9 @@ function var_0_0.UpdateFleet(arg_30_0, arg_30_1)
 		end)
 	end
 
-	pg.UIMgr:GetInstance():LoadingOn(false)
+	pg.UIMgr.GetInstance():LoadingOn(false)
 	parallelAsync(var_30_3, function()
-		pg.UIMgr:GetInstance():LoadingOff()
+		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 
 	if var_30_0:IsEliteType() then

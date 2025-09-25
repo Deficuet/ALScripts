@@ -181,7 +181,7 @@ function var_0_0.ShowMask(arg_16_0, arg_16_1)
 end
 
 function var_0_0.willExit(arg_17_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_17_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_17_0._tf)
 end
 
 function var_0_0.onBackPressed(arg_18_0)

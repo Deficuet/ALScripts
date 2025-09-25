@@ -94,7 +94,6 @@ function var_0_0.SetPageBtns(arg_9_0)
 
 					arg_9_0:SetPageBtns()
 					arg_9_0:RefreshPage()
-					var_0_0.UpdateSumTip(var_10_2)
 				end
 			end)
 		end
@@ -117,7 +116,6 @@ function var_0_0.SetPageBtns(arg_9_0)
 
 			arg_9_0:SetPageBtns()
 			arg_9_0:RefreshPage()
-			var_0_0.UpdateSumTip(var_9_0)
 		end
 	end)
 	SetParent(arg_9_0.recommendationTg, arg_9_0:findTF("left/charaScroll/mask/list"), false)
@@ -168,12 +166,19 @@ function var_0_0.GetCommoditiesCfgByChara(arg_14_0, arg_14_1)
 	local var_14_1 = {}
 
 	for iter_14_0, iter_14_1 in ipairs(arg_14_0.allCommodityCfgs) do
-		if iter_14_1.room_id == arg_14_1 or iter_14_1.room_id == 0 then
-			local var_14_2 = arg_14_0:IsCommodityOutOfDate(iter_14_1)
-			local var_14_3 = arg_14_0:IsCommoditySoldOut(iter_14_1)
+		local var_14_2 = {}
 
-			if not var_14_2 then
-				if not var_14_3 then
+		if iter_14_1.realroom_id ~= 0 then
+			table.insertto(var_14_2, var_0_4[iter_14_1.realroom_id].character)
+			table.insertto(var_14_2, var_0_4[iter_14_1.realroom_id].character_pay)
+		end
+
+		if (iter_14_1.room_id == arg_14_1 or iter_14_1.room_id == 0) and (iter_14_1.realroom_id == 0 or iter_14_1.realroom_id ~= 0 and table.contains(var_14_2, arg_14_1)) then
+			local var_14_3 = arg_14_0:IsCommodityOutOfDate(iter_14_1)
+			local var_14_4 = arg_14_0:IsCommoditySoldOut(iter_14_1)
+
+			if not var_14_3 then
+				if not var_14_4 then
 					table.insert(var_14_0, iter_14_1)
 				else
 					table.insert(var_14_1, iter_14_1)
@@ -394,7 +399,7 @@ function var_0_0.SetBannnerCard(arg_22_0)
 
 		if not var_22_3 then
 			onButton(arg_22_0, var_22_2, function()
-				arg_22_0:ClickCommodity(iter_22_1)
+				arg_22_0:ClickCommodity(iter_22_1, arg_22_0:findTF("tip", var_22_2))
 			end, SFX_PANEL)
 		else
 			onButton(arg_22_0, var_22_2, function()
@@ -402,7 +407,10 @@ function var_0_0.SetBannnerCard(arg_22_0)
 			end, SFX_PANEL)
 		end
 
-		setActive(arg_22_0:findTF("new", var_22_2), var_0_0.ShouldShowCommodtyTip(iter_22_1))
+		local var_22_28 = var_0_0.ShouldShowCommodtyTip(iter_22_1)
+
+		setActive(arg_22_0:findTF("new", var_22_2), var_22_28)
+		setActive(arg_22_0:findTF("tip", var_22_2), var_22_28)
 	end
 
 	arg_22_0.scrollSnap:SetUp()
@@ -533,7 +541,7 @@ function var_0_0.SetGiftCard(arg_25_0)
 
 	if not var_25_3 then
 		onButton(arg_25_0, var_25_0, function()
-			arg_25_0:ClickCommodity(var_25_1)
+			arg_25_0:ClickCommodity(var_25_1, arg_25_0:findTF("tip", var_25_0))
 		end, SFX_PANEL)
 	else
 		onButton(arg_25_0, var_25_0, function()
@@ -541,7 +549,10 @@ function var_0_0.SetGiftCard(arg_25_0)
 		end, SFX_PANEL)
 	end
 
-	setActive(arg_25_0:findTF("new", var_25_0), var_0_0.ShouldShowCommodtyTip(var_25_1))
+	local var_25_27 = var_0_0.ShouldShowCommodtyTip(var_25_1)
+
+	setActive(arg_25_0:findTF("new", var_25_0), var_25_27)
+	setActive(arg_25_0:findTF("tip", var_25_0), var_25_27)
 end
 
 function var_0_0.SetNormalCard(arg_28_0)
@@ -664,7 +675,7 @@ function var_0_0.SetNormalCard(arg_28_0)
 
 		if not var_28_4 then
 			onButton(arg_28_0, var_28_0, function()
-				arg_28_0:ClickCommodity(var_28_1)
+				arg_28_0:ClickCommodity(var_28_1, arg_28_0:findTF("tip", var_28_0))
 			end, SFX_PANEL)
 		else
 			onButton(arg_28_0, var_28_0, function()
@@ -672,7 +683,10 @@ function var_0_0.SetNormalCard(arg_28_0)
 			end, SFX_PANEL)
 		end
 
-		setActive(arg_28_0:findTF("new", var_28_0), var_0_0.ShouldShowCommodtyTip(var_28_1))
+		local var_28_25 = var_0_0.ShouldShowCommodtyTip(var_28_1)
+
+		setActive(arg_28_0:findTF("new", var_28_0), var_28_25)
+		setActive(arg_28_0:findTF("tip", var_28_0), var_28_25)
 	end
 end
 
@@ -812,7 +826,7 @@ function var_0_0.SetCharaCard(arg_31_0)
 
 			if not var_32_1 then
 				onButton(arg_31_0, arg_32_2, function()
-					arg_31_0:ClickCommodity(var_32_0)
+					arg_31_0:ClickCommodity(var_32_0, arg_32_2:Find("tip"))
 				end, SFX_PANEL)
 			else
 				onButton(arg_31_0, arg_32_2, function()
@@ -820,7 +834,10 @@ function var_0_0.SetCharaCard(arg_31_0)
 				end, SFX_PANEL)
 			end
 
-			setActive(arg_32_2:Find("new"), var_0_0.ShouldShowCommodtyTip(var_32_0))
+			local var_32_26 = var_0_0.ShouldShowCommodtyTip(var_32_0)
+
+			setActive(arg_32_2:Find("new"), var_32_26)
+			setActive(arg_32_2:Find("tip"), var_32_26)
 		end
 	end)
 	var_31_1:align(#var_31_0)
@@ -866,7 +883,7 @@ function var_0_0.SetCharaCard(arg_31_0)
 	end
 end
 
-function var_0_0.ClickCommodity(arg_36_0, arg_36_1)
+function var_0_0.ClickCommodity(arg_36_0, arg_36_1, arg_36_2)
 	arg_36_0.showCount = 1
 
 	if arg_36_1.room_id ~= 0 then
@@ -883,6 +900,18 @@ function var_0_0.ClickCommodity(arg_36_0, arg_36_1)
 
 			return
 		end
+	end
+
+	if arg_36_1.realroom_id ~= 0 and not getProxy(ApartmentProxy):getRoom(arg_36_1.realroom_id) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_publicroom_unlock") .. "：" .. pg.dorm3d_rooms[arg_36_1.realroom_id].room)
+
+		return
+	end
+
+	var_0_0.UpdateCommodtyTip(arg_36_1)
+
+	if arg_36_2 then
+		setActive(arg_36_2, false)
 	end
 
 	if arg_36_1.type == 1 then
@@ -1081,14 +1110,34 @@ function var_0_0.GetTimeRemain(arg_45_0, arg_45_1)
 end
 
 function var_0_0.ShouldShowCommodtyTip(arg_46_0)
+	if arg_46_0.room_id ~= 0 then
+		local var_46_0 = 0
+
+		for iter_46_0, iter_46_1 in ipairs(var_0_4.all) do
+			local var_46_1 = var_0_4[iter_46_1]
+
+			if var_46_1.type == 2 and var_46_1.character[1] == arg_46_0.room_id then
+				var_46_0 = iter_46_1
+			end
+		end
+
+		if not getProxy(ApartmentProxy):getRoom(var_46_0) then
+			return false
+		end
+	end
+
+	if arg_46_0.realroom_id ~= 0 and not getProxy(ApartmentProxy):getRoom(arg_46_0.realroom_id) then
+		return false
+	end
+
 	if arg_46_0.type == 1 then
 		return Dorm3dFurniture.GetViewedFlag(arg_46_0.item_id) == 0
 	elseif arg_46_0.type == 2 then
-		local var_46_0 = getProxy(PlayerProxy):getRawData().id
-		local var_46_1 = Dorm3dGift.GetViewedFlag(arg_46_0.item_id) == 0
-		local var_46_2 = var_0_3[arg_46_0.shop_id[1]].group ~= 0 and PlayerPrefs.GetInt(var_46_0 .. "_dorm3dGiftWeekViewed_" .. arg_46_0.item_id, 0) == 0
+		local var_46_2 = getProxy(PlayerProxy):getRawData().id
+		local var_46_3 = Dorm3dGift.GetViewedFlag(arg_46_0.item_id) == 0
+		local var_46_4 = var_0_3[arg_46_0.shop_id[1]].group ~= 0 and PlayerPrefs.GetInt(var_46_2 .. "_dorm3dGiftWeekViewed_" .. arg_46_0.item_id, 0) == 0
 
-		return var_46_1 or var_46_2
+		return var_46_3 or var_46_4
 	end
 
 	return false

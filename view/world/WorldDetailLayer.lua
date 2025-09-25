@@ -169,9 +169,7 @@ function var_0_0.Register(arg_3_0)
 end
 
 function var_0_0.didEnter(arg_10_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_10_0._tf, {
-		groupName = arg_10_0:getGroupNameFromData()
-	})
+	arg_10_0:OverlayPanel(arg_10_0._tf)
 	onButton(arg_10_0, arg_10_0.backBtn, function()
 		arg_10_0:onBackPressed()
 	end, SFX_CANCEL)
@@ -412,14 +410,16 @@ function var_0_0.displayFleetInfo(arg_34_0)
 end
 
 function var_0_0.displayAttrFrame(arg_38_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_38_0.blurLayer, true)
+	pg.UIMgr.GetInstance():BlurPanel(arg_38_0.blurLayer, {
+		staticBlur = true
+	})
 	SetActive(arg_38_0.attrFrame, true)
 	arg_38_0:initAttrFrame()
 end
 
 function var_0_0.hideAttrFrame(arg_39_0)
 	SetActive(arg_39_0.attrFrame, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_39_0.blurLayer, arg_39_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_39_0.blurLayer, arg_39_0._tf)
 end
 
 function var_0_0.initAttrFrame(arg_40_0)
@@ -655,10 +655,10 @@ function var_0_0.willExit(arg_54_0)
 	arg_54_0.commanderFormationPanel:Destroy()
 
 	if isActive(arg_54_0.attrFrame) then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_54_0.blurLayer, arg_54_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_54_0.blurLayer, arg_54_0._tf)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_54_0._tf)
+	arg_54_0:UnOverlayPanel(arg_54_0._tf)
 
 	if arg_54_0.resPanel then
 		arg_54_0.resPanel:exit()

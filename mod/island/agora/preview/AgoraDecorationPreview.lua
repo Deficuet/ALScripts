@@ -1,4 +1,4 @@
-local var_0_0 = class("AgoraDecorationPreview", import("Mod.Island.Core.View.IslandBaseSubView"))
+local var_0_0 = class("AgoraDecorationPreview", import("Mod.Island.Core.View.IslandASynLoadSubView"))
 
 function var_0_0.GetUIName(arg_1_0)
 	return "IslandAgoraPreviewDecorationUI"

@@ -100,18 +100,28 @@ function var_0_0.LoadCharacter(arg_16_0, arg_16_1)
 
 		arg_16_0.role.transform.eulerAngles = Vector3(0, 180, 0)
 
-		local var_17_0 = arg_16_0:GetSmoothRotateObject()
+		local var_17_0 = 0
+		local var_17_1 = arg_16_0._tf.rect.width / arg_16_0._tf.rect.height
 
-		var_17_0:SetUp(arg_16_0.role.transform)
+		if var_17_1 < 1.7777777777777777 then
+			var_17_0 = 0 - 0.5 * (1.7777777777777777 - var_17_1) / 0.4444444444444444
+		end
 
-		var_17_0.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
+		arg_16_0.role.transform.localPosition = Vector3(var_17_0, 0, 0)
+
+		local var_17_2 = arg_16_0:GetSmoothRotateObject()
+		local var_17_3 = GetOrAddComponent(var_17_2, typeof(SmoothRotateObject))
+
+		var_17_3:SetUp(arg_16_0.role.transform)
+
+		var_17_3.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
 
 		arg_16_0:OnCharLoaded()
 	end)
 end
 
 function var_0_0.UnloadCharacter(arg_18_0)
-	local var_18_0 = arg_18_0:GetSmoothRotateObject()
+	local var_18_0 = arg_18_0:GetSmoothRotateObject():GetComponent(typeof(SmoothRotateObject))
 
 	if var_18_0 then
 		Object.Destroy(var_18_0)

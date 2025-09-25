@@ -72,9 +72,7 @@ function var_0_0.Common(arg_4_0, arg_4_1)
 	end, SFX_PANEL)
 	setActive(arg_4_0.cancelBtn, not arg_4_1.hideNo)
 	setActive(arg_4_0._tf, true)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf)
 end
 
 function var_0_0.ShowHelp(arg_9_0, arg_9_1)

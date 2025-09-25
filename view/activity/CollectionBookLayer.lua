@@ -463,7 +463,7 @@ end
 
 function var_0_0.willExit(arg_28_0)
 	arg_28_0.page3ScrollRect.onValueChanged:RemoveAllListeners()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_28_0._ad, arg_28_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_28_0._ad, arg_28_0._tf)
 end
 
 return var_0_0

@@ -153,7 +153,7 @@ end
 function var_0_0.HideMainPanel(arg_15_0)
 	arg_15_0:RemoveTimer()
 	setActive(arg_15_0.mainPanel, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_15_0.mainPanel, arg_15_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0.mainPanel, arg_15_0._tf)
 end
 
 function var_0_0.AddTimer(arg_16_0)

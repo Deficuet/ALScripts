@@ -155,7 +155,7 @@ end
 
 function var_0_0.Close(arg_16_0)
 	setActive(arg_16_0._tf, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_16_0._tf, arg_16_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_16_0._tf, arg_16_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_17_0)

@@ -154,8 +154,7 @@ function var_0_0.addListener(arg_9_0)
 				pg.m02:sendNotification(GAME.ENERGY_META_ACTIVATION, {
 					shipId = arg_9_0.curMetaShipID
 				})
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	end, SFX_PANEL)
 end
@@ -370,7 +369,6 @@ function var_0_0.updateMaterialPanel(arg_25_0, arg_25_1)
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = var_27_3,
-				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = function()
 					local var_28_0 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(MetaCharacterMediator)
 
@@ -520,14 +518,12 @@ function var_0_0.closePreviewPanel(arg_36_0)
 
 	setActive(arg_36_0.previewTF, false)
 	setActive(arg_36_0.rawImage, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_36_0.previewTF, arg_36_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_36_0.previewTF, arg_36_0._tf)
 end
 
 function var_0_0.openPreviewPanel(arg_37_0)
 	setActive(arg_37_0.previewTF, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_37_0.previewTF, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_37_0.previewTF)
 	arg_37_0:playLoadingAni()
 end
 
@@ -611,17 +607,16 @@ function var_0_0.enablePartialBlur(arg_47_0)
 
 		table.insert(var_47_0, arg_47_0.previewBtn)
 		table.insert(var_47_0, arg_47_0.rightPanel)
-		pg.UIMgr.GetInstance():OverlayPanelPB(arg_47_0._tf, {
-			pbList = var_47_0,
-			groupName = LayerWeightConst.GROUP_META,
-			weight = LayerWeightConst.BASE_LAYER - 1
+		arg_47_0:OverlayPanel(arg_47_0._tf, {
+			groupDelta = -1,
+			pbList = var_47_0
 		})
 	end
 end
 
 function var_0_0.disablePartialBlur(arg_48_0)
 	if arg_48_0._tf then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_48_0._tf)
+		arg_48_0:UnOverlayPanel(arg_48_0._tf)
 	end
 end
 

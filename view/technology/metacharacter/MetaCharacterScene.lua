@@ -1083,11 +1083,9 @@ end
 
 function var_0_0.overLayPanel(arg_59_0, arg_59_1)
 	if arg_59_1 == true then
-		pg.UIMgr.GetInstance():OverlayPanel(arg_59_0.blurPanel, {
-			groupName = LayerWeightConst.GROUP_META
-		})
+		arg_59_0:OverlayPanel(arg_59_0.blurPanel)
 	elseif arg_59_1 == false then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_59_0.blurPanel, arg_59_0._tf)
+		arg_59_0:UnOverlayPanel(arg_59_0.blurPanel, arg_59_0._tf)
 	end
 end
 

@@ -94,12 +94,10 @@ function var_0_0.didEnter(arg_6_0)
 	end, SFX_CANCEL)
 	onToggle(arg_6_0, arg_6_0.sortBtn, function(arg_9_0)
 		if arg_9_0 then
-			pg.UIMgr.GetInstance():OverlayPanel(arg_6_0.sortPanel, {
-				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-			})
+			arg_6_0:OverlayPanel(arg_6_0.sortPanel)
 			setActive(arg_6_0.sortPanel, true)
 		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(arg_6_0.sortPanel, arg_6_0.topItems)
+			arg_6_0:UnOverlayPanel(arg_6_0.sortPanel, arg_6_0.topItems)
 			setActive(arg_6_0.sortPanel, false)
 		end
 	end, SFX_PANEL)
@@ -181,12 +179,8 @@ function var_0_0.didEnter(arg_6_0)
 		arg_6_0:filterEquipment()
 	end, SFX_PANEL)
 	triggerToggle(arg_6_0.filterBusyToggle, arg_6_0.shipVO)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_6_0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
-	pg.UIMgr.GetInstance():OverlayPanel(arg_6_0.topItems, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	arg_6_0:OverlayPanel(arg_6_0.blurPanel)
+	arg_6_0:OverlayPanel(arg_6_0.topItems)
 
 	local var_6_2 = arg_6_0.contextData.mode or StoreHouseConst.OVERVIEW
 
@@ -491,8 +485,8 @@ function var_0_0.checkFitBusyCondition(arg_45_0, arg_45_1)
 end
 
 function var_0_0.willExit(arg_46_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_46_0.blurPanel, arg_46_0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_46_0.topItems, arg_46_0._tf)
+	arg_46_0:UnOverlayPanel(arg_46_0.blurPanel, arg_46_0._tf)
+	arg_46_0:UnOverlayPanel(arg_46_0.topItems, arg_46_0._tf)
 end
 
 return var_0_0

@@ -15,7 +15,7 @@ function var_0_0.didEnter(arg_3_0)
 	onButton(arg_3_0, arg_3_0.btnBack, function()
 		arg_3_0:showNext()
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.updateNotices(arg_5_0, arg_5_1)
@@ -50,7 +50,7 @@ end
 
 function var_0_0.willExit(arg_8_0)
 	LeanTween.cancel(go(arg_8_0.trFrame))
-	pg.UIMgr.GetInstance():UnblurPanel(arg_8_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0._tf)
 end
 
 return var_0_0

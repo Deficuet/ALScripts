@@ -8,6 +8,7 @@ var_0_0.ChannelPublic = 3
 var_0_0.ChannelFriend = 4
 var_0_0.ChannelGuild = 5
 var_0_0.ChannelWorldBoss = 6
+var_0_0.ChannelIsland = 7
 var_0_0.SendChannels = {
 	var_0_0.ChannelWorld,
 	var_0_0.ChannelGuild
@@ -38,6 +39,8 @@ function var_0_0.GetChannelSprite(arg_2_0)
 		return "total"
 	elseif arg_2_0 == var_0_0.ChannelWorldBoss then
 		return "worldboss"
+	elseif arg_2_0 == var_0_0.ChannelIsland then
+		return "island"
 	end
 
 	assert(false)

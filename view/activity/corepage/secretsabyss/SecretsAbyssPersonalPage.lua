@@ -452,7 +452,7 @@ function var_0_0.Hide(arg_42_0)
 
 	arg_42_0.isActive = false
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_42_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_42_0._tf)
 end
 
 function var_0_0.IsActive(arg_43_0)

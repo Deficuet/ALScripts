@@ -47,6 +47,18 @@ function var_0_0.InitData(arg_2_0, arg_2_1)
 			var_2_2:Init(iter_2_7, true)
 		end
 	end
+
+	for iter_2_8, iter_2_9 in ipairs(arg_2_1.speed_list or {}) do
+		local var_2_3 = iter_2_9.slot_id
+		local var_2_4 = iter_2_9.speed_time
+		local var_2_5 = pg.island_order_list[var_2_3].type
+
+		if var_2_5 == var_0_0.COMMON_ORDER_TYPE then
+			arg_2_0.slotList[var_2_3]:SetReduceTime(var_2_4)
+		elseif var_2_5 == var_0_0.SHIP_ORDER_TYPE then
+			arg_2_0.shipSlotList[var_2_3]:SetReduceTime(var_2_4)
+		end
+	end
 end
 
 function var_0_0.GetShipSlotList(arg_3_0)
@@ -126,149 +138,157 @@ function var_0_0.SetTendency(arg_17_0, arg_17_1)
 	arg_17_0.tendency = arg_17_1
 end
 
-function var_0_0.AddExp(arg_18_0, arg_18_1)
-	if arg_18_0:IsMaxLevel() then
+function var_0_0.ExpSystemIsOpen(arg_18_0)
+	return arg_18_0:GetHost():GetAblityAgency():HasAbility(IslandAblityAgency.ORDER_EXP_ID)
+end
+
+function var_0_0.AddExp(arg_19_0, arg_19_1)
+	if not arg_19_0:ExpSystemIsOpen() then
 		return
 	end
 
-	arg_18_0.exp = arg_18_0.exp + arg_18_1
+	if arg_19_0:IsMaxLevel() then
+		return
+	end
+
+	arg_19_0.exp = arg_19_0.exp + arg_19_1
 end
 
-function var_0_0.GetExp(arg_19_0)
-	return arg_19_0.exp
+function var_0_0.GetExp(arg_20_0)
+	return arg_20_0.exp
 end
 
-function var_0_0.GetTargetExp(arg_20_0)
-	local var_20_0 = arg_20_0:GetLevel()
+function var_0_0.GetTargetExp(arg_21_0)
+	local var_21_0 = arg_21_0:GetLevel()
 
-	return arg_20_0:StaticGetTargetExp(var_20_0)
+	return arg_21_0:StaticGetTargetExp(var_21_0)
 end
 
-function var_0_0.GetNextTargetExp(arg_21_0)
-	if arg_21_0:IsMaxLevel() then
+function var_0_0.GetNextTargetExp(arg_22_0)
+	if arg_22_0:IsMaxLevel() then
 		return 0
 	end
 
-	local var_21_0 = arg_21_0:GetLevel()
+	local var_22_0 = arg_22_0:GetLevel()
 
-	return arg_21_0:StaticGetTargetExp(var_21_0 + 1)
+	return arg_22_0:StaticGetTargetExp(var_22_0 + 1)
 end
 
-function var_0_0.StaticGetTargetExp(arg_22_0, arg_22_1)
-	local var_22_0 = 0
+function var_0_0.StaticGetTargetExp(arg_23_0, arg_23_1)
+	local var_23_0 = 0
 
-	for iter_22_0 = 1, arg_22_1 do
-		var_22_0 = var_22_0 + pg.island_order_favor[iter_22_0].exp
+	for iter_23_0 = 1, arg_23_1 do
+		var_23_0 = var_23_0 + pg.island_order_favor[iter_23_0].exp
 	end
 
-	return var_22_0
+	return var_23_0
 end
 
-function var_0_0.GetLevel(arg_23_0)
-	for iter_23_0, iter_23_1 in ipairs(pg.island_order_favor.all) do
-		if arg_23_0:StaticGetTargetExp(iter_23_1) >= arg_23_0.exp then
-			return iter_23_1
+function var_0_0.GetLevel(arg_24_0)
+	for iter_24_0, iter_24_1 in ipairs(pg.island_order_favor.all) do
+		if arg_24_0:StaticGetTargetExp(iter_24_1) >= arg_24_0.exp then
+			return iter_24_1
 		end
 	end
 end
 
-function var_0_0.IsMaxLevel(arg_24_0)
-	local var_24_0 = arg_24_0:GetLevel()
+function var_0_0.IsMaxLevel(arg_25_0)
+	local var_25_0 = arg_25_0:GetLevel()
 
-	return arg_24_0:StaticIsMaxLevel(var_24_0)
+	return arg_25_0:StaticIsMaxLevel(var_25_0)
 end
 
-function var_0_0.StaticIsMaxLevel(arg_25_0, arg_25_1)
-	local var_25_0 = pg.island_order_favor.all
+function var_0_0.StaticIsMaxLevel(arg_26_0, arg_26_1)
+	local var_26_0 = pg.island_order_favor.all
 
-	return arg_25_1 >= var_25_0[#var_25_0]
+	return arg_26_1 >= var_26_0[#var_26_0]
 end
 
-function var_0_0.GetSlots(arg_26_0)
-	return arg_26_0.slotList
+function var_0_0.GetSlots(arg_27_0)
+	return arg_27_0.slotList
 end
 
-function var_0_0.GetSlot(arg_27_0, arg_27_1)
-	return arg_27_0.slotList[arg_27_1]
+function var_0_0.GetSlot(arg_28_0, arg_28_1)
+	return arg_28_0.slotList[arg_28_1]
 end
 
-function var_0_0.IsGotAward(arg_28_0, arg_28_1)
-	return table.contains(arg_28_0.awardIndexList, arg_28_1)
+function var_0_0.IsGotAward(arg_29_0, arg_29_1)
+	return table.contains(arg_29_0.awardIndexList, arg_29_1)
 end
 
-function var_0_0.UpdateGotAwardList(arg_29_0, arg_29_1)
-	if not arg_29_0:IsGotAward(arg_29_1) then
-		table.insert(arg_29_0.awardIndexList, arg_29_1)
+function var_0_0.UpdateGotAwardList(arg_30_0, arg_30_1)
+	if not arg_30_0:IsGotAward(arg_30_1) then
+		table.insert(arg_30_0.awardIndexList, arg_30_1)
 	end
 end
 
-function var_0_0.GetAllCanGetAwardList(arg_30_0)
-	local var_30_0 = {}
+function var_0_0.GetAllCanGetAwardList(arg_31_0)
+	local var_31_0 = {}
 
-	for iter_30_0, iter_30_1 in ipairs(pg.island_order_favor.all) do
-		if arg_30_0:CanGetAward(iter_30_1) then
-			table.insert(var_30_0, iter_30_1)
+	for iter_31_0, iter_31_1 in ipairs(pg.island_order_favor.all) do
+		if arg_31_0:CanGetAward(iter_31_1) then
+			table.insert(var_31_0, iter_31_1)
 		end
 	end
 
-	return var_30_0
+	return var_31_0
 end
 
-function var_0_0.CanGetAward(arg_31_0, arg_31_1)
-	if arg_31_0:IsGotAward(arg_31_1) then
+function var_0_0.CanGetAward(arg_32_0, arg_32_1)
+	if arg_32_0:IsGotAward(arg_32_1) then
 		return false
 	end
 
-	return arg_31_0:StaticGetTargetExp(arg_31_1) <= arg_31_0.exp
+	return arg_32_0:StaticGetTargetExp(arg_32_1) <= arg_32_0.exp
 end
 
 local var_0_1 = "island_next_submit_order_time"
 
-function var_0_0.RecordNextCanSubmitTime(arg_32_0)
-	local var_32_0 = getProxy(PlayerProxy):getRawData().id
-	local var_32_1 = pg.TimeMgr.GetInstance():GetServerTime()
-	local var_32_2 = pg.island_set.order_complete_refresh_time.key_value_int
+function var_0_0.RecordNextCanSubmitTime(arg_33_0)
+	local var_33_0 = getProxy(PlayerProxy):getRawData().id
+	local var_33_1 = pg.TimeMgr.GetInstance():GetServerTime()
+	local var_33_2 = pg.island_set.order_complete_refresh_time.key_value_int
 
-	PlayerPrefs.SetInt(var_0_1 .. var_32_0, var_32_1 + var_32_2)
+	PlayerPrefs.SetInt(var_0_1 .. var_33_0, var_33_1 + var_33_2)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.CanSubmitOrder(arg_33_0)
-	local var_33_0 = getProxy(PlayerProxy):getRawData().id
-	local var_33_1 = PlayerPrefs.GetInt(var_0_1 .. var_33_0, 0)
-	local var_33_2 = pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.CanSubmitOrder(arg_34_0)
+	local var_34_0 = getProxy(PlayerProxy):getRawData().id
+	local var_34_1 = PlayerPrefs.GetInt(var_0_1 .. var_34_0, 0)
+	local var_34_2 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	return var_33_1 <= 0 or var_33_1 <= var_33_2, var_33_1
+	return var_34_1 <= 0 or var_34_1 <= var_34_2, var_34_1
 end
 
 local var_0_2 = "island_selected_order_id"
 
-function var_0_0.GetCacheSelectedId(arg_34_0)
-	local var_34_0 = getProxy(PlayerProxy):getRawData().id
-
-	return (PlayerPrefs.GetInt(var_0_2 .. var_34_0, 0))
-end
-
-function var_0_0.SetCacheSelectedId(arg_35_0, arg_35_1)
+function var_0_0.GetCacheSelectedId(arg_35_0)
 	local var_35_0 = getProxy(PlayerProxy):getRawData().id
 
-	PlayerPrefs.SetInt(var_0_2 .. var_35_0, arg_35_1)
+	return (PlayerPrefs.GetInt(var_0_2 .. var_35_0, 0))
+end
+
+function var_0_0.SetCacheSelectedId(arg_36_0, arg_36_1)
+	local var_36_0 = getProxy(PlayerProxy):getRawData().id
+
+	PlayerPrefs.SetInt(var_0_2 .. var_36_0, arg_36_1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.UpdatePerDay(arg_36_0)
-	arg_36_0.finishCnt = 0
+function var_0_0.UpdatePerDay(arg_37_0)
+	arg_37_0.finishCnt = 0
 
 	if pg.TimeMgr.GetInstance():GetServerWeek() == 1 then
-		arg_36_0.urgencyFinishCnt = 0
-		arg_36_0.exp = 0
+		arg_37_0.urgencyFinishCnt = 0
+		arg_37_0.exp = 0
 	end
 
-	arg_36_0:DispatchEvent(var_0_0.ORDER_FINISH_UPDATE)
+	arg_37_0:DispatchEvent(var_0_0.ORDER_FINISH_UPDATE)
 end
 
-function var_0_0.OnSeasonReset(arg_37_0, arg_37_1)
-	arg_37_0:InitData(arg_37_1)
+function var_0_0.OnSeasonReset(arg_38_0, arg_38_1)
+	arg_38_0:InitData(arg_38_1)
 end
 
 return var_0_0

@@ -212,6 +212,7 @@ function var_0_0.confirm(arg_12_0, arg_12_1)
 
 			local var_12_8 = {
 				isChargeType = true,
+				commodity = arg_12_1,
 				infoTip = arg_12_1:GetInfoTip(),
 				icon = "chargeicon/" .. arg_12_1:getConfig("picture"),
 				name = arg_12_1:getConfig("name_display"),
@@ -248,6 +249,7 @@ function var_0_0.confirm(arg_12_0, arg_12_1)
 
 			local var_12_11 = {
 				isChargeType = true,
+				commodity = arg_12_1,
 				icon = "chargeicon/" .. arg_12_1:getConfig("picture"),
 				name = arg_12_1:getConfig("name_display"),
 				price = arg_12_1:getConfig("money"),
@@ -285,6 +287,7 @@ function var_0_0.confirm(arg_12_0, arg_12_1)
 			isMonthCard = false,
 			isChargeType = false,
 			isLocalPrice = false,
+			commodity = arg_12_1,
 			icon = var_12_14.icon,
 			name = var_12_14.name,
 			tipExtra = i18n("charge_title_getitem"),

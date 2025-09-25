@@ -368,7 +368,7 @@ end
 
 function var_0_0.openSelectSkinPanel(arg_28_0, arg_28_1, arg_28_2)
 	setActive(arg_28_0.skinPanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_28_0.skinPanel, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_28_0.skinPanel)
 
 	for iter_28_0 = arg_28_0.skinContainer.childCount, #arg_28_1 - 1 do
 		cloneTplTo(arg_28_0.skinCard, arg_28_0.skinContainer)
@@ -406,7 +406,7 @@ function var_0_0.openSelectSkinPanel(arg_28_0, arg_28_1, arg_28_2)
 end
 
 function var_0_0.closeSelectSkinPanel(arg_30_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_30_0.skinPanel, arg_30_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_30_0.skinPanel, arg_30_0._tf)
 	setActive(arg_30_0.skinPanel, false)
 end
 

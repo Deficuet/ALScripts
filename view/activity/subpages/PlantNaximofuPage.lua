@@ -263,7 +263,9 @@ function var_0_0.displayWindow(arg_23_0, arg_23_1)
 	if arg_23_1 then
 		setActive(arg_23_0.skinTf, true)
 		arg_23_0.skinTf:GetComponent(typeof(Animation)):Play("anim_plantNaximofu_in")
-		pg.UIMgr.GetInstance():BlurPanel(arg_23_0.skinTf, true)
+		pg.UIMgr.GetInstance():BlurPanel(arg_23_0.skinTf, {
+			staticBlur = true
+		})
 
 		local var_23_0 = arg_23_0.taskGroup[arg_23_0.nday][1]
 		local var_23_1 = (arg_23_0.taskProxy:getTaskById(var_23_0) or arg_23_0.taskProxy:getFinishTaskById(var_23_0)):getTaskStatus()
@@ -286,7 +288,7 @@ function var_0_0.displayWindow(arg_23_0, arg_23_1)
 			findTF(arg_23_0.skinTf, "skins/skin" .. arg_23_0.displayDayList[arg_23_0.skinIndex]):GetComponent(typeof(Animation)):Play("anim_zhenhaimuseum_skin_right")
 		end
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(arg_23_0.skinTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_23_0.skinTf)
 		arg_23_0.skinTf:GetComponent(typeof(Animation)):Play("anim_plantNaximofu_out")
 		arg_23_0:StartTimer(function()
 			setActive(arg_23_0.skinTf, false)

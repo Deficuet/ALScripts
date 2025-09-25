@@ -260,12 +260,12 @@ function var_0_0.showBoxPanel(arg_27_0, arg_27_1)
 	if arg_27_1 == true then
 		pg.UIMgr.GetInstance():BlurPanel(arg_27_0.boxTF)
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(arg_27_0.boxTF, arg_27_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_27_0.boxTF, arg_27_0._tf)
 	end
 end
 
 function var_0_0.OnDestroy(arg_28_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_28_0.boxTF, arg_28_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_28_0.boxTF, arg_28_0._tf)
 	var_0_0.super.OnDestroy(arg_28_0)
 end
 

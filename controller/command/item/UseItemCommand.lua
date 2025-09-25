@@ -62,7 +62,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					id = var_1_1,
 					count = var_1_2
 				})
-			elseif var_1_6 == ItemUsage.DROP or var_1_6 == ItemUsage.DROP_TEMPLATE or var_1_6 == ItemUsage.DROP_APPOINTED or var_1_6 == ItemUsage.INVITATION or var_1_6 == ItemUsage.SKIN_SELECT or var_1_6 == ItemUsage.RANDOM_SKIN then
+			elseif var_1_6 == ItemUsage.DROP or var_1_6 == ItemUsage.DROP_TEMPLATE or var_1_6 == ItemUsage.DROP_APPOINTED or var_1_6 == ItemUsage.INVITATION or var_1_6 == ItemUsage.SKIN_SELECT or var_1_6 == ItemUsage.RANDOM_SKIN or var_1_6 == ItemUsage.SHIP_GIFT then
 				var_2_0 = PlayerConst.addTranDrop(arg_2_0.drop_list)
 			elseif var_1_6 == ItemUsage.USAGE_SKIN_EXP then
 				local var_2_1 = getProxy(ShipSkinProxy)

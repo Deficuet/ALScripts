@@ -42,7 +42,7 @@ function var_0_0.OnInit(arg_3_0)
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.worldBtn, function()
 		if nowWorld():GetBossProxy():WorldSupported() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("world_boss_ask_help"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_ask_help"))
 
 			return
 		end
@@ -176,7 +176,7 @@ end
 
 function var_0_0.Hide(arg_24_0)
 	var_0_0.super.Hide(arg_24_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_24_0._tf, arg_24_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_24_0._tf, arg_24_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_25_0)

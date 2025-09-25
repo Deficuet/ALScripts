@@ -22,7 +22,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.blurPanel = arg_2_0._tf:Find("blur_panel")
 	arg_2_0.pageBg = arg_2_0._tf:Find("blur_panel/panel/mask/pageBg")
 
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_2_0.blurPanel, {
+	pg.UIMgr.GetInstance():OverlayPanel(arg_2_0.blurPanel, {
 		pbList = {
 			arg_2_0.pageBg
 		}

@@ -320,8 +320,8 @@ function var_0_0.willExit(arg_40_0)
 		arg_40_0.missionBossPage:Destroy()
 	end
 
-	if isActive(pg.MsgboxMgr:GetInstance()._go) then
-		triggerButton(pg.MsgboxMgr:GetInstance()._closeBtn)
+	if isActive(pg.MsgboxMgr.GetInstance()._go) then
+		triggerButton(pg.MsgboxMgr.GetInstance()._closeBtn)
 	end
 end
 

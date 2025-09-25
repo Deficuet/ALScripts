@@ -24,9 +24,7 @@ function var_0_0.Show(arg_5_0, arg_5_1, arg_5_2)
 	arg_5_0._tf.localPosition = arg_5_2
 	arg_5_0._parentTf = arg_5_0._tf.parent
 
-	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0._tf, {
-		overlayType = LayerWeightConst.OVERLAY_UI_TOP
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0._tf)
 end
 
 function var_0_0.UpdateDesc(arg_6_0, arg_6_1)
@@ -46,7 +44,7 @@ end
 
 function var_0_0.UpdateDescPreSce(arg_8_0, arg_8_1)
 	local var_8_0 = arg_8_1:getConfig("desc")
-	local var_8_1 = pg.TimeMgr:GetInstance():GetServerTime()
+	local var_8_1 = pg.TimeMgr.GetInstance():GetServerTime()
 	local var_8_2 = arg_8_1.timestamp - var_8_1
 
 	if var_8_2 > 0 then

@@ -210,14 +210,14 @@ function var_0_0.Show(arg_13_0)
 	end
 
 	setActive(arg_13_0.transform, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_13_0.transform, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_13_0.transform)
 end
 
 function var_0_0.Hide(arg_21_0)
 	arg_21_0.preSelectIndex = nil
 
 	setActive(arg_21_0.transform, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_21_0.transform, arg_21_0.UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0.transform, arg_21_0.UIMain)
 end
 
 function var_0_0.IsShowing(arg_22_0)

@@ -169,7 +169,7 @@ end
 
 function var_0_0.willExit(arg_15_0)
 	LeanTween.cancel(go(arg_15_0._tf))
-	pg.UIMgr.GetInstance():UnblurPanel(arg_15_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf)
 	pg.CameraFixMgr.GetInstance():disconnect(arg_15_0.camEventId)
 end
 

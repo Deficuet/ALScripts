@@ -50,9 +50,8 @@ function var_0_0.addListener(arg_6_0)
 end
 
 function var_0_0.didEnter(arg_8_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0._tf, {
-		groupName = arg_8_0:getGroupNameFromData(),
-		weight = arg_8_0:getWeightFromData() + 1
+	arg_8_0:OverlayPanel(arg_8_0._tf, {
+		groupDelta = 1
 	})
 	arg_8_0.finishUIList:make(function(arg_9_0, arg_9_1, arg_9_2)
 		if arg_9_0 == UIItemList.EventUpdate then
@@ -182,7 +181,7 @@ end
 
 function var_0_0.willExit(arg_28_0)
 	arg_28_0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_28_0._tf)
+	arg_28_0:UnOverlayPanel(arg_28_0._tf)
 
 	if arg_28_0.contextData.onExit then
 		arg_28_0.contextData.onExit()

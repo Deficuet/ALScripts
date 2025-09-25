@@ -462,21 +462,17 @@ function var_0_0.openRepairEffectBoxPanel(arg_31_0, arg_31_1)
 	end)
 	var_31_10:align(var_31_4)
 	setActive(arg_31_0.repairEffectBoxPanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_31_0.repairEffectBoxPanel, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_31_0.repairEffectBoxPanel)
 end
 
 function var_0_0.closeRepairEffectBoxPanel(arg_34_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_34_0.repairEffectBoxPanel)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_34_0.repairEffectBoxPanel)
 	setActive(arg_34_0.repairEffectBoxPanel, false)
 end
 
 function var_0_0.openDetailPanel(arg_35_0)
 	setActive(arg_35_0.detailPanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_35_0.detailPanel, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_35_0.detailPanel)
 
 	arg_35_0.isOpening = true
 
@@ -504,7 +500,7 @@ function var_0_0.closeDetailPanel(arg_38_0)
 		arg_38_0.isClosing = nil
 
 		setActive(arg_38_0.detailPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_38_0.detailPanel)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.detailPanel)
 	end))
 end
 

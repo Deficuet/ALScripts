@@ -2,6 +2,7 @@ local var_0_0 = class("IslandOwnedDressItem", import("model.vo.BaseVO"))
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.id = arg_1_1.id
+	arg_1_0.configId = arg_1_0.id
 	arg_1_0.num = arg_1_1.num
 	arg_1_0.read = arg_1_1.read
 end

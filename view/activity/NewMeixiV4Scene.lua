@@ -217,7 +217,7 @@ function var_0_0.getStory(arg_26_0, arg_26_1, arg_26_2)
 
 	local function var_26_2()
 		onButton(arg_26_0, arg_26_0.storyTip, function()
-			pg.UIMgr.GetInstance():UnblurPanel(arg_26_0.storyTip)
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_26_0.storyTip)
 			setActive(arg_26_0.storyTip, false)
 		end)
 		onButton(arg_26_0, arg_26_0:findTF("bar/Button", arg_26_0.storyTip), function()
@@ -231,7 +231,7 @@ end
 
 function var_0_0.willExit(arg_30_0)
 	setActive(arg_30_0.storyTip, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_30_0.storyTip)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_30_0.storyTip)
 end
 
 return var_0_0

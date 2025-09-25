@@ -24,9 +24,7 @@ function var_0_0.init(arg_4_0)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf, false, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf)
 	onButton(arg_5_0, arg_5_0.confirmBtn, function()
 		arg_5_0:emit(var_0_0.ON_CLOSE)
 	end, SOUND_BACK)
@@ -118,7 +116,7 @@ function var_0_0.UpdateShips(arg_9_0)
 end
 
 function var_0_0.willExit(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf, pg.UIMgr.GetInstance().UIMain)
 
 	for iter_11_0, iter_11_1 in ipairs(arg_11_0.cards) do
 		iter_11_1:Dispose()

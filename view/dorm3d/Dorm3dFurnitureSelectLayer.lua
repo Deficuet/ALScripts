@@ -210,6 +210,8 @@ function var_0_0.UpdateDataDisplayFurnitures(arg_29_0)
 		if not _.any(var_29_4, function(arg_32_0)
 			return arg_32_0:CanUseFurniture(var_31_0)
 		end) then
+			warning("家具没有可用槽位，检查类型是否一致 FURNITUREID = " .. arg_31_0)
+
 			return
 		end
 

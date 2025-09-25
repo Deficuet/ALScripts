@@ -170,7 +170,7 @@ function var_0_0.willExit(arg_19_0)
 	arg_19_0.medalTaskView:SetActive(false)
 	arg_19_0.medalDetailView:Dispose()
 	arg_19_0.medalTaskView:Dispose()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_19_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0._tf)
 	arg_19_0.loader:Clear()
 end
 

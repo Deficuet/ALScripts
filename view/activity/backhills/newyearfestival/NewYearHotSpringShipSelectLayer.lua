@@ -42,9 +42,7 @@ function var_0_0.didEnter(arg_4_0)
 	var_4_0({
 		x = 0
 	})
-	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf, false, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf)
 	arg_4_0:UpdateSlots()
 end
 
@@ -166,7 +164,7 @@ function var_0_0.CleanCards(arg_14_0)
 end
 
 function var_0_0.willExit(arg_16_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_16_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_16_0._tf)
 	arg_16_0:CleanCards()
 end
 

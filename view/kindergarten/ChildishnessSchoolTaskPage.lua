@@ -224,7 +224,7 @@ function var_0_0.UpdateTaskData(arg_18_0)
 end
 
 function var_0_0.willExit(arg_19_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_19_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0._tf)
 end
 
 return var_0_0

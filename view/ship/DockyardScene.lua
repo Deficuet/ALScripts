@@ -26,8 +26,6 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0._tf:SetAsLastSibling()
-
 	local var_2_0 = arg_2_0.contextData
 
 	var_2_0.mode = defaultValue(var_2_0.mode, var_0_0.MODE_SELECT)
@@ -196,8 +194,7 @@ function var_0_0.init(arg_2_0)
 	onButton(arg_2_0, arg_2_0.helpPhantom, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = i18n("projection_help"),
-			weight = arg_2_0.contextData.LayerWeightMgr_weight or nil
+			helps = i18n("projection_help")
 		})
 	end, SFX_PANEL)
 
@@ -1186,9 +1183,13 @@ function var_0_0.GetConfirmSelect(arg_107_0)
 end
 
 function var_0_0.didEnter(arg_108_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_108_0.blurPanel, {
-		weight = arg_108_0:getWeightFromData()
-	})
+	if arg_108_0:isLayer() then
+		arg_108_0:OverlayPanel(arg_108_0._tf, {
+			groupDelta = -1
+		})
+	end
+
+	arg_108_0:OverlayPanel(arg_108_0.blurPanel)
 	arg_108_0:PlayUIAnimation(arg_108_0.blurPanel, "enter")
 	setActive(arg_108_0.stampBtn, getProxy(TaskProxy):mingshiTouchFlagEnabled() and arg_108_0.contextData.mode ~= var_0_0.MODE_GUILD_BOSS)
 	arg_108_0:UpdateGuildViewEquipmentsBtn()
@@ -2104,7 +2105,11 @@ function var_0_0.willExit(arg_165_0)
 		arg_165_0.bulinTip = nil
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_165_0.blurPanel, arg_165_0._tf)
+	arg_165_0:UnOverlayPanel(arg_165_0.blurPanel, arg_165_0._tf)
+
+	if arg_165_0:isLayer() then
+		arg_165_0:UnOverlayPanel(arg_165_0._tf)
+	end
 end
 
 function var_0_0.uiStartAnimating(arg_166_0)

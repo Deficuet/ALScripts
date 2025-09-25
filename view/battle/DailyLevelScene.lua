@@ -117,7 +117,7 @@ function var_0_0.initItems(arg_14_0)
 		local var_14_3 = var_14_1[arg_14_0.dailyList[iter_14_0]].insert_daily
 
 		if var_14_2 and type(var_14_2) == "table" then
-			if not pg.TimeMgr:GetInstance():inTime(var_14_2) then
+			if not pg.TimeMgr.GetInstance():inTime(var_14_2) then
 				table.remove(arg_14_0.dailyList, iter_14_0)
 			end
 		elseif var_14_3 == 1 then
@@ -340,10 +340,10 @@ function var_0_0.initDailyLevel(arg_24_0, arg_24_1)
 	local var_24_5 = Clone(var_24_0.limit_period)
 	local var_24_6
 
-	if var_24_5 and type(var_24_5) == "table" and pg.TimeMgr:GetInstance():inTime(var_24_5) then
-		local var_24_7 = pg.TimeMgr:GetInstance():GetServerTime()
+	if var_24_5 and type(var_24_5) == "table" and pg.TimeMgr.GetInstance():inTime(var_24_5) then
+		local var_24_7 = pg.TimeMgr.GetInstance():GetServerTime()
 
-		var_24_6 = pg.TimeMgr:GetInstance():Table2ServerTime({
+		var_24_6 = pg.TimeMgr.GetInstance():Table2ServerTime({
 			year = var_24_5[2][1][1],
 			month = var_24_5[2][1][2],
 			day = var_24_5[2][1][3],
@@ -577,10 +577,7 @@ function var_0_0.DoSelectedAnimation(arg_44_0, arg_44_1, arg_44_2, arg_44_3)
 		function(arg_45_0)
 			arg_44_0.stageScrollRect.enabled = false
 
-			pg.UIMgr.GetInstance():BlurPanel(arg_44_0.selectedPanel, false, {
-				groupName = LayerWeightConst.GROUP_DAILY,
-				weight = LayerWeightConst.BASE_LAYER - 1
-			})
+			pg.UIMgr.GetInstance():BlurPanel(arg_44_0.selectedPanel)
 
 			arg_44_1.sizeDelta = Vector2(arg_44_1.sizeDelta.x, 0)
 
@@ -618,7 +615,7 @@ function var_0_0.DoUnselectAnimtion(arg_49_0, arg_49_1, arg_49_2)
 
 	seriesAsync({
 		function(arg_50_0)
-			pg.UIMgr.GetInstance():UnblurPanel(arg_49_0.selectedPanel, arg_49_0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_49_0.selectedPanel, arg_49_0._tf)
 			setActive(arg_49_0.selectedPanel, false)
 
 			local var_50_0 = arg_49_1:GetComponent(typeof(LayoutElement))
@@ -818,7 +815,7 @@ end
 
 function var_0_0.willExit(arg_76_0)
 	if arg_76_0.selectedStage then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_76_0.selectedPanel, arg_76_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_76_0.selectedPanel, arg_76_0._tf)
 	end
 
 	arg_76_0:clearTween()

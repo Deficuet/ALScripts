@@ -40,7 +40,7 @@ end
 
 function var_0_0.willExit(arg_6_0)
 	LeanTween.cancel(go(arg_6_0._tf))
-	pg.UIMgr.GetInstance():UnblurPanel(arg_6_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_6_0._tf)
 end
 
 return var_0_0

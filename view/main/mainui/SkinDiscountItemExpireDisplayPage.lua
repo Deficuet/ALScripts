@@ -22,9 +22,7 @@ end
 function var_0_0.Show(arg_5_0, arg_5_1)
 	arg_5_0:InitLeftList(arg_5_1)
 	arg_5_0:InitRightList(arg_5_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf)
 end
 
 function var_0_0.InitLeftList(arg_6_0, arg_6_1)
@@ -71,7 +69,7 @@ function var_0_0.UpdateItem(arg_11_0, arg_11_1, arg_11_2)
 end
 
 function var_0_0.OnDestroy(arg_13_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_13_0._tf, pg.UIMgr.GetInstance()._normalUIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf, pg.UIMgr.GetInstance()._normalUIMain)
 end
 
 return var_0_0

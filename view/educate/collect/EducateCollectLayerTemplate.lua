@@ -50,9 +50,8 @@ function var_0_0.init(arg_3_0)
 
 		arg_3_0:updatePage()
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0._tf, {
-		groupName = arg_3_0:getGroupNameFromData(),
-		weight = LayerWeightConst.SECOND_LAYER + 2
+	arg_3_0:OverlayPanel(arg_3_0._tf, {
+		groupDelta = 2
 	})
 end
 
@@ -94,7 +93,7 @@ end
 
 function var_0_0.willExit(arg_13_0)
 	arg_13_0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf)
+	arg_13_0:UnOverlayPanel(arg_13_0._tf)
 end
 
 return var_0_0

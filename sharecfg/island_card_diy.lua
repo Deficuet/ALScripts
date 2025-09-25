@@ -1,0 +1,169 @@
+pg = pg or {}
+pg.island_card_diy = setmetatable({
+	__name = "island_card_diy",
+	all = {
+		4001,
+		4002,
+		4003,
+		4004,
+		4005,
+		4006,
+		4007,
+		4008,
+		4009,
+		4010,
+		4011,
+		4012,
+		4013,
+		4014,
+		4015,
+		4016
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.island_card_diy = {
+	[4001] = {
+		desc = "默认形象",
+		name = "默认形象",
+		type = 4,
+		id = 4001,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4001",
+		jump_page = {}
+	},
+	[4002] = {
+		desc = "{namecode:199}形象照",
+		name = "{namecode:199}形象照",
+		type = 4,
+		id = 4002,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4002",
+		jump_page = {}
+	},
+	[4003] = {
+		desc = "萨拉托加形象照",
+		name = "萨拉托加形象照",
+		type = 4,
+		id = 4003,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4003",
+		jump_page = {}
+	},
+	[4004] = {
+		desc = "胡德形象照",
+		name = "胡德形象照",
+		type = 4,
+		id = 4004,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4004",
+		jump_page = {}
+	},
+	[4005] = {
+		desc = "独角兽形象照",
+		name = "独角兽形象照",
+		type = 4,
+		id = 4005,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4005",
+		jump_page = {}
+	},
+	[4006] = {
+		desc = "柴郡形象照",
+		name = "柴郡形象照",
+		type = 4,
+		id = 4006,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4006",
+		jump_page = {}
+	},
+	[4007] = {
+		desc = "{namecode:18}形象照",
+		name = "{namecode:18}形象照",
+		type = 4,
+		id = 4007,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4007",
+		jump_page = {}
+	},
+	[4008] = {
+		desc = "{namecode:193}形象照",
+		name = "{namecode:193}形象照",
+		type = 4,
+		id = 4008,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4008",
+		jump_page = {}
+	},
+	[4009] = {
+		desc = "{namecode:97}形象照",
+		name = "{namecode:97}形象照",
+		type = 4,
+		id = 4009,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4009",
+		jump_page = {}
+	},
+	[4010] = {
+		desc = "{namecode:98}形象照",
+		name = "{namecode:98}形象照",
+		type = 4,
+		id = 4010,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4010",
+		jump_page = {}
+	},
+	[4011] = {
+		desc = "{namecode:427}形象照",
+		name = "{namecode:427}形象照",
+		type = 4,
+		id = 4011,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4011",
+		jump_page = {}
+	},
+	[4012] = {
+		desc = "应瑞形象照",
+		name = "应瑞形象照",
+		type = 4,
+		id = 4012,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4012",
+		jump_page = {}
+	},
+	[4013] = {
+		desc = "肇和形象照",
+		name = "肇和形象照",
+		type = 4,
+		id = 4013,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4013",
+		jump_page = {}
+	},
+	[4014] = {
+		desc = "莱昂纳多·达·芬奇形象照",
+		name = "莱昂纳多·达·芬奇形象照",
+		type = 4,
+		id = 4014,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4014",
+		jump_page = {}
+	},
+	[4015] = {
+		desc = "塔什干形象照",
+		name = "塔什干形象照",
+		type = 4,
+		id = 4015,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4015",
+		jump_page = {}
+	},
+	[4016] = {
+		desc = "恶毒形象照",
+		name = "恶毒形象照",
+		type = 4,
+		id = 4016,
+		icon = "islandprops/morensuipian",
+		resource = "islandphoto/4016",
+		jump_page = {}
+	}
+}

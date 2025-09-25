@@ -106,7 +106,7 @@ end
 
 function var_0_0.didEnter(arg_11_0)
 	arg_11_0:updateToggleList(arg_11_0.fleetList, arg_11_0.contextData.fleetIndex or 1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_11_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_11_0._tf)
 end
 
 function var_0_0.showOrHideToggleMask(arg_12_0, arg_12_1)
@@ -498,7 +498,7 @@ end
 function var_0_0.willExit(arg_35_0)
 	setParent(arg_35_0.shipTpl, arg_35_0.fleetInfo, false)
 	setParent(arg_35_0.emptyTpl, arg_35_0.fleetInfo, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_35_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0._tf)
 end
 
 return var_0_0

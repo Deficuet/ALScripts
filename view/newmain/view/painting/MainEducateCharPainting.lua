@@ -238,7 +238,7 @@ function var_0_0.EnableOrDisableMove(arg_26_0, arg_26_1)
 end
 
 function var_0_0.OnPause(arg_27_0)
-	var_0_0.super.OnPuase(arg_27_0)
+	var_0_0.super.OnPause(arg_27_0)
 
 	arg_27_0.waitForCharEnd = nil
 

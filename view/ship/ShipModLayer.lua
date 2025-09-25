@@ -78,8 +78,7 @@ function var_0_0.blurPanel(arg_10_0, arg_10_1)
 		arg_10_0:OverlayPanel(arg_10_0.blurPanelTF, {
 			pbList = {
 				arg_10_0.mainPanel:Find("bg")
-			},
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+			}
 		})
 	else
 		arg_10_0:UnOverlayPanel(arg_10_0.blurPanelTF, arg_10_0._tf)

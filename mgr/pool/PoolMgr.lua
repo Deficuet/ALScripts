@@ -206,6 +206,7 @@ function var_0_0.ReturnUI(arg_17_0, arg_17_1, arg_17_2)
 	if IsNil(arg_17_2) then
 		Debugger.LogError(debug.traceback("empty go: " .. arg_17_1))
 	elseif arg_17_0.pools_plural[var_17_0] then
+		setActiveViaLayer(arg_17_2, false)
 		arg_17_2.transform:SetParent(arg_17_0.root, false)
 		arg_17_0.pools_plural[var_17_0]:Enqueue(arg_17_2, true)
 

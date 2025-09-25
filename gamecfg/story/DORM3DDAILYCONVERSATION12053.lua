@@ -21,14 +21,42 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "hello_01-start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = true,
+							name = "Face_smile_start",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 1.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		},
 		{
-			nameColor = "#FFFFFF",
 			side = 2,
+			actorName = 30707,
+			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			ctorName = 30707,
 			say = "没关系的……把一切都交给{namecode:97}就好……",
 			typewriter = {
 				speed = 0.05,

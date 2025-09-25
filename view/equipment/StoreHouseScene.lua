@@ -535,13 +535,9 @@ function var_0_0.didEnter(arg_15_0)
 			end)
 		end)
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_15_0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	arg_15_0:OverlayPanel(arg_15_0.blurPanel)
 	arg_15_0:PlayUIAnimation(arg_15_0.blurPanel, "enter")
-	pg.UIMgr.GetInstance():OverlayPanel(arg_15_0.topItems, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	arg_15_0:OverlayPanel(arg_15_0.topItems)
 
 	local var_15_0 = arg_15_0.contextData.warp or StoreHouseConst.WARP_TO_MATERIAL
 	local var_15_1 = arg_15_0.contextData.mode or StoreHouseConst.OVERVIEW

@@ -139,7 +139,7 @@ pg.dorm3d_accompany = {
 		performance_time = 20,
 		id = 111,
 		image = "xinzexi_accompany_room",
-		timeline = "Xiangban_personal",
+		timeline = "Xiangban_personal_10517",
 		sceneInfo = "map_newjerseyhostel_01|Xinzexi_DB/Newjerseyhostel",
 		favor = {
 			300,
@@ -159,7 +159,7 @@ pg.dorm3d_accompany = {
 		performance_time = 20,
 		id = 112,
 		image = "cafe_accompany",
-		timeline = "Xiangban_cafe",
+		timeline = "Xiangban_cafe_10517",
 		sceneInfo = "map_publiccafe_01|Publiccafe",
 		favor = {
 			300,
@@ -183,7 +183,7 @@ pg.dorm3d_accompany = {
 		performance_time = 20,
 		id = 121,
 		image = "dafeng_accompany_room",
-		timeline = "Xiangban_personal",
+		timeline = "Xiangban_personal_30707",
 		sceneInfo = "map_dafeng_01|Dafeng_DB/Dafenghostel",
 		favor = {
 			300,
@@ -203,7 +203,7 @@ pg.dorm3d_accompany = {
 		performance_time = 20,
 		id = 122,
 		image = "cafe_accompany",
-		timeline = "Xiangban_cafe",
+		timeline = "Xiangban_cafe_30707",
 		sceneInfo = "map_publiccafe_01|Publiccafe",
 		favor = {
 			300,

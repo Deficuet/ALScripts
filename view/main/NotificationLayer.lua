@@ -129,6 +129,8 @@ function var_0_0.init(arg_5_0)
 		others = {}
 	}
 	var_0_0.ChannelBits.recv = getProxy(SettingsProxy):GetChatFlag()
+
+	arg_5_0:BlurPanel(arg_5_0._tf)
 end
 
 function var_0_0.adjustMsgListPanel(arg_6_0)
@@ -225,15 +227,6 @@ function var_0_0.didEnter(arg_7_0)
 	arg_7_0:initFilter()
 	arg_7_0:updateFilter()
 	arg_7_0:updateAll()
-
-	if arg_7_0.currentForm == var_0_0.FORM_BATTLE then
-		arg_7_0._tf:SetParent(arg_7_0.contextData.chatViewParent, true)
-
-		rtf(arg_7_0.frame.transform).offsetMax = Vector2(0, -120)
-	else
-		arg_7_0:BlurPanel()
-	end
-
 	LeanTween.delayedCall(go(arg_7_0._tf), 0.2, System.Action(function()
 		scrollToBottom(arg_7_0.content.parent)
 	end))
@@ -242,474 +235,453 @@ function var_0_0.didEnter(arg_7_0)
 	rtf(arg_7_0._tf).offsetMin = Vector2(0, 0)
 end
 
-function var_0_0.BlurPanel(arg_19_0)
-	var_0_0.super.BlurPanel(arg_19_0, arg_19_0._tf)
-end
-
-function var_0_0.UnblurPanel(arg_20_0)
-	arg_20_0:UnOverlayPanel(arg_20_0._tf)
-end
-
-function var_0_0.onBackPressed(arg_21_0)
+function var_0_0.onBackPressed(arg_19_0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
-	if isActive(arg_21_0.changeRoomPanel) then
-		arg_21_0:closeChangeRoomPanel()
+	if isActive(arg_19_0.changeRoomPanel) then
+		arg_19_0:closeChangeRoomPanel()
 	else
-		triggerButton(arg_21_0.close)
+		triggerButton(arg_19_0.close)
 	end
 end
 
-function var_0_0.initFilter(arg_22_0)
-	local var_22_0 = ChatConst.RecvChannels
+function var_0_0.initFilter(arg_20_0)
+	local var_20_0 = ChatConst.RecvChannels
 
-	arg_22_0.recvTypes = UIItemList.New(arg_22_0.typeBtns, arg_22_0.typeTpl)
+	arg_20_0.recvTypes = UIItemList.New(arg_20_0.typeBtns, arg_20_0.typeTpl)
 
-	arg_22_0.recvTypes:make(function(arg_23_0, arg_23_1, arg_23_2)
-		if arg_23_0 == UIItemList.EventUpdate then
-			local var_23_0 = var_22_0[arg_23_1 + 1]
+	arg_20_0.recvTypes:make(function(arg_21_0, arg_21_1, arg_21_2)
+		if arg_21_0 == UIItemList.EventUpdate then
+			local var_21_0 = var_20_0[arg_21_1 + 1]
 
-			setImageSprite(arg_23_2:Find("text"), arg_22_0.textSprites[var_23_0], true)
-			setImageSprite(arg_23_2:Find("text_selected"), arg_22_0.textSelectedSprites[var_23_0], true)
-			onButton(arg_22_0, arg_23_2, function()
-				local var_24_0 = _.filter(var_22_0, function(arg_25_0)
-					return arg_25_0 ~= ChatConst.ChannelGuild or arg_22_0.inGuild
+			setImageSprite(arg_21_2:Find("text"), arg_20_0.textSprites[var_21_0], true)
+			setImageSprite(arg_21_2:Find("text_selected"), arg_20_0.textSelectedSprites[var_21_0], true)
+			onButton(arg_20_0, arg_21_2, function()
+				local var_22_0 = _.filter(var_20_0, function(arg_23_0)
+					return arg_23_0 ~= ChatConst.ChannelGuild or arg_20_0.inGuild
 				end)
-				local var_24_1 = IndexConst.ToggleBits(var_0_0.ChannelBits.recv, var_24_0, ChatConst.ChannelAll, var_23_0)
+				local var_22_1 = IndexConst.ToggleBits(var_0_0.ChannelBits.recv, var_22_0, ChatConst.ChannelAll, var_21_0)
 
-				if var_0_0.ChannelBits.recv == var_24_1 then
+				if var_0_0.ChannelBits.recv == var_22_1 then
 					return
 				end
 
-				var_0_0.ChannelBits.recv = var_24_1
+				var_0_0.ChannelBits.recv = var_22_1
 
-				arg_22_0:updateFilter()
-				arg_22_0:updateAll()
+				arg_20_0:updateFilter()
+				arg_20_0:updateAll()
 				getProxy(SettingsProxy):SetChatFlag(var_0_0.ChannelBits.recv)
 			end, SFX_UI_TAG)
 		end
 	end)
-	arg_22_0.recvTypes:align(#var_22_0)
+	arg_20_0.recvTypes:align(#var_20_0)
 end
 
-function var_0_0.updateFilter(arg_26_0)
-	local var_26_0 = ChatConst.RecvChannels
+function var_0_0.updateFilter(arg_24_0)
+	local var_24_0 = ChatConst.RecvChannels
 
-	arg_26_0.recvTypes:each(function(arg_27_0, arg_27_1)
-		local var_27_0 = var_26_0[arg_27_0 + 1]
+	arg_24_0.recvTypes:each(function(arg_25_0, arg_25_1)
+		local var_25_0 = var_24_0[arg_25_0 + 1]
 
-		if var_27_0 == ChatConst.ChannelGuild and not arg_26_0.inGuild then
-			setButtonEnabled(arg_27_1, false)
+		if var_25_0 == ChatConst.ChannelGuild and not arg_24_0.inGuild then
+			setButtonEnabled(arg_25_1, false)
 		end
 
-		if bit.band(var_0_0.ChannelBits.recv, bit.lshift(1, var_27_0)) > 0 then
-			setImageSprite(arg_27_1, arg_26_0.selectedSprite)
-			setActive(arg_27_1:Find("text_selected"), true)
+		if bit.band(var_0_0.ChannelBits.recv, bit.lshift(1, var_25_0)) > 0 then
+			setImageSprite(arg_25_1, arg_24_0.selectedSprite)
+			setActive(arg_25_1:Find("text_selected"), true)
 		else
-			setImageSprite(arg_27_1, arg_26_0.normalSprite)
-			setActive(arg_27_1:Find("text_selected"), false)
+			setImageSprite(arg_25_1, arg_24_0.normalSprite)
+			setActive(arg_25_1:Find("text_selected"), false)
 		end
 	end)
 
-	local var_26_1 = var_0_0.ChannelBits.recv
-	local var_26_2 = bit.lshift(1, ChatConst.ChannelAll)
+	local var_24_1 = var_0_0.ChannelBits.recv
+	local var_24_2 = bit.lshift(1, ChatConst.ChannelAll)
 
-	arg_26_0.filteredMessages = _.filter(arg_26_0.messages, function(arg_28_0)
-		return var_26_1 == var_26_2 or bit.band(var_26_1, bit.lshift(1, arg_28_0.type)) > 0
+	arg_24_0.filteredMessages = _.filter(arg_24_0.messages, function(arg_26_0)
+		return var_24_1 == var_24_2 or bit.band(var_24_1, bit.lshift(1, arg_26_0.type)) > 0
 	end)
-	arg_26_0.filteredMessages = _.slice(arg_26_0.filteredMessages, #arg_26_0.filteredMessages - var_0_0.MaxCount + 1, var_0_0.MaxCount)
+	arg_24_0.filteredMessages = _.slice(arg_24_0.filteredMessages, #arg_24_0.filteredMessages - var_0_0.MaxCount + 1, var_0_0.MaxCount)
 end
 
-function var_0_0.updateChatChannel(arg_29_0)
-	setImageSprite(arg_29_0.channelSend:Find("Text"), arg_29_0.bottomChannelTextSprites[var_0_0.ChannelBits.send], true)
+function var_0_0.updateChatChannel(arg_27_0)
+	setImageSprite(arg_27_0.channelSend:Find("Text"), arg_27_0.bottomChannelTextSprites[var_0_0.ChannelBits.send], true)
 end
 
-function var_0_0.updateChannelSendPop(arg_30_0)
-	local var_30_0 = ChatConst.SendChannels
-	local var_30_1 = UIItemList.New(arg_30_0.channelSendPop:Find("type_send"), arg_30_0.bottomChannelTpl)
+function var_0_0.updateChannelSendPop(arg_28_0)
+	local var_28_0 = ChatConst.SendChannels
+	local var_28_1 = UIItemList.New(arg_28_0.channelSendPop:Find("type_send"), arg_28_0.bottomChannelTpl)
 
-	local function var_30_2()
-		var_30_1:each(function(arg_32_0, arg_32_1)
-			local var_32_0 = var_30_0[arg_32_0 + 1]
+	local function var_28_2()
+		var_28_1:each(function(arg_30_0, arg_30_1)
+			local var_30_0 = var_28_0[arg_30_0 + 1]
 
-			if var_32_0 == ChatConst.ChannelGuild and not arg_30_0.inGuild then
-				setButtonEnabled(arg_32_1, false)
+			if var_30_0 == ChatConst.ChannelGuild and not arg_28_0.inGuild then
+				setButtonEnabled(arg_30_1, false)
 			end
 
-			local var_32_1 = var_0_0.ChannelBits.send == var_32_0
+			local var_30_1 = var_0_0.ChannelBits.send == var_30_0
 
-			if var_32_1 then
-				setImageSprite(arg_32_1:Find("bottom"), arg_30_0.bottomChannelSelectedSprite, true)
+			if var_30_1 then
+				setImageSprite(arg_30_1:Find("bottom"), arg_28_0.bottomChannelSelectedSprite, true)
 			else
-				setImageSprite(arg_32_1:Find("bottom"), arg_30_0.bottomChannelNormalSprite, true)
+				setImageSprite(arg_30_1:Find("bottom"), arg_28_0.bottomChannelNormalSprite, true)
 			end
 
-			setActive(arg_32_1:Find("selected"), var_32_1)
-			setActive(arg_32_1:Find("text"), not var_32_1)
+			setActive(arg_30_1:Find("selected"), var_30_1)
+			setActive(arg_30_1:Find("text"), not var_30_1)
 		end)
 	end
 
-	var_30_1:make(function(arg_33_0, arg_33_1, arg_33_2)
-		if arg_33_0 == UIItemList.EventUpdate then
-			local var_33_0 = var_30_0[arg_33_1 + 1]
+	var_28_1:make(function(arg_31_0, arg_31_1, arg_31_2)
+		if arg_31_0 == UIItemList.EventUpdate then
+			local var_31_0 = var_28_0[arg_31_1 + 1]
 
-			setImageSprite(arg_33_2:Find("text"), arg_30_0.bottomChannelTextSprites[var_33_0], true)
-			setImageSprite(arg_33_2:Find("selected"), arg_30_0.bottomChannelTextSprites[var_33_0], true)
-			onButton(arg_30_0, arg_33_2, function()
-				setActive(arg_30_0.channelSendPop, false)
+			setImageSprite(arg_31_2:Find("text"), arg_28_0.bottomChannelTextSprites[var_31_0], true)
+			setImageSprite(arg_31_2:Find("selected"), arg_28_0.bottomChannelTextSprites[var_31_0], true)
+			onButton(arg_28_0, arg_31_2, function()
+				setActive(arg_28_0.channelSendPop, false)
 
-				var_0_0.ChannelBits.send = var_33_0
+				var_0_0.ChannelBits.send = var_31_0
 
-				var_30_2()
-				arg_30_0:updateChatChannel()
+				var_28_2()
+				arg_28_0:updateChatChannel()
 			end, SFX_UI_TAG)
 		end
 	end)
-	var_30_1:align(#var_30_0)
-	var_30_2()
+	var_28_1:align(#var_28_0)
+	var_28_2()
 end
 
-function var_0_0.updateRoom(arg_35_0)
-	setText(arg_35_0.enterRoomTip:Find("text"), i18n("main_notificationLayer_enter_room", arg_35_0.player.chatRoomId == 0 and "" or arg_35_0.player.chatRoomId))
-	setText(arg_35_0:findTF("Text", arg_35_0.roomBtn), arg_35_0.player.chatRoomId == 0 and i18n("common_not_enter_room") or arg_35_0.player.chatRoomId)
-	arg_35_0:showEnterRommTip()
+function var_0_0.updateRoom(arg_33_0)
+	setText(arg_33_0.enterRoomTip:Find("text"), i18n("main_notificationLayer_enter_room", arg_33_0.player.chatRoomId == 0 and "" or arg_33_0.player.chatRoomId))
+	setText(arg_33_0:findTF("Text", arg_33_0.roomBtn), arg_33_0.player.chatRoomId == 0 and i18n("common_not_enter_room") or arg_33_0.player.chatRoomId)
+	arg_33_0:showEnterRommTip()
 end
 
-function var_0_0.showChangeRoomPanel(arg_36_0)
-	arg_36_0:UnblurPanel()
-	pg.UIMgr.GetInstance():BlurPanel(arg_36_0.changeRoomPanel)
+function var_0_0.showChangeRoomPanel(arg_34_0)
+	pg.UIMgr.GetInstance():BlurPanel(arg_34_0.changeRoomPanel)
 
-	arg_36_0.inputTF.text = tostring(arg_36_0.player.chatRoomId)
-	arg_36_0.tempRoomSendBits = var_0_0.ChannelBits.send
+	arg_34_0.inputTF.text = tostring(arg_34_0.player.chatRoomId)
+	arg_34_0.tempRoomSendBits = var_0_0.ChannelBits.send
 
-	local var_36_0 = ChatConst.SendChannels
-	local var_36_1 = UIItemList.New(arg_36_0.roomSendBtns, arg_36_0.switchTpl)
+	local var_34_0 = ChatConst.SendChannels
+	local var_34_1 = UIItemList.New(arg_34_0.roomSendBtns, arg_34_0.switchTpl)
 
-	local function var_36_2()
-		var_36_1:each(function(arg_38_0, arg_38_1)
-			local var_38_0 = var_36_0[arg_38_0 + 1]
+	local function var_34_2()
+		var_34_1:each(function(arg_36_0, arg_36_1)
+			local var_36_0 = var_34_0[arg_36_0 + 1]
 
-			if var_38_0 == ChatConst.ChannelGuild and not arg_36_0.inGuild then
-				setButtonEnabled(arg_38_1, false)
+			if var_36_0 == ChatConst.ChannelGuild and not arg_34_0.inGuild then
+				setButtonEnabled(arg_36_1, false)
 			end
 
-			if arg_36_0.tempRoomSendBits == var_38_0 then
-				setImageSprite(arg_38_1, arg_36_0.switchSelectedSprite)
+			if arg_34_0.tempRoomSendBits == var_36_0 then
+				setImageSprite(arg_36_1, arg_34_0.switchSelectedSprite)
 			else
-				setImageSprite(arg_38_1, arg_36_0.switchNormalSprite)
+				setImageSprite(arg_36_1, arg_34_0.switchNormalSprite)
 			end
 		end)
 	end
 
-	var_36_1:make(function(arg_39_0, arg_39_1, arg_39_2)
-		if arg_39_0 == UIItemList.EventUpdate then
-			local var_39_0 = var_36_0[arg_39_1 + 1]
+	var_34_1:make(function(arg_37_0, arg_37_1, arg_37_2)
+		if arg_37_0 == UIItemList.EventUpdate then
+			local var_37_0 = var_34_0[arg_37_1 + 1]
 
-			setImageSprite(arg_39_2:Find("text"), arg_36_0.switchTextSprites[var_39_0], true)
-			onButton(arg_36_0, arg_39_2, function()
-				arg_36_0.tempRoomSendBits = var_39_0
+			setImageSprite(arg_37_2:Find("text"), arg_34_0.switchTextSprites[var_37_0], true)
+			onButton(arg_34_0, arg_37_2, function()
+				arg_34_0.tempRoomSendBits = var_37_0
 
-				var_36_2()
+				var_34_2()
 			end, SFX_UI_TAG)
 		end
 	end)
-	var_36_1:align(#var_36_0)
-	var_36_2()
+	var_34_1:align(#var_34_0)
+	var_34_2()
 
-	arg_36_0.tempRoomRecvBits = var_0_0.ChannelBits.recv
+	arg_34_0.tempRoomRecvBits = var_0_0.ChannelBits.recv
 
-	local var_36_3 = ChatConst.RecvChannels
-	local var_36_4 = UIItemList.New(arg_36_0.roomRecvBtns, arg_36_0.switchTpl)
+	local var_34_3 = ChatConst.RecvChannels
+	local var_34_4 = UIItemList.New(arg_34_0.roomRecvBtns, arg_34_0.switchTpl)
 
-	local function var_36_5()
-		var_36_4:each(function(arg_42_0, arg_42_1)
-			local var_42_0 = var_36_3[arg_42_0 + 1]
+	local function var_34_5()
+		var_34_4:each(function(arg_40_0, arg_40_1)
+			local var_40_0 = var_34_3[arg_40_0 + 1]
 
-			if var_42_0 == ChatConst.ChannelGuild and not arg_36_0.inGuild then
-				setButtonEnabled(arg_42_1, false)
+			if var_40_0 == ChatConst.ChannelGuild and not arg_34_0.inGuild then
+				setButtonEnabled(arg_40_1, false)
 			end
 
-			if bit.band(arg_36_0.tempRoomRecvBits, bit.lshift(1, var_42_0)) > 0 then
-				setImageSprite(arg_42_1, arg_36_0.switchSelectedSprite)
+			if bit.band(arg_34_0.tempRoomRecvBits, bit.lshift(1, var_40_0)) > 0 then
+				setImageSprite(arg_40_1, arg_34_0.switchSelectedSprite)
 			else
-				setImageSprite(arg_42_1, arg_36_0.switchNormalSprite)
+				setImageSprite(arg_40_1, arg_34_0.switchNormalSprite)
 			end
 		end)
 	end
 
-	var_36_4:make(function(arg_43_0, arg_43_1, arg_43_2)
-		if arg_43_0 == UIItemList.EventUpdate then
-			local var_43_0 = var_36_3[arg_43_1 + 1]
+	var_34_4:make(function(arg_41_0, arg_41_1, arg_41_2)
+		if arg_41_0 == UIItemList.EventUpdate then
+			local var_41_0 = var_34_3[arg_41_1 + 1]
 
-			setImageSprite(arg_43_2:Find("text"), arg_36_0.switchTextSprites[var_43_0], true)
-			onButton(arg_36_0, arg_43_2, function()
-				local var_44_0 = _.filter(var_36_3, function(arg_45_0)
-					return arg_45_0 ~= ChatConst.ChannelGuild or arg_36_0.inGuild
+			setImageSprite(arg_41_2:Find("text"), arg_34_0.switchTextSprites[var_41_0], true)
+			onButton(arg_34_0, arg_41_2, function()
+				local var_42_0 = _.filter(var_34_3, function(arg_43_0)
+					return arg_43_0 ~= ChatConst.ChannelGuild or arg_34_0.inGuild
 				end)
 
-				arg_36_0.tempRoomRecvBits = IndexConst.ToggleBits(arg_36_0.tempRoomRecvBits, var_44_0, ChatConst.ChannelAll, var_43_0)
+				arg_34_0.tempRoomRecvBits = IndexConst.ToggleBits(arg_34_0.tempRoomRecvBits, var_42_0, ChatConst.ChannelAll, var_41_0)
 
-				var_36_5()
+				var_34_5()
 			end, SFX_UI_TAG)
 		end
 	end)
-	var_36_4:align(#var_36_3)
-	var_36_5()
-	setActive(arg_36_0.changeRoomPanel, true)
+	var_34_4:align(#var_34_3)
+	var_34_5()
+	setActive(arg_34_0.changeRoomPanel, true)
 end
 
-function var_0_0.closeChangeRoomPanel(arg_46_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_46_0.changeRoomPanel, arg_46_0._tf)
-
-	if arg_46_0.currentForm == var_0_0.FORM_BATTLE then
-		arg_46_0._tf:SetParent(arg_46_0.contextData.chatViewParent, true)
-
-		rtf(arg_46_0.frame.transform).offsetMax = Vector2(0, -120)
-	else
-		arg_46_0:BlurPanel()
-	end
-
-	setActive(arg_46_0.changeRoomPanel, false)
+function var_0_0.closeChangeRoomPanel(arg_44_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_44_0.changeRoomPanel, arg_44_0._tf)
+	setActive(arg_44_0.changeRoomPanel, false)
 end
 
-function var_0_0.removeAllBubble(arg_47_0)
-	for iter_47_0, iter_47_1 in ipairs(arg_47_0.bubbleCards or {}) do
-		setActive(iter_47_1.tf, false)
+function var_0_0.removeAllBubble(arg_45_0)
+	for iter_45_0, iter_45_1 in ipairs(arg_45_0.bubbleCards or {}) do
+		setActive(iter_45_1.tf, false)
 
-		local var_47_0 = arg_47_0.poolBubble.others
+		local var_45_0 = arg_45_0.poolBubble.others
 
-		if iter_47_1.__cname == "ChatBubblePublic" then
-			var_47_0 = arg_47_0.poolBubble.public
-		elseif iter_47_1.__cname == "ChatBubble" and iter_47_1.data.player and iter_47_1.data.player.id == arg_47_0.player.id then
-			var_47_0 = arg_47_0.poolBubble.self
+		if iter_45_1.__cname == "ChatBubblePublic" then
+			var_45_0 = arg_45_0.poolBubble.public
+		elseif iter_45_1.__cname == "ChatBubble" and iter_45_1.data.player and iter_45_1.data.player.id == arg_45_0.player.id then
+			var_45_0 = arg_45_0.poolBubble.self
 		end
 
-		iter_47_1:dispose()
-		table.insert(var_47_0, iter_47_1)
+		iter_45_1:dispose()
+		table.insert(var_45_0, iter_45_1)
 	end
 
-	arg_47_0.bubbleCards = {}
+	arg_45_0.bubbleCards = {}
 
-	for iter_47_2, iter_47_3 in pairs(arg_47_0.worldBossCards) do
-		if not IsNil(iter_47_3.tf) then
-			Destroy(iter_47_3.tf)
+	for iter_45_2, iter_45_3 in pairs(arg_45_0.worldBossCards) do
+		if not IsNil(iter_45_3.tf) then
+			Destroy(iter_45_3.tf)
 		end
 	end
 
-	arg_47_0.worldBossCards = {}
+	arg_45_0.worldBossCards = {}
 end
 
-function var_0_0.updateAll(arg_48_0)
-	arg_48_0:removeAllBubble()
+function var_0_0.updateAll(arg_46_0)
+	arg_46_0:removeAllBubble()
 
-	arg_48_0.index = math.max(1, #arg_48_0.filteredMessages - var_0_0.InitCount)
+	arg_46_0.index = math.max(1, #arg_46_0.filteredMessages - var_0_0.InitCount)
 
-	for iter_48_0 = arg_48_0.index, #arg_48_0.filteredMessages do
-		arg_48_0:append(arg_48_0.filteredMessages[iter_48_0], -1)
+	for iter_46_0 = arg_46_0.index, #arg_46_0.filteredMessages do
+		arg_46_0:append(arg_46_0.filteredMessages[iter_46_0], -1)
 	end
 
-	scrollToBottom(arg_48_0.content.parent)
-	setActive(arg_48_0.emptySign, PLATFORM_CODE == PLATFORM_JP and #arg_48_0.filteredMessages <= 0)
+	scrollToBottom(arg_46_0.content.parent)
+	setActive(arg_46_0.emptySign, PLATFORM_CODE == PLATFORM_JP and #arg_46_0.filteredMessages <= 0)
 end
 
-function var_0_0.append(arg_49_0, arg_49_1, arg_49_2, arg_49_3)
-	if #arg_49_0.filteredMessages >= var_0_0.MaxCount * 2 then
-		arg_49_0:updateFilter()
-		arg_49_0:updateAll()
+function var_0_0.append(arg_47_0, arg_47_1, arg_47_2, arg_47_3)
+	if #arg_47_0.filteredMessages >= var_0_0.MaxCount * 2 then
+		arg_47_0:updateFilter()
+		arg_47_0:updateAll()
 	else
-		arg_49_3 = arg_49_3 and arg_49_0.scroll.normalizedPosition.y < 0.1
+		arg_47_3 = arg_47_3 and arg_47_0.scroll.normalizedPosition.y < 0.1
 
-		if arg_49_1.type == ChatConst.ChannelPublic then
-			if arg_49_1.id == 0 then
-				arg_49_0:appendTopPublic(arg_49_1)
+		if arg_47_1.type == ChatConst.ChannelPublic then
+			if arg_47_1.id == 0 then
+				arg_47_0:appendTopPublic(arg_47_1)
 			else
-				arg_49_0:appendPublic(arg_49_1, arg_49_2)
+				arg_47_0:appendPublic(arg_47_1, arg_47_2)
 			end
-		elseif arg_49_1:IsWorldBossNotify() then
-			arg_49_0:appendPublic(arg_49_1, arg_49_2)
+		elseif arg_47_1:IsWorldBossNotify() then
+			arg_47_0:appendPublic(arg_47_1, arg_47_2)
 		else
-			arg_49_0:appendOthers(arg_49_1, arg_49_2)
+			arg_47_0:appendOthers(arg_47_1, arg_47_2)
 		end
 
-		if arg_49_3 then
-			scrollToBottom(arg_49_0.content.parent)
+		if arg_47_3 then
+			scrollToBottom(arg_47_0.content.parent)
 		end
 	end
 
-	setActive(arg_49_0.emptySign, PLATFORM_CODE == PLATFORM_JP and #arg_49_0.filteredMessages <= 0)
+	setActive(arg_47_0.emptySign, PLATFORM_CODE == PLATFORM_JP and #arg_47_0.filteredMessages <= 0)
 end
 
-function var_0_0.appendOthers(arg_50_0, arg_50_1, arg_50_2)
-	local var_50_0 = arg_50_1.player
-	local var_50_1 = arg_50_0.poolBubble.others
-	local var_50_2 = arg_50_0.prefabOthers
+function var_0_0.appendOthers(arg_48_0, arg_48_1, arg_48_2)
+	local var_48_0 = arg_48_1.player
+	local var_48_1 = arg_48_0.poolBubble.others
+	local var_48_2 = arg_48_0.prefabOthers
 
-	if var_50_0.id == arg_50_0.player.id then
-		var_50_1 = arg_50_0.poolBubble.self
-		var_50_2 = arg_50_0.prefabSelf
-		arg_50_1.isSelf = true
-		arg_50_1.player = setmetatable(Clone(arg_50_0.player), {
-			__index = arg_50_1.player.__index
+	if var_48_0.id == arg_48_0.player.id then
+		var_48_1 = arg_48_0.poolBubble.self
+		var_48_2 = arg_48_0.prefabSelf
+		arg_48_1.isSelf = true
+		arg_48_1.player = setmetatable(Clone(arg_48_0.player), {
+			__index = arg_48_1.player.__index
 		})
 	end
 
-	local var_50_3
+	local var_48_3
 
-	if #var_50_1 > 0 then
-		var_50_3 = var_50_1[1]
+	if #var_48_1 > 0 then
+		var_48_3 = var_48_1[1]
 
-		setActive(var_50_3.tf, true)
-		table.remove(var_50_1, 1)
+		setActive(var_48_3.tf, true)
+		table.remove(var_48_1, 1)
 	else
-		local var_50_4 = cloneTplTo(var_50_2, arg_50_0.content)
+		local var_48_4 = cloneTplTo(var_48_2, arg_48_0.content)
 
-		var_50_3 = ChatBubble.New(var_50_4)
+		var_48_3 = ChatBubble.New(var_48_4)
 	end
 
-	var_50_3.tf:SetSiblingIndex(arg_50_2)
-	table.insert(arg_50_0.bubbleCards, var_50_3)
-	var_50_3:update(arg_50_1)
-	removeOnButton(var_50_3.headTF)
-	onButton(arg_50_0, var_50_3.headTF, function()
-		local var_51_0 = arg_50_0:findTF("shipicon/icon", var_50_3.tf).position
+	var_48_3.tf:SetSiblingIndex(arg_48_2)
+	table.insert(arg_48_0.bubbleCards, var_48_3)
+	var_48_3:update(arg_48_1)
+	removeOnButton(var_48_3.headTF)
+	onButton(arg_48_0, var_48_3.headTF, function()
+		local var_49_0 = arg_48_0:findTF("shipicon/icon", var_48_3.tf).position
 
-		arg_50_0:emit(NotificationMediator.OPEN_INFO, var_50_0, var_51_0, arg_50_1.content)
+		arg_48_0:emit(NotificationMediator.OPEN_INFO, var_48_0, var_49_0, arg_48_1.content)
 	end, SFX_PANEL)
 end
 
-function var_0_0.appendPublic(arg_52_0, arg_52_1, arg_52_2)
-	local var_52_0
+function var_0_0.appendPublic(arg_50_0, arg_50_1, arg_50_2)
+	local var_50_0
 
-	if arg_52_1.id == 4 then
-		local var_52_1 = WorldBossConst.__IsCurrBoss(arg_52_1.args.wordBossConfigId) and arg_52_0.prefabWorldBoss or arg_52_0.prefabWorldBossArchives
-		local var_52_2 = cloneTplTo(var_52_1, arg_52_0.content)
+	if arg_50_1.id == 4 then
+		local var_50_1 = WorldBossConst.__IsCurrBoss(arg_50_1.args.wordBossConfigId) and arg_50_0.prefabWorldBoss or arg_50_0.prefabWorldBossArchives
+		local var_50_2 = cloneTplTo(var_50_1, arg_50_0.content)
 
-		var_52_0 = ChatBubbleWorldBoss.New(var_52_2, arg_52_0.currentForm ~= var_0_0.FORM_BATTLE)
+		var_50_0 = ChatBubbleWorldBoss.New(var_50_2, arg_50_0.currentForm ~= var_0_0.FORM_BATTLE)
 
-		table.insert(arg_52_0.worldBossCards, var_52_0)
+		table.insert(arg_50_0.worldBossCards, var_50_0)
 	else
-		local var_52_3 = arg_52_0.poolBubble.public
+		local var_50_3 = arg_50_0.poolBubble.public
 
-		if #var_52_3 > 0 then
-			var_52_0 = var_52_3[1]
+		if #var_50_3 > 0 then
+			var_50_0 = var_50_3[1]
 
-			setActive(var_52_0.tf, true)
-			table.remove(var_52_3, 1)
+			setActive(var_50_0.tf, true)
+			table.remove(var_50_3, 1)
 		else
-			local var_52_4 = cloneTplTo(arg_52_0.prefabPublic, arg_52_0.content)
+			local var_50_4 = cloneTplTo(arg_50_0.prefabPublic, arg_50_0.content)
 
-			var_52_0 = ChatBubblePublic.New(var_52_4)
+			var_50_0 = ChatBubblePublic.New(var_50_4)
 		end
 
-		table.insert(arg_52_0.bubbleCards, var_52_0)
+		table.insert(arg_50_0.bubbleCards, var_50_0)
 	end
 
-	var_52_0.tf:SetSiblingIndex(arg_52_2)
-	var_52_0:update(arg_52_1)
+	var_50_0.tf:SetSiblingIndex(arg_50_2)
+	var_50_0:update(arg_50_1)
 end
 
-function var_0_0.appendTopPublic(arg_53_0, arg_53_1)
-	local var_53_0 = 120 - (pg.TimeMgr.GetInstance():GetServerTime() - arg_53_1.timestamp)
+function var_0_0.appendTopPublic(arg_51_0, arg_51_1)
+	local var_51_0 = 120 - (pg.TimeMgr.GetInstance():GetServerTime() - arg_51_1.timestamp)
 
-	if var_53_0 <= 0 then
+	if var_51_0 <= 0 then
 		return
 	end
 
-	SetActive(arg_53_0.topMsg, true)
-	ChatProxy.InjectPublic(findTF(arg_53_0.topPublic, "text"):GetComponent("RichText"), arg_53_1)
+	SetActive(arg_51_0.topMsg, true)
+	ChatProxy.InjectPublic(findTF(arg_51_0.topPublic, "text"):GetComponent("RichText"), arg_51_1)
 
-	findTF(arg_53_0.topPublic, "channel"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(arg_53_1.type) .. "_1920")
+	findTF(arg_51_0.topPublic, "channel"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(arg_51_1.type) .. "_1920")
 
-	if arg_53_0._topTimer then
-		arg_53_0._topTimer:Stop()
+	if arg_51_0._topTimer then
+		arg_51_0._topTimer:Stop()
 
-		arg_53_0._topTimer = nil
+		arg_51_0._topTimer = nil
 	end
 
-	arg_53_0._topTimer = Timer.New(function()
-		SetActive(arg_53_0.topMsg, false)
+	arg_51_0._topTimer = Timer.New(function()
+		SetActive(arg_51_0.topMsg, false)
 
-		arg_53_0._topTimer = nil
-	end, var_53_0, 1)
+		arg_51_0._topTimer = nil
+	end, var_51_0, 1)
 
-	arg_53_0._topTimer:Start()
+	arg_51_0._topTimer:Start()
 end
 
-function var_0_0.showEnterRommTip(arg_55_0)
-	if arg_55_0.player.chatRoomId == 0 then
+function var_0_0.showEnterRommTip(arg_53_0)
+	if arg_53_0.player.chatRoomId == 0 then
 		return
 	end
 
-	if not LeanTween.isTweening(go(arg_55_0.enterRoomTip)) then
-		LeanTween.value(go(arg_55_0.enterRoomTip), 1, 0, 2):setOnUpdate(System.Action_float(function(arg_56_0)
-			arg_55_0.enterRoomCG.alpha = arg_56_0
+	if not LeanTween.isTweening(go(arg_53_0.enterRoomTip)) then
+		LeanTween.value(go(arg_53_0.enterRoomTip), 1, 0, 2):setOnUpdate(System.Action_float(function(arg_54_0)
+			arg_53_0.enterRoomCG.alpha = arg_54_0
 		end)):setEase(LeanTweenType.easeInSine):setOnComplete(System.Action(function()
-			arg_55_0.enterRoomCG.alpha = 0
+			arg_53_0.enterRoomCG.alpha = 0
 
-			LeanTween.cancel(go(arg_55_0.enterRoomTip))
+			LeanTween.cancel(go(arg_53_0.enterRoomTip))
 		end)):setDelay(0.5)
 	end
 end
 
-function var_0_0.getPos(arg_58_0, arg_58_1)
+function var_0_0.getPos(arg_56_0, arg_56_1)
 	return
 end
 
-function var_0_0.displayEmojiPanel(arg_59_0)
-	local var_59_0 = arg_59_0.emoji.position
+function var_0_0.displayEmojiPanel(arg_57_0)
+	local var_57_0 = arg_57_0.emoji.position
 
-	arg_59_0:emit(NotificationMediator.OPEN_EMOJI, function(arg_60_0)
-		arg_59_0:emit(NotificationMediator.ON_SEND_PUBLIC, var_0_0.ChannelBits.send, string.gsub(ChatConst.EmojiCode, "code", arg_60_0))
-	end, Vector3(var_59_0.x, var_59_0.y, 0))
+	arg_57_0:emit(NotificationMediator.OPEN_EMOJI, function(arg_58_0)
+		arg_57_0:emit(NotificationMediator.ON_SEND_PUBLIC, var_0_0.ChannelBits.send, string.gsub(ChatConst.EmojiCode, "code", arg_58_0))
+	end, Vector3(var_57_0.x, var_57_0.y, 0))
 end
 
-function var_0_0.willExit(arg_61_0)
-	if arg_61_0.currentForm == var_0_0.FORM_BATTLE then
-		if isActive(arg_61_0.changeRoomPanel) then
-			arg_61_0:closeChangeRoomPanel()
-		end
-	else
-		arg_61_0:UnblurPanel()
+function var_0_0.willExit(arg_59_0)
+	if isActive(arg_59_0.changeRoomPanel) then
+		arg_59_0:closeChangeRoomPanel()
 	end
 
-	LeanTween.cancel(arg_61_0._go)
-	LeanTween.cancel(go(arg_61_0.enterRoomTip))
+	arg_59_0:UnOverlayPanel(arg_59_0._tf)
+	LeanTween.cancel(arg_59_0._go)
+	LeanTween.cancel(go(arg_59_0.enterRoomTip))
 
-	if arg_61_0._topTimer then
-		arg_61_0._topTimer:Stop()
+	if arg_59_0._topTimer then
+		arg_59_0._topTimer:Stop()
 
-		arg_61_0._topTimer = nil
+		arg_59_0._topTimer = nil
 	end
 
-	for iter_61_0, iter_61_1 in ipairs(arg_61_0.bubbleCards or {}) do
-		iter_61_1:dispose()
+	for iter_59_0, iter_59_1 in ipairs(arg_59_0.bubbleCards or {}) do
+		iter_59_1:dispose()
 	end
 
-	for iter_61_2, iter_61_3 in ipairs(arg_61_0.worldBossCards or {}) do
-		iter_61_3:dispose()
+	for iter_59_2, iter_59_3 in ipairs(arg_59_0.worldBossCards or {}) do
+		iter_59_3:dispose()
 	end
 
-	arg_61_0.worldBossCards = nil
+	arg_59_0.worldBossCards = nil
 
-	for iter_61_4, iter_61_5 in pairs(arg_61_0.poolBubble) do
-		for iter_61_6, iter_61_7 in ipairs(iter_61_5) do
-			iter_61_7:dispose()
+	for iter_59_4, iter_59_5 in pairs(arg_59_0.poolBubble) do
+		for iter_59_6, iter_59_7 in ipairs(iter_59_5) do
+			iter_59_7:dispose()
 		end
 	end
 
-	arg_61_0:removeLateUpdateListener()
+	arg_59_0:removeLateUpdateListener()
 	getProxy(GuildProxy):ClearNewChatMsgCnt()
 end
 
-function var_0_0.insertEmojiToInputText(arg_62_0, arg_62_1)
-	arg_62_0.input.text = arg_62_0.input.text .. string.gsub(ChatConst.EmojiIconCode, "code", arg_62_1)
+function var_0_0.insertEmojiToInputText(arg_60_0, arg_60_1)
+	arg_60_0.input.text = arg_60_0.input.text .. string.gsub(ChatConst.EmojiIconCode, "code", arg_60_1)
 end
 
-function var_0_0.addLateUpdateListener(arg_63_0)
+function var_0_0.addLateUpdateListener(arg_61_0)
 	return
 end
 
-function var_0_0.removeLateUpdateListener(arg_64_0)
+function var_0_0.removeLateUpdateListener(arg_62_0)
 	return
 end
 

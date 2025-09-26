@@ -54,8 +54,7 @@ function var_0_0.register(arg_1_0)
 			mediator = NotificationMediator,
 			viewComponent = NotificationLayer,
 			data = {
-				form = NotificationLayer.FORM_BATTLE,
-				chatViewParent = arg_6_1
+				form = NotificationLayer.FORM_BATTLE
 			}
 		}))
 	end)

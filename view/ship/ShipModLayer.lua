@@ -21,7 +21,7 @@ function var_0_0.init(arg_4_0)
 	arg_4_0.shipContainer = arg_4_0:findTF("bg/add_ship_panel/ships", arg_4_0.mainPanel)
 	arg_4_0.attrsPanel = arg_4_0:findTF("bg/property_panel/attrs", arg_4_0.mainPanel)
 
-	setText(arg_4_0:findTF("bg/add_ship_panel/title/tip", arg_4_0.mainPanel), i18n("ship_mod_exp_ShipFashionView:90:to_attr_tip"))
+	setText(arg_4_0:findTF("bg/add_ship_panel/title/tip", arg_4_0.mainPanel), i18n("ship_mod_exp_to_attr_tip"))
 end
 
 function var_0_0.didEnter(arg_5_0)
@@ -78,7 +78,8 @@ function var_0_0.blurPanel(arg_10_0, arg_10_1)
 		arg_10_0:OverlayPanel(arg_10_0.blurPanelTF, {
 			pbList = {
 				arg_10_0.mainPanel:Find("bg")
-			}
+			},
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
 		arg_10_0:UnOverlayPanel(arg_10_0.blurPanelTF, arg_10_0._tf)

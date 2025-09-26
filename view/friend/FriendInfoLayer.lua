@@ -24,11 +24,7 @@ function var_0_0.GetBtnTags(arg_4_0)
 end
 
 function var_0_0.init(arg_5_0)
-	if arg_5_0.contextData.form == NotificationLayer.FORM_BATTLE then
-		setParent(arg_5_0._tf, arg_5_0.contextData.parent)
-	else
-		arg_5_0:OverlayPanel(arg_5_0._tf)
-	end
+	arg_5_0:OverlayPanel(arg_5_0._tf)
 
 	arg_5_0.frame = arg_5_0:findTF("frame")
 	arg_5_0.iconTF = arg_5_0:findTF("frame/left_bg/icon_bg/frame/icon"):GetComponent(typeof(Image))
@@ -126,11 +122,6 @@ function var_0_0.Init(arg_8_0)
 
 	if arg_8_0.contextData.form == NotificationLayer.FORM_BATTLE then
 		setActive(arg_8_0.btnTFs[3], false)
-
-		local var_8_3 = arg_8_0:findTF("frame")
-		local var_8_4 = var_8_3.sizeDelta
-
-		var_8_3.sizeDelta = Vector2(var_8_4.x, var_8_4.y - 66.7)
 	end
 
 	setActive(arg_8_0:findTF("frame/left_bg", false))

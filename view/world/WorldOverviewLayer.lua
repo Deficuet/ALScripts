@@ -73,9 +73,7 @@ function var_0_0.init(arg_3_0)
 			arg_3_0:closeView()
 		end
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, {
-		blurLevelCamera = true
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.didEnter(arg_8_0)

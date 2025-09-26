@@ -141,8 +141,8 @@ function var_0_0.register(arg_1_0)
 	end)
 	arg_1_0:bind(var_0_0.OPEN_CHATVIEW, function(arg_18_0)
 		arg_1_0:addSubLayers(Context.New({
-			mediator = NotificationMediator,
 			viewComponent = NotificationLayer,
+			mediator = NotificationMediator,
 			data = {
 				form = NotificationLayer.FORM_MAIN
 			}

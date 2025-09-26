@@ -18,7 +18,8 @@ function var_0_0.OnInit(arg_3_0)
 	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0._tf, {
 		pbList = {
 			arg_3_0.blurBg
-		}
+		},
+		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 	})
 
 	arg_3_0.items = {}

@@ -331,7 +331,7 @@ function var_0_0.didEnter(arg_11_0)
 	onButton(arg_11_0, arg_11_0.btnPhantom, function()
 		arg_11_0:emit(ShipBluePrintMediator.OPEN_PHANTOM_LAYER, arg_11_0.version)
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_11_0.blurPanel, {
+	arg_11_0:OverlayPanel(arg_11_0.blurPanel, {
 		pbList = {
 			arg_11_0.rightPanel:Find("task_list"),
 			arg_11_0.rightPanel:Find("mod_panel"),
@@ -2305,7 +2305,6 @@ function var_0_0.openPreView(arg_165_0)
 
 	if var_165_0 then
 		setActive(arg_165_0.preViewer, true)
-		setParent(arg_165_0.blurPanel, arg_165_0._tf)
 		pg.UIMgr.GetInstance():BlurPanel(arg_165_0.preViewer)
 		arg_165_0:playLoadingAni()
 
@@ -2389,11 +2388,6 @@ function var_0_0.closePreview(arg_168_0, arg_168_1)
 
 	setActive(arg_168_0.preViewer, false)
 	setActive(arg_168_0.rawImage, false)
-
-	if not arg_168_1 then
-		SetParent(arg_168_0.blurPanel, pg.UIMgr.GetInstance().OverlayMain)
-	end
-
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_168_0.preViewer, arg_168_0._tf)
 
 	arg_168_0.isShowPreview = nil
@@ -2518,7 +2512,7 @@ function var_0_0.willExit(arg_181_0)
 		setActive(arg_181_0.unlockPanel, false)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_181_0.blurPanel, arg_181_0._tf)
+	arg_181_0:UnOverlayPanel(arg_181_0.blurPanel, arg_181_0._tf)
 	LeanTween.cancel(go(arg_181_0.fittingAttrPanel))
 
 	if arg_181_0.lastPaintingName then

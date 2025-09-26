@@ -14,6 +14,7 @@ end
 
 function var_0_0.ResUISettings(arg_3_0)
 	return {
+		groupDelta = 1,
 		showType = PlayerResUI.TYPE_ALL
 	}
 end
@@ -2183,7 +2184,6 @@ function var_0_0.switchToChapter(arg_172_0, arg_172_1)
 						pg.UIMgr.CameraUI
 					}
 				})
-				arg_172_0:ShowOrHideResUI(true)
 				arg_172_0.levelStageView:updateStageInfo()
 				arg_172_0.levelStageView:updateAmbushRate(arg_172_1.fleet.line, true)
 				arg_172_0.levelStageView:updateStageAchieve()
@@ -2390,7 +2390,6 @@ function var_0_0.switchToMap(arg_190_0, arg_190_1)
 		end
 	})
 	arg_190_0:UnOverlayPanel(arg_190_0.topPanel, arg_190_0._tf)
-	arg_190_0:ShowOrHideResUI(false)
 
 	arg_190_0.canvasGroup.blocksRaycasts = arg_190_0.frozenCount == 0
 	arg_190_0.canvasGroup.interactable = true
@@ -3730,7 +3729,6 @@ function var_0_0.willExit(arg_318_0)
 
 	if arg_318_0.contextData.chapterVO then
 		arg_318_0:UnOverlayPanel(arg_318_0.topPanel, arg_318_0._tf)
-		arg_318_0:ShowOrHideResUI(false)
 	end
 
 	if arg_318_0.levelFleetView and arg_318_0.levelFleetView.selectIds then

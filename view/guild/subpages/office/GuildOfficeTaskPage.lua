@@ -41,7 +41,8 @@ function var_0_0.OnInit(arg_3_0)
 	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0.taskTF, {
 		pbList = {
 			arg_3_0.taskTF
-		}
+		},
+		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 	})
 	onButton(arg_3_0, arg_3_0.supplyUnOpenAdminTF, function()
 		local var_4_0 = arg_3_0.guild:getSupplyConsume()

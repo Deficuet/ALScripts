@@ -2991,7 +2991,7 @@ pg.base.dorm3d_collection_template = {
 		}
 	},
 	[1205] = {
-		text = "dorm3d_dafeng_chair",
+		text = "dorm3d_dafeng_bed",
 		name = "景观盆栽",
 		award = 0,
 		time = 0,

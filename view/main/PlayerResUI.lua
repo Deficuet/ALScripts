@@ -172,7 +172,8 @@ function var_0_0.CustomSetting(arg_17_0, arg_17_1)
 	arg_17_0.oilAddBtn.anchoredPosition3D = Vector3(arg_17_0.oilPos.x + var_17_1, arg_17_0.oilPos.y, 1)
 
 	pg.UIMgr.GetInstance():OverlayPanel(arg_17_0._tf, {
-		groupName = arg_17_1.groupName
+		groupName = arg_17_1.groupName,
+		groupDelta = arg_17_1.groupDelta
 	})
 end
 

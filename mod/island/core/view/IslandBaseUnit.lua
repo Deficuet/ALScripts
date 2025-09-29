@@ -67,6 +67,10 @@ function var_0_0.Reset(arg_12_0)
 end
 
 function var_0_0.Dispose(arg_13_0)
+	if arg_13_0.__state == var_0_3 then
+		return
+	end
+
 	pg.DelegateInfo.Dispose(arg_13_0)
 
 	if arg_13_0:IsLoaded() then

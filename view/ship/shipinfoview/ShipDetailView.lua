@@ -20,6 +20,7 @@ function var_0_0.OnInit(arg_2_0)
 	arg_2_0:InitEvent()
 	setParent(arg_2_0.randomFlagToggle, arg_2_0._tf.parent)
 	setActive(arg_2_0.randomFlagToggle, true)
+	triggerToggle(arg_2_0.showQuickBtn, false)
 end
 
 function var_0_0.InitDetail(arg_3_0)

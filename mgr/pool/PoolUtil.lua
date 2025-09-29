@@ -8,6 +8,10 @@ function var_0_0.Destroy(arg_1_0)
 
 	if var_1_0 and not var_1_1 then
 		Object.Destroy(arg_1_0)
+
+		return true
+	else
+		return false
 	end
 end
 

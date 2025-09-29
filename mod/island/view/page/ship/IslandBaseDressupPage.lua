@@ -58,7 +58,7 @@ function var_0_0.ActivityCharacterCamera(arg_10_0)
 end
 
 function var_0_0.GetActiveCamName(arg_11_0)
-	return IslandConst.CHARA_CAMERA_NAME
+	return IslandConst.DRESSUP_CAMERA_NAME
 end
 
 function var_0_0.UnLoadCharacterScene(arg_12_0, arg_12_1)
@@ -100,14 +100,12 @@ function var_0_0.LoadCharacter(arg_16_0, arg_16_1)
 
 		arg_16_0.role.transform.eulerAngles = Vector3(0, 180, 0)
 
-		local var_17_0 = 0
-		local var_17_1 = arg_16_0._tf.rect.width / arg_16_0._tf.rect.height
+		local var_17_0 = (1.7777777777777777 - Screen.width / Screen.height) * 0.5
+		local var_17_1 = 0.9
 
-		if var_17_1 < 1.7777777777777777 then
-			var_17_0 = 0 - 0.5 * (1.7777777777777777 - var_17_1) / 0.4444444444444444
-		end
+		IslandCameraMgr.instance:CinemachineComposerTrackObjOffset(arg_16_0:GetActiveCamName(), Vector3(var_17_1 - var_17_0, 1, 0))
 
-		arg_16_0.role.transform.localPosition = Vector3(var_17_0, 0, 0)
+		arg_16_0.role.transform.localPosition = Vector3(0, 0, 0)
 
 		local var_17_2 = arg_16_0:GetSmoothRotateObject()
 		local var_17_3 = GetOrAddComponent(var_17_2, typeof(SmoothRotateObject))

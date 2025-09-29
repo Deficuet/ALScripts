@@ -71,19 +71,7 @@ end
 
 function var_0_0.UpdateContent(arg_14_0)
 	setInputText(arg_14_0.input, "")
-
-	local var_14_0 = getProxy(IslandProxy):GetIsland():GetModifyNameConsume()
-	local var_14_1 = Drop.New({
-		type = var_14_0[1],
-		id = var_14_0[2],
-		count = var_14_0[3]
-	})
-	local var_14_2 = var_14_1:getName()
-	local var_14_3 = var_14_1:getOwnedCount()
-	local var_14_4 = var_14_3 < var_14_1.count and "#f36c6e" or "#39bfff"
-	local var_14_5 = setColorStr(var_14_3 .. "/" .. var_14_1.count, var_14_4)
-
-	setText(arg_14_0.content, i18n("island_rename_consutme_tip", var_14_2 .. var_14_5))
+	setText(arg_14_0.content, i18n("island_rename_consutme_tip"))
 end
 
 function var_0_0.OnDestroy(arg_15_0)

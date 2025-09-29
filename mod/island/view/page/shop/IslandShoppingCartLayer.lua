@@ -12,6 +12,15 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.buyBtn = arg_2_0.panel:Find("buyBtn")
 	arg_2_0.consumeIcon = arg_2_0.buyBtn:Find("consume/icon")
 	arg_2_0.consumeCount = arg_2_0.buyBtn:Find("consume/count")
+
+	setText(arg_2_0.panel:Find("title"), i18n("island_3Dshop_buy_confirm"))
+	setText(arg_2_0.cancelBtn:Find("text"), i18n("island_3Dshop_buy_return"))
+	setText(arg_2_0.buyBtn:Find("text"), i18n("island_3Dshop_buy"))
+
+	for iter_2_0 = 1, 3 do
+		setText(arg_2_0.commodityList:Find("commodity" .. iter_2_0 .. "/normal/cost"), i18n("island_3Dshop_buy_price"))
+		setText(arg_2_0.commodityList:Find("commodity" .. iter_2_0 .. "/normal/have"), i18n("island_3Dshop_buy_have"))
+	end
 end
 
 function var_0_0.OnInit(arg_3_0)

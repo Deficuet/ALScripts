@@ -522,6 +522,11 @@ function var_0_0.OnGenPathFinder(arg_38_0, arg_38_1)
 	var_38_0:Start(arg_38_1.navData, function()
 		table.removebyvalue(arg_38_0.pathfinders, var_38_0)
 		var_38_0:Dispose()
+
+		if arg_38_1.onEndAction then
+			arg_38_1.onEndAction()
+		end
+
 		arg_38_0:NotifiyIsland(ISLAND_EX_EVT.NAV_PATH_DONE, arg_38_1.navData.index)
 
 		if var_38_1 and arg_38_1.callback then

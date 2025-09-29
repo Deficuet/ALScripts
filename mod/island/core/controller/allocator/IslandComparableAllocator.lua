@@ -12,7 +12,7 @@ function var_0_0.Flush(arg_2_0)
 
 	arg_2_0.flags = {}
 
-	arg_2_0:OnInitFlags()
+	arg_2_0:OnInitFlags(var_2_0)
 	arg_2_0:OnCompareSample(var_2_0, arg_2_0.flags)
 end
 

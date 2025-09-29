@@ -13,6 +13,8 @@ function var_0_0.Init(arg_1_0)
 	arg_1_0.toUpdateTileList = {}
 	arg_1_0.dataComparator = AgoraDataComparator.New(arg_1_0.agora)
 	arg_1_0.reloading = false
+	arg_1_0.baseReloadingCd = pg.island_set.agora_reloading_base_cd.key_value_int
+	arg_1_0.nextReloadingEndTime = 0
 	arg_1_0.isCleanLayerMode = false
 end
 
@@ -63,6 +65,10 @@ end
 
 function var_0_0.CheckReloadFinish(arg_5_0)
 	if not arg_5_0.reloading then
+		return
+	end
+
+	if pg.TimeMgr.GetInstance():GetServerTime() < arg_5_0.nextReloadingEndTime then
 		return
 	end
 
@@ -543,6 +549,8 @@ function var_0_0.InterAction(arg_48_0, arg_48_1, arg_48_2)
 	local var_48_2 = var_48_1:GetEmptySlot()
 
 	if not var_48_2 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_agora_no_interact_point"))
+
 		return
 	end
 
@@ -964,6 +972,7 @@ function var_0_0.OnPlacementUpdate(arg_82_0, arg_82_1)
 	arg_82_0:PaveLayers(var_82_10, var_82_11)
 
 	arg_82_0.reloading = true
+	arg_82_0.nextReloadingEndTime = pg.TimeMgr.GetInstance():GetServerTime() + arg_82_0.baseReloadingCd
 
 	arg_82_0:NotifiyAgora(ISLAND_AGORA_EVT.RELOADING)
 

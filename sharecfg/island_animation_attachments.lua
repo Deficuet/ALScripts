@@ -156,7 +156,7 @@ pg.island_animation_attachments = {
 	},
 	[100052] = {
 		attack = 0,
-		model = "island/item/01/10005/prefab/pre_item_01_10005",
+		model = "island/item/01/10005/prefab/pre_item_01_10028",
 		id = 100052,
 		animator = "island/animator/ani_item_1_02_10005",
 		unlock = 0

@@ -160,6 +160,8 @@ function var_0_0.OnHide(arg_27_0)
 end
 
 function var_0_0.OnDestroy(arg_28_0)
+	ClearLScrollrect(arg_28_0.scrollRect)
+
 	for iter_28_0, iter_28_1 in pairs(arg_28_0.cards) do
 		iter_28_1:Dispose()
 	end

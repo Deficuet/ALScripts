@@ -3,7 +3,7 @@ local var_0_0 = class("IslandSetCardWordCommand", pm.SimpleCommand)
 function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody().word
 
-	if not nameValidityCheck(var_1_0, 0, 60, {
+	if not nameValidityCheck(var_1_0, 4, 60, {
 		"spece_illegal_tip",
 		"login_newPlayerScene_name_tooShort",
 		"login_newPlayerScene_name_tooLong",

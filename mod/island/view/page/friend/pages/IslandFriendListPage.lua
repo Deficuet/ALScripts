@@ -155,6 +155,8 @@ function var_0_0.InitList(arg_23_0)
 end
 
 function var_0_0.OnDestroy(arg_25_0)
+	ClearLScrollrect(arg_25_0._scrollrect)
+
 	for iter_25_0, iter_25_1 in pairs(arg_25_0.cards) do
 		iter_25_1:Dispose()
 	end

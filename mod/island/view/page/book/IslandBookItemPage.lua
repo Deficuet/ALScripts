@@ -49,13 +49,13 @@ end
 function var_0_0.AddListeners(arg_9_0)
 	arg_9_0:AddListener(GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE, arg_9_0.OnUnlockDone)
 	arg_9_0:AddListener(GAME.ISLAND_GET_COLLECT_POINT_DONE, arg_9_0.Flush)
-	arg_9_0:AddListener(GAME.ISLAND_GET_POINT_AWARD_DONE, arg_9_0.Flush)
+	arg_9_0:AddListener(GAME.ISLAND_GET_POINT_AWARD_DONE, arg_9_0.OnGetPoointAwardDone)
 end
 
 function var_0_0.RemoveListeners(arg_10_0)
 	arg_10_0:RemoveListener(GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE, arg_10_0.OnUnlockDone)
 	arg_10_0:RemoveListener(GAME.ISLAND_GET_COLLECT_POINT_DONE, arg_10_0.Flush)
-	arg_10_0:RemoveListener(GAME.ISLAND_GET_POINT_AWARD_DONE, arg_10_0.Flush)
+	arg_10_0:RemoveListener(GAME.ISLAND_GET_POINT_AWARD_DONE, arg_10_0.OnGetPoointAwardDone)
 end
 
 function var_0_0.OnInitItem(arg_11_0, arg_11_1)
@@ -111,44 +111,58 @@ function var_0_0.OnUnlockDone(arg_15_0, arg_15_1)
 	arg_15_0:Flush()
 end
 
-function var_0_0.Flush(arg_16_0)
-	arg_16_0.bookAgency = getProxy(IslandProxy):GetIsland():GetBookAgency()
-	arg_16_0.showList = arg_16_0.bookAgency:GetListByType(arg_16_0:GetIllustrationType())
+function var_0_0.OnGetPoointAwardDone(arg_16_0, arg_16_1)
+	local var_16_0 = arg_16_1.dropData.abilitys or {}
 
-	table.sort(arg_16_0.showList, CompareFuncs({
-		function(arg_17_0)
-			return pg.island_illustrated_guide[arg_17_0.id].order
-		end,
-		function(arg_18_0)
-			return arg_18_0.id
-		end
-	}))
-	arg_16_0.scrollRect:SetTotalCount(#arg_16_0.showList, -1)
-	arg_16_0:FlushRightPanel()
+	for iter_16_0, iter_16_1 in ipairs(var_16_0) do
+		local var_16_1 = pg.island_ability_template[iter_16_1.id].unlock_text
+
+		pg.TipsMgr.GetInstance():ShowTips(var_16_1)
+	end
+
+	arg_16_0:Flush()
 end
 
-function var_0_0.FlushRightPanel(arg_19_0)
-	if not arg_19_0.showIllustration then
+function var_0_0.Flush(arg_17_0)
+	arg_17_0.bookAgency = getProxy(IslandProxy):GetIsland():GetBookAgency()
+	arg_17_0.showList = arg_17_0.bookAgency:GetListByType(arg_17_0:GetIllustrationType())
+
+	table.sort(arg_17_0.showList, CompareFuncs({
+		function(arg_18_0)
+			return pg.island_illustrated_guide[arg_18_0.id].order
+		end,
+		function(arg_19_0)
+			return arg_19_0.id
+		end
+	}))
+	arg_17_0.scrollRect:SetTotalCount(#arg_17_0.showList, -1)
+	arg_17_0:FlushRightPanel()
+end
+
+function var_0_0.FlushRightPanel(arg_20_0)
+	if not arg_20_0.showIllustration then
 		return
 	end
 
-	local var_19_0 = arg_19_0.showIllustration:GetStatus()
+	local var_20_0 = arg_20_0.showIllustration:GetStatus()
 
-	setText(arg_19_0.rightNameTF, arg_19_0.showIllustration:GetName())
-	setText(arg_19_0.rightEnNameTF, arg_19_0.showIllustration:GetEnName())
+	setText(arg_20_0.rightNameTF, arg_20_0.showIllustration:GetName())
+	setText(arg_20_0.rightEnNameTF, arg_20_0.showIllustration:GetEnName())
 
-	local var_19_1 = var_19_0 == IslandIllustration.STATUS.UNLOCK and arg_19_0.showIllustration:GetDesc() or i18n("island_guide_lock_desc")
+	local var_20_1 = var_20_0 == IslandIllustration.STATUS.UNLOCK and arg_20_0.showIllustration:GetDesc() or i18n("island_guide_lock_desc")
 
-	setText(arg_19_0.rightDescTF, var_19_1)
-	setActive(arg_19_0.unlockBtn, var_19_0 == IslandIllustration.STATUS.CAN_UNLOCK)
+	setText(arg_20_0.rightDescTF, var_20_1)
+	setActive(arg_20_0.unlockBtn, var_20_0 == IslandIllustration.STATUS.CAN_UNLOCK)
 end
 
-function var_0_0.OnDestroy(arg_20_0)
-	for iter_20_0, iter_20_1 in pairs(arg_20_0.cards) do
-		iter_20_1:Dispose()
+function var_0_0.OnDestroy(arg_21_0)
+	ClearLScrollrect(arg_21_0.scrollRect)
+
+	for iter_21_0, iter_21_1 in pairs(arg_21_0.cards) do
+		iter_21_1:Dispose()
 	end
 
-	arg_20_0.cards = {}
+	arg_21_0.cards = {}
 end
 
 return var_0_0

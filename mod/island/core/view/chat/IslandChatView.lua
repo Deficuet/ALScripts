@@ -26,7 +26,7 @@ function var_0_0.FirstFlush(arg_4_0)
 	arg_4_0.inputField = arg_4_0:findTF("send_panel/input_panel/input"):GetComponent(typeof(InputField))
 	arg_4_0.uiSendChanncelList = UIItemList.New(arg_4_0:findTF("send_panel/channel_sel_panel"), arg_4_0:findTF("send_panel/channel_sel_panel/tpl"))
 	arg_4_0.channelValue = IslandChatConst.CHANNEL_ALL
-	arg_4_0.sendChannelValue = IslandChatConst.CHANNEL_WORLD
+	arg_4_0.sendChannelValue = IslandChatConst.CHANNEL_ISLAND
 	arg_4_0.cards = {}
 	arg_4_0.emojiAdaptor = IslandEmojiAdaptor.New(arg_4_0)
 
@@ -286,6 +286,7 @@ end
 
 function var_0_0.OnDispose(arg_39_0)
 	var_0_0.super.OnDispose(arg_39_0)
+	ClearLScrollrect(arg_39_0.scrollrect)
 
 	if arg_39_0.emojiAdaptor then
 		arg_39_0.emojiAdaptor:Dispose()

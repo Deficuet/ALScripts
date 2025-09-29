@@ -14,7 +14,7 @@ function var_0_0.Ctor(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4)
 end
 
 function var_0_0.OnLoaded(arg_3_0)
-	arg_3_0.skipBtn = arg_3_0:findTF("skip_button")
+	arg_3_0.skipBtn = arg_3_0:findTF("adapt/skip_button")
 	arg_3_0.maskCG = arg_3_0:findTF("mask"):GetComponent(typeof(CanvasGroup))
 	arg_3_0.state = var_0_1
 end

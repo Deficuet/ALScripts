@@ -304,8 +304,13 @@ function var_0_3.DeviceStateHandle(arg_21_0, arg_21_1)
 		return
 	end
 
+	if arg_21_0.view:GetController():IsPlayerInTimeline() then
+		return
+	end
+
 	if arg_21_1 then
 		arg_21_0.animator:SetTrigger(IslandConst.DEVICE_SHOW_FLAG)
+		arg_21_0.animator:ResetTrigger(IslandConst.UN_DEVICE_SHOW_FLAG)
 	else
 		arg_21_0.animator:SetTrigger(IslandConst.UN_DEVICE_SHOW_FLAG)
 	end

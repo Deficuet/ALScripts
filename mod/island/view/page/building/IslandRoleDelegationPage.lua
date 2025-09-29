@@ -51,6 +51,7 @@ function var_0_0.OnLoaded(arg_4_0)
 		isPermanent = true,
 		alignRight = true
 	})
+	arg_4_0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(arg_4_0._tf, arg_4_0.event)
 end
 
 function var_0_0.OnInit(arg_7_0)
@@ -234,6 +235,10 @@ function var_0_0.OnHide(arg_22_0)
 	arg_22_0:StopTimer()
 	arg_22_0:emitCore(ISLAND_EVT.RECYCLE_ALL_SLOTDELEEFFECT)
 	arg_22_0:UnloadPreconcenCharacter()
+
+	if arg_22_0.awardDisplayPanel then
+		arg_22_0.awardDisplayPanel:Hide()
+	end
 end
 
 function var_0_0.OnExit(arg_23_0)
@@ -268,13 +273,47 @@ function var_0_0.OnDestroy(arg_27_0)
 
 		arg_27_0.selectPanel = nil
 	end
+
+	if arg_27_0.awardDisplayPanel then
+		arg_27_0.awardDisplayPanel:Destroy()
+
+		arg_27_0.awardDisplayPanel = nil
+	end
 end
 
-function var_0_0.OnGetDelegationAwardDone(arg_28_0)
+function var_0_0.OnGetDelegationAwardDone(arg_28_0, arg_28_1)
+	if arg_28_1.addShipExpData then
+		local var_28_0 = {}
+		local var_28_1 = arg_28_1.addShipExpData.addShipId
+		local var_28_2 = arg_28_1.addShipExpData.addExp
+		local var_28_3 = IslandShip.StaticGetPrefab(var_28_1)
+		local var_28_4 = "island/IslandShipIcon/" .. var_28_3
+
+		arg_28_0:UpdateMainAwardReward({
+			shipExp = true,
+			icon = var_28_4,
+			num = var_28_2
+		})
+	end
+
 	arg_28_0.delegationTabList:align(#arg_28_0.placeCommissionList)
 end
 
-function var_0_0.OnFinishDelegationDone(arg_29_0)
+function var_0_0.OnFinishDelegationDone(arg_29_0, arg_29_1)
+	if arg_29_1.addShipExpData then
+		local var_29_0 = {}
+		local var_29_1 = arg_29_1.addShipExpData.addShipId
+		local var_29_2 = arg_29_1.addShipExpData.addExp
+		local var_29_3 = IslandShip.StaticGetPrefab(var_29_1)
+		local var_29_4 = "island/IslandShipIcon/" .. var_29_3
+
+		arg_29_0:UpdateMainAwardReward({
+			shipExp = true,
+			icon = var_29_4,
+			num = var_29_2
+		})
+	end
+
 	arg_29_0.delegationTabList:align(#arg_29_0.placeCommissionList)
 end
 
@@ -300,6 +339,10 @@ end
 
 function var_0_0.UnloadPreconcenCharacter(arg_33_0)
 	arg_33_0:emitCore(ISLAND_EVT.UN_LOAD_DELEGATE_PREVIEW_ROLE)
+end
+
+function var_0_0.UpdateMainAwardReward(arg_34_0, arg_34_1)
+	arg_34_0.awardDisplayPanel:ExecuteAction("ShowAwards", arg_34_1)
 end
 
 return var_0_0

@@ -726,6 +726,9 @@ function var_0_0.RemoveSaveCdTimer(arg_86_0)
 end
 
 function var_0_0.OnDestroy(arg_87_0)
+	ClearLScrollrect(arg_87_0.scrollRect)
+	ClearLScrollrect(arg_87_0.scrollRect4Theme)
+
 	if arg_87_0.dftAniEvent then
 		arg_87_0.dftAniEvent:SetEndEvent(nil)
 	end

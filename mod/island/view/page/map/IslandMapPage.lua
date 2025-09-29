@@ -14,6 +14,7 @@ function var_0_0.Flush(arg_2_0)
 			arg_2_0:CheckProductions(iter_2_0)
 			arg_2_0:CheckAcceptableTask(iter_2_0)
 			arg_2_0:CheckFinishableTask(iter_2_0)
+			setActive(iter_2_1:Find("icon"), not isActive(iter_2_1:Find("fetch")) and not isActive(iter_2_1:Find("finish")) and not isActive(iter_2_1:Find("fetch")))
 		end
 	end
 end

@@ -20,6 +20,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 
 	arg_1_0.director = arg_1_0.TOD:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
 	arg_1_0.speedComp = GetOrAddComponent(arg_1_0.TOD, "TimelineSpeed")
+	arg_1_0.settingComp = GetOrAddComponent(arg_1_0.TOD, "TODSettings")
 
 	arg_1_0:Init()
 end
@@ -37,7 +38,11 @@ function var_0_0.Init(arg_2_0)
 	arg_2_0.director.extrapolationMode = UnityEngine.Playables.DirectorWrapMode.Loop
 	arg_2_0._inited = true
 
-	arg_2_0:Play()
+	if arg_2_0.settingComp.pauseOnEnterTime then
+		arg_2_0:PauseOnEnterTime()
+	else
+		arg_2_0:Play()
+	end
 end
 
 function var_0_0.Play(arg_3_0)
@@ -45,17 +50,39 @@ function var_0_0.Play(arg_3_0)
 		return
 	end
 
-	local var_3_0 = pg.TimeMgr.GetInstance()
-	local var_3_1 = (var_3_0:GetServerTime() - var_3_0._sAnchorTime) % var_0_3 % arg_3_0.gameDaySec
-	local var_3_2 = math.floor(var_3_1 / arg_3_0.gameDaySec * var_0_2)
+	local var_3_0 = arg_3_0:GetFrame()
 
-	arg_3_0.director.time = var_3_2 / var_0_1
+	arg_3_0.director.time = var_3_0 / var_0_1
 
 	arg_3_0.director:Play()
 	arg_3_0.speedComp:SetTimelineSpeed(var_0_2 / var_0_1 / arg_3_0.gameDaySec)
 end
 
-function var_0_0.Dispose(arg_4_0)
+function var_0_0.PauseOnEnterTime(arg_4_0)
+	if not arg_4_0._inited then
+		return
+	end
+
+	local var_4_0 = arg_4_0:GetFrame()
+
+	arg_4_0.director.time = var_4_0 / var_0_1
+
+	arg_4_0.director:Play()
+	arg_4_0.speedComp:SetTimelineSpeed(0)
+end
+
+function var_0_0.GetFrame(arg_5_0)
+	if not arg_5_0._inited then
+		return 0
+	end
+
+	local var_5_0 = pg.TimeMgr.GetInstance()
+	local var_5_1 = (var_5_0:GetServerTime() - var_5_0._sAnchorTime) % var_0_3 % arg_5_0.gameDaySec
+
+	return (math.floor(var_5_1 / arg_5_0.gameDaySec * var_0_2))
+end
+
+function var_0_0.Dispose(arg_6_0)
 	return
 end
 

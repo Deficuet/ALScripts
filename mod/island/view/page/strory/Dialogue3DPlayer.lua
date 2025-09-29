@@ -57,11 +57,11 @@ function var_0_0.CancelAuto(arg_3_0)
 end
 
 function var_0_0.OnStart(arg_4_0, arg_4_1)
-	arg_4_0:ActiveDefaultCamera(arg_4_1)
 	pg.DelegateInfo.New(arg_4_0)
 end
 
 function var_0_0.OnStartAction(arg_5_0, arg_5_1, arg_5_2)
+	arg_5_0:ActiveDefaultCamera(arg_5_1)
 	arg_5_0:StartFadeIn(arg_5_1)
 	arg_5_2()
 end

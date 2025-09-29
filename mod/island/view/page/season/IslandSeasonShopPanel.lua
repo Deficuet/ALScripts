@@ -55,44 +55,7 @@ function var_0_0.UpdateGood(arg_8_0, arg_8_1, arg_8_2)
 
 	arg_8_2.name = var_8_0.id
 
-	setText(arg_8_2:Find("name"), var_8_0:GetName())
-
-	if #var_8_0:GetItems() == 1 then
-		local var_8_1 = var_8_0:GetItems()[1]
-		local var_8_2 = {
-			type = var_8_1[1],
-			id = var_8_1[2],
-			count = var_8_1[3]
-		}
-
-		updateCustomDrop(arg_8_2:Find("IslandItemTpl"), var_8_2)
-	else
-		GetImageSpriteFromAtlasAsync("island/" .. var_8_0:GetIcon(), "", arg_8_2:Find("IslandItemTpl/icon_bg/icon"))
-	end
-
-	local var_8_3 = var_8_0:GetResourceConsume()
-
-	GetImageSpriteFromAtlasAsync(Drop.New({
-		type = var_8_3[1],
-		id = var_8_3[2]
-	}):getIcon(), "", arg_8_2:Find("cost/icon"))
-	setText(arg_8_2:Find("cost/num"), math.ceil((100 - var_8_0:GetDiscount()) / 100 * var_8_3[3]))
-	setActive(arg_8_2:Find("IslandItemTpl/icon_bg/count_bg"), var_8_0:IsShowPurchaseLimit())
-
-	local var_8_4 = var_8_0:GetMaxNum() - var_8_0.purchasedNum
-
-	setText(arg_8_2:Find("IslandItemTpl/icon_bg/count_bg/count"), var_8_4 .. "/" .. var_8_0:GetMaxNum())
-	setActive(arg_8_2:Find("sellOut"), var_8_0:GetMaxNum() ~= 0 and var_8_4 == 0)
-	setActive(arg_8_2:Find("timeLimit"), var_8_0:IsTimeLimitCommodity())
-	setActive(arg_8_2:Find("discount"), var_8_0:GetDiscount() ~= 0)
-	setText(arg_8_2:Find("discount/Text"), "-" .. var_8_0:GetDiscount() .. "%")
-
-	local var_8_5 = arg_8_0.inventoryAgency:GetOwnCount(var_8_0:GetItems()[1][2])
-
-	setActive(arg_8_2:Find("have"), var_8_0:IsShowHave())
-	setText(arg_8_2:Find("have"), i18n("island_word_own", var_8_5))
-	setActive(arg_8_2:Find("hold"), var_8_0:IsShowHold() and (var_8_5 > 0 or var_8_0:IsCharacterInviteItemHold()))
-	setActive(arg_8_2:Find("cost"), not isActive(arg_8_2:Find("hold")))
+	IslandShopPage.StaticUpdateCommodityTpl(arg_8_2, var_8_0)
 	setActive(arg_8_2:Find("notInTime"), not arg_8_0.displayShop:IsInTime())
 
 	if isActive(arg_8_2:Find("sellOut")) or isActive(arg_8_2:Find("hold")) or isActive(arg_8_2:Find("notInTime")) then
@@ -126,6 +89,7 @@ function var_0_0.Flush(arg_10_0)
 
 	arg_10_0.displaysGoods = arg_10_0.displayShop:GetCommodities()
 
+	IslandShopPage.SortShopCommodities(arg_10_0.displaysGoods)
 	arg_10_0.goodUIList:align(#arg_10_0.displaysGoods)
 	setActive(arg_10_0.lockTF, not arg_10_0.displayShop:IsInTime())
 end

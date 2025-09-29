@@ -75,7 +75,7 @@ pg.island_dress_template = {
 		scale = "",
 		face_clip = "",
 		offset = {
-			0.071,
+			-0.01,
 			-0.466,
 			0.034
 		},

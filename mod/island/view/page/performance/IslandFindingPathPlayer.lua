@@ -12,8 +12,19 @@ function var_0_0.Play(arg_1_0, arg_1_1, arg_1_2)
 
 	arg_1_0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.START_PATHFINDER, {
 		navData = var_1_0,
-		callback = arg_1_2
+		callback = arg_1_2,
+		onEndAction = function()
+			if arg_1_0.endCallback then
+				arg_1_0.endCallback()
+			end
+
+			arg_1_0.endCallback = nil
+		end
 	})
+end
+
+function var_0_0.SetEndCallback(arg_3_0, arg_3_1)
+	arg_3_0.endCallback = arg_3_1
 end
 
 return var_0_0

@@ -34,6 +34,7 @@ function var_0_0.Start(arg_2_0, arg_2_1, arg_2_2)
 
 	var_2_4:SetNavAgentStopDistance(0.26)
 	var_2_4:SetDestination(var_2_0, var_2_2, arg_2_1.radius, arg_2_1.charaRadius)
+	var_2_4:CheckMovement()
 
 	arg_2_0.starting = true
 end

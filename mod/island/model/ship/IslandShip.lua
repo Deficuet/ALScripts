@@ -146,12 +146,16 @@ function var_0_0.GetMaxEnergy(arg_16_0)
 	return arg_16_0.maxEnerey
 end
 
-function var_0_0.InitMaxEnergy(arg_17_0)
+function var_0_0.InitMaxEnergy(arg_17_0, arg_17_1)
 	local var_17_0 = arg_17_0.maxEnerey
 	local var_17_1, var_17_2 = arg_17_0:GetBreakLevel(), arg_17_0:getConfig("upgrade_power")
 
 	for iter_17_0 = 1, var_17_1 do
 		arg_17_0.maxEnerey = arg_17_0.maxEnerey + (var_17_2[iter_17_0] or 0)
+	end
+
+	if not arg_17_1 then
+		return
 	end
 
 	if arg_17_0.maxEnerey - var_17_0 > 0 then
@@ -421,7 +425,7 @@ function var_0_0.UpgradeBreakOut(arg_53_0)
 	local var_53_0 = arg_53_0:GetMaxEnergy()
 	local var_53_1 = var_53_0 - arg_53_0:GetEnergy()
 
-	arg_53_0:InitMaxEnergy()
+	arg_53_0:InitMaxEnergy(true)
 
 	if var_53_0 < arg_53_0:GetMaxEnergy() then
 		arg_53_0.energy = arg_53_0.energy + var_53_1

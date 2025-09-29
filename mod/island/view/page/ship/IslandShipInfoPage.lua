@@ -214,7 +214,7 @@ function var_0_0.UpdateBreakOutLevel(arg_26_0, arg_26_1)
 end
 
 function var_0_0.UpdateEnergy(arg_28_0, arg_28_1)
-	local var_28_0 = arg_28_1:GetEnergy()
+	local var_28_0 = arg_28_1:GetCurrentEnergy()
 	local var_28_1 = arg_28_1:GetMaxEnergy()
 	local var_28_2 = var_28_0 <= 20 and "<color=#ab4734>" .. var_28_0 .. "</color>" or var_28_0
 

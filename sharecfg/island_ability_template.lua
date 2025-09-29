@@ -482,7 +482,7 @@ pg.island_ability_template = {
 	},
 	[2012] = {
 		unlock_text = "木料加工设备",
-		effect = 701,
+		effect = 703,
 		cmd_icon = "IslandProps/gold",
 		type = 2,
 		id = 2012,
@@ -490,7 +490,7 @@ pg.island_ability_template = {
 	},
 	[2013] = {
 		unlock_text = "工业生产设备",
-		effect = 702,
+		effect = 704,
 		cmd_icon = "IslandProps/gold",
 		type = 2,
 		id = 2013,
@@ -498,7 +498,7 @@ pg.island_ability_template = {
 	},
 	[2014] = {
 		unlock_text = "电子加工设备",
-		effect = 703,
+		effect = 705,
 		cmd_icon = "IslandProps/gold",
 		type = 2,
 		id = 2014,
@@ -506,7 +506,7 @@ pg.island_ability_template = {
 	},
 	[2015] = {
 		unlock_text = "手工制作设备",
-		effect = 704,
+		effect = 706,
 		cmd_icon = "IslandProps/gold",
 		type = 2,
 		id = 2015,
@@ -1249,49 +1249,49 @@ pg.island_ability_template = {
 		show_type = 1
 	},
 	[38001] = {
-		unlock_text = "",
+		unlock_text = "丰壤农田委派效率提高 4%",
 		effect = 4,
-		cmd_icon = "IslandProps/gold",
+		cmd_icon = "IslandProps/buff",
 		type = 38,
 		id = 38001,
 		show_type = 0
 	},
 	[38002] = {
-		unlock_text = "",
+		unlock_text = "丰壤农田委派效率提高 8%",
 		effect = 8,
-		cmd_icon = "IslandProps/gold",
+		cmd_icon = "IslandProps/buff",
 		type = 38,
 		id = 38002,
 		show_type = 0
 	},
 	[39001] = {
-		unlock_text = "",
+		unlock_text = "坠香果园委派效率提高 4%",
 		effect = 4,
-		cmd_icon = "IslandProps/gold",
+		cmd_icon = "IslandProps/buff",
 		type = 39,
 		id = 39001,
 		show_type = 0
 	},
 	[39002] = {
-		unlock_text = "",
+		unlock_text = "坠香果园委派效率提高 8%",
 		effect = 8,
-		cmd_icon = "IslandProps/gold",
+		cmd_icon = "IslandProps/buff",
 		type = 39,
 		id = 39002,
 		show_type = 0
 	},
 	[40001] = {
-		unlock_text = "",
+		unlock_text = "青芽苗圃委派效率提高 4%",
 		effect = 4,
-		cmd_icon = "IslandProps/gold",
+		cmd_icon = "IslandProps/buff",
 		type = 40,
 		id = 40001,
 		show_type = 0
 	},
 	[40002] = {
-		unlock_text = "",
+		unlock_text = "青芽苗圃委派效率提高 8%",
 		effect = 8,
-		cmd_icon = "IslandProps/gold",
+		cmd_icon = "IslandProps/buff",
 		type = 40,
 		id = 40002,
 		show_type = 0

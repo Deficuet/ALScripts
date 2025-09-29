@@ -28,28 +28,42 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	arg_1_0:Init()
 end
 
-function var_0_0.Init(arg_2_0)
-	onButton(arg_2_0, arg_2_0._tf, function()
-		if not arg_2_0:IsUnlock() then
+function var_0_0.CheckCanPressDown(arg_2_0)
+	if arg_2_0.configId == 19 and _IslandCore and _IslandCore:GetView():GetController():IsPlayerInTimeline() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_photo_fur_lock"))
+
+		return false
+	end
+
+	return true
+end
+
+function var_0_0.Init(arg_3_0)
+	onButton(arg_3_0, arg_3_0._tf, function()
+		if not arg_3_0:IsUnlock() then
 			return
 		end
 
-		arg_2_0:OnClick()
+		if not arg_3_0:CheckCanPressDown() then
+			return
+		end
+
+		arg_3_0:OnClick()
 	end, SFX_PANEL)
 end
 
-function var_0_0.UnlockCheck(arg_4_0)
-	local var_4_0 = arg_4_0:IsUnlock()
+function var_0_0.UnlockCheck(arg_5_0)
+	local var_5_0 = arg_5_0:IsUnlock()
 
-	setActive(arg_4_0.lockTF, not var_4_0)
-	setActive(arg_4_0.unlockTF, var_4_0)
+	setActive(arg_5_0.lockTF, not var_5_0)
+	setActive(arg_5_0.unlockTF, var_5_0)
 
-	if var_4_0 then
-		arg_4_0:FlushDataUI()
+	if var_5_0 then
+		arg_5_0:FlushDataUI()
 	end
 end
 
-function var_0_0.FlushDataUI(arg_5_0)
+function var_0_0.FlushDataUI(arg_6_0)
 	return
 end
 

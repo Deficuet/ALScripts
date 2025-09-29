@@ -6,7 +6,7 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.viewTF = arg_2_0._tf:Find("view")
-	arg_2_0.scrollRect = arg_2_0.viewTF:GetComponent("LScrollRect")
+	arg_2_0.scrollRect = arg_2_0.viewTF:Find("content"):GetComponent("LScrollRect")
 
 	function arg_2_0.scrollRect.onInitItem(arg_3_0)
 		arg_2_0:OnInitItem(arg_3_0)
@@ -67,7 +67,7 @@ function var_0_0.OnUpdateItem(arg_10_0, arg_10_1, arg_10_2)
 	local var_10_0 = arg_10_0.cards[arg_10_2]
 
 	if not var_10_0 then
-		arg_10_0:OnInitItem(arg_10_1, arg_10_2)
+		arg_10_0:OnInitItem(arg_10_2)
 
 		var_10_0 = arg_10_0.cards[arg_10_2]
 	end
@@ -100,8 +100,9 @@ function var_0_0.Flush(arg_14_0)
 
 	arg_14_0.islandLevel = var_14_0:GetLevel()
 	arg_14_0.techAgency = var_14_0:GetTechnologyAgency()
+	arg_14_0.scrollRect.enabled = true
 
-	arg_14_0.scrollRect:SetTotalCount(#arg_14_0.levels, -1)
+	arg_14_0.scrollRect:SetTotalCount(#arg_14_0.levels, 0)
 end
 
 function var_0_0.AutoFocus(arg_15_0)
@@ -146,6 +147,8 @@ function var_0_0.GetFocusTechId(arg_16_0)
 end
 
 function var_0_0.OnDestroy(arg_19_0)
+	ClearLScrollrect(arg_19_0.scrollRect)
+
 	for iter_19_0, iter_19_1 in pairs(arg_19_0.cards) do
 		iter_19_1:Dispose()
 	end

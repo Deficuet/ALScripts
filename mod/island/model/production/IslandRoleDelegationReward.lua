@@ -7,6 +7,8 @@ end
 function var_0_0.UpdateData(arg_2_0, arg_2_1)
 	arg_2_0.formula_id = arg_2_1.formula_id
 	arg_2_0.formula_drop_list = arg_2_1.formula_drop_list
+	arg_2_0.ship_id = arg_2_1.ship_id
+	arg_2_0.exp = arg_2_1.exp
 end
 
 function var_0_0.GetState(arg_3_0)

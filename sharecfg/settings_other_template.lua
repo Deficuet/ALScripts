@@ -198,7 +198,16 @@ pg.settings_other_template = {
 		title = "自动锁定新获得角色",
 		desc = "功能开启后，自动锁定新获得角色，不再弹出锁定提示"
 	},
-	[24] = {
+	{
+		default = 1,
+		name = "ISLAND_NOTIFYCATION",
+		type = 0,
+		alignment = 0,
+		id = 23,
+		title = "岛屿访客通知",
+		desc = "功能开启后，他人问访问您的岛屿将弹框通知"
+	},
+	{
 		default = 1,
 		name = "GRAPHI_API_SWITCH_OPTION",
 		type = 3,
@@ -230,6 +239,7 @@ pg.settings_other_template = {
 		20,
 		21,
 		22,
+		23,
 		24
 	}
 }

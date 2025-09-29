@@ -185,11 +185,11 @@ pg.island_formula = {
 			},
 			{
 				0.9,
-				20104
+				20116
 			},
 			{
 				1,
-				20105
+				20117
 			}
 		}
 	},
@@ -693,7 +693,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2700,
-				2
+				1
 			}
 		},
 		commission_cost = {},
@@ -744,7 +744,7 @@ pg.island_formula = {
 		vfx_offset = "",
 		name = "铜矿",
 		hitpoint = 80,
-		unlock_type = 3401002,
+		unlock_type = 0,
 		ship_exp = 40,
 		harvest_vfx = 60021,
 		workload = 24000,
@@ -979,7 +979,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2800,
-				2
+				1
 			}
 		},
 		commission_cost = {},
@@ -4662,14 +4662,14 @@ pg.island_formula = {
 		unitid = "",
 		attribute = 6,
 		harvest_vfx = 0,
-		workload = 6000,
-		stamina_cost = 2,
+		workload = 36000,
+		stamina_cost = 12,
 		item_id = 0,
 		affected_vfx_offset = "",
 		production_limit = 1,
 		unlock_type = 37100004,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 60,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 7100004,
@@ -4678,14 +4678,14 @@ pg.island_formula = {
 		cost = {
 			{
 				1,
-				4000
+				15000
 			}
 		},
 		drop_display = {},
 		commission_cost = {
 			{
 				1,
-				4000
+				15000
 			}
 		},
 		commission_product = {},
@@ -5732,14 +5732,14 @@ pg.island_formula = {
 		unitid = "",
 		attribute = 6,
 		harvest_vfx = 0,
-		workload = 6000,
-		stamina_cost = 2,
+		workload = 72000,
+		stamina_cost = 24,
 		item_id = 0,
 		affected_vfx_offset = "",
 		production_limit = 1,
 		unlock_type = 37130301,
 		affected_vfx = "",
-		ship_exp = 10,
+		ship_exp = 120,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 7130301,
@@ -5748,14 +5748,14 @@ pg.island_formula = {
 		cost = {
 			{
 				1,
-				4000
+				15000
 			}
 		},
 		drop_display = {},
 		commission_cost = {
 			{
 				1,
-				4000
+				15000
 			}
 		},
 		commission_product = {},
@@ -5768,14 +5768,14 @@ pg.island_formula = {
 		unitid = "",
 		attribute = 6,
 		harvest_vfx = 0,
-		workload = 18000,
-		stamina_cost = 6,
+		workload = 72000,
+		stamina_cost = 24,
 		item_id = 0,
 		affected_vfx_offset = "",
 		production_limit = 1,
 		unlock_type = 37130302,
 		affected_vfx = "",
-		ship_exp = 30,
+		ship_exp = 120,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 7130302,
@@ -5784,14 +5784,14 @@ pg.island_formula = {
 		cost = {
 			{
 				1,
-				6000
+				30000
 			}
 		},
 		drop_display = {},
 		commission_cost = {
 			{
 				1,
-				6000
+				30000
 			}
 		},
 		commission_product = {},
@@ -8289,8 +8289,8 @@ pg.island_formula = {
 				20000
 			},
 			{
-				2007,
-				8
+				2011,
+				37
 			}
 		},
 		drop_display = {},
@@ -8300,8 +8300,8 @@ pg.island_formula = {
 				20000
 			},
 			{
-				2007,
-				8
+				2011,
+				37
 			}
 		},
 		commission_product = {},
@@ -11056,50 +11056,6 @@ pg.island_formula = {
 		second_product_display = {},
 		second_product = {}
 	},
-	[7610103] = {
-		hitpoint = 0,
-		name = "货运委托上限提升III",
-		unitid = "",
-		attribute = 6,
-		harvest_vfx = 0,
-		workload = 18000,
-		stamina_cost = 6,
-		item_id = 0,
-		affected_vfx_offset = "",
-		production_limit = 1,
-		unlock_type = 37610103,
-		affected_vfx = "",
-		ship_exp = 30,
-		vfx_offset = "",
-		pt_award = 0,
-		id = 7610103,
-		collectable_vfx = 0,
-		is_condition = 1,
-		cost = {
-			{
-				1,
-				4000
-			},
-			{
-				2700,
-				33
-			}
-		},
-		drop_display = {},
-		commission_cost = {
-			{
-				1,
-				4000
-			},
-			{
-				2700,
-				33
-			}
-		},
-		commission_product = {},
-		second_product_display = {},
-		second_product = {}
-	},
 	[7610401] = {
 		hitpoint = 0,
 		name = "货运效率提升I",
@@ -12982,7 +12938,6 @@ pg.island_formula = {
 		7550204,
 		7610101,
 		7610102,
-		7610103,
 		7610401,
 		7610402,
 		7610403,

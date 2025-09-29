@@ -5,6 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
+	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_invite_title"))
+
 	arg_2_0.contentText = arg_2_0._tf:Find("Text")
 
 	setText(arg_2_0.contentText, "")
@@ -236,7 +238,7 @@ function var_0_0.CheckCardBound(arg_25_0, arg_25_1, arg_25_2, arg_25_3, arg_25_4
 end
 
 function var_0_0.OnDestroy(arg_26_0)
-	return
+	ClearLScrollrect(arg_26_0.scrollrect)
 end
 
 return var_0_0

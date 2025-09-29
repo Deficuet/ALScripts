@@ -55,9 +55,9 @@ var_0_0.SortIndexs = {
 	var_0_0.SortEnergy
 }
 var_0_0.SortNames = {
-	"word_lv",
-	"word_synthesize_power",
-	"sort_energy"
+	"island_chara_list_level",
+	"island_chara_list_attribute",
+	"island_index_name"
 }
 var_0_0.ExtraPotency = bit.lshift(1, 0)
 var_0_0.ExtraCanUpgSkill = bit.lshift(1, 1)

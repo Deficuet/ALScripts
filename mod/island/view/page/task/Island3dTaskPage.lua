@@ -24,10 +24,10 @@ function var_0_0.OnLoaded(arg_2_0)
 
 	setText(arg_2_0.targetTF:Find("Text"), i18n("island_task_target"))
 
-	arg_2_0.finishedTargetTF = arg_2_0.targetTF:Find("finished")
+	arg_2_0.finishedTargetTF = arg_2_0.targetTF:Find("content/finished")
 	arg_2_0.finishedTargetTextTF = arg_2_0.finishedTargetTF:Find("Text")
 	arg_2_0.finishedTargetLocTF = arg_2_0.finishedTargetTF:Find("location")
-	arg_2_0.targetContent = arg_2_0.targetTF:Find("content")
+	arg_2_0.targetContent = arg_2_0.targetTF:Find("content/list")
 	arg_2_0.targetUIList = UIItemList.New(arg_2_0.targetContent, arg_2_0.targetContent:Find("tpl"))
 	arg_2_0.awardsTF = arg_2_0.detailTF:Find("awards")
 
@@ -176,10 +176,12 @@ function var_0_0.UpdateTaskItem(arg_15_0, arg_15_1, arg_15_2)
 		setActive(arg_15_1:Find("main/selected"), arg_16_0 and not var_15_1)
 		setActive(arg_15_1:Find("sub/selected"), arg_16_0 and var_15_1)
 
-		if arg_16_0 and (not arg_15_0.selectedTaskId or arg_15_0.selectedTaskId ~= arg_15_2.id) then
+		if arg_16_0 and (not arg_15_0.selectedTaskId or arg_15_0.selectedTaskId ~= arg_15_2.id or arg_15_0.isOpen) then
 			arg_15_0.selectedTaskId = arg_15_2.id
 
 			arg_15_0:FlushDetail()
+
+			arg_15_0.isOpen = false
 		end
 	end, SFX_PANEL)
 end
@@ -340,14 +342,12 @@ function var_0_0.FlushDetail(arg_27_0)
 
 		local var_27_2 = not arg_27_0.showVO:IsSubmitImmediately() and arg_27_0.showVO:IsFinish()
 
+		arg_27_0.targetUIList:align(#arg_27_0.showTargets)
 		setActive(arg_27_0.finishedTargetTF, var_27_2)
-		setActive(arg_27_0.targetContent, not var_27_2)
 
 		if var_27_2 then
 			setText(arg_27_0.finishedTargetTextTF, arg_27_0.showVO:GetFinishedDesc())
 			arg_27_0:UpdateLocation(arg_27_0.finishedTargetLocTF, arg_27_0.showVO)
-		else
-			arg_27_0.targetUIList:align(#arg_27_0.showTargets)
 		end
 
 		arg_27_0.showAwards = arg_27_0.showVO:GetAwards()
@@ -365,6 +365,7 @@ function var_0_0.FlushDetail(arg_27_0)
 end
 
 function var_0_0.OnShow(arg_30_0, arg_30_1, arg_30_2)
+	arg_30_0.isOpen = true
 	arg_30_0.toggleList = arg_30_0:GetShowTypeList()
 
 	table.insert(arg_30_0.toggleList, 1, IslandTaskType.SHOW_ALL)
@@ -412,7 +413,7 @@ function var_0_0.OnDisable(arg_34_0)
 end
 
 function var_0_0.OnDestroy(arg_35_0)
-	return
+	arg_35_0:OnHide()
 end
 
 return var_0_0

@@ -72,6 +72,7 @@ function var_0_0.OnLoaded(arg_3_0)
 	arg_3_0.skinRect = arg_3_0.skinTF:Find("dress_container/dress"):GetComponent("LScrollRect")
 	arg_3_0.skinRectTF = arg_3_0.skinTF:Find("dress_container")
 	arg_3_0.skinEmpty = arg_3_0.skinTF:Find("skinEmpty")
+	arg_3_0.skinEmptyTips = arg_3_0.skinEmpty:Find("layout/empty_tips")
 
 	function arg_3_0.skinRect.onInitItem(arg_6_0)
 		arg_3_0:OnSkinInitItem(arg_6_0)
@@ -658,6 +659,7 @@ function var_0_0.UpdateSkinList(arg_47_0)
 	setActive(arg_47_0.skinRectTF, var_47_0 ~= 0)
 	setActive(arg_47_0.skinEmpty, var_47_0 == 0)
 	arg_47_0.skinRect:SetTotalCount(var_47_0)
+	setText(arg_47_0.skinEmptyTips, i18n("island_dress_no_item"))
 end
 
 function var_0_0.UpdateDressUpList(arg_48_0)
@@ -1354,8 +1356,11 @@ function var_0_0.OnHide(arg_84_0)
 end
 
 function var_0_0.OnDestroy(arg_85_0)
+	ClearLScrollrect(arg_85_0.dressRect)
+	ClearLScrollrect(arg_85_0.skinRect)
+
 	for iter_85_0, iter_85_1 in pairs(arg_85_0.dressCards or {}) do
-		-- block empty
+		iter_85_1:Dispose()
 	end
 
 	arg_85_0.dressCards = nil

@@ -32,14 +32,14 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			var_2_1:RemoveTask(var_1_1)
 			var_2_1:AddFinishId(var_1_1)
 			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TASK)
+
+			local var_2_6 = IslandDropHelper.AddItems(arg_2_0, var_2_4)
+
 			var_2_1:TryAcceptAutoTasks(function()
 				if var_2_3 then
 					getProxy(IslandProxy):GetIsland():GetTaskAgency():TryAutoTrackTask()
 				end
 			end)
-
-			local var_2_6 = IslandDropHelper.AddItems(arg_2_0, var_2_4)
-
 			arg_1_0:sendNotification(GAME.ISLAND_SUBMIT_TASK_DONE, {
 				taskId = var_1_1,
 				dropData = var_2_6,

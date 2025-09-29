@@ -65,7 +65,7 @@ pg.island_main_btns = {
 		open_page = "IslandDevicePage",
 		id = 5,
 		icon = "device",
-		ability_id = 0,
+		ability_id = 2,
 		btn_name = "device",
 		page_param = {}
 	},

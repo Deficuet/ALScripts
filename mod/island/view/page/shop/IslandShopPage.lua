@@ -100,6 +100,7 @@ end
 function var_0_0.SetShopList(arg_10_0)
 	arg_10_0.currentShop1TgIndex = nil
 	arg_10_0.currentShop2TgIndex = nil
+	arg_10_0.currentShop3TgIndex = nil
 
 	arg_10_0.shop1List:make(function(arg_11_0, arg_11_1, arg_11_2)
 		arg_11_1 = arg_11_1 + 1
@@ -172,6 +173,10 @@ function var_0_0.SetShopList(arg_10_0)
 														setActive(arg_15_2:Find("selected/lock"), not var_15_1)
 														onToggle(arg_10_0, arg_15_2, function(arg_16_0)
 															if arg_16_0 then
+																if arg_10_0.currentShop1TgIndex == arg_11_1 and arg_10_0.currentShop2TgIndex == arg_13_1 + 1 and arg_10_0.currentShop3TgIndex == arg_15_1 + 1 then
+																	return
+																end
+
 																for iter_16_0 = 0, arg_10_0.shop3.childCount - 1 do
 																	setActive(arg_10_0.shop3:GetChild(iter_16_0):Find("selected"), false)
 																end
@@ -182,6 +187,8 @@ function var_0_0.SetShopList(arg_10_0)
 																arg_10_0.showingShop = arg_10_0.shopAgency:GetShopById(var_15_0.id)
 
 																arg_10_0:DoUpdateShowingShop()
+
+																arg_10_0.currentShop3TgIndex = arg_15_1 + 1
 															end
 														end, SFX_PANEL)
 
@@ -222,6 +229,10 @@ function var_0_0.SetShopList(arg_10_0)
 														setActive(arg_17_2:Find("selected/lock"), not var_17_1)
 														onToggle(arg_10_0, arg_17_2, function(arg_18_0)
 															if arg_18_0 then
+																if arg_10_0.currentShop1TgIndex == arg_11_1 and arg_10_0.currentShop2TgIndex == arg_13_1 + 1 and arg_10_0.currentShop3TgIndex == arg_17_1 + 1 then
+																	return
+																end
+
 																for iter_18_0 = 0, arg_10_0.shop32.childCount - 1 do
 																	setActive(arg_10_0.shop32:GetChild(iter_18_0):Find("selected"), false)
 																end
@@ -231,6 +242,8 @@ function var_0_0.SetShopList(arg_10_0)
 																arg_10_0.showingShop = arg_10_0.shopAgency:GetShopById(var_17_0.id)
 
 																arg_10_0:DoUpdateShowingShop()
+
+																arg_10_0.currentShop3TgIndex = arg_17_1 + 1
 															end
 														end, SFX_PANEL)
 
@@ -556,81 +569,22 @@ function var_0_0.SetCloseAndRefresh(arg_31_0, arg_31_1)
 end
 
 function var_0_0.SetCommodity(arg_35_0, arg_35_1, arg_35_2)
-	local var_35_0 = arg_35_2:GetMaxNum() - arg_35_2.purchasedNum
+	var_0_0.StaticUpdateCommodityTpl(arg_35_1, arg_35_2)
+	setActive(arg_35_1:Find("notInTime"), not arg_35_0.showingShop:IsInTime())
+	setText(arg_35_1:Find("sellOut/Text"), i18n("common_sale_out"))
+	setText(arg_35_1:Find("hold/Text"), i18n("common_already owned"))
 
-	setText(arg_35_1:Find("name"), arg_35_2:GetName())
-
-	if #arg_35_2:GetItems() == 1 and arg_35_2:GetItems()[1][1] ~= DROP_TYPE_ISLAND_FURNITURE and arg_35_2:GetItems()[1][1] ~= DROP_TYPE_ISLAND_DRESS and arg_35_2:GetItems()[1][1] ~= DROP_TYPE_ISLAND_SKIN then
-		local var_35_1 = arg_35_2:GetItems()[1]
-		local var_35_2 = {
-			type = var_35_1[1],
-			id = var_35_1[2],
-			count = var_35_1[3]
-		}
-
-		updateCustomDrop(arg_35_1:Find("IslandItemTpl"), var_35_2)
-	else
-		GetImageSpriteFromAtlasAsync(arg_35_2:GetIcon(), "", arg_35_1:Find("IslandItemTpl/icon_bg/icon"))
-	end
-
-	setActive(arg_35_1:Find("IslandItemTpl/icon_bg/count_bg"), arg_35_2:IsShowPurchaseLimit())
-	setText(arg_35_1:Find("IslandItemTpl/icon_bg/count_bg/count"), var_35_0 .. "/" .. arg_35_2:GetMaxNum())
-
-	local var_35_3 = arg_35_2:GetResourceConsume()
-
-	GetImageSpriteFromAtlasAsync(Drop.New({
-		type = var_35_3[1],
-		id = var_35_3[2]
-	}):getIcon(), "", arg_35_1:Find("cost/icon"))
-	setText(arg_35_1:Find("cost/num"), math.ceil((100 - arg_35_2:GetDiscount()) / 100 * var_35_3[3]))
-	setActive(arg_35_1:Find("sellOut"), arg_35_2:GetMaxNum() ~= 0 and var_35_0 == 0)
-	setActive(arg_35_1:Find("timeLimit"), arg_35_2:IsTimeLimitCommodity())
-	setActive(arg_35_1:Find("discount"), arg_35_2:GetDiscount() ~= 0)
-	setText(arg_35_1:Find("discount/Text"), "-" .. arg_35_2:GetDiscount() .. "%")
-
-	local var_35_4 = false
+	local var_35_0 = false
 
 	for iter_35_0, iter_35_1 in ipairs(arg_35_0.shoppingCartCommodities) do
 		if iter_35_1.id == arg_35_2.id then
-			var_35_4 = true
+			var_35_0 = true
 
 			break
 		end
 	end
 
-	setActive(arg_35_1:Find("select"), var_35_4)
-
-	local var_35_5 = arg_35_2:GetItems()[1][1]
-	local var_35_6 = arg_35_2:GetItems()[1][2]
-	local var_35_7 = 0
-
-	if var_35_5 == DROP_TYPE_ISLAND_ITEM then
-		var_35_7 = arg_35_0.inventoryAgency:GetOwnCount(var_35_6)
-	elseif var_35_5 == DROP_TYPE_ISLAND_FURNITURE then
-		local var_35_8 = getProxy(IslandProxy):GetIsland():GetAgoraAgency():GetFurnitures()
-
-		for iter_35_2, iter_35_3 in ipairs(var_35_8) do
-			if iter_35_3.id == var_35_6 then
-				var_35_7 = iter_35_3.count
-
-				break
-			end
-		end
-	elseif var_35_5 == DROP_TYPE_ISLAND_DRESS then
-		if pg.island_dress_template[var_35_6].belongto == 1 then
-			var_35_7 = getProxy(IslandProxy):GetIsland():GetDressUpAgency():CheckOwnDress(var_35_6) and 1 or 0
-		elseif pg.island_dress_template[var_35_6].belongto == 2 then
-			var_35_7 = arg_35_0.characterAgency:GetOwnDressCountByDressId(var_35_6)
-		end
-	elseif var_35_5 == DROP_TYPE_ISLAND_SKIN then
-		var_35_7 = arg_35_0.characterAgency:CheckSkinIsOwned(var_35_6) and 1 or 0
-	end
-
-	setActive(arg_35_1:Find("have"), arg_35_2:IsShowHave())
-	setText(arg_35_1:Find("have"), i18n("island_3Dshop_have") .. var_35_7)
-	setActive(arg_35_1:Find("hold"), arg_35_2:IsShowHold() and (var_35_7 > 0 or arg_35_2:IsCharacterInviteItemHold()))
-	setActive(arg_35_1:Find("cost"), not isActive(arg_35_1:Find("sellOut")) and not isActive(arg_35_1:Find("hold")))
-	setActive(arg_35_1:Find("notInTime"), not arg_35_0.showingShop:IsInTime())
+	setActive(arg_35_1:Find("select"), var_35_0)
 
 	if isActive(arg_35_1:Find("sellOut")) or isActive(arg_35_1:Find("hold")) or isActive(arg_35_1:Find("notInTime")) then
 		removeOnButton(arg_35_1)
@@ -863,6 +817,7 @@ function var_0_0.SetCommodityList(arg_48_0)
 	})
 	local var_48_2 = arg_48_0.showingShop:GetCommodities()
 
+	var_0_0.SortShopCommodities(var_48_2)
 	var_48_1:make(function(arg_53_0, arg_53_1, arg_53_2)
 		if arg_53_0 == UIItemList.EventUpdate then
 			local var_53_0 = var_48_2[arg_53_1 + 1]
@@ -1367,6 +1322,88 @@ function var_0_0.OnHide(arg_86_0)
 	end
 
 	arg_86_0.loadingIdList = {}
+end
+
+function var_0_0.StaticUpdateCommodityTpl(arg_87_0, arg_87_1)
+	local var_87_0 = arg_87_1:GetMaxNum() - arg_87_1.purchasedNum
+
+	setText(arg_87_0:Find("name"), arg_87_1:GetName())
+
+	if #arg_87_1:GetItems() == 1 and arg_87_1:GetItems()[1][1] ~= DROP_TYPE_ISLAND_FURNITURE and arg_87_1:GetItems()[1][1] ~= DROP_TYPE_ISLAND_DRESS and arg_87_1:GetItems()[1][1] ~= DROP_TYPE_ISLAND_SKIN then
+		local var_87_1 = arg_87_1:GetItems()[1]
+		local var_87_2 = {
+			type = var_87_1[1],
+			id = var_87_1[2],
+			count = var_87_1[3]
+		}
+
+		updateCustomDrop(arg_87_0:Find("IslandItemTpl"), var_87_2, {
+			style = "island"
+		})
+	else
+		GetImageSpriteFromAtlasAsync(arg_87_1:GetIcon(), "", arg_87_0:Find("IslandItemTpl/icon_bg/icon"))
+	end
+
+	setActive(arg_87_0:Find("IslandItemTpl/icon_bg/count_bg"), arg_87_1:IsShowPurchaseLimit())
+	setText(arg_87_0:Find("IslandItemTpl/icon_bg/count_bg/count"), var_87_0 .. "/" .. arg_87_1:GetMaxNum())
+
+	local var_87_3 = arg_87_1:GetResourceConsume()
+
+	GetImageSpriteFromAtlasAsync(Drop.New({
+		type = var_87_3[1],
+		id = var_87_3[2]
+	}):getIcon(), "", arg_87_0:Find("cost/icon"))
+	setText(arg_87_0:Find("cost/num"), math.ceil((100 - arg_87_1:GetDiscount()) / 100 * var_87_3[3]))
+	setActive(arg_87_0:Find("timeLimit"), arg_87_1:IsTimeLimitCommodity())
+	setActive(arg_87_0:Find("discount"), arg_87_1:GetDiscount() ~= 0)
+	setText(arg_87_0:Find("discount/Text"), "-" .. arg_87_1:GetDiscount() .. "%")
+
+	local var_87_4 = arg_87_1:GetItems()[1][1]
+	local var_87_5 = arg_87_1:GetItems()[1][2]
+	local var_87_6 = Drop.New({
+		count = 1,
+		type = var_87_4,
+		id = var_87_5
+	}):getOwnedCount()
+
+	setActive(arg_87_0:Find("have"), arg_87_1:IsShowHave())
+	setText(arg_87_0:Find("have"), i18n("island_3Dshop_have") .. var_87_6)
+	setActive(arg_87_0:Find("hold"), arg_87_1:IsShowHold() and (var_87_6 > 0 or arg_87_1:IsCharacterInviteItemHold()))
+	setActive(arg_87_0:Find("sellOut"), arg_87_1:GetMaxNum() ~= 0 and var_87_0 == 0 and not isActive(arg_87_0:Find("hold")))
+	setActive(arg_87_0:Find("cost"), not isActive(arg_87_0:Find("sellOut")) and not isActive(arg_87_0:Find("hold")))
+	setActive(arg_87_0:Find("select"), false)
+end
+
+function var_0_0.SortShopCommodities(arg_88_0)
+	table.sort(arg_88_0, CompareFuncs({
+		function(arg_89_0)
+			local var_89_0 = arg_89_0:GetMaxNum() - arg_89_0.purchasedNum
+
+			if arg_89_0:GetMaxNum() ~= 0 and var_89_0 == 0 then
+				return 3
+			end
+
+			if arg_89_0:IsShowHold() then
+				if arg_89_0:IsCharacterInviteItemHold() then
+					return 2
+				else
+					local var_89_1 = arg_89_0:GetItems()[1][1]
+					local var_89_2 = arg_89_0:GetItems()[1][2]
+
+					return Drop.New({
+						count = 1,
+						type = var_89_1,
+						id = var_89_2
+					}):getOwnedCount() > 0 and 2 or 1
+				end
+			else
+				return 1
+			end
+		end,
+		function(arg_90_0)
+			return arg_90_0.id
+		end
+	}))
 end
 
 return var_0_0

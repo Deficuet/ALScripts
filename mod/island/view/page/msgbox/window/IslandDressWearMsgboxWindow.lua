@@ -47,4 +47,9 @@ function var_0_0.OnDressUpdateItem(arg_5_0, arg_5_1, arg_5_2)
 	GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. var_5_3, "", var_5_0:Find("shipHold/ship_icon"))
 end
 
+function var_0_0.OnDestroy(arg_6_0)
+	var_0_0.super.OnDestroy(arg_6_0)
+	ClearLScrollrect(arg_6_0.dressRect)
+end
+
 return var_0_0

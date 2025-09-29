@@ -54,7 +54,6 @@ pg.island_illustrated_guide = setmetatable({
 		50,
 		51,
 		52,
-		54,
 		57,
 		58,
 		59,
@@ -110,7 +109,6 @@ pg.island_illustrated_guide = setmetatable({
 		116,
 		117,
 		118,
-		119,
 		120,
 		121,
 		122,
@@ -124,7 +122,6 @@ pg.island_illustrated_guide = setmetatable({
 		130,
 		131,
 		132,
-		133,
 		134,
 		135,
 		136,
@@ -980,15 +977,6 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {}
 	},
-	[54] = {
-		unlock_id = 1501,
-		collect_add = 0,
-		type = 3,
-		id = 54,
-		order = 24,
-		collect_upgrade = {},
-		collect_star = {}
-	},
 	[57] = {
 		unlock_id = 2000,
 		collect_add = 0,
@@ -1484,15 +1472,6 @@ pg.base.island_illustrated_guide = {
 		collect_upgrade = {},
 		collect_star = {}
 	},
-	[119] = {
-		unlock_id = 3016,
-		collect_add = 0,
-		type = 3,
-		id = 119,
-		order = 89,
-		collect_upgrade = {},
-		collect_star = {}
-	},
 	[120] = {
 		unlock_id = 3017,
 		collect_add = 0,
@@ -1607,15 +1586,6 @@ pg.base.island_illustrated_guide = {
 		type = 3,
 		id = 132,
 		order = 102,
-		collect_upgrade = {},
-		collect_star = {}
-	},
-	[133] = {
-		unlock_id = 3031,
-		collect_add = 0,
-		type = 3,
-		id = 133,
-		order = 103,
 		collect_upgrade = {},
 		collect_star = {}
 	},

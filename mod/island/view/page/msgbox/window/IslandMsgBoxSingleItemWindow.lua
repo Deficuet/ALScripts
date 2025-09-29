@@ -59,6 +59,7 @@ function var_0_0.FlushAcquiringWay(arg_5_0, arg_5_1)
 				arg_5_0:GetMsgBoxMgr():emit(IslandMediator.OPEN_PAGE, var_6_0[2][1], var_6_0[2][2])
 				arg_5_0:Hide()
 			end, SFX_PANEL)
+			setActive(arg_6_2:Find("go"), var_6_0[2] and #var_6_0[2] > 0)
 		end
 	end)
 	arg_5_0.uiItemList:align(#var_5_0)

@@ -269,21 +269,29 @@ end
 function var_0_0.OnDispose(arg_25_0)
 	var_0_0.super.OnDispose(arg_25_0)
 
-	for iter_25_0, iter_25_1 in pairs(arg_25_0.bubblePlayers) do
+	for iter_25_0, iter_25_1 in ipairs(arg_25_0.views) do
 		iter_25_1:Dispose()
+	end
+
+	for iter_25_2, iter_25_3 in pairs(arg_25_0.bubblePlayers) do
+		iter_25_3:Dispose()
+	end
+
+	for iter_25_4, iter_25_5 in ipairs(arg_25_0.views) do
+		iter_25_5:Dispose()
 	end
 
 	arg_25_0.bubblePlayers = nil
 
-	for iter_25_2, iter_25_3 in pairs(arg_25_0.chatPlayers) do
-		iter_25_3:Dispose()
+	for iter_25_6, iter_25_7 in pairs(arg_25_0.chatPlayers) do
+		iter_25_7:Dispose()
 	end
 
 	arg_25_0.chatPlayers = nil
 
-	for iter_25_4, iter_25_5 in pairs(arg_25_0.animationOpTpls) do
-		iter_25_5.transform:Find("tpl"):GetComponent(typeof(DftAniEvent)):SetEndEvent(nil)
-		Object.Destroy(iter_25_5)
+	for iter_25_8, iter_25_9 in pairs(arg_25_0.animationOpTpls) do
+		iter_25_9.transform:Find("tpl"):GetComponent(typeof(DftAniEvent)):SetEndEvent(nil)
+		Object.Destroy(iter_25_9)
 	end
 
 	arg_25_0.animationOpTpls = nil

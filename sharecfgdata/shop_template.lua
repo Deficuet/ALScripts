@@ -26296,6 +26296,72 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.shop_template[60678] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 2,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "600钻石购买限时礼包-心动时刻(0912日服周年第三弹版本)",
+		group_limit = 0,
+		type_order = 5,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 0,
+		genre = "gift_package",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 60678,
+		resource_num = 600,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				1
+			}
+		},
+		effect_args = {
+			81220
+		},
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.shop_template[61001] = {
 		first_text = "",
 		package_sort_id = 0,

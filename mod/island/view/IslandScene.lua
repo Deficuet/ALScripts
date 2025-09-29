@@ -160,9 +160,7 @@ function var_0_0.OnStartNavPath(arg_19_0, arg_19_1)
 end
 
 function var_0_0.OnNavPathDone(arg_20_0, arg_20_1)
-	if arg_20_1 then
-		arg_20_0:GetIsland():DispatchEvent(IslandProxy.END_PATHFINDER)
-	end
+	arg_20_0:GetIsland():DispatchEvent(IslandProxy.END_PATHFINDER)
 end
 
 function var_0_0.OnExpChange(arg_21_0)

@@ -40,6 +40,9 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.energyTF = arg_2_0:findTF("energy", arg_2_0.energyTFInfo)
 	arg_2_0.statusTF = arg_2_0:findTF("status", arg_2_0.infoPanel)
 	arg_2_0.sureBtn = arg_2_0:findTF("sure")
+
+	setText(arg_2_0.sureBtn:Find("Text"), i18n("shop_new_confirm"))
+
 	arg_2_0.indexBtn = arg_2_0._tf:Find("frame/filter_panel/IndexIco")
 	arg_2_0.orderBtn = arg_2_0._tf:Find("frame/filter_panel/index")
 	arg_2_0.orderIco = arg_2_0._tf:Find("frame/filter_panel/index/content/icon/icon")
@@ -58,6 +61,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.shipEmpty = arg_2_0.frameTF:Find("empShip")
 
 	setText(arg_2_0.shipEmpty:Find("Text"), i18n("island_production_selected_tip2"))
+	setText(arg_2_0.recoveryTimeTips, i18n("island_ship_energy_recoverytips"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -469,6 +473,7 @@ function var_0_0.GetShips(arg_39_0)
 end
 
 function var_0_0.OnDestroy(arg_40_0)
+	ClearLScrollrect(arg_40_0.shipRectCom)
 	arg_40_0:StopTimer()
 end
 

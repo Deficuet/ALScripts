@@ -74,7 +74,7 @@ function var_0_0.OnVisitorExit(arg_13_0, arg_13_1)
 			if var_13_1.type == IslandConst.SYNC_TYPE_AGORA then
 				arg_13_0:Op("InterActionEndSync", var_13_1.id, arg_13_1)
 			elseif var_13_1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
-				arg_13_0:Op("WorldObjectInterActionEnd", var_13_1.id, arg_13_1, true)
+				arg_13_0:Op("WorldObjectInterActionEndSync", var_13_1.id, arg_13_1)
 			end
 		end
 
@@ -204,7 +204,7 @@ function var_0_0.InitSyncObj(arg_24_0)
 					for iter_24_2, iter_24_3 in pairs(var_24_1.owners) do
 						if iter_24_3 ~= arg_24_0.playerId then
 							arg_24_0.visitorDic[iter_24_3]:RecordLastInteract(iter_24_1.id, iter_24_1.type)
-							arg_24_0:Op("WorldObjectInterAction", iter_24_1.id, iter_24_3, iter_24_1.status, true)
+							arg_24_0:Op("WorldObjectInterActionSync", iter_24_1.id, iter_24_3, iter_24_1.status, iter_24_2)
 						end
 					end
 				elseif iter_24_1.status > 0 then
@@ -248,16 +248,16 @@ function var_0_0.UpdateSyncObj(arg_27_0, arg_27_1)
 			arg_27_0:Op("InterActionEndSync", arg_27_1.id, arg_29_0)
 		end)
 	elseif arg_27_1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
-		arg_27_0:OnVisitorInteract(arg_27_1, function(arg_30_0)
+		arg_27_0:OnVisitorInteract(arg_27_1, function(arg_30_0, arg_30_1)
 			arg_27_0:GetUnit(arg_27_1.type, arg_27_1.id):SetStatus(arg_27_1.status)
 
 			if not arg_27_0:SyncVisitorExist(arg_30_0) then
 				return
 			end
 
-			arg_27_0:Op("WorldObjectInterAction", arg_27_1.id, arg_30_0, arg_27_1.status, true)
+			arg_27_0:Op("WorldObjectInterActionSync", arg_27_1.id, arg_30_0, arg_27_1.status, arg_30_1)
 		end, function(arg_31_0)
-			arg_27_0:Op("WorldObjectInterActionEnd", arg_27_1.id, arg_31_0, true)
+			arg_27_0:Op("WorldObjectInterActionEndSync", arg_27_1.id, arg_31_0)
 		end)
 	end
 end

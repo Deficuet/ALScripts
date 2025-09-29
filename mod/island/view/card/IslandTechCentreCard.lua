@@ -9,6 +9,8 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.lineTF = arg_1_0._tf:Find("line")
 	arg_1_0.lockTF = arg_1_0._tf:Find("lock")
 
+	setText(arg_1_0.lockTF:Find("Image/tip/Text"), i18n("island_tech_lock"))
+
 	local var_1_0 = arg_1_0._tf:Find("items_view/content")
 
 	arg_1_0.uiList = UIItemList.New(var_1_0, var_1_0:Find("tpl"))

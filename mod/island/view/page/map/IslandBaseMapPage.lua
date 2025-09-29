@@ -69,6 +69,7 @@ function var_0_0.Flush(arg_13_0)
 		setActive(iter_13_1:Find("full"), false)
 		setActive(iter_13_1:Find("finish"), false)
 		setActive(iter_13_1:Find("fetch"), false)
+		setActive(iter_13_1:Find("icon"), var_13_0)
 	end
 end
 

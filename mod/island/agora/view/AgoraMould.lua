@@ -68,6 +68,8 @@ function var_0_0.UpdatePosition(arg_8_0, arg_8_1)
 
 	if arg_8_0.data:IsBuildingType() then
 		var_8_1 = IslandConst.AGORA_BUILDING_Y_OFFSET
+	elseif arg_8_0.data:IsNewTileType() then
+		var_8_1 = Vector3(0, 0.01, 0)
 	end
 
 	arg_8_0.root.position = var_8_0 + IslandConst.AGORA_POSITION_OFFSET + var_8_1

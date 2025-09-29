@@ -157,6 +157,8 @@ function var_0_0.FlushList(arg_21_0)
 end
 
 function var_0_0.OnDestroy(arg_22_0)
+	ClearLScrollrect(arg_22_0._scrollrect)
+
 	for iter_22_0, iter_22_1 in pairs(arg_22_0.cards) do
 		iter_22_1:Dispose()
 	end

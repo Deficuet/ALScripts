@@ -9,6 +9,9 @@ var_0_0.END_PATHFINDER = "IslandProxy:END_PATHFINDER"
 var_0_0.ACTIVE_OR_DISABLE_UNIT = "IslandProxy:ACTIVE_OR_DISABLE_UNIT"
 var_0_0.LINK_CORE = "IslandProxy:LINK_CORE"
 var_0_0.GEN_RECYCLEITEM = "IslandProxy:GEN_RECYCLEITEM"
+var_0_0.LOCK_NPC_REFRESH = "IslandProxy:LOCK_NPC_REFRESH"
+var_0_0.RELEASE_NPC_REFRESH = "IslandProxy:RELEASE_NPC_REFRESH"
+var_0_0.RESET_SP = "IslandProxy:RESET_SP"
 var_0_0.CHAT_MSG_UPDATE = "IslandProxy:CHAT_MSG_UPDATE"
 
 function var_0_0.register(arg_1_0)

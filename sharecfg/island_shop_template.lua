@@ -199,6 +199,11 @@ pg.island_shop_template = {
 				0,
 				1,
 				14
+			},
+			{
+				0,
+				41,
+				1
 			}
 		},
 		goods_id = {
@@ -222,8 +227,8 @@ pg.island_shop_template = {
 		id = 10010,
 		order = 1,
 		tag_icon = {
-			"赛季",
-			"saiji",
+			"开发季",
+			"Season",
 			"IslandShopIcon/tuijian"
 		}
 	},
@@ -241,7 +246,7 @@ pg.island_shop_template = {
 		id = 10011,
 		order = 1,
 		tag_icon = {
-			"赛季商品"
+			"开发季商品"
 		}
 	},
 	[10012] = {
@@ -254,7 +259,7 @@ pg.island_shop_template = {
 		dress_type = 0,
 		order = 1,
 		shop_icon = {
-			"赛季商店",
+			"开发季商店",
 			"mystery"
 		},
 		tag_icon = {
@@ -310,7 +315,7 @@ pg.island_shop_template = {
 		dress_type = 0,
 		order = 1,
 		shop_icon = {
-			"赛季商店",
+			"开发季商店",
 			"mystery"
 		},
 		tag_icon = {
@@ -355,7 +360,7 @@ pg.island_shop_template = {
 		dress_type = 0,
 		order = 1,
 		shop_icon = {
-			"赛季商店",
+			"开发季商店",
 			"mystery"
 		},
 		tag_icon = {

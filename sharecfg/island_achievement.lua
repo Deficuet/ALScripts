@@ -609,7 +609,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
 		id = 51,
-		target_num = 5,
+		target_num = 3,
 		award = {
 			{
 				45,
@@ -634,7 +634,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
 		id = 52,
-		target_num = 10,
+		target_num = 4,
 		award = {
 			{
 				41,
@@ -659,7 +659,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
 		id = 53,
-		target_num = 15,
+		target_num = 6,
 		award = {
 			{
 				41,
@@ -684,7 +684,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
 		id = 54,
-		target_num = 20,
+		target_num = 8,
 		award = {
 			{
 				1,
@@ -709,7 +709,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
 		id = 55,
-		target_num = 25,
+		target_num = 10,
 		award = {
 			{
 				41,
@@ -734,7 +734,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官服装",
 		id = 56,
-		target_num = 30,
+		target_num = 16,
 		award = {
 			{
 				1,
@@ -759,7 +759,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
 		id = 61,
-		target_num = 5,
+		target_num = 3,
 		award = {
 			{
 				45,
@@ -784,7 +784,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
 		id = 62,
-		target_num = 10,
+		target_num = 4,
 		award = {
 			{
 				41,
@@ -809,7 +809,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
 		id = 63,
-		target_num = 15,
+		target_num = 6,
 		award = {
 			{
 				41,
@@ -834,7 +834,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
 		id = 64,
-		target_num = 20,
+		target_num = 8,
 		award = {
 			{
 				1,
@@ -859,7 +859,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
 		id = 65,
-		target_num = 25,
+		target_num = 10,
 		award = {
 			{
 				41,
@@ -884,7 +884,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官背饰",
 		id = 66,
-		target_num = 30,
+		target_num = 16,
 		award = {
 			{
 				1,
@@ -909,7 +909,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
 		id = 71,
-		target_num = 5,
+		target_num = 3,
 		award = {
 			{
 				45,
@@ -934,7 +934,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
 		id = 72,
-		target_num = 10,
+		target_num = 4,
 		award = {
 			{
 				41,
@@ -959,7 +959,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
 		id = 73,
-		target_num = 15,
+		target_num = 6,
 		award = {
 			{
 				41,
@@ -984,7 +984,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
 		id = 74,
-		target_num = 20,
+		target_num = 8,
 		award = {
 			{
 				1,
@@ -1009,7 +1009,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
 		id = 75,
-		target_num = 25,
+		target_num = 10,
 		award = {
 			{
 				41,
@@ -1034,7 +1034,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官脚印",
 		id = 76,
-		target_num = 30,
+		target_num = 16,
 		award = {
 			{
 				1,
@@ -1059,7 +1059,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
 		id = 81,
-		target_num = 5,
+		target_num = 3,
 		award = {
 			{
 				45,
@@ -1084,7 +1084,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
 		id = 82,
-		target_num = 10,
+		target_num = 4,
 		award = {
 			{
 				41,
@@ -1109,7 +1109,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
 		id = 83,
-		target_num = 15,
+		target_num = 6,
 		award = {
 			{
 				41,
@@ -1134,7 +1134,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
 		id = 84,
-		target_num = 20,
+		target_num = 8,
 		award = {
 			{
 				1,
@@ -1159,7 +1159,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
 		id = 85,
-		target_num = 25,
+		target_num = 10,
 		award = {
 			{
 				41,
@@ -1184,7 +1184,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官漂浮物",
 		id = 86,
-		target_num = 30,
+		target_num = 16,
 		award = {
 			{
 				1,
@@ -1209,7 +1209,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官互动动作",
 		id = 91,
-		target_num = 5,
+		target_num = 10,
 		award = {
 			{
 				45,
@@ -1234,7 +1234,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官互动动作",
 		id = 92,
-		target_num = 10,
+		target_num = 12,
 		award = {
 			{
 				41,
@@ -1334,7 +1334,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种指挥官互动动作",
 		id = 96,
-		target_num = 30,
+		target_num = 35,
 		award = {
 			{
 				1,
@@ -3159,7 +3159,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
 		id = 2051,
-		target_num = 150,
+		target_num = 30,
 		award = {
 			{
 				45,
@@ -3184,7 +3184,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
 		id = 2052,
-		target_num = 300,
+		target_num = 80,
 		award = {
 			{
 				41,
@@ -3209,7 +3209,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
 		id = 2053,
-		target_num = 600,
+		target_num = 150,
 		award = {
 			{
 				41,
@@ -3234,7 +3234,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
 		id = 2054,
-		target_num = 1200,
+		target_num = 300,
 		award = {
 			{
 				1,
@@ -3259,7 +3259,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
 		id = 2055,
-		target_num = 1800,
+		target_num = 600,
 		award = {
 			{
 				41,
@@ -3284,7 +3284,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "进行抽取<color=#cd7900><b>$2</b></color>次岛屿星彩奖",
 		id = 2056,
-		target_num = 2500,
+		target_num = 900,
 		award = {
 			{
 				1,
@@ -3909,7 +3909,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
 		id = 3051,
-		target_num = 5,
+		target_num = 1,
 		award = {
 			{
 				45,
@@ -3934,7 +3934,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
 		id = 3052,
-		target_num = 7,
+		target_num = 3,
 		award = {
 			{
 				41,
@@ -3959,7 +3959,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
 		id = 3053,
-		target_num = 9,
+		target_num = 5,
 		award = {
 			{
 				41,
@@ -3984,7 +3984,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
 		id = 3054,
-		target_num = 11,
+		target_num = 10,
 		award = {
 			{
 				1,
@@ -4009,7 +4009,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
 		id = 3055,
-		target_num = 13,
+		target_num = 15,
 		award = {
 			{
 				41,
@@ -4034,7 +4034,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>件角色服装",
 		id = 3056,
-		target_num = 15,
+		target_num = 25,
 		award = {
 			{
 				1,
@@ -4059,7 +4059,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
 		id = 3061,
-		target_num = 5,
+		target_num = 1,
 		award = {
 			{
 				45,
@@ -4084,7 +4084,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
 		id = 3062,
-		target_num = 10,
+		target_num = 2,
 		award = {
 			{
 				41,
@@ -4109,7 +4109,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
 		id = 3063,
-		target_num = 15,
+		target_num = 4,
 		award = {
 			{
 				41,
@@ -4134,7 +4134,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
 		id = 3064,
-		target_num = 20,
+		target_num = 8,
 		award = {
 			{
 				1,
@@ -4159,7 +4159,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
 		id = 3065,
-		target_num = 25,
+		target_num = 10,
 		award = {
 			{
 				41,
@@ -4184,7 +4184,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色背饰",
 		id = 3066,
-		target_num = 30,
+		target_num = 15,
 		award = {
 			{
 				1,
@@ -4209,7 +4209,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
 		id = 3071,
-		target_num = 5,
+		target_num = 1,
 		award = {
 			{
 				45,
@@ -4234,7 +4234,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
 		id = 3072,
-		target_num = 10,
+		target_num = 2,
 		award = {
 			{
 				41,
@@ -4259,7 +4259,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
 		id = 3073,
-		target_num = 15,
+		target_num = 4,
 		award = {
 			{
 				41,
@@ -4284,7 +4284,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
 		id = 3074,
-		target_num = 20,
+		target_num = 8,
 		award = {
 			{
 				1,
@@ -4309,7 +4309,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
 		id = 3075,
-		target_num = 25,
+		target_num = 10,
 		award = {
 			{
 				41,
@@ -4334,7 +4334,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色漂浮物",
 		id = 3076,
-		target_num = 30,
+		target_num = 15,
 		award = {
 			{
 				1,
@@ -4359,7 +4359,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
 		id = 3081,
-		target_num = 5,
+		target_num = 1,
 		award = {
 			{
 				45,
@@ -4384,7 +4384,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
 		id = 3082,
-		target_num = 10,
+		target_num = 2,
 		award = {
 			{
 				41,
@@ -4409,7 +4409,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
 		id = 3083,
-		target_num = 15,
+		target_num = 4,
 		award = {
 			{
 				41,
@@ -4434,7 +4434,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
 		id = 3084,
-		target_num = 20,
+		target_num = 8,
 		award = {
 			{
 				1,
@@ -4459,7 +4459,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
 		id = 3085,
-		target_num = 25,
+		target_num = 10,
 		award = {
 			{
 				41,
@@ -4484,7 +4484,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "累计收集<color=#cd7900><b>$2</b></color>种角色脚印",
 		id = 3086,
-		target_num = 30,
+		target_num = 15,
 		award = {
 			{
 				1,

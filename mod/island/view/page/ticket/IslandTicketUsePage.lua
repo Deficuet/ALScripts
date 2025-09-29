@@ -456,6 +456,8 @@ function var_0_0.OnDisable(arg_52_0)
 end
 
 function var_0_0.OnDestroy(arg_53_0)
+	ClearLScrollrect(arg_53_0.scrollRect)
+
 	for iter_53_0, iter_53_1 in pairs(arg_53_0.cards) do
 		iter_53_1:Dispose()
 	end

@@ -186893,6 +186893,58 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[170000] = {
+		display = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		name = "星彩券 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 999901,
+		virtual_type = 101,
+		is_world = 0,
+		icon = "Props/170000",
+		id = 170000,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[170001] = {
+		display = "闪烁着星辉的抽奖券。使用后，可在星彩奖中抽取各种珍贵奖励。 ",
+		name = "星彩券 ",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 999901,
+		virtual_type = 101,
+		is_world = 0,
+		icon = "Props/170000",
+		id = 170001,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[200001] = {
 		display = "有几率获得以下设计图",
 		name = "未知设计图",

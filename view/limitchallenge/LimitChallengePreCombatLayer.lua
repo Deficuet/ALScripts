@@ -27,9 +27,6 @@ function var_0_0.CommonInit(arg_4_0)
 	arg_4_0._popup = arg_4_0._costContainer:Find("popup")
 	arg_4_0._costText = arg_4_0._popup:Find("Text")
 	arg_4_0._moveLayer = arg_4_0:findTF("moveLayer")
-
-	local var_4_0 = arg_4_0:findTF("middle")
-
 	arg_4_0._autoToggle = arg_4_0:findTF("auto_toggle")
 	arg_4_0._autoSubToggle = arg_4_0:findTF("sub_toggle_container/sub_toggle")
 	arg_4_0._fleetInfo = arg_4_0._tf:Find("right/fleet_info")
@@ -37,6 +34,8 @@ function var_0_0.CommonInit(arg_4_0)
 	arg_4_0._fleetNumText = arg_4_0._fleetInfo:Find("fleet_number")
 
 	setActive(arg_4_0._fleetInfo, true)
+
+	local var_4_0 = arg_4_0:findTF("middle")
 
 	arg_4_0._mainGS = var_4_0:Find("gear_score/main/Text")
 	arg_4_0._vanguardGS = var_4_0:Find("gear_score/vanguard/Text")
@@ -405,6 +404,8 @@ function var_0_0.uiExitAnimating(arg_34_0)
 end
 
 function var_0_0.didEnter(arg_35_0)
+	GetOrAddComponent(arg_35_0._tf, typeof(CanvasGroup)).interactable = true
+
 	onButton(arg_35_0, arg_35_0._backBtn, function()
 		arg_35_0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
 
@@ -540,11 +541,12 @@ function var_0_0.onBackPressed(arg_53_0)
 end
 
 function var_0_0.willExit(arg_54_0)
-	arg_54_0:UnOverlayPanel(arg_54_0._tf)
 	arg_54_0.commanderFormationPanel:Destroy()
 	arg_54_0._formationLogic:Destroy()
 
 	arg_54_0._formationLogic = nil
+
+	arg_54_0:UnOverlayPanel(arg_54_0._tf)
 end
 
 return var_0_0

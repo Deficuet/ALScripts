@@ -5,6 +5,10 @@ var_0_0.YUMIA_MATERIAL_DROP_TYPE_LIST = {
 }
 
 function var_0_0.NeedShowYumiaMaterailDrop(arg_1_0)
+	if not arg_1_0 then
+		return false
+	end
+
 	for iter_1_0, iter_1_1 in ipairs(arg_1_0) do
 		if table.contains(var_0_0.YUMIA_MATERIAL_DROP_TYPE_LIST, iter_1_1.type) then
 			return true

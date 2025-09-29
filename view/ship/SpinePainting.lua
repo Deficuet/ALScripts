@@ -156,7 +156,8 @@ end
 
 function var_0_0.Ctor(arg_11_0, arg_11_1, arg_11_2)
 	arg_11_0._spinePaintingData = arg_11_1
-	arg_11_0._loader = AutoLoader.New()
+	arg_11_0._loadSpineDic = {}
+	arg_11_0._loadUIDic = {}
 
 	parallelAsync({
 		function(arg_12_0)
@@ -164,21 +165,23 @@ function var_0_0.Ctor(arg_11_0, arg_11_1, arg_11_2)
 			local var_12_1, var_12_2 = HXSet.autoHxShift("spinepainting/", var_12_0)
 			local var_12_3 = var_12_1 .. var_12_2
 
-			arg_11_0._loader:LoadPrefab(var_12_3, nil, function(arg_13_0)
+			PoolMgr.GetInstance():GetSpinePainting(var_12_0, true, function(arg_13_0)
+				arg_11_0._loadSpineDic[var_12_0] = arg_13_0
+
 				var_0_2(arg_11_0, arg_13_0)
 				arg_12_0()
-			end, var_12_3)
+			end)
 		end,
 		function(arg_14_0)
 			local var_14_0 = arg_11_0._spinePaintingData.bgEffectName
 
 			if var_14_0 ~= nil then
-				local var_14_1 = "ui/" .. var_14_0
+				PoolMgr.GetInstance():GetUI(var_14_0, true, function(arg_15_0)
+					arg_11_0._loadUIDic[var_14_0] = arg_15_0
 
-				arg_11_0._loader:LoadPrefab(var_14_1, "", function(arg_15_0)
 					var_0_3(arg_11_0, arg_15_0)
 					arg_14_0()
-				end, var_14_1)
+				end)
 			else
 				arg_14_0()
 			end
@@ -730,7 +733,16 @@ function var_0_0.Dispose(arg_57_0)
 		arg_57_0._spinePaintingData:Clear()
 	end
 
-	arg_57_0._loader:Clear()
+	for iter_57_0, iter_57_1 in pairs(arg_57_0._loadSpineDic) do
+		PoolMgr.GetInstance():ReturnSpinePainting(iter_57_0, iter_57_1)
+	end
+
+	for iter_57_2, iter_57_3 in pairs(arg_57_0._loadUIDic) do
+		PoolMgr.GetInstance():ReturnUI(iter_57_2, iter_57_3)
+	end
+
+	arg_57_0._loadSpineDic = {}
+	arg_57_0._loadUIDic = {}
 
 	if arg_57_0._go ~= nil then
 		var_0_1.Destroy(arg_57_0._go)

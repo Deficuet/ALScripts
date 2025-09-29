@@ -72,6 +72,8 @@ end
 
 function gcAll(arg_6_0)
 	PoolMgr.GetInstance():ExcessPainting(true)
+	PoolMgr.GetInstance():ExcessDymPainting(true)
+	PoolMgr.GetInstance():ExcessSpineChar(true)
 	GCThread.GetInstance():GC(arg_6_0)
 end
 

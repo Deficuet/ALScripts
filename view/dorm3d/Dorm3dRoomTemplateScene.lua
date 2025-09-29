@@ -865,6 +865,8 @@ function var_0_0.HXCharacter(arg_72_0, arg_72_1)
 
 		if var_73_1 then
 			arg_73_1.sharedMaterials = var_73_0
+
+			GraphicsInterface.Instance:UpdateCharacterMaterialLst(go(arg_72_1))
 		end
 	end)
 end

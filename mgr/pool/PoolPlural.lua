@@ -19,14 +19,14 @@ end
 function var_0_1.Enqueue(arg_2_0, arg_2_1, arg_2_2)
 	arg_2_0.balance = arg_2_0.balance - 1
 
-	if arg_2_2 and not arg_2_0.keep or #arg_2_0.items >= arg_2_0.capacity then
-		var_0_0.Destroy(arg_2_1)
-
-		return true
-	else
+	if #arg_2_0.items < arg_2_0.capacity and (arg_2_0.keep or not arg_2_2) then
 		table.insert(arg_2_0.items, arg_2_1)
 
 		return false
+	else
+		var_0_0.Destroy(arg_2_1)
+
+		return true
 	end
 end
 
@@ -61,11 +61,9 @@ function var_0_1.ClearPrefab(arg_6_0)
 end
 
 function var_0_1.ClearItems(arg_7_0)
-	for iter_7_0 = 1, #arg_7_0.items do
-		var_0_0.Destroy(arg_7_0.items[iter_7_0])
+	while #arg_7_0.items > 0 do
+		var_0_0.Destroy(table.remove(arg_7_0.items))
 	end
-
-	table.clear(arg_7_0.items)
 
 	arg_7_0.balance = 0
 end

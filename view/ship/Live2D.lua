@@ -844,9 +844,9 @@ function var_0_0.Ctor(arg_38_0, arg_38_1, arg_38_2)
 
 	assert(not arg_38_0.live2dData:isEmpty())
 
-	local var_38_0 = arg_38_0.live2dData:GetShipName()
+	arg_38_0.modelName = arg_38_0.live2dData:GetShipName()
 
-	local function var_38_1(arg_39_0)
+	local function var_38_0(arg_39_0)
 		var_0_20(arg_38_0, arg_39_0)
 
 		if arg_38_2 then
@@ -854,7 +854,7 @@ function var_0_0.Ctor(arg_38_0, arg_38_1, arg_38_2)
 		end
 	end
 
-	arg_38_0.live2dRequestId = pg.Live2DMgr.GetInstance():GetLive2DModelAsync(var_38_0, var_38_1)
+	arg_38_0.live2dRequestId = pg.Live2DMgr.GetInstance():GetLive2DModelAsync(arg_38_0.modelName, var_38_0)
 	Input.gyro.enabled = arg_38_0.live2dData.gyro == 1 and PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
 	arg_38_0.useEventTriggerFlag = true
 end
@@ -1398,6 +1398,7 @@ function var_0_0.Dispose(arg_76_0)
 		arg_76_0.liveCom:SetMouseInputActions(nil, nil)
 	end
 
+	arg_76_0.dftCom:SetCommonEvent(nil)
 	arg_76_0:stopVoice()
 	arg_76_0:unloadCueSheet()
 
@@ -1440,7 +1441,10 @@ function var_0_0.Dispose(arg_76_0)
 	end
 
 	if arg_76_0._go and arg_76_0.state == var_0_0.STATE_INITED then
-		Destroy(arg_76_0._go)
+		pg.Live2DMgr.GetInstance():ReturnLive2DModel(arg_76_0.modelName, arg_76_0._go)
+
+		arg_76_0.modelName = nil
+		arg_76_0._go = nil
 	end
 
 	arg_76_0.state = var_0_0.STATE_DISPOSE

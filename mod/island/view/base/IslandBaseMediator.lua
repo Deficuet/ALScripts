@@ -172,7 +172,6 @@ function var_0_0.handleNotification(arg_12_0, arg_12_1)
 	elseif var_12_0 == GAME.ISLAND_ON_RECONNECT then
 		arg_12_0.viewComponent:ExitProcess(BaseUI.ON_HOME, function()
 			pg.m02:sendNotification(GAME.ISLAND_ENTER, var_12_1)
-			pg.NewGuideMgr.GetInstance():Stop()
 		end)
 	elseif var_12_0 == GAME.ISLAND_SELECT_GIFT_DONE then
 		arg_12_0.viewComponent:HandleAwardDisplay(var_12_1.dropData, var_12_1.callback, IslandAwardDisplayPage.TYPE_SIGN_GIFT)

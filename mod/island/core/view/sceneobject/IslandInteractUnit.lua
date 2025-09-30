@@ -20,6 +20,7 @@ function var_0_0.OnAttach(arg_1_0, arg_1_1)
 	end)
 
 	arg_1_0.director = GetOrAddComponent(var_1_0, typeof(UnityEngine.Playables.PlayableDirector))
+	arg_1_0.cachePlayerTransformInfoDic = {}
 end
 
 function var_0_0.SetTimelineDic(arg_4_0, arg_4_1)
@@ -39,10 +40,9 @@ function var_0_0.StartInteract(arg_6_0, arg_6_1, arg_6_2, arg_6_3, arg_6_4, arg_
 
 	if arg_6_7 then
 		arg_6_0.behaviourTreeOwner.graph.blackboard:SetVariableValue("inProgress", true)
-		arg_6_0:SetPlayerTransform(arg_6_1, arg_6_0._go.transform)
-	else
-		arg_6_0:SetVisitorTransform(arg_6_1, arg_6_0._go.transform)
 	end
+
+	arg_6_0:SetPlayerTransform(arg_6_1, arg_6_0._go.transform)
 
 	if arg_6_5 and #arg_6_5 > 1 then
 		arg_6_0.behaviourTreeOwner.graph.blackboard:SetVariableValue(arg_6_5[1], arg_6_5[2])
@@ -78,7 +78,7 @@ function var_0_0.EndInteract(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 			arg_7_0:RevertPlayerTransform(arg_7_1)
 		end)
 	else
-		arg_7_0:RevertVisitorTransform(arg_7_1)
+		arg_7_0:RevertPlayerTransform(arg_7_1)
 	end
 end
 
@@ -144,7 +144,7 @@ function var_0_0.BindPlayer(arg_12_0, arg_12_1, arg_12_2)
 end
 
 function var_0_0.SetPlayerTransform(arg_13_0, arg_13_1, arg_13_2)
-	arg_13_0.cachePlayerTransformInfo = {
+	arg_13_0.cachePlayerTransformInfoDic[arg_13_1.id] = {
 		position = arg_13_1._tf.position,
 		rotation = arg_13_1._tf.rotation
 	}
@@ -157,30 +157,16 @@ function var_0_0.SetPlayerTransform(arg_13_0, arg_13_1, arg_13_2)
 end
 
 function var_0_0.RevertPlayerTransform(arg_14_0, arg_14_1)
-	if not arg_14_0.cachePlayerTransformInfo then
+	if not arg_14_0.cachePlayerTransformInfoDic[arg_14_1.id] then
 		return
 	end
 
 	setParent(arg_14_1._tf, arg_14_0.view.root)
 
-	arg_14_1._tf.position = arg_14_0.cachePlayerTransformInfo.position
-	arg_14_1._tf.rotation = arg_14_0.cachePlayerTransformInfo.rotation
+	arg_14_1._tf.position = arg_14_0.cachePlayerTransformInfoDic[arg_14_1.id].position
+	arg_14_1._tf.rotation = arg_14_0.cachePlayerTransformInfoDic[arg_14_1.id].rotation
 	GetOrAddComponent(arg_14_1._go, typeof(UnityEngine.Animator)).enabled = false
-	arg_14_0.cachePlayerTransformInfo = nil
-end
-
-function var_0_0.SetVisitorTransform(arg_15_0, arg_15_1, arg_15_2)
-	setParent(arg_15_1._tf, arg_15_2)
-
-	arg_15_1._tf.localPosition = Vector3.zero
-	arg_15_1._tf.localRotation = Quaternion.identity
-	GetOrAddComponent(arg_15_1._go, typeof(UnityEngine.Animator)).enabled = true
-end
-
-function var_0_0.RevertVisitorTransform(arg_16_0, arg_16_1)
-	setParent(arg_16_1._tf, arg_16_0.view.root)
-
-	GetOrAddComponent(arg_16_1._go, typeof(UnityEngine.Animator)).enabled = false
+	arg_14_0.cachePlayerTransformInfoDic[arg_14_1.id] = nil
 end
 
 return var_0_0

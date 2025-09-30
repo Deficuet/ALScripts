@@ -26,7 +26,7 @@ function var_0_0.InitEventData(arg_2_0, arg_2_1)
 	local var_2_2 = {}
 
 	for iter_2_0, iter_2_1 in ipairs(arg_2_1.effect or {}) do
-		var_2_2[iter_2_1.food_id] = iter_2_1.add_per
+		var_2_2[iter_2_1.food_id] = iter_2_1.add_per / 100
 	end
 
 	for iter_2_2, iter_2_3 in pairs(arg_2_0.restaurants) do

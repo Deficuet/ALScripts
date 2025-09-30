@@ -403,6 +403,8 @@ function var_0_0.SetBannnerCard(arg_22_0)
 			end, SFX_PANEL)
 		else
 			onButton(arg_22_0, var_22_2, function()
+				var_0_0.UpdateCommodtyTip(iter_22_1)
+				setActive(arg_22_0:findTF("tip", var_22_2), false)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("word_sell_out"))
 			end, SFX_PANEL)
 		end
@@ -545,6 +547,8 @@ function var_0_0.SetGiftCard(arg_25_0)
 		end, SFX_PANEL)
 	else
 		onButton(arg_25_0, var_25_0, function()
+			var_0_0.UpdateCommodtyTip(var_25_1)
+			setActive(arg_25_0:findTF("tip", var_25_0), false)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_sell_out"))
 		end, SFX_PANEL)
 	end
@@ -680,6 +684,8 @@ function var_0_0.SetNormalCard(arg_28_0)
 		else
 			onButton(arg_28_0, var_28_0, function()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("word_sell_out"))
+				var_0_0.UpdateCommodtyTip(var_28_1)
+				setActive(arg_28_0:findTF("tip", var_28_0), false)
 			end, SFX_PANEL)
 		end
 
@@ -830,6 +836,8 @@ function var_0_0.SetCharaCard(arg_31_0)
 				end, SFX_PANEL)
 			else
 				onButton(arg_31_0, arg_32_2, function()
+					var_0_0.UpdateCommodtyTip(var_32_0)
+					setActive(arg_31_0:findTF("tip", arg_32_2), false)
 					pg.TipsMgr.GetInstance():ShowTips(i18n("word_sell_out"))
 				end, SFX_PANEL)
 			end
@@ -1131,10 +1139,10 @@ function var_0_0.ShouldShowCommodtyTip(arg_46_0)
 	end
 
 	if arg_46_0.type == 1 then
-		return Dorm3dFurniture.GetViewedFlag(arg_46_0.item_id) == 0
+		return Dorm3dFurniture.NeedViewTipByFurnitureId(arg_46_0.item_id)
 	elseif arg_46_0.type == 2 then
 		local var_46_2 = getProxy(PlayerProxy):getRawData().id
-		local var_46_3 = Dorm3dGift.GetViewedFlag(arg_46_0.item_id) == 0
+		local var_46_3 = Dorm3dGift.NeedViewTipByGiftId(arg_46_0.item_id)
 		local var_46_4 = var_0_3[arg_46_0.shop_id[1]].group ~= 0 and PlayerPrefs.GetInt(var_46_2 .. "_dorm3dGiftWeekViewed_" .. arg_46_0.item_id, 0) == 0
 
 		return var_46_3 or var_46_4

@@ -11,8 +11,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.toggle = arg_2_0._tf:Find("toggle")
-	arg_2_0.panel = arg_2_0._tf:Find("panel")
+	arg_2_0.toggle = arg_2_0._tf:Find("adapt/toggle")
+	arg_2_0.panel = arg_2_0._tf:Find("adapt/panel")
 
 	local var_2_0 = arg_2_0.panel:Find("content")
 	local var_2_1 = var_2_0:Find("tpl")

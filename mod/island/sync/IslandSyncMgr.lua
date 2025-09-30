@@ -118,6 +118,8 @@ function var_0_0.UpdateVisitorSyncData(arg_17_0, arg_17_1)
 	local var_17_0 = arg_17_1.id
 
 	if not arg_17_0.visitorDic[var_17_0] then
+		Debugger.LogWarning(string.format("访客不存在 id=%d", var_17_0))
+
 		return
 	end
 
@@ -202,7 +204,7 @@ function var_0_0.InitSyncObj(arg_24_0)
 			if iter_24_1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
 				if var_24_1:OwnerCount() > 0 then
 					for iter_24_2, iter_24_3 in pairs(var_24_1.owners) do
-						if iter_24_3 ~= arg_24_0.playerId then
+						if iter_24_3 ~= arg_24_0.playerId and arg_24_0.visitorDic[iter_24_3] then
 							arg_24_0.visitorDic[iter_24_3]:RecordLastInteract(iter_24_1.id, iter_24_1.type)
 							arg_24_0:Op("WorldObjectInterActionSync", iter_24_1.id, iter_24_3, iter_24_1.status, iter_24_2)
 						end
@@ -212,7 +214,7 @@ function var_0_0.InitSyncObj(arg_24_0)
 				end
 			elseif iter_24_1.type == IslandConst.SYNC_TYPE_AGORA and var_24_1:OwnerCount() > 0 then
 				for iter_24_4, iter_24_5 in pairs(var_24_1.owners) do
-					if iter_24_5 ~= arg_24_0.playerId then
+					if iter_24_5 ~= arg_24_0.playerId and arg_24_0.visitorDic[iter_24_5] then
 						arg_24_0.visitorDic[iter_24_5]:RecordLastInteract(iter_24_1.id, iter_24_1.type)
 						arg_24_0:Op("InterActionSync", iter_24_1.id, iter_24_5, iter_24_4)
 					end
@@ -249,7 +251,13 @@ function var_0_0.UpdateSyncObj(arg_27_0, arg_27_1)
 		end)
 	elseif arg_27_1.type == IslandConst.SYNC_TYPE_UNIT_STATIC then
 		arg_27_0:OnVisitorInteract(arg_27_1, function(arg_30_0, arg_30_1)
-			arg_27_0:GetUnit(arg_27_1.type, arg_27_1.id):SetStatus(arg_27_1.status)
+			local var_30_0 = arg_27_0:GetUnit(arg_27_1.type, arg_27_1.id)
+
+			if not var_30_0 then
+				return
+			end
+
+			var_30_0:SetStatus(arg_27_1.status)
 
 			if not arg_27_0:SyncVisitorExist(arg_30_0) then
 				return
@@ -263,20 +271,32 @@ function var_0_0.UpdateSyncObj(arg_27_0, arg_27_1)
 end
 
 function var_0_0.OnVisitorInteract(arg_32_0, arg_32_1, arg_32_2, arg_32_3)
-	local var_32_0, var_32_1, var_32_2 = arg_32_0:GetUnit(arg_32_1.type, arg_32_1.id):UpdateOwner(arg_32_1.slots)
+	local var_32_0 = arg_32_0:GetUnit(arg_32_1.type, arg_32_1.id)
 
-	if var_32_1 == arg_32_0.playerId then
+	if not var_32_0 then
 		return
 	end
 
-	local var_32_3 = arg_32_0.visitorDic[var_32_1]
+	local var_32_1, var_32_2, var_32_3 = var_32_0:UpdateOwner(arg_32_1.slots)
 
-	if var_32_0 then
-		var_32_3:RecordLastInteract(arg_32_1.id, arg_32_1.type)
-		arg_32_2(var_32_1, var_32_2)
+	if var_32_2 == arg_32_0.playerId then
+		return
+	end
+
+	local var_32_4 = arg_32_0.visitorDic[var_32_2]
+
+	if not var_32_4 then
+		Debugger.LogWarning(string.format("访客不存在 id=%d", var_32_2))
+
+		return
+	end
+
+	if var_32_1 then
+		var_32_4:RecordLastInteract(arg_32_1.id, arg_32_1.type)
+		arg_32_2(var_32_2, var_32_3)
 	else
-		var_32_3:ClearLastInteract()
-		arg_32_3(var_32_1)
+		var_32_4:ClearLastInteract()
+		arg_32_3(var_32_2)
 	end
 end
 

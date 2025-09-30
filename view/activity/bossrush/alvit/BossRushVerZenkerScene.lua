@@ -344,7 +344,7 @@ function var_0_0.UpdateStory(arg_33_0)
 		local var_33_3 = arg_33_0.nodes[tostring(iter_33_1.id)]
 		local var_33_4 = iter_33_1:IsActive(arg_33_0.activity, arg_33_0.ptActivity)
 
-		setActive(var_33_3, var_33_3)
+		setActive(var_33_3, var_33_4)
 		setText(var_33_3:Find("main/char/bg/Text"), iter_33_1:GetName())
 
 		local var_33_5 = iter_33_1:IsReaded()
@@ -384,10 +384,6 @@ function var_0_0.UpdateStory(arg_33_0)
 
 		setActive(var_33_8:Find("get"), var_33_9 == 1)
 		setActive(var_33_8:Find("got"), var_33_9 == 2)
-
-		if var_33_9 == 1 then
-			arg_33_0:emit(BossRushVerZenkerMediator.ON_TASK_SUBMIT, arg_33_0.storyTask)
-		end
 	end
 end
 

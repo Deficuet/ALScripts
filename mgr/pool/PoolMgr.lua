@@ -412,6 +412,7 @@ function var_0_0.ReturnLive2D(arg_35_0, arg_35_1, arg_35_2)
 		arg_35_2:SetActive(false)
 		arg_35_2.transform:SetParent(arg_35_0.root, false)
 		arg_35_0.pools_plural[var_35_3]:Enqueue(arg_35_2)
+		arg_35_0.pools_plural[var_35_3]:ClearItems()
 		arg_35_0:ExcessDymPainting()
 	else
 		var_0_4.Destroy(arg_35_2)
@@ -423,6 +424,7 @@ local var_0_8 = {
 	["spinePainting/"] = true
 }
 local var_0_9 = ApartmentProxy.CheckDeviceRAMEnough() and 6 or 2
+local var_0_10 = 0
 
 function var_0_0.ExcessDymPainting(arg_36_0, arg_36_1)
 	local var_36_0 = 0
@@ -437,6 +439,8 @@ function var_0_0.ExcessDymPainting(arg_36_0, arg_36_1)
 		end
 	end
 
+	var_0_10 = var_0_10 + 1
+
 	if arg_36_1 then
 		for iter_36_2, iter_36_3 in ipairs(var_36_2) do
 			arg_36_0.pools_plural[iter_36_3]:Clear()
@@ -444,6 +448,8 @@ function var_0_0.ExcessDymPainting(arg_36_0, arg_36_1)
 			arg_36_0.pools_plural[iter_36_3] = nil
 		end
 	elseif var_36_1 < #var_36_2 then
+		gcAll(false)
+	elseif var_0_10 >= 10 then
 		gcAll(false)
 	end
 end
@@ -534,8 +540,8 @@ function var_0_0.SpriteMemUsage(arg_43_0)
 	return var_43_0
 end
 
-local var_0_10 = 64
-local var_0_11 = {
+local var_0_11 = 64
+local var_0_12 = {
 	"chapter/",
 	"emoji/",
 	"world/"
@@ -544,7 +550,7 @@ local var_0_11 = {
 function var_0_0.GetPrefab(arg_44_0, arg_44_1, arg_44_2, arg_44_3, arg_44_4, arg_44_5)
 	local var_44_0 = arg_44_1
 
-	arg_44_0:FromPlural(arg_44_1, "", arg_44_3, arg_44_5 or var_0_10, function(arg_45_0)
+	arg_44_0:FromPlural(arg_44_1, "", arg_44_3, arg_44_5 or var_0_11, function(arg_45_0)
 		if string.find(arg_44_1, "emoji/") == 1 then
 			local var_45_0 = arg_45_0:GetComponent(typeof(CriManaEffectUI))
 
@@ -599,7 +605,7 @@ function var_0_0.DestroyAllPrefab(arg_48_0)
 	local var_48_0 = {}
 
 	for iter_48_0, iter_48_1 in pairs(arg_48_0.pools_plural) do
-		if _.any(var_0_11, function(arg_49_0)
+		if _.any(var_0_12, function(arg_49_0)
 			return string.find(iter_48_0, arg_49_0) == 1
 		end) then
 			iter_48_1:Clear()

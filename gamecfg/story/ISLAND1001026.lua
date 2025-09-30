@@ -19,8 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			characterId = 0,
 			animation = "hi",
+			characterId = 0,
+			camera = "StoryCamera8",
 			say = "赫莫？",
 			face2Face = {
 				{

@@ -41,7 +41,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.statusTF = arg_2_0:findTF("status", arg_2_0.infoPanel)
 	arg_2_0.sureBtn = arg_2_0:findTF("sure")
 
-	setText(arg_2_0.sureBtn:Find("Text"), i18n("shop_new_confirm"))
+	setText(arg_2_0.sureBtn:Find("Text"), i18n("island_shipselect_confirm"))
 
 	arg_2_0.indexBtn = arg_2_0._tf:Find("frame/filter_panel/IndexIco")
 	arg_2_0.orderBtn = arg_2_0._tf:Find("frame/filter_panel/index")
@@ -479,6 +479,10 @@ end
 
 function var_0_0.OnHide(arg_41_0)
 	arg_41_0:UnBlurPanel()
+end
+
+function var_0_0.OnDisable(arg_42_0)
+	arg_42_0:OnHide()
 end
 
 return var_0_0

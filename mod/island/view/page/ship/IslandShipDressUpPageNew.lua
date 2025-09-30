@@ -101,6 +101,8 @@ function var_0_0.OnLoaded(arg_3_0)
 	arg_3_0.color_cost_item_count = arg_3_0.color_bg_locked:Find("cost_num")
 
 	setActive(arg_3_0.sortBtn, false)
+	setText(arg_3_0.color_bg_locked:Find("tips"), i18n("island_dresscolorunlock_tips"))
+	setText(arg_3_0.color_lockedBtn:Find("Text"), i18n("island_dresscolorunlock"))
 
 	arg_3_0.colorItemUIList = UIItemList.New(arg_3_0.colorList, arg_3_0.colorItem)
 	arg_3_0.hatTF = arg_3_0:findTF("adapt/hat")
@@ -1222,7 +1224,7 @@ function var_0_0.UpdateColorUnlockState(arg_72_0)
 
 					return true
 				end)(var_72_0.cost) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("ShowTips"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 					return
 				end

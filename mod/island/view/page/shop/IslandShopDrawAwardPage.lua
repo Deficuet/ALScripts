@@ -333,29 +333,38 @@ function var_0_0.ShowDrawAwardWindow(arg_37_0, arg_37_1)
 		if arg_38_0.name == var_37_0 then
 			var_37_1 = arg_38_0
 		end
+
+		eachChild(arg_38_0:Find("container"), function(arg_39_0, arg_39_1)
+			local var_39_0 = arg_39_0:Find("card")
+
+			setActive(var_39_0:Find("front/S/IslandDrawAwardPage_bomb01"), false)
+			setActive(var_39_0:Find("bg/S/SCardLoopVX"), false)
+			setActive(var_39_0:Find("front/A/IslandDrawAwardPage_bomb02"), false)
+			setActive(var_39_0:Find("bg/A/ACardLoopVX"), false)
+		end)
 	end)
 
 	local var_37_2 = {}
 
-	UIItemList.StaticAlign(var_37_1:Find("container"), var_37_1:Find("container/tpl"), #arg_37_1, function(arg_39_0, arg_39_1, arg_39_2)
+	UIItemList.StaticAlign(var_37_1:Find("container"), var_37_1:Find("container/tpl"), #arg_37_1, function(arg_40_0, arg_40_1, arg_40_2)
 		if var_37_0 == "ten" then
-			arg_39_1 = arg_39_1 % 2 * 5 + 5 - math.floor(arg_39_1 / 2)
+			arg_40_1 = arg_40_1 % 2 * 5 + 5 - math.floor(arg_40_1 / 2)
 		else
-			arg_39_1 = arg_39_1 + 1
+			arg_40_1 = arg_40_1 + 1
 		end
 
-		if arg_39_0 == UIItemList.EventUpdate then
-			local var_39_0 = arg_39_2:Find("card")
-			local var_39_1 = arg_37_1[arg_39_1]
-			local var_39_2 = pg.island_draw_reward[var_39_1]
-			local var_39_3 = Drop.New({
-				type = var_39_2.drop_type,
-				id = var_39_2.drop_id
+		if arg_40_0 == UIItemList.EventUpdate then
+			local var_40_0 = arg_40_2:Find("card")
+			local var_40_1 = arg_37_1[arg_40_1]
+			local var_40_2 = pg.island_draw_reward[var_40_1]
+			local var_40_3 = Drop.New({
+				type = var_40_2.drop_type,
+				id = var_40_2.drop_id
 			})
 
-			var_0_0.ShowDropInfo(var_39_3, var_39_0:Find("mask/Image"))
+			var_0_0.ShowDropInfo(var_40_3, var_40_0:Find("mask/Image"))
 
-			local var_39_4 = switch(var_39_2.rarity, {
+			local var_40_4 = switch(var_40_2.rarity, {
 				function()
 					return "C"
 				end,
@@ -369,119 +378,119 @@ function var_0_0.ShowDrawAwardWindow(arg_37_0, arg_37_1)
 					return "S"
 				end
 			})
-			local var_39_5 = var_39_0:Find("mask/Image")
+			local var_40_5 = var_40_0:Find("mask/Image")
 
-			if var_39_4 == "S" then
-				setLocalScale(var_39_0:Find("mask/Image"), Vector3(1.2, 1.2, 1))
-				setLocalPosition(var_39_0:Find("mask/Image"), {
+			if var_40_4 == "S" then
+				setLocalScale(var_40_0:Find("mask/Image"), Vector3(1.2, 1.2, 1))
+				setLocalPosition(var_40_0:Find("mask/Image"), {
 					x = -17.5,
 					y = -20
 				})
 			else
-				setLocalScale(var_39_0:Find("mask/Image"), Vector3(1.7, 1.7, 1))
-				setLocalPosition(var_39_0:Find("mask/Image"), Vector3.zero)
+				setLocalScale(var_40_0:Find("mask/Image"), Vector3(1.7, 1.7, 1))
+				setLocalPosition(var_40_0:Find("mask/Image"), Vector3.zero)
 			end
 
-			eachChild(var_39_0:Find("bg"), function(arg_44_0, arg_44_1)
-				setActive(arg_44_0, arg_44_0.name == var_39_4)
+			eachChild(var_40_0:Find("bg"), function(arg_45_0, arg_45_1)
+				setActive(arg_45_0, arg_45_0.name == var_40_4)
 			end)
-			eachChild(var_39_0:Find("word"), function(arg_45_0, arg_45_1)
-				setActive(arg_45_0, arg_45_0.name == var_39_4)
+			eachChild(var_40_0:Find("word"), function(arg_46_0, arg_46_1)
+				setActive(arg_46_0, arg_46_0.name == var_40_4)
 			end)
-			eachChild(var_39_0:Find("front"), function(arg_46_0, arg_46_1)
-				setActive(arg_46_0, arg_46_0.name == var_39_4)
+			eachChild(var_40_0:Find("front"), function(arg_47_0, arg_47_1)
+				setActive(arg_47_0, arg_47_0.name == var_40_4)
 			end)
-			var_39_0:Find("Book"):GetComponent("Book"):SetCurrentPage(2)
-			setCanvasGroupAlpha(var_39_0, 0)
-			setCanvasGroupAlpha(var_39_0:Find("Book"), 1)
+			var_40_0:Find("Book"):GetComponent("Book"):SetCurrentPage(2)
+			setCanvasGroupAlpha(var_40_0, 0)
+			setCanvasGroupAlpha(var_40_0:Find("Book"), 1)
 
-			var_37_2[arg_39_1] = arg_39_2
+			var_37_2[arg_40_1] = arg_40_2
 		end
 	end)
 	setCanvasGroupAlpha(arg_37_0.rtDisplayPanel:Find("page"), 0)
 
 	local var_37_3 = {}
 
-	table.insert(var_37_3, function(arg_47_0)
+	table.insert(var_37_3, function(arg_48_0)
 		arg_37_0.inAnim = true
 
 		pg.UIMgr.GetInstance():BlurPanel(arg_37_0.rtDisplayPanel, {
 			staticBlur = true
 		})
 		setActive(arg_37_0.rtDisplayPanel, true)
-		arg_37_0.rtDisplayPanel:GetComponent(typeof(DftAniEvent)):SetTriggerEvent(arg_47_0)
+		arg_37_0.rtDisplayPanel:GetComponent(typeof(DftAniEvent)):SetTriggerEvent(arg_48_0)
 	end)
-	table.insert(var_37_3, function(arg_48_0)
-		local var_48_0 = {}
+	table.insert(var_37_3, function(arg_49_0)
+		local var_49_0 = {}
 
-		for iter_48_0, iter_48_1 in ipairs(var_37_2) do
-			local var_48_1 = iter_48_1:Find("card")
+		for iter_49_0, iter_49_1 in ipairs(var_37_2) do
+			local var_49_1 = iter_49_1:Find("card")
 
-			table.insert(var_48_0, function(arg_49_0)
-				local var_49_0 = {}
-				local var_49_1 = (iter_48_0 - 1) % 5 * 2 + (iter_48_0 > 5 and 1 or 0)
+			table.insert(var_49_0, function(arg_50_0)
+				local var_50_0 = {}
+				local var_50_1 = (iter_49_0 - 1) % 5 * 2 + (iter_49_0 > 5 and 1 or 0)
 
-				if var_37_0 == "ten" and var_49_1 > 0 then
-					table.insert(var_49_0, function(arg_50_0)
-						LeanTween.delayedCall(iter_48_1.gameObject, 0.03 * var_49_1, System.Action(arg_50_0))
+				if var_37_0 == "ten" and var_50_1 > 0 then
+					table.insert(var_50_0, function(arg_51_0)
+						LeanTween.delayedCall(iter_49_1.gameObject, 0.03 * var_50_1, System.Action(arg_51_0))
 					end)
 				end
 
-				table.insert(var_49_0, function(arg_51_0)
-					var_48_1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function(arg_52_0)
-						arg_51_0()
+				table.insert(var_50_0, function(arg_52_0)
+					var_49_1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function(arg_53_0)
+						arg_52_0()
 					end)
 					switch(var_37_0, {
 						one = function()
-							quickPlayAnimation(var_48_1, "anim_IslandDrawAwardPage_onetpl_In")
+							quickPlayAnimation(var_49_1, "anim_IslandDrawAwardPage_onetpl_In")
 						end,
 						ten = function()
-							quickPlayAnimation(var_48_1, var_49_1 % 2 == 0 and "anim_IslandDrawAwardPage_ten" or "anim_IslandDrawAwardPage_ten02")
+							quickPlayAnimation(var_49_1, var_50_1 % 2 == 0 and "anim_IslandDrawAwardPage_ten" or "anim_IslandDrawAwardPage_ten02")
 						end
 					})
 				end)
-				seriesAsync(var_49_0, arg_49_0)
+				seriesAsync(var_50_0, arg_50_0)
 			end)
 		end
 
-		parallelAsync(var_48_0, function()
+		parallelAsync(var_49_0, function()
 			LeanTween.delayedCall(0.6, System.Action(function()
-				arg_48_0()
+				arg_49_0()
 			end))
 		end)
 	end)
-	table.insert(var_37_3, function(arg_57_0)
-		local var_57_0 = {}
+	table.insert(var_37_3, function(arg_58_0)
+		local var_58_0 = {}
 
-		for iter_57_0, iter_57_1 in ipairs(var_37_2) do
-			local var_57_1 = iter_57_1:Find("card")
+		for iter_58_0, iter_58_1 in ipairs(var_37_2) do
+			local var_58_1 = iter_58_1:Find("card")
 
-			table.insert(var_57_0, function(arg_58_0)
-				local var_58_0 = {}
-				local var_58_1 = iter_57_0 - 1
+			table.insert(var_58_0, function(arg_59_0)
+				local var_59_0 = {}
+				local var_59_1 = iter_58_0 - 1
 
-				if var_58_1 > 0 then
-					table.insert(var_58_0, function(arg_59_0)
-						LeanTween.delayedCall(iter_57_1.gameObject, 0.1 * var_58_1, System.Action(arg_59_0))
+				if var_59_1 > 0 then
+					table.insert(var_59_0, function(arg_60_0)
+						LeanTween.delayedCall(iter_58_1.gameObject, 0.1 * var_59_1, System.Action(arg_60_0))
 					end)
 				end
 
-				table.insert(var_58_0, function(arg_60_0)
-					local var_60_0 = var_57_1:Find("Book"):GetComponent("AutoFlip")
+				table.insert(var_59_0, function(arg_61_0)
+					local var_61_0 = var_58_1:Find("Book"):GetComponent("AutoFlip")
 
-					var_60_0:StartControl()
-					var_57_1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function()
-						var_60_0:StopControl()
-						arg_60_0()
+					var_61_0:StartControl()
+					var_58_1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function()
+						var_61_0:StopControl()
+						arg_61_0()
 					end)
-					quickPlayAnimation(var_57_1, "anim_IslandDrawAwardPage_uncover")
+					quickPlayAnimation(var_58_1, "anim_IslandDrawAwardPage_uncover")
 				end)
-				seriesAsync(var_58_0, arg_58_0)
+				seriesAsync(var_59_0, arg_59_0)
 			end)
 		end
 
 		quickPlayAnimation(arg_37_0.rtDisplayPanel:Find("page"), "anim_IslandDrawAwardPage_page_in")
-		parallelAsync(var_57_0, arg_57_0)
+		parallelAsync(var_58_0, arg_58_0)
 	end)
 	seriesAsync(var_37_3, function()
 		if arg_37_0._state == var_0_0.STATES.DESTROY then
@@ -494,57 +503,50 @@ function var_0_0.ShowDrawAwardWindow(arg_37_0, arg_37_1)
 	end)
 end
 
-function var_0_0.HideDrawAwardWindow(arg_63_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_63_0.rtDisplayPanel, arg_63_0._tf)
-	setActive(arg_63_0.rtDisplayPanel, false)
-	eachChild(arg_63_0.rtDisplayPanel:Find("window"), function(arg_64_0, arg_64_1)
-		eachChild(arg_64_0:Find("container"), function(arg_65_0, arg_65_1)
-			LeanTween.cancel(arg_65_0.gameObject)
-
-			local var_65_0 = arg_65_0:Find("card")
-
-			setActive(var_65_0:Find("IslandDrawAwardPage_bomb01"), false)
-			setActive(var_65_0:Find("SCardLoopVX"), false)
-			setActive(var_65_0:Find("IslandDrawAwardPage_bomb02"), false)
-			setActive(var_65_0:Find("ACardLoopVX"), false)
+function var_0_0.HideDrawAwardWindow(arg_64_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_64_0.rtDisplayPanel, arg_64_0._tf)
+	setActive(arg_64_0.rtDisplayPanel, false)
+	eachChild(arg_64_0.rtDisplayPanel:Find("window"), function(arg_65_0, arg_65_1)
+		eachChild(arg_65_0:Find("container"), function(arg_66_0, arg_66_1)
+			LeanTween.cancel(arg_66_0.gameObject)
 		end)
 	end)
 end
 
-function var_0_0.Hide(arg_66_0)
-	if isActive(arg_66_0.rtDisplayPanel) then
-		arg_66_0:HideDrawAwardWindow()
+function var_0_0.Hide(arg_67_0)
+	if isActive(arg_67_0.rtDisplayPanel) then
+		arg_67_0:HideDrawAwardWindow()
 	end
 
-	var_0_0.super.Hide(arg_66_0)
+	var_0_0.super.Hide(arg_67_0)
 end
 
-function var_0_0.OnDestroy(arg_67_0)
-	arg_67_0:Hide()
+function var_0_0.OnDestroy(arg_68_0)
+	arg_68_0:Hide()
 
-	for iter_67_0, iter_67_1 in pairs(arg_67_0.bannerRectDic) do
-		iter_67_1:Dispose()
+	for iter_68_0, iter_68_1 in pairs(arg_68_0.bannerRectDic) do
+		iter_68_1:Dispose()
 	end
 
-	arg_67_0.bannerRectDic = nil
+	arg_68_0.bannerRectDic = nil
 end
 
-function var_0_0.ShowDropInfo(arg_68_0, arg_68_1)
-	switch(arg_68_0.type, {
+function var_0_0.ShowDropInfo(arg_69_0, arg_69_1)
+	switch(arg_69_0.type, {
 		[DROP_TYPE_ISLAND_INVITATION] = function()
-			GetImageSpriteFromAtlasAsync("island/IslandCharIcon/" .. arg_68_0:getConfig("chara_pic"), "", arg_68_1, true)
+			GetImageSpriteFromAtlasAsync("island/IslandCharIcon/" .. arg_69_0:getConfig("chara_pic"), "", arg_69_1, true)
 		end,
 		[DROP_TYPE_ISLAND_FURNITURE] = function()
-			GetImageSpriteFromAtlasAsync("Island/IslandFurnitureIcon/" .. arg_68_0:getConfig("icon"), "", arg_68_1, true)
+			GetImageSpriteFromAtlasAsync("Island/IslandFurnitureIcon/" .. arg_69_0:getConfig("icon"), "", arg_69_1, true)
 		end,
 		[DROP_TYPE_ISLAND_DRESS] = function()
-			GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. arg_68_0:getConfig("icon"), "", arg_68_1, true)
+			GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. arg_69_0:getConfig("icon"), "", arg_69_1, true)
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function()
-			GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. arg_68_0:getConfig("icon"), "", arg_68_1, true)
+			GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. arg_69_0:getConfig("icon"), "", arg_69_1, true)
 		end,
 		[DROP_TYPE_ISLAND_ACTION] = function()
-			GetImageSpriteFromAtlasAsync("Island/IslandActionIcon/" .. arg_68_0:getConfig("resource"), "", arg_68_1, true)
+			GetImageSpriteFromAtlasAsync("Island/IslandActionIcon/" .. arg_69_0:getConfig("resource"), "", arg_69_1, true)
 		end
 	})
 end

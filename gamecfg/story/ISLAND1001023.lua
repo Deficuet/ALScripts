@@ -1,6 +1,8 @@
 return {
-	id = "ISLAND1001023",
+	fadeOut = 1.5,
 	mode = 10,
+	id = "ISLAND1001023",
+	fadeIn = 1,
 	map = {
 		{
 			100300,

@@ -200,6 +200,7 @@ end
 
 function var_0_0.updateScrollRect(arg_12_0)
 	arg_12_0.filterList = arg_12_0:getFilterList()
+	arg_12_0.lScrollRect.enabled = true
 
 	arg_12_0.lScrollRect:SetTotalCount(#arg_12_0.filterList, arg_12_0.lScrollRect.value)
 end

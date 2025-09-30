@@ -12083,8 +12083,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_dresscolorunlock = {
+		tip = "解锁"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.reflux_word_1 = {
 		tip = "剩余时间："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_dresscolorunlock_tips = {
+		tip = "解锁消耗"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_shipselect_confirm = {
+		tip = "确认"
 	}
 end)()
 

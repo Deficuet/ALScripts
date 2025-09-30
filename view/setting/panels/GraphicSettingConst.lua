@@ -458,7 +458,11 @@ function var_0_0.InitDefautQuality(arg_1_0)
 
 		local var_1_5 = var_1_1 == DevicePerformanceLevel.High and 3 or var_1_1 == DevicePerformanceLevel.Mid and 2 or 1
 
-		PlayerPrefs.SetInt(var_1_0, var_1_5)
+		if arg_1_0 then
+			PlayerPrefs.SetInt(var_1_0, 1)
+		else
+			PlayerPrefs.SetInt(var_1_0, var_1_5)
+		end
 
 		if not arg_1_0 then
 			Dorm3dRoomTemplateScene.FirstDefaultSetting = var_1_5

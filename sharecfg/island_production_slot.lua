@@ -1800,7 +1800,7 @@ pg.island_production_slot = {
 		attribute = 3,
 		type = 3,
 		id = 9032,
-		unlock_type = 0,
+		unlock_type = 1,
 		formula = {
 			101015
 		},
@@ -1822,7 +1822,7 @@ pg.island_production_slot = {
 		attribute = 3,
 		type = 3,
 		id = 9033,
-		unlock_type = 0,
+		unlock_type = 1,
 		formula = {
 			101016
 		},
@@ -1844,7 +1844,7 @@ pg.island_production_slot = {
 		attribute = 3,
 		type = 3,
 		id = 9034,
-		unlock_type = 0,
+		unlock_type = 1,
 		formula = {
 			101018
 		},

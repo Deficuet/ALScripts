@@ -100,6 +100,10 @@ function var_0_0.RefreshHud(arg_9_0)
 end
 
 function var_0_0.UpdateTaskDisplay(arg_10_0)
+	if IsNil(arg_10_0.hudImageBg) then
+		return
+	end
+
 	local var_10_0, var_10_1 = IslandObjectTaskHudHelper.GetObjectTaskHud(arg_10_0.unitId)
 
 	if arg_10_0.currentTaskId ~= var_10_1 then

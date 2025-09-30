@@ -388,7 +388,7 @@ function var_0_0.GetSelectedTickets(arg_41_0)
 			else
 				table.insert(var_41_0, IslandTicket.New(iter_41_3.id, iter_41_3.endTime, iter_41_3:GetCount()))
 
-				local var_41_5 = var_41_3 + iter_41_3:GetCount()
+				var_41_3 = var_41_3 + iter_41_3:GetCount()
 			end
 		end
 	end

@@ -212,7 +212,7 @@ function var_0_0.Hide(arg_20_0)
 end
 
 function var_0_0.isShowing(arg_21_0)
-	return arg_21_0._tf and isActive(arg_21_0._tf)
+	return arg_21_0._tf and isActive(arg_21_0._tf) or false
 end
 
 function var_0_0.getBGM(arg_22_0, arg_22_1)

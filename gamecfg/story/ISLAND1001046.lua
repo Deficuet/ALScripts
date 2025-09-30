@@ -3,7 +3,7 @@ return {
 	mode = 10,
 	map = {
 		{
-			10070031,
+			3120100,
 			10070031
 		},
 		{
@@ -43,16 +43,16 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
-			say = "嘿嘿，厉害吧喵？",
 			animation = "elation",
+			characterId = 3120100,
+			say = "嘿嘿，厉害吧喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 10070031,
+			characterId = 3120100,
 			say = "这只是第一期工程喵！未来这里会布满生产线，日夜不息的喵！",
 			typewriter = {
 				speed = 0.05,
@@ -152,16 +152,16 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
-			say = "喵！还有还有！有了标准化的产品，开发区贸易量还能增加不少喵！",
 			animation = "elation",
+			characterId = 3120100,
+			say = "喵！还有还有！有了标准化的产品，开发区贸易量还能增加不少喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 10070031,
+			characterId = 3120100,
 			say = "我们可以把多余的面粉、饲料、甚至未来加工的合金都卖出去喵！",
 			typewriter = {
 				speed = 0.05,
@@ -178,16 +178,16 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
-			say = "没错喵~等这些铁家伙全速开动起来，指挥官你那座债务大山……",
 			animation = "nod",
+			characterId = 3120100,
+			say = "没错喵~等这些铁家伙全速开动起来，指挥官你那座债务大山……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 10070031,
+			characterId = 3120100,
 			say = "咳咳……我是说岛上那紧张的资金链，瞬间就能盘活喵！",
 			typewriter = {
 				speed = 0.05,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
-			say = "金币……啊不，是繁荣！指日可待喵！",
 			animation = "talk",
+			characterId = 3120100,
+			say = "金币……啊不，是繁荣！指日可待喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
-			say = "喵哈哈！到时候咱们可就真的吃喝不愁了喵！",
 			animation = "clap",
+			characterId = 3120100,
+			say = "喵哈哈！到时候咱们可就真的吃喝不愁了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,9 +276,9 @@ return {
 			}
 		},
 		{
-			actor = 10070031,
-			say = "那就说定了喵！之后也要一起加油哦！",
 			animation = "clap",
+			characterId = 3120100,
+			say = "那就说定了喵！之后也要一起加油哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

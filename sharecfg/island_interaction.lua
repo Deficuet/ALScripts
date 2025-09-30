@@ -232,7 +232,8 @@ pg.island_interaction = setmetatable({
 			3008,
 			3009,
 			3010,
-			3011
+			3011,
+			3012
 		},
 		[31] = {
 			3101
@@ -343,14 +344,15 @@ pg.island_interaction = setmetatable({
 			5303,
 			5304,
 			5305,
-			5313,
 			5306,
 			5307,
 			5308,
 			5309,
 			5310,
 			5311,
-			5312
+			5312,
+			5313,
+			5314
 		},
 		[54] = {
 			5401
@@ -377,7 +379,8 @@ pg.island_interaction = setmetatable({
 			5711,
 			5712,
 			5713,
-			5714
+			5714,
+			5715
 		},
 		[58] = {
 			5800,
@@ -658,6 +661,7 @@ pg.island_interaction = setmetatable({
 		3009,
 		3010,
 		3011,
+		3012,
 		3101,
 		3201,
 		3202,
@@ -722,7 +726,6 @@ pg.island_interaction = setmetatable({
 		5303,
 		5304,
 		5305,
-		5313,
 		5306,
 		5307,
 		5308,
@@ -730,6 +733,8 @@ pg.island_interaction = setmetatable({
 		5310,
 		5311,
 		5312,
+		5313,
+		5314,
 		5401,
 		5501,
 		5502,
@@ -749,6 +754,7 @@ pg.island_interaction = setmetatable({
 		5712,
 		5713,
 		5714,
+		5715,
 		5800,
 		5801,
 		5802,
@@ -3295,6 +3301,33 @@ pg.base.island_interaction = {
 			}
 		}
 	},
+	[3012] = {
+		text = "查看种子商店",
+		id = 3012,
+		only_self = 0,
+		type = 6,
+		groupId = 30,
+		icon = 15,
+		param = {
+			"IslandShopPage",
+			{
+				1,
+				2,
+				3,
+				4,
+				5
+			},
+			{
+				10022
+			}
+		},
+		show_condition = {
+			{
+				4,
+				10002070
+			}
+		}
+	},
 	[3101] = {
 		text = "前往繁荫农圃",
 		id = 3101,
@@ -4267,21 +4300,6 @@ pg.base.island_interaction = {
 			}
 		}
 	},
-	[5313] = {
-		text = "发生什么事了？",
-		id = 5313,
-		only_self = 0,
-		type = 11,
-		groupId = 53,
-		icon = 9,
-		param = "20012001",
-		show_condition = {
-			{
-				1,
-				20012001
-			}
-		}
-	},
 	[5306] = {
 		text = "露西，我把修枝剪带过来了",
 		id = 5306,
@@ -4384,6 +4402,48 @@ pg.base.island_interaction = {
 			{
 				3,
 				20012010
+			}
+		}
+	},
+	[5313] = {
+		text = "发生什么事了？",
+		id = 5313,
+		only_self = 0,
+		type = 11,
+		groupId = 53,
+		icon = 9,
+		param = "20012001",
+		show_condition = {
+			{
+				1,
+				20012001
+			}
+		}
+	},
+	[5314] = {
+		text = "查看种子商店",
+		id = 5314,
+		only_self = 0,
+		type = 6,
+		groupId = 53,
+		icon = 15,
+		param = {
+			"IslandShopPage",
+			{
+				1,
+				2,
+				3,
+				4,
+				5
+			},
+			{
+				10025
+			}
+		},
+		show_condition = {
+			{
+				11,
+				404
 			}
 		}
 	},
@@ -4670,6 +4730,33 @@ pg.base.island_interaction = {
 			{
 				3,
 				20013007
+			}
+		}
+	},
+	[5715] = {
+		text = "查看种子商店",
+		id = 5715,
+		only_self = 0,
+		type = 6,
+		groupId = 57,
+		icon = 15,
+		param = {
+			"IslandShopPage",
+			{
+				1,
+				2,
+				3,
+				4,
+				5
+			},
+			{
+				10028
+			}
+		},
+		show_condition = {
+			{
+				4,
+				10003070
 			}
 		}
 	},

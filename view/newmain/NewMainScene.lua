@@ -408,7 +408,6 @@ function var_0_0.OnDisVisible(arg_50_0)
 	arg_50_0.isInit = false
 
 	arg_50_0:RevertSleepTimeout()
-	gcAll()
 end
 
 function var_0_0.UnloadTheme(arg_51_0)

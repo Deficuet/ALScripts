@@ -3403,13 +3403,14 @@ pg.base.island_shop_goods = {
 		}
 	},
 	[411010] = {
-		pay_id = 0,
+		desc = "购买可获得亚麻种子",
 		goods_have = 0,
 		items_model = "",
+		pay_id = 0,
 		have_show = 0,
-		limited_show = 0,
 		limited_num = 0,
-		desc = "购买可获得亚麻种子",
+		limited_show = 0,
+		unlock = "",
 		goods_name = "亚麻种子",
 		icon = "IslandProps/item_1010",
 		goods_detail_type = 1,
@@ -3440,9 +3441,6 @@ pg.base.island_shop_goods = {
 				1010,
 				1
 			}
-		},
-		unlock = {
-			3502001
 		}
 	},
 	[411011] = {

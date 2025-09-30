@@ -45,8 +45,6 @@ function var_0_0.OnInit(arg_4_0)
 	function arg_4_0.scrollrect.onUpdateItem(arg_6_0, arg_6_1)
 		arg_4_0:OnUpdateItem(arg_6_0, arg_6_1)
 	end
-
-	arg_4_0:Flush()
 end
 
 function var_0_0.OnInitItem(arg_7_0, arg_7_1)

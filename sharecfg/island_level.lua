@@ -105,7 +105,7 @@ pg.island_level = {
 	},
 	{
 		island_level = 10,
-		island_exp = 1000,
+		island_exp = 500,
 		ability_drop = {},
 		island_level_award = {},
 		cost = {
@@ -153,7 +153,7 @@ pg.island_level = {
 	},
 	{
 		island_level = 14,
-		island_exp = 1400,
+		island_exp = 1000,
 		ability_drop = {},
 		island_level_award = {},
 		cost = {
@@ -189,7 +189,7 @@ pg.island_level = {
 	},
 	{
 		island_level = 17,
-		island_exp = 2000,
+		island_exp = 2500,
 		ability_drop = {},
 		island_level_award = {},
 		cost = {
@@ -213,7 +213,7 @@ pg.island_level = {
 	},
 	{
 		island_level = 19,
-		island_exp = 3000,
+		island_exp = 3400,
 		ability_drop = {},
 		island_level_award = {},
 		cost = {

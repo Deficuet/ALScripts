@@ -7,26 +7,11 @@ return {
 			10010003
 		}
 	},
-	look_weight = {
-		{
-			0.7,
-			0
-		},
-		{
-			0.3,
-			0
-		}
-	},
 	scripts = {
 		{
-			characterId = 0,
 			say = "就是这里了？啃食的痕迹很新鲜，是咩咩羊留下来的。",
-			face2Face = {
-				{
-					0,
-					100500
-				}
-			},
+			camera = "StoryCameraSideTask3",
+			characterId = 0,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

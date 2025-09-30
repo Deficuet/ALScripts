@@ -14,8 +14,6 @@ function var_0_0.OnLoaded(arg_2_0)
 	local var_2_1 = var_2_0:Find("tpl")
 
 	setActive(var_2_1, false)
-	setText(var_2_1:Find("get/Text"), i18n("island_season_task_collect"))
-	setText(var_2_1:Find("got/Text"), i18n("island_season_task_collected"))
 
 	arg_2_0.scrollCom = var_2_0:Find("view"):GetComponent("LScrollRect")
 end
@@ -34,6 +32,9 @@ function var_0_0.UpdateTask(arg_6_0, arg_6_1, arg_6_2)
 	local var_6_0 = arg_6_0.taskIds[arg_6_1 + 1]
 
 	arg_6_2.name = var_6_0
+
+	setText(arg_6_2:Find("get/Text"), i18n("island_season_task_collect"))
+	setText(arg_6_2:Find("got/Text"), i18n("island_season_task_collected"))
 
 	local var_6_1 = arg_6_0.taskVODic[var_6_0]
 	local var_6_2 = pg.island_task[var_6_0]

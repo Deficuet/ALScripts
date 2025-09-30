@@ -317,8 +317,8 @@ pg.island_draw_reward = {
 		rarity = 1,
 		drop_type = 47,
 		drop_num = 1,
-		drop_id = 1070301,
-		show = "draw1_T_1"
+		drop_id = 3040701,
+		show = "draw1_T_3"
 	},
 	[1041] = {
 		id = 1041,
@@ -326,7 +326,7 @@ pg.island_draw_reward = {
 		drop_type = 47,
 		drop_num = 1,
 		drop_id = 2060301,
-		show = "draw1_T_3"
+		show = "draw1_T_2"
 	},
 	[1042] = {
 		id = 1042,
@@ -334,7 +334,7 @@ pg.island_draw_reward = {
 		drop_type = 47,
 		drop_num = 1,
 		drop_id = 2990301,
-		show = "draw1_T_2"
+		show = "draw1_T_1"
 	},
 	[1043] = {
 		id = 1043,

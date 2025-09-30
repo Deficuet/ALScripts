@@ -452,7 +452,7 @@ function var_0_0.didEnter(arg_39_0)
 
 	arg_39_0:gotoPage(var_39_0)
 
-	if ShipViewConst.currentPage == ShipViewConst.PAGE.DETAIL then
+	if ShipViewConst.currentPage == ShipViewConst.PAGE.DETAIL or var_39_0 == ShipViewConst.PAGE.DETAIL then
 		arg_39_0:displayShipWord(arg_39_0:getInitmacyWords())
 		arg_39_0:checkMaxLevelHelp()
 	end

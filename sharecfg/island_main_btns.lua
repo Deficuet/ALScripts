@@ -142,7 +142,7 @@ pg.island_main_btns = {
 		open_page = "IslandTechnologyPage",
 		id = 12,
 		icon = "technology",
-		ability_id = 8,
+		ability_id = 28,
 		btn_name = "technology",
 		page_param = {}
 	},

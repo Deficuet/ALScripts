@@ -40,7 +40,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 			setActive(var_3_3, arg_3_1 < arg_2_0.nday)
 			setActive(arg_2_0:findTF("getEffect", arg_3_2), arg_2_0.activity.data1 == arg_3_1 and arg_2_0.activity:readyToAchieve())
 
-			if not table.contains(arg_2_0.playedAnimationList, arg_3_1) then
+			if table.contains(arg_2_0.playedAnimationList, arg_3_1) and arg_3_1 == arg_2_0.nday - 1 then
 				GetComponent(arg_3_2, typeof(Animation)):Play("anim_AnniversaryEightLoginJPPage_tpl_get")
 			end
 		end
@@ -86,6 +86,10 @@ end
 
 function var_0_0.OnUpdateFlush(arg_9_0)
 	arg_9_0.nday = arg_9_0.activity.data1
+
+	for iter_9_0 = 1, arg_9_0.activity.data1 do
+		table.insert(arg_9_0.playedAnimationList, iter_9_0 - 1)
+	end
 
 	arg_9_0.itemList:align(arg_9_0.Day, arg_9_0.enterFlag and 0.1 or 0)
 	setText(arg_9_0.bg:Find("items/Root/image_05/Text"), arg_9_0.nday .. "/" .. arg_9_0.Day)

@@ -55,7 +55,9 @@ function var_0_0.getIcon(arg_7_0)
 			return "Props/icon_frame"
 		end,
 		[DROP_TYPE_ISLAND_ITEM] = function()
-			return "island/" .. arg_7_0:getConfig("icon")
+			local var_9_0 = arg_7_0:getConfig("icon_normal")
+
+			return var_9_0 ~= "" and var_9_0 or "island/" .. arg_7_0:getConfig("icon")
 		end,
 		[DROP_TYPE_ISLAND_ABILITY] = function()
 			return "island/" .. arg_7_0:getConfig("cmd_icon")
@@ -78,7 +80,7 @@ function var_0_0.getIcon(arg_7_0)
 			return "island/" .. arg_7_0:getConfig("icon")
 		end,
 		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function()
-			return "island/" .. arg_7_0:getConfig("icon")
+			return arg_7_0:getConfig("icon_normal")
 		end,
 		[DROP_TYPE_ISLAND_DRESS] = function()
 			return "island/IslandDressIcon/" .. arg_7_0:getConfig("icon")
@@ -87,7 +89,7 @@ function var_0_0.getIcon(arg_7_0)
 			return "island/IslandActionIcon/" .. arg_7_0:getConfig("resource")
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function()
-			return "island/IslandDressIcon/" .. arg_7_0:getConfig("icon")
+			return arg_7_0:getConfig("icon_normal")
 		end
 	}, function()
 		return arg_7_0:getConfig("icon")
@@ -419,7 +421,7 @@ function var_0_0.InitSwitch()
 		[DROP_TYPE_ISLAND_SPEEDUP_TICKET] = function(arg_72_0)
 			local var_72_0 = pg.island_speedup_ticket[arg_72_0.id]
 
-			arg_72_0.desc = ""
+			arg_72_0.desc = var_72_0.desc
 
 			return var_72_0
 		end,
@@ -651,10 +653,16 @@ function var_0_0.InitSwitch()
 			return 0
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function(arg_112_0)
-			local var_112_0 = getProxy(IslandProxy):GetIsland()
+			local var_112_0 = getProxy(IslandProxy)
 
-			if var_112_0 then
-				return var_112_0:GetCharacterAgency():CheckSkinIsOwned(arg_112_0.id) and 1 or 0
+			if not var_112_0 then
+				return 0
+			end
+
+			local var_112_1 = var_112_0:GetIsland()
+
+			if var_112_1 then
+				return var_112_1:GetCharacterAgency():CheckSkinIsOwned(arg_112_0.id) and 1 or 0
 			end
 
 			return 0
@@ -1745,16 +1753,19 @@ function var_0_0.InitSwitch()
 			updateItem(arg_287_1, Item.New({
 				id = arg_287_0.id
 			}), arg_287_2)
+		end,
+		[DROP_TYPE_ISLAND_SKIN] = function(arg_288_0, arg_288_1, arg_288_2)
+			updateIslandSkin(arg_288_1, arg_288_0, arg_288_2)
 		end
 	}
 
-	function var_0_0.UpdateCustomDropDefault(arg_288_0, arg_288_1, arg_288_2)
-		if arg_288_2.style == "dorm" then
-			updateDorm3dIcon(arg_288_1, arg_288_0, arg_288_2)
-		elseif arg_288_2.style == "island" then
-			updateIslandDefaultIconTpl(arg_288_1, arg_288_0, arg_288_2)
+	function var_0_0.UpdateCustomDropDefault(arg_289_0, arg_289_1, arg_289_2)
+		if arg_289_2.style == "dorm" then
+			updateDorm3dIcon(arg_289_1, arg_289_0, arg_289_2)
+		elseif arg_289_2.style == "island" then
+			updateIslandDefaultIconTpl(arg_289_1, arg_289_0, arg_289_2)
 		else
-			warning(string.format("without dropType %d in updateCustomDrop", arg_288_0.type))
+			warning(string.format("without dropType %d in updateCustomDrop", arg_289_0.type))
 		end
 	end
 end

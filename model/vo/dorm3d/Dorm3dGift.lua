@@ -94,20 +94,24 @@ function var_0_0.NeedViewTip(arg_9_0)
 	end)
 end
 
-function var_0_0.GetViewedFlag(arg_12_0)
-	local var_12_0 = getProxy(PlayerProxy):getRawData().id
-
-	return PlayerPrefs.GetInt(var_12_0 .. "_dorm3dGiftViewed_" .. arg_12_0, 0)
+function var_0_0.NeedViewTipByGiftId(arg_12_0)
+	return Dorm3dGift.GetViewedFlag(arg_12_0) == 0 and not getProxy(ApartmentProxy):isGiveGiftDone(arg_12_0)
 end
 
-function var_0_0.SetViewedFlag(arg_13_0)
-	if var_0_0.GetViewedFlag(arg_13_0) > 0 then
+function var_0_0.GetViewedFlag(arg_13_0)
+	local var_13_0 = getProxy(PlayerProxy):getRawData().id
+
+	return PlayerPrefs.GetInt(var_13_0 .. "_dorm3dGiftViewed_" .. arg_13_0, 0)
+end
+
+function var_0_0.SetViewedFlag(arg_14_0)
+	if var_0_0.GetViewedFlag(arg_14_0) > 0 then
 		return
 	end
 
-	local var_13_0 = getProxy(PlayerProxy):getRawData().id
+	local var_14_0 = getProxy(PlayerProxy):getRawData().id
 
-	PlayerPrefs.SetInt(var_13_0 .. "_dorm3dGiftViewed_" .. arg_13_0, 1)
+	PlayerPrefs.SetInt(var_14_0 .. "_dorm3dGiftViewed_" .. arg_14_0, 1)
 
 	return true
 end

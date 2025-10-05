@@ -207,6 +207,7 @@ function var_0_0.InitList(arg_23_0)
 	end
 
 	arg_23_0.displays = var_23_2
+	arg_23_0.scrollrect.enabled = true
 
 	arg_23_0.scrollrect:SetTotalCount(#var_23_2, 0)
 

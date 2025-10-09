@@ -17,7 +17,8 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey想要继续的话，我不会拒绝哦~",
+			say = "嗯……Honey的手放在这里的话……///~",
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_furniture2_tone2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_bed02_idle01_fb02",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							skip = true,
+							name = "face_happy_start",
+							type = "action"
 						},
 						{
 							skip = false,

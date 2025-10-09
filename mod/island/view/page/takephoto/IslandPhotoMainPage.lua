@@ -58,6 +58,12 @@ function var_0_0.RemoveListeners(arg_4_0)
 end
 
 function var_0_0.OnInit(arg_5_0)
+	onButton(arg_5_0, arg_5_0._tf:Find("Center/Normal/Back/help"), function()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_photo.tip
+		})
+	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0._tf:Find("Center/Normal/Back"), function()
 		arg_5_0:Hide()
 	end, SFX_CANCEL)
@@ -72,27 +78,27 @@ function var_0_0.OnInit(arg_5_0)
 		setActive(arg_5_0.FilmTf, false)
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0.btnShoot, function()
-		local function var_9_0(arg_10_0)
-			setActive(arg_5_0.centerPanel, arg_10_0)
-			setActive(arg_5_0._tf:Find("RightTop"), arg_10_0)
+		local function var_10_0(arg_11_0)
+			setActive(arg_5_0.centerPanel, arg_11_0)
+			setActive(arg_5_0._tf:Find("RightTop"), arg_11_0)
 
 			if PlayerPrefs.GetInt(SHOW_TOUCH_EFFECT, 1) > 0 then
-				setActive(pg.UIMgr.GetInstance().OverlayEffect, arg_10_0)
+				setActive(pg.UIMgr.GetInstance().OverlayEffect, arg_11_0)
 			end
 		end
 
-		local function var_9_1(arg_11_0)
+		local function var_10_1(arg_12_0)
 			warning("截图结果：" .. tostring(true))
 
-			local var_11_0 = Tex2DExtension.EncodeToJPG(arg_11_0)
+			local var_12_0 = Tex2DExtension.EncodeToJPG(arg_12_0)
 
-			arg_5_0:OpenPage(IslandPhotoSharePage, var_11_0, arg_11_0)
+			arg_5_0:OpenPage(IslandPhotoSharePage, var_12_0, arg_12_0)
 			IslandTaskHelper.UpdateClientTaskProgress(IslandTaskTargetType.TAKE_PHOTO, 0)
 			IslandAchievementHelper.OnTakePhoto(0)
 		end
 
 		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandTakeThoto(2))
-		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(arg_5_0.mainCamera, var_9_1)
+		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(arg_5_0.mainCamera, var_10_1)
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0.photoModel:Find("left_btn"), function()
 		arg_5_0:LeftSelectBtnHandle()
@@ -108,8 +114,8 @@ function var_0_0.OnInit(arg_5_0)
 		arg_5_0:ChangeTakePhotoModel(IslandConst.TakePhotoModel.Third)
 		arg_5_0:RightSelectBtnHandle()
 	end, SFX_PANEL)
-	onSlider(arg_5_0, arg_5_0.sliderZoom, function(arg_16_0)
-		arg_5_0:ChangeSliderValue(arg_16_0)
+	onSlider(arg_5_0, arg_5_0.sliderZoom, function(arg_17_0)
+		arg_5_0:ChangeSliderValue(arg_17_0)
 	end)
 
 	arg_5_0.hideUI = false
@@ -129,17 +135,17 @@ function var_0_0.OnInit(arg_5_0)
 		arg_5_0:emitCore(ISLAND_EVT.SetOpMoveBtnActve, false)
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0.btnReset, function()
-		local var_18_0
+		local var_19_0
 
 		if arg_5_0.takePhotoModel == 2 then
-			var_18_0 = (arg_5_0.fpsHeight[1] - arg_5_0.fpsHeight[2]) / (arg_5_0.fpsHeight[3] - arg_5_0.fpsHeight[2])
+			var_19_0 = (arg_5_0.fpsHeight[1] - arg_5_0.fpsHeight[2]) / (arg_5_0.fpsHeight[3] - arg_5_0.fpsHeight[2])
 		else
-			var_18_0 = (arg_5_0.tpsHeight[1] - arg_5_0.tpsHeight[2]) / (arg_5_0.tpsHeight[3] - arg_5_0.tpsHeight[2])
+			var_19_0 = (arg_5_0.tpsHeight[1] - arg_5_0.tpsHeight[2]) / (arg_5_0.tpsHeight[3] - arg_5_0.tpsHeight[2])
 
 			arg_5_0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, arg_5_0.takePhotoModel)
 		end
 
-		setSlider(arg_5_0.sliderZoom, 0, 1, var_18_0)
+		setSlider(arg_5_0.sliderZoom, 0, 1, var_19_0)
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0.hideuiMask, function()
 		if not arg_5_0.hideUI then
@@ -161,18 +167,18 @@ function var_0_0.OnInit(arg_5_0)
 	onButton(arg_5_0, arg_5_0.btnFilm, function()
 		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandTakeThoto(3))
 
-		local function var_20_0(arg_21_0)
-			setActive(arg_5_0.centerPanel, arg_21_0)
+		local function var_21_0(arg_22_0)
+			setActive(arg_5_0.centerPanel, arg_22_0)
 
-			arg_5_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_21_0 and 1 or 0
+			arg_5_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_22_0 and 1 or 0
 
-			arg_5_0:emitCore(ISLAND_EVT.SetOpMoveBtnActve, arg_21_0, true)
+			arg_5_0:emitCore(ISLAND_EVT.SetOpMoveBtnActve, arg_22_0, true)
 		end
 
 		if not arg_5_0.recordState then
-			local function var_20_1(arg_22_0)
-				if not arg_22_0 then
-					var_20_0(true)
+			local function var_21_1(arg_23_0)
+				if not arg_23_0 then
+					var_21_0(true)
 
 					arg_5_0.recordState = false
 
@@ -182,38 +188,38 @@ function var_0_0.OnInit(arg_5_0)
 				end
 			end
 
-			local function var_20_2()
+			local function var_21_2()
 				setActive(arg_5_0.stopRecBtn, true)
 				LeanTween.moveX(arg_5_0.stopRecBtn, 0, 0.15):setOnComplete(System.Action(function()
 					var_0_0.SetMute(true)
 
 					arg_5_0.recordFilePath = YSNormalTool.RecordTool.GenRecordFilePath()
 
-					YSNormalTool.RecordTool.StartRecording(var_20_1, arg_5_0.recordFilePath)
+					YSNormalTool.RecordTool.StartRecording(var_21_1, arg_5_0.recordFilePath)
 				end))
 			end
 
 			seriesAsync({
-				function(arg_25_0)
-					PermissionHelper.Request3DDorm(arg_25_0, nil)
-				end,
 				function(arg_26_0)
-					var_20_0(false)
+					PermissionHelper.Request3DDorm(arg_26_0, nil)
+				end,
+				function(arg_27_0)
+					var_21_0(false)
 
-					local var_26_0 = PlayerPrefs.GetInt("hadShowForVideoTipDorm", 0)
+					local var_27_0 = PlayerPrefs.GetInt("hadShowForVideoTipDorm", 0)
 
-					if not var_26_0 or var_26_0 <= 0 then
+					if not var_27_0 or var_27_0 <= 0 then
 						PlayerPrefs.SetInt("hadShowForVideoTipDorm", 1)
 
 						arg_5_0:findTF("Text", arg_5_0.videoTipPanel):GetComponent("Text").text = i18n("word_take_video_tip")
 
 						onButton(arg_5_0, arg_5_0.videoTipPanel, function()
 							setActive(arg_5_0.videoTipPanel, false)
-							var_20_2()
+							var_21_2()
 						end)
 						setActive(arg_5_0.videoTipPanel, true)
 					else
-						var_20_2()
+						var_21_2()
 					end
 				end
 			})
@@ -222,8 +228,8 @@ function var_0_0.OnInit(arg_5_0)
 	onButton(arg_5_0, arg_5_0.stopRecBtn, function()
 		arg_5_0.recordState = false
 
-		local function var_28_0(arg_29_0)
-			if arg_29_0 and PLATFORM == PLATFORM_ANDROID then
+		local function var_29_0(arg_30_0)
+			if arg_30_0 and PLATFORM == PLATFORM_ANDROID then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("word_save_video"),
 					onNo = function()
@@ -232,8 +238,8 @@ function var_0_0.OnInit(arg_5_0)
 						end
 					end,
 					onYes = function()
-						YSNormalTool.MediaTool.SaveVideoToAlbum(arg_5_0.recordFilePath, function(arg_32_0, arg_32_1)
-							if arg_32_0 then
+						YSNormalTool.MediaTool.SaveVideoToAlbum(arg_5_0.recordFilePath, function(arg_33_0, arg_33_1)
+							if arg_33_0 then
 								pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
 
 								if System.IO.File.Exists(arg_5_0.recordFilePath) then
@@ -248,19 +254,19 @@ function var_0_0.OnInit(arg_5_0)
 			arg_5_0.recordState = false
 		end
 
-		local function var_28_1(arg_33_0)
-			setActive(arg_5_0.centerPanel, arg_33_0)
+		local function var_29_1(arg_34_0)
+			setActive(arg_5_0.centerPanel, arg_34_0)
 
-			arg_5_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_33_0 and 1 or 0
+			arg_5_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_34_0 and 1 or 0
 		end
 
 		if not LeanTween.isTweening(go(arg_5_0.stopRecBtn)) then
 			LeanTween.moveX(arg_5_0.stopRecBtn, arg_5_0.stopRecBtn.rect.width, 0.15):setOnComplete(System.Action(function()
 				setActive(arg_5_0.stopRecBtn, false)
 				seriesAsync({
-					function(arg_35_0)
-						YSNormalTool.RecordTool.StopRecording(var_28_0)
-						var_28_1(true)
+					function(arg_36_0)
+						YSNormalTool.RecordTool.StopRecording(var_29_0)
+						var_29_1(true)
 						var_0_0.SetMute(false)
 					end
 				})
@@ -270,127 +276,127 @@ function var_0_0.OnInit(arg_5_0)
 	setActive(arg_5_0.stopRecBtn, false)
 end
 
-function var_0_0.ChangeSliderValue(arg_36_0, arg_36_1)
-	local var_36_0
-	local var_36_1
+function var_0_0.ChangeSliderValue(arg_37_0, arg_37_1)
+	local var_37_0
+	local var_37_1
 
-	if arg_36_0.takePhotoModel == 2 then
-		var_36_0 = arg_36_0.fpsCamera.gameObject:GetComponent(typeof(CameraPovLook))
-		var_36_1 = arg_36_1 * (arg_36_0.fpsHeight[3] - arg_36_0.fpsHeight[2]) + arg_36_0.fpsHeight[2]
+	if arg_37_0.takePhotoModel == 2 then
+		var_37_0 = arg_37_0.fpsCamera.gameObject:GetComponent(typeof(CameraPovLook))
+		var_37_1 = arg_37_1 * (arg_37_0.fpsHeight[3] - arg_37_0.fpsHeight[2]) + arg_37_0.fpsHeight[2]
 	else
-		var_36_0 = arg_36_0.tpsCamera.gameObject:GetComponent(typeof(CameraPovLook))
-		var_36_1 = arg_36_1 * (arg_36_0.tpsHeight[3] - arg_36_0.tpsHeight[2]) + arg_36_0.tpsHeight[2]
+		var_37_0 = arg_37_0.tpsCamera.gameObject:GetComponent(typeof(CameraPovLook))
+		var_37_1 = arg_37_1 * (arg_37_0.tpsHeight[3] - arg_37_0.tpsHeight[2]) + arg_37_0.tpsHeight[2]
 
-		arg_36_0:emitCore(ISLAND_EVT.Change_Photo_Height, arg_36_0.takePhotoModel, var_36_1)
+		arg_37_0:emitCore(ISLAND_EVT.Change_Photo_Height, arg_37_0.takePhotoModel, var_37_1)
 	end
 
-	var_36_0:SetTargetOffsetY(var_36_1)
+	var_37_0:SetTargetOffsetY(var_37_1)
 end
 
-function var_0_0.RightSelectBtnHandle(arg_37_0)
-	setActive(arg_37_0.unselectBgTF, true)
-	setActive(arg_37_0.select_bgTF, false)
-	setActive(arg_37_0.photoModel:Find("left_btn"), true)
-
-	for iter_37_0, iter_37_1 in pairs(arg_37_0.takeModelTFDic) do
-		if arg_37_0.takePhotoModel == iter_37_0 then
-			setActive(iter_37_1:Find("select"), true)
-			setActive(iter_37_1:Find("unSelect"), false)
-			setActive(iter_37_1, true)
-			setAnchoredPosition(iter_37_1, {
-				x = 0
-			})
-		else
-			setActive(iter_37_1:Find("unSelect"), true)
-			setActive(iter_37_1:Find("select"), false)
-			setActive(iter_37_1, false)
-		end
-	end
-end
-
-function var_0_0.LeftSelectBtnHandle(arg_38_0)
-	setActive(arg_38_0.unselectBgTF, false)
-	setActive(arg_38_0.select_bgTF, true)
-	setActive(arg_38_0.photoModel:Find("left_btn"), false)
-
-	local var_38_0 = 1
+function var_0_0.RightSelectBtnHandle(arg_38_0)
+	setActive(arg_38_0.unselectBgTF, true)
+	setActive(arg_38_0.select_bgTF, false)
+	setActive(arg_38_0.photoModel:Find("left_btn"), true)
 
 	for iter_38_0, iter_38_1 in pairs(arg_38_0.takeModelTFDic) do
-		setActive(iter_38_1, true)
-
 		if arg_38_0.takePhotoModel == iter_38_0 then
+			setActive(iter_38_1:Find("select"), true)
+			setActive(iter_38_1:Find("unSelect"), false)
+			setActive(iter_38_1, true)
 			setAnchoredPosition(iter_38_1, {
 				x = 0
 			})
 		else
-			setAnchoredPosition(iter_38_1, {
-				x = -66 * var_38_0
-			})
-
-			var_38_0 = var_38_0 + 1
+			setActive(iter_38_1:Find("unSelect"), true)
+			setActive(iter_38_1:Find("select"), false)
+			setActive(iter_38_1, false)
 		end
 	end
 end
 
-function var_0_0.ChangeTakePhotoModel(arg_39_0, arg_39_1)
-	if arg_39_0.takePhotoModel == arg_39_1 then
+function var_0_0.LeftSelectBtnHandle(arg_39_0)
+	setActive(arg_39_0.unselectBgTF, false)
+	setActive(arg_39_0.select_bgTF, true)
+	setActive(arg_39_0.photoModel:Find("left_btn"), false)
+
+	local var_39_0 = 1
+
+	for iter_39_0, iter_39_1 in pairs(arg_39_0.takeModelTFDic) do
+		setActive(iter_39_1, true)
+
+		if arg_39_0.takePhotoModel == iter_39_0 then
+			setAnchoredPosition(iter_39_1, {
+				x = 0
+			})
+		else
+			setAnchoredPosition(iter_39_1, {
+				x = -66 * var_39_0
+			})
+
+			var_39_0 = var_39_0 + 1
+		end
+	end
+end
+
+function var_0_0.ChangeTakePhotoModel(arg_40_0, arg_40_1)
+	if arg_40_0.takePhotoModel == arg_40_1 then
 		return
 	end
 
-	if arg_39_0.takePhotoModel then
-		local var_39_0 = arg_39_0.takeModelTFDic[arg_39_0.takePhotoModel]
+	if arg_40_0.takePhotoModel then
+		local var_40_0 = arg_40_0.takeModelTFDic[arg_40_0.takePhotoModel]
 
-		setActive(var_39_0:Find("select"), false)
-		setActive(var_39_0:Find("unSelect"), true)
+		setActive(var_40_0:Find("select"), false)
+		setActive(var_40_0:Find("unSelect"), true)
 	end
 
-	arg_39_0.takePhotoModel = arg_39_1
+	arg_40_0.takePhotoModel = arg_40_1
 
-	local var_39_1 = arg_39_0.takeModelTFDic[arg_39_0.takePhotoModel]
+	local var_40_1 = arg_40_0.takeModelTFDic[arg_40_0.takePhotoModel]
 
-	setActive(var_39_1:Find("select"), true)
-	setActive(var_39_1:Find("unSelect"), false)
+	setActive(var_40_1:Find("select"), true)
+	setActive(var_40_1:Find("unSelect"), false)
 
-	local var_39_2
-	local var_39_3
+	local var_40_2
+	local var_40_3
 
-	if arg_39_0.takePhotoModel == 2 then
-		var_39_2 = arg_39_0.fpsCamera.gameObject:GetComponent(typeof(CameraPovZoom))
-		var_39_3 = (arg_39_0.fpsHeight[1] - arg_39_0.fpsHeight[2]) / (arg_39_0.fpsHeight[3] - arg_39_0.fpsHeight[2])
+	if arg_40_0.takePhotoModel == 2 then
+		var_40_2 = arg_40_0.fpsCamera.gameObject:GetComponent(typeof(CameraPovZoom))
+		var_40_3 = (arg_40_0.fpsHeight[1] - arg_40_0.fpsHeight[2]) / (arg_40_0.fpsHeight[3] - arg_40_0.fpsHeight[2])
 	else
-		var_39_2 = arg_39_0.tpsCamera.gameObject:GetComponent(typeof(CameraPovZoom))
-		var_39_3 = (arg_39_0.tpsHeight[1] - arg_39_0.tpsHeight[2]) / (arg_39_0.tpsHeight[3] - arg_39_0.tpsHeight[2])
+		var_40_2 = arg_40_0.tpsCamera.gameObject:GetComponent(typeof(CameraPovZoom))
+		var_40_3 = (arg_40_0.tpsHeight[1] - arg_40_0.tpsHeight[2]) / (arg_40_0.tpsHeight[3] - arg_40_0.tpsHeight[2])
 	end
 
-	setSlider(arg_39_0.sliderZoom, 0, 1, var_39_3)
-	var_39_2:SetCurrentZoom(50)
-	arg_39_0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, arg_39_0.takePhotoModel)
+	setSlider(arg_40_0.sliderZoom, 0, 1, var_40_3)
+	var_40_2:SetCurrentZoom(50)
+	arg_40_0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, arg_40_0.takePhotoModel)
 end
 
-function var_0_0.OnShow(arg_40_0)
+function var_0_0.OnShow(arg_41_0)
 	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandTakeThoto(1))
-	arg_40_0:ChangeTakePhotoModel(IslandConst.TakePhotoModel.First)
-	arg_40_0:RightSelectBtnHandle()
+	arg_41_0:ChangeTakePhotoModel(IslandConst.TakePhotoModel.First)
+	arg_41_0:RightSelectBtnHandle()
 end
 
-function var_0_0.OnDisable(arg_41_0)
-	arg_41_0:OnHide()
+function var_0_0.OnDisable(arg_42_0)
+	arg_42_0:OnHide()
 end
 
-function var_0_0.OnHide(arg_42_0)
-	if arg_42_0.recordState then
-		triggerButton(arg_42_0.btnFilm)
+function var_0_0.OnHide(arg_43_0)
+	if arg_43_0.recordState then
+		triggerButton(arg_43_0.btnFilm)
 
 		return
 	end
 
-	arg_42_0.takePhotoModel = nil
+	arg_43_0.takePhotoModel = nil
 
-	arg_42_0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, IslandConst.TakePhotoModel.None)
+	arg_43_0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, IslandConst.TakePhotoModel.None)
 end
 
-function var_0_0.SetMute(arg_43_0)
-	if arg_43_0 then
+function var_0_0.SetMute(arg_44_0)
+	if arg_44_0 then
 		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
 		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
 		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
@@ -401,7 +407,7 @@ function var_0_0.SetMute(arg_43_0)
 	end
 end
 
-function var_0_0.OnDestroy(arg_44_0)
+function var_0_0.OnDestroy(arg_45_0)
 	return
 end
 

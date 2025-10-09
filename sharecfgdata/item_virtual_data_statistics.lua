@@ -178138,6 +178138,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65711] = {
+		display = "用于「圣火不灭」活动提升角色好感，活动结束后将会消失",
+		name = "友好度-赫斯缇雅",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/65711",
+		id = 65711,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66001] = {
 		display = "重要的重建物资之一，木香与海风更配哦",
 		name = "木料",

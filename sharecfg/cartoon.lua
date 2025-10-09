@@ -1998,6 +1998,36 @@ pg.cartoon = {
 		resource = "333",
 		cartoon_id = 333
 	},
+	{
+		id = 334,
+		mark = 50,
+		resource = "334",
+		cartoon_id = 334
+	},
+	{
+		id = 335,
+		mark = 50,
+		resource = "335",
+		cartoon_id = 335
+	},
+	{
+		id = 336,
+		mark = 50,
+		resource = "336",
+		cartoon_id = 336
+	},
+	{
+		id = 337,
+		mark = 50,
+		resource = "337",
+		cartoon_id = 337
+	},
+	{
+		id = 338,
+		mark = 50,
+		resource = "338",
+		cartoon_id = 338
+	},
 	all = {
 		1,
 		2,
@@ -2331,6 +2361,11 @@ pg.cartoon = {
 		330,
 		331,
 		332,
-		333
+		333,
+		334,
+		335,
+		336,
+		337,
+		338
 	}
 }

@@ -35,8 +35,14 @@ function var_0_0.init(arg_3_0)
 			else
 				local var_4_1 = arg_3_0.pageDic[var_4_0.id]
 				local var_4_2 = arg_3_0:findTF("tip", arg_4_2)
+				local var_4_3 = var_4_1:IsShowReminder()
 
-				setActive(var_4_2, var_4_0:readyToAchieve())
+				if var_4_3 == nil then
+					setActive(var_4_2, var_4_0:readyToAchieve())
+				else
+					setActive(var_4_2, var_4_3)
+				end
+
 				onToggle(arg_3_0, arg_4_2, function(arg_6_0)
 					if arg_6_0 then
 						arg_3_0:selectActivity(var_4_0)
@@ -124,67 +130,75 @@ function var_0_0.updateActivity(arg_17_0, arg_17_1)
 	end
 end
 
-function var_0_0.updateEntrances(arg_20_0)
+function var_0_0.instanceActivityPage(arg_20_0, arg_20_1)
+	var_0_0.super.instanceActivityPage(arg_20_0, arg_20_1)
+
+	for iter_20_0, iter_20_1 in pairs(arg_20_0.pageDic) do
+		iter_20_1:SetCoreActivityUI(arg_20_0)
+	end
+end
+
+function var_0_0.updateEntrances(arg_21_0)
 	return
 end
 
-function var_0_0.flushTabs(arg_21_0)
-	arg_21_0.tabsList:align(arg_21_0.tabs.childCount)
+function var_0_0.flushTabs(arg_22_0)
+	arg_22_0.tabsList:align(arg_22_0.tabs.childCount)
 end
 
-function var_0_0.selectActivity(arg_22_0, arg_22_1)
-	if arg_22_1 and (not arg_22_0.activity or arg_22_0.activity.id ~= arg_22_1.id) then
-		local var_22_0 = arg_22_0.pageDic[arg_22_1.id]
+function var_0_0.selectActivity(arg_23_0, arg_23_1)
+	if arg_23_1 and (not arg_23_0.activity or arg_23_0.activity.id ~= arg_23_1.id) then
+		local var_23_0 = arg_23_0.pageDic[arg_23_1.id]
 
-		assert(var_22_0, "找不到id:" .. arg_22_1.id .. "的活动页，请检查")
-		var_22_0:Load()
-		var_22_0:ActionInvoke("Flush", arg_22_1)
-		var_22_0:ActionInvoke("ShowOrHide", true)
+		assert(var_23_0, "找不到id:" .. arg_23_1.id .. "的活动页，请检查")
+		var_23_0:Load()
+		var_23_0:ActionInvoke("Flush", arg_23_1)
+		var_23_0:ActionInvoke("ShowOrHide", true)
 
-		if arg_22_0.activity and arg_22_0.activity.id ~= arg_22_1.id then
-			arg_22_0.pageDic[arg_22_0.activity.id]:ActionInvoke("ShowOrHide", false)
+		if arg_23_0.activity and arg_23_0.activity.id ~= arg_23_1.id then
+			arg_23_0.pageDic[arg_23_0.activity.id]:ActionInvoke("ShowOrHide", false)
 		end
 
-		arg_22_0.activity = arg_22_1
-		arg_22_0.contextData.id = arg_22_1.id
+		arg_23_0.activity = arg_23_1
+		arg_23_0.contextData.id = arg_23_1.id
 	end
 end
 
-function var_0_0.verifyTabs(arg_23_0, arg_23_1)
-	local var_23_0 = arg_23_0.activities[arg_23_0:getActivityIndex(arg_23_1) or arg_23_0:getActivityIndex(arg_23_0:GetActiveActivity()) or 1]
+function var_0_0.verifyTabs(arg_24_0, arg_24_1)
+	local var_24_0 = arg_24_0.activities[arg_24_0:getActivityIndex(arg_24_1) or arg_24_0:getActivityIndex(arg_24_0:GetActiveActivity()) or 1]
 
-	if var_23_0 == nil then
+	if var_24_0 == nil then
 		return
 	end
 
-	local var_23_1 = var_23_0:getConfig("is_show")
-	local var_23_2 = arg_23_0.tabs:Find(tostring(var_23_1))
+	local var_24_1 = var_24_0:getConfig("is_show")
+	local var_24_2 = arg_24_0.tabs:Find(tostring(var_24_1))
 
-	triggerToggle(var_23_2, true)
+	triggerToggle(var_24_2, true)
 end
 
-function var_0_0.GetActiveActivity(arg_24_0)
-	for iter_24_0, iter_24_1 in ipairs(arg_24_0.activities) do
-		if not iter_24_1:isEnd() then
-			return iter_24_1.id
+function var_0_0.GetActiveActivity(arg_25_0)
+	for iter_25_0, iter_25_1 in ipairs(arg_25_0.activities) do
+		if not iter_25_1:isEnd() then
+			return iter_25_1.id
 		end
 	end
 end
 
-function var_0_0.onBackPressed(arg_25_0)
-	local var_25_0 = arg_25_0.pageDic[arg_25_0.activity.id]
+function var_0_0.onBackPressed(arg_26_0)
+	local var_26_0 = arg_26_0.pageDic[arg_26_0.activity.id]
 
-	if var_25_0:IsShowingPopWindow() then
-		var_25_0:ClosePopWindow()
+	if var_26_0:IsShowingPopWindow() then
+		var_26_0:ClosePopWindow()
 
 		return
 	end
 
-	var_0_0.super.onBackPressed(arg_25_0)
+	var_0_0.super.onBackPressed(arg_26_0)
 end
 
-function var_0_0.getActClass(arg_26_0, arg_26_1)
-	return _G[arg_26_1]
+function var_0_0.getActClass(arg_27_0, arg_27_1)
+	return _G[arg_27_1]
 end
 
 return var_0_0

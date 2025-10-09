@@ -32,9 +32,7 @@ function var_0_0.Init(arg_3_0)
 	setText(arg_3_0.countTF, arg_3_0.goods:getConfig("price"))
 	GetImageSpriteFromAtlasAsync("props/medal", "", arg_3_0.resIconTF)
 	GetImageSpriteFromAtlasAsync(arg_3_0.goods:getConfig("goods_icon"), "", arg_3_0.itemIconTF)
-
-	local var_3_2 = arg_3_0.goods:getConfig("is_ship")
-	local var_3_3 = arg_3_0.goods:getConfig("goods")
+	setActive(arg_3_0.groupLocked, not arg_3_0.goods:Selectable() and arg_3_0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
 function var_0_0.OnDispose(arg_4_0)

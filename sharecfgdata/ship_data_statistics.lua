@@ -496979,6 +496979,1046 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[11400011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "赫斯缇雅",
+		type = 12,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Hestia",
+		skin_id = 11400010,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			771,
+			9,
+			0,
+			28,
+			0,
+			62,
+			0,
+			37,
+			6,
+			16,
+			79,
+			0
+		},
+		attrs_growth = {
+			20701,
+			129,
+			0,
+			621,
+			0,
+			431,
+			0,
+			552,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.85,
+			0.85
+		},
+		strategy_list = {
+			{
+				4,
+				1
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "赫斯缇雅",
+		type = 12,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Hestia",
+		skin_id = 11400010,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			959,
+			11,
+			0,
+			35,
+			0,
+			62,
+			0,
+			37,
+			6,
+			16,
+			79,
+			0
+		},
+		attrs_growth = {
+			20701,
+			129,
+			0,
+			621,
+			0,
+			431,
+			0,
+			552,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.88,
+			0.88
+		},
+		strategy_list = {
+			{
+				4,
+				2
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "赫斯缇雅",
+		type = 12,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Hestia",
+		skin_id = 11400010,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1335,
+			16,
+			0,
+			49,
+			0,
+			62,
+			0,
+			37,
+			6,
+			16,
+			79,
+			0
+		},
+		attrs_growth = {
+			20701,
+			129,
+			0,
+			621,
+			0,
+			431,
+			0,
+			552,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.93,
+			0.93
+		},
+		strategy_list = {
+			{
+				4,
+				2
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "赫斯缇雅",
+		type = 12,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Hestia",
+		skin_id = 11400010,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1899,
+			23,
+			0,
+			70,
+			0,
+			62,
+			0,
+			37,
+			6,
+			16,
+			79,
+			0
+		},
+		attrs_growth = {
+			20701,
+			129,
+			0,
+			621,
+			0,
+			431,
+			0,
+			552,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {
+			{
+				4,
+				3
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "琉·璃昂",
+		type = 2,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Ryu Lion",
+		skin_id = 11400020,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			785,
+			34,
+			63,
+			67,
+			0,
+			75,
+			0,
+			57,
+			36,
+			32,
+			65,
+			38
+		},
+		attrs_growth = {
+			22363,
+			473,
+			826,
+			1412,
+			0,
+			523,
+			0,
+			817,
+			682,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.3,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "琉·璃昂",
+		type = 2,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Ryu Lion",
+		skin_id = 11400020,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			976,
+			42,
+			79,
+			84,
+			0,
+			75,
+			0,
+			57,
+			36,
+			32,
+			65,
+			47
+		},
+		attrs_growth = {
+			22363,
+			473,
+			826,
+			1412,
+			0,
+			523,
+			0,
+			817,
+			682,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "琉·璃昂",
+		type = 2,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Ryu Lion",
+		skin_id = 11400020,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1359,
+			59,
+			110,
+			117,
+			0,
+			75,
+			0,
+			57,
+			36,
+			32,
+			65,
+			66
+		},
+		attrs_growth = {
+			22363,
+			473,
+			826,
+			1412,
+			0,
+			523,
+			0,
+			817,
+			682,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "琉·璃昂",
+		type = 2,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Ryu Lion",
+		skin_id = 11400020,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1934,
+			85,
+			157,
+			166,
+			0,
+			75,
+			0,
+			57,
+			36,
+			32,
+			65,
+			94
+		},
+		attrs_growth = {
+			22363,
+			473,
+			826,
+			1412,
+			0,
+			523,
+			0,
+			817,
+			682,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[299011] = {
 		raid_distance = 0,
 		oxy_max = 0,

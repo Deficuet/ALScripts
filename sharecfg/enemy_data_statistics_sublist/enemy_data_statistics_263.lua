@@ -1,5 +1,54 @@
 pg = pg or {}
 pg.enemy_data_statistics_263 = {
+	[16500303] = {
+		cannon = 120,
+		name = "拉·加利索尼埃统御武装-「毁灭」",
+		type = 5,
+		speed_growth = 0,
+		pilot_ai_template_id = 20006,
+		air = 0,
+		fog_fx = "",
+		dodge = 13,
+		speed = 26,
+		luck = 0,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 156,
+		antiaircraft_growth = 0,
+		reload = 150,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 0,
+		base = 90442,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 135,
+		hit_growth = 210,
+		armor = 0,
+		durability = 12000,
+		torpedo = 80,
+		id = 16500303,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		specific_fx_scale = {
+			yuanchou_liandao = 0.04
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ",
+			"yuanchou_liandao"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 1
+			}
+		}
+	},
 	[16501001] = {
 		cannon = 7,
 		hit_growth = 144,
@@ -1301,47 +1350,6 @@ pg.enemy_data_statistics_263 = {
 			1100337,
 			1100272,
 			1100492
-		}
-	},
-	[16502013] = {
-		cannon = 18,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 1800,
-		battle_unit_type = 35,
-		air = 0,
-		base = 90745,
-		dodge = 0,
-		durability_growth = 35200,
-		antiaircraft = 95,
-		speed = 12,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		antisub = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		antiaircraft_growth = 1400,
-		torpedo = 17,
-		durability = 1190,
-		armor_growth = 0,
-		torpedo_growth = 1250,
-		luck_growth = 0,
-		hit_growth = 144,
-		armor = 0,
-		fog_fx = "",
-		id = 16502013,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1100552,
-			1100587
 		}
 	}
 }

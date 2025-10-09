@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_333 = {
+	[16672202] = {
+		cannon = 28,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 1600,
+		pilot_ai_template_id = 70275,
+		air = 0,
+		battle_unit_type = 90,
+		dodge = 14,
+		base = 90992,
+		durability_growth = 125600,
+		antiaircraft = 115,
+		reload_growth = 0,
+		dodge_growth = 198,
+		speed = 20,
+		luck = 4,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 3600,
+		torpedo = 52,
+		durability = 1480,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		id = 16672202,
+		fog_fx = "",
+		antisub = 0,
+		specific_fx_scale = {},
+		equipment_list = {
+			3218015,
+			3218020,
+			3218025
+		}
+	},
 	[16672203] = {
 		cannon = 60,
 		name = "骸骨兽群",
@@ -1241,43 +1278,5 @@ pg.enemy_data_statistics_333 = {
 				LV = 5
 			}
 		}
-	},
-	[16677001] = {
-		cannon = 280,
-		hit_growth = 0,
-		fog_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 20006,
-		air = 0,
-		luck = 66,
-		dodge = 25,
-		cannon_growth = 0,
-		speed = 15,
-		reload = 150,
-		reload_growth = 0,
-		dodge_growth = 0,
-		id = 16677001,
-		torpedo = 0,
-		hit = 120,
-		antisub_growth = 0,
-		air_growth = 0,
-		durability_growth = 0,
-		base = 90990,
-		durability = 1111111,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		armor = 0,
-		antiaircraft = 400,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		scale = 180,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {},
-		buff_list = {}
 	}
 }

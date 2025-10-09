@@ -12,17 +12,27 @@ function var_0_0.OnInit(arg_1_0, arg_1_1)
 	}
 end
 
-function var_0_0.GetMask(arg_2_0)
-	if arg_2_0.mask == "" then
+function var_0_0.OnInitCombine(arg_2_0, arg_2_1)
+	arg_2_0.combineData = arg_2_1
+end
+
+function var_0_0.GetMask(arg_3_0)
+	if arg_3_0.mask == "" then
 		return nil
 	end
 
-	return arg_2_0.mask
+	return arg_3_0.mask
 end
 
-function var_0_0.OnStart(arg_3_0)
-	arg_3_0.user:UpdateInteraction({
-		action = arg_3_0.actionName
+function var_0_0.OnStart(arg_4_0)
+	local var_4_0 = arg_4_0:GetCombineFurnitureAnimator()
+
+	if var_4_0 then
+		return var_4_0[2] or arg_4_0.defaultAction
+	end
+
+	arg_4_0.user:UpdateInteraction({
+		action = arg_4_0.actionName
 	})
 end
 

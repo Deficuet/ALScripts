@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_262 = {
+	[16500017] = {
+		cannon = 5,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 300,
+		pilot_ai_template_id = 10002,
+		air = 0,
+		battle_unit_type = 65,
+		dodge = 0,
+		base = 90129,
+		durability_growth = 3800,
+		antiaircraft = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 14,
+		luck = 0,
+		hit = 8,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 24,
+		durability = 120,
+		armor_growth = 0,
+		torpedo_growth = 1600,
+		luck_growth = 0,
+		hit_growth = 120,
+		armor = 0,
+		id = 16500017,
+		fog_fx = "",
+		antisub = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			1100695,
+			1100710
+		}
+	},
 	[16500021] = {
 		cannon = 5,
 		reload = 150,
@@ -1391,55 +1429,6 @@ pg.enemy_data_statistics_262 = {
 			3051109,
 			3051110,
 			3051111
-		}
-	},
-	[16500303] = {
-		cannon = 120,
-		name = "拉·加利索尼埃统御武装-「毁灭」",
-		type = 5,
-		speed_growth = 0,
-		pilot_ai_template_id = 20006,
-		air = 0,
-		fog_fx = "",
-		dodge = 13,
-		speed = 26,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 156,
-		antiaircraft_growth = 0,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 0,
-		base = 90442,
-		icon_type = 5,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 135,
-		hit_growth = 210,
-		armor = 0,
-		durability = 12000,
-		torpedo = 80,
-		id = 16500303,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		specific_fx_scale = {
-			yuanchou_liandao = 0.04
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ",
-			"yuanchou_liandao"
-		},
-		equipment_list = {},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 1
-			}
 		}
 	}
 }

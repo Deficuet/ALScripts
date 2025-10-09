@@ -1,5 +1,82 @@
 pg = pg or {}
 pg.enemy_data_statistics_194 = {
+	[14503810] = {
+		cannon = 145,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		battle_unit_type = 90,
+		air = 190,
+		base = 90455,
+		dodge = 11,
+		durability_growth = 310000,
+		antiaircraft = 250,
+		speed = 20,
+		reload_growth = 0,
+		dodge_growth = 156,
+		luck = 18,
+		antisub = 0,
+		hit = 20,
+		antisub_growth = 0,
+		air_growth = 3200,
+		antiaircraft_growth = 3200,
+		torpedo = 0,
+		durability = 16130,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		fog_fx = "",
+		id = 14503810,
+		bound_bone = {
+			cannon = {
+				{
+					2.54,
+					0.83,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.14,
+					0.53,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.25,
+					0.25,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.07,
+					2.5,
+					0
+				}
+			},
+			lighting = {
+				{
+					2.5,
+					-4.8,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {
+			qinraozhe_120 = 2.5
+		},
+		appear_fx = {
+			"appearQ",
+			"qinraozhe_120"
+		},
+		equipment_list = {
+			1002254
+		}
+	},
 	[14503901] = {
 		cannon = 135,
 		reload = 150,
@@ -1343,58 +1420,6 @@ pg.enemy_data_statistics_194 = {
 			1000685,
 			1000690,
 			1000695
-		},
-		buff_list = {}
-	},
-	[14600103] = {
-		cannon = 24,
-		hit_growth = 210,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 18,
-		dodge = 7,
-		antisub = 0,
-		cannon_growth = 2016,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 102,
-		luck = 0,
-		reload = 150,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 33,
-		base = 90250,
-		durability = 780,
-		armor_growth = 0,
-		torpedo_growth = 2763,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		armor = 0,
-		durability_growth = 41600,
-		antiaircraft = 35,
-		id = 14600103,
-		antiaircraft_growth = 2880,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1000740,
-			1000745,
-			1000750,
-			1000755
 		},
 		buff_list = {}
 	}

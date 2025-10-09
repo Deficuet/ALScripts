@@ -1,5 +1,57 @@
 pg = pg or {}
 pg.enemy_data_statistics_226 = {
+	[15603304] = {
+		cannon = 255,
+		battle_unit_type = 95,
+		fog_fx = "",
+		speed_growth = 0,
+		rarity = 3,
+		air = 390,
+		speed = 18,
+		dodge = 22,
+		id = 15603304,
+		cannon_growth = 0,
+		reload = 150,
+		reload_growth = 0,
+		dodge_growth = 312,
+		luck = 25,
+		star = 4,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 0,
+		base = 90469,
+		durability = 110000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 280,
+		armor = 0,
+		durability_growth = 0,
+		antiaircraft = 410,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		scale = 144,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			873201,
+			873202,
+			873203,
+			873204,
+			873210,
+			873211,
+			873212
+		},
+		buff_list = {
+			{
+				ID = 8924,
+				LV = 1
+			}
+		}
+	},
 	[15603305] = {
 		cannon = 232,
 		name = "噩梦投射-「航空母舰」",
@@ -1398,44 +1450,6 @@ pg.enemy_data_statistics_226 = {
 			1001001,
 			1001006,
 			1001011
-		},
-		buff_list = {}
-	},
-	[15700002] = {
-		cannon = 10,
-		luck_growth = 0,
-		hit_growth = 144,
-		speed_growth = 0,
-		pilot_ai_template_id = 20005,
-		air = 0,
-		speed = 15,
-		dodge = 0,
-		id = 15700002,
-		cannon_growth = 800,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck = 0,
-		reload = 150,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 22,
-		base = 90430,
-		durability = 180,
-		armor_growth = 0,
-		torpedo_growth = 2000,
-		antiaircraft = 45,
-		battle_unit_type = 30,
-		armor = 0,
-		durability_growth = 5920,
-		bubble_fx = "",
-		antisub = 0,
-		antiaircraft_growth = 1600,
-		specific_fx_scale = {},
-		equipment_list = {
-			1001016,
-			1001021
 		},
 		buff_list = {}
 	}

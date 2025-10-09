@@ -17,7 +17,8 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey的手指触碰到的地方……痒痒的……",
+			say = "被Honey这样对待……我倒是觉得很幸福呢……",
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_furniture2_tone1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_bed02_idle01_fb03",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							skip = true,
+							name = "face_happy_start",
+							type = "action"
 						},
 						{
 							skip = false,

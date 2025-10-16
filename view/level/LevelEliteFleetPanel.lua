@@ -8,27 +8,27 @@ local var_0_1 = {
 function var_0_0.init(arg_1_0)
 	var_0_0.super.init(arg_1_0)
 
-	arg_1_0.tfShipTpl = arg_1_0:findTF("panel/shiptpl")
-	arg_1_0.tfEmptyTpl = arg_1_0:findTF("panel/emptytpl")
+	arg_1_0.tfShipTpl = arg_1_0._tf:Find("panel/shiptpl")
+	arg_1_0.tfEmptyTpl = arg_1_0._tf:Find("panel/emptytpl")
 	arg_1_0.tfFleets = {
 		[FleetType.Normal] = {
-			arg_1_0:findTF("panel/fleet/1"),
-			arg_1_0:findTF("panel/fleet/2")
+			arg_1_0._tf:Find("panel/fleet/1"),
+			arg_1_0._tf:Find("panel/fleet/2")
 		},
 		[FleetType.Submarine] = {
-			arg_1_0:findTF("panel/sub/1")
+			arg_1_0._tf:Find("panel/sub/1")
 		}
 	}
-	arg_1_0.tfLimit = arg_1_0:findTF("panel/limit")
-	arg_1_0.tfLimitTips = arg_1_0:findTF("panel/limit_tip")
-	arg_1_0.tfLimitElite = arg_1_0:findTF("panel/limit_elite")
-	arg_1_0.tfLimitContainer = arg_1_0:findTF("panel/limit_elite/limit_list")
-	arg_1_0.tfLimitTpl = arg_1_0:findTF("panel/limit_elite/condition")
-	arg_1_0.btnBack = arg_1_0:findTF("panel/btnBack")
-	arg_1_0.btnGo = arg_1_0:findTF("panel/start_button")
-	arg_1_0.btnAdHelp = arg_1_0:findTF("panel/title/ADvalue/helpbtn")
-	arg_1_0.commanderBtn = arg_1_0:findTF("panel/commander_btn")
-	arg_1_0.toggleMask = arg_1_0:findTF("mask")
+	arg_1_0.tfLimit = arg_1_0._tf:Find("panel/limit")
+	arg_1_0.tfLimitTips = arg_1_0._tf:Find("panel/limit_tip")
+	arg_1_0.tfLimitElite = arg_1_0._tf:Find("panel/limit_elite")
+	arg_1_0.tfLimitContainer = arg_1_0._tf:Find("panel/limit_elite/limit_list")
+	arg_1_0.tfLimitTpl = arg_1_0._tf:Find("panel/limit_elite/condition")
+	arg_1_0.btnBack = arg_1_0._tf:Find("panel/btnBack")
+	arg_1_0.btnGo = arg_1_0._tf:Find("panel/start_button")
+	arg_1_0.btnAdHelp = arg_1_0._tf:Find("panel/title/ADvalue/helpbtn")
+	arg_1_0.commanderBtn = arg_1_0._tf:Find("panel/commander_btn")
+	arg_1_0.toggleMask = arg_1_0._tf:Find("mask")
 
 	setActive(arg_1_0.tfShipTpl, false)
 	setActive(arg_1_0.tfEmptyTpl, false)
@@ -91,10 +91,10 @@ function var_0_0.flush(arg_9_0)
 	arg_9_0:updateLimit()
 
 	if OPEN_AIR_DOMINANCE and arg_9_0.chapterADValue > 0 then
-		setActive(arg_9_0:findTF("panel/title/ADvalue"), true)
+		setActive(arg_9_0._tf:Find("panel/title/ADvalue"), true)
 		arg_9_0:updateFleetPanelADValue()
 	else
-		setActive(arg_9_0:findTF("panel/title/ADvalue"), false)
+		setActive(arg_9_0._tf:Find("panel/title/ADvalue"), false)
 	end
 
 	arg_9_0:updateFleets()
@@ -115,16 +115,16 @@ function var_0_0.updateLimit(arg_10_0)
 			local var_10_6 = cloneTplTo(arg_10_0.tfLimitTpl, arg_10_0.tfLimitContainer)
 
 			if var_10_0[iter_10_0] == 1 then
-				arg_10_0:findTF("Text", var_10_6):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
+				var_10_6:Find("Text"):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
 			else
-				arg_10_0:findTF("Text", var_10_6):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
+				var_10_6:Find("Text"):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
 			end
 
 			setActive(var_10_6, true)
 
 			local var_10_7 = (AttributeType.EliteCondition2Name(var_10_2, var_10_5) .. AttributeType.eliteConditionCompareTip(var_10_3) .. var_10_4) .. "（" .. var_10_1[var_10_2] .. "）"
 
-			setText(arg_10_0:findTF("Text", var_10_6), var_10_7)
+			setText(var_10_6:Find("Text"), var_10_7)
 		end
 
 		setActive(arg_10_0.tfLimitElite:Find("sub"), arg_10_0.chapter:getConfig("submarine_num") > 0)
@@ -148,11 +148,11 @@ function var_0_0.updateFleetPanelADValue(arg_11_0)
 	end
 
 	local var_11_3 = math.floor(var_11_1)
-	local var_11_4 = arg_11_0:findTF("panel/title/ADvalue/Text")
+	local var_11_4 = arg_11_0._tf:Find("panel/title/ADvalue/Text")
 
 	setText(var_11_4, i18n("level_scene_title_word_5"))
-	setText(arg_11_0:findTF("Num1", var_11_4), setColorStr(var_11_3, var_11_3 < arg_11_0.suggestionValue and "#f1dc36" or COLOR_WHITE))
-	setText(arg_11_0:findTF("Num2", var_11_4), arg_11_0.suggestionValue)
+	setText(var_11_4:Find("Num1"), setColorStr(var_11_3, var_11_3 < arg_11_0.suggestionValue and "#f1dc36" or COLOR_WHITE))
+	setText(var_11_4:Find("Num2"), arg_11_0.suggestionValue)
 end
 
 function var_0_0.initAddButton(arg_12_0, arg_12_1, arg_12_2, arg_12_3, arg_12_4)
@@ -232,7 +232,7 @@ function var_0_0.initAddButton(arg_12_0, arg_12_1, arg_12_2, arg_12_3, arg_12_4)
 
 		if var_12_10 then
 			updateShip(var_12_13, var_12_10)
-			setActive(arg_12_0:findTF("event_block", var_12_13), var_12_10:getFlag("inEvent"))
+			setActive(var_12_13:Find("event_block"), var_12_10:getFlag("inEvent"))
 
 			var_12_1[var_12_10] = true
 		else
@@ -241,23 +241,23 @@ function var_0_0.initAddButton(arg_12_0, arg_12_1, arg_12_2, arg_12_3, arg_12_4)
 
 		local var_12_14 = findTF(var_12_13, "icon_bg")
 
-		setActive(arg_12_0:findTF("ship_type", var_12_13), true)
+		setActive(var_12_13:Find("ship_type"), true)
 
 		if type(var_12_11) == "number" then
 			if var_12_11 ~= 0 then
 				local var_12_15 = GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(var_12_11))
 
-				setImageSprite(arg_12_0:findTF("ship_type", var_12_13), var_12_15, true)
+				setImageSprite(var_12_13:Find("ship_type"), var_12_15, true)
 			else
-				setActive(arg_12_0:findTF("ship_type", var_12_13), false)
+				setActive(var_12_13:Find("ship_type"), false)
 			end
 		elseif type(var_12_11) == "string" then
 			local var_12_16 = GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(var_12_11))
 
-			setImageSprite(arg_12_0:findTF("ship_type", var_12_13), var_12_16, true)
+			setImageSprite(var_12_13:Find("ship_type"), var_12_16, true)
 		end
 
-		setActive(arg_12_0:findTF("ship_type", var_12_13), not var_12_10 and var_12_11 ~= 0)
+		setActive(var_12_13:Find("ship_type"), not var_12_10 and var_12_11 ~= 0)
 
 		local var_12_17 = _.map(var_12_0, function(arg_14_0)
 			return arg_12_0.parent.shipVOs[arg_14_0]
@@ -350,11 +350,11 @@ end
 
 function var_0_0.updateFleets(arg_21_0)
 	for iter_21_0, iter_21_1 in ipairs(arg_21_0.tfFleets[FleetType.Normal]) do
-		local var_21_0 = arg_21_0:findTF("btn_clear", iter_21_1)
-		local var_21_1 = arg_21_0:findTF("btn_recom", iter_21_1)
-		local var_21_2 = arg_21_0:findTF("btn_select", iter_21_1)
-		local var_21_3 = arg_21_0:findTF("blank", iter_21_1)
-		local var_21_4 = arg_21_0:findTF("commander", iter_21_1)
+		local var_21_0 = iter_21_1:Find("btn_clear")
+		local var_21_1 = iter_21_1:Find("btn_recom")
+		local var_21_2 = iter_21_1:Find("btn_select")
+		local var_21_3 = iter_21_1:Find("blank")
+		local var_21_4 = iter_21_1:Find("commander")
 
 		setActive(var_21_2, false)
 		setActive(findTF(iter_21_1, "selected"), false)
@@ -367,7 +367,7 @@ function var_0_0.updateFleets(arg_21_0)
 		setActive(var_21_1, var_21_5 and not arg_21_0.contextData.EditingCommander)
 		setActive(var_21_3, not var_21_5)
 		setActive(var_21_4, var_21_5 and arg_21_0.contextData.EditingCommander)
-		setText(arg_21_0:findTF("bg/name", iter_21_1), var_21_5 and Fleet.DEFAULT_NAME[iter_21_0] or "")
+		setText(iter_21_1:Find("bg/name"), var_21_5 and Fleet.DEFAULT_NAME[iter_21_0] or "")
 
 		if var_21_5 then
 			local var_21_6 = arg_21_0.typeLimitations[iter_21_0]
@@ -379,7 +379,7 @@ function var_0_0.updateFleets(arg_21_0)
 			arg_21_0:initCommander(iter_21_0, var_21_4, arg_21_0.chapter)
 
 			if var_21_9 and var_21_10 then
-				setActive(arg_21_0:findTF("selected", iter_21_1), true)
+				setActive(iter_21_1:Find("selected"), true)
 			end
 
 			onButton(arg_21_0, var_21_0, function()
@@ -422,11 +422,11 @@ function var_0_0.updateFleets(arg_21_0)
 
 	for iter_21_2, iter_21_3 in ipairs(arg_21_0.tfFleets[FleetType.Submarine]) do
 		local var_21_11 = iter_21_2 + 2
-		local var_21_12 = arg_21_0:findTF("btn_clear", iter_21_3)
-		local var_21_13 = arg_21_0:findTF("btn_recom", iter_21_3)
-		local var_21_14 = arg_21_0:findTF("btn_select", iter_21_3)
-		local var_21_15 = arg_21_0:findTF("blank", iter_21_3)
-		local var_21_16 = arg_21_0:findTF("commander", iter_21_3)
+		local var_21_12 = iter_21_3:Find("btn_clear")
+		local var_21_13 = iter_21_3:Find("btn_recom")
+		local var_21_14 = iter_21_3:Find("btn_select")
+		local var_21_15 = iter_21_3:Find("blank")
+		local var_21_16 = iter_21_3:Find("commander")
 
 		setActive(var_21_14, false)
 		setActive(findTF(iter_21_3, "selected"), false)
@@ -435,7 +435,7 @@ function var_0_0.updateFleets(arg_21_0)
 		setActive(var_21_13, iter_21_2 <= arg_21_0.chapter:getConfig("submarine_num") and not arg_21_0.contextData.EditingCommander)
 		setActive(var_21_15, iter_21_2 > arg_21_0.chapter:getConfig("submarine_num"))
 		setActive(var_21_16, iter_21_2 <= arg_21_0.chapter:getConfig("submarine_num") and arg_21_0.contextData.EditingCommander)
-		setText(arg_21_0:findTF("bg/name", iter_21_3), iter_21_2 <= arg_21_0.chapter:getConfig("submarine_num") and Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID + iter_21_2 - 1] or "")
+		setText(iter_21_3:Find("bg/name"), iter_21_2 <= arg_21_0.chapter:getConfig("submarine_num") and Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID + iter_21_2 - 1] or "")
 		arg_21_0:initCommander(var_21_11, var_21_16, arg_21_0.chapter)
 
 		if iter_21_2 <= arg_21_0.chapter:getConfig("submarine_num") then
@@ -444,7 +444,7 @@ function var_0_0.updateFleets(arg_21_0)
 				0,
 				0
 			}, var_21_11) then
-				setActive(arg_21_0:findTF("selected", iter_21_3), true)
+				setActive(iter_21_3:Find("selected"), true)
 			end
 
 			onButton(arg_21_0, var_21_12, function()

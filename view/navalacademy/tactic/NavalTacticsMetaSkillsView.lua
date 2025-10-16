@@ -37,10 +37,10 @@ function var_0_0.setData(arg_6_0, arg_6_1, arg_6_2)
 end
 
 function var_0_0.initUITip(arg_7_0)
-	local var_7_0 = arg_7_0:findTF("frame/bg/title_bg/title")
-	local var_7_1 = arg_7_0:findTF("frame/buttons/detail_btn/Image")
-	local var_7_2 = arg_7_0:findTF("frame/buttons/unlock_btn/Image")
-	local var_7_3 = arg_7_0:findTF("frame/buttons/switch_btn/Image")
+	local var_7_0 = arg_7_0._tf:Find("frame/bg/title_bg/title")
+	local var_7_1 = arg_7_0._tf:Find("frame/buttons/detail_btn/Image")
+	local var_7_2 = arg_7_0._tf:Find("frame/buttons/unlock_btn/Image")
+	local var_7_3 = arg_7_0._tf:Find("frame/buttons/switch_btn/Image")
 
 	setText(var_7_1, i18n("meta_tactics_detail"))
 	setText(var_7_2, i18n("meta_tactics_unlock"))
@@ -48,18 +48,18 @@ function var_0_0.initUITip(arg_7_0)
 end
 
 function var_0_0.initUI(arg_8_0)
-	arg_8_0.bg = arg_8_0:findTF("print")
+	arg_8_0.bg = arg_8_0._tf:Find("print")
 
-	local var_8_0 = arg_8_0:findTF("frame")
+	local var_8_0 = arg_8_0._tf:Find("frame")
 
-	arg_8_0.skillTpl = arg_8_0:findTF("skilltpl", var_8_0)
-	arg_8_0.skillContainer = arg_8_0:findTF("skill_contain/content", var_8_0)
+	arg_8_0.skillTpl = var_8_0:Find("skilltpl")
+	arg_8_0.skillContainer = var_8_0:Find("skill_contain/content")
 
-	local var_8_1 = arg_8_0:findTF("buttons", var_8_0)
+	local var_8_1 = var_8_0:Find("buttons")
 
-	arg_8_0.detailBtn = arg_8_0:findTF("detail_btn", var_8_1)
-	arg_8_0.unlockBtn = arg_8_0:findTF("unlock_btn", var_8_1)
-	arg_8_0.switchBtn = arg_8_0:findTF("switch_btn", var_8_1)
+	arg_8_0.detailBtn = var_8_1:Find("detail_btn")
+	arg_8_0.unlockBtn = var_8_1:Find("unlock_btn")
+	arg_8_0.switchBtn = var_8_1:Find("switch_btn")
 	arg_8_0.skillUIItemList = UIItemList.New(arg_8_0.skillContainer, arg_8_0.skillTpl)
 end
 
@@ -97,18 +97,18 @@ function var_0_0.addListener(arg_9_0)
 end
 
 function var_0_0.updateSkillTF(arg_14_0, arg_14_1, arg_14_2)
-	local var_14_0 = arg_14_0:findTF("frame", arg_14_1)
-	local var_14_1 = arg_14_0:findTF("skillInfo", var_14_0)
-	local var_14_2 = arg_14_0:findTF("empty", var_14_0)
-	local var_14_3 = arg_14_0:findTF("mask", var_14_0)
-	local var_14_4 = arg_14_0:findTF("icon", var_14_1)
-	local var_14_5 = arg_14_0:findTF("descView/Viewport/desc", var_14_1)
-	local var_14_6 = arg_14_0:findTF("next_contain/label", var_14_1)
-	local var_14_7 = arg_14_0:findTF("next_contain/Text", var_14_1)
-	local var_14_8 = arg_14_0:findTF("name_contain/name", var_14_1)
-	local var_14_9 = arg_14_0:findTF("name_contain/level_contain/Text", var_14_1)
-	local var_14_10 = arg_14_0:findTF("Tag/learing", var_14_0)
-	local var_14_11 = arg_14_0:findTF("Tag/unlockable", var_14_0)
+	local var_14_0 = arg_14_1:Find("frame")
+	local var_14_1 = var_14_0:Find("skillInfo")
+	local var_14_2 = var_14_0:Find("empty")
+	local var_14_3 = var_14_0:Find("mask")
+	local var_14_4 = var_14_1:Find("icon")
+	local var_14_5 = var_14_1:Find("descView/Viewport/desc")
+	local var_14_6 = var_14_1:Find("next_contain/label")
+	local var_14_7 = var_14_1:Find("next_contain/Text")
+	local var_14_8 = var_14_1:Find("name_contain/name")
+	local var_14_9 = var_14_1:Find("name_contain/level_contain/Text")
+	local var_14_10 = var_14_0:Find("Tag/learing")
+	local var_14_11 = var_14_0:Find("Tag/unlockable")
 	local var_14_12 = arg_14_0.metaShipVO:getMetaSkillLevelBySkillID(arg_14_2)
 	local var_14_13 = getSkillConfig(arg_14_2)
 	local var_14_14 = arg_14_2 == arg_14_0.metaTacticsInfo.curSkillID

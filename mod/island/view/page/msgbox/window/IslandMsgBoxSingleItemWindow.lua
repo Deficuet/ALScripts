@@ -7,12 +7,13 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.itemTr = arg_2_0:findTF("IslandItemTpl")
-	arg_2_0.nameTxt = arg_2_0:findTF("name"):GetComponent(typeof(Text))
-	arg_2_0.ownTxt = arg_2_0:findTF("own"):GetComponent(typeof(Text))
-	arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("list"), arg_2_0:findTF("list/tpl"))
+	arg_2_0.itemTr = arg_2_0._tf:Find("IslandItemTpl")
+	arg_2_0.nameTxt = arg_2_0._tf:Find("name"):GetComponent(typeof(Text))
+	arg_2_0.ownTxt = arg_2_0._tf:Find("own"):GetComponent(typeof(Text))
+	arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("way/Viewport/list"), arg_2_0._tf:Find("way/Viewport/list/tpl"))
+	arg_2_0.contentTF = arg_2_0._tf:Find("way/Viewport/list")
 
-	setText(arg_2_0:findTF("label/Text"), i18n("island_get_way"))
+	setText(arg_2_0._tf:Find("label/Text"), i18n("island_get_way"))
 end
 
 function var_0_0.OnShow(arg_3_0)
@@ -48,7 +49,11 @@ function var_0_0.FlushAcquiringWay(arg_5_0, arg_5_1)
 		num = 0,
 		id = arg_5_1
 	}):GetAcquiringWay()
+	local var_5_1 = #var_5_0 > 0
 
+	setActive(arg_5_0._tf:Find("line"), var_5_1)
+	setActive(arg_5_0._tf:Find("label"), var_5_1)
+	setActive(arg_5_0._tf:Find("way"), var_5_1)
 	arg_5_0.uiItemList:make(function(arg_6_0, arg_6_1, arg_6_2)
 		if arg_6_0 == UIItemList.EventUpdate then
 			local var_6_0 = var_5_0[arg_6_1 + 1]
@@ -63,6 +68,10 @@ function var_0_0.FlushAcquiringWay(arg_5_0, arg_5_1)
 		end
 	end)
 	arg_5_0.uiItemList:align(#var_5_0)
+	setAnchoredPosition(arg_5_0.contentTF, {
+		x = 0,
+		y = 0
+	})
 end
 
 function var_0_0.FlushBtn(arg_8_0, arg_8_1)

@@ -65,17 +65,17 @@ function var_0_0.setData(arg_6_0)
 end
 
 function var_0_0.init(arg_7_0)
-	arg_7_0.blurPanel = arg_7_0:findTF("blur_panel")
-	arg_7_0.top = arg_7_0:findTF("adapt/top", arg_7_0.blurPanel)
-	arg_7_0.resPanel = arg_7_0:findTF("res", arg_7_0.top)
-	arg_7_0.backBtn = arg_7_0:findTF("back_btn", arg_7_0.top)
-	arg_7_0.helpBtn = arg_7_0:findTF("help_btn", arg_7_0.top)
-	arg_7_0.leftPanel = arg_7_0:findTF("left")
-	arg_7_0.timeTF = arg_7_0:findTF("time", arg_7_0.leftPanel)
+	arg_7_0.blurPanel = arg_7_0._tf:Find("blur_panel")
+	arg_7_0.top = arg_7_0.blurPanel:Find("adapt/top")
+	arg_7_0.resPanel = arg_7_0.top:Find("res")
+	arg_7_0.backBtn = arg_7_0.top:Find("back_btn")
+	arg_7_0.helpBtn = arg_7_0.top:Find("help_btn")
+	arg_7_0.leftPanel = arg_7_0._tf:Find("left")
+	arg_7_0.timeTF = arg_7_0.leftPanel:Find("time")
 
-	local var_7_0 = arg_7_0:findTF("frame/toggle_group/task", arg_7_0.leftPanel)
-	local var_7_1 = arg_7_0:findTF("frame/toggle_group/shop", arg_7_0.leftPanel)
-	local var_7_2 = arg_7_0:findTF("frame/toggle_group/gift", arg_7_0.leftPanel)
+	local var_7_0 = arg_7_0.leftPanel:Find("frame/toggle_group/task")
+	local var_7_1 = arg_7_0.leftPanel:Find("frame/toggle_group/shop")
+	local var_7_2 = arg_7_0.leftPanel:Find("frame/toggle_group/gift")
 
 	setText(var_7_0:Find("Image"), i18n("blackfriday_task"))
 	setText(var_7_1:Find("Image"), i18n("blackfriday_shop"))
@@ -86,11 +86,11 @@ function var_0_0.init(arg_7_0)
 		var_7_1,
 		var_7_2
 	}
-	arg_7_0.main = arg_7_0:findTF("main")
+	arg_7_0.main = arg_7_0._tf:Find("main")
 	arg_7_0.pages = {
-		arg_7_0:findTF("task_container", arg_7_0.main),
-		arg_7_0:findTF("shop_container", arg_7_0.main),
-		arg_7_0:findTF("gift_container", arg_7_0.main)
+		arg_7_0.main:Find("task_container"),
+		arg_7_0.main:Find("shop_container"),
+		arg_7_0.main:Find("gift_container")
 	}
 	arg_7_0.chargeTipWindow = ChargeTipWindow.New(arg_7_0._tf, arg_7_0.event)
 end
@@ -105,7 +105,7 @@ function var_0_0.didEnter(arg_8_0)
 			helps = pg.gametip.blackfriday_main_tip.tip
 		})
 	end, SFX_PANEL)
-	onButton(arg_8_0, arg_8_0:findTF("gem", arg_8_0.resPanel), function()
+	onButton(arg_8_0, arg_8_0.resPanel:Find("gem"), function()
 		local function var_11_0()
 			if not pg.m02:hasMediator(NewShopMainMediator.__cname) then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
@@ -130,7 +130,7 @@ function var_0_0.didEnter(arg_8_0)
 	end, SFX_PANEL)
 	arg_8_0:updatePages()
 	arg_8_0:updateTime()
-	setText(arg_8_0:findTF("gem/gem_value", arg_8_0.resPanel), arg_8_0.player:getTotalGem())
+	setText(arg_8_0.resPanel:Find("gem/gem_value"), arg_8_0.player:getTotalGem())
 
 	for iter_8_0, iter_8_1 in ipairs(arg_8_0.toggles) do
 		onToggle(arg_8_0, iter_8_1, function(arg_13_0)
@@ -152,7 +152,7 @@ function var_0_0.didEnter(arg_8_0)
 end
 
 function var_0_0.updateShopDedDot(arg_14_0)
-	setActive(arg_14_0:findTF("tip", arg_14_0.toggles[var_0_0.SHOP_PAGE]), arg_14_0.blackFridaySalesShopPage:isTip())
+	setActive(arg_14_0.toggles[var_0_0.SHOP_PAGE]:Find("tip"), arg_14_0.blackFridaySalesShopPage:isTip())
 end
 
 function var_0_0.updatePages(arg_15_0)
@@ -164,7 +164,7 @@ function var_0_0.updatePages(arg_15_0)
 			arg_15_0.blackFridayTaskPage:Load()
 		end
 
-		setActive(arg_15_0:findTF("tip", arg_15_0.toggles[var_0_0.TASK_PAGE]), arg_15_0.blackFridayTaskPage:isTip())
+		setActive(arg_15_0.toggles[var_0_0.TASK_PAGE]:Find("tip"), arg_15_0.blackFridayTaskPage:isTip())
 	end
 
 	if arg_15_0.shopActivity then
@@ -176,7 +176,7 @@ function var_0_0.updatePages(arg_15_0)
 			arg_15_0.blackFridaySalesShopPage:Load()
 		end
 
-		setActive(arg_15_0:findTF("tip", arg_15_0.toggles[var_0_0.SHOP_PAGE]), arg_15_0.blackFridaySalesShopPage:isTip())
+		setActive(arg_15_0.toggles[var_0_0.SHOP_PAGE]:Find("tip"), arg_15_0.blackFridaySalesShopPage:isTip())
 	end
 
 	if arg_15_0.giftActivity then
@@ -188,7 +188,7 @@ function var_0_0.updatePages(arg_15_0)
 			arg_15_0.blackFridaySalesGiftPage:initData()
 		end
 
-		setActive(arg_15_0:findTF("tip", arg_15_0.toggles[var_0_0.GIFT_PAGE]), arg_15_0.blackFridaySalesGiftPage:isTip())
+		setActive(arg_15_0.toggles[var_0_0.GIFT_PAGE]:Find("tip"), arg_15_0.blackFridaySalesGiftPage:isTip())
 	end
 end
 
@@ -226,7 +226,7 @@ end
 function var_0_0.onUpdatePlayer(arg_19_0, arg_19_1)
 	arg_19_0.player = arg_19_1
 
-	setText(arg_19_0:findTF("gem/gem_value", arg_19_0.resPanel), arg_19_0.player:getTotalGem())
+	setText(arg_19_0.resPanel:Find("gem/gem_value"), arg_19_0.player:getTotalGem())
 
 	if arg_19_0.blackFridaySalesGiftPage then
 		arg_19_0.blackFridaySalesGiftPage:onUpdatePlayer(arg_19_1)

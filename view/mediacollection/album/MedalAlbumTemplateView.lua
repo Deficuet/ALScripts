@@ -39,14 +39,14 @@ function var_0_0.init(arg_4_0)
 end
 
 function var_0_0.FindUI(arg_5_0)
-	local var_5_0 = arg_5_0:findTF("Top")
+	local var_5_0 = arg_5_0._tf:Find("Top")
 
-	arg_5_0.bg = arg_5_0:findTF("mask")
-	arg_5_0.backBtn = arg_5_0:findTF("BackBtn", var_5_0)
-	arg_5_0.helpBtn = arg_5_0:findTF("InfoBtn", var_5_0)
-	arg_5_0.taskBtn = arg_5_0:findTF("Desk/taskBtn")
-	arg_5_0.prevBtn = arg_5_0:findTF("Desk/prevBtn")
-	arg_5_0.nextBtn = arg_5_0:findTF("Desk/nextBtn")
+	arg_5_0.bg = arg_5_0._tf:Find("mask")
+	arg_5_0.backBtn = var_5_0:Find("BackBtn")
+	arg_5_0.helpBtn = var_5_0:Find("InfoBtn")
+	arg_5_0.taskBtn = arg_5_0._tf:Find("Desk/taskBtn")
+	arg_5_0.prevBtn = arg_5_0._tf:Find("Desk/prevBtn")
+	arg_5_0.nextBtn = arg_5_0._tf:Find("Desk/nextBtn")
 	arg_5_0.slots = {}
 
 	for iter_5_0 = 1, arg_5_0.MEDAL_COUNT do
@@ -58,13 +58,13 @@ function var_0_0.FindUI(arg_5_0)
 		}
 	end
 
-	arg_5_0.medalLock = arg_5_0:findTF("Desk/medal")
-	arg_5_0.trophyLock = arg_5_0:findTF("Desk/trophy")
-	arg_5_0.medalDetailView = MedalDetailPanel.New(arg_5_0:findTF("DetailView"), arg_5_0)
+	arg_5_0.medalLock = arg_5_0._tf:Find("Desk/medal")
+	arg_5_0.trophyLock = arg_5_0._tf:Find("Desk/trophy")
+	arg_5_0.medalDetailView = MedalDetailPanel.New(arg_5_0._tf:Find("DetailView"), arg_5_0)
 
 	arg_5_0.medalDetailView:SetIconScale(arg_5_0.ICON_SCALE)
 
-	arg_5_0.medalTaskView = MedalTaskPanel.New(arg_5_0:findTF("TaskView"), arg_5_0)
+	arg_5_0.medalTaskView = MedalTaskPanel.New(arg_5_0._tf:Find("TaskView"), arg_5_0)
 end
 
 function var_0_0.didEnter(arg_6_0)

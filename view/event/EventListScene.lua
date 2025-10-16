@@ -26,23 +26,23 @@ function var_0_0.init(arg_2_0)
 		arg_2_0:emit(...)
 	end
 
-	arg_2_0.blurPanel = arg_2_0:findTF("blur_panel")
+	arg_2_0.blurPanel = arg_2_0._tf:Find("blur_panel")
 	arg_2_0.lay = arg_2_0.blurPanel:Find("adapt/left_length")
-	arg_2_0.topPanel = arg_2_0:findTF("blur_panel/adapt/top").gameObject
-	arg_2_0.btnBack = arg_2_0:findTF("blur_panel/adapt/top/back_btn").gameObject
-	arg_2_0.topLeft = arg_2_0:findTF("blur_panel/adapt/top/topLeftBg$")
-	arg_2_0.topLeftBg = arg_2_0:findTF("blur_panel/adapt/top/topLeftBg$").gameObject
-	arg_2_0.labelShipNums = arg_2_0:findTF("blur_panel/adapt/top/topLeftBg$/labelShipNums$"):GetComponent("Text")
-	arg_2_0.mask = arg_2_0:findTF("mask$"):GetComponent("Image")
-	arg_2_0.scrollItem = EventListItem.New(arg_2_0:findTF("blur_panel/scrollItem").gameObject, arg_2_0.dispatch)
+	arg_2_0.topPanel = arg_2_0._tf:Find("blur_panel/adapt/top").gameObject
+	arg_2_0.btnBack = arg_2_0._tf:Find("blur_panel/adapt/top/back_btn").gameObject
+	arg_2_0.topLeft = arg_2_0._tf:Find("blur_panel/adapt/top/topLeftBg$")
+	arg_2_0.topLeftBg = arg_2_0._tf:Find("blur_panel/adapt/top/topLeftBg$").gameObject
+	arg_2_0.labelShipNums = arg_2_0._tf:Find("blur_panel/adapt/top/topLeftBg$/labelShipNums$"):GetComponent("Text")
+	arg_2_0.mask = arg_2_0._tf:Find("mask$"):GetComponent("Image")
+	arg_2_0.scrollItem = EventListItem.New(arg_2_0._tf:Find("blur_panel/scrollItem").gameObject, arg_2_0.dispatch)
 
 	arg_2_0.scrollItem.go:SetActive(false)
 
-	arg_2_0.detailPanel = EventDetailPanel.New(arg_2_0:findTF("detailPanel").gameObject, arg_2_0.dispatch)
+	arg_2_0.detailPanel = EventDetailPanel.New(arg_2_0._tf:Find("detailPanel").gameObject, arg_2_0.dispatch)
 
 	arg_2_0.detailPanel.go:SetActive(false)
 
-	arg_2_0.scrollRectObj = arg_2_0:findTF("scrollRect$")
+	arg_2_0.scrollRectObj = arg_2_0._tf:Find("scrollRect$")
 	arg_2_0.scrollRect = arg_2_0.scrollRectObj:GetComponent("LScrollRect")
 
 	function arg_2_0.scrollRect.onInitItem(arg_4_0)
@@ -64,11 +64,11 @@ function var_0_0.init(arg_2_0)
 	setImageAlpha(arg_2_0.mask, 0)
 
 	arg_2_0.scrollRect.decelerationRate = 0.07
-	arg_2_0.listEmptyTF = arg_2_0:findTF("empty")
+	arg_2_0.listEmptyTF = arg_2_0._tf:Find("empty")
 
 	setActive(arg_2_0.listEmptyTF, false)
 
-	arg_2_0.listEmptyTxt = arg_2_0:findTF("Text", arg_2_0.listEmptyTF)
+	arg_2_0.listEmptyTxt = arg_2_0.listEmptyTF:Find("Text")
 
 	setText(arg_2_0.listEmptyTxt, i18n("list_empty_tip_eventui"))
 end
@@ -88,13 +88,13 @@ function var_0_0.didEnter(arg_7_0)
 			arg_7_0:emit(var_0_0.ON_BACK)
 		end
 	end, SFX_CANCEL)
-	setActive(arg_7_0:findTF("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	setActive(arg_7_0._tf:Find("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
 	if LOCK_CLICK_MINGSHI then
-		setActive(arg_7_0:findTF("stamp"), false)
+		setActive(arg_7_0._tf:Find("stamp"), false)
 	end
 
-	onButton(arg_7_0, arg_7_0:findTF("stamp"), function()
+	onButton(arg_7_0, arg_7_0._tf:Find("stamp"), function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(9)
 	end, SFX_CONFIRM)
 
@@ -416,7 +416,7 @@ function var_0_0.easeInDetail(arg_36_0, arg_36_1)
 		local var_38_1 = -347
 		local var_38_2 = arg_36_0.detailPanel.tr
 
-		var_38_2:SetParent(arg_36_0.scrollItem:findTF("maskDetail"), true)
+		var_38_2:SetParent(arg_36_0.scrollItem.tr:Find("maskDetail"), true)
 
 		var_38_2.localPosition = Vector3.zero
 
@@ -512,7 +512,7 @@ function var_0_0.showDetail(arg_41_0)
 	local var_41_3 = -347
 	local var_41_4 = arg_41_0.detailPanel.tr
 
-	var_41_4:SetParent(arg_41_0.scrollItem:findTF("maskDetail"), true)
+	var_41_4:SetParent(arg_41_0.scrollItem.tr:Find("maskDetail"), true)
 
 	var_41_4.anchoredPosition = Vector3.New(-1, -155, 0)
 

@@ -19,8 +19,8 @@ end
 function var_0_0.init(arg_2_0)
 	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
-	arg_2_0.anim = arg_2_0:findTF("anim_root"):GetComponent(typeof(Animation))
-	arg_2_0.animEvent = arg_2_0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	arg_2_0.anim = arg_2_0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	arg_2_0.animEvent = arg_2_0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	arg_2_0.animEvent:SetEndEvent(function()
 		arg_2_0:emit(var_0_0.ON_CLOSE)

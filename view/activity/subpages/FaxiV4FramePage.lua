@@ -3,10 +3,10 @@ local var_0_0 = class("FaxiV4FramePage", import(".TemplatePage.NewFrameTemplateP
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.bar = arg_1_0:findTF("AD/switcher/phase2/barContent")
-	arg_1_0.cur = arg_1_0:findTF("AD/switcher/phase2/progress/step")
-	arg_1_0.target = arg_1_0:findTF("AD/switcher/phase2/progress/all")
-	arg_1_0.gotTag = arg_1_0:findTF("AD/switcher/phase2/got")
+	arg_1_0.bar = arg_1_0._tf:Find("AD/switcher/phase2/barContent")
+	arg_1_0.cur = arg_1_0._tf:Find("AD/switcher/phase2/progress/step")
+	arg_1_0.target = arg_1_0._tf:Find("AD/switcher/phase2/progress/all")
+	arg_1_0.gotTag = arg_1_0._tf:Find("AD/switcher/phase2/got")
 	arg_1_0.titles = {
 		arg_1_0.switchBtn:Find("2"),
 		arg_1_0.switchBtn:Find("1")
@@ -32,7 +32,7 @@ function var_0_0.OnUpdateFlush(arg_2_0)
 	setActive(arg_2_0.getBtn, arg_2_0.inPhase2 and not var_2_4 and var_2_3)
 	setActive(arg_2_0.gotBtn, arg_2_0.inPhase2 and var_2_4)
 	setActive(arg_2_0.gotTag, arg_2_0.inPhase2 and var_2_4)
-	setActive(arg_2_0:findTF("AD/switcher/phase2/progress"), not var_2_4)
+	setActive(arg_2_0._tf:Find("AD/switcher/phase2/progress"), not var_2_4)
 end
 
 function var_0_0.Switch(arg_3_0, arg_3_1)

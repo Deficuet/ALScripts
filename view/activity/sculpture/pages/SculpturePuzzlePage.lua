@@ -5,15 +5,15 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.backBtn = arg_2_0:findTF("back")
-	arg_2_0.lineTr = arg_2_0:findTF("frame/line")
-	arg_2_0.frameTr = arg_2_0:findTF("frame")
-	arg_2_0.tipBtn = arg_2_0:findTF("frame/tip")
-	arg_2_0.tipGrayBtn = arg_2_0:findTF("frame/tip_gray")
+	arg_2_0.backBtn = arg_2_0._tf:Find("back")
+	arg_2_0.lineTr = arg_2_0._tf:Find("frame/line")
+	arg_2_0.frameTr = arg_2_0._tf:Find("frame")
+	arg_2_0.tipBtn = arg_2_0._tf:Find("frame/tip")
+	arg_2_0.tipGrayBtn = arg_2_0._tf:Find("frame/tip_gray")
 	arg_2_0.tipGrayBtnTxt = arg_2_0.tipGrayBtn:Find("Text"):GetComponent(typeof(Text))
 
 	setActive(arg_2_0.tipGrayBtn, false)
-	setText(arg_2_0:findTF("frame/tip_text"), i18n("sculpture_puzzle_tip"))
+	setText(arg_2_0._tf:Find("frame/tip_text"), i18n("sculpture_puzzle_tip"))
 end
 
 function var_0_0.OnInit(arg_3_0)

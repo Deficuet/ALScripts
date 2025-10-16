@@ -126,97 +126,105 @@ var_0_0.pageConfig = {
 			return true
 		end,
 		type = var_0_0.FINISH_TYPE.ON_BEGIN
+	},
+	{
+		id = "ISLAND_GUIDE_31",
+		page = "IslandMallDelegationPage",
+		condition = function()
+			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_0_0.COMBP_ABILITY_ID)
+		end,
+		type = var_0_0.FINISH_TYPE.ON_BEGIN
 	}
 }
 
-function var_0_0.CheckOnLoaded(arg_13_0, arg_13_1)
-	local var_13_0 = _.detect(var_0_0.loadedConfig, function(arg_14_0)
-		local var_14_0 = arg_14_0.id
-		local var_14_1 = arg_14_0.mapId
-		local var_14_2 = arg_14_0.condition
+function var_0_0.CheckOnLoaded(arg_14_0, arg_14_1)
+	local var_14_0 = _.detect(var_0_0.loadedConfig, function(arg_15_0)
+		local var_15_0 = arg_15_0.id
+		local var_15_1 = arg_15_0.mapId
+		local var_15_2 = arg_15_0.condition
 
-		return not pg.NewStoryMgr.GetInstance():IsPlayed(var_14_0) and (var_14_1 == 0 or var_14_1 == arg_13_0) and var_14_2()
+		return not pg.NewStoryMgr.GetInstance():IsPlayed(var_15_0) and (var_15_1 == 0 or var_15_1 == arg_14_0) and var_15_2()
 	end)
 
-	if not var_13_0 then
-		existCall(arg_13_1)
+	if not var_14_0 then
+		existCall(arg_14_1)
 
 		return
 	end
 
-	var_0_0._PlayGuide(var_13_0.id, var_13_0.type, arg_13_1)
+	var_0_0._PlayGuide(var_14_0.id, var_14_0.type, arg_14_1)
 end
 
-function var_0_0.CheckOnShowInteraction(arg_15_0, arg_15_1)
-	local var_15_0 = _.detect(var_0_0.interactionConfig, function(arg_16_0)
-		local var_16_0 = arg_16_0.id
-		local var_16_1 = arg_16_0.interactionId
-		local var_16_2 = arg_16_0.condition
+function var_0_0.CheckOnShowInteraction(arg_16_0, arg_16_1)
+	local var_16_0 = _.detect(var_0_0.interactionConfig, function(arg_17_0)
+		local var_17_0 = arg_17_0.id
+		local var_17_1 = arg_17_0.interactionId
+		local var_17_2 = arg_17_0.condition
 
-		return not pg.NewStoryMgr.GetInstance():IsPlayed(var_16_0) and (var_16_1 == 0 or var_16_1 == arg_15_0) and var_16_2()
+		return not pg.NewStoryMgr.GetInstance():IsPlayed(var_17_0) and (var_17_1 == 0 or var_17_1 == arg_16_0) and var_17_2()
 	end)
 
-	if not var_15_0 then
-		existCall(arg_15_1)
+	if not var_16_0 then
+		existCall(arg_16_1)
 
 		return
 	end
 
-	var_0_0._PlayGuide(var_15_0.id, var_15_0.type, arg_15_1)
+	var_0_0._PlayGuide(var_16_0.id, var_16_0.type, arg_16_1)
 end
 
-function var_0_0.CheckOnOpenPage(arg_17_0, arg_17_1)
-	local var_17_0 = _.detect(var_0_0.pageConfig, function(arg_18_0)
-		local var_18_0 = arg_18_0.id
-		local var_18_1 = arg_18_0.page
-		local var_18_2 = arg_18_0.condition
+function var_0_0.CheckOnOpenPage(arg_18_0, arg_18_1)
+	local var_18_0 = _.detect(var_0_0.pageConfig, function(arg_19_0)
+		local var_19_0 = arg_19_0.id
+		local var_19_1 = arg_19_0.page
+		local var_19_2 = arg_19_0.condition
 
-		return not pg.NewStoryMgr.GetInstance():IsPlayed(var_18_0) and var_18_1 == arg_17_0 and var_18_2()
+		return not pg.NewStoryMgr.GetInstance():IsPlayed(var_19_0) and var_19_1 == arg_18_0 and var_19_2()
 	end)
 
-	if not var_17_0 then
-		existCall(arg_17_1)
+	if not var_18_0 then
+		existCall(arg_18_1)
 
 		return
 	end
 
-	var_0_0._PlayGuide(var_17_0.id, var_17_0.type, arg_17_1)
+	var_0_0._PlayGuide(var_18_0.id, var_18_0.type, arg_18_1)
 end
 
-function var_0_0.CheckGuide(arg_19_0, arg_19_1, arg_19_2)
-	if pg.NewStoryMgr.GetInstance():IsPlayed(arg_19_0) then
+function var_0_0.CheckGuide(arg_20_0, arg_20_1, arg_20_2)
+	if pg.NewStoryMgr.GetInstance():IsPlayed(arg_20_0) then
 		return
 	end
 
-	local var_19_0 = arg_19_1 or var_0_0.FINISH_TYPE.ON_BEGIN
+	local var_20_0 = arg_20_1 or var_0_0.FINISH_TYPE.ON_BEGIN
 
-	var_0_0._PlayGuide(arg_19_0, var_19_0, arg_19_2)
+	var_0_0._PlayGuide(arg_20_0, var_20_0, arg_20_2)
 end
 
-function var_0_0._PlayGuide(arg_20_0, arg_20_1, arg_20_2)
+function var_0_0._PlayGuide(arg_21_0, arg_21_1, arg_21_2)
 	if LOCK_ISLAND_GUIDE then
-		if arg_20_2 then
-			arg_20_2()
+		if arg_21_2 then
+			arg_21_2()
 		end
 
 		return
 	end
 
 	if pg.SeriesGuideMgr.GetInstance():isRunning() then
-		existCall(arg_20_2)
+		existCall(arg_21_2)
 
 		return
 	end
 
 	if not pg.NewGuideMgr.GetInstance():CanPlay() then
-		existCall(arg_20_2)
+		existCall(arg_21_2)
 
 		return
 	end
 
-	if arg_20_1 and arg_20_1 == var_0_0.FINISH_TYPE.ON_BEGIN then
+	if arg_21_1 and arg_21_1 == var_0_0.FINISH_TYPE.ON_BEGIN then
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
-			storyId = arg_20_0
+			storyId = arg_21_0
 		})
 	end
 
@@ -224,25 +232,25 @@ function var_0_0._PlayGuide(arg_20_0, arg_20_1, arg_20_2)
 		_IslandCore:Link(ISLAND_EVT.START_GUIDE)
 	end
 
-	pg.NewGuideMgr.GetInstance():Play(arg_20_0, nil, function()
+	pg.NewGuideMgr.GetInstance():Play(arg_21_0, nil, function()
 		if _IslandCore then
 			_IslandCore:Link(ISLAND_EVT.END_GUIDE)
 		end
 
-		if arg_20_1 and arg_20_1 == var_0_0.FINISH_TYPE.ON_END then
+		if arg_21_1 and arg_21_1 == var_0_0.FINISH_TYPE.ON_END then
 			pg.m02:sendNotification(GAME.STORY_UPDATE, {
-				storyId = arg_20_0
+				storyId = arg_21_0
 			})
 		end
-	end, arg_20_2, function(arg_22_0, arg_22_1)
-		var_0_0.Record(arg_22_0, arg_22_1, arg_20_0)
+	end, arg_21_2, function(arg_23_0, arg_23_1)
+		var_0_0.Record(arg_23_0, arg_23_1, arg_21_0)
 	end)
 end
 
-function var_0_0.Record(arg_23_0, arg_23_1, arg_23_2)
-	local var_23_0 = pg.TimeMgr.GetInstance():GetServerTime() - arg_23_1
+function var_0_0.Record(arg_24_0, arg_24_1, arg_24_2)
+	local var_24_0 = pg.TimeMgr.GetInstance():GetServerTime() - arg_24_1
 
-	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandGuide(arg_23_0, var_23_0, arg_23_2))
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandGuide(arg_24_0, var_24_0, arg_24_2))
 end
 
 return var_0_0

@@ -5,7 +5,7 @@ function var_0_0.GetUIName(arg_1_0)
 end
 
 function var_0_0.FirstFlush(arg_2_0)
-	setText(arg_2_0:findTF("label/Text"), i18n("island_agora_working"))
+	setText(arg_2_0._tf:Find("label/Text"), i18n("island_agora_working"))
 end
 
 return var_0_0

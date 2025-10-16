@@ -39,11 +39,11 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.toggles = {}
 
 	for iter_2_0, iter_2_1 in ipairs(var_2_0) do
-		arg_2_0[iter_2_1 .. "Panel"] = arg_2_0:findTF(iter_2_1)
-		arg_2_0.toggles[iter_2_1 .. "Panel"] = arg_2_0:findTF("toggle_controll/" .. iter_2_1)
+		arg_2_0[iter_2_1 .. "Panel"] = arg_2_0._tf:Find(iter_2_1)
+		arg_2_0.toggles[iter_2_1 .. "Panel"] = arg_2_0._tf:Find("toggle_controll/" .. iter_2_1)
 	end
 
-	arg_2_0.sample = arg_2_0:findTF("sample")
+	arg_2_0.sample = arg_2_0._tf:Find("sample")
 
 	setActive(arg_2_0.sample, false)
 	setActive(arg_2_0.defaultPanel:Find("transform_tip"), false)
@@ -125,13 +125,13 @@ end
 
 function var_0_0.initAndSetBtn(arg_11_0, arg_11_1)
 	if arg_11_1 == EquipmentInfoMediator.TYPE_DEFAULT or arg_11_1 == EquipmentInfoMediator.TYPE_SHIP then
-		arg_11_0.defaultEquipTF = arg_11_0:findTF("equipment", arg_11_0.defaultPanel) or arg_11_0:cloneSampleTo(arg_11_0.defaultPanel, var_0_0.Middle, "equipment")
-		arg_11_0.defaultReplaceBtn = arg_11_0:findTF("actions/action_button_3", arg_11_0.defaultPanel)
-		arg_11_0.defaultDestroyBtn = arg_11_0:findTF("actions/action_button_1", arg_11_0.defaultPanel)
-		arg_11_0.defaultEnhanceBtn = arg_11_0:findTF("actions/action_button_2", arg_11_0.defaultPanel)
-		arg_11_0.defaultUnloadBtn = arg_11_0:findTF("actions/action_button_4", arg_11_0.defaultPanel)
-		arg_11_0.defaultRevertBtn = arg_11_0:findTF("info/equip/revert_btn", arg_11_0.defaultEquipTF)
-		arg_11_0.defaultTransformTipBar = arg_11_0:findTF("transform_tip", arg_11_0.defaultEquipTF)
+		arg_11_0.defaultEquipTF = arg_11_0.defaultPanel:Find("equipment") or arg_11_0:cloneSampleTo(arg_11_0.defaultPanel, var_0_0.Middle, "equipment")
+		arg_11_0.defaultReplaceBtn = arg_11_0.defaultPanel:Find("actions/action_button_3")
+		arg_11_0.defaultDestroyBtn = arg_11_0.defaultPanel:Find("actions/action_button_1")
+		arg_11_0.defaultEnhanceBtn = arg_11_0.defaultPanel:Find("actions/action_button_2")
+		arg_11_0.defaultUnloadBtn = arg_11_0.defaultPanel:Find("actions/action_button_4")
+		arg_11_0.defaultRevertBtn = arg_11_0.defaultEquipTF:Find("info/equip/revert_btn")
+		arg_11_0.defaultTransformTipBar = arg_11_0.defaultEquipTF:Find("transform_tip")
 
 		if arg_11_1 == EquipmentInfoMediator.TYPE_DEFAULT and not arg_11_0.defaultTransformTipBar then
 			local var_11_0 = arg_11_0.defaultPanel:Find("transform_tip")
@@ -206,10 +206,10 @@ function var_0_0.initAndSetBtn(arg_11_0, arg_11_1)
 			arg_11_0:updateRevertPanel()
 		end, SFX_PANEL)
 	elseif arg_11_1 == EquipmentInfoMediator.TYPE_REPLACE then
-		arg_11_0.replaceSrcEquipTF = arg_11_0:findTF("equipment", arg_11_0.replacePanel) or arg_11_0:cloneSampleTo(arg_11_0.replacePanel, var_0_0.Left, "equipment")
-		arg_11_0.replaceDstEquipTF = arg_11_0:findTF("equipment_on_ship", arg_11_0.replacePanel) or arg_11_0:cloneSampleTo(arg_11_0.replacePanel, var_0_0.Right, "equipment_on_ship")
-		arg_11_0.replaceCancelBtn = arg_11_0:findTF("actions/cancel_button", arg_11_0.replacePanel)
-		arg_11_0.replaceConfirmBtn = arg_11_0:findTF("actions/action_button_2", arg_11_0.replacePanel)
+		arg_11_0.replaceSrcEquipTF = arg_11_0.replacePanel:Find("equipment") or arg_11_0:cloneSampleTo(arg_11_0.replacePanel, var_0_0.Left, "equipment")
+		arg_11_0.replaceDstEquipTF = arg_11_0.replacePanel:Find("equipment_on_ship") or arg_11_0:cloneSampleTo(arg_11_0.replacePanel, var_0_0.Right, "equipment_on_ship")
+		arg_11_0.replaceCancelBtn = arg_11_0.replacePanel:Find("actions/cancel_button")
+		arg_11_0.replaceConfirmBtn = arg_11_0.replacePanel:Find("actions/action_button_2")
 
 		onButton(arg_11_0, arg_11_0.replaceCancelBtn, function()
 			if isActive(arg_11_0.destroyPanel) then
@@ -237,9 +237,9 @@ function var_0_0.initAndSetBtn(arg_11_0, arg_11_1)
 			end
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	elseif arg_11_1 == EquipmentInfoMediator.TYPE_DISPLAY then
-		arg_11_0.displayEquipTF = arg_11_0:findTF("equipment", arg_11_0.displayPanel) or arg_11_0:cloneSampleTo(arg_11_0.displayPanel, var_0_0.Middle, "equipment")
-		arg_11_0.displayMoveBtn = arg_11_0:findTF("actions/move_button", arg_11_0.displayPanel)
-		arg_11_0.defaultTransformTipBar = arg_11_0:findTF("transform_tip", arg_11_0.displayEquipTF)
+		arg_11_0.displayEquipTF = arg_11_0.displayPanel:Find("equipment") or arg_11_0:cloneSampleTo(arg_11_0.displayPanel, var_0_0.Middle, "equipment")
+		arg_11_0.displayMoveBtn = arg_11_0.displayPanel:Find("actions/move_button")
+		arg_11_0.defaultTransformTipBar = arg_11_0.displayEquipTF:Find("transform_tip")
 
 		if arg_11_0.contextData.showTransformTip and not arg_11_0.defaultTransformTipBar then
 			local var_11_2 = arg_11_0.defaultPanel:Find("transform_tip")
@@ -261,15 +261,15 @@ function var_0_0.initAndSetBtn(arg_11_0, arg_11_1)
 		end)
 	elseif arg_11_1 == var_0_0.PANEL_DESTROY then
 		arg_11_0.initDestroyPanel = true
-		arg_11_0.destroyEquipTF = arg_11_0:findTF("equipment", arg_11_0.destroyPanel) or arg_11_0:cloneSampleTo(arg_11_0.destroyPanel, var_0_0.Left, "equipment")
-		arg_11_0.destroyCounter = arg_11_0:findTF("destroy", arg_11_0.destroyPanel)
-		arg_11_0.destroyValue = arg_11_0:findTF("count/number_panel/value", arg_11_0.destroyCounter)
-		arg_11_0.destroyLeftButton = arg_11_0:findTF("count/number_panel/left", arg_11_0.destroyCounter)
-		arg_11_0.destroyRightButton = arg_11_0:findTF("count/number_panel/right", arg_11_0.destroyCounter)
-		arg_11_0.destroyBonusList = arg_11_0:findTF("got/list", arg_11_0.destroyCounter)
-		arg_11_0.destroyBonusItem = arg_11_0:findTF("got/item", arg_11_0.destroyCounter)
-		arg_11_0.destroyCancelBtn = arg_11_0:findTF("actions/cancel_button", arg_11_0.destroyPanel)
-		arg_11_0.destroyConfirmBtn = arg_11_0:findTF("actions/destroy_button", arg_11_0.destroyPanel)
+		arg_11_0.destroyEquipTF = arg_11_0.destroyPanel:Find("equipment") or arg_11_0:cloneSampleTo(arg_11_0.destroyPanel, var_0_0.Left, "equipment")
+		arg_11_0.destroyCounter = arg_11_0.destroyPanel:Find("destroy")
+		arg_11_0.destroyValue = arg_11_0.destroyCounter:Find("count/number_panel/value")
+		arg_11_0.destroyLeftButton = arg_11_0.destroyCounter:Find("count/number_panel/left")
+		arg_11_0.destroyRightButton = arg_11_0.destroyCounter:Find("count/number_panel/right")
+		arg_11_0.destroyBonusList = arg_11_0.destroyCounter:Find("got/list")
+		arg_11_0.destroyBonusItem = arg_11_0.destroyCounter:Find("got/item")
+		arg_11_0.destroyCancelBtn = arg_11_0.destroyPanel:Find("actions/cancel_button")
+		arg_11_0.destroyConfirmBtn = arg_11_0.destroyPanel:Find("actions/destroy_button")
 
 		onButton(arg_11_0, arg_11_0.destroyLeftButton, function()
 			arg_11_0:setDestroyCount(arg_11_0.destroyCount - 1)
@@ -277,7 +277,7 @@ function var_0_0.initAndSetBtn(arg_11_0, arg_11_1)
 		onButton(arg_11_0, arg_11_0.destroyRightButton, function()
 			arg_11_0:setDestroyCount(arg_11_0.destroyCount + 1)
 		end, SFX_PANEL)
-		onButton(arg_11_0, arg_11_0:findTF("count/max", arg_11_0.destroyCounter), function()
+		onButton(arg_11_0, arg_11_0.destroyCounter:Find("count/max"), function()
 			arg_11_0:setDestroyCount(arg_11_0.equipmentVO.count)
 		end, SFX_PANEL)
 		onButton(arg_11_0, arg_11_0.destroyCancelBtn, function()
@@ -309,10 +309,10 @@ function var_0_0.initAndSetBtn(arg_11_0, arg_11_1)
 		end, SFX_UI_EQUIPMENT_RESOLVE)
 	elseif arg_11_1 == var_0_0.PANEL_REVERT then
 		arg_11_0.initRevertPanel = true
-		arg_11_0.revertEquipTF = arg_11_0:findTF("equipment", arg_11_0.revertPanel) or arg_11_0:cloneSampleTo(arg_11_0.revertPanel, var_0_0.Left, "equipment")
-		arg_11_0.revertAwardContainer = arg_11_0:findTF("item_panel/got/list", arg_11_0.revertPanel)
-		arg_11_0.revertCancelBtn = arg_11_0:findTF("actions/cancel_button", arg_11_0.revertPanel)
-		arg_11_0.revertConfirmBtn = arg_11_0:findTF("actions/revert_button", arg_11_0.revertPanel)
+		arg_11_0.revertEquipTF = arg_11_0.revertPanel:Find("equipment") or arg_11_0:cloneSampleTo(arg_11_0.revertPanel, var_0_0.Left, "equipment")
+		arg_11_0.revertAwardContainer = arg_11_0.revertPanel:Find("item_panel/got/list")
+		arg_11_0.revertCancelBtn = arg_11_0.revertPanel:Find("actions/cancel_button")
+		arg_11_0.revertConfirmBtn = arg_11_0.revertPanel:Find("actions/revert_button")
 		arg_11_0.itemTpl = arg_11_0:getTpl("item_panel/got/item", arg_11_0.revertPanel)
 
 		onButton(arg_11_0, arg_11_0.revertCancelBtn, function()
@@ -348,7 +348,7 @@ function var_0_0.updateOperation2(arg_30_0)
 	setActive(arg_30_0.defaultUnloadBtn, true)
 	setActive(arg_30_0.defaultRevertBtn, false)
 
-	local var_30_0 = arg_30_0:findTF("head", arg_30_0.defaultEquipTF)
+	local var_30_0 = arg_30_0.defaultEquipTF:Find("head")
 
 	setActive(var_30_0, arg_30_0.shipVO)
 
@@ -381,7 +381,7 @@ function var_0_0.updateOperation3(arg_31_0)
 		arg_31_0:updateEquipmentPanel(arg_31_0.replaceDstEquipTF, arg_31_0.equipmentVO)
 	end
 
-	local var_31_3 = arg_31_0:findTF("head", arg_31_0.replaceDstEquipTF)
+	local var_31_3 = arg_31_0.replaceDstEquipTF:Find("head")
 
 	setActive(var_31_3, arg_31_0.oldShipVO)
 
@@ -395,7 +395,7 @@ function var_0_0.updateOperation4(arg_32_0)
 	arg_32_0:updateEquipmentPanel(arg_32_0.displayEquipTF, arg_32_0.equipmentVO)
 	setActive(arg_32_0.displayMoveBtn, arg_32_0.shipVO)
 
-	local var_32_0 = arg_32_0:findTF("head", arg_32_0.displayEquipTF)
+	local var_32_0 = arg_32_0.displayEquipTF:Find("head")
 
 	setActive(var_32_0, arg_32_0.shipVO)
 
@@ -466,8 +466,8 @@ function var_0_0.updateOperationAward(arg_35_0, arg_35_1, arg_35_2, arg_35_3)
 end
 
 function var_0_0.updateEquipmentPanel(arg_37_0, arg_37_1, arg_37_2, arg_37_3, arg_37_4)
-	local var_37_0 = arg_37_0:findTF("info", arg_37_1)
-	local var_37_1 = arg_37_0:findTF("empty", arg_37_1)
+	local var_37_0 = arg_37_1:Find("info")
+	local var_37_1 = arg_37_1:Find("empty")
 
 	setActive(var_37_0, arg_37_2)
 	setActive(var_37_1, not arg_37_2)
@@ -490,7 +490,7 @@ function var_0_0.updateEquipmentPanel(arg_37_0, arg_37_1, arg_37_2, arg_37_3, ar
 		setActive(findTF(var_37_3, "slv/next"), arg_37_4)
 		setText(findTF(var_37_3, "slv/next/Text"), arg_37_2:getConfig("level") - 1)
 
-		local var_37_4 = arg_37_0:findTF("tier", var_37_3)
+		local var_37_4 = var_37_3:Find("tier")
 
 		setActive(var_37_4, arg_37_2)
 

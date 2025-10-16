@@ -40,12 +40,12 @@ function var_0_0.RefreshRegularExchangeCount(arg_6_0)
 end
 
 function var_0_0.OnLoaded(arg_7_0)
-	arg_7_0.quickCount = arg_7_0:findTF("gallery/res_items/item")
-	arg_7_0.useItemTF = arg_7_0:findTF("Text", arg_7_0.quickCount)
-	arg_7_0.freeCount = arg_7_0:findTF("gallery/res_items/ticket")
-	arg_7_0.ticketTF = arg_7_0:findTF("Text", arg_7_0.freeCount)
-	arg_7_0.patingTF = arg_7_0:findTF("painting")
-	arg_7_0.poolContainer = arg_7_0:findTF("gallery/toggle_bg/bg/toggles")
+	arg_7_0.quickCount = arg_7_0._tf:Find("gallery/res_items/item")
+	arg_7_0.useItemTF = arg_7_0.quickCount:Find("Text")
+	arg_7_0.freeCount = arg_7_0._tf:Find("gallery/res_items/ticket")
+	arg_7_0.ticketTF = arg_7_0.freeCount:Find("Text")
+	arg_7_0.patingTF = arg_7_0._tf:Find("painting")
+	arg_7_0.poolContainer = arg_7_0._tf:Find("gallery/toggle_bg/bg/toggles")
 	arg_7_0.newTpl = arg_7_0.poolContainer:Find("new")
 	arg_7_0.newPoolTpls = {
 		arg_7_0.newTpl
@@ -62,8 +62,8 @@ function var_0_0.OnLoaded(arg_7_0)
 	arg_7_0.heavyPoolTpls = {
 		arg_7_0.heavyTpl
 	}
-	arg_7_0.maskContainer = arg_7_0:findTF("gallery/mask")
-	arg_7_0.buildPoolExchangeTF = arg_7_0:findTF("gallery/exchange_bg")
+	arg_7_0.maskContainer = arg_7_0._tf:Find("gallery/mask")
+	arg_7_0.buildPoolExchangeTF = arg_7_0._tf:Find("gallery/exchange_bg")
 	arg_7_0.buildPoolExchangeGetBtn = arg_7_0.buildPoolExchangeTF:Find("get")
 	arg_7_0.buildPoolExchangeTxt = arg_7_0.buildPoolExchangeTF:Find("Text"):GetComponent(typeof(Text))
 	arg_7_0.buildPoolExchangeGetBtnMark = arg_7_0.buildPoolExchangeGetBtn:Find("mark")
@@ -91,12 +91,12 @@ function var_0_0.OnLoaded(arg_7_0)
 		end, SFX_PANEL)
 	end
 
-	arg_7_0.tipSTxt = arg_7_0:findTF("gallery/bg/type_intro/mask/title"):GetComponent("ScrollText")
+	arg_7_0.tipSTxt = arg_7_0._tf:Find("gallery/bg/type_intro/mask/title"):GetComponent("ScrollText")
 	arg_7_0.tipTime = arg_7_0._tf:Find("gallery/bg/time_text")
-	arg_7_0.helpBtn = arg_7_0:findTF("gallery/help_btn")
-	arg_7_0.testBtn = arg_7_0:findTF("gallery/test_btn")
-	arg_7_0.prevArr = arg_7_0:findTF("gallery/prev_arr")
-	arg_7_0.nextArr = arg_7_0:findTF("gallery/next_arr")
+	arg_7_0.helpBtn = arg_7_0._tf:Find("gallery/help_btn")
+	arg_7_0.testBtn = arg_7_0._tf:Find("gallery/test_btn")
+	arg_7_0.prevArr = arg_7_0._tf:Find("gallery/prev_arr")
+	arg_7_0.nextArr = arg_7_0._tf:Find("gallery/next_arr")
 	arg_7_0.activityTimer = {}
 	arg_7_0.freeActTimer = {}
 end
@@ -362,7 +362,7 @@ function var_0_0.UpdateTicket(arg_36_0)
 			arg_36_0:emit(BaseUI.ON_DROP, var_36_2)
 		end, SFX_PANEL)
 
-		local var_36_4 = arg_36_0:findTF("gallery/item_bg/ticket")
+		local var_36_4 = arg_36_0._tf:Find("gallery/item_bg/ticket")
 
 		LoadImageSpriteAtlasAsync(var_36_2:getConfig("icon"), "", var_36_4:Find("icon"))
 		setText(var_36_4:Find("name"), var_36_2:getConfig("name"))
@@ -376,15 +376,15 @@ function var_0_0.UpdateTicket(arg_36_0)
 		}
 	}) == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD
 
-	setText(arg_36_0:findTF("gallery/prints/intro/text"), var_36_5 and i18n("newserver_build_tip") or i18n("build_pools_intro"))
+	setText(arg_36_0._tf:Find("gallery/prints/intro/text"), var_36_5 and i18n("newserver_build_tip") or i18n("build_pools_intro"))
 	setActive(arg_36_0.freeCount, tobool(var_36_1))
 	setActive(arg_36_0.quickCount, not var_36_5)
 
 	arg_36_0.useTicket = var_36_5 or var_36_1 and var_36_1.data1 > 0
 
-	setActive(arg_36_0:findTF("gallery/item_bg/item"), not arg_36_0.useTicket)
-	setActive(arg_36_0:findTF("gallery/item_bg/gold"), not arg_36_0.useTicket)
-	setActive(arg_36_0:findTF("gallery/item_bg/ticket"), arg_36_0.useTicket)
+	setActive(arg_36_0._tf:Find("gallery/item_bg/item"), not arg_36_0.useTicket)
+	setActive(arg_36_0._tf:Find("gallery/item_bg/gold"), not arg_36_0.useTicket)
+	setActive(arg_36_0._tf:Find("gallery/item_bg/ticket"), arg_36_0.useTicket)
 end
 
 function var_0_0.SwitchPool(arg_38_0, arg_38_1)
@@ -411,7 +411,7 @@ function var_0_0.SwitchPool(arg_38_0, arg_38_1)
 	local var_38_5 = arg_38_1:GetMark()
 	local var_38_6 = GetSpriteFromAtlas("ui/BuildShipUI_atlas", "sub_title_" .. var_38_5)
 
-	arg_38_0:findTF("gallery/bg/type"):GetComponent(typeof(Image)).sprite = var_38_6
+	arg_38_0._tf:Find("gallery/bg/type"):GetComponent(typeof(Image)).sprite = var_38_6
 
 	local var_38_7 = arg_38_1:getConfigTable()
 	local var_38_8
@@ -428,10 +428,10 @@ function var_0_0.SwitchPool(arg_38_0, arg_38_1)
 
 	arg_38_0.tipSTxt:SetText(var_38_11 and HXSet.hxLan(var_38_11) or i18n("buildship_" .. var_38_5 .. "_tip"))
 
-	arg_38_0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = var_38_10
+	arg_38_0._tf:Find("gallery/bg"):GetComponent(typeof(Image)).sprite = var_38_10
 
-	local var_38_12 = arg_38_0:findTF("gallery/item_bg/item/Text")
-	local var_38_13 = arg_38_0:findTF("gallery/item_bg/gold/Text")
+	local var_38_12 = arg_38_0._tf:Find("gallery/item_bg/item/Text")
+	local var_38_13 = arg_38_0._tf:Find("gallery/item_bg/gold/Text")
 
 	setText(var_38_12, var_38_7.number_1)
 	setText(var_38_13, var_38_7.use_gold)
@@ -470,7 +470,7 @@ function var_0_0.SwitchPool(arg_38_0, arg_38_1)
 		end)
 	end
 
-	onButton(arg_38_0, arg_38_0:findTF("gallery/start_btn"), function()
+	onButton(arg_38_0, arg_38_0._tf:Find("gallery/start_btn"), function()
 		seriesAsync(var_38_14, function()
 			local var_44_0 = arg_38_0.useTicket and var_38_0:getBuildFreeActivityByBuildId(arg_38_0.pool.id) or nil
 

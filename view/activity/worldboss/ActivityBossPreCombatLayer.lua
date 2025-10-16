@@ -15,7 +15,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0._ticket = arg_2_0._startBtn:Find("ticket")
 	arg_2_0._bonus = arg_2_0._startBtn:Find("bonus")
 	arg_2_0._costTip = arg_2_0._startBtn:Find("cost_container/popup/tip")
-	arg_2_0._continuousBtn = arg_2_0:findTF("right/multiple")
+	arg_2_0._continuousBtn = arg_2_0._tf:Find("right/multiple")
 
 	setText(arg_2_0._continuousBtn:Find("text"), i18n("multiple_sorties_title"))
 	setText(arg_2_0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))

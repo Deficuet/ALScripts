@@ -20,11 +20,11 @@ function var_0_0.Load(arg_2_0)
 end
 
 function var_0_0.OnLoaded(arg_3_0)
-	arg_3_0.captailBg = arg_3_0:findTF("captail"):GetComponent(typeof(Image))
-	arg_3_0.contributionBg = arg_3_0:findTF("contribution"):GetComponent(typeof(Image))
-	arg_3_0.resCaptailTxt = arg_3_0:findTF("captail/Text"):GetComponent(typeof(Text))
-	arg_3_0.resContributionTxt = arg_3_0:findTF("contribution/Text"):GetComponent(typeof(Text))
-	arg_3_0.resourceLogBtn = arg_3_0:findTF("captail/log")
+	arg_3_0.captailBg = arg_3_0._tf:Find("captail"):GetComponent(typeof(Image))
+	arg_3_0.contributionBg = arg_3_0._tf:Find("contribution"):GetComponent(typeof(Image))
+	arg_3_0.resCaptailTxt = arg_3_0._tf:Find("captail/Text"):GetComponent(typeof(Text))
+	arg_3_0.resContributionTxt = arg_3_0._tf:Find("contribution/Text"):GetComponent(typeof(Text))
+	arg_3_0.resourceLogBtn = arg_3_0._tf:Find("captail/log")
 
 	setActive(arg_3_0._tf, true)
 end

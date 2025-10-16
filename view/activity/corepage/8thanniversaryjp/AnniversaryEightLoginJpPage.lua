@@ -1,12 +1,12 @@
 local var_0_0 = class("AnniversaryEightLoginJpPage", import("view.activity.CorePage.templatePage.CoreLoginSignTemplatePage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.item = arg_1_0:findTF("item", arg_1_0.bg)
-	arg_1_0.items = arg_1_0:findTF("items/items", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.item = arg_1_0.bg:Find("item")
+	arg_1_0.items = arg_1_0.bg:Find("items/items")
 	arg_1_0.itemList = UIItemList.New(arg_1_0.items, arg_1_0.item)
-	arg_1_0.signBtn = arg_1_0:findTF("signBtn", arg_1_0.bg)
-	arg_1_0.signRedTip = arg_1_0:findTF("signBtn/tip", arg_1_0.bg)
+	arg_1_0.signBtn = arg_1_0.bg:Find("signBtn")
+	arg_1_0.signRedTip = arg_1_0.bg:Find("signBtn/tip")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -22,7 +22,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 
 	arg_2_0.itemList:make(function(arg_3_0, arg_3_1, arg_3_2)
 		if arg_3_0 == UIItemList.EventUpdate then
-			local var_3_0 = arg_2_0:findTF("item", arg_3_2)
+			local var_3_0 = arg_3_2:Find("item")
 			local var_3_1 = arg_2_0.config.front_drops[arg_3_1 + 1]
 			local var_3_2 = {
 				type = var_3_1[1],
@@ -35,10 +35,10 @@ function var_0_0.OnFirstFlush(arg_2_0)
 				arg_2_0:emit(BaseUI.ON_DROP, var_3_2)
 			end, SFX_PANEL)
 
-			local var_3_3 = arg_2_0:findTF("got", arg_3_2)
+			local var_3_3 = arg_3_2:Find("got")
 
 			setActive(var_3_3, arg_3_1 < arg_2_0.nday)
-			setActive(arg_2_0:findTF("getEffect", arg_3_2), arg_2_0.activity.data1 == arg_3_1 and arg_2_0.activity:readyToAchieve())
+			setActive(arg_3_2:Find("getEffect"), arg_2_0.activity.data1 == arg_3_1 and arg_2_0.activity:readyToAchieve())
 
 			if table.contains(arg_2_0.playedAnimationList, arg_3_1) and arg_3_1 == arg_2_0.nday - 1 then
 				GetComponent(arg_3_2, typeof(Animation)):Play("anim_AnniversaryEightLoginJPPage_tpl_get")

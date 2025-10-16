@@ -411,8 +411,7 @@ function var_0_0.ReturnLive2D(arg_35_0, arg_35_1, arg_35_2)
 		setActiveViaLayer(arg_35_2, true)
 		arg_35_2:SetActive(false)
 		arg_35_2.transform:SetParent(arg_35_0.root, false)
-		arg_35_0.pools_plural[var_35_3]:Enqueue(arg_35_2)
-		arg_35_0.pools_plural[var_35_3]:ClearItems()
+		arg_35_0.pools_plural[var_35_3]:Enqueue(arg_35_2, true)
 		arg_35_0:ExcessDymPainting()
 	else
 		var_0_4.Destroy(arg_35_2)
@@ -442,6 +441,8 @@ function var_0_0.ExcessDymPainting(arg_36_0, arg_36_1)
 	var_0_10 = var_0_10 + 1
 
 	if arg_36_1 then
+		var_0_10 = 0
+
 		for iter_36_2, iter_36_3 in ipairs(var_36_2) do
 			arg_36_0.pools_plural[iter_36_3]:Clear()
 

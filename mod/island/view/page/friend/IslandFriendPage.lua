@@ -42,8 +42,8 @@ function var_0_0.getUIName(arg_3_0)
 end
 
 function var_0_0.OnLoaded(arg_4_0)
-	arg_4_0.backBtn = arg_4_0:findTF("top/back")
-	arg_4_0.giftTipTxt = arg_4_0:findTF("top/gift_tip/Text"):GetComponent(typeof(Text))
+	arg_4_0.backBtn = arg_4_0._tf:Find("top/back")
+	arg_4_0.giftTipTxt = arg_4_0._tf:Find("top/gift_tip/Text"):GetComponent(typeof(Text))
 	arg_4_0.uiToggleList = UIItemList.New(arg_4_0._tf:Find("adapt/toggles/content"), arg_4_0._tf:Find("adapt/toggles/content/tpl"))
 	arg_4_0.mainTr = arg_4_0._tf:Find("adapt/main")
 	arg_4_0.pages = {
@@ -57,7 +57,7 @@ function var_0_0.OnLoaded(arg_4_0)
 		[var_0_8] = IslandFriendSettingPage.New(arg_4_0.mainTr, arg_4_0.event)
 	}
 
-	setText(arg_4_0:findTF("top/title/Text"), i18n("island_btn_label_visit"))
+	setText(arg_4_0._tf:Find("top/title/Text"), i18n("island_btn_label_visit"))
 end
 
 function var_0_0.AddListeners(arg_5_0)

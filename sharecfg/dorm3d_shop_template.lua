@@ -31,7 +31,8 @@ pg.dorm3d_shop_template = setmetatable({
 		27,
 		28,
 		29,
-		30
+		30,
+		31
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -354,7 +355,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 4,
 		id = 15,
 		realroom_id = 0,
-		order = "4",
+		order = "11",
 		panel = {
 			2
 		},
@@ -375,7 +376,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 4,
 		id = 16,
 		realroom_id = 0,
-		order = "5",
+		order = "12",
 		panel = {
 			2
 		},
@@ -395,7 +396,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 4,
 		id = 17,
 		realroom_id = 0,
-		order = "6",
+		order = "11",
 		panel = {
 			2
 		},
@@ -437,7 +438,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1151,
 		id = 19,
 		realroom_id = 0,
-		order = "8",
+		order = "10",
 		panel = {
 			1,
 			2,
@@ -482,7 +483,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 16,
 		id = 21,
 		realroom_id = 0,
-		order = "8",
+		order = "11",
 		panel = {
 			2
 		},
@@ -502,7 +503,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 223,
 		id = 22,
 		realroom_id = 0,
-		order = "9",
+		order = "12",
 		panel = {
 			1,
 			2,
@@ -548,7 +549,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1990302,
 		id = 24,
 		realroom_id = 0,
-		order = "12",
+		order = "10",
 		panel = {
 			2,
 			3,
@@ -570,7 +571,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 401,
 		id = 25,
 		realroom_id = 4,
-		order = "12",
+		order = "10",
 		panel = {
 			1
 		},
@@ -613,7 +614,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1221,
 		id = 27,
 		realroom_id = 0,
-		order = "3",
+		order = "7",
 		panel = {
 			1,
 			2,
@@ -636,7 +637,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 3070701,
 		id = 28,
 		realroom_id = 0,
-		order = "3",
+		order = "7",
 		panel = {
 			2,
 			3,
@@ -658,7 +659,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 16,
 		id = 29,
 		realroom_id = 0,
-		order = "4",
+		order = "6",
 		panel = {
 			2
 		},
@@ -678,7 +679,7 @@ pg.base.dorm3d_shop_template = {
 		item_id = 1153,
 		id = 30,
 		realroom_id = 0,
-		order = "3",
+		order = "6",
 		panel = {
 			1,
 			2,
@@ -689,7 +690,30 @@ pg.base.dorm3d_shop_template = {
 			270205
 		},
 		banners = {
-			"banner_furniture1152"
+			"banner_furniture1153"
+		}
+	},
+	{
+		name = "花乐留韵 ",
+		rarity = 5,
+		type = 1,
+		room_id = 30707,
+		unlock = "",
+		item_id = 1222,
+		id = 31,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270502
+		},
+		banners = {
+			"banner_furniture1222"
 		}
 	}
 }

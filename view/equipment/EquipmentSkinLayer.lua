@@ -14,14 +14,14 @@ end
 function var_0_0.init(arg_3_0)
 	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 
-	arg_3_0.displayPanel = arg_3_0:findTF("display")
+	arg_3_0.displayPanel = arg_3_0._tf:Find("display")
 
 	setActive(arg_3_0.displayPanel, false)
 
 	arg_3_0.displayActions = arg_3_0.displayPanel:Find("actions")
-	arg_3_0.skinViewOnShipTF = arg_3_0:findTF("replace/equipment_on_ship")
-	arg_3_0.skinViewTF = arg_3_0:findTF("replace/equipment")
-	arg_3_0.replacePanel = arg_3_0:findTF("replace")
+	arg_3_0.skinViewOnShipTF = arg_3_0._tf:Find("replace/equipment_on_ship")
+	arg_3_0.skinViewTF = arg_3_0._tf:Find("replace/equipment")
+	arg_3_0.replacePanel = arg_3_0._tf:Find("replace")
 
 	setActive(arg_3_0.replacePanel, false)
 end
@@ -33,10 +33,10 @@ function var_0_0.didEnter(arg_4_0)
 	onButton(arg_4_0, arg_4_0._tf:Find("display/top/btnBack"), function()
 		arg_4_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(arg_4_0, arg_4_0:findTF("actions/cancel_button", arg_4_0.replacePanel), function()
+	onButton(arg_4_0, arg_4_0.replacePanel:Find("actions/cancel_button"), function()
 		arg_4_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_PANEL)
-	onButton(arg_4_0, arg_4_0:findTF("actions/action_button_2", arg_4_0.replacePanel), function()
+	onButton(arg_4_0, arg_4_0.replacePanel:Find("actions/action_button_2"), function()
 		if not arg_4_0.contextData.oldShipInfo then
 			arg_4_0:emit(EquipmentSkinMediator.ON_EQUIP)
 		else
@@ -112,8 +112,8 @@ end
 
 function var_0_0.updateSkinView(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
 	local var_16_0 = arg_16_2 ~= 0
-	local var_16_1 = arg_16_0:findTF("empty", arg_16_1)
-	local var_16_2 = arg_16_0:findTF("info", arg_16_1)
+	local var_16_1 = arg_16_1:Find("empty")
+	local var_16_2 = arg_16_1:Find("info")
 
 	if var_16_1 then
 		setActive(var_16_1, not var_16_0)
@@ -128,8 +128,8 @@ function var_0_0.updateSkinView(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
 
 		assert(var_16_3, "miss config equip_skin_template >> " .. arg_16_2)
 
-		local var_16_4 = arg_16_0:findTF("info/display_panel/name_container/name", arg_16_1):GetComponent(typeof(Text))
-		local var_16_5 = arg_16_0:findTF("info/display_panel/desc", arg_16_1):GetComponent(typeof(Text))
+		local var_16_4 = arg_16_1:Find("info/display_panel/name_container/name"):GetComponent(typeof(Text))
+		local var_16_5 = arg_16_1:Find("info/display_panel/desc"):GetComponent(typeof(Text))
 
 		var_16_4.text = var_16_3.name
 		var_16_5.text = var_16_3.desc
@@ -138,20 +138,20 @@ function var_0_0.updateSkinView(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
 			return EquipType.Type2Name2(arg_17_0)
 		end)
 
-		setScrollText(arg_16_0:findTF("info/display_panel/equip_type/mask/Text", arg_16_1), table.concat(var_16_6, ","))
+		setScrollText(arg_16_1:Find("info/display_panel/equip_type/mask/Text"), table.concat(var_16_6, ","))
 
-		local var_16_7 = arg_16_0:findTF("info/play_btn", arg_16_1)
+		local var_16_7 = arg_16_1:Find("info/play_btn")
 
 		setActive(var_16_7, true)
 		onButton(arg_16_0, var_16_7, function()
 			arg_16_0:emit(EquipmentSkinMediator.ON_PREVIEW, arg_16_2)
 		end, SFX_PANEL)
-		updateDrop(arg_16_0:findTF("info/equip", arg_16_1), Drop.New({
+		updateDrop(arg_16_1:Find("info/equip"), Drop.New({
 			type = DROP_TYPE_EQUIPMENT_SKIN,
 			id = arg_16_2
 		}))
 
-		local var_16_8 = arg_16_0:findTF("info/head", arg_16_1)
+		local var_16_8 = arg_16_1:Find("info/head")
 
 		if var_16_8 then
 			setActive(var_16_8, arg_16_3)

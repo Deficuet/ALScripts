@@ -12,8 +12,8 @@ function var_0_0.init(arg_2_0)
 
 	arg_2_0.UIMain = pg.UIMgr.GetInstance().UIMain
 	arg_2_0.seaCameraGO = GameObject.Find("BarrageCamera")
-	arg_2_0.leftPanel = arg_2_0:findTF("left_panel")
-	arg_2_0.sea = arg_2_0:findTF("sea", arg_2_0.leftPanel)
+	arg_2_0.leftPanel = arg_2_0._tf:Find("left_panel")
+	arg_2_0.sea = arg_2_0.leftPanel:Find("sea")
 	arg_2_0.seaCamera = arg_2_0.seaCameraGO:GetComponent("Camera")
 	arg_2_0.seaCamera.enabled = true
 	arg_2_0.rawImage = arg_2_0.sea:GetComponent("RawImage")
@@ -21,7 +21,7 @@ function var_0_0.init(arg_2_0)
 	setActive(arg_2_0.rawImage, false)
 
 	arg_2_0.seaCamera.targetTexture = arg_2_0.rawImage.texture
-	arg_2_0.healTF = arg_2_0:findTF("resources/heal")
+	arg_2_0.healTF = arg_2_0._tf:Find("resources/heal")
 	arg_2_0.healTF.transform.localPosition = Vector3(-360, 50, 40)
 
 	setActive(arg_2_0.healTF, false)
@@ -30,7 +30,7 @@ function var_0_0.init(arg_2_0)
 		setText(arg_2_0.healTF:Find("text"), "")
 	end)
 
-	arg_2_0.seaLoading = arg_2_0:findTF("bg/loading", arg_2_0.leftPanel)
+	arg_2_0.seaLoading = arg_2_0.leftPanel:Find("bg/loading")
 
 	arg_2_0:playLoadingAni()
 end

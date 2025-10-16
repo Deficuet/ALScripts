@@ -55,10 +55,10 @@ function var_0_0.onBackPressed(arg_5_0)
 end
 
 function var_0_0.initUITipText(arg_6_0)
-	local var_6_0 = arg_6_0:findTF("Preview/FinalAttrPanel/TitleText")
-	local var_6_1 = arg_6_0:findTF("Preview/FinalAttrPanel/TipText")
-	local var_6_2 = arg_6_0:findTF("RightPanel/MaterialPanel/StarMax/Text")
-	local var_6_3 = arg_6_0:findTF("RightPanel/MaterialPanel/TipText")
+	local var_6_0 = arg_6_0._tf:Find("Preview/FinalAttrPanel/TitleText")
+	local var_6_1 = arg_6_0._tf:Find("Preview/FinalAttrPanel/TipText")
+	local var_6_2 = arg_6_0._tf:Find("RightPanel/MaterialPanel/StarMax/Text")
+	local var_6_3 = arg_6_0._tf:Find("RightPanel/MaterialPanel/TipText")
 
 	setText(var_6_0, i18n("meta_energy_preview_title"))
 	setText(var_6_1, i18n("meta_energy_preview_tip"))
@@ -79,64 +79,64 @@ function var_0_0.initData(arg_7_0)
 end
 
 function var_0_0.initUI(arg_8_0)
-	arg_8_0.shipImg = arg_8_0:findTF("ShipImg")
-	arg_8_0.nameTF = arg_8_0:findTF("NamePanel")
-	arg_8_0.nameScrollText = arg_8_0:findTF("NameMask/NameText", arg_8_0.nameTF)
-	arg_8_0.shipTypeImg = arg_8_0:findTF("TypeImg", arg_8_0.nameTF)
-	arg_8_0.enNameText = arg_8_0:findTF("NameENText", arg_8_0.nameTF)
+	arg_8_0.shipImg = arg_8_0._tf:Find("ShipImg")
+	arg_8_0.nameTF = arg_8_0._tf:Find("NamePanel")
+	arg_8_0.nameScrollText = arg_8_0.nameTF:Find("NameMask/NameText")
+	arg_8_0.shipTypeImg = arg_8_0.nameTF:Find("TypeImg")
+	arg_8_0.enNameText = arg_8_0.nameTF:Find("NameENText")
 
-	local var_8_0 = arg_8_0:findTF("StarTpl", arg_8_0.nameTF)
-	local var_8_1 = arg_8_0:findTF("StarContainer", arg_8_0.nameTF)
+	local var_8_0 = arg_8_0.nameTF:Find("StarTpl")
+	local var_8_1 = arg_8_0.nameTF:Find("StarContainer")
 
 	arg_8_0.nameTFStarUIList = UIItemList.New(var_8_1, var_8_0)
-	arg_8_0.previewBtn = arg_8_0:findTF("PreviewBtn")
-	arg_8_0.rightPanel = arg_8_0:findTF("RightPanel")
-	arg_8_0.qCharContain = arg_8_0:findTF("DetailPanel/QChar", arg_8_0.rightPanel)
-	arg_8_0.starTpl = arg_8_0:findTF("DetailPanel/RarePanel/StarTpl", arg_8_0.rightPanel)
+	arg_8_0.previewBtn = arg_8_0._tf:Find("PreviewBtn")
+	arg_8_0.rightPanel = arg_8_0._tf:Find("RightPanel")
+	arg_8_0.qCharContain = arg_8_0.rightPanel:Find("DetailPanel/QChar")
+	arg_8_0.starTpl = arg_8_0.rightPanel:Find("DetailPanel/RarePanel/StarTpl")
 
 	setActive(arg_8_0.starTpl, false)
 
-	arg_8_0.starsFrom = arg_8_0:findTF("DetailPanel/RarePanel/StarsFrom", arg_8_0.rightPanel)
-	arg_8_0.starsTo = arg_8_0:findTF("DetailPanel/RarePanel/StarsTo", arg_8_0.rightPanel)
-	arg_8_0.starOpera = arg_8_0:findTF("DetailPanel/RarePanel/OpImg", arg_8_0.rightPanel)
+	arg_8_0.starsFrom = arg_8_0.rightPanel:Find("DetailPanel/RarePanel/StarsFrom")
+	arg_8_0.starsTo = arg_8_0.rightPanel:Find("DetailPanel/RarePanel/StarsTo")
+	arg_8_0.starOpera = arg_8_0.rightPanel:Find("DetailPanel/RarePanel/OpImg")
 	arg_8_0.starFromList = UIItemList.New(arg_8_0.starsFrom, arg_8_0.starTpl)
 	arg_8_0.starToList = UIItemList.New(arg_8_0.starsTo, arg_8_0.starTpl)
-	arg_8_0.attrTpl = arg_8_0:findTF("DetailPanel/AttrTpl", arg_8_0.rightPanel)
+	arg_8_0.attrTpl = arg_8_0.rightPanel:Find("DetailPanel/AttrTpl")
 
 	setActive(arg_8_0.attrTpl, false)
 
-	arg_8_0.attrsContainer = arg_8_0:findTF("DetailPanel/AttrsContainer", arg_8_0.rightPanel)
+	arg_8_0.attrsContainer = arg_8_0.rightPanel:Find("DetailPanel/AttrsContainer")
 	arg_8_0.attrsList = UIItemList.New(arg_8_0.attrsContainer, arg_8_0.attrTpl)
-	arg_8_0.materialPanel = arg_8_0:findTF("MaterialPanel", arg_8_0.rightPanel)
-	arg_8_0.levelNumText = arg_8_0:findTF("Info/LevelTipText", arg_8_0.materialPanel)
-	arg_8_0.infoTF = arg_8_0:findTF("Info", arg_8_0.materialPanel)
-	arg_8_0.repairRateText = arg_8_0:findTF("Info/ProgressTipText", arg_8_0.materialPanel)
-	arg_8_0.materialTF = arg_8_0:findTF("Info/Material", arg_8_0.materialPanel)
-	arg_8_0.breakOutTipImg = arg_8_0:findTF("TipText", arg_8_0.materialPanel)
-	arg_8_0.goldTF = arg_8_0:findTF("Gold", arg_8_0.materialPanel)
-	arg_8_0.goldNumText = arg_8_0:findTF("NumText", arg_8_0.goldTF)
-	arg_8_0.starMaxTF = arg_8_0:findTF("StarMax", arg_8_0.materialPanel)
-	arg_8_0.activeBtn = arg_8_0:findTF("ActiveBtn", arg_8_0.materialPanel)
-	arg_8_0.activeBtnDisable = arg_8_0:findTF("ActiveBtnDisable", arg_8_0.materialPanel)
-	arg_8_0.previewTF = arg_8_0:findTF("Preview")
-	arg_8_0.previewBG = arg_8_0:findTF("BG", arg_8_0.previewTF)
-	arg_8_0.previewPanel = arg_8_0:findTF("PreviewPanel", arg_8_0.previewTF)
-	arg_8_0.stages = arg_8_0:findTF("StageScrollRect/Stages", arg_8_0.previewPanel)
-	arg_8_0.stagesSnap = arg_8_0:findTF("StageScrollRect", arg_8_0.previewPanel):GetComponent("HorizontalScrollSnap")
-	arg_8_0.breakView = arg_8_0:findTF("Content/Text", arg_8_0.previewPanel)
-	arg_8_0.sea = arg_8_0:findTF("Sea", arg_8_0.previewPanel)
+	arg_8_0.materialPanel = arg_8_0.rightPanel:Find("MaterialPanel")
+	arg_8_0.levelNumText = arg_8_0.materialPanel:Find("Info/LevelTipText")
+	arg_8_0.infoTF = arg_8_0.materialPanel:Find("Info")
+	arg_8_0.repairRateText = arg_8_0.materialPanel:Find("Info/ProgressTipText")
+	arg_8_0.materialTF = arg_8_0.materialPanel:Find("Info/Material")
+	arg_8_0.breakOutTipImg = arg_8_0.materialPanel:Find("TipText")
+	arg_8_0.goldTF = arg_8_0.materialPanel:Find("Gold")
+	arg_8_0.goldNumText = arg_8_0.goldTF:Find("NumText")
+	arg_8_0.starMaxTF = arg_8_0.materialPanel:Find("StarMax")
+	arg_8_0.activeBtn = arg_8_0.materialPanel:Find("ActiveBtn")
+	arg_8_0.activeBtnDisable = arg_8_0.materialPanel:Find("ActiveBtnDisable")
+	arg_8_0.previewTF = arg_8_0._tf:Find("Preview")
+	arg_8_0.previewBG = arg_8_0.previewTF:Find("BG")
+	arg_8_0.previewPanel = arg_8_0.previewTF:Find("PreviewPanel")
+	arg_8_0.stages = arg_8_0.previewPanel:Find("StageScrollRect/Stages")
+	arg_8_0.stagesSnap = arg_8_0.previewPanel:Find("StageScrollRect"):GetComponent("HorizontalScrollSnap")
+	arg_8_0.breakView = arg_8_0.previewPanel:Find("Content/Text")
+	arg_8_0.sea = arg_8_0.previewPanel:Find("Sea")
 	arg_8_0.rawImage = arg_8_0.sea:GetComponent("RawImage")
 
 	setActive(arg_8_0.rawImage, false)
 
-	arg_8_0.healTF = arg_8_0:findTF("Resources/Heal")
+	arg_8_0.healTF = arg_8_0._tf:Find("Resources/Heal")
 	arg_8_0.healTF.transform.localPosition = Vector3(-360, 50, 40)
 
 	setActive(arg_8_0.healTF, false)
 
-	arg_8_0.seaLoading = arg_8_0:findTF("BG/Loading", arg_8_0.previewPanel)
-	arg_8_0.previewAttrTpl = arg_8_0:findTF("FinalAttrPanel/AttrTpl", arg_8_0.previewTF)
-	arg_8_0.previewAttrContainer = arg_8_0:findTF("FinalAttrPanel/AttrsContainer", arg_8_0.previewTF)
+	arg_8_0.seaLoading = arg_8_0.previewPanel:Find("BG/Loading")
+	arg_8_0.previewAttrTpl = arg_8_0.previewTF:Find("FinalAttrPanel/AttrTpl")
+	arg_8_0.previewAttrContainer = arg_8_0.previewTF:Find("FinalAttrPanel/AttrsContainer")
 	arg_8_0.previewAttrUIItemList = UIItemList.New(arg_8_0.previewAttrContainer, arg_8_0.previewAttrTpl)
 end
 
@@ -206,8 +206,8 @@ function var_0_0.updateNamePanel(arg_17_0)
 
 	arg_17_0.nameTFStarUIList:make(function(arg_18_0, arg_18_1, arg_18_2)
 		if arg_18_0 == UIItemList.EventUpdate then
-			local var_18_0 = arg_17_0:findTF("empty", arg_18_2)
-			local var_18_1 = arg_17_0:findTF("on", arg_18_2)
+			local var_18_0 = arg_18_2:Find("empty")
+			local var_18_1 = arg_18_2:Find("on")
 
 			arg_18_1 = arg_18_1 + 1
 
@@ -334,8 +334,8 @@ function var_0_0.updateMaterialPanel(arg_25_0, arg_25_1)
 	local var_25_12 = var_25_8[1].itemId
 	local var_25_13 = var_25_8[1].count
 	local var_25_14 = var_25_3:getItemCountById(var_25_12)
-	local var_25_15 = arg_25_0:findTF("Item", arg_25_0.materialTF)
-	local var_25_16 = arg_25_0:findTF("icon_bg/count", var_25_15)
+	local var_25_15 = arg_25_0.materialTF:Find("Item")
+	local var_25_16 = var_25_15:Find("icon_bg/count")
 	local var_25_17 = {
 		type = DROP_TYPE_ITEM,
 		id = var_25_12,
@@ -451,9 +451,9 @@ function var_0_0.updatePreviewAttrListPanel(arg_31_0)
 
 	arg_31_0.previewAttrUIItemList:make(function(arg_32_0, arg_32_1, arg_32_2)
 		if arg_32_0 == UIItemList.EventUpdate then
-			local var_32_0 = arg_31_0:findTF("AttrIcon", arg_32_2)
-			local var_32_1 = arg_31_0:findTF("NameText", arg_32_2)
-			local var_32_2 = arg_31_0:findTF("AddValueText", arg_32_2)
+			local var_32_0 = arg_32_2:Find("AttrIcon")
+			local var_32_1 = arg_32_2:Find("NameText")
+			local var_32_2 = arg_32_2:Find("AddValueText")
 			local var_32_3 = var_31_2[arg_32_1 + 1]
 
 			setImageSprite(var_32_0, LoadSprite("attricon", var_32_3))
@@ -478,7 +478,7 @@ function var_0_0.initPreviewPanel(arg_33_0, arg_33_1)
 	for iter_33_0 = 1, 3 do
 		local var_33_2 = arg_33_0.breakIds[iter_33_0]
 		local var_33_3 = var_0_1[var_33_2]
-		local var_33_4 = arg_33_0:findTF("Stage" .. iter_33_0, arg_33_0.stages)
+		local var_33_4 = arg_33_0.stages:Find("Stage" .. iter_33_0)
 
 		onToggle(arg_33_0, var_33_4, function(arg_34_0)
 			if arg_34_0 then

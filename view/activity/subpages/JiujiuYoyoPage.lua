@@ -2,32 +2,32 @@ local var_0_0 = class("JiujiuYoyoPage", import("...base.BaseActivityPage"))
 local var_0_1 = PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_CHT
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.helpBtn = arg_1_0:findTF("help_btn", arg_1_0.bg)
-	arg_1_0.taskBtn = arg_1_0:findTF("task_btn", arg_1_0.bg)
-	arg_1_0.taskRedDot = arg_1_0:findTF("red_dot", arg_1_0.taskBtn)
-	arg_1_0.ticketNumTF = arg_1_0:findTF("ticket_num", arg_1_0.bg)
-	arg_1_0.rollingCountTF = arg_1_0:findTF("rolling_count", arg_1_0.bg)
-	arg_1_0.rollingBlink = arg_1_0:findTF("blink", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.helpBtn = arg_1_0.bg:Find("help_btn")
+	arg_1_0.taskBtn = arg_1_0.bg:Find("task_btn")
+	arg_1_0.taskRedDot = arg_1_0.taskBtn:Find("red_dot")
+	arg_1_0.ticketNumTF = arg_1_0.bg:Find("ticket_num")
+	arg_1_0.rollingCountTF = arg_1_0.bg:Find("rolling_count")
+	arg_1_0.rollingBlink = arg_1_0.bg:Find("blink")
 
 	if var_0_1 then
-		arg_1_0.awardTpl = arg_1_0:findTF("item_jp", arg_1_0.bg)
-		arg_1_0.awardContainter = arg_1_0:findTF("award_list_jp", arg_1_0.bg)
+		arg_1_0.awardTpl = arg_1_0.bg:Find("item_jp")
+		arg_1_0.awardContainter = arg_1_0.bg:Find("award_list_jp")
 	else
-		arg_1_0.awardTpl = arg_1_0:findTF("item", arg_1_0.bg)
-		arg_1_0.awardContainter = arg_1_0:findTF("award_list", arg_1_0.bg)
+		arg_1_0.awardTpl = arg_1_0.bg:Find("item")
+		arg_1_0.awardContainter = arg_1_0.bg:Find("award_list")
 	end
 
 	arg_1_0.awardUIList = UIItemList.New(arg_1_0.awardContainter, arg_1_0.awardTpl)
-	arg_1_0.finalGot = arg_1_0:findTF("final_got_jp", arg_1_0.bg)
-	arg_1_0.rollingAni = arg_1_0:findTF("rolling_mask", arg_1_0.bg)
-	arg_1_0.rollingSpine = arg_1_0:findTF("rolling", arg_1_0.rollingAni):GetComponent("SpineAnimUI")
-	arg_1_0.rollingGraphic = arg_1_0:findTF("rolling", arg_1_0.rollingAni):GetComponent("SkeletonGraphic")
-	arg_1_0.forbidMask = arg_1_0:findTF("forbid_mask", arg_1_0.bg)
-	arg_1_0.taskWindow = arg_1_0:findTF("TaskWindow")
-	arg_1_0.closeBtn = arg_1_0:findTF("panel/close_btn", arg_1_0.taskWindow)
-	arg_1_0.taskTpl = arg_1_0:findTF("panel/scrollview/item", arg_1_0.taskWindow)
-	arg_1_0.taskContainter = arg_1_0:findTF("panel/scrollview/items", arg_1_0.taskWindow)
+	arg_1_0.finalGot = arg_1_0.bg:Find("final_got_jp")
+	arg_1_0.rollingAni = arg_1_0.bg:Find("rolling_mask")
+	arg_1_0.rollingSpine = arg_1_0.rollingAni:Find("rolling"):GetComponent("SpineAnimUI")
+	arg_1_0.rollingGraphic = arg_1_0.rollingAni:Find("rolling"):GetComponent("SkeletonGraphic")
+	arg_1_0.forbidMask = arg_1_0.bg:Find("forbid_mask")
+	arg_1_0.taskWindow = arg_1_0._tf:Find("TaskWindow")
+	arg_1_0.closeBtn = arg_1_0.taskWindow:Find("panel/close_btn")
+	arg_1_0.taskTpl = arg_1_0.taskWindow:Find("panel/scrollview/item")
+	arg_1_0.taskContainter = arg_1_0.taskWindow:Find("panel/scrollview/items")
 	arg_1_0.taskUIList = UIItemList.New(arg_1_0.taskContainter, arg_1_0.taskTpl)
 
 	arg_1_0:register()
@@ -77,7 +77,7 @@ function var_0_0.OnFirstFlush(arg_6_0)
 	onButton(arg_6_0, arg_6_0.closeBtn, function()
 		arg_6_0:closeTask()
 	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0:findTF("mask", arg_6_0.taskWindow), function()
+	onButton(arg_6_0, arg_6_0.taskWindow:Find("mask"), function()
 		arg_6_0:closeTask()
 	end, SFX_PANEL)
 	onButton(arg_6_0, arg_6_0.rollingBlink, function()
@@ -145,14 +145,14 @@ function var_0_0.initAwardList(arg_13_0)
 			local var_14_2 = arg_13_0.remainNumList[var_14_0]
 
 			if var_14_2 == 0 then
-				setTextColor(arg_13_0:findTF("num", arg_14_2), Color.New(0.55, 0.55, 0.55, 1))
-				setOutlineColor(arg_13_0:findTF("num", arg_14_2), Color.New(0.26, 0.26, 0.26, 1))
+				setTextColor(arg_14_2:Find("num"), Color.New(0.55, 0.55, 0.55, 1))
+				setOutlineColor(arg_14_2:Find("num"), Color.New(0.26, 0.26, 0.26, 1))
 			end
 
-			setText(arg_13_0:findTF("num", arg_14_2), var_14_2 .. "/" .. var_14_1)
-			setActive(arg_13_0:findTF("got", arg_14_2), var_14_2 == 0)
+			setText(arg_14_2:Find("num"), var_14_2 .. "/" .. var_14_1)
+			setActive(arg_14_2:Find("got"), var_14_2 == 0)
 
-			local var_14_3 = arg_13_0:findTF("award_mask/award", arg_14_2)
+			local var_14_3 = arg_14_2:Find("award_mask/award")
 			local var_14_4 = arg_13_0.awardList[var_14_0]
 			local var_14_5 = {
 				type = var_14_4[1],
@@ -176,7 +176,7 @@ function var_0_0.initTaskWindow(arg_16_0)
 	arg_16_0.taskUIList:make(function(arg_17_0, arg_17_1, arg_17_2)
 		if arg_17_0 == UIItemList.EventUpdate then
 			local var_17_0 = arg_17_1 + 1
-			local var_17_1 = arg_16_0:findTF("award/award", arg_17_2)
+			local var_17_1 = arg_17_2:Find("award/award")
 			local var_17_2 = arg_16_0.taskList[var_17_0]
 			local var_17_3 = arg_16_0.taskProxy:getTaskById(var_17_2) or arg_16_0.taskProxy:getFinishTaskById(var_17_2)
 
@@ -189,9 +189,9 @@ function var_0_0.initTaskWindow(arg_16_0)
 			local var_17_8 = var_17_3:getConfig("award_display")[1]
 			local var_17_9 = var_17_0 > arg_16_0.curDay
 
-			setText(arg_16_0:findTF("description", arg_17_2), var_17_7)
-			setText(arg_16_0:findTF("progress/progressText", arg_17_2), var_17_4 .. "/" .. var_17_5)
-			setSlider(arg_16_0:findTF("progress", arg_17_2), 0, var_17_5, var_17_4)
+			setText(arg_17_2:Find("description"), var_17_7)
+			setText(arg_17_2:Find("progress/progressText"), var_17_4 .. "/" .. var_17_5)
+			setSlider(arg_17_2:Find("progress"), 0, var_17_5, var_17_4)
 
 			local var_17_10 = {
 				type = var_17_8[1],
@@ -200,12 +200,12 @@ function var_0_0.initTaskWindow(arg_16_0)
 			}
 
 			updateDrop(var_17_1, var_17_10)
-			onButton(arg_16_0, arg_16_0:findTF("award/Image", arg_17_2), function()
+			onButton(arg_16_0, arg_17_2:Find("award/Image"), function()
 				arg_16_0:emit(BaseUI.ON_DROP, var_17_10)
 			end, SFX_PANEL)
 
-			local var_17_11 = arg_16_0:findTF("go_btn", arg_17_2)
-			local var_17_12 = arg_16_0:findTF("get_btn", arg_17_2)
+			local var_17_11 = arg_17_2:Find("go_btn")
+			local var_17_12 = arg_17_2:Find("get_btn")
 
 			setActive(var_17_11, var_17_6 == 0)
 			setActive(var_17_12, var_17_6 == 1)
@@ -215,9 +215,9 @@ function var_0_0.initTaskWindow(arg_16_0)
 			onButton(arg_16_0, var_17_12, function()
 				arg_16_0:emit(ActivityMediator.ON_TASK_SUBMIT, var_17_3)
 			end, SFX_PANEL)
-			setActive(arg_16_0:findTF("finnal", arg_17_2), var_17_6 == 2 and not var_17_9)
-			setText(arg_16_0:findTF("lock/tip", arg_17_2), i18n("unlock_tips", var_17_0))
-			setActive(arg_16_0:findTF("lock", arg_17_2), var_17_9)
+			setActive(arg_17_2:Find("finnal"), var_17_6 == 2 and not var_17_9)
+			setText(arg_17_2:Find("lock/tip"), i18n("unlock_tips", var_17_0))
+			setActive(arg_17_2:Find("lock"), var_17_9)
 
 			if var_17_6 == 1 and not var_17_9 then
 				table.insert(arg_16_0.finishItemList, arg_17_2)
@@ -243,7 +243,7 @@ function var_0_0.openTask(arg_22_0)
 	arg_22_0.hasClickTask = true
 
 	eachChild(arg_22_0.taskContainter, function(arg_23_0)
-		if isActive(arg_22_0:findTF("finnal", arg_23_0)) then
+		if isActive(arg_23_0:Find("finnal")) then
 			arg_23_0:SetAsLastSibling()
 		end
 	end)
@@ -267,7 +267,7 @@ function var_0_0.autoFinishTask(arg_24_0)
 			end)):setOnComplete(System.Action(function()
 				var_24_2.alpha = 1
 
-				setActive(arg_24_0:findTF("finnal", iter_24_1), true)
+				setActive(iter_24_1:Find("finnal"), true)
 				iter_24_1:SetAsLastSibling()
 			end))
 		end, var_24_0, nil)

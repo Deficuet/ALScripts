@@ -5,20 +5,20 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0._closeBtn = arg_2_0:findTF("close_btn")
-	arg_2_0._tabGroup = arg_2_0:findTF("title_list/viewport/content"):GetComponent(typeof(ToggleGroup))
-	arg_2_0._tabContainer = arg_2_0:findTF("title_list/viewport/content")
-	arg_2_0._tabTpl = arg_2_0:findTF("title_list/tab_btn_tpl")
+	arg_2_0._closeBtn = arg_2_0._tf:Find("close_btn")
+	arg_2_0._tabGroup = arg_2_0._tf:Find("title_list/viewport/content"):GetComponent(typeof(ToggleGroup))
+	arg_2_0._tabContainer = arg_2_0._tf:Find("title_list/viewport/content")
+	arg_2_0._tabTpl = arg_2_0._tf:Find("title_list/tab_btn_tpl")
 
 	SetActive(arg_2_0._tabTpl, false)
 
 	arg_2_0._tabList = {}
-	arg_2_0._detailTitleImg = arg_2_0:findTF("content_view/viewport/content/title_img/img")
+	arg_2_0._detailTitleImg = arg_2_0._tf:Find("content_view/viewport/content/title_img/img")
 	arg_2_0._detailTitleImgComp = arg_2_0._detailTitleImg:GetComponent(typeof(Image))
-	arg_2_0._detailTitleLoading = arg_2_0:findTF("content_view/viewport/content/title_img/loading")
-	arg_2_0._detailTitleTxt = arg_2_0:findTF("content_view/viewport/content/title_txt")
-	arg_2_0._detailTimeTxt = arg_2_0:findTF("content_view/viewport/content/time_txt")
-	arg_2_0._detailContentTxt = arg_2_0:findTF("content_view/viewport/content/content_txt")
+	arg_2_0._detailTitleLoading = arg_2_0._tf:Find("content_view/viewport/content/title_img/loading")
+	arg_2_0._detailTitleTxt = arg_2_0._tf:Find("content_view/viewport/content/title_txt")
+	arg_2_0._detailTimeTxt = arg_2_0._tf:Find("content_view/viewport/content/time_txt")
+	arg_2_0._detailContentTxt = arg_2_0._tf:Find("content_view/viewport/content/content_txt")
 	arg_2_0._detailContentTxtComp = arg_2_0._detailContentTxt:GetComponent("RichText")
 
 	arg_2_0._detailContentTxtComp:AddListener(function(arg_3_0, arg_3_1)
@@ -27,8 +27,8 @@ function var_0_0.init(arg_2_0)
 		end
 	end)
 
-	arg_2_0._scrollRect = arg_2_0:findTF("content_view"):GetComponent(typeof(ScrollRect))
-	arg_2_0._stopRemind = arg_2_0:findTF("dontshow_tab")
+	arg_2_0._scrollRect = arg_2_0._tf:Find("content_view"):GetComponent(typeof(ScrollRect))
+	arg_2_0._stopRemind = arg_2_0._tf:Find("dontshow_tab")
 
 	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 

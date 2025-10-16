@@ -5,7 +5,7 @@ local var_0_3 = 5941
 
 function var_0_0.OnInit(arg_1_0)
 	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.btn_list = arg_1_0:findTF("btn_list", arg_1_0.bg)
+	arg_1_0.btn_list = arg_1_0.bg:Find("btn_list")
 	arg_1_0.buildbtn = arg_1_0:findTF("build", arg_1_0.btn_list)
 	arg_1_0.build_bgtime = arg_1_0:findTF("build_bgtime", arg_1_0.buildbtn)
 	arg_1_0.build_time = arg_1_0:findTF("time", arg_1_0.build_bgtime)

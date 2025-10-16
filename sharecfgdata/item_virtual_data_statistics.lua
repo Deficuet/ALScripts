@@ -178164,6 +178164,84 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65712] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xunliandianshu_v4",
+		id = 65712,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65713] = {
+		display = "用于「愚者的天平」复刻活动兑换，活动结束后将会消失",
+		name = "「真理」之证",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/zhenglizhizheng_pt",
+		id = 65713,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65714] = {
+		display = "于「愚者的天平」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+		name = "单次建造券",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50164,
+		virtual_type = 22,
+		is_world = 0,
+		icon = "Props/buildTicket",
+		id = 65714,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66001] = {
 		display = "重要的重建物资之一，木香与海风更配哦",
 		name = "木料",

@@ -21,15 +21,15 @@ function var_0_0.setCacheMsgs(arg_5_0, arg_5_1)
 end
 
 function var_0_0.init(arg_6_0)
-	arg_6_0.frame = arg_6_0:findTF("frame")
-	arg_6_0.friendView = arg_6_0:findTF("left_length/scrollView", arg_6_0.frame)
-	arg_6_0.chatPanel = arg_6_0:findTF("notification_panel", arg_6_0.frame)
-	arg_6_0.chatPanelTitle = arg_6_0:findTF("notification_panel/frame/top/name", arg_6_0.frame)
-	arg_6_0.sendBtn = arg_6_0:findTF("frame/bottom/send", arg_6_0.chatPanel)
-	arg_6_0.inputTF = arg_6_0:findTF("frame/bottom/input", arg_6_0.chatPanel)
-	arg_6_0.chatsRect = arg_6_0:findTF("frame/list", arg_6_0.chatPanel)
-	arg_6_0.chatsContainer = arg_6_0:findTF("frame/list/content", arg_6_0.chatPanel)
-	arg_6_0.closeBtn = arg_6_0:findTF("frame/notification_panel/frame/top/close_btn")
+	arg_6_0.frame = arg_6_0._tf:Find("frame")
+	arg_6_0.friendView = arg_6_0.frame:Find("left_length/scrollView")
+	arg_6_0.chatPanel = arg_6_0.frame:Find("notification_panel")
+	arg_6_0.chatPanelTitle = arg_6_0.frame:Find("notification_panel/frame/top/name")
+	arg_6_0.sendBtn = arg_6_0.chatPanel:Find("frame/bottom/send")
+	arg_6_0.inputTF = arg_6_0.chatPanel:Find("frame/bottom/input")
+	arg_6_0.chatsRect = arg_6_0.chatPanel:Find("frame/list")
+	arg_6_0.chatsContainer = arg_6_0.chatPanel:Find("frame/list/content")
+	arg_6_0.closeBtn = arg_6_0._tf:Find("frame/notification_panel/frame/top/close_btn")
 	arg_6_0.otherPopTpl = arg_6_0:getTpl("frame/list/popo_other", arg_6_0.chatPanel)
 	arg_6_0.selfPopTpl = arg_6_0:getTpl("frame/list/popo_self", arg_6_0.chatPanel)
 
@@ -37,7 +37,7 @@ function var_0_0.init(arg_6_0)
 end
 
 function var_0_0.didEnter(arg_7_0)
-	local var_7_0 = arg_7_0:findTF("frame/bottom/emoji", arg_7_0.chatPanel)
+	local var_7_0 = arg_7_0.chatPanel:Find("frame/bottom/emoji")
 
 	onButton(arg_7_0, var_7_0, function()
 		local var_8_0 = var_7_0.position
@@ -290,7 +290,7 @@ end
 function var_0_0.willExit(arg_33_0)
 	arg_33_0:UnOverlayPanel(arg_33_0.frame, arg_33_0._tf)
 	eachChild(arg_33_0.chatsContainer, function(arg_34_0)
-		local var_34_0 = arg_33_0:findTF("face", arg_34_0)
+		local var_34_0 = arg_34_0:Find("face")
 
 		if var_34_0.childCount > 0 then
 			local var_34_1 = var_34_0:GetChild(0).gameObject

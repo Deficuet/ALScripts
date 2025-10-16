@@ -1023,12 +1023,10 @@ function bindComponent(arg_125_0, arg_125_1)
 		return
 	end
 
-	local var_125_1 = var_125_0.componentList
-	local var_125_2 = var_125_0:GetLuaNames()
-	local var_125_3 = var_125_0:GetComponentValues()
-	local var_125_4 = var_125_0.componentList
+	local var_125_1 = var_125_0:GetLuaNames():ToTable()
+	local var_125_2 = var_125_0:GetComponentValues():ToTable()
 
-	for iter_125_0 = 0, var_125_2.Length - 1 do
-		arg_125_0[var_125_2[iter_125_0]] = var_125_3[iter_125_0]
+	for iter_125_0, iter_125_1 in ipairs(var_125_1) do
+		arg_125_0[iter_125_1] = var_125_2[iter_125_0]
 	end
 end

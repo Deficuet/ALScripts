@@ -3,58 +3,58 @@ local var_0_0 = class("DOAPtPage", import(".TemplatePage.PtTemplatePage"))
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.buffModule = arg_1_0:findTF("buff_module", arg_1_0.bg)
-	arg_1_0.buffPanel = arg_1_0:findTF("skill", arg_1_0.buffModule)
+	arg_1_0.buffModule = arg_1_0.bg:Find("buff_module")
+	arg_1_0.buffPanel = arg_1_0.buffModule:Find("skill")
 	arg_1_0.buffLvs = {}
 
 	eachChild(arg_1_0.buffPanel, function(arg_2_0)
 		table.insert(arg_1_0.buffLvs, arg_2_0)
 	end)
 
-	arg_1_0.getGreyBtn = arg_1_0:findTF("get_grey_btn", arg_1_0.bg)
-	arg_1_0.helpBtn = arg_1_0:findTF("help_btn", arg_1_0.bg)
-	arg_1_0.levelPanel = arg_1_0:findTF("level", arg_1_0.buffModule)
-	arg_1_0.f2aPanel = arg_1_0:findTF("f_to_a", arg_1_0.levelPanel)
-	arg_1_0.sPanel = arg_1_0:findTF("s_ss", arg_1_0.levelPanel)
-	arg_1_0.sssPanel = arg_1_0:findTF("sss", arg_1_0.levelPanel)
-	arg_1_0.lvBarImages = arg_1_0:findTF("lv_bars", arg_1_0.bg)
-	arg_1_0.lvTagImages = arg_1_0:findTF("lv_tags", arg_1_0.bg)
-	arg_1_0.shieldEffect = arg_1_0:findTF("level/shield_effect", arg_1_0.buffModule)
-	arg_1_0.starEffect = arg_1_0:findTF("level/star_effect", arg_1_0.buffModule)
-	arg_1_0.mask = arg_1_0:findTF("mask", arg_1_0.bg)
-	arg_1_0.trainWindow = arg_1_0:findTF("TrainWindow")
-	arg_1_0.trainBtn = arg_1_0:findTF("panel/train_btn", arg_1_0.trainWindow)
-	arg_1_0.trainSkills = arg_1_0:findTF("panel/skills", arg_1_0.trainWindow)
+	arg_1_0.getGreyBtn = arg_1_0.bg:Find("get_grey_btn")
+	arg_1_0.helpBtn = arg_1_0.bg:Find("help_btn")
+	arg_1_0.levelPanel = arg_1_0.buffModule:Find("level")
+	arg_1_0.f2aPanel = arg_1_0.levelPanel:Find("f_to_a")
+	arg_1_0.sPanel = arg_1_0.levelPanel:Find("s_ss")
+	arg_1_0.sssPanel = arg_1_0.levelPanel:Find("sss")
+	arg_1_0.lvBarImages = arg_1_0.bg:Find("lv_bars")
+	arg_1_0.lvTagImages = arg_1_0.bg:Find("lv_tags")
+	arg_1_0.shieldEffect = arg_1_0.buffModule:Find("level/shield_effect")
+	arg_1_0.starEffect = arg_1_0.buffModule:Find("level/star_effect")
+	arg_1_0.mask = arg_1_0.bg:Find("mask")
+	arg_1_0.trainWindow = arg_1_0._tf:Find("TrainWindow")
+	arg_1_0.trainBtn = arg_1_0.trainWindow:Find("panel/train_btn")
+	arg_1_0.trainSkills = arg_1_0.trainWindow:Find("panel/skills")
 	arg_1_0.trainSkillBtns = {}
 
 	eachChild(arg_1_0.trainSkills, function(arg_3_0)
 		table.insert(arg_1_0.trainSkillBtns, arg_3_0)
 	end)
 
-	arg_1_0.curInfoPanel = arg_1_0:findTF("panel/info_bg", arg_1_0.trainWindow)
-	arg_1_0.curInfo = arg_1_0:findTF("panel/info_bg/cur", arg_1_0.trainWindow)
-	arg_1_0.nextInfo = arg_1_0:findTF("panel/info_bg/next", arg_1_0.trainWindow)
-	arg_1_0.msgBox = arg_1_0:findTF("MsgBox")
-	arg_1_0.msgContent = arg_1_0:findTF("panel/content", arg_1_0.msgBox)
-	arg_1_0.msgBoxMask = arg_1_0:findTF("mengban", arg_1_0.msgBox)
-	arg_1_0.cancelBtn = arg_1_0:findTF("panel/cancel_btn", arg_1_0.msgBox)
-	arg_1_0.confirmBtn = arg_1_0:findTF("panel/confirm_btn", arg_1_0.msgBox)
-	arg_1_0.tipPanel = arg_1_0:findTF("Tip")
-	arg_1_0.buffBox = arg_1_0:findTF("BuffBox")
-	arg_1_0.buffMask = arg_1_0:findTF("mask", arg_1_0.buffBox)
-	arg_1_0.buffIconParent = arg_1_0:findTF("window/panel/icon", arg_1_0.buffBox)
-	arg_1_0.buffDescContent = arg_1_0:findTF("window/panel/intro_view/Viewport/Content", arg_1_0.buffBox)
-	arg_1_0.buffDescTpl = arg_1_0:findTF("window/panel/intro_view/buff_desc_tpl", arg_1_0.buffBox)
-	arg_1_0.singleBuffBox = arg_1_0:findTF("SingleBuffBox")
-	arg_1_0.singleBuffMask = arg_1_0:findTF("bg", arg_1_0.singleBuffBox)
-	arg_1_0.singleSureBtn = arg_1_0:findTF("window/top/btnBack", arg_1_0.singleBuffBox)
-	arg_1_0.singleCloseBtn = arg_1_0:findTF("window/sure_btn", arg_1_0.singleBuffBox)
-	arg_1_0.singleIconParent = arg_1_0:findTF("window/panel/icon", arg_1_0.singleBuffBox)
-	arg_1_0.singleDescContent = arg_1_0:findTF("window/panel/intro_view/Viewport/Content", arg_1_0.singleBuffBox)
-	arg_1_0.singleDescTpl = arg_1_0:findTF("window/panel/intro_view/buff_desc_tpl", arg_1_0.singleBuffBox)
+	arg_1_0.curInfoPanel = arg_1_0.trainWindow:Find("panel/info_bg")
+	arg_1_0.curInfo = arg_1_0.trainWindow:Find("panel/info_bg/cur")
+	arg_1_0.nextInfo = arg_1_0.trainWindow:Find("panel/info_bg/next")
+	arg_1_0.msgBox = arg_1_0._tf:Find("MsgBox")
+	arg_1_0.msgContent = arg_1_0.msgBox:Find("panel/content")
+	arg_1_0.msgBoxMask = arg_1_0.msgBox:Find("mengban")
+	arg_1_0.cancelBtn = arg_1_0.msgBox:Find("panel/cancel_btn")
+	arg_1_0.confirmBtn = arg_1_0.msgBox:Find("panel/confirm_btn")
+	arg_1_0.tipPanel = arg_1_0._tf:Find("Tip")
+	arg_1_0.buffBox = arg_1_0._tf:Find("BuffBox")
+	arg_1_0.buffMask = arg_1_0.buffBox:Find("mask")
+	arg_1_0.buffIconParent = arg_1_0.buffBox:Find("window/panel/icon")
+	arg_1_0.buffDescContent = arg_1_0.buffBox:Find("window/panel/intro_view/Viewport/Content")
+	arg_1_0.buffDescTpl = arg_1_0.buffBox:Find("window/panel/intro_view/buff_desc_tpl")
+	arg_1_0.singleBuffBox = arg_1_0._tf:Find("SingleBuffBox")
+	arg_1_0.singleBuffMask = arg_1_0.singleBuffBox:Find("bg")
+	arg_1_0.singleSureBtn = arg_1_0.singleBuffBox:Find("window/top/btnBack")
+	arg_1_0.singleCloseBtn = arg_1_0.singleBuffBox:Find("window/sure_btn")
+	arg_1_0.singleIconParent = arg_1_0.singleBuffBox:Find("window/panel/icon")
+	arg_1_0.singleDescContent = arg_1_0.singleBuffBox:Find("window/panel/intro_view/Viewport/Content")
+	arg_1_0.singleDescTpl = arg_1_0.singleBuffBox:Find("window/panel/intro_view/buff_desc_tpl")
 
-	setText(arg_1_0:findTF("window/top/bg/infomation/title", arg_1_0.singleBuffBox), i18n("words_information"))
-	setText(arg_1_0:findTF("window/sure_btn/pic", arg_1_0.singleBuffBox), i18n("text_confirm"))
+	setText(arg_1_0.singleBuffBox:Find("window/top/bg/infomation/title"), i18n("words_information"))
+	setText(arg_1_0.singleBuffBox:Find("window/sure_btn/pic"), i18n("text_confirm"))
 end
 
 function var_0_0.OnFirstFlush(arg_4_0)
@@ -191,8 +191,8 @@ function var_0_0.updateLevelPanel(arg_17_0)
 	end
 
 	setActive(arg_17_0.curPanel, true)
-	setImageSprite(arg_17_0:findTF("bar", arg_17_0.curPanel), arg_17_0.lvBarImages:Find(var_17_0):GetComponent(typeof(Image)).sprite)
-	setImageSprite(arg_17_0:findTF("lv_tag", arg_17_0.curPanel), arg_17_0.lvTagImages:Find(var_17_0):GetComponent(typeof(Image)).sprite, true)
+	setImageSprite(arg_17_0.curPanel:Find("bar"), arg_17_0.lvBarImages:Find(var_17_0):GetComponent(typeof(Image)).sprite)
+	setImageSprite(arg_17_0.curPanel:Find("lv_tag"), arg_17_0.lvTagImages:Find(var_17_0):GetComponent(typeof(Image)).sprite, true)
 	setSlider(arg_17_0.curPanel, 0, 1, var_17_1)
 
 	return arg_17_0.curPanel
@@ -301,15 +301,15 @@ function var_0_0.flushTrainPanel(arg_25_0)
 
 	if var_25_0 then
 		for iter_25_0, iter_25_1 in ipairs(var_25_0) do
-			setText(arg_25_0:findTF("lv_bg/lv", arg_25_0.trainSkillBtns[iter_25_1.group]), iter_25_1.next and "LV." .. iter_25_1.lv or "MAX")
+			setText(arg_25_0.trainSkillBtns[iter_25_1.group]:Find("lv_bg/lv"), iter_25_1.next and "LV." .. iter_25_1.lv or "MAX")
 		end
 	end
 
 	for iter_25_2, iter_25_3 in ipairs(arg_25_0.trainSkillBtns) do
 		if iter_25_2 == arg_25_0.selectIndex then
-			setActive(arg_25_0:findTF("selected", iter_25_3), true)
+			setActive(iter_25_3:Find("selected"), true)
 		else
-			setActive(arg_25_0:findTF("selected", iter_25_3), false)
+			setActive(iter_25_3:Find("selected"), false)
 		end
 	end
 
@@ -385,7 +385,7 @@ function var_0_0.showTip(arg_33_0, arg_33_1)
 	local var_33_0 = cloneTplTo(arg_33_0.tipPanel, arg_33_0._tf)
 
 	setActive(var_33_0, true)
-	setText(arg_33_0:findTF("Text", var_33_0), arg_33_1)
+	setText(var_33_0:Find("Text"), arg_33_1)
 
 	var_33_0.transform.localScale = Vector3(0, 0.1, 1)
 

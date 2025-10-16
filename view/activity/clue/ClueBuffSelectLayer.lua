@@ -18,44 +18,44 @@ function var_0_0.preloadUIList(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.closeBtn = arg_3_0:findTF("Top/BackBtn")
+	arg_3_0.closeBtn = arg_3_0._tf:Find("Top/BackBtn")
 
 	onButton(arg_3_0, arg_3_0.closeBtn, function()
 		arg_3_0:emit(var_0_0.ON_BACK_PRESSED)
 	end)
-	onButton(arg_3_0, arg_3_0:findTF("mask"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("mask"), function()
 		arg_3_0:emit(var_0_0.ON_BACK_PRESSED)
 	end)
 
-	arg_3_0.buffContainer = arg_3_0:findTF("Buff/buff_list")
+	arg_3_0.buffContainer = arg_3_0._tf:Find("Buff/buff_list")
 	arg_3_0.buffTmp = arg_3_0.buffContainer:Find("buff")
 	arg_3_0.buffTFs = {}
 	arg_3_0.strategyList = {}
 	arg_3_0.buffDescList = {}
 
 	for iter_3_0 = 1, 4 do
-		local var_3_0 = arg_3_0:findTF("Buff/buff_desc_list/buff_desc_" .. iter_3_0)
+		local var_3_0 = arg_3_0._tf:Find("Buff/buff_desc_list/buff_desc_" .. iter_3_0)
 
 		table.insert(arg_3_0.buffDescList, var_3_0)
 		setText(var_3_0:Find("unselect"), i18n("clue_buff_unselect"))
 	end
 
-	arg_3_0.stageName = arg_3_0:findTF("Stage/stage_name_text")
-	arg_3_0.stageLV = arg_3_0:findTF("Stage/stage_level_text")
+	arg_3_0.stageName = arg_3_0._tf:Find("Stage/stage_name_text")
+	arg_3_0.stageLV = arg_3_0._tf:Find("Stage/stage_level_text")
 
-	setText(arg_3_0:findTF("Stage/text_stage_reserach"), i18n("clue_buff_research"))
-	setText(arg_3_0:findTF("Stage/text_stage_loot"), i18n("clue_buff_stage_loot"))
+	setText(arg_3_0._tf:Find("Stage/text_stage_reserach"), i18n("clue_buff_research"))
+	setText(arg_3_0._tf:Find("Stage/text_stage_loot"), i18n("clue_buff_stage_loot"))
 
-	arg_3_0.awards = arg_3_0:findTF("Loot/awards")
-	arg_3_0.awardTpl = arg_3_0:findTF("Loot/awards/award")
-	arg_3_0.goBtn = arg_3_0:findTF("Combat/go_btn")
+	arg_3_0.awards = arg_3_0._tf:Find("Loot/awards")
+	arg_3_0.awardTpl = arg_3_0._tf:Find("Loot/awards/award")
+	arg_3_0.goBtn = arg_3_0._tf:Find("Combat/go_btn")
 
 	onButton(arg_3_0, arg_3_0.goBtn, function()
 		arg_3_0:emit(ClueBuffSelectMediator.ON_FLEET_SELECT, arg_3_0.singleID)
 	end)
 
-	arg_3_0.detailView = arg_3_0:findTF("Detail")
-	arg_3_0.detailBtn = arg_3_0:findTF("BuffDetail")
+	arg_3_0.detailView = arg_3_0._tf:Find("Detail")
+	arg_3_0.detailBtn = arg_3_0._tf:Find("BuffDetail")
 
 	setActive(arg_3_0.detailBtn, false)
 
@@ -74,8 +74,8 @@ function var_0_0.init(arg_3_0)
 		arg_3_0:closeDetailView()
 	end)
 
-	arg_3_0.ticket = arg_3_0:findTF("Ticket")
-	arg_3_0.ticketTips = arg_3_0:findTF("ticketTips")
+	arg_3_0.ticket = arg_3_0._tf:Find("Ticket")
+	arg_3_0.ticketTips = arg_3_0._tf:Find("ticketTips")
 	arg_3_0.ticketCheckBox = arg_3_0.ticket:Find("checkbox")
 	arg_3_0.useTicket = false
 
@@ -84,7 +84,7 @@ function var_0_0.init(arg_3_0)
 	end)
 	setText(arg_3_0.ticketTips, i18n("clue_buff_ticket_tips"))
 
-	arg_3_0.explore = arg_3_0:findTF("exploreTarget")
+	arg_3_0.explore = arg_3_0._tf:Find("exploreTarget")
 
 	setActive(arg_3_0.explore, true)
 	BossSingleBattleFleetSelectViewComponent.AttachFleetSelect(arg_3_0, ClueBuffSelectMediator)
@@ -201,7 +201,7 @@ function var_0_0.updateBuffView(arg_16_0)
 	}, "|")
 
 	PlayerPrefs.SetString(var_0_0.PLYAER_PREF_KEY .. arg_16_0.singleID, var_16_7)
-	setText(arg_16_0:findTF("Stage/text_stage_buff_count"), "(" .. #arg_16_0.strategyList .. "/" .. var_16_0.strategy_num .. ")")
+	setText(arg_16_0._tf:Find("Stage/text_stage_buff_count"), "(" .. #arg_16_0.strategyList .. "/" .. var_16_0.strategy_num .. ")")
 end
 
 function var_0_0.UpdateCluePanel(arg_17_0)
@@ -233,9 +233,9 @@ function var_0_0.UpdateCluePanel(arg_17_0)
 	end
 
 	if var_17_3 then
-		setText(arg_17_0:findTF("target/Text", arg_17_0.explore), i18n("clue_unselect_tip"))
+		setText(arg_17_0.explore:Find("target/Text"), i18n("clue_unselect_tip"))
 	else
-		setText(arg_17_0:findTF("target/Text", arg_17_0.explore), var_17_4[1].unlock_desc .. var_17_4[1].unlock_num .. "/" .. var_17_4[2].unlock_num .. "/" .. var_17_4[3].unlock_num .. i18n("clue_task_tip", var_17_5))
+		setText(arg_17_0.explore:Find("target/Text"), var_17_4[1].unlock_desc .. var_17_4[1].unlock_num .. "/" .. var_17_4[2].unlock_num .. "/" .. var_17_4[3].unlock_num .. i18n("clue_task_tip", var_17_5))
 	end
 end
 
@@ -278,7 +278,7 @@ function var_0_0.SetStageID(arg_20_0, arg_20_1)
 
 	setText(arg_20_0.stageName, var_20_0.name)
 	setText(arg_20_0.stageLV, var_20_0.level)
-	setText(arg_20_0:findTF("Stage/text_stage_PTBoost"), i18n("clue_buff_pt_boost", var_20_0.strategy_num))
+	setText(arg_20_0._tf:Find("Stage/text_stage_PTBoost"), i18n("clue_buff_pt_boost", var_20_0.strategy_num))
 
 	local var_20_2 = var_20_0.strategy_id
 
@@ -298,10 +298,10 @@ function var_0_0.SetStageID(arg_20_0, arg_20_1)
 		arg_20_0.buffTFs[iter_20_1] = var_20_3
 	end
 
-	setImageSprite(arg_20_0:findTF("Stage/stage_icon"), LoadSprite("ui/cluebuffselectui_atlas", var_20_0.icon), true)
+	setImageSprite(arg_20_0._tf:Find("Stage/stage_icon"), LoadSprite("ui/cluebuffselectui_atlas", var_20_0.icon), true)
 
 	if var_20_0.type >= BossSingleVariableEnemyData.TYPE.SP then
-		setActive(arg_20_0:findTF("Stage/stage_type_icon"), false)
+		setActive(arg_20_0._tf:Find("Stage/stage_type_icon"), false)
 		setActive(arg_20_0.ticket, true)
 		setActive(arg_20_0.ticketTips, true)
 		GetImageSpriteFromAtlasAsync(pg.item_virtual_data_statistics[var_20_0.enter_cost].icon, "", arg_20_0.ticket:Find("icon"), true)
@@ -310,10 +310,10 @@ function var_0_0.SetStageID(arg_20_0, arg_20_1)
 
 		setText(arg_20_0.ticket:Find("count"), var_20_5.data1)
 	else
-		setActive(arg_20_0:findTF("Stage/stage_type_icon"), true)
+		setActive(arg_20_0._tf:Find("Stage/stage_type_icon"), true)
 		setActive(arg_20_0.ticket, false)
 		setActive(arg_20_0.ticketTips, false)
-		setImageSprite(arg_20_0:findTF("Stage/stage_type_icon"), LoadSprite("ui/cluebuffselectui_atlas", "tier_" .. var_20_0.type), true)
+		setImageSprite(arg_20_0._tf:Find("Stage/stage_type_icon"), LoadSprite("ui/cluebuffselectui_atlas", "tier_" .. var_20_0.type), true)
 
 		arg_20_0.useTicket = false
 

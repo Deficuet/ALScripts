@@ -46,33 +46,33 @@ function var_0_0.initData(arg_6_0)
 end
 
 function var_0_0.findUI(arg_7_0)
-	arg_7_0.bg = arg_7_0:findTF("BG")
+	arg_7_0.bg = arg_7_0._tf:Find("BG")
 
-	local var_7_0 = arg_7_0:findTF("Panel")
-	local var_7_1 = arg_7_0:findTF("Info", var_7_0)
+	local var_7_0 = arg_7_0._tf:Find("Panel")
+	local var_7_1 = var_7_0:Find("Info")
 
-	arg_7_0.nameText = arg_7_0:findTF("Name/Text", var_7_1)
-	arg_7_0.descText = arg_7_0:findTF("Desc", var_7_1)
-	arg_7_0.itemTF = arg_7_0:findTF("CommonItemTemplate", var_7_1)
-	arg_7_0.countTF = arg_7_0:findTF("Count", var_7_1)
-	arg_7_0.countText = arg_7_0:findTF("Count/Num", var_7_1)
+	arg_7_0.nameText = var_7_1:Find("Name/Text")
+	arg_7_0.descText = var_7_1:Find("Desc")
+	arg_7_0.itemTF = var_7_1:Find("CommonItemTemplate")
+	arg_7_0.countTF = var_7_1:Find("Count")
+	arg_7_0.countText = var_7_1:Find("Count/Num")
 
-	local var_7_2 = arg_7_0:findTF("Count/Tip", var_7_1)
+	local var_7_2 = var_7_1:Find("Count/Tip")
 
 	setText(var_7_2, i18n("word_own1"))
 
-	arg_7_0.titleTF = arg_7_0:findTF("Title", var_7_0)
+	arg_7_0.titleTF = var_7_0:Find("Title")
 
-	local var_7_3 = arg_7_0:findTF("Buy", var_7_0)
+	local var_7_3 = var_7_0:Find("Buy")
 
-	arg_7_0.minusBtn = arg_7_0:findTF("Minus", var_7_3)
-	arg_7_0.addBtn = arg_7_0:findTF("Add", var_7_3)
-	arg_7_0.maxBtn = arg_7_0:findTF("Max", var_7_3)
-	arg_7_0.buyNumText = arg_7_0:findTF("Num", var_7_3)
-	arg_7_0.butCountText = arg_7_0:findTF("BuyCount/Num", var_7_0)
-	arg_7_0.costNumText = arg_7_0:findTF("Cost/Num", var_7_0)
-	arg_7_0.confirmBtn = arg_7_0:findTF("ConfirmBtn", var_7_0)
-	arg_7_0.cancelBtn = arg_7_0:findTF("CancelBtn", var_7_0)
+	arg_7_0.minusBtn = var_7_3:Find("Minus")
+	arg_7_0.addBtn = var_7_3:Find("Add")
+	arg_7_0.maxBtn = var_7_3:Find("Max")
+	arg_7_0.buyNumText = var_7_3:Find("Num")
+	arg_7_0.butCountText = var_7_0:Find("BuyCount/Num")
+	arg_7_0.costNumText = var_7_0:Find("Cost/Num")
+	arg_7_0.confirmBtn = var_7_0:Find("ConfirmBtn")
+	arg_7_0.cancelBtn = var_7_0:Find("CancelBtn")
 end
 
 function var_0_0.addListener(arg_8_0)

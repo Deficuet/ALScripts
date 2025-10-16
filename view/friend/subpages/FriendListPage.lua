@@ -5,14 +5,14 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.friendPanel = arg_2_0:findTF("friend_panel")
-	arg_2_0.friendTopTF = arg_2_0:findTF("friend_view_top")
-	arg_2_0.friendCountTF = arg_2_0:findTF("friend_count/Text", arg_2_0.friendTopTF)
-	arg_2_0.friendIndexBtn = arg_2_0:findTF("index_button", arg_2_0.friendTopTF)
-	arg_2_0.friendSortBtn = arg_2_0:findTF("sort_button", arg_2_0.friendTopTF)
-	arg_2_0.sortImgAsc = arg_2_0:findTF("asc", arg_2_0.friendSortBtn)
-	arg_2_0.sortImgDec = arg_2_0:findTF("desc", arg_2_0.friendSortBtn)
-	arg_2_0.sortPanel = arg_2_0:findTF("friend_sort_panel")
+	arg_2_0.friendPanel = arg_2_0._tf:Find("friend_panel")
+	arg_2_0.friendTopTF = arg_2_0._tf:Find("friend_view_top")
+	arg_2_0.friendCountTF = arg_2_0.friendTopTF:Find("friend_count/Text")
+	arg_2_0.friendIndexBtn = arg_2_0.friendTopTF:Find("index_button")
+	arg_2_0.friendSortBtn = arg_2_0.friendTopTF:Find("sort_button")
+	arg_2_0.sortImgAsc = arg_2_0.friendSortBtn:Find("asc")
+	arg_2_0.sortImgDec = arg_2_0.friendSortBtn:Find("desc")
+	arg_2_0.sortPanel = arg_2_0._tf:Find("friend_sort_panel")
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -102,7 +102,7 @@ end
 function var_0_0.sortFriends(arg_17_0)
 	if arg_17_0.contextData.sortData then
 		arg_17_0.contextData.sortData.data.func(arg_17_0.friendVOs, arg_17_0.dec)
-		setImageSprite(arg_17_0:findTF("icon", arg_17_0.friendIndexBtn), GetSpriteFromAtlas("ui/friendsui_atlas", arg_17_0.contextData.sortData.data.spr), true)
+		setImageSprite(arg_17_0.friendIndexBtn:Find("icon"), GetSpriteFromAtlas("ui/friendsui_atlas", arg_17_0.contextData.sortData.data.spr), true)
 		setActive(arg_17_0.sortImgAsc, arg_17_0.dec)
 		setActive(arg_17_0.sortImgDec, not arg_17_0.dec)
 	end
@@ -115,7 +115,7 @@ function var_0_0.updateFriendCount(arg_18_0)
 end
 
 function var_0_0.initFriendsSortPanel(arg_19_0)
-	local var_19_0 = arg_19_0:findTF("mask/content", arg_19_0.sortPanel)
+	local var_19_0 = arg_19_0.sortPanel:Find("mask/content")
 	local var_19_1 = arg_19_0:getTpl("tpl", var_19_0)
 
 	arg_19_0.friendSortCfg = require("view.friend.FriendSortCfg")
@@ -150,7 +150,7 @@ end
 
 function var_0_0.openFriendsSortPanel(arg_22_0)
 	if arg_22_0.contextData.sortData then
-		setImageSprite(arg_22_0:findTF("index_button/icon", arg_22_0.sortPanel), GetSpriteFromAtlas("ui/friendsui_atlas", arg_22_0.contextData.sortData.data.spr), true)
+		setImageSprite(arg_22_0.sortPanel:Find("index_button/icon"), GetSpriteFromAtlas("ui/friendsui_atlas", arg_22_0.contextData.sortData.data.spr), true)
 	end
 
 	setActive(arg_22_0.sortPanel, true)

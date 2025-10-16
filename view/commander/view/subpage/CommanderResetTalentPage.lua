@@ -5,22 +5,22 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.resetCancelBtn = arg_2_0:findTF("bg/frame/cancel_btn")
-	arg_2_0.resetConfirmBtn = arg_2_0:findTF("bg/frame/confirm_btn")
-	arg_2_0.resetCloseBtn = arg_2_0:findTF("bg/frame/close_btn")
-	arg_2_0.resetGoldTxt = arg_2_0:findTF("bg/frame/bg/tip/texts/Text"):GetComponent(typeof(Text))
-	arg_2_0.resetPointTxt = arg_2_0:findTF("bg/frame/bg/tip/texts1/Text"):GetComponent(typeof(Text))
-	arg_2_0.resetList = UIItemList.New(arg_2_0:findTF("bg/frame/bg/talents/content"), arg_2_0:findTF("bg/frame/bg/talents/content/talent_tpl"))
+	arg_2_0.resetCancelBtn = arg_2_0._tf:Find("bg/frame/cancel_btn")
+	arg_2_0.resetConfirmBtn = arg_2_0._tf:Find("bg/frame/confirm_btn")
+	arg_2_0.resetCloseBtn = arg_2_0._tf:Find("bg/frame/close_btn")
+	arg_2_0.resetGoldTxt = arg_2_0._tf:Find("bg/frame/bg/tip/texts/Text"):GetComponent(typeof(Text))
+	arg_2_0.resetPointTxt = arg_2_0._tf:Find("bg/frame/bg/tip/texts1/Text"):GetComponent(typeof(Text))
+	arg_2_0.resetList = UIItemList.New(arg_2_0._tf:Find("bg/frame/bg/talents/content"), arg_2_0._tf:Find("bg/frame/bg/talents/content/talent_tpl"))
 
 	local var_2_0 = i18n("commander_choice_talent_reset")
 	local var_2_1 = string.split(var_2_0, "$1")
 	local var_2_2 = string.split(var_2_1[2], "\t")
 	local var_2_3 = string.split(var_2_2[2], "$2")
 
-	setText(arg_2_0:findTF("bg/frame/bg/tip/texts/label"), var_2_1[1] .. " ")
-	setText(arg_2_0:findTF("bg/frame/bg/tip/texts/label1"), " " .. var_2_2[1])
-	setText(arg_2_0:findTF("bg/frame/bg/tip/texts1/label"), var_2_3[1] .. " ")
-	setText(arg_2_0:findTF("bg/frame/bg/tip/texts1/label1"), " " .. var_2_3[2])
+	setText(arg_2_0._tf:Find("bg/frame/bg/tip/texts/label"), var_2_1[1] .. " ")
+	setText(arg_2_0._tf:Find("bg/frame/bg/tip/texts/label1"), " " .. var_2_2[1])
+	setText(arg_2_0._tf:Find("bg/frame/bg/tip/texts1/label"), var_2_3[1] .. " ")
+	setText(arg_2_0._tf:Find("bg/frame/bg/tip/texts1/label1"), " " .. var_2_3[2])
 end
 
 function var_0_0.OnInit(arg_3_0)

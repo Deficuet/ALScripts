@@ -85,8 +85,8 @@ function var_0_0.init(arg_2_0)
 	setText(arg_2_0.panelAction:Find("Layout/Title/Special/Name"), i18n("dorm3d_photo_special_anim"))
 	setText(arg_2_0.panelAction:Find("Layout/Title/Special/Selected"), i18n("dorm3d_photo_special_anim"))
 
-	arg_2_0.stopRecBtn = arg_2_0:findTF("stopRec")
-	arg_2_0.videoTipPanel = arg_2_0:findTF("videoTipPanel")
+	arg_2_0.stopRecBtn = arg_2_0._tf:Find("stopRec")
+	arg_2_0.videoTipPanel = arg_2_0._tf:Find("videoTipPanel")
 
 	setActive(arg_2_0.videoTipPanel, false)
 end
@@ -200,7 +200,7 @@ function var_0_0.didEnter(arg_8_0)
 		local function var_16_0(arg_17_0)
 			setActive(arg_8_0.centerPanel, arg_17_0)
 
-			arg_8_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_17_0 and 1 or 0
+			arg_8_0._tf:Find("RightTop"):GetComponent("CanvasGroup").alpha = arg_17_0 and 1 or 0
 
 			arg_8_0:emit(Dorm3dPhotoARMediator.ACTIVE_AR_UI, arg_17_0)
 		end
@@ -241,7 +241,7 @@ function var_0_0.didEnter(arg_8_0)
 					if not var_22_0 or var_22_0 <= 0 then
 						PlayerPrefs.SetInt("hadShowForVideoTipDorm", 1)
 
-						arg_8_0:findTF("Text", arg_8_0.videoTipPanel):GetComponent("Text").text = i18n("word_take_video_tip")
+						arg_8_0.videoTipPanel:Find("Text"):GetComponent("Text").text = i18n("word_take_video_tip")
 
 						onButton(arg_8_0, arg_8_0.videoTipPanel, function()
 							setActive(arg_8_0.videoTipPanel, false)
@@ -285,7 +285,7 @@ function var_0_0.didEnter(arg_8_0)
 		local function var_24_1(arg_29_0)
 			setActive(arg_8_0.centerPanel, arg_29_0)
 
-			arg_8_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_29_0 and 1 or 0
+			arg_8_0._tf:Find("RightTop"):GetComponent("CanvasGroup").alpha = arg_29_0 and 1 or 0
 
 			arg_8_0:emit(Dorm3dPhotoARMediator.ACTIVE_AR_UI, arg_29_0)
 		end

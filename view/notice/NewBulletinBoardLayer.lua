@@ -28,39 +28,39 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0._closeBtn = arg_2_0:findTF("bg/close_btn")
-	arg_2_0._mainTabContainer = arg_2_0:findTF("bg/notice_list")
-	arg_2_0._subTabGroup = arg_2_0:findTF("bg/title_list/viewport/content"):GetComponent(typeof(ToggleGroup))
-	arg_2_0._subTabContainer = arg_2_0:findTF("bg/title_list/viewport/content")
-	arg_2_0._tabTpl = arg_2_0:findTF("bg/title_list/tab_btn_tpl")
+	arg_2_0._closeBtn = arg_2_0._tf:Find("bg/close_btn")
+	arg_2_0._mainTabContainer = arg_2_0._tf:Find("bg/notice_list")
+	arg_2_0._subTabGroup = arg_2_0._tf:Find("bg/title_list/viewport/content"):GetComponent(typeof(ToggleGroup))
+	arg_2_0._subTabContainer = arg_2_0._tf:Find("bg/title_list/viewport/content")
+	arg_2_0._tabTpl = arg_2_0._tf:Find("bg/title_list/tab_btn_tpl")
 
 	SetActive(arg_2_0._tabTpl, false)
 
 	arg_2_0._subTabList = {}
-	arg_2_0._contentTF = arg_2_0:findTF("bg/content_view/viewport/content")
-	arg_2_0._detailTitleImg = arg_2_0:findTF("title_img", arg_2_0._contentTF)
+	arg_2_0._contentTF = arg_2_0._tf:Find("bg/content_view/viewport/content")
+	arg_2_0._detailTitleImg = arg_2_0._contentTF:Find("title_img")
 	arg_2_0._detailTitleImgLayoutElement = arg_2_0._detailTitleImg:GetComponent(typeof(LayoutElement))
-	arg_2_0._detailTitle = arg_2_0:findTF("title", arg_2_0._contentTF)
-	arg_2_0._detailTitleTxt = arg_2_0:findTF("title/title_txt/mask/scroll_txt", arg_2_0._contentTF)
-	arg_2_0._detailTimeTxt = arg_2_0:findTF("title/time_txt", arg_2_0._contentTF)
-	arg_2_0._detailLine = arg_2_0:findTF("line", arg_2_0._contentTF)
-	arg_2_0._bottom = arg_2_0:findTF("bottom", arg_2_0._contentTF)
-	arg_2_0._contentContainer = arg_2_0:findTF("content_container", arg_2_0._contentTF)
-	arg_2_0._contentTxtTpl = arg_2_0:findTF("content_txt", arg_2_0._contentTF)
+	arg_2_0._detailTitle = arg_2_0._contentTF:Find("title")
+	arg_2_0._detailTitleTxt = arg_2_0._contentTF:Find("title/title_txt/mask/scroll_txt")
+	arg_2_0._detailTimeTxt = arg_2_0._contentTF:Find("title/time_txt")
+	arg_2_0._detailLine = arg_2_0._contentTF:Find("line")
+	arg_2_0._bottom = arg_2_0._contentTF:Find("bottom")
+	arg_2_0._contentContainer = arg_2_0._contentTF:Find("content_container")
+	arg_2_0._contentTxtTpl = arg_2_0._contentTF:Find("content_txt")
 
 	setActive(arg_2_0._contentTxtTpl, false)
 
-	arg_2_0._contentBannerTpl = arg_2_0:findTF("content_banner", arg_2_0._contentTF)
+	arg_2_0._contentBannerTpl = arg_2_0._contentTF:Find("content_banner")
 
 	setActive(arg_2_0._contentBannerTpl, false)
 
-	arg_2_0._scrollRect = arg_2_0:findTF("bg/content_view"):GetComponent(typeof(ScrollRect))
-	arg_2_0._dontshow = arg_2_0:findTF("bg/dont_show")
-	arg_2_0._stopRemind = arg_2_0:findTF("bg/dont_show/bottom")
+	arg_2_0._scrollRect = arg_2_0._tf:Find("bg/content_view"):GetComponent(typeof(ScrollRect))
+	arg_2_0._dontshow = arg_2_0._tf:Find("bg/dont_show")
+	arg_2_0._stopRemind = arg_2_0._tf:Find("bg/dont_show/bottom")
 	arg_2_0._subTabAnims = {}
 	arg_2_0._mainAnim = arg_2_0._tf:GetComponent(typeof(Animation))
-	arg_2_0._bgAnim = arg_2_0:findTF("bg"):GetComponent(typeof(Animation))
-	arg_2_0._contentAnim = arg_2_0:findTF("bg/content_view"):GetComponent(typeof(Animation))
+	arg_2_0._bgAnim = arg_2_0._tf:Find("bg"):GetComponent(typeof(Animation))
+	arg_2_0._contentAnim = arg_2_0._tf:Find("bg/content_view"):GetComponent(typeof(Animation))
 
 	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 

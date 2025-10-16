@@ -34677,7 +34677,7 @@ end)()
 (function()
 	_G.pg.base.spweapon_data_statistics[14580] = {
 		tech = 0,
-		name = "赫斯缇亚的缎带",
+		name = "赫斯缇雅的缎带",
 		value_2_random = 0,
 		type = 3,
 		value_1_random = 0,

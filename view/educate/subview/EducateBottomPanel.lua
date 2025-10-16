@@ -5,17 +5,17 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0.contentTF = arg_2_0:findTF("content")
-	arg_2_0.planBtn = arg_2_0:findTF("btns/schedule", arg_2_0.contentTF)
-	arg_2_0.mapBtn = arg_2_0:findTF("btns/map", arg_2_0.contentTF)
+	arg_2_0.contentTF = arg_2_0._tf:Find("content")
+	arg_2_0.planBtn = arg_2_0.contentTF:Find("btns/schedule")
+	arg_2_0.mapBtn = arg_2_0.contentTF:Find("btns/map")
 
-	setText(arg_2_0:findTF("tips/limit/Text", arg_2_0.mapBtn), i18n("child_option_limit"))
+	setText(arg_2_0.mapBtn:Find("tips/limit/Text"), i18n("child_option_limit"))
 
-	arg_2_0.schoolBtn = arg_2_0:findTF("btns/enter_school", arg_2_0.contentTF)
-	arg_2_0.upgradeBtn = arg_2_0:findTF("btns/system_upgrade", arg_2_0.contentTF)
-	arg_2_0.targetSetBtn = arg_2_0:findTF("btns/target_set", arg_2_0.contentTF)
-	arg_2_0.endingBtn = arg_2_0:findTF("btns/ending", arg_2_0.contentTF)
-	arg_2_0.resetBtn = arg_2_0:findTF("btns/reset", arg_2_0.contentTF)
+	arg_2_0.schoolBtn = arg_2_0.contentTF:Find("btns/enter_school")
+	arg_2_0.upgradeBtn = arg_2_0.contentTF:Find("btns/system_upgrade")
+	arg_2_0.targetSetBtn = arg_2_0.contentTF:Find("btns/target_set")
+	arg_2_0.endingBtn = arg_2_0.contentTF:Find("btns/ending")
+	arg_2_0.resetBtn = arg_2_0.contentTF:Find("btns/reset")
 
 	arg_2_0:addListener()
 
@@ -29,7 +29,7 @@ function var_0_0.addListener(arg_3_0)
 		arg_3_0:emit(EducateBaseUI.EDUCATE_GO_SCENE, SCENE.EDUCATE_SCHEDULE)
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.mapBtn, function()
-		if isActive(arg_3_0:findTF("lock", arg_3_0.mapBtn)) then
+		if isActive(arg_3_0.mapBtn:Find("lock")) then
 			return
 		end
 
@@ -139,7 +139,7 @@ function var_0_0.Flush(arg_20_0)
 	local var_20_0 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_GO_OUT)
 	local var_20_1 = getProxy(EducateProxy):InVirtualStage()
 
-	setActive(arg_20_0:findTF("lock", arg_20_0.mapBtn), not var_20_0 or var_20_1)
+	setActive(arg_20_0.mapBtn:Find("lock"), not var_20_0 or var_20_1)
 	setActive(arg_20_0.planBtn, arg_20_0.status ~= EducateConst.STATUES_ENDING and arg_20_0.status ~= EducateConst.STATUES_RESET)
 	setActive(arg_20_0.mapBtn, arg_20_0.status ~= EducateConst.STATUES_ENDING and arg_20_0.status ~= EducateConst.STATUES_RESET)
 	arg_20_0:updateMapBtnTips()
@@ -172,7 +172,7 @@ function var_0_0.updateTargetSetBtn(arg_24_0)
 	setActive(arg_24_0.targetSetBtn, var_24_0)
 
 	if var_24_0 then
-		setActive(arg_24_0:findTF("lock", arg_24_0.mapBtn), true)
+		setActive(arg_24_0.mapBtn:Find("lock"), true)
 	end
 end
 
@@ -191,8 +191,8 @@ function var_0_0.updateMapBtnTips(arg_25_0)
 		end)
 	end)
 
-	setActive(arg_25_0:findTF("tips/new", arg_25_0.mapBtn), var_25_1)
-	setActive(arg_25_0:findTF("tips/limit", arg_25_0.mapBtn), var_25_2)
+	setActive(arg_25_0.mapBtn:Find("tips/new"), var_25_1)
+	setActive(arg_25_0.mapBtn:Find("tips/limit"), var_25_2)
 end
 
 function var_0_0.OnDestroy(arg_29_0)

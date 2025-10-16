@@ -65,15 +65,15 @@ function var_0_0.SetWeekTaskProgressInfo(arg_3_0, arg_3_1)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0._topPanel = arg_4_0:findTF("blur_panel/adapt/top")
+	arg_4_0._topPanel = arg_4_0._tf:Find("blur_panel/adapt/top")
 	arg_4_0._backBtn = arg_4_0._topPanel:Find("back_btn")
-	arg_4_0._leftLength = arg_4_0:findTF("blur_panel/adapt/left_length")
-	arg_4_0._tagRoot = arg_4_0:findTF("blur_panel/adapt/left_length/frame/tagRoot")
-	arg_4_0.taskIconTpl = arg_4_0:findTF("taskTagOb/task_icon_default")
-	arg_4_0.weekTip = arg_4_0:findTF("weekly/tip", arg_4_0._tagRoot)
-	arg_4_0.oneStepBtn = arg_4_0:findTF("blur_panel/adapt/top/GetAllButton")
+	arg_4_0._leftLength = arg_4_0._tf:Find("blur_panel/adapt/left_length")
+	arg_4_0._tagRoot = arg_4_0._tf:Find("blur_panel/adapt/left_length/frame/tagRoot")
+	arg_4_0.taskIconTpl = arg_4_0._tf:Find("taskTagOb/task_icon_default")
+	arg_4_0.weekTip = arg_4_0._tagRoot:Find("weekly/tip")
+	arg_4_0.oneStepBtn = arg_4_0._tf:Find("blur_panel/adapt/top/GetAllButton")
 	arg_4_0.contextData.viewComponent = arg_4_0
-	arg_4_0.pageTF = arg_4_0:findTF("pages")
+	arg_4_0.pageTF = arg_4_0._tf:Find("pages")
 end
 
 function var_0_0.IsNewStyleTime()
@@ -127,20 +127,20 @@ function var_0_0.didEnter(arg_9_0)
 	onButton(arg_9_0, arg_9_0._backBtn, function()
 		arg_9_0:emit(var_0_0.ON_BACK)
 	end, SFX_CANCEL)
-	setActive(arg_9_0:findTF("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	setActive(arg_9_0._tf:Find("stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
 
 	if LOCK_CLICK_MINGSHI then
-		setActive(arg_9_0:findTF("stamp"), false)
+		setActive(arg_9_0._tf:Find("stamp"), false)
 	end
 
-	onButton(arg_9_0, arg_9_0:findTF("stamp"), function()
+	onButton(arg_9_0, arg_9_0._tf:Find("stamp"), function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(5)
 	end, SFX_CONFIRM)
 
 	arg_9_0.toggles = {}
 
 	for iter_9_0, iter_9_1 in pairs(var_0_1) do
-		local var_9_2 = arg_9_0:findTF(iter_9_0, arg_9_0._tagRoot)
+		local var_9_2 = arg_9_0._tagRoot:Find(iter_9_0)
 
 		onToggle(arg_9_0, var_9_2, function(arg_12_0)
 			if arg_12_0 then
@@ -280,7 +280,7 @@ function var_0_0.UpdateWeekTip(arg_24_0)
 end
 
 function var_0_0.GoToFilter(arg_25_0, arg_25_1)
-	local var_25_0 = arg_25_0:findTF(arg_25_1, arg_25_0._tagRoot)
+	local var_25_0 = arg_25_0._tagRoot:Find(arg_25_1)
 
 	triggerToggle(var_25_0, true)
 end

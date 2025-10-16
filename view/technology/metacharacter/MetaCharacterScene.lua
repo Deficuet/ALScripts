@@ -46,24 +46,24 @@ function var_0_0.willExit(arg_4_0)
 end
 
 function var_0_0.initUITextTips(arg_5_0)
-	local var_5_0 = arg_5_0:findTF("HidePanel/ScrollPanel/ListPanel/BannerTpl/ForScale")
-	local var_5_1 = arg_5_0:findTF("Empty/ActType/TipText", var_5_0)
-	local var_5_2 = arg_5_0:findTF("Empty/BuildType/TipText", var_5_0)
-	local var_5_3 = arg_5_0:findTF("Active/ActType/Text", var_5_0)
-	local var_5_4 = arg_5_0:findTF("Active/BuildType/Text", var_5_0)
+	local var_5_0 = arg_5_0._tf:Find("HidePanel/ScrollPanel/ListPanel/BannerTpl/ForScale")
+	local var_5_1 = var_5_0:Find("Empty/ActType/TipText")
+	local var_5_2 = var_5_0:Find("Empty/BuildType/TipText")
+	local var_5_3 = var_5_0:Find("Active/ActType/Text")
+	local var_5_4 = var_5_0:Find("Active/BuildType/Text")
 
 	setText(var_5_1, i18n("meta_syn_rate"))
 	setText(var_5_2, i18n("meta_build"))
 	setText(var_5_3, i18n("meta_repair_rate"))
 	setText(var_5_4, i18n("meta_build"))
 
-	local var_5_5 = arg_5_0:findTF("HidePanel/PTPanel/Progress/Story/TipText1")
-	local var_5_6 = arg_5_0:findTF("HidePanel/PTPanel/Progress/Story/TipText2")
+	local var_5_5 = arg_5_0._tf:Find("HidePanel/PTPanel/Progress/Story/TipText1")
+	local var_5_6 = arg_5_0._tf:Find("HidePanel/PTPanel/Progress/Story/TipText2")
 
 	setText(var_5_5, i18n("meta_story_tip_1"))
 	setText(var_5_6, i18n("meta_story_tip_2"))
 
-	local var_5_7 = arg_5_0:findTF("HidePanel/ActTimeTip/Tip")
+	local var_5_7 = arg_5_0._tf:Find("HidePanel/ActTimeTip/Tip")
 
 	setText(var_5_7, i18n("meta_acttime_limit"))
 end
@@ -82,67 +82,67 @@ function var_0_0.initData(arg_6_0)
 end
 
 function var_0_0.findUI(arg_7_0)
-	arg_7_0.shipImg = arg_7_0:findTF("HidePanel/ShipImg")
-	arg_7_0.shipNameImg = arg_7_0:findTF("HidePanel/NameImg")
-	arg_7_0.noCharTF = arg_7_0:findTF("BG/NoCharacter")
-	arg_7_0.indexBtn = arg_7_0:findTF("blur_panel/adapt/top/index")
-	arg_7_0.hidePanel = arg_7_0:findTF("HidePanel")
-	arg_7_0.scrollPanel = arg_7_0:findTF("ScrollPanel", arg_7_0.hidePanel)
-	arg_7_0.bannerListPanel = arg_7_0:findTF("ListPanel", arg_7_0.scrollPanel)
-	arg_7_0.bannerContainer = arg_7_0:findTF("Container", arg_7_0.bannerListPanel)
-	arg_7_0.bannerTpl = arg_7_0:findTF("BannerTpl", arg_7_0.bannerListPanel)
-	arg_7_0.actTimePanel = arg_7_0:findTF("ActTimeTip", arg_7_0.hidePanel)
-	arg_7_0.actTimeText = arg_7_0:findTF("Text", arg_7_0.actTimePanel)
-	arg_7_0.menuPanel = arg_7_0:findTF("MenuPanel", arg_7_0.hidePanel)
-	arg_7_0.energyBtn = arg_7_0:findTF("EnergyBtn", arg_7_0.menuPanel)
-	arg_7_0.repairBtn = arg_7_0:findTF("RepairBtn", arg_7_0.menuPanel)
-	arg_7_0.tacticsBtn = arg_7_0:findTF("TacticsBtn", arg_7_0.menuPanel)
-	arg_7_0.synBtn = arg_7_0:findTF("SynBtn", arg_7_0.menuPanel)
-	arg_7_0.synDecorateTF = arg_7_0:findTF("SynDecorate", arg_7_0.menuPanel)
-	arg_7_0.synBtnLimitTimeTF = arg_7_0:findTF("Limit", arg_7_0.synBtn)
-	arg_7_0.synBtnLock = arg_7_0:findTF("LockMask", arg_7_0.synBtn)
-	arg_7_0.ptPanel = arg_7_0:findTF("PTPanel", arg_7_0.hidePanel)
-	arg_7_0.ptRedBarImg = arg_7_0:findTF("RedBar", arg_7_0.ptPanel)
-	arg_7_0.ptPreviewBtn = arg_7_0:findTF("PreviewBtn", arg_7_0.ptPanel)
-	arg_7_0.ptGetBtn = arg_7_0:findTF("SynBtn", arg_7_0.ptPanel)
-	arg_7_0.ptGetBtnTag = arg_7_0:findTF("Tag", arg_7_0.ptGetBtn)
-	arg_7_0.ptShowWayBtn = arg_7_0:findTF("ShowWayBtn", arg_7_0.ptPanel)
+	arg_7_0.shipImg = arg_7_0._tf:Find("HidePanel/ShipImg")
+	arg_7_0.shipNameImg = arg_7_0._tf:Find("HidePanel/NameImg")
+	arg_7_0.noCharTF = arg_7_0._tf:Find("BG/NoCharacter")
+	arg_7_0.indexBtn = arg_7_0._tf:Find("blur_panel/adapt/top/index")
+	arg_7_0.hidePanel = arg_7_0._tf:Find("HidePanel")
+	arg_7_0.scrollPanel = arg_7_0.hidePanel:Find("ScrollPanel")
+	arg_7_0.bannerListPanel = arg_7_0.scrollPanel:Find("ListPanel")
+	arg_7_0.bannerContainer = arg_7_0.bannerListPanel:Find("Container")
+	arg_7_0.bannerTpl = arg_7_0.bannerListPanel:Find("BannerTpl")
+	arg_7_0.actTimePanel = arg_7_0.hidePanel:Find("ActTimeTip")
+	arg_7_0.actTimeText = arg_7_0.actTimePanel:Find("Text")
+	arg_7_0.menuPanel = arg_7_0.hidePanel:Find("MenuPanel")
+	arg_7_0.energyBtn = arg_7_0.menuPanel:Find("EnergyBtn")
+	arg_7_0.repairBtn = arg_7_0.menuPanel:Find("RepairBtn")
+	arg_7_0.tacticsBtn = arg_7_0.menuPanel:Find("TacticsBtn")
+	arg_7_0.synBtn = arg_7_0.menuPanel:Find("SynBtn")
+	arg_7_0.synDecorateTF = arg_7_0.menuPanel:Find("SynDecorate")
+	arg_7_0.synBtnLimitTimeTF = arg_7_0.synBtn:Find("Limit")
+	arg_7_0.synBtnLock = arg_7_0.synBtn:Find("LockMask")
+	arg_7_0.ptPanel = arg_7_0.hidePanel:Find("PTPanel")
+	arg_7_0.ptRedBarImg = arg_7_0.ptPanel:Find("RedBar")
+	arg_7_0.ptPreviewBtn = arg_7_0.ptPanel:Find("PreviewBtn")
+	arg_7_0.ptGetBtn = arg_7_0.ptPanel:Find("SynBtn")
+	arg_7_0.ptGetBtnTag = arg_7_0.ptGetBtn:Find("Tag")
+	arg_7_0.ptShowWayBtn = arg_7_0.ptPanel:Find("ShowWayBtn")
 
-	local var_7_0 = arg_7_0:findTF("Progress", arg_7_0.ptPanel)
+	local var_7_0 = arg_7_0.ptPanel:Find("Progress")
 
-	arg_7_0.ptProgressImg = arg_7_0:findTF("CircleProgress/ProgressImg", var_7_0)
-	arg_7_0.ptProgressScaleLine = arg_7_0:findTF("CircleProgress/ScaleLine", var_7_0)
-	arg_7_0.ptInfoPanel = arg_7_0:findTF("PT", var_7_0)
-	arg_7_0.ptProgressRedRightNumText = arg_7_0:findTF("ProgressTextBG/PointRedText/RightNumText", arg_7_0.ptInfoPanel)
-	arg_7_0.ptProgressRedLeftNumText = arg_7_0:findTF("ProgressTextBG/PointRedText/LeftNumText", arg_7_0.ptInfoPanel)
-	arg_7_0.ptProgressWhiteRightNumText = arg_7_0:findTF("ProgressTextBG/PointText/RightNumText", arg_7_0.ptInfoPanel)
-	arg_7_0.ptProgressWhiteLeftNumText = arg_7_0:findTF("ProgressTextBG/PointText/LeftNumText", arg_7_0.ptInfoPanel)
-	arg_7_0.ptIcon = arg_7_0:findTF("PTProgressText/PTIcon", arg_7_0.ptInfoPanel)
-	arg_7_0.ptProgressRedText = arg_7_0:findTF("PTProgressRedText", arg_7_0.ptInfoPanel)
-	arg_7_0.ptProgressWhiteText = arg_7_0:findTF("PTProgressText", arg_7_0.ptInfoPanel)
-	arg_7_0.storyInfoPanel = arg_7_0:findTF("Story", var_7_0)
+	arg_7_0.ptProgressImg = var_7_0:Find("CircleProgress/ProgressImg")
+	arg_7_0.ptProgressScaleLine = var_7_0:Find("CircleProgress/ScaleLine")
+	arg_7_0.ptInfoPanel = var_7_0:Find("PT")
+	arg_7_0.ptProgressRedRightNumText = arg_7_0.ptInfoPanel:Find("ProgressTextBG/PointRedText/RightNumText")
+	arg_7_0.ptProgressRedLeftNumText = arg_7_0.ptInfoPanel:Find("ProgressTextBG/PointRedText/LeftNumText")
+	arg_7_0.ptProgressWhiteRightNumText = arg_7_0.ptInfoPanel:Find("ProgressTextBG/PointText/RightNumText")
+	arg_7_0.ptProgressWhiteLeftNumText = arg_7_0.ptInfoPanel:Find("ProgressTextBG/PointText/LeftNumText")
+	arg_7_0.ptIcon = arg_7_0.ptInfoPanel:Find("PTProgressText/PTIcon")
+	arg_7_0.ptProgressRedText = arg_7_0.ptInfoPanel:Find("PTProgressRedText")
+	arg_7_0.ptProgressWhiteText = arg_7_0.ptInfoPanel:Find("PTProgressText")
+	arg_7_0.storyInfoPanel = var_7_0:Find("Story")
 
-	local var_7_1 = arg_7_0:findTF("TipText1", arg_7_0.storyInfoPanel)
-	local var_7_2 = arg_7_0:findTF("TipText2", arg_7_0.storyInfoPanel)
+	local var_7_1 = arg_7_0.storyInfoPanel:Find("TipText1")
+	local var_7_2 = arg_7_0.storyInfoPanel:Find("TipText2")
 
-	arg_7_0.storyNameText = arg_7_0:findTF("StroyNameText", arg_7_0.storyInfoPanel)
-	arg_7_0.getShipBtn = arg_7_0:findTF("FinishBtn", var_7_0)
-	arg_7_0.goGetPanel = arg_7_0:findTF("GoGetPanel", arg_7_0.hidePanel)
-	arg_7_0.goGetBtn = arg_7_0:findTF("GoGetBtn", arg_7_0.goGetPanel)
-	arg_7_0.blurPanel = arg_7_0:findTF("blur_panel")
+	arg_7_0.storyNameText = arg_7_0.storyInfoPanel:Find("StroyNameText")
+	arg_7_0.getShipBtn = var_7_0:Find("FinishBtn")
+	arg_7_0.goGetPanel = arg_7_0.hidePanel:Find("GoGetPanel")
+	arg_7_0.goGetBtn = arg_7_0.goGetPanel:Find("GoGetBtn")
+	arg_7_0.blurPanel = arg_7_0._tf:Find("blur_panel")
 
-	local var_7_3 = arg_7_0:findTF("adapt", arg_7_0.blurPanel)
+	local var_7_3 = arg_7_0.blurPanel:Find("adapt")
 
-	arg_7_0.backBtn = arg_7_0:findTF("top/back", var_7_3)
-	arg_7_0.helpBtn = arg_7_0:findTF("top/help", var_7_3)
-	arg_7_0.toggleBtnsTF = arg_7_0:findTF("left/Btns", var_7_3)
+	arg_7_0.backBtn = var_7_3:Find("top/back")
+	arg_7_0.helpBtn = var_7_3:Find("top/help")
+	arg_7_0.toggleBtnsTF = var_7_3:Find("left/Btns")
 	arg_7_0.toggleGroupSC = GetComponent(arg_7_0.toggleBtnsTF, "ToggleGroup")
 	arg_7_0.toggleGroupSC.allowSwitchOff = true
-	arg_7_0.toggleList[1] = arg_7_0:findTF("Energy", arg_7_0.toggleBtnsTF)
-	arg_7_0.toggleList[2] = arg_7_0:findTF("Tactics", arg_7_0.toggleBtnsTF)
-	arg_7_0.toggleList[3] = arg_7_0:findTF("Repair", arg_7_0.toggleBtnsTF)
-	arg_7_0.toggleList[4] = arg_7_0:findTF("Syn", arg_7_0.toggleBtnsTF)
-	arg_7_0.synToggleLock = arg_7_0:findTF("SynLock", arg_7_0.toggleBtnsTF)
+	arg_7_0.toggleList[1] = arg_7_0.toggleBtnsTF:Find("Energy")
+	arg_7_0.toggleList[2] = arg_7_0.toggleBtnsTF:Find("Tactics")
+	arg_7_0.toggleList[3] = arg_7_0.toggleBtnsTF:Find("Repair")
+	arg_7_0.toggleList[4] = arg_7_0.toggleBtnsTF:Find("Syn")
+	arg_7_0.synToggleLock = arg_7_0.toggleBtnsTF:Find("SynLock")
 end
 
 function var_0_0.addListener(arg_8_0)
@@ -241,7 +241,7 @@ function var_0_0.addListener(arg_8_0)
 	onButton(arg_8_0, arg_8_0.synBtnLock, function()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 	end)
-	onButton(arg_8_0, arg_8_0:findTF("RepairBtn", arg_8_0.repairBtn), function()
+	onButton(arg_8_0, arg_8_0.repairBtn:Find("RepairBtn"), function()
 		arg_8_0:switchPage(var_0_0.PAGES.REPAIR)
 	end, SFX_PANEL)
 	onButton(arg_8_0, arg_8_0.energyBtn, function()
@@ -288,8 +288,8 @@ end
 
 function var_0_0.resetToggleList(arg_24_0)
 	for iter_24_0, iter_24_1 in ipairs(arg_24_0.toggleList) do
-		setActive(arg_24_0:findTF("On", iter_24_1), false)
-		setActive(arg_24_0:findTF("Off", iter_24_1), true)
+		setActive(iter_24_1:Find("On"), false)
+		setActive(iter_24_1:Find("Off"), true)
 	end
 end
 
@@ -323,17 +323,17 @@ end
 
 function var_0_0.updateBannerTF(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 	local var_29_0 = arg_29_2
-	local var_29_1 = arg_29_0:findTF("ForScale", arg_29_2)
-	local var_29_2 = arg_29_0:findTF("WillCome", var_29_1)
-	local var_29_3 = arg_29_0:findTF("Empty", var_29_1)
-	local var_29_4 = arg_29_0:findTF("Active", var_29_1)
+	local var_29_1 = arg_29_2:Find("ForScale")
+	local var_29_2 = var_29_1:Find("WillCome")
+	local var_29_3 = var_29_1:Find("Empty")
+	local var_29_4 = var_29_1:Find("Active")
 
 	if arg_29_1 then
 		local var_29_5 = arg_29_1:isInAct()
-		local var_29_6 = arg_29_0:findTF("ActType/Tag", var_29_3)
-		local var_29_7 = arg_29_0:findTF("BuildType/Tag", var_29_3)
-		local var_29_8 = arg_29_0:findTF("ActType/Tag", var_29_4)
-		local var_29_9 = arg_29_0:findTF("BuildType/Tag", var_29_4)
+		local var_29_6 = var_29_3:Find("ActType/Tag")
+		local var_29_7 = var_29_3:Find("BuildType/Tag")
+		local var_29_8 = var_29_4:Find("ActType/Tag")
+		local var_29_9 = var_29_4:Find("BuildType/Tag")
 
 		setActive(var_29_6, var_29_5)
 		setActive(var_29_7, var_29_5)
@@ -346,37 +346,37 @@ function var_0_0.updateBannerTF(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 			configId = tonumber(arg_29_1.configId .. 1)
 		}):getName()
 		local var_29_11
-		local var_29_12 = arg_29_0:findTF("Empty/ActType/ShipNameMask/ShipNameText", var_29_1)
+		local var_29_12 = var_29_1:Find("Empty/ActType/ShipNameMask/ShipNameText")
 
 		setText(var_29_12, var_29_10)
 		setScrollText(var_29_12, var_29_10)
 		setActive(var_29_12, true)
 
-		local var_29_13 = arg_29_0:findTF("Empty/BuildType/ShipNameMask/ShipNameText", var_29_1)
+		local var_29_13 = var_29_1:Find("Empty/BuildType/ShipNameMask/ShipNameText")
 
 		setText(var_29_13, var_29_10)
 		setScrollText(var_29_13, var_29_10)
 		setActive(var_29_13, true)
 
-		local var_29_14 = arg_29_0:findTF("Empty/PassType/ShipNameMask/ShipNameText", var_29_1)
+		local var_29_14 = var_29_1:Find("Empty/PassType/ShipNameMask/ShipNameText")
 
 		setText(var_29_14, var_29_10)
 		setScrollText(var_29_14, var_29_10)
 		setActive(var_29_14, true)
 
-		local var_29_15 = arg_29_0:findTF("Active/ActType/ShipNameMask/ShipNameText", var_29_1)
+		local var_29_15 = var_29_1:Find("Active/ActType/ShipNameMask/ShipNameText")
 
 		setText(var_29_15, var_29_10)
 		setScrollText(var_29_15, var_29_10)
 		setActive(var_29_15, true)
 
-		local var_29_16 = arg_29_0:findTF("Active/BuildType/ShipNameMask/ShipNameText", var_29_1)
+		local var_29_16 = var_29_1:Find("Active/BuildType/ShipNameMask/ShipNameText")
 
 		setText(var_29_16, var_29_10)
 		setScrollText(var_29_16, var_29_10)
 		setActive(var_29_16, true)
 
-		local var_29_17 = arg_29_0:findTF("Active/PassType/ShipNameMask/ShipNameText", var_29_1)
+		local var_29_17 = var_29_1:Find("Active/PassType/ShipNameMask/ShipNameText")
 
 		setText(var_29_17, var_29_10)
 		setScrollText(var_29_17, var_29_10)
@@ -400,9 +400,9 @@ function var_0_0.updateBannerTF(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 		local var_29_21 = arg_29_1:isBuildType()
 
 		if not var_29_18 then
-			local var_29_22 = arg_29_0:findTF("Empty/ActType", var_29_1)
-			local var_29_23 = arg_29_0:findTF("Empty/BuildType", var_29_1)
-			local var_29_24 = arg_29_0:findTF("Empty/PassType", var_29_1)
+			local var_29_22 = var_29_1:Find("Empty/ActType")
+			local var_29_23 = var_29_1:Find("Empty/BuildType")
+			local var_29_24 = var_29_1:Find("Empty/PassType")
 
 			setActive(var_29_22, var_29_19)
 			setActive(var_29_23, var_29_21)
@@ -416,12 +416,12 @@ function var_0_0.updateBannerTF(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 			setImageSprite(var_29_24, var_29_27)
 
 			if var_29_19 then
-				local var_29_28 = arg_29_0:findTF("NumText", var_29_22)
+				local var_29_28 = var_29_22:Find("NumText")
 				local var_29_29 = string.format("%d", arg_29_1:getSynRate() * 100) .. "%"
 
 				setText(var_29_28, var_29_29)
 
-				local var_29_30 = arg_29_0:findTF("Slider", var_29_22)
+				local var_29_30 = var_29_22:Find("Slider")
 
 				setSlider(var_29_30, 0, 1, arg_29_1:getSynRate())
 				setActive(var_29_30, false)
@@ -433,24 +433,24 @@ function var_0_0.updateBannerTF(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 			})
 			local var_29_33 = var_29_32:getMaxStar()
 			local var_29_34 = var_29_32:getStar()
-			local var_29_35 = arg_29_0:findTF("Empty/StarTpl", var_29_1)
-			local var_29_36 = arg_29_0:findTF("Empty/Stars", var_29_1)
+			local var_29_35 = var_29_1:Find("Empty/StarTpl")
+			local var_29_36 = var_29_1:Find("Empty/Stars")
 			local var_29_37 = UIItemList.New(var_29_36, var_29_35)
 
 			var_29_37:make(function(arg_30_0, arg_30_1, arg_30_2)
 				if arg_30_0 == UIItemList.EventUpdate then
 					arg_30_1 = arg_30_1 + 1
 
-					local var_30_0 = arg_29_0:findTF("On", arg_30_2)
+					local var_30_0 = arg_30_2:Find("On")
 
 					setActive(var_30_0, arg_30_1 <= var_29_34)
 				end
 			end)
 			var_29_37:align(var_29_33)
 		else
-			local var_29_38 = arg_29_0:findTF("Active/ActType", var_29_1)
-			local var_29_39 = arg_29_0:findTF("Active/BuildType", var_29_1)
-			local var_29_40 = arg_29_0:findTF("Active/PassType", var_29_1)
+			local var_29_38 = var_29_1:Find("Active/ActType")
+			local var_29_39 = var_29_1:Find("Active/BuildType")
+			local var_29_40 = var_29_1:Find("Active/PassType")
 
 			setActive(var_29_38, var_29_19)
 			setActive(var_29_39, var_29_21)
@@ -459,18 +459,18 @@ function var_0_0.updateBannerTF(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 			local var_29_41, var_29_42 = arg_29_1:getBannerPathAndName()
 			local var_29_43 = LoadSprite(var_29_41, var_29_42)
 
-			setImageSprite(arg_29_0:findTF("Active", var_29_1), LoadSprite(var_29_41, var_29_42))
+			setImageSprite(var_29_1:Find("Active"), LoadSprite(var_29_41, var_29_42))
 
 			local var_29_44 = arg_29_1:getShip()
 			local var_29_45 = var_29_44:getMetaCharacter()
 
 			if var_29_19 then
-				local var_29_46 = arg_29_0:findTF("NumText", var_29_38)
+				local var_29_46 = var_29_38:Find("NumText")
 				local var_29_47 = string.format("%d", var_29_45:getRepairRate() * 100) .. "%"
 
 				setText(var_29_46, var_29_47)
 
-				local var_29_48 = arg_29_0:findTF("Slider", var_29_38)
+				local var_29_48 = var_29_38:Find("Slider")
 
 				setSlider(var_29_48, 0, 1, var_29_45:getRepairRate())
 				setActive(var_29_48, false)
@@ -478,15 +478,15 @@ function var_0_0.updateBannerTF(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
 
 			local var_29_49 = var_29_44:getMaxStar()
 			local var_29_50 = var_29_44:getStar()
-			local var_29_51 = arg_29_0:findTF("Active/StarTpl", var_29_1)
-			local var_29_52 = arg_29_0:findTF("Active/Stars", var_29_1)
+			local var_29_51 = var_29_1:Find("Active/StarTpl")
+			local var_29_52 = var_29_1:Find("Active/Stars")
 			local var_29_53 = UIItemList.New(var_29_52, var_29_51)
 
 			var_29_53:make(function(arg_31_0, arg_31_1, arg_31_2)
 				if arg_31_0 == UIItemList.EventUpdate then
 					arg_31_1 = arg_31_1 + 1
 
-					local var_31_0 = arg_29_0:findTF("On", arg_31_2)
+					local var_31_0 = arg_31_2:Find("On")
 
 					setActive(var_31_0, arg_31_1 <= var_29_50)
 				end
@@ -517,7 +517,7 @@ end
 
 function var_0_0.changeBannerOnClick(arg_33_0, arg_33_1, arg_33_2)
 	local var_33_0 = arg_33_1:GetComponent("LayoutElement")
-	local var_33_1 = arg_33_0:findTF("ForScale", arg_33_1)
+	local var_33_1 = arg_33_1:Find("ForScale")
 
 	if arg_33_2 == true then
 		setLocalScale(var_33_1, var_0_0.SCALE_ON_PITCH)
@@ -531,46 +531,46 @@ function var_0_0.changeBannerOnClick(arg_33_0, arg_33_1, arg_33_2)
 		var_33_0.preferredHeight = 60
 	end
 
-	local var_33_2 = arg_33_0:findTF("SelectedTag", var_33_1)
+	local var_33_2 = var_33_1:Find("SelectedTag")
 
 	setActive(var_33_2, arg_33_2)
 end
 
 function var_0_0.updateBannerShipName(arg_34_0, arg_34_1)
-	local var_34_0 = arg_34_0:findTF("ForScale", arg_34_1)
-	local var_34_1 = arg_34_0:findTF("SelectedTag", var_34_0)
+	local var_34_0 = arg_34_1:Find("ForScale")
+	local var_34_1 = var_34_0:Find("SelectedTag")
 	local var_34_2 = isActive(var_34_1)
 	local var_34_3
-	local var_34_4 = arg_34_0:findTF("Empty/ActType/ShipNameText", var_34_0)
+	local var_34_4 = var_34_0:Find("Empty/ActType/ShipNameText")
 
 	setActive(var_34_4, var_34_2)
 
-	local var_34_5 = arg_34_0:findTF("Empty/BuildType/ShipNameText", var_34_0)
+	local var_34_5 = var_34_0:Find("Empty/BuildType/ShipNameText")
 
 	setActive(var_34_5, var_34_2)
 
-	local var_34_6 = arg_34_0:findTF("Active/ActType/ShipNameText", var_34_0)
+	local var_34_6 = var_34_0:Find("Active/ActType/ShipNameText")
 
 	setActive(var_34_6, var_34_2)
 
-	local var_34_7 = arg_34_0:findTF("Active/BuildType/ShipNameText", var_34_0)
+	local var_34_7 = var_34_0:Find("Active/BuildType/ShipNameText")
 
 	setActive(var_34_7, var_34_2)
 
 	local var_34_8
-	local var_34_9 = arg_34_0:findTF("Empty/ActType/TipText", var_34_0)
+	local var_34_9 = var_34_0:Find("Empty/ActType/TipText")
 
 	setActive(var_34_9, not var_34_2)
 
-	local var_34_10 = arg_34_0:findTF("Empty/BuildType/TipText", var_34_0)
+	local var_34_10 = var_34_0:Find("Empty/BuildType/TipText")
 
 	setActive(var_34_10, not var_34_2)
 
-	local var_34_11 = arg_34_0:findTF("Active/ActType/Text", var_34_0)
+	local var_34_11 = var_34_0:Find("Active/ActType/Text")
 
 	setActive(var_34_11, not var_34_2)
 
-	local var_34_12 = arg_34_0:findTF("Active/BuildType/Text", var_34_0)
+	local var_34_12 = var_34_0:Find("Active/BuildType/Text")
 
 	setActive(var_34_12, not var_34_2)
 end
@@ -592,7 +592,7 @@ function var_0_0.updateStart(arg_36_0)
 		end
 	end
 
-	local var_36_1 = arg_36_0:findTF("On", arg_36_0.indexBtn)
+	local var_36_1 = arg_36_0.indexBtn:Find("On")
 
 	setActive(var_36_1, not arg_36_0:isDefaultStatus())
 	setActive(arg_36_0.noCharTF, not var_36_0)
@@ -615,7 +615,7 @@ end
 function var_0_0.resetBannerListScale(arg_37_0)
 	for iter_37_0, iter_37_1 in ipairs(arg_37_0.bannerTFList) do
 		local var_37_0 = iter_37_1:GetComponent("LayoutElement")
-		local var_37_1 = arg_37_0:findTF("ForScale", iter_37_1)
+		local var_37_1 = iter_37_1:Find("ForScale")
 
 		setLocalScale(var_37_1, Vector2.one)
 
@@ -694,7 +694,7 @@ function var_0_0.updateActTimePanel(arg_40_0)
 		local var_40_7 = pg.TimeMgr.GetInstance():parseTimeFromConfig(var_40_0.timeConfig[2])
 		local var_40_8 = pg.TimeMgr.GetInstance():GetServerTime()
 		local var_40_9 = pg.TimeMgr.GetInstance():DiffDay(var_40_8, var_40_7)
-		local var_40_10 = arg_40_0:findTF("Text", arg_40_0.synBtnLimitTimeTF)
+		local var_40_10 = arg_40_0.synBtnLimitTimeTF:Find("Text")
 
 		setText(var_40_10, i18n("meta_pt_left", var_40_9))
 	end
@@ -841,23 +841,23 @@ function var_0_0.updateRedPoints(arg_46_0)
 	local var_46_1 = var_46_0.id
 	local var_46_2 = MetaCharacterConst.isMetaRepairRedTag(var_46_1)
 
-	setActive(arg_46_0:findTF("RepairBtn/Tag", arg_46_0.repairBtn), var_46_2)
+	setActive(arg_46_0.repairBtn:Find("RepairBtn/Tag"), var_46_2)
 
 	local var_46_3 = not MetaCharacterConst.filteMetaRepairAble(var_46_0)
 
-	setActive(arg_46_0:findTF("Finish", arg_46_0.repairBtn), var_46_3)
+	setActive(arg_46_0.repairBtn:Find("Finish"), var_46_3)
 
 	local var_46_4 = MetaCharacterConst.isMetaEnergyRedTag(var_46_1)
 
-	setActive(arg_46_0:findTF("Tag", arg_46_0.energyBtn), var_46_4)
+	setActive(arg_46_0.energyBtn:Find("Tag"), var_46_4)
 
 	local var_46_5 = not MetaCharacterConst.filteMetaEnergyAble(var_46_0)
 
-	setActive(arg_46_0:findTF("Finish", arg_46_0.energyBtn), var_46_5)
+	setActive(arg_46_0.energyBtn:Find("Finish"), var_46_5)
 
 	local var_46_6 = not MetaCharacterConst.filteMetaTacticsAble(var_46_0)
 
-	setActive(arg_46_0:findTF("Finish", arg_46_0.tacticsBtn), var_46_6)
+	setActive(arg_46_0.tacticsBtn:Find("Finish"), var_46_6)
 
 	local var_46_7 = MetaCharacterConst.isMetaTacticsRedTag(var_46_1)
 	local var_46_8 = var_46_0.metaShipVO
@@ -865,15 +865,15 @@ function var_0_0.updateRedPoints(arg_46_0)
 	if var_46_8 then
 		local var_46_9 = arg_46_0.metaCharacterProxy:getMetaTacticsInfoByShipID(var_46_8.id):getTacticsStateForShow()
 
-		setActive(arg_46_0:findTF("Tag", arg_46_0.tacticsBtn), false)
-		setActive(arg_46_0:findTF("Learnable", arg_46_0.tacticsBtn), var_46_9 == MetaTacticsInfo.States.LearnAble)
-		setActive(arg_46_0:findTF("Learning", arg_46_0.tacticsBtn), var_46_9 == MetaTacticsInfo.States.Learning)
-		setActive(arg_46_0:findTF("LearnFinish", arg_46_0.tacticsBtn), var_46_9 == MetaTacticsInfo.States.LearnFinished and var_46_7)
+		setActive(arg_46_0.tacticsBtn:Find("Tag"), false)
+		setActive(arg_46_0.tacticsBtn:Find("Learnable"), var_46_9 == MetaTacticsInfo.States.LearnAble)
+		setActive(arg_46_0.tacticsBtn:Find("Learning"), var_46_9 == MetaTacticsInfo.States.Learning)
+		setActive(arg_46_0.tacticsBtn:Find("LearnFinish"), var_46_9 == MetaTacticsInfo.States.LearnFinished and var_46_7)
 	else
-		setActive(arg_46_0:findTF("Tag", arg_46_0.tacticsBtn), false)
-		setActive(arg_46_0:findTF("Learnable", arg_46_0.tacticsBtn), false)
-		setActive(arg_46_0:findTF("Learning", arg_46_0.tacticsBtn), false)
-		setActive(arg_46_0:findTF("LearnFinish", arg_46_0.tacticsBtn), false)
+		setActive(arg_46_0.tacticsBtn:Find("Tag"), false)
+		setActive(arg_46_0.tacticsBtn:Find("Learnable"), false)
+		setActive(arg_46_0.tacticsBtn:Find("Learning"), false)
+		setActive(arg_46_0.tacticsBtn:Find("LearnFinish"), false)
 	end
 
 	local var_46_10 = var_46_0:isPtType()
@@ -892,25 +892,24 @@ function var_0_0.updateRedPoints(arg_46_0)
 	if var_46_13 then
 		var_46_14 = MetaCharacterConst.isMetaSynRedTag(var_46_1)
 
-		setActive(arg_46_0:findTF("Tag", arg_46_0.synBtn), var_46_14)
+		setActive(arg_46_0.synBtn:Find("Tag"), var_46_14)
 	end
 
 	local var_46_15 = not MetaCharacterConst.filteMetaSynAble(var_46_0)
 
-	setActive(arg_46_0:findTF("Finish", arg_46_0.synBtn), var_46_15)
-	setActive(arg_46_0:findTF("Tip", arg_46_0.toggleList[var_0_0.PAGES.REPAIR]), var_46_2)
-	setActive(arg_46_0:findTF("Tip", arg_46_0.toggleList[var_0_0.PAGES.ENERGY]), var_46_4)
-	setActive(arg_46_0:findTF("Tip", arg_46_0.toggleList[var_0_0.PAGES.TACTICS]), var_46_7)
-	setActive(arg_46_0:findTF("Tip", arg_46_0.toggleList[var_0_0.PAGES.SYN]), var_46_14)
+	setActive(arg_46_0.synBtn:Find("Finish"), var_46_15)
+	setActive(arg_46_0.toggleList[var_0_0.PAGES.REPAIR]:Find("Tip"), var_46_2)
+	setActive(arg_46_0.toggleList[var_0_0.PAGES.ENERGY]:Find("Tip"), var_46_4)
+	setActive(arg_46_0.toggleList[var_0_0.PAGES.TACTICS]:Find("Tip"), var_46_7)
+	setActive(arg_46_0.toggleList[var_0_0.PAGES.SYN]:Find("Tip"), var_46_14)
 
 	for iter_46_0, iter_46_1 in ipairs(arg_46_0.metaProgressVOList) do
-		local var_46_16 = arg_46_0.bannerTFList[iter_46_0]
-		local var_46_17 = arg_46_0:findTF("ForScale/RedPoint", var_46_16)
+		local var_46_16 = arg_46_0.bannerTFList[iter_46_0]:Find("ForScale/RedPoint")
 
 		if iter_46_1 then
-			setActive(var_46_17, MetaCharacterConst.isMetaBannerRedPoint(iter_46_1.id))
+			setActive(var_46_16, MetaCharacterConst.isMetaBannerRedPoint(iter_46_1.id))
 		else
-			setActive(var_46_17, false)
+			setActive(var_46_16, false)
 		end
 	end
 end

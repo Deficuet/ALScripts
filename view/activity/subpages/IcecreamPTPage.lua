@@ -64,45 +64,45 @@ function var_0_0.OnDestroy(arg_4_0)
 end
 
 function var_0_0.findUI(arg_5_0)
-	arg_5_0.shareBtn = arg_5_0:findTF("Logo/share_btn", arg_5_0.bg)
-	arg_5_0.icecreamTF = arg_5_0:findTF("Icecream", arg_5_0.bg)
-	arg_5_0.openBtn = arg_5_0:findTF("open_btn", arg_5_0.bg)
-	arg_5_0.helpBtn = arg_5_0:findTF("help_btn", arg_5_0.bg)
-	arg_5_0.specialTF = arg_5_0:findTF("Special")
-	arg_5_0.backBG = arg_5_0:findTF("BG", arg_5_0.specialTF)
-	arg_5_0.menuTF = arg_5_0:findTF("Menu", arg_5_0.specialTF)
-	arg_5_0.mainPanel = arg_5_0:findTF("MainPanel", arg_5_0.menuTF)
+	arg_5_0.shareBtn = arg_5_0.bg:Find("Logo/share_btn")
+	arg_5_0.icecreamTF = arg_5_0.bg:Find("Icecream")
+	arg_5_0.openBtn = arg_5_0.bg:Find("open_btn")
+	arg_5_0.helpBtn = arg_5_0.bg:Find("help_btn")
+	arg_5_0.specialTF = arg_5_0._tf:Find("Special")
+	arg_5_0.backBG = arg_5_0.specialTF:Find("BG")
+	arg_5_0.menuTF = arg_5_0.specialTF:Find("Menu")
+	arg_5_0.mainPanel = arg_5_0.menuTF:Find("MainPanel")
 	arg_5_0.mainToggleTFList = {}
 
 	for iter_5_0 = 1, 4 do
 		arg_5_0.mainToggleTFList[iter_5_0] = arg_5_0.mainPanel:GetChild(iter_5_0 - 1)
 	end
 
-	arg_5_0.secondPanel = arg_5_0:findTF("SecondList", arg_5_0.menuTF)
-	arg_5_0.selectBtn = arg_5_0:findTF("SelectBtn", arg_5_0.menuTF)
+	arg_5_0.secondPanel = arg_5_0.menuTF:Find("SecondList")
+	arg_5_0.selectBtn = arg_5_0.menuTF:Find("SelectBtn")
 	arg_5_0.mainPanelCG = GetComponent(arg_5_0.mainPanel, "CanvasGroup")
 	arg_5_0.secondPanelCG = GetComponent(arg_5_0.secondPanel, "CanvasGroup")
 	arg_5_0.selectBtnImg = GetComponent(arg_5_0.selectBtn, "Image")
-	arg_5_0.resTF = arg_5_0:findTF("Res")
+	arg_5_0.resTF = arg_5_0._tf:Find("Res")
 
-	local var_5_0 = arg_5_0:findTF("1/1", arg_5_0.resTF)
-	local var_5_1 = arg_5_0:findTF("1/2", arg_5_0.resTF)
-	local var_5_2 = arg_5_0:findTF("1/3", arg_5_0.resTF)
-	local var_5_3 = arg_5_0:findTF("2/1/1", arg_5_0.resTF)
-	local var_5_4 = arg_5_0:findTF("2/1/2", arg_5_0.resTF)
-	local var_5_5 = arg_5_0:findTF("2/1/3", arg_5_0.resTF)
-	local var_5_6 = arg_5_0:findTF("2/2/1", arg_5_0.resTF)
-	local var_5_7 = arg_5_0:findTF("2/2/2", arg_5_0.resTF)
-	local var_5_8 = arg_5_0:findTF("2/2/3", arg_5_0.resTF)
-	local var_5_9 = arg_5_0:findTF("2/3/1", arg_5_0.resTF)
-	local var_5_10 = arg_5_0:findTF("2/3/2", arg_5_0.resTF)
-	local var_5_11 = arg_5_0:findTF("2/3/3", arg_5_0.resTF)
-	local var_5_12 = arg_5_0:findTF("3/1", arg_5_0.resTF)
-	local var_5_13 = arg_5_0:findTF("3/2", arg_5_0.resTF)
-	local var_5_14 = arg_5_0:findTF("3/3", arg_5_0.resTF)
-	local var_5_15 = arg_5_0:findTF("4/1", arg_5_0.resTF)
-	local var_5_16 = arg_5_0:findTF("4/2", arg_5_0.resTF)
-	local var_5_17 = arg_5_0:findTF("4/3", arg_5_0.resTF)
+	local var_5_0 = arg_5_0.resTF:Find("1/1")
+	local var_5_1 = arg_5_0.resTF:Find("1/2")
+	local var_5_2 = arg_5_0.resTF:Find("1/3")
+	local var_5_3 = arg_5_0.resTF:Find("2/1/1")
+	local var_5_4 = arg_5_0.resTF:Find("2/1/2")
+	local var_5_5 = arg_5_0.resTF:Find("2/1/3")
+	local var_5_6 = arg_5_0.resTF:Find("2/2/1")
+	local var_5_7 = arg_5_0.resTF:Find("2/2/2")
+	local var_5_8 = arg_5_0.resTF:Find("2/2/3")
+	local var_5_9 = arg_5_0.resTF:Find("2/3/1")
+	local var_5_10 = arg_5_0.resTF:Find("2/3/2")
+	local var_5_11 = arg_5_0.resTF:Find("2/3/3")
+	local var_5_12 = arg_5_0.resTF:Find("3/1")
+	local var_5_13 = arg_5_0.resTF:Find("3/2")
+	local var_5_14 = arg_5_0.resTF:Find("3/3")
+	local var_5_15 = arg_5_0.resTF:Find("4/1")
+	local var_5_16 = arg_5_0.resTF:Find("4/2")
+	local var_5_17 = arg_5_0.resTF:Find("4/3")
 
 	arg_5_0.iconTable = {
 		["1"] = {
@@ -136,7 +136,7 @@ function var_0_0.findUI(arg_5_0)
 			var_5_17
 		}
 	}
-	arg_5_0.icecreamResTF = arg_5_0:findTF("Icecream")
+	arg_5_0.icecreamResTF = arg_5_0._tf:Find("Icecream")
 	arg_5_0.mainToggleSelectedTF = {}
 	arg_5_0.mainToggleUnlockTF = {}
 
@@ -148,7 +148,7 @@ end
 
 function var_0_0.addListener(arg_6_0)
 	if IsUnityEditor then
-		local var_6_0 = arg_6_0:findTF("Logo", arg_6_0.bg)
+		local var_6_0 = arg_6_0.bg:Find("Logo")
 
 		onButton(arg_6_0, var_6_0, function()
 			for iter_7_0 = 1, 4 do
@@ -253,7 +253,7 @@ function var_0_0.initMainPanel(arg_15_0)
 				for iter_17_1 = 1, 3 do
 					local var_17_4 = getImageSprite(var_17_1[iter_17_1])
 
-					setImageSprite(arg_15_0:findTF("icon", var_17_3[iter_17_1]), var_17_4, true)
+					setImageSprite(var_17_3[iter_17_1]:Find("icon"), var_17_4, true)
 					onToggle(arg_15_0, var_17_3[iter_17_1], function(arg_18_0)
 						if arg_18_0 == true then
 							local var_18_0 = Clone(arg_15_0.selectedList)
@@ -445,11 +445,11 @@ function var_0_0.updateIcecream(arg_48_0, arg_48_1)
 
 	setActive(arg_48_0.icecreamTF, var_48_0[1] > 0)
 
-	local var_48_1 = arg_48_0:findTF("1", arg_48_0.icecreamTF)
-	local var_48_2 = arg_48_0:findTF("Taste", var_48_1)
-	local var_48_3 = arg_48_0:findTF("2", arg_48_0.icecreamTF)
-	local var_48_4 = arg_48_0:findTF("3", arg_48_0.icecreamTF)
-	local var_48_5 = arg_48_0:findTF("4", arg_48_0.icecreamTF)
+	local var_48_1 = arg_48_0.icecreamTF:Find("1")
+	local var_48_2 = var_48_1:Find("Taste")
+	local var_48_3 = arg_48_0.icecreamTF:Find("2")
+	local var_48_4 = arg_48_0.icecreamTF:Find("3")
+	local var_48_5 = arg_48_0.icecreamTF:Find("4")
 	local var_48_6 = var_48_0[1] and var_48_0[1] > 0
 
 	if var_48_6 then
@@ -467,28 +467,28 @@ function var_0_0.updateIcecream(arg_48_0, arg_48_1)
 
 	if var_48_6 then
 		local var_48_7 = "1_" .. var_48_0[1]
-		local var_48_8 = getImageSprite(arg_48_0:findTF(var_48_7, arg_48_0.icecreamResTF))
+		local var_48_8 = getImageSprite(arg_48_0.icecreamResTF:Find(var_48_7))
 
 		setImageSprite(var_48_2, var_48_8, true)
 	end
 
 	if var_48_0[2] and var_48_0[2] > 0 then
 		local var_48_9 = "2_" .. var_48_0[1] .. var_48_0[2]
-		local var_48_10 = getImageSprite(arg_48_0:findTF(var_48_9, arg_48_0.icecreamResTF))
+		local var_48_10 = getImageSprite(arg_48_0.icecreamResTF:Find(var_48_9))
 
 		setImageSprite(var_48_3, var_48_10, true)
 	end
 
 	if var_48_0[3] and var_48_0[3] > 0 then
 		local var_48_11 = "3_" .. var_48_0[3]
-		local var_48_12 = getImageSprite(arg_48_0:findTF(var_48_11, arg_48_0.icecreamResTF))
+		local var_48_12 = getImageSprite(arg_48_0.icecreamResTF:Find(var_48_11))
 
 		setImageSprite(var_48_4, var_48_12, true)
 	end
 
 	if var_48_0[4] and var_48_0[4] > 0 then
 		local var_48_13 = "4_" .. var_48_0[4]
-		local var_48_14 = getImageSprite(arg_48_0:findTF(var_48_13, arg_48_0.icecreamResTF))
+		local var_48_14 = getImageSprite(arg_48_0.icecreamResTF:Find(var_48_13))
 
 		setImageSprite(var_48_5, var_48_14, true)
 	end
@@ -606,8 +606,8 @@ function var_0_0.share(arg_54_0)
 
 		arg_54_0.shareGo = arg_55_0
 
-		local var_55_1 = arg_54_0:findTF("PlayerName", arg_55_0)
-		local var_55_2 = arg_54_0:findTF("IcecreamContainer", arg_55_0)
+		local var_55_1 = arg_55_0:Find("PlayerName")
+		local var_55_2 = arg_55_0:Find("IcecreamContainer")
 		local var_55_3 = getProxy(PlayerProxy):getData().name
 
 		setText(var_55_1, i18n("icecream_make_tip", var_55_3))
@@ -617,7 +617,7 @@ function var_0_0.share(arg_54_0)
 		local var_55_6 = getProxy(ServerProxy):getRawData()[var_55_5 and var_55_5.server or 0]
 		local var_55_7 = var_55_4 and var_55_4.name or ""
 		local var_55_8 = var_55_6 and var_55_6.name or ""
-		local var_55_9 = arg_54_0:findTF("deck", arg_55_0)
+		local var_55_9 = arg_55_0:Find("deck")
 
 		setText(var_55_9:Find("name/value"), var_55_7)
 		setText(var_55_9:Find("server/value"), var_55_8)
@@ -644,7 +644,7 @@ function var_0_0.share(arg_54_0)
 end
 
 function var_0_0.initSD(arg_56_0)
-	arg_56_0.sdContainer = arg_56_0:findTF("sdcontainer", arg_56_0.bg)
+	arg_56_0.sdContainer = arg_56_0.bg:Find("sdcontainer")
 	arg_56_0.spine = nil
 	arg_56_0.spineLRQ = GetSpineRequestPackage.New("salatuojia_8", function(arg_57_0)
 		SetParent(arg_57_0, arg_56_0.sdContainer)

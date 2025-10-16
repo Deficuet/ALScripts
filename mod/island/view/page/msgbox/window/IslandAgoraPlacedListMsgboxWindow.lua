@@ -28,11 +28,11 @@ end
 
 function var_0_0.OnLoaded(arg_5_0)
 	var_0_0.super.OnLoaded(arg_5_0)
-	setText(arg_5_0:findTF("list/titles/1"), i18n("island_label_furniture"))
-	setText(arg_5_0:findTF("list/titles/2"), i18n("island_label_furniture_cnt"))
-	setText(arg_5_0:findTF("list/titles/3"), i18n("island_label_furniture_capacity"))
+	setText(arg_5_0._tf:Find("list/titles/1"), i18n("island_label_furniture"))
+	setText(arg_5_0._tf:Find("list/titles/2"), i18n("island_label_furniture_cnt"))
+	setText(arg_5_0._tf:Find("list/titles/3"), i18n("island_label_furniture_capacity"))
 
-	arg_5_0.capacityTxt = arg_5_0:findTF("capacity"):GetComponent(typeof(Text))
+	arg_5_0.capacityTxt = arg_5_0._tf:Find("capacity"):GetComponent(typeof(Text))
 	arg_5_0.scrollRect = arg_5_0._tf:Find("list/scrollrect"):GetComponent("LScrollRect")
 
 	function arg_5_0.scrollRect.onInitItem(arg_6_0)

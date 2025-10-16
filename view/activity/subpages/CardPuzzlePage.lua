@@ -1,15 +1,15 @@
 local var_0_0 = class("CardPuzzlePage", import("view.base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.titleTF = arg_1_0:findTF("title", arg_1_0.bg)
-	arg_1_0.progressTF = arg_1_0:findTF("progress", arg_1_0.bg)
-	arg_1_0.descTF = arg_1_0:findTF("desc", arg_1_0.bg)
-	arg_1_0.startBtn = arg_1_0:findTF("start_btn", arg_1_0.bg)
-	arg_1_0.getBtn = arg_1_0:findTF("get_btn", arg_1_0.bg)
-	arg_1_0.gotBtn = arg_1_0:findTF("got_btn", arg_1_0.bg)
-	arg_1_0.item = arg_1_0:findTF("levels/tpl", arg_1_0.bg)
-	arg_1_0.items = arg_1_0:findTF("levels", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.titleTF = arg_1_0.bg:Find("title")
+	arg_1_0.progressTF = arg_1_0.bg:Find("progress")
+	arg_1_0.descTF = arg_1_0.bg:Find("desc")
+	arg_1_0.startBtn = arg_1_0.bg:Find("start_btn")
+	arg_1_0.getBtn = arg_1_0.bg:Find("get_btn")
+	arg_1_0.gotBtn = arg_1_0.bg:Find("got_btn")
+	arg_1_0.item = arg_1_0.bg:Find("levels/tpl")
+	arg_1_0.items = arg_1_0.bg:Find("levels")
 	arg_1_0.uilist = UIItemList.New(arg_1_0.items, arg_1_0.item)
 end
 
@@ -40,20 +40,20 @@ function var_0_0.OnFirstFlush(arg_3_0)
 end
 
 function var_0_0.InitItem(arg_6_0, arg_6_1, arg_6_2)
-	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", arg_6_1 + 1, arg_6_0:findTF("normal/num", arg_6_2), true)
-	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", arg_6_1 + 1, arg_6_0:findTF("selected/num", arg_6_2), true)
+	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", arg_6_1 + 1, arg_6_2:Find("normal/num"), true)
+	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", arg_6_1 + 1, arg_6_2:Find("selected/num"), true)
 end
 
 function var_0_0.UpdateItem(arg_7_0, arg_7_1, arg_7_2)
 	local var_7_0 = arg_7_1 + 1
 	local var_7_1 = arg_7_0.levelList[var_7_0]
 
-	setActive(arg_7_0:findTF("selected", arg_7_2), arg_7_0.selectedId == var_7_1)
+	setActive(arg_7_2:Find("selected"), arg_7_0.selectedId == var_7_1)
 
 	local var_7_2 = table.contains(arg_7_0.finishList, var_7_1)
 
-	setActive(arg_7_0:findTF("finish", arg_7_2), var_7_2)
-	setActive(arg_7_0:findTF("normal", arg_7_2), not var_7_2 and arg_7_0.selectedId ~= var_7_1)
+	setActive(arg_7_2:Find("finish"), var_7_2)
+	setActive(arg_7_2:Find("normal"), not var_7_2 and arg_7_0.selectedId ~= var_7_1)
 	onButton(arg_7_0, arg_7_2, function()
 		arg_7_0.selectedId = var_7_1
 
@@ -131,7 +131,7 @@ function var_0_0.UpdateEveryDayTip(arg_14_0)
 	end
 
 	local var_14_0, var_14_1 = arg_14_0:GetCurLevel()
-	local var_14_2 = arg_14_0:findTF("tip", arg_14_0.items:GetChild(var_14_1 - 1))
+	local var_14_2 = arg_14_0.items:GetChild(var_14_1 - 1):Find("tip")
 	local var_14_3 = getProxy(PlayerProxy):getData().id
 	local var_14_4 = "DAY_TIP_" .. arg_14_0.activity.id .. "_" .. var_14_3 .. "_" .. arg_14_0.activity:getDayIndex()
 

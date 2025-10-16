@@ -6,7 +6,7 @@ function var_0_0.SetCallBack(arg_1_0, arg_1_1, arg_1_2)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.buttonContainer = arg_2_0:findTF("frame/opera")
+	arg_2_0.buttonContainer = arg_2_0._tf:Find("frame/opera")
 
 	local var_2_0 = pg.UIMgr.GetInstance().OverlayMain.transform:InverseTransformPoint(arg_2_0.buttonContainer.position)
 

@@ -1,10 +1,10 @@
 local var_0_0 = class("ChargeAwardPage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("bg")
-	arg_1_0.charge = arg_1_0:findTF("charge")
-	arg_1_0.take = arg_1_0:findTF("take")
-	arg_1_0.finish = arg_1_0:findTF("finish")
+	arg_1_0.bg = arg_1_0._tf:Find("bg")
+	arg_1_0.charge = arg_1_0._tf:Find("charge")
+	arg_1_0.take = arg_1_0._tf:Find("take")
+	arg_1_0.finish = arg_1_0._tf:Find("finish")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)

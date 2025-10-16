@@ -6,15 +6,15 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.cg = GetOrAddComponent(arg_2_0._parentTf, typeof(CanvasGroup))
-	arg_2_0.backBtn = arg_2_0:findTF("back")
-	arg_2_0.helpBtn = arg_2_0:findTF("help")
-	arg_2_0.frame = arg_2_0:findTF("frame")
-	arg_2_0.eventTrigger = arg_2_0:findTF("frame"):GetComponent(typeof(EventTriggerListener))
+	arg_2_0.backBtn = arg_2_0._tf:Find("back")
+	arg_2_0.helpBtn = arg_2_0._tf:Find("help")
+	arg_2_0.frame = arg_2_0._tf:Find("frame")
+	arg_2_0.eventTrigger = arg_2_0._tf:Find("frame"):GetComponent(typeof(EventTriggerListener))
 	arg_2_0.uiCam = pg.UIMgr.GetInstance().uiCamera:GetComponent("Camera")
 	arg_2_0.oneKeyBtn = arg_2_0.frame:Find("onekey")
 	arg_2_0.penTpl = arg_2_0.frame:Find("pen")
 
-	setText(arg_2_0:findTF("tip"), i18n("sculpture_drawline_tip"))
+	setText(arg_2_0._tf:Find("tip"), i18n("sculpture_drawline_tip"))
 end
 
 function var_0_0.OnInit(arg_3_0)

@@ -902,6 +902,24 @@ pg.island_set = {
 		key = "agora_reloading_base_cd",
 		key_value_int = 3
 	},
+	island_corncup_return_mail_content = {
+		key_value_int = 0,
+		key = "island_corncup_return_mail_content",
+		key_value_varchar = {
+			"岛屿科技额外消耗资源返还",
+			"感谢指挥官在岛屿计划中作出的贡献喵~"
+		}
+	},
+	island_shiporder_refresh_cd = {
+		key_value_varchar = "",
+		key = "island_shiporder_refresh_cd",
+		key_value_int = 1800
+	},
+	island_combo_count_limit = {
+		key_value_varchar = "",
+		key = "island_combo_count_limit",
+		key_value_int = 9999
+	},
 	all = {
 		"order_complete_refresh_time",
 		"order_change_time",
@@ -994,6 +1012,9 @@ pg.island_set = {
 		"island_photohight_TPS",
 		"island_dress_follow_param",
 		"island_ticket_shopid",
-		"agora_reloading_base_cd"
+		"agora_reloading_base_cd",
+		"island_corncup_return_mail_content",
+		"island_shiporder_refresh_cd",
+		"island_combo_count_limit"
 	}
 }

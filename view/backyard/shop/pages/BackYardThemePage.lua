@@ -13,25 +13,25 @@ end
 
 function var_0_0.LoadList(arg_3_0)
 	arg_3_0._parentTF = arg_3_0._tf.parent
-	arg_3_0.adpter = arg_3_0:findTF("adpter")
-	arg_3_0.themeContainer = arg_3_0:findTF("list/frame")
-	arg_3_0.scrollRect = arg_3_0:findTF("list/frame/mask"):GetComponent("LScrollRect")
-	arg_3_0.scrollRectWidth = arg_3_0:findTF("list/frame/mask").rect.width
-	arg_3_0.searchInput = arg_3_0:findTF("adpter/search")
+	arg_3_0.adpter = arg_3_0._tf:Find("adpter")
+	arg_3_0.themeContainer = arg_3_0._tf:Find("list/frame")
+	arg_3_0.scrollRect = arg_3_0._tf:Find("list/frame/mask/content"):GetComponent("LScrollRect")
+	arg_3_0.scrollRectWidth = arg_3_0._tf:Find("list/frame/mask").rect.width
+	arg_3_0.searchInput = arg_3_0._tf:Find("adpter/search")
 	arg_3_0.searchClear = arg_3_0.searchInput:Find("clear")
 
 	setText(arg_3_0.searchInput:Find("Placeholder"), i18n("courtyard_label_search_holder"))
 end
 
 function var_0_0.LoadDetail(arg_4_0)
-	arg_4_0.purchaseBtn = arg_4_0:findTF("adpter/descript/btn_goumai")
-	arg_4_0.title = arg_4_0:findTF("adpter/descript/title"):GetComponent(typeof(Text))
-	arg_4_0.desc = arg_4_0:findTF("adpter/descript/desc"):GetComponent(typeof(Text))
-	arg_4_0.actualPrice = arg_4_0:findTF("adpter/descript/price/actual_price")
-	arg_4_0.actualPriceTxt = arg_4_0:findTF("adpter/descript/price/actual_price/Text"):GetComponent(typeof(Text))
-	arg_4_0.goldTxt = arg_4_0:findTF("adpter/descript/price/price/Text"):GetComponent(typeof(Text))
-	arg_4_0.preview = arg_4_0:findTF("preview"):GetComponent(typeof(Image))
-	arg_4_0.descript = arg_4_0:findTF("adpter/descript")
+	arg_4_0.purchaseBtn = arg_4_0._tf:Find("adpter/descript/btn_goumai")
+	arg_4_0.title = arg_4_0._tf:Find("adpter/descript/title"):GetComponent(typeof(Text))
+	arg_4_0.desc = arg_4_0._tf:Find("adpter/descript/desc"):GetComponent(typeof(Text))
+	arg_4_0.actualPrice = arg_4_0._tf:Find("adpter/descript/price/actual_price")
+	arg_4_0.actualPriceTxt = arg_4_0._tf:Find("adpter/descript/price/actual_price/Text"):GetComponent(typeof(Text))
+	arg_4_0.goldTxt = arg_4_0._tf:Find("adpter/descript/price/price/Text"):GetComponent(typeof(Text))
+	arg_4_0.preview = arg_4_0._tf:Find("preview"):GetComponent(typeof(Image))
+	arg_4_0.descript = arg_4_0._tf:Find("adpter/descript")
 	arg_4_0.infoPage = BackYardThemeInfoPage.New(arg_4_0._tf.parent, arg_4_0.event, arg_4_0.contextData)
 
 	function arg_4_0.infoPage.OnEnter()
@@ -160,6 +160,8 @@ function var_0_0.InitThemeList(arg_23_0)
 	arg_23_0.disPlays = arg_23_0:GetData()
 
 	onNextTick(function()
+		arg_23_0.scrollRect.enabled = true
+
 		arg_23_0.scrollRect:SetTotalCount(#arg_23_0.disPlays)
 	end)
 end
@@ -406,7 +408,7 @@ end
 function var_0_0.BlurView(arg_48_0)
 	pg.UIMgr.GetInstance():OverlayPanel(arg_48_0.adpter, {
 		pbList = {
-			arg_48_0:findTF("adpter/descript")
+			arg_48_0._tf:Find("adpter/descript")
 		}
 	})
 end

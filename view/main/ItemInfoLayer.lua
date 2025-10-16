@@ -16,7 +16,7 @@ end
 function var_0_0.init(arg_2_0)
 	arg_2_0:BlurPanel(arg_2_0._tf)
 
-	arg_2_0.window = arg_2_0:findTF("window")
+	arg_2_0.window = arg_2_0._tf:Find("window")
 
 	setText(arg_2_0.window:Find("top/bg/infomation/title"), i18n("words_information"))
 
@@ -84,7 +84,7 @@ function var_0_0.init(arg_2_0)
 	end
 
 	arg_2_0.itemTF = arg_2_0.window:Find("item")
-	arg_2_0.operatePanel = arg_2_0:findTF("operate")
+	arg_2_0.operatePanel = arg_2_0._tf:Find("operate")
 	arg_2_0.countTF = arg_2_0.operatePanel:Find("item/left/own/Text"):GetComponent(typeof(Text))
 	arg_2_0.keepFateTog = arg_2_0.operatePanel:Find("got/keep_tog")
 
@@ -324,7 +324,7 @@ function var_0_0.closeView(arg_21_0)
 end
 
 function var_0_0.didEnter(arg_22_0)
-	local var_22_0 = arg_22_0:findTF("OpenBox(Clone)")
+	local var_22_0 = arg_22_0._tf:Find("OpenBox(Clone)")
 
 	if var_22_0 then
 		SetActive(var_22_0, false)
@@ -701,7 +701,7 @@ function var_0_0.PlayOpenBox(arg_55_0, arg_55_1, arg_55_2)
 	end
 
 	local var_55_0 = {}
-	local var_55_1 = arg_55_0:findTF(arg_55_1 .. "(Clone)")
+	local var_55_1 = arg_55_0._tf:Find(arg_55_1 .. "(Clone)")
 
 	if var_55_1 then
 		arg_55_0[arg_55_1] = go(var_55_1)
@@ -754,22 +754,22 @@ end
 
 function var_0_0.inOutAnim(arg_61_0, arg_61_1, arg_61_2)
 	if arg_61_1 then
-		local var_61_0 = arg_61_0:findTF("window/bg_decorations"):GetComponent(typeof(Animation))
+		local var_61_0 = arg_61_0._tf:Find("window/bg_decorations"):GetComponent(typeof(Animation))
 
 		var_61_0:Stop()
 		var_61_0:Play("anim_window_bg")
 
-		local var_61_1 = arg_61_0:findTF("window/top"):GetComponent(typeof(Animation))
+		local var_61_1 = arg_61_0._tf:Find("window/top"):GetComponent(typeof(Animation))
 
 		var_61_1:Stop()
 		var_61_1:Play("anim_top")
 
-		local var_61_2 = arg_61_0:findTF("window"):GetComponent(typeof(Animation))
+		local var_61_2 = arg_61_0._tf:Find("window"):GetComponent(typeof(Animation))
 
 		var_61_2:Stop()
 		var_61_2:Play("anim_content")
 
-		local var_61_3 = arg_61_0:findTF("bg"):GetComponent(typeof(Animation))
+		local var_61_3 = arg_61_0._tf:Find("bg"):GetComponent(typeof(Animation))
 
 		var_61_3:Stop()
 		var_61_3:Play("anim_bg_plus")

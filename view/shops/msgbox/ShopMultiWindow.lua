@@ -5,25 +5,25 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.topItem = arg_2_0:findTF("item/panel_bg")
+	arg_2_0.topItem = arg_2_0._tf:Find("item/panel_bg")
 	arg_2_0.ownerTF = arg_2_0.topItem:Find("left/own")
 	arg_2_0.detailTF = arg_2_0.topItem:Find("left/detail")
 	arg_2_0.nameTF = arg_2_0.topItem:Find("display_panel/name_container/name/Text"):GetComponent(typeof(Text))
 	arg_2_0.descTF = arg_2_0.topItem:Find("display_panel/desc/Text"):GetComponent(typeof(Text))
 	arg_2_0.timeLimitTF = arg_2_0.topItem:Find("time_limit")
-	arg_2_0.bottomItem = arg_2_0:findTF("got/panel_bg/list/item")
+	arg_2_0.bottomItem = arg_2_0._tf:Find("got/panel_bg/list/item")
 	arg_2_0.itemCountTF = arg_2_0.bottomItem:Find("icon_bg/count"):GetComponent(typeof(Text))
-	arg_2_0.maxBtn = arg_2_0:findTF("count/max")
-	arg_2_0.leftBtn = arg_2_0:findTF("count/number_panel/left")
-	arg_2_0.rightBtn = arg_2_0:findTF("count/number_panel/right")
-	arg_2_0.countTF = arg_2_0:findTF("count/number_panel/value"):GetComponent(typeof(Text))
-	arg_2_0.cancelBtn = arg_2_0:findTF("actions/cancel_button")
-	arg_2_0.confirmBtn = arg_2_0:findTF("actions/confirm_button")
+	arg_2_0.maxBtn = arg_2_0._tf:Find("count/max")
+	arg_2_0.leftBtn = arg_2_0._tf:Find("count/number_panel/left")
+	arg_2_0.rightBtn = arg_2_0._tf:Find("count/number_panel/right")
+	arg_2_0.countTF = arg_2_0._tf:Find("count/number_panel/value"):GetComponent(typeof(Text))
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("actions/cancel_button")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("actions/confirm_button")
 
-	setText(arg_2_0:findTF("got/panel_bg/got_text"), i18n("shops_msgbox_output"))
-	setText(arg_2_0:findTF("count/image_text"), i18n("shops_msgbox_exchange_count"))
-	setText(arg_2_0:findTF("actions/cancel_button/label"), i18n("shop_word_cancel"))
-	setText(arg_2_0:findTF("actions/confirm_button/label"), i18n("shop_word_exchange"))
+	setText(arg_2_0._tf:Find("got/panel_bg/got_text"), i18n("shops_msgbox_output"))
+	setText(arg_2_0._tf:Find("count/image_text"), i18n("shops_msgbox_exchange_count"))
+	setText(arg_2_0._tf:Find("actions/cancel_button/label"), i18n("shop_word_cancel"))
+	setText(arg_2_0._tf:Find("actions/confirm_button/label"), i18n("shop_word_exchange"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -58,7 +58,7 @@ function var_0_0.InitWindow(arg_7_0, arg_7_1, arg_7_2)
 		if var_7_1 and var_7_2 then
 			local var_7_4 = getProxy(ActivityProxy):getActivityById(Item.getConfigData(var_7_0.id).link_id)
 
-			setText(arg_7_0:findTF("Text", arg_7_0.timeLimitTF), i18n("eventshop_time_hint", pg.TimeMgr.GetInstance():STimeDescC(var_7_4.stopTime, "%m.%d")))
+			setText(arg_7_0.timeLimitTF:Find("Text"), i18n("eventshop_time_hint", pg.TimeMgr.GetInstance():STimeDescC(var_7_4.stopTime, "%m.%d")))
 		end
 	end
 

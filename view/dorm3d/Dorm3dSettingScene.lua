@@ -5,15 +5,15 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.backBtn = arg_2_0:findTF("blur_panel/adapt/top/back_btn")
+	arg_2_0.backBtn = arg_2_0._tf:Find("blur_panel/adapt/top/back_btn")
 
-	local var_2_0 = arg_2_0:findTF("pages")
+	local var_2_0 = arg_2_0._tf:Find("pages")
 
 	arg_2_0.pages = {
 		Settings3DPage.New(var_2_0, arg_2_0.event, arg_2_0.contextData)
 	}
 	arg_2_0.toggles = {
-		arg_2_0:findTF("blur_panel/adapt/left_length/threeD")
+		arg_2_0._tf:Find("blur_panel/adapt/left_length/threeD")
 	}
 	arg_2_0.otherTip = arg_2_0.toggles[1]:Find("tip")
 	arg_2_0.descWindow = SettingsMsgBosPage.New(arg_2_0._tf, arg_2_0.event)

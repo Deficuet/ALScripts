@@ -43,10 +43,10 @@ function var_0_0.initData(arg_8_0)
 end
 
 function var_0_0.initUI(arg_9_0)
-	arg_9_0.bg = arg_9_0:findTF("BG")
-	arg_9_0.text = arg_9_0:findTF("Content/Context/Text")
-	arg_9_0.cancelBtn = arg_9_0:findTF("Content/CancelBtn")
-	arg_9_0.confirmBtn = arg_9_0:findTF("Content/ConfirmBtn")
+	arg_9_0.bg = arg_9_0._tf:Find("BG")
+	arg_9_0.text = arg_9_0._tf:Find("Content/Context/Text")
+	arg_9_0.cancelBtn = arg_9_0._tf:Find("Content/CancelBtn")
+	arg_9_0.confirmBtn = arg_9_0._tf:Find("Content/ConfirmBtn")
 
 	setText(arg_9_0.text, i18n("metaskill_overflow_tip", arg_9_0.overExp))
 end

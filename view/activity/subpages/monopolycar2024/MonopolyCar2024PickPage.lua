@@ -5,7 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.confirmBtn = arg_2_0:findTF("confirm")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("confirm")
 	arg_2_0.anim = arg_2_0._tf:GetComponent(typeof(Animation))
 	arg_2_0.animEvent = arg_2_0.anim:GetComponent(typeof(DftAniEvent))
 
@@ -14,12 +14,12 @@ function var_0_0.OnLoaded(arg_2_0)
 	end)
 
 	arg_2_0.items = {
-		arg_2_0:findTF("list/1"),
-		arg_2_0:findTF("list/2"),
-		arg_2_0:findTF("list/3")
+		arg_2_0._tf:Find("list/1"),
+		arg_2_0._tf:Find("list/2"),
+		arg_2_0._tf:Find("list/3")
 	}
 
-	setText(arg_2_0:findTF("title/Text"), i18n("MonopolyCar2024Game_pick_tip"))
+	setText(arg_2_0._tf:Find("title/Text"), i18n("MonopolyCar2024Game_pick_tip"))
 	setText(arg_2_0.confirmBtn:Find("Text"), i18n("MonopolyCar2024Game_sel_label"))
 end
 

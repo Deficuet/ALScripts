@@ -13,7 +13,7 @@ var_0_0.SpineShopActionSpeed = {
 
 function var_0_0.OnFirstFlush(arg_1_0)
 	var_0_0.super.OnFirstFlush(arg_1_0)
-	onButton(arg_1_0, arg_1_0:findTF("sdBtn", arg_1_0.bg), function()
+	onButton(arg_1_0, arg_1_0.bg:Find("sdBtn"), function()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)
 	onButton(arg_1_0, arg_1_0.battleBtn, function()
@@ -56,7 +56,7 @@ function var_0_0.OnFirstFlush(arg_1_0)
 		end)
 	end, SFX_PANEL)
 
-	arg_1_0.sdContainer = arg_1_0:findTF("sdcontainer", arg_1_0.bg)
+	arg_1_0.sdContainer = arg_1_0.bg:Find("sdcontainer")
 	arg_1_0.sdSpine = nil
 	arg_1_0.sdName = arg_1_0.GetRandomName()
 	arg_1_0.sdSpineLRQ = GetSpineRequestPackage.New(arg_1_0.sdName, function(arg_7_0)
@@ -73,7 +73,7 @@ function var_0_0.OnFirstFlush(arg_1_0)
 
 		arg_1_0.sdSpineLRQ = nil
 	end):Start()
-	arg_1_0.shopSpine = arg_1_0:findTF("shop/shop", arg_1_0.bg)
+	arg_1_0.shopSpine = arg_1_0.bg:Find("shop/shop")
 	arg_1_0.shopAnim = arg_1_0.shopSpine:GetComponent("SpineAnimUI")
 	arg_1_0.shopGraphic = arg_1_0.shopSpine:GetComponent("SkeletonGraphic")
 

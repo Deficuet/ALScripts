@@ -23,6 +23,7 @@ function var_0_0.SetUp(arg_3_0)
 	arg_3_0.hudContainer = arg_3_0.baseContainer:Find("layer1/hud")
 	arg_3_0.pageContianer = arg_3_0.baseContainer:Find("layer1/page")
 	arg_3_0.layer2UIContianer = arg_3_0.baseContainer:Find("layer2/ui")
+	arg_3_0.layer2OpContianer = arg_3_0.baseContainer:Find("layer2/op")
 	arg_3_0.root = arg_3_0:CreateRoot()
 
 	arg_3_0:Init()
@@ -138,59 +139,63 @@ function var_0_0.InMap(arg_24_0, arg_24_1)
 	return arg_24_0:GetCore():GetMapId() == arg_24_1
 end
 
-function var_0_0.AddListener(arg_25_0, arg_25_1, arg_25_2)
-	local function var_25_0(arg_26_0, ...)
-		arg_25_2(arg_25_0, ...)
-	end
-
-	assert(arg_25_0.callbacks[arg_25_2] == nil, "This method has been monitored. Please use another one" .. arg_25_1)
-
-	arg_25_0.callbacks[arg_25_2] = var_25_0
-
-	arg_25_0.core:AddListener(arg_25_1, var_25_0)
+function var_0_0.GetMapId(arg_25_0)
+	return arg_25_0:GetCore():GetMapId()
 end
 
-function var_0_0.RemoveListener(arg_27_0, arg_27_1, arg_27_2)
-	local var_27_0 = arg_27_0.callbacks[arg_27_2]
+function var_0_0.AddListener(arg_26_0, arg_26_1, arg_26_2)
+	local function var_26_0(arg_27_0, ...)
+		arg_26_2(arg_26_0, ...)
+	end
 
-	if var_27_0 then
-		arg_27_0.core:RemoveListener(arg_27_1, var_27_0)
+	assert(arg_26_0.callbacks[arg_26_2] == nil, "This method has been monitored. Please use another one" .. arg_26_1)
 
-		arg_27_0.callbacks[var_27_0] = nil
+	arg_26_0.callbacks[arg_26_2] = var_26_0
+
+	arg_26_0.core:AddListener(arg_26_1, var_26_0)
+end
+
+function var_0_0.RemoveListener(arg_28_0, arg_28_1, arg_28_2)
+	local var_28_0 = arg_28_0.callbacks[arg_28_2]
+
+	if var_28_0 then
+		arg_28_0.core:RemoveListener(arg_28_1, var_28_0)
+
+		arg_28_0.callbacks[var_28_0] = nil
 	end
 end
 
-function var_0_0.Dispose(arg_28_0)
+function var_0_0.Dispose(arg_29_0)
 	pg.BgmMgr.GetInstance():StopPlay()
-	arg_28_0:RemoveListeners()
-	arg_28_0:OnDispose()
+	arg_29_0:RemoveListeners()
+	arg_29_0:OnDispose()
 
-	arg_28_0.callbacks = nil
-	arg_28_0.unitRegister = nil
-	arg_28_0.registerIndex = 0
+	arg_29_0.callbacks = nil
+	arg_29_0.unitRegister = nil
+	arg_29_0.registerIndex = 0
 end
 
-function var_0_0.Init(arg_29_0)
+function var_0_0.Init(arg_30_0)
 	return
 end
 
-function var_0_0.Update(arg_30_0)
+function var_0_0.Update(arg_31_0)
 	return
 end
 
-function var_0_0.LateUpdate(arg_31_0)
+function var_0_0.LateUpdate(arg_32_0)
 	return
 end
 
-function var_0_0.AddListeners(arg_32_0)
+function var_0_0.AddListeners(arg_33_0)
 	return
 end
 
-function var_0_0.RemoveListeners(arg_33_0)
+function var_0_0.RemoveListeners(arg_34_0)
 	return
 end
 
-function var_0_0.OnDispose(arg_34_0)
+function var_0_0.OnDispose(arg_35_0)
 	return
 end
 

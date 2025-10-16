@@ -7,8 +7,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.onlnyLevelTr = arg_2_0:findTF("small")
-	arg_2_0.dropPanelTr = arg_2_0:findTF("module")
+	arg_2_0.onlnyLevelTr = arg_2_0._tf:Find("small")
+	arg_2_0.dropPanelTr = arg_2_0._tf:Find("module")
 	arg_2_0.unlockUIList = UIItemList.New(arg_2_0.dropPanelTr:Find("Board/Content/award/content"), arg_2_0.dropPanelTr:Find("Board/Content/award/content/tpl"))
 	arg_2_0.canvasGroup = GetOrAddComponent(arg_2_0._tf, typeof(CanvasGroup))
 

@@ -15,8 +15,8 @@ function var_0_0.OnCatteryStyleUpdate(arg_3_0, arg_3_1)
 end
 
 function var_0_0.OnLoaded(arg_4_0)
-	arg_4_0.scrollrect = arg_4_0:findTF("scrollrect"):GetComponent("LScrollRect")
-	arg_4_0.okBtn = arg_4_0:findTF("ok_button")
+	arg_4_0.scrollrect = arg_4_0._tf:Find("scrollrect"):GetComponent("LScrollRect")
+	arg_4_0.okBtn = arg_4_0._tf:Find("ok_button")
 
 	setActive(arg_4_0._tf, true)
 end

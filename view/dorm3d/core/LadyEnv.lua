@@ -198,6 +198,8 @@ function var_0_0.InitCharacter(arg_2_0, arg_2_1)
 	arg_2_0.transparencyComp.player = arg_2_0:Get("player")
 	arg_2_0.transparencyComp.minDistance = DormConst.TRANSPARENCY_MIN_DISTANCE
 	arg_2_0.transparencyComp.maxDistance = DormConst.TRANSPARENCY_MAX_DISTANCE
+
+	arg_2_0:Emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "InitDormStocking", arg_2_0, arg_2_0.skinId)
 end
 
 function var_0_0.SetZone(arg_17_0, arg_17_1, arg_17_2)
@@ -519,6 +521,14 @@ end
 
 function var_0_0.BlockCanWatch(arg_50_0, arg_50_1)
 	arg_50_0.blockCanWatch = arg_50_1
+end
+
+function var_0_0.SetPosition(arg_51_0, arg_51_1)
+	arg_51_0.lady.position = arg_51_1
+end
+
+function var_0_0.SetRotation(arg_52_0, arg_52_1)
+	arg_52_0.lady.rotation = arg_52_1
 end
 
 return var_0_0

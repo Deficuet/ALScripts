@@ -131,7 +131,7 @@ function var_0_0.init(arg_4_0)
 
 	arg_4_0.wsPool = WSPool.New()
 
-	arg_4_0.wsPool:Setup(arg_4_0:findTF("resources"))
+	arg_4_0.wsPool:Setup(arg_4_0._tf:Find("resources"))
 
 	arg_4_0.wsAnim = WSAnim.New()
 
@@ -181,7 +181,7 @@ function var_0_0.init(arg_4_0)
 end
 
 function var_0_0.InitSubView(arg_11_0)
-	arg_11_0.rtPanelList = arg_11_0:findTF("panel_list")
+	arg_11_0.rtPanelList = arg_11_0._tf:Find("panel_list")
 	arg_11_0.svOrderPanel = SVOrderPanel.New(arg_11_0.rtPanelList, arg_11_0.event, {
 		wsPool = arg_11_0.wsPool
 	})

@@ -82,33 +82,33 @@ end
 function var_0_0.findUI(arg_7_0)
 	arg_7_0.nationAllToggle = nil
 	arg_7_0.nationAllToggleCom = nil
-	arg_7_0.nationMetaToggle = arg_7_0:findTF("Adapt/Left/MetaToggle")
+	arg_7_0.nationMetaToggle = arg_7_0._tf:Find("Adapt/Left/MetaToggle")
 	arg_7_0.nationMetaToggleCom = GetComponent(arg_7_0.nationMetaToggle, "Toggle")
-	arg_7_0.nationMotToggle = arg_7_0:findTF("Adapt/Left/MotToggle")
+	arg_7_0.nationMotToggle = arg_7_0._tf:Find("Adapt/Left/MotToggle")
 	arg_7_0.nationMotToggleCom = GetComponent(arg_7_0.nationMotToggle, "Toggle")
 	arg_7_0.typeAllToggle = nil
 	arg_7_0.typeAllToggleCom = nil
-	arg_7_0.blurPanel = arg_7_0:findTF("blur_panel")
-	arg_7_0.adapt = arg_7_0:findTF("adapt", arg_7_0.blurPanel)
-	arg_7_0.backBtn = arg_7_0:findTF("top/back", arg_7_0.adapt)
-	arg_7_0.homeBtn = arg_7_0:findTF("top/option", arg_7_0.adapt)
-	arg_7_0.additionDetailBtn = arg_7_0:findTF("AdditionDetailBtn", arg_7_0.adapt)
-	arg_7_0.switchBtn = arg_7_0:findTF("SwitchToggle", arg_7_0.adapt)
-	arg_7_0.pointTF = arg_7_0:findTF("PointCount", arg_7_0.adapt)
-	arg_7_0.pointNumText = arg_7_0:findTF("PointCount/PointNumText", arg_7_0.adapt)
-	arg_7_0.redPointImg = arg_7_0:findTF("RedPoint", arg_7_0.switchBtn)
-	arg_7_0.helpBtn = arg_7_0:findTF("help_btn", arg_7_0.adapt)
-	arg_7_0.leftContainer = arg_7_0:findTF("Adapt/Left/Scroll View/Content")
-	arg_7_0.selectNationItem = arg_7_0:findTF("SelectCampItem")
-	arg_7_0.bottomContainer = arg_7_0:findTF("Adapt/Bottom/Content")
-	arg_7_0.selectTypeItem = arg_7_0:findTF("SelectTypeItem")
-	arg_7_0.rightContainer = arg_7_0:findTF("Adapt/Right/Container")
+	arg_7_0.blurPanel = arg_7_0._tf:Find("blur_panel")
+	arg_7_0.adapt = arg_7_0.blurPanel:Find("adapt")
+	arg_7_0.backBtn = arg_7_0.adapt:Find("top/back")
+	arg_7_0.homeBtn = arg_7_0.adapt:Find("top/option")
+	arg_7_0.additionDetailBtn = arg_7_0.adapt:Find("AdditionDetailBtn")
+	arg_7_0.switchBtn = arg_7_0.adapt:Find("SwitchToggle")
+	arg_7_0.pointTF = arg_7_0.adapt:Find("PointCount")
+	arg_7_0.pointNumText = arg_7_0.adapt:Find("PointCount/PointNumText")
+	arg_7_0.redPointImg = arg_7_0.switchBtn:Find("RedPoint")
+	arg_7_0.helpBtn = arg_7_0.adapt:Find("help_btn")
+	arg_7_0.leftContainer = arg_7_0._tf:Find("Adapt/Left/Scroll View/Content")
+	arg_7_0.selectNationItem = arg_7_0._tf:Find("SelectCampItem")
+	arg_7_0.bottomContainer = arg_7_0._tf:Find("Adapt/Bottom/Content")
+	arg_7_0.selectTypeItem = arg_7_0._tf:Find("SelectTypeItem")
+	arg_7_0.rightContainer = arg_7_0._tf:Find("Adapt/Right/Container")
 	arg_7_0.rightLSC = arg_7_0.rightContainer:GetComponent("LScrollRect")
 	arg_7_0.rightLayoutGroup = arg_7_0.rightContainer:GetComponent("VerticalLayoutGroup")
-	arg_7_0.headItem = arg_7_0:findTF("HeadItem")
+	arg_7_0.headItem = arg_7_0._tf:Find("HeadItem")
 	arg_7_0.rowHeight = arg_7_0.headItem.rect.height
 	arg_7_0.maxRowHeight = 853.5
-	arg_7_0.emptyPage = BaseEmptyListPage.New(arg_7_0:findTF("Adapt/Right/ViewPort"), arg_7_0.event)
+	arg_7_0.emptyPage = BaseEmptyListPage.New(arg_7_0._tf:Find("Adapt/Right/ViewPort"), arg_7_0.event)
 end
 
 function var_0_0.onBackPressed(arg_8_0)
@@ -146,15 +146,15 @@ end
 function var_0_0.initNationToggleUIList(arg_14_0)
 	arg_14_0.nationAllToggle = nil
 	arg_14_0.nationAllToggleCom = nil
-	arg_14_0.nationMetaToggle = arg_14_0:findTF("Adapt/Left/MetaToggle")
+	arg_14_0.nationMetaToggle = arg_14_0._tf:Find("Adapt/Left/MetaToggle")
 	arg_14_0.nationMetaToggleCom = GetComponent(arg_14_0.nationMetaToggle, "Toggle")
-	arg_14_0.nationMotToggle = arg_14_0:findTF("Adapt/Left/MotToggle")
+	arg_14_0.nationMotToggle = arg_14_0._tf:Find("Adapt/Left/MotToggle")
 	arg_14_0.nationMotToggleCom = GetComponent(arg_14_0.nationMotToggle, "Toggle")
 
 	setActive(arg_14_0.nationMetaToggle, not LOCK_TEC_META)
 
 	if LOCK_TEC_META then
-		local var_14_0 = arg_14_0:findTF("Adapt/Left/Scroll View")
+		local var_14_0 = arg_14_0._tf:Find("Adapt/Left/Scroll View")
 
 		var_14_0.offsetMin = Vector2.New(var_14_0.offsetMin.x, 0)
 	end
@@ -163,7 +163,7 @@ function var_0_0.initNationToggleUIList(arg_14_0)
 
 	var_14_1:make(function(arg_15_0, arg_15_1, arg_15_2)
 		if arg_15_0 == UIItemList.EventUpdate then
-			arg_14_0:findTF("UnSelectedImg", arg_15_2):GetComponent("Image").sprite, arg_14_0:findTF("SelectedImg", arg_15_2):GetComponent("Image").sprite = TechnologyConst.GetNationSpriteByIndex(arg_15_1 + 1)
+			arg_15_2:Find("UnSelectedImg"):GetComponent("Image").sprite, arg_15_2:Find("SelectedImg"):GetComponent("Image").sprite = TechnologyConst.GetNationSpriteByIndex(arg_15_1 + 1)
 
 			if arg_15_1 == 0 then
 				arg_14_0.nationAllToggle = arg_15_2
@@ -266,7 +266,7 @@ function var_0_0.updateNationToggleUIList(arg_20_0)
 		_.each(arg_20_0.nationToggleList, function(arg_21_0)
 			triggerToggle(arg_21_0, false)
 			onNextTick(function()
-				local var_22_0 = arg_20_0:findTF("UnSelectedImg", arg_21_0)
+				local var_22_0 = arg_21_0:Find("UnSelectedImg")
 
 				setActive(var_22_0, true)
 			end)
@@ -304,7 +304,7 @@ function var_0_0.initTypeToggleUIList(arg_25_0)
 
 	var_25_0:make(function(arg_26_0, arg_26_1, arg_26_2)
 		if arg_26_0 == UIItemList.EventUpdate then
-			arg_25_0:findTF("UnSelectedImg", arg_26_2):GetComponent("Image").sprite, arg_25_0:findTF("SelectedImg", arg_26_2):GetComponent("Image").sprite = TechnologyConst.GetTypeSpriteByIndex(arg_26_1 + 1)
+			arg_26_2:Find("UnSelectedImg"):GetComponent("Image").sprite, arg_26_2:Find("SelectedImg"):GetComponent("Image").sprite = TechnologyConst.GetTypeSpriteByIndex(arg_26_1 + 1)
 			arg_26_1 = arg_26_1 + 1
 
 			if arg_26_1 == #TechnologyConst.TypeResName then
@@ -382,7 +382,7 @@ function var_0_0.updateTypeToggleUIList(arg_29_0)
 		_.each(arg_29_0.typeToggleList, function(arg_30_0)
 			triggerToggle(arg_30_0, false)
 			onNextTick(function()
-				local var_31_0 = arg_29_0:findTF("UnSelectedImg", arg_30_0)
+				local var_31_0 = arg_30_0:Find("UnSelectedImg")
 
 				setActive(var_31_0, true)
 			end)
@@ -411,12 +411,12 @@ function var_0_0.updatePreferredHeight(arg_32_0, arg_32_1, arg_32_2)
 end
 
 function var_0_0.onClassItemUpdate(arg_33_0, arg_33_1, arg_33_2)
-	local var_33_0 = arg_33_0:findTF("Name/NameText", arg_33_2)
-	local var_33_1 = arg_33_0:findTF("CampBG", arg_33_2)
-	local var_33_2 = arg_33_0:findTF("Level/LevelImg", arg_33_2)
-	local var_33_3 = arg_33_0:findTF("Level/TypeTextImg", arg_33_2)
-	local var_33_4 = arg_33_0:findTF("ClickBtn", arg_33_2)
-	local var_33_5 = arg_33_0:findTF("ArrowBtn", var_33_4)
+	local var_33_0 = tf(arg_33_2):Find("Name/NameText")
+	local var_33_1 = tf(arg_33_2):Find("CampBG")
+	local var_33_2 = tf(arg_33_2):Find("Level/LevelImg")
+	local var_33_3 = tf(arg_33_2):Find("Level/TypeTextImg")
+	local var_33_4 = tf(arg_33_2):Find("ClickBtn")
+	local var_33_5 = var_33_4:Find("ArrowBtn")
 	local var_33_6 = arg_33_0:getClassConfigForShow(arg_33_1 + 1)
 	local var_33_7 = var_33_6.name
 	local var_33_8 = var_33_6.nation
@@ -450,13 +450,13 @@ function var_0_0.onClassItemUpdate(arg_33_0, arg_33_1, arg_33_2)
 
 	setImageSprite(var_33_1, var_33_14)
 
-	local var_33_15 = arg_33_0:findTF("ClickBtn/ArrowBtn", arg_33_2)
+	local var_33_15 = tf(arg_33_2):Find("ClickBtn/ArrowBtn")
 
 	setLocalRotation(var_33_15, {
 		z = 180
 	})
 
-	local var_33_16 = arg_33_0:findTF("ShipScrollView/ShipContainer", arg_33_2)
+	local var_33_16 = tf(arg_33_2):Find("ShipScrollView/ShipContainer")
 
 	arg_33_0:updateShipItemList(var_33_11, var_33_16)
 
@@ -521,29 +521,29 @@ function var_0_0.updateShipItemList(arg_40_0, arg_40_1, arg_40_2)
 
 	var_40_0:make(function(arg_41_0, arg_41_1, arg_41_2)
 		if arg_41_0 == UIItemList.EventUpdate then
-			local var_41_0 = arg_40_0:findTF("BaseImg", arg_41_2)
-			local var_41_1 = arg_40_0:findTF("BaseImg/CharImg", arg_41_2)
-			local var_41_2 = arg_40_0:findTF("NameBG", arg_41_2)
-			local var_41_3 = arg_40_0:findTF("NameText", var_41_2)
-			local var_41_4 = arg_40_0:findTF("Frame", arg_41_2)
-			local var_41_5 = arg_40_0:findTF("Star", arg_41_2)
-			local var_41_6 = arg_40_0:findTF("Star/StarImg", arg_41_2)
-			local var_41_7 = arg_40_0:findTF("Info", arg_41_2)
-			local var_41_8 = arg_40_0:findTF("PointText", var_41_7)
-			local var_41_9 = arg_40_0:findTF("BuffGet", var_41_7)
-			local var_41_10 = arg_40_0:findTF("TypeIcon", var_41_9)
-			local var_41_11 = arg_40_0:findTF("AttrIcon", var_41_10)
-			local var_41_12 = arg_40_0:findTF("NumText", var_41_10)
-			local var_41_13 = arg_40_0:findTF("Lock", var_41_7)
-			local var_41_14 = arg_40_0:findTF("BuffComplete", var_41_7)
-			local var_41_15 = arg_40_0:findTF("TypeIcon", var_41_14)
-			local var_41_16 = arg_40_0:findTF("AttrIcon", var_41_15)
-			local var_41_17 = arg_40_0:findTF("NumText", var_41_15)
-			local var_41_18 = arg_40_0:findTF("BottomBG", arg_41_2)
-			local var_41_19 = arg_40_0:findTF("BottomBG/StatusUnknow", arg_41_2)
-			local var_41_20 = arg_40_0:findTF("BottomBG/StatusResearching", arg_41_2)
-			local var_41_21 = arg_40_0:findTF("ViewIcon", arg_41_2)
-			local var_41_22 = arg_40_0:findTF("keyansaohguang", arg_41_2)
+			local var_41_0 = arg_41_2:Find("BaseImg")
+			local var_41_1 = arg_41_2:Find("BaseImg/CharImg")
+			local var_41_2 = arg_41_2:Find("NameBG")
+			local var_41_3 = var_41_2:Find("NameText")
+			local var_41_4 = arg_41_2:Find("Frame")
+			local var_41_5 = arg_41_2:Find("Star")
+			local var_41_6 = arg_41_2:Find("Star/StarImg")
+			local var_41_7 = arg_41_2:Find("Info")
+			local var_41_8 = var_41_7:Find("PointText")
+			local var_41_9 = var_41_7:Find("BuffGet")
+			local var_41_10 = var_41_9:Find("TypeIcon")
+			local var_41_11 = var_41_10:Find("AttrIcon")
+			local var_41_12 = var_41_10:Find("NumText")
+			local var_41_13 = var_41_7:Find("Lock")
+			local var_41_14 = var_41_7:Find("BuffComplete")
+			local var_41_15 = var_41_14:Find("TypeIcon")
+			local var_41_16 = var_41_15:Find("AttrIcon")
+			local var_41_17 = var_41_15:Find("NumText")
+			local var_41_18 = arg_41_2:Find("BottomBG")
+			local var_41_19 = arg_41_2:Find("BottomBG/StatusUnknow")
+			local var_41_20 = arg_41_2:Find("BottomBG/StatusResearching")
+			local var_41_21 = arg_41_2:Find("ViewIcon")
+			local var_41_22 = arg_41_2:Find("keyansaohguang")
 			local var_41_23 = arg_40_1[arg_41_1 + 1]
 
 			setText(var_41_3, shortenString(ShipGroup.getDefaultShipNameByGroupID(var_41_23), 6))

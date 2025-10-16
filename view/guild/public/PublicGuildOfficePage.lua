@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.itemList = UIItemList.New(arg_2_0:findTF("frame/donate_panel/list"), arg_2_0:findTF("frame/donate_panel/list/tpl"))
-	arg_2_0.cntTxt = arg_2_0:findTF("frame/donate_panel/cnt/Text"):GetComponent(typeof(Text))
+	arg_2_0.itemList = UIItemList.New(arg_2_0._tf:Find("frame/donate_panel/list"), arg_2_0._tf:Find("frame/donate_panel/list/tpl"))
+	arg_2_0.cntTxt = arg_2_0._tf:Find("frame/donate_panel/cnt/Text"):GetComponent(typeof(Text))
 end
 
 function var_0_0.OnInit(arg_3_0)

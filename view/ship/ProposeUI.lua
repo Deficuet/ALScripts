@@ -58,15 +58,15 @@ function var_0_0.setPlayer(arg_6_0, arg_6_1)
 end
 
 function var_0_0.init(arg_7_0)
-	arg_7_0.storybg = arg_7_0:findTF("close/bg")
-	arg_7_0.bgAdd = arg_7_0:findTF("add")
+	arg_7_0.storybg = arg_7_0._tf:Find("close/bg")
+	arg_7_0.bgAdd = arg_7_0._tf:Find("add")
 
 	setActive(arg_7_0.storybg, false)
 	setActive(arg_7_0.bgAdd, false)
 
-	arg_7_0.targetActorTF = arg_7_0:findTF("actor_middle")
-	arg_7_0.maskTF = arg_7_0:findTF("mask")
-	arg_7_0.skipBtn = arg_7_0:findTF("skip_button")
+	arg_7_0.targetActorTF = arg_7_0._tf:Find("actor_middle")
+	arg_7_0.maskTF = arg_7_0._tf:Find("mask")
+	arg_7_0.skipBtn = arg_7_0._tf:Find("skip_button")
 	arg_7_0.actorPainting = nil
 	arg_7_0.materialFace = arg_7_0._tf:Find("Resource/face"):GetComponent(typeof(Image)).material
 	arg_7_0.materialPaint = arg_7_0._tf:Find("Resource/paint"):GetComponent(typeof(Image)).material
@@ -151,14 +151,14 @@ function var_0_0.doMain(arg_16_0)
 	onButton(arg_16_0, arg_16_0.skipBtn, function()
 		arg_16_0:closeView()
 	end, SFX_CANCEL)
-	onButton(arg_16_0, arg_16_0:findTF("close0"), function()
+	onButton(arg_16_0, arg_16_0._tf:Find("close0"), function()
 		if arg_16_0.proposeEndFlag then
 			arg_16_0:DisplayRenamePanel()
 		else
 			arg_16_0:closeView()
 		end
 	end, SFX_CANCEL)
-	onButton(arg_16_0, arg_16_0:findTF("close_end"), function()
+	onButton(arg_16_0, arg_16_0._tf:Find("close_end"), function()
 		if arg_16_0.proposeEndFlag then
 			arg_16_0:DisplayRenamePanel()
 		else
@@ -180,34 +180,34 @@ function var_0_0.doMain(arg_16_0)
 
 		arg_16_0.window = tf(arg_20_0)
 
-		setParent(tf(arg_20_0), arg_16_0:findTF("window"))
+		setParent(tf(arg_20_0), arg_16_0._tf:Find("window"))
 
-		arg_16_0.intimacyTF = arg_16_0:findTF("intimacy/icon", arg_16_0.window)
-		arg_16_0.intimacyValueTF = arg_16_0:findTF("intimacy/value", arg_16_0.window)
-		arg_16_0.button = arg_16_0:findTF("button", arg_16_0.window)
-		arg_16_0.giftButton = arg_16_0:findTF("giftBtn", arg_16_0.window)
-		arg_16_0.intimacyDesc = arg_16_0:findTF("desc", arg_16_0.window)
-		arg_16_0.intimacydescTime = arg_16_0:findTF("descPic/desc_time", arg_16_0.window)
-		arg_16_0.intimacyDescPic = arg_16_0:findTF("descPic", arg_16_0.window)
-		arg_16_0.intimacyBuffDesc = arg_16_0:findTF("desc_buff", arg_16_0.window)
-		arg_16_0._paintingTF = arg_16_0:findTF("paintMask/paint", arg_16_0.window)
-		arg_16_0.intimacyAchieved = arg_16_0:findTF("intimacy/achieved", arg_16_0.window)
-		arg_16_0.intimacyNoAchieved = arg_16_0:findTF("intimacy/no_achieved", arg_16_0.window)
-		arg_16_0.ringAchieved = arg_16_0:findTF("ringCount/achieved", arg_16_0.window)
-		arg_16_0.ringNoAchieved = arg_16_0:findTF("ringCount/no_achieved", arg_16_0.window)
-		arg_16_0.ringValue = arg_16_0:findTF("ringCount/value", arg_16_0.window)
-		arg_16_0.nameTF = arg_16_0:findTF("title1/Text", arg_16_0.window)
-		arg_16_0.shipNameTF = arg_16_0:findTF("title2/Text", arg_16_0.window)
-		arg_16_0.campTF = arg_16_0:findTF("Camp", arg_16_0.window)
-		arg_16_0.doneTF = arg_16_0:findTF("done", arg_16_0.window)
-		arg_16_0.CampSprite = arg_16_0:findTF("CampSprite", arg_16_0.window)
+		arg_16_0.intimacyTF = arg_16_0.window:Find("intimacy/icon")
+		arg_16_0.intimacyValueTF = arg_16_0.window:Find("intimacy/value")
+		arg_16_0.button = arg_16_0.window:Find("button")
+		arg_16_0.giftButton = arg_16_0.window:Find("giftBtn")
+		arg_16_0.intimacyDesc = arg_16_0.window:Find("desc")
+		arg_16_0.intimacydescTime = arg_16_0.window:Find("descPic/desc_time")
+		arg_16_0.intimacyDescPic = arg_16_0.window:Find("descPic")
+		arg_16_0.intimacyBuffDesc = arg_16_0.window:Find("desc_buff")
+		arg_16_0._paintingTF = arg_16_0.window:Find("paintMask/paint")
+		arg_16_0.intimacyAchieved = arg_16_0.window:Find("intimacy/achieved")
+		arg_16_0.intimacyNoAchieved = arg_16_0.window:Find("intimacy/no_achieved")
+		arg_16_0.ringAchieved = arg_16_0.window:Find("ringCount/achieved")
+		arg_16_0.ringNoAchieved = arg_16_0.window:Find("ringCount/no_achieved")
+		arg_16_0.ringValue = arg_16_0.window:Find("ringCount/value")
+		arg_16_0.nameTF = arg_16_0.window:Find("title1/Text")
+		arg_16_0.shipNameTF = arg_16_0.window:Find("title2/Text")
+		arg_16_0.campTF = arg_16_0.window:Find("Camp")
+		arg_16_0.doneTF = arg_16_0.window:Find("done")
+		arg_16_0.CampSprite = arg_16_0.window:Find("CampSprite")
 
 		setActive(arg_16_0.window, true)
 		setText(arg_16_0.nameTF, arg_16_0.player.name)
 		setText(arg_16_0.shipNameTF, arg_16_0.shipVO:getName())
 
 		if arg_16_0.CampSprite then
-			local var_20_0 = getImageSprite(arg_16_0:findTF(Nation.Nation2Print(var_16_0), arg_16_0.CampSprite))
+			local var_20_0 = getImageSprite(arg_16_0.CampSprite:Find(Nation.Nation2Print(var_16_0)))
 
 			if not var_20_0 then
 				warning("找不到印花, shipConfigId: " .. arg_16_0.shipVO.configId)
@@ -428,7 +428,7 @@ function var_0_0.onBackPressed(arg_31_0)
 
 	if arg_31_0.window and isActive(arg_31_0.window) then
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-		triggerButton(arg_31_0:findTF("close_end"))
+		triggerButton(arg_31_0._tf:Find("close_end"))
 	end
 end
 
@@ -568,8 +568,8 @@ end
 var_0_0.Live2DProposeDelayTime = 2
 
 function var_0_0.showLive2D(arg_44_0, arg_44_1)
-	setActive(arg_44_0:findTF("fitter", arg_44_0.targetActorTF), false)
-	setActive(arg_44_0:findTF("live2d", arg_44_0.targetActorTF), true)
+	setActive(arg_44_0.targetActorTF:Find("fitter"), false)
+	setActive(arg_44_0.targetActorTF:Find("live2d"), true)
 
 	local var_44_0 = GetOrAddComponent(arg_44_0.targetActorTF, typeof(CanvasGroup))
 
@@ -611,7 +611,7 @@ function var_0_0.stampWindow(arg_49_0)
 	end)
 	setActive(arg_49_0.window, true)
 	setActive(arg_49_0.button, false)
-	setActive(arg_49_0:findTF("live2d", arg_49_0.targetActorTF), false)
+	setActive(arg_49_0.targetActorTF:Find("live2d"), false)
 
 	local var_49_0
 
@@ -654,7 +654,7 @@ function var_0_0.stampWindow(arg_49_0)
 
 		setActive(arg_49_0.doneTF, true)
 		arg_49_0:setMask(false)
-		setActive(arg_49_0:findTF("close_end"), true)
+		setActive(arg_49_0._tf:Find("close_end"), true)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_SEAL)
 	end)).id
 end
@@ -691,7 +691,7 @@ function var_0_0.showProposePanel(arg_53_0)
 
 				arg_53_0.proposePanel = tf(arg_55_0)
 
-				setParent(tf(arg_55_0), arg_53_0:findTF("contain"))
+				setParent(tf(arg_55_0), arg_53_0._tf:Find("contain"))
 				eachChild(arg_53_0.proposePanel:Find("ringBox"), function(arg_56_0)
 					setActive(arg_56_0, arg_56_0.name == arg_53_0.proposeType)
 
@@ -701,25 +701,25 @@ function var_0_0.showProposePanel(arg_53_0)
 				end)
 
 				arg_53_0.ringBoxCG = GetOrAddComponent(arg_53_0.ringBoxTF, typeof(CanvasGroup))
-				arg_53_0.ringBoxFull = arg_53_0:findTF("full", arg_53_0.ringBoxTF)
-				arg_53_0.churchBefore = arg_53_0:findTF("before", arg_53_0.proposePanel)
-				arg_53_0.churchLight = arg_53_0:findTF("light", arg_53_0.churchBefore)
+				arg_53_0.ringBoxFull = arg_53_0.ringBoxTF:Find("full")
+				arg_53_0.churchBefore = arg_53_0.proposePanel:Find("before")
+				arg_53_0.churchLight = arg_53_0.churchBefore:Find("light")
 
 				setParent(arg_53_0.churchLight, arg_53_0._tf)
 				arg_53_0.churchLight:SetSiblingIndex(2)
 
-				arg_53_0.blackBG = arg_53_0:findTF("blackbg", arg_53_0.churchBefore)
-				arg_53_0.doorLightBG = arg_53_0:findTF("door_light", arg_53_0.churchBefore)
-				arg_53_0.door = arg_53_0:findTF("door", arg_53_0.churchBefore)
+				arg_53_0.blackBG = arg_53_0.churchBefore:Find("blackbg")
+				arg_53_0.doorLightBG = arg_53_0.churchBefore:Find("door_light")
+				arg_53_0.door = arg_53_0.churchBefore:Find("door")
 				arg_53_0.doorAni = GetOrAddComponent(arg_53_0.door, "SpineAnimUI")
 
-				setParent(arg_53_0.churchBefore, arg_53_0:findTF("contain"))
+				setParent(arg_53_0.churchBefore, arg_53_0._tf:Find("contain"))
 
-				arg_53_0.ringTipTF = arg_53_0:findTF("tip", arg_53_0.proposePanel)
+				arg_53_0.ringTipTF = arg_53_0.proposePanel:Find("tip")
 				arg_53_0.ringTipCG = GetOrAddComponent(arg_53_0.ringTipTF, typeof(CanvasGroup))
 
-				setText(arg_53_0:findTF("Text", arg_53_0.ringTipTF), i18n(arg_53_0.proposeType == "imas" and "word_propose_tiara_tip" or "word_propose_ring_tip"))
-				setActive(arg_53_0:findTF("finger", arg_53_0.ringTipTF), false)
+				setText(arg_53_0.ringTipTF:Find("Text"), i18n(arg_53_0.proposeType == "imas" and "word_propose_tiara_tip" or "word_propose_ring_tip"))
+				setActive(arg_53_0.ringTipTF:Find("finger"), false)
 				LoadImageSpriteAsync(arg_53_0.bgName, arg_53_0.storybg)
 
 				arg_53_0.storybg.localScale = Vector3(1.2, 1.2, 1.2)
@@ -759,12 +759,12 @@ function var_0_0.showProposePanel(arg_53_0)
 					setParent(arg_53_0.transHand, arg_53_0.proposePanel)
 					arg_53_0.transHand:SetAsFirstSibling()
 
-					arg_53_0.handTF = arg_53_0:findTF("hand", arg_53_0.transHand)
-					arg_53_0.ringTF = arg_53_0:findTF("ring", arg_53_0.transHand)
+					arg_53_0.handTF = arg_53_0.transHand:Find("hand")
+					arg_53_0.ringTF = arg_53_0.transHand:Find("ring")
 					arg_53_0.ringCG = GetOrAddComponent(arg_53_0.ringTF, typeof(CanvasGroup))
 					arg_53_0.ringAnim = arg_53_0.ringTF:GetComponent(typeof(Animator))
 					arg_53_0.ringAnim.enabled = false
-					arg_53_0.ringLight = arg_53_0:findTF("ring_light", arg_53_0.ringTF)
+					arg_53_0.ringLight = arg_53_0.ringTF:Find("ring_light")
 					arg_53_0.ringLightCG = GetOrAddComponent(arg_53_0.ringLight, typeof(CanvasGroup))
 
 					arg_54_0()
@@ -855,7 +855,7 @@ function var_0_0.showProposePanel(arg_53_0)
 	seriesAsync(var_53_0, function()
 		arg_53_0.ringAnim:Play("blink")
 		table.insert(arg_53_0.tweenList, LeanTween.alphaCanvas(arg_53_0.ringTipCG, 1, 1.5):setFrom(0):setOnComplete(System.Action(function()
-			setActive(arg_53_0:findTF("finger", arg_53_0.ringTipTF), true)
+			setActive(arg_53_0.ringTipTF:Find("finger"), true)
 			arg_53_0:enableRingDrag(true)
 		end)).uniqueId)
 	end)
@@ -1030,13 +1030,13 @@ function var_0_0.showStoryUI(arg_95_0, arg_95_1)
 
 				arg_95_0.storyTF = tf(arg_97_0)
 
-				setParent(tf(arg_97_0), arg_95_0:findTF("contain"))
+				setParent(tf(arg_97_0), arg_95_0._tf:Find("contain"))
 
 				arg_95_0.storyCG = GetOrAddComponent(arg_95_0.storyTF, typeof(CanvasGroup))
-				arg_95_0.storyContent = arg_95_0:findTF("dialogue/content", arg_95_0.storyTF)
+				arg_95_0.storyContent = arg_95_0.storyTF:Find("dialogue/content")
 				arg_95_0.typeWriter = arg_95_0.storyContent:GetComponent(typeof(Typewriter))
-				arg_95_0.targetNameTF = arg_95_0:findTF("dialogue/content/name", arg_95_0.storyTF)
-				arg_95_0._renamePanel = arg_95_0:findTF("changeName_panel", arg_95_0.storyTF)
+				arg_95_0.targetNameTF = arg_95_0.storyTF:Find("dialogue/content/name")
+				arg_95_0._renamePanel = arg_95_0.storyTF:Find("changeName_panel")
 
 				setText(findTF(arg_95_0._renamePanel, "frame/name_field/Placeholder"), i18n("rename_input"))
 				setActive(arg_95_0._renamePanel, false)
@@ -1195,7 +1195,7 @@ end
 function var_0_0.createLive2D(arg_109_0, arg_109_1)
 	arg_109_0.live2dRequestId = pg.Live2DMgr.GetInstance():GetLive2DModelAsync(arg_109_1, function(arg_110_0)
 		local var_110_0 = arg_110_0.transform
-		local var_110_1 = arg_109_0:findTF("live2d", arg_109_0.targetActorTF)
+		local var_110_1 = arg_109_0.targetActorTF:Find("live2d")
 
 		HotfixHelper.SetLayerRecursively(arg_110_0, LayerMask.NameToLayer("UI"))
 		var_110_0:SetParent(var_110_1, true)
@@ -1255,8 +1255,8 @@ function var_0_0.showTip(arg_112_0)
 		return
 	end
 
-	local var_112_1 = arg_112_0:findTF("tip", arg_112_0.storyTF)
-	local var_112_2 = arg_112_0:findTF("Image_bg/Text", var_112_1)
+	local var_112_1 = arg_112_0.storyTF:Find("tip")
+	local var_112_2 = var_112_1:Find("Image_bg/Text")
 
 	setText(var_112_2, i18n("achieve_propose_tip", var_112_0.name))
 	eachChild(var_112_1:Find("Image_bg/Image"), function(arg_113_0)

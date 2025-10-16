@@ -58,20 +58,20 @@ end
 function var_0_0.initShowList(arg_8_0)
 	arg_8_0.showIds = {}
 	arg_8_0.selectedIndex = 1
-	arg_8_0.groupsTF = arg_8_0:findTF("bg/groups", arg_8_0.performTF)
-	arg_8_0.showList = UIItemList.New(arg_8_0.groupsTF, arg_8_0:findTF("tpl", arg_8_0.groupsTF))
+	arg_8_0.groupsTF = arg_8_0.performTF:Find("bg/groups")
+	arg_8_0.showList = UIItemList.New(arg_8_0.groupsTF, arg_8_0.groupsTF:Find("tpl"))
 
 	arg_8_0.showList:make(function(arg_9_0, arg_9_1, arg_9_2)
 		if arg_9_0 == UIItemList.EventUpdate then
 			local var_9_0 = arg_8_0.showIds[arg_9_1 + 1]
 			local var_9_1 = arg_8_0:IsUnlock(var_9_0)
 
-			setText(arg_8_0:findTF("unlock/unselected/Text", arg_9_2), var_9_0)
-			setText(arg_8_0:findTF("unlock/selected/Text", arg_9_2), var_9_0)
-			setActive(arg_8_0:findTF("lock", arg_9_2), not var_9_1)
-			setActive(arg_8_0:findTF("unlock", arg_9_2), var_9_1)
-			setActive(arg_8_0:findTF("unlock/selected", arg_9_2), arg_8_0.selectedIndex == arg_9_1 + 1)
-			setActive(arg_8_0:findTF("unlock/unselected", arg_9_2), arg_8_0.selectedIndex ~= arg_9_1 + 1)
+			setText(arg_9_2:Find("unlock/unselected/Text"), var_9_0)
+			setText(arg_9_2:Find("unlock/selected/Text"), var_9_0)
+			setActive(arg_9_2:Find("lock"), not var_9_1)
+			setActive(arg_9_2:Find("unlock"), var_9_1)
+			setActive(arg_9_2:Find("unlock/selected"), arg_8_0.selectedIndex == arg_9_1 + 1)
+			setActive(arg_9_2:Find("unlock/unselected"), arg_8_0.selectedIndex ~= arg_9_1 + 1)
 			onButton(arg_8_0, arg_9_2, function(arg_10_0)
 				if var_9_1 then
 					arg_8_0.selectedIndex = arg_9_1 + 1
@@ -114,7 +114,7 @@ function var_0_0.updatePage(arg_12_0)
 	local var_12_0 = (arg_12_0.curPageIndex - 1) * arg_12_0.onePageCnt
 
 	for iter_12_0 = 1, arg_12_0.onePageCnt do
-		local var_12_1 = arg_12_0:findTF("frame_" .. iter_12_0, arg_12_0.pageTF)
+		local var_12_1 = arg_12_0.pageTF:Find("frame_" .. iter_12_0)
 		local var_12_2 = arg_12_0.groupIds[var_12_0 + iter_12_0]
 
 		if var_12_2 then
@@ -144,20 +144,20 @@ function var_0_0.updateItem(arg_13_0, arg_13_1, arg_13_2)
 	local var_13_1 = arg_13_0.config[var_13_0[1]]
 	local var_13_2 = arg_13_0.polaroidData[var_13_0[1]]
 
-	setActive(arg_13_0:findTF("lock", arg_13_2), not var_13_2)
-	setActive(arg_13_0:findTF("unlock", arg_13_2), var_13_2)
+	setActive(arg_13_2:Find("lock"), not var_13_2)
+	setActive(arg_13_2:Find("unlock"), var_13_2)
 
 	if var_13_2 then
 		local var_13_3 = arg_13_0.polaroidData[var_13_0[1]]
 
-		LoadImageSpriteAsync("educatepolaroid/" .. var_13_1.pic, arg_13_0:findTF("unlock/mask/Image", arg_13_2))
-		setText(arg_13_0:findTF("unlock/name", arg_13_2), var_13_1.title)
+		LoadImageSpriteAsync("educatepolaroid/" .. var_13_1.pic, arg_13_2:Find("unlock/mask/Image"))
+		setText(arg_13_2:Find("unlock/name"), var_13_1.title)
 		onButton(arg_13_0, arg_13_2, function()
 			arg_13_0:showPerformWindow(var_13_0)
 		end, SFX_PANEL)
 	else
 		removeOnButton(arg_13_2)
-		setText(arg_13_0:findTF("lock/Text", arg_13_2), var_13_1.condition)
+		setText(arg_13_2:Find("lock/Text"), var_13_1.condition)
 	end
 end
 
@@ -172,8 +172,8 @@ end
 function var_0_0.updatePerform(arg_19_0, arg_19_1)
 	local var_19_0 = arg_19_0.config[arg_19_1]
 
-	LoadImageSpriteAsync("educatepolaroid/" .. var_19_0.pic, arg_19_0:findTF("bg/mask/Image", arg_19_0.performTF))
-	setText(arg_19_0:findTF("bg/Text", arg_19_0.performTF), var_19_0.title)
+	LoadImageSpriteAsync("educatepolaroid/" .. var_19_0.pic, arg_19_0.performTF:Find("bg/mask/Image"))
+	setText(arg_19_0.performTF:Find("bg/Text"), var_19_0.title)
 end
 
 function var_0_0.playAnimChange(arg_20_0)

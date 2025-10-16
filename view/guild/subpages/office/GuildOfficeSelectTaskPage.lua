@@ -5,7 +5,7 @@ function var_0_0.getTargetUI(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.uilist = UIItemList.New(arg_2_0:findTF("frame/bg/scrollrect/content"), arg_2_0:findTF("frame/bg/scrollrect/content/tpl"))
+	arg_2_0.uilist = UIItemList.New(arg_2_0._tf:Find("frame/bg/scrollrect/content"), arg_2_0._tf:Find("frame/bg/scrollrect/content/tpl"))
 	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/title/close")
 end
 

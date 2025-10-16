@@ -27,17 +27,17 @@ function var_0_0.initData(arg_5_0)
 end
 
 function var_0_0.findUI(arg_6_0)
-	arg_6_0.backBtn = arg_6_0:findTF("BG")
-	arg_6_0.scrollView = arg_6_0:findTF("Scroll View")
-	arg_6_0.viewport = arg_6_0:findTF("Viewport", arg_6_0.scrollView)
-	arg_6_0.typeContainer = arg_6_0:findTF("Content", arg_6_0.viewport)
-	arg_6_0.typeItemTpl = arg_6_0:findTF("TypeItemTpl")
-	arg_6_0.buffItemTpl = arg_6_0:findTF("BuffItemTpl")
+	arg_6_0.backBtn = arg_6_0._tf:Find("BG")
+	arg_6_0.scrollView = arg_6_0._tf:Find("Scroll View")
+	arg_6_0.viewport = arg_6_0.scrollView:Find("Viewport")
+	arg_6_0.typeContainer = arg_6_0.viewport:Find("Content")
+	arg_6_0.typeItemTpl = arg_6_0._tf:Find("TypeItemTpl")
+	arg_6_0.buffItemTpl = arg_6_0._tf:Find("BuffItemTpl")
 	arg_6_0.scrollViewGroupCom = GetComponent(arg_6_0.scrollView, "VerticalLayoutGroup")
 	arg_6_0.scrollViewFitterCom = GetComponent(arg_6_0.scrollView, "ContentSizeFitter")
 	arg_6_0.viewportGroupCom = GetComponent(arg_6_0.viewport, "VerticalLayoutGroup")
 	arg_6_0.viewportFitterCom = GetComponent(arg_6_0.viewport, "ContentSizeFitter")
-	arg_6_0.setValueBtn = arg_6_0:findTF("Scroll View/bg/SetValueBtn")
+	arg_6_0.setValueBtn = arg_6_0._tf:Find("Scroll View/bg/SetValueBtn")
 end
 
 function var_0_0.onBackPressed(arg_7_0)
@@ -62,9 +62,9 @@ function var_0_0.updateDetail(arg_11_0)
 
 	var_11_0:make(function(arg_12_0, arg_12_1, arg_12_2)
 		if arg_12_0 == UIItemList.EventUpdate then
-			local var_12_0 = arg_11_0:findTF("TypeTitle/TypeImg", arg_12_2)
-			local var_12_1 = arg_11_0:findTF("TypeTitle/TypeTextImg", arg_12_2)
-			local var_12_2 = arg_11_0:findTF("Container", arg_12_2)
+			local var_12_0 = arg_12_2:Find("TypeTitle/TypeImg")
+			local var_12_1 = arg_12_2:Find("TypeTitle/TypeTextImg")
+			local var_12_2 = arg_12_2:Find("Container")
 			local var_12_3 = arg_11_0.typeOrder[arg_12_1 + 1]
 
 			setImageSprite(var_12_1, GetSpriteFromAtlas("ShipType", "ch_title_" .. var_12_3))
@@ -95,8 +95,8 @@ function var_0_0.updateBuffList(arg_13_0, arg_13_1, arg_13_2)
 
 	var_13_0:make(function(arg_14_0, arg_14_1, arg_14_2)
 		if arg_14_0 == UIItemList.EventUpdate then
-			local var_14_0 = arg_13_0:findTF("AttrText", arg_14_2)
-			local var_14_1 = arg_13_0:findTF("ValueText", arg_14_2)
+			local var_14_0 = arg_14_2:Find("AttrText")
+			local var_14_1 = arg_14_2:Find("ValueText")
 			local var_14_2 = var_13_2[arg_14_1 + 1]
 			local var_14_3 = var_13_1[var_14_2]
 			local var_14_4 = arg_13_0.technologyNationProxy:getSetableAttrAdditionValueByTypeAttr(arg_13_2, var_14_2)

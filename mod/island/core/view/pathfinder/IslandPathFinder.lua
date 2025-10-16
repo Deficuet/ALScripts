@@ -86,10 +86,14 @@ function var_0_0.EndAction(arg_6_0)
 	arg_6_0.starting = false
 end
 
-function var_0_0.OnDispose(arg_7_0)
-	arg_7_0.starting = nil
-	arg_7_0.callback = nil
-	arg_7_0.unitList = nil
+function var_0_0.Stop(arg_7_0)
+	arg_7_0:EndAction()
+end
+
+function var_0_0.OnDispose(arg_8_0)
+	arg_8_0.starting = nil
+	arg_8_0.callback = nil
+	arg_8_0.unitList = nil
 end
 
 return var_0_0

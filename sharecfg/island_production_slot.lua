@@ -1888,7 +1888,7 @@ pg.island_production_slot = {
 		type = 9,
 		id = 9042,
 		attribute = 4,
-		unlock_type = 0,
+		unlock_type = 1,
 		formula = {
 			901001,
 			901002,

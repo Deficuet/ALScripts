@@ -64,16 +64,16 @@ function var_0_0.onBackPressed(arg_7_0)
 end
 
 function var_0_0.findUI(arg_8_0)
-	arg_8_0.letterContainer = arg_8_0:findTF("PanelLetter")
-	arg_8_0.panelContainer = arg_8_0:findTF("PanelContainer")
+	arg_8_0.letterContainer = arg_8_0._tf:Find("PanelLetter")
+	arg_8_0.panelContainer = arg_8_0._tf:Find("PanelContainer")
 
-	local var_8_0 = arg_8_0:findTF("left/left_bar")
+	local var_8_0 = arg_8_0._tf:Find("left/left_bar")
 
-	arg_8_0.letterBtn = arg_8_0:findTF("letter", var_8_0)
-	arg_8_0.signToggle = arg_8_0:findTF("tabs/sign", var_8_0)
-	arg_8_0.taskToggle = arg_8_0:findTF("tabs/task", var_8_0)
-	arg_8_0.ptToggle = arg_8_0:findTF("tabs/pt", var_8_0)
-	arg_8_0.shopToggle = arg_8_0:findTF("tabs/shop", var_8_0)
+	arg_8_0.letterBtn = var_8_0:Find("letter")
+	arg_8_0.signToggle = var_8_0:Find("tabs/sign")
+	arg_8_0.taskToggle = var_8_0:Find("tabs/task")
+	arg_8_0.ptToggle = var_8_0:Find("tabs/pt")
+	arg_8_0.shopToggle = var_8_0:Find("tabs/shop")
 	arg_8_0.toggleList = {
 		[var_0_0.Sign] = arg_8_0.signToggle,
 		[var_0_0.Task] = arg_8_0.taskToggle,
@@ -81,19 +81,19 @@ function var_0_0.findUI(arg_8_0)
 		[var_0_0.Shop] = arg_8_0.shopToggle
 	}
 	arg_8_0.redPotList = {
-		[var_0_0.Sign] = arg_8_0:findTF("Red", arg_8_0.signToggle),
-		[var_0_0.Task] = arg_8_0:findTF("Red", arg_8_0.taskToggle),
-		[var_0_0.PT] = arg_8_0:findTF("Red", arg_8_0.ptToggle),
-		[var_0_0.Shop] = arg_8_0:findTF("Red", arg_8_0.shopToggle)
+		[var_0_0.Sign] = arg_8_0.signToggle:Find("Red"),
+		[var_0_0.Task] = arg_8_0.taskToggle:Find("Red"),
+		[var_0_0.PT] = arg_8_0.ptToggle:Find("Red"),
+		[var_0_0.Shop] = arg_8_0.shopToggle:Find("Red")
 	}
-	arg_8_0.backBtn = arg_8_0:findTF("back", var_8_0)
-	arg_8_0.dayText = arg_8_0:findTF("time/text")
+	arg_8_0.backBtn = var_8_0:Find("back")
+	arg_8_0.dayText = arg_8_0._tf:Find("time/text")
 
-	local var_8_1 = arg_8_0:findTF("time/icon")
+	local var_8_1 = arg_8_0._tf:Find("time/icon")
 
 	setText(var_8_1, i18n("reflux_word_1"))
 
-	local var_8_2 = arg_8_0:findTF("time/icon1")
+	local var_8_2 = arg_8_0._tf:Find("time/icon1")
 
 	setText(var_8_2, i18n("word_date"))
 end

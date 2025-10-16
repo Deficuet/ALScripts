@@ -10,8 +10,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.top = arg_2_0:findTF("Top")
-	arg_2_0._map = arg_2_0:findTF("map")
+	arg_2_0.top = arg_2_0._tf:Find("Top")
+	arg_2_0._map = arg_2_0._tf:Find("map")
 
 	for iter_2_0 = 0, arg_2_0._map.childCount - 1 do
 		local var_2_0 = arg_2_0._map:GetChild(iter_2_0)
@@ -25,7 +25,7 @@ function var_0_0.init(arg_2_0)
 		arg_2_0.map_middle
 	}
 	arg_2_0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.NewyearFestival2023Graph"))
-	arg_2_0._upper = arg_2_0:findTF("upper")
+	arg_2_0._upper = arg_2_0._tf:Find("upper")
 
 	for iter_2_1 = 0, arg_2_0._upper.childCount - 1 do
 		local var_2_2 = arg_2_0._upper:GetChild(iter_2_1)

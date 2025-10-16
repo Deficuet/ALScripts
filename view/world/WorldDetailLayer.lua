@@ -10,7 +10,7 @@ var_0_0.TOGGLE_FORMATION = "formationToggle"
 
 function var_0_0.init(arg_2_0)
 	arg_2_0.eventTriggers = {}
-	arg_2_0.rtMain = arg_2_0:findTF("main")
+	arg_2_0.rtMain = arg_2_0._tf:Find("main")
 	arg_2_0.bgFleet = arg_2_0.rtMain:Find("bg_fleet")
 	arg_2_0.bgSub = arg_2_0.rtMain:Find("bg_sub")
 	arg_2_0.vanguardGS = arg_2_0.rtMain:Find("gear_score/vanguard")
@@ -43,7 +43,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.nextPage = arg_2_0.rtMain:Find("nextPage")
 	arg_2_0.prevPage = arg_2_0.rtMain:Find("prevPage")
 	arg_2_0.heroContainer = arg_2_0.rtMain:Find("HeroContainer")
-	arg_2_0.blurLayer = arg_2_0:findTF("blur_container")
+	arg_2_0.blurLayer = arg_2_0._tf:Find("blur_container")
 	arg_2_0.top = arg_2_0.blurLayer:Find("top")
 	arg_2_0.backBtn = arg_2_0.top:Find("back_btn")
 	arg_2_0.playerResOb = arg_2_0.top:Find("res")
@@ -64,8 +64,8 @@ function var_0_0.init(arg_2_0)
 	setActive(arg_2_0.attrFrame, false)
 	setActive(arg_2_0.cardTpl, false)
 
-	arg_2_0.heroInfo = arg_2_0:findTF("heroInfo")
-	arg_2_0.starTpl = arg_2_0:findTF("star_tpl")
+	arg_2_0.heroInfo = arg_2_0._tf:Find("heroInfo")
+	arg_2_0.starTpl = arg_2_0._tf:Find("star_tpl")
 	arg_2_0.commanderFormationPanel = WorldCommanderFormationPage.New(arg_2_0._tf, arg_2_0.event, arg_2_0.contextData)
 	arg_2_0.fleetIndex = 1
 	arg_2_0.formationLogic = BaseFormation.New(arg_2_0._tf, arg_2_0.heroContainer, arg_2_0.heroInfo, arg_2_0.gridTFs)
@@ -436,7 +436,7 @@ function var_0_0.initAttrFrame(arg_40_0)
 		local var_40_3 = arg_40_0.cards[iter_40_0]
 
 		if #var_40_3 == 0 then
-			local var_40_4 = arg_40_0:findTF(iter_40_0 .. "/list", arg_40_0.attrFrame)
+			local var_40_4 = arg_40_0.attrFrame:Find(iter_40_0 .. "/list")
 
 			for iter_40_2 = 1, 3 do
 				local var_40_5 = cloneTplTo(arg_40_0.cardTpl, var_40_4).gameObject
@@ -488,9 +488,9 @@ function var_0_0.updateAttrFrame(arg_41_0)
 		end
 	end
 
-	setActive(arg_41_0:findTF(TeamType.Main, arg_41_0.attrFrame), var_41_2 == FleetType.Normal)
-	setActive(arg_41_0:findTF(TeamType.Submarine, arg_41_0.attrFrame), var_41_2 == FleetType.Submarine)
-	setActive(arg_41_0:findTF(TeamType.Vanguard .. "/vanguard", arg_41_0.attrFrame), var_41_2 ~= FleetType.Submarine)
+	setActive(arg_41_0.attrFrame:Find(TeamType.Main), var_41_2 == FleetType.Normal)
+	setActive(arg_41_0.attrFrame:Find(TeamType.Submarine), var_41_2 == FleetType.Submarine)
+	setActive(arg_41_0.attrFrame:Find(TeamType.Vanguard .. "/vanguard"), var_41_2 ~= FleetType.Submarine)
 	arg_41_0:updateUltimateTitle()
 end
 

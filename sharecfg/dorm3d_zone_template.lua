@@ -13,20 +13,15 @@ pg.dorm3d_zone_template = {
 	[1001] = {
 		is_global = 0,
 		name = "卧室",
-		id = 1001,
 		room_id = 1,
+		id = 1001,
+		touch_id = "",
 		watch_camera = "Bed",
 		type_prioritys = {
 			4,
 			3,
 			2,
 			1
-		},
-		touch_id = {
-			{
-				20220,
-				7
-			}
 		},
 		special_action = {
 			{
@@ -42,15 +37,10 @@ pg.dorm3d_zone_template = {
 		is_global = 0,
 		name = "餐厅",
 		type_prioritys = "",
-		id = 1002,
 		room_id = 1,
+		id = 1002,
+		touch_id = "",
 		watch_camera = "Table",
-		touch_id = {
-			{
-				20220,
-				10100201
-			}
-		},
 		special_action = {
 			{
 				20220,
@@ -65,15 +55,10 @@ pg.dorm3d_zone_template = {
 		is_global = 0,
 		name = "客厅",
 		type_prioritys = "",
-		id = 1003,
 		room_id = 1,
+		id = 1003,
+		touch_id = "",
 		watch_camera = "Chair",
-		touch_id = {
-			{
-				20220,
-				10100303
-			}
-		},
 		special_action = {
 			{
 				20220,
@@ -88,91 +73,61 @@ pg.dorm3d_zone_template = {
 		is_global = 0,
 		name = "卧室",
 		type_prioritys = "",
-		special_action = "",
-		id = 2001,
 		room_id = 2,
+		id = 2001,
+		touch_id = "",
 		watch_camera = "Bed",
-		touch_id = {
-			{
-				30221,
-				2200310
-			}
-		}
+		special_action = ""
 	},
 	[2002] = {
 		is_global = 0,
 		name = "餐厅",
 		type_prioritys = "",
-		special_action = "",
-		id = 2002,
 		room_id = 2,
+		id = 2002,
+		touch_id = "",
 		watch_camera = "Table",
-		touch_id = {
-			{
-				30221,
-				2200210
-			}
-		}
+		special_action = ""
 	},
 	[2003] = {
 		is_global = 0,
 		name = "客厅",
 		type_prioritys = "",
-		special_action = "",
-		id = 2003,
 		room_id = 2,
+		id = 2003,
+		touch_id = "",
 		watch_camera = "Chair",
-		touch_id = {
-			{
-				30221,
-				2200110
-			}
-		}
+		special_action = ""
 	},
 	[3001] = {
 		is_global = 0,
 		name = "卧室",
 		type_prioritys = "",
-		special_action = "",
-		id = 3001,
 		room_id = 3,
+		id = 3001,
+		touch_id = "",
 		watch_camera = "Bed",
-		touch_id = {
-			{
-				19903,
-				1990330
-			}
-		}
+		special_action = ""
 	},
 	[3002] = {
 		is_global = 0,
 		name = "娱乐区",
 		type_prioritys = "",
-		special_action = "",
-		id = 3002,
 		room_id = 3,
+		id = 3002,
+		touch_id = "",
 		watch_camera = "Table",
-		touch_id = {
-			{
-				19903,
-				1990320
-			}
-		}
+		special_action = ""
 	},
 	[3003] = {
 		is_global = 0,
 		name = "客厅",
 		type_prioritys = "",
-		special_action = "",
-		id = 3003,
 		room_id = 3,
+		id = 3003,
+		touch_id = "",
 		watch_camera = "Chair",
-		touch_id = {
-			{
-				19903,
-				1990310
-			}
-		}
+		special_action = ""
 	},
 	[4001] = {
 		is_global = 0,
@@ -269,91 +224,61 @@ pg.dorm3d_zone_template = {
 		is_global = 0,
 		name = "卧室",
 		type_prioritys = "",
-		special_action = "",
-		id = 11001,
 		room_id = 11,
+		id = 11001,
+		touch_id = "",
 		watch_camera = "Bed",
-		touch_id = {
-			{
-				10517,
-				1051730
-			}
-		}
+		special_action = ""
 	},
 	[11002] = {
 		is_global = 0,
 		name = "餐厅",
 		type_prioritys = "",
-		special_action = "",
-		id = 11002,
 		room_id = 11,
+		id = 11002,
+		touch_id = "",
 		watch_camera = "Table",
-		touch_id = {
-			{
-				10517,
-				1051710
-			}
-		}
+		special_action = ""
 	},
 	[11003] = {
 		is_global = 0,
 		name = "客厅",
 		type_prioritys = "",
-		special_action = "",
-		id = 11003,
 		room_id = 11,
+		id = 11003,
+		touch_id = "",
 		watch_camera = "Chair",
-		touch_id = {
-			{
-				10517,
-				1051720
-			}
-		}
+		special_action = ""
 	},
 	[12001] = {
 		is_global = 0,
 		name = "卧室",
 		type_prioritys = "",
-		special_action = "",
-		id = 12001,
 		room_id = 12,
+		id = 12001,
+		touch_id = "",
 		watch_camera = "Bed",
-		touch_id = {
-			{
-				30707,
-				3070710
-			}
-		}
+		special_action = ""
 	},
 	[12002] = {
 		is_global = 0,
 		name = "餐厅",
 		type_prioritys = "",
-		special_action = "",
-		id = 12002,
 		room_id = 12,
+		id = 12002,
+		touch_id = "",
 		watch_camera = "Table",
-		touch_id = {
-			{
-				30707,
-				3070720
-			}
-		}
+		special_action = ""
 	},
 	[12003] = {
 		is_global = 0,
 		name = "客厅",
 		type_prioritys = "",
-		special_action = "",
-		id = 12003,
 		room_id = 12,
+		id = 12003,
+		touch_id = "",
 		watch_camera = "Chair",
-		touch_id = {
-			{
-				30707,
-				3070730
-			}
-		}
+		special_action = ""
 	},
 	[16001] = {
 		is_global = 0,

@@ -1,7 +1,7 @@
 local var_0_0 = class("SkinKisaragiPage", import("view.base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
 	arg_1_0.textProgress = arg_1_0.bg:Find("progress_text")
 	arg_1_0.btnGo = arg_1_0.bg:Find("btn_go")
 	arg_1_0.markGot = arg_1_0.bg:Find("got")

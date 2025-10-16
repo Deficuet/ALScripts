@@ -5,21 +5,21 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.infoPanel = arg_2_0:findTF("info")
-	arg_2_0.nameTxt = arg_2_0:findTF("info/name/Text"):GetComponent(typeof(Text))
-	arg_2_0.consumeUIList = UIItemList.New(arg_2_0:findTF("info/subtitle_item/list"), arg_2_0:findTF("info/subtitle_item/list/tpl"))
-	arg_2_0.awardUIList = UIItemList.New(arg_2_0:findTF("info/subtitle_reward/list"), arg_2_0:findTF("info/subtitle_reward/list/tpl"))
-	arg_2_0.submitBtn = arg_2_0:findTF("info/btns/submit")
-	arg_2_0.submitBtnMark = arg_2_0:findTF("info/btns/submit/mask")
-	arg_2_0.replaceBtn = arg_2_0:findTF("info/btns/cancel")
-	arg_2_0.speedUpBtn = arg_2_0:findTF("loading/submit")
-	arg_2_0.loadingPanel = arg_2_0:findTF("loading")
+	arg_2_0.infoPanel = arg_2_0._tf:Find("info")
+	arg_2_0.nameTxt = arg_2_0._tf:Find("info/name/Text"):GetComponent(typeof(Text))
+	arg_2_0.consumeUIList = UIItemList.New(arg_2_0._tf:Find("info/subtitle_item/list"), arg_2_0._tf:Find("info/subtitle_item/list/tpl"))
+	arg_2_0.awardUIList = UIItemList.New(arg_2_0._tf:Find("info/subtitle_reward/list"), arg_2_0._tf:Find("info/subtitle_reward/list/tpl"))
+	arg_2_0.submitBtn = arg_2_0._tf:Find("info/btns/submit")
+	arg_2_0.submitBtnMark = arg_2_0._tf:Find("info/btns/submit/mask")
+	arg_2_0.replaceBtn = arg_2_0._tf:Find("info/btns/cancel")
+	arg_2_0.speedUpBtn = arg_2_0._tf:Find("loading/submit")
+	arg_2_0.loadingPanel = arg_2_0._tf:Find("loading")
 	arg_2_0.loadingTimeTxt = arg_2_0.loadingPanel:Find("Text/time"):GetComponent(typeof(Text))
 
-	setText(arg_2_0:findTF("info/btns/cancel/Text"), i18n("island_word_turndown"))
-	setText(arg_2_0:findTF("info/btns/submit/Text"), i18n("island_word_sbumit"))
-	setText(arg_2_0:findTF("loading/Text"), i18n("island_order_cd_tip"))
-	setText(arg_2_0:findTF("loading/submit/Text"), i18n("island_word_speedup"))
+	setText(arg_2_0._tf:Find("info/btns/cancel/Text"), i18n("island_word_turndown"))
+	setText(arg_2_0._tf:Find("info/btns/submit/Text"), i18n("island_word_sbumit"))
+	setText(arg_2_0._tf:Find("loading/Text"), i18n("island_order_cd_tip"))
+	setText(arg_2_0._tf:Find("loading/submit/Text"), i18n("island_word_speedup"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -255,57 +255,71 @@ function var_0_0.FlushAwards(arg_27_0, arg_27_1)
 			local var_28_0 = var_27_0[arg_28_1 + 1]
 
 			updateCustomDrop(arg_28_2, var_28_0)
+			onButton(arg_27_0, arg_28_2, function()
+				arg_27_0:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = var_28_0
+				})
+			end)
 		end
 	end)
 	arg_27_0.awardUIList:align(#var_27_0)
 end
 
-function var_0_0.FlushConsume(arg_29_0, arg_29_1)
-	local var_29_0 = arg_29_1:GetConsume()
+function var_0_0.FlushConsume(arg_30_0, arg_30_1)
+	local var_30_0 = arg_30_1:GetConsume()
 
-	arg_29_0.consumeUIList:make(function(arg_30_0, arg_30_1, arg_30_2)
-		if arg_30_0 == UIItemList.EventUpdate then
-			local var_30_0 = var_29_0[arg_30_1 + 1]
-			local var_30_1 = {
+	arg_30_0.consumeUIList:make(function(arg_31_0, arg_31_1, arg_31_2)
+		if arg_31_0 == UIItemList.EventUpdate then
+			local var_31_0 = var_30_0[arg_31_1 + 1]
+			local var_31_1 = {
 				count = 0,
-				type = var_30_0.type,
-				id = var_30_0.id
+				type = var_31_0.type,
+				id = var_31_0.id
 			}
 
-			updateCustomDrop(arg_30_2:Find("tpl"), var_30_1)
-			setText(arg_30_2:Find("Text"), var_30_1.cfg.name)
+			updateCustomDrop(arg_31_2:Find("tpl"), var_31_1)
+			onButton(arg_30_0, arg_31_2, function()
+				arg_30_0:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = var_31_1
+				})
+			end)
+			setText(arg_31_2:Find("Text"), var_31_1.cfg.name)
 
-			local var_30_2 = Drop.New({
-				type = var_30_1.type,
-				id = var_30_1.id
+			local var_31_2 = Drop.New({
+				type = var_31_1.type,
+				id = var_31_1.id
 			}):getOwnedCount()
-			local var_30_3 = var_30_2 >= var_30_0.count
+			local var_31_3 = var_31_2 >= var_31_0.count
 
-			if var_30_3 then
-				setText(arg_30_2:Find("count"), var_30_2 .. "/" .. var_30_0.count)
+			if var_31_3 then
+				setText(arg_31_2:Find("count"), var_31_2 .. "/" .. var_31_0.count)
 			else
-				setText(arg_30_2:Find("count"), setColorStr(var_30_2, COLOR_RED) .. "/" .. var_30_0.count)
+				setText(arg_31_2:Find("count"), setColorStr(var_31_2, COLOR_RED) .. "/" .. var_31_0.count)
 			end
 
-			setActive(arg_30_2:Find("finish"), var_30_3)
-			setActive(arg_30_2:Find("line"), arg_30_1 + 1 ~= #var_29_0)
+			setActive(arg_31_2:Find("finish"), var_31_3)
+			setActive(arg_31_2:Find("line"), arg_31_1 + 1 ~= #var_30_0)
 		end
 	end)
-	arg_29_0.consumeUIList:align(#var_29_0)
+	arg_30_0.consumeUIList:align(#var_30_0)
 end
 
-function var_0_0.RemoveSubmitCdTimer(arg_31_0)
-	if arg_31_0.submitTimer then
-		arg_31_0.submitTimer:Stop()
+function var_0_0.RemoveSubmitCdTimer(arg_33_0)
+	if arg_33_0.submitTimer then
+		arg_33_0.submitTimer:Stop()
 
-		arg_31_0.submitTimer = nil
+		arg_33_0.submitTimer = nil
 	end
 end
 
-function var_0_0.OnDestroy(arg_32_0)
-	arg_32_0:RemoveSubmitCdTimer()
-	arg_32_0:RemoveLoadingTimer()
-	arg_32_0:RemoveDisappearTimer()
+function var_0_0.OnDestroy(arg_34_0)
+	arg_34_0:RemoveSubmitCdTimer()
+	arg_34_0:RemoveLoadingTimer()
+	arg_34_0:RemoveDisappearTimer()
 end
 
 return var_0_0

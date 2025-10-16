@@ -11,29 +11,29 @@ function var_0_0.SetUI(arg_2_0, arg_2_1)
 	arg_2_0.questioneTFs = {}
 
 	for iter_2_0, iter_2_1 in ipairs(pg.activity_event_question.all) do
-		local var_2_0 = arg_2_0:findTF("labels/label" .. iter_2_0)
+		local var_2_0 = arg_2_0._tf:Find("labels/label" .. iter_2_0)
 
 		arg_2_0.questioneTFs[iter_2_1] = var_2_0
 	end
 
-	arg_2_0.mainPanel = arg_2_0:findTF("main")
-	arg_2_0.day = arg_2_0:findTF("time/Text"):GetComponent(typeof(Text))
-	arg_2_0:findTF("frame/time", arg_2_0.mainPanel):GetComponent(typeof(Text)).text = i18n("LanternRiddle_wait_time_tip")
+	arg_2_0.mainPanel = arg_2_0._tf:Find("main")
+	arg_2_0.day = arg_2_0._tf:Find("time/Text"):GetComponent(typeof(Text))
+	arg_2_0.mainPanel:Find("frame/time"):GetComponent(typeof(Text)).text = i18n("LanternRiddle_wait_time_tip")
 
 	setActive(arg_2_0.mainPanel, false)
 	onButton(arg_2_0, arg_2_0.mainPanel, function()
 		arg_2_0:HideMainPanel()
 	end, SFX_PANEL)
-	onButton(arg_2_0, arg_2_0:findTF("back"), function()
+	onButton(arg_2_0, arg_2_0._tf:Find("back"), function()
 		arg_2_0.controller:ExitGame()
 	end, SFX_PANEL)
-	onButton(arg_2_0, arg_2_0:findTF("back/help"), function()
+	onButton(arg_2_0, arg_2_0._tf:Find("back/help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.lanternRiddles_gametip.tip
 		})
 	end, SFX_PANEL)
-	onButton(arg_2_0, arg_2_0:findTF("option"), function()
+	onButton(arg_2_0, arg_2_0._tf:Find("option"), function()
 		arg_2_0.controller:ExitGameAndGoHome()
 	end, SFX_PANEL)
 end
@@ -79,13 +79,13 @@ end
 function var_0_0.ShowMainPanel(arg_11_0, arg_11_1)
 	pg.UIMgr.GetInstance():BlurPanel(arg_11_0.mainPanel)
 	setActive(arg_11_0.mainPanel, true)
-	setActive(arg_11_0:findTF("frame/label_game", arg_11_0.mainPanel), arg_11_1.type == 2)
-	setActive(arg_11_0:findTF("frame/label_his", arg_11_0.mainPanel), arg_11_1.type == 1)
-	setText(arg_11_0:findTF("frame/Text", arg_11_0.mainPanel), arg_11_1.text)
+	setActive(arg_11_0.mainPanel:Find("frame/label_game"), arg_11_1.type == 2)
+	setActive(arg_11_0.mainPanel:Find("frame/label_his"), arg_11_1.type == 1)
+	setText(arg_11_0.mainPanel:Find("frame/Text"), arg_11_1.text)
 	arg_11_0:UpdateMainPanelTime()
 
 	local var_11_0 = arg_11_1.answers
-	local var_11_1 = arg_11_0:findTF("frame/answers", arg_11_0.mainPanel)
+	local var_11_1 = arg_11_0.mainPanel:Find("frame/answers")
 	local var_11_2 = arg_11_1.isFinish
 
 	for iter_11_0 = 1, 4 do
@@ -121,7 +121,7 @@ function var_0_0.UpdateMainPanelTime(arg_13_0)
 
 	local var_13_0 = pg.TimeMgr.GetInstance():GetServerTime() <= arg_13_0.controller:GetLockTime()
 
-	setActive(arg_13_0:findTF("frame/time", arg_13_0.mainPanel), var_13_0)
+	setActive(arg_13_0.mainPanel:Find("frame/time"), var_13_0)
 
 	if var_13_0 then
 		arg_13_0:AddTimer()
@@ -129,7 +129,7 @@ function var_0_0.UpdateMainPanelTime(arg_13_0)
 end
 
 function var_0_0.OnUpdateAnswer(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
-	local var_14_0 = arg_14_0:findTF("frame/answers", arg_14_0.mainPanel):GetChild(arg_14_2 - 1)
+	local var_14_0 = arg_14_0.mainPanel:Find("frame/answers"):GetChild(arg_14_2 - 1)
 
 	setActive(var_14_0:Find("right"), arg_14_3)
 	setActive(var_14_0:Find("false"), not arg_14_3)
@@ -158,7 +158,7 @@ end
 
 function var_0_0.AddTimer(arg_16_0)
 	local var_16_0 = arg_16_0.controller:GetLockTime()
-	local var_16_1 = arg_16_0:findTF("frame/time/Text", arg_16_0.mainPanel):GetComponent(typeof(Text))
+	local var_16_1 = arg_16_0.mainPanel:Find("frame/time/Text"):GetComponent(typeof(Text))
 
 	arg_16_0.timer = Timer.New(function()
 		local var_17_0 = pg.TimeMgr.GetInstance():GetServerTime()
@@ -166,7 +166,7 @@ function var_0_0.AddTimer(arg_16_0)
 
 		if var_17_1 <= 0 then
 			arg_16_0:RemoveTimer()
-			setActive(arg_16_0:findTF("frame/time", arg_16_0.mainPanel), false)
+			setActive(arg_16_0.mainPanel:Find("frame/time"), false)
 		else
 			var_16_1.text = pg.TimeMgr.GetInstance():DescCDTime(var_17_1)
 		end
@@ -188,12 +188,6 @@ function var_0_0.Dispose(arg_19_0)
 	arg_19_0:RemoveTimer()
 	arg_19_0:HideMainPanel()
 	pg.DelegateInfo.Dispose(arg_19_0)
-end
-
-function var_0_0.findTF(arg_20_0, arg_20_1, arg_20_2)
-	assert(arg_20_0._tf, "transform should exist")
-
-	return findTF(arg_20_2 or arg_20_0._tf, arg_20_1)
 end
 
 return var_0_0

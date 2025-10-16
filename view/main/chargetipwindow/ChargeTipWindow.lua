@@ -9,11 +9,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.container = arg_2_0:findTF("frame/window")
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/top/btnBack")
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/confirm")
+	arg_2_0.container = arg_2_0._tf:Find("frame/window")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/top/btnBack")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/confirm")
 
-	setText(arg_2_0:findTF("frame/top/title"), i18n("words_information"))
+	setText(arg_2_0._tf:Find("frame/top/title"), i18n("words_information"))
 	setText(arg_2_0.confirmBtn:Find("Text"), i18n("msgbox_text_confirm"))
 end
 

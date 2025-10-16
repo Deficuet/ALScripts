@@ -9,11 +9,11 @@ function var_0_0.initConfig(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_3_0)
-	setText(arg_3_0:findTF("review_btn/Text", arg_3_0.performTF), i18n("child_btn_review"))
+	setText(arg_3_0.performTF:Find("review_btn/Text"), i18n("child_btn_review"))
 
 	arg_3_0.endings = getProxy(EducateProxy):GetFinishEndings()
 	arg_3_0.char = getProxy(EducateProxy):GetCharData()
-	arg_3_0.tpl = arg_3_0:findTF("condition_tpl", arg_3_0.windowTF)
+	arg_3_0.tpl = arg_3_0.windowTF:Find("condition_tpl")
 
 	setText(arg_3_0.curCntTF, #arg_3_0.endings)
 	setText(arg_3_0.allCntTF, "/" .. #arg_3_0.config.all)
@@ -24,22 +24,22 @@ function var_0_0.updateItem(arg_4_0, arg_4_1, arg_4_2)
 	local var_4_0 = table.contains(arg_4_0.endings, arg_4_1.id)
 
 	if var_4_0 then
-		LoadImageSpriteAsync("bg/" .. arg_4_1.pic, arg_4_0:findTF("unlock/mask/Image", arg_4_2))
-		setText(arg_4_0:findTF("unlock/name", arg_4_2), arg_4_1.name)
+		LoadImageSpriteAsync("bg/" .. arg_4_1.pic, arg_4_2:Find("unlock/mask/Image"))
+		setText(arg_4_2:Find("unlock/name"), arg_4_1.name)
 		onButton(arg_4_0, arg_4_2, function()
 			arg_4_0:showPerformWindow(arg_4_1)
 		end, SFX_PANEL)
 	else
 		removeOnButton(arg_4_2)
 
-		local var_4_1 = arg_4_0:findTF("lock/conditions", arg_4_2)
+		local var_4_1 = arg_4_2:Find("lock/conditions")
 		local var_4_2 = arg_4_1.condition
 
 		arg_4_0:updateConditions(var_4_2, var_4_1)
 	end
 
-	setActive(arg_4_0:findTF("unlock", arg_4_2), var_4_0)
-	setActive(arg_4_0:findTF("lock", arg_4_2), not var_4_0)
+	setActive(arg_4_2:Find("unlock"), var_4_0)
+	setActive(arg_4_2:Find("lock"), not var_4_0)
 end
 
 function var_0_0.updateConditions(arg_6_0, arg_6_1, arg_6_2)
@@ -63,12 +63,12 @@ function var_0_0.updateConditions(arg_6_0, arg_6_1, arg_6_2)
 				var_6_4 = i18n("child_nature_title") .. pg.child_attr[var_6_1[2]].name
 			end
 
-			setActive(arg_6_0:findTF("icon/unlock", var_6_2), var_6_3)
+			setActive(var_6_2:Find("icon/unlock"), var_6_3)
 
 			local var_6_5 = var_6_3 and "F59F48" or "888888"
 
-			setTextColor(arg_6_0:findTF("Text", var_6_2), Color.NewHex(var_6_5))
-			setText(arg_6_0:findTF("Text", var_6_2), var_6_4)
+			setTextColor(var_6_2:Find("Text"), Color.NewHex(var_6_5))
+			setText(var_6_2:Find("Text"), var_6_4)
 		end
 	end
 
@@ -78,14 +78,14 @@ function var_0_0.updateConditions(arg_6_0, arg_6_1, arg_6_2)
 end
 
 function var_0_0.showPerformWindow(arg_7_0, arg_7_1)
-	local var_7_0 = arg_7_0:findTF("Image", arg_7_0.performTF)
+	local var_7_0 = arg_7_0.performTF:Find("Image")
 
 	LoadImageSpriteAsync("bg/" .. arg_7_1.pic, var_7_0)
 	setActive(arg_7_0.performTF, true)
 	onButton(arg_7_0, var_7_0, function()
 		setActive(arg_7_0.performTF, false)
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0:findTF("review_btn", arg_7_0.performTF), function()
+	onButton(arg_7_0, arg_7_0.performTF:Find("review_btn"), function()
 		pg.PerformMgr.GetInstance():PlayGroup(arg_7_1.performance)
 	end, SFX_PANEL)
 end

@@ -54,18 +54,18 @@ function var_0_0.initData(arg_6_0)
 end
 
 function var_0_0.findUI(arg_7_0)
-	arg_7_0.bg = arg_7_0:findTF("BG")
+	arg_7_0.bg = arg_7_0._tf:Find("BG")
 
-	local var_7_0 = arg_7_0:findTF("NotchAdapt")
+	local var_7_0 = arg_7_0._tf:Find("NotchAdapt")
 
-	arg_7_0.backBtn = arg_7_0:findTF("BackBtn", var_7_0)
-	arg_7_0.progressText = arg_7_0:findTF("ProgressImg/ProgressText", var_7_0)
-	arg_7_0.helpBtn = arg_7_0:findTF("HelpBtn", var_7_0)
+	arg_7_0.backBtn = var_7_0:Find("BackBtn")
+	arg_7_0.progressText = var_7_0:Find("ProgressImg/ProgressText")
+	arg_7_0.helpBtn = var_7_0:Find("HelpBtn")
 
-	local var_7_1 = arg_7_0:findTF("SwitchBtnList", arg_7_0._tf)
+	local var_7_1 = arg_7_0._tf:Find("SwitchBtnList")
 
 	arg_7_0.tplButtom = findTF(var_7_1, "tplButtom")
-	arg_7_0.imgGot = arg_7_0:findTF("ProgressImg/got", var_7_0)
+	arg_7_0.imgGot = var_7_0:Find("ProgressImg/got")
 	arg_7_0.switchBtnList = {}
 	arg_7_0.medalTfList = {}
 
@@ -220,7 +220,7 @@ function var_0_0.updateSwitchBtnTF(arg_23_0)
 	setText(arg_23_0.rightPage, (arg_23_0.curPage - 1) * var_0_0.MEDAL_NUM_PER_PAGE + 2)
 
 	for iter_23_0, iter_23_1 in ipairs(arg_23_0.switchBtnList) do
-		local var_23_0 = arg_23_0:findTF("Tip", iter_23_1)
+		local var_23_0 = iter_23_1:Find("Tip")
 		local var_23_1 = arg_23_0:caculateActivatable(iter_23_0)
 
 		if var_23_1 == 0 or iter_23_0 == arg_23_0.curPage then

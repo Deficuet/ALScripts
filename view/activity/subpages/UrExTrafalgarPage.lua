@@ -4,7 +4,7 @@ local var_0_1 = pg.activity_holiday_site
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.icon = arg_1_0:findTF("AD/icon")
+	arg_1_0.icon = arg_1_0._tf:Find("AD/icon")
 	arg_1_0.taskTypeDic = setmetatable({
 		[var_0_0.MINI_GAME] = function(arg_2_0, arg_2_1)
 			local var_2_0 = arg_2_1[1]

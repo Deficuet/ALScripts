@@ -23,7 +23,7 @@ end
 
 function var_0_0.OnUpdateItem(arg_4_0, arg_4_1, arg_4_2)
 	local var_4_0 = arg_4_0.showDataList[arg_4_1 + 1]
-	local var_4_1 = arg_4_0:findTF("icon_mask/icon", arg_4_2)
+	local var_4_1 = arg_4_2:Find("icon_mask/icon")
 	local var_4_2 = {
 		type = var_4_0.config.type,
 		id = var_4_0.config.drop_id
@@ -50,8 +50,8 @@ end
 
 function var_0_0.UpdateView(arg_6_0)
 	for iter_6_0 = 1, #arg_6_0.table_Top do
-		setText(arg_6_0:findTF("Label", arg_6_0.table_Top[iter_6_0]), arg_6_0:OnGetCount(iter_6_0) .. "/" .. arg_6_0:OnCount(iter_6_0))
-		setText(arg_6_0:findTF("type_image/name", arg_6_0.table_Top[iter_6_0]), i18n("danmachi_award_" .. iter_6_0))
+		setText(arg_6_0.table_Top[iter_6_0]:Find("Label"), arg_6_0:OnGetCount(iter_6_0) .. "/" .. arg_6_0:OnCount(iter_6_0))
+		setText(arg_6_0.table_Top[iter_6_0]:Find("type_image/name"), i18n("danmachi_award_" .. iter_6_0))
 	end
 
 	triggerToggle(arg_6_0.table_Top[arg_6_0.pageIndex or 1], true)
@@ -59,14 +59,28 @@ end
 
 function var_0_0.selectBoxbg(arg_7_0, arg_7_1)
 	if table.getCount(arg_7_1.skipable_list) > 1 then
-		setImageSprite(arg_7_0:findTF("Panel/BG", arg_7_0.boxTF), LoadSprite("ui/AEBCSAwardPage_atlas", "box_bg1"), true)
+		setImageSprite(arg_7_0.boxTF:Find("Panel/BG"), LoadSprite("ui/AEBCSAwardPage_atlas", "box_bg1"), true)
 	elseif table.getCount(arg_7_1.skipable_list) == 1 then
-		setImageSprite(arg_7_0:findTF("Panel/BG", arg_7_0.boxTF), LoadSprite("ui/AEBCSAwardPage_atlas", "box_bg2"), true)
+		setImageSprite(arg_7_0.boxTF:Find("Panel/BG"), LoadSprite("ui/AEBCSAwardPage_atlas", "box_bg2"), true)
 	end
 end
 
 function var_0_0.RefreshCountText(arg_8_0, arg_8_1, arg_8_2)
-	setText(arg_8_0:findTF("owner/number", arg_8_2), arg_8_1.count .. "/" .. arg_8_1.config.count)
+	setText(arg_8_2:Find("owner/number"), arg_8_1.count .. "/" .. arg_8_1.config.count)
+end
+
+function var_0_0.showBoxPanel(arg_9_0, arg_9_1)
+	setActive(arg_9_0.boxTF, arg_9_1)
+
+	if arg_9_1 == true then
+		pg.UIMgr.GetInstance():BlurPanel(arg_9_0.boxTF)
+	else
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0.boxTF, arg_9_0._tf)
+	end
+end
+
+function var_0_0.OnDestroy(arg_10_0)
+	arg_10_0:showBoxPanel(false)
 end
 
 return var_0_0

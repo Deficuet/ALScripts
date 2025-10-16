@@ -12,17 +12,17 @@ end
 
 function var_0_0.init(arg_3_0)
 	arg_3_0.icons = {
-		arg_3_0:findTF("bg/icon/npc1"),
-		arg_3_0:findTF("bg/icon/npc2"),
-		arg_3_0:findTF("bg/icon/npc3"),
-		arg_3_0:findTF("bg/icon/npc4"),
-		arg_3_0:findTF("bg/icon/npc5"),
-		arg_3_0:findTF("bg/icon/npc6"),
-		arg_3_0:findTF("bg/icon/npc7")
+		arg_3_0._tf:Find("bg/icon/npc1"),
+		arg_3_0._tf:Find("bg/icon/npc2"),
+		arg_3_0._tf:Find("bg/icon/npc3"),
+		arg_3_0._tf:Find("bg/icon/npc4"),
+		arg_3_0._tf:Find("bg/icon/npc5"),
+		arg_3_0._tf:Find("bg/icon/npc6"),
+		arg_3_0._tf:Find("bg/icon/npc7")
 	}
-	arg_3_0.helpBtn = arg_3_0:findTF("bg/btn/pngbtn_help")
-	arg_3_0.getBtn = arg_3_0:findTF("bg/btn/btn_djlq")
-	arg_3_0.gotBtn = arg_3_0:findTF("bg/btn/btn_ylq")
+	arg_3_0.helpBtn = arg_3_0._tf:Find("bg/btn/pngbtn_help")
+	arg_3_0.getBtn = arg_3_0._tf:Find("bg/btn/btn_djlq")
+	arg_3_0.gotBtn = arg_3_0._tf:Find("bg/btn/btn_ylq")
 	arg_3_0.parent = arg_3_0._tf.parent
 
 	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)

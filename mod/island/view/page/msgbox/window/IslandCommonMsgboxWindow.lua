@@ -5,13 +5,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.titleTxt = arg_2_0:findTF("title"):GetComponent(typeof(Text))
-	arg_2_0.contentTxt = arg_2_0:findTF("content/Text"):GetComponent("RichText")
-	arg_2_0.closeBtn = arg_2_0:findTF("close")
-	arg_2_0.cancelBtn = arg_2_0:findTF("cancel")
-	arg_2_0.confirmBtn = arg_2_0:findTF("confirm")
-	arg_2_0.cancelTxt = arg_2_0:findTF("cancel/Text"):GetComponent(typeof(Text))
-	arg_2_0.confirmTxt = arg_2_0:findTF("confirm/Text"):GetComponent(typeof(Text))
+	arg_2_0.titleTxt = arg_2_0._tf:Find("title"):GetComponent(typeof(Text))
+	arg_2_0.contentTxt = arg_2_0._tf:Find("content/Text"):GetComponent("RichText")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("close")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("cancel")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("confirm")
+	arg_2_0.cancelTxt = arg_2_0._tf:Find("cancel/Text"):GetComponent(typeof(Text))
+	arg_2_0.confirmTxt = arg_2_0._tf:Find("confirm/Text"):GetComponent(typeof(Text))
 end
 
 function var_0_0.OnInit(arg_3_0)

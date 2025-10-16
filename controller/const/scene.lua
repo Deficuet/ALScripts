@@ -228,6 +228,7 @@ local var_0_0 = {
 		arg_4_0.mediator = IslandMediator
 		arg_4_0.viewComponent = IslandScene
 		arg_4_0.irregularSequence = true
+		arg_4_0.cleanCacheUI = true
 	end,
 	[SCENE.SHARED_ISLAND] = function(arg_5_0, arg_5_1)
 		arg_5_0.mediator = SharedIslandMediator
@@ -258,6 +259,7 @@ local var_0_0 = {
 		arg_11_0.mediator = LoginMediator
 		arg_11_0.viewComponent = LoginScene
 		arg_11_0.cleanStack = true
+		arg_11_0.cleanCacheUI = true
 	end,
 	[SCENE.CREATE_PLAYER] = function(arg_12_0, arg_12_1)
 		arg_12_0.mediator = NewPlayerMediator
@@ -943,6 +945,7 @@ local var_0_0 = {
 		arg_158_0.mediator = Dorm3dRoomMediator
 		arg_158_0.viewComponent = Dorm3dRoomScene
 		arg_158_0.cleanChild = true
+		arg_158_0.cleanCacheUI = true
 	end,
 	[SCENE.DORM3D_VOLLEYBALL] = function(arg_159_0, arg_159_1)
 		arg_159_0.mediator = Dorm3dGameMediatorTemplate

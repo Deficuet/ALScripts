@@ -34,7 +34,7 @@ function var_0_0.init(arg_3_0)
 				warning(string.format("without page in act:", var_4_0.id))
 			else
 				local var_4_1 = arg_3_0.pageDic[var_4_0.id]
-				local var_4_2 = arg_3_0:findTF("tip", arg_4_2)
+				local var_4_2 = arg_4_2:Find("tip")
 				local var_4_3 = var_4_1:IsShowReminder()
 
 				if var_4_3 == nil then

@@ -103,9 +103,9 @@ end
 
 function var_0_0.init(arg_15_0)
 	arg_15_0.mainCG = GetOrAddComponent(arg_15_0._tf, typeof(CanvasGroup))
-	arg_15_0.bgView = MainBGView.New(arg_15_0:findTF("Sea/bg"))
-	arg_15_0.paintingView = MainPaintingView.New(arg_15_0:findTF("paint"), arg_15_0:findTF("paintBg"), arg_15_0.event)
-	arg_15_0.effectView = MainEffectView.New(arg_15_0:findTF("paint/effect"))
+	arg_15_0.bgView = MainBGView.New(arg_15_0._tf:Find("Sea/bg"))
+	arg_15_0.paintingView = MainPaintingView.New(arg_15_0._tf:Find("paint"), arg_15_0._tf:Find("paintBg"), arg_15_0.event)
+	arg_15_0.effectView = MainEffectView.New(arg_15_0._tf:Find("paint/effect"))
 	arg_15_0.buffDescPage = MainBuffDescPage.New(arg_15_0._tf, arg_15_0.event)
 	arg_15_0.calibrationPage = MainCalibrationPage.New(arg_15_0._tf, arg_15_0.event, arg_15_0.contextData)
 	arg_15_0.silentView = MainSilentView.New(arg_15_0._tf, arg_15_0.event, arg_15_0.contextData)

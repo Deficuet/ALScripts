@@ -36,60 +36,60 @@ end
 
 function var_0_0.OnLoaded(arg_3_0)
 	arg_3_0._tf.name = tostring(OtherworldTerminalLayer.PAGE_PERSONAL)
-	arg_3_0.infoTF = arg_3_0:findTF("frame/info")
+	arg_3_0.infoTF = arg_3_0._tf:Find("frame/info")
 
-	setText(arg_3_0:findTF("title/content/Text", arg_3_0.infoTF), i18n("personal_info_title"))
+	setText(arg_3_0.infoTF:Find("title/content/Text"), i18n("personal_info_title"))
 
-	arg_3_0.nameTitle = arg_3_0:findTF("infos/name/title", arg_3_0.infoTF)
-	arg_3_0.nameInput = arg_3_0:findTF("infos/name/box/InputField", arg_3_0.infoTF)
-	arg_3_0.jobTitle = arg_3_0:findTF("infos/job/title", arg_3_0.infoTF)
-	arg_3_0.jobValue = arg_3_0:findTF("infos/job/value", arg_3_0.infoTF)
-	arg_3_0.guardianTitle = arg_3_0:findTF("infos/guardian/title", arg_3_0.infoTF)
-	arg_3_0.guardianValue = arg_3_0:findTF("infos/guardian/value", arg_3_0.infoTF)
-	arg_3_0.lvTitle = arg_3_0:findTF("level/lv/title", arg_3_0.infoTF)
-	arg_3_0.lvValue = arg_3_0:findTF("level/lv/value", arg_3_0.infoTF)
-	arg_3_0.lvSlider = arg_3_0:findTF("level/slider", arg_3_0.infoTF)
-	arg_3_0.lvUpgradeTF = arg_3_0:findTF("level/slider/upgrade", arg_3_0.infoTF)
+	arg_3_0.nameTitle = arg_3_0.infoTF:Find("infos/name/title")
+	arg_3_0.nameInput = arg_3_0.infoTF:Find("infos/name/box/InputField")
+	arg_3_0.jobTitle = arg_3_0.infoTF:Find("infos/job/title")
+	arg_3_0.jobValue = arg_3_0.infoTF:Find("infos/job/value")
+	arg_3_0.guardianTitle = arg_3_0.infoTF:Find("infos/guardian/title")
+	arg_3_0.guardianValue = arg_3_0.infoTF:Find("infos/guardian/value")
+	arg_3_0.lvTitle = arg_3_0.infoTF:Find("level/lv/title")
+	arg_3_0.lvValue = arg_3_0.infoTF:Find("level/lv/value")
+	arg_3_0.lvSlider = arg_3_0.infoTF:Find("level/slider")
+	arg_3_0.lvUpgradeTF = arg_3_0.infoTF:Find("level/slider/upgrade")
 
 	setActive(arg_3_0.lvUpgradeTF, false)
 
-	arg_3_0.propertyTF = arg_3_0:findTF("frame/property")
+	arg_3_0.propertyTF = arg_3_0._tf:Find("frame/property")
 
-	setText(arg_3_0:findTF("title/content/Text", arg_3_0.propertyTF), i18n("personal_property_title"))
+	setText(arg_3_0.propertyTF:Find("title/content/Text"), i18n("personal_property_title"))
 
-	arg_3_0.propertyContent = arg_3_0:findTF("content", arg_3_0.propertyTF)
-	arg_3_0.propertyTpl = arg_3_0:findTF("tpl", arg_3_0.propertyTF)
+	arg_3_0.propertyContent = arg_3_0.propertyTF:Find("content")
+	arg_3_0.propertyTpl = arg_3_0.propertyTF:Find("tpl")
 
 	setActive(arg_3_0.propertyTpl, false)
-	setActive(arg_3_0:findTF("upgrade", arg_3_0.propertyTpl), false)
+	setActive(arg_3_0.propertyTpl:Find("upgrade"), false)
 
 	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_CHT then
-		arg_3_0.abilityTF = arg_3_0:findTF("frame/ability")
+		arg_3_0.abilityTF = arg_3_0._tf:Find("frame/ability")
 
-		setActive(arg_3_0:findTF("frame/ability_2"), false)
+		setActive(arg_3_0._tf:Find("frame/ability_2"), false)
 	else
-		arg_3_0.abilityTF = arg_3_0:findTF("frame/ability_2")
+		arg_3_0.abilityTF = arg_3_0._tf:Find("frame/ability_2")
 
-		setActive(arg_3_0:findTF("frame/ability"), false)
+		setActive(arg_3_0._tf:Find("frame/ability"), false)
 	end
 
 	setActive(arg_3_0.abilityTF, true)
-	setText(arg_3_0:findTF("title/content/Text", arg_3_0.abilityTF), i18n("personal_ability_title"))
+	setText(arg_3_0.abilityTF:Find("title/content/Text"), i18n("personal_ability_title"))
 
-	arg_3_0.abilityContent = arg_3_0:findTF("content", arg_3_0.abilityTF)
-	arg_3_0.abilityTpl = arg_3_0:findTF("tpl", arg_3_0.abilityTF)
+	arg_3_0.abilityContent = arg_3_0.abilityTF:Find("content")
+	arg_3_0.abilityTpl = arg_3_0.abilityTF:Find("tpl")
 
 	setActive(arg_3_0.abilityTpl, false)
 
-	arg_3_0.randomBtn = arg_3_0:findTF("frame/random_btn")
+	arg_3_0.randomBtn = arg_3_0._tf:Find("frame/random_btn")
 
-	setText(arg_3_0:findTF("Text", arg_3_0.randomBtn), i18n("personal_random"))
+	setText(arg_3_0.randomBtn:Find("Text"), i18n("personal_random"))
 
-	arg_3_0.randomGreyBtn = arg_3_0:findTF("frame/random_btn_grey")
+	arg_3_0.randomGreyBtn = arg_3_0._tf:Find("frame/random_btn_grey")
 
-	setText(arg_3_0:findTF("Text", arg_3_0.randomGreyBtn), i18n("personal_random"))
+	setText(arg_3_0.randomGreyBtn:Find("Text"), i18n("personal_random"))
 
-	arg_3_0.effectTF = arg_3_0:findTF("effect")
+	arg_3_0.effectTF = arg_3_0._tf:Find("effect")
 
 	setActive(arg_3_0.effectTF, false)
 
@@ -138,7 +138,7 @@ function var_0_0.OnInit(arg_4_0)
 
 	setActive(arg_4_0.randomBtn, arg_4_0.unlockRandom)
 	setActive(arg_4_0.randomGreyBtn, not arg_4_0.unlockRandom)
-	setActive(arg_4_0:findTF("infos/name/box/edit", arg_4_0.infoTF), arg_4_0.unlockRandom)
+	setActive(arg_4_0.infoTF:Find("infos/name/box/edit"), arg_4_0.unlockRandom)
 
 	if arg_4_0.unlockRandom and arg_4_0:GetLocalName() ~= "" then
 		arg_4_0.showName = arg_4_0:GetLocalName()
@@ -219,8 +219,8 @@ function var_0_0.UpdateProperty(arg_12_0, arg_12_1)
 
 		local var_12_2, var_12_3 = arg_12_0:GetRollAttrInfoById(iter_12_1, arg_12_1)
 
-		setText(arg_12_0:findTF("name", var_12_1), var_12_2)
-		setText(arg_12_0:findTF("value/Text", var_12_1), var_12_3)
+		setText(var_12_1:Find("name"), var_12_2)
+		setText(var_12_1:Find("value/Text"), var_12_3)
 
 		if arg_12_1 then
 			OtherworldMapScene.personalRandomData[iter_12_1] = var_12_3
@@ -262,8 +262,8 @@ function var_0_0.UpdateAbility(arg_13_0, arg_13_1)
 
 		local var_13_2, var_13_3 = arg_13_0:GetRollAttrInfoById(iter_13_5, arg_13_1)
 
-		setText(arg_13_0:findTF("name", var_13_1), var_13_2)
-		setText(arg_13_0:findTF("value/Text", var_13_1), var_13_3)
+		setText(var_13_1:Find("name"), var_13_2)
+		setText(var_13_1:Find("value/Text"), var_13_3)
 
 		if arg_13_1 then
 			OtherworldMapScene.personalRandomData[iter_13_5] = var_13_3
@@ -381,18 +381,18 @@ function var_0_0.PlayPropertyAnim(arg_27_0, arg_27_1)
 		local var_27_4, var_27_5, var_27_6 = arg_27_0:GetStaticInfo(var_27_3)
 
 		if var_27_1 then
-			setText(arg_27_0:findTF("name", var_27_2), var_0_0.config[var_27_3].name)
-			setText(arg_27_0:findTF("value/Text", var_27_2), var_27_4)
+			setText(var_27_2:Find("name"), var_0_0.config[var_27_3].name)
+			setText(var_27_2:Find("value/Text"), var_27_4)
 		end
 
 		if var_27_6 then
 			table.insert(var_27_0, function(arg_28_0)
-				setActive(arg_27_0:findTF("upgrade", var_27_2), var_27_6)
+				setActive(var_27_2:Find("upgrade"), var_27_6)
 				arg_27_0:managedTween(LeanTween.delayedCall, function()
-					setActive(arg_27_0:findTF("upgrade", var_27_2), false)
+					setActive(var_27_2:Find("upgrade"), false)
 				end, var_0_0.UPGRADE_TAG_SHOW_TIME, nil)
 				arg_27_0:managedTween(LeanTween.value, nil, go(var_27_2), var_27_4, var_27_5, var_0_0.PROPERTY_TPL_ANIM_TIME):setOnUpdate(System.Action_float(function(arg_30_0)
-					setText(arg_27_0:findTF("value/Text", var_27_2), math.floor(arg_30_0))
+					setText(var_27_2:Find("value/Text"), math.floor(arg_30_0))
 				end)):setOnComplete(System.Action(function()
 					arg_28_0()
 				end))
@@ -451,8 +451,8 @@ function var_0_0.PlayAbilityAnim(arg_35_0, arg_35_1)
 						arg_35_0:managedTween(LeanTween.value, nil, go(var_35_6), 1, 0, var_0_0.ABILITY_TPL_ANIM_TIME):setEase(LeanTweenType.easeInBack):setOnUpdate(System.Action_float(function(arg_37_0)
 							GetOrAddComponent(var_35_6, typeof(CanvasGroup)).alpha = arg_37_0
 						end)):setOnComplete(System.Action(function()
-							setText(arg_35_0:findTF("name", var_35_6), var_0_0.config[var_35_5].name)
-							setText(arg_35_0:findTF("value/Text", var_35_6), arg_35_0.upgradeCfg[var_35_5])
+							setText(var_35_6:Find("name"), var_0_0.config[var_35_5].name)
+							setText(var_35_6:Find("value/Text"), arg_35_0.upgradeCfg[var_35_5])
 							arg_36_0()
 						end))
 					end)
@@ -460,8 +460,8 @@ function var_0_0.PlayAbilityAnim(arg_35_0, arg_35_1)
 
 				table.insert(var_35_3, function(arg_39_0)
 					if var_35_4 then
-						setText(arg_35_0:findTF("name", var_35_6), var_0_0.config[var_35_5].name)
-						setText(arg_35_0:findTF("value/Text", var_35_6), arg_35_0.upgradeCfg[var_35_5])
+						setText(var_35_6:Find("name"), var_0_0.config[var_35_5].name)
+						setText(var_35_6:Find("value/Text"), arg_35_0.upgradeCfg[var_35_5])
 					end
 
 					arg_35_0:managedTween(LeanTween.value, nil, go(var_35_6), 0, 1, var_0_0.ABILITY_TPL_ANIM_TIME):setEase(LeanTweenType.easeOutBack):setOnUpdate(System.Action_float(function(arg_40_0)

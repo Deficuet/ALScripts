@@ -5,11 +5,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.cancelBtnTrans = arg_2_0:findTF("cancelBtn")
-	arg_2_0.confirmBtnTrans = arg_2_0:findTF("selectPage/confirmBtn")
-	arg_2_0.frameAdapter = arg_2_0:findTF("frameAdapter")
+	arg_2_0.cancelBtnTrans = arg_2_0._tf:Find("cancelBtn")
+	arg_2_0.confirmBtnTrans = arg_2_0._tf:Find("selectPage/confirmBtn")
+	arg_2_0.frameAdapter = arg_2_0._tf:Find("frameAdapter")
 
-	local var_2_0 = arg_2_0:findTF("selectPage/Scroll/Viewport/Content")
+	local var_2_0 = arg_2_0._tf:Find("selectPage/Scroll/Viewport/Content")
 	local var_2_1 = pg.dorm3d_camera_photo_frame.all
 
 	local function var_2_2()

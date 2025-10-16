@@ -5,19 +5,19 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.numberTF1 = arg_2_0:findTF("frame/list/number1")
+	arg_2_0.numberTF1 = arg_2_0._tf:Find("frame/list/number1")
 
 	setActive(arg_2_0.numberTF1, false)
 
-	arg_2_0.numberTF2 = arg_2_0:findTF("frame/list/number2")
+	arg_2_0.numberTF2 = arg_2_0._tf:Find("frame/list/number2")
 
 	setActive(arg_2_0.numberTF2, false)
 
-	arg_2_0.numberTF3 = arg_2_0:findTF("frame/list/number3")
+	arg_2_0.numberTF3 = arg_2_0._tf:Find("frame/list/number3")
 
 	setActive(arg_2_0.numberTF3, false)
 
-	arg_2_0.numberTF4 = arg_2_0:findTF("frame/list/number4")
+	arg_2_0.numberTF4 = arg_2_0._tf:Find("frame/list/number4")
 
 	setActive(arg_2_0.numberTF4, false)
 end

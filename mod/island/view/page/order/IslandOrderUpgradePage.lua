@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.levelTxt = arg_2_0:findTF("level"):GetComponent(typeof(Text))
-	arg_2_0.nextLevelTxt = arg_2_0:findTF("next_level"):GetComponent(typeof(Text))
+	arg_2_0.levelTxt = arg_2_0._tf:Find("level"):GetComponent(typeof(Text))
+	arg_2_0.nextLevelTxt = arg_2_0._tf:Find("next_level"):GetComponent(typeof(Text))
 end
 
 function var_0_0.OnInit(arg_3_0)

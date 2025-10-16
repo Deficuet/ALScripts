@@ -5,18 +5,18 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.uilist = UIItemList.New(arg_2_0:findTF("window/list/content"), arg_2_0:findTF("window/list/content/tpl"))
+	arg_2_0.uilist = UIItemList.New(arg_2_0._tf:Find("window/list/content"), arg_2_0._tf:Find("window/list/content/tpl"))
 	arg_2_0.skinTimers = {}
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("window/top/btnBack"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/top/btnBack"), function()
 		arg_3_0:Hide()
 	end, SFX_CANCEL)
 	onButton(arg_3_0, arg_3_0._tf, function()
 		arg_3_0:Hide()
 	end, SFX_CANCEL)
-	onButton(arg_3_0, arg_3_0:findTF("window/button_container/confirm_btn"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/button_container/confirm_btn"), function()
 		arg_3_0:Hide()
 	end, SFX_CANCEL)
 end

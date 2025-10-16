@@ -75,7 +75,7 @@ function var_0_0.didEnter(arg_4_0)
 	local var_4_0 = "neweducateicon/" .. arg_4_0.contextData.char:getConfig("child2_data_personality_icon")[2]
 
 	LoadImageSpriteAsync(var_4_0, arg_4_0.mindBtn, true)
-	onButton(arg_4_0, arg_4_0:findTF("fitter", arg_4_0.paintTF), function()
+	onButton(arg_4_0, arg_4_0.paintTF:Find("fitter"), function()
 		arg_4_0:ShowDialogue()
 	end, SFX_PANEL)
 	onButton(arg_4_0, arg_4_0.mindBtn, function()
@@ -201,11 +201,11 @@ function var_0_0.ShowDialogueUI(arg_24_0)
 end
 
 function var_0_0.UpdatePaintingFace(arg_25_0, arg_25_1)
-	if arg_25_0:findTF("fitter", arg_25_0.paintTF).childCount == 0 then
+	if arg_25_0.paintTF:Find("fitter").childCount == 0 then
 		return
 	end
 
-	local var_25_0 = arg_25_0:findTF("fitter", arg_25_0.paintTF):GetChild(0):Find("face")
+	local var_25_0 = arg_25_0.paintTF:Find("fitter"):GetChild(0):Find("face")
 
 	if arg_25_1 == 0 then
 		if var_25_0 then
@@ -250,7 +250,7 @@ function var_0_0.ShowDialogue(arg_26_0)
 	setText(arg_26_0.dialogueContent, var_26_2)
 
 	local var_26_3 = GetSpriteFromAtlas("paintingface/" .. arg_26_0.paintingName, arg_26_0.faceList[var_26_0])
-	local var_26_4 = arg_26_0:findTF("fitter", arg_26_0.paintTF):GetChild(0):Find("face")
+	local var_26_4 = arg_26_0.paintTF:Find("fitter"):GetChild(0):Find("face")
 
 	if var_26_4 and var_26_3 then
 		setImageSprite(var_26_4, var_26_3)

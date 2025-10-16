@@ -4,10 +4,10 @@ local var_0_2 = 2
 local var_0_3 = 3
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.shopBtn = arg_1_0:findTF("AD/shop_btn")
-	arg_1_0.uiList = UIItemList.New(arg_1_0:findTF("AD/list"), arg_1_0:findTF("AD/list/award"))
-	arg_1_0.finishCntTxt = arg_1_0:findTF("AD/Text"):GetComponent(typeof(Text))
-	arg_1_0.helpBtn = arg_1_0:findTF("AD/help")
+	arg_1_0.shopBtn = arg_1_0._tf:Find("AD/shop_btn")
+	arg_1_0.uiList = UIItemList.New(arg_1_0._tf:Find("AD/list"), arg_1_0._tf:Find("AD/list/award"))
+	arg_1_0.finishCntTxt = arg_1_0._tf:Find("AD/Text"):GetComponent(typeof(Text))
+	arg_1_0.helpBtn = arg_1_0._tf:Find("AD/help")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)

@@ -5,11 +5,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.btnChange = arg_2_0:findTF("BG/bottom/btn_change")
-	arg_2_0.btnBuy = arg_2_0:findTF("BG/bottom/btn_buy")
-	arg_2_0.priceText = arg_2_0:findTF("BG/bottom/btn_buy/Price")
-	arg_2_0.line = arg_2_0:findTF("BG/bottom/Line")
-	arg_2_0.desc = arg_2_0:findTF("BG/bottom/desc")
+	arg_2_0.btnChange = arg_2_0._tf:Find("BG/bottom/btn_change")
+	arg_2_0.btnBuy = arg_2_0._tf:Find("BG/bottom/btn_buy")
+	arg_2_0.priceText = arg_2_0._tf:Find("BG/bottom/btn_buy/Price")
+	arg_2_0.line = arg_2_0._tf:Find("BG/bottom/Line")
+	arg_2_0.desc = arg_2_0._tf:Find("BG/bottom/desc")
 	arg_2_0.loader = AutoLoader.New()
 end
 

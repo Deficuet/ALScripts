@@ -5,18 +5,18 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.title = arg_2_0:findTF("frame/Board/Top/text/text"):GetComponent("Text")
-	arg_2_0.uiNewStart = UIItemList.New(arg_2_0:findTF("frame/bg/starts"), arg_2_0:findTF("frame/bg/starts/tpl"))
-	arg_2_0.oldLevelTxt = arg_2_0:findTF("frame/bg/item/level/Text_1"):GetComponent("Text")
-	arg_2_0.newLevelTxt = arg_2_0:findTF("frame/bg/item/level/Text_2"):GetComponent("Text")
-	arg_2_0.oldEnergyTxt = arg_2_0:findTF("frame/bg/item/energy/Text_1"):GetComponent("Text")
-	arg_2_0.newEnergyTxt = arg_2_0:findTF("frame/bg/item/energy/Text_2"):GetComponent("Text")
+	arg_2_0.title = arg_2_0._tf:Find("frame/Board/Top/text/text"):GetComponent("Text")
+	arg_2_0.uiNewStart = UIItemList.New(arg_2_0._tf:Find("frame/bg/starts"), arg_2_0._tf:Find("frame/bg/starts/tpl"))
+	arg_2_0.oldLevelTxt = arg_2_0._tf:Find("frame/bg/item/level/Text_1"):GetComponent("Text")
+	arg_2_0.newLevelTxt = arg_2_0._tf:Find("frame/bg/item/level/Text_2"):GetComponent("Text")
+	arg_2_0.oldEnergyTxt = arg_2_0._tf:Find("frame/bg/item/energy/Text_1"):GetComponent("Text")
+	arg_2_0.newEnergyTxt = arg_2_0._tf:Find("frame/bg/item/energy/Text_2"):GetComponent("Text")
 
-	setText(arg_2_0:findTF("frame/bg/item/energy/Text"), i18n("island_ship_level_limit"))
-	setText(arg_2_0:findTF("frame/bg/item/level/Text"), i18n("island_ship_energy_limit"))
-	setText(arg_2_0:findTF("frame/tip"), i18n("island_click_close"))
+	setText(arg_2_0._tf:Find("frame/bg/item/energy/Text"), i18n("island_ship_level_limit"))
+	setText(arg_2_0._tf:Find("frame/bg/item/level/Text"), i18n("island_ship_energy_limit"))
+	setText(arg_2_0._tf:Find("frame/tip"), i18n("island_click_close"))
 
-	arg_2_0.frameTr = arg_2_0:findTF("frame")
+	arg_2_0.frameTr = arg_2_0._tf:Find("frame")
 	arg_2_0.animator = arg_2_0.frameTr:GetComponent(typeof(Animation))
 	arg_2_0.aniDft = arg_2_0.frameTr:GetComponent(typeof(DftAniEvent))
 end

@@ -52,14 +52,14 @@ function var_0_0.initData(arg_3_0)
 end
 
 function var_0_0.findUI(arg_6_0)
-	arg_6_0.windowsTF = arg_6_0:findTF("anim_root/window")
-	arg_6_0.leftTF = arg_6_0:findTF("left", arg_6_0.windowsTF)
+	arg_6_0.windowsTF = arg_6_0._tf:Find("anim_root/window")
+	arg_6_0.leftTF = arg_6_0.windowsTF:Find("left")
 
-	setText(arg_6_0:findTF("title/Text", arg_6_0.leftTF), i18n("child_plan_perform_title"))
+	setText(arg_6_0.leftTF:Find("title/Text"), i18n("child_plan_perform_title"))
 
-	arg_6_0.dayUIList = UIItemList.New(arg_6_0:findTF("content", arg_6_0.leftTF), arg_6_0:findTF("content/day_tpl", arg_6_0.leftTF))
-	arg_6_0.rightTF = arg_6_0:findTF("right", arg_6_0.windowsTF)
-	arg_6_0.planNameTF = arg_6_0:findTF("name", arg_6_0.rightTF)
+	arg_6_0.dayUIList = UIItemList.New(arg_6_0.leftTF:Find("content"), arg_6_0.leftTF:Find("content/day_tpl"))
+	arg_6_0.rightTF = arg_6_0.windowsTF:Find("right")
+	arg_6_0.planNameTF = arg_6_0.rightTF:Find("name")
 end
 
 function var_0_0.didEnter(arg_7_0)
@@ -80,19 +80,19 @@ function var_0_0.initDayList(arg_9_0)
 
 			arg_10_2.name = var_10_0
 
-			setText(arg_9_0:findTF("Text", arg_10_2), EducateHelper.GetWeekStrByNumber(var_10_0))
+			setText(arg_10_2:Find("Text"), EducateHelper.GetWeekStrByNumber(var_10_0))
 
 			for iter_10_0 = 1, 3 do
-				local var_10_1 = arg_9_0:findTF("phase" .. iter_10_0, arg_10_2)
+				local var_10_1 = arg_10_2:Find("phase" .. iter_10_0)
 
 				setActive(var_10_1, iter_10_0 == arg_9_0.planCnt)
 			end
 		elseif arg_10_0 == UIItemList.EventUpdate then
 			local var_10_2 = arg_10_1 + 1
 
-			setActive(arg_9_0:findTF("selected", arg_10_2), arg_9_0.curDay == var_10_2)
+			setActive(arg_10_2:Find("selected"), arg_9_0.curDay == var_10_2)
 
-			local var_10_3 = arg_9_0:findTF("Text", arg_10_2)
+			local var_10_3 = arg_10_2:Find("Text")
 			local var_10_4 = "FFFFFF"
 			local var_10_5 = "FFFFFF"
 
@@ -109,7 +109,7 @@ function var_0_0.initDayList(arg_9_0)
 
 			setTextColor(var_10_3, Color.NewHex(var_10_4))
 
-			local var_10_6 = arg_9_0:findTF("phase" .. arg_9_0.planCnt, arg_10_2)
+			local var_10_6 = arg_10_2:Find("phase" .. arg_9_0.planCnt)
 
 			for iter_10_1 = 1, var_10_6.childCount do
 				local var_10_7 = var_10_5

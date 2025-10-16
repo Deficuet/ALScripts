@@ -90,59 +90,59 @@ function var_0_0.setExpBuff(arg_7_0, arg_7_1, arg_7_2)
 end
 
 function var_0_0.init(arg_8_0)
-	arg_8_0._grade = arg_8_0:findTF("grade")
-	arg_8_0._levelText = arg_8_0:findTF("chapterName/Text22", arg_8_0._grade)
-	arg_8_0.clearFX = arg_8_0:findTF("clear")
-	arg_8_0._main = arg_8_0:findTF("main")
-	arg_8_0._blurConatiner = arg_8_0:findTF("blur_container")
-	arg_8_0._bg = arg_8_0:findTF("main/jiesuanbeijing")
-	arg_8_0._painting = arg_8_0:findTF("painting", arg_8_0._blurConatiner)
-	arg_8_0._failPainting = arg_8_0:findTF("fail", arg_8_0._painting)
-	arg_8_0._chat = arg_8_0:findTF("chat", arg_8_0._painting)
-	arg_8_0._leftPanel = arg_8_0:findTF("leftPanel", arg_8_0._main)
-	arg_8_0._expResult = arg_8_0:findTF("expResult", arg_8_0._leftPanel)
-	arg_8_0._expContainer = arg_8_0:findTF("expContainer", arg_8_0._expResult)
+	arg_8_0._grade = arg_8_0._tf:Find("grade")
+	arg_8_0._levelText = arg_8_0._grade:Find("chapterName/Text22")
+	arg_8_0.clearFX = arg_8_0._tf:Find("clear")
+	arg_8_0._main = arg_8_0._tf:Find("main")
+	arg_8_0._blurConatiner = arg_8_0._tf:Find("blur_container")
+	arg_8_0._bg = arg_8_0._tf:Find("main/jiesuanbeijing")
+	arg_8_0._painting = arg_8_0._blurConatiner:Find("painting")
+	arg_8_0._failPainting = arg_8_0._painting:Find("fail")
+	arg_8_0._chat = arg_8_0._painting:Find("chat")
+	arg_8_0._leftPanel = arg_8_0._main:Find("leftPanel")
+	arg_8_0._expResult = arg_8_0._leftPanel:Find("expResult")
+	arg_8_0._expContainer = arg_8_0._expResult:Find("expContainer")
 	arg_8_0._extpl = arg_8_0:getTpl("ShipCardTpl", arg_8_0._expContainer)
-	arg_8_0._playerExp = arg_8_0:findTF("playerExp", arg_8_0._leftPanel)
-	arg_8_0._playerName = arg_8_0:findTF("name_text", arg_8_0._playerExp)
-	arg_8_0._playerLv = arg_8_0:findTF("lv_text", arg_8_0._playerExp)
-	arg_8_0._playerExpLabel = arg_8_0:findTF("exp_label", arg_8_0._playerExp)
-	arg_8_0._playerExpProgress = arg_8_0:findTF("exp_progress", arg_8_0._playerExp)
-	arg_8_0._playerBonusExp = arg_8_0:findTF("exp_text", arg_8_0._playerExp)
-	arg_8_0._playerExpExtra = arg_8_0:findTF("operation_bonus", arg_8_0._playerExp)
-	arg_8_0._atkBG = arg_8_0:findTF("atkPanel", arg_8_0._blurConatiner)
-	arg_8_0._atkPanel = arg_8_0:findTF("atkResult", arg_8_0._atkBG)
-	arg_8_0._atkResult = arg_8_0:findTF("atkResult/result", arg_8_0._atkBG)
-	arg_8_0._atkContainer = arg_8_0:findTF("Grid", arg_8_0._atkResult)
-	arg_8_0._atkContainerNext = arg_8_0:findTF("Grid_next", arg_8_0._atkResult)
-	arg_8_0._atkToggle = arg_8_0:findTF("switchAtk", arg_8_0._atkPanel)
+	arg_8_0._playerExp = arg_8_0._leftPanel:Find("playerExp")
+	arg_8_0._playerName = arg_8_0._playerExp:Find("name_text")
+	arg_8_0._playerLv = arg_8_0._playerExp:Find("lv_text")
+	arg_8_0._playerExpLabel = arg_8_0._playerExp:Find("exp_label")
+	arg_8_0._playerExpProgress = arg_8_0._playerExp:Find("exp_progress")
+	arg_8_0._playerBonusExp = arg_8_0._playerExp:Find("exp_text")
+	arg_8_0._playerExpExtra = arg_8_0._playerExp:Find("operation_bonus")
+	arg_8_0._atkBG = arg_8_0._blurConatiner:Find("atkPanel")
+	arg_8_0._atkPanel = arg_8_0._atkBG:Find("atkResult")
+	arg_8_0._atkResult = arg_8_0._atkBG:Find("atkResult/result")
+	arg_8_0._atkContainer = arg_8_0._atkResult:Find("Grid")
+	arg_8_0._atkContainerNext = arg_8_0._atkResult:Find("Grid_next")
+	arg_8_0._atkToggle = arg_8_0._atkPanel:Find("switchAtk")
 	arg_8_0._atkTpl = arg_8_0:getTpl("resulttpl", arg_8_0._atkResult)
-	arg_8_0._mvpFX = arg_8_0:findTF("mvpFX", arg_8_0._atkPanel)
-	arg_8_0._rightBottomPanel = arg_8_0:findTF("rightBottomPanel", arg_8_0._blurConatiner)
-	arg_8_0._confirmBtn = arg_8_0:findTF("confirmBtn", arg_8_0._rightBottomPanel)
+	arg_8_0._mvpFX = arg_8_0._atkPanel:Find("mvpFX")
+	arg_8_0._rightBottomPanel = arg_8_0._blurConatiner:Find("rightBottomPanel")
+	arg_8_0._confirmBtn = arg_8_0._rightBottomPanel:Find("confirmBtn")
 
 	setText(arg_8_0._confirmBtn:Find("Text"), i18n("text_confirm"))
 
-	arg_8_0._statisticsBtn = arg_8_0:findTF("statisticsBtn", arg_8_0._rightBottomPanel)
-	arg_8_0._subExpResult = arg_8_0:findTF("subExpResult", arg_8_0._leftPanel)
-	arg_8_0._subExpContainer = arg_8_0:findTF("expContainer", arg_8_0._subExpResult)
-	arg_8_0._subToggle = arg_8_0:findTF("switchFleet", arg_8_0._leftPanel)
+	arg_8_0._statisticsBtn = arg_8_0._rightBottomPanel:Find("statisticsBtn")
+	arg_8_0._subExpResult = arg_8_0._leftPanel:Find("subExpResult")
+	arg_8_0._subExpContainer = arg_8_0._subExpResult:Find("expContainer")
+	arg_8_0._subToggle = arg_8_0._leftPanel:Find("switchFleet")
 
 	setActive(arg_8_0._subToggle, false)
 
-	arg_8_0._skipBtn = arg_8_0:findTF("skipLayer", arg_8_0._tf)
+	arg_8_0._skipBtn = arg_8_0._tf:Find("skipLayer")
 	arg_8_0.UIMain = pg.UIMgr.GetInstance().UIMain
 	arg_8_0.overlay = pg.UIMgr.GetInstance().OverlayMain
-	arg_8_0._conditions = arg_8_0:findTF("main/conditions")
-	arg_8_0._conditionContainer = arg_8_0:findTF("bg16/list", arg_8_0._conditions)
-	arg_8_0._conditionTpl = arg_8_0:findTF("bg16/conditionTpl", arg_8_0._conditions)
-	arg_8_0._conditionSubTpl = arg_8_0:findTF("bg16/conditionSubTpl", arg_8_0._conditions)
-	arg_8_0._conditionContributeTpl = arg_8_0:findTF("bg16/conditionContributeTpl", arg_8_0._conditions)
-	arg_8_0._conditionBGNormal = arg_8_0:findTF("bg16/bg_normal", arg_8_0._conditions)
-	arg_8_0._conditionBGContribute = arg_8_0:findTF("bg16/bg_contribute", arg_8_0._conditions)
-	arg_8_0._cmdExp = arg_8_0:findTF("commanderExp", arg_8_0._leftPanel)
-	arg_8_0._cmdContainer = arg_8_0:findTF("commander_container", arg_8_0._cmdExp)
-	arg_8_0._cmdTpl = arg_8_0:findTF("commander_tpl", arg_8_0._cmdExp)
+	arg_8_0._conditions = arg_8_0._tf:Find("main/conditions")
+	arg_8_0._conditionContainer = arg_8_0._conditions:Find("bg16/list")
+	arg_8_0._conditionTpl = arg_8_0._conditions:Find("bg16/conditionTpl")
+	arg_8_0._conditionSubTpl = arg_8_0._conditions:Find("bg16/conditionSubTpl")
+	arg_8_0._conditionContributeTpl = arg_8_0._conditions:Find("bg16/conditionContributeTpl")
+	arg_8_0._conditionBGNormal = arg_8_0._conditions:Find("bg16/bg_normal")
+	arg_8_0._conditionBGContribute = arg_8_0._conditions:Find("bg16/bg_contribute")
+	arg_8_0._cmdExp = arg_8_0._leftPanel:Find("commanderExp")
+	arg_8_0._cmdContainer = arg_8_0._cmdExp:Find("commander_container")
+	arg_8_0._cmdTpl = arg_8_0._cmdExp:Find("commander_tpl")
 
 	arg_8_0:setGradeLabel()
 	SetActive(arg_8_0._levelText, false)
@@ -174,8 +174,8 @@ function var_0_0.setGradeLabel(arg_11_0)
 		"a",
 		"s"
 	}
-	local var_11_1 = arg_11_0:findTF("grade/Xyz/bg13")
-	local var_11_2 = arg_11_0:findTF("grade/Xyz/bg14")
+	local var_11_1 = arg_11_0._tf:Find("grade/Xyz/bg13")
+	local var_11_2 = arg_11_0._tf:Find("grade/Xyz/bg14")
 	local var_11_3
 	local var_11_4
 	local var_11_5
@@ -183,8 +183,8 @@ function var_0_0.setGradeLabel(arg_11_0)
 	local var_11_7
 	local var_11_8 = var_11_6 > 0
 
-	setActive(arg_11_0:findTF("jieuan01/BG/bg_victory", arg_11_0._bg), var_11_8)
-	setActive(arg_11_0:findTF("jieuan01/BG/bg_fail", arg_11_0._bg), not var_11_8)
+	setActive(arg_11_0._bg:Find("jieuan01/BG/bg_victory"), var_11_8)
+	setActive(arg_11_0._bg:Find("jieuan01/BG/bg_fail"), not var_11_8)
 
 	if var_11_8 then
 		var_11_5 = var_11_0[var_11_6 + 1]
@@ -278,7 +278,7 @@ function var_0_0.didEnter(arg_13_0)
 	onToggle(arg_13_0, arg_13_0._subToggle, function(arg_15_0)
 		SetActive(arg_13_0._subExpResult, not arg_15_0)
 		SetActive(arg_13_0._expResult, arg_15_0)
-		setActive(arg_13_0:findTF("off", arg_13_0._subToggle), not arg_15_0)
+		setActive(arg_13_0._subToggle:Find("off"), not arg_15_0)
 		arg_13_0:displayerCommanders(not arg_15_0)
 	end, SFX_PANEL)
 
@@ -305,7 +305,7 @@ function var_0_0.setStageName(arg_17_0)
 end
 
 function var_0_0.rankAnimaFinish(arg_18_0)
-	local var_18_0 = arg_18_0:findTF("main/conditions")
+	local var_18_0 = arg_18_0._tf:Find("main/conditions")
 
 	SetActive(var_18_0, true)
 
@@ -327,7 +327,7 @@ function var_0_0.rankAnimaFinish(arg_18_0)
 	local var_18_4 = LeanTween.delayedCall(1, System.Action(function()
 		arg_18_0._stateFlag = var_0_0.STATE_REPORTED
 
-		SetActive(arg_18_0:findTF("jieuan01/tips", arg_18_0._bg), true)
+		SetActive(arg_18_0._bg:Find("jieuan01/tips"), true)
 
 		if arg_18_0.skipFlag then
 			arg_18_0:skip()
@@ -396,7 +396,7 @@ function var_0_0.showRewardInfo(arg_24_0)
 		return
 	end
 
-	SetActive(arg_24_0:findTF("jieuan01/tips", arg_24_0._bg), false)
+	SetActive(arg_24_0._bg:Find("jieuan01/tips"), false)
 	setParent(arg_24_0._tf, arg_24_0.UIMain)
 
 	local var_24_0
@@ -540,7 +540,7 @@ function var_0_0.displayBG(arg_31_0)
 	LeanTween.moveX(rtf(arg_31_0._conditions), 1300, var_0_0.DURATION_MOVE)
 	LeanTween.scale(arg_31_0._grade, Vector3(0.6, 0.6, 0), var_0_0.DURATION_MOVE)
 	LeanTween.moveLocal(go(var_31_1), arg_31_0._gradeUpperLeftPos, var_0_0.DURATION_MOVE)
-	setActive(arg_31_0:findTF("jieuan01/Bomb", arg_31_0._bg), false)
+	setActive(arg_31_0._bg:Find("jieuan01/Bomb"), false)
 	onDelayTick(function()
 		setLocalScale(arg_31_0._grade, Vector3(0.6, 0.6, 0))
 		setAnchoredPosition(arg_31_0._grade, arg_31_0._gradeUpperLeftPos)
@@ -689,8 +689,8 @@ function var_0_0.displayShips(arg_39_0)
 				var_39_22 = var_39_22 - 1
 			end
 
-			local var_39_24 = arg_39_0:findTF("result/mask/icon", var_39_17)
-			local var_39_25 = arg_39_0:findTF("result/type", var_39_17)
+			local var_39_24 = var_39_17:Find("result/mask/icon")
+			local var_39_25 = var_39_17:Find("result/type")
 
 			var_39_24:GetComponent(typeof(Image)).sprite = LoadSprite("herohrzicon/" .. iter_39_7:getPainting())
 
@@ -808,10 +808,10 @@ function var_0_0.stopVoice(arg_46_0)
 end
 
 function var_0_0.setAtkAnima(arg_47_0, arg_47_1, arg_47_2, arg_47_3, arg_47_4, arg_47_5, arg_47_6, arg_47_7)
-	local var_47_0 = arg_47_0:findTF("result", arg_47_1)
-	local var_47_1 = arg_47_0:findTF("result/atk", arg_47_1)
-	local var_47_2 = arg_47_0:findTF("result/dmg_progress/progress_bar", arg_47_1)
-	local var_47_3 = arg_47_0:findTF("result/killCount", arg_47_1)
+	local var_47_0 = arg_47_1:Find("result")
+	local var_47_1 = arg_47_1:Find("result/atk")
+	local var_47_2 = arg_47_1:Find("result/dmg_progress/progress_bar")
+	local var_47_3 = arg_47_1:Find("result/killCount")
 	local var_47_4 = var_47_0:GetComponent(typeof(DftAniEvent))
 
 	setText(var_47_1, 0)
@@ -820,14 +820,14 @@ function var_0_0.setAtkAnima(arg_47_0, arg_47_1, arg_47_2, arg_47_3, arg_47_4, a
 	var_47_2:GetComponent(typeof(Image)).fillAmount = 0
 
 	if arg_47_5 then
-		local var_47_5 = arg_47_0:findTF("result/mvpBG", arg_47_1)
+		local var_47_5 = arg_47_1:Find("result/mvpBG")
 
 		setParent(arg_47_0._mvpFX, var_47_5)
 
 		arg_47_0._mvpFX.localPosition = Vector3(-368.5, 0, 0)
 
 		setActive(var_47_5, true)
-		setActive(arg_47_0:findTF("result/bg", arg_47_1), false)
+		setActive(arg_47_1:Find("result/bg"), false)
 	end
 
 	var_47_4:SetEndEvent(function(arg_48_0)
@@ -850,7 +850,7 @@ function var_0_0.setAtkAnima(arg_47_0, arg_47_1, arg_47_2, arg_47_3, arg_47_4, a
 	end)
 
 	if arg_47_2.childCount > 1 then
-		arg_47_0:findTF("result", arg_47_2:GetChild(arg_47_2.childCount - 2)):GetComponent(typeof(DftAniEvent)):SetTriggerEvent(function(arg_52_0)
+		arg_47_2:GetChild(arg_47_2.childCount - 2):Find("result"):GetComponent(typeof(DftAniEvent)):SetTriggerEvent(function(arg_52_0)
 			setActive(var_47_0, true)
 		end)
 	else
@@ -972,7 +972,7 @@ function var_0_0.skip(arg_61_0)
 			var_61_0 = var_61_0 - 1
 		end
 
-		SetActive(arg_61_0:findTF("jieuan01/tips", arg_61_0._bg), true)
+		SetActive(arg_61_0._bg:Find("jieuan01/tips"), true)
 
 		arg_61_0._stateFlag = var_0_0.STATE_REPORTED
 
@@ -1090,8 +1090,8 @@ function var_0_0.closeStatistics(arg_69_0)
 end
 
 function var_0_0.enabledStatisticsGizmos(arg_71_0, arg_71_1)
-	setActive(arg_71_0:findTF("gizmos/xuxian_down", arg_71_0._main), arg_71_1)
-	setActive(arg_71_0:findTF("gizmos/xuxian_middle", arg_71_0._main), arg_71_1)
+	setActive(arg_71_0._main:Find("gizmos/xuxian_down"), arg_71_1)
+	setActive(arg_71_0._main:Find("gizmos/xuxian_middle"), arg_71_1)
 end
 
 function var_0_0.PlayAnimation(arg_72_0, arg_72_1, arg_72_2, arg_72_3, arg_72_4, arg_72_5, arg_72_6)
@@ -1105,7 +1105,7 @@ function var_0_0.SetSkipFlag(arg_74_0, arg_74_1)
 end
 
 function var_0_0.initMetaBtn(arg_75_0)
-	arg_75_0.metaBtn = arg_75_0:findTF("MetaBtn", arg_75_0._main)
+	arg_75_0.metaBtn = arg_75_0._main:Find("MetaBtn")
 
 	local var_75_0 = getProxy(MetaCharacterProxy):getLastMetaSkillExpInfoList()
 

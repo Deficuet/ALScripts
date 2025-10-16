@@ -25,17 +25,17 @@ function var_0_0.OnDestroy(arg_3_0)
 end
 
 function var_0_0.initUI(arg_4_0)
-	local var_4_0 = arg_4_0:findTF("Content")
+	local var_4_0 = arg_4_0._tf:Find("Content")
 
-	arg_4_0.timeText = arg_4_0:findTF("Tip/Time/TimeText", var_4_0)
-	arg_4_0.scoreText = arg_4_0:findTF("Tip/Score/ScoreText", var_4_0)
-	arg_4_0.snackTpl = arg_4_0:findTF("SnackTpl", var_4_0)
-	arg_4_0.orderListContainer = arg_4_0:findTF("Order/OrderList", var_4_0)
+	arg_4_0.timeText = var_4_0:Find("Tip/Time/TimeText")
+	arg_4_0.scoreText = var_4_0:Find("Tip/Score/ScoreText")
+	arg_4_0.snackTpl = var_4_0:Find("SnackTpl")
+	arg_4_0.orderListContainer = var_4_0:Find("Order/OrderList")
 	arg_4_0.orderList = UIItemList.New(arg_4_0.orderListContainer, arg_4_0.snackTpl)
-	arg_4_0.selectedListContainer = arg_4_0:findTF("Select/SelectList", var_4_0)
+	arg_4_0.selectedListContainer = var_4_0:Find("Select/SelectList")
 	arg_4_0.selectedList = UIItemList.New(arg_4_0.selectedListContainer, arg_4_0.snackTpl)
-	arg_4_0.submitBtn = arg_4_0:findTF("Buttons/SubmitBtn", var_4_0)
-	arg_4_0.continueBtn = arg_4_0:findTF("Buttons/ContinueBtn", var_4_0)
+	arg_4_0.submitBtn = var_4_0:Find("Buttons/SubmitBtn")
+	arg_4_0.continueBtn = var_4_0:Find("Buttons/ContinueBtn")
 
 	onButton(arg_4_0, arg_4_0.submitBtn, function()
 		local var_5_0 = arg_4_0:calculateLevel()
@@ -62,7 +62,7 @@ function var_0_0.updateView(arg_7_0)
 	arg_7_0.orderList:make(function(arg_8_0, arg_8_1, arg_8_2)
 		if arg_8_0 == UIItemList.EventUpdate then
 			local var_8_0 = arg_7_0.contextData.orderIDList[arg_8_1 + 1]
-			local var_8_1 = arg_7_0:findTF("SnackImg", arg_8_2)
+			local var_8_1 = arg_8_2:Find("SnackImg")
 
 			setImageSprite(var_8_1, GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. var_8_0))
 		end
@@ -71,13 +71,13 @@ function var_0_0.updateView(arg_7_0)
 	arg_7_0.selectedList:make(function(arg_9_0, arg_9_1, arg_9_2)
 		if arg_9_0 == UIItemList.EventUpdate then
 			local var_9_0 = arg_7_0.contextData.selectedIDList[arg_9_1 + 1]
-			local var_9_1 = arg_7_0:findTF("SnackImg", arg_9_2)
+			local var_9_1 = arg_9_2:Find("SnackImg")
 
 			setImageSprite(var_9_1, GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. var_9_0))
 
 			local var_9_2 = arg_7_0.contextData.orderIDList[arg_9_1 + 1]
-			local var_9_3 = arg_7_0:findTF("ErrorImg", arg_9_2)
-			local var_9_4 = arg_7_0:findTF("CorrectImg", arg_9_2)
+			local var_9_3 = arg_9_2:Find("ErrorImg")
+			local var_9_4 = arg_9_2:Find("CorrectImg")
 
 			setActive(var_9_4, var_9_0 == var_9_2)
 			setActive(var_9_3, var_9_0 ~= var_9_2)

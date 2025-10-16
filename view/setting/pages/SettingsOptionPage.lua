@@ -7,7 +7,7 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0:OnBindEvent()
 
-	arg_2_0.panelContainer = arg_2_0:findTF("content")
+	arg_2_0.panelContainer = arg_2_0._tf:Find("content")
 
 	local var_2_0 = arg_2_0:GetPanels()
 

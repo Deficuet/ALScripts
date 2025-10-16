@@ -1,15 +1,15 @@
 local var_0_0 = class("FranceIconTaskRePage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.slider = arg_1_0:findTF("slider", arg_1_0.bg)
-	arg_1_0.step = arg_1_0:findTF("step", arg_1_0.bg)
-	arg_1_0.progress = arg_1_0:findTF("progress", arg_1_0.bg)
-	arg_1_0.displayBtn = arg_1_0:findTF("display_btn", arg_1_0.bg)
-	arg_1_0.awardTF = arg_1_0:findTF("award", arg_1_0.bg)
-	arg_1_0.battleBtn = arg_1_0:findTF("battle_btn", arg_1_0.bg)
-	arg_1_0.getBtn = arg_1_0:findTF("get_btn", arg_1_0.bg)
-	arg_1_0.gotBtn = arg_1_0:findTF("got_btn", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.slider = arg_1_0.bg:Find("slider")
+	arg_1_0.step = arg_1_0.bg:Find("step")
+	arg_1_0.progress = arg_1_0.bg:Find("progress")
+	arg_1_0.displayBtn = arg_1_0.bg:Find("display_btn")
+	arg_1_0.awardTF = arg_1_0.bg:Find("award")
+	arg_1_0.battleBtn = arg_1_0.bg:Find("battle_btn")
+	arg_1_0.getBtn = arg_1_0.bg:Find("get_btn")
+	arg_1_0.gotBtn = arg_1_0.bg:Find("got_btn")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -22,13 +22,13 @@ function var_0_0.OnFirstFlush(arg_2_0)
 		})
 	end, SFX_PANEL)
 
-	arg_2_0.step = arg_2_0:findTF("AD/switcher/phase2/Image/step")
-	arg_2_0.progress = arg_2_0:findTF("AD/switcher/phase2/Image/progress")
-	arg_2_0.switchBtn = arg_2_0:findTF("AD/switcher/switch_btn")
-	arg_2_0.bar = arg_2_0:findTF("AD/switcher/phase2/Image/barContent/bar")
+	arg_2_0.step = arg_2_0._tf:Find("AD/switcher/phase2/Image/step")
+	arg_2_0.progress = arg_2_0._tf:Find("AD/switcher/phase2/Image/progress")
+	arg_2_0.switchBtn = arg_2_0._tf:Find("AD/switcher/switch_btn")
+	arg_2_0.bar = arg_2_0._tf:Find("AD/switcher/phase2/Image/barContent/bar")
 	arg_2_0.phases = {
-		arg_2_0:findTF("AD/switcher/phase1"),
-		arg_2_0:findTF("AD/switcher/phase2")
+		arg_2_0._tf:Find("AD/switcher/phase1"),
+		arg_2_0._tf:Find("AD/switcher/phase2")
 	}
 	arg_2_0.inPhase2 = false
 
@@ -99,7 +99,7 @@ end
 
 function var_0_0.UpdateAwardGot(arg_11_0)
 	local var_11_0 = arg_11_0.activity.data2 >= 1
-	local var_11_1 = arg_11_0:findTF("AD/switcher/phase2/got")
+	local var_11_1 = arg_11_0._tf:Find("AD/switcher/phase2/got")
 
 	setActive(var_11_1, var_11_0)
 end

@@ -35,8 +35,8 @@ function var_0_0.onBackPressed(arg_5_0)
 end
 
 function var_0_0.findUI(arg_6_0)
-	arg_6_0.subViewContainer = arg_6_0:findTF("BG/SubViewContainer")
-	arg_6_0.helpBtn = arg_6_0:findTF("BG/HelpBtn")
+	arg_6_0.subViewContainer = arg_6_0._tf:Find("BG/SubViewContainer")
+	arg_6_0.helpBtn = arg_6_0._tf:Find("BG/HelpBtn")
 
 	onButton(arg_6_0, arg_6_0.helpBtn, function()
 		if pg.gametip.pray_build_help then

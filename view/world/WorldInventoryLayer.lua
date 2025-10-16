@@ -16,12 +16,12 @@ function var_0_0.init(arg_2_0)
 		arg_2_0:setItemList(arg_2_0.inventoryProxy:GetItemList())
 	end
 
-	arg_2_0.blurPanel = arg_2_0:findTF("adapt/blur_panel")
-	arg_2_0.backBtn = arg_2_0:findTF("adapt/top/back_btn", arg_2_0.blurPanel)
-	arg_2_0.topItems = arg_2_0:findTF("adapt/topItems")
-	arg_2_0.itemView = arg_2_0:findTF("adapt/item_scrollview")
-	arg_2_0.equipmentView = arg_2_0:findTF("adapt/equipment_scrollview")
-	arg_2_0.materialtView = arg_2_0:findTF("adapt/material_scrollview")
+	arg_2_0.blurPanel = arg_2_0._tf:Find("adapt/blur_panel")
+	arg_2_0.backBtn = arg_2_0.blurPanel:Find("adapt/top/back_btn")
+	arg_2_0.topItems = arg_2_0._tf:Find("adapt/topItems")
+	arg_2_0.itemView = arg_2_0._tf:Find("adapt/item_scrollview")
+	arg_2_0.equipmentView = arg_2_0._tf:Find("adapt/equipment_scrollview")
+	arg_2_0.materialtView = arg_2_0._tf:Find("adapt/material_scrollview")
 
 	local var_2_0
 	local var_2_1 = getProxy(SettingsProxy)
@@ -35,33 +35,33 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.itemView:Find("Viewport/item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = var_2_0 and 8 or 7
 	arg_2_0.equipmentView:Find("Viewport/moudle_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = var_2_0 and 8 or 7
 	arg_2_0.materialtView:Find("Viewport/item_grid"):GetComponent(typeof(GridLayoutGroup)).constraintCount = var_2_0 and 8 or 7
-	arg_2_0.itemUsagePanel = ItemUsagePanel.New(arg_2_0:findTF("adapt/item_usage_panel"), arg_2_0:findTF("adapt"))
-	arg_2_0.itemResetPanel = ItemResetPanel.New(arg_2_0:findTF("adapt/reset_info_panel"), arg_2_0:findTF("adapt"))
-	arg_2_0.assignedItemView = WorldAssignedItemView.New(arg_2_0:findTF("adapt"), arg_2_0.event)
+	arg_2_0.itemUsagePanel = ItemUsagePanel.New(arg_2_0._tf:Find("adapt/item_usage_panel"), arg_2_0._tf:Find("adapt"))
+	arg_2_0.itemResetPanel = ItemResetPanel.New(arg_2_0._tf:Find("adapt/reset_info_panel"), arg_2_0._tf:Find("adapt"))
+	arg_2_0.assignedItemView = WorldAssignedItemView.New(arg_2_0._tf:Find("adapt"), arg_2_0.event)
 	arg_2_0.itemCards = {}
 	arg_2_0.equipmetItems = {}
 	arg_2_0.materialCards = {}
-	arg_2_0._itemToggle = arg_2_0:findTF("bottom_back/types/properties", arg_2_0.topItems)
-	arg_2_0._weaponToggle = arg_2_0:findTF("bottom_back/types/siren_weapon", arg_2_0.topItems)
-	arg_2_0._materialToggle = arg_2_0:findTF("bottom_back/types/material", arg_2_0.topItems)
-	arg_2_0.exchangeTips = arg_2_0:findTF("bottom_back/reset_exchange", arg_2_0.topItems)
+	arg_2_0._itemToggle = arg_2_0.topItems:Find("bottom_back/types/properties")
+	arg_2_0._weaponToggle = arg_2_0.topItems:Find("bottom_back/types/siren_weapon")
+	arg_2_0._materialToggle = arg_2_0.topItems:Find("bottom_back/types/material")
+	arg_2_0.exchangeTips = arg_2_0.topItems:Find("bottom_back/reset_exchange")
 
-	setText(arg_2_0:findTF("bottom_back/reset_exchange/Text", arg_2_0.topItems), i18n("world_inventory_tip"))
+	setText(arg_2_0.topItems:Find("bottom_back/reset_exchange/Text"), i18n("world_inventory_tip"))
 
-	arg_2_0.filterBusyToggle = arg_2_0:findTF("adapt/left_length/frame/toggle_equip", arg_2_0.blurPanel)
-	arg_2_0.sortBtn = arg_2_0:findTF("adapt/top/buttons/sort_button", arg_2_0.blurPanel)
-	arg_2_0.indexBtn = arg_2_0:findTF("adapt/top/buttons/index_button", arg_2_0.blurPanel)
-	arg_2_0.decBtn = arg_2_0:findTF("adapt/top/buttons/dec_btn", arg_2_0.blurPanel)
-	arg_2_0.upOrderTF = arg_2_0:findTF("asc", arg_2_0.decBtn)
-	arg_2_0.downOrderTF = arg_2_0:findTF("desc", arg_2_0.decBtn)
-	arg_2_0.sortPanel = arg_2_0:findTF("sort", arg_2_0.topItems)
-	arg_2_0.sortContain = arg_2_0:findTF("adapt/mask/panel", arg_2_0.sortPanel)
-	arg_2_0.sortTpl = arg_2_0:findTF("tpl", arg_2_0.sortContain)
+	arg_2_0.filterBusyToggle = arg_2_0.blurPanel:Find("adapt/left_length/frame/toggle_equip")
+	arg_2_0.sortBtn = arg_2_0.blurPanel:Find("adapt/top/buttons/sort_button")
+	arg_2_0.indexBtn = arg_2_0.blurPanel:Find("adapt/top/buttons/index_button")
+	arg_2_0.decBtn = arg_2_0.blurPanel:Find("adapt/top/buttons/dec_btn")
+	arg_2_0.upOrderTF = arg_2_0.decBtn:Find("asc")
+	arg_2_0.downOrderTF = arg_2_0.decBtn:Find("desc")
+	arg_2_0.sortPanel = arg_2_0.topItems:Find("sort")
+	arg_2_0.sortContain = arg_2_0.sortPanel:Find("adapt/mask/panel")
+	arg_2_0.sortTpl = arg_2_0.sortContain:Find("tpl")
 
 	setActive(arg_2_0.sortTpl, false)
 	arg_2_0:initData()
 	arg_2_0:addListener()
-	print(arg_2_0:findTF("bg").rect.width)
+	print(arg_2_0._tf:Find("bg").rect.width)
 end
 
 function var_0_0.didEnter(arg_4_0)
@@ -97,7 +97,7 @@ function var_0_0.didEnter(arg_4_0)
 end
 
 function var_0_0.onBackPressed(arg_6_0)
-	print(arg_6_0:findTF("bg").rect.width)
+	print(arg_6_0._tf:Find("bg").rect.width)
 
 	if isActive(arg_6_0.itemResetPanel._go) then
 		arg_6_0.itemResetPanel:Close()
@@ -139,7 +139,7 @@ end
 
 function var_0_0.addListener(arg_11_0)
 	onButton(arg_11_0, arg_11_0.backBtn, function()
-		print(arg_11_0:findTF("bg").rect.width)
+		print(arg_11_0._tf:Find("bg").rect.width)
 		arg_11_0:closeView()
 	end, SFX_CANCEL)
 	onButton(arg_11_0, arg_11_0.decBtn, function()
@@ -555,7 +555,7 @@ function var_0_0.PlayOpenBox(arg_51_0, arg_51_1, arg_51_2)
 
 		local var_52_0 = tf(arg_51_0[arg_51_1])
 
-		var_52_0:SetParent(arg_51_0:findTF("adapt"), false)
+		var_52_0:SetParent(arg_51_0._tf:Find("adapt"), false)
 		var_52_0:SetAsLastSibling()
 
 		local var_52_1 = var_52_0:GetComponent("DftAniEvent")
@@ -573,7 +573,7 @@ function var_0_0.PlayOpenBox(arg_51_0, arg_51_1, arg_51_2)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_EQUIPMENT_OPEN)
 	end
 
-	local var_51_1 = arg_51_0:findTF(arg_51_1 .. "(Clone)")
+	local var_51_1 = arg_51_0._tf:Find(arg_51_1 .. "(Clone)")
 
 	if var_51_1 then
 		arg_51_0[arg_51_1] = go(var_51_1)
@@ -725,7 +725,7 @@ function var_0_0.filterEquipment(arg_66_0)
 	end
 
 	arg_66_0:updateEquipmentCount()
-	setImageSprite(arg_66_0:findTF("Image", arg_66_0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", var_66_0.spr), true)
+	setImageSprite(arg_66_0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", var_66_0.spr), true)
 	setActive(arg_66_0.downOrderTF, not arg_66_0.contextData.asc)
 	setActive(arg_66_0.upOrderTF, arg_66_0.contextData.asc)
 end

@@ -1,7 +1,7 @@
 local var_0_0 = class("HuaShangQiaoPage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
 	arg_1_0.Build = arg_1_0.bg:Find("build"):GetComponent("Button")
 	arg_1_0.build_times = arg_1_0.bg:Find("build/build_times")
 	arg_1_0.build_time = arg_1_0.bg:Find("build/build_times/time"):GetComponent("Text")

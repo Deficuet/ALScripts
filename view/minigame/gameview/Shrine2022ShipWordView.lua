@@ -22,10 +22,10 @@ function var_0_0.initData(arg_4_0)
 end
 
 function var_0_0.initUI(arg_5_0)
-	arg_5_0.bg = arg_5_0:findTF("BG")
-	arg_5_0.wordImg = arg_5_0:findTF("Word")
-	arg_5_0.cloud1 = arg_5_0:findTF("Cloud1")
-	arg_5_0.cloud2 = arg_5_0:findTF("Cloud2")
+	arg_5_0.bg = arg_5_0._tf:Find("BG")
+	arg_5_0.wordImg = arg_5_0._tf:Find("Word")
+	arg_5_0.cloud1 = arg_5_0._tf:Find("Cloud1")
+	arg_5_0.cloud2 = arg_5_0._tf:Find("Cloud2")
 
 	local var_5_0 = "shipword_" .. arg_5_0.curSelectShip
 	local var_5_1 = "Shrine2022/" .. var_5_0

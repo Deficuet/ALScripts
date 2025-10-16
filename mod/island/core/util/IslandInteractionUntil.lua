@@ -21,6 +21,7 @@ var_0_0.TYPE_ECHANGE_AGORA_BASE = 20
 var_0_0.TYPE_PERFORMANCE = 21
 var_0_0.TYPE_NEXT_INTERACTION = 22
 var_0_0.TYPE_FOLLOW_PLAYER = 23
+var_0_0.TYPE_SP_TRANSFER = 24
 var_0_0.SIGNIN_TIME_ID = 4002
 
 function var_0_0.GetInteractionOptions(arg_1_0, arg_1_1, arg_1_2)
@@ -224,7 +225,7 @@ function var_0_0.Response(arg_30_0, arg_30_1, arg_30_2)
 		var_0_5(arg_30_1, arg_30_0)
 	elseif var_30_0.type == var_0_0.TYPE_OPEN_PAGE then
 		var_0_6(var_30_0.param, arg_30_0, arg_30_1)
-	elseif var_30_0.type == var_0_0.TYPE_TRANSFER then
+	elseif var_30_0.type == var_0_0.TYPE_TRANSFER or var_30_0.type == var_0_0.TYPE_SP_TRANSFER then
 		var_0_7(var_30_0.param, arg_30_0)
 	elseif var_30_0.type == var_0_0.TYPE_BT_VALUE then
 		var_0_8(var_30_0.param, arg_30_1, arg_30_0)

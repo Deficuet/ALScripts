@@ -7,13 +7,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0.uiitemlist = UIItemList.New(arg_2_0:findTF("content"), arg_2_0:findTF("content/tpl"))
-	arg_2_0.prevBtn = arg_2_0:findTF("prev")
-	arg_2_0.nextBtn = arg_2_0:findTF("next")
-	arg_2_0.tip = arg_2_0:findTF("tip")
-	arg_2_0.title1 = arg_2_0:findTF("stages/title1")
-	arg_2_0.title2 = arg_2_0:findTF("stages/title2")
-	arg_2_0.rankTitle = arg_2_0:findTF("titles/rank_title")
+	arg_2_0.uiitemlist = UIItemList.New(arg_2_0._tf:Find("content"), arg_2_0._tf:Find("content/tpl"))
+	arg_2_0.prevBtn = arg_2_0._tf:Find("prev")
+	arg_2_0.nextBtn = arg_2_0._tf:Find("next")
+	arg_2_0.tip = arg_2_0._tf:Find("tip")
+	arg_2_0.title1 = arg_2_0._tf:Find("stages/title1")
+	arg_2_0.title2 = arg_2_0._tf:Find("stages/title2")
+	arg_2_0.rankTitle = arg_2_0._tf:Find("titles/rank_title")
 
 	onButton(arg_2_0, arg_2_0.nextBtn, function()
 		local var_3_0 = arg_2_0.page + 1
@@ -37,8 +37,8 @@ function var_0_0.OnInit(arg_2_0)
 
 		arg_2_0:initRank(arg_2_0.page)
 	end, SFX_PANEL)
-	setText(arg_2_0:findTF("titles/rank_title"), i18n("vote_label_rank"))
-	setText(arg_2_0:findTF("tip"), i18n("vote_label_rank_fresh_time_tip"))
+	setText(arg_2_0._tf:Find("titles/rank_title"), i18n("vote_label_rank"))
+	setText(arg_2_0._tf:Find("tip"), i18n("vote_label_rank_fresh_time_tip"))
 end
 
 function var_0_0.initRank(arg_5_0, arg_5_1)

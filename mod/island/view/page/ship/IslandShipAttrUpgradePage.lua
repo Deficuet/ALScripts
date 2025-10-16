@@ -7,27 +7,27 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.upgradeBtn = arg_2_0:findTF("frame/btn_confirm")
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/frame_1/close")
-	arg_2_0.contentTxt = arg_2_0:findTF("frame/frame_1/Text"):GetComponent(typeof(Text))
-	arg_2_0.delBtn = arg_2_0:findTF("frame/frame_2/del")
-	arg_2_0.maxBtn = arg_2_0:findTF("frame/frame_2/max")
+	arg_2_0.upgradeBtn = arg_2_0._tf:Find("frame/btn_confirm")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/frame_1/close")
+	arg_2_0.contentTxt = arg_2_0._tf:Find("frame/frame_1/Text"):GetComponent(typeof(Text))
+	arg_2_0.delBtn = arg_2_0._tf:Find("frame/frame_2/del")
+	arg_2_0.maxBtn = arg_2_0._tf:Find("frame/frame_2/max")
 	arg_2_0.toggles = {
-		[var_0_1] = arg_2_0:findTF("frame/toggles/upgrade"),
-		[var_0_2] = arg_2_0:findTF("frame/toggles/limit")
+		[var_0_1] = arg_2_0._tf:Find("frame/toggles/upgrade"),
+		[var_0_2] = arg_2_0._tf:Find("frame/toggles/limit")
 	}
-	arg_2_0.uiAttrList = UIItemList.New(arg_2_0:findTF("frame/attr"), arg_2_0:findTF("frame/attr/tpl"))
-	arg_2_0.uiUpgradeList = UIItemList.New(arg_2_0:findTF("frame/frame_2/items"), arg_2_0:findTF("frame/frame_2/items/tpl"))
-	arg_2_0.emptyTr = arg_2_0:findTF("frame/frame_2/empty")
-	arg_2_0.uiLimitConsumrList = UIItemList.New(arg_2_0:findTF("frame/frame_3/items"), arg_2_0:findTF("frame/frame_3/items/tpl"))
+	arg_2_0.uiAttrList = UIItemList.New(arg_2_0._tf:Find("frame/attr"), arg_2_0._tf:Find("frame/attr/tpl"))
+	arg_2_0.uiUpgradeList = UIItemList.New(arg_2_0._tf:Find("frame/frame_2/items"), arg_2_0._tf:Find("frame/frame_2/items/tpl"))
+	arg_2_0.emptyTr = arg_2_0._tf:Find("frame/frame_2/empty")
+	arg_2_0.uiLimitConsumrList = UIItemList.New(arg_2_0._tf:Find("frame/frame_3/items"), arg_2_0._tf:Find("frame/frame_3/items/tpl"))
 
-	setText(arg_2_0:findTF("frame/frame_1/title"), i18n("island_ship_title1"))
-	setText(arg_2_0:findTF("frame/toggles/upgrade/Text"), i18n("island_ship_title2"))
-	setText(arg_2_0:findTF("frame/toggles/limit/Text"), i18n("island_ship_title3"))
-	setText(arg_2_0:findTF("frame/toggles/upgrade/Text_1"), i18n("island_ship_title2"))
-	setText(arg_2_0:findTF("frame/toggles/limit/Text_1"), i18n("island_ship_title3"))
-	setText(arg_2_0:findTF("frame/frame_2/sub_title/Text"), i18n("island_ship_title4"))
-	setText(arg_2_0:findTF("frame/frame_3/sub_title/Text"), i18n("island_ship_title4"))
+	setText(arg_2_0._tf:Find("frame/frame_1/title"), i18n("island_ship_title1"))
+	setText(arg_2_0._tf:Find("frame/toggles/upgrade/Text"), i18n("island_ship_title2"))
+	setText(arg_2_0._tf:Find("frame/toggles/limit/Text"), i18n("island_ship_title3"))
+	setText(arg_2_0._tf:Find("frame/toggles/upgrade/Text_1"), i18n("island_ship_title2"))
+	setText(arg_2_0._tf:Find("frame/toggles/limit/Text_1"), i18n("island_ship_title3"))
+	setText(arg_2_0._tf:Find("frame/frame_2/sub_title/Text"), i18n("island_ship_title4"))
+	setText(arg_2_0._tf:Find("frame/frame_3/sub_title/Text"), i18n("island_ship_title4"))
 	setText(arg_2_0.upgradeBtn:Find("Text"), i18n("island_confirm"))
 end
 

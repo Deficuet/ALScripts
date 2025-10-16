@@ -27,32 +27,32 @@ function var_0_0.PlayBGM(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.mapTF = arg_3_0:findTF("map")
-	arg_3_0.bgTF = arg_3_0:findTF("bg", arg_3_0.mapTF)
-	arg_3_0.roomsTF = arg_3_0:findTF("content", arg_3_0.mapTF)
-	arg_3_0.topUI = arg_3_0:findTF("top")
-	arg_3_0.nameBgTF = arg_3_0:findTF("name_bg", arg_3_0.topUI)
-	arg_3_0.nameInput = arg_3_0:findTF("name/input", arg_3_0.topUI)
-	arg_3_0.logBtn = arg_3_0:findTF("logbook", arg_3_0.topUI)
-	arg_3_0.timeBgTF = arg_3_0:findTF("time/bg", arg_3_0.topUI)
-	arg_3_0.timeTF = arg_3_0:findTF("time/Text", arg_3_0.topUI)
-	arg_3_0.targetTagTF = arg_3_0:findTF("time/target/tag", arg_3_0.topUI)
-	arg_3_0.targetLayoutCom = arg_3_0:findTF("time/target", arg_3_0.topUI):GetComponent(typeof(HorizontalLayoutGroup))
-	arg_3_0.targetTF = arg_3_0:findTF("time/target/Text", arg_3_0.topUI)
-	arg_3_0.focusTF = arg_3_0:findTF("focus", arg_3_0.topUI)
+	arg_3_0.mapTF = arg_3_0._tf:Find("map")
+	arg_3_0.bgTF = arg_3_0.mapTF:Find("bg")
+	arg_3_0.roomsTF = arg_3_0.mapTF:Find("content")
+	arg_3_0.topUI = arg_3_0._tf:Find("top")
+	arg_3_0.nameBgTF = arg_3_0.topUI:Find("name_bg")
+	arg_3_0.nameInput = arg_3_0.topUI:Find("name/input")
+	arg_3_0.logBtn = arg_3_0.topUI:Find("logbook")
+	arg_3_0.timeBgTF = arg_3_0.topUI:Find("time/bg")
+	arg_3_0.timeTF = arg_3_0.topUI:Find("time/Text")
+	arg_3_0.targetTagTF = arg_3_0.topUI:Find("time/target/tag")
+	arg_3_0.targetLayoutCom = arg_3_0.topUI:Find("time/target"):GetComponent(typeof(HorizontalLayoutGroup))
+	arg_3_0.targetTF = arg_3_0.topUI:Find("time/target/Text")
+	arg_3_0.focusTF = arg_3_0.topUI:Find("focus")
 
-	setActive(arg_3_0:findTF("tpl", arg_3_0.focusTF), false)
+	setActive(arg_3_0.focusTF:Find("tpl"), false)
 
 	arg_3_0.bgDiffList = {
 		arg_3_0.bgTF,
 		arg_3_0.nameBgTF,
 		arg_3_0.timeBgTF,
-		arg_3_0:findTF("1/icon", arg_3_0.roomsTF),
-		arg_3_0:findTF("3/icon", arg_3_0.roomsTF),
-		arg_3_0:findTF("4/icon", arg_3_0.roomsTF)
+		arg_3_0.roomsTF:Find("1/icon"),
+		arg_3_0.roomsTF:Find("3/icon"),
+		arg_3_0.roomsTF:Find("4/icon")
 	}
 
-	local var_3_0 = arg_3_0:findTF("pages")
+	local var_3_0 = arg_3_0._tf:Find("pages")
 
 	arg_3_0.timePage = LinerPassTimePage.New(var_3_0, arg_3_0)
 	arg_3_0.roomPage = LinerRoomInfoPage.New(var_3_0, arg_3_0)
@@ -105,14 +105,14 @@ function var_0_0.addListeners(arg_4_0)
 
 	arg_4_0.nameInput:GetComponent(typeof(InputField)).interactable = not var_4_1
 
-	setActive(arg_4_0:findTF("name/edit", arg_4_0.topUI), not var_4_1)
-	onButton(arg_4_0, arg_4_0:findTF("back", arg_4_0.topUI), function()
+	setActive(arg_4_0.topUI:Find("name/edit"), not var_4_1)
+	onButton(arg_4_0, arg_4_0.topUI:Find("back"), function()
 		arg_4_0:onBackPressed()
 	end, SFX_PANEL)
-	onButton(arg_4_0, arg_4_0:findTF("home", arg_4_0.topUI), function()
+	onButton(arg_4_0, arg_4_0.topUI:Find("home"), function()
 		arg_4_0:quickExitFunc()
 	end, SFX_PANEL)
-	onButton(arg_4_0, arg_4_0:findTF("help", arg_4_0.topUI), function()
+	onButton(arg_4_0, arg_4_0.topUI:Find("help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.liner_help.tip
@@ -124,7 +124,7 @@ function var_0_0.addListeners(arg_4_0)
 			viewComponent = LinerLogBookLayer
 		}))
 	end, SFX_PANEL)
-	onButton(arg_4_0, arg_4_0:findTF("fullview", arg_4_0.topUI), function()
+	onButton(arg_4_0, arg_4_0.topUI:Find("fullview"), function()
 		if arg_4_0.mode == var_0_0.MODE_NORMAL then
 			arg_4_0:SwitchMode(var_0_0.MODE_FULLVIEW)
 		else
@@ -152,7 +152,7 @@ function var_0_0.didEnter(arg_13_0)
 			arg_13_0:managedTween(LeanTween.delayedCall, function()
 				local var_15_0 = arg_13_0.targetIds[1]
 
-				triggerButton(arg_13_0:findTF(tostring(var_15_0), arg_13_0.roomsTF))
+				triggerButton(arg_13_0._tf:Find(tostring(var_15_0), arg_13_0.roomsTF))
 			end, var_0_0.AUTO_DELAY_TIME, nil)
 		else
 			arg_14_0()
@@ -195,10 +195,10 @@ function var_0_0.InitRooms(arg_18_0)
 
 			local var_20_1 = arg_18_0.curTime:GetType()
 
-			eachChild(arg_18_0:findTF("tag", arg_20_2), function(arg_21_0)
+			eachChild(arg_20_2:Find("tag"), function(arg_21_0)
 				setActive(arg_21_0, arg_21_0.name == "type" .. var_20_1)
 			end)
-			eachChild(arg_18_0:findTF("arrow", arg_20_2), function(arg_22_0)
+			eachChild(arg_20_2:Find("arrow"), function(arg_22_0)
 				setActive(arg_22_0, arg_22_0.name == "type" .. var_20_1)
 			end)
 			onButton(arg_18_0, arg_20_2, function()
@@ -230,9 +230,9 @@ end
 
 function var_0_0.OnUpdateRoom(arg_26_0, arg_26_1, arg_26_2)
 	if not table.contains(arg_26_0.roomIds, arg_26_1) then
-		setActive(arg_26_0:findTF("tag", arg_26_2), false)
-		setActive(arg_26_0:findTF("mask", arg_26_2), false)
-		setActive(arg_26_0:findTF("explore", arg_26_2), false)
+		setActive(arg_26_2:Find("tag"), false)
+		setActive(arg_26_2:Find("mask"), false)
+		setActive(arg_26_2:Find("explore"), false)
 		onButton(arg_26_0, arg_26_2, function()
 			if arg_26_0.mode == var_0_0.MODE_FULLVIEW then
 				arg_26_0:SwitchMode(var_0_0.MODE_NORMAL)
@@ -245,7 +245,7 @@ function var_0_0.OnUpdateRoom(arg_26_0, arg_26_1, arg_26_2)
 
 	local var_26_0 = arg_26_0.curTime:GetType()
 	local var_26_1 = table.contains(arg_26_0.targetIds, arg_26_1) or var_26_0 == LinerTime.TYPE.EXPLORE
-	local var_26_2 = arg_26_0:findTF("tag", arg_26_2)
+	local var_26_2 = arg_26_2:Find("tag")
 
 	setActive(var_26_2, var_26_1)
 	eachChild(var_26_2, function(arg_28_0)
@@ -255,8 +255,8 @@ function var_0_0.OnUpdateRoom(arg_26_0, arg_26_1, arg_26_2)
 	local var_26_3 = var_26_0 == LinerTime.TYPE.EXPLORE and table.contains(arg_26_0.exploredRoomIds, arg_26_1)
 	local var_26_4 = var_26_0 == LinerTime.TYPE.EXPLORE and not table.contains(arg_26_0.exploredRoomIds, arg_26_1)
 
-	setActive(arg_26_0:findTF("mask", arg_26_2), var_26_3)
-	setActive(arg_26_0:findTF("explore", arg_26_2), var_26_4)
+	setActive(arg_26_2:Find("mask"), var_26_3)
+	setActive(arg_26_2:Find("explore"), var_26_4)
 	onButton(arg_26_0, arg_26_2, function()
 		if arg_26_0.mode == var_0_0.MODE_FULLVIEW then
 			arg_26_0:SwitchMode(var_0_0.MODE_NORMAL)
@@ -351,7 +351,7 @@ function var_0_0.UpdateRoomChar(arg_44_0, arg_44_1, arg_44_2)
 		return
 	end
 
-	local var_44_5 = arg_44_0:findTF("char", arg_44_2)
+	local var_44_5 = arg_44_2:Find("char")
 
 	if arg_44_0.roomChars[arg_44_1][1] and arg_44_0.roomChars[arg_44_1][2] then
 		if LeanTween.isTweening(arg_44_0.roomChars[arg_44_1][2]) then
@@ -467,7 +467,7 @@ function var_0_0.InitRandomChars(arg_49_0)
 			arg_49_0.roomChars[iter_49_3][1] = var_49_2
 			arg_49_0.roomChars[iter_49_3][2] = arg_51_0
 
-			local var_51_0 = arg_49_0:findTF(iter_49_3 .. "/char", arg_49_0.roomsTF)
+			local var_51_0 = arg_49_0.roomsTF:Find(iter_49_3 .. "/char")
 
 			setLocalScale(tf(arg_51_0), {
 				x = LinerRoomCharPoint.SCALE,
@@ -534,7 +534,7 @@ function var_0_0.FillRandomChars(arg_52_0)
 			arg_52_0.roomChars[iter_52_5][1] = var_52_6
 			arg_52_0.roomChars[iter_52_5][2] = arg_54_0
 
-			local var_54_0 = arg_52_0:findTF(iter_52_5 .. "/char", arg_52_0.roomsTF)
+			local var_54_0 = arg_52_0.roomsTF:Find(iter_52_5 .. "/char")
 
 			setLocalScale(tf(arg_54_0), {
 				x = LinerRoomCharPoint.SCALE,
@@ -723,7 +723,7 @@ function var_0_0._getCurEventRoomId(arg_71_0)
 end
 
 function var_0_0.UpdateTips(arg_72_0)
-	setActive(arg_72_0:findTF("tip", arg_72_0.logBtn), LinerLogBookLayer.IsTip())
+	setActive(arg_72_0.logBtn:Find("tip"), LinerLogBookLayer.IsTip())
 end
 
 function var_0_0.onDragFunction(arg_73_0)
@@ -763,7 +763,7 @@ function var_0_0.onDragFunction(arg_73_0)
 			var_73_9.blocksRaycasts = var_73_10
 			var_73_9.alpha = var_73_10 and 1 or 0
 
-			setActive(arg_73_0:findTF(iter_73_1 .. "/tag", arg_73_0.roomsTF), not var_73_10)
+			setActive(arg_73_0.roomsTF:Find(iter_73_1 .. "/tag"), not var_73_10)
 
 			if var_73_2 then
 				local var_73_11 = var_73_2 * (1 - 50 / var_73_2:Magnitude())

@@ -40,7 +40,7 @@ function var_0_0.init(arg_2_0, ...)
 				local var_3_1 = arg_2_0.pageDic[var_3_0.id]
 
 				if var_3_1 ~= nil then
-					local var_3_2 = arg_2_0:findTF("tip", arg_3_2)
+					local var_3_2 = arg_3_2:Find("tip")
 					local var_3_3 = var_3_1:IsShowReminder()
 
 					if var_3_3 == nil then
@@ -92,8 +92,8 @@ function var_0_0.UpdateAdapt(arg_7_0)
 end
 
 function var_0_0.ONToggleName(arg_8_0, arg_8_1, arg_8_2)
-	setText(arg_8_0:findTF("off/name", arg_8_1), i18n("danmachi_main_sheet" .. arg_8_2:getConfig("is_show")))
-	setText(arg_8_0:findTF("on/name", arg_8_1), i18n("danmachi_main_sheet" .. arg_8_2:getConfig("is_show")))
+	setText(arg_8_1:Find("off/name"), i18n("danmachi_main_sheet" .. arg_8_2:getConfig("is_show")))
+	setText(arg_8_1:Find("on/name"), i18n("danmachi_main_sheet" .. arg_8_2:getConfig("is_show")))
 end
 
 function var_0_0.didEnter(arg_9_0)

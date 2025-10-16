@@ -3,9 +3,9 @@ local var_0_0 = class("RyzaMainRePage", import("view.activity.CorePage.CorePrevi
 function var_0_0.OnFirstFlush(arg_1_0)
 	var_0_0.super.OnFirstFlush(arg_1_0)
 
-	arg_1_0.gameBtn = arg_1_0:findTF("activity", arg_1_0.btnList)
-	arg_1_0.fightBtn = arg_1_0:findTF("fight", arg_1_0.btnList)
-	arg_1_0.shopBtn = arg_1_0:findTF("shop", arg_1_0.btnList)
+	arg_1_0.gameBtn = arg_1_0.btnList:Find("activity")
+	arg_1_0.fightBtn = arg_1_0.btnList:Find("fight")
+	arg_1_0.shopBtn = arg_1_0.btnList:Find("shop")
 
 	onButton(arg_1_0, arg_1_0.gameBtn, function()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 43)

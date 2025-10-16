@@ -5,7 +5,6 @@ return {
 			trigger = {
 				"onStartGame"
 			},
-			pop = {},
 			arg_list = {
 				buff_id = 114031,
 				target = "TargetSelf"

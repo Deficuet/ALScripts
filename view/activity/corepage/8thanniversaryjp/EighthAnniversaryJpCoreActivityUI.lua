@@ -9,9 +9,9 @@ var_0_0.optionsPath = {
 }
 
 function var_0_0.CustomInit(arg_2_0)
-	quickPlayAnimation(arg_2_0:findTF("adapt/TopPage/top"), "Anim_SecretsAbyssCoreActivityUI_top_In")
-	setText(arg_2_0:findTF("adapt/TopPage/top/deco/Text"), i18n("activity_ninjia_main_title"))
-	setText(arg_2_0:findTF("adapt/TopPage/top/deco/Text/Text_1"), i18n("activity_ninjia_main_title_en"))
+	quickPlayAnimation(arg_2_0._tf:Find("adapt/TopPage/top"), "Anim_SecretsAbyssCoreActivityUI_top_In")
+	setText(arg_2_0._tf:Find("adapt/TopPage/top/deco/Text"), i18n("activity_ninjia_main_title"))
+	setText(arg_2_0._tf:Find("adapt/TopPage/top/deco/Text/Text_1"), i18n("activity_ninjia_main_title_en"))
 end
 
 function var_0_0.GetButtonNameText(arg_3_0, arg_3_1)

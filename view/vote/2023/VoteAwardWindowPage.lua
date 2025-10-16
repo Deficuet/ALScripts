@@ -5,14 +5,14 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.currToggle = arg_2_0:findTF("frame/toggle/curr")
-	arg_2_0.accToggle = arg_2_0:findTF("frame/toggle/acc")
+	arg_2_0.currToggle = arg_2_0._tf:Find("frame/toggle/curr")
+	arg_2_0.accToggle = arg_2_0._tf:Find("frame/toggle/acc")
 	arg_2_0.ptWindow = VoteAwardPtWindow.New(arg_2_0._tf, arg_2_0)
 	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/close")
 
-	setText(arg_2_0:findTF("frame/title/Text"), i18n("vote_lable_window_title"))
-	setText(arg_2_0:findTF("frame/panel/list/tpl/award1/mask/Text"), i18n("vote_lable_rearch"))
-	setText(arg_2_0:findTF("frame/panel/list/tpl/award/mask/Text"), i18n("vote_lable_rearch"))
+	setText(arg_2_0._tf:Find("frame/title/Text"), i18n("vote_lable_window_title"))
+	setText(arg_2_0._tf:Find("frame/panel/list/tpl/award1/mask/Text"), i18n("vote_lable_rearch"))
+	setText(arg_2_0._tf:Find("frame/panel/list/tpl/award/mask/Text"), i18n("vote_lable_rearch"))
 end
 
 function var_0_0.OnInit(arg_3_0)

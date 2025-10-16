@@ -5,12 +5,12 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("frame/list"), arg_2_0:findTF("frame/list/tpl"))
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/top/close_btn")
-	arg_2_0.cancelBtn = arg_2_0:findTF("frame/button_list/cancel")
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/button_list/confirm")
+	arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("frame/list"), arg_2_0._tf:Find("frame/list/tpl"))
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/top/close_btn")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("frame/button_list/cancel")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/button_list/confirm")
 
-	setText(arg_2_0:findTF("frame/top/title"), i18n("child_filter_title"))
+	setText(arg_2_0._tf:Find("frame/top/title"), i18n("child_filter_title"))
 	setText(arg_2_0.cancelBtn:Find("Text"), i18n("island_word_reset"))
 	setText(arg_2_0.confirmBtn:Find("Text"), i18n("word_ok"))
 end

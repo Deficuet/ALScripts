@@ -3338,7 +3338,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3374,7 +3374,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701002,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3410,7 +3410,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701003,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3450,7 +3450,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701004,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3490,7 +3490,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701005,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3530,7 +3530,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701006,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3574,7 +3574,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701007,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3618,7 +3618,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701008,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3658,7 +3658,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701009,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3698,7 +3698,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701010,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3734,7 +3734,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701011,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3770,7 +3770,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701012,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3810,7 +3810,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701013,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3846,7 +3846,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701014,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3882,7 +3882,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701015,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3922,7 +3922,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701016,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -3962,7 +3962,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701017,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -4002,7 +4002,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701018,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -4042,7 +4042,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701019,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -4082,7 +4082,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701020,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -4126,7 +4126,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701021,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -4170,7 +4170,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 701022,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -4566,7 +4566,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4602,7 +4602,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100002,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4638,7 +4638,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100003,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4674,7 +4674,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100004,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4710,7 +4710,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4746,7 +4746,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110002,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4782,7 +4782,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4818,7 +4818,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110102,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4854,7 +4854,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110103,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4890,7 +4890,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4926,7 +4926,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4962,7 +4962,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110303,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -4998,7 +4998,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110304,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5034,7 +5034,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110305,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5070,7 +5070,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110306,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5106,7 +5106,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110307,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5142,7 +5142,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110308,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5178,7 +5178,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110309,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5214,7 +5214,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7110310,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5250,7 +5250,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7120001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5286,7 +5286,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7120002,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {},
@@ -5312,7 +5312,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7120003,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5348,7 +5348,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7120004,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5384,7 +5384,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7120005,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5420,7 +5420,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7120006,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5456,7 +5456,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5492,7 +5492,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5528,7 +5528,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100303,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5564,7 +5564,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100304,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5600,7 +5600,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100305,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5636,7 +5636,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100306,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5672,7 +5672,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100307,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5708,7 +5708,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7100308,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5744,7 +5744,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7130301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5780,7 +5780,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7130302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5816,7 +5816,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7140101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5852,7 +5852,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5888,7 +5888,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210102,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5932,7 +5932,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210103,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -5976,7 +5976,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210104,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6020,7 +6020,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210401,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6056,7 +6056,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6100,7 +6100,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6144,7 +6144,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6188,7 +6188,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210501,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6232,7 +6232,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210502,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6276,7 +6276,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7210601,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6320,7 +6320,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6356,7 +6356,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220102,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6400,7 +6400,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220103,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6444,7 +6444,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220104,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6488,7 +6488,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6524,7 +6524,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6568,7 +6568,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6612,7 +6612,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6656,7 +6656,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220401,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6692,7 +6692,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220501,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6728,7 +6728,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220502,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6772,7 +6772,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7220601,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6816,7 +6816,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6860,7 +6860,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310002,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {},
@@ -6886,7 +6886,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6922,7 +6922,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310102,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -6966,7 +6966,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310103,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7010,7 +7010,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310104,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7054,7 +7054,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7090,7 +7090,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7126,7 +7126,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310303,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7170,7 +7170,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310304,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7214,7 +7214,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310305,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7258,7 +7258,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310306,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7302,7 +7302,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310307,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7346,7 +7346,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310308,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7390,7 +7390,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310309,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7434,7 +7434,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7478,7 +7478,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320102,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7522,7 +7522,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7558,7 +7558,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7602,7 +7602,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320303,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7646,7 +7646,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320304,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7690,7 +7690,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7330101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7734,7 +7734,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7330102,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7778,7 +7778,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7330103,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7822,7 +7822,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7330104,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7866,7 +7866,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7330301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7902,7 +7902,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7330302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7946,7 +7946,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7330303,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -7990,7 +7990,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8026,7 +8026,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7310202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8062,7 +8062,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8106,7 +8106,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8150,7 +8150,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8194,7 +8194,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8238,7 +8238,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320205,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8282,7 +8282,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7320206,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8326,7 +8326,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7330201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8370,7 +8370,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7400001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8406,7 +8406,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7410301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8442,7 +8442,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7410302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8478,7 +8478,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7410303,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8522,7 +8522,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7410304,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8566,7 +8566,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7410305,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8610,7 +8610,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7420301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8646,7 +8646,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7420302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8682,7 +8682,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7420303,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8726,7 +8726,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7420304,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8770,7 +8770,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7430301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8806,7 +8806,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7430302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8850,7 +8850,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7430303,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8894,7 +8894,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7430304,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8938,7 +8938,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7440301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -8982,7 +8982,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7440302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9026,7 +9026,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7440303,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9070,7 +9070,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7440304,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9114,7 +9114,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7450301,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9158,7 +9158,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7450302,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9202,7 +9202,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500211,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9238,7 +9238,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500212,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9274,7 +9274,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500213,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9310,7 +9310,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500214,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9354,7 +9354,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500215,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9390,7 +9390,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500231,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9426,7 +9426,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500232,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9470,7 +9470,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500233,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9514,7 +9514,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500234,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9558,7 +9558,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500235,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9602,7 +9602,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500236,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9646,7 +9646,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7500001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9690,7 +9690,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7510101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9734,7 +9734,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7510201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9778,7 +9778,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7510202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9822,7 +9822,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7510203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9866,7 +9866,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7510204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9910,7 +9910,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7520001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9946,7 +9946,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7520101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -9990,7 +9990,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7520201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10034,7 +10034,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7520202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10078,7 +10078,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7520203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10122,7 +10122,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7520204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10166,7 +10166,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7520205,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10210,7 +10210,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7530001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10254,7 +10254,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7530101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10298,7 +10298,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7530201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10342,7 +10342,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7530202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10386,7 +10386,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7530203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10430,7 +10430,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7530204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10474,7 +10474,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7530205,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10518,7 +10518,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7530206,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10562,7 +10562,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7540001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10606,7 +10606,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7540101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10650,7 +10650,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7540201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10694,7 +10694,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7540202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10738,7 +10738,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7540204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10782,7 +10782,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7540205,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10826,7 +10826,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7550201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10862,7 +10862,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7550202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10906,7 +10906,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7550203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10950,7 +10950,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7550204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -10994,7 +10994,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7610101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11030,7 +11030,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7610102,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11074,7 +11074,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7610401,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11110,7 +11110,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7610402,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11154,7 +11154,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7610403,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11198,7 +11198,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7620101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11242,7 +11242,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7630101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11286,7 +11286,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7630201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11330,7 +11330,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7630202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11374,7 +11374,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7630203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11418,7 +11418,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7630204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11462,7 +11462,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7640001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11506,7 +11506,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7640101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11550,7 +11550,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7640201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11594,7 +11594,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7640202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11638,7 +11638,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7640203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11682,7 +11682,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7640204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11726,7 +11726,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7640205,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11770,7 +11770,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7650001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11814,7 +11814,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7650101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11858,7 +11858,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7650201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11902,7 +11902,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7650202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11946,7 +11946,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7650203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -11990,7 +11990,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7660001,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -12034,7 +12034,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7660101,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -12078,7 +12078,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7660201,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -12122,7 +12122,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7660202,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -12166,7 +12166,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7660203,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -12210,7 +12210,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7660204,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -12254,7 +12254,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7660205,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -12298,7 +12298,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 7660206,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				1,
@@ -12341,7 +12341,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 9900001,
 		collectable_vfx = 60002,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				4006,
@@ -12404,7 +12404,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 9900002,
 		collectable_vfx = 60002,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {
 			{
 				4008,
@@ -12468,7 +12468,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 9900003,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -12504,7 +12504,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 9900004,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -12544,7 +12544,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 9900005,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -12584,7 +12584,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 9900006,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -12620,7 +12620,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 9900007,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {
@@ -12660,7 +12660,7 @@ pg.island_formula = {
 		pt_award = 0,
 		id = 9900008,
 		collectable_vfx = 0,
-		is_condition = 1,
+		is_condition = 0,
 		cost = {},
 		drop_display = {},
 		commission_cost = {

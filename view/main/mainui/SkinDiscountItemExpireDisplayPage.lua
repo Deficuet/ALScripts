@@ -5,10 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.confirmBtn = arg_2_0:findTF("confirm_btn")
-	arg_2_0.tipTxt = arg_2_0:findTF("title/label"):GetComponent(typeof(Text))
-	arg_2_0.leftList = UIItemList.New(arg_2_0:findTF("left/scrollrect/list"), arg_2_0:findTF("left/scrollrect/list/tpl"))
-	arg_2_0.rightList = UIItemList.New(arg_2_0:findTF("right/scrollrect/list"), arg_2_0:findTF("left/scrollrect/list/tpl"))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("confirm_btn")
+	arg_2_0.tipTxt = arg_2_0._tf:Find("title/label"):GetComponent(typeof(Text))
+	arg_2_0.leftList = UIItemList.New(arg_2_0._tf:Find("left/scrollrect/list"), arg_2_0._tf:Find("left/scrollrect/list/tpl"))
+	arg_2_0.rightList = UIItemList.New(arg_2_0._tf:Find("right/scrollrect/list"), arg_2_0._tf:Find("left/scrollrect/list/tpl"))
 
 	setText(arg_2_0.tipTxt, i18n("skin_discount_item_tran_tip"))
 end

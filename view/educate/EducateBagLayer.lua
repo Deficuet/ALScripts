@@ -17,39 +17,39 @@ function var_0_0.initData(arg_3_0)
 end
 
 function var_0_0.findUI(arg_4_0)
-	arg_4_0.anim = arg_4_0:findTF("anim_root"):GetComponent(typeof(Animation))
-	arg_4_0.animEvent = arg_4_0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	arg_4_0.anim = arg_4_0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	arg_4_0.animEvent = arg_4_0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	arg_4_0.animEvent:SetEndEvent(function()
 		arg_4_0:emit(var_0_0.ON_CLOSE)
 	end)
 
-	arg_4_0.windowTF = arg_4_0:findTF("anim_root/window")
+	arg_4_0.windowTF = arg_4_0._tf:Find("anim_root/window")
 
-	setText(arg_4_0:findTF("title/Text", arg_4_0.windowTF), i18n("child_btn_bag"))
+	setText(arg_4_0.windowTF:Find("title/Text"), i18n("child_btn_bag"))
 
-	arg_4_0.closeBtn = arg_4_0:findTF("close_btn", arg_4_0.windowTF)
-	arg_4_0.togglesTF = arg_4_0:findTF("toggles", arg_4_0.windowTF)
-	arg_4_0.itemView = arg_4_0:findTF("item_scrollview", arg_4_0.windowTF)
-	arg_4_0.emptyTF = arg_4_0:findTF("empty", arg_4_0.windowTF)
+	arg_4_0.closeBtn = arg_4_0.windowTF:Find("close_btn")
+	arg_4_0.togglesTF = arg_4_0.windowTF:Find("toggles")
+	arg_4_0.itemView = arg_4_0.windowTF:Find("item_scrollview")
+	arg_4_0.emptyTF = arg_4_0.windowTF:Find("empty")
 
-	setText(arg_4_0:findTF("Text", arg_4_0.emptyTF), i18n("child_bag_empty_tip"))
+	setText(arg_4_0.emptyTF:Find("Text"), i18n("child_bag_empty_tip"))
 end
 
 function var_0_0.addListener(arg_6_0)
-	onButton(arg_6_0, arg_6_0:findTF("anim_root/bg"), function()
+	onButton(arg_6_0, arg_6_0._tf:Find("anim_root/bg"), function()
 		arg_6_0:_close()
 	end, SFX_PANEL)
 	onButton(arg_6_0, arg_6_0.closeBtn, function()
 		arg_6_0:_close()
 	end, SFX_PANEL)
 	eachChild(arg_6_0.togglesTF, function(arg_9_0)
-		setText(arg_6_0:findTF("Text", arg_9_0), i18n("child_item_type" .. arg_9_0.name))
+		setText(arg_9_0:Find("Text"), i18n("child_item_type" .. arg_9_0.name))
 		onToggle(arg_6_0, arg_9_0, function(arg_10_0)
 			local var_10_0 = arg_10_0 and var_0_1 or var_0_2
 
-			setImageColor(arg_6_0:findTF("icon", arg_9_0), Color.NewHex(var_10_0))
-			setTextColor(arg_6_0:findTF("Text", arg_9_0), Color.NewHex(var_10_0))
+			setImageColor(arg_9_0:Find("icon"), Color.NewHex(var_10_0))
+			setTextColor(arg_9_0:Find("Text"), Color.NewHex(var_10_0))
 
 			if arg_10_0 then
 				arg_6_0.anim:Play("anim_educate_bag_change")
@@ -64,7 +64,7 @@ function var_0_0.didEnter(arg_11_0)
 		groupDelta = 1
 	})
 	arg_11_0:initItems()
-	triggerToggle(arg_11_0:findTF("0", arg_11_0.togglesTF), true)
+	triggerToggle(arg_11_0.togglesTF:Find("0"), true)
 end
 
 function var_0_0.initItems(arg_12_0)

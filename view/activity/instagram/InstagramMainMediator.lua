@@ -14,13 +14,19 @@ function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.OPEN_CHAT, function(arg_2_0)
 		arg_1_0:addSubLayers(Context.New({
 			viewComponent = InstagramChatLayer,
-			mediator = InstagramChatMediator
+			mediator = InstagramChatMediator,
+			data = {
+				groupName = arg_1_0.viewComponent:getGroupName()
+			}
 		}))
 	end)
 	arg_1_0:bind(var_0_0.OPEN_JUUS, function(arg_3_0)
 		arg_1_0:addSubLayers(Context.New({
 			viewComponent = InstagramLayer,
-			mediator = InstagramMediator
+			mediator = InstagramMediator,
+			data = {
+				groupName = arg_1_0.viewComponent:getGroupName()
+			}
 		}))
 	end)
 	arg_1_0:bind(var_0_0.CLOSE_CHAT, function(arg_4_0)

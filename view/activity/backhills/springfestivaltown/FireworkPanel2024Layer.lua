@@ -5,19 +5,19 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.leftPanel = arg_2_0:findTF("main/left_panel")
-	arg_2_0.rightPanel = arg_2_0:findTF("main/right_panel")
-	arg_2_0.fireBtn = arg_2_0:findTF("fire_btn", arg_2_0.rightPanel)
+	arg_2_0.leftPanel = arg_2_0._tf:Find("main/left_panel")
+	arg_2_0.rightPanel = arg_2_0._tf:Find("main/right_panel")
+	arg_2_0.fireBtn = arg_2_0.rightPanel:Find("fire_btn")
 
-	setText(arg_2_0:findTF("tip", arg_2_0.rightPanel), i18n("activity_yanhua_tip7"))
+	setText(arg_2_0.rightPanel:Find("tip"), i18n("activity_yanhua_tip7"))
 
-	arg_2_0.leftItem = arg_2_0:findTF("scrollrect/content/item_tpl", arg_2_0.leftPanel)
-	arg_2_0.leftItems = arg_2_0:findTF("scrollrect/content", arg_2_0.leftPanel)
+	arg_2_0.leftItem = arg_2_0.leftPanel:Find("scrollrect/content/item_tpl")
+	arg_2_0.leftItems = arg_2_0.leftPanel:Find("scrollrect/content")
 	arg_2_0.leftUIList = UIItemList.New(arg_2_0.leftItems, arg_2_0.leftItem)
-	arg_2_0.rightItem = arg_2_0:findTF("content/item_tpl", arg_2_0.rightPanel)
-	arg_2_0.rightItems = arg_2_0:findTF("content", arg_2_0.rightPanel)
+	arg_2_0.rightItem = arg_2_0.rightPanel:Find("content/item_tpl")
+	arg_2_0.rightItems = arg_2_0.rightPanel:Find("content")
 	arg_2_0.rightUIList = UIItemList.New(arg_2_0.rightItems, arg_2_0.rightItem)
-	arg_2_0.arrowsTF = arg_2_0:findTF("arrows", arg_2_0.rightPanel)
+	arg_2_0.arrowsTF = arg_2_0.rightPanel:Find("arrows")
 
 	arg_2_0:initData()
 end
@@ -58,10 +58,10 @@ function var_0_0.setLocalData(arg_5_0)
 end
 
 function var_0_0.didEnter(arg_6_0)
-	onButton(arg_6_0, arg_6_0:findTF("main/mask"), function()
+	onButton(arg_6_0, arg_6_0._tf:Find("main/mask"), function()
 		arg_6_0:emit(var_0_0.ON_CLOSE)
 	end)
-	onButton(arg_6_0, arg_6_0:findTF("close_btn", arg_6_0.rightPanel), function()
+	onButton(arg_6_0, arg_6_0.rightPanel:Find("close_btn"), function()
 		arg_6_0:emit(var_0_0.ON_CLOSE)
 	end)
 	onButton(arg_6_0, arg_6_0.fireBtn, function()
@@ -73,8 +73,8 @@ function var_0_0.didEnter(arg_6_0)
 end
 
 function var_0_0.initLeft(arg_10_0)
-	setActive(arg_10_0:findTF("empty", arg_10_0.leftPanel), #arg_10_0.unlockIds == 0)
-	setActive(arg_10_0:findTF("scrollrect", arg_10_0.leftPanel), #arg_10_0.unlockIds > 0)
+	setActive(arg_10_0.leftPanel:Find("empty"), #arg_10_0.unlockIds == 0)
+	setActive(arg_10_0.leftPanel:Find("scrollrect"), #arg_10_0.unlockIds > 0)
 	arg_10_0.leftUIList:make(function(arg_11_0, arg_11_1, arg_11_2)
 		if arg_11_0 == UIItemList.EventUpdate then
 			local var_11_0 = arg_11_1 + 1
@@ -87,13 +87,13 @@ function var_0_0.initLeft(arg_10_0)
 			arg_11_2.name = var_11_1
 
 			if var_11_1 == "lock" then
-				setActive(arg_10_0:findTF("firework", arg_11_2), false)
+				setActive(arg_11_2:Find("firework"), false)
 			else
 				local var_11_2 = tonumber(arg_11_2.name)
-				local var_11_3 = arg_10_0:findTF("firework/icon", arg_11_2)
-				local var_11_4 = arg_10_0:findTF("firework/selected", arg_11_2)
+				local var_11_3 = arg_11_2:Find("firework/icon")
+				local var_11_4 = arg_11_2:Find("firework/selected")
 
-				setActive(arg_10_0:findTF("firework", arg_11_2), true)
+				setActive(arg_11_2:Find("firework"), true)
 
 				local var_11_5 = table.contains(arg_10_0.orderIds, var_11_2)
 
@@ -110,7 +110,7 @@ end
 
 function var_0_0.initRight(arg_13_0)
 	for iter_13_0 = 1, #arg_13_0.allIds - 2 do
-		cloneTplTo(arg_13_0:findTF("tpl", arg_13_0.arrowsTF), arg_13_0.arrowsTF)
+		cloneTplTo(arg_13_0.arrowsTF:Find("tpl"), arg_13_0.arrowsTF)
 	end
 
 	arg_13_0.rightUIList:make(function(arg_14_0, arg_14_1, arg_14_2)
@@ -124,9 +124,9 @@ function var_0_0.initRight(arg_13_0)
 
 			arg_14_2.name = var_14_1
 
-			local var_14_2 = arg_13_0:findTF("icon", arg_14_2)
+			local var_14_2 = arg_14_2:Find("icon")
 
-			setActive(arg_13_0:findTF("add", arg_14_2), var_14_1 == "null")
+			setActive(arg_14_2:Find("add"), var_14_1 == "null")
 
 			if var_14_1 == "null" then
 				setActive(var_14_2, false)

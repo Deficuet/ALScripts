@@ -39,11 +39,11 @@ function var_0_0.initData(arg_5_0)
 end
 
 function var_0_0.initUI(arg_6_0)
-	arg_6_0.bg = arg_6_0:findTF("BG")
-	arg_6_0.curNumTextTF = arg_6_0:findTF("ProgressPanel/CurNumText")
-	arg_6_0.totalNumText = arg_6_0:findTF("ProgressPanel/TotalNumText")
-	arg_6_0.taskTpl = arg_6_0:findTF("TaskTpl")
-	arg_6_0.taskContainer = arg_6_0:findTF("TaskList/Viewport/Content")
+	arg_6_0.bg = arg_6_0._tf:Find("BG")
+	arg_6_0.curNumTextTF = arg_6_0._tf:Find("ProgressPanel/CurNumText")
+	arg_6_0.totalNumText = arg_6_0._tf:Find("ProgressPanel/TotalNumText")
+	arg_6_0.taskTpl = arg_6_0._tf:Find("TaskTpl")
+	arg_6_0.taskContainer = arg_6_0._tf:Find("TaskList/Viewport/Content")
 	arg_6_0.taskList = UIItemList.New(arg_6_0.taskContainer, arg_6_0.taskTpl)
 
 	onButton(arg_6_0, arg_6_0.bg, function()
@@ -71,11 +71,11 @@ function var_0_0.updateTaskList(arg_9_0)
 			arg_10_1 = arg_10_1 + 1
 
 			local var_10_0 = arg_9_0.taskVOList[arg_10_1]
-			local var_10_1 = arg_9_0:findTF("IndexText", arg_10_2)
-			local var_10_2 = arg_9_0:findTF("TaskIndexText", arg_10_2)
-			local var_10_3 = arg_9_0:findTF("DescText", arg_10_2)
-			local var_10_4 = arg_9_0:findTF("ItemBG/Icon", arg_10_2)
-			local var_10_5 = arg_9_0:findTF("ItemBG/Finished", arg_10_2)
+			local var_10_1 = arg_10_2:Find("IndexText")
+			local var_10_2 = arg_10_2:Find("TaskIndexText")
+			local var_10_3 = arg_10_2:Find("DescText")
+			local var_10_4 = arg_10_2:Find("ItemBG/Icon")
+			local var_10_5 = arg_10_2:Find("ItemBG/Finished")
 
 			setText(var_10_1, string.format("%02d", arg_10_1))
 			setText(var_10_2, "TASK-" .. string.format("%02d", arg_10_1))

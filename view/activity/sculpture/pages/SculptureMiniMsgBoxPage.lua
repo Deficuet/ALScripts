@@ -5,10 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.contentTxt = arg_2_0:findTF("frame/Text"):GetComponent(typeof(Text))
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/btns/btn_confrim")
+	arg_2_0.contentTxt = arg_2_0._tf:Find("frame/Text"):GetComponent(typeof(Text))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/btns/btn_confrim")
 	arg_2_0.btnImg = arg_2_0.confirmBtn:GetComponent(typeof(Image))
-	arg_2_0.cancelBtn = arg_2_0:findTF("frame/btns/btn_cancel")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("frame/btns/btn_cancel")
 end
 
 function var_0_0.OnInit(arg_3_0)

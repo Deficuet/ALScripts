@@ -10,17 +10,17 @@ end
 
 function var_0_0.init(arg_2_0)
 	arg_2_0.eventTriggers = {}
-	arg_2_0.middle = arg_2_0:findTF("middle")
-	arg_2_0.right = arg_2_0:findTF("right")
-	arg_2_0.top = arg_2_0:findTF("top")
-	arg_2_0.moveLayer = arg_2_0:findTF("moveLayer")
+	arg_2_0.middle = arg_2_0._tf:Find("adapt/middle")
+	arg_2_0.right = arg_2_0._tf:Find("adapt/right")
+	arg_2_0.top = arg_2_0._tf:Find("adapt/top")
+	arg_2_0.moveLayer = arg_2_0._tf:Find("adapt/moveLayer")
 	arg_2_0.backBtn = arg_2_0.top:Find("back_btn")
 	arg_2_0.playerResOb = arg_2_0.top:Find("playerRes")
 	arg_2_0.resPanel = WorldResource.New()
 
 	tf(arg_2_0.resPanel._go):SetParent(tf(arg_2_0.playerResOb), false)
 
-	arg_2_0.strategyInfo = arg_2_0:findTF("strategy_info", arg_2_0.top)
+	arg_2_0.strategyInfo = arg_2_0.top:Find("strategy_info")
 
 	setActive(arg_2_0.strategyInfo, false)
 
@@ -46,7 +46,7 @@ function var_0_0.init(arg_2_0)
 
 	setActive(arg_2_0.strategy, false)
 
-	arg_2_0.fleet = arg_2_0:findTF("middle/fleet")
+	arg_2_0.fleet = arg_2_0.middle:Find("fleet")
 	arg_2_0.ship_tpl = findTF(arg_2_0.fleet, "shiptpl")
 	arg_2_0.empty_tpl = findTF(arg_2_0.fleet, "emptytpl")
 
@@ -59,8 +59,8 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.infoBtn = arg_2_0.right:Find("information")
 	arg_2_0.heroInfo = arg_2_0:getTpl("heroInfo")
 	arg_2_0.starTpl = arg_2_0:getTpl("star_tpl")
-	arg_2_0.energyDescTF = arg_2_0:findTF("energy_desc")
-	arg_2_0.energyDescTextTF = arg_2_0:findTF("energy_desc/Text")
+	arg_2_0.energyDescTF = arg_2_0._tf:Find("energy_desc")
+	arg_2_0.energyDescTextTF = arg_2_0._tf:Find("energy_desc/Text")
 	arg_2_0.normaltab = arg_2_0.right:Find("normal")
 	arg_2_0.informationtab = arg_2_0.right:Find("infomation")
 	arg_2_0.buffInfo = arg_2_0.normaltab:Find("buff")
@@ -139,7 +139,7 @@ function var_0_0.didEnter(arg_5_0)
 			setActive(arg_5_0.autoSubToggle, false)
 		end
 	end, SFX_PANEL, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0._tf)
+	arg_5_0:OverlayPanel(arg_5_0._tf)
 	arg_5_0:updateCharacters()
 	arg_5_0:updateStageView()
 	triggerToggle(arg_5_0.autoToggle, ys.Battle.BattleState.IsAutoBotActive(SYSTEM_WORLD))
@@ -808,7 +808,7 @@ function var_0_0.recycleCharacterList(arg_59_0, arg_59_1, arg_59_2)
 end
 
 function var_0_0.willExit(arg_60_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_60_0._tf)
+	arg_60_0:UnOverlayPanel(arg_60_0._tf)
 
 	if arg_60_0.resPanel then
 		arg_60_0.resPanel:exit()

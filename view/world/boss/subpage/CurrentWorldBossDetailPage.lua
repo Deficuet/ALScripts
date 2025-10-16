@@ -7,12 +7,12 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.listBtn = arg_2_0:findTF("list_btn")
-	arg_2_0.metaWorldbossBtn = MetaWorldbossBtn.New(arg_2_0:findTF("archives_btn"), arg_2_0.event)
+	arg_2_0.listBtn = arg_2_0._tf:Find("list_btn")
+	arg_2_0.metaWorldbossBtn = MetaWorldbossBtn.New(arg_2_0._tf:Find("archives_btn"), arg_2_0.event)
 	arg_2_0.helpWindow = WorldBossHelpPage.New(arg_2_0._tf, arg_2_0.event)
-	arg_2_0.currProgressTr = arg_2_0:findTF("progress")
-	arg_2_0.currProgressTxt = arg_2_0:findTF("progress/value"):GetComponent(typeof(Text))
-	arg_2_0.ptBtn = WorldbossPtBtn.New(arg_2_0:findTF("point"))
+	arg_2_0.currProgressTr = arg_2_0._tf:Find("progress")
+	arg_2_0.currProgressTxt = arg_2_0._tf:Find("progress/value"):GetComponent(typeof(Text))
+	arg_2_0.ptBtn = WorldbossPtBtn.New(arg_2_0._tf:Find("point"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -32,7 +32,7 @@ function var_0_0.OnInit(arg_3_0)
 			frame = var_5_0.rarity
 		})
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("point/help"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("point/help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.world_boss_help_meta.tip

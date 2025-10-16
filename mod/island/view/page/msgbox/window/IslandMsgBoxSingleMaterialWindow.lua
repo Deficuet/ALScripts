@@ -7,14 +7,14 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.valueInput = arg_2_0:findTF("calc/value/InputField")
-	arg_2_0.addBtn = arg_2_0:findTF("calc/add")
-	arg_2_0.reduceBtn = arg_2_0:findTF("calc/reduce")
-	arg_2_0.sellBtn = arg_2_0:findTF("calc/sell_btn")
-	arg_2_0.priceTxt = arg_2_0:findTF("calc/sell_btn/price/Text"):GetComponent(typeof(Text))
+	arg_2_0.valueInput = arg_2_0._tf:Find("calc/value/InputField")
+	arg_2_0.addBtn = arg_2_0._tf:Find("calc/add")
+	arg_2_0.reduceBtn = arg_2_0._tf:Find("calc/reduce")
+	arg_2_0.sellBtn = arg_2_0._tf:Find("calc/sell_btn")
+	arg_2_0.priceTxt = arg_2_0._tf:Find("calc/sell_btn/price/Text"):GetComponent(typeof(Text))
 
-	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, arg_2_0:findTF("calc/sell_btn/price/res"))
-	setText(arg_2_0:findTF("calc/sell_btn/Text"), i18n("island_word_convert"))
+	LoadImageSpriteAsync("island/" .. getIslandSeasonPtInfo().icon, arg_2_0._tf:Find("calc/sell_btn/price/res"))
+	setText(arg_2_0._tf:Find("calc/sell_btn/Text"), i18n("island_word_convert"))
 end
 
 function var_0_0.OnShow(arg_3_0)

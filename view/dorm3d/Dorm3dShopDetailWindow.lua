@@ -17,10 +17,10 @@ function var_0_0.init(arg_2_0)
 
 	setActive(arg_2_0.bubbleTpl, false)
 
-	arg_2_0.minusBtn = arg_2_0:findTF("Window/countList/minusBtn")
-	arg_2_0.addBtn = arg_2_0:findTF("Window/countList/addBtn")
-	arg_2_0.maxBtn = arg_2_0:findTF("Window/countList/maxBtn")
-	arg_2_0.countText = arg_2_0:findTF("Window/countList/count/Text")
+	arg_2_0.minusBtn = arg_2_0._tf:Find("Window/countList/minusBtn")
+	arg_2_0.addBtn = arg_2_0._tf:Find("Window/countList/addBtn")
+	arg_2_0.maxBtn = arg_2_0._tf:Find("Window/countList/maxBtn")
+	arg_2_0.countText = arg_2_0._tf:Find("Window/countList/count/Text")
 	arg_2_0.shopCfg = arg_2_0.contextData.shopCfg
 	arg_2_0.unlockTips = pg.dorm3d_gift[arg_2_0.shopCfg.item_id].unlock_tips or {}
 

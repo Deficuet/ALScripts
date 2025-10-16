@@ -8,18 +8,18 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.frame = arg_2_0:findTF("window1")
-	arg_2_0.content = arg_2_0:findTF("window1/content"):GetComponent(typeof(Text))
-	arg_2_0.frame1 = arg_2_0:findTF("window2")
-	arg_2_0.content1 = arg_2_0:findTF("window2/content"):GetComponent(typeof(Text))
-	arg_2_0.icon = arg_2_0:findTF("window2/mask/Icon"):GetComponent(typeof(RawImage))
-	arg_2_0.cancelBtn = arg_2_0:findTF("btns/cancel")
-	arg_2_0.cancelBtnTxt = arg_2_0:findTF("btns/cancel/Text"):GetComponent(typeof(Text))
-	arg_2_0.confirmBtn = arg_2_0:findTF("btns/confirm")
-	arg_2_0.confirmBtnTxt = arg_2_0:findTF("btns/confirm/Text"):GetComponent(typeof(Text))
+	arg_2_0.frame = arg_2_0._tf:Find("window1")
+	arg_2_0.content = arg_2_0._tf:Find("window1/content"):GetComponent(typeof(Text))
+	arg_2_0.frame1 = arg_2_0._tf:Find("window2")
+	arg_2_0.content1 = arg_2_0._tf:Find("window2/content"):GetComponent(typeof(Text))
+	arg_2_0.icon = arg_2_0._tf:Find("window2/mask/Icon"):GetComponent(typeof(RawImage))
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("btns/cancel")
+	arg_2_0.cancelBtnTxt = arg_2_0._tf:Find("btns/cancel/Text"):GetComponent(typeof(Text))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("btns/confirm")
+	arg_2_0.confirmBtnTxt = arg_2_0._tf:Find("btns/confirm/Text"):GetComponent(typeof(Text))
 	arg_2_0._parentTF = arg_2_0._tf.parent
 
-	setText(arg_2_0:findTF("title"), i18n("words_information"))
+	setText(arg_2_0._tf:Find("title"), i18n("words_information"))
 end
 
 function var_0_0.OnInit(arg_3_0)

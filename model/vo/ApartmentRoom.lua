@@ -27,7 +27,6 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	end)
 
 	arg_1_0.zoneDic = {}
-	arg_1_0.zoneReplaceDic = {}
 
 	table.Ipairs(arg_1_0:GetZoneIDList(), function(arg_4_0, arg_4_1)
 		local var_4_0 = Dorm3dZone.New({
@@ -36,7 +35,6 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 		local var_4_1 = var_4_0:GetWatchCameraName()
 
 		arg_1_0.zoneDic[var_4_1] = var_4_0
-		arg_1_0.zoneReplaceDic[var_4_1] = {}
 
 		var_4_0:SetSlots(_.map(var_4_0:GetSlotIDList(), function(arg_5_0)
 			return arg_1_0.slotDic[arg_5_0]
@@ -269,18 +267,6 @@ function var_0_0.UpdateFurnitureReplaceConfig(arg_44_0)
 			var_44_0[iter_44_1.slotId] = iter_44_1
 		end
 	end
-
-	for iter_44_2, iter_44_3 in pairs(arg_44_0.zoneDic) do
-		if iter_44_2 ~= "" then
-			for iter_44_4, iter_44_5 in ipairs(iter_44_3:GetSlots()) do
-				local var_44_1 = var_44_0[iter_44_5.configId]
-
-				if var_44_1 and var_44_1:getConfig("touch_id") ~= "" then
-					arg_44_0.zoneReplaceDic[iter_44_2].touch_id = var_44_1:getConfig("touch_id")
-				end
-			end
-		end
-	end
 end
 
 var_0_0.ITEM_LOCK = 0
@@ -315,9 +301,7 @@ function var_0_0.getNormalZoneNames(arg_46_0)
 end
 
 function var_0_0.getZoneConfig(arg_49_0, arg_49_1, arg_49_2)
-	local var_49_0 = arg_49_0.zoneDic[arg_49_1]
-
-	return arg_49_0.zoneReplaceDic[arg_49_1][arg_49_2] or var_49_0:getConfig(arg_49_2)
+	return arg_49_0.zoneDic[arg_49_1]:getConfig(arg_49_2)
 end
 
 function var_0_0.getApartmentZoneConfig(arg_50_0, arg_50_1, arg_50_2, arg_50_3)
@@ -340,6 +324,37 @@ function var_0_0.unlockAllInvite(arg_53_0)
 	end
 
 	return true
+end
+
+function var_0_0.GetAllTouchIDByZone(arg_54_0, arg_54_1, arg_54_2)
+	local var_54_0 = {}
+	local var_54_1 = arg_54_0:getApartmentZoneConfig(arg_54_1, "touch_id", arg_54_2)
+
+	if var_54_1 then
+		table.insert(var_54_0, {
+			touchId = var_54_1
+		})
+	end
+
+	for iter_54_0, iter_54_1 in pairs(arg_54_0.furnitures) do
+		if iter_54_1:GetSlotID() > 0 then
+			local var_54_2 = arg_54_0.slotDic[iter_54_1:GetSlotID()]
+
+			if var_54_2 and pg.dorm3d_zone_template[var_54_2:GetZoneID()].watch_camera == arg_54_1 then
+				local var_54_3 = iter_54_1:GetName()
+				local var_54_4 = Apartment.getGroupConfig(arg_54_2, iter_54_1:getConfig("touch_id"))
+
+				if var_54_3 and var_54_4 then
+					table.insert(var_54_0, {
+						touchId = var_54_4,
+						furnitureName = var_54_3
+					})
+				end
+			end
+		end
+	end
+
+	return var_54_0
 end
 
 return var_0_0

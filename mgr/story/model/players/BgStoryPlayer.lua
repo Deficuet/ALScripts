@@ -3,7 +3,7 @@ local var_0_0 = class("BgStoryPlayer", import(".DialogueStoryPlayer"))
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 
-	arg_1_0.subImage = arg_1_0:findTF("sub", arg_1_0.bgPanel):GetComponent(typeof(Image))
+	arg_1_0.subImage = arg_1_0.bgPanel:Find("sub"):GetComponent(typeof(Image))
 
 	setActive(arg_1_0.subImage.gameObject, false)
 

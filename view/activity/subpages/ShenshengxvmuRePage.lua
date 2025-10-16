@@ -1,14 +1,14 @@
 local var_0_0 = class("ShenshengxvmuRePage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.step = arg_1_0:findTF("step", arg_1_0.bg)
-	arg_1_0.progress = arg_1_0:findTF("progress", arg_1_0.bg)
-	arg_1_0.displayBtn = arg_1_0:findTF("display_btn", arg_1_0.bg)
-	arg_1_0.awardTF = arg_1_0:findTF("award", arg_1_0.bg)
-	arg_1_0.battleBtn = arg_1_0:findTF("battle_btn", arg_1_0.bg)
-	arg_1_0.getBtn = arg_1_0:findTF("get_btn", arg_1_0.bg)
-	arg_1_0.gotBtn = arg_1_0:findTF("got_btn", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.step = arg_1_0.bg:Find("step")
+	arg_1_0.progress = arg_1_0.bg:Find("progress")
+	arg_1_0.displayBtn = arg_1_0.bg:Find("display_btn")
+	arg_1_0.awardTF = arg_1_0.bg:Find("award")
+	arg_1_0.battleBtn = arg_1_0.bg:Find("battle_btn")
+	arg_1_0.getBtn = arg_1_0.bg:Find("get_btn")
+	arg_1_0.gotBtn = arg_1_0.bg:Find("got_btn")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -21,9 +21,9 @@ function var_0_0.OnFirstFlush(arg_2_0)
 		})
 	end, SFX_PANEL)
 
-	arg_2_0.step = arg_2_0:findTF("AD/step")
-	arg_2_0.progress = arg_2_0:findTF("AD/progress")
-	arg_2_0.bar = arg_2_0:findTF("AD/slider/bar")
+	arg_2_0.step = arg_2_0._tf:Find("AD/step")
+	arg_2_0.progress = arg_2_0._tf:Find("AD/progress")
+	arg_2_0.bar = arg_2_0._tf:Find("AD/slider/bar")
 
 	local var_2_0 = pg.activity_event_avatarframe[arg_2_0.activity:getConfig("config_id")].start_time
 
@@ -57,7 +57,7 @@ end
 
 function var_0_0.UpdateAwardGot(arg_6_0)
 	local var_6_0 = arg_6_0.activity.data2 >= 1
-	local var_6_1 = arg_6_0:findTF("AD/got")
+	local var_6_1 = arg_6_0._tf:Find("AD/got")
 
 	setActive(var_6_1, var_6_0)
 end

@@ -593,7 +593,7 @@ function var_0_0.OnGetAllDelegationAward(arg_44_0, arg_44_1)
 		end
 	end
 
-	if arg_44_1.build_id == IslandProductConst.FarmlandPlaceId then
+	if arg_44_1.build_id == IslandProductConst.FarmlandPlaceId or arg_44_1.build_id == IslandProductConst.OrchardPlaceId or arg_44_1.build_id == IslandProductConst.GardenPlaceId then
 		local var_44_2 = pg.island_production_slot[arg_44_1.area_id]
 
 		for iter_44_4, iter_44_5 in ipairs(var_44_2.exclusion_slot) do

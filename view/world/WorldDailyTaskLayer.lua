@@ -18,8 +18,8 @@ function var_0_0.init(arg_2_0)
 		end
 	end
 
-	arg_2_0.rtBg = arg_2_0:findTF("bg")
-	arg_2_0.rtBlurPanel = arg_2_0:findTF("blur_panel")
+	arg_2_0.rtBg = arg_2_0._tf:Find("bg")
+	arg_2_0.rtBlurPanel = arg_2_0._tf:Find("blur_panel")
 	arg_2_0.rtTasks = arg_2_0.rtBlurPanel:Find("adapt/tasks")
 
 	setText(arg_2_0.rtTasks:Find("frame/empty/Text"), i18n("world_daily_task_none"))
@@ -32,7 +32,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.rtImageTitle = arg_2_0.rtTopTitle:Find("print/title")
 	arg_2_0.rtImageTitleTask = arg_2_0.rtTopTitle:Find("print/title_task")
 	arg_2_0.rtImageTitleShop = arg_2_0.rtTopTitle:Find("print/title_shop")
-	arg_2_0.rtTaskWindow = arg_2_0:findTF("task_window")
+	arg_2_0.rtTaskWindow = arg_2_0._tf:Find("task_window")
 	arg_2_0.wsTasks = {}
 
 	local var_2_0 = arg_2_0.rtTasks:Find("frame/viewport/content")

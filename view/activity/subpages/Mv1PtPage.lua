@@ -157,7 +157,7 @@ end
 
 function var_0_0.UpdateTask(arg_13_0, arg_13_1, arg_13_2)
 	local var_13_0 = arg_13_1 + 1
-	local var_13_1 = arg_13_0:findTF("itemMask/item", arg_13_2)
+	local var_13_1 = arg_13_2:Find("itemMask/item")
 	local var_13_2 = arg_13_0.taskGroup[arg_13_0.nday][var_13_0]
 	local var_13_3 = arg_13_0.taskProxy:getTaskById(var_13_2) or arg_13_0.taskProxy:getFinishTaskById(var_13_2)
 
@@ -178,7 +178,7 @@ function var_0_0.UpdateTask(arg_13_0, arg_13_1, arg_13_2)
 	local var_13_6 = var_13_3:getProgress()
 	local var_13_7 = var_13_3:getConfig("target_num")
 
-	setText(arg_13_0:findTF("description", arg_13_2), var_13_3:getConfig("desc"))
+	setText(arg_13_2:Find("description"), var_13_3:getConfig("desc"))
 
 	local var_13_8, var_13_9 = arg_13_0:GetProgressColor()
 	local var_13_10
@@ -189,12 +189,12 @@ function var_0_0.UpdateTask(arg_13_0, arg_13_1, arg_13_2)
 
 	var_13_11 = var_13_9 and setColorStr("/" .. var_13_7, var_13_9) or "/" .. var_13_7
 
-	setText(arg_13_0:findTF("progressText", arg_13_2), var_13_10 .. var_13_11)
-	setSlider(arg_13_0:findTF("progress", arg_13_2), 0, var_13_7, var_13_6)
+	setText(arg_13_2:Find("progressText"), var_13_10 .. var_13_11)
+	setSlider(arg_13_2:Find("progress"), 0, var_13_7, var_13_6)
 
-	local var_13_12 = arg_13_0:findTF("go_btn", arg_13_2)
-	local var_13_13 = arg_13_0:findTF("get_btn", arg_13_2)
-	local var_13_14 = arg_13_0:findTF("got_btn", arg_13_2)
+	local var_13_12 = arg_13_2:Find("go_btn")
+	local var_13_13 = arg_13_2:Find("get_btn")
+	local var_13_14 = arg_13_2:Find("got_btn")
 	local var_13_15 = var_13_3:getTaskStatus()
 
 	setActive(var_13_12, var_13_15 == 0)
@@ -207,7 +207,7 @@ function var_0_0.UpdateTask(arg_13_0, arg_13_1, arg_13_2)
 		arg_13_0:emit(ActivityMediator.ON_TASK_SUBMIT, var_13_3)
 	end, SFX_PANEL)
 
-	local var_13_16 = arg_13_0:findTF("get_btn", arg_13_2)
+	local var_13_16 = arg_13_2:Find("get_btn")
 	local var_13_17 = arg_13_1 + 1
 	local var_13_18 = arg_13_0.taskGroup[arg_13_0.nday][var_13_17]
 	local var_13_19 = arg_13_0.taskProxy:getTaskById(var_13_18) or arg_13_0.taskProxy:getFinishTaskById(var_13_18)
@@ -234,7 +234,7 @@ function var_0_0.UpdateTask(arg_13_0, arg_13_1, arg_13_2)
 		end
 	end, SFX_PANEL)
 
-	local var_13_20 = arg_13_0:findTF("got_btn", arg_13_2)
+	local var_13_20 = arg_13_2:Find("got_btn")
 
 	onButton(arg_13_0, var_13_20, function()
 		arg_13_0:displayWindow(true)

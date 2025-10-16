@@ -22,9 +22,9 @@ function var_0_0.initData(arg_4_0)
 end
 
 function var_0_0.initUI(arg_5_0)
-	arg_5_0.bg = arg_5_0:findTF("BG")
-	arg_5_0.backBtn = arg_5_0:findTF("BackBtn")
-	arg_5_0.buffListTF = arg_5_0:findTF("Main/BuffList")
+	arg_5_0.bg = arg_5_0._tf:Find("BG")
+	arg_5_0.backBtn = arg_5_0._tf:Find("BackBtn")
+	arg_5_0.buffListTF = arg_5_0._tf:Find("Main/BuffList")
 
 	for iter_5_0 = 1, 3 do
 		local var_5_0 = arg_5_0.buffListTF:GetChild(iter_5_0 - 1)

@@ -5,17 +5,17 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.painting = arg_2_0:findTF("painting")
-	arg_2_0.uilist = UIItemList.New(arg_2_0:findTF("frame/commanders"), arg_2_0:findTF("frame/commanders/tpl"))
+	arg_2_0.painting = arg_2_0._tf:Find("painting")
+	arg_2_0.uilist = UIItemList.New(arg_2_0._tf:Find("frame/commanders"), arg_2_0._tf:Find("frame/commanders/tpl"))
 
-	setText(arg_2_0:findTF("dialogue/label/Text1"), i18n("cattery_settlement_dialogue_1"))
-	setText(arg_2_0:findTF("dialogue/label/Text3"), i18n("cattery_settlement_dialogue_2"))
-	setText(arg_2_0:findTF("dialogue/label1/Text1"), i18n("cattery_settlement_dialogue_3"))
-	setText(arg_2_0:findTF("dialogue/label1/Text3"), i18n("cattery_settlement_dialogue_4"))
+	setText(arg_2_0._tf:Find("dialogue/label/Text1"), i18n("cattery_settlement_dialogue_1"))
+	setText(arg_2_0._tf:Find("dialogue/label/Text3"), i18n("cattery_settlement_dialogue_2"))
+	setText(arg_2_0._tf:Find("dialogue/label1/Text1"), i18n("cattery_settlement_dialogue_3"))
+	setText(arg_2_0._tf:Find("dialogue/label1/Text3"), i18n("cattery_settlement_dialogue_4"))
 
-	arg_2_0.timeTxt = arg_2_0:findTF("dialogue/label/Text2"):GetComponent(typeof(Text))
-	arg_2_0.expTxt = arg_2_0:findTF("dialogue/label1/Text2"):GetComponent(typeof(Text))
-	arg_2_0.confirmBtn = arg_2_0:findTF("comfirm")
+	arg_2_0.timeTxt = arg_2_0._tf:Find("dialogue/label/Text2"):GetComponent(typeof(Text))
+	arg_2_0.expTxt = arg_2_0._tf:Find("dialogue/label1/Text2"):GetComponent(typeof(Text))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("comfirm")
 end
 
 function var_0_0.OnInit(arg_3_0)

@@ -38,7 +38,7 @@ function var_0_0.OnFirstFlush(arg_7_0)
 			local var_8_2 = Drop.Create(arg_7_0.taskConfig[var_8_1].award_display[1])
 
 			if var_8_0 < 7 then
-				local var_8_3 = arg_7_0:findTF("item", arg_8_2)
+				local var_8_3 = arg_8_2:Find("item")
 
 				updateDrop(var_8_3, var_8_2)
 			end
@@ -54,14 +54,14 @@ function var_0_0.OnFirstFlush(arg_7_0)
 			local var_10_1 = arg_7_0.taskGroup[var_10_0]
 			local var_10_2 = arg_7_0.taskDic[var_10_1]
 
-			setActive(arg_7_0:findTF("get_bg", arg_10_2), var_10_2 and var_10_2:isOver())
-			setActive(arg_7_0:findTF("tip", arg_10_2), var_10_2 and var_10_2:getTaskStatus() == 0 and not var_10_2:isOver())
+			setActive(arg_10_2:Find("get_bg"), var_10_2 and var_10_2:isOver())
+			setActive(arg_10_2:Find("tip"), var_10_2 and var_10_2:getTaskStatus() == 0 and not var_10_2:isOver())
 		end
 	end)
 
 	local var_7_0 = arg_7_0:GetCanReceiveTaskList()
 
-	setActive(arg_7_0:findTF("tip", arg_7_0.uiGoBtn), #var_7_0 > 0)
+	setActive(arg_7_0.uiGoBtn:Find("tip"), #var_7_0 > 0)
 	onButton(arg_7_0, arg_7_0.uiGoBtn, function()
 		if arg_7_0.liveAreaPage == nil then
 			arg_7_0.liveAreaPage = MainLiveAreaPage.New(arg_7_0._parentTf, arg_7_0.event)
@@ -88,7 +88,7 @@ function var_0_0.OnUpdateFlush(arg_13_0)
 
 	local var_13_0 = arg_13_0:GetCanReceiveTaskList()
 
-	setActive(arg_13_0:findTF("tip", arg_13_0.uiGoBtn), #var_13_0 > 0)
+	setActive(arg_13_0.uiGoBtn:Find("tip"), #var_13_0 > 0)
 end
 
 function var_0_0.GetDate()

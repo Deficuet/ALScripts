@@ -281,173 +281,199 @@ function var_0_0.FlushInfos(arg_19_0)
 			local var_19_18 = pg.island_formula[var_19_17]
 			local var_19_19 = var_19_18.commission_product[1][1]
 			local var_19_20 = pg.island_item_data_template[var_19_19]
+			local var_19_21 = Drop.New({
+				count = 0,
+				type = DROP_TYPE_ISLAND_ITEM,
+				id = var_19_19
+			})
 
+			onButton(arg_19_0, arg_19_0.currentFormulaIcon, function()
+				arg_19_0.contextData:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = var_19_21
+				})
+			end)
 			GetImageSpriteFromAtlasAsync("island/" .. var_19_20.icon, "", arg_19_0.currentFormulaIcon)
 			setText(arg_19_0.currentFormulaNum, "×" .. var_19_18.commission_product[1][2])
 
-			local var_19_21 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+			local var_19_22 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
 
-			if #var_19_18.second_product == 0 or not var_19_21:IsUnlcokSecondProduct(var_19_17) then
+			if #var_19_18.second_product == 0 or not var_19_22:IsUnlcokSecondProduct(var_19_17) then
 				setActive(arg_19_0.extraProduct, false)
 			else
 				setActive(arg_19_0.extraProduct, true)
 
-				local var_19_22 = var_19_18.second_product_display
-				local var_19_23 = var_19_22[1][1]
-				local var_19_24 = pg.island_item_data_template[var_19_23]
+				local var_19_23 = var_19_18.second_product_display
+				local var_19_24 = var_19_23[1][1]
+				local var_19_25 = pg.island_item_data_template[var_19_24]
 
-				GetImageSpriteFromAtlasAsync("island/" .. var_19_24.icon, "", arg_19_0.extraProductIcon)
-				setText(arg_19_0.extraProductName, var_19_24.name)
-				setText(arg_19_0.extraProductNum, "×" .. var_19_22[1][2])
+				GetImageSpriteFromAtlasAsync("island/" .. var_19_25.icon, "", arg_19_0.extraProductIcon)
+				setText(arg_19_0.extraProductName, var_19_25.name)
+				setText(arg_19_0.extraProductNum, "×" .. var_19_23[1][2])
+
+				local var_19_26 = Drop.New({
+					count = 0,
+					type = DROP_TYPE_ISLAND_ITEM,
+					id = var_19_24
+				})
+
+				onButton(arg_19_0, arg_19_0.extraProductIcon, function()
+					arg_19_0.contextData:ShowMsgBox({
+						title = i18n("island_word_desc"),
+						type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+						dropData = var_19_26
+					})
+				end)
 			end
 		end
 	end
 end
 
-function var_0_0.AfterShipSelect(arg_20_0, arg_20_1)
-	arg_20_0.selectedShipId = arg_20_1
+function var_0_0.AfterShipSelect(arg_22_0, arg_22_1)
+	arg_22_0.selectedShipId = arg_22_1
 
-	arg_20_0:Flush()
-	existCall(arg_20_0.loadCharacterFunc, arg_20_0.selectedShipId)
-	arg_20_0:OpenFormulaSelectPage()
+	arg_22_0:Flush()
+	existCall(arg_22_0.loadCharacterFunc, arg_22_0.selectedShipId)
+	arg_22_0:OpenFormulaSelectPage()
 end
 
-function var_0_0.OpenShipSelectPage(arg_21_0)
-	local var_21_0 = pg.island_production_slot[arg_21_0.slotId].attribute
+function var_0_0.OpenShipSelectPage(arg_23_0)
+	local var_23_0 = pg.island_production_slot[arg_23_0.slotId].attribute
 
-	arg_21_0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
+	arg_23_0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
 		{
-			attrType = var_21_0,
-			confirmFunc = function(arg_22_0)
-				arg_21_0:AfterShipSelect(arg_22_0[1])
+			attrType = var_23_0,
+			confirmFunc = function(arg_24_0)
+				arg_23_0:AfterShipSelect(arg_24_0[1])
 			end,
-			placeId = arg_21_0.placeId
+			placeId = arg_23_0.placeId
 		}
 	})
 end
 
-function var_0_0.OpenFormulaSelectPage(arg_23_0, arg_23_1, arg_23_2, arg_23_3, arg_23_4)
-	arg_23_0:emit(IslandMediator.OPEN_PAGE, "IslandFormulaSelectPage", {
+function var_0_0.OpenFormulaSelectPage(arg_25_0, arg_25_1, arg_25_2, arg_25_3, arg_25_4)
+	arg_25_0:emit(IslandMediator.OPEN_PAGE, "IslandFormulaSelectPage", {
 		{
-			commissionId = arg_23_0.commissionId,
-			selectedShipId = arg_23_4 or arg_23_0.selectedShipId,
-			unLoadCharacterFunc = arg_23_0.unLoadCharacterFunc,
-			addDelegateFormula = arg_23_1,
-			addDelegateFormulaTimes = arg_23_2,
-			canRewardTime = arg_23_3,
+			commissionId = arg_25_0.commissionId,
+			selectedShipId = arg_25_4 or arg_25_0.selectedShipId,
+			unLoadCharacterFunc = arg_25_0.unLoadCharacterFunc,
+			addDelegateFormula = arg_25_1,
+			addDelegateFormulaTimes = arg_25_2,
+			canRewardTime = arg_25_3,
 			confirmFunc = function()
-				if arg_23_0.contextData and arg_23_0.contextData.isPermanent then
+				if arg_25_0.contextData and arg_25_0.contextData.isPermanent then
 					return
 				end
 
-				arg_23_0:Hide()
+				arg_25_0:Hide()
 			end
 		}
 	})
-	arg_23_0:HideDetailPanel()
+	arg_25_0:HideDetailPanel()
 end
 
-function var_0_0.UpdateTime(arg_25_0)
-	local var_25_0 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(arg_25_0.placeId):GetDelegationSlotData(arg_25_0.slotId)
+function var_0_0.UpdateTime(arg_27_0)
+	local var_27_0 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(arg_27_0.placeId):GetDelegationSlotData(arg_27_0.slotId)
 
-	if not var_25_0 then
-		arg_25_0:FlushInfos()
-
-		return
-	end
-
-	local var_25_1 = var_25_0:GetSlotRoleData()
-	local var_25_2 = var_25_0:GetSlotRewardData()
-
-	if not var_25_1 then
-		arg_25_0:FlushInfos()
+	if not var_27_0 then
+		arg_27_0:FlushInfos()
 
 		return
 	end
 
-	local var_25_3 = var_25_1:GetFinishTime() - arg_25_0.timeMgr:GetServerTime()
+	local var_27_1 = var_27_0:GetSlotRoleData()
+	local var_27_2 = var_27_0:GetSlotRewardData()
 
-	setText(arg_25_0.timeTF, arg_25_0.timeMgr:DescCDTime(var_25_3))
-	setSlider(arg_25_0.roleDelegationSliderTF, 0, 1, 1 - var_25_3 / var_25_1:GetAllTime())
+	if not var_27_1 then
+		arg_27_0:FlushInfos()
 
-	local var_25_4 = var_25_1:CanRewardTimes()
-	local var_25_5 = var_25_1.formula_id
-	local var_25_6 = pg.island_formula[var_25_5]
+		return
+	end
 
-	setText(arg_25_0.canRewardNum, "×" .. tostring(var_25_6.commission_product[1][2] * var_25_4))
+	local var_27_3 = var_27_1:GetFinishTime() - arg_27_0.timeMgr:GetServerTime()
 
-	local var_25_7 = var_25_1:InCurrentTime()
-	local var_25_8 = arg_25_0.timeMgr:GetServerTime() - var_25_1:InCurrentTimeStart(var_25_7)
+	setText(arg_27_0.timeTF, arg_27_0.timeMgr:DescCDTime(var_27_3))
+	setSlider(arg_27_0.roleDelegationSliderTF, 0, 1, 1 - var_27_3 / var_27_1:GetAllTime())
 
-	arg_25_0.formulaProcess.fillAmount = var_25_8 / var_25_1:CurrentTimeNeed(var_25_7)
+	local var_27_4 = var_27_1:CanRewardTimes()
+	local var_27_5 = var_27_1.formula_id
+	local var_27_6 = pg.island_formula[var_27_5]
 
-	local var_25_9 = var_25_6.commission_product[1][1]
-	local var_25_10 = pg.island_item_data_template[var_25_9]
+	setText(arg_27_0.canRewardNum, "×" .. tostring(var_27_6.commission_product[1][2] * var_27_4))
 
-	GetImageSpriteFromAtlasAsync("island/" .. var_25_10.icon, "", arg_25_0.canRewardIcon)
+	local var_27_7 = var_27_1:InCurrentTime()
+	local var_27_8 = arg_27_0.timeMgr:GetServerTime() - var_27_1:InCurrentTimeStart(var_27_7)
 
-	local var_25_11 = var_25_1:LastTimes()
+	arg_27_0.formulaProcess.fillAmount = var_27_8 / var_27_1:CurrentTimeNeed(var_27_7)
 
-	setText(arg_25_0.currentFormulaLastNum, var_25_11)
+	local var_27_9 = var_27_6.commission_product[1][1]
+	local var_27_10 = pg.island_item_data_template[var_27_9]
 
-	if var_25_4 > 0 then
-		setActive(arg_25_0.getBtn, true)
-		setActive(arg_25_0.addBtn, false)
+	GetImageSpriteFromAtlasAsync("island/" .. var_27_10.icon, "", arg_27_0.canRewardIcon)
+
+	local var_27_11 = var_27_1:LastTimes()
+
+	setText(arg_27_0.currentFormulaLastNum, var_27_11)
+
+	if var_27_4 > 0 then
+		setActive(arg_27_0.getBtn, true)
+		setActive(arg_27_0.addBtn, false)
 	else
-		setActive(arg_25_0.addBtn, var_25_11 < 5)
-		onButton(arg_25_0, arg_25_0.addBtn, function()
-			arg_25_0:OpenFormulaSelectPage(var_25_5, var_25_11, var_25_4, var_25_1.ship_id)
+		setActive(arg_27_0.addBtn, var_27_11 < 5)
+		onButton(arg_27_0, arg_27_0.addBtn, function()
+			arg_27_0:OpenFormulaSelectPage(var_27_5, var_27_11, var_27_4, var_27_1.ship_id)
 		end, SFX_PANEL)
 	end
 
-	if #var_25_6.second_product == 0 then
+	if #var_27_6.second_product == 0 then
 		return
 	end
 
-	local var_25_12 = var_25_0:GetFromulaTatalCount(var_25_6.id) + var_25_4
-	local var_25_13 = var_25_6.second_product[1]
-	local var_25_14 = math.floor(var_25_12 / var_25_13)
-	local var_25_15 = var_25_12 % var_25_13
+	local var_27_12 = var_27_0:GetFromulaTatalCount(var_27_6.id) + var_27_4
+	local var_27_13 = var_27_6.second_product[1]
+	local var_27_14 = math.floor(var_27_12 / var_27_13)
+	local var_27_15 = var_27_12 % var_27_13
 
-	if var_25_15 ~= arg_25_0.extraProcess then
-		arg_25_0.extraProcess = var_25_15
+	if var_27_15 ~= arg_27_0.extraProcess then
+		arg_27_0.extraProcess = var_27_15
 
-		arg_25_0.extraProductList:align(var_25_13)
+		arg_27_0.extraProductList:align(var_27_13)
 	end
 
-	local var_25_16 = math.floor((var_25_11 + var_25_15) / var_25_13)
+	local var_27_16 = math.floor((var_27_11 + var_27_15) / var_27_13)
 
-	setText(arg_25_0.extraProductLastNum, "×" .. var_25_16)
+	setText(arg_27_0.extraProductLastNum, "×" .. var_27_16)
 end
 
-function var_0_0.StartTimer(arg_27_0)
-	arg_27_0.timer = Timer.New(function()
-		arg_27_0:UpdateTime()
+function var_0_0.StartTimer(arg_29_0)
+	arg_29_0.timer = Timer.New(function()
+		arg_29_0:UpdateTime()
 	end, 1, -1)
 
-	arg_27_0.timer:Start()
-	arg_27_0:UpdateTime()
+	arg_29_0.timer:Start()
+	arg_29_0:UpdateTime()
 end
 
-function var_0_0.StopTimer(arg_29_0)
-	if arg_29_0.timer ~= nil then
-		arg_29_0.timer:Stop()
+function var_0_0.StopTimer(arg_31_0)
+	if arg_31_0.timer ~= nil then
+		arg_31_0.timer:Stop()
 
-		arg_29_0.timer = nil
+		arg_31_0.timer = nil
 	end
 end
 
-function var_0_0.Hide(arg_30_0)
-	arg_30_0.super.Hide(arg_30_0)
-	arg_30_0:OnHide()
-end
-
-function var_0_0.OnHide(arg_31_0)
-	arg_31_0:StopTimer()
-end
-
-function var_0_0.OnDestroy(arg_32_0)
+function var_0_0.Hide(arg_32_0)
+	arg_32_0.super.Hide(arg_32_0)
 	arg_32_0:OnHide()
+end
+
+function var_0_0.OnHide(arg_33_0)
+	arg_33_0:StopTimer()
+end
+
+function var_0_0.OnDestroy(arg_34_0)
+	arg_34_0:OnHide()
 end
 
 return var_0_0

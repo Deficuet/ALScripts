@@ -5,23 +5,23 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.panel = arg_2_0:findTF("panel")
-	arg_2_0.closeBtn = arg_2_0:findTF("closeBtn", arg_2_0.panel)
-	arg_2_0.icon = arg_2_0:findTF("icon", arg_2_0.panel)
-	arg_2_0.discount = arg_2_0:findTF("discount", arg_2_0.panel)
-	arg_2_0.remainTimer = arg_2_0:findTF("remainTimer", arg_2_0.panel)
-	arg_2_0.name = arg_2_0:findTF("name", arg_2_0.panel)
-	arg_2_0.desc = arg_2_0:findTF("desc", arg_2_0.panel)
-	arg_2_0.buyDesc = arg_2_0:findTF("buyDesc", arg_2_0.panel)
-	arg_2_0.count = arg_2_0:findTF("count/number_panel/value", arg_2_0.panel)
-	arg_2_0.leftBtn = arg_2_0:findTF("count/left", arg_2_0.panel)
-	arg_2_0.rightBtn = arg_2_0:findTF("count/right", arg_2_0.panel)
-	arg_2_0.minBtn = arg_2_0:findTF("count/min", arg_2_0.panel)
-	arg_2_0.maxBtn = arg_2_0:findTF("count/max", arg_2_0.panel)
-	arg_2_0.bottomItemList = UIItemList.New(arg_2_0:findTF("itemList/Viewport/Content", arg_2_0.panel), arg_2_0:findTF("itemList/Viewport/Content/IslandItemTpl", arg_2_0.panel))
-	arg_2_0.buyBtn = arg_2_0:findTF("buyBtn", arg_2_0.panel)
-	arg_2_0.consumeIcon = arg_2_0:findTF("consume/icon", arg_2_0.buyBtn)
-	arg_2_0.consumeCount = arg_2_0:findTF("consume/count", arg_2_0.buyBtn)
+	arg_2_0.panel = arg_2_0._tf:Find("panel")
+	arg_2_0.closeBtn = arg_2_0.panel:Find("closeBtn")
+	arg_2_0.icon = arg_2_0.panel:Find("icon")
+	arg_2_0.discount = arg_2_0.panel:Find("discount")
+	arg_2_0.remainTimer = arg_2_0.panel:Find("remainTimer")
+	arg_2_0.name = arg_2_0.panel:Find("name")
+	arg_2_0.desc = arg_2_0.panel:Find("desc")
+	arg_2_0.buyDesc = arg_2_0.panel:Find("buyDesc")
+	arg_2_0.count = arg_2_0.panel:Find("count/number_panel/value")
+	arg_2_0.leftBtn = arg_2_0.panel:Find("count/left")
+	arg_2_0.rightBtn = arg_2_0.panel:Find("count/right")
+	arg_2_0.minBtn = arg_2_0.panel:Find("count/min")
+	arg_2_0.maxBtn = arg_2_0.panel:Find("count/max")
+	arg_2_0.bottomItemList = UIItemList.New(arg_2_0.panel:Find("itemList/Viewport/Content"), arg_2_0.panel:Find("itemList/Viewport/Content/IslandItemTpl"))
+	arg_2_0.buyBtn = arg_2_0.panel:Find("buyBtn")
+	arg_2_0.consumeIcon = arg_2_0.buyBtn:Find("consume/icon")
+	arg_2_0.consumeCount = arg_2_0.buyBtn:Find("consume/count")
 
 	setText(arg_2_0._tf:Find("panel/title"), i18n("island_3Dshop_buy_confirm"))
 	setText(arg_2_0._tf:Find("panel/buyBtn/text"), i18n("island_3Dshop_buy"))
@@ -95,12 +95,35 @@ function var_0_0.SetUp(arg_6_0, arg_6_1, arg_6_2)
 		var_6_6 = 999
 	end
 
-	local var_6_7 = arg_6_2:GetItemsWithPt()
-	local var_6_8 = arg_6_2:GetResourceConsume()
+	local var_6_7 = arg_6_2:GetResourceConsume()
+	local var_6_8 = (100 - arg_6_2:GetDiscount()) / 100 * var_6_7[3]
+	local var_6_9 = 1
+	local var_6_10 = var_6_7[1]
+	local var_6_11 = var_6_7[2]
 
-	local function var_6_9(arg_8_0)
-		arg_8_0 = math.max(arg_8_0, 1)
-		arg_8_0 = math.min(arg_8_0, var_6_6)
+	if var_6_10 == DROP_TYPE_RESOURCE then
+		local var_6_12 = getProxy(PlayerProxy):getRawData()
+
+		if var_6_11 == 1 then
+			local var_6_13 = var_6_12.gold
+
+			var_6_9 = math.floor(var_6_13 / var_6_8)
+		elseif var_6_11 == 4 or var_6_11 == 14 then
+			local var_6_14 = var_6_12:getTotalGem()
+
+			var_6_9 = math.floor(var_6_14 / var_6_8)
+		end
+	elseif var_6_10 == DROP_TYPE_ISLAND_ITEM then
+		local var_6_15 = getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetOwnCount(var_6_11)
+
+		var_6_9 = math.floor(var_6_15 / var_6_8)
+	end
+
+	local var_6_16 = math.clamp(var_6_9, 1, var_6_6)
+	local var_6_17 = arg_6_2:GetItemsWithPt()
+
+	local function var_6_18(arg_8_0)
+		arg_8_0 = math.clamp(arg_8_0, 1, var_6_16)
 		arg_6_0.curCount = arg_8_0
 
 		setText(arg_6_0.count, arg_8_0)
@@ -108,30 +131,30 @@ function var_0_0.SetUp(arg_6_0, arg_6_1, arg_6_2)
 		for iter_8_0 = 1, #arg_6_0.itemsCountTFs do
 			local var_8_0 = arg_6_0.itemsCountTFs[iter_8_0]
 
-			setText(var_8_0, var_6_7[iter_8_0][3] * arg_6_0.curCount)
+			setText(var_8_0, var_6_17[iter_8_0][3] * arg_6_0.curCount)
 		end
 
-		setText(arg_6_0.consumeCount, math.ceil((100 - arg_6_2:GetDiscount()) / 100 * var_6_8[3]) * arg_6_0.curCount)
+		setText(arg_6_0.consumeCount, math.ceil(var_6_8 * arg_6_0.curCount))
 	end
 
-	onButton(arg_6_0, arg_6_0.leftBtn, function()
-		var_6_9(arg_6_0.curCount - 1)
-	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0.rightBtn, function()
-		var_6_9(arg_6_0.curCount + 1)
-	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0.minBtn, function()
-		var_6_9(1)
-	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0.maxBtn, function()
-		var_6_9(var_6_6)
-	end, SFX_PANEL)
+	pressPersistTrigger(arg_6_0.leftBtn, 0.5, function(arg_9_0)
+		var_6_18(arg_6_0.curCount - 1)
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(arg_6_0.rightBtn, 0.5, function(arg_10_0)
+		var_6_18(arg_6_0.curCount + 1)
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(arg_6_0.minBtn, 0.5, function(arg_11_0)
+		var_6_18(arg_6_0.curCount - 10)
+	end, nil, true, true, 0.1, SFX_PANEL)
+	pressPersistTrigger(arg_6_0.maxBtn, 0.5, function(arg_12_0)
+		var_6_18(arg_6_0.curCount + 10)
+	end, nil, true, true, 0.1, SFX_PANEL)
 
 	arg_6_0.itemsCountTFs = {}
 
 	arg_6_0.bottomItemList:make(function(arg_13_0, arg_13_1, arg_13_2)
 		if arg_13_0 == UIItemList.EventUpdate then
-			local var_13_0 = var_6_7[arg_13_1 + 1]
+			local var_13_0 = var_6_17[arg_13_1 + 1]
 			local var_13_1 = {
 				type = var_13_0[1],
 				id = var_13_0[2],
@@ -144,18 +167,18 @@ function var_0_0.SetUp(arg_6_0, arg_6_1, arg_6_2)
 			table.insert(arg_6_0.itemsCountTFs, arg_13_2:Find("icon_bg/count_bg/count"))
 		end
 	end)
-	arg_6_0.bottomItemList:align(#var_6_7)
-	var_6_9(1)
+	arg_6_0.bottomItemList:align(#var_6_17)
+	var_6_18(1)
 
-	if var_6_8[1] == DROP_TYPE_RESOURCE then
+	if var_6_7[1] == DROP_TYPE_RESOURCE then
 		GetImageSpriteFromAtlasAsync(Drop.New({
-			type = var_6_8[1],
-			id = var_6_8[2]
+			type = var_6_7[1],
+			id = var_6_7[2]
 		}):getIcon(), "", arg_6_0.consumeIcon)
-	elseif var_6_8[1] == DROP_TYPE_ISLAND_ITEM then
+	elseif var_6_7[1] == DROP_TYPE_ISLAND_ITEM then
 		GetImageSpriteFromAtlasAsync(Drop.New({
-			type = var_6_8[1],
-			id = var_6_8[2]
+			type = var_6_7[1],
+			id = var_6_7[2]
 		}):getIcon(), "", arg_6_0.consumeIcon)
 	end
 

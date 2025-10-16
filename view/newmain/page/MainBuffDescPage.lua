@@ -12,7 +12,7 @@ function var_0_0.getUIName(arg_3_0)
 end
 
 function var_0_0.OnLoaded(arg_4_0)
-	arg_4_0.descTxt = arg_4_0:findTF("Text"):GetComponent(typeof(Text))
+	arg_4_0.descTxt = arg_4_0._tf:Find("Text"):GetComponent(typeof(Text))
 end
 
 function var_0_0.Show(arg_5_0, arg_5_1, arg_5_2)

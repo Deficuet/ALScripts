@@ -2,9 +2,9 @@ local var_0_0 = class("AprilFoolDiscovery2025Page", import(".AprilFoolDiscoveryR
 local var_0_1 = "burinteam"
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
 
-	local var_1_0 = arg_1_0:findTF("AD/List")
+	local var_1_0 = arg_1_0._tf:Find("AD/List")
 
 	arg_1_0.items = CustomIndexLayer.Clone2Full(var_1_0, 9)
 	arg_1_0.selectIndex = 0

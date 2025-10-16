@@ -139,16 +139,10 @@ function var_0_0.TrackUI(arg_13_0)
 	local var_13_1 = tonumber(var_13_0)
 
 	if var_13_1 then
-		local var_13_2 = pg.island_world_objects[var_13_1].mapId
-
-		if getProxy(IslandProxy):GetIsland():GetMapId() == var_13_2 then
-			if _IslandCore then
-				_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
-					id = var_13_1
-				})
-			end
-		else
-			arg_13_0:UnTrackUI()
+		if _IslandCore then
+			_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
+				id = var_13_1
+			})
 		end
 	else
 		arg_13_0:UnTrackUI()

@@ -6,7 +6,7 @@ end
 
 function var_0_0.init(arg_2_0)
 	var_0_0.super.init(arg_2_0)
-	onButton(arg_2_0, arg_2_0:findTF("backBtn"), function()
+	onButton(arg_2_0, arg_2_0._tf:Find("backBtn"), function()
 		arg_2_0:OnBackward()
 	end, SFX_PANEL)
 end

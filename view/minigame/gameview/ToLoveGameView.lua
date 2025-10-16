@@ -33,28 +33,28 @@ function var_0_0.initUI(arg_5_0)
 	arg_5_0:initGamingUI()
 	arg_5_0:initPopUI()
 
-	arg_5_0.clickMask = arg_5_0:findTF("clickMask")
+	arg_5_0.clickMask = arg_5_0._tf:Find("clickMask")
 end
 
 function var_0_0.initMenuUI(arg_6_0)
-	arg_6_0.menuUI = arg_6_0:findTF("ui/menuUI")
-	arg_6_0.menuBack = arg_6_0:findTF("btnBack", arg_6_0.menuUI)
-	arg_6_0.menuHome = arg_6_0:findTF("btnHome", arg_6_0.menuUI)
-	arg_6_0.menuHighestScoreText = arg_6_0:findTF("highestScore/Text", arg_6_0.menuUI)
-	arg_6_0.menuRule = arg_6_0:findTF("btnRule", arg_6_0.menuUI)
-	arg_6_0.menuStart = arg_6_0:findTF("btnStart", arg_6_0.menuUI)
-	arg_6_0.menuRank = arg_6_0:findTF("btnRank", arg_6_0.menuUI)
-	arg_6_0.menuBuff = arg_6_0:findTF("btnBuff", arg_6_0.menuUI)
-	arg_6_0.menuTask = arg_6_0:findTF("btnTask", arg_6_0.menuUI)
-	arg_6_0.menuLastTimesText = arg_6_0:findTF("lastTimes/desc", arg_6_0.menuUI)
-	arg_6_0.menuAwardList = UIItemList.New(arg_6_0:findTF("awardsScrollView/Viewport/Content", arg_6_0.menuUI), arg_6_0:findTF("awardsScrollView/Viewport/Content/award", arg_6_0.menuUI))
-	arg_6_0.menuStartTip = arg_6_0:findTF("tip", arg_6_0.menuStart)
-	arg_6_0.menuBuffTip = arg_6_0:findTF("tip", arg_6_0.menuBuff)
-	arg_6_0.menuTaskTip = arg_6_0:findTF("tip", arg_6_0.menuTask)
+	arg_6_0.menuUI = arg_6_0._tf:Find("ui/menuUI")
+	arg_6_0.menuBack = arg_6_0.menuUI:Find("btnBack")
+	arg_6_0.menuHome = arg_6_0.menuUI:Find("btnHome")
+	arg_6_0.menuHighestScoreText = arg_6_0.menuUI:Find("highestScore/Text")
+	arg_6_0.menuRule = arg_6_0.menuUI:Find("btnRule")
+	arg_6_0.menuStart = arg_6_0.menuUI:Find("btnStart")
+	arg_6_0.menuRank = arg_6_0.menuUI:Find("btnRank")
+	arg_6_0.menuBuff = arg_6_0.menuUI:Find("btnBuff")
+	arg_6_0.menuTask = arg_6_0.menuUI:Find("btnTask")
+	arg_6_0.menuLastTimesText = arg_6_0.menuUI:Find("lastTimes/desc")
+	arg_6_0.menuAwardList = UIItemList.New(arg_6_0.menuUI:Find("awardsScrollView/Viewport/Content"), arg_6_0.menuUI:Find("awardsScrollView/Viewport/Content/award"))
+	arg_6_0.menuStartTip = arg_6_0.menuStart:Find("tip")
+	arg_6_0.menuBuffTip = arg_6_0.menuBuff:Find("tip")
+	arg_6_0.menuTaskTip = arg_6_0.menuTask:Find("tip")
 
-	setText(arg_6_0:findTF("awards/Text", arg_6_0.menuUI), i18n("tolovegame_join_reward"))
-	arg_6_0:findTF("title", arg_6_0.menuUI):GetComponent(typeof(Image)):SetNativeSize()
-	arg_6_0:findTF("desc", arg_6_0.menuUI):GetComponent(typeof(Image)):SetNativeSize()
+	setText(arg_6_0.menuUI:Find("awards/Text"), i18n("tolovegame_join_reward"))
+	arg_6_0.menuUI:Find("title"):GetComponent(typeof(Image)):SetNativeSize()
+	arg_6_0.menuUI:Find("desc"):GetComponent(typeof(Image)):SetNativeSize()
 	setActive(arg_6_0.menuUI, true)
 	onButton(arg_6_0, arg_6_0.menuBack, function()
 		arg_6_0:closeView()
@@ -140,18 +140,18 @@ function var_0_0.ShouldShowBuffTip(arg_17_0)
 end
 
 function var_0_0.initGamingUI(arg_18_0)
-	arg_18_0.gamingUI = arg_18_0:findTF("ui/gamingUI")
-	arg_18_0.gamingBack = arg_18_0:findTF("back", arg_18_0.gamingUI)
-	arg_18_0.gamingPause = arg_18_0:findTF("pause", arg_18_0.gamingUI)
-	arg_18_0.gamingScoreText = arg_18_0:findTF("bgScore/score", arg_18_0.gamingUI)
-	arg_18_0.gamingTimeText = arg_18_0:findTF("bgTime/time", arg_18_0.gamingUI)
-	arg_18_0.gamingBuff = arg_18_0:findTF("buff", arg_18_0.gamingUI)
-	arg_18_0.gamingOperationArea = arg_18_0:findTF("operationArea", arg_18_0.gamingUI)
-	arg_18_0.gamingUp = arg_18_0:findTF("operationArea/up", arg_18_0.gamingUI)
-	arg_18_0.gamingDown = arg_18_0:findTF("operationArea/down", arg_18_0.gamingUI)
-	arg_18_0.gamingLeft = arg_18_0:findTF("operationArea/left", arg_18_0.gamingUI)
-	arg_18_0.gamingRight = arg_18_0:findTF("operationArea/right", arg_18_0.gamingUI)
-	arg_18_0.gamingMap = arg_18_0:findTF("map", arg_18_0.gamingUI)
+	arg_18_0.gamingUI = arg_18_0._tf:Find("ui/gamingUI")
+	arg_18_0.gamingBack = arg_18_0.gamingUI:Find("back")
+	arg_18_0.gamingPause = arg_18_0.gamingUI:Find("pause")
+	arg_18_0.gamingScoreText = arg_18_0.gamingUI:Find("bgScore/score")
+	arg_18_0.gamingTimeText = arg_18_0.gamingUI:Find("bgTime/time")
+	arg_18_0.gamingBuff = arg_18_0.gamingUI:Find("buff")
+	arg_18_0.gamingOperationArea = arg_18_0.gamingUI:Find("operationArea")
+	arg_18_0.gamingUp = arg_18_0.gamingUI:Find("operationArea/up")
+	arg_18_0.gamingDown = arg_18_0.gamingUI:Find("operationArea/down")
+	arg_18_0.gamingLeft = arg_18_0.gamingUI:Find("operationArea/left")
+	arg_18_0.gamingRight = arg_18_0.gamingUI:Find("operationArea/right")
+	arg_18_0.gamingMap = arg_18_0.gamingUI:Find("map")
 
 	setActive(arg_18_0.gamingUI, false)
 	setActive(arg_18_0.gamingOperationArea, false)
@@ -180,10 +180,10 @@ function var_0_0.initGamingUI(arg_18_0)
 			var_0_1.canMove = false
 
 			local function var_21_0(arg_22_0)
-				local var_22_0 = arg_18_0:findTF("player", arg_22_0):GetComponent(typeof(Animator))
-				local var_22_1 = arg_18_0:findTF("player", arg_22_0):GetComponent(typeof(DftAniEvent))
+				local var_22_0 = arg_22_0:Find("player"):GetComponent(typeof(Animator))
+				local var_22_1 = arg_22_0:Find("player"):GetComponent(typeof(DftAniEvent))
 
-				arg_18_0:findTF("player", arg_22_0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+				arg_22_0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
 				local var_22_2 = var_0_1.currentPlayerPosition[1] - 1
 
@@ -194,7 +194,7 @@ function var_0_0.initGamingUI(arg_18_0)
 				local var_22_3 = ToLoveGameConst.map[var_22_2][var_0_1.currentPlayerPosition[2]]
 
 				local function var_22_4(arg_23_0)
-					arg_18_0:findTF("player", arg_23_0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, -86)
+					arg_23_0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, -86)
 				end
 
 				arg_18_0:OperateMap(var_22_3, var_22_4)
@@ -202,7 +202,7 @@ function var_0_0.initGamingUI(arg_18_0)
 					var_22_1:SetEndEvent(nil)
 
 					local function var_24_0(arg_25_0)
-						setActive(arg_18_0:findTF("player", arg_25_0), false)
+						setActive(arg_25_0:Find("player"), false)
 					end
 
 					arg_18_0:OperateMapPlayer(var_24_0)
@@ -210,18 +210,18 @@ function var_0_0.initGamingUI(arg_18_0)
 					var_0_1.currentPlayerPosition[1] = var_22_2
 
 					local function var_24_1(arg_26_0)
-						setActive(arg_18_0:findTF("player", arg_26_0), true)
-						setActive(arg_18_0:findTF("player/arrow", arg_26_0), false)
-						setActive(arg_18_0:findTF("player/happy", arg_26_0), false)
-						setActive(arg_18_0:findTF("player/sad", arg_26_0), false)
+						setActive(arg_26_0:Find("player"), true)
+						setActive(arg_26_0:Find("player/arrow"), false)
+						setActive(arg_26_0:Find("player/happy"), false)
+						setActive(arg_26_0:Find("player/sad"), false)
 
 						if var_0_1.shieldCount > 0 then
-							setActive(arg_18_0:findTF("player/shield", arg_26_0), true)
+							setActive(arg_26_0:Find("player/shield"), true)
 						else
-							setActive(arg_18_0:findTF("player/shield", arg_26_0), false)
+							setActive(arg_26_0:Find("player/shield"), false)
 						end
 
-						arg_18_0:findTF("player", arg_26_0):GetComponent(typeof(Animator)):Play("playerDownBack")
+						arg_26_0:Find("player"):GetComponent(typeof(Animator)):Play("playerDownBack")
 					end
 
 					arg_18_0:OperateMapPlayer(var_24_1)
@@ -237,10 +237,10 @@ function var_0_0.initGamingUI(arg_18_0)
 			var_0_1.canMove = false
 
 			local function var_27_0(arg_28_0)
-				local var_28_0 = arg_18_0:findTF("player", arg_28_0):GetComponent(typeof(Animator))
-				local var_28_1 = arg_18_0:findTF("player", arg_28_0):GetComponent(typeof(DftAniEvent))
+				local var_28_0 = arg_28_0:Find("player"):GetComponent(typeof(Animator))
+				local var_28_1 = arg_28_0:Find("player"):GetComponent(typeof(DftAniEvent))
 
-				arg_18_0:findTF("player", arg_28_0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+				arg_28_0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
 				local var_28_2 = var_0_1.currentPlayerPosition[1] + 1
 
@@ -251,7 +251,7 @@ function var_0_0.initGamingUI(arg_18_0)
 				local var_28_3 = ToLoveGameConst.map[var_28_2][var_0_1.currentPlayerPosition[2]]
 
 				local function var_28_4(arg_29_0)
-					arg_18_0:findTF("player", arg_29_0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 86)
+					arg_29_0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 86)
 				end
 
 				arg_18_0:OperateMap(var_28_3, var_28_4)
@@ -259,7 +259,7 @@ function var_0_0.initGamingUI(arg_18_0)
 					var_28_1:SetEndEvent(nil)
 
 					local function var_30_0(arg_31_0)
-						setActive(arg_18_0:findTF("player", arg_31_0), false)
+						setActive(arg_31_0:Find("player"), false)
 					end
 
 					arg_18_0:OperateMapPlayer(var_30_0)
@@ -267,18 +267,18 @@ function var_0_0.initGamingUI(arg_18_0)
 					var_0_1.currentPlayerPosition[1] = var_28_2
 
 					local function var_30_1(arg_32_0)
-						setActive(arg_18_0:findTF("player", arg_32_0), true)
-						setActive(arg_18_0:findTF("player/arrow", arg_32_0), false)
-						setActive(arg_18_0:findTF("player/happy", arg_32_0), false)
-						setActive(arg_18_0:findTF("player/sad", arg_32_0), false)
+						setActive(arg_32_0:Find("player"), true)
+						setActive(arg_32_0:Find("player/arrow"), false)
+						setActive(arg_32_0:Find("player/happy"), false)
+						setActive(arg_32_0:Find("player/sad"), false)
 
 						if var_0_1.shieldCount > 0 then
-							setActive(arg_18_0:findTF("player/shield", arg_32_0), true)
+							setActive(arg_32_0:Find("player/shield"), true)
 						else
-							setActive(arg_18_0:findTF("player/shield", arg_32_0), false)
+							setActive(arg_32_0:Find("player/shield"), false)
 						end
 
-						arg_18_0:findTF("player", arg_32_0):GetComponent(typeof(Animator)):Play("playerUpBack")
+						arg_32_0:Find("player"):GetComponent(typeof(Animator)):Play("playerUpBack")
 					end
 
 					arg_18_0:OperateMapPlayer(var_30_1)
@@ -294,10 +294,10 @@ function var_0_0.initGamingUI(arg_18_0)
 			var_0_1.canMove = false
 
 			local function var_33_0(arg_34_0)
-				local var_34_0 = arg_18_0:findTF("player", arg_34_0):GetComponent(typeof(Animator))
-				local var_34_1 = arg_18_0:findTF("player", arg_34_0):GetComponent(typeof(DftAniEvent))
+				local var_34_0 = arg_34_0:Find("player"):GetComponent(typeof(Animator))
+				local var_34_1 = arg_34_0:Find("player"):GetComponent(typeof(DftAniEvent))
 
-				arg_18_0:findTF("player", arg_34_0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+				arg_34_0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
 				local var_34_2 = var_0_1.currentPlayerPosition[2] - 1
 
@@ -308,7 +308,7 @@ function var_0_0.initGamingUI(arg_18_0)
 				local var_34_3 = ToLoveGameConst.map[var_0_1.currentPlayerPosition[1]][var_34_2]
 
 				local function var_34_4(arg_35_0)
-					arg_18_0:findTF("player", arg_35_0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(82.5, 0)
+					arg_35_0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(82.5, 0)
 				end
 
 				arg_18_0:OperateMap(var_34_3, var_34_4)
@@ -316,7 +316,7 @@ function var_0_0.initGamingUI(arg_18_0)
 					var_34_1:SetEndEvent(nil)
 
 					local function var_36_0(arg_37_0)
-						setActive(arg_18_0:findTF("player", arg_37_0), false)
+						setActive(arg_37_0:Find("player"), false)
 					end
 
 					arg_18_0:OperateMapPlayer(var_36_0)
@@ -324,18 +324,18 @@ function var_0_0.initGamingUI(arg_18_0)
 					var_0_1.currentPlayerPosition[2] = var_34_2
 
 					local function var_36_1(arg_38_0)
-						setActive(arg_18_0:findTF("player", arg_38_0), true)
-						setActive(arg_18_0:findTF("player/arrow", arg_38_0), false)
-						setActive(arg_18_0:findTF("player/happy", arg_38_0), false)
-						setActive(arg_18_0:findTF("player/sad", arg_38_0), false)
+						setActive(arg_38_0:Find("player"), true)
+						setActive(arg_38_0:Find("player/arrow"), false)
+						setActive(arg_38_0:Find("player/happy"), false)
+						setActive(arg_38_0:Find("player/sad"), false)
 
 						if var_0_1.shieldCount > 0 then
-							setActive(arg_18_0:findTF("player/shield", arg_38_0), true)
+							setActive(arg_38_0:Find("player/shield"), true)
 						else
-							setActive(arg_18_0:findTF("player/shield", arg_38_0), false)
+							setActive(arg_38_0:Find("player/shield"), false)
 						end
 
-						arg_18_0:findTF("player", arg_38_0):GetComponent(typeof(Animator)):Play("playerRightBack")
+						arg_38_0:Find("player"):GetComponent(typeof(Animator)):Play("playerRightBack")
 					end
 
 					arg_18_0:OperateMapPlayer(var_36_1)
@@ -351,10 +351,10 @@ function var_0_0.initGamingUI(arg_18_0)
 			var_0_1.canMove = false
 
 			local function var_39_0(arg_40_0)
-				local var_40_0 = arg_18_0:findTF("player", arg_40_0):GetComponent(typeof(Animator))
-				local var_40_1 = arg_18_0:findTF("player", arg_40_0):GetComponent(typeof(DftAniEvent))
+				local var_40_0 = arg_40_0:Find("player"):GetComponent(typeof(Animator))
+				local var_40_1 = arg_40_0:Find("player"):GetComponent(typeof(DftAniEvent))
 
-				arg_18_0:findTF("player", arg_40_0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+				arg_40_0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
 				local var_40_2 = var_0_1.currentPlayerPosition[2] + 1
 
@@ -365,7 +365,7 @@ function var_0_0.initGamingUI(arg_18_0)
 				local var_40_3 = ToLoveGameConst.map[var_0_1.currentPlayerPosition[1]][var_40_2]
 
 				local function var_40_4(arg_41_0)
-					arg_18_0:findTF("player", arg_41_0):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(-82.5, 0)
+					arg_41_0:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(-82.5, 0)
 				end
 
 				arg_18_0:OperateMap(var_40_3, var_40_4)
@@ -373,7 +373,7 @@ function var_0_0.initGamingUI(arg_18_0)
 					var_40_1:SetEndEvent(nil)
 
 					local function var_42_0(arg_43_0)
-						setActive(arg_18_0:findTF("player", arg_43_0), false)
+						setActive(arg_43_0:Find("player"), false)
 					end
 
 					arg_18_0:OperateMapPlayer(var_42_0)
@@ -381,18 +381,18 @@ function var_0_0.initGamingUI(arg_18_0)
 					var_0_1.currentPlayerPosition[2] = var_40_2
 
 					local function var_42_1(arg_44_0)
-						setActive(arg_18_0:findTF("player", arg_44_0), true)
-						setActive(arg_18_0:findTF("player/arrow", arg_44_0), false)
-						setActive(arg_18_0:findTF("player/happy", arg_44_0), false)
-						setActive(arg_18_0:findTF("player/sad", arg_44_0), false)
+						setActive(arg_44_0:Find("player"), true)
+						setActive(arg_44_0:Find("player/arrow"), false)
+						setActive(arg_44_0:Find("player/happy"), false)
+						setActive(arg_44_0:Find("player/sad"), false)
 
 						if var_0_1.shieldCount > 0 then
-							setActive(arg_18_0:findTF("player/shield", arg_44_0), true)
+							setActive(arg_44_0:Find("player/shield"), true)
 						else
-							setActive(arg_18_0:findTF("player/shield", arg_44_0), false)
+							setActive(arg_44_0:Find("player/shield"), false)
 						end
 
-						arg_18_0:findTF("player", arg_44_0):GetComponent(typeof(Animator)):Play("playerLeftBack")
+						arg_44_0:Find("player"):GetComponent(typeof(Animator)):Play("playerLeftBack")
 					end
 
 					arg_18_0:OperateMapPlayer(var_42_1)
@@ -406,7 +406,7 @@ function var_0_0.initGamingUI(arg_18_0)
 end
 
 function var_0_0.initPopUI(arg_45_0)
-	arg_45_0.popUI = arg_45_0:findTF("ui/popUI")
+	arg_45_0.popUI = arg_45_0._tf:Find("ui/popUI")
 
 	arg_45_0:initCountUI()
 	arg_45_0:initSettlementUI()
@@ -418,8 +418,8 @@ function var_0_0.initPopUI(arg_45_0)
 end
 
 function var_0_0.initCountUI(arg_46_0)
-	arg_46_0.countUI = arg_46_0:findTF("countUI", arg_46_0.popUI)
-	arg_46_0.count = arg_46_0:findTF("count", arg_46_0.countUI)
+	arg_46_0.countUI = arg_46_0.popUI:Find("countUI")
+	arg_46_0.count = arg_46_0.countUI:Find("count")
 	arg_46_0.countAnimator = arg_46_0.count:GetComponent(typeof(Animator))
 	arg_46_0.countDft = arg_46_0.count:GetComponent(typeof(DftAniEvent))
 
@@ -430,15 +430,15 @@ function var_0_0.initCountUI(arg_46_0)
 end
 
 function var_0_0.initSettlementUI(arg_48_0)
-	arg_48_0.settlementUI = arg_48_0:findTF("settleMentUI", arg_48_0.popUI)
-	arg_48_0.settlementCurrentText = arg_48_0:findTF("ad/currentText", arg_48_0.settlementUI)
-	arg_48_0.settlementHighText = arg_48_0:findTF("ad/highText", arg_48_0.settlementUI)
-	arg_48_0.settlementOverBtn = arg_48_0:findTF("ad/btnOver", arg_48_0.settlementUI)
-	arg_48_0.settlementNew = arg_48_0:findTF("ad/new", arg_48_0.settlementUI)
-	arg_48_0.settlementClose = arg_48_0:findTF("ad/btnClose", arg_48_0.settlementUI)
+	arg_48_0.settlementUI = arg_48_0.popUI:Find("settleMentUI")
+	arg_48_0.settlementCurrentText = arg_48_0.settlementUI:Find("ad/currentText")
+	arg_48_0.settlementHighText = arg_48_0.settlementUI:Find("ad/highText")
+	arg_48_0.settlementOverBtn = arg_48_0.settlementUI:Find("ad/btnOver")
+	arg_48_0.settlementNew = arg_48_0.settlementUI:Find("ad/new")
+	arg_48_0.settlementClose = arg_48_0.settlementUI:Find("ad/btnClose")
 
-	arg_48_0:findTF("ad/CurImg", arg_48_0.settlementUI):GetComponent(typeof(Image)):SetNativeSize()
-	arg_48_0:findTF("ad/HighImg", arg_48_0.settlementUI):GetComponent(typeof(Image)):SetNativeSize()
+	arg_48_0.settlementUI:Find("ad/CurImg"):GetComponent(typeof(Image)):SetNativeSize()
+	arg_48_0.settlementUI:Find("ad/HighImg"):GetComponent(typeof(Image)):SetNativeSize()
 	setActive(arg_48_0.settlementUI, false)
 	onButton(arg_48_0, arg_48_0.settlementOverBtn, function()
 		if not arg_48_0.sendSuccessFlag then
@@ -461,13 +461,13 @@ function var_0_0.initSettlementUI(arg_48_0)
 end
 
 function var_0_0.initLeavelUI(arg_51_0)
-	arg_51_0.leaveUI = arg_51_0:findTF("leaveUI", arg_51_0.popUI)
-	arg_51_0.leaveOkBtn = arg_51_0:findTF("ad/btnOk", arg_51_0.leaveUI)
-	arg_51_0.leaveCancelBtn = arg_51_0:findTF("ad/btnCancel", arg_51_0.leaveUI)
-	arg_51_0.leaveClose = arg_51_0:findTF("ad/btnClose", arg_51_0.leaveUI)
+	arg_51_0.leaveUI = arg_51_0.popUI:Find("leaveUI")
+	arg_51_0.leaveOkBtn = arg_51_0.leaveUI:Find("ad/btnOk")
+	arg_51_0.leaveCancelBtn = arg_51_0.leaveUI:Find("ad/btnCancel")
+	arg_51_0.leaveClose = arg_51_0.leaveUI:Find("ad/btnClose")
 
-	arg_51_0:findTF("ad/desc", arg_51_0.leaveUI):GetComponent(typeof(Image)):SetNativeSize()
-	arg_51_0:findTF("ad/desc2", arg_51_0.leaveUI):GetComponent(typeof(Image)):SetNativeSize()
+	arg_51_0.leaveUI:Find("ad/desc"):GetComponent(typeof(Image)):SetNativeSize()
+	arg_51_0.leaveUI:Find("ad/desc2"):GetComponent(typeof(Image)):SetNativeSize()
 	setActive(arg_51_0.leaveUI, false)
 	onButton(arg_51_0, arg_51_0.leaveOkBtn, function()
 		setActive(arg_51_0.leaveUI, false)
@@ -492,11 +492,11 @@ function var_0_0.initLeavelUI(arg_51_0)
 end
 
 function var_0_0.initPauseUI(arg_55_0)
-	arg_55_0.pauseUI = arg_55_0:findTF("pauseUI", arg_55_0.popUI)
-	arg_55_0.pauseOkBtn = arg_55_0:findTF("ad/btnOk", arg_55_0.pauseUI)
-	arg_55_0.pauseClose = arg_55_0:findTF("ad/btnClose", arg_55_0.pauseUI)
+	arg_55_0.pauseUI = arg_55_0.popUI:Find("pauseUI")
+	arg_55_0.pauseOkBtn = arg_55_0.pauseUI:Find("ad/btnOk")
+	arg_55_0.pauseClose = arg_55_0.pauseUI:Find("ad/btnClose")
 
-	arg_55_0:findTF("ad/desc", arg_55_0.pauseUI):GetComponent(typeof(Image)):SetNativeSize()
+	arg_55_0.pauseUI:Find("ad/desc"):GetComponent(typeof(Image)):SetNativeSize()
 	setActive(arg_55_0.pauseUI, false)
 	onButton(arg_55_0, arg_55_0.pauseOkBtn, function()
 		setActive(arg_55_0.pauseUI, false)
@@ -516,15 +516,15 @@ function var_0_0.initPauseUI(arg_55_0)
 end
 
 function var_0_0.initRankUI(arg_58_0)
-	arg_58_0.rankUI = arg_58_0:findTF("rankUI", arg_58_0.popUI)
-	arg_58_0.rankCloseBtn = arg_58_0:findTF("ad/btnClose", arg_58_0.rankUI)
-	arg_58_0.rankPlayerList = UIItemList.New(arg_58_0:findTF("ad/Scroll View/Viewport/Content", arg_58_0.rankUI), arg_58_0:findTF("ad/Scroll View/Viewport/Content/playerTpl", arg_58_0.rankUI))
-	arg_58_0.rankMyself = arg_58_0:findTF("ad/myself", arg_58_0.rankUI)
-	arg_58_0.rankDesc = arg_58_0:findTF("ad/desc", arg_58_0.rankUI)
+	arg_58_0.rankUI = arg_58_0.popUI:Find("rankUI")
+	arg_58_0.rankCloseBtn = arg_58_0.rankUI:Find("ad/btnClose")
+	arg_58_0.rankPlayerList = UIItemList.New(arg_58_0.rankUI:Find("ad/Scroll View/Viewport/Content"), arg_58_0.rankUI:Find("ad/Scroll View/Viewport/Content/playerTpl"))
+	arg_58_0.rankMyself = arg_58_0.rankUI:Find("ad/myself")
+	arg_58_0.rankDesc = arg_58_0.rankUI:Find("ad/desc")
 
-	setText(arg_58_0:findTF("ad/score", arg_58_0.rankUI), i18n("tolovegame_score"))
-	setText(arg_58_0:findTF("ad/desc", arg_58_0.rankUI), i18n("tolovegame_rank_tip"))
-	arg_58_0:findTF("ad/bg/titleBg/title", arg_58_0.rankUI):GetComponent(typeof(Image)):SetNativeSize()
+	setText(arg_58_0.rankUI:Find("ad/score"), i18n("tolovegame_score"))
+	setText(arg_58_0.rankUI:Find("ad/desc"), i18n("tolovegame_rank_tip"))
+	arg_58_0.rankUI:Find("ad/bg/titleBg/title"):GetComponent(typeof(Image)):SetNativeSize()
 	setActive(arg_58_0.rankUI, false)
 	onButton(arg_58_0, arg_58_0.rankCloseBtn, function()
 		setActive(arg_58_0.rankUI, false)
@@ -533,11 +533,11 @@ function var_0_0.initRankUI(arg_58_0)
 end
 
 function var_0_0.initBuffUI(arg_60_0)
-	arg_60_0.buffUI = arg_60_0:findTF("buffUI", arg_60_0.popUI)
-	arg_60_0.buffCloseBtn = arg_60_0:findTF("ad/btnClose", arg_60_0.buffUI)
-	arg_60_0.buffList = UIItemList.New(arg_60_0:findTF("ad/Scroll View/Viewport/Content", arg_60_0.buffUI), arg_60_0:findTF("ad/Scroll View/Viewport/Content/buff", arg_60_0.buffUI))
+	arg_60_0.buffUI = arg_60_0.popUI:Find("buffUI")
+	arg_60_0.buffCloseBtn = arg_60_0.buffUI:Find("ad/btnClose")
+	arg_60_0.buffList = UIItemList.New(arg_60_0.buffUI:Find("ad/Scroll View/Viewport/Content"), arg_60_0.buffUI:Find("ad/Scroll View/Viewport/Content/buff"))
 
-	arg_60_0:findTF("ad/bg/titleBg/title", arg_60_0.buffUI):GetComponent(typeof(Image)):SetNativeSize()
+	arg_60_0.buffUI:Find("ad/bg/titleBg/title"):GetComponent(typeof(Image)):SetNativeSize()
 	setActive(arg_60_0.buffUI, false)
 	onButton(arg_60_0, arg_60_0.buffCloseBtn, function()
 		setActive(arg_60_0.buffUI, false)
@@ -546,11 +546,11 @@ function var_0_0.initBuffUI(arg_60_0)
 end
 
 function var_0_0.initTaskUI(arg_62_0)
-	arg_62_0.taskUI = arg_62_0:findTF("taskUI", arg_62_0.popUI)
-	arg_62_0.taskCloseBtn = arg_62_0:findTF("ad/btnClose", arg_62_0.taskUI)
-	arg_62_0.taskTasklist = UIItemList.New(arg_62_0:findTF("ad/Scroll View/Viewport/Content", arg_62_0.taskUI), arg_62_0:findTF("ad/Scroll View/Viewport/Content/Tasktpl", arg_62_0.taskUI))
+	arg_62_0.taskUI = arg_62_0.popUI:Find("taskUI")
+	arg_62_0.taskCloseBtn = arg_62_0.taskUI:Find("ad/btnClose")
+	arg_62_0.taskTasklist = UIItemList.New(arg_62_0.taskUI:Find("ad/Scroll View/Viewport/Content"), arg_62_0.taskUI:Find("ad/Scroll View/Viewport/Content/Tasktpl"))
 
-	arg_62_0:findTF("ad/bg/titleBg/title", arg_62_0.taskUI):GetComponent(typeof(Image)):SetNativeSize()
+	arg_62_0.taskUI:Find("ad/bg/titleBg/title"):GetComponent(typeof(Image)):SetNativeSize()
 	setActive(arg_62_0.taskUI, false)
 	onButton(arg_62_0, arg_62_0.taskCloseBtn, function()
 		setActive(arg_62_0.taskUI, false)
@@ -634,8 +634,8 @@ function var_0_0.ShowArrowAndPlayerMove(arg_67_0)
 			var_0_1.gameArrowTime = var_0_1.gameArrowTime - var_0_1.doTime
 
 			local function var_67_0(arg_68_0)
-				setActive(arg_67_0:findTF("player/arrow", arg_68_0), true)
-				arg_67_0:ShowArraw(arg_67_0:findTF("player/arrow", arg_68_0), var_0_1.arrowList[var_0_1.nowArrowIndex])
+				setActive(arg_68_0:Find("player/arrow"), true)
+				arg_67_0:ShowArraw(arg_68_0:Find("player/arrow"), var_0_1.arrowList[var_0_1.nowArrowIndex])
 
 				var_0_1.nowArrowIndex = var_0_1.nowArrowIndex + 1
 			end
@@ -649,7 +649,7 @@ function var_0_0.ShowArrowAndPlayerMove(arg_67_0)
 			setActive(arg_67_0.gamingOperationArea, true)
 
 			local function var_67_1(arg_69_0)
-				setActive(arg_67_0:findTF("player/arrow", arg_69_0), false)
+				setActive(arg_69_0:Find("player/arrow"), false)
 			end
 
 			arg_67_0:OperateMapPlayer(var_67_1)
@@ -669,25 +669,25 @@ function var_0_0.ShowArraw(arg_70_0, arg_70_1, arg_70_2)
 	arg_70_1:GetComponent(typeof(Animation)):Play("arrowUp")
 
 	if arg_70_2 == ToLoveGameConst.arrowUp then
-		setActive(arg_70_0:findTF("up", arg_70_1), true)
-		setActive(arg_70_0:findTF("down", arg_70_1), false)
-		setActive(arg_70_0:findTF("left", arg_70_1), false)
-		setActive(arg_70_0:findTF("right", arg_70_1), false)
+		setActive(arg_70_1:Find("up"), true)
+		setActive(arg_70_1:Find("down"), false)
+		setActive(arg_70_1:Find("left"), false)
+		setActive(arg_70_1:Find("right"), false)
 	elseif arg_70_2 == ToLoveGameConst.arrowDown then
-		setActive(arg_70_0:findTF("up", arg_70_1), false)
-		setActive(arg_70_0:findTF("down", arg_70_1), true)
-		setActive(arg_70_0:findTF("left", arg_70_1), false)
-		setActive(arg_70_0:findTF("right", arg_70_1), false)
+		setActive(arg_70_1:Find("up"), false)
+		setActive(arg_70_1:Find("down"), true)
+		setActive(arg_70_1:Find("left"), false)
+		setActive(arg_70_1:Find("right"), false)
 	elseif arg_70_2 == ToLoveGameConst.arrowLeft then
-		setActive(arg_70_0:findTF("up", arg_70_1), false)
-		setActive(arg_70_0:findTF("down", arg_70_1), false)
-		setActive(arg_70_0:findTF("left", arg_70_1), true)
-		setActive(arg_70_0:findTF("right", arg_70_1), false)
+		setActive(arg_70_1:Find("up"), false)
+		setActive(arg_70_1:Find("down"), false)
+		setActive(arg_70_1:Find("left"), true)
+		setActive(arg_70_1:Find("right"), false)
 	elseif arg_70_2 == ToLoveGameConst.arrowRight then
-		setActive(arg_70_0:findTF("up", arg_70_1), false)
-		setActive(arg_70_0:findTF("down", arg_70_1), false)
-		setActive(arg_70_0:findTF("left", arg_70_1), false)
-		setActive(arg_70_0:findTF("right", arg_70_1), true)
+		setActive(arg_70_1:Find("up"), false)
+		setActive(arg_70_1:Find("down"), false)
+		setActive(arg_70_1:Find("left"), false)
+		setActive(arg_70_1:Find("right"), true)
 	end
 
 	if var_0_1.arrowVideoCount > 0 then
@@ -706,9 +706,9 @@ function var_0_0.BombBlast(arg_71_0)
 		arg_71_0.isOk = true
 
 		local function var_71_0(arg_72_0)
-			setActive(arg_71_0:findTF("bomb", arg_72_0), true)
+			setActive(arg_72_0:Find("bomb"), true)
 
-			if isActive(arg_71_0:findTF("player", arg_72_0)) then
+			if isActive(arg_72_0:Find("player")) then
 				arg_71_0.isOk = false
 			end
 		end
@@ -730,7 +730,7 @@ function var_0_0.BombBlast(arg_71_0)
 						var_0_1.shieldCount = var_0_1.shieldCount + 1
 
 						local function var_71_1(arg_73_0)
-							setActive(arg_71_0:findTF("player/shield", arg_73_0), true)
+							setActive(arg_73_0:Find("player/shield"), true)
 						end
 
 						arg_71_0:OperateMapPlayer(var_71_1)
@@ -739,7 +739,7 @@ function var_0_0.BombBlast(arg_71_0)
 			end
 
 			local function var_71_2(arg_74_0)
-				setActive(arg_71_0:findTF("player/happy", arg_74_0), true)
+				setActive(arg_74_0:Find("player/happy"), true)
 			end
 
 			arg_71_0:OperateMapPlayer(var_71_2)
@@ -750,9 +750,9 @@ function var_0_0.BombBlast(arg_71_0)
 
 				local function var_71_3(arg_75_0)
 					if var_0_1.shieldCount > 0 then
-						setActive(arg_71_0:findTF("player/shield", arg_75_0), true)
+						setActive(arg_75_0:Find("player/shield"), true)
 					else
-						setActive(arg_71_0:findTF("player/shield", arg_75_0), false)
+						setActive(arg_75_0:Find("player/shield"), false)
 					end
 				end
 
@@ -762,7 +762,7 @@ function var_0_0.BombBlast(arg_71_0)
 			end
 
 			local function var_71_4(arg_76_0)
-				setActive(arg_71_0:findTF("player/sad", arg_76_0), true)
+				setActive(arg_76_0:Find("player/sad"), true)
 			end
 
 			arg_71_0:OperateMapPlayer(var_71_4)
@@ -776,7 +776,7 @@ function var_0_0.BombBlast(arg_71_0)
 		var_0_1.gameBombBlastTime = 0
 
 		local function var_71_5(arg_77_0)
-			setActive(arg_71_0:findTF("bomb", arg_77_0), false)
+			setActive(arg_77_0:Find("bomb"), false)
 		end
 
 		arg_71_0:OperateMapOthers(var_71_5, var_0_1.safeCellPosition)
@@ -794,7 +794,7 @@ function var_0_0.readyStart(arg_78_0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(var_0_1.SFX_COUNT_DOWN)
 
 	local function var_78_0(arg_79_0)
-		setActive(arg_78_0:findTF("bomb", arg_79_0), false)
+		setActive(arg_79_0:Find("bomb"), false)
 	end
 
 	arg_78_0:OperateMapAll(var_78_0)
@@ -823,22 +823,22 @@ function var_0_0.ResetMapAndPlayer(arg_81_0)
 	for iter_81_0 = 0, arg_81_0.gamingMap.childCount - 1 do
 		local var_81_1 = arg_81_0.gamingMap:GetChild(iter_81_0)
 
-		setActive(arg_81_0:findTF("player/happy", var_81_1), false)
-		setActive(arg_81_0:findTF("player/sad", var_81_1), false)
+		setActive(var_81_1:Find("player/happy"), false)
+		setActive(var_81_1:Find("player/sad"), false)
 
-		arg_81_0:findTF("player", var_81_1):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
+		var_81_1:Find("player"):GetComponent(typeof(RectTransform)).anchoredPosition = Vector2(0, 0)
 
 		if iter_81_0 == var_81_0 then
-			setActive(arg_81_0:findTF("player", var_81_1), true)
-			setActive(arg_81_0:findTF("player/arrow", var_81_1), false)
+			setActive(var_81_1:Find("player"), true)
+			setActive(var_81_1:Find("player/arrow"), false)
 
 			if var_0_1.shieldCount > 0 then
-				setActive(arg_81_0:findTF("player/shield", var_81_1), true)
+				setActive(var_81_1:Find("player/shield"), true)
 			else
-				setActive(arg_81_0:findTF("player/shield", var_81_1), false)
+				setActive(var_81_1:Find("player/shield"), false)
 			end
 		else
-			setActive(arg_81_0:findTF("player", var_81_1), false)
+			setActive(var_81_1:Find("player"), false)
 		end
 	end
 end
@@ -1063,10 +1063,10 @@ function var_0_0.SetRankUI(arg_97_0, arg_97_1)
 		setActive(arg_98_2:Find("imgMe"), var_98_1)
 	end)
 	arg_97_0.rankPlayerList:align(#arg_97_1)
-	setText(arg_97_0:findTF("nameText", arg_97_0.rankMyself), getProxy(PlayerProxy).data:GetName())
+	setText(arg_97_0.rankMyself:Find("nameText"), getProxy(PlayerProxy).data:GetName())
 
 	if var_97_0 then
-		setText(arg_97_0:findTF("rank/count", arg_97_0.rankMyself), var_97_1)
+		setText(arg_97_0.rankMyself:Find("rank/count"), var_97_1)
 
 		if var_97_1 == 1 then
 			arg_97_0:SetRankColor(arg_97_0.rankMyself, "ea69fd", var_97_0.name, var_97_0.score)
@@ -1078,12 +1078,12 @@ function var_0_0.SetRankUI(arg_97_0, arg_97_1)
 			arg_97_0:SetRankColor(arg_97_0.rankMyself, "83919c", var_97_0.name, var_97_0.score)
 		end
 
-		setActive(arg_97_0:findTF("1", arg_97_0.rankMyself), var_97_1 == 1)
-		setActive(arg_97_0:findTF("2", arg_97_0.rankMyself), var_97_1 == 2)
-		setActive(arg_97_0:findTF("3", arg_97_0.rankMyself), var_97_1 == 3)
-		setActive(arg_97_0:findTF("rank/1", arg_97_0.rankMyself), var_97_1 == 1)
-		setActive(arg_97_0:findTF("rank/2", arg_97_0.rankMyself), var_97_1 == 2)
-		setActive(arg_97_0:findTF("rank/3", arg_97_0.rankMyself), var_97_1 == 3)
+		setActive(arg_97_0.rankMyself:Find("1"), var_97_1 == 1)
+		setActive(arg_97_0.rankMyself:Find("2"), var_97_1 == 2)
+		setActive(arg_97_0.rankMyself:Find("3"), var_97_1 == 3)
+		setActive(arg_97_0.rankMyself:Find("rank/1"), var_97_1 == 1)
+		setActive(arg_97_0.rankMyself:Find("rank/2"), var_97_1 == 2)
+		setActive(arg_97_0.rankMyself:Find("rank/3"), var_97_1 == 3)
 	end
 end
 

@@ -15,20 +15,20 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.bgColor = arg_2_0.bg:Find("color")
 	arg_2_0.closeBtn = arg_2_0._tf:Find("adapt/top/closeBtn")
 	arg_2_0.helpBtn = arg_2_0._tf:Find("adapt/top/helpBtn")
-	arg_2_0.title = arg_2_0:findTF("adapt/top/title")
-	arg_2_0.resourceList = UIItemList.New(arg_2_0:findTF("adapt/top/resources"), arg_2_0:findTF("adapt/top/resources/resourceTpl"))
-	arg_2_0.shop1List = UIItemList.New(arg_2_0:findTF("adapt/shop1List"), arg_2_0:findTF("adapt/shop1List/shop1Tpl"))
-	arg_2_0.shop3 = arg_2_0:findTF("adapt/shop3List")
-	arg_2_0.shop3List = UIItemList.New(arg_2_0:findTF("adapt/shop3List"), arg_2_0:findTF("adapt/shop3List/shop3Tpl"))
-	arg_2_0.shop32 = arg_2_0:findTF("adapt/shop3List2")
-	arg_2_0.shop3List2 = UIItemList.New(arg_2_0:findTF("adapt/shop3List2"), arg_2_0:findTF("adapt/shop3List2/shop3Tpl"))
-	arg_2_0.recommendationPage = arg_2_0:findTF("adapt/shopPage/recommendation")
-	arg_2_0.shop2DPage = arg_2_0:findTF("adapt/shopPage/shop2D")
-	arg_2_0.shop3DPage = arg_2_0:findTF("adapt/shopPage/shop3D")
-	arg_2_0.shopFurniturePage = arg_2_0:findTF("adapt/shopPage/shopFurniture")
-	arg_2_0.shopSkinPage = arg_2_0:findTF("adapt/shopPage/shopSkin")
+	arg_2_0.title = arg_2_0._tf:Find("adapt/top/title")
+	arg_2_0.resourceList = UIItemList.New(arg_2_0._tf:Find("adapt/top/resources"), arg_2_0._tf:Find("adapt/top/resources/resourceTpl"))
+	arg_2_0.shop1List = UIItemList.New(arg_2_0._tf:Find("adapt/shop1List"), arg_2_0._tf:Find("adapt/shop1List/shop1Tpl"))
+	arg_2_0.shop3 = arg_2_0._tf:Find("adapt/shop3List")
+	arg_2_0.shop3List = UIItemList.New(arg_2_0._tf:Find("adapt/shop3List"), arg_2_0._tf:Find("adapt/shop3List/shop3Tpl"))
+	arg_2_0.shop32 = arg_2_0._tf:Find("adapt/shop3List2")
+	arg_2_0.shop3List2 = UIItemList.New(arg_2_0._tf:Find("adapt/shop3List2"), arg_2_0._tf:Find("adapt/shop3List2/shop3Tpl"))
+	arg_2_0.recommendationPage = arg_2_0._tf:Find("adapt/shopPage/recommendation")
+	arg_2_0.shop2DPage = arg_2_0._tf:Find("adapt/shopPage/shop2D")
+	arg_2_0.shop3DPage = arg_2_0._tf:Find("adapt/shopPage/shop3D")
+	arg_2_0.shopFurniturePage = arg_2_0._tf:Find("adapt/shopPage/shopFurniture")
+	arg_2_0.shopSkinPage = arg_2_0._tf:Find("adapt/shopPage/shopSkin")
 	arg_2_0.changeCharaPanel = arg_2_0.shopSkinPage:Find("changeCharaPanel/panel")
-	arg_2_0.subPageContainer = arg_2_0:findTF("adapt/subPageContainer")
+	arg_2_0.subPageContainer = arg_2_0._tf:Find("adapt/subPageContainer")
 	arg_2_0.drawAwardPage = IslandShopDrawAwardPage.New(arg_2_0.subPageContainer, arg_2_0)
 
 	setText(arg_2_0.shopSkinPage:Find("changeCharaPanel/panel/title"), i18n("island_3Dshop_chara_choose"))
@@ -58,7 +58,6 @@ function var_0_0.InitData(arg_6_0)
 	arg_6_0.ships = arg_6_0.characterAgency:GetShips()
 	arg_6_0.defaultShipId = PlayerPrefs.GetInt("island_dressShop_defaultShipId_" .. arg_6_0.player.id, 10703)
 	arg_6_0.islandShipDressHelper = IslandShipDressHelperNew.New()
-	arg_6_0.drawAwardActivity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD)
 end
 
 function var_0_0.DoUpdateShops(arg_7_0)
@@ -347,8 +346,8 @@ end
 function var_0_0.SetShopPage(arg_20_0)
 	local var_20_0 = arg_20_0.showingShop:GetShowType()
 
-	setText(arg_20_0:findTF("Text", arg_20_0.title), arg_20_0.showingShop:GetShopIcon()[1])
-	setText(arg_20_0:findTF("Text/en", arg_20_0.title), arg_20_0.showingShop:GetShopIcon()[2])
+	setText(arg_20_0.title:Find("Text"), arg_20_0.showingShop:GetShopIcon()[1])
+	setText(arg_20_0.title:Find("Text/en"), arg_20_0.showingShop:GetShopIcon()[2])
 	arg_20_0:SetResources()
 	setActive(arg_20_0.recommendationPage, var_20_0 == IslandConst.SHOP_TYPE_RECOMMENDATION)
 	setActive(arg_20_0.shop2DPage, var_20_0 == IslandConst.SHOP_TYPE_2D)
@@ -498,10 +497,10 @@ function var_0_0.SetCloseAndRefresh(arg_31_0, arg_31_1)
 	local var_31_3 = arg_31_0.showingShop.refreshTime
 	local var_31_4 = arg_31_0.showingShop:GetPlayerRefreshResource()
 
-	setActive(arg_31_0:findTF("remainAndRefresh/remainTimer", arg_31_1), var_31_0 ~= 0)
-	setActive(arg_31_0:findTF("remainAndRefresh/refresh", arg_31_1), var_31_3 ~= 0)
-	setActive(arg_31_0:findTF("remainAndRefresh/refresh/refreshBtn", arg_31_1), var_31_4)
-	setActive(arg_31_0:findTF("remainAndRefresh", arg_31_1), isActive(arg_31_0:findTF("remainAndRefresh/remainTimer", arg_31_1)) or isActive(arg_31_0:findTF("remainAndRefresh/refresh", arg_31_1)))
+	setActive(arg_31_1:Find("remainAndRefresh/remainTimer"), var_31_0 ~= 0)
+	setActive(arg_31_1:Find("remainAndRefresh/refresh"), var_31_3 ~= 0)
+	setActive(arg_31_1:Find("remainAndRefresh/refresh/refreshBtn"), var_31_4)
+	setActive(arg_31_1:Find("remainAndRefresh"), isActive(arg_31_1:Find("remainAndRefresh/remainTimer")) or isActive(arg_31_1:Find("remainAndRefresh/refresh")))
 
 	local var_31_5 = pg.TimeMgr.GetInstance():GetTimeToNextTime()
 
@@ -517,7 +516,7 @@ function var_0_0.SetCloseAndRefresh(arg_31_0, arg_31_1)
 		if var_31_0 ~= 0 then
 			local var_32_1 = pg.TimeMgr.GetInstance():DescCDTime(var_31_0 - var_32_0)
 
-			setText(arg_31_0:findTF("remainAndRefresh/remainTimer", arg_31_1), i18n("island_3Dshop_time_close", var_32_1))
+			setText(arg_31_1:Find("remainAndRefresh/remainTimer"), i18n("island_3Dshop_time_close", var_32_1))
 		elseif normalShopExistTime and type(normalShopExistTime) == "table" then
 			-- block empty
 		end
@@ -525,7 +524,7 @@ function var_0_0.SetCloseAndRefresh(arg_31_0, arg_31_1)
 		if var_31_3 ~= 0 then
 			local var_32_2 = pg.TimeMgr.GetInstance():DescCDTime(var_31_3 - var_32_0)
 
-			setText(arg_31_0:findTF("remainAndRefresh/refresh/refreshTimer", arg_31_1), i18n("island_3Dshop_time_refresh", var_32_2))
+			setText(arg_31_1:Find("remainAndRefresh/refresh/refreshTimer"), i18n("island_3Dshop_time_refresh", var_32_2))
 
 			if var_32_0 > var_31_3 then
 				arg_31_0:DoUpdateShowingShop()
@@ -540,7 +539,7 @@ function var_0_0.SetCloseAndRefresh(arg_31_0, arg_31_1)
 	arg_31_0.timer:Start()
 
 	if var_31_4 then
-		onButton(arg_31_0, arg_31_0:findTF("remainAndRefresh/refresh/refreshBtn/button", arg_31_1), function()
+		onButton(arg_31_0, arg_31_1:Find("remainAndRefresh/refresh/refreshBtn/button"), function()
 			local var_33_0 = arg_31_0.showingShop.refreshCount
 
 			if var_33_0 < arg_31_0.showingShop:GetMaxRefreshCount() then
@@ -803,16 +802,16 @@ function var_0_0.SetCommodityList(arg_48_0)
 	local var_48_0 = arg_48_0.showingShop:GetShowType()
 	local var_48_1 = switch(var_48_0, {
 		[IslandConst.SHOP_TYPE_2D] = function()
-			return UIItemList.New(arg_48_0:findTF("shopView/Viewport/Content", arg_48_0.shop2DPage), arg_48_0:findTF("shopView/Viewport/Content/IslandCommodityTpl", arg_48_0.shop2DPage))
+			return UIItemList.New(arg_48_0.shop2DPage:Find("shopView/Viewport/Content"), arg_48_0.shop2DPage:Find("shopView/Viewport/Content/IslandCommodityTpl"))
 		end,
 		[IslandConst.SHOP_TYPE_3D] = function()
-			return UIItemList.New(arg_48_0:findTF("shopView/Viewport/Content", arg_48_0.shop3DPage), arg_48_0:findTF("shopView/Viewport/Content/IslandCommodityTpl", arg_48_0.shop3DPage))
+			return UIItemList.New(arg_48_0.shop3DPage:Find("shopView/Viewport/Content"), arg_48_0.shop3DPage:Find("shopView/Viewport/Content/IslandCommodityTpl"))
 		end,
 		[IslandConst.SHOP_TYPE_FURNITURE] = function()
-			return UIItemList.New(arg_48_0:findTF("shopView/Viewport/Content", arg_48_0.shopFurniturePage), arg_48_0:findTF("shopView/Viewport/Content/IslandCommodityTpl", arg_48_0.shopFurniturePage))
+			return UIItemList.New(arg_48_0.shopFurniturePage:Find("shopView/Viewport/Content"), arg_48_0.shopFurniturePage:Find("shopView/Viewport/Content/IslandCommodityTpl"))
 		end,
 		[IslandConst.SHOP_TYPE_SKIN] = function()
-			return UIItemList.New(arg_48_0:findTF("shopView/Viewport/Content", arg_48_0.shopSkinPage), arg_48_0:findTF("shopView/Viewport/Content/IslandCommodityTpl", arg_48_0.shopSkinPage))
+			return UIItemList.New(arg_48_0.shopSkinPage:Find("shopView/Viewport/Content"), arg_48_0.shopSkinPage:Find("shopView/Viewport/Content/IslandCommodityTpl"))
 		end
 	})
 	local var_48_2 = arg_48_0.showingShop:GetCommodities()
@@ -840,7 +839,7 @@ function var_0_0.ShowRecommendation(arg_54_0)
 	arg_54_0.shoppingCartCommodities = {}
 
 	local var_54_0 = arg_54_0.showingShop:GetBanners()
-	local var_54_1 = arg_54_0:findTF("banners", arg_54_0.recommendationPage)
+	local var_54_1 = arg_54_0.recommendationPage:Find("banners")
 
 	for iter_54_0 = 1, #var_54_0 do
 		local var_54_2 = var_54_0[iter_54_0]
@@ -877,12 +876,12 @@ function var_0_0.ShowShop2D(arg_56_0)
 
 	local var_56_0 = arg_56_0.showingShop:IsInTime()
 
-	setActive(arg_56_0:findTF("lock", arg_56_0.shop2DPage), not var_56_0)
+	setActive(arg_56_0.shop2DPage:Find("lock"), not var_56_0)
 
 	if var_56_0 then
 		arg_56_0:SetCloseAndRefresh(arg_56_0.shop2DPage)
 	else
-		setActive(arg_56_0:findTF("remainAndRefresh", arg_56_0.shop2DPage), false)
+		setActive(arg_56_0.shop2DPage:Find("remainAndRefresh"), false)
 
 		if arg_56_0.timer then
 			arg_56_0.timer:Stop()
@@ -1297,6 +1296,7 @@ function var_0_0.OnShow(arg_86_0, arg_86_1, arg_86_2, arg_86_3)
 	arg_86_0.showTypes = arg_86_1
 	arg_86_0.firstShopIds = arg_86_2
 	arg_86_0.showDrawAward = arg_86_3 == 1
+	arg_86_0.drawAwardActivity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND_DRAW_AWARD)
 
 	arg_86_0:DoUpdateShops()
 	arg_86_0:UpdateData()

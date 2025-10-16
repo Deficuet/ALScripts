@@ -8,27 +8,27 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.getAllBtn = arg_2_0:findTF("main/getall")
+	arg_2_0.getAllBtn = arg_2_0._tf:Find("main/getall")
 	arg_2_0.getAllTip = arg_2_0.getAllBtn:Find("tip")
-	arg_2_0.levelTxt = arg_2_0:findTF("main/level/Text"):GetComponent(typeof(Text))
-	arg_2_0.progressTxt = arg_2_0:findTF("main/level/value/Text"):GetComponent(typeof(Text))
-	arg_2_0.progress = arg_2_0:findTF("main/level/progress/bar")
-	arg_2_0.lastAwardItem = arg_2_0:findTF("main/level/item")
+	arg_2_0.levelTxt = arg_2_0._tf:Find("main/level/Text"):GetComponent(typeof(Text))
+	arg_2_0.progressTxt = arg_2_0._tf:Find("main/level/value/Text"):GetComponent(typeof(Text))
+	arg_2_0.progress = arg_2_0._tf:Find("main/level/progress/bar")
+	arg_2_0.lastAwardItem = arg_2_0._tf:Find("main/level/item")
 	arg_2_0.lastAwardLvTxt = arg_2_0.lastAwardItem:Find("lock/Text"):GetComponent(typeof(Text))
 
 	setText(arg_2_0.lastAwardItem:Find("get"), i18n("feast_task_pt_get"))
 	setText(arg_2_0.lastAwardItem:Find("got"), i18n("feast_task_pt_got"))
-	setText(arg_2_0:findTF("main/tip"), i18n("feast_click_to_close"))
-	setText(arg_2_0:findTF("main/level/value/label"), i18n("feast_task_pt_label"))
+	setText(arg_2_0._tf:Find("main/tip"), i18n("feast_click_to_close"))
+	setText(arg_2_0._tf:Find("main/level/value/label"), i18n("feast_task_pt_label"))
 
-	arg_2_0.taskTip = arg_2_0:findTF("main/toggles/task/tip")
+	arg_2_0.taskTip = arg_2_0._tf:Find("main/toggles/task/tip")
 	arg_2_0.toggles = {
-		arg_2_0:findTF("main/toggles/pt"),
-		arg_2_0:findTF("main/toggles/task")
+		arg_2_0._tf:Find("main/toggles/pt"),
+		arg_2_0._tf:Find("main/toggles/task")
 	}
 	arg_2_0.scrollRects = {
-		arg_2_0:findTF("main/pt/scrollrect"):GetComponent("LScrollRect"),
-		arg_2_0:findTF("main/task/scrollrect"):GetComponent("LScrollRect")
+		arg_2_0._tf:Find("main/pt/scrollrect"):GetComponent("LScrollRect"),
+		arg_2_0._tf:Find("main/task/scrollrect"):GetComponent("LScrollRect")
 	}
 	arg_2_0.cardCls = {
 		FeastPtCard,

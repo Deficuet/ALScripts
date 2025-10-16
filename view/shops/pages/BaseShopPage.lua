@@ -11,16 +11,16 @@ end
 
 function var_0_0.init(arg_2_0)
 	arg_2_0.canvasGroup = arg_2_0._go:GetComponent(typeof(CanvasGroup))
-	arg_2_0.lScrollrect = GetComponent(arg_2_0:findTF("scroll"), "LScrollRect")
-	arg_2_0.scrollbar = arg_2_0:findTF("scroll/Scrollbar")
-	arg_2_0.tipTextGo = arg_2_0:findTF("bg/tipBg")
-	arg_2_0.tipText = arg_2_0:findTF("bg/tipBg/tipText"):GetComponent(typeof(Text))
-	arg_2_0.helpBtn = arg_2_0:findTF("bg/resList/helpBtn")
-	arg_2_0.refreshBtn = arg_2_0:findTF("timeBtn")
-	arg_2_0.timerText = arg_2_0:findTF("timeBtn/Text"):GetComponent(typeof(Text))
-	arg_2_0.resolveBtn = arg_2_0:findTF("resolveBtn")
+	arg_2_0.lScrollrect = GetComponent(arg_2_0._tf:Find("scroll"), "LScrollRect")
+	arg_2_0.scrollbar = arg_2_0._tf:Find("scroll/Scrollbar")
+	arg_2_0.tipTextGo = arg_2_0._tf:Find("bg/tipBg")
+	arg_2_0.tipText = arg_2_0._tf:Find("bg/tipBg/tipText"):GetComponent(typeof(Text))
+	arg_2_0.helpBtn = arg_2_0._tf:Find("bg/resList/helpBtn")
+	arg_2_0.refreshBtn = arg_2_0._tf:Find("timeBtn")
+	arg_2_0.timerText = arg_2_0._tf:Find("timeBtn/Text"):GetComponent(typeof(Text))
+	arg_2_0.resolveBtn = arg_2_0._tf:Find("resolveBtn")
 
-	setText(arg_2_0:findTF("resolveBtn/Text"), i18n("shop_fragment_resolve"))
+	setText(arg_2_0._tf:Find("resolveBtn/Text"), i18n("shop_fragment_resolve"))
 end
 
 function var_0_0.CustomInit(arg_3_0)

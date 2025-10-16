@@ -5,11 +5,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.scrollrect = arg_2_0:findTF("scrollView"):GetComponent("LScrollRect")
-	arg_2_0.resTxt = arg_2_0:findTF("res_pt/Text"):GetComponent(typeof(Text))
-	arg_2_0.resIcon = arg_2_0:findTF("res_pt/icon")
+	arg_2_0.scrollrect = arg_2_0._tf:Find("scrollView"):GetComponent("LScrollRect")
+	arg_2_0.resTxt = arg_2_0._tf:Find("res_pt/Text"):GetComponent(typeof(Text))
+	arg_2_0.resIcon = arg_2_0._tf:Find("res_pt/icon")
 	arg_2_0.pagefooters = {
-		arg_2_0:findTF("pagefooter/tpl")
+		arg_2_0._tf:Find("pagefooter/tpl")
 	}
 	arg_2_0.pagefooterWid = arg_2_0.pagefooters[1].rect.width
 	arg_2_0.pagefooterStartPosX = arg_2_0.pagefooters[1].anchoredPosition.x

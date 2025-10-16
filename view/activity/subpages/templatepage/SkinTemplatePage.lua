@@ -1,10 +1,10 @@
 local var_0_0 = class("SkinTemplatePage", import("view.base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.dayTF = arg_1_0:findTF("day", arg_1_0.bg)
-	arg_1_0.item = arg_1_0:findTF("item", arg_1_0.bg)
-	arg_1_0.items = arg_1_0:findTF("items", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.dayTF = arg_1_0.bg:Find("day")
+	arg_1_0.item = arg_1_0.bg:Find("item")
+	arg_1_0.items = arg_1_0.bg:Find("items")
 	arg_1_0.uilist = UIItemList.New(arg_1_0.items, arg_1_0.item)
 
 	setActive(arg_1_0.item, false)
@@ -28,7 +28,7 @@ end
 
 function var_0_0.UpdateTask(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_0 = arg_5_1 + 1
-	local var_5_1 = arg_5_0:findTF("item", arg_5_2)
+	local var_5_1 = arg_5_2:Find("item")
 	local var_5_2 = arg_5_0.taskGroup[arg_5_0.nday][var_5_0]
 	local var_5_3 = arg_5_0.taskProxy:getTaskById(var_5_2) or arg_5_0.taskProxy:getFinishTaskById(var_5_2)
 
@@ -44,7 +44,7 @@ function var_0_0.UpdateTask(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_5 = var_5_3:getProgress()
 	local var_5_6 = var_5_3:getConfig("target_num")
 
-	setText(arg_5_0:findTF("description", arg_5_2), var_5_3:getConfig("desc"))
+	setText(arg_5_2:Find("description"), var_5_3:getConfig("desc"))
 
 	local var_5_7, var_5_8 = arg_5_0:GetProgressColor()
 	local var_5_9
@@ -55,12 +55,12 @@ function var_0_0.UpdateTask(arg_5_0, arg_5_1, arg_5_2)
 
 	var_5_10 = var_5_8 and setColorStr("/" .. var_5_6, var_5_8) or "/" .. var_5_6
 
-	setText(arg_5_0:findTF("progressText", arg_5_2), var_5_9 .. var_5_10)
-	setSlider(arg_5_0:findTF("progress", arg_5_2), 0, var_5_6, var_5_5)
+	setText(arg_5_2:Find("progressText"), var_5_9 .. var_5_10)
+	setSlider(arg_5_2:Find("progress"), 0, var_5_6, var_5_5)
 
-	local var_5_11 = arg_5_0:findTF("go_btn", arg_5_2)
-	local var_5_12 = arg_5_0:findTF("get_btn", arg_5_2)
-	local var_5_13 = arg_5_0:findTF("got_btn", arg_5_2)
+	local var_5_11 = arg_5_2:Find("go_btn")
+	local var_5_12 = arg_5_2:Find("get_btn")
+	local var_5_13 = arg_5_2:Find("got_btn")
 	local var_5_14 = var_5_3:getTaskStatus()
 
 	setActive(var_5_11, var_5_14 == 0)

@@ -9,7 +9,7 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("BG"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("BG"), function()
 		arg_3_0:closeView()
 	end, SFX_CANCEL)
 

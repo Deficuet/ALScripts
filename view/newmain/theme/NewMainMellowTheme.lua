@@ -8,10 +8,10 @@ function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
 	arg_2_0.switcherAnimationPlayer = arg_2_0._tf:Find("frame/right"):GetComponent(typeof(Animation))
-	arg_2_0.fxEffect = arg_2_0:findTF("frame/right/1/battle/root/FX")
+	arg_2_0.fxEffect = arg_2_0._tf:Find("frame/right/1/battle/root/FX")
 	arg_2_0.animationPlayer = arg_2_0._tf:GetComponent(typeof(Animation))
 	arg_2_0.dftAniEvent = arg_2_0._tf:GetComponent(typeof(DftAniEvent))
-	arg_2_0.switcher = arg_2_0:findTF("frame/right/switch")
+	arg_2_0.switcher = arg_2_0._tf:Find("frame/right/switch")
 
 	onToggle(arg_2_0, arg_2_0.switcher, function(arg_3_0)
 		local var_3_0 = arg_3_0 and "anim_newmain_switch_1to2" or "anim_newmain_switch_2to1"
@@ -89,7 +89,7 @@ end
 
 function var_0_0.GetPbList(arg_16_0)
 	return {
-		arg_16_0:findTF("frame/bottom/frame")
+		arg_16_0._tf:Find("frame/bottom/frame")
 	}
 end
 
@@ -138,51 +138,51 @@ function var_0_0.GetConfigShift(arg_18_0, arg_18_1)
 end
 
 function var_0_0.GetWordView(arg_19_0)
-	return MainWordView4Mellow.New(arg_19_0:findTF("chat"), arg_19_0.event)
+	return MainWordView4Mellow.New(arg_19_0._tf:Find("chat"), arg_19_0.event)
 end
 
 function var_0_0.GetTagView(arg_20_0)
-	return MainTagsView.New(arg_20_0:findTF("frame/bottom/tags"), arg_20_0.event)
+	return MainTagsView.New(arg_20_0._tf:Find("frame/bottom/tags"), arg_20_0.event)
 end
 
 function var_0_0.GetTopPanel(arg_21_0)
-	return MainTopPanel4Mellow.New(arg_21_0:findTF("frame/top"), arg_21_0.event, arg_21_0.contextData)
+	return MainTopPanel4Mellow.New(arg_21_0._tf:Find("frame/top"), arg_21_0.event, arg_21_0.contextData)
 end
 
 function var_0_0.GetRightPanel(arg_22_0)
-	return MainRightPanel4Mellow.New(arg_22_0:findTF("frame/right"), arg_22_0.event, arg_22_0.contextData)
+	return MainRightPanel4Mellow.New(arg_22_0._tf:Find("frame/right"), arg_22_0.event, arg_22_0.contextData)
 end
 
 function var_0_0.GetLeftPanel(arg_23_0)
-	return MainLeftPanel4Mellow.New(arg_23_0:findTF("frame/left"), arg_23_0.event, arg_23_0.contextData)
+	return MainLeftPanel4Mellow.New(arg_23_0._tf:Find("frame/left"), arg_23_0.event, arg_23_0.contextData)
 end
 
 function var_0_0.GetBottomPanel(arg_24_0)
-	return MainBottomPanel4Mellow.New(arg_24_0:findTF("frame/bottom"), arg_24_0.event, arg_24_0.contextData)
+	return MainBottomPanel4Mellow.New(arg_24_0._tf:Find("frame/bottom"), arg_24_0.event, arg_24_0.contextData)
 end
 
 function var_0_0.GetIconView(arg_25_0)
-	return MainIconView4Mellow.New(arg_25_0:findTF("frame/top/icon"), arg_25_0.event)
+	return MainIconView4Mellow.New(arg_25_0._tf:Find("frame/top/icon"), arg_25_0.event)
 end
 
 function var_0_0.GetChatRoomView(arg_26_0)
-	return MainChatRoomView4Mellow.New(arg_26_0:findTF("frame/right/chat_room"), arg_26_0.event)
+	return MainChatRoomView4Mellow.New(arg_26_0._tf:Find("frame/right/chat_room"), arg_26_0.event)
 end
 
 function var_0_0.GetBannerView(arg_27_0)
-	return MainBannerView4Mellow.New(arg_27_0:findTF("frame/left/banner"), arg_27_0.event)
+	return MainBannerView4Mellow.New(arg_27_0._tf:Find("frame/left/banner"), arg_27_0.event)
 end
 
 function var_0_0.GetActBtnView(arg_28_0)
-	return MainActivityBtnView4Mellow.New(arg_28_0:findTF("frame"), arg_28_0.event)
+	return MainActivityBtnView4Mellow.New(arg_28_0._tf:Find("frame"), arg_28_0.event)
 end
 
 function var_0_0.GetBuffView(arg_29_0)
-	return MainBuffView4Mellow.New(arg_29_0:findTF("frame/top/buff_list"), arg_29_0.event)
+	return MainBuffView4Mellow.New(arg_29_0._tf:Find("frame/top/buff_list"), arg_29_0.event)
 end
 
 function var_0_0.GetChangeSkinView(arg_30_0)
-	return MainChangeSkinView.New(arg_30_0:findTF("frame/right/change_skin"), arg_30_0.event)
+	return MainChangeSkinView.New(arg_30_0._tf:Find("frame/right/change_skin"), arg_30_0.event)
 end
 
 function var_0_0.GetRedDots(arg_31_0)

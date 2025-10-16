@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.container = arg_2_0:findTF("frame/container")
-	arg_2_0.sendBtn = arg_2_0:findTF("frame/btn")
+	arg_2_0.container = arg_2_0._tf:Find("frame/container")
+	arg_2_0.sendBtn = arg_2_0._tf:Find("frame/btn")
 
 	setAnchoredPosition(arg_2_0.container, {
 		x = 0,

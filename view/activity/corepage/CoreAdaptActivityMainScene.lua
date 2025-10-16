@@ -11,7 +11,7 @@ var_0_0.optionsPath = {
 function var_0_0.init(arg_2_0, ...)
 	var_0_0.super.init(arg_2_0, ...)
 
-	arg_2_0.btnBack = arg_2_0:findTF("adapt/TopPage/top/btn_back")
+	arg_2_0.btnBack = arg_2_0._tf:Find("adapt/TopPage/top/btn_back")
 
 	arg_2_0:CustomInit()
 
@@ -28,11 +28,11 @@ function var_0_0.init(arg_2_0, ...)
 			elseif not arg_2_0.pageDic[var_3_0.id] then
 				warning(string.format("without page in act:", var_3_0.id))
 			else
-				setText(arg_2_0:findTF("off/name", arg_3_2), arg_2_0:GetButtonNameText(var_3_0))
-				setText(arg_2_0:findTF("on/name", arg_3_2), arg_2_0:GetButtonNameText(var_3_0))
+				setText(arg_3_2:Find("off/name"), arg_2_0:GetButtonNameText(var_3_0))
+				setText(arg_3_2:Find("on/name"), arg_2_0:GetButtonNameText(var_3_0))
 
 				if arg_2_0.pageDic[var_3_0.id] ~= nil then
-					setActive(arg_2_0:findTF("tip", arg_3_2), var_3_0:readyToAchieve())
+					setActive(arg_3_2:Find("tip"), var_3_0:readyToAchieve())
 					onToggle(arg_2_0, arg_3_2, function(arg_5_0)
 						if arg_5_0 then
 							arg_2_0:selectActivity(var_3_0)
@@ -54,7 +54,7 @@ function var_0_0.init(arg_2_0, ...)
 	end)
 
 	arg_2_0:UpdateAdapt()
-	onButton(arg_2_0, arg_2_0:findTF("adapt/TopPage/top/btn_back"), function()
+	onButton(arg_2_0, arg_2_0._tf:Find("adapt/TopPage/top/btn_back"), function()
 		arg_2_0:emit(var_0_0.ON_BACK)
 	end, SOUND_BACK)
 end

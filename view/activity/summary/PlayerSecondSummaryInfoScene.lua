@@ -17,9 +17,9 @@ function var_0_0.setSummaryInfo(arg_4_0, arg_4_1)
 end
 
 function var_0_0.init(arg_5_0)
-	arg_5_0.backBtn = arg_5_0:findTF("bg/back_btn")
-	arg_5_0.pageContainer = arg_5_0:findTF("bg/main/pages")
-	arg_5_0.pageFootContainer = arg_5_0:findTF("bg/main/foots")
+	arg_5_0.backBtn = arg_5_0._tf:Find("bg/back_btn")
+	arg_5_0.pageContainer = arg_5_0._tf:Find("bg/main/pages")
+	arg_5_0.pageFootContainer = arg_5_0._tf:Find("bg/main/foots")
 
 	GetOrAddComponent(arg_5_0.pageFootContainer, typeof(CanvasGroup))
 	setCanvasGroupAlpha(arg_5_0.pageFootContainer, 0)
@@ -46,7 +46,7 @@ function var_0_0.inAnim(arg_8_0)
 end
 
 function var_0_0.initSummaryInfo(arg_9_0)
-	arg_9_0.loadingPage = SecondSummaryPage1.New(arg_9_0:findTF("page1", arg_9_0.pageContainer))
+	arg_9_0.loadingPage = SecondSummaryPage1.New(arg_9_0.pageContainer:Find("page1"))
 
 	arg_9_0.loadingPage:Init(arg_9_0.summaryInfoVO)
 
@@ -102,7 +102,7 @@ function var_0_0.initSummaryInfo(arg_9_0)
 	end
 
 	var_9_0(arg_9_0.pageContainer:Find("page5"), SecondSummaryPage5, arg_9_0.summaryInfoVO)
-	onButton(arg_9_0, arg_9_0:findTF("page5/share", arg_9_0.pageContainer), function()
+	onButton(arg_9_0, arg_9_0.pageContainer:Find("page5/share"), function()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeSecondSummary)
 	end, SFX_CONFIRM)
 	seriesAsync({
@@ -147,7 +147,7 @@ function var_0_0.registerFootEvent(arg_15_0, arg_15_1)
 end
 
 function var_0_0.registerDrag(arg_18_0)
-	arg_18_0:addVerticalDrag(arg_18_0:findTF("bg"), function()
+	arg_18_0:addVerticalDrag(arg_18_0._tf:Find("bg"), function()
 		arg_18_0:updatePageFoot(arg_18_0.currPage - 1)
 	end, function()
 		arg_18_0:updatePageFoot(arg_18_0.currPage + 1)

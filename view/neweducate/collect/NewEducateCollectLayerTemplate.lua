@@ -13,22 +13,22 @@ function var_0_0.initConfig(arg_3_0)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0.anim = arg_4_0:findTF("anim_root"):GetComponent(typeof(Animation))
-	arg_4_0.animEvent = arg_4_0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	arg_4_0.anim = arg_4_0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	arg_4_0.animEvent = arg_4_0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	arg_4_0.animEvent:SetEndEvent(function()
 		arg_4_0:emit(var_0_0.ON_CLOSE)
 	end)
 
-	arg_4_0.closeBtn = arg_4_0:findTF("anim_root/bg")
-	arg_4_0.windowTF = arg_4_0:findTF("anim_root/window")
-	arg_4_0.curCntTF = arg_4_0:findTF("collect/cur", arg_4_0.windowTF)
-	arg_4_0.allCntTF = arg_4_0:findTF("collect/all", arg_4_0.windowTF)
-	arg_4_0.pageTF = arg_4_0:findTF("page", arg_4_0.windowTF)
-	arg_4_0.nextBtn = arg_4_0:findTF("next_btn", arg_4_0.windowTF)
-	arg_4_0.lastBtn = arg_4_0:findTF("last_btn", arg_4_0.windowTF)
-	arg_4_0.paginationTF = arg_4_0:findTF("pagination", arg_4_0.windowTF)
-	arg_4_0.performTF = arg_4_0:findTF("anim_root/perform")
+	arg_4_0.closeBtn = arg_4_0._tf:Find("anim_root/bg")
+	arg_4_0.windowTF = arg_4_0._tf:Find("anim_root/window")
+	arg_4_0.curCntTF = arg_4_0.windowTF:Find("collect/cur")
+	arg_4_0.allCntTF = arg_4_0.windowTF:Find("collect/all")
+	arg_4_0.pageTF = arg_4_0.windowTF:Find("page")
+	arg_4_0.nextBtn = arg_4_0.windowTF:Find("next_btn")
+	arg_4_0.lastBtn = arg_4_0.windowTF:Find("last_btn")
+	arg_4_0.paginationTF = arg_4_0.windowTF:Find("pagination")
+	arg_4_0.performTF = arg_4_0._tf:Find("anim_root/perform")
 
 	setActive(arg_4_0.performTF, false)
 	onButton(arg_4_0, arg_4_0.closeBtn, function()
@@ -69,7 +69,7 @@ function var_0_0.UpdatePage(arg_10_0)
 	local var_10_0 = (arg_10_0.curPageIndex - 1) * arg_10_0.onePageCnt
 
 	for iter_10_0 = 1, arg_10_0.onePageCnt do
-		local var_10_1 = arg_10_0:findTF("frame_" .. iter_10_0, arg_10_0.pageTF)
+		local var_10_1 = arg_10_0.pageTF:Find("frame_" .. iter_10_0)
 		local var_10_2 = arg_10_0.allIds[var_10_0 + iter_10_0]
 
 		if var_10_2 then

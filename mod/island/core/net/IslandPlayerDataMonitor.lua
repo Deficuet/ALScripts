@@ -45,7 +45,9 @@ function var_0_0.register(arg_1_0)
 		end
 
 		if arg_10_0.type == 1 or arg_10_0.type == 2 then
-			getProxy(IslandProxy):GetIsland():GetBuildingAgency():AddFormulaNum(arg_10_0.formula_id, arg_10_0.num)
+			local var_10_0 = pg.island_formula[arg_10_0.formula_id].commission_product[1][2]
+
+			getProxy(IslandProxy):GetIsland():GetBuildingAgency():AddFormulaNum(arg_10_0.formula_id, arg_10_0.num * var_10_0)
 		end
 	end)
 	arg_1_0:on(21519, function(arg_11_0)

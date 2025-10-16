@@ -1,10 +1,10 @@
 local var_0_0 = class("ShadowPlayPage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.getBtn = arg_1_0:findTF("AD/get")
-	arg_1_0.gotBtn = arg_1_0:findTF("AD/got")
-	arg_1_0.urlBtn = arg_1_0:findTF("AD/url")
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.getBtn = arg_1_0._tf:Find("AD/get")
+	arg_1_0.gotBtn = arg_1_0._tf:Find("AD/got")
+	arg_1_0.urlBtn = arg_1_0._tf:Find("AD/url")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)

@@ -101,11 +101,11 @@ function var_0_0.getAnimId(arg_6_0)
 end
 
 function var_0_0.playSwingAnim(arg_7_0, arg_7_1)
-	arg_7_0:findTF("pos/Image", arg_7_1):GetComponent(typeof(Animation)):Play("swing")
+	arg_7_1:Find("pos/Image"):GetComponent(typeof(Animation)):Play("swing")
 end
 
 function var_0_0.stopSwingAnim(arg_8_0, arg_8_1)
-	arg_8_0:findTF("pos/Image", arg_8_1):GetComponent(typeof(Animation)):Stop()
+	arg_8_1:Find("pos/Image"):GetComponent(typeof(Animation)):Stop()
 end
 
 return var_0_0

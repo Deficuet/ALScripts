@@ -5,12 +5,12 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("Window/Layout/Box/ScrollView/Content/ItemGrid2"), arg_2_0:findTF("Window/Layout/Box/ScrollView/Content/ItemGrid2/GridItem"))
-	arg_2_0.confirmBtn = arg_2_0:findTF("Window/Fixed/ButtonGO")
-	arg_2_0.closeBtn = arg_2_0:findTF("BG")
+	arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("Window/Layout/Box/ScrollView/Content/ItemGrid2"), arg_2_0._tf:Find("Window/Layout/Box/ScrollView/Content/ItemGrid2/GridItem"))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("Window/Fixed/ButtonGO")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("BG")
 
-	setText(arg_2_0:findTF("Window/Fixed/top/bg/obtain/title"), i18n("MonopolyCar2024Game_total_award_title"))
-	setText(arg_2_0:findTF("Window/Fixed/ButtonGO/pic"), i18n("text_confirm"))
+	setText(arg_2_0._tf:Find("Window/Fixed/top/bg/obtain/title"), i18n("MonopolyCar2024Game_total_award_title"))
+	setText(arg_2_0._tf:Find("Window/Fixed/ButtonGO/pic"), i18n("text_confirm"))
 end
 
 function var_0_0.OnInit(arg_3_0)

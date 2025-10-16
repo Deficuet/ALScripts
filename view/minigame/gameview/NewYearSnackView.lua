@@ -41,9 +41,9 @@ function var_0_0.updateSelectedList(arg_7_0, arg_7_1)
 
 	for iter_7_0 = 1, var_0_0.Order_Num do
 		local var_7_0 = arg_7_0.selectedContainer:GetChild(iter_7_0 - 1)
-		local var_7_1 = arg_7_0:findTF("Empty", var_7_0)
-		local var_7_2 = arg_7_0:findTF("Full", var_7_0)
-		local var_7_3 = arg_7_0:findTF("SnackImg", var_7_2)
+		local var_7_1 = var_7_0:Find("Empty")
+		local var_7_2 = var_7_0:Find("Full")
+		local var_7_3 = var_7_2:Find("SnackImg")
 
 		arg_7_0.selectedTFList[iter_7_0] = var_7_0
 
@@ -61,12 +61,12 @@ end
 function var_0_0.updateSnackList(arg_8_0, arg_8_1)
 	for iter_8_0 = 1, var_0_0.Snack_Num do
 		local var_8_0 = arg_8_0.snackContainer:GetChild(iter_8_0 - 1)
-		local var_8_1 = arg_8_0:findTF("SnackImg", var_8_0)
+		local var_8_1 = var_8_0:Find("SnackImg")
 		local var_8_2 = arg_8_1[iter_8_0]
 
 		setImageSprite(var_8_1, GetSpriteFromAtlas("ui/minigameui/newyearsnackui_atlas", "snack_" .. var_8_2))
 
-		local var_8_3 = arg_8_0:findTF("SelectedTag", var_8_0)
+		local var_8_3 = var_8_0:Find("SelectedTag")
 
 		setActive(var_8_3, false)
 
@@ -77,7 +77,7 @@ end
 
 function var_0_0.updateSelectedOrderTag(arg_9_0, arg_9_1)
 	for iter_9_0, iter_9_1 in pairs(arg_9_0.selectedSnackTFList) do
-		local var_9_0 = arg_9_0:findTF("SelectedTag", iter_9_1)
+		local var_9_0 = iter_9_1:Find("SelectedTag")
 
 		if arg_9_1 then
 			setActive(var_9_0, false)

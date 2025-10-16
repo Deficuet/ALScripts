@@ -2,29 +2,29 @@ local var_0_0 = class("LinerSignPage", import("view.base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
 	arg_1_0.lockNamed = PLATFORM_CODE == PLATFORM_CH and LOCK_NAMED
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.signTF = arg_1_0:findTF("sign", arg_1_0.bg)
-	arg_1_0.items = arg_1_0:findTF("items", arg_1_0.signTF)
-	arg_1_0.uilist = UIItemList.New(arg_1_0.items, arg_1_0:findTF("tpl", arg_1_0.items))
-	arg_1_0.signBtn = arg_1_0:findTF("get", arg_1_0.signTF)
-	arg_1_0.signGreyBtn = arg_1_0:findTF("get_grey", arg_1_0.signTF)
-	arg_1_0.countText = arg_1_0:findTF("count_bg/count", arg_1_0.signTF)
-	arg_1_0.namedTF = arg_1_0:findTF("named", arg_1_0.bg)
-	arg_1_0.nameInput = arg_1_0:findTF("input/nickname", arg_1_0.namedTF)
-	arg_1_0.sureBtn = arg_1_0:findTF("sure", arg_1_0.namedTF)
-	arg_1_0.linerTF = arg_1_0:findTF("liner", arg_1_0.bg)
-	arg_1_0.linerInput = arg_1_0:findTF("name/input", arg_1_0.linerTF)
-	arg_1_0.linerBtn = arg_1_0:findTF("go", arg_1_0.linerTF)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.signTF = arg_1_0.bg:Find("sign")
+	arg_1_0.items = arg_1_0.signTF:Find("items")
+	arg_1_0.uilist = UIItemList.New(arg_1_0.items, arg_1_0.items:Find("tpl"))
+	arg_1_0.signBtn = arg_1_0.signTF:Find("get")
+	arg_1_0.signGreyBtn = arg_1_0.signTF:Find("get_grey")
+	arg_1_0.countText = arg_1_0.signTF:Find("count_bg/count")
+	arg_1_0.namedTF = arg_1_0.bg:Find("named")
+	arg_1_0.nameInput = arg_1_0.namedTF:Find("input/nickname")
+	arg_1_0.sureBtn = arg_1_0.namedTF:Find("sure")
+	arg_1_0.linerTF = arg_1_0.bg:Find("liner")
+	arg_1_0.linerInput = arg_1_0.linerTF:Find("name/input")
+	arg_1_0.linerBtn = arg_1_0.linerTF:Find("go")
 
-	setText(arg_1_0:findTF("lock/Text", arg_1_0.linerBtn), i18n("liner_sign_unlock_tip"))
+	setText(arg_1_0.linerBtn:Find("lock/Text"), i18n("liner_sign_unlock_tip"))
 
 	arg_1_0.nameInput:GetComponent(typeof(InputField)).interactable = not arg_1_0.lockNamed
 
-	setActive(arg_1_0:findTF("input/pan", arg_1_0.namedTF), not arg_1_0.lockNamed)
+	setActive(arg_1_0.namedTF:Find("input/pan"), not arg_1_0.lockNamed)
 
 	arg_1_0.linerInput:GetComponent(typeof(InputField)).interactable = not arg_1_0.lockNamed
 
-	setActive(arg_1_0:findTF("name/edit", arg_1_0.linerTF), not arg_1_0.lockNamed)
+	setActive(arg_1_0.linerTF:Find("name/edit"), not arg_1_0.lockNamed)
 end
 
 function var_0_0.OnDataSetting(arg_2_0)
@@ -42,21 +42,21 @@ function var_0_0.OnFirstFlush(arg_3_0)
 		if arg_4_0 == UIItemList.EventInit then
 			local var_4_0 = arg_4_1 + 1
 			local var_4_1 = arg_3_0.taskGroup[var_4_0]
-			local var_4_2 = arg_3_0:findTF("item_mask/item", arg_4_2)
+			local var_4_2 = arg_4_2:Find("item_mask/item")
 			local var_4_3 = Drop.Create(arg_3_0.taskConfig[var_4_1].award_display[1])
 
 			updateDrop(var_4_2, var_4_3)
 			onButton(arg_3_0, arg_4_2, function()
 				arg_3_0:emit(BaseUI.ON_DROP, var_4_3)
 			end, SFX_PANEL)
-			GetImageSpriteFromAtlasAsync("ui/activityuipage/linersignpage_atlas", "D" .. var_4_0, arg_3_0:findTF("day", arg_4_2), true)
+			GetImageSpriteFromAtlasAsync("ui/activityuipage/linersignpage_atlas", "D" .. var_4_0, arg_4_2:Find("day"), true)
 		elseif arg_4_0 == UIItemList.EventUpdate then
 			local var_4_4 = arg_4_1 + 1
 			local var_4_5 = arg_3_0.taskGroup[var_4_4]
 			local var_4_6 = arg_3_0.taskProxy:getTaskById(var_4_5) or arg_3_0.taskProxy:getFinishTaskById(var_4_5)
 
-			setActive(arg_3_0:findTF("cur", arg_4_2), var_4_4 == arg_3_0.nday)
-			setActive(arg_3_0:findTF("got", arg_4_2), var_4_4 < arg_3_0.nday or var_4_6 and var_4_6:getTaskStatus() == 2)
+			setActive(arg_4_2:Find("cur"), var_4_4 == arg_3_0.nday)
+			setActive(arg_4_2:Find("got"), var_4_4 < arg_3_0.nday or var_4_6 and var_4_6:getTaskStatus() == 2)
 		end
 	end)
 	onButton(arg_3_0, arg_3_0.signBtn, function()
@@ -167,7 +167,7 @@ function var_0_0.OnUpdateFlush(arg_16_0)
 	setActive(arg_16_0.signTF, not var_16_0)
 	setActive(arg_16_0.namedTF, var_16_0 and not arg_16_0:IsNamed())
 	setActive(arg_16_0.linerTF, var_16_0 and arg_16_0:IsNamed())
-	setActive(arg_16_0:findTF("lock", arg_16_0.linerBtn), arg_16_0:IsLockLiner())
+	setActive(arg_16_0.linerBtn:Find("lock"), arg_16_0:IsLockLiner())
 
 	if not var_16_0 then
 		local var_16_1 = arg_16_0.taskGroup[arg_16_0.nday]

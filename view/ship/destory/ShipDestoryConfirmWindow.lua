@@ -5,29 +5,29 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.closeBtn = arg_2_0:findTF("window/top/btnBack")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
 
-	setActive(arg_2_0:findTF("window/top/bg/infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
-	setText(arg_2_0:findTF("window/top/bg/infomation/title"), i18n("title_info"))
+	setActive(arg_2_0._tf:Find("window/top/bg/infomation/title_en"), PLATFORM_CODE ~= PLATFORM_US)
+	setText(arg_2_0._tf:Find("window/top/bg/infomation/title"), i18n("title_info"))
 
-	arg_2_0.cancelBtn = arg_2_0:findTF("window/cancel_btn")
-	arg_2_0.confirmBtn = arg_2_0:findTF("window/confirm_btn")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("window/cancel_btn")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("window/confirm_btn")
 
 	setText(findTF(arg_2_0.confirmBtn, "pic"), i18n("destroy_confirm_access"))
 	setText(findTF(arg_2_0.cancelBtn, "pic"), i18n("destroy_confirm_cancel"))
 
-	arg_2_0.title = arg_2_0:findTF("window/content/Text")
-	arg_2_0.label = arg_2_0:findTF("window/content/desc/label")
+	arg_2_0.title = arg_2_0._tf:Find("window/content/Text")
+	arg_2_0.label = arg_2_0._tf:Find("window/content/desc/label")
 
 	setText(arg_2_0.label, i18n("destory_ship_before_tip"))
 
-	arg_2_0.urLabel = arg_2_0:findTF("window/content/desc/label1")
-	arg_2_0.urInput = arg_2_0:findTF("window/content/desc/InputField")
-	arg_2_0.urOverflowLabel = arg_2_0:findTF("window/content/desc/label2")
+	arg_2_0.urLabel = arg_2_0._tf:Find("window/content/desc/label1")
+	arg_2_0.urInput = arg_2_0._tf:Find("window/content/desc/InputField")
+	arg_2_0.urOverflowLabel = arg_2_0._tf:Find("window/content/desc/label2")
 
 	setText(arg_2_0.urOverflowLabel, i18n("destory_ur_pt_overflowa"))
 
-	local var_2_0 = arg_2_0:findTF("Placeholder", arg_2_0.urInput)
+	local var_2_0 = arg_2_0.urInput:Find("Placeholder")
 
 	setText(var_2_0, i18n("box_ship_del_click"))
 end

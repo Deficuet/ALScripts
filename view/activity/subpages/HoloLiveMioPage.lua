@@ -3,9 +3,9 @@ local var_0_0 = class("HoloLiveMioPage", import(".TemplatePage.PtTemplatePage"))
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.heartTpl = arg_1_0:findTF("HeartTpl", arg_1_0.bg)
-	arg_1_0.heartContainer = arg_1_0:findTF("HeartContainer", arg_1_0.bg)
-	arg_1_0.helpBtn = arg_1_0:findTF("HelpBtn", arg_1_0.bg)
+	arg_1_0.heartTpl = arg_1_0.bg:Find("HeartTpl")
+	arg_1_0.heartContainer = arg_1_0.bg:Find("HeartContainer")
+	arg_1_0.helpBtn = arg_1_0.bg:Find("HelpBtn")
 
 	onButton(arg_1_0, arg_1_0.helpBtn, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -20,7 +20,7 @@ function var_0_0.OnInit(arg_1_0)
 		if arg_3_0 == UIItemList.EventUpdate then
 			local var_3_0 = arg_3_1 + 1
 			local var_3_1 = arg_1_0.ptData:GetLevelProgress()
-			local var_3_2 = arg_1_0:findTF("Full", arg_3_2)
+			local var_3_2 = arg_3_2:Find("Full")
 
 			setActive(var_3_2, not (var_3_1 < var_3_0))
 		end

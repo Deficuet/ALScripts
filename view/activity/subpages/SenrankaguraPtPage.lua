@@ -24,11 +24,11 @@ local var_0_7 = 0.2
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.maskNode = arg_1_0:findTF("mask", arg_1_0.bg)
-	arg_1_0.bgImgTf = arg_1_0:findTF("bg_img", arg_1_0.bg)
-	arg_1_0.titleImgTf = arg_1_0:findTF("title_img", arg_1_0.bg)
-	arg_1_0.role = arg_1_0:findTF("role", arg_1_0.maskNode)
-	arg_1_0.title = arg_1_0:findTF("title", arg_1_0.maskNode)
+	arg_1_0.maskNode = arg_1_0.bg:Find("mask")
+	arg_1_0.bgImgTf = arg_1_0.bg:Find("bg_img")
+	arg_1_0.titleImgTf = arg_1_0.bg:Find("title_img")
+	arg_1_0.role = arg_1_0.maskNode:Find("role")
+	arg_1_0.title = arg_1_0.maskNode:Find("title")
 	arg_1_0.spineAnim = GetComponent(arg_1_0.role, "SpineAnimUI")
 end
 
@@ -154,7 +154,7 @@ function var_0_0.SetBgImage(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 		LeanTween.alpha(var_12_1, var_12_2, arg_12_2):setEase(LeanTweenType.easeOutQuad)
 
 		if arg_12_2 > 0 and arg_12_1 > 1 then
-			setActive(arg_12_0:findTF(var_0_4[arg_12_1 - 1], arg_12_0.bg), true)
+			setActive(arg_12_0.bg:Find(var_0_4[arg_12_1 - 1]), true)
 
 			if arg_12_3 then
 				LeanTween.delayedCall(1, System.Action(arg_12_3))

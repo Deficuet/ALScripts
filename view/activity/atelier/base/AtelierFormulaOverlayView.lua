@@ -27,7 +27,7 @@ function var_0_0.SetActivity(arg_5_0, arg_5_1)
 end
 
 function var_0_0.didEnter(arg_6_0)
-	onButton(arg_6_0, arg_6_0:findTF("List"), function()
+	onButton(arg_6_0, arg_6_0._tf:Find("List"), function()
 		arg_6_0._parentClass:OnClickFormulaBack()
 	end)
 end
@@ -42,16 +42,16 @@ local var_0_1 = {
 function var_0_0.RefreshFormulaInfo(arg_8_0, arg_8_1)
 	arg_8_0.contextData.formulaId = arg_8_1:GetConfigID()
 
-	arg_8_0._parentClass.loader:GetSpriteQuiet(arg_8_0.bundleName, var_0_1[arg_8_1:GetType()], arg_8_0:findTF("Type", description))
+	arg_8_0._parentClass.loader:GetSpriteQuiet(arg_8_0.bundleName, var_0_1[arg_8_1:GetType()], description:Find("Type"))
 
 	local var_8_0 = {
 		type = arg_8_1:GetProduction()[1],
 		id = arg_8_1:GetProduction()[2]
 	}
 
-	arg_8_0._parentClass:UpdateRyzaDrop(arg_8_0:findTF("Icon"), var_8_0)
-	setText(arg_8_0:findTF("Name"), arg_8_1:GetName())
-	setText(arg_8_0:findTF("Description/Text"), arg_8_1:GetDesc())
+	arg_8_0._parentClass:UpdateRyzaDrop(arg_8_0._tf:Find("Icon"), var_8_0)
+	setText(arg_8_0._tf:Find("Name"), arg_8_1:GetName())
+	setText(arg_8_0._tf:Find("Description/Text"), arg_8_1:GetDesc())
 
 	local var_8_1 = tostring(arg_8_1:GetMaxLimit() - arg_8_1:GetUsedCount())
 
@@ -59,7 +59,7 @@ function var_0_0.RefreshFormulaInfo(arg_8_0, arg_8_1)
 		var_8_1 = "∞"
 	end
 
-	setText(arg_8_0:findTF("RestCount/Text"), i18n("ryza_rest_produce_count", var_8_1))
+	setText(arg_8_0._tf:Find("RestCount/Text"), i18n("ryza_rest_produce_count", var_8_1))
 end
 
 function var_0_0.willExit(arg_9_0)

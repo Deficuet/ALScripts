@@ -18,42 +18,42 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0._go = arg_1_1
 	arg_1_0._tf = arg_1_1.transform
 	arg_1_0.animationPlayer = arg_1_0._tf:GetComponent(typeof(Animation))
-	arg_1_0.front = arg_1_0:findTF("front")
+	arg_1_0.front = arg_1_0._tf:Find("front")
 	arg_1_0.actorTr = arg_1_0._tf:Find("actor")
 	arg_1_0.frontTr = arg_1_0._tf:Find("front")
-	arg_1_0.backPanel = arg_1_0:findTF("back")
+	arg_1_0.backPanel = arg_1_0._tf:Find("back")
 	arg_1_0.goCG = GetOrAddComponent(arg_1_0._tf, typeof(CanvasGroup))
-	arg_1_0.asidePanel = arg_1_0:findTF("front/aside_panel")
-	arg_1_0.bgGlitch = arg_1_0:findTF("back/bg_glitch")
-	arg_1_0.oldPhoto = arg_1_0:findTF("front/oldphoto"):GetComponent(typeof(Image))
-	arg_1_0.bgPanel = arg_1_0:findTF("back/bg")
+	arg_1_0.asidePanel = arg_1_0._tf:Find("front/aside_panel")
+	arg_1_0.bgGlitch = arg_1_0._tf:Find("back/bg_glitch")
+	arg_1_0.oldPhoto = arg_1_0._tf:Find("front/oldphoto"):GetComponent(typeof(Image))
+	arg_1_0.bgPanel = arg_1_0._tf:Find("back/bg")
 	arg_1_0.bgPanelCg = arg_1_0.bgPanel:GetComponent(typeof(CanvasGroup))
 
-	setActive(arg_1_0:findTF("back/bg/sub"), false)
+	setActive(arg_1_0._tf:Find("back/bg/sub"), false)
 
-	arg_1_0.bgImage = arg_1_0:findTF("image", arg_1_0.bgPanel):GetComponent(typeof(Image))
+	arg_1_0.bgImage = arg_1_0.bgPanel:Find("image"):GetComponent(typeof(Image))
 	arg_1_0.mainImg = arg_1_0._tf:GetComponent(typeof(Image))
-	arg_1_0.castPanel = arg_1_0:findTF("front/cast_panel")
-	arg_1_0.spAnimPanel = arg_1_0:findTF("front/sp_anim_panel")
+	arg_1_0.castPanel = arg_1_0._tf:Find("front/cast_panel")
+	arg_1_0.spAnimPanel = arg_1_0._tf:Find("front/sp_anim_panel")
 	arg_1_0.centerPanel = arg_1_0._tf:Find("center")
-	arg_1_0.actorPanel = arg_1_0:findTF("actor")
-	arg_1_0.dialoguePanel = arg_1_0:findTF("front/dialogue")
-	arg_1_0.effectPanel = arg_1_0:findTF("front/effect")
-	arg_1_0.movePanel = arg_1_0:findTF("front/move_layer")
-	arg_1_0.curtain = arg_1_0:findTF("back/curtain")
+	arg_1_0.actorPanel = arg_1_0._tf:Find("actor")
+	arg_1_0.dialoguePanel = arg_1_0._tf:Find("front/dialogue")
+	arg_1_0.effectPanel = arg_1_0._tf:Find("front/effect")
+	arg_1_0.movePanel = arg_1_0._tf:Find("front/move_layer")
+	arg_1_0.curtain = arg_1_0._tf:Find("back/curtain")
 	arg_1_0.curtainCg = arg_1_0.curtain:GetComponent(typeof(CanvasGroup))
-	arg_1_0.flash = arg_1_0:findTF("front/flash")
+	arg_1_0.flash = arg_1_0._tf:Find("front/flash")
 	arg_1_0.flashImg = arg_1_0.flash:GetComponent(typeof(Image))
 	arg_1_0.flashCg = arg_1_0.flash:GetComponent(typeof(CanvasGroup))
-	arg_1_0.curtainF = arg_1_0:findTF("back/curtain_front")
+	arg_1_0.curtainF = arg_1_0._tf:Find("back/curtain_front")
 	arg_1_0.curtainFCg = arg_1_0.curtainF:GetComponent(typeof(CanvasGroup))
-	arg_1_0.locationTr = arg_1_0:findTF("front/location")
-	arg_1_0.locationTxt = arg_1_0:findTF("front/location/Text"):GetComponent(typeof(Text))
+	arg_1_0.locationTr = arg_1_0._tf:Find("front/location")
+	arg_1_0.locationTxt = arg_1_0._tf:Find("front/location/Text"):GetComponent(typeof(Text))
 	arg_1_0.locationTrPos = arg_1_0.locationTr.localPosition
 	arg_1_0.locationAnim = arg_1_0.locationTr:GetComponent(typeof(Animation))
 	arg_1_0.locationAniEvent = arg_1_0.locationTr:GetComponent(typeof(DftAniEvent))
-	arg_1_0.iconImage = arg_1_0:findTF("front/icon"):GetComponent(typeof(Image))
-	arg_1_0.topEffectTr = arg_1_0:findTF("top/effect")
+	arg_1_0.iconImage = arg_1_0._tf:Find("front/icon"):GetComponent(typeof(Image))
+	arg_1_0.topEffectTr = arg_1_0._tf:Find("top/effect")
 	arg_1_0.dialogueWin = nil
 	arg_1_0.bgs = {}
 	arg_1_0.branchCodeList = {}
@@ -1557,55 +1557,49 @@ function var_0_0.StartBlinkWithColorAnimation(arg_132_0, arg_132_1, arg_132_2)
 	arg_132_2()
 end
 
-function var_0_0.findTF(arg_136_0, arg_136_1, arg_136_2)
-	assert(arg_136_0._tf, "transform should exist")
-
-	return findTF(arg_136_2 or arg_136_0._tf, arg_136_1)
-end
-
-function var_0_0.OnStart(arg_137_0, arg_137_1)
+function var_0_0.OnStart(arg_136_0, arg_136_1)
 	return
 end
 
-function var_0_0.OnReset(arg_138_0, arg_138_1, arg_138_2, arg_138_3)
-	arg_138_3()
+function var_0_0.OnReset(arg_137_0, arg_137_1, arg_137_2, arg_137_3)
+	arg_137_3()
 end
 
-function var_0_0.OnBgUpdate(arg_139_0, arg_139_1)
+function var_0_0.OnBgUpdate(arg_138_0, arg_138_1)
 	return
 end
 
-function var_0_0.OnInit(arg_140_0, arg_140_1, arg_140_2, arg_140_3)
-	if arg_140_3 then
-		arg_140_3()
+function var_0_0.OnInit(arg_139_0, arg_139_1, arg_139_2, arg_139_3)
+	if arg_139_3 then
+		arg_139_3()
 	end
 end
 
-function var_0_0.OnStartUIAnimations(arg_141_0, arg_141_1, arg_141_2)
-	if arg_141_2 then
-		arg_141_2()
+function var_0_0.OnStartUIAnimations(arg_140_0, arg_140_1, arg_140_2)
+	if arg_140_2 then
+		arg_140_2()
 	end
 end
 
-function var_0_0.OnEnter(arg_142_0, arg_142_1, arg_142_2, arg_142_3)
-	if arg_142_3 then
-		arg_142_3()
+function var_0_0.OnEnter(arg_141_0, arg_141_1, arg_141_2, arg_141_3)
+	if arg_141_3 then
+		arg_141_3()
 	end
 end
 
-function var_0_0.OnWillExit(arg_143_0, arg_143_1, arg_143_2, arg_143_3)
-	arg_143_3()
+function var_0_0.OnWillExit(arg_142_0, arg_142_1, arg_142_2, arg_142_3)
+	arg_142_3()
 end
 
-function var_0_0.OnWillClear(arg_144_0, arg_144_1)
+function var_0_0.OnWillClear(arg_143_0, arg_143_1)
 	return
 end
 
-function var_0_0.OnClear(arg_145_0)
+function var_0_0.OnClear(arg_144_0)
 	return
 end
 
-function var_0_0.OnEnd(arg_146_0, arg_146_1)
+function var_0_0.OnEnd(arg_145_0, arg_145_1)
 	return
 end
 

@@ -23,8 +23,8 @@ end
 local var_0_2 = Vector3(0, 0, 0)
 
 function var_0_0.OnLoaded(arg_4_0)
-	arg_4_0.backBtn = arg_4_0:findTF("top/back")
-	arg_4_0.title = arg_4_0:findTF("top/title")
+	arg_4_0.backBtn = arg_4_0._tf:Find("top/back")
+	arg_4_0.title = arg_4_0._tf:Find("top/title")
 	arg_4_0.content = arg_4_0._tf:Find("content")
 	arg_4_0.delegationList = UIItemList.New(arg_4_0.content, arg_4_0.content:Find("tpl"))
 
@@ -47,20 +47,25 @@ function var_0_0.OnLoaded(arg_4_0)
 		end
 	end)
 
-	arg_4_0.selectPanel = IslandDelegationSelectPanel.New(arg_4_0._tf, arg_4_0.event, {
+	arg_4_0.selectPanel = IslandDelegationSelectPanel.New(arg_4_0._tf, arg_4_0.event, setmetatable({
+		alignRight = true,
 		isPermanent = true,
-		alignRight = true
-	})
+		ShowMsgBox = function(arg_7_0, arg_7_1)
+			arg_4_0:ShowMsgBox(arg_7_1)
+		end
+	}, {
+		__index = arg_4_0.contextData
+	}))
 	arg_4_0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(arg_4_0._tf, arg_4_0.event)
 end
 
-function var_0_0.OnInit(arg_7_0)
-	arg_7_0:InitPlaceCfg()
-	onButton(arg_7_0, arg_7_0.backBtn, function()
-		arg_7_0:Hide()
+function var_0_0.OnInit(arg_8_0)
+	arg_8_0:InitPlaceCfg()
+	onButton(arg_8_0, arg_8_0.backBtn, function()
+		arg_8_0:Hide()
 		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME)
 	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0._tf:Find("top/title/help"), function()
+	onButton(arg_8_0, arg_8_0._tf:Find("top/title/help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.island_help_commission.tip
@@ -68,244 +73,226 @@ function var_0_0.OnInit(arg_7_0)
 	end, SFX_PANEL)
 end
 
-function var_0_0.InitPlaceCfg(arg_10_0)
-	arg_10_0.npcToPlaceCfg = {}
+function var_0_0.InitPlaceCfg(arg_11_0)
+	arg_11_0.npcToPlaceCfg = {}
 
-	for iter_10_0, iter_10_1 in ipairs(pg.island_production_place.all) do
-		local var_10_0 = pg.island_production_place[iter_10_1]
+	for iter_11_0, iter_11_1 in ipairs(pg.island_production_place.all) do
+		local var_11_0 = pg.island_production_place[iter_11_1]
 
-		if not arg_10_0.npcToPlaceCfg[var_10_0.npc_birthplace] then
-			arg_10_0.npcToPlaceCfg[var_10_0.npc_birthplace] = {}
+		if not arg_11_0.npcToPlaceCfg[var_11_0.npc_birthplace] then
+			arg_11_0.npcToPlaceCfg[var_11_0.npc_birthplace] = {}
 		end
 
-		table.insert(arg_10_0.npcToPlaceCfg[var_10_0.npc_birthplace], iter_10_1)
+		table.insert(arg_11_0.npcToPlaceCfg[var_11_0.npc_birthplace], iter_11_1)
 	end
 end
 
-function var_0_0.InitDelegationTabItem(arg_11_0, arg_11_1, arg_11_2)
-	onButton(arg_11_0, arg_11_2, function()
-		arg_11_0:OnSelectTargetIndexCommission(arg_11_1)
+function var_0_0.InitDelegationTabItem(arg_12_0, arg_12_1, arg_12_2)
+	onButton(arg_12_0, arg_12_2, function()
+		arg_12_0:OnSelectTargetIndexCommission(arg_12_1)
 	end, SFX_PANEL)
 end
 
-function var_0_0.InitDelegationItem(arg_13_0, arg_13_1, arg_13_2)
-	onButton(arg_13_0, arg_13_2, function()
-		arg_13_0:OnSelectTargetIndexCommission(arg_13_1)
+function var_0_0.InitDelegationItem(arg_14_0, arg_14_1, arg_14_2)
+	onButton(arg_14_0, arg_14_2, function()
+		arg_14_0:OnSelectTargetIndexCommission(arg_14_1)
 	end, SFX_PANEL)
 end
 
-function var_0_0.UpdateDelegationItem(arg_15_0, arg_15_1, arg_15_2)
-	local var_15_0 = arg_15_0.placeCommissionList[arg_15_1 + 1]
-	local var_15_1 = pg.island_production_commission[var_15_0]
-	local var_15_2 = pg.island_world_objects[var_15_1.birthplace].param.position
-	local var_15_3 = Vector3(var_15_2[1], var_15_2[2], var_15_2[3])
-	local var_15_4 = pg.island_world_objects[var_15_1.birthplace].param.rotation
-	local var_15_5 = Vector3(var_15_4[1], var_15_4[2], var_15_4[3])
-	local var_15_6 = IslandCalcUtil.WorldPosition2LocalPosition(arg_15_0.content, var_15_3)
+function var_0_0.UpdateDelegationItem(arg_16_0, arg_16_1, arg_16_2)
+	local var_16_0 = arg_16_0.placeCommissionList[arg_16_1 + 1]
+	local var_16_1 = pg.island_production_commission[var_16_0]
+	local var_16_2 = pg.island_world_objects[var_16_1.birthplace].param.position
+	local var_16_3 = Vector3(var_16_2[1], var_16_2[2], var_16_2[3])
+	local var_16_4 = pg.island_world_objects[var_16_1.birthplace].param.rotation
+	local var_16_5 = Vector3(var_16_4[1], var_16_4[2], var_16_4[3])
+	local var_16_6 = IslandCalcUtil.WorldPosition2LocalPosition(arg_16_0.content, var_16_3)
 
-	arg_15_2.transform.localPosition = var_15_6 + var_0_2
+	arg_16_2.transform.localPosition = var_16_6 + var_0_2
 
-	setActive(arg_15_0:findTF("select", arg_15_2), false)
-	setActive(arg_15_0:findTF("unselect", arg_15_2), false)
+	setActive(arg_16_2:Find("select"), false)
+	setActive(arg_16_2:Find("unselect"), false)
 
-	local var_15_7 = arg_15_1 + 1
-	local var_15_8 = arg_15_0.placeCommissionList[var_15_7]
-	local var_15_9 = pg.island_production_commission[var_15_8].slot
-	local var_15_10 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(arg_15_0.placeId):GetDelegationSlotData(var_15_9)
+	local var_16_7 = arg_16_1 + 1
+	local var_16_8 = arg_16_0.placeCommissionList[var_16_7]
+	local var_16_9 = pg.island_production_commission[var_16_8].slot
+	local var_16_10 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(arg_16_0.placeId):GetDelegationSlotData(var_16_9)
 
-	setButtonEnabled(arg_15_2, var_15_10 ~= nil)
+	setButtonEnabled(arg_16_2, var_16_10 ~= nil)
 
-	local var_15_11 = arg_15_1 + 1
+	local var_16_11 = arg_16_1 + 1
 
-	arg_15_0:emitCore(ISLAND_EVT.SELECTDELEEFFECT_SHOW, var_15_11, arg_15_0.selectedIdx, var_15_3, var_15_5)
+	arg_16_0:emitCore(ISLAND_EVT.SELECTDELEEFFECT_SHOW, var_16_11, arg_16_0.selectedIdx, var_16_3, var_16_5)
 end
 
-function var_0_0.OnSelectTargetIndexCommission(arg_16_0, arg_16_1, arg_16_2)
-	if arg_16_0.selectedIdx == arg_16_1 + 1 and not arg_16_2 then
+function var_0_0.OnSelectTargetIndexCommission(arg_17_0, arg_17_1, arg_17_2)
+	if arg_17_0.selectedIdx == arg_17_1 + 1 and not arg_17_2 then
 		return
 	end
 
-	if not arg_16_2 then
-		arg_16_0.selectedShip = nil
+	if not arg_17_2 then
+		arg_17_0.selectedShip = nil
 
-		arg_16_0:UnloadPreconcenCharacter()
+		arg_17_0:UnloadPreconcenCharacter()
 	end
 
-	arg_16_0.selectedIdx = arg_16_1 + 1
-	arg_16_0.contextData.selectedIdx = arg_16_0.selectedIdx
+	arg_17_0.selectedIdx = arg_17_1 + 1
+	arg_17_0.contextData.selectedIdx = arg_17_0.selectedIdx
 
-	local var_16_0 = arg_16_0.placeCommissionList[arg_16_0.selectedIdx]
+	local var_17_0 = arg_17_0.placeCommissionList[arg_17_0.selectedIdx]
 
-	arg_16_0.selectPanel:ExecuteAction("Show", var_16_0, arg_16_0.selectedShip, function(arg_17_0)
-		arg_16_0.contextData.selectedShip = arg_17_0
-		arg_16_0.selectedShip = arg_17_0
+	arg_17_0.selectPanel:ExecuteAction("Show", var_17_0, arg_17_0.selectedShip, function(arg_18_0)
+		arg_17_0.contextData.selectedShip = arg_18_0
+		arg_17_0.selectedShip = arg_18_0
 
-		arg_16_0:LoadPreconcenCharacter(arg_17_0)
+		arg_17_0:LoadPreconcenCharacter(arg_18_0)
 	end, function()
-		arg_16_0.contextData.selectedShip = nil
-		arg_16_0.selectedShip = nil
+		arg_17_0.contextData.selectedShip = nil
+		arg_17_0.selectedShip = nil
 
-		arg_16_0:UnloadPreconcenCharacter()
+		arg_17_0:UnloadPreconcenCharacter()
 	end)
-	arg_16_0.delegationTabList:align(#arg_16_0.placeCommissionList)
-	arg_16_0.delegationList:align(#arg_16_0.placeCommissionList)
+	arg_17_0.delegationTabList:align(#arg_17_0.placeCommissionList)
+	arg_17_0.delegationList:align(#arg_17_0.placeCommissionList)
 end
 
-function var_0_0.UpdateDelegationTabItem(arg_19_0, arg_19_1, arg_19_2)
-	local var_19_0 = arg_19_1 + 1
+function var_0_0.UpdateDelegationTabItem(arg_20_0, arg_20_1, arg_20_2)
+	local var_20_0 = arg_20_1 + 1
 
-	setActive(arg_19_0:findTF("select", arg_19_2), arg_19_0.selectedIdx == var_19_0)
-	setActive(arg_19_0:findTF("unselect", arg_19_2), arg_19_0.selectedIdx ~= var_19_0)
+	setActive(arg_20_2:Find("select"), arg_20_0.selectedIdx == var_20_0)
+	setActive(arg_20_2:Find("unselect"), arg_20_0.selectedIdx ~= var_20_0)
 
-	local var_19_1 = arg_19_0.placeCommissionList[var_19_0]
-	local var_19_2 = pg.island_production_commission[var_19_1].slot
-	local var_19_3 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(arg_19_0.placeId):GetDelegationSlotData(var_19_2)
+	local var_20_1 = arg_20_0.placeCommissionList[var_20_0]
+	local var_20_2 = pg.island_production_commission[var_20_1].slot
+	local var_20_3 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetBuilding(arg_20_0.placeId):GetDelegationSlotData(var_20_2)
 
-	setActive(arg_19_0:findTF("lock", arg_19_2), not var_19_3)
-	setButtonEnabled(arg_19_2, var_19_3 ~= nil)
+	setActive(arg_20_2:Find("lock"), not var_20_3)
+	setButtonEnabled(arg_20_2, var_20_3 ~= nil)
 
-	if arg_19_0.selectedIdx == var_19_0 then
-		arg_19_0.selectPanel:ExecuteAction("Flush")
+	if arg_20_0.selectedIdx == var_20_0 then
+		arg_20_0.selectPanel:ExecuteAction("Flush")
 	end
 
-	if not var_19_3 then
-		setActive(arg_19_0:findTF("complete ", arg_19_2), false)
-		setActive(arg_19_0:findTF("product_icon", arg_19_2), false)
+	if not var_20_3 then
+		setActive(arg_20_2:Find("complete "), false)
+		setActive(arg_20_2:Find("product_icon"), false)
 
 		return
 	end
 
-	local var_19_4 = var_19_3:GetSlotRoleData()
-	local var_19_5 = var_19_3:GetSlotRewardData()
-	local var_19_6 = var_19_4 == nil and var_19_5 ~= nil
+	local var_20_4 = var_20_3:GetSlotRoleData()
+	local var_20_5 = var_20_3:GetSlotRewardData()
+	local var_20_6 = var_20_4 == nil and var_20_5 ~= nil
 
-	setActive(arg_19_0:findTF("complete ", arg_19_2), var_19_6)
+	setActive(arg_20_2:Find("complete "), var_20_6)
 
-	local var_19_7 = var_19_4 and var_19_4.formula_id or nil
+	local var_20_7 = var_20_4 and var_20_4.formula_id or nil
 
-	var_19_7 = var_19_7 or var_19_5 and var_19_5.formula_id or nil
+	var_20_7 = var_20_7 or var_20_5 and var_20_5.formula_id or nil
 
-	if var_19_7 then
-		setActive(arg_19_0:findTF("product_icon", arg_19_2), true)
+	if var_20_7 then
+		setActive(arg_20_2:Find("product_icon"), true)
 
-		local var_19_8 = pg.island_formula[var_19_7]
-		local var_19_9 = pg.island_item_data_template[var_19_8.item_id]
+		local var_20_8 = pg.island_formula[var_20_7]
+		local var_20_9 = pg.island_item_data_template[var_20_8.item_id]
 
-		GetImageSpriteFromAtlasAsync("island/" .. var_19_9.icon, "", arg_19_0:findTF("product_icon", arg_19_2))
+		GetImageSpriteFromAtlasAsync("island/" .. var_20_9.icon, "", arg_20_2:Find("product_icon"))
 	else
-		setActive(arg_19_0:findTF("product_icon", arg_19_2), false)
+		setActive(arg_20_2:Find("product_icon"), false)
 	end
 end
 
-function var_0_0.Flush(arg_20_0)
-	arg_20_0.delegationList:align(#arg_20_0.placeCommissionList)
-	arg_20_0.delegationTabList:align(#arg_20_0.placeCommissionList)
+function var_0_0.Flush(arg_21_0)
+	arg_21_0.delegationList:align(#arg_21_0.placeCommissionList)
+	arg_21_0.delegationTabList:align(#arg_21_0.placeCommissionList)
 end
 
-function var_0_0.OnShow(arg_21_0, arg_21_1, arg_21_2)
-	if arg_21_1 then
-		arg_21_0.placeId = arg_21_1
+function var_0_0.OnShow(arg_22_0, arg_22_1, arg_22_2)
+	if arg_22_1 then
+		arg_22_0.placeId = arg_22_1
 	else
-		arg_21_0.placeId = arg_21_0.npcToPlaceCfg[arg_21_2][1]
+		arg_22_0.placeId = arg_22_0.npcToPlaceCfg[arg_22_2][1]
 	end
 
-	arg_21_0.placeCfg = pg.island_production_place[arg_21_0.placeId]
-	arg_21_0.placeCommissionList = arg_21_0.placeCfg.commission_slot
+	arg_22_0.placeCfg = pg.island_production_place[arg_22_0.placeId]
+	arg_22_0.placeCommissionList = arg_22_0.placeCfg.commission_slot
 
-	if arg_21_0.placeCfg.delegationCamera then
-		IslandCameraMgr.instance:ActiveVirtualCamera(arg_21_0.placeCfg.delegationCamera)
+	if arg_22_0.placeCfg.delegationCamera then
+		IslandCameraMgr.instance:ActiveVirtualCamera(arg_22_0.placeCfg.delegationCamera)
 	end
 
-	arg_21_0.timeMgr = pg.TimeMgr.GetInstance()
-	arg_21_0.selectedShip = arg_21_0.contextData.selectedShip
+	arg_22_0.timeMgr = pg.TimeMgr.GetInstance()
+	arg_22_0.selectedShip = arg_22_0.contextData.selectedShip
 
-	arg_21_0:DefaultTargetTabIndex()
+	arg_22_0:DefaultTargetTabIndex()
 
-	if arg_21_0.selectedShip then
-		arg_21_0:LoadPreconcenCharacter(arg_21_0.selectedShip)
+	if arg_22_0.selectedShip then
+		arg_22_0:LoadPreconcenCharacter(arg_22_0.selectedShip)
 	end
 
-	arg_21_0:StopTimer()
-	arg_21_0:StartTimer()
-	setText(arg_21_0:findTF("top/title/Text"), arg_21_0.placeCfg.name)
-	setText(arg_21_0:findTF("top/title/Text/en"), "PRODUCTING")
+	arg_22_0:StopTimer()
+	arg_22_0:StartTimer()
+	setText(arg_22_0._tf:Find("top/title/Text"), arg_22_0.placeCfg.name)
+	setText(arg_22_0._tf:Find("top/title/Text/en"), "PRODUCTING")
 end
 
-function var_0_0.DefaultTargetTabIndex(arg_22_0)
-	local var_22_0 = arg_22_0.contextData.selectedIdx or 1
+function var_0_0.DefaultTargetTabIndex(arg_23_0)
+	local var_23_0 = arg_23_0.contextData.selectedIdx or 1
 
-	arg_22_0:OnSelectTargetIndexCommission(var_22_0 - 1, true)
+	arg_23_0:OnSelectTargetIndexCommission(var_23_0 - 1, true)
 end
 
-function var_0_0.OnHide(arg_23_0)
-	arg_23_0:StopTimer()
-	arg_23_0:emitCore(ISLAND_EVT.RECYCLE_ALL_SLOTDELEEFFECT)
-	arg_23_0:UnloadPreconcenCharacter()
+function var_0_0.OnHide(arg_24_0)
+	arg_24_0:StopTimer()
+	arg_24_0:emitCore(ISLAND_EVT.RECYCLE_ALL_SLOTDELEEFFECT)
+	arg_24_0:UnloadPreconcenCharacter()
 
-	if arg_23_0.awardDisplayPanel then
-		arg_23_0.awardDisplayPanel:Hide()
+	if arg_24_0.awardDisplayPanel then
+		arg_24_0.awardDisplayPanel:Hide()
 	end
 end
 
-function var_0_0.OnExit(arg_24_0)
-	arg_24_0.contextData.selectedIdx = nil
-	arg_24_0.contextData.selectedShip = nil
+function var_0_0.OnExit(arg_25_0)
+	arg_25_0.contextData.selectedIdx = nil
+	arg_25_0.contextData.selectedShip = nil
 end
 
-function var_0_0.StartTimer(arg_25_0)
-	setActive(arg_25_0.content, false)
+function var_0_0.StartTimer(arg_26_0)
+	setActive(arg_26_0.content, false)
 
-	arg_25_0.timer = Timer.New(function()
-		setActive(arg_25_0.content, true)
-		arg_25_0:Flush()
+	arg_26_0.timer = Timer.New(function()
+		setActive(arg_26_0.content, true)
+		arg_26_0:Flush()
 	end, var_0_1, 0)
 
-	arg_25_0.timer:Start()
+	arg_26_0.timer:Start()
 end
 
-function var_0_0.StopTimer(arg_27_0)
-	if arg_27_0.timer ~= nil then
-		arg_27_0.timer:Stop()
+function var_0_0.StopTimer(arg_28_0)
+	if arg_28_0.timer ~= nil then
+		arg_28_0.timer:Stop()
 
-		arg_27_0.timer = nil
+		arg_28_0.timer = nil
 	end
 end
 
-function var_0_0.OnDestroy(arg_28_0)
-	arg_28_0:StopTimer()
+function var_0_0.OnDestroy(arg_29_0)
+	arg_29_0:StopTimer()
 
-	if arg_28_0.selectPanel then
-		arg_28_0.selectPanel:Destroy()
+	if arg_29_0.selectPanel then
+		arg_29_0.selectPanel:Destroy()
 
-		arg_28_0.selectPanel = nil
+		arg_29_0.selectPanel = nil
 	end
 
-	if arg_28_0.awardDisplayPanel then
-		arg_28_0.awardDisplayPanel:Destroy()
+	if arg_29_0.awardDisplayPanel then
+		arg_29_0.awardDisplayPanel:Destroy()
 
-		arg_28_0.awardDisplayPanel = nil
+		arg_29_0.awardDisplayPanel = nil
 	end
 end
 
-function var_0_0.OnGetDelegationAwardDone(arg_29_0, arg_29_1)
-	if arg_29_1.addShipExpData then
-		local var_29_0 = {}
-		local var_29_1 = arg_29_1.addShipExpData.addShipId
-		local var_29_2 = arg_29_1.addShipExpData.addExp
-		local var_29_3 = IslandShip.StaticGetPrefab(var_29_1)
-		local var_29_4 = "island/IslandShipIcon/" .. var_29_3
-
-		arg_29_0:UpdateMainAwardReward({
-			shipExp = true,
-			icon = var_29_4,
-			num = var_29_2
-		})
-	end
-
-	arg_29_0.delegationTabList:align(#arg_29_0.placeCommissionList)
-end
-
-function var_0_0.OnFinishDelegationDone(arg_30_0, arg_30_1)
+function var_0_0.OnGetDelegationAwardDone(arg_30_0, arg_30_1)
 	if arg_30_1.addShipExpData then
 		local var_30_0 = {}
 		local var_30_1 = arg_30_1.addShipExpData.addShipId
@@ -323,32 +310,50 @@ function var_0_0.OnFinishDelegationDone(arg_30_0, arg_30_1)
 	arg_30_0.delegationTabList:align(#arg_30_0.placeCommissionList)
 end
 
-function var_0_0.OnUseTicketDone(arg_31_0, arg_31_1)
-	if arg_31_1.type == IslandUseTicketCommand.TYPES.APPOINT then
-		arg_31_0.delegationTabList:align(#arg_31_0.placeCommissionList)
+function var_0_0.OnFinishDelegationDone(arg_31_0, arg_31_1)
+	if arg_31_1.addShipExpData then
+		local var_31_0 = {}
+		local var_31_1 = arg_31_1.addShipExpData.addShipId
+		local var_31_2 = arg_31_1.addShipExpData.addExp
+		local var_31_3 = IslandShip.StaticGetPrefab(var_31_1)
+		local var_31_4 = "island/IslandShipIcon/" .. var_31_3
+
+		arg_31_0:UpdateMainAwardReward({
+			shipExp = true,
+			icon = var_31_4,
+			num = var_31_2
+		})
+	end
+
+	arg_31_0.delegationTabList:align(#arg_31_0.placeCommissionList)
+end
+
+function var_0_0.OnUseTicketDone(arg_32_0, arg_32_1)
+	if arg_32_1.type == IslandUseTicketCommand.TYPES.APPOINT then
+		arg_32_0.delegationTabList:align(#arg_32_0.placeCommissionList)
 	end
 end
 
-function var_0_0.OnDelegationStartDone(arg_32_0)
-	arg_32_0.delegationTabList:align(#arg_32_0.placeCommissionList)
+function var_0_0.OnDelegationStartDone(arg_33_0)
+	arg_33_0.delegationTabList:align(#arg_33_0.placeCommissionList)
 end
 
-function var_0_0.LoadPreconcenCharacter(arg_33_0, arg_33_1)
-	arg_33_0:UnloadPreconcenCharacter()
+function var_0_0.LoadPreconcenCharacter(arg_34_0, arg_34_1)
+	arg_34_0:UnloadPreconcenCharacter()
 
-	local var_33_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_33_1)
-	local var_33_1 = arg_33_0.placeCommissionList[arg_33_0.selectedIdx]
-	local var_33_2 = pg.island_production_commission[var_33_1].birthplace
+	local var_34_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_34_1)
+	local var_34_1 = arg_34_0.placeCommissionList[arg_34_0.selectedIdx]
+	local var_34_2 = pg.island_production_commission[var_34_1].birthplace
 
-	arg_33_0:emitCore(ISLAND_EVT.LOAD_DELEGATE_PREVIEW_ROLE, var_33_0:GetModel(), var_33_2)
+	arg_34_0:emitCore(ISLAND_EVT.LOAD_DELEGATE_PREVIEW_ROLE, var_34_0:GetModel(), var_34_2)
 end
 
-function var_0_0.UnloadPreconcenCharacter(arg_34_0)
-	arg_34_0:emitCore(ISLAND_EVT.UN_LOAD_DELEGATE_PREVIEW_ROLE)
+function var_0_0.UnloadPreconcenCharacter(arg_35_0)
+	arg_35_0:emitCore(ISLAND_EVT.UN_LOAD_DELEGATE_PREVIEW_ROLE)
 end
 
-function var_0_0.UpdateMainAwardReward(arg_35_0, arg_35_1)
-	arg_35_0.awardDisplayPanel:ExecuteAction("ShowAwards", arg_35_1)
+function var_0_0.UpdateMainAwardReward(arg_36_0, arg_36_1)
+	arg_36_0.awardDisplayPanel:ExecuteAction("ShowAwards", arg_36_1)
 end
 
 return var_0_0

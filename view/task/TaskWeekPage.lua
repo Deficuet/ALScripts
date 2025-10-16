@@ -14,7 +14,7 @@ end
 function var_0_0.OnLoaded(arg_3_0)
 	var_0_0.super.OnLoaded(arg_3_0)
 
-	local var_3_0 = arg_3_0:findTF("task_progress")
+	local var_3_0 = arg_3_0._tf:Find("task_progress")
 
 	setActive(var_3_0, true)
 	setText(var_3_0:Find("title"), i18n("week_task_title_label"))

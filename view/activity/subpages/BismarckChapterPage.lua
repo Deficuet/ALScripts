@@ -23,19 +23,19 @@ var_0_0.TransformType = {
 }
 
 function var_0_0.OnInit(arg_3_0)
-	arg_3_0.bg = arg_3_0:findTF("AD")
+	arg_3_0.bg = arg_3_0._tf:Find("AD")
 	arg_3_0.items = {}
-	arg_3_0.items[1] = arg_3_0:findTF("AD/Item1")
-	arg_3_0.items[2] = arg_3_0:findTF("AD/Item2")
-	arg_3_0.awardTF = arg_3_0:findTF("AD/award")
-	arg_3_0.battleBtn = arg_3_0:findTF("AD/battle_btn")
-	arg_3_0.shopBtn = arg_3_0:findTF("AD/exchange_btn")
-	arg_3_0.buildBtn = arg_3_0:findTF("AD/build_btn")
-	arg_3_0.tab = arg_3_0:findTF("tab")
-	arg_3_0.bar = arg_3_0:findTF("bar")
-	arg_3_0.scrollList = arg_3_0:findTF("Scroll View", arg_3_0.tab)
-	arg_3_0.content = arg_3_0:findTF("Content", arg_3_0.scrollList)
-	arg_3_0.listTmpl = arg_3_0:findTF("listitem", arg_3_0.tab)
+	arg_3_0.items[1] = arg_3_0._tf:Find("AD/Item1")
+	arg_3_0.items[2] = arg_3_0._tf:Find("AD/Item2")
+	arg_3_0.awardTF = arg_3_0._tf:Find("AD/award")
+	arg_3_0.battleBtn = arg_3_0._tf:Find("AD/battle_btn")
+	arg_3_0.shopBtn = arg_3_0._tf:Find("AD/exchange_btn")
+	arg_3_0.buildBtn = arg_3_0._tf:Find("AD/build_btn")
+	arg_3_0.tab = arg_3_0._tf:Find("tab")
+	arg_3_0.bar = arg_3_0._tf:Find("bar")
+	arg_3_0.scrollList = arg_3_0.tab:Find("Scroll View")
+	arg_3_0.content = arg_3_0.scrollList:Find("Content")
+	arg_3_0.listTmpl = arg_3_0.tab:Find("listitem")
 	arg_3_0.taskList = UIItemList.New(arg_3_0.content, arg_3_0.listTmpl)
 	arg_3_0.finalTasks = {}
 	arg_3_0.subtasks = {}
@@ -55,7 +55,7 @@ function var_0_0.OnFirstFlush(arg_4_0)
 			table.insert(arg_4_0.subtasks, Clone(var_5_1))
 		end
 	end)
-	setText(arg_4_0:findTF("desc", arg_4_0.bg), i18n("bismarck_chapter_desc"))
+	setText(arg_4_0.bg:Find("desc"), i18n("bismarck_chapter_desc"))
 	arg_4_0:SubimtCompletedMission()
 	arg_4_0:InitInteractable()
 end
@@ -136,7 +136,7 @@ function var_0_0.UpdateView(arg_14_0)
 
 		local var_14_4 = var_14_2.award_display[1]
 
-		arg_14_0:UpdateIcon(arg_14_0:findTF("icon", var_14_3), var_14_4[1], var_14_4[2])
+		arg_14_0:UpdateIcon(var_14_3:Find("icon"), var_14_4[1], var_14_4[2])
 
 		local var_14_5 = var_14_0:getTaskVO(var_14_1):getTaskStatus()
 
@@ -173,7 +173,7 @@ function var_0_0.UpdateTab(arg_15_0)
 	for iter_15_0 = 1, var_15_1 do
 		local var_15_4 = arg_15_0.content:GetChild(iter_15_0 - 1)
 
-		setText(arg_15_0:findTF("title/Text", var_15_4), string.format("Task-%02d", iter_15_0))
+		setText(var_15_4:Find("title/Text"), string.format("Task-%02d", iter_15_0))
 
 		local var_15_5 = var_15_0[iter_15_0]
 		local var_15_6 = pg.task_data_template[var_15_5]
@@ -187,13 +187,13 @@ function var_0_0.UpdateTab(arg_15_0)
 		local var_15_10 = var_15_2:getTaskById(var_15_5) or var_15_2:getFinishTaskById(var_15_5)
 
 		setActive(var_15_4:Find("completed"), defaultValue(var_15_10 and var_15_10:isFinish(), false))
-		setText(arg_15_0:findTF("text", var_15_4), var_15_6.desc)
-		arg_15_0:UpdateIcon(arg_15_0:findTF("icon", var_15_4), var_15_8, var_15_7)
+		setText(var_15_4:Find("text"), var_15_6.desc)
+		arg_15_0:UpdateIcon(var_15_4:Find("icon"), var_15_8, var_15_7)
 
 		var_15_3 = var_15_3 + (var_15_10 and var_15_10:isFinish() and 1 or 0)
 	end
 
-	setText(arg_15_0:findTF("slider/progress", arg_15_0.tab), string.format("[%d/%d]", var_15_3, var_15_1))
+	setText(arg_15_0.tab:Find("slider/progress"), string.format("[%d/%d]", var_15_3, var_15_1))
 
 	arg_15_0.scrollList:GetComponent(typeof(ScrollRect)).verticalNormalizedPosition = 1
 

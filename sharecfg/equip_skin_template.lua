@@ -48091,10 +48091,9 @@ pg.equip_skin_template = {
 		orbit_combat_anima_change = "",
 		icon = "97441",
 		orbit_combat = "shebei_xingzhizhengyu",
-		orbit_hidden_action = "",
+		orbit_ui_back = 0,
 		mirror = 0,
 		rarity = 4,
-		orbit_ui_back = 0,
 		ship_skin_id = 0,
 		derivate_bullet = "",
 		fire_fx_name = "",
@@ -48124,6 +48123,10 @@ pg.equip_skin_template = {
 				0.44,
 				121.4
 			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
 		}
 	},
 	[2001] = {

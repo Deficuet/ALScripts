@@ -134,6 +134,21 @@ function var_0_0.getPlatform(arg_5_0)
 
 		var_5_7.localScale = Fushun3GameConst.game_scale_v3
 
+		for iter_5_0 = 0, 5 do
+			local var_5_8 = iter_5_0 == 0 and "" or iter_5_0
+			local var_5_9 = findTF(var_5_7, "collider" .. var_5_8)
+
+			if var_5_9 then
+				var_5_9.gameObject.layer = LayerMask.NameToLayer("Collider")
+			end
+		end
+
+		local var_5_10 = findTF(var_5_7, "high_roof")
+
+		if var_5_10 then
+			var_5_10.gameObject.layer = LayerMask.NameToLayer("Collider")
+		end
+
 		setParent(var_5_7, arg_5_0._content)
 
 		var_5_6 = {

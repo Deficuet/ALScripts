@@ -9,15 +9,15 @@ var_0_0.TEXT_MAX_SCALE = Vector3(3, 3, 3)
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.heartTpl = arg_1_0:findTF("HeartTpl", arg_1_0.bg)
-	arg_1_0.heartContainer = arg_1_0:findTF("HeartContainer", arg_1_0.bg)
-	arg_1_0.helpBtn = arg_1_0:findTF("help_btn", arg_1_0.bg)
-	arg_1_0.getFinalBtn = arg_1_0:findTF("get_final_btn", arg_1_0.bg)
-	arg_1_0.gotFinalBtn = arg_1_0:findTF("got_final_btn", arg_1_0.bg)
-	arg_1_0.performBtn = arg_1_0:findTF("perform_btn", arg_1_0.bg)
-	arg_1_0.performImage = arg_1_0:findTF("image", arg_1_0.performBtn)
-	arg_1_0.performText = arg_1_0:findTF("text", arg_1_0.performBtn)
-	arg_1_0.performReBtn = arg_1_0:findTF("perform_re_btn", arg_1_0.bg)
+	arg_1_0.heartTpl = arg_1_0.bg:Find("HeartTpl")
+	arg_1_0.heartContainer = arg_1_0.bg:Find("HeartContainer")
+	arg_1_0.helpBtn = arg_1_0.bg:Find("help_btn")
+	arg_1_0.getFinalBtn = arg_1_0.bg:Find("get_final_btn")
+	arg_1_0.gotFinalBtn = arg_1_0.bg:Find("got_final_btn")
+	arg_1_0.performBtn = arg_1_0.bg:Find("perform_btn")
+	arg_1_0.performImage = arg_1_0.performBtn:Find("image")
+	arg_1_0.performText = arg_1_0.performBtn:Find("text")
+	arg_1_0.performReBtn = arg_1_0.bg:Find("perform_re_btn")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -34,7 +34,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 			arg_3_2.name = var_3_0
 
 			local var_3_1 = arg_2_0.ptData:GetLevel()
-			local var_3_2 = arg_2_0:findTF("Full", arg_3_2)
+			local var_3_2 = arg_3_2:Find("Full")
 
 			setFillAmount(var_3_2, 1)
 			setActive(var_3_2, var_3_0 <= var_3_1)
@@ -152,7 +152,7 @@ function var_0_0.OnGetBtnClick(arg_12_0)
 
 	table.insert(var_12_0, function(arg_14_0)
 		local var_14_0 = arg_12_0.ptData:GetLevelProgress()
-		local var_14_1 = arg_12_0:findTF(var_14_0 .. "/Full", arg_12_0.heartContainer)
+		local var_14_1 = arg_12_0.heartContainer:Find(var_14_0 .. "/Full")
 
 		setFillAmount(var_14_1, 0)
 		setActive(var_14_1, true)

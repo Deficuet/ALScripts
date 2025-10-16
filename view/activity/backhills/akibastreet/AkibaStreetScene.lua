@@ -19,8 +19,8 @@ var_0_0.Buildings = {
 
 function var_0_0.init(arg_1_0)
 	arg_1_0.loader = AutoLoader.New()
-	arg_1_0.top = arg_1_0:findTF("top")
-	arg_1_0._map = arg_1_0:findTF("map")
+	arg_1_0.top = arg_1_0._tf:Find("top")
+	arg_1_0._map = arg_1_0._tf:Find("map")
 
 	for iter_1_0 = 0, arg_1_0._map.childCount - 1 do
 		local var_1_0 = arg_1_0._map:GetChild(iter_1_0)
@@ -29,7 +29,7 @@ function var_0_0.init(arg_1_0)
 		arg_1_0["map_" .. var_1_1] = var_1_0
 	end
 
-	arg_1_0._upper = arg_1_0:findTF("upper")
+	arg_1_0._upper = arg_1_0._tf:Find("upper")
 
 	for iter_1_1 = 0, arg_1_0._upper.childCount - 1 do
 		local var_1_2 = arg_1_0._upper:GetChild(iter_1_1)
@@ -138,7 +138,7 @@ function var_0_0.RegisterDataResponse(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_7_0)
-	onButton(arg_7_0, arg_7_0:findTF("top/return_btn"), function()
+	onButton(arg_7_0, arg_7_0._tf:Find("top/return_btn"), function()
 		arg_7_0:emit(var_0_0.ON_BACK)
 	end)
 	onButton(arg_7_0, arg_7_0.top:Find("daka_count"), function()
@@ -150,10 +150,10 @@ function var_0_0.didEnter(arg_7_0)
 			})
 		end
 	end)
-	onButton(arg_7_0, arg_7_0:findTF("top/return_main_btn"), function()
+	onButton(arg_7_0, arg_7_0._tf:Find("top/return_main_btn"), function()
 		arg_7_0:emit(var_0_0.ON_HOME)
 	end)
-	onButton(arg_7_0, arg_7_0:findTF("top/help_btn"), function()
+	onButton(arg_7_0, arg_7_0._tf:Find("top/help_btn"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.qingdianguangchang_help.tip

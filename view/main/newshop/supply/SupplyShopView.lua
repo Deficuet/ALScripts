@@ -28,8 +28,8 @@ function var_0_0.OnInit(arg_3_0)
 		[ShopConst.TYPE_MINI_GAME] = MiniGameShopPage.New(arg_3_0, arg_3_0._go)
 	}
 	arg_3_0.shopResItemList = {}
-	arg_3_0.shopResParent = arg_3_0:findTF("bg/resList")
-	arg_3_0.shopResItem = arg_3_0:findTF("bg/resList/res")
+	arg_3_0.shopResParent = arg_3_0._tf:Find("bg/resList")
+	arg_3_0.shopResItem = arg_3_0._tf:Find("bg/resList/res")
 
 	arg_3_0:blurView()
 end
@@ -55,15 +55,15 @@ function var_0_0.OnDestroy(arg_4_0)
 end
 
 function var_0_0.initUI(arg_5_0)
-	arg_5_0.lScrollRect = GetComponent(arg_5_0:findTF("scroll"), "LScrollRect")
-	arg_5_0.scrollContent = arg_5_0:findTF("scroll/content")
+	arg_5_0.lScrollRect = GetComponent(arg_5_0._tf:Find("scroll"), "LScrollRect")
+	arg_5_0.scrollContent = arg_5_0._tf:Find("scroll/content")
 	arg_5_0.scrollRectTF = GetComponent(arg_5_0.scrollContent, typeof(RectTransform))
 	arg_5_0.layoutGroup = GetComponent(arg_5_0.scrollContent, typeof(GridLayoutGroup))
-	arg_5_0.scrollRectSpecial = arg_5_0:findTF("scrollRectSpecial")
+	arg_5_0.scrollRectSpecial = arg_5_0._tf:Find("scrollRectSpecial")
 
 	setActive(arg_5_0.scrollRectSpecial, false)
 
-	local var_5_0 = GetComponent(arg_5_0:findTF("viewport/view/group/items", arg_5_0.scrollRectSpecial), typeof(GridLayoutGroup))
+	local var_5_0 = GetComponent(arg_5_0.scrollRectSpecial:Find("viewport/view/group/items"), typeof(GridLayoutGroup))
 	local var_5_1 = arg_5_0.scrollRectTF.rect.width
 	local var_5_2 = arg_5_0.layoutGroup.cellSize.x
 	local var_5_3 = math.floor(var_5_1 / var_5_2)
@@ -111,7 +111,7 @@ function var_0_0.SetAllShopData(arg_7_0, arg_7_1)
 
 	local var_7_1 = arg_7_0:GetDefaultShopIndex()
 
-	triggerButton(arg_7_0:findTF("toggleGroup"):GetChild(arg_7_0.packageSortList[var_7_1].index - 1))
+	triggerButton(arg_7_0._tf:Find("toggleGroup"):GetChild(arg_7_0.packageSortList[var_7_1].index - 1))
 	arg_7_0:UpdateShop()
 end
 
@@ -156,8 +156,8 @@ function var_0_0.updateToggleList(arg_9_0)
 end
 
 function var_0_0.initToggleList(arg_10_0)
-	local var_10_0 = arg_10_0:findTF("toggleGroup")
-	local var_10_1 = arg_10_0:findTF("toggleGroup/Toggle")
+	local var_10_0 = arg_10_0._tf:Find("toggleGroup")
+	local var_10_1 = arg_10_0._tf:Find("toggleGroup/Toggle")
 
 	arg_10_0.uiToggleList = UIItemList.New(var_10_0, var_10_1)
 
@@ -165,18 +165,18 @@ function var_0_0.initToggleList(arg_10_0)
 		if arg_11_0 == UIItemList.EventInit then
 			local var_11_0 = arg_10_0.packageSortList[arg_11_1 + 1].type
 
-			setText(arg_10_0:findTF("selected/Label", arg_11_2), i18n(ShopConst.TYPE2NAME[var_11_0]))
-			setText(arg_10_0:findTF("selected/enText", arg_11_2), i18n(ShopConst.TYPE2NAME[var_11_0] .. "en"))
-			setText(arg_10_0:findTF("unselected/Label", arg_11_2), i18n(ShopConst.TYPE2NAME[var_11_0]))
+			setText(arg_11_2:Find("selected/Label"), i18n(ShopConst.TYPE2NAME[var_11_0]))
+			setText(arg_11_2:Find("selected/enText"), i18n(ShopConst.TYPE2NAME[var_11_0] .. "en"))
+			setText(arg_11_2:Find("unselected/Label"), i18n(ShopConst.TYPE2NAME[var_11_0]))
 
 			local var_11_1 = arg_10_0.packageSortList[arg_11_1 + 1].index
 			local var_11_2 = arg_10_0.allShopList[var_11_0][1]
 			local var_11_3, var_11_4 = arg_10_0.pages[var_11_0]:CanOpen(var_11_2, arg_10_0.player)
 
 			if var_11_3 == false then
-				setActive(arg_10_0:findTF("unselected/Label/lock", arg_11_2), true)
+				setActive(arg_11_2:Find("unselected/Label/lock"), true)
 			else
-				setActive(arg_10_0:findTF("unselected/Label/lock", arg_11_2), false)
+				setActive(arg_11_2:Find("unselected/Label/lock"), false)
 			end
 
 			setActive(arg_11_2:Find("unselected"), true)
@@ -343,7 +343,7 @@ end
 function var_0_0.blurView(arg_27_0)
 	arg_27_0:OverlayPanel(arg_27_0._tf, {
 		pbList = {
-			arg_27_0:findTF("bg")
+			arg_27_0._tf:Find("bg")
 		}
 	})
 end

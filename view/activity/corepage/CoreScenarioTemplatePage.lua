@@ -265,8 +265,9 @@ function var_0_0.UpdateStory(arg_15_0)
 				nextPos = tf(var_16_5).anchoredPosition + Vector2.New(var_15_5 + var_15_10, 0)
 
 				local var_16_6 = arg_15_0.storyNodeStatus[var_16_4].status
+				local var_16_7 = tf(var_16_5):Find("mask/Lines")
 
-				eachChild(tf(var_16_5):Find("mask/Lines"), function(arg_18_0)
+				eachChild(var_16_7, function(arg_18_0)
 					setImageColor(arg_18_0, Color.NewHex(var_15_0[var_16_6]))
 				end)
 				table.insert(var_15_14, {
@@ -274,8 +275,8 @@ function var_0_0.UpdateStory(arg_15_0)
 					nodePos = nextPos
 				})
 			elseif #var_16_2 > 1 then
-				local var_16_7 = {}
-				local var_16_8
+				local var_16_8 = {}
+				local var_16_9
 
 				table.Ipairs(var_16_2, function(arg_19_0, arg_19_1)
 					local var_19_0 = 0
@@ -295,7 +296,7 @@ function var_0_0.UpdateStory(arg_15_0)
 
 							return true
 						else
-							var_16_8 = var_20_1
+							var_16_9 = var_20_1
 						end
 					end
 
@@ -303,37 +304,38 @@ function var_0_0.UpdateStory(arg_15_0)
 						-- block empty
 					end
 
-					var_16_7[arg_19_0] = var_19_0
+					var_16_8[arg_19_0] = var_19_0
 				end)
 
-				local var_16_9 = _.max(var_16_7)
-				local var_16_10 = var_16_9 * (var_15_4 + var_15_10 + var_15_12) + (var_16_9 - 1) * var_15_5
-				local var_16_11 = var_16_0.nodePos + Vector2.New(var_15_4 + var_15_12, 0)
+				local var_16_10 = _.max(var_16_8)
+				local var_16_11 = var_16_10 * (var_15_4 + var_15_10 + var_15_12) + (var_16_10 - 1) * var_15_5
+				local var_16_12 = var_16_0.nodePos + Vector2.New(var_15_4 + var_15_12, 0)
 
 				;(function()
 					local var_21_0 = arg_15_0:DequeItem(arg_15_0.branchHeadTpl)
 
-					setAnchoredPosition(var_21_0, var_16_11)
+					setAnchoredPosition(var_21_0, var_16_12)
 
-					var_16_11 = var_16_11 + Vector2.New(var_15_6, 0)
+					var_16_12 = var_16_12 + Vector2.New(var_15_6, 0)
 
 					local var_21_1 = arg_15_0.storyNodeStatus[var_16_2[1]:GetConfigID()].status
+					local var_21_2 = tf(var_21_0):Find("mask/Lines")
 
-					eachChild(tf(var_21_0):Find("mask/Lines"), function(arg_22_0)
+					eachChild(var_21_2, function(arg_22_0)
 						setImageColor(arg_22_0, Color.NewHex(var_15_0[var_21_1]))
 					end)
 				end)()
 				table.Ipairs(var_16_2, function(arg_23_0, arg_23_1)
 					local var_23_0 = var_15_5
 
-					if var_16_7[arg_23_0] < var_16_9 then
-						local var_23_1 = var_16_7[arg_23_0]
+					if var_16_8[arg_23_0] < var_16_10 then
+						local var_23_1 = var_16_8[arg_23_0]
 
-						var_23_0 = (var_16_10 - var_23_1 * (var_15_4 + var_15_10 + var_15_12)) / (var_23_1 + 1)
+						var_23_0 = (var_16_11 - var_23_1 * (var_15_4 + var_15_10 + var_15_12)) / (var_23_1 + 1)
 					end
 
 					local var_23_2 = arg_23_1:GetConfigID()
-					local var_23_3 = var_16_11
+					local var_23_3 = var_16_12
 
 					;(function()
 						local var_24_0
@@ -345,7 +347,7 @@ function var_0_0.UpdateStory(arg_15_0)
 
 							var_23_3 = var_23_3 + Vector2.New(var_15_7, var_15_8)
 
-							if var_16_7[arg_23_0] < var_16_9 then
+							if var_16_8[arg_23_0] < var_16_10 then
 								setSizeDelta(var_24_0, {
 									x = var_15_7 + var_23_0,
 									y = var_15_8
@@ -366,7 +368,7 @@ function var_0_0.UpdateStory(arg_15_0)
 
 							var_23_3 = var_23_3 + Vector2.New(var_15_7, -var_15_8)
 
-							if var_16_7[arg_23_0] < var_16_9 then
+							if var_16_8[arg_23_0] < var_16_10 then
 								setSizeDelta(var_24_0, {
 									x = var_15_7 + var_23_0,
 									y = var_15_8
@@ -387,7 +389,7 @@ function var_0_0.UpdateStory(arg_15_0)
 
 							var_23_3 = var_23_3 + Vector2.New(var_15_7, 0)
 
-							if var_16_7[arg_23_0] < var_16_9 then
+							if var_16_8[arg_23_0] < var_16_10 then
 								local var_24_3 = tf(var_24_0).sizeDelta
 
 								var_24_3.x = var_24_3.x + var_23_0
@@ -401,8 +403,9 @@ function var_0_0.UpdateStory(arg_15_0)
 						var_24_0.name = string.format("Branch%s_%s", var_16_1, var_23_2)
 
 						local var_24_4 = arg_15_0.storyNodeStatus[var_23_2].status
+						local var_24_5 = tf(var_24_0):Find("mask/Lines")
 
-						eachChild(tf(var_24_0):Find("mask/Lines"), function(arg_25_0)
+						eachChild(var_24_5, function(arg_25_0)
 							setImageColor(arg_25_0, Color.NewHex(var_15_0[var_24_4]))
 						end)
 					end)()
@@ -424,7 +427,7 @@ function var_0_0.UpdateStory(arg_15_0)
 					local var_23_6 = arg_23_1
 
 					local function var_23_7()
-						if not var_23_5 or var_23_5 == var_16_8 then
+						if not var_23_5 or var_23_5 == var_16_9 then
 							return
 						end
 
@@ -442,19 +445,20 @@ function var_0_0.UpdateStory(arg_15_0)
 						})
 
 						local var_26_1 = arg_15_0.storyNodeStatus[var_23_5:GetConfigID()].status
+						local var_26_2 = tf(var_26_0):Find("mask/Lines")
 
-						eachChild(tf(var_26_0):Find("mask/Lines"), function(arg_27_0)
+						eachChild(var_26_2, function(arg_27_0)
 							setImageColor(arg_27_0, Color.NewHex(var_15_0[var_26_1]))
 						end)
 
-						local var_26_2 = arg_15_0:DequeItem(arg_15_0.storyNodeTpl)
+						local var_26_3 = arg_15_0:DequeItem(arg_15_0.storyNodeTpl)
 
-						var_26_2.name = var_23_5:GetConfigID()
+						var_26_3.name = var_23_5:GetConfigID()
 
-						setAnchoredPosition(var_26_2, var_23_3)
+						setAnchoredPosition(var_26_3, var_23_3)
 
 						arg_15_0.storyNodeTFsById[var_23_5:GetConfigID()] = {
-							nodeTF = tf(var_26_2)
+							nodeTF = tf(var_26_3)
 						}
 						var_23_3 = var_23_3 + Vector2.New(var_15_4 + var_15_12, 0)
 						var_23_5, var_23_6 = arg_15_0.nodeChildDict[var_23_5:GetConfigID()][1], var_23_5
@@ -466,7 +470,7 @@ function var_0_0.UpdateStory(arg_15_0)
 						-- block empty
 					end
 
-					if var_16_8 then
+					if var_16_9 then
 						local var_23_8
 
 						if arg_23_0 == 1 then
@@ -474,7 +478,7 @@ function var_0_0.UpdateStory(arg_15_0)
 
 							setAnchoredPosition(var_23_8, var_23_3)
 
-							if var_16_7[arg_23_0] < var_16_9 then
+							if var_16_8[arg_23_0] < var_16_10 then
 								setSizeDelta(var_23_8, {
 									x = var_15_7 + var_23_0,
 									y = var_15_8
@@ -493,7 +497,7 @@ function var_0_0.UpdateStory(arg_15_0)
 
 							setAnchoredPosition(var_23_8, var_23_3)
 
-							if var_16_7[arg_23_0] < var_16_9 then
+							if var_16_8[arg_23_0] < var_16_10 then
 								setSizeDelta(var_23_8, {
 									x = var_15_7 + var_23_0,
 									y = var_15_8
@@ -512,7 +516,7 @@ function var_0_0.UpdateStory(arg_15_0)
 
 							setAnchoredPosition(var_23_8, var_23_3)
 
-							if var_16_7[arg_23_0] < var_16_9 then
+							if var_16_8[arg_23_0] < var_16_10 then
 								local var_23_11 = tf(var_23_8).sizeDelta
 
 								var_23_11.x = var_23_11.x + var_23_0
@@ -523,40 +527,42 @@ function var_0_0.UpdateStory(arg_15_0)
 							end
 						end
 
-						var_23_8.name = string.format("Union%s_%s", var_23_6:GetConfigID(), var_16_8:GetConfigID())
+						var_23_8.name = string.format("Union%s_%s", var_23_6:GetConfigID(), var_16_9:GetConfigID())
 
-						local var_23_12 = arg_15_0.storyNodeStatus[var_16_8:GetConfigID()].status
+						local var_23_12 = arg_15_0.storyNodeStatus[var_16_9:GetConfigID()].status
+						local var_23_13 = tf(var_23_8):Find("mask/Lines")
 
-						eachChild(tf(var_23_8):Find("mask/Lines"), function(arg_28_0)
+						eachChild(var_23_13, function(arg_28_0)
 							setImageColor(arg_28_0, Color.NewHex(var_15_0[var_23_12]))
 						end)
 					end
 				end)
 
-				var_16_11 = var_16_11 + Vector2.New(var_16_10 + var_15_7, 0)
+				var_16_12 = var_16_12 + Vector2.New(var_16_11 + var_15_7, 0)
 
-				if var_16_8 then
+				if var_16_9 then
 					(function()
-						var_16_11 = var_16_11 + Vector2.New(var_15_7, 0)
+						var_16_12 = var_16_12 + Vector2.New(var_15_7, 0)
 
 						local var_29_0 = arg_15_0:DequeItem(arg_15_0.unionTailTpl)
 
-						setAnchoredPosition(var_29_0, var_16_11)
+						setAnchoredPosition(var_29_0, var_16_12)
 
-						var_16_11 = var_16_11 + Vector2.New(var_15_9 + var_15_11, 0)
+						var_16_12 = var_16_12 + Vector2.New(var_15_9 + var_15_11, 0)
 
-						local var_29_1 = arg_15_0.storyNodeStatus[var_16_8:GetConfigID()].status
+						local var_29_1 = arg_15_0.storyNodeStatus[var_16_9:GetConfigID()].status
+						local var_29_2 = tf(var_29_0):Find("mask/Lines")
 
-						eachChild(tf(var_29_0):Find("mask/Lines"), function(arg_30_0)
+						eachChild(var_29_2, function(arg_30_0)
 							setImageColor(arg_30_0, Color.NewHex(var_15_0[var_29_1]))
 						end)
 					end)()
 					table.insert(var_15_14, {
-						node = var_16_8,
-						nodePos = var_16_11
+						node = var_16_9,
+						nodePos = var_16_12
 					})
 				else
-					var_15_13 = var_16_11 + var_15_3
+					var_15_13 = var_16_12 + var_15_3
 				end
 			end
 

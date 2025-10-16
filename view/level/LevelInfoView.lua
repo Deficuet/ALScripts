@@ -44,37 +44,37 @@ function var_0_0.setCBFunc(arg_6_0, arg_6_1, arg_6_2)
 end
 
 function var_0_0.InitUI(arg_7_0)
-	arg_7_0.titleBG = arg_7_0:findTF("panel/title")
-	arg_7_0.titleBGDecoration = arg_7_0:findTF("panel/title/Image")
-	arg_7_0.titleIcon = arg_7_0:findTF("panel/title/icon")
-	arg_7_0.txTitle = arg_7_0:findTF("panel/title_form")
+	arg_7_0.titleBG = arg_7_0._tf:Find("panel/title")
+	arg_7_0.titleBGDecoration = arg_7_0._tf:Find("panel/title/Image")
+	arg_7_0.titleIcon = arg_7_0._tf:Find("panel/title/icon")
+	arg_7_0.txTitle = arg_7_0._tf:Find("panel/title_form")
 	arg_7_0.txTitleOriginPosY = arg_7_0.txTitle.anchoredPosition.y
-	arg_7_0.txTitleHead = arg_7_0:findTF("panel/title_head")
+	arg_7_0.txTitleHead = arg_7_0._tf:Find("panel/title_head")
 
 	setActive(arg_7_0.txTitleHead, false)
 
-	arg_7_0.txIntro = arg_7_0:findTF("panel/intro")
-	arg_7_0.txCost = arg_7_0:findTF("panel/cost/text")
-	arg_7_0.progressBar = arg_7_0:findTF("panel/progress")
-	arg_7_0.txProgress = arg_7_0:findTF("panel/progress/Text/value")
-	arg_7_0.progress = arg_7_0:findTF("panel/progress")
-	arg_7_0.head = arg_7_0:findTF("panel/head/Image")
-	arg_7_0.trAchieveTpl = arg_7_0:findTF("panel/achieve")
-	arg_7_0.trAchieves = arg_7_0:findTF("panel/achieves")
-	arg_7_0.passStateMask = arg_7_0:findTF("panel/passState")
-	arg_7_0.passState = arg_7_0:findTF("panel/passState/Image")
+	arg_7_0.txIntro = arg_7_0._tf:Find("panel/intro")
+	arg_7_0.txCost = arg_7_0._tf:Find("panel/cost/text")
+	arg_7_0.progressBar = arg_7_0._tf:Find("panel/progress")
+	arg_7_0.txProgress = arg_7_0._tf:Find("panel/progress/Text/value")
+	arg_7_0.progress = arg_7_0._tf:Find("panel/progress")
+	arg_7_0.head = arg_7_0._tf:Find("panel/head/Image")
+	arg_7_0.trAchieveTpl = arg_7_0._tf:Find("panel/achieve")
+	arg_7_0.trAchieves = arg_7_0._tf:Find("panel/achieves")
+	arg_7_0.passStateMask = arg_7_0._tf:Find("panel/passState")
+	arg_7_0.passState = arg_7_0._tf:Find("panel/passState/Image")
 
 	setActive(arg_7_0.passState, true)
 
-	arg_7_0.winCondDesc = arg_7_0:findTF("panel/win_conditions/desc")
-	arg_7_0.winCondAwardBtn = arg_7_0:findTF("panel/win_conditions/icon")
-	arg_7_0.loseCondDesc = arg_7_0:findTF("panel/lose_conditions/desc")
+	arg_7_0.winCondDesc = arg_7_0._tf:Find("panel/win_conditions/desc")
+	arg_7_0.winCondAwardBtn = arg_7_0._tf:Find("panel/win_conditions/icon")
+	arg_7_0.loseCondDesc = arg_7_0._tf:Find("panel/lose_conditions/desc")
 	arg_7_0.achieveList = UIItemList.New(arg_7_0.trAchieves, arg_7_0.trAchieveTpl)
 
 	setActive(arg_7_0.trAchieveTpl, false)
 
-	arg_7_0.trDropTpl = arg_7_0:findTF("panel/drops/frame/list/item")
-	arg_7_0.trDrops = arg_7_0:findTF("panel/drops/frame/list")
+	arg_7_0.trDropTpl = arg_7_0._tf:Find("panel/drops/frame/list/item")
+	arg_7_0.trDrops = arg_7_0._tf:Find("panel/drops/frame/list")
 	arg_7_0.dropList = UIItemList.New(arg_7_0.trDrops, arg_7_0.trDropTpl)
 
 	arg_7_0.dropList:make(function(arg_8_0, arg_8_1, arg_8_2)
@@ -82,12 +82,12 @@ function var_0_0.InitUI(arg_7_0)
 	end)
 	setActive(arg_7_0.trDropTpl, false)
 
-	arg_7_0.btnConfirm = arg_7_0:findTF("panel/start_button")
-	arg_7_0.btnCancel = arg_7_0:findTF("panel/btnBack")
-	arg_7_0.quickPlayGroup = arg_7_0:findTF("panel/quickPlay")
-	arg_7_0.descQuickPlay = arg_7_0:findTF("desc", arg_7_0.quickPlayGroup)
+	arg_7_0.btnConfirm = arg_7_0._tf:Find("panel/start_button")
+	arg_7_0.btnCancel = arg_7_0._tf:Find("panel/btnBack")
+	arg_7_0.quickPlayGroup = arg_7_0._tf:Find("panel/quickPlay")
+	arg_7_0.descQuickPlay = arg_7_0.quickPlayGroup:Find("desc")
 	arg_7_0.toggleQuickPlay = arg_7_0.quickPlayGroup:GetComponent(typeof(Toggle))
-	arg_7_0.bottomExtra = arg_7_0:findTF("panel/BottomExtra")
+	arg_7_0.bottomExtra = arg_7_0._tf:Find("panel/BottomExtra")
 	arg_7_0.layoutView = GetComponent(arg_7_0.bottomExtra:Find("LoopGroup/view"), typeof(LayoutElement))
 	arg_7_0.rtViewContainer = arg_7_0.bottomExtra:Find("LoopGroup/view/container")
 
@@ -142,9 +142,9 @@ function var_0_0.set(arg_9_0, arg_9_1, arg_9_2)
 	var_9_5.x = var_9_4 and var_0_2 or var_0_1
 	arg_9_0.progressBar.sizeDelta = var_9_5
 
-	setText(arg_9_0:findTF("title_index", arg_9_0.txTitle), var_9_2.chapter_name .. "  ")
-	setText(arg_9_0:findTF("title", arg_9_0.txTitle), var_9_3[1])
-	setText(arg_9_0:findTF("title_en", arg_9_0.txTitle), var_9_3[2] or "")
+	setText(arg_9_0.txTitle:Find("title_index"), var_9_2.chapter_name .. "  ")
+	setText(arg_9_0.txTitle:Find("title"), var_9_3[1])
+	setText(arg_9_0.txTitle:Find("title_en"), var_9_3[2] or "")
 	setActive(arg_9_0.txTitleHead, var_9_3[3] and #var_9_3[3] > 0)
 
 	local var_9_6 = var_9_3[3] and #var_9_3[3] > 0 and arg_9_0.txTitleOriginPosY or arg_9_0.txTitleOriginPosY + 8
@@ -368,7 +368,7 @@ function var_0_0.set(arg_9_0, arg_9_1, arg_9_2)
 	end
 
 	if arg_9_0.doEaseIn then
-		local var_9_22 = arg_9_0:findTF("panel")
+		local var_9_22 = arg_9_0._tf:Find("panel")
 
 		var_9_22.transform.localPosition = arg_9_0.posStart
 

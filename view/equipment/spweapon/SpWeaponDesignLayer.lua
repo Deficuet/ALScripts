@@ -29,12 +29,12 @@ function var_0_0.setPlayer(arg_7_0, arg_7_1)
 end
 
 function var_0_0.init(arg_8_0)
-	arg_8_0.designScrollView = arg_8_0:findTF("equipment_scrollview")
-	arg_8_0.equipmentTpl = arg_8_0:findTF("Template")
+	arg_8_0.designScrollView = arg_8_0._tf:Find("equipment_scrollview")
+	arg_8_0.equipmentTpl = arg_8_0._tf:Find("Template")
 
 	setActive(arg_8_0.equipmentTpl, false)
 
-	arg_8_0.equipmentContainer = arg_8_0:findTF("equipment_grid", arg_8_0.designScrollView)
+	arg_8_0.equipmentContainer = arg_8_0.designScrollView:Find("equipment_grid")
 
 	local var_8_0
 
@@ -45,21 +45,21 @@ function var_0_0.init(arg_8_0)
 	end
 
 	arg_8_0.equipmentContainer:GetComponent(typeof(GridLayoutGroup)).constraintCount = var_8_0 and 8 or 7
-	arg_8_0.top = arg_8_0:findTF("top")
-	arg_8_0.toggleOwned = arg_8_0:findTF("toggle_owned")
-	arg_8_0.sortBtn = arg_8_0:findTF("sort_button", arg_8_0.top)
-	arg_8_0.indexBtn = arg_8_0:findTF("index_button", arg_8_0.top)
-	arg_8_0.decBtn = arg_8_0:findTF("dec_btn", arg_8_0.sortBtn)
-	arg_8_0.sortImgAsc = arg_8_0:findTF("desc", arg_8_0.decBtn)
-	arg_8_0.sortImgDec = arg_8_0:findTF("asc", arg_8_0.decBtn)
-	arg_8_0.indexPanel = arg_8_0:findTF("index")
-	arg_8_0.tagContainer = arg_8_0:findTF("adapt/mask/panel", arg_8_0.indexPanel)
-	arg_8_0.tagTpl = arg_8_0:findTF("tpl", arg_8_0.tagContainer)
-	arg_8_0.listEmptyTF = arg_8_0:findTF("empty")
+	arg_8_0.top = arg_8_0._tf:Find("top")
+	arg_8_0.toggleOwned = arg_8_0._tf:Find("toggle_owned")
+	arg_8_0.sortBtn = arg_8_0.top:Find("sort_button")
+	arg_8_0.indexBtn = arg_8_0.top:Find("index_button")
+	arg_8_0.decBtn = arg_8_0.sortBtn:Find("dec_btn")
+	arg_8_0.sortImgAsc = arg_8_0.decBtn:Find("desc")
+	arg_8_0.sortImgDec = arg_8_0.decBtn:Find("asc")
+	arg_8_0.indexPanel = arg_8_0._tf:Find("index")
+	arg_8_0.tagContainer = arg_8_0.indexPanel:Find("adapt/mask/panel")
+	arg_8_0.tagTpl = arg_8_0.tagContainer:Find("tpl")
+	arg_8_0.listEmptyTF = arg_8_0._tf:Find("empty")
 
 	setActive(arg_8_0.listEmptyTF, false)
 
-	arg_8_0.listEmptyTxt = arg_8_0:findTF("Text", arg_8_0.listEmptyTF)
+	arg_8_0.listEmptyTxt = arg_8_0.listEmptyTF:Find("Text")
 
 	setText(arg_8_0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
 	arg_8_0:OverlayPanel(arg_8_0.indexPanel)
@@ -67,7 +67,7 @@ end
 
 function var_0_0.SetParentTF(arg_9_0, arg_9_1)
 	arg_9_0.parentTF = arg_9_1
-	arg_9_0.equipmentView = arg_9_0:findTF("adapt/equipment_scrollview", arg_9_0.parentTF)
+	arg_9_0.equipmentView = arg_9_0.parentTF:Find("adapt/equipment_scrollview")
 
 	setActive(arg_9_0.equipmentView, false)
 end
@@ -286,7 +286,7 @@ function var_0_0.filter(arg_32_0)
 
 	local var_32_4 = GetSpriteFromAtlas("ui/equipmentdesignui_atlas", var_0_1[var_32_3])
 
-	setImageSprite(arg_32_0:findTF("Image", arg_32_0.sortBtn), var_32_4)
+	setImageSprite(arg_32_0.sortBtn:Find("Image"), var_32_4)
 	setActive(arg_32_0.sortImgAsc, arg_32_0.contextData.asc)
 	setActive(arg_32_0.sortImgDec, not arg_32_0.contextData.asc)
 end

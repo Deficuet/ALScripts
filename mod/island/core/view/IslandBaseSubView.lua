@@ -23,62 +23,56 @@ function var_0_0.DoInit(arg_4_0, arg_4_1, arg_4_2)
 	arg_4_0:OnLoaded()
 end
 
-function var_0_0.findTF(arg_5_0, arg_5_1, arg_5_2)
-	assert(arg_5_0._tf, "transform should exist")
-
-	return findTF(arg_5_2 or arg_5_0._tf, arg_5_1)
-end
-
-function var_0_0.OnDispose(arg_6_0)
-	if not IsNil(arg_6_0._go) then
-		Object.Destroy(arg_6_0._go)
+function var_0_0.OnDispose(arg_5_0)
+	if not IsNil(arg_5_0._go) then
+		Object.Destroy(arg_5_0._go)
 	end
 
-	arg_6_0._go = nil
-	arg_6_0._tf = nil
+	arg_5_0._go = nil
+	arg_5_0._tf = nil
 
-	if arg_6_0.uiInstID then
-		FrameAsyncInstantiateManager.Instance:Cancel(arg_6_0.uiInstID)
+	if arg_5_0.uiInstID then
+		FrameAsyncInstantiateManager.Instance:Cancel(arg_5_0.uiInstID)
 
-		arg_6_0.uiInstID = nil
+		arg_5_0.uiInstID = nil
 	end
 
-	if arg_6_0.loadingId then
-		IslandAssetLoadDispatcher.Instance:Cancel(arg_6_0.loadingId)
+	if arg_5_0.loadingId then
+		IslandAssetLoadDispatcher.Instance:Cancel(arg_5_0.loadingId)
 
-		arg_6_0.loadingId = nil
+		arg_5_0.loadingId = nil
 	end
 end
 
-function var_0_0.ShowMsgbox(arg_7_0, arg_7_1)
-	arg_7_0:GetView():ShowMsgbox(arg_7_1)
+function var_0_0.ShowMsgbox(arg_6_0, arg_6_1)
+	arg_6_0:GetView():ShowMsgbox(arg_6_1)
 end
 
-function var_0_0.GetPlayerUnit(arg_8_0)
-	return arg_8_0:GetView().player
+function var_0_0.GetPlayerUnit(arg_7_0)
+	return arg_7_0:GetView().player
 end
 
-function var_0_0.GetUIName(arg_9_0)
+function var_0_0.GetUIName(arg_8_0)
 	assert(false, "overwrite me")
 end
 
-function var_0_0.SetUIParent(arg_10_0, arg_10_1)
+function var_0_0.SetUIParent(arg_9_0, arg_9_1)
 	assert(false, "overwrite me")
 end
 
-function var_0_0.Flush(arg_11_0, ...)
+function var_0_0.Flush(arg_10_0, ...)
 	return
 end
 
-function var_0_0.FirstFlush(arg_12_0)
+function var_0_0.FirstFlush(arg_11_0)
 	return
 end
 
-function var_0_0.OnBeforeLoaded(arg_13_0)
+function var_0_0.OnBeforeLoaded(arg_12_0)
 	return
 end
 
-function var_0_0.OnLoaded(arg_14_0)
+function var_0_0.OnLoaded(arg_13_0)
 	return
 end
 

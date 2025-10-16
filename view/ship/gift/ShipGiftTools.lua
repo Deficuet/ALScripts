@@ -50,7 +50,7 @@ end
 function var_0_0.GetItemFavoriteState(arg_4_0, arg_4_1)
 	local var_4_0 = arg_4_0:getConfig("gift_dislike")
 
-	var_4_0 = arg_4_0:getConfig("gift_prefer") ~= "" and var_4_0 or {}
+	var_4_0 = type(var_4_0) ~= "table" and {} or var_4_0
 
 	if table.contains(var_4_0, arg_4_1.id) then
 		return ShipGiftConst.GIFT_FAVORITE_STATE.HATE

@@ -5,12 +5,12 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.contentTxt = arg_2_0:findTF("content/Text"):GetComponent(typeof(Text))
-	arg_2_0.discountDateTxt = arg_2_0:findTF("content/discountDate"):GetComponent(typeof(Text))
-	arg_2_0.discountTxt = arg_2_0:findTF("content/discountInfo/Text"):GetComponent(typeof(Text))
-	arg_2_0.confirmBtn = arg_2_0:findTF("content/confirm_btn")
-	arg_2_0.cancelBtn = arg_2_0:findTF("content/cancel_btn")
-	arg_2_0.closeBtn = arg_2_0:findTF("content/btnBack")
+	arg_2_0.contentTxt = arg_2_0._tf:Find("content/Text"):GetComponent(typeof(Text))
+	arg_2_0.discountDateTxt = arg_2_0._tf:Find("content/discountDate"):GetComponent(typeof(Text))
+	arg_2_0.discountTxt = arg_2_0._tf:Find("content/discountInfo/Text"):GetComponent(typeof(Text))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("content/confirm_btn")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("content/cancel_btn")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("content/btnBack")
 
 	setText(arg_2_0.confirmBtn:Find("pic"), i18n("word_ok"))
 	setText(arg_2_0.cancelBtn:Find("pic"), i18n("word_cancel"))

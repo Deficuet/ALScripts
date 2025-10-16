@@ -68,105 +68,128 @@ function var_0_0.Start(arg_10_0)
 	arg_10_0:OnStart()
 end
 
-function var_0_0.OnDispose(arg_11_0)
-	arg_11_0:OnDetach()
-	arg_11_0:ClearBt()
-	arg_11_0.builder:Recycle(arg_11_0.data, arg_11_0._go)
-
-	arg_11_0._go = nil
-end
-
-function var_0_0.Dispose(arg_12_0)
-	var_0_0.super.Dispose(arg_12_0)
-
-	arg_12_0.builder = nil
-end
-
-function var_0_0.SetupBt(arg_13_0)
-	if not arg_13_0.behaviourTreeOwner then
-		return
+function var_0_0.IsMapTransfer(arg_11_0)
+	if not arg_11_0.behaviourTreeOwner then
+		return false, {}
 	end
 
-	arg_13_0.behaviourTreeOwner:StartBehaviour()
+	local var_11_0 = {}
+	local var_11_1 = IslandHelper.GetAllShowInteractionsTypeValue(arg_11_0.behaviourTreeOwner):ToTable()
+
+	for iter_11_0, iter_11_1 in ipairs(var_11_1) do
+		local var_11_2 = pg.island_interaction.get_id_list_by_groupId[iter_11_1] or {}
+
+		for iter_11_2, iter_11_3 in ipairs(var_11_2) do
+			local var_11_3 = pg.island_interaction[iter_11_3]
+
+			if var_11_3.type == IslandInteractionUntil.TYPE_TRANSFER or var_11_3.type == IslandInteractionUntil.TYPE_SP_TRANSFER then
+				table.insert(var_11_0, iter_11_3)
+			end
+		end
+	end
+
+	return #var_11_0 > 0, var_11_0
 end
 
-function var_0_0.RestartBt(arg_14_0)
+function var_0_0.OnDispose(arg_12_0)
+	arg_12_0:OnDetach()
+	arg_12_0:ClearBt()
+	arg_12_0.builder:Recycle(arg_12_0.data, arg_12_0._go)
+
+	arg_12_0._go = nil
+end
+
+function var_0_0.Dispose(arg_13_0)
+	var_0_0.super.Dispose(arg_13_0)
+
+	arg_13_0.builder = nil
+end
+
+function var_0_0.SetupBt(arg_14_0)
 	if not arg_14_0.behaviourTreeOwner then
 		return
 	end
 
-	arg_14_0.behaviourTreeOwner:RestartBehaviour()
+	arg_14_0.behaviourTreeOwner:StartBehaviour()
 end
 
-function var_0_0.PauseBt(arg_15_0)
+function var_0_0.RestartBt(arg_15_0)
 	if not arg_15_0.behaviourTreeOwner then
 		return
 	end
 
-	arg_15_0.behaviourTreeOwner:PauseBehaviour()
+	arg_15_0.behaviourTreeOwner:RestartBehaviour()
 end
 
-function var_0_0.StopBt(arg_16_0)
+function var_0_0.PauseBt(arg_16_0)
 	if not arg_16_0.behaviourTreeOwner then
 		return
 	end
 
-	arg_16_0.behaviourTreeOwner:StopBehaviour()
+	arg_16_0.behaviourTreeOwner:PauseBehaviour()
 end
 
-function var_0_0.ClearBt(arg_17_0)
-	arg_17_0:StopBt()
-
-	arg_17_0.behaviourTreeOwner = nil
-end
-
-function var_0_0.Enable(arg_18_0)
-	if not arg_18_0:IsLoaded() then
+function var_0_0.StopBt(arg_17_0)
+	if not arg_17_0.behaviourTreeOwner then
 		return
 	end
 
-	setActive(arg_18_0._go, true)
-	arg_18_0:ActiveOrDisactive(true)
+	arg_17_0.behaviourTreeOwner:StopBehaviour()
 end
 
-function var_0_0.Disable(arg_19_0)
+function var_0_0.ClearBt(arg_18_0)
+	arg_18_0:StopBt()
+
+	arg_18_0.behaviourTreeOwner = nil
+end
+
+function var_0_0.Enable(arg_19_0)
 	if not arg_19_0:IsLoaded() then
 		return
 	end
 
-	setActive(arg_19_0._go, false)
-	arg_19_0:ActiveOrDisactive(false)
+	setActive(arg_19_0._go, true)
+	arg_19_0:ActiveOrDisactive(true)
 end
 
-function var_0_0.ActiveOrDisactive(arg_20_0, arg_20_1)
-	arg_20_0.active = arg_20_1
-end
-
-function var_0_0.Update(arg_21_0)
-	if not arg_21_0.active then
+function var_0_0.Disable(arg_20_0)
+	if not arg_20_0:IsLoaded() then
 		return
 	end
 
-	var_0_0.super.Update(arg_21_0)
+	setActive(arg_20_0._go, false)
+	arg_20_0:ActiveOrDisactive(false)
 end
 
-function var_0_0.IsActive(arg_22_0)
-	return arg_22_0.active
+function var_0_0.ActiveOrDisactive(arg_21_0, arg_21_1)
+	arg_21_0.active = arg_21_1
 end
 
-function var_0_0.OnAttach(arg_23_0, arg_23_1)
+function var_0_0.Update(arg_22_0)
+	if not arg_22_0.active then
+		return
+	end
+
+	var_0_0.super.Update(arg_22_0)
+end
+
+function var_0_0.IsActive(arg_23_0)
+	return arg_23_0.active
+end
+
+function var_0_0.OnAttach(arg_24_0, arg_24_1)
 	return
 end
 
-function var_0_0.OnLaterAttach(arg_24_0, arg_24_1)
+function var_0_0.OnLaterAttach(arg_25_0, arg_25_1)
 	return
 end
 
-function var_0_0.OnStart(arg_25_0)
+function var_0_0.OnStart(arg_26_0)
 	return
 end
 
-function var_0_0.OnDetach(arg_26_0)
+function var_0_0.OnDetach(arg_27_0)
 	return
 end
 

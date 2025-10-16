@@ -15,16 +15,16 @@ function var_0_0.SetUIParent(arg_3_0, arg_3_1)
 end
 
 function var_0_0.FirstFlush(arg_4_0)
-	arg_4_0.settingsBtn = arg_4_0:findTF("top/settings")
-	arg_4_0.uiChannelList = UIItemList.New(arg_4_0:findTF("top/channels"), arg_4_0:findTF("top/channels/tpl"))
-	arg_4_0.sendChanncelBtn = arg_4_0:findTF("send_panel/channel_btn")
-	arg_4_0.sendChanncelTxt = arg_4_0:findTF("send_panel/channel_btn/Text"):GetComponent(typeof(Text))
-	arg_4_0.roomNumTxt = arg_4_0:findTF("top/settings/Text"):GetComponent(typeof(Text))
-	arg_4_0.scrollrect = arg_4_0:findTF("list"):GetComponent("LScrollRect")
-	arg_4_0.emojiBtn = arg_4_0:findTF("send_panel/input_panel/emoji")
-	arg_4_0.sendBtn = arg_4_0:findTF("send_panel/send_btn")
-	arg_4_0.inputField = arg_4_0:findTF("send_panel/input_panel/input"):GetComponent(typeof(InputField))
-	arg_4_0.uiSendChanncelList = UIItemList.New(arg_4_0:findTF("send_panel/channel_sel_panel"), arg_4_0:findTF("send_panel/channel_sel_panel/tpl"))
+	arg_4_0.settingsBtn = arg_4_0._tf:Find("top/settings")
+	arg_4_0.uiChannelList = UIItemList.New(arg_4_0._tf:Find("top/channels"), arg_4_0._tf:Find("top/channels/tpl"))
+	arg_4_0.sendChanncelBtn = arg_4_0._tf:Find("send_panel/channel_btn")
+	arg_4_0.sendChanncelTxt = arg_4_0._tf:Find("send_panel/channel_btn/Text"):GetComponent(typeof(Text))
+	arg_4_0.roomNumTxt = arg_4_0._tf:Find("top/settings/Text"):GetComponent(typeof(Text))
+	arg_4_0.scrollrect = arg_4_0._tf:Find("list"):GetComponent("LScrollRect")
+	arg_4_0.emojiBtn = arg_4_0._tf:Find("send_panel/input_panel/emoji")
+	arg_4_0.sendBtn = arg_4_0._tf:Find("send_panel/send_btn")
+	arg_4_0.inputField = arg_4_0._tf:Find("send_panel/input_panel/input"):GetComponent(typeof(InputField))
+	arg_4_0.uiSendChanncelList = UIItemList.New(arg_4_0._tf:Find("send_panel/channel_sel_panel"), arg_4_0._tf:Find("send_panel/channel_sel_panel/tpl"))
 	arg_4_0.channelValue = IslandChatConst.CHANNEL_ALL
 	arg_4_0.sendChannelValue = IslandChatConst.CHANNEL_ISLAND
 	arg_4_0.cards = {}

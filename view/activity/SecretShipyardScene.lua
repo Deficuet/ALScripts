@@ -29,21 +29,21 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.bgId = 1
 	arg_2_0.taskProxy = getProxy(TaskProxy)
 	arg_2_0.taskGroup = arg_2_0.activity:getConfig("config_data")
-	arg_2_0.main = arg_2_0:findTF("main")
-	arg_2_0.bottom = arg_2_0:findTF("bottom", arg_2_0.main)
-	arg_2_0.gameButton = arg_2_0:findTF("btn_go_game", arg_2_0.bottom)
-	arg_2_0.gameButtonLock = arg_2_0:findTF("btn_go_game_lock", arg_2_0.gameButton)
-	arg_2_0.items = arg_2_0:findTF("items", arg_2_0.bottom)
-	arg_2_0.item = arg_2_0:findTF("item", arg_2_0.bottom)
-	arg_2_0.dayText = arg_2_0:findTF("day/nday", arg_2_0.bottom)
-	arg_2_0.description = arg_2_0:findTF("description/Text", arg_2_0.bottom)
-	arg_2_0.top = arg_2_0:findTF("top", arg_2_0.main)
-	arg_2_0.buttonBack = arg_2_0:findTF("btn_back", arg_2_0.top)
-	arg_2_0.buttonHelp = arg_2_0:findTF("btn_help", arg_2_0.top)
+	arg_2_0.main = arg_2_0._tf:Find("main")
+	arg_2_0.bottom = arg_2_0.main:Find("bottom")
+	arg_2_0.gameButton = arg_2_0.bottom:Find("btn_go_game")
+	arg_2_0.gameButtonLock = arg_2_0.gameButton:Find("btn_go_game_lock")
+	arg_2_0.items = arg_2_0.bottom:Find("items")
+	arg_2_0.item = arg_2_0.bottom:Find("item")
+	arg_2_0.dayText = arg_2_0.bottom:Find("day/nday")
+	arg_2_0.description = arg_2_0.bottom:Find("description/Text")
+	arg_2_0.top = arg_2_0.main:Find("top")
+	arg_2_0.buttonBack = arg_2_0.top:Find("btn_back")
+	arg_2_0.buttonHelp = arg_2_0.top:Find("btn_help")
 	arg_2_0.uilist = UIItemList.New(arg_2_0.items, arg_2_0.item)
-	arg_2_0.bg = arg_2_0:findTF("bg")
-	arg_2_0.animator = arg_2_0:findTF("anim", arg_2_0.bg):GetComponent(typeof(Animator))
-	arg_2_0.effect = arg_2_0:findTF("effect", arg_2_0.bg)
+	arg_2_0.bg = arg_2_0._tf:Find("bg")
+	arg_2_0.animator = arg_2_0.bg:Find("anim"):GetComponent(typeof(Animator))
+	arg_2_0.effect = arg_2_0.bg:Find("effect")
 end
 
 function var_0_0.didEnter(arg_3_0)
@@ -94,7 +94,7 @@ end
 
 function var_0_0.UpdateTask(arg_9_0, arg_9_1, arg_9_2)
 	local var_9_0 = arg_9_1 + 1
-	local var_9_1 = arg_9_0:findTF("item", arg_9_2)
+	local var_9_1 = arg_9_2:Find("item")
 	local var_9_2 = arg_9_0.taskGroup[arg_9_0.count][var_9_0]
 	local var_9_3 = arg_9_0.taskProxy:getTaskById(var_9_2) or arg_9_0.taskProxy:getFinishTaskById(var_9_2)
 
@@ -116,17 +116,17 @@ function var_0_0.UpdateTask(arg_9_0, arg_9_1, arg_9_2)
 	local var_9_6 = var_9_3:getProgress()
 	local var_9_7 = var_9_3:getConfig("target_num")
 
-	setText(arg_9_0:findTF("description", arg_9_2), var_9_3:getConfig("desc"))
+	setText(arg_9_2:Find("description"), var_9_3:getConfig("desc"))
 
 	local var_9_8 = var_9_6
 	local var_9_9 = "/" .. var_9_7
 
-	setText(arg_9_0:findTF("progress_text", arg_9_2), var_9_8 .. var_9_9)
-	setSlider(arg_9_0:findTF("progress", arg_9_2), 0, var_9_7, var_9_6)
+	setText(arg_9_2:Find("progress_text"), var_9_8 .. var_9_9)
+	setSlider(arg_9_2:Find("progress"), 0, var_9_7, var_9_6)
 
-	local var_9_10 = arg_9_0:findTF("go_btn", arg_9_2)
-	local var_9_11 = arg_9_0:findTF("get_btn", arg_9_2)
-	local var_9_12 = arg_9_0:findTF("got_btn", arg_9_2)
+	local var_9_10 = arg_9_2:Find("go_btn")
+	local var_9_11 = arg_9_2:Find("get_btn")
+	local var_9_12 = arg_9_2:Find("got_btn")
 	local var_9_13 = var_9_3:getTaskStatus()
 
 	setActive(var_9_10, var_9_13 == 0)
@@ -138,7 +138,7 @@ function var_0_0.UpdateTask(arg_9_0, arg_9_1, arg_9_2)
 	onButton(arg_9_0, var_9_11, function()
 		arg_9_0:emit(SecretShipyardMediator.SUBMIT_TASK, var_9_3.id)
 	end, SFX_PANEL)
-	setActive(arg_9_0:findTF("mask", arg_9_2), arg_9_0.taskProxy:getFinishTaskById(var_9_2) ~= nil)
+	setActive(arg_9_2:Find("mask"), arg_9_0.taskProxy:getFinishTaskById(var_9_2) ~= nil)
 end
 
 function var_0_0.updateTaskLayers(arg_13_0)

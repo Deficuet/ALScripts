@@ -7,7 +7,7 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.chapterText = arg_2_0._tf:Find("frame/chapter")
 	arg_2_0.nameText = arg_2_0._tf:Find("frame/name")
-	arg_2_0.tipText = arg_2_0:findTF("frame/tip/Text")
+	arg_2_0.tipText = arg_2_0._tf:Find("frame/tip/Text")
 
 	setText(arg_2_0.tipText, i18n("island_task_open"))
 end

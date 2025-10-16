@@ -4221,6 +4221,303 @@ pg.dorm3d_camera_anim_template = {
 		finish_anim = 11607,
 		enter_scene_anim = ""
 	},
+	[12501] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle01",
+		desc = "静待",
+		staypoint = "Pos500510",
+		id = 12501,
+		pre_anim = 0,
+		zone = "12003",
+		icon = "camera_action13",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12501,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle01_PP"
+			}
+		}
+	},
+	[12502] = {
+		anim_time = 23.667,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle01_fb01",
+		desc = "伸腿",
+		staypoint = "Pos500510",
+		id = 12502,
+		pre_anim = 12501,
+		zone = "12003",
+		icon = "camera_action14",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12501,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle01_fb01_PP"
+			}
+		}
+	},
+	[12503] = {
+		anim_time = 17.7,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle01_fb02",
+		desc = "伸展",
+		staypoint = "Pos500510",
+		id = 12503,
+		pre_anim = 12501,
+		zone = "12003",
+		icon = "camera_action15",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12501,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle01_fb02_PP"
+			}
+		}
+	},
+	[12504] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle02",
+		desc = "静待",
+		staypoint = "Pos500520",
+		id = 12504,
+		pre_anim = 0,
+		zone = "12003",
+		icon = "camera_action32",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12504,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle02_PP"
+			}
+		}
+	},
+	[12505] = {
+		anim_time = 12.7,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle02_fb01",
+		desc = "准备",
+		staypoint = "Pos500520",
+		id = 12505,
+		pre_anim = 12504,
+		zone = "12003",
+		icon = "camera_action33",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12504,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle02_fb01_PP"
+			}
+		}
+	},
+	[12506] = {
+		anim_time = 12.9,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle02_fb02",
+		desc = "伸懒腰",
+		staypoint = "Pos500520",
+		id = 12506,
+		pre_anim = 12504,
+		zone = "12003",
+		icon = "camera_action34",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12504,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle02_fb02_PP"
+			}
+		}
+	},
+	[12507] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle03",
+		desc = "静待",
+		staypoint = "Pos500530",
+		id = 12507,
+		pre_anim = 0,
+		zone = "12003",
+		icon = "camera_action1",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12507,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle03_PP"
+			}
+		}
+	},
+	[12508] = {
+		anim_time = 9.133,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle03_fb01",
+		desc = "拉伸",
+		staypoint = "Pos500530",
+		id = 12508,
+		pre_anim = 12507,
+		zone = "12003",
+		icon = "camera_action2",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12507,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle03_fb01_PP"
+			}
+		}
+	},
+	[12509] = {
+		anim_time = 11.1,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle03_fb02",
+		desc = "开心",
+		staypoint = "Pos500530",
+		id = 12509,
+		pre_anim = 12507,
+		zone = "12003",
+		icon = "camera_action4",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12507,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle03_fb02_PP"
+			}
+		}
+	},
 	get_id_list_by_furniture_id = {
 		[0] = {
 			1001,
@@ -4521,6 +4818,17 @@ pg.dorm3d_camera_anim_template = {
 			11606,
 			11607,
 			11608
+		},
+		[1222] = {
+			12501,
+			12502,
+			12503,
+			12504,
+			12505,
+			12506,
+			12507,
+			12508,
+			12509
 		}
 	},
 	all = {
@@ -4763,6 +5071,15 @@ pg.dorm3d_camera_anim_template = {
 		11605,
 		11606,
 		11607,
-		11608
+		11608,
+		12501,
+		12502,
+		12503,
+		12504,
+		12505,
+		12506,
+		12507,
+		12508,
+		12509
 	}
 }

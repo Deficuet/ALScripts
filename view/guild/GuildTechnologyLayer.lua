@@ -10,7 +10,7 @@ end
 
 function var_0_0.init(arg_3_0)
 	arg_3_0.technologyPage = GuildTechnologyPage.New(arg_3_0._tf, arg_3_0.event)
-	arg_3_0.helpBtn = arg_3_0:findTF("frame/help")
+	arg_3_0.helpBtn = arg_3_0._tf:Find("frame/help")
 end
 
 function var_0_0.didEnter(arg_4_0)

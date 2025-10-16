@@ -12,14 +12,14 @@ local var_0_2 = {
 }
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("bg")
-	arg_1_0.tip = arg_1_0:findTF("tip")
-	arg_1_0.btn = arg_1_0:findTF("btn")
-	arg_1_0.mainAward = arg_1_0:findTF("main_award")
-	arg_1_0.subAward = arg_1_0:findTF("sub_award")
-	arg_1_0.itemIcon = arg_1_0:findTF("icon")
-	arg_1_0.slider = arg_1_0:findTF("slider")
-	arg_1_0.uilist = UIItemList.New(arg_1_0.subAward, arg_1_0:findTF("1", arg_1_0.subAward))
+	arg_1_0.bg = arg_1_0._tf:Find("bg")
+	arg_1_0.tip = arg_1_0._tf:Find("tip")
+	arg_1_0.btn = arg_1_0._tf:Find("btn")
+	arg_1_0.mainAward = arg_1_0._tf:Find("main_award")
+	arg_1_0.subAward = arg_1_0._tf:Find("sub_award")
+	arg_1_0.itemIcon = arg_1_0._tf:Find("icon")
+	arg_1_0.slider = arg_1_0._tf:Find("slider")
+	arg_1_0.uilist = UIItemList.New(arg_1_0.subAward, arg_1_0.subAward:Find("1"))
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)

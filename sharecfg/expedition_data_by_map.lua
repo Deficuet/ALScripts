@@ -297,7 +297,9 @@ pg.expedition_data_by_map = setmetatable({
 		2200100,
 		2200110,
 		2200120,
-		2200130
+		2200130,
+		2200140,
+		2200141
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -4463,7 +4465,7 @@ pg.base.expedition_data_by_map = {
 		default_background = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740005",
 		story_id = "",
@@ -4619,7 +4621,7 @@ pg.base.expedition_data_by_map = {
 		default_background = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740011",
 		story_id = "",
@@ -4760,7 +4762,7 @@ pg.base.expedition_data_by_map = {
 		default_background = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740005",
 		story_id = "",
@@ -4916,7 +4918,7 @@ pg.base.expedition_data_by_map = {
 		default_background = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740011",
 		story_id = "",
@@ -5058,7 +5060,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740012",
 		story_id = "",
@@ -5108,7 +5110,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740001",
 		story_id = "",
@@ -18541,7 +18543,7 @@ pg.base.expedition_data_by_map = {
 		level_limit = 1,
 		type = 4,
 		anchor = "",
-		title = "EX",
+		title = "SP",
 		drop_by_map_display = "",
 		bgm = "idol-WISHNESS-inst",
 		enter_story = "JICHANG1",
@@ -18820,7 +18822,7 @@ pg.base.expedition_data_by_map = {
 		level_limit = 1,
 		type = 4,
 		anchor = "",
-		title = "EX",
+		title = "SP",
 		drop_by_map_display = "",
 		bgm = "theme-arbitrator-tower",
 		enter_story = "",
@@ -18898,6 +18900,106 @@ pg.base.expedition_data_by_map = {
 					},
 					"jianzhu04"
 				}
+			}
+		}
+	},
+	[2200140] = {
+		map = 2200140,
+		name = "飓风与青春之泉·上篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-temepest-1",
+		enter_story = "1767002",
+		ani_name = "Map_1760001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1760001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200141] = {
+		map = 2200141,
+		name = "飓风与青春之泉·下篇|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "theme-tempest-up",
+		enter_story = "JUFENGYUQINGCHUNZHIQUAN14",
+		ani_name = "Map_1760002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1760002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
 			}
 		}
 	}

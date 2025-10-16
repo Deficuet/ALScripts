@@ -84,14 +84,14 @@ end
 
 function var_0_0.init(arg_5_0)
 	arg_5_0.toggleType = var_0_0.TOGGLE_UNDEFINED
-	arg_5_0.topTF = arg_5_0:findTF("blur_panel/adapt/top")
-	arg_5_0.backBtn = arg_5_0:findTF("back_btn", arg_5_0.topTF)
-	arg_5_0.indexBtn = arg_5_0:findTF("index_button", arg_5_0.topTF)
-	arg_5_0.toggleChar = arg_5_0:findTF("list_card/types/char")
-	arg_5_0.toggleLink = arg_5_0:findTF("list_card/types/link")
-	arg_5_0.toggleBlueprint = arg_5_0:findTF("list_card/types/blueprint")
+	arg_5_0.topTF = arg_5_0._tf:Find("blur_panel/adapt/top")
+	arg_5_0.backBtn = arg_5_0.topTF:Find("back_btn")
+	arg_5_0.indexBtn = arg_5_0.topTF:Find("index_button")
+	arg_5_0.toggleChar = arg_5_0._tf:Find("list_card/types/char")
+	arg_5_0.toggleLink = arg_5_0._tf:Find("list_card/types/link")
+	arg_5_0.toggleBlueprint = arg_5_0._tf:Find("list_card/types/blueprint")
 	arg_5_0.cardItems = {}
-	arg_5_0.cardList = arg_5_0:findTF("list_card/scroll"):GetComponent("LScrollRect")
+	arg_5_0.cardList = arg_5_0._tf:Find("list_card/scroll"):GetComponent("LScrollRect")
 
 	function arg_5_0.cardList.onInitItem(arg_6_0)
 		arg_5_0:onInitCard(arg_6_0)
@@ -348,16 +348,16 @@ function var_0_0.onReturnCard(arg_25_0, arg_25_1, arg_25_2)
 end
 
 function var_0_0.initSelectSkinPanel(arg_26_0)
-	arg_26_0.skinPanel = arg_26_0:findTF("selectSkinPnl")
+	arg_26_0.skinPanel = arg_26_0._tf:Find("selectSkinPnl")
 
-	local var_26_0 = arg_26_0:findTF("select_skin/btnBack", arg_26_0.skinPanel)
+	local var_26_0 = arg_26_0.skinPanel:Find("select_skin/btnBack")
 
 	onButton(arg_26_0, var_26_0, function()
 		arg_26_0:closeSelectSkinPanel()
 	end)
 
-	arg_26_0.skinScroll = arg_26_0:findTF("select_skin/style_scroll", arg_26_0.skinPanel)
-	arg_26_0.skinContainer = arg_26_0:findTF("view_port", arg_26_0.skinScroll)
+	arg_26_0.skinScroll = arg_26_0.skinPanel:Find("select_skin/style_scroll")
+	arg_26_0.skinContainer = arg_26_0.skinScroll:Find("view_port")
 	arg_26_0.skinCard = arg_26_0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
 
 	setActive(arg_26_0.skinCard, false)

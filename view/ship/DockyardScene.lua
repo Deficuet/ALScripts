@@ -60,7 +60,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.onSelected = var_2_0.onSelected or function(arg_7_0, arg_7_1)
 		warning("not implemented.")
 	end
-	arg_2_0.blurPanel = arg_2_0:findTF("blur_panel")
+	arg_2_0.blurPanel = arg_2_0._tf:Find("blur_panel")
 	arg_2_0.settingBtn = arg_2_0.blurPanel:Find("adapt/left_length/frame/setting")
 	arg_2_0.settingPanel = DockyardQuickSelectSettingPage.New(arg_2_0._tf, arg_2_0.event)
 
@@ -105,9 +105,9 @@ function var_0_0.init(arg_2_0)
 		arg_2_0:filter()
 	end)
 
-	arg_2_0.modLockFilter = arg_2_0:findTF("mod_flter_lock", arg_2_0.topPanel)
-	arg_2_0.modLeveFilter = arg_2_0:findTF("mod_flter_level", arg_2_0.topPanel)
-	arg_2_0.energyDescTF = arg_2_0:findTF("energy_desc")
+	arg_2_0.modLockFilter = arg_2_0.topPanel:Find("mod_flter_lock")
+	arg_2_0.modLeveFilter = arg_2_0.topPanel:Find("mod_flter_level")
+	arg_2_0.energyDescTF = arg_2_0._tf:Find("energy_desc")
 	arg_2_0.energyDescTextTF = arg_2_0.energyDescTF:Find("Text")
 	arg_2_0.selectPanel = arg_2_0.blurPanel:Find("select_panel")
 	arg_2_0.bottomTipsText = arg_2_0.selectPanel:Find("tip")
@@ -169,8 +169,8 @@ function var_0_0.init(arg_2_0)
 	if arg_2_0.contextData.priorEquipUpShipIDList and arg_2_0.contextData.priorMode then
 		setActive(arg_2_0.tipPanel, true)
 
-		local var_2_2 = arg_2_0:findTF("EquipUP", arg_2_0.tipPanel)
-		local var_2_3 = arg_2_0:findTF("ShipUP", arg_2_0.tipPanel)
+		local var_2_2 = arg_2_0.tipPanel:Find("EquipUP")
+		local var_2_3 = arg_2_0.tipPanel:Find("ShipUP")
 
 		setText(var_2_2, i18n("fightfail_choiceequip"))
 		setText(var_2_3, i18n("fightfail_choicestrengthen"))
@@ -204,11 +204,11 @@ function var_0_0.init(arg_2_0)
 		setActive(arg_20_0, arg_20_0.name == var_2_4)
 	end)
 
-	arg_2_0.listEmptyTF = arg_2_0:findTF("empty")
+	arg_2_0.listEmptyTF = arg_2_0._tf:Find("empty")
 
 	setActive(arg_2_0.listEmptyTF, false)
 
-	arg_2_0.listEmptyTxt = arg_2_0:findTF("Text", arg_2_0.listEmptyTF)
+	arg_2_0.listEmptyTxt = arg_2_0.listEmptyTF:Find("Text")
 
 	setText(arg_2_0.listEmptyTxt, i18n("list_empty_tip_dockyardui"))
 
@@ -351,7 +351,7 @@ function var_0_0.SwitchContainerDisplay(arg_27_0)
 			end
 
 			arg_27_0.initDic.ship = true
-			arg_27_0.shipContainer = arg_27_0:findTF("main/ship_container/ships"):GetComponent("LScrollRect")
+			arg_27_0.shipContainer = arg_27_0._tf:Find("main/ship_container/ships"):GetComponent("LScrollRect")
 			arg_27_0.shipContainer.enabled = true
 			arg_27_0.shipContainer.decelerationRate = 0.07
 
@@ -371,7 +371,7 @@ function var_0_0.SwitchContainerDisplay(arg_27_0)
 				arg_27_0:updateSelected()
 			end
 
-			arg_27_0.shipLayout = arg_27_0:findTF("main/ship_container/ships")
+			arg_27_0.shipLayout = arg_27_0._tf:Find("main/ship_container/ships")
 			arg_27_0.scrollItems = {}
 			arg_27_0.cardItemDic = {}
 
@@ -444,8 +444,8 @@ function var_0_0.SwitchContainerDisplay(arg_27_0)
 
 			arg_27_0.isFormTactics = arg_27_0.contextData.prevPage == "NewNavalTacticsMediator"
 
-			local var_36_2 = arg_27_0:findTF("off", arg_27_0.attrBtn):GetComponent("Image")
-			local var_36_3 = arg_27_0:findTF("on", arg_27_0.attrBtn):GetComponent("Image")
+			local var_36_2 = arg_27_0.attrBtn:Find("off"):GetComponent("Image")
+			local var_36_3 = arg_27_0.attrBtn:Find("on"):GetComponent("Image")
 
 			if arg_27_0.isFormTactics then
 				GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_off", var_36_2)
@@ -1133,7 +1133,7 @@ function var_0_0.filterCommon(arg_95_0)
 	arg_95_0:updateSelected()
 	setActive(arg_95_0.sortImgAsc, arg_95_0.selectAsc)
 	setActive(arg_95_0.sortImgDesc, not arg_95_0.selectAsc)
-	setText(arg_95_0:findTF("Image", arg_95_0.sortBtn), i18n(var_95_4))
+	setText(arg_95_0.sortBtn:Find("Image"), i18n(var_95_4))
 end
 
 function var_0_0.SortShips(arg_99_0, arg_99_1)
@@ -1196,7 +1196,7 @@ function var_0_0.didEnter(arg_108_0)
 	onButton(arg_108_0, arg_108_0.stampBtn, function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(1)
 	end, SFX_CONFIRM)
-	onButton(arg_108_0, arg_108_0:findTF("back", arg_108_0.topPanel), function()
+	onButton(arg_108_0, arg_108_0.topPanel:Find("back"), function()
 		arg_108_0:back()
 	end, SFX_CANCEL)
 	onButton(arg_108_0, arg_108_0.sortBtn, function()
@@ -1598,7 +1598,7 @@ function var_0_0.TriggerCard(arg_133_0, arg_133_1)
 	local var_133_9 = var_133_8 and var_133_8.shipVO.id == var_133_5.id and var_133_8 or nil
 
 	if var_133_9 then
-		local var_133_10 = getBounds(arg_133_0:findTF("main/ship_container"))
+		local var_133_10 = getBounds(arg_133_0._tf:Find("main/ship_container"))
 		local var_133_11 = getBounds(var_133_9.tr)
 
 		if not var_133_10:Intersects(var_133_11) then
@@ -2113,7 +2113,7 @@ function var_0_0.willExit(arg_165_0)
 end
 
 function var_0_0.uiStartAnimating(arg_166_0)
-	local var_166_0 = arg_166_0:findTF("back", arg_166_0.topPanel)
+	local var_166_0 = arg_166_0.topPanel:Find("back")
 	local var_166_1 = 0
 	local var_166_2 = 0.3
 

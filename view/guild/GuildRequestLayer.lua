@@ -9,13 +9,13 @@ function var_0_0.setRequest(arg_2_0, arg_2_1)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.viewRect = arg_3_0:findTF("request_panel/view")
-	arg_3_0.listEmptyTF = arg_3_0:findTF("main/frame/empty")
-	arg_3_0.listEmptyTF = arg_3_0:findTF("empty")
+	arg_3_0.viewRect = arg_3_0._tf:Find("request_panel/view")
+	arg_3_0.listEmptyTF = arg_3_0._tf:Find("main/frame/empty")
+	arg_3_0.listEmptyTF = arg_3_0._tf:Find("empty")
 
 	setActive(arg_3_0.listEmptyTF, false)
 
-	arg_3_0.listEmptyTxt = arg_3_0:findTF("Text", arg_3_0.listEmptyTF)
+	arg_3_0.listEmptyTxt = arg_3_0.listEmptyTF:Find("Text")
 
 	setText(arg_3_0.listEmptyTxt, i18n("list_empty_tip_guildrequestui"))
 

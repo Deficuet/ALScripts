@@ -16,17 +16,17 @@ function var_0_0.initData(arg_3_0)
 end
 
 function var_0_0.findUI(arg_4_0)
-	arg_4_0.bgTF = arg_4_0:findTF("Image")
-	arg_4_0.blurPanel = arg_4_0:findTF("bg")
-	arg_4_0.callInput = arg_4_0:findTF("bg/panel/input/nickname")
-	arg_4_0.sureBtn = arg_4_0:findTF("bg/panel/sure_button")
+	arg_4_0.bgTF = arg_4_0._tf:Find("Image")
+	arg_4_0.blurPanel = arg_4_0._tf:Find("bg")
+	arg_4_0.callInput = arg_4_0._tf:Find("bg/panel/input/nickname")
+	arg_4_0.sureBtn = arg_4_0._tf:Find("bg/panel/sure_button")
 
-	setText(arg_4_0:findTF("Image", arg_4_0.sureBtn), i18n("word_ok"))
-	setText(arg_4_0:findTF("Placeholder", arg_4_0.callInput), i18n("child_callname_tip"))
+	setText(arg_4_0.sureBtn:Find("Image"), i18n("word_ok"))
+	setText(arg_4_0.callInput:Find("Placeholder"), i18n("child_callname_tip"))
 
 	arg_4_0.callInput:GetComponent(typeof(InputField)).interactable = not arg_4_0.lockNamed
 
-	setActive(arg_4_0:findTF("bg/panel/input/pan"), not arg_4_0.lockNamed)
+	setActive(arg_4_0._tf:Find("bg/panel/input/pan"), not arg_4_0.lockNamed)
 end
 
 function var_0_0.addListener(arg_5_0)

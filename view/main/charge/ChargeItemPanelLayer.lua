@@ -32,50 +32,50 @@ function var_0_0.initData(arg_5_0)
 end
 
 function var_0_0.initUIText(arg_6_0)
-	local var_6_0 = arg_6_0:findTF("window/button_container/button_cancel/Image")
-	local var_6_1 = arg_6_0:findTF("window/button_container/button_ok/Image")
+	local var_6_0 = arg_6_0._tf:Find("window/button_container/button_cancel/Image")
+	local var_6_1 = arg_6_0._tf:Find("window/button_container/button_ok/Image")
 
 	setText(var_6_0, i18n("text_cancel"))
 	setText(var_6_1, i18n("text_buy"))
 end
 
 function var_0_0.findUI(arg_7_0)
-	arg_7_0.bg = arg_7_0:findTF("back_sign")
-	arg_7_0.detailWindow = arg_7_0:findTF("window")
-	arg_7_0.cancelBtn = arg_7_0:findTF("button_container/button_cancel", arg_7_0.detailWindow)
-	arg_7_0.confirmBtn = arg_7_0:findTF("button_container/button_ok", arg_7_0.detailWindow)
-	arg_7_0.detailName = arg_7_0:findTF("goods/mask/name/Text", arg_7_0.detailWindow)
-	arg_7_0.detailIcon = arg_7_0:findTF("goods/icon", arg_7_0.detailWindow)
-	arg_7_0.detailExtraDrop = arg_7_0:findTF("goods/extra_drop", arg_7_0.detailWindow)
-	arg_7_0.detailRmb = arg_7_0:findTF("prince_bg/contain/icon_rmb", arg_7_0.detailWindow)
-	arg_7_0.detailGem = arg_7_0:findTF("prince_bg/contain/icon_gem", arg_7_0.detailWindow)
-	arg_7_0.detailGold = arg_7_0:findTF("prince_bg/contain/icon_gold", arg_7_0.detailWindow)
-	arg_7_0.detailPrice = arg_7_0:findTF("prince_bg/contain/Text", arg_7_0.detailWindow)
-	arg_7_0.detailTag = arg_7_0:findTF("goods/tag", arg_7_0.detailWindow)
+	arg_7_0.bg = arg_7_0._tf:Find("back_sign")
+	arg_7_0.detailWindow = arg_7_0._tf:Find("window")
+	arg_7_0.cancelBtn = arg_7_0.detailWindow:Find("button_container/button_cancel")
+	arg_7_0.confirmBtn = arg_7_0.detailWindow:Find("button_container/button_ok")
+	arg_7_0.detailName = arg_7_0.detailWindow:Find("goods/mask/name/Text")
+	arg_7_0.detailIcon = arg_7_0.detailWindow:Find("goods/icon")
+	arg_7_0.detailExtraDrop = arg_7_0.detailWindow:Find("goods/extra_drop")
+	arg_7_0.detailRmb = arg_7_0.detailWindow:Find("prince_bg/contain/icon_rmb")
+	arg_7_0.detailGem = arg_7_0.detailWindow:Find("prince_bg/contain/icon_gem")
+	arg_7_0.detailGold = arg_7_0.detailWindow:Find("prince_bg/contain/icon_gold")
+	arg_7_0.detailPrice = arg_7_0.detailWindow:Find("prince_bg/contain/Text")
+	arg_7_0.detailTag = arg_7_0.detailWindow:Find("goods/tag")
 	arg_7_0.detailTags = {}
 
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("hot", arg_7_0.detailTag))
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("new", arg_7_0.detailTag))
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("advice", arg_7_0.detailTag))
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("double", arg_7_0.detailTag))
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("discount", arg_7_0.detailTag))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("hot"))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("new"))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("advice"))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("double"))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("discount"))
 
 	arg_7_0.detailTagAdviceTF = arg_7_0.detailTags[3]
 	arg_7_0.detailTagDoubleTF = arg_7_0.detailTags[4]
-	arg_7_0.detailContain = arg_7_0:findTF("container", arg_7_0.detailWindow)
+	arg_7_0.detailContain = arg_7_0.detailWindow:Find("container")
 
 	if arg_7_0.detailContain then
-		arg_7_0.normal = arg_7_0:findTF("normal_items", arg_7_0.detailContain)
-		arg_7_0.detailTip = arg_7_0:findTF("Text", arg_7_0.normal)
-		arg_7_0.detailItem = arg_7_0:findTF("item_tpl", arg_7_0.normal)
-		arg_7_0.extra = arg_7_0:findTF("items", arg_7_0.detailContain)
-		arg_7_0.extraTip = arg_7_0:findTF("Text", arg_7_0.extra)
-		arg_7_0.detailItemList = arg_7_0:findTF("scrollview/list", arg_7_0.extra)
-		arg_7_0.extraDesc = arg_7_0:findTF("Text", arg_7_0.detailContain)
+		arg_7_0.normal = arg_7_0.detailContain:Find("normal_items")
+		arg_7_0.detailTip = arg_7_0.normal:Find("Text")
+		arg_7_0.detailItem = arg_7_0.normal:Find("item_tpl")
+		arg_7_0.extra = arg_7_0.detailContain:Find("items")
+		arg_7_0.extraTip = arg_7_0.extra:Find("Text")
+		arg_7_0.detailItemList = arg_7_0.extra:Find("scrollview/list")
+		arg_7_0.extraDesc = arg_7_0.detailContain:Find("Text")
 	end
 
-	arg_7_0.detailNormalTip = arg_7_0:findTF("NormalTips", arg_7_0.detailWindow)
-	arg_7_0.infoBtn = arg_7_0:findTF("prince_bg/info", arg_7_0.detailWindow)
+	arg_7_0.detailNormalTip = arg_7_0.detailWindow:Find("NormalTips")
+	arg_7_0.infoBtn = arg_7_0.detailWindow:Find("prince_bg/info")
 end
 
 function var_0_0.addListener(arg_8_0)
@@ -198,8 +198,8 @@ function var_0_0.updatePanel(arg_16_0)
 		setActive(arg_16_0.detailExtraDrop, var_16_12)
 
 		if var_16_12 then
-			setText(arg_16_0:findTF("Text", arg_16_0.detailExtraDrop), i18n("battlepass_pay_acquire") .. "\n" .. var_16_12.count .. "x")
-			updateDrop(arg_16_0:findTF("item/IconTpl", arg_16_0.detailExtraDrop), setmetatable({
+			setText(arg_16_0.detailExtraDrop:Find("Text"), i18n("battlepass_pay_acquire") .. "\n" .. var_16_12.count .. "x")
+			updateDrop(arg_16_0.detailExtraDrop:Find("item/IconTpl"), setmetatable({
 				count = 1
 			}, {
 				__index = var_16_12
@@ -239,7 +239,7 @@ function var_0_0.updatePanel(arg_16_0)
 				var_16_17 = var_16_17 .. "..."
 			end
 
-			setText(arg_16_0:findTF("name", arg_16_0.detailItem), var_16_17)
+			setText(arg_16_0.detailItem:Find("name"), var_16_17)
 			setText(arg_16_0.detailTip, var_16_2)
 		end
 
@@ -288,7 +288,7 @@ function var_0_0.UpdateItems(arg_19_0, arg_19_1)
 			var_19_2 = var_19_2 .. "..."
 		end
 
-		setText(arg_19_0:findTF("name", var_19_0), var_19_2)
+		setText(var_19_0:Find("name"), var_19_2)
 		onButton(arg_19_0, var_19_0, function()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
@@ -304,7 +304,7 @@ function var_0_0.UpdateSkinDiscountItemItems(arg_21_0, arg_21_1)
 
 	arg_21_0:UpdateItems(var_21_0)
 
-	local var_21_2 = UIItemList.New(arg_21_0:findTF("window/container/bonus_gift/bg/scrollview/list"), arg_21_0:findTF("window/container/normal_items/item_tpl"))
+	local var_21_2 = UIItemList.New(arg_21_0._tf:Find("window/container/bonus_gift/bg/scrollview/list"), arg_21_0._tf:Find("window/container/normal_items/item_tpl"))
 
 	var_21_2:make(function(arg_22_0, arg_22_1, arg_22_2)
 		if arg_22_0 == UIItemList.EventUpdate then
@@ -312,8 +312,8 @@ function var_0_0.UpdateSkinDiscountItemItems(arg_21_0, arg_21_1)
 		end
 	end)
 	var_21_2:align(#var_21_1)
-	setText(arg_21_0:findTF("window/container/bonus_gift/bg/Text"), i18n("skin_discount_item_return_tip"))
-	setText(arg_21_0:findTF("window/container/bonus_gift/bg/label"), i18n("skin_discount_item_extra_bounds"))
+	setText(arg_21_0._tf:Find("window/container/bonus_gift/bg/Text"), i18n("skin_discount_item_return_tip"))
+	setText(arg_21_0._tf:Find("window/container/bonus_gift/bg/label"), i18n("skin_discount_item_extra_bounds"))
 end
 
 function var_0_0.UpdateItem(arg_23_0, arg_23_1, arg_23_2)
@@ -324,7 +324,7 @@ function var_0_0.UpdateItem(arg_23_0, arg_23_1, arg_23_2)
 	})
 
 	updateDrop(arg_23_2, var_23_0)
-	setText(arg_23_0:findTF("name", arg_23_2), shortenString(var_23_0:getName(), 4))
+	setText(arg_23_2:Find("name"), shortenString(var_23_0:getName(), 4))
 	onButton(arg_23_0, arg_23_2, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,

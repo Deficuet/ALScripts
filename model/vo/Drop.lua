@@ -372,7 +372,7 @@ function var_0_0.InitSwitch()
 		[DROP_TYPE_ISLAND_ITEM] = function(arg_65_0)
 			local var_65_0 = pg.island_item_data_template[arg_65_0.id]
 
-			arg_65_0.desc = ""
+			arg_65_0.desc = var_65_0.desc
 
 			return var_65_0
 		end,
@@ -393,28 +393,28 @@ function var_0_0.InitSwitch()
 		[DROP_TYPE_ISLAND_FURNITURE] = function(arg_68_0)
 			local var_68_0 = pg.island_furniture_template[arg_68_0.id]
 
-			arg_68_0.desc = ""
+			arg_68_0.desc = var_68_0.describe
 
 			return var_68_0
 		end,
 		[DROP_TYPE_ISLAND_DRESS] = function(arg_69_0)
 			local var_69_0 = pg.island_dress_template[arg_69_0.id]
 
-			arg_69_0.desc = ""
+			arg_69_0.desc = var_69_0.desc
 
 			return var_69_0
 		end,
 		[DROP_TYPE_ISLAND_SKIN] = function(arg_70_0)
 			local var_70_0 = pg.island_skin_template[arg_70_0.id]
 
-			arg_70_0.desc = ""
+			arg_70_0.desc = var_70_0.desc
 
 			return var_70_0
 		end,
 		[DROP_TYPE_ISLAND_ACTION] = function(arg_71_0)
 			local var_71_0 = pg.island_action[arg_71_0.id]
 
-			arg_71_0.desc = ""
+			arg_71_0.desc = var_71_0.desc
 
 			return var_71_0
 		end,
@@ -426,7 +426,11 @@ function var_0_0.InitSwitch()
 			return var_72_0
 		end,
 		[DROP_TYPE_ISLAND_CARD_DIY] = function(arg_73_0)
-			return pg.island_card_diy[arg_73_0.id]
+			local var_73_0 = pg.island_card_diy[arg_73_0.id]
+
+			arg_73_0.desc = var_73_0.desc
+
+			return var_73_0
 		end,
 		[DROP_TYPE_TRANS_ITEM] = function(arg_74_0)
 			return pg.drop_data_restore[arg_74_0.id]

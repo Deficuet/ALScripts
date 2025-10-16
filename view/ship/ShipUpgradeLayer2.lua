@@ -18,27 +18,27 @@ function var_0_0.setPlayer(arg_4_0, arg_4_1)
 end
 
 function var_0_0.init(arg_5_0)
-	arg_5_0.leftPanel = arg_5_0:findTF("blur_panel/left_panel")
-	arg_5_0.stages = arg_5_0:findTF("stageScrollRect/stages", arg_5_0.leftPanel)
+	arg_5_0.leftPanel = arg_5_0._tf:Find("blur_panel/left_panel")
+	arg_5_0.stages = arg_5_0.leftPanel:Find("stageScrollRect/stages")
 
 	setText(arg_5_0.leftPanel:Find("bg/title/Image"), i18n("word_preview"))
 
-	arg_5_0.stagesSnap = arg_5_0:findTF("stageScrollRect", arg_5_0.leftPanel):GetComponent("HorizontalScrollSnap")
-	arg_5_0.breakView = arg_5_0:findTF("content/Text", arg_5_0.leftPanel)
-	arg_5_0.rightPanel = arg_5_0:findTF("blur_panel/right_panel")
-	arg_5_0.attrs = arg_5_0:findTF("top/attrs", arg_5_0.rightPanel)
-	arg_5_0.starTpl = arg_5_0:findTF("top/rare/startpl", arg_5_0.rightPanel)
+	arg_5_0.stagesSnap = arg_5_0.leftPanel:Find("stageScrollRect"):GetComponent("HorizontalScrollSnap")
+	arg_5_0.breakView = arg_5_0.leftPanel:Find("content/Text")
+	arg_5_0.rightPanel = arg_5_0._tf:Find("blur_panel/right_panel")
+	arg_5_0.attrs = arg_5_0.rightPanel:Find("top/attrs")
+	arg_5_0.starTpl = arg_5_0.rightPanel:Find("top/rare/startpl")
 
 	setActive(arg_5_0.starTpl, false)
 
-	arg_5_0.starsFrom = arg_5_0:findTF("top/rare/stars_from", arg_5_0.rightPanel)
-	arg_5_0.starsTo = arg_5_0:findTF("top/rare/stars_to", arg_5_0.rightPanel)
-	arg_5_0.starOpera = arg_5_0:findTF("top/rare/opera", arg_5_0.rightPanel)
-	arg_5_0.materials = arg_5_0:findTF("bottom/materials", arg_5_0.rightPanel)
-	arg_5_0.breakOutBtn = arg_5_0:findTF("bottom/break_btn/tip_active/image", arg_5_0.rightPanel)
-	arg_5_0.appendStarTips = arg_5_0:findTF("bottom/panel_title/tip", arg_5_0.rightPanel)
-	arg_5_0.tipActive = arg_5_0:findTF("bottom/break_btn/tip_active", arg_5_0.rightPanel)
-	arg_5_0.tipDeactive = arg_5_0:findTF("bottom/break_btn/tip_deactive", arg_5_0.rightPanel)
+	arg_5_0.starsFrom = arg_5_0.rightPanel:Find("top/rare/stars_from")
+	arg_5_0.starsTo = arg_5_0.rightPanel:Find("top/rare/stars_to")
+	arg_5_0.starOpera = arg_5_0.rightPanel:Find("top/rare/opera")
+	arg_5_0.materials = arg_5_0.rightPanel:Find("bottom/materials")
+	arg_5_0.breakOutBtn = arg_5_0.rightPanel:Find("bottom/break_btn/tip_active/image")
+	arg_5_0.appendStarTips = arg_5_0.rightPanel:Find("bottom/panel_title/tip")
+	arg_5_0.tipActive = arg_5_0.rightPanel:Find("bottom/break_btn/tip_active")
+	arg_5_0.tipDeactive = arg_5_0.rightPanel:Find("bottom/break_btn/tip_deactive")
 
 	setText(arg_5_0.rightPanel:Find("bottom/panel_title/tip"), i18n("breakout_tip"))
 	setText(arg_5_0.rightPanel:Find("bottom/break_btn/tip_deactive/values/ok"), i18n("text_confirm"))
@@ -46,18 +46,18 @@ function var_0_0.init(arg_5_0)
 
 	arg_5_0.recommandBtn = arg_5_0.rightPanel:Find("bottom/auto_btn")
 	arg_5_0.isEnoughItems = true
-	arg_5_0.sea = arg_5_0:findTF("sea", arg_5_0.leftPanel)
+	arg_5_0.sea = arg_5_0.leftPanel:Find("sea")
 	arg_5_0.rawImage = arg_5_0.sea:GetComponent("RawImage")
 
 	setActive(arg_5_0.rawImage, false)
 
-	arg_5_0.healTF = arg_5_0:findTF("resources/heal")
+	arg_5_0.healTF = arg_5_0._tf:Find("resources/heal")
 	arg_5_0.healTF.transform.localPosition = Vector3(-360, 50, 40)
 
 	setActive(arg_5_0.healTF, false)
 
-	arg_5_0.qCharaContain = arg_5_0:findTF("top/panel_bg/q_chara", arg_5_0.rightPanel)
-	arg_5_0.seaLoading = arg_5_0:findTF("bg/loading", arg_5_0.leftPanel)
+	arg_5_0.qCharaContain = arg_5_0.rightPanel:Find("top/panel_bg/q_chara")
+	arg_5_0.seaLoading = arg_5_0.leftPanel:Find("bg/loading")
 
 	arg_5_0:playLoadingAni()
 
@@ -256,7 +256,7 @@ function var_0_0.setShip(arg_25_0, arg_25_1)
 	arg_25_0.itemTFs = {}
 
 	for iter_25_0 = 1, 3 do
-		arg_25_0.itemTFs[iter_25_0] = arg_25_0:findTF("item_" .. iter_25_0, arg_25_0.materials)
+		arg_25_0.itemTFs[iter_25_0] = arg_25_0.materials:Find("item_" .. iter_25_0)
 	end
 
 	arg_25_0:updateBattleView()
@@ -289,7 +289,7 @@ function var_0_0.updateStagesScrollView(arg_27_0)
 	local var_27_0 = table.indexof(arg_27_0.breakIds, arg_27_0.shipVO.configId)
 
 	if var_27_0 and var_27_0 >= 1 and var_27_0 <= var_0_1 then
-		arg_27_0:findTF("stage" .. var_27_0, arg_27_0.stages):GetComponent(typeof(Toggle)).isOn = true
+		arg_27_0.stages:Find("stage" .. var_27_0):GetComponent(typeof(Toggle)).isOn = true
 	end
 end
 
@@ -304,7 +304,7 @@ function var_0_0.updateBattleView(arg_28_0)
 
 		assert(var_28_1, "不存在配置" .. var_28_0)
 
-		local var_28_2 = arg_28_0:findTF("stage" .. iter_28_0, arg_28_0.stages)
+		local var_28_2 = arg_28_0.stages:Find("stage" .. iter_28_0)
 
 		onToggle(arg_28_0, var_28_2, function(arg_29_0)
 			if arg_29_0 then
@@ -323,13 +323,13 @@ function var_0_0.updateBattleView(arg_28_0)
 		end, SFX_PANEL)
 	end
 
-	arg_28_0:findTF("stage1", arg_28_0.stages):GetComponent(typeof(Toggle)).group:SetAllTogglesOff()
+	arg_28_0.stages:Find("stage1"):GetComponent(typeof(Toggle)).group:SetAllTogglesOff()
 
 	local var_28_3 = table.indexof(arg_28_0.breakIds, arg_28_0.shipVO.configId)
 	local var_28_4 = math.clamp(var_28_3, 1, var_0_1)
 
 	if var_28_4 and var_28_4 >= 1 and var_28_4 <= var_0_1 then
-		local var_28_5 = arg_28_0:findTF("stage" .. var_28_4, arg_28_0.stages)
+		local var_28_5 = arg_28_0.stages:Find("stage" .. var_28_4)
 
 		triggerToggle(var_28_5, true)
 	end
@@ -455,7 +455,7 @@ function var_0_0.updateBreakOutView(arg_36_0, arg_36_1)
 	local var_36_10 = 0
 
 	if var_36_6 and var_36_6 ~= arg_36_0.shipTempCfg[arg_36_1.configId].max_level then
-		local var_36_11 = arg_36_0:findTF("attr_1", arg_36_0.attrs)
+		local var_36_11 = arg_36_0.attrs:Find("attr_1")
 
 		var_36_9(var_36_11, {
 			preAttr = arg_36_0.shipTempCfg[arg_36_1.configId].max_level,
@@ -467,7 +467,7 @@ function var_0_0.updateBreakOutView(arg_36_0, arg_36_1)
 	end
 
 	for iter_36_2 = 1, #var_0_2 do
-		local var_36_12 = arg_36_0:findTF("attr_" .. var_36_10 + iter_36_2, arg_36_0.attrs)
+		local var_36_12 = arg_36_0.attrs:Find("attr_" .. var_36_10 + iter_36_2)
 
 		setActive(var_36_12, true)
 
@@ -482,7 +482,7 @@ function var_0_0.updateBreakOutView(arg_36_0, arg_36_1)
 	end
 
 	local var_36_15 = var_36_10 + #var_0_2 + 1
-	local var_36_16 = arg_36_0:findTF("attr_" .. var_36_15, arg_36_0.attrs)
+	local var_36_16 = arg_36_0.attrs:Find("attr_" .. var_36_15)
 
 	setActive(var_36_16, true)
 	var_36_9(var_36_16, {
@@ -492,7 +492,7 @@ function var_0_0.updateBreakOutView(arg_36_0, arg_36_1)
 	})
 
 	for iter_36_3 = var_36_15 + 1, 8 do
-		local var_36_17 = arg_36_0:findTF("attr_" .. iter_36_3, arg_36_0.attrs)
+		local var_36_17 = arg_36_0.attrs:Find("attr_" .. iter_36_3)
 
 		setActive(var_36_17, false)
 	end

@@ -7,24 +7,24 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.kickAllBtn = arg_2_0:findTF("frame/public")
-	arg_2_0.closeAccessBtn = arg_2_0:findTF("frame/onkey")
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/close")
-	arg_2_0.peopleCntTxt = arg_2_0:findTF("frame/cnt/Text"):GetComponent(typeof(Text))
+	arg_2_0.kickAllBtn = arg_2_0._tf:Find("frame/public")
+	arg_2_0.closeAccessBtn = arg_2_0._tf:Find("frame/onkey")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/close")
+	arg_2_0.peopleCntTxt = arg_2_0._tf:Find("frame/cnt/Text"):GetComponent(typeof(Text))
 	arg_2_0.toggles = {
-		arg_2_0:findTF("frame/toggles/1"),
-		arg_2_0:findTF("frame/toggles/2")
+		arg_2_0._tf:Find("frame/toggles/1"),
+		arg_2_0._tf:Find("frame/toggles/2")
 	}
 	arg_2_0.texts = {
-		arg_2_0:findTF("frame/toggles/1/Text"):GetComponent(typeof(Text)),
-		arg_2_0:findTF("frame/toggles/2/Text"):GetComponent(typeof(Text))
+		arg_2_0._tf:Find("frame/toggles/1/Text"):GetComponent(typeof(Text)),
+		arg_2_0._tf:Find("frame/toggles/2/Text"):GetComponent(typeof(Text))
 	}
 	arg_2_0.names = {
 		i18n("island_curr_visitor"),
 		i18n("island_visitor_log")
 	}
-	arg_2_0._scrollrect = arg_2_0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
-	arg_2_0._scrollrectLog = arg_2_0:findTF("frame/scrollrect4Log"):GetComponent("LScrollRect")
+	arg_2_0._scrollrect = arg_2_0._tf:Find("frame/scrollrect"):GetComponent("LScrollRect")
+	arg_2_0._scrollrectLog = arg_2_0._tf:Find("frame/scrollrect4Log"):GetComponent("LScrollRect")
 	arg_2_0.scrollrects = {
 		arg_2_0._scrollrect,
 		arg_2_0._scrollrectLog
@@ -52,9 +52,9 @@ function var_0_0.OnLoaded(arg_2_0)
 		arg_2_0:OnUpdateItem4Log(arg_6_0, arg_6_1)
 	end
 
-	setText(arg_2_0:findTF("frame/public/Text"), i18n("island_kick_all"))
-	setText(arg_2_0:findTF("frame/onkey/Text"), i18n("island_close_visit"))
-	setText(arg_2_0:findTF("frame/cnt/label"), i18n("island_curr_people_cnt"))
+	setText(arg_2_0._tf:Find("frame/public/Text"), i18n("island_kick_all"))
+	setText(arg_2_0._tf:Find("frame/onkey/Text"), i18n("island_close_visit"))
+	setText(arg_2_0._tf:Find("frame/cnt/label"), i18n("island_curr_people_cnt"))
 end
 
 function var_0_0.OnInit(arg_7_0)

@@ -47,22 +47,16 @@ function var_0_0.detach(arg_6_0)
 	end
 end
 
-function var_0_0.findTF(arg_7_0, arg_7_1, arg_7_2)
-	assert(arg_7_0._tf, "transform should exist")
+function var_0_0.getTpl(arg_7_0, arg_7_1, arg_7_2)
+	local var_7_0 = arg_7_2:Find(arg_7_1)
 
-	return findTF(arg_7_2 or arg_7_0._tf, arg_7_1)
+	var_7_0:SetParent(arg_7_0._tf, false)
+	SetActive(var_7_0, false)
+
+	return var_7_0
 end
 
-function var_0_0.getTpl(arg_8_0, arg_8_1, arg_8_2)
-	local var_8_0 = arg_8_0:findTF(arg_8_1, arg_8_2)
-
-	var_8_0:SetParent(arg_8_0._tf, false)
-	SetActive(var_8_0, false)
-
-	return var_8_0
-end
-
-function var_0_0.clear(arg_9_0)
+function var_0_0.clear(arg_8_0)
 	return
 end
 

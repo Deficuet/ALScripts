@@ -5,7 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	setText(arg_2_0:findTF("window/bg/text"), i18n("desc_defense_reward"))
+	setText(arg_2_0._tf:Find("window/bg/text"), i18n("desc_defense_reward"))
 
 	arg_2_0.UIlist = UIItemList.New(arg_2_0._tf:Find("window/bg/panel/list"), arg_2_0._tf:Find("window/bg/panel/list/item"))
 	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")

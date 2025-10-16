@@ -8,9 +8,9 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.slots = {
-		arg_2_0:findTF("tpl")
+		arg_2_0._tf:Find("tpl")
 	}
-	arg_2_0.defaultPaintingPosition = arg_2_0:findTF("tpl/mask/painting").anchoredPosition
+	arg_2_0.defaultPaintingPosition = arg_2_0._tf:Find("tpl/mask/painting").anchoredPosition
 end
 
 function var_0_0.StaticGetFinalExpandPosition(arg_3_0)
@@ -346,7 +346,7 @@ function var_0_0.InitMainFleetShips(arg_37_0, arg_37_1)
 end
 
 function var_0_0.AdjustPainting(arg_39_0, arg_39_1, arg_39_2)
-	local var_39_0 = arg_39_0:findTF("mask/painting", arg_39_1)
+	local var_39_0 = arg_39_1:Find("mask/painting")
 	local var_39_1 = pg.ship_skin_newmainui_shift[arg_39_2:getSkinId()]
 
 	if var_39_1 then
@@ -366,7 +366,7 @@ function var_0_0.AdjustPainting(arg_39_0, arg_39_1, arg_39_2)
 end
 
 function var_0_0.RevertPainting(arg_40_0, arg_40_1)
-	local var_40_0 = arg_40_0:findTF("mask/painting", arg_40_1):GetComponent(typeof(RectTransform))
+	local var_40_0 = arg_40_1:Find("mask/painting"):GetComponent(typeof(RectTransform))
 
 	var_40_0.anchoredPosition = arg_40_0.defaultPaintingPosition
 	var_40_0.localScale = Vector3(1, 1, 1)

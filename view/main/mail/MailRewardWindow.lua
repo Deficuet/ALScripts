@@ -9,14 +9,14 @@ function var_0_0.OnInit(arg_2_0)
 		arg_2_0:Hide()
 	end, SFX_PANEL)
 
-	arg_2_0.closeBtn = arg_2_0:findTF("adapt/window/top/btnBack")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("adapt/window/top/btnBack")
 
 	onButton(arg_2_0, arg_2_0.closeBtn, function()
 		arg_2_0:Hide()
 	end, SFX_PANEL)
 
-	arg_2_0.cancelButton = arg_2_0:findTF("adapt/window/button_container/btn_not")
-	arg_2_0.confirmButton = arg_2_0:findTF("adapt/window/button_container/btn_ok")
+	arg_2_0.cancelButton = arg_2_0._tf:Find("adapt/window/button_container/btn_not")
+	arg_2_0.confirmButton = arg_2_0._tf:Find("adapt/window/button_container/btn_ok")
 	arg_2_0._window = arg_2_0._tf:Find("adapt/window")
 	arg_2_0.item_panel = arg_2_0._window:Find("item_panel")
 	arg_2_0.reward_gold = arg_2_0.item_panel:Find("parentAdpter/textAdpter/reward_gold")

@@ -27,8 +27,8 @@ end
 function var_0_0.init(arg_4_0)
 	arg_4_0._animator = GetComponent(arg_4_0._tf, "Animator")
 	arg_4_0._canvasGroup = GetOrAddComponent(arg_4_0._tf, typeof(CanvasGroup))
-	arg_4_0._shake = arg_4_0:findTF("shake_panel")
-	arg_4_0._shade = arg_4_0:findTF("shade")
+	arg_4_0._shake = arg_4_0._tf:Find("shake_panel")
+	arg_4_0._shade = arg_4_0._tf:Find("shade")
 	arg_4_0._bg = arg_4_0._shake:Find("bg")
 	arg_4_0._drag = arg_4_0._shake:Find("drag")
 	arg_4_0._paintingTF = arg_4_0._shake:Find("paint")
@@ -46,23 +46,23 @@ function var_0_0.init(arg_4_0)
 	arg_4_0._shareBtn = arg_4_0._left:Find("share_btn")
 	arg_4_0.audioBtn = arg_4_0._shake:Find("property_btn")
 	arg_4_0.clickTF = arg_4_0._shake:Find("click")
-	arg_4_0.npc = arg_4_0:findTF("shake_panel/npc")
+	arg_4_0.npc = arg_4_0._tf:Find("shake_panel/npc")
 
 	setActive(arg_4_0.npc, false)
 
 	arg_4_0.newTF = arg_4_0._shake:Find("New")
 	arg_4_0.rarityTF = arg_4_0._shake:Find("rarity")
 	arg_4_0.starsTF = arg_4_0.rarityTF:Find("stars")
-	arg_4_0.starsCont = arg_4_0:findTF("content", arg_4_0.starsTF)
+	arg_4_0.starsCont = arg_4_0.starsTF:Find("content")
 	arg_4_0._skipButton = arg_4_0._shake:Find("ForNotch/skip")
 
 	setActive(arg_4_0._skipButton, arg_4_0.contextData.canSkipBatch)
 	setActive(arg_4_0._left, true)
 	setActive(arg_4_0.audioBtn, true)
-	arg_4_0:OverlayPanel(arg_4_0._tf)
+	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf)
 
-	arg_4_0.metaRepeatTF = arg_4_0:findTF("MetaRepeat", arg_4_0.rarityTF)
-	arg_4_0.metaDarkTF = arg_4_0:findTF("MetaMask", arg_4_0._shake)
+	arg_4_0.metaRepeatTF = arg_4_0.rarityTF:Find("MetaRepeat")
+	arg_4_0.metaDarkTF = arg_4_0._shake:Find("MetaMask")
 	arg_4_0.rarityEffect = {}
 
 	if arg_4_0.contextData.autoExitTime then
@@ -199,8 +199,8 @@ function var_0_0.setShip(arg_8_0, arg_8_1)
 		arg_8_0:updateLockTF(var_8_6 ~= nil)
 
 		if var_8_6 then
-			local var_8_7 = arg_8_0:findTF("Icon", arg_8_0.metaRepeatTF)
-			local var_8_8 = arg_8_0:findTF("Count", arg_8_0.metaRepeatTF)
+			local var_8_7 = arg_8_0.metaRepeatTF:Find("Icon")
+			local var_8_8 = arg_8_0.metaRepeatTF:Find("Count")
 
 			setImageSprite(var_8_7, LoadSprite(var_8_6:getConfig("icon")))
 			GetImageSpriteFromAtlasAsync(var_8_6:getConfig("icon"), "", var_8_7)
@@ -208,8 +208,8 @@ function var_0_0.setShip(arg_8_0, arg_8_1)
 
 			local var_8_9 = pg.ship_transform[arg_8_0._shipVO.groupId].exclusive_item[1][2]
 			local var_8_10 = pg.ship_transform[arg_8_0._shipVO.groupId].common_item[1][2]
-			local var_8_11 = arg_8_0:findTF("Special", arg_8_0.metaRepeatTF)
-			local var_8_12 = arg_8_0:findTF("Commom", arg_8_0.metaRepeatTF)
+			local var_8_11 = arg_8_0.metaRepeatTF:Find("Special")
+			local var_8_12 = arg_8_0.metaRepeatTF:Find("Commom")
 
 			setActive(var_8_11, var_8_6.id == var_8_9)
 			setActive(var_8_12, var_8_6.id == var_8_10)
@@ -345,7 +345,7 @@ function var_0_0.setShip(arg_8_0, arg_8_1)
 			arg_13_0.transform:SetSiblingIndex(1)
 
 			if arg_8_1:isMetaShip() then
-				local var_13_0 = arg_8_0:findTF("fire_ruchang", tf(arg_13_0))
+				local var_13_0 = tf(arg_13_0):Find("fire_ruchang")
 
 				var_13_0:GetComponent(typeof(DftAniEvent)):SetEndEvent(function(arg_14_0)
 					setActive(var_8_22, true)
@@ -889,7 +889,7 @@ function var_0_0.willExit(arg_74_0)
 	end
 
 	arg_74_0:recyclePainting()
-	arg_74_0:UnOverlayPanel(arg_74_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_74_0._tf)
 	arg_74_0:stopVoice()
 
 	if arg_74_0.loadedCVBankName then

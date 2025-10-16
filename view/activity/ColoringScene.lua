@@ -34,26 +34,26 @@ function var_0_0.setColorGroups(arg_4_0, arg_4_1)
 end
 
 function var_0_0.init(arg_5_0)
-	arg_5_0.topPanel = arg_5_0:findTF("top")
-	arg_5_0.btnBack = arg_5_0:findTF("top/btnBack")
-	arg_5_0.title = arg_5_0:findTF("center/title_bar/text")
-	arg_5_0.bg = arg_5_0:findTF("center/board/container/bg")
-	arg_5_0.painting = arg_5_0:findTF("center/painting")
-	arg_5_0.paintingCompleted = arg_5_0:findTF("center/painting_completed")
+	arg_5_0.topPanel = arg_5_0.rtAdapt:Find("top")
+	arg_5_0.btnBack = arg_5_0.rtAdapt:Find("top/btnBack")
+	arg_5_0.title = arg_5_0.rtAdapt:Find("center/title_bar/text")
+	arg_5_0.bg = arg_5_0.rtAdapt:Find("center/board/container/bg")
+	arg_5_0.painting = arg_5_0.rtAdapt:Find("center/painting")
+	arg_5_0.paintingCompleted = arg_5_0.rtAdapt:Find("center/painting_completed")
 	arg_5_0.zoom = arg_5_0.bg:GetComponent("Zoom")
 	arg_5_0.zoom.maxZoom = 3
-	arg_5_0.cells = arg_5_0:findTF("cells", arg_5_0.bg)
-	arg_5_0.cell = arg_5_0:findTF("cell", arg_5_0.bg)
-	arg_5_0.lines = arg_5_0:findTF("lines", arg_5_0.bg)
-	arg_5_0.line = arg_5_0:findTF("line", arg_5_0.bg)
-	arg_5_0.btnHelp = arg_5_0:findTF("top/btnHelp")
-	arg_5_0.btnShare = arg_5_0:findTF("top/btnShare")
-	arg_5_0.colorgroupfront = arg_5_0:findTF("center/colorgroupfront")
-	arg_5_0.scrollColor = arg_5_0:findTF("color_bar/scroll")
-	arg_5_0.barExtra = arg_5_0:findTF("color_bar/extra")
-	arg_5_0.toggleEraser = arg_5_0:findTF("eraser", arg_5_0.barExtra)
-	arg_5_0.btnEraserAll = arg_5_0:findTF("eraser_all", arg_5_0.barExtra)
-	arg_5_0.arrowDown = arg_5_0:findTF("arrow", arg_5_0.barExtra)
+	arg_5_0.cells = arg_5_0.bg:Find("cells")
+	arg_5_0.cell = arg_5_0.bg:Find("cell")
+	arg_5_0.lines = arg_5_0.bg:Find("lines")
+	arg_5_0.line = arg_5_0.bg:Find("line")
+	arg_5_0.btnHelp = arg_5_0.rtAdapt:Find("top/btnHelp")
+	arg_5_0.btnShare = arg_5_0.rtAdapt:Find("top/btnShare")
+	arg_5_0.colorgroupfront = arg_5_0.rtAdapt:Find("center/colorgroupfront")
+	arg_5_0.scrollColor = arg_5_0.rtAdapt:Find("color_bar/scroll")
+	arg_5_0.barExtra = arg_5_0.rtAdapt:Find("color_bar/extra")
+	arg_5_0.toggleEraser = arg_5_0.barExtra:Find("eraser")
+	arg_5_0.btnEraserAll = arg_5_0.barExtra:Find("eraser_all")
+	arg_5_0.arrowDown = arg_5_0.barExtra:Find("arrow")
 
 	setActive(arg_5_0.cell, false)
 	setActive(arg_5_0.line, false)
@@ -63,14 +63,14 @@ end
 function var_0_0.DidMediatorRegisterDone(arg_6_0)
 	local var_6_0 = arg_6_0.colorGroups[1]:getConfig("color_id_list")
 
-	arg_6_0.colorPlates = CustomIndexLayer.Clone2Full(arg_6_0:findTF("content", arg_6_0.scrollColor), #var_6_0)
+	arg_6_0.colorPlates = CustomIndexLayer.Clone2Full(arg_6_0.scrollColor:Find("content"), #var_6_0)
 
 	local var_6_1 = #arg_6_0.colorGroups
 
 	arg_6_0.coloringUIGroupName = "ColoringUIGroupSize" .. var_6_1
 
 	PoolMgr.GetInstance():GetUI(arg_6_0.coloringUIGroupName, false, function(arg_7_0)
-		setParent(arg_7_0, arg_6_0:findTF("center"))
+		setParent(arg_7_0, arg_6_0.rtAdapt:Find("center"))
 		setAnchoredPosition(arg_7_0, var_0_5)
 		tf(arg_7_0):SetSiblingIndex(1)
 		setActive(arg_7_0, true)
@@ -241,23 +241,21 @@ end
 
 function var_0_0.SelectColoBar(arg_24_0, arg_24_1)
 	if arg_24_0.selectedColorIndex ~= 0 and arg_24_0.selectedColorIndex ~= arg_24_1 then
-		local var_24_0 = arg_24_0.colorPlates[arg_24_0.selectedColorIndex]
-		local var_24_1 = arg_24_0:findTF("icon", var_24_0)
-		local var_24_2 = var_24_1.sizeDelta
+		local var_24_0 = arg_24_0.colorPlates[arg_24_0.selectedColorIndex]:Find("icon")
+		local var_24_1 = var_24_0.sizeDelta
 
-		var_24_2.x = var_0_1
-		var_24_1.sizeDelta = var_24_2
+		var_24_1.x = var_0_1
+		var_24_0.sizeDelta = var_24_1
 	end
 
 	arg_24_0.selectedColorIndex = arg_24_1
 
 	if arg_24_0.selectedColorIndex ~= 0 then
-		local var_24_3 = arg_24_0.colorPlates[arg_24_0.selectedColorIndex]
-		local var_24_4 = arg_24_0:findTF("icon", var_24_3)
-		local var_24_5 = var_24_4.sizeDelta
+		local var_24_2 = arg_24_0.colorPlates[arg_24_0.selectedColorIndex]:Find("icon")
+		local var_24_3 = var_24_2.sizeDelta
 
-		var_24_5.x = var_0_2
-		var_24_4.sizeDelta = var_24_5
+		var_24_3.x = var_0_2
+		var_24_2.sizeDelta = var_24_3
 	end
 end
 

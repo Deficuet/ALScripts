@@ -26,26 +26,26 @@ end
 function var_0_0.init(arg_5_0)
 	arg_5_0:OverlayPanel(arg_5_0._tf)
 
-	arg_5_0.frame = arg_5_0:findTF("frame")
-	arg_5_0.iconTF = arg_5_0:findTF("frame/left_bg/icon_bg/frame/icon"):GetComponent(typeof(Image))
-	arg_5_0.starsTF = arg_5_0:findTF("frame/left_bg/icon_bg/stars")
-	arg_5_0.starTF = arg_5_0:findTF("frame/left_bg/icon_bg/stars/star")
-	arg_5_0.playerNameTF = arg_5_0:findTF("frame/left_bg/name_bg/Text"):GetComponent(typeof(Text))
-	arg_5_0.levelTF = arg_5_0:findTF("frame/left_bg/icon_bg/lv/Text"):GetComponent(typeof(Text))
-	arg_5_0.resumeEmblem = arg_5_0:findTF("frame/left_bg/emblem")
-	arg_5_0.resumeRank = arg_5_0:findTF("frame/left_bg/emblem/Text"):GetComponent(typeof(Text))
-	arg_5_0.informPanel = arg_5_0:findTF("inform_panel")
-	arg_5_0.toggleTpl = arg_5_0:findTF("inform_panel/frame/window/main/Toggle")
-	arg_5_0.buttonTpl = arg_5_0:findTF("inform_panel/frame/window/main/button")
-	arg_5_0.toggleContainer = arg_5_0:findTF("inform_panel/frame/window/main/toggles")
-	arg_5_0.confirmBtn = arg_5_0:findTF("frame/window/buttons/confirm_btn", arg_5_0.informPanel)
-	arg_5_0.cancelBtn = arg_5_0:findTF("frame/window/buttons/cancel_btn", arg_5_0.informPanel)
-	arg_5_0.backBtn = arg_5_0:findTF("inform_panel/frame/window/top/btnBack")
-	arg_5_0.nameTF = arg_5_0:findTF("inform_panel/frame/window/name"):GetComponent(typeof(Text))
+	arg_5_0.frame = arg_5_0._tf:Find("frame")
+	arg_5_0.iconTF = arg_5_0._tf:Find("frame/left_bg/icon_bg/frame/icon"):GetComponent(typeof(Image))
+	arg_5_0.starsTF = arg_5_0._tf:Find("frame/left_bg/icon_bg/stars")
+	arg_5_0.starTF = arg_5_0._tf:Find("frame/left_bg/icon_bg/stars/star")
+	arg_5_0.playerNameTF = arg_5_0._tf:Find("frame/left_bg/name_bg/Text"):GetComponent(typeof(Text))
+	arg_5_0.levelTF = arg_5_0._tf:Find("frame/left_bg/icon_bg/lv/Text"):GetComponent(typeof(Text))
+	arg_5_0.resumeEmblem = arg_5_0._tf:Find("frame/left_bg/emblem")
+	arg_5_0.resumeRank = arg_5_0._tf:Find("frame/left_bg/emblem/Text"):GetComponent(typeof(Text))
+	arg_5_0.informPanel = arg_5_0._tf:Find("inform_panel")
+	arg_5_0.toggleTpl = arg_5_0._tf:Find("inform_panel/frame/window/main/Toggle")
+	arg_5_0.buttonTpl = arg_5_0._tf:Find("inform_panel/frame/window/main/button")
+	arg_5_0.toggleContainer = arg_5_0._tf:Find("inform_panel/frame/window/main/toggles")
+	arg_5_0.confirmBtn = arg_5_0.informPanel:Find("frame/window/buttons/confirm_btn")
+	arg_5_0.cancelBtn = arg_5_0.informPanel:Find("frame/window/buttons/cancel_btn")
+	arg_5_0.backBtn = arg_5_0._tf:Find("inform_panel/frame/window/top/btnBack")
+	arg_5_0.nameTF = arg_5_0._tf:Find("inform_panel/frame/window/name"):GetComponent(typeof(Text))
 
 	if arg_5_0.contextData.pos then
 		if arg_5_0.contextData.backyardView then
-			local var_5_0 = arg_5_0:findTF("frame_for_backyard")
+			local var_5_0 = arg_5_0._tf:Find("frame_for_backyard")
 
 			var_5_0.position = arg_5_0.contextData.pos
 			var_5_0.localPosition = Vector3(var_5_0.localPosition.x, var_5_0.localPosition.y, 0)
@@ -73,15 +73,15 @@ function var_0_0.Init(arg_8_0)
 	local var_8_0 = arg_8_0.contextData.backyardView
 
 	arg_8_0:initInfo()
-	setActive(arg_8_0:findTF("frame_for_backyard"), var_8_0)
-	setActive(arg_8_0:findTF("frame"), not var_8_0)
+	setActive(arg_8_0._tf:Find("frame_for_backyard"), var_8_0)
+	setActive(arg_8_0._tf:Find("frame"), not var_8_0)
 
 	local var_8_1
 
 	if var_8_0 then
-		var_8_1 = arg_8_0:findTF("frame_for_backyard/right_bg")
+		var_8_1 = arg_8_0._tf:Find("frame_for_backyard/right_bg")
 	else
-		var_8_1 = arg_8_0:findTF("frame/right_bg")
+		var_8_1 = arg_8_0._tf:Find("frame/right_bg")
 	end
 
 	arg_8_0.btnTFs = {}
@@ -124,7 +124,7 @@ function var_0_0.Init(arg_8_0)
 		setActive(arg_8_0.btnTFs[3], false)
 	end
 
-	setActive(arg_8_0:findTF("frame/left_bg", false))
+	setActive(arg_8_0._tf:Find("frame/left_bg"), false)
 end
 
 function var_0_0.openInfromPanel(arg_10_0)

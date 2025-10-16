@@ -94,8 +94,8 @@ function var_0_0.init(arg_2_0)
 	setText(arg_2_0.panelAction:Find("Layout/Title/Special/Selected"), i18n("dorm3d_photo_special_anim"))
 
 	arg_2_0.mainCamera = GameObject.Find("BackYardMainCamera"):GetComponent(typeof(Camera))
-	arg_2_0.stopRecBtn = arg_2_0:findTF("stopRec")
-	arg_2_0.videoTipPanel = arg_2_0:findTF("videoTipPanel")
+	arg_2_0.stopRecBtn = arg_2_0._tf:Find("stopRec")
+	arg_2_0.videoTipPanel = arg_2_0._tf:Find("videoTipPanel")
 
 	setActive(arg_2_0.videoTipPanel, false)
 
@@ -195,7 +195,7 @@ function var_0_0.didEnter(arg_7_0)
 		local function var_15_0(arg_16_0)
 			setActive(arg_7_0.centerPanel, arg_16_0)
 
-			arg_7_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_16_0 and 1 or 0
+			arg_7_0._tf:Find("RightTop"):GetComponent("CanvasGroup").alpha = arg_16_0 and 1 or 0
 		end
 
 		if not arg_7_0.recordState then
@@ -234,7 +234,7 @@ function var_0_0.didEnter(arg_7_0)
 					if not var_21_0 or var_21_0 <= 0 then
 						PlayerPrefs.SetInt("hadShowForVideoTipDorm", 1)
 
-						arg_7_0:findTF("Text", arg_7_0.videoTipPanel):GetComponent("Text").text = i18n("word_take_video_tip")
+						arg_7_0.videoTipPanel:Find("Text"):GetComponent("Text").text = i18n("word_take_video_tip")
 
 						onButton(arg_7_0, arg_7_0.videoTipPanel, function()
 							setActive(arg_7_0.videoTipPanel, false)
@@ -280,7 +280,7 @@ function var_0_0.didEnter(arg_7_0)
 		local function var_23_1(arg_28_0)
 			setActive(arg_7_0.centerPanel, arg_28_0)
 
-			arg_7_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_28_0 and 1 or 0
+			arg_7_0._tf:Find("RightTop"):GetComponent("CanvasGroup").alpha = arg_28_0 and 1 or 0
 		end
 
 		if not LeanTween.isTweening(go(arg_7_0.stopRecBtn)) then

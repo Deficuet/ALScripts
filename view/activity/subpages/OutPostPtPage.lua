@@ -3,7 +3,7 @@ local var_0_0 = class("OutPostPtPage", import(".MaoziPtPage"))
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.getBtn1 = arg_1_0:findTF("AD/switcher/phase2/get_btn")
+	arg_1_0.getBtn1 = arg_1_0._tf:Find("AD/switcher/phase2/get_btn")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)

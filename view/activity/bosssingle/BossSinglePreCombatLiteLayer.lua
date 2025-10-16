@@ -27,16 +27,16 @@ end
 
 function var_0_0.CommonInit(arg_4_0)
 	arg_4_0.eventTriggers = {}
-	arg_4_0._startBtn = arg_4_0:findTF("right/start")
-	arg_4_0._costContainer = arg_4_0:findTF("right/start/cost_container")
+	arg_4_0._startBtn = arg_4_0._tf:Find("right/start")
+	arg_4_0._costContainer = arg_4_0._tf:Find("right/start/cost_container")
 	arg_4_0._popup = arg_4_0._costContainer:Find("popup")
 	arg_4_0._costText = arg_4_0._popup:Find("Text")
-	arg_4_0._moveLayer = arg_4_0:findTF("moveLayer")
+	arg_4_0._moveLayer = arg_4_0._tf:Find("moveLayer")
 
-	local var_4_0 = arg_4_0:findTF("middle")
+	local var_4_0 = arg_4_0._tf:Find("middle")
 
-	arg_4_0._autoToggle = arg_4_0:findTF("auto_toggle")
-	arg_4_0._autoSubToggle = arg_4_0:findTF("sub_toggle_container/sub_toggle")
+	arg_4_0._autoToggle = arg_4_0._tf:Find("auto_toggle")
+	arg_4_0._autoSubToggle = arg_4_0._tf:Find("sub_toggle_container/sub_toggle")
 	arg_4_0._fleetInfo = var_4_0:Find("fleet_info")
 	arg_4_0._fleetNameText = var_4_0:Find("fleet_info/fleet_name/Text")
 	arg_4_0._fleetNumText = var_4_0:Find("fleet_info/fleet_number")
@@ -61,20 +61,20 @@ function var_0_0.CommonInit(arg_4_0)
 		arg_4_0._gridTFs[TeamType.Submarine][iter_4_0] = arg_4_0._gridFrame:Find("submarine_" .. iter_4_0)
 	end
 
-	arg_4_0._nextPage = arg_4_0:findTF("middle/nextPage")
-	arg_4_0._prevPage = arg_4_0:findTF("middle/prevPage")
+	arg_4_0._nextPage = arg_4_0._tf:Find("middle/nextPage")
+	arg_4_0._prevPage = arg_4_0._tf:Find("middle/prevPage")
 	arg_4_0._heroContainer = var_4_0:Find("HeroContainer")
 	arg_4_0._checkBtn = var_4_0:Find("checkBtn")
-	arg_4_0._blurPanel = arg_4_0:findTF("blur_panel")
-	arg_4_0.topPanel = arg_4_0:findTF("top", arg_4_0._blurPanel)
-	arg_4_0.topPanelBg = arg_4_0:findTF("top_bg", arg_4_0._blurPanel)
-	arg_4_0._backBtn = arg_4_0:findTF("back_btn", arg_4_0.topPanel)
-	arg_4_0._spoilsContainer = arg_4_0:findTF("right/infomation/atlasloot/spoils/items/items_container")
-	arg_4_0._item = arg_4_0:findTF("right/infomation/atlasloot/spoils/items/item_tpl")
+	arg_4_0._blurPanel = arg_4_0._tf:Find("blur_panel")
+	arg_4_0.topPanel = arg_4_0._blurPanel:Find("top")
+	arg_4_0.topPanelBg = arg_4_0._blurPanel:Find("top_bg")
+	arg_4_0._backBtn = arg_4_0.topPanel:Find("back_btn")
+	arg_4_0._spoilsContainer = arg_4_0._tf:Find("right/infomation/atlasloot/spoils/items/items_container")
+	arg_4_0._item = arg_4_0._tf:Find("right/infomation/atlasloot/spoils/items/item_tpl")
 
 	SetActive(arg_4_0._item, false)
 
-	arg_4_0._goals = arg_4_0:findTF("right/infomation/target/goal")
+	arg_4_0._goals = arg_4_0._tf:Find("right/infomation/target/goal")
 	arg_4_0._heroInfo = arg_4_0:getTpl("heroInfo")
 	arg_4_0._starTpl = arg_4_0:getTpl("star_tpl")
 
@@ -87,8 +87,8 @@ function var_0_0.CommonInit(arg_4_0)
 	setText(arg_4_0._startBtn:Find("text"), i18n("pre_combat_start"))
 	setText(arg_4_0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
 
-	arg_4_0._middle = arg_4_0:findTF("middle")
-	arg_4_0._right = arg_4_0:findTF("right")
+	arg_4_0._middle = arg_4_0._tf:Find("middle")
+	arg_4_0._right = arg_4_0._tf:Find("right")
 
 	setAnchoredPosition(arg_4_0._middle, {
 		x = -840
@@ -97,14 +97,14 @@ function var_0_0.CommonInit(arg_4_0)
 		x = 470
 	})
 
-	arg_4_0.guideDesc = arg_4_0:findTF("guideDesc", arg_4_0._middle)
+	arg_4_0.guideDesc = arg_4_0._middle:Find("guideDesc")
 
 	if arg_4_0.contextData.stageId then
 		arg_4_0:SetStageID(arg_4_0.contextData.stageId)
 	end
 
 	arg_4_0._costTip = arg_4_0._startBtn:Find("cost_container/popup/tip")
-	arg_4_0._continuousBtn = arg_4_0:findTF("right/multiple")
+	arg_4_0._continuousBtn = arg_4_0._tf:Find("right/multiple")
 
 	setText(arg_4_0._continuousBtn:Find("text"), i18n("multiple_sorties_title"))
 	setText(arg_4_0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))

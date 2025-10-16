@@ -11,9 +11,9 @@ function var_0_0.OnLoaded(arg_2_0)
 
 	setText(arg_2_0.nameTf, i18n("word_get"))
 
-	arg_2_0.container = arg_2_0:findTF("content")
-	arg_2_0.item = arg_2_0:findTF("tpl")
-	arg_2_0.poolContainer = arg_2_0:findTF("pool")
+	arg_2_0.container = arg_2_0._tf:Find("content")
+	arg_2_0.item = arg_2_0._tf:Find("tpl")
+	arg_2_0.poolContainer = arg_2_0._tf:Find("pool")
 end
 
 function var_0_0.OnInit(arg_3_0)

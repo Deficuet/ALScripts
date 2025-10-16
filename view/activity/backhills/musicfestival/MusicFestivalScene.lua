@@ -7,12 +7,12 @@ end
 var_0_0.HUB_ID = 2
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.top = arg_2_0:findTF("top")
-	arg_2_0._closeBtn = arg_2_0:findTF("top/back")
-	arg_2_0._helpBtn = arg_2_0:findTF("top/help")
+	arg_2_0.top = arg_2_0._tf:Find("top")
+	arg_2_0._closeBtn = arg_2_0._tf:Find("top/back")
+	arg_2_0._helpBtn = arg_2_0._tf:Find("top/help")
 	arg_2_0.btn_actskin = arg_2_0.top:Find("idol_jump")
 	arg_2_0.btn_ins = arg_2_0.top:Find("ins_jump")
-	arg_2_0._map = arg_2_0:findTF("scrollRect/map")
+	arg_2_0._map = arg_2_0._tf:Find("scrollRect/map")
 	arg_2_0.stage = arg_2_0._map:Find("stage")
 	arg_2_0.screen = arg_2_0._map:Find("screen")
 	arg_2_0.shop = arg_2_0._map:Find("shop")

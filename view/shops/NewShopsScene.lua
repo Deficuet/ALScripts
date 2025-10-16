@@ -137,19 +137,19 @@ function var_0_0.OnUpdateCommodity(arg_9_0, arg_9_1, arg_9_2, arg_9_3)
 end
 
 function var_0_0.init(arg_10_0)
-	arg_10_0.backBtn = arg_10_0:findTF("blur_panel/adapt/top/back_button")
-	arg_10_0.frame = arg_10_0:findTF("blur_panel")
-	arg_10_0.pageContainer = arg_10_0:findTF("frame/bg/pages")
-	arg_10_0.stamp = arg_10_0:findTF("stamp")
-	arg_10_0.switchBtn = arg_10_0:findTF("blur_panel/adapt/switch_btn")
-	arg_10_0.skinBtn = arg_10_0:findTF("blur_panel/adapt/skin_btn")
+	arg_10_0.backBtn = arg_10_0._tf:Find("blur_panel/adapt/top/back_button")
+	arg_10_0.frame = arg_10_0._tf:Find("blur_panel")
+	arg_10_0.pageContainer = arg_10_0._tf:Find("frame/bg/pages")
+	arg_10_0.stamp = arg_10_0._tf:Find("stamp")
+	arg_10_0.switchBtn = arg_10_0._tf:Find("blur_panel/adapt/switch_btn")
+	arg_10_0.skinBtn = arg_10_0._tf:Find("blur_panel/adapt/skin_btn")
 
 	local var_10_0 = LOCK_SKIN_SHOP_ENTER and getProxy(PlayerProxy):getData().level < LOCK_SKIN_SHOP_ENTER_LEVEL
 
 	setActive(arg_10_0.skinBtn, not var_10_0)
 
-	local var_10_1 = arg_10_0:findTF("frame/bg/pages/scrollrect"):GetComponent("LScrollRect")
-	local var_10_2 = arg_10_0:findTF("frame/bg/pages/scrollRectSpecial")
+	local var_10_1 = arg_10_0._tf:Find("frame/bg/pages/scrollrect"):GetComponent("LScrollRect")
+	local var_10_2 = arg_10_0._tf:Find("frame/bg/pages/scrollRectSpecial")
 
 	setActive(go(var_10_1), true)
 	setActive(var_10_2, false)
@@ -169,19 +169,19 @@ function var_0_0.init(arg_10_0)
 	arg_10_0.contextData.singleWindow = ShopSingleWindow.New(arg_10_0._tf, arg_10_0.event)
 	arg_10_0.contextData.multiWindow = ShopMultiWindow.New(arg_10_0._tf, arg_10_0.event)
 	arg_10_0.contextData.singleWindowForESkin = EquipmentSkinInfoUIForShopWindow.New(arg_10_0._tf, arg_10_0.event)
-	arg_10_0.contextData.paintingView = ShopPaintingView.New(arg_10_0:findTF("paint/paint"), arg_10_0:findTF("frame/chat"))
+	arg_10_0.contextData.paintingView = ShopPaintingView.New(arg_10_0._tf:Find("paint/paint"), arg_10_0._tf:Find("frame/chat"))
 
-	arg_10_0.contextData.paintingView:setSecretaryPos(arg_10_0:findTF("paint/secretaryPos"))
+	arg_10_0.contextData.paintingView:setSecretaryPos(arg_10_0._tf:Find("paint/secretaryPos"))
 
-	arg_10_0.contextData.bgView = ShopBgView.New(arg_10_0:findTF("bg"))
+	arg_10_0.contextData.bgView = ShopBgView.New(arg_10_0._tf:Find("bg"))
 	arg_10_0.recorder = {
 		[var_0_0.CATEGORY_ACTIVITY] = false,
 		[var_0_0.CATEGORY_MONTH] = false,
 		[var_0_0.CATEGORY_SUPPLY] = false
 	}
-	arg_10_0.frameTr = arg_10_0:findTF("frame")
-	arg_10_0.categoryUIList = UIItemList.New(arg_10_0:findTF("frame/bg/types"), arg_10_0:findTF("frame/bg/types/tpl"))
-	arg_10_0.shopUIList = UIItemList.New(arg_10_0:findTF("frame/bg/shops"), arg_10_0:findTF("frame/bg/shops/tpl"))
+	arg_10_0.frameTr = arg_10_0._tf:Find("frame")
+	arg_10_0.categoryUIList = UIItemList.New(arg_10_0._tf:Find("frame/bg/types"), arg_10_0._tf:Find("frame/bg/types/tpl"))
+	arg_10_0.shopUIList = UIItemList.New(arg_10_0._tf:Find("frame/bg/shops"), arg_10_0._tf:Find("frame/bg/shops/tpl"))
 end
 
 function var_0_0.didEnter(arg_11_0)

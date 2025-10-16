@@ -5,14 +5,14 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.input = arg_2_0:findTF("frame/name/InputField")
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/close")
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/confirm")
-	arg_2_0.content = arg_2_0:findTF("frame/Text")
+	arg_2_0.input = arg_2_0._tf:Find("frame/name/InputField")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/close")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/confirm")
+	arg_2_0.content = arg_2_0._tf:Find("frame/Text")
 
-	setText(arg_2_0:findTF("frame/title"), i18n("island_rename_title"))
-	setText(arg_2_0:findTF("frame/confirm/Text"), i18n("word_ok"))
-	setText(arg_2_0:findTF("frame/name/InputField/Placeholder"), i18n("island_rename_input_tip"))
+	setText(arg_2_0._tf:Find("frame/title"), i18n("island_rename_title"))
+	setText(arg_2_0._tf:Find("frame/confirm/Text"), i18n("word_ok"))
+	setText(arg_2_0._tf:Find("frame/name/InputField/Placeholder"), i18n("island_rename_input_tip"))
 
 	arg_2_0.animator = arg_2_0._tf:GetComponent(typeof(Animation))
 	arg_2_0.aniDft = arg_2_0._tf:GetComponent(typeof(DftAniEvent))

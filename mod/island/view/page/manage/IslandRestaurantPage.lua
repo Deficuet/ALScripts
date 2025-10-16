@@ -431,6 +431,7 @@ function var_0_0.UpdateShipItem(arg_35_0, arg_35_1, arg_35_2)
 			showBenefits = true,
 			selectNum = #arg_35_0.assistantsData,
 			selectedIds = Clone(arg_35_0.selectedShipIds),
+			attrType = IslandShipAttr.MANAGE_KEY,
 			confirmFunc = function(arg_37_0)
 				arg_35_0:OnSelectedShipsDone(arg_37_0)
 			end,

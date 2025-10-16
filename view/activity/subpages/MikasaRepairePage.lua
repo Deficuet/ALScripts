@@ -1,7 +1,7 @@
 local var_0_0 = class("MikasaRepairePage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.layer = arg_1_0:findTF("layer")
+	arg_1_0.layer = arg_1_0._tf:Find("layer")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -36,12 +36,12 @@ function var_0_0.update_task_list_mikasa_museum(arg_4_0, arg_4_1, arg_4_2, arg_4
 
 	for iter_4_0 = 1, 4 do
 		local var_4_12 = var_4_4:Find("Panel/layout_layer/repair_panel" .. iter_4_0 .. "/Panel")
-		local var_4_13 = arg_4_0:findTF("btn_repair", var_4_12)
+		local var_4_13 = var_4_12:Find("btn_repair")
 
 		var_4_9[iter_4_0] = nil
 
 		for iter_4_1 = 1, 4 do
-			local var_4_14 = arg_4_0:findTF("repair" .. iter_4_1, var_4_12)
+			local var_4_14 = var_4_12:Find("repair" .. iter_4_1)
 			local var_4_15 = var_4_1[(iter_4_0 - 1) * 4 + iter_4_1]
 
 			arg_4_0:set_mikasa_btn(var_4_15, var_4_14, iter_4_1 == 1 and 0 or var_4_1[(iter_4_0 - 1) * 4 + iter_4_1 - 1], iter_4_1 >= 4)

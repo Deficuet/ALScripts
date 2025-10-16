@@ -47,35 +47,43 @@ function var_0_0.OnUpdateItem(arg_10_0, arg_10_1, arg_10_2)
 	local var_10_0 = arg_10_0.ids[arg_10_1 + 1]
 	local var_10_1 = arg_10_2.transform
 	local var_10_2 = pg.island_collection_reward[var_10_0]
+	local var_10_3 = Drop.Create(var_10_2.award_display)
 
-	updateCustomDrop(var_10_1:Find("drop"), Drop.Create(var_10_2.award_display), {
+	updateCustomDrop(var_10_1:Find("drop"), var_10_3, {
 		style = "island"
 	})
+	onButton(arg_10_0, var_10_1, function()
+		arg_10_0.contextData:ShowMsgBox({
+			title = i18n("island_word_desc"),
+			type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+			dropData = var_10_3
+		})
+	end)
 	setText(var_10_1:Find("level"), string.format("%02d", var_10_2.level))
 	setText(var_10_1:Find("desc"), var_10_2.describe)
 
-	local var_10_3 = table.contains(arg_10_0.gotIds, var_10_0)
+	local var_10_4 = table.contains(arg_10_0.gotIds, var_10_0)
 
-	setActive(var_10_1:Find("drop/got"), var_10_3)
-	setGray(var_10_1, not var_10_3, true)
+	setActive(var_10_1:Find("drop/got"), var_10_4)
+	setGray(var_10_1, not var_10_4, true)
 end
 
-function var_0_0.Show(arg_11_0)
-	var_0_0.super.Show(arg_11_0)
+function var_0_0.Show(arg_12_0)
+	var_0_0.super.Show(arg_12_0)
 
-	arg_11_0.gotIds = getProxy(IslandProxy):GetIsland():GetBookAgency():GetPointAwardGotIds()
+	arg_12_0.gotIds = getProxy(IslandProxy):GetIsland():GetBookAgency():GetPointAwardGotIds()
 
-	arg_11_0.scrollRect:SetTotalCount(#arg_11_0.ids, -1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_11_0._tf)
+	arg_12_0.scrollRect:SetTotalCount(#arg_12_0.ids, -1)
+	pg.UIMgr.GetInstance():BlurPanel(arg_12_0._tf)
 end
 
-function var_0_0.Hide(arg_12_0)
-	var_0_0.super.Hide(arg_12_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf, arg_12_0._parentTf)
+function var_0_0.Hide(arg_13_0)
+	var_0_0.super.Hide(arg_13_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf, arg_13_0._parentTf)
 end
 
-function var_0_0.OnDestroy(arg_13_0)
-	ClearLScrollrect(arg_13_0.scrollRect)
+function var_0_0.OnDestroy(arg_14_0)
+	ClearLScrollrect(arg_14_0.scrollRect)
 end
 
 return var_0_0

@@ -49,76 +49,76 @@ function var_0_0.preload(arg_2_0, arg_2_1)
 end
 
 function var_0_0.init(arg_4_0)
-	local var_4_0 = arg_4_0:findTF("buttonList")
+	local var_4_0 = arg_4_0._tf:Find("buttonList")
 
 	arg_4_0.buttonList = var_4_0
-	arg_4_0.backBtn = arg_4_0:findTF("top/closeBtn", var_4_0)
-	arg_4_0.homeBtn = arg_4_0:findTF("top/homeBtn", var_4_0)
-	arg_4_0.resourcePanel = arg_4_0:findTF("top/resources", var_4_0)
+	arg_4_0.backBtn = var_4_0:Find("top/closeBtn")
+	arg_4_0.homeBtn = var_4_0:Find("top/homeBtn")
+	arg_4_0.resourcePanel = var_4_0:Find("top/resources")
 
 	setActive(arg_4_0.resourcePanel, false)
 
-	arg_4_0.goldBtn = arg_4_0:findTF("top/resources/gold", var_4_0)
-	arg_4_0.goldText = arg_4_0:findTF("top/resources/gold/Text", var_4_0):GetComponent(typeof(Text))
-	arg_4_0.goldMax = arg_4_0:findTF("top/resources/gold/max", var_4_0):GetComponent(typeof(Text))
-	arg_4_0.oilBtn = arg_4_0:findTF("top/resources/oil", var_4_0)
-	arg_4_0.oilText = arg_4_0:findTF("top/resources/oil/Text", var_4_0):GetComponent(typeof(Text))
-	arg_4_0.oilMax = arg_4_0:findTF("top/resources/oil/max", var_4_0):GetComponent(typeof(Text))
-	arg_4_0.diamondBtn = arg_4_0:findTF("top/resources/gem", var_4_0)
-	arg_4_0.diamondText = arg_4_0:findTF("top/resources/gem/Text", var_4_0):GetComponent(typeof(Text))
+	arg_4_0.goldBtn = var_4_0:Find("top/resources/gold")
+	arg_4_0.goldText = var_4_0:Find("top/resources/gold/Text"):GetComponent(typeof(Text))
+	arg_4_0.goldMax = var_4_0:Find("top/resources/gold/max"):GetComponent(typeof(Text))
+	arg_4_0.oilBtn = var_4_0:Find("top/resources/oil")
+	arg_4_0.oilText = var_4_0:Find("top/resources/oil/Text"):GetComponent(typeof(Text))
+	arg_4_0.oilMax = var_4_0:Find("top/resources/oil/max"):GetComponent(typeof(Text))
+	arg_4_0.diamondBtn = var_4_0:Find("top/resources/gem")
+	arg_4_0.diamondText = var_4_0:Find("top/resources/gem/Text"):GetComponent(typeof(Text))
 
-	setText(arg_4_0:findTF("top/title/Text", var_4_0), i18n("shop_title"))
-	setText(arg_4_0:findTF("shop1List/recommendation/shop1Tg/name", var_4_0), i18n("shop_recommend"))
-	setText(arg_4_0:findTF("shop1List/skinShop/shop1Tg/name", var_4_0), i18n("shop_skin"))
-	setText(arg_4_0:findTF("shop1List/diamondShop/shop1Tg/name", var_4_0), i18n("shop_diamond_title"))
-	setText(arg_4_0:findTF("shop1List/specialShop/shop1Tg/name", var_4_0), i18n("shop_akashi_pick_title"))
-	setText(arg_4_0:findTF("shop1List/giftPackShop/shop1Tg/name", var_4_0), i18n("shop_gift_title"))
-	setText(arg_4_0:findTF("shop1List/functionalItemShop/shop1Tg/name", var_4_0), i18n("shop_item_title"))
-	setText(arg_4_0:findTF("shop1List/supplyShop/shop1Tg/name", var_4_0), i18n("shop_supply_prop"))
-	setText(arg_4_0:findTF("shop1List/recommendation/shop1Tg/name/en", var_4_0), i18n("shop_recommend_en"))
-	setText(arg_4_0:findTF("shop1List/skinShop/shop1Tg/name/en", var_4_0), i18n("shop_skin_en"))
-	setText(arg_4_0:findTF("shop1List/diamondShop/shop1Tg/name/en", var_4_0), i18n("shop_diamond_title_en"))
-	setText(arg_4_0:findTF("shop1List/specialShop/shop1Tg/name/en", var_4_0), i18n("shop_side_lable_en"))
-	setText(arg_4_0:findTF("shop1List/giftPackShop/shop1Tg/name/en", var_4_0), i18n("shop_gift_title_en"))
-	setText(arg_4_0:findTF("shop1List/functionalItemShop/shop1Tg/name/en", var_4_0), i18n("shop_item_title_en"))
-	setText(arg_4_0:findTF("shop1List/supplyShop/shop1Tg/name/en", var_4_0), i18n("shop_supply_prop_en"))
-	setText(arg_4_0:findTF("shop1List/skinShop/shop2List/newSkin/name", var_4_0), i18n("shop_skin_new"))
-	setText(arg_4_0:findTF("shop1List/skinShop/shop2List/newSkin/selected/name", var_4_0), i18n("shop_skin_new"))
-	setText(arg_4_0:findTF("shop1List/skinShop/shop2List/permanentSkin/name", var_4_0), i18n("shop_skin_permanent"))
-	setText(arg_4_0:findTF("shop1List/skinShop/shop2List/permanentSkin/selected/name", var_4_0), i18n("shop_skin_permanent"))
-	setText(arg_4_0:findTF("shop1List/supplyShop/shop2List/monthShop/name", var_4_0), i18n("shop_month"))
-	setText(arg_4_0:findTF("shop1List/supplyShop/shop2List/monthShop/selected/name", var_4_0), i18n("shop_month"))
-	setText(arg_4_0:findTF("shop1List/supplyShop/shop2List/supplyShop/name", var_4_0), i18n("shop_supply"))
-	setText(arg_4_0:findTF("shop1List/supplyShop/shop2List/supplyShop/selected/name", var_4_0), i18n("shop_supply"))
-	setText(arg_4_0:findTF("shop1List/supplyShop/shop2List/activityShop/name", var_4_0), i18n("shop_activity"))
-	setText(arg_4_0:findTF("shop1List/supplyShop/shop2List/activityShop/selected/name", var_4_0), i18n("shop_activity"))
+	setText(var_4_0:Find("top/title/Text"), i18n("shop_title"))
+	setText(var_4_0:Find("shop1List/recommendation/shop1Tg/name"), i18n("shop_recommend"))
+	setText(var_4_0:Find("shop1List/skinShop/shop1Tg/name"), i18n("shop_skin"))
+	setText(var_4_0:Find("shop1List/diamondShop/shop1Tg/name"), i18n("shop_diamond_title"))
+	setText(var_4_0:Find("shop1List/specialShop/shop1Tg/name"), i18n("shop_akashi_pick_title"))
+	setText(var_4_0:Find("shop1List/giftPackShop/shop1Tg/name"), i18n("shop_gift_title"))
+	setText(var_4_0:Find("shop1List/functionalItemShop/shop1Tg/name"), i18n("shop_item_title"))
+	setText(var_4_0:Find("shop1List/supplyShop/shop1Tg/name"), i18n("shop_supply_prop"))
+	setText(var_4_0:Find("shop1List/recommendation/shop1Tg/name/en"), i18n("shop_recommend_en"))
+	setText(var_4_0:Find("shop1List/skinShop/shop1Tg/name/en"), i18n("shop_skin_en"))
+	setText(var_4_0:Find("shop1List/diamondShop/shop1Tg/name/en"), i18n("shop_diamond_title_en"))
+	setText(var_4_0:Find("shop1List/specialShop/shop1Tg/name/en"), i18n("shop_side_lable_en"))
+	setText(var_4_0:Find("shop1List/giftPackShop/shop1Tg/name/en"), i18n("shop_gift_title_en"))
+	setText(var_4_0:Find("shop1List/functionalItemShop/shop1Tg/name/en"), i18n("shop_item_title_en"))
+	setText(var_4_0:Find("shop1List/supplyShop/shop1Tg/name/en"), i18n("shop_supply_prop_en"))
+	setText(var_4_0:Find("shop1List/skinShop/shop2List/newSkin/name"), i18n("shop_skin_new"))
+	setText(var_4_0:Find("shop1List/skinShop/shop2List/newSkin/selected/name"), i18n("shop_skin_new"))
+	setText(var_4_0:Find("shop1List/skinShop/shop2List/permanentSkin/name"), i18n("shop_skin_permanent"))
+	setText(var_4_0:Find("shop1List/skinShop/shop2List/permanentSkin/selected/name"), i18n("shop_skin_permanent"))
+	setText(var_4_0:Find("shop1List/supplyShop/shop2List/monthShop/name"), i18n("shop_month"))
+	setText(var_4_0:Find("shop1List/supplyShop/shop2List/monthShop/selected/name"), i18n("shop_month"))
+	setText(var_4_0:Find("shop1List/supplyShop/shop2List/supplyShop/name"), i18n("shop_supply"))
+	setText(var_4_0:Find("shop1List/supplyShop/shop2List/supplyShop/selected/name"), i18n("shop_supply"))
+	setText(var_4_0:Find("shop1List/supplyShop/shop2List/activityShop/name"), i18n("shop_activity"))
+	setText(var_4_0:Find("shop1List/supplyShop/shop2List/activityShop/selected/name"), i18n("shop_activity"))
 
-	arg_4_0.frame = arg_4_0:findTF("frame")
-	arg_4_0.viewContainer = arg_4_0:findTF("viewContainer")
-	arg_4_0.painting = arg_4_0:findTF("frame/painting")
-	arg_4_0.chat = arg_4_0:findTF("frame/chat")
-	arg_4_0.chatText = arg_4_0:findTF("Text", arg_4_0.chat)
-	arg_4_0.stamp = arg_4_0:findTF("frame/stamp")
-	arg_4_0.giftTip = arg_4_0:findTF("shop1List/specialShop/shop1Tg/tip", var_4_0)
+	arg_4_0.frame = arg_4_0._tf:Find("frame")
+	arg_4_0.viewContainer = arg_4_0._tf:Find("viewContainer")
+	arg_4_0.painting = arg_4_0._tf:Find("frame/painting")
+	arg_4_0.chat = arg_4_0._tf:Find("frame/chat")
+	arg_4_0.chatText = arg_4_0.chat:Find("Text")
+	arg_4_0.stamp = arg_4_0._tf:Find("frame/stamp")
+	arg_4_0.giftTip = var_4_0:Find("shop1List/specialShop/shop1Tg/tip")
 	arg_4_0.toggleList = {
 		{
 			type = ChargeScene.TYPE_DIAMOND,
-			go = arg_4_0:findTF("shop1List/diamondShop/shop1Tg", var_4_0)
+			go = var_4_0:Find("shop1List/diamondShop/shop1Tg")
 		},
 		{
 			type = ChargeScene.TYPE_GIFT,
-			go = arg_4_0:findTF("shop1List/giftPackShop/shop1Tg", var_4_0)
+			go = var_4_0:Find("shop1List/giftPackShop/shop1Tg")
 		},
 		{
 			type = ChargeScene.TYPE_ITEM,
-			go = arg_4_0:findTF("shop1List/functionalItemShop/shop1Tg", var_4_0)
+			go = var_4_0:Find("shop1List/functionalItemShop/shop1Tg")
 		},
 		{
 			type = ChargeScene.TYPE_PICK,
-			go = arg_4_0:findTF("shop1List/specialShop/shop1Tg", var_4_0)
+			go = var_4_0:Find("shop1List/specialShop/shop1Tg")
 		}
 	}
-	GetComponent(arg_4_0:findTF("shop1List/supplyShop/shop2List/supplyShop", var_4_0), typeof(Toggle)).isOn = true
+	GetComponent(var_4_0:Find("shop1List/supplyShop/shop2List/supplyShop"), typeof(Toggle)).isOn = true
 	arg_4_0.chargeTipWindow = ChargeTipWindow.New(arg_4_0._tf, arg_4_0.event)
 
 	arg_4_0:LoadMingshi()
@@ -246,7 +246,7 @@ function var_0_0.didEnter(arg_19_0)
 	onButton(arg_19_0, arg_19_0.diamondBtn, function()
 		pg.playerResUI:ClickGem()
 	end, SFX_PANEL)
-	onToggle(arg_19_0, arg_19_0:findTF("shop1List/recommendation/shop1Tg", arg_19_0.buttonList), function(arg_25_0)
+	onToggle(arg_19_0, arg_19_0.buttonList:Find("shop1List/recommendation/shop1Tg"), function(arg_25_0)
 		if arg_25_0 then
 			arg_19_0.contextData.shop1 = nil
 			arg_19_0.contextData.shop2 = nil
@@ -266,9 +266,9 @@ function var_0_0.didEnter(arg_19_0)
 
 	local var_19_0 = getProxy(ShipSkinProxy):GetInTimeSkins()
 
-	setActive(arg_19_0:findTF("shop1List/skinShop/shop1Tg/timeLimit", arg_19_0.buttonList), #var_19_0 > 0)
-	setActive(arg_19_0:findTF("shop1List/skinShop/shop2List/newSkin", arg_19_0.buttonList), #var_19_0 > 0)
-	onToggle(arg_19_0, arg_19_0:findTF("shop1List/skinShop/shop2List/newSkin", arg_19_0.buttonList), function(arg_26_0)
+	setActive(arg_19_0.buttonList:Find("shop1List/skinShop/shop1Tg/timeLimit"), #var_19_0 > 0)
+	setActive(arg_19_0.buttonList:Find("shop1List/skinShop/shop2List/newSkin"), #var_19_0 > 0)
+	onToggle(arg_19_0, arg_19_0.buttonList:Find("shop1List/skinShop/shop2List/newSkin"), function(arg_26_0)
 		if arg_26_0 then
 			arg_19_0.contextData.shop2 = "newSkin"
 
@@ -286,7 +286,7 @@ function var_0_0.didEnter(arg_19_0)
 			})
 		end
 	end, SFX_PANEL)
-	onToggle(arg_19_0, arg_19_0:findTF("shop1List/skinShop/shop2List/permanentSkin", arg_19_0.buttonList), function(arg_27_0)
+	onToggle(arg_19_0, arg_19_0.buttonList:Find("shop1List/skinShop/shop2List/permanentSkin"), function(arg_27_0)
 		if arg_27_0 then
 			arg_19_0.contextData.shop2 = "permanentSkin"
 
@@ -304,8 +304,8 @@ function var_0_0.didEnter(arg_19_0)
 			})
 		end
 	end, SFX_PANEL)
-	onToggle(arg_19_0, arg_19_0:findTF("shop1List/skinShop/shop1Tg", arg_19_0.buttonList), function(arg_28_0)
-		setActive(arg_19_0:findTF("shop1List/skinShop/shop2List", arg_19_0.buttonList), arg_28_0)
+	onToggle(arg_19_0, arg_19_0.buttonList:Find("shop1List/skinShop/shop1Tg"), function(arg_28_0)
+		setActive(arg_19_0.buttonList:Find("shop1List/skinShop/shop2List"), arg_28_0)
 
 		if arg_28_0 then
 			if arg_19_0.shop1 == "skinShop" then
@@ -351,26 +351,26 @@ function var_0_0.didEnter(arg_19_0)
 		end, SFX_PANEL)
 	end
 
-	onToggle(arg_19_0, arg_19_0:findTF("shop1List/supplyShop/shop1Tg", arg_19_0.buttonList), function(arg_30_0)
-		setActive(arg_19_0:findTF("shop1List/supplyShop/shop2List", arg_19_0.buttonList), arg_30_0)
+	onToggle(arg_19_0, arg_19_0.buttonList:Find("shop1List/supplyShop/shop1Tg"), function(arg_30_0)
+		setActive(arg_19_0.buttonList:Find("shop1List/supplyShop/shop2List"), arg_30_0)
 
 		if arg_30_0 then
-			triggerToggle(arg_19_0:findTF("shop1List/supplyShop/shop2List/" .. arg_19_0:GetDefaultSupplyShopName(), arg_19_0.buttonList), true)
+			triggerToggle(arg_19_0.buttonList:Find("shop1List/supplyShop/shop2List/" .. arg_19_0:GetDefaultSupplyShopName()), true)
 		end
 	end, SFX_PANEL)
 
 	local var_19_2 = {
 		{
 			type = ShopConst.CATEGORY_MONTH,
-			go = arg_19_0:findTF("shop1List/supplyShop/shop2List/monthShop", arg_19_0.buttonList)
+			go = arg_19_0.buttonList:Find("shop1List/supplyShop/shop2List/monthShop")
 		},
 		{
 			type = ShopConst.CATEGORY_SUPPLY,
-			go = arg_19_0:findTF("shop1List/supplyShop/shop2List/supplyShop", arg_19_0.buttonList)
+			go = arg_19_0.buttonList:Find("shop1List/supplyShop/shop2List/supplyShop")
 		},
 		{
 			type = ShopConst.CATEGORY_ACTIVITY,
-			go = arg_19_0:findTF("shop1List/supplyShop/shop2List/activityShop", arg_19_0.buttonList)
+			go = arg_19_0.buttonList:Find("shop1List/supplyShop/shop2List/activityShop")
 		}
 	}
 
@@ -418,12 +418,12 @@ function var_0_0.didEnter(arg_19_0)
 		var_19_3 = arg_19_0.contextData.shop1
 	end
 
-	triggerToggle(arg_19_0:findTF("shop1List/" .. var_19_3 .. "/shop1Tg", arg_19_0.buttonList), true)
+	triggerToggle(arg_19_0.buttonList:Find("shop1List/" .. var_19_3 .. "/shop1Tg"), true)
 
 	if var_19_3 == "skinShop" then
 		-- block empty
 	elseif var_19_3 == "supplyShop" then
-		triggerToggle(arg_19_0:findTF("shop1List/supplyShop/shop2List/" .. arg_19_0:GetDefaultSupplyShopName(), arg_19_0.buttonList), true)
+		triggerToggle(arg_19_0.buttonList:Find("shop1List/supplyShop/shop2List/" .. arg_19_0:GetDefaultSupplyShopName()), true)
 	end
 
 	onButton(arg_19_0, arg_19_0.painting, function()
@@ -471,7 +471,7 @@ end
 function var_0_0.RefreshActivityShop(arg_35_0)
 	local var_35_0 = arg_35_0.supplyShopList[ShopConst.TYPE_ACTIVITY] or {}
 
-	setActive(arg_35_0:findTF("shop1List/supplyShop/shop2List/activityShop", arg_35_0.buttonList), #var_35_0 > 0)
+	setActive(arg_35_0.buttonList:Find("shop1List/supplyShop/shop2List/activityShop"), #var_35_0 > 0)
 end
 
 function var_0_0.ShowOrHideUI(arg_36_0, arg_36_1)
@@ -647,9 +647,9 @@ function var_0_0.initSubView(arg_48_0)
 	arg_48_0.contextData.singleWindow = ShopSingleWindow.New(arg_48_0._tf, arg_48_0.event)
 	arg_48_0.contextData.multiWindow = ShopMultiWindow.New(arg_48_0._tf, arg_48_0.event)
 	arg_48_0.contextData.singleWindowForESkin = EquipmentSkinInfoUIForShopWindow.New(arg_48_0._tf, arg_48_0.event)
-	arg_48_0.contextData.paintingView = ShopPaintingView.New(arg_48_0:findTF("frame/supplyPaint"), arg_48_0:findTF("frame/chat"))
+	arg_48_0.contextData.paintingView = ShopPaintingView.New(arg_48_0._tf:Find("frame/supplyPaint"), arg_48_0._tf:Find("frame/chat"))
 
-	arg_48_0.contextData.paintingView:setSecretaryPos(arg_48_0:findTF("frame/secretaryPos"))
+	arg_48_0.contextData.paintingView:setSecretaryPos(arg_48_0._tf:Find("frame/secretaryPos"))
 end
 
 function var_0_0.GetShopID(arg_49_0, arg_49_1, arg_49_2)
@@ -863,7 +863,7 @@ function var_0_0.createLive2D(arg_62_0)
 			75
 		},
 		position = Vector3(0, 0, 0),
-		parent = arg_62_0:findTF("frame/painting/live2d")
+		parent = arg_62_0._tf:Find("frame/painting/live2d")
 	})
 
 	arg_62_0.live2dChar = Live2D.New(var_62_0, function(arg_63_0)
@@ -939,7 +939,7 @@ end
 function var_0_0.blurView(arg_67_0)
 	arg_67_0:OverlayPanel(arg_67_0.buttonList, {
 		pbList = {
-			arg_67_0:findTF("leftBg", arg_67_0.buttonList)
+			arg_67_0.buttonList:Find("leftBg")
 		}
 	})
 end
@@ -953,8 +953,8 @@ function var_0_0.jpUIInit(arg_69_0)
 		return
 	end
 
-	arg_69_0.userAgreeBtn3 = arg_69_0:findTF("frame/raw1Btn")
-	arg_69_0.userAgreeBtn4 = arg_69_0:findTF("frame/raw2Btn")
+	arg_69_0.userAgreeBtn3 = arg_69_0._tf:Find("frame/raw1Btn")
+	arg_69_0.userAgreeBtn4 = arg_69_0._tf:Find("frame/raw2Btn")
 end
 
 function var_0_0.jpUIEnter(arg_70_0)

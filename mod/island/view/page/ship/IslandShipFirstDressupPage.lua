@@ -9,11 +9,11 @@ function var_0_0.CanEsc(arg_2_0)
 end
 
 function var_0_0.OnLoaded(arg_3_0)
-	arg_3_0.leftPlane = arg_3_0:findTF("adapt/left_panel")
-	arg_3_0.backBtn = arg_3_0:findTF("adapt/left_panel/back")
-	arg_3_0.homeBtn = arg_3_0:findTF("adapt/home")
+	arg_3_0.leftPlane = arg_3_0._tf:Find("adapt/left_panel")
+	arg_3_0.backBtn = arg_3_0._tf:Find("adapt/left_panel/back")
+	arg_3_0.homeBtn = arg_3_0._tf:Find("adapt/home")
 
-	setText(arg_3_0:findTF("adapt/left_panel/title/Text"), i18n("island_dressup_titile"))
+	setText(arg_3_0._tf:Find("adapt/left_panel/title/Text"), i18n("island_dressup_titile"))
 	setActive(arg_3_0.leftPlane, false)
 	setActive(arg_3_0.homeBtn, false)
 end
@@ -74,7 +74,7 @@ function var_0_0.Flush(arg_12_0)
 end
 
 function var_0_0.GetSmoothRotateObject(arg_13_0)
-	return arg_13_0:findTF("adapt/char")
+	return arg_13_0._tf:Find("adapt/char")
 end
 
 function var_0_0.OnCharLoaded(arg_14_0)

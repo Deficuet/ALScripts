@@ -5,14 +5,14 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.nameTxt = arg_2_0:findTF("frame/title/name/Text"):GetComponent(typeof(Text))
-	arg_2_0.descTxt = arg_2_0:findTF("frame/Text"):GetComponent(typeof(Text))
-	arg_2_0.goBtn = arg_2_0:findTF("frame/go")
-	arg_2_0.uiProductionList = UIItemList.New(arg_2_0:findTF("frame/scrollrect/list"), arg_2_0:findTF("frame/scrollrect/list/tpl"))
-	arg_2_0.iconTr = arg_2_0:findTF("frame/icon")
-	arg_2_0.fullMark = arg_2_0:findTF("frame/icon/tag")
+	arg_2_0.nameTxt = arg_2_0._tf:Find("frame/title/name/Text"):GetComponent(typeof(Text))
+	arg_2_0.descTxt = arg_2_0._tf:Find("frame/Text"):GetComponent(typeof(Text))
+	arg_2_0.goBtn = arg_2_0._tf:Find("frame/go")
+	arg_2_0.uiProductionList = UIItemList.New(arg_2_0._tf:Find("frame/scrollrect/list"), arg_2_0._tf:Find("frame/scrollrect/list/tpl"))
+	arg_2_0.iconTr = arg_2_0._tf:Find("frame/icon")
+	arg_2_0.fullMark = arg_2_0._tf:Find("frame/icon/tag")
 
-	setText(arg_2_0:findTF("frame/go/Text"), i18n("island_word_go"))
+	setText(arg_2_0._tf:Find("frame/go/Text"), i18n("island_word_go"))
 end
 
 function var_0_0.OnInit(arg_3_0)

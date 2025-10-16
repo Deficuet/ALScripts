@@ -27,12 +27,12 @@ function var_0_0.OnLoaded(arg_2_0)
 	setActive(arg_2_0.hideuiMask, false)
 
 	arg_2_0.ysScreenShoter = arg_2_0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenShoter))
-	arg_2_0.stopRecBtn = arg_2_0:findTF("stopRec")
-	arg_2_0.videoTipPanel = arg_2_0:findTF("videoTipPanel")
+	arg_2_0.stopRecBtn = arg_2_0._tf:Find("stopRec")
+	arg_2_0.videoTipPanel = arg_2_0._tf:Find("videoTipPanel")
 
 	setActive(arg_2_0.videoTipPanel, false)
 
-	arg_2_0.photoModel = arg_2_0:findTF("Center/photoModel")
+	arg_2_0.photoModel = arg_2_0._tf:Find("Center/photoModel")
 	arg_2_0.unselectBgTF = arg_2_0.photoModel:Find("un_select_bg")
 	arg_2_0.select_bgTF = arg_2_0.photoModel:Find("select_bg")
 	arg_2_0.firstModelTF = arg_2_0.photoModel:Find("first")
@@ -170,7 +170,7 @@ function var_0_0.OnInit(arg_5_0)
 		local function var_21_0(arg_22_0)
 			setActive(arg_5_0.centerPanel, arg_22_0)
 
-			arg_5_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_22_0 and 1 or 0
+			arg_5_0._tf:Find("RightTop"):GetComponent("CanvasGroup").alpha = arg_22_0 and 1 or 0
 
 			arg_5_0:emitCore(ISLAND_EVT.SetOpMoveBtnActve, arg_22_0, true)
 		end
@@ -211,7 +211,7 @@ function var_0_0.OnInit(arg_5_0)
 					if not var_27_0 or var_27_0 <= 0 then
 						PlayerPrefs.SetInt("hadShowForVideoTipDorm", 1)
 
-						arg_5_0:findTF("Text", arg_5_0.videoTipPanel):GetComponent("Text").text = i18n("word_take_video_tip")
+						arg_5_0.videoTipPanel:Find("Text"):GetComponent("Text").text = i18n("word_take_video_tip")
 
 						onButton(arg_5_0, arg_5_0.videoTipPanel, function()
 							setActive(arg_5_0.videoTipPanel, false)
@@ -257,7 +257,7 @@ function var_0_0.OnInit(arg_5_0)
 		local function var_29_1(arg_34_0)
 			setActive(arg_5_0.centerPanel, arg_34_0)
 
-			arg_5_0:findTF("RightTop"):GetComponent("CanvasGroup").alpha = arg_34_0 and 1 or 0
+			arg_5_0._tf:Find("RightTop"):GetComponent("CanvasGroup").alpha = arg_34_0 and 1 or 0
 		end
 
 		if not LeanTween.isTweening(go(arg_5_0.stopRecBtn)) then

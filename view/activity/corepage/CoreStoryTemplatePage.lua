@@ -1,13 +1,12 @@
 local var_0_0 = class("CoreStoryTemplatePage", import("view.activity.CorePage.CoreActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("bg_story")
-	arg_1_0.ad = arg_1_0:findTF("AD")
-	arg_1_0.goBtn = arg_1_0:findTF("AD/go_btn")
+	arg_1_0.bg = arg_1_0._tf:Find("bg_story")
+	arg_1_0.ad = arg_1_0._tf:Find("AD")
+	arg_1_0.goBtn = arg_1_0._tf:Find("AD/go_btn")
 	arg_1_0.scenario = CoreScenarioTemplatePage.New(arg_1_0._tf)
 
 	arg_1_0.scenario:SetCoreStoryPage(arg_1_0)
-	arg_1_0.scenario:Load()
 
 	arg_1_0.loader = AutoLoader.New()
 	arg_1_0.mapGroup = {}
@@ -16,9 +15,10 @@ end
 
 function var_0_0.OnFirstFlush(arg_2_0)
 	onButton(arg_2_0, arg_2_0.goBtn, function()
+		arg_2_0.scenario:Load()
 		arg_2_0.scenario:SetActivity(arg_2_0.activity)
 		arg_2_0.scenario:UpdateStoryTask()
-		arg_2_0.scenario:UpdateView()
+		arg_2_0.scenario:ActionInvoke("UpdateView")
 		arg_2_0:ShowScenarioLayer(true)
 	end, SFX_PANEL)
 end
@@ -27,6 +27,8 @@ function var_0_0.OnShowFlush(arg_4_0)
 	var_0_0.super.OnShowFlush(arg_4_0)
 
 	if arg_4_0.coreActivityUI.contextData.activeScenario then
+		arg_4_0.scenario.needFocusStory = true
+
 		triggerButton(arg_4_0.goBtn)
 	end
 end
@@ -60,7 +62,7 @@ end
 
 function var_0_0.ShowScenarioLayer(arg_7_0, arg_7_1)
 	if arg_7_1 then
-		arg_7_0.scenario:Show()
+		arg_7_0.scenario:ActionInvoke("Show")
 		arg_7_0.coreActivityUI:ActiveScenarioLayer(true)
 		SetActive(arg_7_0.ad, false)
 		SetActive(arg_7_0.bg, true)

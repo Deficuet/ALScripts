@@ -30,7 +30,7 @@ function var_0_0.didEnter(arg_1_0)
 end
 
 function var_0_0.rankAnimaFinish(arg_4_0)
-	local var_4_0 = arg_4_0:findTF("main/conditions")
+	local var_4_0 = arg_4_0._tf:Find("main/conditions")
 
 	SetActive(var_4_0, true)
 	SetActive(arg_4_0._conditionBGNormal, false)
@@ -44,7 +44,7 @@ function var_0_0.rankAnimaFinish(arg_4_0)
 	local var_4_2 = LeanTween.delayedCall(1, System.Action(function()
 		arg_4_0._stateFlag = var_0_0.STATE_REPORTED
 
-		SetActive(arg_4_0:findTF("jieuan01/tips", arg_4_0._bg), true)
+		SetActive(arg_4_0._bg:Find("jieuan01/tips"), true)
 	end))
 
 	table.insert(arg_4_0._delayLeanList, var_4_2.id)
@@ -60,7 +60,7 @@ function var_0_0.displayBG(arg_6_0)
 	LeanTween.moveLocal(go(var_6_0), arg_6_0._gradeUpperLeftPos, var_0_0.DURATION_MOVE):setOnComplete(System.Action(function()
 		arg_6_0:showPainting()
 	end))
-	setActive(arg_6_0:findTF("jieuan01/Bomb", arg_6_0._bg), false)
+	setActive(arg_6_0._bg:Find("jieuan01/Bomb"), false)
 end
 
 function var_0_0.setCondition(arg_8_0, arg_8_1, arg_8_2, arg_8_3)

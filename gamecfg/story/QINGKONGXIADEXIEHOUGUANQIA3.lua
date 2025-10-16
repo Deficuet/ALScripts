@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 112010,
-			say = "关岛，听说你有重要的是要商量……？",
+			say = "关岛，听说你有重要的事要商量……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -64,14 +64,14 @@ function var_0_0.SetStudents(arg_10_0, arg_10_1)
 end
 
 function var_0_0.init(arg_11_0)
-	arg_11_0.painting = arg_11_0:findTF("painting"):GetComponent(typeof(Image))
-	arg_11_0.backBtn = arg_11_0:findTF("adpter/frame/btnBack")
-	arg_11_0.option = arg_11_0:findTF("adpter/frame/option")
-	arg_11_0.stampBtn = arg_11_0:findTF("stamp")
-	arg_11_0.quickFinishPanel = arg_11_0:findTF("painting/quick_finish", arg_11_0.mainPanel)
-	arg_11_0.quickFinishText = arg_11_0:findTF("painting/quick_finish/Text", arg_11_0.mainPanel)
+	arg_11_0.painting = arg_11_0._tf:Find("painting"):GetComponent(typeof(Image))
+	arg_11_0.backBtn = arg_11_0._tf:Find("adpter/frame/btnBack")
+	arg_11_0.option = arg_11_0._tf:Find("adpter/frame/option")
+	arg_11_0.stampBtn = arg_11_0._tf:Find("stamp")
+	arg_11_0.quickFinishPanel = arg_11_0._tf:Find("painting/quick_finish")
+	arg_11_0.quickFinishText = arg_11_0._tf:Find("painting/quick_finish/Text")
 
-	local var_11_0 = arg_11_0:findTF("adpter")
+	local var_11_0 = arg_11_0._tf:Find("adpter")
 
 	arg_11_0.studentsPage = NewNavalTacticsStudentsPage.New(var_11_0, arg_11_0.event)
 	arg_11_0.unlockPage = NewNavalTacticsUnlockSlotPage.New(arg_11_0._tf, arg_11_0.event)

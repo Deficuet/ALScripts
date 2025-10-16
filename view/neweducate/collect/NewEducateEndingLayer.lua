@@ -13,7 +13,7 @@ function var_0_0.initConfig(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("anim_root/close"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("anim_root/close"), function()
 		arg_3_0:PlayAnimClose()
 	end, SFX_PANEL)
 	arg_3_0:InitPageInfo()

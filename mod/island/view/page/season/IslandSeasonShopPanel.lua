@@ -8,6 +8,9 @@ function var_0_0.OnLoaded(arg_2_0)
 	local var_2_0 = arg_2_0._tf:Find("content")
 
 	arg_2_0.lockTF = var_2_0:Find("view/lock")
+
+	setText(var_2_0:Find("view/content/tpl/sellOut/Text"), i18n("common_sale_out"))
+
 	arg_2_0.goodUIList = UIItemList.New(var_2_0:Find("view/content"), var_2_0:Find("view/content/tpl"))
 
 	local var_2_1 = var_2_0:Find("toggles")

@@ -52,8 +52,8 @@ function var_0_2.InitBtns(arg_6_0)
 	arg_6_0._activeBtnList = {}
 	arg_6_0._delayAnimaList = {}
 	arg_6_0._fleetVO = arg_6_0._mediator._dataProxy:GetFleetByIFF(var_0_0.Battle.BattleConfig.FRIENDLY_CODE)
-	arg_6_0._buttonContainer = arg_6_0._ui:findTF("Weapon_button_container")
-	arg_6_0._buttonRes = arg_6_0._ui:findTF("Weapon_button_Resource")
+	arg_6_0._buttonContainer = arg_6_0._ui._tf:Find("Weapon_button_container")
+	arg_6_0._buttonRes = arg_6_0._ui._tf:Find("Weapon_button_Resource")
 
 	local function var_6_0()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("battle_emptyBlock"))
@@ -232,7 +232,7 @@ function var_0_2.generateCommonButton(arg_22_0, arg_22_1)
 		var_22_1 = var_0_0.Battle.BattleWeaponButton.New()
 	end
 
-	arg_22_0._progressSkin = arg_22_0._progressSkin or arg_22_0._ui:findTF("Weapon_button_progress")
+	arg_22_0._progressSkin = arg_22_0._progressSkin or arg_22_0._ui._tf:Find("Weapon_button_progress")
 
 	local var_22_2 = cloneTplTo(arg_22_0._progressSkin, arg_22_0._buttonContainer)
 
@@ -251,7 +251,7 @@ end
 function var_0_2.generateSubmarineFuncButton(arg_23_0, arg_23_1)
 	local var_23_0 = var_0_0.Battle.BattleSubmarineFuncButton.New()
 
-	arg_23_0._progressSkin = arg_23_0._progressSkin or arg_23_0._ui:findTF("Weapon_button_progress")
+	arg_23_0._progressSkin = arg_23_0._progressSkin or arg_23_0._ui._tf:Find("Weapon_button_progress")
 
 	local var_23_1 = cloneTplTo(arg_23_0._progressSkin, arg_23_0._buttonContainer)
 
@@ -266,7 +266,7 @@ end
 function var_0_2.generateSubmarineButton(arg_24_0, arg_24_1)
 	local var_24_0 = var_0_0.Battle.BattleSubmarineButton.New()
 
-	arg_24_0._disposableSkin = arg_24_0._disposableSkin or arg_24_0._ui:findTF("Weapon_button")
+	arg_24_0._disposableSkin = arg_24_0._disposableSkin or arg_24_0._ui._tf:Find("Weapon_button")
 
 	local var_24_1 = cloneTplTo(arg_24_0._disposableSkin, arg_24_0._buttonContainer)
 

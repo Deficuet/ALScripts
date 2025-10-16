@@ -84,30 +84,30 @@ function var_0_0.preload(arg_5_0, arg_5_1)
 end
 
 function var_0_0.init(arg_7_0)
-	arg_7_0.top = arg_7_0:findTF("Top")
-	arg_7_0.layerFormulaPanel = arg_7_0:findTF("FormulaList")
-	arg_7_0.layerFormulaOverlayPanel = arg_7_0:findTF("FormulaDetail/Overlay")
-	arg_7_0.layerFormulaDetailPanel = arg_7_0:findTF("FormulaDetail")
-	arg_7_0.scrollView = arg_7_0:findTF("FormulaDetail/ScrollView")
-	arg_7_0.materialSelectPanel = arg_7_0:findTF("FormulaDetail/Overlay/AvaliableMaterials")
-	arg_7_0.materialsPreviewPanel = arg_7_0:findTF("FormulaMaterialsPreview")
-	arg_7_0.compositeConfirmPanel = arg_7_0:findTF("CompositeConfirmWindow")
-	arg_7_0.compositeResultPanel = arg_7_0:findTF("CompositeResultWindow")
+	arg_7_0.top = arg_7_0._tf:Find("Top")
+	arg_7_0.layerFormulaPanel = arg_7_0._tf:Find("FormulaList")
+	arg_7_0.layerFormulaOverlayPanel = arg_7_0._tf:Find("FormulaDetail/Overlay")
+	arg_7_0.layerFormulaDetailPanel = arg_7_0._tf:Find("FormulaDetail")
+	arg_7_0.scrollView = arg_7_0._tf:Find("FormulaDetail/ScrollView")
+	arg_7_0.materialSelectPanel = arg_7_0._tf:Find("FormulaDetail/Overlay/AvaliableMaterials")
+	arg_7_0.materialsPreviewPanel = arg_7_0._tf:Find("FormulaMaterialsPreview")
+	arg_7_0.compositeConfirmPanel = arg_7_0._tf:Find("CompositeConfirmWindow")
+	arg_7_0.compositeResultPanel = arg_7_0._tf:Find("CompositeResultWindow")
 
 	arg_7_0:InitCustom()
 	setActive(arg_7_0.layerEmpty, false)
 end
 
 function var_0_0.InitCustom(arg_8_0)
-	arg_8_0.layerEmpty = arg_8_0:findTF("Empty")
+	arg_8_0.layerEmpty = arg_8_0._tf:Find("Empty")
 
-	setText(arg_8_0:findTF("Empty/Bar/Text"), i18n(arg_8_0.unlockText))
+	setText(arg_8_0._tf:Find("Empty/Bar/Text"), i18n(arg_8_0.unlockText))
 
-	arg_8_0.painting = arg_8_0:findTF("Painting")
+	arg_8_0.painting = arg_8_0._tf:Find("Painting")
 	arg_8_0.chat = arg_8_0.painting:Find("Chat")
 
 	setActive(arg_8_0.chat, false)
-	pg.ViewUtils.SetSortingOrder(arg_8_0:findTF("Mask/BG"):GetChild(0), -1)
+	pg.ViewUtils.SetSortingOrder(arg_8_0._tf:Find("Mask/BG"):GetChild(0), -1)
 end
 
 function var_0_0.SetContextData(arg_9_0, arg_9_1)
@@ -144,19 +144,19 @@ function var_0_0.didEnter(arg_12_0)
 	arg_12_0.atelierMaterialsPreview:didEnter()
 	arg_12_0.atelierCompositeConfirmView:didEnter()
 	arg_12_0.atelierCompositeResultView:didEnter()
-	onButton(arg_12_0, arg_12_0:findTF("Top/TopBar/Back"), function()
+	onButton(arg_12_0, arg_12_0._tf:Find("Top/TopBar/Back"), function()
 		arg_12_0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(arg_12_0, arg_12_0:findTF("Top/TopBar/Home"), function()
+	onButton(arg_12_0, arg_12_0._tf:Find("Top/TopBar/Home"), function()
 		arg_12_0:quickExitFunc()
 	end, SFX_CANCEL)
-	onButton(arg_12_0, arg_12_0:findTF("Top/TopBar/Help"), function()
+	onButton(arg_12_0, arg_12_0._tf:Find("Top/TopBar/Help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n(arg_12_0.helpStr)
 		})
 	end, SFX_PANEL)
-	onButton(arg_12_0, arg_12_0:findTF("Top/TopBar/StoreHouse"), function()
+	onButton(arg_12_0, arg_12_0._tf:Find("Top/TopBar/StoreHouse"), function()
 		arg_12_0:OnClickStore()
 	end, SFX_PANEL)
 	pg.UIMgr.GetInstance():OverlayPanel(arg_12_0.top)
@@ -177,7 +177,7 @@ end
 
 function var_0_0.PlayGuide(arg_17_0)
 	if arg_17_0.unlockSystem and PlayerPrefs.GetInt(string.format("first_enter_ryza_atelier_%s_%s", getProxy(PlayerProxy):getRawData().id, arg_17_0.activity.id), 0) == 0 then
-		triggerButton(arg_17_0:findTF("Top/TopBar/Help"))
+		triggerButton(arg_17_0._tf:Find("Top/TopBar/Help"))
 		PlayerPrefs.SetInt(string.format("first_enter_ryza_atelier_%s_%s", getProxy(PlayerProxy):getRawData().id, arg_17_0.activity.id), 1)
 	end
 end
@@ -228,10 +228,10 @@ end
 
 function var_0_0.UpdateRyzaDrop(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
 	updateDrop(arg_19_1, arg_19_2)
-	SetCompomentEnabled(arg_19_0:findTF("icon_bg", arg_19_1), typeof(Image), false)
-	setActive(arg_19_0:findTF("bg", arg_19_1), false)
-	setActive(arg_19_0:findTF("icon_bg/frame", arg_19_1), false)
-	setActive(arg_19_0:findTF("icon_bg/stars", arg_19_1), false)
+	SetCompomentEnabled(arg_19_1:Find("icon_bg"), typeof(Image), false)
+	setActive(arg_19_1:Find("bg"), false)
+	setActive(arg_19_1:Find("icon_bg/frame"), false)
+	setActive(arg_19_1:Find("icon_bg/stars"), false)
 
 	local var_19_0 = arg_19_2:getConfig("rarity")
 
@@ -264,21 +264,21 @@ function var_0_0.UpdateRyzaItem(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
 	end
 
 	arg_21_0.loader:GetSpriteQuiet(arg_21_0.commonBundleName, var_21_0, arg_21_1)
-	arg_21_0.loader:GetSpriteQuiet(arg_21_2:GetIconPath(), "", arg_21_0:findTF("Icon", arg_21_1))
+	arg_21_0.loader:GetSpriteQuiet(arg_21_2:GetIconPath(), "", arg_21_1:Find("Icon"))
 
-	if not IsNil(arg_21_0:findTF("Lv", arg_21_1)) then
-		setText(arg_21_0:findTF("Lv/Text", arg_21_1), arg_21_2:GetLevel())
+	if not IsNil(arg_21_1:Find("Lv")) then
+		setText(arg_21_1:Find("Lv/Text"), arg_21_2:GetLevel())
 	end
 
 	local var_21_1 = arg_21_2:GetProps()
-	local var_21_2 = CustomIndexLayer.Clone2Full(arg_21_0:findTF("List", arg_21_1), #var_21_1)
+	local var_21_2 = CustomIndexLayer.Clone2Full(arg_21_1:Find("List"), #var_21_1)
 
 	for iter_21_0, iter_21_1 in ipairs(var_21_2) do
 		arg_21_0.loader:GetSpriteQuiet(arg_21_0.commonBundleName, "element_" .. AtelierFormulaCircle.ELEMENT_NAME[var_21_1[iter_21_0]], iter_21_1)
 	end
 
-	if not IsNil(arg_21_0:findTF("Text", arg_21_1)) then
-		setText(arg_21_0:findTF("Text", arg_21_1), arg_21_2.count)
+	if not IsNil(arg_21_1:Find("Text")) then
+		setText(arg_21_1:Find("Text"), arg_21_2.count)
 	end
 end
 
@@ -378,7 +378,7 @@ function var_0_0.DispalyChat(arg_33_0, arg_33_1)
 	end)
 	local var_33_3 = var_33_2 and var_33_2[2]
 
-	setText(arg_33_0:findTF("Text", arg_33_0.chat), var_33_3)
+	setText(arg_33_0.chat:Find("Text"), var_33_3)
 
 	local var_33_4 = arg_33_0:GetSoundPath() .. var_33_0
 

@@ -15,8 +15,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.valueTxt = findTF(arg_2_0._go, "window/content/calc_panel/Text"):GetComponent(typeof(Text))
 	arg_2_0.text = findTF(arg_2_0._go, "window/content/Text"):GetComponent(typeof(Text))
 
-	setText(arg_2_0:findTF("window/btns/cancel_btn/Image/Image (1)"), i18n("text_cancel"))
-	setText(arg_2_0:findTF("window/btns/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
+	setText(arg_2_0._tf:Find("window/btns/cancel_btn/Image/Image (1)"), i18n("text_cancel"))
+	setText(arg_2_0._tf:Find("window/btns/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
 end
 
 function var_0_0.OnInit(arg_3_0)

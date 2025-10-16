@@ -19,7 +19,7 @@ function var_0_0.OnUpdateFlush(arg_3_0)
 
 	setActive(arg_3_0.battleBtn, isActive(arg_3_0.battleBtn) and var_3_1)
 
-	local var_3_2 = arg_3_0:findTF("got", arg_3_0.bg)
+	local var_3_2 = arg_3_0.bg:Find("got")
 
 	setActive(var_3_2, not arg_3_0.ptData:CanGetNextAward())
 

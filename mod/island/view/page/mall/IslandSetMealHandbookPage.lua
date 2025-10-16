@@ -8,7 +8,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.closeBtn = arg_2_0._tf:Find("top/back")
 	arg_2_0.setMealList = UIItemList.New(arg_2_0._tf:Find("setMealList/Viewport/Content"), arg_2_0._tf:Find("setMealList/Viewport/Content/setMealTpl"))
 	arg_2_0.detail = arg_2_0._tf:Find("detail")
-	arg_2_0.detailName = arg_2_0.detail:Find("name")
+	arg_2_0.detailName = arg_2_0.detail:Find("name/text")
 	arg_2_0.formulaList1 = arg_2_0.detail:Find("formulaList1")
 	arg_2_0.formulaList2 = arg_2_0.detail:Find("formulaList2")
 	arg_2_0.detailDesc = arg_2_0.detail:Find("desc")
@@ -17,6 +17,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	setActive(arg_2_0.detail, false)
 	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_setmeal_title"))
 	setText(arg_2_0._tf:Find("top/title/Text/en"), i18n1("HANDBOOK"))
+	setText(arg_2_0._tf:Find("detail/condition"), i18n("island_tech_detail_unlocktitle"))
+	setText(arg_2_0._tf:Find("detail/decoration2/text"), i18n("island_setmeal_benifit_title"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -102,7 +104,7 @@ function var_0_0.SetFormulaList(arg_9_0)
 			setActive(arg_10_2:Find("lock"), not var_10_6)
 
 			if var_10_6 then
-				setText(arg_10_2:Find("name"), var_10_0.name)
+				setScrollText(arg_10_2:Find("name/text"), var_10_0.name)
 
 				local var_10_7 = {
 					count = 0,
@@ -131,7 +133,7 @@ end
 
 function var_0_0.SetDetail(arg_12_0, arg_12_1)
 	setActive(arg_12_0.detail, true)
-	setText(arg_12_0.detailName, arg_12_1.name)
+	setScrollText(arg_12_0.detailName, arg_12_1.name)
 	setActive(arg_12_0.formulaList1, #arg_12_1.unlock_condition == 2)
 	setActive(arg_12_0.formulaList2, #arg_12_1.unlock_condition == 3)
 
@@ -159,7 +161,7 @@ function var_0_0.SetDetail(arg_12_0, arg_12_1)
 			local var_13_1 = arg_12_1.unlock_condition[arg_13_1 + 1][2]
 			local var_13_2 = pg.island_formula[var_13_0]
 
-			setText(arg_13_2:Find("name"), i18n("island_combo_produced") .. var_13_2.name)
+			setScrollText(arg_13_2:Find("name/text"), i18n("island_combo_produced") .. var_13_2.name)
 
 			local var_13_3 = arg_12_0.formulaNums[var_13_0] or 0
 

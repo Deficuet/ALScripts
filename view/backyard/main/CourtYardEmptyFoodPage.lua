@@ -5,13 +5,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/ok_btn")
-	arg_2_0.cancelBtn = arg_2_0:findTF("frame/cancel_btn")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/ok_btn")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("frame/cancel_btn")
 
 	setButtonText(arg_2_0.confirmBtn, i18n("text_nofood_yes"))
 	setButtonText(arg_2_0.cancelBtn, i18n("text_nofood_no"))
 
-	arg_2_0.frame = arg_2_0:findTF("frame")
+	arg_2_0.frame = arg_2_0._tf:Find("frame")
 end
 
 function var_0_0.OnInit(arg_3_0)

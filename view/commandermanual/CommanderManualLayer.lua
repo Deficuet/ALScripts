@@ -5,52 +5,52 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.backBtn = arg_2_0:findTF("blur_panel/top/CommonTitleAndBack/back_btn")
-	arg_2_0.helpBtn = arg_2_0:findTF("blur_panel/top/helpBtn")
-	arg_2_0.taskBtn = arg_2_0:findTF("blur_panel/panel/pageBtns/taskBtn")
-	arg_2_0.techBtn = arg_2_0:findTF("blur_panel/panel/pageBtns/techBtn")
-	arg_2_0.guideBtn = arg_2_0:findTF("blur_panel/panel/pageBtns/guideBtn")
+	arg_2_0.backBtn = arg_2_0._tf:Find("blur_panel/top/CommonTitleAndBack/back_btn")
+	arg_2_0.helpBtn = arg_2_0._tf:Find("blur_panel/top/helpBtn")
+	arg_2_0.taskBtn = arg_2_0._tf:Find("blur_panel/panel/pageBtns/taskBtn")
+	arg_2_0.techBtn = arg_2_0._tf:Find("blur_panel/panel/pageBtns/techBtn")
+	arg_2_0.guideBtn = arg_2_0._tf:Find("blur_panel/panel/pageBtns/guideBtn")
 	arg_2_0.topBtns = {
 		arg_2_0.taskBtn,
 		arg_2_0.techBtn,
 		arg_2_0.guideBtn
 	}
-	arg_2_0.pages = arg_2_0:findTF("blur_panel/panel/pages")
-	arg_2_0.taskPage = arg_2_0:findTF("blur_panel/panel/pages/taskPage")
-	arg_2_0.techPage = arg_2_0:findTF("blur_panel/panel/pages/techPage")
-	arg_2_0.guidePage = arg_2_0:findTF("blur_panel/panel/pages/guidePage")
+	arg_2_0.pages = arg_2_0._tf:Find("blur_panel/panel/pages")
+	arg_2_0.taskPage = arg_2_0._tf:Find("blur_panel/panel/pages/taskPage")
+	arg_2_0.techPage = arg_2_0._tf:Find("blur_panel/panel/pages/techPage")
+	arg_2_0.guidePage = arg_2_0._tf:Find("blur_panel/panel/pages/guidePage")
 	arg_2_0.blurPanel = arg_2_0._tf:Find("blur_panel")
 	arg_2_0.pageBg = arg_2_0._tf:Find("blur_panel/panel/mask/pageBg")
 
-	pg.UIMgr.GetInstance():OverlayPanel(arg_2_0.blurPanel, {
+	arg_2_0:OverlayPanel(arg_2_0.blurPanel, {
 		pbList = {
 			arg_2_0.pageBg
 		}
 	})
-	setText(arg_2_0:findTF("blur_panel/top/CommonTitleAndBack/title"), i18n("handbook_name"))
-	setText(arg_2_0:findTF("blur_panel/top/CommonTitleAndBack/title/en"), "HANDBOOK")
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/go_btn/Text", arg_2_0.taskPage), i18n("handbook_process"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/get_btn/Text", arg_2_0.taskPage), i18n("handbook_claim"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/got_btn/Text", arg_2_0.taskPage), i18n("handbook_finished"))
-	setText(arg_2_0:findTF("page/ptPanel/go_btn/Text", arg_2_0.taskPage), i18n("handbook_process"))
-	setText(arg_2_0:findTF("page/ptPanel/get_btn/Text", arg_2_0.taskPage), i18n("handbook_claim"))
-	setText(arg_2_0:findTF("page/ptPanel/got_btn/Text", arg_2_0.taskPage), i18n("handbook_finished"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/go_btn/Text", arg_2_0.techPage), i18n("handbook_process"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/lock_btn/Text", arg_2_0.techPage), i18n("handbook_process"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/get_btn/Text", arg_2_0.techPage), i18n("handbook_claim"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/got_btn/Text", arg_2_0.techPage), i18n("handbook_finished"))
-	setText(arg_2_0:findTF("page/ptPanel/go_btn/Text", arg_2_0.techPage), i18n("handbook_process"))
-	setText(arg_2_0:findTF("page/ptPanel/get_btn/Text", arg_2_0.techPage), i18n("handbook_claim"))
-	setText(arg_2_0:findTF("page/ptPanel/got_btn/Text", arg_2_0.techPage), i18n("handbook_finished"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/content/descBg/go_btn/Text", arg_2_0.guidePage), i18n("handbook_process"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/content/descBg/get_btn/Text", arg_2_0.guidePage), i18n("handbook_claim"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/normal/content/descBg/got_btn/Text", arg_2_0.guidePage), i18n("handbook_finished"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/fold/descBg/go_btn/Text", arg_2_0.guidePage), i18n("handbook_process"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/fold/descBg/get_btn/Text", arg_2_0.guidePage), i18n("handbook_claim"))
-	setText(arg_2_0:findTF("page/scroll/Viewport/Content/tpl/fold/descBg/got_btn/Text", arg_2_0.guidePage), i18n("handbook_finished"))
-	setText(arg_2_0:findTF("page/ptPanel/go_btn/Text", arg_2_0.guidePage), i18n("handbook_process"))
-	setText(arg_2_0:findTF("page/ptPanel/get_btn/Text", arg_2_0.guidePage), i18n("handbook_claim"))
-	setText(arg_2_0:findTF("page/ptPanel/got_btn/Text", arg_2_0.guidePage), i18n("handbook_finished"))
+	setText(arg_2_0._tf:Find("blur_panel/top/CommonTitleAndBack/title"), i18n("handbook_name"))
+	setText(arg_2_0._tf:Find("blur_panel/top/CommonTitleAndBack/title/en"), "HANDBOOK")
+	setText(arg_2_0.taskPage:Find("page/scroll/Viewport/Content/tpl/normal/go_btn/Text"), i18n("handbook_process"))
+	setText(arg_2_0.taskPage:Find("page/scroll/Viewport/Content/tpl/normal/get_btn/Text"), i18n("handbook_claim"))
+	setText(arg_2_0.taskPage:Find("page/scroll/Viewport/Content/tpl/normal/got_btn/Text"), i18n("handbook_finished"))
+	setText(arg_2_0.taskPage:Find("page/ptPanel/go_btn/Text"), i18n("handbook_process"))
+	setText(arg_2_0.taskPage:Find("page/ptPanel/get_btn/Text"), i18n("handbook_claim"))
+	setText(arg_2_0.taskPage:Find("page/ptPanel/got_btn/Text"), i18n("handbook_finished"))
+	setText(arg_2_0.techPage:Find("page/scroll/Viewport/Content/tpl/normal/go_btn/Text"), i18n("handbook_process"))
+	setText(arg_2_0.techPage:Find("page/scroll/Viewport/Content/tpl/normal/lock_btn/Text"), i18n("handbook_process"))
+	setText(arg_2_0.techPage:Find("page/scroll/Viewport/Content/tpl/normal/get_btn/Text"), i18n("handbook_claim"))
+	setText(arg_2_0.techPage:Find("page/scroll/Viewport/Content/tpl/normal/got_btn/Text"), i18n("handbook_finished"))
+	setText(arg_2_0.techPage:Find("page/ptPanel/go_btn/Text"), i18n("handbook_process"))
+	setText(arg_2_0.techPage:Find("page/ptPanel/get_btn/Text"), i18n("handbook_claim"))
+	setText(arg_2_0.techPage:Find("page/ptPanel/got_btn/Text"), i18n("handbook_finished"))
+	setText(arg_2_0.guidePage:Find("page/scroll/Viewport/Content/tpl/normal/content/descBg/go_btn/Text"), i18n("handbook_process"))
+	setText(arg_2_0.guidePage:Find("page/scroll/Viewport/Content/tpl/normal/content/descBg/get_btn/Text"), i18n("handbook_claim"))
+	setText(arg_2_0.guidePage:Find("page/scroll/Viewport/Content/tpl/normal/content/descBg/got_btn/Text"), i18n("handbook_finished"))
+	setText(arg_2_0.guidePage:Find("page/scroll/Viewport/Content/tpl/fold/descBg/go_btn/Text"), i18n("handbook_process"))
+	setText(arg_2_0.guidePage:Find("page/scroll/Viewport/Content/tpl/fold/descBg/get_btn/Text"), i18n("handbook_claim"))
+	setText(arg_2_0.guidePage:Find("page/scroll/Viewport/Content/tpl/fold/descBg/got_btn/Text"), i18n("handbook_finished"))
+	setText(arg_2_0.guidePage:Find("page/ptPanel/go_btn/Text"), i18n("handbook_process"))
+	setText(arg_2_0.guidePage:Find("page/ptPanel/get_btn/Text"), i18n("handbook_claim"))
+	setText(arg_2_0.guidePage:Find("page/ptPanel/got_btn/Text"), i18n("handbook_finished"))
 end
 
 function var_0_0.didEnter(arg_3_0)
@@ -121,21 +121,21 @@ function var_0_0.RefreshAll(arg_8_0)
 	local var_8_3, var_8_4 = TechnologyConst.isTecActOn()
 
 	setActive(arg_8_0.techBtn, var_8_3)
-	setActive(arg_8_0:findTF("Text/lock", arg_8_0.taskBtn), not var_8_0)
-	setActive(arg_8_0:findTF("Text/lock", arg_8_0.techBtn), not var_8_1)
-	setActive(arg_8_0:findTF("Text/lock", arg_8_0.guideBtn), not var_8_2)
-	setText(arg_8_0:findTF("Text", arg_8_0.taskBtn), var_8_0 and arg_8_0.topTaskCfg.name or arg_8_0.topTaskCfg.lock_name)
-	setText(arg_8_0:findTF("Text", arg_8_0.techBtn), var_8_1 and arg_8_0.topTechCfg.name or arg_8_0.topTechCfg.lock_name)
-	setText(arg_8_0:findTF("Text", arg_8_0.guideBtn), var_8_2 and arg_8_0.topGuideCfg.name or arg_8_0.topGuideCfg.lock_name)
-	setText(arg_8_0:findTF("select/Text", arg_8_0.taskBtn), arg_8_0.topTaskCfg.name)
-	setText(arg_8_0:findTF("select/Text", arg_8_0.techBtn), arg_8_0.topTechCfg.name)
-	setText(arg_8_0:findTF("select/Text", arg_8_0.guideBtn), arg_8_0.topGuideCfg.name)
-	setText(arg_8_0:findTF("select/en", arg_8_0.taskBtn), arg_8_0.topTaskCfg.eng_name)
-	setText(arg_8_0:findTF("select/en", arg_8_0.techBtn), arg_8_0.topTechCfg.eng_name)
-	setText(arg_8_0:findTF("select/en", arg_8_0.guideBtn), arg_8_0.topGuideCfg.eng_name)
-	setActive(arg_8_0:findTF("tip", arg_8_0.taskBtn), arg_8_0.commanderManualProxy:ShouldShowTipByType(1))
-	setActive(arg_8_0:findTF("tip", arg_8_0.techBtn), var_8_4)
-	setActive(arg_8_0:findTF("tip", arg_8_0.guideBtn), arg_8_0.commanderManualProxy:ShouldShowTipByType(2))
+	setActive(arg_8_0.taskBtn:Find("Text/lock"), not var_8_0)
+	setActive(arg_8_0.techBtn:Find("Text/lock"), not var_8_1)
+	setActive(arg_8_0.guideBtn:Find("Text/lock"), not var_8_2)
+	setText(arg_8_0.taskBtn:Find("Text"), var_8_0 and arg_8_0.topTaskCfg.name or arg_8_0.topTaskCfg.lock_name)
+	setText(arg_8_0.techBtn:Find("Text"), var_8_1 and arg_8_0.topTechCfg.name or arg_8_0.topTechCfg.lock_name)
+	setText(arg_8_0.guideBtn:Find("Text"), var_8_2 and arg_8_0.topGuideCfg.name or arg_8_0.topGuideCfg.lock_name)
+	setText(arg_8_0.taskBtn:Find("select/Text"), arg_8_0.topTaskCfg.name)
+	setText(arg_8_0.techBtn:Find("select/Text"), arg_8_0.topTechCfg.name)
+	setText(arg_8_0.guideBtn:Find("select/Text"), arg_8_0.topGuideCfg.name)
+	setText(arg_8_0.taskBtn:Find("select/en"), arg_8_0.topTaskCfg.eng_name)
+	setText(arg_8_0.techBtn:Find("select/en"), arg_8_0.topTechCfg.eng_name)
+	setText(arg_8_0.guideBtn:Find("select/en"), arg_8_0.topGuideCfg.eng_name)
+	setActive(arg_8_0.taskBtn:Find("tip"), arg_8_0.commanderManualProxy:ShouldShowTipByType(1))
+	setActive(arg_8_0.techBtn:Find("tip"), var_8_4)
+	setActive(arg_8_0.guideBtn:Find("tip"), arg_8_0.commanderManualProxy:ShouldShowTipByType(2))
 
 	arg_8_0.hasRefreshed = false
 
@@ -152,7 +152,7 @@ function var_0_0.RefreshAll(arg_8_0)
 				arg_8_0:ShowTaskPage()
 
 				for iter_9_0, iter_9_1 in ipairs(arg_8_0.topBtns) do
-					setActive(arg_8_0:findTF("select", iter_9_1), iter_9_1 == arg_8_0.taskBtn)
+					setActive(iter_9_1:Find("select"), iter_9_1 == arg_8_0.taskBtn)
 				end
 			else
 				local var_9_0 = arg_8_0.commanderManualProxy:GetLockTip(CommanderManualProxy.TOP_PAGE_TASK)
@@ -176,7 +176,7 @@ function var_0_0.RefreshAll(arg_8_0)
 				arg_8_0:ShowTechPage()
 
 				for iter_10_0, iter_10_1 in ipairs(arg_8_0.topBtns) do
-					setActive(arg_8_0:findTF("select", iter_10_1), iter_10_1 == arg_8_0.techBtn)
+					setActive(iter_10_1:Find("select"), iter_10_1 == arg_8_0.techBtn)
 				end
 			else
 				local var_10_0 = arg_8_0.commanderManualProxy:GetLockTip(CommanderManualProxy.TOP_PAGE_TECH)
@@ -200,7 +200,7 @@ function var_0_0.RefreshAll(arg_8_0)
 				arg_8_0:ShowGuidePage()
 
 				for iter_11_0, iter_11_1 in ipairs(arg_8_0.topBtns) do
-					setActive(arg_8_0:findTF("select", iter_11_1), iter_11_1 == arg_8_0.guideBtn)
+					setActive(iter_11_1:Find("select"), iter_11_1 == arg_8_0.guideBtn)
 				end
 			else
 				local var_11_0 = arg_8_0.commanderManualProxy:GetLockTip(CommanderManualProxy.TOP_PAGE_GUIDE)
@@ -220,7 +220,7 @@ function var_0_0.RefreshAll(arg_8_0)
 		local var_8_5 = false
 
 		for iter_8_0, iter_8_1 in ipairs(arg_8_0.topBtns) do
-			if isActive(iter_8_1) and not isActive(arg_8_0:findTF("Text/lock", iter_8_1)) and isActive(arg_8_0:findTF("tip", iter_8_1)) then
+			if isActive(iter_8_1) and not isActive(iter_8_1:Find("Text/lock")) and isActive(iter_8_1:Find("tip")) then
 				triggerButton(iter_8_1)
 
 				var_8_5 = true
@@ -232,7 +232,7 @@ function var_0_0.RefreshAll(arg_8_0)
 
 		if not var_8_5 then
 			for iter_8_2, iter_8_3 in ipairs(arg_8_0.topBtns) do
-				if isActive(iter_8_3) and not isActive(arg_8_0:findTF("Text/lock", iter_8_3)) then
+				if isActive(iter_8_3) and not isActive(iter_8_3:Find("Text/lock")) then
 					triggerButton(iter_8_3)
 
 					arg_8_0.hasRefreshed = true
@@ -255,8 +255,8 @@ function var_0_0.ShowTaskPage(arg_13_0)
 		arg_13_0.taskItemAnimTime = {}
 	end
 
-	local var_13_0 = UIItemList.New(arg_13_0:findTF("subPageScroll/Viewport/Content", arg_13_0.taskPage), arg_13_0:findTF("subPageScroll/Viewport/Content/subPageBtn", arg_13_0.taskPage))
-	local var_13_1 = UIItemList.New(arg_13_0:findTF("page/scroll/Viewport/Content", arg_13_0.taskPage), arg_13_0:findTF("page/scroll/Viewport/Content/tpl", arg_13_0.taskPage))
+	local var_13_0 = UIItemList.New(arg_13_0.taskPage:Find("subPageScroll/Viewport/Content"), arg_13_0.taskPage:Find("subPageScroll/Viewport/Content/subPageBtn"))
+	local var_13_1 = UIItemList.New(arg_13_0.taskPage:Find("page/scroll/Viewport/Content"), arg_13_0.taskPage:Find("page/scroll/Viewport/Content/tpl"))
 	local var_13_2 = false
 
 	var_13_0:make(function(arg_14_0, arg_14_1, arg_14_2)
@@ -276,11 +276,11 @@ function var_0_0.ShowTaskPage(arg_13_0)
 				if var_14_0.isUnlock then
 					arg_13_0.contextData.currentPageId = var_14_0.id
 
-					for iter_15_0 = 1, arg_13_0:findTF("subPageScroll/Viewport/Content", arg_13_0.taskPage).childCount do
-						setActive(arg_13_0:findTF("select", arg_13_0:findTF("subPageScroll/Viewport/Content", arg_13_0.taskPage):GetChild(iter_15_0 - 1)), iter_15_0 == arg_14_1 + 1)
-						setActive(arg_13_0:findTF("name", arg_13_0:findTF("subPageScroll/Viewport/Content", arg_13_0.taskPage):GetChild(iter_15_0 - 1)), iter_15_0 ~= arg_14_1 + 1)
+					for iter_15_0 = 1, arg_13_0.taskPage:Find("subPageScroll/Viewport/Content").childCount do
+						setActive(arg_13_0.taskPage:Find("subPageScroll/Viewport/Content"):GetChild(iter_15_0 - 1):Find("select"), iter_15_0 == arg_14_1 + 1)
+						setActive(arg_13_0.taskPage:Find("subPageScroll/Viewport/Content"):GetChild(iter_15_0 - 1):Find("name"), iter_15_0 ~= arg_14_1 + 1)
 
-						arg_13_0:findTF("tip", arg_13_0:findTF("subPageScroll/Viewport/Content", arg_13_0.taskPage):GetChild(iter_15_0 - 1)).anchoredPosition = Vector2(iter_15_0 == arg_14_1 + 1 and -34.295 or 18, -2)
+						arg_13_0.taskPage:Find("subPageScroll/Viewport/Content"):GetChild(iter_15_0 - 1):Find("tip").anchoredPosition = Vector2(iter_15_0 == arg_14_1 + 1 and -34.295 or 18, -2)
 					end
 
 					var_14_0:SortTaskIdList()
@@ -356,8 +356,8 @@ function var_0_0.ShowTaskPage(arg_13_0)
 						end
 					end)
 					var_13_1:align(#var_14_0.taskIdList)
-					scrollTo(arg_13_0:findTF("page/scroll", arg_13_0.taskPage), 0, 1)
-					arg_13_0:SetPtPanel(arg_13_0:findTF("page/ptPanel", arg_13_0.taskPage), var_14_0)
+					scrollTo(arg_13_0.taskPage:Find("page/scroll"), 0, 1)
+					arg_13_0:SetPtPanel(arg_13_0.taskPage:Find("page/ptPanel"), var_14_0)
 				else
 					local var_15_0 = var_14_0:GetLockTip()
 
@@ -386,7 +386,7 @@ function var_0_0.ShowTaskPage(arg_13_0)
 	if not var_13_2 then
 		for iter_13_0 = #arg_13_0.taskPages, 1, -1 do
 			if arg_13_0.taskPages[iter_13_0].isUnlock then
-				triggerButton(arg_13_0:findTF("subPageScroll/Viewport/Content", arg_13_0.taskPage):GetChild(iter_13_0 - 1))
+				triggerButton(arg_13_0.taskPage:Find("subPageScroll/Viewport/Content"):GetChild(iter_13_0 - 1))
 
 				break
 			end
@@ -400,8 +400,8 @@ function var_0_0.ShowTaskPage(arg_13_0)
 end
 
 function var_0_0.ShowGuidePage(arg_20_0)
-	local var_20_0 = UIItemList.New(arg_20_0:findTF("subPageScroll/Viewport/Content", arg_20_0.guidePage), arg_20_0:findTF("subPageScroll/Viewport/Content/subPageBtn", arg_20_0.guidePage))
-	local var_20_1 = UIItemList.New(arg_20_0:findTF("page/scroll/Viewport/Content", arg_20_0.guidePage), arg_20_0:findTF("page/scroll/Viewport/Content/tpl", arg_20_0.guidePage))
+	local var_20_0 = UIItemList.New(arg_20_0.guidePage:Find("subPageScroll/Viewport/Content"), arg_20_0.guidePage:Find("subPageScroll/Viewport/Content/subPageBtn"))
+	local var_20_1 = UIItemList.New(arg_20_0.guidePage:Find("page/scroll/Viewport/Content"), arg_20_0.guidePage:Find("page/scroll/Viewport/Content/tpl"))
 	local var_20_2 = false
 
 	var_20_0:make(function(arg_21_0, arg_21_1, arg_21_2)
@@ -421,13 +421,13 @@ function var_0_0.ShowGuidePage(arg_20_0)
 				if var_21_0.isUnlock then
 					arg_20_0.contextData.currentPageId = var_21_0.id
 
-					for iter_22_0 = 1, arg_20_0:findTF("subPageScroll/Viewport/Content", arg_20_0.guidePage).childCount do
-						setActive(arg_20_0:findTF("select", arg_20_0:findTF("subPageScroll/Viewport/Content", arg_20_0.guidePage):GetChild(iter_22_0 - 1)), iter_22_0 == arg_21_1 + 1)
-						setActive(arg_20_0:findTF("lock0", arg_20_0:findTF("subPageScroll/Viewport/Content", arg_20_0.guidePage):GetChild(iter_22_0 - 1)), iter_22_0 ~= arg_21_1 + 1)
-						setActive(arg_20_0:findTF("mask", arg_20_0:findTF("subPageScroll/Viewport/Content", arg_20_0.guidePage):GetChild(iter_22_0 - 1)), iter_22_0 ~= arg_21_1 + 1)
-						setActive(arg_20_0:findTF("en", arg_20_0:findTF("subPageScroll/Viewport/Content", arg_20_0.guidePage):GetChild(iter_22_0 - 1)), iter_22_0 ~= arg_21_1 + 1)
+					for iter_22_0 = 1, arg_20_0.guidePage:Find("subPageScroll/Viewport/Content").childCount do
+						setActive(arg_20_0.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(iter_22_0 - 1):Find("select"), iter_22_0 == arg_21_1 + 1)
+						setActive(arg_20_0.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(iter_22_0 - 1):Find("lock0"), iter_22_0 ~= arg_21_1 + 1)
+						setActive(arg_20_0.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(iter_22_0 - 1):Find("mask"), iter_22_0 ~= arg_21_1 + 1)
+						setActive(arg_20_0.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(iter_22_0 - 1):Find("en"), iter_22_0 ~= arg_21_1 + 1)
 
-						arg_20_0:findTF("tip", arg_20_0:findTF("subPageScroll/Viewport/Content", arg_20_0.guidePage):GetChild(iter_22_0 - 1)).anchoredPosition = Vector2(iter_22_0 == arg_21_1 + 1 and -34.295 or 18, -2)
+						arg_20_0.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(iter_22_0 - 1):Find("tip").anchoredPosition = Vector2(iter_22_0 == arg_21_1 + 1 and -34.295 or 18, -2)
 					end
 
 					var_21_0:SortTaskIdList()
@@ -534,8 +534,8 @@ function var_0_0.ShowGuidePage(arg_20_0)
 						end
 					end)
 					var_20_1:align(#var_21_0.taskIdList)
-					scrollTo(arg_20_0:findTF("page/scroll", arg_20_0.guidePage), 0, 1)
-					arg_20_0:SetPtPanel(arg_20_0:findTF("page/ptPanel", arg_20_0.guidePage), var_21_0)
+					scrollTo(arg_20_0.guidePage:Find("page/scroll"), 0, 1)
+					arg_20_0:SetPtPanel(arg_20_0.guidePage:Find("page/ptPanel"), var_21_0)
 				else
 					local var_22_0 = var_21_0:GetLockTip()
 
@@ -562,7 +562,7 @@ function var_0_0.ShowGuidePage(arg_20_0)
 	var_20_0:align(#arg_20_0.guidePages)
 
 	if not var_20_2 then
-		triggerButton(arg_20_0:findTF("subPageScroll/Viewport/Content", arg_20_0.guidePage):GetChild(0))
+		triggerButton(arg_20_0.guidePage:Find("subPageScroll/Viewport/Content"):GetChild(0))
 	end
 
 	arg_20_0:ShowBottomTip(arg_20_0.guidePage, 1)
@@ -575,9 +575,9 @@ function var_0_0.SetPtPanel(arg_33_0, arg_33_1, arg_33_2)
 	local var_33_0 = arg_33_2:getConfig("target")
 	local var_33_1 = arg_33_2:getConfig("drop_client")
 
-	setText(arg_33_0:findTF("upgrade/progress/progress1", arg_33_1), arg_33_2.pt)
-	setText(arg_33_0:findTF("upgrade/progress/progress2", arg_33_1), "/" .. #arg_33_2.taskIdList)
-	setSlider(arg_33_0:findTF("slider", arg_33_1), 0, #arg_33_2.taskIdList, arg_33_2.pt)
+	setText(arg_33_1:Find("upgrade/progress/progress1"), arg_33_2.pt)
+	setText(arg_33_1:Find("upgrade/progress/progress2"), "/" .. #arg_33_2.taskIdList)
+	setSlider(arg_33_1:Find("slider"), 0, #arg_33_2.taskIdList, arg_33_2.pt)
 
 	if arg_33_2.pt == #arg_33_2.taskIdList then
 		arg_33_1:Find("upgrade"):GetComponent(typeof(Animation)):Play("anim_CommanderManualUI_ptPanel_upgrade")
@@ -585,16 +585,16 @@ function var_0_0.SetPtPanel(arg_33_0, arg_33_1, arg_33_2)
 
 	local var_33_2 = arg_33_2:GetCurrentPtTarget()
 
-	setText(arg_33_0:findTF("desc", arg_33_1), i18n("handbook_unfinished", var_33_2))
+	setText(arg_33_1:Find("desc"), i18n("handbook_unfinished", var_33_2))
 
-	local var_33_3 = arg_33_0:findTF("awards", arg_33_1)
+	local var_33_3 = arg_33_1:Find("awards")
 	local var_33_4 = var_33_3:GetChild(0)
 
 	arg_33_0:updateTaskAwards(arg_33_2:GetCurrentPtAward(), var_33_3, var_33_4)
-	setActive(arg_33_0:findTF("go_btn", arg_33_1), var_33_2 > arg_33_2.pt)
-	setActive(arg_33_0:findTF("get_btn", arg_33_1), var_33_2 <= arg_33_2.pt and arg_33_2.award < #arg_33_2:getConfig("target"))
-	setActive(arg_33_0:findTF("got_btn", arg_33_1), arg_33_2.award == #arg_33_2:getConfig("target"))
-	onButton(arg_33_0, arg_33_0:findTF("get_btn", arg_33_1), function()
+	setActive(arg_33_1:Find("go_btn"), var_33_2 > arg_33_2.pt)
+	setActive(arg_33_1:Find("get_btn"), var_33_2 <= arg_33_2.pt and arg_33_2.award < #arg_33_2:getConfig("target"))
+	setActive(arg_33_1:Find("got_btn"), arg_33_2.award == #arg_33_2:getConfig("target"))
+	onButton(arg_33_0, arg_33_1:Find("get_btn"), function()
 		arg_33_0:PtAwardsCheckAndSubmit(arg_33_2)
 	end, SFX_PANEL)
 end
@@ -1004,7 +1004,7 @@ function var_0_0.PtAwardsCheckAndSubmit(arg_63_0, arg_63_1)
 end
 
 function var_0_0.willExit(arg_66_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_66_0.blurPanel, arg_66_0._tf)
+	arg_66_0:UnOverlayPanel(arg_66_0.blurPanel, arg_66_0._tf)
 end
 
 function var_0_0.onBackPressed(arg_67_0)

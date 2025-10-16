@@ -5,13 +5,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.bg = arg_2_0:findTF("bg")
-	arg_2_0.scrollPanel = arg_2_0:findTF("window/panel")
-	arg_2_0.UIlist = UIItemList.New(arg_2_0:findTF("window/panel/list"), arg_2_0:findTF("window/panel/list/item"))
-	arg_2_0.ptTF = arg_2_0:findTF("window/top/pt")
-	arg_2_0.totalTxt = arg_2_0:findTF("window/top/pt/Text"):GetComponent(typeof(Text))
-	arg_2_0.closeBtn = arg_2_0:findTF("window/top/btnBack")
-	arg_2_0.getBtn = arg_2_0:findTF("window/btn_get")
+	arg_2_0.bg = arg_2_0._tf:Find("bg")
+	arg_2_0.scrollPanel = arg_2_0._tf:Find("window/panel")
+	arg_2_0.UIlist = UIItemList.New(arg_2_0._tf:Find("window/panel/list"), arg_2_0._tf:Find("window/panel/list/item"))
+	arg_2_0.ptTF = arg_2_0._tf:Find("window/top/pt")
+	arg_2_0.totalTxt = arg_2_0._tf:Find("window/top/pt/Text"):GetComponent(typeof(Text))
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
+	arg_2_0.getBtn = arg_2_0._tf:Find("window/btn_get")
 end
 
 function var_0_0.didEnter(arg_3_0)

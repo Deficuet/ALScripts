@@ -7,23 +7,23 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.LoadDetail(arg_2_0)
-	setActive(arg_2_0:findTF("adpter/descript"), false)
+	setActive(arg_2_0._tf:Find("adpter/descript"), false)
 end
 
 function var_0_0.OnInit(arg_3_0)
 	var_0_0.super.OnInit(arg_3_0)
 
-	arg_3_0.tipBg = arg_3_0:findTF("tip")
+	arg_3_0.tipBg = arg_3_0._tf:Find("tip")
 	arg_3_0.tips = {
-		arg_3_0:findTF("tip1"),
-		arg_3_0:findTF("tip2"),
-		arg_3_0:findTF("tip3")
+		arg_3_0._tf:Find("tip1"),
+		arg_3_0._tf:Find("tip2"),
+		arg_3_0._tf:Find("tip3")
 	}
-	arg_3_0.goBtn = arg_3_0:findTF("go_btn")
-	arg_3_0.helpBtn = arg_3_0:findTF("adpter/help")
-	arg_3_0.rawImage = arg_3_0:findTF("preview_raw"):GetComponent(typeof(RawImage))
-	arg_3_0.listRect = arg_3_0:findTF("list/frame")
-	arg_3_0.refreshBtns = arg_3_0:findTF("adpter/refresh_btns")
+	arg_3_0.goBtn = arg_3_0._tf:Find("go_btn")
+	arg_3_0.helpBtn = arg_3_0._tf:Find("adpter/help")
+	arg_3_0.rawImage = arg_3_0._tf:Find("preview_raw"):GetComponent(typeof(RawImage))
+	arg_3_0.listRect = arg_3_0._tf:Find("list/frame")
+	arg_3_0.refreshBtns = arg_3_0._tf:Find("adpter/refresh_btns")
 	arg_3_0.btns = {
 		[5] = arg_3_0.refreshBtns:Find("random"),
 		[3] = arg_3_0.refreshBtns:Find("hot"),
@@ -64,8 +64,8 @@ function var_0_0.OnInit(arg_3_0)
 	end, SFX_PANEL)
 	arg_3_0.scrollRect.onValueChanged:RemoveAllListeners()
 
-	arg_3_0.arrLeftBtnShop = arg_3_0:findTF("list/frame/zuobian_shop")
-	arg_3_0.arrRightBtnShop = arg_3_0:findTF("list/frame/youbian_shop")
+	arg_3_0.arrLeftBtnShop = arg_3_0._tf:Find("list/frame/zuobian_shop")
+	arg_3_0.arrRightBtnShop = arg_3_0._tf:Find("list/frame/youbian_shop")
 
 	onButton(arg_3_0, arg_3_0.arrLeftBtnShop, function()
 		if arg_3_0.pageType == BackYardConst.THEME_TEMPLATE_TYPE_SHOP then
@@ -111,9 +111,9 @@ function var_0_0.OnInit(arg_3_0)
 	arg_3_0.contextData.themeMsgBox = BackYardThemeTemplatePurchaseMsgbox.New(arg_3_0._parentTf, arg_3_0.event, arg_3_0.contextData)
 
 	setText(arg_3_0.goBtn:Find("Text"), i18n("courtyard_label_go"))
-	setText(arg_3_0:findTF("tip1"), i18n("courtyard_label_empty_template_list"))
-	setText(arg_3_0:findTF("tip2"), i18n("courtyard_label_empty_custom_template_list"))
-	setText(arg_3_0:findTF("tip3"), i18n("courtyard_label_empty_collection_list"))
+	setText(arg_3_0._tf:Find("tip1"), i18n("courtyard_label_empty_template_list"))
+	setText(arg_3_0._tf:Find("tip2"), i18n("courtyard_label_empty_custom_template_list"))
+	setText(arg_3_0._tf:Find("tip3"), i18n("courtyard_label_empty_collection_list"))
 end
 
 function var_0_0.InitInput(arg_11_0)
@@ -427,6 +427,8 @@ function var_0_0.SetTotalCount(arg_41_0)
 			end
 		end
 	end
+
+	arg_41_0.scrollRect.enabsled = true
 
 	arg_41_0.scrollRect:SetTotalCount(#arg_41_0.disPlays)
 end

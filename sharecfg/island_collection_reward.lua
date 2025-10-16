@@ -106,8 +106,8 @@ pg.base.island_collection_reward = {
 		describe = "累计获得100收集点：丰壤农田委派效率提高 4%",
 		level = 5,
 		award_display = {
-			43,
-			38001,
+			41,
+			300001,
 			1
 		}
 	},
@@ -161,8 +161,8 @@ pg.base.island_collection_reward = {
 		describe = "累计获得350收集点：坠香果园委派效率提高 4%",
 		level = 10,
 		award_display = {
-			43,
-			39001,
+			41,
+			300002,
 			1
 		}
 	},
@@ -216,8 +216,8 @@ pg.base.island_collection_reward = {
 		describe = "累计获得600收集点：青芽苗圃委派效率提高 4%",
 		level = 15,
 		award_display = {
-			43,
-			40001,
+			41,
+			300003,
 			1
 		}
 	},
@@ -271,8 +271,8 @@ pg.base.island_collection_reward = {
 		describe = "累计获得850收集点：丰壤农田委派效率提高 8%",
 		level = 20,
 		award_display = {
-			43,
-			38002,
+			41,
+			300004,
 			1
 		}
 	},
@@ -326,8 +326,8 @@ pg.base.island_collection_reward = {
 		describe = "累计获得1200收集点：坠香果园委派效率提高 8%",
 		level = 25,
 		award_display = {
-			43,
-			39002,
+			41,
+			300005,
 			1
 		}
 	},
@@ -381,8 +381,8 @@ pg.base.island_collection_reward = {
 		describe = "累计获得1700收集点：青芽苗圃委派效率提高 8%",
 		level = 30,
 		award_display = {
-			43,
-			39002,
+			41,
+			300006,
 			1
 		}
 	},

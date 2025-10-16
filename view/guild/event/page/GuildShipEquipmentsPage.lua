@@ -5,15 +5,15 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.shipNameTxt = arg_2_0:findTF("frame/ship_info/shipname"):GetComponent(typeof(Text))
-	arg_2_0.userNameTxt = arg_2_0:findTF("frame/ship_info/username"):GetComponent(typeof(Text))
-	arg_2_0.shipTypeIcon = arg_2_0:findTF("frame/ship_info/ship_type"):GetComponent(typeof(Image))
-	arg_2_0.shipStarList = UIItemList.New(arg_2_0:findTF("frame/ship_info/stars"), arg_2_0:findTF("frame/ship_info/stars/star_tpl"))
-	arg_2_0.shipLvTxt = arg_2_0:findTF("frame/ship_info/lv/Text"):GetComponent(typeof(Text))
-	arg_2_0.equipmentList = UIItemList.New(arg_2_0:findTF("frame/equipemtns"), arg_2_0:findTF("frame/equipemtns/equipment_tpl"))
+	arg_2_0.shipNameTxt = arg_2_0._tf:Find("frame/ship_info/shipname"):GetComponent(typeof(Text))
+	arg_2_0.userNameTxt = arg_2_0._tf:Find("frame/ship_info/username"):GetComponent(typeof(Text))
+	arg_2_0.shipTypeIcon = arg_2_0._tf:Find("frame/ship_info/ship_type"):GetComponent(typeof(Image))
+	arg_2_0.shipStarList = UIItemList.New(arg_2_0._tf:Find("frame/ship_info/stars"), arg_2_0._tf:Find("frame/ship_info/stars/star_tpl"))
+	arg_2_0.shipLvTxt = arg_2_0._tf:Find("frame/ship_info/lv/Text"):GetComponent(typeof(Text))
+	arg_2_0.equipmentList = UIItemList.New(arg_2_0._tf:Find("frame/equipemtns"), arg_2_0._tf:Find("frame/equipemtns/equipment_tpl"))
 	arg_2_0.playerId = getProxy(PlayerProxy):getRawData().id
-	arg_2_0.nextBtn = arg_2_0:findTF("frame/next")
-	arg_2_0.prevBtn = arg_2_0:findTF("frame/prev")
+	arg_2_0.nextBtn = arg_2_0._tf:Find("frame/next")
+	arg_2_0.prevBtn = arg_2_0._tf:Find("frame/prev")
 end
 
 function var_0_0.OnInit(arg_3_0)

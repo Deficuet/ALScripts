@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.white_closebtn = arg_2_0:findTF("white_close")
-	arg_2_0.bg = arg_2_0:findTF("BG")
+	arg_2_0.white_closebtn = arg_2_0._tf:Find("white_close")
+	arg_2_0.bg = arg_2_0._tf:Find("BG")
 	arg_2_0.Close = arg_2_0.bg:Find("close")
 	arg_2_0.list = arg_2_0.bg:Find("panel/list")
 	arg_2_0.frame = arg_2_0.bg:Find("frame")
@@ -80,7 +80,7 @@ end
 
 function var_0_0.UpdateList(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 	local var_12_0 = arg_12_1 + 1
-	local var_12_1 = arg_12_0:findTF("frame", arg_12_2)
+	local var_12_1 = arg_12_2:Find("frame")
 	local var_12_2 = arg_12_0.taskProxy:getTaskVO(arg_12_3[var_12_0])
 	local var_12_3 = arg_12_2:Find("desc")
 
@@ -97,9 +97,9 @@ function var_0_0.UpdateList(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 
 	arg_12_0:updateAwards(var_12_2:getConfig("award_display"), var_12_7, var_12_6)
 
-	local var_12_8 = arg_12_0:findTF("go_btn", arg_12_2)
-	local var_12_9 = arg_12_0:findTF("get_btn", arg_12_2)
-	local var_12_10 = arg_12_0:findTF("got_btn", arg_12_2)
+	local var_12_8 = arg_12_2:Find("go_btn")
+	local var_12_9 = arg_12_2:Find("get_btn")
+	local var_12_10 = arg_12_2:Find("got_btn")
 	local var_12_11 = var_12_2:getTaskStatus()
 
 	setActive(var_12_8, var_12_11 == 0)

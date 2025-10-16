@@ -8,14 +8,14 @@ function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
 	arg_2_0.toggles = {
-		[IslandOrderSlot.TENDENCY_TYPE_COMMON] = arg_2_0:findTF("toggle/1"),
-		[IslandOrderSlot.TENDENCY_TYPE_EASY] = arg_2_0:findTF("toggle/0"),
-		[IslandOrderSlot.TENDENCY_TYPE_HARD] = arg_2_0:findTF("toggle/2")
+		[IslandOrderSlot.TENDENCY_TYPE_COMMON] = arg_2_0._tf:Find("toggle/1"),
+		[IslandOrderSlot.TENDENCY_TYPE_EASY] = arg_2_0._tf:Find("toggle/0"),
+		[IslandOrderSlot.TENDENCY_TYPE_HARD] = arg_2_0._tf:Find("toggle/2")
 	}
 
-	setText(arg_2_0:findTF("toggle/0/Text"), i18n("island_order_difficulty_2"))
-	setText(arg_2_0:findTF("toggle/1/Text"), i18n("island_order_difficulty_1"))
-	setText(arg_2_0:findTF("toggle/2/Text"), i18n("island_order_difficulty_3"))
+	setText(arg_2_0._tf:Find("toggle/0/Text"), i18n("island_order_difficulty_2"))
+	setText(arg_2_0._tf:Find("toggle/1/Text"), i18n("island_order_difficulty_1"))
+	setText(arg_2_0._tf:Find("toggle/2/Text"), i18n("island_order_difficulty_3"))
 end
 
 function var_0_0.OnInit(arg_3_0)

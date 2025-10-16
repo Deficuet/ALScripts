@@ -7,26 +7,26 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.mapScroll = arg_2_0:findTF("mapScroll")
-	arg_2_0.map = arg_2_0:findTF("mapScroll/Viewport/map")
-	arg_2_0.regionList = UIItemList.New(arg_2_0:findTF("regions", arg_2_0.map), arg_2_0:findTF("regions/region", arg_2_0.map))
-	arg_2_0.siteList = UIItemList.New(arg_2_0:findTF("sites", arg_2_0.map), arg_2_0:findTF("sites/site", arg_2_0.map))
-	arg_2_0.ani = arg_2_0:findTF("ani", arg_2_0.map)
-	arg_2_0.backBtn = arg_2_0:findTF("ui/top/backBtn")
-	arg_2_0.homeBtn = arg_2_0:findTF("ui/top/homeBtn")
-	arg_2_0.helpBtn = arg_2_0:findTF("ui/top/helpBtn")
-	arg_2_0.res = arg_2_0:findTF("ui/top/res")
-	arg_2_0.watermelonGameBtn = arg_2_0:findTF("ui/left/watermelonGameBtn")
-	arg_2_0.minerGameBtn = arg_2_0:findTF("ui/left/minerGameBtn")
-	arg_2_0.springBtn = arg_2_0:findTF("ui/left/springBtn")
-	arg_2_0.taskBar = arg_2_0:findTF("ui/taskBar")
-	arg_2_0.bookBtn = arg_2_0:findTF("ui/bookBtn")
-	arg_2_0.taskBtn = arg_2_0:findTF("ui/taskBtn")
-	arg_2_0.shopBtn = arg_2_0:findTF("ui/shopBtn")
-	arg_2_0.wharfBtn = arg_2_0:findTF("ui/wharfBtn")
-	arg_2_0.mapScaleSlider = arg_2_0:findTF("ui/mapScaleSlider")
-	arg_2_0.siteDescPage = arg_2_0:findTF("subPages/siteDescPage")
-	arg_2_0.allRepairCompletePage = arg_2_0:findTF("subPages/allRepairCompletePage")
+	arg_2_0.mapScroll = arg_2_0._tf:Find("mapScroll")
+	arg_2_0.map = arg_2_0._tf:Find("mapScroll/Viewport/map")
+	arg_2_0.regionList = UIItemList.New(arg_2_0.map:Find("regions"), arg_2_0.map:Find("regions/region"))
+	arg_2_0.siteList = UIItemList.New(arg_2_0.map:Find("sites"), arg_2_0.map:Find("sites/site"))
+	arg_2_0.ani = arg_2_0.map:Find("ani")
+	arg_2_0.backBtn = arg_2_0._tf:Find("ui/top/backBtn")
+	arg_2_0.homeBtn = arg_2_0._tf:Find("ui/top/homeBtn")
+	arg_2_0.helpBtn = arg_2_0._tf:Find("ui/top/helpBtn")
+	arg_2_0.res = arg_2_0._tf:Find("ui/top/res")
+	arg_2_0.watermelonGameBtn = arg_2_0._tf:Find("ui/left/watermelonGameBtn")
+	arg_2_0.minerGameBtn = arg_2_0._tf:Find("ui/left/minerGameBtn")
+	arg_2_0.springBtn = arg_2_0._tf:Find("ui/left/springBtn")
+	arg_2_0.taskBar = arg_2_0._tf:Find("ui/taskBar")
+	arg_2_0.bookBtn = arg_2_0._tf:Find("ui/bookBtn")
+	arg_2_0.taskBtn = arg_2_0._tf:Find("ui/taskBtn")
+	arg_2_0.shopBtn = arg_2_0._tf:Find("ui/shopBtn")
+	arg_2_0.wharfBtn = arg_2_0._tf:Find("ui/wharfBtn")
+	arg_2_0.mapScaleSlider = arg_2_0._tf:Find("ui/mapScaleSlider")
+	arg_2_0.siteDescPage = arg_2_0._tf:Find("subPages/siteDescPage")
+	arg_2_0.allRepairCompletePage = arg_2_0._tf:Find("subPages/allRepairCompletePage")
 
 	setText(arg_2_0._tf:Find("ui/bookBtn/name"), i18n("holiday_tip_collection"))
 	setText(arg_2_0._tf:Find("ui/taskBtn/name"), i18n("holiday_tip_task"))
@@ -64,16 +64,16 @@ function var_0_0.didEnter(arg_3_0)
 
 		local var_7_0 = Vector3(1 / arg_7_0, 1 / arg_7_0, 1)
 
-		for iter_7_0 = 0, arg_3_0:findTF("regions", arg_3_0.map).childCount - 1 do
-			arg_3_0:findTF("regions", arg_3_0.map):GetChild(iter_7_0).localScale = var_7_0
+		for iter_7_0 = 0, arg_3_0.map:Find("regions").childCount - 1 do
+			arg_3_0.map:Find("regions"):GetChild(iter_7_0).localScale = var_7_0
 		end
 
-		for iter_7_1 = 0, arg_3_0:findTF("sites", arg_3_0.map).childCount - 1 do
-			arg_3_0:findTF("sites", arg_3_0.map):GetChild(iter_7_1).localScale = var_7_0
+		for iter_7_1 = 0, arg_3_0.map:Find("sites").childCount - 1 do
+			arg_3_0.map:Find("sites"):GetChild(iter_7_1).localScale = var_7_0
 		end
 
-		setActive(arg_3_0:findTF("regions", arg_3_0.map), arg_7_0 > 0.75)
-		setActive(arg_3_0:findTF("sites", arg_3_0.map), arg_7_0 > 0.75)
+		setActive(arg_3_0.map:Find("regions"), arg_7_0 > 0.75)
+		setActive(arg_3_0.map:Find("sites"), arg_7_0 > 0.75)
 	end)
 	arg_3_0:Show()
 	setActive(arg_3_0.ani, false)
@@ -258,7 +258,7 @@ function var_0_0.ShowMap(arg_13_0)
 	end
 
 	if var_13_0 ~= 6 then
-		setActive(arg_13_0:findTF("bg" .. var_13_0, arg_13_0.map), true)
+		setActive(arg_13_0.map:Find("bg" .. var_13_0), true)
 	else
 		local var_13_1 = pg.TimeMgr.GetInstance():GetServerHour()
 
@@ -269,7 +269,7 @@ function var_0_0.ShowMap(arg_13_0)
 			local var_13_5 = iter_13_2[3]
 
 			if var_13_2 <= var_13_1 and var_13_1 < var_13_3 then
-				setActive(arg_13_0:findTF("bg" .. var_13_0 .. "_" .. var_13_4, arg_13_0.map), true)
+				setActive(arg_13_0.map:Find("bg" .. var_13_0 .. "_" .. var_13_4), true)
 
 				if arg_13_0.bgm ~= var_13_5 then
 					arg_13_0.bgm = var_13_5
@@ -377,11 +377,11 @@ function var_0_0.ShowUI(arg_23_0)
 	local var_23_1 = var_0_2[arg_23_0.funtionIds[1]].task_id
 	local var_23_2 = arg_23_0.taskProxy:getFinishTaskById(var_23_1)
 
-	setActive(arg_23_0:findTF("lock", arg_23_0.watermelonGameBtn), not var_23_2)
-	setActive(arg_23_0:findTF("remain", arg_23_0.watermelonGameBtn), var_23_2)
+	setActive(arg_23_0.watermelonGameBtn:Find("lock"), not var_23_2)
+	setActive(arg_23_0.watermelonGameBtn:Find("remain"), var_23_2)
 
 	if var_23_2 then
-		setText(arg_23_0:findTF("remain/Text", arg_23_0.watermelonGameBtn), getProxy(MiniGameProxy):GetHubByGameId(76).count)
+		setText(arg_23_0.watermelonGameBtn:Find("remain/Text"), getProxy(MiniGameProxy):GetHubByGameId(76).count)
 		onButton(arg_23_0, arg_23_0.watermelonGameBtn, function()
 			arg_23_0:emit(HolidayVillaMapMediator.OPEN_MINI_GAME, 76)
 		end, SFX_PANEL)
@@ -394,11 +394,11 @@ function var_0_0.ShowUI(arg_23_0)
 	local var_23_3 = var_0_2[arg_23_0.funtionIds[2]].task_id
 	local var_23_4 = arg_23_0.taskProxy:getFinishTaskById(var_23_3)
 
-	setActive(arg_23_0:findTF("lock", arg_23_0.minerGameBtn), not var_23_4)
-	setActive(arg_23_0:findTF("remain", arg_23_0.minerGameBtn), var_23_4)
+	setActive(arg_23_0.minerGameBtn:Find("lock"), not var_23_4)
+	setActive(arg_23_0.minerGameBtn:Find("remain"), var_23_4)
 
 	if var_23_4 then
-		setText(arg_23_0:findTF("remain/Text", arg_23_0.minerGameBtn), getProxy(MiniGameProxy):GetHubByGameId(77).count)
+		setText(arg_23_0.minerGameBtn:Find("remain/Text"), getProxy(MiniGameProxy):GetHubByGameId(77).count)
 		onButton(arg_23_0, arg_23_0.minerGameBtn, function()
 			arg_23_0:emit(HolidayVillaMapMediator.OPEN_MINI_GAME, 77)
 		end, SFX_PANEL)
@@ -411,11 +411,11 @@ function var_0_0.ShowUI(arg_23_0)
 	local var_23_5 = var_0_2[arg_23_0.funtionIds[3]].task_id
 	local var_23_6 = arg_23_0.taskProxy:getFinishTaskById(var_23_5)
 
-	setActive(arg_23_0:findTF("lock", arg_23_0.springBtn), not var_23_6)
-	setActive(arg_23_0:findTF("tip", arg_23_0.springBtn), var_23_6)
+	setActive(arg_23_0.springBtn:Find("lock"), not var_23_6)
+	setActive(arg_23_0.springBtn:Find("tip"), var_23_6)
 
 	if var_23_6 then
-		setActive(arg_23_0:findTF("tip", arg_23_0.springBtn), false)
+		setActive(arg_23_0.springBtn:Find("tip"), false)
 		onButton(arg_23_0, arg_23_0.springBtn, function()
 			arg_23_0:emit(HolidayVillaMapMediator.GO_HOTSPRING)
 		end, SFX_PANEL)
@@ -434,19 +434,19 @@ function var_0_0.ShowUI(arg_23_0)
 	setActive(arg_23_0.wharfBtn, var_23_8)
 
 	if var_23_8 then
-		setActive(arg_23_0:findTF("tip", arg_23_0.bookBtn), CollectionBookMediator.GetCollectionBookTip())
+		setActive(arg_23_0.bookBtn:Find("tip"), CollectionBookMediator.GetCollectionBookTip())
 		onButton(arg_23_0, arg_23_0.bookBtn, function()
 			arg_23_0:emit(HolidayVillaMapMediator.ON_BOOK)
 		end, SFX_PANEL)
-		setActive(arg_23_0:findTF("tip", arg_23_0.taskBtn), HolidayVillaTasksLayer.ShouldShowTip())
+		setActive(arg_23_0.taskBtn:Find("tip"), HolidayVillaTasksLayer.ShouldShowTip())
 		onButton(arg_23_0, arg_23_0.taskBtn, function()
 			arg_23_0:emit(HolidayVillaMapMediator.OPEN_HolidayVilla_TASk)
 		end, SFX_PANEL)
-		setText(arg_23_0:findTF("res/Text", arg_23_0.shopBtn), arg_23_0.activity:getVitemNumber(66005))
+		setText(arg_23_0.shopBtn:Find("res/Text"), arg_23_0.activity:getVitemNumber(66005))
 		onButton(arg_23_0, arg_23_0.shopBtn, function()
 			arg_23_0:emit(HolidayVillaMapMediator.ON_SHOP)
 		end, SFX_PANEL)
-		setText(arg_23_0:findTF("res/Text", arg_23_0.wharfBtn), arg_23_0.activity:getVitemNumber(66006))
+		setText(arg_23_0.wharfBtn:Find("res/Text"), arg_23_0.activity:getVitemNumber(66006))
 		onButton(arg_23_0, arg_23_0.wharfBtn, function()
 			arg_23_0:emit(HolidayVillaMapMediator.OPEN_WHARF)
 		end, SFX_PANEL)
@@ -469,7 +469,7 @@ function var_0_0.SetRes(arg_34_0, arg_34_1, arg_34_2)
 
 			if var_34_2.name == tostring(var_34_0) then
 				setActive(var_34_2, true)
-				setText(arg_34_0:findTF("Text", var_34_2), var_34_1)
+				setText(var_34_2:Find("Text"), var_34_1)
 
 				break
 			end
@@ -493,7 +493,7 @@ function var_0_0.SetTaskBar(arg_35_0)
 				arg_35_0.initTaskPosition = false
 			end
 
-			setText(arg_35_0:findTF("desc", arg_35_0.taskBar), var_35_3:getConfig("desc"))
+			setText(arg_35_0.taskBar:Find("desc"), var_35_3:getConfig("desc"))
 			onButton(arg_35_0, arg_35_0.taskBar, function()
 				arg_35_0.mapScaleSlider:GetComponent(typeof(Slider)).value = 1
 
@@ -508,7 +508,7 @@ function var_0_0.SetTaskBar(arg_35_0)
 	end
 
 	if not var_35_0 then
-		setText(arg_35_0:findTF("desc", arg_35_0.taskBar), i18n("holiday_tip_task_finish"))
+		setText(arg_35_0.taskBar:Find("desc"), i18n("holiday_tip_task_finish"))
 		onButton(arg_35_0, arg_35_0.taskBar, function()
 			arg_35_0.mapScaleSlider:GetComponent(typeof(Slider)).value = 1
 
@@ -527,10 +527,10 @@ function var_0_0.ShowSiteDescPage(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
 	setActive(arg_38_0.siteDescPage, true)
 	pg.UIMgr.GetInstance():BlurPanel(arg_38_0.siteDescPage)
 	setActive(arg_38_0.siteDescPage:Find("repairComplete"), arg_38_2)
-	setText(arg_38_0:findTF("panel/name", arg_38_0.siteDescPage), arg_38_1.jumpto[1][1])
-	setText(arg_38_0:findTF("panel/desc", arg_38_0.siteDescPage), arg_38_1.jumpto[2][1])
-	LoadImageSpriteAsync(arg_38_1.jumpto[3][1], arg_38_0:findTF("panel/picBg/mask/picture", arg_38_0.siteDescPage))
-	onButton(arg_38_0, arg_38_0:findTF("bg", arg_38_0.siteDescPage), function()
+	setText(arg_38_0.siteDescPage:Find("panel/name"), arg_38_1.jumpto[1][1])
+	setText(arg_38_0.siteDescPage:Find("panel/desc"), arg_38_1.jumpto[2][1])
+	LoadImageSpriteAsync(arg_38_1.jumpto[3][1], arg_38_0.siteDescPage:Find("panel/picBg/mask/picture"))
+	onButton(arg_38_0, arg_38_0.siteDescPage:Find("bg"), function()
 		setActive(arg_38_0.siteDescPage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.siteDescPage, arg_38_0._tf:Find("subPages"))
 
@@ -538,7 +538,7 @@ function var_0_0.ShowSiteDescPage(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
 			arg_38_3()
 		end
 	end, SFX_CANCEL)
-	onButton(arg_38_0, arg_38_0:findTF("closeBtn", arg_38_0.siteDescPage), function()
+	onButton(arg_38_0, arg_38_0.siteDescPage:Find("closeBtn"), function()
 		setActive(arg_38_0.siteDescPage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.siteDescPage, arg_38_0._tf:Find("subPages"))
 
@@ -551,13 +551,13 @@ end
 function var_0_0.ShowAllRepairPage(arg_41_0)
 	setActive(arg_41_0.allRepairCompletePage, true)
 	pg.UIMgr.GetInstance():BlurPanel(arg_41_0.allRepairCompletePage)
-	arg_41_0:SetRes(arg_41_0:findTF("panel/source/res", arg_41_0.allRepairCompletePage), arg_41_0.beforeExchangeResList)
-	setText(arg_41_0:findTF("panel/destination/res/Text", arg_41_0.allRepairCompletePage), arg_41_0.activity:getVitemNumber(66005) - arg_41_0.beforeExchangeResList[5][2])
-	onButton(arg_41_0, arg_41_0:findTF("bg", arg_41_0.allRepairCompletePage), function()
+	arg_41_0:SetRes(arg_41_0.allRepairCompletePage:Find("panel/source/res"), arg_41_0.beforeExchangeResList)
+	setText(arg_41_0.allRepairCompletePage:Find("panel/destination/res/Text"), arg_41_0.activity:getVitemNumber(66005) - arg_41_0.beforeExchangeResList[5][2])
+	onButton(arg_41_0, arg_41_0.allRepairCompletePage:Find("bg"), function()
 		setActive(arg_41_0.allRepairCompletePage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(arg_41_0.allRepairCompletePage, arg_41_0._tf:Find("subPages"))
 	end, SFX_CANCEL)
-	onButton(arg_41_0, arg_41_0:findTF("closeBtn", arg_41_0.allRepairCompletePage), function()
+	onButton(arg_41_0, arg_41_0.allRepairCompletePage:Find("closeBtn"), function()
 		setActive(arg_41_0.allRepairCompletePage, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(arg_41_0.allRepairCompletePage, arg_41_0._tf:Find("subPages"))
 	end, SFX_CANCEL)

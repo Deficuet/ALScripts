@@ -30,7 +30,7 @@ function var_0_0.onBackPressed(arg_6_0)
 end
 
 function var_0_0.initUITextTips(arg_7_0)
-	local var_7_0 = arg_7_0:findTF("Content/SkillInfo/UseTip")
+	local var_7_0 = arg_7_0._tf:Find("Content/SkillInfo/UseTip")
 
 	setText(var_7_0, i18n("metaskill_up"))
 end
@@ -61,33 +61,33 @@ function var_0_0.initData(arg_8_0)
 end
 
 function var_0_0.initUI(arg_9_0)
-	arg_9_0.bg = arg_9_0:findTF("BG")
-	arg_9_0.tpl = arg_9_0:findTF("TacticsTpl")
+	arg_9_0.bg = arg_9_0._tf:Find("BG")
+	arg_9_0.tpl = arg_9_0._tf:Find("TacticsTpl")
 
-	local var_9_0 = arg_9_0:findTF("Content")
+	local var_9_0 = arg_9_0._tf:Find("Content")
 
-	arg_9_0.closeBtn = arg_9_0:findTF("Title/CloseBtn", var_9_0)
+	arg_9_0.closeBtn = var_9_0:Find("Title/CloseBtn")
 
-	local var_9_1 = arg_9_0:findTF("SkillInfo", var_9_0)
-	local var_9_2 = arg_9_0:findTF("Skill", var_9_1)
+	local var_9_1 = var_9_0:Find("SkillInfo")
+	local var_9_2 = var_9_1:Find("Skill")
 
-	arg_9_0.skillNameText = arg_9_0:findTF("Name", var_9_2)
-	arg_9_0.skillLevelText = arg_9_0:findTF("LevelNum", var_9_2)
-	arg_9_0.skillLevelUpText = arg_9_0:findTF("LevelUp", var_9_2)
+	arg_9_0.skillNameText = var_9_2:Find("Name")
+	arg_9_0.skillLevelText = var_9_2:Find("LevelNum")
+	arg_9_0.skillLevelUpText = var_9_2:Find("LevelUp")
 
-	local var_9_3 = arg_9_0:findTF("Exp", var_9_1)
+	local var_9_3 = var_9_1:Find("Exp")
 
-	arg_9_0.curExpText = arg_9_0:findTF("CurExp", var_9_3)
-	arg_9_0.addExpText = arg_9_0:findTF("AddExp", var_9_3)
-	arg_9_0.totalExpText = arg_9_0:findTF("TotalExp", var_9_3)
-	arg_9_0.progressBar = arg_9_0:findTF("Slider", var_9_1)
-	arg_9_0.containerTF = arg_9_0:findTF("Container", var_9_0)
+	arg_9_0.curExpText = var_9_3:Find("CurExp")
+	arg_9_0.addExpText = var_9_3:Find("AddExp")
+	arg_9_0.totalExpText = var_9_3:Find("TotalExp")
+	arg_9_0.progressBar = var_9_1:Find("Slider")
+	arg_9_0.containerTF = var_9_0:Find("Container")
 
-	local var_9_4 = arg_9_0:findTF("Action", var_9_0)
+	local var_9_4 = var_9_0:Find("Action")
 
-	arg_9_0.clearBtn = arg_9_0:findTF("ClearBtn", var_9_4)
-	arg_9_0.onestepBtn = arg_9_0:findTF("OneStepBtn", var_9_4)
-	arg_9_0.confirmBtn = arg_9_0:findTF("ConfirmBtn", var_9_4)
+	arg_9_0.clearBtn = var_9_4:Find("ClearBtn")
+	arg_9_0.onestepBtn = var_9_4:Find("OneStepBtn")
+	arg_9_0.confirmBtn = var_9_4:Find("ConfirmBtn")
 end
 
 function var_0_0.addListener(arg_10_0)
@@ -171,13 +171,13 @@ function var_0_0.updateUIItemList(arg_19_0)
 end
 
 function var_0_0.updateTpl(arg_20_0, arg_20_1, arg_20_2)
-	local var_20_0 = arg_20_0:findTF("IconTpl", arg_20_2)
-	local var_20_1 = arg_20_0:findTF("Name", arg_20_2)
-	local var_20_2 = arg_20_0:findTF("MinusTenBtn", arg_20_2)
-	local var_20_3 = arg_20_0:findTF("AddTenBtn", arg_20_2)
-	local var_20_4 = arg_20_0:findTF("MinusBtn", arg_20_2)
-	local var_20_5 = arg_20_0:findTF("AddBtn", arg_20_2)
-	local var_20_6 = arg_20_0:findTF("TextBG/UseNum", arg_20_2)
+	local var_20_0 = arg_20_2:Find("IconTpl")
+	local var_20_1 = arg_20_2:Find("Name")
+	local var_20_2 = arg_20_2:Find("MinusTenBtn")
+	local var_20_3 = arg_20_2:Find("AddTenBtn")
+	local var_20_4 = arg_20_2:Find("MinusBtn")
+	local var_20_5 = arg_20_2:Find("AddBtn")
+	local var_20_6 = arg_20_2:Find("TextBG/UseNum")
 	local var_20_7 = arg_20_0.bookIDList[arg_20_1]
 	local var_20_8 = arg_20_0:getBookItem(var_20_7)
 	local var_20_9 = arg_20_0.bagProxy:getItemCountById(var_20_7)

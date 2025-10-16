@@ -5,11 +5,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.contentTxt = arg_2_0:findTF("frame/Text"):GetComponent(typeof(Text))
-	arg_2_0.cancelBtn = arg_2_0:findTF("frame/cancel")
+	arg_2_0.contentTxt = arg_2_0._tf:Find("frame/Text"):GetComponent(typeof(Text))
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("frame/cancel")
 
-	setText(arg_2_0:findTF("frame/title"), i18n("island_msg_info"))
-	setText(arg_2_0:findTF("frame/cancel/Text"), i18n("island_cancel_queue"))
+	setText(arg_2_0._tf:Find("frame/title"), i18n("island_msg_info"))
+	setText(arg_2_0._tf:Find("frame/cancel/Text"), i18n("island_cancel_queue"))
 end
 
 function var_0_0.OnInit(arg_3_0)

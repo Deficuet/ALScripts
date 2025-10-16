@@ -48,7 +48,7 @@ end
 
 function var_0_0.UpdateDropItems(arg_8_0)
 	for iter_8_0, iter_8_1 in ipairs(arg_8_0.contextData.DisplayItems or {}) do
-		local var_8_0 = arg_8_0:findTF("milestone/item", arg_8_0.barList[iter_8_0])
+		local var_8_0 = arg_8_0.barList[iter_8_0]:Find("milestone/item")
 		local var_8_1 = {
 			type = arg_8_0.contextData.DisplayItems[5 - iter_8_0][1],
 			id = arg_8_0.contextData.DisplayItems[5 - iter_8_0][2],

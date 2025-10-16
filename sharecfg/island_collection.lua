@@ -3,6 +3,7 @@ pg.island_collection = {
 	{
 		desc = "飞行器-港口",
 		name = "飞行器",
+		tech_id = 0,
 		type = 1,
 		id = 1,
 		icon = "IslandProps/gold",
@@ -25,11 +26,13 @@ pg.island_collection = {
 			1011,
 			1012
 		},
-		award = {}
+		award = {},
+		jump_page = {}
 	},
 	{
 		desc = "飞行器-野外",
 		name = "飞行器",
+		tech_id = 0,
 		type = 1,
 		id = 2,
 		icon = "IslandProps/gold",
@@ -53,11 +56,13 @@ pg.island_collection = {
 			1008,
 			1009
 		},
-		award = {}
+		award = {},
+		jump_page = {}
 	},
 	{
 		desc = "飞行器-农场",
 		name = "飞行器",
+		tech_id = 0,
 		type = 1,
 		id = 3,
 		icon = "IslandProps/gold",
@@ -82,7 +87,8 @@ pg.island_collection = {
 			1004,
 			1005
 		},
-		award = {}
+		award = {},
+		jump_page = {}
 	},
 	all = {
 		1,

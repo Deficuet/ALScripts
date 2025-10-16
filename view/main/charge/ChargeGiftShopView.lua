@@ -34,18 +34,18 @@ function var_0_0.initData(arg_4_0)
 end
 
 function var_0_0.initUI(arg_5_0)
-	arg_5_0.emptyGo = arg_5_0:findTF("emptyText")
+	arg_5_0.emptyGo = arg_5_0._tf:Find("emptyText")
 
 	setText(arg_5_0.emptyGo, i18n("shop_pack_empty"))
 
-	arg_5_0.lScrollRect = GetComponent(arg_5_0:findTF("lScrollRect"), "LScrollRect")
+	arg_5_0.lScrollRect = GetComponent(arg_5_0._tf:Find("lScrollRect"), "LScrollRect")
 	arg_5_0.chargeCardTable = {}
 
 	arg_5_0:initScrollRect()
 	arg_5_0:initToggleList()
 	arg_5_0:updateToggleList()
 	arg_5_0:updateScrollRect()
-	triggerButton(arg_5_0:findTF("toggleGroup"):GetChild(0))
+	triggerButton(arg_5_0._tf:Find("toggleGroup"):GetChild(0))
 end
 
 function var_0_0.GetViewSkinWrap(arg_6_0)
@@ -252,15 +252,15 @@ function var_0_0.confirm(arg_17_0, arg_17_1)
 end
 
 function var_0_0.initToggleList(arg_22_0)
-	arg_22_0.uiToggleList = UIItemList.New(arg_22_0:findTF("toggleGroup"), arg_22_0:findTF("toggleGroup/Toggle"))
+	arg_22_0.uiToggleList = UIItemList.New(arg_22_0._tf:Find("toggleGroup"), arg_22_0._tf:Find("toggleGroup/Toggle"))
 
 	arg_22_0.uiToggleList:make(function(arg_23_0, arg_23_1, arg_23_2)
 		if arg_23_0 == UIItemList.EventInit then
 			local var_23_0 = arg_22_0.packageSortList[arg_23_1 + 1]
 
-			setText(arg_22_0:findTF("selected/Label", arg_23_2), i18n(string.format("shop_package_sort_%s", var_23_0)))
-			setText(arg_22_0:findTF("selected/enText", arg_23_2), i18n(string.format("shop_package_sort_en_%s", var_23_0)))
-			setText(arg_22_0:findTF("unselected/Label", arg_23_2), i18n(string.format("shop_package_sort_%s", var_23_0)))
+			setText(arg_23_2:Find("selected/Label"), i18n(string.format("shop_package_sort_%s", var_23_0)))
+			setText(arg_23_2:Find("selected/enText"), i18n(string.format("shop_package_sort_en_%s", var_23_0)))
+			setText(arg_23_2:Find("unselected/Label"), i18n(string.format("shop_package_sort_%s", var_23_0)))
 			setActive(arg_23_2:Find("unselected"), true)
 			setActive(arg_23_2:Find("selected"), false)
 		elseif arg_23_0 == UIItemList.EventUpdate then
@@ -514,7 +514,7 @@ function var_0_0.reUpdateAll(arg_45_0)
 	arg_45_0:updateScrollRect()
 
 	if not table.contains(arg_45_0.packageSortList, arg_45_0.selectedPackageType) then
-		triggerButton(arg_45_0:findTF("toggleGroup"):GetChild(0))
+		triggerButton(arg_45_0._tf:Find("toggleGroup"):GetChild(0))
 	end
 end
 

@@ -15,26 +15,26 @@ end
 function var_0_0.init(arg_4_0)
 	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf)
 
-	arg_4_0.bg = arg_4_0:findTF("frame/bg")
-	arg_4_0.bluePrintBtn = arg_4_0:findTF("blueprint_btn", arg_4_0.bg)
+	arg_4_0.bg = arg_4_0._tf:Find("frame/bg")
+	arg_4_0.bluePrintBtn = arg_4_0.bg:Find("blueprint_btn")
 	arg_4_0.bluePrintBtnTip = arg_4_0.bluePrintBtn:Find("tip")
-	arg_4_0.technologyBtn = arg_4_0:findTF("technology_btn", arg_4_0.bg)
+	arg_4_0.technologyBtn = arg_4_0.bg:Find("technology_btn")
 	arg_4_0.technologyBtnTip = arg_4_0.technologyBtn:Find("tip")
-	arg_4_0.fleetBtn = arg_4_0:findTF("fleet_btn", arg_4_0.bg)
+	arg_4_0.fleetBtn = arg_4_0.bg:Find("fleet_btn")
 	arg_4_0.fleetBtnTip = arg_4_0.fleetBtn:Find("tip")
-	arg_4_0.transformBtn = arg_4_0:findTF("transform_btn", arg_4_0.bg)
+	arg_4_0.transformBtn = arg_4_0.bg:Find("transform_btn")
 	arg_4_0.transformBtnTip = arg_4_0.transformBtn:Find("tip")
 
 	setActive(arg_4_0.transformBtn, not LOCK_EQUIPMENT_TRANSFORM)
 
-	arg_4_0.metaBtn = arg_4_0:findTF("meta_btn", arg_4_0.bg)
+	arg_4_0.metaBtn = arg_4_0.bg:Find("meta_btn")
 	arg_4_0.metaBtnTip = arg_4_0.metaBtn:Find("tip")
 
 	setActive(arg_4_0.metaBtn, true)
 
-	arg_4_0.helpBtn = arg_4_0:findTF("help_btn")
-	arg_4_0.lockedTpl = arg_4_0:findTF("lockedTpl")
-	arg_4_0.backBtn = arg_4_0:findTF("blur_panel/adapt/top/back")
+	arg_4_0.helpBtn = arg_4_0._tf:Find("help_btn")
+	arg_4_0.lockedTpl = arg_4_0._tf:Find("lockedTpl")
+	arg_4_0.backBtn = arg_4_0._tf:Find("blur_panel/adapt/top/back")
 
 	if not OPEN_TEC_TREE_SYSTEM then
 		setActive(arg_4_0.fleetBtn, false)
@@ -59,7 +59,7 @@ function var_0_0.didEnter(arg_5_0)
 		arg_5_0:emit(SelectTechnologyMediator.ON_TRANSFORM_EQUIPMENT)
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0.metaBtn, function()
-		if isActive(arg_5_0:findTF("word", arg_5_0.metaBtn)) then
+		if isActive(arg_5_0.metaBtn:Find("word")) then
 			arg_5_0:emit(SelectTechnologyMediator.ON_META)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(i18n("meta_sys_lock_tip"))
@@ -84,12 +84,12 @@ function var_0_0.checkSystemOpen(arg_13_0, arg_13_1, arg_13_2)
 	if arg_13_1 == "MetaCharacterMediator" then
 		local var_13_0 = true
 
-		setActive(arg_13_0:findTF("word", arg_13_2), var_13_0)
+		setActive(arg_13_2:Find("word"), var_13_0)
 		setGray(arg_13_2, not var_13_0)
 
 		arg_13_2:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, var_13_0 and 1 or 0.7)
 
-		local var_13_1 = arg_13_0:findTF("locked", arg_13_2)
+		local var_13_1 = arg_13_2:Find("locked")
 
 		if var_13_1 then
 			setActive(var_13_1, false)
@@ -109,12 +109,12 @@ function var_0_0.checkSystemOpen(arg_13_0, arg_13_1, arg_13_2)
 
 	local var_13_2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(arg_13_0.playerVO.level, arg_13_1)
 
-	setActive(arg_13_0:findTF("word", arg_13_2), var_13_2)
+	setActive(arg_13_2:Find("word"), var_13_2)
 	setGray(arg_13_2, not var_13_2)
 
 	arg_13_2:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, var_13_2 and 1 or 0.7)
 
-	local var_13_3 = arg_13_0:findTF("locked", arg_13_2)
+	local var_13_3 = arg_13_2:Find("locked")
 
 	if var_13_3 then
 		setActive(var_13_3, false)

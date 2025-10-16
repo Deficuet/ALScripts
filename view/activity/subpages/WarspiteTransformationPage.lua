@@ -1,13 +1,13 @@
 local var_0_0 = class("WarspiteTransformationPage", import("view.base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD", arg_1_0._tf)
-	arg_1_0.btn = arg_1_0:findTF("battle_btn", arg_1_0.bg)
-	arg_1_0.tip = arg_1_0:findTF("help", arg_1_0.bg)
-	arg_1_0.mainAward = arg_1_0:findTF("award", arg_1_0.bg)
-	arg_1_0.subAwards = CustomIndexLayer.Clone2Full(arg_1_0:findTF("list", arg_1_0.bg), 7)
-	arg_1_0.step = arg_1_0:findTF("receivetimes", arg_1_0.bg)
-	arg_1_0.score = arg_1_0:findTF("highscore", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.btn = arg_1_0.bg:Find("battle_btn")
+	arg_1_0.tip = arg_1_0.bg:Find("help")
+	arg_1_0.mainAward = arg_1_0.bg:Find("award")
+	arg_1_0.subAwards = CustomIndexLayer.Clone2Full(arg_1_0.bg:Find("list"), 7)
+	arg_1_0.step = arg_1_0.bg:Find("receivetimes")
+	arg_1_0.score = arg_1_0.bg:Find("highscore")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)

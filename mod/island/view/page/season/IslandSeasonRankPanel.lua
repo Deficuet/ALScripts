@@ -40,7 +40,7 @@ function var_0_0.OnInit(arg_3_0)
 		arg_3_0:OnUpdateItem(arg_5_0, arg_5_1)
 	end
 
-	arg_3_0.playerCard = IslandRankCard.New(arg_3_0.playerRankTF, IslandRankCard.TYPE_SELF)
+	arg_3_0.playerCard = IslandRankCard.New(arg_3_0.playerRankTF, IslandRankCard.TYPE_SELF, arg_3_0)
 	arg_3_0.newestId = IslandSeasonAgency.GetCurrentSeason()
 
 	if arg_3_0.newestId > 1 then
@@ -57,7 +57,7 @@ function var_0_0.OnInit(arg_3_0)
 end
 
 function var_0_0.OnInitItem(arg_7_0, arg_7_1)
-	local var_7_0 = IslandRankCard.New(arg_7_1, IslandRankCard.TYPE_OTHER)
+	local var_7_0 = IslandRankCard.New(arg_7_1, IslandRankCard.TYPE_OTHER, arg_7_0)
 
 	arg_7_0.cards[arg_7_1] = var_7_0
 end

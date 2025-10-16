@@ -5,10 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.scrollrect = arg_2_0:findTF("page/frame/scrollrect"):GetComponent("LScrollRect")
-	arg_2_0.okBtn = arg_2_0:findTF("page/frame/ok_button")
-	arg_2_0.uiList = UIItemList.New(arg_2_0:findTF("page/frame/list/content"), arg_2_0:findTF("page/frame/comanderTF"))
-	arg_2_0.closeBtn = arg_2_0:findTF("page/close_btn")
+	arg_2_0.scrollrect = arg_2_0._tf:Find("page/frame/scrollrect"):GetComponent("LScrollRect")
+	arg_2_0.okBtn = arg_2_0._tf:Find("page/frame/ok_button")
+	arg_2_0.uiList = UIItemList.New(arg_2_0._tf:Find("page/frame/list/content"), arg_2_0._tf:Find("page/frame/comanderTF"))
+	arg_2_0.closeBtn = arg_2_0._tf:Find("page/close_btn")
 end
 
 function var_0_0.OnInit(arg_3_0)

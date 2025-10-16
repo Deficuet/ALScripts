@@ -249,7 +249,7 @@ function var_0_0.GetTipInfos(arg_20_0)
 			for iter_20_2, iter_20_3 in pairs(var_20_3:GetDelegationSlotDatas()) do
 				if iter_20_3:GetSlotRewardData() then
 					var_20_0 = var_20_0 + 1
-				elseif iter_20_3:CanStartDelegation() then
+				elseif iter_20_3:CanStartDelegationTip() then
 					var_20_1 = var_20_1 + 1
 				elseif iter_20_3:GetSlotRoleData() then
 					table.insert(var_20_2, iter_20_3:GetSlotRoleData():GetFinishTime())

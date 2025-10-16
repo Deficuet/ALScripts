@@ -66,7 +66,7 @@ return {
 				uiset = {}
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/2",
+				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/adapt/window/options/content/2",
 				pathIndex = -1,
 				fingerPos = {
 					posY = -44.62,

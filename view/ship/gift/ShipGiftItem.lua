@@ -4,8 +4,8 @@ var_0_0.SELECT_ITEM = "ShipGiftItem::selectItem"
 var_0_0.REFRESH_USE_ITEM_CNT = "ShipGiftItem::refreshUseItemCnt"
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
-	arg_1_0._go = arg_1_1.gameObject
-	arg_1_0._tf = arg_1_1
+	arg_1_0._go = arg_1_1
+	arg_1_0._tf = tf(arg_1_1)
 	arg_1_0._parentClass = arg_1_2
 
 	arg_1_0:attach(arg_1_2)
@@ -13,18 +13,18 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 end
 
 function var_0_0.Init(arg_2_0)
-	arg_2_0.item = arg_2_0:findTF("IconTpl")
-	arg_2_0.nameText = arg_2_0:findTF("name")
-	arg_2_0.valueText = arg_2_0:findTF("numberTitle/value")
-	arg_2_0.useCntText = arg_2_0:findTF("count/value")
-	arg_2_0.selectImg = arg_2_0:findTF("select")
-	arg_2_0.countPanel = arg_2_0:findTF("count")
-	arg_2_0.maxBtn = arg_2_0:findTF("count/maxBtn")
-	arg_2_0.addBtn = arg_2_0:findTF("count/addBtn")
-	arg_2_0.subtractBtn = arg_2_0:findTF("count/subtractBtn")
-	arg_2_0.favoriteTF = arg_2_0:findTF("favorite", arg_2_0.item)
+	arg_2_0.item = arg_2_0._tf:Find("IconTpl")
+	arg_2_0.nameText = arg_2_0._tf:Find("name")
+	arg_2_0.valueText = arg_2_0._tf:Find("numberTitle/value")
+	arg_2_0.useCntText = arg_2_0._tf:Find("count/value")
+	arg_2_0.selectImg = arg_2_0._tf:Find("select")
+	arg_2_0.countPanel = arg_2_0._tf:Find("count")
+	arg_2_0.maxBtn = arg_2_0._tf:Find("count/maxBtn")
+	arg_2_0.addBtn = arg_2_0._tf:Find("count/addBtn")
+	arg_2_0.subtractBtn = arg_2_0._tf:Find("count/subtractBtn")
+	arg_2_0.favoriteTF = arg_2_0.item:Find("favorite")
 
-	setText(arg_2_0:findTF("numberTitle"), i18n("ship_gift_cnt"))
+	setText(arg_2_0._tf:Find("numberTitle"), i18n("ship_gift_cnt"))
 	pressPersistTrigger(arg_2_0.addBtn, 0.5, function(arg_3_0)
 		if arg_2_0.selectCnt >= arg_2_0.maxCnt then
 			return

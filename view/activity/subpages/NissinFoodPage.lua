@@ -1,10 +1,10 @@
 local var_0_0 = class("NissinFoodPage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.helpBtn = arg_1_0:findTF("help_btn", arg_1_0.bg)
-	arg_1_0.startBtn = arg_1_0:findTF("start_btn", arg_1_0.bg)
-	arg_1_0.cupList = arg_1_0:findTF("cup_list", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.helpBtn = arg_1_0.bg:Find("help_btn")
+	arg_1_0.startBtn = arg_1_0.bg:Find("start_btn")
+	arg_1_0.cupList = arg_1_0.bg:Find("cup_list")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -28,10 +28,10 @@ function var_0_0.OnUpdateFlush(arg_5_0)
 	eachChild(arg_5_0.cupList, function(arg_6_0)
 		local var_6_0 = tonumber(arg_6_0.name)
 
-		setActive(arg_5_0:findTF("lock", arg_6_0), var_6_0 > var_5_0.count + var_5_0.usedtime)
-		setActive(arg_5_0:findTF("got", arg_6_0), var_6_0 <= var_5_0.usedtime)
+		setActive(arg_6_0:Find("lock"), var_6_0 > var_5_0.count + var_5_0.usedtime)
+		setActive(arg_6_0:Find("got"), var_6_0 <= var_5_0.usedtime)
 
-		local var_6_1 = arg_5_0:findTF("mask/award", arg_6_0)
+		local var_6_1 = arg_6_0:Find("mask/award")
 		local var_6_2 = arg_5_0.drop_list[var_6_0]
 		local var_6_3 = {
 			type = var_6_2[1],

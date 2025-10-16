@@ -19,7 +19,7 @@ function var_0_0.OnFirstFlush(arg_1_0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
 		end
 	end, SFX_PANEL)
-	onButton(arg_1_0, arg_1_0:findTF("build_btn", arg_1_0.bg), function()
+	onButton(arg_1_0, arg_1_0.bg:Find("build_btn"), function()
 		local var_3_0
 		local var_3_1
 		local var_3_2 = arg_1_0.activity:getConfig("config_client").linkActID

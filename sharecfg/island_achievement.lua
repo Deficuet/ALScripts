@@ -87,8 +87,8 @@ pg.island_achievement = {
 		target_num = 60,
 		award = {
 			{
-				41,
-				200015,
+				44,
+				60802,
 				1
 			}
 		},
@@ -237,8 +237,8 @@ pg.island_achievement = {
 		target_num = 120,
 		award = {
 			{
-				41,
-				200008,
+				44,
+				90111,
 				1
 			}
 		},
@@ -3151,7 +3151,7 @@ pg.island_achievement = {
 		}
 	},
 	[2051] = {
-		target_type = 31,
+		target_type = 38,
 		name = "星彩人生",
 		stage = 1,
 		target_value1 = 0,
@@ -3176,7 +3176,7 @@ pg.island_achievement = {
 		}
 	},
 	[2052] = {
-		target_type = 31,
+		target_type = 38,
 		name = "星彩人生",
 		stage = 2,
 		target_value1 = 0,
@@ -3201,7 +3201,7 @@ pg.island_achievement = {
 		}
 	},
 	[2053] = {
-		target_type = 31,
+		target_type = 38,
 		name = "星彩人生",
 		stage = 3,
 		target_value1 = 0,
@@ -3226,7 +3226,7 @@ pg.island_achievement = {
 		}
 	},
 	[2054] = {
-		target_type = 31,
+		target_type = 38,
 		name = "星彩人生",
 		stage = 4,
 		target_value1 = 0,
@@ -3251,7 +3251,7 @@ pg.island_achievement = {
 		}
 	},
 	[2055] = {
-		target_type = 31,
+		target_type = 38,
 		name = "星彩人生",
 		stage = 5,
 		target_value1 = 0,
@@ -3276,7 +3276,7 @@ pg.island_achievement = {
 		}
 	},
 	[2056] = {
-		target_type = 31,
+		target_type = 38,
 		name = "星彩人生",
 		stage = 6,
 		target_value1 = 0,

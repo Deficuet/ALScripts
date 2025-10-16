@@ -20,7 +20,7 @@ function var_0_0.OpenPage(arg_2_0, arg_2_1, arg_2_2, ...)
 	if arg_2_0:IsSceneType(arg_2_1) then
 		local var_2_1 = arg_2_0:CreateScenePage(arg_2_2)
 
-		arg_2_0:CheckOverflowAndDestory()
+		arg_2_0:CheckOverflowAndDestory(var_2_1)
 		arg_2_0:ClosePrevScenePage(function()
 			arg_2_0:Record(IslandSceneContext.New(arg_2_2, unpackEx(var_2_0)), true)
 			arg_2_0:StartPage(var_2_1, var_2_0)
@@ -128,9 +128,9 @@ function var_0_0.ClosePrevScenePage(arg_19_0, arg_19_1)
 	end
 end
 
-function var_0_0.CheckOverflowAndDestory(arg_20_0)
+function var_0_0.CheckOverflowAndDestory(arg_20_0, arg_20_1)
 	if #arg_20_0.pages > arg_20_0.capacity then
-		local var_20_0 = arg_20_0.pages[1]
+		local var_20_0 = arg_20_0:GetLongestNoUsePage(arg_20_1)
 		local var_20_1 = arg_20_0:GetContext(var_20_0.class)
 
 		if var_20_1 then
@@ -149,97 +149,118 @@ function var_0_0.CheckOverflowAndDestory(arg_20_0)
 	end
 end
 
-function var_0_0.ClosePage(arg_21_0, arg_21_1)
-	if not (arg_21_0:CheckAndCloseSubPage(arg_21_1) or arg_21_0:CheckAndCloseNoStatePage(arg_21_1)) then
-		arg_21_0:CheckAndCloseScenePage(arg_21_1)
+function var_0_0.GetLongestNoUsePage(arg_21_0, arg_21_1)
+	local function var_21_0(arg_22_0)
+		return arg_21_0:GetContext(arg_22_0.class) ~= nil
 	end
 
-	arg_21_0:Debug()
+	local var_21_1 = 0
+
+	for iter_21_0, iter_21_1 in ipairs(arg_21_0.pages) do
+		if arg_21_1 ~= iter_21_1 and not var_21_0(iter_21_1) then
+			var_21_1 = iter_21_0
+
+			break
+		end
+	end
+
+	local var_21_2 = math.max(var_21_1, 1)
+
+	return arg_21_0.pages[var_21_2]
 end
 
-function var_0_0.CheckAndCloseScenePage(arg_22_0, arg_22_1)
-	local var_22_0 = arg_22_0:GetContext(arg_22_1)
+function var_0_0.ClosePage(arg_23_0, arg_23_1)
+	if not (arg_23_0:CheckAndCloseSubPage(arg_23_1) or arg_23_0:CheckAndCloseNoStatePage(arg_23_1)) then
+		arg_23_0:CheckAndCloseScenePage(arg_23_1)
+	end
 
-	if var_22_0 then
-		local var_22_1 = arg_22_0:GetPage(var_22_0.class)
+	arg_23_0:Debug()
+end
 
-		if var_22_1 and var_22_1:GetLoaded() and var_22_1:isShowing() then
-			local var_22_2 = var_22_0:GetOpenPrevWhenClose()
+function var_0_0.CheckAndCloseScenePage(arg_24_0, arg_24_1)
+	local var_24_0 = arg_24_0:GetContext(arg_24_1)
 
-			if var_22_0:GetDelRecordWhenClose() then
-				arg_22_0:DelRecord(var_22_0)
+	if var_24_0 then
+		local var_24_1 = arg_24_0:GetPage(var_24_0.class)
+
+		if var_24_1 and var_24_1:GetLoaded() and var_24_1:isShowing() then
+			local var_24_2 = var_24_0:GetOpenPrevWhenClose()
+
+			if var_24_0:GetDelRecordWhenClose() then
+				arg_24_0:DelRecord(var_24_0)
 			end
 
-			var_22_1:Disable()
+			var_24_1:Disable()
 
-			for iter_22_0, iter_22_1 in ipairs(var_22_0:GetSubPages()) do
-				local var_22_3 = arg_22_0:GetSubPage(iter_22_1.class)
+			for iter_24_0, iter_24_1 in ipairs(var_24_0:GetSubPages()) do
+				local var_24_3 = arg_24_0:GetSubPage(iter_24_1.class)
 
-				if var_22_3:GetLoaded() then
-					var_22_3:Destroy()
-					table.removebyvalue(arg_22_0.subPages, var_22_3)
+				if var_24_3:GetLoaded() then
+					var_24_3:Destroy()
+					table.removebyvalue(arg_24_0.subPages, var_24_3)
 				end
 			end
 
-			if var_22_2 then
-				arg_22_0:OpenPrevScenePage()
+			if var_24_2 then
+				arg_24_0:OpenPrevScenePage()
 			end
 		end
 
-		return var_22_1 ~= nil
+		return var_24_1 ~= nil
 	end
 
 	return false
 end
 
-function var_0_0.OpenPrevScenePage(arg_23_0)
-	if arg_23_0:IsDestroyed() then
+function var_0_0.OpenPrevScenePage(arg_25_0)
+	if arg_25_0:IsDestroyed() then
 		return
 	end
 
-	local var_23_0 = arg_23_0.stack[#arg_23_0.stack]
+	local var_25_0 = arg_25_0.stack[#arg_25_0.stack]
 
-	if var_23_0 then
-		local var_23_1 = arg_23_0:GetPage(var_23_0.class)
+	if var_25_0 then
+		local var_25_1 = arg_25_0:GetPage(var_25_0.class)
 
-		if var_23_1 and var_23_1:GetLoaded() and var_23_1:isShowing() then
-			var_23_1:Enable()
+		if var_25_1 and var_25_1:GetLoaded() and var_25_1:isShowing() then
+			arg_25_0:Record(var_25_0)
+			var_25_1:Enable()
 
-			for iter_23_0, iter_23_1 in ipairs(var_23_0:GetSubPages()) do
-				if iter_23_1.__visible then
-					local var_23_2 = arg_23_0:GetSubPage(iter_23_1.class)
+			for iter_25_0, iter_25_1 in ipairs(var_25_0:GetSubPages()) do
+				if iter_25_1.__visible then
+					local var_25_2 = arg_25_0:GetSubPage(iter_25_1.class)
 
-					if var_23_2:GetLoaded() then
-						var_23_2:Disable()
+					if var_25_2:GetLoaded() then
+						var_25_2:Disable()
 					end
 				end
 			end
 		else
-			arg_23_0:DelRecord(var_23_0)
+			arg_25_0:DelRecord(var_25_0)
 
-			local var_23_3 = arg_23_0:OpenPage(arg_23_0.scene, var_23_0.class, unpackEx(var_23_0:GetData()))
+			local var_25_3 = arg_25_0:OpenPage(arg_25_0.scene, var_25_0.class, unpackEx(var_25_0:GetData()))
 
-			for iter_23_2, iter_23_3 in ipairs(var_23_0:GetSubPages()) do
-				if iter_23_3.__visible then
-					arg_23_0:OpenPage(var_23_3, iter_23_3.class, unpackEx(iter_23_3:GetData()))
+			for iter_25_2, iter_25_3 in ipairs(var_25_0:GetSubPages()) do
+				if iter_25_3.__visible then
+					arg_25_0:OpenPage(var_25_3, iter_25_3.class, unpackEx(iter_25_3:GetData()))
 				end
 			end
 		end
 	end
 end
 
-function var_0_0.CheckAndCloseSubPage(arg_24_0, arg_24_1)
-	local var_24_0 = arg_24_0:GetContext(arg_24_1)
+function var_0_0.CheckAndCloseSubPage(arg_26_0, arg_26_1)
+	local var_26_0 = arg_26_0:GetContext(arg_26_1)
 
-	if var_24_0 then
-		for iter_24_0, iter_24_1 in ipairs(var_24_0:GetSubPages()) do
-			if iter_24_1.class.__cname == arg_24_1.__cname then
-				local var_24_1 = arg_24_0:GetSubPage(iter_24_1.class)
+	if var_26_0 then
+		for iter_26_0, iter_26_1 in ipairs(var_26_0:GetSubPages()) do
+			if iter_26_1.class.__cname == arg_26_1.__cname then
+				local var_26_1 = arg_26_0:GetSubPage(iter_26_1.class)
 
-				if var_24_1:GetLoaded() then
-					iter_24_1.__visible = false
+				if var_26_1:GetLoaded() then
+					iter_26_1.__visible = false
 
-					var_24_1:Disable()
+					var_26_1:Disable()
 				end
 
 				return true
@@ -250,112 +271,117 @@ function var_0_0.CheckAndCloseSubPage(arg_24_0, arg_24_1)
 	return false
 end
 
-function var_0_0.CheckAndCloseNoStatePage(arg_25_0, arg_25_1)
-	local var_25_0 = arg_25_0:GetContext(arg_25_1)
-	local var_25_1 = false
+function var_0_0.CheckAndCloseNoStatePage(arg_27_0, arg_27_1)
+	local var_27_0 = arg_27_0:GetContext(arg_27_1)
+	local var_27_1 = false
 
-	if var_25_0 then
-		local var_25_2 = _.detect(arg_25_0.noStatePages, function(arg_26_0)
-			return arg_26_0.__cname == arg_25_1.__cname
+	if var_27_0 then
+		local var_27_2 = _.detect(arg_27_0.noStatePages, function(arg_28_0)
+			return arg_28_0.__cname == arg_27_1.__cname
 		end)
 
-		if var_25_2 then
-			arg_25_0:DelRecord(var_25_0)
-			arg_25_0:DestroyPage(var_25_2, var_25_0)
-			arg_25_0:OpenPrevScenePage()
+		if var_27_2 then
+			arg_27_0:DelRecord(var_27_0)
+			arg_27_0:DestroyPage(var_27_2, var_27_0)
+			arg_27_0:OpenPrevScenePage()
 
-			var_25_1 = true
+			var_27_1 = true
 		end
 	end
 
-	return var_25_1
+	return var_27_1
 end
 
-function var_0_0.DestroyPage(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
-	arg_27_2 = arg_27_2 or arg_27_0:GetContext(arg_27_1.class)
+function var_0_0.DestroyPage(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
+	arg_29_2 = arg_29_2 or arg_29_0:GetContext(arg_29_1.class)
 
-	if arg_27_2 then
-		arg_27_2:DisabelOpenPrevWhenClose()
+	if arg_29_2 then
+		arg_29_2:DisabelOpenPrevWhenClose()
 
-		for iter_27_0, iter_27_1 in ipairs(arg_27_2:GetSubPages()) do
-			local var_27_0 = arg_27_0:GetSubPage(iter_27_1.class)
+		for iter_29_0, iter_29_1 in ipairs(arg_29_2:GetSubPages()) do
+			local var_29_0 = arg_29_0:GetSubPage(iter_29_1.class)
 
-			if var_27_0:GetLoaded() then
-				var_27_0:Destroy()
-				table.removebyvalue(arg_27_0.subPages, arg_27_1)
+			if var_29_0:GetLoaded() then
+				var_29_0:Destroy()
+				table.removebyvalue(arg_29_0.subPages, arg_29_1)
 			end
 		end
 	end
 
-	if arg_27_1:GetLoaded() then
-		arg_27_1:Destroy(arg_27_3)
+	if arg_29_1:GetLoaded() then
+		arg_29_1:Destroy(arg_29_3)
 
-		if arg_27_1:NeedCache() then
-			table.removebyvalue(arg_27_0.pages, arg_27_1)
+		if arg_29_1:NeedCache() then
+			table.removebyvalue(arg_29_0.pages, arg_29_1)
 		else
-			table.removebyvalue(arg_27_0.noStatePages, arg_27_1)
+			table.removebyvalue(arg_29_0.noStatePages, arg_29_1)
 		end
 	end
 end
 
-function var_0_0.Record(arg_28_0, arg_28_1, arg_28_2)
-	if arg_28_0:IsDestroyed() then
-		return
-	end
-
-	if _.any(arg_28_0.stack, function(arg_29_0)
-		return arg_29_0.class == arg_28_1.class
-	end) then
-		return
-	end
-
-	table.insert(arg_28_0.stack, arg_28_1)
-
-	if #arg_28_0.stack == 1 then
-		arg_28_0:OnAnyPageOpen(arg_28_1.class)
-	end
-end
-
-function var_0_0.DelRecord(arg_30_0, arg_30_1)
+function var_0_0.Record(arg_30_0, arg_30_1, arg_30_2)
 	if arg_30_0:IsDestroyed() then
 		return
 	end
 
-	table.removebyvalue(arg_30_0.stack, arg_30_1)
+	local var_30_0 = _.detect(arg_30_0.stack, function(arg_31_0)
+		return arg_31_0.class == arg_30_1.class
+	end)
 
-	if #arg_30_0.stack == 0 then
-		arg_30_0:OnAllPageClose()
+	if var_30_0 then
+		table.removebyvalue(arg_30_0.stack, var_30_0)
+		table.insert(arg_30_0.stack, arg_30_1)
+
+		return
+	end
+
+	table.insert(arg_30_0.stack, arg_30_1)
+
+	if #arg_30_0.stack == 1 then
+		arg_30_0:OnAnyPageOpen(arg_30_1.class)
 	end
 end
 
-function var_0_0.OnAnyPageOpen(arg_31_0, arg_31_1)
-	arg_31_0.scene:emitCore(ISLAND_EVT.ANY_PAGE_OPENED, arg_31_1)
-	arg_31_0.scene:TryDisVisible()
+function var_0_0.DelRecord(arg_32_0, arg_32_1)
+	if arg_32_0:IsDestroyed() then
+		return
+	end
+
+	table.removebyvalue(arg_32_0.stack, arg_32_1)
+
+	if #arg_32_0.stack == 0 then
+		arg_32_0:OnAllPageClose()
+	end
 end
 
-function var_0_0.OnAllPageClose(arg_32_0)
-	arg_32_0.scene:emitCore(ISLAND_EVT.ALL_PAGE_CLOSED)
-	arg_32_0.scene:TryVisible()
+function var_0_0.OnAnyPageOpen(arg_33_0, arg_33_1)
+	arg_33_0.scene:emitCore(ISLAND_EVT.ANY_PAGE_OPENED, arg_33_1)
+	arg_33_0.scene:TryDisVisible()
 end
 
-function var_0_0.IsSceneType(arg_33_0, arg_33_1)
-	return arg_33_1.__cname == arg_33_0.scene.__cname
+function var_0_0.OnAllPageClose(arg_34_0)
+	arg_34_0.scene:emitCore(ISLAND_EVT.ALL_PAGE_CLOSED)
+	arg_34_0.scene:TryVisible()
 end
 
-function var_0_0.OnBackPressed(arg_34_0)
-	for iter_34_0 = #arg_34_0.noStatePages, 1, -1 do
-		local var_34_0 = arg_34_0.noStatePages[iter_34_0]
+function var_0_0.IsSceneType(arg_35_0, arg_35_1)
+	return arg_35_1.__cname == arg_35_0.scene.__cname
+end
 
-		arg_34_0:ClosePage(var_34_0.class)
+function var_0_0.OnBackPressed(arg_36_0)
+	for iter_36_0 = #arg_36_0.noStatePages, 1, -1 do
+		local var_36_0 = arg_36_0.noStatePages[iter_36_0]
+
+		arg_36_0:ClosePage(var_36_0.class)
 
 		return true
 	end
 
-	for iter_34_1 = #arg_34_0.pages, 1, -1 do
-		local var_34_1 = arg_34_0.pages[iter_34_1]
+	for iter_36_1 = #arg_36_0.pages, 1, -1 do
+		local var_36_1 = arg_36_0.pages[iter_36_1]
 
-		if var_34_1:CanEsc() then
-			arg_34_0:ClosePage(var_34_1.class)
+		if var_36_1:CanEsc() then
+			arg_36_0:ClosePage(var_36_1.class)
 		end
 
 		return true
@@ -364,52 +390,52 @@ function var_0_0.OnBackPressed(arg_34_0)
 	return false
 end
 
-function var_0_0.IsDestroyed(arg_35_0)
-	return arg_35_0.state == var_0_3
+function var_0_0.IsDestroyed(arg_37_0)
+	return arg_37_0.state == var_0_3
 end
 
-function var_0_0.Dispose(arg_36_0)
-	arg_36_0.state = var_0_3
+function var_0_0.Dispose(arg_38_0)
+	arg_38_0.state = var_0_3
 
-	for iter_36_0 = #arg_36_0.pages, 1, -1 do
-		local var_36_0 = arg_36_0.pages[iter_36_0]
+	for iter_38_0 = #arg_38_0.pages, 1, -1 do
+		local var_38_0 = arg_38_0.pages[iter_38_0]
 
-		var_36_0:ActiveOrDisactive(false)
-		arg_36_0:DestroyPage(var_36_0)
+		var_38_0:ActiveOrDisactive(false)
+		arg_38_0:DestroyPage(var_38_0)
 	end
 
-	for iter_36_1 = #arg_36_0.noStatePages, 1, -1 do
-		local var_36_1 = arg_36_0.noStatePages[iter_36_1]
+	for iter_38_1 = #arg_38_0.noStatePages, 1, -1 do
+		local var_38_1 = arg_38_0.noStatePages[iter_38_1]
 
-		var_36_1:ActiveOrDisactive(false)
-		arg_36_0:DestroyPage(var_36_1)
+		var_38_1:ActiveOrDisactive(false)
+		arg_38_0:DestroyPage(var_38_1)
 	end
 
-	arg_36_0.stack = nil
-	arg_36_0.noStatePages = nil
-	arg_36_0.pages = nil
-	arg_36_0.subPages = nil
+	arg_38_0.stack = nil
+	arg_38_0.noStatePages = nil
+	arg_38_0.pages = nil
+	arg_38_0.subPages = nil
 end
 
-function var_0_0.Debug(arg_37_0)
+function var_0_0.Debug(arg_39_0)
 	if not var_0_1 then
 		return
 	end
 
-	local function var_37_0(arg_38_0)
-		local var_38_0 = _.map(arg_38_0:GetSubPages(), function(arg_39_0)
-			return arg_39_0.class.__cname
+	local function var_39_0(arg_40_0)
+		local var_40_0 = _.map(arg_40_0:GetSubPages(), function(arg_41_0)
+			return arg_41_0.class.__cname
 		end)
 
-		return table.concat(var_38_0, ",")
+		return table.concat(var_40_0, ",")
 	end
 
-	local var_37_1 = _.map(arg_37_0.stack, function(arg_40_0)
-		return arg_40_0.class.__cname .. ":[" .. var_37_0(arg_40_0) .. "]"
+	local var_39_1 = _.map(arg_39_0.stack, function(arg_42_0)
+		return arg_42_0.class.__cname .. ":[" .. var_39_0(arg_42_0) .. "]"
 	end)
-	local var_37_2 = table.concat(var_37_1, "\n")
+	local var_39_2 = table.concat(var_39_1, "\n")
 
-	print("\n" .. var_37_2)
+	print("\n" .. var_39_2)
 end
 
 return var_0_0

@@ -1,8 +1,9 @@
 local var_0_0 = class("IslandAchievementCard")
 
-function var_0_0.Ctor(arg_1_0, arg_1_1)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0._go = arg_1_1
 	arg_1_0._tf = arg_1_1.transform
+	arg_1_0.parent = arg_1_2
 	arg_1_0.nameTF = arg_1_0._tf:Find("name")
 	arg_1_0.descTF = arg_1_0._tf:Find("desc")
 	arg_1_0.goTF = arg_1_0._tf:Find("status/go")
@@ -56,64 +57,71 @@ function var_0_0.UpdateAwardItem(arg_5_0, arg_5_1, arg_5_2)
 
 	GetImageSpriteFromAtlasAsync(var_5_0:getIcon(), "", arg_5_2:Find("icon"))
 	setText(arg_5_2:Find("count"), var_5_0.count)
+	onButton(arg_5_0.parent, arg_5_2, function()
+		arg_5_0.parent:ShowMsgBox({
+			title = i18n("island_word_desc"),
+			type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+			dropData = var_5_0
+		})
+	end)
 end
 
-function var_0_0.UpdataData(arg_6_0)
-	setText(arg_6_0.nameTF, arg_6_0.achv:getConfig("name"))
+function var_0_0.UpdataData(arg_7_0)
+	setText(arg_7_0.nameTF, arg_7_0.achv:getConfig("name"))
 
-	local var_6_0 = arg_6_0.achvAgency:GetCurProgress(arg_6_0.achv)
-	local var_6_1 = arg_6_0.achv:GetNum()
-	local var_6_2 = string.gsub(arg_6_0.achv:getConfig("desc"), "$1", var_6_0)
-	local var_6_3 = string.gsub(var_6_2, "$2", var_6_1)
+	local var_7_0 = arg_7_0.achvAgency:GetCurProgress(arg_7_0.achv)
+	local var_7_1 = arg_7_0.achv:GetNum()
+	local var_7_2 = string.gsub(arg_7_0.achv:getConfig("desc"), "$1", var_7_0)
+	local var_7_3 = string.gsub(var_7_2, "$2", var_7_1)
 
-	setText(arg_6_0.descTF, var_6_3)
+	setText(arg_7_0.descTF, var_7_3)
 
-	local var_6_4 = arg_6_0.achv:GetStatus()
+	local var_7_4 = arg_7_0.achv:GetStatus()
 
-	setActive(arg_6_0.gotTF, var_6_4 == IslandAchievement.STATUS.GOT)
-	setActive(arg_6_0.getBtn, var_6_4 == IslandAchievement.STATUS.GET)
+	setActive(arg_7_0.gotTF, var_7_4 == IslandAchievement.STATUS.GOT)
+	setActive(arg_7_0.getBtn, var_7_4 == IslandAchievement.STATUS.GET)
 
-	local var_6_5 = var_6_4 == IslandAchievement.STATUS.NORMAL
+	local var_7_5 = var_7_4 == IslandAchievement.STATUS.NORMAL
 
-	setActive(arg_6_0.goTF, var_6_5)
+	setActive(arg_7_0.goTF, var_7_5)
 
-	if var_6_5 then
-		setText(arg_6_0.goTF:Find("Text"), var_6_0 .. "/" .. var_6_1)
+	if var_7_5 then
+		setText(arg_7_0.goTF:Find("Text"), var_7_0 .. "/" .. var_7_1)
 	end
 
-	arg_6_0.awards = arg_6_0.achv:GetAwards()
+	arg_7_0.awards = arg_7_0.achv:GetAwards()
 
-	arg_6_0.awardUIList:align(#arg_6_0.awards)
+	arg_7_0.awardUIList:align(#arg_7_0.awards)
 end
 
-function var_0_0.Update(arg_7_0, arg_7_1)
-	arg_7_0.achv = arg_7_1
-	arg_7_0.achvAgency = getProxy(IslandProxy):GetIsland():GetAchievementAgency()
+function var_0_0.Update(arg_8_0, arg_8_1)
+	arg_8_0.achv = arg_8_1
+	arg_8_0.achvAgency = getProxy(IslandProxy):GetIsland():GetAchievementAgency()
 
-	arg_7_0:UpdataData()
+	arg_8_0:UpdataData()
 
-	local var_7_0 = arg_7_0.achv:getConfig("group")
-	local var_7_1 = arg_7_0.achvAgency:GetGroup(var_7_0)
+	local var_8_0 = arg_8_0.achv:getConfig("group")
+	local var_8_1 = arg_8_0.achvAgency:GetGroup(var_8_0)
 
-	arg_7_0.stageAchvs = underscore.select(var_7_1:GetSortAchvList(), function(arg_8_0)
-		return not arg_8_0:IsHideType() or arg_8_0:GetStatus() == IslandAchievement.STATUS.GET
+	arg_8_0.stageAchvs = underscore.select(var_8_1:GetSortAchvList(), function(arg_9_0)
+		return not arg_9_0:IsHideType() or arg_9_0:GetStatus() == IslandAchievement.STATUS.GET
 	end)
 
-	arg_7_0.stageUIList:align(#arg_7_0.stageAchvs)
+	arg_8_0.stageUIList:align(#arg_8_0.stageAchvs)
 end
 
-function var_0_0.PlayStageAnim(arg_9_0, arg_9_1, arg_9_2)
-	local var_9_0 = arg_9_0.stageUIList.container:Find(tostring(arg_9_1))
-	local var_9_1 = var_9_0:GetComponent(typeof(DftAniEvent))
+function var_0_0.PlayStageAnim(arg_10_0, arg_10_1, arg_10_2)
+	local var_10_0 = arg_10_0.stageUIList.container:Find(tostring(arg_10_1))
+	local var_10_1 = var_10_0:GetComponent(typeof(DftAniEvent))
 
-	var_9_1:SetEndEvent(function()
-		existCall(arg_9_2)
-		var_9_1:SetEndEvent(nil)
+	var_10_1:SetEndEvent(function()
+		existCall(arg_10_2)
+		var_10_1:SetEndEvent(nil)
 	end)
-	var_9_0:GetComponent(typeof(Animation)):Play()
+	var_10_0:GetComponent(typeof(Animation)):Play()
 end
 
-function var_0_0.Dispose(arg_11_0)
+function var_0_0.Dispose(arg_12_0)
 	return
 end
 

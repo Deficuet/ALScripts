@@ -46,43 +46,39 @@ function var_0_0.ShowOrHide(arg_5_0, arg_5_1)
 	end
 end
 
-function var_0_0.OnInit(arg_6_0)
+function var_0_0.SwitchOut(arg_6_0, arg_6_1)
+	arg_6_1()
+end
+
+function var_0_0.OnInit(arg_7_0)
 	return
 end
 
-function var_0_0.OnDataSetting(arg_7_0)
+function var_0_0.OnDataSetting(arg_8_0)
 	return
 end
 
-function var_0_0.OnFirstFlush(arg_8_0)
+function var_0_0.OnFirstFlush(arg_9_0)
 	return
 end
 
-function var_0_0.OnUpdateFlush(arg_9_0)
+function var_0_0.OnUpdateFlush(arg_10_0)
 	return
 end
 
-function var_0_0.OnHideFlush(arg_10_0)
+function var_0_0.OnHideFlush(arg_11_0)
 	return
 end
 
-function var_0_0.OnShowFlush(arg_11_0)
+function var_0_0.OnShowFlush(arg_12_0)
 	return
 end
 
-function var_0_0.OnDestroy(arg_12_0)
+function var_0_0.OnDestroy(arg_13_0)
 	return
 end
 
-function var_0_0.OnLoadLayers(arg_13_0)
-	return
-end
-
-function var_0_0.OnRemoveLayers(arg_14_0)
-	return
-end
-
-function var_0_0.UseSecondPage(arg_15_0, arg_15_1)
+function var_0_0.UseSecondPage(arg_14_0, arg_14_1)
 	return false
 end
 

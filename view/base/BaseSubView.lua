@@ -91,6 +91,7 @@ function var_0_0.Loaded(arg_7_0, arg_7_1)
 		SetParent(arg_7_0._tf, arg_7_0._parentTf, false)
 	end
 
+	bindComponent(arg_7_0, arg_7_0._go)
 	arg_7_0:OnLoaded()
 end
 
@@ -101,7 +102,6 @@ function var_0_0.Init(arg_8_0)
 
 	arg_8_0._state = var_0_0.STATES.INITED
 
-	bindComponent(arg_8_0, arg_8_0._go)
 	arg_8_0:OnInit()
 	arg_8_0:HandleFuncQueue()
 end

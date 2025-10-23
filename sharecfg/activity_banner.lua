@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					16
+					23
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					22
+					26
 				},
 				{
 					23,
@@ -51,7 +51,7 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					16
+					23
 				},
 				{
 					0,
@@ -62,8 +62,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					10,
-					23
+					11,
+					6
 				},
 				{
 					12,
@@ -74,16 +74,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "50166",
 		id = 3,
 		pic = "temp3",
-		type = 3,
+		type = 2,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SailingShip3CoreActivityUI"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					10,
-					16
+					23
 				},
 				{
 					0,
@@ -94,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					10,
-					23
+					11,
+					6
 				},
 				{
 					12,
@@ -108,42 +113,14 @@ pg.activity_banner = {
 	{
 		id = 4,
 		pic = "temp4",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene charge",
 			{
 				wrap = 4
 			}
-		}
-	},
-	{
-		id = 5,
-		pic = "temp5",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene court yard"
-		}
-	},
-	{
-		param = "50163",
-		id = 6,
-		pic = "temp6",
-		type = 3,
+		},
 		time = {
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2025,
@@ -151,26 +128,41 @@ pg.activity_banner = {
 					23
 				},
 				{
-					12,
+					0,
 					0,
 					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
 	},
 	{
-		id = 7,
-		pic = "temp7",
+		id = 5,
+		pic = "temp5",
 		type = 2,
 		param = {
-			"dorm 3d select"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					10,
-					16
+					23
 				},
 				{
 					0,
@@ -181,8 +173,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					10,
-					22
+					11,
+					5
 				},
 				{
 					23,
@@ -190,6 +182,49 @@ pg.activity_banner = {
 					59
 				}
 			}
+		}
+	},
+	{
+		id = 6,
+		pic = "temp6",
+		type = 2,
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 7,
+		pic = "temp7",
+		time = "stop",
+		type = 2,
+		param = {
+			"dorm 3d select"
 		}
 	},
 	{
@@ -204,14 +239,15 @@ pg.activity_banner = {
 		pic = "temp9",
 		type = 2,
 		param = {
-			"scene level"
+			"scene Cryptolalia",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
 					10,
-					16
+					23
 				},
 				{
 					0,
@@ -223,12 +259,12 @@ pg.activity_banner = {
 				{
 					2025,
 					10,
-					23
+					29
 				},
 				{
-					12,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -332,14 +368,14 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
+			6,
 			7,
 			9
 		},
 		[3] = {
-			3,
-			6,
 			8
 		},
 		[9] = {

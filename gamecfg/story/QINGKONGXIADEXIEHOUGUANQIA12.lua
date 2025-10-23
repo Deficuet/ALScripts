@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			say = "换上舰装后，赫斯缇雅就一改之前的作风，天不怕地不怕地冲到了最前面。",
-			bgm = "danmachi-3",
+			bgm = "danmachi-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

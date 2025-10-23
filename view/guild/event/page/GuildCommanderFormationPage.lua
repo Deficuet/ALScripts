@@ -9,8 +9,8 @@ function var_0_0.OnInit(arg_2_0)
 
 	setActive(arg_2_0.samllTF, true)
 
-	arg_2_0.pos1 = arg_2_0.topPanel:Find("small/commander1")
-	arg_2_0.pos2 = arg_2_0.topPanel:Find("small/commander2")
+	arg_2_0.pos1 = arg_2_0._tf:Find("small/commander1")
+	arg_2_0.pos2 = arg_2_0._tf:Find("small/commander2")
 	arg_2_0.descPanel = arg_2_0._tf:Find("desc")
 
 	setActive(arg_2_0.descPanel, false)

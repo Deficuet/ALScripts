@@ -11,7 +11,7 @@ function var_0_0.GetUIName(arg_2_0)
 end
 
 function var_0_0.SetUIParent(arg_3_0, arg_3_1)
-	setParent(arg_3_1, arg_3_0.parent)
+	return arg_3_0.parent
 end
 
 function var_0_0.FirstFlush(arg_4_0)

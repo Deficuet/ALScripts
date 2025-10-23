@@ -163,7 +163,7 @@ function var_0_0.updateItem(arg_11_0, arg_11_1, arg_11_2)
 	setActive(var_11_1, false)
 	setActive(var_11_2, false)
 
-	local var_11_7 = arg_11_0._tf:Find("CommonItemTemplate(Clone)", arg_11_1)
+	local var_11_7 = findTF(arg_11_1, "CommonItemTemplate(Clone)")
 
 	setActive(var_11_7, true)
 	updateDrop(var_11_7, {

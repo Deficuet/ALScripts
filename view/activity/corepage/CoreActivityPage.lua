@@ -57,59 +57,55 @@ function var_0_0.BindPageLink(arg_7_0)
 	end
 end
 
-function var_0_0.OnInit(arg_8_0)
+function var_0_0.SwitchOut(arg_8_0, arg_8_1)
+	arg_8_1()
+end
+
+function var_0_0.OnInit(arg_9_0)
 	return
 end
 
-function var_0_0.OnDataSetting(arg_9_0)
+function var_0_0.OnDataSetting(arg_10_0)
 	return
 end
 
-function var_0_0.GetPageLink(arg_10_0)
+function var_0_0.GetPageLink(arg_11_0)
 	return {}
 end
 
-function var_0_0.OnFirstFlush(arg_11_0)
+function var_0_0.OnFirstFlush(arg_12_0)
 	return
 end
 
-function var_0_0.OnUpdateFlush(arg_12_0)
+function var_0_0.OnUpdateFlush(arg_13_0)
 	return
 end
 
-function var_0_0.OnHideFlush(arg_13_0)
+function var_0_0.OnHideFlush(arg_14_0)
 	return
 end
 
-function var_0_0.OnShowFlush(arg_14_0)
+function var_0_0.OnShowFlush(arg_15_0)
 	return
 end
 
-function var_0_0.OnDestroy(arg_15_0)
+function var_0_0.OnDestroy(arg_16_0)
 	return
 end
 
-function var_0_0.OnLoadLayers(arg_16_0)
-	return
-end
-
-function var_0_0.OnRemoveLayers(arg_17_0)
-	return
-end
-
-function var_0_0.UseSecondPage(arg_18_0, arg_18_1)
+function var_0_0.UseSecondPage(arg_17_0, arg_17_1)
 	return false
 end
 
-function var_0_0.IsShowingPopWindow(arg_19_0)
+function var_0_0.IsShowingPopWindow(arg_18_0)
 	return false
 end
 
-function var_0_0.ClosePopWindow(arg_20_0)
+function var_0_0.ClosePopWindow(arg_19_0)
 	return
 end
 
-function var_0_0.IsShowReminder(arg_21_0)
+function var_0_0.IsShowReminder(arg_20_0)
 	return nil
 end
 

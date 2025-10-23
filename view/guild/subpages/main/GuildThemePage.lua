@@ -444,6 +444,7 @@ function var_0_0.ShowOrHideChatWindow(arg_39_0, arg_39_1)
 			arg_39_0.chatPanel.localPosition = Vector3(var_40_0.x, var_40_0.y, 0)
 
 			pg.UIMgr.GetInstance():OverlayPanel(arg_39_0.chatPanel, {
+				groupName = "group_GuildMainUI",
 				pbList = {
 					arg_39_0.chatPanel
 				}

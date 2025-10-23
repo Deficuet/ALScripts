@@ -4173,7 +4173,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？",
+		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
 		series_name = "限时采集",
 		id = 50001001,
 		unlock_condition = {
@@ -4243,7 +4243,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？",
+		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
 		series_name = "限时采集",
 		id = 50001002,
 		unlock_condition = {
@@ -4315,7 +4315,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？",
+		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
 		series_name = "限时采集",
 		id = 50001003,
 		unlock_condition = {
@@ -4387,7 +4387,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？",
+		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
 		series_name = "限时采集",
 		id = 50001004,
 		unlock_condition = {
@@ -4459,7 +4459,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？",
+		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
 		series_name = "限时采集",
 		id = 50001005,
 		unlock_condition = {
@@ -4536,7 +4536,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？",
+		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
 		series_name = "限时采集",
 		id = 50001006,
 		unlock_condition = {
@@ -4613,7 +4613,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？",
+		task_desc = "秋天到了，开发区多了不少这个季节特有的采集物……指挥官能帮忙采集一些吗？\n<可采集特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4001}>秋菊</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4002}>芦苇花</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4003}>花生</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4004}>松茸</material></color>",
 		series_name = "限时采集",
 		id = 50001007,
 		unlock_condition = {
@@ -4690,7 +4690,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。",
+		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
 		series_name = "限时配方",
 		id = 50002001,
 		unlock_condition = {
@@ -4760,7 +4760,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。",
+		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
 		series_name = "限时配方",
 		id = 50002002,
 		unlock_condition = {
@@ -4832,7 +4832,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。",
+		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
 		series_name = "限时配方",
 		id = 50002003,
 		unlock_condition = {
@@ -4904,7 +4904,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。",
+		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
 		series_name = "限时配方",
 		id = 50002004,
 		unlock_condition = {
@@ -4976,7 +4976,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。",
+		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
 		series_name = "限时配方",
 		id = 50002005,
 		unlock_condition = {
@@ -5053,7 +5053,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。",
+		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
 		series_name = "限时配方",
 		id = 50002006,
 		unlock_condition = {
@@ -5130,7 +5130,7 @@ pg.base.island_task = {
 		complete_data = 10020025,
 		map_complete_tips = 1002,
 		rec_perform = "",
-		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。",
+		task_desc = "这些秋季特产很有经济价值，为了岛屿的发展，就拜托指挥官了。\n<可制作特产> \n<color=#3E7EFF><material=underline event=dropDesHandle args={41,4005}>秋月梨</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4007}>柿子</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4009}>柿子饼</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4010}>松茸鸡汤</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4011}>秋季花束</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4013}>胡萝卜秋梨汁</material></color>、<color=#3E7EFF><material=underline event=dropDesHandle args={41,4014}>菊花茶</material></color>",
 		series_name = "限时配方",
 		id = 50002007,
 		unlock_condition = {

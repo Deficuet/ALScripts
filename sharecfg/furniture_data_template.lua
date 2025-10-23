@@ -212,6 +212,7 @@ pg.furniture_data_template = setmetatable({
 			316,
 			317,
 			318,
+			319,
 			100001,
 			100002,
 			100003,
@@ -290,6 +291,7 @@ pg.furniture_data_template = setmetatable({
 			100076,
 			100077,
 			100078,
+			100079,
 			200001,
 			200002,
 			200003,
@@ -3770,6 +3772,24 @@ pg.furniture_data_template = setmetatable({
 			329118,
 			329119,
 			329120
+		},
+		[132] = {
+			332001,
+			332002,
+			332101,
+			332102,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112,
+			332113,
+			332301
 		}
 	},
 	get_id_list_by_tag = {
@@ -3989,6 +4009,7 @@ pg.furniture_data_template = setmetatable({
 			100076,
 			100077,
 			100078,
+			100079,
 			31101,
 			54101,
 			54102,
@@ -4064,7 +4085,8 @@ pg.furniture_data_template = setmetatable({
 			311,
 			314,
 			316,
-			318
+			318,
+			319
 		},
 		[7] = {
 			213,
@@ -4273,7 +4295,8 @@ pg.furniture_data_template = setmetatable({
 			325126,
 			328118,
 			330102,
-			329120
+			329120,
+			332113
 		},
 		[4] = {
 			1001,
@@ -4394,7 +4417,8 @@ pg.furniture_data_template = setmetatable({
 			327001,
 			328001,
 			330001,
-			329001
+			329001,
+			332001
 		},
 		[3] = {
 			1002,
@@ -4515,7 +4539,8 @@ pg.furniture_data_template = setmetatable({
 			327002,
 			328002,
 			330002,
-			329002
+			329002,
+			332002
 		},
 		{
 			1101,
@@ -6733,7 +6758,19 @@ pg.furniture_data_template = setmetatable({
 			329116,
 			329117,
 			329118,
-			329119
+			329119,
+			332101,
+			332102,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112
 		},
 		{
 			1108,
@@ -7318,7 +7355,8 @@ pg.furniture_data_template = setmetatable({
 			325302,
 			325303,
 			327301,
-			327302
+			327302,
+			332301
 		}
 	},
 	get_id_list_by_type = {
@@ -7502,6 +7540,7 @@ pg.furniture_data_template = setmetatable({
 			316,
 			317,
 			318,
+			319,
 			100001,
 			100002,
 			100004,
@@ -7559,7 +7598,8 @@ pg.furniture_data_template = setmetatable({
 			100074,
 			100075,
 			100076,
-			100078
+			100078,
+			100079
 		},
 		[2] = {
 			120,
@@ -9775,7 +9815,19 @@ pg.furniture_data_template = setmetatable({
 			329117,
 			329118,
 			329119,
-			329120
+			329120,
+			332101,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112,
+			332113
 		},
 		[11] = {
 			131,
@@ -10229,7 +10281,8 @@ pg.furniture_data_template = setmetatable({
 			325302,
 			325303,
 			327301,
-			327302
+			327302,
+			332301
 		},
 		[15] = {
 			251,
@@ -10366,7 +10419,8 @@ pg.furniture_data_template = setmetatable({
 			327001,
 			328001,
 			330001,
-			329001
+			329001,
+			332001
 		},
 		{
 			1002,
@@ -10487,7 +10541,8 @@ pg.furniture_data_template = setmetatable({
 			327002,
 			328002,
 			330002,
-			329002
+			329002,
+			332002
 		},
 		[5] = {
 			1101,
@@ -10648,7 +10703,8 @@ pg.furniture_data_template = setmetatable({
 			328104,
 			330102,
 			329103,
-			329108
+			329108,
+			332102
 		},
 		[3] = {
 			1108,
@@ -11096,6 +11152,7 @@ pg.furniture_data_template = setmetatable({
 		316,
 		317,
 		318,
+		319,
 		100001,
 		100002,
 		100003,
@@ -11174,6 +11231,7 @@ pg.furniture_data_template = setmetatable({
 		100076,
 		100077,
 		100078,
+		100079,
 		200001,
 		200002,
 		200003,
@@ -14415,7 +14473,23 @@ pg.furniture_data_template = setmetatable({
 		329117,
 		329118,
 		329119,
-		329120
+		329120,
+		332001,
+		332002,
+		332101,
+		332102,
+		332103,
+		332104,
+		332105,
+		332106,
+		332107,
+		332108,
+		332109,
+		332110,
+		332111,
+		332112,
+		332113,
+		332301
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -25130,6 +25204,50 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[319] = {
+		spine_extra = "",
+		describe = "仿照自由群岛大灯塔造型制作的微缩模型，虽经微缩，但依然高大。——「飓风与自由群岛」活动纪念",
+		gain_by = "飓风与自由群岛",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "fengfan3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 8,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		name = "群岛灯塔微缩模型",
+		canputon = 0,
+		id = 319,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"fengfan3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		gain_by = "",
 		name = "本ID禁用，后端固定会删除",
@@ -30651,6 +30769,91 @@ pg.base.furniture_data_template = {
 					}
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100079] = {
+		gain_by = "",
+		name = "啾啾飞驰中",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 0,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "kadingcheyaoyaoleicon",
+		deblocking = 1,
+		level = 1,
+		describe = "一起体验飞一样的感觉吧~冲冲冲！",
+		effect = "",
+		can_rotate = 0,
+		tag = 6,
+		spine_action_replace = "",
+		picture = "",
+		spine_extra = "",
+		canputon = 0,
+		id = 100079,
+		advice = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kadingcheyaoyaoleB",
+				"normal"
+			},
+			{
+				"kadingcheyaoyaoleT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-25.9,
+					193.6
+				},
+				{
+					400,
+					430
+				},
+				"chuanmo/kadingcheyaoyaole_mask"
+			},
+			{
+				25.9,
+				-193.1
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -176912,6 +177115,715 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[332001] = {
+		spine_extra = "",
+		describe = "推开失落的门扉，在微光闪烁间，探寻古老的密语吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "幽光神殿地板",
+		effect = "",
+		advice = 0,
+		tag = 4,
+		spine_action_replace = "",
+		picture = "mf/dibanmf",
+		icon = "dibanmficon",
+		canputon = 0,
+		comfortable = 4,
+		id = 332001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[332002] = {
+		spine_extra = "",
+		describe = "推开失落的门扉，在微光闪烁间，探寻古老的密语吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "幽光神殿壁纸",
+		effect = "",
+		advice = 0,
+		tag = 3,
+		spine_action_replace = "",
+		picture = "mf/qiangbimf",
+		icon = "qiangbimficon",
+		canputon = 0,
+		comfortable = 4,
+		id = 332002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[332101] = {
+		spine_extra = "",
+		describe = "滑腻的触须攀附在池畔，留下湿润的痕迹",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "chitangmficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		name = "神殿圣池",
+		canputon = 0,
+		id = 332101,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chitangmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332102] = {
+		spine_extra = "",
+		describe = "是想从星辰中召唤什么特殊的存在吗？",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "ditanmficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "神殿魔法地毯",
+		canputon = 0,
+		id = 332102,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ditanmf",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332103] = {
+		spine_extra = "",
+		describe = "Carcosa~Carcosa~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "huaxiangmficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "神殿画像",
+		canputon = 0,
+		id = 332103,
+		can_rotate = 0,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huaxiangmf",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332104] = {
+		spine_extra = "",
+		describe = "石阶蜿蜒，通往更深的静谧与未知",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "loutimficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "神殿楼梯",
+		canputon = 0,
+		id = 332104,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"loutimf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332105] = {
+		spine_extra = "",
+		describe = "看来，过盛的好奇心总会迎来休止符",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "mubeimficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		name = "长眠之地",
+		canputon = 0,
+		id = 332105,
+		can_rotate = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mubeimf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332106] = {
+		spine_extra = "",
+		describe = "无效的清洁工作即将开始~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "mutongmficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		name = "清洁水桶",
+		canputon = 0,
+		id = 332106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mutongmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332107] = {
+		spine_extra = "",
+		describe = "曾是远航之梦的载体，如今已与纠缠的低语一同沉没",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "pofengfanmficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "沉没之梦",
+		canputon = 0,
+		id = 332107,
+		can_rotate = 0,
+		size = {
+			3,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pofengfanmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332108] = {
+		spine_extra = "",
+		describe = "石门厚重，沉默地守护这永恒的安宁",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "shiqiangmficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "神殿大门",
+		canputon = 0,
+		id = 332108,
+		can_rotate = 0,
+		size = {
+			3,
+			24
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shiqiangmf",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332109] = {
+		spine_extra = "",
+		describe = "古老的神像静默矗立，感受这难以言喻的威严吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "shixiangmficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		name = "神殿石像",
+		canputon = 0,
+		id = 332109,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shixiangmf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332110] = {
+		spine_extra = "",
+		describe = "被遗忘的石柱，似乎早已被另一种生物占据为家",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "shizhumficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "",
+		name = "神殿石柱",
+		canputon = 0,
+		id = 332110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhumf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332111] = {
+		spine_extra = "",
+		describe = "散落的碎石，表面刻有难以辨明的古老印记",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "suishikuaimficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "神殿碎石",
+		canputon = 0,
+		id = 332111,
+		can_rotate = 0,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"suishikuaimf",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332112] = {
+		spine_extra = "",
+		describe = "烛火轻晃，孤影摇曳",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "zhutaimficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		name = "神殿烛台",
+		canputon = 0,
+		id = 332112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhutaimf",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[332113] = {
+		spine_extra = "",
+		describe = "温馨提示：保持距离！遇到惊喜还是惊吓，全看运气~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "shenmipenmficon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		name = "幽光呼唤",
+		canputon = 0,
+		id = 332113,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenmipenmf",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[332301] = {
+		spine_extra = "",
+		describe = "飞蛾逐火，光明仍是必需品",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 2,
+		count = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 132,
+		icon = "diaodengmficon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		tag = 5,
+		name = "神殿壁灯",
+		spine_action_replace = "",
+		picture = "mf/diaodengmf",
+		comfortable = 1,
+		canputon = 0,
+		id = 332301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

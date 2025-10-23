@@ -5,7 +5,7 @@ function var_0_0.GetUIName(arg_1_0)
 end
 
 function var_0_0.SetUIParent(arg_2_0, arg_2_1)
-	setParent(arg_2_1, arg_2_0:GetView().interactionContainer)
+	return arg_2_0:GetView().interactionContainer
 end
 
 function var_0_0.OnInit(arg_3_0, arg_3_1)

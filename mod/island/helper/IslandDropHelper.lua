@@ -256,199 +256,217 @@ function var_0_0.HandleIslandAbilityByType(arg_8_0)
 		end,
 		[IslandAblityAgency.TYPE_ANIMAL] = function()
 			var_8_0:GetBuildingAgency():InitBuildAnimalDataByAbility(var_8_1)
+		end,
+		[IslandAblityAgency.TYPE_RECOVER_CAMP] = function()
+			local var_13_0 = var_8_0:GetBuildingAgency():GetBuilding(IslandProductConst.FellingPlaceId):GetBuildingCollectData()
+			local var_13_1 = pg.TimeMgr.GetInstance():GetServerTime()
+			local var_13_2 = pg.TimeMgr.GetInstance():GetZeroTimeStamp(var_13_1) + var_8_1
+
+			if var_13_2 < var_13_0:GetNextRecoverTimes() then
+				var_13_0:UpdateCollectRefreshtTime(var_13_2)
+			end
+		end,
+		[IslandAblityAgency.TYPE_RECOVER_ORE] = function()
+			local var_14_0 = var_8_0:GetBuildingAgency():GetBuilding(IslandProductConst.MinePlaceId):GetBuildingCollectData()
+			local var_14_1 = pg.TimeMgr.GetInstance():GetServerTime()
+			local var_14_2 = pg.TimeMgr.GetInstance():GetZeroTimeStamp(var_14_1) + var_8_1
+
+			if var_14_2 < var_14_0:GetNextRecoverTimes() then
+				var_14_0:UpdateCollectRefreshtTime(var_14_2)
+			end
 		end
 	})
 end
 
-function var_0_0.AddPlayerItems(arg_13_0)
-	return PlayerConst.addTranDrop(arg_13_0)
+function var_0_0.AddPlayerItems(arg_15_0)
+	return PlayerConst.addTranDrop(arg_15_0)
 end
 
-function var_0_0.AddShipInvitations(arg_14_0)
-	local var_14_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
-	local var_14_1 = {}
+function var_0_0.AddShipInvitations(arg_16_0)
+	local var_16_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
+	local var_16_1 = {}
 
-	for iter_14_0, iter_14_1 in ipairs(arg_14_0) do
-		var_14_0:AddInvite(iter_14_1.id)
-		table.insert(var_14_1, Drop.New({
+	for iter_16_0, iter_16_1 in ipairs(arg_16_0) do
+		var_16_0:AddInvite(iter_16_1.id)
+		table.insert(var_16_1, Drop.New({
 			type = DROP_TYPE_ISLAND_INVITATION,
-			id = iter_14_1.id,
-			count = iter_14_1.number or iter_14_1.num or iter_14_1.count
+			id = iter_16_1.id,
+			count = iter_16_1.number or iter_16_1.num or iter_16_1.count
 		}))
 	end
 
-	return var_14_1
+	return var_16_1
 end
 
-function var_0_0.AddVirtualDrops(arg_15_0)
-	local var_15_0 = {}
-
-	for iter_15_0, iter_15_1 in ipairs(arg_15_0) do
-		switch(iter_15_1.type, {
-			[VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT] = function()
-				local var_16_0 = Drop.New({
-					type = iter_15_1.type,
-					id = iter_15_1.id,
-					count = iter_15_1.number or iter_15_1.num or iter_15_1.count
-				})
-
-				table.insert(var_15_0, var_16_0)
-				getProxy(IslandProxy):GetIsland():GetSeasonAgency():AddPt(var_16_0.count)
-			end
-		})
-	end
-
-	return var_15_0
-end
-
-function var_0_0.AddIslandFurnitureDrops(arg_17_0)
-	local var_17_0 = getProxy(IslandProxy):GetIsland():GetAgoraAgency()
-	local var_17_1 = {}
+function var_0_0.AddVirtualDrops(arg_17_0)
+	local var_17_0 = {}
 
 	for iter_17_0, iter_17_1 in ipairs(arg_17_0) do
-		local var_17_2 = IslandFurniture.New({
-			id = iter_17_1.id,
-			count = iter_17_1.number or iter_17_1.num or iter_17_1.count
-		})
+		switch(iter_17_1.type, {
+			[VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT] = function()
+				local var_18_0 = Drop.New({
+					type = iter_17_1.type,
+					id = iter_17_1.id,
+					count = iter_17_1.number or iter_17_1.num or iter_17_1.count
+				})
 
-		var_17_2:SetTime(pg.TimeMgr:GetInstance():GetServerTime())
-		var_17_0:AddFurniture(var_17_2)
-		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.FURNITURE)
-		table.insert(var_17_1, Drop.New({
-			type = DROP_TYPE_ISLAND_FURNITURE,
-			id = iter_17_1.id,
-			count = iter_17_1.number or iter_17_1.num or iter_17_1.count
-		}))
-	end
-
-	return var_17_1
-end
-
-function var_0_0.AddIslandDressDrops(arg_18_0)
-	local var_18_0 = {}
-	local var_18_1 = getProxy(IslandProxy):GetIsland()
-
-	for iter_18_0, iter_18_1 in ipairs(arg_18_0) do
-		local var_18_2 = pg.island_dress_template[iter_18_1.id]
-
-		if var_18_2.belongto == 1 then
-			var_18_1:GetDressUpAgency():AddDressByDressId(iter_18_1.id)
-			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.COMMANDER_DRESS)
-			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.COMMANDER_DRESS_ID)
-			IslandAchievementHelper.UpdateRecordWithAdd(IslandAchievementType.COMMANDER_DRESS_TYPE, var_18_2.type, 1)
-		else
-			local var_18_3 = var_18_1:GetCharacterAgency()
-			local var_18_4 = not var_18_3:ExistDressId(iter_18_1.id)
-
-			var_18_3:AddDressItem(iter_18_1.id, iter_18_1.number, true)
-			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.SHIP_DRESS_ID)
-
-			if var_18_4 then
-				IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.SHIP_DRESS)
-				IslandAchievementHelper.UpdateRecordWithAdd(IslandAchievementType.SHIP_DRESS_TYPE, var_18_2.type, 1)
+				table.insert(var_17_0, var_18_0)
+				getProxy(IslandProxy):GetIsland():GetSeasonAgency():AddPt(var_18_0.count)
 			end
-		end
-
-		table.insert(var_18_0, Drop.New({
-			type = DROP_TYPE_ISLAND_DRESS,
-			id = iter_18_1.id,
-			count = iter_18_1.number or iter_18_1.num or iter_18_1.count
-		}))
-		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandGetDress(var_18_2.belongto, iter_18_1.id))
+		})
 	end
 
-	return var_18_0
+	return var_17_0
 end
 
-function var_0_0.AddIslandSkinDrops(arg_19_0)
-	local var_19_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
+function var_0_0.AddIslandFurnitureDrops(arg_19_0)
+	local var_19_0 = getProxy(IslandProxy):GetIsland():GetAgoraAgency()
 	local var_19_1 = {}
 
 	for iter_19_0, iter_19_1 in ipairs(arg_19_0) do
-		var_19_0:AddSkin(iter_19_1.id)
+		local var_19_2 = IslandFurniture.New({
+			id = iter_19_1.id,
+			count = iter_19_1.number or iter_19_1.num or iter_19_1.count
+		})
+
+		var_19_2:SetTime(pg.TimeMgr:GetInstance():GetServerTime())
+		var_19_0:AddFurniture(var_19_2)
+		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.FURNITURE)
 		table.insert(var_19_1, Drop.New({
-			type = DROP_TYPE_ISLAND_SKIN,
+			type = DROP_TYPE_ISLAND_FURNITURE,
 			id = iter_19_1.id,
 			count = iter_19_1.number or iter_19_1.num or iter_19_1.count
 		}))
 	end
 
-	if #arg_19_0 > 0 then
-		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.SHIP_SKIN)
-		IslandAchievementHelper.UpdateRecordWithAdd(IslandAchievementType.SHIP_SKIN, 0, #arg_19_0)
-	end
-
 	return var_19_1
 end
 
-function var_0_0.AddIslandActionDrops(arg_20_0)
-	local var_20_0 = getProxy(IslandProxy):GetIsland():GetActionAgency()
-	local var_20_1 = {}
+function var_0_0.AddIslandDressDrops(arg_20_0)
+	local var_20_0 = {}
+	local var_20_1 = getProxy(IslandProxy):GetIsland()
 
 	for iter_20_0, iter_20_1 in ipairs(arg_20_0) do
-		var_20_0:AddAction(iter_20_1.id)
-		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.ACTION)
-		IslandAchievementHelper.UpdateRecordWithAdd(IslandTaskTargetType.ACTION, 0, 1)
-		table.insert(var_20_1, Drop.New({
-			type = DROP_TYPE_ISLAND_ACTION,
+		local var_20_2 = pg.island_dress_template[iter_20_1.id]
+
+		if var_20_2.belongto == 1 then
+			var_20_1:GetDressUpAgency():AddDressByDressId(iter_20_1.id)
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.COMMANDER_DRESS)
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.COMMANDER_DRESS_ID)
+			IslandAchievementHelper.UpdateRecordWithAdd(IslandAchievementType.COMMANDER_DRESS_TYPE, var_20_2.type, 1)
+		else
+			local var_20_3 = var_20_1:GetCharacterAgency()
+			local var_20_4 = not var_20_3:ExistDressId(iter_20_1.id)
+
+			var_20_3:AddDressItem(iter_20_1.id, iter_20_1.number, true)
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.SHIP_DRESS_ID)
+
+			if var_20_4 then
+				IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.SHIP_DRESS)
+				IslandAchievementHelper.UpdateRecordWithAdd(IslandAchievementType.SHIP_DRESS_TYPE, var_20_2.type, 1)
+			end
+		end
+
+		table.insert(var_20_0, Drop.New({
+			type = DROP_TYPE_ISLAND_DRESS,
 			id = iter_20_1.id,
 			count = iter_20_1.number or iter_20_1.num or iter_20_1.count
 		}))
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandGetDress(var_20_2.belongto, iter_20_1.id))
 	end
 
-	return var_20_1
+	return var_20_0
 end
 
-function var_0_0.AddIslandCardDiyDrops(arg_21_0)
-	local var_21_0 = getProxy(IslandProxy):GetIsland():GetCardDiyAgency()
+function var_0_0.AddIslandSkinDrops(arg_21_0)
+	local var_21_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
 	local var_21_1 = {}
 
 	for iter_21_0, iter_21_1 in ipairs(arg_21_0) do
-		var_21_0:AddCardDiy(iter_21_1)
+		var_21_0:AddSkin(iter_21_1.id)
 		table.insert(var_21_1, Drop.New({
-			type = DROP_TYPE_ISLAND_CARD_DIY,
+			type = DROP_TYPE_ISLAND_SKIN,
 			id = iter_21_1.id,
 			count = iter_21_1.number or iter_21_1.num or iter_21_1.count
 		}))
 	end
 
+	if #arg_21_0 > 0 then
+		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.SHIP_SKIN)
+		IslandAchievementHelper.UpdateRecordWithAdd(IslandAchievementType.SHIP_SKIN, 0, #arg_21_0)
+	end
+
 	return var_21_1
 end
 
-function var_0_0.AddIslandTicketDrops(arg_22_0, arg_22_1)
-	local var_22_0 = getProxy(IslandProxy):GetIsland():GetTicketAgency()
+function var_0_0.AddIslandActionDrops(arg_22_0)
+	local var_22_0 = getProxy(IslandProxy):GetIsland():GetActionAgency()
 	local var_22_1 = {}
 
 	for iter_22_0, iter_22_1 in ipairs(arg_22_0) do
-		local var_22_2 = arg_22_1[DROP_TYPE_ISLAND_SPEEDUP_TICKET][iter_22_1.id]
-		local var_22_3 = IslandTicket.GetEndTimeById(iter_22_1.id, var_22_2)
-		local var_22_4 = iter_22_1.number or iter_22_1.num or iter_22_1.count
-
-		var_22_0:AddTicket(iter_22_1.id, var_22_3, var_22_4)
+		var_22_0:AddAction(iter_22_1.id)
+		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.ACTION)
+		IslandAchievementHelper.UpdateRecordWithAdd(IslandTaskTargetType.ACTION, 0, 1)
 		table.insert(var_22_1, Drop.New({
-			type = DROP_TYPE_ISLAND_SPEEDUP_TICKET,
+			type = DROP_TYPE_ISLAND_ACTION,
 			id = iter_22_1.id,
-			count = var_22_4
+			count = iter_22_1.number or iter_22_1.num or iter_22_1.count
 		}))
 	end
 
 	return var_22_1
 end
 
-function var_0_0.AddIslandCollectDrops(arg_23_0)
-	local var_23_0 = getProxy(IslandProxy):GetIsland():GetWildCollectAgency()
+function var_0_0.AddIslandCardDiyDrops(arg_23_0)
+	local var_23_0 = getProxy(IslandProxy):GetIsland():GetCardDiyAgency()
 	local var_23_1 = {}
 
 	for iter_23_0, iter_23_1 in ipairs(arg_23_0) do
-		var_23_0:AddFinishCollectData(iter_23_1.id)
+		var_23_0:AddCardDiy(iter_23_1)
 		table.insert(var_23_1, Drop.New({
-			type = DROP_TYPE_ISLAND_COLLECTION,
+			type = DROP_TYPE_ISLAND_CARD_DIY,
 			id = iter_23_1.id,
 			count = iter_23_1.number or iter_23_1.num or iter_23_1.count
 		}))
 	end
 
 	return var_23_1
+end
+
+function var_0_0.AddIslandTicketDrops(arg_24_0, arg_24_1)
+	local var_24_0 = getProxy(IslandProxy):GetIsland():GetTicketAgency()
+	local var_24_1 = {}
+
+	for iter_24_0, iter_24_1 in ipairs(arg_24_0) do
+		local var_24_2 = arg_24_1[DROP_TYPE_ISLAND_SPEEDUP_TICKET][iter_24_1.id]
+		local var_24_3 = IslandTicket.GetEndTimeById(iter_24_1.id, var_24_2)
+		local var_24_4 = iter_24_1.number or iter_24_1.num or iter_24_1.count
+
+		var_24_0:AddTicket(iter_24_1.id, var_24_3, var_24_4)
+		table.insert(var_24_1, Drop.New({
+			type = DROP_TYPE_ISLAND_SPEEDUP_TICKET,
+			id = iter_24_1.id,
+			count = var_24_4
+		}))
+	end
+
+	return var_24_1
+end
+
+function var_0_0.AddIslandCollectDrops(arg_25_0)
+	local var_25_0 = getProxy(IslandProxy):GetIsland():GetWildCollectAgency()
+	local var_25_1 = {}
+
+	for iter_25_0, iter_25_1 in ipairs(arg_25_0) do
+		var_25_0:AddFinishCollectData(iter_25_1.id)
+		table.insert(var_25_1, Drop.New({
+			type = DROP_TYPE_ISLAND_COLLECTION,
+			id = iter_25_1.id,
+			count = iter_25_1.number or iter_25_1.num or iter_25_1.count
+		}))
+	end
+
+	return var_25_1
 end
 
 return var_0_0

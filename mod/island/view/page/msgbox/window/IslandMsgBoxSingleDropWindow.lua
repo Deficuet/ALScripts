@@ -45,6 +45,8 @@ function var_0_0.FlushAcquiringWay(arg_5_0, arg_5_1)
 	if arg_5_1:IsTecUnlocked() then
 		var_5_0 = arg_5_1:GetAcquiringWay()
 	else
+		var_5_0 = {}
+
 		local var_5_1 = {}
 
 		table.insert(var_5_1, arg_5_1:GetTecDes())

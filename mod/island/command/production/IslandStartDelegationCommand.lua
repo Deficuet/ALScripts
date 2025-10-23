@@ -12,6 +12,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_6 = getProxy(IslandProxy):GetIsland()
 	local var_1_7 = var_1_6:GetBuildingAgency()
 	local var_1_8 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
+	local var_1_9 = var_1_0.extraCost or 0
 
 	pg.ConnectionMgr.GetInstance():Send(21501, {
 		build_id = var_1_1,
@@ -42,7 +43,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			local var_2_6 = pg.island_formula[var_2_5].commission_cost
 
 			for iter_2_0, iter_2_1 in ipairs(var_2_6) do
-				var_1_8:RemoveItem(iter_2_1[1], iter_2_1[2] * var_1_5)
+				var_1_8:RemoveItem(iter_2_1[1], (iter_2_1[2] + var_1_9) * var_1_5)
 			end
 
 			var_1_6:DispatchEvent(var_0_0.START_DELEGATION, {

@@ -600,6 +600,8 @@ function var_0_0.OnSceneInited(arg_46_0, arg_46_1)
 		iter_46_1:Start()
 	end
 
+	arg_46_0:GetSubView(IslandOpView):LaterInit()
+
 	arg_46_0.isInit = true
 end
 
@@ -630,7 +632,12 @@ function var_0_0.OnNpcDetectorSelected(arg_49_0, arg_49_1)
 		return
 	end
 
-	arg_49_0.selectedNpcId = var_49_0:GetComponent(typeof(WorldObjectItem)).uniqueId
+	local var_49_1 = var_49_0:GetComponent(typeof(WorldObjectItem)).uniqueId
+
+	arg_49_0.selectedNpcId = var_49_1
+
+	arg_49_0:GetSubView(IslandOpView):UpdateAnimationOpEffect(var_49_1, true)
+	arg_49_0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(var_49_1, true)
 end
 
 function var_0_0.GetSelectedNpcId(arg_50_0)
@@ -645,6 +652,9 @@ function var_0_0.OnNpcDetectorUnSelected(arg_51_0, arg_51_1)
 	end
 
 	local var_51_1 = var_51_0:GetComponent(typeof(WorldObjectItem)).uniqueId
+
+	arg_51_0:GetSubView(IslandOpView):UpdateAnimationOpEffect(var_51_1)
+	arg_51_0:GetSubView(IslandBottomHeadHudView):UpdateAnimationOpEffect(var_51_1)
 
 	if arg_51_0.selectedNpcId ~= var_51_1 then
 		return
@@ -885,6 +895,7 @@ end
 
 function var_0_0.OnTracking(arg_77_0, arg_77_1)
 	arg_77_0.trackId = tonumber(arg_77_1.id)
+	arg_77_0.trackType = arg_77_1.typ or IslandTaskType.MAIN
 	arg_77_0.needTryTrack = true
 end
 
@@ -899,7 +910,7 @@ function var_0_0.TrySetTrack(arg_79_0, arg_79_1)
 		return
 	end
 
-	arg_79_0:GetSubView(IslandDistanceView):SetTrackingTarget(arg_79_0.player, var_79_0, arg_79_1)
+	arg_79_0:GetSubView(IslandDistanceView):SetTrackingTarget(arg_79_0.player, var_79_0, arg_79_1, arg_79_0.trackType)
 
 	arg_79_0.needTryTrack = false
 end

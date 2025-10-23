@@ -923,7 +923,8 @@ function var_0_0.IsShowTipById(arg_80_0)
 			end
 
 			return false
-		end
+		end,
+		[ActivityConst.SAILING_SHIP_3_SKIN_ACT_ID] = SailingShip3SkinLayer.ShouldShowTip
 	}
 
 	local var_80_0 = var_0_0.ShowTipTableById[arg_80_0.id]

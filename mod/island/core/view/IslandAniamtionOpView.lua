@@ -16,7 +16,7 @@ function var_0_0.GetExitAnimationName(arg_3_0)
 end
 
 function var_0_0.SetUIParent(arg_4_0, arg_4_1)
-	setParent(arg_4_1, arg_4_0:GetView().topContainer)
+	return arg_4_0:GetView().topContainer
 end
 
 function var_0_0.FirstFlush(arg_5_0)

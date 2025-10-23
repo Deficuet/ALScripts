@@ -507,7 +507,7 @@ function var_0_0.showAwakenCompleteAni(arg_51_0, arg_51_1)
 		local var_52_0 = tf(arg_51_0.awakenAni)
 
 		pg.UIMgr.GetInstance():BlurPanel(var_52_0)
-		setText(arg_51_0.awakenAni:Find("window/desc"), arg_51_1)
+		setText(var_52_0:Find("window/desc"), arg_51_1)
 		var_52_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_54_0)
 			arg_51_0.awakenAni:GetComponent("Animator"):SetBool("endFlag", false)
 			pg.UIMgr.GetInstance():UnOverlayPanel(var_52_0, arg_51_0.common)

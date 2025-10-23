@@ -193,17 +193,33 @@ function var_0_0.itemFollow(arg_10_0, arg_10_1)
 			local var_10_1 = var_10_0.tf.anchoredPosition
 
 			if math.abs(arg_10_1.x - var_10_1.x) <= 600 and math.abs(arg_10_1.y - var_10_1.y) <= 700 then
-				local var_10_2 = math.sign(arg_10_1.x - var_10_1.x)
-				local var_10_3 = 2000 * Time.deltaTime * var_10_2
-				local var_10_4 = 25 * math.sign(arg_10_1.y - var_10_1.y)
+				local var_10_2 = false
 
-				if math.abs(arg_10_1.y - var_10_1.y) < 25 then
-					var_10_4 = 0
+				if not var_10_0.catchTime then
+					var_10_0.catchTime = 1
+				else
+					var_10_0.catchTime = var_10_0.catchTime - Time.deltaTime
+
+					if var_10_0.catchTime <= 0 then
+						var_10_0.catchTime = nil
+						var_10_0.tf.anchoredPosition = arg_10_1
+						var_10_2 = true
+					end
 				end
 
-				var_10_1.x = var_10_1.x + var_10_3
-				var_10_1.y = var_10_1.y + var_10_4
-				var_10_0.tf.anchoredPosition = var_10_1
+				if not var_10_2 then
+					local var_10_3 = math.sign(arg_10_1.x - var_10_1.x)
+					local var_10_4 = 2000 * Time.deltaTime * var_10_3
+					local var_10_5 = 25 * math.sign(arg_10_1.y - var_10_1.y)
+
+					if math.abs(arg_10_1.y - var_10_1.y) < 25 then
+						var_10_5 = 0
+					end
+
+					var_10_1.x = var_10_1.x + var_10_4
+					var_10_1.y = var_10_1.y + var_10_5
+					var_10_0.tf.anchoredPosition = var_10_1
+				end
 			end
 		end
 	end
@@ -297,6 +313,11 @@ end
 
 function var_0_0.returnItemToPool(arg_14_0, arg_14_1)
 	setActive(arg_14_1.tf, false)
+
+	if arg_14_1.catchTime then
+		arg_14_1.catchTime = nil
+	end
+
 	table.insert(arg_14_0.itemPools, arg_14_1)
 end
 

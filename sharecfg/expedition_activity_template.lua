@@ -4798,68 +4798,211 @@ pg.expedition_activity_template = {
 	},
 	[1740013] = {
 		id = 1740013,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50166,
+				572,
+				30
+			},
+			{
+				50154,
+				571,
+				10
+			}
+		}
 	},
 	[1740113] = {
 		id = 1740113,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50166,
+				572,
+				40
+			},
+			{
+				50154,
+				571,
+				10
+			}
+		}
 	},
 	[1740213] = {
 		id = 1740213,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50166,
+				572,
+				50
+			},
+			{
+				50154,
+				571,
+				10
+			}
+		}
 	},
 	[1741013] = {
 		id = 1741013,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50167,
+				572,
+				60
+			},
+			{
+				50154,
+				571,
+				12
+			}
+		}
 	},
 	[1741113] = {
 		id = 1741113,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50167,
+				572,
+				70
+			},
+			{
+				50154,
+				571,
+				12
+			}
+		}
 	},
 	[1741213] = {
 		id = 1741213,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50167,
+				572,
+				80
+			},
+			{
+				50154,
+				571,
+				12
+			}
+		}
 	},
 	[1742013] = {
 		id = 1742013,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50166,
+				572,
+				90
+			},
+			{
+				50154,
+				571,
+				14
+			}
+		}
 	},
 	[1742113] = {
 		id = 1742113,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50166,
+				572,
+				100
+			},
+			{
+				50154,
+				571,
+				14
+			}
+		}
 	},
 	[1742213] = {
 		id = 1742213,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50166,
+				572,
+				110
+			},
+			{
+				50154,
+				571,
+				14
+			}
+		}
 	},
 	[1743013] = {
 		id = 1743013,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50167,
+				572,
+				120
+			},
+			{
+				50154,
+				571,
+				16
+			}
+		}
 	},
 	[1743113] = {
 		id = 1743113,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50167,
+				572,
+				150
+			},
+			{
+				50154,
+				571,
+				16
+			}
+		}
 	},
 	[1743213] = {
 		id = 1743213,
-		pt_drop_display = "",
-		bonus_time = 1
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				50167,
+				572,
+				180
+			},
+			{
+				50154,
+				571,
+				16
+			}
+		}
 	},
 	[1744013] = {
 		id = 1744013,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50167,
+				572,
+				800
+			},
+			{
+				50154,
+				571,
+				18
+			}
+		}
 	},
 	[1750013] = {
 		id = 1750013,
@@ -7073,6 +7216,83 @@ pg.expedition_activity_template = {
 			}
 		}
 	},
+	[1970013] = {
+		id = 1970013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50181,
+				577,
+				30
+			}
+		}
+	},
+	[1971013] = {
+		id = 1971013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50181,
+				577,
+				50
+			}
+		}
+	},
+	[1972013] = {
+		id = 1972013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50181,
+				577,
+				70
+			}
+		}
+	},
+	[1973013] = {
+		id = 1973013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50181,
+				577,
+				100
+			}
+		}
+	},
+	[1974013] = {
+		id = 1974013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50181,
+				577,
+				140
+			}
+		}
+	},
+	[1975013] = {
+		id = 1975013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50181,
+				577,
+				180
+			}
+		}
+	},
+	[1976013] = {
+		id = 1976013,
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				50181,
+				577,
+				800
+			}
+		}
+	},
 	[3000013] = {
 		id = 3000013,
 		pt_drop_display = "",
@@ -8232,6 +8452,13 @@ pg.expedition_activity_template = {
 		1963113,
 		1963213,
 		1964013,
+		1970013,
+		1971013,
+		1972013,
+		1973013,
+		1974013,
+		1975013,
+		1976013,
 		3000013,
 		3000113,
 		3000213,

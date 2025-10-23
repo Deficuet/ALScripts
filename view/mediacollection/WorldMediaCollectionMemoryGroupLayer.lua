@@ -111,7 +111,9 @@ function var_0_0.OnInit(arg_2_0)
 		end, SFX_UI_TAG)
 	end
 
-	arg_2_0:OverlayPanel(arg_2_0.memoryTogGroup)
+	arg_2_0:OverlayPanel(arg_2_0.memoryTogGroup, {
+		overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+	})
 
 	arg_2_0.loader = AutoLoader.New()
 	arg_2_0.searchBtn = arg_2_0._tf:Find("ActivityToggle/search_btn/btn")
@@ -418,6 +420,7 @@ end
 function var_0_0.OnDestroy(arg_36_0)
 	var_0_0.super.OnDestroy(arg_36_0)
 	arg_36_0.storyLineView:Dispose()
+	arg_36_0:UnOverlayPanel(arg_36_0.memoryTogGroup, arg_36_0._tf)
 end
 
 function var_0_0.GetMatchGroupList(arg_37_0, arg_37_1, arg_37_2)

@@ -198,4 +198,8 @@ function var_0_0.OnHide(arg_15_0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf)
 end
 
+function var_0_0.OnDestroy(arg_16_0)
+	arg_16_0:OnHide()
+end
+
 return var_0_0

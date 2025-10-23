@@ -544,20 +544,22 @@ function var_0_0._register(arg_1_0)
 			callback = arg_82_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.START_DELEGATION, function(arg_83_0, arg_83_1, arg_83_2, arg_83_3, arg_83_4, arg_83_5)
+	arg_1_0:bind(var_0_0.START_DELEGATION, function(arg_83_0, arg_83_1, arg_83_2, arg_83_3, arg_83_4, arg_83_5, arg_83_6)
 		arg_1_0:sendNotification(GAME.ISLAND_START_DELEGATION, {
 			build_id = arg_83_1,
 			area_id = arg_83_2,
 			ship_id = arg_83_3,
 			formula_id = arg_83_4,
-			num = arg_83_5
+			num = arg_83_5,
+			extraCost = arg_83_6
 		})
 	end)
-	arg_1_0:bind(var_0_0.ADD_DELEGATION, function(arg_84_0, arg_84_1, arg_84_2, arg_84_3)
+	arg_1_0:bind(var_0_0.ADD_DELEGATION, function(arg_84_0, arg_84_1, arg_84_2, arg_84_3, arg_84_4)
 		arg_1_0:sendNotification(GAME.ISLAND_ADD_DELEGATION, {
 			build_id = arg_84_1,
 			area_id = arg_84_2,
-			add_num = arg_84_3
+			add_num = arg_84_3,
+			extraCost = arg_84_4
 		})
 	end)
 	arg_1_0:bind(var_0_0.STOP_DELEGATION, function(arg_85_0, arg_85_1, arg_85_2)
@@ -680,7 +682,8 @@ function var_0_0._listNotificationInterests(arg_92_0)
 		IslandSettingsPage.SELECTCUSTOMGRAPHICSETTING,
 		IslandSettingsPage.SELECTGRAPHICSETTINGLEVEL,
 		ActivityProxy.ACTIVITY_UPDATED,
-		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE
+		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE,
+		IslandShipOrderCard.EVENT_CD_END
 	}
 end
 

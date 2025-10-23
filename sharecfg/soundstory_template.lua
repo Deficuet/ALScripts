@@ -375,9 +375,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					4,
-					25
+					2025,
+					10,
+					23
 				},
 				{
 					12,
@@ -387,9 +387,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					5,
-					1
+					2025,
+					10,
+					29
 				},
 				{
 					23,
@@ -1221,6 +1221,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "“深海魔物”进食观察",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "柚木燕",
+		audition_text = "就不怕我会吃掉您吗……美味的指挥官……？",
+		id = 26,
+		ship_id = 960008,
+		audition_resource_JP = "ss-960008-1",
+		CV_CN = "",
+		overview = "听闻幻想号在港区吃了一些奇怪的东西，于是前来关心她的状况。\n然而却被幻想号留下来，观察她的今日进食，并且详细解析了自己的进食方式。",
+		captions_color = "#274576",
+		story_resource_JP = "soundStory26_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "令人着迷的休憩之处",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Lynn",
+		audition_text = "那么就把这里，交给指挥官吧……",
+		id = 27,
+		ship_id = 30510,
+		audition_resource_JP = "ss-30510-1",
+		CV_CN = "",
+		overview = "令人感到着迷、安心、舒适、可以尽情入睡之处，究竟在哪里呢？\n鳄的尾巴轻轻摆动，似乎已经完美回答了这个问题……",
+		captions_color = "#3a343a",
+		story_resource_JP = "soundStory27_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					29
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1246,6 +1352,8 @@ pg.soundstory_template = {
 		22,
 		23,
 		24,
-		25
+		25,
+		26,
+		27
 	}
 }

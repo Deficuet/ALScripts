@@ -35,6 +35,11 @@ function var_0_0.ShouldShowTip()
 	local var_7_1 = getProxy(TaskProxy)
 	local var_7_2 = getProxy(ActivityProxy):getActivityById(var_7_0)
 	local var_7_3 = var_7_2:getConfig("config_data")
+
+	if var_7_2.data3 then
+		return false
+	end
+
 	local var_7_4 = var_7_2.data3
 
 	if var_7_4 == 0 or var_7_4 == nil then

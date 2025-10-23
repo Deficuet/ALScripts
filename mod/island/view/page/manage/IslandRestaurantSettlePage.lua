@@ -141,4 +141,8 @@ function var_0_0.GetAttrsFactorsRatio(arg_12_0, arg_12_1)
 	return var_12_3 == 0 and 0 or var_12_2 / var_12_3
 end
 
+function var_0_0.OnDestroy(arg_13_0)
+	arg_13_0:UnBlurPanel()
+end
+
 return var_0_0

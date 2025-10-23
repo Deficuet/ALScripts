@@ -581,8 +581,6 @@ function var_0_0.initNotificationHandleDic(arg_59_0)
 			if arg_80_1:getBody().context.mediator == VoteFameHallMediator then
 				arg_80_0.viewComponent:updateEntrances()
 			end
-
-			arg_80_0.viewComponent:removeLayers()
 		end,
 		[GAME.MONOPOLY_AWARD_DONE] = function(arg_81_0, arg_81_1)
 			local var_81_0 = arg_81_1:getBody()
@@ -633,103 +631,98 @@ function var_0_0.initNotificationHandleDic(arg_59_0)
 
 			arg_87_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_87_0.awards)
 		end,
-		[GAME.LOAD_LAYERS] = function(arg_88_0, arg_88_1)
+		[GAME.CHARGE_SUCCESS] = function(arg_88_0, arg_88_1)
 			local var_88_0 = arg_88_1:getBody()
 
-			arg_88_0.viewComponent:loadLayers()
-		end,
-		[GAME.CHARGE_SUCCESS] = function(arg_89_0, arg_89_1)
-			local var_89_0 = arg_89_1:getBody()
+			arg_88_0.viewComponent:updateTaskLayers()
 
-			arg_89_0.viewComponent:updateTaskLayers()
-
-			local var_89_1 = Goods.Create({
-				shop_id = var_89_0.shopId
+			local var_88_1 = Goods.Create({
+				shop_id = var_88_0.shopId
 			}, Goods.TYPE_CHARGE)
 
-			arg_89_0.viewComponent:OnChargeSuccess(var_89_1)
+			arg_88_0.viewComponent:OnChargeSuccess(var_88_1)
 		end,
-		[GAME.SHOPPING_DONE] = function(arg_90_0, arg_90_1)
-			local var_90_0 = arg_90_1:getBody()
+		[GAME.SHOPPING_DONE] = function(arg_89_0, arg_89_1)
+			local var_89_0 = arg_89_1:getBody()
 
-			arg_90_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_90_0.awards, function()
-				arg_90_0.viewComponent:updateTaskLayers()
+			arg_89_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_89_0.awards, function()
+				arg_89_0.viewComponent:updateTaskLayers()
 			end)
 		end,
-		[GAME.ACT_MANUAL_SIGN_DONE] = function(arg_92_0, arg_92_1)
+		[GAME.ACT_MANUAL_SIGN_DONE] = function(arg_91_0, arg_91_1)
+			local var_91_0 = arg_91_1:getBody()
+
+			arg_91_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_91_0.awards)
+		end,
+		[ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS] = function(arg_92_0, arg_92_1)
 			local var_92_0 = arg_92_1:getBody()
 
-			arg_92_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_92_0.awards)
-		end,
-		[ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS] = function(arg_93_0, arg_93_1)
-			local var_93_0 = arg_93_1:getBody()
+			arg_92_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_92_0.awards, function()
+				local var_93_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE)
 
-			arg_93_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_93_0.awards, function()
-				local var_94_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE)
-
-				if var_94_0 and not var_94_0:isShow() and var_94_0:isCorePage(arg_93_0.contextData.coreName) then
-					arg_93_0.viewComponent:removeActivity(var_94_0.id)
+				if var_93_0 and not var_93_0:isShow() and var_93_0:isCorePage(arg_92_0.contextData.coreName) then
+					arg_92_0.viewComponent:removeActivity(var_93_0.id)
 				end
 
-				arg_93_0.viewComponent:updateTaskLayers()
-				existCall(var_93_0.callback)
+				arg_92_0.viewComponent:updateTaskLayers()
+				existCall(var_92_0.callback)
 			end)
 		end
 	}
 end
 
-function var_0_0.showNextActivity(arg_95_0, arg_95_1)
-	local var_95_0 = getProxy(ActivityProxy)
+function var_0_0.showNextActivity(arg_94_0, arg_94_1)
+	local var_94_0 = getProxy(ActivityProxy)
 
-	if not var_95_0 then
+	if not var_94_0 then
 		return
 	end
 
-	local var_95_1 = var_95_0:findNextAutoActivity(arg_95_1)
+	local var_94_1 = var_94_0:findNextAutoActivity(arg_94_1)
 
-	if var_95_1 then
-		if var_95_1.id == ActivityConst.BLACK_FRIDAY_SIGNIN_ACT_ID then
-			arg_95_0.contextData.showByNextAct = true
+	if var_94_1 then
+		if var_94_1.id == ActivityConst.BLACK_FRIDAY_SIGNIN_ACT_ID then
+			arg_94_0.contextData.showByNextAct = true
 
-			arg_95_0.viewComponent:verifyTabs(ActivityConst.BLACK_FRIDAY_ACT_ID)
+			arg_94_0.viewComponent:verifyTabs(ActivityConst.BLACK_FRIDAY_ACT_ID)
 		else
-			arg_95_0.viewComponent:verifyTabs(var_95_1.id)
+			arg_94_0.viewComponent:verifyTabs(var_94_1.id)
 		end
 
-		local var_95_2 = var_95_1:getConfig("type")
+		local var_94_2 = var_94_1:getConfig("type")
 
-		if var_95_2 == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
-			arg_95_0:sendNotification(GAME.ACTIVITY_OPERATION, {
+		if var_94_2 == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
+			arg_94_0:sendNotification(GAME.ACTIVITY_OPERATION, {
 				cmd = 1,
-				activity_id = var_95_1.id
+				activity_id = var_94_1.id
 			})
-		elseif var_95_2 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
-			local var_95_3 = var_95_1:getSpecialData("reMonthSignDay") ~= nil and 3 or 1
+		elseif var_94_2 == ActivityConst.ACTIVITY_TYPE_MONTHSIGN then
+			local var_94_3 = var_94_1:getSpecialData("reMonthSignDay") ~= nil and 3 or 1
 
-			arg_95_0:sendNotification(GAME.ACTIVITY_OPERATION, {
-				activity_id = var_95_1.id,
-				cmd = var_95_3,
-				arg1 = var_95_1:getSpecialData("reMonthSignDay")
+			arg_94_0:sendNotification(GAME.ACTIVITY_OPERATION, {
+				activity_id = var_94_1.id,
+				cmd = var_94_3,
+				arg1 = var_94_1:getSpecialData("reMonthSignDay")
 			})
-		elseif var_95_2 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
-			arg_95_0:sendNotification(GAME.ACTIVITY_OPERATION, {
-				activity_id = var_95_1.id,
-				cmd = var_95_1.data1 < 7 and 1 or 2
+		elseif var_94_2 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
+			arg_94_0:sendNotification(GAME.ACTIVITY_OPERATION, {
+				activity_id = var_94_1.id,
+				cmd = var_94_1.data1 < 7 and 1 or 2
 			})
-		elseif var_95_1.id == ActivityConst.SHADOW_PLAY_ID then
-			var_95_1.clientData1 = 1
+		elseif var_94_1.id == ActivityConst.SHADOW_PLAY_ID then
+			var_94_1.clientData1 = 1
 
-			arg_95_0:showNextActivity(arg_95_1)
+			arg_94_0:showNextActivity(arg_94_1)
 		end
-	elseif not arg_95_0.viewComponent.activity then
-		local var_95_4 = arg_95_0:getDisplayActivity()
-		local var_95_5 = arg_95_0.contextData.id or arg_95_0.contextData.type and checkExist(_.detect(var_95_4, function(arg_96_0)
-			return arg_96_0:getConfig("type") == arg_95_0.contextData.type
+	elseif not arg_94_0.viewComponent.activity then
+		local var_94_4 = arg_94_0:getDisplayActivity()
+		local var_94_5 = arg_94_0.contextData.id or arg_94_0.contextData.type and checkExist(_.detect(var_94_4, function(arg_95_0)
+			return arg_95_0:getConfig("type") == arg_94_0.contextData.type
 		end), {
 			"id"
 		}) or 0
 
-		arg_95_0.viewComponent:verifyTabs(var_95_5)
+		arg_94_0.viewComponent:verifyTabs(var_94_5)
 	end
 end
 

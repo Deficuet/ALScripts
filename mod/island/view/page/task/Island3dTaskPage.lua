@@ -46,6 +46,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	setText(arg_2_0.tracedBtn:Find("Text"), i18n("island_task_tracked"))
 	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_task_title"))
 	setText(arg_2_0._tf:Find("top/title/Text/en"), i18n("island_task_title_en"))
+
+	arg_2_0.richtext = arg_2_0.descTF:GetComponent("RichText")
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -343,7 +345,25 @@ function var_0_0.FlushDetail(arg_28_0)
 			setText(arg_28_0.timeTF:Find("Text"), arg_28_0.showVO:GetRemainTimeStr())
 		end
 
-		setText(arg_28_0.descTF, arg_28_0.showVO:GetDesc())
+		arg_28_0.richtext.text = arg_28_0.showVO:GetDesc()
+
+		arg_28_0.richtext:RemoveAllListeners()
+		arg_28_0.richtext:AddListener(function(arg_29_0, arg_29_1)
+			if arg_29_0 == "dropDesHandle" then
+				local var_29_0, var_29_1 = string.match(arg_29_1, "{(%d+),(%d+)}")
+				local var_29_2 = Drop.New({
+					count = 0,
+					type = tonumber(var_29_0),
+					id = tonumber(var_29_1)
+				})
+
+				arg_28_0:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = var_29_2
+				})
+			end
+		end)
 
 		arg_28_0.showTargets = arg_28_0.showVO:GetTargetList()
 
@@ -371,56 +391,57 @@ function var_0_0.FlushDetail(arg_28_0)
 	end
 end
 
-function var_0_0.OnShow(arg_31_0, arg_31_1, arg_31_2)
-	arg_31_0.isOpen = true
-	arg_31_0.toggleList = arg_31_0:GetShowTypeList()
+function var_0_0.OnShow(arg_32_0, arg_32_1, arg_32_2)
+	arg_32_0.isOpen = true
+	arg_32_0.toggleList = arg_32_0:GetShowTypeList()
 
-	table.insert(arg_31_0.toggleList, 1, IslandTaskType.SHOW_ALL)
-	arg_31_0.toggleUIList:align(#arg_31_0.toggleList)
-	arg_31_0:Flush()
+	table.insert(arg_32_0.toggleList, 1, IslandTaskType.SHOW_ALL)
+	arg_32_0.toggleUIList:align(#arg_32_0.toggleList)
+	arg_32_0:Flush()
 
-	local var_31_0 = false
+	local var_32_0 = false
 
-	if arg_31_1 and arg_31_0.toggleUIList.container:Find(arg_31_1) then
-		triggerToggle(arg_31_0.toggleUIList.container:Find(arg_31_1), true)
+	if arg_32_1 and arg_32_0.toggleUIList.container:Find(arg_32_1) then
+		triggerToggle(arg_32_0.toggleUIList.container:Find(arg_32_1), true)
 
-		var_31_0 = true
+		var_32_0 = true
 	end
 
-	if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(arg_31_2 or 0) then
-		if not var_31_0 then
-			triggerToggle(arg_31_0.toggleUIList.container:GetChild(0), true)
+	if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(arg_32_2 or 0) then
+		if not var_32_0 then
+			triggerToggle(arg_32_0.toggleUIList.container:GetChild(0), true)
 		end
 
-		local var_31_1 = IslandTaskType.Type2ShowType[pg.island_task[arg_31_2].type]
+		local var_32_1 = IslandTaskType.Type2ShowType[pg.island_task[arg_32_2].type]
 
-		triggerToggle(arg_31_0.typeUIList.container:Find(var_31_1 .. "/list/" .. arg_31_2), true)
+		triggerToggle(arg_32_0.typeUIList.container:Find(var_32_1 .. "/list/" .. arg_32_2), true)
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_31_0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(arg_32_0._tf)
 end
 
-function var_0_0.GetShowTypeList(arg_32_0)
-	local var_32_0 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
-	local var_32_1 = underscore.select(underscore.keys(IslandTaskType.ShowTypeUnlockId), function(arg_33_0)
-		return var_32_0:HasAbility(IslandTaskType.ShowTypeUnlockId[arg_33_0])
+function var_0_0.GetShowTypeList(arg_33_0)
+	local var_33_0 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+	local var_33_1 = underscore.select(underscore.keys(IslandTaskType.ShowTypeUnlockId), function(arg_34_0)
+		return var_33_0:HasAbility(IslandTaskType.ShowTypeUnlockId[arg_34_0])
 	end)
 
-	table.sort(var_32_1)
+	table.sort(var_33_1)
 
-	return var_32_1
+	return var_33_1
 end
 
-function var_0_0.OnHide(arg_34_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_34_0._tf)
+function var_0_0.OnHide(arg_35_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0._tf)
 end
 
-function var_0_0.OnDisable(arg_35_0)
-	arg_35_0:OnHide()
-end
-
-function var_0_0.OnDestroy(arg_36_0)
+function var_0_0.OnDisable(arg_36_0)
 	arg_36_0:OnHide()
+end
+
+function var_0_0.OnDestroy(arg_37_0)
+	arg_37_0.richtext:RemoveAllListeners()
+	arg_37_0:OnHide()
 end
 
 return var_0_0

@@ -17,7 +17,9 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	}, 21508, function(arg_2_0)
 		if arg_2_0.result == 0 then
 			local var_2_0 = var_1_4:GetBuilding(var_1_1)
-			local var_2_1 = arg_2_0.collect_area
+			local var_2_1 = {
+				id = var_1_2
+			}
 
 			if var_1_5 == 2 then
 				var_2_1 = {
@@ -25,7 +27,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				}
 			end
 
-			var_2_0:GetBuildingCollectData():UpdateCollectRefreshtTime(arg_2_0.refresh_time, var_1_5)
+			var_2_0:GetBuildingCollectData():UpdateCollectRefreshtTime(arg_2_0.refresh_time)
+			var_2_0:GetBuildingCollectData():UpdateGetCollectNum(var_1_5)
 			var_2_0:UpdateCollectDataBySlotId(var_2_1, var_1_5)
 
 			local var_2_2 = IslandDropHelper.AddItems(arg_2_0)

@@ -68,10 +68,13 @@ function var_0_0.FlushAcquiringWay(arg_5_0, arg_5_1)
 		end
 	end)
 	arg_5_0.uiItemList:align(#var_5_0)
-	setAnchoredPosition(arg_5_0.contentTF, {
-		x = 0,
-		y = 0
-	})
+
+	if not IsNil(arg_5_0.contentTF) then
+		setAnchoredPosition(arg_5_0.contentTF, {
+			x = 0,
+			y = 0
+		})
+	end
 end
 
 function var_0_0.FlushBtn(arg_8_0, arg_8_1)

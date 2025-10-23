@@ -39,7 +39,7 @@ function var_0_0.CommonInit(arg_4_0)
 
 	SetActive(arg_4_0._item, false)
 	SetActive(arg_4_0._heroInfo, false)
-	SetActive(arg_4_0._starTpl, false)
+	SetActive(arg_4_0._starTplsa, false)
 	setText(arg_4_0._gearScore:Find("vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
 	setText(arg_4_0._gearScore:Find("main/line/Image/Text1"), i18n("pre_combat_main"))
 	setText(arg_4_0._gearScore:Find("submarine/line/Image/text1"), i18n("pre_combat_submarine"))
@@ -97,7 +97,7 @@ function var_0_0.Register(arg_5_0)
 		local var_7_7 = arg_7_1:getStar()
 
 		for iter_7_0 = 1, var_7_7 do
-			cloneTplTo(arg_5_0._starTpl, var_7_1)
+			cloneTplTo(arg_5_0._starTplsa, var_7_1)
 		end
 
 		local var_7_8 = GetSpriteFromAtlas("shiptype", shipType2print(arg_7_1:getShipType()))

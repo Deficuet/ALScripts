@@ -10,7 +10,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			bgm = "danmachi-1",
+			bgm = "danmachi-az-story",
 			say = "说到补给，也就是吃的……精灵小姐，我有个主意！",
 			actorPosition = {
 				x = -200,

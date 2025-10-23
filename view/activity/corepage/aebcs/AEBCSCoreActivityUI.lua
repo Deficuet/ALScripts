@@ -122,21 +122,7 @@ function var_0_0.skinCommdityTimeStamp(arg_11_0, arg_11_1)
 	if var_11_2 > 0 then
 		return i18n("limit_skin_time_day", var_11_2)
 	else
-		local var_11_3 = math.floor(var_11_1 / 3600)
-
-		if var_11_3 > 0 then
-			local var_11_4 = math.floor(var_11_1 / 60)
-
-			return i18n("limit_skin_time_day_min", var_11_3, var_11_4 - var_11_3 * 60)
-		else
-			local var_11_5 = math.floor(var_11_1 / 60)
-
-			if var_11_5 > 0 then
-				return i18n("limit_skin_time_min", var_11_5)
-			else
-				return i18n("limit_skin_time_overtime")
-			end
-		end
+		return i18n("masaina_main_other_tag")
 	end
 end
 

@@ -93,6 +93,7 @@ function var_0_0.UpdateTask(arg_10_0)
 	local var_10_0 = arg_10_0.task:GetShowType()
 
 	GetImageSpriteFromAtlasAsync("island/islandtasktype", IslandTaskType.ShowTypeFields[var_10_0], arg_10_0.iconTF)
+	setImageColor(arg_10_0.contentTF:Find("title/bg"), Color.NewHex(IslandTaskType.ShowTypeColors[var_10_0]))
 	setText(arg_10_0.nameTF, HXSet.hxLan(arg_10_0.task:GetName()))
 	arg_10_0:UpdateTarget()
 	arg_10_0:TrackUI()
@@ -141,7 +142,8 @@ function var_0_0.TrackUI(arg_13_0)
 	if var_13_1 then
 		if _IslandCore then
 			_IslandCore:GetController():NotifiyCore(ISLAND_EVT.TRACKING, {
-				id = var_13_1
+				id = var_13_1,
+				typ = arg_13_0.task:GetType()
 			})
 		end
 	else

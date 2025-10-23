@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			say = "饱餐一顿后，赫斯缇雅与琉带着尽可能多的补给再次出发了——",
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

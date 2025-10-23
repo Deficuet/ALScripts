@@ -146,12 +146,12 @@ function var_0_0.CheckStockingShow(arg_10_0)
 	end
 end
 
-function var_0_0.Init(arg_11_0, arg_11_1)
+function var_0_0.InitStatus(arg_11_0, arg_11_1)
 	arg_11_0.ladyEnv = arg_11_0:Func("GetCurrentLadyEnv")
 	var_0_1 = pg.dorm3d_stocking[arg_11_1]
 	arg_11_0.cacheIkStatus = arg_11_0.ladyEnv.currentIkStatus
 	arg_11_0.inDragStocking = false
-	arg_11_0.stockingL, arg_11_0.stockingR = var_0_0.GetStockingGeo(arg_11_0.ladyEnv, var_0_1.skin_id)
+	arg_11_0.stockingL, arg_11_0.stockingR = var_0_0.GetStockingGeo(arg_11_0.ladyEnv.lady, var_0_1.skin_id)
 	arg_11_0.stockingTFs = {
 		arg_11_0.stockingL,
 		arg_11_0.stockingR
@@ -251,7 +251,7 @@ function var_0_0.ResetLady(arg_16_0)
 end
 
 function var_0_0.SetStockingStatus(arg_17_0, arg_17_1)
-	arg_17_0:Init(arg_17_1)
+	arg_17_0:InitStatus(arg_17_1)
 	arg_17_0:InitHideMode()
 	warning(">>>>>>>>>>> enter stocking mode <<<<<<<<<<", arg_17_1)
 	seriesAsync({
@@ -356,39 +356,56 @@ function var_0_0.GetStockingGeo(arg_28_0, arg_28_1)
 		return nil, nil
 	end
 
-	local var_28_1 = arg_28_0.lady:Find(var_28_0[1])
-	local var_28_2 = arg_28_0.lady:Find(var_28_0[2])
+	local var_28_1 = arg_28_0:Find(var_28_0[1])
+	local var_28_2 = arg_28_0:Find(var_28_0[2])
 
 	return var_28_1, var_28_2
 end
 
-function var_0_0.InitDormStocking(arg_29_0, arg_29_1, arg_29_2)
-	local var_29_0, var_29_1 = arg_29_0:IsUnlockStocking(arg_29_2)
+function var_0_0.Init(arg_29_0)
+	local var_29_0 = arg_29_0:Func("GetCurrentLadyEnv")
 
-	if not var_29_0 then
-		return
-	end
+	if var_29_0 then
+		for iter_29_0, iter_29_1 in pairs(var_29_0.skinIdList) do
+			local var_29_1 = arg_29_0:Get("skinDict")[iter_29_1].ladyGameObject
 
-	local var_29_2 = pg.dorm3d_resource[arg_29_2].stocking_pos
-	local var_29_3, var_29_4 = var_0_0.GetStockingGeo(arg_29_1, arg_29_2)
-
-	if var_29_1 then
-		setActive(var_29_3, true)
-		setActive(var_29_4, true)
-		GraphicsInterface.Instance:SetStockingPos(var_29_3.gameObject, var_29_2[1])
-		GraphicsInterface.Instance:SetStockingPos(var_29_4.gameObject, var_29_2[2])
-	else
-		setActive(var_29_3, false)
-		setActive(var_29_4, false)
+			arg_29_0:InitDormStocking(var_29_1.transform, iter_29_1)
+		end
 	end
 end
 
-function var_0_0.IsUnlockStocking(arg_30_0, arg_30_1)
-	if not var_0_0.UNLOCK_CONFIG[arg_30_1] then
+function var_0_0.InitDormStocking(arg_30_0, arg_30_1, arg_30_2)
+	local var_30_0, var_30_1 = arg_30_0:IsUnlockStocking(arg_30_2)
+
+	if not var_30_0 then
+		return
+	end
+
+	local var_30_2 = pg.dorm3d_resource[arg_30_2].stocking_pos
+	local var_30_3, var_30_4 = var_0_0.GetStockingGeo(arg_30_1, arg_30_2)
+
+	if var_30_1 then
+		setActive(var_30_3, true)
+		setActive(var_30_4, true)
+		GraphicsInterface.Instance:SetStockingPos(var_30_3.gameObject, var_30_2[1])
+		GraphicsInterface.Instance:SetStockingPos(var_30_4.gameObject, var_30_2[2])
+	else
+		setActive(var_30_3, false)
+		setActive(var_30_4, false)
+
+		local var_30_5 = arg_30_1:Find("all/body_geo"):GetComponent(typeof(SkinnedMeshRenderer))
+
+		var_30_5:SetBlendShapeWeight(0, 0)
+		var_30_5:SetBlendShapeWeight(1, 0)
+	end
+end
+
+function var_0_0.IsUnlockStocking(arg_31_0, arg_31_1)
+	if not var_0_0.UNLOCK_CONFIG[arg_31_1] then
 		return false, false
 	end
 
-	return true, arg_30_0:Get("room"):IsFurnitureSetIn(var_0_0.UNLOCK_CONFIG[arg_30_1])
+	return true, arg_31_0:Get("room"):IsFurnitureSetIn(var_0_0.UNLOCK_CONFIG[arg_31_1])
 end
 
 function var_0_0.GetInterests()
@@ -397,12 +414,15 @@ function var_0_0.GetInterests()
 	}
 end
 
-function var_0_0.HandleNotification(arg_32_0, arg_32_1, arg_32_2)
-	if arg_32_1 == GAME.APARTMENT_REPLACE_FURNITURE_DONE then
-		local var_32_0 = arg_32_0:Func("GetCurrentLadyEnv")
-		local var_32_1 = var_32_0.skinId
+function var_0_0.HandleNotification(arg_33_0, arg_33_1, arg_33_2)
+	if arg_33_1 == GAME.APARTMENT_REPLACE_FURNITURE_DONE then
+		local var_33_0 = arg_33_0:Func("GetCurrentLadyEnv")
 
-		arg_32_0:InitDormStocking(var_32_0, var_32_1)
+		for iter_33_0, iter_33_1 in pairs(var_33_0.skinIdList) do
+			local var_33_1 = arg_33_0:Get("skinDict")[iter_33_1].ladyGameObject
+
+			arg_33_0:InitDormStocking(var_33_1.transform, iter_33_1)
+		end
 	end
 end
 

@@ -53,47 +53,43 @@ function var_0_0.BindPageLink(arg_6_0)
 	end
 end
 
-function var_0_0.OnInit(arg_7_0)
+function var_0_0.SwitchOut(arg_7_0, arg_7_1)
+	arg_7_1()
+end
+
+function var_0_0.OnInit(arg_8_0)
 	return
 end
 
-function var_0_0.OnDataSetting(arg_8_0)
+function var_0_0.OnDataSetting(arg_9_0)
 	return
 end
 
-function var_0_0.GetPageLink(arg_9_0)
+function var_0_0.GetPageLink(arg_10_0)
 	return {}
 end
 
-function var_0_0.OnFirstFlush(arg_10_0)
+function var_0_0.OnFirstFlush(arg_11_0)
 	return
 end
 
-function var_0_0.OnUpdateFlush(arg_11_0)
+function var_0_0.OnUpdateFlush(arg_12_0)
 	return
 end
 
-function var_0_0.OnHideFlush(arg_12_0)
+function var_0_0.OnHideFlush(arg_13_0)
 	return
 end
 
-function var_0_0.OnShowFlush(arg_13_0)
+function var_0_0.OnShowFlush(arg_14_0)
 	return
 end
 
-function var_0_0.OnDestroy(arg_14_0)
+function var_0_0.OnDestroy(arg_15_0)
 	return
 end
 
-function var_0_0.OnLoadLayers(arg_15_0)
-	return
-end
-
-function var_0_0.OnRemoveLayers(arg_16_0)
-	return
-end
-
-function var_0_0.UseSecondPage(arg_17_0, arg_17_1)
+function var_0_0.UseSecondPage(arg_16_0, arg_16_1)
 	return false
 end
 

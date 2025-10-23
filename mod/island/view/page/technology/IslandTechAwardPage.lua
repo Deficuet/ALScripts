@@ -34,7 +34,7 @@ function var_0_0.OnDisable(arg_7_0)
 end
 
 function var_0_0.OnDestroy(arg_8_0)
-	return
+	arg_8_0:OnHide()
 end
 
 return var_0_0

@@ -22,9 +22,11 @@ end
 
 function var_0_0.GetAcquiringWay(arg_6_0)
 	local var_6_0 = {}
-	local var_6_1 = arg_6_0:GetDropConfig()
+	local var_6_1 = arg_6_0:GetDropConfig().jump_page or {}
 
-	for iter_6_0, iter_6_1 in ipairs(var_6_1.jump_page or {}) do
+	var_6_1 = var_6_1 == "" and {} or var_6_1
+
+	for iter_6_0, iter_6_1 in ipairs(var_6_1) do
 		table.insert(var_6_0, iter_6_1)
 	end
 
@@ -49,8 +51,8 @@ function var_0_0.GetTecDes(arg_8_0)
 	end
 
 	local var_8_1 = pg.island_technology_template[var_8_0]
-	local var_8_2 = IslandTechBelong.Names[var_8_1.belong]
-	local var_8_3 = var_8_1.name
+	local var_8_2 = IslandTechBelong.Names[var_8_1.tech_belong]
+	local var_8_3 = var_8_1.tech_name
 
 	return i18n("island_information_tech", var_8_2, var_8_3)
 end

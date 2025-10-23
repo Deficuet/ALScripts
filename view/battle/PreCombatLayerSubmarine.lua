@@ -4,7 +4,7 @@ local var_0_1 = import("..ship.FormationUI")
 function var_0_0.init(arg_1_0)
 	arg_1_0:CommonInit()
 
-	local var_1_0 = arg_1_0._tf:Find("middle")
+	local var_1_0 = arg_1_0._tf:Find("adapt/middle")
 
 	SetActive(var_1_0:Find("gear_score/main"), false)
 	SetActive(var_1_0:Find("gear_score/vanguard"), false)

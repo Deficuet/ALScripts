@@ -410768,6 +410768,136 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[900523] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "和睦号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600090,
+		english_name = "MOT Amity",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900523,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			955,
+			91,
+			0,
+			0,
+			0,
+			66,
+			0,
+			57,
+			31,
+			18,
+			51,
+			0
+		},
+		attrs_growth = {
+			9932,
+			506,
+			0,
+			0,
+			0,
+			462,
+			0,
+			830,
+			528,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			3733,
+			3733,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180002
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[900801] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -426651,6 +426781,3114 @@ end)()
 		gift_dislike = {
 			180003,
 			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600121] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "安妮女王复仇号",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600120,
+		english_name = "MOT Queen Anne's Revenge",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600121,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			962,
+			87,
+			0,
+			0,
+			0,
+			71,
+			0,
+			20,
+			15,
+			18,
+			70,
+			0
+		},
+		attrs_growth = {
+			27403,
+			1050,
+			0,
+			0,
+			0,
+			492,
+			0,
+			291,
+			356,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Queen Anne"
+		},
+		gift_dislike = {
+			180003,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600122] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "安妮女王复仇号",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600120,
+		english_name = "MOT Queen Anne's Revenge",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600122,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1197,
+			108,
+			0,
+			0,
+			0,
+			71,
+			0,
+			20,
+			15,
+			18,
+			70,
+			0
+		},
+		attrs_growth = {
+			27403,
+			1050,
+			0,
+			0,
+			0,
+			492,
+			0,
+			291,
+			356,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Queen Anne"
+		},
+		gift_dislike = {
+			180003,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600123] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "安妮女王复仇号",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600120,
+		english_name = "MOT Queen Anne's Revenge",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600123,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1666,
+			151,
+			0,
+			0,
+			0,
+			71,
+			0,
+			20,
+			15,
+			18,
+			70,
+			0
+		},
+		attrs_growth = {
+			27403,
+			1050,
+			0,
+			0,
+			0,
+			492,
+			0,
+			291,
+			356,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Queen Anne"
+		},
+		gift_dislike = {
+			180003,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600124] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "安妮女王复仇号",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600120,
+		english_name = "MOT Queen Anne's Revenge",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600124,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2370,
+			216,
+			0,
+			0,
+			0,
+			71,
+			0,
+			20,
+			15,
+			18,
+			70,
+			0
+		},
+		attrs_growth = {
+			27403,
+			1050,
+			0,
+			0,
+			0,
+			492,
+			0,
+			291,
+			356,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Queen Anne"
+		},
+		gift_dislike = {
+			180003,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600131] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "莱姆号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600130,
+		english_name = "MOT Lyme",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600131,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			796,
+			47,
+			0,
+			0,
+			0,
+			66,
+			0,
+			45,
+			18,
+			14.4,
+			80,
+			0
+		},
+		attrs_growth = {
+			20552,
+			643,
+			0,
+			0,
+			0,
+			462,
+			0,
+			667,
+			397,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Lyme"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600132] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "莱姆号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600130,
+		english_name = "MOT Lyme",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600132,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			990,
+			59,
+			0,
+			0,
+			0,
+			66,
+			0,
+			45,
+			18,
+			19.4,
+			80,
+			0
+		},
+		attrs_growth = {
+			20552,
+			643,
+			0,
+			0,
+			0,
+			462,
+			0,
+			667,
+			397,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Lyme"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600133] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "莱姆号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600130,
+		english_name = "MOT Lyme",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600133,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1378,
+			82,
+			0,
+			0,
+			0,
+			66,
+			0,
+			45,
+			18,
+			24.4,
+			80,
+			0
+		},
+		attrs_growth = {
+			20552,
+			643,
+			0,
+			0,
+			0,
+			462,
+			0,
+			667,
+			397,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Lyme"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600134] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "莱姆号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600130,
+		english_name = "MOT Lyme",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600134,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1961,
+			116,
+			0,
+			0,
+			0,
+			66,
+			0,
+			45,
+			18,
+			29.4,
+			80,
+			0
+		},
+		attrs_growth = {
+			20552,
+			643,
+			0,
+			0,
+			0,
+			462,
+			0,
+			667,
+			397,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Lyme"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600141] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "珍珠号",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600140,
+		english_name = "MOT Pearl",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600141,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			974,
+			84,
+			0,
+			0,
+			0,
+			67,
+			0,
+			25,
+			6,
+			26,
+			60,
+			0
+		},
+		attrs_growth = {
+			26143,
+			1026,
+			0,
+			0,
+			0,
+			463,
+			0,
+			370,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pearl"
+		},
+		gift_dislike = {
+			180009,
+			180003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600142] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "珍珠号",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600140,
+		english_name = "MOT Pearl",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600142,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1212,
+			105,
+			0,
+			0,
+			0,
+			67,
+			0,
+			25,
+			6,
+			26,
+			60,
+			0
+		},
+		attrs_growth = {
+			26143,
+			1026,
+			0,
+			0,
+			0,
+			463,
+			0,
+			370,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pearl"
+		},
+		gift_dislike = {
+			180009,
+			180003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600143] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "珍珠号",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600140,
+		english_name = "MOT Pearl",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600143,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1687,
+			147,
+			0,
+			0,
+			0,
+			67,
+			0,
+			25,
+			6,
+			26,
+			60,
+			0
+		},
+		attrs_growth = {
+			26143,
+			1026,
+			0,
+			0,
+			0,
+			463,
+			0,
+			370,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pearl"
+		},
+		gift_dislike = {
+			180009,
+			180003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600144] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "珍珠号",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600140,
+		english_name = "MOT Pearl",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600144,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2399,
+			209,
+			0,
+			0,
+			0,
+			67,
+			0,
+			25,
+			6,
+			26,
+			60,
+			0
+		},
+		attrs_growth = {
+			26143,
+			1026,
+			0,
+			0,
+			0,
+			463,
+			0,
+			370,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pearl"
+		},
+		gift_dislike = {
+			180009,
+			180003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600151] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "皇家詹姆斯号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600150,
+		english_name = "MOT Royal James",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600151,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			627,
+			30,
+			0,
+			0,
+			0,
+			72,
+			0,
+			49,
+			24,
+			18,
+			23,
+			0
+		},
+		attrs_growth = {
+			17870,
+			414,
+			0,
+			0,
+			0,
+			503,
+			0,
+			700,
+			574,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			0.95,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600152] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "皇家詹姆斯号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600150,
+		english_name = "MOT Royal James",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600152,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			780,
+			37,
+			0,
+			0,
+			0,
+			72,
+			0,
+			49,
+			24,
+			26,
+			23,
+			0
+		},
+		attrs_growth = {
+			17870,
+			414,
+			0,
+			0,
+			0,
+			503,
+			0,
+			700,
+			574,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600153] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "皇家詹姆斯号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600150,
+		english_name = "MOT Royal James",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600153,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1086,
+			52,
+			0,
+			0,
+			0,
+			72,
+			0,
+			49,
+			24,
+			34,
+			23,
+			0
+		},
+		attrs_growth = {
+			17870,
+			414,
+			0,
+			0,
+			0,
+			503,
+			0,
+			700,
+			574,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600154] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "皇家詹姆斯号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600150,
+		english_name = "MOT Royal James",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600154,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1545,
+			74,
+			0,
+			0,
+			0,
+			72,
+			0,
+			49,
+			24,
+			42,
+			23,
+			0
+		},
+		attrs_growth = {
+			17870,
+			414,
+			0,
+			0,
+			0,
+			503,
+			0,
+			700,
+			574,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600161] = {
+		raid_distance = 30,
+		oxy_max = 0,
+		name = "冒险号",
+		type = 22,
+		oxy_cost = 0,
+		skin_id = 9600160,
+		english_name = "MOT Adventure",
+		oxy_recovery_surface = 0,
+		attack_duration = 9999,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 9600161,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			334,
+			33,
+			0,
+			0,
+			0,
+			67,
+			0,
+			61,
+			28,
+			18,
+			22,
+			0
+		},
+		attrs_growth = {
+			9503,
+			459,
+			0,
+			0,
+			0,
+			465,
+			0,
+			875,
+			532,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			0.9,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-3
+				},
+				{
+					3,
+					1
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600162] = {
+		raid_distance = 30,
+		oxy_max = 0,
+		name = "冒险号",
+		type = 22,
+		oxy_cost = 0,
+		skin_id = 9600160,
+		english_name = "MOT Adventure",
+		oxy_recovery_surface = 0,
+		attack_duration = 9999,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 9600162,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			415,
+			41,
+			0,
+			0,
+			0,
+			67,
+			0,
+			61,
+			28,
+			18,
+			22,
+			0
+		},
+		attrs_growth = {
+			9503,
+			459,
+			0,
+			0,
+			0,
+			465,
+			0,
+			875,
+			532,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.95,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-3
+				},
+				{
+					3,
+					1
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600163] = {
+		raid_distance = 30,
+		oxy_max = 0,
+		name = "冒险号",
+		type = 22,
+		oxy_cost = 0,
+		skin_id = 9600160,
+		english_name = "MOT Adventure",
+		oxy_recovery_surface = 0,
+		attack_duration = 9999,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 9600163,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			578,
+			58,
+			0,
+			0,
+			0,
+			67,
+			0,
+			61,
+			28,
+			18,
+			22,
+			0
+		},
+		attrs_growth = {
+			9503,
+			459,
+			0,
+			0,
+			0,
+			465,
+			0,
+			875,
+			532,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-3
+				},
+				{
+					3,
+					1
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600164] = {
+		raid_distance = 30,
+		oxy_max = 0,
+		name = "冒险号",
+		type = 22,
+		oxy_cost = 0,
+		skin_id = 9600160,
+		english_name = "MOT Adventure",
+		oxy_recovery_surface = 0,
+		attack_duration = 9999,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 3,
+		id = 9600164,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			822,
+			82,
+			0,
+			0,
+			0,
+			67,
+			0,
+			61,
+			28,
+			18,
+			22,
+			0
+		},
+		attrs_growth = {
+			9503,
+			459,
+			0,
+			0,
+			0,
+			465,
+			0,
+			875,
+			532,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-3
+				},
+				{
+					3,
+					1
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()

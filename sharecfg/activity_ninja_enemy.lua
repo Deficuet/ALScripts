@@ -107,7 +107,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-克拉肯之触",
-		model = "fengfan_haigu03",
+		model = "fengfan_haigu_boss01",
 		first_drop = 907154,
 		id = 5,
 		basic = 300,
@@ -325,7 +325,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-沉眠潜伏者",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		first_drop = 907162,
 		id = 13,
 		basic = 300,
@@ -460,7 +460,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-沉眠潜伏者",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		first_drop = 907167,
 		id = 18,
 		basic = 300,
@@ -690,7 +690,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-掌灯幽影",
-		model = "fengfan_haigu04",
+		model = "fengfan_lingti_quzhu",
 		first_drop = 907177,
 		id = 28,
 		basic = 300,
@@ -711,7 +711,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-掌灯幽影",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		first_drop = 907178,
 		id = 29,
 		basic = 300,
@@ -900,7 +900,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-沉眠潜伏者",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		first_drop = 907187,
 		id = 38,
 		basic = 300,
@@ -963,7 +963,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-沉眠潜伏者",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		first_drop = 907190,
 		id = 41,
 		basic = 300,
@@ -1194,7 +1194,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-沉眠潜伏者",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		first_drop = 907201,
 		id = 52,
 		basic = 300,
@@ -1320,7 +1320,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-沉眠潜伏者",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		first_drop = 907207,
 		id = 58,
 		basic = 300,
@@ -1488,7 +1488,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-掌灯幽影",
-		model = "fengfan_haigu04",
+		model = "fengfan_lingti_quzhu",
 		first_drop = 907215,
 		id = 66,
 		basic = 300,
@@ -1656,7 +1656,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-掌灯幽影",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		first_drop = 907223,
 		id = 74,
 		basic = 300,
@@ -1740,7 +1740,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-掌灯幽影",
-		model = "fengfan_haigu04",
+		model = "fengfan_lingti_quzhu",
 		first_drop = 907227,
 		id = 78,
 		basic = 300,
@@ -1761,7 +1761,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-沉眠潜伏者",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		first_drop = 907228,
 		id = 79,
 		basic = 300,
@@ -1929,7 +1929,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-沉眠潜伏者",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		first_drop = 907236,
 		id = 87,
 		basic = 600,
@@ -1992,7 +1992,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静领主-克拉肯",
-		model = "fengfan_haigu06",
+		model = "fengfan_lingti_boss01",
 		first_drop = 907239,
 		id = 90,
 		basic = 600,
@@ -2034,7 +2034,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-掌灯幽影",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		first_drop = 907241,
 		id = 92,
 		basic = 900,
@@ -2076,7 +2076,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-沉眠潜伏者",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		first_drop = 907243,
 		id = 94,
 		basic = 900,
@@ -2118,7 +2118,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-沉眠潜伏者",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		first_drop = 907245,
 		id = 96,
 		basic = 900,
@@ -2160,7 +2160,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-掌灯幽影",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		first_drop = 907247,
 		id = 98,
 		basic = 900,
@@ -2202,7 +2202,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-克拉肯之触",
-		model = "fengfan_haigu03",
+		model = "fengfan_haigu_boss01",
 		first_drop = 907249,
 		id = 100,
 		basic = 900,
@@ -2273,7 +2273,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-沉眠潜伏者",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		first_drop = 0,
 		id = 106,
 		basic = 4000,
@@ -2313,7 +2313,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静领主-克拉肯",
-		model = "fengfan_haigu06",
+		model = "fengfan_lingti_boss01",
 		first_drop = 0,
 		id = 110,
 		basic = 6000,
@@ -2323,7 +2323,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-掌灯幽影",
-		model = "fengfan_haigu01",
+		model = "fengfan_haigu_quzhu",
 		first_drop = 0,
 		id = 111,
 		basic = 7000,
@@ -2343,7 +2343,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-沉眠潜伏者",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		first_drop = 0,
 		id = 113,
 		basic = 9000,
@@ -2353,7 +2353,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静之灵-沉眠潜伏者",
-		model = "fengfan_haigu05",
+		model = "fengfan_lingti_zhongxun",
 		first_drop = 0,
 		id = 114,
 		basic = 10000,
@@ -2403,7 +2403,7 @@ pg.activity_ninja_enemy = {
 	{
 		drop = 545,
 		name = "寂静守卫-沉眠潜伏者",
-		model = "fengfan_haigu02",
+		model = "fengfan_haigu_zhongxun",
 		first_drop = 0,
 		id = 119,
 		basic = 23000,

@@ -114,25 +114,13 @@ function var_0_0.OnUpdateFlush(arg_7_0)
 	arg_7_0.itemList:align(#arg_7_0.taskList)
 end
 
-function var_0_0.OnLoadLayers(arg_8_0)
+function var_0_0.OnShowFlush(arg_8_0)
 	arg_8_0.itemList:each(function(arg_9_0, arg_9_1)
-		setActive(arg_9_1, false)
+		setActive(arg_9_1, true)
 	end)
 end
 
-function var_0_0.OnRemoveLayers(arg_10_0)
-	arg_10_0.itemList:each(function(arg_11_0, arg_11_1)
-		setActive(arg_11_1, true)
-	end)
-end
-
-function var_0_0.OnShowFlush(arg_12_0)
-	arg_12_0.itemList:each(function(arg_13_0, arg_13_1)
-		setActive(arg_13_1, true)
-	end)
-end
-
-function var_0_0.OnDestroy(arg_14_0)
+function var_0_0.OnDestroy(arg_10_0)
 	return
 end
 

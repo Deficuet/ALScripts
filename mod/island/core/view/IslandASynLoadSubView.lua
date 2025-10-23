@@ -32,7 +32,7 @@ function var_0_0.ExecuteFuncList(arg_4_0)
 end
 
 function var_0_0.SetUIParent(arg_5_0, arg_5_1)
-	setParent(arg_5_1, arg_5_0:GetView().pageContianer)
+	return arg_5_0:GetView().pageContianer
 end
 
 function var_0_0.Show(arg_6_0, ...)

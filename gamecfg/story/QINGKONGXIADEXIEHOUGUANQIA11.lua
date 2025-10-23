@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			say = "于是，赫斯缇雅没有丝毫犹豫的将舰装穿到了身上——",
-			bgm = "danmachi-3",
+			bgm = "danmachi-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

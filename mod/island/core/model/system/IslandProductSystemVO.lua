@@ -52,10 +52,6 @@ function var_0_0.InitHandPlantCfg(arg_4_0)
 end
 
 function var_0_0.InitHandCollectCfg(arg_5_0)
-	if arg_5_0.productPlaceId == IslandProductConst.MinePlaceId then
-		return
-	end
-
 	for iter_5_0, iter_5_1 in ipairs(pg.island_production_mining.all) do
 		local var_5_0 = pg.island_production_mining[iter_5_1]
 
@@ -138,37 +134,34 @@ function var_0_0.GenHandCollectSlotInSlotPlace(arg_13_0, arg_13_1)
 	for iter_13_0, iter_13_1 in pairs(var_13_1) do
 		local var_13_2 = arg_13_0:GenHandCollectSlotByDataNew(iter_13_1)
 
-		table.insert(arg_13_1, var_13_2)
+		if var_13_2 then
+			table.insert(arg_13_1, var_13_2)
+		end
 	end
 end
 
 function var_0_0.GetHandCollectSlotBySlotId(arg_14_0, arg_14_1)
 	local var_14_0 = (arg_14_0.building or (arg_14_0.isSelf and getProxy(IslandProxy):GetIsland() or getProxy(IslandProxy):GetSharedIsland()):GetBuildingAgency():GetBuilding(arg_14_0.productPlaceId)):GetBuildingCollectData():GetCollectSlotData(arg_14_1)
 
-	return arg_14_0.productPlaceId == IslandProductConst.MinePlaceId and var_14_0.pos or arg_14_0.slotToUnitDic[var_14_0.configId]
+	return arg_14_0.slotToUnitDic[var_14_0.configId]
 end
 
 function var_0_0.GenHandCollectSlotByDataNew(arg_15_0, arg_15_1)
-	local var_15_0 = arg_15_0.productPlaceId == IslandProductConst.MinePlaceId
-	local var_15_1 = var_15_0 and arg_15_1.pos or arg_15_0.slotToUnitDic[arg_15_1.configId]
+	local var_15_0 = arg_15_0.productPlaceId == IslandProductConst.FellingPlaceId
+	local var_15_1 = arg_15_0.slotToUnitDic[arg_15_1.configId]
 	local var_15_2 = pg.island_production_slot[arg_15_1.configId].formula[1]
 	local var_15_3 = pg.island_formula[var_15_2].unitid[1][2]
-	local var_15_4
-	local var_15_5 = arg_15_1:GetCanCollectTimeStamps()
 
-	if var_15_5 ~= 0 and var_15_0 then
-		var_15_4 = var_15_5 - pg.TimeMgr.GetInstance():GetServerTime()
+	if arg_15_1:GetCanCollectTimeStamps() == 0 or var_15_0 then
+		local var_15_4 = {
+			unitId = var_15_3,
+			typ = IslandConst.UNIT_TYPE_ITEM_HANDLE_COLLECT,
+			slotId = arg_15_1.configId
+		}
+		local var_15_5 = pg.island_world_objects[var_15_1] or {}
+
+		return (arg_15_0:CollectSlotObj2IslandUnit(var_15_5, var_15_4))
 	end
-
-	local var_15_6 = {
-		unitId = var_15_3,
-		typ = IslandConst.UNIT_TYPE_ITEM_HANDLE_COLLECT,
-		slotId = arg_15_1.configId,
-		delayTime = var_15_4
-	}
-	local var_15_7 = pg.island_world_objects[var_15_1] or {}
-
-	return (arg_15_0:CollectSlotObj2IslandUnit(var_15_7, var_15_6))
 end
 
 function var_0_0.InitHandCollectSlotBySlotId(arg_16_0, arg_16_1)
@@ -354,8 +347,7 @@ function var_0_0.CollectSlotObj2IslandUnit(arg_24_0, arg_24_1, arg_24_2)
 		formula_id = arg_24_2.formula_id,
 		slotId = arg_24_2.slotId,
 		slotType = arg_24_2.slotType,
-		isSelfIsland = arg_24_0.isSelf,
-		delayTime = arg_24_2.delayTime
+		isSelfIsland = arg_24_0.isSelf
 	}))
 end
 

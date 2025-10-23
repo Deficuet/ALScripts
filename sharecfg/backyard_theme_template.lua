@@ -5171,6 +5171,39 @@ pg.backyard_theme_template = {
 			330101
 		}
 	},
+	[132] = {
+		Cfg_1 = 5,
+		name = "幽光神殿",
+		hot = 1,
+		is_view = 1,
+		id = 132,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "推开失落的门扉，在微光闪烁间，探寻古老的密语吧~",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "mfthemeicon",
+		deblocking = 1,
+		order = 132,
+		ids = {
+			332001,
+			332002,
+			332101,
+			332102,
+			332103,
+			332104,
+			332105,
+			332106,
+			332107,
+			332108,
+			332109,
+			332110,
+			332111,
+			332112,
+			332301
+		}
+	},
 	all = {
 		1,
 		2,
@@ -5292,6 +5325,7 @@ pg.backyard_theme_template = {
 		126,
 		127,
 		129,
-		130
+		130,
+		132
 	}
 }

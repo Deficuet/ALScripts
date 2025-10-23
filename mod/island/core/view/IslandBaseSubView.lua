@@ -4,7 +4,9 @@ function var_0_0.Init(arg_1_0, ...)
 	local var_1_0 = packEx(...)
 
 	arg_1_0.loadingId = IslandAssetLoadDispatcher.Instance:Enqueue("UI/" .. arg_1_0:GetUIName(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_2_0)
-		arg_1_0.uiInstID = FrameAsyncInstantiateManager.Instance:EnqueueInstantiate(arg_2_0, function(arg_3_0)
+		local var_2_0 = arg_1_0:SetUIParent()
+
+		arg_1_0.uiInstID = FrameAsyncInstantiateManager.Instance:EnqueueInstantiate(arg_2_0, Vector3.zero, Quaternion.identity, var_2_0, function(arg_3_0)
 			arg_1_0:DoInit(arg_3_0, var_1_0)
 		end)
 	end), true, true)
@@ -15,7 +17,9 @@ function var_0_0.DoInit(arg_4_0, arg_4_1, arg_4_2)
 	arg_4_0._tf = arg_4_1.transform
 
 	var_0_0.super.Init(arg_4_0, arg_4_1)
-	arg_4_0:SetUIParent(arg_4_1)
+
+	arg_4_0._tf.localPosition = Vector3.zero
+
 	arg_4_1.transform:SetAsFirstSibling()
 	arg_4_0:OnBeforeLoaded()
 	arg_4_0:FirstFlush()

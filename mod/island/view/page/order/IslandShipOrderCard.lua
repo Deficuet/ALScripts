@@ -5,6 +5,8 @@ local var_0_3 = Color.New(0.8588235294117647, 0.8588235294117647, 0.858823529411
 local var_0_4 = Color.New(1, 0.6823529411764706, 0.13333333333333333, 1)
 local var_0_5 = Color.New(1, 1, 1, 1)
 
+var_0_0.EVENT_CD_END = "IslandShipOrderCard.EVENT_CD_END"
+
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.parent = arg_1_2
 	arg_1_0._tf = arg_1_1
@@ -283,6 +285,7 @@ function var_0_0.UpdateReloadingTime(arg_24_0, arg_24_1)
 			arg_24_0.reloadingTimerTxt.text = ""
 
 			arg_24_0:Flush(arg_24_1, arg_24_0.mode)
+			pg.m02:sendNotification(var_0_0.EVENT_CD_END)
 		else
 			arg_24_0.reloadingTimerTxt.text = pg.TimeMgr.GetInstance():DescCDTime(var_25_1)
 		end

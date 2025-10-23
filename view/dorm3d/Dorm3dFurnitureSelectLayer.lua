@@ -470,7 +470,7 @@ function var_0_0.UpdateView(arg_50_0)
 			configId = arg_50_0.selectSlotId
 		})
 
-		if var_50_9:GetType() == Dorm3dFurniture.TYPE.DECORATION then
+		if var_50_9:GetType() == Dorm3dFurniture.TYPE.DECORATION or var_50_9:GetType() == Dorm3dFurniture.TYPE.SPECIAL then
 			local var_50_10 = arg_50_0.room:GetFurnitures()
 
 			if _.detect(var_50_10, function(arg_64_0)

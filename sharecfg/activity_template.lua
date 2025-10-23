@@ -29339,12 +29339,13 @@ pg.activity_template = {
 	},
 	[50140] = {
 		mark = 20250925,
-		id = 50140,
 		title_res_tag = "SkinDiscount_School",
+		time = "stop",
 		type = 124,
 		login_pop = 0,
 		config_id = 998560,
 		is_show = 42,
+		id = 50140,
 		page_core = "",
 		config_data = {
 			{
@@ -29388,33 +29389,6 @@ pg.activity_template = {
 				71036
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SportAndRacingSkinEncoreLoginPage",
 			ui_name = "SportAndRacingSkinEncoreLoginPage"
@@ -29426,12 +29400,13 @@ pg.activity_template = {
 	},
 	[50141] = {
 		mark = 20250925,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50141,
 		page_core = "",
@@ -29445,112 +29420,33 @@ pg.activity_template = {
 			{
 				21847
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50142] = {
 		mark = 20250925,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 68,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50142,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					9,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					22
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50151] = {
 		mark = 20251009,
-		id = 50151,
 		title_res_tag = "HeLanSP_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 50151,
 		is_show = 3,
+		id = 50151,
 		page_core = "AEBCSCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "AEBCSPtPage",
 			ui_name = "AEBCSPtPage"
@@ -29572,6 +29468,7 @@ pg.activity_template = {
 	[50152] = {
 		mark = 20251009,
 		title_res_tag = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -29580,33 +29477,6 @@ pg.activity_template = {
 		id = 50152,
 		page_core = "AEBCSCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "AEBCSMainPage",
 			ui_name = "AEBCSMainPage"
@@ -29614,41 +29484,15 @@ pg.activity_template = {
 	},
 	[50153] = {
 		mark = 20251009,
-		id = 50153,
 		title_res_tag = "xiaoankeleiqi_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 50153,
 		is_show = 2,
+		id = 50153,
 		page_core = "AEBCSCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "AEBCSHestiaPage",
 			ui_name = "AEBCSHestiaPage"
@@ -29669,43 +29513,17 @@ pg.activity_template = {
 	},
 	[50154] = {
 		mark = 20251009,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 50154,
 		page_core = "",
 		config_data = {
 			24501
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		},
 		config_client = {
 			npc = {
@@ -29716,41 +29534,15 @@ pg.activity_template = {
 	},
 	[50155] = {
 		mark = 20251009,
-		id = 50155,
 		title_res_tag = "tolovecollect",
+		time = "stop",
 		type = 103,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 5,
+		id = 50155,
 		page_core = "AEBCSCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "AEBCSAwardPage",
 			ui_name = "AEBCSAwardPage"
@@ -29797,41 +29589,15 @@ pg.activity_template = {
 	},
 	[50156] = {
 		mark = 20251009,
-		id = 50156,
 		title_res_tag = "",
+		time = "stop",
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 4,
+		id = 50156,
 		page_core = "AEBCSCoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "AEBCSStoryPage",
 			ui_name = "AEBCSStoryPage"
@@ -29860,84 +29626,32 @@ pg.activity_template = {
 	},
 	[50159] = {
 		mark = 20251009,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50159,
 		page_core = "",
 		config_data = {
 			21848
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50161] = {
 		mark = 20251009,
-		title_res_tag = "sading_frame",
+		title_res_tag = "dexiV3_frame",
+		time = "stop",
 		type = 87,
 		login_pop = 0,
-		config_id = 32,
+		config_id = 31,
 		is_show = 45,
 		config_client = "",
 		id = 50161,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "SaDingFrameRePage",
 			ui_name = "SaDingFrameRePage"
@@ -29945,52 +29659,27 @@ pg.activity_template = {
 	},
 	[50162] = {
 		mark = 20251009,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 58,
 		login_pop = 0,
 		config_id = 25,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50162,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50163] = {
 		mark = 20251009,
-		id = 50163,
 		title_res_tag = "expo_ticket",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 46,
+		id = 50163,
 		page_core = "",
 		config_data = {
 			{
@@ -30020,33 +29709,6 @@ pg.activity_template = {
 			{
 				24523,
 				24524
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
 			}
 		},
 		page_info = {
@@ -30081,43 +29743,17 @@ pg.activity_template = {
 	},
 	[50164] = {
 		mark = 20251009,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 50164,
 		page_core = "",
 		config_data = {
-			4
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
+			10
 		},
 		config_client = {
 			65714
@@ -30126,6 +29762,7 @@ pg.activity_template = {
 	[50165] = {
 		mark = 20251009,
 		title_res_tag = "YidaliV2_login",
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 78,
@@ -30134,33 +29771,6 @@ pg.activity_template = {
 		id = 50165,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "SaDingLoginRePage",
 			ui_name = "SaDingLoginRePage"
@@ -30168,12 +29778,13 @@ pg.activity_template = {
 	},
 	[50166] = {
 		mark = 20251009,
-		id = 50166,
-		title_res_tag = "clemenceau_main",
+		title_res_tag = "dexiV5_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 48,
+		id = 50166,
 		page_core = "",
 		config_data = {
 			1740001,
@@ -30182,33 +29793,6 @@ pg.activity_template = {
 			1740021,
 			1740022,
 			1740023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		},
 		page_info = {
 			class_name = "ClemenceauMainRePage",
@@ -30220,12 +29804,13 @@ pg.activity_template = {
 	},
 	[50167] = {
 		mark = 20251009,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 50167,
 		page_core = "",
 		config_data = {
@@ -30238,45 +29823,19 @@ pg.activity_template = {
 			1740041,
 			1740051
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
 	},
 	[50168] = {
 		mark = 20251009,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50168,
 		page_core = "",
@@ -30301,33 +29860,6 @@ pg.activity_template = {
 			24542,
 			24543,
 			24544
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50169] = {
@@ -30463,12 +29995,13 @@ pg.activity_template = {
 	},
 	[50171] = {
 		mark = 20251009,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50171,
 		page_core = "",
@@ -30479,33 +30012,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					10,
-					29
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50172] = {
@@ -30550,12 +30056,13 @@ pg.activity_template = {
 	},
 	[50173] = {
 		mark = 20251009,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50173,
 		page_core = "",
@@ -30564,6 +30071,41 @@ pg.activity_template = {
 				31955,
 				100
 			}
+		}
+	},
+	[50175] = {
+		mark = 20251016,
+		time = "stop",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		config_client = "",
+		id = 50175,
+		page_core = "",
+		config_data = {}
+	},
+	[50181] = {
+		mark = 20251023,
+		id = 50181,
+		title_res_tag = "StormSeaMainPage",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		page_core = "SailingShip3CoreActivityUI",
+		config_data = {
+			1970001,
+			1970002,
+			1970003,
+			1970004,
+			1970005,
+			1970006,
+			1970041,
+			1970051,
+			1970052
 		},
 		time = {
 			"timer",
@@ -30571,7 +30113,7 @@ pg.activity_template = {
 				{
 					2025,
 					10,
-					16
+					23
 				},
 				{
 					0,
@@ -30582,8 +30124,81 @@ pg.activity_template = {
 			{
 				{
 					2025,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SailingShip3MainPage",
+			ui_name = "SailingShip3MainPage"
+		},
+		config_client = {
+			task_id = 24600,
+			entrance_bg = "activitybanner/temp10",
+			PTID = 577
+		}
+	},
+	[50182] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 50182,
+		page_core = "",
+		config_data = {
+			24579,
+			24580,
+			24581,
+			24582,
+			24583,
+			24584,
+			24585,
+			24586,
+			24587,
+			24588,
+			24589,
+			24590,
+			24591,
+			24592,
+			24593,
+			24594,
+			24595,
+			24596,
+			24597,
+			24598,
+			24599,
+			24600,
+			24601
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
 					10,
-					22
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
 				},
 				{
 					23,
@@ -30593,25 +30208,25 @@ pg.activity_template = {
 			}
 		}
 	},
-	[50175] = {
-		mark = 20251016,
+	[50183] = {
+		mark = 20251023,
 		title_res_tag = "",
 		page_info = "",
-		type = 1,
+		type = 16,
 		login_pop = 0,
-		config_id = 4,
+		config_id = 577,
 		is_show = 0,
+		config_data = "100",
 		config_client = "",
-		id = 50175,
+		id = 50183,
 		page_core = "",
-		config_data = {},
 		time = {
 			"timer",
 			{
 				{
 					2025,
 					10,
-					16
+					23
 				},
 				{
 					0,
@@ -30622,13 +30237,649 @@ pg.activity_template = {
 			{
 				{
 					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50184] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 50184,
+		page_core = "",
+		config_data = {
+			1977002,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
 					10,
 					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50202] = {
+		mark = 20251023,
+		id = 50202,
+		title_res_tag = "GhostSkinStory",
+		type = 117,
+		login_pop = 0,
+		config_id = 65720,
+		is_show = 3,
+		page_core = "SailingShip3CoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
 				},
 				{
 					12,
 					0,
 					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "SailingShip3SkinActPage",
+			ui_name = "SailingShip3SkinActUI"
+		},
+		config_client = {
+			story = {
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII5"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII8"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII7"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII3"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII1"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII6"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII2"
+				},
+				{
+					"GANGQUJIARIGUIGUAIGUSHIJIII4"
+				}
+			},
+			group_1 = {
+				24561,
+				24562,
+				24563,
+				24564,
+				24565,
+				24566,
+				24567,
+				24568
+			},
+			group_2 = {
+				24569,
+				24570,
+				24571,
+				24572,
+				24573,
+				24574,
+				24575,
+				24576
+			},
+			group_3 = {
+				24577
+			}
+		}
+	},
+	[50203] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 50203,
+		page_core = "",
+		config_data = {
+			24561,
+			24562,
+			24563,
+			24564,
+			24565,
+			24566,
+			24567,
+			24568,
+			24569,
+			24570,
+			24571,
+			24572,
+			24573,
+			24574,
+			24575,
+			24576,
+			24577
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[50204] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 58,
+		is_show = 0,
+		config_client = "",
+		id = 50204,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[50205] = {
+		mark = 20251023,
+		id = 50205,
+		title_res_tag = "StormSeaPtPage",
+		type = 74,
+		login_pop = 0,
+		config_id = 50205,
+		is_show = 2,
+		page_core = "SailingShip3CoreActivityUI",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SailingShip3PtPage",
+			ui_name = "SailingShip3PtPage"
+		},
+		config_client = {
+			shopLinkActID = 50206,
+			highValueItemSort = {
+				23,
+				30,
+				36,
+				40
+			}
+		}
+	},
+	[50206] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 50206,
+		page_core = "",
+		config_data = {
+			3301,
+			3302,
+			3303,
+			3304,
+			3305,
+			3306,
+			3307,
+			3308,
+			3309,
+			3310,
+			3311,
+			3312,
+			3313,
+			3314,
+			3315,
+			3316,
+			3317,
+			3318,
+			3319,
+			3320,
+			3321,
+			3322,
+			3323,
+			3324,
+			3325,
+			3326,
+			3327,
+			3328,
+			3329,
+			3330,
+			3331,
+			3332
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_aersasi",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			use_secretary = false,
+			painting = "zhenzhuhao_pt",
+			pt_id = 577
+		}
+	},
+	[50208] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		id = 50208,
+		page_core = "",
+		config_data = {
+			{
+				31930,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50209] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 50209,
+		page_core = "",
+		config_data = {
+			21849,
+			21850,
+			21851,
+			21852,
+			21853,
+			21854,
+			21855,
+			21856,
+			21857,
+			21858
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50210] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		id = 50210,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "安妮女王复仇号、莱姆号等角色建造概率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有舰船</color>：7%",
+				"<color=#d797ff>精锐舰船</color>：12%",
+				"<color=#3dc6ff>稀有舰船</color>：51%",
+				"普通舰船：30%",
+				"<color=#ffde38>安妮女王复仇号</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>莱姆号</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>珍珠号</color>：0.5%",
+				" ",
+				"<color=#ffde38>冈依沙瓦号</color>：0.5%",
+				" ",
+				"<color=#ffde38>幻想号</color>：0.5%",
+				" ",
+				"<color=#ffde38>和睦号</color>：0.5%",
+				" ",
+				"<color=#d797ff>皇家詹姆斯号</color>：2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>朴茨茅斯冒险号</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[50211] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 5,
+		is_show = 0,
+		id = 50211,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 5,
+			bg = "loadingbg/bg_build_5_act",
+			buildship_tip = "冈依沙瓦号、幻想号等角色建造概率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有舰船</color>：7%",
+				"<color=#d797ff>精锐舰船</color>：12%",
+				"<color=#3dc6ff>稀有舰船</color>：51%",
+				"普通舰船：30%",
+				"<color=#ffde38>冈依沙瓦号</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>幻想号</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>和睦号</color>：0.5%",
+				" ",
+				"<color=#d797ff>朴茨茅斯冒险号</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[50212] = {
+		mark = 20251023,
+		title_res_tag = "",
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		id = 50212,
+		page_core = "",
+		config_data = {
+			{
+				31942,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -39564,6 +39815,9 @@ pg.activity_template = {
 			50154,
 			50159,
 			50168,
+			50182,
+			50203,
+			50209,
 			1079,
 			1080,
 			1081,
@@ -39735,6 +39989,7 @@ pg.activity_template = {
 			50151,
 			50153,
 			50169,
+			50205,
 			1086,
 			6006,
 			6010,
@@ -39783,7 +40038,8 @@ pg.activity_template = {
 			50061,
 			50088,
 			50129,
-			50170
+			50170,
+			50206
 		},
 		[102] = {
 			4887
@@ -39847,7 +40103,9 @@ pg.activity_template = {
 			50062,
 			50093,
 			50127,
-			50175
+			50175,
+			50210,
+			50211
 		},
 		[36] = {
 			4895,
@@ -39882,7 +40140,8 @@ pg.activity_template = {
 			50059,
 			50089,
 			50119,
-			50171
+			50171,
+			50184
 		},
 		[16] = {
 			4896,
@@ -39928,7 +40187,8 @@ pg.activity_template = {
 			50060,
 			50090,
 			50131,
-			50172
+			50172,
+			50183
 		},
 		[12] = {
 			4898,
@@ -39992,7 +40252,8 @@ pg.activity_template = {
 			50114,
 			50115,
 			50166,
-			50167
+			50167,
+			50181
 		},
 		[27] = {
 			4900,
@@ -40039,7 +40300,9 @@ pg.activity_template = {
 			50056,
 			50092,
 			50135,
-			50173
+			50173,
+			50208,
+			50212
 		},
 		[80] = {
 			4902,
@@ -40225,6 +40488,7 @@ pg.activity_template = {
 			5976,
 			50046,
 			50083,
+			50204,
 			100002
 		},
 		[51] = {
@@ -40408,7 +40672,8 @@ pg.activity_template = {
 		},
 		[117] = {
 			5535,
-			5623
+			5623,
+			50202
 		},
 		[118] = {
 			5560
@@ -41412,6 +41677,20 @@ pg.activity_template = {
 		50172,
 		50173,
 		50175,
+		50181,
+		50182,
+		50183,
+		50184,
+		50202,
+		50203,
+		50204,
+		50205,
+		50206,
+		50208,
+		50209,
+		50210,
+		50211,
+		50212,
 		7011,
 		7012,
 		7013,

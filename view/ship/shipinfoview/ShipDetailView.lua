@@ -21,6 +21,7 @@ function var_0_0.OnInit(arg_2_0)
 	setParent(arg_2_0.randomFlagToggle, arg_2_0._tf.parent)
 	setActive(arg_2_0.randomFlagToggle, true)
 	triggerToggle(arg_2_0.showQuickBtn, false)
+	triggerToggle(arg_2_0.showRecordBtn, false)
 end
 
 function var_0_0.InitDetail(arg_3_0)
@@ -309,7 +310,7 @@ function var_0_0.InitEvent(arg_5_0)
 			end
 
 			setActive(findTF(tf(arg_28_1), "IconTpl/icon_bg/icon"), true)
-			updateEquipment(tf(arg_28_1:Find("IconTpl")), var_28_1)
+			updateEquipment(findTF(tf(arg_28_1), "IconTpl"), var_28_1)
 
 			if var_28_1.shipId then
 				local var_28_2 = getProxy(BayProxy):getShipById(var_28_1.shipId)

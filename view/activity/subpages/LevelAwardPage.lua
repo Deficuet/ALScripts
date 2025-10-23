@@ -60,7 +60,7 @@ end
 function var_0_0.OnUpdateFlush(arg_7_0)
 	for iter_7_0 = 1, #arg_7_0.config.front_drops do
 		local var_7_0 = arg_7_0.config.front_drops[iter_7_0]
-		local var_7_1 = arg_7_0._tf:Find("award" .. tostring(iter_7_0), arg_7_0.content)
+		local var_7_1 = arg_7_0.content:Find("award" .. tostring(iter_7_0))
 		local var_7_2 = var_7_1:Find("btnAchieve")
 		local var_7_3 = var_7_1:Find("achieve_sign")
 		local var_7_4 = _.include(arg_7_0.activity.data1_list, var_7_0[1])

@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "不久前我还在欧拉丽那熟悉的街巷中思考问题……比如接下来该去买多少个炸薯球。",
-			bgm = "danmachi-1",
+			bgm = "danmachi-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

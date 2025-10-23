@@ -6,9 +6,8 @@ var_0_0.slotType = {
 }
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
-	arg_1_0.id = arg_1_2.id
+	arg_1_0.id = arg_1_2
 	arg_1_0.configId = arg_1_0.id
-	arg_1_0.pos = arg_1_2.pos
 	arg_1_0.placeData = arg_1_1
 	arg_1_0.slotType = arg_1_3
 end
@@ -16,7 +15,6 @@ end
 function var_0_0.UpdateData(arg_2_0, arg_2_1)
 	arg_2_0.id = arg_2_1.id
 	arg_2_0.configId = arg_2_0.id
-	arg_2_0.pos = arg_2_1.pos
 end
 
 function var_0_0.GetCanCollectTimeStamps(arg_3_0)
@@ -24,14 +22,11 @@ function var_0_0.GetCanCollectTimeStamps(arg_3_0)
 		return 0
 	end
 
-	local var_3_0 = arg_3_0.placeData:GetCanCollectTime()
-	local var_3_1 = arg_3_0.placeData:GetInRecoverTimeBySlotId(arg_3_0.id)
-
-	if var_3_1 <= var_3_0 then
+	if arg_3_0.placeData:GetCanCollectTime() >= arg_3_0.placeData:GetInRecoverTimeBySlotId(arg_3_0.id) then
 		return 0
 	end
 
-	return arg_3_0.placeData:GetNextRecoverTimes(var_3_1 - var_3_0)
+	return arg_3_0.placeData:GetNextRecoverTimes()
 end
 
 function var_0_0.UpdateCollectData(arg_4_0, arg_4_1, arg_4_2)
@@ -45,23 +40,13 @@ function var_0_0.UpdateCollectData(arg_4_0, arg_4_1, arg_4_2)
 		return
 	end
 
-	local var_4_1
-
-	if arg_4_1.pos ~= arg_4_0.pos then
+	if arg_4_0.placeData.placeId == IslandProductConst.MinePlaceId then
 		var_4_0:DispatchEvent(IslandBuildingAgency.COLLECT_SLOT_UNIT_REMOVE, {
 			slotId = arg_4_0.configId
 		})
-
-		var_4_1 = true
 	end
 
 	arg_4_0:UpdateData(arg_4_1)
-
-	if var_4_1 then
-		var_4_0:DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, {
-			slotId = arg_4_0.configId
-		})
-	end
 end
 
 function var_0_0.StartColloct(arg_5_0)

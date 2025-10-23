@@ -472,6 +472,7 @@ function var_0_0.OnDisable(arg_54_0)
 end
 
 function var_0_0.OnDestroy(arg_55_0)
+	arg_55_0:OnHide()
 	ClearLScrollrect(arg_55_0.scrollRect)
 
 	for iter_55_0, iter_55_1 in pairs(arg_55_0.cards) do

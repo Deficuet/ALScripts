@@ -1,6 +1,7 @@
 local var_0_0 = class("IslandBuildingAgency", import(".IslandBaseAgency"))
 
 var_0_0.COLLECT_SlOT_UNIT_INIT = "IslandBuildingAgency:COLLECT_SlOT_UNIT_INIT"
+var_0_0.COLLECT_SlOT_UNIT_UPDATE = "IslandBuildingAgency:COLLECT_SlOT_UNIT_UPDATE"
 var_0_0.COLLECT_SLOT_UNIT_REMOVE = "IslandBuildingAgency:COLLECT_SLOT_UNIT_REMOVE"
 var_0_0.SLOT_HANDPLABT_SLOT_UNIT_CHANGE = "IslandBuildingAgency:SLOT_HANDPLABT_SLOT_UNIT_CHANGE"
 var_0_0.SLOT_RESET_DELEGATION_STATE_DONE = "IslandBuildingAgency:SLOT_RESET_DELEGATION_STATE_DONE"
@@ -101,7 +102,7 @@ function var_0_0.InitBuildData(arg_10_0, arg_10_1)
 
 	for iter_10_0, iter_10_1 in ipairs(arg_10_1.build_collect.collect_list or {}) do
 		var_10_1:DispatchEvent(IslandBuildingAgency.COLLECT_SlOT_UNIT_INIT, {
-			slotId = iter_10_1.id
+			slotId = iter_10_1
 		})
 	end
 

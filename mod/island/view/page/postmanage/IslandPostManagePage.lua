@@ -162,6 +162,8 @@ function var_0_0.OnDisable(arg_22_0)
 end
 
 function var_0_0.OnDestroy(arg_23_0)
+	arg_23_0:UnBlurPanel()
+
 	for iter_23_0, iter_23_1 in pairs(arg_23_0.pages) do
 		if iter_23_1 then
 			iter_23_1:Destroy()

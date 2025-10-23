@@ -653,6 +653,62 @@ pg.commander_data_template = {
 			5131
 		}
 	},
+	[960061] = {
+		exp = 500,
+		name = "蒂奇喵",
+		ability_refresh_type = 1,
+		nationality = 96,
+		max_level = 30,
+		tactic_value = 67,
+		exp_cost = 30,
+		desc = "指挥喵蒂奇喵——通过活动「飓风与自由群岛」获取",
+		rarity = 5,
+		support_value = 40,
+		painting = "diqimiao",
+		group_type = 96006,
+		id = 960061,
+		bg = "1",
+		skill_id = 960061,
+		command_value = 55,
+		ability_show = {
+			5171,
+			831,
+			832,
+			321,
+			833,
+			5101,
+			322,
+			5131
+		}
+	},
+	[960071] = {
+		exp = 300,
+		name = "邦尼喵",
+		ability_refresh_type = 1,
+		nationality = 96,
+		max_level = 30,
+		tactic_value = 37,
+		exp_cost = 20,
+		desc = "指挥喵邦尼喵——通过活动「飓风与自由群岛」获取",
+		rarity = 4,
+		support_value = 55,
+		painting = "bangnimiao",
+		group_type = 96007,
+		id = 960071,
+		bg = "1",
+		skill_id = 960071,
+		command_value = 42,
+		ability_show = {
+			5181,
+			771,
+			772,
+			141,
+			773,
+			5111,
+			142,
+			5121
+		}
+	},
 	all = {
 		10011,
 		10021,
@@ -685,6 +741,8 @@ pg.commander_data_template = {
 		960021,
 		960031,
 		960041,
-		960051
+		960051,
+		960061,
+		960071
 	}
 }

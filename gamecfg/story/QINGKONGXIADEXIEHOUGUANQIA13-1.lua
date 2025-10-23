@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "danmachi-2",
+			bgm = "danmachi-az-story",
 			side = 2,
 			bgName = "star_level_bg_650",
 			nameColor = "#A9F548FF",

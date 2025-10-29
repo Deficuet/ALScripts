@@ -12033,6 +12033,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_guide_character_help = {
+		tip = "信息"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_cannon = {
 		tip = "舰炮"
 	}
@@ -14585,8 +14591,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_character_help = {
-		tip = "信息"
+	_G.pg.base.gametip.shop_sell_ended = {
+		tip = "不可购买"
 	}
 end)()
 

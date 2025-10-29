@@ -182,7 +182,7 @@ function var_0_0.GetCurrentCanRewardExtraMainNum(arg_22_0)
 end
 
 function var_0_0.GetReturnExtraNum(arg_23_0, arg_23_1)
-	local var_23_0 = #arg_23_0.cost_time_list - arg_23_1
+	local var_23_0 = #arg_23_0.cost_time_list - arg_23_1 + 1
 	local var_23_1 = 0
 
 	for iter_23_0 = #arg_23_0.cost_time_list, var_23_0, -1 do

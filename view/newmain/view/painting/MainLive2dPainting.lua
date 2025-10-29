@@ -349,37 +349,45 @@ function var_0_0.SetContainerVisible(arg_31_0, arg_31_1)
 	return
 end
 
-function var_0_0.OnResume(arg_32_0)
-	arg_32_0:SetContainerVisible(true)
-	arg_32_0:AddScreenChangeTimer()
-	arg_32_0:UpdateContainerPosition()
+function var_0_0.IsLoaded(arg_32_0)
+	if not arg_32_0.live2dChar then
+		return false
+	end
+
+	return var_0_0.super.IsLoaded(arg_32_0)
+end
+
+function var_0_0.OnResume(arg_33_0)
+	arg_33_0:SetContainerVisible(true)
+	arg_33_0:AddScreenChangeTimer()
+	arg_33_0:UpdateContainerPosition()
 	onNextTick(function()
-		if arg_32_0.ship then
-			arg_32_0:Load(arg_32_0.ship)
+		if arg_33_0.ship then
+			arg_33_0:Load(arg_33_0.ship)
 		end
 	end)
 end
 
-function var_0_0.Dispose(arg_34_0)
-	var_0_0.super.Dispose(arg_34_0)
-	arg_34_0:RemoveSeTimer()
-	arg_34_0:RemoveScreenChangeTimer()
+function var_0_0.Dispose(arg_35_0)
+	var_0_0.super.Dispose(arg_35_0)
+	arg_35_0:RemoveSeTimer()
+	arg_35_0:RemoveScreenChangeTimer()
 
-	if arg_34_0.eventTrigger then
-		ClearEventTrigger(arg_34_0.eventTrigger)
+	if arg_35_0.eventTrigger then
+		ClearEventTrigger(arg_35_0.eventTrigger)
 	end
 end
 
-function var_0_0.GetOffset(arg_35_0)
-	return arg_35_0.live2dContainer.localPosition.x
+function var_0_0.GetOffset(arg_36_0)
+	return arg_36_0.live2dContainer.localPosition.x
 end
 
-function var_0_0.GetCenterPos(arg_36_0)
-	return arg_36_0.live2dContainer.position
+function var_0_0.GetCenterPos(arg_37_0)
+	return arg_37_0.live2dContainer.position
 end
 
-function var_0_0.IslimitYPos(arg_37_0)
-	return MainPaintingShift.IsLimitYPos(arg_37_0.ship:getPainting())
+function var_0_0.IslimitYPos(arg_38_0)
+	return MainPaintingShift.IsLimitYPos(arg_38_0.ship:getPainting())
 end
 
 return var_0_0

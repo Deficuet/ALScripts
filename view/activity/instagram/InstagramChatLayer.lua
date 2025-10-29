@@ -859,7 +859,7 @@ function var_0_0.SetFilterPanel(arg_47_0)
 			SetActive(var_48_1, arg_47_0.readFilter == iter_48_1)
 			onButton(arg_47_0, var_48_0, function()
 				for iter_49_0, iter_49_1 in ipairs(var_0_0.ReadType) do
-					SetActive(var_47_0:GetChild(iter_49_0:Find("selectedFrame")), false)
+					SetActive(var_47_0:GetChild(iter_49_0):Find("selectedFrame"), false)
 				end
 
 				SetActive(var_48_1, true)
@@ -873,7 +873,7 @@ function var_0_0.SetFilterPanel(arg_47_0)
 			SetActive(var_48_3, arg_47_0.typeFilter == iter_48_3)
 			onButton(arg_47_0, var_48_2, function()
 				for iter_50_0, iter_50_1 in ipairs(var_0_0.TypeType) do
-					SetActive(var_47_1:GetChild(iter_50_0:Find("selectedFrame")), false)
+					SetActive(var_47_1:GetChild(iter_50_0):Find("selectedFrame"), false)
 				end
 
 				SetActive(var_48_3, true)

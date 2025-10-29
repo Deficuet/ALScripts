@@ -428,7 +428,7 @@ function var_0_0.SetTotalCount(arg_41_0)
 		end
 	end
 
-	arg_41_0.scrollRect.enabsled = true
+	arg_41_0.scrollRect.enabled = true
 
 	arg_41_0.scrollRect:SetTotalCount(#arg_41_0.disPlays)
 end

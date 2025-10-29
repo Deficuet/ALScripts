@@ -2220,8 +2220,27 @@ pg.login = {
 	},
 	[73] = {
 		id = 73,
-		op_play = 1,
 		login_static = "login",
+		date = "stop",
+		op_play = 0,
+		op_time = "",
+		login_cri = "",
+		bgm = ""
+	},
+	[74] = {
+		id = 74,
+		login_static = "login",
+		date = "stop",
+		op_play = 0,
+		op_time = "",
+		login_cri = "",
+		bgm = ""
+	},
+	[75] = {
+		id = 75,
+		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -2229,8 +2248,8 @@ pg.login = {
 			{
 				{
 					2025,
-					7,
-					24
+					9,
+					12
 				},
 				{
 					0,
@@ -2241,8 +2260,42 @@ pg.login = {
 			{
 				{
 					2025,
-					8,
-					7
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[76] = {
+		id = 76,
+		op_play = 1,
+		login_static = "login",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					6
 				},
 				{
 					23,
@@ -2255,8 +2308,8 @@ pg.login = {
 			{
 				{
 					2025,
-					7,
-					24
+					10,
+					23
 				},
 				{
 					0,
@@ -2267,8 +2320,8 @@ pg.login = {
 			{
 				{
 					2025,
-					8,
-					7
+					11,
+					6
 				},
 				{
 					23,
@@ -2342,6 +2395,9 @@ pg.login = {
 		70,
 		71,
 		72,
-		73
+		73,
+		74,
+		75,
+		76
 	}
 }

@@ -80,21 +80,6 @@ pg.player_resource = {
 		name = "oil_mail",
 		itemid = 59002
 	},
-	[18] = {
-		id = 18,
-		name = "islandGold",
-		itemid = 59018
-	},
-	[19] = {
-		id = 19,
-		name = "islandGem",
-		itemid = 59019
-	},
-	[20] = {
-		id = 20,
-		name = "speedUpTicket",
-		itemid = 59020
-	},
 	[101] = {
 		id = 101,
 		name = "battery",
@@ -1960,6 +1945,141 @@ pg.player_resource = {
 		name = "youmiya_pt",
 		itemid = 65663
 	},
+	[529] = {
+		id = 529,
+		name = "limit_skinticket34",
+		itemid = 68106
+	},
+	[530] = {
+		id = 530,
+		name = "limit_skinticket35",
+		itemid = 68107
+	},
+	[531] = {
+		id = 531,
+		name = "limit_skinticket36",
+		itemid = 68108
+	},
+	[532] = {
+		id = 532,
+		name = "skinTicket97",
+		itemid = 65664
+	},
+	[533] = {
+		id = 533,
+		name = "activity_xunzhang9",
+		itemid = 65665
+	},
+	[534] = {
+		id = 534,
+		name = "masaina_pt",
+		itemid = 65674
+	},
+	[542] = {
+		id = 542,
+		name = "baifeng_hpt",
+		itemid = 65682
+	},
+	[543] = {
+		id = 543,
+		name = "baifeng_pt",
+		itemid = 65683
+	},
+	[544] = {
+		id = 544,
+		name = "union14_pt",
+		itemid = 65684
+	},
+	[545] = {
+		id = 545,
+		name = "ninja_pt",
+		itemid = 65103
+	},
+	[546] = {
+		id = 546,
+		name = "ninja_pt_2",
+		itemid = 65102
+	},
+	[547] = {
+		id = 547,
+		name = "activity_xunzhang10",
+		itemid = 65685
+	},
+	[548] = {
+		id = 548,
+		name = "limit_skinticket37",
+		itemid = 68115
+	},
+	[549] = {
+		id = 549,
+		name = "limit_skinticket38",
+		itemid = 68116
+	},
+	[550] = {
+		id = 550,
+		name = "limit_skinticket39",
+		itemid = 68117
+	},
+	[551] = {
+		id = 551,
+		name = "skinTicket98",
+		itemid = 65694
+	},
+	[552] = {
+		id = 552,
+		name = "limit_skinticket40",
+		itemid = 68124
+	},
+	[553] = {
+		id = 553,
+		name = "limit_skinticket41",
+		itemid = 68125
+	},
+	[554] = {
+		id = 554,
+		name = "limit_skinticket42",
+		itemid = 68126
+	},
+	[571] = {
+		id = 571,
+		name = "danmachi_pt",
+		itemid = 65711
+	},
+	[572] = {
+		id = 572,
+		name = "klms_pt_2",
+		itemid = 65713
+	},
+	[573] = {
+		id = 573,
+		name = "limit_skinticket43",
+		itemid = 68133
+	},
+	[574] = {
+		id = 574,
+		name = "limit_skinticket44",
+		itemid = 68134
+	},
+	[575] = {
+		id = 575,
+		name = "limit_skinticket45",
+		itemid = 68135
+	},
+	[576] = {
+		id = 576,
+		name = "skinTicket99",
+		itemid = 65721
+	},
+	[577] = {
+		id = 577,
+		name = "fengfanv3_pt",
+		itemid = 65695
+	},
+	[578] = {
+		id = 578,
+		name = "activity_xunzhang11",
+		itemid = 65722
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2220,6 +2340,11 @@ pg.player_resource = {
 		name = "synchronize_jiangfeng",
 		itemid = 21919
 	},
+	[3021] = {
+		id = 3021,
+		name = "synchronize_xili",
+		itemid = 21920
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -2350,6 +2475,11 @@ pg.player_resource = {
 		name = "Battlepass_24",
 		itemid = 65101
 	},
+	[4025] = {
+		id = 4025,
+		name = "Battlepass_25",
+		itemid = 65106
+	},
 	[4186] = {
 		id = 4186,
 		name = "skin_rerun_pt1",
@@ -2405,6 +2535,111 @@ pg.player_resource = {
 		name = "skin_rerun_pt_us2022",
 		itemid = 0
 	},
+	[40296] = {
+		id = 40296,
+		name = "Twomamori2",
+		itemid = 70079
+	},
+	[40461] = {
+		id = 40461,
+		name = "skinTicket40461",
+		itemid = 59245
+	},
+	[45037] = {
+		id = 45037,
+		name = "jiujiu_twfk",
+		itemid = 59303
+	},
+	[45040] = {
+		id = 45040,
+		name = "skinTicket45040",
+		itemid = 59304
+	},
+	[40602] = {
+		id = 40602,
+		name = "skinTicket40602",
+		itemid = 59302
+	},
+	[40588] = {
+		id = 40588,
+		name = "skinTicket40588",
+		itemid = 59301
+	},
+	[40614] = {
+		id = 40614,
+		name = "contribution_worldboss_tw411",
+		itemid = 80000
+	},
+	[40615] = {
+		id = 40615,
+		name = "worldboss_tw411_ticket",
+		itemid = 80001
+	},
+	[40645] = {
+		id = 40645,
+		name = "skinTicket40645",
+		itemid = 80005
+	},
+	[40629] = {
+		id = 40629,
+		name = "skinTicketTW_xzx",
+		itemid = 80003
+	},
+	[40713] = {
+		id = 40713,
+		name = "skinTicket40713",
+		itemid = 80010
+	},
+	[40730] = {
+		id = 40730,
+		name = "skinTicket40730",
+		itemid = 80013
+	},
+	[40731] = {
+		id = 40731,
+		name = "Batterytw_2",
+		itemid = 80014
+	},
+	[40732] = {
+		id = 40732,
+		name = "feiciazhixing_twpt",
+		itemid = 59391
+	},
+	[40733] = {
+		id = 40733,
+		name = "chunjie_pt4_tw",
+		itemid = 59528
+	},
+	[40807] = {
+		id = 40807,
+		name = "tw_2022yaoqing",
+		itemid = 80030
+	},
+	[40905] = {
+		id = 40905,
+		name = "tw_2022wanshengjie",
+		itemid = 80031
+	},
+	[40934] = {
+		id = 40934,
+		name = "skinTicket40934",
+		itemid = 80032
+	},
+	[40935] = {
+		id = 40935,
+		name = "tw_2023yaoqing",
+		itemid = 80035
+	},
+	[41375] = {
+		id = 41375,
+		name = "skin_rerun_pt_tw2024",
+		itemid = 0
+	},
+	[45101] = {
+		id = 45101,
+		name = "commission_pt_tw1",
+		itemid = 80141
+	},
 	get_id_list_by_name = {
 		gold = {
 			1
@@ -2453,15 +2688,6 @@ pg.player_resource = {
 		},
 		oil_mail = {
 			17
-		},
-		islandGold = {
-			18
-		},
-		islandGem = {
-			19
-		},
-		speedUpTicket = {
-			20
 		},
 		battery = {
 			101
@@ -3582,6 +3808,87 @@ pg.player_resource = {
 		youmiya_pt = {
 			528
 		},
+		limit_skinticket34 = {
+			529
+		},
+		limit_skinticket35 = {
+			530
+		},
+		limit_skinticket36 = {
+			531
+		},
+		skinTicket97 = {
+			532
+		},
+		activity_xunzhang9 = {
+			533
+		},
+		masaina_pt = {
+			534
+		},
+		baifeng_hpt = {
+			542
+		},
+		baifeng_pt = {
+			543
+		},
+		union14_pt = {
+			544
+		},
+		ninja_pt = {
+			545
+		},
+		ninja_pt_2 = {
+			546
+		},
+		activity_xunzhang10 = {
+			547
+		},
+		limit_skinticket37 = {
+			548
+		},
+		limit_skinticket38 = {
+			549
+		},
+		limit_skinticket39 = {
+			550
+		},
+		skinTicket98 = {
+			551
+		},
+		limit_skinticket40 = {
+			552
+		},
+		limit_skinticket41 = {
+			553
+		},
+		limit_skinticket42 = {
+			554
+		},
+		danmachi_pt = {
+			571
+		},
+		klms_pt_2 = {
+			572
+		},
+		limit_skinticket43 = {
+			573
+		},
+		limit_skinticket44 = {
+			574
+		},
+		limit_skinticket45 = {
+			575
+		},
+		skinTicket99 = {
+			576
+		},
+		fengfanv3_pt = {
+			577
+		},
+		activity_xunzhang11 = {
+			578
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3738,6 +4045,9 @@ pg.player_resource = {
 		synchronize_jiangfeng = {
 			3020
 		},
+		synchronize_xili = {
+			3021
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -3816,6 +4126,9 @@ pg.player_resource = {
 		Battlepass_24 = {
 			4024
 		},
+		Battlepass_25 = {
+			4025
+		},
 		skin_rerun_pt1 = {
 			4186
 		},
@@ -3848,6 +4161,69 @@ pg.player_resource = {
 		},
 		skin_rerun_pt_us2022 = {
 			30853
+		},
+		Twomamori2 = {
+			40296
+		},
+		skinTicket40461 = {
+			40461
+		},
+		jiujiu_twfk = {
+			45037
+		},
+		skinTicket45040 = {
+			45040
+		},
+		skinTicket40602 = {
+			40602
+		},
+		skinTicket40588 = {
+			40588
+		},
+		contribution_worldboss_tw411 = {
+			40614
+		},
+		worldboss_tw411_ticket = {
+			40615
+		},
+		skinTicket40645 = {
+			40645
+		},
+		skinTicketTW_xzx = {
+			40629
+		},
+		skinTicket40713 = {
+			40713
+		},
+		skinTicket40730 = {
+			40730
+		},
+		Batterytw_2 = {
+			40731
+		},
+		feiciazhixing_twpt = {
+			40732
+		},
+		chunjie_pt4_tw = {
+			40733
+		},
+		tw_2022yaoqing = {
+			40807
+		},
+		tw_2022wanshengjie = {
+			40905
+		},
+		skinTicket40934 = {
+			40934
+		},
+		tw_2023yaoqing = {
+			40935
+		},
+		skin_rerun_pt_tw2024 = {
+			41375
+		},
+		commission_pt_tw1 = {
+			45101
 		}
 	},
 	all = {
@@ -3867,9 +4243,6 @@ pg.player_resource = {
 		15,
 		16,
 		17,
-		18,
-		19,
-		20,
 		101,
 		102,
 		103,
@@ -4243,6 +4616,33 @@ pg.player_resource = {
 		526,
 		527,
 		528,
+		529,
+		530,
+		531,
+		532,
+		533,
+		534,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
+		551,
+		552,
+		553,
+		554,
+		571,
+		572,
+		573,
+		574,
+		575,
+		576,
+		577,
+		578,
 		950,
 		951,
 		952,
@@ -4295,6 +4695,7 @@ pg.player_resource = {
 		3018,
 		3019,
 		3020,
+		3021,
 		3106,
 		3137,
 		4001,
@@ -4321,6 +4722,7 @@ pg.player_resource = {
 		4022,
 		4023,
 		4024,
+		4025,
 		4186,
 		4276,
 		4599,
@@ -4331,6 +4733,27 @@ pg.player_resource = {
 		5704,
 		100004,
 		40275,
-		30853
+		30853,
+		40296,
+		40461,
+		45037,
+		45040,
+		40602,
+		40588,
+		40614,
+		40615,
+		40645,
+		40629,
+		40713,
+		40730,
+		40731,
+		40732,
+		40733,
+		40807,
+		40905,
+		40934,
+		40935,
+		41375,
+		45101
 	}
 }

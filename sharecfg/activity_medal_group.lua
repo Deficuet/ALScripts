@@ -303,6 +303,125 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50087] = {
+		id = 50087,
+		entrance_picture = "medalAlbum/50087",
+		is_out_of_print = 0,
+		group_name = "奇渊下的秘密",
+		activity_link = {
+			{
+				1,
+				50087,
+				{
+					21802,
+					21803,
+					21804,
+					21805,
+					21806,
+					21807,
+					21808,
+					21809,
+					21810
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "MassenaMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				314,
+				1
+			},
+			{
+				8,
+				65665,
+				1
+			}
+		}
+	},
+	[50136] = {
+		id = 50136,
+		entrance_picture = "medalAlbum/50136",
+		is_out_of_print = 0,
+		group_name = "起舞于天原之上",
+		activity_link = {
+			{
+				1,
+				50136,
+				{
+					21835,
+					21836,
+					21837,
+					21838,
+					21839,
+					21840,
+					21841,
+					21842,
+					21843,
+					21844
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "TianYuTianYuanMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				316,
+				1
+			},
+			{
+				8,
+				65685,
+				1
+			}
+		}
+	},
+	[50209] = {
+		id = 50209,
+		entrance_picture = "medalAlbum/50209",
+		is_out_of_print = 0,
+		group_name = "飓风与自由群岛",
+		activity_link = {
+			{
+				1,
+				50209,
+				{
+					21849,
+					21850,
+					21851,
+					21852,
+					21853,
+					21854,
+					21855,
+					21856,
+					21857,
+					21858
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "SailingShip3MedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				319,
+				1
+			},
+			{
+				8,
+				65722,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -311,6 +430,9 @@ pg.activity_medal_group = {
 		5913,
 		5970,
 		5971,
-		50021
+		50021,
+		50087,
+		50136,
+		50209
 	}
 }

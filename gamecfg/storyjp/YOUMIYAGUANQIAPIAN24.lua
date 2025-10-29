@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "大冒険小隊が目を覚ますと、見慣れない周囲の景色に困惑してしまった。",
-			bgm = "yumia-44",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

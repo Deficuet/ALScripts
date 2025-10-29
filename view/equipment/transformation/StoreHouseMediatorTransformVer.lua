@@ -50,7 +50,7 @@ function var_0_0.register(arg_1_0)
 			viewComponent = EquipmentDesignLayer,
 			mediator = EquipmentDesignMediator,
 			data = {
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
+				groupName = arg_1_0.viewComponent:getGroupName()
 			}
 		}))
 	end)

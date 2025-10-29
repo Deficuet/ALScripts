@@ -36,15 +36,15 @@ function var_0_0.getUIName(arg_2_0)
 end
 
 function var_0_0.OnLoaded(arg_3_0)
-	arg_3_0.uilist = UIItemList.New(arg_3_0:findTF("frame/window/sliders/list/content"), arg_3_0:findTF("frame/window/sliders/list/content/tpl"))
+	arg_3_0.uilist = UIItemList.New(arg_3_0._tf:Find("frame/window/sliders/list/content"), arg_3_0._tf:Find("frame/window/sliders/list/content/tpl"))
 
-	setText(arg_3_0:findTF("frame/window/top/bg/infomation/title"), i18n("guild_log_title"))
+	setText(arg_3_0._tf:Find("frame/window/top/bg/infomation/title"), i18n("guild_log_title"))
 
-	arg_3_0.btnAll = arg_3_0:findTF("frame/window/sliders/filter/1")
+	arg_3_0.btnAll = arg_3_0._tf:Find("frame/window/sliders/filter/1")
 	arg_3_0.btns = {
-		arg_3_0:findTF("frame/window/sliders/filter/2"),
-		arg_3_0:findTF("frame/window/sliders/filter/3"),
-		arg_3_0:findTF("frame/window/sliders/filter/4")
+		arg_3_0._tf:Find("frame/window/sliders/filter/2"),
+		arg_3_0._tf:Find("frame/window/sliders/filter/3"),
+		arg_3_0._tf:Find("frame/window/sliders/filter/4")
 	}
 end
 
@@ -155,7 +155,7 @@ end
 
 function var_0_0.Close(arg_16_0)
 	setActive(arg_16_0._tf, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_16_0._tf, arg_16_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_16_0._tf, arg_16_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_17_0)

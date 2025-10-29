@@ -5,29 +5,29 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.backBtn = arg_2_0:findTF("frame/top/btnBack")
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/buttons/confirm")
-	arg_2_0.recomBtn = arg_2_0:findTF("frame/buttons/recom")
-	arg_2_0.clearBtn = arg_2_0:findTF("frame/buttons/clear")
-	arg_2_0.levelTxt = arg_2_0:findTF("frame/content/level/Text"):GetComponent(typeof(Text))
-	arg_2_0.expTxt = arg_2_0:findTF("frame/content/level/exp"):GetComponent(typeof(Text))
-	arg_2_0.currentProgress = arg_2_0:findTF("frame/content/level/y"):GetComponent(typeof(Slider))
-	arg_2_0.tipProgress = arg_2_0:findTF("frame/content/level/w"):GetComponent(typeof(Slider))
-	arg_2_0.previewProgress = arg_2_0:findTF("frame/content/level/g"):GetComponent(typeof(Slider))
+	arg_2_0.backBtn = arg_2_0._tf:Find("frame/top/btnBack")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/buttons/confirm")
+	arg_2_0.recomBtn = arg_2_0._tf:Find("frame/buttons/recom")
+	arg_2_0.clearBtn = arg_2_0._tf:Find("frame/buttons/clear")
+	arg_2_0.levelTxt = arg_2_0._tf:Find("frame/content/level/Text"):GetComponent(typeof(Text))
+	arg_2_0.expTxt = arg_2_0._tf:Find("frame/content/level/exp"):GetComponent(typeof(Text))
+	arg_2_0.currentProgress = arg_2_0._tf:Find("frame/content/level/y"):GetComponent(typeof(Slider))
+	arg_2_0.tipProgress = arg_2_0._tf:Find("frame/content/level/w"):GetComponent(typeof(Slider))
+	arg_2_0.previewProgress = arg_2_0._tf:Find("frame/content/level/g"):GetComponent(typeof(Slider))
 	arg_2_0.itemIds = arg_2_0:GetAllItemIDs()
 
 	local var_2_0 = #arg_2_0.itemIds <= 3
 
 	if var_2_0 then
-		arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("frame/content/items"), arg_2_0:findTF("frame/content/items/tpl"))
+		arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("frame/content/items"), arg_2_0._tf:Find("frame/content/items/tpl"))
 	else
-		arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("frame/content/scrollrect/content"), arg_2_0:findTF("frame/content/items/tpl"))
+		arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("frame/content/scrollrect/content"), arg_2_0._tf:Find("frame/content/items/tpl"))
 	end
 
-	setActive(arg_2_0:findTF("frame/content/items"), var_2_0)
-	setActive(arg_2_0:findTF("frame/content/scrollrect"), not var_2_0)
-	setText(arg_2_0:findTF("frame/top/bg/infomation/title"), i18n("ship_exp_item_title"))
-	setText(arg_2_0:findTF("frame/content/label"), i18n("coures_level_tip"))
+	setActive(arg_2_0._tf:Find("frame/content/items"), var_2_0)
+	setActive(arg_2_0._tf:Find("frame/content/scrollrect"), not var_2_0)
+	setText(arg_2_0._tf:Find("frame/top/bg/infomation/title"), i18n("ship_exp_item_title"))
+	setText(arg_2_0._tf:Find("frame/content/label"), i18n("coures_level_tip"))
 	setText(arg_2_0.confirmBtn:Find("pic"), i18n("ship_exp_item_label_confirm"))
 	setText(arg_2_0.recomBtn:Find("pic"), i18n("ship_exp_item_label_recom"))
 	setText(arg_2_0.clearBtn:Find("pic"), i18n("ship_exp_item_label_clear"))
@@ -195,9 +195,7 @@ function var_0_0.GetAllItemIDs(arg_18_0)
 end
 
 function var_0_0.Show(arg_19_0, arg_19_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_19_0._tf, false, {
-		weight = LayerWeightConst.BASE_LAYER + 2
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_19_0._tf)
 	var_0_0.super.Show(arg_19_0)
 	arg_19_0:Flush(arg_19_1)
 end
@@ -211,7 +209,7 @@ function var_0_0.Flush(arg_20_0, arg_20_1)
 end
 
 function var_0_0.Hide(arg_21_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_21_0._tf, arg_21_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf, arg_21_0._parentTf)
 	var_0_0.super.Hide(arg_21_0)
 end
 

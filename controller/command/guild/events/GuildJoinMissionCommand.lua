@@ -29,7 +29,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			arg_1_0:sendNotification(GAME.GUILD_JOIN_MISSION_DONE, {
 				id = var_1_1
 			})
-			pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildEvent")
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inGuildEvent")
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_2_0.result] .. arg_2_0.result)
 		end

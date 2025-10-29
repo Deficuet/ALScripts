@@ -609,30 +609,30 @@ end
 function var_0_0.init(arg_75_0)
 	arg_75_0:blockAllEvent(false)
 
-	arg_75_0.bg = arg_75_0:findTF("AD")
+	arg_75_0.bg = arg_75_0._tf:Find("AD")
 	arg_75_0.mapCellTpl = arg_75_0:getTpl("mapCell", arg_75_0.bg)
-	arg_75_0.mapContainer = arg_75_0:findTF("mapContainer", arg_75_0.bg)
+	arg_75_0.mapContainer = arg_75_0.bg:Find("mapContainer")
 	arg_75_0.charTpl = arg_75_0:getTpl("char", arg_75_0.bg)
-	arg_75_0.startBtn = arg_75_0:findTF("start", arg_75_0.bg)
-	arg_75_0.valueImg = arg_75_0:findTF("value", arg_75_0.bg):GetComponent(typeof(Image))
-	arg_75_0.leftcountLabel = arg_75_0:findTF("leftcount", arg_75_0.bg):GetComponent(typeof(Text))
-	arg_75_0.leftCountTF = arg_75_0:findTF("leftcount/Text", arg_75_0.bg):GetComponent(typeof(Text))
-	arg_75_0.nextRedPacketStepTF = arg_75_0:findTF("nextRpStep/Text", arg_75_0.bg):GetComponent(typeof(Text))
-	arg_75_0.commonRp = arg_75_0:findTF("rp", arg_75_0.bg)
+	arg_75_0.startBtn = arg_75_0.bg:Find("start")
+	arg_75_0.valueImg = arg_75_0.bg:Find("value"):GetComponent(typeof(Image))
+	arg_75_0.leftcountLabel = arg_75_0.bg:Find("leftcount"):GetComponent(typeof(Text))
+	arg_75_0.leftCountTF = arg_75_0.bg:Find("leftcount/Text"):GetComponent(typeof(Text))
+	arg_75_0.nextRedPacketStepTF = arg_75_0.bg:Find("nextRpStep/Text"):GetComponent(typeof(Text))
+	arg_75_0.commonRp = arg_75_0.bg:Find("rp")
 	arg_75_0.commonAnim = arg_75_0.commonRp:GetComponent(typeof(Animator))
-	arg_75_0.commonRpCnt = arg_75_0:findTF("rp_text/Text", arg_75_0.bg):GetComponent(typeof(Text))
-	arg_75_0.dropShipTxt = arg_75_0:findTF("AD/drop_ship_text"):GetComponent(typeof(Text))
-	arg_75_0.helpBtn = arg_75_0:findTF("AD/help")
-	arg_75_0.anim = arg_75_0:findTF("AD/anim")
+	arg_75_0.commonRpCnt = arg_75_0.bg:Find("rp_text/Text"):GetComponent(typeof(Text))
+	arg_75_0.dropShipTxt = arg_75_0._tf:Find("AD/drop_ship_text"):GetComponent(typeof(Text))
+	arg_75_0.helpBtn = arg_75_0._tf:Find("AD/help")
+	arg_75_0.anim = arg_75_0._tf:Find("AD/anim")
 
 	setActive(arg_75_0.anim, false)
 
 	arg_75_0.leftcountLabel.text = i18n("monopoly_left_count")
-	arg_75_0.advanceTag = arg_75_0:findTF("AD/rp/sp")
-	arg_75_0.advanceLabel = arg_75_0:findTF("AD/rp_text/sp")
-	arg_75_0.advancecLabel = arg_75_0:findTF("AD/rp_text/label")
-	arg_75_0.advanceImage = arg_75_0:findTF("AD/rp_text/sp_img")
-	arg_75_0.advanceTxt = arg_75_0:findTF("AD/rp_text/sp_img/Text"):GetComponent(typeof(Text))
+	arg_75_0.advanceTag = arg_75_0._tf:Find("AD/rp/sp")
+	arg_75_0.advanceLabel = arg_75_0._tf:Find("AD/rp_text/sp")
+	arg_75_0.advancecLabel = arg_75_0._tf:Find("AD/rp_text/label")
+	arg_75_0.advanceImage = arg_75_0._tf:Find("AD/rp_text/sp_img")
+	arg_75_0.advanceTxt = arg_75_0._tf:Find("AD/rp_text/sp_img/Text"):GetComponent(typeof(Text))
 end
 
 function var_0_0.updateNextRedPacketStep(arg_76_0)
@@ -936,44 +936,38 @@ function var_0_0.playerAnim(arg_119_0, arg_119_1)
 	arg_119_0.timer:Start()
 end
 
-function var_0_0.findTF(arg_121_0, arg_121_1, arg_121_2)
-	assert(arg_121_0._tf, "transform should exist")
+function var_0_0.getTpl(arg_121_0, arg_121_1, arg_121_2)
+	local var_121_0 = arg_121_2:Find(arg_121_1)
 
-	return findTF(arg_121_2 or arg_121_0._tf, arg_121_1)
+	var_121_0:SetParent(arg_121_0._tf, false)
+	SetActive(var_121_0, false)
+
+	return var_121_0
 end
 
-function var_0_0.getTpl(arg_122_0, arg_122_1, arg_122_2)
-	local var_122_0 = arg_122_0:findTF(arg_122_1, arg_122_2)
-
-	var_122_0:SetParent(arg_122_0._tf, false)
-	SetActive(var_122_0, false)
-
-	return var_122_0
-end
-
-function var_0_0.Destroy(arg_123_0)
-	for iter_123_0, iter_123_1 in pairs(arg_123_0.cellTFs) do
-		iter_123_1:Dispose()
+function var_0_0.Destroy(arg_122_0)
+	for iter_122_0, iter_122_1 in pairs(arg_122_0.cellTFs) do
+		iter_122_1:Dispose()
 	end
 
-	arg_123_0.charCard:Dispose()
-	arg_123_0.mapVO:Dispose()
+	arg_122_0.charCard:Dispose()
+	arg_122_0.mapVO:Dispose()
 
-	arg_123_0.cellTFs = nil
-	arg_123_0.charCard = nil
-	arg_123_0.mapVO = nil
+	arg_122_0.cellTFs = nil
+	arg_122_0.charCard = nil
+	arg_122_0.mapVO = nil
 
-	if arg_123_0.timer then
-		arg_123_0.timer:Stop()
+	if arg_122_0.timer then
+		arg_122_0.timer:Stop()
 
-		arg_123_0.timer = nil
+		arg_122_0.timer = nil
 	end
 
-	pg.DelegateInfo.Dispose(arg_123_0)
+	pg.DelegateInfo.Dispose(arg_122_0)
 end
 
-function var_0_0.emit(arg_124_0, arg_124_1, arg_124_2, arg_124_3)
-	arg_124_0.viewComponent:emit(arg_124_1, arg_124_2, arg_124_3)
+function var_0_0.emit(arg_123_0, arg_123_1, arg_123_2, arg_123_3)
+	arg_123_0.viewComponent:emit(arg_123_1, arg_123_2, arg_123_3)
 end
 
 return var_0_0

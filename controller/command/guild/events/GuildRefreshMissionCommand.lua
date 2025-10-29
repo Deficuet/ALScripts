@@ -36,7 +36,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			arg_1_0:sendNotification(GAME.GUILD_REFRESH_MISSION_DONE, {
 				id = var_2_2.id
 			})
-			pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildEvent")
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inGuildEvent")
 
 			if var_1_2 then
 				var_1_2()

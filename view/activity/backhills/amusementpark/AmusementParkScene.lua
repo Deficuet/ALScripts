@@ -13,8 +13,8 @@ var_0_0.Buildings = {
 }
 
 function var_0_0.init(arg_1_0)
-	arg_1_0.top = arg_1_0:findTF("Top")
-	arg_1_0._map = arg_1_0:findTF("map")
+	arg_1_0.top = arg_1_0._tf:Find("Top")
+	arg_1_0._map = arg_1_0._tf:Find("map")
 
 	for iter_1_0 = 0, arg_1_0._map.childCount - 1 do
 		local var_1_0 = arg_1_0._map:GetChild(iter_1_0)
@@ -29,7 +29,7 @@ function var_0_0.init(arg_1_0)
 		arg_1_0.map_top
 	}
 	arg_1_0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.AmusementParkGraph"))
-	arg_1_0._upper = arg_1_0:findTF("upper")
+	arg_1_0._upper = arg_1_0._tf:Find("upper")
 
 	for iter_1_1 = 0, arg_1_0._upper.childCount - 1 do
 		local var_1_2 = arg_1_0._upper:GetChild(iter_1_1)

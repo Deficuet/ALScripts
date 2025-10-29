@@ -53,14 +53,14 @@ local var_0_1 = {
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.infonameTF = arg_2_0:findTF("frame/info/name/Text"):GetComponent(typeof(Text))
-	arg_2_0.infoiconTF = arg_2_0:findTF("frame/info/shipicon/icon"):GetComponent(typeof(Image))
-	arg_2_0.infoduty = arg_2_0:findTF("frame/duty"):GetComponent(typeof(Image))
-	arg_2_0.infostarsTF = arg_2_0:findTF("frame/info/shipicon/stars")
-	arg_2_0.infostarTF = arg_2_0:findTF("frame/info/shipicon/stars/star")
-	arg_2_0.infolevelTF = arg_2_0:findTF("frame/info/level/Text"):GetComponent(typeof(Text))
-	arg_2_0.circle = arg_2_0:findTF("frame/info/shipicon/frame")
-	arg_2_0.resumeInfo = arg_2_0:findTF("frame/content")
+	arg_2_0.infonameTF = arg_2_0._tf:Find("frame/info/name/Text"):GetComponent(typeof(Text))
+	arg_2_0.infoiconTF = arg_2_0._tf:Find("frame/info/shipicon/icon"):GetComponent(typeof(Image))
+	arg_2_0.infoduty = arg_2_0._tf:Find("frame/duty"):GetComponent(typeof(Image))
+	arg_2_0.infostarsTF = arg_2_0._tf:Find("frame/info/shipicon/stars")
+	arg_2_0.infostarTF = arg_2_0._tf:Find("frame/info/shipicon/stars/star")
+	arg_2_0.infolevelTF = arg_2_0._tf:Find("frame/info/level/Text"):GetComponent(typeof(Text))
+	arg_2_0.circle = arg_2_0._tf:Find("frame/info/shipicon/frame")
+	arg_2_0.resumeInfo = arg_2_0._tf:Find("frame/content")
 end
 
 function var_0_0.OnInit(arg_3_0)

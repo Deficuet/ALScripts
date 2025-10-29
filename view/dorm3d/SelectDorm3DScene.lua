@@ -420,7 +420,7 @@ function var_0_0.UpdateWeekTask(arg_51_0)
 
 	local var_51_5 = Drop.Create(var_51_1:getConfig("award_display")[1])
 
-	updateDorm3dIcon(var_51_4:Find("Dorm3dIconTpl"), var_51_5)
+	updateCustomDrop(var_51_4:Find("Dorm3dIconTpl"), var_51_5)
 	onButton(arg_51_0, var_51_4:Find("Dorm3dIconTpl"), function()
 		if not var_51_2 and var_51_1:isFinish() then
 			arg_51_0:emit(SelectDorm3DMediator.ON_SUBMIT_TASK, var_51_0)
@@ -564,14 +564,10 @@ function var_0_0.SetMapSwitch(arg_61_0)
 					local var_72_3 = var_72_2 and var_72_2:getState() or "lock"
 
 					setActive(arg_72_2:Find("lock"), var_72_3 ~= "complete")
-					setActive(arg_72_2:Find("normal"), var_72_3 == "complete")
 
-					if var_72_3 == "complete" then
-						local var_72_4 = string.format("dorm3dselect/room_icon_%s", string.lower(var_72_1.assets_prefix))
+					local var_72_4 = string.format("dorm3dselect/room_icon_%s", string.lower(var_72_1.assets_prefix))
 
-						GetImageSpriteFromAtlasAsync(var_72_4, "", arg_72_2:Find("normal/mask/icon"), false)
-					end
-
+					GetImageSpriteFromAtlasAsync(var_72_4, "", arg_72_2:Find("normal/mask/icon"), false)
 					setText(arg_72_2:Find("roomId"), var_72_0)
 				end
 			end)

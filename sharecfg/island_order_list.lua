@@ -35,37 +35,9 @@ pg.island_order_list = {
 		type = 1,
 		unlock_cost = {}
 	},
-	[106] = {
-		id = 106,
-		name = "普通订单6",
-		unlock_level = 25,
-		type = 1,
-		unlock_cost = {}
-	},
-	[107] = {
-		id = 107,
-		name = "普通订单7",
-		unlock_level = 30,
-		type = 1,
-		unlock_cost = {}
-	},
 	[201] = {
 		id = 201,
 		name = "加急订单1",
-		unlock_level = 5,
-		type = 2,
-		unlock_cost = {}
-	},
-	[202] = {
-		id = 202,
-		name = "加急订单2",
-		unlock_level = 5,
-		type = 2,
-		unlock_cost = {}
-	},
-	[203] = {
-		id = 203,
-		name = "加急订单3",
 		unlock_level = 5,
 		type = 2,
 		unlock_cost = {}
@@ -75,7 +47,12 @@ pg.island_order_list = {
 		name = "船舶订单1",
 		unlock_level = 10,
 		type = 3,
-		unlock_cost = {}
+		unlock_cost = {
+			{
+				1,
+				0
+			}
+		}
 	},
 	[302] = {
 		id = 302,
@@ -85,7 +62,7 @@ pg.island_order_list = {
 		unlock_cost = {
 			{
 				1,
-				2000
+				0
 			}
 		}
 	},
@@ -97,7 +74,7 @@ pg.island_order_list = {
 		unlock_cost = {
 			{
 				1,
-				3000
+				0
 			}
 		}
 	},
@@ -107,14 +84,10 @@ pg.island_order_list = {
 			102,
 			103,
 			104,
-			105,
-			106,
-			107
+			105
 		},
 		{
-			201,
-			202,
-			203
+			201
 		},
 		{
 			301,
@@ -128,11 +101,7 @@ pg.island_order_list = {
 		103,
 		104,
 		105,
-		106,
-		107,
 		201,
-		202,
-		203,
 		301,
 		302,
 		303

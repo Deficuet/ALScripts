@@ -17,7 +17,8 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "Honey……再多持续一会儿也……没关系……",
+			say = "ふぅ⋯ちょっと冷静にならなきゃ⋯///",
+			voice = "event:/dorm/drom3d_NewJersey_other/drom3d_NewJersey_ik_gfit3_tone6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,10 +29,22 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shuohua_kaixing_01",
+							name = "IK_sp01_idle02_fb02",
 							time = 0,
 							type = "action",
 							skip = true
+						},
+						{
+							param = "Play",
+							name = "Face_kaixing",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							id = 2010,
+							name = "IK_sp01_idle02_fb02_DC",
+							type = "item_action"
 						},
 						{
 							skip = false,

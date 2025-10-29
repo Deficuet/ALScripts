@@ -157,28 +157,28 @@ function var_0_0.initData(arg_8_0)
 end
 
 function var_0_0.findUI(arg_11_0)
-	arg_11_0.noAdaptPanel = arg_11_0:findTF("noAdaptPanel")
-	arg_11_0.buffTF = arg_11_0:findTF("Buff", arg_11_0.noAdaptPanel)
-	arg_11_0.buffImg = arg_11_0:findTF("BuffTypeImg", arg_11_0.buffTF)
+	arg_11_0.noAdaptPanel = arg_11_0._tf:Find("noAdaptPanel")
+	arg_11_0.buffTF = arg_11_0.noAdaptPanel:Find("Buff")
+	arg_11_0.buffImg = arg_11_0.buffTF:Find("BuffTypeImg")
 	arg_11_0.buffEffectAni = GetComponent(arg_11_0.buffImg, "Animator")
-	arg_11_0.buffText = arg_11_0:findTF("BuffText", arg_11_0.buffTF)
+	arg_11_0.buffText = arg_11_0.buffTF:Find("BuffText")
 	arg_11_0.buffDftAniEvent = GetComponent(arg_11_0.buffImg, "DftAniEvent")
-	arg_11_0.bgImg = arg_11_0:findTF("BGImg"):GetComponent(typeof(Image))
+	arg_11_0.bgImg = arg_11_0._tf:Find("BGImg"):GetComponent(typeof(Image))
 	arg_11_0.bgImg.color = Color.New(1, 1, 1)
-	arg_11_0.cloudTF = arg_11_0:findTF("BG/cloud")
+	arg_11_0.cloudTF = arg_11_0._tf:Find("BG/cloud")
 
-	local var_11_0 = arg_11_0:findTF("Top", arg_11_0.noAdaptPanel)
+	local var_11_0 = arg_11_0.noAdaptPanel:Find("Top")
 
 	arg_11_0.topTF = var_11_0
-	arg_11_0.backBtn = arg_11_0:findTF("BackBtn", var_11_0)
-	arg_11_0.helpBtn = arg_11_0:findTF("HelpBtn", var_11_0)
-	arg_11_0.timesText = arg_11_0:findTF("Times/Text", var_11_0)
-	arg_11_0.goldText = arg_11_0:findTF("Gold/Text", var_11_0)
+	arg_11_0.backBtn = var_11_0:Find("BackBtn")
+	arg_11_0.helpBtn = var_11_0:Find("HelpBtn")
+	arg_11_0.timesText = var_11_0:Find("Times/Text")
+	arg_11_0.goldText = var_11_0:Find("Gold/Text")
 
-	local var_11_1 = arg_11_0:findTF("Main")
+	local var_11_1 = arg_11_0._tf:Find("Main")
 
-	arg_11_0.witchImg = arg_11_0:findTF("Witch", var_11_1)
-	arg_11_0.rope = arg_11_0:findTF("Rope", var_11_1)
+	arg_11_0.witchImg = var_11_1:Find("Witch")
+	arg_11_0.rope = var_11_1:Find("Rope")
 	arg_11_0.spineAnim = GetComponent(arg_11_0.rope, "SpineAnimUI")
 	arg_11_0.press = GetComponent(arg_11_0.rope, "EventTriggerListener")
 end

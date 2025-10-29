@@ -20,6 +20,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	function arg_2_0.shipRect.onUpdateItem(arg_4_0, arg_4_1)
 		arg_2_0:OnUpdateItem(arg_4_0, arg_4_1)
 	end
+
+	setText(arg_2_0._tf:Find("frame/title/Text"), i18n("island_chara_list"))
 end
 
 function var_0_0.AddListeners(arg_5_0)
@@ -66,7 +68,7 @@ function var_0_0.OnInit(arg_8_0)
 	arg_8_0.searchKey = ""
 	arg_8_0.selectAsc = true
 	arg_8_0.sortData = {
-		sortIndex = IslandShipIndexLayer.SortRarity,
+		sortIndex = IslandShipIndexLayer.SortLevel,
 		campIndex = ShipIndexConst.CampAll,
 		rarityIndex = ShipIndexConst.RarityAll,
 		extraIndex = IslandShipIndexLayer.ExtraALL
@@ -96,7 +98,7 @@ function var_0_0.Show(arg_15_0)
 end
 
 function var_0_0.UpdateSortBtn(arg_16_0)
-	arg_16_0.orderIco.localScale = arg_16_0.selectAsc and Vector3(1, -1, 1) or Vector3(1, 1, 1)
+	arg_16_0.orderIco.localScale = arg_16_0.selectAsc and Vector3(1, 1, 1) or Vector3(1, -1, 1)
 
 	local var_16_0, var_16_1 = IslandShipIndexLayer.getSortFuncAndName(arg_16_0.sortData.sortIndex, arg_16_0.selectAsc)
 
@@ -151,7 +153,7 @@ local function var_0_1(arg_22_0, arg_22_1)
 	end
 
 	local var_22_0 = string.lower(string.gsub(arg_22_1, "%.", "%%."))
-	local var_22_1 = pg.island_ship[arg_22_0].name
+	local var_22_1 = IslandShip.StaticGetName(arg_22_0)
 
 	return string.find(string.lower(var_22_1), var_22_0)
 end
@@ -183,10 +185,10 @@ function var_0_0.ToVShip(arg_23_0, arg_23_1)
 end
 
 local function var_0_2(arg_28_0, arg_28_1, arg_28_2)
-	local var_28_0 = IslandShip.StaticGetShipGroup(arg_28_1)
+	local var_28_0 = arg_28_1
 	local var_28_1 = ShipGroup.getDefaultShipConfig(var_28_0)
 	local var_28_2 = arg_28_0:ToVShip(var_28_1)
-	local var_28_3 = arg_28_0.characterAgency:GetShipByConfigId(arg_28_1)
+	local var_28_3 = arg_28_0.characterAgency:GetShipById(arg_28_1)
 
 	if ShipIndexConst.filterByCamp(var_28_2, arg_28_2.campIndex) and ShipIndexConst.filterByRarity(var_28_2, arg_28_2.rarityIndex) and IslandShipIndexLayer.filterByExtra(var_28_3, arg_28_2.extraIndex) then
 		return true
@@ -214,7 +216,8 @@ end
 
 function var_0_0.Hide(arg_30_0)
 	var_0_0.super.Hide(arg_30_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_30_0.frameTr, arg_30_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_30_0.frameTr, arg_30_0._tf)
+	arg_30_0:emit(IslandShipMainPage.CLOSE_DOCK)
 end
 
 function var_0_0.OnDestroy(arg_31_0)

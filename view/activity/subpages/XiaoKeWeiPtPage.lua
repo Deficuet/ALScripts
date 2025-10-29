@@ -3,8 +3,8 @@ local var_0_0 = class("XiaoKeWeiPtPage", import(".TemplatePage.PtTemplatePage"))
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.hearts = UIItemList.New(arg_1_0:findTF("AD/heart"), arg_1_0:findTF("AD/heart/mark"))
-	arg_1_0.helpBtn = arg_1_0:findTF("AD/help_btn")
+	arg_1_0.hearts = UIItemList.New(arg_1_0._tf:Find("AD/heart"), arg_1_0._tf:Find("AD/heart/mark"))
+	arg_1_0.helpBtn = arg_1_0._tf:Find("AD/help_btn")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)

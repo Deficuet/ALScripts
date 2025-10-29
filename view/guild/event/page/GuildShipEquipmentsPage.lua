@@ -5,15 +5,15 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.shipNameTxt = arg_2_0:findTF("frame/ship_info/shipname"):GetComponent(typeof(Text))
-	arg_2_0.userNameTxt = arg_2_0:findTF("frame/ship_info/username"):GetComponent(typeof(Text))
-	arg_2_0.shipTypeIcon = arg_2_0:findTF("frame/ship_info/ship_type"):GetComponent(typeof(Image))
-	arg_2_0.shipStarList = UIItemList.New(arg_2_0:findTF("frame/ship_info/stars"), arg_2_0:findTF("frame/ship_info/stars/star_tpl"))
-	arg_2_0.shipLvTxt = arg_2_0:findTF("frame/ship_info/lv/Text"):GetComponent(typeof(Text))
-	arg_2_0.equipmentList = UIItemList.New(arg_2_0:findTF("frame/equipemtns"), arg_2_0:findTF("frame/equipemtns/equipment_tpl"))
+	arg_2_0.shipNameTxt = arg_2_0._tf:Find("frame/ship_info/shipname"):GetComponent(typeof(Text))
+	arg_2_0.userNameTxt = arg_2_0._tf:Find("frame/ship_info/username"):GetComponent(typeof(Text))
+	arg_2_0.shipTypeIcon = arg_2_0._tf:Find("frame/ship_info/ship_type"):GetComponent(typeof(Image))
+	arg_2_0.shipStarList = UIItemList.New(arg_2_0._tf:Find("frame/ship_info/stars"), arg_2_0._tf:Find("frame/ship_info/stars/star_tpl"))
+	arg_2_0.shipLvTxt = arg_2_0._tf:Find("frame/ship_info/lv/Text"):GetComponent(typeof(Text))
+	arg_2_0.equipmentList = UIItemList.New(arg_2_0._tf:Find("frame/equipemtns"), arg_2_0._tf:Find("frame/equipemtns/equipment_tpl"))
 	arg_2_0.playerId = getProxy(PlayerProxy):getRawData().id
-	arg_2_0.nextBtn = arg_2_0:findTF("frame/next")
-	arg_2_0.prevBtn = arg_2_0:findTF("frame/prev")
+	arg_2_0.nextBtn = arg_2_0._tf:Find("frame/next")
+	arg_2_0.prevBtn = arg_2_0._tf:Find("frame/prev")
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -47,7 +47,7 @@ function var_0_0.Show(arg_8_0, arg_8_1, arg_8_2, arg_8_3, arg_8_4)
 	end
 
 	arg_8_0:Flush(arg_8_1, arg_8_2)
-	pg.UIMgr:GetInstance():BlurPanel(arg_8_0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(arg_8_0._tf)
 	setActive(arg_8_0.nextBtn, arg_8_0.onNext ~= nil)
 	SetActive(arg_8_0.prevBtn, arg_8_0.onPrev ~= nil)
 end
@@ -112,7 +112,7 @@ end
 
 function var_0_0.Hide(arg_15_0)
 	var_0_0.super.Hide(arg_15_0)
-	pg.UIMgr:GetInstance():UnblurPanel(arg_15_0._tf, arg_15_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf, arg_15_0._parentTf)
 
 	if arg_15_0.OnHide then
 		arg_15_0.OnHide()

@@ -10,15 +10,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.anim = arg_2_0:findTF("anim_root"):GetComponent(typeof(Animation))
-	arg_2_0.animEvent = arg_2_0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	arg_2_0.anim = arg_2_0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	arg_2_0.animEvent = arg_2_0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	arg_2_0.animEvent:SetEndEvent(function()
 		arg_2_0:emit(var_0_0.ON_CLOSE)
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
 	arg_2_0._tipTF = arg_2_0._tf:Find("anim_root/tip")
 	arg_2_0.contentTF = arg_2_0._tipTF:Find("tip_bg/layout/title/name")
@@ -78,7 +76,7 @@ end
 
 function var_0_0.willExit(arg_15_0)
 	arg_15_0:saveTipRecord()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_15_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf)
 
 	if arg_15_0.contextData.onExit then
 		arg_15_0.contextData.onExit()

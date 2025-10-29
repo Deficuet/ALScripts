@@ -111,63 +111,63 @@ function var_0_0.getBGM(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.countUI = arg_3_0:findTF("count_ui")
-	arg_3_0.countAnimator = arg_3_0:findTF("count_bg/count", arg_3_0.countUI):GetComponent(typeof(Animator))
-	arg_3_0.countDft = arg_3_0:findTF("count_bg/count", arg_3_0.countUI):GetComponent(typeof(DftAniEvent))
+	arg_3_0.countUI = arg_3_0._tf:Find("count_ui")
+	arg_3_0.countAnimator = arg_3_0.countUI:Find("count_bg/count"):GetComponent(typeof(Animator))
+	arg_3_0.countDft = arg_3_0.countUI:Find("count_bg/count"):GetComponent(typeof(DftAniEvent))
 
 	arg_3_0.countDft:SetEndEvent(function()
 		setActive(arg_3_0.countUI, false)
 		arg_3_0:startGame()
 	end)
 
-	arg_3_0.pauseUI = arg_3_0:findTF("pause_ui")
-	arg_3_0.resuemBtn = arg_3_0:findTF("box/sure_btn", arg_3_0.pauseUI)
+	arg_3_0.pauseUI = arg_3_0._tf:Find("pause_ui")
+	arg_3_0.resuemBtn = arg_3_0.pauseUI:Find("box/sure_btn")
 
-	setText(arg_3_0:findTF("box/content", arg_3_0.pauseUI), i18n("idolmaster_game_tip1"))
+	setText(arg_3_0.pauseUI:Find("box/content"), i18n("idolmaster_game_tip1"))
 
-	arg_3_0.exitUI = arg_3_0:findTF("exit_ui")
-	arg_3_0.exitSureBtn = arg_3_0:findTF("box/sure_btn", arg_3_0.exitUI)
-	arg_3_0.exitCancelBtn = arg_3_0:findTF("box/cancel_btn", arg_3_0.exitUI)
+	arg_3_0.exitUI = arg_3_0._tf:Find("exit_ui")
+	arg_3_0.exitSureBtn = arg_3_0.exitUI:Find("box/sure_btn")
+	arg_3_0.exitCancelBtn = arg_3_0.exitUI:Find("box/cancel_btn")
 
-	setText(arg_3_0:findTF("box/content", arg_3_0.exitUI), i18n("idolmaster_game_tip2"))
+	setText(arg_3_0.exitUI:Find("box/content"), i18n("idolmaster_game_tip2"))
 
-	arg_3_0.endUI = arg_3_0:findTF("end_ui")
-	arg_3_0.endSureBtn = arg_3_0:findTF("box/sure_btn", arg_3_0.endUI)
+	arg_3_0.endUI = arg_3_0._tf:Find("end_ui")
+	arg_3_0.endSureBtn = arg_3_0.endUI:Find("box/sure_btn")
 
-	setText(arg_3_0:findTF("box/cur_score", arg_3_0.endUI), i18n("idolmaster_game_tip3"))
+	setText(arg_3_0.endUI:Find("box/cur_score"), i18n("idolmaster_game_tip3"))
 
-	arg_3_0.endScoreTxt = arg_3_0:findTF("box/cur_score/score", arg_3_0.endUI)
-	arg_3_0.newTag = arg_3_0:findTF("new", arg_3_0.endScoreTxt)
+	arg_3_0.endScoreTxt = arg_3_0.endUI:Find("box/cur_score/score")
+	arg_3_0.newTag = arg_3_0.endScoreTxt:Find("new")
 
-	setText(arg_3_0:findTF("box/highest_score", arg_3_0.endUI), i18n("idolmaster_game_tip4"))
+	setText(arg_3_0.endUI:Find("box/highest_score"), i18n("idolmaster_game_tip4"))
 
-	arg_3_0.highestScoreTxt = arg_3_0:findTF("box/highest_score/score", arg_3_0.endUI)
-	arg_3_0.gameUI = arg_3_0:findTF("game_ui")
-	arg_3_0.returnBtn = arg_3_0:findTF("top/return_btn", arg_3_0.gameUI)
-	arg_3_0.pauseBtn = arg_3_0:findTF("top/pause_btn", arg_3_0.gameUI)
-	arg_3_0.roundTxt = arg_3_0:findTF("top/title/round/num", arg_3_0.gameUI)
+	arg_3_0.highestScoreTxt = arg_3_0.endUI:Find("box/highest_score/score")
+	arg_3_0.gameUI = arg_3_0._tf:Find("game_ui")
+	arg_3_0.returnBtn = arg_3_0.gameUI:Find("top/return_btn")
+	arg_3_0.pauseBtn = arg_3_0.gameUI:Find("top/pause_btn")
+	arg_3_0.roundTxt = arg_3_0.gameUI:Find("top/title/round/num")
 	arg_3_0.roundNum = 0
-	arg_3_0.curScoreTxt = arg_3_0:findTF("top/title/score_title/score", arg_3_0.gameUI)
+	arg_3_0.curScoreTxt = arg_3_0.gameUI:Find("top/title/score_title/score")
 	arg_3_0.curScore = 0
 
 	setText(arg_3_0.curScoreTxt, arg_3_0.curScore)
 
-	arg_3_0.curTimeTxt = arg_3_0:findTF("top/time_bg/time", arg_3_0.gameUI)
+	arg_3_0.curTimeTxt = arg_3_0.gameUI:Find("top/time_bg/time")
 	arg_3_0.curTime = 0
 
-	setText(arg_3_0:findTF("top/title/score_title", arg_3_0.gameUI), i18n("idolmaster_game_tip5"))
+	setText(arg_3_0.gameUI:Find("top/title/score_title"), i18n("idolmaster_game_tip5"))
 
-	arg_3_0.correctBar = arg_3_0:findTF("correct_bar", arg_3_0.gameUI)
-	arg_3_0.failBar = arg_3_0:findTF("fail_bar", arg_3_0.gameUI)
-	arg_3_0.manjuu = arg_3_0:findTF("play/manjuu", arg_3_0.gameUI)
+	arg_3_0.correctBar = arg_3_0.gameUI:Find("correct_bar")
+	arg_3_0.failBar = arg_3_0.gameUI:Find("fail_bar")
+	arg_3_0.manjuu = arg_3_0.gameUI:Find("play/manjuu")
 	arg_3_0.manjuuAnimator = arg_3_0.manjuu:GetComponent(typeof(Animator))
 	arg_3_0.manjuuDft = arg_3_0.manjuu:GetComponent(typeof(DftAniEvent))
-	arg_3_0.result = arg_3_0:findTF("result", arg_3_0.gameUI)
+	arg_3_0.result = arg_3_0.gameUI:Find("result")
 	arg_3_0.resultAnimator = arg_3_0.result:GetComponent(typeof(Animator))
 	arg_3_0.resultDft = arg_3_0.result:GetComponent(typeof(DftAniEvent))
-	arg_3_0.scoreAni = arg_3_0:findTF("score", arg_3_0.gameUI)
-	arg_3_0.cupContainer = arg_3_0:findTF("cup_container", arg_3_0.gameUI)
-	arg_3_0.fork = arg_3_0:findTF("fork", arg_3_0.gameUI)
+	arg_3_0.scoreAni = arg_3_0.gameUI:Find("score")
+	arg_3_0.cupContainer = arg_3_0.gameUI:Find("cup_container")
+	arg_3_0.fork = arg_3_0.gameUI:Find("fork")
 	arg_3_0.isGuessTime = false
 end
 
@@ -201,7 +201,7 @@ function var_0_0.didEnter(arg_5_0)
 				return
 			end
 
-			setActive(arg_5_0:findTF("select", arg_12_0), true)
+			setActive(arg_12_0:Find("select"), true)
 
 			arg_5_0.isGuessTime = false
 
@@ -224,7 +224,7 @@ function var_0_0.initGameData(arg_14_0)
 
 	eachChild(arg_14_0.cupContainer, function(arg_15_0)
 		GetSpriteFromAtlasAsync("ui/minigameui/guessforkgameui", var_14_1, function(arg_16_0)
-			setImageSprite(arg_14_0:findTF("front", arg_15_0), arg_16_0, true)
+			setImageSprite(arg_15_0:Find("front"), arg_16_0, true)
 		end)
 	end)
 
@@ -253,9 +253,9 @@ function var_0_0.startGame(arg_17_0)
 end
 
 function var_0_0.playForkAni(arg_19_0, arg_19_1)
-	local var_19_0 = arg_19_0:findTF("cup_" .. arg_19_0.forkIndex, arg_19_0.cupContainer)
+	local var_19_0 = arg_19_0.cupContainer:Find("cup_" .. arg_19_0.forkIndex)
 
-	setParent(arg_19_0.fork, arg_19_0:findTF("fork_node", var_19_0), false)
+	setParent(arg_19_0.fork, var_19_0:Find("fork_node"), false)
 	setLocalScale(arg_19_0.fork, Vector3.one)
 	setLocalPosition(arg_19_0.fork, Vector3(0, 50, 0))
 	setActive(arg_19_0.fork, true)
@@ -288,8 +288,8 @@ function var_0_0.startSwap(arg_22_0, arg_22_1)
 
 	table.remove(var_22_0, var_22_1)
 
-	local var_22_2 = arg_22_0:findTF("cup_" .. var_22_0[1], arg_22_0.cupContainer)
-	local var_22_3 = arg_22_0:findTF("cup_" .. var_22_0[2], arg_22_0.cupContainer)
+	local var_22_2 = arg_22_0.cupContainer:Find("cup_" .. var_22_0[1])
+	local var_22_3 = arg_22_0.cupContainer:Find("cup_" .. var_22_0[2])
 
 	arg_22_0:swapCup(var_22_2, var_22_3, function()
 		arg_22_0:startSwap(arg_22_1 - 1)
@@ -371,7 +371,7 @@ function var_0_0.endRound(arg_31_0, arg_31_1)
 end
 
 function var_0_0.playManjuuAni(arg_32_0, arg_32_1)
-	local var_32_0 = arg_32_0:findTF("cup_" .. arg_32_0.selectIndex, arg_32_0.cupContainer)
+	local var_32_0 = arg_32_0.cupContainer:Find("cup_" .. arg_32_0.selectIndex)
 	local var_32_1 = (var_32_0.anchoredPosition.x + 480) / 480 + 1
 
 	arg_32_0.manjuuAnimator:Play(var_0_18[var_32_1])
@@ -380,16 +380,16 @@ function var_0_0.playManjuuAni(arg_32_0, arg_32_1)
 
 		local var_33_0 = arg_32_1 and var_0_19[var_32_1] or var_0_20[var_32_1]
 
-		setActive(arg_32_0:findTF("select", var_32_0), false)
+		setActive(var_32_0:Find("select"), false)
 		arg_32_0.manjuuAnimator:Play(var_33_0)
 		arg_32_0:playResultAni(arg_32_1)
 	end)
 end
 
 function var_0_0.playResultAni(arg_34_0, arg_34_1)
-	local var_34_0 = arg_34_0:findTF("cup_" .. arg_34_0.selectIndex, arg_34_0.cupContainer)
+	local var_34_0 = arg_34_0.cupContainer:Find("cup_" .. arg_34_0.selectIndex)
 
-	setParent(arg_34_0.result, arg_34_0:findTF("result_node", var_34_0), false)
+	setParent(arg_34_0.result, var_34_0:Find("result_node"), false)
 	setLocalScale(arg_34_0.result, Vector3.one)
 	setLocalPosition(arg_34_0.result, Vector3.zero)
 	setActive(arg_34_0.result, true)
@@ -461,9 +461,9 @@ function var_0_0.showCorrectBar(arg_37_0)
 end
 
 function var_0_0.playTimeOutAni(arg_45_0)
-	local var_45_0 = arg_45_0:findTF("cup_" .. arg_45_0.forkIndex, arg_45_0.cupContainer)
+	local var_45_0 = arg_45_0.cupContainer:Find("cup_" .. arg_45_0.forkIndex)
 
-	setParent(arg_45_0.result, arg_45_0:findTF("result_node", var_45_0), false)
+	setParent(arg_45_0.result, var_45_0:Find("result_node"), false)
 	setLocalScale(arg_45_0.result, Vector3.one)
 	setLocalPosition(arg_45_0.result, Vector3.zero)
 	setActive(arg_45_0.result, true)

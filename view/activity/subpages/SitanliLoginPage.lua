@@ -9,7 +9,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 	setActive(arg_2_0.item, false)
 	arg_2_0.itemList:make(function(arg_3_0, arg_3_1, arg_3_2)
 		if arg_3_0 == UIItemList.EventInit then
-			local var_3_0 = arg_2_0:findTF("item", arg_3_2)
+			local var_3_0 = arg_3_2:Find("item")
 			local var_3_1 = arg_2_0.config.front_drops[arg_3_1 + 1]
 			local var_3_2 = {
 				type = var_3_1[1],
@@ -22,7 +22,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 				arg_2_0:emit(BaseUI.ON_DROP, var_3_2)
 			end, SFX_PANEL)
 		elseif arg_3_0 == UIItemList.EventUpdate then
-			local var_3_3 = arg_2_0:findTF("got", arg_3_2)
+			local var_3_3 = arg_3_2:Find("got")
 
 			setActive(var_3_3, arg_3_1 < arg_2_0.nday)
 		end

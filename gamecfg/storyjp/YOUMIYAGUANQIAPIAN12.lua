@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_307",
 			hidePaintObj = true,
 			say = "テントの中で、各々が料理の腕前を披露しながら昼食を用意する。そして一行は贅沢な食事をとった。",
-			bgm = "yumia-7",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

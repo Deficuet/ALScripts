@@ -7,9 +7,7 @@ function var_0_0.register(arg_1_0)
 		arg_1_0:addSubLayers(Context.New({
 			mediator = TechnologyTreeSetAttrMediator,
 			viewComponent = TechnologyTreeSetAttrLayer,
-			data = {
-				LayerWeightMgr_weight = LayerWeightConst.TOP_LAYER
-			},
+			data = {},
 			onRemoved = function()
 				arg_1_0.viewComponent:updateDetail()
 			end

@@ -42,23 +42,23 @@ end
 local var_0_1 = {}
 
 function var_0_0.findUI(arg_8_0)
-	arg_8_0.bg = arg_8_0:findTF("BG")
+	arg_8_0.bg = arg_8_0._tf:Find("BG")
 
-	local var_8_0 = arg_8_0:findTF("NotchAdapt")
+	local var_8_0 = arg_8_0._tf:Find("NotchAdapt")
 
-	arg_8_0.backBtn = arg_8_0:findTF("BackBtn", var_8_0)
-	arg_8_0.progressText = arg_8_0:findTF("ProgressText", var_8_0)
-	arg_8_0.helpBtn = arg_8_0:findTF("HelpBtn", var_8_0)
+	arg_8_0.backBtn = var_8_0:Find("BackBtn")
+	arg_8_0.progressText = var_8_0:Find("ProgressText")
+	arg_8_0.helpBtn = var_8_0:Find("HelpBtn")
 	arg_8_0.top = var_8_0
 
-	local var_8_1 = arg_8_0:findTF("MedalContainer")
+	local var_8_1 = arg_8_0._tf:Find("MedalContainer")
 
 	arg_8_0.medalContainer = var_8_1
-	arg_8_0.buttonNext = arg_8_0:findTF("ButtonNext", var_8_1)
-	arg_8_0.buttonNextLocked = arg_8_0:findTF("ButtonNextLocked", var_8_1)
-	arg_8_0.buttonPrev = arg_8_0:findTF("ButtonPrev", var_8_1)
-	arg_8_0.buttonShare = arg_8_0:findTF("ButtonShare", var_8_1)
-	arg_8_0.buttonReset = arg_8_0:findTF("ButtonReset", var_8_1)
+	arg_8_0.buttonNext = var_8_1:Find("ButtonNext")
+	arg_8_0.buttonNextLocked = var_8_1:Find("ButtonNextLocked")
+	arg_8_0.buttonPrev = var_8_1:Find("ButtonPrev")
+	arg_8_0.buttonShare = var_8_1:Find("ButtonShare")
+	arg_8_0.buttonReset = var_8_1:Find("ButtonReset")
 	arg_8_0.pageCollection = var_8_1:Find("PageCollection")
 	arg_8_0.pageModified = var_8_1:Find("PageModified")
 	arg_8_0.OverlayPanel = var_8_1:Find("Overlay")
@@ -70,13 +70,13 @@ function var_0_0.findUI(arg_8_0)
 	arg_8_0.medalItemList = {}
 
 	for iter_8_0 = 1, #arg_8_0.allIDList do
-		table.insert(arg_8_0.medalItemList, arg_8_0:findTF("Images/Medal" .. iter_8_0, arg_8_0.pageCollection))
+		table.insert(arg_8_0.medalItemList, arg_8_0.pageCollection:Find("Images/Medal" .. iter_8_0))
 	end
 
 	arg_8_0.medalTextList = {}
 
 	for iter_8_1 = 1, #arg_8_0.allIDList do
-		table.insert(arg_8_0.medalTextList, arg_8_0:findTF("Texts/Medal" .. iter_8_1, arg_8_0.pageCollection))
+		table.insert(arg_8_0.medalTextList, arg_8_0.pageCollection:Find("Texts/Medal" .. iter_8_1))
 	end
 
 	arg_8_0.selectPanel = var_8_1:Find("SelectPanel")
@@ -341,8 +341,8 @@ function var_0_0.updateMedalView(arg_30_0, arg_30_1, arg_30_2)
 	local var_30_3 = not var_30_1 and not var_30_2
 	local var_30_4 = arg_30_0.medalItemList[var_30_0]
 	local var_30_5 = arg_30_0.medalTextList[var_30_0]
-	local var_30_6 = arg_30_0:findTF("Activable", var_30_5)
-	local var_30_7 = arg_30_0:findTF("DisActive", var_30_5)
+	local var_30_6 = var_30_5:Find("Activable")
+	local var_30_7 = var_30_5:Find("DisActive")
 
 	setImageAlpha(var_30_4, var_30_1 and 1 or 0)
 	setActive(var_30_6, var_30_2)

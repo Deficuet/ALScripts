@@ -25,7 +25,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "とある日、とある洞窟の奥深くにて、アラディス調査団の一行は重要な任務を遂行していた——",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,12 +171,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 900519,
 			say = "……ユミアさん、ニーナさん……もしかすると、もうすぐ外に出られるかもしれません……",
 			typewriter = {
 				speed = 0.05,

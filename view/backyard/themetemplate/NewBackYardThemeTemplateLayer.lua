@@ -37,15 +37,15 @@ function var_0_0.preload(arg_6_0, arg_6_1)
 end
 
 function var_0_0.init(arg_7_0)
-	arg_7_0.tpl = arg_7_0:findTF("adpter/tag/list/tpl")
-	arg_7_0.container = arg_7_0:findTF("adpter/tag/list")
-	arg_7_0.pageContainer = arg_7_0:findTF("pages")
-	arg_7_0.backBtn = arg_7_0:findTF("adpter/top/fanhui")
-	arg_7_0.homeBtn = arg_7_0:findTF("adpter/top/help")
-	arg_7_0.goldTxt = arg_7_0:findTF("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
-	arg_7_0.gemTxt = arg_7_0:findTF("adpter/top/res_gem/Text"):GetComponent(typeof(Text))
-	arg_7_0.gemAddBtn = arg_7_0:findTF("adpter/top/res_gem/jiahao")
-	arg_7_0.goldAddBtn = arg_7_0:findTF("adpter/top/res_gold/jiahao")
+	arg_7_0.tpl = arg_7_0._tf:Find("adpter/tag/list/tpl")
+	arg_7_0.container = arg_7_0._tf:Find("adpter/tag/list")
+	arg_7_0.pageContainer = arg_7_0._tf:Find("pages")
+	arg_7_0.backBtn = arg_7_0._tf:Find("adpter/top/fanhui")
+	arg_7_0.homeBtn = arg_7_0._tf:Find("adpter/top/help")
+	arg_7_0.goldTxt = arg_7_0._tf:Find("adpter/top/res_gold/Text"):GetComponent(typeof(Text))
+	arg_7_0.gemTxt = arg_7_0._tf:Find("adpter/top/res_gem/Text"):GetComponent(typeof(Text))
+	arg_7_0.gemAddBtn = arg_7_0._tf:Find("adpter/top/res_gem/jiahao")
+	arg_7_0.goldAddBtn = arg_7_0._tf:Find("adpter/top/res_gold/jiahao")
 	arg_7_0.tags = {
 		[BackYardConst.THEME_TEMPLATE_TYPE_SHOP] = i18n("backyard_theme_shop_title"),
 		[BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM] = i18n("backyard_theme_mine_title"),

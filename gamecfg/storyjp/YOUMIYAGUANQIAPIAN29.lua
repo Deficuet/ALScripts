@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "もう進めないみたい……",
-			bgm = "yumia-53",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

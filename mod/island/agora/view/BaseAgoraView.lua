@@ -1,7 +1,7 @@
 local var_0_0 = class("BaseAgoraView", import("Mod.Island.Core.View.IslandView"))
 
-function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
-	var_0_0.super.Ctor(arg_1_0, arg_1_1)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
+	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_3, arg_1_4)
 
 	arg_1_0.agora = arg_1_2
 	arg_1_0.agora_callbacks = {}
@@ -24,6 +24,8 @@ function var_0_0.AddAgoraListener(arg_5_0, arg_5_1, arg_5_2)
 	local function var_5_0(arg_6_0, ...)
 		arg_5_2(arg_5_0, ...)
 	end
+
+	assert(arg_5_0.agora_callbacks[arg_5_2] == nil, "This method has been monitored. Please use another one" .. arg_5_1)
 
 	arg_5_0.agora_callbacks[arg_5_2] = var_5_0
 

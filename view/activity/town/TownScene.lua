@@ -27,27 +27,27 @@ function var_0_0.SetActivity(arg_2_0, arg_2_1)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.mapTF = arg_3_0:findTF("map")
-	arg_3_0.bgTFs = arg_3_0:findTF("map/bg")
-	arg_3_0.slotTFs = arg_3_0:findTF("map/content")
-	arg_3_0.slotTpl = arg_3_0:findTF("map/content/tpl")
+	arg_3_0.mapTF = arg_3_0._tf:Find("map")
+	arg_3_0.bgTFs = arg_3_0._tf:Find("map/bg")
+	arg_3_0.slotTFs = arg_3_0._tf:Find("map/content")
+	arg_3_0.slotTpl = arg_3_0._tf:Find("map/content/tpl")
 
 	setActive(arg_3_0.slotTpl, false)
 
-	local var_3_0 = arg_3_0:findTF("ui")
+	local var_3_0 = arg_3_0._tf:Find("ui")
 
-	arg_3_0.topUI = arg_3_0:findTF("top", var_3_0)
-	arg_3_0.goldText = arg_3_0:findTF("gold/Text", arg_3_0.topUI):GetComponent(typeof(Text))
+	arg_3_0.topUI = var_3_0:Find("top")
+	arg_3_0.goldText = arg_3_0.topUI:Find("gold/Text"):GetComponent(typeof(Text))
 	arg_3_0.infoPage = TownInfoPage.New(var_3_0, arg_3_0)
 
 	arg_3_0.infoPage:ExecuteAction("Flush")
 end
 
 function var_0_0.didEnter(arg_4_0)
-	onButton(arg_4_0, arg_4_0:findTF("back", arg_4_0.topUI), function()
+	onButton(arg_4_0, arg_4_0.topUI:Find("back"), function()
 		arg_4_0:onBackPressed()
 	end, SFX_PANEL)
-	onButton(arg_4_0, arg_4_0:findTF("help", arg_4_0.topUI), function()
+	onButton(arg_4_0, arg_4_0.topUI:Find("help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.town_help.tip
@@ -160,7 +160,7 @@ function var_0_0.UpdateBubbles(arg_21_0)
 	for iter_21_0, iter_21_1 in ipairs(arg_21_0.shipIds) do
 		if iter_21_1 > 0 and getProxy(BayProxy):RawGetShipById(iter_21_1) then
 			local var_21_0 = arg_21_0.activity:GetBubbleCntByPos(iter_21_0)
-			local var_21_1 = arg_21_0:findTF(iter_21_0 .. "/bubble", arg_21_0.slotTFs)
+			local var_21_1 = arg_21_0.slotTFs:Find(iter_21_0 .. "/bubble")
 
 			setActive(var_21_1, var_21_0 > 0)
 
@@ -187,7 +187,7 @@ function var_0_0.UpdateShips(arg_23_0)
 end
 
 function var_0_0.UpdateShip(arg_24_0, arg_24_1, arg_24_2)
-	local var_24_0 = arg_24_0:findTF(arg_24_1, arg_24_0.slotTFs)
+	local var_24_0 = arg_24_0.slotTFs:Find(arg_24_1)
 
 	if var_24_0 then
 		setActive(var_24_0, false)
@@ -211,7 +211,7 @@ function var_0_0.UpdateShip(arg_24_0, arg_24_1, arg_24_2)
 		table.removebyvalue(arg_24_0.randomPos, var_24_2)
 	end
 
-	onButton(arg_24_0, arg_24_0:findTF("bubble", var_24_0), function()
+	onButton(arg_24_0, var_24_0:Find("bubble"), function()
 		if not arg_24_0.bubblesPosList or #arg_24_0.bubblesPosList <= 0 then
 			return
 		end

@@ -1,12 +1,12 @@
 local var_0_0 = class("ActiveStarlightHomepage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("bg")
-	arg_1_0.Build = arg_1_0:findTF("bg/Build"):GetComponent("Button")
-	arg_1_0.Level = arg_1_0:findTF("bg/Level"):GetComponent("Button")
-	arg_1_0.Shop = arg_1_0:findTF("bg/Shop"):GetComponent("Button")
-	arg_1_0.Manual = arg_1_0:findTF("bg/Manual"):GetComponent("Button")
-	arg_1_0.image = arg_1_0:findTF("bg/Manual/image")
+	arg_1_0.bg = arg_1_0._tf:Find("bg")
+	arg_1_0.Build = arg_1_0._tf:Find("bg/Build"):GetComponent("Button")
+	arg_1_0.Level = arg_1_0._tf:Find("bg/Level"):GetComponent("Button")
+	arg_1_0.Shop = arg_1_0._tf:Find("bg/Shop"):GetComponent("Button")
+	arg_1_0.Manual = arg_1_0._tf:Find("bg/Manual"):GetComponent("Button")
+	arg_1_0.image = arg_1_0._tf:Find("bg/Manual/image")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)

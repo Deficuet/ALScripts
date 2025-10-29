@@ -17,7 +17,7 @@ function var_0_0.OnInit(arg_2_0)
 
 	assert(var_2_1, "Can't Find activity_event_picturepuzzle 's ID : " .. var_2_0.id)
 
-	arg_2_0.bulin = arg_2_0:findTF("bulin")
+	arg_2_0.bulin = arg_2_0._tf:Find("bulin")
 
 	onButton(arg_2_0, arg_2_0.bulin, function()
 		local var_3_0 = arg_2_0.pieceId

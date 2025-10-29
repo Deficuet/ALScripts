@@ -7,6 +7,7 @@ function var_0_0.OnInit(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1.shop_list
 
 	arg_1_0:SetShops(var_1_0)
+	arg_1_0:SetSeasonShops()
 end
 
 function var_0_0.SetShops(arg_2_0, arg_2_1)
@@ -46,7 +47,7 @@ function var_0_0.GetShopCommodity(arg_5_0, arg_5_1, arg_5_2)
 end
 
 function var_0_0.RefreshShopData(arg_6_0, arg_6_1)
-	arg_6_0:sendNotification(GAME.ISLAND_SHOP_OP, {
+	pg.m02:sendNotification(GAME.ISLAND_SHOP_OP, {
 		operation = IslandConst.SHOP_GET_DATA,
 		shopId = arg_6_1
 	})
@@ -59,8 +60,8 @@ function var_0_0.UpdateShop(arg_7_0, arg_7_1, arg_7_2)
 		if arg_7_2 ~= nil then
 			var_7_0:UpdateData(arg_7_2)
 		else
-			table.remove(arg_7_0.shops, var_7_0)
-			table.remove(arg_7_0.shopIds, arg_7_1)
+			table.removebyvalue(arg_7_0.shops, var_7_0)
+			table.removebyvalue(arg_7_0.shopIds, arg_7_1)
 		end
 	elseif arg_7_2 ~= nil then
 		local var_7_1 = IslandShopp.New(arg_7_2, arg_7_0:GetHost())
@@ -114,13 +115,13 @@ function var_0_0.ShouldShowSecondShop(arg_12_0, arg_12_1, arg_12_2)
 	return false
 end
 
-function var_0_0.GetFirstShopConfigs(arg_13_0, arg_13_1)
+function var_0_0.GetFirstShopConfigs(arg_13_0, arg_13_1, arg_13_2)
 	local var_13_0 = {}
 
 	for iter_13_0, iter_13_1 in ipairs(var_0_1.all) do
 		local var_13_1 = var_0_1[iter_13_1]
 
-		if var_13_1.tag_type == 1 and arg_13_0:ShouldShowFirstShop(var_13_1, arg_13_1) then
+		if var_13_1.tag_type == 1 and arg_13_0:ShouldShowFirstShop(var_13_1, arg_13_1) and (not arg_13_2 or table.contains(arg_13_2, iter_13_1)) then
 			table.insert(var_13_0, var_13_1)
 		end
 	end
@@ -164,9 +165,9 @@ function var_0_0.GetThirdShopConfigs(arg_15_0, arg_15_1, arg_15_2)
 	return arg_15_0:GetSortedShopConfigs(var_15_0)
 end
 
-function var_0_0.GetInitShowingShop(arg_16_0, arg_16_1)
+function var_0_0.GetInitShowingShop(arg_16_0, arg_16_1, arg_16_2)
 	local var_16_0
-	local var_16_1 = arg_16_0:GetFirstShopConfigs(arg_16_1)[1]
+	local var_16_1 = arg_16_0:GetFirstShopConfigs(arg_16_1, arg_16_2)[1]
 
 	if var_16_1.shop_type == 0 then
 		local var_16_2 = arg_16_0:GetSecondShopConfigs(arg_16_1, var_16_1.id)[1]
@@ -189,23 +190,55 @@ end
 
 function var_0_0.GetNewOrOverdueShopIds(arg_17_0)
 	local var_17_0 = {}
+	local var_17_1 = IslandSeasonAgency.GetCurrentSeason()
+	local var_17_2 = pg.island_season[var_17_1].shop_id
 
 	for iter_17_0, iter_17_1 in ipairs(var_0_3.all) do
-		local var_17_1 = var_0_3[iter_17_1]
-		local var_17_2 = pg.TimeMgr.GetInstance():inTime(var_17_1.exist_time)
+		local var_17_3 = var_0_3[iter_17_1]
+		local var_17_4 = pg.TimeMgr.GetInstance():inTime(var_17_3.exist_time)
 
-		if arg_17_0:IsShowShop(iter_17_1) and not var_17_2 or not arg_17_0:IsShowShop(iter_17_1) and var_17_2 then
+		if not arg_17_0:IsShowShop(iter_17_1) and var_17_4 or arg_17_0:IsShowShop(iter_17_1) and not var_17_4 and not table.contains(var_17_2, iter_17_1) or table.contains(var_17_2, iter_17_1) and var_17_4 then
 			table.insert(var_17_0, iter_17_1)
 		end
 	end
 
 	for iter_17_2, iter_17_3 in ipairs(arg_17_0.shops) do
-		if not (pg.TimeMgr.GetInstance():GetServerTime() < iter_17_3.existTime) then
+		if iter_17_3:IsTemporaryShop() and not (pg.TimeMgr.GetInstance():GetServerTime() < iter_17_3.existTime) then
 			table.insert(var_17_0, iter_17_3.id)
 		end
 	end
 
 	return var_17_0
+end
+
+function var_0_0.SetSeasonShops(arg_18_0)
+	local var_18_0 = IslandSeasonAgency.GetCurrentSeason()
+
+	for iter_18_0, iter_18_1 in ipairs(pg.island_season[var_18_0].shop_id) do
+		if not arg_18_0:GetShopById(iter_18_1) then
+			local var_18_1 = IslandShopp.New({
+				refresh_count = 0,
+				refresh_time = 0,
+				exist_time = 0,
+				id = iter_18_1,
+				goods_list = {}
+			}, arg_18_0:GetHost())
+
+			table.insert(arg_18_0.shops, var_18_1)
+			table.insert(arg_18_0.shopIds, iter_18_1)
+		end
+	end
+end
+
+function var_0_0.GetSeasonShops(arg_19_0)
+	local var_19_0 = IslandSeasonAgency.GetCurrentSeason()
+	local var_19_1 = {}
+
+	for iter_19_0, iter_19_1 in ipairs(pg.island_season[var_19_0].shop_id) do
+		var_19_1[iter_19_1] = arg_19_0:GetShopById(iter_19_1)
+	end
+
+	return var_19_1
 end
 
 return var_0_0

@@ -212,6 +212,19 @@ function var_0_0.GetActiveUpgradableSkillList(arg_32_0, arg_32_1)
 		end
 	end
 
+	local var_32_3 = pg.ship_data_template[arg_32_1.configId].hide_buff_list
+
+	for iter_32_2, iter_32_3 in ipairs(var_32_3) do
+		local var_32_4, var_32_5 = arg_32_0:RemapSkillId(iter_32_3)
+
+		if var_32_5 then
+			table.insert(var_32_0, {
+				mapSkillID = var_32_4,
+				originalSkillID = iter_32_3
+			})
+		end
+	end
+
 	return var_32_0
 end
 

@@ -15,7 +15,7 @@ function var_0_0.Init(arg_2_0)
 end
 
 function var_0_0.InitCustom(arg_3_0)
-	setText(arg_3_0:findTF("Frame/Text"), i18n("ryza_tip_item_access"))
+	setText(arg_3_0._tf:Find("Frame/Text"), i18n("ryza_tip_item_access"))
 end
 
 function var_0_0.SetContextData(arg_4_0, arg_4_1)
@@ -27,7 +27,7 @@ function var_0_0.SetActivity(arg_5_0, arg_5_1)
 end
 
 function var_0_0.didEnter(arg_6_0)
-	onButton(arg_6_0, arg_6_0:findTF("BG"), function()
+	onButton(arg_6_0, arg_6_0._tf:Find("BG"), function()
 		arg_6_0:HideMaterialsPreview()
 	end, SFX_CANCEL)
 end
@@ -167,7 +167,7 @@ function var_0_0.ShowMaterialsPreview(arg_8_0, arg_8_1)
 	table.sort(var_8_4, var_8_8)
 
 	local function var_8_9()
-		local var_19_0 = arg_8_0:findTF("Frame/Scroll/Content/Owned/List")
+		local var_19_0 = arg_8_0._tf:Find("Frame/Scroll/Content/Owned/List")
 
 		setActive(var_19_0.parent, #var_8_3 > 0)
 
@@ -188,7 +188,7 @@ function var_0_0.ShowMaterialsPreview(arg_8_0, arg_8_1)
 	end
 
 	local function var_8_10()
-		local var_22_0 = arg_8_0:findTF("Frame/Scroll/Content/Lack/List")
+		local var_22_0 = arg_8_0._tf:Find("Frame/Scroll/Content/Lack/List")
 
 		setActive(var_22_0.parent, #var_8_4 > 0)
 
@@ -217,7 +217,7 @@ function var_0_0.HideMaterialsPreview(arg_25_0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_25_0._tf, arg_25_0._parentClass._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_25_0._tf, arg_25_0._parentClass._tf)
 	setActive(arg_25_0._go, false)
 
 	return true

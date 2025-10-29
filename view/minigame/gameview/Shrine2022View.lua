@@ -162,10 +162,10 @@ function var_0_0.initData(arg_9_0)
 end
 
 function var_0_0.findUI(arg_10_0)
-	local var_10_0 = arg_10_0:findTF("Res")
-	local var_10_1 = getImageSprite(arg_10_0:findTF("CurBuff1", var_10_0))
-	local var_10_2 = getImageSprite(arg_10_0:findTF("CurBuff2", var_10_0))
-	local var_10_3 = getImageSprite(arg_10_0:findTF("CurBuff3", var_10_0))
+	local var_10_0 = arg_10_0._tf:Find("Res")
+	local var_10_1 = getImageSprite(var_10_0:Find("CurBuff1"))
+	local var_10_2 = getImageSprite(var_10_0:Find("CurBuff2"))
+	local var_10_3 = getImageSprite(var_10_0:Find("CurBuff3"))
 
 	arg_10_0.curBuffSpriteList = {
 		var_10_1,
@@ -173,24 +173,24 @@ function var_0_0.findUI(arg_10_0)
 		var_10_3
 	}
 
-	local var_10_4 = arg_10_0:findTF("Adapt")
+	local var_10_4 = arg_10_0._tf:Find("Adapt")
 
-	arg_10_0.tipGoldTF = arg_10_0:findTF("TipGold", var_10_4)
-	arg_10_0.backBtn = arg_10_0:findTF("BackBtn", var_10_4)
-	arg_10_0.helpBtn = arg_10_0:findTF("HelpBtn", var_10_4)
+	arg_10_0.tipGoldTF = var_10_4:Find("TipGold")
+	arg_10_0.backBtn = var_10_4:Find("BackBtn")
+	arg_10_0.helpBtn = var_10_4:Find("HelpBtn")
 
-	local var_10_5 = arg_10_0:findTF("Data")
+	local var_10_5 = arg_10_0._tf:Find("Data")
 
-	arg_10_0.countText = arg_10_0:findTF("Count", var_10_5)
-	arg_10_0.goldText = arg_10_0:findTF("Gold", var_10_5)
-	arg_10_0.countText2 = arg_10_0:findTF("Count2", var_10_5)
-	arg_10_0.cardTpl = arg_10_0:findTF("CardTpl")
-	arg_10_0.cardContainer = arg_10_0:findTF("CardContainer")
+	arg_10_0.countText = var_10_5:Find("Count")
+	arg_10_0.goldText = var_10_5:Find("Gold")
+	arg_10_0.countText2 = var_10_5:Find("Count2")
+	arg_10_0.cardTpl = arg_10_0._tf:Find("CardTpl")
+	arg_10_0.cardContainer = arg_10_0._tf:Find("CardContainer")
 	arg_10_0.cardUIItemList = UIItemList.New(arg_10_0.cardContainer, arg_10_0.cardTpl)
-	arg_10_0.selectBuffBtn = arg_10_0:findTF("SelectBuffBtn")
-	arg_10_0.selectBuffLight = arg_10_0:findTF("SelectBuffLight")
-	arg_10_0.curBuffTF = arg_10_0:findTF("CurBuff")
-	arg_10_0.curBuffImg = arg_10_0:findTF("BuffImg", arg_10_0.curBuffTF)
+	arg_10_0.selectBuffBtn = arg_10_0._tf:Find("SelectBuffBtn")
+	arg_10_0.selectBuffLight = arg_10_0._tf:Find("SelectBuffLight")
+	arg_10_0.curBuffTF = arg_10_0._tf:Find("CurBuff")
+	arg_10_0.curBuffImg = arg_10_0.curBuffTF:Find("BuffImg")
 end
 
 function var_0_0.addListener(arg_11_0)
@@ -254,13 +254,13 @@ function var_0_0.updateCardList(arg_16_0)
 			arg_16_0:updateCardImg(var_17_0)
 			setLocalPosition(arg_17_2, arg_16_0.cardPosList[var_17_0])
 
-			local var_17_1 = arg_16_0:findTF("Empty", arg_17_2)
+			local var_17_1 = arg_17_2:Find("Empty")
 
 			onButton(arg_16_0, var_17_1, function()
 				arg_16_0:openSelectShipView(var_17_0)
 			end, SFX_PANEL)
 
-			local var_17_2 = arg_16_0:findTF("Ship", arg_17_2)
+			local var_17_2 = arg_17_2:Find("Ship")
 
 			onButton(arg_16_0, var_17_2, function()
 				local var_19_0 = arg_16_0:getSelectedShipByCardIndex(var_17_0)
@@ -281,8 +281,8 @@ end
 
 function var_0_0.updateCardImg(arg_20_0, arg_20_1)
 	local var_20_0 = arg_20_0.cardTFList[arg_20_1]
-	local var_20_1 = arg_20_0:findTF("Empty", var_20_0)
-	local var_20_2 = arg_20_0:findTF("Ship", var_20_0)
+	local var_20_1 = var_20_0:Find("Empty")
+	local var_20_2 = var_20_0:Find("Ship")
 	local var_20_3 = arg_20_0:getSelectedShipByCardIndex(arg_20_1)
 
 	if var_20_3 > 0 then
@@ -297,10 +297,9 @@ function var_0_0.updateCardImg(arg_20_0, arg_20_1)
 end
 
 function var_0_0.updateCardSelecting(arg_21_0, arg_21_1, arg_21_2)
-	local var_21_0 = arg_21_0.cardTFList[arg_21_1]
-	local var_21_1 = arg_21_0:findTF("Selecting", var_21_0)
+	local var_21_0 = arg_21_0.cardTFList[arg_21_1]:Find("Selecting")
 
-	setActive(var_21_1, arg_21_2)
+	setActive(var_21_0, arg_21_2)
 end
 
 function var_0_0.updateCardBuffTag(arg_22_0)
@@ -313,7 +312,7 @@ function var_0_0.updateCardBuffTag(arg_22_0)
 	arg_22_0:PrintLog("刷新舰娘BuffTtag")
 
 	for iter_22_0, iter_22_1 in ipairs(arg_22_0.cardTFList) do
-		local var_22_0 = arg_22_0:findTF("Ship/Buff", iter_22_1)
+		local var_22_0 = iter_22_1:Find("Ship/Buff")
 
 		setActive(var_22_0, false)
 	end
@@ -328,15 +327,14 @@ function var_0_0.updateCardBuffTag(arg_22_0)
 		if var_22_4 then
 			if pg.TimeMgr.GetInstance():GetServerTime() < iter_22_3.timestamp then
 				local var_22_5 = arg_22_0:getCardIndexByShip(var_22_4)
-				local var_22_6 = arg_22_0.cardTFList[var_22_5]
-				local var_22_7 = arg_22_0:findTF("Ship/Buff", var_22_6)
+				local var_22_6 = arg_22_0.cardTFList[var_22_5]:Find("Ship/Buff")
 
-				setActive(var_22_7, true)
+				setActive(var_22_6, true)
 
 				break
 			end
 
-			local var_22_8
+			local var_22_7
 
 			break
 		end
@@ -415,16 +413,16 @@ function var_0_0.openSelectShipView(arg_25_0, arg_25_1)
 			setActive(arg_25_0.tipGoldTF, true)
 
 			local var_26_0 = arg_25_0.cardTFList[arg_25_1]
-			local var_26_1 = arg_25_0:findTF("Empty", var_26_0)
-			local var_26_2 = arg_25_0:findTF("Ship", var_26_0)
+			local var_26_1 = var_26_0:Find("Empty")
+			local var_26_2 = var_26_0:Find("Ship")
 
 			setActive(var_26_1, true)
 			setActive(var_26_2, false)
 		end,
 		onSelect = function(arg_27_0)
 			local var_27_0 = arg_25_0.cardTFList[arg_25_1]
-			local var_27_1 = arg_25_0:findTF("Empty", var_27_0)
-			local var_27_2 = arg_25_0:findTF("Ship", var_27_0)
+			local var_27_1 = var_27_0:Find("Empty")
+			local var_27_2 = var_27_0:Find("Ship")
 			local var_27_3 = "shipcard_" .. arg_27_0
 			local var_27_4 = "Shrine2022/" .. var_27_3
 

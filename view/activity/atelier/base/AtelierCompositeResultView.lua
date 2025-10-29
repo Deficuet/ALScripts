@@ -11,7 +11,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 end
 
 function var_0_0.Init(arg_2_0)
-	setText(arg_2_0:findTF("Window/CountBG/Tip"), i18n("ryza_composite_count"))
+	setText(arg_2_0._tf:Find("Window/CountBG/Tip"), i18n("ryza_composite_count"))
 end
 
 function var_0_0.SetContextData(arg_3_0, arg_3_1)
@@ -23,7 +23,7 @@ function var_0_0.SetActivity(arg_4_0, arg_4_1)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	onButton(arg_5_0, arg_5_0:findTF("BG"), function()
+	onButton(arg_5_0, arg_5_0._tf:Find("BG"), function()
 		arg_5_0:HideCompositeResult()
 	end, SFX_CANCEL)
 end
@@ -38,9 +38,9 @@ function var_0_0.ShowCompositeResult(arg_7_0, arg_7_1)
 		return
 	end
 
-	arg_7_0._parentClass:UpdateRyzaDrop(arg_7_0:findTF("Window/Icon"), var_7_0)
-	setScrollText(arg_7_0:findTF("Window/NameBG/Rect/Name"), var_7_0:getName())
-	setText(arg_7_0:findTF("Window/CountBG/Text"), var_7_0.count)
+	arg_7_0._parentClass:UpdateRyzaDrop(arg_7_0._tf:Find("Window/Icon"), var_7_0)
+	setScrollText(arg_7_0._tf:Find("Window/NameBG/Rect/Name"), var_7_0:getName())
+	setText(arg_7_0._tf:Find("Window/CountBG/Text"), var_7_0.count)
 end
 
 function var_0_0.HideCompositeResult(arg_8_0)
@@ -48,7 +48,7 @@ function var_0_0.HideCompositeResult(arg_8_0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_8_0._tf, arg_8_0._parentClass._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0._tf, arg_8_0._parentClass._tf)
 	setActive(arg_8_0._go, false)
 	arg_8_0:PlayGuide()
 

@@ -6,19 +6,19 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_2 = var_1_1:GetDonateTaskById(var_1_0)
 
 	if not var_1_2 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_not_exist_donate_task"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_not_exist_donate_task"))
 
 		return
 	end
 
 	if not var_1_2:canCommit() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
 
 	if not var_1_1:HasDonateCnt() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_donate_times_not enough"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_donate_times_not enough"))
 
 		return
 	end
@@ -65,7 +65,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				awards = var_2_6
 			})
 		else
-			pg.TipsMgr:GetInstance():ShowTips(errorTip("guild_dissolve_erro", arg_2_0.result))
+			pg.TipsMgr.GetInstance():ShowTips(errorTip("guild_dissolve_erro", arg_2_0.result))
 		end
 	end)
 end

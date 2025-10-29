@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_banner = {
 	{
 		id = 1,
-		pic = "temp2",
+		pic = "temp1",
 		type = 2,
 		param = {
 			"scene skinshop",
@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					10,
+					23
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					6
+					11,
+					5
 				},
 				{
 					23,
@@ -37,7 +37,7 @@ pg.activity_banner = {
 	},
 	{
 		id = 2,
-		pic = "temp3",
+		pic = "temp2",
 		type = 2,
 		param = {
 			"scene get boat",
@@ -50,8 +50,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					10,
+					23
 				},
 				{
 					0,
@@ -62,8 +62,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					7
+					11,
+					6
 				},
 				{
 					16,
@@ -75,20 +75,20 @@ pg.activity_banner = {
 	},
 	{
 		id = 3,
-		pic = "temp4",
+		pic = "temp3",
 		type = 2,
 		param = {
 			"scene core activity",
 			{
-				coreName = "ALYCoreActivityUI"
+				coreName = "SailingShip3CoreActivityUI"
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					24
+					10,
+					23
 				},
 				{
 					0,
@@ -99,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					7
+					11,
+					6
 				},
 				{
 					16,
@@ -112,20 +112,20 @@ pg.activity_banner = {
 	},
 	{
 		id = 4,
-		pic = "temp5",
+		pic = "temp4",
 		type = 2,
 		param = {
 			"scene charge",
 			{
-				wrap = 2
+				wrap = 4
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					24
+					10,
+					23
 				},
 				{
 					0,
@@ -136,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					6
+					11,
+					5
 				},
 				{
 					23,
@@ -149,41 +149,7 @@ pg.activity_banner = {
 	},
 	{
 		id = 5,
-		pic = "temp1",
-		type = 2,
-		param = {
-			"crusing"
-		},
-		time = {
-			{
-				{
-					2025,
-					8,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					14
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		id = 6,
-		pic = "temp7",
+		pic = "temp5",
 		type = 2,
 		param = {
 			"scene shop",
@@ -195,8 +161,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					10,
+					23
 				},
 				{
 					0,
@@ -207,8 +173,42 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					6
+					11,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 6,
+		pic = "temp6",
+		type = 2,
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2025,
+					10,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					5
 				},
 				{
 					23,
@@ -220,57 +220,23 @@ pg.activity_banner = {
 	},
 	{
 		id = 7,
-		pic = "temp8",
-		type = 2,
-		param = {
-			"scene core activity",
-			{
-				coreName = "RyzaCoreActivityUI"
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					7,
-					26
-				},
-				{
-					10,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					7
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		id = 8,
-		pic = "temp9",
+		pic = "temp7",
 		time = "stop",
 		type = 2,
 		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
+			"dorm 3d select"
 		}
 	},
 	{
+		param = "7503",
+		time = "stop",
+		type = 3,
+		id = 8,
+		pic = "temp8"
+	},
+	{
 		id = 9,
-		pic = "temp6",
+		pic = "temp9",
 		type = 2,
 		param = {
 			"scene Cryptolalia",
@@ -280,8 +246,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					10,
+					23
 				},
 				{
 					0,
@@ -292,8 +258,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					30
+					10,
+					29
 				},
 				{
 					23,
@@ -305,35 +271,10 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
-		id = 90,
-		pic = "temp99",
+		time = "stop",
 		type = 9,
-		time = {
-			{
-				{
-					2025,
-					7,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					8,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 90,
+		pic = "temp99"
 	},
 	[91] = {
 		param = "",
@@ -358,8 +299,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					10,
+					23
 				},
 				{
 					0,
@@ -370,8 +311,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					8,
-					6
+					11,
+					5
 				},
 				{
 					23,
@@ -395,12 +336,44 @@ pg.activity_banner = {
 		id = 101,
 		pic = "jingbing"
 	},
+	[102] = {
+		param = "桂花糯|「桂花糯…もぐもぐ～中秋節、良い祝日！」<<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		id = 102,
+		pic = "guihuagao",
+		type = 10,
+		time = {
+			{
+				{
+					2025,
+					9,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					10,
+					9
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
 	[200] = {
 		param = "",
 		time = "always",
 		type = 13,
 		id = 200,
-		pic = "spring"
+		pic = "autumn"
 	},
 	[201] = {
 		param = "",
@@ -425,8 +398,10 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8,
 			9
+		},
+		[3] = {
+			8
 		},
 		[9] = {
 			90,
@@ -440,7 +415,8 @@ pg.activity_banner = {
 		},
 		[10] = {
 			100,
-			101
+			101,
+			102
 		},
 		[13] = {
 			200,
@@ -464,6 +440,7 @@ pg.activity_banner = {
 		99,
 		100,
 		101,
+		102,
 		200,
 		201,
 		202

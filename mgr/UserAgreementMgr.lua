@@ -44,9 +44,7 @@ function var_0_0.LoadUI(arg_3_0)
 		arg_3_0:OnLoaded()
 		arg_3_0:Flush()
 		setActive(arg_3_0._go, true)
-		pg.UIMgr.GetInstance():BlurPanel(arg_3_0._go.transform, false, {
-			weight = LayerWeightConst.THIRD_LAYER
-		})
+		pg.UIMgr.GetInstance():BlurPanel(arg_3_0._go.transform)
 	end)
 end
 
@@ -104,7 +102,7 @@ function var_0_0.Hide(arg_9_0)
 	arg_9_0.title = nil
 
 	if arg_9_0._go then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_9_0._go.transform, pg.UIMgr.GetInstance().UIMain)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._go.transform, pg.UIMgr.GetInstance().UIMain)
 		PoolMgr.GetInstance():ReturnUI(var_0_1, arg_9_0._go)
 
 		arg_9_0._go = nil

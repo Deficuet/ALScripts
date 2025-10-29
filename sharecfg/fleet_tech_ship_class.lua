@@ -1452,7 +1452,8 @@ pg.fleet_tech_ship_class = {
 			30186,
 			30183,
 			30154,
-			30191
+			30191,
+			30192
 		}
 	},
 	[30112] = {
@@ -1529,7 +1530,8 @@ pg.fleet_tech_ship_class = {
 			30212,
 			30213,
 			30214,
-			30226
+			30226,
+			30227
 		}
 	},
 	[30205] = {
@@ -1627,7 +1629,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 87,
 		t_level = 8,
 		ships = {
-			39901
+			39901,
+			30320
 		}
 	},
 	[30306] = {
@@ -1757,7 +1760,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30514,
 			30512,
-			30513
+			30513,
+			30516
 		}
 	},
 	[30508] = {
@@ -1952,6 +1956,17 @@ pg.fleet_tech_ship_class = {
 			30715
 		}
 	},
+	[30711] = {
+		shiptype = 7,
+		name = "白鳳",
+		nation = 3,
+		id = 30711,
+		t_level_1 = 1,
+		t_level = 10,
+		ships = {
+			30716
+		}
+	},
 	[30801] = {
 		shiptype = 8,
 		name = "巡潜乙型",
@@ -1998,6 +2013,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			31701
+		}
+	},
+	[31702] = {
+		shiptype = 17,
+		name = "潜特型",
+		nation = 3,
+		id = 31702,
+		t_level_1 = 111,
+		t_level = 10,
+		ships = {
+			31702
 		}
 	},
 	[31801] = {
@@ -3257,7 +3283,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 6,
 		ships = {
 			80103,
-			80104
+			80104,
+			80105
 		}
 	},
 	[80103] = {
@@ -3326,6 +3353,17 @@ pg.fleet_tech_ship_class = {
 			89904
 		}
 	},
+	[80205] = {
+		shiptype = 2,
+		name = "デュゲイ・トルーアン級",
+		nation = 8,
+		id = 80205,
+		t_level_1 = 131,
+		t_level = 2,
+		ships = {
+			80204
+		}
+	},
 	[80301] = {
 		shiptype = 3,
 		name = "サン・ルイ",
@@ -3357,6 +3395,28 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			80302
+		}
+	},
+	[80304] = {
+		shiptype = 3,
+		name = "デュケーヌ級",
+		nation = 8,
+		id = 80304,
+		t_level_1 = 138,
+		t_level = 5,
+		ships = {
+			80303
+		}
+	},
+	[80401] = {
+		shiptype = 4,
+		name = "マッセナ",
+		nation = 8,
+		id = 80401,
+		t_level_1 = 1,
+		t_level = 3,
+		ships = {
+			80401
 		}
 	},
 	[80501] = {
@@ -3401,6 +3461,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 9,
 		ships = {
 			80503
+		}
+	},
+	[80601] = {
+		shiptype = 6,
+		name = "ボア・ベロー",
+		nation = 8,
+		id = 80601,
+		t_level_1 = 30,
+		t_level = 4,
+		ships = {
+			80601
 		}
 	},
 	[80701] = {
@@ -3743,6 +3814,61 @@ pg.fleet_tech_ship_class = {
 			960011
 		}
 	},
+	[960012] = {
+		shiptype = 24,
+		name = "クイーン・アンズ・リベンジ",
+		nation = 96,
+		id = 960012,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			960012
+		}
+	},
+	[960013] = {
+		shiptype = 23,
+		name = "ライム",
+		nation = 96,
+		id = 960013,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			960013
+		}
+	},
+	[960014] = {
+		shiptype = 24,
+		name = "パール",
+		nation = 96,
+		id = 960014,
+		t_level_1 = 1,
+		t_level = 2,
+		ships = {
+			960014
+		}
+	},
+	[960015] = {
+		shiptype = 23,
+		name = "ロイヤル・ジェームズ",
+		nation = 96,
+		id = 960015,
+		t_level_1 = 15,
+		t_level = 1,
+		ships = {
+			960015
+		}
+	},
+	[960016] = {
+		shiptype = 22,
+		name = "アドベンチャー",
+		nation = 96,
+		id = 960016,
+		t_level_1 = 11,
+		t_level = 1,
+		ships = {
+			960016
+		}
+	},
 	[970101] = {
 		shiptype = 1,
 		name = "ハンター(META)",
@@ -3829,6 +3955,28 @@ pg.fleet_tech_ship_class = {
 		t_level = 5,
 		ships = {
 			970108
+		}
+	},
+	[970109] = {
+		shiptype = 1,
+		name = "夕立(META)",
+		nation = 97,
+		id = 970109,
+		t_level_1 = 15,
+		t_level = 1,
+		ships = {
+			970109
+		}
+	},
+	[970110] = {
+		shiptype = 1,
+		name = "デューイ(META)",
+		nation = 97,
+		id = 970110,
+		t_level_1 = 16,
+		t_level = 1,
+		ships = {
+			970110
 		}
 	},
 	[970201] = {
@@ -4450,10 +4598,12 @@ pg.fleet_tech_ship_class = {
 		30708,
 		30709,
 		30710,
+		30711,
 		30801,
 		30802,
 		31201,
 		31701,
+		31702,
 		31801,
 		31901,
 		40101,
@@ -4568,13 +4718,17 @@ pg.fleet_tech_ship_class = {
 		80202,
 		80203,
 		80204,
+		80205,
 		80301,
 		80302,
 		80303,
+		80304,
+		80401,
 		80501,
 		80502,
 		80503,
 		80504,
+		80601,
 		80701,
 		80702,
 		80801,
@@ -4605,6 +4759,11 @@ pg.fleet_tech_ship_class = {
 		960009,
 		960010,
 		960011,
+		960012,
+		960013,
+		960014,
+		960015,
+		960016,
 		970101,
 		970102,
 		970103,
@@ -4613,6 +4772,8 @@ pg.fleet_tech_ship_class = {
 		970106,
 		970107,
 		970108,
+		970109,
+		970110,
 		970201,
 		970202,
 		970203,

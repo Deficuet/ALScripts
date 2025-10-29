@@ -137,17 +137,23 @@ function var_0_0.SetBackgrounds(arg_12_0)
 	end
 end
 
-function var_0_0.GetPainting(arg_13_0)
-	local var_13_0 = ShipGroup.getDefaultShipConfig(arg_13_0.characterId).skin_id
-	local var_13_1 = pg.ship_skin_template[var_13_0]
+function var_0_0.GetSkins(arg_13_0)
+	arg_13_0:SetBackgrounds()
 
-	assert(var_13_1, "ship_skin_template not exist: " .. var_13_0)
-
-	return var_13_1.painting
+	return arg_13_0.skins
 end
 
-function var_0_0.GetPaintingId(arg_14_0)
-	return ShipGroup.getDefaultShipConfig(arg_14_0.characterId).skin_id
+function var_0_0.GetPainting(arg_14_0)
+	local var_14_0 = ShipGroup.getDefaultShipConfig(arg_14_0.characterId).skin_id
+	local var_14_1 = pg.ship_skin_template[var_14_0]
+
+	assert(var_14_1, "ship_skin_template not exist: " .. var_14_0)
+
+	return var_14_1.painting
+end
+
+function var_0_0.GetPaintingId(arg_15_0)
+	return ShipGroup.getDefaultShipConfig(arg_15_0.characterId).skin_id
 end
 
 return var_0_0

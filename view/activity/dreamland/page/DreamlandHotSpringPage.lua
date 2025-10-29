@@ -6,14 +6,14 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.slots = {}
-	arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("bg/list"), arg_2_0:findTF("bg/list/tpl"))
+	arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("bg/list"), arg_2_0._tf:Find("bg/list/tpl"))
 	arg_2_0.iconList = {
 		"icon_1",
 		"icon_2",
 		"icon_3"
 	}
 
-	setText(arg_2_0:findTF("bg/list/tpl/lock/Text"), i18n("dreamland_spring_lock_tip"))
+	setText(arg_2_0._tf:Find("bg/list/tpl/lock/Text"), i18n("dreamland_spring_lock_tip"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -54,7 +54,7 @@ function var_0_0.Flush(arg_10_0, arg_10_1)
 	local var_10_0 = arg_10_1:GetHotSpringMaxCnt()
 	local var_10_1 = arg_10_1:GetHotSpringAddition()
 
-	setText(arg_10_0:findTF("bg/Text"), i18n("dreamland_spring_tip", var_10_1))
+	setText(arg_10_0._tf:Find("bg/Text"), i18n("dreamland_spring_tip", var_10_1))
 
 	arg_10_0.gameData = arg_10_1
 
@@ -111,7 +111,7 @@ end
 
 function var_0_0.Hide(arg_14_0)
 	var_0_0.super.Hide(arg_14_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_14_0._tf, arg_14_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_14_0._tf, arg_14_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_15_0)

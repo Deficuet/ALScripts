@@ -28,16 +28,21 @@ function var_0_0.init(arg_3_0)
 				return tostring(arg_5_0:getConfig("is_show")) == arg_4_2.name
 			end)
 
-			if not var_4_0 or not arg_3_0.pageDic[var_4_0.id] then
-				warning(arg_4_2.name, var_4_0.id)
+			if not var_4_0 or var_4_0:isEnd() then
+				setActive(arg_4_2, false)
+			elseif not arg_3_0.pageDic[var_4_0.id] then
+				warning(string.format("without page in act:", var_4_0.id))
+			else
+				local var_4_1 = arg_3_0.pageDic[var_4_0.id]
+				local var_4_2 = arg_4_2:Find("tip")
+				local var_4_3 = var_4_1:IsShowReminder()
 
-				return
-			end
+				if var_4_3 == nil then
+					setActive(var_4_2, var_4_0:readyToAchieve())
+				else
+					setActive(var_4_2, var_4_3)
+				end
 
-			if arg_3_0.pageDic[var_4_0.id] ~= nil then
-				local var_4_1 = arg_3_0:findTF("tip", arg_4_2)
-
-				setActive(var_4_1, var_4_0:readyToAchieve())
 				onToggle(arg_3_0, arg_4_2, function(arg_6_0)
 					if arg_6_0 then
 						arg_3_0:selectActivity(var_4_0)
@@ -46,6 +51,8 @@ function var_0_0.init(arg_3_0)
 			end
 		end
 	end)
+
+	arg_3_0.switchCount = 0
 end
 
 function var_0_0.didEnter(arg_7_0)
@@ -61,103 +68,180 @@ function var_0_0.didEnter(arg_7_0)
 	onButton(arg_7_0, arg_7_0.btnBack, function()
 		arg_7_0:emit(var_0_0.ON_BACK)
 	end, SOUND_BACK)
-	onButton(arg_7_0, arg_7_0.btnSkin, function()
-		arg_7_0:emit(ActivityMediator.GO_CHANGE_SHOP)
-	end, SFX_PANEL)
-	arg_7_0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
+
+	if arg_7_0.btnSkin then
+		onButton(arg_7_0, arg_7_0.btnSkin, function()
+			arg_7_0:emit(ActivityMediator.GO_CHANGE_SHOP)
+		end, SFX_PANEL)
+	end
+
+	arg_7_0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY, arg_7_0.contextData.coreName)
 end
 
 function var_0_0.setActivities(arg_13_0, arg_13_1)
-	arg_13_0.activities = arg_13_1 or {}
+	arg_13_0.activities = underscore.filter(arg_13_1 or {}, function(arg_14_0)
+		return not arg_14_0:isEnd()
+	end)
 	arg_13_0.shareData = arg_13_0.shareData or ActivityShareData.New()
 	arg_13_0.pageDic = arg_13_0.pageDic or {}
 
-	for iter_13_0, iter_13_1 in ipairs(arg_13_1) do
+	for iter_13_0, iter_13_1 in ipairs(arg_13_0.activities) do
 		arg_13_0:instanceActivityPage(iter_13_1)
 	end
 
-	arg_13_0.activity = nil
-
 	table.sort(arg_13_0.activities, CompareFuncs({
-		function(arg_14_0)
-			return -arg_14_0:getShowPriority()
-		end,
 		function(arg_15_0)
-			return -arg_15_0.id
+			return arg_15_0:getShowPriority()
+		end,
+		function(arg_16_0)
+			return -arg_16_0.id
 		end
 	}))
 	arg_13_0:flushTabs()
 end
 
-function var_0_0.updateActivity(arg_16_0, arg_16_1)
-	if ActivityConst.PageIdLink[arg_16_1.id] then
-		arg_16_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[arg_16_1.id])
+function var_0_0.updateActivity(arg_17_0, arg_17_1)
+	if ActivityConst.PageIdLink[arg_17_1.id] then
+		arg_17_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[arg_17_1.id])
 	end
 
-	if arg_16_1:isShow() and arg_16_1:isCorePage(arg_16_0.contextData.coreName) and not arg_16_1:isEnd() then
-		arg_16_0.activities[arg_16_0:getActivityIndex(arg_16_1.id) or #arg_16_0.activities + 1] = arg_16_1
+	if arg_17_1:isShow() and arg_17_1:isCorePage(arg_17_0.contextData.coreName) and not arg_17_1:isEnd() then
+		arg_17_0.activities[arg_17_0:getActivityIndex(arg_17_1.id) or #arg_17_0.activities + 1] = arg_17_1
 
-		table.sort(arg_16_0.activities, CompareFuncs({
-			function(arg_17_0)
-				return -arg_17_0:getShowPriority()
-			end,
+		table.sort(arg_17_0.activities, CompareFuncs({
 			function(arg_18_0)
-				return -arg_18_0.id
+				return -arg_18_0:getShowPriority()
+			end,
+			function(arg_19_0)
+				return -arg_19_0.id
 			end
 		}))
 
-		if not arg_16_0.pageDic[arg_16_1.id] then
-			arg_16_0:instanceActivityPage(arg_16_1)
+		if not arg_17_0.pageDic[arg_17_1.id] then
+			arg_17_0:instanceActivityPage(arg_17_1)
 		end
 
-		arg_16_0:flushTabs()
+		arg_17_0:flushTabs()
 
-		if arg_16_0.activity and arg_16_0.activity.id == arg_16_1.id then
-			arg_16_0.activity = arg_16_1
+		if arg_17_0.activity and arg_17_0.activity.id == arg_17_1.id then
+			arg_17_0.activity = arg_17_1
 
-			arg_16_0.pageDic[arg_16_1.id]:ActionInvoke("Flush", arg_16_1)
+			arg_17_0.pageDic[arg_17_1.id]:ActionInvoke("Flush", arg_17_1)
+			arg_17_0:verifyTabs(arg_17_0.activity.id)
 		end
 	end
 end
 
-function var_0_0.updateEntrances(arg_19_0)
+function var_0_0.instanceActivityPage(arg_20_0, arg_20_1)
+	var_0_0.super.instanceActivityPage(arg_20_0, arg_20_1)
+
+	for iter_20_0, iter_20_1 in pairs(arg_20_0.pageDic) do
+		iter_20_1:SetCoreActivityUI(arg_20_0)
+	end
+end
+
+function var_0_0.updateEntrances(arg_21_0)
 	return
 end
 
-function var_0_0.flushTabs(arg_20_0)
-	arg_20_0.tabsList:align(#arg_20_0.activities)
+function var_0_0.flushTabs(arg_22_0)
+	arg_22_0.tabsList:align(arg_22_0.tabs.childCount)
 end
 
-function var_0_0.selectActivity(arg_21_0, arg_21_1)
-	if arg_21_1 and (not arg_21_0.activity or arg_21_0.activity.id ~= arg_21_1.id) then
-		local var_21_0 = arg_21_0.pageDic[arg_21_1.id]
+function var_0_0.selectActivity(arg_23_0, arg_23_1)
+	if arg_23_0.nextActivity == arg_23_1 or not arg_23_0.nextActivity and arg_23_0.activity and arg_23_1.id == arg_23_0.activity.id then
+		return
+	end
 
-		assert(var_21_0, "找不到id:" .. arg_21_1.id .. "的活动页，请检查")
-		var_21_0:Load()
-		var_21_0:ActionInvoke("Flush", arg_21_1)
-		var_21_0:ActionInvoke("ShowOrHide", true)
+	local var_23_0 = {}
 
-		if arg_21_0.activity and arg_21_0.activity.id ~= arg_21_1.id then
-			arg_21_0.pageDic[arg_21_0.activity.id]:ActionInvoke("ShowOrHide", false)
+	if arg_23_0.activity and not arg_23_0.nextActivity then
+		arg_23_0.switchCount = arg_23_0.switchCount + 1
+
+		table.insert(var_23_0, function(arg_24_0)
+			arg_23_0.pageDic[arg_23_0.activity.id]:ActionInvoke("SwitchOut", function()
+				arg_23_0.switchCount = arg_23_0.switchCount - 1
+
+				arg_24_0()
+			end)
+		end)
+	end
+
+	if not arg_23_0.activity or arg_23_0.activity.id ~= arg_23_1.id then
+		local var_23_1 = arg_23_0.pageDic[arg_23_1.id]
+
+		assert(var_23_1, "找不到id:" .. arg_23_1.id .. "的活动页，请检查")
+
+		arg_23_0.switchCount = arg_23_0.switchCount + 1
+
+		table.insert(var_23_0, function(arg_26_0)
+			var_23_1:Load()
+			var_23_1:ActionInvoke("ShowOrHide", false)
+			var_23_1:CallbackInvoke(function()
+				arg_23_0.switchCount = arg_23_0.switchCount - 1
+
+				arg_26_0()
+			end)
+		end)
+	end
+
+	arg_23_0.nextActivity = arg_23_1
+
+	parallelAsync(var_23_0, function()
+		if arg_23_0.switchCount > 0 then
+			return
 		end
 
-		arg_21_0.activity = arg_21_1
-		arg_21_0.contextData.id = arg_21_1.id
+		if arg_23_0.activity then
+			arg_23_0.pageDic[arg_23_0.activity.id]:ActionInvoke("ShowOrHide", false)
+		end
+
+		arg_23_0.activity = arg_23_0.nextActivity
+		arg_23_0.contextData.id = arg_23_0.nextActivity.id
+		arg_23_0.nextActivity = nil
+
+		local var_28_0 = arg_23_0.pageDic[arg_23_0.activity.id]
+
+		var_28_0:ActionInvoke("Flush", arg_23_0.activity)
+		var_28_0:ActionInvoke("ShowOrHide", true)
+	end)
+end
+
+function var_0_0.verifyTabs(arg_29_0, arg_29_1)
+	local var_29_0 = arg_29_0.activities[arg_29_0:getActivityIndex(arg_29_1) or arg_29_0:getActivityIndex(arg_29_0:GetActiveActivity()) or 1]
+
+	if var_29_0 == nil then
+		return
+	end
+
+	local var_29_1 = var_29_0:getConfig("is_show")
+	local var_29_2 = arg_29_0.tabs:Find(tostring(var_29_1))
+
+	triggerToggle(var_29_2, true)
+end
+
+function var_0_0.GetActiveActivity(arg_30_0)
+	for iter_30_0, iter_30_1 in ipairs(arg_30_0.activities) do
+		if not iter_30_1:isEnd() then
+			return iter_30_1.id
+		end
 	end
 end
 
-function var_0_0.verifyTabs(arg_22_0, arg_22_1)
-	local var_22_0 = underscore.detect(arg_22_0.activities, function(arg_23_0)
-		return arg_23_0.id == arg_22_1
-	end)
-	local var_22_1 = var_22_0 and var_22_0:getConfig("is_show") or 1
-	local var_22_2 = arg_22_0.tabs:Find(tostring(var_22_1))
+function var_0_0.onBackPressed(arg_31_0)
+	local var_31_0 = arg_31_0.pageDic[arg_31_0.activity.id]
 
-	triggerToggle(var_22_2, true)
+	if var_31_0:IsShowingPopWindow() then
+		var_31_0:ClosePopWindow()
+
+		return
+	end
+
+	var_0_0.super.onBackPressed(arg_31_0)
 end
 
-function var_0_0.getActClass(arg_24_0, arg_24_1)
-	return _G[arg_24_1]
+function var_0_0.getActClass(arg_32_0, arg_32_1)
+	return _G[arg_32_1]
 end
 
 return var_0_0

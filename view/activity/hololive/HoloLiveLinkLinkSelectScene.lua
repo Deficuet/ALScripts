@@ -33,17 +33,17 @@ function var_0_0.initData(arg_5_0)
 end
 
 function var_0_0.findUI(arg_6_0)
-	arg_6_0.forNotchPanel = arg_6_0:findTF("ForNotchPanel")
-	arg_6_0.backBtn = arg_6_0:findTF("BackBtn", arg_6_0.forNotchPanel)
-	arg_6_0.helpBtn = arg_6_0:findTF("HelpBtn", arg_6_0.forNotchPanel)
-	arg_6_0.awardMask = arg_6_0:findTF("AwardImg/Mask", arg_6_0.forNotchPanel)
-	arg_6_0.progressText = arg_6_0:findTF("AwardImg/ProgressText", arg_6_0.forNotchPanel)
-	arg_6_0.getAwardBtn = arg_6_0:findTF("AwardImg/GetBtn", arg_6_0.forNotchPanel)
-	arg_6_0.gotAwardBtn = arg_6_0:findTF("AwardImg/GotBtn", arg_6_0.forNotchPanel)
-	arg_6_0.progressPanel = arg_6_0:findTF("Progress", arg_6_0.forNotchPanel)
-	arg_6_0.lightPointContainer = arg_6_0:findTF("Light", arg_6_0.progressPanel)
-	arg_6_0.lightLineContainer = arg_6_0:findTF("LightLine", arg_6_0.progressPanel)
-	arg_6_0.entranceContainer = arg_6_0:findTF("EntranceContainer")
+	arg_6_0.forNotchPanel = arg_6_0._tf:Find("ForNotchPanel")
+	arg_6_0.backBtn = arg_6_0.forNotchPanel:Find("BackBtn")
+	arg_6_0.helpBtn = arg_6_0.forNotchPanel:Find("HelpBtn")
+	arg_6_0.awardMask = arg_6_0.forNotchPanel:Find("AwardImg/Mask")
+	arg_6_0.progressText = arg_6_0.forNotchPanel:Find("AwardImg/ProgressText")
+	arg_6_0.getAwardBtn = arg_6_0.forNotchPanel:Find("AwardImg/GetBtn")
+	arg_6_0.gotAwardBtn = arg_6_0.forNotchPanel:Find("AwardImg/GotBtn")
+	arg_6_0.progressPanel = arg_6_0.forNotchPanel:Find("Progress")
+	arg_6_0.lightPointContainer = arg_6_0.progressPanel:Find("Light")
+	arg_6_0.lightLineContainer = arg_6_0.progressPanel:Find("LightLine")
+	arg_6_0.entranceContainer = arg_6_0._tf:Find("EntranceContainer")
 end
 
 function var_0_0.initUI(arg_7_0)
@@ -52,7 +52,7 @@ function var_0_0.initUI(arg_7_0)
 	eachChild(arg_7_0.lightPointContainer, function(arg_8_0)
 		table.insert(arg_7_0.lightPointTFList, 1, arg_8_0)
 
-		local var_8_0 = arg_7_0:findTF("Point", arg_8_0)
+		local var_8_0 = arg_8_0:Find("Point")
 
 		setActive(arg_8_0, false)
 		setActive(var_8_0, false)
@@ -67,9 +67,9 @@ function var_0_0.initUI(arg_7_0)
 
 		table.insert(arg_7_0.entranceTFList, var_7_0)
 
-		local var_7_1 = arg_7_0:findTF("Mask", var_7_0)
-		local var_7_2 = arg_7_0:findTF("GotImg", var_7_0)
-		local var_7_3 = arg_7_0:findTF("LockText", var_7_0)
+		local var_7_1 = var_7_0:Find("Mask")
+		local var_7_2 = var_7_0:Find("GotImg")
+		local var_7_3 = var_7_0:Find("LockText")
 
 		setActive(var_7_1, true)
 		setActive(var_7_2, false)
@@ -89,7 +89,7 @@ function var_0_0.addListener(arg_10_0)
 	end, SFX_PANEL)
 
 	for iter_10_0, iter_10_1 in ipairs(arg_10_0.entranceTFList) do
-		local var_10_0 = arg_10_0:findTF("EntranceBtn", iter_10_1)
+		local var_10_0 = iter_10_1:Find("EntranceBtn")
 
 		onButton(arg_10_0, var_10_0, function()
 			arg_10_0.linkGameData:SetRuntimeData("curLinkGameID", iter_10_0)
@@ -109,19 +109,18 @@ function var_0_0.updateProgressBar(arg_14_0)
 			setActive(var_14_2, true)
 		end
 
-		local var_14_3 = arg_14_0.lightPointTFList[var_14_1]
-		local var_14_4 = arg_14_0:findTF("Point", var_14_3)
+		local var_14_3 = arg_14_0.lightPointTFList[var_14_1]:Find("Point")
 
-		setActive(var_14_4, true)
+		setActive(var_14_3, true)
 	end
 
 	if var_14_1 > 1 then
-		local var_14_5 = var_14_1 - 1
+		local var_14_4 = var_14_1 - 1
 
-		for iter_14_1 = 1, var_14_5 do
-			local var_14_6 = arg_14_0.lightLineTFList[iter_14_1]
+		for iter_14_1 = 1, var_14_4 do
+			local var_14_5 = arg_14_0.lightLineTFList[iter_14_1]
 
-			setActive(var_14_6, true)
+			setActive(var_14_5, true)
 		end
 	end
 end
@@ -158,9 +157,9 @@ function var_0_0.updateEntranceList(arg_17_0)
 
 	for iter_17_0 = 1, 8 do
 		local var_17_1 = arg_17_0.entranceTFList[iter_17_0]
-		local var_17_2 = arg_17_0:findTF("Mask", var_17_1)
-		local var_17_3 = arg_17_0:findTF("GotImg", var_17_1)
-		local var_17_4 = arg_17_0:findTF("LockText", var_17_1)
+		local var_17_2 = var_17_1:Find("Mask")
+		local var_17_3 = var_17_1:Find("GotImg")
+		local var_17_4 = var_17_1:Find("LockText")
 		local var_17_5 = arg_17_0.linkGameData:GetConfigCsvLine(iter_17_0).unlock_txt
 
 		setText(var_17_4, var_17_5)

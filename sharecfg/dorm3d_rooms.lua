@@ -206,7 +206,8 @@ pg.dorm3d_rooms = {
 			41,
 			42,
 			43,
-			51
+			51,
+			52
 		},
 		ar_anim = {
 			{
@@ -238,7 +239,7 @@ pg.dorm3d_rooms = {
 		tag = "beach",
 		resource_name = "Beach",
 		assets_prefix = "Beach",
-		scene_info = "map_beach_02|Beach",
+		scene_info = "map_beach_01|Beach",
 		is_common = 0,
 		in_map = "floor_1",
 		room = "ビーチ",
@@ -512,6 +513,80 @@ pg.dorm3d_rooms = {
 			}
 		}
 	},
+	[12] = {
+		invite_icon = "",
+		invite_banner = "",
+		tag = "",
+		resource_name = "Dafeng_DB",
+		assets_prefix = "Dafeng",
+		type = 2,
+		invite_cost = "",
+		is_common = 0,
+		scene_info = "map_dafeng_01|Dafeng_DB/Dafenghostel",
+		in_map = "floor_2",
+		room = "大鳳",
+		invite_mark = "",
+		id = 12,
+		room_bgm = "story-room-taiho",
+		room_des = "",
+		character = {
+			30707
+		},
+		character_pay = {},
+		character_welcome = {
+			{
+				30707,
+				0
+			}
+		},
+		character_range = {
+			1
+		},
+		unlock_item = {},
+		default_zone = {
+			{
+				30707,
+				"Chair"
+			}
+		},
+		furniture_zones = {
+			12001,
+			12002,
+			12003
+		},
+		recall_list = {
+			121,
+			122,
+			123,
+			124
+		},
+		ar_anim = {
+			{
+				30707,
+				{
+					12001,
+					12002,
+					12003,
+					12004,
+					12005,
+					12006,
+					12007,
+					12008,
+					12009,
+					12010,
+					12012,
+					12012,
+					12013,
+					12014,
+					12015,
+					12016,
+					12017,
+					12018,
+					12019
+				}
+			}
+		}
+	},
 	[16] = {
 		type = 1,
 		room_des = "優雅にして精緻、贅沢で感性豊か。金色の光の中で、夢のような出会いの一時を。",
@@ -526,17 +601,22 @@ pg.dorm3d_rooms = {
 		room_bgm = "Story-room-bar",
 		character = {},
 		character_pay = {
-			10517
+			10517,
+			30707
 		},
 		character_welcome = {
 			{
 				10517,
 				0
+			},
+			{
+				30707,
+				0
 			}
 		},
 		character_range = {
 			0,
-			1
+			3
 		},
 		unlock_item = {
 			{
@@ -549,6 +629,10 @@ pg.dorm3d_rooms = {
 			{
 				10517,
 				"xinzexi"
+			},
+			{
+				30707,
+				"dafeng"
 			}
 		},
 		furniture_zones = {},
@@ -557,6 +641,10 @@ pg.dorm3d_rooms = {
 			{
 				10517,
 				270113
+			},
+			{
+				30707,
+				270114
 			}
 		},
 		invite_banner = {
@@ -565,17 +653,35 @@ pg.dorm3d_rooms = {
 				{
 					"banner_cafe1"
 				}
+			},
+			{
+				30707,
+				{
+					"banner_cafe2"
+				}
 			}
 		},
 		invite_icon = {
 			{
 				10517,
 				"dorm3dicon/3Ddrom_invitation"
+			},
+			{
+				30707,
+				"dorm3dicon/3Ddrom_invitation"
 			}
 		},
 		invite_mark = {
 			{
 				10517,
+				{
+					1,
+					5,
+					6
+				}
+			},
+			{
+				30707,
 				{
 					1,
 					5,
@@ -593,6 +699,16 @@ pg.dorm3d_rooms = {
 					16004,
 					16005
 				}
+			},
+			{
+				30707,
+				{
+					16006,
+					16007,
+					16008,
+					16009,
+					16010
+				}
 			}
 		}
 	},
@@ -606,6 +722,7 @@ pg.dorm3d_rooms = {
 		},
 		floor_2 = {
 			11,
+			12,
 			16
 		}
 	},
@@ -616,6 +733,7 @@ pg.dorm3d_rooms = {
 		4,
 		5,
 		11,
+		12,
 		16
 	}
 }

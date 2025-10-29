@@ -4,10 +4,10 @@ var_0_0.MINIGAME_HUB_ID = 39
 var_0_0.MINIGAME_ID = 47
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.goBtn = arg_1_0:findTF("AD/go")
-	arg_1_0.indexTpl = arg_1_0:findTF("AD/index")
-	arg_1_0.markContainer = arg_1_0:findTF("AD/marks")
-	arg_1_0.markTpl = arg_1_0:findTF("AD/marks/1")
+	arg_1_0.goBtn = arg_1_0._tf:Find("AD/go")
+	arg_1_0.indexTpl = arg_1_0._tf:Find("AD/index")
+	arg_1_0.markContainer = arg_1_0._tf:Find("AD/marks")
+	arg_1_0.markTpl = arg_1_0._tf:Find("AD/marks/1")
 	arg_1_0.markTrs = {}
 
 	for iter_1_0 = 1, 7 do

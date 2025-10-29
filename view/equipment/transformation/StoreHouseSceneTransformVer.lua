@@ -9,22 +9,22 @@ end
 function var_0_0.init(arg_2_0)
 	local var_2_0 = arg_2_0.contextData
 
-	arg_2_0.topItems = arg_2_0:findTF("topItems")
-	arg_2_0.equipmentView = arg_2_0:findTF("equipment_scrollview")
-	arg_2_0.blurPanel = arg_2_0:findTF("blur_panel")
-	arg_2_0.topPanel = arg_2_0:findTF("adapt/top", arg_2_0.blurPanel)
+	arg_2_0.topItems = arg_2_0._tf:Find("topItems")
+	arg_2_0.equipmentView = arg_2_0._tf:Find("adapt/equipment_scrollview")
+	arg_2_0.blurPanel = arg_2_0._tf:Find("blur_panel")
+	arg_2_0.topPanel = arg_2_0.blurPanel:Find("adapt/top")
 
-	setActive(arg_2_0:findTF("buttons", arg_2_0.topPanel), true)
+	setActive(arg_2_0.topPanel:Find("buttons"), true)
 
-	arg_2_0.indexBtn = arg_2_0:findTF("buttons/index_button", arg_2_0.topPanel)
-	arg_2_0.sortBtn = arg_2_0:findTF("buttons/sort_button", arg_2_0.topPanel)
-	arg_2_0.sortPanel = arg_2_0:findTF("sort", arg_2_0.topItems)
-	arg_2_0.sortContain = arg_2_0:findTF("adapt/mask/panel", arg_2_0.sortPanel)
-	arg_2_0.sortTpl = arg_2_0:findTF("tpl", arg_2_0.sortContain)
+	arg_2_0.indexBtn = arg_2_0.topPanel:Find("buttons/index_button")
+	arg_2_0.sortBtn = arg_2_0.topPanel:Find("buttons/sort_button")
+	arg_2_0.sortPanel = arg_2_0.topItems:Find("sort")
+	arg_2_0.sortContain = arg_2_0.sortPanel:Find("adapt/mask/panel")
+	arg_2_0.sortTpl = arg_2_0.sortContain:Find("tpl")
 
 	setActive(arg_2_0.sortTpl, false)
 
-	arg_2_0.equipSkinFilteBtn = arg_2_0:findTF("buttons/EquipSkinFilteBtn", arg_2_0.topPanel)
+	arg_2_0.equipSkinFilteBtn = arg_2_0.topPanel:Find("buttons/EquipSkinFilteBtn")
 
 	local var_2_1
 	local var_2_2 = getProxy(SettingsProxy)
@@ -39,34 +39,34 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.decBtn = findTF(arg_2_0.topPanel, "buttons/dec_btn")
 	arg_2_0.sortImgAsc = findTF(arg_2_0.decBtn, "asc")
 	arg_2_0.sortImgDec = findTF(arg_2_0.decBtn, "desc")
-	arg_2_0.equipmentBtn = arg_2_0:findTF("blur_panel/adapt/left_length/frame/toggle_root/equipment")
-	arg_2_0.equipmentSkinBtn = arg_2_0:findTF("blur_panel/adapt/left_length/frame/toggle_root/skin")
+	arg_2_0.equipmentBtn = arg_2_0._tf:Find("blur_panel/adapt/left_length/frame/toggle_root/equipment")
+	arg_2_0.equipmentSkinBtn = arg_2_0._tf:Find("blur_panel/adapt/left_length/frame/toggle_root/skin")
 
 	setActive(arg_2_0.equipmentBtn.parent, false)
 
-	arg_2_0.filterBusyToggle = arg_2_0:findTF("blur_panel/adapt/left_length/frame/toggle_equip")
+	arg_2_0.filterBusyToggle = arg_2_0._tf:Find("blur_panel/adapt/left_length/frame/toggle_equip")
 
 	setActive(arg_2_0.filterBusyToggle, false)
 
-	arg_2_0.bottomBack = arg_2_0:findTF("adapt/bottom_back", arg_2_0.topItems)
-	arg_2_0.bottomPanel = arg_2_0:findTF("types", arg_2_0.bottomBack)
+	arg_2_0.bottomBack = arg_2_0.topItems:Find("adapt/bottom_back")
+	arg_2_0.bottomPanel = arg_2_0.bottomBack:Find("types")
 	arg_2_0.materialToggle = arg_2_0.bottomPanel:Find("material")
 	arg_2_0.weaponToggle = arg_2_0.bottomPanel:Find("weapon")
 	arg_2_0.designToggle = arg_2_0.bottomPanel:Find("design")
-	arg_2_0.capacityTF = arg_2_0:findTF("bottom_left/tip/capcity/Text", arg_2_0.bottomBack)
+	arg_2_0.capacityTF = arg_2_0.bottomBack:Find("bottom_left/tip/capcity/Text")
 
 	setActive(arg_2_0.capacityTF.parent, false)
 
-	arg_2_0.tipTF = arg_2_0:findTF("bottom_left/tip", arg_2_0.bottomBack)
+	arg_2_0.tipTF = arg_2_0.bottomBack:Find("bottom_left/tip")
 	arg_2_0.tip = arg_2_0.tipTF:Find("label")
 
 	setActive(arg_2_0.tip, false)
 
-	arg_2_0.helpBtn = arg_2_0:findTF("adapt/help_btn", arg_2_0.topItems)
+	arg_2_0.helpBtn = arg_2_0.topItems:Find("adapt/help_btn")
 
 	setActive(arg_2_0.helpBtn, true)
 
-	arg_2_0.backBtn = arg_2_0:findTF("blur_panel/adapt/top/back_btn")
+	arg_2_0.backBtn = arg_2_0._tf:Find("blur_panel/adapt/top/back_btn")
 	arg_2_0.selectedMin = defaultValue(var_2_0.selectedMin, 1)
 	arg_2_0.selectedMax = defaultValue(var_2_0.selectedMax, pg.gameset.equip_select_limit.key_value or 0)
 	arg_2_0.selectedIds = Clone(var_2_0.selectedIds or {})
@@ -77,15 +77,15 @@ function var_0_0.init(arg_2_0)
 		warning("not implemented.")
 	end
 
-	setActive(arg_2_0:findTF("dispos", arg_2_0.bottomBack), false)
-	setActive(arg_2_0:findTF("adapt/select_panel", arg_2_0.topItems), false)
+	setActive(arg_2_0.bottomBack:Find("dispos"), false)
+	setActive(arg_2_0.topItems:Find("adapt/select_panel"), false)
 
-	arg_2_0.selectTransformPanel = arg_2_0:findTF("adapt/select_transform_panel", arg_2_0.topItems)
-	arg_2_0.listEmptyTF = arg_2_0:findTF("empty")
+	arg_2_0.selectTransformPanel = arg_2_0.topItems:Find("adapt/select_transform_panel")
+	arg_2_0.listEmptyTF = arg_2_0._tf:Find("adapt/empty")
 
 	setActive(arg_2_0.listEmptyTF, false)
 
-	arg_2_0.listEmptyTxt = arg_2_0:findTF("Text", arg_2_0.listEmptyTF)
+	arg_2_0.listEmptyTxt = arg_2_0.listEmptyTF:Find("Text")
 
 	setActive(arg_2_0.bottomBack, false)
 	setActive(arg_2_0.selectTransformPanel, true)
@@ -133,12 +133,8 @@ function var_0_0.didEnter(arg_7_0)
 	arg_7_0.equipmentRect.isStart = true
 
 	arg_7_0.equipmentRect:EndLayout()
-	pg.UIMgr.GetInstance():OverlayPanel(arg_7_0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
-	pg.UIMgr.GetInstance():OverlayPanel(arg_7_0.topItems, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	arg_7_0:OverlayPanel(arg_7_0.blurPanel)
+	arg_7_0:OverlayPanel(arg_7_0.topItems)
 	setActive(arg_7_0.sortImgAsc, arg_7_0.asc)
 	setActive(arg_7_0.sortImgDec, not arg_7_0.asc)
 
@@ -375,8 +371,8 @@ function var_0_0.filterEquipment(arg_30_0)
 end
 
 function var_0_0.willExit(arg_35_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0.blurPanel, arg_35_0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0.topItems, arg_35_0._tf)
+	arg_35_0:UnOverlayPanel(arg_35_0.blurPanel, arg_35_0._tf)
+	arg_35_0:UnOverlayPanel(arg_35_0.topItems, arg_35_0._tf)
 end
 
 return var_0_0

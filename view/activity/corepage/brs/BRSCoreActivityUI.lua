@@ -13,24 +13,9 @@ function var_0_0.init(arg_2_0, ...)
 end
 
 function var_0_0.selectActivity(arg_3_0, arg_3_1)
-	if arg_3_1 and (not arg_3_0.activity or arg_3_0.activity.id ~= arg_3_1.id) then
-		SetActive(arg_3_0.huanyingmituzhe_lan, arg_3_1.id ~= 5984)
-		SetActive(arg_3_0.huanyingmituzhe_lv, arg_3_1.id == 5984)
-
-		local var_3_0 = arg_3_0.pageDic[arg_3_1.id]
-
-		assert(var_3_0, "找不到id:" .. arg_3_1.id .. "的活动页，请检查")
-		var_3_0:Load()
-		var_3_0:ActionInvoke("Flush", arg_3_1)
-		var_3_0:ActionInvoke("ShowOrHide", true)
-
-		if arg_3_0.activity and arg_3_0.activity.id ~= arg_3_1.id then
-			arg_3_0.pageDic[arg_3_0.activity.id]:ActionInvoke("ShowOrHide", false)
-		end
-
-		arg_3_0.activity = arg_3_1
-		arg_3_0.contextData.id = arg_3_1.id
-	end
+	var_0_0.super.selectActivity(arg_3_0, arg_3_1)
+	SetActive(arg_3_0.huanyingmituzhe_lan, arg_3_1.id ~= 5984)
+	SetActive(arg_3_0.huanyingmituzhe_lv, arg_3_1.id == 5984)
 end
 
 return var_0_0

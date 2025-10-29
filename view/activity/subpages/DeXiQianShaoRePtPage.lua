@@ -1,19 +1,19 @@
 local var_0_0 = class("DeXiQianShaoRePtPage", import(".TemplatePage.NewFrameTemplatePage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.battleBtn = arg_1_0:findTF("battle_btn", arg_1_0.bg)
-	arg_1_0.getBtn = arg_1_0:findTF("get_btn", arg_1_0.bg)
-	arg_1_0.gotBtn = arg_1_0:findTF("got_btn", arg_1_0.bg)
-	arg_1_0.switchBtn = arg_1_0:findTF("AD/switcher/switch_btn")
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.battleBtn = arg_1_0.bg:Find("battle_btn")
+	arg_1_0.getBtn = arg_1_0.bg:Find("get_btn")
+	arg_1_0.gotBtn = arg_1_0.bg:Find("got_btn")
+	arg_1_0.switchBtn = arg_1_0._tf:Find("AD/switcher/switch_btn")
 	arg_1_0.phases = {
-		arg_1_0:findTF("AD/switcher/phase1"),
-		arg_1_0:findTF("AD/switcher/phase2")
+		arg_1_0._tf:Find("AD/switcher/phase1"),
+		arg_1_0._tf:Find("AD/switcher/phase2")
 	}
-	arg_1_0.bar = arg_1_0:findTF("AD/switcher/phase2/Image/bar")
-	arg_1_0.cur = arg_1_0:findTF("AD/switcher/phase2/Image/step")
-	arg_1_0.target = arg_1_0:findTF("AD/switcher/phase2/Image/progress")
-	arg_1_0.gotTag = arg_1_0:findTF("AD/switcher/phase2/got")
+	arg_1_0.bar = arg_1_0._tf:Find("AD/switcher/phase2/Image/bar")
+	arg_1_0.cur = arg_1_0._tf:Find("AD/switcher/phase2/Image/step")
+	arg_1_0.target = arg_1_0._tf:Find("AD/switcher/phase2/Image/progress")
+	arg_1_0.gotTag = arg_1_0._tf:Find("AD/switcher/phase2/got")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)

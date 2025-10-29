@@ -9,13 +9,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.moveBtn = arg_2_0:findTF("move")
-	arg_2_0.setBtn = arg_2_0:findTF("set")
-	arg_2_0.scaleSetBtn = arg_2_0:findTF("scale_set")
-	arg_2_0.backBtn = arg_2_0:findTF("back")
-	arg_2_0.scaleContent = arg_2_0:findTF("scale_content")
-	arg_2_0.resetBtn = arg_2_0:findTF("reset")
-	arg_2_0.saveBtn = arg_2_0:findTF("save")
+	arg_2_0.moveBtn = arg_2_0._tf:Find("move")
+	arg_2_0.setBtn = arg_2_0._tf:Find("set")
+	arg_2_0.scaleSetBtn = arg_2_0._tf:Find("scale_set")
+	arg_2_0.backBtn = arg_2_0._tf:Find("back")
+	arg_2_0.scaleContent = arg_2_0._tf:Find("scale_content")
+	arg_2_0.resetBtn = arg_2_0._tf:Find("reset")
+	arg_2_0.saveBtn = arg_2_0._tf:Find("save")
 	arg_2_0.bgImage = arg_2_0._tf:Find("adapt/bg"):GetComponent(typeof(Image))
 	arg_2_0.paintingTF = arg_2_0._parentTf:Find("paint")
 	arg_2_0._bgTf = arg_2_0._parentTf:Find("paintBg")
@@ -211,6 +211,10 @@ function var_0_0.ResetPostion(arg_22_0)
 	arg_22_0._bgTf.anchoredPosition = var_22_1
 
 	local var_22_3, var_22_4 = arg_22_0.shift:GetL2dShift()
+
+	if MainPaintingShift.IsLimitYPos(arg_22_0.flagShip:getPainting()) then
+		var_22_3.y = MainPaintingShift.GetHalfBodyOffsetY(arg_22_0.paintingTF.parent, arg_22_0.l2dContainer)
+	end
 
 	arg_22_0.l2dContainer.anchoredPosition = var_22_3
 

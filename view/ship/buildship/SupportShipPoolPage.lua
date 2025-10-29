@@ -6,12 +6,12 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.medalCount = arg_2_0._tf:Find("gallery/res_items/medal")
-	arg_2_0.patingTF = arg_2_0:findTF("painting")
-	arg_2_0.bg = arg_2_0:findTF("gallery/bg")
+	arg_2_0.patingTF = arg_2_0._tf:Find("painting")
+	arg_2_0.bg = arg_2_0._tf:Find("gallery/bg")
 	arg_2_0.tipSTxt = arg_2_0.bg:Find("type_intro/mask/title"):GetComponent("ScrollText")
 	arg_2_0.shopBtn = arg_2_0._tf:Find("gallery/shop_btn")
-	arg_2_0.helpBtn = arg_2_0:findTF("gallery/help_btn")
-	arg_2_0.startBtn = arg_2_0:findTF("gallery/start_btn")
+	arg_2_0.helpBtn = arg_2_0._tf:Find("gallery/help_btn")
+	arg_2_0.startBtn = arg_2_0._tf:Find("gallery/start_btn")
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -26,14 +26,14 @@ function var_0_0.Flush(arg_5_0)
 	local var_5_0 = getProxy(BuildShipProxy):getSupportShipCost()
 	local var_5_1 = pg.gametip.honor_medal_support_tips_display.tip
 
-	setText(arg_5_0:findTF("gallery/prints/intro/text"), var_5_1.support_tip_consume)
+	setText(arg_5_0._tf:Find("gallery/prints/intro/text"), var_5_1.support_tip_consume)
 	setImageSprite(arg_5_0.bg, GetSpriteFromAtlas(var_5_1.bg, ""))
 
 	local var_5_2 = var_5_1.support_tip_ship
 
 	arg_5_0.tipSTxt:SetText(var_5_2)
 
-	local var_5_3 = arg_5_0:findTF("gallery/item_bg/medal")
+	local var_5_3 = arg_5_0._tf:Find("gallery/item_bg/medal")
 
 	setText(var_5_3:Find("name"), Drop.New({
 		type = DROP_TYPE_ITEM,
@@ -73,11 +73,11 @@ function var_0_0.UpdateBuildPoolPaiting(arg_10_0)
 	local var_10_0 = arg_10_0.contextData.falgShip:getPainting()
 
 	if arg_10_0.painting ~= var_10_0 then
-		pg.UIMgr:GetInstance():LoadingOn()
+		pg.UIMgr.GetInstance():LoadingOn()
 		setPaintingPrefabAsync(arg_10_0.patingTF, var_10_0, "build", function()
 			arg_10_0.painting = var_10_0
 
-			pg.UIMgr:GetInstance():LoadingOff()
+			pg.UIMgr.GetInstance():LoadingOff()
 		end)
 	end
 end

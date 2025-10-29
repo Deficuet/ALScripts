@@ -82,8 +82,7 @@ function var_0_0.activeBotHelp(arg_4_0)
 				if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
 					getProxy(SettingsProxy):setAutoBattleTip()
 				end
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	end
 

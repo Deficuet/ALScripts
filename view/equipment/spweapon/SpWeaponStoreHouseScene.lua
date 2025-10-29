@@ -15,20 +15,20 @@ end
 local var_0_1 = require("view.equipment.SpWeaponSortCfg")
 
 function var_0_0.init(arg_4_0)
-	arg_4_0.topItems = arg_4_0:findTF("topItems")
-	arg_4_0.equipmentView = arg_4_0:findTF("ScrollView")
+	arg_4_0.topItems = arg_4_0._tf:Find("topItems")
+	arg_4_0.equipmentView = arg_4_0.rtAdapt:Find("ScrollView")
 	arg_4_0.equipmentsGrid = arg_4_0.equipmentView:Find("Viewport/Content/StoreHouse/Grid")
 	arg_4_0.craftsGrid = arg_4_0.equipmentView:Find("Viewport/Content/Craft/Grid")
 
 	setActive(arg_4_0.equipmentView:Find("Template"), false)
 
-	arg_4_0.blurPanel = arg_4_0:findTF("blur_panel")
-	arg_4_0.topPanel = arg_4_0:findTF("adapt/top", arg_4_0.blurPanel)
-	arg_4_0.indexBtn = arg_4_0:findTF("buttons/index_button", arg_4_0.topPanel)
-	arg_4_0.sortBtn = arg_4_0:findTF("buttons/sort_button", arg_4_0.topPanel)
-	arg_4_0.sortPanel = arg_4_0:findTF("sort", arg_4_0.topItems)
-	arg_4_0.sortContain = arg_4_0:findTF("adapt/mask/panel", arg_4_0.sortPanel)
-	arg_4_0.sortTpl = arg_4_0:findTF("tpl", arg_4_0.sortContain)
+	arg_4_0.blurPanel = arg_4_0._tf:Find("blur_panel")
+	arg_4_0.topPanel = arg_4_0.blurPanel:Find("adapt/top")
+	arg_4_0.indexBtn = arg_4_0.topPanel:Find("buttons/index_button")
+	arg_4_0.sortBtn = arg_4_0.topPanel:Find("buttons/sort_button")
+	arg_4_0.sortPanel = arg_4_0.topItems:Find("sort")
+	arg_4_0.sortContain = arg_4_0.sortPanel:Find("adapt/mask/panel")
+	arg_4_0.sortTpl = arg_4_0.sortContain:Find("tpl")
 
 	setActive(arg_4_0.sortTpl, false)
 
@@ -50,20 +50,20 @@ function var_0_0.init(arg_4_0)
 
 	setActive(arg_4_0.filterBusyToggle, false)
 
-	arg_4_0.bottomBack = arg_4_0:findTF("adapt/bottom_back", arg_4_0.topItems)
-	arg_4_0.capacityTF = arg_4_0:findTF("bottom_left/tip/capcity/Text", arg_4_0.bottomBack)
-	arg_4_0.tipTF = arg_4_0:findTF("bottom_left/tip", arg_4_0.bottomBack)
+	arg_4_0.bottomBack = arg_4_0.topItems:Find("adapt/bottom_back")
+	arg_4_0.capacityTF = arg_4_0.bottomBack:Find("bottom_left/tip/capcity/Text")
+	arg_4_0.tipTF = arg_4_0.bottomBack:Find("bottom_left/tip")
 	arg_4_0.tip = arg_4_0.tipTF:Find("label")
-	arg_4_0.helpBtn = arg_4_0:findTF("adapt/help_btn", arg_4_0.topItems)
+	arg_4_0.helpBtn = arg_4_0.topItems:Find("adapt/help_btn")
 
 	setActive(arg_4_0.helpBtn, true)
 
-	arg_4_0.backBtn = arg_4_0:findTF("blur_panel/adapt/top/back_btn")
-	arg_4_0.listEmptyTF = arg_4_0:findTF("empty")
+	arg_4_0.backBtn = arg_4_0._tf:Find("blur_panel/adapt/top/back_btn")
+	arg_4_0.listEmptyTF = arg_4_0._tf:Find("empty")
 
 	setActive(arg_4_0.listEmptyTF, false)
 
-	arg_4_0.listEmptyTxt = arg_4_0:findTF("Text", arg_4_0.listEmptyTF)
+	arg_4_0.listEmptyTxt = arg_4_0.listEmptyTF:Find("Text")
 
 	setText(arg_4_0.listEmptyTxt, i18n("list_empty_tip_storehouseui_equip"))
 	setText(arg_4_0.equipmentView:Find("Viewport/Content/Craft/Banner/Text"), i18n("spweapon_ui_create"))
@@ -94,12 +94,10 @@ function var_0_0.didEnter(arg_6_0)
 	end, SFX_CANCEL)
 	onToggle(arg_6_0, arg_6_0.sortBtn, function(arg_9_0)
 		if arg_9_0 then
-			pg.UIMgr.GetInstance():OverlayPanel(arg_6_0.sortPanel, {
-				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-			})
+			arg_6_0:OverlayPanel(arg_6_0.sortPanel)
 			setActive(arg_6_0.sortPanel, true)
 		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(arg_6_0.sortPanel, arg_6_0.topItems)
+			arg_6_0:UnOverlayPanel(arg_6_0.sortPanel, arg_6_0.topItems)
 			setActive(arg_6_0.sortPanel, false)
 		end
 	end, SFX_PANEL)
@@ -181,12 +179,8 @@ function var_0_0.didEnter(arg_6_0)
 		arg_6_0:filterEquipment()
 	end, SFX_PANEL)
 	triggerToggle(arg_6_0.filterBusyToggle, arg_6_0.shipVO)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_6_0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
-	pg.UIMgr.GetInstance():OverlayPanel(arg_6_0.topItems, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	arg_6_0:OverlayPanel(arg_6_0.blurPanel)
+	arg_6_0:OverlayPanel(arg_6_0.topItems)
 
 	local var_6_2 = arg_6_0.contextData.mode or StoreHouseConst.OVERVIEW
 
@@ -426,7 +420,7 @@ function var_0_0.filterEquipment(arg_34_0)
 		end
 	end)()
 	arg_34_0:UpdateCraftCount()
-	setImageSprite(arg_34_0:findTF("Image", arg_34_0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", var_34_1.spr), true)
+	setImageSprite(arg_34_0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", var_34_1.spr), true)
 	setActive(arg_34_0.sortImgAsc, arg_34_0.asc)
 	setActive(arg_34_0.sortImgDec, not arg_34_0.asc)
 end
@@ -491,8 +485,8 @@ function var_0_0.checkFitBusyCondition(arg_45_0, arg_45_1)
 end
 
 function var_0_0.willExit(arg_46_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_46_0.blurPanel, arg_46_0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_46_0.topItems, arg_46_0._tf)
+	arg_46_0:UnOverlayPanel(arg_46_0.blurPanel, arg_46_0._tf)
+	arg_46_0:UnOverlayPanel(arg_46_0.topItems, arg_46_0._tf)
 end
 
 return var_0_0

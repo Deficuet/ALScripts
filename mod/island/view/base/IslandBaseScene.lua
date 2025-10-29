@@ -1,445 +1,463 @@
 local var_0_0 = class("IslandBaseScene", import("view.base.BaseUI"))
-local var_0_1 = false
 
-var_0_0.CLOSE_PAGE = "IslandBaseScene:CLOSE_PAGE"
+var_0_0.ON_SCENE_LOADED = "IslandBaseScene:ON_SCENE_LOADED"
+var_0_0.LINK_CORE_EVENT = "IslandBaseScene:LINK_CORE_EVENT"
 
 function var_0_0.Ctor(arg_1_0)
 	var_0_0.super.Ctor(arg_1_0)
 
-	arg_1_0.capacity = 3
-	arg_1_0.balance = 0
-	arg_1_0.pages = {}
-	arg_1_0.subPages = {}
+	arg_1_0.sceneMgr = IslandSceneMgr.New(arg_1_0)
 	arg_1_0.__callbacks__ = {}
+	arg_1_0.showBalance = 1
+	arg_1_0.cacheAbList = {
+		"ui/islandui_atlas",
+		"ui/islandcommonui_atlas",
+		"island/IslandInteractionBtns"
+	}
 end
 
-function var_0_0.preload(arg_2_0, arg_2_1)
-	AssetBundleHelper.StoreAssetBundle("ui/islandcommonui_atlas", true, false, function(arg_3_0)
-		arg_2_1()
+function var_0_0.getDefaultUI(arg_2_0)
+	return arg_2_0._container
+end
+
+function var_0_0.forceGC(arg_3_0)
+	return true
+end
+
+function var_0_0.GCWhenAwake(arg_4_0)
+	return false
+end
+
+function var_0_0.PlayBGM(arg_5_0)
+	pg.BgmMgr.GetInstance():StopPlay()
+end
+
+function var_0_0.preload(arg_6_0, arg_6_1)
+	local var_6_0 = {}
+
+	table.insert(var_6_0, function(arg_7_0)
+		arg_6_0:LoadUIContainer(arg_7_0)
 	end)
+	table.insert(var_6_0, function(arg_8_0)
+		arg_6_0.poolMgr = IslandPoolMgr.New(arg_6_0.poolContainer)
+
+		arg_6_0.poolMgr:Init(arg_8_0)
+	end)
+
+	for iter_6_0, iter_6_1 in ipairs(arg_6_0.cacheAbList) do
+		table.insert(var_6_0, function(arg_9_0)
+			AssetBundleHelper.StoreAssetBundle(iter_6_1, true, false, function(arg_10_0)
+				arg_9_0()
+			end)
+		end)
+	end
+
+	seriesAsync(var_6_0, arg_6_1)
 end
 
-function var_0_0.emit(arg_4_0, ...)
-	if unpack({
-		...
-	}) == BaseUI.ON_HOME then
-		arg_4_0:ExitIsland()
+function var_0_0.LoadUIContainer(arg_11_0, arg_11_1)
+	ResourceMgr.Inst:getAssetAsync("UI/UIIsland", "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_12_0)
+		IslandHelper.InstantiateAsyncGameObject(arg_12_0, function(arg_13_0)
+			arg_11_0._container = arg_13_0.transform
+			arg_11_0.canvasGroup = GetOrAddComponent(arg_11_0._container, typeof(CanvasGroup))
+			arg_11_0.uiLayer1 = arg_11_0._container:Find("layer1")
+			arg_11_0.uiLayer2 = arg_11_0._container:Find("layer2")
+			arg_11_0.uiContainer = arg_11_0._container:Find("layer1/ui")
+			arg_11_0.opContainer = arg_11_0._container:Find("layer1/op")
+			arg_11_0.pageContainer = arg_11_0._container:Find("layer1/page")
+			arg_11_0.poolContainer = arg_11_0._container:Find("_pool_")
+			arg_11_0._container.name = "UIIsland"
+
+			setParent(arg_11_0._container, pg.UIMgr.GetInstance().UICanvas)
+			arg_11_1()
+		end)
+	end), true, true)
+end
+
+function var_0_0.SetUIParent(arg_14_0, arg_14_1)
+	arg_14_1.transform:SetParent(arg_14_0.uiContainer, false)
+end
+
+function var_0_0.emit(arg_15_0, arg_15_1, ...)
+	if arg_15_1 == BaseUI.ON_HOME or arg_15_1 == IslandMediator.CHANGE_SCENE then
+		if ISLAND_PLAYER_TESTING then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_home_btn_cant_use"))
+
+			return
+		end
+
+		arg_15_0:ExitProcess(arg_15_1, nil, ...)
 	else
-		var_0_0.super.emit(arg_4_0, ...)
+		var_0_0.super.emit(arg_15_0, arg_15_1, ...)
 	end
 end
 
-function var_0_0.ExitIsland(arg_5_0)
-	local var_5_0 = arg_5_0.contextData.id
+function var_0_0.emitCoreEvt(arg_16_0, arg_16_1, ...)
+	arg_16_0:emit(var_0_0.LINK_CORE_EVENT, arg_16_1, ...)
+end
+
+function var_0_0.emitCore(arg_17_0, arg_17_1, ...)
+	arg_17_0:emit(var_0_0.LINK_CORE_EVENT, IslandProxy.LINK_CORE, arg_17_1, ...)
+end
+
+function var_0_0.ExitProcess(arg_18_0, arg_18_1, arg_18_2, ...)
+	local var_18_0 = packEx(...)
+	local var_18_1 = arg_18_0:GetIsland()
 
 	seriesAsync({
-		function(arg_6_0)
+		function(arg_19_0)
+			arg_18_0:emit(IslandBaseMediator.RECORD_PLAYER_POS)
 			pg.m02:sendNotification(GAME.ISLAND_EXIT, {
-				id = var_5_0,
-				callback = arg_6_0
+				id = var_18_1.id,
+				callback = arg_19_0
 			})
 		end
 	}, function()
-		var_0_0.super.emit(arg_5_0, BaseUI.ON_HOME)
+		var_0_0.super.emit(arg_18_0, arg_18_1, unpackEx(var_18_0))
+
+		if arg_18_2 then
+			arg_18_2()
+		end
 	end)
 end
 
-function var_0_0.GetIsland(arg_8_0)
+function var_0_0.GetIsland(arg_21_0)
 	assert(false, "overwrite me !!!!")
 end
 
-function var_0_0.onUILoaded(arg_9_0, arg_9_1)
-	var_0_0.super.onUILoaded(arg_9_0, arg_9_1)
+function var_0_0.onUILoaded(arg_22_0, arg_22_1)
+	var_0_0.super.onUILoaded(arg_22_0, arg_22_1)
 
-	arg_9_0.subViews = {
-		IslandMsgBox.New(pg.UIMgr.GetInstance().OverlayMain, arg_9_0.event),
-		IslandToast.New(pg.UIMgr.GetInstance().OverlayToast, arg_9_0.event),
-		IslandStoryMgr.New(pg.UIMgr.GetInstance().OverlayToast, arg_9_0.event),
-		IslandAwardDisplayPage.New(pg.UIMgr.GetInstance().OverlayToast, arg_9_0.event)
+	arg_22_0.subViews = {
+		IslandMsgBox.New(pg.UIMgr.GetInstance().OverlayMain, arg_22_0.event),
+		IslandToast.New(pg.UIMgr.GetInstance().OverlayToast, arg_22_0.event),
+		IslandStoryMgr.New(pg.UIMgr.GetInstance().OverlayToast, arg_22_0.event),
+		IslandAwardDisplayPage.New(pg.UIMgr.GetInstance().OverlayToast, arg_22_0.event),
+		IslandQueueUpMsgBox.New(pg.UIMgr.GetInstance().OverlayToast, arg_22_0.event),
+		IslandTimelineMgr.New(arg_22_0:GetPoolMgr(), pg.UIMgr.GetInstance().OverlayToast, arg_22_0.event),
+		Island3dTaskAcceptPage.New(pg.UIMgr.GetInstance().OverlayToast, arg_22_0.event),
+		IslandSystemUnlockPage.New(pg.UIMgr.GetInstance().OverlayToast, arg_22_0.event)
 	}
-	arg_9_0.monitors = {
-		IslandPlayerDataMonitor.New(arg_9_0:GetIsland()),
-		IslandSyncDataMonitor.New(arg_9_0:GetIsland())
+	arg_22_0.monitors = {
+		IslandPlayerDataMonitor.New(arg_22_0:GetIsland()),
+		IslandSyncDataMonitor.New(arg_22_0:GetIsland())
 	}
+	arg_22_0.poppingQueue = IslandPoppingQueue.New(arg_22_0)
 
-	arg_9_0:AddListeners()
+	arg_22_0:AddCommonListeners()
+	arg_22_0:AddListeners()
 end
 
-function var_0_0.GetSubView(arg_10_0, arg_10_1)
-	for iter_10_0, iter_10_1 in ipairs(arg_10_0.subViews) do
-		if isa(iter_10_1, arg_10_1) then
-			return iter_10_1
+function var_0_0.AddCommonListeners(arg_23_0)
+	arg_23_0:AddListener(ISLAND_EX_EVT.EMIT, arg_23_0.OnEmit)
+	arg_23_0:AddListener(ISLAND_EX_EVT.INIT_FINISH, arg_23_0.OnSceneLoaded)
+	arg_23_0:AddListener(ISLAND_EX_EVT.SHOW_MSG, arg_23_0.OnShowMsgBox)
+	arg_23_0:AddListener(ISLAND_EX_EVT.OPEN_PAGE, arg_23_0.OnOpenPage)
+	arg_23_0:AddListener(ISLAND_EX_EVT.PLAY_TIMELINE, arg_23_0.OnPlayTimeline)
+	arg_23_0:AddListener(var_0_0.LINK_CORE_EVENT, arg_23_0.OnLinkCoreEvent)
+	arg_23_0:AddListener(ISLAND_EX_EVT.OPEN_ANIMATION_OP, arg_23_0.OnOpenAnimatonOpPage)
+	arg_23_0:AddListener(ISLAND_EX_EVT.CLOSE_ANIMATION_OP, arg_23_0.OnCloseAnimatonOpPage)
+end
+
+function var_0_0.GetSubView(arg_24_0, arg_24_1)
+	for iter_24_0, iter_24_1 in ipairs(arg_24_0.subViews) do
+		if isa(iter_24_1, arg_24_1) then
+			return iter_24_1
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.StartCore(arg_11_0)
-	arg_11_0:emit(IslandBaseMediator.SET_UP)
+function var_0_0.GetPoolMgr(arg_25_0)
+	return arg_25_0.poolMgr
 end
 
-function var_0_0.DoOpenPage(arg_12_0, arg_12_1, arg_12_2, ...)
-	local var_12_0
-
-	if arg_12_1.__cname == arg_12_0.__cname then
-		var_12_0 = arg_12_0:InstancePage(arg_12_2)
-
-		arg_12_0:HideOtherPages(arg_12_0.balance)
-		table.insert(arg_12_0.pages, var_12_0)
-
-		if #arg_12_0.pages > arg_12_0.capacity then
-			local var_12_1 = table.remove(arg_12_0.pages, 1)
-
-			arg_12_0:DestroyPage(var_12_1)
-		end
-
-		if arg_12_0.balance == 0 then
-			arg_12_0:OnAnyPageOpen(arg_12_2)
-		end
-
-		arg_12_0.balance = arg_12_0.balance + 1
-	else
-		var_12_0 = arg_12_0:InstanceSubPage(arg_12_1, arg_12_2)
-
-		if not arg_12_0.subPages[arg_12_1.__cname] then
-			arg_12_0.subPages[arg_12_1.__cname] = {}
-		end
-
-		table.insert(arg_12_0.subPages[arg_12_1.__cname], var_12_0)
-	end
-
-	var_12_0:ExecuteAction("Show", ...)
-	arg_12_0:Debug()
-
-	return var_12_0
-end
-
-function var_0_0.HideOtherPages(arg_13_0, arg_13_1)
-	local var_13_0 = #arg_13_0.pages
-	local var_13_1 = math.max(0, var_13_0 - arg_13_1 + 1)
-
-	for iter_13_0 = var_13_0, var_13_1, -1 do
-		local var_13_2 = arg_13_0.pages[iter_13_0]
-
-		if var_13_2 then
-			var_13_2:Disable()
-		end
-	end
-end
-
-function var_0_0.DoClosePage(arg_14_0, arg_14_1)
-	local var_14_0 = false
-
-	for iter_14_0, iter_14_1 in ipairs(arg_14_0.pages) do
-		if iter_14_1.__cname == arg_14_1.__cname then
-			arg_14_0:CloseSelfAndSub(iter_14_1)
-
-			var_14_0 = true
-
-			break
-		end
-	end
-
-	if not var_14_0 then
-		for iter_14_2, iter_14_3 in pairs(arg_14_0.subPages) do
-			for iter_14_4, iter_14_5 in ipairs(iter_14_3) do
-				if iter_14_5.__cname == arg_14_1.__cname then
-					if iter_14_5:GetLoaded() and iter_14_5:isShowing() then
-						iter_14_5:Disable()
-					end
-
-					var_14_0 = true
-
-					break
-				end
-			end
-		end
-	end
-
-	if var_14_0 then
-		arg_14_0:emit(var_0_0.CLOSE_PAGE, arg_14_1)
-	end
-
-	arg_14_0:Debug()
-end
-
-function var_0_0.InstancePage(arg_15_0, arg_15_1)
-	local var_15_0 = 0
-
-	for iter_15_0, iter_15_1 in ipairs(arg_15_0.pages) do
-		if iter_15_1.__cname == arg_15_1.__cname then
-			var_15_0 = iter_15_0
-
-			break
-		end
-	end
-
-	if var_15_0 > 0 then
-		return (table.remove(arg_15_0.pages, var_15_0))
-	else
-		return arg_15_1.New(arg_15_0)
-	end
-end
-
-function var_0_0.InstanceSubPage(arg_16_0, arg_16_1, arg_16_2)
-	for iter_16_0, iter_16_1 in ipairs(arg_16_0.subPages[arg_16_1.__cname] or {}) do
-		if iter_16_1.__cname == arg_16_2.__cname then
-			table.remove(arg_16_0.subPages[arg_16_1.__cname], iter_16_0)
-
-			return iter_16_1
-		end
-	end
-
-	return arg_16_2.New(arg_16_0)
-end
-
-function var_0_0.GetInstancePage(arg_17_0, arg_17_1)
-	for iter_17_0, iter_17_1 in pairs(arg_17_0.pages) do
-		if isa(iter_17_1, arg_17_1) then
-			return iter_17_1
-		end
-	end
-
-	for iter_17_2, iter_17_3 in pairs(arg_17_0.subPages) do
-		if isa(iter_17_3, arg_17_1) then
-			return iter_17_3
-		end
-	end
-end
-
-function var_0_0.CloseSelfAndSub(arg_18_0, arg_18_1)
-	for iter_18_0, iter_18_1 in ipairs(arg_18_0.subPages[arg_18_1.__cname] or {}) do
-		if iter_18_1:GetLoaded() and iter_18_1:isShowing() then
-			iter_18_1:Disable()
-		end
-	end
-
-	if arg_18_1:GetLoaded() and arg_18_1:isShowing() then
-		arg_18_1:Disable()
-
-		arg_18_0.balance = arg_18_0.balance - 1
-
-		arg_18_0:ShowOtherPage(arg_18_0.balance)
-
-		if arg_18_0.balance == 0 then
-			arg_18_0:OnAllPageClose()
-		end
-
-		for iter_18_2, iter_18_3 in ipairs(arg_18_0.subPages[arg_18_1.__cname] or {}) do
-			iter_18_3:Destroy()
-		end
-
-		arg_18_0.subPages[arg_18_1.__cname] = {}
-	end
-end
-
-function var_0_0.OnAnyPageOpen(arg_19_0, arg_19_1)
-	arg_19_0:setVisible(false)
-
-	if _IslandCore then
-		_IslandCore:Link(ISLAND_EVT.ANY_PAGE_OPENED, arg_19_1)
-	end
-end
-
-function var_0_0.OnAllPageClose(arg_20_0)
-	arg_20_0:setVisible(true)
-
-	if _IslandCore then
-		_IslandCore:Link(ISLAND_EVT.ALL_PAGE_CLOSED)
-	end
-end
-
-function var_0_0.setVisible(arg_21_0, arg_21_1)
-	arg_21_0:ShowOrHideResUI(arg_21_1)
-
-	if arg_21_1 then
-		arg_21_0:OnVisible()
-	else
-		arg_21_0:OnDisVisible()
-	end
-
-	setActive(arg_21_0._tf, arg_21_1)
-end
-
-function var_0_0.ShowOtherPage(arg_22_0, arg_22_1)
-	local var_22_0 = math.max(0, #arg_22_0.pages - arg_22_1)
-
-	for iter_22_0 = math.max(#arg_22_0.pages - 1, 0), var_22_0, -1 do
-		local var_22_1 = arg_22_0.pages[iter_22_0]
-
-		if var_22_1 then
-			var_22_1:Enable()
-		end
-	end
-end
-
-function var_0_0.StepCloseSelfAndSub(arg_23_0, arg_23_1)
-	for iter_23_0, iter_23_1 in ipairs(arg_23_0.subPages[arg_23_1.__cname] or {}) do
-		if iter_23_1:GetLoaded() and iter_23_1:isShowing() then
-			iter_23_1:Hide()
-
-			return
-		end
-	end
-
-	if arg_23_1:GetLoaded() and arg_23_1:isShowing() then
-		arg_23_1:Hide()
-	end
-end
-
-function var_0_0.DestroyPage(arg_24_0, arg_24_1)
-	if arg_24_1:GetLoaded() then
-		arg_24_1:Destroy()
-	end
-
-	for iter_24_0, iter_24_1 in ipairs(arg_24_0.subPages[arg_24_1.__cname] or {}) do
-		if iter_24_1:GetLoaded() then
-			iter_24_1:Destroy()
-		end
-	end
-
-	arg_24_0.subPages[arg_24_1.__cname] = {}
-end
-
-function var_0_0.OpenPage(arg_25_0, arg_25_1, ...)
-	return arg_25_0:DoOpenPage(arg_25_0, arg_25_1, ...)
-end
-
-function var_0_0.ClosePage(arg_26_0, arg_26_1)
-	arg_26_0:DoClosePage(arg_26_1)
-end
-
-function var_0_0.ShowMsgbox(arg_27_0, arg_27_1)
-	arg_27_0:GetSubView(IslandMsgBox):ExecuteAction("Show", arg_27_1)
-end
-
-function var_0_0.ShowToast(arg_28_0, arg_28_1)
-	arg_28_0:GetSubView(IslandToast):ExecuteAction("Show", arg_28_1)
-end
-
-function var_0_0.DisplayAward(arg_29_0, arg_29_1)
-	arg_29_0:GetSubView(IslandAwardDisplayPage):ExecuteAction("Show", arg_29_1)
-end
-
-function var_0_0.PlayStory(arg_30_0, arg_30_1)
-	arg_30_0:setVisible(false)
-	arg_30_0:GetSubView(IslandStoryMgr):ExecuteAction("Play", arg_30_1.name, function()
-		arg_30_0:setVisible(true)
-
-		if arg_30_1.callback then
-			arg_30_1.callback()
-		end
-	end)
-end
-
-function var_0_0.AddListener(arg_32_0, arg_32_1, arg_32_2)
-	local function var_32_0(arg_33_0, ...)
-		arg_32_2(arg_32_0, ...)
-	end
-
-	local var_32_1 = arg_32_0:bind(arg_32_1, var_32_0)
-
-	arg_32_0.__callbacks__[arg_32_1] = var_32_1
-
-	arg_32_0:GetIsland():AddListener(arg_32_1, var_32_0)
-end
-
-function var_0_0.RemoveListener(arg_34_0, arg_34_1, arg_34_2)
-	local var_34_0 = arg_34_0.__callbacks__[arg_34_1]
-
-	if var_34_0 then
-		local var_34_1 = arg_34_0.eventStore[var_34_0]
-
-		arg_34_0:GetIsland():RemoveListener(arg_34_1, var_34_1.callback)
-		arg_34_0:disconnect(var_34_0)
-
-		arg_34_0.__callbacks__[arg_34_1] = nil
-	end
-end
-
-function var_0_0.onBackPressed(arg_35_0)
-	for iter_35_0, iter_35_1 in ipairs(arg_35_0.subViews) do
-		if iter_35_1:GetLoaded() and iter_35_1:isShowing() then
-			iter_35_1:Hide()
-
-			return
-		end
-	end
-
-	for iter_35_2, iter_35_3 in ipairs(arg_35_0.pages) do
-		if iter_35_3:GetLoaded() and iter_35_3:isShowing() then
-			arg_35_0:StepCloseSelfAndSub(iter_35_3)
-
-			return
-		end
-	end
-
-	var_0_0.super.onBackPressed(arg_35_0)
-end
-
-function var_0_0.exit(arg_36_0)
-	arg_36_0:RemoveListeners()
-	AssetBundleHelper.UnstoreAssetBundle("ui/islandcommonui_atlas", true)
-
-	for iter_36_0, iter_36_1 in ipairs(arg_36_0.subViews) do
-		if iter_36_1:GetLoaded() then
-			iter_36_1:Destroy()
-		end
-	end
-
-	arg_36_0.subViews = nil
-
-	for iter_36_2, iter_36_3 in ipairs(arg_36_0.monitors) do
-		iter_36_3:Dispose()
-	end
-
-	arg_36_0.monitors = nil
-
-	arg_36_0:GetIsland():ClearListeners()
-
-	for iter_36_4, iter_36_5 in ipairs(arg_36_0.pages) do
-		arg_36_0:DestroyPage(iter_36_5)
-	end
-
-	arg_36_0.pages = nil
-	arg_36_0.subPages = nil
-
-	var_0_0.super.exit(arg_36_0)
-end
-
-function var_0_0.AddListeners(arg_37_0)
+function var_0_0.OnOpenAnimatonOpPage(arg_26_0)
 	return
 end
 
-function var_0_0.RemoveListeners(arg_38_0)
+function var_0_0.OnCloseAnimatonOpPage(arg_27_0)
 	return
 end
 
-function var_0_0.OnUnloadScene(arg_39_0)
+function var_0_0.OnLinkCoreEvent(arg_28_0, arg_28_1, ...)
+	arg_28_0:GetIsland():DispatchEvent(arg_28_1, ...)
+end
+
+function var_0_0.OnSetUpCore(arg_29_0, arg_29_1, arg_29_2)
 	return
 end
 
-function var_0_0.Debug(arg_40_0)
-	if not var_0_1 then
+function var_0_0.OnOpenPage(arg_30_0, arg_30_1, ...)
+	arg_30_0:OpenPage(arg_30_1, ...)
+end
+
+function var_0_0.OnShowMsgBox(arg_31_0, arg_31_1)
+	arg_31_0:ShowMsgbox(arg_31_1)
+end
+
+function var_0_0.OnPlayTimeline(arg_32_0, arg_32_1, arg_32_2, arg_32_3)
+	arg_32_0:PlayTimeline(arg_32_1, arg_32_2, arg_32_3)
+end
+
+function var_0_0.OnSceneLoaded(arg_33_0)
+	arg_33_0:emit(var_0_0.ON_SCENE_LOADED)
+end
+
+function var_0_0.OnEmit(arg_34_0, arg_34_1, ...)
+	arg_34_0:emit(arg_34_1, ...)
+end
+
+function var_0_0.StartCore(arg_35_0)
+	arg_35_0:emit(IslandBaseMediator.SET_UP)
+end
+
+function var_0_0.setVisible(arg_36_0, arg_36_1)
+	local var_36_0 = GetOrAddComponent(arg_36_0._tf, typeof(CanvasGroup))
+
+	var_36_0.alpha = arg_36_1 and 1 or 0
+	var_36_0.blocksRaycasts = arg_36_1
+
+	if arg_36_1 then
+		arg_36_0:OnVisible()
+	else
+		arg_36_0:OnDisVisible()
+	end
+end
+
+function var_0_0.TryVisible(arg_37_0)
+	arg_37_0.showBalance = arg_37_0.showBalance + 1
+
+	if arg_37_0.showBalance == 1 then
+		arg_37_0:setVisible(true)
+	end
+end
+
+function var_0_0.TryDisVisible(arg_38_0)
+	arg_38_0.showBalance = arg_38_0.showBalance - 1
+
+	if arg_38_0.showBalance == 0 then
+		arg_38_0:setVisible(false)
+	end
+end
+
+function var_0_0.OpenPage(arg_39_0, arg_39_1, ...)
+	IslandGuideChecker.CheckOnOpenPage(arg_39_1.__cname)
+
+	return arg_39_0.sceneMgr:OpenPage(arg_39_0, arg_39_1, ...)
+end
+
+function var_0_0.ClosePage(arg_40_0, arg_40_1)
+	arg_40_0.sceneMgr:ClosePage(arg_40_1)
+end
+
+function var_0_0.ShowToast(arg_41_0, arg_41_1)
+	arg_41_0:GetSubView(IslandToast):ExecuteAction("Show", arg_41_1)
+end
+
+function var_0_0.DisplayAward(arg_42_0, arg_42_1)
+	arg_42_0:GetSubView(IslandAwardDisplayPage):ExecuteAction("Show", arg_42_1)
+end
+
+function var_0_0.PlayTimeline(arg_43_0, arg_43_1, arg_43_2, arg_43_3)
+	arg_43_0:GetSubView(IslandTimelineMgr):ExecuteAction("Show", arg_43_1, arg_43_2, arg_43_3)
+end
+
+function var_0_0.PlayGetShipTimeline(arg_44_0, arg_44_1, arg_44_2)
+	arg_44_0:PlayTimeline(2, {
+		arg_44_1
+	}, arg_44_2)
+end
+
+function var_0_0.PlayStory(arg_45_0, arg_45_1)
+	arg_45_0.poppingQueue:Enqueue(IslandPoppingQueue.STORY, arg_45_1)
+end
+
+function var_0_0.ShowMsgbox(arg_46_0, arg_46_1)
+	arg_46_0.poppingQueue:Enqueue(IslandPoppingQueue.MSGBOX, arg_46_1)
+end
+
+function var_0_0.PlayPerformance(arg_47_0, arg_47_1)
+	arg_47_0.poppingQueue:Enqueue(IslandPoppingQueue.PERFORMANCE, arg_47_1)
+end
+
+function var_0_0.DisplaySystemUnlock(arg_48_0, arg_48_1, arg_48_2)
+	if not arg_48_1 or #arg_48_1 <= 0 then
+		arg_48_2()
+
 		return
 	end
 
-	local function var_40_0(arg_41_0)
-		local var_41_0 = arg_40_0.subPages[arg_41_0.__cname] or {}
-		local var_41_1 = _.map(var_41_0, function(arg_42_0)
-			return arg_42_0.__cname
-		end)
+	local var_48_0 = _.select(arg_48_1, function(arg_49_0)
+		return pg.island_ability_template[arg_49_0.id].show_pop == 1
+	end)
 
-		return table.concat(var_41_1, ",")
+	if #var_48_0 <= 0 then
+		arg_48_2()
+
+		return
 	end
 
-	local var_40_1 = _.map(arg_40_0.pages, function(arg_43_0)
-		return arg_43_0.__cname .. ":" .. var_40_0(arg_43_0)
-	end)
-	local var_40_2 = table.concat(var_40_1, "\n")
+	local var_48_1 = {}
 
-	print("\n" .. var_40_2)
+	for iter_48_0, iter_48_1 in ipairs(var_48_0) do
+		table.insert(var_48_1, function(arg_50_0)
+			arg_48_0:GetSubView(IslandSystemUnlockPage):ExecuteAction("Show", iter_48_1.id, function()
+				onNextTick(arg_50_0)
+			end)
+		end)
+	end
+
+	seriesAsync(var_48_1, arg_48_2)
+end
+
+function var_0_0.HandleAwardDisplay(arg_52_0, arg_52_1, arg_52_2, arg_52_3)
+	local var_52_0 = {
+		dropData = arg_52_1,
+		callback = arg_52_2,
+		displayType = arg_52_3
+	}
+
+	arg_52_0.poppingQueue:Enqueue(IslandPoppingQueue.DISPLAY_AWARD, var_52_0)
+end
+
+function var_0_0.ShowTaskAcceptPage(arg_53_0, arg_53_1)
+	arg_53_0.poppingQueue:Enqueue(IslandPoppingQueue.TASK_ACCEPT_PAGE, arg_53_1)
+end
+
+function var_0_0.ShowQueueUpMsgBox(arg_54_0, arg_54_1, arg_54_2)
+	arg_54_0:GetSubView(IslandQueueUpMsgBox):ExecuteAction("Show", arg_54_1, arg_54_2)
+end
+
+function var_0_0.AddListener(arg_55_0, arg_55_1, arg_55_2)
+	local function var_55_0(arg_56_0, ...)
+		arg_55_2(arg_55_0, ...)
+	end
+
+	local var_55_1 = arg_55_0:bind(arg_55_1, var_55_0)
+
+	arg_55_0.__callbacks__[arg_55_1] = var_55_1
+
+	arg_55_0:GetIsland():AddListener(arg_55_1, var_55_0)
+end
+
+function var_0_0.RemoveListener(arg_57_0, arg_57_1, arg_57_2)
+	local var_57_0 = arg_57_0.__callbacks__[arg_57_1]
+
+	if var_57_0 then
+		local var_57_1 = arg_57_0.eventStore[var_57_0]
+
+		arg_57_0:GetIsland():RemoveListener(arg_57_1, var_57_1.callback)
+		arg_57_0:disconnect(var_57_0)
+
+		arg_57_0.__callbacks__[arg_57_1] = nil
+	end
+end
+
+function var_0_0.onBackPressed(arg_58_0)
+	local var_58_0 = arg_58_0:GetSubView(IslandTimelineMgr)
+
+	if var_58_0:GetLoaded() and var_58_0:isShowing() then
+		return
+	end
+
+	if arg_58_0:GetSubView(IslandStoryMgr):onBackPressed() then
+		return
+	end
+
+	for iter_58_0, iter_58_1 in ipairs(arg_58_0.subViews) do
+		if iter_58_1:GetLoaded() and iter_58_1:isShowing() then
+			if isa(iter_58_1, IslandMsgBox) then
+				iter_58_1:HideWindow()
+			else
+				iter_58_1:Hide()
+			end
+
+			return
+		end
+	end
+
+	if arg_58_0.sceneMgr:OnBackPressed() then
+		return
+	end
+
+	var_0_0.super.onBackPressed(arg_58_0)
+end
+
+function var_0_0.RemoveCommonListeners(arg_59_0)
+	arg_59_0:RemoveListener(ISLAND_EX_EVT.EMIT, arg_59_0.OnEmit)
+	arg_59_0:RemoveListener(ISLAND_EX_EVT.INIT_FINISH, arg_59_0.OnSceneLoaded)
+	arg_59_0:RemoveListener(ISLAND_EX_EVT.SHOW_MSG, arg_59_0.OnShowMsgBox)
+	arg_59_0:RemoveListener(ISLAND_EX_EVT.OPEN_PAGE, arg_59_0.OnOpenPage)
+	arg_59_0:RemoveListener(ISLAND_EX_EVT.PLAY_TIMELINE, arg_59_0.OnPlayTimeline)
+	arg_59_0:RemoveListener(var_0_0.LINK_CORE_EVENT, arg_59_0.OnLinkCoreEvent)
+	arg_59_0:RemoveListener(ISLAND_EX_EVT.OPEN_ANIMATION_OP, arg_59_0.OnOpenAnimatonOpPage)
+	arg_59_0:RemoveListener(ISLAND_EX_EVT.CLOSE_ANIMATION_OP, arg_59_0.OnCloseAnimatonOpPage)
+end
+
+function var_0_0.exit(arg_60_0)
+	arg_60_0:RemoveListeners()
+	arg_60_0:RemoveCommonListeners()
+
+	for iter_60_0, iter_60_1 in ipairs(arg_60_0.cacheAbList) do
+		AssetBundleHelper.UnstoreAssetBundle(iter_60_1, true)
+	end
+
+	for iter_60_2, iter_60_3 in ipairs(arg_60_0.subViews) do
+		if iter_60_3:GetLoaded() then
+			iter_60_3:Destroy()
+		end
+	end
+
+	for iter_60_4, iter_60_5 in ipairs(arg_60_0.monitors) do
+		iter_60_5:Dispose()
+	end
+
+	arg_60_0:GetIsland():ClearListeners()
+	arg_60_0.poolMgr:Dispose()
+	arg_60_0.poppingQueue:Dispose()
+	arg_60_0:disposeEvent()
+	arg_60_0.sceneMgr:Dispose()
+	getProxy(IslandProxy):ClearAllPlayerDataCache()
+	getProxy(IslandProxy):ClearAllGiftTagInfo()
+
+	arg_60_0.subViews = nil
+	arg_60_0.cacheAbList = nil
+	arg_60_0.poppingQueue = nil
+	arg_60_0.sceneMgr = nil
+	arg_60_0.poolMgr = nil
+	arg_60_0.monitors = nil
+	arg_60_0.uiContainer = nil
+	arg_60_0.opContainer = nil
+	arg_60_0.pageContainer = nil
+	IslandSceneLoader.lastMapId = nil
+	arg_60_0.contextData = {}
+
+	GraphicsInterface.Instance:ReleaseAsyncLoadedResources()
+	var_0_0.super.exit(arg_60_0)
+end
+
+function var_0_0.detach(arg_61_0, arg_61_1)
+	var_0_0.super.detach(arg_61_0, arg_61_1)
+
+	if not IsNil(arg_61_0._container) then
+		Object.Destroy(arg_61_0._container.gameObject)
+
+		arg_61_0._container = nil
+	end
+end
+
+function var_0_0.AddListeners(arg_62_0)
+	return
+end
+
+function var_0_0.RemoveListeners(arg_63_0)
+	return
+end
+
+function var_0_0.OnUnloadScene(arg_64_0)
+	return
 end
 
 return var_0_0

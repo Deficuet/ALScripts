@@ -41,9 +41,9 @@ pg.voice_bgm = {
 		bgm = "cw-level"
 	},
 	CourtYardScene = {
-		default_bgm = "yumia-61",
+		default_bgm = "backyard",
 		special_bgm = "",
-		bgm = "yumia-61"
+		bgm = "backyard"
 	},
 	BattleScene = {
 		default_bgm = "battle-1",
@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "yumia-79",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "yumia-79"
+		bgm = "login"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -135,10 +135,10 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "idol-BlueSpirit-inst"
 	},
-	NewShopsScene = {
-		default_bgm = "yumia-81",
+	ActivityShop50206 = {
+		default_bgm = "theme-tempest-light",
 		special_bgm = "",
-		bgm = "yumia-81"
+		bgm = "theme-tempest-light"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2340,9 +2340,199 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "yumia-az-theme-pv"
 	},
-	NewSkinShopScene = {
-		default_bgm = "yumia-81",
+	KearsargeTecCatchUpPage = {
+		default_bgm = "theme-designshipVI",
 		special_bgm = "",
-		bgm = "yumia-81"
+		bgm = "theme-designshipVI"
+	},
+	Z46SkinRePage = {
+		default_bgm = "theme-tulipa",
+		special_bgm = "",
+		bgm = "theme-tulipa"
+	},
+	ForestVacationSkinPage = {
+		default_bgm = "story-tulipa",
+		special_bgm = "",
+		bgm = "story-tulipa"
+	},
+	SecretsAbyssMainPage = {
+		default_bgm = "story-enzecheng-theme",
+		special_bgm = "",
+		bgm = "story-enzecheng-theme"
+	},
+	SecretsAbyssPtPage = {
+		default_bgm = "theme-fushun-adventure",
+		special_bgm = "",
+		bgm = "theme-fushun-adventure"
+	},
+	SecretsAbyssSkinMagazinePage = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		bgm = "bar-soft"
+	},
+	SecretsAbyssMGPage = {
+		default_bgm = "story-game-rhythm",
+		special_bgm = "",
+		bgm = "story-game-rhythm"
+	},
+	MassenaMedalAlbumView = {
+		default_bgm = "story-enzecheng-theme",
+		special_bgm = "",
+		bgm = "story-enzecheng-theme"
+	},
+	AierdeliqiAlterItemRePage = {
+		default_bgm = "story-masazhusai",
+		special_bgm = "",
+		bgm = "story-masazhusai"
+	},
+	ShimantoTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	TianYuTianYuanFramePage = {
+		default_bgm = "theme-akagi-inside",
+		special_bgm = "",
+		bgm = "theme-akagi-inside"
+	},
+	TianYuTianYuanLoginPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
+	},
+	TianYuTianYuanURExchangePage = {
+		default_bgm = "story-amahara-stage3",
+		special_bgm = "",
+		bgm = "story-amahara-stage3"
+	},
+	TianYuTianYuanMainPage = {
+		default_bgm = "story-amahara-stage2",
+		special_bgm = "",
+		bgm = "story-amahara-stage2"
+	},
+	TianYuTianYuanPtPage = {
+		default_bgm = "story-amahara-stage1",
+		special_bgm = "",
+		bgm = "story-amahara-stage1"
+	},
+	AnniversaryEightMainPage = {
+		default_bgm = "story-ninjacity",
+		special_bgm = "",
+		bgm = "story-ninjacity"
+	},
+	EighthHotSpringScene = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		bgm = "theme-warmwinter-daily"
+	},
+	CityRebuildMapScene = {
+		default_bgm = "story-ninjacity",
+		special_bgm = "",
+		bgm = "story-ninjacity"
+	},
+	CityRebuildGameLayer = {
+		default_bgm = "sk-az-battle",
+		special_bgm = "",
+		bgm = "sk-az-battle"
+	},
+	AnniversaryEightInvitePage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	AnniversaryEightLoginJpPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	AnniversaryEightJpReturnAwardPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	TianYuTianYuanMedalAlbumView = {
+		default_bgm = "story-amahara-stage2",
+		special_bgm = "",
+		bgm = "story-amahara-stage2"
+	},
+	SportAndRacingSkinEncoreLoginPage = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		bgm = "story-richang-5"
+	},
+	IslandSignPage = {
+		default_bgm = "theme-myisland",
+		special_bgm = "",
+		bgm = "theme-myisland"
+	},
+	AEBCSMainPage = {
+		default_bgm = "danmachi-1",
+		special_bgm = "",
+		bgm = "danmachi-1"
+	},
+	AEBCSPtPage = {
+		default_bgm = "danmachi-2",
+		special_bgm = "",
+		bgm = "danmachi-2"
+	},
+	AEBCSAwardPage = {
+		default_bgm = "danmachi-az-story",
+		special_bgm = "",
+		bgm = "danmachi-az-story"
+	},
+	AEBCSHestiaPage = {
+		default_bgm = "danmachi-3",
+		special_bgm = "",
+		bgm = "danmachi-3"
+	},
+	AEBCSStoryPage = {
+		default_bgm = "danmachi-3",
+		special_bgm = "",
+		bgm = "danmachi-3"
+	},
+	ClemenceauMainRePage = {
+		default_bgm = "theme-clemenceau",
+		special_bgm = "",
+		bgm = "theme-clemenceau"
+	},
+	ExpoTicketTaskRePage = {
+		default_bgm = "story-clemenceau-judgement",
+		special_bgm = "",
+		bgm = "story-clemenceau-judgement"
+	},
+	SaDingPtRePage = {
+		default_bgm = "story-expo-lastday",
+		special_bgm = "",
+		bgm = "story-expo-lastday"
+	},
+	SaDingFrameRePage = {
+		default_bgm = "theme-marcopolo",
+		special_bgm = "",
+		bgm = "theme-marcopolo"
+	},
+	SaDingLoginRePage = {
+		default_bgm = "theme-irisangel",
+		special_bgm = "",
+		bgm = "theme-irisangel"
+	},
+	SailingShip3MainPage = {
+		default_bgm = "theme-tempest-light",
+		special_bgm = "",
+		bgm = "theme-tempest-light"
+	},
+	SailingShip3PtPage = {
+		default_bgm = "theme-tempest-light",
+		special_bgm = "",
+		bgm = "theme-tempest-light"
+	},
+	SailingShip3SkinActPage = {
+		default_bgm = "story-ghostnight-fascinsting",
+		special_bgm = "",
+		bgm = "story-ghostnight-fascinsting"
+	},
+	SailingShip3MedalAlbumView = {
+		default_bgm = "theme-tempest-light",
+		special_bgm = "",
+		bgm = "theme-tempest-light"
 	}
 }

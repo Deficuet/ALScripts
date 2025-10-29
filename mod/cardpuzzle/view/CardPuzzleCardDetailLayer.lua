@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.cardView = CardPuzzleCardView.New(arg_2_0:findTF("CardTowerCard"))
-	arg_2_0.keywordList = arg_2_0:findTF("KeywordList")
+	arg_2_0.cardView = CardPuzzleCardView.New(arg_2_0._tf:Find("CardTowerCard"))
+	arg_2_0.keywordList = arg_2_0._tf:Find("KeywordList")
 end
 
 local var_0_1 = {
@@ -15,7 +15,7 @@ local var_0_1 = {
 }
 
 function var_0_0.didEnter(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("BG"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("BG"), function()
 		arg_3_0:closeView()
 	end, SFX_CANCEL)
 	arg_3_0.cardView:SetData(arg_3_0.contextData.cardData)
@@ -40,11 +40,11 @@ function var_0_0.didEnter(arg_3_0)
 		setText(var_6_1:Find("Text"), var_6_0.discript)
 		setText(var_6_1:Find("Title/EN"), var_6_0.name_EN)
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, nil, {})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.willExit(arg_7_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_7_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0._tf)
 end
 
 return var_0_0

@@ -10,19 +10,19 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.mainPanel = arg_2_0:findTF("mainPanel")
-	arg_2_0.head = arg_2_0:findTF("bg/left_panel/ship_tpl", arg_2_0.mainPanel)
-	arg_2_0.labelHeart = arg_2_0:findTF("bg/left_panel/evaluation_count/heart", arg_2_0.mainPanel)
-	arg_2_0.labelEva = arg_2_0:findTF("bg/left_panel/evaluation_count/count", arg_2_0.mainPanel)
-	arg_2_0.btnLike = arg_2_0:findTF("bg/left_panel/btnLike", arg_2_0.mainPanel)
-	arg_2_0.btnEva = arg_2_0:findTF("bg/bottom_panel/send_btn", arg_2_0.mainPanel)
-	arg_2_0.input = arg_2_0:findTF("bg/bottom_panel/Input", arg_2_0.mainPanel)
-	arg_2_0.inputText = arg_2_0:findTF("Text", arg_2_0.input)
-	arg_2_0.list = arg_2_0:findTF("bg/right_panel/list", arg_2_0.mainPanel)
-	arg_2_0.hotContent = arg_2_0:findTF("content/hots", arg_2_0.list)
-	arg_2_0.commonContent = arg_2_0:findTF("content/commons", arg_2_0.list)
-	arg_2_0.hotTpl = arg_2_0:findTF("content/hot_tpl", arg_2_0.list)
-	arg_2_0.commonTpl = arg_2_0:findTF("content/commom_tpl", arg_2_0.list)
+	arg_2_0.mainPanel = arg_2_0._tf:Find("mainPanel")
+	arg_2_0.head = arg_2_0.mainPanel:Find("bg/left_panel/ship_tpl")
+	arg_2_0.labelHeart = arg_2_0.mainPanel:Find("bg/left_panel/evaluation_count/heart")
+	arg_2_0.labelEva = arg_2_0.mainPanel:Find("bg/left_panel/evaluation_count/count")
+	arg_2_0.btnLike = arg_2_0.mainPanel:Find("bg/left_panel/btnLike")
+	arg_2_0.btnEva = arg_2_0.mainPanel:Find("bg/bottom_panel/send_btn")
+	arg_2_0.input = arg_2_0.mainPanel:Find("bg/bottom_panel/Input")
+	arg_2_0.inputText = arg_2_0.input:Find("Text")
+	arg_2_0.list = arg_2_0.mainPanel:Find("bg/right_panel/list")
+	arg_2_0.hotContent = arg_2_0.list:Find("content/hots")
+	arg_2_0.commonContent = arg_2_0.list:Find("content/commons")
+	arg_2_0.hotTpl = arg_2_0.list:Find("content/hot_tpl")
+	arg_2_0.commonTpl = arg_2_0.list:Find("content/commom_tpl")
 	arg_2_0.iconType = findTF(arg_2_0.head, "content/main_bg/type_mask/type_icon"):GetComponent(typeof(Image))
 	arg_2_0.imageBg = findTF(arg_2_0.head, "content/icon_bg"):GetComponent(typeof(Image))
 	arg_2_0.imageFrame = findTF(arg_2_0.head, "content/main_bg/frame")
@@ -31,17 +31,14 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.scrollText = findTF(arg_2_0.head, "content/main_bg/name_mask/name"):GetComponent(typeof(ScrollText))
 	arg_2_0.stars = findTF(arg_2_0.head, "content/main_bg/stars")
 	arg_2_0.star = findTF(arg_2_0.stars, "tpl")
-	arg_2_0.bg = arg_2_0:findTF("BG")
+	arg_2_0.bg = arg_2_0._tf:Find("BG")
 	arg_2_0.btnHelp = arg_2_0._tf:Find("mainPanel/bg/top_panel/title/help")
 
 	setActive(arg_2_0.btnHelp, getProxy(PlayerProxy):getRawData():IsOpenShipEvaluationImpeach())
 	arg_2_0:initImpeachPanel()
 	setActive(arg_2_0.mainPanel, true)
 	setActive(arg_2_0.impackPanel, false)
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		groupName = arg_2_0:getGroupNameFromData(),
-		weight = arg_2_0:getWeightFromData()
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 end
 
 function var_0_0.onBackPressed(arg_3_0)
@@ -57,14 +54,13 @@ function var_0_0.didEnter(arg_4_0)
 	onButton(arg_4_0, arg_4_0.bg, function()
 		arg_4_0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(arg_4_0, arg_4_0:findTF("mainPanel/bg/top_panel/btnBack"), function()
+	onButton(arg_4_0, arg_4_0._tf:Find("mainPanel/bg/top_panel/btnBack"), function()
 		arg_4_0:onBackPressed()
 	end, SFX_CANCEL)
 	onButton(arg_4_0, arg_4_0.btnHelp, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = i18n("report_sent_help"),
-			weight = arg_4_0:getWeightFromData()
+			helps = i18n("report_sent_help")
 		})
 	end, SFX_PANEL)
 	onButton(arg_4_0, arg_4_0.btnLike, function()
@@ -193,9 +189,9 @@ function var_0_0.flushEva(arg_16_0)
 			var_16_5 = cloneTplTo(arg_16_0.commonTpl, arg_16_0.commonContent)
 		end
 
-		local var_16_7 = arg_16_0:findTF("bg/evaluation", var_16_5):GetComponent(typeof(Text))
-		local var_16_8 = arg_16_0:findTF("bg/name", var_16_5)
-		local var_16_9 = arg_16_0:findTF("bg/zan_bg/Text", var_16_5)
+		local var_16_7 = var_16_5:Find("bg/evaluation"):GetComponent(typeof(Text))
+		local var_16_8 = var_16_5:Find("bg/name")
+		local var_16_9 = var_16_5:Find("bg/zan_bg/Text")
 
 		setText(var_16_8, var_16_6.nick_name .. ":")
 		setText(var_16_9, var_16_6.good_count - var_16_6.bad_count)
@@ -313,7 +309,7 @@ function var_0_0.openImpeachPanel(arg_28_0, arg_28_1)
 end
 
 function var_0_0.willExit(arg_29_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_29_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_29_0._tf)
 end
 
 return var_0_0

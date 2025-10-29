@@ -35,6 +35,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.taskGetBtn = arg_1_0._tf:Find("task_panel/get")
 	arg_1_0.taskProgressTxt = arg_1_0._tf:Find("task_panel/p"):GetComponent(typeof(Text))
 
+	setText(arg_1_0._tf:Find("pt_panel/title"), i18n("activity_return_reward_pt"))
 	arg_1_0:Init()
 end
 
@@ -50,6 +51,7 @@ function var_0_0.Init(arg_2_0)
 		arg_2_0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
 			cmd = ActivityConst.RETURN_AWARD_OP_SHOW_AWARD_OVERVIEW,
 			arg1 = {
+				blur = true,
 				dropList = arg_2_0.config.drop_client,
 				targets = arg_2_0.config.target,
 				fetchList = arg_2_0.fetchList,
@@ -166,129 +168,137 @@ function var_0_0.UpdateUI(arg_10_0)
 	setFillAmount(arg_10_0.progress, arg_10_0.pt / arg_10_0.nextTarget)
 
 	local var_10_0 = arg_10_0.nextDrops
-
-	updateDrop(arg_10_0.awardTF, {
+	local var_10_1 = {
 		type = var_10_0[1],
 		id = var_10_0[2],
 		count = var_10_0[3]
-	})
+	}
 
-	local var_10_1 = pg.activity_template_headhunting[arg_10_0.activity.id].tasklist
+	updateDrop(arg_10_0.awardTF, var_10_1)
+	onButton(arg_10_0, arg_10_0.awardTF, function()
+		arg_10_0._event:emit(BaseUI.ON_DROP, var_10_1)
+	end, SFX_PANEL)
 
-	arg_10_0:UpdateTasks(var_10_1)
+	local var_10_2 = pg.activity_template_headhunting[arg_10_0.activity.id].tasklist
+
+	arg_10_0:UpdateTasks(var_10_2)
 end
 
-function var_0_0.getTask(arg_11_0, arg_11_1)
-	local var_11_0 = getProxy(TaskProxy)
+function var_0_0.getTask(arg_12_0, arg_12_1)
+	local var_12_0 = getProxy(TaskProxy)
 
-	return var_11_0:getTaskById(arg_11_1) or var_11_0:getFinishTaskById(arg_11_1)
+	return var_12_0:getTaskById(arg_12_1) or var_12_0:getFinishTaskById(arg_12_1)
 end
 
-function var_0_0.UpdateTasks(arg_12_0, arg_12_1)
-	if arg_12_0.isPush then
-		local var_12_0 = arg_12_0.activity
-		local var_12_1 = var_12_0:getDayIndex()
-		local var_12_2 = getProxy(TaskProxy)
-		local var_12_3 = 0
+function var_0_0.UpdateTasks(arg_13_0, arg_13_1)
+	if arg_13_0.isPush then
+		local var_13_0 = arg_13_0.activity
+		local var_13_1 = var_13_0:getDayIndex()
+		local var_13_2 = getProxy(TaskProxy)
+		local var_13_3 = 0
 
-		for iter_12_0 = #arg_12_1, 1, -1 do
-			if arg_12_0:getTask(arg_12_1[iter_12_0]) then
-				var_12_3 = iter_12_0
+		for iter_13_0 = #arg_13_1, 1, -1 do
+			if arg_13_0:getTask(arg_13_1[iter_13_0]) then
+				var_13_3 = iter_13_0
 
 				break
 			end
 		end
 
-		local var_12_4 = arg_12_0:getTask(arg_12_1[var_12_3])
+		local var_13_4 = arg_13_0:getTask(arg_13_1[var_13_3])
 
-		if (not var_12_4 or var_12_4:isReceive()) and var_12_3 < var_12_1 then
-			if var_12_3 == #arg_12_1 and var_12_4 and var_12_4:isReceive() then
-				arg_12_0:UpdateTaskTF(var_12_4)
+		if (not var_13_4 or var_13_4:isReceive()) and var_13_3 < var_13_1 then
+			if var_13_3 == #arg_13_1 and var_13_4 and var_13_4:isReceive() then
+				arg_13_0:UpdateTaskTF(var_13_4)
 			else
-				arg_12_0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
-					activity_id = var_12_0.id,
+				arg_13_0._event:emit(ActivityMediator.RETURN_AWARD_OP, {
+					activity_id = var_13_0.id,
 					cmd = ActivityConst.RETURN_AWARD_OP_ACCEPT_TASK
 				})
 			end
 		else
-			assert(var_12_4)
-			arg_12_0:UpdateTaskTF(var_12_4)
+			assert(var_13_4)
+			arg_13_0:UpdateTaskTF(var_13_4)
 		end
 	else
-		setActive(arg_12_0.taskPanel, false)
-		setActive(arg_12_0.taskLockPanel, true)
+		setActive(arg_13_0.taskPanel, false)
+		setActive(arg_13_0.taskLockPanel, true)
 	end
 end
 
-function var_0_0.UpdateTaskTF(arg_13_0, arg_13_1)
-	setActive(arg_13_0.taskLockPanel, false)
-	setActive(arg_13_0.taskPanel, true)
+function var_0_0.UpdateTaskTF(arg_14_0, arg_14_1)
+	setActive(arg_14_0.taskLockPanel, false)
+	setActive(arg_14_0.taskPanel, true)
 
-	local var_13_0 = arg_13_1:isFinish()
-	local var_13_1 = arg_13_1:isReceive()
+	local var_14_0 = arg_14_1:isFinish()
+	local var_14_1 = arg_14_1:isReceive()
 
-	setActive(arg_13_0.taskGoBtn, arg_13_1 and not var_13_0)
-	setActive(arg_13_0.taskGotBtn, arg_13_1 and var_13_1)
-	setActive(arg_13_0.taskGetBtn, arg_13_1 and var_13_0 and not var_13_1)
+	setActive(arg_14_0.taskGoBtn, arg_14_1 and not var_14_0)
+	setActive(arg_14_0.taskGotBtn, arg_14_1 and var_14_1)
+	setActive(arg_14_0.taskGetBtn, arg_14_1 and var_14_0 and not var_14_1)
 
-	local var_13_2 = arg_13_1:getConfig("award_display")[1]
+	local var_14_2 = arg_14_1:getConfig("award_display")[1]
+	local var_14_3 = {
+		type = var_14_2[1],
+		id = var_14_2[2],
+		count = var_14_2[3]
+	}
 
-	updateDrop(arg_13_0.taskItemTF, {
-		type = var_13_2[1],
-		id = var_13_2[2],
-		count = var_13_2[3]
-	})
-	setFillAmount(arg_13_0.taskProgress, arg_13_1:getProgress() / arg_13_1:getConfig("target_num"))
-	setText(arg_13_0.taskDesc, arg_13_1:getConfig("desc"))
-
-	arg_13_0.taskProgressTxt.text = arg_13_1:getProgress() .. "/" .. arg_13_1:getConfig("target_num")
-
-	onButton(arg_13_0, arg_13_0.taskGoBtn, function()
-		arg_13_0._event:emit(ActivityMediator.ON_TASK_GO, arg_13_1)
+	updateDrop(arg_14_0.taskItemTF, var_14_3)
+	onButton(arg_14_0, arg_14_0.taskItemTF, function()
+		arg_14_0._event:emit(BaseUI.ON_DROP, var_14_3)
 	end, SFX_PANEL)
-	onButton(arg_13_0, arg_13_0.taskGetBtn, function()
-		arg_13_0._event:emit(ActivityMediator.ON_TASK_SUBMIT, arg_13_1)
+	setFillAmount(arg_14_0.taskProgress, arg_14_1:getProgress() / arg_14_1:getConfig("target_num"))
+	setText(arg_14_0.taskDesc, arg_14_1:getConfig("desc"))
+
+	arg_14_0.taskProgressTxt.text = arg_14_1:getProgress() .. "/" .. arg_14_1:getConfig("target_num")
+
+	onButton(arg_14_0, arg_14_0.taskGoBtn, function()
+		arg_14_0._event:emit(ActivityMediator.ON_TASK_GO, arg_14_1)
+	end, SFX_PANEL)
+	onButton(arg_14_0, arg_14_0.taskGetBtn, function()
+		arg_14_0._event:emit(ActivityMediator.ON_TASK_SUBMIT, arg_14_1)
 	end, SFX_PANEL)
 end
 
-local function var_0_1(arg_16_0, arg_16_1)
-	LoadSpriteAsync("qicon/" .. arg_16_1:getPainting(), function(arg_17_0)
-		if not IsNil(arg_16_0) then
-			arg_16_0:GetComponent(typeof(Image)).sprite = arg_17_0
+local function var_0_1(arg_18_0, arg_18_1)
+	LoadSpriteAsync("qicon/" .. arg_18_1:getPainting(), function(arg_19_0)
+		if not IsNil(arg_18_0) then
+			arg_18_0:GetComponent(typeof(Image)).sprite = arg_19_0
 		end
 	end)
-	UIItemList.New(arg_16_0:Find("starts"), arg_16_0:Find("starts/tpl")):align(arg_16_1:getStar())
+	UIItemList.New(arg_18_0:Find("starts"), arg_18_0:Find("starts/tpl")):align(arg_18_1:getStar())
 end
 
-function var_0_0.UpdateReturners(arg_18_0)
-	local var_18_0 = arg_18_0.returners
+function var_0_0.UpdateReturners(arg_20_0)
+	local var_20_0 = arg_20_0.returners
 
-	arg_18_0.returnerList:make(function(arg_19_0, arg_19_1, arg_19_2)
-		if arg_19_0 == UIItemList.EventUpdate then
-			local var_19_0 = var_18_0[arg_19_1 + 1]
+	arg_20_0.returnerList:make(function(arg_21_0, arg_21_1, arg_21_2)
+		if arg_21_0 == UIItemList.EventUpdate then
+			local var_21_0 = var_20_0[arg_21_1 + 1]
 
-			if var_19_0 then
-				local var_19_1 = var_19_0:getIcon()
-				local var_19_2 = Ship.New({
-					configId = var_19_1
+			if var_21_0 then
+				local var_21_1 = var_21_0:getIcon()
+				local var_21_2 = Ship.New({
+					configId = var_21_1
 				})
 
-				var_0_1(arg_19_2:Find("info/icon"), var_19_2)
-				setText(arg_19_2:Find("info/name"), var_19_0:getName())
-				setText(arg_19_2:Find("info/pt/Text"), var_19_0:getPt())
+				var_0_1(arg_21_2:Find("info/icon"), var_21_2)
+				setText(arg_21_2:Find("info/name"), var_21_0:getName())
+				setText(arg_21_2:Find("info/pt/Text"), var_21_0:getPt())
 			end
 
-			setActive(arg_19_2:Find("empty"), not var_19_0)
-			setActive(arg_19_2:Find("info"), var_19_0)
+			setActive(arg_21_2:Find("empty"), not var_21_0)
+			setActive(arg_21_2:Find("info"), var_21_0)
 		end
 	end)
-	arg_18_0.returnerList:align(2)
+	arg_20_0.returnerList:align(2)
 end
 
-function var_0_0.Dispose(arg_20_0)
-	pg.DelegateInfo.Dispose(arg_20_0)
+function var_0_0.Dispose(arg_22_0)
+	pg.DelegateInfo.Dispose(arg_22_0)
 
-	arg_20_0.bg.sprite = nil
+	arg_22_0.bg.sprite = nil
 end
 
 return var_0_0

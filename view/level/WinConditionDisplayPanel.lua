@@ -7,26 +7,26 @@ end
 function var_0_0.OnInit(arg_2_0)
 	arg_2_0.listTF = arg_2_0._tf:Find("window/bg/awards/awardList")
 	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
-	arg_2_0.winCondtitle = arg_2_0:findTF("window/bg/winCond/title/text")
+	arg_2_0.winCondtitle = arg_2_0._tf:Find("window/bg/winCond/title/text")
 
 	setText(arg_2_0.winCondtitle, i18n("text_win_condition"))
 
-	arg_2_0.winCondDesc = arg_2_0:findTF("window/bg/winCond/desc")
-	arg_2_0.loseCondtitle = arg_2_0:findTF("window/bg/loseCond/title/text")
+	arg_2_0.winCondDesc = arg_2_0._tf:Find("window/bg/winCond/desc")
+	arg_2_0.loseCondtitle = arg_2_0._tf:Find("window/bg/loseCond/title/text")
 
 	setText(arg_2_0.loseCondtitle, i18n("text_lose_condition"))
 
-	arg_2_0.loseCondDesc = arg_2_0:findTF("window/bg/loseCond/desc")
-	arg_2_0.rewardList = arg_2_0:findTF("window/bg/awards")
-	arg_2_0.rewardtip = arg_2_0:findTF("text", arg_2_0.rewardList)
+	arg_2_0.loseCondDesc = arg_2_0._tf:Find("window/bg/loseCond/desc")
+	arg_2_0.rewardList = arg_2_0._tf:Find("window/bg/awards")
+	arg_2_0.rewardtip = arg_2_0.rewardList:Find("text")
 
 	setText(arg_2_0.rewardtip, i18n("desc_defense_reward"))
 
-	arg_2_0.rewardWord = arg_2_0:findTF("desc", arg_2_0.rewardList)
+	arg_2_0.rewardWord = arg_2_0.rewardList:Find("desc")
 
 	setText(arg_2_0.rewardWord, i18n("word_reward"))
 
-	arg_2_0.rewardCond = arg_2_0:findTF("cond", arg_2_0.rewardList)
+	arg_2_0.rewardCond = arg_2_0.rewardList:Find("cond")
 
 	setText(arg_2_0.rewardCond, i18n("text_rest_HP"))
 	onButton(arg_2_0, arg_2_0._tf, function()

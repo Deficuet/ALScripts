@@ -20,6 +20,8 @@ function var_0_0.OnInit(arg_2_0)
 	arg_2_0:InitEvent()
 	setParent(arg_2_0.randomFlagToggle, arg_2_0._tf.parent)
 	setActive(arg_2_0.randomFlagToggle, true)
+	triggerToggle(arg_2_0.showQuickBtn, false)
+	triggerToggle(arg_2_0.showRecordBtn, false)
 end
 
 function var_0_0.InitDetail(arg_3_0)
@@ -52,7 +54,7 @@ function var_0_0.InitDetail(arg_3_0)
 	arg_3_0.commonTagToggle = arg_3_0.detailPanel:Find("common_toggle")
 	arg_3_0.spWeaponSlot = arg_3_0.equipments:Find("SpSlot")
 	arg_3_0.propertyIcons = arg_3_0.detailPanel:Find("attrs/attrs/property/icons")
-	arg_3_0.intimacyTF = arg_3_0:findTF("intimacy")
+	arg_3_0.intimacyTF = arg_3_0._tf:Find("intimacy")
 	arg_3_0.updateItemTick = 0
 	arg_3_0.quickPanel = arg_3_0.detailPanel:Find("quick_panel")
 	arg_3_0.equiping = arg_3_0.quickPanel:Find("equiping")
@@ -308,7 +310,7 @@ function var_0_0.InitEvent(arg_5_0)
 			end
 
 			setActive(findTF(tf(arg_28_1), "IconTpl/icon_bg/icon"), true)
-			updateEquipment(arg_5_0:findTF("IconTpl", tf(arg_28_1)), var_28_1)
+			updateEquipment(findTF(tf(arg_28_1), "IconTpl"), var_28_1)
 
 			if var_28_1.shipId then
 				local var_28_2 = getProxy(BayProxy):getShipById(var_28_1.shipId)
@@ -434,29 +436,26 @@ function var_0_0.GetShipVO(arg_37_0)
 end
 
 function var_0_0.OnSelected(arg_38_0, arg_38_1)
-	local var_38_0 = pg.UIMgr.GetInstance()
-
 	if arg_38_1 then
-		var_38_0:OverlayPanelPB(arg_38_0._parentTf, {
+		arg_38_0:OverlayPanel(arg_38_0._parentTf, {
 			pbList = {
 				arg_38_0.detailPanel:Find("attrs"),
 				arg_38_0.detailPanel:Find("equipments"),
 				arg_38_0.detailPanel:Find("quick_panel")
 			},
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
 			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
-		var_38_0:UnOverlayPanel(arg_38_0._parentTf, arg_38_0.mainPanel)
+		arg_38_0:UnOverlayPanel(arg_38_0._parentTf, arg_38_0.mainPanel)
 	end
 
 	arg_38_0.onSelected = arg_38_1
 
 	if arg_38_0.onSelected and arg_38_0.selectedEquip then
-		local var_38_1 = arg_38_0.selectedEquip.index
+		local var_38_0 = arg_38_0.selectedEquip.index
 
 		arg_38_0:selectedEquipItem(nil)
-		arg_38_0:selectedEquipItem(var_38_1)
+		arg_38_0:selectedEquipItem(var_38_0)
 	end
 end
 
@@ -528,7 +527,7 @@ function var_0_0.UpdateEquipments(arg_44_0, arg_44_1)
 			}
 
 			table.insert(arg_44_0.equipItems, var_44_4)
-			updateEquipment(arg_44_0:findTF("IconTpl", var_44_2), iter_44_1)
+			updateEquipment(var_44_2:Find("IconTpl"), iter_44_1)
 			onButton(arg_44_0, var_44_2, function()
 				if arg_44_0.isShowQuick then
 					arg_44_0:selectedEquipItem(var_44_3)
@@ -536,8 +535,7 @@ function var_0_0.UpdateEquipments(arg_44_0, arg_44_1)
 					arg_44_0:emit(BaseUI.ON_EQUIPMENT, {
 						type = EquipmentInfoMediator.TYPE_SHIP,
 						shipId = arg_44_0:GetShipVO().id,
-						pos = iter_44_0,
-						LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
+						pos = iter_44_0
 					})
 				end
 			end, SFX_UI_DOCKYARD_EQUIPADD)
@@ -859,7 +857,7 @@ function var_0_0.UpdateRecordEquipments(arg_70_0, arg_70_1)
 			local var_70_9 = not (var_70_8 and var_70_8.id == var_70_2 or false) and (not var_70_7 or not (var_70_7.count > 0))
 
 			setActive(var_70_6:Find("tip"), var_70_9)
-			updateEquipment(arg_70_0:findTF("IconTpl", var_70_6), Equipment.New({
+			updateEquipment(var_70_6:Find("IconTpl"), Equipment.New({
 				id = var_70_2
 			}))
 

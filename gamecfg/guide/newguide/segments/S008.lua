@@ -94,7 +94,7 @@ return {
 				text = var_0_0[5]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/ChapterPreCombatUI(Clone)/right/start",
+				path = "OverlayCamera/Overlay/UIMain/ChapterPreCombatUI(Clone)/adapt/right/start",
 				pathIndex = -1,
 				triggerType = {
 					1

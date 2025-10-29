@@ -22,20 +22,19 @@ function var_0_0.init(arg_3_0)
 		end
 	end
 
-	arg_3_0.btnBack = arg_3_0:findTF("adapt/top/title/back_button")
-	arg_3_0.rtRes = arg_3_0:findTF("adapt/middle/content/res")
-	arg_3_0.rtResetTime = arg_3_0:findTF("adapt/middle/content/resetTimer")
-	arg_3_0.rtResetTip = arg_3_0:findTF("adapt/middle/content/resetTip")
-	arg_3_0.rtShop = arg_3_0:findTF("adapt/middle/content/world_shop")
+	arg_3_0.btnBack = arg_3_0._tf:Find("adapt/top/title/back_button")
+	arg_3_0.rtRes = arg_3_0._tf:Find("adapt/middle/content/res")
+	arg_3_0.rtResetTime = arg_3_0._tf:Find("adapt/middle/content/resetTimer")
+	arg_3_0.rtResetTip = arg_3_0._tf:Find("adapt/middle/content/resetTip")
+	arg_3_0.rtShop = arg_3_0._tf:Find("adapt/middle/content/world_shop")
 	arg_3_0.goodsItemList = UIItemList.New(arg_3_0.rtShop:Find("content"), arg_3_0.rtShop:Find("content/item_tpl"))
 	arg_3_0.singleWindow = OriginShopSingleWindow.New(arg_3_0._tf, arg_3_0.event)
 	arg_3_0.multiWindow = OriginShopMultiWindow.New(arg_3_0._tf, arg_3_0.event)
+
+	arg_3_0:OverlayPanel(arg_3_0._tf)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0._tf, {
-		groupName = arg_5_0:getGroupNameFromData()
-	})
 	onButton(arg_5_0, arg_5_0.btnBack, function()
 		arg_5_0:closeView()
 	end, SFX_CANCEL)
@@ -51,7 +50,7 @@ function var_0_0.didEnter(arg_5_0)
 		if arg_8_0 == UIItemList.EventUpdate then
 			local var_8_1 = Goods.Create(arg_5_0.goodsList[var_8_0], Goods.TYPE_WORLD)
 
-			GoodsCard.New(arg_8_2):update(var_8_1)
+			WorldGoodsCard.New(arg_8_2):update(var_8_1)
 
 			local var_8_2 = var_8_1:getLimitCount()
 
@@ -122,7 +121,7 @@ function var_0_0.onBackPressed(arg_12_0)
 end
 
 function var_0_0.willExit(arg_13_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf)
+	arg_13_0:UnOverlayPanel(arg_13_0._tf)
 	arg_13_0:RemoveWorldListener()
 	arg_13_0.singleWindow:Destroy()
 	arg_13_0.multiWindow:Destroy()

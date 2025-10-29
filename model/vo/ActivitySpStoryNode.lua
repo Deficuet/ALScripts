@@ -5,6 +5,7 @@ function var_0_0.bindConfigTable(arg_1_0)
 end
 
 var_0_0.NODE_TYPE = {
+	UNRELEASED = 99,
 	STORY = 1,
 	BATTLE = 2
 }

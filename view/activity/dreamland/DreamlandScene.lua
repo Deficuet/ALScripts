@@ -47,12 +47,12 @@ end
 
 function var_0_0.init(arg_5_0)
 	arg_5_0.cg = GetOrAddComponent(arg_5_0._tf, typeof(CanvasGroup))
-	arg_5_0.themeContainer = arg_5_0:findTF("scrollrect/content")
-	arg_5_0.storyTpl = arg_5_0:findTF("scrollrect/content/story")
-	arg_5_0.storyTplSub = arg_5_0:findTF("scrollrect/content/story/tpl")
+	arg_5_0.themeContainer = arg_5_0._tf:Find("scrollrect/content")
+	arg_5_0.storyTpl = arg_5_0._tf:Find("scrollrect/content/story")
+	arg_5_0.storyTplSub = arg_5_0._tf:Find("scrollrect/content/story/tpl")
 	arg_5_0.storyTxt = arg_5_0.storyTpl:Find("tpl/Text"):GetComponent(typeof(Text))
-	arg_5_0.scrollContent = arg_5_0:findTF("scrollrect/content")
-	arg_5_0.scrollrectTr = arg_5_0:findTF("scrollrect")
+	arg_5_0.scrollContent = arg_5_0._tf:Find("scrollrect/content")
+	arg_5_0.scrollrectTr = arg_5_0._tf:Find("scrollrect")
 	arg_5_0.scrollrect = arg_5_0.scrollrectTr:GetComponent(typeof(ScrollRect))
 	arg_5_0.timeBtn = arg_5_0._tf:Find("adapt/time")
 	arg_5_0.maskTr = arg_5_0._tf:Find("mask")
@@ -67,7 +67,7 @@ function var_0_0.init(arg_5_0)
 		arg_5_0.handBookPage,
 		arg_5_0.hotSpringPage
 	}
-	arg_5_0.shipTpl = arg_5_0:findTF("root/ship")
+	arg_5_0.shipTpl = arg_5_0._tf:Find("root/ship")
 	arg_5_0.handbookTip = arg_5_0._tf:Find("adapt/handbook/tip")
 	arg_5_0.hotSpringTip = arg_5_0._tf:Find("adapt/hotspring/tip")
 end

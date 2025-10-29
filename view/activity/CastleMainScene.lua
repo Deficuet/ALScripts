@@ -68,26 +68,26 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.InitTF(arg_3_0)
-	arg_3_0.main = arg_3_0:findTF("main")
-	arg_3_0.map = arg_3_0:findTF("map", arg_3_0.main)
+	arg_3_0.main = arg_3_0._tf:Find("main")
+	arg_3_0.map = arg_3_0.main:Find("map")
 	arg_3_0.floors = {
-		arg_3_0:findTF("floor1", arg_3_0.map),
-		arg_3_0:findTF("floor2", arg_3_0.map)
+		arg_3_0.map:Find("floor1"),
+		arg_3_0.map:Find("floor2")
 	}
 	arg_3_0.rooms = {
-		arg_3_0:findTF("rooms", arg_3_0.floors[1]),
-		arg_3_0:findTF("rooms", arg_3_0.floors[2])
+		arg_3_0.floors[1]:Find("rooms"),
+		arg_3_0.floors[2]:Find("rooms")
 	}
-	arg_3_0.top = arg_3_0:findTF("top", arg_3_0.main)
-	arg_3_0.buttonBack = arg_3_0:findTF("btn_back", arg_3_0.top)
-	arg_3_0.buttonHelp = arg_3_0:findTF("btn_help", arg_3_0.top)
-	arg_3_0.buttonAward = arg_3_0:findTF("btn_award", arg_3_0.top)
-	arg_3_0.buttonCharacter = arg_3_0:findTF("btn_character", arg_3_0.top)
-	arg_3_0.buttonDice = arg_3_0:findTF("btn_dice", arg_3_0.top)
-	arg_3_0.diceRes = arg_3_0:findTF("dice_res", arg_3_0.buttonDice)
-	arg_3_0.button1F = arg_3_0:findTF("btn_1F", arg_3_0.top)
-	arg_3_0.button2F = arg_3_0:findTF("btn_2F", arg_3_0.top)
-	arg_3_0.window = arg_3_0:findTF("window")
+	arg_3_0.top = arg_3_0.main:Find("top")
+	arg_3_0.buttonBack = arg_3_0.top:Find("btn_back")
+	arg_3_0.buttonHelp = arg_3_0.top:Find("btn_help")
+	arg_3_0.buttonAward = arg_3_0.top:Find("btn_award")
+	arg_3_0.buttonCharacter = arg_3_0.top:Find("btn_character")
+	arg_3_0.buttonDice = arg_3_0.top:Find("btn_dice")
+	arg_3_0.diceRes = arg_3_0.buttonDice:Find("dice_res")
+	arg_3_0.button1F = arg_3_0.top:Find("btn_1F")
+	arg_3_0.button2F = arg_3_0.top:Find("btn_2F")
+	arg_3_0.window = arg_3_0._tf:Find("window")
 end
 
 function var_0_0.InitData(arg_4_0)
@@ -130,11 +130,11 @@ function var_0_0.InitData(arg_4_0)
 end
 
 function var_0_0.InitAward(arg_5_0)
-	arg_5_0.awardWindow = arg_5_0:findTF("award_window", arg_5_0.window)
-	arg_5_0.buttonAwardGet = arg_5_0:findTF("award_bg/btn_get", arg_5_0.awardWindow)
-	arg_5_0.awardWindowBg = arg_5_0:findTF("bg", arg_5_0.awardWindow)
-	arg_5_0.awardItem = arg_5_0:findTF("award_bg/mask/item", arg_5_0.awardWindow)
-	arg_5_0.awardItems = arg_5_0:findTF("award_bg/mask/content", arg_5_0.awardWindow)
+	arg_5_0.awardWindow = arg_5_0.window:Find("award_window")
+	arg_5_0.buttonAwardGet = arg_5_0.awardWindow:Find("award_bg/btn_get")
+	arg_5_0.awardWindowBg = arg_5_0.awardWindow:Find("bg")
+	arg_5_0.awardItem = arg_5_0.awardWindow:Find("award_bg/mask/item")
+	arg_5_0.awardItems = arg_5_0.awardWindow:Find("award_bg/mask/content")
 	arg_5_0.awardActivity = getProxy(ActivityProxy):getActivityById(var_0_0.AWARD_ACT_ID)
 	arg_5_0.taskProxy = getProxy(TaskProxy)
 	arg_5_0.taskGroup = arg_5_0.awardActivity:getConfig("config_data")
@@ -147,40 +147,40 @@ function var_0_0.InitAward(arg_5_0)
 end
 
 function var_0_0.InitDice(arg_6_0)
-	arg_6_0.diceWindow = arg_6_0:findTF("dice_window", arg_6_0.window)
-	arg_6_0.buttonDiceContinue = arg_6_0:findTF("btn_continue", arg_6_0.diceWindow)
-	arg_6_0.dice = arg_6_0:findTF("dice", arg_6_0.diceWindow)
+	arg_6_0.diceWindow = arg_6_0.window:Find("dice_window")
+	arg_6_0.buttonDiceContinue = arg_6_0.diceWindow:Find("btn_continue")
+	arg_6_0.dice = arg_6_0.diceWindow:Find("dice")
 	arg_6_0.dices = {
-		arg_6_0:findTF("dice1", arg_6_0.dice),
-		arg_6_0:findTF("dice2", arg_6_0.dice)
+		arg_6_0.dice:Find("dice1"),
+		arg_6_0.dice:Find("dice2")
 	}
-	arg_6_0.result = arg_6_0:findTF("result", arg_6_0.diceWindow)
-	arg_6_0.success = arg_6_0:findTF("success", arg_6_0.result)
-	arg_6_0.criticalSuccess = arg_6_0:findTF("critical_success", arg_6_0.result)
-	arg_6_0.failure = arg_6_0:findTF("failure", arg_6_0.result)
-	arg_6_0.criticalFailure = arg_6_0:findTF("critical_failure", arg_6_0.result)
+	arg_6_0.result = arg_6_0.diceWindow:Find("result")
+	arg_6_0.success = arg_6_0.result:Find("success")
+	arg_6_0.criticalSuccess = arg_6_0.result:Find("critical_success")
+	arg_6_0.failure = arg_6_0.result:Find("failure")
+	arg_6_0.criticalFailure = arg_6_0.result:Find("critical_failure")
 end
 
 function var_0_0.InitCharacter(arg_7_0)
-	arg_7_0.characterWindow = arg_7_0:findTF("character_window", arg_7_0.window)
-	arg_7_0.characterWindowBg = arg_7_0:findTF("bg", arg_7_0.characterWindow)
-	arg_7_0.characterCard = arg_7_0:findTF("character_card", arg_7_0.characterWindowBg)
-	arg_7_0.characterName = arg_7_0:findTF("title_base/name", arg_7_0.characterCard)
-	arg_7_0.profession = arg_7_0:findTF("title_base/profession", arg_7_0.characterCard)
-	arg_7_0.nameInput = arg_7_0:findTF("InputField", arg_7_0.characterName)
-	arg_7_0.attrGroup = arg_7_0:findTF("title_attr/attrGroup", arg_7_0.characterCard)
-	arg_7_0.skillGroup = arg_7_0:findTF("title_skill/skillGroup", arg_7_0.characterCard)
-	arg_7_0.characterTip = arg_7_0:findTF("tip", arg_7_0.characterCard)
+	arg_7_0.characterWindow = arg_7_0.window:Find("character_window")
+	arg_7_0.characterWindowBg = arg_7_0.characterWindow:Find("bg")
+	arg_7_0.characterCard = arg_7_0.characterWindowBg:Find("character_card")
+	arg_7_0.characterName = arg_7_0.characterCard:Find("title_base/name")
+	arg_7_0.profession = arg_7_0.characterCard:Find("title_base/profession")
+	arg_7_0.nameInput = arg_7_0.characterName:Find("InputField")
+	arg_7_0.attrGroup = arg_7_0.characterCard:Find("title_attr/attrGroup")
+	arg_7_0.skillGroup = arg_7_0.characterCard:Find("title_skill/skillGroup")
+	arg_7_0.characterTip = arg_7_0.characterCard:Find("tip")
 
 	setText(arg_7_0.characterTip, i18n("roll_unlock"))
 
-	arg_7_0.buttonRandom = arg_7_0:findTF("random", arg_7_0.characterCard)
-	arg_7_0.randomLock = arg_7_0:findTF("lock", arg_7_0.buttonRandom)
-	arg_7_0.randomText = arg_7_0:findTF("Image", arg_7_0.buttonRandom)
+	arg_7_0.buttonRandom = arg_7_0.characterCard:Find("random")
+	arg_7_0.randomLock = arg_7_0.buttonRandom:Find("lock")
+	arg_7_0.randomText = arg_7_0.buttonRandom:Find("Image")
 
-	setText(arg_7_0:findTF("title_base", arg_7_0.characterCard), i18n("roll_card_info"))
-	setText(arg_7_0:findTF("title_attr", arg_7_0.characterCard), i18n("roll_card_attr"))
-	setText(arg_7_0:findTF("title_skill", arg_7_0.characterCard), i18n("roll_card_skill"))
+	setText(arg_7_0.characterCard:Find("title_base"), i18n("roll_card_info"))
+	setText(arg_7_0.characterCard:Find("title_attr"), i18n("roll_card_attr"))
+	setText(arg_7_0.characterCard:Find("title_skill"), i18n("roll_card_skill"))
 
 	local var_7_0 = arg_7_0.activity:getConfig("config_client")[2]
 
@@ -337,7 +337,7 @@ function var_0_0.InitButton(arg_13_0)
 	end, SFX_PANEL)
 	onButton(arg_13_0, arg_13_0.characterWindowBg, function()
 		setActive(arg_13_0.characterWindow, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_13_0.characterCard, arg_13_0.characterWindowBg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0.characterCard, arg_13_0.characterWindowBg)
 		arg_13_0:UpdateFlush()
 		arg_13_0:CheckGuide()
 	end, SFX_CANCEL)
@@ -502,17 +502,17 @@ function var_0_0.UpdateCharacter(arg_33_0)
 
 	arg_33_0.nameInput:GetComponent(typeof(InputField)).interactable = arg_33_0:IsFinish()
 
-	setActive(arg_33_0:findTF("edit", arg_33_0.characterName), arg_33_0:IsFinish())
+	setActive(arg_33_0.characterName:Find("edit"), arg_33_0:IsFinish())
 end
 
 function var_0_0.UpdateTask(arg_34_0, arg_34_1, arg_34_2)
 	local var_34_0 = arg_34_0.taskMap[arg_34_1 + 1]
-	local var_34_1 = arg_34_0:findTF("IconTpl", arg_34_2)
+	local var_34_1 = arg_34_2:Find("IconTpl")
 	local var_34_2 = arg_34_0.taskGroup[var_34_0]
 	local var_34_3 = arg_34_0.taskProxy:getTaskVO(var_34_2)
 
 	assert(var_34_3, "without this task by id: " .. var_34_2)
-	setText(arg_34_0:findTF("title", arg_34_2), i18n("roll_reward_word" .. var_34_0))
+	setText(arg_34_2:Find("title"), i18n("roll_reward_word" .. var_34_0))
 
 	local var_34_4 = var_34_3:getConfig("award_display")[1]
 	local var_34_5 = {
@@ -529,9 +529,9 @@ function var_0_0.UpdateTask(arg_34_0, arg_34_1, arg_34_2)
 	local var_34_6 = var_34_3:getProgress()
 	local var_34_7 = var_34_3:getConfig("target_num")
 
-	setText(arg_34_0:findTF("progress", arg_34_2), i18n("roll_reward_tip", var_34_6, var_34_7))
-	setText(arg_34_0:findTF("mask/Text", arg_34_2), i18n("roll_reward_got"))
-	setActive(arg_34_0:findTF("mask", arg_34_2), var_34_3:isReceive())
+	setText(arg_34_2:Find("progress"), i18n("roll_reward_tip", var_34_6, var_34_7))
+	setText(arg_34_2:Find("mask/Text"), i18n("roll_reward_got"))
+	setActive(arg_34_2:Find("mask"), var_34_3:isReceive())
 end
 
 function var_0_0.UpdateAttrLock(arg_36_0)
@@ -1020,7 +1020,7 @@ end
 function var_0_0.willExit(arg_75_0)
 	if isActive(arg_75_0.characterWindow) then
 		setActive(arg_75_0.characterWindow, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_75_0.characterCard, arg_75_0.characterWindowBg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_75_0.characterCard, arg_75_0.characterWindowBg)
 	end
 
 	LeanTween.cancel(go(arg_75_0._tf))

@@ -5,10 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.content = arg_2_0:findTF("frame/border/tip"):GetComponent(typeof(Text))
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/queren")
-	arg_2_0.cancelBtn = arg_2_0:findTF("frame/cancel")
-	arg_2_0.inputField = arg_2_0:findTF("frame/name_field")
+	arg_2_0.content = arg_2_0._tf:Find("frame/border/tip"):GetComponent(typeof(Text))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/queren")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("frame/cancel")
+	arg_2_0.inputField = arg_2_0._tf:Find("frame/name_field")
 
 	setText(arg_2_0._tf:Find("frame/top/title_list/infomation/title"), i18n("change_player_name_title"))
 	setText(arg_2_0._tf:Find("frame/border/prompt"), i18n("change_player_name_subtitle"))

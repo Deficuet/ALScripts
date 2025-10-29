@@ -65,7 +65,7 @@ function var_0_0.register(arg_1_0)
 			mediator = BuildShipDetailMediator,
 			viewComponent = BuildShipDetailLayer,
 			data = {
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
+				groupName = arg_1_0.viewComponent:getGroupName()
 			}
 		}))
 	end)
@@ -108,7 +108,7 @@ function var_0_0.register(arg_1_0)
 			mediator = PrayPoolMediator,
 			viewComponent = PrayPoolScene,
 			data = {
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_BUILDSHIPSCENE
+				groupName = arg_1_0.viewComponent:getGroupName()
 			}
 		}))
 	end)

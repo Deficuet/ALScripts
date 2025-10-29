@@ -74,4 +74,10 @@ function var_0_0.UpdateGoodsCnt(arg_11_0, arg_11_1, arg_11_2)
 	arg_11_0:getGoodsById(arg_11_1):UpdateCnt(arg_11_2)
 end
 
+function var_0_0.GetResList(arg_12_0)
+	return {
+		8
+	}
+end
+
 return var_0_0

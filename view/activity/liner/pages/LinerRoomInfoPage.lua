@@ -31,23 +31,23 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.dotTF = arg_2_0:findTF("frame/bottom/name/Image")
-	arg_2_0.nameTF = arg_2_0:findTF("frame/bottom/name/Text")
-	arg_2_0.iconTF = arg_2_0:findTF("frame/bottom/icon/mask/Image")
-	arg_2_0.descTF = arg_2_0:findTF("frame/bottom/Text")
-	arg_2_0.nextTF = arg_2_0:findTF("frame/bottom/next")
+	arg_2_0.dotTF = arg_2_0._tf:Find("frame/bottom/name/Image")
+	arg_2_0.nameTF = arg_2_0._tf:Find("frame/bottom/name/Text")
+	arg_2_0.iconTF = arg_2_0._tf:Find("frame/bottom/icon/mask/Image")
+	arg_2_0.descTF = arg_2_0._tf:Find("frame/bottom/Text")
+	arg_2_0.nextTF = arg_2_0._tf:Find("frame/bottom/next")
 	arg_2_0.typewrite = GetComponent(arg_2_0.descTF, typeof(Typewriter))
 
 	arg_2_0.typewrite:setSpeed(var_0_0.TYPEWRITE_SPEED)
 
-	arg_2_0.optionsTF = arg_2_0:findTF("frame/options")
+	arg_2_0.optionsTF = arg_2_0._tf:Find("frame/options")
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("mask"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("mask"), function()
 		arg_3_0:OnClick()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("frame/bottom"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("frame/bottom"), function()
 		arg_3_0:OnClick()
 	end, SFX_PANEL)
 
@@ -71,7 +71,7 @@ function var_0_0.OnInit(arg_3_0)
 		arg_3_0.curIndex = arg_3_0.curIndex + 1
 	end
 
-	arg_3_0.optionsUIList = UIItemList.New(arg_3_0.optionsTF, arg_3_0:findTF("tpl", arg_3_0.optionsTF))
+	arg_3_0.optionsUIList = UIItemList.New(arg_3_0.optionsTF, arg_3_0.optionsTF:Find("tpl"))
 
 	arg_3_0.optionsUIList:make(function(arg_10_0, arg_10_1, arg_10_2)
 		if arg_10_0 == UIItemList.EventUpdate then

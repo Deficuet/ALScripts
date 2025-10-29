@@ -1,0 +1,303 @@
+local var_0_0 = class("IslandTopHeadHudView", import(".IslandBaseHudView"))
+
+function var_0_0.GetUIName(arg_1_0)
+	return "IslandTopHeadHudUI"
+end
+
+function var_0_0.GetHeadOffset(arg_2_0)
+	return Vector3(0, 1.8, 0)
+end
+
+function var_0_0.SubViewInit(arg_3_0)
+	table.insert(arg_3_0.views, IslandHudView.New(arg_3_0.view))
+end
+
+function var_0_0.OnInit(arg_4_0, arg_4_1)
+	arg_4_0.time = 0
+
+	local var_4_0 = arg_4_0._tf:GetComponent(typeof(ItemList))
+
+	arg_4_0.chatTpl = var_4_0.prefabItem[3]
+	arg_4_0.animationOpTpl = var_4_0.prefabItem[1]
+	arg_4_0.animationOpTpls = {}
+	arg_4_0.animationOpShowFlags = {}
+	arg_4_0.isResponeAnimationOp = {}
+	arg_4_0.bubblePlayers = {}
+	arg_4_0.chatPlayers = {}
+	arg_4_0.includePlayerStorys = {}
+	arg_4_0.animationOpShowDistance = pg.island_set.action_detection.key_value_int
+	arg_4_0.chatBubbleShowDistance = pg.island_set.island_message_bubble_range.key_value_int
+
+	var_0_0.super.OnInit(arg_4_0, arg_4_1)
+end
+
+function var_0_0.OnLateUpdate(arg_5_0)
+	var_0_0.super.OnLateUpdate(arg_5_0)
+
+	arg_5_0.time = arg_5_0.time + Time.deltaTime
+
+	if arg_5_0.time > 1 then
+		arg_5_0.time = 0
+
+		local var_5_0 = arg_5_0:GetView().player
+
+		if var_5_0 then
+			arg_5_0:CheckAnimationOpDistance(var_5_0)
+			arg_5_0:CheckChatBubbleDistance(var_5_0)
+		end
+	end
+end
+
+function var_0_0.CheckAnimationOpDistance(arg_6_0, arg_6_1)
+	for iter_6_0, iter_6_1 in pairs(arg_6_0.animationOpShowFlags) do
+		local var_6_0 = arg_6_0.animationOpTpls[iter_6_0]
+		local var_6_1 = arg_6_0:UnitKey2unitData(iter_6_0)
+		local var_6_2 = arg_6_0:GetView():GetUnitModuleWithType(var_6_1.type, var_6_1.id)
+
+		if var_6_2 then
+			local var_6_3 = Vector3.Distance(arg_6_1._go.transform.position, var_6_2._go.transform.position) <= arg_6_0.animationOpShowDistance
+			local var_6_4 = isActive(var_6_0)
+
+			setActive(var_6_0, var_6_3)
+
+			if var_6_3 then
+				arg_6_0:PlayAnimationOpEffect(iter_6_0, var_6_4, iter_6_1, var_6_0)
+			end
+		end
+	end
+end
+
+function var_0_0.PlayAnimationOpEffect(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
+	if arg_7_0.animationOpShowFlags[arg_7_1] then
+		arg_7_0.animationOpShowFlags[arg_7_1] = true
+	end
+
+	local var_7_0 = arg_7_4.transform:Find("tpl")
+	local var_7_1 = var_7_0:GetComponent(typeof(Animation))
+	local var_7_2 = var_7_0:GetComponent(typeof(DftAniEvent))
+
+	if not arg_7_3 and not arg_7_2 then
+		var_7_2:SetEndEvent(nil)
+		var_7_2:SetEndEvent(function()
+			var_7_2:SetEndEvent(nil)
+			var_7_1:Play("anim_IslandAnimationOpTpl_loadingcallback")
+		end)
+		var_7_1:Play("anim_IslandAnimationOpTpl_In")
+	elseif not arg_7_2 then
+		var_7_2:SetEndEvent(nil)
+		var_7_1:Play("anim_IslandAnimationOpTpl_loadingcallback")
+	end
+end
+
+function var_0_0.CheckChatBubbleDistance(arg_9_0, arg_9_1)
+	for iter_9_0, iter_9_1 in pairs(arg_9_0.chatPlayers) do
+		if iter_9_1:IsPlaying() then
+			local var_9_0 = arg_9_1.role
+
+			if var_9_0 then
+				local var_9_1 = Vector3.Distance(arg_9_1._go.transform.position, var_9_0._go.transform.position) <= arg_9_0.chatBubbleShowDistance
+
+				iter_9_1:SetShowFlag(var_9_1)
+			end
+		end
+	end
+end
+
+function var_0_0.CheckPlayerStory(arg_10_0, arg_10_1)
+	return arg_10_1 == arg_10_0:GetView().player and #arg_10_0.includePlayerStorys > 0
+end
+
+function var_0_0.PlayChat(arg_11_0, arg_11_1, arg_11_2, arg_11_3, arg_11_4)
+	if arg_11_0:CheckPlayerStory() then
+		return
+	end
+
+	local var_11_0 = arg_11_0:GenUnitData(arg_11_1.id, arg_11_1.unitType)
+
+	if arg_11_0.chatPlayers[var_11_0.key] and arg_11_0.chatPlayers[var_11_0.key]:IsPlaying() then
+		arg_11_0.chatPlayers[var_11_0.key]:Stop()
+	end
+
+	local var_11_1 = arg_11_0:GetUnitHudRoot(var_11_0):Find("chatContainer")
+	local var_11_2 = arg_11_0.chatPlayers[var_11_0.key] or IslandChatBubblePlayer.New(Object.Instantiate(arg_11_0.chatTpl, var_11_1), arg_11_1._go)
+	local var_11_3 = BubbleStep.New({
+		say = arg_11_3,
+		emoji = arg_11_2
+	})
+
+	var_11_2:Play(var_11_3, arg_11_4)
+
+	arg_11_0.chatPlayers[var_11_0.key] = var_11_2
+end
+
+function var_0_0.TryHidePlayerChat(arg_12_0)
+	local var_12_0 = arg_12_0:GetView().player
+	local var_12_1 = arg_12_0:GenUnitData(var_12_0.id, var_12_0.unitType)
+	local var_12_2 = arg_12_0.chatPlayers[var_12_1.key]
+
+	if var_12_2 and var_12_2:IsPlaying() then
+		var_12_2:Stop()
+	end
+end
+
+function var_0_0.PlayBubble(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
+	local var_13_0 = pg.NewStoryMgr.GetInstance():GetScript(arg_13_1)
+	local var_13_1 = IslandStory.New(var_13_0, arg_13_2, IslandStory.MODE_BUBBLE)
+
+	arg_13_0:TryHidePlayerChat()
+
+	if var_13_1:ContainerPlayer() then
+		table.insert(arg_13_0.includePlayerStorys, arg_13_1)
+	end
+
+	local var_13_2 = {}
+
+	for iter_13_0, iter_13_1 in ipairs(var_13_1.steps) do
+		local var_13_3 = iter_13_1:GetUnitData()
+		local var_13_4 = arg_13_0:GetUnitHudRoot(var_13_3):Find("bubleContainer")
+		local var_13_5 = arg_13_0:GetView():GetUnitModuleWithType(var_13_3.type, var_13_3.id)
+
+		assert(var_13_5)
+		table.insert(var_13_2, function(arg_14_0)
+			local var_14_0 = arg_13_0.bubblePlayers[var_13_3.key] or IslandChatBubblePlayer.New(Object.Instantiate(arg_13_0.chatTpl, var_13_4), var_13_5._go)
+
+			var_14_0:Play(iter_13_1, arg_13_3)
+
+			arg_13_0.bubblePlayers[var_13_3.key] = var_14_0
+		end)
+	end
+
+	seriesAsync(var_13_2, function()
+		table.removebyvalue(arg_13_0.includePlayerStorys, arg_13_1)
+
+		if arg_13_3 then
+			arg_13_3()
+		end
+	end)
+end
+
+function var_0_0.ShowAnimationOp(arg_16_0, arg_16_1, arg_16_2)
+	local var_16_0 = arg_16_0:GenUnitData(arg_16_1.id, arg_16_1.unitType)
+	local var_16_1 = arg_16_0:GetUnitHudRoot(var_16_0):Find("aniamtionOpContainer")
+	local var_16_2 = arg_16_0.animationOpTpls[var_16_0.key] or Object.Instantiate(arg_16_0.animationOpTpl, var_16_1)
+
+	setParent(var_16_2, var_16_1)
+	setActive(var_16_2, false)
+
+	arg_16_0.animationOpTpls[var_16_0.key] = var_16_2
+
+	onButton(arg_16_0, var_16_2, function()
+		if not arg_16_0:CanReponseAnimationOp(arg_16_1, arg_16_2) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_position_cant_response_cp_action"))
+
+			return
+		end
+
+		arg_16_0.isResponeAnimationOp[var_16_0.key] = true
+
+		arg_16_0:NotifiyMeditor(IslandBaseMediator.ANIMATION_OP, arg_16_1.id, arg_16_2)
+	end, SFX_PANEL)
+
+	arg_16_0.animationOpShowFlags[var_16_0.key] = false
+end
+
+function var_0_0.CanReponseAnimationOp(arg_18_0, arg_18_1, arg_18_2)
+	local var_18_0 = arg_18_0:GetView().player
+	local var_18_1 = pg.island_action[arg_18_2]
+	local var_18_2 = BuildVector3(var_18_1.respond_point).magnitude
+
+	return IslandCalcUtil.CanReachPoint(var_18_0._go.transform.position, var_18_2, arg_18_1.agent, arg_18_1._tf.position, 36)
+end
+
+function var_0_0.HideAnimationOp(arg_19_0, arg_19_1)
+	local var_19_0 = arg_19_0:GenUnitData(arg_19_1.id, arg_19_1.unitType)
+
+	if arg_19_0.animationOpShowFlags[var_19_0.key] == nil then
+		return
+	end
+
+	arg_19_0.animationOpShowFlags[var_19_0.key] = nil
+
+	local var_19_1 = arg_19_0.animationOpTpls[var_19_0.key]
+
+	if not var_19_1 then
+		return
+	end
+
+	local var_19_2 = var_19_1.transform:Find("tpl")
+	local var_19_3 = var_19_2:GetComponent(typeof(DftAniEvent))
+	local var_19_4 = var_19_2:GetComponent(typeof(Animation))
+
+	var_19_3:SetEndEvent(nil)
+	var_19_3:SetEndEvent(function()
+		var_19_3:SetEndEvent(nil)
+		setActive(var_19_1, false)
+		removeOnButton(var_19_1)
+	end)
+
+	if arg_19_0.isResponeAnimationOp[var_19_0.key] then
+		var_19_4:Play("anim_IslandAnimationOpTpl_callback")
+	else
+		var_19_4:Play("anim_IslandAnimationOpTpl_Out")
+	end
+
+	arg_19_0.isResponeAnimationOp[var_19_0.key] = nil
+end
+
+function var_0_0.ShowHud(arg_21_0, arg_21_1)
+	local var_21_0 = IslandHudView.LuaName2ContainerName[arg_21_1.uiLuaName]
+	local var_21_1 = arg_21_0:GetUnitHudRoot(arg_21_0:GenUnitData(arg_21_1.id, arg_21_1.type)):Find(var_21_0)
+
+	arg_21_0:GetSubView(IslandHudView):ShowHud(arg_21_1, var_21_1)
+end
+
+function var_0_0.RefreshHud(arg_22_0, arg_22_1)
+	local var_22_0 = IslandHudView.LuaName2ContainerName[arg_22_1.uiLuaName]
+	local var_22_1 = arg_22_0:GetUnitHudRoot(arg_22_0:GenUnitData(arg_22_1.id, arg_22_1.type)):Find(var_22_0)
+
+	arg_22_0:GetSubView(IslandHudView):RefreshHud(arg_22_1, var_22_1)
+end
+
+function var_0_0.HideHud(arg_23_0, arg_23_1)
+	arg_23_0:GetSubView(IslandHudView):HideHud(arg_23_1)
+end
+
+function var_0_0.UpdateAllHud(arg_24_0)
+	arg_24_0:GetSubView(IslandHudView):UpdateAllHud()
+end
+
+function var_0_0.OnDispose(arg_25_0)
+	var_0_0.super.OnDispose(arg_25_0)
+
+	for iter_25_0, iter_25_1 in ipairs(arg_25_0.views) do
+		iter_25_1:Dispose()
+	end
+
+	for iter_25_2, iter_25_3 in pairs(arg_25_0.bubblePlayers) do
+		iter_25_3:Dispose()
+	end
+
+	for iter_25_4, iter_25_5 in ipairs(arg_25_0.views) do
+		iter_25_5:Dispose()
+	end
+
+	arg_25_0.bubblePlayers = nil
+
+	for iter_25_6, iter_25_7 in pairs(arg_25_0.chatPlayers) do
+		iter_25_7:Dispose()
+	end
+
+	arg_25_0.chatPlayers = nil
+
+	for iter_25_8, iter_25_9 in pairs(arg_25_0.animationOpTpls) do
+		iter_25_9.transform:Find("tpl"):GetComponent(typeof(DftAniEvent)):SetEndEvent(nil)
+		Object.Destroy(iter_25_9)
+	end
+
+	arg_25_0.animationOpTpls = nil
+	arg_25_0.animationOpShowFlags = nil
+	arg_25_0.includePlayerStorys = nil
+	arg_25_0.isResponeAnimationOp = nil
+end
+
+return var_0_0

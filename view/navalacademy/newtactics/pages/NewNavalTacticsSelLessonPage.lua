@@ -5,24 +5,24 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.skillPanel = arg_2_0:findTF("skill")
-	arg_2_0.cancelBtn = arg_2_0:findTF("cancel_btn")
-	arg_2_0.confirmBtn = arg_2_0:findTF("confirm_btn")
-	arg_2_0.toggleGroup = arg_2_0:findTF("items"):GetComponent(typeof(ToggleGroup))
-	arg_2_0.lessonNameTxt = arg_2_0:findTF("introl/name"):GetComponent(typeof(Text))
-	arg_2_0.lessonDescTxt = arg_2_0:findTF("introl/desc"):GetComponent(typeof(Text))
-	arg_2_0.lessonExpTxt = arg_2_0:findTF("introl/exp_Text"):GetComponent(typeof(Text))
-	arg_2_0.lessonTimeTxt = arg_2_0:findTF("introl/timer_Text"):GetComponent(typeof(Text))
-	arg_2_0.skillCard = NewNavalTacticsAdditionSkillCard.New(arg_2_0:findTF("skill/info"))
+	arg_2_0.skillPanel = arg_2_0._tf:Find("skill")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("cancel_btn")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("confirm_btn")
+	arg_2_0.toggleGroup = arg_2_0._tf:Find("items"):GetComponent(typeof(ToggleGroup))
+	arg_2_0.lessonNameTxt = arg_2_0._tf:Find("introl/name"):GetComponent(typeof(Text))
+	arg_2_0.lessonDescTxt = arg_2_0._tf:Find("introl/desc"):GetComponent(typeof(Text))
+	arg_2_0.lessonExpTxt = arg_2_0._tf:Find("introl/exp_Text"):GetComponent(typeof(Text))
+	arg_2_0.lessonTimeTxt = arg_2_0._tf:Find("introl/timer_Text"):GetComponent(typeof(Text))
+	arg_2_0.skillCard = NewNavalTacticsAdditionSkillCard.New(arg_2_0._tf:Find("skill/info"))
 	arg_2_0.itemTpls = {
-		arg_2_0:findTF("items/scorll/content/item")
+		arg_2_0._tf:Find("items/scorll/content/item")
 	}
 	arg_2_0.startPos = arg_2_0.itemTpls[1].anchoredPosition
 	arg_2_0.space = Vector2(60, 30)
 	arg_2_0.cloumnCnt = 6
 
-	setText(arg_2_0:findTF("introl/exp_label"), i18n("tactics_class_get_exp"))
-	setText(arg_2_0:findTF("introl/timer_label"), i18n("tactics_class_spend_time"))
+	setText(arg_2_0._tf:Find("introl/exp_label"), i18n("tactics_class_get_exp"))
+	setText(arg_2_0._tf:Find("introl/timer_label"), i18n("tactics_class_spend_time"))
 	setText(arg_2_0.confirmBtn:Find("Image"), i18n("tactics_class_start"))
 	setText(arg_2_0.cancelBtn:Find("Image"), i18n("tactics_class_cancel"))
 end
@@ -78,7 +78,7 @@ end
 
 function var_0_0.Hide(arg_10_0)
 	var_0_0.super.Hide(arg_10_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, pg.UIMgr.GetInstance().UIMain)
 
 	if arg_10_0.hideCallback then
 		arg_10_0.hideCallback()

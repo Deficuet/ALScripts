@@ -39,14 +39,12 @@ function var_0_0.didEnter(arg_3_0)
 		end)
 		setText(arg_7_2:Find("Text"), var_7_0.count)
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.willExit(arg_9_0)
 	arg_9_0.loader:Clear()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_9_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf)
 end
 
 return var_0_0

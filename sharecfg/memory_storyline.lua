@@ -2252,7 +2252,6 @@ pg.memory_storyline = {
 		name = "高い塔の薔薇",
 		world_id = "",
 		memory_lock = 0,
-		link_event = "",
 		column = 54,
 		bgm = "theme-glorious-meta",
 		row = 0,
@@ -2267,7 +2266,76 @@ pg.memory_storyline = {
 		shipnation = {
 			2,
 			97
+		},
+		link_event = {
+			89
 		}
+	},
+	{
+		description = "祝砲も音楽隊も準備よし……\n じゃあ、リハーサルを始めるわよ……\n 指揮官、ようこそ重桜へ！",
+		name = "重桜の招待",
+		world_id = "",
+		memory_lock = 0,
+		column = 55,
+		bgm = "story-newsakura",
+		row = -1,
+		chapter = 4,
+		id = 89,
+		icon = "ChapterFour_8",
+		sort = 1,
+		memory_id = {
+			1,
+			338
+		},
+		shipnation = {
+			3
+		},
+		link_event = {
+			90
+		}
+	},
+	{
+		description = "「天域は外域の屏なり。アマハラは天域に因りて定まる。たとえ地崩れ山潰え、浩劫来たるとも――天域アマハラ、永存を要す」",
+		name = "アマハラに舞い奉れ",
+		world_id = "",
+		memory_lock = 0,
+		column = 55,
+		bgm = "story-amahara-stage1",
+		row = 0,
+		chapter = 4,
+		id = 90,
+		icon = "ChapterFour_9",
+		sort = 1,
+		memory_id = {
+			1,
+			339
+		},
+		shipnation = {
+			1,
+			3,
+			97
+		},
+		link_event = {
+			88,
+			89,
+			91
+		}
+	},
+	{
+		description = "敬请期待",
+		name = "敬请期待",
+		column = 56,
+		memory_id = "",
+		link_event = "",
+		shipnation = 0,
+		world_id = "",
+		bgm = "",
+		row = 0,
+		chapter = 4,
+		memory_lock = 1,
+		id = 91,
+		icon = "",
+		sort = 0
 	},
 	all = {
 		1,
@@ -2357,6 +2425,9 @@ pg.memory_storyline = {
 		85,
 		86,
 		87,
-		88
+		88,
+		89,
+		90,
+		91
 	}
 }

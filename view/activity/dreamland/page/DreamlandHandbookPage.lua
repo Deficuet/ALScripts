@@ -7,10 +7,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.closeBtn = arg_2_0:findTF("bg/close")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("bg/close")
 	arg_2_0.tags = {
-		[var_0_1] = arg_2_0:findTF("bg/tags/area"),
-		[var_0_2] = arg_2_0:findTF("bg/tags/ex")
+		[var_0_1] = arg_2_0._tf:Find("bg/tags/area"),
+		[var_0_2] = arg_2_0._tf:Find("bg/tags/ex")
 	}
 	arg_2_0.tagTip = {}
 
@@ -18,28 +18,28 @@ function var_0_0.OnLoaded(arg_2_0)
 		arg_2_0.tagTip[iter_2_0] = iter_2_1:Find("tip")
 	end
 
-	arg_2_0.mapContent = arg_2_0:findTF("bg/area/content")
-	arg_2_0.mapNameTxt = arg_2_0:findTF("bg/area/content/name"):GetComponent(typeof(Text))
-	arg_2_0.mapDescTxt = arg_2_0:findTF("bg/area/content/scrollrect/desc"):GetComponent(typeof(Text))
-	arg_2_0.mapGoBtn = arg_2_0:findTF("bg/area/content/btn_go")
-	arg_2_0.mapGetBtn = arg_2_0:findTF("bg/area/content/btn_get")
-	arg_2_0.mapGotBtn = arg_2_0:findTF("bg/area/content/btn_got")
-	arg_2_0.mapAwardList = UIItemList.New(arg_2_0:findTF("bg/area/content/awards/list"), arg_2_0:findTF("bg/area/content/awards/list/award"))
-	arg_2_0.lineUIList = UIItemList.New(arg_2_0:findTF("bg/area/content/scrollrect/desc/lines"), arg_2_0:findTF("bg/area/content/scrollrect/desc/lines/tpl"))
-	arg_2_0.exGoBtn = arg_2_0:findTF("bg/ex/content/btn_go")
-	arg_2_0.exGetBtn = arg_2_0:findTF("bg/ex/content/btn_get")
-	arg_2_0.exGotBtn = arg_2_0:findTF("bg/ex/content/btn_got")
-	arg_2_0.exAwardList = UIItemList.New(arg_2_0:findTF("bg/ex/content/awards/list"), arg_2_0:findTF("bg/ex/content/awards/list/award"))
-	arg_2_0.exContentList = UIItemList.New(arg_2_0:findTF("bg/ex/content/scrollrect/content"), arg_2_0:findTF("bg/ex/content/scrollrect/content/tpl"))
-	arg_2_0.exContent = arg_2_0:findTF("bg/ex/content")
-	arg_2_0.areaList = UIItemList.New(arg_2_0:findTF("bg/area/list"), arg_2_0:findTF("bg/area/list/1"))
-	arg_2_0.exploreList = UIItemList.New(arg_2_0:findTF("bg/ex/list"), arg_2_0:findTF("bg/ex/list/tpl"))
+	arg_2_0.mapContent = arg_2_0._tf:Find("bg/area/content")
+	arg_2_0.mapNameTxt = arg_2_0._tf:Find("bg/area/content/name"):GetComponent(typeof(Text))
+	arg_2_0.mapDescTxt = arg_2_0._tf:Find("bg/area/content/scrollrect/desc"):GetComponent(typeof(Text))
+	arg_2_0.mapGoBtn = arg_2_0._tf:Find("bg/area/content/btn_go")
+	arg_2_0.mapGetBtn = arg_2_0._tf:Find("bg/area/content/btn_get")
+	arg_2_0.mapGotBtn = arg_2_0._tf:Find("bg/area/content/btn_got")
+	arg_2_0.mapAwardList = UIItemList.New(arg_2_0._tf:Find("bg/area/content/awards/list"), arg_2_0._tf:Find("bg/area/content/awards/list/award"))
+	arg_2_0.lineUIList = UIItemList.New(arg_2_0._tf:Find("bg/area/content/scrollrect/desc/lines"), arg_2_0._tf:Find("bg/area/content/scrollrect/desc/lines/tpl"))
+	arg_2_0.exGoBtn = arg_2_0._tf:Find("bg/ex/content/btn_go")
+	arg_2_0.exGetBtn = arg_2_0._tf:Find("bg/ex/content/btn_get")
+	arg_2_0.exGotBtn = arg_2_0._tf:Find("bg/ex/content/btn_got")
+	arg_2_0.exAwardList = UIItemList.New(arg_2_0._tf:Find("bg/ex/content/awards/list"), arg_2_0._tf:Find("bg/ex/content/awards/list/award"))
+	arg_2_0.exContentList = UIItemList.New(arg_2_0._tf:Find("bg/ex/content/scrollrect/content"), arg_2_0._tf:Find("bg/ex/content/scrollrect/content/tpl"))
+	arg_2_0.exContent = arg_2_0._tf:Find("bg/ex/content")
+	arg_2_0.areaList = UIItemList.New(arg_2_0._tf:Find("bg/area/list"), arg_2_0._tf:Find("bg/area/list/1"))
+	arg_2_0.exploreList = UIItemList.New(arg_2_0._tf:Find("bg/ex/list"), arg_2_0._tf:Find("bg/ex/list/tpl"))
 
-	setText(arg_2_0:findTF("bg/tags/area/Text"), i18n("dreamland_label_area"))
-	setText(arg_2_0:findTF("bg/tags/ex/Text"), i18n("dreamland_label_explore"))
-	setText(arg_2_0:findTF("bg/ex/content/award_desc"), i18n("dreamland_label_explore_award_tip"))
+	setText(arg_2_0._tf:Find("bg/tags/area/Text"), i18n("dreamland_label_area"))
+	setText(arg_2_0._tf:Find("bg/tags/ex/Text"), i18n("dreamland_label_explore"))
+	setText(arg_2_0._tf:Find("bg/ex/content/award_desc"), i18n("dreamland_label_explore_award_tip"))
 
-	arg_2_0.tipTr = arg_2_0:findTF("tip")
+	arg_2_0.tipTr = arg_2_0._tf:Find("tip")
 	arg_2_0.tipTxt = arg_2_0.tipTr:Find("Text"):GetComponent(typeof(Text))
 end
 
@@ -111,7 +111,7 @@ end
 function var_0_0.Hide(arg_12_0)
 	var_0_0.super.Hide(arg_12_0)
 	arg_12_0:RemoveHideTimer()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_12_0._tf, arg_12_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf, arg_12_0._parentTf)
 end
 
 function var_0_0.SwitchPage(arg_13_0, arg_13_1)

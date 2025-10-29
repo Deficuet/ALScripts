@@ -66,7 +66,7 @@ pg.ship_data_create_material = {
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
-		build_anim = "building_yumia",
+		build_anim = "building",
 		number_1 = 2,
 		id = 4,
 		icon = "build_4",
@@ -76,13 +76,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>ユミア・リースフェルト</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>クレマンソー</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>ニーナ・フリーデ</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>ギシャン</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>レイニャ</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>パンルヴェ</color>：0.5%",
 			" ",
-			"<color=#ffde38>アイラ・フォン・デューラー</color>：0.5%"
+			"<color=#d797ff>リヨン</color>：2.5%<color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#d797ff>シュフラン</color>：2.5%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{
@@ -92,7 +94,7 @@ pg.ship_data_create_material = {
 		type = 2,
 		ship_icon = "1",
 		build_voice = "",
-		build_anim = "building_laisha",
+		build_anim = "building",
 		number_1 = 2,
 		id = 5,
 		icon = "build_5",
@@ -200,13 +202,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：28.8%",
 			" ",
-			"<color=#ff5e39>ビスマルクZwei</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>白鳳</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>レーゲンスブルク</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>近江</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>オットー·フォン·アルフェンスレーベン</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>浅間</color>：0.5%",
 			" ",
-			"<color=#ffde38>U-556(META)</color>：0.5%"
+			"<color=#d797ff>水無瀬</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

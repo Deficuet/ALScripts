@@ -1,5 +1,31 @@
 pg = pg or {}
 pg.enemy_data_statistics_41 = {
+	[914] = {
+		cannon = 40,
+		name = "スマッシャーⅠ型",
+		reload = 150,
+		fog_fx = "",
+		base = 90251,
+		air = 0,
+		battle_unit_type = 54,
+		dodge = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 0,
+		torpedo = 0,
+		durability = 30000,
+		antiaircraft = 360,
+		speed = 20,
+		armor = 0,
+		id = 914,
+		equipment_list = {
+			531013,
+			531014,
+			531015,
+			531016,
+			531017
+		}
+	},
 	[915] = {
 		cannon = 0,
 		name = "コンダクターⅠ型",

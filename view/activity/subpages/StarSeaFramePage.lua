@@ -8,8 +8,8 @@ function var_0_0.OnFirstFlush(arg_1_0)
 	end
 
 	var_0_0.super.OnFirstFlush(arg_1_0)
-	GetComponent(arg_1_0:findTF("AD/switcher/phase2/Image"), typeof(Image)):SetNativeSize()
-	GetComponent(arg_1_0:findTF("AD/switcher/phase1/Image"), typeof(Image)):SetNativeSize()
+	GetComponent(arg_1_0._tf:Find("AD/switcher/phase2/Image"), typeof(Image)):SetNativeSize()
+	GetComponent(arg_1_0._tf:Find("AD/switcher/phase1/Image"), typeof(Image)):SetNativeSize()
 end
 
 function var_0_0.Switch(arg_2_0, arg_2_1)

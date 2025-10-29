@@ -20,23 +20,17 @@ end
 
 function table.removebyvalue(arg_3_0, arg_3_1, arg_3_2)
 	local var_3_0 = 0
-	local var_3_1 = 1
-	local var_3_2 = #arg_3_0
 
-	while var_3_1 <= var_3_2 do
-		if arg_3_0[var_3_1] == arg_3_1 then
-			table.remove(arg_3_0, var_3_1)
+	for iter_3_0 = #arg_3_0, 1, -1 do
+		if arg_3_0[iter_3_0] == arg_3_1 then
+			table.remove(arg_3_0, iter_3_0)
 
 			var_3_0 = var_3_0 + 1
-			var_3_1 = var_3_1 - 1
-			var_3_2 = var_3_2 - 1
 
 			if not arg_3_2 then
 				break
 			end
 		end
-
-		var_3_1 = var_3_1 + 1
 	end
 
 	return var_3_0
@@ -62,6 +56,8 @@ function table.insertto(arg_5_0, arg_5_1, arg_5_2)
 	for iter_5_0 = 0, var_5_0 - 1 do
 		arg_5_0[iter_5_0 + arg_5_2] = arg_5_1[iter_5_0 + 1]
 	end
+
+	return arg_5_0
 end
 
 function table.isEmpty(arg_6_0)

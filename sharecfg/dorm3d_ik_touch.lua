@@ -7,6 +7,7 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 1002101,
 		scene_item = "",
+		tip_offset = "",
 		vibrate = {
 			{
 				100,
@@ -21,6 +22,7 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 1003101,
 		scene_item = "",
+		tip_offset = "",
 		vibrate = {
 			{
 				100,
@@ -35,6 +37,7 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 1001301,
 		scene_item = "",
+		tip_offset = "",
 		vibrate = {
 			{
 				100,
@@ -49,6 +52,7 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 1001302,
 		scene_item = "",
+		tip_offset = "",
 		vibrate = {
 			{
 				100,
@@ -63,6 +67,7 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 1004101,
 		scene_item = "",
+		tip_offset = "",
 		vibrate = {
 			{
 				100,
@@ -77,6 +82,7 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 1007101,
 		scene_item = "",
+		tip_offset = "",
 		vibrate = {
 			{
 				100,
@@ -91,7 +97,8 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 1002801,
 		scene_item = "FurnitureSlots/100301/pre_db_sp_sh_xmas01(Clone)/pre_db_sp_sh_xmas_decoration02",
-		vibrate = ""
+		vibrate = "",
+		tip_offset = ""
 	},
 	[2002501] = {
 		ik_move = "",
@@ -100,7 +107,8 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 2002501,
 		scene_item = "FurnitureSlots/120303/pre_db_nh_sp_nyd_livingroom01(Clone)/pre_db_nh_sp_nyd_decoration02",
-		vibrate = ""
+		vibrate = "",
+		tip_offset = ""
 	},
 	[2002502] = {
 		ik_move = "",
@@ -109,7 +117,8 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 2002502,
 		scene_item = "FurnitureSlots/120303/pre_db_nh_sp_nyd_livingroom01(Clone)/pre_db_nh_sp_nyd_table/all/pre_db_nh_sp_nyd_food01a",
-		vibrate = ""
+		vibrate = "",
+		tip_offset = ""
 	},
 	[3003321] = {
 		ik_move = "",
@@ -118,6 +127,7 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 3003321,
 		scene_item = "",
+		tip_offset = "",
 		vibrate = {
 			{
 				100,
@@ -132,6 +142,7 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 3003322,
 		scene_item = "",
+		tip_offset = "",
 		vibrate = {
 			{
 				100,
@@ -146,6 +157,91 @@ pg.dorm3d_ik_touch = {
 		action_emote = "",
 		id = 3003323,
 		scene_item = "",
+		tip_offset = "",
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
+	},
+	[3003324] = {
+		ik_move = "",
+		char_id = 19903,
+		body = "",
+		action_emote = "",
+		id = 3003324,
+		scene_item = "FurnitureSlots/130302/pre_db_ah_livingroom01(Clone)/all/pre_db_ah_toy06",
+		vibrate = "",
+		tip_offset = {
+			0,
+			0
+		}
+	},
+	[5004001] = {
+		ik_move = "",
+		char_id = 30707,
+		body = "",
+		action_emote = "",
+		id = 5004001,
+		scene_item = "FurnitureSlots/1120103/pre_db_df_bedroom_01(Clone)/pre_db_tool01_1",
+		vibrate = "",
+		tip_offset = {
+			0,
+			0
+		}
+	},
+	[5004002] = {
+		ik_move = "",
+		char_id = 30707,
+		body = "",
+		action_emote = "",
+		id = 5004002,
+		scene_item = "FurnitureSlots/1120103/pre_db_df_bedroom_01(Clone)/pre_db_df_handcuffs_01",
+		vibrate = "",
+		tip_offset = {
+			0,
+			0
+		}
+	},
+	[5005001] = {
+		ik_move = "",
+		char_id = 30707,
+		body = "RightThigh",
+		action_emote = "",
+		id = 5005001,
+		scene_item = "",
+		tip_offset = "",
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
+	},
+	[5005002] = {
+		ik_move = "",
+		char_id = 30707,
+		body = "LeftThigh",
+		action_emote = "",
+		id = 5005002,
+		scene_item = "",
+		tip_offset = "",
+		vibrate = {
+			{
+				100,
+				0.2
+			}
+		}
+	},
+	[5005003] = {
+		ik_move = "",
+		char_id = 30707,
+		body = "LeftThigh",
+		action_emote = "",
+		id = 5005003,
+		scene_item = "",
+		tip_offset = "",
 		vibrate = {
 			{
 				100,
@@ -165,6 +261,12 @@ pg.dorm3d_ik_touch = {
 		2002502,
 		3003321,
 		3003322,
-		3003323
+		3003323,
+		3003324,
+		5004001,
+		5004002,
+		5005001,
+		5005002,
+		5005003
 	}
 }

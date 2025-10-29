@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0._top = arg_2_0:findTF("Top")
-	arg_2_0.memoryMask = arg_2_0:findTF("StoryMask", arg_2_0._top)
+	arg_2_0._top = arg_2_0._tf:Find("Top")
+	arg_2_0.memoryMask = arg_2_0._top:Find("StoryMask")
 end
 
 function var_0_0.OnSelected(arg_3_0)
@@ -63,6 +63,7 @@ function var_0_0.GetDetailLayer(arg_9_0)
 	if not arg_9_0.detailUI then
 		arg_9_0.detailUI = WorldMediaCollectionRecordDetailLayer.New(arg_9_0, arg_9_0._tf, arg_9_0.event, arg_9_0.contextData)
 
+		arg_9_0.detailUI:RegisterView(arg_9_0.viewComponent)
 		arg_9_0.detailUI:Load()
 		arg_9_0.detailUI:SetStoryMask(arg_9_0.memoryMask)
 	end
@@ -106,6 +107,7 @@ function var_0_0.GetGroupLayer(arg_14_0)
 	if not arg_14_0.groupUI then
 		arg_14_0.groupUI = WorldMediaCollectionRecordGroupLayer.New(arg_14_0, arg_14_0._tf, arg_14_0.event, arg_14_0.contextData)
 
+		arg_14_0.groupUI:RegisterView(arg_14_0.viewComponent)
 		arg_14_0.groupUI:Load()
 	end
 

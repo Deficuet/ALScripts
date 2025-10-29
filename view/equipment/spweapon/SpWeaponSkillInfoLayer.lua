@@ -11,7 +11,7 @@ function var_0_0.didEnter(arg_2_0)
 	onButton(arg_2_0, arg_2_0.backBtn, function()
 		arg_2_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(arg_2_0, arg_2_0:findTF("panel/buttonList/ok_button"), function()
+	onButton(arg_2_0, arg_2_0._tf:Find("panel/buttonList/ok_button"), function()
 		arg_2_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_CONFIRM)
 	onButton(arg_2_0, arg_2_0.upgradeBtn, function()
@@ -49,7 +49,7 @@ function var_0_0.didEnter(arg_2_0)
 
 	arg_2_0:showBase()
 	arg_2_0:showInfo(false)
-	setText(arg_2_0:findTF("panel/top/title_list/infomation/title"), i18n("words_information"))
+	setText(arg_2_0._tf:Find("panel/top/title_list/infomation/title"), i18n("words_information"))
 	setText(arg_2_0.buttonList:Find("ok_button/Image"), i18n("text_confirm"))
 	setText(arg_2_0.buttonList:Find("level_button/Image"), i18n("msgbox_text_upgrade"))
 end
@@ -98,7 +98,7 @@ function var_0_0.showInfo(arg_12_0, arg_12_1)
 end
 
 function var_0_0.willExit(arg_13_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_13_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf)
 
 	if arg_13_0.contextData.onExit then
 		arg_13_0.contextData.onExit()

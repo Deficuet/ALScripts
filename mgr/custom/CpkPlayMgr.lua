@@ -29,7 +29,7 @@ function var_0_0.OnPlaying(arg_3_0)
 	return arg_3_0._onPlaying
 end
 
-function var_0_0.PlayCpkMovie(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4, arg_4_5, arg_4_6, arg_4_7, arg_4_8, arg_4_9)
+function var_0_0.PlayCpkMovie(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4, arg_4_5, arg_4_6, arg_4_7, arg_4_8)
 	pg.DelegateInfo.New(arg_4_0)
 
 	arg_4_0._onPlaying = true
@@ -46,7 +46,7 @@ function var_0_0.PlayCpkMovie(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4, arg_4
 			return
 		end
 
-		if not arg_4_9 and Time.realtimeSinceStartup < arg_4_0._closeLimit then
+		if not arg_4_8 and Time.realtimeSinceStartup < arg_4_0._closeLimit then
 			return
 		end
 
@@ -99,7 +99,7 @@ function var_0_0.PlayCpkMovie(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4, arg_4
 				var_4_0()
 			end)
 		else
-			arg_4_0._timer = Timer.New(var_4_0, arg_4_8)
+			arg_4_0._timer = Timer.New(var_4_0, arg_4_7)
 
 			arg_4_0._timer:Start()
 		end
@@ -134,7 +134,7 @@ function var_0_0.PlayCpkMovie(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4, arg_4
 			arg_4_0._ratioFitter = arg_12_0:GetComponent("AspectRatioFitter")
 			arg_4_0._mainTF = arg_12_0
 
-			pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._mainTF.transform, arg_4_7)
+			pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._mainTF.transform)
 
 			arg_4_0._criUsm = tf(arg_4_0._mainTF):Find("usm"):GetComponent("CriManaEffectUI")
 			arg_4_0._criCpk = tf(arg_4_0._mainTF):Find("usm"):GetComponent("CriManaCpkUI")

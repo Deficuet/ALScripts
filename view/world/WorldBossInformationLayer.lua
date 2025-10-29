@@ -7,9 +7,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.bg = arg_2_0:findTF("bg")
-	arg_2_0.layer = arg_2_0:findTF("fixed")
-	arg_2_0.top = arg_2_0:findTF("top", arg_2_0.layer)
+	arg_2_0.bg = arg_2_0._tf:Find("bg")
+	arg_2_0.layer = arg_2_0._tf:Find("fixed")
+	arg_2_0.top = arg_2_0.layer:Find("top")
 	arg_2_0.backBtn = arg_2_0.top:Find("back_btn")
 	arg_2_0.homeBtn = arg_2_0.top:Find("option")
 	arg_2_0.playerResOb = arg_2_0.top:Find("playerRes")
@@ -125,10 +125,8 @@ function var_0_0.didEnter(arg_3_0)
 		})
 		arg_3_0:UpdateHpbar()
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0._tf, {
-		interactableAlways = true
-	})
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_3_0.layer, {
+	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0._tf)
+	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0.layer, {
 		pbList = {
 			arg_3_0.downBG,
 			arg_3_0.attributes[1],
@@ -137,8 +135,7 @@ function var_0_0.didEnter(arg_3_0)
 			arg_3_0.top,
 			arg_3_0.AdditionBuffTF,
 			arg_3_0.EquipmentBuffTF
-		},
-		groupName = LayerWeightConst.GROUP_BOSSINFORMATION
+		}
 	})
 end
 
@@ -566,7 +563,7 @@ end
 
 function var_0_0.willExit(arg_38_0)
 	arg_38_0:DestroyAwardPanel()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_38_0.layer, arg_38_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.layer, arg_38_0._tf)
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0._tf)
 
 	if arg_38_0.resPanel then

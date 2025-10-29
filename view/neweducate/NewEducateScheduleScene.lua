@@ -84,11 +84,10 @@ function var_0_0.SetData(arg_4_0)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_5_0.mainTF, {
+	arg_5_0:OverlayPanel(arg_5_0.mainTF, {
 		pbList = {
 			arg_5_0.mainTF:Find("bg")
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE
+		}
 	})
 	onButton(arg_5_0, arg_5_0.mainTF:Find("top/return_btn"), function()
 		arg_5_0:onBackPressed()
@@ -555,7 +554,7 @@ function var_0_0.SetScheduleData(arg_53_0, arg_53_1)
 end
 
 function var_0_0.willExit(arg_54_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_54_0.mainTF, arg_54_0.rootTF)
+	arg_54_0:UnOverlayPanel(arg_54_0.mainTF, arg_54_0.rootTF)
 end
 
 return var_0_0

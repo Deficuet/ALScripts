@@ -40,14 +40,14 @@ function var_0_0.initData(arg_7_0)
 end
 
 function var_0_0.findUI(arg_8_0)
-	arg_8_0.tpl = arg_8_0:findTF("Tpl")
-	arg_8_0.containerTF = arg_8_0:findTF("Shop/Panel/ScrollView/Viewport/Content")
-	arg_8_0.backBtn = arg_8_0:findTF("Adapt/Back")
-	arg_8_0.helpBtn = arg_8_0:findTF("Adapt/Help")
-	arg_8_0.ptInfoIcon = arg_8_0:findTF("Shop/PTInfo/Icon")
-	arg_8_0.ptInfoCountText = arg_8_0:findTF("Shop/PTInfo/Count")
+	arg_8_0.tpl = arg_8_0._tf:Find("Tpl")
+	arg_8_0.containerTF = arg_8_0._tf:Find("Shop/Panel/ScrollView/Viewport/Content")
+	arg_8_0.backBtn = arg_8_0._tf:Find("Adapt/Back")
+	arg_8_0.helpBtn = arg_8_0._tf:Find("Adapt/Help")
+	arg_8_0.ptInfoIcon = arg_8_0._tf:Find("Shop/PTInfo/Icon")
+	arg_8_0.ptInfoCountText = arg_8_0._tf:Find("Shop/PTInfo/Count")
 
-	setText(arg_8_0:findTF("Tip", arg_8_0.tpl), i18n("islandshop_tips2"))
+	setText(arg_8_0.tpl:Find("Tip"), i18n("islandshop_tips2"))
 end
 
 function var_0_0.addListener(arg_9_0)
@@ -70,10 +70,10 @@ function var_0_0.addListener(arg_9_0)
 			arg_9_0.goodTFList[arg_12_1] = arg_12_2
 
 			onButton(arg_9_0, arg_12_2, function()
-				if not isActive(arg_9_0:findTF("Mask", arg_12_2)) then
+				if not isActive(arg_12_2:Find("Mask")) then
 					arg_9_0:emit(ZumaPTShopMediator.OPEN_ZUMA_PT_SHOP_BUY_WINDOW, arg_9_0:getGoodVOByIndex(arg_12_1))
 				else
-					pg.TipsMgr:GetInstance():ShowTips(i18n("launchball_minigame_shop"))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("launchball_minigame_shop"))
 				end
 			end, SFX_PANEL)
 		elseif arg_12_0 == UIItemList.EventUpdate then
@@ -107,10 +107,10 @@ function var_0_0.updateGoodPanel(arg_17_0)
 end
 
 function var_0_0.updateTpl(arg_18_0, arg_18_1, arg_18_2)
-	local var_18_0 = arg_18_0:findTF("Item", arg_18_2)
-	local var_18_1 = arg_18_0:findTF("Name/Name", arg_18_2)
-	local var_18_2 = arg_18_0:findTF("PTCount", arg_18_2)
-	local var_18_3 = arg_18_0:findTF("BuyCount", arg_18_2)
+	local var_18_0 = arg_18_2:Find("Item")
+	local var_18_1 = arg_18_2:Find("Name/Name")
+	local var_18_2 = arg_18_2:Find("PTCount")
+	local var_18_3 = arg_18_2:Find("BuyCount")
 	local var_18_4 = arg_18_0.goodVOListForShow[arg_18_1]
 	local var_18_5 = Drop.New({
 		type = var_18_4:getConfig("commodity_type"),
@@ -133,9 +133,9 @@ function var_0_0.updateTpl(arg_18_0, arg_18_1, arg_18_2)
 		setText(var_18_3, math.max(var_18_4:GetPurchasableCnt(), 0) .. "/" .. var_18_7)
 	end
 
-	local var_18_8 = arg_18_0:findTF("Mask", arg_18_2)
-	local var_18_9 = arg_18_0:findTF("Lock", var_18_8)
-	local var_18_10 = arg_18_0:findTF("SellOut", var_18_8)
+	local var_18_8 = arg_18_2:Find("Mask")
+	local var_18_9 = var_18_8:Find("Lock")
+	local var_18_10 = var_18_8:Find("SellOut")
 	local var_18_11 = var_18_7 > 0 and var_18_4:GetPurchasableCnt() <= 0
 
 	setActive(var_18_8, var_18_11)

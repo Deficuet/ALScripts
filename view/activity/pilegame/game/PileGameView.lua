@@ -70,7 +70,7 @@ function var_0_0.ShowExitMsg(arg_7_0)
 
 	local function var_7_0()
 		setActive(arg_7_0.exitPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_7_0.exitPanel, arg_7_0.bg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0.exitPanel, arg_7_0.bg)
 	end
 
 	onButton(arg_7_0, arg_7_0.exitPanelCancelBtn, var_7_0, SFX_PANEL)
@@ -315,7 +315,7 @@ function var_0_0.OnGameEnd(arg_30_0, arg_30_1, arg_30_2)
 		setActive(arg_30_0.resultPanel, true)
 		onButton(arg_30_0, arg_30_0.endGameBtn, function()
 			setActive(arg_30_0.resultPanel, false)
-			pg.UIMgr.GetInstance():UnblurPanel(arg_30_0.resultPanel, arg_30_0.bg)
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_30_0.resultPanel, arg_30_0.bg)
 			arg_30_0.controller:ExitGame()
 		end)
 
@@ -417,13 +417,13 @@ end
 function var_0_0.onBackPressed(arg_48_0)
 	if isActive(arg_48_0.resultPanel) then
 		setActive(arg_48_0.resultPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_48_0.resultPanel, arg_48_0.bg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_48_0.resultPanel, arg_48_0.bg)
 		arg_48_0.controller:ExitGame()
 
 		return true
 	elseif isActive(arg_48_0.exitPanel) then
 		setActive(arg_48_0.exitPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_48_0.exitPanel, arg_48_0.bg)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_48_0.exitPanel, arg_48_0.bg)
 
 		return true
 	elseif isActive(arg_48_0.bg) then

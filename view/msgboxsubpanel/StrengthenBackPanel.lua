@@ -17,16 +17,16 @@ function var_0_0.UpdateView(arg_2_0, arg_2_1)
 
 	rtf(arg_2_0.viewParent._window).sizeDelta = Vector2.New(1000, 638)
 
-	local var_2_0 = arg_2_0:findTF("info_view/Viewport/Content/Text", arg_2_0._tf)
+	local var_2_0 = arg_2_0._tf:Find("info_view/Viewport/Content/Text")
 	local var_2_1 = Equipment.getConfigData(var_0_0.ConfigData.equipID).name
 
 	setText(var_2_0, i18n(var_0_0.ConfigData.content, var_2_1))
 
-	local var_2_2 = arg_2_0:findTF("button_container/custom_button_1(Clone)/pic", arg_2_0._tf.parent)
+	local var_2_2 = arg_2_0._tf:Find("button_container/custom_button_1(Clone)/pic", arg_2_0._tf.parent)
 
 	setText(var_2_2, i18n(var_0_0.ConfigData.btnTxt))
 
-	local var_2_3 = arg_2_0:findTF("icon_bg/icon", arg_2_0._tf)
+	local var_2_3 = arg_2_0._tf:Find("icon_bg/icon")
 
 	setImageSprite(var_2_3, LoadSprite(var_0_0.ConfigData.icon))
 

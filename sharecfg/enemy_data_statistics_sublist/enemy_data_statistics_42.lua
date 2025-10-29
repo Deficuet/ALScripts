@@ -1434,5 +1434,49 @@ pg.enemy_data_statistics_42 = {
 			312032,
 			312033
 		}
+	},
+	[2010] = {
+		cannon = 0,
+		name = "ズイカク",
+		antiaircraft_growth = 2420,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 38,
+		air_growth = 3132,
+		dodge = 5,
+		luck = 0,
+		id = 2010,
+		cannon_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 72,
+		reload = 150,
+		star = 6,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 5,
+		fog_fx = "",
+		base = 90244,
+		durability = 700,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 35,
+		hit_growth = 210,
+		armor = 0,
+		speed = 15,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 37960,
+		luck_growth = 0,
+		battle_unit_type = 70,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100201,
+			312034,
+			312035,
+			312036,
+			312037
+		}
 	}
 }

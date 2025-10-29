@@ -30,7 +30,7 @@ return {
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			say = "青い空、白い雲、碧い海、砂浜、そして雲を突き抜けるほど高くそびえ立つ山々。",
-			bgm = "yumia-1",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,12 +174,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 900519,
 			say = "あの……ユミアさん！",
 			typewriter = {
 				speed = 0.05,
@@ -378,12 +379,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 900519,
 			say = "……ま、まだここの状況もわかりませんし、土地勘もありません……！！一旦逃げた方がいいかもしれないですっ！！",
 			typewriter = {
 				speed = 0.05,

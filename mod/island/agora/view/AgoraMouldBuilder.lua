@@ -1,88 +1,79 @@
-local var_0_0 = class("AgoraMouldBuilder")
+local var_0_0 = class("AgoraMouldBuilder", import("Mod.Island.Core.Builder.IslandGenericBuilder"))
 
-function var_0_0.Ctor(arg_1_0, arg_1_1)
-	arg_1_0.view = arg_1_1
-	arg_1_0.tpl = GameObject.Find("AgoraMainStage/tpl")
-	arg_1_0.root = GameObject.Find("AgoraMainStage/furniture")
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
+	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_2)
+
+	arg_1_0.root = arg_1_1.furnitureRoot
 end
 
-function var_0_0.Build(arg_2_0, arg_2_1)
-	local var_2_0 = cloneTplTo(arg_2_0.tpl, arg_2_0.root).gameObject
-	local var_2_1 = AgoraFurnitrueMould.New(arg_2_0.view, var_2_0, arg_2_1)
+function var_0_0.Build(arg_2_0, arg_2_1, arg_2_2)
+	local var_2_0 = arg_2_0:GetPoolMgr():GetAgoraRoot()
+
+	setParent(var_2_0, arg_2_0.root)
+
+	local var_2_1 = arg_2_0:GetModule(var_2_0, arg_2_1)
+
+	assert(arg_2_0.unitListType)
+	var_2_1:SetUnitType(arg_2_0.unitListType)
+
 	local var_2_2
 
 	seriesAsync({
 		function(arg_3_0)
-			arg_2_0:LoadRes(var_2_0, arg_2_1, function(arg_4_0)
+			arg_2_0:Load(arg_2_1, function(arg_4_0)
 				var_2_2 = arg_4_0
 
 				arg_3_0()
 			end)
 		end,
 		function(arg_5_0)
-			arg_2_0:LoadBt(var_2_0, arg_2_1, arg_5_0)
-		end,
-		function(arg_6_0)
-			arg_2_0:LoadTimeline(var_2_0, var_2_2, arg_2_1, arg_6_0)
+			arg_2_0:SetupBT(var_2_0, arg_2_1:GetBt(), arg_5_0)
 		end
 	}, function()
-		var_2_1:Init(var_2_2)
+		arg_2_0:AddTypeAndID(var_2_0, var_2_1)
+		arg_2_0:AddComponents(var_2_0, arg_2_1)
+		arg_2_0:SetTag(var_2_0)
+		var_2_1:Init(var_2_2, arg_2_0)
+		existCall(arg_2_2, var_2_1)
 	end)
 
 	return var_2_1
 end
 
-function var_0_0.LoadRes(arg_8_0, arg_8_1, arg_8_2, arg_8_3)
-	local var_8_0 = arg_8_2:GetResPath()
-
-	ResourceMgr.Inst:getAssetAsync(var_8_0, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_9_0)
-		local var_9_0 = Object.Instantiate(arg_9_0)
-
-		setParent(var_9_0, arg_8_1)
-		arg_8_3(var_9_0)
-	end), true, true)
-end
-
-function var_0_0.LoadBt(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
-	if not arg_10_2:HasBt() then
-		arg_10_3()
+function var_0_0.SetupBT(arg_7_0, arg_7_1, arg_7_2, arg_7_3)
+	if not arg_7_2 or arg_7_2 == "" then
+		arg_7_3()
 
 		return
 	end
 
-	local var_10_0 = arg_10_2:GetBt()
+	local var_7_0 = IslandAssetLoadDispatcher.Instance:Enqueue(arg_7_2, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_8_0)
+		assert(arg_8_0, arg_7_2)
 
-	ResourceMgr.Inst:getAssetAsync(var_10_0, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_11_0)
-		GetOrAddComponent(arg_10_1, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = Object.Instantiate(arg_11_0)
+		GetOrAddComponent(arg_7_1, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = Object.Instantiate(arg_8_0)
 
-		arg_10_3()
+		arg_7_3()
 	end), true, true)
+
+	arg_7_0:AddLoadingID(var_7_0)
 end
 
-function var_0_0.LoadTimeline(arg_12_0, arg_12_1, arg_12_2, arg_12_3, arg_12_4)
-	if not arg_12_3:HasTimeline() then
-		arg_12_4()
+function var_0_0.GetModule(arg_9_0, arg_9_1, arg_9_2)
+	return AgoraFurnitrueMould.New(arg_9_0.view, arg_9_1, arg_9_2)
+end
 
-		return
+function var_0_0.Load(arg_10_0, arg_10_1, arg_10_2)
+	arg_10_0:GetPoolMgr():GetAgoraObj(arg_10_1:GetResPath(), arg_10_2)
+end
+
+function var_0_0.Recycle(arg_11_0, arg_11_1, arg_11_2)
+	if arg_11_2 then
+		arg_11_0:GetPoolMgr():ReturnAgoraObj(arg_11_1:GetResPath(), arg_11_2)
 	end
+end
 
-	local var_12_0 = arg_12_3:GetTimeline()
-
-	ResourceMgr.Inst:getAssetAsync(var_12_0, "", typeof(UnityEngine.Playables.PlayableAsset), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_13_0)
-		local var_13_0 = arg_12_1.transform:Find("playable"):GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
-
-		var_13_0.playableAsset = Object.Instantiate(arg_13_0)
-
-		local var_13_1 = TimelineHelper.GetTimelineTracks(var_13_0)
-
-		if var_13_1 and var_13_1.Length > 0 then
-			local var_13_2 = var_13_1[0]
-
-			TimelineHelper.SetSceneBinding(var_13_0, var_13_2, arg_12_2)
-		end
-
-		arg_12_4()
-	end), true, true)
+function var_0_0.RecycleRoot(arg_12_0, arg_12_1)
+	arg_12_0:GetPoolMgr():ReturnAgoraRoot(arg_12_1)
 end
 
 return var_0_0

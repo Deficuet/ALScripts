@@ -6,10 +6,10 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.treePanel = CommanderTreePage.New(arg_2_0._tf, arg_2_0.event)
-	arg_2_0.uiList = UIItemList.New(arg_2_0:findTF("frame/list"), arg_2_0:findTF("frame/list/tpl"))
-	arg_2_0.uiList1 = UIItemList.New(arg_2_0:findTF("frame/list1"), arg_2_0:findTF("frame/list/tpl"))
+	arg_2_0.uiList = UIItemList.New(arg_2_0._tf:Find("frame/list"), arg_2_0._tf:Find("frame/list/tpl"))
+	arg_2_0.uiList1 = UIItemList.New(arg_2_0._tf:Find("frame/list1"), arg_2_0._tf:Find("frame/list/tpl"))
 
-	setText(arg_2_0:findTF("frame/Text"), i18n("word_click_to_close"))
+	setText(arg_2_0._tf:Find("frame/Text"), i18n("word_click_to_close"))
 end
 
 function var_0_0.OnInit(arg_3_0)

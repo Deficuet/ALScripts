@@ -33,7 +33,7 @@ function var_0_0.startChangeAction(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
 			local var_4_1 = arg_4_0.tip
 
 			if var_4_0 then
-				ShipSkin.SetStoreChangeSkinId(arg_3_2)
+				ShipSkin.SetStoreChangeSkinId(arg_3_2, arg_3_3:GetShipPhantomMark())
 				pg.ChangeSkinMgr.GetInstance():play(arg_3_2, function()
 					arg_3_0:sendNotification(GAME.CHANGE_SKIN_EXCHANGE, {
 						callback = function()

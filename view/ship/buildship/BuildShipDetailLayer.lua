@@ -37,26 +37,25 @@ function var_0_0.setProjectList(arg_5_0, arg_5_1)
 end
 
 function var_0_0.init(arg_6_0)
-	arg_6_0.UIMgr = pg.UIMgr.GetInstance()
-	arg_6_0.multLineTF = arg_6_0:findTF("list_mult_line")
-	arg_6_0.multLineContain = arg_6_0:findTF("list_mult_line/content")
-	arg_6_0.multLineTpl = arg_6_0:findTF("project_tpl", arg_6_0.multLineContain)
+	arg_6_0.multLineTF = arg_6_0._tf:Find("list_mult_line")
+	arg_6_0.multLineContain = arg_6_0._tf:Find("list_mult_line/content")
+	arg_6_0.multLineTpl = arg_6_0.multLineContain:Find("project_tpl")
 	arg_6_0.multList = UIItemList.New(arg_6_0.multLineContain, arg_6_0.multLineTpl)
-	arg_6_0.singleLineTF = arg_6_0:findTF("list_single_line")
-	arg_6_0.singleLineContain = arg_6_0:findTF("list_single_line/content")
-	arg_6_0.singleLineTpl = arg_6_0:findTF("project_tpl", arg_6_0.singleLineContain)
+	arg_6_0.singleLineTF = arg_6_0._tf:Find("list_single_line")
+	arg_6_0.singleLineContain = arg_6_0._tf:Find("list_single_line/content")
+	arg_6_0.singleLineTpl = arg_6_0.singleLineContain:Find("project_tpl")
 	arg_6_0.singleList = UIItemList.New(arg_6_0.singleLineContain, arg_6_0.singleLineTpl)
-	arg_6_0.listCountTF = arg_6_0:findTF("title/value")
-	arg_6_0.quickCount = arg_6_0:findTF("quick_count")
-	arg_6_0.quickCountTF = arg_6_0:findTF("quick_count/value")
-	arg_6_0.noneBg = arg_6_0:findTF("none_bg")
-	arg_6_0.allLaunch = arg_6_0:findTF("all_launch")
-	arg_6_0.aniBgTF = arg_6_0:findTF("aniBg")
-	arg_6_0.autoLockShipToggle = arg_6_0:findTF("autolockship/Toggle"):GetComponent(typeof(Toggle))
+	arg_6_0.listCountTF = arg_6_0._tf:Find("title/value")
+	arg_6_0.quickCount = arg_6_0._tf:Find("quick_count")
+	arg_6_0.quickCountTF = arg_6_0._tf:Find("quick_count/value")
+	arg_6_0.noneBg = arg_6_0._tf:Find("none_bg")
+	arg_6_0.allLaunch = arg_6_0._tf:Find("all_launch")
+	arg_6_0.aniBgTF = arg_6_0._tf:Find("aniBg")
+	arg_6_0.autoLockShipToggle = arg_6_0._tf:Find("autolockship/Toggle"):GetComponent(typeof(Toggle))
 	arg_6_0.canvasgroup = GetOrAddComponent(arg_6_0._tf, typeof(CanvasGroup))
 
-	setText(arg_6_0:findTF("title/text"), i18n("build_detail_intro"))
-	setText(arg_6_0:findTF("autolockship/Text"), i18n("lock_new_ship"))
+	setText(arg_6_0._tf:Find("title/text"), i18n("build_detail_intro"))
+	setText(arg_6_0._tf:Find("autolockship/Text"), i18n("lock_new_ship"))
 end
 
 function var_0_0.updatePlayer(arg_7_0, arg_7_1)
@@ -193,9 +192,9 @@ function var_0_0.updateProject(arg_22_0, arg_22_1, arg_22_2)
 		return
 	end
 
-	local var_22_1 = arg_22_0:findTF("frame/buiding", var_22_0)
-	local var_22_2 = arg_22_0:findTF("frame/finished", var_22_0)
-	local var_22_3 = arg_22_0:findTF("frame/waiting", var_22_0)
+	local var_22_1 = var_22_0:Find("frame/buiding")
+	local var_22_2 = var_22_0:Find("frame/finished")
+	local var_22_3 = var_22_0:Find("frame/waiting")
 
 	setActive(var_22_3, false)
 	setActive(var_22_1, arg_22_2.state == BuildShip.ACTIVE)
@@ -205,7 +204,7 @@ function var_0_0.updateProject(arg_22_0, arg_22_1, arg_22_2)
 
 	local var_22_4 = pg.ship_data_create_material[arg_22_2.type]
 	local var_22_5 = tonumber(var_22_4.ship_icon)
-	local var_22_6 = arg_22_0:findTF("ship_modal", var_22_1)
+	local var_22_6 = var_22_1:Find("ship_modal")
 
 	for iter_22_0 = 0, var_22_6.childCount - 1 do
 		local var_22_7 = var_22_6:GetChild(iter_22_0)
@@ -220,7 +219,7 @@ function var_0_0.updateProject(arg_22_0, arg_22_1, arg_22_2)
 			var_22_8.alpha = 1
 		end
 
-		local var_22_9 = arg_22_0:findTF("shipModelBuliding" .. var_22_5, var_22_6)
+		local var_22_9 = var_22_6:Find("shipModelBuliding" .. var_22_5)
 
 		if not var_22_9 then
 			PoolMgr.GetInstance():GetUI("shipModelBuliding" .. var_22_5, true, function(arg_23_0)
@@ -230,18 +229,15 @@ function var_0_0.updateProject(arg_22_0, arg_22_1, arg_22_2)
 				arg_23_0.transform.localScale = Vector3(1, 1, 1)
 
 				arg_23_0.transform:SetAsFirstSibling()
-
-				arg_23_0.name = "shipModelBuliding" .. var_22_5
-
 				setActive(arg_23_0, true)
 			end)
 		else
 			setActive(var_22_9, true)
 		end
 
-		local var_22_10 = arg_22_0:findTF("timer/Text", var_22_1)
+		local var_22_10 = var_22_1:Find("timer/Text")
 
-		onButton(arg_22_0, arg_22_0:findTF("quick_btn", var_22_1), function()
+		onButton(arg_22_0, var_22_1:Find("quick_btn"), function()
 			local var_24_0, var_24_1, var_24_2 = BuildShip.canQuickBuildShip(arg_22_1)
 
 			if not var_24_0 then
@@ -305,13 +301,13 @@ function var_0_0.updateProject(arg_22_0, arg_22_1, arg_22_2)
 
 		setActive(var_22_1, true)
 
-		local var_22_13 = arg_22_0:findTF("shipModelBuliding" .. var_22_5, var_22_6)
+		local var_22_13 = var_22_6:Find("shipModelBuliding" .. var_22_5)
 
 		if var_22_13 then
 			setActive(var_22_13, true)
 		end
 
-		arg_22_0:setSpriteTo(var_0_5[tonumber(var_22_4.ship_icon)], arg_22_0:findTF("ship_modal", var_22_2), false)
+		arg_22_0:setSpriteTo(var_0_5[tonumber(var_22_4.ship_icon)], var_22_2:Find("ship_modal"), false)
 
 		local var_22_14 = findTF(var_22_2, "launched_btn")
 
@@ -349,9 +345,7 @@ function var_0_0.playGetShipAnimate(arg_31_0, arg_31_1, arg_31_2)
 		arg_31_0.canvasgroup.blocksRaycasts = true
 
 		arg_31_1()
-	end, "ui", var_31_0.build_anim or "Building", true, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	}, 4.5, true)
+	end, "ui", var_31_0.build_anim or "Building", true, false, 4.5, true)
 end
 
 function var_0_0.willExit(arg_34_0)
@@ -372,14 +366,14 @@ function var_0_0.willExit(arg_34_0)
 	arg_34_0.onLoading = false
 
 	arg_34_0.multList:each(function(arg_35_0, arg_35_1)
-		local var_35_0 = arg_34_0:findTF("frame/buiding/ship_modal", arg_35_1)
+		local var_35_0 = arg_35_1:Find("frame/buiding/ship_modal")
 
 		eachChild(var_35_0, function(arg_36_0)
 			PoolMgr.GetInstance():ReturnUI(arg_36_0.name, arg_36_0)
 		end)
 	end)
 	arg_34_0.singleList:each(function(arg_37_0, arg_37_1)
-		local var_37_0 = arg_34_0:findTF("frame/buiding/ship_modal", arg_37_1)
+		local var_37_0 = arg_37_1:Find("frame/buiding/ship_modal")
 
 		eachChild(var_37_0, function(arg_38_0)
 			PoolMgr.GetInstance():ReturnUI(arg_38_0.name, arg_38_0)

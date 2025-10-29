@@ -17,7 +17,7 @@ function var_0_0.didEnter(arg_3_0)
 end
 
 function var_0_0.willExit(arg_4_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_4_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_4_0._tf)
 end
 
 function var_0_0.initData(arg_5_0)
@@ -25,35 +25,35 @@ function var_0_0.initData(arg_5_0)
 end
 
 function var_0_0.initUIText(arg_6_0)
-	local var_6_0 = arg_6_0:findTF("window/button_container/button_cancel/Image")
-	local var_6_1 = arg_6_0:findTF("window/button_container/button_ok/Image")
+	local var_6_0 = arg_6_0._tf:Find("window/button_container/button_cancel/Image")
+	local var_6_1 = arg_6_0._tf:Find("window/button_container/button_ok/Image")
 
 	setText(var_6_0, i18n("text_cancel"))
 	setText(var_6_1, i18n("text_buy"))
 end
 
 function var_0_0.findUI(arg_7_0)
-	arg_7_0.bg = arg_7_0:findTF("back_sign")
-	arg_7_0.detailWindow = arg_7_0:findTF("window")
-	arg_7_0.cancelBtn = arg_7_0:findTF("button_container/button_cancel", arg_7_0.detailWindow)
-	arg_7_0.confirmBtn = arg_7_0:findTF("button_container/button_ok", arg_7_0.detailWindow)
-	arg_7_0.detailName = arg_7_0:findTF("goods/name", arg_7_0.detailWindow)
-	arg_7_0.detailIcon = arg_7_0:findTF("goods/icon", arg_7_0.detailWindow)
-	arg_7_0.detailRmb = arg_7_0:findTF("prince_bg/contain/icon_rmb", arg_7_0.detailWindow)
-	arg_7_0.detailGem = arg_7_0:findTF("prince_bg/contain/icon_gem", arg_7_0.detailWindow)
-	arg_7_0.detailPrice = arg_7_0:findTF("prince_bg/contain/Text", arg_7_0.detailWindow)
-	arg_7_0.detailTag = arg_7_0:findTF("goods/tag", arg_7_0.detailWindow)
+	arg_7_0.bg = arg_7_0._tf:Find("back_sign")
+	arg_7_0.detailWindow = arg_7_0._tf:Find("window")
+	arg_7_0.cancelBtn = arg_7_0.detailWindow:Find("button_container/button_cancel")
+	arg_7_0.confirmBtn = arg_7_0.detailWindow:Find("button_container/button_ok")
+	arg_7_0.detailName = arg_7_0.detailWindow:Find("goods/name")
+	arg_7_0.detailIcon = arg_7_0.detailWindow:Find("goods/icon")
+	arg_7_0.detailRmb = arg_7_0.detailWindow:Find("prince_bg/contain/icon_rmb")
+	arg_7_0.detailGem = arg_7_0.detailWindow:Find("prince_bg/contain/icon_gem")
+	arg_7_0.detailPrice = arg_7_0.detailWindow:Find("prince_bg/contain/Text")
+	arg_7_0.detailTag = arg_7_0.detailWindow:Find("goods/tag")
 	arg_7_0.detailTags = {}
 
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("hot", arg_7_0.detailTag))
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("new", arg_7_0.detailTag))
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("advice", arg_7_0.detailTag))
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("double", arg_7_0.detailTag))
-	table.insert(arg_7_0.detailTags, arg_7_0:findTF("discount", arg_7_0.detailTag))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("hot"))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("new"))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("advice"))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("double"))
+	table.insert(arg_7_0.detailTags, arg_7_0.detailTag:Find("discount"))
 
 	arg_7_0.detailTagAdviceTF = arg_7_0.detailTags[3]
 	arg_7_0.detailTagDoubleTF = arg_7_0.detailTags[4]
-	arg_7_0.detailNormalTip = arg_7_0:findTF("NormalTips", arg_7_0.detailWindow)
+	arg_7_0.detailNormalTip = arg_7_0.detailWindow:Find("NormalTips")
 end
 
 function var_0_0.addListener(arg_8_0)

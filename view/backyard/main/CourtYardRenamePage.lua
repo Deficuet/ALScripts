@@ -5,15 +5,15 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/confirm")
-	arg_2_0.cancelBtn = arg_2_0:findTF("frame/cancel")
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/close")
-	arg_2_0.input = arg_2_0:findTF("frame/input")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/confirm")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("frame/cancel")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/close")
+	arg_2_0.input = arg_2_0._tf:Find("frame/input")
 
-	setText(arg_2_0:findTF("frame/cancel/Text"), i18n("word_cancel"))
-	setText(arg_2_0:findTF("frame/confirm/Text"), i18n("word_ok"))
-	setText(arg_2_0:findTF("frame/title"), i18n("backyard_rename_title"))
-	setText(arg_2_0:findTF("frame/input/placehoder"), i18n("backyard_rename_tip"))
+	setText(arg_2_0._tf:Find("frame/cancel/Text"), i18n("word_cancel"))
+	setText(arg_2_0._tf:Find("frame/confirm/Text"), i18n("word_ok"))
+	setText(arg_2_0._tf:Find("frame/title"), i18n("backyard_rename_title"))
+	setText(arg_2_0._tf:Find("frame/input/placehoder"), i18n("backyard_rename_tip"))
 end
 
 function var_0_0.OnInit(arg_3_0)

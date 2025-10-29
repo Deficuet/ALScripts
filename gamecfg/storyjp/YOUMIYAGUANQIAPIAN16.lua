@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "汚染された川を上流に向かい遡っていくと、一行は廃棄された村落に着いた。",
-			bgm = "yumia-20",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,12 +74,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 900519,
 			say = "腐食性のある水も……多分あの滝と同じところから来てるんだと思います",
 			typewriter = {
 				speed = 0.05,

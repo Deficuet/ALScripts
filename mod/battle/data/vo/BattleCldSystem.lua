@@ -355,24 +355,30 @@ end
 
 function var_0_7.getAreaCldShipList(arg_14_0, arg_14_1, arg_14_2)
 	local var_14_0
+	local var_14_1 = arg_14_1:GetAreaType()
 
-	if arg_14_1:GetAreaType() == var_0_2.AreaType.COLUMN or arg_14_1:GetAnchorPointAlignment() == Vector3.zero then
-		local var_14_1 = arg_14_1:GetCldBox()
+	if var_14_1 == var_0_2.AreaType.COLUMN or arg_14_1:GetAnchorPointAlignment() == Vector3.zero then
+		local var_14_2 = arg_14_1:GetCldBox()
 
-		var_14_0 = arg_14_2:GetCldList(var_14_1, var_0_3)
+		var_14_0 = arg_14_2:GetCldList(var_14_2, var_0_3)
+	elseif var_14_1 == var_0_2.AreaType.ELLIPSE then
+		local var_14_3 = arg_14_1:GetWidth()
+		local var_14_4 = arg_14_1:GetHeight()
+
+		var_14_0 = arg_14_2:GetCldListEllipse(var_14_3, var_14_4, pos)
 	else
-		local var_14_2 = arg_14_1:GetCldData().IFF == arg_14_0._foeCode
-		local var_14_3 = arg_14_1:GetAngle() * math.deg2Rad
+		local var_14_5 = arg_14_1:GetCldData().IFF == arg_14_0._foeCode
+		local var_14_6 = arg_14_1:GetAngle() * math.deg2Rad
 
-		if var_14_2 then
-			var_14_3 = var_14_3 + math.pi
+		if var_14_5 then
+			var_14_6 = var_14_6 + math.pi
 		end
 
-		local var_14_4 = arg_14_1:GetWidth()
-		local var_14_5 = arg_14_1:GetHeight()
-		local var_14_6 = arg_14_1:GetPosition()
+		local var_14_7 = arg_14_1:GetWidth()
+		local var_14_8 = arg_14_1:GetHeight()
+		local var_14_9 = arg_14_1:GetPosition()
 
-		var_14_0 = arg_14_2:GetCldListGradient(var_14_3, var_14_5, var_14_4, var_14_6)
+		var_14_0 = arg_14_2:GetCldListGradient(var_14_6, var_14_8, var_14_7, var_14_9)
 	end
 
 	return var_14_0

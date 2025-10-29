@@ -156,6 +156,42 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		get_tips = "親愛度壁紙を入手しました"
 	},
+	[101201] = {
+		rarity = 3,
+		name = "独占のお誘い",
+		nighttime_res = "101201_bg_night",
+		id = 101201,
+		icon_res = "101201_icon",
+		desc = "入手すると「母港」の壁紙を「独占のお誘い」にすることが可能",
+		unlock_text = "大鳳宿舎親愛度Lv2で開放",
+		daytime_res = "101201_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "親愛度壁紙を入手しました"
+	},
+	[101202] = {
+		rarity = 3,
+		name = "寄り添う情緒",
+		nighttime_res = "101202_bg_night",
+		id = 101202,
+		icon_res = "101202_icon",
+		desc = "入手すると「母港」の壁紙を「寄り添う情緒」にすることが可能",
+		unlock_text = "大鳳宿舎親愛度Lv7で開放",
+		daytime_res = "101202_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "親愛度壁紙を入手しました"
+	},
+	[101203] = {
+		rarity = 3,
+		name = "指先ときめく",
+		nighttime_res = "101203_bg_night",
+		id = 101203,
+		icon_res = "101203_icon",
+		desc = "入手すると「母港」の壁紙を「指先ときめく」にすることが可能",
+		unlock_text = "大鳳宿舎親愛度Lv10で開放",
+		daytime_res = "101203_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "親愛度壁紙を入手しました"
+	},
 	all = {
 		0,
 		100101,
@@ -169,6 +205,9 @@ pg.livingarea_cover = {
 		100303,
 		101101,
 		101102,
-		101103
+		101103,
+		101201,
+		101202,
+		101203
 	}
 }

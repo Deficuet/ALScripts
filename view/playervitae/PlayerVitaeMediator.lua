@@ -44,8 +44,8 @@ function var_0_0.register(arg_1_0)
 	end)
 	arg_1_0:bind(var_0_0.CHANGE_SKIN, function(arg_8_0, arg_8_1)
 		arg_1_0:addSubLayers(Context.New({
-			mediator = SwichSkinMediator,
-			viewComponent = SwichSkinLayer,
+			mediator = SwitchSkinMediator,
+			viewComponent = SwitchSkinLayer,
 			data = {
 				shipVO = arg_8_1
 			}

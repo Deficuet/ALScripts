@@ -5,21 +5,21 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.back = arg_2_0:findTF("back")
-	arg_2_0.finishTr = arg_2_0:findTF("finish")
+	arg_2_0.back = arg_2_0._tf:Find("back")
+	arg_2_0.finishTr = arg_2_0._tf:Find("finish")
 	arg_2_0.envelopesAnim = arg_2_0.finishTr:Find("envelopes"):GetComponent(typeof(SpineAnimUI))
 	arg_2_0.sendBtn = arg_2_0.finishTr:Find("send")
 	arg_2_0.titleTr = arg_2_0.finishTr:Find("label1")
-	arg_2_0.failedTip = arg_2_0:findTF("failed_tip")
-	arg_2_0.descTr = arg_2_0:findTF("desc_panel")
+	arg_2_0.failedTip = arg_2_0._tf:Find("failed_tip")
+	arg_2_0.descTr = arg_2_0._tf:Find("desc_panel")
 	arg_2_0.descTxt = arg_2_0.descTr:Find("frame/Text"):GetComponent(typeof(Text))
-	arg_2_0.homeBtn = arg_2_0:findTF("home")
-	arg_2_0.helpBtn = arg_2_0:findTF("help")
-	arg_2_0.tipTopTr = arg_2_0:findTF("tip")
+	arg_2_0.homeBtn = arg_2_0._tf:Find("home")
+	arg_2_0.helpBtn = arg_2_0._tf:Find("help")
+	arg_2_0.tipTopTr = arg_2_0._tf:Find("tip")
 
-	setText(arg_2_0:findTF("tip/Text"), i18n("feast_label_make_ticket_tip"))
-	setText(arg_2_0:findTF("tip/label"), i18n("feast_label_make_ticket_click_tip"))
-	setText(arg_2_0:findTF("failed_tip/Text"), i18n("feast_label_make_ticket_failed_tip"))
+	setText(arg_2_0._tf:Find("tip/Text"), i18n("feast_label_make_ticket_tip"))
+	setText(arg_2_0._tf:Find("tip/label"), i18n("feast_label_make_ticket_click_tip"))
+	setText(arg_2_0._tf:Find("failed_tip/Text"), i18n("feast_label_make_ticket_failed_tip"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -265,7 +265,7 @@ function var_0_0.HideDesc(arg_35_0)
 
 	arg_35_0.isShowDesc = false
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_35_0.descTr, arg_35_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0.descTr, arg_35_0._tf)
 
 	if arg_35_0.descNode then
 		Object.Destroy(arg_35_0.descNode.gameObject)

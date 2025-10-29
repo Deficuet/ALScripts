@@ -11,8 +11,8 @@ end
 function var_0_0.InitFashion(arg_3_0)
 	arg_3_0.mainPanel = arg_3_0._parentTf.parent
 	arg_3_0.stylePanel = arg_3_0._tf
-	arg_3_0.styleScroll = arg_3_0:findTF("style_scroll", arg_3_0.stylePanel)
-	arg_3_0.styleContainer = arg_3_0:findTF("view_port", arg_3_0.styleScroll)
+	arg_3_0.styleScroll = arg_3_0.stylePanel:Find("style_scroll")
+	arg_3_0.styleContainer = arg_3_0.styleScroll:Find("view_port")
 	arg_3_0.styleCard = arg_3_0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
 	arg_3_0.hideObjToggleTF = findTF(arg_3_0._tf, "btns/hideObjToggle")
 
@@ -77,19 +77,16 @@ function var_0_0.UpdateUI(arg_9_0)
 end
 
 function var_0_0.OnSelected(arg_10_0, arg_10_1)
-	local var_10_0 = pg.UIMgr.GetInstance()
-
 	if arg_10_1 then
-		var_10_0:OverlayPanelPB(arg_10_0._parentTf, {
+		arg_10_0:OverlayPanel(arg_10_0._parentTf, {
 			pbList = {
 				arg_10_0.stylePanel:Find("style_desc"),
 				arg_10_0.stylePanel:Find("frame")
 			},
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
 			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
-		var_10_0:UnOverlayPanel(arg_10_0._parentTf, arg_10_0.mainPanel)
+		arg_10_0:UnOverlayPanel(arg_10_0._parentTf, arg_10_0.mainPanel)
 	end
 
 	arg_10_0.onSelected = arg_10_1
@@ -150,7 +147,7 @@ function var_0_0.UpdateAllFashion(arg_13_0, arg_13_1)
 			onButton(arg_13_0, var_13_6.changeSkinTF, function(arg_14_0)
 				local var_14_0 = ShipSkin.GetChangeSkinNextId(var_13_4.id)
 
-				ShipSkin.SetStoreChangeSkinId(var_14_0)
+				ShipSkin.SetStoreChangeSkinId(var_14_0, var_13_0:GetShipPhantomMark())
 
 				if var_13_9 then
 					pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, arg_13_0:GetShipVO():GetShipPhantomMark())

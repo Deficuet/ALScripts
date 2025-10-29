@@ -28,16 +28,16 @@ var_0_0.panelNames = {
 }
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.panel = arg_2_0:findTF("index_panel")
+	arg_2_0.panel = arg_2_0._tf:Find("index_panel")
 	arg_2_0.displayTFs = {
-		arg_2_0:findTF("layout/sort", arg_2_0.panel),
-		arg_2_0:findTF("layout/index", arg_2_0.panel),
-		arg_2_0:findTF("layout/camp", arg_2_0.panel),
-		arg_2_0:findTF("layout/rarity", arg_2_0.panel),
-		arg_2_0:findTF("layout/extra", arg_2_0.panel),
-		arg_2_0:findTF("layout/EquipSkinSort", arg_2_0.panel),
-		arg_2_0:findTF("layout/EquipSkinIndex", arg_2_0.panel),
-		arg_2_0:findTF("layout/EquipSkinTheme", arg_2_0.panel)
+		arg_2_0.panel:Find("layout/sort"),
+		arg_2_0.panel:Find("layout/index"),
+		arg_2_0.panel:Find("layout/camp"),
+		arg_2_0.panel:Find("layout/rarity"),
+		arg_2_0.panel:Find("layout/extra"),
+		arg_2_0.panel:Find("layout/EquipSkinSort"),
+		arg_2_0.panel:Find("layout/EquipSkinIndex"),
+		arg_2_0.panel:Find("layout/EquipSkinTheme")
 	}
 
 	_.each(arg_2_0.displayTFs, function(arg_3_0)
@@ -51,11 +51,11 @@ function var_0_0.init(arg_2_0)
 
 	arg_2_0.displayList = {}
 	arg_2_0.typeList = {}
-	arg_2_0.btnConfirm = arg_2_0:findTF("layout/btns/ok", arg_2_0.panel)
-	arg_2_0.btnCancel = arg_2_0:findTF("layout/btns/cancel", arg_2_0.panel)
-	arg_2_0.greySprite = arg_2_0:findTF("resource/grey", arg_2_0.panel):GetComponent(typeof(Image)).sprite
-	arg_2_0.blueSprite = arg_2_0:findTF("resource/blue", arg_2_0.panel):GetComponent(typeof(Image)).sprite
-	arg_2_0.yellowSprite = arg_2_0:findTF("resource/yellow", arg_2_0.panel):GetComponent(typeof(Image)).sprite
+	arg_2_0.btnConfirm = arg_2_0.panel:Find("layout/btns/ok")
+	arg_2_0.btnCancel = arg_2_0.panel:Find("layout/btns/cancel")
+	arg_2_0.greySprite = arg_2_0.panel:Find("resource/grey"):GetComponent(typeof(Image)).sprite
+	arg_2_0.blueSprite = arg_2_0.panel:Find("resource/blue"):GetComponent(typeof(Image)).sprite
+	arg_2_0.yellowSprite = arg_2_0.panel:Find("resource/yellow"):GetComponent(typeof(Image)).sprite
 end
 
 function var_0_0.didEnter(arg_4_0)
@@ -80,7 +80,7 @@ function var_0_0.didEnter(arg_4_0)
 	onButton(arg_4_0, arg_4_0.btnCancel, function()
 		arg_4_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(arg_4_0, arg_4_0:findTF("btn", arg_4_0.panel), function()
+	onButton(arg_4_0, arg_4_0.panel:Find("btn"), function()
 		arg_4_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_CANCEL)
 
@@ -137,7 +137,7 @@ function var_0_0.initEquipSkinSort(arg_9_0)
 	arg_9_0.typeList[IndexConst.DisplayEquipSkinSort] = var_9_0
 
 	local var_9_1 = arg_9_0.displayTFs[IndexConst.DisplayEquipSkinSort]
-	local var_9_2 = UIItemList.New(arg_9_0:findTF("panel", var_9_1), arg_9_0:findTF("panel/tpl", var_9_1))
+	local var_9_2 = UIItemList.New(var_9_1:Find("panel"), var_9_1:Find("panel/tpl"))
 
 	var_9_2:make(function(arg_11_0, arg_11_1, arg_11_2)
 		if arg_11_0 == UIItemList.EventUpdate then
@@ -187,7 +187,7 @@ function var_0_0.initEquipSkinIndex(arg_15_0)
 	arg_15_0.typeList[IndexConst.DisplayEquipSkinIndex] = var_15_0
 
 	local var_15_1 = arg_15_0.displayTFs[IndexConst.DisplayEquipSkinIndex]
-	local var_15_2 = UIItemList.New(arg_15_0:findTF("panel", var_15_1), arg_15_0:findTF("panel/tpl", var_15_1))
+	local var_15_2 = UIItemList.New(var_15_1:Find("panel"), var_15_1:Find("panel/tpl"))
 
 	var_15_2:make(function(arg_17_0, arg_17_1, arg_17_2)
 		if arg_17_0 == UIItemList.EventUpdate then
@@ -238,7 +238,7 @@ function var_0_0.initEquipSkinTheme(arg_21_0)
 	arg_21_0.typeList[IndexConst.DisplayEquipSkinTheme] = var_21_0
 
 	local var_21_1 = arg_21_0.displayTFs[IndexConst.DisplayEquipSkinTheme]
-	local var_21_2 = UIItemList.New(arg_21_0:findTF("bg/panel", var_21_1), arg_21_0:findTF("bg/panel/tpl", var_21_1))
+	local var_21_2 = UIItemList.New(var_21_1:Find("bg/panel"), var_21_1:Find("bg/panel/tpl"))
 
 	var_21_2:make(function(arg_23_0, arg_23_1, arg_23_2)
 		if arg_23_0 == UIItemList.EventUpdate then
@@ -278,7 +278,7 @@ end
 
 function var_0_0.willExit(arg_27_0)
 	LeanTween.cancel(go(arg_27_0.panel))
-	pg.UIMgr.GetInstance():UnblurPanel(arg_27_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_27_0._tf)
 end
 
 return var_0_0

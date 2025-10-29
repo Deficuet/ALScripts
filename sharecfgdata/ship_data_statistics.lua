@@ -5,8 +5,9 @@
 		name = "汎用型ブリ",
 		type = 1,
 		oxy_cost = 0,
-		skin_id = 100000,
+		gift_dislike = "",
 		english_name = "UNIV Universal Bulin",
+		skin_id = 100000,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -240,7 +241,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -363,7 +368,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -490,6 +499,10 @@ end)()
 		},
 		tag_list = {
 			"Farragut-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -617,6 +630,10 @@ end)()
 		},
 		tag_list = {
 			"Farragut-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -744,6 +761,10 @@ end)()
 		},
 		tag_list = {
 			"Farragut-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -871,6 +892,10 @@ end)()
 		},
 		tag_list = {
 			"Farragut-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -998,6 +1023,10 @@ end)()
 		},
 		tag_list = {
 			"Mahan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -1125,6 +1154,10 @@ end)()
 		},
 		tag_list = {
 			"Mahan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -1252,6 +1285,10 @@ end)()
 		},
 		tag_list = {
 			"Mahan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -1379,6 +1416,10 @@ end)()
 		},
 		tag_list = {
 			"Mahan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -1506,6 +1547,10 @@ end)()
 		},
 		tag_list = {
 			"Mahan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -1633,6 +1678,10 @@ end)()
 		},
 		tag_list = {
 			"Mahan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -1760,6 +1809,10 @@ end)()
 		},
 		tag_list = {
 			"Mahan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -1887,6 +1940,10 @@ end)()
 		},
 		tag_list = {
 			"Mahan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -2015,6 +2072,10 @@ end)()
 		tag_list = {
 			"Gridley-Class",
 			"Gridley"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -2143,6 +2204,10 @@ end)()
 		tag_list = {
 			"Gridley-Class",
 			"Gridley"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -2271,6 +2336,10 @@ end)()
 		tag_list = {
 			"Gridley-Class",
 			"Gridley"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -2399,6 +2468,10 @@ end)()
 		tag_list = {
 			"Gridley-Class",
 			"Gridley"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -2526,6 +2599,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -2653,6 +2730,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -2780,6 +2861,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -2907,6 +2992,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -3034,6 +3123,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -3161,6 +3254,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -3288,6 +3385,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -3415,6 +3516,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -3542,6 +3647,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -3669,6 +3778,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -3796,6 +3909,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -3923,6 +4040,10 @@ end)()
 		},
 		tag_list = {
 			"Gridley-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -4050,6 +4171,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -4177,6 +4302,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -4304,6 +4433,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -4431,6 +4564,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -4559,6 +4696,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -4687,6 +4828,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -4815,6 +4960,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -4943,6 +5092,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -5071,6 +5224,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -5199,6 +5356,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -5327,6 +5488,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -5455,6 +5620,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -5583,6 +5752,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -5711,6 +5884,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -5839,6 +6016,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -5967,6 +6148,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -6095,6 +6280,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -6223,6 +6412,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -6351,6 +6544,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -6479,6 +6676,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -6607,6 +6808,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -6735,6 +6940,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -6863,6 +7072,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -6991,6 +7204,10 @@ end)()
 		tag_list = {
 			"Fletcher-Class",
 			"Little-Beavers"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -7118,6 +7335,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -7245,6 +7466,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -7372,6 +7597,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -7499,6 +7728,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -7626,6 +7859,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -7753,6 +7990,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -7880,6 +8121,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -8007,6 +8252,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -8134,6 +8383,10 @@ end)()
 		},
 		tag_list = {
 			"Sims-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -8261,6 +8514,10 @@ end)()
 		},
 		tag_list = {
 			"Sims-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -8388,6 +8645,10 @@ end)()
 		},
 		tag_list = {
 			"Sims-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -8515,6 +8776,10 @@ end)()
 		},
 		tag_list = {
 			"Sims-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -8642,6 +8907,10 @@ end)()
 		},
 		tag_list = {
 			"Sims-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -8769,6 +9038,10 @@ end)()
 		},
 		tag_list = {
 			"Sims-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -8896,6 +9169,10 @@ end)()
 		},
 		tag_list = {
 			"Sims-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -9023,6 +9300,10 @@ end)()
 		},
 		tag_list = {
 			"Sims-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -9148,7 +9429,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -9273,7 +9558,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -9398,7 +9687,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -9523,7 +9816,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -9650,6 +9947,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -9777,6 +10078,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -9904,6 +10209,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -10031,6 +10340,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -10158,6 +10471,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -10285,6 +10602,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -10412,6 +10733,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -10539,6 +10864,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -10666,6 +10995,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -10793,6 +11126,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -10920,6 +11257,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -11047,6 +11388,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -11174,6 +11519,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -11301,6 +11650,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -11428,6 +11781,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -11555,6 +11912,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -11682,6 +12043,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -11809,6 +12174,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -11936,6 +12305,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -12063,6 +12436,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -12190,6 +12567,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -12317,6 +12698,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -12444,6 +12829,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -12571,6 +12960,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -12698,6 +13091,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -12825,6 +13222,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -12952,6 +13353,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -13079,6 +13484,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -13206,6 +13615,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -13333,6 +13746,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -13460,6 +13877,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -13587,6 +14008,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -13714,6 +14139,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -13841,6 +14270,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -13968,6 +14401,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -14095,6 +14532,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -14222,6 +14663,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -14349,6 +14794,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -14476,6 +14925,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -14603,6 +15056,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -14730,6 +15187,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -14857,6 +15318,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -14984,6 +15449,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -15111,6 +15580,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -15238,6 +15711,10 @@ end)()
 		},
 		tag_list = {
 			"Farragut-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -15365,6 +15842,10 @@ end)()
 		},
 		tag_list = {
 			"Farragut-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -15492,6 +15973,10 @@ end)()
 		},
 		tag_list = {
 			"Farragut-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -15619,6 +16104,10 @@ end)()
 		},
 		tag_list = {
 			"Farragut-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -15746,6 +16235,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -15873,6 +16366,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -16000,6 +16497,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -16127,6 +16628,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -16254,6 +16759,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -16381,6 +16890,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -16508,6 +17021,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -16635,6 +17152,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -16762,6 +17283,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -16889,6 +17414,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -17016,6 +17545,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -17143,6 +17676,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -17270,6 +17807,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -17397,6 +17938,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -17524,6 +18069,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -17651,6 +18200,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -17778,6 +18331,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -17905,6 +18462,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -18032,6 +18593,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -18159,6 +18724,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -18286,6 +18855,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -18413,6 +18986,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -18540,6 +19117,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -18667,6 +19248,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -18794,6 +19379,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -18921,6 +19510,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -19048,6 +19641,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -19175,6 +19772,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -19302,6 +19903,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -19429,6 +20034,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -19556,6 +20165,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -19683,6 +20296,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -19810,6 +20427,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -19937,6 +20558,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -20064,6 +20689,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -20191,6 +20820,10 @@ end)()
 		},
 		tag_list = {
 			"Allen M. Sumner-class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -20320,6 +20953,10 @@ end)()
 			"Edsall-Class",
 			"Hammann",
 			"II"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -20449,6 +21086,10 @@ end)()
 			"Edsall-Class",
 			"Hammann",
 			"II"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -20578,6 +21219,10 @@ end)()
 			"Edsall-Class",
 			"Hammann",
 			"II"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -20707,6 +21352,10 @@ end)()
 			"Edsall-Class",
 			"Hammann",
 			"II"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -20837,6 +21486,10 @@ end)()
 			"Laffey II",
 			"Laffey",
 			"II"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -20967,6 +21620,10 @@ end)()
 			"Laffey II",
 			"Laffey",
 			"II"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -21097,6 +21754,10 @@ end)()
 			"Laffey II",
 			"Laffey",
 			"II"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -21227,6 +21888,10 @@ end)()
 			"Laffey II",
 			"Laffey",
 			"II"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -21354,6 +22019,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -21481,6 +22150,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -21608,6 +22281,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -21735,6 +22412,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -21862,6 +22543,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -21989,6 +22674,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -22116,6 +22805,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -22243,6 +22936,10 @@ end)()
 		},
 		tag_list = {
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -22368,7 +23065,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -22498,6 +23199,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -22628,6 +23333,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -22758,6 +23467,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -22888,6 +23601,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -23018,6 +23735,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -23148,6 +23869,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -23278,6 +24003,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -23408,6 +24137,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -23536,6 +24269,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -23664,6 +24401,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -23792,6 +24533,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -23920,6 +24665,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -24048,6 +24797,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -24176,6 +24929,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -24304,6 +25061,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -24432,6 +25193,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -24561,6 +25326,10 @@ end)()
 		tag_list = {
 			"Brooklyn-Class",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -24690,6 +25459,10 @@ end)()
 		tag_list = {
 			"Brooklyn-Class",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -24819,6 +25592,10 @@ end)()
 		tag_list = {
 			"Brooklyn-Class",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -24948,6 +25725,10 @@ end)()
 		tag_list = {
 			"Brooklyn-Class",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -25078,6 +25859,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -25208,6 +25993,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -25338,6 +26127,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -25468,6 +26261,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -25598,6 +26395,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -25728,6 +26529,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -25858,6 +26663,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -25988,6 +26797,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -26118,6 +26931,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -26248,6 +27065,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -26378,6 +27199,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -26508,6 +27333,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -26636,6 +27465,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -26764,6 +27597,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -26892,6 +27729,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -27020,6 +27861,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -27148,6 +27993,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -27276,6 +28125,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -27404,6 +28257,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -27532,6 +28389,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -27662,6 +28523,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -27792,6 +28657,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -27922,6 +28791,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -28052,6 +28925,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -28180,6 +29057,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -28308,6 +29189,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -28436,6 +29321,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -28564,6 +29453,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -28692,6 +29585,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -28820,6 +29717,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -28948,6 +29849,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -29076,6 +29981,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -29204,6 +30113,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -29332,6 +30245,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -29460,6 +30377,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -29588,6 +30509,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -29716,6 +30641,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -29844,6 +30773,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -29972,6 +30905,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -30100,6 +31037,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -30231,6 +31172,10 @@ end)()
 		tag_list = {
 			"Omaha-Class",
 			"MemphisOrigin"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -30362,6 +31307,10 @@ end)()
 		tag_list = {
 			"Omaha-Class",
 			"MemphisOrigin"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -30493,6 +31442,10 @@ end)()
 		tag_list = {
 			"Omaha-Class",
 			"MemphisOrigin"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -30624,6 +31577,10 @@ end)()
 		tag_list = {
 			"Omaha-Class",
 			"MemphisOrigin"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -30754,6 +31711,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -30884,6 +31845,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -31014,6 +31979,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -31144,6 +32113,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -31274,6 +32247,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -31406,6 +32383,10 @@ end)()
 			"Helena",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -31538,6 +32519,10 @@ end)()
 			"Helena",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -31670,6 +32655,10 @@ end)()
 			"Helena",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -31802,6 +32791,10 @@ end)()
 			"Helena",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -31933,6 +32926,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -32064,6 +33061,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -32195,6 +33196,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -32326,6 +33331,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -32460,6 +33469,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -32594,6 +33607,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -32728,6 +33745,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -32862,6 +33883,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -32992,6 +34017,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -33122,6 +34151,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -33252,6 +34285,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -33382,6 +34419,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -33511,6 +34552,10 @@ end)()
 		tag_list = {
 			"Cleveland-Class",
 			"Birmingham"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -33640,6 +34685,10 @@ end)()
 		tag_list = {
 			"Cleveland-Class",
 			"Birmingham"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -33769,6 +34818,10 @@ end)()
 		tag_list = {
 			"Cleveland-Class",
 			"Birmingham"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -33898,6 +34951,10 @@ end)()
 		tag_list = {
 			"Cleveland-Class",
 			"Birmingham"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -34028,6 +35085,10 @@ end)()
 			"Cleveland-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -34158,6 +35219,10 @@ end)()
 			"Cleveland-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -34288,6 +35353,10 @@ end)()
 			"Cleveland-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -34418,6 +35487,10 @@ end)()
 			"Cleveland-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -34546,6 +35619,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -34674,6 +35751,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -34802,6 +35883,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -34930,6 +36015,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -35061,6 +36150,10 @@ end)()
 		tag_list = {
 			"Atlanta-Class",
 			"Reno"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -35192,6 +36285,10 @@ end)()
 		tag_list = {
 			"Atlanta-Class",
 			"Reno"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -35323,6 +36420,10 @@ end)()
 		tag_list = {
 			"Atlanta-Class",
 			"Reno"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -35454,6 +36555,10 @@ end)()
 		tag_list = {
 			"Atlanta-Class",
 			"Reno"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -35584,6 +36689,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -35714,6 +36823,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -35844,6 +36957,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -35974,6 +37091,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -36103,6 +37224,10 @@ end)()
 		tag_list = {
 			"Brooklyn-Class",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -36231,6 +37356,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -36359,6 +37488,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -36487,6 +37620,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -36615,6 +37752,10 @@ end)()
 		},
 		tag_list = {
 			"Brooklyn-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -36745,6 +37886,10 @@ end)()
 		},
 		tag_list = {
 			"Atlanta-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -36873,6 +38018,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -37001,6 +38150,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -37129,6 +38282,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -37257,6 +38414,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -37387,6 +38548,10 @@ end)()
 			"Brooklyn-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -37517,6 +38682,10 @@ end)()
 			"Brooklyn-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -37647,6 +38816,10 @@ end)()
 			"Brooklyn-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -37777,6 +38950,10 @@ end)()
 			"Brooklyn-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -37906,6 +39083,10 @@ end)()
 		tag_list = {
 			"Fargo-Class",
 			"Fargo"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -38035,6 +39216,10 @@ end)()
 		tag_list = {
 			"Fargo-Class",
 			"Fargo"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -38164,6 +39349,10 @@ end)()
 		tag_list = {
 			"Fargo-Class",
 			"Fargo"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -38293,6 +39482,10 @@ end)()
 		tag_list = {
 			"Fargo-Class",
 			"Fargo"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -38421,6 +39614,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -38549,6 +39746,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -38677,6 +39878,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -38805,6 +40010,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -38932,6 +40141,10 @@ end)()
 		},
 		tag_list = {
 			"Pensacola-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -39059,6 +40272,10 @@ end)()
 		},
 		tag_list = {
 			"Pensacola-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -39186,6 +40403,10 @@ end)()
 		},
 		tag_list = {
 			"Pensacola-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -39313,6 +40534,10 @@ end)()
 		},
 		tag_list = {
 			"Pensacola-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -39440,6 +40665,10 @@ end)()
 		},
 		tag_list = {
 			"Pensacola-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -39567,6 +40796,10 @@ end)()
 		},
 		tag_list = {
 			"Pensacola-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -39694,6 +40927,10 @@ end)()
 		},
 		tag_list = {
 			"Pensacola-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -39821,6 +41058,10 @@ end)()
 		},
 		tag_list = {
 			"Pensacola-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -39948,6 +41189,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -40075,6 +41320,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -40202,6 +41451,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -40329,6 +41582,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -40456,6 +41713,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -40583,6 +41844,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -40710,6 +41975,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -40837,6 +42106,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -40964,6 +42237,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -41091,6 +42368,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -41218,6 +42499,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -41345,6 +42630,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -41472,6 +42761,10 @@ end)()
 		},
 		tag_list = {
 			"Portland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -41599,6 +42892,10 @@ end)()
 		},
 		tag_list = {
 			"Portland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -41726,6 +43023,10 @@ end)()
 		},
 		tag_list = {
 			"Portland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -41853,6 +43154,10 @@ end)()
 		},
 		tag_list = {
 			"Portland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -41981,6 +43286,10 @@ end)()
 		tag_list = {
 			"Portland-Class",
 			"Indianapolis"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -42109,6 +43418,10 @@ end)()
 		tag_list = {
 			"Portland-Class",
 			"Indianapolis"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -42237,6 +43550,10 @@ end)()
 		tag_list = {
 			"Portland-Class",
 			"Indianapolis"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -42365,6 +43682,10 @@ end)()
 		tag_list = {
 			"Portland-Class",
 			"Indianapolis"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -42492,6 +43813,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -42619,6 +43944,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -42746,6 +44075,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -42873,6 +44206,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -43000,6 +44337,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -43127,6 +44468,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -43254,6 +44599,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -43381,6 +44730,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -43508,6 +44861,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -43635,6 +44992,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -43762,6 +45123,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -43889,6 +45254,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -44014,7 +45383,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -44139,7 +45512,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -44264,7 +45641,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -44389,7 +45770,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -44516,6 +45901,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -44643,6 +46032,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -44770,6 +46163,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -44897,6 +46294,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -45024,6 +46425,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -45151,6 +46556,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -45278,6 +46687,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -45405,6 +46818,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -45532,6 +46949,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -45659,6 +47080,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -45786,6 +47211,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -45913,6 +47342,10 @@ end)()
 		},
 		tag_list = {
 			"Astoria-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -46040,6 +47473,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -46167,6 +47604,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -46294,6 +47735,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -46421,6 +47866,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -46548,6 +47997,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -46675,6 +48128,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -46802,6 +48259,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -46929,6 +48390,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -47058,6 +48523,10 @@ end)()
 			"Baltimore-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -47187,6 +48656,10 @@ end)()
 			"Baltimore-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -47316,6 +48789,10 @@ end)()
 			"Baltimore-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -47445,6 +48922,10 @@ end)()
 			"Baltimore-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -47573,6 +49054,10 @@ end)()
 		tag_list = {
 			"OregonCity-Class",
 			"NASELF"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -47701,6 +49186,10 @@ end)()
 		tag_list = {
 			"OregonCity-Class",
 			"NASELF"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -47829,6 +49318,10 @@ end)()
 		tag_list = {
 			"OregonCity-Class",
 			"NASELF"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -47957,6 +49450,10 @@ end)()
 		tag_list = {
 			"OregonCity-Class",
 			"NASELF"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -48084,6 +49581,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -48211,6 +49712,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -48338,6 +49843,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -48465,6 +49974,10 @@ end)()
 		},
 		tag_list = {
 			"Northampton-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -48593,6 +50106,10 @@ end)()
 		tag_list = {
 			"Baltimore-Class",
 			"Pittsburgh"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -48721,6 +50238,10 @@ end)()
 		tag_list = {
 			"Baltimore-Class",
 			"Pittsburgh"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -48849,6 +50370,10 @@ end)()
 		tag_list = {
 			"Baltimore-Class",
 			"Pittsburgh"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -48977,6 +50502,10 @@ end)()
 		tag_list = {
 			"Baltimore-Class",
 			"Pittsburgh"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -49108,6 +50637,10 @@ end)()
 			"special",
 			"Little-series",
 			"Anchorage"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -49239,6 +50772,10 @@ end)()
 			"special",
 			"Little-series",
 			"Anchorage"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -49370,6 +50907,10 @@ end)()
 			"special",
 			"Little-series",
 			"Anchorage"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -49501,6 +51042,10 @@ end)()
 			"special",
 			"Little-series",
 			"Anchorage"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -49628,6 +51173,10 @@ end)()
 		tag_list = {
 			"Constellation",
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -49755,6 +51304,10 @@ end)()
 		tag_list = {
 			"Constellation",
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -49882,6 +51435,10 @@ end)()
 		tag_list = {
 			"Constellation",
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -50009,6 +51566,10 @@ end)()
 		tag_list = {
 			"Constellation",
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -50136,6 +51697,10 @@ end)()
 		},
 		tag_list = {
 			"Nevada-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -50263,6 +51828,10 @@ end)()
 		},
 		tag_list = {
 			"Nevada-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -50390,6 +51959,10 @@ end)()
 		},
 		tag_list = {
 			"Nevada-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -50517,6 +52090,10 @@ end)()
 		},
 		tag_list = {
 			"Nevada-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -50644,6 +52221,10 @@ end)()
 		},
 		tag_list = {
 			"Nevada-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -50771,6 +52352,10 @@ end)()
 		},
 		tag_list = {
 			"Nevada-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -50898,6 +52483,10 @@ end)()
 		},
 		tag_list = {
 			"Nevada-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -51025,6 +52614,10 @@ end)()
 		},
 		tag_list = {
 			"Nevada-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -51152,6 +52745,10 @@ end)()
 		},
 		tag_list = {
 			"Pennsylvania-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -51279,6 +52876,10 @@ end)()
 		},
 		tag_list = {
 			"Pennsylvania-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -51406,6 +53007,10 @@ end)()
 		},
 		tag_list = {
 			"Pennsylvania-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -51533,6 +53138,10 @@ end)()
 		},
 		tag_list = {
 			"Pennsylvania-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -51661,6 +53270,10 @@ end)()
 		tag_list = {
 			"Pennsylvania-Class",
 			"ArizonaHA"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -51789,6 +53402,10 @@ end)()
 		tag_list = {
 			"Pennsylvania-Class",
 			"ArizonaHA"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -51917,6 +53534,10 @@ end)()
 		tag_list = {
 			"Pennsylvania-Class",
 			"ArizonaHA"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -52045,6 +53666,10 @@ end)()
 		tag_list = {
 			"Pennsylvania-Class",
 			"ArizonaHA"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -52172,6 +53797,10 @@ end)()
 		},
 		tag_list = {
 			"Tennessee-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -52299,6 +53928,10 @@ end)()
 		},
 		tag_list = {
 			"Tennessee-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -52426,6 +54059,10 @@ end)()
 		},
 		tag_list = {
 			"Tennessee-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -52553,6 +54190,10 @@ end)()
 		},
 		tag_list = {
 			"Tennessee-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -52680,6 +54321,10 @@ end)()
 		},
 		tag_list = {
 			"Tennessee-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -52807,6 +54452,10 @@ end)()
 		},
 		tag_list = {
 			"Tennessee-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -52934,6 +54583,10 @@ end)()
 		},
 		tag_list = {
 			"Tennessee-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -53061,6 +54714,10 @@ end)()
 		},
 		tag_list = {
 			"Tennessee-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -53189,6 +54846,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -53317,6 +54978,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -53445,6 +55110,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -53573,6 +55242,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -53701,6 +55374,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -53829,6 +55506,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -53957,6 +55638,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -54085,6 +55770,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -54213,6 +55902,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -54341,6 +56034,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -54469,6 +56166,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -54597,6 +56298,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -54725,6 +56430,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -54853,6 +56562,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -54981,6 +56694,10 @@ end)()
 		tag_list = {
 			"Colorado-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -55108,6 +56825,10 @@ end)()
 		},
 		tag_list = {
 			"North Carolina-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -55235,6 +56956,10 @@ end)()
 		},
 		tag_list = {
 			"North Carolina-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -55362,6 +57087,10 @@ end)()
 		},
 		tag_list = {
 			"North Carolina-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -55489,6 +57218,10 @@ end)()
 		},
 		tag_list = {
 			"North Carolina-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -55617,6 +57350,10 @@ end)()
 		tag_list = {
 			"North Carolina-Class",
 			"Washington"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -55745,6 +57482,10 @@ end)()
 		tag_list = {
 			"North Carolina-Class",
 			"Washington"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -55873,6 +57614,10 @@ end)()
 		tag_list = {
 			"North Carolina-Class",
 			"Washington"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -56001,6 +57746,10 @@ end)()
 		tag_list = {
 			"North Carolina-Class",
 			"Washington"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -56129,6 +57878,10 @@ end)()
 		tag_list = {
 			"South Dakota-Class",
 			"South Dakota"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -56257,6 +58010,10 @@ end)()
 		tag_list = {
 			"South Dakota-Class",
 			"South Dakota"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -56385,6 +58142,10 @@ end)()
 		tag_list = {
 			"South Dakota-Class",
 			"South Dakota"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -56513,6 +58274,10 @@ end)()
 		tag_list = {
 			"South Dakota-Class",
 			"South Dakota"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -56641,6 +58406,10 @@ end)()
 		tag_list = {
 			"South Dakota-Class",
 			"Indiana"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -56769,6 +58538,10 @@ end)()
 		tag_list = {
 			"South Dakota-Class",
 			"Indiana"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -56897,6 +58670,10 @@ end)()
 		tag_list = {
 			"South Dakota-Class",
 			"Indiana"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -57025,6 +58802,10 @@ end)()
 		tag_list = {
 			"South Dakota-Class",
 			"Indiana"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -57153,6 +58934,10 @@ end)()
 		tag_list = {
 			"Iowa-Class",
 			"New Jersey"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -57281,6 +59066,10 @@ end)()
 		tag_list = {
 			"Iowa-Class",
 			"New Jersey"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -57409,6 +59198,10 @@ end)()
 		tag_list = {
 			"Iowa-Class",
 			"New Jersey"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -57537,6 +59330,10 @@ end)()
 		tag_list = {
 			"Iowa-Class",
 			"New Jersey"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -57664,6 +59461,10 @@ end)()
 		},
 		tag_list = {
 			"South Dakota-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -57791,6 +59592,10 @@ end)()
 		},
 		tag_list = {
 			"South Dakota-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -57918,6 +59723,10 @@ end)()
 		},
 		tag_list = {
 			"South Dakota-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -58045,6 +59854,10 @@ end)()
 		},
 		tag_list = {
 			"South Dakota-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -58172,6 +59985,10 @@ end)()
 		},
 		tag_list = {
 			"South Dakota-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -58299,6 +60116,10 @@ end)()
 		},
 		tag_list = {
 			"South Dakota-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -58426,6 +60247,10 @@ end)()
 		},
 		tag_list = {
 			"South Dakota-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -58553,6 +60378,10 @@ end)()
 		},
 		tag_list = {
 			"South Dakota-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -58679,6 +60508,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -58805,6 +60638,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -58931,6 +60768,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -59057,6 +60898,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -59184,6 +61029,10 @@ end)()
 		tag_list = {
 			"Bogue-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -59311,6 +61160,10 @@ end)()
 		tag_list = {
 			"Bogue-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -59438,6 +61291,10 @@ end)()
 		tag_list = {
 			"Bogue-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -59565,6 +61422,10 @@ end)()
 		tag_list = {
 			"Bogue-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -59691,6 +61552,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -59817,6 +61682,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -59943,6 +61812,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -60069,6 +61942,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -60195,6 +62072,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -60321,6 +62202,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -60447,6 +62332,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -60573,6 +62462,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -60700,6 +62593,10 @@ end)()
 		},
 		tag_list = {
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -60827,6 +62724,10 @@ end)()
 		},
 		tag_list = {
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -60954,6 +62855,10 @@ end)()
 		},
 		tag_list = {
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -61081,6 +62986,10 @@ end)()
 		},
 		tag_list = {
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -61208,6 +63117,10 @@ end)()
 		},
 		tag_list = {
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -61335,6 +63248,10 @@ end)()
 		},
 		tag_list = {
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -61462,6 +63379,10 @@ end)()
 		},
 		tag_list = {
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -61589,6 +63510,10 @@ end)()
 		},
 		tag_list = {
 			"Lexington-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -61715,6 +63640,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -61841,6 +63770,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -61967,6 +63900,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -62093,6 +64030,10 @@ end)()
 		},
 		tag_list = {
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -62220,6 +64161,10 @@ end)()
 		},
 		tag_list = {
 			"Yorktown-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -62347,6 +64292,10 @@ end)()
 		},
 		tag_list = {
 			"Yorktown-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -62474,6 +64423,10 @@ end)()
 		},
 		tag_list = {
 			"Yorktown-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -62601,6 +64554,10 @@ end)()
 		},
 		tag_list = {
 			"Yorktown-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -62729,6 +64686,10 @@ end)()
 		tag_list = {
 			"Yorktown-Class",
 			"Enterprize"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -62857,6 +64818,10 @@ end)()
 		tag_list = {
 			"Yorktown-Class",
 			"Enterprize"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -62985,6 +64950,10 @@ end)()
 		tag_list = {
 			"Yorktown-Class",
 			"Enterprize"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -63113,6 +65082,10 @@ end)()
 		tag_list = {
 			"Yorktown-Class",
 			"Enterprize"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -63240,6 +65213,10 @@ end)()
 		},
 		tag_list = {
 			"Yorktown-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -63367,6 +65344,10 @@ end)()
 		},
 		tag_list = {
 			"Yorktown-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -63494,6 +65475,10 @@ end)()
 		},
 		tag_list = {
 			"Yorktown-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -63621,6 +65606,10 @@ end)()
 		},
 		tag_list = {
 			"Yorktown-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -63746,7 +65735,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -63871,7 +65864,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -63996,7 +65993,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -64121,7 +66122,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -64249,6 +66254,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -64377,6 +66386,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -64505,6 +66518,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -64633,6 +66650,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -64762,6 +66783,10 @@ end)()
 			"Essex-Class",
 			"Yorktown II",
 			"Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -64891,6 +66916,10 @@ end)()
 			"Essex-Class",
 			"Yorktown II",
 			"Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -65020,6 +67049,10 @@ end)()
 			"Essex-Class",
 			"Yorktown II",
 			"Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -65149,6 +67182,10 @@ end)()
 			"Essex-Class",
 			"Yorktown II",
 			"Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -65277,6 +67314,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -65405,6 +67446,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -65533,6 +67578,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -65661,6 +67710,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -65789,6 +67842,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -65917,6 +67974,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -66045,6 +68106,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -66173,6 +68238,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -66301,6 +68370,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -66429,6 +68502,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -66557,6 +68634,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -66685,6 +68766,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -66813,6 +68898,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -66941,6 +69030,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -67069,6 +69162,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -67197,6 +69294,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -67325,6 +69426,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -67453,6 +69558,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -67581,6 +69690,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -67709,6 +69822,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -67836,6 +69953,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -67963,6 +70084,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -68090,6 +70215,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -68217,6 +70346,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -68345,6 +70478,10 @@ end)()
 			"Independence-Class",
 			"Eagle Union-CVL",
 			"Princeton"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -68473,6 +70610,10 @@ end)()
 			"Independence-Class",
 			"Eagle Union-CVL",
 			"Princeton"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -68601,6 +70742,10 @@ end)()
 			"Independence-Class",
 			"Eagle Union-CVL",
 			"Princeton"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -68729,6 +70874,10 @@ end)()
 			"Independence-Class",
 			"Eagle Union-CVL",
 			"Princeton"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -68856,6 +71005,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -68983,6 +71136,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -69110,6 +71267,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -69237,6 +71398,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -69364,6 +71529,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -69491,6 +71660,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -69618,6 +71791,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -69745,6 +71922,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -69873,6 +72054,10 @@ end)()
 			"Independence-Class",
 			"Eagle Union-CVL",
 			"SANJ_5"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -70001,6 +72186,10 @@ end)()
 			"Independence-Class",
 			"Eagle Union-CVL",
 			"SANJ_5"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -70129,6 +72318,10 @@ end)()
 			"Independence-Class",
 			"Eagle Union-CVL",
 			"SANJ_5"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -70257,6 +72450,10 @@ end)()
 			"Independence-Class",
 			"Eagle Union-CVL",
 			"SANJ_5"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -70385,6 +72582,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -70513,6 +72714,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -70641,6 +72846,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -70769,6 +72978,143 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[107974] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "エセックス改",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 107090,
+		english_name = "USS Essex",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 1,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 107974,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2730,
+			0,
+			0,
+			155,
+			206,
+			48,
+			0,
+			30,
+			13,
+			33,
+			90,
+			0
+		},
+		attrs_growth = {
+			29755,
+			0,
+			0,
+			1329,
+			1018,
+			333,
+			0,
+			450,
+			327,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Essex-Class",
+			"Essex-Class-No-Yorktown",
+			"EssexG"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -70896,6 +73242,10 @@ end)()
 		tag_list = {
 			"Independence-Class",
 			"Eagle Union-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -71026,6 +73376,10 @@ end)()
 			"special",
 			"Enterprize",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -71156,6 +73510,10 @@ end)()
 			"special",
 			"Enterprize",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -71286,6 +73644,10 @@ end)()
 			"special",
 			"Enterprize",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -71416,6 +73778,10 @@ end)()
 			"special",
 			"Enterprize",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -71648,6 +74014,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -71880,6 +74250,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -72112,6 +74486,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -72344,6 +74722,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -72585,6 +74967,10 @@ end)()
 		tag_list = {
 			"Gato-Class",
 			"Albacore"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -72826,6 +75212,10 @@ end)()
 		tag_list = {
 			"Gato-Class",
 			"Albacore"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -73067,6 +75457,10 @@ end)()
 		tag_list = {
 			"Gato-Class",
 			"Albacore"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -73308,6 +75702,10 @@ end)()
 		tag_list = {
 			"Gato-Class",
 			"Albacore"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -73548,6 +75946,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -73788,6 +76190,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -74028,6 +76434,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -74268,6 +76678,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -74500,6 +76914,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -74732,6 +77150,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -74964,6 +77386,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -75196,6 +77622,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -75431,6 +77861,10 @@ end)()
 			"μ",
 			"Albacore",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -75666,6 +78100,10 @@ end)()
 			"μ",
 			"Albacore",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -75901,6 +78339,10 @@ end)()
 			"μ",
 			"Albacore",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -76136,6 +78578,10 @@ end)()
 			"μ",
 			"Albacore",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -76376,6 +78822,10 @@ end)()
 		},
 		tag_list = {
 			"Balao-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -76616,6 +79066,10 @@ end)()
 		},
 		tag_list = {
 			"Balao-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -76856,6 +79310,10 @@ end)()
 		},
 		tag_list = {
 			"Balao-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -77096,6 +79554,10 @@ end)()
 		},
 		tag_list = {
 			"Balao-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -77328,6 +79790,10 @@ end)()
 		},
 		tag_list = {
 			"Narwhal-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -77560,6 +80026,10 @@ end)()
 		},
 		tag_list = {
 			"Narwhal-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -77792,6 +80262,10 @@ end)()
 		},
 		tag_list = {
 			"Narwhal-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -78024,6 +80498,10 @@ end)()
 		},
 		tag_list = {
 			"Narwhal-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -78264,6 +80742,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -78504,6 +80986,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -78744,6 +81230,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -78984,6 +81474,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -79216,6 +81710,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -79448,6 +81946,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -79680,6 +82182,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -79912,6 +82418,10 @@ end)()
 		},
 		tag_list = {
 			"Gato-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -80042,7 +82552,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -80172,7 +82686,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -80302,7 +82820,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -80432,7 +82954,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -80560,6 +83086,10 @@ end)()
 		tag_list = {
 			"Alaska-Class",
 			"GUAM"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -80688,6 +83218,10 @@ end)()
 		tag_list = {
 			"Alaska-Class",
 			"GUAM"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -80816,6 +83350,10 @@ end)()
 		tag_list = {
 			"Alaska-Class",
 			"GUAM"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -80944,6 +83482,10 @@ end)()
 		tag_list = {
 			"Alaska-Class",
 			"GUAM"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -81069,7 +83611,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -81194,7 +83740,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -81319,7 +83869,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -81444,7 +83998,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -81571,6 +84129,10 @@ end)()
 		},
 		tag_list = {
 			"A-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -81698,6 +84260,10 @@ end)()
 		},
 		tag_list = {
 			"A-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -81825,6 +84391,10 @@ end)()
 		},
 		tag_list = {
 			"A-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -81952,6 +84522,10 @@ end)()
 		},
 		tag_list = {
 			"A-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -82079,6 +84653,10 @@ end)()
 		},
 		tag_list = {
 			"A-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -82206,6 +84784,10 @@ end)()
 		},
 		tag_list = {
 			"A-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -82333,6 +84915,10 @@ end)()
 		},
 		tag_list = {
 			"A-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -82460,6 +85046,10 @@ end)()
 		},
 		tag_list = {
 			"A-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -82587,6 +85177,10 @@ end)()
 		},
 		tag_list = {
 			"B-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -82714,6 +85308,10 @@ end)()
 		},
 		tag_list = {
 			"B-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -82841,6 +85439,10 @@ end)()
 		},
 		tag_list = {
 			"B-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -82968,6 +85570,10 @@ end)()
 		},
 		tag_list = {
 			"B-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -83095,6 +85701,10 @@ end)()
 		},
 		tag_list = {
 			"B-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -83222,6 +85832,10 @@ end)()
 		},
 		tag_list = {
 			"B-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -83349,6 +85963,10 @@ end)()
 		},
 		tag_list = {
 			"B-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -83476,6 +86094,10 @@ end)()
 		},
 		tag_list = {
 			"B-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -83603,6 +86225,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -83730,6 +86356,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -83857,6 +86487,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -83984,6 +86618,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -84111,6 +86749,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -84238,6 +86880,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -84365,6 +87011,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -84492,6 +87142,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -84619,6 +87273,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -84746,6 +87404,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -84873,6 +87535,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -85000,6 +87666,10 @@ end)()
 		},
 		tag_list = {
 			"C-Class"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -85127,6 +87797,10 @@ end)()
 		},
 		tag_list = {
 			"F-Class"
+		},
+		gift_dislike = {
+			180008,
+			180006
 		}
 	}
 end)()
@@ -85254,6 +87928,10 @@ end)()
 		},
 		tag_list = {
 			"F-Class"
+		},
+		gift_dislike = {
+			180008,
+			180006
 		}
 	}
 end)()
@@ -85381,6 +88059,10 @@ end)()
 		},
 		tag_list = {
 			"F-Class"
+		},
+		gift_dislike = {
+			180008,
+			180006
 		}
 	}
 end)()
@@ -85508,6 +88190,10 @@ end)()
 		},
 		tag_list = {
 			"F-Class"
+		},
+		gift_dislike = {
+			180008,
+			180006
 		}
 	}
 end)()
@@ -85635,6 +88321,10 @@ end)()
 		},
 		tag_list = {
 			"F-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -85762,6 +88452,10 @@ end)()
 		},
 		tag_list = {
 			"F-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -85889,6 +88583,10 @@ end)()
 		},
 		tag_list = {
 			"F-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -86016,6 +88714,10 @@ end)()
 		},
 		tag_list = {
 			"F-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -86143,6 +88845,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -86270,6 +88976,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -86397,6 +89107,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -86524,6 +89238,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -86651,6 +89369,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -86778,6 +89500,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -86905,6 +89631,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -87032,6 +89762,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -87159,6 +89893,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -87286,6 +90024,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -87413,6 +90155,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -87540,6 +90286,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -87667,6 +90417,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -87794,6 +90548,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -87921,6 +90679,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -88048,6 +90810,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -88175,6 +90941,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -88302,6 +91072,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -88429,6 +91203,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -88556,6 +91334,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -88684,6 +91466,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -88812,6 +91598,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -88940,6 +91730,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -89068,6 +91862,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -89196,6 +91994,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -89324,6 +92126,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -89452,6 +92258,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -89580,6 +92390,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -89707,6 +92521,10 @@ end)()
 		},
 		tag_list = {
 			"Old V-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -89834,6 +92652,10 @@ end)()
 		},
 		tag_list = {
 			"Old V-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -89961,6 +92783,10 @@ end)()
 		},
 		tag_list = {
 			"Old V-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -90088,6 +92914,10 @@ end)()
 		},
 		tag_list = {
 			"Old V-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -90216,6 +93046,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -90344,6 +93178,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -90472,6 +93310,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -90600,6 +93442,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -90727,6 +93573,10 @@ end)()
 		},
 		tag_list = {
 			"J-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -90854,6 +93704,10 @@ end)()
 		},
 		tag_list = {
 			"J-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -90981,6 +93835,10 @@ end)()
 		},
 		tag_list = {
 			"J-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -91108,6 +93966,10 @@ end)()
 		},
 		tag_list = {
 			"J-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -91235,6 +94097,10 @@ end)()
 		},
 		tag_list = {
 			"M-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -91362,6 +94228,10 @@ end)()
 		},
 		tag_list = {
 			"M-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -91489,6 +94359,10 @@ end)()
 		},
 		tag_list = {
 			"M-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -91616,6 +94490,10 @@ end)()
 		},
 		tag_list = {
 			"M-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -91743,6 +94621,10 @@ end)()
 		},
 		tag_list = {
 			"M-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -91870,6 +94752,10 @@ end)()
 		},
 		tag_list = {
 			"M-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -91997,6 +94883,10 @@ end)()
 		},
 		tag_list = {
 			"M-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -92124,6 +95014,10 @@ end)()
 		},
 		tag_list = {
 			"M-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -92251,6 +95145,10 @@ end)()
 		},
 		tag_list = {
 			"E-Class"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -92378,6 +95276,10 @@ end)()
 		},
 		tag_list = {
 			"E-Class"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -92505,6 +95407,10 @@ end)()
 		},
 		tag_list = {
 			"E-Class"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -92632,6 +95538,10 @@ end)()
 		},
 		tag_list = {
 			"E-Class"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -92759,6 +95669,10 @@ end)()
 		},
 		tag_list = {
 			"Tribal-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -92886,6 +95800,10 @@ end)()
 		},
 		tag_list = {
 			"Tribal-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -93013,6 +95931,10 @@ end)()
 		},
 		tag_list = {
 			"Tribal-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -93140,6 +96062,10 @@ end)()
 		},
 		tag_list = {
 			"Tribal-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -93267,6 +96193,10 @@ end)()
 		},
 		tag_list = {
 			"I-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -93394,6 +96324,10 @@ end)()
 		},
 		tag_list = {
 			"I-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -93521,6 +96455,10 @@ end)()
 		},
 		tag_list = {
 			"I-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -93648,6 +96586,10 @@ end)()
 		},
 		tag_list = {
 			"I-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -93777,6 +96719,10 @@ end)()
 			"J-Class",
 			"Jervis",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -93906,6 +96852,10 @@ end)()
 			"J-Class",
 			"Jervis",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -94035,6 +96985,10 @@ end)()
 			"J-Class",
 			"Jervis",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -94164,6 +97118,10 @@ end)()
 			"J-Class",
 			"Jervis",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -94292,6 +97250,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -94420,6 +97382,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -94548,6 +97514,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -94676,6 +97646,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -94803,6 +97777,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -94930,6 +97908,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -95057,6 +98039,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -95184,6 +98170,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -95311,6 +98301,10 @@ end)()
 		},
 		tag_list = {
 			"Tribal-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -95438,6 +98432,10 @@ end)()
 		},
 		tag_list = {
 			"Tribal-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -95565,6 +98563,10 @@ end)()
 		},
 		tag_list = {
 			"Tribal-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -95692,6 +98694,10 @@ end)()
 		},
 		tag_list = {
 			"Tribal-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -95820,6 +98826,10 @@ end)()
 		tag_list = {
 			"Battle-Class",
 			"Trafalgar"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -95948,6 +98958,10 @@ end)()
 		tag_list = {
 			"Battle-Class",
 			"Trafalgar"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -96076,6 +99090,10 @@ end)()
 		tag_list = {
 			"Battle-Class",
 			"Trafalgar"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -96204,6 +99222,10 @@ end)()
 		tag_list = {
 			"Battle-Class",
 			"Trafalgar"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -96329,7 +99351,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -96456,6 +99482,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -96586,6 +99616,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -96716,6 +99750,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -96846,6 +99884,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -96976,6 +100018,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -97106,6 +100152,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -97236,6 +100286,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -97366,6 +100420,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -97496,6 +100554,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -97626,6 +100688,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -97756,6 +100822,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -97886,6 +100956,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -98016,6 +101090,10 @@ end)()
 		},
 		tag_list = {
 			"Leander-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -98146,6 +101224,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -98276,6 +101358,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -98406,6 +101492,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -98536,6 +101626,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -98666,6 +101760,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180002,
+			180005
 		}
 	}
 end)()
@@ -98796,6 +101894,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180002,
+			180005
 		}
 	}
 end)()
@@ -98926,6 +102028,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180002,
+			180005
 		}
 	}
 end)()
@@ -99056,6 +102162,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180002,
+			180005
 		}
 	}
 end)()
@@ -99187,6 +102297,10 @@ end)()
 		tag_list = {
 			"Town-Class",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -99318,6 +102432,10 @@ end)()
 		tag_list = {
 			"Town-Class",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -99449,6 +102567,10 @@ end)()
 		tag_list = {
 			"Town-Class",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -99580,6 +102702,10 @@ end)()
 		tag_list = {
 			"Town-Class",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -99710,6 +102836,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -99840,6 +102970,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -99970,6 +103104,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -100100,6 +103238,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -100230,6 +103372,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -100360,6 +103506,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -100490,6 +103640,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -100620,6 +103774,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -100750,6 +103908,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -100880,6 +104042,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -101010,6 +104176,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -101140,6 +104310,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -101270,6 +104444,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -101400,6 +104578,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -101530,6 +104712,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -101660,6 +104846,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -101790,6 +104980,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -101920,6 +105114,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -102050,6 +105248,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -102180,6 +105382,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -102310,6 +105516,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -102440,6 +105650,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -102570,6 +105784,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -102700,6 +105918,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -102830,6 +106052,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -102960,6 +106186,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -103090,6 +106320,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -103220,6 +106454,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -103350,6 +106588,10 @@ end)()
 		},
 		tag_list = {
 			"Crown Colony-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -103480,6 +106722,10 @@ end)()
 		},
 		tag_list = {
 			"Crown Colony-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -103610,6 +106856,10 @@ end)()
 		},
 		tag_list = {
 			"Crown Colony-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -103740,6 +106990,10 @@ end)()
 		},
 		tag_list = {
 			"Crown Colony-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -103870,6 +107124,10 @@ end)()
 		},
 		tag_list = {
 			"Crown Colony-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -104000,6 +107258,10 @@ end)()
 		},
 		tag_list = {
 			"Crown Colony-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -104130,6 +107392,10 @@ end)()
 		},
 		tag_list = {
 			"Crown Colony-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -104260,6 +107526,10 @@ end)()
 		},
 		tag_list = {
 			"Crown Colony-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -104392,6 +107662,10 @@ end)()
 			"Town-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -104524,6 +107798,10 @@ end)()
 			"Town-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -104656,6 +107934,10 @@ end)()
 			"Town-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -104788,6 +108070,10 @@ end)()
 			"Town-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -104918,6 +108204,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -105048,6 +108338,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -105178,6 +108472,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -105308,6 +108606,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -105439,6 +108741,10 @@ end)()
 		},
 		tag_list = {
 			"Ceres-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -105570,6 +108876,10 @@ end)()
 		},
 		tag_list = {
 			"Ceres-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -105701,6 +109011,10 @@ end)()
 		},
 		tag_list = {
 			"Ceres-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -105832,6 +109146,10 @@ end)()
 		},
 		tag_list = {
 			"Ceres-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -105963,6 +109281,10 @@ end)()
 		},
 		tag_list = {
 			"Ceres-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -106094,6 +109416,10 @@ end)()
 		},
 		tag_list = {
 			"Ceres-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -106225,6 +109551,10 @@ end)()
 		},
 		tag_list = {
 			"Ceres-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -106356,6 +109686,10 @@ end)()
 		},
 		tag_list = {
 			"Ceres-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -106486,6 +109820,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -106616,6 +109954,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -106746,6 +110088,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -106876,6 +110222,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -107006,6 +110356,10 @@ end)()
 		},
 		tag_list = {
 			"Swiftsure-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -107136,6 +110490,10 @@ end)()
 		},
 		tag_list = {
 			"Swiftsure-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -107266,6 +110624,10 @@ end)()
 		},
 		tag_list = {
 			"Swiftsure-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -107396,6 +110758,10 @@ end)()
 		},
 		tag_list = {
 			"Swiftsure-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -107526,6 +110892,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -107656,6 +111026,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -107786,6 +111160,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -107916,6 +111294,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -108049,6 +111431,10 @@ end)()
 			"μ",
 			"special",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -108182,6 +111568,10 @@ end)()
 			"μ",
 			"special",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -108315,6 +111705,10 @@ end)()
 			"μ",
 			"special",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -108448,6 +111842,10 @@ end)()
 			"μ",
 			"special",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -108578,6 +111976,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -108708,6 +112110,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -108838,6 +112244,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -108968,6 +112378,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -109098,6 +112512,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -109228,6 +112646,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -109358,6 +112780,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -109488,6 +112914,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -109620,6 +113050,10 @@ end)()
 			"Dido-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -109752,6 +113186,10 @@ end)()
 			"Dido-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -109884,6 +113322,10 @@ end)()
 			"Dido-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -110016,6 +113458,10 @@ end)()
 			"Dido-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -110146,6 +113592,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -110276,6 +113726,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -110406,6 +113860,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -110536,6 +113994,10 @@ end)()
 		},
 		tag_list = {
 			"Arethusa-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -110666,6 +114128,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -110796,6 +114262,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -110926,6 +114396,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -111056,6 +114530,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -111186,6 +114664,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -111316,6 +114798,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -111446,6 +114932,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -111576,6 +115066,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -111706,6 +115200,10 @@ end)()
 		},
 		tag_list = {
 			"Emerald-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -111836,6 +115334,10 @@ end)()
 		},
 		tag_list = {
 			"Emerald-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -111966,6 +115468,10 @@ end)()
 		},
 		tag_list = {
 			"Emerald-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -112096,6 +115602,10 @@ end)()
 		},
 		tag_list = {
 			"Emerald-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -112226,6 +115736,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -112356,6 +115870,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -112486,6 +116004,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -112616,6 +116138,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -112746,6 +116272,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -112876,6 +116406,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -113006,6 +116540,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -113136,6 +116674,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -113266,6 +116808,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -113396,6 +116942,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -113526,6 +117076,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -113656,6 +117210,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -113787,6 +117345,10 @@ end)()
 		tag_list = {
 			"Crown Colony-Class",
 			"Trinidad"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -113918,6 +117480,10 @@ end)()
 		tag_list = {
 			"Crown Colony-Class",
 			"Trinidad"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -114049,6 +117615,10 @@ end)()
 		tag_list = {
 			"Crown Colony-Class",
 			"Trinidad"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -114180,6 +117750,10 @@ end)()
 		tag_list = {
 			"Crown Colony-Class",
 			"Trinidad"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -114309,6 +117883,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -114438,6 +118016,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -114567,6 +118149,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -114696,6 +118282,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -114825,6 +118415,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -114954,6 +118548,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -115083,6 +118681,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -115212,6 +118814,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -115341,6 +118947,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -115470,6 +119080,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -115599,6 +119213,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -115728,6 +119346,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -115857,6 +119479,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -115986,6 +119612,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -116115,6 +119745,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -116244,6 +119878,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -116373,6 +120011,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -116502,6 +120144,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -116631,6 +120277,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -116760,6 +120410,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -116889,6 +120543,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -117018,6 +120676,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -117147,6 +120809,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -117276,6 +120942,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -117405,6 +121075,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -117534,6 +121208,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -117663,6 +121341,10 @@ end)()
 		},
 		tag_list = {
 			"York-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -117792,6 +121474,10 @@ end)()
 		},
 		tag_list = {
 			"York-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -117921,6 +121607,10 @@ end)()
 		},
 		tag_list = {
 			"York-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -118050,6 +121740,10 @@ end)()
 		},
 		tag_list = {
 			"York-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -118179,6 +121873,10 @@ end)()
 		},
 		tag_list = {
 			"York-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -118308,6 +122006,10 @@ end)()
 		},
 		tag_list = {
 			"York-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -118437,6 +122139,10 @@ end)()
 		},
 		tag_list = {
 			"York-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -118566,6 +122272,10 @@ end)()
 		},
 		tag_list = {
 			"York-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -118695,6 +122405,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -118824,6 +122538,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -118953,6 +122671,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -119082,6 +122804,10 @@ end)()
 		},
 		tag_list = {
 			"County-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -119212,6 +122938,10 @@ end)()
 		tag_list = {
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -119342,6 +123072,10 @@ end)()
 		tag_list = {
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -119472,6 +123206,10 @@ end)()
 		tag_list = {
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -119602,6 +123340,10 @@ end)()
 		tag_list = {
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -119732,6 +123474,10 @@ end)()
 		tag_list = {
 			"County-Class",
 			"Devonshire"
+		},
+		gift_dislike = {
+			180002,
+			180003
 		}
 	}
 end)()
@@ -119862,6 +123608,10 @@ end)()
 		tag_list = {
 			"County-Class",
 			"Devonshire"
+		},
+		gift_dislike = {
+			180002,
+			180003
 		}
 	}
 end)()
@@ -119992,6 +123742,10 @@ end)()
 		tag_list = {
 			"County-Class",
 			"Devonshire"
+		},
+		gift_dislike = {
+			180002,
+			180003
 		}
 	}
 end)()
@@ -120122,6 +123876,10 @@ end)()
 		tag_list = {
 			"County-Class",
 			"Devonshire"
+		},
+		gift_dislike = {
+			180002,
+			180003
 		}
 	}
 end)()
@@ -120249,6 +124007,10 @@ end)()
 		},
 		tag_list = {
 			"Renown-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -120376,6 +124138,10 @@ end)()
 		},
 		tag_list = {
 			"Renown-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -120503,6 +124269,10 @@ end)()
 		},
 		tag_list = {
 			"Renown-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -120630,6 +124400,10 @@ end)()
 		},
 		tag_list = {
 			"Renown-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -120758,6 +124532,10 @@ end)()
 		tag_list = {
 			"Renown-Class",
 			"bunao"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -120886,6 +124664,10 @@ end)()
 		tag_list = {
 			"Renown-Class",
 			"bunao"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -121014,6 +124796,10 @@ end)()
 		tag_list = {
 			"Renown-Class",
 			"bunao"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -121142,6 +124928,10 @@ end)()
 		tag_list = {
 			"Renown-Class",
 			"bunao"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -121267,7 +125057,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -121392,7 +125186,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -121517,7 +125315,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -121642,7 +125444,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -121771,6 +125577,10 @@ end)()
 			"Renown-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -121900,6 +125710,10 @@ end)()
 			"Renown-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -122029,6 +125843,10 @@ end)()
 			"Renown-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -122158,6 +125976,10 @@ end)()
 			"Renown-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -122287,6 +126109,10 @@ end)()
 			"QE-Class",
 			"QE",
 			"QE_1914"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -122416,6 +126242,10 @@ end)()
 			"QE-Class",
 			"QE",
 			"QE_1914"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -122545,6 +126375,10 @@ end)()
 			"QE-Class",
 			"QE",
 			"QE_1914"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -122674,6 +126508,10 @@ end)()
 			"QE-Class",
 			"QE",
 			"QE_1914"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -122801,6 +126639,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -122928,6 +126770,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -123055,6 +126901,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -123182,6 +127032,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -123308,6 +127162,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -123435,6 +127293,10 @@ end)()
 		},
 		tag_list = {
 			"Vanguard"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -123562,6 +127424,10 @@ end)()
 		},
 		tag_list = {
 			"Vanguard"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -123689,6 +127555,10 @@ end)()
 		},
 		tag_list = {
 			"Vanguard"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -123816,6 +127686,10 @@ end)()
 		},
 		tag_list = {
 			"Vanguard"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -123944,6 +127818,10 @@ end)()
 		tag_list = {
 			"Nelson-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -124072,6 +127950,10 @@ end)()
 		tag_list = {
 			"Nelson-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -124200,6 +128082,10 @@ end)()
 		tag_list = {
 			"Nelson-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -124328,6 +128214,10 @@ end)()
 		tag_list = {
 			"Nelson-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -124456,6 +128346,10 @@ end)()
 		tag_list = {
 			"Nelson-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -124585,6 +128479,10 @@ end)()
 			"Nelson-Class",
 			"Big Seven",
 			"luodeni"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -124714,6 +128612,10 @@ end)()
 			"Nelson-Class",
 			"Big Seven",
 			"luodeni"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -124843,6 +128745,10 @@ end)()
 			"Nelson-Class",
 			"Big Seven",
 			"luodeni"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -124972,6 +128878,10 @@ end)()
 			"Nelson-Class",
 			"Big Seven",
 			"luodeni"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -125099,6 +129009,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -125226,6 +129140,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -125353,6 +129271,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -125480,6 +129402,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -125608,6 +129534,10 @@ end)()
 		tag_list = {
 			"KGV-Class",
 			"bunao"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -125736,6 +129666,10 @@ end)()
 		tag_list = {
 			"KGV-Class",
 			"bunao"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -125864,6 +129798,10 @@ end)()
 		tag_list = {
 			"KGV-Class",
 			"bunao"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -125992,6 +129930,10 @@ end)()
 		tag_list = {
 			"KGV-Class",
 			"bunao"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -126119,6 +130061,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -126246,6 +130192,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -126373,6 +130323,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -126500,6 +130454,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -126627,6 +130585,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -126754,6 +130716,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -126881,6 +130847,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -127008,6 +130978,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -127135,6 +131109,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -127262,6 +131240,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -127389,6 +131371,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -127516,6 +131502,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -127644,6 +131634,10 @@ end)()
 		tag_list = {
 			"Revenge-Class",
 			"Revenge"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -127772,6 +131766,10 @@ end)()
 		tag_list = {
 			"Revenge-Class",
 			"Revenge"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -127900,6 +131898,10 @@ end)()
 		tag_list = {
 			"Revenge-Class",
 			"Revenge"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -128028,6 +132030,10 @@ end)()
 		tag_list = {
 			"Revenge-Class",
 			"Revenge"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -128156,6 +132162,10 @@ end)()
 		tag_list = {
 			"Revenge-Class",
 			"Royal Oak"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -128284,6 +132294,10 @@ end)()
 		tag_list = {
 			"Revenge-Class",
 			"Royal Oak"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -128412,6 +132426,10 @@ end)()
 		tag_list = {
 			"Revenge-Class",
 			"Royal Oak"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -128540,6 +132558,10 @@ end)()
 		tag_list = {
 			"Revenge-Class",
 			"Royal Oak"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -128667,6 +132689,10 @@ end)()
 		},
 		tag_list = {
 			"Lion"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -128794,6 +132820,10 @@ end)()
 		},
 		tag_list = {
 			"Lion"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -128921,6 +132951,10 @@ end)()
 		},
 		tag_list = {
 			"Lion"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -129048,6 +133082,10 @@ end)()
 		},
 		tag_list = {
 			"Lion"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -129174,6 +133212,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -129300,6 +133342,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -129426,6 +133472,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -129552,6 +133602,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -129679,6 +133733,10 @@ end)()
 		tag_list = {
 			"Royal Fleet-CVL",
 			"Argus"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -129806,6 +133864,10 @@ end)()
 		tag_list = {
 			"Royal Fleet-CVL",
 			"Argus"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -129933,6 +133995,10 @@ end)()
 		tag_list = {
 			"Royal Fleet-CVL",
 			"Argus"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -130060,6 +134126,10 @@ end)()
 		tag_list = {
 			"Royal Fleet-CVL",
 			"Argus"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -130186,6 +134256,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -130312,6 +134386,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -130438,6 +134516,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -130564,6 +134646,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -130690,6 +134776,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -130817,6 +134907,10 @@ end)()
 		tag_list = {
 			"Centaur-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -130944,6 +135038,10 @@ end)()
 		tag_list = {
 			"Centaur-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -131071,6 +135169,10 @@ end)()
 		tag_list = {
 			"Centaur-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -131198,6 +135300,10 @@ end)()
 		tag_list = {
 			"Centaur-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -131326,6 +135432,10 @@ end)()
 			"Bogue-Class",
 			"Attacker-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -131454,6 +135564,10 @@ end)()
 			"Bogue-Class",
 			"Attacker-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -131582,6 +135696,10 @@ end)()
 			"Bogue-Class",
 			"Attacker-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -131710,6 +135828,10 @@ end)()
 			"Bogue-Class",
 			"Attacker-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -131837,6 +135959,10 @@ end)()
 		tag_list = {
 			"Colossus-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -131964,6 +136090,10 @@ end)()
 		tag_list = {
 			"Colossus-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -132091,6 +136221,10 @@ end)()
 		tag_list = {
 			"Colossus-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -132218,6 +136352,10 @@ end)()
 		tag_list = {
 			"Colossus-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -132345,6 +136483,10 @@ end)()
 		tag_list = {
 			"Centaur-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -132472,6 +136614,10 @@ end)()
 		tag_list = {
 			"Centaur-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -132599,6 +136745,10 @@ end)()
 		tag_list = {
 			"Centaur-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -132726,6 +136876,10 @@ end)()
 		tag_list = {
 			"Centaur-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -132853,6 +137007,10 @@ end)()
 		tag_list = {
 			"Colossus-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -132980,6 +137138,10 @@ end)()
 		tag_list = {
 			"Colossus-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -133107,6 +137269,10 @@ end)()
 		tag_list = {
 			"Colossus-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -133234,6 +137400,10 @@ end)()
 		tag_list = {
 			"Colossus-Class",
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -133358,7 +137528,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -133482,7 +137656,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -133606,7 +137784,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -133730,7 +137912,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -133855,7 +138041,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -133980,7 +138170,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -134105,7 +138299,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -134230,7 +138428,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -134358,6 +138560,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -134486,6 +138692,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -134614,6 +138824,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -134742,6 +138956,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -134870,6 +139088,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -134998,6 +139220,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -135126,6 +139352,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -135254,6 +139484,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -135383,6 +139617,10 @@ end)()
 			"Illustrious-Class",
 			"Armor-CV",
 			"Formidable"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -135512,6 +139750,10 @@ end)()
 			"Illustrious-Class",
 			"Armor-CV",
 			"Formidable"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -135641,6 +139883,10 @@ end)()
 			"Illustrious-Class",
 			"Armor-CV",
 			"Formidable"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -135770,6 +140016,10 @@ end)()
 			"Illustrious-Class",
 			"Armor-CV",
 			"Formidable"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -135897,6 +140147,10 @@ end)()
 		},
 		tag_list = {
 			"Courageous-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -136024,6 +140278,10 @@ end)()
 		},
 		tag_list = {
 			"Courageous-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -136151,6 +140409,10 @@ end)()
 		},
 		tag_list = {
 			"Courageous-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -136278,6 +140540,10 @@ end)()
 		},
 		tag_list = {
 			"Courageous-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -136406,6 +140672,10 @@ end)()
 		tag_list = {
 			"Implacable-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -136534,6 +140804,10 @@ end)()
 		tag_list = {
 			"Implacable-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -136662,6 +140936,10 @@ end)()
 		tag_list = {
 			"Implacable-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -136790,6 +141068,10 @@ end)()
 		tag_list = {
 			"Implacable-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -136920,6 +141202,10 @@ end)()
 			"Armor-CV",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -137050,6 +141336,10 @@ end)()
 			"Armor-CV",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -137180,6 +141470,10 @@ end)()
 			"Armor-CV",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -137310,6 +141604,10 @@ end)()
 			"Armor-CV",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -137440,6 +141738,10 @@ end)()
 			"Armor-CV",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -137570,6 +141872,10 @@ end)()
 			"Armor-CV",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -137700,6 +142006,10 @@ end)()
 			"Armor-CV",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -137830,6 +142140,10 @@ end)()
 			"Armor-CV",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -137958,6 +142272,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -138086,6 +142404,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -138214,6 +142536,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -138342,6 +142668,10 @@ end)()
 		tag_list = {
 			"Illustrious-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -138473,6 +142803,10 @@ end)()
 			"Formidable",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -138604,6 +142938,10 @@ end)()
 			"Formidable",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -138735,6 +143073,10 @@ end)()
 			"Formidable",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -138866,6 +143208,10 @@ end)()
 			"Formidable",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -138997,6 +143343,10 @@ end)()
 			"μ",
 			"special",
 			"Formidable"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -139128,6 +143478,10 @@ end)()
 			"μ",
 			"special",
 			"Formidable"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -139259,6 +143613,10 @@ end)()
 			"μ",
 			"special",
 			"Formidable"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -139390,6 +143748,10 @@ end)()
 			"μ",
 			"special",
 			"Formidable"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -139517,6 +143879,10 @@ end)()
 		},
 		tag_list = {
 			"Erebus-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -139644,6 +144010,10 @@ end)()
 		},
 		tag_list = {
 			"Erebus-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -139771,6 +144141,10 @@ end)()
 		},
 		tag_list = {
 			"Erebus-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -139898,6 +144272,10 @@ end)()
 		},
 		tag_list = {
 			"Erebus-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -140025,6 +144403,10 @@ end)()
 		},
 		tag_list = {
 			"Erebus-Class"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -140152,6 +144534,10 @@ end)()
 		},
 		tag_list = {
 			"Erebus-Class"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -140279,6 +144665,10 @@ end)()
 		},
 		tag_list = {
 			"Erebus-Class"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -140406,6 +144796,10 @@ end)()
 		},
 		tag_list = {
 			"Erebus-Class"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -140533,6 +144927,10 @@ end)()
 		},
 		tag_list = {
 			"Roberts-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -140660,6 +145058,10 @@ end)()
 		},
 		tag_list = {
 			"Roberts-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -140787,6 +145189,10 @@ end)()
 		},
 		tag_list = {
 			"Roberts-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -140914,6 +145320,10 @@ end)()
 		},
 		tag_list = {
 			"Roberts-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -141041,6 +145451,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -141168,6 +145582,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -141295,6 +145713,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -141422,6 +145844,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -141549,6 +145975,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -141676,6 +146106,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -141803,6 +146237,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -141930,6 +146368,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -142058,6 +146500,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -142186,6 +146632,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -142314,6 +146764,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -142442,6 +146896,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -142569,6 +147027,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -142696,6 +147158,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -142823,6 +147289,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -142950,6 +147420,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -143078,6 +147552,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -143206,6 +147684,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -143334,6 +147816,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -143462,6 +147948,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -143590,6 +148080,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -143718,6 +148212,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -143846,6 +148344,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -143974,6 +148476,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -144102,6 +148608,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -144230,6 +148740,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -144358,6 +148872,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -144486,6 +149004,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -144614,6 +149136,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -144742,6 +149268,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -144870,6 +149400,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -144998,6 +149532,10 @@ end)()
 		tag_list = {
 			"Special Type",
 			"Division 6"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -145125,6 +149663,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -145252,6 +149794,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -145379,6 +149925,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -145506,6 +150056,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -145633,6 +150187,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -145760,6 +150318,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -145887,6 +150449,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -146014,6 +150580,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -146141,6 +150711,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -146268,6 +150842,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -146395,6 +150973,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -146522,6 +151104,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -146650,6 +151236,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Yukikaze"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -146778,6 +151368,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Yukikaze"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -146906,6 +151500,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Yukikaze"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -147034,6 +151632,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Yukikaze"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -147161,6 +151763,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -147288,6 +151894,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -147415,6 +152025,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -147542,6 +152156,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -147670,6 +152288,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Shiranui"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -147798,6 +152420,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Shiranui"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -147926,6 +152552,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Shiranui"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -148054,6 +152684,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Shiranui"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -148181,6 +152815,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -148308,6 +152946,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -148435,6 +153077,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -148562,6 +153208,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -148689,6 +153339,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -148816,6 +153470,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -148943,6 +153601,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -149070,6 +153732,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -149197,6 +153863,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -149324,6 +153994,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -149451,6 +154125,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -149578,6 +154256,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -149705,6 +154387,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -149832,6 +154518,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -149959,6 +154649,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -150086,6 +154780,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -150213,6 +154911,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -150340,6 +155042,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -150467,6 +155173,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -150594,6 +155304,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -150721,6 +155435,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -150848,6 +155566,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -150975,6 +155697,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -151102,6 +155828,10 @@ end)()
 		},
 		tag_list = {
 			"Hatsuharu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -151229,6 +155959,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -151356,6 +156090,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -151483,6 +156221,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -151610,6 +156352,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -151737,6 +156483,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -151864,6 +156614,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -151991,6 +156745,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -152118,6 +156876,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -152245,6 +157007,10 @@ end)()
 		},
 		tag_list = {
 			"Shimakaze-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -152372,6 +157138,10 @@ end)()
 		},
 		tag_list = {
 			"Shimakaze-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -152499,6 +157269,10 @@ end)()
 		},
 		tag_list = {
 			"Shimakaze-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -152626,6 +157400,10 @@ end)()
 		},
 		tag_list = {
 			"Shimakaze-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -152753,6 +157531,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -152880,6 +157662,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -153007,6 +157793,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -153134,6 +157924,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -153261,6 +158055,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -153388,6 +158186,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -153515,6 +158317,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -153642,6 +158448,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -153769,6 +158579,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -153896,6 +158710,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -154023,6 +158841,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -154150,6 +158972,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -154277,6 +159103,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -154404,6 +159234,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -154531,6 +159365,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -154658,6 +159496,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -154785,6 +159627,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -154912,6 +159758,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -155039,6 +159889,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -155166,6 +160020,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -155293,6 +160151,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -155420,6 +160282,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -155547,6 +160413,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -155674,6 +160544,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -155801,6 +160675,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -155928,6 +160806,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -156055,6 +160937,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -156182,6 +161068,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -156309,6 +161199,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -156436,6 +161330,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -156563,6 +161461,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -156690,6 +161592,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -156817,6 +161723,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -156944,6 +161854,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -157071,6 +161985,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -157198,6 +162116,10 @@ end)()
 		},
 		tag_list = {
 			"Mutsuki-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -157325,6 +162247,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -157452,6 +162378,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -157579,6 +162509,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -157706,6 +162640,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -157833,6 +162771,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -157960,6 +162902,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -158087,6 +163033,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -158214,6 +163164,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -158342,6 +163296,10 @@ end)()
 		tag_list = {
 			"Shiratsuyu-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -158470,6 +163428,10 @@ end)()
 		tag_list = {
 			"Shiratsuyu-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -158598,6 +163560,10 @@ end)()
 		tag_list = {
 			"Shiratsuyu-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -158726,6 +163692,10 @@ end)()
 		tag_list = {
 			"Shiratsuyu-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -158854,6 +163824,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"pupu"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -158981,6 +163955,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -159108,6 +164086,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -159235,6 +164217,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -159362,6 +164348,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -159489,6 +164479,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -159616,6 +164610,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -159743,6 +164741,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -159870,6 +164872,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -159998,6 +165004,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -160126,6 +165136,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -160254,6 +165268,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -160382,6 +165400,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -160509,6 +165531,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -160636,6 +165662,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -160763,6 +165793,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -160890,6 +165924,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -161017,6 +166055,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -161144,6 +166186,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -161271,6 +166317,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -161398,6 +166448,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -161525,6 +166579,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -161652,6 +166710,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -161779,6 +166841,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -161906,6 +166972,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -162034,6 +167104,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Hamakaze"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -162162,6 +167236,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Hamakaze"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -162290,6 +167368,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Hamakaze"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -162418,6 +167500,10 @@ end)()
 		tag_list = {
 			"Kagero-Class",
 			"Hamakaze"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -162545,6 +167631,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -162672,6 +167762,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -162799,6 +167893,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -162926,6 +168024,10 @@ end)()
 		},
 		tag_list = {
 			"Kagero-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -163054,6 +168156,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -163182,6 +168288,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -163310,6 +168420,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -163438,6 +168552,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -163566,6 +168684,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -163694,6 +168816,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -163822,6 +168948,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -163950,6 +169080,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -164078,6 +169212,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -164206,6 +169344,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -164334,6 +169476,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -164462,6 +169608,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -164590,6 +169740,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -164718,6 +169872,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -164846,6 +170004,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -164974,6 +170136,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"Division 8"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -165101,6 +170267,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -165228,6 +170398,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -165355,6 +170529,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -165482,6 +170660,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -165610,6 +170792,10 @@ end)()
 		tag_list = {
 			"Kamikaze-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -165738,6 +170924,10 @@ end)()
 		tag_list = {
 			"Kamikaze-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -165866,6 +171056,10 @@ end)()
 		tag_list = {
 			"Kamikaze-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -165994,6 +171188,10 @@ end)()
 		tag_list = {
 			"Kamikaze-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -166121,6 +171319,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -166248,6 +171450,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -166375,6 +171581,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -166502,6 +171712,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -166630,6 +171844,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"pupu"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -166758,6 +171976,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"pupu"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -166886,6 +172108,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"pupu"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -167014,6 +172240,10 @@ end)()
 		tag_list = {
 			"Asashio-Class",
 			"pupu"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -167141,6 +172371,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -167268,6 +172502,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -167395,6 +172633,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -167522,6 +172764,10 @@ end)()
 		},
 		tag_list = {
 			"Akizuki-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -167649,6 +172895,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -167776,6 +173026,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -167903,6 +173157,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -168030,6 +173288,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -168158,6 +173420,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -168286,6 +173552,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -168414,6 +173684,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -168542,6 +173816,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -168669,6 +173947,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180007,
+			180009
 		}
 	}
 end)()
@@ -168796,6 +174078,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180007,
+			180009
 		}
 	}
 end)()
@@ -168923,6 +174209,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180007,
+			180009
 		}
 	}
 end)()
@@ -169050,6 +174340,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180007,
+			180009
 		}
 	}
 end)()
@@ -169177,6 +174471,10 @@ end)()
 		},
 		tag_list = {
 			"Kazagumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -169304,6 +174602,10 @@ end)()
 		},
 		tag_list = {
 			"Kazagumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -169431,6 +174733,10 @@ end)()
 		},
 		tag_list = {
 			"Kazagumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -169558,6 +174864,10 @@ end)()
 		},
 		tag_list = {
 			"Kazagumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -169685,6 +174995,10 @@ end)()
 		},
 		tag_list = {
 			"Shiratsuyu-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -169813,6 +175127,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -169941,6 +175259,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -170069,6 +175391,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -170197,6 +175523,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -170325,6 +175655,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -170453,6 +175787,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -170581,6 +175919,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -170709,6 +176051,10 @@ end)()
 		tag_list = {
 			"Akizuki-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -170836,6 +176182,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -170963,6 +176313,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -171090,6 +176444,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -171217,6 +176575,10 @@ end)()
 		},
 		tag_list = {
 			"Kamikaze-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -171344,6 +176706,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -171471,6 +176837,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -171598,6 +176968,10 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -171725,6 +177099,666 @@ end)()
 		},
 		tag_list = {
 			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301921] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "妙風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301920,
+		english_name = "IJN Taekaze",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301921,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			348,
+			12,
+			101,
+			29,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			56,
+			47
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1215,
+			634,
+			0,
+			551,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.35,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301922] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "妙風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301920,
+		english_name = "IJN Taekaze",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301922,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			433,
+			15,
+			126,
+			36,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			56,
+			59
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1215,
+			634,
+			0,
+			551,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.4,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301923] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "妙風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301920,
+		english_name = "IJN Taekaze",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301923,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			602,
+			21,
+			176,
+			50,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			56,
+			82
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1215,
+			634,
+			0,
+			551,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301924] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "妙風",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301920,
+		english_name = "IJN Taekaze",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301924,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			857,
+			30,
+			252,
+			72,
+			0,
+			79,
+			0,
+			69,
+			71,
+			42,
+			56,
+			117
+		},
+		attrs_growth = {
+			9906,
+			170,
+			1215,
+			634,
+			0,
+			551,
+			0,
+			1062,
+			1306,
+			0,
+			0,
+			544
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.55,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301934] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白露.改",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301130,
+		english_name = "IJN Shiratsuyu",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.4",
+		rarity = 3,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301934,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			680,
+			30,
+			244,
+			69,
+			0,
+			72,
+			0,
+			67,
+			71,
+			40.8,
+			41,
+			100
+		},
+		attrs_growth = {
+			7866,
+			166,
+			1176,
+			612,
+			0,
+			503,
+			0,
+			1026,
+			1301,
+			0,
+			0,
+			474
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.75,
+			1.5,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Shiratsuyu-Class",
+			"Shiratsuyu_ava"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -171853,7 +177887,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180004
+		}
 	}
 end)()
 
@@ -171981,7 +178019,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180004
+		}
 	}
 end)()
 
@@ -172109,7 +178151,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180004
+		}
 	}
 end)()
 
@@ -172237,7 +178283,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180004
+		}
 	}
 end)()
 
@@ -172367,6 +178417,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -172497,6 +178551,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -172627,6 +178685,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -172757,6 +178819,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -172887,6 +178953,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -173017,6 +179087,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -173147,6 +179221,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -173277,6 +179355,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -173407,6 +179489,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -173538,6 +179624,10 @@ end)()
 		tag_list = {
 			"Nagara-Class",
 			"FullBurst1"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -173669,6 +179759,10 @@ end)()
 		tag_list = {
 			"Nagara-Class",
 			"FullBurst1"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -173800,6 +179894,10 @@ end)()
 		tag_list = {
 			"Nagara-Class",
 			"FullBurst2"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -173930,6 +180028,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -174060,6 +180162,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -174190,6 +180296,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -174320,6 +180430,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -174451,6 +180565,10 @@ end)()
 		tag_list = {
 			"Nagara-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -174582,6 +180700,10 @@ end)()
 		tag_list = {
 			"Nagara-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -174713,6 +180835,10 @@ end)()
 		tag_list = {
 			"Nagara-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -174844,6 +180970,10 @@ end)()
 		tag_list = {
 			"Nagara-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -174974,6 +181104,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -175104,6 +181238,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -175234,6 +181372,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -175364,6 +181506,10 @@ end)()
 		},
 		tag_list = {
 			"Nagara-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -175494,6 +181640,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -175624,6 +181774,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -175754,6 +181908,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -175884,6 +182042,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -176014,6 +182176,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -176144,6 +182310,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -176274,6 +182444,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -176404,6 +182578,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -176534,6 +182712,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -176664,6 +182846,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -176794,6 +182980,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -176924,6 +183114,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -177055,6 +183249,10 @@ end)()
 		tag_list = {
 			"Sendai-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -177186,6 +183384,10 @@ end)()
 		tag_list = {
 			"Sendai-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -177317,6 +183519,10 @@ end)()
 		tag_list = {
 			"Sendai-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -177448,6 +183654,10 @@ end)()
 		tag_list = {
 			"Sendai-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -177578,6 +183788,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -177708,6 +183922,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -177838,6 +184056,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -177968,6 +184190,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -178098,6 +184324,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -178228,6 +184458,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -178358,6 +184592,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -178488,6 +184726,546 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302271] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水無瀬",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302270,
+		english_name = "IJN Minase",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302271,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			467,
+			29,
+			68,
+			55,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			39,
+			26
+		},
+		attrs_growth = {
+			12008,
+			403,
+			791,
+			1183,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			314
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302272] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水無瀬",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302270,
+		english_name = "IJN Minase",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302272,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			581,
+			36,
+			85,
+			69,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			39,
+			32
+		},
+		attrs_growth = {
+			12008,
+			403,
+			791,
+			1183,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			314
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.4,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302273] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水無瀬",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302270,
+		english_name = "IJN Minase",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302273,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			809,
+			51,
+			118,
+			96,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			39,
+			45
+		},
+		attrs_growth = {
+			12008,
+			403,
+			791,
+			1183,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			314
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.5,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[302274] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "水無瀬",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 302270,
+		english_name = "IJN Minase",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 302274,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1151,
+			72,
+			169,
+			136,
+			0,
+			70,
+			0,
+			52,
+			29,
+			35.3,
+			39,
+			64
+		},
+		attrs_growth = {
+			12008,
+			403,
+			791,
+			1183,
+			0,
+			490,
+			0,
+			768,
+			742,
+			0,
+			0,
+			314
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.65,
+			1.15,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Sendai-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -178619,6 +185397,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Agano"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -178750,6 +185532,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Agano"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -178881,6 +185667,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Agano"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -179012,6 +185802,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Agano"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -179143,6 +185937,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Noshiro"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -179274,6 +186072,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Noshiro"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -179405,6 +186207,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Noshiro"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -179536,6 +186342,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Noshiro"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -179667,6 +186477,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -179798,6 +186612,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -179929,6 +186747,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -180060,6 +186882,10 @@ end)()
 		tag_list = {
 			"Agano-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -180193,6 +187019,10 @@ end)()
 			"μ",
 			"special",
 			"Noshiro"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -180326,6 +187156,10 @@ end)()
 			"μ",
 			"special",
 			"Noshiro"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -180459,6 +187293,10 @@ end)()
 			"μ",
 			"special",
 			"Noshiro"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -180592,6 +187430,10 @@ end)()
 			"μ",
 			"special",
 			"Noshiro"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -180722,6 +187564,10 @@ end)()
 		},
 		tag_list = {
 			"Watarase"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -180852,6 +187698,10 @@ end)()
 		},
 		tag_list = {
 			"Watarase"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -180982,6 +187832,10 @@ end)()
 		},
 		tag_list = {
 			"Watarase"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -181112,6 +187966,10 @@ end)()
 		},
 		tag_list = {
 			"Watarase"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -181241,6 +188099,10 @@ end)()
 		},
 		tag_list = {
 			"Furutaka-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -181370,6 +188232,10 @@ end)()
 		},
 		tag_list = {
 			"Furutaka-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -181499,6 +188365,10 @@ end)()
 		},
 		tag_list = {
 			"Furutaka-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -181628,6 +188498,10 @@ end)()
 		},
 		tag_list = {
 			"Furutaka-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -181757,6 +188631,10 @@ end)()
 		},
 		tag_list = {
 			"Furutaka-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -181886,6 +188764,10 @@ end)()
 		},
 		tag_list = {
 			"Furutaka-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -182015,6 +188897,10 @@ end)()
 		},
 		tag_list = {
 			"Furutaka-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -182144,6 +189030,10 @@ end)()
 		},
 		tag_list = {
 			"Furutaka-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -182273,6 +189163,10 @@ end)()
 		},
 		tag_list = {
 			"Aoba-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -182402,6 +189296,10 @@ end)()
 		},
 		tag_list = {
 			"Aoba-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -182531,6 +189429,10 @@ end)()
 		},
 		tag_list = {
 			"Aoba-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -182660,6 +189562,10 @@ end)()
 		},
 		tag_list = {
 			"Aoba-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -182789,6 +189695,10 @@ end)()
 		},
 		tag_list = {
 			"Aoba-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -182918,6 +189828,10 @@ end)()
 		},
 		tag_list = {
 			"Aoba-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -183047,6 +189961,10 @@ end)()
 		},
 		tag_list = {
 			"Aoba-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -183176,6 +190094,10 @@ end)()
 		},
 		tag_list = {
 			"Aoba-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -183305,6 +190227,10 @@ end)()
 		},
 		tag_list = {
 			"Tone-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -183434,6 +190360,10 @@ end)()
 		},
 		tag_list = {
 			"Tone-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -183563,6 +190493,10 @@ end)()
 		},
 		tag_list = {
 			"Tone-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -183692,6 +190626,10 @@ end)()
 		},
 		tag_list = {
 			"Tone-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -183821,6 +190759,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -183950,6 +190892,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -184079,6 +191025,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -184208,6 +191158,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -184337,6 +191291,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -184466,6 +191424,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -184595,6 +191557,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -184724,6 +191690,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -184853,6 +191823,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -184982,6 +191956,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -185111,6 +192089,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -185240,6 +192222,10 @@ end)()
 		},
 		tag_list = {
 			"Myoko-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -185371,6 +192357,10 @@ end)()
 			"Myoko-Class",
 			"Musashi-Game",
 			"Haguro"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -185502,6 +192492,10 @@ end)()
 			"Myoko-Class",
 			"Musashi-Game",
 			"Haguro"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -185633,6 +192627,10 @@ end)()
 			"Myoko-Class",
 			"Musashi-Game",
 			"Haguro"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -185764,6 +192762,10 @@ end)()
 			"Myoko-Class",
 			"Musashi-Game",
 			"Haguro"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -185893,6 +192895,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -186022,6 +193028,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -186151,6 +193161,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -186280,6 +193294,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -186409,6 +193427,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -186538,6 +193560,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -186667,6 +193693,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -186796,6 +193826,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -186925,6 +193959,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -187054,6 +194092,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -187183,6 +194225,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -187312,6 +194358,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -187441,6 +194491,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -187570,6 +194624,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -187699,6 +194757,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -187828,6 +194890,10 @@ end)()
 		},
 		tag_list = {
 			"Takao-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -187957,6 +195023,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -188086,6 +195156,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -188215,6 +195289,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -188344,6 +195422,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -188473,6 +195555,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -188602,6 +195688,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -188731,6 +195821,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -188860,6 +195954,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -188989,6 +196087,10 @@ end)()
 		},
 		tag_list = {
 			"Mogami-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -189119,6 +196221,10 @@ end)()
 		tag_list = {
 			"Unzen-Class",
 			"yunxianzhiyuan"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -189249,6 +196355,10 @@ end)()
 		tag_list = {
 			"Unzen-Class",
 			"yunxianzhiyuan"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -189379,6 +196489,10 @@ end)()
 		tag_list = {
 			"Unzen-Class",
 			"yunxianzhiyuan"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -189509,6 +196623,542 @@ end)()
 		tag_list = {
 			"Unzen-Class",
 			"yunxianzhiyuan"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303201] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "浅間",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303200,
+		english_name = "IJN Asama",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303201,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			843,
+			55,
+			58,
+			37,
+			0,
+			69,
+			0,
+			49,
+			10,
+			28,
+			50,
+			0
+		},
+		attrs_growth = {
+			21434,
+			736,
+			769,
+			813,
+			0,
+			478,
+			0,
+			719,
+			477,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			321
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.8,
+			0.95,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ibuki-Class"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303202] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "浅間",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303200,
+		english_name = "IJN Asama",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303202,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1049,
+			69,
+			72,
+			46,
+			0,
+			69,
+			0,
+			49,
+			10,
+			28,
+			50,
+			0
+		},
+		attrs_growth = {
+			21434,
+			736,
+			769,
+			813,
+			0,
+			478,
+			0,
+			719,
+			477,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			322
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.8,
+			0.95,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ibuki-Class"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303203] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "浅間",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303200,
+		english_name = "IJN Asama",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303203,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1460,
+			96,
+			101,
+			64,
+			0,
+			69,
+			0,
+			49,
+			10,
+			28,
+			50,
+			0
+		},
+		attrs_growth = {
+			21434,
+			736,
+			769,
+			813,
+			0,
+			478,
+			0,
+			719,
+			477,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			323
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			2,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.8,
+			1.05,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ibuki-Class"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[303204] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "浅間",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 303200,
+		english_name = "IJN Asama",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 303204,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2077,
+			136,
+			144,
+			92,
+			0,
+			69,
+			0,
+			49,
+			10,
+			28,
+			50,
+			0
+		},
+		attrs_growth = {
+			21434,
+			736,
+			769,
+			813,
+			0,
+			478,
+			0,
+			719,
+			477,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			324
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			2,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.85,
+			1.1,
+			0.4
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Ibuki-Class"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -189637,6 +197287,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -189765,6 +197419,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -189893,6 +197551,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -190021,6 +197683,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -190149,6 +197815,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -190277,6 +197947,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -190405,6 +198079,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -190533,6 +198211,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -190661,6 +198343,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -190789,6 +198475,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -190917,6 +198607,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -191045,6 +198739,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -191173,6 +198871,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -191301,6 +199003,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -191429,6 +199135,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -191557,6 +199267,10 @@ end)()
 		tag_list = {
 			"Kongo-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -191683,6 +199397,10 @@ end)()
 		},
 		tag_list = {
 			"Amagi-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -191809,6 +199527,10 @@ end)()
 		},
 		tag_list = {
 			"Amagi-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -191935,6 +199657,10 @@ end)()
 		},
 		tag_list = {
 			"Amagi-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -192061,6 +199787,10 @@ end)()
 		},
 		tag_list = {
 			"Amagi-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -192189,6 +199919,10 @@ end)()
 			"Kongo-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -192317,6 +200051,10 @@ end)()
 			"Kongo-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -192445,6 +200183,10 @@ end)()
 			"Kongo-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -192573,6 +200315,10 @@ end)()
 			"Kongo-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -192701,6 +200447,10 @@ end)()
 			"Amagi-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -192829,6 +200579,10 @@ end)()
 			"Amagi-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -192957,6 +200711,10 @@ end)()
 			"Amagi-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -193085,6 +200843,10 @@ end)()
 			"Amagi-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -193215,6 +200977,10 @@ end)()
 			"Musashi-Game",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -193345,6 +201111,10 @@ end)()
 			"Musashi-Game",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -193475,6 +201245,10 @@ end)()
 			"Musashi-Game",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -193605,6 +201379,10 @@ end)()
 			"Musashi-Game",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -193732,6 +201510,10 @@ end)()
 		},
 		tag_list = {
 			"Fuso-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -193859,6 +201641,10 @@ end)()
 		},
 		tag_list = {
 			"Fuso-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -193986,6 +201772,10 @@ end)()
 		},
 		tag_list = {
 			"Fuso-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -194113,6 +201903,10 @@ end)()
 		},
 		tag_list = {
 			"Fuso-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -194241,6 +202035,10 @@ end)()
 		tag_list = {
 			"Fuso-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -194369,6 +202167,10 @@ end)()
 		tag_list = {
 			"Fuso-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -194497,6 +202299,10 @@ end)()
 		tag_list = {
 			"Fuso-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -194625,6 +202431,10 @@ end)()
 		tag_list = {
 			"Fuso-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -194752,6 +202562,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -194879,6 +202693,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -195006,6 +202824,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -195133,6 +202955,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -195260,6 +203086,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -195387,6 +203217,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -195514,6 +203348,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -195641,6 +203479,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -195770,6 +203612,10 @@ end)()
 			"Nagato-Class",
 			"Big Seven",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -195899,6 +203745,10 @@ end)()
 			"Nagato-Class",
 			"Big Seven",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -196028,6 +203878,10 @@ end)()
 			"Nagato-Class",
 			"Big Seven",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -196157,6 +204011,10 @@ end)()
 			"Nagato-Class",
 			"Big Seven",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -196285,6 +204143,10 @@ end)()
 		tag_list = {
 			"Nagato-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -196413,6 +204275,10 @@ end)()
 		tag_list = {
 			"Nagato-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -196541,6 +204407,10 @@ end)()
 		tag_list = {
 			"Nagato-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -196669,6 +204539,10 @@ end)()
 		tag_list = {
 			"Nagato-Class",
 			"Big Seven"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -196796,6 +204670,10 @@ end)()
 		tag_list = {
 			"Tosa-Class",
 			"Kaga"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -196923,6 +204801,10 @@ end)()
 		tag_list = {
 			"Tosa-Class",
 			"Kaga"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -197050,6 +204932,10 @@ end)()
 		tag_list = {
 			"Tosa-Class",
 			"Kaga"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -197177,6 +205063,10 @@ end)()
 		tag_list = {
 			"Tosa-Class",
 			"Kaga"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -197304,6 +205194,10 @@ end)()
 		tag_list = {
 			"Tosa-Class",
 			"Tosa"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -197431,6 +205325,10 @@ end)()
 		tag_list = {
 			"Tosa-Class",
 			"Tosa"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -197558,6 +205456,10 @@ end)()
 		tag_list = {
 			"Tosa-Class",
 			"Tosa"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -197685,6 +205587,10 @@ end)()
 		tag_list = {
 			"Tosa-Class",
 			"Tosa"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -197814,6 +205720,10 @@ end)()
 			"Yamato-Class",
 			"Musashi",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -197943,6 +205853,10 @@ end)()
 			"Yamato-Class",
 			"Musashi",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -198072,6 +205986,10 @@ end)()
 			"Yamato-Class",
 			"Musashi",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -198201,6 +206119,10 @@ end)()
 			"Yamato-Class",
 			"Musashi",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -198329,6 +206251,10 @@ end)()
 		tag_list = {
 			"Mikasa",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -198457,6 +206383,10 @@ end)()
 		tag_list = {
 			"Mikasa",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -198585,6 +206515,10 @@ end)()
 		tag_list = {
 			"Mikasa",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -198713,6 +206647,10 @@ end)()
 		tag_list = {
 			"Mikasa",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -198839,6 +206777,10 @@ end)()
 		},
 		tag_list = {
 			"Kii-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -198965,6 +206907,10 @@ end)()
 		},
 		tag_list = {
 			"Kii-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -199091,6 +207037,10 @@ end)()
 		},
 		tag_list = {
 			"Kii-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -199217,6 +207167,10 @@ end)()
 		},
 		tag_list = {
 			"Kii-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -199344,6 +207298,10 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Owari"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -199471,6 +207429,10 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Owari"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -199598,6 +207560,10 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Owari"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -199725,6 +207691,10 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Owari"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -199852,6 +207822,10 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Suruga"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -199979,6 +207953,10 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Suruga"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -200106,6 +208084,10 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Suruga"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -200233,6 +208215,534 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Suruga"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[305161] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "近江",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305160,
+		english_name = "IJN Oumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305161,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1317,
+			84,
+			26,
+			70,
+			0,
+			57,
+			0,
+			24,
+			10,
+			29,
+			40,
+			0
+		},
+		attrs_growth = {
+			37507,
+			1027,
+			363,
+			1464,
+			0,
+			400,
+			0,
+			350,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kii-Class",
+			"Oumi"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[305162] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "近江",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305160,
+		english_name = "IJN Oumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305162,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1638,
+			105,
+			33,
+			87,
+			0,
+			57,
+			0,
+			24,
+			10,
+			29,
+			40,
+			0
+		},
+		attrs_growth = {
+			37507,
+			1027,
+			363,
+			1464,
+			0,
+			400,
+			0,
+			350,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kii-Class",
+			"Oumi"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[305163] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "近江",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305160,
+		english_name = "IJN Oumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305163,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2280,
+			146,
+			46,
+			122,
+			0,
+			57,
+			0,
+			24,
+			10,
+			29,
+			40,
+			0
+		},
+		attrs_growth = {
+			37507,
+			1027,
+			363,
+			1464,
+			0,
+			400,
+			0,
+			350,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kii-Class",
+			"Oumi"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[305164] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "近江",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 305160,
+		english_name = "IJN Oumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 305164,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3244,
+			209,
+			65,
+			173,
+			0,
+			57,
+			0,
+			24,
+			10,
+			29,
+			40,
+			0
+		},
+		attrs_growth = {
+			37507,
+			1027,
+			363,
+			1464,
+			0,
+			400,
+			0,
+			350,
+			187,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Kii-Class",
+			"Oumi"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -200360,6 +208870,10 @@ end)()
 		tag_list = {
 			"Hiyo-class",
 			"Hiyō"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -200487,6 +209001,10 @@ end)()
 		tag_list = {
 			"Hiyo-class",
 			"Hiyō"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -200614,6 +209132,10 @@ end)()
 		tag_list = {
 			"Hiyo-class",
 			"Hiyō"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -200741,6 +209263,10 @@ end)()
 		tag_list = {
 			"Hiyo-class",
 			"Hiyō"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -200868,6 +209394,10 @@ end)()
 		tag_list = {
 			"Hiyo-class",
 			"Jun'yō"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -200995,6 +209525,10 @@ end)()
 		tag_list = {
 			"Hiyo-class",
 			"Jun'yō"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -201122,6 +209656,10 @@ end)()
 		tag_list = {
 			"Hiyo-class",
 			"Jun'yō"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -201249,6 +209787,10 @@ end)()
 		tag_list = {
 			"Hiyo-class",
 			"Jun'yō"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -201373,7 +209915,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -201497,7 +210043,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -201621,7 +210171,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -201745,7 +210299,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -201872,6 +210430,10 @@ end)()
 		tag_list = {
 			"Zuihou",
 			"Shouhou-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -201999,6 +210561,10 @@ end)()
 		tag_list = {
 			"Zuihou",
 			"Shouhou-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -202126,6 +210692,10 @@ end)()
 		tag_list = {
 			"Zuihou",
 			"Shouhou-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -202253,6 +210823,10 @@ end)()
 		tag_list = {
 			"Zuihou",
 			"Shouhou-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -202379,6 +210953,10 @@ end)()
 		},
 		tag_list = {
 			"Shouhou-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -202505,6 +211083,10 @@ end)()
 		},
 		tag_list = {
 			"Shouhou-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -202631,6 +211213,10 @@ end)()
 		},
 		tag_list = {
 			"Shouhou-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -202757,6 +211343,10 @@ end)()
 		},
 		tag_list = {
 			"Shouhou-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -202881,7 +211471,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -203005,7 +211599,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -203129,7 +211727,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -203253,7 +211855,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -203380,6 +211986,10 @@ end)()
 		tag_list = {
 			"Ryuhou",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -203507,6 +212117,10 @@ end)()
 		tag_list = {
 			"Ryuhou",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -203634,6 +212248,10 @@ end)()
 		tag_list = {
 			"Ryuhou",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -203761,6 +212379,10 @@ end)()
 		tag_list = {
 			"Ryuhou",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -203888,6 +212510,10 @@ end)()
 		tag_list = {
 			"Zuihou-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -204015,6 +212641,10 @@ end)()
 		tag_list = {
 			"Zuihou-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -204142,6 +212772,10 @@ end)()
 		tag_list = {
 			"Zuihou-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -204269,6 +212903,10 @@ end)()
 		tag_list = {
 			"Zuihou-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -204396,6 +213034,10 @@ end)()
 		tag_list = {
 			"Zuihou-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -204523,6 +213165,10 @@ end)()
 		tag_list = {
 			"Zuihou-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -204650,6 +213296,10 @@ end)()
 		tag_list = {
 			"Zuihou-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -204777,6 +213427,10 @@ end)()
 		tag_list = {
 			"Zuihou-Class",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -204908,6 +213562,10 @@ end)()
 			"Akagi",
 			"Musashi-Game",
 			"AkagiOrigin"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -205039,6 +213697,10 @@ end)()
 			"Akagi",
 			"Musashi-Game",
 			"AkagiOrigin"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -205170,6 +213832,10 @@ end)()
 			"Akagi",
 			"Musashi-Game",
 			"AkagiOrigin"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -205301,6 +213967,10 @@ end)()
 			"Akagi",
 			"Musashi-Game",
 			"AkagiOrigin"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -205431,6 +214101,10 @@ end)()
 			"1st-airfleet",
 			"Kaga",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -205561,6 +214235,10 @@ end)()
 			"1st-airfleet",
 			"Kaga",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -205691,6 +214369,10 @@ end)()
 			"1st-airfleet",
 			"Kaga",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -205821,6 +214503,10 @@ end)()
 			"1st-airfleet",
 			"Kaga",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -205949,6 +214635,10 @@ end)()
 		tag_list = {
 			"2nd-airfleet",
 			"Souryu"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -206077,6 +214767,10 @@ end)()
 		tag_list = {
 			"2nd-airfleet",
 			"Souryu"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -206205,6 +214899,10 @@ end)()
 		tag_list = {
 			"2nd-airfleet",
 			"Souryu"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -206333,6 +215031,10 @@ end)()
 		tag_list = {
 			"2nd-airfleet",
 			"Souryu"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -206461,6 +215163,10 @@ end)()
 		tag_list = {
 			"2nd-airfleet",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -206589,6 +215295,10 @@ end)()
 		tag_list = {
 			"2nd-airfleet",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -206717,6 +215427,10 @@ end)()
 		tag_list = {
 			"2nd-airfleet",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -206845,6 +215559,10 @@ end)()
 		tag_list = {
 			"2nd-airfleet",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -206974,6 +215692,10 @@ end)()
 			"5th-airfleet",
 			"Shokaku",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -207103,6 +215825,10 @@ end)()
 			"5th-airfleet",
 			"Shokaku",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -207232,6 +215958,10 @@ end)()
 			"5th-airfleet",
 			"Shokaku",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -207361,6 +216091,10 @@ end)()
 			"5th-airfleet",
 			"Shokaku",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -207489,6 +216223,10 @@ end)()
 		tag_list = {
 			"5th-airfleet",
 			"Zuikaku"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -207617,6 +216355,10 @@ end)()
 		tag_list = {
 			"5th-airfleet",
 			"Zuikaku"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -207745,6 +216487,10 @@ end)()
 		tag_list = {
 			"5th-airfleet",
 			"Zuikaku"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -207873,6 +216619,10 @@ end)()
 		tag_list = {
 			"5th-airfleet",
 			"Zuikaku"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -208000,6 +216750,10 @@ end)()
 		},
 		tag_list = {
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -208127,6 +216881,10 @@ end)()
 		},
 		tag_list = {
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -208254,6 +217012,10 @@ end)()
 		},
 		tag_list = {
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -208381,6 +217143,10 @@ end)()
 		},
 		tag_list = {
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -208508,6 +217274,10 @@ end)()
 		},
 		tag_list = {
 			"Shinano"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -208635,6 +217405,10 @@ end)()
 		},
 		tag_list = {
 			"Shinano"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -208762,6 +217536,10 @@ end)()
 		},
 		tag_list = {
 			"Shinano"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -208889,6 +217667,10 @@ end)()
 		},
 		tag_list = {
 			"Shinano"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -209020,6 +217802,10 @@ end)()
 			"special",
 			"Akagi",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -209151,6 +217937,10 @@ end)()
 			"special",
 			"Akagi",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -209282,6 +218072,10 @@ end)()
 			"special",
 			"Akagi",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -209413,6 +218207,10 @@ end)()
 			"special",
 			"Akagi",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -209544,6 +218342,10 @@ end)()
 			"μ",
 			"special",
 			"Akagi"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -209675,6 +218477,10 @@ end)()
 			"μ",
 			"special",
 			"Akagi"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -209806,6 +218612,10 @@ end)()
 			"μ",
 			"special",
 			"Akagi"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -209937,6 +218747,10 @@ end)()
 			"μ",
 			"special",
 			"Akagi"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -210066,6 +218880,10 @@ end)()
 			"Armor-CV",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -210195,6 +219013,10 @@ end)()
 			"Armor-CV",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -210324,6 +219146,10 @@ end)()
 			"Armor-CV",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -210453,6 +219279,10 @@ end)()
 			"Armor-CV",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -210580,6 +219410,10 @@ end)()
 		},
 		tag_list = {
 			"Unryū-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -210707,6 +219541,10 @@ end)()
 		},
 		tag_list = {
 			"Unryū-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -210834,6 +219672,10 @@ end)()
 		},
 		tag_list = {
 			"Unryū-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -210961,6 +219803,10 @@ end)()
 		},
 		tag_list = {
 			"Unryū-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -211091,6 +219937,10 @@ end)()
 			"special",
 			"Taiho-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -211221,6 +220071,10 @@ end)()
 			"special",
 			"Taiho-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -211351,6 +220205,10 @@ end)()
 			"special",
 			"Taiho-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -211481,6 +220339,10 @@ end)()
 			"special",
 			"Taiho-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -211611,6 +220473,10 @@ end)()
 			"special",
 			"Shinano-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -211741,6 +220607,10 @@ end)()
 			"special",
 			"Shinano-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -211871,6 +220741,10 @@ end)()
 			"special",
 			"Shinano-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -212001,6 +220875,10 @@ end)()
 			"special",
 			"Shinano-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -212129,6 +221007,10 @@ end)()
 		tag_list = {
 			"Amagi",
 			"Amagicv"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -212257,6 +221139,10 @@ end)()
 		tag_list = {
 			"Amagi",
 			"Amagicv"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -212385,6 +221271,10 @@ end)()
 		tag_list = {
 			"Amagi",
 			"Amagicv"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -212513,6 +221403,534 @@ end)()
 		tag_list = {
 			"Amagi",
 			"Amagicv"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307161] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白鳳",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307160,
+		english_name = "IJN Hakuhou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 307161,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1335,
+			0,
+			0,
+			63,
+			91,
+			46,
+			0,
+			28,
+			13,
+			32,
+			36,
+			0
+		},
+		attrs_growth = {
+			35854,
+			0,
+			0,
+			1329,
+			1091,
+			322,
+			0,
+			421,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.1,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hakuhou"
+		},
+		gift_dislike = {
+			180009,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307162] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白鳳",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307160,
+		english_name = "IJN Hakuhou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 307162,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1661,
+			0,
+			0,
+			78,
+			114,
+			46,
+			0,
+			28,
+			13,
+			32,
+			36,
+			0
+		},
+		attrs_growth = {
+			35854,
+			0,
+			0,
+			1329,
+			1091,
+			322,
+			0,
+			421,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.1,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hakuhou"
+		},
+		gift_dislike = {
+			180009,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307163] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白鳳",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307160,
+		english_name = "IJN Hakuhou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 307163,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2312,
+			0,
+			0,
+			109,
+			159,
+			46,
+			0,
+			28,
+			13,
+			32,
+			36,
+			0
+		},
+		attrs_growth = {
+			35854,
+			0,
+			0,
+			1329,
+			1091,
+			322,
+			0,
+			421,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			4
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			1.1,
+			1.5
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hakuhou"
+		},
+		gift_dislike = {
+			180009,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[307164] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "白鳳",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 307160,
+		english_name = "IJN Hakuhou",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 307164,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3289,
+			0,
+			0,
+			155,
+			226,
+			46,
+			0,
+			28,
+			13,
+			32,
+			36,
+			0
+		},
+		attrs_growth = {
+			35854,
+			0,
+			0,
+			1329,
+			1091,
+			322,
+			0,
+			421,
+			322,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			3,
+			5
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.15,
+			1.55
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Hakuhou"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -212757,6 +222175,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -213001,6 +222423,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -213245,6 +222671,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -213489,6 +222919,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -213725,6 +223159,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -213961,6 +223399,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -214197,6 +223639,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -214433,6 +223879,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -214673,6 +224123,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -214913,6 +224367,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -215153,6 +224611,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -215393,6 +224855,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -215629,6 +225095,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -215865,6 +225335,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -216101,6 +225575,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -216337,6 +225815,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -216577,6 +226059,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -216817,6 +226303,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -217057,6 +226547,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -217297,6 +226791,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -217541,6 +227039,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -217785,6 +227287,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -218029,6 +227535,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -218273,6 +227783,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -218399,6 +227913,10 @@ end)()
 		},
 		tag_list = {
 			"Fuso-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -218525,6 +228043,10 @@ end)()
 		},
 		tag_list = {
 			"Fuso-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -218651,6 +228173,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -218777,6 +228303,10 @@ end)()
 		},
 		tag_list = {
 			"Ise-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -218909,6 +228439,10 @@ end)()
 		},
 		tag_list = {
 			"Akashi"
+		},
+		gift_dislike = {
+			180003,
+			180002
 		}
 	}
 end)()
@@ -219041,6 +228575,10 @@ end)()
 		},
 		tag_list = {
 			"Akashi"
+		},
+		gift_dislike = {
+			180003,
+			180002
 		}
 	}
 end)()
@@ -219173,6 +228711,10 @@ end)()
 		},
 		tag_list = {
 			"Akashi"
+		},
+		gift_dislike = {
+			180003,
+			180002
 		}
 	}
 end)()
@@ -219305,6 +228847,10 @@ end)()
 		},
 		tag_list = {
 			"Akashi"
+		},
+		gift_dislike = {
+			180003,
+			180002
 		}
 	}
 end)()
@@ -219559,6 +229105,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -219813,6 +229363,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -220067,6 +229621,10 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -220321,6 +229879,1082 @@ end)()
 		},
 		tag_list = {
 			"I Type-submarine"
+		},
+		gift_dislike = {
+			180007,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[317021] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 3,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 317021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			604,
+			11,
+			103,
+			0,
+			86,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.2,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		},
+		gift_dislike = {
+			180005,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[317022] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 4,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 317022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			751,
+			14,
+			129,
+			0,
+			107,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		},
+		gift_dislike = {
+			180005,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[317023] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 5,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 317023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1046,
+			19,
+			180,
+			0,
+			150,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.25,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		},
+		gift_dislike = {
+			180005,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[317024] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 317024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1488,
+			27,
+			257,
+			0,
+			214,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.35,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -220451,6 +231085,10 @@ end)()
 		},
 		tag_list = {
 			"Kashino"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -220581,6 +231219,10 @@ end)()
 		},
 		tag_list = {
 			"Kashino"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -220711,6 +231353,10 @@ end)()
 		},
 		tag_list = {
 			"Kashino"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -220841,6 +231487,10 @@ end)()
 		},
 		tag_list = {
 			"Kashino"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -220968,6 +231618,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -221095,6 +231749,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -221222,6 +231880,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -221349,6 +232011,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -221476,6 +232142,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -221603,6 +232273,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -221730,6 +232404,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -221857,6 +232535,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -221984,6 +232666,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -222111,6 +232797,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -222238,6 +232928,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -222365,6 +233059,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -222492,6 +233190,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -222619,6 +233321,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -222746,6 +233452,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -222873,6 +233583,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -223000,6 +233714,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -223127,6 +233845,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -223254,6 +233976,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -223381,6 +234107,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -223508,6 +234238,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -223635,6 +234369,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -223762,6 +234500,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -223889,6 +234631,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -224016,6 +234762,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -224143,6 +234893,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -224270,6 +235024,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -224397,6 +235155,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -224524,6 +235286,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -224651,6 +235417,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -224778,6 +235548,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -224905,6 +235679,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -225032,6 +235810,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -225159,6 +235941,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -225286,6 +236072,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -225413,6 +236203,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -225540,6 +236334,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -225667,6 +236465,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -225794,6 +236596,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -225921,6 +236727,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -226048,6 +236858,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -226175,6 +236989,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -226302,6 +237120,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -226429,6 +237251,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -226557,6 +237383,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z24"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -226685,6 +237515,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z24"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -226813,6 +237647,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z24"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -226941,6 +237779,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z24"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -227068,6 +237910,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -227195,6 +238041,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -227322,6 +238172,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -227449,6 +238303,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -227576,6 +238434,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -227703,6 +238565,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -227830,6 +238696,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -227957,6 +238827,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -228085,6 +238959,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z28"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -228213,6 +239091,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z28"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -228341,6 +239223,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z28"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -228469,6 +239355,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z28"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -228596,6 +239486,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -228723,6 +239617,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -228850,6 +239748,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -228977,6 +239879,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -229104,6 +240010,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -229231,6 +240141,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -229358,6 +240272,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -229485,6 +240403,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -229612,6 +240534,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -229739,6 +240665,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -229866,6 +240796,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -229993,6 +240927,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -230120,6 +241058,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -230247,6 +241189,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -230374,6 +241320,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -230501,6 +241451,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -230628,6 +241582,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -230755,6 +241713,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -230882,6 +241844,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -231009,6 +241975,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -231137,6 +242107,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z52"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -231265,6 +242239,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z52"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -231393,6 +242371,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z52"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -231521,6 +242503,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z52"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -231648,6 +242634,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -231775,6 +242765,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -231902,6 +242896,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -232029,6 +243027,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -232159,6 +243161,10 @@ end)()
 		},
 		tag_list = {
 			"Konigsberg-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -232289,6 +243295,10 @@ end)()
 		},
 		tag_list = {
 			"Konigsberg-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -232419,6 +243429,10 @@ end)()
 		},
 		tag_list = {
 			"Konigsberg-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -232549,6 +243563,10 @@ end)()
 		},
 		tag_list = {
 			"Konigsberg-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -232680,6 +243698,10 @@ end)()
 		tag_list = {
 			"Konigsberg-Class",
 			"Karlsruhe"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -232811,6 +243833,10 @@ end)()
 		tag_list = {
 			"Konigsberg-Class",
 			"Karlsruhe"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -232942,6 +243968,10 @@ end)()
 		tag_list = {
 			"Konigsberg-Class",
 			"Karlsruhe"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -233073,6 +244103,10 @@ end)()
 		tag_list = {
 			"Konigsberg-Class",
 			"Karlsruhe"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -233203,6 +244237,10 @@ end)()
 		},
 		tag_list = {
 			"Konigsberg-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -233333,6 +244371,10 @@ end)()
 		},
 		tag_list = {
 			"Konigsberg-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -233463,6 +244505,10 @@ end)()
 		},
 		tag_list = {
 			"Konigsberg-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -233593,6 +244639,10 @@ end)()
 		},
 		tag_list = {
 			"Konigsberg-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -233723,6 +244773,10 @@ end)()
 		},
 		tag_list = {
 			"Konigsberg-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -233853,6 +244907,10 @@ end)()
 		},
 		tag_list = {
 			"Leipzig-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -233983,6 +245041,10 @@ end)()
 		},
 		tag_list = {
 			"Leipzig-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -234113,6 +245175,10 @@ end)()
 		},
 		tag_list = {
 			"Leipzig-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -234243,6 +245309,10 @@ end)()
 		},
 		tag_list = {
 			"Leipzig-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -234373,6 +245443,10 @@ end)()
 		},
 		tag_list = {
 			"Leipzig-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -234503,6 +245577,10 @@ end)()
 		},
 		tag_list = {
 			"Leipzig-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -234633,6 +245711,10 @@ end)()
 		},
 		tag_list = {
 			"Leipzig-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -234763,6 +245845,10 @@ end)()
 		},
 		tag_list = {
 			"Leipzig-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -234893,6 +245979,10 @@ end)()
 		},
 		tag_list = {
 			"M1"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -235023,6 +246113,10 @@ end)()
 		},
 		tag_list = {
 			"M1"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -235153,6 +246247,10 @@ end)()
 		},
 		tag_list = {
 			"M1"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -235283,6 +246381,10 @@ end)()
 		},
 		tag_list = {
 			"M1"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -235414,6 +246516,10 @@ end)()
 		tag_list = {
 			"Emden",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -235545,6 +246651,10 @@ end)()
 		tag_list = {
 			"Emden",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -235676,6 +246786,10 @@ end)()
 		tag_list = {
 			"Emden",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -235807,6 +246921,10 @@ end)()
 		tag_list = {
 			"Emden",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -235938,6 +247056,10 @@ end)()
 		tag_list = {
 			"Elbing",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -236069,6 +247191,10 @@ end)()
 		tag_list = {
 			"Elbing",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -236200,6 +247326,10 @@ end)()
 		tag_list = {
 			"Elbing",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -236331,6 +247461,10 @@ end)()
 		tag_list = {
 			"Elbing",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -236461,6 +247595,10 @@ end)()
 		},
 		tag_list = {
 			"M2"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -236591,6 +247729,10 @@ end)()
 		},
 		tag_list = {
 			"M2"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -236721,6 +247863,10 @@ end)()
 		},
 		tag_list = {
 			"M2"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -236851,6 +247997,10 @@ end)()
 		},
 		tag_list = {
 			"M2"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -236981,6 +248131,10 @@ end)()
 		},
 		tag_list = {
 			"Duisburg"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -237111,6 +248265,10 @@ end)()
 		},
 		tag_list = {
 			"Duisburg"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -237241,6 +248399,10 @@ end)()
 		},
 		tag_list = {
 			"Duisburg"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -237371,6 +248533,10 @@ end)()
 		},
 		tag_list = {
 			"Duisburg"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -237500,7 +248666,12 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -237630,7 +248801,12 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -237760,7 +248936,12 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -237890,7 +249071,12 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class",
-			"Admiral Hipper"
+			"Admiral Hipper",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -238019,7 +249205,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -238148,7 +249339,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -238277,7 +249473,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -238406,7 +249607,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -238535,7 +249741,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -238664,7 +249875,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -238793,7 +250009,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -238922,7 +250143,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Admiral Hipper-Class"
+			"Admiral Hipper-Class",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -239052,6 +250278,10 @@ end)()
 		},
 		tag_list = {
 			"Deutschland-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -239181,6 +250411,10 @@ end)()
 		},
 		tag_list = {
 			"Deutschland-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -239310,6 +250544,10 @@ end)()
 		},
 		tag_list = {
 			"Deutschland-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -239439,6 +250677,10 @@ end)()
 		},
 		tag_list = {
 			"Deutschland-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -239568,6 +250810,10 @@ end)()
 		},
 		tag_list = {
 			"Deutschland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -239697,6 +250943,10 @@ end)()
 		},
 		tag_list = {
 			"Deutschland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -239826,6 +251076,10 @@ end)()
 		},
 		tag_list = {
 			"Deutschland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -239955,6 +251209,10 @@ end)()
 		},
 		tag_list = {
 			"Deutschland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -240086,7 +251344,12 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -240218,7 +251481,12 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -240350,7 +251618,12 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -240482,7 +251755,12 @@ end)()
 			"Admiral Hipper-Class",
 			"Admiral Hipper",
 			"μ",
-			"special"
+			"special",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -240614,6 +251892,10 @@ end)()
 			"μ",
 			"Roonμ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -240745,6 +252027,10 @@ end)()
 			"μ",
 			"Roonμ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -240876,6 +252162,10 @@ end)()
 			"μ",
 			"Roonμ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -241007,6 +252297,10 @@ end)()
 			"μ",
 			"Roonμ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -241136,6 +252430,10 @@ end)()
 		},
 		tag_list = {
 			"P1"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -241265,6 +252563,10 @@ end)()
 		},
 		tag_list = {
 			"P1"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -241394,6 +252696,10 @@ end)()
 		},
 		tag_list = {
 			"P1"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -241523,6 +252829,10 @@ end)()
 		},
 		tag_list = {
 			"P1"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -241652,6 +252962,10 @@ end)()
 		},
 		tag_list = {
 			"P2"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -241781,6 +253095,10 @@ end)()
 		},
 		tag_list = {
 			"P2"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -241910,6 +253228,10 @@ end)()
 		},
 		tag_list = {
 			"P2"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -242039,6 +253361,10 @@ end)()
 		},
 		tag_list = {
 			"P2"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -242166,6 +253492,10 @@ end)()
 		tag_list = {
 			"Roon-class",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -242293,6 +253623,10 @@ end)()
 		tag_list = {
 			"Roon-class",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -242420,6 +253754,10 @@ end)()
 		tag_list = {
 			"Roon-class",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -242547,6 +253885,10 @@ end)()
 		tag_list = {
 			"Roon-class",
 			"SOTP"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -242677,7 +254019,12 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -242808,7 +254155,12 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -242939,7 +254291,12 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -243070,7 +254427,12 @@ end)()
 		tag_list = {
 			"Admiral Hipper-Class",
 			"special",
-			"Little-series"
+			"Little-series",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -243202,6 +254564,10 @@ end)()
 			"Deutschland-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -243333,6 +254699,10 @@ end)()
 			"Deutschland-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -243464,6 +254834,10 @@ end)()
 			"Deutschland-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -243595,6 +254969,10 @@ end)()
 			"Deutschland-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -243724,6 +255102,10 @@ end)()
 		},
 		tag_list = {
 			"P3"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -243853,6 +255235,10 @@ end)()
 		},
 		tag_list = {
 			"P3"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -243982,6 +255368,10 @@ end)()
 		},
 		tag_list = {
 			"P3"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -244111,6 +255501,10 @@ end)()
 		},
 		tag_list = {
 			"P3"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -244242,7 +255636,12 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -244374,7 +255773,12 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -244506,7 +255910,12 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -244638,7 +256047,12 @@ end)()
 			"Admiral Hipper-Class",
 			"μ",
 			"special",
-			"μPrinzEugen"
+			"μPrinzEugen",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -244770,6 +256184,10 @@ end)()
 			"special",
 			"O-Class",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -244901,6 +256319,10 @@ end)()
 			"special",
 			"O-Class",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -245032,6 +256454,10 @@ end)()
 			"special",
 			"O-Class",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -245163,6 +256589,10 @@ end)()
 			"special",
 			"O-Class",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -245290,6 +256720,10 @@ end)()
 		},
 		tag_list = {
 			"Scharnhorst-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -245417,6 +256851,10 @@ end)()
 		},
 		tag_list = {
 			"Scharnhorst-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -245543,6 +256981,10 @@ end)()
 		},
 		tag_list = {
 			"Scharnhorst-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -245669,6 +257111,10 @@ end)()
 		},
 		tag_list = {
 			"Scharnhorst-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -245796,6 +257242,10 @@ end)()
 		},
 		tag_list = {
 			"Scharnhorst-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -245923,6 +257373,10 @@ end)()
 		},
 		tag_list = {
 			"Scharnhorst-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -246049,6 +257503,10 @@ end)()
 		},
 		tag_list = {
 			"Scharnhorst-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -246175,6 +257633,10 @@ end)()
 		},
 		tag_list = {
 			"Scharnhorst-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -246303,6 +257765,10 @@ end)()
 			"Moltke-Class",
 			"SOTP",
 			"Seydlitz"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -246431,6 +257897,10 @@ end)()
 			"Moltke-Class",
 			"SOTP",
 			"Seydlitz"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -246559,6 +258029,10 @@ end)()
 			"Moltke-Class",
 			"SOTP",
 			"Seydlitz"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -246687,6 +258161,10 @@ end)()
 			"Moltke-Class",
 			"SOTP",
 			"Seydlitz"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -246815,6 +258293,10 @@ end)()
 			"Derfflinger-class",
 			"SOTP",
 			"Lützow"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -246943,6 +258425,10 @@ end)()
 			"Derfflinger-class",
 			"SOTP",
 			"Lützow"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -247071,6 +258557,10 @@ end)()
 			"Derfflinger-class",
 			"SOTP",
 			"Lützow"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -247199,6 +258689,10 @@ end)()
 			"Derfflinger-class",
 			"SOTP",
 			"Lützow"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -247325,6 +258819,10 @@ end)()
 		},
 		tag_list = {
 			"O-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -247451,6 +258949,10 @@ end)()
 		},
 		tag_list = {
 			"O-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -247577,6 +259079,10 @@ end)()
 		},
 		tag_list = {
 			"O-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -247703,6 +259209,10 @@ end)()
 		},
 		tag_list = {
 			"O-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -247830,6 +259340,10 @@ end)()
 		tag_list = {
 			"O-Class",
 			"Alvitr"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -247957,6 +259471,10 @@ end)()
 		tag_list = {
 			"O-Class",
 			"Alvitr"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -248084,6 +259602,10 @@ end)()
 		tag_list = {
 			"O-Class",
 			"Alvitr"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -248211,6 +259733,10 @@ end)()
 		tag_list = {
 			"O-Class",
 			"Alvitr"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -248337,6 +259863,10 @@ end)()
 		},
 		tag_list = {
 			"Admiral Zenker"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -248463,6 +259993,10 @@ end)()
 		},
 		tag_list = {
 			"Admiral Zenker"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -248589,6 +260123,10 @@ end)()
 		},
 		tag_list = {
 			"Admiral Zenker"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -248715,6 +260253,10 @@ end)()
 		},
 		tag_list = {
 			"Admiral Zenker"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -248843,6 +260385,10 @@ end)()
 		tag_list = {
 			"Bismarck-Class",
 			"Bismarck"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -248971,6 +260517,10 @@ end)()
 		tag_list = {
 			"Bismarck-Class",
 			"Bismarck"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -249099,6 +260649,10 @@ end)()
 		tag_list = {
 			"Bismarck-Class",
 			"Bismarck"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -249227,6 +260781,10 @@ end)()
 		tag_list = {
 			"Bismarck-Class",
 			"Bismarck"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -249354,6 +260912,10 @@ end)()
 		tag_list = {
 			"Bismarck-Class",
 			"Tirpitz"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -249481,6 +261043,10 @@ end)()
 		tag_list = {
 			"Bismarck-Class",
 			"Tirpitz"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -249608,6 +261174,10 @@ end)()
 		tag_list = {
 			"Bismarck-Class",
 			"Tirpitz"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -249735,6 +261305,10 @@ end)()
 		tag_list = {
 			"Bismarck-Class",
 			"Tirpitz"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -249862,6 +261436,10 @@ end)()
 		},
 		tag_list = {
 			"H39"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -249989,6 +261567,10 @@ end)()
 		},
 		tag_list = {
 			"H39"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -250116,6 +261698,10 @@ end)()
 		},
 		tag_list = {
 			"H39"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -250243,6 +261829,10 @@ end)()
 		},
 		tag_list = {
 			"H39"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -250371,6 +261961,10 @@ end)()
 			"Helgoland-Class",
 			"Thüringen",
 			"SOTP"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -250499,6 +262093,10 @@ end)()
 			"Helgoland-Class",
 			"Thüringen",
 			"SOTP"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -250627,6 +262225,10 @@ end)()
 			"Helgoland-Class",
 			"Thüringen",
 			"SOTP"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -250755,6 +262357,10 @@ end)()
 			"Helgoland-Class",
 			"Thüringen",
 			"SOTP"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -250884,6 +262490,10 @@ end)()
 			"Bismarck",
 			"BismarckZwei",
 			"BSMZ"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -251013,6 +262623,10 @@ end)()
 			"Bismarck",
 			"BismarckZwei",
 			"BSMZ"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -251142,6 +262756,10 @@ end)()
 			"Bismarck",
 			"BismarckZwei",
 			"BSMZ"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -251271,6 +262889,10 @@ end)()
 			"Bismarck",
 			"BismarckZwei",
 			"BSMZ"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -251399,6 +263021,10 @@ end)()
 		tag_list = {
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -251527,6 +263153,10 @@ end)()
 		tag_list = {
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -251655,6 +263285,10 @@ end)()
 		tag_list = {
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -251783,6 +263417,10 @@ end)()
 		tag_list = {
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -251909,6 +263547,10 @@ end)()
 		},
 		tag_list = {
 			"Weser"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -252035,6 +263677,10 @@ end)()
 		},
 		tag_list = {
 			"Weser"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -252161,6 +263807,10 @@ end)()
 		},
 		tag_list = {
 			"Weser"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -252287,6 +263937,10 @@ end)()
 		},
 		tag_list = {
 			"Weser"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -252413,6 +264067,10 @@ end)()
 		},
 		tag_list = {
 			"Elbe"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -252539,6 +264197,10 @@ end)()
 		},
 		tag_list = {
 			"Elbe"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -252665,6 +264327,10 @@ end)()
 		},
 		tag_list = {
 			"Elbe"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -252791,6 +264457,10 @@ end)()
 		},
 		tag_list = {
 			"Elbe"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -252917,6 +264587,10 @@ end)()
 		},
 		tag_list = {
 			"Jade"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -253043,6 +264717,10 @@ end)()
 		},
 		tag_list = {
 			"Jade"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -253169,6 +264847,10 @@ end)()
 		},
 		tag_list = {
 			"Jade"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -253295,6 +264977,10 @@ end)()
 		},
 		tag_list = {
 			"Jade"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -253422,6 +265108,10 @@ end)()
 		},
 		tag_list = {
 			"Graf Zeppelin-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -253549,6 +265239,10 @@ end)()
 		},
 		tag_list = {
 			"Graf Zeppelin-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -253676,6 +265370,10 @@ end)()
 		},
 		tag_list = {
 			"Graf Zeppelin-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -253803,6 +265501,10 @@ end)()
 		},
 		tag_list = {
 			"Graf Zeppelin-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -253931,6 +265633,10 @@ end)()
 			"Graf Zeppelin-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -254059,6 +265765,10 @@ end)()
 			"Graf Zeppelin-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -254187,6 +265897,10 @@ end)()
 			"Graf Zeppelin-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -254315,6 +266029,10 @@ end)()
 			"Graf Zeppelin-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -254442,6 +266160,10 @@ end)()
 		},
 		tag_list = {
 			"Graf Zeppelin-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -254569,6 +266291,10 @@ end)()
 		},
 		tag_list = {
 			"Graf Zeppelin-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -254696,6 +266422,10 @@ end)()
 		},
 		tag_list = {
 			"Graf Zeppelin-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -254823,6 +266553,10 @@ end)()
 		},
 		tag_list = {
 			"Graf Zeppelin-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -254951,6 +266685,10 @@ end)()
 		},
 		tag_list = {
 			"Rumey"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -255079,6 +266817,10 @@ end)()
 		},
 		tag_list = {
 			"Rumey"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -255207,6 +266949,10 @@ end)()
 		},
 		tag_list = {
 			"Rumey"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -255335,6 +267081,10 @@ end)()
 		},
 		tag_list = {
 			"Rumey"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -255591,6 +267341,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -255847,6 +267601,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -256103,6 +267861,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -256359,6 +268121,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -256615,6 +268381,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -256871,6 +268641,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -257127,6 +268901,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -257383,6 +269161,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -257635,6 +269417,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -257887,6 +269673,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -258139,6 +269929,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -258391,6 +270185,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -258647,6 +270445,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -258903,6 +270705,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -259159,6 +270965,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -259415,6 +271225,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -259663,6 +271477,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -259911,6 +271729,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -260159,6 +271981,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -260407,6 +272233,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -260663,6 +272493,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -260919,6 +272753,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -261175,6 +273013,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -261431,6 +273273,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -261684,6 +273530,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -261937,6 +273787,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -262190,6 +274044,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -262443,6 +274301,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -262691,6 +274553,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -262939,6 +274805,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -263187,6 +275057,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -263435,6 +275309,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -263691,6 +275569,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -263947,6 +275829,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -264203,6 +276089,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -264459,6 +276349,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -264715,6 +276609,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -264971,6 +276869,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -265227,6 +277129,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -265483,6 +277389,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -265735,6 +277645,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -265987,6 +277901,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -266239,6 +278157,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -266491,6 +278413,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -266739,6 +278665,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -266987,6 +278917,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -267235,6 +279169,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -267483,6 +279421,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -267731,6 +279673,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -267979,6 +279925,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -268227,6 +280177,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -268475,6 +280429,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -268731,6 +280689,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -268987,6 +280949,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -269243,6 +281209,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -269499,6 +281469,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -269511,7 +281485,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -269627,6 +281601,10 @@ end)()
 		tag_list = {
 			"Qinglong",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -269639,7 +281617,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -269755,6 +281733,10 @@ end)()
 		tag_list = {
 			"Qinglong",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -269767,7 +281749,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -269883,6 +281865,10 @@ end)()
 		tag_list = {
 			"Qinglong",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -269895,7 +281881,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -270011,6 +281997,10 @@ end)()
 		tag_list = {
 			"Qinglong",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -270023,7 +282013,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -270140,6 +282130,10 @@ end)()
 			"Zhuque",
 			"Anshan-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180008
 		}
 	}
 end)()
@@ -270152,7 +282146,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -270269,6 +282263,10 @@ end)()
 			"Zhuque",
 			"Anshan-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180008
 		}
 	}
 end)()
@@ -270281,7 +282279,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -270398,6 +282396,10 @@ end)()
 			"Zhuque",
 			"Anshan-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180008
 		}
 	}
 end)()
@@ -270410,7 +282412,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -270527,6 +282529,10 @@ end)()
 			"Zhuque",
 			"Anshan-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180008
 		}
 	}
 end)()
@@ -270539,7 +282545,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -270655,6 +282661,10 @@ end)()
 		tag_list = {
 			"Baihu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -270667,7 +282677,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -270783,6 +282793,10 @@ end)()
 		tag_list = {
 			"Baihu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -270795,7 +282809,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -270911,6 +282925,10 @@ end)()
 		tag_list = {
 			"Baihu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -270923,7 +282941,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -271039,6 +283057,10 @@ end)()
 		tag_list = {
 			"Baihu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -271051,7 +283073,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -271167,6 +283189,10 @@ end)()
 		tag_list = {
 			"Xuanwu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -271179,7 +283205,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -271295,6 +283321,10 @@ end)()
 		tag_list = {
 			"Xuanwu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -271307,7 +283337,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -271423,6 +283453,10 @@ end)()
 		tag_list = {
 			"Xuanwu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -271435,7 +283469,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -271551,6 +283585,10 @@ end)()
 		tag_list = {
 			"Xuanwu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -271678,6 +283716,10 @@ end)()
 		},
 		tag_list = {
 			"Lung Wu"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -271805,6 +283847,10 @@ end)()
 		},
 		tag_list = {
 			"Lung Wu"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -271932,6 +283978,10 @@ end)()
 		},
 		tag_list = {
 			"Lung Wu"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -272059,6 +284109,10 @@ end)()
 		},
 		tag_list = {
 			"Lung Wu"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -272186,6 +284240,10 @@ end)()
 		},
 		tag_list = {
 			"Hu Pen"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -272313,6 +284371,10 @@ end)()
 		},
 		tag_list = {
 			"Hu Pen"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -272440,6 +284502,10 @@ end)()
 		},
 		tag_list = {
 			"Hu Pen"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -272567,6 +284633,10 @@ end)()
 		},
 		tag_list = {
 			"Hu Pen"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -272696,6 +284766,10 @@ end)()
 			"Fei Yuen",
 			"Chang Feng-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180008,
+			180003
 		}
 	}
 end)()
@@ -272825,6 +284899,10 @@ end)()
 			"Fei Yuen",
 			"Chang Feng-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180008,
+			180003
 		}
 	}
 end)()
@@ -272954,6 +285032,10 @@ end)()
 			"Fei Yuen",
 			"Chang Feng-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180008,
+			180003
 		}
 	}
 end)()
@@ -273083,6 +285165,10 @@ end)()
 			"Fei Yuen",
 			"Chang Feng-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180008,
+			180003
 		}
 	}
 end)()
@@ -273211,6 +285297,10 @@ end)()
 		tag_list = {
 			"Chang Feng",
 			"Chang Feng-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -273339,6 +285429,10 @@ end)()
 		tag_list = {
 			"Chang Feng",
 			"Chang Feng-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -273467,6 +285561,10 @@ end)()
 		tag_list = {
 			"Chang Feng",
 			"Chang Feng-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -273595,6 +285693,10 @@ end)()
 		tag_list = {
 			"Chang Feng",
 			"Chang Feng-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -273724,6 +285826,10 @@ end)()
 			"Fu Po",
 			"Chang Feng-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -273853,6 +285959,10 @@ end)()
 			"Fu Po",
 			"Chang Feng-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -273982,6 +286092,10 @@ end)()
 			"Fu Po",
 			"Chang Feng-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -274111,6 +286225,10 @@ end)()
 			"Fu Po",
 			"Chang Feng-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -274123,7 +286241,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -274239,6 +286357,10 @@ end)()
 		},
 		tag_list = {
 			"Yat sen"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -274251,7 +286373,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -274367,6 +286489,10 @@ end)()
 		},
 		tag_list = {
 			"Yat sen"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -274379,7 +286505,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -274495,6 +286621,10 @@ end)()
 		},
 		tag_list = {
 			"Yat sen"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -274507,7 +286637,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -274623,6 +286753,10 @@ end)()
 		},
 		tag_list = {
 			"Yat sen"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -274635,7 +286769,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502010,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -274751,6 +286885,10 @@ end)()
 		},
 		tag_list = {
 			"Yat sen"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -274763,7 +286901,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -274882,6 +287020,10 @@ end)()
 		tag_list = {
 			"Ning Hai-Class",
 			"Ning Hai"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -274894,7 +287036,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -275013,6 +287155,10 @@ end)()
 		tag_list = {
 			"Ning Hai-Class",
 			"Ning Hai"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -275025,7 +287171,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -275144,6 +287290,10 @@ end)()
 		tag_list = {
 			"Ning Hai-Class",
 			"Ning Hai"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -275156,7 +287306,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -275275,6 +287425,10 @@ end)()
 		tag_list = {
 			"Ning Hai-Class",
 			"Ning Hai"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -275287,7 +287441,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -275406,6 +287560,10 @@ end)()
 		tag_list = {
 			"Ning Hai-Class",
 			"Ping Hai"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -275418,7 +287576,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -275537,6 +287695,10 @@ end)()
 		tag_list = {
 			"Ning Hai-Class",
 			"Ping Hai"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -275549,7 +287711,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -275668,6 +287830,10 @@ end)()
 		tag_list = {
 			"Ning Hai-Class",
 			"Ping Hai"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -275680,7 +287846,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -275799,6 +287965,10 @@ end)()
 		tag_list = {
 			"Ning Hai-Class",
 			"Ping Hai"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -275811,7 +287981,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502040,
-		english_name = "ROC Ying Swei",
+		english_name = "Ying Swei",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -275929,6 +288099,10 @@ end)()
 		},
 		tag_list = {
 			"Chaoho-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -275941,7 +288115,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502040,
-		english_name = "ROC Ying Swei",
+		english_name = "Ying Swei",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -276059,6 +288233,10 @@ end)()
 		},
 		tag_list = {
 			"Chaoho-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -276071,7 +288249,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502040,
-		english_name = "ROC Ying Swei",
+		english_name = "Ying Swei",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -276189,6 +288367,10 @@ end)()
 		},
 		tag_list = {
 			"Chaoho-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -276201,7 +288383,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502040,
-		english_name = "ROC Ying Swei",
+		english_name = "Ying Swei",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -276319,6 +288501,10 @@ end)()
 		},
 		tag_list = {
 			"Chaoho-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -276331,7 +288517,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502050,
-		english_name = "ROC Chao Ho",
+		english_name = "Chao Ho",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -276449,6 +288635,10 @@ end)()
 		},
 		tag_list = {
 			"Chaoho-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -276461,7 +288651,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502050,
-		english_name = "ROC Chao Ho",
+		english_name = "Chao Ho",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -276579,6 +288769,10 @@ end)()
 		},
 		tag_list = {
 			"Chaoho-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -276591,7 +288785,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502050,
-		english_name = "ROC Chao Ho",
+		english_name = "Chao Ho",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -276709,6 +288903,10 @@ end)()
 		},
 		tag_list = {
 			"Chaoho-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -276721,7 +288919,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502050,
-		english_name = "ROC Chao Ho",
+		english_name = "Chao Ho",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -276839,6 +289037,10 @@ end)()
 		},
 		tag_list = {
 			"Chaoho-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -276969,6 +289171,10 @@ end)()
 		},
 		tag_list = {
 			"Hai Tien-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -277099,6 +289305,10 @@ end)()
 		},
 		tag_list = {
 			"Hai Tien-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -277229,6 +289439,10 @@ end)()
 		},
 		tag_list = {
 			"Hai Tien-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -277359,6 +289573,10 @@ end)()
 		},
 		tag_list = {
 			"Hai Tien-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -277489,6 +289707,10 @@ end)()
 		},
 		tag_list = {
 			"Hai Tien-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -277619,6 +289841,10 @@ end)()
 		},
 		tag_list = {
 			"Hai Tien-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -277749,6 +289975,10 @@ end)()
 		},
 		tag_list = {
 			"Hai Tien-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -277879,6 +290109,10 @@ end)()
 		},
 		tag_list = {
 			"Hai Tien-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -277891,7 +290125,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 2,
@@ -278006,6 +290240,10 @@ end)()
 		},
 		tag_list = {
 			"Chi An"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -278018,7 +290256,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -278133,6 +290371,10 @@ end)()
 		},
 		tag_list = {
 			"Chi An"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -278145,7 +290387,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -278260,6 +290502,10 @@ end)()
 		},
 		tag_list = {
 			"Chi An"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -278272,7 +290518,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -278387,6 +290633,10 @@ end)()
 		},
 		tag_list = {
 			"Chi An"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -278515,6 +290765,10 @@ end)()
 		tag_list = {
 			"Hai Yung-Class",
 			"Hai Yung"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -278643,6 +290897,10 @@ end)()
 		tag_list = {
 			"Hai Yung-Class",
 			"Hai Yung"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -278771,6 +291029,10 @@ end)()
 		tag_list = {
 			"Hai Yung-Class",
 			"Hai Yung"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -278899,6 +291161,10 @@ end)()
 		tag_list = {
 			"Hai Yung-Class",
 			"Hai Yung"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -279025,6 +291291,10 @@ end)()
 		},
 		tag_list = {
 			"Chien Wu"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -279151,6 +291421,10 @@ end)()
 		},
 		tag_list = {
 			"Chien Wu"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -279277,6 +291551,10 @@ end)()
 		},
 		tag_list = {
 			"Chien Wu"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -279403,6 +291681,10 @@ end)()
 		},
 		tag_list = {
 			"Chien Wu"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -279530,6 +291812,10 @@ end)()
 		},
 		tag_list = {
 			"Huan Ch'ang"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -279657,6 +291943,10 @@ end)()
 		},
 		tag_list = {
 			"Huan Ch'ang"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -279784,6 +292074,10 @@ end)()
 		},
 		tag_list = {
 			"Huan Ch'ang"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -279911,6 +292205,10 @@ end)()
 		},
 		tag_list = {
 			"Huan Ch'ang"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -280036,6 +292334,10 @@ end)()
 		},
 		tag_list = {
 			"Chen Hai"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -280161,6 +292463,10 @@ end)()
 		},
 		tag_list = {
 			"Chen Hai"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -280286,6 +292592,10 @@ end)()
 		},
 		tag_list = {
 			"Chen Hai"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -280411,6 +292721,10 @@ end)()
 		},
 		tag_list = {
 			"Chen Hai"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -280536,6 +292850,10 @@ end)()
 		},
 		tag_list = {
 			"Chen Hai"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -280661,6 +292979,10 @@ end)()
 		},
 		tag_list = {
 			"Hwah Jahi"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -280786,6 +293108,10 @@ end)()
 		},
 		tag_list = {
 			"Hwah Jahi"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -280911,6 +293237,10 @@ end)()
 		},
 		tag_list = {
 			"Hwah Jahi"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -281036,6 +293366,10 @@ end)()
 		},
 		tag_list = {
 			"Hwah Jahi"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -281161,6 +293495,10 @@ end)()
 		},
 		tag_list = {
 			"Hwah Jahi"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -281286,6 +293624,10 @@ end)()
 		},
 		tag_list = {
 			"Ting An"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -281411,6 +293753,10 @@ end)()
 		},
 		tag_list = {
 			"Ting An"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -281536,6 +293882,10 @@ end)()
 		},
 		tag_list = {
 			"Ting An"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -281661,6 +294011,10 @@ end)()
 		},
 		tag_list = {
 			"Ting An"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -281673,7 +294027,7 @@ end)()
 		type = 20,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -281794,6 +294148,10 @@ end)()
 		tag_list = {
 			"Qinglong",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -281806,7 +294164,7 @@ end)()
 		type = 20,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -281928,6 +294286,10 @@ end)()
 			"Zhuque",
 			"Anshan-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -281940,7 +294302,7 @@ end)()
 		type = 20,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282061,6 +294423,10 @@ end)()
 		tag_list = {
 			"Baihu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -282073,7 +294439,7 @@ end)()
 		type = 20,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282194,6 +294560,10 @@ end)()
 		tag_list = {
 			"Xuanwu",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -282206,7 +294576,7 @@ end)()
 		type = 21,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282328,6 +294698,10 @@ end)()
 			"Qinglong",
 			"Anshan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -282340,7 +294714,7 @@ end)()
 		type = 21,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282463,6 +294837,10 @@ end)()
 			"Anshan-Class",
 			"PRE",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -282475,7 +294853,7 @@ end)()
 		type = 21,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282597,6 +294975,10 @@ end)()
 			"Baihu",
 			"Anshan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -282609,7 +294991,7 @@ end)()
 		type = 21,
 		oxy_cost = 0,
 		skin_id = 501040,
-		english_name = "PRAN Tai Yuan",
+		english_name = "Tai Yuan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -282731,6 +295113,10 @@ end)()
 			"Xuanwu",
 			"Anshan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -282858,6 +295244,10 @@ end)()
 		},
 		tag_list = {
 			"Soldati-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -282985,6 +295375,10 @@ end)()
 		},
 		tag_list = {
 			"Soldati-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -283112,6 +295506,10 @@ end)()
 		},
 		tag_list = {
 			"Soldati-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -283239,6 +295637,10 @@ end)()
 		},
 		tag_list = {
 			"Soldati-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -283366,6 +295768,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -283493,6 +295899,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -283620,6 +296030,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -283747,6 +296161,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -283874,6 +296292,10 @@ end)()
 		},
 		tag_list = {
 			"Maestrale-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -284001,6 +296423,10 @@ end)()
 		},
 		tag_list = {
 			"Maestrale-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -284128,6 +296554,10 @@ end)()
 		},
 		tag_list = {
 			"Maestrale-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -284255,6 +296685,10 @@ end)()
 		},
 		tag_list = {
 			"Maestrale-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -284382,6 +296816,10 @@ end)()
 		},
 		tag_list = {
 			"Maestrale-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -284509,6 +296947,10 @@ end)()
 		},
 		tag_list = {
 			"Maestrale-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -284636,6 +297078,10 @@ end)()
 		},
 		tag_list = {
 			"Maestrale-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -284763,6 +297209,10 @@ end)()
 		},
 		tag_list = {
 			"Maestrale-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -284890,6 +297340,10 @@ end)()
 		},
 		tag_list = {
 			"Navigatori-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -285017,6 +297471,10 @@ end)()
 		},
 		tag_list = {
 			"Navigatori-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -285144,6 +297602,10 @@ end)()
 		},
 		tag_list = {
 			"Navigatori-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -285271,6 +297733,10 @@ end)()
 		},
 		tag_list = {
 			"Navigatori-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -285398,6 +297864,10 @@ end)()
 		},
 		tag_list = {
 			"Capitani Romani-class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -285525,6 +297995,10 @@ end)()
 		},
 		tag_list = {
 			"Capitani Romani-class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -285652,6 +298126,10 @@ end)()
 		},
 		tag_list = {
 			"Capitani Romani-class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -285779,6 +298257,10 @@ end)()
 		},
 		tag_list = {
 			"Capitani Romani-class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -285906,6 +298388,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -286033,6 +298519,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -286160,6 +298650,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -286287,6 +298781,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -286414,6 +298912,10 @@ end)()
 		},
 		tag_list = {
 			"Navigatori-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -286541,6 +299043,10 @@ end)()
 		},
 		tag_list = {
 			"Navigatori-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -286668,6 +299174,10 @@ end)()
 		},
 		tag_list = {
 			"Navigatori-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -286795,6 +299305,10 @@ end)()
 		},
 		tag_list = {
 			"Navigatori-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -286922,6 +299436,10 @@ end)()
 		},
 		tag_list = {
 			"Capitani Romani-class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -287049,6 +299567,10 @@ end)()
 		},
 		tag_list = {
 			"Capitani Romani-class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -287176,6 +299698,10 @@ end)()
 		},
 		tag_list = {
 			"Capitani Romani-class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -287303,6 +299829,10 @@ end)()
 		},
 		tag_list = {
 			"Capitani Romani-class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -287430,6 +299960,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -287557,6 +300091,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -287684,6 +300222,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -287811,6 +300353,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -287942,6 +300488,10 @@ end)()
 		tag_list = {
 			"Condottieri-Class",
 			"V"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -288073,6 +300623,10 @@ end)()
 		tag_list = {
 			"Condottieri-Class",
 			"V"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -288204,6 +300758,10 @@ end)()
 		tag_list = {
 			"Condottieri-Class",
 			"V"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -288335,6 +300893,10 @@ end)()
 		tag_list = {
 			"Condottieri-Class",
 			"V"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -288466,6 +301028,10 @@ end)()
 		tag_list = {
 			"Condottieri-Class",
 			"V"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -288597,6 +301163,10 @@ end)()
 		tag_list = {
 			"Condottieri-Class",
 			"V"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -288728,6 +301298,10 @@ end)()
 		tag_list = {
 			"Condottieri-Class",
 			"V"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -288859,6 +301433,10 @@ end)()
 		tag_list = {
 			"Condottieri-Class",
 			"V"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -288989,6 +301567,10 @@ end)()
 		},
 		tag_list = {
 			"Giussano-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -289119,6 +301701,10 @@ end)()
 		},
 		tag_list = {
 			"Giussano-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -289249,6 +301835,10 @@ end)()
 		},
 		tag_list = {
 			"Giussano-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -289379,6 +301969,10 @@ end)()
 		},
 		tag_list = {
 			"Giussano-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -289508,6 +302102,10 @@ end)()
 		},
 		tag_list = {
 			"Trento-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -289637,6 +302235,10 @@ end)()
 		},
 		tag_list = {
 			"Trento-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -289766,6 +302368,10 @@ end)()
 		},
 		tag_list = {
 			"Trento-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -289895,6 +302501,10 @@ end)()
 		},
 		tag_list = {
 			"Trento-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -290023,6 +302633,10 @@ end)()
 		tag_list = {
 			"Zara",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -290151,6 +302765,10 @@ end)()
 		tag_list = {
 			"Zara",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -290279,6 +302897,10 @@ end)()
 		tag_list = {
 			"Zara",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -290407,6 +303029,10 @@ end)()
 		tag_list = {
 			"Zara",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -290535,6 +303161,10 @@ end)()
 		tag_list = {
 			"Pola",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -290663,6 +303293,10 @@ end)()
 		tag_list = {
 			"Pola",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -290791,6 +303425,10 @@ end)()
 		tag_list = {
 			"Pola",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -290919,6 +303557,10 @@ end)()
 		tag_list = {
 			"Pola",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -291048,6 +303690,10 @@ end)()
 		},
 		tag_list = {
 			"Trento-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -291177,6 +303823,10 @@ end)()
 		},
 		tag_list = {
 			"Trento-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -291306,6 +303956,10 @@ end)()
 		},
 		tag_list = {
 			"Trento-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -291435,6 +304089,10 @@ end)()
 		},
 		tag_list = {
 			"Trento-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -291564,6 +304222,10 @@ end)()
 		},
 		tag_list = {
 			"Bolzano-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -291693,6 +304355,10 @@ end)()
 		},
 		tag_list = {
 			"Bolzano-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -291822,6 +304488,10 @@ end)()
 		},
 		tag_list = {
 			"Bolzano-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -291951,6 +304621,10 @@ end)()
 		},
 		tag_list = {
 			"Bolzano-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -292079,6 +304753,10 @@ end)()
 		tag_list = {
 			"Gorizia",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -292207,6 +304885,10 @@ end)()
 		tag_list = {
 			"Gorizia",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -292335,6 +305017,10 @@ end)()
 		tag_list = {
 			"Gorizia",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -292463,6 +305149,10 @@ end)()
 		tag_list = {
 			"Gorizia",
 			"Zara-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -292591,6 +305281,10 @@ end)()
 		tag_list = {
 			"Vittorio Veneto-Class",
 			"Vittorio Veneto"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -292719,6 +305413,10 @@ end)()
 		tag_list = {
 			"Vittorio Veneto-Class",
 			"Vittorio Veneto"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -292847,6 +305545,10 @@ end)()
 		tag_list = {
 			"Vittorio Veneto-Class",
 			"Vittorio Veneto"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -292975,6 +305677,10 @@ end)()
 		tag_list = {
 			"Vittorio Veneto-Class",
 			"Vittorio Veneto"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -293102,6 +305808,10 @@ end)()
 		},
 		tag_list = {
 			"Vittorio Veneto-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -293229,6 +305939,10 @@ end)()
 		},
 		tag_list = {
 			"Vittorio Veneto-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -293356,6 +306070,10 @@ end)()
 		},
 		tag_list = {
 			"Vittorio Veneto-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -293483,6 +306201,10 @@ end)()
 		},
 		tag_list = {
 			"Vittorio Veneto-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -293610,6 +306332,10 @@ end)()
 		},
 		tag_list = {
 			"Vittorio Veneto-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -293737,6 +306463,10 @@ end)()
 		},
 		tag_list = {
 			"Vittorio Veneto-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -293864,6 +306594,10 @@ end)()
 		},
 		tag_list = {
 			"Vittorio Veneto-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -293991,6 +306725,10 @@ end)()
 		},
 		tag_list = {
 			"Vittorio Veneto-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -294117,6 +306855,10 @@ end)()
 		},
 		tag_list = {
 			"Conte di Cavour-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -294243,6 +306985,10 @@ end)()
 		},
 		tag_list = {
 			"Conte di Cavour-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -294369,6 +307115,10 @@ end)()
 		},
 		tag_list = {
 			"Conte di Cavour-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -294495,6 +307245,10 @@ end)()
 		},
 		tag_list = {
 			"Conte di Cavour-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -294621,6 +307375,10 @@ end)()
 		},
 		tag_list = {
 			"Conte di Cavour-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -294747,6 +307505,10 @@ end)()
 		},
 		tag_list = {
 			"Conte di Cavour-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -294873,6 +307635,10 @@ end)()
 		},
 		tag_list = {
 			"Conte di Cavour-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -294999,6 +307765,10 @@ end)()
 		},
 		tag_list = {
 			"Conte di Cavour-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -295126,6 +307896,10 @@ end)()
 		},
 		tag_list = {
 			"Andrea Doria-class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -295253,6 +308027,10 @@ end)()
 		},
 		tag_list = {
 			"Andrea Doria-class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -295380,6 +308158,10 @@ end)()
 		},
 		tag_list = {
 			"Andrea Doria-class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -295507,6 +308289,10 @@ end)()
 		},
 		tag_list = {
 			"Andrea Doria-class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -295634,6 +308420,10 @@ end)()
 		},
 		tag_list = {
 			"Raffaello"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -295761,6 +308551,10 @@ end)()
 		},
 		tag_list = {
 			"Raffaello"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -295888,6 +308682,10 @@ end)()
 		},
 		tag_list = {
 			"Raffaello"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -296015,6 +308813,10 @@ end)()
 		},
 		tag_list = {
 			"Raffaello"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -296142,6 +308944,10 @@ end)()
 		},
 		tag_list = {
 			"Aquila"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -296269,6 +309075,10 @@ end)()
 		},
 		tag_list = {
 			"Aquila"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -296396,6 +309206,10 @@ end)()
 		},
 		tag_list = {
 			"Aquila"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -296523,6 +309337,10 @@ end)()
 		},
 		tag_list = {
 			"Aquila"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -296650,6 +309468,10 @@ end)()
 		},
 		tag_list = {
 			"Impero"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -296777,6 +309599,10 @@ end)()
 		},
 		tag_list = {
 			"Impero"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -296904,6 +309730,10 @@ end)()
 		},
 		tag_list = {
 			"Impero"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -297031,6 +309861,10 @@ end)()
 		},
 		tag_list = {
 			"Impero"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -297275,6 +310109,10 @@ end)()
 		},
 		tag_list = {
 			"Brin-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -297519,6 +310357,10 @@ end)()
 		},
 		tag_list = {
 			"Brin-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -297763,6 +310605,10 @@ end)()
 		},
 		tag_list = {
 			"Brin-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -298007,6 +310853,10 @@ end)()
 		},
 		tag_list = {
 			"Brin-Class"
+		},
+		gift_dislike = {
+			180006,
+			180003
 		}
 	}
 end)()
@@ -298264,6 +311114,10 @@ end)()
 		},
 		tag_list = {
 			"Marconi-class"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -298521,6 +311375,10 @@ end)()
 		},
 		tag_list = {
 			"Marconi-class"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -298778,6 +311636,10 @@ end)()
 		},
 		tag_list = {
 			"Marconi-class"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -299035,6 +311897,10 @@ end)()
 		},
 		tag_list = {
 			"Marconi-class"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -299293,6 +312159,10 @@ end)()
 		tag_list = {
 			"Marconi-class",
 			"Baracca"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -299551,6 +312421,10 @@ end)()
 		tag_list = {
 			"Marconi-class",
 			"Baracca"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -299809,6 +312683,10 @@ end)()
 		tag_list = {
 			"Marconi-class",
 			"Baracca"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -300067,6 +312945,10 @@ end)()
 		tag_list = {
 			"Marconi-class",
 			"Baracca"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -300195,6 +313077,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -300323,6 +313209,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -300451,6 +313341,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -300579,6 +313473,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -300707,6 +313605,10 @@ end)()
 		tag_list = {
 			"Leningrad-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -300835,6 +313737,10 @@ end)()
 		tag_list = {
 			"Leningrad-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -300963,6 +313869,10 @@ end)()
 		tag_list = {
 			"Leningrad-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -301091,6 +314001,10 @@ end)()
 		tag_list = {
 			"Leningrad-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -301220,6 +314134,10 @@ end)()
 			"Tashkent",
 			"Northern Union-DD",
 			"Tashkent1"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -301349,6 +314267,10 @@ end)()
 			"Tashkent",
 			"Northern Union-DD",
 			"Tashkent1"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -301478,6 +314400,10 @@ end)()
 			"Tashkent",
 			"Northern Union-DD",
 			"Tashkent1"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -301607,6 +314533,10 @@ end)()
 			"Tashkent",
 			"Northern Union-DD",
 			"Tashkent1"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -301737,6 +314667,10 @@ end)()
 			"Northern Union-DD",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -301867,6 +314801,10 @@ end)()
 			"Northern Union-DD",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -301997,6 +314935,10 @@ end)()
 			"Northern Union-DD",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -302127,6 +315069,10 @@ end)()
 			"Northern Union-DD",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -302255,6 +315201,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -302383,6 +315333,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -302511,6 +315465,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -302639,6 +315597,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -302767,6 +315729,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -302895,6 +315861,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -303023,6 +315993,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -303151,6 +316125,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -303279,6 +316257,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -303407,6 +316389,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -303535,6 +316521,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -303663,6 +316653,10 @@ end)()
 		tag_list = {
 			"Gnevny-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -303791,6 +316785,10 @@ end)()
 		tag_list = {
 			"Storozhevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -303919,6 +316917,10 @@ end)()
 		tag_list = {
 			"Storozhevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -304047,6 +317049,10 @@ end)()
 		tag_list = {
 			"Storozhevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -304175,6 +317181,10 @@ end)()
 		tag_list = {
 			"Storozhevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -304304,6 +317314,10 @@ end)()
 			"Kiev-Class",
 			"Northern Union-DD",
 			"Northern Union Anshan-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -304433,6 +317447,10 @@ end)()
 			"Kiev-Class",
 			"Northern Union-DD",
 			"Northern Union Anshan-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -304562,6 +317580,10 @@ end)()
 			"Kiev-Class",
 			"Northern Union-DD",
 			"Northern Union Anshan-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -304691,6 +317713,10 @@ end)()
 			"Kiev-Class",
 			"Northern Union-DD",
 			"Northern Union Anshan-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -304819,6 +317845,10 @@ end)()
 		tag_list = {
 			"Ognevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -304947,6 +317977,10 @@ end)()
 		tag_list = {
 			"Ognevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -305075,6 +318109,10 @@ end)()
 		tag_list = {
 			"Ognevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -305203,6 +318241,10 @@ end)()
 		tag_list = {
 			"Ognevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -305331,6 +318373,10 @@ end)()
 		tag_list = {
 			"Storozhevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -305459,6 +318505,10 @@ end)()
 		tag_list = {
 			"Storozhevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -305587,6 +318637,10 @@ end)()
 		tag_list = {
 			"Storozhevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -305715,6 +318769,10 @@ end)()
 		tag_list = {
 			"Storozhevoy-class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -305845,6 +318903,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -305975,6 +319037,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -306105,6 +319171,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -306235,6 +319305,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -306365,6 +319439,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -306495,6 +319573,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -306625,6 +319707,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -306755,6 +319841,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -306885,6 +319975,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -307015,6 +320109,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -307145,6 +320243,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -307275,6 +320377,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -307404,6 +320510,10 @@ end)()
 		tag_list = {
 			"Chapayev-Class",
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -307533,6 +320643,10 @@ end)()
 		tag_list = {
 			"Chapayev-Class",
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -307662,6 +320776,10 @@ end)()
 		tag_list = {
 			"Chapayev-Class",
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -307791,6 +320909,10 @@ end)()
 		tag_list = {
 			"Chapayev-Class",
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -307921,6 +321043,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180008
 		}
 	}
 end)()
@@ -308051,6 +321177,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180008
 		}
 	}
 end)()
@@ -308181,6 +321311,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180008
 		}
 	}
 end)()
@@ -308311,6 +321445,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180008
 		}
 	}
 end)()
@@ -308440,6 +321578,10 @@ end)()
 		tag_list = {
 			"Chapayev-Class",
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -308569,6 +321711,10 @@ end)()
 		tag_list = {
 			"Chapayev-Class",
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -308698,6 +321844,10 @@ end)()
 		tag_list = {
 			"Chapayev-Class",
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -308827,6 +321977,10 @@ end)()
 		tag_list = {
 			"Chapayev-Class",
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -308958,6 +322112,10 @@ end)()
 		tag_list = {
 			"Northern Union-CL",
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -309089,6 +322247,10 @@ end)()
 		tag_list = {
 			"Northern Union-CL",
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -309220,6 +322382,10 @@ end)()
 		tag_list = {
 			"Northern Union-CL",
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -309351,6 +322517,10 @@ end)()
 		tag_list = {
 			"Northern Union-CL",
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -309481,6 +322651,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -309611,6 +322785,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -309741,6 +322919,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -309871,6 +323053,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -310001,6 +323187,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -310128,7 +323318,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180002,
+			180005
 		}
 	}
 end)()
@@ -310256,7 +323451,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180002,
+			180005
 		}
 	}
 end)()
@@ -310384,7 +323584,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180002,
+			180005
 		}
 	}
 end)()
@@ -310512,7 +323717,12 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Northern Union-CA"
+			"Northern Union-CA",
+			"Hipper Sister"
+		},
+		gift_dislike = {
+			180002,
+			180005
 		}
 	}
 end)()
@@ -310641,6 +323851,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CA"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -310769,6 +323983,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CA"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -310897,6 +324115,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CA"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -311025,6 +324247,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CA"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -311153,6 +324379,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -311281,6 +324511,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -311409,6 +324643,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -311537,6 +324775,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -311666,6 +324908,10 @@ end)()
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB",
 			"Sovetsky Soyuz"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -311795,6 +325041,10 @@ end)()
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB",
 			"Sovetsky Soyuz"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -311924,6 +325174,10 @@ end)()
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB",
 			"Sovetsky Soyuz"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -312053,6 +325307,10 @@ end)()
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB",
 			"Sovetsky Soyuz"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -312181,6 +325439,10 @@ end)()
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -312309,6 +325571,10 @@ end)()
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -312437,6 +325703,10 @@ end)()
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -312565,6 +325835,10 @@ end)()
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -312693,6 +325967,10 @@ end)()
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -312821,6 +326099,10 @@ end)()
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -312949,6 +326231,10 @@ end)()
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -313077,6 +326363,10 @@ end)()
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -313205,6 +326495,10 @@ end)()
 		tag_list = {
 			"Arkhangelsk",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -313333,6 +326627,10 @@ end)()
 		tag_list = {
 			"Arkhangelsk",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -313461,6 +326759,10 @@ end)()
 		tag_list = {
 			"Arkhangelsk",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -313589,6 +326891,10 @@ end)()
 		tag_list = {
 			"Arkhangelsk",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -313717,6 +327023,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -313845,6 +327155,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -313973,6 +327287,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -314101,6 +327419,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -314229,6 +327551,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -314357,6 +327683,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -314485,6 +327815,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -314613,6 +327947,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -314740,6 +328078,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -314867,6 +328209,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -314994,6 +328340,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -315121,6 +328471,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -315248,6 +328602,10 @@ end)()
 		},
 		tag_list = {
 			"Volga"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -315375,6 +328733,10 @@ end)()
 		},
 		tag_list = {
 			"Volga"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -315502,6 +328864,10 @@ end)()
 		},
 		tag_list = {
 			"Volga"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -315629,6 +328995,10 @@ end)()
 		},
 		tag_list = {
 			"Volga"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -315759,6 +329129,10 @@ end)()
 		},
 		tag_list = {
 			"Kronshtadt"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -315889,6 +329263,10 @@ end)()
 		},
 		tag_list = {
 			"Kronshtadt"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -316019,6 +329397,10 @@ end)()
 		},
 		tag_list = {
 			"Kronshtadt"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -316149,6 +329531,10 @@ end)()
 		},
 		tag_list = {
 			"Kronshtadt"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -316276,6 +329662,10 @@ end)()
 		},
 		tag_list = {
 			"Le Fantasque-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -316403,6 +329793,10 @@ end)()
 		},
 		tag_list = {
 			"Le Fantasque-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -316530,6 +329924,10 @@ end)()
 		},
 		tag_list = {
 			"Le Fantasque-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -316657,6 +330055,10 @@ end)()
 		},
 		tag_list = {
 			"Le Fantasque-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -316784,6 +330186,10 @@ end)()
 		},
 		tag_list = {
 			"L'Adroit-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -316911,6 +330317,10 @@ end)()
 		},
 		tag_list = {
 			"L'Adroit-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -317038,6 +330448,10 @@ end)()
 		},
 		tag_list = {
 			"L'Adroit-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -317165,6 +330579,10 @@ end)()
 		},
 		tag_list = {
 			"L'Adroit-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -317292,6 +330710,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -317419,6 +330841,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -317546,6 +330972,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -317673,6 +331103,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -317800,6 +331234,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -317927,6 +331365,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -318054,6 +331496,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -318181,6 +331627,534 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180004,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801051] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ル・アルディ",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801051,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			312,
+			23,
+			76,
+			34,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			49
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.1,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801052] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ル・アルディ",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801052,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			388,
+			29,
+			95,
+			42,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			61
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.1,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801053] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ル・アルディ",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801053,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			540,
+			40,
+			132,
+			59,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			85
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			1.2,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[801054] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ル・アルディ",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 801050,
+		english_name = "FFNF LeHardi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 801054,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			768,
+			58,
+			188,
+			85,
+			0,
+			78,
+			0,
+			73,
+			78,
+			42,
+			57,
+			122
+		},
+		attrs_growth = {
+			8878,
+			322,
+			951,
+			753,
+			0,
+			543,
+			0,
+			1120,
+			1498,
+			0,
+			0,
+			562
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.5,
+			1.25,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -318309,6 +332283,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"Le Terrible"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -318437,6 +332415,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"Le Terrible"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -318565,6 +332547,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"Le Terrible"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -318693,6 +332679,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"Le Terrible"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -318820,6 +332810,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180008,
+			180002
 		}
 	}
 end)()
@@ -318947,6 +332941,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180008,
+			180002
 		}
 	}
 end)()
@@ -319074,6 +333072,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180008,
+			180002
 		}
 	}
 end)()
@@ -319201,6 +333203,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180008,
+			180002
 		}
 	}
 end)()
@@ -319330,6 +333336,10 @@ end)()
 			"Le Hardi-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -319459,6 +333469,10 @@ end)()
 			"Le Hardi-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -319588,6 +333602,10 @@ end)()
 			"Le Hardi-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -319717,6 +333735,10 @@ end)()
 			"Le Hardi-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -319847,6 +333869,10 @@ end)()
 		},
 		tag_list = {
 			"Bertin"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -319977,6 +334003,10 @@ end)()
 		},
 		tag_list = {
 			"Bertin"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -320107,6 +334137,10 @@ end)()
 		},
 		tag_list = {
 			"Bertin"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -320237,6 +334271,10 @@ end)()
 		},
 		tag_list = {
 			"Bertin"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -320365,7 +334403,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
 	}
 end)()
 
@@ -320493,7 +334535,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
 	}
 end)()
 
@@ -320621,7 +334667,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
 	}
 end)()
 
@@ -320749,7 +334799,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
 	}
 end)()
 
@@ -320877,7 +334931,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -321005,7 +335063,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -321133,7 +335195,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -321261,7 +335327,547 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デュゲイ・トルーアン",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			523,
+			33,
+			62,
+			56,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			34
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			271
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.4,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デュゲイ・トルーアン",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			651,
+			41,
+			77,
+			70,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			43
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			272
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.27,
+			1.42,
+			0.92,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デュゲイ・トルーアン",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			906,
+			57,
+			108,
+			97,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			60
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			273
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.45,
+			0.95,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[802044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デュゲイ・トルーアン",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 802040,
+		english_name = "FFNF Duguay Trouin",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 802044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1289,
+			82,
+			154,
+			139,
+			0,
+			70,
+			0,
+			55,
+			28,
+			33,
+			80,
+			85
+		},
+		attrs_growth = {
+			14909,
+			457,
+			815,
+			1203,
+			0,
+			490,
+			0,
+			788,
+			881,
+			0,
+			0,
+			410
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			274
+		},
+		default_equip_list = {
+			101,
+			105,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Duguay Trouin-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -321388,7 +335994,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180002
+		}
 	}
 end)()
 
@@ -321515,7 +336125,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180002
+		}
 	}
 end)()
 
@@ -321642,7 +336256,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180002
+		}
 	}
 end)()
 
@@ -321769,7 +336387,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180002
+		}
 	}
 end)()
 
@@ -321898,6 +336520,10 @@ end)()
 		},
 		tag_list = {
 			"Brennus"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -322027,6 +336653,10 @@ end)()
 		},
 		tag_list = {
 			"Brennus"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -322156,6 +336786,10 @@ end)()
 		},
 		tag_list = {
 			"Brennus"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -322285,6 +336919,1058 @@ end)()
 		},
 		tag_list = {
 			"Brennus"
+		},
+		gift_dislike = {
+			180009,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デュケーヌ",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			563,
+			48,
+			33,
+			44,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			371
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.4,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デュケーヌ",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			700,
+			60,
+			41,
+			55,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			372
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.4,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デュケーヌ",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			975,
+			84,
+			58,
+			77,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			373
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.5,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[803034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デュケーヌ",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 803030,
+		english_name = "FFNF Duquesne",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.2",
+		rarity = 4,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 803034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1387,
+			119,
+			82,
+			109,
+			0,
+			70,
+			0,
+			48,
+			28,
+			27.2,
+			77,
+			0
+		},
+		attrs_growth = {
+			16042,
+			657,
+			459,
+			972,
+			0,
+			485,
+			0,
+			683,
+			391,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			374
+		},
+		default_equip_list = {
+			102,
+			106,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.65,
+			0.9,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "マッセナ",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1198,
+			66,
+			0,
+			44,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		},
+		gift_dislike = {
+			180002,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "マッセナ",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1490,
+			82,
+			0,
+			55,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		},
+		gift_dislike = {
+			180002,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "マッセナ",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2075,
+			115,
+			0,
+			76,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		},
+		gift_dislike = {
+			180002,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[804014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "マッセナ",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 804010,
+		english_name = "FFNF Masséna",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 804014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2952,
+			164,
+			0,
+			109,
+			0,
+			62,
+			0,
+			24,
+			7,
+			28,
+			76,
+			0
+		},
+		attrs_growth = {
+			32423,
+			859,
+			0,
+			964,
+			0,
+			429,
+			0,
+			339,
+			239,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			1,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Masséna"
+		},
+		gift_dislike = {
+			180002,
+			180007
 		}
 	}
 end)()
@@ -322413,6 +338099,10 @@ end)()
 		tag_list = {
 			"Richelieu-Class",
 			"Richelieu"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -322542,6 +338232,10 @@ end)()
 			"Richelieu-Class",
 			"Richelieu",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -322671,6 +338365,10 @@ end)()
 			"Richelieu-Class",
 			"Richelieu",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -322800,6 +338498,10 @@ end)()
 			"Richelieu-Class",
 			"Richelieu",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -322926,6 +338628,10 @@ end)()
 		},
 		tag_list = {
 			"Lyon-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -323052,6 +338758,10 @@ end)()
 		},
 		tag_list = {
 			"Lyon-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -323178,6 +338888,10 @@ end)()
 		},
 		tag_list = {
 			"Lyon-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -323304,6 +339018,10 @@ end)()
 		},
 		tag_list = {
 			"Lyon-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -323432,6 +339150,10 @@ end)()
 		tag_list = {
 			"Alsace",
 			"AlsaceHA"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -323561,6 +339283,10 @@ end)()
 			"Alsace",
 			"AlsaceHA",
 			"PRE"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -323690,6 +339416,10 @@ end)()
 			"Alsace",
 			"AlsaceHA",
 			"PRE"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -323819,6 +339549,530 @@ end)()
 			"Alsace",
 			"AlsaceHA",
 			"PRE"
+		},
+		gift_dislike = {
+			180002,
+			180009
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ボア・ベロー",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			866,
+			0,
+			0,
+			55,
+			70,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			18
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ボア・ベロー",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1077,
+			0,
+			0,
+			68,
+			87,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			22
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ボア・ベロー",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1500,
+			0,
+			0,
+			95,
+			122,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			31
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.05,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[806014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ボア・ベロー",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 806010,
+		english_name = "FFNF Bois Belleau",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 8,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 806014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2134,
+			0,
+			0,
+			135,
+			174,
+			73,
+			0,
+			29,
+			22,
+			31.6,
+			60,
+			44
+		},
+		attrs_growth = {
+			24676,
+			0,
+			0,
+			1175,
+			899,
+			510,
+			0,
+			470,
+			494,
+			0,
+			0,
+			222
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			110,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			4,
+			4,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			1.2,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Independence-Class"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -323942,7 +340196,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180008
+		}
 	}
 end)()
 
@@ -324065,7 +340323,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180008
+		}
 	}
 end)()
 
@@ -324188,7 +340450,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180008
+		}
 	}
 end)()
 
@@ -324311,7 +340577,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180008
+		}
 	}
 end)()
 
@@ -324438,6 +340708,10 @@ end)()
 		},
 		tag_list = {
 			"Joffre-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -324565,6 +340839,10 @@ end)()
 		},
 		tag_list = {
 			"Joffre-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -324692,6 +340970,10 @@ end)()
 		},
 		tag_list = {
 			"Joffre-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -324819,6 +341101,10 @@ end)()
 		},
 		tag_list = {
 			"Joffre-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -325069,7 +341355,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180004
+		}
 	}
 end)()
 
@@ -325319,7 +341609,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180004
+		}
 	}
 end)()
 
@@ -325569,7 +341863,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180004
+		}
 	}
 end)()
 
@@ -325819,7 +342117,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180004
+		}
 	}
 end)()
 
@@ -325946,6 +342248,10 @@ end)()
 		},
 		tag_list = {
 			"L'Adroit-Class"
+		},
+		gift_dislike = {
+			180002,
+			180007
 		}
 	}
 end)()
@@ -326073,6 +342379,10 @@ end)()
 		},
 		tag_list = {
 			"L'Adroit-Class"
+		},
+		gift_dislike = {
+			180002,
+			180007
 		}
 	}
 end)()
@@ -326200,6 +342510,10 @@ end)()
 		},
 		tag_list = {
 			"L'Adroit-Class"
+		},
+		gift_dislike = {
+			180002,
+			180007
 		}
 	}
 end)()
@@ -326327,6 +342641,10 @@ end)()
 		},
 		tag_list = {
 			"L'Adroit-Class"
+		},
+		gift_dislike = {
+			180002,
+			180007
 		}
 	}
 end)()
@@ -326454,6 +342772,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -326581,6 +342903,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -326708,6 +343034,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -326835,6 +343165,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -326962,6 +343296,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -327089,6 +343427,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -327216,6 +343558,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -327343,6 +343689,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -327470,6 +343820,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -327597,6 +343951,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -327724,6 +344082,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -327851,6 +344213,10 @@ end)()
 		},
 		tag_list = {
 			"Vauquelin-Class"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -327978,6 +344344,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -328105,6 +344475,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -328232,6 +344606,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -328359,6 +344737,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -328486,6 +344868,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -328613,6 +344999,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -328740,6 +345130,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -328867,6 +345261,10 @@ end)()
 		},
 		tag_list = {
 			"Le Hardi-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -328995,6 +345393,10 @@ end)()
 		tag_list = {
 			"Mogador-Class",
 			"Mogador"
+		},
+		gift_dislike = {
+			180008,
+			180005
 		}
 	}
 end)()
@@ -329123,6 +345525,10 @@ end)()
 		tag_list = {
 			"Mogador-Class",
 			"Mogador"
+		},
+		gift_dislike = {
+			180008,
+			180005
 		}
 	}
 end)()
@@ -329251,6 +345657,10 @@ end)()
 		tag_list = {
 			"Mogador-Class",
 			"Mogador"
+		},
+		gift_dislike = {
+			180008,
+			180005
 		}
 	}
 end)()
@@ -329379,6 +345789,10 @@ end)()
 		tag_list = {
 			"Mogador-Class",
 			"Mogador"
+		},
+		gift_dislike = {
+			180008,
+			180005
 		}
 	}
 end)()
@@ -329507,6 +345921,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"LeMalin"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -329635,6 +346053,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"LeMalin"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -329763,6 +346185,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"LeMalin"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -329891,6 +346317,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"LeMalin"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -330020,6 +346450,10 @@ end)()
 			"Le Fantasque-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -330149,6 +346583,10 @@ end)()
 			"Le Fantasque-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -330278,6 +346716,10 @@ end)()
 			"Le Fantasque-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -330407,6 +346849,10 @@ end)()
 			"Le Fantasque-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -330535,6 +346981,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"buqu"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -330663,6 +347113,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"buqu"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -330791,6 +347245,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"buqu"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -330919,6 +347377,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"buqu"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -331047,6 +347509,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"guogan"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -331175,6 +347641,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"guogan"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -331303,6 +347773,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"guogan"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -331431,6 +347905,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"guogan"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -331561,6 +348039,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -331691,6 +348173,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -331821,6 +348307,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -331951,6 +348441,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -332081,6 +348575,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -332211,6 +348709,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -332341,6 +348843,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -332471,6 +348977,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -332598,7 +349108,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180009
+		}
 	}
 end)()
 
@@ -332725,7 +349239,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180009
+		}
 	}
 end)()
 
@@ -332852,7 +349370,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180009
+		}
 	}
 end)()
 
@@ -332979,7 +349501,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180009
+		}
 	}
 end)()
 
@@ -333106,7 +349632,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -333233,7 +349763,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -333360,7 +349894,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -333487,7 +350025,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -333614,7 +350156,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -333741,7 +350287,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -333868,7 +350418,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -333995,7 +350549,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -334122,6 +350680,10 @@ end)()
 		},
 		tag_list = {
 			"Dunkerque-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -334250,6 +350812,10 @@ end)()
 		tag_list = {
 			"Dunkerque-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -334378,6 +350944,10 @@ end)()
 		tag_list = {
 			"Dunkerque-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -334506,6 +351076,10 @@ end)()
 		tag_list = {
 			"Dunkerque-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -334633,6 +351207,10 @@ end)()
 		},
 		tag_list = {
 			"Dunkerque-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -334761,6 +351339,10 @@ end)()
 		tag_list = {
 			"Dunkerque-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -334889,6 +351471,10 @@ end)()
 		tag_list = {
 			"Dunkerque-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -335017,6 +351603,10 @@ end)()
 		tag_list = {
 			"Dunkerque-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -335144,6 +351734,10 @@ end)()
 		},
 		tag_list = {
 			"Richelieu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -335272,6 +351866,10 @@ end)()
 		tag_list = {
 			"Richelieu-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -335400,6 +351998,10 @@ end)()
 		tag_list = {
 			"Richelieu-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -335528,6 +352130,10 @@ end)()
 		tag_list = {
 			"Richelieu-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -335655,6 +352261,10 @@ end)()
 		},
 		tag_list = {
 			"Richelieu-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -335783,6 +352393,10 @@ end)()
 		tag_list = {
 			"Richelieu-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -335911,6 +352525,10 @@ end)()
 		tag_list = {
 			"Richelieu-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -336039,6 +352657,10 @@ end)()
 		tag_list = {
 			"Richelieu-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -336168,6 +352790,10 @@ end)()
 			"Richelieu-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -336297,6 +352923,10 @@ end)()
 			"Richelieu-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -336426,6 +353056,10 @@ end)()
 			"Richelieu-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -336555,6 +353189,10 @@ end)()
 			"Richelieu-Class",
 			"μ",
 			"special"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -336682,6 +353320,10 @@ end)()
 		},
 		tag_list = {
 			"Joffre-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -336809,6 +353451,10 @@ end)()
 		},
 		tag_list = {
 			"Joffre-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -336936,6 +353582,10 @@ end)()
 		},
 		tag_list = {
 			"Joffre-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -337063,6 +353713,10 @@ end)()
 		},
 		tag_list = {
 			"Joffre-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -337186,7 +353840,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -337309,7 +353967,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -337432,7 +354094,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -337555,7 +354221,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -337678,7 +354348,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -337804,6 +354478,10 @@ end)()
 		},
 		tag_list = {
 			"xuzhang_hude"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -337928,7 +354606,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -338052,7 +354734,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -338175,7 +354861,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -338299,7 +354989,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -338310,8 +355004,9 @@ end)()
 		name = "？？？？？",
 		type = 5,
 		oxy_cost = 0,
-		skin_id = 900011,
+		gift_dislike = "",
 		english_name = "KMS Bismarck",
+		skin_id = 900011,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -338434,8 +355129,9 @@ end)()
 		name = "？？？？？",
 		type = 5,
 		oxy_cost = 0,
-		skin_id = 900012,
+		gift_dislike = "",
 		english_name = "KMS Bismarck",
+		skin_id = 900012,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -338558,8 +355254,9 @@ end)()
 		name = "利根",
 		type = 5,
 		oxy_cost = 0,
-		skin_id = 900013,
+		gift_dislike = "",
 		english_name = "KMS Bismarck",
+		skin_id = 900013,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -338795,7 +355492,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -338919,7 +355620,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -339043,7 +355748,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180009
+		}
 	}
 end)()
 
@@ -339167,7 +355876,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -339291,7 +356004,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -339415,7 +356132,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -339426,8 +356147,9 @@ end)()
 		name = "平海",
 		type = 5,
 		oxy_cost = 0,
-		skin_id = 900021,
+		gift_dislike = "",
 		english_name = "KMS Bismarck",
+		skin_id = 900021,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -339663,7 +356385,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180007
+		}
 	}
 end)()
 
@@ -339787,7 +356513,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
+		}
 	}
 end)()
 
@@ -339911,7 +356641,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -339923,7 +356657,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502020,
-		english_name = "ROC Ning Hai",
+		english_name = "Ning Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -340035,7 +356769,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -340047,7 +356785,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502030,
-		english_name = "ROC Ping Hai",
+		english_name = "Ping Hai",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -340159,7 +356897,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -340171,7 +356913,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 900032,
-		english_name = "ROC Yat Sen",
+		english_name = "Yat Sen",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -340283,7 +357025,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -340412,7 +357158,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180002
+		}
 	}
 end)()
 
@@ -340536,7 +357286,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180006
+		}
 	}
 end)()
 
@@ -340659,7 +357413,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -340782,7 +357540,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -340905,7 +357667,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -341029,7 +357795,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -341153,7 +357923,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -341276,7 +358050,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -341402,7 +358180,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -341526,7 +358308,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180009
+		}
 	}
 end)()
 
@@ -341650,7 +358436,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180007
+		}
 	}
 end)()
 
@@ -341774,7 +358564,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
+		}
 	}
 end)()
 
@@ -341898,7 +358692,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -342022,7 +358820,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -342146,7 +358948,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180005
+		}
 	}
 end)()
 
@@ -342269,7 +359075,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -342392,7 +359202,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180008,
+			180007
+		}
 	}
 end)()
 
@@ -342516,7 +359330,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -342640,7 +359458,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -342763,7 +359585,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -342886,7 +359712,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -343009,7 +359839,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -343133,7 +359967,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -343257,7 +360095,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -343380,7 +360222,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180002
+		}
 	}
 end)()
 
@@ -343506,7 +360352,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -343629,7 +360479,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -343752,7 +360606,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -343876,7 +360734,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -344000,7 +360862,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -344124,7 +360990,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180002
+		}
 	}
 end)()
 
@@ -344248,7 +361118,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -344371,7 +361245,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -344494,7 +361372,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180004
+		}
 	}
 end)()
 
@@ -344620,7 +361502,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -344743,7 +361629,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -344869,7 +361759,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180009
+		}
 	}
 end)()
 
@@ -344880,8 +361774,9 @@ end)()
 		name = "？？？？？",
 		type = 7,
 		oxy_cost = 0,
-		skin_id = 900070,
+		gift_dislike = "",
 		english_name = "",
+		skin_id = 900070,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -345004,8 +361899,9 @@ end)()
 		name = "？？？？？",
 		type = 5,
 		oxy_cost = 0,
-		skin_id = 900071,
+		gift_dislike = "",
 		english_name = "",
+		skin_id = 900071,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -345128,8 +362024,9 @@ end)()
 		name = "？？？？？",
 		type = 7,
 		oxy_cost = 0,
-		skin_id = 900072,
+		gift_dislike = "",
 		english_name = "",
+		skin_id = 900072,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -345367,7 +362264,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -345491,7 +362392,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -345615,7 +362520,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -345738,7 +362647,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -345862,7 +362775,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180002
+		}
 	}
 end)()
 
@@ -345985,7 +362902,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180002
+		}
 	}
 end)()
 
@@ -346109,7 +363030,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -346232,7 +363157,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -346356,7 +363285,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -346480,7 +363413,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -346603,7 +363540,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -346726,7 +363667,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -346850,7 +363795,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -346976,7 +363925,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -347099,7 +364052,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -347225,7 +364182,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -347349,7 +364310,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -347473,7 +364438,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
 	}
 end)()
 
@@ -347597,7 +364566,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -347721,7 +364694,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -347846,7 +364823,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180009
+		}
 	}
 end)()
 
@@ -347971,7 +364952,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -348096,7 +365081,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -348221,7 +365210,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -348346,7 +365339,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180009
+		}
 	}
 end)()
 
@@ -348471,7 +365468,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -348596,7 +365597,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -348721,7 +365726,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -348846,7 +365855,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -348971,7 +365984,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -349096,7 +366113,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -349221,7 +366242,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -349346,7 +366371,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -349471,7 +366500,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -349596,7 +366629,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -349721,7 +366758,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -349846,7 +366887,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180008,
+			180007
+		}
 	}
 end)()
 
@@ -349971,7 +367016,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -350096,7 +367145,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -350221,7 +367274,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -350346,7 +367403,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180002
+		}
 	}
 end)()
 
@@ -350471,7 +367532,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -350596,7 +367661,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -350721,7 +367790,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -350846,7 +367919,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180005
+		}
 	}
 end)()
 
@@ -350971,7 +368048,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -351096,7 +368177,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -351221,7 +368306,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -351346,7 +368435,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -351471,7 +368564,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -351596,7 +368693,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -351721,7 +368822,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -351846,7 +368951,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -351971,7 +369080,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -352096,7 +369209,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -352221,7 +369338,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -352346,7 +369467,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -352471,7 +369596,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -352596,7 +369725,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -352722,7 +369855,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -352847,7 +369984,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -352972,7 +370113,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -352983,8 +370128,9 @@ end)()
 		name = "？？？？？",
 		type = 7,
 		oxy_cost = 0,
-		skin_id = 900135,
+		gift_dislike = "",
 		english_name = "",
+		skin_id = 900135,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -353108,8 +370254,9 @@ end)()
 		name = "オブザーバー・零",
 		type = 7,
 		oxy_cost = 0,
-		skin_id = 900136,
+		gift_dislike = "",
 		english_name = "",
+		skin_id = 900136,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -353347,7 +370494,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -353472,7 +370623,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -353597,7 +370752,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180003
+		}
 	}
 end)()
 
@@ -353722,7 +370881,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -353847,7 +371010,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -353972,7 +371139,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -354097,7 +371268,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -354222,7 +371397,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -354347,7 +371526,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180003
+		}
 	}
 end)()
 
@@ -354472,7 +371655,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -354597,7 +371784,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -354722,7 +371913,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -354847,7 +372042,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -354972,7 +372171,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180006
+		}
 	}
 end)()
 
@@ -355097,7 +372300,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -355222,7 +372429,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -355347,7 +372558,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -355472,7 +372687,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -355597,7 +372816,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -355722,7 +372945,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180004
+		}
 	}
 end)()
 
@@ -355847,7 +373074,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -355972,7 +373203,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -356097,7 +373332,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -356222,7 +373461,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180002
+		}
 	}
 end)()
 
@@ -356343,7 +373586,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180003
+		}
 	}
 end)()
 
@@ -356355,7 +373602,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501030,
-		english_name = "PRAN Chang Chun",
+		english_name = "Chang Chun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -356462,7 +373709,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180006
+		}
 	}
 end)()
 
@@ -356581,7 +373832,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180006
+		}
 	}
 end)()
 
@@ -356700,7 +373955,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -356819,7 +374078,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -356938,7 +374201,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -357057,7 +374324,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -357176,7 +374447,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -357295,7 +374570,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -357414,7 +374693,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -357533,7 +374816,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -357652,7 +374939,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -357771,7 +375062,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180008
+		}
 	}
 end)()
 
@@ -357890,7 +375185,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -358009,7 +375308,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -358128,7 +375431,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -358247,7 +375554,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -358366,7 +375677,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -358616,7 +375931,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -358866,7 +376185,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -359116,7 +376439,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -359241,7 +376568,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -359369,6 +376700,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -359497,6 +376832,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -359625,6 +376964,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -359753,6 +377096,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -359880,7 +377227,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
 	}
 end)()
 
@@ -360007,7 +377358,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -360134,7 +377489,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180005
+		}
 	}
 end)()
 
@@ -360259,7 +377618,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -360384,7 +377747,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180005
+		}
 	}
 end)()
 
@@ -360507,7 +377874,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180008
+		}
 	}
 end)()
 
@@ -360630,7 +378001,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -360755,7 +378130,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -360880,7 +378259,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -361005,7 +378388,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -361130,7 +378517,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -361254,7 +378645,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -361379,7 +378774,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -361503,7 +378902,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -361628,7 +379031,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180007
+		}
 	}
 end)()
 
@@ -361755,6 +379162,10 @@ end)()
 		},
 		tag_list = {
 			"Zuikaku"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -361879,7 +379290,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -362004,7 +379419,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -362129,7 +379548,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -362256,6 +379679,10 @@ end)()
 		},
 		tag_list = {
 			"Enterprise"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -362381,7 +379808,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -362506,7 +379937,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -362631,7 +380066,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -362756,7 +380195,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180006
+		}
 	}
 end)()
 
@@ -362881,7 +380324,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -363006,7 +380453,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180002
+		}
 	}
 end)()
 
@@ -363133,6 +380584,10 @@ end)()
 		},
 		tag_list = {
 			"Akagi"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -363260,6 +380715,10 @@ end)()
 		},
 		tag_list = {
 			"Kaga"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -363385,7 +380844,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -363510,7 +380973,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -363635,7 +381102,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180003
+		}
 	}
 end)()
 
@@ -363760,7 +381231,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180005
+		}
 	}
 end)()
 
@@ -363885,7 +381360,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180002
+		}
 	}
 end)()
 
@@ -364010,7 +381489,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180007
+		}
 	}
 end)()
 
@@ -364135,7 +381618,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180002
+		}
 	}
 end)()
 
@@ -364260,7 +381747,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -364387,6 +381878,10 @@ end)()
 		},
 		tag_list = {
 			"Essex"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -364512,7 +382007,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180005
+		}
 	}
 end)()
 
@@ -364637,7 +382136,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -364762,7 +382265,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -364885,7 +382392,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180008
+		}
 	}
 end)()
 
@@ -365010,7 +382521,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -365135,7 +382650,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180002
+		}
 	}
 end)()
 
@@ -365259,7 +382778,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -365383,7 +382906,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -365508,7 +383035,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180007
+		}
 	}
 end)()
 
@@ -365632,7 +383163,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -365756,7 +383291,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -365880,7 +383419,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -366005,7 +383548,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -366132,7 +383679,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -366259,6 +383810,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -366389,6 +383944,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Agir"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -366517,6 +384076,10 @@ end)()
 			"Moltke-Class",
 			"SOTP",
 			"Seydlitz"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -366642,7 +384205,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -366770,6 +384337,10 @@ end)()
 			"Derfflinger-class",
 			"SOTP",
 			"Lützow"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -366893,7 +384464,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -367016,7 +384591,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -367137,6 +384716,10 @@ end)()
 		},
 		tag_list = {
 			"Universal-Bulin"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -367262,6 +384845,10 @@ end)()
 		},
 		tag_list = {
 			"Trial-Bulin-MKII"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -367389,6 +384976,10 @@ end)()
 		},
 		tag_list = {
 			"Shimakaze-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -367516,6 +385107,10 @@ end)()
 		},
 		tag_list = {
 			"Tone-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -367643,6 +385238,10 @@ end)()
 		},
 		tag_list = {
 			"Admiral Hipper-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -367770,6 +385369,10 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Suruga"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -367897,6 +385500,10 @@ end)()
 		},
 		tag_list = {
 			"Unryū-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -368025,6 +385632,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -368144,7 +385755,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -368271,6 +385886,10 @@ end)()
 		},
 		tag_list = {
 			"Baltimore-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -368399,6 +386018,10 @@ end)()
 		},
 		tag_list = {
 			"Cleveland-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -368529,6 +386152,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -368657,6 +386284,10 @@ end)()
 		tag_list = {
 			"HiryuMETA",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -368785,6 +386416,10 @@ end)()
 		tag_list = {
 			"Ark Royal.META",
 			"Ark Royal"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -368913,6 +386548,10 @@ end)()
 		tag_list = {
 			"Yorktown-Class",
 			"Enterprize"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -369043,6 +386682,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -369173,6 +386816,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -369303,6 +386950,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -369431,6 +387082,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -369559,6 +387214,10 @@ end)()
 		tag_list = {
 			"Essex-Class",
 			"Essex-Class-No-Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -369686,6 +387345,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -369942,6 +387605,10 @@ end)()
 		},
 		tag_list = {
 			"U-boat"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -370072,6 +387739,10 @@ end)()
 		},
 		tag_list = {
 			"Sendai-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -370200,6 +387871,10 @@ end)()
 		tag_list = {
 			"Iowa-Class",
 			"New Jersey"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -370331,6 +388006,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -370463,6 +388142,10 @@ end)()
 			"Helena",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -370597,6 +388280,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -370726,6 +388413,10 @@ end)()
 			"Yorktown-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -370857,6 +388548,10 @@ end)()
 			"special",
 			"Akagi",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -370987,6 +388682,10 @@ end)()
 			"Armor-CV",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -371112,6 +388811,10 @@ end)()
 		},
 		tag_list = {
 			"Benson-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -371240,6 +388943,10 @@ end)()
 		tag_list = {
 			"J-Class",
 			"Jersey Skill"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -371367,6 +389074,10 @@ end)()
 		},
 		tag_list = {
 			"Special Type"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -371494,6 +389205,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -371622,6 +389337,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -371749,6 +389468,10 @@ end)()
 		},
 		tag_list = {
 			"H-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -371880,6 +389603,10 @@ end)()
 			"Richelieu-Class",
 			"Richelieu",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -372008,6 +389735,10 @@ end)()
 		tag_list = {
 			"Implacable-Class",
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -372136,6 +389867,10 @@ end)()
 		tag_list = {
 			"Revenge-Class",
 			"Royal Oak"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -372262,6 +389997,10 @@ end)()
 		},
 		tag_list = {
 			"Royal Fleet-CVL"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -372390,6 +390129,10 @@ end)()
 		tag_list = {
 			"Leningrad-Class",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -372519,6 +390262,10 @@ end)()
 		tag_list = {
 			"Chapayev-Class",
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -372647,6 +390394,10 @@ end)()
 		tag_list = {
 			"Sovetsky Soyuz-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -372774,6 +390525,10 @@ end)()
 		},
 		tag_list = {
 			"Volga"
+		},
+		gift_dislike = {
+			180005,
+			180004
 		}
 	}
 end)()
@@ -372902,6 +390657,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CA"
+		},
+		gift_dislike = {
+			180009,
+			180008
 		}
 	}
 end)()
@@ -373032,6 +390791,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -373160,6 +390923,10 @@ end)()
 		tag_list = {
 			"Gangut-Class",
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -373283,7 +391050,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -373406,7 +391177,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -373529,7 +391304,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -373656,6 +391435,10 @@ end)()
 		},
 		tag_list = {
 			"BismarckZwei"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -373783,6 +391566,10 @@ end)()
 		},
 		tag_list = {
 			"H39"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -373911,6 +391698,10 @@ end)()
 		tag_list = {
 			"5th-airfleet",
 			"Zuikaku"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -374041,6 +391832,10 @@ end)()
 		},
 		tag_list = {
 			"M2"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -374168,6 +391963,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -374297,6 +392096,10 @@ end)()
 		tag_list = {
 			"GneisenauMETA",
 			"Gneisenau"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -374424,7 +392227,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
 	}
 end)()
 
@@ -374555,6 +392362,10 @@ end)()
 		tag_list = {
 			"Town-Class",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -374685,6 +392496,10 @@ end)()
 		},
 		tag_list = {
 			"Agano-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -374812,6 +392627,10 @@ end)()
 		tag_list = {
 			"Kii-Class",
 			"Suruga"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -374939,6 +392758,10 @@ end)()
 		},
 		tag_list = {
 			"Impero"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -375066,6 +392889,10 @@ end)()
 		},
 		tag_list = {
 			"Lyon-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -375197,6 +393024,10 @@ end)()
 		tag_list = {
 			"MemphisMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -375328,6 +393159,10 @@ end)()
 		tag_list = {
 			"Condottieri-Class",
 			"V"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -375458,6 +393293,10 @@ end)()
 		},
 		tag_list = {
 			"Kronshtadt"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -375582,6 +393421,10 @@ end)()
 		tag_list = {
 			"HiryuMETA",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -375706,6 +393549,10 @@ end)()
 		tag_list = {
 			"Ark Royal.META",
 			"Ark Royal"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -375831,7 +393678,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180005
+		}
 	}
 end)()
 
@@ -375960,6 +393811,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180005
 		}
 	}
 end)()
@@ -376088,6 +393943,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -376217,6 +394076,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -376344,6 +394207,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -376471,6 +394338,10 @@ end)()
 		},
 		tag_list = {
 			"QE-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -376601,6 +394472,10 @@ end)()
 		},
 		tag_list = {
 			"M2"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -376730,6 +394605,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -376859,6 +394738,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -376989,6 +394872,10 @@ end)()
 		tag_list = {
 			"Unzen-Class",
 			"yunxianzhiyuan"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -377244,7 +395131,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180002
+		}
 	}
 end)()
 
@@ -377365,7 +395256,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -377486,7 +395381,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -377607,7 +395506,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -377728,7 +395631,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -377740,7 +395647,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 900413,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -377849,7 +395756,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180008
+		}
 	}
 end)()
 
@@ -377970,7 +395881,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -378091,7 +396006,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -378212,7 +396131,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -378333,7 +396256,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180004
+		}
 	}
 end)()
 
@@ -378454,7 +396381,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180005
+		}
 	}
 end)()
 
@@ -378575,7 +396506,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -378696,7 +396631,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -378817,7 +396756,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
 	}
 end)()
 
@@ -378938,7 +396881,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180007
+		}
 	}
 end)()
 
@@ -379059,7 +397006,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -379070,8 +397021,9 @@ end)()
 		name = "金布里机甲1号",
 		type = 18,
 		oxy_cost = 0,
-		skin_id = 900424,
+		gift_dislike = "",
 		english_name = "Iron Bulin",
+		skin_id = 900424,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -379191,8 +397143,9 @@ end)()
 		name = "金布里机甲2号",
 		type = 18,
 		oxy_cost = 0,
-		skin_id = 900424,
+		gift_dislike = "",
 		english_name = "Iron Bulin",
+		skin_id = 900424,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -379312,8 +397265,9 @@ end)()
 		name = "金布里机甲3号",
 		type = 18,
 		oxy_cost = 0,
-		skin_id = 900424,
+		gift_dislike = "",
 		english_name = "Iron Bulin",
+		skin_id = 900424,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -379543,7 +397497,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -379670,6 +397628,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -379797,6 +397759,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -379924,6 +397890,10 @@ end)()
 		tag_list = {
 			"O-Class",
 			"Alvitr"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -380049,7 +398019,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 
@@ -380176,6 +398150,10 @@ end)()
 		},
 		tag_list = {
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -380310,6 +398288,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -380440,6 +398422,10 @@ end)()
 			"special",
 			"Taiho-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -380568,6 +398554,10 @@ end)()
 		tag_list = {
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -380698,6 +398688,10 @@ end)()
 			"special",
 			"Shinano-chan",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -380830,6 +398824,10 @@ end)()
 			"Town-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -380961,6 +398959,10 @@ end)()
 			"Formidable",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -381092,6 +399094,10 @@ end)()
 			"Deutschland-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -381223,6 +399229,10 @@ end)()
 			"Cleveland-Chan",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -381352,6 +399362,10 @@ end)()
 			"Renown-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -381480,6 +399494,10 @@ end)()
 			"Graf Zeppelin-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -381611,6 +399629,10 @@ end)()
 			"Admiral Hipper-Class",
 			"special",
 			"Little-series"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -381739,6 +399761,10 @@ end)()
 		tag_list = {
 			"Le Fantasque-Class",
 			"guogan"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -381866,7 +399892,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180009
+		}
 	}
 end)()
 
@@ -381994,6 +400024,10 @@ end)()
 		tag_list = {
 			"Dunkerque-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -382006,7 +400040,7 @@ end)()
 		type = 1,
 		oxy_cost = 0,
 		skin_id = 501010,
-		english_name = "PRAN An shan",
+		english_name = "An shan",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -382122,6 +400156,10 @@ end)()
 		tag_list = {
 			"Qinglong",
 			"Anshan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -382134,7 +400172,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 502090,
-		english_name = "ROC Chi An",
+		english_name = "Chi An",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -382249,6 +400287,10 @@ end)()
 		},
 		tag_list = {
 			"Chi An"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -382261,7 +400303,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -382379,6 +400421,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -382506,6 +400552,10 @@ end)()
 		},
 		tag_list = {
 			"HieiMETA"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -382636,6 +400686,10 @@ end)()
 		},
 		tag_list = {
 			"Omaha-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -382765,6 +400819,10 @@ end)()
 		tag_list = {
 			"Brooklyn-Class",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -382892,6 +400950,10 @@ end)()
 		tag_list = {
 			"Tosa-Class",
 			"Kaga"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -383023,6 +401085,10 @@ end)()
 			"Akagi",
 			"Musashi-Game",
 			"AkagiOrigin"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -383150,6 +401216,10 @@ end)()
 		tag_list = {
 			"Ryuhou",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -383278,6 +401348,10 @@ end)()
 		tag_list = {
 			"5th-airfleet",
 			"Zuikaku"
+		},
+		gift_dislike = {
+			180005,
+			180006
 		}
 	}
 end)()
@@ -383406,6 +401480,10 @@ end)()
 		tag_list = {
 			"KasumiMETA",
 			"KasumiHA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -383537,6 +401615,10 @@ end)()
 		tag_list = {
 			"Jintsū.META",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -383666,6 +401748,10 @@ end)()
 			"NagatoMETA",
 			"Big Seven",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -383794,6 +401880,10 @@ end)()
 		tag_list = {
 			"Amagi",
 			"Amagicv"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -383920,7 +402010,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180002
+		}
 	}
 end)()
 
@@ -384046,7 +402140,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -384172,7 +402270,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -384298,7 +402400,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180003
+		}
 	}
 end)()
 
@@ -384424,7 +402530,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -384550,7 +402660,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -384676,7 +402790,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180003
+		}
 	}
 end)()
 
@@ -384802,7 +402920,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180003
+		}
 	}
 end)()
 
@@ -384932,6 +403054,10 @@ end)()
 		},
 		tag_list = {
 			"Town-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -385061,6 +403187,10 @@ end)()
 			"QE-Class",
 			"QE",
 			"QE_1914"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -385188,6 +403318,10 @@ end)()
 		},
 		tag_list = {
 			"Vanguard"
+		},
+		gift_dislike = {
+			180005,
+			180007
 		}
 	}
 end)()
@@ -385316,6 +403450,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -385445,6 +403583,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Lala"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -385572,6 +403714,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Nana"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -385700,6 +403846,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Momo"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -385827,6 +403977,10 @@ end)()
 		},
 		tag_list = {
 			"To LOVE-Ru"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -385954,6 +404108,10 @@ end)()
 		},
 		tag_list = {
 			"To LOVE-Ru"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -386082,6 +404240,10 @@ end)()
 		tag_list = {
 			"To LOVE-Ru",
 			"Toloveyui"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -386212,6 +404374,10 @@ end)()
 		},
 		tag_list = {
 			"Duisburg"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -386340,6 +404506,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z52"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -386467,6 +404637,10 @@ end)()
 		},
 		tag_list = {
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -386593,7 +404767,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -386720,6 +404898,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -386847,6 +405029,10 @@ end)()
 		},
 		tag_list = {
 			"Poeti-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -386975,6 +405161,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"MarcoPolo"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -387103,6 +405293,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"MarcoPolo"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -387230,6 +405424,10 @@ end)()
 		},
 		tag_list = {
 			"Raffaello"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -387357,6 +405555,10 @@ end)()
 		},
 		tag_list = {
 			"Raffaello"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -387484,6 +405686,10 @@ end)()
 		},
 		tag_list = {
 			"Bolzano.META"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -387611,6 +405817,10 @@ end)()
 		},
 		tag_list = {
 			"TrentoMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -387738,6 +405948,10 @@ end)()
 		},
 		tag_list = {
 			"GCMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -387863,7 +406077,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180006
+		}
 	}
 end)()
 
@@ -387986,7 +406204,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -388109,7 +406331,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -388232,7 +406458,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -388360,6 +406590,10 @@ end)()
 		},
 		tag_list = {
 			"De Zeven Provinciën-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -388487,6 +406721,10 @@ end)()
 		},
 		tag_list = {
 			"Admiralen-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -388617,6 +406855,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-CL"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -388744,6 +406986,10 @@ end)()
 		},
 		tag_list = {
 			"Northern Union-BB"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -388875,6 +407121,10 @@ end)()
 		tag_list = {
 			"Crown Colony-Class",
 			"Trinidad"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -389002,6 +407252,10 @@ end)()
 		},
 		tag_list = {
 			"G-Class"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -389132,6 +407386,10 @@ end)()
 		},
 		tag_list = {
 			"Dido-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -389257,7 +407515,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180003
+		}
 	}
 end)()
 
@@ -389384,6 +407646,10 @@ end)()
 		},
 		tag_list = {
 			"RenownMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -389512,6 +407778,10 @@ end)()
 		tag_list = {
 			"RepulseMETA",
 			"bunao"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -389523,8 +407793,9 @@ end)()
 		name = "构建者",
 		type = 7,
 		oxy_cost = 0,
-		skin_id = 900506,
+		gift_dislike = "",
 		english_name = "Siren Compiler",
+		skin_id = 900506,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -389767,6 +408038,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -389896,6 +408171,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -390021,6 +408300,10 @@ end)()
 		},
 		tag_list = {
 			"BRS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -390146,6 +408429,10 @@ end)()
 		},
 		tag_list = {
 			"BRS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -390157,8 +408444,9 @@ end)()
 		name = "死亡主宰",
 		type = 7,
 		oxy_cost = 0,
-		skin_id = 11200020,
+		gift_dislike = "",
 		english_name = "DEAD MASTER",
+		skin_id = 11200020,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -390402,6 +408690,10 @@ end)()
 			"Fu Po",
 			"Chang Feng-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -390414,7 +408706,7 @@ end)()
 		type = 21,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -390537,6 +408829,10 @@ end)()
 			"Anshan-Class",
 			"PRE",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -390663,7 +408959,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -390794,6 +409094,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Isla"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -390922,6 +409226,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Lenja"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -391049,6 +409357,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"YumiaSelf"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -391175,6 +409487,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Nina"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -391187,7 +409503,7 @@ end)()
 		type = 20,
 		oxy_cost = 0,
 		skin_id = 501020,
-		english_name = "PRAN Fu shun",
+		english_name = "Fu shun",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -391309,6 +409625,674 @@ end)()
 			"Zhuque",
 			"Anshan-Class",
 			"Fubo's Plan"
+		},
+		gift_dislike = {
+			180003,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900520] = {
+		raid_distance = 30,
+		oxy_max = 268,
+		name = "伊404",
+		type = 17,
+		oxy_cost = 10,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 10,
+		attack_duration = 5,
+		star = 6,
+		oxy_recovery = 4,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 8,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 900520,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1488,
+			27,
+			257,
+			0,
+			214,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.35,
+			1.8,
+			0.3
+		},
+		strategy_list = {
+			{
+				10,
+				1
+			}
+		},
+		hunting_range = {
+			{
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-2,
+					2
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					-1,
+					1
+				},
+				{
+					0,
+					-2
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					1,
+					1
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					-2,
+					-1
+				},
+				{
+					-1,
+					-2
+				},
+				{
+					-1,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					1,
+					2
+				},
+				{
+					2,
+					1
+				},
+				{
+					2,
+					2
+				}
+			},
+			{
+				{
+					-3,
+					-1
+				},
+				{
+					-2,
+					-3
+				},
+				{
+					1,
+					-2
+				}
+			},
+			{
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					2
+				}
+			}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		},
+		gift_dislike = {
+			180005,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900521] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "云仙（后排）",
+		type = 4,
+		oxy_cost = 0,
+		skin_id = 303190,
+		english_name = "IJN Unzen",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 900521,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2946,
+			179,
+			0,
+			150,
+			0,
+			57,
+			0,
+			17,
+			7,
+			33,
+			85,
+			0
+		},
+		attrs_growth = {
+			20586,
+			913,
+			0,
+			788,
+			0,
+			399,
+			0,
+			254,
+			179,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			14513,
+			21633,
+			26673
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.5,
+			0.7
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Unzen-Class",
+			"yunxianzhiyuan"
+		},
+		gift_dislike = {
+			180009,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900522] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "伊404（前排）",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 317020,
+		english_name = "IJN I404",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 6,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900522,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1488,
+			27,
+			257,
+			0,
+			214,
+			42,
+			0,
+			69,
+			8,
+			15,
+			66,
+			0
+		},
+		attrs_growth = {
+			17200,
+			146,
+			1239,
+			0,
+			1045,
+			291,
+			0,
+			1015,
+			246,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"antiaircraft",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			100
+		},
+		default_equip_list = {
+			140,
+			140,
+			144
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.35,
+			1.8,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"I Type-submarine",
+			"I404"
+		},
+		gift_dislike = {
+			180005,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[900523] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "和睦号",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600090,
+		english_name = "MOT Amity",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 900523,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			955,
+			91,
+			0,
+			0,
+			0,
+			66,
+			0,
+			57,
+			31,
+			18,
+			51,
+			0
+		},
+		attrs_growth = {
+			9932,
+			506,
+			0,
+			0,
+			0,
+			462,
+			0,
+			830,
+			528,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			3733,
+			3733,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180002
 		}
 	}
 end)()
@@ -391434,6 +410418,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -391561,6 +410549,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -391688,6 +410680,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180002
 		}
 	}
 end)()
@@ -391815,6 +410811,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -391941,6 +410941,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -392068,6 +411072,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -392316,6 +411324,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -392327,8 +411339,9 @@ end)()
 		name = "ローグカイゼルグリッドマン",
 		type = 2,
 		oxy_cost = 0,
-		skin_id = 10800120,
+		gift_dislike = "",
 		english_name = "Rogue Kaiser Gridman",
+		skin_id = 10800120,
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -392563,6 +411576,10 @@ end)()
 		tag_list = {
 			"Mogador-Class",
 			"Mogador"
+		},
+		gift_dislike = {
+			180008,
+			180005
 		}
 	}
 end)()
@@ -392691,6 +411708,10 @@ end)()
 		tag_list = {
 			"Z-Class",
 			"Z52"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -392819,6 +411840,10 @@ end)()
 		tag_list = {
 			"Battle-Class",
 			"Trafalgar"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -392948,6 +411973,10 @@ end)()
 			"QE-Class",
 			"QE",
 			"QE_1914"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -393077,7 +412106,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180009
+		}
 	}
 end)()
 
@@ -393202,7 +412235,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -393327,7 +412364,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 
@@ -393452,7 +412493,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -393577,7 +412622,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -393702,7 +412751,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -393829,7 +412882,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -393956,7 +413013,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -394082,7 +413143,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -394211,7 +413276,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -394336,7 +413405,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180006
+		}
 	}
 end)()
 
@@ -394465,6 +413538,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -394592,6 +413669,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -394721,6 +413802,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -394848,6 +413933,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -394976,6 +414065,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"MarcoPolo"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -395106,6 +414199,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -395232,6 +414329,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -395362,6 +414463,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -395489,6 +414594,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -395618,6 +414727,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -395747,6 +414860,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -395876,6 +414993,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -396003,6 +415124,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -396132,6 +415257,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -396259,6 +415388,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -396385,6 +415518,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -396511,6 +415648,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -396639,6 +415780,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Napoli"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -396769,6 +415914,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -396899,6 +416048,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -397027,6 +416180,10 @@ end)()
 		tag_list = {
 			"Tashkent",
 			"Northern Union-DD"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -397152,6 +416309,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -397278,6 +416439,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -397404,6 +416569,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"VittorioCuniberti"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -397534,6 +416703,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -397660,6 +416833,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -397787,6 +416964,10 @@ end)()
 		},
 		tag_list = {
 			"Admiralen-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -397914,6 +417095,10 @@ end)()
 		},
 		tag_list = {
 			"Admiralen-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -398041,6 +417226,10 @@ end)()
 		},
 		tag_list = {
 			"Admiralen-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -398168,6 +417357,10 @@ end)()
 		},
 		tag_list = {
 			"Admiralen-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -398296,6 +417489,10 @@ end)()
 		},
 		tag_list = {
 			"De Zeven Provinciën-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -398424,6 +417621,10 @@ end)()
 		},
 		tag_list = {
 			"De Zeven Provinciën-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -398552,6 +417753,10 @@ end)()
 		},
 		tag_list = {
 			"De Zeven Provinciën-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -398680,6 +417885,10 @@ end)()
 		},
 		tag_list = {
 			"De Zeven Provinciën-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -398937,6 +418146,10 @@ end)()
 		},
 		tag_list = {
 			"RoyalFortune"
+		},
+		gift_dislike = {
+			180003,
+			180002
 		}
 	}
 end)()
@@ -399194,6 +418407,10 @@ end)()
 		},
 		tag_list = {
 			"RoyalFortune"
+		},
+		gift_dislike = {
+			180003,
+			180002
 		}
 	}
 end)()
@@ -399451,6 +418668,10 @@ end)()
 		},
 		tag_list = {
 			"RoyalFortune"
+		},
+		gift_dislike = {
+			180003,
+			180002
 		}
 	}
 end)()
@@ -399708,6 +418929,10 @@ end)()
 		},
 		tag_list = {
 			"RoyalFortune"
+		},
+		gift_dislike = {
+			180003,
+			180002
 		}
 	}
 end)()
@@ -399834,7 +419059,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -399960,7 +419189,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -400086,7 +419319,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -400212,7 +419449,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -400338,7 +419579,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180003
+		}
 	}
 end)()
 
@@ -400464,7 +419709,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180003
+		}
 	}
 end)()
 
@@ -400590,7 +419839,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180003
+		}
 	}
 end)()
 
@@ -400716,7 +419969,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180003
+		}
 	}
 end)()
 
@@ -400971,7 +420228,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -401226,7 +420487,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -401481,7 +420746,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -401736,7 +421005,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -401983,7 +421256,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180008,
+			180003
+		}
 	}
 end)()
 
@@ -402230,7 +421507,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180008,
+			180003
+		}
 	}
 end)()
 
@@ -402477,7 +421758,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180008,
+			180003
+		}
 	}
 end)()
 
@@ -402724,7 +422009,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180008,
+			180003
+		}
 	}
 end)()
 
@@ -402850,7 +422139,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -402976,7 +422269,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -403102,7 +422399,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -403228,7 +422529,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180009
+		}
 	}
 end)()
 
@@ -403354,7 +422659,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180003
+		}
 	}
 end)()
 
@@ -403480,7 +422789,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180003
+		}
 	}
 end)()
 
@@ -403606,7 +422919,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180003
+		}
 	}
 end)()
 
@@ -403732,7 +423049,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180003
+		}
 	}
 end)()
 
@@ -403860,6 +423181,10 @@ end)()
 		},
 		tag_list = {
 			"Fancy"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -403988,6 +423313,10 @@ end)()
 		},
 		tag_list = {
 			"Fancy"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -404116,6 +423445,10 @@ end)()
 		},
 		tag_list = {
 			"Fancy"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -404244,6 +423577,10 @@ end)()
 		},
 		tag_list = {
 			"Fancy"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -404499,7 +423836,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -404754,7 +424095,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -405009,7 +424354,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -405264,7 +424613,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -405392,6 +424745,10 @@ end)()
 		},
 		tag_list = {
 			"Portsmouth"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -405520,6 +424877,10 @@ end)()
 		},
 		tag_list = {
 			"Portsmouth"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -405648,6 +425009,10 @@ end)()
 		},
 		tag_list = {
 			"Portsmouth"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -405776,6 +425141,10 @@ end)()
 		},
 		tag_list = {
 			"Portsmouth"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -406031,7 +425400,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180008
+		}
 	}
 end)()
 
@@ -406286,7 +425659,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180008
+		}
 	}
 end)()
 
@@ -406541,7 +425918,11 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180008
+		}
 	}
 end)()
 
@@ -406796,7 +426177,3119 @@ end)()
 				}
 			}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180003,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600121] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "クイーン・アンズ・リベンジ",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600120,
+		english_name = "MOT Queen Anne's Revenge",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600121,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			962,
+			87,
+			0,
+			0,
+			0,
+			71,
+			0,
+			20,
+			15,
+			18,
+			70,
+			0
+		},
+		attrs_growth = {
+			27403,
+			1050,
+			0,
+			0,
+			0,
+			492,
+			0,
+			291,
+			356,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Queen Anne"
+		},
+		gift_dislike = {
+			180003,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600122] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "クイーン・アンズ・リベンジ",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600120,
+		english_name = "MOT Queen Anne's Revenge",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600122,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1197,
+			108,
+			0,
+			0,
+			0,
+			71,
+			0,
+			20,
+			15,
+			18,
+			70,
+			0
+		},
+		attrs_growth = {
+			27403,
+			1050,
+			0,
+			0,
+			0,
+			492,
+			0,
+			291,
+			356,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.9,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Queen Anne"
+		},
+		gift_dislike = {
+			180003,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600123] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "クイーン・アンズ・リベンジ",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600120,
+		english_name = "MOT Queen Anne's Revenge",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600123,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1666,
+			151,
+			0,
+			0,
+			0,
+			71,
+			0,
+			20,
+			15,
+			18,
+			70,
+			0
+		},
+		attrs_growth = {
+			27403,
+			1050,
+			0,
+			0,
+			0,
+			492,
+			0,
+			291,
+			356,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Queen Anne"
+		},
+		gift_dislike = {
+			180003,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600124] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "クイーン・アンズ・リベンジ",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600120,
+		english_name = "MOT Queen Anne's Revenge",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600124,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2370,
+			216,
+			0,
+			0,
+			0,
+			71,
+			0,
+			20,
+			15,
+			18,
+			70,
+			0
+		},
+		attrs_growth = {
+			27403,
+			1050,
+			0,
+			0,
+			0,
+			492,
+			0,
+			291,
+			356,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Queen Anne"
+		},
+		gift_dislike = {
+			180003,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600131] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ライム",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600130,
+		english_name = "MOT Lyme",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600131,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			796,
+			47,
+			0,
+			0,
+			0,
+			66,
+			0,
+			45,
+			18,
+			14.4,
+			80,
+			0
+		},
+		attrs_growth = {
+			20552,
+			643,
+			0,
+			0,
+			0,
+			462,
+			0,
+			667,
+			397,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Lyme"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600132] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ライム",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600130,
+		english_name = "MOT Lyme",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600132,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			990,
+			59,
+			0,
+			0,
+			0,
+			66,
+			0,
+			45,
+			18,
+			19.4,
+			80,
+			0
+		},
+		attrs_growth = {
+			20552,
+			643,
+			0,
+			0,
+			0,
+			462,
+			0,
+			667,
+			397,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Lyme"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600133] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ライム",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600130,
+		english_name = "MOT Lyme",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600133,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1378,
+			82,
+			0,
+			0,
+			0,
+			66,
+			0,
+			45,
+			18,
+			24.4,
+			80,
+			0
+		},
+		attrs_growth = {
+			20552,
+			643,
+			0,
+			0,
+			0,
+			462,
+			0,
+			667,
+			397,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Lyme"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600134] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ライム",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600130,
+		english_name = "MOT Lyme",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600134,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1961,
+			116,
+			0,
+			0,
+			0,
+			66,
+			0,
+			45,
+			18,
+			29.4,
+			80,
+			0
+		},
+		attrs_growth = {
+			20552,
+			643,
+			0,
+			0,
+			0,
+			462,
+			0,
+			667,
+			397,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.35,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Lyme"
+		},
+		gift_dislike = {
+			180008,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600141] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "パール",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600140,
+		english_name = "MOT Pearl",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600141,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			974,
+			84,
+			0,
+			0,
+			0,
+			67,
+			0,
+			25,
+			6,
+			26,
+			60,
+			0
+		},
+		attrs_growth = {
+			26143,
+			1026,
+			0,
+			0,
+			0,
+			463,
+			0,
+			370,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pearl"
+		},
+		gift_dislike = {
+			180009,
+			180003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600142] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "パール",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600140,
+		english_name = "MOT Pearl",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600142,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1212,
+			105,
+			0,
+			0,
+			0,
+			67,
+			0,
+			25,
+			6,
+			26,
+			60,
+			0
+		},
+		attrs_growth = {
+			26143,
+			1026,
+			0,
+			0,
+			0,
+			463,
+			0,
+			370,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pearl"
+		},
+		gift_dislike = {
+			180009,
+			180003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600143] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "パール",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600140,
+		english_name = "MOT Pearl",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600143,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1687,
+			147,
+			0,
+			0,
+			0,
+			67,
+			0,
+			25,
+			6,
+			26,
+			60,
+			0
+		},
+		attrs_growth = {
+			26143,
+			1026,
+			0,
+			0,
+			0,
+			463,
+			0,
+			370,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pearl"
+		},
+		gift_dislike = {
+			180009,
+			180003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600144] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "パール",
+		type = 24,
+		oxy_cost = 0,
+		skin_id = 9600140,
+		english_name = "MOT Pearl",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600144,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2399,
+			209,
+			0,
+			0,
+			0,
+			67,
+			0,
+			25,
+			6,
+			26,
+			60,
+			0
+		},
+		attrs_growth = {
+			26143,
+			1026,
+			0,
+			0,
+			0,
+			463,
+			0,
+			370,
+			227,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			158,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.75,
+			1.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Pearl"
+		},
+		gift_dislike = {
+			180009,
+			180003
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600151] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ロイヤル・ジェームズ",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600150,
+		english_name = "MOT Royal James",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600151,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			627,
+			30,
+			0,
+			0,
+			0,
+			72,
+			0,
+			49,
+			24,
+			18,
+			23,
+			0
+		},
+		attrs_growth = {
+			17870,
+			414,
+			0,
+			0,
+			0,
+			503,
+			0,
+			700,
+			574,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			0.95,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600152] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ロイヤル・ジェームズ",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600150,
+		english_name = "MOT Royal James",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600152,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			780,
+			37,
+			0,
+			0,
+			0,
+			72,
+			0,
+			49,
+			24,
+			26,
+			23,
+			0
+		},
+		attrs_growth = {
+			17870,
+			414,
+			0,
+			0,
+			0,
+			503,
+			0,
+			700,
+			574,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600153] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ロイヤル・ジェームズ",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600150,
+		english_name = "MOT Royal James",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600153,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1086,
+			52,
+			0,
+			0,
+			0,
+			72,
+			0,
+			49,
+			24,
+			34,
+			23,
+			0
+		},
+		attrs_growth = {
+			17870,
+			414,
+			0,
+			0,
+			0,
+			503,
+			0,
+			700,
+			574,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.1,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600154] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ロイヤル・ジェームズ",
+		type = 23,
+		oxy_cost = 0,
+		skin_id = 9600150,
+		english_name = "MOT Royal James",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9600154,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1545,
+			74,
+			0,
+			0,
+			0,
+			72,
+			0,
+			49,
+			24,
+			42,
+			23,
+			0
+		},
+		attrs_growth = {
+			17870,
+			414,
+			0,
+			0,
+			0,
+			503,
+			0,
+			700,
+			574,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.25,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600161] = {
+		raid_distance = 30,
+		oxy_max = 0,
+		name = "アドベンチャー",
+		type = 22,
+		oxy_cost = 0,
+		skin_id = 9600160,
+		english_name = "MOT Adventure",
+		oxy_recovery_surface = 0,
+		attack_duration = 9999,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 9600161,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			334,
+			33,
+			0,
+			0,
+			0,
+			67,
+			0,
+			61,
+			28,
+			18,
+			22,
+			0
+		},
+		attrs_growth = {
+			9503,
+			459,
+			0,
+			0,
+			0,
+			465,
+			0,
+			875,
+			532,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			0.9,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-3
+				},
+				{
+					3,
+					1
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600162] = {
+		raid_distance = 30,
+		oxy_max = 0,
+		name = "アドベンチャー",
+		type = 22,
+		oxy_cost = 0,
+		skin_id = 9600160,
+		english_name = "MOT Adventure",
+		oxy_recovery_surface = 0,
+		attack_duration = 9999,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 1,
+		id = 9600162,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			415,
+			41,
+			0,
+			0,
+			0,
+			67,
+			0,
+			61,
+			28,
+			18,
+			22,
+			0
+		},
+		attrs_growth = {
+			9503,
+			459,
+			0,
+			0,
+			0,
+			465,
+			0,
+			875,
+			532,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.95,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-3
+				},
+				{
+					3,
+					1
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600163] = {
+		raid_distance = 30,
+		oxy_max = 0,
+		name = "アドベンチャー",
+		type = 22,
+		oxy_cost = 0,
+		skin_id = 9600160,
+		english_name = "MOT Adventure",
+		oxy_recovery_surface = 0,
+		attack_duration = 9999,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 2,
+		id = 9600163,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			578,
+			58,
+			0,
+			0,
+			0,
+			67,
+			0,
+			61,
+			28,
+			18,
+			22,
+			0
+		},
+		attrs_growth = {
+			9503,
+			459,
+			0,
+			0,
+			0,
+			465,
+			0,
+			875,
+			532,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			1.05,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-3
+				},
+				{
+					3,
+					1
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9600164] = {
+		raid_distance = 30,
+		oxy_max = 0,
+		name = "アドベンチャー",
+		type = 22,
+		oxy_cost = 0,
+		skin_id = 9600160,
+		english_name = "MOT Adventure",
+		oxy_recovery_surface = 0,
+		attack_duration = 9999,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 96,
+		oxy_recovery_bench = 0,
+		ammo = 2,
+		armor_type = 1,
+		huntingrange_level = 3,
+		id = 9600164,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			822,
+			82,
+			0,
+			0,
+			0,
+			67,
+			0,
+			61,
+			28,
+			18,
+			22,
+			0
+		},
+		attrs_growth = {
+			9503,
+			459,
+			0,
+			0,
+			0,
+			465,
+			0,
+			875,
+			532,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"antiaircraft",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			100,
+			100
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.15,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{
+				{
+					-2,
+					-1
+				},
+				{
+					-2,
+					0
+				},
+				{
+					-2,
+					1
+				},
+				{
+					-1,
+					-1
+				},
+				{
+					-1,
+					0
+				},
+				{
+					0,
+					-1
+				},
+				{
+					0,
+					0
+				},
+				{
+					1,
+					-1
+				},
+				{
+					1,
+					0
+				},
+				{
+					2,
+					-2
+				},
+				{
+					2,
+					-1
+				},
+				{
+					2,
+					0
+				},
+				{
+					2,
+					1
+				},
+				{
+					3,
+					-2
+				},
+				{
+					3,
+					-3
+				},
+				{
+					3,
+					1
+				},
+				{
+					3,
+					2
+				}
+			},
+			{
+				{
+					-1,
+					2
+				},
+				{
+					0,
+					1
+				},
+				{
+					0,
+					2
+				},
+				{
+					1,
+					2
+				}
+			},
+			{
+				{
+					-2,
+					-2
+				},
+				{
+					0,
+					-3
+				},
+				{
+					0,
+					-2
+				}
+			},
+			{
+				{
+					-3,
+					-2
+				},
+				{
+					-3,
+					1
+				}
+			},
+			{
+				{
+					-1,
+					3
+				},
+				{
+					1,
+					3
+				}
+			}
+		},
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180006
+		}
 	}
 end)()
 
@@ -406923,6 +429416,10 @@ end)()
 		},
 		tag_list = {
 			"HunterMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -407050,6 +429547,10 @@ end)()
 		},
 		tag_list = {
 			"HunterMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -407177,6 +429678,10 @@ end)()
 		},
 		tag_list = {
 			"HunterMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -407304,6 +429809,10 @@ end)()
 		},
 		tag_list = {
 			"HunterMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -407431,6 +429940,10 @@ end)()
 		},
 		tag_list = {
 			"FortuneMETA"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -407558,6 +430071,10 @@ end)()
 		},
 		tag_list = {
 			"FortuneMETA"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -407685,6 +430202,10 @@ end)()
 		},
 		tag_list = {
 			"FortuneMETA"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -407812,6 +430333,10 @@ end)()
 		},
 		tag_list = {
 			"FortuneMETA"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -407939,6 +430464,10 @@ end)()
 		},
 		tag_list = {
 			"HatakazeMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -408066,6 +430595,10 @@ end)()
 		},
 		tag_list = {
 			"HatakazeMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -408193,6 +430726,10 @@ end)()
 		},
 		tag_list = {
 			"HatakazeMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -408320,6 +430857,10 @@ end)()
 		},
 		tag_list = {
 			"HatakazeMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -408447,6 +430988,10 @@ end)()
 		},
 		tag_list = {
 			"KimberlyMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -408574,6 +431119,10 @@ end)()
 		},
 		tag_list = {
 			"KimberlyMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -408701,6 +431250,10 @@ end)()
 		},
 		tag_list = {
 			"KimberlyMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -408828,6 +431381,10 @@ end)()
 		},
 		tag_list = {
 			"KimberlyMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -408955,6 +431512,10 @@ end)()
 		},
 		tag_list = {
 			"VampireMETA"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -409082,6 +431643,10 @@ end)()
 		},
 		tag_list = {
 			"VampireMETA"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -409209,6 +431774,10 @@ end)()
 		},
 		tag_list = {
 			"VampireMETA"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -409336,6 +431905,10 @@ end)()
 		},
 		tag_list = {
 			"VampireMETA"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -409465,6 +432038,10 @@ end)()
 			"KasumiMETA",
 			"KasumiHA",
 			"TOC"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -409594,6 +432171,10 @@ end)()
 			"KasumiMETA",
 			"KasumiHA",
 			"TOC"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -409723,6 +432304,10 @@ end)()
 			"KasumiMETA",
 			"KasumiHA",
 			"TOC"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -409852,6 +432437,10 @@ end)()
 			"KasumiMETA",
 			"KasumiHA",
 			"TOC"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -409979,6 +432568,10 @@ end)()
 		},
 		tag_list = {
 			"GrenvilleMETA"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -410106,6 +432699,10 @@ end)()
 		},
 		tag_list = {
 			"GrenvilleMETA"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -410233,6 +432830,10 @@ end)()
 		},
 		tag_list = {
 			"GrenvilleMETA"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -410360,6 +432961,10 @@ end)()
 		},
 		tag_list = {
 			"GrenvilleMETA"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -410487,6 +433092,10 @@ end)()
 		},
 		tag_list = {
 			"KawakazeMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -410614,6 +433223,10 @@ end)()
 		},
 		tag_list = {
 			"KawakazeMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -410741,6 +433354,10 @@ end)()
 		},
 		tag_list = {
 			"KawakazeMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -410868,6 +433485,1058 @@ end)()
 		},
 		tag_list = {
 			"KawakazeMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701091] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "夕立(META)",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701090,
+		english_name = "Yūdachi.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701091,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			295,
+			28,
+			100,
+			33,
+			0,
+			83,
+			0,
+			57,
+			72,
+			41,
+			32,
+			49
+		},
+		attrs_growth = {
+			5981,
+			349,
+			1198,
+			446,
+			0,
+			577,
+			0,
+			767,
+			945,
+			0,
+			0,
+			658
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.35,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YūdachiMETA"
+		},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701092] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "夕立(META)",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701090,
+		english_name = "Yūdachi.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701092,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			367,
+			35,
+			125,
+			41,
+			0,
+			83,
+			0,
+			57,
+			72,
+			41,
+			32,
+			61
+		},
+		attrs_growth = {
+			5981,
+			349,
+			1198,
+			446,
+			0,
+			577,
+			0,
+			767,
+			945,
+			0,
+			0,
+			658
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.4,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YūdachiMETA"
+		},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701093] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "夕立(META)",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701090,
+		english_name = "Yūdachi.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701093,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			511,
+			49,
+			174,
+			57,
+			0,
+			83,
+			0,
+			57,
+			72,
+			41,
+			32,
+			86
+		},
+		attrs_growth = {
+			5981,
+			349,
+			1198,
+			446,
+			0,
+			577,
+			0,
+			767,
+			945,
+			0,
+			0,
+			658
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.95,
+			1.5,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YūdachiMETA"
+		},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701094] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "夕立(META)",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701090,
+		english_name = "Yūdachi.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701094,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			726,
+			69,
+			249,
+			81,
+			0,
+			83,
+			0,
+			57,
+			72,
+			41,
+			32,
+			122
+		},
+		attrs_growth = {
+			5981,
+			349,
+			1198,
+			446,
+			0,
+			577,
+			0,
+			767,
+			945,
+			0,
+			0,
+			658
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1.55,
+			0.85
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YūdachiMETA"
+		},
+		gift_dislike = {
+			180002,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701101] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デューイ(META)",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701100,
+		english_name = "Dewey.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701101,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			275,
+			18,
+			68,
+			35,
+			0,
+			72,
+			0,
+			52,
+			54,
+			44,
+			72,
+			47
+		},
+		attrs_growth = {
+			5576,
+			227,
+			881,
+			477,
+			0,
+			502,
+			0,
+			706,
+			716,
+			0,
+			0,
+			632
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			1.2,
+			1.2
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DeweyMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701102] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デューイ(META)",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701100,
+		english_name = "Dewey.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701102,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			342,
+			23,
+			85,
+			44,
+			0,
+			72,
+			0,
+			52,
+			54,
+			44,
+			72,
+			59
+		},
+		attrs_growth = {
+			5576,
+			227,
+			881,
+			477,
+			0,
+			502,
+			0,
+			706,
+			716,
+			0,
+			0,
+			632
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.17,
+			1.22,
+			1.22
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DeweyMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701103] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デューイ(META)",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701100,
+		english_name = "Dewey.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701103,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			476,
+			32,
+			119,
+			61,
+			0,
+			72,
+			0,
+			52,
+			54,
+			44,
+			72,
+			82
+		},
+		attrs_growth = {
+			5576,
+			227,
+			881,
+			477,
+			0,
+			502,
+			0,
+			706,
+			716,
+			0,
+			0,
+			632
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DeweyMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9701104] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "デューイ(META)",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 9701100,
+		english_name = "Dewey.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9701104,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			677,
+			45,
+			170,
+			87,
+			0,
+			72,
+			0,
+			52,
+			54,
+			44,
+			72,
+			117
+		},
+		attrs_growth = {
+			5576,
+			227,
+			881,
+			477,
+			0,
+			502,
+			0,
+			706,
+			716,
+			0,
+			0,
+			632
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DeweyMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -410997,6 +434666,10 @@ end)()
 		tag_list = {
 			"HelenaMETA",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -411126,6 +434799,10 @@ end)()
 		tag_list = {
 			"HelenaMETA",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -411255,6 +434932,10 @@ end)()
 		tag_list = {
 			"HelenaMETA",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -411384,6 +435065,10 @@ end)()
 		tag_list = {
 			"HelenaMETA",
 			"Helena"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -411515,6 +435200,10 @@ end)()
 		tag_list = {
 			"MemphisMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -411646,6 +435335,10 @@ end)()
 		tag_list = {
 			"MemphisMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -411777,6 +435470,10 @@ end)()
 		tag_list = {
 			"MemphisMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -411908,6 +435605,10 @@ end)()
 		tag_list = {
 			"MemphisMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -412039,6 +435740,10 @@ end)()
 		tag_list = {
 			"Sheffield.META",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -412170,6 +435875,10 @@ end)()
 		tag_list = {
 			"Sheffield.META",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -412301,6 +436010,10 @@ end)()
 		tag_list = {
 			"Sheffield.META",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -412432,6 +436145,10 @@ end)()
 		tag_list = {
 			"Sheffield.META",
 			"Sheffield"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -412562,6 +436279,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière.META"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -412692,6 +436413,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière.META"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -412822,6 +436547,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière.META"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -412952,6 +436681,10 @@ end)()
 		},
 		tag_list = {
 			"La Galissonnière.META"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -413084,6 +436817,10 @@ end)()
 			"Jintsū.META",
 			"Musashi-Game",
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -413216,6 +436953,10 @@ end)()
 			"Jintsū.META",
 			"Musashi-Game",
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -413348,6 +437089,10 @@ end)()
 			"Jintsū.META",
 			"Musashi-Game",
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -413480,6 +437225,10 @@ end)()
 			"Jintsū.META",
 			"Musashi-Game",
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180005
 		}
 	}
 end)()
@@ -413610,6 +437359,10 @@ end)()
 		},
 		tag_list = {
 			"KirovMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -413740,6 +437493,10 @@ end)()
 		},
 		tag_list = {
 			"KirovMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -413870,6 +437627,10 @@ end)()
 		},
 		tag_list = {
 			"KirovMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -414000,6 +437761,10 @@ end)()
 		},
 		tag_list = {
 			"KirovMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -414130,6 +437895,10 @@ end)()
 		},
 		tag_list = {
 			"PamiatMerkuriaMETA"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -414260,6 +438029,10 @@ end)()
 		},
 		tag_list = {
 			"PamiatMerkuriaMETA"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -414390,6 +438163,10 @@ end)()
 		},
 		tag_list = {
 			"PamiatMerkuriaMETA"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -414520,6 +438297,10 @@ end)()
 		},
 		tag_list = {
 			"PamiatMerkuriaMETA"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -414649,6 +438430,10 @@ end)()
 		},
 		tag_list = {
 			"TrentoMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -414778,6 +438563,10 @@ end)()
 		},
 		tag_list = {
 			"TrentoMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -414907,6 +438696,10 @@ end)()
 		},
 		tag_list = {
 			"TrentoMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -415036,6 +438829,10 @@ end)()
 		},
 		tag_list = {
 			"TrentoMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -415165,6 +438962,10 @@ end)()
 		},
 		tag_list = {
 			"AlgérieMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -415294,6 +439095,10 @@ end)()
 		},
 		tag_list = {
 			"AlgérieMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -415423,6 +439228,10 @@ end)()
 		},
 		tag_list = {
 			"AlgérieMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -415552,6 +439361,10 @@ end)()
 		},
 		tag_list = {
 			"AlgérieMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -415681,6 +439494,10 @@ end)()
 		},
 		tag_list = {
 			"FochMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -415810,6 +439627,10 @@ end)()
 		},
 		tag_list = {
 			"FochMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -415939,6 +439760,10 @@ end)()
 		},
 		tag_list = {
 			"FochMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -416068,6 +439893,10 @@ end)()
 		},
 		tag_list = {
 			"FochMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -416195,6 +440024,10 @@ end)()
 		},
 		tag_list = {
 			"WichitaMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -416322,6 +440155,10 @@ end)()
 		},
 		tag_list = {
 			"WichitaMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -416449,6 +440286,10 @@ end)()
 		},
 		tag_list = {
 			"WichitaMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -416576,6 +440417,10 @@ end)()
 		},
 		tag_list = {
 			"WichitaMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -416706,6 +440551,10 @@ end)()
 		tag_list = {
 			"Admiral Hipper.META",
 			"Admiral Hipper"
+		},
+		gift_dislike = {
+			180002,
+			180003
 		}
 	}
 end)()
@@ -416836,6 +440685,10 @@ end)()
 		tag_list = {
 			"Admiral Hipper.META",
 			"Admiral Hipper"
+		},
+		gift_dislike = {
+			180002,
+			180003
 		}
 	}
 end)()
@@ -416966,6 +440819,10 @@ end)()
 		tag_list = {
 			"Admiral Hipper.META",
 			"Admiral Hipper"
+		},
+		gift_dislike = {
+			180002,
+			180003
 		}
 	}
 end)()
@@ -417096,6 +440953,10 @@ end)()
 		tag_list = {
 			"Admiral Hipper.META",
 			"Admiral Hipper"
+		},
+		gift_dislike = {
+			180002,
+			180003
 		}
 	}
 end)()
@@ -417225,6 +441086,10 @@ end)()
 		},
 		tag_list = {
 			"Bolzano.META"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -417354,6 +441219,10 @@ end)()
 		},
 		tag_list = {
 			"Bolzano.META"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -417483,6 +441352,10 @@ end)()
 		},
 		tag_list = {
 			"Bolzano.META"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -417612,6 +441485,10 @@ end)()
 		},
 		tag_list = {
 			"Bolzano.META"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -417739,6 +441616,10 @@ end)()
 		tag_list = {
 			"GneisenauMETA",
 			"Gneisenau"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -417866,6 +441747,10 @@ end)()
 		tag_list = {
 			"GneisenauMETA",
 			"Gneisenau"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -417995,6 +441880,10 @@ end)()
 		tag_list = {
 			"GneisenauMETA",
 			"Gneisenau"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -418124,6 +442013,10 @@ end)()
 		tag_list = {
 			"GneisenauMETA",
 			"Gneisenau"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -418251,6 +442144,10 @@ end)()
 		tag_list = {
 			"ScharnhorstMETA",
 			"Scharnhorst"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -418378,6 +442275,10 @@ end)()
 		tag_list = {
 			"ScharnhorstMETA",
 			"Scharnhorst"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -418507,6 +442408,10 @@ end)()
 		tag_list = {
 			"ScharnhorstMETA",
 			"Scharnhorst"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -418636,6 +442541,10 @@ end)()
 		tag_list = {
 			"ScharnhorstMETA",
 			"Scharnhorst"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -418764,6 +442673,10 @@ end)()
 		tag_list = {
 			"RepulseMETA",
 			"bunao"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -418892,6 +442805,10 @@ end)()
 		tag_list = {
 			"RepulseMETA",
 			"bunao"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -419020,6 +442937,10 @@ end)()
 		tag_list = {
 			"RepulseMETA",
 			"bunao"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -419148,6 +443069,10 @@ end)()
 		tag_list = {
 			"RepulseMETA",
 			"bunao"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -419275,6 +443200,10 @@ end)()
 		},
 		tag_list = {
 			"RenownMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -419402,6 +443331,10 @@ end)()
 		},
 		tag_list = {
 			"RenownMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -419529,6 +443462,10 @@ end)()
 		},
 		tag_list = {
 			"RenownMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -419656,6 +443593,10 @@ end)()
 		},
 		tag_list = {
 			"RenownMETA"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -419783,6 +443724,10 @@ end)()
 		},
 		tag_list = {
 			"HieiMETA"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -419910,6 +443855,10 @@ end)()
 		},
 		tag_list = {
 			"HieiMETA"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -420037,6 +443986,10 @@ end)()
 		},
 		tag_list = {
 			"HieiMETA"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -420164,6 +444117,10 @@ end)()
 		},
 		tag_list = {
 			"HieiMETA"
+		},
+		gift_dislike = {
+			180005,
+			180002
 		}
 	}
 end)()
@@ -420291,6 +444248,10 @@ end)()
 		},
 		tag_list = {
 			"DunkerqueMETA"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -420419,6 +444380,10 @@ end)()
 		tag_list = {
 			"DunkerqueMETA",
 			"PRE"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -420547,6 +444512,10 @@ end)()
 		tag_list = {
 			"DunkerqueMETA",
 			"PRE"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -420675,6 +444644,10 @@ end)()
 		tag_list = {
 			"DunkerqueMETA",
 			"PRE"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -420803,6 +444776,10 @@ end)()
 		tag_list = {
 			"FusoMETA",
 			"Fuso"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -420931,6 +444908,10 @@ end)()
 		tag_list = {
 			"FusoMETA",
 			"Fuso"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -421059,6 +445040,10 @@ end)()
 		tag_list = {
 			"FusoMETA",
 			"Fuso"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -421187,6 +445172,10 @@ end)()
 		tag_list = {
 			"FusoMETA",
 			"Fuso"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -421315,6 +445304,10 @@ end)()
 		tag_list = {
 			"YamashiroMETA",
 			"Yamashiro"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -421443,6 +445436,10 @@ end)()
 		tag_list = {
 			"YamashiroMETA",
 			"Yamashiro"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -421571,6 +445568,10 @@ end)()
 		tag_list = {
 			"YamashiroMETA",
 			"Yamashiro"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -421699,6 +445700,10 @@ end)()
 		tag_list = {
 			"YamashiroMETA",
 			"Yamashiro"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -421827,6 +445832,10 @@ end)()
 		tag_list = {
 			"ArizonaMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -421955,6 +445964,10 @@ end)()
 		tag_list = {
 			"ArizonaMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -422083,6 +446096,10 @@ end)()
 		tag_list = {
 			"ArizonaMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -422211,6 +446228,10 @@ end)()
 		tag_list = {
 			"ArizonaMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -422339,6 +446360,10 @@ end)()
 		tag_list = {
 			"QE",
 			"QEMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -422467,6 +446492,10 @@ end)()
 		tag_list = {
 			"QE",
 			"QEMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -422595,6 +446624,10 @@ end)()
 		tag_list = {
 			"QE",
 			"QEMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -422723,6 +446756,10 @@ end)()
 		tag_list = {
 			"QE",
 			"QEMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -422853,6 +446890,10 @@ end)()
 			"luodeni",
 			"RodneyMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -422983,6 +447024,10 @@ end)()
 			"luodeni",
 			"RodneyMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -423113,6 +447158,10 @@ end)()
 			"luodeni",
 			"RodneyMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -423243,6 +447292,10 @@ end)()
 			"luodeni",
 			"RodneyMETA",
 			"TOC"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -423372,6 +447425,10 @@ end)()
 			"NagatoMETA",
 			"Big Seven",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -423501,6 +447558,10 @@ end)()
 			"NagatoMETA",
 			"Big Seven",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -423630,6 +447691,10 @@ end)()
 			"NagatoMETA",
 			"Big Seven",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -423759,6 +447824,10 @@ end)()
 			"NagatoMETA",
 			"Big Seven",
 			"Musashi-Game"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -423886,6 +447955,10 @@ end)()
 		},
 		tag_list = {
 			"GCMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -424013,6 +448086,10 @@ end)()
 		},
 		tag_list = {
 			"GCMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -424140,6 +448217,10 @@ end)()
 		},
 		tag_list = {
 			"GCMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -424267,6 +448348,10 @@ end)()
 		},
 		tag_list = {
 			"GCMETA"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -424392,7 +448477,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180006
+		}
 	}
 end)()
 
@@ -424517,7 +448606,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180006
+		}
 	}
 end)()
 
@@ -424642,7 +448735,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180006
+		}
 	}
 end)()
 
@@ -424767,7 +448864,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180004,
+			180006
+		}
 	}
 end)()
 
@@ -424892,7 +448993,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180002
+		}
 	}
 end)()
 
@@ -425017,7 +449122,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180002
+		}
 	}
 end)()
 
@@ -425142,7 +449251,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180002
+		}
 	}
 end)()
 
@@ -425267,7 +449380,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180002
+		}
 	}
 end)()
 
@@ -425394,6 +449511,10 @@ end)()
 		tag_list = {
 			"HiyoMETA",
 			"Hiyō"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -425521,6 +449642,10 @@ end)()
 		tag_list = {
 			"HiyoMETA",
 			"Hiyō"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -425648,6 +449773,10 @@ end)()
 		tag_list = {
 			"HiyoMETA",
 			"Hiyō"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -425775,6 +449904,10 @@ end)()
 		tag_list = {
 			"HiyoMETA",
 			"Hiyō"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -425902,6 +450035,10 @@ end)()
 		tag_list = {
 			"JunyoMETA",
 			"Jun'yō"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -426029,6 +450166,10 @@ end)()
 		tag_list = {
 			"JunyoMETA",
 			"Jun'yō"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -426156,6 +450297,10 @@ end)()
 		tag_list = {
 			"JunyoMETA",
 			"Jun'yō"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -426283,6 +450428,10 @@ end)()
 		tag_list = {
 			"JunyoMETA",
 			"Jun'yō"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -426410,6 +450559,10 @@ end)()
 		tag_list = {
 			"PrincetonMETA",
 			"Princeton"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -426537,6 +450690,10 @@ end)()
 		tag_list = {
 			"PrincetonMETA",
 			"Princeton"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -426664,6 +450821,10 @@ end)()
 		tag_list = {
 			"PrincetonMETA",
 			"Princeton"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -426791,6 +450952,10 @@ end)()
 		tag_list = {
 			"PrincetonMETA",
 			"Princeton"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -426914,7 +451079,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -427037,7 +451206,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -427160,7 +451333,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -427283,7 +451460,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180004
+		}
 	}
 end)()
 
@@ -427411,6 +451592,10 @@ end)()
 		tag_list = {
 			"HiryuMETA",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -427539,6 +451724,10 @@ end)()
 		tag_list = {
 			"HiryuMETA",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -427667,6 +451856,10 @@ end)()
 		tag_list = {
 			"HiryuMETA",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -427795,6 +451988,10 @@ end)()
 		tag_list = {
 			"HiryuMETA",
 			"Hiryu"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -427923,6 +452120,10 @@ end)()
 		tag_list = {
 			"Ark Royal.META",
 			"Ark Royal"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -428051,6 +452252,10 @@ end)()
 		tag_list = {
 			"Ark Royal.META",
 			"Ark Royal"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -428179,6 +452384,10 @@ end)()
 		tag_list = {
 			"Ark Royal.META",
 			"Ark Royal"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -428307,6 +452516,10 @@ end)()
 		tag_list = {
 			"Ark Royal.META",
 			"Ark Royal"
+		},
+		gift_dislike = {
+			180007,
+			180002
 		}
 	}
 end)()
@@ -428435,6 +452648,10 @@ end)()
 		tag_list = {
 			"SouryuMETA",
 			"Souryu"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -428563,6 +452780,10 @@ end)()
 		tag_list = {
 			"SouryuMETA",
 			"Souryu"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -428691,6 +452912,10 @@ end)()
 		tag_list = {
 			"SouryuMETA",
 			"Souryu"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -428819,6 +453044,10 @@ end)()
 		tag_list = {
 			"SouryuMETA",
 			"Souryu"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -428945,6 +453174,10 @@ end)()
 		tag_list = {
 			"BéarnMETA",
 			"Béarn"
+		},
+		gift_dislike = {
+			180003,
+			180008
 		}
 	}
 end)()
@@ -429071,6 +453304,10 @@ end)()
 		tag_list = {
 			"BéarnMETA",
 			"Béarn"
+		},
+		gift_dislike = {
+			180003,
+			180008
 		}
 	}
 end)()
@@ -429197,6 +453434,10 @@ end)()
 		tag_list = {
 			"BéarnMETA",
 			"Béarn"
+		},
+		gift_dislike = {
+			180003,
+			180008
 		}
 	}
 end)()
@@ -429323,6 +453564,10 @@ end)()
 		tag_list = {
 			"BéarnMETA",
 			"Béarn"
+		},
+		gift_dislike = {
+			180003,
+			180008
 		}
 	}
 end)()
@@ -429450,6 +453695,10 @@ end)()
 		},
 		tag_list = {
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -429577,6 +453826,10 @@ end)()
 		},
 		tag_list = {
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -429704,6 +453957,10 @@ end)()
 		},
 		tag_list = {
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -429831,6 +454088,10 @@ end)()
 		},
 		tag_list = {
 			"Armor-CV"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -429958,6 +454219,10 @@ end)()
 		},
 		tag_list = {
 			"HornetMETA"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -430085,6 +454350,10 @@ end)()
 		},
 		tag_list = {
 			"HornetMETA"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -430212,6 +454481,10 @@ end)()
 		},
 		tag_list = {
 			"HornetMETA"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -430339,6 +454612,10 @@ end)()
 		},
 		tag_list = {
 			"HornetMETA"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -430466,6 +454743,10 @@ end)()
 		},
 		tag_list = {
 			"GloriousMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -430593,6 +454874,10 @@ end)()
 		},
 		tag_list = {
 			"GloriousMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -430720,6 +455005,10 @@ end)()
 		},
 		tag_list = {
 			"GloriousMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -430847,6 +455136,10 @@ end)()
 		},
 		tag_list = {
 			"GloriousMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -431103,6 +455396,10 @@ end)()
 		},
 		tag_list = {
 			"U-556META"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -431359,6 +455656,10 @@ end)()
 		},
 		tag_list = {
 			"U-556META"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -431615,6 +455916,10 @@ end)()
 		},
 		tag_list = {
 			"U-556META"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -431871,6 +456176,10 @@ end)()
 		},
 		tag_list = {
 			"U-556META"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -432003,6 +456312,10 @@ end)()
 		},
 		tag_list = {
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -432135,6 +456448,10 @@ end)()
 		},
 		tag_list = {
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -432267,6 +456584,10 @@ end)()
 		},
 		tag_list = {
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -432399,6 +456720,10 @@ end)()
 		},
 		tag_list = {
 			"TOC"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -432524,7 +456849,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -432649,7 +456978,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -432774,7 +457107,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -432899,7 +457236,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -433027,7 +457368,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180007
+		}
 	}
 end)()
 
@@ -433155,7 +457500,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180007
+		}
 	}
 end)()
 
@@ -433283,7 +457632,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180007
+		}
 	}
 end)()
 
@@ -433411,7 +457764,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180007
+		}
 	}
 end)()
 
@@ -433538,7 +457895,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180006
+		}
 	}
 end)()
 
@@ -433665,7 +458026,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180006
+		}
 	}
 end)()
 
@@ -433792,7 +458157,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180006
+		}
 	}
 end)()
 
@@ -433919,7 +458288,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180006
+		}
 	}
 end)()
 
@@ -434044,7 +458417,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -434169,7 +458546,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -434294,7 +458675,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -434419,7 +458804,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -434546,6 +458935,10 @@ end)()
 		},
 		tag_list = {
 			"VertGH"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -434673,6 +459066,10 @@ end)()
 		},
 		tag_list = {
 			"VertGH"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -434800,6 +459197,10 @@ end)()
 		},
 		tag_list = {
 			"VertGH"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -434927,6 +459328,10 @@ end)()
 		},
 		tag_list = {
 			"VertGH"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -435055,7 +459460,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -435183,7 +459592,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -435311,7 +459724,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -435439,7 +459856,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -435566,7 +459987,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180002
+		}
 	}
 end)()
 
@@ -435693,7 +460118,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180002
+		}
 	}
 end)()
 
@@ -435820,7 +460249,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180002
+		}
 	}
 end)()
 
@@ -435947,7 +460380,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180002
+		}
 	}
 end)()
 
@@ -436072,7 +460509,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180005
+		}
 	}
 end)()
 
@@ -436197,7 +460638,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180005
+		}
 	}
 end)()
 
@@ -436322,7 +460767,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180005
+		}
 	}
 end)()
 
@@ -436447,7 +460896,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180002,
+			180005
+		}
 	}
 end)()
 
@@ -436574,6 +461027,10 @@ end)()
 		},
 		tag_list = {
 			"VertGH"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -436701,6 +461158,10 @@ end)()
 		},
 		tag_list = {
 			"VertGH"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -436828,6 +461289,10 @@ end)()
 		},
 		tag_list = {
 			"VertGH"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -436955,6 +461420,10 @@ end)()
 		},
 		tag_list = {
 			"VertGH"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -437082,7 +461551,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -437209,7 +461682,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -437336,7 +461813,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -437463,7 +461944,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180009,
+			180005
+		}
 	}
 end)()
 
@@ -437588,7 +462073,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -437713,7 +462202,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -437838,7 +462331,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -437963,7 +462460,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180008
+		}
 	}
 end)()
 
@@ -438091,7 +462592,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -438219,7 +462724,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -438347,7 +462856,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -438475,7 +462988,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180006,
+			180007
+		}
 	}
 end)()
 
@@ -438601,6 +463118,10 @@ end)()
 		},
 		tag_list = {
 			"Uruuru"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -438727,6 +463248,10 @@ end)()
 		},
 		tag_list = {
 			"Uruuru"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -438853,6 +463378,10 @@ end)()
 		},
 		tag_list = {
 			"Uruuru"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -438979,6 +463508,10 @@ end)()
 		},
 		tag_list = {
 			"Uruuru"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -439105,6 +463638,10 @@ end)()
 		},
 		tag_list = {
 			"Saraana"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -439231,6 +463768,10 @@ end)()
 		},
 		tag_list = {
 			"Saraana"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -439357,6 +463898,10 @@ end)()
 		},
 		tag_list = {
 			"Saraana"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -439483,6 +464028,10 @@ end)()
 		},
 		tag_list = {
 			"Saraana"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -439608,7 +464157,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -439733,7 +464286,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -439858,7 +464415,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -439983,7 +464544,11 @@ end)()
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180005,
+			180009
+		}
 	}
 end)()
 
@@ -440110,6 +464675,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -440237,6 +464806,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -440364,6 +464937,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -440491,6 +465068,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -440618,6 +465199,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -440745,6 +465330,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -440872,6 +465461,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -440999,6 +465592,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180004,
+			180007
 		}
 	}
 end)()
@@ -441126,6 +465723,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -441253,6 +465854,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -441380,6 +465985,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -441507,6 +466116,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -441633,6 +466246,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -441759,6 +466376,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -441885,6 +466506,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -442011,6 +466636,10 @@ end)()
 		},
 		tag_list = {
 			"KizunaAI"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -442136,6 +466765,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -442261,6 +466894,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -442386,6 +467023,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -442511,6 +467152,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -442638,6 +467283,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -442765,6 +467414,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -442892,6 +467545,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -443019,6 +467676,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -443267,6 +467928,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -443515,6 +468180,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -443763,6 +468432,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -444011,6 +468684,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -444138,6 +468815,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -444265,6 +468946,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -444392,6 +469077,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -444519,6 +469208,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -444646,6 +469339,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180002
 		}
 	}
 end)()
@@ -444773,6 +469470,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180002
 		}
 	}
 end)()
@@ -444900,6 +469601,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180002
 		}
 	}
 end)()
@@ -445027,6 +469732,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180008,
+			180002
 		}
 	}
 end)()
@@ -445153,6 +469862,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -445279,6 +469992,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -445405,6 +470122,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -445531,6 +470252,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180004,
+			180008
 		}
 	}
 end)()
@@ -445658,6 +470383,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -445785,6 +470514,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -445912,6 +470645,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -446039,6 +470776,10 @@ end)()
 		},
 		tag_list = {
 			"hololive"
+		},
+		gift_dislike = {
+			180003,
+			180006
 		}
 	}
 end)()
@@ -446166,6 +470907,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -446293,6 +471038,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -446420,6 +471169,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -446547,6 +471300,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -446674,6 +471431,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -446801,6 +471562,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -446928,6 +471693,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -447055,6 +471824,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -447182,6 +471955,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -447309,6 +472086,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -447436,6 +472217,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -447563,6 +472348,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180007,
+			180004
 		}
 	}
 end)()
@@ -447692,6 +472481,10 @@ end)()
 		tag_list = {
 			"DOAXVV",
 			"Misaki"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -447821,6 +472614,10 @@ end)()
 		tag_list = {
 			"DOAXVV",
 			"Misaki"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -447950,6 +472747,10 @@ end)()
 		tag_list = {
 			"DOAXVV",
 			"Misaki"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -448079,6 +472880,10 @@ end)()
 		tag_list = {
 			"DOAXVV",
 			"Misaki"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -448206,6 +473011,10 @@ end)()
 		tag_list = {
 			"DOAXVV",
 			"Nagisa"
+		},
+		gift_dislike = {
+			180007,
+			180009
 		}
 	}
 end)()
@@ -448333,6 +473142,10 @@ end)()
 		tag_list = {
 			"DOAXVV",
 			"Nagisa"
+		},
+		gift_dislike = {
+			180007,
+			180009
 		}
 	}
 end)()
@@ -448460,6 +473273,10 @@ end)()
 		tag_list = {
 			"DOAXVV",
 			"Nagisa"
+		},
+		gift_dislike = {
+			180007,
+			180009
 		}
 	}
 end)()
@@ -448587,6 +473404,10 @@ end)()
 		tag_list = {
 			"DOAXVV",
 			"Nagisa"
+		},
+		gift_dislike = {
+			180007,
+			180009
 		}
 	}
 end)()
@@ -448714,6 +473535,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -448841,6 +473666,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -448968,6 +473797,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -449095,6 +473928,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180003
 		}
 	}
 end)()
@@ -449225,6 +474062,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -449355,6 +474196,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -449485,6 +474330,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -449615,6 +474464,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -449741,6 +474594,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -449867,6 +474724,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -449993,6 +474854,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -450119,6 +474984,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -450246,6 +475115,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -450373,6 +475246,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -450500,6 +475377,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -450627,6 +475508,10 @@ end)()
 		},
 		tag_list = {
 			"DOAXVV"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -450757,6 +475642,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -450887,6 +475776,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -451017,6 +475910,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -451147,6 +476044,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -451274,6 +476175,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -451401,6 +476306,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -451528,6 +476437,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -451655,6 +476568,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -451780,6 +476697,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -451905,6 +476826,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -452030,6 +476955,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -452155,6 +477084,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -452281,6 +477214,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -452407,6 +477344,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -452533,6 +477474,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -452659,6 +477604,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -452789,6 +477738,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -452919,6 +477872,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -453049,6 +478006,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -453179,6 +478140,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -453419,6 +478384,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -453659,6 +478628,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -453899,6 +478872,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -454139,6 +479116,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -454379,6 +479360,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -454619,6 +479604,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -454859,6 +479848,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -455099,6 +480092,10 @@ end)()
 		},
 		tag_list = {
 			"IMAS"
+		},
+		gift_dislike = {
+			180002,
+			180008
 		}
 	}
 end)()
@@ -455231,6 +480228,10 @@ end)()
 			"SSSS",
 			"RIKKA",
 			"3IN1"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -455363,6 +480364,10 @@ end)()
 			"SSSS",
 			"RIKKA",
 			"3IN1"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -455495,6 +480500,10 @@ end)()
 			"SSSS",
 			"RIKKA",
 			"3IN1"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -455627,6 +480636,10 @@ end)()
 			"SSSS",
 			"RIKKA",
 			"3IN1"
+		},
+		gift_dislike = {
+			180004,
+			180002
 		}
 	}
 end)()
@@ -455754,6 +480767,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180004,
+			180003
 		}
 	}
 end)()
@@ -455881,6 +480898,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180004,
+			180003
 		}
 	}
 end)()
@@ -456008,6 +481029,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180004,
+			180003
 		}
 	}
 end)()
@@ -456135,6 +481160,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180004,
+			180003
 		}
 	}
 end)()
@@ -456265,6 +481294,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -456395,6 +481428,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -456525,6 +481562,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -456655,6 +481696,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -456784,6 +481829,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -456913,6 +481962,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -457042,6 +482095,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -457171,6 +482228,10 @@ end)()
 		},
 		tag_list = {
 			"SSSS"
+		},
+		gift_dislike = {
+			180008,
+			180007
 		}
 	}
 end)()
@@ -457301,6 +482362,10 @@ end)()
 			"YUME",
 			"DYNA",
 			"3IN1"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -457431,6 +482496,10 @@ end)()
 			"YUME",
 			"DYNA",
 			"3IN1"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -457561,6 +482630,10 @@ end)()
 			"YUME",
 			"DYNA",
 			"3IN1"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -457691,6 +482764,10 @@ end)()
 			"YUME",
 			"DYNA",
 			"3IN1"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -457819,6 +482896,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -457947,6 +483028,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -458075,6 +483160,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -458203,6 +483292,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180007,
+			180003
 		}
 	}
 end)()
@@ -458331,6 +483424,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -458459,6 +483556,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -458587,6 +483688,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -458715,6 +483820,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -458842,6 +483951,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -458969,6 +484082,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -459096,6 +484213,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -459223,6 +484344,10 @@ end)()
 		tag_list = {
 			"SSSS",
 			"DYNA"
+		},
+		gift_dislike = {
+			180006,
+			180005
 		}
 	}
 end)()
@@ -459352,6 +484477,10 @@ end)()
 			"SSSS",
 			"HIME",
 			"DYNA"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -459481,6 +484610,10 @@ end)()
 			"SSSS",
 			"HIME",
 			"DYNA"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -459610,6 +484743,10 @@ end)()
 			"SSSS",
 			"HIME",
 			"DYNA"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -459739,6 +484876,10 @@ end)()
 			"SSSS",
 			"HIME",
 			"DYNA"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -459870,6 +485011,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"RyzaSelf"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -460001,6 +485146,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"RyzaSelf"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -460132,6 +485281,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"RyzaSelf"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -460263,6 +485416,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"RyzaSelf"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -460390,6 +485547,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"KlaudiaHA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -460517,6 +485678,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"KlaudiaHA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -460644,6 +485809,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"KlaudiaHA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -460771,6 +485940,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"KlaudiaHA"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -460898,6 +486071,10 @@ end)()
 		},
 		tag_list = {
 			"RYZA"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -461025,6 +486202,10 @@ end)()
 		},
 		tag_list = {
 			"RYZA"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -461152,6 +486333,10 @@ end)()
 		},
 		tag_list = {
 			"RYZA"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -461279,6 +486464,10 @@ end)()
 		},
 		tag_list = {
 			"RYZA"
+		},
+		gift_dislike = {
+			180006,
+			180002
 		}
 	}
 end)()
@@ -461408,6 +486597,10 @@ end)()
 		},
 		tag_list = {
 			"RYZA"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -461537,6 +486730,10 @@ end)()
 		},
 		tag_list = {
 			"RYZA"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -461666,6 +486863,10 @@ end)()
 		},
 		tag_list = {
 			"RYZA"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -461795,6 +486996,10 @@ end)()
 		},
 		tag_list = {
 			"RYZA"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -461923,6 +487128,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"serri_spw_off"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -462051,6 +487260,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"serri_spw_off"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -462179,6 +487392,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"serri_spw_off"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -462307,6 +487524,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"serri_spw_off"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -462435,6 +487656,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"KalaSelf"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -462563,6 +487788,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"KalaSelf"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -462691,6 +487920,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"KalaSelf"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -462819,6 +488052,10 @@ end)()
 		tag_list = {
 			"RYZA",
 			"KalaSelf"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -462950,6 +488187,10 @@ end)()
 		tag_list = {
 			"Asuka",
 			"Senran"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -463081,6 +488322,10 @@ end)()
 		tag_list = {
 			"Asuka",
 			"Senran"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -463212,6 +488457,10 @@ end)()
 		tag_list = {
 			"Asuka",
 			"Senran"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -463343,6 +488592,10 @@ end)()
 		tag_list = {
 			"Asuka",
 			"Senran"
+		},
+		gift_dislike = {
+			180008,
+			180009
 		}
 	}
 end)()
@@ -463473,6 +488726,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"Ikaruga"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -463603,6 +488860,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"Ikaruga"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -463733,6 +488994,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"Ikaruga"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -463863,6 +489128,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"Ikaruga"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -464107,6 +489376,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -464351,6 +489624,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -464595,6 +489872,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -464839,6 +490120,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -464966,6 +490251,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -465093,6 +490382,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -465220,6 +490513,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -465347,6 +490644,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -465474,6 +490775,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -465601,6 +490906,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -465728,6 +491037,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -465855,6 +491168,10 @@ end)()
 		},
 		tag_list = {
 			"Senran"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -465982,6 +491299,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"Murasaki"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -466109,6 +491430,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"Murasaki"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -466236,6 +491561,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"Murasaki"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -466363,6 +491692,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"Murasaki"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -466490,6 +491823,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"yuuyaki"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -466617,6 +491954,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"yuuyaki"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -466744,6 +492085,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"yuuyaki"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -466871,6 +492216,10 @@ end)()
 		tag_list = {
 			"Senran",
 			"yuuyaki"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -467000,6 +492349,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Lala"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -467129,6 +492482,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Lala"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -467258,6 +492615,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Lala"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -467387,6 +492748,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Lala"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -467516,6 +492881,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Nana"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -467645,6 +493014,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Nana"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -467774,6 +493147,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Nana"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -467903,6 +493280,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Nana"
+		},
+		gift_dislike = {
+			180002,
+			180006
 		}
 	}
 end)()
@@ -468035,6 +493416,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Momo"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -468167,6 +493552,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Momo"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -468299,6 +493688,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Momo"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -468431,6 +493824,10 @@ end)()
 			"To LOVE-Ru",
 			"Deviluke",
 			"Momo"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -468558,6 +493955,10 @@ end)()
 		},
 		tag_list = {
 			"To LOVE-Ru"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -468685,6 +494086,10 @@ end)()
 		},
 		tag_list = {
 			"To LOVE-Ru"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -468812,6 +494217,10 @@ end)()
 		},
 		tag_list = {
 			"To LOVE-Ru"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -468939,6 +494348,10 @@ end)()
 		},
 		tag_list = {
 			"To LOVE-Ru"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -469067,6 +494480,10 @@ end)()
 		tag_list = {
 			"To LOVE-Ru",
 			"ToloveHaruna"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -469195,6 +494612,10 @@ end)()
 		tag_list = {
 			"To LOVE-Ru",
 			"ToloveHaruna"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -469323,6 +494744,10 @@ end)()
 		tag_list = {
 			"To LOVE-Ru",
 			"ToloveHaruna"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -469451,6 +494876,10 @@ end)()
 		tag_list = {
 			"To LOVE-Ru",
 			"ToloveHaruna"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -469579,6 +495008,10 @@ end)()
 		tag_list = {
 			"To LOVE-Ru",
 			"Toloveyui"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -469707,6 +495140,10 @@ end)()
 		tag_list = {
 			"To LOVE-Ru",
 			"Toloveyui"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -469835,6 +495272,10 @@ end)()
 		tag_list = {
 			"To LOVE-Ru",
 			"Toloveyui"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -469963,6 +495404,10 @@ end)()
 		tag_list = {
 			"To LOVE-Ru",
 			"Toloveyui"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -470088,6 +495533,10 @@ end)()
 		},
 		tag_list = {
 			"BRS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -470213,6 +495662,10 @@ end)()
 		},
 		tag_list = {
 			"BRS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -470338,6 +495791,10 @@ end)()
 		},
 		tag_list = {
 			"BRS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -470463,6 +495920,10 @@ end)()
 		},
 		tag_list = {
 			"BRS"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -470591,6 +496052,10 @@ end)()
 		tag_list = {
 			"BRS",
 			"DM"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -470719,6 +496184,10 @@ end)()
 		tag_list = {
 			"BRS",
 			"DM"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -470847,6 +496316,10 @@ end)()
 		tag_list = {
 			"BRS",
 			"DM"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -470975,6 +496448,10 @@ end)()
 		tag_list = {
 			"BRS",
 			"DM"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -471102,6 +496579,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"YumiaSelf"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -471229,6 +496710,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"YumiaSelf"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -471356,6 +496841,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"YumiaSelf"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -471483,6 +496972,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"YumiaSelf"
+		},
+		gift_dislike = {
+			180009,
+			180007
 		}
 	}
 end)()
@@ -471614,6 +497107,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Isla"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -471745,6 +497242,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Isla"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -471876,6 +497377,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Isla"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -472007,6 +497512,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Isla"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -472133,6 +497642,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Nina"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -472259,6 +497772,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Nina"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -472385,6 +497902,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Nina"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -472511,6 +498032,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Nina"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -472639,6 +498164,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Lenja"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -472767,6 +498296,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Lenja"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -472895,6 +498428,10 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Lenja"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -473023,7 +498560,1051 @@ end)()
 		tag_list = {
 			"Yumia",
 			"Lenja"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ヘスティア",
+		type = 12,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Hestia",
+		skin_id = 11400010,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			771,
+			9,
+			0,
+			28,
+			0,
+			62,
+			0,
+			37,
+			6,
+			16,
+			79,
+			0
+		},
+		attrs_growth = {
+			20701,
+			129,
+			0,
+			621,
+			0,
+			431,
+			0,
+			552,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.85,
+			0.85
+		},
+		strategy_list = {
+			{
+				4,
+				1
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ヘスティア",
+		type = 12,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Hestia",
+		skin_id = 11400010,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			959,
+			11,
+			0,
+			35,
+			0,
+			62,
+			0,
+			37,
+			6,
+			16,
+			79,
+			0
+		},
+		attrs_growth = {
+			20701,
+			129,
+			0,
+			621,
+			0,
+			431,
+			0,
+			552,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.88,
+			0.88
+		},
+		strategy_list = {
+			{
+				4,
+				2
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ヘスティア",
+		type = 12,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Hestia",
+		skin_id = 11400010,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1335,
+			16,
+			0,
+			49,
+			0,
+			62,
+			0,
+			37,
+			6,
+			16,
+			79,
+			0
+		},
+		attrs_growth = {
+			20701,
+			129,
+			0,
+			621,
+			0,
+			431,
+			0,
+			552,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.93,
+			0.93
+		},
+		strategy_list = {
+			{
+				4,
+				2
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "ヘスティア",
+		type = 12,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Hestia",
+		skin_id = 11400010,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 1,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1899,
+			23,
+			0,
+			70,
+			0,
+			62,
+			0,
+			37,
+			6,
+			16,
+			79,
+			0
+		},
+		attrs_growth = {
+			20701,
+			129,
+			0,
+			621,
+			0,
+			431,
+			0,
+			552,
+			295,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			104,
+			104,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			2,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			1,
+			1
+		},
+		strategy_list = {
+			{
+				4,
+				3
+			}
+		},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "リュー・リオン",
+		type = 2,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Ryu Lion",
+		skin_id = 11400020,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			785,
+			34,
+			63,
+			67,
+			0,
+			75,
+			0,
+			57,
+			36,
+			32,
+			65,
+			38
+		},
+		attrs_growth = {
+			22363,
+			473,
+			826,
+			1412,
+			0,
+			523,
+			0,
+			817,
+			682,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.3,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "リュー・リオン",
+		type = 2,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Ryu Lion",
+		skin_id = 11400020,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			976,
+			42,
+			79,
+			84,
+			0,
+			75,
+			0,
+			57,
+			36,
+			32,
+			65,
+			47
+		},
+		attrs_growth = {
+			22363,
+			473,
+			826,
+			1412,
+			0,
+			523,
+			0,
+			817,
+			682,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "リュー・リオン",
+		type = 2,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Ryu Lion",
+		skin_id = 11400020,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1359,
+			59,
+			110,
+			117,
+			0,
+			75,
+			0,
+			57,
+			36,
+			32,
+			65,
+			66
+		},
+		attrs_growth = {
+			22363,
+			473,
+			826,
+			1412,
+			0,
+			523,
+			0,
+			817,
+			682,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11400024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "リュー・リオン",
+		type = 2,
+		oxy_cost = 0,
+		gift_dislike = "",
+		english_name = "Ryu Lion",
+		skin_id = 11400020,
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 114,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11400024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1934,
+			85,
+			157,
+			166,
+			0,
+			75,
+			0,
+			57,
+			36,
+			32,
+			65,
+			94
+		},
+		attrs_growth = {
+			22363,
+			473,
+			826,
+			1412,
+			0,
+			523,
+			0,
+			817,
+			682,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {}
 	}
 end)()
 
@@ -473153,6 +499734,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -473283,6 +499868,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -473413,6 +500002,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -473543,6 +500136,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -473671,6 +500268,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -473799,6 +500400,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -473927,6 +500532,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -474055,6 +500664,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"KGV-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -474184,6 +500797,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -474313,6 +500930,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -474442,6 +501063,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -474571,6 +501196,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -474698,6 +501327,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -474825,6 +501458,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -474952,6 +501589,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -475079,6 +501720,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -475208,6 +501853,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -475337,6 +501986,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -475466,6 +502119,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -475595,6 +502252,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180009
 		}
 	}
 end)()
@@ -475724,6 +502385,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180005
 		}
 	}
 end)()
@@ -475853,6 +502518,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180005
 		}
 	}
 end)()
@@ -475982,6 +502651,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180005
 		}
 	}
 end)()
@@ -476111,6 +502784,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180005
 		}
 	}
 end)()
@@ -476242,6 +502919,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -476373,6 +503054,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -476504,6 +503189,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -476635,6 +503324,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180009
 		}
 	}
 end)()
@@ -476762,6 +503455,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -476889,6 +503586,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -477016,6 +503717,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -477143,6 +503848,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -477270,6 +503979,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -477397,6 +504110,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -477524,6 +504241,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -477651,6 +504372,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -477778,6 +504503,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -477905,6 +504634,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -478032,6 +504765,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -478159,6 +504896,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -478286,6 +505027,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -478413,6 +505158,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -478540,6 +505289,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -478667,6 +505420,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -478795,6 +505552,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Richelieu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -478923,6 +505684,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Richelieu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -479051,6 +505816,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Richelieu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -479179,6 +505948,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Richelieu-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -479308,6 +506081,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -479437,6 +506214,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -479566,6 +506347,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -479695,6 +506480,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -479824,6 +506613,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -479953,6 +506746,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -480082,6 +506879,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -480211,6 +507012,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -480339,6 +507144,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -480467,6 +507276,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -480595,6 +507408,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -480723,6 +507540,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -480851,6 +507672,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -480982,6 +507807,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -481113,6 +507942,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -481244,6 +508077,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -481371,6 +508208,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -481499,6 +508340,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -481627,6 +508472,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -481755,6 +508604,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180006
 		}
 	}
 end)()
@@ -481885,6 +508738,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Anchorage"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -482015,6 +508872,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Anchorage"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -482145,6 +509006,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Anchorage"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -482275,6 +509140,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Anchorage"
+		},
+		gift_dislike = {
+			180004,
+			180006
 		}
 	}
 end)()
@@ -482402,6 +509271,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -482529,6 +509402,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -482656,6 +509533,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -482783,6 +509664,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -482913,6 +509798,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"O-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -483043,6 +509932,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"O-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -483173,6 +510066,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"O-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -483303,6 +510200,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"O-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -483430,6 +510331,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -483557,6 +510462,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -483684,6 +510593,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -483811,6 +510724,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -483939,6 +510856,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"MarcoPolo"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -484067,6 +510988,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"MarcoPolo"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -484195,6 +511120,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"MarcoPolo"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -484323,6 +511252,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"MarcoPolo"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -484453,6 +511386,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -484583,6 +511520,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -484713,6 +511654,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -484843,6 +511788,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -484969,6 +511918,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -485095,6 +512048,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -485221,6 +512178,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -485347,6 +512308,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -485359,7 +512324,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 3,
@@ -485477,6 +512442,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -485489,7 +512458,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -485607,6 +512576,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -485619,7 +512592,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 5,
@@ -485737,6 +512710,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -485749,7 +512726,7 @@ end)()
 		type = 2,
 		oxy_cost = 0,
 		skin_id = 599010,
-		english_name = "PRAN Harbin",
+		english_name = "Harbin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 6,
@@ -485867,6 +512844,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180003
 		}
 	}
 end)()
@@ -485994,6 +512975,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -486121,6 +513106,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -486248,6 +513237,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -486375,6 +513368,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180003,
+			180009
 		}
 	}
 end)()
@@ -486504,6 +513501,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -486633,6 +513634,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -486762,6 +513767,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -486891,6 +513900,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -487017,6 +514030,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -487146,6 +514163,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -487275,6 +514296,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -487404,6 +514429,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -487533,6 +514562,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -487662,6 +514695,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -487791,6 +514828,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -487920,6 +514961,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180002,
+			180004
 		}
 	}
 end)()
@@ -488048,6 +515093,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -488176,6 +515225,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -488304,6 +515357,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -488432,6 +515489,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Z-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
 		}
 	}
 end)()
@@ -488561,6 +515622,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -488690,6 +515755,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -488819,6 +515888,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -488948,6 +516021,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -489076,6 +516153,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -489204,6 +516285,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -489332,6 +516417,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -489460,6 +516549,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"PRE"
+		},
+		gift_dislike = {
+			180009,
+			180004
 		}
 	}
 end)()
@@ -489586,6 +516679,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -489712,6 +516809,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -489838,6 +516939,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -489964,6 +517069,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Fletcher-Class"
+		},
+		gift_dislike = {
+			180009,
+			180002
 		}
 	}
 end)()
@@ -490090,6 +517199,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -490216,6 +517329,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -490342,6 +517459,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -490468,6 +517589,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180004,
+			180009
 		}
 	}
 end)()
@@ -490596,6 +517721,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Napoli"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -490724,6 +517853,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Napoli"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -490852,6 +517985,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Napoli"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -490980,6 +518117,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"Napoli"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -491110,6 +518251,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -491240,6 +518385,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -491370,6 +518519,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -491500,6 +518653,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180006,
+			180008
 		}
 	}
 end)()
@@ -491630,6 +518787,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -491760,6 +518921,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -491890,6 +519055,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -492020,6 +519189,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -492145,6 +519318,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -492270,6 +519447,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -492395,6 +519576,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -492520,6 +519705,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180009,
+			180005
 		}
 	}
 end)()
@@ -492646,6 +519835,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -492772,6 +519965,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -492898,6 +520095,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -493024,6 +520225,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180008
 		}
 	}
 end)()
@@ -493150,6 +520355,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"VittorioCuniberti"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -493276,6 +520485,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"VittorioCuniberti"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -493402,6 +520615,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"VittorioCuniberti"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -493528,6 +520745,10 @@ end)()
 		tag_list = {
 			"Plan-Class",
 			"VittorioCuniberti"
+		},
+		gift_dislike = {
+			180006,
+			180007
 		}
 	}
 end)()
@@ -493658,6 +520879,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -493788,6 +521013,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -493918,6 +521147,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -494048,6 +521281,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180007,
+			180006
 		}
 	}
 end)()
@@ -494174,6 +521411,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -494300,6 +521541,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -494426,6 +521671,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()
@@ -494552,6 +521801,10 @@ end)()
 		},
 		tag_list = {
 			"Plan-Class"
+		},
+		gift_dislike = {
+			180005,
+			180009
 		}
 	}
 end)()

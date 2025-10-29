@@ -48,7 +48,6 @@ function var_0_7.Init(arg_3_0)
 	arg_3_0:InitFlagShipMark()
 	arg_3_0:InitSkillAim()
 	pg.CameraFixMgr.GetInstance():Adapt()
-	pg.CameraFixMgr.GetInstance():SetMaskAsTopLayer(true)
 end
 
 function var_0_7.InitCamera(arg_4_0)
@@ -66,14 +65,14 @@ function var_0_7.InitPopNumPool(arg_5_0)
 	local var_5_1 = arg_5_0._state:GetUI()
 
 	if arg_5_0._dataProxy:GetInitData().battleType == SYSTEM_DODGEM then
-		arg_5_0._popNumMgr:InitialScorePool(var_5_1:findTF(var_5_0.CONTAINER_CHARACTER_HP .. "/container"))
+		arg_5_0._popNumMgr:InitialScorePool(var_5_1._tf:Find(var_5_0.CONTAINER_CHARACTER_HP .. "/container"))
 	else
-		arg_5_0._popNumMgr:InitialBundlePool(var_5_1:findTF(var_5_0.CONTAINER_CHARACTER_HP .. "/container"))
+		arg_5_0._popNumMgr:InitialBundlePool(var_5_1._tf:Find(var_5_0.CONTAINER_CHARACTER_HP .. "/container"))
 	end
 end
 
 function var_0_7.InitFlagShipMark(arg_6_0)
-	local var_6_0 = arg_6_0._state:GetUI():findGO("flagShipMark")
+	local var_6_0 = arg_6_0._state:GetUI()._tf:Find("flagShipMark").gameObject
 
 	var_6_0:SetActive(true)
 
@@ -88,8 +87,8 @@ end
 function var_0_7.InitCharacterFactory(arg_8_0)
 	local var_8_0 = arg_8_0._state:GetUI()
 
-	var_0_0.Battle.BattleHPBarManager.GetInstance():InitialPoolRoot(var_8_0:findTF(var_0_0.Battle.BattleHPBarManager.ROOT_NAME))
-	var_0_0.Battle.BattleArrowManager.GetInstance():Init(var_8_0:findTF(var_0_0.Battle.BattleArrowManager.ROOT_NAME))
+	var_0_0.Battle.BattleHPBarManager.GetInstance():InitialPoolRoot(var_8_0._tf:Find(var_0_0.Battle.BattleHPBarManager.ROOT_NAME))
+	var_0_0.Battle.BattleArrowManager.GetInstance():Init(var_8_0._tf:Find(var_0_0.Battle.BattleArrowManager.ROOT_NAME))
 
 	arg_8_0._characterFactoryList = {
 		[var_0_3.UnitType.PLAYER_UNIT] = var_0_0.Battle.BattlePlayerCharacterFactory.GetInstance(),
@@ -738,7 +737,7 @@ function var_0_7.GetBulletRoot(arg_54_0)
 end
 
 function var_0_7.EnablePopContainer(arg_55_0, arg_55_1, arg_55_2)
-	setActive(arg_55_0._state:GetUI():findTF(arg_55_1), arg_55_2)
+	setActive(arg_55_0._state:GetUI()._tf:Find(arg_55_1), arg_55_2)
 end
 
 function var_0_7.AddPlayerCharacter(arg_56_0, arg_56_1)
@@ -767,7 +766,7 @@ function var_0_7.AppendCharacter(arg_58_0, arg_58_1)
 end
 
 function var_0_7.InstantiateCharacterComponent(arg_59_0, arg_59_1)
-	local var_59_0 = arg_59_0._state:GetUI():findTF(arg_59_1)
+	local var_59_0 = arg_59_0._state:GetUI()._tf:Find(arg_59_1)
 
 	return cloneTplTo(var_59_0, var_59_0.parent).gameObject
 end
@@ -927,8 +926,6 @@ function var_0_7.Clear(arg_74_0)
 	var_0_0.Battle.BattleArrowManager.GetInstance():Clear()
 
 	arg_74_0._anitSubAreaTFList = nil
-
-	pg.CameraFixMgr.GetInstance():SetMaskAsTopLayer(false)
 end
 
 function var_0_7.Dispose(arg_75_0)

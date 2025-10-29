@@ -1,9 +1,9 @@
 local var_0_0 = class("AnimeEndPage", import(".TemplatePage.LoginTemplatePage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.dayProgressImg = arg_1_0:findTF("DayProgress")
-	arg_1_0.awardImg = arg_1_0:findTF("Award")
-	arg_1_0.maskImg = arg_1_0:findTF("Mask", arg_1_0.awardImg)
+	arg_1_0.dayProgressImg = arg_1_0._tf:Find("DayProgress")
+	arg_1_0.awardImg = arg_1_0._tf:Find("Award")
+	arg_1_0.maskImg = arg_1_0.awardImg:Find("Mask")
 
 	addSlip(SLIP_TYPE_HRZ, arg_1_0.awardImg, function()
 		if arg_1_0.curShowDay > 1 then
@@ -15,8 +15,8 @@ function var_0_0.OnInit(arg_1_0)
 		end
 	end)
 
-	arg_1_0.arrowLeft = arg_1_0:findTF("ArrowLeft")
-	arg_1_0.arrowRight = arg_1_0:findTF("ArrowRight")
+	arg_1_0.arrowLeft = arg_1_0._tf:Find("ArrowLeft")
+	arg_1_0.arrowRight = arg_1_0._tf:Find("ArrowRight")
 
 	onButton(arg_1_0, arg_1_0.arrowLeft, function()
 		arg_1_0.curShowDay = arg_1_0.curShowDay - 1
@@ -29,15 +29,15 @@ function var_0_0.OnInit(arg_1_0)
 		arg_1_0:updateAwardInfo(arg_1_0.curShowDay)
 	end, SFX_PANEL)
 
-	arg_1_0.pointTpl = arg_1_0:findTF("Point")
-	arg_1_0.pointContainer = arg_1_0:findTF("PointList")
+	arg_1_0.pointTpl = arg_1_0._tf:Find("Point")
+	arg_1_0.pointContainer = arg_1_0._tf:Find("PointList")
 	arg_1_0.pointUIItemList = UIItemList.New(arg_1_0.pointContainer, arg_1_0.pointTpl)
 
 	arg_1_0.pointUIItemList:make(function(arg_6_0, arg_6_1, arg_6_2)
 		if arg_6_0 == UIItemList.EventUpdate then
 			arg_6_1 = arg_6_1 + 1
 
-			local var_6_0 = arg_1_0:findTF("Selected", arg_6_2)
+			local var_6_0 = arg_6_2:Find("Selected")
 
 			if arg_6_1 <= arg_1_0.nday then
 				setImageAlpha(arg_6_2, 1)

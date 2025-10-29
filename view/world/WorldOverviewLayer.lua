@@ -73,10 +73,7 @@ function var_0_0.init(arg_3_0)
 			arg_3_0:closeView()
 		end
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		blurLevelCamera = true,
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.didEnter(arg_8_0)
@@ -130,7 +127,7 @@ function var_0_0.didEnter(arg_8_0)
 end
 
 function var_0_0.willExit(arg_12_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_12_0._tf, arg_12_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf, arg_12_0._parentTf)
 
 	if arg_12_0.mode then
 		setActive(arg_12_0["rt" .. arg_12_0.mode .. "Panel"], false)

@@ -13,7 +13,7 @@ function var_0_0.OnInit(arg_2_0)
 	setActive(arg_2_0._tf:Find("ItemRect/TitleRecord"), true)
 	setActive(arg_2_0._tf:Find("ItemRect/TitleMemory"), false)
 
-	arg_2_0.recordItemList = arg_2_0:findTF("ItemRect"):GetComponent("LScrollRect")
+	arg_2_0.recordItemList = arg_2_0._tf:Find("ItemRect"):GetComponent("LScrollRect")
 
 	function arg_2_0.recordItemList.onInitItem(arg_3_0)
 		arg_2_0:OnInitRecordItem(arg_3_0)
@@ -25,7 +25,7 @@ function var_0_0.OnInit(arg_2_0)
 
 	arg_2_0.recordItems = {}
 
-	local var_2_0 = arg_2_0:findTF("Item", arg_2_0.recordItemList)
+	local var_2_0 = tf(arg_2_0.recordItemList):Find("Item")
 
 	setActive(var_2_0, false)
 

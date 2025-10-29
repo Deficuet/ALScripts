@@ -4,35 +4,35 @@ local var_0_1 = 6000
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.helpBtn = arg_1_0:findTF("help_btn", arg_1_0.bg)
-	arg_1_0.collectBtn = arg_1_0:findTF("collect_btn", arg_1_0.bg)
-	arg_1_0.taskRedDot = arg_1_0:findTF("red_dot", arg_1_0.collectBtn)
-	arg_1_0.resNumTF = arg_1_0:findTF("res_num", arg_1_0.collectBtn)
-	arg_1_0.title = arg_1_0:findTF("title", arg_1_0.bg)
-	arg_1_0.tags = arg_1_0:findTF("tags", arg_1_0.bg)
-	arg_1_0.convertBtn = arg_1_0:findTF("convert_btn", arg_1_0.bg)
-	arg_1_0.switchBtn = arg_1_0:findTF("switch_btn", arg_1_0.bg)
-	arg_1_0.switchRedDot = arg_1_0:findTF("red_dot", arg_1_0.switchBtn)
+	arg_1_0.helpBtn = arg_1_0.bg:Find("help_btn")
+	arg_1_0.collectBtn = arg_1_0.bg:Find("collect_btn")
+	arg_1_0.taskRedDot = arg_1_0.collectBtn:Find("red_dot")
+	arg_1_0.resNumTF = arg_1_0.collectBtn:Find("res_num")
+	arg_1_0.title = arg_1_0.bg:Find("title")
+	arg_1_0.tags = arg_1_0.bg:Find("tags")
+	arg_1_0.convertBtn = arg_1_0.bg:Find("convert_btn")
+	arg_1_0.switchBtn = arg_1_0.bg:Find("switch_btn")
+	arg_1_0.switchRedDot = arg_1_0.switchBtn:Find("red_dot")
 	arg_1_0.paintings = {
-		arg_1_0:findTF("paintings/ninghai", arg_1_0.bg),
-		arg_1_0:findTF("paintings/pinghai", arg_1_0.bg)
+		arg_1_0.bg:Find("paintings/ninghai"),
+		arg_1_0.bg:Find("paintings/pinghai")
 	}
-	arg_1_0.anim = arg_1_0:findTF("anim", arg_1_0.bg)
-	arg_1_0.ninghaiTF = arg_1_0:findTF("anim/panda_anim/ninghai", arg_1_0.bg)
-	arg_1_0.pinghaiTF = arg_1_0:findTF("anim/panda_anim/pinghai", arg_1_0.bg)
-	arg_1_0.heartImages = arg_1_0:findTF("hearts", arg_1_0.bg)
-	arg_1_0.step2 = arg_1_0:findTF("step2", arg_1_0.bg)
-	arg_1_0.taskWindow = arg_1_0:findTF("TaskWindow")
-	arg_1_0.closeBtn = arg_1_0:findTF("panel/close_btn", arg_1_0.taskWindow)
-	arg_1_0.maskBtn = arg_1_0:findTF("mask", arg_1_0.taskWindow)
-	arg_1_0.item = arg_1_0:findTF("panel/scrollview/item", arg_1_0.taskWindow)
-	arg_1_0.items = arg_1_0:findTF("panel/scrollview/items", arg_1_0.taskWindow)
+	arg_1_0.anim = arg_1_0.bg:Find("anim")
+	arg_1_0.ninghaiTF = arg_1_0.bg:Find("anim/panda_anim/ninghai")
+	arg_1_0.pinghaiTF = arg_1_0.bg:Find("anim/panda_anim/pinghai")
+	arg_1_0.heartImages = arg_1_0.bg:Find("hearts")
+	arg_1_0.step2 = arg_1_0.bg:Find("step2")
+	arg_1_0.taskWindow = arg_1_0._tf:Find("TaskWindow")
+	arg_1_0.closeBtn = arg_1_0.taskWindow:Find("panel/close_btn")
+	arg_1_0.maskBtn = arg_1_0.taskWindow:Find("mask")
+	arg_1_0.item = arg_1_0.taskWindow:Find("panel/scrollview/item")
+	arg_1_0.items = arg_1_0.taskWindow:Find("panel/scrollview/items")
 	arg_1_0.uilist = UIItemList.New(arg_1_0.items, arg_1_0.item)
-	arg_1_0.typeImages = arg_1_0:findTF("panel/tags", arg_1_0.taskWindow)
-	arg_1_0.barImages = arg_1_0:findTF("panel/bars", arg_1_0.taskWindow)
-	arg_1_0.guide = arg_1_0:findTF("Guide")
-	arg_1_0.guideTarget = arg_1_0:findTF("target", arg_1_0.guide)
-	arg_1_0.guideContent = arg_1_0:findTF("dialogBox/content", arg_1_0.guide)
+	arg_1_0.typeImages = arg_1_0.taskWindow:Find("panel/tags")
+	arg_1_0.barImages = arg_1_0.taskWindow:Find("panel/bars")
+	arg_1_0.guide = arg_1_0._tf:Find("Guide")
+	arg_1_0.guideTarget = arg_1_0.guide:Find("target")
+	arg_1_0.guideContent = arg_1_0.guide:Find("dialogBox/content")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)
@@ -321,7 +321,7 @@ function var_0_0.OnUpdatePtAct(arg_24_0)
 	setActive(arg_24_0.convertBtn, not var_24_7)
 	setActive(arg_24_0.getBtn, var_24_7)
 	setActive(arg_24_0.gotBtn, not var_24_8)
-	setActive(arg_24_0:findTF("10", arg_24_0.step), not var_24_8)
+	setActive(arg_24_0.step:Find("10"), not var_24_8)
 	setActive(arg_24_0.switchRedDot, not var_24_8 and not arg_24_0:isFinishAllAct())
 	setActive(arg_24_0.taskRedDot, arg_24_0.showTaskRedDot and not arg_24_0.hasClickTask)
 end
@@ -351,8 +351,8 @@ function var_0_0.playSpineAni(arg_32_0)
 	setActive(arg_32_0.anim, true)
 
 	local var_32_0 = 0.4
-	local var_32_1 = arg_32_0:findTF("panda_anim", arg_32_0.anim)
-	local var_32_2 = arg_32_0:findTF("heart_anim", arg_32_0.anim)
+	local var_32_1 = arg_32_0.anim:Find("panda_anim")
+	local var_32_2 = arg_32_0.anim:Find("heart_anim")
 	local var_32_3 = GetOrAddComponent(var_32_1, typeof(CanvasGroup))
 
 	setActive(var_32_1, true)
@@ -424,7 +424,7 @@ function var_0_0.initTaskWindow(arg_43_0)
 	arg_43_0.uilist:make(function(arg_44_0, arg_44_1, arg_44_2)
 		if arg_44_0 == UIItemList.EventUpdate then
 			local var_44_0 = arg_44_1 + 1
-			local var_44_1 = arg_43_0:findTF("item", arg_44_2)
+			local var_44_1 = arg_44_2:Find("item")
 			local var_44_2 = arg_43_0.curTask[var_44_0]
 			local var_44_3 = arg_43_0.taskProxy:getTaskById(var_44_2) or arg_43_0.taskProxy:getFinishTaskById(var_44_2)
 
@@ -445,11 +445,11 @@ function var_0_0.initTaskWindow(arg_43_0)
 			local var_44_6 = var_44_3:getProgress()
 			local var_44_7 = var_44_3:getConfig("target_num")
 
-			setText(arg_43_0:findTF("description", arg_44_2), var_44_3:getConfig("desc"))
-			setText(arg_43_0:findTF("progressText", arg_44_2), var_44_6 .. "/" .. var_44_7)
-			setSlider(arg_43_0:findTF("progress", arg_44_2), 0, var_44_7, var_44_6)
+			setText(arg_44_2:Find("description"), var_44_3:getConfig("desc"))
+			setText(arg_44_2:Find("progressText"), var_44_6 .. "/" .. var_44_7)
+			setSlider(arg_44_2:Find("progress"), 0, var_44_7, var_44_6)
 
-			local var_44_8 = arg_43_0:findTF("go_btn", arg_44_2)
+			local var_44_8 = arg_44_2:Find("go_btn")
 			local var_44_9 = var_44_3:getTaskStatus()
 
 			if var_44_9 == 1 then
@@ -457,15 +457,15 @@ function var_0_0.initTaskWindow(arg_43_0)
 				table.insert(arg_43_0.finishTaskVOList, var_44_3)
 			end
 
-			setActive(arg_43_0:findTF("finnal", arg_44_2), var_44_9 == 2)
+			setActive(arg_44_2:Find("finnal"), var_44_9 == 2)
 			onButton(arg_43_0, var_44_8, function()
 				arg_43_0:emit(ActivityMediator.ON_TASK_GO, var_44_3)
 			end, SFX_PANEL)
 
 			local var_44_10 = var_44_3:getConfig("type")
 
-			setImageSprite(arg_43_0:findTF("type", arg_44_2), arg_43_0.typeImages:Find(tostring(var_44_10)):GetComponent(typeof(Image)).sprite, true)
-			setImageSprite(arg_43_0:findTF("progress/slider", arg_44_2), arg_43_0.barImages:Find(tostring(var_44_10)):GetComponent(typeof(Image)).sprite)
+			setImageSprite(arg_44_2:Find("type"), arg_43_0.typeImages:Find(tostring(var_44_10)):GetComponent(typeof(Image)).sprite, true)
+			setImageSprite(arg_44_2:Find("progress/slider"), arg_43_0.barImages:Find(tostring(var_44_10)):GetComponent(typeof(Image)).sprite)
 		end
 	end)
 	arg_43_0.uilist:align(#arg_43_0.curTask)
@@ -492,7 +492,7 @@ function var_0_0.openTask(arg_48_0)
 	arg_48_0.hasClickTask = true
 
 	eachChild(arg_48_0.items, function(arg_49_0)
-		if isActive(arg_48_0:findTF("finnal", arg_49_0)) then
+		if isActive(arg_49_0:Find("finnal")) then
 			arg_49_0:SetAsLastSibling()
 		end
 	end)
@@ -512,7 +512,7 @@ function var_0_0.autoFinishTask(arg_50_0)
 			end)):setOnComplete(System.Action(function()
 				var_50_2.alpha = 1
 
-				setActive(arg_50_0:findTF("finnal", iter_50_1), true)
+				setActive(iter_50_1:Find("finnal"), true)
 				iter_50_1:SetAsLastSibling()
 			end))
 		end, var_50_0, nil)

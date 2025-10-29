@@ -1,13 +1,11 @@
 local var_0_0 = class("IslandMediator", import(".base.IslandBaseMediator"))
 
-var_0_0.ON_UPGRADE = "IslandMediator:ON_UPGRADE"
+var_0_0.CHANGE_SCENE = "IslandMediator:CHANGE_SCENE"
+var_0_0.SHOPPING = "IslandMediator:SHOPPING"
 var_0_0.SET_NAME = "IslandMediator:SET_NAME"
 var_0_0.ON_EDIT_MANIFESTO = "IslandMediator:ON_EDIT_MANIFESTO"
 var_0_0.GET_PROSPERITY_AWARD = "IslandMediator:GET_PROSPERITY_AWARD"
 var_0_0.ON_UPGRADE_INVENTORY = "IslandMediator:ON_UPGRADE_INVENTORY"
-var_0_0.ON_SELL_ITEM = "IslandMediator:ON_SELL_ITEM"
-var_0_0.ON_BATCH_SELL_ITEM = "IslandMediator:ON_BATCH_SELL_ITEM"
-var_0_0.ON_BATCH_SELL_ITEM_4_OVERFLOW = "IslandMediator:ON_BATCH_SELL_ITEM_4_OVERFLOW"
 var_0_0.ON_REPLACE_ORDER = "IslandMediator:ON_REPLACE_ORDER"
 var_0_0.ON_SUBMIT_ORDER = "IslandMediator:ON_SUBMIT_ORDER"
 var_0_0.ON_GET_ORDER_EXP_AWARD = "IslandMediator:ON_GET_ORDER_EXP_AWARD"
@@ -15,27 +13,39 @@ var_0_0.ON_GEN_NEW_ORDER = "IslandMediator:ON_GEN_NEW_ORDER"
 var_0_0.ON_USE_ITEM = "IslandMediator:ON_USE_ITEM"
 var_0_0.ON_ACCEPT_TASK = "IslandMediator.ON_ACCEPT_TASK"
 var_0_0.ON_SUBMIT_TASK = "IslandMediator.ON_SUBMIT_TASK"
+var_0_0.ON_SUBMIT_TASK_ONE_STEP = "IslandMediator.ON_SUBMIT_TASK_ONE_STEP"
 var_0_0.ON_CLIENT_UPDATE_TASK = "IslandMediator.ON_CLIENT_UPDATE_TASK"
 var_0_0.ON_SET_TRACE_ID = "IslandMediator.ON_SET_TRACE_ID"
+var_0_0.ON_RESET_SEASON = "IslandMediator.ON_RESET_SEASON"
+var_0_0.ON_GET_SEASON_RANK = "IslandMediator.ON_GET_SEASON_RANK"
+var_0_0.ON_CONVERT_SEASON_PT = "IslandMediator.ON_CONVERT_SEASON_PT"
+var_0_0.ON_CONVERT_SEASON_PT_4_OVERFLOW = "IslandMediator.ON_CONVERT_SEASON_PT_4_OVERFLOW"
+var_0_0.ON_GET_SEASON_PT_AWARD = "IslandMediator.ON_GET_SEASON_PT_AWARD"
+var_0_0.OPEN_RESTAURANT = "IslandMediator.OPEN_RESTAURANT"
+var_0_0.CLOSE_RESTAURANT = "IslandMediator.CLOSE_RESTAURANT"
+var_0_0.GET_ACHIEVEMENT_AWARD = "IslandMediator.GET_ACHIEVEMENT_AWARD"
+var_0_0.SET_SETTINGS_FLAG = "IslandMediator.SET_SETTINGS_FLAG"
+var_0_0.UPDATE_ILLUSTRATION = "IslandMediator.UPDATE_ILLUSTRATION"
+var_0_0.UNLOCK_ILLUSTRATION = "IslandMediator.UNLOCK_ILLUSTRATION"
+var_0_0.GET_COLLECT_POINT = "IslandMediator.GET_COLLECT_POINT"
+var_0_0.GET_POINT_AWARD = "IslandMediator.GET_POINT_AWARD"
+var_0_0.REMOVE_EXPIRED_TICKETS = "IslandMediator.REMOVE_EXPIRED_TICKETS"
+var_0_0.USE_TICKETS = "IslandMediator.USE_TICKETS"
 var_0_0.OPEN_SHIP_INDEX = "IslandMediator:OPEN_SHIP_INDEX"
 var_0_0.UPGRADE_SKILL = "IslandMediator:UPGRADE_SKILL"
-var_0_0.GET_EXTRA_AWARD = "IslandMediator:GET_EXTRA_AWARD"
 var_0_0.ON_GIVE_GIFT = "IslandMediator:ON_GIVE_GIFT"
-var_0_0.ON_UNLOCK_BUILDING = "IslandMediator:ON_UNLOCK_BUILDING"
-var_0_0.ON_UPGRADE_BUILDING = "IslandMediator:ON_UPGRADE_BUILDING"
-var_0_0.ON_GET_COMMISSION_AWARD = "IslandMediator:ON_GET_COMMISSION_AWARD"
-var_0_0.ON_CHANGE_COMMISSION_FORMULA = "IslandMediator:ON_CHANGE_COMMISSION_FORMULA"
-var_0_0.ON_CHANGE_COMMISSION_SHIP = "IslandMediator:ON_CHANGE_COMMISSION_SHIP"
 var_0_0.ON_KICK_PLAYER = "IslandMediator:ON_KICK_PLAYER"
-var_0_0.SWITCH_MAP = "IslandMediator:SWITCH_MAP"
 var_0_0.SAVE_AGORA = "IslandMediator:SAVE_AGORA"
+var_0_0.SAVE_AGORA_THEME = "IslandMediator:SAVE_AGORA_THEME"
+var_0_0.DEL_AGORA_THEME = "IslandMediator:DEL_AGORA_THEME"
 var_0_0.UPGRADE_AGORA = "IslandMediator:UPGRADE_AGORA"
-var_0_0.OPEN_FRIEND = "IslandMediator:OPEN_FRIEND"
+var_0_0.INVITE_SHIP = "IslandMediator:INVITE_SHIP"
 var_0_0.ONE_KEY = "IslandMediator:ONE_KEY"
 var_0_0.ON_UNLOCK_TECH = "IslandMediator:ON_UNLOCK_TECH"
 var_0_0.ON_FINISH_TECH_IMMD = "IslandMediator:ON_FINISH_TECH_IMMD"
 var_0_0.SET_ORDER_TENDENCY = "IslandMediator:SET_ORDER_TENDENCY"
 var_0_0.SUBMIT_SHIP_ORDER_ITME = "IslandMediator:SUBMIT_SHIP_ORDER_ITME"
+var_0_0.SUBMIT_SHIP_ORDER_ITME_ONEKEY = "IslandMediator:SUBMIT_SHIP_ORDER_ITME_ONEKEY"
 var_0_0.GET_SHIP_ORDER_AWARD = "IslandMediator:GET_SHIP_ORDER_AWARD"
 var_0_0.UNLOKC_SHIP_ORDER = "IslandMediator:UNLOKC_SHIP_ORDER"
 var_0_0.OPEN_PAGE = "IslandMediator:OPEN_PAGE"
@@ -43,295 +53,568 @@ var_0_0.OPEN_SHOP = "IslandMediator:OPEN_SHOP"
 var_0_0.GET_SHOP_DATA = "IslandMediator:GET_SHOP_DATA"
 var_0_0.BUY_COMMODITY = "IslandMediator:BUY_COMMODITY"
 var_0_0.REFRESH_SHOP_BY_PLAYER = "IslandMediator:REFRESH_SHOP_BY_PLAYER"
+var_0_0.USE_SHIP_EXP_BOOK = "IslandMediator:USE_SHIP_EXP_BOOK"
+var_0_0.SHIP_BREAKOUT = "IslandMediator:SHIP_BREAKOUT"
+var_0_0.SHIP_ATTR_UPGRADE = "IslandMediator:SHIP_ATTR_UPGRADE"
+var_0_0.SHIP_ATTR_LIMIT_UNLOCK = "IslandMediator:SHIP_ATTR_LIMIT_UNLOCK"
+var_0_0.SHIP_SKILL_UPGRADE = "IslandMediator:SHIP_SKILL_UPGRADE"
 var_0_0.START_DELEGATION = "IslandMediator:START_DELEGATION"
+var_0_0.ADD_DELEGATION = "IslandMediator:ADD_DELEGATION"
 var_0_0.STOP_DELEGATION = "IslandMediator:STOP_DELEGATION"
 var_0_0.GET_DELEGATION_AWARD = "IslandMediator:GET_DELEGATION_AWARD"
-var_0_0.USE_SPEEDUPCARD = "IslandMediator:USE_SPEEDUPCARD"
+var_0_0.SIGNIN = "IslandMediator.SIGNIN"
+var_0_0.SELECT_GIFT = "IslandMediator.SELECT_GIFT"
+var_0_0.SIGN_IN_INVITATION = "IslandMediator.SIGN_IN_INVITATION"
+var_0_0.SHARE_SIGNIN = "IslandMediator:SHARE_SIGNIN"
+var_0_0.ENTER_ISLAND = "IslandMediator:ENTER_ISLAND"
+var_0_0.ENTER_ISLAND_BY_CODE = "IslandMediator:ENTER_ISLAND_BY_CODE"
+var_0_0.ADD_FRIEND = "IslandMediator:ADD_FRIEND"
+var_0_0.REMOVE_FRIEND = "IslandMediator:REMOVE_FRIEND"
+var_0_0.SEARCH_FRIEND = "IslandMediator:SEARCH_FRIEND"
+var_0_0.BATCH_GET_FRIEND = "IslandMediator:BATCH_GET_FRIEND"
+var_0_0.ADD_WHITE_LIST = "IslandMediator:ADD_WHITE_LIST"
+var_0_0.ADD_BLACK_LIST = "IslandMediator:ADD_BLACK_LIST"
+var_0_0.REMOVE_BLACK_LIST = "IslandMediator:REMOVE_BLACK_LIST"
+var_0_0.REMOVE_WHITE_LIST = "IslandMediator:REMOVE_WHITE_LIST"
+var_0_0.SET_ACCESS_FLAG = "IslandMediator:SET_ACCESS_FLAG"
+var_0_0.REFRESH_INVITECODE = "IslandMediator:REFRESH_INVITECODE"
+var_0_0.KICK_ALL_VISITOR = "IslandMediator:KICK_ALL_VISITOR"
+var_0_0.GET_RESUME = "IslandMediator:GET_RESUME"
+var_0_0.GET_GIFT_TAG = "IslandMediator:GET_GIFT_TAG"
+var_0_0.GET_THEMES = "IslandMediator:GET_THEMES"
+var_0_0.PREVIEW_FURNITURE = "IslandMediator:PREVIEW_FURNITURE"
+var_0_0.REFUSE_REQUEST = "IslandMediator:REFUSE_REQUEST"
+var_0_0.ACCEPT_REQUEST = "IslandMediator:ACCEPT_REQUEST"
+var_0_0.NPC_ACTION_AWARD = "IslandMediator:NPC_ACTION_AWARD"
+var_0_0.ADD_FOLLOWER = "IslandMediator:ADD_FOLLOWER"
+var_0_0.DEL_FOLLOWER = "IslandMediator:DEL_FOLLOWER"
+var_0_0.DRAW_AWARD_OPERATION = "IslandMediator.DRAW_AWARD_OPERATION"
+var_0_0.REFRESH_SHIP_ORDER = "IslandMediator:REFRESH_SHIP_ORDER"
 
 function var_0_0._register(arg_1_0)
-	arg_1_0:bind(var_0_0.OPEN_PAGE, function(arg_2_0, arg_2_1)
-		arg_1_0.viewComponent:OpenPage(_G[arg_2_1[1]], arg_2_1[2])
-	end)
-	arg_1_0:bind(var_0_0.UNLOKC_SHIP_ORDER, function(arg_3_0, arg_3_1)
-		arg_1_0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP, {
-			op = IslandShipOrder.OP_TYPE_UNLOCK,
-			slotId = arg_3_1
+	arg_1_0:bind(var_0_0.REFRESH_SHIP_ORDER, function(arg_2_0, arg_2_1)
+		arg_1_0:sendNotification(GAME.ISLAND_REFRESH_SHIP_ORDER, {
+			id = arg_2_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.GET_SHIP_ORDER_AWARD, function(arg_4_0, arg_4_1)
-		arg_1_0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP, {
-			op = IslandShipOrder.OP_TYPE_GET_AWARD,
-			slotId = arg_4_1
+	arg_1_0:bind(var_0_0.CHANGE_SCENE, function(arg_3_0, arg_3_1, ...)
+		arg_1_0:sendNotification(GAME.CHANGE_SCENE, arg_3_1, ...)
+	end)
+	arg_1_0:bind(var_0_0.ADD_FOLLOWER, function(arg_4_0, arg_4_1)
+		arg_1_0:sendNotification(GAME.ISLAND_FOLLOWER_OP, {
+			shipId = arg_4_1,
+			op = IslandConst.FOLLOWER_OP_ADD
 		})
 	end)
-	arg_1_0:bind(var_0_0.SUBMIT_SHIP_ORDER_ITME, function(arg_5_0, arg_5_1, arg_5_2)
-		arg_1_0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP, {
-			op = IslandShipOrder.OP_TYPE_LOADUP,
-			slotId = arg_5_1,
-			index = arg_5_2
+	arg_1_0:bind(var_0_0.DEL_FOLLOWER, function(arg_5_0, arg_5_1)
+		arg_1_0:sendNotification(GAME.ISLAND_FOLLOWER_OP, {
+			shipId = arg_5_1,
+			op = IslandConst.FOLLOWER_OP_DEL
 		})
 	end)
-	arg_1_0:bind(var_0_0.SET_ORDER_TENDENCY, function(arg_6_0, arg_6_1)
-		arg_1_0:sendNotification(GAME.ISLAND_SET_ORDER_TENDENCY, {
-			value = arg_6_1
+	arg_1_0:bind(var_0_0.NPC_ACTION_AWARD, function(arg_6_0, arg_6_1, arg_6_2)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_NPC_ACTION_AWARD, {
+			npcId = arg_6_1,
+			actionId = arg_6_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.ONE_KEY, function(arg_7_0)
-		arg_1_0:sendNotification(GAME.ISLAND_GET_OVERFLOW_ITEM)
+	arg_1_0:bind(var_0_0.ACCEPT_REQUEST, function(arg_7_0, arg_7_1)
+		arg_1_0:sendNotification(GAME.FRIEND_ACCEPT_REQUEST, arg_7_1)
 	end)
-	arg_1_0:bind(var_0_0.ON_BATCH_SELL_ITEM_4_OVERFLOW, function(arg_8_0, arg_8_1)
-		arg_1_0:sendNotification(GAME.ISLAND_BATCH_SELL_ITEM, {
-			overflow = true,
-			list = arg_8_1
-		})
+	arg_1_0:bind(var_0_0.REFUSE_REQUEST, function(arg_8_0, arg_8_1)
+		arg_1_0:sendNotification(GAME.FRIEND_REJECT_REQUEST, arg_8_1)
 	end)
-	arg_1_0:bind(var_0_0.UPGRADE_AGORA, function(arg_9_0)
-		arg_1_0:sendNotification(GAME.ISLAND_UPGRADE_AGORA)
-	end)
-	arg_1_0:bind(var_0_0.SAVE_AGORA, function(arg_10_0, arg_10_1)
-		arg_1_0:sendNotification(GAME.ISLAND_SAVE_AGORA, {
-			list = arg_10_1
-		})
-	end)
-	arg_1_0:bind(var_0_0.OPEN_FRIEND, function(arg_11_0)
-		arg_1_0:addSubLayers(Context.New({
-			mediator = IslandFriendMediator,
-			viewComponent = IslandFriendScene
-		}))
-	end)
-	arg_1_0:bind(var_0_0.SWITCH_MAP, function(arg_12_0, arg_12_1, arg_12_2)
-		local var_12_0 = arg_1_0.viewComponent:GetIsland().id
+	arg_1_0:bind(var_0_0.PREVIEW_FURNITURE, function(arg_9_0, arg_9_1)
+		local var_9_0 = arg_1_0.viewComponent:GetIsland()
+		local var_9_1 = var_9_0:GetMapId()
+		local var_9_2, var_9_3 = _IslandCore:GetView().player:LastGroundedPosition()
 
-		arg_1_0:sendNotification(GAME.ISLAND_ENTER_MAP, {
-			islandId = var_12_0,
-			mapId = arg_12_1,
+		var_9_0:SetMapId(IslandConst.AGORA_MAP_ID)
+		arg_1_0:UnloadScene()
+
+		_IslandCore = IslandPreviewCore.New(arg_1_0.viewComponent:GetPoolMgr(), var_9_0, true, arg_9_1, {
+			mapId = var_9_1,
+			position = var_9_2,
+			rotation = var_9_3
+		})
+	end)
+	arg_1_0:bind(var_0_0.GET_THEMES, function(arg_10_0, arg_10_1)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_AGORA_THEME, {
+			callback = arg_10_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.GET_GIFT_TAG, function(arg_11_0, arg_11_1, arg_11_2)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_GIFT_TAG, {
+			list = arg_11_1,
+			callback = arg_11_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.GET_RESUME, function(arg_12_0, arg_12_1, arg_12_2)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_FRIEND_RESUME, {
+			id = arg_12_1,
+			callback = arg_12_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.KICK_ALL_VISITOR, function(arg_13_0, arg_13_1)
+		arg_1_0:sendNotification(GAME.ISLAND_ACCESS_OP, {
+			op = IslandConst.ACCESS_OP_KICK,
+			list = arg_13_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.ADD_BLACK_LIST, function(arg_14_0, arg_14_1)
+		arg_1_0:sendNotification(GAME.ISLAND_ACCESS_OP, {
+			op = IslandConst.ACCESS_OP_ADD_BLACKLIST,
+			list = {
+				arg_14_1
+			}
+		})
+	end)
+	arg_1_0:bind(var_0_0.REMOVE_BLACK_LIST, function(arg_15_0, arg_15_1)
+		arg_1_0:sendNotification(GAME.ISLAND_ACCESS_OP, {
+			op = IslandConst.ACCESS_OP_DEL_BLACKLIST,
+			list = {
+				arg_15_1
+			}
+		})
+	end)
+	arg_1_0:bind(var_0_0.ADD_WHITE_LIST, function(arg_16_0, arg_16_1)
+		arg_1_0:sendNotification(GAME.ISLAND_ACCESS_OP, {
+			op = IslandConst.ACCESS_OP_ADD_WHITELIST,
+			list = {
+				arg_16_1
+			}
+		})
+	end)
+	arg_1_0:bind(var_0_0.REMOVE_WHITE_LIST, function(arg_17_0, arg_17_1)
+		arg_1_0:sendNotification(GAME.ISLAND_ACCESS_OP, {
+			op = IslandConst.ACCESS_OP_DEL_WHITELIST,
+			list = {
+				arg_17_1
+			}
+		})
+	end)
+	arg_1_0:bind(var_0_0.REFRESH_INVITECODE, function(arg_18_0, arg_18_1)
+		arg_1_0:sendNotification(GAME.ISLAND_REFRESH_INVITECODE, {
+			auto = arg_18_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.SET_ACCESS_FLAG, function(arg_19_0, arg_19_1, arg_19_2)
+		arg_1_0:sendNotification(GAME.ISLAND_SET_ACCESS_TYPE, {
+			openList = arg_19_1,
+			closeList = arg_19_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.BATCH_GET_FRIEND, function(arg_20_0, arg_20_1, arg_20_2)
+		arg_1_0:sendNotification(GAME.BATCH_GET_FRIEND, {
+			list = arg_20_1,
+			callback = arg_20_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.SEARCH_FRIEND, function(arg_21_0, arg_21_1, arg_21_2)
+		arg_1_0:sendNotification(GAME.FRIEND_SEARCH, {
+			type = arg_21_1,
+			keyword = arg_21_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.ADD_FRIEND, function(arg_22_0, arg_22_1, arg_22_2)
+		arg_1_0:sendNotification(GAME.FRIEND_SEND_REQUEST, {
+			id = arg_22_1,
+			msg = arg_22_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.REMOVE_FRIEND, function(arg_23_0, arg_23_1)
+		arg_1_0:sendNotification(GAME.FRIEND_DELETE, arg_23_1)
+	end)
+	arg_1_0:bind(var_0_0.ENTER_ISLAND, function(arg_24_0, arg_24_1)
+		arg_1_0:sendNotification(GAME.ISLAND_ENTER, {
+			id = arg_24_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.ENTER_ISLAND_BY_CODE, function(arg_25_0, arg_25_1)
+		arg_1_0:sendNotification(GAME.ISLAND_ENTER, {
+			code = arg_25_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.SHARE_SIGNIN, function(arg_26_0)
+		arg_1_0:sendNotification(GAME.ISLAND_SIGN_SHARE_SIGNIN)
+	end)
+	arg_1_0:bind(var_0_0.SIGN_IN_INVITATION, function(arg_27_0, arg_27_1)
+		arg_1_0:sendNotification(GAME.ISLAND_SIGN_IN_INVITATION, {
+			list = arg_27_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.SELECT_GIFT, function(arg_28_0, arg_28_1, arg_28_2)
+		arg_1_0:sendNotification(GAME.ISLAND_SELECT_GIFT, {
+			islandId = arg_28_1,
+			pos = arg_28_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.SIGNIN, function(arg_29_0)
+		arg_1_0.viewComponent:PlayStory({
+			name = "ISLANDSTORY100",
 			callback = function()
-				arg_1_0:SwitchScene(arg_12_1, arg_12_2)
+				arg_1_0:sendNotification(GAME.ISLAND_SIGN_IN)
 			end
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_KICK_PLAYER, function(arg_14_0, arg_14_1, arg_14_2)
+	arg_1_0:bind(var_0_0.INVITE_SHIP, function(arg_31_0, arg_31_1)
+		arg_1_0:sendNotification(GAME.ISLAND_INVITE_SHIP, {
+			id = arg_31_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.SHIP_SKILL_UPGRADE, function(arg_32_0, arg_32_1)
+		arg_1_0:sendNotification(GAME.ISLAND_SHIP_SKILL_UPGRADE, {
+			id = arg_32_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.SHIP_ATTR_LIMIT_UNLOCK, function(arg_33_0, arg_33_1)
+		arg_1_0:sendNotification(GAME.ISLNAD_SHIP_ATTR_LIMIT_UNLOCK, {
+			id = arg_33_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.SHIP_ATTR_UPGRADE, function(arg_34_0, arg_34_1, arg_34_2, arg_34_3)
+		arg_1_0:sendNotification(GAME.ISLNAD_SHIP_ATTR_UPGRADE, {
+			id = arg_34_1,
+			attrKy = arg_34_2,
+			list = arg_34_3
+		})
+	end)
+	arg_1_0:bind(var_0_0.SHIP_BREAKOUT, function(arg_35_0, arg_35_1)
+		arg_1_0:sendNotification(GAME.ISLAND_SHIP_BREAKOUT, {
+			id = arg_35_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.USE_SHIP_EXP_BOOK, function(arg_36_0, arg_36_1, arg_36_2)
+		arg_1_0:sendNotification(GAME.ISLAND_USE_SHIP_EXP_BOOK, {
+			id = arg_36_1,
+			list = arg_36_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.OPEN_PAGE, function(arg_37_0, arg_37_1, arg_37_2)
+		arg_1_0.viewComponent:OpenPage(_G[arg_37_1], unpack(arg_37_2 or {}))
+	end)
+	arg_1_0:bind(var_0_0.UNLOKC_SHIP_ORDER, function(arg_38_0, arg_38_1)
+		arg_1_0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP, {
+			op = IslandShipOrder.OP_TYPE_UNLOCK,
+			slotId = arg_38_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.GET_SHIP_ORDER_AWARD, function(arg_39_0, arg_39_1)
+		arg_1_0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP, {
+			op = IslandShipOrder.OP_TYPE_GET_AWARD,
+			slotId = arg_39_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.SUBMIT_SHIP_ORDER_ITME, function(arg_40_0, arg_40_1, arg_40_2)
+		arg_1_0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP, {
+			op = IslandShipOrder.OP_TYPE_LOADUP,
+			slotId = arg_40_1,
+			index = arg_40_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.SUBMIT_SHIP_ORDER_ITME_ONEKEY, function(arg_41_0, arg_41_1)
+		arg_1_0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP, {
+			op = IslandShipOrder.OP_TYPE_LOADUP_ALL,
+			slotId = arg_41_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.SET_ORDER_TENDENCY, function(arg_42_0, arg_42_1)
+		arg_1_0:sendNotification(GAME.ISLAND_SET_ORDER_TENDENCY, {
+			value = arg_42_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.ONE_KEY, function(arg_43_0)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_OVERFLOW_ITEM)
+	end)
+	arg_1_0:bind(var_0_0.UPGRADE_AGORA, function(arg_44_0)
+		arg_1_0:sendNotification(GAME.ISLAND_UPGRADE_AGORA)
+	end)
+	arg_1_0:bind(var_0_0.SAVE_AGORA, function(arg_45_0, arg_45_1, arg_45_2, arg_45_3)
+		arg_1_0:sendNotification(GAME.ISLAND_SAVE_AGORA, {
+			list = arg_45_1,
+			floorList = arg_45_2,
+			tileList = arg_45_3
+		})
+	end)
+	arg_1_0:bind(var_0_0.SAVE_AGORA_THEME, function(arg_46_0, arg_46_1)
+		arg_1_0:sendNotification(GAME.ISLAND_SAVE_AGORA_THEME, {
+			themeData = arg_46_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.DEL_AGORA_THEME, function(arg_47_0, arg_47_1)
+		arg_1_0:sendNotification(GAME.ISLAND_DEL_AGORA_THEME, {
+			id = arg_47_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.ON_KICK_PLAYER, function(arg_48_0, arg_48_1, arg_48_2)
 		arg_1_0:sendNotification(GAME.ISLAND_ACCESS_OP, {
-			op = arg_14_1,
+			op = arg_48_1,
 			list = {
-				arg_14_2
+				arg_48_2
 			}
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_GIVE_GIFT, function(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
-		arg_1_0:sendNotification(GAME.ISLAND_USE_ITEM, {
-			id = arg_15_1,
-			count = arg_15_2,
-			arg = {
-				arg_15_3
-			}
+	arg_1_0:bind(var_0_0.ON_GIVE_GIFT, function(arg_49_0, arg_49_1, arg_49_2, arg_49_3)
+		arg_1_0:sendNotification(GAME.ISLAND_GIVE_GIFT, {
+			id = arg_49_3,
+			itemId = arg_49_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.GET_EXTRA_AWARD, function(arg_16_0, arg_16_1, arg_16_2)
-		arg_1_0:sendNotification(GAME.ISLAND_GET_EXTRA_AWARD, {
-			id = arg_16_1,
-			op = arg_16_2
-		})
-	end)
-	arg_1_0:bind(var_0_0.UPGRADE_SKILL, function(arg_17_0, arg_17_1)
+	arg_1_0:bind(var_0_0.UPGRADE_SKILL, function(arg_50_0, arg_50_1)
 		arg_1_0:sendNotification(GAME.ISLAND_UPGRADE_SKILL, {
-			id = arg_17_1
+			id = arg_50_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.OPEN_SHIP_INDEX, function(arg_18_0, arg_18_1)
+	arg_1_0:bind(var_0_0.OPEN_SHIP_INDEX, function(arg_51_0, arg_51_1)
 		arg_1_0:addSubLayers(Context.New({
 			viewComponent = IslandShipIndexLayer,
 			mediator = CustomIndexMediator,
-			data = arg_18_1
+			data = arg_51_1
 		}))
 	end)
-	arg_1_0:bind(var_0_0.ON_USE_ITEM, function(arg_19_0, arg_19_1, arg_19_2)
+	arg_1_0:bind(var_0_0.ON_USE_ITEM, function(arg_52_0, arg_52_1, arg_52_2)
 		arg_1_0:sendNotification(GAME.ISLAND_USE_ITEM, {
-			id = arg_19_1,
-			count = arg_19_2
+			id = arg_52_1,
+			count = arg_52_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_GEN_NEW_ORDER, function(arg_20_0, arg_20_1)
+	arg_1_0:bind(var_0_0.ON_GEN_NEW_ORDER, function(arg_53_0, arg_53_1)
 		arg_1_0:sendNotification(GAME.ISLAND_GEN_NEW_ORDER, {
-			slotId = arg_20_1
+			slotId = arg_53_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_GET_ORDER_EXP_AWARD, function(arg_21_0, arg_21_1, arg_21_2)
+	arg_1_0:bind(var_0_0.ON_GET_ORDER_EXP_AWARD, function(arg_54_0, arg_54_1, arg_54_2)
 		arg_1_0:sendNotification(GAME.ISLAND_GET_ORDER_EXP_AWARD, {
-			level = arg_21_1,
-			callback = arg_21_2
+			level = arg_54_1,
+			callback = arg_54_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_REPLACE_ORDER, function(arg_22_0, arg_22_1)
+	arg_1_0:bind(var_0_0.ON_REPLACE_ORDER, function(arg_55_0, arg_55_1)
 		arg_1_0:sendNotification(GAME.ISLAND_REPLACE_ORDER, {
-			slotId = arg_22_1
+			slotId = arg_55_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_SUBMIT_ORDER, function(arg_23_0, arg_23_1)
+	arg_1_0:bind(var_0_0.ON_SUBMIT_ORDER, function(arg_56_0, arg_56_1)
 		arg_1_0:sendNotification(GAME.ISLAND_SUBMIT_ORDER, {
-			slotId = arg_23_1
+			slotId = arg_56_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_SELL_ITEM, function(arg_24_0, arg_24_1, arg_24_2)
-		arg_1_0:sendNotification(GAME.ISLAND_SELL_ITEM, {
-			id = arg_24_1,
-			count = arg_24_2
-		})
-	end)
-	arg_1_0:bind(var_0_0.ON_BATCH_SELL_ITEM, function(arg_25_0, arg_25_1)
-		arg_1_0:sendNotification(GAME.ISLAND_BATCH_SELL_ITEM, {
-			list = arg_25_1
-		})
-	end)
-	arg_1_0:bind(var_0_0.ON_UPGRADE_INVENTORY, function(arg_26_0)
+	arg_1_0:bind(var_0_0.ON_UPGRADE_INVENTORY, function(arg_57_0)
 		arg_1_0:sendNotification(GAME.ISLAND_UPGRADE_INVENTORY)
 	end)
-	arg_1_0:bind(var_0_0.GET_PROSPERITY_AWARD, function(arg_27_0, arg_27_1)
+	arg_1_0:bind(var_0_0.GET_PROSPERITY_AWARD, function(arg_58_0, arg_58_1)
 		arg_1_0:sendNotification(GAME.ISLAND_PROSPERITY_AWARD, {
-			level = arg_27_1
+			level = arg_58_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_EDIT_MANIFESTO, function(arg_28_0, arg_28_1)
+	arg_1_0:bind(var_0_0.ON_EDIT_MANIFESTO, function(arg_59_0, arg_59_1)
 		arg_1_0:sendNotification(GAME.ISLAND_SET_MANIFESTO, {
-			manifesto = arg_28_1
+			manifesto = arg_59_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_UPGRADE, function(arg_29_0)
-		arg_1_0:sendNotification(GAME.ISLAND_UPGRADE)
-	end)
-	arg_1_0:bind(var_0_0.SET_NAME, function(arg_30_0, arg_30_1, arg_30_2)
+	arg_1_0:bind(var_0_0.SET_NAME, function(arg_60_0, arg_60_1, arg_60_2)
 		arg_1_0:sendNotification(GAME.ISLAND_SET_NAME, {
-			name = arg_30_1,
-			currency = arg_30_2
+			name = arg_60_1,
+			currency = arg_60_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_ACCEPT_TASK, function(arg_31_0, arg_31_1)
+	arg_1_0:bind(var_0_0.ON_ACCEPT_TASK, function(arg_61_0, arg_61_1, arg_61_2)
 		arg_1_0:sendNotification(GAME.ISLAND_ACCEPT_TASK, {
-			taskIds = arg_31_1
+			taskIds = arg_61_1,
+			callback = arg_61_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_SUBMIT_TASK, function(arg_32_0, arg_32_1)
+	arg_1_0:bind(var_0_0.ON_SUBMIT_TASK, function(arg_62_0, arg_62_1, arg_62_2)
 		arg_1_0:sendNotification(GAME.ISLAND_SUBMIT_TASK, {
-			taskId = arg_32_1
+			taskId = arg_62_1,
+			callback = arg_62_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_CLIENT_UPDATE_TASK, function(arg_33_0, arg_33_1)
+	arg_1_0:bind(var_0_0.ON_SUBMIT_TASK_ONE_STEP, function(arg_63_0, arg_63_1, arg_63_2)
+		arg_1_0:sendNotification(GAME.ISLAND_SUBMIT_TASK_ONE_STEP, {
+			taskIds = arg_63_1,
+			callback = arg_63_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.ON_CLIENT_UPDATE_TASK, function(arg_64_0, arg_64_1)
 		arg_1_0:sendNotification(GAME.ISLAND_UPDATE_TASK, {
-			taskId = arg_33_1.taskId,
-			targetId = arg_33_1.targetId,
-			progress = arg_33_1.progress
+			taskId = arg_64_1.taskId,
+			targetId = arg_64_1.targetId,
+			progress = arg_64_1.progress
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_SET_TRACE_ID, function(arg_34_0, arg_34_1)
+	arg_1_0:bind(var_0_0.ON_SET_TRACE_ID, function(arg_65_0, arg_65_1)
 		arg_1_0:sendNotification(GAME.ISLAND_SET_TRACE_TASK, {
-			traceId = arg_34_1
+			traceId = arg_65_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_UNLOCK_BUILDING, function(arg_35_0, arg_35_1)
-		arg_1_0:sendNotification(GAME.ISLAND_UNLOCK_BUILDING, {
-			buildingId = arg_35_1
+	arg_1_0:bind(var_0_0.ON_RESET_SEASON, function(arg_66_0, arg_66_1)
+		arg_1_0:sendNotification(GAME.ISLAND_RESET_SEASON, {
+			callback = arg_66_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_UPGRADE_BUILDING, function(arg_36_0, arg_36_1)
-		arg_1_0:sendNotification(GAME.ISLAND_UPGRADE_BUILDING, {
-			buildingId = arg_36_1
+	arg_1_0:bind(var_0_0.ON_GET_SEASON_RANK, function(arg_67_0, arg_67_1, arg_67_2)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_SEASON_RANK, {
+			type = arg_67_1,
+			seasonId = arg_67_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_GET_COMMISSION_AWARD, function(arg_37_0, arg_37_1, arg_37_2)
-		arg_1_0:sendNotification(GAME.ISLAND_GET_COMMISSION_AWARD, {
-			buildingId = arg_37_1,
-			commissionId = arg_37_2
+	arg_1_0:bind(var_0_0.ON_CONVERT_SEASON_PT, function(arg_68_0, arg_68_1)
+		arg_1_0:sendNotification(GAME.ISLAND_CONVERT_SEASON_PT, {
+			type = 1,
+			list = arg_68_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_CHANGE_COMMISSION_FORMULA, function(arg_38_0, arg_38_1)
-		arg_1_0:sendNotification(GAME.ISLAND_CHANGE_COMMISSION_FORMULA, {
-			buildingId = arg_38_1.buildingId,
-			commissionId = arg_38_1.commissionId,
-			formulaId = arg_38_1.formulaId,
-			callback = arg_38_1.callback
+	arg_1_0:bind(var_0_0.ON_CONVERT_SEASON_PT_4_OVERFLOW, function(arg_69_0, arg_69_1)
+		arg_1_0:sendNotification(GAME.ISLAND_CONVERT_SEASON_PT, {
+			type = 2,
+			list = arg_69_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_CHANGE_COMMISSION_SHIP, function(arg_39_0, arg_39_1)
-		arg_1_0:sendNotification(GAME.ISLAND_CHANGE_COMMISSION_SHIP, {
-			buildingId = arg_39_1.buildingId,
-			commissionId = arg_39_1.commissionId,
-			shipId = arg_39_1.shipId,
-			callback = arg_39_1.callback
+	arg_1_0:bind(var_0_0.ON_GET_SEASON_PT_AWARD, function(arg_70_0, arg_70_1)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_SEASON_PT_AWARD, {
+			pt = arg_70_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_UNLOCK_TECH, function(arg_40_0, arg_40_1)
+	arg_1_0:bind(var_0_0.OPEN_RESTAURANT, function(arg_71_0, arg_71_1)
+		arg_1_0:sendNotification(GAME.ISLAND_OPEN_RESTAURANT, {
+			restId = arg_71_1.restId,
+			ships = arg_71_1.ships,
+			commodities = arg_71_1.commodities
+		})
+	end)
+	arg_1_0:bind(var_0_0.CLOSE_RESTAURANT, function(arg_72_0, arg_72_1, arg_72_2)
+		arg_1_0:sendNotification(GAME.ISLAND_CLOSE_RESTAURANT, {
+			restId = arg_72_1,
+			isPost = arg_72_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.GET_ACHIEVEMENT_AWARD, function(arg_73_0, arg_73_1)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_ACHV_AWARD, {
+			ids = arg_73_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.SET_SETTINGS_FLAG, function(arg_74_0, arg_74_1)
+		arg_1_0:sendNotification(GAME.ISLAND_SETTING_FLAG, {
+			flags = arg_74_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.UPDATE_ILLUSTRATION, function(arg_75_0, arg_75_1, arg_75_2)
+		arg_1_0:sendNotification(GAME.ISLAND_UPDATE_ILLUSTRATION, {
+			type = arg_75_1,
+			linkId = arg_75_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.UNLOCK_ILLUSTRATION, function(arg_76_0, arg_76_1)
+		arg_1_0:sendNotification(GAME.ISLAND_UNLOCK_ILLUSTRATION, {
+			id = arg_76_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.GET_COLLECT_POINT, function(arg_77_0, arg_77_1)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_COLLECT_POINT, {
+			ids = arg_77_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.GET_POINT_AWARD, function(arg_78_0, arg_78_1)
+		arg_1_0:sendNotification(GAME.ISLAND_GET_POINT_AWARD, {
+			id = arg_78_1
+		})
+	end)
+	arg_1_0:bind(var_0_0.REMOVE_EXPIRED_TICKETS, function(arg_79_0, arg_79_1, arg_79_2)
+		arg_1_0:sendNotification(GAME.ISLAND_REMOVE_EXPIRED_TICKET, {
+			tickets = arg_79_1,
+			callback = arg_79_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.USE_TICKETS, function(arg_80_0, arg_80_1, arg_80_2, arg_80_3)
+		arg_1_0:sendNotification(GAME.ISLAND_USE_TICKET, {
+			type = arg_80_1,
+			id = arg_80_2,
+			tickets = arg_80_3
+		})
+	end)
+	arg_1_0:bind(var_0_0.ON_UNLOCK_TECH, function(arg_81_0, arg_81_1)
 		arg_1_0:sendNotification(GAME.ISLAND_UNLOCK_TECH, {
-			techId = arg_40_1
+			techId = arg_81_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_FINISH_TECH_IMMD, function(arg_41_0, arg_41_1, arg_41_2)
+	arg_1_0:bind(var_0_0.ON_FINISH_TECH_IMMD, function(arg_82_0, arg_82_1, arg_82_2)
 		arg_1_0:sendNotification(GAME.ISLAND_FINISH_TECH_IMMD, {
-			techId = arg_41_1,
-			callback = arg_41_2
+			techId = arg_82_1,
+			callback = arg_82_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.START_DELEGATION, function(arg_42_0, arg_42_1, arg_42_2, arg_42_3, arg_42_4, arg_42_5)
+	arg_1_0:bind(var_0_0.START_DELEGATION, function(arg_83_0, arg_83_1, arg_83_2, arg_83_3, arg_83_4, arg_83_5, arg_83_6)
 		arg_1_0:sendNotification(GAME.ISLAND_START_DELEGATION, {
-			build_id = arg_42_1,
-			area_id = arg_42_2,
-			ship_id = arg_42_3,
-			formula_id = arg_42_4,
-			num = arg_42_5
+			build_id = arg_83_1,
+			area_id = arg_83_2,
+			ship_id = arg_83_3,
+			formula_id = arg_83_4,
+			num = arg_83_5,
+			extraCost = arg_83_6
 		})
 	end)
-	arg_1_0:bind(var_0_0.STOP_DELEGATION, function(arg_43_0, arg_43_1, arg_43_2)
+	arg_1_0:bind(var_0_0.ADD_DELEGATION, function(arg_84_0, arg_84_1, arg_84_2, arg_84_3, arg_84_4)
+		arg_1_0:sendNotification(GAME.ISLAND_ADD_DELEGATION, {
+			build_id = arg_84_1,
+			area_id = arg_84_2,
+			add_num = arg_84_3,
+			extraCost = arg_84_4
+		})
+	end)
+	arg_1_0:bind(var_0_0.STOP_DELEGATION, function(arg_85_0, arg_85_1, arg_85_2)
 		arg_1_0:sendNotification(GAME.ISLAND_FINISH_DELEGATION, {
-			build_id = arg_43_1,
-			area_id = arg_43_2
+			build_id = arg_85_1,
+			area_id = arg_85_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.GET_DELEGATION_AWARD, function(arg_44_0, arg_44_1, arg_44_2, arg_44_3)
+	arg_1_0:bind(var_0_0.GET_DELEGATION_AWARD, function(arg_86_0, arg_86_1, arg_86_2, arg_86_3, arg_86_4, arg_86_5)
 		arg_1_0:sendNotification(GAME.ISLAND_GET_DELEGATION_AWARD, {
-			build_id = arg_44_1,
-			area_id = arg_44_2,
-			type = arg_44_3
+			build_id = arg_86_1,
+			area_id = arg_86_2,
+			type = arg_86_3,
+			callback = arg_86_4,
+			isPost = arg_86_5
 		})
 	end)
-	arg_1_0:bind(var_0_0.USE_SPEEDUPCARD, function(arg_45_0, arg_45_1, arg_45_2, arg_45_3, arg_45_4)
-		arg_1_0:sendNotification(GAME.ISLAND_USESPEEDUPCARD, {
-			build_id = arg_45_1,
-			area_id = arg_45_2,
-			item_id = arg_45_3,
-			num = arg_45_4
-		})
-	end)
-	arg_1_0:bind(var_0_0.GET_SHOP_DATA, function(arg_46_0, arg_46_1, arg_46_2)
+	arg_1_0:bind(var_0_0.GET_SHOP_DATA, function(arg_87_0, arg_87_1, arg_87_2)
 		arg_1_0:sendNotification(GAME.ISLAND_SHOP_OP, {
 			operation = IslandConst.SHOP_GET_DATA,
-			shopId = arg_46_1,
-			refreshAll = arg_46_2
+			shopId = arg_87_1,
+			refreshAll = arg_87_2
 		})
 	end)
-	arg_1_0:bind(var_0_0.BUY_COMMODITY, function(arg_47_0, arg_47_1, arg_47_2, arg_47_3)
+	arg_1_0:bind(var_0_0.BUY_COMMODITY, function(arg_88_0, arg_88_1)
 		arg_1_0:sendNotification(GAME.ISLAND_SHOP_OP, {
 			operation = IslandConst.SHOP_BUY_COMMODITY,
-			shopId = arg_47_1,
-			commodityId = arg_47_2,
-			count = arg_47_3
+			commodityList = arg_88_1
 		})
 	end)
-	arg_1_0:bind(var_0_0.REFRESH_SHOP_BY_PLAYER, function(arg_48_0, arg_48_1, arg_48_2)
+	arg_1_0:bind(var_0_0.REFRESH_SHOP_BY_PLAYER, function(arg_89_0, arg_89_1, arg_89_2)
 		arg_1_0:sendNotification(GAME.ISLAND_SHOP_OP, {
 			operation = IslandConst.SHOP_REFRESH_BY_PLAYER,
-			shopId = arg_48_1,
-			resource = arg_48_2
+			shopId = arg_89_1,
+			resource = arg_89_2
+		})
+	end)
+	arg_1_0:bind(var_0_0.DRAW_AWARD_OPERATION, function(arg_90_0, arg_90_1)
+		arg_1_0:sendNotification(GAME.ACTIVITY_DRAW_AWARD_OPERATION, arg_90_1)
+	end)
+	arg_1_0:bind(var_0_0.SHOPPING, function(arg_91_0, arg_91_1, arg_91_2)
+		arg_1_0:sendNotification(GAME.SHOPPING, {
+			id = arg_91_1,
+			count = arg_91_2
 		})
 	end)
 end
 
-function var_0_0._listNotificationInterests(arg_49_0)
+function var_0_0._listNotificationInterests(arg_92_0)
 	return {
 		GAME.ISLAND_SET_NAME_DONE,
 		GAME.ISLAND_PROSPERITY_AWARD_DONE,
 		GAME.ISLAND_UPGRADE_DONE,
 		GAME.ISLAND_SET_MANIFESTO_DONE,
 		GAME.ISLAND_UPGRADE_INVENTORY_DONE,
-		GAME.ISLAND_SELL_ITEM_DONE,
 		GAME.ISLAND_SUBMIT_ORDER_DONE,
 		GAME.ISLAND_REPLACE_ORDER_DONE,
 		GAME.ISLAND_GET_ORDER_EXP_AWARD_DONE,
@@ -339,9 +622,23 @@ function var_0_0._listNotificationInterests(arg_49_0)
 		GAME.ISLAND_ACCEPT_TASK_DONE,
 		GAME.ISLAND_UPDATE_TASK_DONE,
 		GAME.ISLAND_SUBMIT_TASK_DONE,
+		GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE,
 		GAME.ISLAND_SET_TRACE_TASK_DONE,
+		GAME.ISLAND_GET_ACHV_AWARD_DONE,
+		GAME.ISLAND_SETTING_FLAG_DONE,
+		GAME.ISLAND_UPDATE_ILLUSTRATION_DONE,
+		GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE,
+		GAME.ISLAND_GET_COLLECT_POINT_DONE,
+		GAME.ISLAND_GET_POINT_AWARD_DONE,
+		GAME.ISLAND_REMOVE_EXPIRED_TICKET_DONE,
+		GAME.ISLAND_USE_TICKET_DONE,
+		GAME.ISLAND_RESET_SEASON_DONE,
+		GAME.ISLAND_GET_SEASON_PT_AWARD_DONE,
+		GAME.ISLAND_CONVERT_SEASON_PT_DONE,
+		GAME.ISLAND_GET_SEASON_RANK_DONE,
+		GAME.ISLAND_OPEN_RESTAURANT_DONE,
+		GAME.ISLAND_CLOSE_RESTAURANT_DONE,
 		GAME.ISLAND_UPGRADE_SKILL_DONE,
-		GAME.ISLAND_GET_EXTRA_AWARD_DONE,
 		GAME.ISLAND_USE_ITEM_DONE,
 		GAME.ISLAND_GET_OVERFLOW_ITEM_DOME,
 		GAME.ISLAND_SET_ORDER_TENDENCY_DONE,
@@ -351,161 +648,262 @@ function var_0_0._listNotificationInterests(arg_49_0)
 		GAME.ISLAND_START_DELEGATION_DONE,
 		GAME.ISLAND_GET_DELEGATION_AWARD_DONE,
 		GAME.ISLAND_FINISH_DELEGATION_DONE,
-		GAME.ISLAND_USESPEEDUPCARD_DONE,
+		GAME.ISLAND_USE_SHIP_EXP_BOOK_DONE,
+		GAME.ISLAND_SHIP_BREAKOUT_DONE,
+		GAME.ISLNAD_SHIP_ATTR_UPGRADE_DONE,
+		GAME.ISLNAD_SHIP_ATTR_LIMIT_UNLOCK_DONE,
+		GAME.ISLAND_SHIP_SKILL_UPGRADE_DONE,
+		GAME.ISLAND_INVITE_SHIP_DONE,
+		GAME.ISLAND_GIVE_GIFT_DONE,
+		GAME.ISLAND_SIGN_IN_INVITATION_DONE,
+		GAME.FRIEND_SEARCH_DONE,
+		GAME.ISLAND_REFRESH_INVITECODE_DONE,
+		GAME.ISLAND_QUEUE_UP,
+		GAME.ISLAND_ACCESS_OP_DONE,
+		GAME.FRIEND_DELETE_DONE,
+		GAME.FRIEND_SEND_REQUEST_DONE,
+		GAME.ISLAND_SIGN_SHARE_SIGNIN_DONE,
+		GAME.ISLAND_SIGN_IN_DONE,
+		GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE,
+		GAME.ISLAND_FOLLOWER_OP_DONE,
+		GAME.ISLAND_RESET_SP,
+		GAME.ISLAND_REFRESH_SHIP_ORDER_DONE,
+		NotificationProxy.FRIEND_REQUEST_REMOVED,
+		NotificationProxy.FRIEND_REQUEST_ADDED,
 		PlayerProxy.UPDATED,
-		GAME.ISLAND_SHOP_OP_DONE
+		GAME.ISLAND_SHOP_OP_DONE,
+		GAME.ISLAND_DROPMAIN_AWARD,
+		GAME.ISLAND_CHANGE_COMMANDER_DRESS_DONE,
+		GAME.ISLAND_CHANGE_ROLE_DRESS_DONE,
+		GAME.ISLAND_SEND_ROLE_DRESS_READ_DONE,
+		GAME.ISLAND_SEND_COMMANDER_DRESS_READ_DONE,
+		GAME.ISLAND_BUY_ROLE_SKIN_COLOR_DONE,
+		GAME.ISLAND_BUY_ROLE_DRESS_COLOR_DONE,
+		IslandSettingsPage.SELECTCUSTOMGRAPHICSETTING,
+		IslandSettingsPage.SELECTGRAPHICSETTINGLEVEL,
+		ActivityProxy.ACTIVITY_UPDATED,
+		GAME.ACTIVITY_DRAW_AWARD_OPERATION_DONE,
+		IslandShipOrderCard.EVENT_CD_END
 	}
 end
 
-function var_0_0._handleNotification(arg_50_0, arg_50_1)
-	local var_50_0 = arg_50_1:getName()
-	local var_50_1 = arg_50_1:getBody()
+function var_0_0._handleNotification(arg_93_0, arg_93_1)
+	local var_93_0 = arg_93_1:getName()
+	local var_93_1 = arg_93_1:getBody()
 
-	if var_50_0 == GAME.ISLAND_PROSPERITY_AWARD_DONE or var_50_0 == GAME.ISLAND_SELL_ITEM_DONE or var_50_0 == GAME.ISLAND_FINISH_TECH_DONE or var_50_0 == GAME.ISLAND_GET_EXTRA_AWARD_DONE or var_50_0 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or var_50_0 == GAME.ISLAND_SHIP_ORDER_OP_DONE then
-		arg_50_0:HandleAwardDisplay(var_50_1.dropData, var_50_1.callback)
-	elseif var_50_0 == GAME.ISLAND_GET_ORDER_EXP_AWARD_DONE then
+	if var_93_0 == GAME.ISLAND_PROSPERITY_AWARD_DONE or var_93_0 == GAME.ISLAND_CONVERT_SEASON_PT_DONE or var_93_0 == GAME.ISLAND_GET_SEASON_PT_AWARD_DONE or var_93_0 == GAME.ISLAND_GET_ACHV_AWARD_DONE or var_93_0 == GAME.ISLAND_FINISH_TECH_DONE or var_93_0 == GAME.ISLAND_FINISH_TECH_IMMD_DONE or var_93_0 == GAME.ISLAND_SUBMIT_TASK_ONE_STEP_DONE or var_93_0 == GAME.ISLAND_GET_POINT_AWARD_DONE or var_93_0 == GAME.ISLAND_SHIP_ORDER_OP_DONE or var_93_0 == GAME.ISLAND_GET_DELEGATION_AWARD_DONE or var_93_0 == GAME.ISLAND_GET_NPC_ACTION_AWARD_DONE then
+		arg_93_0.viewComponent:HandleAwardDisplay(var_93_1.dropData, var_93_1.callback)
+	elseif var_93_0 == GAME.ISLAND_INVITE_SHIP_DONE then
+		arg_93_0:HandleShipDisplay(var_93_1.ship)
+	elseif var_93_0 == GAME.ISLAND_SHIP_BREAKOUT_DONE then
+		arg_93_0:HandleShipBreakOutAwardDisplay(var_93_1)
+	elseif var_93_0 == GAME.ISLAND_GET_ORDER_EXP_AWARD_DONE then
 		seriesAsync({
-			function(arg_51_0)
-				arg_50_0.viewComponent:emit(IslandOrderPage.ON_UPDADE, {
-					level = var_50_1.level,
-					callback = arg_51_0
+			function(arg_94_0)
+				arg_93_0.viewComponent:emit(IslandOrderPage.ON_UPDADE, {
+					level = var_93_1.level,
+					callback = arg_94_0
 				})
 			end
 		}, function()
-			arg_50_0:HandleAwardDisplay(var_50_1.dropData, var_50_1.callback)
+			arg_93_0.viewComponent:HandleAwardDisplay(var_93_1.dropData, var_93_1.callback)
 		end)
-	elseif var_50_0 == GAME.ISLAND_GET_OVERFLOW_ITEM_DOME then
-		if #var_50_1.awards <= 0 then
+	elseif var_93_0 == GAME.ISLAND_GET_OVERFLOW_ITEM_DOME then
+		if #var_93_1.awards <= 0 then
 			return
 		end
 
-		arg_50_0.viewComponent:DisplayAward({
-			title = i18n1("以下道具已转移"),
-			awards = var_50_1.awards,
-			callback = var_50_1.callback
+		arg_93_0.viewComponent:DisplayAward({
+			title = i18n("island_item_transfer"),
+			awards = var_93_1.awards,
+			callback = var_93_1.callback
 		})
-	elseif var_50_0 == GAME.ISLAND_SET_MANIFESTO_DONE then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("修改成功"))
-	elseif var_50_0 == GAME.ISLAND_SUBMIT_ORDER_DONE then
-		local var_50_2 = {
-			function(arg_53_0)
-				arg_50_0:HandleAwardDisplay(var_50_1.dropData, arg_53_0)
+	elseif var_93_0 == GAME.ISLAND_SET_MANIFESTO_DONE then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("island_set_manifesto_success"))
+	elseif var_93_0 == GAME.ISLAND_SUBMIT_ORDER_DONE then
+		local var_93_2 = {
+			function(arg_96_0)
+				arg_93_0.viewComponent:HandleAwardDisplay(var_93_1.dropData, arg_96_0)
 			end
 		}
 
-		seriesAsync(var_50_2, function()
-			if var_50_1.callback then
-				var_50_1.callback()
+		seriesAsync(var_93_2, function()
+			if var_93_1.callback then
+				var_93_1.callback()
 			end
 
-			arg_50_0.viewComponent:emit(IslandScene.ON_CHECK_ORDER_EXP_AWARD)
+			arg_93_0.viewComponent:emit(IslandScene.ON_CHECK_ORDER_EXP_AWARD)
 		end)
-	elseif var_50_0 == GAME.ISLAND_ACCEPT_TASK_DONE then
-		arg_50_0:HandleTaskAccepted(var_50_1)
-	elseif var_50_0 == GAME.ISLAND_SUBMIT_TASK_DONE then
+	elseif var_93_0 == GAME.ISLAND_ACCEPT_TASK_DONE then
+		arg_93_0:HandleTaskAccepted(var_93_1)
+	elseif var_93_0 == GAME.ISLAND_SUBMIT_TASK_DONE then
 		seriesAsync({
-			function(arg_55_0)
-				local var_55_0 = pg.island_task[var_50_1.taskId].com_perform
+			function(arg_98_0)
+				local var_98_0, var_98_1 = IslandTask.GetSubmitPlayInfo(var_93_1.taskId)
 
-				if var_55_0 ~= "" then
-					arg_50_0.viewComponent:PlayStory({
-						name = var_55_0,
-						callback = arg_55_0
+				if var_98_0 == 1 then
+					arg_93_0.viewComponent:PlayStory({
+						name = var_98_1,
+						callback = arg_98_0
+					})
+				elseif var_98_0 == 2 then
+					arg_93_0.viewComponent:OnPlayPerformance({
+						name = var_98_1,
+						callback = arg_98_0
 					})
 				else
-					arg_55_0()
+					arg_98_0()
 				end
 			end
 		}, function()
-			arg_50_0:HandleAwardDisplay(var_50_1.dropData, var_50_1.callback)
+			local function var_99_0()
+				local var_100_0 = pg.island_task[var_93_1.taskId].com_page
+
+				if var_100_0 ~= "" and var_100_0[1] then
+					arg_93_0.viewComponent:OpenPage(_G[var_100_0[1]], var_100_0[2] and unpack(var_100_0[2]))
+				end
+
+				existCall(var_93_1.callback)
+			end
+
+			arg_93_0.viewComponent:HandleAwardDisplay(var_93_1.dropData, var_99_0)
 		end)
-	elseif var_50_0 == GAME.ISLAND_SET_TRACE_TASK_DONE then
-		arg_50_0.viewComponent:OnUpdateTrackTask(var_50_1.traceId)
+	elseif var_93_0 == GAME.ISLAND_SET_TRACE_TASK_DONE then
+		arg_93_0.viewComponent:OnUpdateTrackTask(var_93_1.traceId)
+	elseif var_93_0 == GAME.ISLAND_RESET_SEASON_DONE then
+		seriesAsync({
+			function(arg_101_0)
+				arg_93_0.viewComponent:ShowMsgbox({
+					hideNo = true,
+					type = IslandMsgBox.TYPE_COMMON,
+					content = i18n("island_season_reset"),
+					onHide = arg_101_0
+				})
+			end
+		}, function()
+			arg_93_0.viewComponent:ShowMsgbox({
+				type = IslandMsgBox.TYPE_SEASON_RESET,
+				body = var_93_1,
+				onHide = var_93_1.callback
+			})
+		end)
+	elseif var_93_0 == GAME.ISLAND_REMOVE_EXPIRED_TICKET_DONE then
+		arg_93_0.viewComponent:ShowMsgbox({
+			hideNo = true,
+			type = IslandMsgBox.TYPE_TICKET_EXPIRED,
+			body = {
+				type = IslandTicketExpiredMsgBoxWindow.TYPES.EXPIRED,
+				tickets = var_93_1.tickets
+			},
+			onHide = var_93_1.callback
+		})
+	elseif var_93_0 == GAME.ISLAND_CLOSE_RESTAURANT_DONE then
+		seriesAsync({
+			function(arg_103_0)
+				if var_93_1.isUpgrade then
+					arg_93_0.viewComponent:OpenPage(IslandRestaurantUpgradePage, var_93_1, arg_103_0)
+				else
+					arg_103_0()
+				end
+			end,
+			function(arg_104_0)
+				arg_93_0.viewComponent:OpenPage(IslandRestaurantSettlePage, var_93_1, arg_104_0)
+			end
+		}, function()
+			arg_93_0.viewComponent:HandleAwardDisplay(var_93_1.dropData)
+		end)
+	elseif var_93_0 == GAME.ISLAND_DROPMAIN_AWARD then
+		arg_93_0.viewComponent:UpdateMainAwardReward({
+			awards = var_93_1.dropData.awards
+		})
+	elseif var_93_0 == GAME.ISLAND_QUEUE_UP then
+		arg_93_0.viewComponent:ShowQueueUpMsgBox(var_93_1.id, var_93_1.pos)
+	elseif var_93_0 == GAME.ISLAND_SIGN_IN_DONE then
+		-- block empty
+	elseif var_93_0 == GAME.ISLAND_RESET_SP then
+		arg_93_0.viewComponent:ShowMsgbox({
+			content = i18n("grapihcs3d_setting_common_unstuck_msgbox"),
+			onYes = function()
+				arg_93_0.viewComponent:emitCoreEvt(IslandProxy.RESET_SP)
+			end
+		})
 	end
 end
 
-function var_0_0.HandleAwardDisplay(arg_57_0, arg_57_1, arg_57_2)
-	seriesAsync({
-		function(arg_58_0)
-			if not arg_57_1.drops or #arg_57_1.drops <= 0 then
-				arg_58_0()
+function var_0_0.HandleTaskAccepted(arg_107_0, arg_107_1)
+	local var_107_0 = {}
+	local var_107_1 = getProxy(IslandProxy):GetIsland():GetTaskAgency()
 
-				return
-			end
+	for iter_107_0, iter_107_1 in ipairs(arg_107_1.taskIds) do
+		local var_107_2 = pg.island_task[iter_107_1]
 
-			arg_57_0.viewComponent:emit(BaseUI.ON_ACHIEVE, arg_57_1.drops, arg_58_0)
-		end,
-		function(arg_59_0)
-			onNextTick(arg_59_0)
-		end,
-		function(arg_60_0)
-			if not arg_57_1.awards or #arg_57_1.awards <= 0 then
-				arg_60_0()
-
-				return
-			end
-
-			arg_57_0.viewComponent:DisplayAward({
-				title = i18n1("获得道具"),
-				awards = arg_57_1.awards,
-				callback = arg_60_0
-			})
-		end,
-		function(arg_61_0)
-			onNextTick(arg_61_0)
-		end,
-		function(arg_62_0)
-			if not arg_57_1.overflowAwards or #arg_57_1.overflowAwards == 0 then
-				arg_62_0()
-
-				return
-			end
-
-			arg_57_0.viewComponent:DisplayAward({
-				titleColor = "#ab4734",
-				title = i18n1("以下道具将存入临时背包"),
-				awards = arg_57_1.overflowAwards,
-				callback = arg_62_0
-			})
-		end,
-		function(arg_63_0)
-			if not arg_57_1.overflowAwards or #arg_57_1.overflowAwards == 0 then
-				arg_63_0()
-
-				return
-			end
-
-			arg_57_0.viewComponent:OpenPage(IslandInventoryPage)
-			arg_63_0()
-		end
-	}, arg_57_2)
-end
-
-function var_0_0.HandleTaskAccepted(arg_64_0, arg_64_1)
-	local var_64_0 = {}
-
-	for iter_64_0, iter_64_1 in ipairs(arg_64_1.taskIds) do
-		local var_64_1 = pg.island_task[iter_64_1]
-
-		if var_64_1.rec_perform ~= "" then
-			table.insert(var_64_0, function(arg_65_0)
-				arg_64_0.viewComponent:PlayStory({
-					name = var_64_1.rec_perform,
-					callback = arg_65_0
+		if var_107_2.rec_perform ~= "" then
+			table.insert(var_107_0, function(arg_108_0)
+				arg_107_0.viewComponent:PlayStory({
+					name = var_107_2.rec_perform,
+					callback = arg_108_0
 				})
 			end)
 		end
 
-		if var_64_1.trigger_tips == 1 then
-			table.insert(var_64_0, function(arg_66_0)
-				arg_64_0.viewComponent:OpenPage(Island3dTaskAcceptPage, iter_64_1, arg_66_0)
+		if var_107_2.trigger_tips == 1 then
+			table.insert(var_107_0, function(arg_109_0)
+				arg_107_0.viewComponent:ShowTaskAcceptPage({
+					taskId = iter_107_1,
+					callback = arg_109_0
+				})
+			end)
+		end
+
+		local var_107_3 = var_107_1:GetTask(iter_107_1)
+
+		if var_107_3:IsFinish() and var_107_3:IsSubmitImmediately() then
+			table.insert(var_107_0, function(arg_110_0)
+				pg.m02:sendNotification(GAME.ISLAND_SUBMIT_TASK, {
+					taskId = iter_107_1,
+					callback = arg_110_0
+				})
 			end)
 		end
 	end
 
-	seriesAsync(var_64_0, function()
-		existCall(arg_64_1.callback)
+	seriesAsync(var_107_0, function()
+		existCall(arg_107_1.callback)
 	end)
+end
+
+function var_0_0.HandleShipBreakOutAwardDisplay(arg_112_0, arg_112_1)
+	seriesAsync({
+		function(arg_113_0)
+			arg_112_0.viewComponent:DisplayAward({
+				type = IslandAwardDisplayPage.TYPE_SHIP_BREAK,
+				newShip = arg_112_1.newShip,
+				oldShip = arg_112_1.oldShip,
+				callback = arg_113_0
+			})
+		end,
+		function(arg_114_0)
+			onNextTick(arg_114_0)
+		end,
+		function(arg_115_0)
+			if not arg_112_1.isUnlockSkill then
+				arg_115_0()
+
+				return
+			end
+
+			arg_112_0.viewComponent:DisplayAward({
+				type = IslandAwardDisplayPage.TYPE_SHIP_SKILL,
+				skill = arg_112_1.newShip:GetSkill(),
+				ship = arg_112_1.newShip,
+				callback = arg_115_0
+			})
+		end
+	})
+end
+
+function var_0_0.HandleShipDisplay(arg_116_0, arg_116_1)
+	arg_116_0.viewComponent:OpenPage(IslandGetShipPage, arg_116_1)
 end
 
 return var_0_0

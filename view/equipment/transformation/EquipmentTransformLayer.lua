@@ -5,7 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.layer = arg_2_0:findTF("Adapt")
+	arg_2_0.layer = arg_2_0._tf:Find("Adapt")
 	arg_2_0.formulaItems = {}
 	arg_2_0.formulaItems[1] = arg_2_0.layer:Find("MaterialModule1")
 	arg_2_0.formulaItems[2] = arg_2_0.layer:Find("MaterialModule2")
@@ -369,7 +369,7 @@ end
 
 function var_0_0.willExit(arg_26_0)
 	arg_26_0.loader:Clear()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_26_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_26_0._tf)
 end
 
 return var_0_0

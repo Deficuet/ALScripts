@@ -185,7 +185,10 @@ function var_0_1.Send(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4, arg_9_5, arg_
 		arg_9_0:incPacketIdx()
 	else
 		var_9_0:Send(var_0_0.Packer.GetInstance():Pack(0, var_9_4:GetId(), var_9_6))
-		originalPrint("Network sent protocol: " .. arg_9_1 .. " without idx")
+
+		if arg_9_1 ~= 21211 then
+			originalPrint("Network sent protocol: " .. arg_9_1 .. " without idx")
+		end
 	end
 
 	if not arg_9_3 then
@@ -208,7 +211,9 @@ function var_0_1.stopTimer(arg_14_0)
 end
 
 function var_0_1.onData(arg_15_0)
-	originalPrint("Network Receive idx: " .. arg_15_0.idx .. " cmd: " .. arg_15_0.cmd)
+	if arg_15_0.cmd ~= 21212 then
+		originalPrint("Network Receive idx: " .. arg_15_0.idx .. " cmd: " .. arg_15_0.cmd)
+	end
 
 	local var_15_0 = var_0_0.Packer.GetInstance():Unpack(arg_15_0.cmd, arg_15_0:getLuaStringBuffer())
 	local var_15_1 = arg_15_0.cmd .. "_" .. arg_15_0.idx

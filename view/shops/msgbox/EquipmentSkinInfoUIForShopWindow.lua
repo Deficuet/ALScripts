@@ -5,16 +5,16 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.displayPanel = arg_2_0:findTF("display")
+	arg_2_0.displayPanel = arg_2_0._tf:Find("display")
 	arg_2_0.displayActions = arg_2_0.displayPanel:Find("actions")
-	arg_2_0.displayNameTxt = arg_2_0:findTF("info/display_panel/name_container/name", arg_2_0.displayPanel):GetComponent(typeof(Text))
-	arg_2_0.displayDescTxt = arg_2_0:findTF("info/display_panel/desc", arg_2_0.displayPanel):GetComponent(typeof(Text))
-	arg_2_0.playBtn = arg_2_0:findTF("info/play_btn", arg_2_0.displayPanel)
+	arg_2_0.displayNameTxt = arg_2_0.displayPanel:Find("info/display_panel/name_container/name"):GetComponent(typeof(Text))
+	arg_2_0.displayDescTxt = arg_2_0.displayPanel:Find("info/display_panel/desc"):GetComponent(typeof(Text))
+	arg_2_0.playBtn = arg_2_0.displayPanel:Find("info/play_btn")
 	arg_2_0.confirmBtn = arg_2_0._tf:Find("display/actions/confirm")
 
-	setText(arg_2_0:findTF("display/top/bg/infomation/title"), i18n("words_information"))
-	setText(arg_2_0:findTF("display/actions/cancel/upgrade"), i18n("msgbox_text_cancel"))
-	setText(arg_2_0:findTF("display/actions/confirm/change"), i18n("shop_word_exchange"))
+	setText(arg_2_0._tf:Find("display/top/bg/infomation/title"), i18n("words_information"))
+	setText(arg_2_0._tf:Find("display/actions/cancel/upgrade"), i18n("msgbox_text_cancel"))
+	setText(arg_2_0._tf:Find("display/actions/confirm/change"), i18n("shop_word_exchange"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -65,11 +65,11 @@ function var_0_0.UpdateSkinView(arg_10_0, arg_10_1)
 		return EquipType.Type2Name2(arg_11_0)
 	end)
 
-	setScrollText(arg_10_0:findTF("info/display_panel/equip_type/mask/Text", var_10_0), table.concat(var_10_2, ","))
+	setScrollText(var_10_0:Find("info/display_panel/equip_type/mask/Text"), table.concat(var_10_2, ","))
 	onButton(arg_10_0, arg_10_0.playBtn, function()
-		arg_10_0:emit(NewShopsMediator.ON_ESKIN_PREVIEW, arg_10_1)
+		arg_10_0:emit(NewShopMainMediator.ON_ESKIN_PREVIEW, arg_10_1)
 	end, SFX_PANEL)
-	updateDrop(arg_10_0:findTF("info/equip", var_10_0), {
+	updateDrop(var_10_0:Find("info/equip"), {
 		type = DROP_TYPE_EQUIPMENT_SKIN,
 		id = arg_10_1
 	})
@@ -78,7 +78,7 @@ end
 function var_0_0.Hide(arg_13_0)
 	if arg_13_0.showing then
 		var_0_0.super.Hide(arg_13_0)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_13_0._tf, arg_13_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf, arg_13_0._parentTf)
 
 		arg_13_0.showing = false
 	end

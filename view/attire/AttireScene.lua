@@ -19,13 +19,13 @@ function var_0_0.setPlayer(arg_3_0, arg_3_1)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0.backBtn = arg_4_0:findTF("blur_panel/adapt/top/back_btn")
-	arg_4_0.blurPanel = arg_4_0:findTF("blur_panel")
+	arg_4_0.backBtn = arg_4_0._tf:Find("blur_panel/adapt/top/back_btn")
+	arg_4_0.blurPanel = arg_4_0._tf:Find("blur_panel")
 	arg_4_0.toggles = {
-		arg_4_0:findTF("adapt/left_length/frame/tagRoot/iconframe", arg_4_0.blurPanel),
-		arg_4_0:findTF("adapt/left_length/frame/tagRoot/chatframe", arg_4_0.blurPanel),
-		arg_4_0:findTF("adapt/left_length/frame/tagRoot/achievement", arg_4_0.blurPanel),
-		arg_4_0:findTF("adapt/left_length/frame/tagRoot/combatUI", arg_4_0.blurPanel)
+		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/iconframe"),
+		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/chatframe"),
+		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/achievement"),
+		arg_4_0.blurPanel:Find("adapt/left_length/frame/tagRoot/combatUI")
 	}
 	arg_4_0.panels = {
 		AttireIconFramePanel.New(arg_4_0._tf, arg_4_0.event, arg_4_0.contextData),

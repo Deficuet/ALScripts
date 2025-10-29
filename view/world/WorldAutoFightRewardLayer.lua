@@ -47,7 +47,7 @@ function var_0_0.willExit(arg_4_0)
 		arg_4_0.metaExpView:Destroy()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_4_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_4_0._tf)
 end
 
 function var_0_0.UpdateView(arg_5_0)

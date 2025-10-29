@@ -23,105 +23,91 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
 	local var_2_0 = arg_2_0.manager
 	local var_2_1 = "live2d/" .. arg_2_1
 	local var_2_2 = HXSet.autoHxShiftPath(var_2_1, nil, true)
-	local var_2_3 = var_2_0.state
+	local var_2_3 = var_2_0:CheckF(var_2_2)
 
-	if var_2_3 == DownloadState.None or var_2_3 == DownloadState.CheckFailure then
-		var_2_0:CheckD()
-	end
-
-	local var_2_4 = var_2_0:CheckF(var_2_2)
-
-	if var_2_4 == DownloadState.CheckToUpdate or var_2_4 == DownloadState.UpdateFailure then
+	if var_2_3 == DownloadState.CheckToUpdate or var_2_3 == DownloadState.UpdateFailure then
 		arg_2_0:OnCheckToUpdate(var_2_2)
-	elseif var_2_4 == DownloadState.Updating then
-		arg_2_0:OnUpdating()
 	else
 		arg_2_0:OnUpdated(var_2_2, arg_2_2)
 	end
-
-	arg_2_0:AddTimer(var_2_2, var_2_4, arg_2_1, arg_2_2)
 end
 
-function var_0_0.RemoveTimer(arg_3_0)
-	if arg_3_0.live2dTimer then
-		arg_3_0.live2dTimer:Stop()
+function var_0_0.OnCheckToUpdate(arg_3_0, arg_3_1)
+	setActive(arg_3_0.live2dBtn, true)
+	setActive(arg_3_0.live2dState, false)
+	setActive(arg_3_0.live2dToggle, true)
+	setActive(arg_3_0.live2dOn, false)
+	setActive(arg_3_0.live2dOff, true)
+	onButton(arg_3_0, arg_3_0.live2dBtn, function()
+		local var_4_0 = "L2D"
+		local var_4_1 = {
+			arg_3_1
+		}
+		local var_4_2 = var_4_0 .. arg_3_1
+		local var_4_3 = GroupHelper.CalcSizeWithFileArr(var_4_0, var_4_1)
+		local var_4_4 = HashUtil.BytesToString(var_4_3)
 
-		arg_3_0.live2dTimer = nil
-	end
-end
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_NORMAL,
+			content = string.format(i18n("group_download_tip", var_4_4)),
+			onYes = function()
+				local function var_5_0(arg_6_0, arg_6_1)
+					if not arg_3_0.isDisposed then
+						arg_3_0.isOn = arg_6_0
 
-function var_0_0.AddTimer(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4)
-	arg_4_0:RemoveTimer()
+						arg_3_0:OnUpdated(arg_3_1, arg_3_0.isOn)
+					end
+				end
 
-	if arg_4_2 == DownloadState.CheckToUpdate or arg_4_2 == DownloadState.UpdateFailure or arg_4_2 == DownloadState.Updating then
-		arg_4_0.live2dTimer = Timer.New(function()
-			local var_5_0 = arg_4_0.manager:CheckF(arg_4_1)
+				local var_5_1 = BundleWizardUpdater.Inst:GetFileList(var_4_0, var_4_1)
+				local var_5_2 = BundleWizardUpdater.Inst:CreateListInfo(var_4_2, var_5_1, nil, var_5_0, nil)
 
-			arg_4_0:Update(arg_4_3, var_5_0 == DownloadState.UpdateSuccess and true or arg_4_4)
-		end, 0.5, 1)
-
-		arg_4_0.live2dTimer:Start()
-	end
-end
-
-function var_0_0.OnCheckToUpdate(arg_6_0, arg_6_1)
-	setActive(arg_6_0.live2dBtn, true)
-	setActive(arg_6_0.live2dState, false)
-	setActive(arg_6_0.live2dToggle, true)
-	setActive(arg_6_0.live2dOn, false)
-	setActive(arg_6_0.live2dOff, true)
-	onButton(arg_6_0, arg_6_0.live2dBtn, function()
-		VersionMgr.Inst:RequestUIForUpdateF("L2D", arg_6_1, true)
+				BundleWizardUpdater.Inst:StartUpdate(var_5_2)
+			end
+		})
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnUpdating(arg_8_0)
-	setActive(arg_8_0.live2dBtn, true)
-	setActive(arg_8_0.live2dToggle, false)
-	setActive(arg_8_0.live2dState, true)
-	removeOnButton(arg_8_0.live2dBtn)
-end
+function var_0_0.OnUpdated(arg_7_0, arg_7_1, arg_7_2)
+	local var_7_0 = checkABExist(arg_7_1)
 
-function var_0_0.OnUpdated(arg_9_0, arg_9_1, arg_9_2)
-	local var_9_0 = checkABExist(arg_9_1)
-
-	setActive(arg_9_0.live2dBtn, var_9_0)
-	setActive(arg_9_0.live2dState, false)
-	setActive(arg_9_0.live2dToggle, true)
-	setActive(arg_9_0.live2dOn, arg_9_2)
-	setActive(arg_9_0.live2dOff, not arg_9_2)
-	onButton(arg_9_0, arg_9_0.live2dBtn, function()
+	setActive(arg_7_0.live2dBtn, var_7_0)
+	setActive(arg_7_0.live2dState, false)
+	setActive(arg_7_0.live2dToggle, true)
+	setActive(arg_7_0.live2dOn, arg_7_2)
+	setActive(arg_7_0.live2dOff, not arg_7_2)
+	onButton(arg_7_0, arg_7_0.live2dBtn, function()
 		if Live2dConst.GetLive2DArm32MatchAble() then
 			Live2dConst.ShowLive2DArm32Tips()
 		end
 
-		arg_9_0:Update(arg_9_0.paintingName, not arg_9_0.isOn)
+		arg_7_0:Update(arg_7_0.paintingName, not arg_7_0.isOn)
 	end, SFX_PANEL)
 
-	if arg_9_0.callback then
-		arg_9_0.callback(arg_9_0.isOn)
+	if arg_7_0.callback then
+		arg_7_0.callback(arg_7_0.isOn)
 	end
 end
 
-function var_0_0.Disable(arg_11_0)
-	if arg_11_0.isOn then
-		triggerButton(arg_11_0.live2dBtn)
+function var_0_0.Disable(arg_9_0)
+	if arg_9_0.isOn then
+		triggerButton(arg_9_0.live2dBtn)
 	end
 end
 
-function var_0_0.SetEnable(arg_12_0, arg_12_1)
-	setButtonEnabled(arg_12_0.live2dBtn, arg_12_1)
+function var_0_0.SetEnable(arg_10_0, arg_10_1)
+	setButtonEnabled(arg_10_0.live2dBtn, arg_10_1)
 end
 
-function var_0_0.AddListener(arg_13_0, arg_13_1)
-	arg_13_0.callback = arg_13_1
+function var_0_0.AddListener(arg_11_0, arg_11_1)
+	arg_11_0.callback = arg_11_1
 end
 
-function var_0_0.Dispose(arg_14_0)
-	arg_14_0.callback = nil
+function var_0_0.Dispose(arg_12_0)
+	arg_12_0.callback = nil
+	arg_12_0.isDisposed = true
 
-	arg_14_0:RemoveTimer()
-	pg.DelegateInfo.Dispose(arg_14_0)
+	pg.DelegateInfo.Dispose(arg_12_0)
 end
 
 return var_0_0

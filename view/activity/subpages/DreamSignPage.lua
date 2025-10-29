@@ -2,16 +2,16 @@ local var_0_0 = class("DreamSignPage", import("view.base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
 	arg_1_0.lockNamed = PLATFORM_CODE == PLATFORM_CH and LOCK_NAMED
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.signTF = arg_1_0:findTF("sign", arg_1_0.bg)
-	arg_1_0.items = arg_1_0:findTF("items", arg_1_0.signTF)
-	arg_1_0.uilist = UIItemList.New(arg_1_0.items, arg_1_0:findTF("tpl", arg_1_0.items))
-	arg_1_0.signBtn = arg_1_0:findTF("get", arg_1_0.signTF)
-	arg_1_0.goBtn = arg_1_0:findTF("go", arg_1_0.signTF)
-	arg_1_0.lock = arg_1_0:findTF("lock", arg_1_0.signTF)
-	arg_1_0.countText = arg_1_0:findTF("count", arg_1_0.signBtn)
-	arg_1_0.signRed = arg_1_0:findTF("tip", arg_1_0.signBtn)
-	arg_1_0.dreamRed = arg_1_0:findTF("tip", arg_1_0.goBtn)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.signTF = arg_1_0.bg:Find("sign")
+	arg_1_0.items = arg_1_0.signTF:Find("items")
+	arg_1_0.uilist = UIItemList.New(arg_1_0.items, arg_1_0.items:Find("tpl"))
+	arg_1_0.signBtn = arg_1_0.signTF:Find("get")
+	arg_1_0.goBtn = arg_1_0.signTF:Find("go")
+	arg_1_0.lock = arg_1_0.signTF:Find("lock")
+	arg_1_0.countText = arg_1_0.signBtn:Find("count")
+	arg_1_0.signRed = arg_1_0.signBtn:Find("tip")
+	arg_1_0.dreamRed = arg_1_0.goBtn:Find("tip")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)
@@ -28,7 +28,7 @@ function var_0_0.OnFirstFlush(arg_3_0)
 		if arg_4_0 == UIItemList.EventInit then
 			local var_4_0 = arg_4_1 + 1
 			local var_4_1 = arg_3_0.taskGroup[var_4_0]
-			local var_4_2 = arg_3_0:findTF("item_mask/item", arg_4_2)
+			local var_4_2 = arg_4_2:Find("item_mask/item")
 			local var_4_3 = Drop.Create(arg_3_0.taskConfig[var_4_1].award_display[1])
 
 			updateDrop(var_4_2, var_4_3)
@@ -40,7 +40,7 @@ function var_0_0.OnFirstFlush(arg_3_0)
 			local var_4_5 = arg_3_0.taskGroup[var_4_4]
 			local var_4_6 = arg_3_0.taskProxy:getTaskById(var_4_5) or arg_3_0.taskProxy:getFinishTaskById(var_4_5)
 
-			setActive(arg_3_0:findTF("got", arg_4_2), var_4_4 < arg_3_0.nday or var_4_6 and var_4_6:getTaskStatus() == 2)
+			setActive(arg_4_2:Find("got"), var_4_4 < arg_3_0.nday or var_4_6 and var_4_6:getTaskStatus() == 2)
 		end
 	end)
 	onButton(arg_3_0, arg_3_0.signBtn, function()

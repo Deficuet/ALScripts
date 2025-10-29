@@ -1,5 +1,5 @@
 local var_0_0 = class("ALYCoreActivityUI", import("view.activity.CorePage.CoreActivityMainScene"))
-local var_0_1 = 50054
+local var_0_1 = 50055
 
 function var_0_0.getUIName(arg_1_0)
 	return "ALYCoreActivityUI"
@@ -18,34 +18,42 @@ function var_0_0.init(arg_2_0, ...)
 	end
 
 	setText(arg_2_0._tf:Find("adapt/top/btn_home/text_tip/Text (Legacy)"), i18n("yumia_main_tip_4", var_2_2))
+	arg_2_0:Reset()
 	arg_2_0.tabsList:make(function(arg_3_0, arg_3_1, arg_3_2)
+		arg_3_1 = arg_3_1 + 1
+
 		if arg_3_0 == UIItemList.EventUpdate then
 			local var_3_0 = underscore.detect(arg_2_0.activities, function(arg_4_0)
 				return tostring(arg_4_0:getConfig("is_show")) == arg_3_2.name
 			end)
 
-			if arg_2_0.pageDic[var_3_0.id] ~= nil then
-				if var_3_0.id == 50063 or var_3_0.id == 50058 then
-					local var_3_1 = arg_2_0:findTF("tip", arg_3_2)
+			if not var_3_0 or var_3_0:isEnd() then
+				setActive(arg_3_2, false)
+			elseif not arg_2_0.pageDic[var_3_0.id] then
+				warning(string.format("without page in act:", var_3_0.id))
+			else
+				local var_3_1 = arg_2_0.pageDic[var_3_0.id]
 
-					setActive(var_3_1, var_3_0:readyToAchieve())
+				if var_3_0.id == 50063 or var_3_0.id == 50058 then
+					local var_3_2 = arg_3_2:Find("tip")
+
+					setActive(var_3_2, var_3_0:readyToAchieve())
 				else
-					setActive(arg_2_0:findTF("tip", arg_3_2), false)
+					setActive(arg_3_2:Find("tip"), false)
 				end
 
 				onToggle(arg_2_0, arg_3_2, function(arg_5_0)
+					warning(arg_3_1, arg_5_0)
+
 					if arg_5_0 then
-						if arg_3_1 + 1 == 3 then
+						if arg_3_1 == 3 then
 							setActive(arg_2_0._tf:Find("Image/VX"), false)
 						else
 							setActive(arg_2_0._tf:Find("Image/VX"), true)
 						end
 
-						quickPlayAnimation(arg_2_0._tf, "Anim_ALYCoreActivityUI_Low_bg_In")
 						arg_2_0:selectActivity(var_3_0)
-						arg_2_0:Reset()
-						setActive(arg_2_0:findTF("off", arg_3_2), false)
-						setActive(arg_2_0:findTF("on", arg_3_2), true)
+						quickPlayAnimation(arg_3_2:Find("on"), "Anim_ALYCoreActivityUI_tabs_selected")
 					end
 				end, SFX_PANEL)
 			end
@@ -116,8 +124,6 @@ function var_0_0.Reset(arg_12_0)
 	for iter_12_0 = 1, 5 do
 		setText(arg_12_0._tf:Find("adapt/tabs/" .. iter_12_0 .. "/off/Label/name_bg/name"), i18n("yumia_main_tip_" .. iter_12_0 + 4))
 		setText(arg_12_0._tf:Find("adapt/tabs/" .. iter_12_0 .. "/on/Label/name_bg/name"), i18n("yumia_main_tip_" .. iter_12_0 + 4))
-		setActive(arg_12_0._tf:Find("adapt/tabs/" .. iter_12_0 .. "/off"), true)
-		setActive(arg_12_0._tf:Find("adapt/tabs/" .. iter_12_0 .. "/on"), false)
 	end
 end
 

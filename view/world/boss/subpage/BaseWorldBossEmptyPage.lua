@@ -40,18 +40,18 @@ function var_0_0.OnBossProgressUpdate(arg_6_0)
 end
 
 function var_0_0.OnLoaded(arg_7_0)
-	arg_7_0.helpBtn = arg_7_0:findTF("help")
-	arg_7_0.compass = arg_7_0:findTF("compass")
-	arg_7_0.latitude = arg_7_0:findTF("info/latitude", arg_7_0.compass)
-	arg_7_0.altitude = arg_7_0:findTF("info/altitude", arg_7_0.compass)
-	arg_7_0.longitude = arg_7_0:findTF("info/longitude", arg_7_0.compass)
-	arg_7_0.speed = arg_7_0:findTF("info/speed", arg_7_0.compass)
-	arg_7_0.rader = arg_7_0:findTF("rader/rader")
-	arg_7_0.progressTr = arg_7_0:findTF("progress")
+	arg_7_0.helpBtn = arg_7_0._tf:Find("help")
+	arg_7_0.compass = arg_7_0._tf:Find("compass")
+	arg_7_0.latitude = arg_7_0.compass:Find("info/latitude")
+	arg_7_0.altitude = arg_7_0.compass:Find("info/altitude")
+	arg_7_0.longitude = arg_7_0.compass:Find("info/longitude")
+	arg_7_0.speed = arg_7_0.compass:Find("info/speed")
+	arg_7_0.rader = arg_7_0._tf:Find("rader/rader")
+	arg_7_0.progressTr = arg_7_0._tf:Find("progress")
 	arg_7_0.progressTxt = arg_7_0.progressTr:Find("value"):GetComponent(typeof(Text))
-	arg_7_0.activeBtn = arg_7_0:findTF("useItem/list/tpl")
-	arg_7_0.useItem = arg_7_0:findTF("useItem")
-	arg_7_0.noItem = arg_7_0:findTF("noitem")
+	arg_7_0.activeBtn = arg_7_0._tf:Find("useItem/list/tpl")
+	arg_7_0.useItem = arg_7_0._tf:Find("useItem")
+	arg_7_0.noItem = arg_7_0._tf:Find("noitem")
 end
 
 function var_0_0.OnInit(arg_8_0)
@@ -61,15 +61,15 @@ function var_0_0.OnInit(arg_8_0)
 	setText(arg_8_0.speed, "000")
 	rotateAni(arg_8_0.rader, 1, 3)
 
-	if arg_8_0:findTF("title") then
-		GetComponent(arg_8_0:findTF("title"), typeof(Image)):SetNativeSize()
+	if arg_8_0._tf:Find("title") then
+		GetComponent(arg_8_0._tf:Find("title"), typeof(Image)):SetNativeSize()
 	end
 end
 
 function var_0_0.UpdateUseItemStyle(arg_9_0, arg_9_1)
-	arg_9_0:findTF("useItem/list/tpl"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("MetaWorldboss/" .. arg_9_1, "useitem")
+	arg_9_0._tf:Find("useItem/list/tpl"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("MetaWorldboss/" .. arg_9_1, "useitem")
 
-	arg_9_0:findTF("useItem/list/tpl"):GetComponent(typeof(Image)):SetNativeSize()
+	arg_9_0._tf:Find("useItem/list/tpl"):GetComponent(typeof(Image)):SetNativeSize()
 end
 
 function var_0_0.Update(arg_10_0)

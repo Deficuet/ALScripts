@@ -262,9 +262,7 @@ function var_0_0.updateChapterProgress(arg_15_0)
 end
 
 function var_0_0.showFilter(arg_17_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_17_0.filter, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_17_0.filter)
 
 	for iter_17_0, iter_17_1 in ipairs(var_0_0.NATION_LIST) do
 		setActive(arg_17_0.filterTFDict[iter_17_1.key]:Find("on"), arg_17_0.filterDict[iter_17_1.key])
@@ -288,7 +286,7 @@ function var_0_0.confirmFilter(arg_19_0)
 end
 
 function var_0_0.closeFilter(arg_20_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_20_0.filter, arg_20_0.tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_20_0.filter, arg_20_0.tf)
 
 	arg_20_0.filterSnapShot = nil
 
@@ -578,39 +576,26 @@ function var_0_0.updateNodeTree(arg_31_0)
 				end)
 			end
 
-			var_31_1 = var_0_0.START_GAP + (iter_31_0 - 1) * var_0_0.HRZ_GAP
+			local var_31_5 = var_0_0.START_GAP + (iter_31_0 - 1) * var_0_0.HRZ_GAP
+			local var_31_6 = iter_31_3:GetRow()
+			local var_31_7 = -var_31_6 * 254
 
-			local var_31_5 = iter_31_3:GetRow()
-			local var_31_6 = -var_31_5 * 254
-
-			var_31_4.anchoredPosition = Vector2(var_31_1, var_31_6)
-			var_31_0 = var_31_1 + var_0_0.END_GAP
+			var_31_4.anchoredPosition = Vector2(var_31_5, var_31_7)
+			var_31_0 = var_31_5 + var_0_0.END_GAP
 			var_31_3.nodeTF = var_31_4
-			var_31_3.row = var_31_5
+			var_31_3.row = var_31_6
 			var_31_3.col = iter_31_0
 			var_31_3.linkData = {}
 			var_31_3.VO = iter_31_3
 			arg_31_0.nodeMap[iter_31_0] = arg_31_0.nodeMap[iter_31_0] or {}
-			arg_31_0.nodeMap[iter_31_0][var_31_5] = true
+			arg_31_0.nodeMap[iter_31_0][var_31_6] = true
 			arg_31_0.nodeDataDict[iter_31_3:GetConfigID()] = var_31_3
 		end
 	end
 
 	arg_31_0.nodeTail = arg_31_0.tf:Find("Story/NodeTail")
 
-	arg_31_0.nodeTail:SetParent(arg_31_0.nodeContainer, true)
-
-	arg_31_0.nodeTail.anchoredPosition = Vector2(var_31_1 + var_0_0.HRZ_GAP, 0)
-
-	setActive(arg_31_0.nodeTail, true)
-
-	local var_31_7 = tf(Instantiate(arg_31_0.linkHrzTpl))
-
-	setActive(var_31_7, true)
-	var_31_7:SetParent(arg_31_0.nodeTail, false)
-
-	var_31_7.anchoredPosition = Vector2(-283.5, 0)
-
+	setActive(arg_31_0.nodeTail, false)
 	arg_31_0:sortLinkData()
 
 	local var_31_8 = arg_31_0.nodeContainer.sizeDelta

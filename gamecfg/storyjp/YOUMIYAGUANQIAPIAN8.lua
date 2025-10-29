@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			say = "二隻の船が接近してくる…数々の困難を乗り越え海岸に辿り着いた大冒険小隊もその状況に気がついた。",
-			bgm = "yumia-70",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

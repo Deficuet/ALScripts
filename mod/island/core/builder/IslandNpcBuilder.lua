@@ -1,4 +1,4 @@
-local var_0_0 = class("IslandNpcBuilder", import(".IslandUnitBuilder"))
+local var_0_0 = class("IslandNpcBuilder", import(".IslandCharUnitBuilder"))
 
 function var_0_0.GetModule(arg_1_0, arg_1_1, arg_1_2)
 	return IslandNpcUnit.New(arg_1_1, arg_1_2)
@@ -8,7 +8,9 @@ function var_0_0.SetTag(arg_2_0, arg_2_1)
 	arg_2_1.tag = IslandConst.TAG_NPC
 end
 
-function var_0_0.AddComponents(arg_3_0, arg_3_1)
+function var_0_0.AddComponents(arg_3_0, arg_3_1, arg_3_2)
+	var_0_0.super.AddComponents(arg_3_0, arg_3_1, arg_3_2)
+
 	local var_3_0 = GetOrAddComponent(arg_3_1, typeof(CharacterController))
 
 	var_3_0.slopeLimit = 50
@@ -18,6 +20,16 @@ function var_0_0.AddComponents(arg_3_0, arg_3_1)
 	var_3_0.height = 1.76
 	var_3_0.stepOffset = 0.4
 	var_3_0.center = Vector3(0, 0.96, 0)
+
+	local var_3_1 = pg.island_unit_character[arg_3_2.modelId]
+
+	if var_3_1.CollisionParam ~= "" then
+		var_3_0.center = Vector3(0, var_3_1.CollisionParam[1], 0)
+		var_3_0.radius = var_3_1.CollisionParam[2]
+		var_3_0.height = var_3_1.CollisionParam[3]
+	end
+
+	GetOrAddComponent(arg_3_1, typeof(CharacterHandleController))
 end
 
 return var_0_0

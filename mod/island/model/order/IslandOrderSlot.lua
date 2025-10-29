@@ -13,9 +13,9 @@ var_0_0.TENDENCY_TYPE_HARD = 2
 function var_0_0.TENDENCY2TIP(arg_1_0)
 	if not var_0_0.TENDENCY_2_TIP then
 		var_0_0.TENDENCY_2_TIP = {
-			i18n1("标准订单"),
-			i18n1("相较标准订单更易完成,奖励也有所降低"),
-			i18n1("相较标准订单更具挑战,奖励也有所提升")
+			i18n("island_order_desc_1"),
+			i18n("island_order_desc_2"),
+			i18n("island_order_desc_3")
 		}
 	end
 
@@ -25,9 +25,9 @@ end
 function var_0_0.TENDENCY2CN(arg_2_0)
 	if not var_0_0.TENDENCY_2_CN then
 		var_0_0.TENDENCY_2_CN = {
-			i18n1("标准"),
-			i18n1("更易完成"),
-			i18n1("更具挑战")
+			i18n("island_order_difficulty_1"),
+			i18n("island_order_difficulty_2"),
+			i18n("island_order_difficulty_3")
 		}
 	end
 
@@ -50,14 +50,27 @@ function var_0_0.GenOrder(arg_5_0, arg_5_1)
 	elseif arg_5_1.type == IslandOrder.TYPE_URGENCY then
 		return IslandUrgencyOrder.New(arg_5_1)
 	elseif arg_5_1.type == IslandOrder.TYPE_FORM then
-		return IslandFirmOrder.New(arg_5_1)
+		local var_5_0 = pg.island_order[arg_5_1.id].type
+
+		if var_5_0 == IslandFirmOrder.FIRM_ORDER_TYPE_URGENCY then
+			return IslandFirmUrgencyOrder.New(arg_5_1)
+		elseif var_5_0 == IslandFirmOrder.FIRM_ORDER_TYPE_ACT then
+			return IslandFirmActivityOrder.New(arg_5_1)
+		elseif var_5_0 == IslandFirmOrder.FIRM_ORDER_TYPE_COMMON then
+			return IslandFirmOrder.New(arg_5_1)
+		else
+			assert(false, "typ is nil" .. var_5_0)
+		end
 	end
 
 	assert(false, "order should be exist" .. arg_5_1.type)
 end
 
 function var_0_0.GetPosition(arg_6_0)
-	return pg.island_order_position[arg_6_0.position] or pg.island_order_position[1]
+	local var_6_0 = pg.island_order_position[arg_6_0.position] and arg_6_0.position or 1
+	local var_6_1 = pg.island_order_position[var_6_0].position
+
+	return Vector3(var_6_1[1], var_6_1[2], 0)
 end
 
 function var_0_0.GetState(arg_7_0)
@@ -114,6 +127,14 @@ end
 
 function var_0_0.GetOrder(arg_15_0)
 	return arg_15_0.order
+end
+
+function var_0_0.SetReduceTime(arg_16_0, arg_16_1)
+	arg_16_0.order:SetReduceTime(arg_16_1)
+end
+
+function var_0_0.AddReduceTime(arg_17_0, arg_17_1)
+	arg_17_0.order:AddReduceTime(arg_17_1)
 end
 
 return var_0_0

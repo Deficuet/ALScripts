@@ -1,0 +1,47 @@
+return {
+	id = "ISLAND_GUIDE_1",
+	events = {
+		{
+			alpha = 0,
+			stories = {
+				"ISLAND1001000"
+			}
+		},
+		{
+			is3dDorm = false,
+			alpha = 0,
+			style = {
+				text = "まずは生活エリアに行きましょう",
+				mode = 2,
+				dir = 1,
+				char = 1,
+				posY = 0,
+				posX = 0,
+				uiset = {}
+			},
+			ui = {
+				pathIndex = -1,
+				dynamicPath = function()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/live"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/liveButton"
+					end
+				end
+			}
+		},
+		{
+			is3dDorm = false,
+			alpha = 0,
+			style = {
+				text = "離島経営が開放されています。生活エリアの該当ボタンで移動できます",
+				mode = 2,
+				dir = 1,
+				char = 1,
+				posY = 200,
+				posX = 0,
+				uiset = {}
+			}
+		}
+	}
+}

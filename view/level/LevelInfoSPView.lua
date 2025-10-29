@@ -10,104 +10,168 @@ function var_0_0.InitUI(arg_2_0)
 	arg_2_0.levelBanner = arg_2_0._tf:Find("panel/Level")
 	arg_2_0.btnSwitchNormal = arg_2_0._tf:Find("panel/Difficulty/Normal")
 	arg_2_0.btnSwitchHard = arg_2_0._tf:Find("panel/Difficulty/Hard")
+	arg_2_0.tfAnim = arg_2_0._tf:GetComponent(typeof(Animation))
+	arg_2_0.tfAniEvent = arg_2_0._tf:GetComponent(typeof(DftAniEvent))
+
+	arg_2_0.tfAniEvent:SetEndEvent(function()
+		arg_2_0:playSelectFX()
+	end)
+
+	arg_2_0.diffBtn = arg_2_0._tf:Find("panel/Difficulty")
+	arg_2_0.btnAnim = arg_2_0._tf:Find("panel/Difficulty"):GetComponent(typeof(Animation))
+	arg_2_0.btnAniEvent = arg_2_0._tf:Find("panel/Difficulty"):GetComponent(typeof(DftAniEvent))
+
+	arg_2_0.btnAniEvent:SetEndEvent(function()
+		arg_2_0:playButtonLoopFX()
+	end)
+
+	arg_2_0.btnAnimNormal = arg_2_0._tf:Find("panel/Difficulty/Mask_Normal")
+	arg_2_0.btnAnimHard = arg_2_0._tf:Find("panel/Difficulty/Mask_Difficlty")
+	arg_2_0.btnAnimLoopNormal = arg_2_0._tf:Find("panel/Difficulty/Normal/Mask_Normal_Loop/Image")
+	arg_2_0.btnAnimLoopHard = arg_2_0._tf:Find("panel/Difficulty/Hard/Mask_Difficulty_Loop")
+	arg_2_0.doEaseIn = false
 end
 
-function var_0_0.SetChapterGroupInfo(arg_3_0, arg_3_1)
-	arg_3_0.groupInfo = arg_3_1
+function var_0_0.playSelectFX(arg_5_0)
+	local var_5_0 = 1
+
+	if #arg_5_0.groupInfo > 1 then
+		var_5_0 = table.indexof(arg_5_0.groupInfo, arg_5_0.chapter.id)
+	elseif arg_5_0.chapter:IsSpChapter() or arg_5_0.chapter:IsEXChapter() then
+		var_5_0 = 2
+	end
+
+	if #arg_5_0.groupInfo > 1 then
+		if var_5_0 == 2 then
+			setActive(arg_5_0.btnAnimNormal, false)
+			setActive(arg_5_0.btnAnimLoopNormal, false)
+			quickPlayAnimation(arg_5_0.diffBtn, "Anim_LevelInfoSPUI_DifficultySelected")
+		else
+			setActive(arg_5_0.btnAnimHard, false)
+			setActive(arg_5_0.btnAnimLoopHard, false)
+			quickPlayAnimation(arg_5_0.diffBtn, "Anim_LevelInfoSPUI_NormalSelected")
+		end
+	end
 end
 
-function var_0_0.set(arg_4_0, arg_4_1, arg_4_2)
-	var_0_0.super.set(arg_4_0, arg_4_1, arg_4_2)
+function var_0_0.playButtonLoopFX(arg_6_0)
+	if arg_6_0.btnAnim:IsPlaying("Anim_LevelInfoSPUI_DifficultySelected") then
+		quickPlayAnimation(arg_6_0.diffBtn, "Anim_LevelInfoSPUI_DifficultyInLoop")
+	elseif arg_6_0.btnAnim:IsPlaying("Anim_LevelInfoSPUI_NormalSelected") then
+		quickPlayAnimation(arg_6_0.diffBtn, "Anim_LevelInfoSPUI_NormalInLoop")
+	end
+end
 
-	local var_4_0 = getProxy(ChapterProxy):getChapterById(arg_4_1, true)
-	local var_4_1 = arg_4_0.groupInfo
+function var_0_0.SetChapterGroupInfo(arg_7_0, arg_7_1)
+	arg_7_0.groupInfo = arg_7_1
+end
 
-	assert(var_4_1)
+function var_0_0.Show(arg_8_0)
+	pg.UIMgr.GetInstance():BlurPanel(arg_8_0._tf, {
+		force = true
+	})
+	setActive(arg_8_0._tf, true)
+	quickPlayAnimation(arg_8_0._tf, "Anim_LevelInfoSPUI_in")
+end
 
-	local var_4_2 = {
+function var_0_0.set(arg_9_0, arg_9_1, arg_9_2)
+	var_0_0.super.set(arg_9_0, arg_9_1, arg_9_2)
+
+	local var_9_0 = getProxy(ChapterProxy):getChapterById(arg_9_1, true)
+	local var_9_1 = arg_9_0.groupInfo
+
+	assert(var_9_1)
+
+	local var_9_2 = {
 		"Normal",
 		"Hard"
 	}
-	local var_4_3 = 1
-	local var_4_4
+	local var_9_3 = 1
+	local var_9_4
 
-	if #var_4_1 > 1 then
-		local var_4_5 = table.indexof(var_4_1, arg_4_1)
+	if #var_9_1 > 1 then
+		local var_9_5 = table.indexof(var_9_1, arg_9_1)
 
-		var_4_3 = var_4_5
-		var_4_4 = var_4_1[#var_4_1 - var_4_5 + 1]
-	elseif var_4_0:IsSpChapter() or var_4_0:IsEXChapter() then
-		var_4_3 = 2
+		var_9_3 = var_9_5
+		var_9_4 = var_9_1[#var_9_1 - var_9_5 + 1]
+	elseif var_9_0:IsSpChapter() or var_9_0:IsEXChapter() then
+		var_9_3 = 2
 	end
 
-	for iter_4_0, iter_4_1 in ipairs(var_4_2) do
-		setActive(arg_4_0.titleBG:Find(iter_4_1), iter_4_0 == var_4_3)
+	for iter_9_0, iter_9_1 in ipairs(var_9_2) do
+		setActive(arg_9_0.titleBG:Find(iter_9_1), iter_9_0 == var_9_3)
 	end
 
-	for iter_4_2, iter_4_3 in ipairs(var_4_2) do
-		setActive(arg_4_0.levelBanner:Find(iter_4_3), iter_4_2 == var_4_3)
+	for iter_9_2, iter_9_3 in ipairs(var_9_2) do
+		setActive(arg_9_0.levelBanner:Find(iter_9_3), iter_9_2 == var_9_3)
 	end
 
-	setActive(arg_4_0.btnSwitchNormal, #var_4_1 > 1 and var_4_3 == 1)
-	setActive(arg_4_0.btnSwitchHard, #var_4_1 > 1 and var_4_3 == 2)
+	setActive(arg_9_0.btnSwitchNormal, #var_9_1 > 1 and var_9_3 == 1)
+	setActive(arg_9_0.btnSwitchHard, #var_9_1 > 1 and var_9_3 == 2)
 
-	if #var_4_1 > 1 then
-		local var_4_6 = var_4_3 == 1 and arg_4_0.btnSwitchNormal or arg_4_0.btnSwitchHard
+	if #var_9_1 > 1 then
+		local var_9_6 = var_9_3 == 1 and arg_9_0.btnSwitchNormal or arg_9_0.btnSwitchHard
 
-		for iter_4_4 = 1, 2 do
-			local var_4_7 = var_4_6:Find("Bonus" .. iter_4_4)
-			local var_4_8 = getProxy(ChapterProxy):getChapterById(var_4_1[iter_4_4], true)
-			local var_4_9 = var_4_8:GetDailyBonusQuota()
+		for iter_9_4 = 1, 2 do
+			local var_9_7 = var_9_6:Find("Bonus" .. iter_9_4)
+			local var_9_8 = getProxy(ChapterProxy):getChapterById(var_9_1[iter_9_4], true)
+			local var_9_9 = var_9_8:GetDailyBonusQuota()
 
-			setActive(var_4_7, var_4_9)
+			setActive(var_9_7, var_9_9)
 
-			if var_4_9 then
-				local var_4_10 = getProxy(ChapterProxy):getMapById(var_4_8:getConfig("map")):getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us"
+			if var_9_9 then
+				local var_9_10 = getProxy(ChapterProxy):getMapById(var_9_8:getConfig("map")):getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us"
 
-				arg_4_0.loader:GetSprite("ui/levelmainscene_atlas", var_4_10, var_4_7:Find("Image"))
+				arg_9_0.loader:GetSprite("ui/levelmainscene_atlas", var_9_10, var_9_7:Find("Image"))
 			end
 		end
 	end
 
-	local var_4_11 = var_4_3 == 1 and Color.NewHex("FFDE38") or Color.white
+	local var_9_11 = var_9_3 == 1 and Color.NewHex("FFDE38") or Color.white
 
-	setTextColor(arg_4_0:findTF("title_index", arg_4_0.txTitle), var_4_11)
-	setTextColor(arg_4_0:findTF("title", arg_4_0.txTitle), var_4_11)
-	setTextColor(arg_4_0:findTF("title_en", arg_4_0.txTitle), var_4_11)
+	setTextColor(arg_9_0.txTitle:Find("title_index"), var_9_11)
+	setTextColor(arg_9_0.txTitle:Find("title"), var_9_11)
+	setTextColor(arg_9_0.txTitle:Find("title_en"), var_9_11)
 
-	local var_4_12 = var_4_0:getConfig("boss_expedition_id")
+	local var_9_12 = var_9_0:getConfig("boss_expedition_id")
 
-	if var_4_0:getPlayType() == ChapterConst.TypeMultiStageBoss then
-		var_4_12 = pg.chapter_model_multistageboss[var_4_0.id].boss_expedition_id
+	if var_9_0:getPlayType() == ChapterConst.TypeMultiStageBoss then
+		var_9_12 = pg.chapter_model_multistageboss[var_9_0.id].boss_expedition_id
 	end
 
-	local var_4_13 = pg.expedition_data_template[var_4_12[#var_4_12]].level
+	local var_9_13 = pg.expedition_data_template[var_9_12[#var_9_12]].level
 
-	setText(arg_4_0.levelBanner:Find("Text"), "LV " .. var_4_13)
-	onButton(arg_4_0, arg_4_0.btnSwitchNormal:Find("Switch"), function()
-		arg_4_0:emit(LevelUIConst.SWITCH_SPCHAPTER_DIFFICULTY, var_4_4)
-		arg_4_0:set(var_4_4)
+	setText(arg_9_0.levelBanner:Find("Text"), "LV " .. var_9_13)
+	onButton(arg_9_0, arg_9_0.btnSwitchNormal:Find("Switch"), function()
+		setActive(arg_9_0.btnAnimNormal, false)
+		setActive(arg_9_0.btnAnimLoopNormal, false)
+		quickPlayAnimation(arg_9_0.diffBtn, "Anim_LevelInfoSPUI_DifficultySelected")
+		arg_9_0:emit(LevelUIConst.SWITCH_SPCHAPTER_DIFFICULTY, var_9_4)
+		arg_9_0:set(var_9_4)
 	end, SFX_PANEL)
-	onButton(arg_4_0, arg_4_0.btnSwitchHard:Find("Switch"), function()
-		arg_4_0:emit(LevelUIConst.SWITCH_SPCHAPTER_DIFFICULTY, var_4_4)
-		arg_4_0:set(var_4_4)
+	onButton(arg_9_0, arg_9_0.btnSwitchHard:Find("Switch"), function()
+		setActive(arg_9_0.btnAnimHard, false)
+		setActive(arg_9_0.btnAnimLoopHard, false)
+		quickPlayAnimation(arg_9_0.diffBtn, "Anim_LevelInfoSPUI_NormalSelected")
+		arg_9_0:emit(LevelUIConst.SWITCH_SPCHAPTER_DIFFICULTY, var_9_4)
+		arg_9_0:set(var_9_4)
 	end, SFX_PANEL)
 	;(function()
 		if IsUnityEditor and not ENABLE_GUIDE then
 			return
 		end
 
-		if var_4_3 ~= 1 or #var_4_1 == 1 then
+		if var_9_3 ~= 1 or #var_9_1 == 1 then
 			return
 		end
 
-		local var_7_0 = "NG0045"
+		local var_12_0 = "NG0045"
 
-		if pg.NewStoryMgr.GetInstance():IsPlayed(var_7_0) then
+		if pg.NewStoryMgr.GetInstance():IsPlayed(var_12_0) then
 			return
 		end
 
-		pg.SystemGuideMgr.GetInstance():PlayByGuideId(var_7_0)
+		pg.SystemGuideMgr.GetInstance():PlayByGuideId(var_12_0)
 	end)()
 end
 

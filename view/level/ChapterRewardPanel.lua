@@ -5,7 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	setText(arg_2_0:findTF("window/bg/text"), i18n("desc_defense_reward"))
+	setText(arg_2_0._tf:Find("window/bg/text"), i18n("desc_defense_reward"))
 
 	arg_2_0.UIlist = UIItemList.New(arg_2_0._tf:Find("window/bg/panel/list"), arg_2_0._tf:Find("window/bg/panel/list/item"))
 	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
@@ -63,7 +63,7 @@ end
 
 function var_0_0.Hide(arg_10_0)
 	var_0_0.super.Hide(arg_10_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf, arg_10_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 end
 
 function var_0_0.Enter(arg_11_0, arg_11_1)
@@ -96,7 +96,7 @@ function var_0_0.Enter(arg_11_0, arg_11_1)
 end
 
 function var_0_0.OnDestroy(arg_12_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_12_0._tf, arg_12_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf, arg_12_0._parentTf)
 end
 
 return var_0_0

@@ -3,10 +3,10 @@ local var_0_0 = class("HoloLivePtPage", import("...base.BaseActivityPage"))
 function var_0_0.OnInit(arg_1_0)
 	arg_1_0.taskProxy = getProxy(TaskProxy)
 	arg_1_0.activityProxy = getProxy(ActivityProxy)
-	arg_1_0.circleTF = arg_1_0:findTF("CircleImg/Circle")
-	arg_1_0.startBtn = arg_1_0:findTF("CircleImg/StartBtn")
-	arg_1_0.helpBtn1 = arg_1_0:findTF("HelpBtn")
-	arg_1_0.taskPanel = arg_1_0:findTF("AD")
+	arg_1_0.circleTF = arg_1_0._tf:Find("CircleImg/Circle")
+	arg_1_0.startBtn = arg_1_0._tf:Find("CircleImg/StartBtn")
+	arg_1_0.helpBtn1 = arg_1_0._tf:Find("HelpBtn")
+	arg_1_0.taskPanel = arg_1_0._tf:Find("AD")
 
 	onButton(arg_1_0, arg_1_0.startBtn, function()
 		if arg_1_0.isTurning then
@@ -120,14 +120,14 @@ function var_0_0.rotate(arg_8_0)
 end
 
 function var_0_0.updateTaskPanel(arg_12_0)
-	arg_12_0.charImg = arg_12_0:findTF("CharImg", arg_12_0.taskPanel)
-	arg_12_0.nameImg = arg_12_0:findTF("NameImg", arg_12_0.charImg)
-	arg_12_0.dayText = arg_12_0:findTF("ProgressImg/day", arg_12_0.taskPanel)
-	arg_12_0.taskItemTpl = arg_12_0:findTF("item", arg_12_0.taskPanel)
-	arg_12_0.taskItemContainer = arg_12_0:findTF("items", arg_12_0.taskPanel)
-	arg_12_0.backBtn = arg_12_0:findTF("BackBtn", arg_12_0.taskPanel)
-	arg_12_0.countText = arg_12_0:findTF("RedPoint/Text", arg_12_0.backBtn)
-	arg_12_0.helpBtn2 = arg_12_0:findTF("HelpBtn", arg_12_0.taskPanel)
+	arg_12_0.charImg = arg_12_0.taskPanel:Find("CharImg")
+	arg_12_0.nameImg = arg_12_0.charImg:Find("NameImg")
+	arg_12_0.dayText = arg_12_0.taskPanel:Find("ProgressImg/day")
+	arg_12_0.taskItemTpl = arg_12_0.taskPanel:Find("item")
+	arg_12_0.taskItemContainer = arg_12_0.taskPanel:Find("items")
+	arg_12_0.backBtn = arg_12_0.taskPanel:Find("BackBtn")
+	arg_12_0.countText = arg_12_0.backBtn:Find("RedPoint/Text")
+	arg_12_0.helpBtn2 = arg_12_0.taskPanel:Find("HelpBtn")
 
 	local var_12_0 = "img_char_" .. arg_12_0.curShipGroupID
 
@@ -161,7 +161,7 @@ function var_0_0.updateTaskPanel(arg_12_0)
 	arg_12_0.taskUIItemList:make(function(arg_15_0, arg_15_1, arg_15_2)
 		if arg_15_0 == UIItemList.EventUpdate then
 			local var_15_0 = arg_15_1 + 1
-			local var_15_1 = arg_12_0:findTF("item", arg_15_2)
+			local var_15_1 = arg_15_2:Find("item")
 			local var_15_2 = arg_12_0.curTaskIDList[var_15_0]
 			local var_15_3 = arg_12_0.taskProxy:getTaskById(var_15_2) or arg_12_0.taskProxy:getFinishTaskById(var_15_2)
 
@@ -182,12 +182,12 @@ function var_0_0.updateTaskPanel(arg_12_0)
 			local var_15_6 = var_15_3:getProgress()
 			local var_15_7 = var_15_3:getConfig("target_num")
 
-			setText(arg_12_0:findTF("description", arg_15_2), var_15_3:getConfig("desc") .. "(" .. var_15_6 .. "/" .. var_15_7 .. ")")
-			setSlider(arg_12_0:findTF("progress", arg_15_2), 0, var_15_7, var_15_6)
+			setText(arg_15_2:Find("description"), var_15_3:getConfig("desc") .. "(" .. var_15_6 .. "/" .. var_15_7 .. ")")
+			setSlider(arg_15_2:Find("progress"), 0, var_15_7, var_15_6)
 
-			local var_15_8 = arg_12_0:findTF("go_btn", arg_15_2)
-			local var_15_9 = arg_12_0:findTF("get_btn", arg_15_2)
-			local var_15_10 = arg_12_0:findTF("got_btn", arg_15_2)
+			local var_15_8 = arg_15_2:Find("go_btn")
+			local var_15_9 = arg_15_2:Find("get_btn")
+			local var_15_10 = arg_15_2:Find("got_btn")
 			local var_15_11 = var_15_3:getTaskStatus()
 
 			setActive(var_15_8, var_15_11 == 0)
@@ -282,13 +282,13 @@ function var_0_0.resetIndex(arg_22_0)
 end
 
 function var_0_0.lockTurnTable(arg_23_0)
-	arg_23_0.finalTip = arg_23_0:findTF("FinalTip")
-	arg_23_0.finalLock = arg_23_0:findTF("CircleImg/FinalLock")
+	arg_23_0.finalTip = arg_23_0._tf:Find("FinalTip")
+	arg_23_0.finalLock = arg_23_0._tf:Find("CircleImg/FinalLock")
 
 	setActive(arg_23_0.finalTip, true)
 	setActive(arg_23_0.finalLock, true)
 
-	arg_23_0.tipImg = arg_23_0:findTF("TipImg")
+	arg_23_0.tipImg = arg_23_0._tf:Find("TipImg")
 
 	setActive(arg_23_0.tipImg, false)
 end

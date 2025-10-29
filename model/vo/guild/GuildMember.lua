@@ -126,7 +126,7 @@ function var_0_0.GetShip(arg_22_0)
 end
 
 function var_0_0.GetJoinZeroTime(arg_23_0)
-	return pg.TimeMgr:GetInstance():GetNextTimeByTimeStamp(arg_23_0.joinTime)
+	return pg.TimeMgr.GetInstance():GetNextTimeByTimeStamp(arg_23_0.joinTime)
 end
 
 return var_0_0

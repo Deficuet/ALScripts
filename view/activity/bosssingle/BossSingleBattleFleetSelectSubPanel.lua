@@ -11,41 +11,41 @@ function var_0_0.InvokeParent(arg_2_0, arg_2_1, ...)
 end
 
 function var_0_0.OnInit(arg_3_0)
-	arg_3_0.tfShipTpl = arg_3_0:findTF("panel/shiptpl")
-	arg_3_0.tfEmptyTpl = arg_3_0:findTF("panel/emptytpl")
+	arg_3_0.tfShipTpl = arg_3_0._tf:Find("panel/shiptpl")
+	arg_3_0.tfEmptyTpl = arg_3_0._tf:Find("panel/emptytpl")
 	arg_3_0.tfFleets = {
 		[FleetType.Normal] = {
-			arg_3_0:findTF("panel/fleet/1"),
-			arg_3_0:findTF("panel/fleet/2")
+			arg_3_0._tf:Find("panel/fleet/1"),
+			arg_3_0._tf:Find("panel/fleet/2")
 		},
 		[FleetType.Submarine] = {
-			arg_3_0:findTF("panel/sub/1")
+			arg_3_0._tf:Find("panel/sub/1")
 		}
 	}
-	arg_3_0.tfLimit = arg_3_0:findTF("panel/limit_list/limit")
-	arg_3_0.tfLimitTips = arg_3_0:findTF("panel/limit_list/limit_tip")
-	arg_3_0.tfLimitElite = arg_3_0:findTF("panel/limit_list/limit_elite")
+	arg_3_0.tfLimit = arg_3_0._tf:Find("panel/limit_list/limit")
+	arg_3_0.tfLimitTips = arg_3_0._tf:Find("panel/limit_list/limit_tip")
+	arg_3_0.tfLimitElite = arg_3_0._tf:Find("panel/limit_list/limit_elite")
 
-	setText(arg_3_0:findTF("sub/Text", arg_3_0.tfLimitElite), i18n("ship_limit_notice"))
+	setText(arg_3_0.tfLimitElite:Find("sub/Text"), i18n("ship_limit_notice"))
 
-	arg_3_0.tfLimitContainer = arg_3_0:findTF("panel/limit_list/limit_elite/limit_list")
+	arg_3_0.tfLimitContainer = arg_3_0._tf:Find("panel/limit_list/limit_elite/limit_list")
 	arg_3_0.rtCostLimit = arg_3_0._tf:Find("panel/limit_list/cost_limit")
-	arg_3_0.btnBack = arg_3_0:findTF("panel/btnBack")
-	arg_3_0.btnGo = arg_3_0:findTF("panel/start_button")
-	arg_3_0.btnTry = arg_3_0:findTF("panel/try_button")
-	arg_3_0.btnASHelp = arg_3_0:findTF("panel/title/ASvalue")
-	arg_3_0.commanderToggle = arg_3_0:findTF("panel/commander_btn")
-	arg_3_0.formationToggle = arg_3_0:findTF("panel/formation_btn")
-	arg_3_0.toggleMask = arg_3_0:findTF("mask")
-	arg_3_0.toggleList = arg_3_0:findTF("mask/list")
+	arg_3_0.btnBack = arg_3_0._tf:Find("panel/btnBack")
+	arg_3_0.btnGo = arg_3_0._tf:Find("panel/start_button")
+	arg_3_0.btnTry = arg_3_0._tf:Find("panel/try_button")
+	arg_3_0.btnASHelp = arg_3_0._tf:Find("panel/title/ASvalue")
+	arg_3_0.commanderToggle = arg_3_0._tf:Find("panel/commander_btn")
+	arg_3_0.formationToggle = arg_3_0._tf:Find("panel/formation_btn")
+	arg_3_0.toggleMask = arg_3_0._tf:Find("mask")
+	arg_3_0.toggleList = arg_3_0._tf:Find("mask/list")
 	arg_3_0.toggles = {}
 
 	for iter_3_0 = 0, arg_3_0.toggleList.childCount - 1 do
 		table.insert(arg_3_0.toggles, arg_3_0.toggleList:Find("item" .. iter_3_0 + 1))
 	end
 
-	arg_3_0.btnSp = arg_3_0:findTF("panel/sp")
-	arg_3_0.spMask = arg_3_0:findTF("mask_sp")
+	arg_3_0.btnSp = arg_3_0._tf:Find("panel/sp")
+	arg_3_0.spMask = arg_3_0._tf:Find("mask_sp")
 
 	setActive(arg_3_0.tfShipTpl, false)
 	setActive(arg_3_0.tfEmptyTpl, false)
@@ -55,9 +55,9 @@ function var_0_0.OnInit(arg_3_0)
 	setActive(arg_3_0.tfLimitElite, false)
 	setActive(arg_3_0.tfLimitTips, false)
 	setActive(arg_3_0.tfLimit, false)
-	setActive(arg_3_0:findTF("panel/title/ASvalue"), false)
-	setText(arg_3_0:findTF("panel/formation_btn/text"), i18n("autofight_formation"))
-	setText(arg_3_0:findTF("panel/commander_btn/text"), i18n("autofight_cat"))
+	setActive(arg_3_0._tf:Find("panel/title/ASvalue"), false)
+	setText(arg_3_0._tf:Find("panel/formation_btn/text"), i18n("autofight_formation"))
+	setText(arg_3_0._tf:Find("panel/commander_btn/text"), i18n("autofight_cat"))
 	setText(arg_3_0._tf:Find("panel/title/Image/text"), i18n("fleet_select_title"))
 	arg_3_0:InitInteractable()
 end
@@ -202,13 +202,13 @@ function var_0_0.updateFleet(arg_17_0, arg_17_1, arg_17_2)
 	local var_17_1 = var_17_0 and arg_17_0.fleets[arg_17_1][arg_17_2]
 	local var_17_2 = arg_17_0.tfFleets[arg_17_1][arg_17_2]
 	local var_17_3 = findTF(var_17_2, "bg/name")
-	local var_17_4 = arg_17_0:findTF(TeamType.Main, var_17_2)
-	local var_17_5 = arg_17_0:findTF(TeamType.Vanguard, var_17_2)
-	local var_17_6 = arg_17_0:findTF(TeamType.Submarine, var_17_2)
-	local var_17_7 = arg_17_0:findTF("btn_recom", var_17_2)
-	local var_17_8 = arg_17_0:findTF("btn_clear", var_17_2)
-	local var_17_9 = arg_17_0:findTF("selected", var_17_2)
-	local var_17_10 = arg_17_0:findTF("commander", var_17_2)
+	local var_17_4 = var_17_2:Find(TeamType.Main)
+	local var_17_5 = var_17_2:Find(TeamType.Vanguard)
+	local var_17_6 = var_17_2:Find(TeamType.Submarine)
+	local var_17_7 = var_17_2:Find("btn_recom")
+	local var_17_8 = var_17_2:Find("btn_clear")
+	local var_17_9 = var_17_2:Find("selected")
+	local var_17_10 = var_17_2:Find("commander")
 
 	setActive(var_17_9, false)
 	setText(var_17_3, "")
@@ -264,7 +264,7 @@ function var_0_0.updateShips(arg_20_0, arg_20_1, arg_20_2, arg_20_3, arg_20_4)
 			setActive(var_20_3:Find("event_block"), var_20_1:getFlag("inEvent"))
 		end
 
-		setActive(arg_20_0:findTF("ship_type", var_20_3), false)
+		setActive(var_20_3:Find("ship_type"), false)
 
 		local var_20_4 = GetOrAddComponent(var_20_3, typeof(UILongPressTrigger))
 
@@ -294,11 +294,11 @@ function var_0_0.updateCommanderBtn(arg_23_0, arg_23_1, arg_23_2)
 	local var_23_0 = arg_23_2 <= arg_23_0:getLimitNums(arg_23_1)
 	local var_23_1 = var_23_0 and arg_23_0.fleets[arg_23_1][arg_23_2]
 	local var_23_2 = arg_23_0.tfFleets[arg_23_1][arg_23_2]
-	local var_23_3 = arg_23_0:findTF("btn_select", var_23_2)
-	local var_23_4 = arg_23_0:findTF("btn_clear", var_23_2)
-	local var_23_5 = arg_23_0:findTF("btn_recom", var_23_2)
-	local var_23_6 = arg_23_0:findTF("blank", var_23_2)
-	local var_23_7 = arg_23_0:findTF("commander", var_23_2)
+	local var_23_3 = var_23_2:Find("btn_select")
+	local var_23_4 = var_23_2:Find("btn_clear")
+	local var_23_5 = var_23_2:Find("btn_recom")
+	local var_23_6 = var_23_2:Find("blank")
+	local var_23_7 = var_23_2:Find("commander")
 
 	setActive(var_23_3, false)
 	setActive(var_23_4, var_23_0 and not arg_23_0.viewParent.contextData.showCommander)
@@ -342,9 +342,9 @@ function var_0_0.clearFleets(arg_27_0)
 end
 
 function var_0_0.clearFleet(arg_29_0, arg_29_1)
-	local var_29_0 = arg_29_0:findTF(TeamType.Main, arg_29_1)
-	local var_29_1 = arg_29_0:findTF(TeamType.Vanguard, arg_29_1)
-	local var_29_2 = arg_29_0:findTF(TeamType.Submarine, arg_29_1)
+	local var_29_0 = arg_29_1:Find(TeamType.Main)
+	local var_29_1 = arg_29_1:Find(TeamType.Vanguard)
+	local var_29_2 = arg_29_1:Find(TeamType.Submarine)
 
 	if var_29_0 then
 		removeAllChildren(var_29_0)
@@ -377,16 +377,16 @@ function var_0_0.updatePropetyLimit(arg_30_0)
 				local var_31_1, var_31_2, var_31_3, var_31_4 = unpack(var_31_0)
 
 				if var_30_1[arg_31_1] == 1 then
-					arg_30_0:findTF("Text", arg_31_2):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
+					arg_31_2:Find("Text"):GetComponent(typeof(Text)).color = Color.New(1, 0.9607843137254902, 0.5019607843137255)
 				else
-					arg_30_0:findTF("Text", arg_31_2):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
+					arg_31_2:Find("Text"):GetComponent(typeof(Text)).color = Color.New(0.9568627450980393, 0.30196078431372547, 0.30196078431372547)
 				end
 
 				setActive(arg_31_2, true)
 
 				local var_31_5 = AttributeType.EliteCondition2Name(var_31_1, var_31_4) .. AttributeType.eliteConditionCompareTip(var_31_2) .. var_31_3
 
-				setText(arg_30_0:findTF("Text", arg_31_2), var_31_5)
+				setText(arg_31_2:Find("Text"), var_31_5)
 			end
 		end)
 		var_30_0:align(#arg_30_0.propetyLimitation)
@@ -398,7 +398,7 @@ function var_0_0.OnShow(arg_32_0)
 end
 
 function var_0_0.OnHide(arg_33_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_33_0._tf, arg_33_0.viewParent._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_33_0._tf, arg_33_0.viewParent._tf)
 	triggerToggle(arg_33_0.commanderToggle, false)
 end
 

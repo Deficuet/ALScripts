@@ -5,17 +5,17 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0.content = arg_2_0:findTF("list/content")
+	arg_2_0.content = arg_2_0._tf:Find("list/content")
 	arg_2_0.item = arg_2_0.content:Find("item")
-	arg_2_0.numsTxt = arg_2_0:findTF("nums/text")
-	arg_2_0.helpBtn = arg_2_0:findTF("help")
+	arg_2_0.numsTxt = arg_2_0._tf:Find("nums/text")
+	arg_2_0.helpBtn = arg_2_0._tf:Find("help")
 
 	setActive(arg_2_0.item, false)
 
-	arg_2_0.getRemasterTF = arg_2_0:findTF("getBtn/state_before")
-	arg_2_0.gotRemasterTF = arg_2_0:findTF("getBtn/state_after")
-	arg_2_0.exToggle = arg_2_0:findTF("toggles/EX")
-	arg_2_0.spToggle = arg_2_0:findTF("toggles/SP")
+	arg_2_0.getRemasterTF = arg_2_0._tf:Find("getBtn/state_before")
+	arg_2_0.gotRemasterTF = arg_2_0._tf:Find("getBtn/state_after")
+	arg_2_0.exToggle = arg_2_0._tf:Find("toggles/EX")
+	arg_2_0.spToggle = arg_2_0._tf:Find("toggles/SP")
 
 	arg_2_0:bind(LevelUIConst.FLUSH_REMASTER_INFO, function(arg_3_0)
 		if not arg_2_0:isShowing() then
@@ -157,7 +157,6 @@ function var_0_0.OnInit(arg_2_0)
 								hideNo = true,
 								type = MSGBOX_TYPE_SINGLE_ITEM,
 								drop = var_5_17,
-								weight = LayerWeightConst.TOP_LAYER,
 								remaster = {
 									word = i18n("level_remaster_tip4", pg.chapter_template[var_5_12].chapter_name),
 									number = var_5_16.count .. "/" .. var_5_15,
@@ -193,7 +192,6 @@ function var_0_0.OnInit(arg_2_0)
 								hideNo = true,
 								type = MSGBOX_TYPE_SINGLE_ITEM,
 								drop = var_5_18,
-								weight = LayerWeightConst.TOP_LAYER,
 								remaster = {
 									word = i18n("level_remaster_tip1") .. iter_5_5[2],
 									btn_text = i18n("text_confirm")
@@ -236,14 +234,12 @@ end
 
 function var_0_0.Show(arg_17_0)
 	var_0_0.super.Show(arg_17_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_17_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_17_0._tf)
 end
 
 function var_0_0.Hide(arg_18_0)
 	var_0_0.super.Hide(arg_18_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_18_0._tf, arg_18_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_18_0._tf, arg_18_0._parentTf)
 end
 
 function var_0_0.set(arg_19_0, arg_19_1, arg_19_2)

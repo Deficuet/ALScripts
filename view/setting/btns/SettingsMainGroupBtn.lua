@@ -19,7 +19,7 @@ function var_0_0.Dispose(arg_2_0)
 end
 
 function var_0_0.initData(arg_3_0)
-	arg_3_0.mgr = pg.SettingsGroupMgr:GetInstance()
+	arg_3_0.mgr = pg.SettingsGroupMgr.GetInstance()
 	arg_3_0.infoName = "MainGroup"
 	arg_3_0.groupNameList = {
 		PaintingGroupConst.PaintingGroupName

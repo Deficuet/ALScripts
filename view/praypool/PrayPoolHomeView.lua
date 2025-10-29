@@ -23,7 +23,7 @@ function var_0_0.initData(arg_5_0)
 end
 
 function var_0_0.initUI(arg_6_0)
-	arg_6_0.startBtn = arg_6_0:findTF("StartBtn")
+	arg_6_0.startBtn = arg_6_0._tf:Find("StartBtn")
 
 	onButton(arg_6_0, arg_6_0.startBtn, function()
 		arg_6_0.prayProxy:updatePageState(PrayProxy.STATE_SELECT_POOL)

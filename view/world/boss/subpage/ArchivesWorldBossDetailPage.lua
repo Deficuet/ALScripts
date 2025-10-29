@@ -30,13 +30,13 @@ end
 function var_0_0.OnLoaded(arg_5_0)
 	var_0_0.super.OnLoaded(arg_5_0)
 
-	arg_5_0.currProgressTr = arg_5_0:findTF("progress")
-	arg_5_0.currProgressTxt = arg_5_0:findTF("progress/value"):GetComponent(typeof(Text))
-	arg_5_0.listBtn = arg_5_0:findTF("list_btn")
-	arg_5_0.archivesWorldbossBtn = ArchivesWorldbossBtn.New(arg_5_0:findTF("archives_btn"), arg_5_0.event)
-	arg_5_0.autoBattleBtn = arg_5_0:findTF("btns/auto_btn")
+	arg_5_0.currProgressTr = arg_5_0._tf:Find("progress")
+	arg_5_0.currProgressTxt = arg_5_0._tf:Find("progress/value"):GetComponent(typeof(Text))
+	arg_5_0.listBtn = arg_5_0._tf:Find("list_btn")
+	arg_5_0.archivesWorldbossBtn = ArchivesWorldbossBtn.New(arg_5_0._tf:Find("archives_btn"), arg_5_0.event)
+	arg_5_0.autoBattleBtn = arg_5_0._tf:Find("btns/auto_btn")
 	arg_5_0.autoBattleTimeTxt = arg_5_0.autoBattleBtn:Find("Text"):GetComponent(typeof(Text))
-	arg_5_0.battleMask = arg_5_0:findTF("battle_mask")
+	arg_5_0.battleMask = arg_5_0._tf:Find("battle_mask")
 	arg_5_0.helpWindow = ArchivesWorldBossHelpPage.New(arg_5_0._parentTf.parent, arg_5_0.event)
 	arg_5_0.autoBattleTip = ArchivesWorldBossAutoBattleTipPage.New(arg_5_0._parentTf.parent, arg_5_0.event)
 	arg_5_0.autoBattleMsg = ArchivesWorldBossAutoBattleMsgbox.New(arg_5_0._parentTf.parent, arg_5_0.event)
@@ -60,7 +60,7 @@ function var_0_0.OnInit(arg_6_0)
 			frame = var_8_0.rarity
 		})
 	end, SFX_PANEL)
-	onButton(arg_6_0, arg_6_0:findTF("help"), function()
+	onButton(arg_6_0, arg_6_0._tf:Find("help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.world_archives_boss_help.tip

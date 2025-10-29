@@ -8,37 +8,37 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/close")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/close")
 	arg_2_0.pageTgs = {
-		arg_2_0:findTF("frame/toggles/sitePageTg"),
-		arg_2_0:findTF("frame/toggles/charaPageTg"),
-		arg_2_0:findTF("frame/toggles/endingPageTg"),
-		arg_2_0:findTF("frame/toggles/storyPageTg")
+		arg_2_0._tf:Find("frame/toggles/sitePageTg"),
+		arg_2_0._tf:Find("frame/toggles/charaPageTg"),
+		arg_2_0._tf:Find("frame/toggles/endingPageTg"),
+		arg_2_0._tf:Find("frame/toggles/storyPageTg")
 	}
-	arg_2_0.pages = arg_2_0:findTF("frame/pages")
-	arg_2_0.sitePage = arg_2_0:findTF("sitePage", arg_2_0.pages)
-	arg_2_0.charaPage = arg_2_0:findTF("charaPage", arg_2_0.pages)
-	arg_2_0.endingPage = arg_2_0:findTF("endingPage", arg_2_0.pages)
-	arg_2_0.storyPage = arg_2_0:findTF("storyPage", arg_2_0.pages)
-	arg_2_0.award = arg_2_0:findTF("frame/award")
+	arg_2_0.pages = arg_2_0._tf:Find("frame/pages")
+	arg_2_0.sitePage = arg_2_0.pages:Find("sitePage")
+	arg_2_0.charaPage = arg_2_0.pages:Find("charaPage")
+	arg_2_0.endingPage = arg_2_0.pages:Find("endingPage")
+	arg_2_0.storyPage = arg_2_0.pages:Find("storyPage")
+	arg_2_0.award = arg_2_0._tf:Find("frame/award")
 
-	setText(arg_2_0:findTF("Text", arg_2_0.pageTgs[1]), i18n("clue_title_1"))
-	setText(arg_2_0:findTF("selected/Text", arg_2_0.pageTgs[1]), i18n("clue_title_1"))
-	setText(arg_2_0:findTF("Text", arg_2_0.pageTgs[2]), i18n("clue_title_2"))
-	setText(arg_2_0:findTF("selected/Text", arg_2_0.pageTgs[2]), i18n("clue_title_2"))
-	setText(arg_2_0:findTF("Text", arg_2_0.pageTgs[3]), i18n("clue_title_3"))
-	setText(arg_2_0:findTF("selected/Text", arg_2_0.pageTgs[3]), i18n("clue_title_3"))
-	setText(arg_2_0:findTF("Text", arg_2_0.pageTgs[4]), i18n("clue_title_4"))
-	setText(arg_2_0:findTF("selected/Text", arg_2_0.pageTgs[4]), i18n("clue_title_4"))
+	setText(arg_2_0.pageTgs[1]:Find("Text"), i18n("clue_title_1"))
+	setText(arg_2_0.pageTgs[1]:Find("selected/Text"), i18n("clue_title_1"))
+	setText(arg_2_0.pageTgs[2]:Find("Text"), i18n("clue_title_2"))
+	setText(arg_2_0.pageTgs[2]:Find("selected/Text"), i18n("clue_title_2"))
+	setText(arg_2_0.pageTgs[3]:Find("Text"), i18n("clue_title_3"))
+	setText(arg_2_0.pageTgs[3]:Find("selected/Text"), i18n("clue_title_3"))
+	setText(arg_2_0.pageTgs[4]:Find("Text"), i18n("clue_title_4"))
+	setText(arg_2_0.pageTgs[4]:Find("selected/Text"), i18n("clue_title_4"))
 
 	for iter_2_0 = 1, 3 do
-		setText(arg_2_0:findTF("right/Viewport/Content/siteGroup" .. iter_2_0 .. "/goBtn/Text", arg_2_0.sitePage), i18n("clue_task_goto"))
+		setText(arg_2_0.sitePage:Find("right/Viewport/Content/siteGroup" .. iter_2_0 .. "/goBtn/Text"), i18n("clue_task_goto"))
 	end
 
-	setText(arg_2_0:findTF("right/goBtn/Text", arg_2_0.charaPage), i18n("clue_task_goto"))
-	setText(arg_2_0:findTF("doing/Text", arg_2_0.award), i18n("clue_get"))
-	setText(arg_2_0:findTF("get/Text", arg_2_0.award), i18n("clue_get"))
-	setText(arg_2_0:findTF("got/Text", arg_2_0.award), i18n("clue_got"))
+	setText(arg_2_0.charaPage:Find("right/goBtn/Text"), i18n("clue_task_goto"))
+	setText(arg_2_0.award:Find("doing/Text"), i18n("clue_get"))
+	setText(arg_2_0.award:Find("get/Text"), i18n("clue_get"))
+	setText(arg_2_0.award:Find("got/Text"), i18n("clue_got"))
 end
 
 function var_0_0.didEnter(arg_3_0)
@@ -47,14 +47,14 @@ function var_0_0.didEnter(arg_3_0)
 		arg_3_0:StopBgm()
 		arg_3_0:closeView()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("mask"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("mask"), function()
 		arg_3_0:StopBgm()
 		arg_3_0:closeView()
 	end, SFX_PANEL)
 	arg_3_0:InitView()
 	arg_3_0:UpdateView()
 	pg.BgmMgr.GetInstance():Push(arg_3_0.__cname, arg_3_0.bgm)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.InitData(arg_6_0)
@@ -84,15 +84,15 @@ end
 
 function var_0_0.InitView(arg_7_0)
 	for iter_7_0, iter_7_1 in ipairs(arg_7_0.pageTgs) do
-		setActive(arg_7_0:findTF("selected", iter_7_1), arg_7_0.contextData.indexInfo.pageIndex == iter_7_0)
+		setActive(iter_7_1:Find("selected"), arg_7_0.contextData.indexInfo.pageIndex == iter_7_0)
 		onToggle(arg_7_0, iter_7_1, function(arg_8_0)
 			if arg_8_0 then
 				arg_7_0.contextData.indexInfo.pageIndex = iter_7_0
 
 				for iter_8_0 = 0, arg_7_0.pages.childCount - 1 do
 					setActive(arg_7_0.pages:GetChild(iter_8_0), iter_8_0 == iter_7_0 - 1)
-					setActive(arg_7_0:findTF("tip", arg_7_0.pageTgs[iter_8_0 + 1]), var_0_0.ShouldShowTip(iter_8_0 + 1))
-					setActive(arg_7_0:findTF("selected", arg_7_0.pageTgs[iter_8_0 + 1]), arg_7_0.contextData.indexInfo.pageIndex == iter_8_0 + 1)
+					setActive(arg_7_0.pageTgs[iter_8_0 + 1]:Find("tip"), var_0_0.ShouldShowTip(iter_8_0 + 1))
+					setActive(arg_7_0.pageTgs[iter_8_0 + 1]:Find("selected"), arg_7_0.contextData.indexInfo.pageIndex == iter_8_0 + 1)
 				end
 
 				if iter_7_0 == 1 then
@@ -128,35 +128,35 @@ function var_0_0.SetClueGroup(arg_10_0, arg_10_1, arg_10_2)
 		var_10_3[iter_10_0] = arg_10_0.taskProxy:getFinishTaskById(tonumber(var_10_2[iter_10_0].task_id))
 	end
 
-	setText(arg_10_0:findTF("title/Text", arg_10_2), var_10_0.title)
-	setActive(arg_10_0:findTF("title/Text", arg_10_2), var_10_3[1] or var_10_3[2] or var_10_3[3])
-	setActive(arg_10_0:findTF("title/lock", arg_10_2), not var_10_3[1] and not var_10_3[2] and not var_10_3[3])
-	LoadImageSpriteAsync("cluepictures/" .. var_10_0.pic, arg_10_0:findTF("picture", arg_10_2), false)
-	setActive(arg_10_0:findTF("picture/lock", arg_10_2), not var_10_3[1] and not var_10_3[2] and not var_10_3[3])
+	setText(arg_10_2:Find("title/Text"), var_10_0.title)
+	setActive(arg_10_2:Find("title/Text"), var_10_3[1] or var_10_3[2] or var_10_3[3])
+	setActive(arg_10_2:Find("title/lock"), not var_10_3[1] and not var_10_3[2] and not var_10_3[3])
+	LoadImageSpriteAsync("cluepictures/" .. var_10_0.pic, arg_10_2:Find("picture"), false)
+	setActive(arg_10_2:Find("picture/lock"), not var_10_3[1] and not var_10_3[2] and not var_10_3[3])
 
 	local var_10_5 = false
 
 	for iter_10_1 = 1, 3 do
 		if var_10_3[iter_10_1] then
-			setText(arg_10_0:findTF("clue" .. iter_10_1, arg_10_2), var_10_2[iter_10_1].desc)
+			setText(arg_10_2:Find("clue" .. iter_10_1), var_10_2[iter_10_1].desc)
 		elseif arg_10_0.investigatingGroupId == arg_10_1 then
-			setText(arg_10_0:findTF("clue" .. iter_10_1, arg_10_2), "<color=#858593>" .. var_10_2[iter_10_1].unlock_desc .. var_10_2[iter_10_1].unlock_num .. i18n("clue_task_tip", var_10_4) .. "</color>")
+			setText(arg_10_2:Find("clue" .. iter_10_1), "<color=#858593>" .. var_10_2[iter_10_1].unlock_desc .. var_10_2[iter_10_1].unlock_num .. i18n("clue_task_tip", var_10_4) .. "</color>")
 		elseif not var_10_5 then
 			var_10_5 = true
 
-			setText(arg_10_0:findTF("clue" .. iter_10_1, arg_10_2), "<color=#858593>" .. var_10_2[iter_10_1].unlock_desc .. var_10_2[iter_10_1].unlock_num .. i18n("clue_task_tip", var_10_4) .. "</color>")
+			setText(arg_10_2:Find("clue" .. iter_10_1), "<color=#858593>" .. var_10_2[iter_10_1].unlock_desc .. var_10_2[iter_10_1].unlock_num .. i18n("clue_task_tip", var_10_4) .. "</color>")
 		else
-			setText(arg_10_0:findTF("clue" .. iter_10_1, arg_10_2), "<color=#858593>？？？</color>")
+			setText(arg_10_2:Find("clue" .. iter_10_1), "<color=#858593>？？？</color>")
 		end
 	end
 
-	setActive(arg_10_0:findTF("goBtn", arg_10_2), not var_10_3[1] or not var_10_3[2] or not var_10_3[3])
-	setActive(arg_10_0:findTF("goBtn/selected", arg_10_2), arg_10_0.investigatingGroupId == arg_10_1)
-	onButton(arg_10_0, arg_10_0:findTF("goBtn", arg_10_2), function()
+	setActive(arg_10_2:Find("goBtn"), not var_10_3[1] or not var_10_3[2] or not var_10_3[3])
+	setActive(arg_10_2:Find("goBtn/selected"), arg_10_0.investigatingGroupId == arg_10_1)
+	onButton(arg_10_0, arg_10_2:Find("goBtn"), function()
 		arg_10_0.investigatingGroupId = arg_10_1
 
 		PlayerPrefs.SetInt("investigatingGroupId_" .. arg_10_0.activityId .. "_" .. arg_10_0.playerId, arg_10_1)
-		setActive(arg_10_0:findTF("goBtn/selected", arg_10_2), true)
+		setActive(arg_10_2:Find("goBtn/selected"), true)
 
 		if arg_10_0.contextData.indexInfo.pageIndex == 1 then
 			arg_10_0:ShowSitePage()
@@ -177,21 +177,21 @@ function var_0_0.SetAward(arg_12_0, arg_12_1, arg_12_2)
 		count = var_12_1[3]
 	}
 
-	updateDrop(arg_12_0:findTF("mask/IconTpl", arg_12_0.award), var_12_2)
-	onButton(arg_12_0, arg_12_0:findTF("mask", arg_12_0.award), function()
+	updateDrop(arg_12_0.award:Find("mask/IconTpl"), var_12_2)
+	onButton(arg_12_0, arg_12_0.award:Find("mask"), function()
 		arg_12_0:emit(BaseUI.ON_DROP, var_12_2)
 	end, SFX_PANEL)
 
 	local var_12_3 = var_12_0:getTaskStatus()
 
-	setText(arg_12_0:findTF("Text", arg_12_0.award), var_12_0:getConfig("desc"))
-	setActive(arg_12_0:findTF("mask/IconTpl/mask", arg_12_0.award), var_12_3 == 2)
-	setActive(arg_12_0:findTF("doing", arg_12_0.award), var_12_3 == 0)
-	setActive(arg_12_0:findTF("get", arg_12_0.award), var_12_3 == 1)
-	setActive(arg_12_0:findTF("got", arg_12_0.award), var_12_3 == 2)
+	setText(arg_12_0.award:Find("Text"), var_12_0:getConfig("desc"))
+	setActive(arg_12_0.award:Find("mask/IconTpl/mask"), var_12_3 == 2)
+	setActive(arg_12_0.award:Find("doing"), var_12_3 == 0)
+	setActive(arg_12_0.award:Find("get"), var_12_3 == 1)
+	setActive(arg_12_0.award:Find("got"), var_12_3 == 2)
 
 	if arg_12_2 then
-		onButton(arg_12_0, arg_12_0:findTF("get", arg_12_0.award), function()
+		onButton(arg_12_0, arg_12_0.award:Find("get"), function()
 			arg_12_0:emit(ClueBookMediator.ON_TASK_SUBMIT_ONESTEP, arg_12_0.taskActivityId, {
 				arg_12_1
 			}, function(arg_15_0)
@@ -201,7 +201,7 @@ function var_0_0.SetAward(arg_12_0, arg_12_1, arg_12_2)
 			end)
 		end, SFX_PANEL)
 	else
-		onButton(arg_12_0, arg_12_0:findTF("get", arg_12_0.award), function()
+		onButton(arg_12_0, arg_12_0.award:Find("get"), function()
 			local var_16_0 = {}
 			local var_16_1 = var_12_0:getConfig("award_display")
 			local var_16_2 = getProxy(PlayerProxy):getRawData()
@@ -230,7 +230,7 @@ function var_0_0.SetAward(arg_12_0, arg_12_1, arg_12_2)
 end
 
 function var_0_0.ShowSitePage(arg_19_0)
-	local var_19_0 = UIItemList.New(arg_19_0:findTF("left/Viewport/Content", arg_19_0.sitePage), arg_19_0:findTF("left/Viewport/Content/pageTg", arg_19_0.sitePage))
+	local var_19_0 = UIItemList.New(arg_19_0.sitePage:Find("left/Viewport/Content"), arg_19_0.sitePage:Find("left/Viewport/Content/pageTg"))
 
 	var_19_0:make(function(arg_20_0, arg_20_1, arg_20_2)
 		if arg_20_0 == UIItemList.EventUpdate then
@@ -249,14 +249,14 @@ function var_0_0.ShowSitePage(arg_19_0)
 					arg_19_0.contextData.indexInfo.subPageSiteIndex = arg_20_1 + 1
 
 					for iter_21_0 = 1, #arg_19_0.clueSite do
-						setActive(arg_19_0:findTF("left/Viewport/Content", arg_19_0.sitePage):GetChild(iter_21_0 - 1):Find("Text"), arg_19_0.contextData.indexInfo.subPageSiteIndex ~= iter_21_0)
-						setActive(arg_19_0:findTF("left/Viewport/Content", arg_19_0.sitePage):GetChild(iter_21_0 - 1):Find("selected"), arg_19_0.contextData.indexInfo.subPageSiteIndex == iter_21_0)
+						setActive(arg_19_0.sitePage:Find("left/Viewport/Content"):GetChild(iter_21_0 - 1):Find("Text"), arg_19_0.contextData.indexInfo.subPageSiteIndex ~= iter_21_0)
+						setActive(arg_19_0.sitePage:Find("left/Viewport/Content"):GetChild(iter_21_0 - 1):Find("selected"), arg_19_0.contextData.indexInfo.subPageSiteIndex == iter_21_0)
 					end
 
 					for iter_21_1 = 1, 3 do
 						local var_21_0 = var_20_0[iter_21_1]
 
-						arg_19_0:SetClueGroup(var_21_0, arg_19_0:findTF("right/Viewport/Content/siteGroup" .. iter_21_1, arg_19_0.sitePage))
+						arg_19_0:SetClueGroup(var_21_0, arg_19_0.sitePage:Find("right/Viewport/Content/siteGroup" .. iter_21_1))
 					end
 
 					arg_19_0:SetAward(var_20_1)
@@ -272,7 +272,7 @@ function var_0_0.ShowSitePage(arg_19_0)
 end
 
 function var_0_0.ShowCharaPage(arg_22_0)
-	local var_22_0 = UIItemList.New(arg_22_0:findTF("left/Viewport/Content", arg_22_0.charaPage), arg_22_0:findTF("left/Viewport/Content/pageTg", arg_22_0.charaPage))
+	local var_22_0 = UIItemList.New(arg_22_0.charaPage:Find("left/Viewport/Content"), arg_22_0.charaPage:Find("left/Viewport/Content/pageTg"))
 
 	var_22_0:make(function(arg_23_0, arg_23_1, arg_23_2)
 		if arg_23_0 == UIItemList.EventUpdate then
@@ -298,11 +298,11 @@ function var_0_0.ShowCharaPage(arg_22_0)
 					arg_22_0.contextData.indexInfo.subPageCharaIndex = arg_23_1 + 1
 
 					for iter_24_0 = 1, #arg_22_0.clueChara do
-						setActive(arg_22_0:findTF("left/Viewport/Content", arg_22_0.charaPage):GetChild(iter_24_0 - 1):Find("Text"), arg_22_0.contextData.indexInfo.subPageCharaIndex ~= iter_24_0)
-						setActive(arg_22_0:findTF("left/Viewport/Content", arg_22_0.charaPage):GetChild(iter_24_0 - 1):Find("selected"), arg_22_0.contextData.indexInfo.subPageCharaIndex == iter_24_0)
+						setActive(arg_22_0.charaPage:Find("left/Viewport/Content"):GetChild(iter_24_0 - 1):Find("Text"), arg_22_0.contextData.indexInfo.subPageCharaIndex ~= iter_24_0)
+						setActive(arg_22_0.charaPage:Find("left/Viewport/Content"):GetChild(iter_24_0 - 1):Find("selected"), arg_22_0.contextData.indexInfo.subPageCharaIndex == iter_24_0)
 					end
 
-					arg_22_0:SetClueGroup(var_23_0, arg_22_0:findTF("right", arg_22_0.charaPage))
+					arg_22_0:SetClueGroup(var_23_0, arg_22_0.charaPage:Find("right"))
 					arg_22_0:SetAward(var_23_1)
 				end
 			end, SFX_PANEL)
@@ -313,8 +313,8 @@ function var_0_0.ShowCharaPage(arg_22_0)
 		end
 	end)
 	var_22_0:align(#arg_22_0.clueChara)
-	onScroll(arg_22_0, arg_22_0:findTF("left", arg_22_0.charaPage), function(arg_25_0)
-		setActive(arg_22_0:findTF("triangle", arg_22_0.charaPage), arg_25_0.y > 0.01)
+	onScroll(arg_22_0, arg_22_0.charaPage:Find("left"), function(arg_25_0)
+		setActive(arg_22_0.charaPage:Find("triangle"), arg_25_0.y > 0.01)
 	end)
 end
 
@@ -337,7 +337,7 @@ function var_0_0.GetGroupClueCompleteCount(arg_26_0, arg_26_1)
 end
 
 function var_0_0.ShowEndingPage(arg_27_0)
-	local var_27_0 = UIItemList.New(arg_27_0:findTF("left/Viewport/Content", arg_27_0.endingPage), arg_27_0:findTF("left/Viewport/Content/pageTg", arg_27_0.endingPage))
+	local var_27_0 = UIItemList.New(arg_27_0.endingPage:Find("left/Viewport/Content"), arg_27_0.endingPage:Find("left/Viewport/Content/pageTg"))
 
 	var_27_0:make(function(arg_28_0, arg_28_1, arg_28_2)
 		if arg_28_0 == UIItemList.EventUpdate then
@@ -380,8 +380,8 @@ function var_0_0.ShowEndingPage(arg_27_0)
 					arg_27_0.contextData.indexInfo.subPageEndingIndex = arg_28_1 + 1
 
 					for iter_29_0 = 1, #arg_27_0.clueEnding do
-						setActive(arg_27_0:findTF("left/Viewport/Content", arg_27_0.endingPage):GetChild(iter_29_0 - 1):Find("Text"), arg_27_0.contextData.indexInfo.subPageEndingIndex ~= iter_29_0)
-						setActive(arg_27_0:findTF("left/Viewport/Content", arg_27_0.endingPage):GetChild(iter_29_0 - 1):Find("selected"), arg_27_0.contextData.indexInfo.subPageEndingIndex == iter_29_0)
+						setActive(arg_27_0.endingPage:Find("left/Viewport/Content"):GetChild(iter_29_0 - 1):Find("Text"), arg_27_0.contextData.indexInfo.subPageEndingIndex ~= iter_29_0)
+						setActive(arg_27_0.endingPage:Find("left/Viewport/Content"):GetChild(iter_29_0 - 1):Find("selected"), arg_27_0.contextData.indexInfo.subPageEndingIndex == iter_29_0)
 					end
 
 					table.sort(var_28_0, function(arg_30_0, arg_30_1)
@@ -398,41 +398,41 @@ function var_0_0.ShowEndingPage(arg_27_0)
 						local var_29_2 = var_0_3[var_29_1]
 						local var_29_3 = arg_27_0.taskProxy:getTaskVO(tonumber(var_29_2.task_id)):getTaskStatus()
 
-						setActive(arg_27_0:findTF("right/ending" .. iter_29_1 .. "/icon", arg_27_0.endingPage), var_29_0)
-						setActive(arg_27_0:findTF("right/ending" .. iter_29_1 .. "/selected", arg_27_0.endingPage), arg_27_0.endingIndex == iter_29_1)
-						setActive(arg_27_0:findTF("right/ending" .. iter_29_1 .. "/lock", arg_27_0.endingPage), not var_29_0)
-						setActive(arg_27_0:findTF("right/ending" .. iter_29_1 .. "/tip", arg_27_0.endingPage), var_29_3 == 1 and var_29_0)
+						setActive(arg_27_0.endingPage:Find("right/ending" .. iter_29_1 .. "/icon"), var_29_0)
+						setActive(arg_27_0.endingPage:Find("right/ending" .. iter_29_1 .. "/selected"), arg_27_0.endingIndex == iter_29_1)
+						setActive(arg_27_0.endingPage:Find("right/ending" .. iter_29_1 .. "/lock"), not var_29_0)
+						setActive(arg_27_0.endingPage:Find("right/ending" .. iter_29_1 .. "/tip"), var_29_3 == 1 and var_29_0)
 
-						arg_27_0:findTF("right/ending" .. iter_29_1, arg_27_0.endingPage):GetComponent(typeof(CanvasGroup)).alpha = var_29_0 and 1 or 0.8
+						arg_27_0.endingPage:Find("right/ending" .. iter_29_1):GetComponent(typeof(CanvasGroup)).alpha = var_29_0 and 1 or 0.8
 
 						if var_29_0 then
-							setText(arg_27_0:findTF("right/ending" .. iter_29_1 .. "/title", arg_27_0.endingPage), var_29_2.title)
-							onToggle(arg_27_0, arg_27_0:findTF("right/ending" .. iter_29_1, arg_27_0.endingPage), function(arg_31_0)
+							setText(arg_27_0.endingPage:Find("right/ending" .. iter_29_1 .. "/title"), var_29_2.title)
+							onToggle(arg_27_0, arg_27_0.endingPage:Find("right/ending" .. iter_29_1), function(arg_31_0)
 								if arg_31_0 then
 									arg_27_0.endingIndex = iter_29_1
 
 									for iter_31_0 = 1, #var_28_0 do
-										setActive(arg_27_0:findTF("right/ending" .. iter_31_0 .. "/selected", arg_27_0.endingPage), iter_31_0 == arg_27_0.endingIndex)
+										setActive(arg_27_0.endingPage:Find("right/ending" .. iter_31_0 .. "/selected"), iter_31_0 == arg_27_0.endingIndex)
 									end
 
 									local var_31_0 = var_29_2.clue
 									local var_31_1 = var_29_2.locate
 
-									setText(arg_27_0:findTF("middle/titleBg/Text", arg_27_0.endingPage), var_29_2.title2)
-									setText(arg_27_0:findTF("middle/endingDetail/Viewport/Content/detail", arg_27_0.endingPage), var_29_2.desc)
-									onScroll(arg_27_0, arg_27_0:findTF("middle/endingDetail", arg_27_0.endingPage), function(arg_32_0)
-										setActive(arg_27_0:findTF("middle/triangle", arg_27_0.endingPage), arg_32_0.y > 0.01)
+									setText(arg_27_0.endingPage:Find("middle/titleBg/Text"), var_29_2.title2)
+									setText(arg_27_0.endingPage:Find("middle/endingDetail/Viewport/Content/detail"), var_29_2.desc)
+									onScroll(arg_27_0, arg_27_0.endingPage:Find("middle/endingDetail"), function(arg_32_0)
+										setActive(arg_27_0.endingPage:Find("middle/triangle"), arg_32_0.y > 0.01)
 									end)
-									setActive(arg_27_0:findTF("right/combine", arg_27_0.endingPage), var_29_3 == 1)
-									onButton(arg_27_0, arg_27_0:findTF("right/combine", arg_27_0.endingPage), function()
+									setActive(arg_27_0.endingPage:Find("right/combine"), var_29_3 == 1)
+									onButton(arg_27_0, arg_27_0.endingPage:Find("right/combine"), function()
 										arg_27_0:emit(ClueBookMediator.ON_TASK_SUBMIT_ONESTEP, arg_27_0.taskActivityId, {
 											tonumber(var_29_2.task_id)
 										})
 									end, SFX_PANEL)
-									setActive(arg_27_0:findTF("middle/cluePanel", arg_27_0.endingPage), var_29_3 ~= 2)
+									setActive(arg_27_0.endingPage:Find("middle/cluePanel"), var_29_3 ~= 2)
 
 									if var_29_3 ~= 2 then
-										local var_31_2 = UIItemList.New(arg_27_0:findTF("middle/cluePanel", arg_27_0.endingPage), arg_27_0:findTF("middle/cluePanel/clueGroup", arg_27_0.endingPage))
+										local var_31_2 = UIItemList.New(arg_27_0.endingPage:Find("middle/cluePanel"), arg_27_0.endingPage:Find("middle/cluePanel/clueGroup"))
 
 										var_31_2:make(function(arg_34_0, arg_34_1, arg_34_2)
 											if arg_34_0 == UIItemList.EventUpdate then
@@ -456,14 +456,14 @@ function var_0_0.ShowEndingPage(arg_27_0)
 													var_34_5:GetComponent(typeof(CanvasGroup)).alpha = var_34_6 == 0 and 0.4 or 1
 
 													if var_34_6 == 0 then
-														setText(arg_27_0:findTF("name/Text", var_34_5), "？？？")
+														setText(var_34_5:Find("name/Text"), "？？？")
 													else
-														setText(arg_27_0:findTF("name/Text", var_34_5), var_34_4.title)
+														setText(var_34_5:Find("name/Text"), var_34_4.title)
 													end
 
-													setText(arg_27_0:findTF("progress", var_34_5), var_34_6 .. "/3")
-													setActive(arg_27_0:findTF("progress", var_34_5), var_34_6 == 1 or var_34_6 == 2)
-													setActive(arg_27_0:findTF("complete", var_34_5), var_34_6 == 3)
+													setText(var_34_5:Find("progress"), var_34_6 .. "/3")
+													setActive(var_34_5:Find("progress"), var_34_6 == 1 or var_34_6 == 2)
+													setActive(var_34_5:Find("complete"), var_34_6 == 3)
 													onButton(arg_27_0, arg_34_2, function()
 														arg_27_0:emit(ClueBookMediator.OPEN_SINGLE_CLUE_GROUP, var_34_0)
 													end, SFX_PANEL)
@@ -483,7 +483,7 @@ function var_0_0.ShowEndingPage(arg_27_0)
 													end
 
 													onButton(arg_27_0, arg_34_2, function()
-														triggerToggle(arg_27_0:findTF("right/ending" .. arg_34_1 + 1, arg_27_0.endingPage), true)
+														triggerToggle(arg_27_0.endingPage:Find("right/ending" .. arg_34_1 + 1), true)
 													end, SFX_PANEL)
 												end
 
@@ -502,8 +502,8 @@ function var_0_0.ShowEndingPage(arg_27_0)
 								var_29_4 = "6683cf"
 							end
 
-							setText(arg_27_0:findTF("right/ending" .. iter_29_1 .. "/title", arg_27_0.endingPage), "<color=#" .. var_29_4 .. ">" .. var_29_2.title .. "</color>")
-							removeOnToggle(arg_27_0:findTF("right/ending" .. iter_29_1, arg_27_0.endingPage))
+							setText(arg_27_0.endingPage:Find("right/ending" .. iter_29_1 .. "/title"), "<color=#" .. var_29_4 .. ">" .. var_29_2.title .. "</color>")
+							removeOnToggle(arg_27_0.endingPage:Find("right/ending" .. iter_29_1))
 						end
 
 						if var_29_3 ~= 2 then
@@ -511,7 +511,7 @@ function var_0_0.ShowEndingPage(arg_27_0)
 						end
 					end
 
-					triggerToggle(arg_27_0:findTF("right/ending" .. arg_27_0.endingIndex, arg_27_0.endingPage), true)
+					triggerToggle(arg_27_0.endingPage:Find("right/ending" .. arg_27_0.endingIndex), true)
 					arg_27_0:SetAward(var_28_1)
 				end
 			end, SFX_PANEL)
@@ -526,20 +526,20 @@ end
 
 function var_0_0.ShowStoryPage(arg_37_0)
 	local function var_37_0()
-		setText(arg_37_0:findTF("pageIndex/Text", arg_37_0.storyPage), arg_37_0.storyIndex .. "/2")
-		setActive(arg_37_0:findTF("leftBtn", arg_37_0.storyPage), arg_37_0.storyIndex == 2)
-		setActive(arg_37_0:findTF("rightBtn", arg_37_0.storyPage), arg_37_0.storyIndex == 1)
-		setActive(arg_37_0:findTF("subPages/page1", arg_37_0.storyPage), arg_37_0.storyIndex == 1)
-		setActive(arg_37_0:findTF("subPages/page2", arg_37_0.storyPage), arg_37_0.storyIndex == 2)
+		setText(arg_37_0.storyPage:Find("pageIndex/Text"), arg_37_0.storyIndex .. "/2")
+		setActive(arg_37_0.storyPage:Find("leftBtn"), arg_37_0.storyIndex == 2)
+		setActive(arg_37_0.storyPage:Find("rightBtn"), arg_37_0.storyIndex == 1)
+		setActive(arg_37_0.storyPage:Find("subPages/page1"), arg_37_0.storyIndex == 1)
+		setActive(arg_37_0.storyPage:Find("subPages/page2"), arg_37_0.storyIndex == 2)
 	end
 
 	var_37_0()
-	onButton(arg_37_0, arg_37_0:findTF("leftBtn", arg_37_0.storyPage), function()
+	onButton(arg_37_0, arg_37_0.storyPage:Find("leftBtn"), function()
 		arg_37_0.storyIndex = 1
 
 		var_37_0()
 	end, SFX_PANEL)
-	onButton(arg_37_0, arg_37_0:findTF("rightBtn", arg_37_0.storyPage), function()
+	onButton(arg_37_0, arg_37_0.storyPage:Find("rightBtn"), function()
 		arg_37_0.storyIndex = 2
 
 		var_37_0()
@@ -549,9 +549,9 @@ function var_0_0.ShowStoryPage(arg_37_0)
 		local var_37_1
 
 		if iter_37_0 <= 5 then
-			var_37_1 = arg_37_0:findTF("subPages/page1", arg_37_0.storyPage):GetChild(iter_37_0 - 1)
+			var_37_1 = arg_37_0.storyPage:Find("subPages/page1"):GetChild(iter_37_0 - 1)
 		else
-			var_37_1 = arg_37_0:findTF("subPages/page2", arg_37_0.storyPage):GetChild(iter_37_0 - 6)
+			var_37_1 = arg_37_0.storyPage:Find("subPages/page2"):GetChild(iter_37_0 - 6)
 		end
 
 		local var_37_2 = arg_37_0.story[iter_37_0]
@@ -562,13 +562,13 @@ function var_0_0.ShowStoryPage(arg_37_0)
 		local var_37_7 = arg_37_0.taskProxy:getTaskVO(var_37_5):getTaskStatus()
 
 		if var_37_3 == 1 then
-			setText(arg_37_0:findTF("lock/Text", var_37_1), i18n("clue_lock_tip1"))
+			setText(var_37_1:Find("lock/Text"), i18n("clue_lock_tip1"))
 		else
-			setText(arg_37_0:findTF("lock/Text", var_37_1), i18n("clue_lock_tip2", var_0_3[var_37_4].title))
+			setText(var_37_1:Find("lock/Text"), i18n("clue_lock_tip2", var_0_3[var_37_4].title))
 		end
 
-		setActive(arg_37_0:findTF("lock", var_37_1), var_37_7 == 0)
-		setActive(arg_37_0:findTF("canGet", var_37_1), var_37_7 == 1)
+		setActive(var_37_1:Find("lock"), var_37_7 == 0)
+		setActive(var_37_1:Find("canGet"), var_37_7 == 1)
 
 		var_37_1:GetComponent(typeof(CanvasGroup)).alpha = var_37_7 == 0 and 0.4 or 1
 

@@ -6,10 +6,7 @@ function var_0_0.OnInit(arg_1_0)
 end
 
 function var_0_0.OnShow(arg_2_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_2_0._tf, {
-		weight = LayerWeightConst.THIRD_LAYER,
-		groupName = LayerWeightConst.GROUP_LEVELUI
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_2_0._tf)
 	arg_2_0.animEvent:SetEndEvent(function()
 		arg_2_0:Hide()
 	end)

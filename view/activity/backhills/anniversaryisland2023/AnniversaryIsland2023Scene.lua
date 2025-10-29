@@ -27,9 +27,9 @@ function var_0_0.preload(arg_3_0, arg_3_1)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0.top = arg_4_0:findTF("top")
-	arg_4_0._bg = arg_4_0:findTF("BG")
-	arg_4_0._map = arg_4_0:findTF("map")
+	arg_4_0.top = arg_4_0._tf:Find("top")
+	arg_4_0._bg = arg_4_0._tf:Find("BG")
+	arg_4_0._map = arg_4_0._tf:Find("map")
 
 	for iter_4_0 = 0, arg_4_0._map.childCount - 1 do
 		local var_4_0 = arg_4_0._map:GetChild(iter_4_0)
@@ -38,7 +38,7 @@ function var_0_0.init(arg_4_0)
 		arg_4_0["map_" .. var_4_1] = var_4_0
 	end
 
-	arg_4_0._upper = arg_4_0:findTF("upper")
+	arg_4_0._upper = arg_4_0._tf:Find("upper")
 
 	for iter_4_1 = 0, arg_4_0._upper.childCount - 1 do
 		local var_4_2 = arg_4_0._upper:GetChild(iter_4_1)
@@ -56,13 +56,13 @@ function var_0_0.init(arg_4_0)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	onButton(arg_5_0, arg_5_0:findTF("top/Back"), function()
+	onButton(arg_5_0, arg_5_0._tf:Find("top/Back"), function()
 		arg_5_0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(arg_5_0, arg_5_0:findTF("top/Home"), function()
+	onButton(arg_5_0, arg_5_0._tf:Find("top/Home"), function()
 		arg_5_0:emit(var_0_0.ON_HOME)
 	end, SFX_PANEL)
-	onButton(arg_5_0, arg_5_0:findTF("top/Help"), function()
+	onButton(arg_5_0, arg_5_0._tf:Find("top/Help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.haidaojudian_help.tip
@@ -208,8 +208,8 @@ function var_0_0.RegisterDataResponse(arg_19_0)
 		var_22_2("xianshijianzao")
 		var_22_2("huanzhuangshangdian")
 		var_22_2("taskboard")
-		var_22_1.loader:GetSpriteQuiet("ui/" .. arg_19_0:getUIName() .. "_atlas", "title_" .. var_22_0, var_22_1:findTF("top/Title/Number"), true)
-		var_22_1.loader:GetSpriteQuiet("ui/" .. arg_19_0:getUIName() .. "_level" .. var_22_0, "bg", var_22_1:findTF("map"))
+		var_22_1.loader:GetSpriteQuiet("ui/" .. arg_19_0:getUIName() .. "_atlas", "title_" .. var_22_0, var_22_1._tf:Find("top/Title/Number"), true)
+		var_22_1.loader:GetSpriteQuiet("ui/" .. arg_19_0:getUIName() .. "_level" .. var_22_0, "bg", var_22_1._tf:Find("map"))
 	end, {
 		useOldRef = true
 	})

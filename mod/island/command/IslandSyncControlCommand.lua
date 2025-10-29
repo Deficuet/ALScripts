@@ -7,7 +7,9 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		island_id = var_1_0.islandId,
 		obj_id = var_1_0.objId,
 		slot_id = var_1_0.slotId,
-		mseconds = var_1_0.mseconds
+		op = var_1_0.op,
+		status = var_1_0.status,
+		type = var_1_0.type
 	}, 21210, function(arg_2_0)
 		if IslandConst.SYNC_TEST_DELAY_ON then
 			local var_2_0 = math.random(IslandConst.SYNC_TEST_DELAY_L, IslandConst.SYNC_TEST_DELAY_R)

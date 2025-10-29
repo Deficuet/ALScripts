@@ -24,8 +24,7 @@ function var_0_0.OnClick(arg_3_0)
 			parentContext = getProxy(ContextProxy):getCurrentContext(),
 			context = Context.New({
 				mediator = MedalCollectionTemplateMediator,
-				viewComponent = ToLoveCollabMedalView,
-				weight = LayerWeightConst.TOP_LAYER
+				viewComponent = ToLoveCollabMedalView
 			})
 		})
 	else

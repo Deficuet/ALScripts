@@ -1,14 +1,14 @@
 local var_0_0 = class("XiaobeiFaPage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.layer = arg_1_0:findTF("layer")
-	arg_1_0.btn = arg_1_0:findTF("btn", arg_1_0.layer)
-	arg_1_0.bonusList = arg_1_0:findTF("bonus_list", arg_1_0.layer)
-	arg_1_0.progress = arg_1_0:findTF("progress", arg_1_0.layer)
-	arg_1_0.progressTxt = arg_1_0:findTF("progressText", arg_1_0.layer)
-	arg_1_0.phaseTxt = arg_1_0:findTF("phase/Text", arg_1_0.layer)
-	arg_1_0.award = arg_1_0:findTF("award", arg_1_0.layer)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.layer = arg_1_0._tf:Find("layer")
+	arg_1_0.btn = arg_1_0.layer:Find("btn")
+	arg_1_0.bonusList = arg_1_0.layer:Find("bonus_list")
+	arg_1_0.progress = arg_1_0.layer:Find("progress")
+	arg_1_0.progressTxt = arg_1_0.layer:Find("progressText")
+	arg_1_0.phaseTxt = arg_1_0.layer:Find("phase/Text")
+	arg_1_0.award = arg_1_0.layer:Find("award")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -40,7 +40,7 @@ function var_0_0.flush_task_list_pt_xiaobeifa(arg_5_0)
 	if var_5_0:getConfig("config_client").main_task then
 		local var_5_4 = var_5_3 and var_5_1 or var_5_1 - 1
 
-		arg_5_0:setImportantProgress(var_5_0, arg_5_0:findTF("progress_important"), var_5_4, var_5_0:getConfig("config_client").main_task, var_5_0:getConfig("config_data"))
+		arg_5_0:setImportantProgress(var_5_0, arg_5_0._tf:Find("progress_important"), var_5_4, var_5_0:getConfig("config_client").main_task, var_5_0:getConfig("config_data"))
 	end
 end
 
@@ -170,7 +170,7 @@ function var_0_0.setImportantProgress(arg_11_0, arg_11_1, arg_11_2, arg_11_3, ar
 
 				local var_11_9 = pg.task_data_template[iter_11_1]
 				local var_11_10 = var_11_9.award_display[1]
-				local var_11_11 = arg_11_0:findTF("award", var_11_8)
+				local var_11_11 = var_11_8:Find("award")
 				local var_11_12 = {
 					type = var_11_10[1],
 					id = var_11_10[2],
@@ -181,9 +181,9 @@ function var_0_0.setImportantProgress(arg_11_0, arg_11_1, arg_11_2, arg_11_3, ar
 				onButton(arg_11_0, var_11_11, function()
 					arg_11_0:emit(BaseUI.ON_DROP, var_11_12)
 				end, SFX_PANEL)
-				setText(arg_11_0:findTF("Text", var_11_8), var_11_9.target_num)
+				setText(var_11_8:Find("Text"), var_11_9.target_num)
 
-				local var_11_13 = arg_11_0:findTF("mask", var_11_11)
+				local var_11_13 = var_11_11:Find("mask")
 
 				setActive(var_11_13, iter_11_2 <= arg_11_3)
 

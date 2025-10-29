@@ -26,16 +26,16 @@ end
 
 function var_0_0.CommonInit(arg_5_0)
 	arg_5_0.eventTriggers = {}
-	arg_5_0._startBtn = arg_5_0:findTF("right/start")
-	arg_5_0._costContainer = arg_5_0:findTF("right/start/cost_container")
+	arg_5_0._startBtn = arg_5_0._tf:Find("right/start")
+	arg_5_0._costContainer = arg_5_0._tf:Find("right/start/cost_container")
 	arg_5_0._popup = arg_5_0._costContainer:Find("popup")
 	arg_5_0._costText = arg_5_0._popup:Find("Text")
-	arg_5_0._moveLayer = arg_5_0:findTF("moveLayer")
+	arg_5_0._moveLayer = arg_5_0._tf:Find("moveLayer")
 
-	local var_5_0 = arg_5_0:findTF("middle")
+	local var_5_0 = arg_5_0._tf:Find("middle")
 
-	arg_5_0._autoToggle = arg_5_0:findTF("auto_toggle")
-	arg_5_0._autoSubToggle = arg_5_0:findTF("sub_toggle_container/sub_toggle")
+	arg_5_0._autoToggle = arg_5_0._tf:Find("auto_toggle")
+	arg_5_0._autoSubToggle = arg_5_0._tf:Find("sub_toggle_container/sub_toggle")
 	arg_5_0._fleetInfo = var_5_0:Find("fleet_info")
 	arg_5_0._fleetNameText = var_5_0:Find("fleet_info/fleet_name/Text")
 	arg_5_0._fleetNumText = var_5_0:Find("fleet_info/fleet_number")
@@ -60,20 +60,20 @@ function var_0_0.CommonInit(arg_5_0)
 		arg_5_0._gridTFs[TeamType.Submarine][iter_5_0] = arg_5_0._gridFrame:Find("submarine_" .. iter_5_0)
 	end
 
-	arg_5_0._nextPage = arg_5_0:findTF("middle/nextPage")
-	arg_5_0._prevPage = arg_5_0:findTF("middle/prevPage")
+	arg_5_0._nextPage = arg_5_0._tf:Find("middle/nextPage")
+	arg_5_0._prevPage = arg_5_0._tf:Find("middle/prevPage")
 	arg_5_0._heroContainer = var_5_0:Find("HeroContainer")
 	arg_5_0._checkBtn = var_5_0:Find("checkBtn")
-	arg_5_0._blurPanel = arg_5_0:findTF("blur_panel")
-	arg_5_0.topPanel = arg_5_0:findTF("top", arg_5_0._blurPanel)
-	arg_5_0.topPanelBg = arg_5_0:findTF("top_bg", arg_5_0._blurPanel)
-	arg_5_0._backBtn = arg_5_0:findTF("back_btn", arg_5_0.topPanel)
-	arg_5_0._spoilsContainer = arg_5_0:findTF("right/infomation/atlasloot/spoils/items/items_container")
-	arg_5_0._item = arg_5_0:findTF("right/infomation/atlasloot/spoils/items/item_tpl")
+	arg_5_0._blurPanel = arg_5_0._tf:Find("blur_panel")
+	arg_5_0.topPanel = arg_5_0._blurPanel:Find("top")
+	arg_5_0.topPanelBg = arg_5_0._blurPanel:Find("top_bg")
+	arg_5_0._backBtn = arg_5_0.topPanel:Find("back_btn")
+	arg_5_0._spoilsContainer = arg_5_0._tf:Find("right/infomation/atlasloot/spoils/items/items_container")
+	arg_5_0._item = arg_5_0._tf:Find("right/infomation/atlasloot/spoils/items/item_tpl")
 
 	SetActive(arg_5_0._item, false)
 
-	arg_5_0._goals = arg_5_0:findTF("right/infomation/target/goal")
+	arg_5_0._goals = arg_5_0._tf:Find("right/infomation/target/goal")
 	arg_5_0._heroInfo = arg_5_0:getTpl("heroInfo")
 	arg_5_0._starTpl = arg_5_0:getTpl("star_tpl")
 
@@ -86,8 +86,8 @@ function var_0_0.CommonInit(arg_5_0)
 	setText(arg_5_0._startBtn:Find("text"), i18n("pre_combat_start"))
 	setText(arg_5_0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
 
-	arg_5_0._middle = arg_5_0:findTF("middle")
-	arg_5_0._right = arg_5_0:findTF("right")
+	arg_5_0._middle = arg_5_0._tf:Find("middle")
+	arg_5_0._right = arg_5_0._tf:Find("right")
 
 	setAnchoredPosition(arg_5_0._middle, {
 		x = -840
@@ -96,9 +96,9 @@ function var_0_0.CommonInit(arg_5_0)
 		x = 470
 	})
 
-	arg_5_0.guideDesc = arg_5_0:findTF("guideDesc", arg_5_0._middle)
+	arg_5_0.guideDesc = arg_5_0._middle:Find("guideDesc")
 	arg_5_0._costTip = arg_5_0._startBtn:Find("cost_container/popup/tip")
-	arg_5_0._continuousBtn = arg_5_0:findTF("right/multiple")
+	arg_5_0._continuousBtn = arg_5_0._tf:Find("right/multiple")
 
 	setText(arg_5_0._continuousBtn:Find("text"), i18n("multiple_sorties_title"))
 	setText(arg_5_0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))
@@ -444,6 +444,9 @@ function var_0_0.didEnter(arg_37_0)
 	end, SFX_PANEL)
 	arg_37_0:UpdateFleetView(true)
 	pg.UIMgr.GetInstance():BlurPanel(arg_37_0._tf)
+
+	GetOrAddComponent(arg_37_0._tf, typeof(CanvasGroup)).interactable = true
+
 	setActive(arg_37_0._autoToggle, true)
 	onToggle(arg_37_0, arg_37_0._autoToggle, function(arg_44_0)
 		arg_37_0:emit(BossRushPreCombatMediator.ON_AUTO, {
@@ -665,8 +668,7 @@ function var_0_0.displayFleetInfo(arg_51_0)
 		onButton(arg_51_0, arg_51_0._costTip, function()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("use_oil_limit_help", var_51_15, var_51_13),
-				weight = LayerWeightConst.SECOND_LAYER
+				content = i18n("use_oil_limit_help", var_51_15, var_51_13)
 			})
 		end)
 	end
@@ -683,7 +685,7 @@ function var_0_0.onBackPressed(arg_61_0)
 end
 
 function var_0_0.willExit(arg_62_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_62_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_62_0._tf)
 	arg_62_0._formationLogic:Destroy()
 
 	arg_62_0._formationLogic = nil

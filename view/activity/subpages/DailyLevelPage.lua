@@ -1,12 +1,12 @@
 local var_0_0 = class("DailyLevelPage", import("view.activity.CorePage.CoreActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.goBtn = arg_1_0:findTF("bg/goBtn")
-	arg_1_0.levelContant = arg_1_0:findTF("bg/titleText/itemList")
-	arg_1_0.itemGO = arg_1_0:findTF("levelItem", arg_1_0.levelContant)
+	arg_1_0.goBtn = arg_1_0._tf:Find("bg/goBtn")
+	arg_1_0.levelContant = arg_1_0._tf:Find("bg/titleText/itemList")
+	arg_1_0.itemGO = arg_1_0.levelContant:Find("levelItem")
 
-	setText(arg_1_0:findTF("bg/titleText"), i18n("open_today"))
-	setText(arg_1_0:findTF("bg/goBtn/Text"), i18n("daily_level_go"))
+	setText(arg_1_0._tf:Find("bg/titleText"), i18n("open_today"))
+	setText(arg_1_0._tf:Find("bg/goBtn/Text"), i18n("daily_level_go"))
 
 	arg_1_0.itemList = UIItemList.New(arg_1_0.levelContant, arg_1_0.itemGO)
 end
@@ -19,7 +19,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 		if arg_4_0 == UIItemList.EventUpdate then
 			local var_4_0 = arg_2_0.activeList[arg_4_1 + 1]
 
-			setText(arg_2_0:findTF("Text", arg_4_2), pg.expedition_daily_template[var_4_0].title)
+			setText(arg_4_2:Find("Text"), pg.expedition_daily_template[var_4_0].title)
 		end
 	end)
 	arg_2_0.activity:SetLoginRedPoint()

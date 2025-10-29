@@ -120,7 +120,7 @@ function var_0_0.ReturnGroup(arg_9_0, arg_9_1)
 end
 
 function var_0_0.GetSpine(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
-	if not arg_10_1 or #arg_10_1 < 0 then
+	if not noEmptyStr(arg_10_1) then
 		return
 	end
 

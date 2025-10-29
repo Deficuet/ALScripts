@@ -1,4 +1,4 @@
-local var_0_0 = class("SettingsAdjustScreenPanle", import(".SettingsBasePanel"))
+local var_0_0 = class("IslandSettingsAdjustScreenPanle", import(".SettingsBasePanel"))
 
 function var_0_0.GetUIName(arg_1_0)
 	return "SettingsAdjustScreen"
@@ -18,13 +18,14 @@ end
 
 function var_0_0.OnUpdate(arg_5_0)
 	local var_5_0 = getProxy(SettingsProxy)
-	local var_5_1 = Screen.width / Screen.height - 0.001
+	local var_5_1 = math.clamp(Screen.width / Screen.height - 0.001, 1.3333333333333333, 2.3333333333333335)
 
 	setSlider(arg_5_0.notchSlider, ADAPT_MIN, var_5_1, var_5_0:GetScreenRatio())
 	OnSliderWithButton(arg_5_0, arg_5_0.notchSlider, function(arg_6_0)
 		var_5_0:SetScreenRatio(arg_6_0)
 
 		NotchAdapt.CheckNotchRatio = arg_6_0
+		NewNotchAdapt.CheckNotchRatio = arg_6_0
 
 		NotchAdapt.AdjustUI()
 	end)

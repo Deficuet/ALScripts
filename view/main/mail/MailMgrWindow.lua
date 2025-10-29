@@ -9,7 +9,7 @@ function var_0_0.OnInit(arg_2_0)
 		arg_2_0:Hide()
 	end, SFX_PANEL)
 
-	arg_2_0.closeBtn = arg_2_0:findTF("window/top/btnBack")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
 
 	onButton(arg_2_0, arg_2_0.closeBtn, function()
 		arg_2_0:Hide()
@@ -160,7 +160,7 @@ function var_0_0.Show(arg_19_0, arg_19_1)
 end
 
 function var_0_0.Hide(arg_20_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_20_0._tf, arg_20_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_20_0._tf, arg_20_0._parentTf)
 	var_0_0.super.Hide(arg_20_0)
 end
 

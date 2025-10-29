@@ -5,27 +5,27 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.itemTF = arg_2_0:findTF("window/item")
+	arg_2_0.itemTF = arg_2_0._tf:Find("window/item")
 	arg_2_0.nameTF = arg_2_0.itemTF:Find("display_panel/name_container/name/Text"):GetComponent(typeof(Text))
 	arg_2_0.descTF = arg_2_0.itemTF:Find("display_panel/desc/Text"):GetComponent(typeof(Text))
 	arg_2_0.itemOwnTF = arg_2_0.itemTF:Find("left/own")
 	arg_2_0.itemDetailTF = arg_2_0.itemTF:Find("left/detail")
-	arg_2_0.confirmBtn = arg_2_0:findTF("window/actions/confirm_btn")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("window/actions/confirm_btn")
 
-	setText(arg_2_0:findTF("window/actions/cancel_btn/pic"), i18n("shop_word_cancel"))
-	setText(arg_2_0:findTF("window/actions/confirm_btn/pic"), i18n("shop_word_exchange"))
+	setText(arg_2_0._tf:Find("window/actions/cancel_btn/pic"), i18n("shop_word_cancel"))
+	setText(arg_2_0._tf:Find("window/actions/confirm_btn/pic"), i18n("shop_word_exchange"))
 	setText(arg_2_0.itemTF:Find("ship_group/locked/Text"), i18n("tag_ship_locked"))
 	setText(arg_2_0.itemTF:Find("ship_group/unlocked/Text"), i18n("tag_ship_unlocked"))
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("window/actions/cancel_btn"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/actions/cancel_btn"), function()
 		arg_3_0:Close()
 	end, SFX_CANCEL)
 	onButton(arg_3_0, arg_3_0._tf:Find("bg"), function()
 		arg_3_0:Close()
 	end, SFX_CANCEL)
-	onButton(arg_3_0, arg_3_0:findTF("window/top/btnBack"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/top/btnBack"), function()
 		arg_3_0:Close()
 	end, SFX_CANCEL)
 end
@@ -69,7 +69,7 @@ function var_0_0.Close(arg_10_0)
 	if arg_10_0.opening then
 		arg_10_0.opening = false
 
-		pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf, arg_10_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 		arg_10_0:Hide()
 	end
 end

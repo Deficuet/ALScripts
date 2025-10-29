@@ -386,7 +386,142 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		382,
 		383,
 		384,
-		385
+		385,
+		386,
+		387,
+		388,
+		389,
+		390,
+		391,
+		392,
+		393,
+		394,
+		395,
+		396,
+		397,
+		398,
+		399,
+		400,
+		401,
+		402,
+		403,
+		404,
+		405,
+		406,
+		407,
+		408,
+		409,
+		410,
+		411,
+		412,
+		413,
+		414,
+		415,
+		416,
+		417,
+		418,
+		419,
+		420,
+		421,
+		422,
+		423,
+		424,
+		425,
+		426,
+		427,
+		428,
+		429,
+		430,
+		431,
+		432,
+		433,
+		434,
+		435,
+		436,
+		437,
+		438,
+		439,
+		440,
+		441,
+		442,
+		443,
+		444,
+		445,
+		446,
+		447,
+		448,
+		449,
+		450,
+		451,
+		452,
+		453,
+		454,
+		455,
+		456,
+		457,
+		458,
+		459,
+		460,
+		461,
+		462,
+		463,
+		464,
+		465,
+		466,
+		467,
+		468,
+		469,
+		470,
+		471,
+		472,
+		473,
+		474,
+		475,
+		476,
+		477,
+		478,
+		479,
+		480,
+		481,
+		482,
+		483,
+		484,
+		485,
+		486,
+		487,
+		488,
+		489,
+		490,
+		491,
+		492,
+		493,
+		494,
+		495,
+		496,
+		497,
+		498,
+		499,
+		500,
+		501,
+		502,
+		503,
+		504,
+		505,
+		506,
+		507,
+		508,
+		509,
+		510,
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517,
+		518,
+		519,
+		520
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3740,5 +3875,1175 @@ pg.base.dorm3d_ins_chat_language = {
 		option = "",
 		id = 385,
 		flag = 3
+	},
+	{
+		param = "指揮官様、やっと帰ってきたのですね～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 386,
+		flag = 0
+	},
+	{
+		param = "大鳳が部屋の隅々まで片付けておきました～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 387,
+		flag = 0
+	},
+	{
+		param = "これでようやく、指揮官様と二人だけの世界に浸れますわ……",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 388,
+		option = {
+			{
+				1,
+				"綺麗なレイアウトだね"
+			}
+		}
+	},
+	{
+		param = "綺麗なレイアウトだね、中々好きだよ",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 389,
+		flag = 1
+	},
+	{
+		param = "ふふっ、指揮官様の好みは完璧に把握していますから～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 390,
+		flag = 1
+	},
+	{
+		param = "ここを指揮官様の一番好きで、一番思い出深い場所にすれば",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 391,
+		flag = 1
+	},
+	{
+		param = "いつでも大鳳のことを恋しく思うようになりますわ～",
+		ship_group = 30707,
+		flag = 1,
+		type = 1,
+		id = 392,
+		option = {
+			{
+				2,
+				"確かに……"
+			}
+		}
+	},
+	{
+		param = "確かに長居したくなるな……",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 393,
+		flag = 2
+	},
+	{
+		param = "ソファやベッド……そして大鳳の体を休憩に使ってくださいませ！",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 394,
+		flag = 2
+	},
+	{
+		param = "この部屋を指揮官様の色に染め上げて～！",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 395,
+		flag = 2
+	},
+	{
+		param = "ふふふふ♥",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 396,
+		flag = 2
+	},
+	{
+		param = "はぁ……待ち時間は、本当に長く感じちゃいますわ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 397,
+		flag = 0
+	},
+	{
+		param = "早く指揮官様に会いたいですわ～",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 398,
+		option = {
+			{
+				1,
+				"今日の仕事がまだ終わってない……"
+			}
+		}
+	},
+	{
+		param = "今日の仕事がまだ終わってなくて…。それにさっき行ったばかりじゃない…？",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 399,
+		flag = 1
+	},
+	{
+		param = "ふふふっ、大鳳はいつでも指揮官様と一緒にいたいですわ〜",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 400,
+		flag = 1
+	},
+	{
+		param = "それなのに、指揮官様はあんなに多忙で……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 401,
+		flag = 1
+	},
+	{
+		param = "だから宿舎に来てくださった分だけでは全然足りません",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 402,
+		flag = 1
+	},
+	{
+		param = "時計の短針が一周しか回っていない内に指揮官様は離れてしまいましたもの……",
+		ship_group = 30707,
+		flag = 1,
+		type = 1,
+		id = 403,
+		option = {
+			{
+				2,
+				"あれで一時間しか経ってなかったのか！？"
+			}
+		}
+	},
+	{
+		param = "あれで一時間しか経ってなかったのか！？",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 404,
+		flag = 2
+	},
+	{
+		param = "大鳳と一緒にいると、なんだか時間が経つのがゆっくりに感じるな",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 405,
+		flag = 2
+	},
+	{
+		param = "それでしたら、次はもう少し長く大鳳といてください！",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 406,
+		flag = 2
+	},
+	{
+		param = "時計の短針が二周するまで、でどうでしょうか？",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 407,
+		flag = 2
+	},
+	{
+		param = "大鳳……もう少し時間が……ゆっくり進むようにしますから〜",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 408,
+		flag = 2
+	},
+	{
+		param = "そしたらもっと長く指揮官様と一緒にいられますわ〜",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 409,
+		flag = 2
+	},
+	{
+		param = "指揮官様〜、大鳳が愛情弁当をお作りしました～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 410,
+		flag = 0
+	},
+	{
+		param = "少しずっしりですので……直接お持ちしますわ〜",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 411,
+		option = {
+			{
+				1,
+				"どれだけ作ったんだ？"
+			}
+		}
+	},
+	{
+		param = "どれだけ作ったんだ？",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 412,
+		flag = 1
+	},
+	{
+		param = "お弁当は、全部で重箱四段分ありますわ〜",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 413,
+		flag = 1
+	},
+	{
+		param = "一段目は、たらこの煮付け、エビの鬼殻焼き、冷奴……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 414,
+		flag = 1
+	},
+	{
+		param = "二段目は、おにぎり、卵焼き、かまぼこ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 415,
+		flag = 1
+	},
+	{
+		param = "三段目と四段目はおつまみで、みそ汁も用意しましたわ",
+		ship_group = 30707,
+		flag = 1,
+		type = 1,
+		id = 416,
+		option = {
+			{
+				2,
+				"これはもう愛情弁当どころか……"
+			}
+		}
+	},
+	{
+		param = "もはや愛情弁当どころじゃないな……いくらなんでも豪華すぎる……",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 417,
+		flag = 2
+	},
+	{
+		param = "この量……頑張って食べるよ",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 418,
+		flag = 2
+	},
+	{
+		param = "ふふふっ、指揮官様は量のことは気にせず、お腹いっぱいになるまで食べてくださいませ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 419,
+		flag = 2
+	},
+	{
+		param = "そうすれば……他の子の弁当を食べなくて済みますし…",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 420,
+		flag = 2
+	},
+	{
+		param = "例え誰かが、外にある全部のお弁当を買い取ったとしても、関係ありません",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 421,
+		flag = 2
+	},
+	{
+		param = "だって指揮官様は、大鳳が作った弁当しか食べられないのですから、ふふふ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 422,
+		flag = 2
+	},
+	{
+		param = "指揮官様はやっぱり大鳳の部屋を「探検」したのですね～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 423,
+		flag = 0
+	},
+	{
+		param = "もっと大鳳のことを知ることができました～？",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 424,
+		option = {
+			{
+				1,
+				"うん、面白いものを見つけたよ"
+			}
+		}
+	},
+	{
+		param = "うん、面白いものを見つけたよ",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 425,
+		flag = 1
+	},
+	{
+		param = "指揮官様、すごく楽しそうですわ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 426,
+		flag = 1
+	},
+	{
+		param = "部屋内のすべては、全部指揮官様のために用意しましたの",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 427,
+		flag = 1
+	},
+	{
+		param = "だって大鳳の全ては指揮官様のものですから～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 428,
+		flag = 1
+	},
+	{
+		param = "指揮官様も、もっと大鳳の生活に入り込んでほしいですわ～",
+		ship_group = 30707,
+		flag = 1,
+		type = 1,
+		id = 429,
+		option = {
+			{
+				2,
+				"じゃあこれは……"
+			}
+		}
+	},
+	{
+		param = "じゃあこれは？……何かの計画図みたいな…写真？",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 430,
+		flag = 2
+	},
+	{
+		param = "あぁ……あれは害虫を駆除するための計画ですわ。気にしなくてもいいです",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 431,
+		flag = 2
+	},
+	{
+		param = "大鳳、害虫がここに入り込まないようにしますから～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 432,
+		flag = 2
+	},
+	{
+		param = "ふふふ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 433,
+		flag = 2
+	},
+	{
+		param = "指揮官様、大鳳の部屋着がそんなにお好きだったのですね～",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 434,
+		option = {
+			{
+				1,
+				"かなり似合ってるよ"
+			}
+		}
+	},
+	{
+		param = "かなり似合ってるよ",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 435,
+		flag = 1
+	},
+	{
+		param = "ふふふ、指揮官様ならお好きなだけ写真を撮ってもいいですわ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 436,
+		flag = 1
+	},
+	{
+		param = "指揮官様に褒められて、大鳳はドキドキムズムズしちゃいました",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 437,
+		flag = 1
+	},
+	{
+		param = "でも……大鳳を一人だけ撮ってもダメですわ……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 438,
+		flag = 1
+	},
+	{
+		param = "大鳳は指揮官様と一緒に写真を撮りたいんです",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 439,
+		flag = 1
+	},
+	{
+		param = "大鳳一人しか写っていない写真なんて、すごく寂しく感じちゃいますから……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 440,
+		flag = 1
+	},
+	{
+		param = "あ……家族写真を撮ってくれる専門の写真屋に行くのもいいですわね……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 441,
+		flag = 1
+	},
+	{
+		param = "衣装も借りられますから、指揮官様に色々な衣装を着せてみたいですわ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 442,
+		flag = 1
+	},
+	{
+		param = "一緒に撮ったツーショットを最大のサイズでプリントアウトして、額縁に入れてリビングにいっぱい飾る……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 443,
+		flag = 1
+	},
+	{
+		param = "うふふ、これで指揮官様は大鳳の視線から逃げられなくなりますわ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 444,
+		flag = 1
+	},
+	{
+		param = "指揮官様～、今後数日は雪で気温が下がると聞きましたわ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 445,
+		flag = 0
+	},
+	{
+		param = "傘とコートを用意しておきましたので、忘れずに持って行ってくださいませ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 446,
+		flag = 0
+	},
+	{
+		param = "でないと大鳳が直接執務室まで持って行って、指揮官様を温めてあげないといけなくなりますわ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 447,
+		flag = 0
+	},
+	{
+		param = "ふふふふ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 448,
+		flag = 0
+	},
+	{
+		param = "あと、念のため、こたつの用意もできました",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 449,
+		flag = 0
+	},
+	{
+		param = "大鳳……一刻も早く……指揮官様と一緒にこたつの中で……暖を取りたいですわ～",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 450,
+		option = {
+			{
+				1,
+				"こたつか……"
+			}
+		}
+	},
+	{
+		param = "こたつって良い文明だ……",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 451,
+		flag = 1
+	},
+	{
+		param = "ふふふ、ぬくぬくが嫌な子はいませんもの～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 452,
+		flag = 1
+	},
+	{
+		param = "大鳳も指揮官様を抱きしめてる時は、温もりを感じたくて、手を離したくありませんわ……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 453,
+		flag = 1
+	},
+	{
+		param = "でも今は～、こたつの温もりだけでなく、大鳳も指揮官様の懐に寄り添います♡",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 454,
+		flag = 1
+	},
+	{
+		param = "指揮官様もきっと、離れたくないのではありませんか？",
+		ship_group = 30707,
+		flag = 1,
+		type = 1,
+		id = 455,
+		option = {
+			{
+				2,
+				"でも……"
+			}
+		}
+	},
+	{
+		param = "でもそれじゃ仕事に支障が出るな",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 456,
+		flag = 2
+	},
+	{
+		param = "ご安心ください。その辺の段取りは全て整っていますから～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 457,
+		flag = 2
+	},
+	{
+		param = "お仕事で使う書類などを全て部屋に運べば……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 458,
+		flag = 2
+	},
+	{
+		param = "指揮官様は、そのままこたつの中で仕事ができますわ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 459,
+		flag = 2
+	},
+	{
+		param = "大鳳もこたつの中で指揮官様とずっと一緒……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 460,
+		flag = 2
+	},
+	{
+		param = "ずっとずっと、離れずにそのまま……ふふふ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 461,
+		flag = 2
+	},
+	{
+		param = "指揮官様、帽子を洗濯して干しておきましたわ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 462,
+		flag = 0
+	},
+	{
+		param = "今はコートと一緒に玄関付近のハンガーラックに掛けています",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 463,
+		option = {
+			{
+				1,
+				"別に汚れてなかったような"
+			}
+		}
+	},
+	{
+		param = "別に汚れてなかったような",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 464,
+		flag = 0
+	},
+	{
+		param = "ああ、気づいてなかったのですか……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 465,
+		flag = 1
+	},
+	{
+		param = "でも大丈夫ですわ。それでいいですから。これは単なる……消毒だと思ってくださいませ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 466,
+		flag = 1
+	},
+	{
+		param = "指揮官様が身につけている全て、帽子でも服でもズボンでも、私以外の匂いを染み付かせてはなりません",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 467,
+		flag = 1
+	},
+	{
+		param = "他の匂いは指揮官様の健康を害しますもの～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 468,
+		flag = 1
+	},
+	{
+		param = "だから大鳳が責任をもって、その全てを綺麗にして差し上げます♪",
+		ship_group = 30707,
+		flag = 1,
+		type = 1,
+		id = 469,
+		option = {
+			{
+				2,
+				"確かに……"
+			}
+		}
+	},
+	{
+		param = "確かに綺麗になってる。新品みたいだ",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 470,
+		flag = 2
+	},
+	{
+		param = "そういえば、この前無くしたコートは見つかった？",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 471,
+		flag = 2
+	},
+	{
+		param = "あっ……残念ですけど、まだ見つかっておりませんわ……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 472,
+		flag = 2
+	},
+	{
+		param = "今すぐコートを着たいのでしたら、大鳳は頑張って同じものをお作りいたしますっ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 473,
+		flag = 2
+	},
+	{
+		param = "そしたら指揮官様も、無くしたものを気にしなくて済みますわね～。ふふふ……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 474,
+		flag = 2
+	},
+	{
+		param = "ああ……まさか、指揮官様が……！",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 475,
+		option = {
+			{
+				1,
+				"まさか？"
+			}
+		}
+	},
+	{
+		param = "まさか？",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 476,
+		flag = 1
+	},
+	{
+		param = "まさか、大鳳とこんなに長くチャットしてくださるなんて！",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 477,
+		flag = 1
+	},
+	{
+		param = "いつの間にか、もうこんな時間になってしまってて～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 478,
+		flag = 1
+	},
+	{
+		param = "やっぱり指揮官様と一緒にいると、話題が尽きませんわ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 479,
+		flag = 1
+	},
+	{
+		param = "これが指揮官様のカリスマですわね。ふふふ",
+		ship_group = 30707,
+		flag = 1,
+		type = 1,
+		id = 480,
+		option = {
+			{
+				2,
+				"話したいことはまだまだあるよ"
+			}
+		}
+	},
+	{
+		param = "話したいことはまだまだあるよ",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 481,
+		flag = 2
+	},
+	{
+		param = "では今から会いに行きますわ～。もっとたくさんの事を大鳳に教えてくださいませ♪",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 482,
+		flag = 2
+	},
+	{
+		param = "あっ、でもたくさんおしゃべりするとなると、指揮官様でもきっと喉が乾きますよね？",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 483,
+		flag = 2
+	},
+	{
+		param = "のどが渇いたときにお飲みになれるよう、お茶を用意しておきます～",
+		ship_group = 30707,
+		flag = 2,
+		type = 1,
+		id = 484,
+		option = {
+			{
+				3,
+				"この前点ててくれた抹茶？"
+			}
+		}
+	},
+	{
+		param = "この前点ててくれた抹茶？",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 485,
+		flag = 3
+	},
+	{
+		param = "ふふふ、今回はほうじ茶ですわ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 486,
+		flag = 3
+	},
+	{
+		param = "心身をリラックスさせたい時に飲むお茶で、抹茶のような苦みはありません",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 487,
+		flag = 3
+	},
+	{
+		param = "でも……もし甘いものをご所望でしたら",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 488,
+		flag = 3
+	},
+	{
+		param = "大鳳もちょうどフルーツ飴でも食べようと思っていたところでして",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 489,
+		flag = 3
+	},
+	{
+		param = "良ければ大鳳と一緒に食べませんか…？",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 490,
+		flag = 3
+	},
+	{
+		param = "指揮官様はやっぱり、大鳳の体がお気に入りなのですね～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 491,
+		flag = 0
+	},
+	{
+		param = "大鳳の色々なポーズを見たいのですか？",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 492,
+		flag = 0
+	},
+	{
+		param = "それとも、大鳳にマッサージをして欲しいですか～？",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 493,
+		flag = 0
+	},
+	{
+		param = "どちらにしても、指揮官様はもっと近くで、もっと大胆になったらいいですわ……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 494,
+		flag = 0
+	},
+	{
+		param = "そうすれば大鳳は……指揮官様の拠り所になれますもの♡",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 495,
+		flag = 0
+	},
+	{
+		param = "大鳳の心は、指揮官様のことでいっっぱいです……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 496,
+		flag = 0
+	},
+	{
+		param = "こんな時でも一歩も踏み込まないなんて……指揮官様は本当に意地悪ですわ……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 497,
+		flag = 0
+	},
+	{
+		param = "でも……ふふ……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 498,
+		flag = 0
+	},
+	{
+		param = "指揮官様はこんなに大鳳に頼りっ切りですし、大鳳だって精一杯お応えしませんと～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 499,
+		flag = 0
+	},
+	{
+		param = "指揮官様、リラックスマッサージはご存知でしょうか？",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 500,
+		option = {
+			{
+				1,
+				"疲労解消のマッサージ？"
+			}
+		}
+	},
+	{
+		param = "疲労解消のマッサージ？",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 501,
+		flag = 1
+	},
+	{
+		param = "ふふふ、その通りですわ～。これはリラックスした状態のまま、疲労を解消できるマッサージです",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 502,
+		flag = 1
+	},
+	{
+		param = "いつか役に立つ時が来ると思い学んでおりましたわ",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 503,
+		flag = 1
+	},
+	{
+		param = "指揮官様、帰ったらベッドに横になってくださいませ。大鳳がフルコースでマッサージして差し上げます",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 504,
+		flag = 1
+	},
+	{
+		param = "大鳳の胸の中で疲れをぜーんぶ……吐き出してぇ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 505,
+		flag = 1
+	},
+	{
+		param = "指揮官様～、大鳳に贈ってくださったプレゼントはこれで10個目ですわ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 506,
+		flag = 0
+	},
+	{
+		param = "プレゼントを開けるたびに大鳳、心のドキドキが止まらないんです～",
+		ship_group = 30707,
+		flag = 0,
+		type = 1,
+		id = 507,
+		option = {
+			{
+				1,
+				"はっきり覚えてるんだね"
+			}
+		}
+	},
+	{
+		param = "はっきり覚えてるんだね",
+		ship_group = 0,
+		type = 1,
+		option = "",
+		id = 508,
+		flag = 1
+	},
+	{
+		param = "ふふふ、全てのプレゼントを記録に留めておりますから～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 509,
+		flag = 1
+	},
+	{
+		param = "指揮官様がくれたプレゼント、その一つ一つを……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 510,
+		flag = 1
+	},
+	{
+		param = "だって、大鳳への愛がみっちり詰まっているんですもの♡",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 511,
+		flag = 1
+	},
+	{
+		param = "大鳳にとって、この世界でとってもとっても大切な宝物ですわ～",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 512,
+		flag = 1
+	},
+	{
+		param = "だから、きちんと保管しないといけません",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 513,
+		flag = 1
+	},
+	{
+		param = "指揮官様は覚えています？大鳳が指揮官様から初めてプレゼントを受け取った時……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 514,
+		flag = 1
+	},
+	{
+		param = "あぁ……あの心のときめき、喉が乾き、恍惚してしまう感触……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 515,
+		flag = 1
+	},
+	{
+		param = "思い出すだけで、感動に溺れてしまいそう……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 516,
+		flag = 1
+	},
+	{
+		param = "ふふっ……ふふふ……",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 517,
+		flag = 1
+	},
+	{
+		param = "大鳳は……指揮官様にも同じ感動を味わって欲しいですわ…",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 518,
+		flag = 1
+	},
+	{
+		param = "次は、大鳳が指揮官様にプレゼントを贈る番です",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 519,
+		flag = 1
+	},
+	{
+		param = "大鳳からのサプライズを…断ったり、逃げたりしちゃだめですからね♡",
+		ship_group = 30707,
+		type = 1,
+		option = "",
+		id = 520,
+		flag = 1
 	}
 }

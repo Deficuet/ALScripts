@@ -122,7 +122,6 @@ function var_0_0.TryShowMonthCardTipPanel(arg_7_0)
 			content = i18n(var_7_8 and "trade_card_tips2" or "trade_card_tips3", var_7_7),
 			dateText = var_7_5,
 			yesText = i18n("trade_card_tips1"),
-			weight = LayerWeightConst.TOP_LAYER,
 			onClose = var_7_0,
 			onYes = function()
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {

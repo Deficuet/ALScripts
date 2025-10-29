@@ -17,38 +17,35 @@ function var_0_0.setCapacity(arg_4_0, arg_4_1)
 end
 
 function var_0_0.init(arg_5_0)
-	arg_5_0.designScrollView = arg_5_0:findTF("equipment_scrollview")
-	arg_5_0.equipmentTpl = arg_5_0:findTF("equipment_tpl")
-	arg_5_0.equipmentContainer = arg_5_0:findTF("equipment_grid", arg_5_0.designScrollView)
-	arg_5_0.msgBoxTF = arg_5_0:findTF("msg_panel")
+	arg_5_0.designScrollView = arg_5_0._tf:Find("equipment_scrollview")
+	arg_5_0.equipmentTpl = arg_5_0._tf:Find("equipment_tpl")
+	arg_5_0.equipmentContainer = arg_5_0.designScrollView:Find("equipment_grid")
+	arg_5_0.msgBoxTF = arg_5_0._tf:Find("msg_panel")
 
 	setActive(arg_5_0.msgBoxTF, false)
 
-	arg_5_0.top = arg_5_0:findTF("top")
-	arg_5_0.sortBtn = arg_5_0:findTF("sort_button", arg_5_0.top)
-	arg_5_0.indexBtn = arg_5_0:findTF("index_button", arg_5_0.top)
-	arg_5_0.decBtn = arg_5_0:findTF("dec_btn", arg_5_0.sortBtn)
-	arg_5_0.sortImgAsc = arg_5_0:findTF("asc", arg_5_0.decBtn)
-	arg_5_0.sortImgDec = arg_5_0:findTF("desc", arg_5_0.decBtn)
-	arg_5_0.indexPanel = arg_5_0:findTF("index")
-	arg_5_0.tagContainer = arg_5_0:findTF("adapt/mask/panel", arg_5_0.indexPanel)
-	arg_5_0.tagTpl = arg_5_0:findTF("tpl", arg_5_0.tagContainer)
-	arg_5_0.UIMgr = pg.UIMgr.GetInstance()
-	arg_5_0.listEmptyTF = arg_5_0:findTF("empty")
+	arg_5_0.top = arg_5_0._tf:Find("top")
+	arg_5_0.sortBtn = arg_5_0.top:Find("sort_button")
+	arg_5_0.indexBtn = arg_5_0.top:Find("index_button")
+	arg_5_0.decBtn = arg_5_0.sortBtn:Find("dec_btn")
+	arg_5_0.sortImgAsc = arg_5_0.decBtn:Find("asc")
+	arg_5_0.sortImgDec = arg_5_0.decBtn:Find("desc")
+	arg_5_0.indexPanel = arg_5_0._tf:Find("index")
+	arg_5_0.tagContainer = arg_5_0.indexPanel:Find("adapt/mask/panel")
+	arg_5_0.tagTpl = arg_5_0.tagContainer:Find("tpl")
+	arg_5_0.listEmptyTF = arg_5_0._tf:Find("empty")
 
 	setActive(arg_5_0.listEmptyTF, false)
 
-	arg_5_0.listEmptyTxt = arg_5_0:findTF("Text", arg_5_0.listEmptyTF)
+	arg_5_0.listEmptyTxt = arg_5_0.listEmptyTF:Find("Text")
 
 	setText(arg_5_0.listEmptyTxt, i18n("list_empty_tip_equipmentdesignui"))
-	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0.indexPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	arg_5_0:OverlayPanel(arg_5_0.indexPanel)
 end
 
 function var_0_0.SetParentTF(arg_6_0, arg_6_1)
 	arg_6_0.parentTF = arg_6_1
-	arg_6_0.equipmentView = arg_6_0:findTF("equipment_scrollview", arg_6_0.parentTF)
+	arg_6_0.equipmentView = arg_6_0.parentTF:Find("adapt/equipment_scrollview")
 
 	setActive(arg_6_0.equipmentView, false)
 end
@@ -334,9 +331,11 @@ local function var_0_2(arg_22_0, arg_22_1)
 end
 
 function var_0_0.createDesign(arg_25_0, arg_25_1)
+	arg_25_1 = tf(arg_25_1)
+
 	local var_25_0 = findTF(arg_25_1, "info/count")
 	local var_25_1 = findTF(arg_25_1, "mask")
-	local var_25_2 = arg_25_0:findTF("name_bg/mask/name", arg_25_1)
+	local var_25_2 = arg_25_1:Find("name_bg/mask/name")
 	local var_25_3 = {
 		go = arg_25_1,
 		nameTxt = var_25_2
@@ -590,7 +589,7 @@ function var_0_0.filter(arg_37_0, arg_37_1, arg_37_2)
 
 	local var_37_8 = GetSpriteFromAtlas("ui/equipmentdesignui_atlas", var_0_1[arg_37_1])
 
-	setImageSprite(arg_37_0:findTF("Image", arg_37_0.sortBtn), var_37_8)
+	setImageSprite(arg_37_0.sortBtn:Find("Image"), var_37_8)
 	setActive(arg_37_0.sortImgAsc, arg_37_0.asc)
 	setActive(arg_37_0.sortImgDec, not arg_37_0.asc)
 end
@@ -609,7 +608,7 @@ function var_0_0.showDesignDesc(arg_46_0, arg_46_1)
 		return
 	end
 
-	arg_46_0.UIMgr:BlurPanel(arg_46_0.msgBoxTF)
+	pg.UIMgr.GetInstance():BlurPanel(arg_46_0.msgBoxTF)
 	setActive(arg_46_0.msgBoxTF, true)
 
 	local var_46_0 = arg_46_0.msgBoxTF
@@ -645,9 +644,9 @@ function var_0_0.showDesignDesc(arg_46_0, arg_46_1)
 	local var_46_9 = arg_46_0:getItemById(var_46_1.material_id)
 	local var_46_10 = math.floor(var_46_9.count / var_46_1.material_num)
 	local var_46_11 = 1
-	local var_46_12 = arg_46_0:findTF("bg/calc/values/Text", var_46_0)
+	local var_46_12 = var_46_0:Find("bg/calc/values/Text")
 	local var_46_13 = var_46_1.gold_num
-	local var_46_14 = arg_46_0:findTF("bg/calc/gold/Text", var_46_0)
+	local var_46_14 = var_46_0:Find("bg/calc/gold/Text")
 
 	local function var_46_15(arg_47_0)
 		setText(var_46_12, arg_47_0)
@@ -704,7 +703,7 @@ function var_0_0.hideMsgBox(arg_54_0)
 	if not IsNil(arg_54_0.msgBoxTF) then
 		arg_54_0.isShowDesc = nil
 
-		arg_54_0.UIMgr:UnblurPanel(arg_54_0.msgBoxTF, arg_54_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_54_0.msgBoxTF, arg_54_0._tf)
 		setActive(arg_54_0.msgBoxTF, false)
 	end
 end
@@ -725,7 +724,7 @@ function var_0_0.onBackPressed(arg_55_0)
 end
 
 function var_0_0.willExit(arg_56_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_56_0.indexPanel, arg_56_0._tf)
+	arg_56_0:UnOverlayPanel(arg_56_0.indexPanel, arg_56_0._tf)
 
 	if arg_56_0.leftEventTrigger then
 		ClearEventTrigger(arg_56_0.leftEventTrigger)

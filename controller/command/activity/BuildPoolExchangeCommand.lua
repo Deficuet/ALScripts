@@ -5,7 +5,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_1 = getProxy(ActivityProxy):getActivityById(var_1_0)
 
 	if not var_1_1 or var_1_1:isEnd() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_activity_end"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
 	end

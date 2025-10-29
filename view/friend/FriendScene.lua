@@ -44,8 +44,8 @@ function var_0_0.setBlackList(arg_8_0, arg_8_1)
 end
 
 function var_0_0.init(arg_9_0)
-	arg_9_0.pages = arg_9_0:findTF("pages")
-	arg_9_0.togglesTF = arg_9_0:findTF("blur_panel/adapt/left_length/frame/tagRoot")
+	arg_9_0.pages = arg_9_0._tf:Find("pages")
+	arg_9_0.togglesTF = arg_9_0._tf:Find("blur_panel/adapt/left_length/frame/tagRoot")
 	arg_9_0.pages = {
 		FriendListPage.New(arg_9_0.pages, arg_9_0.event, arg_9_0.contextData),
 		FriendSearchPage.New(arg_9_0.pages, arg_9_0.event),
@@ -66,15 +66,15 @@ function var_0_0.init(arg_9_0)
 
 	arg_9_0.chatTipContainer = arg_9_0.toggles[1]:Find("count")
 	arg_9_0.chatTip = arg_9_0.toggles[1]:Find("count/Text"):GetComponent(typeof(Text))
-	arg_9_0.listEmptyTF = arg_9_0:findTF("empty")
+	arg_9_0.listEmptyTF = arg_9_0._tf:Find("empty")
 
 	setActive(arg_9_0.listEmptyTF, false)
 
-	arg_9_0.listEmptyTxt = arg_9_0:findTF("Text", arg_9_0.listEmptyTF)
+	arg_9_0.listEmptyTxt = arg_9_0.listEmptyTF:Find("Text")
 end
 
 function var_0_0.didEnter(arg_11_0)
-	onButton(arg_11_0, arg_11_0:findTF("blur_panel/adapt/top/back_btn"), function()
+	onButton(arg_11_0, arg_11_0._tf:Find("blur_panel/adapt/top/back_btn"), function()
 		arg_11_0:emit(var_0_0.ON_BACK)
 	end, SOUND_BACK)
 

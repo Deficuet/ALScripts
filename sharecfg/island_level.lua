@@ -3,31 +3,15 @@ pg.island_level = {
 	{
 		island_level = 1,
 		island_exp = 50,
-		ability_drop = {
-			2,
-			3,
-			6
-		},
-		island_level_award = {
-			{
-				1001,
-				20
-			}
-		},
+		ability_drop = {},
+		island_level_award = {},
 		cost = {}
 	},
 	{
 		island_level = 2,
 		island_exp = 100,
-		ability_drop = {
-			5001
-		},
-		island_level_award = {
-			{
-				1001,
-				50
-			}
-		},
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -38,16 +22,8 @@ pg.island_level = {
 	{
 		island_level = 3,
 		island_exp = 150,
-		ability_drop = {
-			4,
-			5
-		},
-		island_level_award = {
-			{
-				1001,
-				100
-			}
-		},
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -58,16 +34,8 @@ pg.island_level = {
 	{
 		island_level = 4,
 		island_exp = 200,
-		ability_drop = {
-			6,
-			7
-		},
-		island_level_award = {
-			{
-				1001,
-				150
-			}
-		},
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -78,15 +46,8 @@ pg.island_level = {
 	{
 		island_level = 5,
 		island_exp = 300,
-		ability_drop = {
-			5002
-		},
-		island_level_award = {
-			{
-				1001,
-				200
-			}
-		},
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -96,16 +57,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 6,
-		island_exp = 500,
-		ability_drop = {
-			5003
-		},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_exp = 400,
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -115,16 +69,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 7,
-		island_exp = 1008,
-		ability_drop = {
-			5004
-		},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_exp = 400,
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -134,16 +81,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 8,
-		island_exp = 5904,
-		ability_drop = {
-			5005
-		},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_exp = 500,
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -153,17 +93,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 9,
-		island_exp = 7488,
-		ability_drop = {
-			8,
-			9
-		},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_exp = 500,
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -173,16 +105,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 10,
-		island_exp = 8784,
-		ability_drop = {
-			5006
-		},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_exp = 500,
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -192,16 +117,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 11,
-		island_exp = 10224,
-		ability_drop = {
-			5007
-		},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_exp = 1000,
+		ability_drop = {},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -211,14 +129,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 12,
-		island_exp = 11520,
+		island_exp = 1000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -228,14 +141,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 13,
-		island_exp = 12816,
+		island_exp = 1000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -245,14 +153,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 14,
-		island_exp = 14256,
+		island_exp = 1000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -262,14 +165,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 15,
-		island_exp = 15552,
+		island_exp = 2000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -279,14 +177,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 16,
-		island_exp = 16704,
+		island_exp = 2000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -296,14 +189,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 17,
-		island_exp = 18000,
+		island_exp = 2500,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -313,14 +201,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 18,
-		island_exp = 19296,
+		island_exp = 3000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -330,14 +213,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 19,
-		island_exp = 20592,
+		island_exp = 3400,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -347,14 +225,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 20,
-		island_exp = 21744,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -364,14 +237,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 21,
-		island_exp = 22896,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -381,14 +249,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 22,
-		island_exp = 24192,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -398,14 +261,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 23,
-		island_exp = 25200,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -415,14 +273,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 24,
-		island_exp = 26496,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -432,14 +285,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 25,
-		island_exp = 27648,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -449,14 +297,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 26,
-		island_exp = 28800,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -466,14 +309,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 27,
-		island_exp = 29808,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -483,14 +321,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 28,
-		island_exp = 30960,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -500,14 +333,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 29,
-		island_exp = 32112,
+		island_exp = 4000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -517,14 +345,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 30,
-		island_exp = 33120,
+		island_exp = 8000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -534,14 +357,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 31,
-		island_exp = 34272,
+		island_exp = 8000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -551,14 +369,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 32,
-		island_exp = 35280,
+		island_exp = 8000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -568,14 +381,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 33,
-		island_exp = 36432,
+		island_exp = 8000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -585,14 +393,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 34,
-		island_exp = 37440,
+		island_exp = 8000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -602,14 +405,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 35,
-		island_exp = 38448,
+		island_exp = 12000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -619,14 +417,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 36,
-		island_exp = 39456,
+		island_exp = 12000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -636,14 +429,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 37,
-		island_exp = 40464,
+		island_exp = 12000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -653,14 +441,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 38,
-		island_exp = 41616,
+		island_exp = 12000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -670,14 +453,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 39,
-		island_exp = 42480,
+		island_exp = 12000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -687,14 +465,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 40,
-		island_exp = 43488,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -704,14 +477,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 41,
-		island_exp = 44640,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -721,14 +489,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 42,
-		island_exp = 45504,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -738,14 +501,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 43,
-		island_exp = 46512,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -755,14 +513,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 44,
-		island_exp = 47376,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -772,14 +525,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 45,
-		island_exp = 48528,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -789,14 +537,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 46,
-		island_exp = 49392,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -806,14 +549,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 47,
-		island_exp = 50400,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -823,14 +561,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 48,
-		island_exp = 51264,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -840,14 +573,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 49,
-		island_exp = 52272,
+		island_exp = 15000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -857,14 +585,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 50,
-		island_exp = 53280,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -874,14 +597,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 51,
-		island_exp = 54144,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -891,14 +609,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 52,
-		island_exp = 55152,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -908,14 +621,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 53,
-		island_exp = 56160,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -925,14 +633,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 54,
-		island_exp = 57024,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -942,14 +645,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 55,
-		island_exp = 58032,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -959,14 +657,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 56,
-		island_exp = 58896,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -976,14 +669,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 57,
-		island_exp = 59904,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -993,14 +681,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 58,
-		island_exp = 60912,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1010,14 +693,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 59,
-		island_exp = 61776,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1027,14 +705,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 60,
-		island_exp = 62784,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1044,14 +717,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 61,
-		island_exp = 63648,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1061,14 +729,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 62,
-		island_exp = 64656,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1078,14 +741,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 63,
-		island_exp = 65664,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1095,14 +753,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 64,
-		island_exp = 66528,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1112,14 +765,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 65,
-		island_exp = 67536,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1129,14 +777,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 66,
-		island_exp = 68544,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1146,14 +789,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 67,
-		island_exp = 69552,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1163,14 +801,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 68,
-		island_exp = 70416,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1180,14 +813,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 69,
-		island_exp = 71424,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1197,14 +825,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 70,
-		island_exp = 72576,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1214,14 +837,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 71,
-		island_exp = 73440,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1231,14 +849,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 72,
-		island_exp = 74448,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1248,14 +861,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 73,
-		island_exp = 75456,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1265,14 +873,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 74,
-		island_exp = 76464,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1282,14 +885,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 75,
-		island_exp = 77616,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1299,14 +897,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 76,
-		island_exp = 78480,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1316,14 +909,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 77,
-		island_exp = 79632,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1333,14 +921,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 78,
-		island_exp = 80640,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1350,14 +933,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 79,
-		island_exp = 81792,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1367,14 +945,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 80,
-		island_exp = 82800,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1384,14 +957,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 81,
-		island_exp = 83808,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1401,14 +969,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 82,
-		island_exp = 85104,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1418,14 +981,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 83,
-		island_exp = 85968,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1435,14 +993,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 84,
-		island_exp = 87264,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1452,14 +1005,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 85,
-		island_exp = 88416,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1469,14 +1017,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 86,
-		island_exp = 89424,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1486,14 +1029,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 87,
-		island_exp = 90720,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1503,14 +1041,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 88,
-		island_exp = 91728,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1520,14 +1053,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 89,
-		island_exp = 93024,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1537,14 +1065,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 90,
-		island_exp = 94176,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1554,14 +1077,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 91,
-		island_exp = 95472,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1571,14 +1089,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 92,
-		island_exp = 96624,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1588,14 +1101,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 93,
-		island_exp = 97920,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1605,14 +1113,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 94,
-		island_exp = 99216,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1622,14 +1125,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 95,
-		island_exp = 100512,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1639,14 +1137,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 96,
-		island_exp = 101664,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1656,14 +1149,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 97,
-		island_exp = 103104,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1673,14 +1161,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 98,
-		island_exp = 104400,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1690,14 +1173,9 @@ pg.island_level = {
 	},
 	{
 		island_level = 99,
-		island_exp = 105696,
+		island_exp = 20000,
 		ability_drop = {},
-		island_level_award = {
-			{
-				1001,
-				1
-			}
-		},
+		island_level_award = {},
 		cost = {
 			{
 				1,
@@ -1710,7 +1188,12 @@ pg.island_level = {
 		island_exp = 0,
 		ability_drop = {},
 		island_level_award = {},
-		cost = {}
+		cost = {
+			{
+				1,
+				100
+			}
+		}
 	},
 	all = {
 		1,

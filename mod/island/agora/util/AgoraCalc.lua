@@ -57,12 +57,12 @@ end
 function var_0_0.GetCenterScreenPos()
 	local var_4_0 = IslandCameraMgr.instance._mainCamera
 
-	return (var_0_0.CameraPosToHitPoint(var_4_0, IslandConst.LAYER_AGORA))
+	return (var_0_0.CameraPosToHitPoint(var_4_0, IslandConst.LAYER_GROUND))
 end
 
 function var_0_0.ScreenPostion2MapPosition(arg_5_0)
 	local var_5_0 = IslandCameraMgr.instance._mainCamera
-	local var_5_1 = var_0_0.ScreenToHitPoint(var_5_0, arg_5_0, IslandConst.LAYER_AGORA)
+	local var_5_1 = var_0_0.ScreenToHitPoint(var_5_0, arg_5_0, IslandConst.LAYER_GROUND)
 
 	if var_5_1 then
 		return var_0_0.WorldPosition2MapPosition(var_5_1)
@@ -72,7 +72,7 @@ function var_0_0.ScreenPostion2MapPosition(arg_5_0)
 end
 
 function var_0_0.WorldPosition2MapPosition(arg_6_0)
-	return Vector2(math.ceil(arg_6_0.x), math.ceil(arg_6_0.z))
+	return Vector2(math.floor(arg_6_0.x + 0.5), math.floor(arg_6_0.z + 0.5))
 end
 
 function var_0_0.WorldPosition2ScreenPosition(arg_7_0)
@@ -105,11 +105,10 @@ end
 function var_0_0.CameraPosToHitPoint(arg_11_0, arg_11_1)
 	local var_11_0 = arg_11_0.transform.position
 	local var_11_1 = arg_11_0.transform.forward
-	local var_11_2 = LuaHelper.NameToLayer(arg_11_1)
-	local var_11_3, var_11_4 = Physics.Raycast(var_11_0, var_11_1, nil, math.huge, var_11_2)
+	local var_11_2 = IslandHelper.Raycast(var_11_0, var_11_1, arg_11_1)
 
-	if var_11_3 then
-		return var_11_4.point
+	if var_11_2.w == 1 then
+		return Vector3(var_11_2.x, var_11_2.y, var_11_2.z)
 	else
 		return nil
 	end
@@ -120,18 +119,115 @@ function var_0_0.ScreenToHitPoint(arg_12_0, arg_12_1, arg_12_2)
 	local var_12_1 = arg_12_1
 	local var_12_2 = var_12_0:ScreenToViewportPoint(Vector3(var_12_1.x, var_12_1.y, 0))
 	local var_12_3 = arg_12_0:ViewportPointToRay(var_12_2)
-	local var_12_4 = LuaHelper.NameToLayer(arg_12_2)
-	local var_12_5, var_12_6 = Physics.Raycast(var_12_3, nil, math.huge, var_12_4)
+	local var_12_4 = IslandHelper.RaycastRay(var_12_3, arg_12_2)
 
-	if var_12_5 then
-		return var_12_6.point
+	if var_12_4.w == 1 then
+		return Vector3(var_12_4.x, var_12_4.y, var_12_4.z)
 	else
 		return nil
 	end
 end
 
-function var_0_0.GetUniqueId(arg_13_0)
-	return arg_13_0 * 100
+function var_0_0.GetUniqueId(arg_13_0, arg_13_1)
+	return arg_13_0 * 100 + arg_13_1
+end
+
+function var_0_0.RevertFormUniqueId(arg_14_0)
+	return math.floor(arg_14_0 * 0.01)
+end
+
+function var_0_0.DecodeLayer(arg_15_0)
+	local var_15_0 = LuaHelper.DecodeAgoraLayerProt(arg_15_0)
+	local var_15_1, var_15_2 = var_0_0.GroundPoint2MapPoint(var_15_0[2], var_15_0[3])
+
+	return var_0_0.GetUniqueId(var_15_0[0], 1), var_15_0[1], var_15_1, var_15_2
+end
+
+function var_0_0.EncodeLayer(arg_16_0)
+	return _.map(arg_16_0, function(arg_17_0)
+		local var_17_0 = var_0_0.RevertFormUniqueId(arg_17_0.id)
+		local var_17_1, var_17_2 = var_0_0.MapPoint2GroundPoint(arg_17_0.x, arg_17_0.y)
+
+		return LuaHelper.EncodeAgoraLayerProt(var_17_0, arg_17_0.shapeId, var_17_1, var_17_2)
+	end)
+end
+
+function var_0_0.GetGroundLeftBottomPoint()
+	local var_18_0 = IslandConst.AGORA_LEVEL_2_SIZE[#IslandConst.AGORA_LEVEL_2_SIZE]
+	local var_18_1 = Vector2(var_18_0, var_18_0)
+	local var_18_2 = AgoraCalc.GetSizeCoord(var_18_1)
+
+	return Vector2(var_18_2.x, var_18_2.w)
+end
+
+function var_0_0.MapPoint2GroundPoint(arg_19_0, arg_19_1)
+	local var_19_0 = var_0_0.GetGroundLeftBottomPoint()
+	local var_19_1 = Vector2(arg_19_0, arg_19_1) - var_19_0
+
+	return var_19_1.x, var_19_1.y
+end
+
+function var_0_0.GroundPoint2MapPoint(arg_20_0, arg_20_1)
+	local var_20_0 = var_0_0.GetGroundLeftBottomPoint()
+	local var_20_1 = Vector2(arg_20_0, arg_20_1) + var_20_0
+
+	return var_20_1.x, var_20_1.y
+end
+
+function var_0_0.EncodePlaced(arg_21_0)
+	return _.map(arg_21_0, function(arg_22_0)
+		return {
+			id = arg_22_0.id,
+			x = arg_22_0.x,
+			y = arg_22_0.y,
+			dir = arg_22_0.dir
+		}
+	end)
+end
+
+function var_0_0.GetChangePlacementList(arg_23_0, arg_23_1)
+	local function var_23_0(arg_24_0, arg_24_1)
+		for iter_24_0, iter_24_1 in ipairs(arg_24_1) do
+			if iter_24_1.id == arg_24_0.id then
+				return true
+			end
+		end
+
+		return false
+	end
+
+	local function var_23_1(arg_25_0, arg_25_1)
+		local var_25_0
+
+		for iter_25_0, iter_25_1 in ipairs(arg_25_1) do
+			if iter_25_1.id == arg_25_0.id then
+				var_25_0 = iter_25_1
+
+				break
+			end
+		end
+
+		return not arg_25_0:IsSame(var_25_0)
+	end
+
+	local var_23_2 = _.select(arg_23_0, function(arg_26_0)
+		return not var_23_0(arg_26_0, arg_23_1)
+	end)
+	local var_23_3 = _.select(arg_23_1, function(arg_27_0)
+		return not var_23_0(arg_27_0, arg_23_0)
+	end)
+
+	return _.select(arg_23_0, function(arg_28_0)
+		return not var_23_0(arg_28_0, var_23_2) and not var_23_0(arg_28_0, var_23_3) and var_23_1(arg_28_0, arg_23_1)
+	end), var_23_3, var_23_2
+end
+
+function var_0_0.BuildScreenShootSavePath(arg_29_0)
+	return Application.persistentDataPath .. "/screen_scratch/island_theme" .. arg_29_0 .. ".jpg"
+end
+
+function var_0_0.GetVirtualInteractUnitId(arg_30_0, arg_30_1)
+	return arg_30_0 * 10 + arg_30_1 - 1
 end
 
 return var_0_0

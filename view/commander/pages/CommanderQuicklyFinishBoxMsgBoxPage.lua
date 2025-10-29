@@ -7,10 +7,10 @@ end
 function var_0_0.OnInit(arg_2_0)
 	var_0_0.super.OnInit(arg_2_0)
 
-	arg_2_0.ssrToggle = arg_2_0:findTF("frame/bg/content/rarity/ssr")
-	arg_2_0.srToggle = arg_2_0:findTF("frame/bg/content/rarity/sr")
-	arg_2_0.rToggle = arg_2_0:findTF("frame/bg/content/rarity/r")
-	arg_2_0.descTxt = arg_2_0:findTF("frame/bg/content/rarity/Text"):GetComponent(typeof(Text))
+	arg_2_0.ssrToggle = arg_2_0._tf:Find("frame/bg/content/rarity/ssr")
+	arg_2_0.srToggle = arg_2_0._tf:Find("frame/bg/content/rarity/sr")
+	arg_2_0.rToggle = arg_2_0._tf:Find("frame/bg/content/rarity/r")
+	arg_2_0.descTxt = arg_2_0._tf:Find("frame/bg/content/rarity/Text"):GetComponent(typeof(Text))
 end
 
 function var_0_0.Show(arg_3_0, arg_3_1)

@@ -7,7 +7,9 @@ function var_0_0.Ctor(arg_1_0)
 	if PLATFORM_CODE == PLATFORM_CH then
 		arg_1_0.instance = require("Mgr.Sdk.BiliSDKMgr")
 	elseif PLATFORM_CODE == PLATFORM_JP then
-		arg_1_0.instance = require("Mgr.Sdk.YoStarJPMgr")
+		arg_1_0.instance = require("Mgr.Sdk.YoStarMgr")
+
+		arg_1_0.instance.InitJP()
 	elseif PLATFORM_CODE == PLATFORM_KR then
 		arg_1_0.instance = require("Mgr.Sdk.TxwyKrSDKMgr")
 	elseif PLATFORM_CODE == PLATFORM_US then

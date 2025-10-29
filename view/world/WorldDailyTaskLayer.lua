@@ -18,8 +18,8 @@ function var_0_0.init(arg_2_0)
 		end
 	end
 
-	arg_2_0.rtBg = arg_2_0:findTF("bg")
-	arg_2_0.rtBlurPanel = arg_2_0:findTF("blur_panel")
+	arg_2_0.rtBg = arg_2_0._tf:Find("bg")
+	arg_2_0.rtBlurPanel = arg_2_0._tf:Find("blur_panel")
 	arg_2_0.rtTasks = arg_2_0.rtBlurPanel:Find("adapt/tasks")
 
 	setText(arg_2_0.rtTasks:Find("frame/empty/Text"), i18n("world_daily_task_none"))
@@ -32,7 +32,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.rtImageTitle = arg_2_0.rtTopTitle:Find("print/title")
 	arg_2_0.rtImageTitleTask = arg_2_0.rtTopTitle:Find("print/title_task")
 	arg_2_0.rtImageTitleShop = arg_2_0.rtTopTitle:Find("print/title_shop")
-	arg_2_0.rtTaskWindow = arg_2_0:findTF("task_window")
+	arg_2_0.rtTaskWindow = arg_2_0._tf:Find("task_window")
 	arg_2_0.wsTasks = {}
 
 	local var_2_0 = arg_2_0.rtTasks:Find("frame/viewport/content")
@@ -80,12 +80,8 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_9_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_9_0._tf, {
-		groupName = arg_9_0:getGroupNameFromData()
-	})
-	pg.UIMgr.GetInstance():BlurPanel(arg_9_0.rtBlurPanel, false, {
-		blurLevelCamera = true
-	})
+	arg_9_0:BlurPanel(arg_9_0._tf)
+	arg_9_0:BlurPanel(arg_9_0.rtBlurPanel)
 	onButton(arg_9_0, arg_9_0.btnBack, function()
 		arg_9_0:closeView()
 	end, SFX_CANCEL)
@@ -102,8 +98,8 @@ function var_0_0.onBackPressed(arg_13_0)
 end
 
 function var_0_0.willExit(arg_14_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_14_0.rtBlurPanel, arg_14_0._tf)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_14_0._tf)
+	arg_14_0:UnOverlayPanel(arg_14_0.rtBlurPanel, arg_14_0._tf)
+	arg_14_0:UnOverlayPanel(arg_14_0._tf)
 	arg_14_0:DisposeTasks()
 	arg_14_0.taskProxy:RemoveListener(WorldTaskProxy.EventUpdateDailyTaskIds, arg_14_0.onUpdateTasks)
 
@@ -194,12 +190,12 @@ function var_0_0.showTaskWindow(arg_20_0, arg_20_1)
 	end, SFX_PANEL)
 	setButtonEnabled(var_20_2:Find("btn_go"), arg_20_1:GetFollowingAreaId() or arg_20_1:GetFollowingEntrance())
 	setActive(arg_20_0.rtTaskWindow, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_20_0.rtTaskWindow, arg_20_0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(arg_20_0.rtTaskWindow)
 end
 
 function var_0_0.hideTaskWindow(arg_25_0)
 	setActive(arg_25_0.rtTaskWindow, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_25_0.rtTaskWindow, arg_25_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_25_0.rtTaskWindow, arg_25_0._tf)
 end
 
 return var_0_0

@@ -8,9 +8,11 @@ var_0_0.STATUS = {
 	STUDYING = "studying",
 	RECEIVE = "receive"
 }
-var_0_0.UNLCOK_TYPE = {
+var_0_0.UNLOCK_TYPE = {
 	FINISH_TASK = 1,
-	EXIST_ABILITY = 2
+	LEVEL = 0,
+	EXIST_ABILITY = 2,
+	FINISH_TECHNOLOGY = 3
 }
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
@@ -25,6 +27,11 @@ end
 
 function var_0_0.AddFinishedCnt(arg_3_0)
 	arg_3_0.finishedCnt = arg_3_0.finishedCnt + 1
+
+	if arg_3_0.finishedCnt == 1 then
+		IslandAchievementHelper.OnFinishTechnolog(arg_3_0.id)
+		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.TECHNOLOGY)
+	end
 end
 
 function var_0_0.GetFinishedCnt(arg_4_0)
@@ -73,10 +80,10 @@ function var_0_0.IsUnlock(arg_14_0)
 	return var_14_0 == 0 or getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_14_0)
 end
 
-function var_0_0.GetRecycleItemInfos(arg_15_0)
+function var_0_0.GetCostItems(arg_15_0)
 	local var_15_0 = {}
 
-	underscore.each(arg_15_0:getConfig("item_unlock"), function(arg_16_0)
+	underscore.each(pg.island_formula[arg_15_0:GetFormulaId()].commission_cost, function(arg_16_0)
 		table.insert(var_15_0, Drop.New({
 			type = DROP_TYPE_ISLAND_ITEM,
 			id = arg_16_0[1],
@@ -92,59 +99,77 @@ function var_0_0.CanUnlock(arg_17_0)
 		return false
 	end
 
-	local var_17_0 = arg_17_0:GetRecycleItemInfos()
+	local var_17_0 = arg_17_0:getConfig("sys_unlock")
 
-	if underscore.any(var_17_0, function(arg_18_0)
-		return getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetOwnCount(arg_18_0.id) < arg_18_0.count
-	end) then
-		return false
-	end
-
-	local var_17_1 = arg_17_0:getConfig("sys_unlock")
-
-	if var_17_1 == "" or #var_17_1 == 0 then
+	if var_17_0 == "" or #var_17_0 == 0 then
 		return true
 	end
 
-	return underscore.all(var_17_1, function(arg_19_0)
-		return arg_17_0:MatchCondition(arg_19_0)
+	return underscore.all(var_17_0, function(arg_18_0)
+		return arg_17_0:MatchCondition(arg_18_0)
 	end)
 end
 
-function var_0_0.MatchCondition(arg_20_0, arg_20_1)
-	local var_20_0 = arg_20_1[1]
-	local var_20_1 = arg_20_1[2]
+function var_0_0.MatchCondition(arg_19_0, arg_19_1)
+	local var_19_0 = arg_19_1[1]
+	local var_19_1 = arg_19_1[2]
 
-	return switch(var_20_0, {
-		[var_0_0.UNLCOK_TYPE.FINISH_TASK] = function()
-			return getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(var_20_1)
+	return switch(var_19_0, {
+		[var_0_0.UNLOCK_TYPE.LEVEL] = function()
+			return getProxy(IslandProxy):GetIsland():GetLevel() >= arg_19_0:getConfig("island_level")
 		end,
-		[var_0_0.UNLCOK_TYPE.EXIST_ABILITY] = function()
-			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_20_1)
+		[var_0_0.UNLOCK_TYPE.FINISH_TASK] = function()
+			return getProxy(IslandProxy):GetIsland():GetTaskAgency():IsFinishTask(var_19_1)
+		end,
+		[var_0_0.UNLOCK_TYPE.EXIST_ABILITY] = function()
+			return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_19_1)
+		end,
+		[var_0_0.UNLOCK_TYPE.FINISH_TECHNOLOGY] = function()
+			return getProxy(IslandProxy):GetIsland():GetTechnologyAgency():IsFinishedTech(var_19_1)
 		end
 	}, function()
 		return false
 	end)
 end
 
-function var_0_0.GetStatus(arg_24_0)
-	if not arg_24_0:IsUnlock() then
-		return arg_24_0:CanUnlock() and var_0_0.STATUS.UNLOCK or var_0_0.STATUS.LOCK
+function var_0_0.GetStatus(arg_25_0)
+	if not arg_25_0:IsUnlock() then
+		return arg_25_0:CanUnlock() and var_0_0.STATUS.UNLOCK or var_0_0.STATUS.LOCK
 	end
 
-	local var_24_0 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetDelegationSlotDataByTechId(arg_24_0.id)
+	local var_25_0 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetDelegationSlotDataByTechId(arg_25_0.id)
 
-	if var_24_0 then
-		return var_24_0:GetSlotRewardData() and var_0_0.STATUS.RECEIVE or var_0_0.STATUS.STUDYING
+	if var_25_0 then
+		return var_25_0:GetSlotRewardData() and var_0_0.STATUS.RECEIVE or var_0_0.STATUS.STUDYING
 	else
-		return arg_24_0:CheckRemainCnt() and var_0_0.STATUS.NORMAL or var_0_0.STATUS.FINISHED
+		return arg_25_0:CheckRemainCnt() and var_0_0.STATUS.NORMAL or var_0_0.STATUS.FINISHED
 	end
 end
 
-function var_0_0.GetSlotId(arg_25_0)
-	local var_25_0 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetDelegationSlotDataByTechId(arg_25_0.id)
+function var_0_0.GetSlotId(arg_26_0)
+	local var_26_0 = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetDelegationSlotDataByTechId(arg_26_0.id)
 
-	return var_25_0 and var_25_0.id
+	return var_26_0 and var_26_0.id
+end
+
+function var_0_0.GetUnlockText(arg_27_0)
+	local var_27_0 = arg_27_0[1]
+	local var_27_1 = arg_27_0[2]
+
+	return switch(var_27_0, {
+		[var_0_0.UNLOCK_TYPE.LEVEL] = function()
+			return i18n("island_tech_unlock_tip0", var_27_1)
+		end,
+		[var_0_0.UNLOCK_TYPE.FINISH_TASK] = function()
+			return i18n("island_tech_unlock_tip1", pg.island_task[var_27_1].name)
+		end,
+		[var_0_0.UNLOCK_TYPE.EXIST_ABILITY] = function()
+			return i18n("island_tech_unlock_tip2", pg.island_ability_template[var_27_1].unlock_text)
+		end,
+		[var_0_0.UNLOCK_TYPE.FINISH_TECHNOLOGY] = function()
+			return i18n("island_tech_unlock_tip3", pg.island_technology_template[var_27_1].tech_name)
+		end
+	})
 end
 
 return var_0_0

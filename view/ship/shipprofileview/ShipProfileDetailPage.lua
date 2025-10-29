@@ -5,13 +5,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.detailRightBlurRect = arg_2_0:findTF("bg")
-	arg_2_0.propertyTF = arg_2_0:findTF("bg/property_panel/frame")
-	arg_2_0.skillRect = arg_2_0:findTF("bg/skill_panel/frame/skills_rect")
-	arg_2_0.skillPanel = arg_2_0:findTF("skills", arg_2_0.skillRect)
-	arg_2_0.skillTpl = arg_2_0:findTF("skilltpl", arg_2_0.skillRect)
-	arg_2_0.skillArrLeft = arg_2_0:findTF("bg/skill_panel/frame/arrow1")
-	arg_2_0.skillArrRight = arg_2_0:findTF("bg/skill_panel/frame/arrow2")
+	arg_2_0.detailRightBlurRect = arg_2_0._tf:Find("bg")
+	arg_2_0.propertyTF = arg_2_0._tf:Find("bg/property_panel/frame")
+	arg_2_0.skillRect = arg_2_0._tf:Find("bg/skill_panel/frame/skills_rect")
+	arg_2_0.skillPanel = arg_2_0.skillRect:Find("skills")
+	arg_2_0.skillTpl = arg_2_0.skillRect:Find("skilltpl")
+	arg_2_0.skillArrLeft = arg_2_0._tf:Find("bg/skill_panel/frame/arrow1")
+	arg_2_0.skillArrRight = arg_2_0._tf:Find("bg/skill_panel/frame/arrow2")
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -88,8 +88,8 @@ function var_0_0.InitSkills(arg_10_0)
 
 			arg_10_0:UpdateSkill(var_10_6, var_10_7)
 		else
-			setActive(arg_10_0:findTF("icon", var_10_6), false)
-			setActive(arg_10_0:findTF("add", var_10_6), true)
+			setActive(var_10_6:Find("icon"), false)
+			setActive(var_10_6:Find("add"), true)
 		end
 
 		setActive(var_10_6, iter_10_1 <= var_10_4)
@@ -127,8 +127,8 @@ function var_0_0.UpdateSkill(arg_13_0, arg_13_1, arg_13_2)
 	local var_13_1 = getSkillConfig(arg_13_2)
 
 	LoadImageSpriteAsync("skillicon/" .. var_13_1.icon, var_13_0)
-	setActive(arg_13_0:findTF("icon", arg_13_1), true)
-	setActive(arg_13_0:findTF("add", arg_13_1), false)
+	setActive(arg_13_1:Find("icon"), true)
+	setActive(arg_13_1:Find("add"), false)
 	onButton(arg_13_0, arg_13_1, function()
 		arg_13_0:emit(ShipProfileScene.SHOW_SKILL_INFO, var_13_1.id, {
 			id = var_13_1.id,

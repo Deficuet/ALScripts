@@ -1,4 +1,8 @@
 local var_0_0 = class("IslandStoryMgr", import("view.base.BaseSubView"))
+
+var_0_0.START_STORY = "IslandStoryMgr:START_STORY"
+var_0_0.END_STORY = "IslandStoryMgr:END_STORY"
+
 local var_0_1 = 0
 local var_0_2 = 1
 local var_0_3 = 2
@@ -14,6 +18,9 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.logBtn = arg_2_0._tf:Find("front/btns/record")
 	arg_2_0.autoBtn = arg_2_0._tf:Find("front/btns/btns/auto_button")
 	arg_2_0.autoBtnImg = findTF(arg_2_0._tf, "front/btns/btns/auto_button/sel"):GetComponent(typeof(Image))
+	arg_2_0.animator = arg_2_0._tf:GetComponent(typeof(Animation))
+	arg_2_0.aniDft = arg_2_0._tf:GetComponent(typeof(DftAniEvent))
+	arg_2_0.canvasGroup = GetOrAddComponent(arg_2_0._tf, typeof(CanvasGroup))
 	arg_2_0.player = Dialogue3DPlayer.New(arg_2_0)
 	arg_2_0.recordPanel = IslandStoryRecordPanel.New(arg_2_0)
 	arg_2_0.recorder = IslandStoryRecorder.New()
@@ -28,19 +35,20 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.state = var_0_1
 end
 
-function var_0_0.Play(arg_4_0, arg_4_1, arg_4_2)
+function var_0_0.Play(arg_4_0, arg_4_1, arg_4_2, arg_4_3)
 	if not _IslandCore then
 		return
 	end
 
 	if arg_4_0:IsRunning() then
-		arg_4_2()
+		arg_4_3()
 
 		return
 	end
 
-	local var_4_0 = _IslandCore:GetView():GetUnitList()
+	local var_4_0 = _IslandCore:GetView():GetAllUnits()
 
+	arg_4_0.refreshNpc = defaultValue(arg_4_2, true)
 	arg_4_0.state = var_0_2
 
 	local var_4_1 = pg.NewStoryMgr.GetInstance():GetScript(arg_4_1)
@@ -52,115 +60,235 @@ function var_0_0.Play(arg_4_0, arg_4_1, arg_4_2)
 
 	local var_4_3 = {}
 
+	table.insert(var_4_3, function(arg_5_0)
+		arg_4_0:WaitForViewLoaded(_IslandCore:GetView(), arg_5_0)
+	end)
+	table.insert(var_4_3, function(arg_6_0)
+		arg_4_0.player:OnStartAction(var_4_2, arg_6_0)
+	end)
+
 	for iter_4_0, iter_4_1 in ipairs(var_4_2.steps) do
-		table.insert(var_4_3, function(arg_5_0)
-			arg_4_0.player:Play(arg_4_0.recorder, iter_4_0, var_4_2, arg_5_0)
+		table.insert(var_4_3, function(arg_7_0)
+			if arg_4_0.isStop then
+				arg_7_0()
+
+				return
+			end
+
+			arg_4_0.player:Play(arg_4_0.recorder, iter_4_0, var_4_2, arg_7_0)
 		end)
 	end
 
+	table.insert(var_4_3, function(arg_8_0)
+		arg_4_0.player:OnEndAction(var_4_2, arg_8_0)
+	end)
+	table.insert(var_4_3, function(arg_9_0)
+		arg_4_0:PlayExitAniamtion(var_4_2, arg_9_0)
+	end)
 	seriesAsync(var_4_3, function()
 		arg_4_0:EndScript(var_4_2)
 
-		if arg_4_2 then
-			arg_4_2()
+		if arg_4_3 then
+			arg_4_3()
+		end
+
+		if arg_4_1 == IslandGuideChecker.SIGNIN_STORY_NAME then
+			IslandGuideChecker.CheckGuide("ISLAND_GUIDE_26")
 		end
 	end)
 end
 
-function var_0_0.StartScript(arg_7_0, arg_7_1)
-	arg_7_0.recorder:Clear()
-	setActive(arg_7_0._go, true)
-	arg_7_0:RegisterSkipBtn()
-	arg_7_0:RegisterLogBtn()
-	arg_7_0:RegisterAutoBtn()
-	arg_7_0.player:OnStart(arg_7_1)
+function var_0_0.WaitForViewLoaded(arg_11_0, arg_11_1, arg_11_2)
+	arg_11_0:RemoveTimer()
 
-	if _IslandCore then
-		_IslandCore:Link(ISLAND_EVT.START_STORY)
-	end
-end
+	if arg_11_1:IsLoaded() then
+		arg_11_2()
 
-function var_0_0.RegisterAutoBtn(arg_8_0)
-	onButton(arg_8_0, arg_8_0.autoBtn, function()
-		if not arg_8_0.script then
-			return
-		end
-
-		if arg_8_0.script:GetAutoPlayFlag() then
-			arg_8_0.script:StopAutoPlay()
-			arg_8_0.player:CancelAuto()
-		else
-			arg_8_0.script:SetAutoPlay()
-			arg_8_0.player:NextOne()
-		end
-
-		arg_8_0:UpdateAutoBtn()
-	end, SFX_PANEL)
-	arg_8_0:UpdateAutoBtn()
-end
-
-function var_0_0.UpdateAutoBtn(arg_10_0)
-	local var_10_0 = arg_10_0.script:GetAutoPlayFlag()
-
-	arg_10_0:ClearAutoBtn(var_10_0)
-end
-
-function var_0_0.ClearAutoBtn(arg_11_0, arg_11_1)
-	if not arg_11_0.script then
 		return
 	end
 
-	arg_11_0.autoBtnImg.color = arg_11_1 and var_0_4 or var_0_5
-
-	local var_11_0 = arg_11_1 and "Show" or "Hide"
-
-	arg_11_0.setSpeedPanel[var_11_0](arg_11_0.setSpeedPanel, arg_11_0.script)
-end
-
-function var_0_0.RegisterSkipBtn(arg_12_0)
-	onButton(arg_12_0, arg_12_0.skipBtn, function()
-		arg_12_0.script:MarkSkipAll()
-		arg_12_0.player:NextOne()
-	end, SFX_PANEL)
-end
-
-function var_0_0.RegisterLogBtn(arg_14_0)
-	onButton(arg_14_0, arg_14_0.logBtn, function()
-		if not arg_14_0.recordPanel:CanOpen() then
-			return
+	arg_11_0.timer = Timer.New(function()
+		if arg_11_1:IsLoaded() then
+			arg_11_0:RemoveTimer()
+			arg_11_2()
 		end
+	end, 0.1, -1)
 
-		arg_14_0.recordPanel:Show(arg_14_0.recorder)
-	end, SFX_PANEL)
+	arg_11_0.timer:Start()
 end
 
-function var_0_0.EndScript(arg_16_0, arg_16_1)
-	setActive(arg_16_0._go, false)
-	removeOnButton(arg_16_0.skipBtn)
-	removeOnButton(arg_16_0.logBtn)
-	arg_16_0:ClearAutoBtn(false)
-	arg_16_0.recorder:Clear()
-	arg_16_0.recordPanel:Hide()
-	arg_16_0.setSpeedPanel:Clear()
+function var_0_0.RemoveTimer(arg_13_0, ...)
+	if arg_13_0.timer then
+		arg_13_0.timer:Stop()
 
-	arg_16_0.state = var_0_3
-	arg_16_0.script = nil
-
-	arg_16_0.player:OnEnd(arg_16_1)
-
-	if _IslandCore then
-		_IslandCore:Link(ISLAND_EVT.END_STORY)
+		arg_13_0.timer = nil
 	end
 end
 
-function var_0_0.IsRunning(arg_17_0)
-	return arg_17_0.state == var_0_2
+function var_0_0.StartScript(arg_14_0, arg_14_1)
+	arg_14_0.isStop = false
+	arg_14_0.canvasGroup.blocksRaycasts = true
+
+	arg_14_0.recorder:Clear()
+	setActive(arg_14_0._go, true)
+	arg_14_0:RegisterSkipBtn()
+	arg_14_0:RegisterLogBtn()
+	arg_14_0:RegisterAutoBtn()
+	arg_14_0.player:OnStart(arg_14_1)
+	pg.m02:sendNotification(GAME.STORY_UPDATE, {
+		storyId = arg_14_1.id,
+		callback = function()
+			IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.STORY)
+		end
+	})
+	arg_14_0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.STORY_START)
 end
 
-function var_0_0.OnDestroy(arg_18_0)
-	arg_18_0.recorder:Dispose()
-	arg_18_0.recordPanel:Dispose()
-	arg_18_0.setSpeedPanel:Dispose()
+function var_0_0.RegisterAutoBtn(arg_16_0)
+	onButton(arg_16_0, arg_16_0.autoBtn, function()
+		if not arg_16_0.script then
+			return
+		end
+
+		if arg_16_0.script:GetAutoPlayFlag() then
+			arg_16_0.script:StopAutoPlay()
+			arg_16_0.player:CancelAuto()
+		else
+			arg_16_0.script:SetAutoPlay()
+			arg_16_0.player:NextOne()
+		end
+
+		arg_16_0:UpdateAutoBtn()
+	end, SFX_PANEL)
+	arg_16_0:UpdateAutoBtn()
+end
+
+function var_0_0.UpdateAutoBtn(arg_18_0)
+	local var_18_0 = arg_18_0.script:GetAutoPlayFlag()
+
+	arg_18_0:ClearAutoBtn(var_18_0)
+end
+
+function var_0_0.ClearAutoBtn(arg_19_0, arg_19_1)
+	if not arg_19_0.script then
+		return
+	end
+
+	arg_19_0.autoBtnImg.color = arg_19_1 and var_0_4 or var_0_5
+
+	local var_19_0 = arg_19_1 and "Show" or "Hide"
+
+	arg_19_0.setSpeedPanel[var_19_0](arg_19_0.setSpeedPanel, arg_19_0.script)
+end
+
+function var_0_0.RegisterSkipBtn(arg_20_0)
+	onButton(arg_20_0, arg_20_0.skipBtn, function()
+		arg_20_0.script:MarkSkipAll()
+		arg_20_0.player:NextOne()
+	end, SFX_PANEL)
+end
+
+function var_0_0.RegisterLogBtn(arg_22_0)
+	onButton(arg_22_0, arg_22_0.logBtn, function()
+		if not arg_22_0.recordPanel:CanOpen() then
+			return
+		end
+
+		if arg_22_0.script:GetAutoPlayFlag() then
+			arg_22_0.script:StopAutoPlay()
+			arg_22_0.player:CancelAuto()
+			arg_22_0:UpdateAutoBtn()
+		end
+
+		arg_22_0.recordPanel:Show(arg_22_0.recorder)
+	end, SFX_PANEL)
+end
+
+function var_0_0.PlayExitAniamtion(arg_24_0, arg_24_1, arg_24_2)
+	if arg_24_1:LastStepIsTimeline() then
+		if arg_24_2 then
+			arg_24_2()
+		end
+
+		return
+	end
+
+	arg_24_0.aniDft:SetEndEvent(function()
+		if arg_24_2 then
+			arg_24_2()
+		end
+	end)
+
+	arg_24_0.canvasGroup.blocksRaycasts = false
+
+	arg_24_0.animator:Play("anim_IslandStoryUI_Dialogue_Out")
+end
+
+function var_0_0.EndScript(arg_26_0, arg_26_1)
+	arg_26_0.isStop = false
+	arg_26_0.canvasGroup.blocksRaycasts = true
+
+	arg_26_0.aniDft:SetEndEvent(nil)
+	setActive(arg_26_0._go, false)
+	removeOnButton(arg_26_0.skipBtn)
+	removeOnButton(arg_26_0.logBtn)
+	arg_26_0:ClearAutoBtn(false)
+	arg_26_0.recorder:Clear()
+	arg_26_0.recordPanel:Hide()
+	arg_26_0.setSpeedPanel:Clear()
+
+	arg_26_0.state = var_0_3
+	arg_26_0.script = nil
+
+	arg_26_0:RemoveTimer()
+	arg_26_0.player:OnEnd(arg_26_1)
+
+	local var_26_0 = arg_26_0.refreshNpc
+
+	arg_26_0:emit(IslandBaseScene.LINK_CORE_EVENT, IslandProxy.STORY_END, var_26_0)
+
+	arg_26_0.refreshNpc = nil
+end
+
+function var_0_0.IsRunning(arg_27_0)
+	return arg_27_0.state == var_0_2
+end
+
+function var_0_0.Stop(arg_28_0)
+	if arg_28_0.isStop then
+		return
+	end
+
+	if not arg_28_0:IsRunning() then
+		return
+	end
+
+	arg_28_0.isStop = true
+
+	arg_28_0.player:NextOne()
+end
+
+function var_0_0.onBackPressed(arg_29_0)
+	if arg_29_0.recordPanel and arg_29_0.recordPanel:IsShowing() then
+		arg_29_0.recordPanel:Hide()
+
+		return true
+	end
+
+	if arg_29_0:IsRunning() then
+		arg_29_0:Stop()
+
+		return true
+	end
+
+	return false
+end
+
+function var_0_0.OnDestroy(arg_30_0)
+	arg_30_0.recorder:Dispose()
+	arg_30_0.recordPanel:Dispose()
+	arg_30_0.setSpeedPanel:Dispose()
+	arg_30_0.player:Dispose()
 end
 
 return var_0_0

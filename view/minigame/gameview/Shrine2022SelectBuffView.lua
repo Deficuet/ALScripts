@@ -13,7 +13,7 @@ function var_0_0.OnInit(arg_2_0)
 end
 
 function var_0_0.OnDestroy(arg_3_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_3_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_3_0._tf)
 	arg_3_0:cleanManagedTween()
 end
 
@@ -22,10 +22,10 @@ function var_0_0.initData(arg_4_0)
 end
 
 function var_0_0.initUI(arg_5_0)
-	arg_5_0.bg = arg_5_0:findTF("BG")
-	arg_5_0.cloud1 = arg_5_0:findTF("Cloud1")
-	arg_5_0.cloud2 = arg_5_0:findTF("Cloud2")
-	arg_5_0.buffListTF = arg_5_0:findTF("BuffContainer")
+	arg_5_0.bg = arg_5_0._tf:Find("BG")
+	arg_5_0.cloud1 = arg_5_0._tf:Find("Cloud1")
+	arg_5_0.cloud2 = arg_5_0._tf:Find("Cloud2")
+	arg_5_0.buffListTF = arg_5_0._tf:Find("BuffContainer")
 	arg_5_0.buffListCG = GetComponent(arg_5_0.buffListTF, "CanvasGroup")
 
 	for iter_5_0 = 1, 3 do

@@ -81,6 +81,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>7thアニバーサリーは指揮官とともにーー</color>\n7周年記念イベント二参加した指揮官に贈る",
 		scene = {}
 	},
+	[110] = {
+		time_limit_type = 0,
+		name = "八周年記念",
+		gain_by = "",
+		id = 110,
+		time_second = 0,
+		desc = "<color=#ffffff>Eighth　Anniversary！</color>\n　八周年記念イベントで開放可能",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "チャレンジャー",
@@ -504,6 +513,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「高い塔に佇む薔薇は、ロイヤルの最後の栄光を守り続ける」</color>――「高い塔の薔薇」イベントで入手可能",
 		scene = {}
 	},
+	[336] = {
+		time_limit_type = 0,
+		name = "鳳鳴アマハラ",
+		gain_by = "アマハラに舞い奉れ",
+		id = 336,
+		time_second = 0,
+		desc = "<color=#ffffff>「天域に初訪し鳳鳴く。その姿翩翩なりしアマハラに響く」</color>\n「アマハラに舞い奉れ」に参加した指揮官に贈る",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -666,6 +684,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>リゾート島で完璧なバカンスを楽しもう！</color>「盛夏再び！リゾート再建計画！」参加で入手可能",
 		scene = {}
 	},
+	[611] = {
+		time_limit_type = 0,
+		name = "林間の清き風",
+		gain_by = "",
+		id = 611,
+		time_second = 0,
+		desc = "<color=#ffffff>森を吹き抜ける清き風を感じながら、いつもと違う休暇を楽しもう♪</color>「林間休暇準備」参加で入手可能",
+		scene = {}
+	},
 	[1001] = {
 		time_limit_type = 0,
 		name = "スイートランデブー",
@@ -736,6 +763,24 @@ pg.item_data_frame = {
 		id = 1008,
 		time_second = 0,
 		desc = "<color=#ffffff>スタイリッシュな光が煌めく中で踊るウサギ、その存在とは一体…？</color>\n「交流宿舎」ニュージャージーの親愛度Lv報酬",
+		scene = {}
+	},
+	[1009] = {
+		time_limit_type = 0,
+		name = "桜の語り",
+		gain_by = "",
+		id = 1009,
+		time_second = 0,
+		desc = "<color=#ffffff>風とともに舞う桜の花びら。春の生命力と美しさを語りかけている。</color>「交流宿舎」大鳳の親愛度Lv報酬",
+		scene = {}
+	},
+	[1010] = {
+		time_limit_type = 0,
+		name = "鳳翎の輝き",
+		gain_by = "",
+		id = 1010,
+		time_second = 0,
+		desc = "<color=#ffffff>金色の翼を広げ、羽根が輝ききらめく。優雅にしてどこか神秘的</color>\n「交流宿舎」大鳳の親愛度Lv報酬",
 		scene = {}
 	},
 	[10001] = {
@@ -856,6 +901,7 @@ pg.item_data_frame = {
 		107,
 		108,
 		109,
+		110,
 		201,
 		202,
 		203,
@@ -903,6 +949,7 @@ pg.item_data_frame = {
 		333,
 		334,
 		335,
+		336,
 		401,
 		402,
 		403,
@@ -921,6 +968,7 @@ pg.item_data_frame = {
 		607,
 		609,
 		610,
+		611,
 		1001,
 		1002,
 		1003,
@@ -929,6 +977,8 @@ pg.item_data_frame = {
 		1006,
 		1007,
 		1008,
+		1009,
+		1010,
 		10001,
 		10002,
 		10003,

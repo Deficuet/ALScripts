@@ -65,30 +65,30 @@ function var_0_0.setEquipmentByIds(arg_4_0, arg_4_1)
 end
 
 function var_0_0.init(arg_5_0)
-	arg_5_0.mainPanel = arg_5_0:findTF("main")
+	arg_5_0.mainPanel = arg_5_0._tf:Find("main")
 
 	setActive(arg_5_0.mainPanel, true)
 	setText(arg_5_0.mainPanel:Find("top/title_list/infomation/title"), i18n("title_info"))
 	setText(arg_5_0.mainPanel:Find("title/Text"), i18n("resolve_equip_tip"))
 
-	arg_5_0.viewRect = arg_5_0:findTF("main/frame/view"):GetComponent("LScrollRect")
-	arg_5_0.backBtn = arg_5_0:findTF("main/top/btnBack")
-	arg_5_0.cancelBtn = arg_5_0:findTF("main/cancel_btn")
+	arg_5_0.viewRect = arg_5_0._tf:Find("main/frame/view"):GetComponent("LScrollRect")
+	arg_5_0.backBtn = arg_5_0._tf:Find("main/top/btnBack")
+	arg_5_0.cancelBtn = arg_5_0._tf:Find("main/cancel_btn")
 
 	setText(arg_5_0.cancelBtn:Find("Image"), i18n("text_cancel"))
 
-	arg_5_0.okBtn = arg_5_0:findTF("main/ok_btn")
+	arg_5_0.okBtn = arg_5_0._tf:Find("main/ok_btn")
 
 	setText(arg_5_0.okBtn:Find("Image"), i18n("text_confirm"))
-	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf, false, {})
+	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf)
 
 	arg_5_0.selectedIds = {}
-	arg_5_0.selectOptions = arg_5_0:findTF("main/options")
+	arg_5_0.selectOptions = arg_5_0._tf:Find("main/options")
 
 	setText(arg_5_0.selectOptions:Find("ALL/Label"), i18n("word_equipment_all"))
 
 	arg_5_0.optionStatus = {}
-	arg_5_0.destroyConfirm = arg_5_0:findTF("destroy_confirm")
+	arg_5_0.destroyConfirm = arg_5_0._tf:Find("destroy_confirm")
 	arg_5_0.destroyBonusList = arg_5_0.destroyConfirm:Find("got/scrollview/list")
 	arg_5_0.destroyBonusItem = arg_5_0.destroyConfirm:Find("got/scrollview/item")
 
@@ -144,7 +144,7 @@ function var_0_0.didEnter(arg_6_0)
 	onButton(arg_6_0, findTF(arg_6_0.destroyConfirm, "actions/cancel_button"), function()
 		setActive(arg_6_0.destroyConfirm, false)
 		setActive(arg_6_0.mainPanel, true)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_6_0.destroyConfirm, arg_6_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_6_0.destroyConfirm, arg_6_0._tf)
 	end, SFX_CANCEL)
 	onButton(arg_6_0, findTF(arg_6_0.destroyConfirm, "actions/destroy_button"), function()
 		local var_15_0 = {}
@@ -642,7 +642,7 @@ end
 
 function var_0_0.willExit(arg_58_0)
 	arg_58_0.equipDestroyConfirmWindow:Destroy()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_58_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_58_0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 
 return var_0_0

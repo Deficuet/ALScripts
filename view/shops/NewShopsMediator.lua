@@ -68,10 +68,9 @@ function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.GO_MALL, function(arg_10_0, arg_10_1)
 		local var_10_0 = getProxy(ContextProxy)
 
-		if arg_1_0.contextData.fromMediatorName == ChargeMediator.__cname then
-			var_10_0:getContextByMediator(ChargeMediator):extendData({
-				wrap = arg_10_1
-			})
+		if arg_1_0.contextData.fromMediatorName == NewShopMainMediator.__cname then
+			local var_10_1 = var_10_0:getContextByMediator(NewShopMainMediator)
+
 			arg_1_0.viewComponent:closeView()
 		else
 			pg.m02:sendNotification(GAME.CHANGE_SCENE, SCENE.CHARGE, {
@@ -149,15 +148,13 @@ function var_0_0.register(arg_1_0)
 			var_19_2 = {
 				equipSkinId = 0,
 				shipVO = var_19_1,
-				weaponIds = {},
-				weight = arg_1_0.contextData.weight and arg_1_0.contextData.weight + 1
+				weaponIds = {}
 			}
 		else
 			var_19_2 = {
 				shipVO = var_19_1,
 				weaponIds = Clone(var_19_0.weapon_ids),
-				equipSkinId = arg_19_1,
-				weight = arg_1_0.contextData.weight and arg_1_0.contextData.weight + 1
+				equipSkinId = arg_19_1
 			}
 		end
 

@@ -5,20 +5,18 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.frame = arg_2_0:findTF("frame")
-	arg_2_0.attrPanel = arg_2_0:findTF("right_panel/top/attrs")
-	arg_2_0.rarePanel = arg_2_0:findTF("right_panel/top/rare")
-	arg_2_0.paintContain = arg_2_0:findTF("paint")
-	arg_2_0.qCharaContain = arg_2_0:findTF("right_panel/top/q_chara")
-	arg_2_0._chat = arg_2_0:findTF("chat", arg_2_0.paintContain)
+	arg_2_0.frame = arg_2_0._tf:Find("frame")
+	arg_2_0.attrPanel = arg_2_0._tf:Find("right_panel/top/attrs")
+	arg_2_0.rarePanel = arg_2_0._tf:Find("right_panel/top/rare")
+	arg_2_0.paintContain = arg_2_0._tf:Find("paint")
+	arg_2_0.qCharaContain = arg_2_0._tf:Find("right_panel/top/q_chara")
+	arg_2_0._chat = arg_2_0.paintContain:Find("chat")
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
-	arg_2_0._shake = arg_2_0:findTF("shake_panel")
-	arg_2_0._bg = arg_2_0:findTF("bg", arg_2_0._shake)
-	arg_2_0._paintingShadowTF = arg_2_0:findTF("shadow")
+	arg_2_0._shake = arg_2_0._tf:Find("shake_panel")
+	arg_2_0._bg = arg_2_0._shake:Find("bg")
+	arg_2_0._paintingShadowTF = arg_2_0._tf:Find("shadow")
 end
 
 function var_0_0.didEnter(arg_3_0)
@@ -134,7 +132,7 @@ function var_0_0.updateStatistics(arg_5_0)
 
 	setWidgetText(arg_5_0._chat, var_5_21)
 
-	local var_5_22 = arg_5_0:findTF("Text", arg_5_0._chat):GetComponent(typeof(Text))
+	local var_5_22 = arg_5_0._chat:Find("Text"):GetComponent(typeof(Text))
 
 	var_5_22.alignment = #var_5_22.text > CHAT_POP_STR_LEN and TextAnchor.MiddleLeft or TextAnchor.MiddleCenter
 	arg_5_0._chat.transform.localScale = Vector3(0, 0, 1)
@@ -287,7 +285,7 @@ function var_0_0.willExit(arg_18_0)
 		arg_18_0.loadedCVBankName = nil
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_18_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_18_0._tf)
 end
 
 return var_0_0

@@ -1,69 +1,105 @@
 local var_0_0 = class("IslandNpcUnit", import(".IslandNavigableUnit"))
+local var_0_1 = {
+	JumpHandle = 1,
+	LoadToolHandle = 2
+}
 
-function var_0_0.OnInit(arg_1_0)
-	arg_1_0._tf = arg_1_0._go.transform
-	arg_1_0.degreeSpeedDamping = 10
-	arg_1_0.targetSpeed = 0
-	arg_1_0.speed = 0
-	arg_1_0.speedDamping = 1
-	arg_1_0.walkingMaxSpeed = 1.5
-	arg_1_0.runMaxSpeed = 5
-	arg_1_0.targetPosition = Vector3.zero
-	arg_1_0.velocity = Vector3.zero
-	arg_1_0.extraVelocity = Vector3.zero
-	arg_1_0.animator = arg_1_0._go:GetComponent(typeof(Animator))
-	arg_1_0.characterController = arg_1_0._go:GetComponent(typeof(UnityEngine.CharacterController))
+function var_0_0.OnAttach(arg_1_0, arg_1_1)
+	var_0_0.super.OnAttach(arg_1_0, arg_1_1)
+
+	arg_1_0.characterHandleController = arg_1_0._go:GetComponent(typeof(CharacterHandleController))
+
+	arg_1_0.characterHandleController:AddStateEnterFunc(function(arg_2_0, arg_2_1)
+		arg_1_0:StateEnterHandle(arg_2_0, arg_2_1)
+	end)
+	arg_1_0.characterHandleController:AddStateExitFunc(function(arg_3_0, arg_3_1)
+		arg_1_0:StateExitHandle(arg_3_0, arg_3_1)
+	end)
+	arg_1_0.characterHandleController:AddStateEnterFixCompleteFunc(function(arg_4_0, arg_4_1)
+		arg_1_0:StateEnterFixHandle(arg_4_0, arg_4_1)
+	end)
+	arg_1_0.characterHandleController:AddStateExitFixCompleteFunc(function(arg_5_0, arg_5_1)
+		return
+	end)
+
+	arg_1_0.objTfList = {}
 end
 
-function var_0_0.SetDestination(arg_2_0, arg_2_1, arg_2_2)
-	arg_2_0:SetNavAgentDestination(arg_2_1)
+function var_0_0.StateEnterHandle(arg_6_0, arg_6_1, arg_6_2)
+	if arg_6_1 == var_0_1.LoadToolHandle then
+		local var_6_0 = arg_6_0:GetToolId(arg_6_2)
 
-	arg_2_0.targetSpeed = Mathf.Clamp(arg_2_2 or 0, arg_2_0.walkingMaxSpeed, arg_2_0.runMaxSpeed)
-	arg_2_0.targetPosition = arg_2_1
+		arg_6_0:LoadInteractiveTool(arg_6_2)
+	end
 end
 
-function var_0_0.StopMove(arg_3_0)
-	arg_3_0:StopNavAgent()
+function var_0_0.StateEnterFixHandle(arg_7_0, arg_7_1, arg_7_2)
+	if arg_7_1 == var_0_1.LoadToolHandle then
+		local var_7_0 = arg_7_0:GetToolId(arg_7_2)
 
-	arg_3_0.targetSpeed = 0
-	arg_3_0.targetPosition = Vector3.zero
-
-	arg_3_0.animator:SetFloat(IslandConst.SPEED_FLAG_HASH, 0)
+		pg.ViewUtils.SetLayer(arg_7_0.objTfList[var_7_0], Layer.Default)
+	end
 end
 
-function var_0_0.OnUpdate(arg_4_0)
-	arg_4_0.speed = Mathf.Lerp(arg_4_0.speed, arg_4_0.targetSpeed, arg_4_0.speedDamping)
-
-	arg_4_0:SetNavAgentSpeed(arg_4_0.speed * 0.5)
-	arg_4_0:Move()
-	arg_4_0.animator:SetFloat(IslandConst.SPEED_FLAG_HASH, arg_4_0.speed)
-
-	arg_4_0.velocity = arg_4_0:GetNavAgentVelocity()
+function var_0_0.StateExitHandle(arg_8_0, arg_8_1, arg_8_2)
+	if arg_8_1 == var_0_1.LoadToolHandle then
+		arg_8_0:UnLoadInteractiveTool(arg_8_2)
+	end
 end
 
-function var_0_0.Move(arg_5_0)
-	local var_5_0 = arg_5_0:GetDesiredVelocity() + arg_5_0.extraVelocity
+function var_0_0.GetToolId(arg_9_0, arg_9_1)
+	if arg_9_1 ~= 0 then
+		return arg_9_1
+	end
+end
 
-	if var_5_0.magnitude <= 0 or var_5_0.normalized == Vector3.zero then
+function var_0_0.LoadInteractiveTool(arg_10_0, arg_10_1)
+	local var_10_0 = arg_10_0.objTfList[arg_10_1]
+
+	if var_10_0 then
+		setActive(var_10_0, true)
+		setParent(var_10_0, arg_10_0._tf)
+		pg.ViewUtils.SetLayer(var_10_0, Layer.UIHidden)
+
 		return
 	end
 
-	local var_5_1 = Quaternion.LookRotation(var_5_0.normalized)
+	local var_10_1 = pg.island_animation_attachments[arg_10_1]
+	local var_10_2 = var_10_1.model
 
-	arg_5_0._tf.rotation = Quaternion.Slerp(arg_5_0._tf.rotation, var_5_1, Time.deltaTime * arg_5_0.degreeSpeedDamping)
+	if arg_10_1 == pg.island_set.island_manage_animation_extroversion.key_value_int or arg_10_1 == pg.island_set.island_manage_animation_introverted.key_value_int then
+		local var_10_3 = arg_10_0.behaviourTreeOwner.graph.blackboard:GetVariable("systemId").value
 
-	local var_5_2 = Vector3.up * IslandConst.GRAVITY
-
-	if Physics.CheckSphere(arg_5_0._tf.position + Vector3.up * (arg_5_0.characterController.radius - arg_5_0.characterController.skinWidth), arg_5_0.characterController.radius, LayerMask.GetMask("Ground")) then
-		var_5_2 = Vector3.zero
+		if var_10_3 ~= 0 then
+			var_10_2 = pg.island_manage_restaurant[var_10_3].performance_param
+		end
 	end
 
-	arg_5_0.characterController:Move(var_5_0.normalized * arg_5_0:GetNavAgentSpeed() * Time.deltaTime + var_5_2 * Time.deltaTime)
-	arg_5_0:SetNavAgentVelocity(arg_5_0.characterController.velocity)
+	local var_10_4 = LoadAny(var_10_2, nil)
+	local var_10_5 = Object.Instantiate(var_10_4)
+
+	arg_10_0.objTfList[arg_10_1] = var_10_5.transform
+
+	local var_10_6 = LoadAny(var_10_1.animator, nil, typeof(RuntimeAnimatorController))
+
+	GetOrAddComponent(arg_10_0.objTfList[arg_10_1], typeof(Animator)).runtimeAnimatorController = var_10_6
+
+	setParent(arg_10_0.objTfList[arg_10_1], arg_10_0._tf)
+	pg.ViewUtils.SetLayer(arg_10_0.objTfList[arg_10_1], Layer.UIHidden)
 end
 
-function var_0_0.OnDispose(arg_6_0)
-	return
+function var_0_0.UnLoadInteractiveTool(arg_11_0, arg_11_1)
+	if arg_11_0.objTfList[arg_11_1] then
+		setActive(arg_11_0.objTfList[arg_11_1], false)
+	end
+end
+
+function var_0_0.DestroyInteractiveTools(arg_12_0)
+	for iter_12_0, iter_12_1 in pairs(arg_12_0.objTfList) do
+		Object.Destroy(iter_12_1.gameObject)
+	end
+
+	arg_12_0.objTfList = {}
 end
 
 return var_0_0

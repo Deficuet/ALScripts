@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.white_closebtn = arg_2_0:findTF("white_close")
-	arg_2_0.bg = arg_2_0:findTF("BG")
+	arg_2_0.white_closebtn = arg_2_0._tf:Find("white_close")
+	arg_2_0.bg = arg_2_0._tf:Find("BG")
 	arg_2_0.Close = arg_2_0.bg:Find("close")
 	arg_2_0.list = arg_2_0.bg:Find("panel/list")
 	arg_2_0.frame = arg_2_0.bg:Find("frame")
@@ -42,7 +42,7 @@ function var_0_0.didEnter(arg_4_0)
 		arg_4_0:GetAllAward()
 	end)
 	setText(arg_4_0.getall:Find("Text"), i18n("other_world_task_get_all"))
-	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf)
 end
 
 function var_0_0.UpdateView(arg_8_0)
@@ -149,7 +149,7 @@ end
 
 function var_0_0.UpdateList(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 	local var_14_0 = arg_14_1 + 1
-	local var_14_1 = arg_14_0:findTF("frame", arg_14_2)
+	local var_14_1 = arg_14_2:Find("frame")
 	local var_14_2 = arg_14_0.taskProxy:getTaskVO(arg_14_3[var_14_0])
 	local var_14_3 = arg_14_2:Find("desc")
 
@@ -166,13 +166,13 @@ function var_0_0.UpdateList(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 
 	arg_14_0:updateAwards(var_14_2:getConfig("award_display"), var_14_7, var_14_6)
 
-	local var_14_8 = arg_14_0:findTF("go_btn", arg_14_2)
-	local var_14_9 = arg_14_0:findTF("get_btn", arg_14_2)
-	local var_14_10 = arg_14_0:findTF("got_btn", arg_14_2)
+	local var_14_8 = arg_14_2:Find("go_btn")
+	local var_14_9 = arg_14_2:Find("get_btn")
+	local var_14_10 = arg_14_2:Find("got_btn")
 
-	setText(arg_14_0:findTF("go_btn/text", arg_14_2), i18n("other_world_task_go"))
-	setText(arg_14_0:findTF("get_btn/text", arg_14_2), i18n("other_world_task_get"))
-	setText(arg_14_0:findTF("got_btn/text", arg_14_2), i18n("other_world_task_got"))
+	setText(arg_14_2:Find("go_btn/text"), i18n("other_world_task_go"))
+	setText(arg_14_2:Find("get_btn/text"), i18n("other_world_task_get"))
+	setText(arg_14_2:Find("got_btn/text"), i18n("other_world_task_got"))
 
 	local var_14_11 = var_14_2:getTaskStatus()
 

@@ -86,7 +86,7 @@ end
 
 function var_0_1.ChangeAssetName(arg_12_0, arg_12_1)
 	if arg_12_1 == nil or arg_12_1 == "" or string.find(arg_12_1, "/") then
-		return string.lower(arg_12_1 or "")
+		return arg_12_1 or ""
 	elseif not AssetBundleHelper.bundleDic[arg_12_0.path] then
 		arg_12_0:BuildAssetNameDic()
 	end

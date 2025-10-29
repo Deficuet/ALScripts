@@ -5,15 +5,15 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.friendBtn = arg_2_0:findTF("window/sliders/content/friend")
+	arg_2_0.friendBtn = arg_2_0._tf:Find("window/sliders/content/friend")
 	arg_2_0.friendRequested = arg_2_0.friendBtn:Find("requested")
 	arg_2_0.friendMark = arg_2_0.friendBtn:Find("mark")
 	arg_2_0.friendSupportTimeTxt = arg_2_0.friendBtn:Find("requested/Text"):GetComponent(typeof(Text))
-	arg_2_0.guildBtn = arg_2_0:findTF("window/sliders/content/guild")
+	arg_2_0.guildBtn = arg_2_0._tf:Find("window/sliders/content/guild")
 	arg_2_0.guildRequested = arg_2_0.guildBtn:Find("requested")
 	arg_2_0.guildMark = arg_2_0.guildBtn:Find("mark")
 	arg_2_0.guildSupportTimeTxt = arg_2_0.guildBtn:Find("requested/Text"):GetComponent(typeof(Text))
-	arg_2_0.worldBtn = arg_2_0:findTF("window/sliders/content/world")
+	arg_2_0.worldBtn = arg_2_0._tf:Find("window/sliders/content/world")
 	arg_2_0.worldRequested = arg_2_0.worldBtn:Find("requested")
 	arg_2_0.worldMark = arg_2_0.worldBtn:Find("mark")
 	arg_2_0.worldSupportTimeTxt = arg_2_0.worldBtn:Find("requested/Text"):GetComponent(typeof(Text))
@@ -24,10 +24,10 @@ function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0._tf, function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("cancel_btn"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("cancel_btn"), function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("window/top/btnBack"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/top/btnBack"), function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.friendBtn, function()
@@ -42,7 +42,7 @@ function var_0_0.OnInit(arg_3_0)
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.worldBtn, function()
 		if nowWorld():GetBossProxy():WorldSupported() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("world_boss_ask_help"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_ask_help"))
 
 			return
 		end
@@ -51,7 +51,7 @@ function var_0_0.OnInit(arg_3_0)
 
 		setActive(arg_3_0.worldMark, arg_3_0.worldFlag)
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("confirm_btn"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("confirm_btn"), function()
 		arg_3_0:emit(WorldBossMediator.ON_SURPPORT, {
 			arg_3_0.friendFlag,
 			arg_3_0.guildFlag,
@@ -176,7 +176,7 @@ end
 
 function var_0_0.Hide(arg_24_0)
 	var_0_0.super.Hide(arg_24_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_24_0._tf, arg_24_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_24_0._tf, arg_24_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_25_0)

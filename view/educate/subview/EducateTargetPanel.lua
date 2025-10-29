@@ -5,7 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0.contentTF = arg_2_0:findTF("content")
+	arg_2_0.contentTF = arg_2_0._tf:Find("content")
 
 	onButton(arg_2_0, arg_2_0.contentTF, function()
 		arg_2_0:emit(EducateBaseUI.EDUCATE_GO_SUBLAYER, Context.New({
@@ -14,17 +14,17 @@ function var_0_0.OnInit(arg_2_0)
 		}))
 	end, SFX_PANEL)
 
-	arg_2_0.taskTpl = arg_2_0:findTF("tpl", arg_2_0.contentTF)
+	arg_2_0.taskTpl = arg_2_0.contentTF:Find("tpl")
 
 	setActive(arg_2_0.taskTpl, false)
 
-	arg_2_0.listBg = arg_2_0:findTF("task_list/bg", arg_2_0.contentTF)
-	arg_2_0.lineTF = arg_2_0:findTF("task_list/line", arg_2_0.contentTF)
-	arg_2_0.mainTF = arg_2_0:findTF("task_list/main", arg_2_0.contentTF)
+	arg_2_0.listBg = arg_2_0.contentTF:Find("task_list/bg")
+	arg_2_0.lineTF = arg_2_0.contentTF:Find("task_list/line")
+	arg_2_0.mainTF = arg_2_0.contentTF:Find("task_list/main")
 
-	setText(arg_2_0:findTF("title/Image/Text", arg_2_0.mainTF), i18n("child_task_system_type3"))
+	setText(arg_2_0.mainTF:Find("title/Image/Text"), i18n("child_task_system_type3"))
 
-	arg_2_0.mainTaskUIList = UIItemList.New(arg_2_0:findTF("list", arg_2_0.mainTF), arg_2_0.taskTpl)
+	arg_2_0.mainTaskUIList = UIItemList.New(arg_2_0.mainTF:Find("list"), arg_2_0.taskTpl)
 
 	arg_2_0.mainTaskUIList:make(function(arg_4_0, arg_4_1, arg_4_2)
 		if arg_4_0 == UIItemList.EventUpdate then
@@ -32,11 +32,11 @@ function var_0_0.OnInit(arg_2_0)
 		end
 	end)
 
-	arg_2_0.otherTF = arg_2_0:findTF("task_list/other", arg_2_0.contentTF)
+	arg_2_0.otherTF = arg_2_0.contentTF:Find("task_list/other")
 
-	setText(arg_2_0:findTF("title/Image/Text", arg_2_0.otherTF), i18n("child_task_system_type2"))
+	setText(arg_2_0.otherTF:Find("title/Image/Text"), i18n("child_task_system_type2"))
 
-	arg_2_0.otherTaskUIList = UIItemList.New(arg_2_0:findTF("list", arg_2_0.otherTF), arg_2_0.taskTpl)
+	arg_2_0.otherTaskUIList = UIItemList.New(arg_2_0.otherTF:Find("list"), arg_2_0.taskTpl)
 
 	arg_2_0.otherTaskUIList:make(function(arg_5_0, arg_5_1, arg_5_2)
 		if arg_5_0 == UIItemList.EventUpdate then
@@ -50,7 +50,7 @@ function var_0_0.updateTaskItem(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
 	local var_6_0 = arg_6_3 == "main" and arg_6_0.mainTaskVOs[arg_6_1 + 1] or arg_6_0.otherTaskVOs[arg_6_1 + 1]
 	local var_6_1 = string.format("(%s)", var_6_0:GetProgress() .. "/" .. var_6_0:GetFinishNum())
 
-	setText(arg_6_0:findTF("progress", arg_6_2), var_6_1)
+	setText(arg_6_2:Find("progress"), var_6_1)
 
 	local var_6_2 = GetPerceptualSize(var_6_1)
 
@@ -58,7 +58,7 @@ function var_0_0.updateTaskItem(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
 		var_6_2 = var_6_2 + 2
 	end
 
-	setText(arg_6_0:findTF("desc", arg_6_2), shortenString(var_6_0:getConfig("name"), 11 - var_6_2))
+	setText(arg_6_2:Find("desc"), shortenString(var_6_0:getConfig("name"), 11 - var_6_2))
 end
 
 function var_0_0.Flush(arg_7_0)
@@ -68,7 +68,7 @@ function var_0_0.Flush(arg_7_0)
 
 	arg_7_0.taskProxy = getProxy(EducateProxy):GetTaskProxy()
 
-	setActive(arg_7_0:findTF("target_btn/tip", arg_7_0.contentTF), arg_7_0.taskProxy:IsShowOtherTasksTip())
+	setActive(arg_7_0.contentTF:Find("target_btn/tip"), arg_7_0.taskProxy:IsShowOtherTasksTip())
 
 	arg_7_0.mainTaskVOs = arg_7_0.taskProxy:FilterByGroup(arg_7_0.taskProxy:GetMainTasksForShow())
 

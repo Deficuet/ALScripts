@@ -1467,7 +1467,7 @@ function var_0_0.HideCompositeConfirmWindow(arg_129_0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_129_0.layerCompositeConfirm, arg_129_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_129_0.layerCompositeConfirm, arg_129_0._tf)
 	setActive(arg_129_0.layerCompositeConfirm, false)
 
 	return true
@@ -1486,9 +1486,7 @@ function var_0_0.OnCompositeResult(arg_130_0, arg_130_1)
 	local var_130_1 = 0.5
 
 	arg_130_0.loader:GetPrefab("ui/" .. var_0_16, "", function(arg_131_0)
-		pg.UIMgr.GetInstance():OverlayPanel(tf(arg_131_0), {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		pg.UIMgr.GetInstance():OverlayPanel(tf(arg_131_0))
 		setAnchoredPosition(arg_131_0, Vector2.zero)
 		arg_130_0:managedTween(LeanTween.alphaCanvas, nil, GetComponent(arg_130_0._tf, typeof(CanvasGroup)), 0, var_130_0):setFrom(1)
 		arg_130_0:managedTween(LeanTween.alphaCanvas, nil, GetComponent(arg_130_0.top, typeof(CanvasGroup)), 0, var_130_0):setFrom(1)
@@ -1534,7 +1532,7 @@ function var_0_0.HideCompositeResult(arg_135_0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_135_0.layerCompositeResult, arg_135_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_135_0.layerCompositeResult, arg_135_0._tf)
 	setActive(arg_135_0.layerCompositeResult, false)
 
 	if pg.NewStoryMgr.GetInstance():IsPlayed("NG0032") then
@@ -1591,7 +1589,7 @@ function var_0_0.HideStoreHouseWindow(arg_142_0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_142_0.layerStoreHouse, arg_142_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_142_0.layerStoreHouse, arg_142_0._tf)
 	setActive(arg_142_0.layerStoreHouse, false)
 
 	return true
@@ -1763,7 +1761,7 @@ function var_0_0.HideMaterialsPreview(arg_156_0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_156_0.layerMaterialsPreview, arg_156_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_156_0.layerMaterialsPreview, arg_156_0._tf)
 	setActive(arg_156_0.layerMaterialsPreview, false)
 
 	return true

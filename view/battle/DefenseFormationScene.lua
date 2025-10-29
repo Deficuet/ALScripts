@@ -19,45 +19,45 @@ end
 
 function var_0_0.init(arg_2_0)
 	arg_2_0.eventTriggers = {}
-	arg_2_0._blurLayer = arg_2_0:findTF("blur_panel")
-	arg_2_0.backBtn = arg_2_0:findTF("top/back_btn", arg_2_0._blurLayer)
-	arg_2_0._bottomPanel = arg_2_0:findTF("bottom", arg_2_0._blurLayer)
-	arg_2_0._detailToggle = arg_2_0:findTF("toggle_list/detail_toggle", arg_2_0._bottomPanel)
-	arg_2_0._formationToggle = arg_2_0:findTF("toggle_list/formation_toggle", arg_2_0._bottomPanel)
-	arg_2_0._starTpl = arg_2_0:findTF("star_tpl")
-	arg_2_0._heroInfoTpl = arg_2_0:findTF("heroInfo")
+	arg_2_0._blurLayer = arg_2_0._tf:Find("blur_panel")
+	arg_2_0.backBtn = arg_2_0._blurLayer:Find("top/back_btn")
+	arg_2_0._bottomPanel = arg_2_0._blurLayer:Find("bottom")
+	arg_2_0._detailToggle = arg_2_0._bottomPanel:Find("toggle_list/detail_toggle")
+	arg_2_0._formationToggle = arg_2_0._bottomPanel:Find("toggle_list/formation_toggle")
+	arg_2_0._starTpl = arg_2_0._tf:Find("star_tpl")
+	arg_2_0._heroInfoTpl = arg_2_0._tf:Find("heroInfo")
 	arg_2_0._gridTFs = {
 		vanguard = {},
 		main = {}
 	}
-	arg_2_0._gridFrame = arg_2_0:findTF("GridFrame")
+	arg_2_0._gridFrame = arg_2_0.rtAdapr:Find("GridFrame")
 
 	for iter_2_0 = 1, 3 do
 		arg_2_0._gridTFs[TeamType.Main][iter_2_0] = arg_2_0._gridFrame:Find("main_" .. iter_2_0)
 		arg_2_0._gridTFs[TeamType.Vanguard][iter_2_0] = arg_2_0._gridFrame:Find("vanguard_" .. iter_2_0)
 	end
 
-	arg_2_0._heroContainer = arg_2_0:findTF("HeroContainer")
-	arg_2_0._fleetInfo = arg_2_0:findTF("fleet_info", arg_2_0._blurLayer)
-	arg_2_0._fleetNameText = arg_2_0:findTF("fleet_name/Text", arg_2_0._fleetInfo)
-	arg_2_0._buffPanel = arg_2_0:findTF("buff_list")
-	arg_2_0._buffGroup = arg_2_0:findTF("buff_group", arg_2_0._buffPanel)
+	arg_2_0._heroContainer = arg_2_0.rtAdapr:Find("HeroContainer")
+	arg_2_0._fleetInfo = arg_2_0._blurLayer:Find("fleet_info")
+	arg_2_0._fleetNameText = arg_2_0._fleetInfo:Find("fleet_name/Text")
+	arg_2_0._buffPanel = arg_2_0.rtAdapr:Find("buff_list")
+	arg_2_0._buffGroup = arg_2_0._buffPanel:Find("buff_group")
 	arg_2_0._buffModel = arg_2_0:getTpl("buff_model", arg_2_0._buffPanel)
-	arg_2_0._propertyFrame = arg_2_0:findTF("property_frame", arg_2_0._blurLayer)
-	arg_2_0._cannonPower = arg_2_0:findTF("cannon/Text", arg_2_0._propertyFrame)
-	arg_2_0._torpedoPower = arg_2_0:findTF("torpedo/Text", arg_2_0._propertyFrame)
-	arg_2_0._AAPower = arg_2_0:findTF("antiaircraft/Text", arg_2_0._propertyFrame)
-	arg_2_0._airPower = arg_2_0:findTF("air/Text", arg_2_0._propertyFrame)
-	arg_2_0._cost = arg_2_0:findTF("cost/Text", arg_2_0._propertyFrame)
-	arg_2_0._mainGS = arg_2_0:findTF("gear_score/main/Text")
-	arg_2_0._vanguardGS = arg_2_0:findTF("gear_score/vanguard/Text")
-	arg_2_0._airDominanceFrame = arg_2_0:findTF("ac", arg_2_0._propertyFrame)
+	arg_2_0._propertyFrame = arg_2_0._blurLayer:Find("property_frame")
+	arg_2_0._cannonPower = arg_2_0._propertyFrame:Find("cannon/Text")
+	arg_2_0._torpedoPower = arg_2_0._propertyFrame:Find("torpedo/Text")
+	arg_2_0._AAPower = arg_2_0._propertyFrame:Find("antiaircraft/Text")
+	arg_2_0._airPower = arg_2_0._propertyFrame:Find("air/Text")
+	arg_2_0._cost = arg_2_0._propertyFrame:Find("cost/Text")
+	arg_2_0._mainGS = arg_2_0.rtAdapr:Find("gear_score/main/Text")
+	arg_2_0._vanguardGS = arg_2_0.rtAdapr:Find("gear_score/vanguard/Text")
+	arg_2_0._airDominanceFrame = arg_2_0._propertyFrame:Find("ac")
 
 	if arg_2_0._airDominanceFrame then
 		setActive(arg_2_0._airDominanceFrame, false)
 	end
 
-	arg_2_0._attrFrame = arg_2_0:findTF("attr_frame", arg_2_0._blurLayer)
+	arg_2_0._attrFrame = arg_2_0._blurLayer:Find("attr_frame")
 	arg_2_0._cardTpl = arg_2_0._tf:GetComponent(typeof(ItemList)).prefabItem[0]
 	arg_2_0._cards = {}
 	arg_2_0._cards[TeamType.Main] = {}
@@ -78,8 +78,8 @@ function var_0_0.Register(arg_3_0)
 	arg_3_0._formationLogic:AddHeroInfoModify(function(arg_4_0, arg_4_1)
 		local var_4_0 = arg_4_1:getConfigTable()
 		local var_4_1 = pg.ship_data_template[arg_4_1.configId]
-		local var_4_2 = findTF(arg_4_0, "info")
-		local var_4_3 = findTF(var_4_2, "stars")
+		local var_4_2 = arg_4_0:Find("info")
+		local var_4_3 = var_4_2:Find("stars")
 		local var_4_4 = arg_4_1:getStar()
 
 		for iter_4_0 = 1, var_4_4 do
@@ -92,8 +92,8 @@ function var_0_0.Register(arg_3_0)
 			warning("找不到船形, shipConfigId: " .. arg_4_1.configId)
 		end
 
-		setImageSprite(findTF(var_4_2, "type"), var_4_5, true)
-		setText(findTF(var_4_2, "frame/lv_contain/lv"), arg_4_1.level)
+		setImageSprite(var_4_2:Find("type"), var_4_5, true)
+		setText(var_4_2:Find("frame/lv_contain/lv"), arg_4_1.level)
 	end)
 	arg_3_0._formationLogic:AddLongPress(function(arg_5_0, arg_5_1, arg_5_2)
 		arg_3_0:emit(DefenseFormationMedator.OPEN_SHIP_INFO, arg_5_1.id, arg_5_2, var_0_0.TOGGLE_FORMATION)
@@ -104,14 +104,14 @@ function var_0_0.Register(arg_3_0)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_PANEL)
 	end)
 	arg_3_0._formationLogic:AddBeginDrag(function(arg_7_0)
-		local var_7_0 = findTF(arg_7_0, "info")
+		local var_7_0 = arg_7_0:Find("info")
 
 		setButtonEnabled(arg_3_0.backBtn, false)
 		setToggleEnabled(arg_3_0._detailToggle, false)
 		SetActive(var_7_0, false)
 	end)
 	arg_3_0._formationLogic:AddEndDrag(function(arg_8_0)
-		local var_8_0 = findTF(arg_8_0, "info")
+		local var_8_0 = arg_8_0:Find("info")
 
 		setButtonEnabled(arg_3_0.backBtn, true)
 		setToggleEnabled(arg_3_0._detailToggle, true)
@@ -294,17 +294,17 @@ function var_0_0.displayFleetInfo(arg_28_0)
 	arg_28_0.tweenNumText(arg_28_0._cost, var_28_3.oil)
 	arg_28_0.tweenNumText(arg_28_0._vanguardGS, var_28_1)
 	arg_28_0.tweenNumText(arg_28_0._mainGS, var_28_2)
-	setActive(arg_28_0:findTF("gear_score"), true)
+	setActive(arg_28_0.rtAdapr:Find("gear_score"), true)
 	arg_28_0:SetFleetNameLabel()
 end
 
 function var_0_0.hideAttrFrame(arg_29_0)
 	SetActive(arg_29_0._attrFrame, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_29_0._blurLayer, arg_29_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_29_0._blurLayer, arg_29_0._tf)
 end
 
 function var_0_0.displayAttrFrame(arg_30_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_30_0._blurLayer, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_30_0._blurLayer)
 	SetActive(arg_30_0._attrFrame, true)
 	arg_30_0:initAttrFrame()
 end
@@ -324,7 +324,7 @@ function var_0_0.initAttrFrame(arg_31_0)
 		local var_31_3 = arg_31_0._cards[iter_31_0]
 
 		if #var_31_3 == 0 then
-			local var_31_4 = arg_31_0:findTF(var_31_0[iter_31_0] .. "/list", arg_31_0._attrFrame)
+			local var_31_4 = arg_31_0._attrFrame:Find(var_31_0[iter_31_0] .. "/list")
 
 			for iter_31_2 = 1, 3 do
 				local var_31_5 = cloneTplTo(arg_31_0._cardTpl, var_31_4).gameObject
@@ -367,7 +367,7 @@ function var_0_0.updateAttrFrame(arg_32_0)
 	end
 
 	arg_32_0:updateUltimateTitle()
-	setActive(arg_32_0:findTF(TeamType.Submarine, arg_32_0._attrFrame), false)
+	setActive(arg_32_0._attrFrame:Find(TeamType.Submarine), false)
 end
 
 function var_0_0.updateUltimateTitle(arg_33_0)
@@ -585,7 +585,7 @@ function var_0_0.willExit(arg_49_0)
 	end
 
 	if arg_49_0._attrFrame.gameObject.activeSelf then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_49_0._blurLayer, arg_49_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_49_0._blurLayer, arg_49_0._tf)
 	end
 
 	pg.TimeMgr.GetInstance():RemoveTimer(arg_49_0.ActiveToggletimer1)

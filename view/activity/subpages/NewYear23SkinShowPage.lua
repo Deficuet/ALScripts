@@ -5,8 +5,8 @@ function var_0_0.OnLoaded(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0.goBtn = arg_2_0:findTF("BtnGO")
-	arg_2_0.skinShopBtn = arg_2_0:findTF("BtnShop")
+	arg_2_0.goBtn = arg_2_0._tf:Find("BtnGO")
+	arg_2_0.skinShopBtn = arg_2_0._tf:Find("BtnShop")
 
 	onButton(arg_2_0, arg_2_0.skinShopBtn, function()
 		arg_2_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)

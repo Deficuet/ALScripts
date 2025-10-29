@@ -5,11 +5,12 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.levelTxt = arg_2_0:findTF("frame/level"):GetComponent(typeof(Text))
-	arg_2_0.expTr = arg_2_0:findTF("frame/slider")
-	arg_2_0.expTxt = arg_2_0:findTF("frame/exp"):GetComponent(typeof(Text))
-	arg_2_0.cntTxt = arg_2_0:findTF("frame/cnt"):GetComponent(typeof(Text))
-	arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("frame/rect/content"), arg_2_0:findTF("frame/rect/content/tpl"))
+	arg_2_0.levelTxt = arg_2_0._tf:Find("frame/animroot/level"):GetComponent(typeof(Text))
+	arg_2_0.expTr = arg_2_0._tf:Find("frame/animroot/slider")
+	arg_2_0.expTxt = arg_2_0._tf:Find("frame/animroot/exp"):GetComponent(typeof(Text))
+	arg_2_0.cntTxt = arg_2_0._tf:Find("frame/bg/Image/cnt"):GetComponent(typeof(Text))
+	arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("frame/animroot/rect/content"), arg_2_0._tf:Find("frame/animroot/rect/content/tpl"))
+	arg_2_0.canvasGroup = GetOrAddComponent(arg_2_0._tf, typeof(CanvasGroup))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -22,7 +23,7 @@ function var_0_0.AddListeners(arg_5_0)
 	arg_5_0:AddListener(IslandOrderAgency.ORDER_FINISH_UPDATE, arg_5_0.OnReset)
 end
 
-function var_0_0.RemoveListener(arg_6_0)
+function var_0_0.RemoveListeners(arg_6_0)
 	arg_6_0:RemoveListener(IslandOrderAgency.ORDER_FINISH_UPDATE, arg_6_0.OnReset)
 end
 
@@ -38,13 +39,13 @@ end
 function var_0_0.Flush(arg_9_0)
 	local var_9_0 = getProxy(IslandProxy):GetIsland():GetOrderAgency()
 
+	arg_9_0:FlushCnt(var_9_0)
 	arg_9_0:FlushLevelInfo(var_9_0)
 	arg_9_0:FlushList(var_9_0)
-	arg_9_0:FlushCnt(var_9_0)
 end
 
 function var_0_0.FlushCnt(arg_10_0, arg_10_1)
-	arg_10_0.cntTxt.text = i18n1("本周加急订单剩余：") .. arg_10_1:GetLeftUrgentCnt()
+	arg_10_0.cntTxt.text = i18n("island_order_leftcnt_dispaly", arg_10_1:GetLeftUrgentCnt())
 end
 
 function var_0_0.FlushLevelInfo(arg_11_0, arg_11_1)
@@ -125,7 +126,7 @@ function var_0_0.UpdateAwards(arg_18_0, arg_18_1, arg_18_2)
 			local var_19_0 = var_18_0[arg_19_1 + 1]
 			local var_19_1 = Drop.Create(var_19_0)
 
-			updateDrop(arg_19_2, var_19_1)
+			updateCustomDrop(arg_19_2, var_19_1)
 		end
 	end)
 	var_18_1:align(math.min(2, #var_18_0))

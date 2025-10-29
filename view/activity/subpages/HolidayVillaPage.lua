@@ -1,21 +1,21 @@
 local var_0_0 = class("HolidayVillaPage", import("view.base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.signTF = arg_1_0:findTF("sign", arg_1_0.bg)
-	arg_1_0.getBtn = arg_1_0:findTF("get", arg_1_0.signTF)
-	arg_1_0.got = arg_1_0:findTF("got", arg_1_0.signTF)
-	arg_1_0.getBtn_tip = arg_1_0:findTF("get/tip", arg_1_0.signTF)
-	arg_1_0.countbg = arg_1_0:findTF("count_bg", arg_1_0.signTF)
-	arg_1_0.countText = arg_1_0:findTF("count_bg/count", arg_1_0.signTF)
-	arg_1_0.go = arg_1_0:findTF("go_btn", arg_1_0.signTF)
-	arg_1_0.Notbtn = arg_1_0:findTF("Not_unlocked", arg_1_0.signTF)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.signTF = arg_1_0.bg:Find("sign")
+	arg_1_0.getBtn = arg_1_0.signTF:Find("get")
+	arg_1_0.got = arg_1_0.signTF:Find("got")
+	arg_1_0.getBtn_tip = arg_1_0.signTF:Find("get/tip")
+	arg_1_0.countbg = arg_1_0.signTF:Find("count_bg")
+	arg_1_0.countText = arg_1_0.signTF:Find("count_bg/count")
+	arg_1_0.go = arg_1_0.signTF:Find("go_btn")
+	arg_1_0.Notbtn = arg_1_0.signTF:Find("Not_unlocked")
 	arg_1_0.list = {
-		arg_1_0:findTF("list/unfinished_1", arg_1_0.signTF),
-		arg_1_0:findTF("list/unfinished_2", arg_1_0.signTF),
-		arg_1_0:findTF("list/unfinished_3", arg_1_0.signTF),
-		arg_1_0:findTF("list/unfinished_4", arg_1_0.signTF),
-		arg_1_0:findTF("list/unfinished_5", arg_1_0.signTF)
+		arg_1_0.signTF:Find("list/unfinished_1"),
+		arg_1_0.signTF:Find("list/unfinished_2"),
+		arg_1_0.signTF:Find("list/unfinished_3"),
+		arg_1_0.signTF:Find("list/unfinished_4"),
+		arg_1_0.signTF:Find("list/unfinished_5")
 	}
 
 	setActive(arg_1_0.go, false)
@@ -102,9 +102,9 @@ function var_0_0.OnUpdateFlush(arg_8_0)
 	end
 
 	for iter_8_0, iter_8_1 in ipairs(arg_8_0.list) do
-		setActive(arg_8_0:findTF("accomplish", arg_8_0.list[iter_8_0]), var_8_0 or iter_8_0 < arg_8_0.nday)
+		setActive(arg_8_0.list[iter_8_0]:Find("accomplish"), var_8_0 or iter_8_0 < arg_8_0.nday)
 		setImageAlpha(iter_8_1, (var_8_0 or iter_8_0 < arg_8_0.nday) and 0 or 1)
-		setActive(arg_8_0:findTF("Check_point", arg_8_0.list[iter_8_0]), not var_8_0 and iter_8_0 == arg_8_0.nday)
+		setActive(arg_8_0.list[iter_8_0]:Find("Check_point"), not var_8_0 and iter_8_0 == arg_8_0.nday)
 	end
 end
 

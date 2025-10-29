@@ -238,15 +238,8 @@ function var_0_1.ShotAndSave(arg_13_0, arg_13_1, arg_13_2, arg_13_3, arg_13_4)
 	local var_13_2 = {}
 
 	table.insert(var_13_2, function(arg_14_0)
-		tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
 		var_0_0.UIMgr.GetInstance():LoadingOn(false)
-		ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-			typeof(Camera),
-			typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-		}, {
-			var_13_1,
-			UnityEngine.Events.UnityAction_UnityEngine_Object(arg_14_0)
-		})
+		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(var_13_1, arg_14_0)
 	end)
 	table.insert(var_13_2, function(arg_15_0, arg_15_1)
 		var_0_0.UIMgr.GetInstance():LoadingOff()
@@ -364,7 +357,11 @@ function var_0_1.ShowOwnUI(arg_22_0, arg_22_1, arg_22_2, arg_22_3, arg_22_4)
 	setActive(arg_22_0.panelPink, arg_22_2 == var_0_1.PANEL_TYPE_PINK)
 
 	if not arg_22_4 then
-		var_0_0.UIMgr.GetInstance():BlurPanel(arg_22_0.panel, true, arg_22_3)
+		var_0_0.UIMgr.GetInstance():BlurPanel(arg_22_0.panel, setmetatable({
+			staticBlur = true
+		}, {
+			__index = arg_22_3
+		}))
 	end
 
 	local function var_22_1()
@@ -391,7 +388,7 @@ function var_0_1.Dispose(arg_27_0)
 	arg_27_0.go:SetActive(false)
 
 	if arg_27_0.panel and not arg_27_0.noBlur then
-		var_0_0.UIMgr.GetInstance():UnblurPanel(arg_27_0.panel, arg_27_0.tr)
+		var_0_0.UIMgr.GetInstance():UnOverlayPanel(arg_27_0.panel, arg_27_0.tr)
 	end
 
 	PoolMgr.GetInstance():ReturnUI("ShareUI", arg_27_0.go)

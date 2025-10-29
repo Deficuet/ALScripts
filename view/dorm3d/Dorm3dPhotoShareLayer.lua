@@ -5,12 +5,12 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.photoImgTrans = arg_2_0:findTF("PhotoImg")
-	arg_2_0.shareBtnTrans = arg_2_0:findTF("ShareBtn")
-	arg_2_0.confirmBtnTrans = arg_2_0:findTF("ConfirmBtn")
-	arg_2_0.cancelBtnTrans = arg_2_0:findTF("CancelBtn")
-	arg_2_0.frameBtn = arg_2_0:findTF("frameBtn")
-	arg_2_0.photoAdapter = arg_2_0:findTF("photoAdapter")
+	arg_2_0.photoImgTrans = arg_2_0._tf:Find("PhotoImg")
+	arg_2_0.shareBtnTrans = arg_2_0._tf:Find("ShareBtn")
+	arg_2_0.confirmBtnTrans = arg_2_0._tf:Find("ConfirmBtn")
+	arg_2_0.cancelBtnTrans = arg_2_0._tf:Find("CancelBtn")
+	arg_2_0.frameBtn = arg_2_0._tf:Find("frameBtn")
+	arg_2_0.photoAdapter = arg_2_0._tf:Find("photoAdapter")
 	arg_2_0.bytes = arg_2_0.contextData.photoData
 	arg_2_0.frameDic = {}
 	arg_2_0.loadingDic = {}
@@ -27,9 +27,7 @@ function var_0_0.didEnter(arg_3_0)
 		if var_4_0 then
 			local var_4_1 = pg.dorm3d_camera_photo_frame[arg_3_0.selectFrameId]
 
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeDorm3dPhoto, nil, {
-				weight = LayerWeightConst.TOP_LAYER
-			}, true, var_4_0:Find("frame").sizeDelta, var_4_1.watermark_location)
+			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeDorm3dPhoto, nil, nil, true, var_4_0:Find("frame").sizeDelta, var_4_1.watermark_location)
 		end
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.confirmBtnTrans, function()
@@ -64,13 +62,13 @@ function var_0_0.didEnter(arg_3_0)
 	onButton(arg_3_0, arg_3_0.frameBtn, function()
 		arg_3_0:emit(Dorm3dPhotoShareLayerMediator.SELECTFRAME, arg_3_0.contextData.photoTex, arg_3_0.contextData.photoData)
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, true, {
-		weight = LayerWeightConst.SECOND_LAYER
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, {
+		staticBlur = true
 	})
 end
 
 function var_0_0.willExit(arg_9_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_9_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf)
 end
 
 function var_0_0.exit(arg_10_0)
@@ -319,14 +317,7 @@ function var_0_0.TakePhoto(arg_16_0, arg_16_1, arg_16_2, arg_16_3, arg_16_4)
 		end)
 	end
 
-	tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
-	ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
-		typeof(Camera),
-		typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
-	}, {
-		var_16_4,
-		UnityEngine.Events.UnityAction_UnityEngine_Object(var_16_6)
-	})
+	BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(var_16_4, var_16_6)
 end
 
 function var_0_0.TakeTexture(arg_26_0, arg_26_1, arg_26_2)

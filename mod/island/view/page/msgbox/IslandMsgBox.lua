@@ -2,11 +2,31 @@ local var_0_0 = class("IslandMsgBox", import("view.base.BaseSubView"))
 
 var_0_0.TYPE_COMMON = 1
 var_0_0.TYPE_ITEM = 2
-var_0_0.TYPE_STATUS = 3
+var_0_0.TYPE_SHIP_OWN_STATUS = 3
 var_0_0.TYPE_COMMON_ITEM = 4
 var_0_0.TYPE_ITEM_INFO = 5
 var_0_0.TYPE_MATERIAL_INFO = 6
 var_0_0.TYPE_REMIND = 7
+var_0_0.TYPE_SHIP_SKILL = 8
+var_0_0.TYPE_SHIP_STATUS_MSG = 9
+var_0_0.TYPE_AGORA_PLACED_LIST = 10
+var_0_0.TYPE_AGORA_UPGRADE = 11
+var_0_0.TYPE_WHITOUT_BTN = 12
+var_0_0.TYPE_SAVE_THEME = 13
+var_0_0.TYPE_THEME = 14
+var_0_0.TYPE_SEASON_TIP = 15
+var_0_0.TYPE_SEASON_RESET = 16
+var_0_0.TYPE_SYSTEM_THEME = 17
+var_0_0.TYPE_ORDER_TENDENCY = 18
+var_0_0.TYPE_SEND_DRESS = 19
+var_0_0.TYPE_AOGRA_SAVE_CD = 20
+var_0_0.TYPE_CHAT_SETTINGS = 21
+var_0_0.TYPE_DRAW_AWARD_COUNT = 22
+var_0_0.TYPE_DRAW_AWARD_LIST = 23
+var_0_0.TYPE_DRAW_AWARD_ALL = 24
+var_0_0.TYPE_TICKET_EXPIRED = 25
+var_0_0.TYPE_DRESS_WEAR_CONFIRE = 26
+var_0_0.TYPE_COMMON_DROP_DESCRIBE = 27
 
 function var_0_0.getUIName(arg_1_0)
 	return "IslandMsgboxUI"
@@ -18,17 +38,46 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.tempWindows = {}
 	arg_2_0.residentWindows = {}
 	arg_2_0.PAGES = {
-		[var_0_0.TYPE_COMMON] = IslandCommonMsgboxWindow,
+		[var_0_0.TYPE_COMMON] = IslandCommonMsgboxEXWindow,
 		[var_0_0.TYPE_ITEM] = IslandItemMsgboxWindow,
-		[var_0_0.TYPE_STATUS] = IslandMsgBoxForStatusWindow,
+		[var_0_0.TYPE_SHIP_OWN_STATUS] = IslandMsgBoxForStatusWindow,
 		[var_0_0.TYPE_ITEM_INFO] = IslandMsgBoxSingleItemWindow,
 		[var_0_0.TYPE_MATERIAL_INFO] = IslandMsgBoxSingleMaterialWindow,
-		[var_0_0.TYPE_REMIND] = IslandRemindMsgboxWindow
+		[var_0_0.TYPE_REMIND] = IslandRemindMsgboxWindow,
+		[var_0_0.TYPE_SHIP_SKILL] = IslandShipSkillMsgboxWindow,
+		[var_0_0.TYPE_SHIP_STATUS_MSG] = IslandShipStatusMsgboxWindow,
+		[var_0_0.TYPE_AGORA_PLACED_LIST] = IslandAgoraPlacedListMsgboxWindow,
+		[var_0_0.TYPE_AGORA_UPGRADE] = IslandAgoraUpgradeMsgboxWindow,
+		[var_0_0.TYPE_WHITOUT_BTN] = IslandwithoutBtnMsgboxWindow,
+		[var_0_0.TYPE_SAVE_THEME] = IslandSaveThemeMsgboxWindow,
+		[var_0_0.TYPE_THEME] = IslandThemeMsgboxWindow,
+		[var_0_0.TYPE_SEASON_TIP] = IslandSeasonTipMsgBoxWindow,
+		[var_0_0.TYPE_SEASON_RESET] = IslandSeasonResetMsgBoxWindow,
+		[var_0_0.TYPE_SYSTEM_THEME] = IslandSystemThemeMsgboxWindow,
+		[var_0_0.TYPE_ORDER_TENDENCY] = IslandOrderTendencyPage,
+		[var_0_0.TYPE_SEND_DRESS] = IslandSendDressUpMsgboxWindow,
+		[var_0_0.TYPE_AOGRA_SAVE_CD] = IslandAgoraSaveCdMsgboxWindow,
+		[var_0_0.TYPE_CHAT_SETTINGS] = IslandChatSettingsMsgboxWindow,
+		[var_0_0.TYPE_DRAW_AWARD_COUNT] = IslandDrawAwardCountWindow,
+		[var_0_0.TYPE_DRAW_AWARD_LIST] = IslandDrawAwardListWindow,
+		[var_0_0.TYPE_DRAW_AWARD_ALL] = IslandDrawAwardAllWindow,
+		[var_0_0.TYPE_TICKET_EXPIRED] = IslandTicketExpiredMsgBoxWindow,
+		[var_0_0.TYPE_DRESS_WEAR_CONFIRE] = IslandDressWearMsgboxWindow,
+		[var_0_0.TYPE_COMMON_DROP_DESCRIBE] = IslandMsgBoxSingleDropWindow
 	}
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0._tf, function()
+	local var_3_0 = arg_3_0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
+
+	for iter_3_0, iter_3_1 in ipairs({
+		"rtBg",
+		"rtPages"
+	}) do
+		arg_3_0[iter_3_1] = var_3_0[iter_3_0].transform
+	end
+
+	onButton(arg_3_0, arg_3_0.rtBg, function()
 		arg_3_0:HideWindow()
 	end, SFX_PANEL)
 end
@@ -39,14 +88,16 @@ function var_0_0.CheckType(arg_5_0, arg_5_1)
 	if var_5_0 == var_0_0.TYPE_COMMON_ITEM then
 		var_5_0 = IslandItem.New({
 			id = arg_5_1.itemId
-		}):IsMaterial() and var_0_0.TYPE_MATERIAL_INFO or var_0_0.TYPE_ITEM_INFO
+		}):CanConvert() and var_0_0.TYPE_MATERIAL_INFO or var_0_0.TYPE_ITEM_INFO
 	end
 
 	return var_5_0
 end
 
-function var_0_0.Show(arg_6_0, arg_6_1)
+function var_0_0.Show(arg_6_0, arg_6_1, arg_6_2)
 	var_0_0.super.Show(arg_6_0)
+
+	arg_6_0.callback = arg_6_2
 
 	local var_6_0 = arg_6_0:CheckType(arg_6_1)
 	local var_6_1 = arg_6_0:CreateWindow(var_6_0)
@@ -88,7 +139,7 @@ function var_0_0.FindOrCreateWindow(arg_8_0, arg_8_1, arg_8_2)
 
 		assert(var_8_2, arg_8_1)
 
-		var_8_1 = var_8_2.New(arg_8_0, arg_8_0._tf)
+		var_8_1 = var_8_2.New(arg_8_0, arg_8_0.rtPages)
 	end
 
 	return var_8_1
@@ -123,6 +174,14 @@ function var_0_0.HideWindow(arg_10_0, arg_10_1)
 
 	if #arg_10_0.stack == 0 then
 		arg_10_0:Hide()
+
+		local var_10_1 = arg_10_0.callback
+
+		arg_10_0.callback = nil
+
+		if var_10_1 then
+			var_10_1()
+		end
 	end
 end
 

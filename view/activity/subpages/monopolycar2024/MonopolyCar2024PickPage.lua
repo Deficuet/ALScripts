@@ -5,7 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.confirmBtn = arg_2_0:findTF("confirm")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("confirm")
 	arg_2_0.anim = arg_2_0._tf:GetComponent(typeof(Animation))
 	arg_2_0.animEvent = arg_2_0.anim:GetComponent(typeof(DftAniEvent))
 
@@ -14,12 +14,12 @@ function var_0_0.OnLoaded(arg_2_0)
 	end)
 
 	arg_2_0.items = {
-		arg_2_0:findTF("list/1"),
-		arg_2_0:findTF("list/2"),
-		arg_2_0:findTF("list/3")
+		arg_2_0._tf:Find("list/1"),
+		arg_2_0._tf:Find("list/2"),
+		arg_2_0._tf:Find("list/3")
 	}
 
-	setText(arg_2_0:findTF("title/Text"), i18n("MonopolyCar2024Game_pick_tip"))
+	setText(arg_2_0._tf:Find("title/Text"), i18n("MonopolyCar2024Game_pick_tip"))
 	setText(arg_2_0.confirmBtn:Find("Text"), i18n("MonopolyCar2024Game_sel_label"))
 end
 
@@ -68,7 +68,7 @@ function var_0_0.Show(arg_8_0, arg_8_1, arg_8_2, arg_8_3, arg_8_4)
 	arg_8_0.callback = arg_8_4
 
 	arg_8_0:UpdateList()
-	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, arg_8_0._tf, {})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0._tf)
 	arg_8_0.anim:Play("anim_monopolycar_pick_in")
 	arg_8_0:CheckAuto(arg_8_3)
 end
@@ -102,7 +102,7 @@ function var_0_0.Hide(arg_10_0)
 
 	arg_10_0.selectedId = 0
 
-	pg.LayerWeightMgr.GetInstance():DelFromOverlay(arg_10_0._tf, arg_10_0._parentTf)
+	pg.UIMgr.GetInstagramList():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_11_0)

@@ -8,8 +8,8 @@ function var_0_0.OnInit(arg_2_0)
 	var_0_0.super.OnInit(arg_2_0)
 	assert(arg_2_0.viewParent, "Need assign ViewParent for " .. arg_2_0.__cname)
 
-	arg_2_0._top = arg_2_0:findTF("Top")
-	arg_2_0.memoryMask = arg_2_0:findTF("StoryMask", arg_2_0._top)
+	arg_2_0._top = arg_2_0._tf:Find("Top")
+	arg_2_0.memoryMask = arg_2_0._top:Find("StoryMask")
 
 	setActive(arg_2_0.memoryMask, false)
 end
@@ -45,6 +45,7 @@ function var_0_0.GetGroupLayer(arg_6_0)
 	if not arg_6_0.groupUI then
 		arg_6_0.groupUI = WorldMediaCollectionMemoryGroupLayer.New(arg_6_0, arg_6_0._tf, arg_6_0.event, arg_6_0.contextData)
 
+		arg_6_0.groupUI:RegisterView(arg_6_0)
 		arg_6_0.groupUI:Load()
 	end
 

@@ -175,6 +175,56 @@ pg.dorm3d_ins_language = {
 		key = "xinzexi_3_2_1",
 		is_active = "0"
 	},
+	dafeng_1 = {
+		value = "指揮官様とかくれんぼ中～",
+		key = "dafeng_1",
+		is_active = "0"
+	},
+	dafeng_1_1 = {
+		value = "ここに隠れてたのか",
+		key = "dafeng_1_1",
+		is_active = "0"
+	},
+	dafeng_1_1_1 = {
+		value = "そうですわ～。大鳳を捕まえてみて♡",
+		key = "dafeng_1_1_1",
+		is_active = "0"
+	},
+	dafeng_1_2 = {
+		value = "一体どこだ？",
+		key = "dafeng_1_2",
+		is_active = "0"
+	},
+	dafeng_1_2_1 = {
+		value = "指揮官様はまだ大鳳の部屋を把握できてないみたいですね…今度じっくり案内してあげますわ～",
+		key = "dafeng_1_2_1",
+		is_active = "0"
+	},
+	dafeng_2 = {
+		value = "指揮官様といる時間を細かく記録しないといけませんわ～",
+		key = "dafeng_2",
+		is_active = "0"
+	},
+	dafeng_2_1 = {
+		value = "部屋中を撮りまくった？",
+		key = "dafeng_2_1",
+		is_active = "0"
+	},
+	dafeng_2_1_1 = {
+		value = "次は指揮官様の通勤風景を撮らせていただきますわ～",
+		key = "dafeng_2_1_1",
+		is_active = "0"
+	},
+	dafeng_2_2 = {
+		value = "何のために記録してるんだ？",
+		key = "dafeng_2_2",
+		is_active = "0"
+	},
+	dafeng_2_2_1 = {
+		value = "「指揮官様と大鳳がイチャイチャする一日」…これは大事な素材ですわ～",
+		key = "dafeng_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -210,6 +260,16 @@ pg.dorm3d_ins_language = {
 		"xinzexi_3_1",
 		"xinzexi_3_1_1",
 		"xinzexi_3_2",
-		"xinzexi_3_2_1"
+		"xinzexi_3_2_1",
+		"dafeng_1",
+		"dafeng_1_1",
+		"dafeng_1_1_1",
+		"dafeng_1_2",
+		"dafeng_1_2_1",
+		"dafeng_2",
+		"dafeng_2_1",
+		"dafeng_2_1_1",
+		"dafeng_2_2",
+		"dafeng_2_2_1"
 	}
 }

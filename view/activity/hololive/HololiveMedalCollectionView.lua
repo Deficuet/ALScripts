@@ -49,18 +49,18 @@ local var_0_2 = {
 }
 
 function var_0_0.FindUI(arg_5_0)
-	arg_5_0.bg = arg_5_0:findTF("bg")
-	arg_5_0.top = arg_5_0:findTF("top")
-	arg_5_0.backBtn = arg_5_0:findTF("back", arg_5_0.top)
-	arg_5_0.helpBtn = arg_5_0:findTF("help", arg_5_0.top)
-	arg_5_0.progressText = arg_5_0:findTF("middle/board/progress")
-	arg_5_0.taskScroll = arg_5_0:findTF("middle/board/Scroll View")
-	arg_5_0.taskScrollBar = arg_5_0:findTF("middle/board/Scrollbar")
+	arg_5_0.bg = arg_5_0._tf:Find("bg")
+	arg_5_0.top = arg_5_0._tf:Find("top")
+	arg_5_0.backBtn = arg_5_0.top:Find("back")
+	arg_5_0.helpBtn = arg_5_0.top:Find("help")
+	arg_5_0.progressText = arg_5_0._tf:Find("middle/board/progress")
+	arg_5_0.taskScroll = arg_5_0._tf:Find("middle/board/Scroll View")
+	arg_5_0.taskScrollBar = arg_5_0._tf:Find("middle/board/Scrollbar")
 	arg_5_0.taskListItems = CustomIndexLayer.Clone2Full(arg_5_0.taskScroll:Find("Content"), #arg_5_0.taskGroup)
-	arg_5_0.medalListItems = CustomIndexLayer.Clone2Full(arg_5_0:findTF("middle/console/grid"), 9)
-	arg_5_0.medalImg = arg_5_0:findTF("middle/console/slot"):GetComponent(typeof(Image))
-	arg_5_0.medalGet = arg_5_0:findTF("middle/console/get")
-	arg_5_0.medalGot = arg_5_0:findTF("middle/console/got")
+	arg_5_0.medalListItems = CustomIndexLayer.Clone2Full(arg_5_0._tf:Find("middle/console/grid"), 9)
+	arg_5_0.medalImg = arg_5_0._tf:Find("middle/console/slot"):GetComponent(typeof(Image))
+	arg_5_0.medalGet = arg_5_0._tf:Find("middle/console/get")
+	arg_5_0.medalGot = arg_5_0._tf:Find("middle/console/got")
 
 	for iter_5_0 = 1, #arg_5_0.taskGroup do
 		local var_5_0 = LoadSprite("ui/HololiveMedalCollectionUI_atlas", var_0_1[iter_5_0])
@@ -89,7 +89,7 @@ function var_0_0.AddListener(arg_6_0)
 		})
 	end, SFX_PANEL)
 
-	local var_6_0 = arg_6_0:findTF("middle/board/arrow")
+	local var_6_0 = arg_6_0._tf:Find("middle/board/arrow")
 
 	onScroll(arg_6_0, arg_6_0.taskScroll, function(arg_9_0)
 		setActive(var_6_0, arg_9_0.y > 0.001)
@@ -142,9 +142,9 @@ function var_0_0.UpdateView(arg_12_0)
 		local var_12_3 = arg_12_0.taskListItems[iter_12_0]
 		local var_12_4 = arg_12_0.taskGroup[iter_12_0]
 		local var_12_5 = arg_12_0.taskProxy:getTaskVO(var_12_4)
-		local var_12_6 = arg_12_0:findTF("btn_go", var_12_3)
-		local var_12_7 = arg_12_0:findTF("btn_get", var_12_3)
-		local var_12_8 = arg_12_0:findTF("btn_got", var_12_3)
+		local var_12_6 = var_12_3:Find("btn_go")
+		local var_12_7 = var_12_3:Find("btn_get")
+		local var_12_8 = var_12_3:Find("btn_got")
 		local var_12_9 = table.contains(arg_12_0.activeIDList, arg_12_0.allIDList[iter_12_0])
 		local var_12_10
 		local var_12_11 = 0
@@ -156,7 +156,7 @@ function var_0_0.UpdateView(arg_12_0)
 			local var_12_15 = string.gsub(var_12_14, "$1", var_12_12)
 			local var_12_16 = string.gsub(var_12_15, "$2", var_12_13)
 
-			setText(arg_12_0:findTF("desc", var_12_3), var_12_16)
+			setText(var_12_3:Find("desc"), var_12_16)
 
 			var_12_11 = var_12_5:getTaskStatus()
 			var_12_10 = var_12_11 == 2 and arg_12_0.materialGray or nil
@@ -174,7 +174,7 @@ function var_0_0.UpdateView(arg_12_0)
 			local var_12_20 = string.gsub(var_12_19, "$1", var_12_18)
 			local var_12_21 = string.gsub(var_12_20, "$2", var_12_17)
 
-			setText(arg_12_0:findTF("desc", var_12_3), var_12_21)
+			setText(var_12_3:Find("desc"), var_12_21)
 
 			var_12_11 = var_12_9 and 2 or 0
 			var_12_10 = arg_12_0.materialGray

@@ -3,12 +3,20 @@ local var_0_0 = class("LogoutCommand", pm.SimpleCommand)
 function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody()
 
+	if not pg.proxyRegister then
+		return
+	end
+
 	arg_1_0:sendNotification(GAME.WILL_LOGOUT)
 
 	if PLATFORM ~= PLATFORM_WINDOWSEDITOR and PLATFORM_CHT == PLATFORM_CODE and var_1_0.code ~= SDK_EXIT_CODE then
 		pg.SdkMgr.GetInstance():LogoutSDK()
 
 		return
+	end
+
+	if not LOCK_ISLAND_DISPLAY then
+		pg.IslandVisitorNotificationMgr.GetInstance():Quit()
 	end
 
 	pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_LOGOUT)
@@ -22,7 +30,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	end
 
 	arg_1_0:sendNotification(GAME.STOP_BATTLE_LOADING, {})
-	pg.NewStoryMgr:GetInstance():Quit()
+	pg.NewStoryMgr.GetInstance():Quit()
 
 	if pg.MsgboxMgr.GetInstance()._go.activeSelf then
 		pg.MsgboxMgr.GetInstance():hide()
@@ -67,14 +75,12 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		var_1_2:SetLoginedFlag(false)
 	end
 
+	local var_1_4 = Context.New()
+
+	var_1_4:extendData(var_1_0)
+	SCENE.SetSceneInfo(var_1_4, SCENE.LOGIN)
 	arg_1_0:sendNotification(GAME.LOAD_SCENE, {
-		context = Context.New({
-			cleanStack = true,
-			scene = SCENE.LOGIN,
-			mediator = LoginMediator,
-			viewComponent = LoginScene,
-			data = var_1_0
-		}),
+		context = var_1_4,
 		callback = function()
 			if pg.proxyRegister then
 				pg.proxyRegister:Stop()

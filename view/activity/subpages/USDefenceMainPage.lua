@@ -31,17 +31,17 @@ function var_0_0.initData(arg_6_0)
 end
 
 function var_0_0.initUI(arg_7_0)
-	arg_7_0.awardTF = arg_7_0:findTF("Item", arg_7_0.bg)
-	arg_7_0.activeTF = arg_7_0:findTF("Active", arg_7_0.awardTF)
-	arg_7_0.finishedTF = arg_7_0:findTF("Finished", arg_7_0.awardTF)
-	arg_7_0.achievedTF = arg_7_0:findTF("Achieved", arg_7_0.awardTF)
+	arg_7_0.awardTF = arg_7_0.bg:Find("Item")
+	arg_7_0.activeTF = arg_7_0.awardTF:Find("Active")
+	arg_7_0.finishedTF = arg_7_0.awardTF:Find("Finished")
+	arg_7_0.achievedTF = arg_7_0.awardTF:Find("Achieved")
 
 	setActive(arg_7_0.activeTF, false)
 	setActive(arg_7_0.finishedTF, false)
 	setActive(arg_7_0.achievedTF, false)
 
-	arg_7_0.achievementBtn = arg_7_0:findTF("AchieveMentBtn", arg_7_0.bg)
-	arg_7_0.subViewContainer = arg_7_0:findTF("SubViewContainer")
+	arg_7_0.achievementBtn = arg_7_0.bg:Find("AchieveMentBtn")
+	arg_7_0.subViewContainer = arg_7_0._tf:Find("SubViewContainer")
 end
 
 function var_0_0.updateAwardBtn(arg_8_0)

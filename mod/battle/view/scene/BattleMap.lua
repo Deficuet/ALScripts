@@ -37,6 +37,7 @@ function var_0_1.Ctor(arg_1_0, arg_1_1)
 			var_1_2.rightBorder = var_1_0.range_right
 			var_1_2.speedToLeft = var_1_0[iter_1_1 .. "_speed"] or 0
 			var_1_2.speedScaler = 1
+			var_1_2.mainCamera = pg.UIMgr.GetInstance().mainCameraComp
 
 			table.insert(arg_1_0.mapLayerCtrls, var_1_2)
 		end
@@ -150,6 +151,7 @@ function var_0_1.SetExposeLine(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
 		local var_7_6 = var_7_2.bounds.extents.x * arg_6_1
 
 		tf(var_7_0).localPosition = Vector3.New(arg_7_0 - var_7_6, var_7_5.y, var_7_5.z)
+		var_7_2.enabled = true
 	end
 
 	instantiateLine(arg_6_2, "visionLine")

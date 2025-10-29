@@ -5,18 +5,20 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.list = UIItemList.New(arg_2_0:findTF("got/bottom/scroll/list"), arg_2_0:findTF("got/bottom/scroll/list/tpl"))
-	arg_2_0.confirmBtn = arg_2_0:findTF("confirm")
-	arg_2_0.descTxt = arg_2_0:findTF("got/top/desc"):GetComponent(typeof(Text))
-	arg_2_0.exchagneCnt = arg_2_0:findTF("got/top/exchange/Text"):GetComponent(typeof(Text))
-	arg_2_0.consumeCnt = arg_2_0:findTF("confirm/consume/Text"):GetComponent(typeof(Text))
-	arg_2_0.title = arg_2_0:findTF("got/top/title")
+	arg_2_0.list = UIItemList.New(arg_2_0._tf:Find("got/bottom/scroll/list"), arg_2_0._tf:Find("got/bottom/scroll/list/tpl"))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("confirm")
+	arg_2_0.descTxt = arg_2_0._tf:Find("got/top/desc"):GetComponent(typeof(Text))
+	arg_2_0.exchagneCnt = arg_2_0._tf:Find("got/top/exchange/Text"):GetComponent(typeof(Text))
+	arg_2_0.consumeCnt = arg_2_0._tf:Find("confirm/consume/Text"):GetComponent(typeof(Text))
+	arg_2_0.title = arg_2_0._tf:Find("got/top/title")
 
-	setText(arg_2_0:findTF("got/top/exchange/label"), i18n("guild_shop_label_2"))
-	setText(arg_2_0:findTF("confirm/Text"), i18n("guild_shop_label_3"))
-	setText(arg_2_0:findTF("confirm/consume/label"), i18n("guild_shop_label_4"))
+	setText(arg_2_0._tf:Find("got/top/exchange/label"), i18n("guild_shop_label_2"))
+	setText(arg_2_0._tf:Find("confirm/Text"), i18n("guild_shop_label_3"))
+	setText(arg_2_0._tf:Find("confirm/consume/label"), i18n("guild_shop_label_4"))
 
-	arg_2_0.resIcon = arg_2_0:findTF("confirm/consume/icon")
+	arg_2_0.resIcon = arg_2_0._tf:Find("confirm/consume/icon")
+
+	arg_2_0:Hide()
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -36,7 +38,7 @@ function var_0_0.OnInit(arg_3_0)
 end
 
 function var_0_0.OnConfirm(arg_6_0)
-	arg_6_0:emit(NewShopsMediator.ON_GUILD_SHOPPING, arg_6_0.data.id, arg_6_0.selectedList)
+	arg_6_0:emit(NewShopMainMediator.ON_GUILD_SHOPPING, arg_6_0.data.id, arg_6_0.selectedList)
 end
 
 function var_0_0.Show(arg_7_0, arg_7_1)
@@ -65,7 +67,7 @@ function var_0_0.UpdateValue(arg_8_0)
 
 	arg_8_0.exchagneCnt.text = var_8_1 .. arg_8_0.maxCnt
 
-	setActive(arg_8_0:findTF("got/top/exchange"), arg_8_0.maxCnt ~= 0)
+	setActive(arg_8_0._tf:Find("got/top/exchange"), arg_8_0.maxCnt ~= 0)
 
 	arg_8_0.consumeCnt.text = arg_8_0.data.price * #arg_8_0.selectedList
 end
@@ -179,7 +181,7 @@ end
 
 function var_0_0.Hide(arg_21_0)
 	if arg_21_0:isShowing() then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_21_0._tf, arg_21_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf, arg_21_0._parentTf)
 	end
 
 	arg_21_0.list:each(function(arg_22_0, arg_22_1)

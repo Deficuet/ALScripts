@@ -5,7 +5,7 @@ function var_0_0.getTargetUI(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.uilist = UIItemList.New(arg_2_0:findTF("frame/bg/scrollrect/content"), arg_2_0:findTF("frame/bg/scrollrect/content/tpl"))
+	arg_2_0.uilist = UIItemList.New(arg_2_0._tf:Find("frame/bg/scrollrect/content"), arg_2_0._tf:Find("frame/bg/scrollrect/content/tpl"))
 	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/title/close")
 end
 
@@ -37,7 +37,7 @@ function var_0_0.Update(arg_7_0)
 			local var_8_1 = var_7_0[arg_8_1 + 1]
 
 			onButton(arg_7_0, var_8_0.acceptBtn, function()
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("guild_task_selecte_tip", var_8_1:getConfig("name")),
 					onYes = function()
 						arg_7_0:emit(GuildOfficeMediator.ON_SELECT_TASK, var_8_0.task.id)
@@ -52,7 +52,7 @@ function var_0_0.Update(arg_7_0)
 end
 
 function var_0_0.Close(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf, arg_11_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf, arg_11_0._parentTf)
 	setActive(arg_11_0._tf, false)
 end
 

@@ -21,7 +21,7 @@ end
 
 function var_0_0.OnInit(arg_3_0)
 	arg_3_0.costTF.text = 0
-	arg_3_0.modifyBackBG = arg_3_0:findTF("bg_decorations", arg_3_0._tf)
+	arg_3_0.modifyBackBG = arg_3_0._tf:Find("bg_decorations")
 
 	setActive(arg_3_0._tf, false)
 	onButton(arg_3_0, arg_3_0.cancelBtn, function()
@@ -214,7 +214,7 @@ function var_0_0.Show(arg_20_0, arg_20_1, arg_20_2)
 	if var_20_1 then
 		local var_20_2 = arg_20_0.guildVO:changeFactionLeftTime()
 
-		setText(arg_20_0:findTF("timer_container/Text", arg_20_0.factionMask), var_20_2)
+		setText(arg_20_0.factionMask:Find("timer_container/Text"), var_20_2)
 	end
 
 	arg_20_0.faction = arg_20_0.guildVO:getFaction()
@@ -267,7 +267,7 @@ function var_0_0.Show(arg_20_0, arg_20_1, arg_20_2)
 end
 
 function var_0_0.Hide(arg_25_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_25_0._tf, arg_25_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_25_0._tf, arg_25_0._parentTf)
 	setActive(arg_25_0._tf, false)
 end
 

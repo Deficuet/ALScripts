@@ -12,15 +12,13 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_3_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = arg_3_0:getWeightFromData()
-	})
+	arg_3_0:BlurPanel(arg_3_0._tf)
 	arg_3_0:updateTypeList()
 	triggerToggle(arg_3_0.typeContainer:GetChild(0), true)
 end
 
 function var_0_0.willExit(arg_4_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_4_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_4_0._tf)
 	arg_4_0.resLoader:Clear()
 end
 
@@ -44,26 +42,26 @@ function var_0_0.initData(arg_6_0)
 end
 
 function var_0_0.initUITips(arg_7_0)
-	local var_7_0 = arg_7_0:findTF("Adapt/Content/ResetBtn/Text")
-	local var_7_1 = arg_7_0:findTF("Adapt/Content/SaveBtn/Text")
+	local var_7_0 = arg_7_0._tf:Find("Adapt/Content/ResetBtn/Text")
+	local var_7_1 = arg_7_0._tf:Find("Adapt/Content/SaveBtn/Text")
 
 	setText(var_7_0, i18n("attrset_reset"))
 	setText(var_7_1, i18n("attrset_save"))
 end
 
 function var_0_0.findUI(arg_8_0)
-	arg_8_0.typeTpl = arg_8_0:findTF("TypeTpl")
-	arg_8_0.attrTpl = arg_8_0:findTF("AttrTpl")
-	arg_8_0.backBGTF = arg_8_0:findTF("Adapt/BackBG")
+	arg_8_0.typeTpl = arg_8_0._tf:Find("TypeTpl")
+	arg_8_0.attrTpl = arg_8_0._tf:Find("AttrTpl")
+	arg_8_0.backBGTF = arg_8_0._tf:Find("Adapt/BackBG")
 
-	local var_8_0 = arg_8_0:findTF("Adapt/Content")
+	local var_8_0 = arg_8_0._tf:Find("Adapt/Content")
 
-	arg_8_0.closeBtn = arg_8_0:findTF("CloseBtn", var_8_0)
-	arg_8_0.arrowTF = arg_8_0:findTF("Arrow", var_8_0)
-	arg_8_0.typeContainer = arg_8_0:findTF("TypeScrollView/Content", var_8_0)
-	arg_8_0.attrContainer = arg_8_0:findTF("AttrPanel", var_8_0)
-	arg_8_0.resetBtn = arg_8_0:findTF("ResetBtn", var_8_0)
-	arg_8_0.saveBtn = arg_8_0:findTF("SaveBtn", var_8_0)
+	arg_8_0.closeBtn = var_8_0:Find("CloseBtn")
+	arg_8_0.arrowTF = var_8_0:Find("Arrow")
+	arg_8_0.typeContainer = var_8_0:Find("TypeScrollView/Content")
+	arg_8_0.attrContainer = var_8_0:Find("AttrPanel")
+	arg_8_0.resetBtn = var_8_0:Find("ResetBtn")
+	arg_8_0.saveBtn = var_8_0:Find("SaveBtn")
 	arg_8_0.typeUIItemList = UIItemList.New(arg_8_0.typeContainer, arg_8_0.typeTpl)
 	arg_8_0.attrUIItemList = UIItemList.New(arg_8_0.attrContainer, arg_8_0.attrTpl)
 end
@@ -147,9 +145,9 @@ function var_0_0.addListener(arg_9_0)
 end
 
 function var_0_0.updateTypeTF(arg_25_0, arg_25_1, arg_25_2)
-	local var_25_0 = arg_25_0:findTF("TypeNameUnSelect", arg_25_2)
-	local var_25_1 = arg_25_0:findTF("TypeNameSelected", arg_25_2)
-	local var_25_2 = arg_25_0:findTF("TypeImg", arg_25_2)
+	local var_25_0 = arg_25_2:Find("TypeNameUnSelect")
+	local var_25_1 = arg_25_2:Find("TypeNameSelected")
+	local var_25_2 = arg_25_2:Find("TypeImg")
 	local var_25_3 = arg_25_0.typeOrderList[arg_25_1]
 	local var_25_4 = ShipType.Type2Name(var_25_3)
 
@@ -201,14 +199,14 @@ function var_0_0.updateTypeList(arg_31_0)
 end
 
 function var_0_0.updateAttrTF(arg_32_0, arg_32_1, arg_32_2)
-	local var_32_0 = arg_32_0:findTF("AttrName", arg_32_2)
-	local var_32_1 = arg_32_0:findTF("Attr/Value/CurValue", arg_32_2)
-	local var_32_2 = arg_32_0:findTF("Attr/Value/MaxValue", arg_32_2)
-	local var_32_3 = arg_32_0:findTF("Attr/InputField", arg_32_2)
-	local var_32_4 = arg_32_0:findTF("Buttons/MinusBtn", arg_32_2)
-	local var_32_5 = arg_32_0:findTF("Buttons/MaxBtn", arg_32_2)
-	local var_32_6 = arg_32_0:findTF("Buttons/AddBtn", arg_32_2)
-	local var_32_7 = arg_32_0:findTF("Attr/InputField", arg_32_2)
+	local var_32_0 = arg_32_2:Find("AttrName")
+	local var_32_1 = arg_32_2:Find("Attr/Value/CurValue")
+	local var_32_2 = arg_32_2:Find("Attr/Value/MaxValue")
+	local var_32_3 = arg_32_2:Find("Attr/InputField")
+	local var_32_4 = arg_32_2:Find("Buttons/MinusBtn")
+	local var_32_5 = arg_32_2:Find("Buttons/MaxBtn")
+	local var_32_6 = arg_32_2:Find("Buttons/AddBtn")
+	local var_32_7 = arg_32_2:Find("Attr/InputField")
 	local var_32_8 = arg_32_0.typeAttrOrderListTable[arg_32_0.curType][arg_32_1]
 	local var_32_9 = AttributeType.Type2Name(pg.attribute_info_by_type[var_32_8].name)
 	local var_32_10 = arg_32_0.maxAdditionMap[arg_32_0.curType][var_32_8]
@@ -267,7 +265,7 @@ function var_0_0.updateAttrTF(arg_32_0, arg_32_1, arg_32_2)
 			arg_32_0:setAttrValue(arg_32_0.curType, var_32_8, var_36_0)
 			setText(var_32_1, var_36_0)
 		elseif not var_36_0 then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("attrset_input_ill"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("attrset_input_ill"))
 		end
 
 		setInputText(var_32_7, "")
@@ -284,7 +282,7 @@ function var_0_0.updateAttrList(arg_37_0, arg_37_1)
 end
 
 function var_0_0.setAttrTFValue(arg_38_0, arg_38_1, arg_38_2)
-	local var_38_0 = arg_38_0:findTF("Attr/Value/CurValue", arg_38_1)
+	local var_38_0 = arg_38_1:Find("Attr/Value/CurValue")
 
 	setText(var_38_0, arg_38_2)
 end
@@ -294,8 +292,7 @@ function var_0_0.openSaveBox(arg_39_0, arg_39_1, arg_39_2, arg_39_3)
 		content = i18n("attrset_ask_save"),
 		onYes = arg_39_1,
 		onNo = arg_39_2,
-		onClose = arg_39_3,
-		weight = LayerWeightConst.TOP_LAYER
+		onClose = arg_39_3
 	})
 end
 

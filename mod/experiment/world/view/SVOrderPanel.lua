@@ -76,7 +76,7 @@ function var_0_0.OnDestroy(arg_10_0)
 end
 
 function var_0_0.Show(arg_11_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_11_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_11_0._tf)
 	var_0_0.super.Show(arg_11_0)
 end
 
@@ -85,7 +85,7 @@ function var_0_0.Hide(arg_12_0)
 		arg_12_0:HideMsgbox()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_12_0._tf, arg_12_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf, arg_12_0._parentTf)
 	arg_12_0:ClearComppass()
 	arg_12_0:ClearBtnTimers()
 	var_0_0.super.Hide(arg_12_0)
@@ -373,7 +373,7 @@ end
 
 function var_0_0.HideMsgbox(arg_40_0)
 	setActive(arg_40_0.rtMsgbox, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_40_0.rtMsgbox, arg_40_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_40_0.rtMsgbox, arg_40_0._tf)
 end
 
 function var_0_0.DisplayAutoSetting(arg_41_0, arg_41_1)

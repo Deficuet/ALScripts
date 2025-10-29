@@ -11,10 +11,10 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.FindUI(arg_3_0)
-	local var_3_0 = arg_3_0:findTF("Top")
+	local var_3_0 = arg_3_0._tf:Find("Top")
 
-	arg_3_0.bg = arg_3_0:findTF("mask")
-	arg_3_0.backBtn = arg_3_0:findTF("BackBtn", var_3_0)
+	arg_3_0.bg = arg_3_0._tf:Find("mask")
+	arg_3_0.backBtn = var_3_0:Find("BackBtn")
 	arg_3_0.slots = {}
 
 	for iter_3_0 = 1, 6 do
@@ -58,9 +58,7 @@ function var_0_0.didEnter(arg_4_0)
 	arg_4_0.contextData.ChipIndex = arg_4_0.contextData.ChipIndex or 1
 
 	arg_4_0:UpdateView()
-	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_4_0._tf)
 end
 
 function var_0_0.AddListener(arg_5_0)

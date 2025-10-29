@@ -150,7 +150,7 @@ end
 function var_0_0.UpdateTask(arg_10_0, arg_10_1, arg_10_2)
 	var_0_0.super.UpdateTask(arg_10_0, arg_10_1, arg_10_2)
 
-	local var_10_0 = arg_10_0:findTF("get_btn", arg_10_2)
+	local var_10_0 = arg_10_2:Find("get_btn")
 	local var_10_1 = arg_10_1 + 1
 	local var_10_2 = arg_10_0.taskGroup[arg_10_0.nday][var_10_1]
 	local var_10_3 = arg_10_0.taskProxy:getTaskById(var_10_2) or arg_10_0.taskProxy:getFinishTaskById(var_10_2)
@@ -181,7 +181,7 @@ function var_0_0.UpdateTask(arg_10_0, arg_10_1, arg_10_2)
 		end
 	end, SFX_PANEL)
 
-	local var_10_4 = arg_10_0:findTF("got_btn", arg_10_2)
+	local var_10_4 = arg_10_2:Find("got_btn")
 
 	onButton(arg_10_0, var_10_4, function()
 		arg_10_0:displayWindow(true)
@@ -263,11 +263,13 @@ function var_0_0.displayWindow(arg_20_0, arg_20_1)
 		local var_20_1 = Screen.height
 
 		setSizeDelta(findTF(arg_20_0.mvTf, "bottom"), Vector2(Screen.width, Screen.height))
-		pg.UIMgr.GetInstance():BlurPanel(arg_20_0.mvTf, true)
+		pg.UIMgr.GetInstance():BlurPanel(arg_20_0.mvTf, {
+			staticBlur = true
+		})
 		arg_20_0:updateMvUI()
 		arg_20_0:loadMv()
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(arg_20_0.mvTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_20_0.mvTf)
 		setActive(arg_20_0.mvTf, false)
 	end
 

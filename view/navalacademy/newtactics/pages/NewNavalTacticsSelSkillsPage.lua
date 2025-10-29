@@ -5,10 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.confrimBtn = arg_2_0:findTF("frame/confirm_btn")
-	arg_2_0.skillTpl = arg_2_0:findTF("frame/skill_container/content/skill")
-	arg_2_0.emptyTpl = arg_2_0:findTF("frame/skill_container/content/empty")
-	arg_2_0.toggleGroup = arg_2_0:findTF("frame/skill_container/content"):GetComponent(typeof(ToggleGroup))
+	arg_2_0.confrimBtn = arg_2_0._tf:Find("frame/confirm_btn")
+	arg_2_0.skillTpl = arg_2_0._tf:Find("frame/skill_container/content/skill")
+	arg_2_0.emptyTpl = arg_2_0._tf:Find("frame/skill_container/content/empty")
+	arg_2_0.toggleGroup = arg_2_0._tf:Find("frame/skill_container/content"):GetComponent(typeof(ToggleGroup))
 	arg_2_0.skillCards = {
 		NewNavalTacticsSkillCard.New(arg_2_0.skillTpl)
 	}
@@ -17,7 +17,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	}
 
 	setText(arg_2_0.confrimBtn:Find("Image"), i18n("tactics_class_start"))
-	setText(arg_2_0:findTF("frame/bg/title"), i18n("nav_tactics_sel_skill_title"))
+	setText(arg_2_0._tf:Find("frame/bg/title"), i18n("nav_tactics_sel_skill_title"))
 end
 
 function var_0_0.SetCancelCallback(arg_3_0, arg_3_1)
@@ -77,7 +77,7 @@ end
 
 function var_0_0.Hide(arg_10_0)
 	var_0_0.super.Hide(arg_10_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, pg.UIMgr.GetInstance().UIMain)
 
 	if arg_10_0.onHideCallback then
 		arg_10_0.onHideCallback()

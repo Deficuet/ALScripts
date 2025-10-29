@@ -43,6 +43,9 @@ function var_0_0.Show(arg_4_0, arg_4_1)
 	local var_4_2 = arg_4_1.fetchList
 	local var_4_3 = arg_4_1.count
 	local var_4_4 = arg_4_1.resId
+
+	arg_4_0.blur = arg_4_1.blur
+
 	local var_4_5 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = var_4_4
@@ -58,6 +61,10 @@ function var_0_0.Show(arg_4_0, arg_4_1)
 	arg_4_0.totalTitleTxt.text = arg_4_0.cntTitle
 
 	setActive(arg_4_0._tf, true)
+
+	if arg_4_0.blur then
+		pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf)
+	end
 end
 
 return var_0_0

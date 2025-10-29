@@ -1,10 +1,10 @@
 local var_0_0 = class("ShioSkinRePage", import(".TemplatePage.SkinTemplatePage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.dayTF = arg_1_0:findTF("day", arg_1_0.bg)
-	arg_1_0.item1TF = arg_1_0:findTF("item1", arg_1_0.bg)
-	arg_1_0.item2TF = arg_1_0:findTF("item2", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.dayTF = arg_1_0.bg:Find("day")
+	arg_1_0.item1TF = arg_1_0.bg:Find("item1")
+	arg_1_0.item2TF = arg_1_0.bg:Find("item2")
 	arg_1_0.itemTFList = {
 		arg_1_0.item1TF,
 		arg_1_0.item2TF
@@ -37,7 +37,7 @@ function var_0_0.OnUpdateFlush(arg_3_0)
 	for iter_3_0 = 1, 2 do
 		local var_3_2 = arg_3_0.itemTFList[iter_3_0]
 		local var_3_3 = iter_3_0
-		local var_3_4 = arg_3_0:findTF("item", var_3_2)
+		local var_3_4 = var_3_2:Find("item")
 		local var_3_5 = arg_3_0.taskGroup[arg_3_0.nday][iter_3_0]
 		local var_3_6 = arg_3_0.taskProxy:getTaskById(var_3_5) or arg_3_0.taskProxy:getFinishTaskById(var_3_5)
 
@@ -58,13 +58,13 @@ function var_0_0.OnUpdateFlush(arg_3_0)
 		local var_3_9 = var_3_6:getProgress()
 		local var_3_10 = var_3_6:getConfig("target_num")
 
-		setText(arg_3_0:findTF("description", var_3_2), var_3_6:getConfig("desc"))
-		setText(arg_3_0:findTF("progressText", var_3_2), var_3_9 .. "/" .. var_3_10)
-		setSlider(arg_3_0:findTF("progress", var_3_2), 0, var_3_10, var_3_9)
+		setText(var_3_2:Find("description"), var_3_6:getConfig("desc"))
+		setText(var_3_2:Find("progressText"), var_3_9 .. "/" .. var_3_10)
+		setSlider(var_3_2:Find("progress"), 0, var_3_10, var_3_9)
 
-		local var_3_11 = arg_3_0:findTF("go_btn", var_3_2)
-		local var_3_12 = arg_3_0:findTF("get_btn", var_3_2)
-		local var_3_13 = arg_3_0:findTF("got_btn", var_3_2)
+		local var_3_11 = var_3_2:Find("go_btn")
+		local var_3_12 = var_3_2:Find("get_btn")
+		local var_3_13 = var_3_2:Find("got_btn")
 		local var_3_14 = var_3_6:getTaskStatus()
 
 		setActive(var_3_11, var_3_14 == 0)

@@ -8,15 +8,15 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.window = arg_2_0:findTF("window")
-	arg_2_0.setView = arg_2_0:findTF("sliders/set", arg_2_0.window)
-	arg_2_0.inputView = arg_2_0:findTF("sliders/input", arg_2_0.window)
-	arg_2_0.frame = arg_2_0:findTF("frame")
-	arg_2_0.informBg = arg_2_0:findTF("top/bg/information", arg_2_0.window)
-	arg_2_0.textTitle = arg_2_0:findTF("title", arg_2_0.informBg):GetComponent(typeof(Text))
-	arg_2_0.textTitleEn = arg_2_0:findTF("title/title_en", arg_2_0.informBg):GetComponent(typeof(Text))
-	arg_2_0.inputpanel = arg_2_0:findTF("inputpanel", arg_2_0.window)
-	arg_2_0.containerbtn = arg_2_0:findTF("btns", arg_2_0.inputpanel)
+	arg_2_0.window = arg_2_0._tf:Find("window")
+	arg_2_0.setView = arg_2_0.window:Find("sliders/set")
+	arg_2_0.inputView = arg_2_0.window:Find("sliders/input")
+	arg_2_0.frame = arg_2_0._tf:Find("frame")
+	arg_2_0.informBg = arg_2_0.window:Find("top/bg/information")
+	arg_2_0.textTitle = arg_2_0.informBg:Find("title"):GetComponent(typeof(Text))
+	arg_2_0.textTitleEn = arg_2_0.informBg:Find("title/title_en"):GetComponent(typeof(Text))
+	arg_2_0.inputpanel = arg_2_0.window:Find("inputpanel")
+	arg_2_0.containerbtn = arg_2_0.inputpanel:Find("btns")
 	arg_2_0.btngroup = CustomIndexLayer.Clone2Full(arg_2_0.containerbtn, 10)
 
 	_.each(arg_2_0.btngroup, function(arg_3_0)
@@ -28,14 +28,14 @@ function var_0_0.init(arg_2_0)
 		setText(arg_3_0:Find("highlight/text2"), tostring(var_3_0))
 	end)
 
-	arg_2_0.btnconfirm = arg_2_0:findTF("confirmbtn", arg_2_0.inputpanel)
-	arg_2_0.btndelete = arg_2_0:findTF("deletebtn", arg_2_0.inputpanel)
-	arg_2_0.btnclose = arg_2_0:findTF("top/btnBack", arg_2_0.window)
-	arg_2_0.resources = arg_2_0:findTF("resources")
-	arg_2_0.selectFrame = arg_2_0:findTF("resources/xian")
+	arg_2_0.btnconfirm = arg_2_0.inputpanel:Find("confirmbtn")
+	arg_2_0.btndelete = arg_2_0.inputpanel:Find("deletebtn")
+	arg_2_0.btnclose = arg_2_0.window:Find("top/btnBack")
+	arg_2_0.resources = arg_2_0._tf:Find("resources")
+	arg_2_0.selectFrame = arg_2_0._tf:Find("resources/xian")
 	arg_2_0.setDigitGroup = {}
-	arg_2_0.setLine1Grid = arg_2_0:findTF("line1/input/grid", arg_2_0.setView)
-	arg_2_0.setLine2Grid = arg_2_0:findTF("line2/input/grid", arg_2_0.setView)
+	arg_2_0.setLine1Grid = arg_2_0.setView:Find("line1/input/grid")
+	arg_2_0.setLine2Grid = arg_2_0.setView:Find("line2/input/grid")
 
 	CustomIndexLayer.Clone2Full(arg_2_0.setLine1Grid, 6)
 	CustomIndexLayer.Clone2Full(arg_2_0.setLine2Grid, 6)
@@ -50,11 +50,11 @@ function var_0_0.init(arg_2_0)
 		table.insert(arg_2_0.setDigitGroup, arg_2_0.setLine2Grid:GetChild(iter_2_1))
 	end
 
-	arg_2_0.btnhide = arg_2_0:findTF("line1/hidebtn/hide", arg_2_0.setView)
-	arg_2_0.btnshow = arg_2_0:findTF("line1/hidebtn/show", arg_2_0.setView)
-	arg_2_0.tipseterror = arg_2_0:findTF("line2/tip", arg_2_0.setView)
+	arg_2_0.btnhide = arg_2_0.setView:Find("line1/hidebtn/hide")
+	arg_2_0.btnshow = arg_2_0.setView:Find("line1/hidebtn/show")
+	arg_2_0.tipseterror = arg_2_0.setView:Find("line2/tip")
 	arg_2_0.inputDigitGroup = {}
-	arg_2_0.inputLineGrid = arg_2_0:findTF("line1/input/grid", arg_2_0.inputView)
+	arg_2_0.inputLineGrid = arg_2_0.inputView:Find("line1/input/grid")
 
 	CustomIndexLayer.Clone2Full(arg_2_0.inputLineGrid, 6)
 
@@ -253,9 +253,8 @@ function var_0_0.didEnter(arg_21_0)
 	if arg_21_0.contextData.parent then
 		setParent(arg_21_0._tf, arg_21_0.contextData.parent)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(arg_21_0._tf, true, {
-			groupName = arg_21_0:getGroupNameFromData(),
-			weight = arg_21_0:getWeightFromData()
+		pg.UIMgr.GetInstance():BlurPanel(arg_21_0._tf, {
+			staticBlur = true
 		})
 	end
 
@@ -438,7 +437,7 @@ function var_0_0.SetInputXian(arg_40_0, arg_40_1)
 end
 
 function var_0_0.willExit(arg_41_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_41_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_41_0._tf)
 	arg_41_0:ClearAllTimers()
 end
 

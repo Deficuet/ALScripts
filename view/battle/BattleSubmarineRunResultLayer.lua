@@ -19,18 +19,18 @@ function var_0_0.setShips(arg_3_0)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0._grade = arg_4_0:findTF("grade")
-	arg_4_0._levelText = arg_4_0:findTF("chapterName/Text22", arg_4_0._grade)
-	arg_4_0.clearFX = arg_4_0:findTF("clear")
-	arg_4_0._main = arg_4_0:findTF("main")
-	arg_4_0._blurConatiner = arg_4_0:findTF("blur_container")
-	arg_4_0._bg = arg_4_0:findTF("main/jiesuanbeijing")
-	arg_4_0._painting = arg_4_0:findTF("painting", arg_4_0._blurConatiner)
-	arg_4_0._failPainting = arg_4_0:findTF("fail", arg_4_0._painting)
-	arg_4_0._chat = arg_4_0:findTF("chat", arg_4_0._painting)
-	arg_4_0._rightBottomPanel = arg_4_0:findTF("dodgem_confirm", arg_4_0._main)
-	arg_4_0._exitBtn = arg_4_0:findTF("confirm_btn", arg_4_0._rightBottomPanel)
-	arg_4_0._skipBtn = arg_4_0:findTF("skipLayer", arg_4_0._tf)
+	arg_4_0._grade = arg_4_0._tf:Find("grade")
+	arg_4_0._levelText = arg_4_0._grade:Find("chapterName/Text22")
+	arg_4_0.clearFX = arg_4_0._tf:Find("clear")
+	arg_4_0._main = arg_4_0._tf:Find("main")
+	arg_4_0._blurConatiner = arg_4_0._tf:Find("blur_container")
+	arg_4_0._bg = arg_4_0._tf:Find("main/jiesuanbeijing")
+	arg_4_0._painting = arg_4_0._blurConatiner:Find("painting")
+	arg_4_0._failPainting = arg_4_0._painting:Find("fail")
+	arg_4_0._chat = arg_4_0._painting:Find("chat")
+	arg_4_0._rightBottomPanel = arg_4_0._main:Find("dodgem_confirm")
+	arg_4_0._exitBtn = arg_4_0._rightBottomPanel:Find("confirm_btn")
+	arg_4_0._skipBtn = arg_4_0._tf:Find("skipLayer")
 	arg_4_0.UIMain = pg.UIMgr.GetInstance().UIMain
 	arg_4_0.overlay = pg.UIMgr.GetInstance().OverlayMain
 
@@ -41,16 +41,16 @@ function var_0_0.init(arg_4_0)
 		"a",
 		"s"
 	}
-	local var_4_1 = arg_4_0:findTF("grade/Xyz/bg13")
-	local var_4_2 = arg_4_0:findTF("grade/Xyz/bg14")
+	local var_4_1 = arg_4_0._tf:Find("grade/Xyz/bg13")
+	local var_4_2 = arg_4_0._tf:Find("grade/Xyz/bg14")
 	local var_4_3
 	local var_4_4
 	local var_4_5
 	local var_4_6 = arg_4_0.contextData.score
 	local var_4_7 = var_4_6 > 0
 
-	setActive(arg_4_0:findTF("jieuan01/BG/bg_victory", arg_4_0._bg), var_4_7)
-	setActive(arg_4_0:findTF("jieuan01/BG/bg_fail", arg_4_0._bg), not var_4_7)
+	setActive(arg_4_0._bg:Find("jieuan01/BG/bg_victory"), var_4_7)
+	setActive(arg_4_0._bg:Find("jieuan01/BG/bg_fail"), not var_4_7)
 
 	if var_4_7 then
 		local var_4_8 = var_4_0[var_4_6 + 1]
@@ -67,7 +67,7 @@ function var_0_0.init(arg_4_0)
 	LoadImageSpriteAsync(var_4_3, var_4_1, false)
 	LoadImageSpriteAsync(var_4_4, var_4_2, false)
 	SetActive(arg_4_0._levelText, false)
-	SetActive(arg_4_0:findTF("main/conditions"), false)
+	SetActive(arg_4_0._tf:Find("main/conditions"), false)
 
 	arg_4_0._ratioFitter = GetComponent(arg_4_0._tf, typeof(AspectRatioFitter))
 	arg_4_0._ratioFitter.enabled = true
@@ -169,7 +169,7 @@ end
 
 function var_0_0.willExit(arg_15_0)
 	LeanTween.cancel(go(arg_15_0._tf))
-	pg.UIMgr.GetInstance():UnblurPanel(arg_15_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf)
 	pg.CameraFixMgr.GetInstance():disconnect(arg_15_0.camEventId)
 end
 

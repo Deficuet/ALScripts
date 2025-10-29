@@ -39,7 +39,7 @@ function var_0_0.register(arg_1_0)
 			mediator = MetaCharacterRepairMediator,
 			data = {
 				shipID = arg_5_1,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_META
+				groupName = arg_1_0.viewComponent:getGroupName()
 			},
 			onRemoved = function()
 				arg_1_0.viewComponent:enterMenuPage(false)
@@ -62,7 +62,7 @@ function var_0_0.register(arg_1_0)
 			mediator = MetaCharacterEnergyMediator,
 			data = {
 				shipID = arg_7_1,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_META,
+				groupName = arg_1_0.viewComponent:getGroupName(),
 				isMainOpen = var_7_0
 			},
 			onRemoved = function()
@@ -86,7 +86,7 @@ function var_0_0.register(arg_1_0)
 			mediator = MetaCharacterTacticsMediator,
 			data = {
 				shipID = arg_9_1,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_META,
+				groupName = arg_1_0.viewComponent:getGroupName(),
 				isMainOpen = var_9_0
 			},
 			onRemoved = function()
@@ -115,7 +115,7 @@ function var_0_0.register(arg_1_0)
 			mediator = MetaCharacterSynMediator,
 			data = {
 				shipID = arg_11_1,
-				LayerWeightMgr_groupName = LayerWeightConst.GROUP_META,
+				groupName = arg_1_0.viewComponent:getGroupName(),
 				isMainOpen = var_11_0
 			},
 			onRemoved = function()

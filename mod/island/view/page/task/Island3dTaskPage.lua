@@ -5,30 +5,33 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	local var_2_0 = arg_2_0._tf:Find("toggles/content")
+	local var_2_0 = arg_2_0._tf:Find("adapt/toggles/content")
 
 	arg_2_0.toggleUIList = UIItemList.New(var_2_0, var_2_0:Find("tpl"))
 
-	local var_2_1 = arg_2_0._tf:Find("types/content")
+	local var_2_1 = arg_2_0._tf:Find("adapt/types/content")
 
 	arg_2_0.typeUIList = UIItemList.New(var_2_1, var_2_1:Find("type_tpl"))
-	arg_2_0.emptyTF = arg_2_0._tf:Find("detail/empty")
-	arg_2_0.detailTF = arg_2_0._tf:Find("detail/content")
+	arg_2_0.detailAnim = arg_2_0._tf:Find("adapt/detail"):GetComponent(typeof(Animation))
+	arg_2_0.emptyTF = arg_2_0._tf:Find("adapt/detail/empty")
+	arg_2_0.detailTF = arg_2_0._tf:Find("adapt/detail/content")
 	arg_2_0.titleBg = arg_2_0.detailTF:Find("title")
 	arg_2_0.typeIcon = arg_2_0.detailTF:Find("title/icon")
 	arg_2_0.nameTF = arg_2_0.detailTF:Find("title/icon/name")
 	arg_2_0.timeTF = arg_2_0.detailTF:Find("title/time")
-	arg_2_0.descTF = arg_2_0.detailTF:Find("desc")
-	arg_2_0.targetTF = arg_2_0.detailTF:Find("targets")
+	arg_2_0.descTF = arg_2_0.detailTF:Find("view/Viewport/content/desc")
+	arg_2_0.targetTF = arg_2_0.detailTF:Find("view/Viewport/content/targets")
 
-	setText(arg_2_0.targetTF:Find("Text"), i18n1("任务目标："))
+	setText(arg_2_0.targetTF:Find("Text"), i18n("island_task_target"))
 
-	arg_2_0.finishedTargetTF = arg_2_0.targetTF:Find("finished")
-	arg_2_0.targetContent = arg_2_0.targetTF:Find("content")
+	arg_2_0.finishedTargetTF = arg_2_0.targetTF:Find("content/finished")
+	arg_2_0.finishedTargetTextTF = arg_2_0.finishedTargetTF:Find("Text")
+	arg_2_0.finishedTargetLocTF = arg_2_0.finishedTargetTF:Find("location")
+	arg_2_0.targetContent = arg_2_0.targetTF:Find("content/list")
 	arg_2_0.targetUIList = UIItemList.New(arg_2_0.targetContent, arg_2_0.targetContent:Find("tpl"))
 	arg_2_0.awardsTF = arg_2_0.detailTF:Find("awards")
 
-	setText(arg_2_0.awardsTF:Find("title/Text"), i18n1("任务奖励"))
+	setText(arg_2_0.awardsTF:Find("title/Text"), i18n("island_task_award"))
 
 	local var_2_2 = arg_2_0.awardsTF:Find("view/mask/content")
 
@@ -36,380 +39,409 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.detailBtns = arg_2_0.detailTF:Find("btns")
 	arg_2_0.traceBtn = arg_2_0.detailBtns:Find("trace")
 
-	setText(arg_2_0.traceBtn:Find("Text"), i18n1("追踪任务"))
+	setText(arg_2_0.traceBtn:Find("Text"), i18n("island_task_tracking"))
 
 	arg_2_0.tracedBtn = arg_2_0.detailBtns:Find("traced")
 
-	setText(arg_2_0.tracedBtn:Find("Text"), i18n1("已追踪"))
+	setText(arg_2_0.tracedBtn:Find("Text"), i18n("island_task_tracked"))
+	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_task_title"))
+	setText(arg_2_0._tf:Find("top/title/Text/en"), i18n("island_task_title_en"))
 
-	arg_2_0.submitBtn = arg_2_0.detailBtns:Find("submit")
-	arg_2_0.acceptBtn = arg_2_0._tf:Find("top/accept")
-	arg_2_0.acceptPanel = arg_2_0._tf:Find("accept_panel")
+	arg_2_0.richtext = arg_2_0.descTF:GetComponent("RichText")
+end
 
-	setActive(arg_2_0.acceptPanel, false)
+function var_0_0.OnInit(arg_3_0)
+	onButton(arg_3_0, arg_3_0._tf:Find("top/back"), function()
+		arg_3_0:Hide()
+	end, SFX_PANEL)
+	arg_3_0.toggleUIList:make(function(arg_5_0, arg_5_1, arg_5_2)
+		if arg_5_0 == UIItemList.EventInit then
+			arg_3_0:InitToggleItem(arg_5_1, arg_5_2)
+		end
+	end)
+	arg_3_0.typeUIList:make(function(arg_6_0, arg_6_1, arg_6_2)
+		if arg_6_0 == UIItemList.EventUpdate then
+			arg_3_0:UpdateTypeItem(arg_6_1, arg_6_2)
+		end
+	end)
+	arg_3_0.targetUIList:make(function(arg_7_0, arg_7_1, arg_7_2)
+		if arg_7_0 == UIItemList.EventUpdate then
+			arg_3_0:UpdateTargetItem(arg_7_1, arg_7_2)
+		end
+	end)
+	arg_3_0.awardUIList:make(function(arg_8_0, arg_8_1, arg_8_2)
+		if arg_8_0 == UIItemList.EventUpdate then
+			local var_8_0 = arg_3_0.showAwards[arg_8_1 + 1]
 
-	arg_2_0.acceptUIList = UIItemList.New(arg_2_0.acceptPanel:Find("Viewport/Content"), arg_2_0.acceptPanel:Find("Viewport/Content/tpl"))
-
-	arg_2_0.acceptUIList:make(function(arg_3_0, arg_3_1, arg_3_2)
-		if arg_3_0 == UIItemList.EventUpdate then
-			local var_3_0 = arg_2_0.canAcceptTask[arg_3_1 + 1]
-
-			setText(arg_3_2:Find("id"), var_3_0.id)
-			setText(arg_3_2:Find("name"), var_3_0:getConfig("name"))
-			onButton(arg_2_0, arg_3_2:Find("btn"), function()
-				arg_2_0:emit(IslandMediator.ON_ACCEPT_TASK, {
-					var_3_0.id
+			updateCustomDrop(arg_8_2, var_8_0)
+			onButton(arg_3_0, arg_8_2, function()
+				arg_3_0:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = var_8_0
 				})
-				setActive(arg_2_0.acceptPanel, false)
-				arg_2_0:Hide()
-			end, SFX_PANEL)
+			end)
 		end
 	end)
-	onButton(arg_2_0, arg_2_0.acceptBtn, function()
-		arg_2_0.canAcceptTask = getProxy(IslandProxy):GetIsland():GetTaskAgency():GetCanAcceptTasks()
-
-		arg_2_0.acceptUIList:align(#arg_2_0.canAcceptTask)
-		setActive(arg_2_0.acceptPanel, #arg_2_0.canAcceptTask > 0)
-	end, SFX_PANEL)
-	onButton(arg_2_0, arg_2_0.acceptPanel:Find("close"), function()
-		setActive(arg_2_0.acceptPanel, false)
-	end, SFX_PANEL)
 end
 
-function var_0_0.OnInit(arg_7_0)
-	onButton(arg_7_0, arg_7_0._tf:Find("top/back"), function()
-		arg_7_0:Hide()
-	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0._tf:Find("top/home"), function()
-		arg_7_0:emit(BaseUI.ON_HOME)
-	end, SFX_PANEL)
-	arg_7_0.toggleUIList:make(function(arg_10_0, arg_10_1, arg_10_2)
-		if arg_10_0 == UIItemList.EventInit then
-			arg_7_0:InitToggleItem(arg_10_1, arg_10_2)
-		end
-	end)
-
-	arg_7_0.toggleList = underscore.keys(IslandTaskType.ShowTypeNames)
-
-	table.sort(arg_7_0.toggleList)
-	arg_7_0.toggleUIList:align(#arg_7_0.toggleList)
-	arg_7_0.typeUIList:make(function(arg_11_0, arg_11_1, arg_11_2)
-		if arg_11_0 == UIItemList.EventUpdate then
-			arg_7_0:UpdateTypeItem(arg_11_1, arg_11_2)
-		end
-	end)
-	arg_7_0.targetUIList:make(function(arg_12_0, arg_12_1, arg_12_2)
-		if arg_12_0 == UIItemList.EventUpdate then
-			arg_7_0:UpdateTargetItem(arg_12_1, arg_12_2)
-		end
-	end)
-	arg_7_0.awardUIList:make(function(arg_13_0, arg_13_1, arg_13_2)
-		if arg_13_0 == UIItemList.EventUpdate then
-			local var_13_0 = arg_7_0.showAwards[arg_13_1 + 1]
-
-			updateDrop(arg_13_2, var_13_0)
-		end
-	end)
-	triggerToggle(arg_7_0.toggleUIList.container:GetChild(0), true)
+function var_0_0.AddListeners(arg_10_0)
+	arg_10_0:AddListener(GAME.ISLAND_SET_TRACE_TASK_DONE, arg_10_0.FlushDetail)
+	arg_10_0:AddListener(GAME.ISLAND_ACCEPT_TASK_DONE, arg_10_0.Flush)
+	arg_10_0:AddListener(GAME.ISLAND_SUBMIT_TASK_DONE, arg_10_0.Flush)
+	arg_10_0:AddListener(GAME.ISLAND_UPDATE_TASK_DONE, arg_10_0.Flush)
+	arg_10_0:AddListener(GAME.ISLAND_GET_RANDOM_REFRESH_TASK_DONE, arg_10_0.Flush)
+	arg_10_0:AddListener(IslandTaskAgency.TASK_ADDED, arg_10_0.Flush)
+	arg_10_0:AddListener(IslandTaskAgency.TASK_UPDATED, arg_10_0.Flush)
+	arg_10_0:AddListener(IslandTaskAgency.TASK_REMOVED, arg_10_0.Flush)
 end
 
-function var_0_0.AddListeners(arg_14_0)
-	arg_14_0:AddListener(GAME.ISLAND_SET_TRACE_TASK_DONE, arg_14_0.Flush)
-	arg_14_0:AddListener(GAME.ISLAND_ACCEPT_TASK_DONE, arg_14_0.Flush)
-	arg_14_0:AddListener(GAME.ISLAND_SUBMIT_TASK_DONE, arg_14_0.Flush)
-	arg_14_0:AddListener(GAME.ISLAND_UPDATE_TASK_DONE, arg_14_0.Flush)
-	arg_14_0:AddListener(GAME.ISLAND_GET_RANDOM_REFRESH_TASK_DONE, arg_14_0.Flush)
-	arg_14_0:AddListener(IslandTaskAgency.TASK_ADDED, arg_14_0.Flush)
-	arg_14_0:AddListener(IslandTaskAgency.TASK_UPDATED, arg_14_0.Flush)
-	arg_14_0:AddListener(IslandTaskAgency.TASK_REMOVED, arg_14_0.Flush)
+function var_0_0.RemoveListeners(arg_11_0)
+	arg_11_0:RemoveListener(GAME.ISLAND_SET_TRACE_TASK_DONE, arg_11_0.FlushDetail)
+	arg_11_0:RemoveListener(GAME.ISLAND_ACCEPT_TASK_DONE, arg_11_0.Flush)
+	arg_11_0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_DONE, arg_11_0.Flush)
+	arg_11_0:RemoveListener(GAME.ISLAND_UPDATE_TASK_DONE, arg_11_0.Flush)
+	arg_11_0:RemoveListener(GAME.ISLAND_GET_RANDOM_REFRESH_TASK_DONE, arg_11_0.Flush)
+	arg_11_0:RemoveListener(IslandTaskAgency.TASK_ADDED, arg_11_0.Flush)
+	arg_11_0:RemoveListener(IslandTaskAgency.TASK_UPDATED, arg_11_0.Flush)
+	arg_11_0:RemoveListener(IslandTaskAgency.TASK_REMOVED, arg_11_0.Flush)
 end
 
-function var_0_0.RemoveListener(arg_15_0)
-	arg_15_0:RemoveListener(GAME.ISLAND_SET_TRACE_TASK_DONE, arg_15_0.Flush)
-	arg_15_0:RemoveListener(GAME.ISLAND_ACCEPT_TASK_DONE, arg_15_0.Flush)
-	arg_15_0:RemoveListener(GAME.ISLAND_SUBMIT_TASK_DONE, arg_15_0.Flush)
-	arg_15_0:RemoveListener(GAME.ISLAND_UPDATE_TASK_DONE, arg_15_0.Flush)
-	arg_15_0:RemoveListener(GAME.ISLAND_GET_RANDOM_REFRESH_TASK_DONE, arg_15_0.Flush)
-	arg_15_0:RemoveListener(IslandTaskAgency.TASK_ADDED, arg_15_0.Flush)
-	arg_15_0:RemoveListener(IslandTaskAgency.TASK_UPDATED, arg_15_0.Flush)
-	arg_15_0:RemoveListener(IslandTaskAgency.TASK_REMOVED, arg_15_0.Flush)
-end
+function var_0_0.InitToggleItem(arg_12_0, arg_12_1, arg_12_2)
+	local var_12_0 = arg_12_0.toggleList[arg_12_1 + 1]
 
-function var_0_0.InitToggleItem(arg_16_0, arg_16_1, arg_16_2)
-	local var_16_0 = arg_16_0.toggleList[arg_16_1 + 1]
+	arg_12_2.name = var_12_0
 
-	arg_16_2.name = var_16_0
+	local var_12_1 = IslandTaskType.ShowTypeNames[var_12_0]
 
-	local var_16_1 = IslandTaskType.ShowTypeNames[var_16_0]
+	setText(arg_12_2:Find("unsel"), var_12_1)
+	setText(arg_12_2:Find("sel/content/Text"), var_12_1)
 
-	setText(arg_16_2:Find("unsel"), var_16_1)
-	setText(arg_16_2:Find("sel/content/Text"), var_16_1)
-
-	if var_16_0 ~= IslandTaskType.SHOW_ALL then
-		LoadImageSpriteAsync("islandtasktype/" .. IslandTaskType.ShowTypeFields[var_16_0], arg_16_2:Find("sel/content/Image"))
+	if var_12_0 ~= IslandTaskType.SHOW_ALL then
+		LoadImageSpriteAtlasAsync("island/islandtasktype", IslandTaskType.ShowTypeFields[var_12_0], arg_12_2:Find("sel/content/Image"), false)
 	end
 
-	onToggle(arg_16_0, arg_16_2, function(arg_17_0)
-		if arg_17_0 and (not arg_16_0.selectedType or arg_16_0.selectedType ~= var_16_0) then
-			arg_16_0.selectedType = var_16_0
+	onToggle(arg_12_0, arg_12_2, function(arg_13_0)
+		if arg_13_0 and (not arg_12_0.selectedType or arg_12_0.selectedType ~= var_12_0) then
+			arg_12_0.selectedType = var_12_0
 
-			arg_16_0:Flush()
+			arg_12_0:Flush()
+			arg_12_2:GetComponent(typeof(Animation)):Play()
 		end
 	end, SFX_PANEL)
 end
 
-function var_0_0.UpdateTypeItem(arg_18_0, arg_18_1, arg_18_2)
-	local var_18_0 = arg_18_0.showTypeList[arg_18_1 + 1]
+function var_0_0.UpdateTypeItem(arg_14_0, arg_14_1, arg_14_2)
+	local var_14_0 = arg_14_0.showTypeList[arg_14_1 + 1]
 
-	arg_18_2.name = var_18_0
+	arg_14_2.name = var_14_0
 
-	local var_18_1 = IslandTaskType.ShowTypeNames[var_18_0]
+	local var_14_1 = IslandTaskType.ShowTypeNames[var_14_0]
 
-	setText(arg_18_2:Find("title/Text"), var_18_1)
-	setImageColor(arg_18_2:Find("title"), Color.NewHex(IslandTaskType.ShowTypeColors[var_18_0]))
-	LoadImageSpriteAsync("islandtasktype/" .. IslandTaskType.ShowTypeFields[var_18_0], arg_18_2:Find("title/Image"))
-	setActive(arg_18_2:Find("line"), arg_18_1 + 1 ~= #arg_18_0.showTypeList)
+	setText(arg_14_2:Find("title/Text"), var_14_1)
+	setImageColor(arg_14_2:Find("title"), Color.NewHex(IslandTaskType.ShowTypeColors[var_14_0]))
+	LoadImageSpriteAtlasAsync("island/islandtasktype", IslandTaskType.ShowTypeFields[var_14_0], arg_14_2:Find("title/Image"))
+	setActive(arg_14_2:Find("line"), arg_14_1 + 1 ~= #arg_14_0.showTypeList)
 
-	local var_18_2 = UIItemList.New(arg_18_2:Find("list"), arg_18_2:Find("list"):GetChild(0))
+	local var_14_2 = UIItemList.New(arg_14_2:Find("list"), arg_14_2:Find("list"):GetChild(0))
 
-	var_18_2:make(function(arg_19_0, arg_19_1, arg_19_2)
-		if arg_19_0 == UIItemList.EventUpdate then
-			local var_19_0 = arg_18_0.showTaskDict[var_18_0][arg_19_1 + 1]
+	var_14_2:make(function(arg_15_0, arg_15_1, arg_15_2)
+		if arg_15_0 == UIItemList.EventUpdate then
+			local var_15_0 = arg_14_0.showTaskDict[var_14_0][arg_15_1 + 1]
 
-			arg_18_0:UpdateTaskItem(arg_19_2, var_19_0)
+			arg_14_0:UpdateTaskItem(arg_15_2, var_15_0)
 		end
 	end)
 
-	local var_18_3 = arg_18_0.showTaskDict[var_18_0] and arg_18_0.showTaskDict[var_18_0] or {}
+	local var_14_3 = arg_14_0.showTaskDict[var_14_0] and arg_14_0.showTaskDict[var_14_0] or {}
 
-	var_18_2:align(#var_18_3)
+	var_14_2:align(#var_14_3)
 end
 
-function var_0_0.UpdateTaskItem(arg_20_0, arg_20_1, arg_20_2)
-	arg_20_1.name = arg_20_2.id
+function var_0_0.UpdateTaskItem(arg_16_0, arg_16_1, arg_16_2)
+	arg_16_1.name = arg_16_2.id
 
-	local var_20_0 = arg_20_2:GetShowType()
+	local var_16_0 = arg_16_2:GetShowType()
 
-	setImageColor(arg_20_1:Find("main/line"), Color.NewHex(IslandTaskType.ShowTypeColors[var_20_0]))
-	setText(arg_20_1:Find("main/desc"), arg_20_2:GetDesc())
+	setImageColor(arg_16_1:Find("main/line"), Color.NewHex(IslandTaskType.ShowTypeColors[var_16_0]))
 
-	local var_20_1 = arg_20_2:IsSeries()
+	local var_16_1 = arg_16_2:IsSeries()
 
-	setText(arg_20_1:Find("main/name"), var_20_1 and arg_20_2:GetSeriesTitle() or arg_20_2:GetName())
-	setActive(arg_20_1:Find("sub"), var_20_1)
-	setActive(arg_20_1:Find("main/location"), not var_20_1)
-	setActive(arg_20_1:Find("main/desc"), not var_20_1)
+	setText(arg_16_1:Find("main/name"), var_16_1 and arg_16_2:GetSeriesTitle() or arg_16_2:GetName())
+	setActive(arg_16_1:Find("sub"), var_16_1)
+	setActive(arg_16_1:Find("main/location"), not var_16_1)
 
-	if var_20_1 then
-		local var_20_2 = IslandTaskType.ShowTypeFields[var_20_0]
+	if var_16_1 then
+		local var_16_2 = IslandTaskType.ShowTypeFields[var_16_0]
 
-		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "color_" .. var_20_2, arg_20_1:Find("sub/bg"))
-		setText(arg_20_1:Find("sub/name"), arg_20_2:GetName())
-		arg_20_0:UpdateLocation(arg_20_1:Find("sub/location"), arg_20_2)
+		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "color_" .. var_16_2, arg_16_1:Find("sub/bg"))
+		setText(arg_16_1:Find("sub/name"), arg_16_2:GetName())
+		arg_16_0:UpdateLocation(arg_16_1:Find("sub/location"), arg_16_2)
 	else
-		arg_20_0:UpdateLocation(arg_20_1:Find("main/location"), arg_20_2)
+		arg_16_0:UpdateLocation(arg_16_1:Find("main/location"), arg_16_2)
 	end
 
-	onToggle(arg_20_0, arg_20_1, function(arg_21_0)
-		if arg_21_0 and (not arg_20_0.selectedTaskId or arg_20_0.selectedTaskId ~= arg_20_2.id) then
-			arg_20_0.selectedTaskId = arg_20_2.id
+	onToggle(arg_16_0, arg_16_1, function(arg_17_0)
+		setActive(arg_16_1:Find("main/selected"), arg_17_0 and not var_16_1)
+		setActive(arg_16_1:Find("sub/selected"), arg_17_0 and var_16_1)
 
-			arg_20_0:FlushDetail()
+		if arg_17_0 and (not arg_16_0.selectedTaskId or arg_16_0.selectedTaskId ~= arg_16_2.id or arg_16_0.isOpen) then
+			arg_16_0.selectedTaskId = arg_16_2.id
+
+			arg_16_0:FlushDetail()
+
+			arg_16_0.isOpen = false
 		end
 	end, SFX_PANEL)
 end
 
-function var_0_0.UpdateLocation(arg_22_0, arg_22_1, arg_22_2)
-	setActive(arg_22_1, arg_22_2.id == arg_22_0.trackTaskId)
+function var_0_0.UpdateLocation(arg_18_0, arg_18_1, arg_18_2)
+	setActive(arg_18_1, arg_18_2.id == arg_18_0.trackTaskId)
 
-	if arg_22_2.id == arg_22_0.trackTaskId then
-		local var_22_0 = arg_22_2:GetTraceParam()
-		local var_22_1 = tonumber(var_22_0)
+	if arg_18_2.id == arg_18_0.trackTaskId then
+		local var_18_0 = arg_18_2:GetTraceParam()
+		local var_18_1 = tonumber(var_18_0)
 
-		setActive(arg_22_1, var_22_1)
+		setActive(arg_18_1, var_18_1)
 
-		if var_22_1 then
-			local var_22_2 = pg.island_world_objects[var_22_1].mapId
-			local var_22_3 = var_22_2 == arg_22_0.curMapId and arg_22_0:CalcDistance(var_22_1) .. "m" or pg.island_map[var_22_2].name
+		if var_18_1 then
+			local var_18_2 = pg.island_world_objects[var_18_1].mapId
+			local var_18_3 = var_18_2 == arg_18_0.curMapId and arg_18_0:CalcDistance(var_18_1) .. "m" or pg.island_map[var_18_2].name
 
-			setText(arg_22_1:Find("Text"), var_22_3)
+			setText(arg_18_1:Find("Text"), var_18_3)
 		end
 	end
 end
 
-function var_0_0.CalcDistance(arg_23_0, arg_23_1)
-	local var_23_0 = _IslandCore:GetView():GetPlayerPosition()
-	local var_23_1 = _IslandCore:GetView():GetUnitPosition(arg_23_1) or var_23_0
-	local var_23_2 = Vector3.Distance(var_23_0, var_23_1)
+function var_0_0.CalcDistance(arg_19_0, arg_19_1)
+	local var_19_0 = _IslandCore:GetView():GetPlayerPosition()
+	local var_19_1 = _IslandCore:GetView():GetUnitPosition(arg_19_1) or var_19_0
+	local var_19_2 = Vector3.Distance(var_19_0, var_19_1)
 
-	return math.ceil(var_23_2)
+	return math.ceil(var_19_2)
 end
 
-function var_0_0.UpdateTargetItem(arg_24_0, arg_24_1, arg_24_2)
-	local var_24_0 = arg_24_0.showTargets[arg_24_1 + 1]
+function var_0_0.UpdateTargetItem(arg_20_0, arg_20_1, arg_20_2)
+	local var_20_0 = arg_20_0.showTargets[arg_20_1 + 1]
 
-	setText(arg_24_2:Find("content/Text"), var_24_0:getConfig("name"))
+	setText(arg_20_2:Find("content/Text"), var_20_0:getConfig("name"))
 
-	local var_24_1 = var_24_0:GetProgress()
-	local var_24_2 = var_24_0:GetTargetNum()
+	local var_20_1 = var_20_0:GetProgress()
+	local var_20_2 = var_20_0:GetTargetNum()
 
-	setText(arg_24_2:Find("content/num"), string.format("(%d/%d)", var_24_1, var_24_2))
+	setText(arg_20_2:Find("content/num"), string.format("(%d/%d)", var_20_1, var_20_2))
 
-	local var_24_3 = var_24_0:IsFinish()
+	local var_20_3 = var_20_0:IsFinish()
 
-	setActive(arg_24_2:Find("status/unfinish"), not var_24_3)
-	setActive(arg_24_2:Find("status/finished"), var_24_3)
+	setActive(arg_20_2:Find("status/unfinish"), not var_20_3)
+	setActive(arg_20_2:Find("status/finished"), var_20_3)
 
-	local var_24_4, var_24_5 = arg_24_0.showVO:GetTraceParam()
-	local var_24_6 = arg_24_2:Find("content/location")
-	local var_24_7 = var_24_5 and var_24_5 == arg_24_1 + 1
+	local var_20_4, var_20_5 = arg_20_0.showVO:GetTraceParam()
+	local var_20_6 = arg_20_2:Find("content/location")
+	local var_20_7 = var_20_5 and var_20_5 == arg_20_1 + 1
 
-	setActive(var_24_6, var_24_7)
+	setActive(var_20_6, var_20_7)
 
-	if var_24_7 then
-		arg_24_0:UpdateLocation(var_24_6, arg_24_0.showVO)
+	if var_20_7 then
+		arg_20_0:UpdateLocation(var_20_6, arg_20_0.showVO)
+	end
+end
+
+function var_0_0.Flush(arg_21_0)
+	if not arg_21_0.selectedType then
+		arg_21_0.selectedType = IslandTaskType.SHOW_ALL
 	end
 
-	onButton(arg_24_0, arg_24_2:Find("content/add_progress"), function()
-		arg_24_0:emit(IslandMediator.ON_CLIENT_UPDATE_TASK, {
-			progress = 1,
-			taskId = arg_24_0.showVO.id,
-			targetId = var_24_0.id
-		})
-	end, SFX_PANEL)
-end
+	local var_21_0 = getProxy(IslandProxy):GetIsland()
 
-function var_0_0.Flush(arg_26_0, arg_26_1)
-	local var_26_0 = getProxy(IslandProxy):GetIsland()
+	arg_21_0.curMapId = var_21_0:GetMapId()
+	arg_21_0.taskAgency = var_21_0:GetTaskAgency()
+	arg_21_0.trackTaskId = arg_21_0.taskAgency:GetTraceId()
 
-	arg_26_0.curMapId = var_26_0:GetMapId()
-	arg_26_0.taskAgency = var_26_0:GetTaskAgency()
-	arg_26_0.trackTaskId = arg_26_0.taskAgency:GetTraceId()
+	local var_21_1 = arg_21_0.taskAgency:GetShowTasks()
 
-	local var_26_1 = arg_26_0.taskAgency:GetTasks()
+	arg_21_0.showTaskDict = {}
 
-	arg_26_0.showTaskDict = {}
+	for iter_21_0, iter_21_1 in pairs(var_21_1) do
+		local var_21_2 = iter_21_1:GetShowType()
 
-	for iter_26_0, iter_26_1 in pairs(var_26_1) do
-		local var_26_2 = iter_26_1:GetShowType()
+		if var_21_2 then
+			if not arg_21_0.showTaskDict[var_21_2] then
+				arg_21_0.showTaskDict[var_21_2] = {}
+			end
 
-		if not arg_26_0.showTaskDict[var_26_2] then
-			arg_26_0.showTaskDict[var_26_2] = {}
+			table.insert(arg_21_0.showTaskDict[var_21_2], iter_21_1)
 		end
-
-		table.insert(arg_26_0.showTaskDict[var_26_2], iter_26_1)
 	end
 
-	arg_26_0.showTypeList = {
-		arg_26_0.selectedType
+	arg_21_0.showTypeList = {
+		arg_21_0.selectedType
 	}
 
-	if arg_26_0.selectedType == IslandTaskType.SHOW_ALL then
-		arg_26_0.showTypeList = underscore.keys(IslandTaskType.ShowTypeFields)
+	if arg_21_0.selectedType == IslandTaskType.SHOW_ALL then
+		arg_21_0.showTypeList = arg_21_0:GetShowTypeList()
 	end
 
-	table.sort(arg_26_0.showTypeList)
-	arg_26_0.typeUIList:align(#arg_26_0.showTypeList)
-
-	if not arg_26_0.selectedTaskId or not arg_26_0.showVO or not table.contains(arg_26_0.showTypeList, arg_26_0.showVO:GetShowType()) then
-		arg_26_0:PingFirstTask()
-	else
-		arg_26_0:FlushDetail()
-	end
-
-	if isActive(arg_26_0.acceptPanel) then
-		triggerButton(arg_26_0.acceptBtn)
-	end
+	table.sort(arg_21_0.showTypeList)
+	arg_21_0.typeUIList:align(#arg_21_0.showTypeList)
+	arg_21_0:PingFirstTask()
 end
 
-function var_0_0.PingFirstTask(arg_27_0)
-	local var_27_0 = underscore.detect(arg_27_0.showTypeList, function(arg_28_0)
-		return arg_27_0.showTaskDict[arg_28_0] and #arg_27_0.showTaskDict[arg_28_0] > 0
+function var_0_0.FlushTypeUIList(arg_22_0)
+	arg_22_0.typeUIList:align(#arg_22_0.showTypeList)
+
+	local var_22_0 = {}
+
+	arg_22_0.typeUIList:eachActive(function(arg_23_0, arg_23_1)
+		arg_23_1:GetComponent(typeof(CanvasGroup)).alpha = 0
+
+		table.insert(var_22_0, function(arg_24_0)
+			arg_23_1:GetComponent(typeof(Animation)):Play()
+
+			arg_23_1:GetComponent(typeof(CanvasGroup)).alpha = 1
+
+			arg_22_0:managedTween(LeanTween.delayedCall, function()
+				arg_24_0()
+			end, 0.06, nil)
+		end)
+	end)
+	seriesAsync(var_22_0)
+end
+
+function var_0_0.PingFirstTask(arg_26_0)
+	local var_26_0 = underscore.detect(arg_26_0.showTypeList, function(arg_27_0)
+		return arg_26_0.showTaskDict[arg_27_0] and #arg_26_0.showTaskDict[arg_27_0] > 0
 	end)
 
-	if var_27_0 then
-		triggerToggle(arg_27_0.typeUIList.container:Find(var_27_0 .. "/list"):GetChild(0), true)
+	if var_26_0 then
+		triggerToggle(arg_26_0.typeUIList.container:Find(var_26_0 .. "/list"):GetChild(0), true)
 	else
-		arg_27_0.selectedTaskId = nil
+		arg_26_0.selectedTaskId = nil
 
-		arg_27_0:FlushDetail()
+		arg_26_0:FlushDetail()
 	end
 end
 
-function var_0_0.FlushDetail(arg_29_0)
-	setActive(arg_29_0.detailTF, arg_29_0.selectedTaskId)
-	setActive(arg_29_0.emptyTF, not arg_29_0.selectedTaskId)
+function var_0_0.FlushDetail(arg_28_0)
+	arg_28_0.trackTaskId = arg_28_0.taskAgency:GetTraceId()
 
-	if arg_29_0.selectedTaskId then
-		arg_29_0.showVO = arg_29_0.taskAgency:GetTask(arg_29_0.selectedTaskId)
+	setActive(arg_28_0.detailTF, arg_28_0.selectedTaskId)
+	setActive(arg_28_0.emptyTF, not arg_28_0.selectedTaskId)
 
-		local var_29_0 = arg_29_0.showVO:GetShowType()
-		local var_29_1 = IslandTaskType.ShowTypeFields[var_29_0]
+	arg_28_0.showVO = arg_28_0.taskAgency:GetTask(arg_28_0.selectedTaskId)
 
-		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "title_bg_" .. var_29_1, arg_29_0.titleBg)
-		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "title_icon_" .. var_29_1, arg_29_0.typeIcon)
-		setText(arg_29_0.nameTF, arg_29_0.showVO:GetName())
-		setActive(arg_29_0.timeTF, var_29_0 == IslandTaskType.SHOW_ACTIVITY)
+	if arg_28_0.selectedTaskId and arg_28_0.showVO then
+		arg_28_0.detailAnim:Play()
 
-		if var_29_0 == IslandTaskType.SHOW_ACTIVITY then
-			setText(arg_29_0.timeTF:Find("Text"), arg_29_0.showVO:GetRemainTimeStr())
+		local var_28_0 = arg_28_0.showVO:GetShowType()
+		local var_28_1 = IslandTaskType.ShowTypeFields[var_28_0]
+
+		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "title_bg_" .. var_28_1, arg_28_0.titleBg)
+		LoadImageSpriteAtlasAsync("ui/island3dtaskui_atlas", "title_icon_" .. var_28_1, arg_28_0.typeIcon)
+		setText(arg_28_0.nameTF, arg_28_0.showVO:GetName())
+		setActive(arg_28_0.timeTF, var_28_0 == IslandTaskType.SHOW_ACTIVITY)
+
+		if var_28_0 == IslandTaskType.SHOW_ACTIVITY then
+			setText(arg_28_0.timeTF:Find("Text"), arg_28_0.showVO:GetRemainTimeStr())
 		end
 
-		setText(arg_29_0.descTF, arg_29_0.showVO:GetDesc())
+		arg_28_0.richtext.text = arg_28_0.showVO:GetDesc()
 
-		arg_29_0.showTargets = arg_29_0.showVO:GetTargetList()
+		arg_28_0.richtext:RemoveAllListeners()
+		arg_28_0.richtext:AddListener(function(arg_29_0, arg_29_1)
+			if arg_29_0 == "dropDesHandle" then
+				local var_29_0, var_29_1 = string.match(arg_29_1, "{(%d+),(%d+)}")
+				local var_29_2 = Drop.New({
+					count = 0,
+					type = tonumber(var_29_0),
+					id = tonumber(var_29_1)
+				})
 
-		local var_29_2 = not arg_29_0.showVO:IsSubmitImmediately() and arg_29_0.showVO:IsFinish()
+				arg_28_0:ShowMsgBox({
+					title = i18n("island_word_desc"),
+					type = IslandMsgBox.TYPE_COMMON_DROP_DESCRIBE,
+					dropData = var_29_2
+				})
+			end
+		end)
 
-		setActive(arg_29_0.finishedTargetTF, var_29_2)
-		setActive(arg_29_0.targetContent, not var_29_2)
+		arg_28_0.showTargets = arg_28_0.showVO:GetTargetList()
 
-		if var_29_2 then
-			setText(arg_29_0.finishedTargetTF, arg_29_0.showVO:GetFinishedDesc())
-		else
-			arg_29_0.targetUIList:align(#arg_29_0.showTargets)
+		local var_28_2 = not arg_28_0.showVO:IsSubmitImmediately() and arg_28_0.showVO:IsFinish()
+
+		arg_28_0.targetUIList:align(#arg_28_0.showTargets)
+		setActive(arg_28_0.finishedTargetTF, var_28_2)
+
+		if var_28_2 then
+			setText(arg_28_0.finishedTargetTextTF, arg_28_0.showVO:GetFinishedDesc())
+			arg_28_0:UpdateLocation(arg_28_0.finishedTargetLocTF, arg_28_0.showVO)
 		end
 
-		arg_29_0.showAwards = arg_29_0.showVO:GetAwards()
+		arg_28_0.showAwards = arg_28_0.showVO:GetAwards()
 
-		arg_29_0.awardUIList:align(#arg_29_0.showAwards)
-		setActive(arg_29_0.traceBtn, arg_29_0.showVO.id ~= arg_29_0.trackTaskId)
-		onButton(arg_29_0, arg_29_0.traceBtn, function()
-			arg_29_0:emit(IslandMediator.ON_SET_TRACE_ID, arg_29_0.showVO.id)
+		arg_28_0.awardUIList:align(#arg_28_0.showAwards)
+		setActive(arg_28_0.traceBtn, arg_28_0.showVO.id ~= arg_28_0.trackTaskId)
+		onButton(arg_28_0, arg_28_0.traceBtn, function()
+			arg_28_0:emit(IslandMediator.ON_SET_TRACE_ID, arg_28_0.showVO.id)
 		end, SFX_PANEL)
-		setActive(arg_29_0.tracedBtn, arg_29_0.showVO.id == arg_29_0.trackTaskId)
-		onButton(arg_29_0, arg_29_0.tracedBtn, function()
-			arg_29_0:emit(IslandMediator.ON_SET_TRACE_ID, 0)
-		end, SFX_PANEL)
-
-		local var_29_3 = arg_29_0.showVO:IsFinish()
-
-		setActive(arg_29_0.submitBtn, var_29_3)
-		onButton(arg_29_0, arg_29_0.submitBtn, function()
-			arg_29_0.selectedTaskId = nil
-
-			arg_29_0:emit(IslandMediator.ON_SUBMIT_TASK, arg_29_0.showVO.id)
-			arg_29_0:Hide()
+		setActive(arg_28_0.tracedBtn, arg_28_0.showVO.id == arg_28_0.trackTaskId)
+		onButton(arg_28_0, arg_28_0.tracedBtn, function()
+			arg_28_0:emit(IslandMediator.ON_SET_TRACE_ID, 0)
 		end, SFX_PANEL)
 	end
 end
 
-function var_0_0.OnShow(arg_33_0, arg_33_1)
-	if arg_33_1 and arg_33_1 ~= 0 then
-		triggerToggle(arg_33_0.toggleUIList.container:GetChild(0), true)
+function var_0_0.OnShow(arg_32_0, arg_32_1, arg_32_2)
+	arg_32_0.isOpen = true
+	arg_32_0.toggleList = arg_32_0:GetShowTypeList()
 
-		local var_33_0 = IslandTaskType.Type2ShowType[pg.island_task[arg_33_1].type]
+	table.insert(arg_32_0.toggleList, 1, IslandTaskType.SHOW_ALL)
+	arg_32_0.toggleUIList:align(#arg_32_0.toggleList)
+	arg_32_0:Flush()
 
-		triggerToggle(arg_33_0.typeUIList.container:Find(var_33_0 .. "/list/" .. arg_33_1), true)
-	else
-		arg_33_0:Flush()
+	local var_32_0 = false
+
+	if arg_32_1 and arg_32_0.toggleUIList.container:Find(arg_32_1) then
+		triggerToggle(arg_32_0.toggleUIList.container:Find(arg_32_1), true)
+
+		var_32_0 = true
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_33_0._tf)
+	if getProxy(IslandProxy):GetIsland():GetTaskAgency():GetTask(arg_32_2 or 0) then
+		if not var_32_0 then
+			triggerToggle(arg_32_0.toggleUIList.container:GetChild(0), true)
+		end
+
+		local var_32_1 = IslandTaskType.Type2ShowType[pg.island_task[arg_32_2].type]
+
+		triggerToggle(arg_32_0.typeUIList.container:Find(var_32_1 .. "/list/" .. arg_32_2), true)
+	end
+
+	pg.UIMgr.GetInstance():BlurPanel(arg_32_0._tf)
 end
 
-function var_0_0.OnHide(arg_34_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_34_0._tf)
+function var_0_0.GetShowTypeList(arg_33_0)
+	local var_33_0 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+	local var_33_1 = underscore.select(underscore.keys(IslandTaskType.ShowTypeUnlockId), function(arg_34_0)
+		return var_33_0:HasAbility(IslandTaskType.ShowTypeUnlockId[arg_34_0])
+	end)
+
+	table.sort(var_33_1)
+
+	return var_33_1
+end
+
+function var_0_0.OnHide(arg_35_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0._tf)
+end
+
+function var_0_0.OnDisable(arg_36_0)
+	arg_36_0:OnHide()
+end
+
+function var_0_0.OnDestroy(arg_37_0)
+	arg_37_0.richtext:RemoveAllListeners()
+	arg_37_0:OnHide()
 end
 
 return var_0_0

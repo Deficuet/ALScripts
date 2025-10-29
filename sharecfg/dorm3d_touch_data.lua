@@ -626,6 +626,30 @@ pg.dorm3d_touch_data = {
 			300510
 		}
 	},
+	[1990360] = {
+		default_favor = 1001,
+		id = 1990360,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			300610
+		}
+	},
 	[1990390] = {
 		default_favor = 1001,
 		id = 1990390,
@@ -746,6 +770,54 @@ pg.dorm3d_touch_data = {
 			400410
 		}
 	},
+	[1051750] = {
+		default_favor = 1001,
+		id = 1051750,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400710
+		}
+	},
+	[1051760] = {
+		default_favor = 1001,
+		id = 1051760,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			400510
+		}
+	},
 	[1051790] = {
 		default_favor = 1001,
 		id = 1051790,
@@ -794,6 +866,150 @@ pg.dorm3d_touch_data = {
 			410910
 		}
 	},
+	[3070710] = {
+		default_favor = 1001,
+		id = 3070710,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			500110
+		}
+	},
+	[3070720] = {
+		default_favor = 1001,
+		id = 3070720,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			500210
+		}
+	},
+	[3070730] = {
+		default_favor = 1001,
+		id = 3070730,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			500310
+		}
+	},
+	[3070740] = {
+		default_favor = 1001,
+		id = 3070740,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			500410
+		}
+	},
+	[3070750] = {
+		default_favor = 1001,
+		id = 3070750,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			500510
+		}
+	},
+	[3070790] = {
+		default_favor = 1001,
+		id = 3070790,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		finish_action = "Idle",
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			510910
+		}
+	},
 	all = {
 		101,
 		102,
@@ -821,12 +1037,21 @@ pg.dorm3d_touch_data = {
 		1990330,
 		1990340,
 		1990350,
+		1990360,
 		1990390,
 		1051710,
 		1051720,
 		1051730,
 		1051740,
+		1051750,
+		1051760,
 		1051790,
-		1051799
+		1051799,
+		3070710,
+		3070720,
+		3070730,
+		3070740,
+		3070750,
+		3070790
 	}
 }

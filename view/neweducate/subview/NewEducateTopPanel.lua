@@ -91,12 +91,10 @@ function var_0_0.OnInit(arg_3_0)
 		NewEducateHelper.TrackExitTime()
 		arg_3_0:emit(NewEducateBaseUI.ON_HOME)
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_3_0._tf, {
+	arg_3_0:OverlayPanel(arg_3_0._tf, {
 		pbList = {
 			arg_3_0.resTF
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER
+		}
 	})
 	arg_3_0:Flush()
 end
@@ -196,7 +194,7 @@ function var_0_0.PlayHide(arg_20_0)
 end
 
 function var_0_0.OnDestroy(arg_21_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf)
+	arg_21_0:UnOverlayPanel(arg_21_0._tf)
 end
 
 function var_0_0.GetMoodColor(arg_22_0, arg_22_1)

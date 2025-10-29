@@ -97,7 +97,7 @@ function var_0_0.onBackPressed(arg_11_0)
 end
 
 function var_0_0.willExit(arg_12_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_12_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf)
 
 	if arg_12_0.retPaintings and #arg_12_0.retPaintings > 0 then
 		for iter_12_0, iter_12_1 in ipairs(arg_12_0.retPaintings) do

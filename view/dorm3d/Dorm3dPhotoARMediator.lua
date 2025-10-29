@@ -40,6 +40,7 @@ function var_0_0.register(arg_1_0)
 	end)
 	arg_1_0.viewComponent:SetRoom(arg_1_0.contextData.roomId)
 	arg_1_0.viewComponent:SetGroupId(arg_1_0.contextData.groupId)
+	arg_1_0.viewComponent:SetARLite(arg_1_0.contextData.arCheckState)
 end
 
 function var_0_0.listNotificationInterests(arg_7_0)

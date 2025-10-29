@@ -14,12 +14,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
 	arg_2_0.drops = arg_2_0.contextData.items or {}
-	arg_2_0.awardWindow = arg_2_0:findTF("award_window")
+	arg_2_0.awardWindow = arg_2_0._tf:Find("award_window")
 	arg_2_0.anim = arg_2_0.awardWindow:GetComponent(typeof(Animation))
 	arg_2_0.animEvent = arg_2_0.awardWindow:GetComponent(typeof(DftAniEvent))
 
@@ -36,25 +34,25 @@ function var_0_0.init(arg_2_0)
 		end
 	end)
 
-	arg_2_0.tipTF = arg_2_0:findTF("tip", arg_2_0.awardWindow)
+	arg_2_0.tipTF = arg_2_0.awardWindow:Find("tip")
 
 	setText(arg_2_0.tipTF, i18n("child_close_tip"))
 
-	arg_2_0.itemContent = arg_2_0:findTF("content/items", arg_2_0.awardWindow)
-	arg_2_0.itemContainer = arg_2_0:findTF("items_scroll/content", arg_2_0.itemContent)
-	arg_2_0.itemTpl = arg_2_0:findTF("item_tpl", arg_2_0.awardWindow)
+	arg_2_0.itemContent = arg_2_0.awardWindow:Find("content/items")
+	arg_2_0.itemContainer = arg_2_0.itemContent:Find("items_scroll/content")
+	arg_2_0.itemTpl = arg_2_0.awardWindow:Find("item_tpl")
 
 	setActive(arg_2_0.itemTpl, false)
 
-	arg_2_0.attrContent = arg_2_0:findTF("content/attrs", arg_2_0.awardWindow)
-	arg_2_0.attrContainer = arg_2_0:findTF("attrs_scroll/content", arg_2_0.attrContent)
-	arg_2_0.attrTpl = arg_2_0:findTF("attr_tpl", arg_2_0.awardWindow)
+	arg_2_0.attrContent = arg_2_0.awardWindow:Find("content/attrs")
+	arg_2_0.attrContainer = arg_2_0.attrContent:Find("attrs_scroll/content")
+	arg_2_0.attrTpl = arg_2_0.awardWindow:Find("attr_tpl")
 
 	setActive(arg_2_0.attrTpl, false)
 
-	arg_2_0.polaroidWindow = arg_2_0:findTF("polaroid_window")
-	arg_2_0.polaroidIconTF = arg_2_0:findTF("content/mask/icon", arg_2_0.polaroidWindow)
-	arg_2_0.polaroidDescTF = arg_2_0:findTF("content/desc", arg_2_0.polaroidWindow)
+	arg_2_0.polaroidWindow = arg_2_0._tf:Find("polaroid_window")
+	arg_2_0.polaroidIconTF = arg_2_0.polaroidWindow:Find("content/mask/icon")
+	arg_2_0.polaroidDescTF = arg_2_0.polaroidWindow:Find("content/desc")
 
 	setActive(arg_2_0.awardWindow, false)
 	setActive(arg_2_0.polaroidWindow, false)
@@ -62,7 +60,7 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_4_0)
-	onButton(arg_4_0, arg_4_0:findTF("close", arg_4_0.awardWindow), function()
+	onButton(arg_4_0, arg_4_0.awardWindow:Find("close"), function()
 		arg_4_0:_close()
 	end, SFX_CANCEL)
 	onButton(arg_4_0, arg_4_0.polaroidWindow, function()
@@ -239,7 +237,7 @@ function var_0_0.onBackPressed(arg_25_0)
 end
 
 function var_0_0.willExit(arg_26_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_26_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_26_0._tf)
 
 	if arg_26_0.contextData.removeFunc then
 		arg_26_0.contextData.removeFunc()

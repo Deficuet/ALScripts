@@ -87,6 +87,8 @@ function var_0_0.init(arg_6_0)
 
 	arg_6_0.rtName = arg_6_0._tf:Find("select/name_bg")
 	arg_6_0.rtPaint = arg_6_0._tf:Find("main/paint")
+
+	arg_6_0:OverlayPanel(arg_6_0._tf)
 end
 
 function var_0_0.setSelectedShip(arg_13_0, arg_13_1)
@@ -127,6 +129,8 @@ function var_0_0.willExit(arg_17_0)
 	if arg_17_0.shipVO then
 		retPaintingPrefab(arg_17_0.rtPaint, arg_17_0.shipVO:getPainting())
 	end
+
+	arg_17_0:UnOverlayPanel(arg_17_0._tf)
 end
 
 return var_0_0

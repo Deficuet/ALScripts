@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "『死の荒野。吹き荒れる砂に支配されている場所。こんな場所で死ぬんじゃないぞ！ケッケッケッ……』",
-			bgm = "yumia-28",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

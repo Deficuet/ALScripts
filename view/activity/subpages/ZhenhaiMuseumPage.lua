@@ -118,7 +118,7 @@ function var_0_0.UpdateTask(arg_10_0, arg_10_1, arg_10_2)
 	local var_10_0 = arg_10_1 + 1
 	local var_10_1 = arg_10_0.taskGroup[arg_10_0.nday][var_10_0]
 	local var_10_2 = arg_10_0.taskProxy:getTaskById(var_10_1) or arg_10_0.taskProxy:getFinishTaskById(var_10_1)
-	local var_10_3 = arg_10_0:findTF("get_btn", arg_10_2)
+	local var_10_3 = arg_10_2:Find("get_btn")
 
 	onButton(arg_10_0, var_10_3, function()
 		if arg_10_0.nday <= var_0_1 then
@@ -134,13 +134,13 @@ function var_0_0.UpdateTask(arg_10_0, arg_10_1, arg_10_2)
 		end
 	end, SFX_PANEL)
 
-	local var_10_4 = arg_10_0:findTF("got_btn", arg_10_2)
+	local var_10_4 = arg_10_2:Find("got_btn")
 
 	onButton(arg_10_0, var_10_4, function()
 		arg_10_0:displayWindow(true)
 	end, SFX_PANEL)
 
-	local var_10_5 = arg_10_0:findTF("review_btn", arg_10_0.bg)
+	local var_10_5 = arg_10_0.bg:Find("review_btn")
 
 	onButton(arg_10_0, var_10_5, function()
 		arg_10_0:displayWindow(true)
@@ -203,7 +203,9 @@ function var_0_0.displayWindow(arg_19_0, arg_19_1)
 	if arg_19_1 then
 		setActive(arg_19_0.skinTf, true)
 		arg_19_0.skinTf:GetComponent(typeof(Animation)):Play("anim_zhenhaimuseum_in")
-		pg.UIMgr.GetInstance():BlurPanel(arg_19_0.skinTf, true)
+		pg.UIMgr.GetInstance():BlurPanel(arg_19_0.skinTf, {
+			staticBlur = true
+		})
 
 		local var_19_0 = arg_19_0.taskGroup[arg_19_0.nday][1]
 		local var_19_1 = (arg_19_0.taskProxy:getTaskById(var_19_0) or arg_19_0.taskProxy:getFinishTaskById(var_19_0)):getTaskStatus()
@@ -226,7 +228,7 @@ function var_0_0.displayWindow(arg_19_0, arg_19_1)
 			findTF(arg_19_0.skinTf, "skins/skin" .. arg_19_0.skinIndex):GetComponent(typeof(Animation)):Play("anim_zhenhaimuseum_skin_right")
 		end
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(arg_19_0.skinTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0.skinTf)
 		arg_19_0.skinTf:GetComponent(typeof(Animation)):Play("anim_zhenhaimuseum_out")
 		arg_19_0:StartTimer(function()
 			setActive(arg_19_0.skinTf, false)

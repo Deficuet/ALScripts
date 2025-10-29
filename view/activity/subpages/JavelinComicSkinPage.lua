@@ -10,7 +10,7 @@ end
 
 function var_0_0.InitView(arg_2_0)
 	arg_2_0.animations = {}
-	arg_2_0.puzzle = arg_2_0:findTF("Puzzle", arg_2_0.bg)
+	arg_2_0.puzzle = arg_2_0.bg:Find("Puzzle")
 	arg_2_0.linkActId = arg_2_0:GetLinkId()
 	arg_2_0.activityProxy = getProxy(ActivityProxy)
 	arg_2_0.chargeIDList = Clone(arg_2_0.activityProxy:getActivityById(arg_2_0.linkActId).data1_list)
@@ -20,14 +20,13 @@ function var_0_0.InitView(arg_2_0)
 end
 
 function var_0_0.RegisterEvent(arg_3_0)
-	arg_3_0.helpBtn = arg_3_0:findTF("HelpBtn", arg_3_0.bg)
+	arg_3_0.helpBtn = arg_3_0.bg:Find("HelpBtn")
 
 	onButton(arg_3_0, arg_3_0.helpBtn, function()
 		if pg.gametip.comic_help then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.comic_help.tip,
-				weight = LayerWeightConst.TOP_LAYER
+				helps = pg.gametip.comic_help.tip
 			})
 		end
 	end, SFX_PANEL)

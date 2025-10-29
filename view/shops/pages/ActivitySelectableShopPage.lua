@@ -1,6 +1,6 @@
 local var_0_0 = class("ActivitySelectableShopPage", import(".ActivityShopPage"))
 
-function var_0_0.OnInit(arg_1_0)
+function var_0_0.CustomInit(arg_1_0)
 	arg_1_0.purchaseWindow = ActivityShopPurchasePanel.New(arg_1_0._tf, arg_1_0.event)
 
 	arg_1_0:SetPurchaseConfirmCb()
@@ -21,9 +21,7 @@ end
 function var_0_0.OnInitItem(arg_4_0, arg_4_1)
 	local var_4_0 = ActivityGoodsCard.New(arg_4_1)
 
-	var_4_0.tagImg.raycastTarget = false
-
-	onButton(arg_4_0, var_4_0.tr, function()
+	onButton(arg_4_0, var_4_0.tf, function()
 		if var_4_0.goodsVO:Selectable() then
 			arg_4_0.purchaseWindow:ExecuteAction("Show", {
 				icon = "props/21000",

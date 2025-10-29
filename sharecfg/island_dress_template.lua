@@ -1,93 +1,1475 @@
 pg = pg or {}
 pg.island_dress_template = {
-	[20001] = {
-		name = "翅膀（测试）",
-		quality = 1,
-		model = "island/item/charactercustom/wing/devil/prefab/pre_testwing",
+	[1010001] = {
+		quality = 4,
+		related_dress = 0,
+		name = "波破り",
+		type = 1,
+		exclusive_default_skin = "",
+		remove = 1,
+		attachmentPoint = "Bip001 Spine1",
+		desc = "流線型のシルエットと防水素材を持ち、いつでも波をかき分けてくれそう。",
+		belongto = 1,
+		sub_type = 0,
+		model = "island/item/03/30013/prefab/pre_item_03_30013",
+		tech_id = 0,
+		id = 1010001,
+		icon = "dress_1010001",
+		exclusive_skin = "",
+		face_clip = "",
+		offset = {
+			0.038,
+			-0.431,
+			-0.044
+		},
+		rotation = {
+			155.189,
+			-22.189,
+			66.548
+		},
+		scale = {
+			0.8
+		},
+		jump_page = {}
+	},
+	[1010002] = {
+		quality = 4,
+		related_dress = 0,
+		name = "メガポテチ",
+		type = 1,
+		exclusive_default_skin = "",
+		remove = 1,
+		attachmentPoint = "Bip001 Spine1",
+		desc = "メガサイズのポテチ。いつでもサクサクと美味しい一掴み！",
+		belongto = 1,
+		sub_type = 0,
+		model = "island/item/03/30023/prefab/pre_item_03_30023",
+		tech_id = 0,
+		id = 1010002,
+		icon = "dress_1010002",
+		exclusive_skin = "",
+		face_clip = "",
+		offset = {
+			0.345,
+			-0.39,
+			0.017
+		},
+		rotation = {
+			-85.482,
+			57.735,
+			32.09
+		},
+		scale = {
+			1.8
+		},
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1010003] = {
+		name = "精霊の旅荷物",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		desc = "葉脈の間に流れるかすかな光。軽やかで快適で、まるで自然の精霊が寄り添っているかのよう。",
+		sub_type = 0,
+		model = "island/item/03/30033/prefab/pre_item_03_30033",
+		icon = "dress_1010003",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1010003,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.01,
+			-0.466,
+			0.034
+		},
+		rotation = {
+			77.707,
+			-77.981,
+			10.403
+		},
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1010004] = {
+		quality = 4,
+		related_dress = 0,
+		name = "やんちゃ消しゴム",
+		type = 1,
+		exclusive_default_skin = "",
+		remove = 1,
+		attachmentPoint = "Bip001 Spine1",
+		desc = "いつも転がって逃げたがる四角い消しゴム。ぷりぷり怒りながらも、ロープでしっかりあなたの背中に繋がれている。",
+		belongto = 1,
+		sub_type = 0,
+		model = "island/item/03/30053/prefab/pre_item_03_30053",
+		tech_id = 0,
+		id = 1010004,
+		icon = "dress_1010004",
+		exclusive_skin = "",
+		face_clip = "",
+		offset = {
+			0.096,
+			-0.378,
+			-0.007
+		},
+		rotation = {
+			-80.871,
+			30.036,
+			3.732
+		},
+		scale = {
+			0.9
+		},
+		jump_page = {}
+	},
+	[1010005] = {
+		name = "浮き相棒",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		desc = "海と同じ色の浮き輪が元気よく上下に弾んで、海に飛び込むよう急かしてくる。",
+		sub_type = 0,
+		model = "island/item/03/30063/prefab/pre_item_03_30063",
+		icon = "dress_1010005",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1010005,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.105,
+			-0.401,
+			-0.023
+		},
+		rotation = {
+			85,
+			-74,
+			97
+		},
+		jump_page = {}
+	},
+	[1010006] = {
+		name = "居眠り抱き枕",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		desc = "ふわふわ柔らかい枕が動きに合わせて軽く揺れて、いつでも寝られそう。",
+		sub_type = 0,
+		model = "island/item/03/30043/prefab/pre_item_03_30043",
+		icon = "dress_1010006",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1010006,
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.198,
+			-0.419,
+			-0.1087
+		},
+		rotation = {
+			11.481,
+			165.721,
+			-89.502
+		},
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1020001] = {
+		name = "艦船ビット",
+		related_dress = 0,
+		exclusive_default_skin = "",
 		type = 2,
-		id = 20001,
-		icon = "",
-		attachmentPoint = "Bip001 Neck",
+		attachmentPoint = "",
+		remove = 1,
+		desc = "漂い波に揺られ、まるで自分で動いているような艤装。これは……艦船ビット！",
+		sub_type = 0,
+		model = "island/item/03/30011/prefab/pre_item_03_30011",
+		icon = "dress_1020001",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020001,
+		scale = "",
+		face_clip = "",
 		offset = {
-			0.12,
-			-0.34,
+			-0.826,
+			1.436,
+			-0.167
+		},
+		rotation = {
+			0,
+			-123.364,
 			0
+		},
+		jump_page = {
+			{
+				"开发商店",
+				{}
+			}
 		}
 	},
-	[30001] = {
-		name = "红气球",
-		quality = 1,
-		model = "island/item/charactercustom/balloon/prefab/pre_balloon01_red",
+	[1020002] = {
+		name = "カップラーメン",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "湯気が立つカップラーメン。休日のゆったりした気分が漂っている。",
+		sub_type = 0,
+		model = "island/item/03/30021/prefab/pre_item_03_30021",
+		icon = "dress_1020002",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020002,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.689,
+			1.434,
+			-0.114
+		},
+		rotation = {
+			0,
+			-98.8,
+			0
+		},
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1020003] = {
+		name = "翠蓮浮影",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "まだらな緑陰を落とす青々とした蓮の葉。常にちょうど良い高さに浮遊している。",
+		sub_type = 0,
+		model = "island/item/03/30031/prefab/pre_item_03_30031",
+		icon = "dress_1020003",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020003,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.349,
+			1.318,
+			-0.473
+		},
+		rotation = {
+			0,
+			12.177,
+			0
+		},
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1020004] = {
+		name = "放浪する鉛筆",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "短くて太い鉛筆が空中でゆっくりとあなたの周りで揺れ、時々線を引くふりをするも実はサボっている。",
+		sub_type = 0,
+		model = "island/item/03/30051/prefab/pre_item_03_30051",
+		icon = "dress_1020004",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020004,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.708,
+			1.347,
+			-0.158
+		},
+		rotation = {
+			-0.585,
+			-0.013,
+			2.632
+		},
+		jump_page = {}
+	},
+	[1020005] = {
+		name = "ステルスお供",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "半透明のお供は移動リズムに合わせて浮遊姿勢を変え、時々好奇心旺盛にあなたに触れてくる。",
+		sub_type = 0,
+		model = "island/item/03/30061/prefab/pre_item_03_30061",
+		icon = "dress_1020005",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020005,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.706,
+			1.347,
+			-0.203
+		},
+		rotation = {
+			0,
+			-7.428,
+			0
+		},
+		jump_page = {}
+	},
+	[1020006] = {
+		name = "お眠り漫符",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		desc = "ぼんやりとした意識を表わすかのようなアイコンがゆっくりと漂い、眠りへと誘う。",
+		sub_type = 0,
+		model = "island/item/03/30041/prefab/pre_item_03_30041",
+		icon = "dress_1020006",
+		quality = 4,
+		belongto = 1,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1020006,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.501,
+			1.602,
+			-0.037
+		},
+		rotation = {
+			0,
+			0,
+			0
+		},
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1030001] = {
+		name = "波歩き",
+		related_dress = 0,
+		exclusive_default_skin = "",
 		type = 3,
-		id = 30001,
-		icon = "",
-		attachmentPoint = "Following",
-		offset = {
-			-0.6,
-			-0.08,
-			0
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "一歩歩く毎にキラキラした水しぶきが上がり、まるで海沿いを散歩するように清々しく軽やか。",
+		sub_type = 0,
+		model = "island/item/03/30012/prefab/pre_item_03_30012",
+		icon = "dress_1030001",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030001,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1030002] = {
+		name = "タレステップ",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "一歩歩く度にタレが跳ねる。つまり一歩歩く毎に香りが…？",
+		sub_type = 0,
+		model = "island/item/03/30022/prefab/pre_item_03_30022",
+		icon = "dress_1030002",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030002,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
 		}
 	},
-	[50001] = {
-		name = "星星脚印",
-		quality = 2,
-		model = "island/effect/prefab/jiaoyin/vfx_jiaoying_xingxing01",
-		type = 5,
-		id = 50001,
-		icon = "vfx_jiaoying_xingxing01",
+	[1030003] = {
+		name = "コケの足跡",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "一歩歩く毎に湿った足跡を残す。朝露がまだ消えない森の小道を歩いているかのごとく。",
+		sub_type = 0,
+		model = "island/item/03/30032/prefab/pre_item_03_30032",
+		icon = "dress_1030003",
+		quality = 4,
+		belongto = 1,
 		offset = "",
-		attachmentPoint = "FootPrint"
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030003,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
 	},
-	[50002] = {
-		name = "猫爪脚印",
-		quality = 2,
-		model = "island/effect/prefab/jiaoyin/vfx_jiaoying_maozhua01",
-		type = 5,
-		id = 50002,
-		icon = "vfx_jiaoying_maozhua01",
+	[1030004] = {
+		name = "音符ニャンニャン",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "カラフル鉛筆が描く音符の肉球。ピョンピョンと跳ねて楽しい楽譜に",
+		sub_type = 0,
+		model = "island/item/03/30052/prefab/pre_item_03_30052",
+		icon = "dress_1030004",
+		quality = 4,
+		belongto = 1,
 		offset = "",
-		attachmentPoint = "FootPrint"
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030004,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
 	},
-	[50003] = {
-		name = "小鸡脚印",
-		quality = 1,
-		model = "island/effect/prefab/jiaoyin/vfx_jiaoying_jijiao01",
-		type = 5,
-		id = 50003,
-		icon = "vfx_jiaoying_jijiao01",
+	[1030005] = {
+		name = "氷の足跡",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "波が凝集しキラキラした雪の華になる。歩く度に、潮風に輝く氷晶を残していく",
+		sub_type = 0,
+		model = "island/item/03/30062/prefab/pre_item_03_30062",
+		icon = "dress_1030005",
+		quality = 4,
+		belongto = 1,
 		offset = "",
-		attachmentPoint = "FootPrint"
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030005,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
 	},
-	[50004] = {
-		name = "蜂窝脚印",
-		quality = 1,
-		model = "island/effect/prefab/jiaoyin/vfx_jiaoying_fengwo01",
-		type = 5,
-		id = 50004,
-		icon = "vfx_jiaoying_fengwo01",
+	[1030006] = {
+		name = "星々の歩み",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "あくびとともに丸っこい星々が輝く。まるで星空の中を歩いているように",
+		sub_type = 0,
+		model = "island/item/03/30042/prefab/pre_item_03_30042",
+		icon = "dress_1030006",
+		quality = 4,
+		belongto = 1,
 		offset = "",
-		attachmentPoint = "FootPrint"
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1030006,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1040001] = {
+		name = "クール",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 4,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_02_hair_component_desc",
+		icon = "dress_1040001",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1040001,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1040002] = {
+		name = "爽やか",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 4,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_01_hair_component_desc",
+		icon = "dress_1040002",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1040002,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1040003] = {
+		name = "大人しい",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 4,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_00_hair_component_desc",
+		icon = "dress_1040003",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1040003,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1050001] = {
+		name = "上の空",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 5,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_02_face_component_desc",
+		icon = "dress_1050001",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1050001,
+		scale = "",
+		face_clip = "face_3",
+		jump_page = {}
+	},
+	[1050002] = {
+		name = "歯ぎしり",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 5,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_01_face_component_desc",
+		icon = "dress_1050002",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1050002,
+		scale = "",
+		face_clip = "face_2",
+		jump_page = {}
+	},
+	[1050003] = {
+		name = "猫笑い",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 5,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_00_face_component_desc",
+		icon = "dress_1050003",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1050003,
+		scale = "",
+		face_clip = "face_1",
+		jump_page = {}
+	},
+	[1050004] = {
+		name = "優しめ",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 5,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_02_face_component_desc",
+		icon = "dress_1050004",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1050004,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1050005] = {
+		name = "鋭い",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 5,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_01_face_component_desc",
+		icon = "dress_1050005",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1050005,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1050006] = {
+		name = "冷静",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 5,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_00_face_component_desc",
+		icon = "dress_1050006",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1050006,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1060001] = {
+		name = "制服",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_00_body_component_desc",
+		icon = "dress_1060001",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060001,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1060002] = {
+		name = "礼装",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_02_body_component_desc",
+		icon = "dress_1060002",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060002,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1060003] = {
+		name = "ぐっすりタイム",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "快適で肌に優しい日常パジャマ。睡眠がより快適でのびのび。",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_03_body_component_desc",
+		icon = "dress_1060003",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060003,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1060004] = {
+		name = "饅頭着ぐるみ",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "可愛いらしい饅頭モチーフの着ぐるみ。もふもふデザインで思わず抱きしめたくなる。",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_07_body_component_desc",
+		icon = "dress_1060004",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060004,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1060005] = {
+		name = "極地紳士スーツ",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "オーソドックスなペンギンスーツ。白黒のツートンで外見の再現もバッチリ。",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_09_body_component_desc",
+		icon = "dress_1060005",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060005,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1060006] = {
+		name = "ラインアート",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 6,
+		attachmentPoint = "",
+		remove = 0,
+		rotation = "",
+		desc = "ラインアートマンに変身できる全身スーツ。移動時に黒い軌跡エフェクトも付く。",
+		sub_type = 0,
+		model = "island/character/9001/prefab/9001_04_body_component_desc",
+		icon = "dress_1060006",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1060006,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
+	},
+	[1070001] = {
+		name = "制服帽子",
+		related_dress = 1060001,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "常服帽",
+		sub_type = 1,
+		model = "island/character/9001/prefab/9001_00_headware_component_desc",
+		icon = "dress_1060001",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070001,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1070002] = {
+		name = "礼装帽子",
+		related_dress = 1060002,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "礼服帽",
+		sub_type = 1,
+		model = "island/character/9001/prefab/9001_02_headware_component_desc",
+		icon = "dress_1060002",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070002,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[1070003] = {
+		name = "ぐっすりタイム帽子",
+		related_dress = 1060003,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "软眠时光帽",
+		sub_type = 1,
+		model = "island/character/9001/prefab/9001_03_headware_component_desc",
+		icon = "dress_1060003",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070003,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1070004] = {
+		name = "饅頭着ぐるみ帽子",
+		related_dress = 1060004,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "啾啾造型帽",
+		sub_type = 2,
+		model = "island/character/9001/prefab/9001_07_headware_component_desc",
+		icon = "dress_1060004",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070004,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1070005] = {
+		name = "極地紳士帽子",
+		related_dress = 1060005,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "极地绅士帽",
+		sub_type = 2,
+		model = "island/character/9001/prefab/9001_09_headware_component_desc",
+		icon = "dress_1060005",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070005,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"星彩赏",
+				{}
+			}
+		}
+	},
+	[1070006] = {
+		name = "ラインアート帽子",
+		related_dress = 1060006,
+		exclusive_default_skin = "",
+		type = 7,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "线条人帽",
+		sub_type = 2,
+		model = "island/character/9001/prefab/9001_04_headware_component_desc",
+		icon = "dress_1060006",
+		quality = 4,
+		belongto = 1,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 1070006,
+		scale = "",
+		face_clip = "",
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
+	},
+	[2010001] = {
+		quality = 4,
+		related_dress = 0,
+		name = "ロケットパック",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		belongto = 2,
+		desc = "表面にシンプルな機械模様の装飾がついている、小型ロケットそっくりのバックパック。ロケットを背負って全速前進だ！",
+		tech_id = 0,
+		sub_type = 0,
+		model = "island/item/03/39001/prefab/pre_item_03_39001",
+		id = 2010001,
+		icon = "dress_2010001",
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.327,
+			-0.426,
+			0.085
+		},
+		rotation = {
+			83.502,
+			-78.045,
+			16.628
+		},
+		exclusive_default_skin = {
+			30407
+		},
+		exclusive_skin = {
+			3040701
+		},
+		jump_page = {}
+	},
+	[2010002] = {
+		quality = 4,
+		related_dress = 0,
+		name = "学園リュック",
+		type = 1,
+		attachmentPoint = "Bip001 Spine1",
+		remove = 1,
+		belongto = 2,
+		desc = "標準スタイルの学園リュック。四角い外見を持ち、仕切りが実用的で飛び跳ねても中身が乱れない。",
+		tech_id = 0,
+		sub_type = 0,
+		model = "island/item/03/39002/prefab/pre_item_03_39002",
+		id = 2010002,
+		icon = "dress_2010002",
+		scale = "",
+		face_clip = "",
+		offset = {
+			0.1432184,
+			-0.2915059,
+			0.08120438
+		},
+		rotation = {
+			82.152,
+			-71.701,
+			21.465
+		},
+		exclusive_default_skin = {
+			30407
+		},
+		exclusive_skin = {
+			3040701
+		},
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
+	},
+	[2020001] = {
+		name = "ワタアメ雲",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "ふわふわの雲がゆっくりと空を漂い、そよ風でゆっくりと形を変えている。",
+		sub_type = 0,
+		model = "island/item/03/37001/prefab/pre_item_03_37001",
+		icon = "dress_2020001",
+		quality = 4,
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2020001,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.784,
+			1.457,
+			-0.046
+		},
+		jump_page = {}
+	},
+	[2020002] = {
+		name = "そよ風バルーン",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "風向きに合わせて軽やかに舞うミニバルーン。紺碧の空に楽しい軌跡を残している。",
+		sub_type = 0,
+		model = "island/item/03/37002/prefab/pre_item_03_37002",
+		icon = "dress_2020002",
+		quality = 4,
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2020002,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.73,
+			1.65,
+			-0.307
+		},
+		jump_page = {
+			{
+				"图鉴",
+				{}
+			}
+		}
+	},
+	[2020003] = {
+		name = "月華の貝飾",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 2,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "温かな光華を流れる貝殻が、空気中で優雅な弧を描き、細かな光の粒を反射している。",
+		sub_type = 0,
+		model = "island/item/03/37004/prefab/pre_item_03_37004",
+		icon = "dress_2020003",
+		quality = 4,
+		belongto = 2,
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2020003,
+		scale = "",
+		face_clip = "",
+		offset = {
+			-0.742,
+			1.383,
+			-0.043
+		},
+		jump_page = {}
+	},
+	[2030001] = {
+		name = "肉球の波紋",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "肉球の足跡が波紋となり、まるで子猫が雲の上で歩いているよう",
+		sub_type = 0,
+		model = "island/item/03/38001/prefab/pre_item_03_38001",
+		icon = "dress_2030001",
+		quality = 4,
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2030001,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[2030002] = {
+		name = "饅頭ステップ",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "子供っぽく感じさせる鳥の足跡",
+		sub_type = 0,
+		model = "island/item/03/38002/prefab/pre_item_03_38002",
+		icon = "dress_2030002",
+		quality = 4,
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2030002,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[2030003] = {
+		name = "ミツバチルート",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "金色に輝く蜂の巣。滴る蜜はミツバチたちの飛び舞う痕跡",
+		sub_type = 0,
+		model = "island/item/03/38003/prefab/pre_item_03_38003",
+		icon = "dress_2030003",
+		quality = 4,
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2030003,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
+	},
+	[2030004] = {
+		name = "舞桜見物",
+		related_dress = 0,
+		exclusive_default_skin = "",
+		type = 3,
+		attachmentPoint = "",
+		remove = 1,
+		rotation = "",
+		desc = "風に舞う桜の花びら。咲き誇る春の雨",
+		sub_type = 0,
+		model = "island/item/03/38004/prefab/pre_item_03_38004",
+		icon = "dress_2030004",
+		quality = 4,
+		belongto = 2,
+		offset = "",
+		tech_id = 0,
+		exclusive_skin = "",
+		id = 2030004,
+		scale = "",
+		face_clip = "",
+		jump_page = {}
 	},
 	get_id_list_by_type = {
-		[2] = {
-			20001
+		{
+			1010001,
+			1010002,
+			1010003,
+			1010004,
+			1010005,
+			1010006,
+			2010001,
+			2010002
 		},
-		[3] = {
-			30001
+		{
+			1020001,
+			1020002,
+			1020003,
+			1020004,
+			1020005,
+			1020006,
+			2020001,
+			2020002,
+			2020003
 		},
-		[5] = {
-			50001,
-			50002,
-			50003,
-			50004
+		{
+			1030001,
+			1030002,
+			1030003,
+			1030004,
+			1030005,
+			1030006,
+			2030001,
+			2030002,
+			2030003,
+			2030004
+		},
+		{
+			1040001,
+			1040002,
+			1040003
+		},
+		{
+			1050001,
+			1050002,
+			1050003,
+			1050004,
+			1050005,
+			1050006
+		},
+		{
+			1060001,
+			1060002,
+			1060003,
+			1060004,
+			1060005,
+			1060006
+		},
+		{
+			1070001,
+			1070002,
+			1070003,
+			1070004,
+			1070005,
+			1070006
+		}
+	},
+	get_id_list_by_related_dress = {
+		[0] = {
+			1010001,
+			1010002,
+			1010003,
+			1010004,
+			1010005,
+			1010006,
+			1020001,
+			1020002,
+			1020003,
+			1020004,
+			1020005,
+			1020006,
+			1030001,
+			1030002,
+			1030003,
+			1030004,
+			1030005,
+			1030006,
+			1040001,
+			1040002,
+			1040003,
+			1050001,
+			1050002,
+			1050003,
+			1050004,
+			1050005,
+			1050006,
+			1060001,
+			1060002,
+			1060003,
+			1060004,
+			1060005,
+			1060006,
+			2010001,
+			2010002,
+			2020001,
+			2020002,
+			2020003,
+			2030001,
+			2030002,
+			2030003,
+			2030004
+		},
+		[1060001] = {
+			1070001
+		},
+		[1060002] = {
+			1070002
+		},
+		[1060003] = {
+			1070003
+		},
+		[1060004] = {
+			1070004
+		},
+		[1060005] = {
+			1070005
+		},
+		[1060006] = {
+			1070006
 		}
 	},
 	all = {
-		20001,
-		30001,
-		50001,
-		50002,
-		50003,
-		50004
+		1010001,
+		1010002,
+		1010003,
+		1010004,
+		1010005,
+		1010006,
+		1020001,
+		1020002,
+		1020003,
+		1020004,
+		1020005,
+		1020006,
+		1030001,
+		1030002,
+		1030003,
+		1030004,
+		1030005,
+		1030006,
+		1040001,
+		1040002,
+		1040003,
+		1050001,
+		1050002,
+		1050003,
+		1050004,
+		1050005,
+		1050006,
+		1060001,
+		1060002,
+		1060003,
+		1060004,
+		1060005,
+		1060006,
+		1070001,
+		1070002,
+		1070003,
+		1070004,
+		1070005,
+		1070006,
+		2010001,
+		2010002,
+		2020001,
+		2020002,
+		2020003,
+		2030001,
+		2030002,
+		2030003,
+		2030004
 	}
 }

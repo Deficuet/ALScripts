@@ -275,7 +275,15 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			true
 		},
 		{
+			SystemTipProxy,
+			true
+		},
+		{
 			CommanderManualProxy,
+			true
+		},
+		{
+			CityRebuildProxy,
 			true
 		}
 	})
@@ -354,6 +362,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		end
 
 		pg.SdkMgr.GetInstance():QueryPendingTransaction()
+
+		if ISLAND_PLAYER_TESTING then
+			pg.WatermarkingMgr.GetInstance():Init(var_2_0)
+		end
 	end, nil, 60)
 end
 

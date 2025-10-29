@@ -5,7 +5,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_1 = getProxy(IslandProxy):GetIsland():GetOrderAgency():GetSlot(var_1_0)
 
 	if not var_1_1:CanSubmit() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n1("资源不足"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
@@ -37,6 +37,7 @@ function var_0_0.HandleUrgencyOrder(arg_2_0, arg_2_1)
 				dropData = var_3_0,
 				slotId = arg_2_1.id
 			})
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandSubmitOrder(IslandOrder.TYPE_URGENCY, arg_2_1.id))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_3_0.result] .. arg_3_0.result)
 		end
@@ -67,6 +68,7 @@ function var_0_0.HandleCommonOrder(arg_4_0, arg_4_1)
 				dropData = var_5_0,
 				slotId = arg_4_1.id
 			})
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandSubmitOrder(IslandOrder.TYPE_NORMAL, arg_4_1.id))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_5_0.result] .. arg_5_0.result)
 		end
@@ -85,11 +87,18 @@ function var_0_0.HandleFirmOrder(arg_6_0, arg_6_1)
 			arg_6_0:HandleConsume(arg_6_1)
 			var_6_0:RemoveSlot(arg_6_1.id)
 			var_6_0:RecordNextCanSubmitTime()
-			var_6_0:AddExp(arg_6_1:GetOrder():GetExpValue())
+
+			local var_7_1 = arg_6_1:GetOrder()
+
+			if not isa(var_7_1, IslandFirmActivityOrder) then
+				var_6_0:AddExp(var_7_1:GetExpValue())
+			end
+
 			arg_6_0:sendNotification(GAME.ISLAND_SUBMIT_ORDER_DONE, {
 				dropData = var_7_0,
 				slotId = arg_6_1.id
 			})
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandSubmitOrder(IslandOrder.TYPE_FORM, arg_6_1.id))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_7_0.result] .. arg_7_0.result)
 		end
@@ -98,21 +107,10 @@ end
 
 function var_0_0.HandleDrops(arg_8_0, arg_8_1)
 	local var_8_0, var_8_1 = arg_8_1:GetOrder():GetAwardItemAndExp()
-	local var_8_2 = IslandDropHelper.AddItems({
+
+	return (IslandDropHelper.AddItems({
 		drop_list = var_8_0
-	})
-
-	getProxy(IslandProxy):GetIsland():AddExp(var_8_1)
-
-	if var_8_1 > 0 then
-		table.insert(var_8_2.awards, {
-			id = 2,
-			type = DROP_TYPE_ISLAND_ITEM,
-			count = var_8_1
-		})
-	end
-
-	return var_8_2
+	}, var_8_1))
 end
 
 function var_0_0.HandleConsume(arg_9_0, arg_9_1)

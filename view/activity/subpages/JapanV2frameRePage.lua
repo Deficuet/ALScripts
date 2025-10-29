@@ -3,7 +3,7 @@ local var_0_0 = class("JapanV2frameRePage", import(".TemplatePage.NewFrameTempla
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.gotTag = arg_1_0:findTF("AD/switcher/phase2/got")
+	arg_1_0.gotTag = arg_1_0._tf:Find("AD/switcher/phase2/got")
 end
 
 function var_0_0.OnUpdateFlush(arg_2_0)

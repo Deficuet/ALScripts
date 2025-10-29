@@ -44,18 +44,18 @@ function var_0_0.initUI(arg_6_0)
 	arg_6_0._tf.offsetMax = Vector2.zero
 	arg_6_0._tf.offsetMin = Vector2.zero
 
-	local var_6_0 = arg_6_0:findTF("BtnList")
+	local var_6_0 = arg_6_0._tf:Find("BtnList")
 
-	arg_6_0.likeFilteBtn = arg_6_0:findTF("LikeFilterBtn", var_6_0)
-	arg_6_0.readFilteBtn = arg_6_0:findTF("ReadFilteBtn", var_6_0)
-	arg_6_0.orderBtn = arg_6_0:findTF("OrderBtn", var_6_0)
-	arg_6_0.repairBtn = arg_6_0:findTF("RepairBtn", var_6_0)
-	arg_6_0.scrollView = arg_6_0:findTF("ScrollView")
-	arg_6_0.emptyPanel = arg_6_0:findTF("EmptyPanel")
-	arg_6_0.downloadBtnPanel = arg_6_0:findTF("UpdatePanel")
-	arg_6_0.mangaContainer = arg_6_0:findTF("ScrollView/Content")
-	arg_6_0.lScrollRectSC = arg_6_0:findTF("ScrollView/Content"):GetComponent("LScrollRect")
-	arg_6_0.mangaTpl = arg_6_0:findTF("MangaTpl")
+	arg_6_0.likeFilteBtn = var_6_0:Find("LikeFilterBtn")
+	arg_6_0.readFilteBtn = var_6_0:Find("ReadFilteBtn")
+	arg_6_0.orderBtn = var_6_0:Find("OrderBtn")
+	arg_6_0.repairBtn = var_6_0:Find("RepairBtn")
+	arg_6_0.scrollView = arg_6_0._tf:Find("ScrollView")
+	arg_6_0.emptyPanel = arg_6_0._tf:Find("EmptyPanel")
+	arg_6_0.downloadBtnPanel = arg_6_0._tf:Find("UpdatePanel")
+	arg_6_0.mangaContainer = arg_6_0._tf:Find("ScrollView/Content")
+	arg_6_0.lScrollRectSC = arg_6_0._tf:Find("ScrollView/Content"):GetComponent("LScrollRect")
+	arg_6_0.mangaTpl = arg_6_0._tf:Find("MangaTpl")
 
 	arg_6_0.lScrollRectSC:BeginLayout()
 	arg_6_0.lScrollRectSC:EndLayout()
@@ -63,10 +63,10 @@ function var_0_0.initUI(arg_6_0)
 end
 
 function var_0_0.initUIText(arg_7_0)
-	local var_7_0 = arg_7_0:findTF("ShowingAll/Text", arg_7_0.readFilteBtn)
-	local var_7_1 = arg_7_0:findTF("ShowingNotRead/Text", arg_7_0.readFilteBtn)
-	local var_7_2 = arg_7_0:findTF("Content/Bottom/BottomNotRead/Tag/Text", arg_7_0.mangaTpl)
-	local var_7_3 = arg_7_0:findTF("Text", arg_7_0.emptyPanel)
+	local var_7_0 = arg_7_0.readFilteBtn:Find("ShowingAll/Text")
+	local var_7_1 = arg_7_0.readFilteBtn:Find("ShowingNotRead/Text")
+	local var_7_2 = arg_7_0.mangaTpl:Find("Content/Bottom/BottomNotRead/Tag/Text")
+	local var_7_3 = arg_7_0.emptyPanel:Find("Text")
 
 	setText(var_7_0, i18n("cartoon_notall"))
 	setText(var_7_1, i18n("cartoon_notall"))
@@ -128,19 +128,19 @@ function var_0_0.updateMangaTpl(arg_14_0, arg_14_1, arg_14_2)
 
 	assert(var_14_1, "null mangaID")
 
-	local var_14_2 = arg_14_0:findTF("Update", var_14_0)
+	local var_14_2 = var_14_0:Find("Update")
 
 	setActive(var_14_2, false)
 
-	local var_14_3 = arg_14_0:findTF("Content/Mask/Pic", var_14_0)
-	local var_14_4 = arg_14_0:findTF("Content/Bottom/BottomNew", var_14_0)
-	local var_14_5 = arg_14_0:findTF("Content/Bottom/BottomNotRead", var_14_0)
-	local var_14_6 = arg_14_0:findTF("Content/Bottom/BottomNormal", var_14_0)
-	local var_14_7 = arg_14_0:findTF("Content/Bottom/BottomTip", var_14_0)
-	local var_14_8 = arg_14_0:findTF("TopSpecial", var_14_0)
-	local var_14_9 = arg_14_0:findTF("NumText", var_14_4)
-	local var_14_10 = arg_14_0:findTF("NumText", var_14_5)
-	local var_14_11 = arg_14_0:findTF("NumText", var_14_6)
+	local var_14_3 = var_14_0:Find("Content/Mask/Pic")
+	local var_14_4 = var_14_0:Find("Content/Bottom/BottomNew")
+	local var_14_5 = var_14_0:Find("Content/Bottom/BottomNotRead")
+	local var_14_6 = var_14_0:Find("Content/Bottom/BottomNormal")
+	local var_14_7 = var_14_0:Find("Content/Bottom/BottomTip")
+	local var_14_8 = var_14_0:Find("TopSpecial")
+	local var_14_9 = var_14_4:Find("NumText")
+	local var_14_10 = var_14_5:Find("NumText")
+	local var_14_11 = var_14_6:Find("NumText")
 	local var_14_12 = MangaConst.isMangaEverReadByID(var_14_1)
 	local var_14_13 = MangaConst.isMangaNewByID(var_14_1)
 
@@ -172,24 +172,24 @@ end
 
 function var_0_0.initEmpty(arg_16_0, arg_16_1)
 	local var_16_0 = tf(arg_16_1)
-	local var_16_1 = arg_16_0:findTF("TopSpecial", var_16_0)
+	local var_16_1 = var_16_0:Find("TopSpecial")
 
 	setActive(var_16_1, false)
 
-	local var_16_2 = arg_16_0:findTF("Content/Bottom/BottomNew", var_16_0)
-	local var_16_3 = arg_16_0:findTF("Content/Bottom/BottomNotRead", var_16_0)
-	local var_16_4 = arg_16_0:findTF("Content/Bottom/BottomNormal", var_16_0)
-	local var_16_5 = arg_16_0:findTF("Content/Bottom/BottomTip", var_16_0)
+	local var_16_2 = var_16_0:Find("Content/Bottom/BottomNew")
+	local var_16_3 = var_16_0:Find("Content/Bottom/BottomNotRead")
+	local var_16_4 = var_16_0:Find("Content/Bottom/BottomNormal")
+	local var_16_5 = var_16_0:Find("Content/Bottom/BottomTip")
 
 	setActive(var_16_2, false)
 	setActive(var_16_3, false)
 	setActive(var_16_4, false)
 	setActive(var_16_5, true)
 
-	local var_16_6 = arg_16_0:findTF("Update", var_16_0)
-	local var_16_7 = arg_16_0:findTF("Btn", var_16_6)
-	local var_16_8 = arg_16_0:findTF("Progress", var_16_6)
-	local var_16_9 = arg_16_0:findTF("Slider", var_16_8)
+	local var_16_6 = var_16_0:Find("Update")
+	local var_16_7 = var_16_6:Find("Btn")
+	local var_16_8 = var_16_6:Find("Progress")
+	local var_16_9 = var_16_8:Find("Slider")
 
 	setActive(var_16_6, true)
 	setActive(var_16_7, true)
@@ -210,10 +210,10 @@ function var_0_0.initEmpty(arg_16_0, arg_16_1)
 		end
 	end
 
-	local var_16_14 = arg_16_0:findTF("Content/Mask/Pic", var_16_0)
+	local var_16_14 = var_16_0:Find("Content/Mask/Pic")
 
 	arg_16_0.resLoader:LoadSprite(var_16_11, var_16_10, var_16_14, false)
-	setText(arg_16_0:findTF("Text", var_16_5), "")
+	setText(var_16_5:Find("Text"), "")
 	onButton(arg_16_0, var_16_7, function()
 		local var_17_0 = arg_16_0.group.state
 
@@ -236,51 +236,50 @@ function var_0_0.initEmpty(arg_16_0, arg_16_1)
 end
 
 function var_0_0.updateEmpty(arg_19_0, arg_19_1)
-	local var_19_0 = tf(arg_19_1)
-	local var_19_1 = arg_19_0:findTF("Update", var_19_0)
-	local var_19_2 = arg_19_0:findTF("Btn", var_19_1)
-	local var_19_3 = arg_19_0:findTF("Text", var_19_2)
-	local var_19_4 = arg_19_0:findTF("Progress", var_19_1)
-	local var_19_5 = arg_19_0:findTF("Slider", var_19_4)
-	local var_19_6 = arg_19_0.group.state
+	local var_19_0 = tf(arg_19_1):Find("Update")
+	local var_19_1 = var_19_0:Find("Btn")
+	local var_19_2 = var_19_1:Find("Text")
+	local var_19_3 = var_19_0:Find("Progress")
+	local var_19_4 = var_19_3:Find("Slider")
+	local var_19_5 = arg_19_0.group.state
 
-	if var_19_6 == DownloadState.None then
-		setText(var_19_3, "None")
-		setActive(var_19_2, true)
-		setActive(var_19_4, false)
-	elseif var_19_6 == DownloadState.Checking then
-		setText(var_19_3, i18n("word_manga_checking"))
-		setActive(var_19_2, true)
-		setActive(var_19_4, false)
-	elseif var_19_6 == DownloadState.CheckToUpdate then
-		setText(var_19_3, i18n("word_manga_checktoupdate"))
-		setActive(var_19_2, true)
-		setActive(var_19_4, false)
-	elseif var_19_6 == DownloadState.CheckOver then
-		setText(var_19_3, "Latest Ver")
-		setActive(var_19_2, true)
-		setActive(var_19_4, false)
-	elseif var_19_6 == DownloadState.CheckFailure then
-		setText(var_19_3, i18n("word_manga_checkfailure"))
-		setActive(var_19_2, true)
-		setActive(var_19_4, false)
-	elseif var_19_6 == DownloadState.Updating then
-		setText(var_19_3, i18n("word_manga_updating", arg_19_0.group.downloadCount, arg_19_0.group.downloadTotal))
-		setActive(var_19_2, false)
-		setActive(var_19_4, true)
-		setSlider(var_19_5, 0, arg_19_0.group.downloadTotal, arg_19_0.group.downloadCount)
-	elseif var_19_6 == DownloadState.UpdateSuccess then
-		setText(var_19_3, i18n("word_manga_updatesuccess"))
-		setActive(var_19_2, true)
-		setActive(var_19_4, false)
+	if var_19_5 == DownloadState.None then
+		setText(var_19_2, "None")
+		setActive(var_19_1, true)
+		setActive(var_19_3, false)
+	elseif var_19_5 == DownloadState.Checking then
+		setText(var_19_2, i18n("word_manga_checking"))
+		setActive(var_19_1, true)
+		setActive(var_19_3, false)
+	elseif var_19_5 == DownloadState.CheckToUpdate then
+		setText(var_19_2, i18n("word_manga_checktoupdate"))
+		setActive(var_19_1, true)
+		setActive(var_19_3, false)
+	elseif var_19_5 == DownloadState.CheckOver then
+		setText(var_19_2, "Latest Ver")
+		setActive(var_19_1, true)
+		setActive(var_19_3, false)
+	elseif var_19_5 == DownloadState.CheckFailure then
+		setText(var_19_2, i18n("word_manga_checkfailure"))
+		setActive(var_19_1, true)
+		setActive(var_19_3, false)
+	elseif var_19_5 == DownloadState.Updating then
+		setText(var_19_2, i18n("word_manga_updating", arg_19_0.group.downloadCount, arg_19_0.group.downloadTotal))
+		setActive(var_19_1, false)
+		setActive(var_19_3, true)
+		setSlider(var_19_4, 0, arg_19_0.group.downloadTotal, arg_19_0.group.downloadCount)
+	elseif var_19_5 == DownloadState.UpdateSuccess then
+		setText(var_19_2, i18n("word_manga_updatesuccess"))
+		setActive(var_19_1, true)
+		setActive(var_19_3, false)
 
 		arg_19_0.mangaIDListForShow = arg_19_0:getMangaIDListForShow()
 
 		arg_19_0:updatePanel()
-	elseif var_19_6 == DownloadState.UpdateFailure then
-		setText(var_19_3, i18n("word_manga_updatefailure"))
-		setActive(var_19_2, true)
-		setActive(var_19_4, false)
+	elseif var_19_5 == DownloadState.UpdateFailure then
+		setText(var_19_2, i18n("word_manga_updatefailure"))
+		setActive(var_19_1, true)
+		setActive(var_19_3, false)
 	end
 end
 
@@ -329,10 +328,10 @@ function var_0_0.updateMangaList(arg_23_0)
 end
 
 function var_0_0.initDownloadBtnPanel(arg_26_0)
-	local var_26_0 = arg_26_0:findTF("Btn", arg_26_0.downloadBtnPanel)
-	local var_26_1 = arg_26_0:findTF("Text", var_26_0)
-	local var_26_2 = arg_26_0:findTF("Progress", arg_26_0.downloadBtnPanel)
-	local var_26_3 = arg_26_0:findTF("Slider", var_26_2)
+	local var_26_0 = arg_26_0.downloadBtnPanel:Find("Btn")
+	local var_26_1 = var_26_0:Find("Text")
+	local var_26_2 = arg_26_0.downloadBtnPanel:Find("Progress")
+	local var_26_3 = var_26_2:Find("Slider")
 
 	setActive(var_26_0, true)
 	setActive(var_26_2, false)
@@ -358,10 +357,10 @@ function var_0_0.initDownloadBtnPanel(arg_26_0)
 end
 
 function var_0_0.updateDownloadBtnPanel(arg_29_0)
-	local var_29_0 = arg_29_0:findTF("Btn", arg_29_0.downloadBtnPanel)
-	local var_29_1 = arg_29_0:findTF("Text", var_29_0)
-	local var_29_2 = arg_29_0:findTF("Progress", arg_29_0.downloadBtnPanel)
-	local var_29_3 = arg_29_0:findTF("Slider", var_29_2)
+	local var_29_0 = arg_29_0.downloadBtnPanel:Find("Btn")
+	local var_29_1 = var_29_0:Find("Text")
+	local var_29_2 = arg_29_0.downloadBtnPanel:Find("Progress")
+	local var_29_3 = var_29_2:Find("Slider")
 	local var_29_4 = arg_29_0.group.state
 
 	if var_29_4 == DownloadState.None then
@@ -441,18 +440,18 @@ function var_0_0.updatePanel(arg_33_0)
 end
 
 function var_0_0.updateBtnList(arg_34_0)
-	local var_34_0 = arg_34_0:findTF("On", arg_34_0.likeFilteBtn)
+	local var_34_0 = arg_34_0.likeFilteBtn:Find("On")
 
 	setActive(var_34_0, arg_34_0.isShowLike)
 
-	local var_34_1 = arg_34_0:findTF("ShowingAll", arg_34_0.readFilteBtn)
-	local var_34_2 = arg_34_0:findTF("ShowingNotRead", arg_34_0.readFilteBtn)
+	local var_34_1 = arg_34_0.readFilteBtn:Find("ShowingAll")
+	local var_34_2 = arg_34_0.readFilteBtn:Find("ShowingNotRead")
 
 	setActive(var_34_1, not arg_34_0.isShowNotRead)
 	setActive(var_34_2, arg_34_0.isShowNotRead)
 
-	local var_34_3 = arg_34_0:findTF("Up", arg_34_0.orderBtn)
-	local var_34_4 = arg_34_0:findTF("Down", arg_34_0.orderBtn)
+	local var_34_3 = arg_34_0.orderBtn:Find("Up")
+	local var_34_4 = arg_34_0.orderBtn:Find("Down")
 
 	setActive(var_34_3, arg_34_0.isUpOrder)
 	setActive(var_34_4, not arg_34_0.isUpOrder)
@@ -484,7 +483,7 @@ function var_0_0.openMangaViewLayer(arg_37_0, arg_37_1)
 			mangaIndex = arg_37_1,
 			mangaIDLIst = arg_37_0.mangaIDListForShow,
 			mangaContext = arg_37_0,
-			isShowingNotRead = isActive(arg_37_0:findTF("ShowingNotRead", arg_37_0.readFilteBtn))
+			isShowingNotRead = isActive(arg_37_0.readFilteBtn:Find("ShowingNotRead"))
 		},
 		onRemoved = function()
 			return
@@ -494,13 +493,13 @@ end
 
 function var_0_0.updateLineAfterRead(arg_39_0, arg_39_1)
 	local var_39_0 = table.indexof(arg_39_0.mangaIDListForShow, arg_39_1) - 1
-	local var_39_1 = arg_39_0:findTF(tostring(var_39_0), arg_39_0.mangaContainer)
+	local var_39_1 = arg_39_0.mangaContainer:Find(tostring(var_39_0))
 
 	if var_39_1 then
-		local var_39_2 = arg_39_0:findTF("Content/Bottom/BottomNew", var_39_1)
-		local var_39_3 = arg_39_0:findTF("Content/Bottom/BottomNotRead", var_39_1)
-		local var_39_4 = arg_39_0:findTF("Content/Bottom/BottomNormal", var_39_1)
-		local var_39_5 = arg_39_0:findTF("TopSpecial", var_39_1)
+		local var_39_2 = var_39_1:Find("Content/Bottom/BottomNew")
+		local var_39_3 = var_39_1:Find("Content/Bottom/BottomNotRead")
+		local var_39_4 = var_39_1:Find("Content/Bottom/BottomNormal")
+		local var_39_5 = var_39_1:Find("TopSpecial")
 		local var_39_6 = MangaConst.isMangaEverReadByID(arg_39_1)
 		local var_39_7 = MangaConst.isMangaNewByID(arg_39_1)
 

@@ -23,7 +23,16 @@ pg.dorm3d_shop_template = setmetatable({
 		19,
 		20,
 		21,
-		22
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -31,12 +40,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "スイートシークレット",
 		rarity = 4,
-		item_id = 121,
 		type = 1,
-		id = 1,
 		room_id = 20220,
-		order = "8",
 		unlock = "",
+		item_id = 121,
+		id = 1,
+		realroom_id = 0,
+		order = "8",
 		panel = {
 			2,
 			3,
@@ -52,12 +62,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "午後の夢郷",
 		rarity = 4,
-		item_id = 122,
 		type = 1,
-		id = 2,
 		room_id = 20220,
-		order = "11",
 		unlock = "",
+		item_id = 122,
+		id = 2,
+		realroom_id = 0,
+		order = "11",
 		panel = {
 			2,
 			3,
@@ -73,12 +84,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "タヌクッション",
 		rarity = 4,
-		item_id = 221,
 		type = 1,
-		id = 3,
 		room_id = 30221,
-		order = "9",
 		unlock = "",
+		item_id = 221,
+		id = 3,
+		realroom_id = 0,
+		order = "9",
 		panel = {
 			1,
 			2,
@@ -95,12 +107,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "逢瀬の机",
 		rarity = 4,
-		item_id = 222,
 		type = 1,
-		id = 4,
 		room_id = 30221,
-		order = "14",
 		unlock = "",
+		item_id = 222,
+		id = 4,
+		realroom_id = 0,
+		order = "14",
 		panel = {
 			1,
 			2,
@@ -117,12 +130,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "聖夜のソリソファ",
 		rarity = 5,
-		item_id = 151,
 		type = 1,
-		id = 5,
 		room_id = 20220,
-		order = "1",
 		unlock = "",
+		item_id = 151,
+		id = 5,
+		realroom_id = 0,
+		order = "1",
 		panel = {
 			1
 		},
@@ -136,12 +150,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "ぬくぬくこたつ",
 		rarity = 5,
-		item_id = 251,
 		type = 1,
-		id = 6,
 		room_id = 30221,
-		order = "2",
 		unlock = "",
+		item_id = 251,
+		id = 6,
+		realroom_id = 0,
+		order = "2",
 		panel = {
 			1
 		},
@@ -155,12 +170,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "ピュアティータイム",
 		rarity = 4,
-		item_id = 321,
 		type = 1,
-		id = 7,
 		room_id = 19903,
-		order = "10",
 		unlock = "",
+		item_id = 321,
+		id = 7,
+		realroom_id = 0,
+		order = "10",
 		panel = {
 			1,
 			2,
@@ -177,12 +193,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "星々の遊船",
 		rarity = 4,
-		item_id = 322,
 		type = 1,
-		id = 8,
 		room_id = 19903,
-		order = "13",
 		unlock = "",
+		item_id = 322,
+		id = 8,
+		realroom_id = 0,
+		order = "13",
 		panel = {
 			1,
 			2,
@@ -199,12 +216,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "清掃ツールボックス",
 		rarity = 4,
-		item_id = 2022001,
 		type = 2,
-		id = 9,
 		room_id = 20220,
-		order = "16",
 		unlock = "",
+		item_id = 2022001,
+		id = 9,
+		realroom_id = 0,
+		order = "16",
 		panel = {
 			2,
 			3,
@@ -220,12 +238,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "ロイヤルティーセット",
 		rarity = 4,
-		item_id = 2022002,
 		type = 2,
-		id = 10,
 		room_id = 20220,
-		order = "19",
 		unlock = "",
+		item_id = 2022002,
+		id = 10,
+		realroom_id = 0,
+		order = "19",
 		panel = {
 			2,
 			3,
@@ -241,12 +260,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "素直ローファー",
 		rarity = 4,
-		item_id = 3022101,
 		type = 2,
-		id = 11,
 		room_id = 30221,
-		order = "17",
 		unlock = "",
+		item_id = 3022101,
+		id = 11,
+		realroom_id = 0,
+		order = "17",
 		panel = {
 			2,
 			3,
@@ -262,12 +282,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "なないろ気持ち",
 		rarity = 4,
-		item_id = 1990301,
 		type = 2,
-		id = 12,
 		room_id = 19903,
-		order = "18",
 		unlock = "",
+		item_id = 1990301,
+		id = 12,
+		realroom_id = 0,
+		order = "18",
 		panel = {
 			2,
 			3,
@@ -283,12 +304,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "満点のロマンチック",
 		rarity = 3,
-		item_id = 1021002,
 		type = 2,
-		id = 13,
 		room_id = 0,
-		order = "998",
 		unlock = "",
+		item_id = 1021002,
+		id = 13,
+		realroom_id = 0,
+		order = "998",
 		panel = {
 			5
 		},
@@ -306,12 +328,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "ケーキギフトボックス",
 		rarity = 3,
-		item_id = 1021003,
 		type = 2,
-		id = 14,
 		room_id = 0,
-		order = "999",
 		unlock = "",
+		item_id = 1021003,
+		id = 14,
+		realroom_id = 0,
+		order = "999",
 		panel = {
 			5
 		},
@@ -326,12 +349,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "シリアス・砂浜開放",
 		rarity = 4,
-		item_id = 4,
 		type = 3,
-		id = 15,
 		room_id = 20220,
-		order = "4",
 		unlock = "",
+		item_id = 4,
+		id = 15,
+		realroom_id = 0,
+		order = "11",
 		panel = {
 			2
 		},
@@ -346,12 +370,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "能代・砂浜開放",
 		rarity = 4,
-		item_id = 4,
 		type = 3,
-		id = 16,
 		room_id = 30221,
-		order = "5",
 		unlock = "",
+		item_id = 4,
+		id = 16,
+		realroom_id = 0,
+		order = "12",
 		panel = {
 			2
 		},
@@ -365,12 +390,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "アンカレッジ・砂浜開放",
 		rarity = 4,
-		item_id = 4,
 		type = 3,
-		id = 17,
 		room_id = 19903,
-		order = "6",
 		unlock = "",
+		item_id = 4,
+		id = 17,
+		realroom_id = 0,
+		order = "11",
 		panel = {
 			2
 		},
@@ -384,12 +410,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "フットマッサージャー",
 		rarity = 4,
-		item_id = 3022102,
 		type = 2,
-		id = 18,
 		room_id = 30221,
-		order = "12",
 		unlock = "",
+		item_id = 3022102,
+		id = 18,
+		realroom_id = 0,
+		order = "12",
 		panel = {
 			2,
 			3,
@@ -405,12 +432,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "星空のコーナー",
 		rarity = 4,
-		item_id = 1151,
 		type = 1,
-		id = 19,
 		room_id = 10517,
-		order = "7",
 		unlock = "",
+		item_id = 1151,
+		id = 19,
+		realroom_id = 0,
+		order = "10",
 		panel = {
 			1,
 			2,
@@ -427,12 +455,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "水晶キャンディ",
 		rarity = 4,
-		item_id = 1051701,
 		type = 2,
-		id = 20,
 		room_id = 10517,
-		order = "15",
 		unlock = "",
+		item_id = 1051701,
+		id = 20,
+		realroom_id = 0,
+		order = "15",
 		panel = {
 			2,
 			3,
@@ -448,12 +477,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "カフェ招待状NJ",
 		rarity = 4,
-		item_id = 16,
 		type = 3,
-		id = 21,
 		room_id = 10517,
-		order = "3",
 		unlock = "",
+		item_id = 16,
+		id = 21,
+		realroom_id = 0,
+		order = "11",
 		panel = {
 			2
 		},
@@ -467,12 +497,13 @@ pg.base.dorm3d_shop_template = {
 	{
 		name = "安らぎの時間",
 		rarity = 4,
-		item_id = 223,
 		type = 1,
-		id = 22,
 		room_id = 30221,
-		order = "8",
 		unlock = "",
+		item_id = 223,
+		id = 22,
+		realroom_id = 0,
+		order = "12",
 		panel = {
 			1,
 			2,
@@ -484,6 +515,205 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_furniture223"
+		}
+	},
+	{
+		name = "ダイナミックホイール",
+		rarity = 4,
+		type = 1,
+		room_id = 10517,
+		unlock = "",
+		item_id = 1152,
+		id = 23,
+		realroom_id = 0,
+		order = "13",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270204
+		},
+		banners = {
+			"banner_furniture1152"
+		}
+	},
+	{
+		name = "精緻な額縁",
+		rarity = 4,
+		type = 2,
+		room_id = 19903,
+		unlock = "",
+		item_id = 1990302,
+		id = 24,
+		realroom_id = 0,
+		order = "10",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260332
+		},
+		banners = {
+			"banner_gift1990302"
+		}
+	},
+	{
+		name = "シーサイドレジャー",
+		rarity = 5,
+		type = 1,
+		room_id = 0,
+		unlock = "",
+		item_id = 401,
+		id = 25,
+		realroom_id = 4,
+		order = "10",
+		panel = {
+			1
+		},
+		shop_id = {
+			270401
+		},
+		banners = {
+			"banner_furniture401"
+		}
+	},
+	{
+		name = "クラウドドリーム",
+		rarity = 4,
+		type = 1,
+		room_id = 19903,
+		unlock = "",
+		item_id = 323,
+		id = 26,
+		realroom_id = 0,
+		order = "8",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270303
+		},
+		banners = {
+			"banner_furniture323"
+		}
+	},
+	{
+		name = "愛の巣",
+		rarity = 4,
+		type = 1,
+		room_id = 30707,
+		unlock = "",
+		item_id = 1221,
+		id = 27,
+		realroom_id = 0,
+		order = "7",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270501
+		},
+		banners = {
+			"banner_furniture1221"
+		}
+	},
+	{
+		name = "繋げられた愛",
+		rarity = 4,
+		type = 2,
+		room_id = 30707,
+		unlock = "",
+		item_id = 3070701,
+		id = 28,
+		realroom_id = 0,
+		order = "7",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260501
+		},
+		banners = {
+			"banner_gift3070701"
+		}
+	},
+	{
+		name = "カフェ招待状・大鳳",
+		rarity = 4,
+		type = 3,
+		room_id = 30707,
+		unlock = "",
+		item_id = 16,
+		id = 29,
+		realroom_id = 0,
+		order = "6",
+		panel = {
+			2
+		},
+		shop_id = {
+			270114
+		},
+		banners = {
+			"banner_cafe2"
+		}
+	},
+	{
+		name = "星外の隠れ家",
+		rarity = 4,
+		type = 1,
+		room_id = 10517,
+		unlock = "",
+		item_id = 1153,
+		id = 30,
+		realroom_id = 0,
+		order = "6",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270205
+		},
+		banners = {
+			"banner_furniture1153"
+		}
+	},
+	{
+		name = "花楽の韻律",
+		rarity = 5,
+		type = 1,
+		room_id = 30707,
+		unlock = "",
+		item_id = 1222,
+		id = 31,
+		realroom_id = 0,
+		order = "1",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			270502
+		},
+		banners = {
+			"banner_furniture1222"
 		}
 	}
 }

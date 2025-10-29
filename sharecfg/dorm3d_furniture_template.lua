@@ -832,6 +832,67 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/bedroom"
 		}
 	},
+	[401] = {
+		name = "シーサイドレジャー",
+		rarity = 5,
+		is_exclusive = 0,
+		type = 3,
+		is_special = 1,
+		room_id = 4,
+		icon = "dorm3dIcon/3Ddrom_beach_PremiumFurniture1",
+		desc = "バカンスの時間が始まる！ヤシの木の下の日差し、涼しい海岸沿い、水しぶきと潮風。心は一瞬でバカンスの歓びに包まれる。",
+		acesses = "",
+		model = "pay_publicplace/slide",
+		id = 401,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			140101
+		},
+		shop_id = {
+			270401
+		},
+		unlock_tips = {
+			7
+		},
+		unlock_banners = {
+			"banner_furniture401"
+		}
+	},
+	[323] = {
+		name = "クラウドドリーム",
+		rarity = 4,
+		is_special = 0,
+		type = 5,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture8",
+		room_id = 3,
+		desc = "ゆらゆらする雲、ふんわりと優しい感触、マシュマロを思わせる座り心地。一緒に甘い香りの中でのんびり過ごそう",
+		acesses = "",
+		model = "Pay_Anchoragehostel/pre_db_ah_livingroom01",
+		id = 323,
+		is_exclusive = 1,
+		target_slots = {
+			130302
+		},
+		touch_id = {
+			{
+				19903,
+				1990360
+			}
+		},
+		shop_id = {
+			270303
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture323"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/livingroom"
+		}
+	},
 	[1101] = {
 		name = "うさうさクレイドル",
 		rarity = 3,
@@ -1049,6 +1110,331 @@ pg.dorm3d_furniture_template = {
 			"no_bake_pay_prop/livingroom"
 		}
 	},
+	[1152] = {
+		name = "ダイナミックホイール",
+		rarity = 5,
+		is_special = 1,
+		type = 5,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture4",
+		room_id = 11,
+		desc = "使用者のメンタルケアまでも配慮してくれる、本格的なフィットネスマシン。\nペダルを漕ぐだけで、自宅にいながらもワクワクする冒険の旅に出られる！",
+		acesses = "",
+		model = "Pay_Newjerseyhostel/pre_db_njh_entertainment01",
+		id = 1152,
+		is_exclusive = 1,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051750
+			}
+		},
+		shop_id = {
+			270204
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1152"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
+	[1153] = {
+		name = "星外の隠れ家",
+		rarity = 4,
+		is_special = 0,
+		type = 4,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture2",
+		room_id = 11,
+		desc = "テクノロジーと美的感覚が融合した、密やかなリラックススペース。 それはまるで、銀河の果てにある温もりのあるシェルター。\n 身をゆだねれば、日常を忘れて宇宙の夢に包まれる。",
+		acesses = "",
+		model = "Pay_Newjerseyhostel/pre_db_njh_bedroom01",
+		id = 1153,
+		is_exclusive = 1,
+		target_slots = {
+			1110102
+		},
+		touch_id = {
+			{
+				10517,
+				1051760
+			}
+		},
+		shop_id = {
+			270205
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1153"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
+	[1201] = {
+		name = "ふんわりベッド",
+		rarity = 3,
+		unlock_tips = "",
+		type = 4,
+		is_special = 0,
+		room_id = 12,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture1",
+		desc = "柔らかなダブルベッド。快適なマットレス、布団、枕が揃っている。布団の中に入ればいつでも一日の疲れを癒してくれる。",
+		acesses = "",
+		model = "",
+		id = 1201,
+		is_exclusive = 0,
+		scene_hides = "",
+		target_slots = {
+			1120103
+		},
+		touch_id = {
+			{
+				30707,
+				3070710
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1151"
+		}
+	},
+	[1202] = {
+		name = "木製ダイニングテーブル",
+		rarity = 3,
+		unlock_tips = "",
+		type = 6,
+		is_special = 0,
+		room_id = 12,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture2",
+		desc = "座面と背もたれだけのシンプルな座椅子。畳用のもので、柔らかい座布団と合わせれば、長時間座っても筋肉疲労の心配がない快適さを持つ。",
+		acesses = "",
+		model = "",
+		id = 1202,
+		is_exclusive = 0,
+		scene_hides = "",
+		target_slots = {
+			1120203
+		},
+		touch_id = {
+			{
+				30707,
+				3070720
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1151"
+		}
+	},
+	[1203] = {
+		name = "シンプルな座椅子",
+		rarity = 3,
+		unlock_tips = "",
+		type = 5,
+		is_special = 0,
+		room_id = 12,
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture3",
+		desc = "頑丈で耐久性のある良質な木材で作られたテーブル。天板は滑らかで掃除がしやすく、濃い色合いが汚れを目立たなくし、紫檀の質感をそのまま生かしている。",
+		acesses = "",
+		model = "",
+		id = 1203,
+		is_exclusive = 0,
+		scene_hides = "",
+		target_slots = {
+			1120303
+		},
+		touch_id = {
+			{
+				30707,
+				3070730
+			}
+		},
+		shop_id = {},
+		unlock_banners = {
+			"banner_furniture1152"
+		}
+	},
+	[1211] = {
+		name = "古風の掛け軸",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 12,
+		is_special = 0,
+		desc = "古風な掛け軸。控えめで禅の趣があり、室内の雰囲気と調和している。部屋に静けさと雅やかさを添える。",
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture4",
+		acesses = "",
+		model = "Pay_Dafenghostel/pre_db_df_wallscrolls01",
+		unlock_banners = "",
+		id = 1211,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			1120301
+		},
+		shop_id = {}
+	},
+	[1212] = {
+		name = "恋慕のコンパニオン",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 12,
+		is_special = 0,
+		desc = "軽やかで柔らかな素材を使った特別な衣装、身に着けるとまるで何もまとっていないかのように快適。",
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture5",
+		acesses = "",
+		model = "Pay_Dafenghostel/pre_db_df_cloth01",
+		unlock_banners = "",
+		id = 1212,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			1120101
+		},
+		shop_id = {}
+	},
+	[1213] = {
+		name = "フロアランプ",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 12,
+		is_special = 0,
+		desc = "床に置かれた背の高い木製ランプ。柔らかな光を放つそれは、彼女が心を込めて選んだインテリア用の光源だ。",
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture6",
+		acesses = "",
+		model = "Pay_Dafenghostel/pre_db_df_floorlamp01",
+		unlock_banners = "",
+		id = 1213,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			1120302
+		},
+		shop_id = {}
+	},
+	[1214] = {
+		name = "半透明の屏風",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 12,
+		is_special = 0,
+		desc = "精緻な柄が描かれている、半透明の屏風。大鳳はベッドの横に置くのが好きで、半透明のデザインで室内にほのかな艶めきを添えている。",
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture7",
+		acesses = "",
+		model = "Pay_Dafenghostel/pre_db_df_frame01",
+		unlock_banners = "",
+		id = 1214,
+		touch_id = "",
+		target_slots = {
+			1120102
+		},
+		shop_id = {},
+		scene_hides = {
+			"no_bake_prop_substitute/pre_db_frame32"
+		}
+	},
+	[1215] = {
+		name = "ナイトライト",
+		rarity = 2,
+		unlock_tips = "",
+		type = 3,
+		is_exclusive = 0,
+		room_id = 12,
+		is_special = 0,
+		desc = "可愛らしいデザインのナイトライト。内部には藤の枝をあしらった装飾があり、暖かく柔らかな灯りが部屋に温もりを与える。",
+		icon = "dorm3dIcon/3Ddrom_dafeng_CommonFurniture8",
+		acesses = "",
+		model = "Pay_Dafenghostel/pre_db_df_desklamp01",
+		unlock_banners = "",
+		id = 1215,
+		touch_id = "",
+		scene_hides = "",
+		target_slots = {
+			1120104
+		},
+		shop_id = {}
+	},
+	[1221] = {
+		name = "愛の巣",
+		rarity = 4,
+		unlock_tips = "",
+		type = 4,
+		is_special = 0,
+		room_id = 12,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture1",
+		desc = "シンプルなデザインのダブルベッド。高強度の素材を使用し、頑丈な金属フレームは大きな負荷にも耐えられる。厳選した低反発マットレスと組み合わせ、安全で快適な眠りを保証してくれる。",
+		acesses = "",
+		model = "Pay_Dafenghostel/pre_db_df_bedroom_01",
+		id = 1221,
+		is_exclusive = 1,
+		target_slots = {
+			1120103
+		},
+		touch_id = {
+			{
+				30707,
+				3070740
+			}
+		},
+		shop_id = {
+			270501
+		},
+		unlock_banners = {
+			"banner_furniture1221"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/bedroom"
+		}
+	},
+	[1222] = {
+		name = "花楽の韻律",
+		rarity = 5,
+		is_special = 1,
+		type = 99,
+		icon = "dorm3dIcon/3Ddrom_dafeng_PremiumFurniture2",
+		room_id = 12,
+		desc = "柔らかな光が花弁をなで、彼女のシルエットを映し出す。花と音色が溶け合い、自然のささやきが流れていく。",
+		acesses = "",
+		model = "Pay_Dafenghostel/pre_db_df_tedian01",
+		id = 1222,
+		is_exclusive = 1,
+		target_slots = {
+			1120304
+		},
+		touch_id = {
+			{
+				30707,
+				3070750
+			}
+		},
+		shop_id = {
+			270502
+		},
+		unlock_tips = {
+			8
+		},
+		unlock_banners = {
+			"banner_furniture1222"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/entertainment"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -1086,7 +1472,11 @@ pg.dorm3d_furniture_template = {
 			306,
 			307,
 			321,
-			322
+			322,
+			323
+		},
+		{
+			401
 		},
 		[11] = {
 			1101,
@@ -1097,7 +1487,21 @@ pg.dorm3d_furniture_template = {
 			1106,
 			1107,
 			1108,
-			1151
+			1151,
+			1152,
+			1153
+		},
+		[12] = {
+			1201,
+			1202,
+			1203,
+			1211,
+			1212,
+			1213,
+			1214,
+			1215,
+			1221,
+			1222
 		}
 	},
 	all = {
@@ -1133,6 +1537,8 @@ pg.dorm3d_furniture_template = {
 		307,
 		321,
 		322,
+		401,
+		323,
 		1101,
 		1102,
 		1103,
@@ -1141,6 +1547,18 @@ pg.dorm3d_furniture_template = {
 		1106,
 		1107,
 		1108,
-		1151
+		1151,
+		1152,
+		1153,
+		1201,
+		1202,
+		1203,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1221,
+		1222
 	}
 }

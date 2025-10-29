@@ -7,8 +7,8 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.purchaseTr = arg_2_0:findTF("frame/tip")
-	arg_2_0.purchase = arg_2_0:findTF("frame/tip/Text"):GetComponent(typeof(Text))
+	arg_2_0.purchaseTr = arg_2_0._tf:Find("frame/tip")
+	arg_2_0.purchase = arg_2_0._tf:Find("frame/tip/Text"):GetComponent(typeof(Text))
 end
 
 function var_0_0.OnInit(arg_3_0)

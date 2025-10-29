@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
 			say = "駆逐艦に乗り込み、湖を進む一行は水面に浮かぶ札を見つけた。",
-			bgm = "yumia-49",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

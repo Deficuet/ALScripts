@@ -14,19 +14,17 @@ function var_0_0.setDormVO(arg_3_0, arg_3_1)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0.frame = arg_4_0:findTF("frame")
-	arg_4_0.painting = arg_4_0:findTF("painting")
-	arg_4_0.confirmBtn = arg_4_0:findTF("painting/confirm_btn")
-	arg_4_0.timeTF = arg_4_0:findTF("ship_word/text_contain1")
-	arg_4_0.expTF = arg_4_0:findTF("ship_word/text_contain2")
-	arg_4_0.emptyTF = arg_4_0:findTF("ship_word/Text")
-	arg_4_0.uilist = UIItemList.New(arg_4_0:findTF("container", arg_4_0.frame), arg_4_0:findTF("container/ship_tpl", arg_4_0.frame))
+	arg_4_0.frame = arg_4_0._tf:Find("frame")
+	arg_4_0.painting = arg_4_0._tf:Find("painting")
+	arg_4_0.confirmBtn = arg_4_0._tf:Find("painting/confirm_btn")
+	arg_4_0.timeTF = arg_4_0._tf:Find("ship_word/text_contain1")
+	arg_4_0.expTF = arg_4_0._tf:Find("ship_word/text_contain2")
+	arg_4_0.emptyTF = arg_4_0._tf:Find("ship_word/Text")
+	arg_4_0.uilist = UIItemList.New(arg_4_0.frame:Find("container"), arg_4_0.frame:Find("container/ship_tpl"))
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf, false, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf)
 	onButton(arg_5_0, arg_5_0.confirmBtn, function()
 		arg_5_0:emit(var_0_0.ON_CLOSE)
 	end, SOUND_BACK)
@@ -59,7 +57,7 @@ function var_0_0.InitPainting(arg_8_0, arg_8_1, arg_8_2)
 
 		assert(#var_8_2 > 0, "gametip ==> backyard_addExp_Info 必须用||分开")
 
-		local var_8_3 = arg_8_0:findTF("ship_word/text_contain1")
+		local var_8_3 = arg_8_0._tf:Find("ship_word/text_contain1")
 		local var_8_4 = 0
 
 		while var_8_4 < var_8_3.childCount do
@@ -68,7 +66,7 @@ function var_0_0.InitPainting(arg_8_0, arg_8_1, arg_8_2)
 			var_8_4 = var_8_4 + 1
 		end
 
-		local var_8_5 = arg_8_0:findTF("ship_word/text_contain2")
+		local var_8_5 = arg_8_0._tf:Find("ship_word/text_contain2")
 		local var_8_6 = 0
 
 		while var_8_6 < var_8_5.childCount do
@@ -118,7 +116,7 @@ function var_0_0.UpdateShips(arg_9_0)
 end
 
 function var_0_0.willExit(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf, pg.UIMgr.GetInstance().UIMain)
 
 	for iter_11_0, iter_11_1 in ipairs(arg_11_0.cards) do
 		iter_11_1:Dispose()

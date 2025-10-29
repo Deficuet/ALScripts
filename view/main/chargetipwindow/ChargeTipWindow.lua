@@ -9,11 +9,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.container = arg_2_0:findTF("frame/window")
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/top/btnBack")
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/confirm")
+	arg_2_0.container = arg_2_0._tf:Find("frame/window")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/top/btnBack")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/confirm")
 
-	setText(arg_2_0:findTF("frame/top/title"), i18n("words_information"))
+	setText(arg_2_0._tf:Find("frame/top/title"), i18n("words_information"))
 	setText(arg_2_0.confirmBtn:Find("Text"), i18n("msgbox_text_confirm"))
 end
 
@@ -57,9 +57,7 @@ function var_0_0.Show(arg_5_0, arg_5_1)
 	}, function()
 		arg_5_0:RegisterEvent()
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf)
 end
 
 function var_0_0.LoadWindow(arg_9_0, arg_9_1, arg_9_2)
@@ -185,7 +183,7 @@ function var_0_0.Hide(arg_22_0)
 		end
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_22_0._tf, arg_22_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_22_0._tf, arg_22_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_23_0)

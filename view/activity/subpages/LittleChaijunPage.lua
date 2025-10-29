@@ -3,7 +3,7 @@ local var_0_0 = class("LittleChaijunPage", import(".TemplatePage.PtTemplatePage"
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.helpBtn = arg_1_0:findTF("help_btn", arg_1_0.bg)
+	arg_1_0.helpBtn = arg_1_0.bg:Find("help_btn")
 
 	onButton(arg_1_0, arg_1_0.helpBtn, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

@@ -4,14 +4,14 @@ return {
 		name = "load",
 		params = {
 			wait_timeline = false,
-			name = "FFliwu_01"
+			name = "FFliwu_10517_01"
 		}
 	},
 	{
 		type = 8,
 		name = "other",
 		params = {
-			scene = "map_newjerseyhostel_02",
+			scene = "map_newjerseyhostel_01",
 			sceneRoot = "Xinzexi_DB/Newjerseyhostel"
 		}
 	},
@@ -40,7 +40,7 @@ return {
 		name = "unload",
 		params = {
 			wait_timeline = false,
-			name = "FFliwu_01"
+			name = "FFliwu_10517_01"
 		}
 	}
 }

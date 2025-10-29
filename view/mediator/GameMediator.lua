@@ -26,27 +26,37 @@ function var_0_0.handleNotification(arg_2_0, arg_2_1)
 		})
 	elseif var_2_0 == GAME.GO_MINI_GAME then
 		local var_2_5 = Context.New()
-		local var_2_6 = var_2_1
+		local var_2_6
+		local var_2_7
 
-		var_2_5:extendData({
-			miniGameId = var_2_6
-		})
+		if type(var_2_1) == "number" then
+			var_2_6 = var_2_1
+			var_2_7 = {
+				miniGameId = var_2_6
+			}
+		else
+			var_2_6 = var_2_1.id
+			var_2_7 = var_2_1
+			var_2_7.miniGameId = var_2_6
+		end
 
-		local var_2_7 = pg.mini_game[var_2_6]
+		var_2_5:extendData(var_2_7)
 
-		var_2_5.mediator = _G[var_2_7.mediator_name]
-		var_2_5.viewComponent = _G[var_2_7.view_name]
-		var_2_5.scene = var_2_7.view_name
+		local var_2_8 = pg.mini_game[var_2_6]
 
-		print("load minigame: " .. var_2_7.view_name)
+		var_2_5.mediator = _G[var_2_8.mediator_name]
+		var_2_5.viewComponent = _G[var_2_8.view_name]
+		var_2_5.scene = var_2_8.view_name
 
-		local var_2_8 = {
+		print("load minigame: " .. var_2_8.view_name)
+
+		local var_2_9 = {
 			context = var_2_5
 		}
-		local var_2_9 = arg_2_1:getType()
+		local var_2_10 = arg_2_1:getType()
 
-		table.merge(var_2_8, var_2_9)
-		arg_2_0:sendNotification(GAME.LOAD_SCENE, var_2_8)
+		table.merge(var_2_9, var_2_10)
+		arg_2_0:sendNotification(GAME.LOAD_SCENE, var_2_9)
 	elseif var_2_0 == GAME.LOAD_SCENE_DONE then
 		print("scene loaded: ", var_2_1)
 

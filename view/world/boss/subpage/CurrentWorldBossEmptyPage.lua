@@ -7,7 +7,7 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.timeTxt = arg_2_0:findTF("time/Text"):GetComponent(typeof(Text))
+	arg_2_0.timeTxt = arg_2_0._tf:Find("time/Text"):GetComponent(typeof(Text))
 
 	local var_2_0 = WorldBossConst.GetCurrBossGroup() or ""
 
@@ -34,7 +34,7 @@ function var_0_0.OnInit(arg_3_0)
 			frame = var_5_0.rarity
 		})
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("list_btn"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("list_btn"), function()
 		arg_3_0:emit(WorldBossScene.ON_SWITCH, WorldBossScene.PAGE_CHALLENGE)
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.activeBtn, function()
@@ -62,8 +62,8 @@ function var_0_0.OnUpdate(arg_8_0)
 		arg_8_0.timeTxt.text = ""
 	end
 
-	arg_8_0.metaWorldbossBtn = arg_8_0.metaWorldbossBtn or MetaWorldbossBtn.New(arg_8_0:findTF("archives_btn"), arg_8_0.event)
-	arg_8_0.ptBtn = arg_8_0.ptBtn or WorldbossPtBtn.New(arg_8_0:findTF("point"))
+	arg_8_0.metaWorldbossBtn = arg_8_0.metaWorldbossBtn or MetaWorldbossBtn.New(arg_8_0._tf:Find("archives_btn"), arg_8_0.event)
+	arg_8_0.ptBtn = arg_8_0.ptBtn or WorldbossPtBtn.New(arg_8_0._tf:Find("point"))
 end
 
 function var_0_0.OnUpdateRes(arg_9_0)

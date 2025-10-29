@@ -81,9 +81,9 @@ function var_0_0.getUIName(arg_10_0)
 end
 
 function var_0_0.OnInit(arg_11_0)
-	arg_11_0.listPanel = arg_11_0:findTF("list_panel")
-	arg_11_0.scolrect = arg_11_0:findTF("scrollrect", arg_11_0.listPanel):GetComponent("LScrollRect")
-	arg_11_0.totalCount = arg_11_0:findTF("total_count/Text"):GetComponent(typeof(Text))
+	arg_11_0.listPanel = arg_11_0._tf:Find("list_panel")
+	arg_11_0.scolrect = arg_11_0.listPanel:Find("scrollrect"):GetComponent("LScrollRect")
+	arg_11_0.totalCount = arg_11_0._tf:Find("total_count/Text"):GetComponent(typeof(Text))
 	arg_11_0.selectedTxt = arg_11_0.listPanel:Find("selected_bg/Text"):GetComponent(typeof(Text))
 	arg_11_0.toggle = arg_11_0.listPanel:Find("toggle")
 
@@ -95,7 +95,7 @@ function var_0_0.OnInit(arg_11_0)
 		arg_11_0:OnUpdateItem(arg_13_0, arg_13_1)
 	end
 
-	arg_11_0.confirmBtn = arg_11_0:findTF("list_panel/confirm")
+	arg_11_0.confirmBtn = arg_11_0._tf:Find("list_panel/confirm")
 
 	onButton(arg_11_0, arg_11_0.confirmBtn, function()
 		if #arg_11_0.contextData.selectedMedalList == 0 and #arg_11_0.playerVO.displayTrophyList == 0 then
@@ -111,7 +111,7 @@ function var_0_0.OnInit(arg_11_0)
 		arg_11_0.event:emit(AttireMediator.ON_CHANGE_MEDAL_DISPLAY, arg_11_0.contextData.selectedMedalList)
 	end, SFX_PANEL)
 
-	arg_11_0.descPanel = var_0_2(arg_11_0:findTF("desc_panel"))
+	arg_11_0.descPanel = var_0_2(arg_11_0._tf:Find("desc_panel"))
 	arg_11_0.selectMaxLevel = true
 
 	onToggle(arg_11_0, arg_11_0.toggle, function(arg_16_0)
@@ -204,10 +204,10 @@ function var_0_0.Update(arg_21_0, arg_21_1, arg_21_2)
 			x = 0,
 			y = 22
 		})
-		setActive(arg_21_0:findTF("scrollrect", arg_21_0.listPanel), false)
+		setActive(arg_21_0.listPanel:Find("scrollrect"), false)
 	elseif var_21_0 > 0 and arg_21_0.emptyPage:GetLoaded() then
 		arg_21_0.emptyPage:ExecuteAction("ShowOrHide", false)
-		setActive(arg_21_0:findTF("scrollrect", arg_21_0.listPanel), true)
+		setActive(arg_21_0.listPanel:Find("scrollrect"), true)
 	end
 end
 

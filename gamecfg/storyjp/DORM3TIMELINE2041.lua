@@ -19,10 +19,12 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = false,
+							sceneRoot = "Nengdai_DB/Noshirohostel",
 							name = "FFliwu_chuanxie",
 							time = 9.55,
 							type = "timeline",
+							skip = false,
+							scene = "map_noshirohostel_01",
 							options = {
 								{
 									{

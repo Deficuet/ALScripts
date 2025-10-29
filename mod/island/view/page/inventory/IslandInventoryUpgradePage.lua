@@ -5,19 +5,19 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.consumeList = UIItemList.New(arg_2_0:findTF("frame/bottom/consume/list"), arg_2_0:findTF("frame/bottom/consume/list/tpl"))
-	arg_2_0.maxLevelTip = arg_2_0:findTF("frame/bottom/bg/max_level")
-	arg_2_0.capacityTxt = arg_2_0:findTF("frame/bottom/capacity/Text"):GetComponent(typeof(Text))
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/confirm")
-	arg_2_0.levelTxt = arg_2_0:findTF("frame/top/level"):GetComponent(typeof(Text))
-	arg_2_0.nextLevelTxt = arg_2_0:findTF("frame/top/level/next"):GetComponent(typeof(Text))
-	arg_2_0.maxLevelTxt = arg_2_0:findTF("frame/top/max_level"):GetComponent(typeof(Text))
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/top/close")
+	arg_2_0.consumeList = UIItemList.New(arg_2_0._tf:Find("frame/bottom/consume/list"), arg_2_0._tf:Find("frame/bottom/consume/list/tpl"))
+	arg_2_0.maxLevelTip = arg_2_0._tf:Find("frame/bottom/bg/max_level")
+	arg_2_0.capacityTxt = arg_2_0._tf:Find("frame/bottom/capacity/Text"):GetComponent(typeof(Text))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/confirm")
+	arg_2_0.levelTxt = arg_2_0._tf:Find("frame/top/level"):GetComponent(typeof(Text))
+	arg_2_0.nextLevelTxt = arg_2_0._tf:Find("frame/top/level/next"):GetComponent(typeof(Text))
+	arg_2_0.maxLevelTxt = arg_2_0._tf:Find("frame/top/max_level"):GetComponent(typeof(Text))
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/top/close")
 
-	setText(arg_2_0:findTF("frame/top/title"), i18n1("仓库升级"))
-	setText(arg_2_0:findTF("frame/bottom/Text"), i18n1("升级需求"))
-	setText(arg_2_0:findTF("frame/bottom/bg/max_level"), i18n1("已经达到满级"))
-	setText(arg_2_0:findTF("frame/bottom/capacity/label"), i18n1("仓库容量"))
+	setText(arg_2_0._tf:Find("frame/top/title"), i18n("island_bag_upgrade_tip"))
+	setText(arg_2_0._tf:Find("frame/bottom/Text"), i18n("island_bag_upgrade_req"))
+	setText(arg_2_0._tf:Find("frame/bottom/bg/max_level"), i18n("island_bag_upgrade_max_level"))
+	setText(arg_2_0._tf:Find("frame/bottom/capacity/label"), i18n("island_bag_upgrade_capacity"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -66,7 +66,7 @@ function var_0_0.UpdateAddition(arg_9_0, arg_9_1)
 	local var_9_0 = arg_9_1:GetInventoryAgency()
 	local var_9_1 = var_9_0:GetCapacity()
 	local var_9_2 = var_9_0:GetLevel()
-	local var_9_3 = var_9_0:StaticGetCapacity(var_9_2 + 1) - var_9_1
+	local var_9_3 = var_9_0:GetNextCapacity(var_9_2 + 1) - var_9_1
 
 	arg_9_0.capacityTxt.text = "<color=#393a3c>" .. var_9_1 .. "</color><color=#39bfff> + " .. var_9_3 .. "</color>"
 	arg_9_0.levelTxt.text = "Lv." .. var_9_2
@@ -81,7 +81,7 @@ function var_0_0.UpdateConsume(arg_10_0, arg_10_1)
 			local var_11_0 = var_10_0[arg_11_1 + 1]
 			local var_11_1 = Drop.Create(var_11_0)
 
-			updateDrop(arg_11_2, var_11_1)
+			updateCustomDrop(arg_11_2, var_11_1)
 
 			local var_11_2 = var_11_1:getOwnedCount()
 			local var_11_3 = setColorStr(var_11_2, var_11_2 >= var_11_1.count and COLOR_GREEN or COLOR_RED)

@@ -556,4 +556,14 @@ function var_0_0.GetGroupPayCount(arg_67_0, arg_67_1)
 	return 0
 end
 
+function var_0_0.SpecialBannerBlockCheck(arg_68_0, arg_68_1)
+	if not LOCK_SHOP_BANNER_US then
+		return true
+	end
+
+	local var_68_0, var_68_1 = unpack(getGameset("levellimit_shopbanner"))
+
+	return var_68_0 <= arg_68_1.level or arg_68_0.name ~= "banner_big" or table.contains(var_68_1, arg_68_0.id)
+end
+
 return var_0_0

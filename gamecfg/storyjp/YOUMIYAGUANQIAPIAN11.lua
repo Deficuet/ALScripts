@@ -30,7 +30,7 @@ return {
 			bgName = "star_level_bg_307",
 			hidePaintObj = true,
 			say = "エレベーターで「はじまりのエリア」を離れると、青く輝く湖が一行の目に映った。",
-			bgm = "yumia-7",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,12 +204,13 @@ return {
 			}
 		},
 		{
-			actor = 900519,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_307",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 900519,
 			say = "レイニャも……手伝います！",
 			typewriter = {
 				speed = 0.05,

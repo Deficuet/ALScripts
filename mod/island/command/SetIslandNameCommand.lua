@@ -20,19 +20,17 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 	if var_1_2 == 2 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n1("确认选择当前名称\n后续可以在岛屿中进行修改"),
+			content = i18n("island_rename_tip"),
 			onYes = function()
 				arg_1_0:Send(var_1_1, var_1_2)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n1("确认将岛屿名称修改为:" .. var_1_1),
+			content = i18n("island_rename_confirm", var_1_1),
 			onYes = function()
 				arg_1_0:Send(var_1_1, var_1_2)
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	end
 end
@@ -46,23 +44,13 @@ function var_0_0.Send(arg_4_0, arg_4_1, arg_4_2)
 			local var_5_0 = getProxy(IslandProxy):GetIsland()
 
 			if not var_5_0:IsNew() then
-				local var_5_1 = var_5_0:GetModifyNameConsume()
-
-				for iter_5_0, iter_5_1 in ipairs({
-					var_5_1
-				}) do
-					local var_5_2 = Drop.New({
-						type = iter_5_1[1],
-						id = iter_5_1[2],
-						count = iter_5_1[3]
-					})
-
-					arg_4_0:sendNotification(GAME.CONSUME_ITEM, var_5_2)
-				end
+				-- block empty
 			end
 
 			var_5_0:SetName(arg_4_1)
-			arg_4_0:sendNotification(GAME.ISLAND_SET_NAME_DONE)
+			arg_4_0:sendNotification(GAME.ISLAND_SET_NAME_DONE, {
+				name = arg_4_1
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_5_0.ret] .. arg_5_0.ret)
 		end

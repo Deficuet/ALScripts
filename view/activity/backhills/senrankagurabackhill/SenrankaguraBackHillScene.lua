@@ -11,9 +11,9 @@ var_0_0.edge2area = {
 function var_0_0.init(arg_2_0)
 	var_0_0.super.init(arg_2_0)
 
-	arg_2_0.top = arg_2_0:findTF("top")
-	arg_2_0._bg = arg_2_0:findTF("BG")
-	arg_2_0._map = arg_2_0:findTF("map")
+	arg_2_0.top = arg_2_0._tf:Find("top")
+	arg_2_0._bg = arg_2_0._tf:Find("BG")
+	arg_2_0._map = arg_2_0._tf:Find("map")
 
 	for iter_2_0 = 0, arg_2_0._map.childCount - 1 do
 		local var_2_0 = arg_2_0._map:GetChild(iter_2_0)
@@ -22,7 +22,7 @@ function var_0_0.init(arg_2_0)
 		arg_2_0["map_" .. var_2_1] = var_2_0
 	end
 
-	arg_2_0._upper = arg_2_0:findTF("upper")
+	arg_2_0._upper = arg_2_0._tf:Find("upper")
 
 	for iter_2_1 = 0, arg_2_0._upper.childCount - 1 do
 		local var_2_2 = arg_2_0._upper:GetChild(iter_2_1)
@@ -40,13 +40,13 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("top/Back"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("top/Back"), function()
 		arg_3_0:onBackPressed()
 	end, SFX_CANCEL)
-	onButton(arg_3_0, arg_3_0:findTF("top/Home"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("top/Home"), function()
 		arg_3_0:quickExitFunc()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("top/Help"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("top/Help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.senrankagura_backhill_help.tip

@@ -1779,5 +1779,61 @@ pg.voice_actor_CN = {
 	[467] = {
 		code = 467,
 		actor_name = "春咲暖"
+	},
+	[468] = {
+		code = 468,
+		actor_name = "林鼓子"
+	},
+	[469] = {
+		code = 469,
+		actor_name = "和久井優"
+	},
+	[470] = {
+		code = 470,
+		actor_name = "河村梨恵"
+	},
+	[471] = {
+		code = 471,
+		actor_name = "橘茉莉花"
+	},
+	[472] = {
+		code = 472,
+		actor_name = "千菅春香"
+	},
+	[473] = {
+		code = 473,
+		actor_name = "小澤みのり"
+	},
+	[474] = {
+		code = 474,
+		actor_name = "高垣彩陽"
+	},
+	[475] = {
+		code = 475,
+		actor_name = "後藤彩佐"
+	},
+	[476] = {
+		code = 476,
+		actor_name = "新崎瑞季"
+	},
+	[477] = {
+		code = 477,
+		actor_name = "天知遥"
+	},
+	[478] = {
+		code = 478,
+		actor_name = "矢野優美華"
+	},
+	[479] = {
+		code = 479,
+		actor_name = "逢坂成美"
+	},
+	[480] = {
+		code = 480,
+		actor_name = "小澤麗那"
+	},
+	[481] = {
+		code = 481,
+		actor_name = "山田美鈴"
 	}
 }

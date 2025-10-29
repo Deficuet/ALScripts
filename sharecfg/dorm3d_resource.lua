@@ -17,6 +17,10 @@ pg.dorm3d_resource = setmetatable({
 		[10517] = {
 			105171,
 			105173
+		},
+		[30707] = {
+			307071,
+			307073
 		}
 	},
 	all = {
@@ -27,7 +31,9 @@ pg.dorm3d_resource = setmetatable({
 		199031,
 		199032,
 		105171,
-		105173
+		105173,
+		307071,
+		307073
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -35,16 +41,19 @@ pg.base.dorm3d_resource = {
 	[202201] = {
 		ship_group = 20220,
 		name = "シリアス",
-		picture = "regular",
-		type = 1,
 		remarks = "",
-		animator = "",
+		type = 1,
+		stocking_pos = "",
+		stocking_geo_path = "",
 		shop_id = 0,
 		unlock = "",
 		unlock_text = "",
-		model_id = "tianlangxing_noshoes",
+		picture = "regular",
 		switch_anim = "",
+		animator = "",
 		wear_anim = "",
+		model_id = "tianlangxing_noshoes",
+		hx_model = "",
 		id = 202201,
 		head_Icon = "dorm3Dchar/tianlangxing",
 		tags = {},
@@ -53,17 +62,20 @@ pg.base.dorm3d_resource = {
 	[202202] = {
 		ship_group = 20220,
 		name = "シリアス・水着",
-		picture = "regular",
-		type = 2,
 		remarks = "",
-		animator = "",
+		type = 2,
+		stocking_pos = "",
+		stocking_geo_path = "",
 		shop_id = 270110,
 		wear_anim = "diantou",
 		unlock_text = "シリアスをビーチ配置で開放",
 		model_id = "tianlangxing_swim",
-		switch_anim = "ganjin",
+		hx_model = "",
+		animator = "",
 		id = 202202,
 		head_Icon = "dorm3Dchar/tianlangxing",
+		switch_anim = "ganjin",
+		picture = "regular",
 		tags = {
 			"beach",
 			"touch"
@@ -78,16 +90,19 @@ pg.base.dorm3d_resource = {
 	[302211] = {
 		ship_group = 30221,
 		name = "能代通常",
-		picture = "regular",
-		type = 1,
 		remarks = "",
-		animator = "",
+		type = 1,
+		stocking_pos = "",
+		stocking_geo_path = "",
 		shop_id = 0,
 		unlock = "",
 		unlock_text = "",
-		model_id = "nengdai_noshoes",
+		picture = "regular",
 		switch_anim = "",
+		animator = "",
 		wear_anim = "",
+		model_id = "nengdai_noshoes",
+		hx_model = "",
 		id = 302211,
 		head_Icon = "dorm3Dchar/nengdai",
 		tags = {},
@@ -96,17 +111,20 @@ pg.base.dorm3d_resource = {
 	[302212] = {
 		ship_group = 30221,
 		name = "能代水着",
-		picture = "regular",
-		type = 2,
 		remarks = "",
-		animator = "",
+		type = 2,
+		stocking_pos = "",
+		stocking_geo_path = "",
 		shop_id = 270111,
 		wear_anim = "shuohua_sikao",
 		unlock_text = "能代をビーチ配置で開放",
 		model_id = "nengdai_swim",
-		switch_anim = "shuohua_chuaishou",
+		hx_model = "",
+		animator = "",
 		id = 302212,
 		head_Icon = "dorm3Dchar/nengdai",
+		switch_anim = "shuohua_chuaishou",
+		picture = "regular",
 		tags = {
 			"beach",
 			"touch"
@@ -121,16 +139,19 @@ pg.base.dorm3d_resource = {
 	[199031] = {
 		ship_group = 19903,
 		name = "アンカレッジ通常",
-		picture = "regular",
-		type = 1,
 		remarks = "",
-		animator = "",
+		type = 1,
+		stocking_pos = "",
+		stocking_geo_path = "",
 		shop_id = 0,
 		unlock = "",
 		unlock_text = "",
-		model_id = "ankeleiqi_noshoes",
+		picture = "regular",
 		switch_anim = "",
+		animator = "",
 		wear_anim = "",
+		model_id = "ankeleiqi_noshoes",
+		hx_model = "",
 		id = 199031,
 		head_Icon = "dorm3Dchar/ankeleiqi",
 		tags = {},
@@ -139,17 +160,20 @@ pg.base.dorm3d_resource = {
 	[199032] = {
 		ship_group = 19903,
 		name = "アンカレッジ水着",
-		picture = "regular",
-		type = 2,
 		remarks = "",
-		animator = "",
+		type = 2,
+		stocking_pos = "",
+		stocking_geo_path = "",
 		shop_id = 270112,
 		wear_anim = "",
 		unlock_text = "アンカレッジをビーチ配置で開放",
 		model_id = "ankeleiqi_swim",
-		switch_anim = "",
+		hx_model = "",
+		animator = "",
 		id = 199032,
 		head_Icon = "dorm3Dchar/ankeleiqi",
+		switch_anim = "",
+		picture = "regular",
 		tags = {
 			"beach",
 			"touch"
@@ -164,16 +188,19 @@ pg.base.dorm3d_resource = {
 	[105171] = {
 		ship_group = 10517,
 		name = "部屋着",
-		picture = "regular",
-		type = 1,
 		remarks = "",
-		animator = "",
+		type = 1,
+		stocking_pos = "",
+		stocking_geo_path = "",
 		shop_id = 0,
 		unlock = "",
 		unlock_text = "",
-		model_id = "xinzexi_noshoes",
+		picture = "regular",
 		switch_anim = "",
+		animator = "",
 		wear_anim = "",
+		model_id = "xinzexi_noshoes",
+		hx_model = "",
 		id = 105171,
 		head_Icon = "dorm3Dchar/xinzexi",
 		tags = {},
@@ -188,17 +215,20 @@ pg.base.dorm3d_resource = {
 	[105173] = {
 		ship_group = 10517,
 		name = "バニー",
-		picture = "regular",
-		type = 2,
 		remarks = "",
-		animator = "",
+		type = 2,
+		stocking_pos = "",
+		stocking_geo_path = "",
 		shop_id = 270113,
 		wear_anim = "",
 		unlock_text = "カフェで着せ替えを開放",
 		model_id = "xinzexi_bunny",
-		switch_anim = "",
+		hx_model = "",
+		animator = "",
 		id = 105173,
-		head_Icon = "dorm3Dchar/tianlangxing",
+		head_Icon = "dorm3Dchar/xinzexi",
+		switch_anim = "",
+		picture = "regular",
 		tags = {
 			"cafe",
 			"touch"
@@ -207,6 +237,67 @@ pg.base.dorm3d_resource = {
 			5,
 			16,
 			10517
+		},
+		hidden_part = {}
+	},
+	[307071] = {
+		ship_group = 30707,
+		name = "部屋着",
+		remarks = "",
+		type = 1,
+		picture = "regular",
+		animator = "",
+		shop_id = 0,
+		unlock = "",
+		unlock_text = "",
+		model_id = "dafeng_noshoes",
+		hx_model = "",
+		switch_anim = "",
+		id = 307071,
+		head_Icon = "dorm3Dchar/dafeng",
+		wear_anim = "",
+		tags = {},
+		hidden_part = {
+			{
+				1,
+				"oversleeve",
+				"all/cloth_2_geo"
+			}
+		},
+		stocking_pos = {
+			1,
+			1
+		},
+		stocking_geo_path = {
+			"all/stocking_geo_l",
+			"all/stocking_geo_r"
+		}
+	},
+	[307073] = {
+		ship_group = 30707,
+		name = "バニー",
+		remarks = "",
+		type = 2,
+		stocking_pos = "",
+		stocking_geo_path = "",
+		shop_id = 270114,
+		wear_anim = "",
+		unlock_text = "カフェで着せ替えを開放",
+		model_id = "dafeng_bunny",
+		hx_model = "",
+		animator = "",
+		id = 307073,
+		head_Icon = "dorm3Dchar/dafeng",
+		switch_anim = "",
+		picture = "regular",
+		tags = {
+			"cafe",
+			"touch"
+		},
+		unlock = {
+			5,
+			16,
+			30707
 		},
 		hidden_part = {}
 	}

@@ -63,26 +63,26 @@ function var_0_0.GetFlagShip(arg_8_0)
 end
 
 function var_0_0.init(arg_9_0)
-	arg_9_0.bg = arg_9_0:findTF("bg")
-	arg_9_0.backBtn = arg_9_0:findTF("top/frame/back")
-	arg_9_0.mainViewCg = arg_9_0:findTF("adapt"):GetComponent(typeof(CanvasGroup))
+	arg_9_0.bg = arg_9_0._tf:Find("bg")
+	arg_9_0.backBtn = arg_9_0._tf:Find("top/frame/back")
+	arg_9_0.mainViewCg = arg_9_0._tf:Find("adapt"):GetComponent(typeof(CanvasGroup))
 	arg_9_0.mainTr = arg_9_0.mainViewCg.gameObject.transform
-	arg_9_0.painting = arg_9_0:findTF("adapt/paint")
-	arg_9_0.btnContainer = arg_9_0:findTF("adapt/btns")
-	arg_9_0.switchSkinBtn = arg_9_0:findTF("adapt/btns/swichSkin_btn")
-	arg_9_0.replaceBtn = arg_9_0:findTF("adapt/btns/replace_btn")
+	arg_9_0.painting = arg_9_0._tf:Find("adapt/paint")
+	arg_9_0.btnContainer = arg_9_0._tf:Find("adapt/btns")
+	arg_9_0.switchSkinBtn = arg_9_0._tf:Find("adapt/btns/swichSkin_btn")
+	arg_9_0.replaceBtn = arg_9_0._tf:Find("adapt/btns/replace_btn")
 	arg_9_0.replaceBtnTip = arg_9_0.replaceBtn:Find("tip")
-	arg_9_0.cryptolaliaBtn = arg_9_0:findTF("adapt/btns/cryptolalia_btn")
-	arg_9_0.switchSkinBtnTag = arg_9_0:findTF("Tag", arg_9_0.switchSkinBtn)
-	arg_9_0.titlt = arg_9_0:findTF("top/frame/title")
-	arg_9_0.titltNative = arg_9_0:findTF("top/frame/title_native")
-	arg_9_0.titltRandom = arg_9_0:findTF("top/frame/title_random")
+	arg_9_0.cryptolaliaBtn = arg_9_0._tf:Find("adapt/btns/cryptolalia_btn")
+	arg_9_0.switchSkinBtnTag = arg_9_0.switchSkinBtn:Find("Tag")
+	arg_9_0.titlt = arg_9_0._tf:Find("top/frame/title")
+	arg_9_0.titltNative = arg_9_0._tf:Find("top/frame/title_native")
+	arg_9_0.titltRandom = arg_9_0._tf:Find("top/frame/title_random")
 
-	local var_9_0 = arg_9_0:findTF("detail")
+	local var_9_0 = arg_9_0._tf:Find("detail")
 
 	arg_9_0.detailCg = GetOrAddComponent(var_9_0, typeof(CanvasGroup))
 
-	local var_9_1 = arg_9_0:findTF("adapt/tpl")
+	local var_9_1 = arg_9_0._tf:Find("adapt/tpl")
 
 	setActive(var_9_1, false)
 
@@ -94,22 +94,22 @@ function var_0_0.init(arg_9_0)
 	}
 
 	for iter_9_0 = 1, #arg_9_0.btns do
-		arg_9_0.btns[iter_9_0]:setParent(arg_9_0:findTF("adapt/toggleBtns"), #arg_9_0.btns - iter_9_0)
+		arg_9_0.btns[iter_9_0]:setParent(arg_9_0._tf:Find("adapt/toggleBtns"), #arg_9_0.btns - iter_9_0)
 	end
 
-	arg_9_0.btnLive2dReset = arg_9_0:findTF("adapt/btnLive2dReset")
+	arg_9_0.btnLive2dReset = arg_9_0._tf:Find("adapt/btnLive2dReset")
 
 	GetComponent(findTF(arg_9_0.btnLive2dReset, "img"), typeof(Image)):SetNativeSize()
 	GetComponent(arg_9_0.btnLive2dReset, typeof(Image)):SetNativeSize()
-	SetParent(arg_9_0.btnLive2dReset, arg_9_0:findTF("adapt/toggleBtns"))
+	SetParent(arg_9_0.btnLive2dReset, arg_9_0._tf:Find("adapt/toggleBtns"))
 
 	arg_9_0.shipsPage = PlayerVitaeShipsPage.New(arg_9_0._tf, arg_9_0.event, arg_9_0.contextData)
 	arg_9_0.detailPage = PlayerVitaeDetailPage.New(var_9_0, arg_9_0.event, arg_9_0.contextData)
 
-	setParent(arg_9_0:findTF("adapt/toggleBtns"), arg_9_0:findTF("detail"), true)
+	setParent(arg_9_0._tf:Find("adapt/toggleBtns"), arg_9_0._tf:Find("detail"), true)
 
 	arg_9_0.contextData.renamePage = PlayerVitaeRenamePage.New(arg_9_0._tf, arg_9_0.event)
-	arg_9_0.topFrame = arg_9_0:findTF("top/frame")
+	arg_9_0.topFrame = arg_9_0._tf:Find("top/frame")
 
 	local var_9_2 = PlayerVitaeDetailPage.PreCalcAspect(var_9_0, 1080)
 

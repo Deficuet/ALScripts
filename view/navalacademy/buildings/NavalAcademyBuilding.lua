@@ -4,7 +4,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	pg.DelegateInfo.New(arg_1_0)
 
 	arg_1_0.parent = arg_1_1
-	arg_1_0._tf = arg_1_1:findTF("academyMap/map/" .. arg_1_0:GetGameObjectName())
+	arg_1_0._tf = arg_1_1._tf:Find("academyMap/map/" .. arg_1_0:GetGameObjectName())
 	arg_1_0.nameTxt = findTF(arg_1_0._tf, "name/Text"):GetComponent(typeof(Text))
 	arg_1_0.tip = findTF(arg_1_0._tf, "tip")
 end

@@ -11,7 +11,7 @@ end
 function var_0_0.onBackPressed(arg_3_0)
 	if isActive(arg_3_0.rtHelpPanel) then
 		setActive(arg_3_0.rtHelpPanel)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_3_0.rtHelpPanel, arg_3_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_3_0.rtHelpPanel, arg_3_0._tf)
 
 		return
 	end

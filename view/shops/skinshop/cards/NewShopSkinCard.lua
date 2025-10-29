@@ -4,8 +4,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0._go = arg_1_1
 	arg_1_0._tf = tf(arg_1_1)
 	arg_1_0._content = arg_1_0._tf:Find("frame/content")
-	arg_1_0._mask = arg_1_0._tf:Find("frame/mask")
-	arg_1_0._icon = arg_1_0._tf:Find("frame/content/main/bg/icon"):GetComponent(typeof(Image))
+	arg_1_0._icon = arg_1_0._tf:Find("frame/content/main/bg/mask/icon"):GetComponent(typeof(Image))
 	arg_1_0._priceTF = arg_1_0._tf:Find("frame/content/main/bg/price")
 
 	setActive(arg_1_0._priceTF, false)
@@ -14,14 +13,12 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0._priceTxt = arg_1_0._priceTF:Find("gem/Text"):GetComponent(typeof(Text))
 	arg_1_0._opriceTxt = arg_1_0._priceTF:Find("originalprice"):GetComponent(typeof(Text))
 	arg_1_0.tagImg = arg_1_0._tf:Find("frame/content/top/tag_activity"):GetComponent(typeof(Image))
-	arg_1_0.tagEnImg = arg_1_0.tagImg.gameObject.transform:Find("Image"):GetComponent(typeof(Image))
-	arg_1_0.txt = arg_1_0._tf:Find("frame/content/top/Text"):GetComponent(typeof(Text))
-	arg_1_0.txt.text = ""
 	arg_1_0.discountTag = arg_1_0._tf:Find("frame/content/top/tag_discount")
 	arg_1_0.discountTagOffTxt = arg_1_0.discountTag:Find("Text"):GetComponent(typeof(Text))
-	arg_1_0.timelimitTag = arg_1_0._tf:Find("frame/content/top/tag_timelimit")
 	arg_1_0.isSelected = false
-	arg_1_0._icon.transform.localScale = Vector3.zero
+	arg_1_0.probability = arg_1_0._tf:Find("frame/content/top/tag_probability")
+
+	setActive(arg_1_0.probability, false)
 end
 
 local var_0_1 = 1
@@ -101,7 +98,7 @@ local function var_0_12(arg_2_0, arg_2_1)
 	end
 end
 
-function var_0_0.Update(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
+function var_0_0.Update(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 	arg_3_0.commodity = arg_3_1
 	arg_3_0.isReturn = arg_3_3
 
@@ -113,12 +110,10 @@ function var_0_0.Update(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
 	local var_3_2 = var_3_1[var_3_0].prefab
 
 	arg_3_0._icon.sprite = nil
-	arg_3_0._icon.transform.localScale = Vector3.zero
 
 	LoadSpriteAsync("shipYardIcon/" .. var_3_2, function(arg_4_0)
 		if not IsNil(arg_3_0._icon) then
 			arg_3_0._icon.sprite = arg_4_0
-			arg_3_0._icon.transform.localScale = Vector3.one
 		end
 	end)
 
@@ -156,8 +151,6 @@ function var_0_0.Update(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
 			arg_3_0.discountTagOffTxt.text = string.format("%0.2f", var_3_10) .. "%"
 		elseif var_3_11 == var_0_7 then
 			var_3_4 = true
-
-			setActive(arg_3_0.timelimitTag, true)
 		else
 			local var_3_12 = var_0_11[var_3_11][1]
 			local var_3_13 = var_0_11[var_3_11][2]
@@ -167,16 +160,9 @@ function var_0_0.Update(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
 			if arg_3_0.tagImg.enabled then
 				arg_3_0.tagImg.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", "tag_" .. var_3_12)
 			end
-
-			arg_3_0.tagEnImg.enabled = var_3_13 and var_3_13 ~= ""
-
-			if arg_3_0.tagEnImg.enabled then
-				arg_3_0.tagEnImg.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", "en_text_" .. var_3_13 .. "_text")
-			end
 		end
 	end
 
-	setActive(arg_3_0.timelimitTag, var_3_5 and var_3_4)
 	setActive(arg_3_0.tagImg.gameObject, var_3_5 and not var_3_3 and not var_3_4)
 	setActive(arg_3_0.discountTag, var_3_5 and var_3_3)
 
@@ -186,27 +172,33 @@ function var_0_0.Update(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
 		y = var_3_14
 	})
 	arg_3_0:UpdateSelected(arg_3_2)
+
+	if arg_3_4 then
+		setActive(arg_3_0.probability, true)
+
+		local var_3_15 = arg_3_4 or 0
+
+		setText(arg_3_0.probability:Find("Text"), " " .. string.format("%0.1f", var_3_15 / 100) .. "%")
+	end
 end
 
 function var_0_0.UpdateSelected(arg_6_0, arg_6_1)
 	if arg_6_0.isSelected ~= arg_6_1 then
 		arg_6_0.isSelected = arg_6_1
 
-		local var_6_0 = arg_6_1 and -26 or -126
+		local var_6_0 = arg_6_1 and -7.8 or -61
 
 		arg_6_0._content.localPosition = Vector3(0, var_6_0, 0)
 
 		local var_6_1 = arg_6_0.commodity.type == Goods.TYPE_SKIN
 
 		setActive(arg_6_0._priceTF, arg_6_1 and var_6_1)
-		setActive(arg_6_0._mask, not arg_6_1)
 	end
 end
 
 function var_0_0.Dispose(arg_7_0)
 	arg_7_0:UpdateSelected(false)
 
-	arg_7_0._icon.transform.localScale = Vector3.one
 	arg_7_0._go = nil
 	arg_7_0._tf = nil
 end

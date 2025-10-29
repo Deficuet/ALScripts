@@ -120,11 +120,11 @@ local function var_0_2(arg_1_0, arg_1_1)
 end
 
 function var_0_0.OnInit(arg_13_0)
-	arg_13_0.listPanel = arg_13_0:findTF("list_panel")
-	arg_13_0.scolrect = arg_13_0:findTF("scrollrect", arg_13_0.listPanel):GetComponent("LScrollRect")
-	arg_13_0.confirmBtn = arg_13_0:findTF("confirm", arg_13_0.listPanel)
-	arg_13_0.previewBtn = arg_13_0:findTF("preview", arg_13_0.listPanel)
-	arg_13_0.lockBtn = arg_13_0:findTF("lock", arg_13_0.listPanel)
+	arg_13_0.listPanel = arg_13_0._tf:Find("list_panel")
+	arg_13_0.scolrect = arg_13_0.listPanel:Find("scrollrect"):GetComponent("LScrollRect")
+	arg_13_0.confirmBtn = arg_13_0.listPanel:Find("confirm")
+	arg_13_0.previewBtn = arg_13_0.listPanel:Find("preview")
+	arg_13_0.lockBtn = arg_13_0.listPanel:Find("lock")
 
 	function arg_13_0.scolrect.onInitItem(arg_14_0)
 		arg_13_0:OnInitItem(arg_14_0)
@@ -139,11 +139,11 @@ function var_0_0.OnInit(arg_13_0)
 	end
 
 	arg_13_0.cards = {}
-	arg_13_0.totalCount = arg_13_0:findTF("total_count/Text"):GetComponent(typeof(Text))
-	arg_13_0.preview = arg_13_0:findTF("preview")
-	arg_13_0.sea = arg_13_0:findTF("preview/sea")
+	arg_13_0.totalCount = arg_13_0._tf:Find("total_count/Text"):GetComponent(typeof(Text))
+	arg_13_0.preview = arg_13_0._tf:Find("preview")
+	arg_13_0.sea = arg_13_0._tf:Find("preview/sea")
 	arg_13_0.rawImage = arg_13_0.sea:GetComponent("RawImage")
-	arg_13_0.uiLayer = arg_13_0:findTF("preview/ui")
+	arg_13_0.uiLayer = arg_13_0._tf:Find("preview/ui")
 
 	setText(arg_13_0.preview:Find("bg/title/Image"), i18n("word_preview"))
 	setText(arg_13_0.confirmBtn:Find("Text"), i18n("attire_combatui_confirm"))

@@ -5,26 +5,26 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.eventList = UIItemList.New(arg_2_0:findTF("eventlist/content"), arg_2_0:findTF("eventlist/content/tpl"))
-	arg_2_0.reportBtn = arg_2_0:findTF("report_btn")
+	arg_2_0.eventList = UIItemList.New(arg_2_0._tf:Find("eventlist/content"), arg_2_0._tf:Find("eventlist/content/tpl"))
+	arg_2_0.reportBtn = arg_2_0._tf:Find("report_btn")
 	arg_2_0.reportTip = arg_2_0.reportBtn:Find("tip")
 	arg_2_0.reportTipTxt = arg_2_0.reportBtn:Find("tip/Text"):GetComponent(typeof(Text))
-	arg_2_0.formationBtn = arg_2_0:findTF("formation_btn")
-	arg_2_0.missionList = arg_2_0:findTF("missionlist")
-	arg_2_0.pathContains = arg_2_0:findTF("missionlist/path")
+	arg_2_0.formationBtn = arg_2_0._tf:Find("formation_btn")
+	arg_2_0.missionList = arg_2_0._tf:Find("missionlist")
+	arg_2_0.pathContains = arg_2_0._tf:Find("missionlist/path")
 	arg_2_0.tpl = arg_2_0:getTpl("tpl", arg_2_0.pathContains)
-	arg_2_0.line = arg_2_0:findTF("resource/line")
-	arg_2_0.lineHead = arg_2_0:findTF("resource/head")
-	arg_2_0.adapter = arg_2_0:findTF("resource/adapter")
-	arg_2_0.bg = arg_2_0:findTF("bg"):GetComponent(typeof(Image))
-	arg_2_0.titleTF = arg_2_0:findTF("title")
-	arg_2_0.nameTxt = arg_2_0:findTF("title/Text"):GetComponent(typeof(Text))
-	arg_2_0.descPanel = arg_2_0:findTF("missionlist/path/desc_panel")
+	arg_2_0.line = arg_2_0._tf:Find("resource/line")
+	arg_2_0.lineHead = arg_2_0._tf:Find("resource/head")
+	arg_2_0.adapter = arg_2_0._tf:Find("resource/adapter")
+	arg_2_0.bg = arg_2_0._tf:Find("bg"):GetComponent(typeof(Image))
+	arg_2_0.titleTF = arg_2_0._tf:Find("title")
+	arg_2_0.nameTxt = arg_2_0._tf:Find("title/Text"):GetComponent(typeof(Text))
+	arg_2_0.descPanel = arg_2_0._tf:Find("missionlist/path/desc_panel")
 	arg_2_0.descPanelTag = arg_2_0.descPanel:Find("Image"):GetComponent(typeof(Image))
 
-	setText(arg_2_0:findTF("title/timer/label"), i18n("guild_time_remaining_tip"))
+	setText(arg_2_0._tf:Find("title/timer/label"), i18n("guild_time_remaining_tip"))
 
-	arg_2_0.endEventTimerTxt = arg_2_0:findTF("title/timer/Text"):GetComponent(typeof(Text))
+	arg_2_0.endEventTimerTxt = arg_2_0._tf:Find("title/timer/Text"):GetComponent(typeof(Text))
 	arg_2_0.timeView = GuildEventTimerView.New()
 end
 
@@ -189,13 +189,13 @@ function var_0_0.UpdateEvent(arg_15_0, arg_15_1, arg_15_2)
 		end
 
 		if not arg_15_2:IsUnlock(arg_15_0.guildVO.level) then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_level_no_enough"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_level_no_enough"))
 
 			return
 		end
 
 		if var_15_0 and var_15_0.id ~= arg_15_2.id then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_open_event_info_when_exist_active", var_15_0:getConfig("name")))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_open_event_info_when_exist_active", var_15_0:getConfig("name")))
 
 			return
 		end

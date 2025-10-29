@@ -14,8 +14,8 @@ function var_0_0.OnUpdateFlush(arg_3_0)
 	for iter_3_0, iter_3_1 in ipairs(arg_3_0.taskVOList) do
 		local var_3_0 = iter_3_1.state
 		local var_3_1 = arg_3_0.progress:GetChild(iter_3_0 - 1)
-		local var_3_2 = arg_3_0:findTF("Empty", var_3_1)
-		local var_3_3 = arg_3_0:findTF("Full", var_3_1)
+		local var_3_2 = var_3_1:Find("Empty")
+		local var_3_3 = var_3_1:Find("Full")
 
 		if var_3_0 < SkirmishVO.StateClear then
 			setActive(var_3_2, true)
@@ -28,10 +28,10 @@ function var_0_0.OnUpdateFlush(arg_3_0)
 end
 
 function var_0_0.initUI(arg_4_0)
-	arg_4_0.bg = arg_4_0:findTF("AD")
-	arg_4_0.progress = arg_4_0:findTF("Progress")
-	arg_4_0.helpBtn = arg_4_0:findTF("HelpBtn")
-	arg_4_0.battleBtn = arg_4_0:findTF("BattleBtn")
+	arg_4_0.bg = arg_4_0._tf:Find("AD")
+	arg_4_0.progress = arg_4_0._tf:Find("Progress")
+	arg_4_0.helpBtn = arg_4_0._tf:Find("HelpBtn")
+	arg_4_0.battleBtn = arg_4_0._tf:Find("BattleBtn")
 end
 
 function var_0_0.initData(arg_5_0)
@@ -49,8 +49,7 @@ function var_0_0.addListener(arg_6_0)
 		if pg.gametip.help_tempesteve then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
-				helps = pg.gametip.help_tempesteve.tip,
-				weight = LayerWeightConst.TOP_LAYER
+				helps = pg.gametip.help_tempesteve.tip
 			})
 		end
 	end, SFX_PANEL)

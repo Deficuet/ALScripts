@@ -1,4 +1,4 @@
-local var_0_0 = class("IslandPlayerBuilder", import(".IslandUnitBuilder"))
+local var_0_0 = class("IslandPlayerBuilder", import(".IslandGenericBuilder"))
 
 function var_0_0.GetModule(arg_1_0, arg_1_1, arg_1_2)
 	return IslandPlayerUnit.New(arg_1_1, arg_1_2)
@@ -8,7 +8,9 @@ function var_0_0.SetTag(arg_2_0, arg_2_1)
 	arg_2_1.tag = IslandConst.TAG_PLAYER
 end
 
-function var_0_0.AddComponents(arg_3_0, arg_3_1)
+function var_0_0.AddComponents(arg_3_0, arg_3_1, arg_3_2)
+	arg_3_1:GetComponent(typeof(WorldObjectItem)).isPlayer = true
+
 	local var_3_0 = GetOrAddComponent(arg_3_1, typeof(CharacterController))
 
 	var_3_0.slopeLimit = 50
@@ -20,6 +22,40 @@ function var_0_0.AddComponents(arg_3_0, arg_3_1)
 	var_3_0.center = Vector3(0, 0.96, 0)
 
 	GetOrAddComponent(arg_3_1, typeof(CharacterHandleController))
+end
+
+function var_0_0.LoadAsset(arg_4_0, arg_4_1, arg_4_2)
+	local var_4_0 = arg_4_1.modelId
+
+	arg_4_0:GetPoolMgr():GetCommanderModel({
+		model = arg_4_1:GetAssetPath(),
+		animator = arg_4_1:GetAnimator()
+	}, arg_4_2)
+end
+
+function var_0_0.LoadOtherPart(arg_5_0, arg_5_1, arg_5_2, arg_5_3, arg_5_4)
+	seriesAsync({
+		function(arg_6_0)
+			local var_6_0 = IslandAssetLoadDispatcher.Instance:Enqueue("island/jumpcurve/jumpcurve", "", typeof(JumpCurve), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_7_0)
+				arg_5_2:InitJump(arg_7_0.curve)
+				arg_6_0()
+			end), true, true)
+
+			arg_5_0:AddLoadingID(var_6_0)
+		end,
+		function(arg_8_0)
+			local var_8_0 = IslandShipDressHelperNew.New()
+
+			arg_5_2:SetShipDressHelper(var_8_0)
+			var_8_0:PreLoadShipDressupItem(arg_5_1, 0, arg_8_0)
+		end
+	}, function()
+		existCall(arg_5_4)
+	end)
+end
+
+function var_0_0.Recycle(arg_10_0, arg_10_1, arg_10_2)
+	arg_10_0:GetPoolMgr():ReturnCommanderModel(arg_10_2)
 end
 
 return var_0_0

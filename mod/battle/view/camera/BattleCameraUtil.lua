@@ -26,10 +26,9 @@ function var_0_4.ActiveMainCamera(arg_2_0)
 end
 
 function var_0_4.Initialize(arg_3_0)
-	arg_3_0._cameraSpeed = nil
 	arg_3_0._cameraTF.localPosition = var_0_3.CAMERA_INIT_POS
 
-	pg.CameraFixMgr.GetInstance():SetCameraOrthographicSize(arg_3_0._camera, 20)
+	CameraMgr.instance:SetCameraOrthographicSize(arg_3_0._camera, 20)
 	var_0_1.UpdateCameraPositionArgs()
 	arg_3_0:setArrowPoint()
 
@@ -59,10 +58,9 @@ function var_0_4.Clear(arg_4_0)
 
 	arg_4_0._cameraTF.localPosition = Vector3(0, 62, -10)
 
-	pg.CameraFixMgr.GetInstance():SetCameraOrthographicSize(arg_4_0._camera, 20)
+	CameraMgr.instance:SetCameraOrthographicSize(arg_4_0._camera, 20)
 
 	arg_4_0._uiMediator = nil
-	arg_4_0._cameraSpeed = nil
 end
 
 function var_0_4.SetMapData(arg_5_0, arg_5_1, arg_5_2, arg_5_3, arg_5_4)
@@ -258,10 +256,10 @@ end
 function var_0_4.ZoomCamara(arg_25_0, arg_25_1, arg_25_2, arg_25_3, arg_25_4)
 	arg_25_3 = arg_25_3 or 1.6
 	arg_25_2 = arg_25_2 or var_0_3.CAMERA_SIZE
-	arg_25_1 = arg_25_1 or pg.CameraFixMgr.GetInstance():GetCameraOrthographicSize(arg_25_0._camera)
+	arg_25_1 = arg_25_1 or CameraMgr.instance:GetCameraOrthographicSize(arg_25_0._camera)
 
 	local var_25_0 = LeanTween.value(go(arg_25_0._camera), arg_25_1, arg_25_2, arg_25_3):setOnUpdate(System.Action_float(function(arg_26_0)
-		pg.CameraFixMgr.GetInstance():SetCameraOrthographicSize(arg_25_0._camera, arg_26_0)
+		CameraMgr.instance:SetCameraOrthographicSize(arg_25_0._camera, arg_26_0)
 	end))
 
 	if arg_25_4 then

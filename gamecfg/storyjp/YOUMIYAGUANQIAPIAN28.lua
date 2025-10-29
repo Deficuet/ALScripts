@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "ああ——潮風と波の音ぉ～やっぱり海を自由に駆けるのこそ、トレジャーハンターの生き様だよね！",
-			bgm = "yumia-53",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

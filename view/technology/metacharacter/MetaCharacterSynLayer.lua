@@ -35,11 +35,11 @@ function var_0_0.willExit(arg_4_0)
 end
 
 function var_0_0.initUITextTips(arg_5_0)
-	local var_5_0 = arg_5_0:findTF("PTPanel/TipText")
+	local var_5_0 = arg_5_0._tf:Find("PTPanel/TipText")
 
 	setText(var_5_0, i18n("meta_cur_pt"))
 
-	local var_5_1 = arg_5_0:findTF("TaskPanel/ActTimePanel/Tip")
+	local var_5_1 = arg_5_0._tf:Find("TaskPanel/ActTimePanel/Tip")
 
 	setText(var_5_1, i18n("meta_acttime_limit"))
 end
@@ -60,25 +60,25 @@ function var_0_0.updateData(arg_7_0)
 end
 
 function var_0_0.findUI(arg_8_0)
-	arg_8_0.shipImg = arg_8_0:findTF("ShipImg")
-	arg_8_0.ptPanel = arg_8_0:findTF("PTPanel")
-	arg_8_0.ptSynRateText = arg_8_0:findTF("ProgressText", arg_8_0.ptPanel)
-	arg_8_0.ptNumText = arg_8_0:findTF("Count/NumText", arg_8_0.ptPanel)
-	arg_8_0.ptIconLeft = arg_8_0:findTF("Icon", arg_8_0.ptPanel)
-	arg_8_0.showWayBtn = arg_8_0:findTF("ShowWayBtn", arg_8_0.ptPanel)
-	arg_8_0.taskPanel = arg_8_0:findTF("TaskPanel")
-	arg_8_0.taskTplContainer = arg_8_0:findTF("Scroll/Viewport/Content", arg_8_0.taskPanel)
-	arg_8_0.taskTpl = arg_8_0:findTF("TaskTpl", arg_8_0.taskPanel)
-	arg_8_0.getAllBtn = arg_8_0:findTF("BtnGetAll", arg_8_0.taskPanel)
-	arg_8_0.getAllBtnDisable = arg_8_0:findTF("BtnGetAllDisable", arg_8_0.taskPanel)
-	arg_8_0.getNextBtn = arg_8_0:findTF("BtnGetMore", arg_8_0.taskPanel)
+	arg_8_0.shipImg = arg_8_0._tf:Find("ShipImg")
+	arg_8_0.ptPanel = arg_8_0._tf:Find("PTPanel")
+	arg_8_0.ptSynRateText = arg_8_0.ptPanel:Find("ProgressText")
+	arg_8_0.ptNumText = arg_8_0.ptPanel:Find("Count/NumText")
+	arg_8_0.ptIconLeft = arg_8_0.ptPanel:Find("Icon")
+	arg_8_0.showWayBtn = arg_8_0.ptPanel:Find("ShowWayBtn")
+	arg_8_0.taskPanel = arg_8_0._tf:Find("TaskPanel")
+	arg_8_0.taskTplContainer = arg_8_0.taskPanel:Find("Scroll/Viewport/Content")
+	arg_8_0.taskTpl = arg_8_0.taskPanel:Find("TaskTpl")
+	arg_8_0.getAllBtn = arg_8_0.taskPanel:Find("BtnGetAll")
+	arg_8_0.getAllBtnDisable = arg_8_0.taskPanel:Find("BtnGetAllDisable")
+	arg_8_0.getNextBtn = arg_8_0.taskPanel:Find("BtnGetMore")
 	arg_8_0.taskUIItemList = UIItemList.New(arg_8_0.taskTplContainer, arg_8_0.taskTpl)
 	arg_8_0.sizeH = GetComponent(arg_8_0.taskTpl, "LayoutElement").preferredHeight
 	arg_8_0.spaceH = GetComponent(arg_8_0.taskTplContainer, "VerticalLayoutGroup").spacing
 	arg_8_0.topH = GetComponent(arg_8_0.taskTplContainer, "VerticalLayoutGroup").padding.top
-	arg_8_0.scrollSC = GetComponent(arg_8_0:findTF("Scroll", arg_8_0.taskPanel), "ScrollRect")
-	arg_8_0.actTimePanel = arg_8_0:findTF("TaskPanel/ActTimePanel")
-	arg_8_0.actTimeText = arg_8_0:findTF("TaskPanel/ActTimePanel/Text")
+	arg_8_0.scrollSC = GetComponent(arg_8_0.taskPanel:Find("Scroll"), "ScrollRect")
+	arg_8_0.actTimePanel = arg_8_0._tf:Find("TaskPanel/ActTimePanel")
+	arg_8_0.actTimeText = arg_8_0._tf:Find("TaskPanel/ActTimePanel/Text")
 end
 
 function var_0_0.addListener(arg_9_0)
@@ -179,15 +179,15 @@ function var_0_0.updateTaskList(arg_18_0)
 end
 
 function var_0_0.updateTaskTpl(arg_20_0, arg_20_1, arg_20_2)
-	local var_20_0 = arg_20_0:findTF("Target/IndexText", arg_20_1)
-	local var_20_1 = arg_20_0:findTF("PT/Count/NumText", arg_20_1)
-	local var_20_2 = arg_20_0:findTF("PT/Icon", arg_20_1)
-	local var_20_3 = arg_20_0:findTF("Info/AwardInfo/NameMask/NameText", arg_20_1)
-	local var_20_4 = arg_20_0:findTF("Info/AwardInfo/SynProgressText", arg_20_1)
-	local var_20_5 = arg_20_0:findTF("Info/AwardInfo/Award/Item", arg_20_1)
-	local var_20_6 = arg_20_0:findTF("Info/AwardInfo/Award/Tag/Get", arg_20_1)
-	local var_20_7 = arg_20_0:findTF("Info/AwardInfo/Award/Tag/Got", arg_20_1)
-	local var_20_8 = arg_20_0:findTF("GotMask", arg_20_1)
+	local var_20_0 = arg_20_1:Find("Target/IndexText")
+	local var_20_1 = arg_20_1:Find("PT/Count/NumText")
+	local var_20_2 = arg_20_1:Find("PT/Icon")
+	local var_20_3 = arg_20_1:Find("Info/AwardInfo/NameMask/NameText")
+	local var_20_4 = arg_20_1:Find("Info/AwardInfo/SynProgressText")
+	local var_20_5 = arg_20_1:Find("Info/AwardInfo/Award/Item")
+	local var_20_6 = arg_20_1:Find("Info/AwardInfo/Award/Tag/Get")
+	local var_20_7 = arg_20_1:Find("Info/AwardInfo/Award/Tag/Got")
+	local var_20_8 = arg_20_1:Find("GotMask")
 
 	setText(var_20_0, arg_20_2)
 
@@ -201,7 +201,7 @@ function var_0_0.updateTaskTpl(arg_20_0, arg_20_1, arg_20_2)
 	updateDrop(var_20_5, var_20_10, {
 		hideName = true
 	})
-	onButton(arg_20_0, arg_20_0:findTF("Info/AwardInfo/Award", arg_20_1), function()
+	onButton(arg_20_0, arg_20_1:Find("Info/AwardInfo/Award"), function()
 		arg_20_0:emit(BaseUI.ON_DROP, var_20_10)
 	end, SFX_PANEL)
 	setText(var_20_3, shortenString(var_20_10:getConfig("name"), 6))
@@ -274,17 +274,16 @@ function var_0_0.enablePartialBlur(arg_25_0)
 		local var_25_0 = {}
 
 		table.insert(var_25_0, arg_25_0.taskPanel)
-		pg.UIMgr.GetInstance():OverlayPanelPB(arg_25_0._tf, {
-			pbList = var_25_0,
-			groupName = LayerWeightConst.GROUP_META,
-			weight = LayerWeightConst.BASE_LAYER - 1
+		arg_25_0:OverlayPanel(arg_25_0._tf, {
+			groupDelta = -1,
+			pbList = var_25_0
 		})
 	end
 end
 
 function var_0_0.disablePartialBlur(arg_26_0)
 	if arg_26_0._tf then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_26_0._tf)
+		arg_26_0:UnOverlayPanel(arg_26_0._tf)
 	end
 end
 

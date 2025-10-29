@@ -155,8 +155,7 @@ function var_0_0.ExtraDownload(arg_9_0)
 				content = i18n("file_down_mgr_error", "", ""),
 				onYes = var_12_0,
 				onNo = var_12_1,
-				onClose = var_12_1,
-				weight = LayerWeightConst.TOP_LAYER
+				onClose = var_12_1
 			})
 		end
 	end
@@ -245,7 +244,7 @@ function var_0_0.GetDownloadResourceDic()
 	return var_17_2
 end
 
-function var_0_0.DelDir(arg_18_0)
+function var_0_0.GetFilePathList(arg_18_0)
 	local var_18_0 = Application.persistentDataPath .. "/AssetBundles/"
 	local var_18_1 = var_18_0 .. arg_18_0
 
@@ -278,22 +277,40 @@ function var_0_0.DelDir(arg_18_0)
 	originalPrint("filePathList first:", tostring(var_18_2[1]))
 	originalPrint("filePathList last:", tostring(var_18_2[#var_18_2]))
 
-	local var_18_7 = #var_18_2
+	return var_18_2
+end
 
-	if var_18_7 > 0 then
-		local var_18_8 = System.Array.CreateInstance(typeof(System.String), var_18_7)
+function var_0_0.DelDir(arg_19_0)
+	local var_19_0 = var_0_0.GetFilePathList(arg_19_0)
+	local var_19_1 = #var_19_0
 
-		for iter_18_2 = 0, var_18_7 - 1 do
-			var_18_8[iter_18_2] = var_18_2[iter_18_2 + 1]
+	if var_19_1 > 0 then
+		local var_19_2 = System.Array.CreateInstance(typeof(System.String), var_19_1)
+
+		for iter_19_0 = 0, var_19_1 - 1 do
+			var_19_2[iter_19_0] = var_19_0[iter_19_0 + 1]
 		end
 
-		var_0_0.GetDormMgr():DelFile(var_18_8)
+		HotfixHelper.DeleteFileByShortPathArr(var_0_0.DormGroupName, var_19_2)
 	end
 end
 
-function var_0_0.DelRoom(arg_19_0, arg_19_1)
-	for iter_19_0, iter_19_1 in ipairs(arg_19_1) do
-		var_0_0.DelDir(var_0_1[iter_19_1] .. arg_19_0)
+function var_0_0.GetDelRoomSize(arg_20_0, arg_20_1)
+	local var_20_0 = 0
+
+	for iter_20_0, iter_20_1 in ipairs(arg_20_1) do
+		local var_20_1 = var_0_1[iter_20_1] .. arg_20_0
+		local var_20_2 = var_0_0.GetFilePathList(var_20_1)
+
+		var_20_0 = var_20_0 + var_0_0.GetDormMgr():GetCacheFileSize(var_20_2)
+	end
+
+	return HashUtil.BytesToString(var_20_0)
+end
+
+function var_0_0.DelRoom(arg_21_0, arg_21_1)
+	for iter_21_0, iter_21_1 in ipairs(arg_21_1) do
+		var_0_0.DelDir(var_0_1[iter_21_1] .. arg_21_0)
 	end
 end
 

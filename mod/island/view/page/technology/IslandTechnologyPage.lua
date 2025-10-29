@@ -5,165 +5,232 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.inviteBtn = arg_2_0._tf:Find("top/invite")
-	arg_2_0.centreInfoTF = arg_2_0._tf:Find("left")
+	arg_2_0.rtTop = arg_2_0._tf:Find("top")
 
-	local var_2_0 = arg_2_0._tf:Find("content")
+	setText(arg_2_0.rtTop:Find("title/Text"), i18n("island_technology_title"))
 
-	arg_2_0.typeUIList = UIItemList.New(var_2_0, var_2_0:GetChild(0))
-	arg_2_0.quickPanel = IslandTechQuickPanel.New(arg_2_0._tf, arg_2_0.event, arg_2_0.contextData)
-	arg_2_0.overviewPanel = IslandTechOverviewPanel.New(arg_2_0._tf, arg_2_0.event, arg_2_0.contextData)
+	arg_2_0.centreToggleTF = arg_2_0._tf:Find("adapt/types/1")
+	arg_2_0.centreTipTF = arg_2_0.centreToggleTF:Find("tip")
+
+	local var_2_0 = arg_2_0._tf:Find("adapt/types/content")
+
+	arg_2_0.typeUIList = UIItemList.New(var_2_0, var_2_0:Find("tpl"))
+
+	local var_2_1 = arg_2_0._tf:Find("adapt/pages")
+
+	arg_2_0.pages = {}
+
+	local var_2_2 = setmetatable({
+		onItemClick = function(arg_3_0, arg_3_1)
+			arg_2_0.detailPanel:ExecuteAction("Show", arg_3_0, arg_3_1)
+		end
+	}, {
+		__index = arg_2_0.contextData
+	})
+
+	arg_2_0.pages[IslandTechBelong.CENTRE] = IslandTechCentrePanel.New(var_2_1, arg_2_0.event, var_2_2)
+
+	for iter_2_0, iter_2_1 in ipairs(IslandTechBelong.COMMON_SHOW_TYPES) do
+		arg_2_0.pages[iter_2_1] = IslandTechTreePanel.New(var_2_1, arg_2_0.event, setmetatable({
+			type = iter_2_1
+		}, {
+			__index = var_2_2
+		}))
+	end
+
+	arg_2_0.quickPanel = IslandTechQuickPanel.New(arg_2_0._tf, arg_2_0.event, setmetatable({
+		onGetAwardDone = function(arg_4_0)
+			arg_2_0:OpenPage(IslandTechAwardPage, arg_4_0)
+		end
+	}, {
+		__index = arg_2_0.contextData
+	}))
+
+	arg_2_0.quickPanel:RegisterView(arg_2_0.viewComponent)
+
+	arg_2_0.detailPanel = IslandTechDetailPanel.New(arg_2_0._tf, arg_2_0.event, setmetatable({
+		onSelecteShip = function(arg_5_0)
+			local var_5_0 = pg.island_formula[arg_5_0].attribute
+
+			arg_2_0:OpenPage(IslandShipSelectPage, {
+				attrType = var_5_0,
+				confirmFunc = function(arg_6_0)
+					arg_2_0.detailPanel:ExecuteAction("OnShipSelected", arg_6_0[1])
+				end
+			})
+		end,
+		onFinishImmd = function(arg_7_0)
+			arg_2_0:emit(IslandMediator.ON_FINISH_TECH_IMMD, arg_7_0, function()
+				arg_2_0:OpenPage(IslandTechAwardPage, arg_7_0)
+			end)
+		end,
+		onGetAwardDone = function(arg_9_0)
+			arg_2_0:OpenPage(IslandTechAwardPage, arg_9_0)
+		end,
+		openTicketPage = function(arg_10_0)
+			arg_2_0:OpenPage(IslandTicketUsePage, IslandUseTicketCommand.TYPES.APPOINT, arg_10_0)
+		end,
+		ShowMsgBox = function(arg_11_0, arg_11_1)
+			arg_2_0:ShowMsgBox(arg_11_1)
+		end
+	}, {
+		__index = arg_2_0.contextData
+	}))
+
+	arg_2_0.detailPanel:RegisterView(arg_2_0.viewComponent)
 end
 
-function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0._tf:Find("top/back"), function()
-		arg_3_0:Hide()
+function var_0_0.OnInit(arg_12_0)
+	onButton(arg_12_0, arg_12_0.rtTop:Find("title/help"), function()
+		arg_12_0:ShowMsgBox({
+			type = IslandMsgBox.TYPE_WHITOUT_BTN,
+			content = i18n("island_helpbtn_technology")
+		})
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0._tf:Find("top/home"), function()
-		arg_3_0:emit(BaseUI.ON_HOME)
+	onButton(arg_12_0, arg_12_0.rtTop:Find("back"), function()
+		arg_12_0:Hide()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0.inviteBtn, function()
-		arg_3_0:OpenPage(IslandInvitePage)
-		arg_3_0:FoldSubViewPanelPanel()
+	onButton(arg_12_0, arg_12_0.rtTop:Find("home"), function()
+		arg_12_0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0.centreInfoTF:Find("centre"), function()
-		arg_3_0:OpenPage(IslandTechCentrePage)
-		arg_3_0:FoldSubViewPanelPanel()
+	onToggle(arg_12_0, arg_12_0.centreToggleTF, function(arg_16_0)
+		if arg_16_0 and arg_12_0.curPage ~= IslandTechBelong.CENTRE then
+			arg_12_0.curPage = IslandTechBelong.CENTRE
+
+			arg_12_0:SwitchPage()
+		end
 	end, SFX_PANEL)
 
-	arg_3_0.types = IslandTechBelong.COMMON_SHOW_TYPES
+	arg_12_0.commonTypes = IslandTechBelong.COMMON_SHOW_TYPES
 
-	arg_3_0.typeUIList:make(function(arg_8_0, arg_8_1, arg_8_2)
-		if arg_8_0 == UIItemList.EventInit then
-			arg_3_0:InitTypeItem(arg_8_1, arg_8_2)
-		elseif arg_8_0 == UIItemList.EventUpdate then
-			arg_3_0:UpdateTypeItem(arg_8_1, arg_8_2)
+	arg_12_0.typeUIList:make(function(arg_17_0, arg_17_1, arg_17_2)
+		if arg_17_0 == UIItemList.EventInit then
+			arg_12_0:InitTypeItem(arg_17_1, arg_17_2)
+		elseif arg_17_0 == UIItemList.EventUpdate then
+			arg_12_0:UpdateTypeItem(arg_17_1, arg_17_2)
 		end
 	end)
 end
 
-function var_0_0.AddListeners(arg_9_0)
-	arg_9_0:AddListener(GAME.ISLAND_START_DELEGATION_DONE, arg_9_0.Flush)
-	arg_9_0:AddListener(GAME.ISLAND_FINISH_TECH_IMMD_DONE, arg_9_0.Flush)
-	arg_9_0:AddListener(GAME.ISLAND_FINISH_DELEGATION_DONE, arg_9_0.Flush)
-	arg_9_0:AddListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, arg_9_0.Flush)
+function var_0_0.AddListeners(arg_18_0)
+	arg_18_0:AddListener(GAME.ISLAND_UNLOCK_TECH_DONE, arg_18_0.Flush)
+	arg_18_0:AddListener(GAME.ISLAND_START_DELEGATION_DONE, arg_18_0.Flush)
+	arg_18_0:AddListener(GAME.ISLAND_FINISH_TECH_IMMD_DONE, arg_18_0.CheckAutoUnlock)
+	arg_18_0:AddListener(GAME.ISLAND_FINISH_DELEGATION_DONE, arg_18_0.Flush)
+	arg_18_0:AddListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, arg_18_0.CheckAutoUnlock)
 end
 
-function var_0_0.RemoveListeners(arg_10_0)
-	arg_10_0:RemoveListener(GAME.ISLAND_START_DELEGATION_DONE, arg_10_0.Flush)
-	arg_10_0:RemoveListener(GAME.ISLAND_FINISH_TECH_IMMD_DONE, arg_10_0.Flush)
-	arg_10_0:RemoveListener(GAME.ISLAND_FINISH_DELEGATION_DONE, arg_10_0.Flush)
-	arg_10_0:RemoveListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, arg_10_0.Flush)
+function var_0_0.RemoveListeners(arg_19_0)
+	arg_19_0:RemoveListener(GAME.ISLAND_UNLOCK_TECH_DONE, arg_19_0.Flush)
+	arg_19_0:RemoveListener(GAME.ISLAND_START_DELEGATION_DONE, arg_19_0.Flush)
+	arg_19_0:RemoveListener(GAME.ISLAND_FINISH_TECH_IMMD_DONE, arg_19_0.CheckAutoUnlock)
+	arg_19_0:RemoveListener(GAME.ISLAND_FINISH_DELEGATION_DONE, arg_19_0.Flush)
+	arg_19_0:RemoveListener(GAME.ISLAND_GET_DELEGATION_AWARD_DONE, arg_19_0.CheckAutoUnlock)
 end
 
-function var_0_0.OnShow(arg_11_0)
-	arg_11_0:Flush()
-	arg_11_0:CheckAutoFinish()
-	arg_11_0:ShowSubViewPanel()
-end
+function var_0_0.InitTypeItem(arg_20_0, arg_20_1, arg_20_2)
+	local var_20_0 = arg_20_0.commonTypes[arg_20_1 + 1]
 
-function var_0_0.Flush(arg_12_0)
-	arg_12_0.techAgency = getProxy(IslandProxy):GetIsland():GetTechnologyAgency()
+	arg_20_2.name = var_20_0
 
-	arg_12_0.typeUIList:align(#arg_12_0.types)
-	arg_12_0:FlushCentre()
-	arg_12_0.quickPanel:ExecuteAction("Flush")
-	arg_12_0.overviewPanel:ExecuteAction("Flush")
-end
+	local var_20_1 = IslandTechBelong.Names[var_20_0]
 
-function var_0_0.CheckAutoFinish(arg_13_0)
-	local var_13_0 = {}
-	local var_13_1 = arg_13_0.techAgency:GetAutoFinishList()
+	setText(arg_20_2:Find("unsel"), var_20_1)
+	setText(arg_20_2:Find("sel/content/Text"), var_20_1)
+	LoadImageSpriteAsync("island/islandtechnology/tech_type_" .. IslandTechBelong.Fields[var_20_0], arg_20_2:Find("sel/content/Image"), true)
+	onToggle(arg_20_0, arg_20_2, function(arg_21_0)
+		if arg_21_0 and arg_20_0.curPage ~= var_20_0 then
+			arg_20_0.curPage = var_20_0
 
-	for iter_13_0, iter_13_1 in ipairs(var_13_1) do
-		table.insert(var_13_0, function(arg_14_0)
-			arg_13_0:emit(IslandMediator.ON_FINISH_TECH_IMMD, iter_13_1, arg_14_0)
-		end)
-	end
-
-	seriesAsync(var_13_0, function()
-		warning("auto finish end, cnt:", #var_13_1)
-	end)
-end
-
-function var_0_0.InitTypeItem(arg_16_0, arg_16_1, arg_16_2)
-	local var_16_0 = arg_16_0.types[arg_16_1 + 1]
-
-	setText(arg_16_2:Find("info/name"), IslandTechBelong.Names[var_16_0])
-	LoadImageSpriteAsync("islandtechnology/type_" .. IslandTechBelong.Fields[var_16_0], arg_16_2:Find("info/icon"))
-	onButton(arg_16_0, arg_16_2, function()
-		arg_16_0:OpenPage(IslandTechTreePage, var_16_0)
-		arg_16_0:FoldSubViewPanelPanel()
+			arg_20_0:SwitchPage()
+		end
 	end, SFX_PANEL)
 end
 
-function var_0_0.UpdateTypeItem(arg_18_0, arg_18_1, arg_18_2)
-	local var_18_0 = arg_18_0.types[arg_18_1 + 1]
-	local var_18_1 = arg_18_0.techAgency:GetPctByType(var_18_0)
+function var_0_0.UpdateTypeItem(arg_22_0, arg_22_1, arg_22_2)
+	local var_22_0 = arg_22_0.commonTypes[arg_22_1 + 1]
 
-	setText(arg_18_2:Find("info/Text"), var_18_1)
-	arg_18_0:UpdateProgress(arg_18_2:Find("info/progress"), var_18_1)
-	setActive(arg_18_2:Find("line"), var_18_1 == 100)
+	setActive(arg_22_2:Find("unsel/tip"), arg_22_0:IsReceiveByType(var_22_0))
+	setActive(arg_22_2:Find("sel/tip"), arg_22_0:IsReceiveByType(var_22_0))
 end
 
-function var_0_0.UpdateProgress(arg_19_0, arg_19_1, arg_19_2)
-	setFillAmount(arg_19_1, arg_19_2 / 100)
+function var_0_0.IsReceiveByType(arg_23_0, arg_23_1)
+	for iter_23_0, iter_23_1 in pairs(arg_23_0.techAgency:GetTechnologys()) do
+		if iter_23_1:getConfig("tech_belong") == arg_23_1 and iter_23_1:GetStatus() == IslandTechnology.STATUS.RECEIVE then
+			return true
+		end
+	end
 
-	local var_19_0 = arg_19_2 == 0 or arg_19_2 == 100
+	return false
+end
 
-	setActive(arg_19_1:Find("pointer"), not var_19_0)
+function var_0_0.FlushCentreTip(arg_24_0)
+	setActive(arg_24_0.centreTipTF, arg_24_0:IsReceiveByType(IslandTechBelong.CENTRE))
+end
 
-	if not var_19_0 then
-		local var_19_1 = arg_19_2 / 100 * 360
-
-		setLocalEulerAngles(arg_19_1:Find("pointer"), {
-			z = var_19_1
-		})
-		setLocalEulerAngles(arg_19_1:Find("pointer/mask/ring"), {
-			z = 360 - var_19_1
-		})
+function var_0_0.SwitchPage(arg_25_0)
+	for iter_25_0, iter_25_1 in pairs(arg_25_0.pages) do
+		if iter_25_0 == arg_25_0.curPage then
+			iter_25_1:ExecuteAction("Show")
+		else
+			iter_25_1:ExecuteAction("Hide")
+		end
 	end
 end
 
-function var_0_0.FlushCentre(arg_20_0)
-	setText(arg_20_0.centreInfoTF:Find("level"), getProxy(IslandProxy):GetIsland():GetLevel())
-
-	local var_20_0 = arg_20_0.techAgency:GetPctByType(IslandTechBelong.CENTRE)
-
-	arg_20_0:UpdateProgress(arg_20_0.centreInfoTF:Find("progress"), var_20_0)
+function var_0_0.OnShow(arg_26_0)
+	triggerToggle(arg_26_0.centreToggleTF, true)
+	arg_26_0.quickPanel:ExecuteAction("Show")
+	arg_26_0:CheckAutoUnlock()
 end
 
-function var_0_0.ShowSubViewPanel(arg_21_0)
-	arg_21_0.quickPanel:ExecuteAction("Show")
-	arg_21_0.overviewPanel:ExecuteAction("Show")
+function var_0_0.CheckAutoUnlock(arg_27_0)
+	getProxy(IslandProxy):GetIsland():GetTechnologyAgency():TryAutoUnlock(function()
+		arg_27_0:Flush()
+	end)
 end
 
-function var_0_0.FoldSubViewPanelPanel(arg_22_0)
-	arg_22_0.quickPanel:ExecuteAction("OffToggle")
-	arg_22_0.overviewPanel:ExecuteAction("OffToggle")
+function var_0_0.Flush(arg_29_0)
+	arg_29_0.techAgency = getProxy(IslandProxy):GetIsland():GetTechnologyAgency()
+
+	arg_29_0.typeUIList:align(#arg_29_0.commonTypes)
+	arg_29_0:FlushCentreTip()
+	arg_29_0.pages[arg_29_0.curPage]:ExecuteAction("Flush")
+	arg_29_0.quickPanel:ExecuteAction("Flush")
+
+	if arg_29_0.detailPanel:isShowing() then
+		arg_29_0.detailPanel:ExecuteAction("Flush")
+	end
 end
 
-function var_0_0.HideSubViewPanel(arg_23_0)
-	arg_23_0:FoldSubViewPanelPanel()
-	arg_23_0.quickPanel:ExecuteAction("Hide")
-	arg_23_0.overviewPanel:ExecuteAction("Hide")
+function var_0_0.OnHide(arg_30_0)
+	arg_30_0.quickPanel:ExecuteAction("Hide")
+	arg_30_0.detailPanel:ExecuteAction("Hide")
 end
 
-function var_0_0.OnHide(arg_24_0)
-	arg_24_0:HideSubViewPanel()
+function var_0_0.OnDisable(arg_31_0)
+	arg_31_0:OnHide()
 end
 
-function var_0_0.OnDestroy(arg_25_0)
-	if arg_25_0.quickPanel then
-		arg_25_0.quickPanel:Destroy()
+function var_0_0.OnDestroy(arg_32_0)
+	if arg_32_0.quickPanel then
+		arg_32_0.quickPanel:Destroy()
 
-		arg_25_0.quickPanel = nil
+		arg_32_0.quickPanel = nil
 	end
 
-	if arg_25_0.overviewPanel then
-		arg_25_0.overviewPanel:Destroy()
+	if arg_32_0.detailPanel then
+		arg_32_0.detailPanel:Destroy()
 
-		arg_25_0.overviewPanel = nil
+		arg_32_0.detailPanel = nil
+	end
+
+	for iter_32_0, iter_32_1 in pairs(arg_32_0.pages) do
+		if iter_32_1 then
+			iter_32_1:Destroy()
+
+			iter_32_1 = nil
+		end
 	end
 end
 

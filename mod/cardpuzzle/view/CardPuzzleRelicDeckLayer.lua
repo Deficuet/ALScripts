@@ -9,7 +9,7 @@ function var_0_0.isLayer(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.giftListRect = arg_3_0:findTF("Container")
+	arg_3_0.giftListRect = arg_3_0._tf:Find("Container")
 	arg_3_0.giftListComp = arg_3_0.giftListRect:GetComponent("LScrollRect")
 
 	function arg_3_0.giftListComp.onUpdateItem(arg_4_0, arg_4_1)

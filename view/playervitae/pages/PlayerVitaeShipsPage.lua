@@ -75,22 +75,22 @@ function var_0_0.RefreshShips(arg_7_0)
 end
 
 function var_0_0.OnLoaded(arg_8_0)
-	arg_8_0.cardContainer = arg_8_0:findTF("frame")
-	arg_8_0.shipTpl = arg_8_0:findTF("frame/shipCard")
-	arg_8_0.emptyTpl = arg_8_0:findTF("frame/addCard")
-	arg_8_0.lockTpl = arg_8_0:findTF("frame/lockCard")
-	arg_8_0.helpBtn = arg_8_0:findTF("help_btn")
-	arg_8_0.settingBtn = arg_8_0:findTF("setting_btn")
-	arg_8_0.settingBtnSlider = arg_8_0:findTF("toggle/on", arg_8_0.settingBtn)
-	arg_8_0.randomBtn = arg_8_0:findTF("ran_setting_btn")
-	arg_8_0.randomBtnSlider = arg_8_0:findTF("toggle/on", arg_8_0.randomBtn)
-	arg_8_0.settingSeceneBtn = arg_8_0:findTF("setting_scene_btn")
-	arg_8_0.nativeBtn = arg_8_0:findTF("native_setting_btn")
+	arg_8_0.cardContainer = arg_8_0._tf:Find("frame")
+	arg_8_0.shipTpl = arg_8_0._tf:Find("frame/shipCard")
+	arg_8_0.emptyTpl = arg_8_0._tf:Find("frame/addCard")
+	arg_8_0.lockTpl = arg_8_0._tf:Find("frame/lockCard")
+	arg_8_0.helpBtn = arg_8_0._tf:Find("help_btn")
+	arg_8_0.settingBtn = arg_8_0._tf:Find("setting_btn")
+	arg_8_0.settingBtnSlider = arg_8_0.settingBtn:Find("toggle/on")
+	arg_8_0.randomBtn = arg_8_0._tf:Find("ran_setting_btn")
+	arg_8_0.randomBtnSlider = arg_8_0.randomBtn:Find("toggle/on")
+	arg_8_0.settingSeceneBtn = arg_8_0._tf:Find("setting_scene_btn")
+	arg_8_0.nativeBtn = arg_8_0._tf:Find("native_setting_btn")
 	arg_8_0.nativeBtnOn = arg_8_0.nativeBtn:Find("on")
 	arg_8_0.nativeBtnOff = arg_8_0.nativeBtn:Find("off")
-	arg_8_0.educateCharTr = arg_8_0:findTF("educate_char")
-	arg_8_0.educateCharSettingList = UIItemList.New(arg_8_0:findTF("educate_char/shipCard/settings/panel"), arg_8_0:findTF("educate_char/shipCard/settings/panel/tpl"))
-	arg_8_0.educateCharSettingBtn = arg_8_0:findTF("educate_char/shipCard/settings/tpl")
+	arg_8_0.educateCharTr = arg_8_0._tf:Find("educate_char")
+	arg_8_0.educateCharSettingList = UIItemList.New(arg_8_0._tf:Find("educate_char/shipCard/settings/panel"), arg_8_0._tf:Find("educate_char/shipCard/settings/panel/tpl"))
+	arg_8_0.educateCharSettingBtn = arg_8_0._tf:Find("educate_char/shipCard/settings/tpl")
 	arg_8_0.educateCharTrTip = arg_8_0.educateCharTr:Find("tip")
 
 	if LOCK_EDUCATE_SYSTEM then
@@ -98,24 +98,24 @@ function var_0_0.OnLoaded(arg_8_0)
 		setAnchoredPosition(arg_8_0.cardContainer, {
 			x = 0
 		})
-		setAnchoredPosition(arg_8_0:findTF("flagship"), {
+		setAnchoredPosition(arg_8_0._tf:Find("flagship"), {
 			x = -720
 		})
-		setAnchoredPosition(arg_8_0:findTF("zs"), {
+		setAnchoredPosition(arg_8_0._tf:Find("zs"), {
 			x = 763
 		})
-		setAnchoredPosition(arg_8_0:findTF("line"), {
+		setAnchoredPosition(arg_8_0._tf:Find("line"), {
 			x = 740
 		})
 	end
 
 	arg_8_0.educateCharCards = {
-		[var_0_1] = PlayerVitaeEducateShipCard.New(arg_8_0:findTF("educate_char/shipCard"), arg_8_0.event),
-		[var_0_2] = PlayerVitaeEducateAddCard.New(arg_8_0:findTF("educate_char/addCard"), arg_8_0.event),
-		[var_0_3] = PlayerVitaeEducateLockCard.New(arg_8_0:findTF("educate_char/lockCard"), arg_8_0.event)
+		[var_0_1] = PlayerVitaeEducateShipCard.New(arg_8_0._tf:Find("educate_char/shipCard"), arg_8_0.event),
+		[var_0_2] = PlayerVitaeEducateAddCard.New(arg_8_0._tf:Find("educate_char/addCard"), arg_8_0.event),
+		[var_0_3] = PlayerVitaeEducateLockCard.New(arg_8_0._tf:Find("educate_char/lockCard"), arg_8_0.event)
 	}
-	arg_8_0.tip = arg_8_0:findTF("tip"):GetComponent(typeof(Text))
-	arg_8_0.flagShipMark = arg_8_0:findTF("flagship")
+	arg_8_0.tip = arg_8_0._tf:Find("tip"):GetComponent(typeof(Text))
+	arg_8_0.flagShipMark = arg_8_0._tf:Find("flagship")
 
 	arg_8_0:bind(var_0_0.ON_BEGIN_DRAG_CARD, function(arg_9_0, arg_9_1)
 		arg_8_0:OnBeginDragCard(arg_9_1)

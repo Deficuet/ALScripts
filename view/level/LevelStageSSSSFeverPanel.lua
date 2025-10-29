@@ -249,7 +249,7 @@ function var_0_0.ShowPanel(arg_17_0, arg_17_1, arg_17_2, arg_17_3, arg_17_4)
 		var_17_2.enabled = false
 		var_17_2.sprite = nil
 
-		pg.UIMgr.GetInstance():UnblurPanel(arg_17_0.banner, arg_17_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_17_0.banner, arg_17_0._tf)
 		setActive(arg_17_0.banner, false)
 		setActive(var_17_0, false)
 		arg_17_0:emit(LevelUIConst.UN_FROZEN)

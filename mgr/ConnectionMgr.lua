@@ -267,8 +267,7 @@ function var_0_1.onError(arg_11_0)
 				onYes = function()
 					var_0_0.ConnectionMgr.GetInstance():Reconnect(var_11_1)
 				end,
-				onNo = var_11_0,
-				weight = LayerWeightConst.TOP_LAYER
+				onNo = var_11_0
 			})
 			var_0_0.NewStoryMgr.GetInstance():Stop()
 			var_0_0.NewGuideMgr.GetInstance():Pause()
@@ -279,15 +278,6 @@ function var_0_1.onError(arg_11_0)
 end
 
 function var_0_1.Send(arg_15_0, arg_15_1, arg_15_2, arg_15_3, arg_15_4, arg_15_5, arg_15_6)
-	if not var_0_7 then
-		warning("Network is not connected. msgid " .. arg_15_1)
-		var_0_0.m02:sendNotification(GAME.LOGOUT, {
-			code = 5
-		})
-
-		return
-	end
-
 	local function var_15_0(arg_16_0)
 		if arg_16_0.result == 9998 then
 			var_0_0.m02:sendNotification(GAME.EXTRA_PROTO_RESULT, {

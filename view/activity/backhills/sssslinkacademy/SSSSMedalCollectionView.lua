@@ -28,11 +28,11 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.FindUI(arg_3_0)
-	local var_3_0 = arg_3_0:findTF("Top")
+	local var_3_0 = arg_3_0._tf:Find("Top")
 
-	arg_3_0.backBtn = arg_3_0:findTF("BackBtn", var_3_0)
-	arg_3_0.helpBtn = arg_3_0:findTF("HelpBtn", var_3_0)
-	arg_3_0.progressText = arg_3_0:findTF("ProgressText", var_3_0)
+	arg_3_0.backBtn = var_3_0:Find("BackBtn")
+	arg_3_0.helpBtn = var_3_0:Find("HelpBtn")
+	arg_3_0.progressText = var_3_0:Find("ProgressText")
 	arg_3_0.slots = {}
 
 	for iter_3_0 = 1, 6 do

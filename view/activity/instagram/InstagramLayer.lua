@@ -31,37 +31,34 @@ function var_0_0.init(arg_6_0)
 	local var_6_0 = GameObject.Find("MainObject")
 
 	arg_6_0.downloadmgr = BulletinBoardMgr.Inst
-	arg_6_0.listTF = arg_6_0:findTF("list")
-	arg_6_0.mainTF = arg_6_0:findTF("main")
-	arg_6_0.closeBtn = arg_6_0:findTF("closeBtn")
-	arg_6_0.noMsgTF = arg_6_0:findTF("list/bg/no_msg")
-	arg_6_0.scrollBarTF = arg_6_0:findTF("list/bg/scroll_bar")
-	arg_6_0.list = arg_6_0:findTF("list/bg/scrollrect"):GetComponent("LScrollRect")
-	arg_6_0.imageTF = arg_6_0:findTF("main/left_panel/mask/Image"):GetComponent(typeof(RawImage))
-	arg_6_0.likeBtn = arg_6_0:findTF("main/left_panel/heart")
-	arg_6_0.bubbleTF = arg_6_0:findTF("main/left_panel/bubble")
-	arg_6_0.planeTF = arg_6_0:findTF("main/left_panel/plane")
-	arg_6_0.likeCntTxt = arg_6_0:findTF("main/left_panel/zan"):GetComponent(typeof(Text))
-	arg_6_0.pushTimeTxt = arg_6_0:findTF("main/left_panel/time"):GetComponent(typeof(Text))
-	arg_6_0.iconTF = arg_6_0:findTF("main/right_panel/top/head/icon")
-	arg_6_0.nameTxt = arg_6_0:findTF("main/right_panel/top/name"):GetComponent(typeof(Text))
-	arg_6_0.centerTF = arg_6_0:findTF("main/right_panel/center")
-	arg_6_0.contentTxt = arg_6_0:findTF("main/right_panel/center/Text/Text"):GetComponent(typeof(Text))
-	arg_6_0.commentList = UIItemList.New(arg_6_0:findTF("main/right_panel/center/bottom/scroll/content"), arg_6_0:findTF("main/right_panel/center/bottom/scroll/content/tpl"))
-	arg_6_0.commentPanel = arg_6_0:findTF("main/right_panel/last/bg2")
-	arg_6_0.optionalPanel = arg_6_0:findTF("main/right_panel/last/bg2/option")
-	arg_6_0.scroll = arg_6_0:findTF("main/right_panel/center/bottom/scroll")
+	arg_6_0.listTF = arg_6_0._tf:Find("list")
+	arg_6_0.mainTF = arg_6_0._tf:Find("main")
+	arg_6_0.closeBtn = arg_6_0._tf:Find("closeBtn")
+	arg_6_0.noMsgTF = arg_6_0._tf:Find("list/bg/no_msg")
+	arg_6_0.scrollBarTF = arg_6_0._tf:Find("list/bg/scroll_bar")
+	arg_6_0.list = arg_6_0._tf:Find("list/bg/scrollrect"):GetComponent("LScrollRect")
+	arg_6_0.imageTF = arg_6_0._tf:Find("main/left_panel/mask/Image"):GetComponent(typeof(RawImage))
+	arg_6_0.likeBtn = arg_6_0._tf:Find("main/left_panel/heart")
+	arg_6_0.bubbleTF = arg_6_0._tf:Find("main/left_panel/bubble")
+	arg_6_0.planeTF = arg_6_0._tf:Find("main/left_panel/plane")
+	arg_6_0.likeCntTxt = arg_6_0._tf:Find("main/left_panel/zan"):GetComponent(typeof(Text))
+	arg_6_0.pushTimeTxt = arg_6_0._tf:Find("main/left_panel/time"):GetComponent(typeof(Text))
+	arg_6_0.iconTF = arg_6_0._tf:Find("main/right_panel/top/head/icon")
+	arg_6_0.nameTxt = arg_6_0._tf:Find("main/right_panel/top/name"):GetComponent(typeof(Text))
+	arg_6_0.centerTF = arg_6_0._tf:Find("main/right_panel/center")
+	arg_6_0.contentTxt = arg_6_0._tf:Find("main/right_panel/center/Text/Text"):GetComponent(typeof(Text))
+	arg_6_0.commentList = UIItemList.New(arg_6_0._tf:Find("main/right_panel/center/bottom/scroll/content"), arg_6_0._tf:Find("main/right_panel/center/bottom/scroll/content/tpl"))
+	arg_6_0.commentPanel = arg_6_0._tf:Find("main/right_panel/last/bg2")
+	arg_6_0.optionalPanel = arg_6_0._tf:Find("main/right_panel/last/bg2/option")
+	arg_6_0.scroll = arg_6_0._tf:Find("main/right_panel/center/bottom/scroll")
 
-	setText(arg_6_0:findTF("closeBtn/Text"), i18n("word_back"))
+	setText(arg_6_0._tf:Find("closeBtn/Text"), i18n("word_back"))
 
 	arg_6_0.sprites = {}
 	arg_6_0.timers = {}
 	arg_6_0.toDownloadList = {}
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_6_0._tf, false, {
-		groupName = "Instagram",
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	arg_6_0:OverlayPanel(arg_6_0._tf)
 end
 
 function var_0_0.SetImageByUrl(arg_7_0, arg_7_1, arg_7_2, arg_7_3)
@@ -416,7 +413,7 @@ function var_0_0.willExit(arg_40_0)
 
 	arg_40_0.toDownloadList = {}
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_40_0._tf, pg.UIMgr.GetInstance()._normalUIMain)
+	arg_40_0:UnOverlayPanel(arg_40_0._tf)
 	arg_40_0:ExitDetail()
 
 	for iter_40_2, iter_40_3 in pairs(arg_40_0.sprites) do

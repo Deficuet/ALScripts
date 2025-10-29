@@ -105,38 +105,44 @@ function var_0_4.GetCurrentState(arg_11_0)
 end
 
 function var_0_4.SetSpawnPosition(arg_12_0, arg_12_1)
-	var_0_4.super.SetSpawnPosition(arg_12_0, arg_12_1)
-
 	local var_12_0 = arg_12_0:GetTemplate().extra_param
-	local var_12_1 = pg.Tool.FilterY(arg_12_0._spawnPos)
-	local var_12_2 = Vector3.Distance(var_12_1, pg.Tool.FilterY(arg_12_0._explodePos))
+	local var_12_1 = arg_12_1
+
+	if var_12_0.directHit then
+		var_12_1 = Clone(arg_12_0._explodePos)
+	end
+
+	var_0_4.super.SetSpawnPosition(arg_12_0, var_12_1)
+
+	local var_12_2 = pg.Tool.FilterY(arg_12_0._spawnPos)
+	local var_12_3 = Vector3.Distance(var_12_2, pg.Tool.FilterY(arg_12_0._explodePos))
 
 	if var_12_0.flare then
-		local var_12_3 = var_12_0.shrapnel[1].bullet_ID
-		local var_12_4 = var_0_0.Battle.BattleDataFunction.GetBulletTmpDataFromID(var_12_3)
-		local var_12_5 = var_12_4.hit_type.time
-		local var_12_6 = 0.5 * math.abs(var_12_4.extra_param.gravity or -0.0005) * (var_12_5 * var_0_1.calcFPS)^2 - arg_12_0._spawnPos.y
+		local var_12_4 = var_12_0.shrapnel[1].bullet_ID
+		local var_12_5 = var_0_0.Battle.BattleDataFunction.GetBulletTmpDataFromID(var_12_4)
+		local var_12_6 = var_12_5.hit_type.time
+		local var_12_7 = 0.5 * math.abs(var_12_5.extra_param.gravity or -0.0005) * (var_12_6 * var_0_1.calcFPS)^2 - arg_12_0._spawnPos.y
 
-		arg_12_0._convertedVelocity = math.sqrt(-0.5 * arg_12_0._gravity * var_12_2 * var_12_2 / var_12_6)
+		arg_12_0._convertedVelocity = math.sqrt(-0.5 * arg_12_0._gravity * var_12_3 * var_12_3 / var_12_7)
 
-		local var_12_7 = var_12_2 / arg_12_0._convertedVelocity
+		local var_12_8 = var_12_3 / arg_12_0._convertedVelocity
 
-		arg_12_0._verticalSpeed = var_12_6 / var_12_7 - 0.5 * arg_12_0._gravity * var_12_7
+		arg_12_0._verticalSpeed = var_12_7 / var_12_8 - 0.5 * arg_12_0._gravity * var_12_8
 	elseif var_12_0.rangeAA then
-		local var_12_8 = var_0_1.AircraftHeight - arg_12_0._spawnPos.y
-		local var_12_9 = 0.5 * arg_12_0._gravity
+		local var_12_9 = var_0_1.AircraftHeight - arg_12_0._spawnPos.y
+		local var_12_10 = 0.5 * arg_12_0._gravity
 
-		arg_12_0._velocity = math.sqrt(-var_12_9 * var_12_2 * var_12_2 / var_12_8)
+		arg_12_0._velocity = math.sqrt(-var_12_10 * var_12_3 * var_12_3 / var_12_9)
 
-		local var_12_10 = var_12_2 / arg_12_0._velocity
+		local var_12_11 = var_12_3 / arg_12_0._velocity
 
-		arg_12_0._verticalSpeed = var_12_8 / var_12_10 - var_12_9 * var_12_10
+		arg_12_0._verticalSpeed = var_12_9 / var_12_11 - var_12_10 * var_12_11
 		arg_12_0._velocity = var_0_3.ConvertBulletDataSpeed(arg_12_0._velocity)
-	elseif arg_12_0._convertedVelocity ~= 0 then
-		local var_12_11 = var_12_2 / arg_12_0._convertedVelocity
-		local var_12_12 = arg_12_0._explodePos.y - arg_12_0._spawnPos.y
+	elseif arg_12_0._convertedVelocity ~= 0 and arg_12_0._explodePos.y ~= arg_12_0._spawnPos.y then
+		local var_12_12 = var_12_3 / arg_12_0._convertedVelocity
+		local var_12_13 = arg_12_0._explodePos.y - arg_12_0._spawnPos.y
 
-		arg_12_0._verticalSpeed = var_12_0.launchVrtSpeed or var_12_12 / var_12_11 - 0.5 * arg_12_0._gravity * var_12_11
+		arg_12_0._verticalSpeed = var_12_0.launchVrtSpeed or var_12_13 / var_12_12 - 0.5 * arg_12_0._gravity * var_12_12
 	end
 end
 

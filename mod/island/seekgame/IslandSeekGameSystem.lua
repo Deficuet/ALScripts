@@ -1,71 +1,75 @@
-local var_0_0 = class("IslandSeekGameSystem", import("Mod.Island.Core.View.SceneObject.IslandSystem"))
-local var_0_1 = 10090002
-local var_0_2 = 10090009
+local var_0_0 = class("IslandSeekGameSystem", import("Mod.Island.Core.View.SceneObject.IslandSceneUnit"))
 
-function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
-	var_0_0.super.Ctor(arg_1_0, arg_1_1, {
-		name = "seekGameSystem",
-		id = arg_1_2
-	})
-end
+function var_0_0.OnSceneInitEnd(arg_1_0)
+	arg_1_0.MONITOR_LIST = arg_1_0.data:GetInteractiveObjects()
 
-function var_0_0.GetBehaviourTree(arg_2_0)
-	return "island/nodecanvas/seekgame/seekgame"
-end
-
-function var_0_0.OnSceneInitEnd(arg_3_0)
-	for iter_3_0, iter_3_1 in ipairs(arg_3_0:GetView():GetUnitList()) do
-		if iter_3_1.behaviourTreeOwner then
-			LuaHelper.NodeCanvasSetIntVariableValue(iter_3_1.behaviourTreeOwner, "systemId", arg_3_0.id)
-		end
-
-		if iter_3_1.id == var_0_1 then
-			iter_3_1:Start()
+	for iter_1_0, iter_1_1 in ipairs(arg_1_0:GetObjUnitList()) do
+		if iter_1_1.behaviourTreeOwner then
+			LuaHelper.NodeCanvasSetIntVariableValue(iter_1_1.behaviourTreeOwner, "systemId", arg_1_0.id)
 		end
 	end
 
-	if arg_3_0.behaviourTreeOwner then
-		LuaHelper.NodeCanvasSetIntVariableValue(arg_3_0.behaviourTreeOwner, "mingshiId", var_0_1)
-		LuaHelper.NodeCanvasSetIntVariableValue(arg_3_0.behaviourTreeOwner, "doorId", var_0_2)
-		LuaHelper.NodeCanvasSetIntVariableValue(arg_3_0.behaviourTreeOwner, "step", 1)
+	if arg_1_0.behaviourTreeOwner then
+		LuaHelper.NodeCanvasSetIntVariableValue(arg_1_0.behaviourTreeOwner, "step", 0)
 	end
 
-	arg_3_0:Start()
+	arg_1_0:Start()
 end
 
-function var_0_0.StartGame(arg_4_0)
-	for iter_4_0, iter_4_1 in ipairs(arg_4_0:GetView():GetUnitList()) do
-		if iter_4_1.id ~= var_0_1 then
-			iter_4_1:Start()
+function var_0_0.StartGame(arg_2_0)
+	for iter_2_0, iter_2_1 in ipairs(arg_2_0:GetObjUnitList()) do
+		iter_2_1:Start()
+	end
+end
+
+function var_0_0.OnLateUpdate(arg_3_0)
+	return
+end
+
+function var_0_0.StopGame(arg_4_0)
+	if arg_4_0.behaviourTreeOwner then
+		arg_4_0:StopBt()
+	end
+
+	local var_4_0 = arg_4_0:GetObjUnitList()
+
+	for iter_4_0, iter_4_1 in ipairs(var_4_0) do
+		if table.contains(arg_4_0.MONITOR_LIST, iter_4_1.id) then
+			iter_4_1:StopBt()
 		end
 	end
 end
 
-function var_0_0.StopGame(arg_5_0)
+function var_0_0.RestartGame(arg_5_0)
+	for iter_5_0, iter_5_1 in ipairs(arg_5_0:GetObjUnitList()) do
+		if iter_5_1.behaviourTreeOwner then
+			LuaHelper.NodeCanvasSetIntVariableValue(iter_5_1.behaviourTreeOwner, "step", 0)
+		end
+
+		iter_5_1:RestartBt()
+	end
+
 	if arg_5_0.behaviourTreeOwner then
-		arg_5_0:StopBt()
-	end
-
-	local var_5_0 = arg_5_0:GetView():GetUnitList()
-
-	for iter_5_0, iter_5_1 in ipairs(var_5_0) do
-		iter_5_1:StopBt()
+		LuaHelper.NodeCanvasSetIntVariableValue(arg_5_0.behaviourTreeOwner, "step", 0)
+		arg_5_0:RestartBt()
 	end
 end
 
-function var_0_0.RestartGame(arg_6_0)
-	for iter_6_0, iter_6_1 in ipairs(arg_6_0:GetView():GetUnitList()) do
-		if iter_6_1.behaviourTreeOwner then
-			LuaHelper.NodeCanvasSetIntVariableValue(iter_6_1.behaviourTreeOwner, "step", 0)
-		end
+function var_0_0.GetObjUnitList(arg_6_0)
+	local var_6_0 = {}
+	local var_6_1 = arg_6_0:GetView():GetUnitListByKey(IslandConst.UNIT_LIST_OBJ)
 
-		iter_6_1:RestartBt()
+	for iter_6_0, iter_6_1 in ipairs(var_6_1) do
+		table.insert(var_6_0, iter_6_1)
 	end
 
-	if arg_6_0.behaviourTreeOwner then
-		LuaHelper.NodeCanvasSetIntVariableValue(arg_6_0.behaviourTreeOwner, "step", 0)
-		arg_6_0:RestartBt()
-	end
+	table.insert(var_6_0, arg_6_0:GetView().player)
+
+	return var_6_0
+end
+
+function var_0_0.GetUnitById(arg_7_0, arg_7_1)
+	return arg_7_0:GetView():GetUnitModule(arg_7_1)
 end
 
 return var_0_0

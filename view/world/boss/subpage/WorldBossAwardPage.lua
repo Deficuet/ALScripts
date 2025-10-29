@@ -9,10 +9,10 @@ function var_0_0.OnLoaded(arg_2_0)
 end
 
 function var_0_0.OnInit(arg_3_0)
-	local var_3_0 = arg_3_0:findTF("frame/list/container1/tpl")
+	local var_3_0 = arg_3_0._tf:Find("frame/list/container1/tpl")
 
-	arg_3_0.uilist1 = UIItemList.New(arg_3_0:findTF("frame/list/container1"), var_3_0)
-	arg_3_0.uilist2 = UIItemList.New(arg_3_0:findTF("frame/list/container2"), var_3_0)
+	arg_3_0.uilist1 = UIItemList.New(arg_3_0._tf:Find("frame/list/container1"), var_3_0)
+	arg_3_0.uilist2 = UIItemList.New(arg_3_0._tf:Find("frame/list/container2"), var_3_0)
 
 	onButton(arg_3_0, arg_3_0._tf, function()
 		arg_3_0:Hide()

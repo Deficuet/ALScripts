@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/close")
-	arg_2_0.mask = arg_2_0:findTF("frame/mask")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/close")
+	arg_2_0.mask = arg_2_0._tf:Find("frame/mask")
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -16,7 +16,7 @@ function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0.closeBtn, function()
 		arg_3_0:Destroy()
 	end, SFX_PANEL)
-	setText(arg_3_0:findTF("frame/title"), i18n("word_preview"))
+	setText(arg_3_0._tf:Find("frame/title"), i18n("word_preview"))
 end
 
 function var_0_0.Show(arg_6_0, arg_6_1, arg_6_2)

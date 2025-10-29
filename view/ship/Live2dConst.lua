@@ -122,6 +122,10 @@ function var_0_0.ClearLive2dSave(arg_15_0, arg_15_1)
 		return
 	end
 
+	if ChangeSkinLink.L2D_PARAMETER_DIC[arg_15_1] then
+		ChangeSkinLink.L2D_PARAMETER_DIC[arg_15_1] = {}
+	end
+
 	local var_15_0 = pg.ship_skin_template[arg_15_0].ship_l2d_id
 
 	if var_15_0 and #var_15_0 > 0 then
@@ -178,7 +182,7 @@ function var_0_0.GetLive2DArm32MatchAble()
 end
 
 function var_0_0.ShowLive2DArm32Tips()
-	pg.TipsMgr:GetInstance():ShowTips(i18n("l2d_32xbanned_warning"))
+	pg.TipsMgr.GetInstance():ShowTips(i18n("l2d_32xbanned_warning"))
 end
 
 var_0_0.l2d_dirty_data = {}

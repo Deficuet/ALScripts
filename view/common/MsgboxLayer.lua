@@ -537,10 +537,8 @@ function var_0_0.updateButton(arg_22_0, arg_22_1, arg_22_2, arg_22_3)
 end
 
 function var_0_0.Loaded(arg_23_0, arg_23_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_23_0._tf, false, {
+	pg.UIMgr.GetInstance():BlurPanel(arg_23_0._tf, {
 		groupName = arg_23_1.groupName,
-		weight = arg_23_1.weight or LayerWeightConst.SECOND_LAYER,
-		blurLevelCamera = arg_23_1.blurLevelCamera,
 		parent = arg_23_1.parent
 	})
 	pg.m02:sendNotification(GAME.OPEN_MSGBOX_DONE)

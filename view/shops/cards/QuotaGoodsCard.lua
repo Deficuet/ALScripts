@@ -1,81 +1,58 @@
 local var_0_0 = class("QuotaGoodsCard", import(".BaseGoodsCard"))
 
-function var_0_0.Ctor(arg_1_0, arg_1_1)
-	var_0_0.super.Ctor(arg_1_0, arg_1_1)
+function var_0_0.update(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
+	arg_1_0.goodsVO = arg_1_1
 
-	arg_1_0.go = arg_1_1
-	arg_1_0.tr = tf(arg_1_1)
-	arg_1_0.itemTF = findTF(arg_1_0.tr, "item")
-	arg_1_0.nameTxt = findTF(arg_1_0.tr, "item/name_mask/name")
-	arg_1_0.resIconTF = findTF(arg_1_0.tr, "item/consume/contain/icon"):GetComponent(typeof(Image))
-	arg_1_0.mask = arg_1_0.tr:Find("mask")
-	arg_1_0.countTF = findTF(arg_1_0.tr, "item/consume/contain/Text"):GetComponent(typeof(Text))
-	arg_1_0.discountTF = findTF(arg_1_0.tr, "item/discount")
+	local var_1_0 = arg_1_0.goodsVO:canPurchase()
 
-	setActive(arg_1_0.discountTF, false)
-
-	arg_1_0.limitCountTF = findTF(arg_1_0.tr, "item/count_contain/count"):GetComponent(typeof(Text))
-	arg_1_0.limitCountLabelTF = findTF(arg_1_0.tr, "item/count_contain/label"):GetComponent(typeof(Text))
-	arg_1_0.limitCountLabelTF.text = i18n("quota_shop_owned")
-	arg_1_0.limitTag = arg_1_0.tr:Find("mask/tag/limit_tag")
-end
-
-function var_0_0.update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4)
-	arg_2_0.goodsVO = arg_2_1
-
-	local var_2_0 = arg_2_0.goodsVO:canPurchase()
-
-	setActive(arg_2_0.mask, not var_2_0)
-	setActive(arg_2_0.limitTag, not var_2_0)
-	onButton(arg_2_0, arg_2_0.mask, function()
+	setActive(arg_1_0.mask, not var_1_0)
+	setActive(arg_1_0.limitTag, not var_1_0)
+	onButton(arg_1_0, arg_1_0.mask, function()
 		pg.TipsMgr.GetInstance():ShowTips(i18n("quota_shop_limit_error"))
 	end, SFX_PANEL)
 
-	local var_2_1 = arg_2_1:getConfig("commodity_type")
-	local var_2_2 = arg_2_1:getConfig("commodity_id")
-	local var_2_3 = Drop.New({
-		type = var_2_1,
-		id = var_2_2,
-		count = arg_2_1:getConfig("num")
+	local var_1_1 = arg_1_1:getConfig("commodity_type")
+	local var_1_2 = arg_1_1:getConfig("commodity_id")
+	local var_1_3 = Drop.New({
+		type = var_1_1,
+		id = var_1_2,
+		count = arg_1_1:getConfig("num")
 	})
 
-	updateDrop(arg_2_0.itemTF, var_2_3)
+	updateDrop(arg_1_0.itemTF, var_1_3)
 
-	local var_2_4 = ""
+	local var_1_4 = ""
 
-	if var_2_1 == DROP_TYPE_SKIN then
-		var_2_4 = pg.ship_skin_template[var_2_2].name or "??"
+	if var_1_1 == DROP_TYPE_SKIN then
+		var_1_4 = pg.ship_skin_template[var_1_2].name or "??"
 	else
-		var_2_4 = var_2_3:getConfig("name") or "??"
+		var_1_4 = var_1_3:getConfig("name") or "??"
 	end
 
-	arg_2_0.countTF.text = arg_2_1:getConfig("resource_num")
+	setScrollText(arg_1_0.nameTxt, var_1_4)
+	setText(arg_1_0.countTF, arg_1_1:getConfig("resource_num"))
 
-	if string.match(var_2_4, "(%d+)") then
-		setText(arg_2_0.nameTxt, shortenString(var_2_4, 5))
-	else
-		setText(arg_2_0.nameTxt, shortenString(var_2_4, 6))
-	end
-
-	local var_2_5 = Drop.New({
-		type = arg_2_1:getConfig("resource_category"),
-		id = arg_2_1:getConfig("resource_type")
+	local var_1_5 = Drop.New({
+		type = arg_1_1:getConfig("resource_category"),
+		id = arg_1_1:getConfig("resource_type")
 	}):getIcon()
 
-	arg_2_0.resIconTF.sprite = GetSpriteFromAtlas(var_2_5, "")
+	GetImageSpriteFromAtlasAsync(var_1_5, "", arg_1_0.resIconTF)
 
-	local var_2_6 = arg_2_1:GetLimitGoodCount()
-	local var_2_7 = arg_2_1:GetPurchasableCnt()
+	local var_1_6 = arg_1_1:GetLimitGoodCount()
+	local var_1_7 = arg_1_1:GetPurchasableCnt()
 
-	arg_2_0.limitCountTF.text = var_2_6 - var_2_7 .. "/" .. var_2_6
+	setText(arg_1_0.limitCountLabelTF, i18n("quota_shop_owned") .. var_1_6 - var_1_7 .. "/" .. var_1_6)
+	setActive(arg_1_0.limitCountLabelTF, true)
+	setActive(arg_1_0.groupLocked, arg_1_0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
-function var_0_0.setAsLastSibling(arg_4_0)
-	arg_4_0.tr:SetAsLastSibling()
+function var_0_0.setAsLastSibling(arg_3_0)
+	arg_3_0.tf:SetAsLastSibling()
 end
 
-function var_0_0.OnDispose(arg_5_0)
-	arg_5_0.goodsVO = nil
+function var_0_0.OnDispose(arg_4_0)
+	arg_4_0.goodsVO = nil
 end
 
 return var_0_0

@@ -22,33 +22,14 @@ end
 
 function var_0_0.CommonInit(arg_4_0)
 	arg_4_0.eventTriggers = {}
-	arg_4_0._startBtn = arg_4_0:findTF("right/start")
-	arg_4_0._costContainer = arg_4_0:findTF("right/start/cost_container")
-	arg_4_0._popup = arg_4_0._costContainer:Find("popup")
-	arg_4_0._costText = arg_4_0._popup:Find("Text")
-	arg_4_0._moveLayer = arg_4_0:findTF("moveLayer")
-
-	local var_4_0 = arg_4_0:findTF("middle")
-
-	arg_4_0._autoToggle = arg_4_0:findTF("auto_toggle")
-	arg_4_0._autoSubToggle = arg_4_0:findTF("sub_toggle_container/sub_toggle")
-	arg_4_0._fleetInfo = arg_4_0._tf:Find("right/fleet_info")
-	arg_4_0._fleetNameText = arg_4_0._fleetInfo:Find("fleet_name/Text")
-	arg_4_0._fleetNumText = arg_4_0._fleetInfo:Find("fleet_number")
 
 	setActive(arg_4_0._fleetInfo, true)
 
-	arg_4_0._mainGS = var_4_0:Find("gear_score/main/Text")
-	arg_4_0._vanguardGS = var_4_0:Find("gear_score/vanguard/Text")
-	arg_4_0._subGS = var_4_0:Find("gear_score/submarine/Text")
-	arg_4_0._bgFleet = var_4_0:Find("mask/grid_bg")
-	arg_4_0._bgSub = var_4_0:Find("mask/bg_sub")
 	arg_4_0._gridTFs = {
 		[TeamType.Vanguard] = {},
 		[TeamType.Main] = {},
 		[TeamType.Submarine] = {}
 	}
-	arg_4_0._gridFrame = var_4_0:Find("mask/GridFrame")
 
 	for iter_4_0 = 1, 3 do
 		arg_4_0._gridTFs[TeamType.Main][iter_4_0] = arg_4_0._gridFrame:Find("main_" .. iter_4_0)
@@ -56,37 +37,17 @@ function var_0_0.CommonInit(arg_4_0)
 		arg_4_0._gridTFs[TeamType.Submarine][iter_4_0] = arg_4_0._gridFrame:Find("submarine_" .. iter_4_0)
 	end
 
-	arg_4_0._nextPage = arg_4_0:findTF("middle/nextPage")
-	arg_4_0._prevPage = arg_4_0:findTF("middle/prevPage")
-	arg_4_0._heroContainer = var_4_0:Find("HeroContainer")
-	arg_4_0._blurPanel = arg_4_0:findTF("blur_panel")
-	arg_4_0.topPanel = arg_4_0:findTF("top", arg_4_0._blurPanel)
-	arg_4_0.topPanelBg = arg_4_0:findTF("top_bg", arg_4_0._blurPanel)
-	arg_4_0._backBtn = arg_4_0:findTF("back_btn", arg_4_0.topPanel)
-	arg_4_0._spoilsContainer = arg_4_0:findTF("right/infomation/atlasloot/spoils/items/items_container")
-	arg_4_0._item = arg_4_0:findTF("right/infomation/atlasloot/spoils/items/item_tpl")
-
 	SetActive(arg_4_0._item, false)
-
-	arg_4_0._goals = arg_4_0:findTF("right/infomation/target/goal")
-	arg_4_0._heroInfo = arg_4_0:getTpl("heroInfo")
-	arg_4_0._starTpl = arg_4_0:getTpl("star_tpl")
-
-	setText(findTF(arg_4_0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
-	setText(findTF(arg_4_0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
-	setText(findTF(arg_4_0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
+	SetActive(arg_4_0._heroInfo, false)
+	SetActive(arg_4_0._starTplsa, false)
+	setText(arg_4_0._gearScore:Find("vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(arg_4_0._gearScore:Find("main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(arg_4_0._gearScore:Find("submarine/line/Image/text1"), i18n("pre_combat_submarine"))
 	setText(arg_4_0._costContainer:Find("title"), i18n("pre_combat_consume"))
-	setText(findTF(arg_4_0._tf, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
-	setText(findTF(arg_4_0._tf, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
+	setText(arg_4_0._infomation:Find("target/title/GameObject"), i18n("pre_combat_targets"))
+	setText(arg_4_0._infomation:Find("atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
 	setText(arg_4_0._startBtn:Find("text"), i18n("pre_combat_start"))
 	setText(arg_4_0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
-
-	arg_4_0._middle = arg_4_0:findTF("middle")
-	arg_4_0._right = arg_4_0:findTF("right")
-	arg_4_0._bottom = arg_4_0:findTF("bottom")
-	arg_4_0.btnRegular = arg_4_0:findTF("fleet_select/regular", arg_4_0._bottom)
-	arg_4_0.btnSub = arg_4_0:findTF("fleet_select/sub", arg_4_0._bottom)
-
 	setText(arg_4_0.btnRegular:Find("fleet/CnFleet"), Fleet.DEFAULT_NAME[1])
 	setText(arg_4_0.btnSub:Find("fleet/CnFleet"), Fleet.DEFAULT_NAME[1])
 	setAnchoredPosition(arg_4_0._middle, {
@@ -98,6 +59,8 @@ function var_0_0.CommonInit(arg_4_0)
 	arg_4_0:SetStageID(arg_4_0.contextData.stageId)
 
 	arg_4_0.commanderFormationPanel = LimitChallengeCommanderFormationPage.New(arg_4_0._tf, arg_4_0.event, arg_4_0.contextData)
+
+	arg_4_0.commanderFormationPanel:RegisterView(arg_4_0)
 end
 
 function var_0_0.Register(arg_5_0)
@@ -134,7 +97,7 @@ function var_0_0.Register(arg_5_0)
 		local var_7_7 = arg_7_1:getStar()
 
 		for iter_7_0 = 1, var_7_7 do
-			cloneTplTo(arg_5_0._starTpl, var_7_1)
+			cloneTplTo(arg_5_0._starTplsa, var_7_1)
 		end
 
 		local var_7_8 = GetSpriteFromAtlas("shiptype", shipType2print(arg_7_1:getShipType()))
@@ -403,6 +366,8 @@ function var_0_0.uiExitAnimating(arg_34_0)
 end
 
 function var_0_0.didEnter(arg_35_0)
+	GetOrAddComponent(arg_35_0._tf, typeof(CanvasGroup)).interactable = true
+
 	onButton(arg_35_0, arg_35_0._backBtn, function()
 		arg_35_0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
 
@@ -413,7 +378,7 @@ function var_0_0.didEnter(arg_35_0)
 			arg_35_0:closeView()
 		end))
 	end, SFX_CANCEL)
-	onButton(arg_35_0, arg_35_0._tf:Find("blur_panel/top/option"), function()
+	onButton(arg_35_0, arg_35_0._option, function()
 		arg_35_0:emit(LimitChallengePreCombatMediator.ON_UPDATE_CUSTOM_FLEET)
 		arg_35_0:quickExitFunc()
 	end, SFX_PANEL)
@@ -444,10 +409,10 @@ function var_0_0.didEnter(arg_35_0)
 			toggle = arg_35_0._autoSubToggle
 		})
 	end, SFX_PANEL, SFX_PANEL)
-	onButton(arg_35_0, arg_35_0._tf:Find("bottom/fleet_select/regular"), function()
+	onButton(arg_35_0, arg_35_0.btnRegular, function()
 		arg_35_0:emit(LimitChallengePreCombatMediator.ON_CHANGE_FLEET, FleetProxy.CHALLENGE_FLEET_ID)
 	end, SFX_PANEL)
-	onButton(arg_35_0, arg_35_0._tf:Find("bottom/fleet_select/sub"), function()
+	onButton(arg_35_0, arg_35_0.btnSub, function()
 		arg_35_0:emit(LimitChallengePreCombatMediator.ON_CHANGE_FLEET, FleetProxy.CHALLENGE_SUB_FLEET_ID)
 	end, SFX_PANEL)
 
@@ -460,9 +425,7 @@ function var_0_0.didEnter(arg_35_0)
 		arg_35_0:uiStartAnimating()
 	end)
 	arg_35_0:SetFleetStepper()
-	pg.UIMgr.GetInstance():OverlayPanel(arg_35_0._tf, {
-		groupName = LayerWeightConst.GROUP_FORMATION_PAGE
-	})
+	arg_35_0:OverlayPanel(arg_35_0._tf)
 end
 
 function var_0_0.UpdateSubToggle(arg_47_0)
@@ -540,11 +503,12 @@ function var_0_0.onBackPressed(arg_53_0)
 end
 
 function var_0_0.willExit(arg_54_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_54_0._tf)
 	arg_54_0.commanderFormationPanel:Destroy()
 	arg_54_0._formationLogic:Destroy()
 
 	arg_54_0._formationLogic = nil
+
+	arg_54_0:UnOverlayPanel(arg_54_0._tf)
 end
 
 return var_0_0

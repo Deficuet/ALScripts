@@ -24,120 +24,180 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			end
 		end)
 	elseif var_1_0.operation == IslandConst.SHOP_BUY_COMMODITY then
-		local var_1_3 = var_1_1:GetShopCommodity(var_1_0.shopId, var_1_0.commodityId)
-		local var_1_4 = getProxy(PlayerProxy):getData()
+		local var_1_3 = getProxy(PlayerProxy):getData()
+		local var_1_4 = {}
+		local var_1_5 = {}
+		local var_1_6 = 0
+		local var_1_7 = {}
 
-		if not var_1_3 then
-			return
-		end
+		for iter_1_0, iter_1_1 in ipairs(var_1_0.commodityList) do
+			local var_1_8 = iter_1_1.key
+			local var_1_9 = iter_1_1.value1
+			local var_1_10 = iter_1_1.value2
+			local var_1_11 = var_1_1:GetShopCommodity(var_1_8, var_1_9)
 
-		if var_1_0.count == 0 then
-			return
-		end
+			table.insert(var_1_4, var_1_11)
+			table.insertto(var_1_7, var_1_11:GetItems())
 
-		local var_1_5 = var_1_3:GetResourceConsume()
-		local var_1_6 = var_1_5[3] * var_1_0.count
-		local var_1_7 = math.ceil((100 - var_1_3:GetDiscount()) / 100 * var_1_6)
+			if not var_1_11 then
+				return
+			end
 
-		if var_1_5[1] == DROP_TYPE_RESOURCE then
-			if var_1_7 > var_1_4[id2res(var_1_5[2])] then
-				local var_1_8 = Drop.New({
-					type = DROP_TYPE_RESOURCE,
-					id = var_1_5[2]
-				}):getName()
+			if var_1_10 == 0 then
+				return
+			end
 
-				if var_1_5[2] == 1 then
-					GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
-						{
-							59001,
-							var_1_7 - var_1_4[id2res(var_1_5[2])],
-							var_1_7
-						}
-					})
-				elseif var_1_5[2] == 4 or var_1_5[2] == 14 then
-					GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
-				elseif not ItemTipPanel.ShowItemTip(DROP_TYPE_RESOURCE, var_1_5[2]) then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", var_1_8))
+			local var_1_12 = Clone(var_1_11:GetResourceConsume())
+			local var_1_13 = var_1_12[3] * var_1_10
+
+			var_1_12[3] = math.ceil((100 - var_1_11:GetDiscount()) / 100 * var_1_13)
+
+			local var_1_14 = false
+
+			for iter_1_2, iter_1_3 in ipairs(var_1_5) do
+				if iter_1_3[1] == var_1_12[1] and iter_1_3[2] == var_1_12[2] then
+					var_1_14 = true
+					iter_1_3[3] = iter_1_3[3] + var_1_12[3]
+
+					break
 				end
+			end
+
+			if not var_1_14 then
+				table.insert(var_1_5, var_1_12)
+			end
+
+			var_1_6 = var_1_6 + pg.island_shop_goods[var_1_9].pt_award * var_1_10
+
+			local var_1_15 = {}
+			local var_1_16 = var_1_11:GetItems()
+
+			for iter_1_4, iter_1_5 in ipairs(var_1_16) do
+				if iter_1_5[1] ~= DROP_TYPE_ISLAND_ITEM then
+					local var_1_17 = Drop.New({
+						type = iter_1_5[1],
+						id = iter_1_5[2],
+						count = iter_1_5[3]
+					})
+
+					table.insert(var_1_15, var_1_17)
+				end
+			end
+
+			local var_1_18 = GetItemsOverflowDic(var_1_15)
+			local var_1_19, var_1_20 = CheckOverflow(var_1_18)
+
+			if not var_1_19 then
+				switch(var_1_20, {
+					gold = function()
+						pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
+					end,
+					oil = function()
+						pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
+					end,
+					equip = function()
+						NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
+					end,
+					ship = function()
+						NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
+					end
+				})
 
 				return
 			end
-		elseif var_1_5[1] == DROP_TYPE_ISLAND_ITEM and var_1_7 > var_1_2:GetOwnCount(var_1_5[2]) then
-			pg.TipsMgr.GetInstance():ShowTips("岛屿内道具不足")
 
-			local var_1_9 = pg.island_item_data_template[var_1_5[2]].jump_page
-
-			return
-		end
-
-		local var_1_10 = {}
-		local var_1_11 = var_1_3:GetItems()
-
-		for iter_1_0, iter_1_1 in ipairs(var_1_11) do
-			if iter_1_1[1] ~= DROP_TYPE_ISLAND_ITEM then
-				local var_1_12 = Drop.New({
-					type = iter_1_1[1],
-					id = iter_1_1[2],
-					count = iter_1_1[3]
+			if not CheckShipExpOverflow(var_1_18) then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("player_expResource_mail_fullBag"),
+					onYes = next
 				})
 
-				table.insert(var_1_10, var_1_12)
+				return
 			end
 		end
 
-		local var_1_13 = GetItemsOverflowDic(var_1_10)
-		local var_1_14, var_1_15 = CheckOverflow(var_1_13)
+		local var_1_21 = false
 
-		if not var_1_14 then
-			switch(var_1_15, {
-				gold = function()
-					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
-				end,
-				oil = function()
-					pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
-				end,
-				equip = function()
-					NoPosMsgBox(i18n("switch_to_shop_tip_noPos"), openDestroyEquip, gotoChargeScene)
-				end,
-				ship = function()
-					NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
+		for iter_1_6, iter_1_7 in ipairs(var_1_7) do
+			if iter_1_7[1] == DROP_TYPE_ISLAND_ITEM then
+				var_1_21 = true
+			end
+		end
+
+		if var_1_21 and var_1_2:ExistAnyOverFlowItem() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_3Dshop_bag_max"))
+
+			return
+		end
+
+		for iter_1_8, iter_1_9 in ipairs(var_1_5) do
+			local var_1_22 = iter_1_9[3]
+
+			if iter_1_9[1] == DROP_TYPE_RESOURCE then
+				if var_1_22 > var_1_3[id2res(iter_1_9[2])] then
+					local var_1_23 = Drop.New({
+						type = DROP_TYPE_RESOURCE,
+						id = iter_1_9[2]
+					}):getName()
+
+					if iter_1_9[2] == 1 then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("island_3Dshop_lack_gold"))
+					elseif iter_1_9[2] == 4 or iter_1_9[2] == 14 then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("island_3Dshop_lack_gem"))
+					elseif not ItemTipPanel.ShowItemTip(DROP_TYPE_RESOURCE, iter_1_9[2]) then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", var_1_23))
+					end
+
+					return
 				end
-			})
+			elseif iter_1_9[1] == DROP_TYPE_ISLAND_ITEM and var_1_22 > var_1_2:GetOwnCount(iter_1_9[2]) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("island_3Dshop_lack_res"))
 
-			return
+				local var_1_24 = pg.island_item_data_template[iter_1_9[2]].jump_page
+
+				return
+			end
 		end
 
-		if not CheckShipExpOverflow(var_1_13) then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("player_expResource_mail_fullBag"),
-				onYes = next
-			})
-
-			return
-		end
-
-		if var_1_2:ExistAnyOverFlowItem() then
-			pg.TipsMgr.GetInstance():ShowTips("岛屿内背包已满")
-
-			return
-		end
-
-		if var_1_3:GetPayId() == 0 then
+		if var_1_4[1]:GetPayId() == 0 then
 			pg.ConnectionMgr.GetInstance():Send(21018, {
-				shop_id = var_1_0.shopId,
-				goods_id = var_1_0.commodityId,
-				num = var_1_0.count
+				goods_list = var_1_0.commodityList
 			}, 21019, function(arg_7_0)
 				if arg_7_0.result == 0 then
-					arg_1_0:sendNotification(GAME.CONSUME_ITEM, Drop.New({
-						type = var_1_5[1],
-						id = var_1_5[2],
-						count = var_1_7
-					}))
-					IslandDropHelper.AddItems(arg_7_0.drop_list)
-					var_1_1:UpdateShopCommodity(var_1_0.shopId, var_1_0.commodityId, var_1_0.count)
+					for iter_7_0, iter_7_1 in ipairs(var_1_5) do
+						arg_1_0:sendNotification(GAME.CONSUME_ITEM, Drop.New({
+							type = iter_7_1[1],
+							id = iter_7_1[2],
+							count = iter_7_1[3]
+						}))
+					end
+
+					local var_7_0 = {}
+
+					for iter_7_2, iter_7_3 in ipairs(arg_7_0.drop_list) do
+						table.insert(var_7_0, iter_7_3)
+					end
+
+					local var_7_1 = {
+						id = 0,
+						type = VIRTUAL_DROP_TYPE_ISLAND_SEASON_PT,
+						count = var_1_6
+					}
+
+					table.insert(var_7_0, var_7_1)
+
+					local var_7_2 = IslandDropHelper.AddItems({
+						drop_list = var_7_0
+					})
+
+					for iter_7_4, iter_7_5 in ipairs(var_1_0.commodityList) do
+						var_1_1:UpdateShopCommodity(iter_7_5.key, iter_7_5.value1, iter_7_5.value2)
+						pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandShopBuy(iter_7_5.key, iter_7_5.value1))
+					end
+
 					arg_1_0:sendNotification(GAME.ISLAND_SHOP_OP_DONE, {
-						operation = var_1_0.operation
+						operation = var_1_0.operation,
+						awards = var_7_2
 					})
 
 					if var_1_0.callback then
@@ -149,38 +209,38 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			end)
 		end
 	elseif var_1_0.operation == IslandConst.SHOP_REFRESH_BY_PLAYER then
-		local var_1_16 = var_1_0.refreshResource
-		local var_1_17 = getProxy(PlayerProxy):getData()
-		local var_1_18 = var_1_16[3]
+		local var_1_25 = var_1_0.refreshResource
+		local var_1_26 = getProxy(PlayerProxy):getData()
+		local var_1_27 = var_1_25[3]
 
-		if var_1_18 ~= 0 then
-			if var_1_16[1] == DROP_TYPE_RESOURCE then
-				if var_1_18 > var_1_17[id2res(var_1_16[2])] then
-					local var_1_19 = Drop.New({
+		if var_1_27 ~= 0 then
+			if var_1_25[1] == DROP_TYPE_RESOURCE then
+				if var_1_27 > var_1_26[id2res(var_1_25[2])] then
+					local var_1_28 = Drop.New({
 						type = DROP_TYPE_RESOURCE,
-						id = var_1_16[2]
+						id = var_1_25[2]
 					}):getName()
 
-					if var_1_16[2] == 1 then
+					if var_1_25[2] == 1 then
 						GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
 							{
 								59001,
-								var_1_18 - var_1_17[id2res(var_1_16[2])],
-								var_1_18
+								var_1_27 - var_1_26[id2res(var_1_25[2])],
+								var_1_27
 							}
 						})
-					elseif var_1_16[2] == 4 or var_1_16[2] == 14 then
+					elseif var_1_25[2] == 4 or var_1_25[2] == 14 then
 						GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
-					elseif not ItemTipPanel.ShowItemTip(DROP_TYPE_RESOURCE, var_1_16[2]) then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", var_1_19))
+					elseif not ItemTipPanel.ShowItemTip(DROP_TYPE_RESOURCE, var_1_25[2]) then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", var_1_28))
 					end
 
 					return
 				end
-			elseif var_1_16[1] == DROP_TYPE_ISLAND_ITEM and var_1_18 > var_1_2:GetOwnCount(var_1_16[2]) then
-				local var_1_20 = pg.island_item_data_template[var_1_16[2]].name
+			elseif var_1_25[1] == DROP_TYPE_ISLAND_ITEM and var_1_27 > var_1_2:GetOwnCount(var_1_25[2]) then
+				local var_1_29 = pg.island_item_data_template[var_1_25[2]].name
 
-				pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", var_1_20))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", var_1_29))
 
 				return
 			end
@@ -190,11 +250,11 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			shop_id = var_1_0.shopId
 		}, 21021, function(arg_8_0)
 			if arg_8_0.result == 0 then
-				if var_1_18 ~= 0 then
+				if var_1_27 ~= 0 then
 					arg_1_0:sendNotification(GAME.CONSUME_ITEM, Drop.New({
-						type = var_1_16[1],
-						id = var_1_16[2],
-						count = var_1_18
+						type = var_1_25[1],
+						id = var_1_25[2],
+						count = var_1_27
 					}))
 				end
 

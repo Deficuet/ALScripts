@@ -5,22 +5,22 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.shipListTF = arg_2_0:findTF("window/list/scrollview/list", arg_2_0._tf)
-	arg_2_0.shipListTpl = arg_2_0:findTF("window/list/scrollview/item", arg_2_0._tf)
+	arg_2_0.shipListTF = arg_2_0._tf:Find("window/list/scrollview/list")
+	arg_2_0.shipListTpl = arg_2_0._tf:Find("window/list/scrollview/item")
 
 	setActive(arg_2_0.shipListTpl, false)
 
-	arg_2_0.tipListTF = arg_2_0:findTF("window/rateList/scrollview/list", arg_2_0._tf)
-	arg_2_0.tipListTpl = arg_2_0:findTF("window/rateList/scrollview/item", arg_2_0._tf)
+	arg_2_0.tipListTF = arg_2_0._tf:Find("window/rateList/scrollview/list")
+	arg_2_0.tipListTpl = arg_2_0._tf:Find("window/rateList/scrollview/item")
 
-	setText(arg_2_0:findTF("window/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
+	setText(arg_2_0._tf:Find("window/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("window/close_btn", arg_3_0._tf), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/close_btn"), function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("window/confirm_btn", arg_3_0._tf), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/confirm_btn"), function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0._tf, function()
@@ -29,13 +29,11 @@ function var_0_0.OnInit(arg_3_0)
 end
 
 function var_0_0.Show(arg_7_0, arg_7_1, arg_7_2, arg_7_3)
-	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf)
 
 	arg_7_0.isSupport = arg_7_2 == "support"
 
-	local var_7_0 = arg_7_0:findTF("window/rateList/title/Text")
+	local var_7_0 = arg_7_0._tf:Find("window/rateList/title/Text")
 
 	if arg_7_0.isSupport then
 		setText(var_7_0, i18n("support_rate_title"))
@@ -107,7 +105,7 @@ function var_0_0.Hide(arg_9_0)
 	arg_9_0.showing = false
 
 	setActiveViaLayer(arg_9_0._tf, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_9_0._tf, arg_9_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf, arg_9_0._tf)
 end
 
 function var_0_0.isShowing(arg_10_0)
@@ -119,27 +117,27 @@ function var_0_0.OnDestroy(arg_11_0)
 end
 
 function var_0_0.PlayOpenAnimation(arg_12_0)
-	local var_12_0 = arg_12_0:findTF("window/bg_decorations"):GetComponent(typeof(Animation))
+	local var_12_0 = arg_12_0._tf:Find("window/bg_decorations"):GetComponent(typeof(Animation))
 
 	var_12_0:Stop()
 	var_12_0:Play("anim_window_bg")
 
-	local var_12_1 = arg_12_0:findTF("window/title"):GetComponent(typeof(Animation))
+	local var_12_1 = arg_12_0._tf:Find("window/title"):GetComponent(typeof(Animation))
 
 	var_12_1:Stop()
 	var_12_1:Play("anim_top")
 
-	local var_12_2 = arg_12_0:findTF("window"):GetComponent(typeof(Animation))
+	local var_12_2 = arg_12_0._tf:Find("window"):GetComponent(typeof(Animation))
 
 	var_12_2:Stop()
 	var_12_2:Play("anim_content")
 
-	local var_12_3 = arg_12_0:findTF("print"):GetComponent(typeof(Animation))
+	local var_12_3 = arg_12_0._tf:Find("print"):GetComponent(typeof(Animation))
 
 	var_12_3:Stop()
 	var_12_3:Play("anim_bg_plus")
 
-	local var_12_4 = arg_12_0:findTF("window/confirm_btn"):GetComponent(typeof(Animation))
+	local var_12_4 = arg_12_0._tf:Find("window/confirm_btn"):GetComponent(typeof(Animation))
 
 	var_12_4:Stop()
 	var_12_4:Play("anim_button_container")

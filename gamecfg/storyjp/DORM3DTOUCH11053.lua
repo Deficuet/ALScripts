@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "再这样下去的话……嗯……////",
+			say = "このままじゃ⋯うーん⋯",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

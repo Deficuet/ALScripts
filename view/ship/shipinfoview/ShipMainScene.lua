@@ -11,11 +11,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.ResUISettings(arg_2_0)
-	return {
-		anim = true,
-		showType = PlayerResUI.TYPE_ALL,
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
-	}
+	return true
 end
 
 function var_0_0.preload(arg_3_0, arg_3_1)
@@ -30,14 +26,7 @@ function var_0_0.preload(arg_3_0, arg_3_1)
 				return
 			end
 
-			local var_5_0 = PoolMgr.GetInstance()
-			local var_5_1 = "ShipDetailView"
-
-			if not var_5_0:HasCacheUI(var_5_1) then
-				var_5_0:PreloadUI(var_5_1, arg_5_0)
-			else
-				arg_5_0()
-			end
+			PoolMgr.GetInstance():PreloadUI("ShipDetailView", arg_5_0)
 		end
 	}, arg_3_1)
 end
@@ -204,22 +193,22 @@ function var_0_0.init(arg_24_0)
 	arg_24_0:initEvents()
 
 	arg_24_0.mainCanvasGroup = arg_24_0._tf:GetComponent(typeof(CanvasGroup))
-	arg_24_0.commonCanvasGroup = arg_24_0:findTF("blur_panel/adapt"):GetComponent(typeof(CanvasGroup))
+	arg_24_0.commonCanvasGroup = arg_24_0._tf:Find("blur_panel/adapt"):GetComponent(typeof(CanvasGroup))
 	Input.multiTouchEnabled = false
 end
 
 function var_0_0.initShip(arg_25_0)
-	arg_25_0.shipInfo = arg_25_0:findTF("main/character")
+	arg_25_0.shipInfo = arg_25_0._tf:Find("main/character")
 
 	setActive(arg_25_0.shipInfo, true)
 
 	arg_25_0.tablePainting = {
-		arg_25_0:findTF("painting", arg_25_0.shipInfo),
-		arg_25_0:findTF("painting2", arg_25_0.shipInfo)
+		arg_25_0.shipInfo:Find("painting"),
+		arg_25_0.shipInfo:Find("painting2")
 	}
 	arg_25_0.nowPainting = nil
 	arg_25_0.isRight = true
-	arg_25_0.blurPanel = arg_25_0:findTF("blur_panel")
+	arg_25_0.blurPanel = arg_25_0._tf:Find("blur_panel")
 	arg_25_0.common = arg_25_0.blurPanel:Find("adapt")
 	arg_25_0.npcFlagTF = arg_25_0.common:Find("name/npc")
 	arg_25_0.shipName = arg_25_0.common:Find("name")
@@ -236,10 +225,10 @@ function var_0_0.initShip(arg_25_0)
 
 	setActive(arg_25_0.energyDescTF, false)
 
-	arg_25_0.character = arg_25_0:findTF("main/character")
-	arg_25_0.chat = arg_25_0:findTF("main/character/chat")
-	arg_25_0.chatBg = arg_25_0:findTF("main/character/chat/chatbgtop")
-	arg_25_0.chatText = arg_25_0:findTF("Text", arg_25_0.chat)
+	arg_25_0.character = arg_25_0._tf:Find("main/character")
+	arg_25_0.chat = arg_25_0._tf:Find("main/character/chat")
+	arg_25_0.chatBg = arg_25_0._tf:Find("main/character/chat/chatbgtop")
+	arg_25_0.chatText = arg_25_0.chat:Find("Text")
 	rtf(arg_25_0.chat).localScale = Vector3.New(0, 0, 1)
 	arg_25_0.initChatBgH = arg_25_0.chatBg.sizeDelta.y
 	arg_25_0.initChatTextH = arg_25_0.chatText.sizeDelta.y
@@ -248,13 +237,13 @@ end
 
 function var_0_0.initPages(arg_26_0)
 	ShipViewConst.currentPage = nil
-	arg_26_0.background = arg_26_0:findTF("background")
+	arg_26_0.background = arg_26_0._tf:Find("background")
 
 	setActive(arg_26_0.background, true)
 
-	arg_26_0.main = arg_26_0:findTF("main")
+	arg_26_0.main = arg_26_0._tf:Find("main")
 	arg_26_0.mainMask = arg_26_0.main:GetComponent(typeof(RectMask2D))
-	arg_26_0.toggles = arg_26_0:findTF("left_length/frame/root", arg_26_0.common)
+	arg_26_0.toggles = arg_26_0.common:Find("left_length/frame/root")
 	arg_26_0.detailToggle = arg_26_0.toggles:Find("detail_toggle")
 	arg_26_0.equipmentToggle = arg_26_0.toggles:Find("equpiment_toggle")
 	arg_26_0.intensifyToggle = arg_26_0.toggles:Find("intensify_toggle")
@@ -302,6 +291,19 @@ function var_0_0.initPages(arg_26_0)
 	arg_26_0.shipCustomMsgBox = ShipCustomMsgBox.New(arg_26_0._tf, arg_26_0.event, arg_26_0.contextData)
 	arg_26_0.shipChangeNameView = ShipChangeNameView.New(arg_26_0._tf, arg_26_0.event, arg_26_0.contextData)
 	arg_26_0.expItemUsagePage = ShipExpItemUsagePage.New(arg_26_0._tf, arg_26_0.event, arg_26_0.contextData)
+
+	for iter_26_0, iter_26_1 in ipairs({
+		arg_26_0.shipDetailView,
+		arg_26_0.shipFashionView,
+		arg_26_0.shipEquipView,
+		arg_26_0.shipHuntingRangeView,
+		arg_26_0.shipCustomMsgBox,
+		arg_26_0.shipChangeNameView,
+		arg_26_0.expItemUsagePage
+	}) do
+		iter_26_1:RegisterView(arg_26_0)
+	end
+
 	arg_26_0.viewList = {}
 	arg_26_0.viewList[ShipViewConst.PAGE.DETAIL] = arg_26_0.shipDetailView
 	arg_26_0.viewList[ShipViewConst.PAGE.FASHION] = arg_26_0.shipFashionView
@@ -348,7 +350,7 @@ function var_0_0.initEvents(arg_28_0)
 	arg_28_0:bind(ShipViewConst.SET_CLICK_ENABLE, function(arg_33_0, arg_33_1)
 		arg_28_0.mainCanvasGroup.blocksRaycasts = arg_33_1
 		arg_28_0.commonCanvasGroup.blocksRaycasts = arg_33_1
-		GetComponent(arg_28_0.detailContainer, "CanvasGroup").blocksRaycasts = arg_33_1
+		GetOrAddComponent(arg_28_0.detailContainer, "CanvasGroup").blocksRaycasts = arg_33_1
 	end)
 	arg_28_0:bind(ShipViewConst.SHOW_CUSTOM_MSG, function(arg_34_0, arg_34_1)
 		arg_28_0.shipCustomMsgBox:Load()
@@ -379,7 +381,7 @@ end
 
 function var_0_0.didEnter(arg_39_0)
 	arg_39_0:addRingDragListenter()
-	onButton(arg_39_0, arg_39_0:findTF("top/back_btn", arg_39_0.common), function()
+	onButton(arg_39_0, arg_39_0.common:Find("top/back_btn"), function()
 		GetOrAddComponent(arg_39_0._tf, typeof(CanvasGroup)).interactable = false
 
 		if not arg_39_0.everTriggerBack then
@@ -397,7 +399,7 @@ function var_0_0.didEnter(arg_39_0)
 		})
 	end, SFX_PANEL)
 
-	arg_39_0.helpBtn = arg_39_0:findTF("help_btn", arg_39_0.common)
+	arg_39_0.helpBtn = arg_39_0.common:Find("help_btn")
 
 	onButton(arg_39_0, arg_39_0.helpBtn, function()
 		arg_39_0:openHelpPage(ShipViewConst.currentPage)
@@ -441,18 +443,16 @@ function var_0_0.didEnter(arg_39_0)
 		arg_39_0:showEnergyDesc()
 		getProxy(CommanderManualProxy):TaskProgressAdd(2022, 1)
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_39_0.chat, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	arg_39_0:OverlayPanel(arg_39_0.chat, {
+		groupDelta = 1
 	})
-	pg.UIMgr.GetInstance():OverlayPanel(arg_39_0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
-	})
+	arg_39_0:OverlayPanel(arg_39_0.blurPanel)
 
 	local var_39_0 = arg_39_0:checkToggleActive(arg_39_0.contextData.page) and arg_39_0.contextData.page or ShipViewConst.PAGE.DETAIL
 
 	arg_39_0:gotoPage(var_39_0)
 
-	if ShipViewConst.currentPage == ShipViewConst.PAGE.DETAIL then
+	if ShipViewConst.currentPage == ShipViewConst.PAGE.DETAIL or var_39_0 == ShipViewConst.PAGE.DETAIL then
 		arg_39_0:displayShipWord(arg_39_0:getInitmacyWords())
 		arg_39_0:checkMaxLevelHelp()
 	end
@@ -464,38 +464,32 @@ function var_0_0.openHelpPage(arg_50_0, arg_50_1)
 	if arg_50_1 == ShipViewConst.PAGE.EQUIPMENT then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_equip.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_equip.tip
 		})
 	elseif arg_50_1 == ShipViewConst.PAGE.DETAIL then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_detail.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_detail.tip
 		})
 	elseif arg_50_1 == ShipViewConst.PAGE.INTENSIFY then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_intensify.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_intensify.tip
 		})
 	elseif arg_50_1 == ShipViewConst.PAGE.UPGRADE then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_upgrate.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_upgrate.tip
 		})
 	elseif arg_50_1 == ShipViewConst.PAGE.FASHION then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_fashion.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_fashion.tip
 		})
 	else
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_shipinfo_maxlevel.tip,
-			weight = LayerWeightConst.THIRD_LAYER
+			helps = pg.gametip.help_shipinfo_maxlevel.tip
 		})
 	end
 end
@@ -512,20 +506,18 @@ function var_0_0.showAwakenCompleteAni(arg_51_0, arg_51_1)
 
 		local var_52_0 = tf(arg_51_0.awakenAni)
 
-		pg.UIMgr.GetInstance():BlurPanel(var_52_0, false, {
-			weight = LayerWeightConst.TOP_LAYER
-		})
-		setText(arg_51_0:findTF("window/desc", arg_51_0.awakenAni), arg_51_1)
+		pg.UIMgr.GetInstance():BlurPanel(var_52_0)
+		setText(var_52_0:Find("window/desc"), arg_51_1)
 		var_52_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_54_0)
 			arg_51_0.awakenAni:GetComponent("Animator"):SetBool("endFlag", false)
-			pg.UIMgr.GetInstance():UnblurPanel(var_52_0, arg_51_0.common)
+			pg.UIMgr.GetInstance():UnOverlayPanel(var_52_0, arg_51_0.common)
 			arg_51_0.awakenAni:SetActive(false)
 
 			arg_51_0.awakenPlay = false
 		end)
 	end
 
-	local var_51_1 = arg_51_0:findTF("AwakenCompleteWindows(Clone)")
+	local var_51_1 = arg_51_0._tf:Find("AwakenCompleteWindows(Clone)")
 
 	if var_51_1 then
 		arg_51_0.awakenAni = go(var_51_1)
@@ -549,7 +541,7 @@ function var_0_0.updatePreference(arg_56_0, arg_56_1)
 	local var_56_1 = arg_56_0.shipVO:getName()
 
 	setScrollText(arg_56_0.shipName:Find("nameRect/name_mask/Text"), var_56_1)
-	setText(arg_56_0:findTF("english_name", arg_56_0.shipName), var_56_0.english_name)
+	setText(arg_56_0.shipName:Find("english_name"), var_56_0.english_name)
 	setActive(arg_56_0.nameEditFlag, arg_56_1.propose and not arg_56_1:IsXIdol())
 
 	local var_56_2 = GetSpriteFromAtlas("energy", arg_56_1:getEnergyPrint())
@@ -561,7 +553,7 @@ function var_0_0.updatePreference(arg_56_0, arg_56_1)
 	setImageSprite(arg_56_0.energyTF, var_56_2, true)
 	setActive(arg_56_0.energyTF, true)
 
-	local var_56_3 = arg_56_0:findTF("stars", arg_56_0.shipName)
+	local var_56_3 = arg_56_0.shipName:Find("stars")
 
 	removeAllChildren(var_56_3)
 
@@ -586,7 +578,7 @@ function var_0_0.updatePreference(arg_56_0, arg_56_1)
 		warning("找不到船形, shipConfigId: " .. arg_56_1.configId)
 	end
 
-	setImageSprite(arg_56_0:findTF("type", arg_56_0.shipName), var_56_7, true)
+	setImageSprite(arg_56_0.shipName:Find("type"), var_56_7, true)
 end
 
 function var_0_0.doUpgradeMaxLeveAnim(arg_57_0, arg_57_1, arg_57_2, arg_57_3)
@@ -672,8 +664,6 @@ function var_0_0.displayShipWord(arg_65_0, arg_65_1, arg_65_2)
 		arg_65_0.chat.localPosition = Vector3(arg_65_0.character.localPosition.x + 100, arg_65_0.chat.localPosition.y, 0)
 
 		local var_65_0 = arg_65_0.shipVO:getCVIntimacy()
-
-		arg_65_0.chat:SetAsLastSibling()
 
 		if findTF(arg_65_0.nowPainting, "fitter").childCount > 0 then
 			ShipExpressionHelper.SetExpression(findTF(arg_65_0.nowPainting, "fitter"):GetChild(0), arg_65_0.paintingCode, arg_65_1, var_65_0)
@@ -924,8 +914,6 @@ function var_0_0.switchToPage(arg_77_0, arg_77_1, arg_77_2)
 end
 
 function var_0_0.blurPage(arg_80_0, arg_80_1, arg_80_2)
-	local var_80_0 = pg.UIMgr.GetInstance()
-
 	if arg_80_1 == ShipViewConst.PAGE.DETAIL then
 		arg_80_0.shipDetailView:ActionInvoke("OnSelected", arg_80_2)
 	elseif arg_80_1 == ShipViewConst.PAGE.EQUIPMENT then
@@ -1418,13 +1406,13 @@ function var_0_0.onBackPressed(arg_107_0)
 	end
 
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
-	triggerButton(arg_107_0:findTF("top/back_btn", arg_107_0.common))
+	triggerButton(arg_107_0.common:Find("top/back_btn"))
 end
 
 function var_0_0.willExit(arg_108_0)
 	Input.multiTouchEnabled = true
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_108_0.chat, arg_108_0.character)
+	arg_108_0:UnOverlayPanel(arg_108_0.chat, arg_108_0.character)
 	arg_108_0:blurPage(ShipViewConst.currentPage)
 	setActive(arg_108_0.background, false)
 
@@ -1479,7 +1467,7 @@ function var_0_0.willExit(arg_108_0)
 		cancelTweens(arg_108_0.tweens)
 	end
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_108_0.blurPanel, arg_108_0._tf)
+	arg_108_0:UnOverlayPanel(arg_108_0.blurPanel, arg_108_0._tf)
 
 	arg_108_0.shareData = nil
 end

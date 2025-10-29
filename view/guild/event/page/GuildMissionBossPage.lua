@@ -5,27 +5,27 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.hp = arg_2_0:findTF("hp/bar")
-	arg_2_0.hpProgress = arg_2_0:findTF("hp/bar/Text"):GetComponent(typeof(Text))
+	arg_2_0.hp = arg_2_0._tf:Find("hp/bar")
+	arg_2_0.hpProgress = arg_2_0._tf:Find("hp/bar/Text"):GetComponent(typeof(Text))
 	arg_2_0.hpL = arg_2_0.hp.rect.width
-	arg_2_0.titleTxt = arg_2_0:findTF("title"):GetComponent(typeof(Text))
-	arg_2_0.assaultBtn = arg_2_0:findTF("btn_a_formation")
-	arg_2_0.battleBtn = arg_2_0:findTF("btn_go")
-	arg_2_0.reportBtn = arg_2_0:findTF("btn_report")
-	arg_2_0.reportTip = arg_2_0:findTF("btn_report/tip")
-	arg_2_0.reportTipTxt = arg_2_0:findTF("btn_report/tip/Text"):GetComponent(typeof(Text))
-	arg_2_0.cntTxt = arg_2_0:findTF("btn_go/cnt/Text"):GetComponent(typeof(Text))
-	arg_2_0.rankList = UIItemList.New(arg_2_0:findTF("rank/content"), arg_2_0:findTF("rank/content/tpl"))
-	arg_2_0.paintingTF = arg_2_0:findTF("painting")
-	arg_2_0.prefabTF = arg_2_0:findTF("prefab")
-	arg_2_0.viewAllBtn = arg_2_0:findTF("rank/view_all")
+	arg_2_0.titleTxt = arg_2_0._tf:Find("title"):GetComponent(typeof(Text))
+	arg_2_0.assaultBtn = arg_2_0.rtAdapt:Find("btn_a_formation")
+	arg_2_0.battleBtn = arg_2_0.rtAdapt:Find("btn_go")
+	arg_2_0.reportBtn = arg_2_0.rtAdapt:Find("btn_report")
+	arg_2_0.reportTip = arg_2_0.rtAdapt:Find("btn_report/tip")
+	arg_2_0.reportTipTxt = arg_2_0.rtAdapt:Find("btn_report/tip/Text"):GetComponent(typeof(Text))
+	arg_2_0.cntTxt = arg_2_0.rtAdapt:Find("btn_go/cnt/Text"):GetComponent(typeof(Text))
+	arg_2_0.rankList = UIItemList.New(arg_2_0._tf:Find("rank/content"), arg_2_0._tf:Find("rank/content/tpl"))
+	arg_2_0.paintingTF = arg_2_0._tf:Find("painting")
+	arg_2_0.prefabTF = arg_2_0._tf:Find("prefab")
+	arg_2_0.viewAllBtn = arg_2_0._tf:Find("rank/view_all")
 	arg_2_0.allRankPage = GuildBossRankPage.New(arg_2_0._parentTf, arg_2_0.event)
 
 	setActive(arg_2_0.viewAllBtn, PLATFORM_CODE ~= PLATFORM_JP)
 
-	arg_2_0.eventTimerTxt = arg_2_0:findTF("timer/Text"):GetComponent(typeof(Text))
+	arg_2_0.eventTimerTxt = arg_2_0._tf:Find("timer/Text"):GetComponent(typeof(Text))
 
-	setText(arg_2_0:findTF("timer/label"), i18n("guild_time_remaining_tip"))
+	setText(arg_2_0._tf:Find("timer/label"), i18n("guild_time_remaining_tip"))
 
 	arg_2_0.timeView = GuildEventTimerView.New()
 end
@@ -113,7 +113,7 @@ function var_0_0.CheckFleetShipState(arg_11_0)
 	end
 
 	if #var_11_2 > 0 then
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
 			content = i18n("guild_boss_formation_exist_invaild_ship")
 		})
@@ -162,7 +162,7 @@ function var_0_0.UpdatePainting(arg_13_0)
 			end
 		end)
 
-		local var_13_4 = arg_13_0:findTF("name/Image", arg_13_0.prefabTF):GetComponent(typeof(Image))
+		local var_13_4 = arg_13_0.prefabTF:Find("name/Image"):GetComponent(typeof(Image))
 
 		var_13_4.sprite = GetSpriteFromAtlas("guildboss/name_" .. var_13_3, "")
 

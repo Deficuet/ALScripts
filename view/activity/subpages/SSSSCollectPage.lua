@@ -7,10 +7,10 @@ local var_0_4 = "event:/ui/kaiji"
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.effectBlankScreen = arg_1_0:findTF("blank_screen_effect", arg_1_0.bg)
-	arg_1_0.effectOpen = arg_1_0:findTF("open_effect", arg_1_0.bg)
-	arg_1_0.effectBlink = arg_1_0:findTF("blink_effect", arg_1_0.bg)
-	arg_1_0.effectClick = arg_1_0:findTF("click_effect", arg_1_0.bg)
+	arg_1_0.effectBlankScreen = arg_1_0.bg:Find("blank_screen_effect")
+	arg_1_0.effectOpen = arg_1_0.bg:Find("open_effect")
+	arg_1_0.effectBlink = arg_1_0.bg:Find("blink_effect")
+	arg_1_0.effectClick = arg_1_0.bg:Find("click_effect")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)

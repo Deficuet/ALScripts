@@ -79,7 +79,7 @@ return {
 				dir = 1,
 				posX = 700.2,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/PreCombatUI(Clone)/right/start/cost_container/popup/icon"
+					path = "OverlayCamera/Overlay/UIMain/PreCombatUI(Clone)/adapt/right/start/cost_container/popup/icon"
 				}
 			}
 		}

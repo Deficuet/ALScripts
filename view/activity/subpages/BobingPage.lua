@@ -112,22 +112,22 @@ end
 function var_0_0.displayLotteryAni(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 	local var_10_0 = arg_10_0:getIndexByNumbers(arg_10_2)
 	local var_10_1 = findTF(arg_10_0._tf, "lottery")
-	local var_10_2 = arg_10_0:findTF("omikuji_anim", var_10_1):GetComponent(typeof(DftAniEvent))
+	local var_10_2 = var_10_1:Find("omikuji_anim"):GetComponent(typeof(DftAniEvent))
 
 	var_10_2:SetEndEvent(function(arg_11_0)
 		setActive(var_10_2.gameObject, false)
 
-		local var_11_0 = arg_10_0:findTF("omikuji_result", var_10_1)
+		local var_11_0 = var_10_1:Find("omikuji_result")
 
 		setActive(var_11_0, true)
 
-		local var_11_1 = arg_10_0:findTF("title", var_11_0)
+		local var_11_1 = var_11_0:Find("title")
 
 		for iter_11_0 = 1, var_11_1.childCount do
 			setActive(var_11_1:GetChild(iter_11_0 - 1), iter_11_0 == var_10_0)
 		end
 
-		local var_11_2 = arg_10_0:findTF("desc", var_11_0)
+		local var_11_2 = var_11_0:Find("desc")
 		local var_11_3 = {
 			"big",
 			"medium",
@@ -137,8 +137,8 @@ function var_0_0.displayLotteryAni(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 
 		setText(var_11_2, var_11_4)
 
-		local var_11_5 = arg_10_0:findTF("award", var_11_0)
-		local var_11_6 = arg_10_0:findTF("award_list", var_11_0)
+		local var_11_5 = var_11_0:Find("award")
+		local var_11_6 = var_11_0:Find("award_list")
 
 		setActive(var_11_5, false)
 		removeAllChildren(var_11_6)
@@ -175,21 +175,21 @@ function var_0_0.bobingUpdate(arg_14_0)
 
 	if not var_14_2 then
 		var_14_2 = {
-			bg = arg_14_0:findTF("AD", arg_14_0._tf),
-			progress = arg_14_0:findTF("award/nums", var_14_1),
-			get = arg_14_0:findTF("award/get", var_14_1),
-			nums = arg_14_0:findTF("nums/text", var_14_1),
-			bowlDisable = arg_14_0:findTF("bowl_disable", var_14_1),
-			bowlEnable = arg_14_0:findTF("bowl_enable", var_14_1)
+			bg = arg_14_0._tf:Find("AD"),
+			progress = var_14_1:Find("award/nums"),
+			get = var_14_1:Find("award/get"),
+			nums = var_14_1:Find("nums/text"),
+			bowlDisable = var_14_1:Find("bowl_disable"),
+			bowlEnable = var_14_1:Find("bowl_enable")
 		}
-		var_14_2.bowlShine = arg_14_0:findTF("bowl_shine", var_14_2.bowlEnable)
-		var_14_2.btnRule = arg_14_0:findTF("btnRule", var_14_1)
-		var_14_2.layerRule = arg_14_0:findTF("rule", var_14_1)
-		var_14_2.btnReturn = arg_14_0:findTF("btnReturn", var_14_2.layerRule)
-		var_14_2.item = arg_14_0:findTF("item", var_14_2.layerRule)
-		var_14_2.top = arg_14_0:findTF("top", var_14_2.layerRule)
-		var_14_2.itemRow = arg_14_0:findTF("row", var_14_2.layerRule)
-		var_14_2.itemColumn = arg_14_0:findTF("column", var_14_2.layerRule)
+		var_14_2.bowlShine = var_14_2.bowlEnable:Find("bowl_shine")
+		var_14_2.btnRule = var_14_1:Find("btnRule")
+		var_14_2.layerRule = var_14_1:Find("rule")
+		var_14_2.btnReturn = var_14_2.layerRule:Find("btnReturn")
+		var_14_2.item = var_14_2.layerRule:Find("item")
+		var_14_2.top = var_14_2.layerRule:Find("top")
+		var_14_2.itemRow = var_14_2.layerRule:Find("row")
+		var_14_2.itemColumn = var_14_2.layerRule:Find("column")
 
 		setActive(var_14_2.layerRule, false)
 		setActive(var_14_2.item, false)
@@ -283,9 +283,9 @@ function var_0_0.bobingUpdate(arg_14_0)
 end
 
 function var_0_0.displayBBAnim(arg_24_0, arg_24_1)
-	local var_24_0 = arg_24_0:findTF("bobing/bb_anim")
-	local var_24_1 = arg_24_0:findTF("ship", var_24_0)
-	local var_24_2 = arg_24_0:findTF("bowl", var_24_0)
+	local var_24_0 = arg_24_0._tf:Find("bobing/bb_anim")
+	local var_24_1 = var_24_0:Find("ship")
+	local var_24_2 = var_24_0:Find("bowl")
 
 	if not arg_24_0.animBowl then
 		arg_24_0.animBowl = var_24_2:GetComponent(typeof(SpineAnimUI))
@@ -327,18 +327,18 @@ end
 function var_0_0.displayBBResult(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
 	arg_28_0.animation = findTF(arg_28_0._tf, "bobing")
 
-	setActive(arg_28_0:findTF("bb_anim", arg_28_0.animation), false)
+	setActive(arg_28_0.animation:Find("bb_anim"), false)
 
-	local var_28_0 = arg_28_0:findTF("bb_result", arg_28_0.animation)
-	local var_28_1 = arg_28_0:findTF("numbers", var_28_0)
-	local var_28_2 = arg_28_0:findTF("number", var_28_0)
-	local var_28_3 = arg_28_0:findTF("rank", var_28_0)
-	local var_28_4 = arg_28_0:findTF("bgRank", var_28_0)
+	local var_28_0 = arg_28_0.animation:Find("bb_result")
+	local var_28_1 = var_28_0:Find("numbers")
+	local var_28_2 = var_28_0:Find("number")
+	local var_28_3 = var_28_0:Find("rank")
+	local var_28_4 = var_28_0:Find("bgRank")
 
 	setActive(var_28_2, false)
 
-	local var_28_5 = arg_28_0:findTF("award", var_28_0)
-	local var_28_6 = arg_28_0:findTF("award_list", var_28_0)
+	local var_28_5 = var_28_0:Find("award")
+	local var_28_6 = var_28_0:Find("award_list")
 
 	setActive(var_28_5, false)
 	removeAllChildren(var_28_6)
@@ -399,7 +399,7 @@ function var_0_0.displayBBResult(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
 			var_28_3.localScale = Vector3.Lerp(Vector3(2, 2, 2), Vector3.one, arg_34_0)
 		end))
 
-		local var_28_13 = arg_28_0:findTF("rank_p", var_28_0) or cloneTplTo(var_28_3, var_28_0, "rank_p")
+		local var_28_13 = var_28_0:Find("rank_p") or cloneTplTo(var_28_3, var_28_0, "rank_p")
 
 		arg_28_0:setSpriteTo("bobing/bb_icon/rank" .. var_28_10, var_28_13)
 		arg_28_0:setSpriteTo("bobing/bb_icon/rank" .. var_28_10, var_28_3)
@@ -426,7 +426,7 @@ end
 function var_0_0.setSpriteTo(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
 	local var_38_0 = arg_38_2:GetComponent(typeof(Image))
 
-	var_38_0.sprite = arg_38_0:findTF(arg_38_1):GetComponent(typeof(Image)).sprite
+	var_38_0.sprite = arg_38_0._tf:Find(arg_38_1):GetComponent(typeof(Image)).sprite
 
 	if arg_38_3 then
 		var_38_0:SetNativeSize()

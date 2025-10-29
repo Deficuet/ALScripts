@@ -245,7 +245,7 @@ pg.base.box_data_template = {
 		id = 1001,
 		name = "イベント",
 		type = 2,
-		effect_arg = 0,
+		effect_arg = 1,
 		icon = "event2",
 		effect_id = 1
 	},
@@ -253,7 +253,7 @@ pg.base.box_data_template = {
 		id = 1002,
 		name = "イベント",
 		type = 2,
-		effect_arg = 0,
+		effect_arg = 1,
 		icon = "event2",
 		effect_id = 2
 	},
@@ -261,7 +261,7 @@ pg.base.box_data_template = {
 		id = 1003,
 		name = "イベント",
 		type = 2,
-		effect_arg = 0,
+		effect_arg = 1,
 		icon = "event2",
 		effect_id = 3
 	},
@@ -269,7 +269,7 @@ pg.base.box_data_template = {
 		id = 1004,
 		name = "イベント",
 		type = 2,
-		effect_arg = 0,
+		effect_arg = 1,
 		icon = "event2",
 		effect_id = 4
 	},

@@ -30,7 +30,7 @@ return {
 			bgName = "star_level_bg_582",
 			hidePaintObj = true,
 			say = "再稼働させたエレベーターに乗り、一行は新しいエリアに足を踏み入れた。",
-			bgm = "yumia-51",
+			bgm = "yumia-az-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

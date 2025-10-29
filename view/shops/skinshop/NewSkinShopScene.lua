@@ -183,32 +183,32 @@ end
 
 function var_0_0.init(arg_15_0)
 	arg_15_0.cgGroup = arg_15_0._tf:GetComponent(typeof(CanvasGroup))
-	arg_15_0.backBtn = arg_15_0:findTF("overlay/blur_panel/adapt/top/back_btn")
-	arg_15_0.atlasBtn = arg_15_0:findTF("overlay/bottom/bg/atlas")
-	arg_15_0.prevBtn = arg_15_0:findTF("overlay/bottom/bg/left_arr")
-	arg_15_0.nextBtn = arg_15_0:findTF("overlay/bottom/bg/right_arr")
-	arg_15_0.live2dFilter = arg_15_0:findTF("overlay/blur_panel/adapt/top/live2d")
+	arg_15_0.backBtn = arg_15_0._tf:Find("overlay/blur_panel/adapt/top/back_btn")
+	arg_15_0.atlasBtn = arg_15_0._tf:Find("overlay/bottom/bg/atlas")
+	arg_15_0.prevBtn = arg_15_0._tf:Find("overlay/bottom/bg/left_arr")
+	arg_15_0.nextBtn = arg_15_0._tf:Find("overlay/bottom/bg/right_arr")
+	arg_15_0.live2dFilter = arg_15_0._tf:Find("overlay/blur_panel/adapt/top/live2d")
 	arg_15_0.live2dFilterSel = arg_15_0.live2dFilter:Find("selected")
-	arg_15_0.indexBtn = arg_15_0:findTF("overlay/blur_panel/adapt/top/index_btn")
+	arg_15_0.indexBtn = arg_15_0._tf:Find("overlay/blur_panel/adapt/top/index_btn")
 	arg_15_0.indexBtnSel = arg_15_0.indexBtn:Find("sel")
-	arg_15_0.inptuTr = arg_15_0:findTF("overlay/blur_panel/adapt/top/search")
-	arg_15_0.changeBtn = arg_15_0:findTF("overlay/blur_panel/adapt/top/change_btn")
+	arg_15_0.inptuTr = arg_15_0._tf:Find("overlay/blur_panel/adapt/top/search")
+	arg_15_0.changeBtn = arg_15_0._tf:Find("overlay/blur_panel/adapt/top/change_btn")
 
 	setText(arg_15_0.inptuTr:Find("holder"), i18n("skinatlas_search_holder"))
 
-	arg_15_0.couponTr = arg_15_0:findTF("overlay/blur_panel/adapt/top/discount/coupon")
+	arg_15_0.couponTr = arg_15_0._tf:Find("overlay/blur_panel/adapt/top/discount/coupon")
 	arg_15_0.couponSelTr = arg_15_0.couponTr:Find("selected")
-	arg_15_0.voucherTr = arg_15_0:findTF("overlay/blur_panel/adapt/top/discount/voucher")
+	arg_15_0.voucherTr = arg_15_0._tf:Find("overlay/blur_panel/adapt/top/discount/voucher")
 	arg_15_0.voucherSelTr = arg_15_0.voucherTr:Find("selected")
-	arg_15_0.rollingCircleRect = RollingCircleRect.New(arg_15_0:findTF("overlay/left/mask/content/0"), arg_15_0:findTF("overlay/left"))
+	arg_15_0.rollingCircleRect = RollingCircleRect.New(arg_15_0._tf:Find("overlay/left/mask/content/0"), arg_15_0._tf:Find("overlay/left"))
 
 	arg_15_0.rollingCircleRect:SetCallback(arg_15_0, var_0_0.OnSelectSkinPage, var_0_0.OnConfirmSkinPage)
 
-	arg_15_0.rollingCircleMaskTr = arg_15_0:findTF("overlay/left")
+	arg_15_0.rollingCircleMaskTr = arg_15_0._tf:Find("overlay/left")
 	arg_15_0.mainView = NewSkinShopMainView.New(arg_15_0._tf, arg_15_0.event, arg_15_0.contextData)
-	arg_15_0.title = arg_15_0:findTF("overlay/blur_panel/adapt/top/title"):GetComponent(typeof(Image))
-	arg_15_0.titleEn = arg_15_0:findTF("overlay/blur_panel/adapt/top/title_en"):GetComponent(typeof(Image))
-	arg_15_0.scrollrect = arg_15_0:findTF("overlay/bottom/scroll"):GetComponent("LScrollRect")
+	arg_15_0.title = arg_15_0._tf:Find("overlay/blur_panel/adapt/top/title"):GetComponent(typeof(Image))
+	arg_15_0.titleEn = arg_15_0._tf:Find("overlay/blur_panel/adapt/top/title_en"):GetComponent(typeof(Image))
+	arg_15_0.scrollrect = arg_15_0._tf:Find("overlay/bottom/scroll"):GetComponent("LScrollRect")
 	arg_15_0.scrollrect.isNewLoadingMethod = true
 
 	function arg_15_0.scrollrect.onInitItem(arg_16_0)
@@ -219,7 +219,7 @@ function var_0_0.init(arg_15_0)
 		arg_15_0:OnUpdateItem(arg_17_0, arg_17_1)
 	end
 
-	arg_15_0.emptyTr = arg_15_0:findTF("bgs/empty")
+	arg_15_0.emptyTr = arg_15_0._tf:Find("bgs/empty")
 	arg_15_0.defaultIndex = {
 		typeIndex = ShipIndexConst.TypeAll,
 		campIndex = ShipIndexConst.CampAll,
@@ -628,7 +628,7 @@ function var_0_0.Sort(arg_62_0, arg_62_1, arg_62_2, arg_62_3)
 end
 
 function var_0_0.IsCouponType(arg_63_0, arg_63_1, arg_63_2)
-	if arg_63_1 and not SkinCouponActivity.StaticIsShop(arg_63_2.id) then
+	if arg_63_1 and not SkinCouponActivity.GetSkinCouponAct(arg_63_2.id) then
 		return false
 	end
 

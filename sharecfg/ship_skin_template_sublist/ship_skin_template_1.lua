@@ -11142,6 +11142,11 @@ pg.base.ship_skin_template_1 = {
 					0,
 					0
 				}
+			},
+			remote = {
+				-50,
+				0,
+				0
 			}
 		},
 		smoke = {
@@ -11963,6 +11968,163 @@ pg.base.ship_skin_template_1 = {
 							0
 						}
 					}
+				}
+			}
+		}
+	},
+	[101472] = {
+		ship_group = 10147,
+		name = "テクノロジー？忍術？",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		id = 101472,
+		l2d_drag_rate = "",
+		group_index = 2,
+		purchase_offset = "",
+		painting = "molisen_3",
+		part_scale = "",
+		prefab = "molisen_3",
+		shop_id = 71213,
+		shop_type_id = 28,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "320",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "ここって、忍者の修行シーンの撮影にピッタリですね……こほん！指揮官に忍術を披露させていただきます！……ど、どうかご覧ください…変化の術！やあ！",
+		voice_actor = 277,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			7,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			354,
+			-1050,
+			0,
+			1.16
+		},
+		spine_offset_profile = {
+			417,
+			-1066,
+			0,
+			1.17
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.697,
+					0.683,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.461,
+					0.938,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.822,
+							2.495,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-30,
+			-626,
+			0,
+			0.7
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1350,
+					-873,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					-1038,
+					172,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					175,
+					32,
+					2,
+					0,
+					-120,
+					2
 				}
 			}
 		}
@@ -13043,6 +13205,208 @@ pg.base.ship_skin_template_1 = {
 			10151120,
 			10151121,
 			10151122
+		}
+	},
+	[101512] = {
+		ship_group = 10151,
+		name = "ウサウサ城主の見回り休憩",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		id = 101512,
+		l2d_drag_rate = "",
+		group_index = 2,
+		purchase_offset = "",
+		painting = "lafeiII_4",
+		part_scale = "",
+		prefab = "lafeiII_4",
+		shop_id = 71216,
+		shop_type_id = 10,
+		illustrator = -1,
+		lip_smoothing = 0,
+		bg = "552",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "んぅ…おねむ……ウサウサ城主の偉いラフィーはちょっと休憩したい……指揮官…じゃなくて奉行……領地の見回りは…少し待ってから……",
+		voice_actor = 35,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-62.2,
+			-512.2,
+			0,
+			0.47
+		},
+		spine_offset_profile = {
+			-1.7,
+			-507.4,
+			0,
+			0.46
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.367,
+					1.057,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.477,
+					0.959,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.637,
+					2.247,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.833,
+							2.413,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		spine_offset = {
+			40.6,
+			-598.5,
+			0,
+			0.526
+		},
+		ship_l2d_id = {
+			10151101,
+			10151102,
+			10151103,
+			10151104,
+			10151105,
+			10151106,
+			10151107,
+			10151108,
+			10151109,
+			10151110,
+			10151111,
+			10151112,
+			10151113,
+			10151114,
+			10151115,
+			10151116,
+			10151117,
+			10151118,
+			10151119,
+			10151120,
+			10151121,
+			10151122
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-730,
+					602,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					409.5,
+					132,
+					2,
+					0,
+					-156,
+					2
+				},
+				{
+					-519,
+					-577,
+					2,
+					-100,
+					0,
+					2
+				}
+			}
 		}
 	},
 	[101520] = {
@@ -14570,6 +14934,211 @@ pg.base.ship_skin_template_1 = {
 			0.5
 		}
 	},
+	[102054] = {
+		ship_group = 10205,
+		name = "ヒノキと温熱タイム",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		id = 102054,
+		part_scale = "",
+		group_index = 4,
+		purchase_offset = "",
+		painting = "hailunna_5",
+		prefab = "hailunna_5",
+		shop_id = 71171,
+		illustrator = 7,
+		shop_type_id = 22,
+		lip_smoothing = 0,
+		bg = "109",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "きゃぅ？！…し、指揮官…？だ、大丈夫！ちょっと転んだだけで別に平気――調光ガラスがオフになってたの…？！あ、はわわわ…///",
+		voice_actor = 34,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-107,
+			-908,
+			0,
+			0.61
+		},
+		spine_offset_profile = {
+			-58,
+			-907,
+			0,
+			0.61
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.06,
+					0.975,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.029,
+					1.029,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.837,
+					2.394,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.627,
+							2.291,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			},
+			ParamBodyAngleX = {
+				-8,
+				8
+			},
+			ParamBodyAngleY = {
+				-8,
+				8
+			},
+			ParamEyeBallX = {
+				-0.4,
+				0.2
+			},
+			ParamEyeBallY = {
+				-0.4,
+				0.4
+			}
+		},
+		spine_offset = {
+			-134,
+			-1450,
+			0,
+			0.858
+		},
+		ship_l2d_id = {
+			1020531,
+			1020532,
+			1020533
+		},
+		l2d_drag_rate = {
+			0.5,
+			0.5,
+			0.5
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1932,
+					1460,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					-592,
+					657,
+					2,
+					0,
+					-100,
+					2
+				},
+				{
+					-242,
+					-434,
+					2,
+					-100,
+					0,
+					2
+				}
+			}
+		}
+	},
 	[102058] = {
 		ship_group = 10205,
 		name = "純白の奇跡",
@@ -14785,6 +15354,135 @@ pg.base.ship_skin_template_1 = {
 						{
 							-0.53,
 							2.289,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102060] = {
+		ship_group = 10206,
+		name = "アトランタ",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = 19,
+		shop_offset = "",
+		id = 102060,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "yatelanda",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "yatelanda",
+		shop_type_id = 0,
+		shop_id = 0,
+		illustrator = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "アトランタ級軽巡洋艦・アトランタ（CL-51)",
+		voice_actor = 55,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.257,
+					0.783,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.119,
+					0.702,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.464,
+					1.052,
+					0
+				},
+				{
+					-0.439,
+					1.353,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							0.67,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.32,
+							0.67,
 							0
 						}
 					}

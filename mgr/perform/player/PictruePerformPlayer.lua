@@ -3,9 +3,9 @@ local var_0_0 = class("StoryPerformPlayer", import(".BasePerformPlayer"))
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 
-	arg_1_0.bgTF = arg_1_0:findTF("bg", arg_1_0._tf)
-	arg_1_0.nameTF = arg_1_0:findTF("name", arg_1_0.bgTF)
-	arg_1_0.imageCom = arg_1_0:findTF("picture", arg_1_0.bgTF):GetComponent(typeof(Image))
+	arg_1_0.bgTF = arg_1_0._tf:Find("bg")
+	arg_1_0.nameTF = arg_1_0.bgTF:Find("name")
+	arg_1_0.imageCom = arg_1_0.bgTF:Find("picture"):GetComponent(typeof(Image))
 end
 
 function var_0_0.Play(arg_2_0, arg_2_1, arg_2_2, arg_2_3)

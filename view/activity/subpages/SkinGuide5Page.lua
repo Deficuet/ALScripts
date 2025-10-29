@@ -9,7 +9,7 @@ local var_0_2
 local var_0_3 = "ui/activityuipage/skinguide5page_atlas"
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.ad = arg_1_0:findTF("AD")
+	arg_1_0.ad = arg_1_0._tf:Find("AD")
 
 	if PLATFORM_CODE == PLATFORM_JP then
 		var_0_2 = {

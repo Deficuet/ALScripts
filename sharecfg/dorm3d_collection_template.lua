@@ -134,6 +134,38 @@ pg.dorm3d_collection_template = setmetatable({
 			1127,
 			1128
 		},
+		[12] = {
+			1201,
+			1202,
+			1203,
+			1204,
+			1205,
+			1206,
+			1207,
+			1208,
+			1209,
+			1210,
+			1211,
+			1212,
+			1213,
+			1214,
+			1215,
+			1216,
+			1217,
+			1218,
+			1219,
+			1220,
+			1221,
+			1222,
+			1223,
+			1224,
+			1225,
+			1226,
+			1227,
+			1228,
+			1229,
+			1230
+		},
 		[16] = {
 			1601,
 			1602,
@@ -269,6 +301,36 @@ pg.dorm3d_collection_template = setmetatable({
 		1126,
 		1127,
 		1128,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1209,
+		1210,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1216,
+		1217,
+		1218,
+		1219,
+		1220,
+		1221,
+		1222,
+		1223,
+		1224,
+		1225,
+		1226,
+		1227,
+		1228,
+		1229,
+		1230,
 		1601,
 		1602,
 		1603,
@@ -2844,6 +2906,636 @@ pg.base.dorm3d_collection_template = {
 			"fbx/litmap_01/night/pre_db_cosmetic17/vfx_wupintishi01"
 		}
 	},
+	[1201] = {
+		text = "dorm3d_dafeng_bed",
+		name = "磁器",
+		award = 0,
+		time = 0,
+		id = 1201,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item1",
+		desc = "繊細で複雑な模様が施された白磁。大切に手入れされ、表面は塵ひとつなく輝いている。",
+		model = {
+			"fbx/litmap_01/pre_db_ceram23"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram23/vfx_wupintishi01"
+		}
+	},
+	[1202] = {
+		text = "dorm3d_dafeng_bed",
+		name = "下校後の甘い時間",
+		award = 0,
+		time = 2,
+		id = 1202,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item2",
+		desc = "袖章付きの制服にスカート。普段の赤い装束とは違い、たまに見せるこの装いも新鮮だ。",
+		model = {
+			"fbx/litmap_01/night/pre_db_cloth11"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_cloth11/vfx_wupintishi01"
+		}
+	},
+	[1203] = {
+		text = "dorm3d_dafeng_bed",
+		name = "禁断の宴",
+		award = 0,
+		time = 0,
+		id = 1203,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item3",
+		desc = "優雅な赤いパーティードレス。生地は軽やかで柔らか。大鳳が餐会などの特別な場に出る時に好んで身につける。",
+		model = {
+			"fbx/litmap_01/pre_db_cloth10"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth10/vfx_wupintishi01"
+		}
+	},
+	[1204] = {
+		text = "dorm3d_dafeng_bed",
+		name = "木製収納箱",
+		award = 0,
+		time = 0,
+		id = 1204,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item4",
+		desc = "大鳳のコレクションがひとつひとつ収められた小さな木箱。中には愛する人との思い出が詰まっている。",
+		model = {
+			"fbx/litmap_01/pre_db_woodbox03"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_woodbox03/vfx_wupintishi01"
+		}
+	},
+	[1205] = {
+		text = "dorm3d_dafeng_bed",
+		name = "ミニ盆栽",
+		award = 0,
+		time = 0,
+		id = 1205,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item5",
+		desc = "葉は艶やかで生き生きとしていて、枝ぶりも整えられた小さな盆栽。手間ひまかけた手入れがうかがえる。",
+		model = {
+			"fbx/litmap_01/pre_db_bonsai20"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bonsai20/vfx_wupintishi01"
+		}
+	},
+	[1206] = {
+		text = "dorm3d_dafeng_table",
+		name = "鳳凰の髪飾り",
+		award = 0,
+		time = 0,
+		id = 1206,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item6",
+		desc = "化粧台に置かれた鳳凰の髪飾り。普段身につけているものと全く同じで、そのお気に入り具合が分かる。",
+		model = {
+			"fbx/litmap_01/pre_db_headgear02"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_headgear02/vfx_wupintishi01"
+		}
+	},
+	[1207] = {
+		text = "dorm3d_dafeng_table",
+		name = "下駄",
+		award = 0,
+		time = 0,
+		id = 1207,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item7",
+		desc = "底に模様が彫られた伝統的な下駄。たまに履いて外を歩けば、その足音は軽やかに響く。",
+		model = {
+			"fbx/litmap_01/pre_db_shoe02"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_shoe02/vfx_wupintishi01"
+		}
+	},
+	[1208] = {
+		text = "dorm3d_dafeng_bed",
+		name = "大鳳の本",
+		award = 0,
+		time = 0,
+		id = 1208,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item8",
+		desc = "文学からミリタリーまで多彩なジャンルを揃えた本たち。…中には少し変わった内容の本も混じっている模様？",
+		model = {
+			"fbx/litmap_01/pre_db_book19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_book19/vfx_wupintishi01"
+		}
+	},
+	[1209] = {
+		text = "dorm3d_dafeng_chair",
+		name = "清らかなアロマ",
+		award = 0,
+		time = 2,
+		id = 1209,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item9",
+		desc = "ほのかな花の香りを放つアロマ。大鳳は就寝前につけ、部屋を穏やかな空気で満たすようにしている。",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration17"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration17/vfx_wupintishi01"
+		}
+	},
+	[1210] = {
+		text = "dorm3d_dafeng_chair",
+		name = "キャットタワー",
+		award = 0,
+		time = 0,
+		id = 1210,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item10",
+		desc = "可愛いデザインのキャットタワー、頂上にはおもちゃのボールが吊るされている。…大鳳は猫でも飼おうとしているのかな？",
+		model = {
+			"fbx/litmap_01/pre_db_decoration04"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration04/vfx_wupintishi01"
+		}
+	},
+	[1211] = {
+		text = "dorm3d_dafeng_bed",
+		name = "アロマキャンドル",
+		award = 0,
+		time = 2,
+		id = 1211,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item11",
+		desc = "照明と装飾を兼ねたキャンドル。大鳳はアロマの精油を加えたようで、温かい光で室内を照らすと同時に、ほのかなラベンダーの香りが感じられる。",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration19/vfx_wupintishi01"
+		}
+	},
+	[1212] = {
+		text = "dorm3d_dafeng_chair",
+		name = "新鮮な花",
+		award = 0,
+		time = 0,
+		id = 1212,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item12",
+		desc = "鮮やかな色の花々が窓辺に整然と並べられている。大鳳が毎日手入れしているようで、常に瑞々しさを保っている。",
+		model = {
+			"fbx/litmap_01/pre_db_flowerpot16"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowerpot16/vfx_wupintishi01"
+		}
+	},
+	[1213] = {
+		text = "dorm3d_dafeng_chair",
+		name = "モノクロキャットボウル",
+		award = 0,
+		time = 0,
+		id = 1213,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item13",
+		desc = "用途を分けるために色分けされた、新品のモノクロの猫用ボウル。",
+		model = {
+			"fbx/litmap_01/pre_db_tableware44"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_tableware44/vfx_wupintishi01"
+		}
+	},
+	[1214] = {
+		text = "dorm3d_dafeng_table",
+		name = "フルーツ盛り合わせ",
+		award = 0,
+		time = 0,
+		id = 1214,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item14",
+		desc = "テーブルのトレイに乗せられている、フルーツの盛り合わせ。常に新鮮で美味しそうな果物が並び、いつでも来客をおもてなしできるようにしている。",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_tableware47"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_tableware47/vfx_wupintishi01"
+		}
+	},
+	[1215] = {
+		text = "dorm3d_dafeng_table",
+		name = "大型冷蔵庫",
+		award = 0,
+		time = 0,
+		id = 1215,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item15",
+		desc = "大型の冷蔵庫。中には果物や野菜、お菓子や飲み物がぎっしり詰まっている。大鳳はよく中身を入れ替え、色んな味覚に対応できるようにしている。",
+		model = {
+			"fbx/litmap_01/pre_db_appliances08"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances08/vfx_wupintishi01"
+		}
+	},
+	[1216] = {
+		text = "dorm3d_dafeng_table",
+		name = "セラミック包丁",
+		award = 0,
+		time = 0,
+		id = 1216,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item16",
+		desc = "高品質なセラミック包丁。使い勝手がよく、彼女の愛情弁当作りに欠かせない愛用品。",
+		model = {
+			"no_bake/pre_db_kitchenware25"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake/pre_db_kitchenware25/vfx_wupintishi01"
+		}
+	},
+	[1217] = {
+		text = "dorm3d_dafeng_table",
+		name = "やかん",
+		award = 0,
+		time = 0,
+		id = 1217,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item17",
+		desc = "シンプルなやかん。お茶を淹れるためによく使うが、最初の頃はうっかり火傷してしまうこともあったらしい。",
+		model = {
+			"fbx/litmap_01/pre_db_kitchenware19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_kitchenware19/vfx_wupintishi01"
+		}
+	},
+	[1218] = {
+		text = "dorm3d_dafeng_chair",
+		name = "手まり",
+		award = 0,
+		time = 2,
+		id = 1218,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item18",
+		desc = "精巧な手まり。長らく飾りとして置かれている。そろそろ遊び方を教えてもらうのもいいかもしれない…",
+		model = {
+			"fbx/litmap_01/night/pre_db_toy15"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_toy15/vfx_wupintishi01"
+		}
+	},
+	[1219] = {
+		text = "dorm3d_dafeng_chair",
+		name = "クッション椅子",
+		award = 0,
+		time = 0,
+		id = 1219,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item19",
+		desc = "濃色の丸い座布団。座り心地は良いが高さが低く、畳の上に置くしかないようだ。",
+		model = {
+			"fbx/litmap_01/pre_db_chair28"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_chair28/vfx_wupintishi01"
+		}
+	},
+	[1220] = {
+		text = "dorm3d_dafeng_table",
+		name = "マグロ寿司",
+		award = 0,
+		time = 2,
+		id = 1220,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item20",
+		desc = "新鮮なマグロの寿司。愛する人のために用意された特別な一品で、ほかにも盛り合わせがある。",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food22"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food22/vfx_wupintishi01"
+		}
+	},
+	[1221] = {
+		text = "dorm3d_dafeng_table",
+		name = "愛情弁当",
+		award = 0,
+		time = 2,
+		id = 1221,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item21",
+		desc = "9つの仕切りにおかずが詰められた豪華な重箱。種類豊富で栄養バランスも抜群、一度食べれば忘れられない味。",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food23"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_df_kitchen01_0/pre_db_food23/vfx_wupintishi01"
+		}
+	},
+	[1222] = {
+		text = "dorm3d_dafeng_table",
+		name = "木製収納",
+		award = 0,
+		time = 0,
+		id = 1222,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item22",
+		desc = "玄関に置かれている木製の小さな収納棚。中には彼女のものが整然と並んでいる。",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard29"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard29/vfx_wupintishi01"
+		}
+	},
+	[1223] = {
+		text = "dorm3d_dafeng_table",
+		name = "キッチンツールセット",
+		award = 0,
+		time = 0,
+		id = 1223,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item23",
+		desc = "フライパンやお玉、へらなどを揃えた精巧なキッチンツールセット。どれも清潔に壁に掛けられている。",
+		model = {
+			"fbx/litmap_01/pre_db_kitchenware21"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_kitchenware21/vfx_wupintishi01"
+		}
+	},
+	[1224] = {
+		text = "dorm3d_dafeng_bed",
+		name = "和扇",
+		award = 0,
+		time = 0,
+		id = 1224,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item24",
+		desc = "赤い伝統的な重桜扇。面に描かれている雁と白い桜は、大鳳自身があしらったものだという。",
+		model = {
+			"fbx/litmap_01/pre_db_decoration16b"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration16b/vfx_wupintishi01"
+		}
+	},
+	[1225] = {
+		text = "dorm3d_dafeng_bed",
+		name = "書道机",
+		award = 0,
+		time = 0,
+		id = 1225,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item25",
+		desc = "シンプルな書道机。机上には宣紙が置かれ、時折ここで書や絵をたしなむ。",
+		model = {
+			"fbx/litmap_01/pre_db_table19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_table19/vfx_wupintishi01"
+		}
+	},
+	[1226] = {
+		text = "dorm3d_dafeng_chair",
+		name = "装飾花",
+		award = 0,
+		time = 0,
+		id = 1226,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item26",
+		desc = "淡い色合いの装飾花。バランス良く整えられ、毎日丁寧に手入れされている。",
+		model = {
+			"fbx/litmap_01/pre_db_flowerpot19"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowerpot19/vfx_wupintishi01"
+		}
+	},
+	[1227] = {
+		text = "dorm3d_dafeng_table",
+		name = "レンジフード",
+		award = 0,
+		time = 0,
+		id = 1227,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item27",
+		desc = "コンロ上に設置されたレンジフード。実用的かつ高性能で、稼働音も静か。",
+		model = {
+			"fbx/litmap_01/pre_db_dafeng01_rangehood01"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_dafeng01_rangehood01/vfx_wupintishi01"
+		}
+	},
+	[1228] = {
+		text = "dorm3d_dafeng_chair",
+		name = "扇形フレーム",
+		award = 0,
+		time = 0,
+		id = 1228,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item28",
+		desc = "装飾用の扇形フレーム。目を引く場所に飾られ、一瞬で視線を奪う。",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_df_entertainment_01_0/pre_db_billboard27"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_df_entertainment_01_0/pre_db_billboard27/vfx_wupintishi01"
+		}
+	},
+	[1229] = {
+		text = "dorm3d_dafeng_chair",
+		name = "猫の掛け絵",
+		award = 0,
+		time = 0,
+		id = 1229,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item29",
+		desc = "目立つ場所に飾られていて、可愛らしい猫が描かれた掛け絵。生き生きとした筆致で、描き手の猫好きがよく分かる。",
+		model = {
+			"fbx/litmap_01/pre_db_wallscrolls03"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_wallscrolls03/vfx_wupintishi01"
+		}
+	},
+	[1230] = {
+		text = "dorm3d_dafeng_table",
+		name = "精巧な磁器",
+		award = 0,
+		time = 0,
+		id = 1230,
+		room_id = 12,
+		icon = "3Ddrom_dafeng_item30",
+		desc = "種類豊富な精巧な磁器。複雑な模様が施され、滑らかな手触りに思わず触れたくなる。",
+		model = {
+			"fbx/litmap_01/pre_db_ceram18"
+		},
+		unlock = {
+			1,
+			30707,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_ceram18/vfx_wupintishi01"
+		}
+	},
 	[1601] = {
 		text = "dorm3d_collection_cafe",
 		name = "看板メニュー",
@@ -2856,11 +3548,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_billboard16_2"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard16_2/vfx_wupintishi01"
 		}
@@ -2877,11 +3565,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_billboard13"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_billboard13/vfx_wupintishi01"
 		}
@@ -2898,11 +3582,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_desklamp06_1"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_desklamp06_1/vfx_wupintishi01"
 		}
@@ -2919,11 +3599,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_electrical19"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_electrical19/vfx_wupintishi01"
 		}
@@ -2940,11 +3616,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_drink03_1"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_drink03_1/vfx_wupintishi01"
 		}
@@ -2961,11 +3633,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_food07"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_food07/vfx_wupintishi01"
 		}
@@ -2982,11 +3650,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_frame23_group"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_frame23_group/vfx_wupintishi01"
 		}
@@ -3003,11 +3667,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_tableware30_4"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_tableware30_4/vfx_wupintishi01"
 		}
@@ -3024,11 +3684,7 @@ pg.base.dorm3d_collection_template = {
 		model = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01"
 		},
-		unlock = {
-			1,
-			10517,
-			1
-		},
+		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
 		}

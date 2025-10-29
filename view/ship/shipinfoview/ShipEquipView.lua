@@ -39,9 +39,9 @@ function var_0_0.InitEquipment(arg_6_0)
 	arg_6_0.equipRCon = arg_6_0._parentTf:Find("equipment_r_container")
 	arg_6_0.equipLCon = arg_6_0._parentTf:Find("equipment_l_container")
 	arg_6_0.equipBCon = arg_6_0._parentTf:Find("equipment_b_container")
-	arg_6_0.equipmentR = arg_6_0:findTF("equipment_r")
-	arg_6_0.equipmentL = arg_6_0:findTF("equipment_l")
-	arg_6_0.equipmentB = arg_6_0:findTF("equipment_b")
+	arg_6_0.equipmentR = arg_6_0._tf:Find("equipment_r")
+	arg_6_0.equipmentL = arg_6_0._tf:Find("equipment_l")
+	arg_6_0.equipmentB = arg_6_0._tf:Find("equipment_b")
 	arg_6_0.equipmentR1 = arg_6_0.equipmentR:Find("equipment/equipment_r1")
 	arg_6_0.equipmentR2 = arg_6_0.equipmentR:Find("equipment/equipment_r2")
 	arg_6_0.equipmentR3 = arg_6_0.equipmentR:Find("equipment/equipment_r3")
@@ -94,47 +94,42 @@ function var_0_0.InitEvent(arg_7_0)
 end
 
 function var_0_0.OnSelected(arg_9_0, arg_9_1)
-	local var_9_0 = pg.UIMgr.GetInstance()
-
 	if arg_9_1 then
+		local var_9_0 = {}
 		local var_9_1 = {}
 		local var_9_2 = {}
-		local var_9_3 = {}
 
-		local function var_9_4(arg_10_0, arg_10_1)
+		local function var_9_3(arg_10_0, arg_10_1)
 			eachChild(arg_10_0, function(arg_11_0)
 				table.insert(arg_10_1, arg_11_0)
 			end)
 		end
 
-		var_9_4(arg_9_0.equipmentR:Find("skin"), var_9_2)
-		var_9_4(arg_9_0.equipmentR:Find("equipment"), var_9_2)
-		var_9_4(arg_9_0.equipmentL:Find("skin"), var_9_1)
-		var_9_4(arg_9_0.equipmentL:Find("equipment"), var_9_1)
-		var_9_4(arg_9_0.equipmentB, var_9_3)
-		table.insert(var_9_1, arg_9_0.equipmentL:Find("equipment/equipment_l1"))
-		var_9_0:OverlayPanelPB(arg_9_0.equipRCon, {
-			pbList = var_9_2,
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT,
-			weight = LayerWeightConst.LOWER_LAYER
-		})
-		var_9_0:OverlayPanelPB(arg_9_0.equipLCon, {
+		var_9_3(arg_9_0.equipmentR:Find("skin"), var_9_1)
+		var_9_3(arg_9_0.equipmentR:Find("equipment"), var_9_1)
+		var_9_3(arg_9_0.equipmentL:Find("skin"), var_9_0)
+		var_9_3(arg_9_0.equipmentL:Find("equipment"), var_9_0)
+		var_9_3(arg_9_0.equipmentB, var_9_2)
+		table.insert(var_9_0, arg_9_0.equipmentL:Find("equipment/equipment_l1"))
+		arg_9_0:OverlayPanel(arg_9_0.equipRCon, {
+			groupDelta = -1,
 			pbList = var_9_1,
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT,
-			weight = LayerWeightConst.LOWER_LAYER
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
-		var_9_0:OverlayPanelPB(arg_9_0.equipBCon, {
-			pbList = var_9_3,
-			groupName = LayerWeightConst.GROUP_SHIPINFOUI,
-			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT,
-			weight = LayerWeightConst.LOWER_LAYER
+		arg_9_0:OverlayPanel(arg_9_0.equipLCon, {
+			groupDelta = -1,
+			pbList = var_9_0,
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
+		})
+		arg_9_0:OverlayPanel(arg_9_0.equipBCon, {
+			groupDelta = -1,
+			pbList = var_9_2,
+			overlayType = LayerWeightConst.OVERLAY_UI_ADAPT
 		})
 	else
-		var_9_0:UnOverlayPanel(arg_9_0.equipRCon, arg_9_0._parentTf)
-		var_9_0:UnOverlayPanel(arg_9_0.equipLCon, arg_9_0._parentTf)
-		var_9_0:UnOverlayPanel(arg_9_0.equipBCon, arg_9_0._parentTf)
+		arg_9_0:UnOverlayPanel(arg_9_0.equipRCon, arg_9_0._parentTf)
+		arg_9_0:UnOverlayPanel(arg_9_0.equipLCon, arg_9_0._parentTf)
+		arg_9_0:UnOverlayPanel(arg_9_0.equipBCon, arg_9_0._parentTf)
 	end
 
 	arg_9_0.onSelected = arg_9_1
@@ -271,7 +266,7 @@ function var_0_0.UpdateEquipmentPanel(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
 			setButtonText(var_13_3, var_13_21 and setColorStr(var_13_20 .. "%", COLOR_GREEN) or var_13_20 .. "%")
 		end
 
-		local var_13_22 = arg_13_0:findTF("IconTpl", var_13_1)
+		local var_13_22 = var_13_1:Find("IconTpl")
 
 		updateEquipment(var_13_22, arg_13_2)
 
@@ -362,7 +357,6 @@ function var_0_0.UpdateEquipmentPanel(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
 				type = EquipmentInfoMediator.TYPE_SHIP,
 				shipId = var_13_4.id,
 				pos = arg_13_1,
-				LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER,
 				onRemoved = function()
 					arg_13_0:setEquipDescVisible(true)
 				end

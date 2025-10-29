@@ -5,13 +5,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0.tf_combo = arg_2_0:findTF("combo/text")
+	arg_2_0.tf_combo = arg_2_0._tf:Find("combo/text")
 	arg_2_0.text_combo = arg_2_0.tf_combo:GetComponent(typeof(Text))
-	arg_2_0.tf_perfect = arg_2_0:findTF("perfect/text")
+	arg_2_0.tf_perfect = arg_2_0._tf:Find("perfect/text")
 	arg_2_0.text_perfect = arg_2_0.tf_perfect:GetComponent(typeof(Text))
-	arg_2_0.tf_good = arg_2_0:findTF("good/text")
+	arg_2_0.tf_good = arg_2_0._tf:Find("good/text")
 	arg_2_0.text_good = arg_2_0.tf_good:GetComponent(typeof(Text))
-	arg_2_0.tf_miss = arg_2_0:findTF("miss/text")
+	arg_2_0.tf_miss = arg_2_0._tf:Find("miss/text")
 	arg_2_0.text_miss = arg_2_0.tf_miss:GetComponent(typeof(Text))
 	arg_2_0.anims = {}
 end

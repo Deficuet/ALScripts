@@ -5,21 +5,21 @@ function var_0_0.GetUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.granaryBtn = arg_2_0:findTF("bottomleft/feed_btn")
-	arg_2_0.stockBar = arg_2_0:findTF("progress", arg_2_0.granaryBtn):GetComponent(typeof(Slider))
-	arg_2_0.stockTimeTxt = arg_2_0:findTF("time", arg_2_0.granaryBtn):GetComponent(typeof(Text))
-	arg_2_0.stockTxt = arg_2_0:findTF("Text", arg_2_0.granaryBtn):GetComponent(typeof(Text))
-	arg_2_0.stampBtn = arg_2_0:findTF("stamp")
-	arg_2_0.shopBtn = arg_2_0:findTF("bottomright/shop_btn")
-	arg_2_0.decorateBtn = arg_2_0:findTF("bottomright/decorate_btn")
-	arg_2_0.templateBtn = arg_2_0:findTF("bottomright/theme_template_btn")
-	arg_2_0.shareBtn = arg_2_0:findTF("bottomright/share_btn")
+	arg_2_0.granaryBtn = arg_2_0._tf:Find("bottomleft/feed_btn")
+	arg_2_0.stockBar = arg_2_0.granaryBtn:Find("progress"):GetComponent(typeof(Slider))
+	arg_2_0.stockTimeTxt = arg_2_0.granaryBtn:Find("time"):GetComponent(typeof(Text))
+	arg_2_0.stockTxt = arg_2_0.granaryBtn:Find("Text"):GetComponent(typeof(Text))
+	arg_2_0.stampBtn = arg_2_0._tf:Find("stamp")
+	arg_2_0.shopBtn = arg_2_0._tf:Find("bottomright/shop_btn")
+	arg_2_0.decorateBtn = arg_2_0._tf:Find("bottomright/decorate_btn")
+	arg_2_0.templateBtn = arg_2_0._tf:Find("bottomright/theme_template_btn")
+	arg_2_0.shareBtn = arg_2_0._tf:Find("bottomright/share_btn")
 	arg_2_0.shopTip = arg_2_0.shopBtn:Find("tip")
-	arg_2_0.trainBtn = arg_2_0:findTF("bottomleft/train_btn")
+	arg_2_0.trainBtn = arg_2_0._tf:Find("bottomleft/train_btn")
 	arg_2_0.trainBtnTxt = arg_2_0.trainBtn:Find("Text"):GetComponent(typeof(Text))
 	arg_2_0.trainBtnLabel = arg_2_0.trainBtn:Find("label"):GetComponent(typeof(Text))
-	arg_2_0.icon1 = arg_2_0:findTF("bottomleft/train_btn/icon")
-	arg_2_0.icon2 = arg_2_0:findTF("bottomleft/train_btn/icon_1")
+	arg_2_0.icon1 = arg_2_0._tf:Find("bottomleft/train_btn/icon")
+	arg_2_0.icon2 = arg_2_0._tf:Find("bottomleft/train_btn/icon_1")
 
 	setText(arg_2_0.granaryBtn:Find("label"), i18n("courtyard_label_capacity"))
 	setText(arg_2_0.shareBtn:Find("Text"), i18n("courtyard_label_share"))
@@ -105,8 +105,7 @@ function var_0_0.PlayBackYardThemeTemplate(arg_13_0)
 			modal = true,
 			hideNo = true,
 			hideClose = true,
-			content = i18n("open_backyard_theme_template_tip"),
-			weight = LayerWeightConst.TOP_LAYER
+			content = i18n("open_backyard_theme_template_tip")
 		})
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
 			storyId = "NG0020"

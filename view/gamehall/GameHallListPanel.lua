@@ -16,14 +16,14 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	for iter_1_0, iter_1_1 in ipairs(pg.game_room_template.all) do
 		local var_1_0 = pg.game_room_template[iter_1_1].unlock_time
 
-		if pg.TimeMgr:GetInstance():Table2ServerTime({
+		if pg.TimeMgr.GetInstance():Table2ServerTime({
 			year = var_1_0[1][1],
 			month = var_1_0[1][2],
 			day = var_1_0[1][3],
 			hour = var_1_0[2][1],
 			min = var_1_0[2][2],
 			sec = var_1_0[2][3]
-		}) < pg.TimeMgr:GetInstance():GetServerTime() then
+		}) < pg.TimeMgr.GetInstance():GetServerTime() then
 			table.insert(arg_1_0.gameRoomDatas, Clone(pg.game_room_template[iter_1_1]))
 		end
 	end

@@ -6,39 +6,39 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.selectTaskPage = GuildOfficeSelectTaskPage.New(arg_2_0._tf.parent, arg_2_0.event)
-	arg_2_0.taskTF = arg_2_0:findTF("TaskPanel")
-	arg_2_0.taskUnOpenTF = arg_2_0:findTF("TaskPanel/unopen")
+	arg_2_0.taskTF = arg_2_0._tf:Find("TaskPanel")
+	arg_2_0.taskUnOpenTF = arg_2_0._tf:Find("TaskPanel/unopen")
 	arg_2_0.unOpenAdmin = arg_2_0.taskUnOpenTF:Find("select")
 	arg_2_0.unOpenUnAdmin = arg_2_0.taskUnOpenTF:Find("lock")
-	arg_2_0.taskOpenTF = arg_2_0:findTF("TaskPanel/open")
-	arg_2_0.taskDescTxt = arg_2_0:findTF("top/desc/Text", arg_2_0.taskOpenTF):GetComponent(typeof(Text))
-	arg_2_0.taskAwardTxt = arg_2_0:findTF("top/desc1/Text", arg_2_0.taskOpenTF):GetComponent(typeof(Text))
-	arg_2_0.taskProgressTxt = arg_2_0:findTF("top/progress", arg_2_0.taskOpenTF):GetComponent(typeof(Text))
-	arg_2_0.taskProgressBar = arg_2_0:findTF("top/progress_bar", arg_2_0.taskOpenTF)
-	arg_2_0.privateTaskDesc = arg_2_0:findTF("bottom/desc", arg_2_0.taskOpenTF):GetComponent(typeof(Text))
-	arg_2_0.privateTaskGetBtn = arg_2_0:findTF("bottom/get", arg_2_0.taskOpenTF)
-	arg_2_0.privateTaskAcceptBtn = arg_2_0:findTF("bottom/accept", arg_2_0.taskOpenTF)
-	arg_2_0.privateTaskProgressTxt = arg_2_0:findTF("bottom/progress/Text", arg_2_0.taskOpenTF):GetComponent(typeof(Text))
-	arg_2_0.privateTaskReapeatFlag = arg_2_0:findTF("bottom/reapeat", arg_2_0.taskOpenTF)
-	arg_2_0.privateTaskResTxt = arg_2_0:findTF("bottom/res/Text", arg_2_0.taskOpenTF):GetComponent(typeof(Text))
-	arg_2_0.taskMaskAll = arg_2_0:findTF("TaskPanel/open/mask_all")
-	arg_2_0.taskMaskTop = arg_2_0:findTF("TaskPanel/open/mask_top")
-	arg_2_0.contributionList = UIItemList.New(arg_2_0:findTF("TaskPanel/SubmitPanel/list"), arg_2_0:findTF("TaskPanel/SubmitPanel/list/tpl"))
-	arg_2_0.contributionCntTxt = arg_2_0:findTF("TaskPanel/SubmitPanel/cnt/Text"):GetComponent(typeof(Text))
-	arg_2_0.supplyFrame = arg_2_0:findTF("TaskPanel/SupplyPanel/frame")
-	arg_2_0.supplyOpenTF = arg_2_0:findTF("TaskPanel/SupplyPanel/frame/open")
-	arg_2_0.supplyOpenTimeTxt = arg_2_0:findTF("time", arg_2_0.supplyOpenTF):GetComponent(typeof(Text))
-	arg_2_0.supplyOpenLetfCntTxt = arg_2_0:findTF("Text", arg_2_0.supplyOpenTF):GetComponent(typeof(Text))
-	arg_2_0.supplyOpenGetBtn = arg_2_0:findTF("get", arg_2_0.supplyOpenTF)
-	arg_2_0.supplyOpenGotBtn = arg_2_0:findTF("got", arg_2_0.supplyOpenTF)
-	arg_2_0.supplyUnOpenTF = arg_2_0:findTF("TaskPanel/SupplyPanel/frame/unopen")
-	arg_2_0.supplyUnOpenAdminTF = arg_2_0:findTF("purchase", arg_2_0.supplyUnOpenTF)
+	arg_2_0.taskOpenTF = arg_2_0._tf:Find("TaskPanel/open")
+	arg_2_0.taskDescTxt = arg_2_0.taskOpenTF:Find("top/desc/Text"):GetComponent(typeof(Text))
+	arg_2_0.taskAwardTxt = arg_2_0.taskOpenTF:Find("top/desc1/Text"):GetComponent(typeof(Text))
+	arg_2_0.taskProgressTxt = arg_2_0.taskOpenTF:Find("top/progress"):GetComponent(typeof(Text))
+	arg_2_0.taskProgressBar = arg_2_0.taskOpenTF:Find("top/progress_bar")
+	arg_2_0.privateTaskDesc = arg_2_0.taskOpenTF:Find("bottom/desc"):GetComponent(typeof(Text))
+	arg_2_0.privateTaskGetBtn = arg_2_0.taskOpenTF:Find("bottom/get")
+	arg_2_0.privateTaskAcceptBtn = arg_2_0.taskOpenTF:Find("bottom/accept")
+	arg_2_0.privateTaskProgressTxt = arg_2_0.taskOpenTF:Find("bottom/progress/Text"):GetComponent(typeof(Text))
+	arg_2_0.privateTaskReapeatFlag = arg_2_0.taskOpenTF:Find("bottom/reapeat")
+	arg_2_0.privateTaskResTxt = arg_2_0.taskOpenTF:Find("bottom/res/Text"):GetComponent(typeof(Text))
+	arg_2_0.taskMaskAll = arg_2_0._tf:Find("TaskPanel/open/mask_all")
+	arg_2_0.taskMaskTop = arg_2_0._tf:Find("TaskPanel/open/mask_top")
+	arg_2_0.contributionList = UIItemList.New(arg_2_0._tf:Find("TaskPanel/SubmitPanel/list"), arg_2_0._tf:Find("TaskPanel/SubmitPanel/list/tpl"))
+	arg_2_0.contributionCntTxt = arg_2_0._tf:Find("TaskPanel/SubmitPanel/cnt/Text"):GetComponent(typeof(Text))
+	arg_2_0.supplyFrame = arg_2_0._tf:Find("TaskPanel/SupplyPanel/frame")
+	arg_2_0.supplyOpenTF = arg_2_0._tf:Find("TaskPanel/SupplyPanel/frame/open")
+	arg_2_0.supplyOpenTimeTxt = arg_2_0.supplyOpenTF:Find("time"):GetComponent(typeof(Text))
+	arg_2_0.supplyOpenLetfCntTxt = arg_2_0.supplyOpenTF:Find("Text"):GetComponent(typeof(Text))
+	arg_2_0.supplyOpenGetBtn = arg_2_0.supplyOpenTF:Find("get")
+	arg_2_0.supplyOpenGotBtn = arg_2_0.supplyOpenTF:Find("got")
+	arg_2_0.supplyUnOpenTF = arg_2_0._tf:Find("TaskPanel/SupplyPanel/frame/unopen")
+	arg_2_0.supplyUnOpenAdminTF = arg_2_0.supplyUnOpenTF:Find("purchase")
 	arg_2_0.supplyUnOpenResTF = arg_2_0.supplyUnOpenAdminTF:Find("Text"):GetComponent(typeof(Text))
-	arg_2_0.supplyUnOpenLockTF = arg_2_0:findTF("lock", arg_2_0.supplyUnOpenTF)
+	arg_2_0.supplyUnOpenLockTF = arg_2_0.supplyUnOpenTF:Find("lock")
 end
 
 function var_0_0.OnInit(arg_3_0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_3_0.taskTF, {
+	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0.taskTF, {
 		pbList = {
 			arg_3_0.taskTF
 		},
@@ -47,7 +47,7 @@ function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0.supplyUnOpenAdminTF, function()
 		local var_4_0 = arg_3_0.guild:getSupplyConsume()
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_start_supply_consume_tip", var_4_0),
 			onYes = function()
 				arg_3_0:emit(GuildOfficeMediator.ON_PURCHASE_SUPPLY)
@@ -139,7 +139,7 @@ function var_0_0.UpdatePrivateTask(arg_16_0, arg_16_1)
 	arg_16_0.privateTaskResTxt.text = arg_16_1:GetPrivateAward()
 
 	onButton(arg_16_0, arg_16_0.privateTaskAcceptBtn, function()
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_task_accept", arg_16_1:getConfig("name"), var_16_3:getConfig("name"), var_16_3:getConfig("name")),
 			onYes = function()
 				arg_16_0:emit(GuildOfficeMediator.ON_ACCEPT_TASK, var_16_1)
@@ -201,7 +201,7 @@ function var_0_0.UpdateContributionPanel(arg_21_0)
 				local var_23_2 = var_22_1:GetResCntByAward(var_23_0)
 				local var_23_3 = var_23_2 < var_23_0[3] and "#FF5C5CFF" or "#92FC63FF"
 
-				pg.MsgboxMgr:GetInstance():ShowMsgBox({
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("guild_donate_tip", var_23_1:getConfig("name"), var_23_0[3], var_23_2, var_23_3),
 					onYes = function()
 						arg_21_0:emit(GuildOfficeMediator.ON_COMMIT, var_22_0.id)

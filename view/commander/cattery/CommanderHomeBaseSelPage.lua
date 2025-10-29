@@ -1,8 +1,8 @@
 local var_0_0 = class("CommanderHomeBaseSelPage", import("view.base.BaseSubView"))
 
 function var_0_0.OnLoaded(arg_1_0)
-	arg_1_0.scrollrect = arg_1_0:findTF("scrollrect"):GetComponent("LScrollRect")
-	arg_1_0.okBtn = arg_1_0:findTF("ok_button")
+	arg_1_0.scrollrect = arg_1_0._tf:Find("scrollrect"):GetComponent("LScrollRect")
+	arg_1_0.okBtn = arg_1_0._tf:Find("ok_button")
 
 	setActive(arg_1_0._tf, true)
 end

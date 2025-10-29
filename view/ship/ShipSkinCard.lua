@@ -104,7 +104,7 @@ function var_0_0.updateData(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
 		end
 
 		if var_6_0 then
-			arg_6_0.changeSkinToggle:setShipData(arg_6_0.skin.id, arg_6_0.ship.id)
+			arg_6_0.changeSkinToggle:setShipData(arg_6_0.skin.id, arg_6_0.ship:GetShipPhantomMark())
 		end
 
 		setActive(arg_6_0.nameBar, true)
@@ -163,19 +163,25 @@ function var_0_0.updateData(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
 		end)
 		arg_6_0:flushSkin()
 
-		local var_6_5 = getProxy(ShipSkinProxy):getSkinById(arg_6_0.skin.id)
-		local var_6_6 = var_6_5 and var_6_5:isExpireType() and not var_6_5:isExpired()
+		local var_6_5 = arg_6_0.skin.id
 
-		setActive(arg_6_0.timelimitTag, var_6_6)
-		setActive(arg_6_0.timelimitTimeTxt, var_6_6)
+		if ShipSkin.IsChangeSkin(arg_6_0.skin.id) then
+			var_6_5 = ShipSkin.GetChangeSkinMainId(arg_6_0.skin.id)
+		end
+
+		local var_6_6 = getProxy(ShipSkinProxy):getSkinById(var_6_5)
+		local var_6_7 = var_6_6 and var_6_6:isExpireType() and not var_6_6:isExpired()
+
+		setActive(arg_6_0.timelimitTag, var_6_7)
+		setActive(arg_6_0.timelimitTimeTxt, var_6_7)
 
 		if arg_6_0.skinTimer then
 			arg_6_0.skinTimer:Stop()
 		end
 
-		if var_6_6 then
+		if var_6_7 then
 			arg_6_0.skinTimer = Timer.New(function()
-				local var_10_0 = skinTimeStamp(var_6_5:getRemainTime())
+				local var_10_0 = skinTimeStamp(var_6_6:getRemainTime())
 
 				setText(arg_6_0.timelimitTimeTxt:Find("Text"), var_10_0)
 			end, 1, -1)

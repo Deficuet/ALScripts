@@ -1096,14 +1096,14 @@ function var_0_0.setPlayer(arg_128_0, arg_128_1)
 end
 
 function var_0_0.init(arg_129_0)
-	arg_129_0.mapTF = arg_129_0:findTF("map")
-	arg_129_0.backBtn = arg_129_0:findTF("back")
-	arg_129_0.toggleTFs = arg_129_0:findTF("toggles")
+	arg_129_0.mapTF = arg_129_0._tf:Find("map")
+	arg_129_0.backBtn = arg_129_0._tf:Find("back")
+	arg_129_0.toggleTFs = arg_129_0._tf:Find("toggles")
 	arg_129_0.poolMgr = var_0_20(arg_129_0.mapTF:Find("root"))
-	arg_129_0.successMsgbox = var_0_26(arg_129_0:findTF("success_bg"))
-	arg_129_0.failedMsgbox = var_0_26(arg_129_0:findTF("failed_bg"))
-	arg_129_0.furGot = arg_129_0:findTF("fur/got")
-	arg_129_0.helpBtn = arg_129_0:findTF("help")
+	arg_129_0.successMsgbox = var_0_26(arg_129_0._tf:Find("success_bg"))
+	arg_129_0.failedMsgbox = var_0_26(arg_129_0._tf:Find("failed_bg"))
+	arg_129_0.furGot = arg_129_0._tf:Find("fur/got")
+	arg_129_0.helpBtn = arg_129_0._tf:Find("help")
 	arg_129_0._tf:GetComponent(typeof(Image)).sprite = arg_129_0.bgSprite
 end
 

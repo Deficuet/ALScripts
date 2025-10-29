@@ -4,7 +4,7 @@ local var_0_2 = ActivityConst.Valleyhospital_ACT_ID
 local var_0_3 = ActivityConst.Valleyhospital_ACT_ID
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.ad = arg_1_0:findTF("AD")
+	arg_1_0.ad = arg_1_0._tf:Find("AD")
 	arg_1_0.btnCollect = findTF(arg_1_0.ad, "btnCollect")
 	arg_1_0.btnSkin = findTF(arg_1_0.ad, "btnSkin")
 	arg_1_0.btnSkinText = findTF(arg_1_0.btnSkin, "bgTime/text")

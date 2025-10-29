@@ -25,6 +25,8 @@ function var_0_0.init(arg_2_0)
 	end, SFX_CANCEL)
 	setText(arg_2_0.rtSelectPanel:Find("window/title/Text"), i18n("dorm3d_data_choose"))
 	setText(arg_2_0.rtSelectPanel:Find("window/bottom/container/btn_confirm/Text"), i18n("text_confirm"))
+
+	arg_2_0.selectCountTip = i18n("dorm3d_select_tip")
 end
 
 function var_0_0.ShowInvitePanel(arg_6_0)
@@ -91,8 +93,7 @@ function var_0_0.ShowInvitePanel(arg_6_0)
 		end)
 	end, SFX_CONFIRM)
 	pg.UIMgr.GetInstance():OverlayPanel(arg_6_0.rtInvitePanel, {
-		force = true,
-		weight = LayerWeightConst.SECOND_LAYER
+		force = true
 	})
 	setActive(arg_6_0.rtInvitePanel, true)
 	pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_sidebar")
@@ -149,7 +150,7 @@ function var_0_0.ShowSelectPanel(arg_14_0)
 						table.insert(var_14_3, var_15_0)
 					end
 
-					setText(arg_14_0.rtSelectPanel:Find("window/bottom/title/Text"), i18n("dorm3d_select_tip") .. #var_14_3 .. "/" .. var_14_2)
+					setText(arg_14_0.rtSelectPanel:Find("window/bottom/title/Text"), arg_14_0.selectCountTip .. #var_14_3 .. "/" .. var_14_2)
 				end)
 				triggerToggle(arg_15_2:Find("base"), table.contains(arg_14_0.selectIds, var_15_0))
 				setActive(arg_15_2:Find("base/mask"), var_14_4[var_15_0])
@@ -185,9 +186,8 @@ function var_0_0.ShowSelectPanel(arg_14_0)
 		arg_14_0:HideSelectPanel()
 		arg_14_0:ShowInvitePanel()
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_14_0.rtSelectPanel, {
+	pg.UIMgr.GetInstance():OverlayPanel(arg_14_0.rtSelectPanel, {
 		force = true,
-		weight = LayerWeightConst.SECOND_LAYER,
 		pbList = {
 			arg_14_0.rtSelectPanel:Find("window")
 		}
@@ -231,7 +231,7 @@ function var_0_0.UpdateSelectableCard(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 end
 
 function var_0_0.HideSelectPanel(arg_22_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_22_0.rtSelectPanel, arg_22_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_22_0.rtSelectPanel, arg_22_0._tf)
 	setActive(arg_22_0.rtSelectPanel, false)
 end
 

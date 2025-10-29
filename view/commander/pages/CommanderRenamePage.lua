@@ -18,7 +18,7 @@ function var_0_0.OnInit(arg_2_0)
 	arg_2_0.input = findTF(arg_2_0._tf, "frame/bg/content/input")
 	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/confirm_btn")
 
-	setText(arg_2_0:findTF("frame/bg/content/label"), i18n("commander_rename_tip"))
+	setText(arg_2_0._tf:Find("frame/bg/content/label"), i18n("commander_rename_tip"))
 end
 
 function var_0_0.Show(arg_6_0, arg_6_1)
@@ -37,16 +37,14 @@ function var_0_0.Show(arg_6_0, arg_6_1)
 		arg_6_0:emit(CommanderCatMediator.RENAME, arg_6_1.id, var_7_0)
 		arg_6_0:Hide()
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():BlurPanel(arg_6_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_6_0._tf)
 end
 
 function var_0_0.Hide(arg_8_0)
 	arg_8_0.isShowMsgBox = nil
 
 	setActive(arg_8_0._tf, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_8_0._tf, arg_8_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0._tf, arg_8_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_9_0)

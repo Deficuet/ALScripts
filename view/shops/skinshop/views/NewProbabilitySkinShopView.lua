@@ -5,15 +5,15 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.purchaseBtn = arg_2_0:findTF("frame")
-	arg_2_0.tipTxt = arg_2_0:findTF("tip/Text"):GetComponent(typeof(Text))
-	arg_2_0.icon = arg_2_0:findTF("frame/icon/Image"):GetComponent(typeof(Image))
-	arg_2_0.tag = arg_2_0:findTF("frame/icon/tag"):GetComponent(typeof(Image))
-	arg_2_0.nameTxt = arg_2_0:findTF("frame/name/Text"):GetComponent(typeof(Text))
-	arg_2_0.priceTxt = arg_2_0:findTF("frame/price"):GetComponent(typeof(Text))
-	arg_2_0.descTxt = arg_2_0:findTF("frame/desc"):GetComponent(typeof(Text))
-	arg_2_0.limitTxt = arg_2_0:findTF("frame/count"):GetComponent(typeof(Text))
-	arg_2_0.uiList = UIItemList.New(arg_2_0:findTF("frame/awards"), arg_2_0:findTF("frame/awards/award"))
+	arg_2_0.purchaseBtn = arg_2_0._tf:Find("frame")
+	arg_2_0.tipTxt = arg_2_0._tf:Find("tip/Text"):GetComponent(typeof(Text))
+	arg_2_0.icon = arg_2_0._tf:Find("frame/icon/Image"):GetComponent(typeof(Image))
+	arg_2_0.tag = arg_2_0._tf:Find("frame/icon/tag"):GetComponent(typeof(Image))
+	arg_2_0.nameTxt = arg_2_0._tf:Find("frame/name/Text"):GetComponent(typeof(Text))
+	arg_2_0.priceTxt = arg_2_0._tf:Find("frame/price"):GetComponent(typeof(Text))
+	arg_2_0.descTxt = arg_2_0._tf:Find("frame/desc"):GetComponent(typeof(Text))
+	arg_2_0.limitTxt = arg_2_0._tf:Find("frame/count"):GetComponent(typeof(Text))
+	arg_2_0.uiList = UIItemList.New(arg_2_0._tf:Find("frame/awards"), arg_2_0._tf:Find("frame/awards/award"))
 
 	arg_2_0._tf:SetSiblingIndex(2)
 end
@@ -90,6 +90,7 @@ function var_0_0.OnCharge(arg_10_0, arg_10_1)
 	local var_10_2 = {
 		isMonthCard = false,
 		isChargeType = true,
+		commodity = arg_10_1,
 		infoTip = var_10_0:GetInfoTip(),
 		icon = "chargeicon/" .. var_10_0:getConfig("picture"),
 		name = var_10_0:getConfig("name_display"),

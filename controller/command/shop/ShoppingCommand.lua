@@ -137,7 +137,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		elseif var_1_3.resource_type == 4 or var_1_3.resource_type == 14 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
 
-			if var_1_3.id == NewShopsMediator.FAST_BUILD_ITEM_ID then
+			if var_1_3.id == NewShopMainMediator.FAST_BUILD_ITEM_ID then
 				pg.TrackerMgr.GetInstance():Tracking(TRACKING_BUILD_OR_SKIN_FAILD)
 			end
 		elseif not ItemTipPanel.ShowItemTip(DROP_TYPE_RESOURCE, var_1_3.resource_type) then
@@ -198,41 +198,26 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			number = var_1_2
 		}, 16002, function(arg_11_0)
 			if arg_11_0.result == 0 then
-				local var_11_0 = {}
+				local var_11_0 = var_1_4:getData()
 
-				if var_1_3.type == 0 then
-					arg_1_0:sendNotification(GAME.EXTEND, {
-						id = var_1_1,
-						count = var_1_2
-					})
-				else
-					var_11_0 = PlayerConst.addTranDrop(arg_11_0.drop_list)
-
-					if not var_1_0.silentTip then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
-					end
-				end
-
-				local var_11_1 = var_1_4:getData()
-
-				var_11_1:consume({
+				var_11_0:consume({
 					[id2res(var_1_3.resource_type)] = var_1_12
 				})
 
-				local var_11_2
+				local var_11_1
 
 				if var_1_11 then
-					local var_11_3 = var_1_9:getShopStreet()
-					local var_11_4 = var_11_3:getGoodsById(var_1_1)
+					local var_11_2 = var_1_9:getShopStreet()
+					local var_11_3 = var_11_2:getGoodsById(var_1_1)
 
-					var_11_2 = var_11_3.type
+					var_11_1 = var_11_2.type
 
-					var_11_4:reduceBuyCount()
-					var_1_9:UpdateShopStreet(var_11_3)
+					var_11_3:reduceBuyCount()
+					var_1_9:UpdateShopStreet(var_11_2)
 				else
 					switch(var_1_3.genre, {
 						[ShopArgs.BuyOil] = function()
-							var_11_1:increaseBuyOilCount()
+							var_11_0:increaseBuyOilCount()
 						end,
 						[ShopArgs.ArenaShopLimit] = function()
 							local var_13_0 = getProxy(ShopsProxy)
@@ -242,7 +227,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 							var_13_2:increaseBuyCount()
 							var_13_1:updateGoods(var_13_2)
 
-							var_11_2 = var_13_1.type
+							var_11_1 = var_13_1.type
 
 							var_13_0:updateMeritorousShop(var_13_1)
 						end,
@@ -289,7 +274,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					})
 				end
 
-				var_1_4:updatePlayer(var_11_1)
+				var_1_4:updatePlayer(var_11_0)
 
 				if var_1_3.group > 0 then
 					var_1_9:updateNormalGroupList(var_1_3.group, var_1_3.group_buy_count)
@@ -342,13 +327,28 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					end
 				end
 
+				local var_11_4 = {}
+
+				if var_1_3.type == 0 then
+					arg_1_0:sendNotification(GAME.EXTEND, {
+						id = var_1_1,
+						count = var_1_2
+					})
+				else
+					var_11_4 = PlayerConst.addTranDrop(arg_11_0.drop_list)
+
+					if not var_1_0.silentTip then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("common_buy_success"))
+					end
+				end
+
 				if not var_1_0.isQuickShopping then
 					arg_1_0:sendNotification(GAME.SHOPPING_DONE, {
 						id = var_1_1,
-						shopType = var_11_2,
+						shopType = var_11_1,
 						normalList = var_1_9:GetNormalList(),
 						normalGroupList = var_1_9:GetNormalGroupList(),
-						awards = var_11_0
+						awards = var_11_4
 					})
 				end
 			else

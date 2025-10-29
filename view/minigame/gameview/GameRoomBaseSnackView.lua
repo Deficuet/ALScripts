@@ -98,27 +98,27 @@ function var_0_0.willExit(arg_9_0)
 end
 
 function var_0_0.findUI(arg_10_0)
-	local var_10_0 = arg_10_0:findTF("ForNotch")
+	local var_10_0 = arg_10_0._tf:Find("ForNotch")
 
-	arg_10_0.backBtn = arg_10_0:findTF("BackBtn", var_10_0)
-	arg_10_0.helpBtn = arg_10_0:findTF("HelpBtn", var_10_0)
-	arg_10_0.countText = arg_10_0:findTF("Count/CountText", var_10_0)
+	arg_10_0.backBtn = var_10_0:Find("BackBtn")
+	arg_10_0.helpBtn = var_10_0:Find("HelpBtn")
+	arg_10_0.countText = var_10_0:Find("Count/CountText")
 
-	local var_10_1 = arg_10_0:findTF("GameContent")
+	local var_10_1 = arg_10_0._tf:Find("GameContent")
 
-	arg_10_0.startBtn = arg_10_0:findTF("StartBtn", var_10_1)
-	arg_10_0.ruleBtn = arg_10_0:findTF("RuleBtn", var_10_1)
+	arg_10_0.startBtn = var_10_1:Find("StartBtn")
+	arg_10_0.ruleBtn = var_10_1:Find("RuleBtn")
 
-	local var_10_2 = arg_10_0:findTF("Tip", var_10_1)
+	local var_10_2 = var_10_1:Find("Tip")
 
-	arg_10_0.considerTipTF = arg_10_0:findTF("ConsiderTip", var_10_2)
-	arg_10_0.considerTimeText = arg_10_0:findTF("TimeText", arg_10_0.considerTipTF)
-	arg_10_0.selectTipTF = arg_10_0:findTF("SelectTip", var_10_2)
-	arg_10_0.selectTimeText = arg_10_0:findTF("TimeText", arg_10_0.selectTipTF)
-	arg_10_0.selectedContainer = arg_10_0:findTF("SelectedContainer", var_10_1)
-	arg_10_0.selectedTpl = arg_10_0:findTF("SelectedTpl", var_10_1)
+	arg_10_0.considerTipTF = var_10_2:Find("ConsiderTip")
+	arg_10_0.considerTimeText = arg_10_0.considerTipTF:Find("TimeText")
+	arg_10_0.selectTipTF = var_10_2:Find("SelectTip")
+	arg_10_0.selectTimeText = arg_10_0.selectTipTF:Find("TimeText")
+	arg_10_0.selectedContainer = var_10_1:Find("SelectedContainer")
+	arg_10_0.selectedTpl = var_10_1:Find("SelectedTpl")
 	arg_10_0.selectedContainerCG = GetComponent(arg_10_0.selectedContainer, "CanvasGroup")
-	arg_10_0.snackContainer = arg_10_0:findTF("SnackContainer", var_10_1)
+	arg_10_0.snackContainer = var_10_1:Find("SnackContainer")
 	arg_10_0.animtor = GetComponent(arg_10_0.snackContainer, "Animator")
 	arg_10_0.dftAniEvent = GetComponent(arg_10_0.snackContainer, "DftAniEvent")
 
@@ -126,7 +126,7 @@ function var_0_0.findUI(arg_10_0)
 		arg_10_0:setState(var_0_0.States_Select)
 	end)
 
-	arg_10_0.spineCharContainer = arg_10_0:findTF("SpineChar", var_10_1)
+	arg_10_0.spineCharContainer = var_10_1:Find("SpineChar")
 end
 
 function var_0_0.initData(arg_12_0)
@@ -194,7 +194,7 @@ function var_0_0.addListener(arg_16_0)
 
 		onButton(arg_16_0, var_16_0, function()
 			local var_20_0 = arg_16_0.snackIDList[iter_16_0]
-			local var_20_1 = arg_16_0:findTF("SelectedTag", var_16_0)
+			local var_20_1 = var_16_0:Find("SelectedTag")
 
 			if isActive(var_20_1) == true then
 				table.removebyvalue(arg_16_0.selectedIDList, var_20_0)
@@ -244,9 +244,9 @@ function var_0_0.updateSelectedList(arg_23_0, arg_23_1)
 
 	for iter_23_0 = 1, var_0_0.Order_Num do
 		local var_23_0 = arg_23_0.selectedContainer:GetChild(iter_23_0 - 1)
-		local var_23_1 = arg_23_0:findTF("Empty", var_23_0)
-		local var_23_2 = arg_23_0:findTF("Full", var_23_0)
-		local var_23_3 = arg_23_0:findTF("SnackImg", var_23_2)
+		local var_23_1 = var_23_0:Find("Empty")
+		local var_23_2 = var_23_0:Find("Full")
+		local var_23_3 = var_23_2:Find("SnackImg")
 
 		arg_23_0.selectedTFList[iter_23_0] = var_23_0
 
@@ -264,12 +264,12 @@ end
 function var_0_0.updateSnackList(arg_24_0, arg_24_1)
 	for iter_24_0 = 1, var_0_0.Snack_Num do
 		local var_24_0 = arg_24_0.snackContainer:GetChild(iter_24_0 - 1)
-		local var_24_1 = arg_24_0:findTF("SnackImg", var_24_0)
+		local var_24_1 = var_24_0:Find("SnackImg")
 		local var_24_2 = arg_24_1[iter_24_0]
 
 		setImageSprite(var_24_1, GetSpriteFromAtlas("ui/snackui_atlas", "snack_" .. var_24_2))
 
-		local var_24_3 = arg_24_0:findTF("SelectedTag", var_24_0)
+		local var_24_3 = var_24_0:Find("SelectedTag")
 
 		setActive(var_24_3, false)
 
@@ -284,7 +284,7 @@ end
 
 function var_0_0.updateSelectedOrderTag(arg_26_0, arg_26_1)
 	for iter_26_0, iter_26_1 in pairs(arg_26_0.selectedSnackTFList) do
-		local var_26_0 = arg_26_0:findTF("SelectedTag", iter_26_1)
+		local var_26_0 = iter_26_1:Find("SelectedTag")
 
 		if arg_26_1 then
 			setActive(var_26_0, false)

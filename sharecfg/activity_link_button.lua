@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "50013",
+		param = "0",
 		name = "event_all",
 		type = 3,
 		text_pic = "text_event_all",
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50013
+			50166
 		}
 	},
 	{
@@ -47,22 +47,19 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50054
+			50181
 		}
 	},
 	[11] = {
 		param = "0",
 		name = "event_map_sub",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_map_sub",
+		type = 0,
+		pic = "event_map_sub",
 		id = 11,
 		group_id = 3,
-		pic = "event_map_sub",
-		order = 1,
-		time = {
-			"default",
-			50042
-		}
+		order = 1
 	},
 	[20] = {
 		type = 2,
@@ -253,10 +250,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5765
+			50204
 		},
 		param = {
-			73
+			68
 		}
 	},
 	[106] = {
@@ -308,17 +305,17 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "RyzaCoreActivityUI",
+		param = "SailingShip3CoreActivityUI",
 		name = "event_core",
 		type = 16,
-		text_pic = "text_event_ryza",
+		text_pic = "text_event_core",
 		id = 109,
 		group_id = 1,
-		pic = "event_ryza",
+		pic = "event_core",
 		order = 1,
 		time = {
 			"default",
-			50042
+			50205
 		}
 	},
 	[110] = {
@@ -332,7 +329,7 @@ pg.activity_link_button = {
 		order = 2,
 		time = {
 			"default",
-			50054
+			50058
 		}
 	},
 	[111] = {
@@ -361,6 +358,20 @@ pg.activity_link_button = {
 		time = {
 			"default",
 			50042
+		}
+	},
+	[113] = {
+		param = "EighthAnniversaryJpCoreActivityUI",
+		name = "event_core_2",
+		type = 16,
+		text_pic = "text_event_special",
+		id = 113,
+		group_id = 1,
+		pic = "event_special",
+		order = 1,
+		time = {
+			"default",
+			50118
 		}
 	},
 	get_id_list_by_name = {
@@ -428,7 +439,8 @@ pg.activity_link_button = {
 			109
 		},
 		event_core_2 = {
-			110
+			110,
+			113
 		},
 		event_map_2 = {
 			111
@@ -463,6 +475,7 @@ pg.activity_link_button = {
 		109,
 		110,
 		111,
-		112
+		112,
+		113
 	}
 }

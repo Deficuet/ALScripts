@@ -1,167 +1,169 @@
 local var_0_0 = class("IslandDevicePage", import("...base.IslandBasePage"))
 
+var_0_0.SPECIAL_BTN = {
+	order = "IslandDeviceOrderBtn",
+	ship_order = "IslandDeviceShipOrderBtn"
+}
+
 function var_0_0.getUIName(arg_1_0)
 	return "IslandDeviceUI"
 end
 
 function var_0_0.OnLoaded(arg_2_0)
+	arg_2_0.exitBtn = arg_2_0._tf:Find("panel/exit")
+	arg_2_0.timeTxt = arg_2_0._tf:Find("panel/top/time"):GetComponent(typeof(Text))
+	arg_2_0.electricTF = arg_2_0._tf:Find("panel/top/battery/electric")
+	arg_2_0.bannerTF = arg_2_0._tf:Find("panel/banner")
+	arg_2_0.bannerEmptyTF = arg_2_0._tf:Find("panel/banner_empty")
+	arg_2_0.scrollSnap = IslandBannerScrollRect.New(arg_2_0.bannerTF:Find("mask/content"), arg_2_0.bannerTF:Find("dots"))
+	arg_2_0.btnContainer = arg_2_0._tf:Find("panel/btn_container")
 	arg_2_0.systemTimeUtil = LocalSystemTimeUtil.New()
-	arg_2_0.timeTxt = arg_2_0._tf:Find("panel/time"):GetComponent(typeof(Text))
-	arg_2_0.timeEnTxt = arg_2_0._tf:Find("panel/time/time_en"):GetComponent(typeof(Text))
-	arg_2_0.batteryTxt = arg_2_0._tf:Find("panel/battery/Text"):GetComponent(typeof(Text))
-	arg_2_0.electric = {
-		arg_2_0._tf:Find("panel/battery/kwh/1"),
-		arg_2_0._tf:Find("panel/battery/kwh/2"),
-		arg_2_0._tf:Find("panel/battery/kwh/3")
-	}
-	arg_2_0.btnContainer = arg_2_0._tf:Find("panel/content")
-	arg_2_0.btnUIList = UIItemList.New(arg_2_0.btnContainer, arg_2_0.btnContainer:Find("tpl"))
-
-	local var_2_0 = arg_2_0._tf:Find("panel/banner")
-
-	arg_2_0.scrollSnap = BannerScrollRect4Mellow.New(var_2_0:Find("mask/content"), var_2_0:Find("dots"))
 end
 
 function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0._tf:Find("close"), function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0._tf:Find("panel/exit"), function()
+	onButton(arg_3_0, arg_3_0.exitBtn, function()
 		arg_3_0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
+	setActive(arg_3_0.exitBtn, not ISLAND_PLAYER_TESTING)
 	arg_3_0:InitBtns()
 	arg_3_0:InitBanner()
 end
 
 function var_0_0.InitBtns(arg_6_0)
-	arg_6_0.btnUIList:make(function(arg_7_0, arg_7_1, arg_7_2)
-		if arg_7_0 == UIItemList.EventInit then
-			local var_7_0 = arg_6_0.btnList[arg_7_1 + 1]
-			local var_7_1 = pg.island_main_btns[var_7_0]
+	arg_6_0.btns = {}
 
-			arg_7_2.name = var_7_1.btn_name
+	local var_6_0 = pg.island_main_btns.get_id_list_by_main_type[2]
+	local var_6_1 = {}
 
-			setText(arg_7_2:Find("Text"), var_7_1.name)
-			LoadImageSpriteAsync("islandbtnicon/" .. var_7_1.icon, arg_7_2:Find("icon"), true)
-		elseif arg_7_0 == UIItemList.EventUpdate then
-			local var_7_2 = arg_6_0.btnList[arg_7_1 + 1]
-			local var_7_3 = pg.island_main_btns[var_7_2]
-			local var_7_4 = var_7_3.ability_id ~= 0 and getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_7_3.ability_id)
+	for iter_6_0, iter_6_1 in ipairs(var_6_0) do
+		var_6_1[pg.island_main_btns[iter_6_1].btn_name] = iter_6_1
+	end
 
-			setActive(arg_7_2:Find("lock"), var_7_4)
-			onButton(arg_6_0, arg_7_2:Find("lock"), function()
-				pg.TipsMgr.GetInstance():ShowTips(i18n("word_sell_lock"))
-			end, SFX_PANEL)
+	eachChild(arg_6_0.btnContainer, function(arg_7_0)
+		local var_7_0 = arg_7_0.name
+		local var_7_1 = var_6_1[var_7_0]
 
-			if var_7_3.open_page ~= "" then
-				onButton(arg_6_0, arg_7_2:Find("icon"), function()
-					arg_6_0:OpenPage(_G[var_7_3.open_page], unpack(var_7_3.page_param))
-				end, SFX_PANEL)
+		if var_7_1 then
+			if var_0_0.SPECIAL_BTN[var_7_0] then
+				local var_7_2 = var_0_0.SPECIAL_BTN[var_7_0]
+
+				arg_6_0.btns[var_7_0] = _G[var_7_2].New(arg_7_0, arg_6_0.event, var_7_1)
+			else
+				arg_6_0.btns[var_7_0] = IslandDeviceBaseBtn.New(arg_7_0, arg_6_0.event, var_7_1)
 			end
 		end
 	end)
-
-	arg_6_0.btnList = pg.island_main_btns.get_id_list_by_main_type[2]
 end
 
-function var_0_0.InitBanner(arg_10_0)
-	local var_10_0 = arg_10_0:GetBannerDisplays()
+function var_0_0.InitBanner(arg_8_0)
+	local var_8_0 = arg_8_0:GetBannerDisplays()
 
-	arg_10_0.banners = var_10_0
+	arg_8_0.banners = var_8_0
 
-	for iter_10_0 = 0, #var_10_0 - 1 do
-		local var_10_1 = var_10_0[iter_10_0 + 1]
-		local var_10_2 = arg_10_0.scrollSnap:AddChild()
+	for iter_8_0 = 0, #var_8_0 - 1 do
+		local var_8_1 = var_8_0[iter_8_0 + 1]
+		local var_8_2 = arg_8_0.scrollSnap:AddChild()
 
-		LoadImageSpriteAsync("islandbanner/" .. var_10_1.pic, var_10_2)
-		onButton(arg_10_0, var_10_2, function()
-			arg_10_0:BannerSkip(var_10_1)
+		LoadImageSpriteAsync("island/islandbanner/" .. var_8_1.pic, var_8_2)
+		onButton(arg_8_0, var_8_2, function()
+			arg_8_0:BannerSkip(var_8_1)
 		end, SFX_MAIN)
 	end
 
-	arg_10_0.scrollSnap:SetUp()
+	arg_8_0.scrollSnap:SetUp()
 end
 
-function var_0_0.OnShow(arg_12_0)
-	arg_12_0:AddTimer()
-	arg_12_0:Flush()
-	arg_12_0:FlushTime()
-end
+function var_0_0.OnShow(arg_10_0)
+	arg_10_0:AddTimer()
+	arg_10_0:Flush()
+	arg_10_0:FlushBattery()
+	arg_10_0:FlushTime()
+	arg_10_0:emitCore(ISLAND_EVT.DEVIEE_STATE_CHANGE, true)
 
-function var_0_0.Flush(arg_13_0)
-	arg_13_0.btnUIList:align(#arg_13_0.btnList)
-
-	local var_13_0 = arg_13_0:GetBannerDisplays()
-
-	if #arg_13_0.banners ~= #var_13_0 then
-		arg_13_0.scrollSnap:Reset()
-		arg_13_0:InitBanner()
-	else
-		arg_13_0.scrollSnap:Resume()
+	if IslandCameraMgr.instance then
+		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FOCUS_CAMERA_NAME)
 	end
 end
 
-function var_0_0.FlushBattery(arg_14_0)
-	local var_14_0 = SystemInfo.batteryLevel
-
-	if var_14_0 < 0 then
-		var_14_0 = 1
+function var_0_0.Flush(arg_11_0)
+	for iter_11_0, iter_11_1 in pairs(arg_11_0.btns) do
+		iter_11_1:Flush()
 	end
 
-	local var_14_1 = math.floor(var_14_0 * 100)
+	local var_11_0 = arg_11_0:GetBannerDisplays()
+	local var_11_1 = #var_11_0 ~= 0
 
-	arg_14_0.batteryTxt.text = var_14_1 .. "%"
+	setActive(arg_11_0.bannerEmptyTF, not var_11_1)
+	setActive(arg_11_0.bannerTF, var_11_1)
 
-	local var_14_2 = 1 / #arg_14_0.electric
-
-	for iter_14_0, iter_14_1 in ipairs(arg_14_0.electric) do
-		local var_14_3 = var_14_1 < (iter_14_0 - 1) * var_14_2
-
-		setActive(iter_14_1, not var_14_3)
-	end
-end
-
-function var_0_0.FlushTime(arg_15_0)
-	arg_15_0.systemTimeUtil:SetUp(function(arg_16_0, arg_16_1, arg_16_2)
-		if SettingsMainScenePanel.IsEnable24HourSystem() then
-			arg_15_0.timeEnTxt.color = Color.New(1, 1, 1, 0)
+	if var_11_1 then
+		if #arg_11_0.banners ~= #var_11_0 then
+			arg_11_0.scrollSnap:Reset()
+			arg_11_0:InitBanner()
 		else
-			arg_15_0.timeEnTxt.color = Color.New(1, 1, 1, 1)
-			arg_16_0 = arg_16_0 > 12 and arg_16_0 - 12 or arg_16_0
+			arg_11_0.scrollSnap:Resume()
 		end
+	end
+end
 
-		if arg_16_0 < 10 then
-			arg_16_0 = "0" .. arg_16_0
-		end
+function var_0_0.FlushBattery(arg_12_0)
+	local var_12_0 = SystemInfo.batteryLevel
 
-		arg_15_0.timeTxt.text = arg_16_0 .. ":" .. arg_16_1
-		arg_15_0.timeEnTxt.text = arg_16_2
+	if var_12_0 < 0 then
+		var_12_0 = 1
+	end
+
+	setFillAmount(arg_12_0.electricTF, var_12_0)
+end
+
+function var_0_0.FlushTime(arg_13_0)
+	arg_13_0.systemTimeUtil:SetUp(function(arg_14_0, arg_14_1, arg_14_2)
+		arg_13_0.timeTxt.text = arg_14_0 .. ":" .. arg_14_1
 	end)
 end
 
-function var_0_0.AddTimer(arg_17_0)
-	arg_17_0:RemoveTimer()
+function var_0_0.AddTimer(arg_15_0)
+	arg_15_0:RemoveTimer()
 
-	arg_17_0.timer = Timer.New(function()
-		arg_17_0:FlushBattery()
+	arg_15_0.timer = Timer.New(function()
+		arg_15_0:FlushBattery()
+		arg_15_0:FlushTime()
 	end, 60, -1)
 
-	arg_17_0.timer:Start()
+	arg_15_0.timer:Start()
 end
 
-function var_0_0.RemoveTimer(arg_19_0)
-	if arg_19_0.timer then
-		arg_19_0.timer:Stop()
+function var_0_0.RemoveTimer(arg_17_0)
+	if arg_17_0.timer then
+		arg_17_0.timer:Stop()
 
-		arg_19_0.timer = nil
+		arg_17_0.timer = nil
 	end
 end
 
-function var_0_0.OnHide(arg_20_0)
-	arg_20_0:RemoveTimer()
+function var_0_0.OnHide(arg_18_0)
+	arg_18_0:RemoveTimer()
+	arg_18_0:emitCore(ISLAND_EVT.DEVIEE_STATE_CHANGE, false)
+
+	if IslandCameraMgr.instance then
+		IslandCameraMgr.instance:ActiveVirtualCamera(IslandConst.FOLLOW_CAMERA_NAME)
+	end
+end
+
+function var_0_0.OnEnable(arg_19_0)
+	arg_19_0:OnShow()
+end
+
+function var_0_0.OnDisable(arg_20_0)
+	arg_20_0:OnHide()
 end
 
 function var_0_0.OnDestroy(arg_21_0)
+	arg_21_0:OnHide()
+	arg_21_0:RemoveTimer()
 	arg_21_0.systemTimeUtil:Dispose()
 
 	arg_21_0.systemTimeUtil = nil
@@ -169,6 +171,12 @@ function var_0_0.OnDestroy(arg_21_0)
 	arg_21_0.scrollSnap:Dispose()
 
 	arg_21_0.scrollSnap = nil
+
+	for iter_21_0, iter_21_1 in pairs(arg_21_0.btns) do
+		iter_21_1:Dispose()
+	end
+
+	arg_21_0.btns = nil
 end
 
 function var_0_0.GetBannerDisplays(arg_22_0)
@@ -180,13 +188,27 @@ function var_0_0.GetBannerDisplays(arg_22_0)
 end
 
 function var_0_0.BannerSkip(arg_25_0, arg_25_1)
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandDeviceBanner(arg_25_1.id))
+
 	if arg_25_1.type == IslandConst.BANNER_TYPE_OPEN_URL then
 		Application.OpenURL(arg_25_1.param)
 	elseif arg_25_1.type == IslandConst.BANNER_TYPE_SWITCH_MAP then
 		arg_25_0:Hide()
-		arg_25_0:emit(IslandMediator.SWITCH_MAP, unpack(arg_25_1.param))
+		arg_25_0:emit(IslandBaseMediator.SWITCH_MAP, unpack(arg_25_1.param))
 	elseif arg_25_1.type == IslandConst.BANNER_TYPE_OPEN_PAGE then
-		arg_25_0:OpenPage(_G[arg_25_1.param[1]], arg_25_1.param[2] and unpack(arg_25_1.param[2]))
+		arg_25_0:Hide()
+		arg_25_0:emit(IslandMediator.OPEN_PAGE, arg_25_1.param[1], arg_25_1.param[2])
+	elseif arg_25_1.type == IslandConst.BANNER_TYPE_SURVEY then
+		local var_25_0, var_25_1 = getProxy(ActivityProxy):isSurveyOpen()
+
+		if var_25_0 then
+			pg.m02:sendNotification(GAME.SURVEY_REQUEST, {
+				surveyID = var_25_1,
+				surveyUrlStr = getSurveyUrl(var_25_1)
+			})
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_not_start"))
+		end
 	end
 end
 

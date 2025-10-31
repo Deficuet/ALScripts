@@ -135,9 +135,7 @@ function var_0_1.DoShow(arg_7_0, arg_7_1, arg_7_2)
 		end
 
 		arg_7_0:DisplaySetting(arg_7_1, arg_7_2)
-		var_0_0.UIMgr.GetInstance():BlurPanel(arg_7_0._tf, false, arg_7_2.blurParams or {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		var_0_0.UIMgr.GetInstance():BlurPanel(arg_7_0._tf)
 		setActive(arg_7_0._tf, true)
 	end)
 end
@@ -157,7 +155,7 @@ function var_0_1.Hide(arg_11_0, arg_11_1)
 
 	setActive(arg_11_0._tf, false)
 	arg_11_0:Clear()
-	var_0_0.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf, var_0_0.UIMgr.GetInstance().OverlayMain)
+	var_0_0.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf, var_0_0.UIMgr.GetInstance().OverlayMain)
 
 	arg_11_0._tf = nil
 
@@ -361,9 +359,6 @@ function var_0_1.DisplaySetting(arg_22_0, arg_22_1, arg_22_2)
 					})
 
 					arg_22_0:DeepShow(var_0_0.NewStyleMsgboxMgr.TYPE_SHIP_PREVIEW, {
-						blurParams = {
-							weight = LayerWeightConst.TOP_LAYER
-						},
 						shipVO = var_31_0,
 						weaponIds = var_29_9.ship_skin_id == 0 and Clone(var_29_9.weapon_ids) or {},
 						equipSkinId = var_29_9.ship_skin_id == 0 and var_29_0.id or 0

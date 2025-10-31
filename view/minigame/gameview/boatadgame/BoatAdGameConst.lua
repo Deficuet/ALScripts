@@ -109,6 +109,13 @@ var_0_0.game_char = {
 		tpl = "players/char_1",
 		speed = Vector2(1000, 0),
 		start_pos = Vector2(0, -400)
+	},
+	{
+		id = 2,
+		hp = 300,
+		tpl = "players/char_2",
+		speed = Vector2(1000, 0),
+		start_pos = Vector2(0, -400)
 	}
 }
 var_0_0.game_bg = {
@@ -1170,7 +1177,7 @@ var_0_0.game_enemy = {
 	},
 	[902] = {
 		score = 500,
-		desc = "圣马丁号",
+		desc = "海豚号",
 		hp = 500,
 		boss = true,
 		id = 902,
@@ -1178,7 +1185,7 @@ var_0_0.game_enemy = {
 	},
 	[903] = {
 		score = 500,
-		desc = "幻想号",
+		desc = "皇家财富号",
 		hp = 500,
 		boss = true,
 		id = 903,
@@ -1186,7 +1193,7 @@ var_0_0.game_enemy = {
 	},
 	[904] = {
 		score = 500,
-		desc = "朴茨茅斯冒险号",
+		desc = "幻想号",
 		hp = 500,
 		boss = true,
 		id = 904,
@@ -1194,7 +1201,7 @@ var_0_0.game_enemy = {
 	},
 	[905] = {
 		score = 500,
-		desc = "海豚号",
+		desc = "朴茨冒险号",
 		hp = 500,
 		boss = true,
 		id = 905,
@@ -1202,7 +1209,7 @@ var_0_0.game_enemy = {
 	},
 	[906] = {
 		score = 500,
-		desc = "皇家财富号",
+		desc = "圣马丁号",
 		hp = 500,
 		boss = true,
 		id = 906,
@@ -1216,6 +1223,30 @@ var_0_0.game_enemy = {
 		id = 907,
 		tpl = "Enemys/boss_7"
 	},
+	[908] = {
+		score = 500,
+		desc = "和睦号",
+		hp = 500,
+		boss = true,
+		id = 908,
+		tpl = "Enemys/boss_8"
+	},
+	[909] = {
+		score = 500,
+		desc = "莱姆号",
+		hp = 500,
+		boss = true,
+		id = 909,
+		tpl = "Enemys/boss_9"
+	},
+	[910] = {
+		score = 500,
+		desc = "珍珠号",
+		hp = 500,
+		boss = true,
+		id = 910,
+		tpl = "Enemys/boss_10"
+	},
 	[911] = {
 		score = 500,
 		desc = "冈伊沙瓦号",
@@ -1226,7 +1257,7 @@ var_0_0.game_enemy = {
 	},
 	[912] = {
 		score = 500,
-		desc = "圣马丁号",
+		desc = "海豚号",
 		hp = 800,
 		boss = true,
 		id = 912,
@@ -1234,7 +1265,7 @@ var_0_0.game_enemy = {
 	},
 	[913] = {
 		score = 500,
-		desc = "幻想号",
+		desc = "皇家财富号",
 		hp = 800,
 		boss = true,
 		id = 913,
@@ -1242,7 +1273,7 @@ var_0_0.game_enemy = {
 	},
 	[914] = {
 		score = 500,
-		desc = "朴茨茅斯冒险号",
+		desc = "幻想号",
 		hp = 800,
 		boss = true,
 		id = 914,
@@ -1250,7 +1281,7 @@ var_0_0.game_enemy = {
 	},
 	[915] = {
 		score = 500,
-		desc = "海豚号",
+		desc = "朴茨冒险号",
 		hp = 800,
 		boss = true,
 		id = 915,
@@ -1258,7 +1289,7 @@ var_0_0.game_enemy = {
 	},
 	[916] = {
 		score = 500,
-		desc = "皇家财富号",
+		desc = "圣马丁号",
 		hp = 800,
 		boss = true,
 		id = 916,
@@ -1272,6 +1303,30 @@ var_0_0.game_enemy = {
 		id = 917,
 		tpl = "Enemys/boss_7"
 	},
+	[918] = {
+		score = 500,
+		desc = "和睦号",
+		hp = 800,
+		boss = true,
+		id = 918,
+		tpl = "Enemys/boss_8"
+	},
+	[919] = {
+		score = 500,
+		desc = "莱姆号",
+		hp = 800,
+		boss = true,
+		id = 919,
+		tpl = "Enemys/boss_9"
+	},
+	[920] = {
+		score = 500,
+		desc = "珍珠号",
+		hp = 800,
+		boss = true,
+		id = 920,
+		tpl = "Enemys/boss_10"
+	},
 	[921] = {
 		score = 500,
 		desc = "冈伊沙瓦号",
@@ -1282,7 +1337,7 @@ var_0_0.game_enemy = {
 	},
 	[922] = {
 		score = 500,
-		desc = "圣马丁号",
+		desc = "海豚号",
 		hp = 1000,
 		boss = true,
 		id = 922,
@@ -1290,7 +1345,7 @@ var_0_0.game_enemy = {
 	},
 	[923] = {
 		score = 500,
-		desc = "幻想号",
+		desc = "皇家财富号",
 		hp = 1000,
 		boss = true,
 		id = 923,
@@ -1298,7 +1353,7 @@ var_0_0.game_enemy = {
 	},
 	[924] = {
 		score = 500,
-		desc = "朴茨茅斯冒险号",
+		desc = "幻想号",
 		hp = 1000,
 		boss = true,
 		id = 924,
@@ -1306,7 +1361,7 @@ var_0_0.game_enemy = {
 	},
 	[925] = {
 		score = 500,
-		desc = "海豚号",
+		desc = "朴茨冒险号",
 		hp = 1000,
 		boss = true,
 		id = 925,
@@ -1314,7 +1369,7 @@ var_0_0.game_enemy = {
 	},
 	[926] = {
 		score = 500,
-		desc = "皇家财富号",
+		desc = "圣马丁号",
 		hp = 1000,
 		boss = true,
 		id = 926,
@@ -1328,6 +1383,30 @@ var_0_0.game_enemy = {
 		id = 927,
 		tpl = "Enemys/boss_7"
 	},
+	[928] = {
+		score = 500,
+		desc = "和睦号",
+		hp = 1000,
+		boss = true,
+		id = 928,
+		tpl = "Enemys/boss_8"
+	},
+	[929] = {
+		score = 500,
+		desc = "莱姆号",
+		hp = 1000,
+		boss = true,
+		id = 929,
+		tpl = "Enemys/boss_9"
+	},
+	[930] = {
+		score = 500,
+		desc = "珍珠号",
+		hp = 1000,
+		boss = true,
+		id = 930,
+		tpl = "Enemys/boss_10"
+	},
 	[931] = {
 		score = 500,
 		desc = "冈伊沙瓦号",
@@ -1338,7 +1417,7 @@ var_0_0.game_enemy = {
 	},
 	[932] = {
 		score = 500,
-		desc = "圣马丁号",
+		desc = "海豚号",
 		hp = 2000,
 		boss = true,
 		id = 932,
@@ -1346,7 +1425,7 @@ var_0_0.game_enemy = {
 	},
 	[933] = {
 		score = 500,
-		desc = "幻想号",
+		desc = "皇家财富号",
 		hp = 2000,
 		boss = true,
 		id = 933,
@@ -1354,7 +1433,7 @@ var_0_0.game_enemy = {
 	},
 	[934] = {
 		score = 500,
-		desc = "朴茨茅斯冒险号",
+		desc = "幻想号",
 		hp = 2000,
 		boss = true,
 		id = 934,
@@ -1362,7 +1441,7 @@ var_0_0.game_enemy = {
 	},
 	[935] = {
 		score = 500,
-		desc = "海豚号",
+		desc = "朴茨冒险号",
 		hp = 2000,
 		boss = true,
 		id = 935,
@@ -1370,7 +1449,7 @@ var_0_0.game_enemy = {
 	},
 	[936] = {
 		score = 500,
-		desc = "皇家财富号",
+		desc = "圣马丁号",
 		hp = 2000,
 		boss = true,
 		id = 936,
@@ -1384,6 +1463,30 @@ var_0_0.game_enemy = {
 		id = 937,
 		tpl = "Enemys/boss_7"
 	},
+	[938] = {
+		score = 500,
+		desc = "和睦号",
+		hp = 2000,
+		boss = true,
+		id = 938,
+		tpl = "Enemys/boss_8"
+	},
+	[939] = {
+		score = 500,
+		desc = "莱姆号",
+		hp = 2000,
+		boss = true,
+		id = 939,
+		tpl = "Enemys/boss_9"
+	},
+	[940] = {
+		score = 500,
+		desc = "珍珠号",
+		hp = 2000,
+		boss = true,
+		id = 940,
+		tpl = "Enemys/boss_10"
+	},
 	[941] = {
 		score = 500,
 		desc = "冈伊沙瓦号",
@@ -1394,7 +1497,7 @@ var_0_0.game_enemy = {
 	},
 	[942] = {
 		score = 500,
-		desc = "圣马丁号",
+		desc = "海豚号",
 		hp = 3000,
 		boss = true,
 		id = 942,
@@ -1402,7 +1505,7 @@ var_0_0.game_enemy = {
 	},
 	[943] = {
 		score = 500,
-		desc = "幻想号",
+		desc = "皇家财富号",
 		hp = 3000,
 		boss = true,
 		id = 943,
@@ -1410,7 +1513,7 @@ var_0_0.game_enemy = {
 	},
 	[944] = {
 		score = 500,
-		desc = "朴茨茅斯冒险号",
+		desc = "幻想号",
 		hp = 3000,
 		boss = true,
 		id = 944,
@@ -1418,7 +1521,7 @@ var_0_0.game_enemy = {
 	},
 	[945] = {
 		score = 500,
-		desc = "海豚号",
+		desc = "朴茨冒险号",
 		hp = 3000,
 		boss = true,
 		id = 945,
@@ -1426,7 +1529,7 @@ var_0_0.game_enemy = {
 	},
 	[946] = {
 		score = 500,
-		desc = "皇家财富号",
+		desc = "圣马丁号",
 		hp = 3000,
 		boss = true,
 		id = 946,
@@ -1440,6 +1543,30 @@ var_0_0.game_enemy = {
 		id = 947,
 		tpl = "Enemys/boss_7"
 	},
+	[948] = {
+		score = 500,
+		desc = "和睦号",
+		hp = 3000,
+		boss = true,
+		id = 948,
+		tpl = "Enemys/boss_8"
+	},
+	[949] = {
+		score = 500,
+		desc = "莱姆号",
+		hp = 3000,
+		boss = true,
+		id = 949,
+		tpl = "Enemys/boss_9"
+	},
+	[950] = {
+		score = 500,
+		desc = "珍珠号",
+		hp = 3000,
+		boss = true,
+		id = 950,
+		tpl = "Enemys/boss_10"
+	},
 	[951] = {
 		score = 500,
 		desc = "冈伊沙瓦号",
@@ -1450,7 +1577,7 @@ var_0_0.game_enemy = {
 	},
 	[952] = {
 		score = 500,
-		desc = "圣马丁号",
+		desc = "海豚号",
 		hp = 4000,
 		boss = true,
 		id = 952,
@@ -1458,7 +1585,7 @@ var_0_0.game_enemy = {
 	},
 	[953] = {
 		score = 500,
-		desc = "幻想号",
+		desc = "皇家财富号",
 		hp = 4000,
 		boss = true,
 		id = 953,
@@ -1466,7 +1593,7 @@ var_0_0.game_enemy = {
 	},
 	[954] = {
 		score = 500,
-		desc = "朴茨茅斯冒险号",
+		desc = "幻想号",
 		hp = 4000,
 		boss = true,
 		id = 954,
@@ -1474,7 +1601,7 @@ var_0_0.game_enemy = {
 	},
 	[955] = {
 		score = 500,
-		desc = "海豚号",
+		desc = "朴茨冒险号",
 		hp = 4000,
 		boss = true,
 		id = 955,
@@ -1482,7 +1609,7 @@ var_0_0.game_enemy = {
 	},
 	[956] = {
 		score = 500,
-		desc = "皇家财富号",
+		desc = "圣马丁号",
 		hp = 4000,
 		boss = true,
 		id = 956,
@@ -1496,6 +1623,30 @@ var_0_0.game_enemy = {
 		id = 957,
 		tpl = "Enemys/boss_7"
 	},
+	[958] = {
+		score = 500,
+		desc = "和睦号",
+		hp = 4000,
+		boss = true,
+		id = 958,
+		tpl = "Enemys/boss_8"
+	},
+	[959] = {
+		score = 500,
+		desc = "莱姆号",
+		hp = 4000,
+		boss = true,
+		id = 959,
+		tpl = "Enemys/boss_9"
+	},
+	[960] = {
+		score = 500,
+		desc = "珍珠号",
+		hp = 4000,
+		boss = true,
+		id = 960,
+		tpl = "Enemys/boss_10"
+	},
 	[961] = {
 		score = 500,
 		desc = "冈伊沙瓦号",
@@ -1506,7 +1657,7 @@ var_0_0.game_enemy = {
 	},
 	[962] = {
 		score = 500,
-		desc = "圣马丁号",
+		desc = "海豚号",
 		hp = 5000,
 		boss = true,
 		id = 962,
@@ -1514,7 +1665,7 @@ var_0_0.game_enemy = {
 	},
 	[963] = {
 		score = 500,
-		desc = "幻想号",
+		desc = "皇家财富号",
 		hp = 5000,
 		boss = true,
 		id = 963,
@@ -1522,7 +1673,7 @@ var_0_0.game_enemy = {
 	},
 	[964] = {
 		score = 500,
-		desc = "朴茨茅斯冒险号",
+		desc = "幻想号",
 		hp = 5000,
 		boss = true,
 		id = 964,
@@ -1530,7 +1681,7 @@ var_0_0.game_enemy = {
 	},
 	[965] = {
 		score = 500,
-		desc = "海豚号",
+		desc = "朴茨冒险号",
 		hp = 5000,
 		boss = true,
 		id = 965,
@@ -1538,7 +1689,7 @@ var_0_0.game_enemy = {
 	},
 	[966] = {
 		score = 500,
-		desc = "皇家财富号",
+		desc = "圣马丁号",
 		hp = 5000,
 		boss = true,
 		id = 966,
@@ -1551,6 +1702,30 @@ var_0_0.game_enemy = {
 		boss = true,
 		id = 967,
 		tpl = "Enemys/boss_7"
+	},
+	[968] = {
+		score = 500,
+		desc = "和睦号",
+		hp = 5000,
+		boss = true,
+		id = 968,
+		tpl = "Enemys/boss_8"
+	},
+	[969] = {
+		score = 500,
+		desc = "莱姆号",
+		hp = 5000,
+		boss = true,
+		id = 969,
+		tpl = "Enemys/boss_9"
+	},
+	[970] = {
+		score = 500,
+		desc = "珍珠号",
+		hp = 5000,
+		boss = true,
+		id = 970,
+		tpl = "Enemys/boss_10"
 	}
 }
 var_0_0.rule_data = {
@@ -1643,12 +1818,12 @@ var_0_0.rule_data = {
 		create_rate = 100,
 		ids = {
 			901,
-			902,
 			903,
-			904,
+			908,
 			905,
+			909,
 			906,
-			907
+			910
 		},
 		type = var_0_0.type_enemy
 	},
@@ -1657,12 +1832,12 @@ var_0_0.rule_data = {
 		create_rate = 100,
 		ids = {
 			911,
-			912,
 			913,
-			914,
+			918,
 			915,
+			919,
 			916,
-			917
+			920
 		},
 		type = var_0_0.type_enemy
 	},
@@ -1671,12 +1846,12 @@ var_0_0.rule_data = {
 		create_rate = 100,
 		ids = {
 			921,
-			922,
 			923,
-			924,
+			928,
 			925,
+			929,
 			926,
-			927
+			930
 		},
 		type = var_0_0.type_enemy
 	},
@@ -1685,12 +1860,12 @@ var_0_0.rule_data = {
 		create_rate = 100,
 		ids = {
 			931,
-			932,
 			933,
-			934,
+			938,
 			935,
+			939,
 			936,
-			937
+			940
 		},
 		type = var_0_0.type_enemy
 	},
@@ -1699,12 +1874,12 @@ var_0_0.rule_data = {
 		create_rate = 100,
 		ids = {
 			941,
-			942,
 			943,
-			944,
+			948,
 			945,
+			949,
 			946,
-			947
+			950
 		},
 		type = var_0_0.type_enemy
 	},
@@ -1713,12 +1888,12 @@ var_0_0.rule_data = {
 		create_rate = 100,
 		ids = {
 			951,
-			952,
 			953,
-			954,
+			958,
 			955,
+			959,
 			956,
-			957
+			960
 		},
 		type = var_0_0.type_enemy
 	},
@@ -1727,12 +1902,12 @@ var_0_0.rule_data = {
 		create_rate = 100,
 		ids = {
 			961,
-			962,
 			963,
-			964,
+			968,
 			965,
+			969,
 			966,
-			967
+			970
 		},
 		type = var_0_0.type_enemy
 	},

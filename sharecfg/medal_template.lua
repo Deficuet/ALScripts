@@ -2611,6 +2611,48 @@ pg.medal_template = {
 		target_num = 8,
 		target_id = "50087"
 	},
+	[200091] = {
+		explain1 = "A Dance for Amahara Above",
+		name = "Sky Realm Amahara Medal",
+		explain2 = "Event",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "\"The Sky Realm – it formeth a wall against the world beyond; and thus is the domain within it defined – Amahara. Even should the earth collapse and the mountains crumble, a great disaster is inevitable. The Sky Realm of Amahara, forevermore must it last.\" \n–Welcome to the Sky Realm of Amahara.",
+		next = 0,
+		icon = "9091",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9091",
+		condition = "Collect 8 stickers in A Dance for Amahara Above.",
+		rank = 1,
+		id = 200091,
+		target_num = 8,
+		target_id = "50136"
+	},
+	[200101] = {
+		explain1 = "Tempesta and Islas de Libertád",
+		name = "Islas de Libertád Medal",
+		explain2 = "Event",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "Islas de Libertád – a free place where seekers of liberty may find it.\nIf it is freedom you desire, Libertypolis welcomes you.",
+		next = 0,
+		icon = "9101",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9101",
+		condition = "Collect 8 stickers in Tempesta and Islas de Libertád.",
+		rank = 1,
+		id = 200101,
+		target_num = 8,
+		target_id = "50209"
+	},
 	all = {
 		10011,
 		10012,
@@ -2730,6 +2772,8 @@ pg.medal_template = {
 		200051,
 		200061,
 		200071,
-		200081
+		200081,
+		200091,
+		200101
 	}
 }

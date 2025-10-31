@@ -4,12 +4,12 @@ var_0_0.MINIGAME_HUB_ID = 63
 var_0_0.MINIGAME_ID = 50
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.awardPreviewBtn = arg_1_0:findTF("AD/award_preview_btn")
-	arg_1_0.goBtn = arg_1_0:findTF("AD/go")
-	arg_1_0.indexTxt = arg_1_0:findTF("AD/index"):GetComponent(typeof(Text))
-	arg_1_0.iconBtn = arg_1_0:findTF("AD/icon")
-	arg_1_0.markContainer = arg_1_0:findTF("AD/marks")
-	arg_1_0.markTpl = arg_1_0:findTF("AD/marks/1")
+	arg_1_0.awardPreviewBtn = arg_1_0._tf:Find("AD/award_preview_btn")
+	arg_1_0.goBtn = arg_1_0._tf:Find("AD/go")
+	arg_1_0.indexTxt = arg_1_0._tf:Find("AD/index"):GetComponent(typeof(Text))
+	arg_1_0.iconBtn = arg_1_0._tf:Find("AD/icon")
+	arg_1_0.markContainer = arg_1_0._tf:Find("AD/marks")
+	arg_1_0.markTpl = arg_1_0._tf:Find("AD/marks/1")
 
 	setActive(arg_1_0.markTpl, false)
 

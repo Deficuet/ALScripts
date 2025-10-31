@@ -26,13 +26,13 @@ function var_0_0.init(arg_3_0)
 
 	local var_3_0 = nowWorld()
 
-	arg_3_0.stamina = arg_3_0:findTF("res/stamina")
+	arg_3_0.stamina = arg_3_0._tf:Find("res/stamina")
 
 	onButton(arg_3_0, arg_3_0.stamina, function()
 		var_3_0.staminaMgr:Show()
 	end, SFX_PANEL)
 
-	arg_3_0.oil = arg_3_0:findTF("res/oil")
+	arg_3_0.oil = arg_3_0._tf:Find("res/oil")
 
 	onButton(arg_3_0, arg_3_0.oil, function()
 		local var_6_0 = ShoppingStreet.getRiseShopId(ShopArgs.BuyOil, arg_3_0.player.buyOilCount)
@@ -81,7 +81,7 @@ function var_0_0.init(arg_3_0)
 		end
 	end, SFX_PANEL)
 
-	arg_3_0.Whuobi = arg_3_0:findTF("res/Whuobi")
+	arg_3_0.Whuobi = arg_3_0._tf:Find("res/Whuobi")
 
 	onButton(arg_3_0, arg_3_0.Whuobi, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -93,7 +93,7 @@ function var_0_0.init(arg_3_0)
 		})
 	end, SFX_PANEL)
 
-	arg_3_0.bossProgress = arg_3_0:findTF("res/boss_progress")
+	arg_3_0.bossProgress = arg_3_0._tf:Find("res/boss_progress")
 
 	onButton(arg_3_0, arg_3_0.bossProgress, function()
 		local var_9_0 = WorldBossConst.GetCurrBossItemInfo()

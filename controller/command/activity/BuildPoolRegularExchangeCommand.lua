@@ -4,7 +4,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody().id
 
 	if getProxy(BuildShipProxy):getRegularExchangeCount() < pg.ship_data_create_exchange[REGULAR_BUILD_POOL_EXCHANGE_ID].exchange_request then
-		pg.TipsMgr:GetInstance():ShowTips("unenough")
+		pg.TipsMgr.GetInstance():ShowTips("unenough")
 
 		return
 	end

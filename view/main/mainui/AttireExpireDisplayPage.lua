@@ -5,26 +5,24 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.uilist = UIItemList.New(arg_2_0:findTF("window/sliders/scrollrect/content"), arg_2_0:findTF("window/sliders/scrollrect/content/tpl"))
+	arg_2_0.uilist = UIItemList.New(arg_2_0._tf:Find("window/sliders/scrollrect/content"), arg_2_0._tf:Find("window/sliders/scrollrect/content/tpl"))
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("window/confirm_btn"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/confirm_btn"), function()
 		arg_3_0:Hide()
 	end, SFX_CANCEL)
 	onButton(arg_3_0, arg_3_0._tf, function()
 		arg_3_0:Hide()
 	end, SFX_CANCEL)
-	onButton(arg_3_0, arg_3_0:findTF("window/top/btnBack"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/top/btnBack"), function()
 		arg_3_0:Hide()
 	end, SFX_CANCEL)
 end
 
 function var_0_0.Show(arg_7_0, arg_7_1)
 	var_0_0.super.Show(arg_7_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf)
 	arg_7_0:Display(arg_7_1)
 end
 
@@ -44,7 +42,7 @@ function var_0_0.Display(arg_8_0, arg_8_1)
 end
 
 function var_0_0.OnDestroy(arg_10_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf, pg.UIMgr.GetInstance()._normalUIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, pg.UIMgr.GetInstance()._normalUIMain)
 end
 
 return var_0_0

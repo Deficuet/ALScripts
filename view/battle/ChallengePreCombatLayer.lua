@@ -9,14 +9,14 @@ function var_0_0.ResUISettings(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0._startBtn = arg_3_0:findTF("right/start")
-	arg_3_0._popup = arg_3_0:findTF("right/popup")
+	arg_3_0._startBtn = arg_3_0.rtAdapt:Find("right/start")
+	arg_3_0._popup = arg_3_0.rtAdapt:Find("right/popup")
 
 	setActive(arg_3_0._popup, false)
 
-	arg_3_0._backBtn = arg_3_0:findTF("top/back_btn")
+	arg_3_0._backBtn = arg_3_0.rtAdapt:Find("top/back_btn")
 
-	local var_3_0 = arg_3_0:findTF("middle")
+	local var_3_0 = arg_3_0.rtAdapt:Find("middle")
 
 	arg_3_0._mainGS = var_3_0:Find("gear_score/main/Text")
 	arg_3_0._vanguardGS = var_3_0:Find("gear_score/vanguard/Text")
@@ -44,28 +44,28 @@ function var_0_0.init(arg_3_0)
 
 	setActive(arg_3_0._formationList, false)
 
-	arg_3_0._goals = arg_3_0:findTF("right/infomation/goal")
+	arg_3_0._goals = arg_3_0.rtAdapt:Find("right/infomation/goal")
 	arg_3_0._heroInfo = arg_3_0:getTpl("heroInfo")
 	arg_3_0._starTpl = arg_3_0:getTpl("star_tpl")
 	arg_3_0._formationLogic = BaseFormation.New(arg_3_0._tf, arg_3_0._heroContainer, arg_3_0._heroInfo, arg_3_0._gridTFs)
-	arg_3_0._middle = arg_3_0:findTF("middle")
-	arg_3_0._right = arg_3_0:findTF("right")
-	arg_3_0._fleet = arg_3_0:findTF("middle/fleet")
+	arg_3_0._middle = arg_3_0.rtAdapt:Find("middle")
+	arg_3_0._right = arg_3_0.rtAdapt:Find("right")
+	arg_3_0._fleet = arg_3_0.rtAdapt:Find("middle/fleet")
 
-	setText(findTF(arg_3_0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
-	setText(findTF(arg_3_0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
-	setText(findTF(arg_3_0._fleet, "title_bg/Text"), i18n("pre_combat_team"))
+	setText(arg_3_0.rtAdapt:Find("middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
+	setText(arg_3_0.rtAdapt:Find("middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
+	setText(arg_3_0._fleet:Find("title_bg/Text"), i18n("pre_combat_team"))
 
-	arg_3_0._ship_tpl = findTF(arg_3_0._fleet, "shiptpl")
-	arg_3_0._empty_tpl = findTF(arg_3_0._fleet, "emptytpl")
+	arg_3_0._ship_tpl = arg_3_0._fleet:Find("shiptpl")
+	arg_3_0._empty_tpl = arg_3_0._fleet:Find("emptytpl")
 
 	setActive(arg_3_0._ship_tpl, false)
 	setActive(arg_3_0._empty_tpl, false)
 
-	arg_3_0._autoToggle = arg_3_0:findTF("middle/auto_toggle")
-	arg_3_0._autoSubToggle = arg_3_0:findTF("middle/sub_toggle_container/sub_toggle")
-	arg_3_0.topPanel = arg_3_0:findTF("top")
-	arg_3_0.strategyInfo = arg_3_0:findTF("strategy_info")
+	arg_3_0._autoToggle = arg_3_0.rtAdapt:Find("middle/auto_toggle")
+	arg_3_0._autoSubToggle = arg_3_0.rtAdapt:Find("middle/sub_toggle_container/sub_toggle")
+	arg_3_0.topPanel = arg_3_0.rtAdapt:Find("top")
+	arg_3_0.strategyInfo = arg_3_0._tf:Find("strategy_info")
 
 	setActive(arg_3_0.strategyInfo, false)
 	setAnchoredPosition(arg_3_0._middle, {
@@ -165,10 +165,10 @@ function var_0_0.Register(arg_13_0)
 
 		arg_14_0.name = "info"
 
-		local var_14_0 = findTF(arg_14_0, "info")
-		local var_14_1 = findTF(var_14_0, "stars")
+		local var_14_0 = arg_14_0:Find("info")
+		local var_14_1 = var_14_0:Find("stars")
 		local var_14_2 = arg_14_1:getEnergy() <= Ship.ENERGY_MID
-		local var_14_3 = findTF(var_14_0, "energy")
+		local var_14_3 = var_14_0:Find("energy")
 
 		if var_14_2 then
 			local var_14_4, var_14_5 = arg_14_1:getEnergyPrint()
@@ -195,12 +195,12 @@ function var_0_0.Register(arg_13_0)
 			warning("找不到船形, shipConfigId: " .. arg_14_1.configId)
 		end
 
-		setImageSprite(findTF(var_14_0, "type"), var_14_8, true)
-		setText(findTF(var_14_0, "frame/lv_contain/lv"), arg_14_1.level)
+		setImageSprite(var_14_0:Find("type"), var_14_8, true)
+		setText(var_14_0:Find("frame/lv_contain/lv"), arg_14_1.level)
 
-		local var_14_9 = findTF(var_14_0, "blood")
-		local var_14_10 = findTF(var_14_9, "fillarea/green")
-		local var_14_11 = findTF(var_14_9, "fillarea/red")
+		local var_14_9 = var_14_0:Find("blood")
+		local var_14_10 = var_14_9:Find("fillarea/green")
+		local var_14_11 = var_14_9:Find("fillarea/red")
 
 		setActive(var_14_10, arg_14_1.hpRant >= ChapterConst.HpGreen)
 		setActive(var_14_11, arg_14_1.hpRant < ChapterConst.HpGreen)
@@ -277,9 +277,9 @@ function var_0_0.updateStageView(arg_22_0)
 	end
 
 	local var_22_1 = {
-		findTF(arg_22_0._goals, "goal_tpl"),
-		findTF(arg_22_0._goals, "goal_sink"),
-		findTF(arg_22_0._goals, "goal_time")
+		arg_22_0._goals:Find("goal_tpl"),
+		arg_22_0._goals:Find("goal_sink"),
+		arg_22_0._goals:Find("goal_time")
 	}
 	local var_22_2 = {
 		{
@@ -310,9 +310,9 @@ function var_0_0.updateBattleFleetView(arg_24_0)
 				updateShip(var_25_0, arg_25_1[iter_25_0])
 
 				local var_25_1 = arg_25_1[iter_25_0].hpRant
-				local var_25_2 = findTF(var_25_0, "blood")
-				local var_25_3 = findTF(var_25_0, "blood/fillarea/green")
-				local var_25_4 = findTF(var_25_0, "blood/fillarea/red")
+				local var_25_2 = var_25_0:Find("blood")
+				local var_25_3 = var_25_0:Find("blood/fillarea/green")
+				local var_25_4 = var_25_0:Find("blood/fillarea/red")
 
 				setActive(var_25_3, var_25_1 >= ChapterConst.HpGreen)
 				setActive(var_25_4, var_25_1 < ChapterConst.HpGreen)
@@ -348,7 +348,7 @@ function var_0_0.willExit(arg_29_0)
 
 	arg_29_0._formationLogic = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_29_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_29_0._tf)
 end
 
 return var_0_0

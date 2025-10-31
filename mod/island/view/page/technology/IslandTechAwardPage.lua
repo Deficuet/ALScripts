@@ -29,4 +29,12 @@ function var_0_0.OnHide(arg_6_0)
 	arg_6_0:UnBlurPanel()
 end
 
+function var_0_0.OnDisable(arg_7_0)
+	arg_7_0:OnHide()
+end
+
+function var_0_0.OnDestroy(arg_8_0)
+	arg_8_0:OnHide()
+end
+
 return var_0_0

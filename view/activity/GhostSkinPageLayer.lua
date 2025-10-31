@@ -10,8 +10,8 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.activity = getProxy(ActivityProxy):getActivityById(var_0_1)
 	arg_2_0.story = arg_2_0.activity:getConfig("config_client").story
 	arg_2_0.storyStateDic = {}
-	arg_2_0.item = arg_2_0:findTF("task/item", arg_2_0.bg)
-	arg_2_0.items = arg_2_0:findTF("task/items", arg_2_0.bg)
+	arg_2_0.item = arg_2_0.bg:Find("task/item")
+	arg_2_0.items = arg_2_0.bg:Find("task/items")
 	arg_2_0.uilist = UIItemList.New(arg_2_0.items, arg_2_0.item)
 
 	setActive(arg_2_0.item, false)
@@ -42,7 +42,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0:InitStoryState()
 	arg_2_0:UpdateStoryView()
 	arg_2_0:DisplayBigTask()
-	setText(arg_2_0:findTF("task/taskAll/taskallReward/hasRewardText"), i18n("activity_1024_memory_get"))
+	setText(arg_2_0._tf:Find("task/taskAll/taskallReward/hasRewardText"), i18n("activity_1024_memory_get"))
 end
 
 function var_0_0.OnUpdateFlush(arg_5_0)
@@ -103,7 +103,7 @@ end
 
 function var_0_0.UpdateTask(arg_7_0, arg_7_1, arg_7_2)
 	local var_7_0 = arg_7_1 + 1
-	local var_7_1 = arg_7_0:findTF("item", arg_7_2)
+	local var_7_1 = arg_7_2:Find("item")
 	local var_7_2 = arg_7_0.taskGroup[var_7_0]
 	local var_7_3 = arg_7_0.taskProxy:getTaskById(var_7_2) or arg_7_0.taskProxy:getFinishTaskById(var_7_2)
 
@@ -132,16 +132,16 @@ function var_0_0.UpdateTask(arg_7_0, arg_7_1, arg_7_2)
 
 	var_7_10 = var_7_8 and setColorStr("/" .. var_7_6, var_7_8) or "/" .. var_7_6
 
-	setActive(arg_7_0:findTF("progressText", arg_7_2), false)
+	setActive(arg_7_2:Find("progressText"), false)
 
 	local var_7_11 = var_7_3:getConfig("desc") .. " (" .. var_7_9 .. var_7_10 .. ")"
 
-	setText(arg_7_0:findTF("description", arg_7_2), var_7_11)
-	setSlider(arg_7_0:findTF("progress", arg_7_2), 0, var_7_6, var_7_5)
+	setText(arg_7_2:Find("description"), var_7_11)
+	setSlider(arg_7_2:Find("progress"), 0, var_7_6, var_7_5)
 
-	local var_7_12 = arg_7_0:findTF("go_btn", arg_7_2)
-	local var_7_13 = arg_7_0:findTF("get_btn", arg_7_2)
-	local var_7_14 = arg_7_0:findTF("got_btn", arg_7_2)
+	local var_7_12 = arg_7_2:Find("go_btn")
+	local var_7_13 = arg_7_2:Find("get_btn")
+	local var_7_14 = arg_7_2:Find("got_btn")
 	local var_7_15 = var_7_3:getTaskStatus()
 
 	if arg_7_0.allCompleteCount == 8 then
@@ -179,7 +179,7 @@ function var_0_0.UpdateTask(arg_7_0, arg_7_1, arg_7_2)
 	end, SFX_PANEL)
 
 	local var_7_16 = arg_7_0.allCompleteCount < 8 and var_7_15 == 1
-	local var_7_17 = arg_7_0:findTF("reddot", arg_7_2)
+	local var_7_17 = arg_7_2:Find("reddot")
 
 	setActive(var_7_17, var_7_16)
 end
@@ -190,7 +190,7 @@ function var_0_0.DisplayBigTask(arg_13_0)
 
 	assert(var_13_1, "without this task by id: " .. var_13_0)
 
-	local var_13_2 = arg_13_0:findTF("task/allTaskItem")
+	local var_13_2 = arg_13_0._tf:Find("task/allTaskItem")
 	local var_13_3 = Drop.Create(var_13_1:getConfig("award_display")[1])
 
 	updateDrop(var_13_2, var_13_3)
@@ -200,7 +200,7 @@ function var_0_0.DisplayBigTask(arg_13_0)
 
 	local var_13_4 = var_13_1:getTaskStatus()
 
-	setActive(arg_13_0:findTF("task/taskAll/taskallReward"), var_13_4 == 2)
+	setActive(arg_13_0._tf:Find("task/taskAll/taskallReward"), var_13_4 == 2)
 end
 
 function var_0_0.GetProgressColor(arg_15_0)

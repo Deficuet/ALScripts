@@ -4,9 +4,9 @@ var_0_0.SHOW_RE_MONTH_SIGN = "show re month sign award"
 var_0_0.MONTH_SIGN_SHOW = {}
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("bg")
-	arg_1_0.items = arg_1_0:findTF("items")
-	arg_1_0.item = arg_1_0:findTF("item", arg_1_0.items)
+	arg_1_0.bg = arg_1_0._tf:Find("bg")
+	arg_1_0.items = arg_1_0._tf:Find("items")
+	arg_1_0.item = arg_1_0.items:Find("item")
 	arg_1_0.monthSignReSignUI = MonthSignReSignUI.New(arg_1_0._tf, arg_1_0.event, nil)
 
 	arg_1_0:bind(var_0_0.SHOW_RE_MONTH_SIGN, function(arg_2_0, arg_2_1, arg_2_2)
@@ -65,7 +65,7 @@ function var_0_0.OnFirstFlush(arg_4_0)
 			setActive(arg_5_2:Find("today"), var_5_0 == #arg_4_0.activity.data1_list)
 
 			if arg_4_0.specialTag and var_5_0 == arg_4_0.specialDay then
-				local var_5_2 = arg_4_0:findTF("icon_bg/SpecialFrame", arg_5_2)
+				local var_5_2 = arg_5_2:Find("icon_bg/SpecialFrame")
 
 				if arg_4_0.isShowFrame == 1 then
 					setActive(var_5_2, false)
@@ -85,7 +85,7 @@ function var_0_0.OnUpdateFlush(arg_8_0)
 	arg_8_0.list:align(arg_8_0.monthDays)
 
 	if arg_8_0.specialTag then
-		local var_8_0 = arg_8_0:findTF("DayNumText")
+		local var_8_0 = arg_8_0._tf:Find("DayNumText")
 		local var_8_1 = arg_8_0.specialDay - #arg_8_0.activity.data1_list
 
 		if var_8_1 < 0 then
@@ -94,7 +94,7 @@ function var_0_0.OnUpdateFlush(arg_8_0)
 
 		setText(var_8_0, var_8_1)
 
-		local var_8_2 = arg_8_0:findTF("ProgressBar")
+		local var_8_2 = arg_8_0._tf:Find("ProgressBar")
 
 		GetComponent(var_8_2, "Slider").value = #arg_8_0.activity.data1_list
 	end

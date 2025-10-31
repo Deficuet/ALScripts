@@ -2,6 +2,7 @@ local var_0_0 = class("Dialogue3DPlayer", import("Mgr.Story.model.animation.Stor
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0)
+	pg.DelegateInfo.New(arg_1_0)
 
 	arg_1_0.view = arg_1_1
 	arg_1_0._tf = arg_1_1._tf
@@ -57,11 +58,11 @@ function var_0_0.CancelAuto(arg_3_0)
 end
 
 function var_0_0.OnStart(arg_4_0, arg_4_1)
-	arg_4_0:ActiveDefaultCamera(arg_4_1)
-	pg.DelegateInfo.New(arg_4_0)
+	return
 end
 
 function var_0_0.OnStartAction(arg_5_0, arg_5_1, arg_5_2)
+	arg_5_0:ActiveDefaultCamera(arg_5_1)
 	arg_5_0:StartFadeIn(arg_5_1)
 	arg_5_2()
 end
@@ -315,12 +316,7 @@ function var_0_0.PlayOptionExitAnimation(arg_28_0, arg_28_1)
 			arg_29_1:GetComponent(typeof(Animation)):Play("anim_IslandStoryUI_Tpl_Out")
 		end)
 	end)
-
-	arg_28_0.canvasGroup.blocksRaycasts = false
-
 	parallelAsync(var_28_0, function()
-		arg_28_0.canvasGroup.blocksRaycasts = true
-
 		arg_28_0.uiOptionList:each(function(arg_33_0, arg_33_1)
 			arg_33_1:GetComponent(typeof(DftAniEvent)):SetEndEvent(nil)
 		end)
@@ -517,14 +513,23 @@ end
 
 function var_0_0.Face2Face(arg_63_0, arg_63_1, arg_63_2, arg_63_3)
 	local var_63_0 = arg_63_2.position - arg_63_1.position
-	local var_63_1 = Quaternion.LookRotation(var_63_0)
-	local var_63_2 = arg_63_1.position - arg_63_2.position
-	local var_63_3 = Quaternion.LookRotation(var_63_2)
+	local var_63_1 = arg_63_1.position - arg_63_2.position
 
-	arg_63_1.rotation = Quaternion.Euler(0, var_63_1.eulerAngles.y, 0)
-	arg_63_2.rotation = Quaternion.Euler(0, var_63_3.eulerAngles.y, 0)
+	if var_63_0.sqrMagnitude > 0.0001 then
+		local var_63_2 = Quaternion.LookRotation(var_63_0)
 
-	arg_63_3()
+		arg_63_1.rotation = Quaternion.Euler(0, var_63_2.eulerAngles.y, 0)
+	end
+
+	if var_63_1.sqrMagnitude > 0.0001 then
+		local var_63_3 = Quaternion.LookRotation(var_63_1)
+
+		arg_63_2.rotation = Quaternion.Euler(0, var_63_3.eulerAngles.y, 0)
+	end
+
+	if arg_63_3 then
+		arg_63_3()
+	end
 end
 
 function var_0_0.StartUIAnimations(arg_64_0, arg_64_1, arg_64_2)
@@ -679,13 +684,14 @@ end
 function var_0_0.OnEnd(arg_72_0)
 	arg_72_0:DisactiveDefaultCamera()
 	arg_72_0:ClearCustomCameraBlend()
-	pg.DelegateInfo.Dispose(arg_72_0)
 end
 
 function var_0_0.Dispose(arg_73_0)
 	arg_73_0.asidePlayer:Dispose()
 
 	arg_73_0.asidePlayer = nil
+
+	pg.DelegateInfo.Dispose(arg_73_0)
 end
 
 return var_0_0

@@ -5,16 +5,16 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/top/btnBack")
-	arg_2_0.cancelBtn = arg_2_0:findTF("frame/cancel_button")
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/confirm_button")
-	arg_2_0.scrollrect = arg_2_0:findTF("frame/sliders"):GetComponent("LScrollRect")
-	arg_2_0.titleTxt = arg_2_0:findTF("frame/top/title_list/infomation/title"):GetComponent(typeof(Text))
-	arg_2_0.titleEnTxt = arg_2_0:findTF("frame/top/title_list/infomation/title_en"):GetComponent(typeof(Text))
-	arg_2_0.subTitleTxt = arg_2_0:findTF("frame/label/Text"):GetComponent(typeof(Text))
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/top/btnBack")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("frame/cancel_button")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/confirm_button")
+	arg_2_0.scrollrect = arg_2_0._tf:Find("frame/sliders"):GetComponent("LScrollRect")
+	arg_2_0.titleTxt = arg_2_0._tf:Find("frame/top/title_list/infomation/title"):GetComponent(typeof(Text))
+	arg_2_0.titleEnTxt = arg_2_0._tf:Find("frame/top/title_list/infomation/title_en"):GetComponent(typeof(Text))
+	arg_2_0.subTitleTxt = arg_2_0._tf:Find("frame/label/Text"):GetComponent(typeof(Text))
 
-	setText(arg_2_0:findTF("frame/confirm_button/pic"), i18n("text_confirm"))
-	setText(arg_2_0:findTF("frame/cancel_button/pic"), i18n("text_cancel"))
+	setText(arg_2_0._tf:Find("frame/confirm_button/pic"), i18n("text_confirm"))
+	setText(arg_2_0._tf:Find("frame/cancel_button/pic"), i18n("text_cancel"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -106,7 +106,7 @@ function var_0_0.Hide(arg_17_0)
 	arg_17_0.cards = {}
 
 	var_0_0.super.Hide(arg_17_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_17_0._tf, arg_17_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_17_0._tf, arg_17_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_18_0)

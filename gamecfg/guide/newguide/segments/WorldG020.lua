@@ -41,7 +41,7 @@ return {
 				"openBox"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/item_grid",
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/adapt/item_scrollview/item_grid",
 				pathIndex = -1,
 				conditionData = {
 					"251",
@@ -61,7 +61,7 @@ return {
 			delay = 0.2,
 			alpha = 0.3,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_usage_panel/window/actions/use_button",
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/adapt/item_usage_panel/window/actions/use_button",
 				pathIndex = -1,
 				triggerType = {
 					1

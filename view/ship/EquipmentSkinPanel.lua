@@ -3,28 +3,28 @@ local var_0_1 = 0.2
 
 function var_0_0.init(arg_1_0)
 	arg_1_0.equipmentTFs = {
-		arg_1_0:findTF("equipment_r/skin/equipment_r1"),
-		arg_1_0:findTF("equipment_r/skin/equipment_r2"),
-		arg_1_0:findTF("equipment_r/skin/equipment_r3"),
-		arg_1_0:findTF("equipment_l/skin/equipment_l1"),
-		arg_1_0:findTF("equipment_l/skin/equipment_l2")
+		arg_1_0._tf:Find("equipment_r/skin/equipment_r1"),
+		arg_1_0._tf:Find("equipment_r/skin/equipment_r2"),
+		arg_1_0._tf:Find("equipment_r/skin/equipment_r3"),
+		arg_1_0._tf:Find("equipment_l/skin/equipment_l1"),
+		arg_1_0._tf:Find("equipment_l/skin/equipment_l2")
 	}
 	arg_1_0.equipmentNormalTFs = {
-		arg_1_0:findTF("equipment_r/equipment/equipment_r1"),
-		arg_1_0:findTF("equipment_r/equipment/equipment_r2"),
-		arg_1_0:findTF("equipment_r/equipment/equipment_r3"),
-		arg_1_0:findTF("equipment_l/equipment/equipment_l1"),
-		arg_1_0:findTF("equipment_l/equipment/equipment_l2")
+		arg_1_0._tf:Find("equipment_r/equipment/equipment_r1"),
+		arg_1_0._tf:Find("equipment_r/equipment/equipment_r2"),
+		arg_1_0._tf:Find("equipment_r/equipment/equipment_r3"),
+		arg_1_0._tf:Find("equipment_l/equipment/equipment_l1"),
+		arg_1_0._tf:Find("equipment_l/equipment/equipment_l2")
 	}
-	arg_1_0.equipmentR = arg_1_0:findTF("equipment_r/equipment")
-	arg_1_0.equipmentL = arg_1_0:findTF("equipment_l/equipment")
-	arg_1_0.skinR = arg_1_0:findTF("equipment_r/skin")
-	arg_1_0.skinL = arg_1_0:findTF("equipment_l/skin")
+	arg_1_0.equipmentR = arg_1_0._tf:Find("equipment_r/equipment")
+	arg_1_0.equipmentL = arg_1_0._tf:Find("equipment_l/equipment")
+	arg_1_0.skinR = arg_1_0._tf:Find("equipment_r/skin")
+	arg_1_0.skinL = arg_1_0._tf:Find("equipment_l/skin")
 
 	setActive(arg_1_0.skinR, not LOCK_EQUIP_SKIN)
 	setActive(arg_1_0.skinL, not LOCK_EQUIP_SKIN)
 
-	arg_1_0.infoPanel = arg_1_0:findTF("info", arg_1_0.equipmentTFs[1])
+	arg_1_0.infoPanel = arg_1_0.equipmentTFs[1]:Find("info")
 	arg_1_0.inSkinPage = true
 end
 
@@ -85,7 +85,7 @@ function var_0_0.updateAll(arg_7_0, arg_7_1)
 				arg_7_0:updateEquipmentTF(arg_7_1, iter_7_0)
 			end
 
-			local var_7_0 = arg_7_0:findTF("shadow", iter_7_1)
+			local var_7_0 = iter_7_1:Find("shadow")
 
 			if var_7_0 then
 				setActive(var_7_0, arg_7_0.inSkinPage)
@@ -93,7 +93,7 @@ function var_0_0.updateAll(arg_7_0, arg_7_1)
 		end
 
 		for iter_7_2, iter_7_3 in ipairs(arg_7_0.equipmentNormalTFs) do
-			local var_7_1 = arg_7_0:findTF("shadow", iter_7_3)
+			local var_7_1 = iter_7_3:Find("shadow")
 
 			if var_7_1 then
 				setActive(var_7_1, not arg_7_0.inSkinPage)
@@ -117,9 +117,9 @@ function var_0_0.updateEquipmentTF(arg_8_0, arg_8_1, arg_8_2)
 			var_8_2 = cloneTplTo(arg_8_0.infoPanel, var_8_0, "info")
 		end
 
-		local var_8_3 = arg_8_0:findTF("panel_title/type", var_8_0)
+		local var_8_3 = var_8_0:Find("panel_title/type")
 		local var_8_4 = EquipType.Types2Title(arg_8_2, arg_8_0.shipVO.configId)
-		local var_8_5 = arg_8_0:findTF(var_8_4, arg_8_0.resource):GetComponent(typeof(Image)).sprite
+		local var_8_5 = arg_8_0.resource:Find(var_8_4):GetComponent(typeof(Image)).sprite
 
 		var_8_3:GetComponent(typeof(Image)).sprite = var_8_5
 

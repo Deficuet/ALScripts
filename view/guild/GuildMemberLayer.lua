@@ -23,20 +23,20 @@ function var_0_0.getUIName(arg_5_0)
 end
 
 function var_0_0.init(arg_6_0)
-	arg_6_0.buttonsPanel = arg_6_0:findTF("buttons_panel")
-	arg_6_0.toggleGroup = arg_6_0:findTF("buttons_panel"):GetComponent(typeof(ToggleGroup))
-	arg_6_0.chatPanel = arg_6_0:findTF("chat")
+	arg_6_0.buttonsPanel = arg_6_0._tf:Find("buttons_panel")
+	arg_6_0.toggleGroup = arg_6_0._tf:Find("buttons_panel"):GetComponent(typeof(ToggleGroup))
+	arg_6_0.chatPanel = arg_6_0._tf:Find("chat")
 
 	setActive(arg_6_0.chatPanel, false)
 	setActive(arg_6_0.buttonsPanel, false)
 
 	arg_6_0.btns = {
-		arg_6_0:findTF("buttons_panel/info_btn"),
-		arg_6_0:findTF("buttons_panel/duty_btn"),
-		arg_6_0:findTF("buttons_panel/fire_btn"),
-		arg_6_0:findTF("buttons_panel/impeach_btn")
+		arg_6_0._tf:Find("buttons_panel/info_btn"),
+		arg_6_0._tf:Find("buttons_panel/duty_btn"),
+		arg_6_0._tf:Find("buttons_panel/fire_btn"),
+		arg_6_0._tf:Find("buttons_panel/impeach_btn")
 	}
-	arg_6_0.helpBtn = arg_6_0:findTF("help")
+	arg_6_0.helpBtn = arg_6_0._tf:Find("help")
 	arg_6_0.pages = {
 		GuildMemberInfoPage.New(arg_6_0._tf, arg_6_0.event),
 		GuildAppiontPage.New(arg_6_0._tf, arg_6_0.event),
@@ -97,7 +97,7 @@ function var_0_0.didEnter(arg_8_0)
 		arg_8_0.pages[iter_8_0]:SetCallBack(function(arg_12_0)
 			arg_8_0.buttonsPanel.localPosition = arg_12_0
 
-			setParent(arg_8_0.buttonsPanel, pg.UIMgr:GetInstance().OverlayMain)
+			setParent(arg_8_0.buttonsPanel, pg.UIMgr.GetInstance().OverlayMain)
 		end, function()
 			var_8_0()
 			setParent(arg_8_0.buttonsPanel, arg_8_0._tf)
@@ -133,7 +133,7 @@ function var_0_0.LoadPainting(arg_15_0, arg_15_1)
 		setActive(arg_15_0.chatPanel, false)
 	else
 		setActive(arg_15_0.chatPanel, true)
-		setText(arg_15_0:findTF("Text", arg_15_0.chatPanel), var_15_2)
+		setText(arg_15_0.chatPanel:Find("Text"), var_15_2)
 	end
 
 	local var_15_3
@@ -141,14 +141,14 @@ function var_0_0.LoadPainting(arg_15_0, arg_15_1)
 	if HXSet.isHxPropose() then
 		local var_15_4 = arg_15_0.guildVO:GetOfficePainting()
 
-		pg.GuildPaintingMgr:GetInstance():Update(var_15_4, Vector3(-643, -160, 0))
+		pg.GuildPaintingMgr.GetInstance():Update(var_15_4, Vector3(-643, -160, 0))
 	else
 		local var_15_5 = Ship.New({
 			configId = arg_15_1.icon,
 			skin_id = arg_15_1.skinId
 		}):getPainting()
 
-		pg.GuildPaintingMgr:GetInstance():Update(var_15_5, Vector3(-484, 0, 0), true)
+		pg.GuildPaintingMgr.GetInstance():Update(var_15_5, Vector3(-484, 0, 0), true)
 	end
 
 	setActive(arg_15_0.btns[4], var_15_1 == GuildConst.DUTY_DEPUTY_COMMANDER and var_15_0 == GuildConst.DUTY_COMMANDER and arg_15_1:isLongOffLine())
@@ -212,8 +212,8 @@ function var_0_0.willExit(arg_21_0)
 		iter_21_1:Destroy()
 	end
 
-	if isActive(pg.MsgboxMgr:GetInstance()._go) then
-		triggerButton(pg.MsgboxMgr:GetInstance()._closeBtn)
+	if isActive(pg.MsgboxMgr.GetInstance()._go) then
+		triggerButton(pg.MsgboxMgr.GetInstance()._closeBtn)
 	end
 end
 

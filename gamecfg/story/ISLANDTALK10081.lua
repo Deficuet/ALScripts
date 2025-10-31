@@ -21,8 +21,8 @@ return {
 		{
 			animation = "hi",
 			characterId = 100800,
-			say = "您好，我是商业广场餐饮区负责人，阿莫玛。",
-			subName = "商区管理员",
+			say = "Greetings. I am Am-Mer-Mar, and I manage the commercial area.",
+			subName = "Commercial Area Supervisor",
 			face2Face = {
 				{
 					0,

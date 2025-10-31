@@ -20,7 +20,7 @@ return {
 	scripts = {
 		{
 			characterId = 0,
-			say = "你要的东西，我都带来了。",
+			say = "Smells wonderful, Bremen. Is my omelette ready?",
 			face2Face = {
 				{
 					0,
@@ -33,26 +33,26 @@ return {
 			}
 		},
 		{
-			animation = "think",
+			animation = "elation",
 			characterId = 101200,
-			subName = "啾咖啡店员",
-			say = "嗯……鸡蛋色泽均匀，表面光滑，看起来很棒！",
+			subName = "Manager of the Café",
+			say = "Whew... Yep, here. One omelette just for you. Warm and straight out of the pan.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "啾咖啡店员",
+			subName = "Manager of the Café",
 			characterId = 101200,
-			say = "面粉颗粒细腻，麦香纯正……哇，都是上好的原料，辛苦了，指挥官~",
+			say = "Think of it as your first repayment for all your hard work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不错吧，这可都是岛上农场的第一批产品。",
+			say = "Man, it looks so appetizing. The aroma alone was worth coming here for.",
 			characterId = 0,
 			animation = "nod",
 			typewriter = {
@@ -61,19 +61,37 @@ return {
 			}
 		},
 		{
-			animation = "doubt",
+			animation = "nod",
 			characterId = 101200,
-			subName = "啾咖啡店员",
-			say = "原来农场已经开始运作起来了，而且东西看起来不错……",
+			subName = "Manager of the Café",
+			say = "Heheh. I made one for Stephen as well, although she left just a while ago.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "啾咖啡店员",
+			subName = "Manager of the Café",
 			characterId = 101200,
-			say = "请放心，我会认真对待这些原料的。",
+			say = "Would you mind delivering it to her?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Café",
+			characterId = 0,
+			say = "To Stephen? Sure. I was gonna check on her anyway to see if she's having another \"long break.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Café",
+			characterId = 101200,
+			say = "Thanks. I've already boxed it up so you can take it with you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,17 +100,8 @@ return {
 		{
 			animation = "talk",
 			characterId = 101200,
-			subName = "啾咖啡店员",
-			say = "为您特制的苹果派很快就好，请指挥官稍等片刻。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "没问题。",
-			characterId = 0,
-			animation = "nod",
+			subName = "Manager of the Café",
+			say = "But right now, just take your time savoring your omelette.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -37,7 +37,7 @@ function var_0_0.init(arg_2_0)
 
 	onButton(arg_2_0, arg_2_0.rtTimeSelectWindow:Find("bg"), function()
 		setActive(arg_2_0.rtTimeSelectWindow, false)
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_2_0.rtTimeSelectWindow, arg_2_0._tf)
+		arg_2_0:UnOverlayPanel(arg_2_0.rtTimeSelectWindow, arg_2_0._tf)
 	end, SFX_CANCEL)
 
 	arg_2_0.rtRenameWindow = arg_2_0._tf:Find("RenameWindow")
@@ -277,16 +277,14 @@ function var_0_0.ShowRenameWindow(arg_27_0)
 	setActive(arg_27_0.rtLevelPanel, false)
 	setActive(arg_27_0.rtRenameWindow, true)
 	setActive(arg_27_0.blurPanel, true)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_27_0.blurPanel, {
+	arg_27_0:OverlayPanel(arg_27_0.blurPanel, {
+		groupDelta = 1,
 		pbList = {
 			arg_27_0.blurPanel
-		},
-		groupName = LayerWeightConst.GROUP_DORM3D,
-		weight = arg_27_0:getWeightFromData() + 1
+		}
 	})
-	pg.UIMgr.GetInstance():OverlayPanel(arg_27_0.rtRenameWindow, {
-		groupName = LayerWeightConst.GROUP_DORM3D,
-		weight = arg_27_0:getWeightFromData() + 1
+	arg_27_0:OverlayPanel(arg_27_0.rtRenameWindow, {
+		groupDelta = 1
 	})
 	setInputText(arg_27_0.callInput, arg_27_0.apartment:GetCallName())
 
@@ -312,8 +310,8 @@ function var_0_0.CloseRenameWindow(arg_28_0)
 	setActive(arg_28_0.rtLevelPanel, true)
 	setActive(arg_28_0.rtRenameWindow, false)
 	setActive(arg_28_0.blurPanel, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_28_0.blurPanel, arg_28_0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_28_0.rtRenameWindow, arg_28_0._tf)
+	arg_28_0:UnOverlayPanel(arg_28_0.blurPanel, arg_28_0._tf)
+	arg_28_0:UnOverlayPanel(arg_28_0.rtRenameWindow, arg_28_0._tf)
 	arg_28_0:UpdateName()
 end
 
@@ -367,10 +365,7 @@ function var_0_0.ShowTimeSelectWindow(arg_29_0)
 		end
 	end, SFX_CONFIRM)
 	setActive(arg_29_0.rtTimeSelectWindow, true)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_29_0.rtTimeSelectWindow, {
-		weight = LayerWeightConst.SECOND_LAYER,
-		groupName = LayerWeightConst.GROUP_DORM3D
-	})
+	arg_29_0:OverlayPanel(arg_29_0.rtTimeSelectWindow)
 end
 
 function var_0_0.onBackPressed(arg_33_0)

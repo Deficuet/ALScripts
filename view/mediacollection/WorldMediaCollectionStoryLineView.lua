@@ -262,9 +262,7 @@ function var_0_0.updateChapterProgress(arg_15_0)
 end
 
 function var_0_0.showFilter(arg_17_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_17_0.filter, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_17_0.filter)
 
 	for iter_17_0, iter_17_1 in ipairs(var_0_0.NATION_LIST) do
 		setActive(arg_17_0.filterTFDict[iter_17_1.key]:Find("on"), arg_17_0.filterDict[iter_17_1.key])
@@ -288,7 +286,7 @@ function var_0_0.confirmFilter(arg_19_0)
 end
 
 function var_0_0.closeFilter(arg_20_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_20_0.filter, arg_20_0.tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_20_0.filter, arg_20_0.tf)
 
 	arg_20_0.filterSnapShot = nil
 

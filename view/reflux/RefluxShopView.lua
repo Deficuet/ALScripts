@@ -54,13 +54,13 @@ function var_0_0.initData(arg_5_0)
 end
 
 function var_0_0.initUI(arg_6_0)
-	local var_6_0 = arg_6_0:findTF("BG/MoneyTip")
+	local var_6_0 = arg_6_0._tf:Find("BG/MoneyTip")
 
 	setActive(var_6_0, false)
 
-	arg_6_0.itemTpl = arg_6_0:findTF("ItemTpl")
-	arg_6_0.packTpl = arg_6_0:findTF("PackTpl")
-	arg_6_0.packContainerTF = arg_6_0:findTF("Container")
+	arg_6_0.itemTpl = arg_6_0._tf:Find("ItemTpl")
+	arg_6_0.packTpl = arg_6_0._tf:Find("PackTpl")
+	arg_6_0.packContainerTF = arg_6_0._tf:Find("Container")
 	arg_6_0.packItemList = UIItemList.New(arg_6_0.packContainerTF, arg_6_0.packTpl)
 
 	arg_6_0.packItemList:make(function(arg_7_0, arg_7_1, arg_7_2)
@@ -79,7 +79,7 @@ function var_0_0.initUI(arg_6_0)
 	local var_6_1 = GetComponent(arg_6_0._tf, "ItemList").prefabItem[0]
 	local var_6_2 = tf(Instantiate(var_6_1))
 
-	setActive(arg_6_0:findTF("icon_bg/count", var_6_2), true)
+	setActive(var_6_2:Find("icon_bg/count"), true)
 	setParent(var_6_2, arg_6_0.itemTpl)
 	setLocalScale(var_6_2, {
 		x = 0.45,
@@ -122,24 +122,24 @@ function var_0_0.updateOutline(arg_10_0)
 	for iter_10_0 = 1, var_10_0 do
 		local var_10_1 = iter_10_0 - 1
 		local var_10_2 = arg_10_0.packContainerTF:GetChild(var_10_1)
-		local var_10_3 = arg_10_0:findTF("TimeLimit/Text", var_10_2):GetComponent(typeof(Text))
+		local var_10_3 = var_10_2:Find("TimeLimit/Text"):GetComponent(typeof(Text))
 
 		var_10_3.material = Object.Instantiate(var_10_3.material)
 
-		local var_10_4 = arg_10_0:findTF("Price/Text", var_10_2):GetComponent(typeof(Text))
+		local var_10_4 = var_10_2:Find("Price/Text"):GetComponent(typeof(Text))
 
 		var_10_4.material = Object.Instantiate(var_10_4.material)
 
-		local var_10_5 = arg_10_0:findTF("Mask/Text", var_10_2):GetComponent(typeof(Text))
+		local var_10_5 = var_10_2:Find("Mask/Text"):GetComponent(typeof(Text))
 
 		var_10_5.material = Object.Instantiate(var_10_5.material)
 	end
 end
 
 function var_0_0.updateItem(arg_11_0, arg_11_1, arg_11_2)
-	local var_11_0 = arg_11_0:findTF("Frame", arg_11_1)
-	local var_11_1 = arg_11_0:findTF("Icon", arg_11_1)
-	local var_11_2 = arg_11_0:findTF("Count", arg_11_1)
+	local var_11_0 = arg_11_1:Find("Frame")
+	local var_11_1 = arg_11_1:Find("Icon")
+	local var_11_2 = arg_11_1:Find("Count")
 	local var_11_3 = arg_11_2.type or arg_11_2[1]
 	local var_11_4 = arg_11_2.id or arg_11_2[2]
 	local var_11_5 = arg_11_2.count or arg_11_2[3]
@@ -163,7 +163,7 @@ function var_0_0.updateItem(arg_11_0, arg_11_1, arg_11_2)
 	setActive(var_11_1, false)
 	setActive(var_11_2, false)
 
-	local var_11_7 = arg_11_0:findTF("CommonItemTemplate(Clone)", arg_11_1)
+	local var_11_7 = findTF(arg_11_1, "CommonItemTemplate(Clone)")
 
 	setActive(var_11_7, true)
 	updateDrop(var_11_7, {
@@ -197,7 +197,7 @@ function var_0_0.updatePack(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 		var_12_1 = Item.getConfigData(var_12_2[1])
 	end
 
-	local var_12_3 = arg_12_0:findTF("PackIcon", arg_12_1)
+	local var_12_3 = arg_12_1:Find("PackIcon")
 	local var_12_4
 
 	if arg_12_3 == var_0_0.GiftPackType.Money then
@@ -208,7 +208,7 @@ function var_0_0.updatePack(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 
 	setImageSprite(var_12_3, LoadSprite(var_12_4), true)
 
-	local var_12_5 = arg_12_0:findTF("PackName", arg_12_1)
+	local var_12_5 = arg_12_1:Find("PackName")
 
 	if arg_12_3 == var_0_0.GiftPackType.Money then
 		setText(var_12_5, arg_12_2:getConfig("name_display"))
@@ -216,7 +216,7 @@ function var_0_0.updatePack(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 		setText(var_12_5, var_12_1.name)
 	end
 
-	local var_12_6 = arg_12_0:findTF("ItemList", arg_12_1)
+	local var_12_6 = arg_12_1:Find("ItemList")
 	local var_12_7
 
 	if arg_12_3 == var_0_0.GiftPackType.Money then
@@ -238,7 +238,7 @@ function var_0_0.updatePack(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 	end)
 	var_12_8:align(#var_12_7)
 
-	local var_12_9 = arg_12_0:findTF("DescFrame/Text", arg_12_1)
+	local var_12_9 = arg_12_1:Find("DescFrame/Text")
 
 	if arg_12_3 == var_0_0.GiftPackType.Money then
 		setText(var_12_9, arg_12_2:getConfig("descrip"))
@@ -246,8 +246,8 @@ function var_0_0.updatePack(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 		setText(var_12_9, var_12_1.display)
 	end
 
-	local var_12_10 = arg_12_0:findTF("TimeLimit", arg_12_1)
-	local var_12_11 = arg_12_0:findTF("Text", var_12_10)
+	local var_12_10 = arg_12_1:Find("TimeLimit")
+	local var_12_11 = var_12_10:Find("Text")
 	local var_12_12 = arg_12_3 ~= var_0_0.GiftPackType.Money and arg_12_0:isHaveNextPack(var_0_0.GiftPackTypeName[arg_12_3])
 
 	var_12_12 = var_12_12 and not arg_12_0:isBuyEver(arg_12_2.id)
@@ -259,14 +259,14 @@ function var_0_0.updatePack(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 		setActive(var_12_10, false)
 	end
 
-	local var_12_13 = arg_12_0:findTF("MoneyTag", arg_12_1)
+	local var_12_13 = arg_12_1:Find("MoneyTag")
 
 	setActive(var_12_13, arg_12_3 == var_0_0.GiftPackType.Money)
 
-	local var_12_14 = arg_12_0:findTF("Price/IconMoney", arg_12_1)
-	local var_12_15 = arg_12_0:findTF("Price/Icon", arg_12_1)
-	local var_12_16 = arg_12_0:findTF("Price/Icon/Res", arg_12_1)
-	local var_12_17 = arg_12_0:findTF("Price/Text", arg_12_1)
+	local var_12_14 = arg_12_1:Find("Price/IconMoney")
+	local var_12_15 = arg_12_1:Find("Price/Icon")
+	local var_12_16 = arg_12_1:Find("Price/Icon/Res")
+	local var_12_17 = arg_12_1:Find("Price/Text")
 
 	if arg_12_3 == var_0_0.GiftPackType.Money then
 		setActive(var_12_14, true)
@@ -289,15 +289,15 @@ function var_0_0.updatePack(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 		setImageSprite(var_12_16, LoadSprite(var_12_19), true)
 	end
 
-	local var_12_20 = arg_12_0:findTF("Mask", arg_12_1)
+	local var_12_20 = arg_12_1:Find("Mask")
 	local var_12_21 = arg_12_0:isBuyEver(arg_12_2.id)
 
 	setActive(var_12_20, var_12_21)
 
 	if var_12_21 then
-		local var_12_22 = arg_12_0:findTF("NextTime", var_12_20)
-		local var_12_23 = arg_12_0:findTF("Text", var_12_20)
-		local var_12_24 = arg_12_0:findTF("Sellout", var_12_20)
+		local var_12_22 = var_12_20:Find("NextTime")
+		local var_12_23 = var_12_20:Find("Text")
+		local var_12_24 = var_12_20:Find("Sellout")
 
 		if arg_12_0:isHaveNextPack(var_0_0.GiftPackTypeName[arg_12_3]) then
 			setActive(var_12_22, true)
@@ -541,6 +541,7 @@ function var_0_0.confirm(arg_30_0, arg_30_1)
 
 			local var_30_7 = {
 				isChargeType = true,
+				commodity = arg_30_1,
 				infoTip = arg_30_1:GetInfoTip(),
 				icon = "chargeicon/" .. arg_30_1:getConfig("picture"),
 				name = arg_30_1:getConfig("name_display"),
@@ -579,6 +580,7 @@ function var_0_0.confirm(arg_30_0, arg_30_1)
 
 			local var_30_10 = {
 				isChargeType = true,
+				commodity = arg_30_1,
 				icon = "chargeicon/" .. arg_30_1:getConfig("picture"),
 				name = arg_30_1:getConfig("name_display"),
 				price = arg_30_1:getConfig("money"),
@@ -623,6 +625,7 @@ function var_0_0.confirm(arg_30_0, arg_30_1)
 			isMonthCard = false,
 			isChargeType = false,
 			isLocalPrice = false,
+			commodity = arg_30_1,
 			icon = var_30_13.icon,
 			name = var_30_13.name,
 			tipExtra = i18n("charge_title_getitem"),

@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			subName = "货运管理员",
-			characterId = 100300,
-			say = "呼——！终于……都装好啦！",
-			animation = "rest",
+			characterId = 0,
+			say = "Stephen, you good?",
 			face2Face = {
 				{
 					0,
@@ -35,149 +33,56 @@ return {
 			}
 		},
 		{
-			animation = "nod",
+			animation = "rest",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "指挥官，多亏有你！不然我肯定要忙到晚上去了！",
+			subName = "Manager of Logistics",
+			say = "Whew... I'm finally done stacking everything.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "完成了就好，下次可别再逸过头了哦，斯蒂芬妮。",
+			subName = "Manager of Logistics",
+			characterId = 100300,
+			say = "And it's all thanks to you, Commander! If you weren't here, I'd be working well into the night!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
 			characterId = 0,
-			animation = "nod",
+			say = "Just don't take a day-long nap next time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "shy",
+			animation = "embarrass",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "知道啦知道啦~",
+			subName = "Manager of Logistics",
+			say = "I won't! Oh, right, that reminds me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "curious",
+			subName = "Manager of Logistics",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "对了指挥官！你听说了吗？那个宝藏岛！",
+			say = "Did you hear the rumor about Treasure Island?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，帕特莉刚才跟我说过……怎么，你也对寻宝感兴趣？",
+			say = "Yep. Patrick told me. You interested in treasure-hunting?",
 			characterId = 0,
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			characterId = 100300,
-			subName = "货运管理员",
-			say = "嗯嗯！那可是我跑远洋的时候看到的！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			animation = "talk",
-			characterId = 100300,
-			subName = "货运管理员",
-			say = "在东南方向的海域，真的有一座雾气缭绕、闪着金光的小岛！可神奇了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "sad",
-			characterId = 100300,
-			subName = "货运管理员",
-			say = "不过我一靠近，那岛周围的雾就会变得特别浓，还有奇怪的海流，怎么绕都绕不进去！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			subName = "货运管理员",
-			characterId = 100300,
-			say = "大家都说我是遇到了传说中的宝藏岛呢！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 0,
-			say = "宝藏岛……等财政稳定了，一定要想办法探索一番……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "sad",
-			characterId = 100300,
-			subName = "货运管理员",
-			say = "呜……指挥官你真是太专注眼前了~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			subName = "货运管理员",
-			characterId = 100300,
-			say = "光靠运这些木材和矿石，感觉还没到财政稳定，我就已经累倒在码头上了！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "嗯……有道理，目前岛上的产出确实太单一了些，很多生活物资都还需要港区来供给。",
-			characterId = 0,
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 0,
-			say = "仅仅是基础资源的话，利润太少了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			subName = "货运管理员",
-			characterId = 100300,
-			say = "欸？指挥官很缺钱吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "实不相瞒，缺、紧缺、特别缺……",
-			characterId = 0,
-			animation = "nod",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,33 +91,133 @@ return {
 		{
 			animation = "elation",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "如果是这样的话！指挥官可以考虑运送一些农作物！",
+			subName = "Manager of Logistics",
+			say = "Sure am! You won't believe what I saw while I was sailing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "货运管理员",
+			subName = "Manager of Logistics",
 			characterId = 100300,
-			say = "尤其是新鲜的水果和蔬菜！",
+			say = "Off to the southeast, there was an island shrouded in mist that glittered like gold! Like, actually glittering!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "货运管理员",
+			animation = "sad",
 			characterId = 100300,
-			say = "送到有些地方，价格能翻好几倍呢！可比运木头石头赚钱多了！",
+			subName = "Manager of Logistics",
+			say = "But, when I tried to get closer, the mist suddenly got thicker, and the currents started pushing against me! I couldn't get there no matter how I tried!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "……新鲜蔬果的运输时效要求可不低，不是现在港口的几艘小货船能——",
+			subName = "Manager of Logistics",
+			characterId = 100300,
+			say = "So everyone started saying that's gotta be the legendary Treasure Island.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "Interesting... I'd love to go and investigate it once our finances are more stable.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			characterId = 100300,
+			subName = "Manager of Logistics",
+			say = "Hrmh... You're only looking at the short term.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of Logistics",
+			characterId = 100300,
+			say = "I'll pass out from exhaustion before our finances stabilize if all we do is move wood and ore around!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			characterId = 0,
+			say = "Hmm... You have a point. The island's production is pretty limited, and we're still reliant on the port to provide us with many daily necessities.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "Raw resources alone don't bring in much profit, either.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Wait, are we THAT strapped for cash?",
+			characterId = 100300,
+			subName = "Manager of Logistics",
+			animation = "curious",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "To be frank, we're not just strapped, we're basically penniless.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of Logistics",
+			characterId = 100300,
+			say = "Have you thought about shipping agricultural products, then?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			characterId = 100300,
+			subName = "Manager of Logistics",
+			say = "Fresh fruit and vegetables, especially!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of Logistics",
+			characterId = 100300,
+			say = "You can fetch twice or more their regular price, depending on the location! They're way more profitable than wood and ore!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Shipping produce is a race against the clock. The small freighters we have now won't–",
 			characterId = 0,
 			animation = "shakehead",
 			typewriter = {
@@ -222,7 +227,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "等等，如果是通过奇异点运输的话好像还真行……或许……",
+			say = "No, wait, we might just be able to pull it off if we go through the Singularity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +235,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "（虽然风险也大一些，但利润确实可观……）",
+			say = "(There's some risk, but it's got a better return.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,16 +244,17 @@ return {
 		{
 			animation = "nod",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "对吧对吧！指挥官，要不要现在就去农场看看？我可以带路！顺便休息……呃……",
+			subName = "Manager of Logistics",
+			say = "Exactly! Follow me and I'll show you to the farm! While we're at it, let's stop and rest for– Err, never mind.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			say = "No, let's take a break. Just don't forget about the pine wood being delivered later.",
 			characterId = 0,
-			say = "顺便休息一下吧~就是别忘了等下还有堆松木料会送过来。",
+			animation = "talk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,17 +263,16 @@ return {
 		{
 			animation = "sad",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "好吧好吧……那我就边休息，边等工作……呜呜……",
+			subName = "Manager of Logistics",
+			say = "Got it. Then I'll take my break while waiting. *yawn*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "（农作物么……也许真是个突破口……至少比寻找宝藏岛实际一些。）",
 			characterId = 0,
-			animation = "nod",
+			say = "(Agricultural products... That might just be the breakthrough we need, and it's more realistic than looking for Treasure Island.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,9 +7,9 @@ end
 
 function var_0_0.OnInit(arg_2_0)
 	arg_2_0.config = pg.child_attr
-	arg_2_0.foldPanelTF = arg_2_0:findTF("fold_panel")
-	arg_2_0.showBtn = arg_2_0:findTF("show_btn", arg_2_0.foldPanelTF)
-	arg_2_0.showPanelTF = arg_2_0:findTF("show_panel")
+	arg_2_0.foldPanelTF = arg_2_0._tf:Find("fold_panel")
+	arg_2_0.showBtn = arg_2_0.foldPanelTF:Find("show_btn")
+	arg_2_0.showPanelTF = arg_2_0._tf:Find("show_panel")
 	arg_2_0.showAnim = arg_2_0.showPanelTF:GetComponent(typeof(Animation))
 	arg_2_0.showAnimEvent = arg_2_0.showPanelTF:GetComponent(typeof(DftAniEvent))
 
@@ -17,44 +17,43 @@ function var_0_0.OnInit(arg_2_0)
 		setActive(arg_2_0.showPanelTF, false)
 	end)
 
-	arg_2_0.blurBg = arg_2_0:findTF("panel", arg_2_0.showPanelTF)
-	arg_2_0.foldBtn = arg_2_0:findTF("fold_btn", arg_2_0.showPanelTF)
-	arg_2_0.pageSnap = arg_2_0:findTF("panel/event", arg_2_0.showPanelTF):GetComponent("HScrollSnap")
+	arg_2_0.blurBg = arg_2_0.showPanelTF:Find("panel")
+	arg_2_0.foldBtn = arg_2_0.showPanelTF:Find("fold_btn")
+	arg_2_0.pageSnap = arg_2_0.showPanelTF:Find("panel/event"):GetComponent("HScrollSnap")
 
 	arg_2_0.pageSnap:Init()
 
-	arg_2_0.page1 = arg_2_0:findTF("panel/event/content/page1", arg_2_0.showPanelTF)
+	arg_2_0.page1 = arg_2_0.showPanelTF:Find("panel/event/content/page1")
 
-	setText(arg_2_0:findTF("title/name_title/name", arg_2_0.page1), i18n("child_archive_name"))
-	setText(arg_2_0:findTF("attr_title/Text", arg_2_0.page1), i18n("child_attr_name1"))
-	setText(arg_2_0:findTF("buff_title/Text", arg_2_0.page1), i18n("child_buff_name"))
+	setText(arg_2_0.page1:Find("title/name_title/name"), i18n("child_archive_name"))
+	setText(arg_2_0.page1:Find("attr_title/Text"), i18n("child_attr_name1"))
+	setText(arg_2_0.page1:Find("buff_title/Text"), i18n("child_buff_name"))
 
-	arg_2_0.avatarImageTF = arg_2_0:findTF("title/avatar", arg_2_0.page1)
-	arg_2_0.attrsList1 = UIItemList.New(arg_2_0:findTF("attrs/content", arg_2_0.page1), arg_2_0:findTF("attrs/tpl", arg_2_0.page1))
-	arg_2_0.gradientBgTF = arg_2_0:findTF("attrs/bg_gradient", arg_2_0.page1)
-	arg_2_0.buffContentTF = arg_2_0:findTF("buff/content", arg_2_0.page1)
-	arg_2_0.buffItemList = UIItemList.New(arg_2_0:findTF("buff/content/content", arg_2_0.page1), arg_2_0:findTF("buff/tpl", arg_2_0.page1))
-	arg_2_0.buffLockTF = arg_2_0:findTF("buff/lock", arg_2_0.page1)
-	arg_2_0.page2 = arg_2_0:findTF("panel/event/content/page2", arg_2_0.showPanelTF)
+	arg_2_0.avatarImageTF = arg_2_0.page1:Find("title/avatar")
+	arg_2_0.attrsList1 = UIItemList.New(arg_2_0.page1:Find("attrs/content"), arg_2_0.page1:Find("attrs/tpl"))
+	arg_2_0.gradientBgTF = arg_2_0.page1:Find("attrs/bg_gradient")
+	arg_2_0.buffContentTF = arg_2_0.page1:Find("buff/content")
+	arg_2_0.buffItemList = UIItemList.New(arg_2_0.page1:Find("buff/content/content"), arg_2_0.page1:Find("buff/tpl"))
+	arg_2_0.buffLockTF = arg_2_0.page1:Find("buff/lock")
+	arg_2_0.page2 = arg_2_0.showPanelTF:Find("panel/event/content/page2")
 
-	setText(arg_2_0:findTF("attr_title/Text", arg_2_0.page2), i18n("child_attr_name2"))
+	setText(arg_2_0.page2:Find("attr_title/Text"), i18n("child_attr_name2"))
 
-	arg_2_0.attr3UnlockTF = arg_2_0:findTF("attrs/unlock", arg_2_0.page2)
-	arg_2_0.attr3LockTF = arg_2_0:findTF("attrs/lock", arg_2_0.page2)
-	arg_2_0.attrsList2 = UIItemList.New(arg_2_0:findTF("content", arg_2_0.attr3UnlockTF), arg_2_0:findTF("tpl", arg_2_0.attr3UnlockTF))
-	arg_2_0.attr2UnlockTF = arg_2_0:findTF("nature/unlock", arg_2_0.page2)
-	arg_2_0.attr2LockTF = arg_2_0:findTF("nature/lock", arg_2_0.page2)
-	arg_2_0.natureContent = arg_2_0:findTF("content", arg_2_0.attr2UnlockTF)
-	arg_2_0.avatarTF = arg_2_0:findTF("avatar", arg_2_0.page2)
+	arg_2_0.attr3UnlockTF = arg_2_0.page2:Find("attrs/unlock")
+	arg_2_0.attr3LockTF = arg_2_0.page2:Find("attrs/lock")
+	arg_2_0.attrsList2 = UIItemList.New(arg_2_0.attr3UnlockTF:Find("content"), arg_2_0.attr3UnlockTF:Find("tpl"))
+	arg_2_0.attr2UnlockTF = arg_2_0.page2:Find("nature/unlock")
+	arg_2_0.attr2LockTF = arg_2_0.page2:Find("nature/lock")
+	arg_2_0.natureContent = arg_2_0.attr2UnlockTF:Find("content")
+	arg_2_0.avatarTF = arg_2_0.page2:Find("avatar")
 
 	arg_2_0:addListener()
 	arg_2_0:initAttrsPanel()
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_2_0._tf, {
+	arg_2_0:OverlayPanel(arg_2_0._tf, {
+		groupDelta = -1,
 		pbList = {
 			arg_2_0.blurBg
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER - 1
+		}
 	})
 	setActive(arg_2_0.foldPanelTF, true)
 	setActive(arg_2_0.showPanelTF, false)
@@ -112,27 +111,27 @@ function var_0_0.updateAttr1Item(arg_14_0, arg_14_1, arg_14_2)
 	local var_14_0 = arg_14_0.char:GetAttrGroupByType(EducateChar.ATTR_TYPE_MAJOR)[arg_14_1 + 1][1]
 	local var_14_1 = arg_14_0.config[var_14_0]
 
-	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. var_14_0, arg_14_0:findTF("icon_bg/icon", arg_14_2), true)
-	setScrollText(arg_14_0:findTF("name_mask/name", arg_14_2), var_14_1.name)
+	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. var_14_0, arg_14_2:Find("icon_bg/icon"), true)
+	setScrollText(arg_14_2:Find("name_mask/name"), var_14_1.name)
 
 	local var_14_2, var_14_3 = arg_14_0.char:GetAttrInfo(var_14_0)
 
-	setText(arg_14_0:findTF("grade/Text", arg_14_2), var_14_2)
-	setText(arg_14_0:findTF("value", arg_14_2), var_14_3)
+	setText(arg_14_2:Find("grade/Text"), var_14_2)
+	setText(arg_14_2:Find("value"), var_14_3)
 
 	local var_14_4 = EducateConst.GRADE_2_COLOR[var_14_2][1]
 	local var_14_5 = EducateConst.GRADE_2_COLOR[var_14_2][2]
 	local var_14_6 = arg_14_0.gradientBgTF:GetChild(arg_14_1)
 
 	setImageColor(var_14_6, Color.NewHex(var_14_4))
-	setImageColor(arg_14_0:findTF("grade", arg_14_2), Color.NewHex(var_14_5))
+	setImageColor(arg_14_2:Find("grade"), Color.NewHex(var_14_5))
 end
 
 function var_0_0.updateBuffItem(arg_15_0, arg_15_1, arg_15_2)
 	local var_15_0 = arg_15_0.buffList[arg_15_1 + 1]
 
-	LoadImageSpriteAsync("educateprops/" .. var_15_0:getConfig("icon"), arg_15_0:findTF("icon", arg_15_2))
-	setText(arg_15_0:findTF("time/Text", arg_15_2), var_15_0:GetReaminWeek() .. i18n("word_week"))
+	LoadImageSpriteAsync("educateprops/" .. var_15_0:getConfig("icon"), arg_15_2:Find("icon"))
+	setText(arg_15_2:Find("time/Text"), var_15_0:GetReaminWeek() .. i18n("word_week"))
 	onButton(arg_15_0, arg_15_2, function()
 		arg_15_0:showBuffBox(var_15_0.id)
 	end, SFX_PANEL)
@@ -152,9 +151,9 @@ function var_0_0.updateAttr2Item(arg_18_0, arg_18_1, arg_18_2)
 	local var_18_0 = arg_18_0.char:GetAttrGroupByType(EducateChar.ATTR_TYPE_MINOR)[arg_18_1 + 1][1]
 	local var_18_1 = arg_18_0.config[var_18_0]
 
-	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. var_18_0, arg_18_0:findTF("icon", arg_18_2), true)
-	setText(arg_18_0:findTF("name", arg_18_2), var_18_1.name)
-	setText(arg_18_0:findTF("value", arg_18_2), arg_18_0.char:GetAttrById(var_18_0))
+	GetImageSpriteFromAtlasAsync("ui/educatecommonui_atlas", "attr_" .. var_18_0, arg_18_2:Find("icon"), true)
+	setText(arg_18_2:Find("name"), var_18_1.name)
+	setText(arg_18_2:Find("value"), arg_18_0.char:GetAttrById(var_18_0))
 end
 
 function var_0_0.updateNature(arg_19_0)
@@ -163,7 +162,7 @@ function var_0_0.updateNature(arg_19_0)
 
 		var_19_0.name = iter_19_1[1]
 
-		setScrollText(arg_19_0:findTF("Text", var_19_0), arg_19_0.config[iter_19_1[1]].name .. " " .. iter_19_1[2])
+		setScrollText(var_19_0:Find("Text"), arg_19_0.config[iter_19_1[1]].name .. " " .. iter_19_1[2])
 	end
 end
 
@@ -186,8 +185,8 @@ function var_0_0.Flush(arg_20_0)
 
 	setImageSprite(arg_20_0.avatarImageTF, LoadSprite("educateavatar/" .. var_20_0), true)
 	arg_20_0:updateNature()
-	setImageSprite(arg_20_0:findTF("mask/Image", arg_20_0.avatarTF), LoadSprite("squareicon/" .. var_20_0), true)
-	setText(arg_20_0:findTF("title/name/Text", arg_20_0.page1), arg_20_0.char:GetName())
+	setImageSprite(arg_20_0.avatarTF:Find("mask/Image"), LoadSprite("squareicon/" .. var_20_0), true)
+	setText(arg_20_0.page1:Find("title/name/Text"), arg_20_0.char:GetName())
 
 	local var_20_1 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_BUFF)
 
@@ -206,14 +205,14 @@ function var_0_0.Flush(arg_20_0)
 
 	local var_20_4 = var_20_3
 
-	setActive(arg_20_0:findTF("pagination", arg_20_0.showPanelTF), var_20_4)
+	setActive(arg_20_0.showPanelTF:Find("pagination"), var_20_4)
 	setActive(arg_20_0.page2, var_20_4)
 
 	arg_20_0.pageSnap.enabled = var_20_4
 end
 
 function var_0_0.OnDestroy(arg_21_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf)
+	arg_21_0:UnOverlayPanel(arg_21_0._tf)
 end
 
 return var_0_0

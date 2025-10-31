@@ -5,7 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.tip = arg_2_0:findTF("tip")
+	arg_2_0.tip = arg_2_0._tf:Find("tip")
 end
 
 function var_0_0.OnInit(arg_3_0)

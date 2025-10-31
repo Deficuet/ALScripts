@@ -85,7 +85,7 @@ function var_0_0.DelFile(arg_9_0, arg_9_1)
 		var_9_1[iter_9_0] = arg_9_1[iter_9_0 + 1]
 	end
 
-	HotfixerHelper.DeleteFileByShortPathArr(var_0_0.GroupName, var_9_1)
+	HotfixHelper.DeleteFileByShortPathArr(var_0_0.GroupName, var_9_1)
 end
 
 function var_0_0.DelFile_Old(arg_10_0, arg_10_1)

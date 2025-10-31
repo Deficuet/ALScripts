@@ -26,9 +26,9 @@ function var_0_0.OnLoaded(arg_2_0)
 		removeOnButton(arg_6_1)
 	end
 
-	arg_2_0.cancelBtn = arg_2_0:findTF("frame/cancel_button")
-	arg_2_0.backBtn = arg_2_0:findTF("frame/top/btnBack")
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/confirm_button")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("frame/cancel_button")
+	arg_2_0.backBtn = arg_2_0._tf:Find("frame/top/btnBack")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/confirm_button")
 
 	setText(arg_2_0._tf:Find("frame/bg_award/label"), i18n("disassemble_available") .. ":")
 
@@ -118,12 +118,12 @@ end
 
 function var_0_0.Show(arg_20_0)
 	var_0_0.super.Show(arg_20_0)
-	pg.UIMgr:GetInstance():BlurPanel(arg_20_0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(arg_20_0._tf)
 end
 
 function var_0_0.Hide(arg_21_0)
 	var_0_0.super.Hide(arg_21_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_21_0._tf, arg_21_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf, arg_21_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_22_0)

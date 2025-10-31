@@ -6,9 +6,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.counterTxt = arg_2_0:findTF("frame/top/value/Text"):GetComponent(typeof(Text))
-	arg_2_0.cardContainer = arg_2_0:findTF("frame/panel")
-	arg_2_0.mainPanel = arg_2_0:findTF("frame")
+	arg_2_0.counterTxt = arg_2_0._tf:Find("frame/top/value/Text"):GetComponent(typeof(Text))
+	arg_2_0.cardContainer = arg_2_0._tf:Find("frame/panel")
+	arg_2_0.mainPanel = arg_2_0._tf:Find("frame")
 	arg_2_0.addShipTpl = arg_2_0.cardContainer:Find("AddShipTpl")
 	arg_2_0.extendShipTpl = arg_2_0.cardContainer:Find("ExtendShipTpl")
 	arg_2_0.shipCardTpl = arg_2_0.cardContainer:Find("ShipCardTpl")
@@ -20,7 +20,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.cardContainer = arg_2_0.cardContainer:Find("Scroll View/Content")
 	arg_2_0.shipCards = {}
 
-	setText(arg_2_0:findTF("frame/desc"), i18n("hotspring_tip1"))
+	setText(arg_2_0._tf:Find("frame/desc"), i18n("hotspring_tip1"))
 end
 
 function var_0_0.SetActivity(arg_3_0, arg_3_1)
@@ -34,17 +34,15 @@ function var_0_0.didEnter(arg_4_0)
 	end, SFX_PANEL)
 
 	local function var_4_0(arg_6_0)
-		setActive(arg_4_0:findTF("frame/panel/ArrowRight"), arg_6_0.x < 0.01)
-		setActive(arg_4_0:findTF("frame/panel/ArrowLeft"), arg_6_0.x > 0.99)
+		setActive(arg_4_0._tf:Find("frame/panel/ArrowRight"), arg_6_0.x < 0.01)
+		setActive(arg_4_0._tf:Find("frame/panel/ArrowLeft"), arg_6_0.x > 0.99)
 	end
 
 	onScroll(arg_4_0, arg_4_0.cardContainer.parent, var_4_0)
 	var_4_0({
 		x = 0
 	})
-	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf, false, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	arg_4_0:BlurPanel(arg_4_0._tf)
 	arg_4_0:UpdateSlots()
 end
 
@@ -166,7 +164,7 @@ function var_0_0.CleanCards(arg_14_0)
 end
 
 function var_0_0.willExit(arg_16_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_16_0._tf)
+	arg_16_0:UnOverlayPanel(arg_16_0._tf)
 	arg_16_0:CleanCards()
 end
 

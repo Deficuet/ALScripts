@@ -6961,7 +6961,270 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_583_1_1",
 		"op_reply_583_1_1",
 		"ins_op_583_1_2",
-		"op_reply_583_1_2"
+		"op_reply_583_1_2",
+		"ins_584",
+		"ins_discuss_584_1",
+		"ins_reply_584_1_1",
+		"ins_discuss_584_2",
+		"ins_reply_584_2_1",
+		"ins_reply_584_2_2",
+		"ins_reply_584_2_3",
+		"ins_reply_584_2_4",
+		"ins_op_584_1_1",
+		"op_reply_584_1_1",
+		"ins_op_584_1_2",
+		"op_reply_584_1_2",
+		"ins_585",
+		"ins_discuss_585_1",
+		"ins_reply_585_1_1",
+		"ins_discuss_585_2",
+		"ins_reply_585_2_1",
+		"ins_reply_585_2_2",
+		"ins_op_585_1_1",
+		"op_reply_585_1_1",
+		"ins_op_585_1_2",
+		"op_reply_585_1_2",
+		"ins_586",
+		"ins_discuss_586_1",
+		"ins_reply_586_1_1",
+		"ins_discuss_586_2",
+		"ins_reply_586_2_1",
+		"ins_reply_586_2_2",
+		"ins_discuss_586_3",
+		"ins_reply_586_3_1",
+		"ins_reply_586_3_2",
+		"ins_op_586_1_1",
+		"op_reply_586_1_1",
+		"ins_op_586_1_2",
+		"op_reply_586_1_2",
+		"ins_587",
+		"ins_discuss_587_1",
+		"ins_reply_587_1_1",
+		"ins_reply_587_1_2",
+		"ins_reply_587_1_3",
+		"ins_discuss_587_2",
+		"ins_reply_587_2_1",
+		"ins_reply_587_2_2",
+		"ins_reply_587_2_3",
+		"ins_reply_587_2_4",
+		"ins_op_587_1_1",
+		"op_reply_587_1_1",
+		"ins_op_587_1_2",
+		"op_reply_587_1_2",
+		"ins_588",
+		"ins_discuss_588_1",
+		"ins_reply_588_1_1",
+		"ins_reply_588_1_2",
+		"ins_discuss_588_2",
+		"ins_reply_588_2_1",
+		"ins_reply_588_2_2",
+		"ins_op_588_1_1",
+		"op_reply_588_1_1",
+		"ins_op_588_1_2",
+		"op_reply_588_1_2",
+		"ins_589",
+		"ins_discuss_589_1",
+		"ins_reply_589_1_1",
+		"ins_reply_589_1_2",
+		"ins_reply_589_1_3",
+		"ins_discuss_589_2",
+		"ins_reply_589_2_1",
+		"ins_reply_589_2_2",
+		"ins_op_589_1_1",
+		"op_reply_589_1_1",
+		"ins_op_589_1_2",
+		"op_reply_589_1_2",
+		"ins_590",
+		"ins_discuss_590_1",
+		"ins_reply_590_1_1",
+		"ins_reply_590_1_2",
+		"ins_discuss_590_2",
+		"ins_reply_590_2_1",
+		"ins_reply_590_2_2",
+		"ins_op_590_1_1",
+		"op_reply_590_1_1",
+		"ins_op_590_1_2",
+		"op_reply_590_1_2",
+		"ins_591",
+		"ins_discuss_591_1",
+		"ins_reply_591_1_1",
+		"ins_reply_591_1_2",
+		"ins_reply_591_1_3",
+		"ins_discuss_591_2",
+		"ins_reply_591_2_1",
+		"ins_reply_591_2_2",
+		"ins_reply_591_2_3",
+		"ins_op_591_1_1",
+		"op_reply_591_1_1",
+		"ins_op_591_1_2",
+		"op_reply_591_1_2",
+		"ins_592",
+		"ins_discuss_592_1",
+		"ins_reply_592_1_1",
+		"ins_reply_592_1_2",
+		"ins_reply_592_1_3",
+		"ins_reply_592_1_4",
+		"ins_discuss_592_2",
+		"ins_reply_592_2_1",
+		"ins_reply_592_2_2",
+		"ins_reply_592_2_3",
+		"ins_reply_592_2_4",
+		"ins_reply_592_2_5",
+		"ins_op_592_1_1",
+		"op_reply_592_1_1",
+		"ins_op_592_1_2",
+		"op_reply_592_1_2",
+		"ins_593",
+		"ins_discuss_593_1",
+		"ins_reply_593_1_1",
+		"ins_reply_593_1_2",
+		"ins_reply_593_1_3",
+		"ins_reply_593_1_4",
+		"ins_discuss_593_2",
+		"ins_reply_593_2_1",
+		"ins_reply_593_2_2",
+		"ins_reply_593_2_3",
+		"ins_reply_593_2_4",
+		"ins_op_593_1_1",
+		"op_reply_593_1_1",
+		"ins_op_593_1_2",
+		"op_reply_593_1_2",
+		"ins_594",
+		"ins_discuss_594_1",
+		"ins_reply_594_1_1",
+		"ins_reply_594_1_2",
+		"ins_reply_594_1_3",
+		"ins_discuss_594_2",
+		"ins_reply_594_2_1",
+		"ins_reply_594_2_2",
+		"ins_reply_594_2_3",
+		"ins_reply_594_2_4",
+		"ins_reply_594_2_5",
+		"ins_op_594_1_1",
+		"op_reply_594_1_1",
+		"ins_op_594_1_2",
+		"op_reply_594_1_2",
+		"ins_595",
+		"ins_discuss_595_1",
+		"ins_reply_595_1_1",
+		"ins_reply_595_1_2",
+		"ins_reply_595_1_3",
+		"ins_reply_595_1_4",
+		"ins_reply_595_1_5",
+		"ins_discuss_595_2",
+		"ins_reply_595_2_1",
+		"ins_reply_595_2_2",
+		"ins_op_595_1_1",
+		"op_reply_595_1_1",
+		"ins_op_595_1_2",
+		"op_reply_595_1_2",
+		"ins_596",
+		"ins_discuss_596_1",
+		"ins_reply_596_1_1",
+		"ins_reply_596_1_2",
+		"ins_reply_596_1_3",
+		"ins_discuss_596_2",
+		"ins_reply_596_2_1",
+		"ins_reply_596_2_2",
+		"ins_reply_596_2_3",
+		"ins_reply_596_2_4",
+		"ins_op_596_1_1",
+		"op_reply_596_1_1",
+		"ins_op_596_1_2",
+		"op_reply_596_1_2",
+		"ins_597",
+		"ins_discuss_597_1",
+		"ins_reply_597_1_1",
+		"ins_reply_597_1_2",
+		"ins_reply_597_1_3",
+		"ins_discuss_597_2",
+		"ins_reply_597_2_1",
+		"ins_reply_597_2_2",
+		"ins_reply_597_2_3",
+		"ins_op_597_1_1",
+		"op_reply_597_1_1",
+		"ins_op_597_1_2",
+		"op_reply_597_1_2",
+		"ins_598",
+		"ins_discuss_598_1",
+		"ins_reply_598_1_1",
+		"ins_discuss_598_2",
+		"ins_reply_598_2_1",
+		"ins_reply_598_2_2",
+		"ins_reply_598_2_3",
+		"ins_reply_598_2_4",
+		"ins_reply_598_2_5",
+		"ins_reply_598_2_6",
+		"ins_op_598_1_1",
+		"op_reply_598_1_1",
+		"ins_op_598_1_2",
+		"op_reply_598_1_2",
+		"ins_599",
+		"ins_discuss_599_1",
+		"ins_reply_599_1_1",
+		"ins_reply_599_1_2",
+		"ins_reply_599_1_3",
+		"ins_discuss_599_2",
+		"ins_reply_599_2_1",
+		"ins_reply_599_2_2",
+		"ins_reply_599_2_3",
+		"ins_op_599_1_1",
+		"op_reply_599_1_1",
+		"ins_op_599_1_2",
+		"op_reply_599_1_2",
+		"ins_600",
+		"ins_discuss_600_1",
+		"ins_reply_600_1_1",
+		"ins_reply_600_1_2",
+		"ins_reply_600_1_3",
+		"ins_reply_600_1_4",
+		"ins_discuss_600_2",
+		"ins_reply_600_2_1",
+		"ins_reply_600_2_2",
+		"ins_reply_600_2_3",
+		"ins_op_600_1_1",
+		"op_reply_600_1_1",
+		"ins_op_600_1_2",
+		"op_reply_600_1_2",
+		"ins_601",
+		"ins_discuss_601_1",
+		"ins_reply_601_1_1",
+		"ins_reply_601_1_2",
+		"ins_reply_601_1_3",
+		"ins_reply_601_1_4",
+		"ins_discuss_601_2",
+		"ins_reply_601_2_1",
+		"ins_reply_601_2_2",
+		"ins_reply_601_2_3",
+		"ins_op_601_1_1",
+		"op_reply_601_1_1",
+		"ins_op_601_1_2",
+		"op_reply_601_1_2",
+		"ins_602",
+		"ins_discuss_602_1",
+		"ins_reply_602_1_1",
+		"ins_reply_602_1_2",
+		"ins_discuss_602_2",
+		"ins_reply_602_2_1",
+		"ins_reply_602_2_2",
+		"ins_op_602_1_1",
+		"op_reply_602_1_1",
+		"ins_op_602_1_2",
+		"op_reply_602_1_2",
+		"ins_603",
+		"ins_discuss_603_1",
+		"ins_reply_603_1_1",
+		"ins_reply_603_1_2",
+		"ins_reply_603_1_3",
+		"ins_discuss_603_2",
+		"ins_reply_603_2_1",
+		"ins_reply_603_2_2",
+		"ins_reply_603_2_3",
+		"ins_reply_603_2_4",
+		"ins_op_603_1_1",
+		"op_reply_603_1_1",
+		"ins_op_603_1_2",
+		"op_reply_603_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -27616,234 +27879,1023 @@ pg.base.activity_ins_language = {
 		value = "I can? Thank you so much."
 	},
 	ins_578 = {
-		value = ""
+		value = "It's got to be harvest season right?"
 	},
 	ins_discuss_578_1 = {
-		value = ""
+		value = "Plenty to eat without having to move an inch. Sounds like heaven."
 	},
 	ins_reply_578_1_1 = {
-		value = ""
+		value = "I just wonder why there's always food falling from the trees"
 	},
 	ins_reply_578_1_2 = {
-		value = ""
+		value = "That's a lie... I spent the whole day under a tree and nothing fell out of it..."
 	},
 	ins_discuss_578_2 = {
-		value = ""
+		value = "You can find good food anywhere you go. How about coming along on a camping trip with me to prove it?"
 	},
 	ins_reply_578_2_1 = {
-		value = ""
+		value = "I can't get delicious cake while on a camping trip though"
 	},
 	ins_reply_578_2_2 = {
-		value = ""
+		value = "You won't find vending machines that spit out a ton of drinks out in the wild either"
 	},
 	ins_reply_578_2_3 = {
-		value = ""
+		value = "Vending machines spitting out a ton of drinks, you say? @Akashi"
 	},
 	ins_reply_578_2_4 = {
-		value = ""
+		value = "Nya? What's going on here, nya?"
 	},
 	ins_op_578_1_1 = {
-		value = ""
+		value = "We could always bring food with us on a camping trip."
 	},
 	op_reply_578_1_1 = {
-		value = ""
+		value = "Alright then you can have my leftover apples"
 	},
 	ins_op_578_1_2 = {
-		value = ""
+		value = "Did an apple fall on your head and give you a realization?"
 	},
 	op_reply_578_1_2 = {
-		value = ""
+		value = "Yeah it made me realize that I want some apple pie"
 	},
 	ins_579 = {
-		value = ""
+		value = "I've seen the Commander's sleep data for the month and it's... concerning."
 	},
 	ins_discuss_579_1 = {
-		value = ""
+		value = "I'm worried for the Commander's health..."
 	},
 	ins_reply_579_1_1 = {
-		value = ""
+		value = "More precise health management instructions are clearly needed. I'll devise a plan even if it means working overtime."
 	},
 	ins_reply_579_1_2 = {
-		value = ""
+		value = "Sounds like it's time to go on an adventure!"
 	},
 	ins_discuss_579_2 = {
-		value = ""
+		value = "I've got an idea: a no work month. What do you all think?"
 	},
 	ins_reply_579_2_1 = {
-		value = ""
+		value = "In theory, I like it. What will happen to all the Commander's work during that time, though?"
 	},
 	ins_reply_579_2_2 = {
-		value = ""
+		value = "Let a group of secretaries handle it. Should be fine."
 	},
 	ins_reply_579_2_3 = {
-		value = ""
+		value = "I'm not so sure that will work."
 	},
 	ins_reply_579_2_4 = {
-		value = ""
+		value = "Magnificent! I approve! This idea has my full support!"
 	},
 	ins_op_579_1_1 = {
-		value = ""
+		value = "Look at the yearly and quarterly data, though."
 	},
 	op_reply_579_1_1 = {
-		value = ""
+		value = "I have looked at them, and it's only getting worse. You need to rest at once!"
 	},
 	ins_op_579_1_2 = {
-		value = ""
+		value = "I'm testing a flexible sleep schedule right now."
 	},
 	op_reply_579_1_2 = {
-		value = ""
+		value = "You call it \\\"flexible\\\" to do constant overtime with zero catching up on sleep?"
 	},
 	ins_580 = {
-		value = ""
+		value = "i cant get the cap off this bottle..."
 	},
 	ins_discuss_580_1 = {
-		value = ""
+		value = "Neither could I! I need someone strong like my Commander to do it for me!"
 	},
 	ins_reply_580_1_1 = {
-		value = ""
+		value = "I've spent all my energy... drinking water on your own is more laborious than I thought"
 	},
 	ins_reply_580_1_2 = {
-		value = ""
+		value = "Can't get your bottle open, nya? Then you need Akashi's One-Tap Cap Opener, nya!"
 	},
 	ins_reply_580_1_3 = {
-		value = ""
+		value = "No one asked, Akashi."
 	},
 	ins_discuss_580_2 = {
-		value = ""
+		value = "You poor thing! Want me to help you with that, Hardi?"
 	},
 	ins_reply_580_2_1 = {
-		value = ""
+		value = "thanks but this thing is really really hard to get open... we need to get the commander for this one"
 	},
 	ins_reply_580_2_2 = {
-		value = ""
+		value = "No worries, I've brought that cap opener thing Akashi talked about. I'm sure it'll work!"
 	},
 	ins_reply_580_2_3 = {
-		value = ""
+		value = "fiiine if you insist..."
 	},
 	ins_op_580_1_1 = {
-		value = ""
+		value = "Opening bottles is my forte. Call me the de-cap-itator."
 	},
 	op_reply_580_1_1 = {
-		value = ""
+		value = "heheh i knew youd be too nice to ignore weak little hardi"
 	},
 	ins_op_580_1_2 = {
-		value = ""
+		value = "Have you considered trying the water cooler?"
 	},
 	op_reply_580_1_2 = {
-		value = ""
+		value = "you mean... getting water all by myself? thats asking a lot from a weak girl like me..."
 	},
 	ins_581 = {
-		value = ""
+		value = "Let us be off on a journey."
 	},
 	ins_discuss_581_1 = {
-		value = ""
+		value = "Where are you going?"
 	},
 	ins_reply_581_1_1 = {
-		value = ""
+		value = "To a land of juice and soda in endless supply."
 	},
 	ins_reply_581_1_2 = {
-		value = ""
+		value = "Sounds too good to be true!"
 	},
 	ins_reply_581_1_3 = {
-		value = ""
+		value = "Sounds just like the port to me"
 	},
 	ins_discuss_581_2 = {
-		value = ""
+		value = "Guess who's just getting ready for her next outing. We should just go together."
 	},
 	ins_reply_581_2_1 = {
-		value = ""
+		value = "Let me join y'all. Circumstances permitting, we can go into the wilderness on horseback."
 	},
 	ins_reply_581_2_2 = {
-		value = ""
+		value = "Excellent. Let us do that."
 	},
 	ins_reply_581_2_3 = {
-		value = ""
+		value = "Heck yeah! Adventure time! Adventure time!"
 	},
 	ins_op_581_1_1 = {
-		value = ""
+		value = "Just one minute left until work's over!"
 	},
 	op_reply_581_1_1 = {
-		value = ""
+		value = "I can wait scarcely any longer."
 	},
 	ins_op_581_1_2 = {
-		value = ""
+		value = "My body is in the office, but my soul..."
 	},
 	op_reply_581_1_2 = {
-		value = ""
+		value = "Your soul is already off on a journey afar."
 	},
 	ins_582 = {
-		value = ""
+		value = "Look how many impurities have accumulated!"
 	},
 	ins_discuss_582_1 = {
-		value = ""
+		value = "(Created with voice input) Impure tees all look tasty"
 	},
 	ins_reply_582_1_1 = {
-		value = ""
+		value = "These are not to be eaten, child. This nun shall take care of them for you."
 	},
 	ins_reply_582_1_2 = {
-		value = ""
+		value = "That's right. Things tarnished with evil must be disposed of using the proper means."
 	},
 	ins_discuss_582_2 = {
-		value = ""
+		value = "How could we end up with so many impure things? It's a bit concerning."
 	},
 	ins_reply_582_2_1 = {
-		value = ""
+		value = "The store was afflicted with a curse for the longest time, and I've been given the task of purifying it."
 	},
 	ins_reply_582_2_2 = {
-		value = ""
+		value = "Thanks for clearing out my whole stock, nya! Come back any time, nya."
 	},
 	ins_op_582_1_1 = {
-		value = ""
+		value = "So... are you bringing them somewhere to purify them?"
 	},
 	op_reply_582_1_1 = {
-		value = ""
+		value = "Yes. If you have anything that needs purifying, present it now!"
 	},
 	ins_op_582_1_2 = {
-		value = ""
+		value = "Looks like fun! I want in on that!"
 	},
 	op_reply_582_1_2 = {
-		value = ""
+		value = "Very well! Let us do it together next time!"
 	},
 	ins_583 = {
-		value = ""
+		value = "Maintaining this new gear demands extreme care and close attention..."
 	},
 	ins_discuss_583_1 = {
-		value = ""
+		value = "Seems getting stronger didn't get to your head one bit. That's what I like to see."
 	},
 	ins_reply_583_1_1 = {
-		value = ""
+		value = "Thanks for the kind words, Enterprise. I'll strive to set an example for others!"
 	},
 	ins_discuss_583_2 = {
-		value = ""
+		value = "Remember to breathe, lest your concentration make you forget."
 	},
 	ins_reply_583_2_1 = {
-		value = ""
+		value = "According to my analysis, holding your breath can reduce hand shakiness by a predicted 46.75%."
 	},
 	ins_reply_583_2_2 = {
-		value = ""
+		value = "I... I tried to, but I just ended up getting dizzy."
 	},
 	ins_discuss_583_3 = {
-		value = ""
+		value = "Maintenance, eh? I have an extremely professional approach to precisely that!"
 	},
 	ins_reply_583_3_1 = {
-		value = ""
+		value = "I'd love some pointers, if you have any!"
 	},
 	ins_reply_583_3_2 = {
-		value = ""
+		value = "Just entrust the whole task to me! I'll even install a high-yield explosive function for no extra charge!"
 	},
 	ins_reply_583_3_3 = {
-		value = ""
+		value = "Sounds... extraordinary, I guess?"
 	},
 	ins_op_583_1_1 = {
-		value = ""
+		value = "I believe in you, Essex! Show us why you're the GOAT!"
 	},
 	op_reply_583_1_1 = {
-		value = ""
+		value = "With the power of a retrofit now at my disposal, I'll stop at nothing to live up to your hopes!"
 	},
 	ins_op_583_1_2 = {
-		value = ""
+		value = "Haven't you already polished it to a mirror sheen?"
 	},
 	op_reply_583_1_2 = {
+		value = "It's still not enough! My equipment must be maintained to the highest possible degree!"
+	},
+	ins_584 = {
+		value = "Ah, what fragrance shall I use today?"
+	},
+	ins_discuss_584_1 = {
+		value = "Fragrance? More like stench. Someone should open the window and let in fresh air!"
+	},
+	ins_reply_584_1_1 = {
+		value = "Ahaha, goodness knows you could use a fumigation, my sister."
+	},
+	ins_discuss_584_2 = {
+		value = "Can you make incense that smells like snacks?"
+	},
+	ins_reply_584_2_1 = {
+		value = "Snack squad, let's hear some suggestions!"
+	},
+	ins_reply_584_2_2 = {
+		value = "I want one that smells like crisps!"
+	},
+	ins_reply_584_2_3 = {
+		value = "One that smells like discounted potato chips would be better!"
+	},
+	ins_reply_584_2_4 = {
+		value = "Discounted? Is that some kind of limited edition flavor?"
+	},
+	ins_op_584_1_1 = {
+		value = "Didn't know you used a new one every day."
+	},
+	op_reply_584_1_1 = {
+		value = "Yes, I modify my incense to better suit your mood, Commander."
+	},
+	ins_op_584_1_2 = {
+		value = "Smells nice."
+	},
+	op_reply_584_1_2 = {
+		value = "Ah, you cannot fathom how much it delights me to hear you enjoy my hand-made incense, Commander."
+	},
+	ins_585 = {
+		value = "Behold my sublime underwater combat training!"
+	},
+	ins_discuss_585_1 = {
+		value = "Looks less like combat training and more like dance practice!"
+	},
+	ins_reply_585_1_1 = {
+		value = "That is because my fighting style is sublime by necessity!"
+	},
+	ins_discuss_585_2 = {
+		value = "Magnifique! Underwater dancing has a completely different vibe to dancing on land!"
+	},
+	ins_reply_585_2_1 = {
+		value = "Indeed. The water makes your moves so much more graceful."
+	},
+	ins_reply_585_2_2 = {
+		value = "You should join me for a group dance!"
+	},
+	ins_op_585_1_1 = {
+		value = "Such elegance, sublimity, and impact!"
+	},
+	op_reply_585_1_1 = {
+		value = "I have some even sublimer moves if you'll lend an eye, Commander"
+	},
+	ins_op_585_1_2 = {
+		value = "Nice work. Stay diligent."
+	},
+	op_reply_585_1_2 = {
+		value = "How about you come with me and we do a live exercise sometime, huh?"
+	},
+	ins_586 = {
+		value = "Let's enjoy the finer things to our heart's content: a boat ride on the lake, drinks, and poetry."
+	},
+	ins_discuss_586_1 = {
+		value = "An outdoor study that carries you with the flow... That sounds nice."
+	},
+	ins_reply_586_1_1 = {
+		value = "If you wish to join me, you're welcome to~"
+	},
+	ins_discuss_586_2 = {
+		value = "Another nice thing you can do is read while exercising!"
+	},
+	ins_reply_586_2_1 = {
+		value = "For reference, I, Z1, have already done that!"
+	},
+	ins_reply_586_2_2 = {
+		value = "Has anyone thought of simply, well, reading in a library?"
+	},
+	ins_discuss_586_3 = {
+		value = "How many drinks should it take to content one heart?"
+	},
+	ins_reply_586_3_1 = {
+		value = "Let's find out. Can I participate with my juice?"
+	},
+	ins_reply_586_3_2 = {
+		value = "Just to be safe, I think we should put a medical team on standby..."
+	},
+	ins_op_586_1_1 = {
+		value = "Are you lost? I'll go and pick you up."
+	},
+	op_reply_586_1_1 = {
+		value = "Of course. I'll be waiting for you on the lake where we always go boating~"
+	},
+	ins_op_586_1_2 = {
+		value = "Make hay while the sun shines..."
+	},
+	op_reply_586_1_2 = {
+		value = "And drink wine among the wild pines! Cheers!"
+	},
+	ins_587 = {
+		value = "Oh, how quickly the most delectable bento vanish..."
+	},
+	ins_discuss_587_1 = {
+		value = "My cheap bento! My carb heavy meal! Someone snatched it from the shelf when I wasn't looking!"
+	},
+	ins_reply_587_1_1 = {
+		value = "Deals are here today, gone tomorrow, and we live in a first come, first served world, nya!"
+	},
+	ins_reply_587_1_2 = {
+		value = "Please don't feel too bad! There will be more tomorrow!"
+	},
+	ins_reply_587_1_3 = {
+		value = "Alas, my store points are just about to expire..."
+	},
+	ins_discuss_587_2 = {
+		value = "Even I didn't get to buy one. The bento rush is real and it's actually nuts!"
+	},
+	ins_reply_587_2_1 = {
+		value = "I'm so hungry... I will try harder tomorrow."
+	},
+	ins_reply_587_2_2 = {
+		value = "If thou fillest not thy stomach today, thou wilt have no strength to fight tomorrow!"
+	},
+	ins_reply_587_2_3 = {
+		value = "I managed to get my hands on one. Are there any takers?"
+	},
+	ins_reply_587_2_4 = {
+		value = "Oh dear, that post got me flooded with DMs. On second thought, I'll just eat it myself."
+	},
+	ins_op_587_1_1 = {
+		value = "It's fine. I got instant noodles for us both."
+	},
+	op_reply_587_1_1 = {
+		value = "You even saved some for me? This brings me joy."
+	},
+	ins_op_587_1_2 = {
+		value = "I know another store that still has some cheapo bento on sale."
+	},
+	op_reply_587_1_2 = {
+		value = "Then let us make haste. We mustn't waste time."
+	},
+	ins_588 = {
+		value = "Smells good! Alright, dinner is ready!"
+	},
+	ins_discuss_588_1 = {
+		value = "Whoa, that's a right delicious stew if I ever saw one!"
+	},
+	ins_reply_588_1_1 = {
+		value = "But I wonder: why does it glow like that?"
+	},
+	ins_reply_588_1_2 = {
+		value = "Nothing strange about tasty food giving off a glow!"
+	},
+	ins_discuss_588_2 = {
+		value = "Why does it feel like... something's staring back at me from the pot?"
+	},
+	ins_reply_588_2_1 = {
+		value = "That's a tuna eyeball. Pretty novel ingredient, I think..."
+	},
+	ins_reply_588_2_2 = {
+		value = "I've figured it out! This belongs in the same category as stargazy pie! :3"
+	},
+	ins_op_588_1_1 = {
+		value = "De-licious! I'll have seconds!"
+	},
+	op_reply_588_1_1 = {
+		value = "There's plenty left for you if you'd like more, Commander!"
+	},
+	ins_op_588_1_2 = {
+		value = "I don't recognize any of these ingredients..."
+	},
+	op_reply_588_1_2 = {
+		value = "Maybe not, but it's really good. I already tasted it, so I can guarantee that!"
+	},
+	ins_589 = {
+		value = "Heheh, you'll never find me!"
+	},
+	ins_discuss_589_1 = {
+		value = "Aww, what a charming bush! May I give you a name?"
+	},
+	ins_reply_589_1_1 = {
+		value = "Thanks, but I already have a name, and it's Taekaze!"
+	},
+	ins_reply_589_1_2 = {
+		value = "Very well. I'll be sure to come and water you later."
+	},
+	ins_reply_589_1_3 = {
+		value = "Sure, just add milk and tea and a little sugar!"
+	},
+	ins_discuss_589_2 = {
+		value = "Your tail's showing, Tae!"
+	},
+	ins_reply_589_2_1 = {
+		value = "It is?! I need to cover it up right now..."
+	},
+	ins_reply_589_2_2 = {
+		value = "Nah, you should stand it straight and use it as a flagpole!"
+	},
+	ins_op_589_1_1 = {
+		value = "I can clearly see you even from far away."
+	},
+	op_reply_589_1_1 = {
+		value = "This time doesn't count! My next prank will blow you away!"
+	},
+	ins_op_589_1_2 = {
+		value = "Zoinks! You totally had me fooled!"
+	},
+	op_reply_589_1_2 = {
+		value = "Heheh! That's just how good my transformation jutsu is!"
+	},
+	ins_590 = {
+		value = "Tangled up again..."
+	},
+	ins_discuss_590_1 = {
+		value = "Unzen? Did you accidentally tie yourself up?"
+	},
+	ins_reply_590_1_1 = {
+		value = "Yes, and I'll have you know that I've been hard at work on this all day."
+	},
+	ins_reply_590_1_2 = {
+		value = "You needed effort to do that? Ninjutsu is more complicated than I thought..."
+	},
+	ins_discuss_590_2 = {
+		value = "You're floating... Is that magic?"
+	},
+	ins_reply_590_2_1 = {
+		value = "When a ninja does it, you're supposed to call it ninjutsu!"
+	},
+	ins_reply_590_2_2 = {
+		value = "This is a major expansion of the meaning of ninjutsu..."
+	},
+	ins_op_590_1_1 = {
+		value = "Was that intentional, or an accident?"
+	},
+	op_reply_590_1_1 = {
+		value = "Maybe it was an intentional accident?"
+	},
+	ins_op_590_1_2 = {
+		value = "Ooh. I wanna learn the rope flight jutsu."
+	},
+	op_reply_590_1_2 = {
+		value = "Come over, and I can teach you personally."
+	},
+	ins_591 = {
+		value = "The moon is beautiful!"
+	},
+	ins_discuss_591_1 = {
+		value = "You look like you're about to crash. Be careful."
+	},
+	ins_reply_591_1_1 = {
+		value = "Watch out for the moon, too."
+	},
+	ins_reply_591_1_2 = {
+		value = "Is that a prop moon?!"
+	},
+	ins_reply_591_1_3 = {
+		value = "Nope! I'm just using a little forced perspective."
+	},
+	ins_discuss_591_2 = {
+		value = "You're flying! HOW?!"
+	},
+	ins_reply_591_2_1 = {
+		value = "Hehe! I'm just using forced perspective."
+	},
+	ins_reply_591_2_2 = {
+		value = "I get how that works, but how is the moon so big?"
+	},
+	ins_reply_591_2_3 = {
+		value = "Like I said... It's forced perspective, an optical illusion..."
+	},
+	ins_op_591_1_1 = {
+		value = "Did you learn photography for this?"
+	},
+	op_reply_591_1_1 = {
+		value = "A little bit."
+	},
+	ins_op_591_1_2 = {
+		value = "I wanna snap a pic like that, too."
+	},
+	op_reply_591_1_2 = {
+		value = "Hold on. I'm on my way!"
+	},
+	ins_592 = {
+		value = "Kunoichi Guam's grand entrance!"
+	},
+	ins_discuss_592_1 = {
+		value = "And just like that, she dropped right into my life."
+	},
+	ins_reply_592_1_1 = {
+		value = "MPDG!"
+	},
+	ins_reply_592_1_2 = {
+		value = "Magically Proficient Dame Guam?"
+	},
+	ins_reply_592_1_3 = {
+		value = "They're just calling you cute! Don't bother looking it up."
+	},
+	ins_reply_592_1_4 = {
+		value = "Really? Thanks, girls~"
+	},
+	ins_discuss_592_2 = {
+		value = "Now that's how you make an impact."
+	},
+	ins_reply_592_2_1 = {
+		value = "Do you wanna try it, too?"
+	},
+	ins_reply_592_2_2 = {
+		value = "I don't know if I have it in me..."
+	},
+	ins_reply_592_2_3 = {
+		value = "Don't let being an idol stop you from trying new things!"
+	},
+	ins_reply_592_2_4 = {
+		value = "Yeah, nya!"
+	},
+	ins_reply_592_2_5 = {
+		value = "▼ Sign-up link below! ▼"
+	},
+	ins_op_592_1_1 = {
+		value = "Better tie that safety rope tight."
+	},
+	op_reply_592_1_1 = {
+		value = "Don't worry. I triple-checked it!"
+	},
+	ins_op_592_1_2 = {
+		value = "Did I just hear something hit the ground outside?"
+	},
+	op_reply_592_1_2 = {
+		value = "Get ready to watch my awesome aerial performance, Commander!"
+	},
+	ins_593 = {
+		value = "Special investigation operation underway."
+	},
+	ins_discuss_593_1 = {
+		value = "Soyuz, you know what would make me happier than anything in the world?"
+	},
+	ins_reply_593_1_1 = {
+		value = "Go on."
+	},
+	ins_reply_593_1_2 = {
+		value = "If you snuck into my room in the middle of the night, woke me up, and said, \\\"Bristol, you're under arrest.\\\""
+	},
+	ins_reply_593_1_3 = {
+		value = "Umm? But we live in different dorms???"
+	},
+	ins_reply_593_1_4 = {
+		value = "Isn't that reason enough to be happy?"
+	},
+	ins_discuss_593_2 = {
+		value = "I've been wondering since this morning. What does a ninja's mask even protect them from?"
+	},
+	ins_reply_593_2_1 = {
+		value = "They're not for defensive purposes. You use them to conceal your identity."
+	},
+	ins_reply_593_2_2 = {
+		value = "But we ALL know she is Soyuz! WHY even wear a mask?"
+	},
+	ins_reply_593_2_3 = {
+		value = "I thought the same thing, so I added explosive reactive armor to the mask."
+	},
+	ins_reply_593_2_4 = {
+		value = "......"
+	},
+	ins_op_593_1_1 = {
+		value = "Good luck on your investigation."
+	},
+	op_reply_593_1_1 = {
+		value = "Your concern is appreciated, Comrade. Playing ninja is fun."
+	},
+	ins_op_593_1_2 = {
+		value = "Who are you investigating next?"
+	},
+	op_reply_593_1_2 = {
+		value = "That depends on your orders, Comrade."
+	},
+	ins_594 = {
+		value = "What unique tones..."
+	},
+	ins_discuss_594_1 = {
+		value = "Can we play a song together?"
+	},
+	ins_reply_594_1_1 = {
+		value = "I'm not too good at this instrument yet..."
+	},
+	ins_reply_594_1_2 = {
+		value = "I'd be happy to teach you."
+	},
+	ins_reply_594_1_3 = {
+		value = "Yes, please."
+	},
+	ins_discuss_594_2 = {
+		value = "Ooh, how exotic. Can I commission you to rearrange a song for me?"
+	},
+	ins_reply_594_2_1 = {
+		value = "I'll pay good money."
+	},
+	ins_reply_594_2_2 = {
+		value = "What song?"
+	},
+	ins_reply_594_2_3 = {
+		value = "\\\"Hymn to Marco Polo the Emissary\\\""
+	},
+	ins_reply_594_2_4 = {
+		value = "I'll pay GOOD money."
+	},
+	ins_reply_594_2_5 = {
+		value = "...I will do my best."
+	},
+	ins_op_594_1_1 = {
+		value = "When do I get to listen?"
+	},
+	op_reply_594_1_1 = {
+		value = "I await you in a quiet place beneath the moonlight."
+	},
+	ins_op_594_1_2 = {
+		value = "\\\"Lifting my cup, I invite the moon.\\\""
+	},
+	op_reply_594_1_2 = {
+		value = "With you, Commander, we become three."
+	},
+	ins_595 = {
+		value = "Executing orders: Using organic nutrients to meet the physiological needs of aquatic carbon-based life forms."
+	},
+	ins_discuss_595_1 = {
+		value = "I don't get it..."
+	},
+	ins_reply_595_1_1 = {
+		value = "This is the important part~"
+	},
+	ins_reply_595_1_2 = {
+		value = "To meet the basal metabolic and growth needs of fish, we need to provide them with an adequate nutritional balance that involves ample protein, fat, carbohydrates, and vitamins..."
+	},
+	ins_reply_595_1_3 = {
+		value = "Why is the character limit so small?"
+	},
+	ins_reply_595_1_4 = {
+		value = "I still don't get it... I'm scared..."
+	},
+	ins_reply_595_1_5 = {
+		value = "Check your DMs."
+	},
+	ins_discuss_595_2 = {
+		value = "tl;dr she's feeding the fishies"
+	},
+	ins_reply_595_2_1 = {
+		value = "Oooh... I get it!"
+	},
+	ins_reply_595_2_2 = {
+		value = "..."
+	},
+	ins_op_595_1_1 = {
+		value = "Who taught you how to talk like that?"
+	},
+	op_reply_595_1_1 = {
+		value = "Reply to Master: Vittorio Cuniberti. She passed by a while ago."
+	},
+	ins_op_595_1_2 = {
+		value = "Now I'M getting hungry."
+	},
+	op_reply_595_1_2 = {
+		value = "I can use other organic nutrients to meet the physiological needs of terrestrial carbon-based life forms, as well."
+	},
+	ins_596 = {
+		value = "My temperature is abnormally high..."
+	},
+	ins_discuss_596_1 = {
+		value = "This is normal. Approximately 88.79% of drinking sessions lead to increased body temperature."
+	},
+	ins_reply_596_1_1 = {
+		value = "Isn't alcohol supposed to lower your body temperature?"
+	},
+	ins_reply_596_1_2 = {
+		value = "...I can't explain how it works in this little space."
+	},
+	ins_reply_596_1_3 = {
+		value = "It's okay, I'll ask TB!"
+	},
+	ins_discuss_596_2 = {
+		value = "I'm getting hot and bothered, too..."
+	},
+	ins_reply_596_2_1 = {
+		value = "This is an emergency! Take your mask off and cool down!"
+	},
+	ins_reply_596_2_2 = {
+		value = "I'm not wearing a mask! The only way to fix this is..."
+	},
+	ins_reply_596_2_3 = {
+		value = "Stop. Now."
+	},
+	ins_reply_596_2_4 = {
+		value = "Aww, okay."
+	},
+	ins_op_596_1_1 = {
+		value = "Come over to the pool and cool down."
+	},
+	op_reply_596_1_1 = {
+		value = "I'm on my way!"
+	},
+	ins_op_596_1_2 = {
+		value = "Maybe put some ice in to chill your drink?"
+	},
+	op_reply_596_1_2 = {
+		value = "Commander! That made it taste even better!"
+	},
+	ins_597 = {
+		value = "What an amazing tool!"
+	},
+	ins_discuss_597_1 = {
+		value = "Have you figured out how to use the microwave?"
+	},
+	ins_reply_597_1_1 = {
+		value = "Yep! Just need to turn this knob, right? Easy peasy!"
+	},
+	ins_reply_597_1_2 = {
+		value = "Um, isn't the cooking time way too long?"
+	},
+	ins_reply_597_1_3 = {
+		value = "Cooking time? What do you mean?"
+	},
+	ins_discuss_597_2 = {
+		value = "I'm impressed you got it working! Every time I try, it starts spewing smoke..."
+	},
+	ins_reply_597_2_1 = {
+		value = "Is it just me or does something smell burned?"
+	},
+	ins_reply_597_2_2 = {
+		value = "I sense an explosion coming! Let me have a look!"
+	},
+	ins_reply_597_2_3 = {
+		value = "Uh-oh! Kitchen trouble's brewing!"
+	},
+	ins_op_597_1_1 = {
+		value = "What are you heating?"
+	},
+	op_reply_597_1_1 = {
+		value = "Potato Poppers!"
+	},
+	ins_op_597_1_2 = {
+		value = "Gotten the hang of charging it up?"
+	},
+	op_reply_597_1_2 = {
+		value = "Yep, it's easy. My Potato Poppers came out delicious!"
+	},
+	ins_598 = {
+		value = "Allow me to assist."
+	},
+	ins_discuss_598_1 = {
+		value = "Your help is welcome, Miss Ryu."
+	},
+	ins_reply_598_1_1 = {
+		value = "I hope I can leverage my experience from working at the Hostess of Fertility..."
+	},
+	ins_discuss_598_2 = {
+		value = "What is that lump of charcoal on the counter? Is that a sandwich?"
+	},
+	ins_reply_598_2_1 = {
+		value = "Oh, that... I had hoped that my skills had improved a little."
+	},
+	ins_reply_598_2_2 = {
+		value = "The black sandwich has been disposed of."
+	},
+	ins_reply_598_2_3 = {
+		value = "Properly disposed of."
+	},
+	ins_reply_598_2_4 = {
+		value = "Oh! I think I've seen that somewhere before..."
+	},
+	ins_reply_598_2_5 = {
+		value = "(Created with voice input) Black sandwich? Is it chocolate flavor? I want a taste"
+	},
+	ins_reply_598_2_6 = {
+		value = "If you'd like a chocolate sandwich, I can make that for you another time."
+	},
+	ins_op_598_1_1 = {
+		value = "That's not... for me, is it?"
+	},
+	op_reply_598_1_1 = {
+		value = "Not quite. Yours is sitting on the table in your office."
+	},
+	ins_op_598_1_2 = {
+		value = "\\\"Well done\\\" taken to the extreme..."
+	},
+	op_reply_598_1_2 = {
+		value = "Sigh... I always end up overdoing it with the heat."
+	},
+	ins_599 = {
+		value = ""
+	},
+	ins_discuss_599_1 = {
+		value = ""
+	},
+	ins_reply_599_1_1 = {
+		value = ""
+	},
+	ins_reply_599_1_2 = {
+		value = ""
+	},
+	ins_reply_599_1_3 = {
+		value = ""
+	},
+	ins_discuss_599_2 = {
+		value = ""
+	},
+	ins_reply_599_2_1 = {
+		value = ""
+	},
+	ins_reply_599_2_2 = {
+		value = ""
+	},
+	ins_reply_599_2_3 = {
+		value = ""
+	},
+	ins_op_599_1_1 = {
+		value = ""
+	},
+	op_reply_599_1_1 = {
+		value = ""
+	},
+	ins_op_599_1_2 = {
+		value = ""
+	},
+	op_reply_599_1_2 = {
+		value = ""
+	},
+	ins_600 = {
+		value = ""
+	},
+	ins_discuss_600_1 = {
+		value = ""
+	},
+	ins_reply_600_1_1 = {
+		value = ""
+	},
+	ins_reply_600_1_2 = {
+		value = ""
+	},
+	ins_reply_600_1_3 = {
+		value = ""
+	},
+	ins_reply_600_1_4 = {
+		value = ""
+	},
+	ins_discuss_600_2 = {
+		value = ""
+	},
+	ins_reply_600_2_1 = {
+		value = ""
+	},
+	ins_reply_600_2_2 = {
+		value = ""
+	},
+	ins_reply_600_2_3 = {
+		value = ""
+	},
+	ins_op_600_1_1 = {
+		value = ""
+	},
+	op_reply_600_1_1 = {
+		value = ""
+	},
+	ins_op_600_1_2 = {
+		value = ""
+	},
+	op_reply_600_1_2 = {
+		value = ""
+	},
+	ins_601 = {
+		value = ""
+	},
+	ins_discuss_601_1 = {
+		value = ""
+	},
+	ins_reply_601_1_1 = {
+		value = ""
+	},
+	ins_reply_601_1_2 = {
+		value = ""
+	},
+	ins_reply_601_1_3 = {
+		value = ""
+	},
+	ins_reply_601_1_4 = {
+		value = ""
+	},
+	ins_discuss_601_2 = {
+		value = ""
+	},
+	ins_reply_601_2_1 = {
+		value = ""
+	},
+	ins_reply_601_2_2 = {
+		value = ""
+	},
+	ins_reply_601_2_3 = {
+		value = ""
+	},
+	ins_op_601_1_1 = {
+		value = ""
+	},
+	op_reply_601_1_1 = {
+		value = ""
+	},
+	ins_op_601_1_2 = {
+		value = ""
+	},
+	op_reply_601_1_2 = {
+		value = ""
+	},
+	ins_602 = {
+		value = ""
+	},
+	ins_discuss_602_1 = {
+		value = ""
+	},
+	ins_reply_602_1_1 = {
+		value = ""
+	},
+	ins_reply_602_1_2 = {
+		value = ""
+	},
+	ins_discuss_602_2 = {
+		value = ""
+	},
+	ins_reply_602_2_1 = {
+		value = ""
+	},
+	ins_reply_602_2_2 = {
+		value = ""
+	},
+	ins_op_602_1_1 = {
+		value = ""
+	},
+	op_reply_602_1_1 = {
+		value = ""
+	},
+	ins_op_602_1_2 = {
+		value = ""
+	},
+	op_reply_602_1_2 = {
+		value = ""
+	},
+	ins_603 = {
+		value = ""
+	},
+	ins_discuss_603_1 = {
+		value = ""
+	},
+	ins_reply_603_1_1 = {
+		value = ""
+	},
+	ins_reply_603_1_2 = {
+		value = ""
+	},
+	ins_reply_603_1_3 = {
+		value = ""
+	},
+	ins_discuss_603_2 = {
+		value = ""
+	},
+	ins_reply_603_2_1 = {
+		value = ""
+	},
+	ins_reply_603_2_2 = {
+		value = ""
+	},
+	ins_reply_603_2_3 = {
+		value = ""
+	},
+	ins_reply_603_2_4 = {
+		value = ""
+	},
+	ins_op_603_1_1 = {
+		value = ""
+	},
+	op_reply_603_1_1 = {
+		value = ""
+	},
+	ins_op_603_1_2 = {
+		value = ""
+	},
+	op_reply_603_1_2 = {
 		value = ""
 	}
 }

@@ -61,7 +61,7 @@ end
 function var_0_0.OnInit(arg_4_0)
 	arg_4_0:UpdateEmptyCard()
 
-	arg_4_0.scrollRect = WorldBossItemList.New(arg_4_0:findTF("list_panel/mask/bg/container"), arg_4_0:findTF("list_panel/mask/tpl"))
+	arg_4_0.scrollRect = WorldBossItemList.New(arg_4_0._tf:Find("list_panel/mask/bg/container"), arg_4_0._tf:Find("list_panel/mask/tpl"))
 
 	arg_4_0.scrollRect:Make(function(arg_5_0, arg_5_1)
 		arg_4_0:OnInitCard(arg_5_0, arg_5_1)
@@ -71,20 +71,20 @@ function var_0_0.OnInit(arg_4_0)
 		arg_4_0:OnSelectCard(arg_7_0, arg_7_1)
 	end)
 
-	arg_4_0.hpSlider = arg_4_0:findTF("main/hp/slider"):GetComponent(typeof(Slider))
-	arg_4_0.levelTxt = arg_4_0:findTF("main/hp/level/Text"):GetComponent(typeof(Text))
-	arg_4_0.hpTxt = arg_4_0:findTF("main/hp/Text"):GetComponent(typeof(Text))
-	arg_4_0.expiredTimeTxt = arg_4_0:findTF("main/time/Text"):GetComponent(typeof(Text))
-	arg_4_0.mainPanel = arg_4_0:findTF("main")
-	arg_4_0.painting = arg_4_0:findTF("paint")
+	arg_4_0.hpSlider = arg_4_0._tf:Find("main/hp/slider"):GetComponent(typeof(Slider))
+	arg_4_0.levelTxt = arg_4_0._tf:Find("main/hp/level/Text"):GetComponent(typeof(Text))
+	arg_4_0.hpTxt = arg_4_0._tf:Find("main/hp/Text"):GetComponent(typeof(Text))
+	arg_4_0.expiredTimeTxt = arg_4_0._tf:Find("main/time/Text"):GetComponent(typeof(Text))
+	arg_4_0.mainPanel = arg_4_0._tf:Find("main")
+	arg_4_0.painting = arg_4_0._tf:Find("paint")
 
 	setActive(arg_4_0.painting, false)
 	setActive(arg_4_0.mainPanel, false)
 
 	arg_4_0.rankBtn = arg_4_0.mainPanel:Find("rank_btn")
 	arg_4_0.startBtn = arg_4_0.mainPanel:Find("start_btn")
-	arg_4_0.refreshBtn = arg_4_0:findTF("list_panel/frame/filter/refresh_btn")
-	arg_4_0.refreshBtnGray = arg_4_0:findTF("list_panel/frame/filter/refresh_btn_gray")
+	arg_4_0.refreshBtn = arg_4_0._tf:Find("list_panel/frame/filter/refresh_btn")
+	arg_4_0.refreshBtnGray = arg_4_0._tf:Find("list_panel/frame/filter/refresh_btn_gray")
 	arg_4_0.cdTime = 0
 
 	onButton(arg_4_0, arg_4_0.refreshBtn, function()
@@ -109,24 +109,24 @@ function var_0_0.OnInit(arg_4_0)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_not_refresh_frequently"))
 	end, SFX_PANEL)
 
-	arg_4_0.filterToggle = arg_4_0:findTF("list_panel/frame/filter/toggles")
+	arg_4_0.filterToggle = arg_4_0._tf:Find("list_panel/frame/filter/toggles")
 	arg_4_0.filterFlags = {
 		WorldBoss.BOSS_TYPE_WORLD,
 		WorldBoss.BOSS_TYPE_FRIEND,
 		WorldBoss.BOSS_TYPE_GUILD
 	}
 
-	onToggle(arg_4_0, arg_4_0:findTF("list_panel/frame/filter/toggles/friend"), function(arg_11_0)
+	onToggle(arg_4_0, arg_4_0._tf:Find("list_panel/frame/filter/toggles/friend"), function(arg_11_0)
 		arg_4_0.filterFlags[2] = arg_11_0 and WorldBoss.BOSS_TYPE_FRIEND or -1
 
 		arg_4_0:CheckToggle()
 		arg_4_0:UpdateNonProcessList()
 	end, SFX_PANEL)
-	GetComponent(arg_4_0:findTF("list_panel/frame/filter/toggles/friend/unsel"), typeof(Image)):SetNativeSize()
-	GetComponent(arg_4_0:findTF("list_panel/frame/filter/toggles/friend/sel"), typeof(Image)):SetNativeSize()
-	GetComponent(arg_4_0:findTF("list_panel/frame/filter/toggles/guild/sel"), typeof(Image)):SetNativeSize()
-	GetComponent(arg_4_0:findTF("list_panel/frame/filter/toggles/guild/unsel"), typeof(Image)):SetNativeSize()
-	onToggle(arg_4_0, arg_4_0:findTF("list_panel/frame/filter/toggles/guild"), function(arg_12_0)
+	GetComponent(arg_4_0._tf:Find("list_panel/frame/filter/toggles/friend/unsel"), typeof(Image)):SetNativeSize()
+	GetComponent(arg_4_0._tf:Find("list_panel/frame/filter/toggles/friend/sel"), typeof(Image)):SetNativeSize()
+	GetComponent(arg_4_0._tf:Find("list_panel/frame/filter/toggles/guild/sel"), typeof(Image)):SetNativeSize()
+	GetComponent(arg_4_0._tf:Find("list_panel/frame/filter/toggles/guild/unsel"), typeof(Image)):SetNativeSize()
+	onToggle(arg_4_0, arg_4_0._tf:Find("list_panel/frame/filter/toggles/guild"), function(arg_12_0)
 		arg_4_0.filterFlags[3] = arg_12_0 and WorldBoss.BOSS_TYPE_GUILD or -1
 
 		arg_4_0:CheckToggle()
@@ -135,7 +135,7 @@ function var_0_0.OnInit(arg_4_0)
 end
 
 function var_0_0.UpdateEmptyCard(arg_13_0)
-	local var_13_0 = arg_13_0:findTF("list_panel/mask/tpl")
+	local var_13_0 = arg_13_0._tf:Find("list_panel/mask/tpl")
 	local var_13_1 = WorldBossConst.GetCurrBossGroup()
 	local var_13_2 = var_13_0:Find("empty"):GetComponent(typeof(Image))
 
@@ -148,8 +148,8 @@ function var_0_0.CheckToggle(arg_14_0)
 	if _.all(arg_14_0.filterFlags, function(arg_15_0)
 		return arg_15_0 == -1
 	end) then
-		triggerToggle(arg_14_0:findTF("list_panel/frame/filter/toggles/friend"), true)
-		triggerToggle(arg_14_0:findTF("list_panel/frame/filter/toggles/guild"), true)
+		triggerToggle(arg_14_0._tf:Find("list_panel/frame/filter/toggles/friend"), true)
+		triggerToggle(arg_14_0._tf:Find("list_panel/frame/filter/toggles/guild"), true)
 	end
 end
 
@@ -161,7 +161,7 @@ function var_0_0.UpdatePainting(arg_17_0, arg_17_1)
 	if arg_17_0.groupId ~= arg_17_1 then
 		arg_17_0.groupId = arg_17_1
 
-		local var_17_0 = arg_17_0:findTF("main/label"):GetComponent(typeof(Image))
+		local var_17_0 = arg_17_0._tf:Find("main/label"):GetComponent(typeof(Image))
 
 		var_17_0.sprite = GetSpriteFromAtlas("MetaWorldboss/" .. arg_17_1, "title" .. arg_17_0:GetResSuffix())
 

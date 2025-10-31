@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "好……放这边，我来看看成色。",
+			say = "Alright, leave it here. I'll check the purity.",
 			characterId = 100600,
 			hideType = 2
 		}

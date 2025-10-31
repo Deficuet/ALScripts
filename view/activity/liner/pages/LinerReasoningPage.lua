@@ -5,23 +5,23 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.titleTF = arg_2_0:findTF("clues/title")
+	arg_2_0.titleTF = arg_2_0._tf:Find("clues/title")
 
 	setText(arg_2_0.titleTF, i18n("liner_event_reasoning_title"))
 
-	arg_2_0.eventNameTF = arg_2_0:findTF("clues/name")
-	arg_2_0.cluesTF = arg_2_0:findTF("clues/content")
-	arg_2_0.optionsTF = arg_2_0:findTF("options")
+	arg_2_0.eventNameTF = arg_2_0._tf:Find("clues/name")
+	arg_2_0.cluesTF = arg_2_0._tf:Find("clues/content")
+	arg_2_0.optionsTF = arg_2_0._tf:Find("options")
 
-	arg_2_0:findTF("clues/reasoning_title"):GetComponent(typeof(Image)):SetNativeSize()
+	arg_2_0._tf:Find("clues/reasoning_title"):GetComponent(typeof(Image)):SetNativeSize()
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("mask"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("mask"), function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
 
-	arg_3_0.cluesUIList = UIItemList.New(arg_3_0.cluesTF, arg_3_0:findTF("tpl", arg_3_0.cluesTF))
+	arg_3_0.cluesUIList = UIItemList.New(arg_3_0.cluesTF, arg_3_0.cluesTF:Find("tpl"))
 
 	arg_3_0.cluesUIList:make(function(arg_5_0, arg_5_1, arg_5_2)
 		if arg_5_0 == UIItemList.EventUpdate then
@@ -33,7 +33,7 @@ function var_0_0.OnInit(arg_3_0)
 		end
 	end)
 
-	arg_3_0.optionsUIList = UIItemList.New(arg_3_0.optionsTF, arg_3_0:findTF("tpl", arg_3_0.optionsTF))
+	arg_3_0.optionsUIList = UIItemList.New(arg_3_0.optionsTF, arg_3_0.optionsTF:Find("tpl"))
 
 	arg_3_0.optionsUIList:make(function(arg_6_0, arg_6_1, arg_6_2)
 		if arg_6_0 == UIItemList.EventUpdate then

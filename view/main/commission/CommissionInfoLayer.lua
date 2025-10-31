@@ -9,16 +9,16 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.frame = arg_2_0:findTF("frame")
+	arg_2_0.frame = arg_2_0._tf:Find("frame")
 	arg_2_0.parentTr = arg_2_0._tf.parent
-	arg_2_0.resourcesTF = arg_2_0:findTF("resources", arg_2_0.frame)
-	arg_2_0.oilTF = arg_2_0:findTF("canteen/bubble/Text", arg_2_0.resourcesTF):GetComponent(typeof(Text))
-	arg_2_0.goldTF = arg_2_0:findTF("merchant/bubble/Text", arg_2_0.resourcesTF):GetComponent(typeof(Text))
-	arg_2_0.classTF = arg_2_0:findTF("class/bubble/Text", arg_2_0.resourcesTF):GetComponent(typeof(Text))
+	arg_2_0.resourcesTF = arg_2_0.frame:Find("resources")
+	arg_2_0.oilTF = arg_2_0.resourcesTF:Find("canteen/bubble/Text"):GetComponent(typeof(Text))
+	arg_2_0.goldTF = arg_2_0.resourcesTF:Find("merchant/bubble/Text"):GetComponent(typeof(Text))
+	arg_2_0.classTF = arg_2_0.resourcesTF:Find("class/bubble/Text"):GetComponent(typeof(Text))
 	arg_2_0.classLockTF = arg_2_0.resourcesTF:Find("class/lock")
-	arg_2_0.oilbubbleTF = arg_2_0:findTF("canteen/bubble", arg_2_0.resourcesTF)
-	arg_2_0.goldbubbleTF = arg_2_0:findTF("merchant/bubble", arg_2_0.resourcesTF)
-	arg_2_0.classbubbleTF = arg_2_0:findTF("class/bubble", arg_2_0.resourcesTF)
+	arg_2_0.oilbubbleTF = arg_2_0.resourcesTF:Find("canteen/bubble")
+	arg_2_0.goldbubbleTF = arg_2_0.resourcesTF:Find("merchant/bubble")
+	arg_2_0.classbubbleTF = arg_2_0.resourcesTF:Find("class/bubble")
 	arg_2_0.oilbubbleCG = GetOrAddComponent(arg_2_0.oilbubbleTF, typeof(CanvasGroup))
 	arg_2_0.goldbubbleCG = GetOrAddComponent(arg_2_0.goldbubbleTF, typeof(CanvasGroup))
 	arg_2_0.classbubbleCG = GetOrAddComponent(arg_2_0.classbubbleTF, typeof(CanvasGroup))
@@ -27,33 +27,31 @@ function var_0_0.init(arg_2_0)
 	local var_2_1 = Item.getConfigData(var_2_0).icon
 
 	arg_2_0.classbubbleTF:Find("icon"):GetComponent(typeof(Image)).sprite = LoadSprite(var_2_1)
-	arg_2_0.projectContainer = arg_2_0:findTF("main/content", arg_2_0.frame)
+	arg_2_0.projectContainer = arg_2_0.frame:Find("main/content")
 	arg_2_0.items = {
-		CommissionInfoEventItem.New(arg_2_0:findTF("frame/main/content/event"), arg_2_0),
-		CommissionInfoClassItem.New(arg_2_0:findTF("frame/main/content/class"), arg_2_0),
-		CommissionInfoTechnologyItem.New(arg_2_0:findTF("frame/main/content/technology"), arg_2_0)
+		CommissionInfoEventItem.New(arg_2_0._tf:Find("frame/main/content/event"), arg_2_0),
+		CommissionInfoClassItem.New(arg_2_0._tf:Find("frame/main/content/class"), arg_2_0),
+		CommissionInfoTechnologyItem.New(arg_2_0._tf:Find("frame/main/content/technology"), arg_2_0)
 	}
 
 	arg_2_0:BlurPanel()
 
-	arg_2_0.linkBtnPanel = arg_2_0:findTF("frame/link_btns/btns")
-	arg_2_0.activityInsBtn = arg_2_0:findTF("frame/link_btns/btns/ins")
-	arg_2_0.activtyUrExchangeBtn = arg_2_0:findTF("frame/link_btns/btns/urEx")
-	arg_2_0.activtyUrExchangeTxt = arg_2_0:findTF("frame/link_btns/btns/urEx/Text"):GetComponent(typeof(Text))
+	arg_2_0.linkBtnPanel = arg_2_0._tf:Find("frame/link_btns/btns")
+	arg_2_0.activityInsBtn = arg_2_0._tf:Find("frame/link_btns/btns/ins")
+	arg_2_0.activtyUrExchangeBtn = arg_2_0._tf:Find("frame/link_btns/btns/urEx")
+	arg_2_0.activtyUrExchangeTxt = arg_2_0._tf:Find("frame/link_btns/btns/urEx/Text"):GetComponent(typeof(Text))
 	arg_2_0.activtyUrExchangeCG = arg_2_0.activtyUrExchangeBtn:GetComponent(typeof(CanvasGroup))
-	arg_2_0.activtyUrExchangeTip = arg_2_0:findTF("frame/link_btns/btns/urEx/tip")
-	arg_2_0.activityCrusingBtn = arg_2_0:findTF("frame/link_btns/btns/crusing")
-	arg_2_0.metaBossBtn = CommissionMetaBossBtn.New(arg_2_0:findTF("frame/link_btns/btns/meta_boss"), arg_2_0.event)
+	arg_2_0.activtyUrExchangeTip = arg_2_0._tf:Find("frame/link_btns/btns/urEx/tip")
+	arg_2_0.activityCrusingBtn = arg_2_0._tf:Find("frame/link_btns/btns/crusing")
+	arg_2_0.metaBossBtn = CommissionMetaBossBtn.New(arg_2_0._tf:Find("frame/link_btns/btns/meta_boss"), arg_2_0.event)
 end
 
 function var_0_0.BlurPanel(arg_3_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.UnBlurPanel(arg_4_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_4_0._tf, arg_4_0.parentTr)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_4_0._tf, arg_4_0.parentTr)
 end
 
 function var_0_0.UpdataClassUnlock(arg_5_0)

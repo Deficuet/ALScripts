@@ -8,30 +8,30 @@ var_0_0.DropType2Name = {
 }
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.btnList = arg_1_0:findTF("btn_list", arg_1_0.bg)
-	arg_1_0.itemPanel = arg_1_0:findTF("item_panel", arg_1_0.bg)
-	arg_1_0.togglesTF = arg_1_0:findTF("toggles", arg_1_0.itemPanel)
-	arg_1_0.content = arg_1_0:findTF("item_list/content", arg_1_0.itemPanel)
-	arg_1_0.itemList = UIItemList.New(arg_1_0.content, arg_1_0:findTF("tpl", arg_1_0.content))
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.btnList = arg_1_0.bg:Find("btn_list")
+	arg_1_0.itemPanel = arg_1_0.bg:Find("item_panel")
+	arg_1_0.togglesTF = arg_1_0.itemPanel:Find("toggles")
+	arg_1_0.content = arg_1_0.itemPanel:Find("item_list/content")
+	arg_1_0.itemList = UIItemList.New(arg_1_0.content, arg_1_0.content:Find("tpl"))
 
-	setText(arg_1_0:findTF("tpl/owner/title", arg_1_0.content), i18n("collect_page_got"))
+	setText(arg_1_0.content:Find("tpl/owner/title"), i18n("collect_page_got"))
 
-	arg_1_0.boxTF = arg_1_0:findTF("Box")
-	arg_1_0.boxBG = arg_1_0:findTF("BG", arg_1_0.boxTF)
-	arg_1_0.panel = arg_1_0:findTF("Panel", arg_1_0.boxTF)
-	arg_1_0.infoTF = arg_1_0:findTF("Info", arg_1_0.panel)
-	arg_1_0.boxCloseBtn = arg_1_0:findTF("CloseBtn", arg_1_0.infoTF)
-	arg_1_0.Title = arg_1_0:findTF("Title", arg_1_0.infoTF)
-	arg_1_0.boxIconTF = arg_1_0:findTF("Icon/Mask/IconTpl", arg_1_0.infoTF)
-	arg_1_0.boxNameText = arg_1_0:findTF("NameText", arg_1_0.infoTF)
-	arg_1_0.boxNumTF = arg_1_0:findTF("Num", arg_1_0.infoTF)
-	arg_1_0.boxNumTip = arg_1_0:findTF("Text", arg_1_0.boxNumTF)
-	arg_1_0.boxNumText = arg_1_0:findTF("NumText", arg_1_0.boxNumTF)
-	arg_1_0.boxDescText = arg_1_0:findTF("DescText", arg_1_0.infoTF)
-	arg_1_0.boxSrcText = arg_1_0:findTF("SrcText", arg_1_0.infoTF)
-	arg_1_0.boxSrcContent = arg_1_0:findTF("Content", arg_1_0.panel)
-	arg_1_0.boxSrcTpl = arg_1_0:findTF("SrcTpl", arg_1_0.boxSrcContent)
+	arg_1_0.boxTF = arg_1_0._tf:Find("Box")
+	arg_1_0.boxBG = arg_1_0.boxTF:Find("BG")
+	arg_1_0.panel = arg_1_0.boxTF:Find("Panel")
+	arg_1_0.infoTF = arg_1_0.panel:Find("Info")
+	arg_1_0.boxCloseBtn = arg_1_0.infoTF:Find("CloseBtn")
+	arg_1_0.Title = arg_1_0.infoTF:Find("Title")
+	arg_1_0.boxIconTF = arg_1_0.infoTF:Find("Icon/Mask/IconTpl")
+	arg_1_0.boxNameText = arg_1_0.infoTF:Find("NameText")
+	arg_1_0.boxNumTF = arg_1_0.infoTF:Find("Num")
+	arg_1_0.boxNumTip = arg_1_0.boxNumTF:Find("Text")
+	arg_1_0.boxNumText = arg_1_0.boxNumTF:Find("NumText")
+	arg_1_0.boxDescText = arg_1_0.infoTF:Find("DescText")
+	arg_1_0.boxSrcText = arg_1_0.infoTF:Find("SrcText")
+	arg_1_0.boxSrcContent = arg_1_0.panel:Find("Content")
+	arg_1_0.boxSrcTpl = arg_1_0.boxSrcContent:Find("SrcTpl")
 
 	onButton(arg_1_0, arg_1_0.boxBG, function()
 		arg_1_0:showBoxPanel(false)
@@ -107,7 +107,7 @@ function var_0_0.AddTogglesListener(arg_10_0)
 	assert(#var_10_0 == arg_10_0.togglesTF.childCount, "dropType数量与togglesTF子节点数不匹配")
 
 	for iter_10_0, iter_10_1 in ipairs(var_10_0) do
-		local var_10_1 = arg_10_0:findTF(var_0_0.DropType2Name[iter_10_1], arg_10_0.togglesTF)
+		local var_10_1 = arg_10_0.togglesTF:Find(var_0_0.DropType2Name[iter_10_1])
 
 		onToggle(arg_10_0, var_10_1, function(arg_11_0)
 			if arg_11_0 then
@@ -122,7 +122,7 @@ end
 function var_0_0.AddSpecialBtnListener(arg_12_0)
 	local var_12_0 = arg_12_0.activity:getConfig("config_client")
 
-	arg_12_0.furnitureThemeBtn = arg_12_0:findTF("furniture_theme", arg_12_0.btnList)
+	arg_12_0.furnitureThemeBtn = arg_12_0.btnList:Find("furniture_theme")
 
 	if arg_12_0.furnitureThemeBtn and var_12_0.furniture_theme_link then
 		onButton(arg_12_0, arg_12_0.furnitureThemeBtn, function()
@@ -135,7 +135,7 @@ function var_0_0.AddSpecialBtnListener(arg_12_0)
 		end, SFX_PANEL)
 	end
 
-	arg_12_0.medalBtn = arg_12_0:findTF("medal", arg_12_0.btnList)
+	arg_12_0.medalBtn = arg_12_0.btnList:Find("medal")
 
 	if arg_12_0.medalBtn and var_12_0.medal_link then
 		onButton(arg_12_0, arg_12_0.medalBtn, function()
@@ -148,7 +148,7 @@ function var_0_0.AddSpecialBtnListener(arg_12_0)
 		end, SFX_PANEL)
 	end
 
-	arg_12_0.equipSkinBoxBtn = arg_12_0:findTF("equip_skin_box", arg_12_0.btnList)
+	arg_12_0.equipSkinBoxBtn = arg_12_0.btnList:Find("equip_skin_box")
 
 	if arg_12_0.equipSkinBoxBtn and var_12_0.equipskin_box_link then
 		local var_12_1 = Drop.New({
@@ -171,7 +171,7 @@ end
 
 function var_0_0.OnUpdateItem(arg_16_0, arg_16_1, arg_16_2)
 	local var_16_0 = arg_16_0.showDataList[arg_16_1 + 1]
-	local var_16_1 = arg_16_0:findTF("icon_mask/icon", arg_16_2)
+	local var_16_1 = arg_16_2:Find("icon_mask/icon")
 	local var_16_2 = {
 		type = var_16_0.config.type,
 		id = var_16_0.config.drop_id
@@ -181,20 +181,20 @@ function var_0_0.OnUpdateItem(arg_16_0, arg_16_1, arg_16_2)
 	onButton(arg_16_0, var_16_1, function()
 		arg_16_0:OnClickItem(var_16_0)
 	end, SFX_PANEL)
-	changeToScrollText(arg_16_0:findTF("name_mask/name", arg_16_2), Drop.New({
+	changeToScrollText(arg_16_2:Find("name_mask/name"), Drop.New({
 		type = var_16_0.config.type,
 		id = var_16_0.config.drop_id
 	}):getName())
 	arg_16_0:RefreshCountText(var_16_0, arg_16_2)
 
-	GetOrAddComponent(arg_16_0:findTF("owner", arg_16_2), typeof(CanvasGroup)).alpha = var_16_0.count == var_16_0.config.count and 0.5 or 1
+	GetOrAddComponent(arg_16_2:Find("owner"), typeof(CanvasGroup)).alpha = var_16_0.count == var_16_0.config.count and 0.5 or 1
 
-	setActive(arg_16_0:findTF("got", arg_16_2), var_16_0.count == var_16_0.config.count)
-	setActive(arg_16_0:findTF("new", arg_16_2), var_16_0.config.is_new == "1")
+	setActive(arg_16_2:Find("got"), var_16_0.count == var_16_0.config.count)
+	setActive(arg_16_2:Find("new"), var_16_0.config.is_new == "1")
 end
 
 function var_0_0.RefreshCountText(arg_18_0, arg_18_1, arg_18_2)
-	setText(arg_18_0:findTF("owner/number", arg_18_2), arg_18_1.count .. "/" .. arg_18_1.config.count)
+	setText(arg_18_2:Find("owner/number"), arg_18_1.count .. "/" .. arg_18_1.config.count)
 end
 
 function var_0_0.OnClickItem(arg_19_0, arg_19_1)
@@ -263,11 +263,11 @@ function var_0_0.updateBoxPanel(arg_24_0, arg_24_1)
 			local var_25_2 = var_25_0[2]
 			local var_25_3 = var_25_0[3]
 
-			changeToScrollText(arg_24_0:findTF("SrcText", arg_25_2), var_25_3)
+			changeToScrollText(arg_25_2:Find("SrcText"), var_25_3)
 
-			local var_25_4 = arg_24_0:findTF("GoBtn", arg_25_2)
+			local var_25_4 = arg_25_2:Find("GoBtn")
 
-			setText(arg_24_0:findTF("go", var_25_4), i18n("brs_reward_tip_2"))
+			setText(var_25_4:Find("go"), i18n("brs_reward_tip_2"))
 			onButton(arg_24_0, var_25_4, function()
 				arg_24_0:DoSkip(var_25_1, var_25_2)
 				arg_24_0:showBoxPanel(false)

@@ -13,7 +13,7 @@ return {
 			characterId = 100400,
 			animation = "clap",
 			hideType = 2,
-			say = "喝饱水~长得高高~"
+			say = "Drink up, little seedlings! We want you growing fast!"
 		}
 	}
 }

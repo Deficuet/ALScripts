@@ -9,9 +9,7 @@ end
 
 function var_0_0.init(arg_2_0)
 	var_0_0.super.init(arg_2_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_2_0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_2_0._tf)
 
 	arg_2_0.msgBox = SelectSkinMsgbox.New(arg_2_0._tf, arg_2_0.event)
 end

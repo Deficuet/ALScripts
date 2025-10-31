@@ -21,8 +21,8 @@ return {
 		{
 			animation = "nod",
 			characterId = 100300,
-			say = "建材、工具、补给品……港口能搞到的，斯蒂芬妮一定尽力帮你安排~",
-			subName = "货运管理员",
+			say = "Building materials, tools, supplies – as long as you can find it in the harbor, I'll try my best to procure it.",
+			subName = "Manager of Logistics",
 			face2Face = {
 				{
 					0,

@@ -6,37 +6,37 @@ end
 
 function var_0_0.init(arg_2_0)
 	arg_2_0.mainAnim = arg_2_0._tf:GetComponent(typeof(Animation))
-	arg_2_0.topUI = arg_2_0:findTF("ui/top")
+	arg_2_0.topUI = arg_2_0._tf:Find("ui/top")
 
-	local var_2_0 = arg_2_0:findTF("title/title_kinder", arg_2_0.topUI)
+	local var_2_0 = arg_2_0.topUI:Find("title/title_kinder")
 
 	var_2_0:GetComponent(typeof(Image)):SetNativeSize()
 
-	arg_2_0:findTF("FX/textmask", var_2_0).localScale = {
+	var_2_0:Find("FX/textmask").localScale = {
 		x = var_2_0.rect.width,
 		y = var_2_0.rect.height
 	}
-	arg_2_0.bottomUI = arg_2_0:findTF("ui/bottom")
-	arg_2_0.paradiseBtn = arg_2_0:findTF("paradise", arg_2_0.bottomUI)
-	arg_2_0.paradiseValue = arg_2_0:findTF("value/Text", arg_2_0.paradiseBtn)
-	arg_2_0.adventureBtn = arg_2_0:findTF("adventure", arg_2_0.bottomUI)
-	arg_2_0.rightUI = arg_2_0:findTF("ui/right")
-	arg_2_0.ptBtn = arg_2_0:findTF("pt", arg_2_0.rightUI)
-	arg_2_0.ptValue = arg_2_0:findTF("value/Text", arg_2_0.ptBtn)
-	arg_2_0.ptTip = arg_2_0:findTF("tip", arg_2_0.ptBtn)
-	arg_2_0.rankBtn = arg_2_0:findTF("rank", arg_2_0.rightUI)
-	arg_2_0.taskBtn = arg_2_0:findTF("task", arg_2_0.rightUI)
-	arg_2_0.taskTip = arg_2_0:findTF("tip", arg_2_0.taskBtn)
+	arg_2_0.bottomUI = arg_2_0._tf:Find("ui/bottom")
+	arg_2_0.paradiseBtn = arg_2_0.bottomUI:Find("paradise")
+	arg_2_0.paradiseValue = arg_2_0.paradiseBtn:Find("value/Text")
+	arg_2_0.adventureBtn = arg_2_0.bottomUI:Find("adventure")
+	arg_2_0.rightUI = arg_2_0._tf:Find("ui/right")
+	arg_2_0.ptBtn = arg_2_0.rightUI:Find("pt")
+	arg_2_0.ptValue = arg_2_0.ptBtn:Find("value/Text")
+	arg_2_0.ptTip = arg_2_0.ptBtn:Find("tip")
+	arg_2_0.rankBtn = arg_2_0.rightUI:Find("rank")
+	arg_2_0.taskBtn = arg_2_0.rightUI:Find("task")
+	arg_2_0.taskTip = arg_2_0.taskBtn:Find("tip")
 end
 
 function var_0_0.didEnter(arg_3_0)
-	onButton(arg_3_0, arg_3_0:findTF("back", arg_3_0.topUI), function()
+	onButton(arg_3_0, arg_3_0.topUI:Find("back"), function()
 		arg_3_0:onBackPressed()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("home", arg_3_0.topUI), function()
+	onButton(arg_3_0, arg_3_0.topUI:Find("home"), function()
 		arg_3_0:quickExitFunc()
 	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0:findTF("help", arg_3_0.topUI), function()
+	onButton(arg_3_0, arg_3_0.topUI:Find("help"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip["202406_main_help"].tip

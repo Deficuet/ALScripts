@@ -20,8 +20,7 @@ function var_0_0.ShowItemTip(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 		}),
 		descriptions = var_1_0.description,
 		msgTitle = arg_1_2,
-		goSceneCallack = arg_1_3,
-		weight = LayerWeightConst.SECOND_LAYER
+		goSceneCallack = arg_1_3
 	})
 
 	return true
@@ -117,8 +116,7 @@ function var_0_0.ShowOilBuyTip(arg_7_0, arg_7_1)
 				id = var_7_1
 			})
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_PAY_OIL)
-		end,
-		weight = LayerWeightConst.TOP_LAYER
+		end
 	})
 
 	return true
@@ -129,9 +127,9 @@ function var_0_0.getUIName(arg_9_0)
 end
 
 function var_0_0.OnInit(arg_10_0)
-	arg_10_0.list = arg_10_0:findTF("skipable_list")
-	arg_10_0.tpl = arg_10_0:findTF("tpl", arg_10_0.list)
-	arg_10_0.title = arg_10_0:findTF("name")
+	arg_10_0.list = arg_10_0._tf:Find("skipable_list")
+	arg_10_0.tpl = arg_10_0.list:Find("tpl")
+	arg_10_0.title = arg_10_0._tf:Find("name")
 end
 
 function var_0_0.OnRefresh(arg_11_0, arg_11_1)

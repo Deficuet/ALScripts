@@ -7,7 +7,7 @@ var_0_0.Order = {
 }
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
 	arg_1_0.selectIndex = 0
 	arg_1_0.stars = {}
 

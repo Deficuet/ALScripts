@@ -5,26 +5,26 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0._grade = arg_2_0:findTF("grade")
-	arg_2_0._levelText = arg_2_0:findTF("chapterName/Text22", arg_2_0._grade)
-	arg_2_0._main = arg_2_0:findTF("main")
-	arg_2_0._blurConatiner = arg_2_0:findTF("blur_container")
-	arg_2_0._bg = arg_2_0:findTF("main/jiesuanbeijing")
-	arg_2_0._painting = arg_2_0:findTF("painting", arg_2_0._blurConatiner)
-	arg_2_0._chat = arg_2_0:findTF("chat", arg_2_0._painting)
-	arg_2_0._rightBottomPanel = arg_2_0:findTF("rightBottomPanel", arg_2_0._blurConatiner)
-	arg_2_0._confirmBtn = arg_2_0:findTF("confirmBtn", arg_2_0._rightBottomPanel)
+	arg_2_0._grade = arg_2_0._tf:Find("grade")
+	arg_2_0._levelText = arg_2_0._grade:Find("chapterName/Text22")
+	arg_2_0._main = arg_2_0._tf:Find("main")
+	arg_2_0._blurConatiner = arg_2_0._tf:Find("blur_container")
+	arg_2_0._bg = arg_2_0._tf:Find("main/jiesuanbeijing")
+	arg_2_0._painting = arg_2_0._blurConatiner:Find("painting")
+	arg_2_0._chat = arg_2_0._painting:Find("chat")
+	arg_2_0._rightBottomPanel = arg_2_0._blurConatiner:Find("rightBottomPanel")
+	arg_2_0._confirmBtn = arg_2_0._rightBottomPanel:Find("confirmBtn")
 
 	setText(arg_2_0._confirmBtn:Find("Text"), i18n("text_confirm"))
 
-	arg_2_0._statisticsBtn = arg_2_0:findTF("statisticsBtn", arg_2_0._rightBottomPanel)
-	arg_2_0._skipBtn = arg_2_0:findTF("skipLayer", arg_2_0._tf)
-	arg_2_0._conditions = arg_2_0:findTF("main/conditions")
-	arg_2_0._conditionContainer = arg_2_0:findTF("bg16/list", arg_2_0._conditions)
-	arg_2_0._conditionTpl = arg_2_0:findTF("bg16/conditionTpl", arg_2_0._conditions)
-	arg_2_0._conditionSubTpl = arg_2_0:findTF("bg16/conditionSubTpl", arg_2_0._conditions)
-	arg_2_0._conditionContributeTpl = arg_2_0:findTF("bg16/conditionContributeTpl", arg_2_0._conditions)
-	arg_2_0._conditionBGContribute = arg_2_0:findTF("bg16/bg_contribute", arg_2_0._conditions)
+	arg_2_0._statisticsBtn = arg_2_0._rightBottomPanel:Find("statisticsBtn")
+	arg_2_0._skipBtn = arg_2_0._tf:Find("skipLayer")
+	arg_2_0._conditions = arg_2_0._tf:Find("main/conditions")
+	arg_2_0._conditionContainer = arg_2_0._conditions:Find("bg16/list")
+	arg_2_0._conditionTpl = arg_2_0._conditions:Find("bg16/conditionTpl")
+	arg_2_0._conditionSubTpl = arg_2_0._conditions:Find("bg16/conditionSubTpl")
+	arg_2_0._conditionContributeTpl = arg_2_0._conditions:Find("bg16/conditionContributeTpl")
+	arg_2_0._conditionBGContribute = arg_2_0._conditions:Find("bg16/bg_contribute")
 
 	arg_2_0:setGradeLabel()
 	SetActive(arg_2_0._levelText, false)
@@ -44,16 +44,16 @@ function var_0_0.setGradeLabel(arg_4_0)
 		"a",
 		"s"
 	}
-	local var_4_1 = arg_4_0:findTF("grade/Xyz/bg13")
-	local var_4_2 = arg_4_0:findTF("grade/Xyz/bg14")
+	local var_4_1 = arg_4_0._tf:Find("grade/Xyz/bg13")
+	local var_4_2 = arg_4_0._tf:Find("grade/Xyz/bg14")
 	local var_4_3
 	local var_4_4
 	local var_4_5
 	local var_4_6 = arg_4_0.contextData.score
 	local var_4_7 = var_4_6 > ys.Battle.BattleConst.BattleScore.C
 
-	setActive(arg_4_0:findTF("jieuan01/BG/bg_victory", arg_4_0._bg), var_4_7)
-	setActive(arg_4_0:findTF("jieuan01/BG/bg_fail", arg_4_0._bg), not var_4_7)
+	setActive(arg_4_0._bg:Find("jieuan01/BG/bg_victory"), var_4_7)
+	setActive(arg_4_0._bg:Find("jieuan01/BG/bg_fail"), not var_4_7)
 
 	local var_4_8 = var_4_0[var_4_6 + 1]
 	local var_4_9 = "battlescore/battle_score_" .. var_4_8 .. "/letter_" .. var_4_8
@@ -89,7 +89,7 @@ function var_0_0.didEnter(arg_5_0)
 end
 
 function var_0_0.rankAnimaFinish(arg_8_0)
-	local var_8_0 = arg_8_0:findTF("main/conditions")
+	local var_8_0 = arg_8_0._tf:Find("main/conditions")
 
 	SetActive(var_8_0, true)
 
@@ -102,7 +102,7 @@ function var_0_0.rankAnimaFinish(arg_8_0)
 	local var_8_2 = LeanTween.delayedCall(1, System.Action(function()
 		arg_8_0._stateFlag = var_0_0.STATE_REPORTED
 
-		SetActive(arg_8_0:findTF("jieuan01/tips", arg_8_0._bg), true)
+		SetActive(arg_8_0._bg:Find("jieuan01/tips"), true)
 	end))
 
 	table.insert(arg_8_0._delayLeanList, var_8_2.id)
@@ -145,7 +145,7 @@ function var_0_0.displayBG(arg_12_0)
 
 		arg_12_0._stateFlag = var_0_0.STATE_DISPLAYED
 	end))
-	setActive(arg_12_0:findTF("jieuan01/Bomb", arg_12_0._bg), false)
+	setActive(arg_12_0._bg:Find("jieuan01/Bomb"), false)
 end
 
 function var_0_0.showPainting(arg_14_0)
@@ -204,7 +204,7 @@ end
 
 function var_0_0.willExit(arg_21_0)
 	LeanTween.cancel(go(arg_21_0._tf))
-	pg.UIMgr.GetInstance():UnblurPanel(arg_21_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf)
 end
 
 return var_0_0

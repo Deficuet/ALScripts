@@ -212,6 +212,7 @@ function var_0_0.confirm(arg_12_0, arg_12_1)
 
 			local var_12_8 = {
 				isChargeType = true,
+				commodity = arg_12_1,
 				infoTip = arg_12_1:GetInfoTip(),
 				icon = "chargeicon/" .. arg_12_1:getConfig("picture"),
 				name = arg_12_1:getConfig("name_display"),
@@ -248,6 +249,7 @@ function var_0_0.confirm(arg_12_0, arg_12_1)
 
 			local var_12_11 = {
 				isChargeType = true,
+				commodity = arg_12_1,
 				icon = "chargeicon/" .. arg_12_1:getConfig("picture"),
 				name = arg_12_1:getConfig("name_display"),
 				price = arg_12_1:getConfig("money"),
@@ -285,6 +287,7 @@ function var_0_0.confirm(arg_12_0, arg_12_1)
 			isMonthCard = false,
 			isChargeType = false,
 			isLocalPrice = false,
+			commodity = arg_12_1,
 			icon = var_12_14.icon,
 			name = var_12_14.name,
 			tipExtra = i18n("charge_title_getitem"),
@@ -306,18 +309,19 @@ function var_0_0.confirm(arg_12_0, arg_12_1)
 end
 
 function var_0_0.StartTimer(arg_17_0, arg_17_1)
-	arg_17_0.timer = Timer.New(function()
+	arg_17_0.cardTimer = Timer.New(function()
 		arg_17_1()
 	end, 1, -1)
 
-	arg_17_0.timer:Start()
+	arg_17_1()
+	arg_17_0.cardTimer:Start()
 end
 
 function var_0_0.RemoveAllTimer(arg_19_0)
-	if arg_19_0.timer then
-		arg_19_0.timer:Stop()
+	if arg_19_0.cardTimer then
+		arg_19_0.cardTimer:Stop()
 
-		arg_19_0.timer = nil
+		arg_19_0.cardTimer = nil
 	end
 end
 

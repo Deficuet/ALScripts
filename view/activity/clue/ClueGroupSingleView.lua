@@ -9,10 +9,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.clueGroupTf = arg_2_0:findTF("clueGroup")
+	arg_2_0.clueGroupTf = arg_2_0._tf:Find("clueGroup")
 
-	setText(arg_2_0:findTF("goBtn/Text", arg_2_0.clueGroupTf), i18n("clue_task_goto"))
-	setText(arg_2_0:findTF("closeTip"), i18n("clue_close_tip"))
+	setText(arg_2_0.clueGroupTf:Find("goBtn/Text"), i18n("clue_task_goto"))
+	setText(arg_2_0._tf:Find("closeTip"), i18n("clue_close_tip"))
 
 	arg_2_0.timerList = {}
 end
@@ -23,11 +23,11 @@ function var_0_0.didEnter(arg_3_0)
 	arg_3_0.investigatingGroupId = PlayerPrefs.GetInt("investigatingGroupId_" .. arg_3_0.activityId .. "_" .. arg_3_0.playerId)
 	arg_3_0.taskProxy = getProxy(TaskProxy)
 
-	onButton(arg_3_0, arg_3_0:findTF("mask"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("mask"), function()
 		arg_3_0:closeView()
 	end, SFX_PANEL)
 	arg_3_0:SetClueGroup()
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.SetClueGroup(arg_5_0)
@@ -48,42 +48,42 @@ function var_0_0.SetClueGroup(arg_5_0)
 		var_5_7[iter_5_0] = arg_5_0.taskProxy:getFinishTaskById(tonumber(var_5_5[iter_5_0].task_id))
 	end
 
-	setText(arg_5_0:findTF("title/Text", var_5_2), var_5_3.title)
-	setActive(arg_5_0:findTF("title/Text", var_5_2), var_5_7[1] or var_5_7[2] or var_5_7[3])
-	setActive(arg_5_0:findTF("title/lock", var_5_2), not var_5_7[1] and not var_5_7[2] and not var_5_7[3])
-	LoadImageSpriteAsync("cluepictures/" .. var_5_3.pic, arg_5_0:findTF("picture", var_5_2), true)
+	setText(var_5_2:Find("title/Text"), var_5_3.title)
+	setActive(var_5_2:Find("title/Text"), var_5_7[1] or var_5_7[2] or var_5_7[3])
+	setActive(var_5_2:Find("title/lock"), not var_5_7[1] and not var_5_7[2] and not var_5_7[3])
+	LoadImageSpriteAsync("cluepictures/" .. var_5_3.pic, var_5_2:Find("picture"), true)
 
 	if var_5_3.type == 1 then
-		arg_5_0:findTF("picture", var_5_2).localScale = Vector3(1, 1, 1)
+		var_5_2:Find("picture").localScale = Vector3(1, 1, 1)
 	else
-		arg_5_0:findTF("picture", var_5_2).localScale = Vector3(0.6, 0.6, 1)
+		var_5_2:Find("picture").localScale = Vector3(0.6, 0.6, 1)
 	end
 
-	setActive(arg_5_0:findTF("picture/lockSite", var_5_2), var_5_3.type == 1 and not var_5_7[1] and not var_5_7[2] and not var_5_7[3])
-	setActive(arg_5_0:findTF("picture/lockChara", var_5_2), var_5_3.type == 2 and not var_5_7[1] and not var_5_7[2] and not var_5_7[3])
+	setActive(var_5_2:Find("picture/lockSite"), var_5_3.type == 1 and not var_5_7[1] and not var_5_7[2] and not var_5_7[3])
+	setActive(var_5_2:Find("picture/lockChara"), var_5_3.type == 2 and not var_5_7[1] and not var_5_7[2] and not var_5_7[3])
 
 	local var_5_8 = false
 
 	for iter_5_1 = 1, 3 do
 		if var_5_7[iter_5_1] then
-			setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_1, var_5_2), var_5_5[iter_5_1].desc)
+			setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_1), var_5_5[iter_5_1].desc)
 		elseif arg_5_0.investigatingGroupId == var_5_0 then
-			setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_1, var_5_2), "<color=#858593>" .. var_5_5[iter_5_1].unlock_desc .. var_5_5[iter_5_1].unlock_num .. i18n("clue_task_tip", var_5_6) .. "</color>")
+			setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_1), "<color=#858593>" .. var_5_5[iter_5_1].unlock_desc .. var_5_5[iter_5_1].unlock_num .. i18n("clue_task_tip", var_5_6) .. "</color>")
 		elseif not var_5_8 then
 			var_5_8 = true
 
-			setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_1, var_5_2), "<color=#858593>" .. var_5_5[iter_5_1].unlock_desc .. var_5_5[iter_5_1].unlock_num .. i18n("clue_task_tip", var_5_6) .. "</color>")
+			setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_1), "<color=#858593>" .. var_5_5[iter_5_1].unlock_desc .. var_5_5[iter_5_1].unlock_num .. i18n("clue_task_tip", var_5_6) .. "</color>")
 		else
-			setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_1, var_5_2), "<color=#858593>？？？</color>")
+			setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_1), "<color=#858593>？？？</color>")
 		end
 	end
 
-	setActive(arg_5_0:findTF("goBtn/selected", var_5_2), arg_5_0.investigatingGroupId == var_5_0)
-	onButton(arg_5_0, arg_5_0:findTF("goBtn", var_5_2), function()
+	setActive(var_5_2:Find("goBtn/selected"), arg_5_0.investigatingGroupId == var_5_0)
+	onButton(arg_5_0, var_5_2:Find("goBtn"), function()
 		arg_5_0.investigatingGroupId = var_5_0
 
 		PlayerPrefs.SetInt("investigatingGroupId_" .. arg_5_0.activityId .. "_" .. arg_5_0.playerId, var_5_0)
-		setActive(arg_5_0:findTF("goBtn/selected", var_5_2), true)
+		setActive(var_5_2:Find("goBtn/selected"), true)
 
 		if arg_5_0.pageIndex == 1 then
 			arg_5_0:ShowSitePage()
@@ -96,53 +96,53 @@ function var_0_0.SetClueGroup(arg_5_0)
 	end, SFX_PANEL)
 
 	if not var_5_7[1] and not var_5_7[2] and not var_5_7[3] then
-		setActive(arg_5_0:findTF("triangle", arg_5_0.clueGroupTf), false)
+		setActive(arg_5_0.clueGroupTf:Find("triangle"), false)
 	else
-		setActive(arg_5_0:findTF("triangle", arg_5_0.clueGroupTf), true)
-		setActive(arg_5_0:findTF("triangle", arg_5_0.clueGroupTf), arg_5_0:findTF("clueScroll", arg_5_0.clueGroupTf):GetComponent(typeof(ScrollRect)).normalizedPosition.y > 0.01)
-		onScroll(arg_5_0, arg_5_0:findTF("clueScroll", arg_5_0.clueGroupTf), function(arg_7_0)
-			setActive(arg_5_0:findTF("triangle", arg_5_0.clueGroupTf), arg_7_0.y > 0.01)
+		setActive(arg_5_0.clueGroupTf:Find("triangle"), true)
+		setActive(arg_5_0.clueGroupTf:Find("triangle"), arg_5_0.clueGroupTf:Find("clueScroll"):GetComponent(typeof(ScrollRect)).normalizedPosition.y > 0.01)
+		onScroll(arg_5_0, arg_5_0.clueGroupTf:Find("clueScroll"), function(arg_7_0)
+			setActive(arg_5_0.clueGroupTf:Find("triangle"), arg_7_0.y > 0.01)
 		end)
 	end
 
-	setActive(arg_5_0:findTF("top"), var_5_1 and #var_5_1 > 0)
+	setActive(arg_5_0._tf:Find("top"), var_5_1 and #var_5_1 > 0)
 
 	if var_5_1 and #var_5_1 > 0 then
 		if table.contains(var_5_1, var_5_4[1]) then
-			setActive(arg_5_0:findTF("title/Text", var_5_2), false)
-			setActive(arg_5_0:findTF("title/lock", var_5_2), true)
-			setActive(arg_5_0:findTF("picture/lockSite", var_5_2), var_5_3.type == 1)
-			setActive(arg_5_0:findTF("picture/lockChara", var_5_2), var_5_3.type == 2)
+			setActive(var_5_2:Find("title/Text"), false)
+			setActive(var_5_2:Find("title/lock"), true)
+			setActive(var_5_2:Find("picture/lockSite"), var_5_3.type == 1)
+			setActive(var_5_2:Find("picture/lockChara"), var_5_3.type == 2)
 
 			for iter_5_2 = 1, #var_5_1 do
 				if arg_5_0.investigatingGroupId == var_5_0 then
-					setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_2, var_5_2), "<color=#858593>" .. var_5_5[iter_5_2].unlock_desc .. var_5_5[iter_5_2].unlock_num .. "</color>")
+					setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_2), "<color=#858593>" .. var_5_5[iter_5_2].unlock_desc .. var_5_5[iter_5_2].unlock_num .. "</color>")
 				else
-					setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_2, var_5_2), "<color=#858593>？？？</color>")
+					setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_2), "<color=#858593>？？？</color>")
 				end
 			end
 
 			arg_5_0:StartTimer(function()
-				setActive(arg_5_0:findTF("title/Text", var_5_2), true)
+				setActive(var_5_2:Find("title/Text"), true)
 
-				local var_8_0 = arg_5_0:findTF("title", var_5_2):GetComponent(typeof(Animation)):Play("anim_clue_single_unlock1")
+				local var_8_0 = var_5_2:Find("title"):GetComponent(typeof(Animation)):Play("anim_clue_single_unlock1")
 
-				arg_5_0:SetEndAniEvent(arg_5_0:findTF("title", var_5_2), function()
-					setActive(arg_5_0:findTF("title/lock", var_5_2), false)
+				arg_5_0:SetEndAniEvent(var_5_2:Find("title"), function()
+					setActive(var_5_2:Find("title/lock"), false)
 				end)
 			end, var_0_3)
 			arg_5_0:StartTimer(function()
-				local var_10_0 = arg_5_0:findTF("picture", var_5_2):GetComponent(typeof(Animation)):Play("anim_clue_single_unlock")
+				local var_10_0 = var_5_2:Find("picture"):GetComponent(typeof(Animation)):Play("anim_clue_single_unlock")
 
-				arg_5_0:SetEndAniEvent(arg_5_0:findTF("picture", var_5_2), function()
-					setActive(arg_5_0:findTF("picture/lockSite", var_5_2), false)
-					setActive(arg_5_0:findTF("picture/lockChara", var_5_2), false)
+				arg_5_0:SetEndAniEvent(var_5_2:Find("picture"), function()
+					setActive(var_5_2:Find("picture/lockSite"), false)
+					setActive(var_5_2:Find("picture/lockChara"), false)
 				end)
 			end, var_0_3)
 
 			for iter_5_3 = 1, #var_5_1 do
 				arg_5_0:StartTimer(function()
-					setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_3, var_5_2), var_5_5[iter_5_3].desc)
+					setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_3), var_5_5[iter_5_3].desc)
 				end, var_0_4 * iter_5_3 + var_0_3)
 			end
 		else
@@ -150,9 +150,9 @@ function var_0_0.SetClueGroup(arg_5_0)
 
 			for iter_5_4 = var_5_9, 3 do
 				if arg_5_0.investigatingGroupId == var_5_0 then
-					setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_4, var_5_2), "<color=#858593>" .. var_5_5[iter_5_4].unlock_desc .. var_5_5[iter_5_4].unlock_num .. "</color>")
+					setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_4), "<color=#858593>" .. var_5_5[iter_5_4].unlock_desc .. var_5_5[iter_5_4].unlock_num .. "</color>")
 				else
-					setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_4, var_5_2), "<color=#858593>？？？</color>")
+					setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_4), "<color=#858593>？？？</color>")
 				end
 			end
 
@@ -160,16 +160,16 @@ function var_0_0.SetClueGroup(arg_5_0)
 
 			for iter_5_5 = var_5_9, var_5_9 + #var_5_1 - 1 do
 				arg_5_0:StartTimer(function()
-					setText(arg_5_0:findTF("clueScroll/Viewport/Content/clue" .. iter_5_5, var_5_2), var_5_5[iter_5_5].desc)
+					setText(var_5_2:Find("clueScroll/Viewport/Content/clue" .. iter_5_5), var_5_5[iter_5_5].desc)
 				end, var_0_4 * var_5_10)
 
 				var_5_10 = var_5_10 + 1
 			end
 		end
 
-		setActive(arg_5_0:findTF("goBtn", var_5_2), false)
+		setActive(var_5_2:Find("goBtn"), false)
 	else
-		setActive(arg_5_0:findTF("goBtn", var_5_2), not var_5_7[1] or not var_5_7[2] or not var_5_7[3])
+		setActive(var_5_2:Find("goBtn"), not var_5_7[1] or not var_5_7[2] or not var_5_7[3])
 	end
 end
 

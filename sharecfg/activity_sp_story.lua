@@ -3988,6 +3988,1567 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[231] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 The Secret Realm of the Dragon Palace.",
+		unlock_conditions = "",
+		change_prefab = "",
+		change_background = "star_level_bg_490",
+		story = "QIWUYUTIANYUANZHISHANG1",
+		change_bgm = "story-amahara-stage2",
+		id = 231,
+		lock = ""
+	},
+	[232] = {
+		story_type = 1,
+		name = "EP1-1 Ama no Tobira",
+		unlock_conditions = "Clear EPS-1.",
+		change_bgm = "story-amahara-stage2",
+		change_prefab = "",
+		change_background = "star_level_bg_492",
+		id = 232,
+		story = "QIWUYUTIANYUANZHISHANG2",
+		pre_event = {
+			231
+		},
+		lock = {
+			{
+				4,
+				231
+			}
+		}
+	},
+	[233] = {
+		story_type = 1,
+		name = "EP1-2 Ride the Clouds",
+		unlock_conditions = "Clear EP1-1.",
+		change_bgm = "story-amahara-stage3",
+		change_prefab = "",
+		change_background = "bg_amahara_cg1",
+		id = 233,
+		story = "QIWUYUTIANYUANZHISHANG3",
+		pre_event = {
+			232
+		},
+		lock = {
+			{
+				4,
+				232
+			}
+		}
+	},
+	[234] = {
+		story_type = 1,
+		name = "EP1-3 A Table in the Sea of Clouds",
+		unlock_conditions = "Clear EP1-2.",
+		change_bgm = "story-amahara-stage1",
+		change_prefab = "",
+		change_background = "bg_amahara_1",
+		id = 234,
+		story = "QIWUYUTIANYUANZHISHANG4",
+		pre_event = {
+			233
+		},
+		lock = {
+			{
+				4,
+				233
+			}
+		}
+	},
+	[235] = {
+		story_type = 1,
+		name = "EP1-4 Amahara's Scenery",
+		unlock_conditions = "Clear EP1-3.",
+		change_bgm = "story-mayrain",
+		change_prefab = "",
+		change_background = "star_level_bg_492",
+		id = 235,
+		story = "QIWUYUTIANYUANZHISHANG5",
+		pre_event = {
+			234
+		},
+		lock = {
+			{
+				4,
+				234
+			}
+		}
+	},
+	[236] = {
+		story_type = 1,
+		name = "EP1-5 Dream Stones",
+		unlock_conditions = "Clear EP1-4.",
+		change_bgm = "story-amahara-stage2",
+		change_prefab = "",
+		change_background = "star_level_bg_490",
+		id = 236,
+		story = "QIWUYUTIANYUANZHISHANG6",
+		pre_event = {
+			235
+		},
+		lock = {
+			{
+				4,
+				235
+			}
+		}
+	},
+	[237] = {
+		story_type = 1,
+		name = "EP2-1 Cloudsea Wine",
+		unlock_conditions = "Clear EP1-5.",
+		change_bgm = "story-amahara-stage2",
+		change_prefab = "",
+		change_background = "bg_amahara_cg5",
+		id = 237,
+		story = "QIWUYUTIANYUANZHISHANG7",
+		pre_event = {
+			236
+		},
+		lock = {
+			{
+				4,
+				236
+			}
+		}
+	},
+	[238] = {
+		story_type = 1,
+		name = "EP2-2 Weaving Dreams",
+		unlock_conditions = "Clear EP2-1.",
+		change_bgm = "story-island-soft",
+		change_prefab = "",
+		change_background = "star_level_bg_539",
+		id = 238,
+		story = "QIWUYUTIANYUANZHISHANG8",
+		pre_event = {
+			237
+		},
+		lock = {
+			{
+				4,
+				237
+			}
+		}
+	},
+	[239] = {
+		story_type = 1,
+		name = "EP2-3 Peace?",
+		unlock_conditions = "Clear EP2-2.",
+		change_bgm = "battle-eagleunion",
+		change_prefab = "",
+		change_background = "bg_tieyiqingfeng_1",
+		id = 239,
+		story = "QIWUYUTIANYUANZHISHANG9",
+		pre_event = {
+			238
+		},
+		lock = {
+			{
+				4,
+				238
+			}
+		}
+	},
+	[240] = {
+		story_type = 1,
+		name = "EP2-4 Unfolding?",
+		unlock_conditions = "Clear EP2-3.",
+		change_bgm = "story-temepest-2",
+		change_prefab = "",
+		change_background = "star_level_bg_491",
+		id = 240,
+		story = "QIWUYUTIANYUANZHISHANG10",
+		pre_event = {
+			239
+		},
+		lock = {
+			{
+				4,
+				239
+			}
+		}
+	},
+	[241] = {
+		story_type = 1,
+		name = "EP2-5 Anxiety?",
+		unlock_conditions = "Clear EP2-4.",
+		change_bgm = "musashi-2",
+		change_prefab = "",
+		change_background = "bg_amahara_2",
+		id = 241,
+		story = "QIWUYUTIANYUANZHISHANG11",
+		pre_event = {
+			240
+		},
+		lock = {
+			{
+				4,
+				240
+			}
+		}
+	},
+	[242] = {
+		story_type = 1,
+		name = "EPS-2 All-Out Invasion",
+		unlock_conditions = "Clear EP2-5.",
+		change_bgm = "theme-starsea-core",
+		change_prefab = "",
+		change_background = "bg_port_chongdong",
+		id = 242,
+		story = "QIWUYUTIANYUANZHISHANG12",
+		pre_event = {
+			241
+		},
+		lock = {
+			{
+				4,
+				241
+			}
+		}
+	},
+	[243] = {
+		story_type = 1,
+		name = "EPS-3 The Web of a Bygone Day",
+		unlock_conditions = "Clear EPS-2.",
+		change_bgm = "battle-unzen-1",
+		change_prefab = "",
+		change_background = "bg_amahara_cg6",
+		id = 243,
+		story = "QIWUYUTIANYUANZHISHANG13",
+		pre_event = {
+			241
+		},
+		lock = {
+			{
+				4,
+				242
+			}
+		}
+	},
+	[244] = {
+		story_type = 2,
+		name = "EP3-1 Push Through the Dark Tide",
+		unlock_conditions = "Clear EPS-3.",
+		change_bgm = "theme-sakuraholyplace",
+		change_prefab = "",
+		change_background = "bg_amahara_cg7",
+		id = 244,
+		story = "1966001",
+		pre_event = {
+			242,
+			243
+		},
+		lock = {
+			{
+				4,
+				243
+			}
+		}
+	},
+	[245] = {
+		story_type = 1,
+		name = "EP3-2 Phase Shift",
+		unlock_conditions = "Clear EP3-1.",
+		change_bgm = "battle-boss-ucnf",
+		change_prefab = "",
+		change_background = "bg_amahara_3",
+		id = 245,
+		story = "QIWUYUTIANYUANZHISHANG15",
+		pre_event = {
+			244
+		},
+		lock = {
+			{
+				4,
+				244
+			}
+		}
+	},
+	[246] = {
+		story_type = 1,
+		name = "EP3-3 The Depths",
+		unlock_conditions = "Clear EP3-2.",
+		change_bgm = "bgm-waterwave",
+		change_prefab = "",
+		change_background = "star_level_bg_493",
+		id = 246,
+		story = "QIWUYUTIANYUANZHISHANG16",
+		pre_event = {
+			245
+		},
+		lock = {
+			{
+				4,
+				245
+			}
+		}
+	},
+	[247] = {
+		story_type = 1,
+		name = "EP-? Stepping Into Amahara - Part 1",
+		unlock_conditions = "Clear EP3-3.",
+		change_bgm = "bgm-waterwave",
+		change_prefab = "",
+		change_background = "star_level_bg_493",
+		id = 247,
+		story = "QIWUYUTIANYUANZHISHANG17",
+		pre_event = {
+			246
+		},
+		lock = {
+			{
+				4,
+				246
+			}
+		}
+	},
+	[248] = {
+		story_type = 1,
+		name = "EP-? Stepping Into Amahara - Part 2",
+		unlock_conditions = "Clear EP-?",
+		change_bgm = "story-worldα-brokenlight",
+		change_prefab = "",
+		change_background = "bg_xiangting_2",
+		id = 248,
+		story = "QIWUYUTIANYUANZHISHANG18",
+		pre_event = {
+			247
+		},
+		lock = {
+			{
+				4,
+				247
+			}
+		}
+	},
+	[249] = {
+		story_type = 1,
+		name = "EP4-1 The Long Island Defense Line, Again",
+		unlock_conditions = "Clear EP-?",
+		change_bgm = "story-worldα-grief",
+		change_prefab = "",
+		change_background = "star_level_bg_494",
+		id = 249,
+		story = "QIWUYUTIANYUANZHISHANG19",
+		pre_event = {
+			248
+		},
+		lock = {
+			{
+				4,
+				248
+			}
+		}
+	},
+	[250] = {
+		story_type = 1,
+		name = "EP4-2 Operation: Rescue Anzeel",
+		unlock_conditions = "Clear EP4-1",
+		change_bgm = "story-worldα-grief",
+		change_prefab = "",
+		change_background = "star_level_bg_170",
+		id = 250,
+		story = "QIWUYUTIANYUANZHISHANG20",
+		pre_event = {
+			249
+		},
+		lock = {
+			{
+				4,
+				249
+			}
+		}
+	},
+	[251] = {
+		story_type = 1,
+		name = "EP4-3 A Glimmer in the Strings",
+		unlock_conditions = "Clear EP4-2",
+		change_bgm = "story-worldα-brokenlight",
+		change_prefab = "",
+		change_background = "bg_zhedie_2",
+		id = 251,
+		story = "QIWUYUTIANYUANZHISHANG21",
+		pre_event = {
+			250
+		},
+		lock = {
+			{
+				4,
+				250
+			}
+		}
+	},
+	[252] = {
+		story_type = 1,
+		name = "EP4-4 Operation: Rescue Anzeel 2.0",
+		unlock_conditions = "Clear EP4-3",
+		change_bgm = "story-worldα-brokenlight",
+		change_prefab = "",
+		change_background = "star_level_bg_306",
+		id = 252,
+		story = "QIWUYUTIANYUANZHISHANG22",
+		pre_event = {
+			251
+		},
+		lock = {
+			{
+				4,
+				251
+			}
+		}
+	},
+	[253] = {
+		story_type = 1,
+		name = "EP4-5 Preliminary Prep",
+		unlock_conditions = "Clear EP4-4",
+		change_bgm = "story-worldα-brokenlight",
+		change_prefab = "",
+		change_background = "bg_zhedie_2",
+		id = 253,
+		story = "QIWUYUTIANYUANZHISHANG23",
+		pre_event = {
+			252
+		},
+		lock = {
+			{
+				4,
+				252
+			}
+		}
+	},
+	[254] = {
+		story_type = 1,
+		name = "EP4-6 Imprisoned",
+		unlock_conditions = "Clear EP4-5",
+		change_bgm = "battle-eagleunion",
+		change_prefab = "",
+		change_background = "bg_zhedie_2",
+		id = 254,
+		story = "QIWUYUTIANYUANZHISHANG24",
+		pre_event = {
+			253
+		},
+		lock = {
+			{
+				4,
+				253
+			}
+		}
+	},
+	[255] = {
+		story_type = 1,
+		name = "EP5-1 Preliminary Prep 2.0",
+		unlock_conditions = "Clear EP4-6",
+		change_bgm = "story-amahara-stage2",
+		change_prefab = "",
+		change_background = "bg_zhedie_2",
+		id = 255,
+		story = "QIWUYUTIANYUANZHISHANG25",
+		pre_event = {
+			254
+		},
+		lock = {
+			{
+				4,
+				254
+			}
+		}
+	},
+	[256] = {
+		story_type = 1,
+		name = "EP5-2 Defensive Area A",
+		unlock_conditions = "Clear EP5-1",
+		change_bgm = "theme-starsea-core",
+		change_prefab = "",
+		change_background = "bg_zhedie_2",
+		id = 256,
+		story = "QIWUYUTIANYUANZHISHANG26",
+		pre_event = {
+			255
+		},
+		lock = {
+			{
+				4,
+				255
+			}
+		}
+	},
+	[257] = {
+		story_type = 1,
+		name = "EP5-3 Defensive Area B",
+		unlock_conditions = "Clear EP5-2",
+		change_bgm = "theme-unzen",
+		change_prefab = "",
+		change_background = "bg_zhedie_2",
+		id = 257,
+		story = "QIWUYUTIANYUANZHISHANG27",
+		pre_event = {
+			255
+		},
+		lock = {
+			{
+				4,
+				256
+			}
+		}
+	},
+	[258] = {
+		story_type = 1,
+		name = "EP5-4 Defensive Area C",
+		unlock_conditions = "Clear EP5-3",
+		change_bgm = "theme-akagi-inside",
+		change_prefab = "",
+		change_background = "bg_zhedie_2",
+		id = 258,
+		story = "QIWUYUTIANYUANZHISHANG28",
+		pre_event = {
+			255
+		},
+		lock = {
+			{
+				4,
+				257
+			}
+		}
+	},
+	[259] = {
+		story_type = 1,
+		name = "EP5-5 A Dash of Crimson",
+		unlock_conditions = "Clear EP5-4",
+		change_bgm = "battle-unknown-approaching",
+		change_prefab = "",
+		change_background = "bg_zhedie_2",
+		id = 259,
+		story = "QIWUYUTIANYUANZHISHANG29",
+		pre_event = {
+			256,
+			257,
+			258
+		},
+		lock = {
+			{
+				4,
+				258
+			}
+		}
+	},
+	[260] = {
+		story_type = 1,
+		name = "EP6-1 The Black Wall",
+		unlock_conditions = "Clear EP5-5",
+		change_bgm = "theme-longgong-another",
+		change_prefab = "",
+		change_background = "bg_zhedie_2",
+		id = 260,
+		story = "QIWUYUTIANYUANZHISHANG30",
+		pre_event = {
+			259
+		},
+		lock = {
+			{
+				4,
+				259
+			}
+		}
+	},
+	[261] = {
+		story_type = 1,
+		name = "EP6-2 Not a Moment Too Soon",
+		unlock_conditions = "Clear EP6-1",
+		change_bgm = "theme-helena",
+		change_prefab = "",
+		change_background = "bg_amahara_cg10",
+		id = 261,
+		story = "QIWUYUTIANYUANZHISHANG31",
+		pre_event = {
+			260
+		},
+		lock = {
+			{
+				4,
+				260
+			}
+		}
+	},
+	[262] = {
+		story_type = 1,
+		name = "EP6-3 As Blue as the Sea",
+		unlock_conditions = "Clear EP6-2",
+		change_bgm = "theme-helena",
+		change_prefab = "",
+		change_background = "bg_underwater",
+		id = 262,
+		story = "QIWUYUTIANYUANZHISHANG32",
+		pre_event = {
+			261
+		},
+		lock = {
+			{
+				4,
+				261
+			}
+		}
+	},
+	[263] = {
+		story_type = 1,
+		name = "EP6-4 Farewell",
+		unlock_conditions = "Clear EP6-3",
+		change_bgm = "story-amahara-stage1",
+		change_prefab = "",
+		change_background = "bg_amahara_4",
+		id = 263,
+		story = "QIWUYUTIANYUANZHISHANG33",
+		pre_event = {
+			262
+		},
+		lock = {
+			{
+				4,
+				262
+			}
+		}
+	},
+	[264] = {
+		story_type = 1,
+		name = "EP6-5 Epilogue",
+		unlock_conditions = "Clear EP6-4",
+		change_bgm = "story-amahara-stage1",
+		change_prefab = "",
+		change_background = "star_level_bg_111",
+		id = 264,
+		story = "QIWUYUTIANYUANZHISHANG34",
+		pre_event = {
+			263
+		},
+		lock = {
+			{
+				4,
+				263
+			}
+		}
+	},
+	[265] = {
+		story_type = 1,
+		name = "EX-1 Amahara Forevermore",
+		unlock_conditions = "Clear EP6-5",
+		change_bgm = "theme-akagi-inside",
+		change_prefab = "",
+		change_background = "star_level_bg_492",
+		id = 265,
+		story = "QIWUYUTIANYUANZHISHANG35",
+		pre_event = {
+			264
+		},
+		lock = {
+			{
+				4,
+				264
+			}
+		}
+	},
+	[266] = {
+		story_type = 1,
+		name = "EX-2 A Crimson Farewell",
+		unlock_conditions = "Clear EX-1",
+		change_bgm = "theme-starsea-core",
+		change_prefab = "",
+		change_background = "bg_port_chongdong",
+		id = 266,
+		story = "QIWUYUTIANYUANZHISHANG36",
+		pre_event = {
+			265
+		},
+		lock = {
+			{
+				4,
+				265
+			}
+		}
+	},
+	[267] = {
+		story_type = 1,
+		name = "EX-3 Helena's Resolve",
+		unlock_conditions = "Clear EX-2",
+		change_bgm = "story-richang-light",
+		change_prefab = "",
+		change_background = "star_level_bg_170",
+		id = 267,
+		story = "QIWUYUTIANYUANZHISHANG37",
+		pre_event = {
+			266
+		},
+		lock = {
+			{
+				4,
+				266
+			}
+		}
+	},
+	[268] = {
+		story_type = 1,
+		name = "EX-4 Everything Will Be Fine",
+		unlock_conditions = "Clear EX-3",
+		change_bgm = "theme-starsea-core",
+		change_prefab = "",
+		change_background = "star_level_bg_589",
+		id = 268,
+		story = "QIWUYUTIANYUANZHISHANG38",
+		pre_event = {
+			267
+		},
+		lock = {
+			{
+				4,
+				267
+			}
+		}
+	},
+	[269] = {
+		story_type = 1,
+		name = "EX-5 Sweet Bait",
+		unlock_conditions = "Clear EX-4",
+		change_bgm = "story-amahara-stage1",
+		change_prefab = "Map_1960002",
+		change_background = "bg_amahara_4",
+		id = 269,
+		story = "QIWUYUTIANYUANZHISHANG39",
+		pre_event = {
+			268
+		},
+		lock = {
+			{
+				4,
+				268
+			}
+		}
+	},
+	[271] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 The Long and Short of It",
+		unlock_conditions = "",
+		change_prefab = "",
+		change_background = "",
+		story = "QINGKONGXIADEXIEHOUGUANQIA1",
+		change_bgm = "",
+		id = 271,
+		lock = ""
+	},
+	[272] = {
+		story_type = 1,
+		name = "EP1-1 Hestia's Visit",
+		unlock_conditions = "Clear EPS-1.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 272,
+		story = "QINGKONGXIADEXIEHOUGUANQIA2",
+		pre_event = {
+			271
+		},
+		lock = {
+			{
+				4,
+				271
+			}
+		}
+	},
+	[273] = {
+		story_type = 1,
+		name = "EP1-2 The God and the Dungeon",
+		unlock_conditions = "Clear EP1-1.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 273,
+		story = "QINGKONGXIADEXIEHOUGUANQIA3",
+		pre_event = {
+			272
+		},
+		lock = {
+			{
+				4,
+				272
+			}
+		}
+	},
+	[274] = {
+		story_type = 1,
+		name = "EP1-3 Confluence",
+		unlock_conditions = "Clear EP1-2.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 274,
+		story = "QINGKONGXIADEXIEHOUGUANQIA4",
+		pre_event = {
+			273
+		},
+		lock = {
+			{
+				4,
+				273
+			}
+		}
+	},
+	[275] = {
+		story_type = 1,
+		name = "EP2-1 Ryu's Story",
+		unlock_conditions = "Clear EP1-3.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 275,
+		story = "QINGKONGXIADEXIEHOUGUANQIA5",
+		pre_event = {
+			271
+		},
+		lock = {
+			{
+				4,
+				274
+			}
+		}
+	},
+	[276] = {
+		story_type = 1,
+		name = "EP2-2 The God and the Adventurer",
+		unlock_conditions = "Clear EP2-1.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 276,
+		story = "QINGKONGXIADEXIEHOUGUANQIA6",
+		pre_event = {
+			275
+		},
+		lock = {
+			{
+				4,
+				275
+			}
+		}
+	},
+	[277] = {
+		story_type = 1,
+		name = "EP2-3 Supply Issue",
+		unlock_conditions = "Clear EP2-2.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 277,
+		story = "QINGKONGXIADEXIEHOUGUANQIA7",
+		pre_event = {
+			276
+		},
+		lock = {
+			{
+				4,
+				276
+			}
+		}
+	},
+	[278] = {
+		story_type = 1,
+		name = "EP3-1 Cooking",
+		unlock_conditions = "Clear EP2-3.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 278,
+		story = "QINGKONGXIADEXIEHOUGUANQIA8",
+		pre_event = {
+			274,
+			277
+		},
+		lock = {
+			{
+				4,
+				277
+			}
+		}
+	},
+	[279] = {
+		story_type = 1,
+		name = "EP3-2 Adventurer's Magic",
+		unlock_conditions = "Clear EP3-1.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 279,
+		story = "QINGKONGXIADEXIEHOUGUANQIA9",
+		pre_event = {
+			278
+		},
+		lock = {
+			{
+				4,
+				278
+			}
+		}
+	},
+	[280] = {
+		story_type = 1,
+		name = "EP3-3 Drops",
+		unlock_conditions = "Clear EP3-2.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 280,
+		story = "QINGKONGXIADEXIEHOUGUANQIA10",
+		pre_event = {
+			279
+		},
+		lock = {
+			{
+				4,
+				279
+			}
+		}
+	},
+	[281] = {
+		story_type = 1,
+		name = "EP4-1 Riggings",
+		unlock_conditions = "Clear EP3-3.",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 281,
+		story = "QINGKONGXIADEXIEHOUGUANQIA11",
+		pre_event = {
+			280
+		},
+		lock = {
+			{
+				4,
+				280
+			}
+		}
+	},
+	[282] = {
+		story_type = 1,
+		name = "EP4-2 Freely Speeding Across the Sea",
+		unlock_conditions = "Clear EP4-1",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 282,
+		story = "QINGKONGXIADEXIEHOUGUANQIA12",
+		pre_event = {
+			281
+		},
+		lock = {
+			{
+				4,
+				281
+			}
+		}
+	},
+	[283] = {
+		story_type = 2,
+		name = "EP4-3 First Real Battle",
+		unlock_conditions = "Clear EP4-2",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 283,
+		story = "1967001",
+		pre_event = {
+			282
+		},
+		lock = {
+			{
+				4,
+				282
+			}
+		}
+	},
+	[284] = {
+		story_type = 1,
+		name = "EP4-4 A Seasoned Adventurer",
+		unlock_conditions = "Clear EP4-3",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 284,
+		story = "QINGKONGXIADEXIEHOUGUANQIA14",
+		pre_event = {
+			283
+		},
+		lock = {
+			{
+				4,
+				283
+			}
+		}
+	},
+	[285] = {
+		story_type = 1,
+		name = "EP4-5 Welcome to the Port",
+		unlock_conditions = "Clear EP4-4",
+		change_bgm = "",
+		change_prefab = "",
+		change_background = "",
+		id = 285,
+		story = "QINGKONGXIADEXIEHOUGUANQIA15",
+		pre_event = {
+			284
+		},
+		lock = {
+			{
+				4,
+				284
+			}
+		}
+	},
+	[291] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 Treasure Abound",
+		unlock_conditions = "",
+		change_prefab = "",
+		change_background = "star_level_bg_163",
+		story = "JUFENGYUZIYOUQUNDAO1",
+		change_bgm = "theme-SeaAndSun-image",
+		id = 291,
+		lock = ""
+	},
+	[292] = {
+		story_type = 1,
+		name = "EP1-1 You Are Invited",
+		unlock_conditions = "Clear EPS-1.",
+		change_bgm = "theme-SeaAndSun-soft",
+		change_prefab = "",
+		change_background = "star_level_bg_163",
+		id = 292,
+		story = "JUFENGYUZIYOUQUNDAO2",
+		pre_event = {
+			291
+		},
+		lock = {
+			{
+				4,
+				291
+			}
+		}
+	},
+	[293] = {
+		story_type = 1,
+		name = "EP1-2 The Wooden Compass",
+		unlock_conditions = "Clear EP1-1.",
+		change_bgm = "danmachi-az-story",
+		change_prefab = "",
+		change_background = "star_level_bg_194",
+		id = 293,
+		story = "JUFENGYUZIYOUQUNDAO3",
+		pre_event = {
+			292
+		},
+		lock = {
+			{
+				4,
+				292
+			}
+		}
+	},
+	[294] = {
+		story_type = 1,
+		name = "EP1-3 Limestone Island",
+		unlock_conditions = "Clear EP1-2.",
+		change_bgm = "story-tempest-marching",
+		change_prefab = "",
+		change_background = "star_level_bg_598",
+		id = 294,
+		story = "JUFENGYUZIYOUQUNDAO4",
+		pre_event = {
+			293
+		},
+		lock = {
+			{
+				4,
+				293
+			}
+		}
+	},
+	[295] = {
+		story_type = 1,
+		name = "EP2-1 Tempestuous Dreams",
+		unlock_conditions = "Clear EP1-3.",
+		change_bgm = "story-tempest-marching",
+		change_prefab = "",
+		change_background = "star_level_bg_598",
+		id = 295,
+		story = "JUFENGYUZIYOUQUNDAO5",
+		pre_event = {
+			294
+		},
+		lock = {
+			{
+				4,
+				294
+			}
+		}
+	},
+	[296] = {
+		story_type = 1,
+		name = "EP2-2 Veil of the Night Sky",
+		unlock_conditions = "Clear EP2-1.",
+		change_bgm = "theme-tempest-light",
+		change_prefab = "",
+		change_background = "bg_jufengv3_cg1",
+		id = 296,
+		story = "JUFENGYUZIYOUQUNDAO6",
+		pre_event = {
+			295
+		},
+		lock = {
+			{
+				4,
+				295
+			}
+		}
+	},
+	[297] = {
+		story_type = 1,
+		name = "EP2-3 Arrival on the Isles",
+		unlock_conditions = "Clear EP2-2.",
+		change_bgm = "theme-tempest-light",
+		change_prefab = "",
+		change_background = "star_level_bg_525",
+		id = 297,
+		story = "JUFENGYUZIYOUQUNDAO7",
+		pre_event = {
+			296
+		},
+		lock = {
+			{
+				4,
+				296
+			}
+		}
+	},
+	[298] = {
+		story_type = 1,
+		name = "EP2-4 Prepping for the Treasure Hunt",
+		unlock_conditions = "Clear EP2-3.",
+		change_bgm = "theme-tempest-up",
+		change_prefab = "",
+		change_background = "star_level_bg_504",
+		id = 298,
+		story = "JUFENGYUZIYOUQUNDAO8",
+		pre_event = {
+			297
+		},
+		lock = {
+			{
+				4,
+				297
+			}
+		}
+	},
+	[299] = {
+		story_type = 1,
+		name = "EP3-1 The Hunters in Mar del Demonios",
+		unlock_conditions = "Clear EP2-4.",
+		change_bgm = "theme-tempest-light",
+		change_prefab = "",
+		change_background = "star_level_bg_194",
+		id = 299,
+		story = "JUFENGYUZIYOUQUNDAO9",
+		pre_event = {
+			298
+		},
+		lock = {
+			{
+				4,
+				298
+			}
+		}
+	},
+	[300] = {
+		story_type = 1,
+		name = "EP3-2 Snatch Everything Up!",
+		unlock_conditions = "Clear EP3-1.",
+		change_bgm = "theme-tempest-light",
+		change_prefab = "",
+		change_background = "star_level_bg_162",
+		id = 300,
+		story = "JUFENGYUZIYOUQUNDAO10",
+		pre_event = {
+			298
+		},
+		lock = {
+			{
+				4,
+				299
+			}
+		}
+	},
+	[301] = {
+		story_type = 1,
+		name = "EP3-3 Visit From Old Friends",
+		unlock_conditions = "Clear EP3-2.",
+		change_bgm = "theme-tempest-light",
+		change_prefab = "",
+		change_background = "bg_jufengv3_1",
+		id = 301,
+		story = "JUFENGYUZIYOUQUNDAO11",
+		pre_event = {
+			299,
+			300
+		},
+		lock = {
+			{
+				4,
+				300
+			}
+		}
+	},
+	[302] = {
+		story_type = 1,
+		name = "EP4-1 Searching the Lighthouse",
+		unlock_conditions = "Clear EP3-3.",
+		change_bgm = "story-temepest-1",
+		change_prefab = "",
+		change_background = "star_level_bg_598",
+		id = 302,
+		story = "JUFENGYUZIYOUQUNDAO12",
+		pre_event = {
+			301
+		},
+		lock = {
+			{
+				4,
+				301
+			}
+		}
+	},
+	[303] = {
+		story_type = 1,
+		name = "EP4-2 Uninvited Guests",
+		unlock_conditions = "Clear EP4-1",
+		change_bgm = "theme-tempest",
+		change_prefab = "",
+		change_background = "star_level_bg_598",
+		id = 303,
+		story = "JUFENGYUZIYOUQUNDAO13",
+		pre_event = {
+			302
+		},
+		lock = {
+			{
+				4,
+				302
+			}
+		}
+	},
+	[304] = {
+		story_type = 1,
+		name = "EP4-3 São Martinho's Concern",
+		unlock_conditions = "Clear EP4-2",
+		change_bgm = "theme-ganjisawai",
+		change_prefab = "",
+		change_background = "star_level_bg_598",
+		id = 304,
+		story = "JUFENGYUZIYOUQUNDAO14",
+		pre_event = {
+			303
+		},
+		lock = {
+			{
+				4,
+				303
+			}
+		}
+	},
+	[305] = {
+		story_type = 1,
+		name = "EP5-1 Uninvited Guests II",
+		unlock_conditions = "Clear EP4-3",
+		change_bgm = "story-tempest-marching",
+		change_prefab = "",
+		change_background = "star_level_bg_504",
+		id = 305,
+		story = "JUFENGYUZIYOUQUNDAO15",
+		pre_event = {
+			304
+		},
+		lock = {
+			{
+				4,
+				304
+			}
+		}
+	},
+	[306] = {
+		story_type = 1,
+		name = "EP5-2 Early Morning Wreckages",
+		unlock_conditions = "Clear EP5-1",
+		change_bgm = "battle-nightmare-theme",
+		change_prefab = "",
+		change_background = "bg_jufengv3_cg2",
+		id = 306,
+		story = "JUFENGYUZIYOUQUNDAO16",
+		pre_event = {
+			305
+		},
+		lock = {
+			{
+				4,
+				305
+			}
+		}
+	},
+	[307] = {
+		story_type = 2,
+		name = "EP5-3 Impromptu Response",
+		unlock_conditions = "Clear EP5-2",
+		change_bgm = "theme-ganjisawai",
+		change_prefab = "",
+		change_background = "star_level_bg_524",
+		id = 307,
+		story = "1978001",
+		pre_event = {
+			306
+		},
+		lock = {
+			{
+				4,
+				306
+			}
+		}
+	},
+	[308] = {
+		story_type = 1,
+		name = "EP6-1 Doubts",
+		unlock_conditions = "Clear EP5-3",
+		change_bgm = "theme-tempest-light",
+		change_prefab = "",
+		change_background = "bg_jufengv3_1",
+		id = 308,
+		story = "JUFENGYUZIYOUQUNDAO18",
+		pre_event = {
+			307
+		},
+		lock = {
+			{
+				4,
+				307
+			}
+		}
+	},
+	[309] = {
+		story_type = 1,
+		name = "EP6-2 Searching the Ancient Temple",
+		unlock_conditions = "Clear EP6-1",
+		change_bgm = "story-tempest-marching",
+		change_prefab = "",
+		change_background = "star_level_bg_598",
+		id = 309,
+		story = "JUFENGYUZIYOUQUNDAO19",
+		pre_event = {
+			308
+		},
+		lock = {
+			{
+				4,
+				308
+			}
+		}
+	},
+	[310] = {
+		story_type = 1,
+		name = "EPS-2 Tempestuous Dreams II",
+		unlock_conditions = "Clear EP6-2",
+		change_bgm = "theme-SeaAndSun-soft",
+		change_prefab = "",
+		change_background = "star_level_bg_106",
+		id = 310,
+		story = "JUFENGYUZIYOUQUNDAO20",
+		pre_event = {
+			309
+		},
+		lock = {
+			{
+				4,
+				309
+			}
+		}
+	},
+	[311] = {
+		story_type = 1,
+		name = "EPS-3 Reunion",
+		unlock_conditions = "Clear EPS-2.",
+		change_bgm = "theme-tempest-light",
+		change_prefab = "",
+		change_background = "bg_jufengv3_1",
+		id = 311,
+		story = "JUFENGYUZIYOUQUNDAO21",
+		pre_event = {
+			310
+		},
+		lock = {
+			{
+				4,
+				310
+			}
+		}
+	},
+	[312] = {
+		story_type = 1,
+		name = "EP7-1 Exploring the Metallic Cave",
+		unlock_conditions = "Clear EPS-3.",
+		change_bgm = "story-tempest-marching",
+		change_prefab = "",
+		change_background = "star_level_bg_598",
+		id = 312,
+		story = "JUFENGYUZIYOUQUNDAO22",
+		pre_event = {
+			311
+		},
+		lock = {
+			{
+				4,
+				311
+			}
+		}
+	},
+	[313] = {
+		story_type = 1,
+		name = "EP7-2 Tempestuous Dreams III",
+		unlock_conditions = "Clear EP7-1.",
+		change_bgm = "theme-ganjisawai",
+		change_prefab = "",
+		change_background = "bg_jufengv3_cg3",
+		id = 313,
+		story = "JUFENGYUZIYOUQUNDAO23",
+		pre_event = {
+			312
+		},
+		lock = {
+			{
+				4,
+				312
+			}
+		}
+	},
+	[314] = {
+		story_type = 1,
+		name = "EP7-3 Searching the Lighthouse II",
+		unlock_conditions = "Clear EP7-2.",
+		change_bgm = "story-temepest-2",
+		change_prefab = "",
+		change_background = "bg_jufengv3_2",
+		id = 314,
+		story = "JUFENGYUZIYOUQUNDAO24",
+		pre_event = {
+			313
+		},
+		lock = {
+			{
+				4,
+				313
+			}
+		}
+	},
+	[315] = {
+		story_type = 2,
+		name = "EP7-4 One Strike to Seize Victory",
+		unlock_conditions = "Clear EP7-3.",
+		change_bgm = "story-tempest-freedom",
+		change_prefab = "",
+		change_background = "star_level_bg_539",
+		id = 315,
+		story = "1978002",
+		pre_event = {
+			314
+		},
+		lock = {
+			{
+				4,
+				314
+			}
+		}
+	},
+	[316] = {
+		story_type = 1,
+		name = "EP7-5 Libertypolis",
+		unlock_conditions = "Clear EP7-4.",
+		change_bgm = "theme-ganjisawai",
+		change_prefab = "",
+		change_background = "star_level_bg_524",
+		id = 316,
+		story = "JUFENGYUZIYOUQUNDAO26",
+		pre_event = {
+			315
+		},
+		lock = {
+			{
+				4,
+				315
+			}
+		}
+	},
+	[317] = {
+		story_type = 1,
+		name = "EX-1 A Priest and The Servant II",
+		unlock_conditions = "Clear EP7-5.",
+		change_bgm = "theme-tempest-up",
+		change_prefab = "",
+		change_background = "star_level_bg_163",
+		id = 317,
+		story = "JUFENGYUZIYOUQUNDAO27",
+		pre_event = {
+			316
+		},
+		lock = {
+			{
+				4,
+				316
+			}
+		}
+	},
+	[318] = {
+		story_type = 1,
+		name = "EX-2 Unresolved Questions",
+		unlock_conditions = "Clear EX-1",
+		change_bgm = "battle-eagleunion",
+		change_prefab = "",
+		change_background = "bg_story_task_3",
+		id = 318,
+		story = "JUFENGYUZIYOUQUNDAO28",
+		pre_event = {
+			317
+		},
+		lock = {
+			{
+				4,
+				317
+			}
+		}
+	},
+	[319] = {
+		story_type = 1,
+		name = "EX-3 Boundary of Our World",
+		unlock_conditions = "Clear EX-2",
+		change_bgm = "theme-tempest-light",
+		change_prefab = "Map_1970001",
+		change_background = "bg_jufengv3_1",
+		id = 319,
+		story = "JUFENGYUZIYOUQUNDAO29",
+		pre_event = {
+			318
+		},
+		lock = {
+			{
+				4,
+				318
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4200,6 +5761,89 @@ pg.activity_sp_story = {
 		223,
 		224,
 		225,
-		226
+		226,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237,
+		238,
+		239,
+		240,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
+		247,
+		248,
+		249,
+		250,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269,
+		271,
+		272,
+		273,
+		274,
+		275,
+		276,
+		277,
+		278,
+		279,
+		280,
+		281,
+		282,
+		283,
+		284,
+		285,
+		291,
+		292,
+		293,
+		294,
+		295,
+		296,
+		297,
+		298,
+		299,
+		300,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319
 	}
 }

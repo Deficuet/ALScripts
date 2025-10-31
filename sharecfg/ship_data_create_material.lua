@@ -76,13 +76,15 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Elite</color>: 12%",
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 30%",
-			"<color=#ffde38>Masséna</color>: 2.0% <color=#92FC63>(up!)</color>",
+			"<color=#ffde38>Clemenceau</color>: 2.0% <color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>Bois Belleau</color>: 2.0% <color=#92FC63>(up!)</color>",
+			"<color=#ffde38>Guichen</color>: 2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>Le Hardi</color>: 0.5%",
+			"<color=#ffde38>Painlevé</color>: 0.5%",
 			" ",
-			"<color=#d797ff>Duquesne</color>: 2.5% <color=#92FC63>(up!)</color>"
+			"<color=#d797ff>Lyon</color>: 2.5% <color=#92FC63>(up!)</color>",
+			" ",
+			"<color=#d797ff>Suffren</color>: 2.5% <color=#92FC63>(up!)</color>"
 		}
 	},
 	{
@@ -207,13 +209,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 28.8%",
 			" ",
-			"<color=#ff5e39>Bismarck Zwei</color>: 1.2% (<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>Hakuhou</color>: 1.2% (<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>Regensburg</color>: 2.0% (<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Oumi</color>: 2.0% (<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>Otto von Alvensleben</color>: 2.0% (<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Asama</color>: 0.5%",
 			" ",
-			"<color=#ffde38>U-556 META</color>: 0.5%"
+			"<color=#d797ff>Minase</color>: 2.5% (<color=#92fc63>up!</color>)"
 		}
 	},
 	{

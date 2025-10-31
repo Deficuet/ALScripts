@@ -3,7 +3,7 @@ local var_0_0 = class("YingxiV3FramePage", import(".TemplatePage.NewFrameTemplat
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.gotTag = arg_1_0:findTF("AD/switcher/phase2/got")
+	arg_1_0.gotTag = arg_1_0._tf:Find("AD/switcher/phase2/got")
 end
 
 function var_0_0.Switch(arg_2_0, arg_2_1)

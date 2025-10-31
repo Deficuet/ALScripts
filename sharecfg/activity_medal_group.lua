@@ -342,6 +342,86 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50136] = {
+		id = 50136,
+		entrance_picture = "medalAlbum/50136",
+		is_out_of_print = 0,
+		group_name = "A Dance for Amahara Above",
+		activity_link = {
+			{
+				1,
+				50136,
+				{
+					21835,
+					21836,
+					21837,
+					21838,
+					21839,
+					21840,
+					21841,
+					21842,
+					21843,
+					21844
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "TianYuTianYuanMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				316,
+				1
+			},
+			{
+				8,
+				65685,
+				1
+			}
+		}
+	},
+	[50209] = {
+		id = 50209,
+		entrance_picture = "medalAlbum/50209",
+		is_out_of_print = 0,
+		group_name = "Tempesta and Islas de Libertád",
+		activity_link = {
+			{
+				1,
+				50209,
+				{
+					21849,
+					21850,
+					21851,
+					21852,
+					21853,
+					21854,
+					21855,
+					21856,
+					21857,
+					21858
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "SailingShip3MedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				319,
+				1
+			},
+			{
+				8,
+				65722,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -351,6 +431,8 @@ pg.activity_medal_group = {
 		5970,
 		5971,
 		50021,
-		50087
+		50087,
+		50136,
+		50209
 	}
 }

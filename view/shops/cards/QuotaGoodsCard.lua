@@ -44,6 +44,7 @@ function var_0_0.update(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 
 	setText(arg_1_0.limitCountLabelTF, i18n("quota_shop_owned") .. var_1_6 - var_1_7 .. "/" .. var_1_6)
 	setActive(arg_1_0.limitCountLabelTF, true)
+	setActive(arg_1_0.groupLocked, arg_1_0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
 function var_0_0.setAsLastSibling(arg_3_0)

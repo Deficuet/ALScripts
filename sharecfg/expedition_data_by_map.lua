@@ -418,6 +418,16 @@ pg.expedition_data_by_map = setmetatable({
 		1950012,
 		1950025,
 		1950026,
+		1960001,
+		1960002,
+		1960011,
+		1960012,
+		1960025,
+		1960026,
+		1970001,
+		1970002,
+		1970003,
+		1970004,
 		2100000,
 		2100001,
 		2100010,
@@ -536,6 +546,8 @@ pg.expedition_data_by_map = setmetatable({
 		2200110,
 		2200120,
 		2200130,
+		2200140,
+		2200141,
 		9920001,
 		9920002,
 		9920011,
@@ -16836,7 +16848,7 @@ pg.base.expedition_data_by_map = {
 		default_background = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740005",
 		story_id = "",
@@ -16992,7 +17004,7 @@ pg.base.expedition_data_by_map = {
 		default_background = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740011",
 		story_id = "",
@@ -17133,7 +17145,7 @@ pg.base.expedition_data_by_map = {
 		default_background = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740005",
 		story_id = "",
@@ -17289,7 +17301,7 @@ pg.base.expedition_data_by_map = {
 		default_background = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740011",
 		story_id = "",
@@ -17431,7 +17443,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740012",
 		story_id = "",
@@ -17481,7 +17493,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4967,
+		on_activity = 50166,
 		ui_type = 1,
 		bg = "Map_1740001",
 		story_id = "",
@@ -24681,6 +24693,956 @@ pg.base.expedition_data_by_map = {
 			176
 		}
 	},
+	[1960001] = {
+		map = 1960001,
+		name = "A Dance for Amahara Above - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-amahara-stage2",
+		enter_story = "",
+		ani_name = "Map_1960001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part1",
+		default_background = "bg_daofeng_2",
+		cloud_suffix = "",
+		default_bgm = "map-longgong",
+		uifx = "",
+		on_activity = 50114,
+		ui_type = 10,
+		bg = "Map_1960001",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1960011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960001,
+				1960021
+			},
+			{
+				1960002,
+				1960022
+			},
+			{
+				1960003,
+				1960023
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248,
+			249,
+			250,
+			251,
+			252,
+			253,
+			254,
+			255,
+			256,
+			257,
+			258,
+			259,
+			260,
+			261,
+			262,
+			263,
+			264,
+			265,
+			266,
+			267,
+			268,
+			269
+		}
+	},
+	[1960002] = {
+		map = 1960002,
+		name = "A Dance for Amahara Above - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-amahara-stage1",
+		enter_story = "",
+		ani_name = "Map_1960003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part2",
+		default_background = "bg_daofeng_2",
+		cloud_suffix = "",
+		default_bgm = "map-longgong",
+		uifx = "",
+		on_activity = 50114,
+		ui_type = 10,
+		bg = "Map_1960003",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1960012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960004,
+				1960024
+			},
+			{
+				1960005,
+				1960025
+			},
+			{
+				1960006,
+				1960026
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248,
+			249,
+			250,
+			251,
+			252,
+			253,
+			254,
+			255,
+			256,
+			257,
+			258,
+			259,
+			260,
+			261,
+			262,
+			263,
+			264,
+			265,
+			266,
+			267,
+			268,
+			269
+		}
+	},
+	[1960011] = {
+		map = 1960011,
+		name = "A Dance for Amahara Above - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-amahara-stage2",
+		enter_story = "",
+		ani_name = "Map_1960001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part1",
+		default_background = "bg_daofeng_2",
+		cloud_suffix = "",
+		default_bgm = "map-longgong",
+		uifx = "",
+		on_activity = 50114,
+		ui_type = 10,
+		bg = "Map_1960001",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1960001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960001,
+				1960021
+			},
+			{
+				1960002,
+				1960022
+			},
+			{
+				1960003,
+				1960023
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248,
+			249,
+			250,
+			251,
+			252,
+			253,
+			254,
+			255,
+			256,
+			257,
+			258,
+			259,
+			260,
+			261,
+			262,
+			263,
+			264,
+			265,
+			266,
+			267,
+			268,
+			269
+		}
+	},
+	[1960012] = {
+		map = 1960012,
+		name = "A Dance for Amahara Above - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-amahara-stage1",
+		enter_story = "",
+		ani_name = "Map_1960003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part2",
+		default_background = "bg_daofeng_2",
+		cloud_suffix = "",
+		default_bgm = "map-longgong",
+		uifx = "",
+		on_activity = 50114,
+		ui_type = 10,
+		bg = "Map_1960003",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1960002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960004,
+				1960024
+			},
+			{
+				1960005,
+				1960025
+			},
+			{
+				1960006,
+				1960026
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248,
+			249,
+			250,
+			251,
+			252,
+			253,
+			254,
+			255,
+			256,
+			257,
+			258,
+			259,
+			260,
+			261,
+			262,
+			263,
+			264,
+			265,
+			266,
+			267,
+			268,
+			269
+		}
+	},
+	[1960025] = {
+		map = 1960025,
+		name = "A Dance for Amahara Above - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-2",
+		enter_story = "",
+		ani_name = "Map_1960004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_sp",
+		default_background = "bg_daofeng_2",
+		cloud_suffix = "",
+		default_bgm = "map-longgong",
+		uifx = "",
+		on_activity = 50114,
+		ui_type = 10,
+		bg = "Map_1960004",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1960012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960041
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248,
+			249,
+			250,
+			251,
+			252,
+			253,
+			254,
+			255,
+			256,
+			257,
+			258,
+			259,
+			260,
+			261,
+			262,
+			263,
+			264,
+			265,
+			266,
+			267,
+			268,
+			269
+		}
+	},
+	[1960026] = {
+		map = 1960026,
+		name = "A Dance for Amahara Above - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-amahara-stage3",
+		enter_story = "",
+		ani_name = "Map_1960002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_ex",
+		default_background = "bg_daofeng_2",
+		cloud_suffix = "",
+		default_bgm = "map-longgong",
+		uifx = "",
+		on_activity = 50114,
+		ui_type = 10,
+		bg = "Map_1960002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1960012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1960051,
+				1960052
+			}
+		},
+		story_id = {
+			231,
+			232,
+			233,
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248,
+			249,
+			250,
+			251,
+			252,
+			253,
+			254,
+			255,
+			256,
+			257,
+			258,
+			259,
+			260,
+			261,
+			262,
+			263,
+			264,
+			265,
+			266,
+			267,
+			268,
+			269
+		}
+	},
+	[1970001] = {
+		map = 1970001,
+		name = "Tempesta and Islas de Libertád - Pt. 1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "theme-tempest-light",
+		enter_story = "",
+		ani_name = "Map_1970001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part1",
+		default_background = "bg_jufengv3_1",
+		cloud_suffix = "",
+		default_bgm = "Battle-nightmare-theme",
+		uifx = "",
+		on_activity = 50181,
+		ui_type = 10,
+		bg = "Map_1970001",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1970001
+			},
+			{
+				1970002
+			},
+			{
+				1970003
+			}
+		},
+		story_id = {
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318,
+			319
+		}
+	},
+	[1970002] = {
+		map = 1970002,
+		name = "Tempesta and Islas de Libertád - Pt. 2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-temepest-2",
+		enter_story = "",
+		ani_name = "Map_1970002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part2",
+		default_background = "bg_jufengv3_1",
+		cloud_suffix = "",
+		default_bgm = "Battle-nightmare-theme",
+		uifx = "",
+		on_activity = 50181,
+		ui_type = 10,
+		bg = "Map_1970002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1970004
+			},
+			{
+				1970005
+			},
+			{
+				1970006
+			}
+		},
+		story_id = {
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318,
+			319
+		}
+	},
+	[1970003] = {
+		map = 1970003,
+		name = "Tempesta and Islas de Libertád - SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "theme-tempest-light",
+		enter_story = "",
+		ani_name = "Map_1970001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_sp",
+		default_background = "bg_jufengv3_1",
+		cloud_suffix = "",
+		default_bgm = "Battle-nightmare-theme",
+		uifx = "",
+		on_activity = 50181,
+		ui_type = 10,
+		bg = "Map_1970001",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1970002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1970041
+			}
+		},
+		story_id = {
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318,
+			319
+		}
+	},
+	[1970004] = {
+		map = 1970004,
+		name = "Tempesta and Islas de Libertád - EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-tempest-freedom",
+		enter_story = "",
+		ani_name = "Map_1970002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_ex",
+		default_background = "bg_jufengv3_1",
+		cloud_suffix = "",
+		default_bgm = "Battle-nightmare-theme",
+		uifx = "",
+		on_activity = 50181,
+		ui_type = 10,
+		bg = "Map_1970002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1970002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1970051,
+				1970052
+			}
+		},
+		story_id = {
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308,
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318,
+			319
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "Visitors Dyed in Red: Prequel || || S.P. || E.X.",
@@ -30313,7 +31275,7 @@ pg.base.expedition_data_by_map = {
 		level_limit = 1,
 		type = 4,
 		anchor = "",
-		title = "EX",
+		title = "SP",
 		drop_by_map_display = "",
 		bgm = "idol-WISHNESS-inst",
 		enter_story = "JICHANG1",
@@ -30592,7 +31554,7 @@ pg.base.expedition_data_by_map = {
 		level_limit = 1,
 		type = 4,
 		anchor = "",
-		title = "EX",
+		title = "SP",
 		drop_by_map_display = "",
 		bgm = "theme-arbitrator-tower",
 		enter_story = "",
@@ -30670,6 +31632,106 @@ pg.base.expedition_data_by_map = {
 					},
 					"jianzhu04"
 				}
+			}
+		}
+	},
+	[2200140] = {
+		map = 2200140,
+		name = "Tempesta and the Fountain of Youth - PT.1|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "story-temepest-1",
+		enter_story = "1767002",
+		ani_name = "Map_1760001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1760001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200141] = {
+		map = 2200141,
+		name = "Tempesta and the Fountain of Youth - PT.2|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "theme-tempest-up",
+		enter_story = "JUFENGYUQINGCHUNZHIQUAN14",
+		ani_name = "Map_1760002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1760002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
 			}
 		}
 	},

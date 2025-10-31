@@ -5,126 +5,132 @@ function var_0_0.GetUIName(arg_1_0)
 	return "IslandSlotHudUI"
 end
 
-function var_0_0.OnInit(arg_2_0, arg_2_1)
-	arg_2_0._go = arg_2_1
-	arg_2_0._tf = arg_2_1.transform
-	arg_2_0.parent = arg_2_0._tf:Find("look")
-	arg_2_0.hideHudDic = {}
-	arg_2_0.unitHideHudQueue = {}
+function var_0_0.SetUIParent(arg_2_0, arg_2_1)
+	return arg_2_0:GetView().hudContainer
 end
 
-function var_0_0.Update(arg_3_0)
-	if arg_3_0.currentHud then
-		arg_3_0.currentHud:Update()
-	end
+function var_0_0.OnInit(arg_3_0, arg_3_1)
+	arg_3_0._go = arg_3_1
+	arg_3_0._tf = arg_3_1.transform
+	arg_3_0.parent = arg_3_0._tf:Find("look")
+	arg_3_0.hideHudDic = {}
+	arg_3_0.unitHideHudQueue = {}
 end
 
-function var_0_0.LateUpdate(arg_4_0)
+function var_0_0.Update(arg_4_0)
 	if arg_4_0.currentHud then
-		arg_4_0.currentHud:LateUpdate()
+		arg_4_0.currentHud:Update()
 	end
 end
 
-function var_0_0.ShowHud(arg_5_0, arg_5_1, arg_5_2)
-	if arg_5_1 == nil then
-		return
-	end
-
+function var_0_0.LateUpdate(arg_5_0)
 	if arg_5_0.currentHud then
-		if arg_5_0.currentHud.unitId == arg_5_1 then
-			return
-		end
-
-		arg_5_0:HideUnitHud(arg_5_0.currentHud.unitId)
+		arg_5_0.currentHud:LateUpdate()
 	end
-
-	arg_5_0:ShowUnitHud(arg_5_1, arg_5_2)
 end
 
-function var_0_0.UpdateHud(arg_6_0, arg_6_1)
+function var_0_0.ShowHud(arg_6_0, arg_6_1, arg_6_2)
 	if arg_6_1 == nil then
 		return
 	end
 
-	local var_6_0 = arg_6_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_6_1)
+	if arg_6_0.currentHud then
+		if arg_6_0.currentHud.unitId == arg_6_1 then
+			return
+		end
 
-	if not var_6_0 then
-		return
+		arg_6_0:HideUnitHud(arg_6_0.currentHud.unitId)
 	end
 
-	local var_6_1 = var_6_0:GetHudInfo()
-
-	if not arg_6_0.currentHud then
-		return
-	end
-
-	if arg_6_0.currentHud.unitId == arg_6_1 then
-		arg_6_0.currentHud:UpdateUnitHud(var_6_1)
-	end
+	arg_6_0:ShowUnitHud(arg_6_1, arg_6_2)
 end
 
-function var_0_0.HideUnitHud(arg_7_0, arg_7_1)
+function var_0_0.UpdateHud(arg_7_0, arg_7_1, arg_7_2)
+	if arg_7_1 == nil then
+		return
+	end
+
+	local var_7_0 = arg_7_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_7_1)
+
+	if not var_7_0 then
+		return
+	end
+
+	local var_7_1 = var_7_0:GetHudInfo()
+
 	if not arg_7_0.currentHud then
+		arg_7_0:ShowUnitHud(arg_7_1, arg_7_2)
+
 		return
 	end
 
 	if arg_7_0.currentHud.unitId == arg_7_1 then
-		arg_7_0.currentHud:HideHud()
-		arg_7_0:InPool(arg_7_0.currentHud)
-
-		arg_7_0.currentHud = nil
+		arg_7_0.currentHud:UpdateUnitHud(var_7_1)
 	end
 end
 
-function var_0_0.InPool(arg_8_0, arg_8_1)
-	local var_8_0
+function var_0_0.HideUnitHud(arg_8_0, arg_8_1)
+	if not arg_8_0.currentHud then
+		return
+	end
 
-	for iter_8_0, iter_8_1 in ipairs(arg_8_0.unitHideHudQueue) do
-		if iter_8_1 == arg_8_1.unitId then
-			var_8_0 = iter_8_0
+	if arg_8_0.currentHud.unitId == arg_8_1 then
+		arg_8_0.currentHud:HideHud()
+		arg_8_0:InPool(arg_8_0.currentHud)
+
+		arg_8_0.currentHud = nil
+	end
+end
+
+function var_0_0.InPool(arg_9_0, arg_9_1)
+	local var_9_0
+
+	for iter_9_0, iter_9_1 in ipairs(arg_9_0.unitHideHudQueue) do
+		if iter_9_1 == arg_9_1.unitId then
+			var_9_0 = iter_9_0
 		end
 	end
 
-	if var_8_0 then
-		table.remove(arg_8_0.unitHideHudQueue, var_8_0)
+	if var_9_0 then
+		table.remove(arg_9_0.unitHideHudQueue, var_9_0)
 	end
 
-	table.insert(arg_8_0.unitHideHudQueue, arg_8_1.unitId)
+	table.insert(arg_9_0.unitHideHudQueue, arg_9_1.unitId)
 
-	arg_8_0.hideHudDic[arg_8_1.unitId] = arg_8_1
+	arg_9_0.hideHudDic[arg_9_1.unitId] = arg_9_1
 
-	if #arg_8_0.unitHideHudQueue > var_0_1 then
-		local var_8_1 = arg_8_0.unitHideHudQueue[1]
+	if #arg_9_0.unitHideHudQueue > var_0_1 then
+		local var_9_1 = arg_9_0.unitHideHudQueue[1]
 
-		table.remove(arg_8_0.unitHideHudQueue, 1)
-		arg_8_0.hideHudDic[var_8_1]:Dispose()
+		table.remove(arg_9_0.unitHideHudQueue, 1)
+		arg_9_0.hideHudDic[var_9_1]:Dispose()
 
-		arg_8_0.hideHudDic[var_8_1] = nil
+		arg_9_0.hideHudDic[var_9_1] = nil
 	end
 end
 
-function var_0_0.ShowUnitHud(arg_9_0, arg_9_1, arg_9_2)
-	local var_9_0 = arg_9_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_9_1):GetHudInfo()
+function var_0_0.ShowUnitHud(arg_10_0, arg_10_1, arg_10_2)
+	local var_10_0 = arg_10_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_10_1):GetHudInfo()
 
-	if arg_9_0.hideHudDic[arg_9_1] then
-		arg_9_0.currentHud = arg_9_0.hideHudDic[arg_9_1]
+	if arg_10_0.hideHudDic[arg_10_1] then
+		arg_10_0.currentHud = arg_10_0.hideHudDic[arg_10_1]
 
-		arg_9_0.currentHud:ShowUnitHud(arg_9_1, var_9_0, arg_9_2)
+		arg_10_0.currentHud:ShowUnitHud(arg_10_1, var_10_0, arg_10_2)
 	else
-		if not arg_9_0.currentHud then
-			arg_9_0.currentHud = IslandHudPanel.New(arg_9_0.parent, arg_9_0.view)
+		if not arg_10_0.currentHud then
+			arg_10_0.currentHud = IslandHudPanel.New(arg_10_0.parent, arg_10_0.view)
 
-			arg_9_0.currentHud:ShowUnitHud(arg_9_1, var_9_0, arg_9_2)
-			arg_9_0.currentHud:Init()
+			arg_10_0.currentHud:ShowUnitHud(arg_10_1, var_10_0, arg_10_2)
+			arg_10_0.currentHud:Init()
 
 			return
 		end
 
-		arg_9_0.currentHud:ShowUnitHud(arg_9_1, var_9_0, arg_9_2)
+		arg_10_0.currentHud:ShowUnitHud(arg_10_1, var_10_0, arg_10_2)
 	end
 end
 
-function var_0_0.OnDestroy(arg_10_0)
+function var_0_0.OnDestroy(arg_11_0)
 	return
 end
 

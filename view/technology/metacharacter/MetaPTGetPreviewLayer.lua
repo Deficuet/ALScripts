@@ -12,17 +12,15 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_3_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.willExit(arg_4_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_4_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_4_0._tf)
 end
 
 function var_0_0.initUITextTips(arg_5_0)
-	local var_5_0 = arg_5_0:findTF("Panel/BG/TitleText")
+	local var_5_0 = arg_5_0._tf:Find("Panel/BG/TitleText")
 
 	setText(var_5_0, i18n("meta_pt_get_way"))
 end
@@ -32,11 +30,11 @@ function var_0_0.initData(arg_6_0)
 end
 
 function var_0_0.findUI(arg_7_0)
-	arg_7_0.bg = arg_7_0:findTF("BG")
-	arg_7_0.panelTF = arg_7_0:findTF("Panel")
-	arg_7_0.bossBtn = arg_7_0:findTF("BossTip", arg_7_0.panelTF)
-	arg_7_0.taskBtn = arg_7_0:findTF("TaskTip", arg_7_0.panelTF)
-	arg_7_0.resetBtn = arg_7_0:findTF("ResetTip", arg_7_0.panelTF)
+	arg_7_0.bg = arg_7_0._tf:Find("BG")
+	arg_7_0.panelTF = arg_7_0._tf:Find("Panel")
+	arg_7_0.bossBtn = arg_7_0.panelTF:Find("BossTip")
+	arg_7_0.taskBtn = arg_7_0.panelTF:Find("TaskTip")
+	arg_7_0.resetBtn = arg_7_0.panelTF:Find("ResetTip")
 end
 
 function var_0_0.addListener(arg_8_0)

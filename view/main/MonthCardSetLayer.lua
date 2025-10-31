@@ -15,14 +15,14 @@ function var_0_0.setRatio(arg_3_0, arg_3_1)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0.name = arg_4_0:findTF("window/bg/name")
-	arg_4_0.desc = arg_4_0:findTF("window/bg/desc")
-	arg_4_0.oil = arg_4_0:findTF("window/black/oil/icon_bg/count")
-	arg_4_0.gold = arg_4_0:findTF("window/black/gold/icon_bg/count")
-	arg_4_0.slider = arg_4_0:findTF("window/black/slider")
-	arg_4_0.rate = arg_4_0:findTF("window/black/misc/rate")
-	arg_4_0.confirm = arg_4_0:findTF("window/confirm")
-	arg_4_0.cancel = arg_4_0:findTF("window/cancel")
+	arg_4_0.name = arg_4_0._tf:Find("window/bg/name")
+	arg_4_0.desc = arg_4_0._tf:Find("window/bg/desc")
+	arg_4_0.oil = arg_4_0._tf:Find("window/black/oil/icon_bg/count")
+	arg_4_0.gold = arg_4_0._tf:Find("window/black/gold/icon_bg/count")
+	arg_4_0.slider = arg_4_0._tf:Find("window/black/slider")
+	arg_4_0.rate = arg_4_0._tf:Find("window/black/misc/rate")
+	arg_4_0.confirm = arg_4_0._tf:Find("window/confirm")
+	arg_4_0.cancel = arg_4_0._tf:Find("window/cancel")
 end
 
 function var_0_0.didEnter(arg_5_0)
@@ -59,7 +59,7 @@ function var_0_0.updateRatioView(arg_11_0)
 end
 
 function var_0_0.willExit(arg_12_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_12_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf)
 end
 
 return var_0_0

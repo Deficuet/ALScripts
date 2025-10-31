@@ -13,7 +13,7 @@ return {
 			characterId = 101300,
 			animation = "hi",
 			hideType = 2,
-			say = "欢迎光临——这里是集会的欢乐向导玛丽！"
+			say = "Welcome! I'm Mary, your fun get-together guide!"
 		}
 	}
 }

@@ -21,17 +21,17 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.findUI(arg_3_0)
-	arg_3_0.adaptPanel = arg_3_0:findTF("blur_panel/adapt")
-	arg_3_0.panelContainer = arg_3_0:findTF("PanelContainer")
-	arg_3_0.normalPanel = arg_3_0:findTF("NormalPanel", arg_3_0.panelContainer)
-	arg_3_0.tecPanel = arg_3_0:findTF("TecPanel", arg_3_0.panelContainer)
-	arg_3_0.switchToNormalBtn = arg_3_0:findTF("SwitchToNormal")
-	arg_3_0.switchToTecBtn = arg_3_0:findTF("SwitchToTec")
-	arg_3_0.switchToNormalLight = GetOrAddComponent(arg_3_0:findTF("Light", arg_3_0.switchToNormalBtn), "Animator")
-	arg_3_0.switchToTecLight = GetOrAddComponent(arg_3_0:findTF("Light", arg_3_0.switchToTecBtn), "Animator")
-	arg_3_0.awardMsg = arg_3_0:findTF("ChooseAwardPanel")
-	arg_3_0.helpBtn = arg_3_0:findTF("HelpBtn")
-	arg_3_0.titleTf = arg_3_0:findTF("blur_panel/adapt/top/title")
+	arg_3_0.adaptPanel = arg_3_0._tf:Find("blur_panel/adapt")
+	arg_3_0.panelContainer = arg_3_0._tf:Find("PanelContainer")
+	arg_3_0.normalPanel = arg_3_0.panelContainer:Find("NormalPanel")
+	arg_3_0.tecPanel = arg_3_0.panelContainer:Find("TecPanel")
+	arg_3_0.switchToNormalBtn = arg_3_0._tf:Find("SwitchToNormal")
+	arg_3_0.switchToTecBtn = arg_3_0._tf:Find("SwitchToTec")
+	arg_3_0.switchToNormalLight = GetOrAddComponent(arg_3_0.switchToNormalBtn:Find("Light"), "Animator")
+	arg_3_0.switchToTecLight = GetOrAddComponent(arg_3_0.switchToTecBtn:Find("Light"), "Animator")
+	arg_3_0.awardMsg = arg_3_0._tf:Find("ChooseAwardPanel")
+	arg_3_0.helpBtn = arg_3_0._tf:Find("HelpBtn")
+	arg_3_0.titleTf = arg_3_0._tf:Find("blur_panel/adapt/top/title")
 
 	GetComponent(findTF(arg_3_0.titleTf, "img"), typeof(Image)):SetNativeSize()
 end
@@ -47,7 +47,7 @@ function var_0_0.initData(arg_4_0)
 end
 
 function var_0_0.addListener(arg_5_0)
-	onButton(arg_5_0, arg_5_0:findTF("top/back_button", arg_5_0.adaptPanel), function()
+	onButton(arg_5_0, arg_5_0.adaptPanel:Find("top/back_button"), function()
 		arg_5_0:emit(var_0_0.ON_BACK)
 	end, SFX_PANEL)
 	onButton(arg_5_0, arg_5_0.switchToNormalBtn, function()
@@ -97,8 +97,8 @@ function var_0_0.updateSwitchBtns(arg_12_0)
 		setActive(arg_12_0.switchToTecBtn, true)
 	end
 
-	local var_12_4 = arg_12_0:findTF("Tag", arg_12_0.switchToNormalBtn)
-	local var_12_5 = arg_12_0:findTF("Tag", arg_12_0.switchToTecBtn)
+	local var_12_4 = arg_12_0.switchToNormalBtn:Find("Tag")
+	local var_12_5 = arg_12_0.switchToTecBtn:Find("Tag")
 
 	setActive(var_12_4, var_12_1)
 	setActive(var_12_5, var_12_3)
@@ -107,8 +107,8 @@ end
 function var_0_0.updateSwitchBtnsTag(arg_13_0)
 	local var_13_0, var_13_1 = TechnologyConst.isNormalActOn()
 	local var_13_2, var_13_3 = TechnologyConst.isTecActOn()
-	local var_13_4 = arg_13_0:findTF("Tag", arg_13_0.switchToNormalBtn)
-	local var_13_5 = arg_13_0:findTF("Tag", arg_13_0.switchToTecBtn)
+	local var_13_4 = arg_13_0.switchToNormalBtn:Find("Tag")
+	local var_13_5 = arg_13_0.switchToTecBtn:Find("Tag")
 
 	setActive(var_13_4, var_13_1)
 	setActive(var_13_5, var_13_3)
@@ -144,15 +144,15 @@ function var_0_0.autoSelectPanel(arg_15_0)
 end
 
 function var_0_0.initNormalPanel(arg_16_0)
-	local var_16_0 = arg_16_0:findTF("ToggleList", arg_16_0.normalPanel)
+	local var_16_0 = arg_16_0.normalPanel:Find("ToggleList")
 
 	arg_16_0.normalToggles = {
-		arg_16_0:findTF("Phase1", var_16_0),
-		arg_16_0:findTF("Phase2", var_16_0),
-		arg_16_0:findTF("Phase3", var_16_0)
+		var_16_0:Find("Phase1"),
+		var_16_0:Find("Phase2"),
+		var_16_0:Find("Phase3")
 	}
-	arg_16_0.normalTaskUIItemList = UIItemList.New(arg_16_0:findTF("ScrollRect/Content", arg_16_0.normalPanel), arg_16_0:findTF("ScrollRect/TaskTpl", arg_16_0.normalPanel))
-	arg_16_0.normalProgressPanel = arg_16_0:findTF("ProgressPanel", arg_16_0.normalPanel)
+	arg_16_0.normalTaskUIItemList = UIItemList.New(arg_16_0.normalPanel:Find("ScrollRect/Content"), arg_16_0.normalPanel:Find("ScrollRect/TaskTpl"))
+	arg_16_0.normalProgressPanel = arg_16_0.normalPanel:Find("ProgressPanel")
 
 	for iter_16_0, iter_16_1 in pairs(arg_16_0.normalToggles) do
 		onToggle(arg_16_0, iter_16_1, function(arg_17_0)
@@ -257,8 +257,8 @@ function var_0_0.initTecPanel(arg_24_0)
 
 	arg_24_0.allTechPhase = #arg_24_0.tecTaskActivity:getConfig("config_data")[3] + 1
 
-	local var_24_1 = arg_24_0:findTF("ToggleList", arg_24_0.tecPanel)
-	local var_24_2 = arg_24_0:findTF("Phase1", var_24_1)
+	local var_24_1 = arg_24_0.tecPanel:Find("ToggleList")
+	local var_24_2 = var_24_1:Find("Phase1")
 
 	UIItemList.StaticAlign(var_24_1, var_24_2, arg_24_0.allTechPhase, function(arg_25_0, arg_25_1, arg_25_2)
 		if arg_25_0 == UIItemList.EventUpdate then
@@ -298,8 +298,8 @@ function var_0_0.initTecPanel(arg_24_0)
 		end
 	end)
 
-	arg_24_0.tecTaskUIItemList = UIItemList.New(arg_24_0:findTF("ScrollRect/Content", arg_24_0.tecPanel), arg_24_0:findTF("ScrollRect/TaskTpl", arg_24_0.tecPanel))
-	arg_24_0.tecProgressPanel = arg_24_0:findTF("ProgressPanel", arg_24_0.tecPanel)
+	arg_24_0.tecTaskUIItemList = UIItemList.New(arg_24_0.tecPanel:Find("ScrollRect/Content"), arg_24_0.tecPanel:Find("ScrollRect/TaskTpl"))
+	arg_24_0.tecProgressPanel = arg_24_0.tecPanel:Find("ProgressPanel")
 end
 
 function var_0_0.updateTecPanel(arg_30_0, arg_30_1)

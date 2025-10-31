@@ -6,7 +6,7 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.parentTr = arg_2_0._tf.parent
-	arg_2_0.bgTr = arg_2_0:findTF("bg")
+	arg_2_0.bgTr = arg_2_0._tf:Find("bg")
 	arg_2_0.gradePanel = arg_2_0.bgTr:Find("grade")
 	arg_2_0.gradeIcon = arg_2_0.bgTr:Find("grade/icon")
 	arg_2_0.gradeTxt = arg_2_0.bgTr:Find("grade/Text")

@@ -57,12 +57,12 @@ end
 function var_0_0.GetCenterScreenPos()
 	local var_4_0 = IslandCameraMgr.instance._mainCamera
 
-	return (var_0_0.CameraPosToHitPoint(var_4_0, IslandConst.LAYER_AGORA))
+	return (var_0_0.CameraPosToHitPoint(var_4_0, IslandConst.LAYER_GROUND))
 end
 
 function var_0_0.ScreenPostion2MapPosition(arg_5_0)
 	local var_5_0 = IslandCameraMgr.instance._mainCamera
-	local var_5_1 = var_0_0.ScreenToHitPoint(var_5_0, arg_5_0, IslandConst.LAYER_AGORA)
+	local var_5_1 = var_0_0.ScreenToHitPoint(var_5_0, arg_5_0, IslandConst.LAYER_GROUND)
 
 	if var_5_1 then
 		return var_0_0.WorldPosition2MapPosition(var_5_1)
@@ -72,7 +72,7 @@ function var_0_0.ScreenPostion2MapPosition(arg_5_0)
 end
 
 function var_0_0.WorldPosition2MapPosition(arg_6_0)
-	return Vector2(math.ceil(arg_6_0.x), math.ceil(arg_6_0.z))
+	return Vector2(math.floor(arg_6_0.x + 0.5), math.floor(arg_6_0.z + 0.5))
 end
 
 function var_0_0.WorldPosition2ScreenPosition(arg_7_0)
@@ -105,11 +105,10 @@ end
 function var_0_0.CameraPosToHitPoint(arg_11_0, arg_11_1)
 	local var_11_0 = arg_11_0.transform.position
 	local var_11_1 = arg_11_0.transform.forward
-	local var_11_2 = LuaHelper.NameToLayer(arg_11_1)
-	local var_11_3, var_11_4 = Physics.Raycast(var_11_0, var_11_1, nil, math.huge, var_11_2)
+	local var_11_2 = IslandHelper.Raycast(var_11_0, var_11_1, arg_11_1)
 
-	if var_11_3 then
-		return var_11_4.point
+	if var_11_2.w == 1 then
+		return Vector3(var_11_2.x, var_11_2.y, var_11_2.z)
 	else
 		return nil
 	end
@@ -120,11 +119,10 @@ function var_0_0.ScreenToHitPoint(arg_12_0, arg_12_1, arg_12_2)
 	local var_12_1 = arg_12_1
 	local var_12_2 = var_12_0:ScreenToViewportPoint(Vector3(var_12_1.x, var_12_1.y, 0))
 	local var_12_3 = arg_12_0:ViewportPointToRay(var_12_2)
-	local var_12_4 = LuaHelper.NameToLayer(arg_12_2)
-	local var_12_5, var_12_6 = Physics.Raycast(var_12_3, nil, math.huge, var_12_4)
+	local var_12_4 = IslandHelper.RaycastRay(var_12_3, arg_12_2)
 
-	if var_12_5 then
-		return var_12_6.point
+	if var_12_4.w == 1 then
+		return Vector3(var_12_4.x, var_12_4.y, var_12_4.z)
 	else
 		return nil
 	end
@@ -226,6 +224,10 @@ end
 
 function var_0_0.BuildScreenShootSavePath(arg_29_0)
 	return Application.persistentDataPath .. "/screen_scratch/island_theme" .. arg_29_0 .. ".jpg"
+end
+
+function var_0_0.GetVirtualInteractUnitId(arg_30_0, arg_30_1)
+	return arg_30_0 * 10 + arg_30_1 - 1
 end
 
 return var_0_0

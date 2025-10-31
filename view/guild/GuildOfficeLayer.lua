@@ -19,13 +19,13 @@ end
 
 function var_0_0.init(arg_4_0)
 	arg_4_0.taskPage = GuildOfficeTaskPage.New(arg_4_0._tf, arg_4_0.event)
-	arg_4_0.helpBtn = arg_4_0:findTF("frame/help")
+	arg_4_0.helpBtn = arg_4_0._tf:Find("frame/help")
 end
 
 function var_0_0.didEnter(arg_5_0)
 	local var_5_0 = arg_5_0.guild:GetOfficePainting()
 
-	pg.GuildPaintingMgr:GetInstance():Update(var_5_0, Vector3(-737, -171, 0))
+	pg.GuildPaintingMgr.GetInstance():Update(var_5_0, Vector3(-737, -171, 0))
 	arg_5_0.taskPage:ExecuteAction("Update", arg_5_0.guild, arg_5_0.isAdmin)
 	onButton(arg_5_0, arg_5_0.helpBtn, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -61,8 +61,8 @@ end
 function var_0_0.willExit(arg_11_0)
 	arg_11_0.taskPage:Destroy()
 
-	if isActive(pg.MsgboxMgr:GetInstance()._go) then
-		triggerButton(pg.MsgboxMgr:GetInstance()._closeBtn)
+	if isActive(pg.MsgboxMgr.GetInstance()._go) then
+		triggerButton(pg.MsgboxMgr.GetInstance()._closeBtn)
 	end
 end
 

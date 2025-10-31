@@ -19,9 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "累么……没事的，看着种子发芽、长大、结果……这都是值得的。",
+			say = "I'm not tired, I'm alright. Simply seeing the seeds sprout, grow, and bear fruit is my reward.",
 			characterId = 100400,
-			subName = "农田管理员",
+			subName = "Manager of the Farm",
 			face2Face = {
 				{
 					0,

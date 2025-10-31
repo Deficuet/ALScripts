@@ -24,10 +24,4 @@ function var_0_0.Clear(arg_5_0)
 	assert(nil, "Clear方法必须由子类实现")
 end
 
-function var_0_0.findTF(arg_6_0, arg_6_1, arg_6_2)
-	assert(arg_6_0._tf, "transform should exist")
-
-	return findTF(arg_6_2 or arg_6_0._tf, arg_6_1)
-end
-
 return var_0_0

@@ -9,20 +9,20 @@ function var_0_0.OnInit(arg_2_0)
 		arg_2_0:Hide()
 	end, SFX_PANEL)
 
-	arg_2_0.closeBtn = arg_2_0:findTF("window/top/btnBack")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
 
 	onButton(arg_2_0, arg_2_0.closeBtn, function()
 		arg_2_0:Hide()
 	end, SFX_PANEL)
 
-	arg_2_0.btnDiamond = arg_2_0:findTF("window/button_container/btn_diamond")
+	arg_2_0.btnDiamond = arg_2_0._tf:Find("window/button_container/btn_diamond")
 
 	onButton(arg_2_0, arg_2_0.btnDiamond, function()
 		arg_2_0:emit(MailMediator.ON_EXTEND_STORE, true)
 		arg_2_0:Hide()
 	end, SFX_PANEL)
 
-	arg_2_0.btnGold = arg_2_0:findTF("window/button_container/btn_gold")
+	arg_2_0.btnGold = arg_2_0._tf:Find("window/button_container/btn_gold")
 
 	onButton(arg_2_0, arg_2_0.btnGold, function()
 		arg_2_0:emit(MailMediator.ON_EXTEND_STORE, false)
@@ -64,7 +64,7 @@ function var_0_0.Show(arg_8_0)
 end
 
 function var_0_0.Hide(arg_9_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_9_0._tf, arg_9_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf, arg_9_0._parentTf)
 	var_0_0.super.Hide(arg_9_0)
 end
 

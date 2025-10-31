@@ -5,17 +5,17 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.InitCustom(arg_2_0)
-	setText(arg_2_0:findTF("Window/Text"), i18n("yumia_atelier_tip13"))
-	setText(arg_2_0:findTF("Window/textBg/Name"), i18n("yumia_atelier_tip16"))
+	setText(arg_2_0._tf:Find("Window/Text"), i18n("yumia_atelier_tip13"))
+	setText(arg_2_0._tf:Find("Window/textBg/Name"), i18n("yumia_atelier_tip16"))
 end
 
 function var_0_0.didEnter(arg_3_0)
 	arg_3_0.activity = arg_3_0.contextData.activity
 
-	onButton(arg_3_0, arg_3_0:findTF("Window/textBg/closeBtn"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("Window/textBg/closeBtn"), function()
 		arg_3_0:PlayCloseAni()
 	end, SFX_CANCEL)
-	onButton(arg_3_0, arg_3_0:findTF("BG"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("BG"), function()
 		arg_3_0:PlayCloseAni()
 	end, SFX_CANCEL)
 	arg_3_0:ShowStoreHouseWindow()
@@ -58,8 +58,8 @@ function var_0_0.ShowStoreHouseWindow(arg_9_0)
 	table.sort(var_9_1, function(arg_11_0, arg_11_1)
 		return arg_11_0:GetConfigID() < arg_11_1:GetConfigID()
 	end)
-	setActive(arg_9_0:findTF("Window/Empty"), #var_9_1 == 0)
-	setActive(arg_9_0:findTF("Window/ScrollView"), #var_9_1 > 0)
+	setActive(arg_9_0._tf:Find("Window/Empty"), #var_9_1 == 0)
+	setActive(arg_9_0._tf:Find("Window/ScrollView"), #var_9_1 > 0)
 
 	if #var_9_1 == 0 then
 		return
@@ -91,7 +91,7 @@ end
 
 function var_0_0.AddTimer(arg_16_0, arg_16_1)
 	local var_16_0 = 0
-	local var_16_1 = arg_16_0:findTF("Window/ScrollView/Viewport/Content")
+	local var_16_1 = arg_16_0._tf:Find("Window/ScrollView/Viewport/Content")
 
 	arg_16_0.timer = FrameTimer.New(function()
 		if math.min(var_16_1.childCount, 15) <= arg_16_1 then
@@ -104,10 +104,10 @@ function var_0_0.AddTimer(arg_16_0, arg_16_1)
 end
 
 function var_0_0.AddTimer2(arg_18_0)
-	local var_18_0 = arg_18_0:findTF("Window/ScrollView/Viewport/Content")
+	local var_18_0 = arg_18_0._tf:Find("Window/ScrollView/Viewport/Content")
 	local var_18_1 = var_18_0.childCount
 
-	SetComponentEnabled(arg_18_0:findTF("Window/ScrollView"), "LScrollRect", false)
+	SetComponentEnabled(arg_18_0._tf:Find("Window/ScrollView"), "LScrollRect", false)
 
 	for iter_18_0 = 0, var_18_1 - 1 do
 		SetComponentEnabled(var_18_0:GetChild(iter_18_0), typeof(Animation), false)
@@ -120,7 +120,7 @@ function var_0_0.AddTimer2(arg_18_0)
 	arg_18_0.timer = Timer.New(function()
 		if var_18_2 >= var_18_1 then
 			arg_18_0:StopTimer()
-			SetComponentEnabled(arg_18_0:findTF("Window/ScrollView"), "LScrollRect", true)
+			SetComponentEnabled(arg_18_0._tf:Find("Window/ScrollView"), "LScrollRect", true)
 
 			return
 		end

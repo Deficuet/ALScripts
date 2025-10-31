@@ -13,7 +13,7 @@ return {
 			characterId = 100700,
 			animation = "rest",
 			hideType = 2,
-			say = "嗯~又截了一单！先休息会儿。"
+			say = "Whew... I'm done processing this lumber. Time for a quick break."
 		}
 	}
 }

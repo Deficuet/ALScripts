@@ -13,7 +13,7 @@ return {
 			characterId = 100800,
 			animation = "nod",
 			hideType = 2,
-			say = "今天的客流量又增长了一些……"
+			say = "Our patronage has grown over yesterday again."
 		}
 	}
 }

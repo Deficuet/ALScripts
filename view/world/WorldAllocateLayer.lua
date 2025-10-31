@@ -17,26 +17,26 @@ function var_0_0.init(arg_2_0)
 	arg_2_0._selectedShipList = {}
 	arg_2_0._shipTFList = {}
 	arg_2_0._shipVOList = {}
-	arg_2_0.cancelBtn = arg_2_0:findTF("actions/cancel_button")
-	arg_2_0.confirmBtn = arg_2_0:findTF("actions/compose_button")
-	arg_2_0.itemTF = arg_2_0:findTF("item")
-	arg_2_0.nameTF = arg_2_0:findTF("item/name_container/name")
-	arg_2_0.descTF = arg_2_0:findTF("item/desc")
-	arg_2_0.fleetInfo = arg_2_0:findTF("fleet_info")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("actions/cancel_button")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("actions/compose_button")
+	arg_2_0.itemTF = arg_2_0._tf:Find("item")
+	arg_2_0.nameTF = arg_2_0._tf:Find("item/name_container/name")
+	arg_2_0.descTF = arg_2_0._tf:Find("item/desc")
+	arg_2_0.fleetInfo = arg_2_0._tf:Find("fleet_info")
 
 	setText(arg_2_0.fleetInfo:Find("top/Text"), i18n("world_ship_repair"))
 
 	arg_2_0.shipTpl = arg_2_0:getTpl("fleet_info/shiptpl")
 	arg_2_0.emptyTpl = arg_2_0:getTpl("fleet_info/emptytpl")
-	arg_2_0.shipsContainer = arg_2_0:findTF("fleet_info/contain")
-	arg_2_0.descLabel = arg_2_0:findTF("fleet_info/top/Text")
+	arg_2_0.shipsContainer = arg_2_0._tf:Find("fleet_info/contain")
+	arg_2_0.descLabel = arg_2_0._tf:Find("fleet_info/top/Text")
 
 	setText(arg_2_0.fleetInfo:Find("tip/Text"), i18n("world_battle_damage"))
 
-	arg_2_0.countLabel = arg_2_0:findTF("count")
-	arg_2_0.quotaTxt = arg_2_0:findTF("count/value")
-	arg_2_0.btnFleet = arg_2_0:findTF("fleets/selected")
-	arg_2_0.fleetToggleMask = arg_2_0:findTF("fleets/list_mask")
+	arg_2_0.countLabel = arg_2_0._tf:Find("count")
+	arg_2_0.quotaTxt = arg_2_0._tf:Find("count/value")
+	arg_2_0.btnFleet = arg_2_0._tf:Find("fleets/selected")
+	arg_2_0.fleetToggleMask = arg_2_0._tf:Find("fleets/list_mask")
 	arg_2_0.fleetToggleList = arg_2_0.fleetToggleMask:Find("list")
 
 	onButton(arg_2_0, arg_2_0.cancelBtn, function()
@@ -106,7 +106,7 @@ end
 
 function var_0_0.didEnter(arg_11_0)
 	arg_11_0:updateToggleList(arg_11_0.fleetList, arg_11_0.contextData.fleetIndex or 1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_11_0._tf, false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_11_0._tf)
 end
 
 function var_0_0.showOrHideToggleMask(arg_12_0, arg_12_1)
@@ -498,7 +498,7 @@ end
 function var_0_0.willExit(arg_35_0)
 	setParent(arg_35_0.shipTpl, arg_35_0.fleetInfo, false)
 	setParent(arg_35_0.emptyTpl, arg_35_0.fleetInfo, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_35_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0._tf)
 end
 
 return var_0_0

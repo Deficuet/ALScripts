@@ -57,10 +57,10 @@ function var_0_0.updateSlider(arg_8_0, arg_8_1)
 	local var_8_6 = (arg_8_0.squareContainer.rect.width - var_8_4) * var_8_2
 
 	arg_8_0.squareList:make(function(arg_9_0, arg_9_1, arg_9_2)
-		local var_9_0 = arg_8_0:findTF("UnFinished", arg_9_2)
-		local var_9_1 = arg_8_0:findTF("Finished", arg_9_2)
-		local var_9_2 = arg_8_0:findTF("Challengeing", arg_9_2)
-		local var_9_3 = arg_8_0:findTF("Arrow", arg_9_2)
+		local var_9_0 = arg_9_2:Find("UnFinished")
+		local var_9_1 = arg_9_2:Find("Finished")
+		local var_9_2 = arg_9_2:Find("Challengeing")
+		local var_9_3 = arg_9_2:Find("Arrow")
 
 		local function var_9_4()
 			setActive(var_9_1, true)

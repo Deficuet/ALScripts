@@ -5,14 +5,14 @@ var_0_0.RefreshTime = 300
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.lableList = arg_1_0:findTF("list", arg_1_0.bg)
+	arg_1_0.lableList = arg_1_0.bg:Find("list")
 	arg_1_0.lableItems = {}
 
 	for iter_1_0 = 0, arg_1_0.lableList.childCount - 1 do
 		table.insert(arg_1_0.lableItems, arg_1_0.lableList:GetChild(iter_1_0))
 	end
 
-	arg_1_0.linkBtn = arg_1_0:findTF("btn_link", arg_1_0.bg)
+	arg_1_0.linkBtn = arg_1_0.bg:Find("btn_link")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)

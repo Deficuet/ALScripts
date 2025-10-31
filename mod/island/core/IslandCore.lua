@@ -5,12 +5,12 @@ var_0_0.STATE_INIT = 2
 var_0_0.STATE_INIT_FINISH = 3
 var_0_0.STATE_DISPOSE = 4
 
-function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 	var_0_0.super.Ctor(arg_1_0)
 
 	arg_1_0.poolMgr = arg_1_1
 
-	local var_1_0, var_1_1 = arg_1_0:GetViewAndController(arg_1_2)
+	local var_1_0, var_1_1 = arg_1_0:GetViewAndController(arg_1_2, arg_1_3, arg_1_4)
 
 	arg_1_0.view = var_1_0
 	arg_1_0.controller = var_1_1
@@ -143,7 +143,7 @@ function var_0_0.Dispose(arg_14_0, arg_14_1)
 	end
 end
 
-function var_0_0.GetViewAndController(arg_15_0, arg_15_1)
+function var_0_0.GetViewAndController(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
 	local var_15_0
 	local var_15_1
 	local var_15_2 = arg_15_1:GetMapId()
@@ -154,13 +154,13 @@ function var_0_0.GetViewAndController(arg_15_0, arg_15_1)
 
 		local var_15_4 = var_15_1:GetAgora()
 
-		var_15_0 = AgoraView.New(arg_15_0, var_15_4)
+		var_15_0 = AgoraView.New(arg_15_0, var_15_4, arg_15_2, arg_15_3)
 	elseif var_15_3.minigame_id > 0 then
-		var_15_0 = IslandSeekGameView.New(arg_15_0)
+		var_15_0 = IslandSeekGameView.New(arg_15_0, arg_15_2, arg_15_3)
 		var_15_1 = IslandController.New(arg_15_0, arg_15_1)
 	else
 		var_15_1 = IslandController.New(arg_15_0, arg_15_1)
-		var_15_0 = IslandView.New(arg_15_0)
+		var_15_0 = IslandView.New(arg_15_0, arg_15_2, arg_15_3)
 	end
 
 	return var_15_0, var_15_1

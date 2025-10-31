@@ -7,15 +7,15 @@ end
 function var_0_0.init(arg_2_0)
 	var_0_0.super.init(arg_2_0)
 
-	arg_2_0.labelCH = arg_2_0:findTF("label/ch")
-	arg_2_0.labelEN = arg_2_0:findTF("label/en")
+	arg_2_0.labelCH = arg_2_0._tf:Find("label/ch")
+	arg_2_0.labelEN = arg_2_0._tf:Find("label/en")
 
 	setText(arg_2_0.labelEN, i18n("card_battle_card details"))
 
-	arg_2_0.switchToggle = arg_2_0:findTF("switch_toggle/toggle")
+	arg_2_0.switchToggle = arg_2_0._tf:Find("switch_toggle/toggle")
 
-	setText(arg_2_0:findTF("switch_toggle/toggle/hand"), i18n("card_battle_card details_switchto_deck"))
-	setText(arg_2_0:findTF("switch_toggle/toggle/deck"), i18n("card_battle_card details_switchto_hand"))
+	setText(arg_2_0._tf:Find("switch_toggle/toggle/hand"), i18n("card_battle_card details_switchto_deck"))
+	setText(arg_2_0._tf:Find("switch_toggle/toggle/deck"), i18n("card_battle_card details_switchto_hand"))
 	onToggle(arg_2_0, arg_2_0.switchToggle, function(arg_3_0)
 		if arg_3_0 then
 			arg_2_0:showHand()
@@ -24,11 +24,11 @@ function var_0_0.init(arg_2_0)
 		end
 	end)
 
-	arg_2_0.empty = arg_2_0:findTF("empty")
+	arg_2_0.empty = arg_2_0._tf:Find("empty")
 
-	setText(arg_2_0:findTF("empty/label_en"), i18n("card_battle_card_empty_en"))
-	setText(arg_2_0:findTF("empty/label_ch"), i18n("card_battle_card_empty_ch"))
-	onButton(arg_2_0, arg_2_0:findTF("backBtn"), function()
+	setText(arg_2_0._tf:Find("empty/label_en"), i18n("card_battle_card_empty_en"))
+	setText(arg_2_0._tf:Find("empty/label_ch"), i18n("card_battle_card_empty_ch"))
+	onButton(arg_2_0, arg_2_0._tf:Find("backBtn"), function()
 		arg_2_0:OnBackward()
 	end, SFX_PANEL)
 end

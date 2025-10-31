@@ -256,13 +256,13 @@ function var_0_0.PlayChapterStory(arg_8_0, arg_8_1, arg_8_2, arg_8_3)
 	var_8_0:Play(arg_8_0, arg_8_1, arg_8_3)
 
 	if not getProxy(SettingsProxy):GetStoryAutoPlayFlag() and arg_8_2 and var_8_0:IsRunning() then
-		var_8_0:Puase()
+		var_8_0:Pause()
 
 		local function var_8_1()
 			var_8_0:Resume()
 		end
 
-		pg.MsgboxMgr:GetInstance():ShowMsgBox({
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideYes = true,
 			parent = rtf(var_8_0._tf),
 			type = MSGBOX_TYPE_STORY_CANCEL_TIP,
@@ -270,8 +270,7 @@ function var_0_0.PlayChapterStory(arg_8_0, arg_8_1, arg_8_2, arg_8_3)
 				var_8_1()
 				var_8_0:TriggerAutoBtn()
 			end,
-			onNo = var_8_1,
-			weight = LayerWeightConst.TOP_LAYER
+			onNo = var_8_1
 		})
 
 		return true

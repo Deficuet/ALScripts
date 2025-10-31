@@ -6,12 +6,12 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.tpl = arg_2_0._go:GetComponent("ItemList").prefabItem[0]
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/close")
-	arg_2_0.sendBtn = arg_2_0:findTF("frame/btn")
-	arg_2_0.sendBtnGray = arg_2_0:findTF("frame/btn/gray")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/close")
+	arg_2_0.sendBtn = arg_2_0._tf:Find("frame/btn")
+	arg_2_0.sendBtnGray = arg_2_0._tf:Find("frame/btn/gray")
 	arg_2_0.slots = {
-		arg_2_0:findTF("frame/ship1"),
-		arg_2_0:findTF("frame/ship2")
+		arg_2_0._tf:Find("frame/ship1"),
+		arg_2_0._tf:Find("frame/ship2")
 	}
 	arg_2_0.items = {}
 	arg_2_0.cdTimer = {}
@@ -67,7 +67,7 @@ function var_0_0.UpdateSendBtn(arg_9_0)
 
 	onButton(arg_9_0, arg_9_0.sendBtn, function()
 		if arg_9_0.existBossBattle then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
 
 			return
 		end
@@ -131,7 +131,7 @@ function var_0_0.UpdateSlot(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
 		end
 
 		if arg_13_0.existBossBattle then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_formation_erro_in_boss_battle"))
 
 			return
 		end
@@ -155,7 +155,7 @@ function var_0_0.RefreshCdTimer(arg_15_0, arg_15_1)
 			local var_16_0 = getProxy(GuildProxy):GetNextCanFormationTime(arg_15_1) - pg.TimeMgr.GetInstance():GetServerTime()
 
 			if var_16_0 > 0 then
-				var_15_2.text = pg.TimeMgr:GetInstance():DescCDTime(var_16_0)
+				var_15_2.text = pg.TimeMgr.GetInstance():DescCDTime(var_16_0)
 			else
 				setActive(var_15_1, false)
 				setActive(var_15_0:Find("tag"), isActive(var_15_3))

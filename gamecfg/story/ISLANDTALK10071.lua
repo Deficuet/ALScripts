@@ -20,10 +20,10 @@ return {
 	scripts = {
 		{
 			characterId = 100700,
-			say = "木料的品质？哈~问我就对啦！是有什么好东西要我看看吗？",
+			say = "The quality of wood? Hehe, you got the right person! You got something nice to show me?",
 			time = 3,
 			hideType = 0,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			face2Face = {
 				{
 					0,

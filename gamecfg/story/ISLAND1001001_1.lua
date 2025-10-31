@@ -5,7 +5,7 @@ return {
 	scripts = {
 		{
 			characterId = 0,
-			say = "（这里就是奇异点的内部了么，环境倒是十分稳定，看上去也没什么危险……）",
+			say = "(Is this the inside of the Singularity? The environment seems stable, and I don't sense any danger.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -13,14 +13,14 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "（虽然发生了些许意外，但既然进来了就去找{namecode:98:明石}她们问问情况吧。）",
+			say = "(Mishaps aside, I made it here in one piece. Time to go ask Akashi's team what's going on.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯，前面好像就有一些建筑，过去看看。",
+			say = "I see a few buildings up ahead. Let's go.",
 			characterId = 0,
 			animation = "nod",
 			typewriter = {

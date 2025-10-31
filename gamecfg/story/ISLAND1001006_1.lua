@@ -24,8 +24,8 @@ return {
 	scripts = {
 		{
 			characterId = 0,
+			say = "John, we're back.",
 			animation = "hi",
-			say = "乔安，我们来了。",
 			face2Face = {
 				{
 					0,
@@ -44,19 +44,9 @@ return {
 			}
 		},
 		{
-			say = "木材也一起带来了哦~",
+			say = "And we have the wood.",
 			characterId = 100700,
-			subName = "林场管理员",
-			animation = "hi",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "很好，那这样就能开始修复交通线了。",
-			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "Manager of the Forest",
 			animation = "talk",
 			typewriter = {
 				speed = 0.05,
@@ -64,17 +54,38 @@ return {
 			}
 		},
 		{
-			subName = "林场管理员",
-			characterId = 100700,
-			say = "我们也来帮忙吧。",
+			say = "Bravo! Nice work, you two. That's all the materials we need.",
+			characterId = 100600,
+			subName = "Manager of the Mine",
+			animation = "clap",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			subName = "Manager of the Mine",
+			characterId = 100600,
+			say = "Now we can start repairing the bus stop!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Let us help you with that.",
+			characterId = 100700,
+			subName = "Manager of the Forest",
+			animation = "talk",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
 			characterId = 0,
-			say = "嗯，这样应该会快一些。",
+			say = "Yeah. We'll get it done faster if we work together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

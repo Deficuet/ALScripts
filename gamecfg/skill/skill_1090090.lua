@@ -63,7 +63,7 @@ return {
 			{
 				type = "BattleSkillAddBuff",
 				casterAniEffect = "",
-				target_choise = "TargetSelft",
+				target_choise = "TargetSelf",
 				targetAniEffect = "",
 				arg_list = {
 					buff_id = 1090091

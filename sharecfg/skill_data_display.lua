@@ -1891,6 +1891,46 @@ pg.skill_data_display = setmetatable({
 		151511,
 		151512,
 		151520,
+		151542,
+		151543,
+		151551,
+		151552,
+		151572,
+		151581,
+		151601,
+		151606,
+		151611,
+		151612,
+		151613,
+		151621,
+		151622,
+		151623,
+		151630,
+		151631,
+		151641,
+		151642,
+		151660,
+		151661,
+		151667,
+		151670,
+		151671,
+		151711,
+		151722,
+		151723,
+		151732,
+		151733,
+		151750,
+		151751,
+		151752,
+		151753,
+		151761,
+		151763,
+		151771,
+		151781,
+		151791,
+		151792,
+		151801,
+		151802,
 		18010,
 		18040,
 		18041,
@@ -2985,6 +3025,14 @@ pg.skill_data_display = setmetatable({
 		112290,
 		112291,
 		112292,
+		114101,
+		114102,
+		114104,
+		114111,
+		114118,
+		114121,
+		114122,
+		114128,
 		190001,
 		190002,
 		190003,
@@ -3299,6 +3347,7 @@ pg.skill_data_display = setmetatable({
 		801779,
 		801845,
 		801891,
+		801921,
 		902201,
 		1010140,
 		1010143,
@@ -3526,6 +3575,16 @@ pg.skill_data_display = setmetatable({
 		201497,
 		201498,
 		201504,
+		201525,
+		201526,
+		201527,
+		201528,
+		201529,
+		201530,
+		201531,
+		201532,
+		201547,
+		201550,
 		1011540,
 		1011541,
 		1090010,
@@ -3616,6 +3675,8 @@ pg.skill_data_display = setmetatable({
 		10150601,
 		10150640,
 		10150642,
+		10151761,
+		10151763,
 		1010481,
 		1010491,
 		1019021,
@@ -3666,6 +3727,11 @@ pg.skill_data_display = setmetatable({
 		1011242,
 		1011243,
 		1011245,
+		1012430,
+		1012431,
+		1012432,
+		1012435,
+		10151811,
 		1090020,
 		1090042,
 		1090043,
@@ -3740,7 +3806,8 @@ pg.skill_data_display = setmetatable({
 		1090410,
 		1090420,
 		1090421,
-		1090422
+		1090422,
+		1090432
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11301,6 +11368,166 @@ pg.base.skill_data_display = {
 		id = 151520,
 		name = "Divine Deeds Done Dreamily"
 	},
+	[151542] = {
+		id = 151542,
+		name = "Wispwrought Augury"
+	},
+	[151543] = {
+		id = 151543,
+		name = "Wispwrought Augury"
+	},
+	[151551] = {
+		id = 151551,
+		name = "Smouldering Embrace"
+	},
+	[151552] = {
+		id = 151552,
+		name = "Smouldering Embrace"
+	},
+	[151572] = {
+		id = 151572,
+		name = "Ninja Arts: Formless"
+	},
+	[151581] = {
+		id = 151581,
+		name = "Brighten the Distant Skies"
+	},
+	[151601] = {
+		id = 151601,
+		name = "Dancer Upon the Waves"
+	},
+	[151606] = {
+		id = 151606,
+		name = "Dancer Upon the Waves"
+	},
+	[151611] = {
+		id = 151611,
+		name = "Words Flow Like Wine"
+	},
+	[151612] = {
+		id = 151612,
+		name = "Words Flow Like Wine"
+	},
+	[151613] = {
+		id = 151613,
+		name = "Words Flow Like Wine"
+	},
+	[151621] = {
+		id = 151621,
+		name = "Banquet of a Hundred Verses"
+	},
+	[151622] = {
+		id = 151622,
+		name = "Banquet of a Hundred Verses"
+	},
+	[151623] = {
+		id = 151623,
+		name = "Banquet of a Hundred Verses"
+	},
+	[151630] = {
+		id = 151630,
+		name = "Steadfast Shiratsuyu"
+	},
+	[151631] = {
+		id = 151631,
+		name = "Steadfast Shiratsuyu"
+	},
+	[151641] = {
+		id = 151641,
+		name = "Span of an Instant"
+	},
+	[151642] = {
+		id = 151642,
+		name = "Span of an Instant"
+	},
+	[151660] = {
+		id = 151660,
+		name = "Homemade Mystery Hot Pot"
+	},
+	[151661] = {
+		id = 151661,
+		name = "Homemade Mystery Hot Pot"
+	},
+	[151667] = {
+		id = 151667,
+		name = "...Mystery Hot Pot?"
+	},
+	[151670] = {
+		id = 151670,
+		name = "Stream Chases Thunder's Traces"
+	},
+	[151671] = {
+		id = 151671,
+		name = "Stream Chases Thunder's Traces"
+	},
+	[151711] = {
+		id = 151711,
+		name = "Horror From the Deeps+"
+	},
+	[151722] = {
+		id = 151722,
+		name = "Dreams in the Pirate's House"
+	},
+	[151723] = {
+		id = 151723,
+		name = "Dreams in the Pirate's House"
+	},
+	[151732] = {
+		id = 151732,
+		name = "Horror From the Deeps"
+	},
+	[151733] = {
+		id = 151733,
+		name = "Horror From the Deeps+"
+	},
+	[151750] = {
+		id = 151750,
+		name = "The Blackmane Tempesta"
+	},
+	[151751] = {
+		id = 151751,
+		name = "The Blackmane Tempesta"
+	},
+	[151752] = {
+		id = 151752,
+		name = "The Blackmane Tempesta"
+	},
+	[151753] = {
+		id = 151753,
+		name = "The Blackmane Tempesta"
+	},
+	[151761] = {
+		id = 151761,
+		name = "Share the Spoils"
+	},
+	[151763] = {
+		id = 151763,
+		name = "Share the Spoils"
+	},
+	[151771] = {
+		id = 151771,
+		name = "Pearl of the Sky, Sapphire of the Sea"
+	},
+	[151781] = {
+		id = 151781,
+		name = "Moon's Splendour, Pearl's Shimmer"
+	},
+	[151791] = {
+		id = 151791,
+		name = "Moon's Splendour, Pearl's Shimmer+"
+	},
+	[151792] = {
+		id = 151792,
+		name = "Moon's Splendour, Pearl's Shimmer+"
+	},
+	[151801] = {
+		id = 151801,
+		name = "Judgment of Spear and Sword"
+	},
+	[151802] = {
+		id = 151802,
+		name = "Judgment of Spear and Sword"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -15677,6 +15904,38 @@ pg.base.skill_data_display = {
 		id = 112292,
 		name = "Isolation"
 	},
+	[114101] = {
+		id = 114101,
+		name = "Star Justitory"
+	},
+	[114102] = {
+		id = 114102,
+		name = "Agaris Alvesynth"
+	},
+	[114104] = {
+		id = 114104,
+		name = "Alvelia"
+	},
+	[114111] = {
+		id = 114111,
+		name = "Luvia"
+	},
+	[114118] = {
+		id = 114118,
+		name = "Luminous Wind"
+	},
+	[114121] = {
+		id = 114121,
+		name = "Luminous Wind+"
+	},
+	[114122] = {
+		id = 114122,
+		name = "Luvia"
+	},
+	[114128] = {
+		id = 114128,
+		name = "Luminous Wind+"
+	},
 	[190001] = {
 		id = 190001,
 		name = "Steelsurge Concerto"
@@ -16933,6 +17192,10 @@ pg.base.skill_data_display = {
 		id = 801891,
 		name = "Emberlit Constitution"
 	},
+	[801921] = {
+		id = 801921,
+		name = "Offensive Stance"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -17841,6 +18104,46 @@ pg.base.skill_data_display = {
 		id = 201504,
 		name = "I'm Gonna Tear You Up"
 	},
+	[201525] = {
+		id = 201525,
+		name = "Amahara's Blessing - Hane"
+	},
+	[201526] = {
+		id = 201526,
+		name = "Amahara's Blessing - Hane"
+	},
+	[201527] = {
+		id = 201527,
+		name = "Amahara's Blessing - Hane"
+	},
+	[201528] = {
+		id = 201528,
+		name = "Amahara's Blessing - Hane"
+	},
+	[201529] = {
+		id = 201529,
+		name = "Amahara's Blessing - Hane"
+	},
+	[201530] = {
+		id = 201530,
+		name = "Amahara's Blessing - Uroko"
+	},
+	[201531] = {
+		id = 201531,
+		name = "Amahara's Blessing - Uroko"
+	},
+	[201532] = {
+		id = 201532,
+		name = "Amahara's Blessing - Uroko"
+	},
+	[201547] = {
+		id = 201547,
+		name = "Island Ruins Support"
+	},
+	[201550] = {
+		id = 201550,
+		name = "Island Ruins Support"
+	},
 	[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -18201,6 +18504,14 @@ pg.base.skill_data_display = {
 		id = 10150642,
 		name = "\"Spiritual\" Healing+"
 	},
+	[10151761] = {
+		id = 10151761,
+		name = "Share the Spoils+"
+	},
+	[10151763] = {
+		id = 10151763,
+		name = "Share the Spoils+"
+	},
 	[1010481] = {
 		id = 1010481,
 		name = "Sisterly Bond+"
@@ -18400,6 +18711,26 @@ pg.base.skill_data_display = {
 	[1011245] = {
 		id = 1011245,
 		name = "The Unsinkable Lucky Ship+"
+	},
+	[1012430] = {
+		id = 1012430,
+		name = "Lucky A +"
+	},
+	[1012431] = {
+		id = 1012431,
+		name = "Lucky A +"
+	},
+	[1012432] = {
+		id = 1012432,
+		name = "Lucky A +"
+	},
+	[1012435] = {
+		id = 1012435,
+		name = "Lucky A +"
+	},
+	[10151811] = {
+		id = 10151811,
+		name = "Final Sacrament+"
 	},
 	[1090020] = {
 		id = 1090020,
@@ -18700,5 +19031,9 @@ pg.base.skill_data_display = {
 	[1090422] = {
 		id = 1090422,
 		name = "Full Firepower - Grozny"
+	},
+	[1090432] = {
+		id = 1090432,
+		name = "Draw Fire - Myoukou"
 	}
 }

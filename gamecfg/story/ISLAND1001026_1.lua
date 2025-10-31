@@ -19,10 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			subName = "农田管理员",
-			characterId = 100400,
-			animation = "talk",
-			say = "嗯，指挥官……对于刚才的那些种子，你有什么发现吗？",
+			characterId = 0,
+			animation = "hi",
+			say = "That's everything!",
 			face2Face = {
 				{
 					0,
@@ -32,14 +31,24 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			}
+		},
+		{
+			say = "Well, Commander? Did you notice anything different about those seeds?",
+			characterId = 100400,
+			subName = "Manager of the Farm",
+			animation = "nod",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没错！",
+					content = "I did.",
 					flag = 1
 				},
 				{
-					content = "额……",
+					content = "Uhh...",
 					flag = 2
 				}
 			}
@@ -47,7 +56,7 @@ return {
 		{
 			characterId = 0,
 			optionFlag = 1,
-			say = "不管是形态还是大小，都与普通小麦有着明显的区别……真是不可思议。",
+			say = "Compared to regular wheat, they were shaped and sized completely differently. Weird stuff.",
 			animation = "nod",
 			typewriter = {
 				speed = 0.05,
@@ -57,56 +66,90 @@ return {
 		{
 			characterId = 0,
 			optionFlag = 2,
-			say = "确实有很大的不同……比如……比如……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 100400,
-			optionFlag = 2,
-			subName = "农田管理员",
-			say = "盯——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 0,
-			optionFlag = 2,
-			say = "比如大了很多！",
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			characterId = 100400,
-			subName = "农田管理员",
-			say = "嗯嗯~指挥官果然也注意到了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			say = "Come to think of it, yeah, they were different. Like, they were... Um...",
 			animation = "talk",
-			characterId = 100400,
-			subName = "农田管理员",
-			say = "岛上的环境确实得天独厚，在这里种出来的作物品质都非常不错……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "听起来……这片田地的潜力似乎还没有被真正发掘出来。",
+			characterId = 100400,
+			optionFlag = 2,
+			subName = "Manager of the Farm",
+			say = "*stares patiently*...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			characterId = 0,
+			optionFlag = 2,
+			say = "They were bigger!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			animation = "nod",
+			characterId = 100400,
+			subName = "Manager of the Farm",
+			say = "That's right. I knew you'd notice it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Farm",
+			characterId = 100400,
+			say = "The island has a blessed environment, and all the crops grown here are of exceptional quality.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Many of the crops have undergone changes visible even at a glance if you compare them to ones in an encyclopedia.",
+			characterId = 100400,
+			subName = "Manager of the Farm",
+			animation = "talk",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "From what I've heard, there's still untapped potential lying in this field.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Farm",
+			characterId = 100400,
+			say = "There is. Given a small time investment, this field on its own will be able to feed the entire development area.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Sure, but what if we scale up a bit?",
+			characterId = 0,
+			animation = "talk",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "How about feeding the island AND increasing our exports at the same time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,64 +158,35 @@ return {
 		{
 			animation = "think",
 			characterId = 100400,
-			subName = "农田管理员",
-			say = "嗯~指挥官，只要再有一段时间，这片农田就可以让整个开发区的食物实现自给自足。",
+			subName = "Manager of the Farm",
+			say = "If we were to scale up, our high yields and quick growth cycles would indeed be nice advantages...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			characterId = 0,
-			say = "可如果……我想扩大种植规模……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "最好能在供给岛内的同时还能满足更多的外销需求，你觉得可行吗？",
-			characterId = 0,
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "think",
+			subName = "Manager of the Farm",
 			characterId = 100400,
-			subName = "农田管理员",
-			say = "扩大规模……高产和生长速度快确实是优势……",
+			say = "However, it will also rapidly deplete the nutrients in the soil.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "但指挥官，这也意味着土壤养分的消耗会非常快。",
+			subName = "Manager of the Farm",
 			characterId = 100400,
-			subName = "农田管理员",
-			animation = "shakehead",
+			say = "It won't be possible to outpace the nutrient depletion with our current crop rotation and basic compost.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "talk",
+			subName = "Manager of the Farm",
 			characterId = 100400,
-			subName = "农田管理员",
-			say = "现有的轮作和基础堆肥……恐怕很难跟上这种强度的索取。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			subName = "农田管理员",
-			characterId = 100400,
-			say = "你看，这块土壤虽然看着还行，但深层土壤的有机质含量已经开始下降了。",
+			say = "Look at this. While the field may seem fine on the surface, the organic matter content deep in the soil has already begun to decline.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,8 +195,8 @@ return {
 		{
 			animation = "sad",
 			characterId = 100400,
-			subName = "农田管理员",
-			say = "如果不及时补充，下一季的产量和品质可能会明显下滑，这是不可持续的。",
+			subName = "Manager of the Farm",
+			say = "If we don't replenish it, the harvest will drop in both quality and quantity next season. It isn't a sustainable process.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,33 +204,34 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "土壤肥力么……这是个问题……不过……",
+			say = "Soil fertility's the problem, huh? In that case...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不过我们不能只向土地索取，还要有适当的回报。",
 			characterId = 0,
-			animation = "nod",
+			say = "Whenever we take from the field, we must also give something back.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "农田管理员",
+			say = "Ah, yes, that's a great idea!",
 			characterId = 100400,
-			say = "啊！是哦……不愧是指挥官！",
+			subName = "Manager of the Farm",
+			animation = "amaze",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			say = "We could try natural fertilizer, for instance. There's a ranch right next to us, after all.",
 			characterId = 0,
-			say = "或许……我们可以试试生态肥料。刚好旁边不就是牧场吗？",
+			animation = "talk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,62 +240,60 @@ return {
 		{
 			animation = "think",
 			characterId = 100400,
-			subName = "农田管理员",
-			say = "唔，没错，如果用上稳定、安全、高效的有机肥……",
+			subName = "Manager of the Farm",
+			say = "Of course. It's a safe and efficient option.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "农田管理员",
+			subName = "Manager of the Farm",
 			characterId = 100400,
-			say = "再根据土壤实际情况辅以不同的化学肥料。",
+			say = "Depending on how the field's doing, we can also use it in tandem with chemical fertilizer when appropriate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			subName = "Manager of the Farm",
+			characterId = 100400,
+			say = "Yes, then we should be able to keep the soil fertile and grow lots of quality crops at the same time!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Great! Then the key to solving this problem lies in the ranch.",
+			characterId = 0,
 			animation = "clap",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Farm",
 			characterId = 100400,
-			subName = "农田管理员",
-			say = "嗯，这样就能同时保证土壤的健康和作物的品质了！",
+			say = "Well, it may solve the soil issue, but there's another...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "很好！看来解决问题的关键就在牧场里了。",
-			characterId = 0,
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "sad",
+			subName = "Manager of the Farm",
 			characterId = 100400,
-			subName = "农田管理员",
-			say = "不过……土壤的肥力虽然有办法解决……",
+			say = "The scale you're envisioning is too much for me to handle all by myself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "农田管理员",
-			characterId = 100400,
-			say = "但要扩大到指挥官想要的那种规模，单凭我的话还是有些……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "人手不够对吧？放心吧~我又不是什么黑心资本家，会安排人来帮你的。",
+			say = "So you need manpower? Not a problem. I'm not a tyrant – I'll get you some helpers.",
 			characterId = 0,
 			animation = "nod",
 			typewriter = {
@@ -290,7 +303,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "不过现在，我得去看看牧场的“宝藏”了。",
+			say = "Now, let's head to the ranch and look for some brown gold.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

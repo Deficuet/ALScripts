@@ -23,8 +23,10 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.signInAgency = IslandSignInAgency.New(arg_1_0, arg_1_1)
 	arg_1_0.taskAgency = IslandTaskAgency.New(arg_1_0, arg_1_1)
 	arg_1_0.accessAgency = IslandAccessAgency.New(arg_1_0, arg_1_1)
-	arg_1_0.gatherCollectAgency = IslandGatherCollectAgency.New(arg_1_0)
+	arg_1_0.gatherCollectAgency = IslandGatherCollectAgency.New(arg_1_0, arg_1_1)
 	arg_1_0.buildingAgency = IslandBuildingAgency.New(arg_1_0, arg_1_1)
+	arg_1_0.followerAgency = IslandFollowerAgency.New(arg_1_0)
+	arg_1_0.activityNpcAgency = IslandActivityNpcAgency.New(arg_1_0)
 	arg_1_0.agoraAgency = IslandAgoraAgency.New(arg_1_0, arg_1_1)
 	arg_1_0.manageAgency = IslandManageAgecny.New(arg_1_0, arg_1_1)
 	arg_1_0.mapID = pg.island_set.initial_scene.key_value_int
@@ -39,307 +41,307 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	end
 end
 
-function var_0_0.GetAccessAgency(arg_2_0)
-	return arg_2_0.accessAgency
+function var_0_0.GetActivityNpcAgency(arg_2_0)
+	return arg_2_0.activityNpcAgency
 end
 
-function var_0_0.IsPrivate(arg_3_0)
+function var_0_0.GetFollowerAgency(arg_3_0)
+	return arg_3_0.followerAgency
+end
+
+function var_0_0.GetAccessAgency(arg_4_0)
+	return arg_4_0.accessAgency
+end
+
+function var_0_0.IsPrivate(arg_5_0)
 	return false
 end
 
-function var_0_0.GetVisitorAgency(arg_4_0)
-	return arg_4_0.visitorAgency
+function var_0_0.GetVisitorAgency(arg_6_0)
+	return arg_6_0.visitorAgency
 end
 
-function var_0_0.GetAgoraAgency(arg_5_0)
-	return arg_5_0.agoraAgency
+function var_0_0.GetAgoraAgency(arg_7_0)
+	return arg_7_0.agoraAgency
 end
 
-function var_0_0.GetCharacterAgency(arg_6_0)
-	return arg_6_0.characterAgency
+function var_0_0.GetCharacterAgency(arg_8_0)
+	return arg_8_0.characterAgency
 end
 
-function var_0_0.GetTechnologyAgency(arg_7_0)
-	return arg_7_0.technologyAgency
+function var_0_0.GetTechnologyAgency(arg_9_0)
+	return arg_9_0.technologyAgency
 end
 
-function var_0_0.GetAblityAgency(arg_8_0)
-	return arg_8_0.ablityAgency
+function var_0_0.GetAblityAgency(arg_10_0)
+	return arg_10_0.ablityAgency
 end
 
-function var_0_0.GetSignInAgency(arg_9_0)
-	return arg_9_0.signInAgency
+function var_0_0.GetSignInAgency(arg_11_0)
+	return arg_11_0.signInAgency
 end
 
-function var_0_0.GetTaskAgency(arg_10_0)
-	return arg_10_0.taskAgency
+function var_0_0.GetTaskAgency(arg_12_0)
+	return arg_12_0.taskAgency
 end
 
-function var_0_0.GetManageAgency(arg_11_0)
-	return arg_11_0.manageAgency
+function var_0_0.GetManageAgency(arg_13_0)
+	return arg_13_0.manageAgency
 end
 
-function var_0_0.GetWildCollectAgency(arg_12_0)
-	return arg_12_0.gatherCollectAgency
+function var_0_0.GetWildCollectAgency(arg_14_0)
+	return arg_14_0.gatherCollectAgency
 end
 
-function var_0_0.GetBuildingAgency(arg_13_0)
-	return arg_13_0.buildingAgency
+function var_0_0.GetBuildingAgency(arg_15_0)
+	return arg_15_0.buildingAgency
 end
 
-function var_0_0.SetSpawnPointId(arg_14_0, arg_14_1)
-	arg_14_0.spawnPointId = arg_14_1
+function var_0_0.SetSpawnPointId(arg_16_0, arg_16_1)
+	arg_16_0.spawnPointId = arg_16_1
 end
 
-function var_0_0.GetSpawnPointId(arg_15_0)
-	local var_15_0 = arg_15_0.spawnPointId
+function var_0_0.GetSpawnPointId(arg_17_0)
+	local var_17_0 = arg_17_0.spawnPointId
 
-	arg_15_0.spawnPointId = nil
+	arg_17_0.spawnPointId = nil
 
-	return var_15_0
+	return var_17_0
 end
 
-function var_0_0.SetLastExitPosition(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
-	if arg_16_1 <= 0 then
+function var_0_0.SetLastExitPosition(arg_18_0, arg_18_1, arg_18_2, arg_18_3)
+	if arg_18_1 <= 0 then
 		return
 	end
 
-	arg_16_0.lastExitPosition = {
-		mapId = arg_16_1,
-		position = arg_16_2,
-		rotation = arg_16_3
+	arg_18_0.lastExitPosition = {
+		mapId = arg_18_1,
+		position = arg_18_2,
+		rotation = arg_18_3
 	}
 end
 
-function var_0_0.GetLastExitPosition(arg_17_0)
-	return arg_17_0.lastExitPosition
+function var_0_0.GetLastExitPosition(arg_19_0)
+	return arg_19_0.lastExitPosition
 end
 
-function var_0_0.GetMapId(arg_18_0)
-	return arg_18_0.mapID
+function var_0_0.GetMapId(arg_20_0)
+	return arg_20_0.mapID
 end
 
-function var_0_0.SetMapId(arg_19_0, arg_19_1)
-	local var_19_0 = pg.island_map[arg_19_1]
+function var_0_0.SetMapId(arg_21_0, arg_21_1)
+	local var_21_0 = pg.island_map[arg_21_1]
 
-	if not var_19_0 then
+	if not var_21_0 then
 		return
 	end
 
-	if not pg.TimeMgr.GetInstance():inTime(var_19_0.time) then
+	if not pg.TimeMgr.GetInstance():inTime(var_21_0.time) then
 		return
 	end
 
-	arg_19_0.mapID = arg_19_1
+	arg_21_0.mapID = arg_21_1
 end
 
-function var_0_0.GetUnlockBuildingList(arg_20_0)
-	if arg_20_0:IsMaxLevel() then
+function var_0_0.GetUnlockBuildingList(arg_22_0)
+	if arg_22_0:IsMaxLevel() then
 		return {}
 	end
 
-	return pg.island_level[arg_20_0.level].island_level_award
+	return pg.island_level[arg_22_0.level].island_level_award
 end
 
-function var_0_0.IsNew(arg_21_0)
-	return arg_21_0.name == ""
+function var_0_0.IsNew(arg_23_0)
+	return arg_23_0.name == ""
 end
 
-function var_0_0.CanModifyName(arg_22_0)
+function var_0_0.CanModifyName(arg_24_0)
 	return true
 end
 
-function var_0_0.SetName(arg_23_0, arg_23_1)
-	arg_23_0.name = arg_23_1
+function var_0_0.SetName(arg_25_0, arg_25_1)
+	arg_25_0.name = arg_25_1
 end
 
-function var_0_0.GetName(arg_24_0)
-	if arg_24_0.name == "" then
-		local var_24_0 = getProxy(PlayerProxy):getRawData().name
+function var_0_0.GetName(arg_26_0)
+	if arg_26_0.name == "" then
+		local var_26_0 = getProxy(PlayerProxy):getRawData().name
 
-		return i18n("island_default_name", var_24_0)
+		return i18n("island_default_name", var_26_0)
 	else
-		return arg_24_0.name
+		return arg_26_0.name
 	end
 end
 
-function var_0_0.SetManifesto(arg_25_0, arg_25_1)
-	arg_25_0.manifesto = arg_25_1
+function var_0_0.SetManifesto(arg_27_0, arg_27_1)
+	arg_27_0.manifesto = arg_27_1
 end
 
-function var_0_0.GetManifesto(arg_26_0)
-	return arg_26_0.manifesto
+function var_0_0.GetManifesto(arg_28_0)
+	return arg_28_0.manifesto
 end
 
-function var_0_0.GetModifyNameConsume(arg_27_0)
-	return {
-		DROP_TYPE_RESOURCE,
-		1,
-		1
-	}
-end
-
-function var_0_0.AddExp(arg_28_0, arg_28_1)
-	if arg_28_0:IsMaxLevel() then
-		return
-	end
-
-	arg_28_0.exp = arg_28_0.exp + arg_28_1
-end
-
-function var_0_0.Upgrade(arg_29_0)
+function var_0_0.AddExp(arg_29_0, arg_29_1)
 	if arg_29_0:IsMaxLevel() then
 		return
 	end
 
-	if arg_29_0:CanLevelUp() then
-		arg_29_0.exp = arg_29_0:IsMaxLevel() and 0 or arg_29_0.exp - arg_29_0:GetTargeExp()
-
-		arg_29_0:LevelUp()
-	end
+	arg_29_0.exp = arg_29_0.exp + arg_29_1
 end
 
-function var_0_0.LevelUp(arg_30_0)
-	arg_30_0.level = arg_30_0.level + 1
-	arg_30_0.configId = arg_30_0.level
-end
-
-function var_0_0.GetTargeExp(arg_31_0)
-	local var_31_0 = pg.island_level[arg_31_0.level]
-
-	assert(var_31_0)
-
-	return var_31_0.island_exp
-end
-
-function var_0_0.CanLevelUp(arg_32_0)
-	if arg_32_0:IsMaxLevel() then
-		return false
-	end
-
-	return arg_32_0:GetTargeExp() <= arg_32_0.exp
-end
-
-function var_0_0.IsMaxLevel(arg_33_0)
-	local var_33_0 = #pg.island_level.all
-
-	return pg.island_level.all[var_33_0] <= arg_33_0.level
-end
-
-function var_0_0.StaticIsMaxLevel(arg_34_0, arg_34_1)
-	local var_34_0 = #pg.island_level.all
-
-	return arg_34_1 >= pg.island_level.all[var_34_0]
-end
-
-function var_0_0.GetLevel(arg_35_0)
-	return arg_35_0.level
-end
-
-function var_0_0.GetExp(arg_36_0)
-	return arg_36_0.exp
-end
-
-function var_0_0.GetUpgradeAwardsByLevel(arg_37_0, arg_37_1)
-	if arg_37_0:StaticIsMaxLevel(arg_37_1) then
-		return {}
-	end
-
-	local var_37_0 = pg.island_level[arg_37_1]
-
-	assert(var_37_0)
-
-	local var_37_1 = {}
-
-	for iter_37_0, iter_37_1 in ipairs(var_37_0.island_level_award) do
-		table.insert(var_37_1, {
-			DROP_TYPE_ISLAND_ITEM,
-			iter_37_1[1],
-			iter_37_1[2]
-		})
-	end
-
-	return var_37_1
-end
-
-function var_0_0.GetUpgradeAwards(arg_38_0)
-	return (arg_38_0:GetUpgradeAwardsByLevel(arg_38_0.level))
-end
-
-function var_0_0.AddProsperity(arg_39_0, arg_39_1)
-	if not arg_39_0:CanAddProsperity() then
+function var_0_0.Upgrade(arg_30_0)
+	if arg_30_0:IsMaxLevel() then
 		return
 	end
 
-	arg_39_0.prosperity = arg_39_0.prosperity + arg_39_1
+	if arg_30_0:CanLevelUp() then
+		arg_30_0.exp = arg_30_0:IsMaxLevel() and 0 or arg_30_0.exp - arg_30_0:GetTargeExp()
+
+		arg_30_0:LevelUp()
+	end
 end
 
-function var_0_0.CanAddProsperity(arg_40_0)
-	local var_40_0 = arg_40_0:GetMaxProsperityLevel()
-
-	return pg.island_prosperity[var_40_0].prosperity > arg_40_0.prosperity
+function var_0_0.LevelUp(arg_31_0)
+	arg_31_0.level = arg_31_0.level + 1
+	arg_31_0.configId = arg_31_0.level
 end
 
-function var_0_0.GetProsperity(arg_41_0)
-	return arg_41_0.prosperity
+function var_0_0.GetTargeExp(arg_32_0)
+	local var_32_0 = pg.island_level[arg_32_0.level]
+
+	assert(var_32_0)
+
+	return var_32_0.island_exp
 end
 
-function var_0_0.GetMaxProsperityLevel(arg_42_0)
-	local var_42_0 = pg.island_prosperity.all
-
-	return var_42_0[#var_42_0]
-end
-
-function var_0_0.GetTargetProsperityByLevel(arg_43_0, arg_43_1)
-	assert(pg.island_prosperity[arg_43_1])
-
-	return pg.island_prosperity[arg_43_1].prosperity
-end
-
-function var_0_0.GetTargetProsperity(arg_44_0)
-	local var_44_0 = 0
-	local var_44_1 = arg_44_0:GetProsperity()
-
-	for iter_44_0, iter_44_1 in ipairs(pg.island_prosperity.all) do
-		local var_44_2 = arg_44_0:GetTargetProsperityByLevel(iter_44_1)
-
-		if var_44_1 < var_44_2 then
-			return var_44_2
-		end
+function var_0_0.CanLevelUp(arg_33_0)
+	if arg_33_0:IsMaxLevel() then
+		return false
 	end
 
-	return var_44_0
+	return arg_33_0:GetTargeExp() <= arg_33_0.exp
 end
 
-function var_0_0.GetProsperityLevel(arg_45_0)
-	local var_45_0 = arg_45_0:GetProsperity()
+function var_0_0.IsMaxLevel(arg_34_0)
+	local var_34_0 = #pg.island_level.all
+
+	return pg.island_level.all[var_34_0] <= arg_34_0.level
+end
+
+function var_0_0.StaticIsMaxLevel(arg_35_0, arg_35_1)
+	local var_35_0 = #pg.island_level.all
+
+	return arg_35_1 >= pg.island_level.all[var_35_0]
+end
+
+function var_0_0.GetLevel(arg_36_0)
+	return arg_36_0.level
+end
+
+function var_0_0.GetExp(arg_37_0)
+	return arg_37_0.exp
+end
+
+function var_0_0.GetUpgradeAwardsByLevel(arg_38_0, arg_38_1)
+	if arg_38_0:StaticIsMaxLevel(arg_38_1) then
+		return {}
+	end
+
+	local var_38_0 = pg.island_level[arg_38_1]
+
+	assert(var_38_0)
+
+	local var_38_1 = {}
+
+	for iter_38_0, iter_38_1 in ipairs(var_38_0.island_level_award) do
+		table.insert(var_38_1, {
+			DROP_TYPE_ISLAND_ITEM,
+			iter_38_1[1],
+			iter_38_1[2]
+		})
+	end
+
+	return var_38_1
+end
+
+function var_0_0.GetUpgradeAwards(arg_39_0)
+	return (arg_39_0:GetUpgradeAwardsByLevel(arg_39_0.level))
+end
+
+function var_0_0.AddProsperity(arg_40_0, arg_40_1)
+	if not arg_40_0:CanAddProsperity() then
+		return
+	end
+
+	arg_40_0.prosperity = arg_40_0.prosperity + arg_40_1
+end
+
+function var_0_0.CanAddProsperity(arg_41_0)
+	local var_41_0 = arg_41_0:GetMaxProsperityLevel()
+
+	return pg.island_prosperity[var_41_0].prosperity > arg_41_0.prosperity
+end
+
+function var_0_0.GetProsperity(arg_42_0)
+	return arg_42_0.prosperity
+end
+
+function var_0_0.GetMaxProsperityLevel(arg_43_0)
+	local var_43_0 = pg.island_prosperity.all
+
+	return var_43_0[#var_43_0]
+end
+
+function var_0_0.GetTargetProsperityByLevel(arg_44_0, arg_44_1)
+	assert(pg.island_prosperity[arg_44_1])
+
+	return pg.island_prosperity[arg_44_1].prosperity
+end
+
+function var_0_0.GetTargetProsperity(arg_45_0)
+	local var_45_0 = 0
+	local var_45_1 = arg_45_0:GetProsperity()
 
 	for iter_45_0, iter_45_1 in ipairs(pg.island_prosperity.all) do
-		if var_45_0 < arg_45_0:GetTargetProsperityByLevel(iter_45_1) then
-			return iter_45_1
+		local var_45_2 = arg_45_0:GetTargetProsperityByLevel(iter_45_1)
+
+		if var_45_1 < var_45_2 then
+			return var_45_2
 		end
 	end
 
-	return arg_45_0:GetMaxProsperityLevel()
+	return var_45_0
 end
 
-function var_0_0.CanGetProsperityAwards(arg_46_0, arg_46_1)
-	if arg_46_0:IsReceiveProsperityAwards(arg_46_1) then
+function var_0_0.GetProsperityLevel(arg_46_0)
+	local var_46_0 = arg_46_0:GetProsperity()
+
+	for iter_46_0, iter_46_1 in ipairs(pg.island_prosperity.all) do
+		if var_46_0 < arg_46_0:GetTargetProsperityByLevel(iter_46_1) then
+			return iter_46_1
+		end
+	end
+
+	return arg_46_0:GetMaxProsperityLevel()
+end
+
+function var_0_0.CanGetProsperityAwards(arg_47_0, arg_47_1)
+	if arg_47_0:IsReceiveProsperityAwards(arg_47_1) then
 		return false
 	end
 
-	local var_46_0 = pg.island_prosperity[arg_46_1]
+	local var_47_0 = pg.island_prosperity[arg_47_1]
 
-	if not var_46_0 then
+	if not var_47_0 then
 		return false
 	end
 
-	return var_46_0.prosperity <= arg_46_0:GetProsperity()
+	return var_47_0.prosperity <= arg_47_0:GetProsperity()
 end
 
-function var_0_0.AnyProsperityAwardCanGet(arg_47_0)
-	for iter_47_0, iter_47_1 in ipairs(pg.island_prosperity.all) do
-		if arg_47_0:CanGetProsperityAwards(iter_47_1) then
+function var_0_0.AnyProsperityAwardCanGet(arg_48_0)
+	for iter_48_0, iter_48_1 in ipairs(pg.island_prosperity.all) do
+		if arg_48_0:CanGetProsperityAwards(iter_48_1) then
 			return true
 		end
 	end
@@ -347,30 +349,30 @@ function var_0_0.AnyProsperityAwardCanGet(arg_47_0)
 	return false
 end
 
-function var_0_0.IsReceiveProsperityAwards(arg_48_0, arg_48_1)
-	return arg_48_0.prosperityList[arg_48_1] == true
+function var_0_0.IsReceiveProsperityAwards(arg_49_0, arg_49_1)
+	return arg_49_0.prosperityList[arg_49_1] == true
 end
 
-function var_0_0.ReceiveProsperityAwards(arg_49_0, arg_49_1)
-	arg_49_0.prosperityList[arg_49_1] = true
+function var_0_0.ReceiveProsperityAwards(arg_50_0, arg_50_1)
+	arg_50_0.prosperityList[arg_50_1] = true
 end
 
-function var_0_0.GetProsperityAward(arg_50_0, arg_50_1)
-	return pg.island_prosperity[arg_50_1].award_display
+function var_0_0.GetProsperityAward(arg_51_0, arg_51_1)
+	return pg.island_prosperity[arg_51_1].award_display
 end
 
-function var_0_0.getConfig(arg_51_0, arg_51_1)
-	return pg.island_level[arg_51_0.configId][arg_51_1]
+function var_0_0.getConfig(arg_52_0, arg_52_1)
+	return pg.island_level[arg_52_0.configId][arg_52_1]
 end
 
-function var_0_0.UpdatePerDay(arg_52_0)
-	arg_52_0:GetSignInAgency():ResetSignInCnt()
-	arg_52_0:GetAccessAgency():ResetFreshInviteCodeFlag()
+function var_0_0.UpdatePerDay(arg_53_0)
+	arg_53_0:GetSignInAgency():ResetSignInCnt()
+	arg_53_0:GetAccessAgency():ResetFreshInviteCodeFlag()
 end
 
-function var_0_0.UpdatePerSecond(arg_53_0)
-	if arg_53_0.buildingAgency then
-		arg_53_0.buildingAgency:UpdatePerSecond()
+function var_0_0.UpdatePerSecond(arg_54_0)
+	if arg_54_0.buildingAgency then
+		arg_54_0.buildingAgency:UpdatePerSecond()
 	end
 end
 

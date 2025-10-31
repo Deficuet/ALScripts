@@ -26,15 +26,15 @@ function var_0_0.initData(arg_3_0)
 end
 
 function var_0_0.initUI(arg_4_0)
-	arg_4_0.getAllBtn = arg_4_0:findTF("get_all")
-	arg_4_0.extendTpl = arg_4_0:findTF("extend_tpl")
+	arg_4_0.getAllBtn = arg_4_0._tf:Find("get_all")
+	arg_4_0.extendTpl = arg_4_0._tf:Find("extend_tpl")
 	arg_4_0.typeToggles = {
-		arg_4_0:findTF("types/all"),
-		arg_4_0:findTF("types/daily"),
-		arg_4_0:findTF("types/target")
+		arg_4_0._tf:Find("types/all"),
+		arg_4_0._tf:Find("types/daily"),
+		arg_4_0._tf:Find("types/target")
 	}
-	arg_4_0.content = arg_4_0:findTF("view/content")
-	arg_4_0.taskGroupItemList = UIItemList.New(arg_4_0.content, arg_4_0:findTF("tpl", arg_4_0.content))
+	arg_4_0.content = arg_4_0._tf:Find("view/content")
+	arg_4_0.taskGroupItemList = UIItemList.New(arg_4_0.content, arg_4_0.content:Find("tpl"))
 end
 
 function var_0_0.addListener(arg_5_0)

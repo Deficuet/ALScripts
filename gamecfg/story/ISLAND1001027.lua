@@ -19,10 +19,8 @@ return {
 	},
 	scripts = {
 		{
-			subName = "牧场管理员",
-			characterId = 100500,
-			say = "呀！是指挥官！欢迎来到梅莉的悠然牧场！",
-			animation = "hi",
+			characterId = 0,
+			say = "Amerigo?",
 			face2Face = {
 				{
 					0,
@@ -35,10 +33,19 @@ return {
 			}
 		},
 		{
-			animation = "talk",
+			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "我正在给未来的小家伙们收拾睡觉的地方呢！",
+			subName = "Manager of the Ranch",
+			say = "Oh! Commander! Welcome to Laidback Ranch!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Ranch",
+			characterId = 100500,
+			say = "Don't mind me, just setting up some bedding for the little ones on the way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +53,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "计划上的……高精尖技术聚合而成，能让动物们获得最佳生存环境的悠然牧场……",
+			say = "The plans said something about a perfect ranch built with cutting-edge tech to provide the animals with the best possible living environment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +62,8 @@ return {
 		{
 			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "没错，很快这里就能变得超——级舒服，动物们一定会喜欢的！",
+			subName = "Manager of the Ranch",
+			say = "That's right! This place's about to get real heckin' comfortable. The animals are gonna love it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,17 +71,16 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "辛苦了梅莉……但是计划中的动物……怎么一只也没有呢？",
+			say = "That's what I like to hear. Although, where are said animals? They're the most crucial thing, and I don't see a single one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "embarrass",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "计划是计划啦~现在的牧场还只有一只咯咯鸡哦，我散养着呢！",
+			say = "That's 'cause plans are just that – plans! All the ranch has got right now is a single free-range clucky clucky bird!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +88,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "……散养？梅莉，我怎么什么都没看到？",
+			say = "It's free-range, yet I don't see it anywhere. How come?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,17 +97,17 @@ return {
 		{
 			animation = "elation",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "哎呀，指挥官你真是不懂牧场的浪漫！",
+			subName = "Manager of the Ranch",
+			say = "Sounds like SOMEONE doesn't get the appeal of a ranch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "牧场管理员",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
-			say = "散养嘛~就是让它自由自在地在牧场范围内活动呀！",
+			say = "See, free-range means it's free to roam about the ranch however it wants.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,8 +116,8 @@ return {
 		{
 			animation = "sow",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "你看~只要这样撒上一点食物……然后再……",
+			subName = "Manager of the Ranch",
+			say = "Watch this, though. If you just take a little feed and spread it around...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,26 +126,26 @@ return {
 		{
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "咕咕咕——！开饭啦！好吃的来喽！快回来呀——！",
+			subName = "Manager of the Ranch",
+			say = "Clucky! Dinnertime! I've got food for you! Come here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			say = "Doesn't look like it's coming.",
 			characterId = 0,
-			say = "……好像什么也没发生啊。",
+			animation = "talk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "embarrass",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "等等！让我再试试！",
+			say = "Just give me a second! I'll try again!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,37 +154,36 @@ return {
 		{
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "咕咕咕——！今天有好吃的玉米粒哦！再不回来就被小鸟吃掉啦！",
+			subName = "Manager of the Ranch",
+			say = "Cluckyyy! We're having sweet, sweet corn today! Better come quick or the birds'll eat it all first!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "doubt",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "奇、奇怪……平时一叫它就扑腾扑腾跑回来了啊……",
+			say = "Huh, that's weird... She usually comes running as soon as I call for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "embarrass",
+			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "该不会……该不会是跑出牧场范围了吧？！",
+			subName = "Manager of the Ranch",
+			say = "Oh no... What if she's left the ranch?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "看来……我们唯一的牧场居民追求更大的自由去了。",
+			say = "Seems like your one and only resident has gone off in search of freedom.",
 			characterId = 0,
-			animation = "nod",
+			animation = "talk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,27 +192,26 @@ return {
 		{
 			animation = "sad",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "指——挥——官——！帮帮我！求求你帮我把它带回来好不好？",
+			subName = "Manager of the Ranch",
+			say = "Do you think you could go and bring her back, Commander? Please!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "embarrass",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "没有它，我的牧场梦想第一步就要完蛋了啦！",
+			say = "Without her, my dream of running this ranch will end before it's even begun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "好了好了，别慌~它应该不会跑远，我这就去把我们牧场的唯一居民给……请回来。",
+			say = "Alright, alright, calm down. She can't have gone far, so I'll bring her back in no time.",
 			characterId = 0,
-			animation = "clap",
+			animation = "nod",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,8 +220,8 @@ return {
 		{
 			animation = "nod",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "嗯嗯！指挥官你最好啦！",
+			subName = "Manager of the Ranch",
+			say = "Heck yes! You're the best, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

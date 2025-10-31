@@ -99,15 +99,15 @@ function var_0_0.GenerateRandomFanPosition(arg_5_0, arg_5_1, arg_5_2, arg_5_3, a
 end
 
 function var_0_0.init(arg_6_0)
-	arg_6_0.top = arg_6_0:findTF("top")
-	arg_6_0._closeBtn = arg_6_0:findTF("top/back")
-	arg_6_0._homeBtn = arg_6_0:findTF("top/home")
-	arg_6_0._helpBtn = arg_6_0:findTF("top/help")
+	arg_6_0.top = arg_6_0._tf:Find("top")
+	arg_6_0._closeBtn = arg_6_0._tf:Find("top/back")
+	arg_6_0._homeBtn = arg_6_0._tf:Find("top/home")
+	arg_6_0._helpBtn = arg_6_0._tf:Find("top/help")
 	arg_6_0.ticketTimes = arg_6_0.top:Find("ticket/text")
 	arg_6_0.yinhuace = arg_6_0.top:Find("yinhuace")
 	arg_6_0.yinhuaceTimes = arg_6_0.yinhuace:Find("get")
 	arg_6_0.yinhuaceTips = arg_6_0.yinhuace:Find("tip")
-	arg_6_0.shouce = arg_6_0.top:Find("yinhuashouceye")
+	arg_6_0.shouce = arg_6_0._tf:Find("yinhuashouceye")
 	arg_6_0.shouce_bg = arg_6_0.shouce:Find("bg")
 	arg_6_0.layout_shouce = arg_6_0.shouce:Find("yinhuace/go/layout")
 	arg_6_0.group_get = CustomIndexLayer.Clone2Full(arg_6_0.layout_shouce, 14)
@@ -117,8 +117,8 @@ function var_0_0.init(arg_6_0)
 
 	setActive(arg_6_0.shouce, false)
 
-	arg_6_0.sakura = arg_6_0:findTF("effect")
-	arg_6_0._map = arg_6_0:findTF("scrollRect/map")
+	arg_6_0.sakura = arg_6_0._tf:Find("effect")
+	arg_6_0._map = arg_6_0._tf:Find("scrollRect/map")
 	arg_6_0.wave = arg_6_0._map:Find("effect_wave")
 	arg_6_0.shrine = arg_6_0._map:Find("shrine")
 	arg_6_0.snack_street = arg_6_0._map:Find("snack_street")
@@ -154,9 +154,11 @@ function var_0_0.didEnter(arg_8_0)
 		})
 	end)
 	onButton(arg_8_0, arg_8_0.yinhuace, function()
+		pg.UIMgr.GetInstance():OverlayPanel(arg_8_0.shouce)
 		setActive(arg_8_0.shouce, true)
 	end)
 	onButton(arg_8_0, arg_8_0.shouce_bg, function()
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0.shoucem, arg_8_0._tf)
 		setActive(arg_8_0.shouce, false)
 	end)
 	onButton(arg_8_0, arg_8_0.btn_shouce_help, function()
@@ -457,6 +459,12 @@ end
 
 function var_0_0.willExit(arg_38_0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.top, arg_38_0._tf)
+
+	if isActive(arg_38_0.shouce) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.shoucem, arg_38_0._tf)
+		setActive(arg_38_0.shouce, false)
+	end
+
 	arg_38_0:clearStudents()
 	arg_38_0:ClearEffectFirework()
 end

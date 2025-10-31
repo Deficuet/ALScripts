@@ -5,25 +5,25 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.equipmentPanel = arg_2_0:findTF("Main/panel/equipment_panel")
-	arg_2_0.materialPanel = arg_2_0:findTF("Main/panel/material_panel")
-	arg_2_0.equipmentIcon = arg_2_0:findTF("Icon", arg_2_0.equipmentPanel)
-	arg_2_0.equipmentName = arg_2_0:findTF("Name", arg_2_0.equipmentPanel)
-	arg_2_0.attributeList = arg_2_0:findTF("Attribute/Rect/Attrs", arg_2_0.equipmentPanel)
-	arg_2_0.attributeButtons = arg_2_0:findTF("Attribute/Rect/Buttons", arg_2_0.equipmentPanel)
-	arg_2_0.attributeExchangeButton = arg_2_0:findTF("Exchange", arg_2_0.attributeButtons)
-	arg_2_0.attributeDiscardButton = arg_2_0:findTF("Discard", arg_2_0.attributeButtons)
+	arg_2_0.equipmentPanel = arg_2_0._tf:Find("Main/panel/equipment_panel")
+	arg_2_0.materialPanel = arg_2_0._tf:Find("Main/panel/material_panel")
+	arg_2_0.equipmentIcon = arg_2_0.equipmentPanel:Find("Icon")
+	arg_2_0.equipmentName = arg_2_0.equipmentPanel:Find("Name")
+	arg_2_0.attributeList = arg_2_0.equipmentPanel:Find("Attribute/Rect/Attrs")
+	arg_2_0.attributeButtons = arg_2_0.equipmentPanel:Find("Attribute/Rect/Buttons")
+	arg_2_0.attributeExchangeButton = arg_2_0.attributeButtons:Find("Exchange")
+	arg_2_0.attributeDiscardButton = arg_2_0.attributeButtons:Find("Discard")
 
-	setText(arg_2_0:findTF("Attribute/Text", arg_2_0.equipmentPanel), i18n("spweapon_ui_transform_attr_text"))
+	setText(arg_2_0.equipmentPanel:Find("Attribute/Text"), i18n("spweapon_ui_transform_attr_text"))
 	setText(arg_2_0.attributeExchangeButton:Find("Text"), i18n("spweapon_ui_change_attr"))
 	setText(arg_2_0.attributeDiscardButton:Find("Text"), i18n("spweapon_ui_keep_attr"))
 
-	arg_2_0.materialItems = CustomIndexLayer.Clone2Full(arg_2_0:findTF("materials/materials", arg_2_0.materialPanel), 3)
-	arg_2_0.materialLimit = arg_2_0:findTF("materials/limit", arg_2_0.materialPanel)
-	arg_2_0.materialCostText = arg_2_0:findTF("cost/consume", arg_2_0.materialPanel)
-	arg_2_0.materialStartButton = arg_2_0:findTF("start_btn", arg_2_0.materialPanel)
+	arg_2_0.materialItems = CustomIndexLayer.Clone2Full(arg_2_0.materialPanel:Find("materials/materials"), 3)
+	arg_2_0.materialLimit = arg_2_0.materialPanel:Find("materials/limit")
+	arg_2_0.materialCostText = arg_2_0.materialPanel:Find("cost/consume")
+	arg_2_0.materialStartButton = arg_2_0.materialPanel:Find("start_btn")
 
-	setText(arg_2_0:findTF("materials/panel_title", arg_2_0.materialPanel), i18n("spweapon_ui_need_resource"))
+	setText(arg_2_0.materialPanel:Find("materials/panel_title"), i18n("spweapon_ui_need_resource"))
 	setText(arg_2_0.materialStartButton:Find("Image"), i18n("spweapon_ui_transform"))
 end
 
@@ -36,7 +36,7 @@ function var_0_0.SetItems(arg_4_0, arg_4_1)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	onButton(arg_5_0, arg_5_0:findTF("BG"), function()
+	onButton(arg_5_0, arg_5_0._tf:Find("BG"), function()
 		arg_5_0:closeView()
 	end)
 	arg_5_0:UpdateView()
@@ -187,7 +187,7 @@ function var_0_0.UpdateView(arg_8_0)
 end
 
 function var_0_0.willExit(arg_21_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_21_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_21_0._tf)
 end
 
 return var_0_0

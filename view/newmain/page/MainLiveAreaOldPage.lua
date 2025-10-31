@@ -5,9 +5,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0._academyBtn = arg_2_0:findTF("school_btn")
-	arg_2_0._haremBtn = arg_2_0:findTF("backyard_btn")
-	arg_2_0._commanderBtn = arg_2_0:findTF("commander_btn")
+	arg_2_0._academyBtn = arg_2_0._tf:Find("school_btn")
+	arg_2_0._haremBtn = arg_2_0._tf:Find("backyard_btn")
+	arg_2_0._commanderBtn = arg_2_0._tf:Find("commander_btn")
 
 	pg.redDotHelper:AddNode(RedDotNode.New(arg_2_0._haremBtn:Find("tip"), {
 		pg.RedDotMgr.TYPES.COURTYARD
@@ -43,8 +43,8 @@ end
 
 function var_0_0.Show(arg_8_0)
 	var_0_0.super.Show(arg_8_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_8_0._tf, true, {
-		weight = LayerWeightConst.SECOND_LAYER
+	pg.UIMgr.GetInstance():BlurPanel(arg_8_0._tf, {
+		staticBlur = true
 	})
 
 	local var_8_0 = getProxy(PlayerProxy):getRawData()
@@ -65,7 +65,7 @@ end
 function var_0_0.Hide(arg_9_0)
 	if arg_9_0:isShowing() then
 		var_0_0.super.Hide(arg_9_0)
-		pg.UIMgr.GetInstance():UnblurPanel(arg_9_0._tf, arg_9_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf, arg_9_0._parentTf)
 	end
 end
 

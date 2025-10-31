@@ -5,10 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.nameTxt = arg_2_0:findTF("name_bg/Text"):GetComponent(typeof(Text))
-	arg_2_0.descTxt = arg_2_0:findTF("Text"):GetComponent(typeof(Text))
-	arg_2_0.icon = arg_2_0:findTF("icon_bg/icon"):GetComponent(typeof(Image))
-	arg_2_0.shipIcon = arg_2_0:findTF("icon_bg/ship"):GetComponent(typeof(Image))
+	arg_2_0.nameTxt = arg_2_0._tf:Find("name_bg/Text"):GetComponent(typeof(Text))
+	arg_2_0.descTxt = arg_2_0._tf:Find("Text"):GetComponent(typeof(Text))
+	arg_2_0.icon = arg_2_0._tf:Find("icon_bg/icon"):GetComponent(typeof(Image))
+	arg_2_0.shipIcon = arg_2_0._tf:Find("icon_bg/ship"):GetComponent(typeof(Image))
 	arg_2_0.width = arg_2_0._tf.rect.width
 	arg_2_0.prantLeftBound = arg_2_0._tf.parent.rect.width / 2
 end

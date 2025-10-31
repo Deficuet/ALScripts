@@ -111,10 +111,10 @@ function var_0_0.Dispose(arg_15_0)
 	arg_15_0.inputController = nil
 end
 
-function var_0_0.UpdataWorkStateFunc(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
+function var_0_0.UpdataWorkStateFunc(arg_16_0, arg_16_1, arg_16_2)
 	table.insert(arg_16_0.inputCommandQueue, {
 		Execute = function()
-			arg_16_0.controller:NotifiyCore(ISLAND_EVT.SET_PLAYER_WORK, arg_16_1, arg_16_2, arg_16_3)
+			arg_16_0.controller:NotifiyCore(ISLAND_EVT.SET_PLAYER_WORK, arg_16_1, arg_16_2)
 		end
 	})
 end
@@ -132,11 +132,11 @@ function var_0_0.DisableInput(arg_20_0)
 		table.remove(arg_20_0.inputCommandQueue, 1)
 	end
 
-	arg_20_0.inputController:DisablePlayerInput()
+	arg_20_0.inputController:DisablePlayerAllOp()
 end
 
 function var_0_0.EnableInput(arg_21_0)
-	arg_21_0.inputController:EnablePlayerInput()
+	arg_21_0.inputController:EnablePlayerAllOp()
 end
 
 return var_0_0

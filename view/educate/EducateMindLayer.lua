@@ -16,43 +16,42 @@ function var_0_0.initData(arg_3_0)
 end
 
 function var_0_0.findUI(arg_4_0)
-	arg_4_0.anim = arg_4_0:findTF("anim_root"):GetComponent(typeof(Animation))
-	arg_4_0.animEvent = arg_4_0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	arg_4_0.anim = arg_4_0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	arg_4_0.animEvent = arg_4_0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	arg_4_0.animEvent:SetEndEvent(function()
 		arg_4_0:emit(var_0_0.ON_CLOSE)
 	end)
 
-	arg_4_0.windowTF = arg_4_0:findTF("anim_root/window")
-	arg_4_0.scrollview = arg_4_0:findTF("scrollview", arg_4_0.windowTF)
-	arg_4_0.emptyTF = arg_4_0:findTF("empty", arg_4_0.scrollview)
+	arg_4_0.windowTF = arg_4_0._tf:Find("anim_root/window")
+	arg_4_0.scrollview = arg_4_0.windowTF:Find("scrollview")
+	arg_4_0.emptyTF = arg_4_0.scrollview:Find("empty")
 
-	setText(arg_4_0:findTF("Text", arg_4_0.emptyTF), i18n("child_mind_empty_tip"))
+	setText(arg_4_0.emptyTF:Find("Text"), i18n("child_mind_empty_tip"))
 
-	arg_4_0.contentTF = arg_4_0:findTF("view/content", arg_4_0.scrollview)
-	arg_4_0.finishListTF = arg_4_0:findTF("finish_list", arg_4_0.contentTF)
-	arg_4_0.finishUIList = UIItemList.New(arg_4_0:findTF("list", arg_4_0.finishListTF), arg_4_0:findTF("list/tpl", arg_4_0.finishListTF))
+	arg_4_0.contentTF = arg_4_0.scrollview:Find("view/content")
+	arg_4_0.finishListTF = arg_4_0.contentTF:Find("finish_list")
+	arg_4_0.finishUIList = UIItemList.New(arg_4_0.finishListTF:Find("list"), arg_4_0.finishListTF:Find("list/tpl"))
 
-	setText(arg_4_0:findTF("title/Text", arg_4_0.finishListTF), i18n("child_mind_finish_title"))
-	setText(arg_4_0:findTF("list/tpl/get_btn/Text", arg_4_0.finishListTF), i18n("word_take"))
+	setText(arg_4_0.finishListTF:Find("title/Text"), i18n("child_mind_finish_title"))
+	setText(arg_4_0.finishListTF:Find("list/tpl/get_btn/Text"), i18n("word_take"))
 
-	arg_4_0.unFinishListTF = arg_4_0:findTF("unfinish_list", arg_4_0.contentTF)
-	arg_4_0.unFinishUIList = UIItemList.New(arg_4_0:findTF("list", arg_4_0.unFinishListTF), arg_4_0:findTF("list/tpl", arg_4_0.unFinishListTF))
+	arg_4_0.unFinishListTF = arg_4_0.contentTF:Find("unfinish_list")
+	arg_4_0.unFinishUIList = UIItemList.New(arg_4_0.unFinishListTF:Find("list"), arg_4_0.unFinishListTF:Find("list/tpl"))
 
-	setText(arg_4_0:findTF("title/Text", arg_4_0.unFinishListTF), i18n("child_mind_processing_title"))
-	setText(arg_4_0:findTF("list/tpl/time_desc", arg_4_0.unFinishListTF), i18n("child_mind_time_title"))
+	setText(arg_4_0.unFinishListTF:Find("title/Text"), i18n("child_mind_processing_title"))
+	setText(arg_4_0.unFinishListTF:Find("list/tpl/time_desc"), i18n("child_mind_time_title"))
 end
 
 function var_0_0.addListener(arg_6_0)
-	onButton(arg_6_0, arg_6_0:findTF("anim_root/bg"), function()
+	onButton(arg_6_0, arg_6_0._tf:Find("anim_root/bg"), function()
 		arg_6_0:_close()
 	end, SFX_PANEL)
 end
 
 function var_0_0.didEnter(arg_8_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0._tf, {
-		groupName = arg_8_0:getGroupNameFromData(),
-		weight = arg_8_0:getWeightFromData() + 1
+	arg_8_0:OverlayPanel(arg_8_0._tf, {
+		groupDelta = 1
 	})
 	arg_8_0.finishUIList:make(function(arg_9_0, arg_9_1, arg_9_2)
 		if arg_9_0 == UIItemList.EventUpdate then
@@ -120,8 +119,8 @@ function var_0_0.updateFinishItem(arg_17_0, arg_17_1, arg_17_2)
 
 	local var_17_0 = arg_17_0.finishTaskVOs[arg_17_1 + 1]
 
-	setText(arg_17_0:findTF("desc", arg_17_2), var_17_0:getConfig("name"))
-	onButton(arg_17_0, arg_17_0:findTF("get_btn", arg_17_2), function()
+	setText(arg_17_2:Find("desc"), var_17_0:getConfig("name"))
+	onButton(arg_17_0, arg_17_2:Find("get_btn"), function()
 		if not arg_17_0.isClick then
 			arg_17_0.isClick = true
 
@@ -140,12 +139,12 @@ end
 function var_0_0.updateUnfinishItem(arg_21_0, arg_21_1, arg_21_2)
 	local var_21_0 = arg_21_0.unFinishTaskVOs[arg_21_1 + 1]
 
-	setText(arg_21_0:findTF("desc", arg_21_2), var_21_0:getConfig("name"))
+	setText(arg_21_2:Find("desc"), var_21_0:getConfig("name"))
 
 	local var_21_1 = var_21_0:GetRemainTime()
 	local var_21_2 = var_21_1 < 7 and 0 or math.floor(var_21_1 / 7)
 
-	setText(arg_21_0:findTF("time_desc/time", arg_21_2), var_21_2 .. i18n("word_week"))
+	setText(arg_21_2:Find("time_desc/time"), var_21_2 .. i18n("word_week"))
 end
 
 function var_0_0.doAnim(arg_22_0, arg_22_1, arg_22_2)
@@ -182,7 +181,7 @@ end
 
 function var_0_0.willExit(arg_28_0)
 	arg_28_0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_28_0._tf)
+	arg_28_0:UnOverlayPanel(arg_28_0._tf)
 
 	if arg_28_0.contextData.onExit then
 		arg_28_0.contextData.onExit()

@@ -17,12 +17,9 @@ function var_0_0.init(arg_2_0)
 	end)
 
 	arg_2_0.data = getProxy(Dorm3dInsProxy):GetPhoneListByGroup(arg_2_0.contextData.groupId) or {}
-
-	if arg_2_0.contextData.tf then
-		SetParent(arg_2_0._tf, arg_2_0.contextData.tf)
-	end
-
 	arg_2_0.player = VoiceChatLoader.New(arg_2_0._tf)
+
+	arg_2_0:OverlayPanel(arg_2_0._tf)
 end
 
 function var_0_0.didEnter(arg_4_0)

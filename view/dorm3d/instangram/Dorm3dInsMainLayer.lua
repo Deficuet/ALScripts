@@ -21,13 +21,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.bg = arg_2_0:findTF("bg")
+	arg_2_0.bg = arg_2_0._tf:Find("bg")
 	arg_2_0.mainTf = arg_2_0._tf:Find("main")
 	arg_2_0.mainPages = {
 		[var_0_8] = Dorm3dInsPublicPage.New(arg_2_0._tf:Find("main/public_page"), arg_2_0.event),
 		[var_0_7] = Dorm3dInsCharPage.New(arg_2_0._tf:Find("main/char_page"), arg_2_0.event)
 	}
-	arg_2_0.roomListContainer = arg_2_0:findTF("left/scroll/mask/list")
+	arg_2_0.roomListContainer = arg_2_0._tf:Find("left/scroll/mask/list")
 	arg_2_0.roomItemList = UIItemList.New(arg_2_0.roomListContainer, arg_2_0.roomListContainer:Find("tpl"))
 
 	arg_2_0.roomItemList:make(function(arg_3_0, arg_3_1, arg_3_2)
@@ -36,8 +36,8 @@ function var_0_0.init(arg_2_0)
 		end
 	end)
 
-	arg_2_0.expandPanel = arg_2_0:findTF("expand_panel")
-	arg_2_0.expandListContainer = arg_2_0:findTF("expand_panel/scroll/mask/list")
+	arg_2_0.expandPanel = arg_2_0._tf:Find("expand_panel")
+	arg_2_0.expandListContainer = arg_2_0._tf:Find("expand_panel/scroll/mask/list")
 	arg_2_0.expandItemList = UIItemList.New(arg_2_0.expandListContainer, arg_2_0.expandListContainer:Find("tpl"))
 
 	arg_2_0.expandItemList:make(function(arg_4_0, arg_4_1, arg_4_2)
@@ -46,8 +46,8 @@ function var_0_0.init(arg_2_0)
 		end
 	end)
 
-	arg_2_0.selectPanel = arg_2_0:findTF("select_panel")
-	arg_2_0.selectListContainer = arg_2_0:findTF("select_panel/list")
+	arg_2_0.selectPanel = arg_2_0._tf:Find("select_panel")
+	arg_2_0.selectListContainer = arg_2_0._tf:Find("select_panel/list")
 	arg_2_0.selectItemList = UIItemList.New(arg_2_0.selectListContainer, arg_2_0.selectListContainer:Find("tpl"))
 
 	arg_2_0.selectItemList:make(function(arg_5_0, arg_5_1, arg_5_2)
@@ -57,17 +57,14 @@ function var_0_0.init(arg_2_0)
 	end)
 
 	arg_2_0.selectOpen = false
-	arg_2_0.downloadTf = arg_2_0:findTF("main/download")
+	arg_2_0.downloadTf = arg_2_0._tf:Find("main/download")
 	arg_2_0.download = arg_2_0.downloadTf:Find("btns/download")
 	arg_2_0.downloading = arg_2_0.downloadTf:Find("btns/downloading")
 	arg_2_0.delete = arg_2_0.downloadTf:Find("btns/delete")
 	arg_2_0.downloadProgress = arg_2_0.downloadTf:Find("progress")
 	arg_2_0.slider = arg_2_0.downloadProgress:Find("slider")
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		groupName = "Instagram",
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	arg_2_0:BlurPanel(arg_2_0._tf)
 	arg_2_0:InitData()
 end
 

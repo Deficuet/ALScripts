@@ -34,11 +34,11 @@ function var_0_0.OnUpdateRankList(arg_4_0, arg_4_1, arg_4_2)
 end
 
 function var_0_0.OnLoaded(arg_5_0)
-	arg_5_0.tabContainer = arg_5_0:findTF("frame/bg/tab")
-	arg_5_0.ranTypeTF = arg_5_0:findTF("frame/bg/week")
-	arg_5_0.closeBtn = arg_5_0:findTF("frame/close")
-	arg_5_0.rankLabel = arg_5_0:findTF("frame/bg/title/Text"):GetComponent(typeof(Text))
-	arg_5_0.scrollrect = arg_5_0:findTF("frame/bg/scrollrect"):GetComponent("LScrollRect")
+	arg_5_0.tabContainer = arg_5_0._tf:Find("frame/bg/tab")
+	arg_5_0.ranTypeTF = arg_5_0._tf:Find("frame/bg/week")
+	arg_5_0.closeBtn = arg_5_0._tf:Find("frame/close")
+	arg_5_0.rankLabel = arg_5_0._tf:Find("frame/bg/title/Text"):GetComponent(typeof(Text))
+	arg_5_0.scrollrect = arg_5_0._tf:Find("frame/bg/scrollrect"):GetComponent("LScrollRect")
 
 	function arg_5_0.scrollrect.onUpdateItem(arg_6_0, arg_6_1)
 		arg_5_0:OnUpdateItem(arg_6_0, arg_6_1)
@@ -138,7 +138,7 @@ end
 
 function var_0_0.Hide(arg_19_0)
 	if arg_19_0:isShowing() then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_19_0._tf, arg_19_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0._tf, arg_19_0._parentTf)
 	end
 
 	var_0_0.super.Hide(arg_19_0)

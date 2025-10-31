@@ -553,6 +553,9 @@ local function var_0_10(arg_23_0, arg_23_1)
 	if arg_23_1.helps.ImageMode then
 		setActive(arg_23_0._top, false)
 		setActive(findTF(arg_23_0._window, "bg"), false)
+	else
+		setActive(arg_23_0._top, true)
+		setActive(findTF(arg_23_0._window, "bg"), true)
 	end
 
 	local var_23_1 = arg_23_0.settings.helps
@@ -1251,10 +1254,8 @@ function var_0_1.updateButton(arg_51_0, arg_51_1, arg_51_2, arg_51_3)
 end
 
 function var_0_1.Loaded(arg_52_0, arg_52_1)
-	var_0_0.UIMgr.GetInstance():BlurPanel(arg_52_0._tf, false, {
+	var_0_0.UIMgr.GetInstance():BlurPanel(arg_52_0._tf, {
 		groupName = arg_52_1.groupName,
-		weight = arg_52_1.weight or LayerWeightConst.SECOND_LAYER,
-		blurLevelCamera = arg_52_1.blurLevelCamera,
 		parent = arg_52_1.parent
 	})
 	var_0_0.m02:sendNotification(GAME.OPEN_MSGBOX_DONE)
@@ -1321,7 +1322,7 @@ function var_0_1.Clear(arg_53_0)
 
 	var_0_0.DelegateInfo.Dispose(arg_53_0)
 	removeAllChildren(arg_53_0._btnContainer)
-	var_0_0.UIMgr.GetInstance():UnblurPanel(arg_53_0._tf, var_0_0.UIMgr.GetInstance().OverlayMain)
+	var_0_0.UIMgr.GetInstance():UnOverlayPanel(arg_53_0._tf, var_0_0.UIMgr.GetInstance().OverlayMain)
 	arg_53_0.contentText:RemoveAllListeners()
 
 	arg_53_0.settings = nil

@@ -56,7 +56,7 @@ function var_0_0.Remove(arg_5_0)
 	arg_5_0:RemoveTimer()
 end
 
-function var_0_0.Puase(arg_6_0)
+function var_0_0.Pause(arg_6_0)
 	arg_6_0:RemoveTimer()
 end
 

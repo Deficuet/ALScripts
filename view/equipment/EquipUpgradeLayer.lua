@@ -11,30 +11,28 @@ function var_0_0.setItems(arg_2_0, arg_2_1)
 end
 
 function var_0_0.init(arg_3_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 
-	arg_3_0.mainPanel = arg_3_0:findTF("main")
-	arg_3_0.finishPanel = arg_3_0:findTF("finish_panel")
+	arg_3_0.mainPanel = arg_3_0._tf:Find("main")
+	arg_3_0.finishPanel = arg_3_0._tf:Find("finish_panel")
 
 	setActive(arg_3_0.mainPanel, true)
 	setActive(arg_3_0.finishPanel, false)
 
-	arg_3_0.equipmentList = arg_3_0:findTF("panel/equipment_list", arg_3_0.mainPanel)
-	arg_3_0.equipmentContain = arg_3_0:findTF("equipments", arg_3_0.equipmentList)
+	arg_3_0.equipmentList = arg_3_0.mainPanel:Find("panel/equipment_list")
+	arg_3_0.equipmentContain = arg_3_0.equipmentList:Find("equipments")
 	arg_3_0.equipmentTpl = arg_3_0:getTpl("equiptpl", arg_3_0.equipmentContain)
 
 	setActive(arg_3_0.equipmentList, false)
 
-	arg_3_0.equipmentPanel = arg_3_0:findTF("panel/equipment_panel", arg_3_0.mainPanel)
-	arg_3_0.materialPanel = arg_3_0:findTF("panel/material_panel", arg_3_0.mainPanel)
-	arg_3_0.startBtn = arg_3_0:findTF("start_btn", arg_3_0.materialPanel)
-	arg_3_0.overLimit = arg_3_0:findTF("materials/limit", arg_3_0.materialPanel)
+	arg_3_0.equipmentPanel = arg_3_0.mainPanel:Find("panel/equipment_panel")
+	arg_3_0.materialPanel = arg_3_0.mainPanel:Find("panel/material_panel")
+	arg_3_0.startBtn = arg_3_0.materialPanel:Find("start_btn")
+	arg_3_0.overLimit = arg_3_0.materialPanel:Find("materials/limit")
 
-	setText(arg_3_0:findTF("text", arg_3_0.overLimit), i18n("equipment_upgrade_overlimit"))
+	setText(arg_3_0.overLimit:Find("text"), i18n("equipment_upgrade_overlimit"))
 
-	arg_3_0.materialsContain = arg_3_0:findTF("materials/materials", arg_3_0.materialPanel)
+	arg_3_0.materialsContain = arg_3_0.materialPanel:Find("materials/materials")
 	arg_3_0.uiMain = pg.UIMgr.GetInstance().UIMain
 	arg_3_0.Overlay = pg.UIMgr.GetInstance().OverlayMain
 end
@@ -146,7 +144,7 @@ function var_0_0.updateEquipment(arg_11_0)
 	changeToScrollText(arg_11_0.equipmentPanel:Find("name_container"), var_11_0:getConfig("name"))
 	setActive(findTF(arg_11_0.equipmentPanel, "unique"), var_11_0:isUnique())
 
-	local var_11_2 = arg_11_0:findTF("equiptpl", arg_11_0.equipmentPanel)
+	local var_11_2 = arg_11_0.equipmentPanel:Find("equiptpl")
 
 	updateEquipment(var_11_2, var_11_0)
 end
@@ -315,7 +313,7 @@ function var_0_0.updateMaterials(arg_17_0)
 		end
 	end
 
-	setText(arg_17_0:findTF("cost/consume", arg_17_0.materialPanel), var_17_3)
+	setText(arg_17_0.materialPanel:Find("cost/consume"), var_17_3)
 	setActive(arg_17_0.startBtn, var_17_4)
 
 	local var_17_13 = Equipment.canUpgrade(var_17_1.configId)
@@ -365,14 +363,14 @@ function var_0_0.upgradeFinish(arg_21_0, arg_21_1, arg_21_2)
 	changeToScrollText(arg_21_0.finishPanel:Find("frame/equipment_panel/name_container"), arg_21_2:getConfig("name"))
 	setActive(findTF(arg_21_0.finishPanel, "frame/equipment_panel/unique"), arg_21_2:isUnique())
 
-	local var_21_0 = arg_21_0:findTF("frame/equipment_panel/equiptpl", arg_21_0.finishPanel)
+	local var_21_0 = arg_21_0.finishPanel:Find("frame/equipment_panel/equiptpl")
 
 	updateEquipment(var_21_0, arg_21_2)
-	arg_21_0:updateAttrs(arg_21_0:findTF("frame/equipment_panel/view/content", arg_21_0.finishPanel), arg_21_1, arg_21_2)
+	arg_21_0:updateAttrs(arg_21_0.finishPanel:Find("frame/equipment_panel/view/content"), arg_21_1, arg_21_2)
 end
 
 function var_0_0.willExit(arg_23_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_23_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_23_0._tf)
 end
 
 return var_0_0

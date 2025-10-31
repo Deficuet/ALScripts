@@ -401,39 +401,36 @@ function var_0_0.GetOffset(arg_42_0)
 	return MainPaintingView.MESH_POSITION_X_OFFSET
 end
 
-function var_0_0.OnPuase(arg_43_0)
-	arg_43_0:StopBreath()
+function var_0_0.OnResume(arg_43_0)
+	checkCullResume(arg_43_0.container:Find("fitter"):GetChild(0))
+	arg_43_0:Breath()
 end
 
-function var_0_0.OnResume(arg_44_0)
-	checkCullResume(arg_44_0.container:Find("fitter"):GetChild(0))
-	arg_44_0:Breath()
+function var_0_0.Unload(arg_44_0)
+	var_0_0.super.Unload(arg_44_0)
+
+	arg_44_0.expression = nil
 end
 
-function var_0_0.Unload(arg_45_0)
-	var_0_0.super.Unload(arg_45_0)
+function var_0_0.OnUnload(arg_45_0)
+	arg_45_0:StopBreath()
+	arg_45_0:ClearSpecialDrag()
 
-	arg_45_0.expression = nil
-end
+	if arg_45_0.loadPaintingName then
+		retPaintingPrefab(arg_45_0.container, arg_45_0.loadPaintingName)
 
-function var_0_0.OnUnload(arg_46_0)
-	arg_46_0:StopBreath()
-	arg_46_0:ClearSpecialDrag()
-
-	if arg_46_0.loadPaintingName then
-		retPaintingPrefab(arg_46_0.container, arg_46_0.loadPaintingName)
-
-		arg_46_0.loadPaintingName = nil
+		arg_45_0.loadPaintingName = nil
 	end
 end
 
-function var_0_0.OnPuase(arg_47_0)
-	arg_47_0:ClearEffect()
+function var_0_0.OnPause(arg_46_0)
+	arg_46_0:StopBreath()
+	arg_46_0:ClearEffect()
 end
 
-function var_0_0.Dispose(arg_48_0)
-	var_0_0.super.Dispose(arg_48_0)
-	arg_48_0:ClearEffect()
+function var_0_0.Dispose(arg_47_0)
+	var_0_0.super.Dispose(arg_47_0)
+	arg_47_0:ClearEffect()
 end
 
 return var_0_0

@@ -266,8 +266,9 @@ var_0_0.EquipCampITA = bit.lshift(1, 5)
 var_0_0.EquipCampSN = bit.lshift(1, 6)
 var_0_0.EquipCampFR = bit.lshift(1, 7)
 var_0_0.EquipCampMNF = bit.lshift(1, 8)
-var_0_0.EquipCampLINK = bit.lshift(1, 9)
-var_0_0.EquipCampOther = bit.lshift(1, 10)
+var_0_0.EquipCampMOT = bit.lshift(1, 9)
+var_0_0.EquipCampLINK = bit.lshift(1, 10)
+var_0_0.EquipCampOther = bit.lshift(1, 11)
 var_0_0.EquipCampIndexs = {
 	var_0_0.EquipCampUS,
 	var_0_0.EquipCampEN,
@@ -278,6 +279,7 @@ var_0_0.EquipCampIndexs = {
 	var_0_0.EquipCampSN,
 	var_0_0.EquipCampFR,
 	var_0_0.EquipCampMNF,
+	var_0_0.EquipCampMOT,
 	var_0_0.EquipCampLINK,
 	var_0_0.EquipCampOther
 }
@@ -292,6 +294,7 @@ var_0_0.EquipCampNames = {
 	"word_shipNation_beiLian",
 	"word_shipNation_ziyou",
 	"word_shipNation_weixi",
+	"word_shipNation_mot",
 	"word_shipNation_link",
 	"word_shipNation_other"
 }

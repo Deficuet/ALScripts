@@ -13,7 +13,7 @@ return {
 			characterId = 101200,
 			animation = "rest",
 			hideType = 2,
-			say = "完美的焦糖色，喜欢苹果的甜香。"
+			say = "Perfect caramel color. Love that sweet apple smell."
 		}
 	}
 }

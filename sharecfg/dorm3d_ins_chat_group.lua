@@ -31,6 +31,18 @@ pg.dorm3d_ins_chat_group = setmetatable({
 			10517102,
 			10517103,
 			10517104
+		},
+		[30707] = {
+			30707101,
+			30707102,
+			30707103,
+			30707104,
+			30707105,
+			30707106,
+			30707107,
+			30707108,
+			30707109,
+			30707110
 		}
 	},
 	all = {
@@ -55,7 +67,17 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		10517101,
 		10517102,
 		10517103,
-		10517104
+		10517104,
+		30707101,
+		30707102,
+		30707103,
+		30707104,
+		30707105,
+		30707106,
+		30707107,
+		30707108,
+		30707109,
+		30707110
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -642,6 +664,231 @@ pg.base.dorm3d_ins_chat_group = {
 			383,
 			384,
 			385
+		}
+	},
+	[30707101] = {
+		ship_group = 30707,
+		name = "A World for the Two of Us",
+		id = 30707101,
+		type = "1",
+		unlock_desc = "Visit Taihou's private quarters 1 time.",
+		content = {
+			386,
+			387,
+			388,
+			389,
+			390,
+			391,
+			392,
+			393,
+			394,
+			395,
+			396
+		}
+	},
+	[30707102] = {
+		ship_group = 30707,
+		name = "Time Slows Down",
+		id = 30707102,
+		type = "1",
+		unlock_desc = "Visit Taihou's private quarters over 2 days.",
+		content = {
+			397,
+			398,
+			399,
+			400,
+			401,
+			402,
+			403,
+			404,
+			405,
+			406,
+			407,
+			408,
+			409
+		}
+	},
+	[30707103] = {
+		ship_group = 30707,
+		name = "Made With Love",
+		id = 30707103,
+		type = "1",
+		unlock_desc = "Visit Taihou's private quarters over 4 days.",
+		content = {
+			410,
+			411,
+			412,
+			413,
+			414,
+			415,
+			416,
+			417,
+			418,
+			419,
+			420,
+			421,
+			422
+		}
+	},
+	[30707104] = {
+		ship_group = 30707,
+		name = "Pest Control",
+		id = 30707104,
+		type = "1",
+		unlock_desc = "Collect 20 items inside Taihou's private quarters.",
+		content = {
+			423,
+			424,
+			425,
+			426,
+			427,
+			428,
+			429,
+			430,
+			431,
+			432,
+			433
+		}
+	},
+	[30707105] = {
+		ship_group = 30707,
+		name = "Couple's Shoot",
+		id = 30707105,
+		type = "1",
+		unlock_desc = "Touch Taihou 3 times in her private quarters.",
+		content = {
+			434,
+			435,
+			436,
+			437,
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444
+		}
+	},
+	[30707106] = {
+		ship_group = 30707,
+		name = "Kotatsu",
+		id = 30707106,
+		type = "1",
+		unlock_desc = "Give Taihou 5 gifts.",
+		content = {
+			445,
+			446,
+			447,
+			448,
+			449,
+			450,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459,
+			460,
+			461
+		}
+	},
+	[30707107] = {
+		ship_group = 30707,
+		name = "Laundry Day",
+		id = 30707107,
+		type = "1",
+		unlock_desc = "Visit Taihou's private quarters over 7 days.",
+		content = {
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469,
+			470,
+			471,
+			472,
+			473,
+			474
+		}
+	},
+	[30707108] = {
+		ship_group = 30707,
+		name = "Talks Over Tea",
+		id = 30707108,
+		type = "1",
+		unlock_desc = "Talk to Taihou in her private quarters 15 times.",
+		content = {
+			475,
+			476,
+			477,
+			478,
+			479,
+			480,
+			481,
+			482,
+			483,
+			484,
+			485,
+			486,
+			487,
+			488,
+			489,
+			490
+		}
+	},
+	[30707109] = {
+		ship_group = 30707,
+		name = "Dependence and Massages",
+		id = 30707109,
+		type = "1",
+		unlock_desc = "Touch Taihou 5 times in her quarters.",
+		content = {
+			491,
+			492,
+			493,
+			494,
+			495,
+			496,
+			497,
+			498,
+			499,
+			500,
+			501,
+			502,
+			503,
+			504,
+			505
+		}
+	},
+	[30707110] = {
+		ship_group = 30707,
+		name = "Precious Gifts",
+		id = 30707110,
+		type = "1",
+		unlock_desc = "Give Taihou 10 gifts.",
+		content = {
+			506,
+			507,
+			508,
+			509,
+			510,
+			511,
+			512,
+			513,
+			514,
+			515,
+			516,
+			517,
+			518,
+			519,
+			520
 		}
 	}
 }

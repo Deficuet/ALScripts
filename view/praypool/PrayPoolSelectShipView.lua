@@ -96,14 +96,14 @@ function var_0_0.initUI(arg_6_0)
 	arg_6_0.maxRaritySpriteMap = {}
 	arg_6_0.ratioSpriteMap = {}
 
-	local var_6_0 = arg_6_0:findTF("MiniRarity")
-	local var_6_1 = arg_6_0:findTF("MaxRarity")
-	local var_6_2 = arg_6_0:findTF("Ratio")
+	local var_6_0 = arg_6_0._tf:Find("MiniRarity")
+	local var_6_1 = arg_6_0._tf:Find("MaxRarity")
+	local var_6_2 = arg_6_0._tf:Find("Ratio")
 
 	for iter_6_0 = 2, 6 do
-		local var_6_3 = getImageSprite(arg_6_0:findTF(tostring(iter_6_0), var_6_0))
-		local var_6_4 = getImageSprite(arg_6_0:findTF(tostring(iter_6_0), var_6_1))
-		local var_6_5 = getImageSprite(arg_6_0:findTF(tostring(iter_6_0), var_6_2))
+		local var_6_3 = getImageSprite(arg_6_0._tf:Find(tostring(iter_6_0), var_6_0))
+		local var_6_4 = getImageSprite(arg_6_0._tf:Find(tostring(iter_6_0), var_6_1))
+		local var_6_5 = getImageSprite(arg_6_0._tf:Find(tostring(iter_6_0), var_6_2))
 
 		arg_6_0.minRaritySpriteMap[iter_6_0] = var_6_3
 		arg_6_0.maxRaritySpriteMap[iter_6_0] = var_6_4
@@ -112,25 +112,25 @@ function var_0_0.initUI(arg_6_0)
 
 	arg_6_0.poolSpriteMap = {}
 
-	local var_6_6 = arg_6_0:findTF("Pool")
+	local var_6_6 = arg_6_0._tf:Find("Pool")
 
 	for iter_6_1 = 1, 3 do
-		local var_6_7 = getImageSprite(arg_6_0:findTF(tostring(iter_6_1), var_6_6))
+		local var_6_7 = getImageSprite(arg_6_0._tf:Find(tostring(iter_6_1), var_6_6))
 
 		arg_6_0.poolSpriteMap[iter_6_1] = var_6_7
 	end
 
-	arg_6_0.poolNameImg = arg_6_0:findTF("PoolNameImg")
-	arg_6_0.shipCardTpl = arg_6_0:findTF("ShipCardTpl")
+	arg_6_0.poolNameImg = arg_6_0._tf:Find("PoolNameImg")
+	arg_6_0.shipCardTpl = arg_6_0._tf:Find("ShipCardTpl")
 
-	local var_6_8 = arg_6_0:findTF("SelectedShipMax")
-	local var_6_9 = arg_6_0:findTF("Light", var_6_8)
-	local var_6_10 = arg_6_0:findTF("Ship1", var_6_8)
-	local var_6_11 = arg_6_0:findTF("Ship2", var_6_8)
-	local var_6_12 = arg_6_0:findTF("SelectedShipMini")
-	local var_6_13 = arg_6_0:findTF("Light", var_6_12)
-	local var_6_14 = arg_6_0:findTF("Ship1", var_6_12)
-	local var_6_15 = arg_6_0:findTF("Ship2", var_6_12)
+	local var_6_8 = arg_6_0._tf:Find("SelectedShipMax")
+	local var_6_9 = var_6_8:Find("Light")
+	local var_6_10 = var_6_8:Find("Ship1")
+	local var_6_11 = var_6_8:Find("Ship2")
+	local var_6_12 = arg_6_0._tf:Find("SelectedShipMini")
+	local var_6_13 = var_6_12:Find("Light")
+	local var_6_14 = var_6_12:Find("Ship1")
+	local var_6_15 = var_6_12:Find("Ship2")
 
 	arg_6_0.selectedShipTFMap = {}
 	arg_6_0.selectedShipTFMap.Max = {
@@ -149,8 +149,8 @@ function var_0_0.initUI(arg_6_0)
 	setActive(var_6_8, not var_6_16)
 	setActive(var_6_12, var_6_16)
 
-	arg_6_0.shipListArea = arg_6_0:findTF("ShipListArea")
-	arg_6_0.shipListContainer = arg_6_0:findTF("Viewport/Content", arg_6_0.shipListArea)
+	arg_6_0.shipListArea = arg_6_0._tf:Find("ShipListArea")
+	arg_6_0.shipListContainer = arg_6_0.shipListArea:Find("Viewport/Content")
 	arg_6_0.shipListSC = GetComponent(arg_6_0.shipListArea, "LScrollRect")
 
 	setLocalPosition(arg_6_0.shipListArea, {
@@ -158,31 +158,31 @@ function var_0_0.initUI(arg_6_0)
 		y = var_6_16 and -40 or -120
 	})
 
-	arg_6_0.bg2 = arg_6_0:findTF("BG2")
+	arg_6_0.bg2 = arg_6_0._tf:Find("BG2")
 
 	setLocalPosition(arg_6_0.bg2, {
 		x = 0,
 		y = var_6_16 and -62.5 or -174
 	})
 
-	arg_6_0.indexBtn = arg_6_0:findTF("IndexBtn")
-	arg_6_0.preBtn = arg_6_0:findTF("PreBtn")
-	arg_6_0.nextBtn = arg_6_0:findTF("NextBtn")
+	arg_6_0.indexBtn = arg_6_0._tf:Find("IndexBtn")
+	arg_6_0.preBtn = arg_6_0._tf:Find("PreBtn")
+	arg_6_0.nextBtn = arg_6_0._tf:Find("NextBtn")
 	arg_6_0.nextBtnCom = GetComponent(arg_6_0.nextBtn, "Button")
 
 	arg_6_0.indexBtn:GetComponent(typeof(Image)):SetNativeSize()
 
 	for iter_6_2, iter_6_3 in ipairs(arg_6_0.selectedShipTFMap.Max) do
-		arg_6_0:findTF("Tip/Tip", iter_6_3):GetComponent(typeof(Image)):SetNativeSize()
+		iter_6_3:Find("Tip/Tip"):GetComponent(typeof(Image)):SetNativeSize()
 	end
 
 	for iter_6_4, iter_6_5 in ipairs(arg_6_0.selectedShipTFMap.Min) do
-		arg_6_0:findTF("Tip/Tip", iter_6_5):GetComponent(typeof(Image)):SetNativeSize()
+		iter_6_5:Find("Tip/Tip"):GetComponent(typeof(Image)):SetNativeSize()
 	end
 
 	arg_6_0.nextBtnCom.interactable = false
 
-	local var_6_17 = arg_6_0:findTF("InstructionText")
+	local var_6_17 = arg_6_0._tf:Find("InstructionText")
 
 	setText(var_6_17, i18n("pray_build_select_ship_instruction"))
 	onButton(arg_6_0, arg_6_0.preBtn, function()
@@ -263,20 +263,22 @@ function var_0_0.updateMax(arg_15_0)
 	for iter_15_0 = 1, 2 do
 		local var_15_2 = var_15_0[iter_15_0]
 		local var_15_3 = var_15_1[iter_15_0]
-		local var_15_4 = arg_15_0:findTF("Paint", var_15_3)
-		local var_15_5 = arg_15_0:findTF("Tip", var_15_3)
-		local var_15_6 = arg_15_0:findTF("Info", var_15_3)
-		local var_15_7 = arg_15_0:findTF("Btn", var_15_3)
-		local var_15_8 = arg_15_0:findTF("Name/Text", var_15_6)
-		local var_15_9 = arg_15_0:findTF("RarityBG", var_15_3)
-		local var_15_10 = arg_15_0:findTF("Ratio/NumImg", var_15_6)
+		local var_15_4 = var_15_3:Find("Paint")
+		local var_15_5 = var_15_3:Find("Tip")
+		local var_15_6 = var_15_3:Find("Info")
+		local var_15_7 = var_15_3:Find("Btn")
+		local var_15_8 = var_15_6:Find("Name/Text")
+		local var_15_9 = var_15_3:Find("RarityBG")
+		local var_15_10 = var_15_6:Find("Ratio/NumImg")
 
 		if var_15_2 then
 			setActive(var_15_4, true)
 			setPaintingPrefabAsync(var_15_4, Ship.getPaintingName(var_15_2), "biandui")
 
 			if iter_15_0 == 2 then
-				var_15_4.localEulerAngles = Vector3(0, 0, 180)
+				setLocalRotation(var_15_4, {
+					z = 180
+				})
 			end
 
 			setActive(var_15_5, false)
@@ -356,13 +358,13 @@ function var_0_0.updateMin(arg_17_0)
 	for iter_17_0 = 1, 2 do
 		local var_17_2 = var_17_0[iter_17_0]
 		local var_17_3 = var_17_1[iter_17_0]
-		local var_17_4 = arg_17_0:findTF("Mask/Paint", var_17_3)
-		local var_17_5 = arg_17_0:findTF("Tip", var_17_3)
-		local var_17_6 = arg_17_0:findTF("Info", var_17_3)
-		local var_17_7 = arg_17_0:findTF("Btn", var_17_3)
-		local var_17_8 = arg_17_0:findTF("Name/Text", var_17_6)
-		local var_17_9 = arg_17_0:findTF("Mask/RarityBG", var_17_3)
-		local var_17_10 = arg_17_0:findTF("Ratio/NumImg", var_17_6)
+		local var_17_4 = var_17_3:Find("Mask/Paint")
+		local var_17_5 = var_17_3:Find("Tip")
+		local var_17_6 = var_17_3:Find("Info")
+		local var_17_7 = var_17_3:Find("Btn")
+		local var_17_8 = var_17_6:Find("Name/Text")
+		local var_17_9 = var_17_3:Find("Mask/RarityBG")
+		local var_17_10 = var_17_6:Find("Ratio/NumImg")
 
 		if var_17_2 then
 			setActive(var_17_4, true)
@@ -444,11 +446,11 @@ function var_0_0.updateShipList(arg_19_0, arg_19_1)
 
 	function arg_19_0.shipListSC.onUpdateItem(arg_20_0, arg_20_1)
 		local var_20_0 = arg_19_1[arg_20_0 + 1]
-		local var_20_1 = arg_19_0:findTF("BG/Icon", arg_20_1)
+		local var_20_1 = arg_20_1:Find("BG/Icon")
 
 		GetImageSpriteFromAtlasAsync("SquareIcon/" .. Ship.getPaintingName(var_20_0), "", var_20_1)
 
-		local var_20_2 = arg_19_0:findTF("BG/GroupLocked", arg_20_1)
+		local var_20_2 = arg_20_1:Find("BG/GroupLocked")
 		local var_20_3 = pg.ship_data_template[var_20_0].group_type
 
 		if var_20_3 and var_20_3 > 0 then
@@ -457,23 +459,23 @@ function var_0_0.updateShipList(arg_19_0, arg_19_1)
 			setActive(var_20_2, false)
 		end
 
-		local var_20_4 = arg_19_0:findTF("BG/icon_bg/frame", arg_20_1)
+		local var_20_4 = arg_20_1:Find("BG/icon_bg/frame")
 		local var_20_5 = pg.ship_data_statistics[var_20_0].rarity
 		local var_20_6 = ShipRarity.Rarity2Print(var_20_5)
 
 		setFrame(var_20_4, var_20_6)
-		setIconColorful(arg_19_0:findTF("BG", arg_20_1), var_20_5 - 1, {})
+		setIconColorful(arg_20_1:Find("BG"), var_20_5 - 1, {})
 
-		local var_20_7 = arg_19_0:findTF("BG", arg_20_1)
+		local var_20_7 = arg_20_1:Find("BG")
 
 		setImageSprite(var_20_7, GetSpriteFromAtlas("weaponframes", "bg" .. var_20_6))
 
 		local var_20_8 = pg.ship_data_statistics[var_20_0].name
-		local var_20_9 = arg_19_0:findTF("NameBG/NameText", arg_20_1)
+		local var_20_9 = arg_20_1:Find("NameBG/NameText")
 
 		setText(var_20_9, shortenString(var_20_8, 6))
 
-		local var_20_10 = arg_19_0:findTF("BG/SelectedImg", arg_20_1)
+		local var_20_10 = arg_20_1:Find("BG/SelectedImg")
 
 		if table.indexof(var_19_0, var_20_0, 1) then
 			SetActive(var_20_10, true)

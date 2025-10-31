@@ -1,4 +1,4 @@
-local var_0_0 = class("AgoraMould", import("Mod.Island.Core.View.SceneObject.IslandInteractUnit"))
+local var_0_0 = class("AgoraMould", import("Mod.Island.Core.View.SceneObject.IslandSceneUnit"))
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_3)
@@ -36,6 +36,9 @@ end
 
 function var_0_0.OnInit(arg_5_0, arg_5_1, arg_5_2)
 	arg_5_0._go = arg_5_1
+
+	UIUtil.SetLayerRecursively(arg_5_0._go, LayerMask.NameToLayer(IslandConst.LAYER_WORLDMAP3D))
+
 	arg_5_0.builder = arg_5_2
 	arg_5_0.root.name = arg_5_0.data.id
 
@@ -65,6 +68,8 @@ function var_0_0.UpdatePosition(arg_8_0, arg_8_1)
 
 	if arg_8_0.data:IsBuildingType() then
 		var_8_1 = IslandConst.AGORA_BUILDING_Y_OFFSET
+	elseif arg_8_0.data:IsNewTileType() then
+		var_8_1 = Vector3(0, 0.01, 0)
 	end
 
 	arg_8_0.root.position = var_8_0 + IslandConst.AGORA_POSITION_OFFSET + var_8_1

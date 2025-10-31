@@ -28,10 +28,10 @@ function var_0_0.OnInit(arg_1_0)
 end
 
 function var_0_0.findUI(arg_2_0)
-	arg_2_0.paintBackTF = arg_2_0:findTF("Paints/PaintBack")
-	arg_2_0.paintFrontTF = arg_2_0:findTF("Paints/PaintFront")
-	arg_2_0.skinShopBtn = arg_2_0:findTF("BtnShop")
-	arg_2_0.btnContainer = arg_2_0:findTF("BtnList/Viewport/Content")
+	arg_2_0.paintBackTF = arg_2_0._tf:Find("Paints/PaintBack")
+	arg_2_0.paintFrontTF = arg_2_0._tf:Find("Paints/PaintFront")
+	arg_2_0.skinShopBtn = arg_2_0._tf:Find("BtnShop")
+	arg_2_0.btnContainer = arg_2_0._tf:Find("BtnList/Viewport/Content")
 
 	local var_2_0 = arg_2_0.btnContainer.childCount / 3
 

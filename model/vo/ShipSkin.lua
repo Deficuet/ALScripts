@@ -17,6 +17,7 @@ var_0_0.WITH_SPINE = 6
 var_0_0.WITH_SPINE_PLUS = 7
 var_0_0.WITH_CHANGE = 8
 var_0_0.WITH_LIVE2D_PLUS = 9
+var_0_0.WITH_DOUBLE_VIOCE = 10
 
 function var_0_0.Tag2Name(arg_1_0)
 	if not var_0_0.Tag2NameTab then
@@ -29,7 +30,8 @@ function var_0_0.Tag2Name(arg_1_0)
 			[var_0_0.WITH_SPINE] = "spine",
 			[var_0_0.WITH_SPINE_PLUS] = "spine_plus",
 			[var_0_0.WITH_CHANGE] = "change",
-			[var_0_0.WITH_LIVE2D_PLUS] = "live2d_plus"
+			[var_0_0.WITH_LIVE2D_PLUS] = "live2d_plus",
+			[var_0_0.WITH_DOUBLE_VIOCE] = "double_voice"
 		}
 	end
 
@@ -482,7 +484,7 @@ function var_0_0.IsChangeSkin(arg_52_0)
 		warning("skin not exist " .. arg_52_0)
 	end
 
-	return table.contains(var_52_0.tag, var_0_0.WITH_CHANGE)
+	return table.contains(var_52_0.tag, var_0_0.WITH_CHANGE) or table.contains(var_52_0.tag, var_0_0.WITH_DOUBLE_VIOCE)
 end
 
 function var_0_0.GetChangeSkinMainId(arg_53_0)
@@ -549,24 +551,30 @@ function var_0_0.GetChangeSkinAction(arg_60_0)
 	return var_60_0 and var_60_0.action or nil
 end
 
-function var_0_0.GetStoreChangeSkinId(arg_61_0, arg_61_1)
-	local var_61_0, var_61_1 = ShipPhantom.UnpackMark(arg_61_1)
-	local var_61_2 = var_0_0.GetStoreChangeSkinPrefsName(arg_61_0, arg_61_1)
-	local var_61_3 = PlayerPrefs.GetInt(var_61_2, 0)
+function var_0_0.GetChangeSkinCustomDataId(arg_61_0, arg_61_1)
+	local var_61_0 = var_0_0.GetChangeSkinData(arg_61_0)
 
-	if var_61_3 == 0 then
+	return var_61_0 and var_61_0[arg_61_1] or nil
+end
+
+function var_0_0.GetStoreChangeSkinId(arg_62_0, arg_62_1)
+	local var_62_0, var_62_1 = ShipPhantom.UnpackMark(arg_62_1)
+	local var_62_2 = var_0_0.GetStoreChangeSkinPrefsName(arg_62_0, arg_62_1)
+	local var_62_3 = PlayerPrefs.GetInt(var_62_2, 0)
+
+	if var_62_3 == 0 then
 		return nil
 	else
-		return var_61_3
+		return var_62_3
 	end
 end
 
-function var_0_0.SetStoreChangeSkinId(arg_62_0, arg_62_1)
-	local var_62_0, var_62_1 = ShipPhantom.UnpackMark(arg_62_1)
-	local var_62_2 = var_0_0.GetChangeSkinGroupId(arg_62_0)
-	local var_62_3 = var_0_0.GetStoreChangeSkinPrefsName(var_62_2, arg_62_1)
+function var_0_0.SetStoreChangeSkinId(arg_63_0, arg_63_1)
+	local var_63_0, var_63_1 = ShipPhantom.UnpackMark(arg_63_1)
+	local var_63_2 = var_0_0.GetChangeSkinGroupId(arg_63_0)
+	local var_63_3 = var_0_0.GetStoreChangeSkinPrefsName(var_63_2, arg_63_1)
 
-	PlayerPrefs.SetInt(var_62_3, arg_62_0)
+	PlayerPrefs.SetInt(var_63_3, arg_63_0)
 end
 
 function var_0_0.GetStoreChangeSkinPrefsName(...)

@@ -5,13 +5,13 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.bg = arg_2_0:findTF("bg")
-	arg_2_0.scrollPanel = arg_2_0:findTF("window/panel")
-	arg_2_0.UIlist = UIItemList.New(arg_2_0:findTF("window/panel/list"), arg_2_0:findTF("window/panel/list/item"))
-	arg_2_0.ptTF = arg_2_0:findTF("window/top/pt")
-	arg_2_0.totalTxt = arg_2_0:findTF("window/top/pt/Text"):GetComponent(typeof(Text))
-	arg_2_0.closeBtn = arg_2_0:findTF("window/top/btnBack")
-	arg_2_0.getBtn = arg_2_0:findTF("window/btn_get")
+	arg_2_0.bg = arg_2_0._tf:Find("bg")
+	arg_2_0.scrollPanel = arg_2_0._tf:Find("window/panel")
+	arg_2_0.UIlist = UIItemList.New(arg_2_0._tf:Find("window/panel/list"), arg_2_0._tf:Find("window/panel/list/item"))
+	arg_2_0.ptTF = arg_2_0._tf:Find("window/top/pt")
+	arg_2_0.totalTxt = arg_2_0._tf:Find("window/top/pt/Text"):GetComponent(typeof(Text))
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
+	arg_2_0.getBtn = arg_2_0._tf:Find("window/btn_get")
 end
 
 function var_0_0.didEnter(arg_3_0)
@@ -29,9 +29,7 @@ function var_0_0.didEnter(arg_3_0)
 	arg_3_0.animEvent:SetEndEvent(function()
 		arg_3_0:closeView()
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 function var_0_0.Show(arg_7_0)
@@ -186,7 +184,7 @@ function var_0_0.UpdatePtData(arg_15_0)
 end
 
 function var_0_0.willExit(arg_16_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_16_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_16_0._tf)
 end
 
 return var_0_0

@@ -1,5 +1,11 @@
 local var_0_0 = class("IslandHudView")
 
+var_0_0.LuaName2ContainerName = {
+	IslandVisitorHudPanel = "visitorContainer",
+	IslandNormalHudPanel = "npcInfoContainer",
+	IslandCustomerHudPanel = "npcInfoContainer"
+}
+
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.view = arg_1_1
 	arg_1_0.hudPanelDic = {}
@@ -74,7 +80,7 @@ function var_0_0.LateUpdate(arg_7_0)
 	end
 end
 
-function var_0_0.OnDispose(arg_8_0)
+function var_0_0.Dispose(arg_8_0)
 	for iter_8_0, iter_8_1 in pairs(arg_8_0.hudPanelDic) do
 		for iter_8_2, iter_8_3 in pairs(iter_8_1) do
 			iter_8_3:Dispose()

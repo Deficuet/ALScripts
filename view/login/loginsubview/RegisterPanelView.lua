@@ -14,9 +14,9 @@ end
 
 function var_0_0.OnInit(arg_4_0)
 	arg_4_0.registerPanel = arg_4_0._tf
-	arg_4_0.registerUsername = arg_4_0:findTF("account/username", arg_4_0.registerPanel)
-	arg_4_0.cancelButton = arg_4_0:findTF("cancel_button", arg_4_0.registerPanel)
-	arg_4_0.confirmButton = arg_4_0:findTF("confirm_button", arg_4_0.registerPanel)
+	arg_4_0.registerUsername = arg_4_0.registerPanel:Find("account/username")
+	arg_4_0.cancelButton = arg_4_0.registerPanel:Find("cancel_button")
+	arg_4_0.confirmButton = arg_4_0.registerPanel:Find("confirm_button")
 
 	arg_4_0:InitEvent()
 end

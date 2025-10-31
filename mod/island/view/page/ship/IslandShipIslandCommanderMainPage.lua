@@ -5,10 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.backBtn = arg_2_0:findTF("adapt/left_panel/back")
-	arg_2_0.homeBtn = arg_2_0:findTF("adapt/home")
+	arg_2_0.backBtn = arg_2_0._tf:Find("adapt/left_panel/back")
+	arg_2_0.homeBtn = arg_2_0._tf:Find("adapt/home")
 
-	setText(arg_2_0:findTF("adapt/left_panel/title/Text"), i18n("island_dressup_titile"))
+	setText(arg_2_0._tf:Find("adapt/left_panel/title/Text"), i18n("island_dressup_titile"))
 	setActive(arg_2_0.homeBtn, false)
 end
 
@@ -67,7 +67,7 @@ function var_0_0.Flush(arg_12_0)
 end
 
 function var_0_0.GetSmoothRotateObject(arg_13_0)
-	return GetOrAddComponent(arg_13_0:findTF("adapt/char"), typeof(SmoothRotateObject))
+	return arg_13_0._tf:Find("adapt/char")
 end
 
 function var_0_0.OnCharLoaded(arg_14_0)
@@ -90,10 +90,11 @@ end
 
 function var_0_0.SetObjInitRotaion(arg_17_0, arg_17_1)
 	local var_17_0 = arg_17_0:GetSmoothRotateObject()
+	local var_17_1 = GetOrAddComponent(var_17_0, typeof(SmoothRotateObject))
 
-	var_17_0.rotationSpeed = 5
+	var_17_1.rotationSpeed = 5
 
-	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", var_17_0, arg_17_1)
+	ReflectionHelp.RefSetProperty(typeof(SmoothRotateObject), "targetRotation", var_17_1, arg_17_1)
 
 	if arg_17_0.timer then
 		arg_17_0.timer:Stop()
@@ -102,7 +103,7 @@ function var_0_0.SetObjInitRotaion(arg_17_0, arg_17_1)
 	arg_17_0.timer = Timer.New(function()
 		local var_18_0 = pg.island_set.character_detail_camera_speed.key_value_int
 
-		var_17_0.rotationSpeed = var_18_0
+		var_17_1.rotationSpeed = var_18_0
 	end, 0.5, 1)
 
 	arg_17_0.timer:Start()

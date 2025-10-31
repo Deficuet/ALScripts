@@ -5,16 +5,16 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.closeBtn = arg_2_0:findTF("window/top/btnBack")
-	arg_2_0.contentTxt = arg_2_0:findTF("window/content/Text"):GetComponent(typeof(Text))
-	arg_2_0.icon = arg_2_0:findTF("window/content/cover/icon"):GetComponent(typeof(Image))
-	arg_2_0.signature = arg_2_0:findTF("window/content/cover/signature"):GetComponent(typeof(Image))
-	arg_2_0.name = arg_2_0:findTF("window/content/cover/name"):GetComponent(typeof(Text))
-	arg_2_0.shipname = arg_2_0:findTF("window/content/cover/shipname"):GetComponent(typeof(Text))
-	arg_2_0.cancelBtn = arg_2_0:findTF("window/button_container/cancel")
-	arg_2_0.confirmBtn = arg_2_0:findTF("window/button_container/confirm")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
+	arg_2_0.contentTxt = arg_2_0._tf:Find("window/content/Text"):GetComponent(typeof(Text))
+	arg_2_0.icon = arg_2_0._tf:Find("window/content/cover/icon"):GetComponent(typeof(Image))
+	arg_2_0.signature = arg_2_0._tf:Find("window/content/cover/signature"):GetComponent(typeof(Image))
+	arg_2_0.name = arg_2_0._tf:Find("window/content/cover/name"):GetComponent(typeof(Text))
+	arg_2_0.shipname = arg_2_0._tf:Find("window/content/cover/shipname"):GetComponent(typeof(Text))
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("window/button_container/cancel")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("window/button_container/confirm")
 
-	setText(arg_2_0:findTF("window/top/title"), i18n("cryptolalia_delete_res_title"))
+	setText(arg_2_0._tf:Find("window/top/title"), i18n("cryptolalia_delete_res_title"))
 	setText(arg_2_0.cancelBtn:Find("Text"), i18n("text_cancel"))
 	setText(arg_2_0.confirmBtn:Find("Text"), i18n("text_confirm"))
 end
@@ -33,9 +33,7 @@ end
 
 function var_0_0.Show(arg_7_0, arg_7_1, arg_7_2)
 	var_0_0.super.Show(arg_7_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf)
 
 	arg_7_0.contentTxt.text = i18n("cryptolalia_delete_res_tip", arg_7_1:GetResSize(arg_7_2))
 	arg_7_0.name.text = arg_7_1:GetName()
@@ -80,7 +78,7 @@ end
 
 function var_0_0.Hide(arg_11_0)
 	var_0_0.super.Hide(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf, arg_11_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf, arg_11_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_12_0)

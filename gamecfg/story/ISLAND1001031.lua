@@ -1,27 +1,85 @@
 return {
 	id = "ISLAND1001031",
-	mode = 9,
+	mode = 10,
 	map = {
 		{
-			3120100,
-			10090013
-		}
-	},
-	look_weight = {
-		{
-			0.7,
-			0
+			101200,
+			10090008
 		},
 		{
-			0.3,
-			0
+			3120100,
+			10090021
 		}
 	},
 	scripts = {
 		{
+			animation = "nod",
+			characterId = 0,
+			camera = "StoryCamera4",
+			say = "There. I'm done placing all the omelettes on the shelf.",
+			face2Face = {
+				{
+					0,
+					101200
+				}
+			},
+			turnto = {
+				{
+					3120100,
+					0
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "It smells incredible in here. Wonder who our first customer is gonna be.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "nod",
+			characterId = 101200,
+			subName = "Manager of the Café",
+			say = "Yeah, I'm curious as well.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			style = 2,
+			sequence = {
+				{
+					"<size=45>Some time later...</size>",
+					2
+				}
+			}
+		},
+		{
 			characterId = 3120100,
-			animation = "amaze",
-			say = "喵？！指挥官？！",
+			say = "Nya! I recognize that smell, nya! It's the smell of fresh, world-class omelettes, nya!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "(Where have I heard that voice before...)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "It's you! Akashi!",
 			face2Face = {
 				{
 					0,
@@ -34,9 +92,9 @@ return {
 			}
 		},
 		{
-			animation = "curious",
+			animation = "amaze",
 			characterId = 3120100,
-			say = "啊呀呀！原来是指挥官喵！唔，你手上的派看起来……色泽金黄，酥皮完美，内馅饱满……",
+			say = "Nya?! You, nya?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +102,16 @@ return {
 		},
 		{
 			characterId = 3120100,
-			say = "一定是布莱梅的巅峰之作喵！那个……你一个人也吃不完这么大一块喵，不如……",
+			say = "It really is you, nya! I see that omelette in your hands... That smooth surface that glitters like gold, with a fluffy inside – that's Bremen's pièce de résistance omelette, nya!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			characterId = 3120100,
+			say = "You can't eat an omelette that big all by yourself, nya... How about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,109 +119,16 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "{namecode:98:明石}，这是我辛苦找齐食材，在高额负债压力下得到的第一块苹果派，意义重大。",
+			say = "It's for sale. For money. Or what, are you saying you don't have any money?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			characterId = 0,
-			say = "不如……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "sad",
-			characterId = 3120100,
-			say = "好吧好吧……不过指挥官，只是一块苹果派你难道就满足了吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 0,
-			say = "可以继续往下说，说完就能吃苹果派。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "elation",
-			characterId = 3120100,
-			say = "咳咳——看到指挥官能在这么短的时间里就把开发区管理得井井有条，{namecode:98:明石}很是佩服喵~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 3120100,
-			say = "但即使这样，岛屿上的食品种类也很单一对吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 0,
-			say = "……说吧，又想推销什么了？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "embarrass",
-			characterId = 3120100,
-			say = "喵？！指挥官怎么能这样想{namecode:98:明石}喵！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 3120100,
-			say = "{namecode:98:明石}是真心实意为指挥官、为开发区的蓬勃发展感到高兴和骄傲的喵！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "elation",
-			characterId = 3120100,
-			say = "而且！正是因为看到了指挥官如此英明，看到了这座岛屿无限光明的未来喵~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 3120100,
-			say = "{namecode:98:明石}才决定，要把压箱底的好东西拿出来，全力支持您的事业喵！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 0,
-			say = "哦？压箱底的好东西？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 3120100,
-			nameColor = "#A9F548FF",
 			animation = "nod",
-			say = "没错喵！请看{namecode:98:明石}为助力开发计划，特意给指挥官打造的——限定商店喵！",
+			characterId = 3120100,
+			say = "Of course I do, nya! I just thought the omelette was just for you, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,24 +136,7 @@ return {
 		},
 		{
 			characterId = 3120100,
-			say = "商品可都是我跑遍各地，精挑细选，专为指挥官您的伟大开发事业所准备的喵！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "clap",
-			characterId = 3120100,
-			say = "绝对物超所值，买到就是赚到喵！指挥官快看看吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 0,
-			say = "……",
+			say = "Bremen, get me one– No, two of your omelettes, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

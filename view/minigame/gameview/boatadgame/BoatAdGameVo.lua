@@ -77,7 +77,7 @@ function var_0_0.GetMiniGameHubData()
 	return getProxy(MiniGameProxy):GetHubByHubId(var_0_0.hub_id)
 end
 
-var_0_0.char_id = 1
+var_0_0.char_id = 2
 var_0_0.scene_width = 1920
 var_0_0.scene_height = 1080
 var_0_0.collider_time = 1

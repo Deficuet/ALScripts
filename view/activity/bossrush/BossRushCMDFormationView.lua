@@ -5,18 +5,18 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.descFrameTF = arg_2_0:findTF("frame")
-	arg_2_0.descPos1 = arg_2_0:findTF("commander1/frame/info", arg_2_0.descFrameTF)
-	arg_2_0.descPos2 = arg_2_0:findTF("commander2/frame/info", arg_2_0.descFrameTF)
-	arg_2_0.skillTFPos1 = arg_2_0:findTF("commander1/skill_info", arg_2_0.descFrameTF)
-	arg_2_0.skillTFPos2 = arg_2_0:findTF("commander2/skill_info", arg_2_0.descFrameTF)
-	arg_2_0.abilitysTF = UIItemList.New(arg_2_0:findTF("atttr_panel/abilitys/mask/content", arg_2_0.descFrameTF), arg_2_0:findTF("atttr_panel/abilitys/mask/content/attr", arg_2_0.descFrameTF))
-	arg_2_0.talentsTF = UIItemList.New(arg_2_0:findTF("atttr_panel/talents/mask/content", arg_2_0.descFrameTF), arg_2_0:findTF("atttr_panel/talents/mask/content/attr", arg_2_0.descFrameTF))
-	arg_2_0.abilityArr = arg_2_0:findTF("frame/atttr_panel/abilitys/arr")
-	arg_2_0.talentsArr = arg_2_0:findTF("frame/atttr_panel/talents/arr")
-	arg_2_0.restAllBtn = arg_2_0:findTF("rest_all", arg_2_0.descFrameTF)
-	arg_2_0.quickBtn = arg_2_0:findTF("quick_btn", arg_2_0.descFrameTF)
-	arg_2_0.recordPanel = arg_2_0:findTF("record_panel")
+	arg_2_0.descFrameTF = arg_2_0._tf:Find("frame")
+	arg_2_0.descPos1 = arg_2_0.descFrameTF:Find("commander1/frame/info")
+	arg_2_0.descPos2 = arg_2_0.descFrameTF:Find("commander2/frame/info")
+	arg_2_0.skillTFPos1 = arg_2_0.descFrameTF:Find("commander1/skill_info")
+	arg_2_0.skillTFPos2 = arg_2_0.descFrameTF:Find("commander2/skill_info")
+	arg_2_0.abilitysTF = UIItemList.New(arg_2_0.descFrameTF:Find("atttr_panel/abilitys/mask/content"), arg_2_0.descFrameTF:Find("atttr_panel/abilitys/mask/content/attr"))
+	arg_2_0.talentsTF = UIItemList.New(arg_2_0.descFrameTF:Find("atttr_panel/talents/mask/content"), arg_2_0.descFrameTF:Find("atttr_panel/talents/mask/content/attr"))
+	arg_2_0.abilityArr = arg_2_0._tf:Find("frame/atttr_panel/abilitys/arr")
+	arg_2_0.talentsArr = arg_2_0._tf:Find("frame/atttr_panel/talents/arr")
+	arg_2_0.restAllBtn = arg_2_0.descFrameTF:Find("rest_all")
+	arg_2_0.quickBtn = arg_2_0.descFrameTF:Find("quick_btn")
+	arg_2_0.recordPanel = arg_2_0._tf:Find("record_panel")
 	arg_2_0.recordCommanders = {
 		arg_2_0.recordPanel:Find("current/commanders/commander1/frame/info"),
 		arg_2_0.recordPanel:Find("current/commanders/commander2/frame/info")
@@ -48,7 +48,7 @@ function var_0_0.didEnter(arg_7_0)
 end
 
 function var_0_0.willExit(arg_8_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_8_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_0._tf)
 end
 
 function var_0_0.setCallback(arg_9_0, arg_9_1)

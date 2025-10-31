@@ -25,6 +25,8 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.top = arg_3_0._tf:Find("Top")
 	arg_3_0.viewContainer = arg_3_0._tf:Find("Main")
 	arg_3_0.subViews = {}
+
+	arg_3_0:OverlayPanel(arg_3_0.top)
 end
 
 local var_0_1 = {
@@ -39,9 +41,6 @@ function var_0_0.GetCurrentPage(arg_4_0)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_5_0.top, {
-		groupName = LayerWeightConst.GROUP_COLLECTION
-	})
 	onButton(arg_5_0, arg_5_0.top:Find("blur_panel/adapt/top/option"), function()
 		arg_5_0:quickExitFunc()
 	end, SFX_PANEL)
@@ -71,6 +70,7 @@ function var_0_0.EnterPage(arg_8_0, arg_8_1)
 		arg_8_0.contextData[var_8_2] = arg_8_0.contextData[var_8_2] or {}
 		var_8_1 = var_8_2.New(arg_8_0, arg_8_0.viewContainer, arg_8_0.event, arg_8_0.contextData)
 
+		var_8_1:RegisterView(arg_8_0)
 		var_8_1:Load()
 	end
 
@@ -115,47 +115,39 @@ function var_0_0.onBackPressed(arg_12_0)
 	arg_12_0:Backward()
 end
 
-function var_0_0.Add2LayerContainer(arg_13_0, arg_13_1)
-	setParent(arg_13_1, arg_13_0.viewContainer)
-end
-
-function var_0_0.Add2TopContainer(arg_14_0, arg_14_1)
-	setParent(arg_14_1, arg_14_0.top)
-end
-
 function var_0_0.WorldRecordLock()
-	local function var_15_0()
-		local var_16_0 = getProxy(PlayerProxy):getRawData().level
+	local function var_13_0()
+		local var_14_0 = getProxy(PlayerProxy):getRawData().level
 
-		return pg.SystemOpenMgr.GetInstance():isOpenSystem(var_16_0, "WorldMediaCollectionRecordMediator")
+		return pg.SystemOpenMgr.GetInstance():isOpenSystem(var_14_0, "WorldMediaCollectionRecordMediator")
 	end
 
-	return LOCK_WORLD_COLLECTION or not var_15_0()
+	return LOCK_WORLD_COLLECTION or not var_13_0()
 end
 
-function var_0_0.UpdateView(arg_17_0)
-	local var_17_0 = arg_17_0.subViews[arg_17_0.contextData.page]
+function var_0_0.UpdateView(arg_15_0)
+	local var_15_0 = arg_15_0.subViews[arg_15_0.contextData.page]
 
-	if not var_17_0 then
+	if not var_15_0 then
 		return
 	end
 
-	var_17_0.buffer:UpdateView()
+	var_15_0.buffer:UpdateView()
 end
 
-function var_0_0.willExit(arg_18_0)
-	local var_18_0 = arg_18_0:GetCurrentPage()
+function var_0_0.willExit(arg_16_0)
+	local var_16_0 = arg_16_0:GetCurrentPage()
 
-	if var_18_0 then
-		var_18_0.buffer:Hide()
+	if var_16_0 then
+		var_16_0.buffer:Hide()
 	end
 
-	for iter_18_0, iter_18_1 in pairs(arg_18_0.subViews) do
-		iter_18_1:Destroy()
+	for iter_16_0, iter_16_1 in pairs(arg_16_0.subViews) do
+		iter_16_1:Destroy()
 	end
 
-	table.clear(arg_18_0.subViews)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_18_0.top, arg_18_0._tf)
+	table.clear(arg_16_0.subViews)
+	arg_16_0:UnOverlayPanel(arg_16_0.top, arg_16_0._tf)
 end
 
 return var_0_0

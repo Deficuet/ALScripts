@@ -1,18 +1,18 @@
 local var_0_0 = class("SecondAnniversaryPage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.btnShop = arg_1_0:findTF("BtnShop")
-	arg_1_0.btnContainer = arg_1_0:findTF("BtnList/Viewport/Content")
-	arg_1_0.btn1 = arg_1_0:findTF("1", arg_1_0.btnContainer)
-	arg_1_0.btn2 = arg_1_0:findTF("2", arg_1_0.btnContainer)
-	arg_1_0.btn3 = arg_1_0:findTF("3", arg_1_0.btnContainer)
-	arg_1_0.btn4 = arg_1_0:findTF("4", arg_1_0.btnContainer)
-	arg_1_0.btn5 = arg_1_0:findTF("5", arg_1_0.btnContainer)
-	arg_1_0.btn6 = arg_1_0:findTF("6", arg_1_0.btnContainer)
-	arg_1_0.btn7 = arg_1_0:findTF("7", arg_1_0.btnContainer)
-	arg_1_0.btn8 = arg_1_0:findTF("8", arg_1_0.btnContainer)
-	arg_1_0.btn9 = arg_1_0:findTF("9", arg_1_0.btnContainer)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.btnShop = arg_1_0._tf:Find("BtnShop")
+	arg_1_0.btnContainer = arg_1_0._tf:Find("BtnList/Viewport/Content")
+	arg_1_0.btn1 = arg_1_0.btnContainer:Find("1")
+	arg_1_0.btn2 = arg_1_0.btnContainer:Find("2")
+	arg_1_0.btn3 = arg_1_0.btnContainer:Find("3")
+	arg_1_0.btn4 = arg_1_0.btnContainer:Find("4")
+	arg_1_0.btn5 = arg_1_0.btnContainer:Find("5")
+	arg_1_0.btn6 = arg_1_0.btnContainer:Find("6")
+	arg_1_0.btn7 = arg_1_0.btnContainer:Find("7")
+	arg_1_0.btn8 = arg_1_0.btnContainer:Find("8")
+	arg_1_0.btn9 = arg_1_0.btnContainer:Find("9")
 	arg_1_0.btnList1 = {
 		arg_1_0.btn1,
 		arg_1_0.btn2,
@@ -24,15 +24,15 @@ function var_0_0.OnInit(arg_1_0)
 		arg_1_0.btn8,
 		arg_1_0.btn9
 	}
-	arg_1_0.btn11 = arg_1_0:findTF("11", arg_1_0.btnContainer)
-	arg_1_0.btn12 = arg_1_0:findTF("12", arg_1_0.btnContainer)
-	arg_1_0.btn13 = arg_1_0:findTF("13", arg_1_0.btnContainer)
-	arg_1_0.btn14 = arg_1_0:findTF("14", arg_1_0.btnContainer)
-	arg_1_0.btn15 = arg_1_0:findTF("15", arg_1_0.btnContainer)
-	arg_1_0.btn16 = arg_1_0:findTF("16", arg_1_0.btnContainer)
-	arg_1_0.btn17 = arg_1_0:findTF("17", arg_1_0.btnContainer)
-	arg_1_0.btn18 = arg_1_0:findTF("18", arg_1_0.btnContainer)
-	arg_1_0.btn19 = arg_1_0:findTF("19", arg_1_0.btnContainer)
+	arg_1_0.btn11 = arg_1_0.btnContainer:Find("11")
+	arg_1_0.btn12 = arg_1_0.btnContainer:Find("12")
+	arg_1_0.btn13 = arg_1_0.btnContainer:Find("13")
+	arg_1_0.btn14 = arg_1_0.btnContainer:Find("14")
+	arg_1_0.btn15 = arg_1_0.btnContainer:Find("15")
+	arg_1_0.btn16 = arg_1_0.btnContainer:Find("16")
+	arg_1_0.btn17 = arg_1_0.btnContainer:Find("17")
+	arg_1_0.btn18 = arg_1_0.btnContainer:Find("18")
+	arg_1_0.btn19 = arg_1_0.btnContainer:Find("19")
 	arg_1_0.btnList2 = {
 		arg_1_0.btn11,
 		arg_1_0.btn12,

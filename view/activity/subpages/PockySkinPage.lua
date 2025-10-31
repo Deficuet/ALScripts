@@ -7,7 +7,7 @@ function var_0_0.GetCurrentDay()
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0.bg = arg_2_0:findTF("AD")
+	arg_2_0.bg = arg_2_0._tf:Find("AD")
 	arg_2_0.leftStage = arg_2_0.bg:Find("left")
 	arg_2_0.rightStage = arg_2_0.bg:Find("right")
 	arg_2_0.taskDesc = arg_2_0.leftStage:Find("task")

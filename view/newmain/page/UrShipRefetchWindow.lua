@@ -5,10 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.shipTpl = arg_2_0:findTF("window/content/ships/itemtpl")
-	arg_2_0.contentTxt = arg_2_0:findTF("window/content/Text"):GetComponent(typeof(Text))
-	arg_2_0.cntTxt = arg_2_0:findTF("window/content/count"):GetComponent(typeof(Text))
-	arg_2_0.confirmBtn = arg_2_0:findTF("window/confirm_btn")
+	arg_2_0.shipTpl = arg_2_0._tf:Find("window/content/ships/itemtpl")
+	arg_2_0.contentTxt = arg_2_0._tf:Find("window/content/Text"):GetComponent(typeof(Text))
+	arg_2_0.cntTxt = arg_2_0._tf:Find("window/content/count"):GetComponent(typeof(Text))
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("window/confirm_btn")
 
 	setText(arg_2_0._tf:Find("window/top/bg/infomation/title"), i18n("title_info"))
 	setText(arg_2_0.confirmBtn:Find("pic"), i18n("word_take"))
@@ -18,9 +18,7 @@ function var_0_0.Show(arg_3_0, arg_3_1)
 	var_0_0.super.Show(arg_3_0)
 	arg_3_0:UpdateUrShipAndContent(arg_3_1)
 	arg_3_0:RegisterEvent(arg_3_1)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER - 1
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 end
 
 local function var_0_1(arg_4_0)
@@ -99,7 +97,7 @@ end
 
 function var_0_0.Hide(arg_13_0)
 	var_0_0.super.Hide(arg_13_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_13_0._tf, arg_13_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf, arg_13_0._parentTf)
 	removeOnButton(arg_13_0.confirmBtn)
 	arg_13_0:RemoveTimer()
 end

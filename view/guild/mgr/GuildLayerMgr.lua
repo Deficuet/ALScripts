@@ -49,7 +49,7 @@ end
 
 function var_0_0.UnBlur(arg_8_0, arg_8_1, arg_8_2)
 	arg_8_0:BlurTopPanel(arg_8_0.topPanel)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_8_1, arg_8_2)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_8_1, arg_8_2)
 end
 
 function var_0_0.BlurForLevel(arg_9_0, arg_9_1)

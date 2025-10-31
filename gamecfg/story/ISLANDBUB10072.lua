@@ -13,7 +13,7 @@ return {
 			characterId = 100700,
 			animation = "slack",
 			hideType = 2,
-			say = "这会儿都没人，偷下懒也不要紧吧？"
+			say = "Did the bushes just move? Um... must've just imagined it."
 		}
 	}
 }

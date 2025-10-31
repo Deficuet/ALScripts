@@ -11,10 +11,12 @@ var_0_0.SHOW_TYPE_CANT_SIGNIN = 8
 var_0_0.SHOW_TYPE_CAN_WILD_GATHER = 9
 var_0_0.SHOW_TYPE_CAN_WILD_SIGNIN = 10
 var_0_0.SHOW_TYPE_ABILITY = 11
+var_0_0.SHOW_TYPE_TASK_TARGET = 12
 
 function var_0_0.Check(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1[1]
 	local var_1_1 = arg_1_1[2]
+	local var_1_2 = arg_1_1[3]
 
 	return switch(var_1_0, {
 		[var_0_0.SHOW_TYPE_CAN_ACCEPT_TASK] = function()
@@ -51,6 +53,11 @@ function var_0_0.Check(arg_1_0, arg_1_1)
 		end,
 		[var_0_0.SHOW_TYPE_ABILITY] = function()
 			return arg_1_0:GetAblityAgency():HasAbility(var_1_1)
+		end,
+		[var_0_0.SHOW_TYPE_TASK_TARGET] = function()
+			local var_11_0 = arg_1_0:GetTaskAgency():GetTask(var_1_1)
+
+			return var_11_0 and var_11_0:GetTargetById(var_1_2) and not var_11_0:GetTargetById(var_1_2):IsFinish()
 		end
 	}, function()
 		assert(false, "非法显示条件类型:" .. var_1_0)

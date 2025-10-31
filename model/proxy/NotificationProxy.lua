@@ -85,4 +85,40 @@ function var_0_0.getUnreadCount(arg_8_0)
 	return var_8_0
 end
 
+function var_0_0.RawgetAllMessages(arg_9_0)
+	local var_9_0 = {}
+	local var_9_1 = getProxy(ChatProxy)
+
+	_.each(var_9_1:getRawData(), function(arg_10_0)
+		table.insert(var_9_0, arg_10_0)
+	end)
+
+	local var_9_2 = getProxy(GuildProxy)
+
+	if var_9_2:getRawData() then
+		_.each(var_9_2:getChatMsgs(), function(arg_11_0)
+			table.insert(var_9_0, arg_11_0)
+		end)
+	end
+
+	local var_9_3 = getProxy(FriendProxy)
+
+	_.each(var_9_3:getCacheMsgList(), function(arg_12_0)
+		table.insert(var_9_0, arg_12_0)
+	end)
+
+	return var_9_0
+end
+
+function var_0_0.getAllMessages(arg_13_0)
+	local var_13_0 = arg_13_0:RawgetAllMessages()
+	local var_13_1 = getProxy(FriendProxy)
+
+	return _(var_13_0):chain():filter(function(arg_14_0)
+		return not var_13_1:isInBlackList(arg_14_0.playerId)
+	end):sort(function(arg_15_0, arg_15_1)
+		return arg_15_0.timestamp < arg_15_1.timestamp
+	end):value()
+end
+
 return var_0_0

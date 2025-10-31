@@ -5,7 +5,7 @@ function var_0_0.Ctor(arg_1_0)
 	arg_1_0:onUILoaded(DebugMgr.Inst.DebugPanel)
 	setActive(arg_1_0._tf, false)
 
-	arg_1_0.ctrls = arg_1_0:findTF("ctrls")
+	arg_1_0.ctrls = arg_1_0._tf:Find("ctrls")
 	arg_1_0._customBtnTpl = arg_1_0:getTpl("ctrls/custom_button")
 end
 

@@ -7,7 +7,7 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("items"), arg_2_0:findTF("items/tpl"))
+	arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("items"), arg_2_0._tf:Find("items/tpl"))
 end
 
 function var_0_0.OnShow(arg_3_0)

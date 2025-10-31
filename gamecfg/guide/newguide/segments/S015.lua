@@ -67,7 +67,7 @@ return {
 				text = var_0_0[3]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/StoreHouseUI(Clone)/EquipmentDesignUI(Clone)/equipment_scrollview/equipment_grid/0/info/make_btn",
+				path = "/UICamera/Canvas/UIMain/EquipmentDesignUI(Clone)/equipment_scrollview/equipment_grid/0/info/make_btn",
 				pathIndex = -1,
 				triggerType = {
 					1

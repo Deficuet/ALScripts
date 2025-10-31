@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "乖~新鲜牧草来啦！",
+			say = "Alrighty, here's some fresh grass!",
 			characterId = 100500,
 			hideType = 2
 		}

@@ -13,7 +13,7 @@ return {
 			characterId = 100800,
 			animation = "note",
 			hideType = 2,
-			say = "补货单需要加急处理了。"
+			say = "The restocking order needs to be processed urgently."
 		}
 	}
 }

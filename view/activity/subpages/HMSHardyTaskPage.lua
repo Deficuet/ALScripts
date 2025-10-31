@@ -3,8 +3,8 @@ local var_0_0 = class("HMSHardyTaskPage", import(".TemplatePage.PassChaptersTemp
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.notGetBtn = arg_1_0:findTF("not_get_btn", arg_1_0.bg)
-	arg_1_0.goHuntBtn = arg_1_0:findTF("gohunt_btn", arg_1_0.bg)
+	arg_1_0.notGetBtn = arg_1_0.bg:Find("not_get_btn")
+	arg_1_0.goHuntBtn = arg_1_0.bg:Find("gohunt_btn")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)

@@ -4,25 +4,25 @@ return {
 	map = {},
 	scripts = {
 		{
-			say = "发现你了——绿头猫咪！",
 			characterId = 0,
+			say = "There she is. The green cat!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "What's she doing, sneaking into the café like that? That's suspicious.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			characterId = 0,
-			say = "鬼鬼祟祟潜入了咖啡馆么……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			characterId = 0,
-			say = "一定有什么不可告人的阴谋，跟上去看看吧！",
+			say = "Bet she's up to no good. I'm gonna tail her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

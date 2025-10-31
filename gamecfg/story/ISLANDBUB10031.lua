@@ -13,7 +13,7 @@ return {
 			characterId = 100300,
 			animation = "rest",
 			hideType = 2,
-			say = "呼~订单又堆成一座小山了！"
+			say = "Whew... The requests have piled up again!"
 		}
 	}
 }

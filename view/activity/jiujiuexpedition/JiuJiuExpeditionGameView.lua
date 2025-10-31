@@ -715,7 +715,7 @@ end
 
 function var_0_0.hideEnterBossUI(arg_50_0)
 	setActive(arg_50_0.enterBossUI, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_50_0.enterBossUI)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_50_0.enterBossUI)
 end
 
 function var_0_0.getPosNum(arg_51_0, arg_51_1, arg_51_2)

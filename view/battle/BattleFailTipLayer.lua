@@ -22,12 +22,12 @@ function var_0_0.initData(arg_3_0)
 end
 
 function var_0_0.findUI(arg_4_0)
-	arg_4_0.powerUpTipPanel = arg_4_0:findTF("Main")
-	arg_4_0.shipLevelUpBtn = arg_4_0:findTF("ShipLevelUpBtn", arg_4_0.powerUpTipPanel)
-	arg_4_0.equipLevelUpBtn = arg_4_0:findTF("EquipLevelUpBtn", arg_4_0.powerUpTipPanel)
-	arg_4_0.skillLevelUpBtn = arg_4_0:findTF("SkillLevelUpBtn", arg_4_0.powerUpTipPanel)
-	arg_4_0.shipBreakUpBtn = arg_4_0:findTF("ShipBreakUpBtn", arg_4_0.powerUpTipPanel)
-	arg_4_0.closeBtn = arg_4_0:findTF("CloseBtn", arg_4_0.powerUpTipPanel)
+	arg_4_0.powerUpTipPanel = arg_4_0._tf:Find("Main")
+	arg_4_0.shipLevelUpBtn = arg_4_0.powerUpTipPanel:Find("ShipLevelUpBtn")
+	arg_4_0.equipLevelUpBtn = arg_4_0.powerUpTipPanel:Find("EquipLevelUpBtn")
+	arg_4_0.skillLevelUpBtn = arg_4_0.powerUpTipPanel:Find("SkillLevelUpBtn")
+	arg_4_0.shipBreakUpBtn = arg_4_0.powerUpTipPanel:Find("ShipBreakUpBtn")
+	arg_4_0.closeBtn = arg_4_0.powerUpTipPanel:Find("CloseBtn")
 end
 
 function var_0_0.addListener(arg_5_0)
@@ -104,7 +104,7 @@ end
 
 function var_0_0.willExit(arg_16_0)
 	LeanTween.cancel(go(arg_16_0._tf))
-	pg.UIMgr.GetInstance():UnblurPanel(arg_16_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_16_0._tf)
 end
 
 function var_0_0.aniBeforeEnter(arg_17_0)

@@ -8,10 +8,16 @@ var_0_0.START_PATHFINDER = "IslandProxy:START_PATHFINDER"
 var_0_0.END_PATHFINDER = "IslandProxy:END_PATHFINDER"
 var_0_0.ACTIVE_OR_DISABLE_UNIT = "IslandProxy:ACTIVE_OR_DISABLE_UNIT"
 var_0_0.LINK_CORE = "IslandProxy:LINK_CORE"
+var_0_0.GEN_RECYCLEITEM = "IslandProxy:GEN_RECYCLEITEM"
+var_0_0.LOCK_NPC_REFRESH = "IslandProxy:LOCK_NPC_REFRESH"
+var_0_0.RELEASE_NPC_REFRESH = "IslandProxy:RELEASE_NPC_REFRESH"
+var_0_0.RESET_SP = "IslandProxy:RESET_SP"
+var_0_0.CHAT_MSG_UPDATE = "IslandProxy:CHAT_MSG_UPDATE"
 
 function var_0_0.register(arg_1_0)
 	arg_1_0.cahce = {}
 	arg_1_0.giftCache = {}
+	arg_1_0.chatMsgs = {}
 	arg_1_0.islandHeartBeatMgr = IslandHearBeatMgr.New()
 
 	arg_1_0:on(21216, function(arg_2_0)
@@ -32,135 +38,163 @@ function var_0_0.register(arg_1_0)
 	end)
 end
 
-function var_0_0.SetIsland(arg_3_0, arg_3_1)
-	arg_3_0.island = arg_3_1
-end
-
-function var_0_0.GetIsland(arg_4_0)
-	return arg_4_0.island
-end
-
-function var_0_0.remove(arg_5_0)
-	arg_5_0.island = nil
-end
-
-function var_0_0.ShouldTip(arg_6_0)
-	local function var_6_0()
-		local var_7_0 = arg_6_0:GetIsland()
-
-		return var_7_0 and var_7_0:CanLevelUp()
+function var_0_0.AddChatMsg(arg_3_0, arg_3_1, arg_3_2)
+	if not arg_3_0.chatMsgs[arg_3_1] then
+		arg_3_0.chatMsgs[arg_3_1] = {}
 	end
 
-	local function var_6_1()
-		local var_8_0 = arg_6_0:GetIsland()
+	table.insert(arg_3_0.chatMsgs[arg_3_1], arg_3_2)
+	arg_3_0:sendNotification(IslandProxy.CHAT_MSG_UPDATE, {
+		islandId = arg_3_1,
+		msg = arg_3_2
+	})
+end
 
-		return var_8_0 and var_8_0:AnyProsperityAwardCanGet()
+function var_0_0.GetChatMsgList(arg_4_0, arg_4_1)
+	return arg_4_0.chatMsgs[arg_4_1] or {}
+end
+
+function var_0_0.SetIsland(arg_5_0, arg_5_1)
+	arg_5_0.island = arg_5_1
+end
+
+function var_0_0.GetIsland(arg_6_0)
+	return arg_6_0.island
+end
+
+function var_0_0.remove(arg_7_0)
+	arg_7_0.island = nil
+end
+
+function var_0_0.ShouldTip(arg_8_0)
+	local function var_8_0()
+		local var_9_0 = arg_8_0:GetIsland()
+
+		return var_9_0 and var_9_0:CanLevelUp()
 	end
 
-	return var_6_0() or var_6_1()
+	local function var_8_1()
+		local var_10_0 = arg_8_0:GetIsland()
+
+		return var_10_0 and var_10_0:AnyProsperityAwardCanGet()
+	end
+
+	return var_8_0() or var_8_1()
 end
 
-function var_0_0.AddPlayerDataCache(arg_9_0, arg_9_1)
-	arg_9_0.cahce[arg_9_1.id] = arg_9_1
+function var_0_0.AddPlayerDataCache(arg_11_0, arg_11_1)
+	arg_11_0.cahce[arg_11_1.id] = arg_11_1
 end
 
-function var_0_0.GetPlayerDataCache(arg_10_0, arg_10_1)
-	return arg_10_0.cahce[arg_10_1]
+function var_0_0.GetPlayerDataCache(arg_12_0, arg_12_1)
+	return arg_12_0.cahce[arg_12_1]
 end
 
-function var_0_0.ClearAllPlayerDataCache(arg_11_0)
-	arg_11_0.cahce = {}
+function var_0_0.ClearAllPlayerDataCache(arg_13_0)
+	arg_13_0.cahce = {}
 end
 
-function var_0_0.AddGiftTagInfoCache(arg_12_0, arg_12_1)
-	arg_12_0.giftCache[arg_12_1.playerId] = arg_12_1
+function var_0_0.AddGiftTagInfoCache(arg_14_0, arg_14_1)
+	arg_14_0.giftCache[arg_14_1.playerId] = arg_14_1
 end
 
-function var_0_0.GetGiftTagInfoCache(arg_13_0, arg_13_1)
-	return arg_13_0.giftCache[arg_13_1]
+function var_0_0.GetGiftTagInfoCache(arg_15_0, arg_15_1)
+	return arg_15_0.giftCache[arg_15_1]
 end
 
-function var_0_0.UpdateGiftTagCache(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
-	local var_14_0 = arg_14_0:GetGiftTagInfoCache(arg_14_1)
+function var_0_0.UpdateGiftTagCache(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
+	local var_16_0 = arg_16_0:GetGiftTagInfoCache(arg_16_1)
 
-	if var_14_0 then
-		var_14_0:Flush(arg_14_2, arg_14_3)
+	if var_16_0 then
+		var_16_0:Flush(arg_16_2, arg_16_3)
 	else
-		local var_14_1 = IslandGiftTagInfo.New({
-			key = arg_14_1,
-			value1 = arg_14_3,
-			value2 = arg_14_2
+		local var_16_1 = IslandGiftTagInfo.New({
+			key = arg_16_1,
+			value1 = arg_16_3,
+			value2 = arg_16_2
 		})
 
-		arg_14_0:AddGiftTagInfoCache(var_14_1)
+		arg_16_0:AddGiftTagInfoCache(var_16_1)
 	end
 end
 
-function var_0_0.ClearAllGiftTagInfo(arg_15_0)
-	arg_15_0.giftCache = {}
+function var_0_0.ClearAllGiftTagInfo(arg_17_0)
+	arg_17_0.giftCache = {}
 end
 
-function var_0_0.SetSharedIsland(arg_16_0, arg_16_1)
-	arg_16_0.sharedIsland = arg_16_1
+function var_0_0.SetSharedIsland(arg_18_0, arg_18_1)
+	arg_18_0.sharedIsland = arg_18_1
 end
 
-function var_0_0.GetSharedIsland(arg_17_0)
-	return arg_17_0.sharedIsland
+function var_0_0.GetSharedIsland(arg_19_0)
+	return arg_19_0.sharedIsland
 end
 
-function var_0_0.SetSyncObjInitData(arg_18_0, arg_18_1)
-	arg_18_0.syncObjInitData = arg_18_1
+function var_0_0.SetSyncObjInitData(arg_20_0, arg_20_1)
+	arg_20_0.syncObjInitData = arg_20_1
 end
 
-function var_0_0.GetSyncObjInitData(arg_19_0)
-	return arg_19_0.syncObjInitData and arg_19_0.syncObjInitData or {}
+function var_0_0.GetSyncObjInitData(arg_21_0)
+	return arg_21_0.syncObjInitData and arg_21_0.syncObjInitData or {}
 end
 
-function var_0_0.timeCall(arg_20_0)
+function var_0_0.timeCall(arg_22_0)
 	return {
-		[ProxyRegister.SecondCall] = function(arg_21_0)
-			if not arg_20_0.island then
+		[ProxyRegister.SecondCall] = function(arg_23_0)
+			if not arg_22_0.island then
 				return
 			end
 
-			arg_20_0.island:UpdatePerSecond()
+			arg_22_0.island:UpdatePerSecond()
 
-			if not arg_20_0.sharedIsland then
+			if not arg_22_0.sharedIsland then
 				return
 			end
 
-			arg_20_0.sharedIsland:UpdatePerSecond()
+			arg_22_0.sharedIsland:UpdatePerSecond()
 		end,
-		[ProxyRegister.DayCall] = function(arg_22_0)
-			if not arg_20_0.island then
+		[ProxyRegister.DayCall] = function(arg_24_0)
+			if not arg_22_0.island then
 				return
 			end
 
-			arg_20_0.island:UpdatePerDay()
+			arg_22_0.island:UpdatePerDay()
 		end
 	}
 end
 
-function var_0_0.RecordEnterTime(arg_23_0)
-	arg_23_0.enterTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.RecordEnterTime(arg_25_0)
+	arg_25_0.enterTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function var_0_0.GetEnterTime(arg_24_0)
-	return arg_24_0.enterTimeStamp
+function var_0_0.GetEnterTime(arg_26_0)
+	return arg_26_0.enterTimeStamp
 end
 
-function var_0_0.EnterIsland(arg_25_0, arg_25_1)
-	arg_25_0.islandHeartBeatMgr:EnterIsland(arg_25_1)
+function var_0_0.RecordTempPlayerPosition(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
+	arg_27_0.tempPlayerPosition = {
+		arg_27_1,
+		arg_27_2,
+		arg_27_3
+	}
 end
 
-function var_0_0.ExitIsland(arg_26_0)
-	arg_26_0.islandHeartBeatMgr:ExitIsland()
+function var_0_0.GetTempPlayerPosition(arg_28_0)
+	return arg_28_0.tempPlayerPosition
 end
 
-function var_0_0.remove(arg_27_0)
-	arg_27_0.islandHeartBeatMgr:Dispose()
+function var_0_0.EnterIsland(arg_29_0, arg_29_1)
+	arg_29_0.islandHeartBeatMgr:EnterIsland(arg_29_1)
+end
 
-	arg_27_0.islandHeartBeatMgr = nil
+function var_0_0.ExitIsland(arg_30_0)
+	arg_30_0.islandHeartBeatMgr:ExitIsland()
+end
+
+function var_0_0.remove(arg_31_0)
+	arg_31_0.islandHeartBeatMgr:Dispose()
+
+	arg_31_0.islandHeartBeatMgr = nil
 end
 
 return var_0_0

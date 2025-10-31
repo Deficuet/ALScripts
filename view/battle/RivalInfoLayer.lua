@@ -25,13 +25,11 @@ function var_0_0.didEnter(arg_3_0)
 	onButton(arg_3_0, arg_3_0.startBtn, function()
 		arg_3_0:emit(RivalInfoMediator.START_BATTLE)
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 	arg_3_0:initRivalInfo()
 
 	arg_3_0.isRealName = false
-	arg_3_0.realNameToggle = arg_3_0:findTF("info/real_name")
+	arg_3_0.realNameToggle = arg_3_0._tf:Find("info/real_name")
 
 	onToggle(arg_3_0, arg_3_0.realNameToggle, function(arg_6_0)
 		arg_3_0.isRealName = arg_6_0
@@ -93,8 +91,8 @@ function var_0_0.initRivalInfo(arg_8_0)
 
 		var_12_0.localScale = Vector3(1.1, 1.1, 1)
 
-		setActive(arg_8_0:findTF("content", var_12_0), arg_12_3 ~= nil)
-		setActive(arg_8_0:findTF("empty", var_12_0), arg_12_3 == nil)
+		setActive(var_12_0:Find("content"), arg_12_3 ~= nil)
+		setActive(var_12_0:Find("empty"), arg_12_3 == nil)
 
 		if arg_12_3 then
 			var_8_4(var_12_0, arg_12_3)
@@ -105,24 +103,24 @@ function var_0_0.initRivalInfo(arg_8_0)
 		end
 	end
 
-	local var_8_6 = arg_8_0:findTF("ships_container/ships/main", arg_8_0._tf)
+	local var_8_6 = arg_8_0._tf:Find("ships_container/ships/main")
 	local var_8_7 = #arg_8_0.rivalVO.mainShips
 
 	for iter_8_0 = 1, 3 do
 		var_8_5(var_8_7, iter_8_0, var_8_6, arg_8_0.rivalVO.mainShips[iter_8_0])
 	end
 
-	local var_8_8 = arg_8_0:findTF("ships_container/ships/vanguard", arg_8_0._tf)
+	local var_8_8 = arg_8_0._tf:Find("ships_container/ships/vanguard")
 	local var_8_9 = #arg_8_0.rivalVO.vanguardShips
 
 	for iter_8_1 = 1, 3 do
 		var_8_5(var_8_9, iter_8_1, var_8_8, arg_8_0.rivalVO.vanguardShips[iter_8_1])
 	end
 
-	local var_8_10 = arg_8_0:findTF("ships_container/main_comprehensive", arg_8_0._tf)
-	local var_8_11 = arg_8_0:findTF("ships_container/vanguard_comprehensive", arg_8_0._tf)
-	local var_8_12 = arg_8_0:findTF("ships_container/main_comprehensive/Text", arg_8_0._tf)
-	local var_8_13 = arg_8_0:findTF("ships_container/vanguard_comprehensive/Text", arg_8_0._tf)
+	local var_8_10 = arg_8_0._tf:Find("ships_container/main_comprehensive")
+	local var_8_11 = arg_8_0._tf:Find("ships_container/vanguard_comprehensive")
+	local var_8_12 = arg_8_0._tf:Find("ships_container/main_comprehensive/Text")
+	local var_8_13 = arg_8_0._tf:Find("ships_container/vanguard_comprehensive/Text")
 	local var_8_14 = arg_8_0.rivalVO:GetGearScoreSum(TeamType.Main)
 	local var_8_15 = arg_8_0.rivalVO:GetGearScoreSum(TeamType.Vanguard)
 
@@ -138,7 +136,7 @@ function var_0_0.initRivalInfo(arg_8_0)
 end
 
 function var_0_0.willExit(arg_16_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_16_0._tf, pg.UIMgr.GetInstance().UIMain)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_16_0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 
 return var_0_0

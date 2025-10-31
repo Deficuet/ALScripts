@@ -7,9 +7,9 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.icon = arg_2_0:findTF("icon")
-	arg_2_0.iconRaw = arg_2_0:findTF("icon_raw"):GetComponent(typeof(RawImage))
-	arg_2_0.inputTr = arg_2_0:findTF("input")
+	arg_2_0.icon = arg_2_0._tf:Find("icon")
+	arg_2_0.iconRaw = arg_2_0._tf:Find("icon_raw"):GetComponent(typeof(RawImage))
+	arg_2_0.inputTr = arg_2_0._tf:Find("input")
 end
 
 function var_0_0.OnInit(arg_3_0)

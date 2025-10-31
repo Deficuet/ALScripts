@@ -10,13 +10,13 @@ function var_0_0.OnFirstFlush(arg_1_0)
 		})
 	end, SFX_PANEL)
 
-	arg_1_0.step = arg_1_0:findTF("AD/switcher/phase2/background/step")
-	arg_1_0.progress = arg_1_0:findTF("AD/switcher/phase2/background/progress")
-	arg_1_0.switchBtn = arg_1_0:findTF("AD/switcher/switch_btn")
-	arg_1_0.bar = arg_1_0:findTF("AD/switcher/phase2/background/barContent/bar")
+	arg_1_0.step = arg_1_0._tf:Find("AD/switcher/phase2/background/step")
+	arg_1_0.progress = arg_1_0._tf:Find("AD/switcher/phase2/background/progress")
+	arg_1_0.switchBtn = arg_1_0._tf:Find("AD/switcher/switch_btn")
+	arg_1_0.bar = arg_1_0._tf:Find("AD/switcher/phase2/background/barContent/bar")
 	arg_1_0.phases = {
-		arg_1_0:findTF("AD/switcher/phase1"),
-		arg_1_0:findTF("AD/switcher/phase2")
+		arg_1_0._tf:Find("AD/switcher/phase1"),
+		arg_1_0._tf:Find("AD/switcher/phase2")
 	}
 	arg_1_0.inPhase2 = false
 
@@ -65,7 +65,7 @@ function var_0_0.Switch(arg_4_0, arg_4_1)
 end
 
 function var_0_0.UpdateAwardGot(arg_8_0)
-	local var_8_0 = arg_8_0:findTF("switcher/phase2/background/got", arg_8_0.bg)
+	local var_8_0 = arg_8_0.bg:Find("switcher/phase2/background/got")
 	local var_8_1 = not arg_8_0.ptData:CanGetNextAward() and arg_8_0.inPhase2
 
 	setActive(var_8_0, var_8_1)

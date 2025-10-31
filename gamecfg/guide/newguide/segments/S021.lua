@@ -59,7 +59,7 @@ return {
 				text = var_0_0[3]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_3/tip",
+				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/adapt/GridFrame/vanguard_3/tip",
 				pathIndex = -1,
 				triggerType = {
 					1

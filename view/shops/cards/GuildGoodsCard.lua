@@ -38,6 +38,7 @@ function var_0_0.Init(arg_3_0)
 
 	setImageSprite(arg_3_0.itemIconBgTF, GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(var_3_2)))
 	setImageColor(arg_3_0.itemIconFrameTF, Color.NewHex(ItemRarity.Rarity2FrameHexColor(var_3_2)))
+	setActive(arg_3_0.groupLocked, not arg_3_0.goodsVO:Selectable() and arg_3_0.itemTF:Find("group_locked").gameObject.activeSelf)
 end
 
 function var_0_0.OnDispose(arg_4_0)

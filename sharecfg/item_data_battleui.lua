@@ -133,6 +133,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[109] = {
+		key = "SkinNormal_20250925",
+		name = "Ink and Bamboo",
+		desc = "An interface in the style of an ink painting. Ink brushstrokes unfold between black and white, whilst the bamboo seems to sway in the wind, creating an elegant atmosphere.",
+		display_icon = "ui_109",
+		is_unlock = 1,
+		rare = 3,
+		unlock = "Cruise Missions S25",
+		id = 109,
+		icon = "109",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		key = "SkinNormal_20241209",
 		name = "Christmas",
@@ -201,6 +216,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[205] = {
+		key = "SkinElite_20250912",
+		name = "Ninja Castle",
+		desc = "For the Commander who just can't get enough of ninjas. Take your shuriken and kunai and wreak some havoc in the ninja castle!",
+		display_icon = "ui_205",
+		is_unlock = 1,
+		rare = 4,
+		unlock = "Buy the Battle UI Pack - Ninja Castle",
+		id = 205,
+		icon = "205",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -211,9 +243,11 @@ pg.item_data_battleui = {
 		106,
 		107,
 		108,
+		109,
 		201,
 		202,
 		203,
-		204
+		204,
+		205
 	}
 }

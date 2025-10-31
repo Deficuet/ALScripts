@@ -27,10 +27,10 @@ function var_0_0.SetActivity(arg_5_0, arg_5_1)
 end
 
 function var_0_0.didEnter(arg_6_0)
-	onButton(arg_6_0, arg_6_0:findTF("BG"), function()
+	onButton(arg_6_0, arg_6_0._tf:Find("BG"), function()
 		arg_6_0:HideCompositeConfirmWindow()
 	end, SFX_CANCEL)
-	onButton(arg_6_0, arg_6_0:findTF("Window/Cancel"), function()
+	onButton(arg_6_0, arg_6_0._tf:Find("Window/Cancel"), function()
 		arg_6_0:HideCompositeConfirmWindow()
 	end, SFX_CANCEL)
 end
@@ -56,7 +56,7 @@ function var_0_0.ShowCompositeConfirmWindow(arg_9_0, arg_9_1)
 
 		var_9_2[var_10_0] = (var_9_2[var_10_0] or 0) + 1
 	end)
-	onButton(arg_9_0, arg_9_0:findTF("Window/Confirm"), function()
+	onButton(arg_9_0, arg_9_0._tf:Find("Window/Confirm"), function()
 		arg_9_0._parentClass:emit(GAME.COMPOSITE_ATELIER_RECIPE, var_9_1, var_9_0)
 		arg_9_0._parentClass:PlaySoundEffect(arg_9_0._parentClass.soundStr.compositeConfirm)
 	end, SFX_PANEL)
@@ -82,25 +82,25 @@ function var_0_0.ShowCompositeConfirmWindow(arg_9_0, arg_9_1)
 		id = var_9_3:GetProduction()[2]
 	})
 
-	arg_9_0._parentClass:UpdateRyzaDrop(arg_9_0:findTF("Window/Icon"), var_9_10)
+	arg_9_0._parentClass:UpdateRyzaDrop(arg_9_0._tf:Find("Window/Icon"), var_9_10)
 
-	local var_9_11 = arg_9_0:findTF("Window/Counters")
+	local var_9_11 = arg_9_0._tf:Find("Window/Counters")
 	local var_9_12 = var_9_10:getConfig("name")
 
 	setActive(var_9_11, var_9_4)
 
 	if var_9_4 then
-		setAnchoredPosition(arg_9_0:findTF("Window/Icon"), {
+		setAnchoredPosition(arg_9_0._tf:Find("Window/Icon"), {
 			y = var_0_1
 		})
 
 		local function var_9_13()
-			setText(arg_9_0:findTF("Number", var_9_11), var_9_0)
-			setText(arg_9_0:findTF("Window/Text"), i18n("ryza_composite_confirm", var_9_12, var_9_0))
+			setText(var_9_11:Find("Number"), var_9_0)
+			setText(arg_9_0._tf:Find("Window/Text"), i18n("ryza_composite_confirm", var_9_12, var_9_0))
 		end
 
 		var_9_13()
-		onButton(arg_9_0, arg_9_0:findTF("Plus", var_9_11), function()
+		onButton(arg_9_0, var_9_11:Find("Plus"), function()
 			local var_13_0 = var_9_0
 
 			var_9_0 = var_9_0 + 1
@@ -114,13 +114,13 @@ function var_0_0.ShowCompositeConfirmWindow(arg_9_0, arg_9_1)
 
 			var_9_13()
 		end)
-		onButton(arg_9_0, arg_9_0:findTF("Minus", var_9_11), function()
+		onButton(arg_9_0, var_9_11:Find("Minus"), function()
 			var_9_0 = var_9_0 - 1
 			var_9_0 = math.clamp(var_9_0, var_9_9[1], var_9_9[2])
 
 			var_9_13()
 		end)
-		onButton(arg_9_0, arg_9_0:findTF("Plus10", var_9_11), function()
+		onButton(arg_9_0, var_9_11:Find("Plus10"), function()
 			local var_15_0 = var_9_0
 
 			var_9_0 = var_9_0 + 10
@@ -134,17 +134,17 @@ function var_0_0.ShowCompositeConfirmWindow(arg_9_0, arg_9_1)
 
 			var_9_13()
 		end)
-		onButton(arg_9_0, arg_9_0:findTF("Minus10", var_9_11), function()
+		onButton(arg_9_0, var_9_11:Find("Minus10"), function()
 			var_9_0 = var_9_0 - 10
 			var_9_0 = math.clamp(var_9_0, var_9_9[1], var_9_9[2])
 
 			var_9_13()
 		end)
 	else
-		setAnchoredPosition(arg_9_0:findTF("Window/Icon"), {
+		setAnchoredPosition(arg_9_0._tf:Find("Window/Icon"), {
 			y = var_0_2
 		})
-		setText(arg_9_0:findTF("Window/Text"), i18n("ryza_composite_confirm_single", var_9_12, var_9_0))
+		setText(arg_9_0._tf:Find("Window/Text"), i18n("ryza_composite_confirm_single", var_9_12, var_9_0))
 	end
 end
 
@@ -153,7 +153,7 @@ function var_0_0.HideCompositeConfirmWindow(arg_17_0)
 		return
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_17_0._tf, arg_17_0._parentClass._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_17_0._tf, arg_17_0._parentClass._tf)
 	setActive(arg_17_0._go, false)
 
 	return true

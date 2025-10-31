@@ -35,7 +35,7 @@ end
 function var_0_0.Hide(arg_7_0)
 	LeanTween.cancel(go(arg_7_0.rtFrame))
 	setActive(arg_7_0._tf, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_7_0._tf, arg_7_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0._tf, arg_7_0._parentTf)
 	arg_7_0:emit(var_0_0.HideView, arg_7_0.callback)
 end
 

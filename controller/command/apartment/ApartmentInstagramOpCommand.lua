@@ -91,9 +91,7 @@ function var_0_0.HandleShare(arg_9_0, arg_9_1, arg_9_2)
 		}
 	}, 28027, function(arg_10_0)
 		if arg_10_0.result == 0 then
-			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeInstagram, nil, {
-				weight = LayerWeightConst.TOP_LAYER
-			})
+			pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeInstagram)
 			arg_9_0:sendNotification(GAME.APARTMENT_INS_OP_DONE, {
 				op = arg_9_2.op
 			})

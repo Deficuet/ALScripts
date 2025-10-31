@@ -27,20 +27,23 @@ function var_0_0.back(arg_6_0)
 end
 
 function var_0_0.init(arg_7_0)
-	arg_7_0.shareBtn = arg_7_0:findTF("select_skin/share_btn")
+	arg_7_0.shareBtn = arg_7_0._tf:Find("select_skin/share_btn")
+
+	arg_7_0:BlurPanel(arg_7_0._tf)
 end
 
 function var_0_0.didEnter(arg_8_0)
 	arg_8_0:initSelectSkinPanel()
 	triggerToggle(arg_8_0.shareBtn, false)
 	setActive(arg_8_0.shareBtn, #arg_8_0.shareSkins > 0)
+	setText(findTF(arg_8_0._tf, "select_skin/title/Text"), i18n("dorm3d_clothing_choose"))
 end
 
 function var_0_0.initSelectSkinPanel(arg_9_0)
 	arg_9_0.skinPanel = arg_9_0._tf
 
-	local var_9_0 = arg_9_0:findTF("select_skin/btnBack", arg_9_0.skinPanel)
-	local var_9_1 = arg_9_0:findTF("print", arg_9_0.skinPanel)
+	local var_9_0 = arg_9_0.skinPanel:Find("select_skin/btnBack")
+	local var_9_1 = arg_9_0.skinPanel:Find("print")
 
 	onButton(arg_9_0, var_9_0, function()
 		arg_9_0:back()
@@ -56,8 +59,8 @@ function var_0_0.initSelectSkinPanel(arg_9_0)
 		end
 	end, SFX_PANEL)
 
-	arg_9_0.skinScroll = arg_9_0:findTF("select_skin/style_scroll", arg_9_0.skinPanel)
-	arg_9_0.skinContainer = arg_9_0:findTF("view_port", arg_9_0.skinScroll)
+	arg_9_0.skinScroll = arg_9_0.skinPanel:Find("select_skin/style_scroll")
+	arg_9_0.skinContainer = arg_9_0.skinScroll:Find("view_port")
 	arg_9_0.skinCard = arg_9_0._go:GetComponent(typeof(ItemList)).prefabItem[0]
 
 	setActive(arg_9_0.skinCard, false)
@@ -168,6 +171,8 @@ function var_0_0.willExit(arg_20_0)
 	for iter_20_0, iter_20_1 in pairs(arg_20_0.skinCardMap) do
 		iter_20_1:clear()
 	end
+
+	arg_20_0:UnOverlayPanel(arg_20_0._tf)
 end
 
 return var_0_0

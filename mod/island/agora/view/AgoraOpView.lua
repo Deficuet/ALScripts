@@ -6,10 +6,11 @@ end
 
 function var_0_0.OnInit(arg_2_0, arg_2_1)
 	var_0_0.super.OnInit(arg_2_0, arg_2_1)
+	arg_2_0.opUI:SetAsFirstSibling()
 
 	arg_2_0.agoraPanel = arg_2_0._tf:Find("agora_op_btns")
-	arg_2_0.lookBtn = arg_2_0._tf:Find("look")
-	arg_2_0.moveBtn = arg_2_0._tf:Find("move")
+	arg_2_0.lookBtn = arg_2_0.opUI:Find("look")
+	arg_2_0.moveBtn = arg_2_0.opUI:Find("move")
 	arg_2_0.agoraMoveBtn = arg_2_0.agoraPanel:Find("move")
 	arg_2_0.agoraMoveDirTr = arg_2_0._tf:Find("agora_op_btns/move/Area/dir")
 	arg_2_0.dragBtn = arg_2_0.agoraPanel:Find("drag")
@@ -18,6 +19,9 @@ function var_0_0.OnInit(arg_2_0, arg_2_1)
 	arg_2_0.rotationBtn = arg_2_0.dragBtn:Find("rotation")
 	arg_2_0.signInTip = arg_2_0._tf:Find("adapt/signIn_tip")
 	arg_2_0.isDraging = false
+
+	arg_2_0:ShowOrHideGameObject(arg_2_0.agoraPanel, false)
+
 	arg_2_0.animator = arg_2_0.agoraPanel:GetComponent(typeof(Animation))
 	arg_2_0.dftAniEvent = arg_2_0.agoraPanel:GetComponent(typeof(DftAniEvent))
 
@@ -53,206 +57,204 @@ function var_0_0.UpdateSignInTip(arg_6_0)
 	end
 end
 
-function var_0_0.ActiveDragBtn(arg_7_0, arg_7_1)
-	arg_7_0.dftAniEvent:SetEndEvent(nil)
-	arg_7_0:UpdateDragPosition(arg_7_1)
-
-	arg_7_0.activeMould = arg_7_1
-
-	arg_7_0.animator:Stop()
-	arg_7_0.dftAniEvent:SetEndEvent(function()
-		arg_7_0.dftAniEvent:SetEndEvent(nil)
-		arg_7_0:AddDraglistener(arg_7_1)
-	end)
-	arg_7_0.animator:Play("anim_IslandAgoraOpUI_Agora_In")
+function var_0_0.ShowMoveBtn(arg_7_0, arg_7_1)
+	arg_7_0:ShowOrHideGameObject(arg_7_0.agoraPanel, arg_7_1)
 end
 
-function var_0_0.InActiveDragBtn(arg_9_0)
-	arg_9_0.activeMould = nil
-	arg_9_0.isDraging = false
+function var_0_0.ActiveDragBtn(arg_8_0, arg_8_1)
+	arg_8_0.dftAniEvent:SetEndEvent(nil)
+	arg_8_0:UpdateDragPosition(arg_8_1)
 
-	arg_9_0.animator:Stop()
-	arg_9_0.dftAniEvent:SetEndEvent(nil)
-	arg_9_0.dftAniEvent:SetEndEvent(function()
-		arg_9_0.dftAniEvent:SetEndEvent(nil)
-		arg_9_0:RemoveDraglistener()
+	arg_8_0.activeMould = arg_8_1
 
-		arg_9_0.dragBtn.localPosition = Vector3(10000, 10000, 0)
+	arg_8_0.animator:Stop()
+	arg_8_0.dftAniEvent:SetEndEvent(function()
+		arg_8_0.dftAniEvent:SetEndEvent(nil)
+		arg_8_0:AddDraglistener(arg_8_1)
 	end)
-	arg_9_0.animator:Play("anim_IslandAgoraOpUI_Agora_Out")
+	arg_8_0.animator:Play("anim_IslandAgoraOpUI_Agora_In")
 end
 
-function var_0_0.UpdateDragPosition(arg_11_0, arg_11_1)
-	local var_11_0 = arg_11_1.root.position
-	local var_11_1 = AgoraCalc.WorldPosition2ScreenPosition(var_11_0)
-	local var_11_2 = AgoraCalc.ScreenPosition2LocalPosition(arg_11_0.dragBtn.parent, var_11_1)
+function var_0_0.InActiveDragBtn(arg_10_0)
+	arg_10_0.activeMould = nil
+	arg_10_0.isDraging = false
 
-	arg_11_0.dragBtn.localPosition = var_11_2
+	arg_10_0.animator:Stop()
+	removeOnButton(arg_10_0.confirmBtn)
+	removeOnButton(arg_10_0.removeBtn)
+	removeOnButton(arg_10_0.rotationBtn)
+	arg_10_0.dftAniEvent:SetEndEvent(nil)
+	arg_10_0.dftAniEvent:SetEndEvent(function()
+		arg_10_0.dftAniEvent:SetEndEvent(nil)
+		arg_10_0:RemoveDraglistener()
+
+		arg_10_0.dragBtn.localPosition = Vector3(10000, 10000, 0)
+	end)
+	arg_10_0.animator:Play("anim_IslandAgoraOpUI_Agora_Out")
 end
 
-function var_0_0.AddDraglistener(arg_12_0, arg_12_1)
-	local var_12_0 = GetOrAddComponent(arg_12_0.dragBtn, typeof(EventTriggerListener))
+function var_0_0.UpdateDragPosition(arg_12_0, arg_12_1)
+	local var_12_0 = arg_12_1.root.position
+	local var_12_1 = AgoraCalc.WorldPosition2ScreenPosition(var_12_0)
+	local var_12_2 = AgoraCalc.ScreenPosition2LocalPosition(arg_12_0.dragBtn.parent, var_12_1)
 
-	var_12_0:AddBeginDragFunc(function(arg_13_0, arg_13_1)
-		arg_12_0.isDraging = true
+	arg_12_0.dragBtn.localPosition = var_12_2
+end
 
-		arg_12_0:Op("BeginDragItem")
+function var_0_0.AddDraglistener(arg_13_0, arg_13_1)
+	local var_13_0 = GetOrAddComponent(arg_13_0.dragBtn, typeof(EventTriggerListener))
+
+	var_13_0:AddBeginDragFunc(function(arg_14_0, arg_14_1)
+		arg_13_0.isDraging = true
+
+		arg_13_0:Op("BeginDragItem")
 	end)
-	var_12_0:AddDragFunc(function(arg_14_0, arg_14_1)
-		local var_14_0 = AgoraCalc.ScreenPostion2MapPosition(arg_14_1.position)
-
-		arg_12_0:Op("DragItem", var_14_0)
-		arg_12_0:UpdateDragPosition(arg_12_1)
-	end)
-	var_12_0:AddDragEndFunc(function(arg_15_0, arg_15_1)
+	var_13_0:AddDragFunc(function(arg_15_0, arg_15_1)
 		local var_15_0 = AgoraCalc.ScreenPostion2MapPosition(arg_15_1.position)
 
-		arg_12_0:Op("EndDragItem", var_15_0)
-		arg_12_0:UpdateDragPosition(arg_12_1)
-
-		arg_12_0.isDraging = false
+		arg_13_0:Op("DragItem", var_15_0)
+		arg_13_0:UpdateDragPosition(arg_13_1)
 	end)
-	onButton(arg_12_0, arg_12_0.confirmBtn, function()
-		arg_12_0:Op("ConfirmSelectedItem")
+	var_13_0:AddDragEndFunc(function(arg_16_0, arg_16_1)
+		local var_16_0 = AgoraCalc.ScreenPostion2MapPosition(arg_16_1.position)
+
+		arg_13_0:Op("EndDragItem", var_16_0)
+		arg_13_0:UpdateDragPosition(arg_13_1)
+
+		arg_13_0.isDraging = false
+	end)
+	onButton(arg_13_0, arg_13_0.confirmBtn, function()
+		arg_13_0:Op("ConfirmSelectedItem")
 	end, SFX_PANEL)
-	onButton(arg_12_0, arg_12_0.removeBtn, function()
-		arg_12_0:Op("RemovePlaceItem")
+	onButton(arg_13_0, arg_13_0.removeBtn, function()
+		arg_13_0:Op("RemovePlaceItem")
 	end, SFX_PANEL)
-	onButton(arg_12_0, arg_12_0.rotationBtn, function()
-		arg_12_0:Op("RotationItem")
+	onButton(arg_13_0, arg_13_0.rotationBtn, function()
+		arg_13_0:Op("RotationItem")
 	end, SFX_PANEL)
 end
 
-function var_0_0.RemoveDraglistener(arg_19_0)
-	local var_19_0 = GetOrAddComponent(arg_19_0.dragBtn, typeof(EventTriggerListener))
+function var_0_0.RemoveDraglistener(arg_20_0)
+	local var_20_0 = GetOrAddComponent(arg_20_0.dragBtn, typeof(EventTriggerListener))
 
-	var_19_0:AddBeginDragFunc(nil)
-	var_19_0:AddDragFunc(nil)
-	var_19_0:AddDragEndFunc(nil)
-	removeOnButton(arg_19_0.confirmBtn)
-	removeOnButton(arg_19_0.removeBtn)
-	removeOnButton(arg_19_0.removeBtn)
+	var_20_0:AddBeginDragFunc(nil)
+	var_20_0:AddDragFunc(nil)
+	var_20_0:AddDragEndFunc(nil)
+	removeOnButton(arg_20_0.confirmBtn)
+	removeOnButton(arg_20_0.removeBtn)
 end
 
-function var_0_0.EnterMode(arg_20_0, arg_20_1)
-	if arg_20_1 == AgoraView.MODE_OVERVIEW then
-		setActive(arg_20_0.moveBtn, true)
-		setActive(arg_20_0.agoraMoveBtn, false)
-		arg_20_0:TryEnablePlayerOp()
-		arg_20_0.inputController:ActivePlayerActionMap(IslandConst.PLAYER_INPUT_INDEX)
-		arg_20_0:RemoveEditModeListener()
-	elseif arg_20_1 == AgoraView.MODE_EDIT then
-		setActive(arg_20_0.moveBtn, false)
-		setActive(arg_20_0.agoraMoveBtn, true)
+function var_0_0.EnterMode(arg_21_0, arg_21_1)
+	if arg_21_1 == AgoraView.MODE_OVERVIEW then
+		arg_21_0:ShowOrHideGameObject(arg_21_0.moveBtn, true)
+		arg_21_0:ShowOrHideGameObject(arg_21_0.agoraPanel, false)
+		arg_21_0:TryEnablePlayerOp()
+		arg_21_0.inputController:ActivePlayerActionMap(IslandConst.PLAYER_INPUT_INDEX)
+		arg_21_0:RemoveEditModeListener()
+	elseif arg_21_1 == AgoraView.MODE_EDIT then
+		arg_21_0:ShowOrHideGameObject(arg_21_0.moveBtn, false)
+		arg_21_0:ShowOrHideGameObject(arg_21_0.agoraPanel, true)
 
-		if not arg_20_0.mode or arg_20_0.mode == AgoraView.MODE_OVERVIEW then
-			arg_20_0:TryDisablePlayerOp()
+		if not arg_21_0.mode or arg_21_0.mode == AgoraView.MODE_OVERVIEW then
+			arg_21_0:TryDisablePlayerOp()
 		end
 
-		arg_20_0.inputController:ActivePlayerActionMap(IslandConst.AGORA_INPUT_INDEX)
-		arg_20_0.inputController:EnableAgoraLook()
-		arg_20_0:RemovePaveTileModeListener()
-		arg_20_0:AddEditModeListener()
-	elseif arg_20_1 == AgoraView.MODE_PAVE_TILE then
-		arg_20_0.inputController:DisableAgoraLook()
-		arg_20_0:RemoveEditModeListener()
-		arg_20_0:AddPaveTileModeListener()
+		arg_21_0.inputController:ActivePlayerActionMap(IslandConst.AGORA_INPUT_INDEX)
+		arg_21_0.inputController:EnableAgoraLook()
+		arg_21_0:RemovePaveTileModeListener()
+		arg_21_0:AddEditModeListener()
+	elseif arg_21_1 == AgoraView.MODE_PAVE_TILE then
+		arg_21_0.inputController:DisableAgoraLook()
+		arg_21_0:RemoveEditModeListener()
+		arg_21_0:AddPaveTileModeListener()
 	end
 
-	arg_20_0.mode = arg_20_1
+	arg_21_0.mode = arg_21_1
 end
 
-function var_0_0.StartInteraction(arg_21_0)
-	arg_21_0.super.StartInteraction(arg_21_0)
-	setActive(arg_21_0.agoraPanel, false)
-end
+function var_0_0.OnEditModeClick(arg_22_0, arg_22_1)
+	local var_22_0 = IslandHelper.Raycast4Agora(arg_22_1, IslandConst.UNIT_LIST_AGORA, IslandConst.LAYER_WORLDMAP3D)
 
-function var_0_0.EndInteraction(arg_22_0)
-	arg_22_0.super.EndInteraction(arg_22_0)
-	setActive(arg_22_0.agoraPanel, true)
-end
-
-function var_0_0.OnEditModeClick(arg_23_0, arg_23_1)
-	local var_23_0 = AgoraCalc.ScreenPostion2MapPosition(arg_23_1)
-
-	arg_23_0:Op("TrySelectItem", var_23_0)
-end
-
-function var_0_0.AddEditModeListener(arg_24_0)
-	local var_24_0 = GetOrAddComponent(arg_24_0.lookBtn, typeof(EventTriggerListener))
-	local var_24_1
-
-	var_24_0:AddPointDownFunc(function(arg_25_0, arg_25_1)
-		var_24_1 = arg_25_1.position
-	end)
-	var_24_0:AddPointUpFunc(function(arg_26_0, arg_26_1)
-		if not var_24_1 or var_24_1 ~= arg_26_1.position then
-			return
-		end
-
-		arg_24_0:OnEditModeClick(arg_26_1.position)
-
-		var_24_1 = nil
-	end)
-end
-
-function var_0_0.RemoveEditModeListener(arg_27_0)
-	local var_27_0 = arg_27_0.lookBtn:GetComponent(typeof(EventTriggerListener))
-
-	if var_27_0 then
-		var_27_0:AddPointDownFunc(nil)
-		var_27_0:AddPointUpFunc(nil)
+	if var_22_0 > 0 then
+		arg_22_0:Op("TrySelectItemById", var_22_0)
 	end
 end
 
-function var_0_0.AddPaveTileModeListener(arg_28_0)
-	local var_28_0 = GetOrAddComponent(arg_28_0.lookBtn, typeof(EventTriggerListener))
-	local var_28_1
+function var_0_0.AddEditModeListener(arg_23_0)
+	local var_23_0 = GetOrAddComponent(arg_23_0.lookBtn, typeof(EventTriggerListener))
+	local var_23_1
 
-	var_28_0:AddPointDownFunc(function(arg_29_0, arg_29_1)
-		var_28_1 = arg_29_1.position
+	var_23_0:AddPointDownFunc(function(arg_24_0, arg_24_1)
+		var_23_1 = arg_24_1.position
 	end)
-	var_28_0:AddPointUpFunc(function(arg_30_0, arg_30_1)
-		if not var_28_1 or var_28_1 ~= arg_30_1.position then
+	var_23_0:AddPointUpFunc(function(arg_25_0, arg_25_1)
+		if not var_23_1 or var_23_1 ~= arg_25_1.position then
 			return
 		end
 
-		local var_30_0 = AgoraCalc.ScreenPostion2MapPosition(arg_30_1.position)
+		arg_23_0:OnEditModeClick(arg_25_1.position)
 
-		arg_28_0:Op("OpLayer", var_30_0)
-
-		local var_30_1
+		var_23_1 = nil
 	end)
-	var_28_0:AddBeginDragFunc(function(arg_31_0, arg_31_1)
+end
+
+function var_0_0.RemoveEditModeListener(arg_26_0)
+	local var_26_0 = arg_26_0.lookBtn:GetComponent(typeof(EventTriggerListener))
+
+	if var_26_0 then
+		var_26_0:AddPointDownFunc(nil)
+		var_26_0:AddPointUpFunc(nil)
+	end
+end
+
+function var_0_0.AddPaveTileModeListener(arg_27_0)
+	local var_27_0 = GetOrAddComponent(arg_27_0.lookBtn, typeof(EventTriggerListener))
+	local var_27_1
+
+	var_27_0:AddPointDownFunc(function(arg_28_0, arg_28_1)
+		var_27_1 = arg_28_1.position
+	end)
+	var_27_0:AddPointUpFunc(function(arg_29_0, arg_29_1)
+		if not var_27_1 or var_27_1 ~= arg_29_1.position then
+			return
+		end
+
+		local var_29_0 = AgoraCalc.ScreenPostion2MapPosition(arg_29_1.position)
+
+		arg_27_0:Op("OpLayer", var_29_0)
+
+		local var_29_1
+	end)
+	var_27_0:AddBeginDragFunc(function(arg_30_0, arg_30_1)
 		return
 	end)
-	var_28_0:AddDragFunc(function(arg_32_0, arg_32_1)
-		local var_32_0 = AgoraCalc.ScreenPostion2MapPosition(arg_32_1.position)
+	var_27_0:AddDragFunc(function(arg_31_0, arg_31_1)
+		local var_31_0 = AgoraCalc.ScreenPostion2MapPosition(arg_31_1.position)
 
-		arg_28_0:Op("OpLayer", var_32_0)
+		arg_27_0:Op("OpLayer", var_31_0)
 	end)
-	var_28_0:AddDragEndFunc(function(arg_33_0, arg_33_1)
+	var_27_0:AddDragEndFunc(function(arg_32_0, arg_32_1)
 		return
 	end)
 end
 
-function var_0_0.RemovePaveTileModeListener(arg_34_0)
-	local var_34_0 = arg_34_0.lookBtn:GetComponent(typeof(EventTriggerListener))
+function var_0_0.RemovePaveTileModeListener(arg_33_0)
+	local var_33_0 = arg_33_0.lookBtn:GetComponent(typeof(EventTriggerListener))
 
-	if var_34_0 then
-		var_34_0:AddPointDownFunc(nil)
-		var_34_0:AddPointUpFunc(nil)
-		var_34_0:AddBeginDragFunc(nil)
-		var_34_0:AddDragFunc(nil)
-		var_34_0:AddDragEndFunc(nil)
+	if var_33_0 then
+		var_33_0:AddPointDownFunc(nil)
+		var_33_0:AddPointUpFunc(nil)
+		var_33_0:AddBeginDragFunc(nil)
+		var_33_0:AddDragFunc(nil)
+		var_33_0:AddDragEndFunc(nil)
 	end
 end
 
-function var_0_0.OnDestroy(arg_35_0)
-	var_0_0.super.OnDestroy(arg_35_0)
-	arg_35_0:RemovePaveTileModeListener()
-	arg_35_0:RemoveDraglistener()
-	arg_35_0.dftAniEvent:SetEndEvent(nil)
+function var_0_0.OnDestroy(arg_34_0)
+	var_0_0.super.OnDestroy(arg_34_0)
+	arg_34_0:RemovePaveTileModeListener()
+	arg_34_0:RemoveDraglistener()
+	arg_34_0.dftAniEvent:SetEndEvent(nil)
 end
 
 return var_0_0

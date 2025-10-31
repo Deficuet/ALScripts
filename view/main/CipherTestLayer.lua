@@ -5,9 +5,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.nextBtn = arg_2_0:findTF("Next")
-	arg_2_0.gcBtn = arg_2_0:findTF("GC")
-	arg_2_0.live2dContainer = arg_2_0:findTF("Painting/Live2D")
+	arg_2_0.nextBtn = arg_2_0._tf:Find("Next")
+	arg_2_0.gcBtn = arg_2_0._tf:Find("GC")
+	arg_2_0.live2dContainer = arg_2_0._tf:Find("Painting/Live2D")
 	arg_2_0.l2dList = arg_2_0:GetL2DList()
 	arg_2_0.curIndex = 0
 	arg_2_0.live2dChar = nil

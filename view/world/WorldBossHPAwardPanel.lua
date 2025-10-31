@@ -11,14 +11,14 @@ function var_0_0.getUIName(arg_2_0)
 end
 
 function var_0_0.OnInit(arg_3_0)
-	setText(arg_3_0:findTF("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
+	setText(arg_3_0._tf:Find("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
 
-	arg_3_0.itemList = arg_3_0:findTF("window/panel/viewport/list")
+	arg_3_0.itemList = arg_3_0._tf:Find("window/panel/viewport/list")
 
-	onButton(arg_3_0, arg_3_0:findTF("window/top/btnBack"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("window/top/btnBack"), function()
 		arg_3_0:Hide()
 	end, SFX_CANCEL)
-	onButton(arg_3_0, arg_3_0:findTF("bg_dark"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("bg_dark"), function()
 		arg_3_0:Hide()
 	end)
 	arg_3_0.buffer:SetNotifier(arg_3_0)
@@ -31,7 +31,7 @@ function var_0_0.Show(arg_6_0)
 end
 
 function var_0_0.Hide(arg_7_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_7_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0._tf)
 	var_0_0.super.Hide(arg_7_0)
 end
 

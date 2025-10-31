@@ -87,8 +87,7 @@ function var_0_1.LimitedOperation(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
 			mode = SecondaryPasswordLayer.InputView,
 			type = arg_3_1,
 			info = arg_3_2,
-			callback = arg_3_3,
-			LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
+			callback = arg_3_3
 		}
 	})
 

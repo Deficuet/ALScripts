@@ -1975,6 +1975,111 @@ pg.player_resource = {
 		name = "masaina_pt",
 		itemid = 65674
 	},
+	[542] = {
+		id = 542,
+		name = "baifeng_hpt",
+		itemid = 65682
+	},
+	[543] = {
+		id = 543,
+		name = "baifeng_pt",
+		itemid = 65683
+	},
+	[544] = {
+		id = 544,
+		name = "union14_pt",
+		itemid = 65684
+	},
+	[545] = {
+		id = 545,
+		name = "ninja_pt",
+		itemid = 65103
+	},
+	[546] = {
+		id = 546,
+		name = "ninja_pt_2",
+		itemid = 65102
+	},
+	[547] = {
+		id = 547,
+		name = "activity_xunzhang10",
+		itemid = 65685
+	},
+	[548] = {
+		id = 548,
+		name = "limit_skinticket37",
+		itemid = 68115
+	},
+	[549] = {
+		id = 549,
+		name = "limit_skinticket38",
+		itemid = 68116
+	},
+	[550] = {
+		id = 550,
+		name = "limit_skinticket39",
+		itemid = 68117
+	},
+	[551] = {
+		id = 551,
+		name = "skinTicket98",
+		itemid = 65694
+	},
+	[552] = {
+		id = 552,
+		name = "limit_skinticket40",
+		itemid = 68124
+	},
+	[553] = {
+		id = 553,
+		name = "limit_skinticket41",
+		itemid = 68125
+	},
+	[554] = {
+		id = 554,
+		name = "limit_skinticket42",
+		itemid = 68126
+	},
+	[571] = {
+		id = 571,
+		name = "danmachi_pt",
+		itemid = 65711
+	},
+	[572] = {
+		id = 572,
+		name = "klms_pt_2",
+		itemid = 65713
+	},
+	[573] = {
+		id = 573,
+		name = "limit_skinticket43",
+		itemid = 68133
+	},
+	[574] = {
+		id = 574,
+		name = "limit_skinticket44",
+		itemid = 68134
+	},
+	[575] = {
+		id = 575,
+		name = "limit_skinticket45",
+		itemid = 68135
+	},
+	[576] = {
+		id = 576,
+		name = "skinTicket99",
+		itemid = 65721
+	},
+	[577] = {
+		id = 577,
+		name = "fengfanv3_pt",
+		itemid = 65695
+	},
+	[578] = {
+		id = 578,
+		name = "activity_xunzhang11",
+		itemid = 65722
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2369,6 +2474,11 @@ pg.player_resource = {
 		id = 4024,
 		name = "Battlepass_24",
 		itemid = 65101
+	},
+	[4025] = {
+		id = 4025,
+		name = "Battlepass_25",
+		itemid = 65106
 	},
 	[4186] = {
 		id = 4186,
@@ -3716,6 +3826,69 @@ pg.player_resource = {
 		masaina_pt = {
 			534
 		},
+		baifeng_hpt = {
+			542
+		},
+		baifeng_pt = {
+			543
+		},
+		union14_pt = {
+			544
+		},
+		ninja_pt = {
+			545
+		},
+		ninja_pt_2 = {
+			546
+		},
+		activity_xunzhang10 = {
+			547
+		},
+		limit_skinticket37 = {
+			548
+		},
+		limit_skinticket38 = {
+			549
+		},
+		limit_skinticket39 = {
+			550
+		},
+		skinTicket98 = {
+			551
+		},
+		limit_skinticket40 = {
+			552
+		},
+		limit_skinticket41 = {
+			553
+		},
+		limit_skinticket42 = {
+			554
+		},
+		danmachi_pt = {
+			571
+		},
+		klms_pt_2 = {
+			572
+		},
+		limit_skinticket43 = {
+			573
+		},
+		limit_skinticket44 = {
+			574
+		},
+		limit_skinticket45 = {
+			575
+		},
+		skinTicket99 = {
+			576
+		},
+		fengfanv3_pt = {
+			577
+		},
+		activity_xunzhang11 = {
+			578
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3952,6 +4125,9 @@ pg.player_resource = {
 		},
 		Battlepass_24 = {
 			4024
+		},
+		Battlepass_25 = {
+			4025
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -4446,6 +4622,27 @@ pg.player_resource = {
 		532,
 		533,
 		534,
+		542,
+		543,
+		544,
+		545,
+		546,
+		547,
+		548,
+		549,
+		550,
+		551,
+		552,
+		553,
+		554,
+		571,
+		572,
+		573,
+		574,
+		575,
+		576,
+		577,
+		578,
 		950,
 		951,
 		952,
@@ -4525,6 +4722,7 @@ pg.player_resource = {
 		4022,
 		4023,
 		4024,
+		4025,
 		4186,
 		4276,
 		4599,

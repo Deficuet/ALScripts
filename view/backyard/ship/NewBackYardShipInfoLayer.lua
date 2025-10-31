@@ -5,18 +5,18 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.descTxt = arg_2_0:findTF("frame/desc"):GetComponent(typeof(Text))
-	arg_2_0.counterTxt = arg_2_0:findTF("frame/top/value/Text"):GetComponent(typeof(Text))
-	arg_2_0.cardContainer = arg_2_0:findTF("frame/panel")
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/top/close")
-	arg_2_0.mainPanel = arg_2_0:findTF("frame")
+	arg_2_0.descTxt = arg_2_0._tf:Find("frame/desc"):GetComponent(typeof(Text))
+	arg_2_0.counterTxt = arg_2_0._tf:Find("frame/top/value/Text"):GetComponent(typeof(Text))
+	arg_2_0.cardContainer = arg_2_0._tf:Find("frame/panel")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/top/close")
+	arg_2_0.mainPanel = arg_2_0._tf:Find("frame")
 	arg_2_0.toggles = {
-		[Ship.STATE_REST] = arg_2_0:findTF("frame/top/rest"),
-		[Ship.STATE_TRAIN] = arg_2_0:findTF("frame/top/train")
+		[Ship.STATE_REST] = arg_2_0._tf:Find("frame/top/rest"),
+		[Ship.STATE_TRAIN] = arg_2_0._tf:Find("frame/top/train")
 	}
 	arg_2_0.animations = {
-		[Ship.STATE_REST] = arg_2_0:findTF("frame/top/rest"):GetComponent(typeof(Animation)),
-		[Ship.STATE_TRAIN] = arg_2_0:findTF("frame/top/train"):GetComponent(typeof(Animation))
+		[Ship.STATE_REST] = arg_2_0._tf:Find("frame/top/rest"):GetComponent(typeof(Animation)),
+		[Ship.STATE_TRAIN] = arg_2_0._tf:Find("frame/top/train"):GetComponent(typeof(Animation))
 	}
 	arg_2_0.animationName = {
 		[Ship.STATE_REST] = {
@@ -40,11 +40,11 @@ function var_0_0.init(arg_2_0)
 	table.insert(arg_2_0.cards[1], BackYardShipCard.New(arg_2_0.shipCardTpl, arg_2_0.event))
 	table.insert(arg_2_0.cards[2], BackYardEmptyCard.New(arg_2_0.addShipTpl, arg_2_0.event))
 	table.insert(arg_2_0.cards[3], BackYardExtendCard.New(arg_2_0.extendShipTpl, arg_2_0.event))
-	setText(arg_2_0:findTF("frame/desc1"), i18n("backyard_longpress_ship_tip"))
-	setText(arg_2_0:findTF("frame/top/rest/Text"), i18n("courtyard_label_rest"))
-	setText(arg_2_0:findTF("frame/top/train/Text"), i18n("courtyard_label_train"))
-	setText(arg_2_0:findTF("frame/top/rest/Text_un"), i18n("courtyard_label_rest"))
-	setText(arg_2_0:findTF("frame/top/train/Text_un"), i18n("courtyard_label_train"))
+	setText(arg_2_0._tf:Find("frame/desc1"), i18n("backyard_longpress_ship_tip"))
+	setText(arg_2_0._tf:Find("frame/top/rest/Text"), i18n("courtyard_label_rest"))
+	setText(arg_2_0._tf:Find("frame/top/train/Text"), i18n("courtyard_label_train"))
+	setText(arg_2_0._tf:Find("frame/top/rest/Text_un"), i18n("courtyard_label_rest"))
+	setText(arg_2_0._tf:Find("frame/top/train/Text_un"), i18n("courtyard_label_train"))
 end
 
 function var_0_0.didEnter(arg_3_0)

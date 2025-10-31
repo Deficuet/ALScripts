@@ -5,12 +5,12 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.voiceActor = arg_2_0:findTF("bg/author_panel/cvPanel/label/mask/Text"):GetComponent("ScrollText")
-	arg_2_0.illustrator = arg_2_0:findTF("bg/author_panel/illustPanel/illustrator/label/mask/Text"):GetComponent("ScrollText")
-	arg_2_0.cvContainer = arg_2_0:findTF("bg/lines_panel/lines_list/Grid")
+	arg_2_0.voiceActor = arg_2_0._tf:Find("bg/author_panel/cvPanel/label/mask/Text"):GetComponent("ScrollText")
+	arg_2_0.illustrator = arg_2_0._tf:Find("bg/author_panel/illustPanel/illustrator/label/mask/Text"):GetComponent("ScrollText")
+	arg_2_0.cvContainer = arg_2_0._tf:Find("bg/lines_panel/lines_list/Grid")
 	arg_2_0.cvTpl = arg_2_0:getTpl("bg/lines_panel/lines_list/Grid/lines_tpl")
-	arg_2_0.weddingReview = arg_2_0:findTF("bg/wedding")
-	arg_2_0.voiceBtn = arg_2_0:findTF("bg/language_change")
+	arg_2_0.weddingReview = arg_2_0._tf:Find("bg/wedding")
+	arg_2_0.voiceBtn = arg_2_0._tf:Find("bg/language_change")
 	arg_2_0.voiceBtnSel = arg_2_0.voiceBtn:Find("sel")
 	arg_2_0.voiceBtnUnsel = arg_2_0.voiceBtn:Find("unsel")
 	arg_2_0.voiceBtnPositions = {
@@ -19,8 +19,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	}
 	arg_2_0.voiceBtnTxt = arg_2_0.voiceBtn:Find("Text"):GetComponent(typeof(Text))
 	arg_2_0.voiceBtnTxt1 = arg_2_0.voiceBtn:Find("Text1"):GetComponent(typeof(Text))
-	arg_2_0.profilePlayBtn = arg_2_0:findTF("bg/prototype_panel/title/playButton")
-	arg_2_0.profileTxt = arg_2_0:findTF("bg/prototype_panel/desc/scroll/Text"):GetComponent(typeof(Text))
+	arg_2_0.profilePlayBtn = arg_2_0._tf:Find("bg/prototype_panel/title/playButton")
+	arg_2_0.profileTxt = arg_2_0._tf:Find("bg/prototype_panel/desc/scroll/Text"):GetComponent(typeof(Text))
 end
 
 function var_0_0.UpdateCvBtn(arg_3_0, arg_3_1)

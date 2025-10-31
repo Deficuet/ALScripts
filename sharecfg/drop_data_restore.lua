@@ -4896,6 +4896,141 @@ pg.drop_data_restore = {
 		drop_id = 0,
 		target_id = 325
 	},
+	[566] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 566,
+		resource_num = 1260,
+		drop_id = 998318,
+		target_id = 307161
+	},
+	[567] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 567,
+		resource_num = 1180,
+		drop_id = 998318,
+		target_id = 305161
+	},
+	[568] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 568,
+		resource_num = 1180,
+		drop_id = 998318,
+		target_id = 303201
+	},
+	[569] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 569,
+		resource_num = 1050,
+		drop_id = 998318,
+		target_id = 317021
+	},
+	[570] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 570,
+		resource_num = 930,
+		drop_id = 998318,
+		target_id = 101472
+	},
+	[571] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 571,
+		resource_num = 780,
+		drop_id = 998318,
+		target_id = 302271
+	},
+	[572] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 572,
+		resource_num = 780,
+		drop_id = 998318,
+		target_id = 301921
+	},
+	[573] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 573,
+		resource_num = 1180,
+		drop_id = 998319,
+		target_id = 805032
+	},
+	[574] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 574,
+		resource_num = 1180,
+		drop_id = 998319,
+		target_id = 303192
+	},
+	[575] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 575,
+		resource_num = 1180,
+		drop_id = 998319,
+		target_id = 118022
+	},
+	[576] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 576,
+		resource_num = 980,
+		drop_id = 998319,
+		target_id = 101512
+	},
+	[577] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 577,
+		resource_num = 900,
+		drop_id = 998319,
+		target_id = 803022
+	},
+	[578] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 578,
+		resource_num = 880,
+		drop_id = 998319,
+		target_id = 999012
+	},
+	[579] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 579,
+		resource_num = 880,
+		drop_id = 998319,
+		target_id = 205023
+	},
+	[580] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 580,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 326
+	},
 	[1000] = {
 		target_type = 7,
 		type = 1,
@@ -8325,6 +8460,222 @@ pg.drop_data_restore = {
 		drop_id = 0,
 		target_id = 212
 	},
+	[7013] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7013,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10001
+	},
+	[7014] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7014,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10002
+	},
+	[7015] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7015,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10003
+	},
+	[7016] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7016,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10004
+	},
+	[7017] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7017,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10005
+	},
+	[7018] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7018,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10006
+	},
+	[7019] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7019,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10007
+	},
+	[7020] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7020,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10008
+	},
+	[7021] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7021,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10009
+	},
+	[7022] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7022,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10010
+	},
+	[7023] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7023,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10011
+	},
+	[7024] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7024,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10012
+	},
+	[7025] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7025,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10001
+	},
+	[7026] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7026,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10002
+	},
+	[7027] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7027,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10003
+	},
+	[7028] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7028,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10004
+	},
+	[7029] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7029,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10005
+	},
+	[7030] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7030,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10006
+	},
+	[7031] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7031,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10007
+	},
+	[7032] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7032,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10008
+	},
+	[7033] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7033,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10009
+	},
+	[7034] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7034,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10010
+	},
+	[7035] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7035,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10011
+	},
+	[7036] = {
+		target_type = 15,
+		type = 1,
+		resource_type = 1,
+		id = 7036,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 10012
+	},
 	[20020] = {
 		target_type = 7,
 		type = 1,
@@ -8693,6 +9044,78 @@ pg.drop_data_restore = {
 		resource_num = 80,
 		drop_id = 998559,
 		target_id = 315
+	},
+	[20061] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 20061,
+		resource_num = 1180,
+		drop_id = 998562,
+		target_id = 9600121
+	},
+	[20062] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 20062,
+		resource_num = 1260,
+		drop_id = 998562,
+		target_id = 9600141
+	},
+	[20063] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 20063,
+		resource_num = 980,
+		drop_id = 998562,
+		target_id = 9600131
+	},
+	[20064] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 20064,
+		resource_num = 780,
+		drop_id = 998562,
+		target_id = 9600151
+	},
+	[20065] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 20065,
+		resource_num = 880,
+		drop_id = 998562,
+		target_id = 9600161
+	},
+	[20066] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 20066,
+		resource_num = 980,
+		drop_id = 998562,
+		target_id = 399022
+	},
+	[20067] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 20067,
+		resource_num = 900,
+		drop_id = 998562,
+		target_id = 718012
+	},
+	[20068] = {
+		target_type = 7,
+		type = 1,
+		resource_type = 14,
+		id = 20068,
+		resource_num = 780,
+		drop_id = 998562,
+		target_id = 301572
 	},
 	all = {
 		1,
@@ -9239,6 +9662,21 @@ pg.drop_data_restore = {
 		563,
 		564,
 		565,
+		566,
+		567,
+		568,
+		569,
+		570,
+		571,
+		572,
+		573,
+		574,
+		575,
+		576,
+		577,
+		578,
+		579,
+		580,
 		1000,
 		1001,
 		1002,
@@ -9620,6 +10058,30 @@ pg.drop_data_restore = {
 		7010,
 		7011,
 		7012,
+		7013,
+		7014,
+		7015,
+		7016,
+		7017,
+		7018,
+		7019,
+		7020,
+		7021,
+		7022,
+		7023,
+		7024,
+		7025,
+		7026,
+		7027,
+		7028,
+		7029,
+		7030,
+		7031,
+		7032,
+		7033,
+		7034,
+		7035,
+		7036,
 		20020,
 		20021,
 		20022,
@@ -9660,6 +10122,14 @@ pg.drop_data_restore = {
 		20057,
 		20058,
 		20059,
-		20060
+		20060,
+		20061,
+		20062,
+		20063,
+		20064,
+		20065,
+		20066,
+		20067,
+		20068
 	}
 }

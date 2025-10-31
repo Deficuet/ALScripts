@@ -14,8 +14,8 @@ function var_0_0.Ctor(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4)
 end
 
 function var_0_0.OnLoaded(arg_3_0)
-	arg_3_0.skipBtn = arg_3_0:findTF("skip_button")
-	arg_3_0.maskCG = arg_3_0:findTF("mask"):GetComponent(typeof(CanvasGroup))
+	arg_3_0.skipBtn = arg_3_0._tf:Find("adapt/skip_button")
+	arg_3_0.maskCG = arg_3_0._tf:Find("mask"):GetComponent(typeof(CanvasGroup))
 	arg_3_0.state = var_0_1
 end
 
@@ -92,6 +92,7 @@ function var_0_0.PlaySceneTimeline(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 			arg_10_0:UnloadCharacter()
 			arg_10_0:RevertReplace()
 			var_10_1:UnLoad()
+			_IslandCore:GetView().weatherSystem:Play()
 			gcAll(false)
 			SceneOpMgr.Inst:SetActiveSceneByIndex(1)
 			arg_16_0()
@@ -273,21 +274,19 @@ function var_0_0.ReplaceTracks(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
 
 	for iter_27_2, iter_27_3 in pairs(var_27_0) do
 		local var_27_4 = GameObject.Find(iter_27_2):GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
-		local var_27_5 = TimelineHelper.GetTimelineTracks(var_27_4)
+		local var_27_5 = TimelineHelper.GetTimelineTracks(var_27_4):ToTable()
 		local var_27_6 = {}
 
-		for iter_27_4 = 0, var_27_5.Length - 1 do
-			local var_27_7 = var_27_5[iter_27_4]
-
-			var_27_6[var_27_7.name] = var_27_7
+		for iter_27_4, iter_27_5 in ipairs(var_27_5) do
+			var_27_6[iter_27_5.name] = iter_27_5
 		end
 
-		for iter_27_5, iter_27_6 in ipairs(iter_27_3) do
-			local var_27_8 = tonumber(iter_27_6[1])
-			local var_27_9 = var_27_8 and var_27_5[var_27_8] or var_27_6[iter_27_6[1]]
+		for iter_27_6, iter_27_7 in ipairs(iter_27_3) do
+			local var_27_7 = tonumber(iter_27_7[1])
+			local var_27_8 = var_27_7 and var_27_5[var_27_7 + 1] or var_27_6[iter_27_7[1]]
 
-			if var_27_9 then
-				TimelineHelper.SetSceneBinding(var_27_4, var_27_9, var_0_4(arg_27_1, iter_27_6[2]))
+			if var_27_8 then
+				TimelineHelper.SetSceneBinding(var_27_4, var_27_8, var_0_4(arg_27_1, iter_27_7[2]))
 			end
 		end
 	end
@@ -302,17 +301,14 @@ function var_0_0.ReplcaeCamTracks(arg_28_0, arg_28_1)
 		return
 	end
 
-	local var_28_1 = var_28_0.transform:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector), true)
+	local var_28_1 = var_28_0.transform:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector), true):ToTable()
 
-	for iter_28_0 = 1, var_28_1.Length do
-		local var_28_2 = var_28_1[iter_28_0 - 1]
-		local var_28_3 = TimelineHelper.GetTimelineTracks(var_28_2)
+	for iter_28_0, iter_28_1 in ipairs(var_28_1) do
+		local var_28_2 = TimelineHelper.GetTimelineTracks(iter_28_1):ToTable()
 
-		for iter_28_1 = 0, var_28_3.Length - 1 do
-			local var_28_4 = var_28_3[iter_28_1]
-
-			if var_28_4:GetType():ToString() == "CinemachineTrack" then
-				TimelineHelper.SetSceneBinding(var_28_2, var_28_4, IslandCameraMgr.instance.cinemachineBrain)
+		for iter_28_2, iter_28_3 in ipairs(var_28_2) do
+			if iter_28_3:GetType():ToString() == "CinemachineTrack" then
+				TimelineHelper.SetSceneBinding(iter_28_1, iter_28_3, IslandCameraMgr.instance.cinemachineBrain)
 			end
 		end
 	end

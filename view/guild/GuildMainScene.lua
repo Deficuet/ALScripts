@@ -75,30 +75,30 @@ var_0_0.NOTIFY_TYPE_BATTLE = 4
 var_0_0.NOTIFY_TYPE_TECH = 5
 
 function var_0_0.init(arg_11_0)
-	arg_11_0._bg = arg_11_0:findTF("bg")
+	arg_11_0._bg = arg_11_0._tf:Find("bg")
 
-	pg.GuildPaintingMgr:GetInstance():Enter(arg_11_0._bg:Find("painting"))
+	pg.GuildPaintingMgr.GetInstance():Enter(arg_11_0._bg:Find("painting"))
 
-	arg_11_0._playerResOb = arg_11_0:findTF("blur_panel/adapt/top/res")
+	arg_11_0._playerResOb = arg_11_0._tf:Find("blur_panel/adapt/top/res")
 	arg_11_0.guildRes = GuildResPage.New(arg_11_0._playerResOb, arg_11_0.event)
-	arg_11_0.toggleRoot = arg_11_0:findTF("blur_panel/adapt/left_length/frame/scroll_rect/tagRoot")
-	arg_11_0.mainTip = arg_11_0:findTF("main/tip", arg_11_0.toggleRoot)
-	arg_11_0.applyTip = arg_11_0:findTF("apply/tip", arg_11_0.toggleRoot)
-	arg_11_0.officeTip = arg_11_0:findTF("office/tip", arg_11_0.toggleRoot)
-	arg_11_0.techTip = arg_11_0:findTF("technology/tip", arg_11_0.toggleRoot)
-	arg_11_0.battleTip = arg_11_0:findTF("battle/tip", arg_11_0.toggleRoot)
-	arg_11_0.back = arg_11_0:findTF("blur_panel/adapt/top/back")
-	arg_11_0.blurPanel = arg_11_0:findTF("blur_panel")
-	arg_11_0.mainTF = arg_11_0:findTF("main")
-	arg_11_0.eyeTF = arg_11_0:findTF("blur_panel/adapt/eye")
+	arg_11_0.toggleRoot = arg_11_0._tf:Find("blur_panel/adapt/left_length/frame/scroll_rect/tagRoot")
+	arg_11_0.mainTip = arg_11_0.toggleRoot:Find("main/tip")
+	arg_11_0.applyTip = arg_11_0.toggleRoot:Find("apply/tip")
+	arg_11_0.officeTip = arg_11_0.toggleRoot:Find("office/tip")
+	arg_11_0.techTip = arg_11_0.toggleRoot:Find("technology/tip")
+	arg_11_0.battleTip = arg_11_0.toggleRoot:Find("battle/tip")
+	arg_11_0.back = arg_11_0._tf:Find("blur_panel/adapt/top/back")
+	arg_11_0.blurPanel = arg_11_0._tf:Find("blur_panel")
+	arg_11_0.mainTF = arg_11_0._tf:Find("main")
+	arg_11_0.eyeTF = arg_11_0._tf:Find("blur_panel/adapt/eye")
 	arg_11_0._leftLength = findTF(arg_11_0.blurPanel, "adapt/left_length")
 	arg_11_0._topPanel = findTF(arg_11_0.blurPanel, "adapt/top")
-	arg_11_0.topBg = arg_11_0:findTF("blur_panel/top_bg")
+	arg_11_0.topBg = arg_11_0._tf:Find("blur_panel/top_bg")
 	arg_11_0.topBgWidth = arg_11_0.topBg.rect.height
 	arg_11_0.topWidth = arg_11_0._topPanel.rect.height
 	arg_11_0.letfWidth = -1 * (arg_11_0._leftLength.rect.width + 300)
 	arg_11_0.logPage = GuildOfficeLogPage.New(arg_11_0._tf, arg_11_0.event)
-	arg_11_0.dynamicBg = GuildDynamicBG.New(arg_11_0:findTF("dynamic_bg"))
+	arg_11_0.dynamicBg = GuildDynamicBG.New(arg_11_0._tf:Find("dynamic_bg"))
 	Input.multiTouchEnabled = false
 end
 
@@ -144,7 +144,7 @@ function var_0_0.didEnter(arg_15_0)
 	arg_15_0.guildRes:ExecuteAction("Update", arg_15_0.playerVO, arg_15_0.guildVO)
 	arg_15_0:initToggles()
 	arg_15_0:UpdateRes()
-	pg.GuildLayerMgr:GetInstance():BlurTopPanel(arg_15_0.blurPanel)
+	pg.GuildLayerMgr.GetInstance():BlurTopPanel(arg_15_0.blurPanel)
 
 	if arg_15_0.guildVO:shouldRefreshCaptial() then
 		arg_15_0:emit(GuildMainMediator.ON_FETCH_CAPITAL)
@@ -382,7 +382,7 @@ function var_0_0.closePage(arg_34_0, arg_34_1)
 end
 
 function var_0_0.BlurView(arg_35_0, arg_35_1)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_35_1, {
+	pg.UIMgr.GetInstance():OverlayPanel(arg_35_1, {
 		pbList = {
 			arg_35_1:Find("Image1/Image1")
 		}
@@ -430,8 +430,8 @@ function var_0_0.willExit(arg_42_0)
 		arg_42_0.themePage:Destroy()
 	end
 
-	pg.GuildLayerMgr:GetInstance():Clear()
-	pg.GuildPaintingMgr:GetInstance():Exit()
+	pg.GuildLayerMgr.GetInstance():Clear()
+	pg.GuildPaintingMgr.GetInstance():Exit()
 
 	if arg_42_0.contextData.page then
 		arg_42_0:closePage(arg_42_0.contextData.page)

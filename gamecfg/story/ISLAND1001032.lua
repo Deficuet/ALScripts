@@ -1,6 +1,6 @@
 return {
 	id = "ISLAND1001032",
-	mode = 9,
+	mode = 10,
 	map = {
 		{
 			101300,
@@ -9,20 +9,18 @@ return {
 	},
 	look_weight = {
 		{
-			0.7,
+			0.8,
 			0
 		},
 		{
-			0.3,
+			0.2,
 			0
 		}
 	},
 	scripts = {
 		{
-			animation = "hi",
-			characterId = 101300,
-			subName = "集会岛向导",
-			say = "欢~迎~光~临~！",
+			characterId = 0,
+			say = "Mary? Why are you here?",
 			face2Face = {
 				{
 					0,
@@ -35,10 +33,20 @@ return {
 			}
 		},
 		{
-			animation = "happy",
+			say = "Welcome!",
 			characterId = 101300,
-			subName = "集会岛向导",
-			say = "亲爱的指挥官~欢迎来到集会岛！我是你的专属向导，玛丽！",
+			animation = "hi",
+			subName = "Get-Together Island Guide",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "You've just set foot on Get-Together Island, dear Commander! I'm your personal guide, Mary!",
+			characterId = 101300,
+			subName = "Get-Together Island Guide",
+			animation = "talk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,18 +54,18 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "……哈？这……这不对吧？",
+			say = "...Huh? Come again?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "阳光、海滩、码头……",
+					content = "An island with a beach and a pier...",
 					flag = 1
 				},
 				{
-					content = "金光闪闪的宝藏岛呢？",
+					content = "Where's the glittery Treasure Island full of riches?",
 					flag = 2
 				}
 			}
@@ -65,8 +73,7 @@ return {
 		{
 			characterId = 0,
 			optionFlag = 1,
-			say = "怎么看也不像是宝藏岛的样子啊？",
-			animation = "shakehead",
+			say = "This can't possibly be Treasure Island.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,36 +82,36 @@ return {
 		{
 			characterId = 0,
 			optionFlag = 2,
-			say = "这里看起来更像是休闲度假岛……",
+			say = "If anything, this place looks more like a tropical resort...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "宝藏岛？啊，那都是刚来开发区时大家谣传出来的名字了。",
+			say = "Treasure Island? Oh, that's the name we all came up with when we first came to the development area.",
 			characterId = 101300,
-			animation = "amaze",
-			subName = "集会岛向导",
+			animation = "doubt",
+			subName = "Get-Together Island Guide",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "现在的它已经是整个岛屿开发区的一部分了，名字叫集会岛哦~",
+			subName = "Get-Together Island Guide",
 			characterId = 101300,
+			say = "It's just part of the development now, and it's called Get-Together Island.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "It was supposed to be an awesome resort where everyone could have fun together.",
+			characterId = 101300,
+			subName = "Get-Together Island Guide",
 			animation = "elation",
-			subName = "集会岛向导",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			subName = "集会岛向导",
-			characterId = 101300,
-			say = "本该是一个超~级棒的供大家休闲娱乐的地方！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,37 +119,35 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "结果这里也因为资金问题停止开发了？",
+			say = "But development was halted due to funding issues, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没错哦~指挥官看到后面那一大片空地了吗？",
+			say = "Yep! See those big vacant lots over there?",
 			characterId = 101300,
-			animation = "nod",
-			subName = "集会岛向导",
+			animation = "clap",
+			subName = "Get-Together Island Guide",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "nod",
+			subName = "Get-Together Island Guide",
 			characterId = 101300,
-			subName = "集会岛向导",
-			say = "城堡、游乐园、海景别墅……规划虽然都有，不过只能等以后再说啦~",
+			say = "We're supposed to have a castle, an amusement park, beachfront villas... There are all kinds of plans for this place, but they won't be complete any time soon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "但即使是未完成版，这里也是个休息放松的好地方哦~",
+			subName = "Get-Together Island Guide",
 			characterId = 101300,
-			animation = "elation",
-			subName = "集会岛向导",
+			say = "It's still a nice place to relax, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +156,7 @@ return {
 		{
 			animation = "nod",
 			characterId = 0,
-			say = "……原来如此，我算是明白{namecode:98:明石}那家伙为什么会如此热心了。",
+			say = "I see what's going on. No wonder Akashi was so excited about this place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +164,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "还特意帮我修好了飞行器……果然是有更大的图谋。",
+			say = "That's why she went through all the trouble of repairing the aircraft, too. She's always got an angle.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,46 +172,17 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "所以玛丽向导，既然宝藏岛是谣言……那所谓的宝藏应该也只是{namecode:98:明石}为了卖建材编出来的吧？",
+			say = "Okay, personal guide Mary. If Treasure Island isn't real, then this treasure must be one of Akashi's lies to sell me building materials, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "哼哼~指挥官要不要猜猜看呢？",
+			say = "Nope! Get-Together Island really is a place where you can get all sorts of goodies every day.",
 			characterId = 101300,
-			animation = "elation",
-			subName = "集会岛向导",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "不过，{namecode:98:明石}特意为指挥官准备了一件礼物哦，这可是要耗费不少搭建凭证才能获得的浪漫哦~",
-			characterId = 101300,
-			animation = "elation",
-			subName = "集会岛向导",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			subName = "集会岛向导",
-			characterId = 101300,
-			say = "指挥官可以去找莉莎，让她帮忙种到自由建造区里。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "会很搭配在集会岛的心情呢~绝对的休闲浪漫的体验~",
-			characterId = 101300,
-			animation = "elation",
-			subName = "集会岛向导",
+			animation = "shakehead",
+			subName = "Get-Together Island Guide",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,17 +190,43 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "莉莎么，那我这就去~",
+			say = "Goodies...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "指挥官再见~您的专属导游玛丽的工作就暂时结束啦~",
+			subName = "Get-Together Island Guide",
 			characterId = 101300,
-			animation = "hi",
-			subName = "集会岛向导",
+			say = "Yep. With this device Akashi left behind, you can pinpoint the island's coordinates.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "And that's your treasure?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "You'll get it when you see for yourself. Come with me!",
+			characterId = 101300,
+			subName = "Get-Together Island Guide",
+			animation = "elation",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "...Okay. Guide the way, I guess.",
+			characterId = 0,
+			animation = "nod",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

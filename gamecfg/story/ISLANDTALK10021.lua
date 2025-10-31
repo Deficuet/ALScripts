@@ -21,8 +21,8 @@ return {
 		{
 			animation = "note",
 			characterId = 100200,
-			say = "唔……今天矿山的出货量好大，得协调好运输船才行……",
-			subName = "订单管理员",
+			say = "Hmm... There'll be a lot of shipments from the mine today, so I'll have to carefully manage our transport ships.",
+			subName = "Manager of Requests",
 			face2Face = {
 				{
 					0,

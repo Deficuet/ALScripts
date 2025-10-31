@@ -17,8 +17,6 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 				var_2_1 = var_2_1 + var_2_2:GetExp()
 
-				pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandTaskSubmit(var_2_2:GetType(), var_2_2.id))
-
 				local var_2_3 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
 
 				for iter_2_2, iter_2_3 in ipairs(var_2_2:GetRecycleItemInfos()) do

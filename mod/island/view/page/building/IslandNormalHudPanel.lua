@@ -26,90 +26,111 @@ function var_0_0.OnInit(arg_3_0)
 	setText(arg_3_0.hudTitle, var_3_0.title)
 	setText(arg_3_0.hudName, var_3_0.name)
 
-	arg_3_0.playerTF = arg_3_0:GetPlayer().transform
-	arg_3_0.isNear = arg_3_0:CheckIsNear()
+	arg_3_0.playerTF = arg_3_0:GetPlayer()
 
-	setActive(arg_3_0.hudTitle, arg_3_0.isNear)
-	setActive(arg_3_0.hudName, arg_3_0.isNear)
-	arg_3_0:UpdateTaskDisplay()
+	arg_3_0:CheckPlayer()
 end
 
-function var_0_0.OnDispose(arg_4_0)
-	var_0_0.super.OnDispose(arg_4_0)
+function var_0_0.CheckPlayer(arg_4_0)
+	arg_4_0.isNear = arg_4_0:CheckIsNear()
+
+	setActive(arg_4_0.hudTitle, arg_4_0.isNear)
+	setActive(arg_4_0.hudName, arg_4_0.isNear)
+	arg_4_0:UpdateTaskDisplay()
 end
 
-function var_0_0.GetPlayer(arg_5_0)
-	local var_5_0 = GameObject.Find("Root"):GetComponentsInChildren(typeof("WorldObjectItem")):ToTable()
+function var_0_0.OnDispose(arg_5_0)
+	var_0_0.super.OnDispose(arg_5_0)
+end
 
-	for iter_5_0, iter_5_1 in ipairs(var_5_0) do
-		if iter_5_1.isPlayer then
-			return iter_5_1.gameObject
+function var_0_0.GetPlayer(arg_6_0)
+	local var_6_0 = GameObject.Find("Root"):GetComponentsInChildren(typeof(WorldObjectItem)):ToTable()
+
+	for iter_6_0, iter_6_1 in ipairs(var_6_0) do
+		if iter_6_1.isPlayer then
+			arg_6_0.hasPlayer = true
+
+			return iter_6_1.gameObject.transform
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.CheckIsNear(arg_6_0)
-	local var_6_0 = arg_6_0.view:GetUnitModuleWithType(arg_6_0.unitType, arg_6_0.unitId)
-	local var_6_1 = var_6_0 and var_6_0._go or nil
+function var_0_0.CheckIsNear(arg_7_0)
+	local var_7_0 = arg_7_0.view:GetUnitModuleWithType(arg_7_0.unitType, arg_7_0.unitId)
+	local var_7_1 = var_7_0 and var_7_0._go or nil
 
-	if not var_6_0 or IsNil(var_6_1) then
+	if not var_7_0 or IsNil(var_7_1) or IsNil(var_7_1.transform) then
 		return false
 	end
 
-	if (arg_6_0.playerTF.position - var_6_1.transform.position).magnitude < arg_6_0.hud_name_range then
+	if IsNil(arg_7_0.playerTF) then
+		return false
+	end
+
+	if (arg_7_0.playerTF.position - var_7_1.transform.position).magnitude < arg_7_0.hud_name_range then
 		return true
 	end
 
 	return false
 end
 
-function var_0_0.OnUpdate(arg_7_0)
-	local var_7_0 = arg_7_0:CheckIsNear()
+function var_0_0.OnUpdate(arg_8_0)
+	if not arg_8_0.hasPlayer then
+		arg_8_0.playerTF = arg_8_0:GetPlayer()
 
-	if var_7_0 == arg_7_0.isNear then
+		arg_8_0:CheckPlayer()
+	else
+		local var_8_0 = arg_8_0:CheckIsNear()
+
+		if var_8_0 == arg_8_0.isNear then
+			return
+		end
+
+		arg_8_0.isNear = var_8_0
+
+		setActive(arg_8_0.hudTitle, arg_8_0.isNear)
+		setActive(arg_8_0.hudName, arg_8_0.isNear)
+	end
+end
+
+function var_0_0.RefreshHud(arg_9_0)
+	arg_9_0:UpdateTaskDisplay()
+end
+
+function var_0_0.UpdateTaskDisplay(arg_10_0)
+	if IsNil(arg_10_0.hudImageBg) then
 		return
 	end
 
-	arg_7_0.isNear = var_7_0
+	local var_10_0, var_10_1 = IslandObjectTaskHudHelper.GetObjectTaskHud(arg_10_0.unitId)
 
-	setActive(arg_7_0.hudTitle, arg_7_0.isNear)
-	setActive(arg_7_0.hudName, arg_7_0.isNear)
-end
+	if arg_10_0.currentTaskId ~= var_10_1 then
+		arg_10_0.currentTaskId = var_10_1
 
-function var_0_0.RefreshHud(arg_8_0)
-	arg_8_0:UpdateTaskDisplay()
-end
+		if var_10_1 then
+			local var_10_2, var_10_3 = IslandObjectTaskHudHelper.GetHudDislayInfoByTaskId(var_10_1)
 
-function var_0_0.UpdateTaskDisplay(arg_9_0)
-	local var_9_0, var_9_1 = IslandObjectTaskHudHelper.GetObjectTaskHud(arg_9_0.unitId)
-
-	if arg_9_0.currentTaskId ~= var_9_1 then
-		arg_9_0.currentTaskId = var_9_1
-
-		if var_9_1 then
-			local var_9_2, var_9_3 = IslandObjectTaskHudHelper.GetHudDislayInfoByTaskId(var_9_1)
-
-			setActive(arg_9_0.hudImageBg, true)
-			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", var_9_2, arg_9_0.hudImageBg)
-			setImageColor(arg_9_0.hudImageTF, Color.NewHex(var_9_3))
+			setActive(arg_10_0.hudImageBg, true)
+			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", var_10_2, arg_10_0.hudImageBg)
+			setImageColor(arg_10_0.hudImageTF, Color.NewHex(var_10_3))
 		else
-			setActive(arg_9_0.hudImageBg, arg_9_0.hudImageIcon ~= "")
-			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", "hud_main", arg_9_0.hudImageBg)
-			setImageColor(arg_9_0.hudImageTF, Color.NewHex("78787a"))
+			setActive(arg_10_0.hudImageBg, arg_10_0.hudImageIcon ~= "")
+			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", "hud_main", arg_10_0.hudImageBg)
+			setImageColor(arg_10_0.hudImageTF, Color.NewHex("78787a"))
 		end
 	end
 
-	if var_9_0 ~= arg_9_0.currentTaskType then
-		arg_9_0.currentTaskType = var_9_0
+	if var_10_0 ~= arg_10_0.currentTaskType then
+		arg_10_0.currentTaskType = var_10_0
 
-		local var_9_4 = IslandObjectTaskHudHelper.TaskProcessToHudIcon[var_9_0] or arg_9_0.hudImageIcon
+		local var_10_4 = IslandObjectTaskHudHelper.TaskProcessToHudIcon[var_10_0] or arg_10_0.hudImageIcon
 
-		setActive(arg_9_0.hudImageBg, var_9_4 ~= "")
+		setActive(arg_10_0.hudImageBg, var_10_4 ~= "")
 
-		if var_9_4 ~= "" then
-			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", var_9_4, arg_9_0.hudImageTF)
+		if var_10_4 ~= "" then
+			GetImageSpriteFromAtlasAsync("island/IslandHudIcon", var_10_4, arg_10_0.hudImageTF)
 		end
 	end
 end

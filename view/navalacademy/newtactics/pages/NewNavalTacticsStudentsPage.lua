@@ -20,11 +20,11 @@ function var_0_0.OnExitStudent(arg_4_0)
 end
 
 function var_0_0.OnLoaded(arg_5_0)
-	arg_5_0.helpBtn = arg_5_0:findTF("help_btn")
+	arg_5_0.helpBtn = arg_5_0._tf:Find("help_btn")
 
-	local var_5_0 = arg_5_0:findTF("info")
-	local var_5_1 = arg_5_0:findTF("add")
-	local var_5_2 = arg_5_0:findTF("lock")
+	local var_5_0 = arg_5_0._tf:Find("info")
+	local var_5_1 = arg_5_0._tf:Find("add")
+	local var_5_2 = arg_5_0._tf:Find("lock")
 
 	arg_5_0.cards = {
 		{},

@@ -13,24 +13,24 @@ function var_0_0.OnGetReportRankList(arg_3_0, arg_3_1)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0.scrollrect = arg_4_0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
-	arg_4_0.getAll = arg_4_0:findTF("frame/get_all")
-	arg_4_0.gotAll = arg_4_0:findTF("frame/get_all/gray")
-	arg_4_0.descTxt = arg_4_0:findTF("frame/desc"):GetComponent(typeof(Text))
-	arg_4_0.cntTxt = arg_4_0:findTF("frame/cnt"):GetComponent(typeof(Text))
-	arg_4_0.closeBtn = arg_4_0:findTF("frame/close")
+	arg_4_0.scrollrect = arg_4_0._tf:Find("frame/scrollrect"):GetComponent("LScrollRect")
+	arg_4_0.getAll = arg_4_0._tf:Find("frame/get_all")
+	arg_4_0.gotAll = arg_4_0._tf:Find("frame/get_all/gray")
+	arg_4_0.descTxt = arg_4_0._tf:Find("frame/desc"):GetComponent(typeof(Text))
+	arg_4_0.cntTxt = arg_4_0._tf:Find("frame/cnt"):GetComponent(typeof(Text))
+	arg_4_0.closeBtn = arg_4_0._tf:Find("frame/close")
 
 	setText(arg_4_0.getAll:Find("Text"), i18n("guild_report_get_all"))
 
 	arg_4_0._parentTf = arg_4_0._tf.parent
 
-	setText(arg_4_0:findTF("frame/desc"), i18n("guild_report_tooltip"))
+	setText(arg_4_0._tf:Find("frame/desc"), i18n("guild_report_tooltip"))
 
 	arg_4_0.rankPage = GuildBossRankPage.New(arg_4_0._tf, arg_4_0.event)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.UIMgr:GetInstance():BlurPanel(arg_5_0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(arg_5_0._tf)
 	onButton(arg_5_0, arg_5_0.closeBtn, function()
 		arg_5_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_PANEL)
@@ -130,7 +130,7 @@ function var_0_0.OnInitItem(arg_19_0, arg_19_1)
 
 	onButton(arg_19_0, var_19_0.getBtn, function()
 		if var_19_0.report:IsLock() then
-			pg.TipsMgr:GetInstance():ShowTips(i18n("guild_can_not_get_tip"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_can_not_get_tip"))
 
 			return
 		end
@@ -162,7 +162,7 @@ function var_0_0.ShowReportRank(arg_22_0, arg_22_1)
 end
 
 function var_0_0.willExit(arg_23_0)
-	pg.UIMgr:GetInstance():UnblurPanel(arg_23_0._tf, arg_23_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_23_0._tf, arg_23_0._parentTf)
 
 	if arg_23_0.cards then
 		for iter_23_0, iter_23_1 in pairs(arg_23_0.cards) do

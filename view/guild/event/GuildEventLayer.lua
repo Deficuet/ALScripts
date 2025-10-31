@@ -249,7 +249,7 @@ function var_0_0.init(arg_25_0)
 	arg_25_0.missBossForamtionPage = GuildMissionBossFormationPage.New(arg_25_0._tf, arg_25_0.event, arg_25_0.contextData)
 	arg_25_0.showAssultShipPage = GuildShowAssultShipPage.New(arg_25_0._tf, arg_25_0.event, arg_25_0.contextData)
 	arg_25_0.shipEquipmentsPage = GuildShipEquipmentsPage.New(arg_25_0._tf, arg_25_0.event, arg_25_0.contextData)
-	arg_25_0.helpBtn = arg_25_0:findTF("frame/help")
+	arg_25_0.helpBtn = arg_25_0._tf:Find("frame/help")
 end
 
 function var_0_0.didEnter(arg_34_0)
@@ -320,8 +320,8 @@ function var_0_0.willExit(arg_40_0)
 		arg_40_0.missionBossPage:Destroy()
 	end
 
-	if isActive(pg.MsgboxMgr:GetInstance()._go) then
-		triggerButton(pg.MsgboxMgr:GetInstance()._closeBtn)
+	if isActive(pg.MsgboxMgr.GetInstance()._go) then
+		triggerButton(pg.MsgboxMgr.GetInstance()._closeBtn)
 	end
 end
 

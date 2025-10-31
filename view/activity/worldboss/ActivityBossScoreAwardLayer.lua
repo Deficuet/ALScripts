@@ -5,8 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.closeBtn = arg_2_0:findTF("window/top/btnBack")
-	arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("window/panel/list"), arg_2_0:findTF("window/panel/list/item"))
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
+	arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("window/panel/list"), arg_2_0._tf:Find("window/panel/list/item"))
 
 	arg_2_0.uiItemList:make(function(arg_3_0, arg_3_1, arg_3_2)
 		if arg_3_0 == UIItemList.EventUpdate then
@@ -14,11 +14,11 @@ function var_0_0.init(arg_2_0)
 		end
 	end)
 
-	arg_2_0.currentTxt = arg_2_0:findTF("window/pt/Text"):GetComponent(typeof(Text))
+	arg_2_0.currentTxt = arg_2_0._tf:Find("window/pt/Text"):GetComponent(typeof(Text))
 
-	setText(arg_2_0:findTF("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
-	setText(arg_2_0:findTF("window/pt/title"), i18n("activityboss_sp_window_best_score"))
-	setText(arg_2_0:findTF("window/panel/list/item/target/title"), i18n("activityboss_sp_score_target"))
+	setText(arg_2_0._tf:Find("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
+	setText(arg_2_0._tf:Find("window/pt/title"), i18n("activityboss_sp_window_best_score"))
+	setText(arg_2_0._tf:Find("window/panel/list/item/target/title"), i18n("activityboss_sp_score_target"))
 end
 
 function var_0_0.didEnter(arg_4_0)
@@ -66,7 +66,7 @@ function var_0_0.Hide(arg_10_0)
 end
 
 function var_0_0.willExit(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf)
 end
 
 return var_0_0

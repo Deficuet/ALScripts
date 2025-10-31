@@ -5,7 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0.favorPanelTF = arg_2_0:findTF("favor_panel")
+	arg_2_0.favorPanelTF = arg_2_0._tf:Find("favor_panel")
 	arg_2_0.favorPanelAnim = arg_2_0.favorPanelTF:GetComponent(typeof(Animation))
 	arg_2_0.favorPanelAnimEvent = arg_2_0.favorPanelTF:GetComponent(typeof(DftAniEvent))
 
@@ -14,15 +14,13 @@ function var_0_0.OnInit(arg_2_0)
 	end)
 	setActive(arg_2_0.favorPanelTF, false)
 
-	arg_2_0.favorUIList = UIItemList.New(arg_2_0:findTF("panel/bg/view/content", arg_2_0.favorPanelTF), arg_2_0:findTF("panel/bg/view/content/tpl", arg_2_0.favorPanelTF))
-	arg_2_0.favorCurTF = arg_2_0:findTF("panel/bg/cur", arg_2_0.favorPanelTF)
+	arg_2_0.favorUIList = UIItemList.New(arg_2_0.favorPanelTF:Find("panel/bg/view/content"), arg_2_0.favorPanelTF:Find("panel/bg/view/content/tpl"))
+	arg_2_0.favorCurTF = arg_2_0.favorPanelTF:Find("panel/bg/cur")
 
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_2_0._tf, {
+	arg_2_0:OverlayPanel(arg_2_0._tf, {
 		pbList = {
-			arg_2_0:findTF("panel/bg", arg_2_0.favorPanelTF)
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = LayerWeightConst.BASE_LAYER
+			arg_2_0.favorPanelTF:Find("panel/bg")
+		}
 	})
 	arg_2_0:addListener()
 	arg_2_0:Flush()
@@ -44,32 +42,32 @@ function var_0_0.updateFavorPanel(arg_7_0)
 
 	local var_7_0 = arg_7_0.char:GetFavor()
 
-	setText(arg_7_0:findTF("lv", arg_7_0.favorCurTF), var_7_0.lv)
+	setText(arg_7_0.favorCurTF:Find("lv"), var_7_0.lv)
 
 	local var_7_1 = arg_7_0.char:GetFavorUpgradExp(var_7_0.lv)
 	local var_7_2 = var_7_0.exp .. "/" .. var_7_1
 
-	setText(arg_7_0:findTF("progress", arg_7_0.favorCurTF), i18n("child_favor_progress", var_7_2))
-	setSlider(arg_7_0:findTF("slider", arg_7_0.favorCurTF), 0, 1, var_7_0.exp / var_7_1)
+	setText(arg_7_0.favorCurTF:Find("progress"), i18n("child_favor_progress", var_7_2))
+	setSlider(arg_7_0.favorCurTF:Find("slider"), 0, 1, var_7_0.exp / var_7_1)
 	arg_7_0.favorUIList:align(arg_7_0.char:getConfig("favor_level") - 1)
 end
 
 function var_0_0.updateFavorItem(arg_8_0, arg_8_1, arg_8_2)
 	local var_8_0 = arg_8_1 + 1
 
-	setText(arg_8_0:findTF("lv", arg_8_2), var_8_0 + 1)
+	setText(arg_8_2:Find("lv"), var_8_0 + 1)
 
 	local var_8_1 = var_8_0 < arg_8_0.char:GetFavor().lv
 
-	setActive(arg_8_0:findTF("lock", arg_8_2), not var_8_1)
-	setActive(arg_8_0:findTF("unlock", arg_8_2), var_8_1)
+	setActive(arg_8_2:Find("lock"), not var_8_1)
+	setActive(arg_8_2:Find("unlock"), var_8_1)
 
 	if not var_8_1 then
 		local var_8_2 = arg_8_0.char:GetFavorUpgradExp(var_8_0)
 
-		setText(arg_8_0:findTF("Text", arg_8_2), i18n("child_favor_lock1", var_8_0 + 1))
-		setTextColor(arg_8_0:findTF("Text", arg_8_2), Color.NewHex("F5F5F5"))
-		setTextColor(arg_8_0:findTF("lv", arg_8_2), Color.NewHex("F5F5F5"))
+		setText(arg_8_2:Find("Text"), i18n("child_favor_lock1", var_8_0 + 1))
+		setTextColor(arg_8_2:Find("Text"), Color.NewHex("F5F5F5"))
+		setTextColor(arg_8_2:Find("lv"), Color.NewHex("F5F5F5"))
 	else
 		local var_8_3 = arg_8_0.char:GetPerformByReplace(var_8_0)
 
@@ -77,12 +75,12 @@ function var_0_0.updateFavorItem(arg_8_0, arg_8_1, arg_8_2)
 			local var_8_4 = pg.child_performance[var_8_3[1]].param
 			local var_8_5 = arg_8_0:getStoryTitle(var_8_4)
 
-			setText(arg_8_0:findTF("Text", arg_8_2), var_8_5)
+			setText(arg_8_2:Find("Text"), var_8_5)
 		end
 
-		setTextColor(arg_8_0:findTF("Text", arg_8_2), Color.NewHex("393A3C"))
-		setTextColor(arg_8_0:findTF("lv", arg_8_2), Color.NewHex("FFFFFF"))
-		onButton(arg_8_0, arg_8_0:findTF("unlock", arg_8_2), function()
+		setTextColor(arg_8_2:Find("Text"), Color.NewHex("393A3C"))
+		setTextColor(arg_8_2:Find("lv"), Color.NewHex("FFFFFF"))
+		onButton(arg_8_0, arg_8_2:Find("unlock"), function()
 			pg.PerformMgr.GetInstance():PlayOne(var_8_3[1])
 		end, SFX_PANEL)
 	end
@@ -123,7 +121,7 @@ end
 
 function var_0_0.OnDestroy(arg_14_0)
 	arg_14_0.favorPanelAnimEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_14_0._tf)
+	arg_14_0:UnOverlayPanel(arg_14_0._tf)
 end
 
 return var_0_0

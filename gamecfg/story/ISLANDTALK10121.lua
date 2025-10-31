@@ -21,8 +21,8 @@ return {
 		{
 			animation = "hi",
 			characterId = 101200,
-			say = "您好~想喝点什么，或者尝尝苹果派？菜单在这里。",
-			subName = "啾咖啡店员",
+			say = "Welcome. Care for a drink? Or how about an omelette? Here's the menu.",
+			subName = "Manager of the Café",
 			face2Face = {
 				{
 					0,

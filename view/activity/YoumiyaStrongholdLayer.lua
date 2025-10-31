@@ -229,7 +229,7 @@ function var_0_0.SetRes(arg_13_0, arg_13_1)
 
 			if var_13_4.name == tostring(var_13_2) then
 				setActive(var_13_4, true)
-				setText(arg_13_0:findTF("Text", var_13_4), var_13_3)
+				setText(var_13_4:Find("Text"), var_13_3)
 
 				break
 			end
@@ -555,7 +555,7 @@ function var_0_0.GoBack(arg_35_0)
 end
 
 function var_0_0.willExit(arg_36_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_36_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_36_0._tf)
 
 	if arg_36_0.camEventId then
 		pg.CameraFixMgr.GetInstance():disconnect(arg_36_0.camEventId)

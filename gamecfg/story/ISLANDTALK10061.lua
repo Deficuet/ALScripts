@@ -19,9 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "嗯，铁矿放这边……银矿放那边……可不能弄混了。",
+			say = "Yep, just leave the iron ore here! The silver ore goes over there. Don't get 'em mixed up.",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "Manager of the Mine",
 			face2Face = {
 				{
 					0,

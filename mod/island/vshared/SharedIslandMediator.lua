@@ -32,8 +32,7 @@ end
 
 function var_0_0._listNotificationInterests(arg_6_0)
 	return {
-		GAME.ISLAND_EXIT_SHARED_DONE,
-		GAME.ISLAND_SELECT_GIFT_DONE
+		GAME.ISLAND_EXIT_SHARED_DONE
 	}
 end
 
@@ -43,8 +42,6 @@ function var_0_0._handleNotification(arg_7_0, arg_7_1)
 
 	if var_7_0 == GAME.ISLAND_EXIT_SHARED_DONE then
 		arg_7_0.viewComponent:emit(BaseUI.ON_HOME)
-	elseif var_7_0 == GAME.ISLAND_SELECT_GIFT_DONE then
-		arg_7_0.viewComponent:HandleAwardDisplay(var_7_1.dropData, var_7_1.callback)
 	end
 end
 

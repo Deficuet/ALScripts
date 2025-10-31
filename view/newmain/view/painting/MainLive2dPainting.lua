@@ -63,301 +63,331 @@ function var_0_0.OnLoad(arg_4_0, arg_4_1)
 
 	arg_4_0:UpdateContainerPosition()
 	arg_4_0:AddScreenChangeTimer()
+
+	arg_4_0.cvLoaded = false
+
+	arg_4_0:preloadCv(function()
+		arg_4_0.cvLoaded = true
+
+		if arg_4_0.pretriggerEvent then
+			arg_4_0:_TriggerEvent(arg_4_0.pretriggerEvent)
+
+			arg_4_0.pretriggerEvent = nil
+		end
+	end)
 end
 
-function var_0_0.ResetState(arg_6_0)
-	if not arg_6_0.live2dChar then
+function var_0_0.ResetState(arg_7_0)
+	if not arg_7_0.live2dChar then
 		return
 	end
 
-	arg_6_0.live2dChar:resetL2dData()
+	arg_7_0.live2dChar:resetL2dData()
 end
 
-function var_0_0.AdJustOrderInLayer(arg_7_0, arg_7_1)
-	arg_7_1:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
+function var_0_0.AdJustOrderInLayer(arg_8_0, arg_8_1)
+	arg_8_1:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 end
 
-function var_0_0.ResetOrderInLayer(arg_8_0)
-	if not arg_8_0.live2dChar then
+function var_0_0.ResetOrderInLayer(arg_9_0)
+	if not arg_9_0.live2dChar then
 		return
 	end
 
-	local var_8_0 = arg_8_0.live2dChar._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController")
-	local var_8_1 = typeof("Live2D.Cubism.Rendering.CubismRenderController")
+	local var_9_0 = arg_9_0.live2dChar._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController")
+	local var_9_1 = typeof("Live2D.Cubism.Rendering.CubismRenderController")
 
-	ReflectionHelp.RefSetProperty(var_8_1, "SortingOrder", var_8_0, 0)
+	ReflectionHelp.RefSetProperty(var_9_1, "SortingOrder", var_9_0, 0)
 end
 
-function var_0_0.AddScreenChangeTimer(arg_9_0)
-	arg_9_0:RemoveScreenChangeTimer()
+function var_0_0.AddScreenChangeTimer(arg_10_0)
+	arg_10_0:RemoveScreenChangeTimer()
 
-	if not arg_9_0:IslimitYPos() then
+	if not arg_10_0:IslimitYPos() then
 		return
 	end
 
-	arg_9_0.screenTimer = Timer.New(function()
-		if arg_9_0.currentWidth ~= Screen.width or arg_9_0.currentHeight ~= Screen.height then
-			arg_9_0.currentWidth = Screen.width
-			arg_9_0.currentHeight = Screen.height
+	arg_10_0.screenTimer = Timer.New(function()
+		if arg_10_0.currentWidth ~= Screen.width or arg_10_0.currentHeight ~= Screen.height then
+			arg_10_0.currentWidth = Screen.width
+			arg_10_0.currentHeight = Screen.height
 
-			arg_9_0:ResetContainerPosition()
-			arg_9_0:UpdateContainerPosition()
+			arg_10_0:ResetContainerPosition()
+			arg_10_0:UpdateContainerPosition()
 		end
 	end, 0.5, -1)
 
-	arg_9_0.screenTimer:Start()
+	arg_10_0.screenTimer:Start()
 end
 
-function var_0_0.RemoveScreenChangeTimer(arg_11_0)
-	if arg_11_0.screenTimer then
-		arg_11_0.screenTimer:Stop()
+function var_0_0.RemoveScreenChangeTimer(arg_12_0)
+	if arg_12_0.screenTimer then
+		arg_12_0.screenTimer:Stop()
 
-		arg_11_0.screenTimer = nil
+		arg_12_0.screenTimer = nil
 	end
 end
 
-function var_0_0.UpdateContainerPosition(arg_12_0)
-	local var_12_0 = arg_12_0:IslimitYPos() and arg_12_0:GetHalfBodyOffsetY() or 0
-	local var_12_1 = arg_12_0.live2dContainer.localPosition
+function var_0_0.UpdateContainerPosition(arg_13_0)
+	local var_13_0 = arg_13_0:IslimitYPos() and arg_13_0:GetHalfBodyOffsetY() or 0
+	local var_13_1 = arg_13_0.live2dContainer.localPosition
 
-	arg_12_0.live2dContainer.localPosition = Vector3(var_12_1.x, var_12_0, var_12_1.z)
+	arg_13_0.live2dContainer.localPosition = Vector3(var_13_1.x, var_13_0, var_13_1.z)
 end
 
-function var_0_0.ResetContainerPosition(arg_13_0)
-	local var_13_0 = arg_13_0.live2dContainer.localPosition
+function var_0_0.ResetContainerPosition(arg_14_0)
+	local var_14_0 = arg_14_0.live2dContainer.localPosition
 
-	arg_13_0.live2dContainer.localPosition = Vector3(var_13_0.x, arg_13_0:GetHalfBodyOffsetY(), 0)
+	arg_14_0.live2dContainer.localPosition = Vector3(var_14_0.x, arg_14_0:GetHalfBodyOffsetY(), 0)
 end
 
-function var_0_0.OnUnload(arg_14_0)
-	if arg_14_0.live2dChar then
-		arg_14_0:RemoveScreenChangeTimer()
-		arg_14_0:ResetContainerPosition()
+function var_0_0.OnUnload(arg_15_0)
+	if arg_15_0.live2dChar then
+		arg_15_0:RemoveScreenChangeTimer()
+		arg_15_0:ResetContainerPosition()
 
-		if arg_14_0.isModifyOrder then
-			arg_14_0.isModifyOrder = false
+		if arg_15_0.isModifyOrder then
+			arg_15_0.isModifyOrder = false
 
-			arg_14_0:ResetOrderInLayer()
+			arg_15_0:ResetOrderInLayer()
 		end
 
-		arg_14_0.cg.blocksRaycasts = false
+		arg_15_0.cg.blocksRaycasts = false
 
-		arg_14_0.live2dChar:Dispose()
+		arg_15_0.live2dChar:saveLive2dData()
+		arg_15_0.live2dChar:Dispose()
 
-		arg_14_0.live2dChar = nil
+		arg_15_0.live2dChar = nil
 	end
 end
 
-function var_0_0.OnClick(arg_15_0)
-	local var_15_0
+function var_0_0.OnClick(arg_16_0)
+	local var_16_0
 
-	if arg_15_0.live2dChar and arg_15_0.live2dChar.state == Live2D.STATE_INITED and not arg_15_0.live2dChar.ignoreReact then
+	if arg_16_0.live2dChar and arg_16_0.live2dChar.state == Live2D.STATE_INITED and not arg_16_0.live2dChar.ignoreReact then
 		if not Input.mousePosition then
 			return
 		end
 
-		local var_15_1 = arg_15_0.live2dChar:GetTouchPart()
+		local var_16_1 = arg_16_0.live2dChar:GetTouchPart()
 
-		if var_15_1 > 0 then
-			local var_15_2 = arg_15_0:GetTouchEvent(var_15_1)
+		if var_16_1 > 0 then
+			local var_16_2 = arg_16_0:GetTouchEvent(var_16_1)
 
-			var_15_0 = var_15_2[math.ceil(math.random(#var_15_2))]
+			var_16_0 = var_16_2[math.ceil(math.random(#var_16_2))]
 		else
-			local var_15_3 = arg_15_0:GetIdleEvents()
+			local var_16_3 = arg_16_0:GetIdleEvents()
 
-			var_15_0 = var_15_3[math.floor(math.Random(0, #var_15_3)) + 1]
+			var_16_0 = var_16_3[math.floor(math.Random(0, #var_16_3)) + 1]
 		end
 	end
 
-	if var_15_0 then
-		arg_15_0:TriggerEvent(var_15_0)
+	if var_16_0 then
+		arg_16_0:TriggerEvent(var_16_0)
 	end
 end
 
-function var_0_0._TriggerEvent(arg_16_0, arg_16_1)
-	if not arg_16_1 then
+function var_0_0._TriggerEvent(arg_17_0, arg_17_1)
+	if not arg_17_0.cvLoaded then
+		arg_17_0.pretriggerEvent = arg_17_1
+
 		return
 	end
 
-	if arg_16_0.actionWaiting then
+	if not arg_17_1 then
 		return
 	end
 
-	local var_16_0 = arg_16_0:GetEventConfig(arg_16_1)
+	if arg_17_0.actionWaiting then
+		return
+	end
 
-	local function var_16_1(arg_17_0)
-		if arg_17_0 then
-			if var_16_0.dialog ~= "" then
-				arg_16_0:DisplayWord(var_16_0.dialog)
+	local var_17_0 = arg_17_0:GetEventConfig(arg_17_1)
+
+	local function var_17_1(arg_18_0)
+		if arg_18_0 then
+			if var_17_0.dialog ~= "" then
+				arg_17_0:DisplayWord(var_17_0.dialog)
 			else
-				arg_16_0:TriggerNextEventAuto()
+				arg_17_0:TriggerNextEventAuto()
 			end
 		end
 
-		arg_16_0.actionWaiting = false
+		arg_17_0.actionWaiting = false
 	end
 
-	local var_16_2, var_16_3, var_16_4, var_16_5, var_16_6, var_16_7 = ShipWordHelper.GetCvDataForShip(arg_16_0.ship, var_16_0.dialog)
-	local var_16_8 = var_16_0.action
-	local var_16_9 = var_16_0.dialog
-	local var_16_10 = string.gsub(var_16_9, "main_", "main")
+	local var_17_2, var_17_3, var_17_4, var_17_5, var_17_6, var_17_7 = ShipWordHelper.GetCvDataForShip(arg_17_0.ship, var_17_0.dialog)
+	local var_17_8 = var_17_0.action
+	local var_17_9 = var_17_0.dialog
+	local var_17_10 = string.gsub(var_17_9, "main_", "main")
 
-	if arg_16_0.ship.propose and pg.character_voice[var_16_10] and arg_16_0.shipGroup and arg_16_0.shipGroup:VoiceReplayCodition(pg.character_voice[var_16_10]) and arg_16_0.live2dChar:checkActionExist(var_16_8 .. "_ex") then
-		var_16_8 = var_16_8 .. "_ex"
+	if arg_17_0.ship.propose and pg.character_voice[var_17_10] and arg_17_0.shipGroup and arg_17_0.shipGroup:VoiceReplayCodition(pg.character_voice[var_17_10]) and arg_17_0.live2dChar:checkActionExist(var_17_8 .. "_ex") then
+		var_17_8 = var_17_8 .. "_ex"
 	end
 
-	if not var_16_7 then
-		arg_16_0.actionWaiting = true
+	if not var_17_7 then
+		arg_17_0.actionWaiting = true
 
-		local var_16_11 = arg_16_0.live2dChar:TriggerAction(var_16_8)
+		local var_17_11 = arg_17_0.live2dChar:TriggerAction(var_17_8)
 
-		var_16_1(var_16_11)
+		var_17_1(var_17_11)
 	else
-		arg_16_0.actionWaiting = true
+		arg_17_0.actionWaiting = true
 
-		if not var_16_4 or var_16_4 == nil or var_16_4 == "" or var_16_4 == "nil" then
-			arg_16_0.actionWaiting = false
+		if not var_17_4 or var_17_4 == nil or var_17_4 == "" or var_17_4 == "nil" then
+			arg_17_0.actionWaiting = false
 
-			var_16_1(true)
+			var_17_1(true)
 		end
 
-		if not arg_16_0.live2dChar:TriggerAction(var_16_8, nil, nil, var_16_1) then
-			arg_16_0.actionWaiting = false
+		if not arg_17_0.live2dChar:TriggerAction(var_17_8, nil, nil, var_17_1) then
+			arg_17_0.actionWaiting = false
 		end
 	end
 end
 
-function var_0_0.PlayCV(arg_18_0, arg_18_1, arg_18_2, arg_18_3, arg_18_4)
-	arg_18_0:RemoveSeTimer()
+function var_0_0.PlayCV(arg_19_0, arg_19_1, arg_19_2, arg_19_3, arg_19_4)
+	arg_19_0:RemoveSeTimer()
 
-	if arg_18_1 then
-		arg_18_0.seTimer = Timer.New(function()
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/ui/" .. arg_18_1[1])
-		end, arg_18_1[2], 1)
+	if arg_19_1 then
+		arg_19_0.seTimer = Timer.New(function()
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3("event:/ui/" .. arg_19_1[1])
+		end, arg_19_1[2], 1)
 
-		arg_18_0.seTimer:Start()
+		arg_19_0.seTimer:Start()
 	end
 
-	local var_18_0 = ShipWordHelper.RawGetCVKey(arg_18_0.ship:getSkinId())
-	local var_18_1 = pg.CriMgr.GetCVBankName(var_18_0)
+	local var_19_0 = ShipWordHelper.RawGetCVKey(arg_19_0.ship:getSkinId())
+	local var_19_1 = pg.CriMgr.GetCVBankName(var_19_0)
 
-	arg_18_0.cvLoader:Load(var_18_1, arg_18_3, arg_18_2, arg_18_4)
+	arg_19_0.cvLoader:Load(var_19_1, arg_19_3, arg_19_2, arg_19_4)
 end
 
-function var_0_0.RemoveSeTimer(arg_20_0)
-	if arg_20_0.seTimer then
-		arg_20_0.seTimer:Stop()
+function var_0_0.RemoveSeTimer(arg_21_0)
+	if arg_21_0.seTimer then
+		arg_21_0.seTimer:Stop()
 
-		arg_20_0.seTimer = nil
+		arg_21_0.seTimer = nil
 	end
 end
 
-function var_0_0.PlayChangeSkinActionIn(arg_21_0, arg_21_1)
-	if arg_21_0.live2dChar:IsLoaded() then
-		if arg_21_0.live2dChar:checkActionExist("change_in") then
-			arg_21_0:TriggerEvent("event_change_in")
+function var_0_0.PlayChangeSkinActionIn(arg_22_0, arg_22_1)
+	if arg_22_0.live2dChar:IsLoaded() then
+		if arg_22_0.live2dChar:checkActionExist("change_in") then
+			arg_22_0:TriggerEvent("event_change_in")
 		else
-			arg_21_0:TriggerEvent("event_login")
+			arg_22_0:TriggerEvent("event_login")
 		end
 	else
-		arg_21_0._initTriggerAction = {
+		arg_22_0._initTriggerAction = {
 			"event_change_in",
 			"event_login"
 		}
 	end
 
-	if arg_21_1 and arg_21_1.callback then
-		arg_21_1.callback({
-			flag = true
-		})
-	end
-end
-
-function var_0_0.PlayChangeSkinActionOut(arg_22_0, arg_22_1)
-	if arg_22_0.live2dChar:IsLoaded() and arg_22_0.live2dChar:checkActionExist("change_out") then
-		arg_22_0:playSkinOut(arg_22_1)
-	elseif arg_22_1 and arg_22_1.callback then
+	if arg_22_1 and arg_22_1.callback then
 		arg_22_1.callback({
 			flag = true
 		})
 	end
 end
 
-function var_0_0.playSkinOut(arg_23_0, arg_23_1)
-	local function var_23_0()
-		if arg_23_1 and arg_23_1.callback then
-			arg_23_1.callback({
+function var_0_0.PlayChangeSkinActionOut(arg_23_0, arg_23_1)
+	if arg_23_0.live2dChar:IsLoaded() and arg_23_0.live2dChar:checkActionExist("change_out") then
+		arg_23_0:playSkinOut(arg_23_1)
+	elseif arg_23_1 and arg_23_1.callback then
+		arg_23_1.callback({
+			flag = true
+		})
+	end
+end
+
+function var_0_0.playSkinOut(arg_24_0, arg_24_1)
+	local function var_24_0()
+		if arg_24_1 and arg_24_1.callback then
+			arg_24_1.callback({
 				flag = true
 			})
 		end
 	end
 
-	if not arg_23_0.live2dChar:TriggerAction("change_out", function()
+	if not arg_24_0.live2dChar:TriggerAction("change_out", function()
 		return
 	end, false, function()
-		if var_23_0 then
-			var_23_0()
+		if var_24_0 then
+			var_24_0()
 
-			var_23_0 = nil
+			var_24_0 = nil
 		end
-	end) and var_23_0 then
-		var_23_0()
+	end) and var_24_0 then
+		var_24_0()
 
-		var_23_0 = nil
+		var_24_0 = nil
 	end
 end
 
-function var_0_0.OnDisplayWorld(arg_27_0)
+function var_0_0.OnDisplayWorld(arg_28_0)
 	return
 end
 
-function var_0_0.OnPuase(arg_28_0)
-	arg_28_0:RemoveScreenChangeTimer()
-	arg_28_0:ResetContainerPosition()
+function var_0_0.OnPause(arg_29_0)
+	arg_29_0:RemoveScreenChangeTimer()
+	arg_29_0:ResetContainerPosition()
 
-	arg_28_0.actionWaiting = false
+	arg_29_0.actionWaiting = false
 
-	arg_28_0.live2dChar:SetVisible(false)
+	arg_29_0:OnUnload()
 end
 
-function var_0_0.OnUpdateShip(arg_29_0, arg_29_1)
-	if arg_29_1 then
-		arg_29_0.live2dChar:updateShip(arg_29_1)
+function var_0_0.OnUpdateShip(arg_30_0, arg_30_1)
+	if arg_30_1 then
+		arg_30_0.live2dChar:updateShip(arg_30_1)
 	end
 end
 
-function var_0_0.SetContainerVisible(arg_30_0, arg_30_1)
+function var_0_0.SetContainerVisible(arg_31_0, arg_31_1)
 	return
 end
 
-function var_0_0.OnResume(arg_31_0)
-	arg_31_0:SetContainerVisible(true)
-	arg_31_0:AddScreenChangeTimer()
-	arg_31_0:UpdateContainerPosition()
-	arg_31_0.live2dChar:SetVisible(true)
-	arg_31_0.live2dChar:UpdateAtomSource()
+function var_0_0.IsLoaded(arg_32_0)
+	if not arg_32_0.live2dChar then
+		return false
+	end
+
+	return var_0_0.super.IsLoaded(arg_32_0)
 end
 
-function var_0_0.Dispose(arg_32_0)
-	var_0_0.super.Dispose(arg_32_0)
-	arg_32_0:RemoveSeTimer()
-	arg_32_0:RemoveScreenChangeTimer()
+function var_0_0.OnResume(arg_33_0)
+	arg_33_0:SetContainerVisible(true)
+	arg_33_0:AddScreenChangeTimer()
+	arg_33_0:UpdateContainerPosition()
+	onNextTick(function()
+		if arg_33_0.ship then
+			arg_33_0:Load(arg_33_0.ship)
+		end
+	end)
+end
 
-	if arg_32_0.eventTrigger then
-		ClearEventTrigger(arg_32_0.eventTrigger)
+function var_0_0.Dispose(arg_35_0)
+	var_0_0.super.Dispose(arg_35_0)
+	arg_35_0:RemoveSeTimer()
+	arg_35_0:RemoveScreenChangeTimer()
+
+	if arg_35_0.eventTrigger then
+		ClearEventTrigger(arg_35_0.eventTrigger)
 	end
 end
 
-function var_0_0.GetOffset(arg_33_0)
-	return arg_33_0.live2dContainer.localPosition.x
+function var_0_0.GetOffset(arg_36_0)
+	return arg_36_0.live2dContainer.localPosition.x
 end
 
-function var_0_0.GetCenterPos(arg_34_0)
-	return arg_34_0.live2dContainer.position
+function var_0_0.GetCenterPos(arg_37_0)
+	return arg_37_0.live2dContainer.position
 end
 
-function var_0_0.IslimitYPos(arg_35_0)
-	return MainPaintingShift.IsLimitYPos(arg_35_0.ship:getPainting())
+function var_0_0.IslimitYPos(arg_38_0)
+	return MainPaintingShift.IsLimitYPos(arg_38_0.ship:getPainting())
 end
 
 return var_0_0

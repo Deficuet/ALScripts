@@ -1,11 +1,11 @@
 local var_0_0 = class("NewYearSnackPage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.progressTpl = arg_1_0:findTF("ProgressTpl")
-	arg_1_0.progressTplContainer = arg_1_0:findTF("ProgressList")
+	arg_1_0.progressTpl = arg_1_0._tf:Find("ProgressTpl")
+	arg_1_0.progressTplContainer = arg_1_0._tf:Find("ProgressList")
 	arg_1_0.progressUIItemList = UIItemList.New(arg_1_0.progressTplContainer, arg_1_0.progressTpl)
-	arg_1_0.helpBtn = arg_1_0:findTF("HelpBtn")
-	arg_1_0.goBtn = arg_1_0:findTF("GoBtn")
+	arg_1_0.helpBtn = arg_1_0._tf:Find("HelpBtn")
+	arg_1_0.goBtn = arg_1_0._tf:Find("GoBtn")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)
@@ -25,10 +25,10 @@ function var_0_0.OnFirstFlush(arg_3_0)
 		if arg_4_0 == UIItemList.EventUpdate then
 			arg_4_1 = arg_4_1 + 1
 
-			local var_4_0 = arg_3_0:findTF("Locked", arg_4_2)
-			local var_4_1 = arg_3_0:findTF("Unlocked", arg_4_2)
-			local var_4_2 = arg_3_0:findTF("Finished", arg_4_2)
-			local var_4_3 = arg_3_0:findTF("FinalFinished", arg_4_2)
+			local var_4_0 = arg_4_2:Find("Locked")
+			local var_4_1 = arg_4_2:Find("Unlocked")
+			local var_4_2 = arg_4_2:Find("Finished")
+			local var_4_3 = arg_4_2:Find("FinalFinished")
 
 			setActive(var_4_0, arg_4_1 > arg_3_0.curDay)
 

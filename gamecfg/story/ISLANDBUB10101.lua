@@ -13,7 +13,7 @@ return {
 			characterId = 101000,
 			animation = "hi",
 			hideType = 2,
-			say = "您好，集会引导员莉莎为您服务。"
+			say = "Greetings. I'm Elizabeth, and I will be your get-together guide."
 		}
 	}
 }

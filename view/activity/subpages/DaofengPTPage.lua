@@ -12,7 +12,7 @@ function var_0_0.OnUpdateFlush(arg_1_0)
 		id = arg_1_0.ptData.resId
 	}):getIcon()
 
-	LoadImageSpriteAsync(var_1_3, arg_1_0:findTF("AD/icon"), false)
+	LoadImageSpriteAsync(var_1_3, arg_1_0._tf:Find("AD/icon"), false)
 end
 
 return var_0_0

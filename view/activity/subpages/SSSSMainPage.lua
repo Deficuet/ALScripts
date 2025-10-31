@@ -7,14 +7,14 @@ local var_0_4 = "event:/ui/kaiji"
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.effectBlankScreen = arg_1_0:findTF("blank_screen_effect", arg_1_0.bg)
-	arg_1_0.effectOpen = arg_1_0:findTF("open_effect", arg_1_0.bg)
-	arg_1_0.effectBlink = arg_1_0:findTF("blink_effect", arg_1_0.bg)
-	arg_1_0.effectClick = arg_1_0:findTF("click_effect", arg_1_0.bg)
+	arg_1_0.effectBlankScreen = arg_1_0.bg:Find("blank_screen_effect")
+	arg_1_0.effectOpen = arg_1_0.bg:Find("open_effect")
+	arg_1_0.effectBlink = arg_1_0.bg:Find("blink_effect")
+	arg_1_0.effectClick = arg_1_0.bg:Find("click_effect")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
-	arg_2_0.skinshopBtn = arg_2_0:findTF("skinshop", arg_2_0.btnList)
+	arg_2_0.skinshopBtn = arg_2_0.btnList:Find("skinshop")
 
 	onButton(arg_2_0, arg_2_0.skinshopBtn, function()
 		arg_2_0:PlayClickEffect(arg_2_0.skinshopBtn, function()
@@ -22,7 +22,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 		end)
 	end, SFX_PANEL)
 
-	arg_2_0.mountainBtn = arg_2_0:findTF("mountain", arg_2_0.btnList)
+	arg_2_0.mountainBtn = arg_2_0.btnList:Find("mountain")
 
 	onButton(arg_2_0, arg_2_0.mountainBtn, function()
 		arg_2_0:PlayClickEffect(arg_2_0.mountainBtn, function()
@@ -30,7 +30,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 		end)
 	end, SFX_PANEL)
 
-	arg_2_0.buildBtn = arg_2_0:findTF("build", arg_2_0.btnList)
+	arg_2_0.buildBtn = arg_2_0.btnList:Find("build")
 
 	onButton(arg_2_0, arg_2_0.buildBtn, function()
 		arg_2_0:PlayClickEffect(arg_2_0.buildBtn, function()
@@ -40,7 +40,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 		end)
 	end, SFX_PANEL)
 
-	arg_2_0.shopBtn = arg_2_0:findTF("shop", arg_2_0.btnList)
+	arg_2_0.shopBtn = arg_2_0.btnList:Find("shop")
 
 	onButton(arg_2_0, arg_2_0.shopBtn, function()
 		arg_2_0:PlayClickEffect(arg_2_0.shopBtn, function()
@@ -61,7 +61,7 @@ function var_0_0.OnFirstFlush(arg_2_0)
 		end)
 	end, SFX_PANEL)
 
-	arg_2_0.fightBtn = arg_2_0:findTF("fight", arg_2_0.btnList)
+	arg_2_0.fightBtn = arg_2_0.btnList:Find("fight")
 
 	onButton(arg_2_0, arg_2_0.fightBtn, function()
 		arg_2_0:PlayClickEffect(arg_2_0.fightBtn, function()

@@ -843,7 +843,7 @@ end
 function var_0_0.AutoFitScreen(arg_84_0)
 	local var_84_0 = Screen.width / Screen.height
 	local var_84_1 = 1.7777777777777777
-	local var_84_2 = arg_84_0:findTF("bg_back")
+	local var_84_2 = arg_84_0._tf:Find("bg_back")
 	local var_84_3 = 2331
 	local var_84_4 = var_84_2.rect.height
 	local var_84_5
@@ -901,24 +901,24 @@ function var_0_0.initData(arg_89_0)
 end
 
 function var_0_0.initUI(arg_91_0)
-	arg_91_0.clickMask = arg_91_0:findTF("ui/click_mask")
-	arg_91_0.mainUI = arg_91_0:findTF("ui/main_ui")
+	arg_91_0.clickMask = arg_91_0._tf:Find("ui/click_mask")
+	arg_91_0.mainUI = arg_91_0._tf:Find("ui/main_ui")
 	arg_91_0.listScrollRect = GetComponent(findTF(arg_91_0.mainUI, "item_list"), typeof(ScrollRect))
 
-	onButton(arg_91_0, arg_91_0:findTF("skin_btn", arg_91_0.mainUI), function()
+	onButton(arg_91_0, arg_91_0.mainUI:Find("skin_btn"), function()
 		local var_92_0 = pg.mini_game[arg_91_0:GetMGData().id].simple_config_data.skin_shop_id
 
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP, {
 			skinId = var_92_0
 		})
 	end, SFX_PANEL)
-	onButton(arg_91_0, arg_91_0:findTF("return_btn", arg_91_0.mainUI), function()
+	onButton(arg_91_0, arg_91_0.mainUI:Find("return_btn"), function()
 		arg_91_0:emit(var_0_0.ON_BACK_PRESSED)
 	end, SFX_PANEL)
-	onButton(arg_91_0, arg_91_0:findTF("main_btn", arg_91_0.mainUI), function()
+	onButton(arg_91_0, arg_91_0.mainUI:Find("main_btn"), function()
 		arg_91_0:emit(var_0_0.ON_HOME)
 	end, SFX_PANEL)
-	onButton(arg_91_0, arg_91_0:findTF("help_btn", arg_91_0.mainUI), function()
+	onButton(arg_91_0, arg_91_0.mainUI:Find("help_btn"), function()
 		local var_95_0 = arg_91_0:getGameRoomData().game_help
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -926,10 +926,10 @@ function var_0_0.initUI(arg_91_0)
 			helps = arg_91_0:getGameRoomData().game_help
 		})
 	end, SFX_PANEL)
-	onButton(arg_91_0, arg_91_0:findTF("start_btn", arg_91_0.mainUI), function()
+	onButton(arg_91_0, arg_91_0.mainUI:Find("start_btn"), function()
 		arg_91_0:readyStart()
 	end, SFX_PANEL)
-	onButton(arg_91_0, arg_91_0:findTF("rank_btn", arg_91_0.mainUI), function()
+	onButton(arg_91_0, arg_91_0.mainUI:Find("rank_btn"), function()
 		return
 	end, SFX_PANEL)
 
@@ -938,7 +938,7 @@ function var_0_0.initUI(arg_91_0)
 	local var_91_0 = arg_91_0:getGameUsedTimes() - 4 < 0 and 0 or arg_91_0:getGameUsedTimes() - 4
 
 	scrollTo(arg_91_0.listScrollRect, 0, 1 - var_91_0 / (arg_91_0.totalTimes - 4))
-	onButton(arg_91_0, arg_91_0:findTF("right_panel/arrows_up", arg_91_0.mainUI), function()
+	onButton(arg_91_0, arg_91_0.mainUI:Find("right_panel/arrows_up"), function()
 		local var_98_0 = arg_91_0.listScrollRect.normalizedPosition.y + 1 / (arg_91_0.totalTimes - 4)
 
 		if var_98_0 > 1 then
@@ -947,7 +947,7 @@ function var_0_0.initUI(arg_91_0)
 
 		scrollTo(arg_91_0.listScrollRect, 0, var_98_0)
 	end, SFX_PANEL)
-	onButton(arg_91_0, arg_91_0:findTF("right_panel/arrows_down", arg_91_0.mainUI), function()
+	onButton(arg_91_0, arg_91_0.mainUI:Find("right_panel/arrows_down"), function()
 		local var_99_0 = arg_91_0.listScrollRect.normalizedPosition.y - 1 / (arg_91_0.totalTimes - 4)
 
 		if var_99_0 < 0 then
@@ -957,9 +957,9 @@ function var_0_0.initUI(arg_91_0)
 		scrollTo(arg_91_0.listScrollRect, 0, var_99_0)
 	end, SFX_PANEL)
 
-	arg_91_0.countUI = arg_91_0:findTF("ui/count_ui")
-	arg_91_0.countAnimator = GetComponent(arg_91_0:findTF("count", arg_91_0.countUI), typeof(Animator))
-	arg_91_0.countDft = GetOrAddComponent(arg_91_0:findTF("count", arg_91_0.countUI), typeof(DftAniEvent))
+	arg_91_0.countUI = arg_91_0._tf:Find("ui/count_ui")
+	arg_91_0.countAnimator = GetComponent(arg_91_0.countUI:Find("count"), typeof(Animator))
+	arg_91_0.countDft = GetOrAddComponent(arg_91_0.countUI:Find("count"), typeof(DftAniEvent))
 
 	arg_91_0.countDft:SetTriggerEvent(function()
 		return
@@ -969,28 +969,28 @@ function var_0_0.initUI(arg_91_0)
 		arg_91_0:startGame()
 	end)
 
-	arg_91_0.pauseUI = arg_91_0:findTF("ui/pause_ui")
+	arg_91_0.pauseUI = arg_91_0._tf:Find("ui/pause_ui")
 
-	onButton(arg_91_0, arg_91_0:findTF("ad/panel/sure_btn", arg_91_0.pauseUI), function()
+	onButton(arg_91_0, arg_91_0.pauseUI:Find("ad/panel/sure_btn"), function()
 		setActive(arg_91_0.pauseUI, false)
 		arg_91_0:resumeGame()
 	end, SFX_PANEL)
 
-	arg_91_0.returnUI = arg_91_0:findTF("ui/return_ui")
+	arg_91_0.returnUI = arg_91_0._tf:Find("ui/return_ui")
 
-	onButton(arg_91_0, arg_91_0:findTF("ad/panel/sure_btn", arg_91_0.returnUI), function()
+	onButton(arg_91_0, arg_91_0.returnUI:Find("ad/panel/sure_btn"), function()
 		setActive(arg_91_0.returnUI, false)
 		arg_91_0:resumeGame()
 		arg_91_0:endGame()
 	end, SFX_PANEL)
-	onButton(arg_91_0, arg_91_0:findTF("ad/panel/cancel_btn", arg_91_0.returnUI), function()
+	onButton(arg_91_0, arg_91_0.returnUI:Find("ad/panel/cancel_btn"), function()
 		setActive(arg_91_0.returnUI, false)
 		arg_91_0:resumeGame()
 	end, SFX_PANEL)
 
-	arg_91_0.endUI = arg_91_0:findTF("ui/end_ui")
+	arg_91_0.endUI = arg_91_0._tf:Find("ui/end_ui")
 
-	onButton(arg_91_0, arg_91_0:findTF("ad/panel/end_btn", arg_91_0.endUI), function()
+	onButton(arg_91_0, arg_91_0.endUI:Find("ad/panel/end_btn"), function()
 		setActive(arg_91_0.endUI, false)
 		arg_91_0:openMainUI()
 	end, SFX_PANEL)
@@ -1003,41 +1003,41 @@ function var_0_0.initUI(arg_91_0)
 end
 
 function var_0_0.initGameUI(arg_106_0)
-	arg_106_0.gameUI = arg_106_0:findTF("ui/game_ui")
-	arg_106_0.roundTF = arg_106_0:findTF("score_panel/round_text", arg_106_0.gameUI)
-	arg_106_0.scoreTF = arg_106_0:findTF("score_panel/score_text", arg_106_0.gameUI)
+	arg_106_0.gameUI = arg_106_0._tf:Find("ui/game_ui")
+	arg_106_0.roundTF = arg_106_0.gameUI:Find("score_panel/round_text")
+	arg_106_0.scoreTF = arg_106_0.gameUI:Find("score_panel/score_text")
 
-	onButton(arg_106_0, arg_106_0:findTF("pause_btn", arg_106_0.gameUI), function()
+	onButton(arg_106_0, arg_106_0.gameUI:Find("pause_btn"), function()
 		arg_106_0:pauseGame()
 		setActive(arg_106_0.pauseUI, true)
 	end)
-	onButton(arg_106_0, arg_106_0:findTF("return_btn", arg_106_0.gameUI), function()
+	onButton(arg_106_0, arg_106_0.gameUI:Find("return_btn"), function()
 		arg_106_0:pauseGame()
 		setActive(arg_106_0.returnUI, true)
 	end)
 
-	arg_106_0.scoreGroup = arg_106_0:findTF("score_group", arg_106_0.gameUI)
+	arg_106_0.scoreGroup = arg_106_0.gameUI:Find("score_group")
 
-	setActive(arg_106_0:findTF("bg_front/wall"), var_0_39)
+	setActive(arg_106_0._tf:Find("bg_front/wall"), var_0_39)
 end
 
 function var_0_0.initController(arg_109_0)
-	arg_109_0.scene = arg_109_0:findTF("scene")
-	arg_109_0.gridTF = arg_109_0:findTF("ui/grid")
-	arg_109_0.player = var_0_48(arg_109_0:findTF("player", arg_109_0.scene), arg_109_0)
-	arg_109_0.phy = arg_109_0:findTF("Ayanami_phy", arg_109_0.scene)
-	arg_109_0.drawDot = arg_109_0:findTF("draw_dot", arg_109_0.scene)
-	arg_109_0.curlingTpls = arg_109_0:findTF("curling_Tpl", arg_109_0.scene)
+	arg_109_0.scene = arg_109_0._tf:Find("scene")
+	arg_109_0.gridTF = arg_109_0._tf:Find("ui/grid")
+	arg_109_0.player = var_0_48(arg_109_0.scene:Find("player"), arg_109_0)
+	arg_109_0.phy = arg_109_0.scene:Find("Ayanami_phy")
+	arg_109_0.drawDot = arg_109_0.scene:Find("draw_dot")
+	arg_109_0.curlingTpls = arg_109_0.scene:Find("curling_Tpl")
 	arg_109_0.curling = var_0_49(arg_109_0.curlingTpls, arg_109_0.player._tf, arg_109_0)
-	arg_109_0.ofunya = var_0_50(arg_109_0:findTF("bg_back/07_Ofunya"), arg_109_0)
-	arg_109_0.manjuu = var_0_51(arg_109_0:findTF("bg_back/08_Manjuu"), arg_109_0)
-	arg_109_0.walker = var_0_53(arg_109_0:findTF("obstacle/walker", arg_109_0.scene), arg_109_0)
-	arg_109_0.obsTF = arg_109_0:findTF("scene/obstacle")
+	arg_109_0.ofunya = var_0_50(arg_109_0._tf:Find("bg_back/07_Ofunya"), arg_109_0)
+	arg_109_0.manjuu = var_0_51(arg_109_0._tf:Find("bg_back/08_Manjuu"), arg_109_0)
+	arg_109_0.walker = var_0_53(arg_109_0.scene:Find("obstacle/walker"), arg_109_0)
+	arg_109_0.obsTF = arg_109_0._tf:Find("scene/obstacle")
 	arg_109_0.obsCanvas = GetComponent(arg_109_0.obsTF, typeof(CanvasGroup))
-	arg_109_0.obsTpl = arg_109_0:findTF("scene/obstacle_Tpl")
-	arg_109_0.minerGroups = arg_109_0:findTF("miner_groups", arg_109_0.obsTF)
-	arg_109_0.oilGroups = arg_109_0:findTF("oil_groups", arg_109_0.obsTF)
-	arg_109_0.cubeGroups = arg_109_0:findTF("cube_groups", arg_109_0.obsTF)
+	arg_109_0.obsTpl = arg_109_0._tf:Find("scene/obstacle_Tpl")
+	arg_109_0.minerGroups = arg_109_0.obsTF:Find("miner_groups")
+	arg_109_0.oilGroups = arg_109_0.obsTF:Find("oil_groups")
+	arg_109_0.cubeGroups = arg_109_0.obsTF:Find("cube_groups")
 end
 
 function var_0_0.updateMainUI(arg_110_0)
@@ -1172,7 +1172,7 @@ function var_0_0.staticObsStart(arg_115_0)
 	for iter_115_2, iter_115_3 in ipairs(var_0_37.oil) do
 		if math.random() <= iter_115_3.appear then
 			for iter_115_4 = 1, iter_115_3.num do
-				local var_115_6 = cloneTplTo(arg_115_0:findTF("oil_Tpl", arg_115_0.obsTpl), arg_115_0.oilGroups, "oil")
+				local var_115_6 = cloneTplTo(arg_115_0.obsTpl:Find("oil_Tpl"), arg_115_0.oilGroups, "oil")
 
 				setActive(var_115_6, true)
 
@@ -1190,7 +1190,7 @@ function var_0_0.staticObsStart(arg_115_0)
 	for iter_115_5, iter_115_6 in ipairs(var_0_37.cube) do
 		if math.random() <= iter_115_6.appear then
 			for iter_115_7 = 1, iter_115_6.num do
-				local var_115_8 = cloneTplTo(arg_115_0:findTF("cube_Tpl", arg_115_0.obsTpl), arg_115_0.cubeGroups, "cube")
+				local var_115_8 = cloneTplTo(arg_115_0.obsTpl:Find("cube_Tpl"), arg_115_0.cubeGroups, "cube")
 
 				setActive(var_115_8, true)
 
@@ -1210,7 +1210,7 @@ function var_0_0.staticObsStart(arg_115_0)
 	for iter_115_8, iter_115_9 in ipairs(var_0_37.miner) do
 		if math.random() <= iter_115_9.appear then
 			for iter_115_10 = 1, iter_115_9.num do
-				local var_115_10 = cloneTplTo(arg_115_0:findTF("miner_Tpl", arg_115_0.obsTpl), arg_115_0.minerGroups, "miner")
+				local var_115_10 = cloneTplTo(arg_115_0.obsTpl:Find("miner_Tpl"), arg_115_0.minerGroups, "miner")
 
 				setActive(var_115_10, true)
 
@@ -1278,7 +1278,7 @@ function var_0_0.updateGameUI(arg_126_0)
 end
 
 function var_0_0.addScore(arg_127_0, arg_127_1, arg_127_2)
-	local var_127_0 = cloneTplTo(arg_127_0:findTF("score_tf", arg_127_0.gameUI), arg_127_0.scoreGroup)
+	local var_127_0 = cloneTplTo(arg_127_0.gameUI:Find("score_tf"), arg_127_0.scoreGroup)
 
 	if arg_127_2 then
 		setLocalPosition(var_127_0, arg_127_2)
@@ -1355,7 +1355,7 @@ function var_0_0.showEndUI(arg_133_0)
 		local var_133_3 = 0
 	end
 
-	setActive(arg_133_0:findTF("ad/panel/cur_score/new", arg_133_0.endUI), var_133_2 < var_133_0)
+	setActive(arg_133_0.endUI:Find("ad/panel/cur_score/new"), var_133_2 < var_133_0)
 
 	if var_133_2 <= var_133_0 then
 		var_133_2 = var_133_0
@@ -1365,8 +1365,8 @@ function var_0_0.showEndUI(arg_133_0)
 		})
 	end
 
-	local var_133_4 = arg_133_0:findTF("ad/panel/highest_score", arg_133_0.endUI)
-	local var_133_5 = arg_133_0:findTF("ad/panel/cur_score", arg_133_0.endUI)
+	local var_133_4 = arg_133_0.endUI:Find("ad/panel/highest_score")
+	local var_133_5 = arg_133_0.endUI:Find("ad/panel/cur_score")
 
 	setText(var_133_4, var_133_2)
 	setText(var_133_5, var_133_0)

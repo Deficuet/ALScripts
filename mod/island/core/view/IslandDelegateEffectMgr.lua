@@ -4,49 +4,37 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 
 	arg_1_0.effectPath = pg.island_unit_item[1018].model
-	arg_1_0.selEffectPath = pg.island_unit_item[1019].model
-	arg_1_0.delegateEffectDic = {}
-	arg_1_0.delegateSelectEffectDic = {}
-	arg_1_0.delegateSelect = {}
+	arg_1_0.selectEffectPath = pg.island_unit_item[1019].model
+	arg_1_0.effectDic = {}
+	arg_1_0.effectIsShow = {}
 end
 
-function var_0_0.GenEffect(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
-	arg_2_0.delegateSelect[arg_2_1] = false
+function var_0_0.LoadDelegatePreviewRole(arg_2_0, arg_2_1, arg_2_2)
+	arg_2_0.modelData = arg_2_1
 
-	local var_2_0 = arg_2_0.delegateEffectDic[arg_2_1]
+	local var_2_0 = pg.island_world_objects[arg_2_2].param.position
+	local var_2_1 = Vector3(var_2_0[1], var_2_0[2], var_2_0[3])
+	local var_2_2 = pg.island_world_objects[arg_2_2].param.rotation
+	local var_2_3 = Vector3(var_2_2[1], var_2_2[2], var_2_2[3])
 
-	if var_2_0 then
-		arg_2_0:UpdatePositionAndRotation(arg_2_0.delegateEffectDic[arg_2_1], arg_2_2, arg_2_3)
-		setActive(var_2_0, true)
-	else
-		arg_2_0:GetPoolMgr():GetDelegateEffect(arg_2_0.effectPath, function(arg_3_0)
-			setParent(arg_3_0, arg_2_0:GetView().root)
+	arg_2_0:GetPoolMgr():GetCharacter(arg_2_1.model, arg_2_1.animator, function(arg_3_0)
+		arg_2_0.role = arg_3_0
+		arg_2_0.role.transform.eulerAngles = var_2_3
+		arg_2_0.role.transform.position = var_2_1
 
-			arg_2_0.delegateEffectDic[arg_2_1] = arg_3_0
+		local var_3_0 = pg.island_set.delegate_role_transparency.key_value_int / 100
 
-			arg_2_0:UpdatePositionAndRotation(arg_3_0, arg_2_2, arg_2_3)
+		GraphicsInterface.Instance:SetSelectedTransparency(arg_2_0.role.transform:GetChild(0).gameObject, var_3_0, true)
+	end)
+end
 
-			if arg_2_0.delegateSelect[arg_2_1] then
-				setActive(arg_3_0, false)
-			end
-		end)
-	end
+function var_0_0.UnLoadDelegatePreviewRole(arg_4_0)
+	if arg_4_0.role then
+		GraphicsInterface.Instance:SetSelectedTransparency(arg_4_0.role.transform:GetChild(0).gameObject, 0, false)
+		arg_4_0:GetPoolMgr():ReturnCharacter(arg_4_0.modelData.model, arg_4_0.modelData.animator, arg_4_0.role)
 
-	if arg_2_0.delegateSelectEffectDic[arg_2_1] then
-		arg_2_0:UpdatePositionAndRotation(arg_2_0.delegateSelectEffectDic[arg_2_1], arg_2_2, arg_2_3)
-		setActive(var_2_0, false)
-	else
-		arg_2_0:GetPoolMgr():GetDelegateEffect(arg_2_0.selEffectPath, function(arg_4_0)
-			setParent(arg_4_0, arg_2_0:GetView().root)
-
-			arg_2_0.delegateSelectEffectDic[arg_2_1] = arg_4_0
-
-			arg_2_0:UpdatePositionAndRotation(arg_4_0, arg_2_2, arg_2_3)
-
-			if arg_2_0.delegateSelect[arg_2_1] then
-				setActive(arg_4_0, true)
-			end
-		end)
+		arg_4_0.modelData = nil
+		arg_4_0.role = nil
 	end
 end
 
@@ -55,46 +43,81 @@ function var_0_0.UpdatePositionAndRotation(arg_5_0, arg_5_1, arg_5_2, arg_5_3)
 	arg_5_1.transform.position = arg_5_2
 end
 
-function var_0_0.UpdateEffect(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
-	if arg_6_0.delegateEffectDic[arg_6_1] then
-		arg_6_0:UpdatePositionAndRotation(arg_6_0.delegateEffectDic[arg_6_1], arg_6_2, arg_6_3)
-	end
+function var_0_0.SelectSlotEffectShow(arg_6_0, arg_6_1, arg_6_2, arg_6_3, arg_6_4)
+	local var_6_0 = arg_6_1 == arg_6_2
 
-	if arg_6_0.delegateSelectEffectDic[arg_6_1] then
-		arg_6_0:UpdatePositionAndRotation(arg_6_0.delegateSelectEffectDic[arg_6_1], arg_6_2, arg_6_3)
-	end
-end
+	arg_6_0.effectIsShow[arg_6_1] = var_6_0
 
-function var_0_0.OnDefaultSlotEffectShow(arg_7_0, arg_7_1, arg_7_2)
-	if arg_7_0.delegateEffectDic[arg_7_1] then
-		setActive(arg_7_0.delegateEffectDic[arg_7_1], arg_7_2)
+	if not var_6_0 then
+		local var_6_1 = arg_6_0.effectDic[arg_6_1]
+
+		if var_6_1 then
+			setActive(var_6_1, true)
+			arg_6_0:UpdatePositionAndRotation(var_6_1, arg_6_3, arg_6_4)
+
+			return
+		end
+
+		arg_6_0:GetPoolMgr():GetDelegateEffect(arg_6_0.effectPath, function(arg_7_0)
+			if arg_6_0.effectIsShow[arg_6_1] then
+				return
+			end
+
+			setParent(arg_7_0, arg_6_0:GetView().root)
+
+			arg_6_0.effectDic[arg_6_1] = arg_7_0
+
+			arg_6_0:UpdatePositionAndRotation(arg_7_0, arg_6_3, arg_6_4)
+		end)
 	else
-		arg_7_0.delegateSelect[arg_7_1] = arg_7_2
+		if arg_6_0.effectDic[arg_6_1] then
+			setActive(arg_6_0.effectDic[arg_6_1], false)
+		end
+
+		if arg_6_0.selectEffect then
+			arg_6_0:UpdatePositionAndRotation(arg_6_0.selectEffect, arg_6_3, arg_6_4)
+
+			return
+		end
+
+		arg_6_0:GetPoolMgr():GetDelegateEffect(arg_6_0.selectEffectPath, function(arg_8_0)
+			if not arg_6_0.effectIsShow[arg_6_1] then
+				return
+			end
+
+			setParent(arg_8_0, arg_6_0:GetView().root)
+
+			arg_6_0.selectEffect = arg_8_0
+
+			arg_6_0:UpdatePositionAndRotation(arg_8_0, arg_6_3, arg_6_4)
+		end)
 	end
 end
 
-function var_0_0.OnSelectSlotEffectShow(arg_8_0, arg_8_1, arg_8_2)
-	if arg_8_0.delegateSelectEffectDic[arg_8_1] then
-		setActive(arg_8_0.delegateSelectEffectDic[arg_8_1], arg_8_2)
-	else
-		arg_8_0.delegateSelect[arg_8_1] = arg_8_2
+function var_0_0.RecycleAllSlotEffct(arg_9_0)
+	for iter_9_0, iter_9_1 in pairs(arg_9_0.effectIsShow) do
+		arg_9_0.effectIsShow[iter_9_0] = false
 	end
+
+	arg_9_0.effectIsShow = {}
+
+	for iter_9_2, iter_9_3 in pairs(arg_9_0.effectDic) do
+		if not IsNil(iter_9_3) then
+			arg_9_0:GetPoolMgr():ReturnDelegateEffect(arg_9_0.effectPath, iter_9_3)
+		end
+	end
+
+	arg_9_0.effectDic = {}
+
+	if not IsNil(arg_9_0.selectEffect) then
+		arg_9_0:GetPoolMgr():ReturnDelegateEffect(arg_9_0.selectEffect, arg_9_0.selectEffect)
+	end
+
+	arg_9_0.selectEffect = nil
 end
 
-function var_0_0.OnDestroy(arg_9_0)
-	for iter_9_0, iter_9_1 in ipairs(arg_9_0.delegateSelectEffectDic) do
-		arg_9_0:GetPoolMgr():ReturnDelegateEffect(arg_9_0.selEffectPath, iter_9_1)
-	end
-
-	for iter_9_2, iter_9_3 in ipairs(arg_9_0.delegateEffectDic) do
-		arg_9_0:GetPoolMgr():ReturnDelegateEffect(arg_9_0.effectPath, iter_9_3)
-	end
-
-	arg_9_0:GetPoolMgr():ClearDelegateEffect()
-
-	arg_9_0.delegateSelectEffectDic = nil
-	arg_9_0.delegateEffectDic = nil
-	arg_9_0.delegateSelect = nil
+function var_0_0.OnDestroy(arg_10_0)
+	arg_10_0:RecycleAllSlotEffct()
 end
 
 return var_0_0

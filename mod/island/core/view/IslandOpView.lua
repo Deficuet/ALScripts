@@ -11,19 +11,19 @@ var_0_0.OperationType = {
 }
 
 function var_0_0.GetUIName(arg_1_0)
-	return "IslandOpUI"
+	return "IslandEmptyUI"
 end
 
 function var_0_0.OnInit(arg_2_0, arg_2_1)
-	arg_2_0.showBalance = 1
-	arg_2_0.timers = {}
+	arg_2_0.opUI = arg_2_0:GetPoolMgr():GetOpUI().transform
+
+	setParent(arg_2_0.opUI, arg_2_1)
+
+	arg_2_0.showBalance = arg_2_0:GetView():GetCacheOpCount() or 1
 	arg_2_0.inputController = IslandCameraMgr.instance.gameObject:GetComponent(typeof(InputController))
 	arg_2_0._go = arg_2_1
 	arg_2_0._tf = arg_2_1.transform
-	arg_2_0.timeMgr = pg.TimeMgr.GetInstance()
-	arg_2_0.interactionPanel = arg_2_0._tf:Find("interaction_btns")
-	arg_2_0.interactionUIItemList = UIItemList.New(arg_2_0.interactionPanel, arg_2_0.interactionPanel:Find("interaction"))
-	arg_2_0.opPanel = arg_2_0._tf:Find("op_btns")
+	arg_2_0.opPanel = arg_2_0.opUI:Find("op_btns")
 	arg_2_0.opBtn = arg_2_0.opPanel:Find("op_btn")
 	arg_2_0.opBtnList = {
 		arg_2_0.opBtn:Find("interaction"),
@@ -35,37 +35,33 @@ function var_0_0.OnInit(arg_2_0, arg_2_1)
 	}
 	arg_2_0.seedBtn = arg_2_0.opPanel:Find("seed")
 	arg_2_0.seedEmpty = arg_2_0.seedBtn:Find("seedEmpty")
-	arg_2_0.seedSelectPlane = arg_2_0._tf:Find("seed_select")
-	arg_2_0.seedSelectPlaneCloseBg = arg_2_0._tf:Find("seed_select_closeBg")
-	arg_2_0.seed_detals = arg_2_0._tf:Find("seed_detals")
-	arg_2_0.animationOpBtn = arg_2_0.opPanel:Find("aniamtionop")
-
-	setActive(arg_2_0.seed_detals, false)
-	arg_2_0:ActiveSeedSelect(false)
-	onButton(arg_2_0, arg_2_0.seedSelectPlaneCloseBg, function()
-		setActive(arg_2_0.seed_detals, false)
-		arg_2_0:ActiveSeedSelect(false)
-	end, SFX_PANEL)
-
-	arg_2_0.uiSeedItemList = UIItemList.New(arg_2_0.seedSelectPlane:Find("content"), arg_2_0.seedSelectPlane:Find("content/itemSeed"))
-	arg_2_0.isSelectSeedPlane = false
 	arg_2_0.areaChangeBtn = arg_2_0.opPanel:Find("scope")
-	arg_2_0.interactionBtnOther = arg_2_0.opPanel:Find("interaction")
 	arg_2_0.run = arg_2_0.opPanel:Find("run")
-	arg_2_0.moveBtn = arg_2_0._tf:Find("move")
+	arg_2_0.moveBtn = arg_2_0.opUI:Find("move")
+	arg_2_0.animationOpBtn = arg_2_0.opPanel:Find("aniamtionop")
+	arg_2_0.animationOpEffect = arg_2_0.animationOpBtn:Find("effect")
+	arg_2_0.followerBtn = arg_2_0.opPanel:Find("follower")
+	arg_2_0.animationOpEffectCounter = {}
+
+	local var_2_0 = arg_2_0.followerBtn:GetComponent(typeof(ItemList))
+
+	arg_2_0.uiFollowerPanel = arg_2_0.followerBtn:Find("list")
+	arg_2_0.uiFollowerList = UIItemList.New(arg_2_0.uiFollowerPanel, var_2_0.prefabItem[0])
 
 	setActive(arg_2_0.opPanel, true)
-
-	arg_2_0.targetTracker = IslandTargetTracker.New(arg_2_0._tf)
-
-	arg_2_0:ShowInterActionPanel({
-		type = -1
-	})
 	onButton(arg_2_0, arg_2_0.areaChangeBtn, function()
-		arg_2_0:Emit(ISLAND_EVT.AREACHANGE)
+		arg_2_0:NotifiyCore(ISLAND_EVT.AREACHANGE)
 	end, SFX_PANEL)
 	onButton(arg_2_0, arg_2_0.animationOpBtn, function()
-		arg_2_0:Emit(ISLAND_EVT.OPEN_ANIMATION_OP)
+		arg_2_0:NotifiyCore(ISLAND_EVT.OPEN_ANIMATION_OP)
+	end, SFX_PANEL)
+	onButton(arg_2_0, arg_2_0.followerBtn, function()
+		if isActive(arg_2_0.uiFollowerPanel) then
+			arg_2_0:RemoveFollowerListTimer()
+			setActive(arg_2_0.uiFollowerPanel, false)
+		else
+			arg_2_0:ShowFollowerList()
+		end
 	end, SFX_PANEL)
 
 	arg_2_0.operationType = var_0_0.OperationType.None
@@ -73,545 +69,456 @@ function var_0_0.OnInit(arg_2_0, arg_2_1)
 	arg_2_0:UpdateOperationButtonDisplay()
 
 	arg_2_0.playerInputManager = arg_2_0.view:GetController().playerInputManager
+
+	arg_2_0:InitOpCustumPositon()
+	arg_2_0:UpdateFollowBtn()
+	arg_2_0:UpdateAnimationOpBtn()
 end
 
-function var_0_0.UpdateOperationButton(arg_6_0, arg_6_1, arg_6_2)
-	if arg_6_1 == var_0_0.OperationType.None then
-		if arg_6_0.unitId == arg_6_2 then
-			arg_6_0.unitId = nil
-			arg_6_0.operationType = arg_6_1
-		end
+function var_0_0.LaterInit(arg_6_0)
+	if arg_6_0.showBalance < 1 then
+		arg_6_0:DisablePlayerOp()
+	end
+end
+
+function var_0_0.UpdateAnimationOpBtn(arg_7_0)
+	local var_7_0 = getProxy(IslandProxy):GetIsland():GetAblityAgency()
+
+	setActive(arg_7_0.animationOpBtn, var_7_0:HasAbility(IslandAblityAgency.ANIMATION_OP_ID))
+end
+
+function var_0_0.UpdateAnimationOpEffect(arg_8_0, arg_8_1, arg_8_2)
+	if arg_8_2 then
+		table.insert(arg_8_0.animationOpEffectCounter, arg_8_1)
 	else
-		arg_6_0.unitId = arg_6_2
-		arg_6_0.operationType = arg_6_1
+		table.removebyvalue(arg_8_0.animationOpEffectCounter, arg_8_1)
 	end
 
-	arg_6_0:UpdateOperationButtonDisplay()
+	local var_8_0 = _.map(arg_8_0.animationOpEffectCounter, function(arg_9_0)
+		local var_9_0, var_9_1 = IslandCalcUtil.GetTypeAndIdByUniqueId(arg_9_0)
+
+		return arg_8_0:GetView():GetUnitModuleWithType(var_9_0, var_9_1)
+	end)
+	local var_8_1 = _.detect(var_8_0, function(arg_10_0)
+		return arg_10_0 and isa(arg_10_0, IslandStrollNpcUnit) and arg_10_0:ExistActionFeedbackBubble()
+	end)
+
+	setActive(arg_8_0.animationOpEffect, var_8_1)
 end
 
-function var_0_0.UpdateOperationButtonDisplay(arg_7_0)
-	if arg_7_0.operationType == var_0_0.OperationType.None then
-		setActive(arg_7_0.opBtn, false)
-		setActive(arg_7_0.areaChangeBtn, false)
-		setActive(arg_7_0.seedBtn, false)
-		setActive(arg_7_0.seed_detals, false)
-		arg_7_0:ActiveSeedSelect(false)
+function var_0_0.UpdateFollowBtn(arg_11_0)
+	if #getProxy(IslandProxy):GetIsland():GetFollowerAgency():GetFollowers() <= 0 or not arg_11_0:IsSelfIsland() then
+		setActive(arg_11_0.followerBtn, false)
 
 		return
 	end
 
-	function OptionBtnDisplay(arg_8_0)
-		for iter_8_0, iter_8_1 in ipairs(arg_7_0.opBtnList) do
-			local var_8_0 = iter_8_0 == arg_8_0
+	setActive(arg_11_0.followerBtn, true)
+end
 
-			setActive(iter_8_1, var_8_0)
+function var_0_0.ShowFollowerList(arg_12_0)
+	local var_12_0 = getProxy(IslandProxy):GetIsland()
+	local var_12_1 = var_12_0:GetFollowerAgency():GetFollowers()
+	local var_12_2 = var_12_0:GetCharacterAgency()
+
+	if #var_12_1 <= 0 then
+		return
+	end
+
+	arg_12_0.uiFollowerList:make(function(arg_13_0, arg_13_1, arg_13_2)
+		if arg_13_0 == UIItemList.EventUpdate then
+			local var_13_0 = var_12_1[arg_13_1 + 1]
+			local var_13_1 = var_12_2:GetShipById(var_13_0)
+			local var_13_2 = IslandShip.StaticGetPrefab(var_13_1.configId)
+
+			GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. var_13_2, "", arg_13_2:Find("icon"))
+			onButton(arg_12_0, arg_13_2, function()
+				arg_12_0:NotifiyMeditor(IslandMediator.DEL_FOLLOWER, var_13_1.id)
+			end, SFX_PANEL)
+		end
+	end)
+	arg_12_0.uiFollowerList:align(#var_12_1)
+	setActive(arg_12_0.uiFollowerPanel, true)
+	arg_12_0:AddDisableFollowerListTimer()
+end
+
+function var_0_0.AddDisableFollowerListTimer(arg_15_0)
+	arg_15_0:RemoveFollowerListTimer()
+
+	arg_15_0.followerTimer = Timer.New(function()
+		arg_15_0:RemoveFollowerListTimer()
+		setActive(arg_15_0.uiFollowerPanel, false)
+	end, 5, 1)
+
+	arg_15_0.followerTimer:Start()
+end
+
+function var_0_0.RemoveFollowerListTimer(arg_17_0)
+	if arg_17_0.followerTimer then
+		arg_17_0.followerTimer:Stop()
+
+		arg_17_0.followerTimer = nil
+	end
+end
+
+function var_0_0.FlushFollowerList(arg_18_0)
+	arg_18_0:UpdateFollowBtn()
+
+	if not arg_18_0.followerTimer then
+		return
+	end
+
+	arg_18_0:ShowFollowerList()
+end
+
+function var_0_0.InitOpCustumPositon(arg_19_0)
+	local var_19_0 = tf(GameObject.Find("UICamera/Canvas")).sizeDelta
+	local var_19_1 = var_19_0.x / IslandSettingsConst.settingRectSize.x
+	local var_19_2 = var_19_0.y / IslandSettingsConst.settingRectSize.y
+	local var_19_3 = IslandSettingsConst.ISLAND_JOY_STICK_DEFAULT_PREFERENCE
+	local var_19_4 = PlayerPrefs.GetFloat(IslandSettingsConst.ISLAND_KEY_JOYSTICK_ANCHORX, var_19_3.x)
+	local var_19_5 = PlayerPrefs.GetFloat(IslandSettingsConst.ISLAND_KEY_JOYSTICK_ANCHORY, var_19_3.y)
+
+	arg_19_0.moveBtn.anchoredPosition = Vector2(var_19_4 * var_19_1, var_19_5 * var_19_2)
+
+	local var_19_6 = {
+		arg_19_0.opBtn,
+		arg_19_0.opPanel:Find("jump"),
+		arg_19_0.areaChangeBtn,
+		arg_19_0.seedBtn
+	}
+
+	for iter_19_0, iter_19_1 in ipairs(var_19_6) do
+		local var_19_7 = IslandSettingsConst.OPERATION_DEFAULT_PREFERENCE[iter_19_0]
+		local var_19_8 = PlayerPrefs.GetFloat(IslandSettingsConst.ISLAND_KEY_OPERATION_ANCHORX[iter_19_0], var_19_7.x)
+		local var_19_9 = PlayerPrefs.GetFloat(IslandSettingsConst.ISLAND_KEY_OPERATION_ANCHORY[iter_19_0], var_19_7.y)
+
+		iter_19_1.anchoredPosition = Vector2(var_19_8 * var_19_1, var_19_9 * var_19_2)
+	end
+end
+
+function var_0_0.UpdateOperationButton(arg_20_0, arg_20_1, arg_20_2)
+	if arg_20_1 == var_0_0.OperationType.None then
+		if arg_20_0.unitId == arg_20_2 then
+			arg_20_0.unitId = nil
+			arg_20_0.operationType = arg_20_1
+		end
+	else
+		arg_20_0.unitId = arg_20_2
+		arg_20_0.operationType = arg_20_1
+	end
+
+	arg_20_0:UpdateOperationButtonDisplay()
+end
+
+function var_0_0.UpdateOperationButtonDisplay(arg_21_0)
+	if arg_21_0.operationType == var_0_0.OperationType.None then
+		setActive(arg_21_0.opBtn, false)
+		setActive(arg_21_0.areaChangeBtn, false)
+		setActive(arg_21_0.seedBtn, false)
+		arg_21_0:GetView():GetSubView(IslandSeedOpView):ActiveSeedSelect(false)
+		arg_21_0:GetView():GetSubView(IslandSeedOpView):ActiveSeedDetals(false)
+
+		return
+	end
+
+	function OptionBtnDisplay(arg_22_0)
+		for iter_22_0, iter_22_1 in ipairs(arg_21_0.opBtnList) do
+			local var_22_0 = iter_22_0 == arg_22_0
+
+			setActive(iter_22_1, var_22_0)
 		end
 	end
 
-	setActive(arg_7_0.opBtn, true)
+	if not arg_21_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_21_0.unitId) then
+		setActive(arg_21_0.opBtn, false)
+		setActive(arg_21_0.areaChangeBtn, false)
+		setActive(arg_21_0.seedBtn, false)
+		arg_21_0:GetView():GetSubView(IslandSeedOpView):ActiveSeedSelect(false)
+		arg_21_0:GetView():GetSubView(IslandSeedOpView):ActiveSeedDetals(false)
 
-	local function var_7_0()
-		OptionBtnDisplay(arg_7_0.operationType)
-		onButton(arg_7_0, arg_7_0.opBtn, function()
-			local var_10_0 = arg_7_0.view:GetCore()
-			local var_10_1 = arg_7_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_7_0.unitId)
-			local var_10_2 = var_10_1:GetToolId()
-			local var_10_3 = var_10_1:GetAnimatorTrigger()
-			local var_10_4 = var_10_1:StartColloct(var_10_2)
-
-			if var_10_4 == 3 then
-				var_10_0.controller.playerInputManager:UpdataWorkStateFunc(var_10_3, var_10_1.position, var_10_2)
-			elseif var_10_4 == 2 then
-				var_10_0.controller.playerInputManager:UpdataWorkStateFunc(var_10_3, var_10_1.position, var_10_2)
-				arg_7_0.view:OnUpdateHud(arg_7_0.unitId)
-			end
-		end, SFX_PANEL)
-		setActive(arg_7_0.areaChangeBtn, false)
-		setActive(arg_7_0.seedBtn, false)
+		return
 	end
 
-	switch(arg_7_0.operationType, {
+	setActive(arg_21_0.opBtn, true)
+
+	local function var_21_0()
+		OptionBtnDisplay(arg_21_0.operationType)
+		onButton(arg_21_0, arg_21_0.opBtn, function()
+			local var_24_0 = arg_21_0.view:GetCore()
+			local var_24_1 = arg_21_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_21_0.unitId)
+			local var_24_2 = var_24_1:GetAnimatorTrigger()
+
+			if var_24_1:CheckCanStartColloct() then
+				var_24_0.controller.playerInputManager:UpdataWorkStateFunc(var_24_2, var_24_1)
+			end
+		end, SFX_PANEL)
+		setActive(arg_21_0.areaChangeBtn, false)
+		setActive(arg_21_0.seedBtn, false)
+	end
+
+	switch(arg_21_0.operationType, {
 		[var_0_0.OperationType.Plant] = function()
-			local var_11_0 = arg_7_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_7_0.unitId)
+			local var_25_0 = arg_21_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_21_0.unitId)
 
-			if var_11_0:CanHarvest() then
+			if var_25_0:CanHarvest() then
 				OptionBtnDisplay(var_0_0.OperationType.Harvest)
-				onButton(arg_7_0, arg_7_0.opBtn, function()
-					arg_7_0.view:GetCore().controller.playerInputManager:UpdataWorkStateFunc(IslandConst.GAHTER_FLAG, var_11_0.position)
+				onButton(arg_21_0, arg_21_0.opBtn, function()
+					arg_21_0.view:GetCore().controller.playerInputManager:UpdataWorkStateFunc(IslandConst.GAHTER_FLAG, var_25_0)
 
-					local var_12_0 = {}
+					local var_26_0 = {}
 
-					for iter_12_0, iter_12_1 in ipairs(arg_7_0.view.detectionSystem:GetAreaList()) do
-						local var_12_1 = arg_7_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, iter_12_1)
+					for iter_26_0, iter_26_1 in ipairs(arg_21_0.view.detectionSystem:GetAreaList()) do
+						local var_26_1 = arg_21_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, iter_26_1)
 
-						table.insert(var_12_0, var_12_1.handDate.configId)
+						table.insert(var_26_0, var_26_1.handDate.configId)
 					end
 
 					pg.m02:sendNotification(GAME.ISLAND_START_HANDLE_HARVEST, {
-						slot_list = var_12_0
+						slot_list = var_26_0
 					})
 				end, SFX_PANEL)
-				setActive(arg_7_0.seedBtn, false)
-			elseif var_11_0:CanPlant() then
+				setActive(arg_21_0.seedBtn, false)
+			elseif var_25_0:CanPlant() then
 				IslandGuideChecker.CheckGuide("ISLAND_GUIDE_22")
 				OptionBtnDisplay(var_0_0.OperationType.Plant)
-				onButton(arg_7_0, arg_7_0.opBtn, function()
-					if not arg_7_0.selectseedItemId then
-						pg.TipsMgr.GetInstance():ShowTips("点左下角空白按钮选个种子再种地")
+				onButton(arg_21_0, arg_21_0.opBtn, function()
+					if not arg_21_0:GetView():GetSubView(IslandSeedOpView).selectseedItemId then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("island_production_seeds_empty"))
 
 						return
 					end
 
-					local var_13_0 = pg.island_farm_seed[arg_7_0.selectseedItemId]
-					local var_13_1 = pg.island_formula[var_13_0.formulaid]
-					local var_13_2 = #arg_7_0.view.detectionSystem:GetAreaList()
+					local var_27_0 = pg.island_farm_seed[arg_21_0:GetView():GetSubView(IslandSeedOpView).selectseedItemId]
+					local var_27_1 = pg.island_formula[var_27_0.formulaid]
+					local var_27_2 = #arg_21_0.view.detectionSystem:GetAreaList()
 
-					if not (function(arg_14_0)
-						local var_14_0 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
+					if not (function(arg_28_0)
+						local var_28_0 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
 
-						for iter_14_0, iter_14_1 in ipairs(arg_14_0) do
-							local var_14_1 = iter_14_1[1]
-							local var_14_2 = iter_14_1[2]
+						for iter_28_0, iter_28_1 in ipairs(arg_28_0) do
+							local var_28_1 = iter_28_1[1]
+							local var_28_2 = iter_28_1[2]
 
-							if var_14_0:GetItemById(var_14_1):GetCount() < var_14_2 * var_13_2 then
+							if var_28_0:GetItemById(var_28_1):GetCount() < var_28_2 * var_27_2 then
 								return false
 							end
 
 							return true
 						end
-					end)(var_13_1.cost) then
-						pg.TipsMgr.GetInstance():ShowTips("种子数量不够")
+					end)(var_27_1.cost) then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("island_production_seeds_notenough"))
 
 						return
 					end
 
-					local var_13_3 = {}
+					local var_27_3 = {}
 
-					for iter_13_0, iter_13_1 in ipairs(arg_7_0.view.detectionSystem:GetAreaList()) do
-						local var_13_4 = arg_7_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, iter_13_1)
+					for iter_27_0, iter_27_1 in ipairs(arg_21_0.view.detectionSystem:GetAreaList()) do
+						local var_27_4 = arg_21_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, iter_27_1)
 
-						table.insert(var_13_3, var_13_4.handDate.configId)
+						table.insert(var_27_3, var_27_4.handDate.configId)
 					end
 
 					pg.m02:sendNotification(GAME.ISLAND_START_HANDLE_PLANT, {
-						slot_list = var_13_3,
-						formula_id = var_13_0.formulaid
+						slot_list = var_27_3,
+						formula_id = var_27_0.formulaid
 					})
-					arg_7_0.view:GetCore().controller.playerInputManager:UpdataWorkStateFunc(IslandConst.SOW_FLAG, var_11_0.position)
+					arg_21_0.view:GetCore().controller.playerInputManager:UpdataWorkStateFunc(IslandConst.SOW_FLAG, var_25_0)
 				end, SFX_PANEL)
 
-				local var_11_1 = arg_7_0:CheckSeedEmpty(var_11_0)
+				local var_25_1 = arg_21_0:GetView():GetSubView(IslandSeedOpView):CheckSeedEmpty(var_25_0)
 
-				setActive(arg_7_0.seedEmpty, var_11_1)
-				setActive(arg_7_0.seedBtn, true)
-				setActive(arg_7_0.seedBtn:Find("seedItem"), not var_11_1)
+				setActive(arg_21_0.seedEmpty, var_25_1)
+				setActive(arg_21_0.seedBtn, true)
+				setActive(arg_21_0.seedBtn:Find("seedItem"), not var_25_1)
 
-				if not var_11_1 then
-					onButton(arg_7_0, arg_7_0.seedBtn, function()
-						arg_7_0:ActiveSeedSelect(true)
-						arg_7_0:RefreshSeedPlane(var_11_0)
+				if not var_25_1 then
+					onButton(arg_21_0, arg_21_0.seedBtn, function()
+						arg_21_0:GetView():GetSubView(IslandSeedOpView):ActiveSeedSelect(true)
+						arg_21_0:GetView():GetSubView(IslandSeedOpView):RefreshSeedPlane(var_25_0)
 					end, SFX_PANEL)
-					arg_7_0:RefreshCurrentSlectSeed()
+					arg_21_0:RefreshCurrentSlectSeed()
 				end
 			else
 				OptionBtnDisplay(var_0_0.OperationType.Interaction)
-				onButton(arg_7_0, arg_7_0.opBtn, function()
-					pg.TipsMgr.GetInstance():ShowTips("正在种植中,等等吧")
+				onButton(arg_21_0, arg_21_0.opBtn, function()
+					pg.TipsMgr.GetInstance():ShowTips(i18n("island_production_being_planted"))
 				end, SFX_PANEL)
-				setActive(arg_7_0.seedBtn, false)
+				setActive(arg_21_0.seedBtn, false)
 			end
 
-			setActive(arg_7_0.areaChangeBtn, getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlockAreaPlant())
+			local var_25_2 = var_25_0:GetDataVO().slotData.configId
+			local var_25_3 = pg.island_production_slot[var_25_2].place == IslandProductConst.FarmlandPlaceId
+
+			setActive(arg_21_0.areaChangeBtn, var_25_3 and getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlockAreaPlant())
 		end,
 		[var_0_0.OperationType.MiningCollect] = function()
-			var_7_0()
+			var_21_0()
 		end,
 		[var_0_0.OperationType.WildGather] = function()
-			local var_18_0 = arg_7_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_7_0.unitId)
-			local var_18_1 = arg_7_0.view:GetIsland()
+			local var_32_0 = arg_21_0.view:GetUnitModuleWithType(IslandConst.UNIT_LIST_OBJ, arg_21_0.unitId)
+			local var_32_1 = arg_21_0.view:GetIsland()
 
-			if var_18_1.id == getProxy(IslandProxy):GetIsland().id then
+			if var_32_1.id == getProxy(IslandProxy):GetIsland().id then
 				OptionBtnDisplay(var_0_0.OperationType.WildGather)
-				onButton(arg_7_0, arg_7_0.opBtn, function()
-					arg_7_0.view:GetCore().controller.playerInputManager:UpdataWorkStateFunc(IslandConst.GAHTERD_FLAG, var_18_0.position)
-					var_18_0:StartGather(var_18_1.id)
+				onButton(arg_21_0, arg_21_0.opBtn, function()
+					arg_21_0.view:GetCore().controller.playerInputManager:UpdataWorkStateFunc(IslandConst.GAHTERD_FLAG, var_32_0)
+					var_32_0:StartGather(var_32_1.id)
 				end, SFX_PANEL)
-			elseif var_18_0:CheckGatherCanSign() then
+			elseif var_32_0:CheckGatherCanSign() then
 				OptionBtnDisplay(var_0_0.OperationType.WildGather)
-				onButton(arg_7_0, arg_7_0.opBtn, function()
-					var_18_0:StartGaherSign(var_18_1.id)
+				onButton(arg_21_0, arg_21_0.opBtn, function()
+					var_32_0:StartGaherSign(var_32_1.id)
 				end, SFX_PANEL)
 			else
-				setActive(arg_7_0.opBtn, false)
+				setActive(arg_21_0.opBtn, false)
 			end
 		end,
 		[var_0_0.OperationType.FellCollect] = function()
-			var_7_0()
+			var_21_0()
 		end
 	})
 end
 
-function var_0_0.ActiveSeedSelect(arg_22_0, arg_22_1)
-	setActive(arg_22_0.seedSelectPlane, arg_22_1)
-	setActive(arg_22_0.seedSelectPlaneCloseBg, arg_22_1)
-end
+function var_0_0.RefreshCurrentSlectSeed(arg_36_0)
+	local var_36_0 = arg_36_0.seedBtn:Find("seedItem")
+	local var_36_1 = arg_36_0:GetView():GetSubView(IslandSeedOpView).selectseedItemId
 
-function var_0_0.RefreshSeedPlane(arg_23_0, arg_23_1)
-	local var_23_0 = arg_23_1:GetDataVO().slotData.configId
-	local var_23_1 = pg.island_production_slot[var_23_0].place
-	local var_23_2 = pg.island_production_place[var_23_1].seed_list
-	local var_23_3 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
-	local var_23_4 = {}
-
-	for iter_23_0, iter_23_1 in ipairs(var_23_2) do
-		local var_23_5 = var_23_3:GetItemById(iter_23_1)
-
-		table.insert(var_23_4, var_23_5)
-	end
-
-	local var_23_6 = #var_23_4
-	local var_23_7 = 30
-	local var_23_8 = 40
-	local var_23_9 = arg_23_0.seedSelectPlane:Find("content"):GetComponent(typeof(GridLayoutGroup))
-	local var_23_10 = var_23_9.cellSize.x
-	local var_23_11 = var_23_9.cellSize.y
-	local var_23_12 = math.min(var_23_6, 7)
-	local var_23_13 = math.ceil(var_23_6 / 7)
-	local var_23_14 = var_23_10 * var_23_12 + var_23_9.spacing.x * (var_23_12 - 1) + var_23_9.padding.right + var_23_8
-	local var_23_15 = var_23_11 * var_23_13 + var_23_9.spacing.y * (var_23_13 - 1) + var_23_9.padding.bottom + var_23_7
-
-	arg_23_0.seedSelectPlane:Find("content").sizeDelta = Vector2(var_23_14, var_23_15)
-
-	arg_23_0.uiSeedItemList:make(function(arg_24_0, arg_24_1, arg_24_2)
-		if arg_24_0 == UIItemList.EventUpdate then
-			local var_24_0 = var_23_4[arg_24_1 + 1]
-
-			setActive(arg_24_2:Find("select"), arg_23_0.selectseedItemId == var_24_0.id)
-			updateCustomDrop(arg_24_2, Drop.New({
-				type = DROP_TYPE_ISLAND_ITEM,
-				id = var_24_0.id,
-				count = var_24_0:GetCount()
-			}))
-
-			local var_24_1
-
-			onButton(arg_23_0, arg_24_2, function()
-				if var_24_1 then
-					var_24_1 = false
-
-					return
-				end
-
-				arg_23_0.selectseedItemId = var_24_0.id
-
-				PlayerPrefs.SetInt("island_last_selectItemId", arg_23_0.selectseedItemId)
-				arg_23_0.uiSeedItemList:align(var_23_6)
-				arg_23_0:RefreshCurrentSlectSeed()
-				arg_23_0:ActiveSeedSelect(false)
-				setActive(arg_23_0.seed_detals, false)
-			end, SFX_PANEL)
-			GetOrAddComponent(arg_24_2, typeof(UILongPressTrigger)).onLongPressed:AddListener(function()
-				var_24_1 = true
-
-				setActive(arg_23_0.seed_detals, true)
-
-				arg_23_0.seed_detals.position = arg_24_2.position
-
-				setText(arg_23_0.seed_detals:Find("bg/itemSeed/icon_bg/count_bg/count"), var_24_0:GetCount())
-
-				local var_26_0 = var_24_0:GetIcon()
-
-				GetImageSpriteFromAtlasAsync(var_26_0, "", arg_23_0.seed_detals:Find("bg/itemSeed/icon_bg/icon"))
-
-				local var_26_1 = arg_23_0.seed_detals:Find("bg/detaiView/Viewport/detaiViewText")
-
-				setText(var_26_1, var_24_0:GetDesc())
-				setText(arg_23_0.seed_detals:Find("bg/seedName"), var_24_0:GetName())
-			end)
-		end
-	end)
-	arg_23_0.uiSeedItemList:align(var_23_6)
-end
-
-function var_0_0.GetOriginSelectItem(arg_27_0)
-	local var_27_0 = {}
-
-	for iter_27_0, iter_27_1 in ipairs(seedList) do
-		local var_27_1 = inventory:GetItemById(iter_27_1)
-
-		table.insert(var_27_0, var_27_1)
-	end
-
-	local var_27_2 = PlayerPrefs.GetInt("island_last_selectItemId", 0)
-
-	if var_27_2 ~= 0 and inventory:GetOwnCount(var_27_2) > 0 then
-		arg_27_0.selectseedItemId = var_27_2
-	elseif #var_27_0 > 0 then
-		arg_27_0.selectseedItemId = var_27_0[1].id
-	end
-end
-
-function var_0_0.RefreshCurrentSlectSeed(arg_28_0)
-	local var_28_0 = arg_28_0.seedBtn:Find("seedItem")
-
-	if not arg_28_0.selectseedItemId then
-		setActive(var_28_0, false)
+	if not var_36_1 then
+		setActive(var_36_0, false)
 
 		return
 	end
 
-	setActive(var_28_0, true)
+	setActive(var_36_0, true)
 
-	local var_28_1 = getProxy(IslandProxy):GetIsland():GetInventoryAgency():GetItemById(arg_28_0.selectseedItemId)
+	local var_36_2 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
+	local var_36_3 = pg.island_farm_seed[var_36_1]
+	local var_36_4 = var_36_2:GetItemById(var_36_3.itemid)
 
-	if not var_28_1 then
-		arg_28_0.selectseedItemId = nil
+	if not var_36_4 then
+		local var_36_5
 
-		setActive(var_28_0, false)
+		setActive(var_36_0, false)
 
 		return
 	end
 
-	setText(var_28_0:Find("count"), var_28_1:GetCount())
+	setText(var_36_0:Find("count"), var_36_4:GetCount())
 
-	local var_28_2 = "island/" .. var_28_1:GetIcon()
+	local var_36_6 = "island/" .. var_36_4:GetIcon()
 
-	GetImageSpriteFromAtlasAsync(var_28_2, "", var_28_0:Find("icon"))
+	GetImageSpriteFromAtlasAsync(var_36_6, "", var_36_0:Find("icon"))
 end
 
-function var_0_0.CheckSeedEmpty(arg_29_0, arg_29_1)
-	local var_29_0 = arg_29_1:GetDataVO().slotData.configId
-	local var_29_1 = pg.island_production_slot[var_29_0].place
-	local var_29_2 = pg.island_production_place[var_29_1].seed_list
-	local var_29_3 = getProxy(IslandProxy):GetIsland():GetInventoryAgency()
-
-	arg_29_0.selectseedItemId = nil
-
-	local var_29_4 = PlayerPrefs.GetInt("island_last_selectItemId", 0)
-
-	if var_29_4 ~= 0 and var_29_3:GetOwnCount(var_29_4) > 0 then
-		arg_29_0.selectseedItemId = var_29_4
-	end
-
-	for iter_29_0, iter_29_1 in ipairs(var_29_2) do
-		local var_29_5 = var_29_3:GetItemById(iter_29_1)
-
-		if var_29_5 and var_29_5:GetCount() ~= 0 then
-			if not arg_29_0.selectseedItemId then
-				arg_29_0.selectseedItemId = iter_29_1
-			end
-
-			return false
-		end
-	end
-
-	return true
+function var_0_0.GetSeedBtnWorldPos(arg_37_0)
+	return arg_37_0.seedBtn.position
 end
 
-function var_0_0.OnUpdate(arg_30_0)
-	arg_30_0.targetTracker:Update()
-end
+function var_0_0.TryDisablePlayerOp(arg_38_0)
+	arg_38_0.showBalance = arg_38_0.showBalance - 1
 
-function var_0_0.ShowInterActionPanel(arg_31_0, arg_31_1)
-	arg_31_0:UpdateInteractionBtns(arg_31_1)
-end
-
-function var_0_0.UpdateInteractionBtns(arg_32_0, arg_32_1)
-	arg_32_0.interactionData = arg_32_1
-
-	local var_32_0 = arg_32_0.interactionData.id
-	local var_32_1 = IslandInteractionUntil.GetInteractionOptions(arg_32_0:GetView():GetIsland(), arg_32_0.interactionData.type, var_32_0)
-
-	arg_32_0:RemoveTimers()
-	arg_32_0.interactionUIItemList:make(function(arg_33_0, arg_33_1, arg_33_2)
-		if arg_33_0 == UIItemList.EventUpdate then
-			local var_33_0 = var_32_1[arg_33_1 + 1]
-
-			arg_33_2.name = var_33_0.id
-
-			onButton(arg_32_0, arg_33_2, function()
-				if arg_32_0.interactionData.callback then
-					arg_32_0.interactionData.callback()
-				end
-
-				IslandInteractionUntil.Response(arg_32_0, var_32_0, var_33_0.id)
-			end, SFX_PANEL)
-			arg_32_0:SetInteractionText(arg_33_2, var_33_0)
-		end
-	end)
-	arg_32_0.interactionUIItemList:align(#var_32_1)
-end
-
-function var_0_0.CloseInterActionPanelByUnitIdRemove(arg_35_0, arg_35_1)
-	if not arg_35_0.interactionData then
-		return
-	end
-
-	if arg_35_0.interactionData.id == arg_35_1 then
-		arg_35_0:HideInterActionPanel()
+	if arg_38_0.showBalance == 0 then
+		arg_38_0:DisablePlayerOp()
 	end
 end
 
-function var_0_0.ShowNextInteractionBtns(arg_36_0, arg_36_1)
-	arg_36_0.interactionData.type = tonumber(arg_36_1)
+function var_0_0.TryEnablePlayerOp(arg_39_0)
+	arg_39_0.showBalance = arg_39_0.showBalance + 1
 
-	arg_36_0:UpdateInteractionBtns(arg_36_0.interactionData)
+	if arg_39_0.showBalance == 1 then
+		arg_39_0:EnablePlayerOp()
+	end
 end
 
-function var_0_0.SetInteractionText(arg_37_0, arg_37_1, arg_37_2)
-	if arg_37_2.id == IslandInteractionUntil.SIGNIN_TIME_ID then
-		setActive(arg_37_1:Find("time"), true)
-		arg_37_0:AddTimer(arg_37_1, arg_37_2)
+function var_0_0.ResetShowBalance(arg_40_0)
+	if arg_40_0.showBalance ~= 1 then
+		arg_40_0.showBalance = 1
+
+		arg_40_0:EnablePlayerOp()
+	end
+end
+
+function var_0_0.DisablePlayerOp(arg_41_0)
+	arg_41_0:ShowOrHideGameObject(arg_41_0.opPanel, false)
+	arg_41_0:ShowOrHideGameObject(arg_41_0.moveBtn, false)
+	arg_41_0:GetView():GetSubView(IslandInteractionView):DisableInteraction()
+	arg_41_0.playerInputManager:DisableInput()
+	arg_41_0:GetView():GetSubView(IslandDistanceView):TryDisable()
+	arg_41_0:GetView().player:ActiveOrDisactive(false)
+end
+
+function var_0_0.EnablePlayerOp(arg_42_0)
+	arg_42_0:ShowOrHideGameObject(arg_42_0.opPanel, true)
+	arg_42_0:ShowOrHideGameObject(arg_42_0.moveBtn, true)
+	arg_42_0:GetView():GetSubView(IslandInteractionView):EnableInteraction()
+	arg_42_0.playerInputManager:EnableInput()
+	arg_42_0:GetView():GetSubView(IslandDistanceView):TryEnable()
+	arg_42_0:GetView().player:ActiveOrDisactive(true)
+
+	if arg_42_0.inInteraction then
+		arg_42_0:StartInteraction()
+	end
+end
+
+function var_0_0.StartInteraction(arg_43_0)
+	arg_43_0.inInteraction = true
+
+	arg_43_0:ShowOrHideGameObject(arg_43_0.moveBtn, false)
+	arg_43_0:ShowOrHideGameObject(arg_43_0.opPanel, false)
+	arg_43_0.playerInputManager:DisablePlayerHandle()
+end
+
+function var_0_0.EndInteraction(arg_44_0)
+	arg_44_0.inInteraction = false
+
+	arg_44_0:ShowOrHideGameObject(arg_44_0.moveBtn, true)
+	arg_44_0:ShowOrHideGameObject(arg_44_0.opPanel, true)
+	arg_44_0.playerInputManager:EnablePlayerHandle()
+end
+
+function var_0_0.DisableInput(arg_45_0)
+	arg_45_0.playerInputManager:DisableInput()
+end
+
+function var_0_0.EnableInput(arg_46_0)
+	arg_46_0.playerInputManager:EnableInput()
+end
+
+function var_0_0.ChangeTakePhotoModel(arg_47_0, arg_47_1)
+	if arg_47_1 == IslandConst.TakePhotoModel.None then
+		arg_47_0:ShowOrHideMoveBtn(false)
+		arg_47_0.playerInputManager:DisableInput()
+		arg_47_0:GetView().player:ActiveOrDisactive(false)
+	elseif arg_47_1 == IslandConst.TakePhotoModel.First then
+		arg_47_0:ShowOrHideMoveBtn(true)
+		arg_47_0.playerInputManager:EnableInput()
+		arg_47_0:GetView().player:ActiveOrDisactive(true)
 	else
-		setActive(arg_37_1:Find("time"), false)
-	end
-
-	setText(arg_37_1:Find("bg/Text"), HXSet.hxLan(arg_37_2.text))
-
-	local var_37_0 = GetSpriteFromAtlas("island/IslandInteractionBtns", tostring(arg_37_2.icon))
-
-	setImageSprite(arg_37_1:Find("icon_type"), var_37_0, true)
-end
-
-function var_0_0.AddTimer(arg_38_0, arg_38_1, arg_38_2)
-	local var_38_0 = arg_38_0:GetView():GetIsland():GetSignInAgency():GetNextCanSignInTime()
-	local var_38_1 = Timer.New(function()
-		local var_39_0 = pg.TimeMgr.GetInstance():GetServerTime()
-		local var_39_1 = var_38_0 - var_39_0
-
-		if var_39_1 <= 0 then
-			setActive(arg_38_1:Find("time"), false)
-			arg_38_0:RemoveTimers()
-			arg_38_0:RefreshInteractionBtns()
-		else
-			setText(arg_38_1:Find("time/Text"), pg.TimeMgr.GetInstance():DescCDTime(var_39_1))
-		end
-	end, 1, -1)
-
-	arg_38_0.timers[arg_38_2.id] = var_38_1
-
-	arg_38_0.timers[arg_38_2.id].func()
-	var_38_1:Start()
-end
-
-function var_0_0.RemoveTimers(arg_40_0)
-	for iter_40_0, iter_40_1 in pairs(arg_40_0.timers) do
-		iter_40_1:Stop()
-	end
-
-	arg_40_0.timers = {}
-end
-
-function var_0_0.RefreshInteractionBtns(arg_41_0)
-	if not arg_41_0.interactionData then
-		return
-	end
-
-	arg_41_0:UpdateInteractionBtns(arg_41_0.interactionData)
-end
-
-function var_0_0.HideInterActionPanel(arg_42_0)
-	arg_42_0:RemoveTimers()
-
-	arg_42_0.interactionData = nil
-
-	arg_42_0.interactionUIItemList:align(0)
-	removeOnButton(arg_42_0.opBtn)
-end
-
-function var_0_0.TryDisablePlayerOp(arg_43_0)
-	arg_43_0.showBalance = arg_43_0.showBalance - 1
-
-	if arg_43_0.showBalance == 0 then
-		arg_43_0:DisablePlayerOp()
+		arg_47_0:ShowOrHideMoveBtn(true)
+		arg_47_0.playerInputManager:EnableInput()
+		arg_47_0:GetView().player:ActiveOrDisactive(true)
 	end
 end
 
-function var_0_0.TryEnablePlayerOp(arg_44_0)
-	arg_44_0.showBalance = arg_44_0.showBalance + 1
+function var_0_0.ShowOrHideMoveBtn(arg_48_0, arg_48_1, arg_48_2)
+	local var_48_0 = GetOrAddComponent(arg_48_0.moveBtn, typeof(CanvasGroup))
 
-	if arg_44_0.showBalance == 1 then
-		arg_44_0:EnablePlayerOp()
+	var_48_0.alpha = arg_48_1 and 1 or 0
+	var_48_0.blocksRaycasts = arg_48_1 or arg_48_2
+end
+
+function var_0_0.OnDestroy(arg_49_0)
+	if arg_49_0.opUI then
+		arg_49_0:GetPoolMgr():ReturnOpUI(arg_49_0.opUI.gameObject)
+
+		arg_49_0.opUI = nil
 	end
-end
 
-function var_0_0.ResetShowBalance(arg_45_0)
-	if arg_45_0.showBalance ~= 1 then
-		arg_45_0.showBalance = 1
-	end
-end
+	arg_49_0:RemoveFollowerListTimer()
 
-function var_0_0.DisablePlayerOp(arg_46_0)
-	setActive(arg_46_0.opPanel, false)
-	setActive(arg_46_0.moveBtn, false)
-	arg_46_0:DisableInteraction()
-	arg_46_0.playerInputManager:DisableInput()
-	arg_46_0.targetTracker:Disable()
-	arg_46_0:GetView().player:ActiveOrDisactive(false)
-end
-
-function var_0_0.EnablePlayerOp(arg_47_0)
-	setActive(arg_47_0.opPanel, true)
-	setActive(arg_47_0.moveBtn, true)
-	arg_47_0:EnableInteraction()
-	arg_47_0.playerInputManager:EnableInput()
-	arg_47_0.targetTracker:Enable()
-	arg_47_0:GetView().player:ActiveOrDisactive(true)
-end
-
-function var_0_0.StartInteraction(arg_48_0)
-	setActive(arg_48_0.moveBtn, false)
-	setActive(arg_48_0.opPanel, false)
-	arg_48_0.playerInputManager:DisablePlayerHandle()
-end
-
-function var_0_0.EndInteraction(arg_49_0)
-	setActive(arg_49_0.moveBtn, true)
-	setActive(arg_49_0.opPanel, true)
-	arg_49_0.playerInputManager:EnablePlayerHandle()
-end
-
-function var_0_0.DisableInput(arg_50_0)
-	arg_50_0.playerInputManager:DisableInput()
-end
-
-function var_0_0.EnableInput(arg_51_0)
-	arg_51_0.playerInputManager:EnableInput()
-end
-
-function var_0_0.EnableInteraction(arg_52_0)
-	setActive(arg_52_0.interactionPanel, true)
-end
-
-function var_0_0.DisableInteraction(arg_53_0)
-	setActive(arg_53_0.interactionPanel, false)
-end
-
-function var_0_0.SetTrackingTarget(arg_54_0, arg_54_1, arg_54_2, arg_54_3)
-	arg_54_0.targetTracker:Tracking(arg_54_1._go, arg_54_2._go, arg_54_3)
-end
-
-function var_0_0.CancelTracking(arg_55_0)
-	arg_55_0.targetTracker:UnTracking()
-end
-
-function var_0_0.OnShowHud(arg_56_0, arg_56_1)
-	arg_56_0.targetTracker:OnShowHud(arg_56_1)
-end
-
-function var_0_0.OnHideHud(arg_57_0, arg_57_1)
-	arg_57_0.targetTracker:OnHideHud(arg_57_1)
-end
-
-function var_0_0.OnDestroy(arg_58_0)
-	pg.DelegateInfo.Dispose(arg_58_0)
-	arg_58_0:RemoveTimers()
-
-	if arg_58_0.targetTracker then
-		arg_58_0.targetTracker:Dispose()
-
-		arg_58_0.targetTracker = nil
-	end
+	arg_49_0.animationOpEffectCounter = {}
 end
 
 return var_0_0

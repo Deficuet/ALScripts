@@ -1,10 +1,10 @@
 local var_0_0 = class("CurlingGamePage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.progressTpl = arg_1_0:findTF("ProgressTpl")
-	arg_1_0.progressTplContainer = arg_1_0:findTF("ProgressList")
+	arg_1_0.progressTpl = arg_1_0._tf:Find("ProgressTpl")
+	arg_1_0.progressTplContainer = arg_1_0._tf:Find("ProgressList")
 	arg_1_0.progressUIItemList = UIItemList.New(arg_1_0.progressTplContainer, arg_1_0.progressTpl)
-	arg_1_0.goBtn = arg_1_0:findTF("GoBtn")
+	arg_1_0.goBtn = arg_1_0._tf:Find("GoBtn")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)
@@ -23,9 +23,9 @@ function var_0_0.OnFirstFlush(arg_3_0)
 		if arg_4_0 == UIItemList.EventUpdate then
 			arg_4_1 = arg_4_1 + 1
 
-			local var_4_0 = arg_3_0:findTF("Unlocked", arg_4_2)
-			local var_4_1 = arg_3_0:findTF("Finished", arg_4_2)
-			local var_4_2 = arg_3_0:findTF("Current", arg_4_2)
+			local var_4_0 = arg_4_2:Find("Unlocked")
+			local var_4_1 = arg_4_2:Find("Finished")
+			local var_4_2 = arg_4_2:Find("Current")
 
 			setActive(var_4_2, arg_4_1 == arg_3_0.playedCount)
 

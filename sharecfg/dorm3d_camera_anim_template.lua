@@ -15,6 +15,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1002] = {
@@ -32,6 +33,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1003] = {
@@ -49,6 +51,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1004] = {
@@ -66,6 +69,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1005] = {
@@ -83,6 +87,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1006] = {
@@ -100,6 +105,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1007] = {
@@ -117,6 +123,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1008] = {
@@ -134,6 +141,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1009] = {
@@ -151,6 +159,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1010] = {
@@ -168,6 +177,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1011] = {
@@ -185,6 +195,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1012] = {
@@ -202,6 +213,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 1001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1101] = {
@@ -219,6 +231,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 3,
 		finish_anim = 1101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1102] = {
@@ -236,6 +249,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 3,
 		finish_anim = 1101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1103] = {
@@ -253,6 +267,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 3,
 		finish_anim = 1101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1104] = {
@@ -270,6 +285,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 3,
 		finish_anim = 1101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1201] = {
@@ -287,6 +303,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1,
 		finish_anim = 1201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1202] = {
@@ -304,6 +321,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1,
 		finish_anim = 1201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1203] = {
@@ -321,6 +339,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1,
 		finish_anim = 1201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1301] = {
@@ -338,6 +357,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 4,
 		finish_anim = 1301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1302] = {
@@ -355,6 +375,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 4,
 		finish_anim = 1301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1303] = {
@@ -372,6 +393,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 4,
 		finish_anim = 1301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1304] = {
@@ -389,6 +411,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 121,
 		finish_anim = 1304,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1305] = {
@@ -406,6 +429,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 121,
 		finish_anim = 1304,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1306] = {
@@ -423,6 +447,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 121,
 		finish_anim = 1304,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1307] = {
@@ -440,6 +465,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 121,
 		finish_anim = 1304,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1308] = {
@@ -457,6 +483,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 122,
 		finish_anim = 1308,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1309] = {
@@ -474,6 +501,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 122,
 		finish_anim = 1308,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1310] = {
@@ -491,6 +519,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 122,
 		finish_anim = 1308,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1311] = {
@@ -508,6 +537,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 122,
 		finish_anim = 1308,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1312] = {
@@ -525,6 +555,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 151,
 		finish_anim = 1312,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1313] = {
@@ -542,6 +573,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 151,
 		finish_anim = 1312,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1314] = {
@@ -559,6 +591,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 151,
 		finish_anim = 1312,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1317] = {
@@ -576,6 +609,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 151,
 		finish_anim = 1317,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1318] = {
@@ -593,6 +627,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 151,
 		finish_anim = 1317,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[1319] = {
@@ -610,6 +645,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 151,
 		finish_anim = 1317,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2001] = {
@@ -627,6 +663,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2002] = {
@@ -644,6 +681,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2003] = {
@@ -661,6 +699,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2004] = {
@@ -678,6 +717,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2005] = {
@@ -695,6 +735,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2006] = {
@@ -712,6 +753,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2007] = {
@@ -729,6 +771,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2008] = {
@@ -746,6 +789,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2009] = {
@@ -763,6 +807,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2010] = {
@@ -780,6 +825,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2011] = {
@@ -797,6 +843,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2012] = {
@@ -814,6 +861,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2013] = {
@@ -831,6 +879,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 2001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2101] = {
@@ -848,6 +897,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 203,
 		finish_anim = 2101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2102] = {
@@ -865,6 +915,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 203,
 		finish_anim = 2101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2103] = {
@@ -882,6 +933,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 203,
 		finish_anim = 2101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2104] = {
@@ -899,6 +951,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 203,
 		finish_anim = 2101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2201] = {
@@ -916,6 +969,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 201,
 		finish_anim = 2201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2202] = {
@@ -933,6 +987,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 201,
 		finish_anim = 2201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2203] = {
@@ -950,6 +1005,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 201,
 		finish_anim = 2201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2204] = {
@@ -967,6 +1023,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 201,
 		finish_anim = 2201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2301] = {
@@ -984,6 +1041,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 202,
 		finish_anim = 2301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2302] = {
@@ -1001,6 +1059,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 202,
 		finish_anim = 2301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2303] = {
@@ -1018,6 +1077,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 202,
 		finish_anim = 2301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2304] = {
@@ -1035,6 +1095,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 202,
 		finish_anim = 2301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2401] = {
@@ -1052,6 +1113,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 221,
 		finish_anim = 2401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2402] = {
@@ -1069,6 +1131,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 221,
 		finish_anim = 2401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2403] = {
@@ -1086,6 +1149,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 221,
 		finish_anim = 2401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2404] = {
@@ -1103,6 +1167,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 221,
 		finish_anim = 2404,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2405] = {
@@ -1120,6 +1185,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 221,
 		finish_anim = 2404,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2501] = {
@@ -1137,6 +1203,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 251,
 		finish_anim = 2501,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2502] = {
@@ -1154,6 +1221,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 251,
 		finish_anim = 2502,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2503] = {
@@ -1171,6 +1239,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 251,
 		finish_anim = 2502,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2504] = {
@@ -1188,6 +1257,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 251,
 		finish_anim = 2504,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2505] = {
@@ -1205,6 +1275,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 251,
 		finish_anim = 2504,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2601] = {
@@ -1222,6 +1293,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 223,
 		finish_anim = 2601,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2602] = {
@@ -1239,6 +1311,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 223,
 		finish_anim = 2601,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2603] = {
@@ -1256,6 +1329,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 223,
 		finish_anim = 2601,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2604] = {
@@ -1273,6 +1347,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 223,
 		finish_anim = 2601,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2605] = {
@@ -1290,6 +1365,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 223,
 		finish_anim = 2606,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2606] = {
@@ -1307,6 +1383,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 223,
 		finish_anim = 2606,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[2607] = {
@@ -1324,6 +1401,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 223,
 		finish_anim = 2606,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3001] = {
@@ -1341,6 +1419,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3002] = {
@@ -1358,6 +1437,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3003] = {
@@ -1375,6 +1455,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3005] = {
@@ -1392,6 +1473,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3006] = {
@@ -1409,6 +1491,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3007] = {
@@ -1426,6 +1509,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3008] = {
@@ -1443,6 +1527,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3010] = {
@@ -1460,6 +1545,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3011] = {
@@ -1477,6 +1563,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3012] = {
@@ -1494,6 +1581,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3013] = {
@@ -1511,6 +1599,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3014] = {
@@ -1528,6 +1617,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3015] = {
@@ -1545,6 +1635,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3016] = {
@@ -1562,6 +1653,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3017] = {
@@ -1579,6 +1671,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3018] = {
@@ -1596,6 +1689,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 3001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3101] = {
@@ -1613,6 +1707,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 301,
 		finish_anim = 3101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3102] = {
@@ -1630,6 +1725,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 301,
 		finish_anim = 3101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3103] = {
@@ -1647,6 +1743,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 301,
 		finish_anim = 3101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3104] = {
@@ -1664,6 +1761,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 301,
 		finish_anim = 3101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3201] = {
@@ -1681,6 +1779,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 303,
 		finish_anim = 3201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3202] = {
@@ -1698,6 +1797,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 303,
 		finish_anim = 3201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3203] = {
@@ -1715,6 +1815,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 303,
 		finish_anim = 3201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3204] = {
@@ -1732,6 +1833,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 303,
 		finish_anim = 3201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3301] = {
@@ -1749,6 +1851,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 302,
 		finish_anim = 3301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3302] = {
@@ -1766,6 +1869,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 302,
 		finish_anim = 3301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3303] = {
@@ -1783,6 +1887,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 302,
 		finish_anim = 3301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3304] = {
@@ -1800,6 +1905,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 302,
 		finish_anim = 3301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3401] = {
@@ -1817,6 +1923,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 321,
 		finish_anim = 3401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3402] = {
@@ -1834,6 +1941,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 321,
 		finish_anim = 3401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3403] = {
@@ -1851,6 +1959,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 321,
 		finish_anim = 3403,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3404] = {
@@ -1868,6 +1977,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 321,
 		finish_anim = 3403,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3405] = {
@@ -1885,6 +1995,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 321,
 		finish_anim = 3403,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3501] = {
@@ -1902,6 +2013,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 322,
 		finish_anim = 3501,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3502] = {
@@ -1919,6 +2031,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 322,
 		finish_anim = 3501,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3503] = {
@@ -1936,6 +2049,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 322,
 		finish_anim = 3501,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3504] = {
@@ -1953,6 +2067,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 322,
 		finish_anim = 3504,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3505] = {
@@ -1970,6 +2085,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 322,
 		finish_anim = 3504,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[3601] = {
@@ -1984,6 +2100,7 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3003",
 		icon = "camera_action24",
 		room = 3,
+		hide_scene_item = "",
 		furniture_id = 323,
 		finish_anim = 3601,
 		enter_scene_anim = {
@@ -2022,6 +2139,7 @@ pg.dorm3d_camera_anim_template = {
 		zone = "3003",
 		icon = "camera_action17",
 		room = 3,
+		hide_scene_item = "",
 		furniture_id = 323,
 		finish_anim = 3601,
 		enter_scene_anim = {
@@ -2063,6 +2181,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 323,
 		finish_anim = 3603,
+		hide_scene_item = "",
 		enter_scene_anim = {
 			{
 				2012,
@@ -2085,6 +2204,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 323,
 		finish_anim = 3603,
+		hide_scene_item = "",
 		enter_scene_anim = {
 			{
 				2012,
@@ -2107,6 +2227,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 323,
 		finish_anim = 3603,
+		hide_scene_item = "",
 		enter_scene_anim = {
 			{
 				2012,
@@ -2129,6 +2250,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4002] = {
@@ -2146,6 +2268,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4003] = {
@@ -2163,6 +2286,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4004] = {
@@ -2180,6 +2304,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4005] = {
@@ -2197,6 +2322,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4201] = {
@@ -2214,6 +2340,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4202] = {
@@ -2231,6 +2358,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4203] = {
@@ -2248,6 +2376,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4204] = {
@@ -2265,6 +2394,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4205] = {
@@ -2282,6 +2412,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4301] = {
@@ -2299,6 +2430,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 222,
 		finish_anim = 4301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4302] = {
@@ -2316,6 +2448,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 222,
 		finish_anim = 4302,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4303] = {
@@ -2333,6 +2466,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 222,
 		finish_anim = 4303,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4304] = {
@@ -2350,6 +2484,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 222,
 		finish_anim = 4304,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4401] = {
@@ -2367,6 +2502,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4402] = {
@@ -2384,6 +2520,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4403] = {
@@ -2401,6 +2538,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4404] = {
@@ -2418,6 +2556,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[4405] = {
@@ -2435,6 +2574,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 4401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11001] = {
@@ -2452,6 +2592,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11002] = {
@@ -2469,6 +2610,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11003] = {
@@ -2486,6 +2628,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11004] = {
@@ -2503,6 +2646,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11005] = {
@@ -2520,6 +2664,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11006] = {
@@ -2537,6 +2682,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11007] = {
@@ -2554,6 +2700,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11008] = {
@@ -2571,6 +2718,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11009] = {
@@ -2588,6 +2736,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11010] = {
@@ -2605,6 +2754,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11011] = {
@@ -2622,6 +2772,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11012] = {
@@ -2639,6 +2790,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11013] = {
@@ -2656,6 +2808,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11014] = {
@@ -2673,6 +2826,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 11001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11101] = {
@@ -2690,6 +2844,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1102,
 		finish_anim = 11101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11102] = {
@@ -2707,6 +2862,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1102,
 		finish_anim = 11101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11103] = {
@@ -2724,6 +2880,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1102,
 		finish_anim = 11101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11104] = {
@@ -2741,6 +2898,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1102,
 		finish_anim = 11101,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11201] = {
@@ -2758,6 +2916,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1103,
 		finish_anim = 11201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11202] = {
@@ -2775,6 +2934,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1103,
 		finish_anim = 11201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11203] = {
@@ -2792,6 +2952,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1103,
 		finish_anim = 11201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11204] = {
@@ -2809,6 +2970,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1103,
 		finish_anim = 11201,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11301] = {
@@ -2826,6 +2988,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1101,
 		finish_anim = 11301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11302] = {
@@ -2843,6 +3006,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1101,
 		finish_anim = 11301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11303] = {
@@ -2860,6 +3024,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1101,
 		finish_anim = 11301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11304] = {
@@ -2877,6 +3042,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1101,
 		finish_anim = 11301,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11401] = {
@@ -2894,6 +3060,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1151,
 		finish_anim = 11401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11402] = {
@@ -2911,6 +3078,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1151,
 		finish_anim = 11401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11403] = {
@@ -2928,6 +3096,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1151,
 		finish_anim = 11401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11404] = {
@@ -2945,6 +3114,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1151,
 		finish_anim = 11401,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11405] = {
@@ -2962,6 +3132,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1151,
 		finish_anim = 11405,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11406] = {
@@ -2979,6 +3150,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1151,
 		finish_anim = 11405,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11407] = {
@@ -2996,6 +3168,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1151,
 		finish_anim = 11405,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11408] = {
@@ -3013,6 +3186,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1151,
 		finish_anim = 11405,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11501] = {
@@ -3030,6 +3204,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11501,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11502] = {
@@ -3047,6 +3222,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11501,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11503] = {
@@ -3064,6 +3240,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11501,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11504] = {
@@ -3081,6 +3258,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11501,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11505] = {
@@ -3098,6 +3276,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11505,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11506] = {
@@ -3115,6 +3294,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11505,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11507] = {
@@ -3132,6 +3312,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11505,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11508] = {
@@ -3149,6 +3330,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11508,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11509] = {
@@ -3166,6 +3348,7 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11508,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[11510] = {
@@ -3183,6 +3366,349 @@ pg.dorm3d_camera_anim_template = {
 		enter_extra_item = "",
 		furniture_id = 1152,
 		finish_anim = 11508,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12001] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "Idle",
+		desc = "Stand By",
+		staypoint = "",
+		id = 12001,
+		pre_anim = 0,
+		zone = "",
+		icon = "camera_action2",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12002] = {
+		anim_time = 2.3,
+		unlock = "",
+		ship_group = 30707,
+		state = "nod_01",
+		desc = "Nod",
+		staypoint = "",
+		id = 12002,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action7",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12003] = {
+		anim_time = 2.4,
+		unlock = "",
+		ship_group = 30707,
+		state = "shake_01",
+		desc = "Shake Head",
+		staypoint = "",
+		id = 12003,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action12",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12004] = {
+		anim_time = 6.1,
+		unlock = "",
+		ship_group = 30707,
+		state = "doubt_01-start",
+		desc = "Confused",
+		staypoint = "",
+		id = 12004,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action10",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12005] = {
+		anim_time = 7.334,
+		unlock = "",
+		ship_group = 30707,
+		state = "sad_01-start",
+		desc = "Frustrated",
+		staypoint = "",
+		id = 12005,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action11",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12006] = {
+		anim_time = 26.6,
+		unlock = "",
+		ship_group = 30707,
+		state = "happy_01-start",
+		desc = "Happy",
+		staypoint = "",
+		id = 12006,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action6",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12007] = {
+		anim_time = 5.6,
+		unlock = "",
+		ship_group = 30707,
+		state = "amazed_01-start",
+		desc = "Surprised",
+		staypoint = "",
+		id = 12007,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action3",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12008] = {
+		anim_time = 9.1666,
+		unlock = "",
+		ship_group = 30707,
+		state = "excited_01-start",
+		desc = "Excited",
+		staypoint = "",
+		id = 12008,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action8",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12009] = {
+		anim_time = 7.567,
+		unlock = "",
+		ship_group = 30707,
+		state = "talk_01-start",
+		desc = "Talking",
+		staypoint = "",
+		id = 12009,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action5",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12010] = {
+		anim_time = 7.667,
+		unlock = "",
+		ship_group = 30707,
+		state = "talk_02-start",
+		desc = "Explaining",
+		staypoint = "",
+		id = 12010,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action11",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12011] = {
+		anim_time = 5.0666,
+		unlock = "",
+		ship_group = 30707,
+		state = "hello_01-start",
+		desc = "Greeting",
+		staypoint = "",
+		id = 12011,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action5",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12012] = {
+		anim_time = 7.933,
+		unlock = "",
+		ship_group = 30707,
+		state = "shy_01-start",
+		desc = "Shy",
+		staypoint = "",
+		id = 12012,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action10",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12013] = {
+		anim_time = 5.266,
+		unlock = "",
+		ship_group = 30707,
+		state = "invite_01-start",
+		desc = "Inviting",
+		staypoint = "",
+		id = 12013,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action9",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12014] = {
+		anim_time = 5.2,
+		unlock = "",
+		ship_group = 30707,
+		state = "encourage_01-start",
+		desc = "Supportive",
+		staypoint = "",
+		id = 12014,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action4",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12015] = {
+		anim_time = 4.1667,
+		unlock = "",
+		ship_group = 30707,
+		state = "refuse_01-start",
+		desc = "Refusing",
+		staypoint = "",
+		id = 12015,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action13",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12016] = {
+		anim_time = 5.667,
+		unlock = "",
+		ship_group = 30707,
+		state = "satisfied_01-start",
+		desc = "Proud",
+		staypoint = "",
+		id = 12016,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action9",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12017] = {
+		anim_time = 5.167,
+		unlock = "",
+		ship_group = 30707,
+		state = "yandere_01-start",
+		desc = "Yandere",
+		staypoint = "",
+		id = 12017,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action8",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12018] = {
+		anim_time = 5.767,
+		unlock = "",
+		ship_group = 30707,
+		state = "enquire_01-start",
+		desc = "Questioning",
+		staypoint = "",
+		id = 12018,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action11",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12019] = {
+		anim_time = 5,
+		unlock = "",
+		ship_group = 30707,
+		state = "emotion_01-start",
+		desc = "Moved",
+		staypoint = "",
+		id = 12019,
+		pre_anim = 12001,
+		zone = "",
+		icon = "camera_action7",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 12001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[16001] = {
@@ -3196,10 +3722,11 @@ pg.dorm3d_camera_anim_template = {
 		pre_anim = 0,
 		zone = "",
 		icon = "camera_action2",
-		room = 11,
+		room = 16,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 16001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[16002] = {
@@ -3213,10 +3740,11 @@ pg.dorm3d_camera_anim_template = {
 		pre_anim = 16001,
 		zone = "",
 		icon = "camera_action7",
-		room = 11,
+		room = 16,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 16001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[16003] = {
@@ -3230,10 +3758,11 @@ pg.dorm3d_camera_anim_template = {
 		pre_anim = 16001,
 		zone = "",
 		icon = "camera_action12",
-		room = 11,
+		room = 16,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 16001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[16004] = {
@@ -3247,10 +3776,11 @@ pg.dorm3d_camera_anim_template = {
 		pre_anim = 16001,
 		zone = "",
 		icon = "camera_action10",
-		room = 11,
+		room = 16,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 16001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
 	},
 	[16005] = {
@@ -3264,11 +3794,996 @@ pg.dorm3d_camera_anim_template = {
 		pre_anim = 16001,
 		zone = "",
 		icon = "camera_action11",
-		room = 11,
+		room = 16,
 		enter_extra_item = "",
 		furniture_id = 0,
 		finish_anim = 16001,
+		hide_scene_item = "",
 		enter_scene_anim = ""
+	},
+	[16006] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "Idle",
+		desc = "Wait",
+		staypoint = "",
+		id = 16006,
+		pre_anim = 0,
+		zone = "",
+		icon = "camera_action2",
+		room = 16,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 16006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[16007] = {
+		anim_time = 2.3,
+		unlock = "",
+		ship_group = 30707,
+		state = "nod_01",
+		desc = "Nod",
+		staypoint = "",
+		id = 16007,
+		pre_anim = 16006,
+		zone = "",
+		icon = "camera_action7",
+		room = 16,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 16006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[16008] = {
+		anim_time = 2.4,
+		unlock = "",
+		ship_group = 30707,
+		state = "shake_01",
+		desc = "Shake Head",
+		staypoint = "",
+		id = 16008,
+		pre_anim = 16006,
+		zone = "",
+		icon = "camera_action12",
+		room = 16,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 16006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[16009] = {
+		anim_time = 6.1,
+		unlock = "",
+		ship_group = 30707,
+		state = "doubt_01-start",
+		desc = "Puzzled",
+		staypoint = "",
+		id = 16009,
+		pre_anim = 16006,
+		zone = "",
+		icon = "camera_action10",
+		room = 16,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 16006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[16010] = {
+		anim_time = 7.334,
+		unlock = "",
+		ship_group = 30707,
+		state = "sad_01-start",
+		desc = "Defeated",
+		staypoint = "",
+		id = 16010,
+		pre_anim = 16006,
+		zone = "",
+		icon = "camera_action11",
+		room = 16,
+		enter_extra_item = "",
+		furniture_id = 0,
+		finish_anim = 16006,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12101] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed01_idle01",
+		desc = "Stand By",
+		staypoint = "Pos500110",
+		id = 12101,
+		pre_anim = 0,
+		zone = "12001",
+		icon = "camera_action2",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1201,
+		finish_anim = 12101,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12102] = {
+		anim_time = 8.933,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed01_idle01_fb01",
+		desc = "Indulge",
+		staypoint = "Pos500110",
+		id = 12102,
+		pre_anim = 12101,
+		zone = "12001",
+		icon = "camera_action33",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1201,
+		finish_anim = 12101,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12103] = {
+		anim_time = 8.533,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed01_idle01_fb02",
+		desc = "Shy",
+		staypoint = "Pos500110",
+		id = 12103,
+		pre_anim = 12101,
+		zone = "12001",
+		icon = "camera_action10",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1201,
+		finish_anim = 12101,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12104] = {
+		anim_time = 13.067,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed01_idle01_fb03",
+		desc = "Happy",
+		staypoint = "Pos500110",
+		id = 12104,
+		pre_anim = 12101,
+		zone = "12001",
+		icon = "camera_action6",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1201,
+		finish_anim = 12101,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12201] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_dining01_idle01",
+		desc = "Stand By",
+		staypoint = "Pos500210",
+		id = 12201,
+		pre_anim = 0,
+		zone = "12002",
+		icon = "camera_action2",
+		room = 12,
+		hide_scene_item = "",
+		furniture_id = 1202,
+		finish_anim = 12201,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Item/Df_Kitchenware_01/pre_db_df_kitchenware_01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_dining01_idle01_dao"
+			}
+		}
+	},
+	[12202] = {
+		anim_time = 13.333,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_dining01_idle01_fb01",
+		desc = "Proud",
+		staypoint = "Pos500210",
+		id = 12202,
+		pre_anim = 12201,
+		zone = "12002",
+		icon = "camera_action3",
+		room = 12,
+		hide_scene_item = "",
+		furniture_id = 1202,
+		finish_anim = 12201,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Item/Df_Kitchenware_01/pre_db_df_kitchenware_01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_dining01_idle01_fb01_dao"
+			}
+		}
+	},
+	[12203] = {
+		anim_time = 12.633,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_dining01_idle01_fb02",
+		desc = "Talking",
+		staypoint = "Pos500210",
+		id = 12203,
+		pre_anim = 12201,
+		zone = "12002",
+		icon = "camera_action5",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1202,
+		finish_anim = 12201,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12204] = {
+		anim_time = 9,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_dining01_idle01_fb03",
+		desc = "Supportive",
+		staypoint = "Pos500210",
+		id = 12204,
+		pre_anim = 12201,
+		zone = "12002",
+		icon = "camera_action4",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1202,
+		finish_anim = 12201,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12301] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_living01_idle01",
+		desc = "Stand By",
+		staypoint = "Pos500310",
+		id = 12301,
+		pre_anim = 0,
+		zone = "12003",
+		icon = "camera_action2",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1203,
+		finish_anim = 12301,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2013,
+				"IK_living01_idle01_CJ"
+			}
+		}
+	},
+	[12302] = {
+		anim_time = 19.567,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_living01_idle01_fb01",
+		desc = "Stretching Legs",
+		staypoint = "Pos500310",
+		id = 12302,
+		pre_anim = 12301,
+		zone = "12003",
+		icon = "camera_action26",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1203,
+		finish_anim = 12301,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2013,
+				"IK_living01_idle01_fb01_CJ"
+			}
+		}
+	},
+	[12303] = {
+		anim_time = 14.7,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_living01_idle01_fb02",
+		desc = "Stretching Legs",
+		staypoint = "Pos500310",
+		id = 12303,
+		pre_anim = 12301,
+		zone = "12003",
+		icon = "camera_action33",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1203,
+		finish_anim = 12301,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2013,
+				"IK_living01_idle01_fb02_CJ"
+			}
+		}
+	},
+	[12304] = {
+		anim_time = 12.5,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_living01_idle01_fb03",
+		desc = "Sitting",
+		staypoint = "Pos500310",
+		id = 12304,
+		pre_anim = 12301,
+		zone = "12003",
+		icon = "camera_action13",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1203,
+		finish_anim = 12301,
+		hide_scene_item = "",
+		enter_scene_anim = {
+			{
+				2013,
+				"IK_living01_idle01_fb03_CJ"
+			}
+		}
+	},
+	[12401] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed02_idle01",
+		desc = "Stand By",
+		staypoint = "Pos500410",
+		id = 12401,
+		pre_anim = 0,
+		zone = "12001",
+		icon = "camera_action2",
+		room = 12,
+		hide_scene_item = "",
+		furniture_id = 1221,
+		finish_anim = 12401,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Item/Df_Handcuffs_01/pre_db_df_handcuffs_01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_bed02_idle01_SK"
+			}
+		}
+	},
+	[12402] = {
+		anim_time = 11.267,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed02_idle01_fb01",
+		desc = "Excited",
+		staypoint = "Pos500410",
+		id = 12402,
+		pre_anim = 12401,
+		zone = "12001",
+		icon = "camera_action8",
+		room = 12,
+		hide_scene_item = "",
+		furniture_id = 1221,
+		finish_anim = 12401,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Item/Df_Handcuffs_01/pre_db_df_handcuffs_01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_bed02_idle01_fb01_SK"
+			}
+		}
+	},
+	[12403] = {
+		anim_time = 16.667,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed02_idle01_fb02",
+		desc = "Lie on the Side",
+		staypoint = "Pos500410",
+		id = 12403,
+		pre_anim = 12401,
+		zone = "12001",
+		icon = "camera_action28",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1221,
+		finish_anim = 12401,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12404] = {
+		anim_time = 11.433,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed02_idle01_fb03",
+		desc = "Lie Down",
+		staypoint = "Pos500410",
+		id = 12404,
+		pre_anim = 12401,
+		zone = "12001",
+		icon = "camera_action25",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1221,
+		finish_anim = 12401,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12405] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed02_idle02",
+		desc = "Wait",
+		staypoint = "Pos500410",
+		id = 12405,
+		pre_anim = 0,
+		zone = "12001",
+		icon = "camera_action2",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1221,
+		finish_anim = 12405,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12406] = {
+		anim_time = 10,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed02_idle02_fb01",
+		desc = "Relax",
+		staypoint = "Pos500410",
+		id = 12406,
+		pre_anim = 12405,
+		zone = "12001",
+		icon = "camera_action32",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1221,
+		finish_anim = 12405,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12407] = {
+		anim_time = 15.633,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_bed02_idle02_fb02",
+		desc = "Inviting",
+		staypoint = "Pos500410",
+		id = 12407,
+		pre_anim = 12405,
+		zone = "12001",
+		icon = "camera_action9",
+		room = 12,
+		enter_extra_item = "",
+		furniture_id = 1221,
+		finish_anim = 12405,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[11601] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 10517,
+		state = "IK_bed02_idle01",
+		desc = "Lie Down",
+		staypoint = "Pos400510",
+		id = 11601,
+		pre_anim = 0,
+		zone = "11001",
+		icon = "camera_action25",
+		room = 11,
+		enter_extra_item = "",
+		furniture_id = 1153,
+		finish_anim = 11501,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[11602] = {
+		anim_time = 16.3,
+		unlock = "",
+		ship_group = 10517,
+		state = "IK_bed02_idle01_fb01",
+		desc = "Happy",
+		staypoint = "Pos400520",
+		id = 11602,
+		pre_anim = 11601,
+		zone = "11001",
+		icon = "camera_action26",
+		room = 11,
+		enter_extra_item = "",
+		furniture_id = 1153,
+		finish_anim = 11601,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[11603] = {
+		anim_time = 13.2,
+		unlock = "",
+		ship_group = 10517,
+		state = "IK_bed02_idle01_fb02",
+		desc = "Relax",
+		staypoint = "Pos400520",
+		id = 11603,
+		pre_anim = 11601,
+		zone = "11001",
+		icon = "camera_action27",
+		room = 11,
+		enter_extra_item = "",
+		furniture_id = 1153,
+		finish_anim = 11601,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[11604] = {
+		anim_time = 9,
+		unlock = "",
+		ship_group = 10517,
+		state = "IK_bed02_idle01_fb03",
+		desc = "Warm Up",
+		staypoint = "Pos400520",
+		id = 11604,
+		pre_anim = 11601,
+		zone = "11001",
+		icon = "camera_action28",
+		room = 11,
+		enter_extra_item = "",
+		furniture_id = 1153,
+		finish_anim = 11601,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[11605] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 10517,
+		state = "IK_bed02_idle02",
+		desc = "Wait",
+		staypoint = "Pos400530",
+		id = 11605,
+		pre_anim = 0,
+		zone = "11001",
+		icon = "camera_action32",
+		room = 11,
+		enter_extra_item = "",
+		furniture_id = 1153,
+		finish_anim = 11605,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[11606] = {
+		anim_time = 17.367,
+		unlock = "",
+		ship_group = 10517,
+		state = "IK_bed02_idle02_fb01",
+		desc = "Inviting",
+		staypoint = "Pos400530",
+		id = 11606,
+		pre_anim = 11605,
+		zone = "11001",
+		icon = "camera_action33",
+		room = 11,
+		enter_extra_item = "",
+		furniture_id = 1153,
+		finish_anim = 11605,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[11607] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 10517,
+		state = "IK_bed02_idle03",
+		desc = "Lie Down",
+		staypoint = "Pos400540",
+		id = 11607,
+		pre_anim = 0,
+		zone = "11001",
+		icon = "camera_action25",
+		room = 11,
+		enter_extra_item = "",
+		furniture_id = 1153,
+		finish_anim = 11607,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[11608] = {
+		anim_time = 14.7,
+		unlock = "",
+		ship_group = 10517,
+		state = "IK_bed02_idle03_fb01",
+		desc = "Lie on the Side",
+		staypoint = "Pos400540",
+		id = 11608,
+		pre_anim = 11607,
+		zone = "11001",
+		icon = "camera_action27",
+		room = 11,
+		enter_extra_item = "",
+		furniture_id = 1153,
+		finish_anim = 11607,
+		hide_scene_item = "",
+		enter_scene_anim = ""
+	},
+	[12501] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle01",
+		desc = "Wait",
+		staypoint = "Pos500510",
+		id = 12501,
+		pre_anim = 0,
+		zone = "12003",
+		icon = "camera_action13",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12501,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle01_PP"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
+		}
+	},
+	[12502] = {
+		anim_time = 23.667,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle01_fb01",
+		desc = "Stretching Legs",
+		staypoint = "Pos500510",
+		id = 12502,
+		pre_anim = 12501,
+		zone = "12003",
+		icon = "camera_action14",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12501,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle01_fb01_PP"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
+		}
+	},
+	[12503] = {
+		anim_time = 17.7,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle01_fb02",
+		desc = "Stretch",
+		staypoint = "Pos500510",
+		id = 12503,
+		pre_anim = 12501,
+		zone = "12003",
+		icon = "camera_action15",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12501,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle01_fb02_PP"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
+		}
+	},
+	[12504] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle02",
+		desc = "Wait",
+		staypoint = "Pos500520",
+		id = 12504,
+		pre_anim = 0,
+		zone = "12003",
+		icon = "camera_action32",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12504,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle02_PP"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
+		}
+	},
+	[12505] = {
+		anim_time = 12.7,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle02_fb01",
+		desc = "Sit",
+		staypoint = "Pos500520",
+		id = 12505,
+		pre_anim = 12504,
+		zone = "12003",
+		icon = "camera_action33",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12504,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle02_fb01_PP"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
+		}
+	},
+	[12506] = {
+		anim_time = 12.9,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle02_fb02",
+		desc = "Stretching Legs",
+		staypoint = "Pos500520",
+		id = 12506,
+		pre_anim = 12504,
+		zone = "12003",
+		icon = "camera_action34",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12504,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle02_fb02_PP"
+			}
+		},
+		hide_scene_item = {
+			"no_bake_pay_prop/livingroom/pre_db_df_livingroom01_0"
+		}
+	},
+	[12507] = {
+		anim_time = 0,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle03",
+		desc = "Wait",
+		staypoint = "Pos500530",
+		id = 12507,
+		pre_anim = 0,
+		zone = "12003",
+		icon = "camera_action1",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12507,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle03_PP"
+			}
+		},
+		hide_scene_item = {
+			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
+		}
+	},
+	[12508] = {
+		anim_time = 9.133,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle03_fb01",
+		desc = "Warm Up",
+		staypoint = "Pos500530",
+		id = 12508,
+		pre_anim = 12507,
+		zone = "12003",
+		icon = "camera_action2",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12507,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle03_fb01_PP"
+			}
+		},
+		hide_scene_item = {
+			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
+		}
+	},
+	[12509] = {
+		anim_time = 11.1,
+		unlock = "",
+		ship_group = 30707,
+		state = "IK_sp01_idle03_fb02",
+		desc = "Happy",
+		staypoint = "Pos500530",
+		id = 12509,
+		pre_anim = 12507,
+		zone = "12003",
+		icon = "camera_action4",
+		room = 12,
+		furniture_id = 1222,
+		finish_anim = 12507,
+		enter_scene_anim = "",
+		enter_extra_item = {
+			{
+				"furniture/Prefabs/Pay_Dafenghostel/pre_db_df_pipa01",
+				"",
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				},
+				"IK_sp01_idle03_fb02_PP"
+			}
+		},
+		hide_scene_item = {
+			"FurnitureSlots/1120304/pre_db_df_tedian01(Clone)/pre_db_df_chair01/fbx_db_df_chair01"
+		}
 	},
 	get_id_list_by_furniture_id = {
 		[0] = {
@@ -3342,11 +4857,35 @@ pg.dorm3d_camera_anim_template = {
 			11012,
 			11013,
 			11014,
+			12001,
+			12002,
+			12003,
+			12004,
+			12005,
+			12006,
+			12007,
+			12008,
+			12009,
+			12010,
+			12011,
+			12012,
+			12013,
+			12014,
+			12015,
+			12016,
+			12017,
+			12018,
+			12019,
 			16001,
 			16002,
 			16003,
 			16004,
-			16005
+			16005,
+			16006,
+			16007,
+			16008,
+			16009,
+			16010
 		},
 		[3] = {
 			1101,
@@ -3509,6 +5048,54 @@ pg.dorm3d_camera_anim_template = {
 			11508,
 			11509,
 			11510
+		},
+		[1201] = {
+			12101,
+			12102,
+			12103,
+			12104
+		},
+		[1202] = {
+			12201,
+			12202,
+			12203,
+			12204
+		},
+		[1203] = {
+			12301,
+			12302,
+			12303,
+			12304
+		},
+		[1221] = {
+			12401,
+			12402,
+			12403,
+			12404,
+			12405,
+			12406,
+			12407
+		},
+		[1153] = {
+			11601,
+			11602,
+			11603,
+			11604,
+			11605,
+			11606,
+			11607,
+			11608
+		},
+		[1222] = {
+			12501,
+			12502,
+			12503,
+			12504,
+			12505,
+			12506,
+			12507,
+			12508,
+			12509
 		}
 	},
 	all = {
@@ -3696,10 +5283,70 @@ pg.dorm3d_camera_anim_template = {
 		11508,
 		11509,
 		11510,
+		12001,
+		12002,
+		12003,
+		12004,
+		12005,
+		12006,
+		12007,
+		12008,
+		12009,
+		12010,
+		12011,
+		12012,
+		12013,
+		12014,
+		12015,
+		12016,
+		12017,
+		12018,
+		12019,
 		16001,
 		16002,
 		16003,
 		16004,
-		16005
+		16005,
+		16006,
+		16007,
+		16008,
+		16009,
+		16010,
+		12101,
+		12102,
+		12103,
+		12104,
+		12201,
+		12202,
+		12203,
+		12204,
+		12301,
+		12302,
+		12303,
+		12304,
+		12401,
+		12402,
+		12403,
+		12404,
+		12405,
+		12406,
+		12407,
+		11601,
+		11602,
+		11603,
+		11604,
+		11605,
+		11606,
+		11607,
+		11608,
+		12501,
+		12502,
+		12503,
+		12504,
+		12505,
+		12506,
+		12507,
+		12508,
+		12509
 	}
 }

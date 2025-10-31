@@ -5,19 +5,19 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.scrollRect = arg_2_0:findTF("frame/list"):GetComponent("LScrollRect")
-	arg_2_0.nameTxt = arg_2_0:findTF("frame/name"):GetComponent(typeof(Text))
-	arg_2_0.icon = arg_2_0:findTF("frame/icon/Image"):GetComponent(typeof(Image))
-	arg_2_0.desc = arg_2_0:findTF("frame/desc"):GetComponent(typeof(Text))
-	arg_2_0.backBtn = arg_2_0:findTF("frame/back")
-	arg_2_0.leftArrBtn = arg_2_0:findTF("arr_left")
-	arg_2_0.rightArrBtn = arg_2_0:findTF("arr_right")
-	arg_2_0.gemTxt = arg_2_0:findTF("res_gem/Text"):GetComponent(typeof(Text))
-	arg_2_0.goldTxt = arg_2_0:findTF("res_gold/Text"):GetComponent(typeof(Text))
-	arg_2_0.gemAddBtn = arg_2_0:findTF("res_gem/jiahao")
-	arg_2_0.goldAddBtn = arg_2_0:findTF("res_gold/jiahao")
-	arg_2_0.purchaseBtn = arg_2_0:findTF("frame/purchase_btn")
-	arg_2_0.purchaseAllBtn = arg_2_0:findTF("frame/purchase_all_btn")
+	arg_2_0.scrollRect = arg_2_0._tf:Find("frame/list"):GetComponent("LScrollRect")
+	arg_2_0.nameTxt = arg_2_0._tf:Find("frame/name"):GetComponent(typeof(Text))
+	arg_2_0.icon = arg_2_0._tf:Find("frame/icon/Image"):GetComponent(typeof(Image))
+	arg_2_0.desc = arg_2_0._tf:Find("frame/desc"):GetComponent(typeof(Text))
+	arg_2_0.backBtn = arg_2_0._tf:Find("frame/back")
+	arg_2_0.leftArrBtn = arg_2_0._tf:Find("arr_left")
+	arg_2_0.rightArrBtn = arg_2_0._tf:Find("arr_right")
+	arg_2_0.gemTxt = arg_2_0._tf:Find("res_gem/Text"):GetComponent(typeof(Text))
+	arg_2_0.goldTxt = arg_2_0._tf:Find("res_gold/Text"):GetComponent(typeof(Text))
+	arg_2_0.gemAddBtn = arg_2_0._tf:Find("res_gem/jiahao")
+	arg_2_0.goldAddBtn = arg_2_0._tf:Find("res_gold/jiahao")
+	arg_2_0.purchaseBtn = arg_2_0._tf:Find("frame/purchase_btn")
+	arg_2_0.purchaseAllBtn = arg_2_0._tf:Find("frame/purchase_all_btn")
 
 	setText(arg_2_0.purchaseBtn:Find("Text"), i18n("fur_onekey_buy"))
 	setText(arg_2_0.purchaseAllBtn:Find("Text"), i18n("fur_all_buy"))
@@ -211,9 +211,7 @@ end
 
 function var_0_0.Show(arg_31_0)
 	var_0_0.super.Show(arg_31_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_31_0._tf, {
-		weight = LayerWeightConst.BASE_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_31_0._tf)
 
 	if arg_31_0.OnEnter then
 		arg_31_0.OnEnter()

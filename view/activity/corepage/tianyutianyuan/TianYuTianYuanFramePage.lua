@@ -3,7 +3,7 @@ local var_0_0 = class("TianYuTianYuanFramePage", import("view.activity.CorePage.
 function var_0_0.OnInit(arg_1_0)
 	arg_1_0.super.OnInit(arg_1_0)
 
-	arg_1_0.switchBtn = arg_1_0:findTF("AD/switcher/switch_btn")
+	arg_1_0.switchBtn = arg_1_0._tf:Find("AD/switcher/switch_btn")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)

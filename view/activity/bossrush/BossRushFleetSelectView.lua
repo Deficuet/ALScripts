@@ -15,7 +15,7 @@ function var_0_0.getUIName(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf, nil, {})
+	pg.UIMgr.GetInstance():BlurPanel(arg_3_0._tf)
 	arg_3_0:InitUI()
 end
 
@@ -23,8 +23,8 @@ function var_0_0.InitUI(arg_4_0)
 	local var_4_0 = arg_4_0._tf:Find("Panel")
 
 	arg_4_0.tfFleets = {
-		[FleetType.Normal] = arg_4_0:findTF("Panel/Fleet/Normal"),
-		[FleetType.Submarine] = arg_4_0:findTF("Panel/Fleet/Submarine")
+		[FleetType.Normal] = arg_4_0._tf:Find("Panel/Fleet/Normal"),
+		[FleetType.Submarine] = arg_4_0._tf:Find("Panel/Fleet/Submarine")
 	}
 	arg_4_0.btnRecommend = var_4_0:Find("Fleet/BtnRecommend")
 	arg_4_0.btnClear = var_4_0:Find("Fleet/BtnClear")
@@ -301,7 +301,7 @@ function var_0_0.ShowDropDetail(arg_30_0, arg_30_1)
 end
 
 function var_0_0.willExit(arg_31_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_31_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_31_0._tf)
 end
 
 function var_0_0.onCancelHard(arg_32_0)
@@ -426,14 +426,14 @@ function var_0_0.updateEliteFleets(arg_41_0)
 	if not var_41_3 then
 		local var_41_8 = arg_41_0.tfFleets[FleetType.Normal]
 
-		setText(arg_41_0:findTF("bg/name", var_41_8), Fleet.DEFAULT_NAME[var_41_1])
+		setText(var_41_8:Find("bg/name"), Fleet.DEFAULT_NAME[var_41_1])
 		arg_41_0:initAddButton(var_41_8, TeamType.Main, var_41_1)
 		arg_41_0:initAddButton(var_41_8, TeamType.Vanguard, var_41_1)
 	else
 		local var_41_9 = arg_41_0.tfFleets[FleetType.Submarine]
 		local var_41_10 = #arg_41_0.contextData.fleets
 
-		setText(arg_41_0:findTF("bg/name", var_41_9), Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID])
+		setText(var_41_9:Find("bg/name"), Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID])
 		arg_41_0:initAddButton(var_41_9, TeamType.Submarine, var_41_10)
 	end
 

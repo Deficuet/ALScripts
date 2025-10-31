@@ -5,7 +5,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0._top = arg_2_0:findTF("Top")
+	arg_2_0._top = arg_2_0._tf:Find("Top")
 end
 
 function var_0_0.GetDetailLayer(arg_3_0)

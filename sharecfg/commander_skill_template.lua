@@ -1857,6 +1857,132 @@ pg.commander_skill_template = {
 			9600513
 		}
 	},
+	[960061] = {
+		desc_world = "When assigned to a fleet: increases the FP of your BBs, BCs, BBVs, and IXMs by a moderate amount based on the Tactics stat.",
+		name = "Unfinished Legend",
+		next_id = 960062,
+		exp = 0,
+		prev_id = 0,
+		desc = "When assigned to a fleet: increases the FP of your BBs, BCs, BBVs, and IXMs by a moderate amount based on the Tactics stat.",
+		id = 960061,
+		icon = "96006",
+		lv = 1,
+		effect_tactic = {
+			9600611,
+			9600612,
+			9600613
+		},
+		effect_tactic_world = {
+			9600611,
+			9600612,
+			9600613
+		}
+	},
+	[960062] = {
+		desc_world = "When engaging an enemy Main Fleet: increases the ACC of your BBs, CVs, and IXMs by a moderate amount based on the Tactics stat.",
+		name = "Unfinished Legend",
+		next_id = 960063,
+		exp = 0,
+		prev_id = 960061,
+		desc = "When engaging an enemy Main Fleet: increases the ACC of your BBs, CVs, and IXMs by a moderate amount based on the Tactics stat.",
+		id = 960062,
+		icon = "96006",
+		lv = 1,
+		effect_tactic = {
+			9600611,
+			9600612,
+			9600613
+		},
+		effect_tactic_world = {
+			9600611,
+			9600612,
+			9600613
+		}
+	},
+	[960063] = {
+		desc_world = "When assigned to a fleet with Queen Anne's Revenge: once per battle, when the battle starts, fires a special barrage.",
+		name = "Unfinished Legend",
+		next_id = 0,
+		exp = 0,
+		prev_id = 960062,
+		desc = "When assigned to a fleet with Queen Anne's Revenge: once per battle, when the battle starts, fires a special barrage.",
+		id = 960063,
+		icon = "96006",
+		lv = 1,
+		effect_tactic = {
+			9600611,
+			9600612,
+			9600613
+		},
+		effect_tactic_world = {
+			9600611,
+			9600612,
+			9600613
+		}
+	},
+	[960071] = {
+		desc_world = "When assigned as the Staff Cat: increases the EVA of your CLs, CAs, CBs, and IXVs by a small amount based on the Logistics stat.",
+		name = "Tale of the Gentleman Pirate",
+		next_id = 960072,
+		exp = 0,
+		prev_id = 0,
+		desc = "Decreases the fleet's chance of running into an Ambush based on the Logistics stat.",
+		id = 960071,
+		icon = "96007",
+		lv = 1,
+		effect_tactic = {
+			9600711,
+			9600712,
+			9600713
+		},
+		effect_tactic_world = {
+			99600711,
+			9600712,
+			9600713
+		}
+	},
+	[960072] = {
+		desc_world = "When assigned as the Staff Cat: increases your Vanguard's FP by a small amount based on the Logistics stat.",
+		name = "Tale of the Gentleman Pirate",
+		next_id = 960073,
+		exp = 0,
+		prev_id = 960071,
+		desc = "When assigned as the Staff Cat: increases your Vanguard's FP by a small amount based on the Logistics stat.",
+		id = 960072,
+		icon = "96007",
+		lv = 1,
+		effect_tactic = {
+			9600711,
+			9600712,
+			9600713
+		},
+		effect_tactic_world = {
+			99600711,
+			9600712,
+			9600713
+		}
+	},
+	[960073] = {
+		desc_world = "Once per battle, when the HP of your Flagship or frontmost Vanguard ship falls below 50.0% as a result of DMG taken: restores 5.0% of that ship's HP.",
+		name = "Tale of the Gentleman Pirate",
+		next_id = 0,
+		exp = 0,
+		prev_id = 960072,
+		desc = "Once per battle, when the HP of your Flagship or frontmost Vanguard ship falls below 50.0% as a result of DMG taken: restores 5.0% of that ship's HP.",
+		id = 960073,
+		icon = "96007",
+		lv = 1,
+		effect_tactic = {
+			9600711,
+			9600712,
+			9600713
+		},
+		effect_tactic_world = {
+			99600711,
+			9600712,
+			9600713
+		}
+	},
 	all = {
 		10011,
 		10012,
@@ -1953,6 +2079,12 @@ pg.commander_skill_template = {
 		960043,
 		960051,
 		960052,
-		960053
+		960053,
+		960061,
+		960062,
+		960063,
+		960071,
+		960072,
+		960073
 	}
 }

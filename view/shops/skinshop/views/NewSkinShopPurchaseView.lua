@@ -5,14 +5,14 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.cancelBtn = arg_2_0:findTF("frame/cancel")
-	arg_2_0.confirmBtn = arg_2_0:findTF("frame/confirm")
-	arg_2_0.toggle = arg_2_0:findTF("frame")
-	arg_2_0.title = arg_2_0:findTF("frame/title")
-	arg_2_0.text = arg_2_0:findTF("frame/bg/Text"):GetComponent(typeof(Text))
-	arg_2_0.tipText = arg_2_0:findTF("frame/bg/tipText")
-	arg_2_0.textWithGift = arg_2_0:findTF("frame/gift_bg/Text"):GetComponent(typeof(Text))
-	arg_2_0.dropsList = UIItemList.New(arg_2_0:findTF("frame/gift_bg/gift/drops"), arg_2_0:findTF("frame/gift_bg/gift/drops/item"))
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("frame/cancel")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("frame/confirm")
+	arg_2_0.toggle = arg_2_0._tf:Find("frame")
+	arg_2_0.title = arg_2_0._tf:Find("frame/title")
+	arg_2_0.text = arg_2_0._tf:Find("frame/bg/Text"):GetComponent(typeof(Text))
+	arg_2_0.tipText = arg_2_0._tf:Find("frame/bg/tipText")
+	arg_2_0.textWithGift = arg_2_0._tf:Find("frame/gift_bg/Text"):GetComponent(typeof(Text))
+	arg_2_0.dropsList = UIItemList.New(arg_2_0._tf:Find("frame/gift_bg/gift/drops"), arg_2_0._tf:Find("frame/gift_bg/gift/drops/item"))
 end
 
 function var_0_0.OnInit(arg_3_0)

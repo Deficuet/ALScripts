@@ -444,98 +444,132 @@ function var_0_0.BuildIslandTechImmd(arg_49_0)
 	}, {})
 end
 
-function var_0_0.BuildIslandTaskSubmit(arg_50_0, arg_50_1)
-	return var_0_3(30028, {
-		arg_50_0,
-		arg_50_1
+function var_0_0.BuildIslandWildGather(arg_50_0)
+	return var_0_3(30021, {
+		arg_50_0
 	}, {})
 end
 
-function var_0_0.BuildIslandWildGather(arg_51_0)
-	return var_0_3(30021, {
+function var_0_0.BuildIslandWildCollect(arg_51_0)
+	return var_0_3(30042, {
 		arg_51_0
 	}, {})
 end
 
-function var_0_0.BuildIslandWildCollect(arg_52_0)
-	return var_0_3(30042, {
-		arg_52_0
+function var_0_0.BuildIslandGetDress(arg_52_0, arg_52_1)
+	return var_0_3(30037, {
+		arg_52_0,
+		arg_52_1
 	}, {})
 end
 
-function var_0_0.BuildIslandGetDress(arg_53_0, arg_53_1)
-	return var_0_3(30037, {
+function var_0_0.BuildIslandBindDress(arg_53_0, arg_53_1)
+	return var_0_3(30038, {
 		arg_53_0,
 		arg_53_1
 	}, {})
 end
 
-function var_0_0.BuildIslandBindDress(arg_54_0, arg_54_1)
-	return var_0_3(30038, {
-		arg_54_0,
-		arg_54_1
-	}, {})
-end
+function var_0_0.BuildIslandWearDress(arg_54_0, arg_54_1)
+	local var_54_0 = "["
 
-function var_0_0.BuildIslandWearDress(arg_55_0, arg_55_1)
-	local var_55_0 = "["
+	for iter_54_0, iter_54_1 in ipairs(arg_54_1) do
+		local var_54_1 = pg.island_dress_template[iter_54_1.dress_id].type
 
-	for iter_55_0, iter_55_1 in ipairs(arg_55_1) do
-		var_55_0 = var_55_0 .. string.format("{\"type\":%d,\"id\":%d}", iter_55_1.type, iter_55_1.id)
+		var_54_0 = var_54_0 .. string.format("{\"type\":%d,\"id\":%d}", var_54_1, iter_54_1.dress_id)
 
-		if iter_55_0 ~= #arg_55_1 then
-			var_55_0 = var_55_0 .. ","
+		if iter_54_0 ~= #arg_54_1 then
+			var_54_0 = var_54_0 .. ","
 		end
 	end
 
-	local var_55_1 = var_55_0 .. "]"
+	local var_54_2 = var_54_0 .. "]"
 
 	return var_0_3(30039, {
-		arg_55_0
+		arg_54_0
 	}, {
-		var_55_1
+		var_54_2
 	})
 end
 
-function var_0_0.BuildIslandStartDelegation(arg_56_0, arg_56_1, arg_56_2, arg_56_3, arg_56_4)
+function var_0_0.BuildIslandStartDelegation(arg_55_0, arg_55_1, arg_55_2, arg_55_3, arg_55_4)
 	return var_0_3(30022, {
-		arg_56_0,
-		arg_56_1,
-		arg_56_2,
-		arg_56_3,
-		arg_56_4
+		arg_55_0,
+		arg_55_1,
+		arg_55_2,
+		arg_55_3,
+		arg_55_4
 	}, {})
 end
 
-function var_0_0.BuildIslandGetDelegationAward(arg_57_0)
-	local var_57_0 = "["
+function var_0_0.BuildIslandGetDelegationAward(arg_56_0, arg_56_1)
+	local var_56_0 = "["
 
-	for iter_57_0, iter_57_1 in ipairs(arg_57_0) do
-		var_57_0 = var_57_0 .. string.format("{\"type\":%d,\"id\":%d,\"num\":%d}", iter_57_1.type, iter_57_1.id, iter_57_1.number)
+	for iter_56_0, iter_56_1 in ipairs(arg_56_1) do
+		var_56_0 = var_56_0 .. string.format("{\"type\":%d,\"id\":%d,\"num\":%d}", iter_56_1.type, iter_56_1.id, iter_56_1.number)
 
-		if iter_57_0 ~= #arg_57_0 then
-			var_57_0 = var_57_0 .. ","
+		if iter_56_0 ~= #arg_56_1 then
+			var_56_0 = var_56_0 .. ","
 		end
 	end
 
-	local var_57_1 = var_57_0 .. "]"
+	local var_56_1 = var_56_0 .. "]"
 
-	return var_0_3(30023, {}, {
-		var_57_1
+	return var_0_3(30023, {
+		arg_56_0
+	}, {
+		var_56_1
 	})
 end
 
-function var_0_0.BuildIslandShopBuy(arg_58_0, arg_58_1)
+function var_0_0.BuildIslandShopBuy(arg_57_0, arg_57_1)
 	return var_0_3(30035, {
+		arg_57_0,
+		arg_57_1
+	}, {})
+end
+
+function var_0_0.BuildIslandUnlockColor(arg_58_0, arg_58_1)
+	return var_0_3(30051, {
 		arg_58_0,
 		arg_58_1
 	}, {})
 end
 
-function var_0_0.BuildIslandUnlockColor(arg_59_0, arg_59_1)
-	return var_0_3(30051, {
+function var_0_0.BuildActionOp(arg_59_0, arg_59_1, arg_59_2, arg_59_3, arg_59_4, arg_59_5)
+	return var_0_3(30062, {
 		arg_59_0,
-		arg_59_1
+		arg_59_1,
+		arg_59_2,
+		arg_59_3,
+		arg_59_5,
+		arg_59_4
+	}, {})
+end
+
+function var_0_0.BuildIslandCloseRest(arg_60_0, arg_60_1)
+	local var_60_0 = "["
+
+	for iter_60_0, iter_60_1 in ipairs(arg_60_1) do
+		var_60_0 = var_60_0 .. string.format("{\"type\":%d,\"id\":%d,\"num\":%d}", iter_60_1.type, iter_60_1.id, iter_60_1.number)
+
+		if iter_60_0 ~= #arg_60_1 then
+			var_60_0 = var_60_0 .. ","
+		end
+	end
+
+	local var_60_1 = var_60_0 .. "]"
+
+	return var_0_3(30059, {
+		arg_60_0
+	}, {
+		var_60_1
+	})
+end
+
+function var_0_0.BuildIslandTakeThoto(arg_61_0)
+	return var_0_3(30060, {
+		arg_61_0
 	}, {})
 end
 

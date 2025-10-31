@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			animation = "shakehead",
+			animation = "sad",
 			characterId = 100600,
-			subName = "矿山管理员",
-			say = "唉，还差这么多，这该怎么办呢……",
+			subName = "Manager of the Mine",
+			say = "Aw, shoot! It's nowhere near enough! What do I do?!",
 			face2Face = {
 				{
 					0,
@@ -35,15 +35,15 @@ return {
 			},
 			options = {
 				{
-					content = "乔安，是遇到了什么困难吗？",
+					content = "Got a problem, John?",
 					flag = 1
 				}
 			}
 		},
 		{
-			say = "呀！原来是指挥官啊。",
+			say = "Oh, it's you! Perfect!",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "Manager of the Mine",
 			animation = "scare",
 			typewriter = {
 				speed = 0.05,
@@ -51,27 +51,27 @@ return {
 			}
 		},
 		{
-			say = "唔，交通线损坏的部分太多了……修复工作需要的煤炭还要很久才能集齐……",
+			subName = "Manager of the Mine",
 			characterId = 100600,
-			subName = "矿山管理员",
-			animation = "sad",
+			say = "So, the deal is, the bus stop got utterly smashed, and I need a whole heap of coal to fix it, but I can't mine nearly enough of it all on my own, no matter how I try!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			animation = "talk",
 			characterId = 0,
-			say = "矿场里没有存货吗？",
+			say = "You can't get enough, even in a mine? Don't you have a storage or something?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "没了，全都加上才勉强够订单上的量，结果正准备运往港口就发生了这种事……",
+			say = "Yeah, but it's all gone! My whole stockpile was just enough to cover a request for it. And then something crashed into the delivery before it could make it to the harbor...",
 			characterId = 100600,
-			subName = "矿山管理员",
+			subName = "Manager of the Mine",
 			animation = "embarrass",
 			typewriter = {
 				speed = 0.05,
@@ -80,42 +80,52 @@ return {
 		},
 		{
 			characterId = 100600,
-			subName = "矿山管理员",
-			say = "唉，看来这次是赶不上了。",
+			subName = "Manager of the Mine",
+			say = "*sigh*... I'm not gonna be done in time for this request.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那我也来帮忙吧。",
+					content = "I'll help you.",
 					flag = 1
 				}
 			}
 		},
 		{
-			say = "欸，可是指挥官——",
+			say = "Huh? You mean it? Heck yeah!",
 			characterId = 100600,
-			subName = "矿山管理员",
-			animation = "doubt",
+			subName = "Manager of the Mine",
+			animation = "amaze",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			characterId = 0,
-			say = "没事，交通线瘫痪我也有责任，帮帮忙是应该的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "这样啊……那太好了，现在正缺人手呢!",
-			characterId = 100600,
-			subName = "矿山管理员",
 			animation = "nod",
+			characterId = 0,
+			say = "Of course I do. It's partly my fault that the transport network's down to begin with.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Well, I appreciate the help! You showed up at just the right time to save my bacon!",
+			characterId = 100600,
+			subName = "Manager of the Mine",
+			animation = "clap",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Mine",
+			characterId = 100600,
+			say = "Okay, let's get to work!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

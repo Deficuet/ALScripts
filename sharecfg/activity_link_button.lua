@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50081
+			50166
 		}
 	},
 	{
@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50081
+			50181
 		}
 	},
 	[11] = {
@@ -250,10 +250,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5765
+			50204
 		},
 		param = {
-			73
+			68
 		}
 	},
 	[107] = {
@@ -289,7 +289,7 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "TianYuTianYuanCoreActivityUI",
+		param = "SailingShip3CoreActivityUI",
 		name = "event_core",
 		type = 16,
 		text_pic = "text_event_core",
@@ -299,7 +299,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50102
+			50205
 		}
 	},
 	[110] = {
@@ -342,6 +342,20 @@ pg.activity_link_button = {
 		time = {
 			"default",
 			50042
+		}
+	},
+	[113] = {
+		param = "EighthAnniversaryJpCoreActivityUI",
+		name = "event_core_2",
+		type = 16,
+		text_pic = "text_event_special",
+		id = 113,
+		group_id = 1,
+		pic = "event_special",
+		order = 1,
+		time = {
+			"default",
+			50118
 		}
 	},
 	get_id_list_by_name = {
@@ -406,7 +420,8 @@ pg.activity_link_button = {
 			109
 		},
 		event_core_2 = {
-			110
+			110,
+			113
 		},
 		event_map_2 = {
 			111
@@ -440,6 +455,7 @@ pg.activity_link_button = {
 		109,
 		110,
 		111,
-		112
+		112,
+		113
 	}
 }

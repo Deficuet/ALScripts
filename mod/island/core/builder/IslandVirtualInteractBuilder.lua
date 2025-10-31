@@ -1,0 +1,24 @@
+local var_0_0 = class("IslandVirtualInteractBuilder", import(".IslandItemInteractBuilder"))
+
+function var_0_0.GetModule(arg_1_0, arg_1_1, arg_1_2)
+	return IslandVirtualInteractUnit.New(arg_1_1, arg_1_2)
+end
+
+function var_0_0.Load(arg_2_0, arg_2_1, arg_2_2)
+	local var_2_0 = {}
+	local var_2_1
+
+	table.insert(var_2_0, function(arg_3_0)
+		var_2_1 = GameObject.New("VirtualInteractUnit" .. arg_2_1.id)
+
+		arg_3_0()
+	end)
+	table.insert(var_2_0, function(arg_4_0)
+		arg_2_0:SetupBT(var_2_1, arg_2_1, arg_4_0)
+	end)
+	seriesAsync(var_2_0, function()
+		arg_2_2(var_2_1)
+	end)
+end
+
+return var_0_0

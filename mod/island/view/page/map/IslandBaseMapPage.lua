@@ -9,10 +9,10 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.maps = {}
-	arg_2_0.bg = arg_2_0:findTF("bg")
+	arg_2_0.bg = arg_2_0._tf:Find("bg")
 
 	arg_2_0:InitMaps()
-	setText(arg_2_0:findTF("adapt/title/Text"), i18n("island_map_title"))
+	setText(arg_2_0._tf:Find("adapt/title/Text"), i18n("island_map_title"))
 end
 
 function var_0_0.InitMaps(arg_3_0)
@@ -69,6 +69,7 @@ function var_0_0.Flush(arg_13_0)
 		setActive(iter_13_1:Find("full"), false)
 		setActive(iter_13_1:Find("finish"), false)
 		setActive(iter_13_1:Find("fetch"), false)
+		setActive(iter_13_1:Find("icon"), var_13_0)
 	end
 end
 

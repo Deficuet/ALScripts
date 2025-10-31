@@ -43,14 +43,14 @@ function var_0_0.PlayerUpdated(arg_5_0, arg_5_1)
 end
 
 function var_0_0.OnLoaded(arg_6_0)
-	arg_6_0.adpter = arg_6_0:findTF("adpter")
-	arg_6_0.frame = arg_6_0:findTF("adpter/frame")
-	arg_6_0.icon = arg_6_0:findTF("adpter/frame/icon"):GetComponent(typeof(Image))
-	arg_6_0.idTxt = arg_6_0:findTF("adpter/frame/ID"):GetComponent(typeof(Text))
-	arg_6_0.idLabel = arg_6_0:findTF("adpter/frame/ID_label"):GetComponent(typeof(Text))
-	arg_6_0.copyBtn = arg_6_0:findTF("adpter/frame/copy")
-	arg_6_0.nameTxt = arg_6_0:findTF("adpter/frame/name"):GetComponent(typeof(Text))
-	arg_6_0.mainPanel = arg_6_0:findTF("adpter/frame/main")
+	arg_6_0.adpter = arg_6_0._tf:Find("adpter")
+	arg_6_0.frame = arg_6_0._tf:Find("adpter/frame")
+	arg_6_0.icon = arg_6_0._tf:Find("adpter/frame/icon"):GetComponent(typeof(Image))
+	arg_6_0.idTxt = arg_6_0._tf:Find("adpter/frame/ID"):GetComponent(typeof(Text))
+	arg_6_0.idLabel = arg_6_0._tf:Find("adpter/frame/ID_label"):GetComponent(typeof(Text))
+	arg_6_0.copyBtn = arg_6_0._tf:Find("adpter/frame/copy")
+	arg_6_0.nameTxt = arg_6_0._tf:Find("adpter/frame/name"):GetComponent(typeof(Text))
+	arg_6_0.mainPanel = arg_6_0._tf:Find("adpter/frame/main")
 	arg_6_0.timeTxt = arg_6_0.mainPanel:Find("time"):GetComponent(typeof(Text))
 	arg_6_0.btn1 = arg_6_0.mainPanel:Find("desc_btn")
 	arg_6_0.btn1Txt = arg_6_0.mainPanel:Find("desc_btn/Text"):GetComponent(typeof(Text))
@@ -281,7 +281,7 @@ function var_0_0.Show(arg_30_0)
 	var_0_0.super.Show(arg_30_0)
 	pg.UIMgr.GetInstance():OverlayPanel(arg_30_0.adpter, {
 		pbList = {
-			arg_30_0:findTF("adpter/frame")
+			arg_30_0._tf:Find("adpter/frame")
 		}
 	})
 end

@@ -17,11 +17,11 @@ function var_0_0.initData(arg_3_0)
 end
 
 function var_0_0.findUI(arg_4_0)
-	arg_4_0.windowTF = arg_4_0:findTF("window")
-	arg_4_0.attrUIList = UIItemList.New(arg_4_0:findTF("content", arg_4_0.windowTF), arg_4_0:findTF("content/tpl", arg_4_0.windowTF))
-	arg_4_0.avatarTF = arg_4_0:findTF("avatar", arg_4_0.windowTF)
-	arg_4_0.curPersonalText = arg_4_0:findTF("Text", arg_4_0.avatarTF)
-	arg_4_0.sureBtn = arg_4_0:findTF("sure_btn", arg_4_0.windowTF)
+	arg_4_0.windowTF = arg_4_0._tf:Find("window")
+	arg_4_0.attrUIList = UIItemList.New(arg_4_0.windowTF:Find("content"), arg_4_0.windowTF:Find("content/tpl"))
+	arg_4_0.avatarTF = arg_4_0.windowTF:Find("avatar")
+	arg_4_0.curPersonalText = arg_4_0.avatarTF:Find("Text")
+	arg_4_0.sureBtn = arg_4_0.windowTF:Find("sure_btn")
 end
 
 function var_0_0.addListener(arg_5_0)
@@ -43,16 +43,15 @@ function var_0_0.addListener(arg_5_0)
 end
 
 function var_0_0.didEnter(arg_8_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0._tf, {
-		groupName = arg_8_0:getGroupNameFromData(),
-		weight = arg_8_0:getWeightFromData() + 1
+	arg_8_0:OverlayPanel(arg_8_0._tf, {
+		groupDelta = 1
 	})
 	arg_8_0.attrUIList:make(function(arg_9_0, arg_9_1, arg_9_2)
 		if arg_9_0 == UIItemList.EventInit then
 			local var_9_0 = pg.child_attr[arg_8_0.attrList[arg_9_1 + 1]]
 
-			LoadImageSpriteAsync("educateprops/" .. var_9_0.icon, arg_8_0:findTF("icon", arg_9_2), true)
-			setText(arg_8_0:findTF("name", arg_9_2), var_9_0.name)
+			LoadImageSpriteAsync("educateprops/" .. var_9_0.icon, arg_9_2:Find("icon"), true)
+			setText(arg_9_2:Find("name"), var_9_0.name)
 			onButton(arg_8_0, arg_9_2, function()
 				if arg_8_0.selectedIndex == arg_9_1 + 1 then
 					return
@@ -63,7 +62,7 @@ function var_0_0.didEnter(arg_8_0)
 				arg_8_0:updateView()
 			end, SFX_PANEL)
 		elseif arg_9_0 == UIItemList.EventUpdate then
-			setActive(arg_8_0:findTF("selected", arg_9_2), arg_8_0.selectedIndex == arg_9_1 + 1)
+			setActive(arg_9_2:Find("selected"), arg_8_0.selectedIndex == arg_9_1 + 1)
 		end
 	end)
 	arg_8_0:updateView()
@@ -79,7 +78,7 @@ function var_0_0.updateView(arg_11_0)
 end
 
 function var_0_0.willExit(arg_12_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_12_0._tf)
+	arg_12_0:UnOverlayPanel(arg_12_0._tf)
 end
 
 return var_0_0

@@ -11,8 +11,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.backBtn = arg_2_0:findTF("adapt/top/back")
-	arg_2_0.homeBtn = arg_2_0:findTF("adapt/top/home")
+	arg_2_0.backBtn = arg_2_0._tf:Find("adapt/top/back")
+	arg_2_0.homeBtn = arg_2_0._tf:Find("adapt/top/home")
 	arg_2_0.selectPage = EducateCharSelectPage.New(arg_2_0._tf:Find("adapt/pages"), arg_2_0.event)
 	arg_2_0.groupPage = EducateCharGroupPage.New(arg_2_0._tf:Find("adapt/pages/groupPage"), arg_2_0.event, arg_2_0.contextData)
 end

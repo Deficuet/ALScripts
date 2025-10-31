@@ -35,7 +35,6 @@ function var_0_0.ShowMsg(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 		content = i18n(var_2_4 and "trade_card_tips2" or "trade_card_tips3", var_2_3),
 		dateText = var_2_1,
 		yesText = i18n("trade_card_tips1"),
-		weight = LayerWeightConst.TOP_LAYER,
 		onClose = arg_2_3,
 		onYes = function()
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {

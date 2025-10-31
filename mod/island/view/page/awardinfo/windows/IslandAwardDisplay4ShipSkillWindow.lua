@@ -7,11 +7,11 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.nameTxt = arg_2_0:findTF("frame/bg/item/name"):GetComponent(typeof(Text))
-	arg_2_0.levelTxt = arg_2_0:findTF("frame/bg/item/level"):GetComponent(typeof(Text))
-	arg_2_0.descTxt = arg_2_0:findTF("frame/bg/item/desc"):GetComponent(typeof(Text))
-	arg_2_0.iconTr = arg_2_0:findTF("frame/bg/item/icon")
-	arg_2_0.uiNewStart = UIItemList.New(arg_2_0:findTF("frame/bg/starts"), arg_2_0:findTF("frame/bg/starts/tpl"))
+	arg_2_0.nameTxt = arg_2_0._tf:Find("frame/bg/item/name"):GetComponent(typeof(Text))
+	arg_2_0.levelTxt = arg_2_0._tf:Find("frame/bg/item/level"):GetComponent(typeof(Text))
+	arg_2_0.descTxt = arg_2_0._tf:Find("frame/bg/item/desc"):GetComponent(typeof(Text))
+	arg_2_0.iconTr = arg_2_0._tf:Find("frame/bg/item/icon")
+	arg_2_0.uiNewStart = UIItemList.New(arg_2_0._tf:Find("frame/bg/starts"), arg_2_0._tf:Find("frame/bg/starts/tpl"))
 end
 
 function var_0_0.Show(arg_3_0, arg_3_1)

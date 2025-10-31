@@ -32,8 +32,7 @@ function var_0_0.register(arg_1_0)
 				type = DROP_TYPE_ITEM,
 				id = arg_3_1,
 				cfg = Item.getConfigData(arg_3_1)
-			},
-			weight = LayerWeightConst.TOP_LAYER
+			}
 		})
 	end)
 

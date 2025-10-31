@@ -8,14 +8,14 @@ var_0_0.DropType2Name = {
 }
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.btnList = arg_1_0:findTF("btn_list", arg_1_0.bg)
-	arg_1_0.itemPanel = arg_1_0:findTF("item_panel", arg_1_0.bg)
-	arg_1_0.togglesTF = arg_1_0:findTF("toggles", arg_1_0.itemPanel)
-	arg_1_0.content = arg_1_0:findTF("item_list/content", arg_1_0.itemPanel)
-	arg_1_0.itemList = UIItemList.New(arg_1_0.content, arg_1_0:findTF("tpl", arg_1_0.content))
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.btnList = arg_1_0.bg:Find("btn_list")
+	arg_1_0.itemPanel = arg_1_0.bg:Find("item_panel")
+	arg_1_0.togglesTF = arg_1_0.itemPanel:Find("toggles")
+	arg_1_0.content = arg_1_0.itemPanel:Find("item_list/content")
+	arg_1_0.itemList = UIItemList.New(arg_1_0.content, arg_1_0.content:Find("tpl"))
 
-	setText(arg_1_0:findTF("tpl/owner/title", arg_1_0.content), i18n("collect_page_got"))
+	setText(arg_1_0.content:Find("tpl/owner/title"), i18n("collect_page_got"))
 end
 
 function var_0_0.OnDataSetting(arg_2_0)
@@ -84,7 +84,7 @@ function var_0_0.AddTogglesListener(arg_8_0)
 	assert(#var_8_0 == arg_8_0.togglesTF.childCount, "dropType数量与togglesTF子节点数不匹配")
 
 	for iter_8_0, iter_8_1 in ipairs(var_8_0) do
-		local var_8_1 = arg_8_0:findTF(var_0_0.DropType2Name[iter_8_1], arg_8_0.togglesTF)
+		local var_8_1 = arg_8_0.togglesTF:Find(var_0_0.DropType2Name[iter_8_1])
 
 		onToggle(arg_8_0, var_8_1, function(arg_9_0)
 			if arg_9_0 then
@@ -99,7 +99,7 @@ end
 function var_0_0.AddSpecialBtnListener(arg_10_0)
 	local var_10_0 = arg_10_0.activity:getConfig("config_client")
 
-	arg_10_0.furnitureThemeBtn = arg_10_0:findTF("furniture_theme", arg_10_0.btnList)
+	arg_10_0.furnitureThemeBtn = arg_10_0.btnList:Find("furniture_theme")
 
 	if arg_10_0.furnitureThemeBtn and var_10_0.furniture_theme_link then
 		onButton(arg_10_0, arg_10_0.furnitureThemeBtn, function()
@@ -107,7 +107,7 @@ function var_0_0.AddSpecialBtnListener(arg_10_0)
 		end, SFX_PANEL)
 	end
 
-	arg_10_0.medalBtn = arg_10_0:findTF("medal", arg_10_0.btnList)
+	arg_10_0.medalBtn = arg_10_0.btnList:Find("medal")
 
 	if arg_10_0.medalBtn and var_10_0.medal_link then
 		onButton(arg_10_0, arg_10_0.medalBtn, function()
@@ -115,7 +115,7 @@ function var_0_0.AddSpecialBtnListener(arg_10_0)
 		end, SFX_PANEL)
 	end
 
-	arg_10_0.equipSkinBoxBtn = arg_10_0:findTF("equip_skin_box", arg_10_0.btnList)
+	arg_10_0.equipSkinBoxBtn = arg_10_0.btnList:Find("equip_skin_box")
 
 	if arg_10_0.equipSkinBoxBtn and var_10_0.equipskin_box_link then
 		local var_10_1 = Drop.New({
@@ -138,7 +138,7 @@ end
 
 function var_0_0.OnUpdateItem(arg_14_0, arg_14_1, arg_14_2)
 	local var_14_0 = arg_14_0.showDataList[arg_14_1 + 1]
-	local var_14_1 = arg_14_0:findTF("icon_mask/icon", arg_14_2)
+	local var_14_1 = arg_14_2:Find("icon_mask/icon")
 	local var_14_2 = {
 		type = var_14_0.config.type,
 		id = var_14_0.config.drop_id
@@ -148,16 +148,16 @@ function var_0_0.OnUpdateItem(arg_14_0, arg_14_1, arg_14_2)
 	onButton(arg_14_0, var_14_1, function()
 		arg_14_0:OnClickItem(var_14_0)
 	end, SFX_PANEL)
-	changeToScrollText(arg_14_0:findTF("name_mask/name", arg_14_2), Drop.New({
+	changeToScrollText(arg_14_2:Find("name_mask/name"), Drop.New({
 		type = var_14_0.config.type,
 		id = var_14_0.config.drop_id
 	}):getName())
-	setText(arg_14_0:findTF("owner/number", arg_14_2), var_14_0.count .. "/" .. var_14_0.config.count)
+	setText(arg_14_2:Find("owner/number"), var_14_0.count .. "/" .. var_14_0.config.count)
 
-	GetOrAddComponent(arg_14_0:findTF("owner", arg_14_2), typeof(CanvasGroup)).alpha = var_14_0.count == var_14_0.config.count and 0.5 or 1
+	GetOrAddComponent(arg_14_2:Find("owner"), typeof(CanvasGroup)).alpha = var_14_0.count == var_14_0.config.count and 0.5 or 1
 
-	setActive(arg_14_0:findTF("got", arg_14_2), var_14_0.count == var_14_0.config.count)
-	setActive(arg_14_0:findTF("new", arg_14_2), var_14_0.config.is_new == "1")
+	setActive(arg_14_2:Find("got"), var_14_0.count == var_14_0.config.count)
+	setActive(arg_14_2:Find("new"), var_14_0.config.is_new == "1")
 end
 
 function var_0_0.OnClickItem(arg_16_0, arg_16_1)

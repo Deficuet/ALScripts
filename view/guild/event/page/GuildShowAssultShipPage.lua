@@ -5,9 +5,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.scrollrect = arg_2_0:findTF("frame/scrollrect"):GetComponent("LScrollRect")
-	arg_2_0.closeBtn = arg_2_0:findTF("frame/close")
-	arg_2_0.progress = arg_2_0:findTF("frame/progress"):GetComponent(typeof(Text))
+	arg_2_0.scrollrect = arg_2_0._tf:Find("frame/scrollrect"):GetComponent("LScrollRect")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("frame/close")
+	arg_2_0.progress = arg_2_0._tf:Find("frame/progress"):GetComponent(typeof(Text))
 end
 
 function var_0_0.OnAssultShipBeRecommanded(arg_3_0, arg_3_1)
@@ -91,7 +91,7 @@ function var_0_0.OnInitItem(arg_10_0, arg_10_1)
 			return
 		end
 
-		pg.UIMgr:GetInstance():BlurPanel(arg_10_0._tf)
+		pg.UIMgr.GetInstance():BlurPanel(arg_10_0._tf)
 	end
 
 	local function var_10_2()
@@ -99,7 +99,7 @@ function var_0_0.OnInitItem(arg_10_0, arg_10_1)
 			return
 		end
 
-		pg.UIMgr:GetInstance():UnblurPanel(arg_10_0._tf, arg_10_0._parentTf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 	end
 
 	onButton(arg_10_0, var_10_0.viewEquipmentBtn, function()

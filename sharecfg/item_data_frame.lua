@@ -525,10 +525,10 @@ pg.item_data_frame = {
 	[336] = {
 		time_limit_type = 0,
 		name = "Phoenix's Call for Amahara",
-		gain_by = "",
+		gain_by = "A Dance for Amahara Above",
 		id = 336,
 		time_second = 0,
-		desc = "Obtained in a future event.",
+		desc = "<color=#ffffff>\"Upon my first arrival in the Sky Realm, I heard a phoenix's cry. Past me it flew, its voice echoing throughout Amahara.\"</color>\nGiven to Commanders who participated in the A Dance for Amahara Above event.",
 		scene = {}
 	},
 	[406] = {
@@ -747,6 +747,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Who's the bunny dancing in the neon spotlight?</color>\nReward for raising New Jersey's Intimacy in the Private Quarters.",
 		scene = {}
 	},
+	[1009] = {
+		time_limit_type = 0,
+		name = "Cherry Blossoms Sing",
+		gain_by = "",
+		id = 1009,
+		time_second = 0,
+		desc = "<color=#ffffff>Spread golden wings, your feathers radiating with light. Elegant, but mysterious.</color>\nObtained by raising Intimacy Level with Taihou in Private Quarters.",
+		scene = {}
+	},
+	[1010] = {
+		time_limit_type = 0,
+		name = "Golden Phoenix's Radiance",
+		gain_by = "",
+		id = 1010,
+		time_second = 0,
+		desc = "<color=#ffffff>Petals dance in the wind, singing of the vitality and beauty of spring.</color>\nObtained by raising Intimacy Level with Taihou in Private Quarters.",
+		scene = {}
+	},
 	[10001] = {
 		time_limit_type = 0,
 		name = "Extreme Challenge - Gemini",
@@ -939,6 +957,8 @@ pg.item_data_frame = {
 		1006,
 		1007,
 		1008,
+		1009,
+		1010,
 		10001,
 		10002,
 		10003,

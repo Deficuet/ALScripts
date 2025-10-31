@@ -31,8 +31,8 @@ function var_0_0.preload(arg_2_0, arg_2_1)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0._shake = arg_3_0:findTF("shake_panel")
-	arg_3_0._shade = arg_3_0:findTF("shade")
+	arg_3_0._shake = arg_3_0._tf:Find("shake_panel")
+	arg_3_0._shade = arg_3_0._tf:Find("shade")
 	arg_3_0._bg = arg_3_0._shake:Find("bg")
 	arg_3_0._staticBg = arg_3_0._bg:Find("static_bg")
 	arg_3_0._paintingTF = arg_3_0._shake:Find("paint")
@@ -47,14 +47,12 @@ function var_0_0.init(arg_3_0)
 
 	setActive(arg_3_0.newTF, false)
 
-	arg_3_0.changeSkinBtn = arg_3_0:findTF("set_skin_btn", arg_3_0._shake)
-	arg_3_0.selectPanel = arg_3_0:findTF("select_ship_panel")
+	arg_3_0.changeSkinBtn = arg_3_0._shake:Find("set_skin_btn")
+	arg_3_0.selectPanel = arg_3_0._tf:Find("select_ship_panel")
 	arg_3_0.isTimeLimit = arg_3_0.contextData.timeLimit
 
 	setActive(arg_3_0.timelimit, arg_3_0.isTimeLimit)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0._tf, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0._tf)
 
 	arg_3_0.isLoadBg = false
 	arg_3_0.selectShipPage = ChangeShipSkinPage.New(arg_3_0._parentTf, arg_3_0.event)
@@ -203,9 +201,7 @@ function var_0_0.didEnter(arg_17_0)
 		setActive(arg_17_0.clickTF, false)
 	end, SFX_PANEL)
 	onButton(arg_17_0, arg_17_0._shareBtn, function()
-		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewSkin, nil, {
-			weight = LayerWeightConst.TOP_LAYER
-		})
+		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeNewSkin)
 	end, SFX_PANEL)
 	onButton(arg_17_0, arg_17_0.clickTF, function()
 		if arg_17_0.isInView or not arg_17_0.isLoadBg then
@@ -410,9 +406,7 @@ function var_0_0.playOpening(arg_40_0, arg_40_1, arg_40_2)
 		if arg_40_1 then
 			arg_40_1()
 		end
-	end, "ui/skinunlockanim", arg_40_2, false, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	end, "ui/skinunlockanim", arg_40_2, false, false)
 end
 
 function var_0_0.willExit(arg_43_0)

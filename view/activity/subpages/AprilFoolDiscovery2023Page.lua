@@ -2,13 +2,13 @@ local var_0_0 = class("AprilFoolDiscovery2023Page", import(".AprilFoolDiscoveryR
 local var_0_1 = "superburin"
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
 
-	local var_1_0 = arg_1_0:findTF("AD/list1")
+	local var_1_0 = arg_1_0._tf:Find("AD/list1")
 
 	arg_1_0.items = CustomIndexLayer.Clone2Full(var_1_0, 5)
 
-	table.insertto(arg_1_0.items, CustomIndexLayer.Clone2Full(arg_1_0:findTF("AD/list2"), 5))
+	table.insertto(arg_1_0.items, CustomIndexLayer.Clone2Full(arg_1_0._tf:Find("AD/list2"), 5))
 
 	arg_1_0.selectIndex = 0
 	arg_1_0.btnHelp = arg_1_0.bg:Find("help_btn")

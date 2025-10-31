@@ -357,7 +357,11 @@ function var_0_1.ShowOwnUI(arg_22_0, arg_22_1, arg_22_2, arg_22_3, arg_22_4)
 	setActive(arg_22_0.panelPink, arg_22_2 == var_0_1.PANEL_TYPE_PINK)
 
 	if not arg_22_4 then
-		var_0_0.UIMgr.GetInstance():BlurPanel(arg_22_0.panel, true, arg_22_3)
+		var_0_0.UIMgr.GetInstance():BlurPanel(arg_22_0.panel, setmetatable({
+			staticBlur = true
+		}, {
+			__index = arg_22_3
+		}))
 	end
 
 	local function var_22_1()
@@ -384,7 +388,7 @@ function var_0_1.Dispose(arg_27_0)
 	arg_27_0.go:SetActive(false)
 
 	if arg_27_0.panel and not arg_27_0.noBlur then
-		var_0_0.UIMgr.GetInstance():UnblurPanel(arg_27_0.panel, arg_27_0.tr)
+		var_0_0.UIMgr.GetInstance():UnOverlayPanel(arg_27_0.panel, arg_27_0.tr)
 	end
 
 	PoolMgr.GetInstance():ReturnUI("ShareUI", arg_27_0.go)

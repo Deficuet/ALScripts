@@ -16,6 +16,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			var_2_1:GetWildCollectAgency():InitGatherData(arg_2_0, var_1_0.islandId, var_2_0)
 			var_2_1:GetVisitorAgency():InitMapVisitorList(var_1_0.mapId)
+			var_2_1:GetActivityNpcAgency():InitNpcList(arg_2_0.npc_list or {})
 			existCall(var_1_1)
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_2_0.result] .. arg_2_0.result)

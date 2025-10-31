@@ -4,7 +4,6 @@ var_0_0.GOT_ACHIEVEMENT = 1
 var_0_0.FINISH_TASK = 2
 var_0_0.EXIST_ABILITY = 3
 var_0_0.MUTEX_TASK = 4
-var_0_0.IN_TIME = 5
 var_0_0.EXIST_ANY_ITEM = 6
 var_0_0.EXIST_ALL_ITEM = 7
 var_0_0.EXIST_ANY_COMMANDER_DRESS = 8
@@ -28,35 +27,32 @@ function var_0_0.IsMatch(arg_1_0)
 		[var_0_0.MUTEX_TASK] = function()
 			return not var_1_2:GetTaskAgency():IsPassId(var_1_1)
 		end,
-		[var_0_0.IN_TIME] = function()
-			return pg.TimeMgr.GetInstance():inTime(var_1_1)
-		end,
 		[var_0_0.EXIST_ANY_ITEM] = function()
-			local var_7_0 = var_1_2:GetInventoryAgency()
+			local var_6_0 = var_1_2:GetInventoryAgency()
 
-			return underscore.any(var_1_1, function(arg_8_0)
-				return var_7_0:OwnItem(arg_8_0)
+			return underscore.any(var_1_1, function(arg_7_0)
+				return var_6_0:OwnItem(arg_7_0)
 			end)
 		end,
 		[var_0_0.EXIST_ALL_ITEM] = function()
-			local var_9_0 = var_1_2:GetInventoryAgency()
+			local var_8_0 = var_1_2:GetInventoryAgency()
 
-			return underscore.all(var_1_1, function(arg_10_0)
-				return var_9_0:OwnItem(arg_10_0)
+			return underscore.all(var_1_1, function(arg_9_0)
+				return var_8_0:OwnItem(arg_9_0)
 			end)
 		end,
 		[var_0_0.EXIST_ANY_COMMANDER_DRESS] = function()
-			local var_11_0 = var_1_2:GetDressUpAgency()
+			local var_10_0 = var_1_2:GetDressUpAgency()
 
-			return underscore.any(var_1_1, function(arg_12_0)
-				return var_11_0:CheckOwnDress(arg_12_0)
+			return underscore.any(var_1_1, function(arg_11_0)
+				return var_10_0:CheckOwnDress(arg_11_0)
 			end)
 		end,
 		[var_0_0.EXIST_ALL_COMMANDER_DRESS] = function()
-			local var_13_0 = var_1_2:GetDressUpAgency()
+			local var_12_0 = var_1_2:GetDressUpAgency()
 
-			return underscore.all(var_1_1, function(arg_14_0)
-				return var_13_0:CheckOwnDress(arg_14_0)
+			return underscore.all(var_1_1, function(arg_13_0)
+				return var_12_0:CheckOwnDress(arg_13_0)
 			end)
 		end
 	}, function()

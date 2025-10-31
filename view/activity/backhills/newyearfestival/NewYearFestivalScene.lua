@@ -7,15 +7,15 @@ end
 var_0_0.HUB_ID = 4
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.top = arg_2_0:findTF("top")
-	arg_2_0._closeBtn = arg_2_0:findTF("top/back")
-	arg_2_0._homeBtn = arg_2_0:findTF("top/home")
-	arg_2_0._helpBtn = arg_2_0:findTF("top/help")
+	arg_2_0.top = arg_2_0._tf:Find("top")
+	arg_2_0._closeBtn = arg_2_0._tf:Find("top/back")
+	arg_2_0._homeBtn = arg_2_0._tf:Find("top/home")
+	arg_2_0._helpBtn = arg_2_0._tf:Find("top/help")
 	arg_2_0.ticketTimes = arg_2_0.top:Find("ticket/text")
 	arg_2_0.yinhuace = arg_2_0.top:Find("sign")
 	arg_2_0.yinhuaceTimes = arg_2_0.yinhuace:Find("get")
 	arg_2_0.yinhuaceTips = arg_2_0.yinhuace:Find("tip")
-	arg_2_0.shouce = arg_2_0.top:Find("yinhuashouceye")
+	arg_2_0.shouce = arg_2_0._tf:Find("yinhuashouceye")
 	arg_2_0.shouce_bg = arg_2_0.shouce:Find("bg")
 	arg_2_0.layout_shouce = arg_2_0.shouce:Find("yinhuace/layout")
 	arg_2_0.group_get = CustomIndexLayer.Clone2Full(arg_2_0.layout_shouce, 7)
@@ -25,7 +25,7 @@ function var_0_0.init(arg_2_0)
 
 	setActive(arg_2_0.shouce, false)
 
-	arg_2_0._map = arg_2_0:findTF("map")
+	arg_2_0._map = arg_2_0._tf:Find("map")
 	arg_2_0.shrine = arg_2_0._map:Find("shrine")
 	arg_2_0.snack_street = arg_2_0._map:Find("snack")
 	arg_2_0.divination = arg_2_0._map:Find("divination")
@@ -71,9 +71,11 @@ function var_0_0.didEnter(arg_4_0)
 		})
 	end)
 	onButton(arg_4_0, arg_4_0.yinhuace, function()
+		pg.UIMgr.GetInstance():OverlayPanel(arg_4_0.shouce)
 		setActive(arg_4_0.shouce, true)
 	end)
 	onButton(arg_4_0, arg_4_0.shouce_bg, function()
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_4_0.shouce, arg_4_0._tf)
 		setActive(arg_4_0.shouce, false)
 	end)
 	onButton(arg_4_0, arg_4_0.btn_shouce_help, function()
@@ -192,6 +194,12 @@ end
 function var_0_0.willExit(arg_19_0)
 	arg_19_0.effectReq:Stop()
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0.top, arg_19_0._tf)
+
+	if isActive(arg_19_0.shouce) then
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_19_0.shouce, arg_19_0._tf)
+		setActive(arg_19_0.shouce, false)
+	end
+
 	arg_19_0:clearStudents()
 end
 

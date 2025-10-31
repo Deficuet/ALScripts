@@ -20,6 +20,13 @@ var_0_0.TYPE_SYSTEM_THEME = 17
 var_0_0.TYPE_ORDER_TENDENCY = 18
 var_0_0.TYPE_SEND_DRESS = 19
 var_0_0.TYPE_AOGRA_SAVE_CD = 20
+var_0_0.TYPE_CHAT_SETTINGS = 21
+var_0_0.TYPE_DRAW_AWARD_COUNT = 22
+var_0_0.TYPE_DRAW_AWARD_LIST = 23
+var_0_0.TYPE_DRAW_AWARD_ALL = 24
+var_0_0.TYPE_TICKET_EXPIRED = 25
+var_0_0.TYPE_DRESS_WEAR_CONFIRE = 26
+var_0_0.TYPE_COMMON_DROP_DESCRIBE = 27
 
 function var_0_0.getUIName(arg_1_0)
 	return "IslandMsgboxUI"
@@ -31,7 +38,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.tempWindows = {}
 	arg_2_0.residentWindows = {}
 	arg_2_0.PAGES = {
-		[var_0_0.TYPE_COMMON] = IslandCommonMsgboxWindow,
+		[var_0_0.TYPE_COMMON] = IslandCommonMsgboxEXWindow,
 		[var_0_0.TYPE_ITEM] = IslandItemMsgboxWindow,
 		[var_0_0.TYPE_SHIP_OWN_STATUS] = IslandMsgBoxForStatusWindow,
 		[var_0_0.TYPE_ITEM_INFO] = IslandMsgBoxSingleItemWindow,
@@ -49,12 +56,28 @@ function var_0_0.OnLoaded(arg_2_0)
 		[var_0_0.TYPE_SYSTEM_THEME] = IslandSystemThemeMsgboxWindow,
 		[var_0_0.TYPE_ORDER_TENDENCY] = IslandOrderTendencyPage,
 		[var_0_0.TYPE_SEND_DRESS] = IslandSendDressUpMsgboxWindow,
-		[var_0_0.TYPE_AOGRA_SAVE_CD] = IslandAgoraSaveCdMsgboxWindow
+		[var_0_0.TYPE_AOGRA_SAVE_CD] = IslandAgoraSaveCdMsgboxWindow,
+		[var_0_0.TYPE_CHAT_SETTINGS] = IslandChatSettingsMsgboxWindow,
+		[var_0_0.TYPE_DRAW_AWARD_COUNT] = IslandDrawAwardCountWindow,
+		[var_0_0.TYPE_DRAW_AWARD_LIST] = IslandDrawAwardListWindow,
+		[var_0_0.TYPE_DRAW_AWARD_ALL] = IslandDrawAwardAllWindow,
+		[var_0_0.TYPE_TICKET_EXPIRED] = IslandTicketExpiredMsgBoxWindow,
+		[var_0_0.TYPE_DRESS_WEAR_CONFIRE] = IslandDressWearMsgboxWindow,
+		[var_0_0.TYPE_COMMON_DROP_DESCRIBE] = IslandMsgBoxSingleDropWindow
 	}
 end
 
 function var_0_0.OnInit(arg_3_0)
-	onButton(arg_3_0, arg_3_0._tf, function()
+	local var_3_0 = arg_3_0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()
+
+	for iter_3_0, iter_3_1 in ipairs({
+		"rtBg",
+		"rtPages"
+	}) do
+		arg_3_0[iter_3_1] = var_3_0[iter_3_0].transform
+	end
+
+	onButton(arg_3_0, arg_3_0.rtBg, function()
 		arg_3_0:HideWindow()
 	end, SFX_PANEL)
 end
@@ -116,7 +139,7 @@ function var_0_0.FindOrCreateWindow(arg_8_0, arg_8_1, arg_8_2)
 
 		assert(var_8_2, arg_8_1)
 
-		var_8_1 = var_8_2.New(arg_8_0, arg_8_0._tf)
+		var_8_1 = var_8_2.New(arg_8_0, arg_8_0.rtPages)
 	end
 
 	return var_8_1
@@ -152,10 +175,12 @@ function var_0_0.HideWindow(arg_10_0, arg_10_1)
 	if #arg_10_0.stack == 0 then
 		arg_10_0:Hide()
 
-		if arg_10_0.callback then
-			arg_10_0.callback()
+		local var_10_1 = arg_10_0.callback
 
-			arg_10_0.callback = nil
+		arg_10_0.callback = nil
+
+		if var_10_1 then
+			var_10_1()
 		end
 	end
 end

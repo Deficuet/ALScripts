@@ -58,7 +58,7 @@ function var_0_0.ActivityCharacterCamera(arg_10_0)
 end
 
 function var_0_0.GetActiveCamName(arg_11_0)
-	return IslandConst.CHARA_CAMERA_NAME
+	return IslandConst.DRESSUP_CAMERA_NAME
 end
 
 function var_0_0.UnLoadCharacterScene(arg_12_0, arg_12_1)
@@ -100,18 +100,26 @@ function var_0_0.LoadCharacter(arg_16_0, arg_16_1)
 
 		arg_16_0.role.transform.eulerAngles = Vector3(0, 180, 0)
 
-		local var_17_0 = arg_16_0:GetSmoothRotateObject()
+		local var_17_0 = (1.7777777777777777 - Screen.width / Screen.height) * 0.5
+		local var_17_1 = 0.9
 
-		var_17_0:SetUp(arg_16_0.role.transform)
+		IslandCameraMgr.instance:CinemachineComposerTrackObjOffset(arg_16_0:GetActiveCamName(), Vector3(var_17_1 - var_17_0, 1, 0))
 
-		var_17_0.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
+		arg_16_0.role.transform.localPosition = Vector3(0, 0, 0)
+
+		local var_17_2 = arg_16_0:GetSmoothRotateObject()
+		local var_17_3 = GetOrAddComponent(var_17_2, typeof(SmoothRotateObject))
+
+		var_17_3:SetUp(arg_16_0.role.transform)
+
+		var_17_3.rotationSpeed = pg.island_set.character_detail_camera_speed.key_value_int
 
 		arg_16_0:OnCharLoaded()
 	end)
 end
 
 function var_0_0.UnloadCharacter(arg_18_0)
-	local var_18_0 = arg_18_0:GetSmoothRotateObject()
+	local var_18_0 = arg_18_0:GetSmoothRotateObject():GetComponent(typeof(SmoothRotateObject))
 
 	if var_18_0 then
 		Object.Destroy(var_18_0)

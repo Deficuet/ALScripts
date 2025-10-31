@@ -5,32 +5,32 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.leftTF = arg_2_0:findTF("left")
-	arg_2_0.rightTF = arg_2_0:findTF("right")
-	arg_2_0.togglesTF = arg_2_0:findTF("toggles")
-	arg_2_0.anim = arg_2_0:findTF("view"):GetComponent(typeof(Animation))
+	arg_2_0.leftTF = arg_2_0._tf:Find("left")
+	arg_2_0.rightTF = arg_2_0._tf:Find("right")
+	arg_2_0.togglesTF = arg_2_0._tf:Find("toggles")
+	arg_2_0.anim = arg_2_0._tf:Find("view"):GetComponent(typeof(Animation))
 
-	local var_2_0 = arg_2_0:findTF("view/content")
+	local var_2_0 = arg_2_0._tf:Find("view/content")
 
 	arg_2_0.itemTFs = {
-		arg_2_0:findTF("1", var_2_0),
-		arg_2_0:findTF("2", var_2_0),
-		arg_2_0:findTF("3", var_2_0),
-		(arg_2_0:findTF("4", var_2_0))
+		var_2_0:Find("1"),
+		var_2_0:Find("2"),
+		var_2_0:Find("3"),
+		(var_2_0:Find("4"))
 	}
 
 	for iter_2_0, iter_2_1 in pairs(arg_2_0.itemTFs) do
-		arg_2_0:findTF("empty", iter_2_1):GetComponent(typeof(Image)):SetNativeSize()
+		iter_2_1:Find("empty"):GetComponent(typeof(Image)):SetNativeSize()
 	end
 
-	arg_2_0.awardTF = arg_2_0:findTF("award/mask/IconTpl")
-	arg_2_0.awardDesc = arg_2_0:findTF("award/Text")
+	arg_2_0.awardTF = arg_2_0._tf:Find("award/mask/IconTpl")
+	arg_2_0.awardDesc = arg_2_0._tf:Find("award/Text")
 
 	setText(arg_2_0.awardDesc, i18n("liner_room_award_tip"))
 
-	arg_2_0.goBtn = arg_2_0:findTF("award/go")
-	arg_2_0.getBtn = arg_2_0:findTF("award/get")
-	arg_2_0.gotTF = arg_2_0:findTF("award/got")
+	arg_2_0.goBtn = arg_2_0._tf:Find("award/go")
+	arg_2_0.getBtn = arg_2_0._tf:Find("award/get")
+	arg_2_0.gotTF = arg_2_0._tf:Find("award/got")
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -49,7 +49,7 @@ function var_0_0.OnInit(arg_3_0)
 		arg_3_0.groups[iter_3_0] = LinerRoomGroup.New(iter_3_1)
 	end
 
-	arg_3_0.toggleUIList = UIItemList.New(arg_3_0.togglesTF, arg_3_0:findTF("tpl", arg_3_0.togglesTF))
+	arg_3_0.toggleUIList = UIItemList.New(arg_3_0.togglesTF, arg_3_0.togglesTF:Find("tpl"))
 
 	arg_3_0.toggleUIList:make(function(arg_6_0, arg_6_1, arg_6_2)
 		if arg_6_0 == UIItemList.EventInit then
@@ -77,7 +77,7 @@ function var_0_0.OnInit(arg_3_0)
 		end
 	end)
 	arg_3_0.toggleUIList:align(#arg_3_0.groupIds)
-	triggerToggle(arg_3_0:findTF("1", arg_3_0.toggleUIList.container), true)
+	triggerToggle(arg_3_0.toggleUIList.container:Find("1"), true)
 end
 
 function var_0_0.UpdateActivity(arg_8_0, arg_8_1)
@@ -101,12 +101,12 @@ function var_0_0.FlushPage(arg_9_0)
 		if var_9_2 then
 			setActive(var_9_2, true)
 
-			local var_9_3 = arg_9_0:findTF("name/Text", var_9_2)
-			local var_9_4 = arg_9_0:findTF("desc", var_9_2)
+			local var_9_3 = var_9_2:Find("name/Text")
+			local var_9_4 = var_9_2:Find("desc")
 			local var_9_5 = arg_9_0.groups[arg_9_0.curIdx]:GetRoom(iter_9_1)
 
 			setText(var_9_3, var_9_5:GetName())
-			setImageSprite(arg_9_0:findTF("icon", var_9_2), GetSpriteFromAtlas("ui/linermainui_atlas", "area" .. iter_9_1, true))
+			setImageSprite(var_9_2:Find("icon"), GetSpriteFromAtlas("ui/linermainui_atlas", "area" .. iter_9_1, true))
 
 			local var_9_6 = table.contains(arg_9_0.finishRoomIds, iter_9_1)
 
@@ -115,7 +115,7 @@ function var_0_0.FlushPage(arg_9_0)
 			end
 
 			setText(var_9_4, var_9_6 and var_9_5:GetDesc() or "")
-			setActive(arg_9_0:findTF("empty", var_9_2), not var_9_6)
+			setActive(var_9_2:Find("empty"), not var_9_6)
 		end
 	end
 
@@ -135,7 +135,7 @@ function var_0_0.FlushPage(arg_9_0)
 
 	setActive(arg_9_0.goBtn, not var_9_8 and not var_9_9)
 	setActive(arg_9_0.gotTF, var_9_8)
-	setActive(arg_9_0:findTF("mask", arg_9_0.awardTF), var_9_8)
+	setActive(arg_9_0.awardTF:Find("mask"), var_9_8)
 	setActive(arg_9_0.getBtn, var_9_9)
 	arg_9_0:Show()
 end

@@ -99,7 +99,7 @@ end
 
 function var_0_0.Hide(arg_11_0)
 	var_0_0.super.Hide(arg_11_0)
-	pg.UIMgr:GetInstance():UnblurPanel(arg_11_0._tf, arg_11_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf, arg_11_0._parentTf)
 
 	if arg_11_0.circle.childCount > 0 then
 		local var_11_0 = arg_11_0.circle:GetChild(0).gameObject

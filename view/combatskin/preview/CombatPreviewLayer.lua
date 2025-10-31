@@ -8,17 +8,14 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnInit(arg_2_0)
-	arg_2_0.UIMgr = pg.UIMgr.GetInstance()
-	arg_2_0.OverlayMain = arg_2_0.UIMgr.OverlayMain
+	arg_2_0.OverlayMain = pg.UIMgr.GetInstance().OverlayMain
 
 	setParent(arg_2_0._go, arg_2_0.OverlayMain)
-	arg_2_0.UIMgr:BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
-	arg_2_0.preview = arg_2_0:findTF("preview")
-	arg_2_0.uiLayer = arg_2_0:findTF("preview/ui")
-	arg_2_0.sea = arg_2_0:findTF("preview/sea")
+	arg_2_0.preview = arg_2_0._tf:Find("preview")
+	arg_2_0.uiLayer = arg_2_0._tf:Find("preview/ui")
+	arg_2_0.sea = arg_2_0._tf:Find("preview/sea")
 	arg_2_0.rawImage = arg_2_0.sea:GetComponent("RawImage")
 
 	setText(arg_2_0.preview:Find("bg/title/Image"), i18n("word_preview"))
@@ -93,7 +90,7 @@ function var_0_0.Show(arg_4_0, arg_4_1, arg_4_2)
 end
 
 function var_0_0.OnDestroy(arg_13_0)
-	arg_13_0.UIMgr:UnblurPanel(arg_13_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf)
 
 	if arg_13_0.previewer then
 		arg_13_0.previewer:clear()

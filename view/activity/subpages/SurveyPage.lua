@@ -13,12 +13,12 @@ function var_0_0.ClearEnterTag(arg_3_0)
 end
 
 function var_0_0.OnInit(arg_4_0)
-	arg_4_0.bg = arg_4_0:findTF("BG")
-	arg_4_0.bguo = arg_4_0:findTF("BGUO")
-	arg_4_0.goBtn = arg_4_0:findTF("GO")
-	arg_4_0.awardTF = arg_4_0:findTF("Award")
-	arg_4_0.itemTF = arg_4_0:findTF("Award/IconTpl")
-	arg_4_0.maskTF = arg_4_0:findTF("Award/Mask")
+	arg_4_0.bg = arg_4_0._tf:Find("BG")
+	arg_4_0.bguo = arg_4_0._tf:Find("BGUO")
+	arg_4_0.goBtn = arg_4_0._tf:Find("GO")
+	arg_4_0.awardTF = arg_4_0._tf:Find("Award")
+	arg_4_0.itemTF = arg_4_0._tf:Find("Award/IconTpl")
+	arg_4_0.maskTF = arg_4_0._tf:Find("Award/Mask")
 	arg_4_0.actProxy = getProxy(ActivityProxy)
 	arg_4_0.isOpen, arg_4_0.surveyID = arg_4_0.actProxy:isSurveyOpen()
 

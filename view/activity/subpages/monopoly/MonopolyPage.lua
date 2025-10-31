@@ -6,7 +6,7 @@ var_0_0.ON_TRIGGER = "MonopolyGame:ON_TRIGGER"
 var_0_0.ON_AWARD = "MonopolyGame:ON_AWARD"
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
 
 	arg_1_0:bind(var_0_0.ON_START, function(arg_2_0, arg_2_1, arg_2_2)
 		pg.m02:sendNotification(GAME.MONOPOLY_OP, {

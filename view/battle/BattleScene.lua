@@ -58,17 +58,17 @@ function var_0_0.init(arg_4_0)
 	local var_4_1 = GameObject.Find("UICamera")
 
 	arg_4_0.uiCanvas = findTF(var_4_1, "Canvas/UIMain")
-	arg_4_0.skillTips = arg_4_0:findTF("Skill_Activation")
-	arg_4_0.skillRoot = arg_4_0:findTF("Skill_Activation/Root")
-	arg_4_0.skillTpl = arg_4_0:findTF("Skill_Activation/mask").gameObject
+	arg_4_0.skillTips = arg_4_0._tf:Find("Skill_Activation")
+	arg_4_0.skillRoot = arg_4_0._tf:Find("Skill_Activation/Root")
+	arg_4_0.skillTpl = arg_4_0._tf:Find("Skill_Activation/mask").gameObject
 	arg_4_0._skillFloatPool = pg.Pool.New(arg_4_0.skillRoot, arg_4_0.skillTpl, 15, 10, true, false):InitSize()
 
 	arg_4_0._skillFloatPool:SetRecycleFuncs(function(arg_5_0)
 		arg_5_0.transform:GetComponent(typeof(DftAniEvent)):OnDestroy()
 	end)
 
-	arg_4_0.skillCMDRoot = arg_4_0:findTF("Skill_Activation/Root_cmd")
-	arg_4_0.skillCMDTpl = arg_4_0:findTF("Skill_Activation/mask_cmd").gameObject
+	arg_4_0.skillCMDRoot = arg_4_0._tf:Find("Skill_Activation/Root_cmd")
+	arg_4_0.skillCMDTpl = arg_4_0._tf:Find("Skill_Activation/mask_cmd").gameObject
 	arg_4_0._skillFloatCMDPool = pg.Pool.New(arg_4_0.skillCMDRoot, arg_4_0.skillCMDTpl, 2, 4, true, false):InitSize()
 
 	arg_4_0._skillFloatCMDPool:SetRecycleFuncs(function(arg_6_0)
@@ -299,7 +299,7 @@ function var_0_0.SkillHrzPop(arg_10_0, arg_10_1, arg_10_2, arg_10_3, arg_10_4)
 			end
 
 			var_10_21[var_10_19] = false
-			var_10_5.position = var_10_13
+			var_10_5.position = Vector3(var_10_13.x, var_10_13.y, -2)
 
 			local var_10_22 = var_10_5.anchoredPosition
 
@@ -416,16 +416,16 @@ function var_0_0.didEnter(arg_19_0)
 	local var_19_0 = ys.Battle.BattleState.GetInstance()
 
 	var_19_0:SetBattleUI(arg_19_0)
-	onButton(arg_19_0, arg_19_0:findTF("PauseBtn"), function()
+	onButton(arg_19_0, arg_19_0._tf:Find("PauseBtn"), function()
 		arg_19_0:emit(BattleMediator.ON_PAUSE)
 	end, SFX_CONFIRM)
 
-	arg_19_0._chatBtn = arg_19_0:findTF("chatBtn")
+	arg_19_0._chatBtn = arg_19_0._tf:Find("chatBtn")
 
 	local var_19_1 = arg_19_0._chatBtn:GetComponent(typeof(Animation))
 
 	onButton(arg_19_0, arg_19_0._chatBtn, function()
-		arg_19_0:emit(BattleMediator.ON_CHAT, arg_19_0:findTF("chatContainer"))
+		arg_19_0:emit(BattleMediator.ON_CHAT, arg_19_0._tf:Find("chatContainer"))
 
 		if not var_19_1 then
 			setActive(arg_19_0._chatBtn, false)
@@ -433,12 +433,12 @@ function var_0_0.didEnter(arg_19_0)
 			var_19_1:Play("chatbtn_out")
 		end
 	end)
-	onToggle(arg_19_0, arg_19_0:findTF("AutoBtn"), function(arg_23_0)
+	onToggle(arg_19_0, arg_19_0._tf:Find("AutoBtn"), function(arg_23_0)
 		local var_23_0 = var_19_0:GetBattleType()
 
 		arg_19_0:emit(BattleMediator.ON_AUTO, {
 			isOn = not arg_23_0,
-			toggle = arg_19_0:findTF("AutoBtn"),
+			toggle = arg_19_0._tf:Find("AutoBtn"),
 			system = var_23_0
 		})
 		var_19_0:ActiveBot(ys.Battle.BattleState.IsAutoBotActive(var_23_0))
@@ -455,14 +455,14 @@ function var_0_0.didEnter(arg_19_0)
 			setActive(arg_19_0._chatBtn, false)
 		end
 	end, SFX_PANEL, SFX_PANEL)
-	onButton(arg_19_0, arg_19_0:findTF("CardPuzzleConsole/relic/bg"), function()
+	onButton(arg_19_0, arg_19_0._tf:Find("CardPuzzleConsole/relic/bg"), function()
 		local var_24_0 = var_19_0:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE):GetCardPuzzleComponent():GetRelicList()
 
 		arg_19_0:emit(BattleMediator.ON_PUZZLE_RELIC, {
 			relicList = var_24_0
 		})
 	end, SFX_CONFIRM)
-	onButton(arg_19_0, arg_19_0:findTF("CardPuzzleConsole/deck/bg"), function()
+	onButton(arg_19_0, arg_19_0._tf:Find("CardPuzzleConsole/deck/bg"), function()
 		local var_25_0 = var_19_0:GetProxyByName(ys.Battle.BattleDataProxy.__name):GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE):GetCardPuzzleComponent()
 		local var_25_1 = var_25_0:GetDeck():GetCardList()
 		local var_25_2 = var_25_0:GetHand():GetCardList()
@@ -510,7 +510,7 @@ function var_0_0.didEnter(arg_19_0)
 	arg_19_0:initPauseWindow()
 
 	if arg_19_0.contextData.prePause then
-		triggerButton(arg_19_0:findTF("PauseBtn"))
+		triggerButton(arg_19_0._tf:Find("PauseBtn"))
 	end
 
 	setActive(arg_19_0._chatBtn, var_19_0:ChatUseable())
@@ -576,15 +576,15 @@ function var_0_0.setFleet(arg_34_0, arg_34_1, arg_34_2)
 end
 
 function var_0_0.initPauseWindow(arg_35_0)
-	arg_35_0.pauseWindow = arg_35_0:findTF("Msgbox")
-	arg_35_0.LeftTimeContainer = arg_35_0:findTF("window/LeftTime", arg_35_0.pauseWindow)
-	arg_35_0.LeftTime = arg_35_0:findTF("window/LeftTime/Text", arg_35_0.pauseWindow)
+	arg_35_0.pauseWindow = arg_35_0._tf:Find("Msgbox")
+	arg_35_0.LeftTimeContainer = arg_35_0.pauseWindow:Find("window/LeftTime")
+	arg_35_0.LeftTime = arg_35_0.pauseWindow:Find("window/LeftTime/Text")
 	arg_35_0.mainTFs = {}
 	arg_35_0.vanTFs = {}
 
-	setText(arg_35_0:findTF("label", arg_35_0.LeftTimeContainer), i18n("battle_battleMediator_remainTime"))
-	setText(arg_35_0:findTF("window/van/power/title", arg_35_0.pauseWindow), i18n("word_vanguard_fleet"))
-	setText(arg_35_0:findTF("window/main/power/title", arg_35_0.pauseWindow), i18n("word_main_fleet"))
+	setText(arg_35_0.LeftTimeContainer:Find("label"), i18n("battle_battleMediator_remainTime"))
+	setText(arg_35_0.pauseWindow:Find("window/van/power/title"), i18n("word_vanguard_fleet"))
+	setText(arg_35_0.pauseWindow:Find("window/main/power/title"), i18n("word_main_fleet"))
 
 	local function var_35_0(arg_36_0, arg_36_1, arg_36_2)
 		for iter_36_0 = 1, 3 do
@@ -611,19 +611,19 @@ function var_0_0.initPauseWindow(arg_35_0)
 	end
 
 	if arg_35_0._mainShipVOs then
-		var_35_0(true, arg_35_0:findTF("window/main", arg_35_0.pauseWindow), arg_35_0._mainShipVOs)
-		var_35_0(false, arg_35_0:findTF("window/van", arg_35_0.pauseWindow), arg_35_0._vanShipVOs)
+		var_35_0(true, arg_35_0.pauseWindow:Find("window/main"), arg_35_0._mainShipVOs)
+		var_35_0(false, arg_35_0.pauseWindow:Find("window/van"), arg_35_0._vanShipVOs)
 	end
 
 	local var_35_1 = ys.Battle.BattleState.GetInstance()
 	local var_35_2 = findTF(arg_35_0.pauseWindow, "window/Chapter")
 	local var_35_3 = findTF(arg_35_0.pauseWindow, "window/Chapter/Text")
 
-	arg_35_0.continueBtn = arg_35_0:findTF("window/button_container/continue", arg_35_0.pauseWindow)
-	arg_35_0.leaveBtn = arg_35_0:findTF("window/button_container/leave", arg_35_0.pauseWindow)
+	arg_35_0.continueBtn = arg_35_0.pauseWindow:Find("window/button_container/continue")
+	arg_35_0.leaveBtn = arg_35_0.pauseWindow:Find("window/button_container/leave")
 
-	setText(arg_35_0:findTF("pic", arg_35_0.continueBtn), i18n("battle_battleMediator_goOnFight"))
-	setText(arg_35_0:findTF("pic", arg_35_0.leaveBtn), i18n("battle_battleMediator_existFight"))
+	setText(arg_35_0.continueBtn:Find("pic"), i18n("battle_battleMediator_goOnFight"))
+	setText(arg_35_0.leaveBtn:Find("pic"), i18n("battle_battleMediator_existFight"))
 
 	local var_35_4 = var_35_1:GetBattleType()
 
@@ -695,20 +695,20 @@ function var_0_0.initPauseWindow(arg_35_0)
 				var_38_1:Play("msgbox_out")
 				arg_35_0.pauseWindow:GetComponent(typeof(DftAniEvent)):SetEndEvent(function(arg_39_0)
 					setActive(arg_35_0.pauseWindow, false)
-					pg.UIMgr.GetInstance():UnblurPanel(arg_35_0.pauseWindow, arg_35_0._tf)
+					pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0.pauseWindow, arg_35_0._tf)
 					var_35_1:Resume()
 				end)
 			end
 		else
 			setActive(arg_35_0.pauseWindow, false)
-			pg.UIMgr.GetInstance():UnblurPanel(arg_35_0.pauseWindow, arg_35_0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0.pauseWindow, arg_35_0._tf)
 			var_35_1:Resume()
 		end
 	end)
-	onButton(arg_35_0, arg_35_0:findTF("help", arg_35_0.pauseWindow), function()
+	onButton(arg_35_0, arg_35_0.pauseWindow:Find("help"), function()
 		if BATTLE_DEBUG and PLATFORM == 7 then
 			setActive(arg_35_0.pauseWindow, false)
-			pg.UIMgr.GetInstance():UnblurPanel(arg_35_0.pauseWindow, arg_35_0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0.pauseWindow, arg_35_0._tf)
 			var_35_1:Resume()
 			var_35_1:OpenConsole()
 		else
@@ -718,7 +718,7 @@ function var_0_0.initPauseWindow(arg_35_0)
 			})
 		end
 	end)
-	onButton(arg_35_0, arg_35_0:findTF("window/top/btnBack", arg_35_0.pauseWindow), function()
+	onButton(arg_35_0, arg_35_0.pauseWindow:Find("window/top/btnBack"), function()
 		triggerButton(arg_35_0.continueBtn)
 	end)
 	onButton(arg_35_0, arg_35_0.pauseWindow, function()
@@ -742,9 +742,7 @@ function var_0_0.updatePauseWindow(arg_44_0)
 	end
 
 	setActive(arg_44_0.pauseWindow, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_44_0.pauseWindow, nil, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_44_0.pauseWindow)
 
 	local var_44_0 = ys.Battle.BattleState.GetInstance():GetProxyByName(ys.Battle.BattleDataProxy.__name)
 	local var_44_1 = var_44_0:GetFleetByIFF(ys.Battle.BattleConfig.FRIENDLY_CODE)
@@ -832,7 +830,7 @@ function var_0_0.willExit(arg_49_0)
 	arg_49_0._skillFloatPool:Dispose()
 	arg_49_0._skillFloatCMDPool:Dispose()
 	ys.Battle.BattleState.GetInstance():ExitBattle()
-	pg.UIMgr.GetInstance():UnblurPanel(arg_49_0.pauseWindow, arg_49_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_49_0.pauseWindow, arg_49_0._tf)
 	ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCamera(false)
 	pg.CameraFixMgr.GetInstance():disconnect(arg_49_0.camEventId)
 end

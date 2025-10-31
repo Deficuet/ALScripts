@@ -17,15 +17,15 @@ function var_0_0.GetMGHubData(arg_3_0)
 end
 
 function var_0_0.didEnter(arg_4_0)
-	onButton(arg_4_0, arg_4_0:findTF("overview/back"), function()
+	onButton(arg_4_0, arg_4_0._tf:Find("overview/back"), function()
 		arg_4_0:emit(var_0_0.ON_BACK)
 	end, SFX_PANEL)
-	onButton(arg_4_0, arg_4_0:findTF("overview/collection"), function()
+	onButton(arg_4_0, arg_4_0._tf:Find("overview/collection"), function()
 		arg_4_0:emit(TowerClimbingMediator.ON_COLLECTION)
 	end, SFX_PANEL)
 
 	if LOCK_TOWERCLIMBING_AWARD then
-		setActive(arg_4_0:findTF("overview/collection"), false)
+		setActive(arg_4_0._tf:Find("overview/collection"), false)
 	end
 end
 
@@ -43,7 +43,7 @@ function var_0_0.UpdateTip(arg_7_0)
 		return var_7_1:GetAwardState(arg_8_0) == 1
 	end)
 
-	setActive(arg_7_0:findTF("overview/collection/tip"), var_7_2)
+	setActive(arg_7_0._tf:Find("overview/collection/tip"), var_7_2)
 end
 
 function var_0_0.Start(arg_9_0)

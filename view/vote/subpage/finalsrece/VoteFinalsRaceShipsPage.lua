@@ -5,10 +5,10 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.num1TF = arg_2_0:findTF("content/head/num1")
-	arg_2_0.num2TF = arg_2_0:findTF("content/head/num2")
-	arg_2_0.num3TF = arg_2_0:findTF("content/head/num3")
-	arg_2_0.UIlist = UIItemList.New(arg_2_0:findTF("content/ships"), arg_2_0:findTF("content/ships/ship_tpl"))
+	arg_2_0.num1TF = arg_2_0._tf:Find("content/head/num1")
+	arg_2_0.num2TF = arg_2_0._tf:Find("content/head/num2")
+	arg_2_0.num3TF = arg_2_0._tf:Find("content/head/num3")
+	arg_2_0.UIlist = UIItemList.New(arg_2_0._tf:Find("content/ships"), arg_2_0._tf:Find("content/ships/ship_tpl"))
 end
 
 function var_0_0.SetCallBack(arg_3_0, arg_3_1)

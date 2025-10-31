@@ -5,11 +5,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.btnChange = arg_2_0:findTF("BG/bottom/btn_change")
-	arg_2_0.btnBuy = arg_2_0:findTF("BG/bottom/btn_buy")
-	arg_2_0.priceText = arg_2_0:findTF("BG/bottom/btn_buy/Price")
-	arg_2_0.line = arg_2_0:findTF("BG/bottom/Line")
-	arg_2_0.desc = arg_2_0:findTF("BG/bottom/desc")
+	arg_2_0.btnChange = arg_2_0._tf:Find("BG/bottom/btn_change")
+	arg_2_0.btnBuy = arg_2_0._tf:Find("BG/bottom/btn_buy")
+	arg_2_0.priceText = arg_2_0._tf:Find("BG/bottom/btn_buy/Price")
+	arg_2_0.line = arg_2_0._tf:Find("BG/bottom/Line")
+	arg_2_0.desc = arg_2_0._tf:Find("BG/bottom/desc")
 	arg_2_0.loader = AutoLoader.New()
 end
 
@@ -40,7 +40,11 @@ function var_0_0.didEnter(arg_4_0)
 		arg_4_0:emit(Dorm3dSkinSelectMediator.CHANGE_SKIN, arg_4_0.contextData.groupId, arg_4_0.selectedSkinId, arg_4_0.hiddenList)
 
 		if not arg_4_0.contextData.onSwitchSkin then
-			arg_4_0.contextData.ladyEnv:PlaySingleAction(pg.dorm3d_resource[arg_4_0.selectedSkinId].wear_anim)
+			local var_7_0 = pg.dorm3d_resource[arg_4_0.selectedSkinId].wear_anim
+
+			if var_7_0 and var_7_0 ~= "" then
+				arg_4_0.contextData.ladyEnv:PlaySingleAction(var_7_0)
+			end
 		end
 
 		arg_4_0.sortSkinId = arg_4_0.selectedSkinId
@@ -171,7 +175,12 @@ function var_0_0.OnclickSkin(arg_16_0, arg_16_1, arg_16_2)
 		else
 			var_16_0:SwitchCharacterSkin(var_16_1, arg_16_0.selectedSkinId, function()
 				var_16_0:HideCharacterPart(arg_16_0.selectedSkinId, arg_16_0.hiddenList)
-				var_16_0:PlaySingleAction(arg_16_0.skinDic[arg_16_0.selectedSkinId]:GetSwitchAnim())
+
+				local var_17_0 = arg_16_0.skinDic[arg_16_0.selectedSkinId]:GetSwitchAnim()
+
+				if var_17_0 and var_17_0 ~= "" then
+					var_16_0:PlaySingleAction(var_17_0)
+				end
 			end)
 		end
 	end

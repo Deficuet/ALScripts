@@ -14,8 +14,8 @@ end
 
 function var_0_0.ResUISettings(arg_3_0)
 	return {
-		showType = PlayerResUI.TYPE_ALL,
-		groupName = LayerWeightConst.GROUP_LEVELUI
+		groupDelta = 1,
+		showType = PlayerResUI.TYPE_ALL
 	}
 end
 
@@ -35,27 +35,28 @@ function var_0_0.getBGM(arg_4_0)
 		end
 
 		local var_6_0 = arg_4_0.contextData.map:getConfig("ani_controller")
+		local var_6_1 = getProxy(ChapterProxy)
 
 		if var_6_0 and #var_6_0 > 0 then
 			for iter_6_0, iter_6_1 in ipairs(var_6_0) do
-				local var_6_1 = _.rest(iter_6_1[2], 2)
+				local var_6_2 = _.rest(iter_6_1[2], 2)
 
-				for iter_6_2, iter_6_3 in ipairs(var_6_1) do
+				for iter_6_2, iter_6_3 in ipairs(var_6_2) do
 					if string.find(iter_6_3, "^bgm_") and iter_6_1[1] == var_0_3 then
-						local var_6_2 = iter_6_1[2][1]
-						local var_6_3 = false
+						local var_6_3 = iter_6_1[2][1]
+						local var_6_4 = false
 
-						for iter_6_4, iter_6_5 in ipairs(var_6_2) do
-							local var_6_4 = chapterProxy:GetChapterItemById(iter_6_5)
+						for iter_6_4, iter_6_5 in ipairs(var_6_3) do
+							local var_6_5 = var_6_1:GetChapterItemById(iter_6_5)
 
-							if var_6_4 and var_6_4:isClear() then
-								var_6_3 = true
+							if var_6_5 and var_6_5:isClear() then
+								var_6_4 = true
 
 								break
 							end
 						end
 
-						if not var_6_3 then
+						if not var_6_4 then
 							return string.sub(iter_6_3, 5)
 						end
 					end
@@ -190,73 +191,73 @@ function var_0_0.initData(arg_11_0)
 end
 
 function var_0_0.initUI(arg_12_0)
-	arg_12_0.topPanel = arg_12_0:findTF("top")
+	arg_12_0.topPanel = arg_12_0._tf:Find("top")
 	arg_12_0.canvasGroup = arg_12_0.topPanel:GetComponent("CanvasGroup")
 	arg_12_0.canvasGroup.blocksRaycasts = not arg_12_0.canvasGroup.blocksRaycasts
 	arg_12_0.canvasGroup.blocksRaycasts = not arg_12_0.canvasGroup.blocksRaycasts
-	arg_12_0.entranceLayer = arg_12_0:findTF("entrance")
+	arg_12_0.entranceLayer = arg_12_0._tf:Find("entrance")
 	arg_12_0.ptBonus = EventPtBonus.New(arg_12_0.entranceLayer:Find("btns/btn_task/bonusPt"))
-	arg_12_0.entranceBg = arg_12_0:findTF("entrance_bg")
-	arg_12_0.topChapter = arg_12_0:findTF("top_chapter", arg_12_0.topPanel)
+	arg_12_0.entranceBg = arg_12_0._tf:Find("entrance_bg")
+	arg_12_0.topChapter = arg_12_0.topPanel:Find("top_chapter")
 
 	setActive(arg_12_0.topChapter:Find("title_chapter"), false)
 	setActive(arg_12_0.topChapter:Find("type_chapter"), false)
 	setActive(arg_12_0.topChapter:Find("type_escort"), false)
 	setActive(arg_12_0.topChapter:Find("type_skirmish"), false)
 
-	arg_12_0.chapterName = arg_12_0:findTF("title_chapter/name", arg_12_0.topChapter)
-	arg_12_0.chapterNoTitle = arg_12_0:findTF("title_chapter/chapter", arg_12_0.topChapter)
-	arg_12_0.resChapter = arg_12_0:findTF("resources", arg_12_0.topChapter)
+	arg_12_0.chapterName = arg_12_0.topChapter:Find("title_chapter/name")
+	arg_12_0.chapterNoTitle = arg_12_0.topChapter:Find("title_chapter/chapter")
+	arg_12_0.resChapter = arg_12_0.topChapter:Find("resources")
 
 	setActive(arg_12_0.topChapter, true)
 
 	arg_12_0._voteBookBtn = arg_12_0.topChapter:Find("vote_book")
-	arg_12_0.leftChapter = arg_12_0:findTF("main/left_chapter")
+	arg_12_0.leftChapter = arg_12_0._tf:Find("main/left_chapter")
 
 	setActive(arg_12_0.leftChapter, true)
 
 	arg_12_0.leftCanvasGroup = arg_12_0.leftChapter:GetComponent(typeof(CanvasGroup))
-	arg_12_0.btnPrev = arg_12_0:findTF("btn_prev", arg_12_0.leftChapter)
-	arg_12_0.btnPrevCol = arg_12_0:findTF("btn_prev/prev_image", arg_12_0.leftChapter)
-	arg_12_0.eliteBtn = arg_12_0:findTF("buttons/btn_elite", arg_12_0.leftChapter)
-	arg_12_0.normalBtn = arg_12_0:findTF("buttons/btn_normal", arg_12_0.leftChapter)
-	arg_12_0.actNormalBtn = arg_12_0:findTF("buttons/btn_act_normal", arg_12_0.leftChapter)
-	arg_12_0.actEliteBtn = arg_12_0:findTF("buttons/btn_act_elite", arg_12_0.leftChapter)
-	arg_12_0.actExtraBtn = arg_12_0:findTF("buttons/btn_act_extra", arg_12_0.leftChapter)
-	arg_12_0.actExtraBtnAnim = arg_12_0:findTF("usm", arg_12_0.actExtraBtn)
-	arg_12_0.remasterBtn = arg_12_0:findTF("buttons/btn_remaster", arg_12_0.leftChapter)
-	arg_12_0.escortBar = arg_12_0:findTF("escort_bar", arg_12_0.leftChapter)
-	arg_12_0.eliteQuota = arg_12_0:findTF("elite_quota", arg_12_0.leftChapter)
-	arg_12_0.skirmishBar = arg_12_0:findTF("left_times", arg_12_0.leftChapter)
-	arg_12_0.mainLayer = arg_12_0:findTF("main")
+	arg_12_0.btnPrev = arg_12_0.leftChapter:Find("btn_prev")
+	arg_12_0.btnPrevCol = arg_12_0.leftChapter:Find("btn_prev/prev_image")
+	arg_12_0.eliteBtn = arg_12_0.leftChapter:Find("buttons/btn_elite")
+	arg_12_0.normalBtn = arg_12_0.leftChapter:Find("buttons/btn_normal")
+	arg_12_0.actNormalBtn = arg_12_0.leftChapter:Find("buttons/btn_act_normal")
+	arg_12_0.actEliteBtn = arg_12_0.leftChapter:Find("buttons/btn_act_elite")
+	arg_12_0.actExtraBtn = arg_12_0.leftChapter:Find("buttons/btn_act_extra")
+	arg_12_0.actExtraBtnAnim = arg_12_0.actExtraBtn:Find("usm")
+	arg_12_0.remasterBtn = arg_12_0.leftChapter:Find("buttons/btn_remaster")
+	arg_12_0.escortBar = arg_12_0.leftChapter:Find("escort_bar")
+	arg_12_0.eliteQuota = arg_12_0.leftChapter:Find("elite_quota")
+	arg_12_0.skirmishBar = arg_12_0.leftChapter:Find("left_times")
+	arg_12_0.mainLayer = arg_12_0._tf:Find("main")
 
 	setActive(arg_12_0.mainLayer:Find("title_chapter_lines"), false)
 
-	arg_12_0.rightChapter = arg_12_0:findTF("main/right_chapter")
+	arg_12_0.rightChapter = arg_12_0._tf:Find("main/right_chapter")
 	arg_12_0.rightCanvasGroup = arg_12_0.rightChapter:GetComponent(typeof(CanvasGroup))
-	arg_12_0.eventContainer = arg_12_0:findTF("event_btns/event_container", arg_12_0.rightChapter)
-	arg_12_0.btnSpecial = arg_12_0:findTF("btn_task", arg_12_0.eventContainer)
-	arg_12_0.challengeBtn = arg_12_0:findTF("btn_challenge", arg_12_0.eventContainer)
-	arg_12_0.dailyBtn = arg_12_0:findTF("btn_daily", arg_12_0.eventContainer)
-	arg_12_0.militaryExerciseBtn = arg_12_0:findTF("btn_pvp", arg_12_0.eventContainer)
-	arg_12_0.activityBtn = arg_12_0:findTF("event_btns/activity_btn", arg_12_0.rightChapter)
-	arg_12_0.ptTotal = arg_12_0:findTF("event_btns/pt_text", arg_12_0.rightChapter)
-	arg_12_0.ticketTxt = arg_12_0:findTF("event_btns/tickets/Text", arg_12_0.rightChapter)
-	arg_12_0.remasterAwardBtn = arg_12_0:findTF("btn_remaster_award", arg_12_0.rightChapter)
-	arg_12_0.btnNext = arg_12_0:findTF("btn_next", arg_12_0.rightChapter)
-	arg_12_0.btnNextCol = arg_12_0:findTF("btn_next/next_image", arg_12_0.rightChapter)
-	arg_12_0.countDown = arg_12_0:findTF("event_btns/count_down", arg_12_0.rightChapter)
+	arg_12_0.eventContainer = arg_12_0.rightChapter:Find("event_btns/event_container")
+	arg_12_0.btnSpecial = arg_12_0.eventContainer:Find("btn_task")
+	arg_12_0.challengeBtn = arg_12_0.eventContainer:Find("btn_challenge")
+	arg_12_0.dailyBtn = arg_12_0.eventContainer:Find("btn_daily")
+	arg_12_0.militaryExerciseBtn = arg_12_0.eventContainer:Find("btn_pvp")
+	arg_12_0.activityBtn = arg_12_0.rightChapter:Find("event_btns/activity_btn")
+	arg_12_0.ptTotal = arg_12_0.rightChapter:Find("event_btns/pt_text")
+	arg_12_0.ticketTxt = arg_12_0.rightChapter:Find("event_btns/tickets/Text")
+	arg_12_0.remasterAwardBtn = arg_12_0.rightChapter:Find("btn_remaster_award")
+	arg_12_0.btnNext = arg_12_0.rightChapter:Find("btn_next")
+	arg_12_0.btnNextCol = arg_12_0.rightChapter:Find("btn_next/next_image")
+	arg_12_0.countDown = arg_12_0.rightChapter:Find("event_btns/count_down")
 
-	setActive(arg_12_0:findTF("event_btns/BottomList", arg_12_0.rightChapter), true)
+	setActive(arg_12_0.rightChapter:Find("event_btns/BottomList"), true)
 
-	arg_12_0.actExchangeShopBtn = arg_12_0:findTF("event_btns/BottomList/btn_exchange", arg_12_0.rightChapter)
-	arg_12_0.actAtelierBuffBtn = arg_12_0:findTF("event_btns/BottomList/btn_control_center", arg_12_0.rightChapter)
+	arg_12_0.actExchangeShopBtn = arg_12_0.rightChapter:Find("event_btns/BottomList/btn_exchange")
+	arg_12_0.actAtelierBuffBtn = arg_12_0.rightChapter:Find("event_btns/BottomList/btn_control_center")
 	arg_12_0.actAtelierYumiaBuffBtn = arg_12_0.rightChapter:Find("event_btns/BottomList/btn_yumia_buff")
-	arg_12_0.actExtraRank = arg_12_0:findTF("event_btns/BottomList/act_extra_rank", arg_12_0.rightChapter)
+	arg_12_0.actExtraRank = arg_12_0.rightChapter:Find("event_btns/BottomList/act_extra_rank")
 
 	setActive(arg_12_0.rightChapter, true)
 
-	arg_12_0.damageTextTemplate = go(arg_12_0:findTF("damage", arg_12_0.topPanel))
+	arg_12_0.damageTextTemplate = go(arg_12_0.topPanel:Find("damage"))
 
 	setActive(arg_12_0.damageTextTemplate, false)
 
@@ -264,36 +265,36 @@ function var_0_0.initUI(arg_12_0)
 		arg_12_0.damageTextTemplate
 	}
 	arg_12_0.damageTextActive = {}
-	arg_12_0.mapHelpBtn = arg_12_0:findTF("help_button", arg_12_0.topPanel)
-	arg_12_0.avoidText = arg_12_0:findTF("text_avoid", arg_12_0.topPanel)
-	arg_12_0.commanderTinkle = arg_12_0:findTF("neko_tinkle", arg_12_0.topPanel)
+	arg_12_0.mapHelpBtn = arg_12_0.topPanel:Find("help_button")
+	arg_12_0.avoidText = arg_12_0.topPanel:Find("text_avoid")
+	arg_12_0.commanderTinkle = arg_12_0.topPanel:Find("neko_tinkle")
 
 	setActive(arg_12_0.commanderTinkle, false)
 
-	arg_12_0.spResult = arg_12_0:findTF("sp_result", arg_12_0.topPanel)
+	arg_12_0.spResult = arg_12_0.topPanel:Find("sp_result")
 
 	setActive(arg_12_0.spResult, false)
 
-	arg_12_0.helpPage = arg_12_0:findTF("help_page", arg_12_0.topPanel)
-	arg_12_0.helpImage = arg_12_0:findTF("icon", arg_12_0.helpPage)
+	arg_12_0.helpPage = arg_12_0.topPanel:Find("help_page")
+	arg_12_0.helpImage = arg_12_0.helpPage:Find("icon")
 
 	setActive(arg_12_0.helpPage, false)
 
-	arg_12_0.curtain = arg_12_0:findTF("curtain", arg_12_0.topPanel)
+	arg_12_0.curtain = arg_12_0.topPanel:Find("curtain")
 
 	setActive(arg_12_0.curtain, false)
 
-	arg_12_0.map = arg_12_0:findTF("maps")
+	arg_12_0.map = arg_12_0._tf:Find("maps")
 	arg_12_0.mapTFs = {
-		arg_12_0:findTF("maps/map1"),
-		arg_12_0:findTF("maps/map2")
+		arg_12_0._tf:Find("maps/map1"),
+		arg_12_0._tf:Find("maps/map2")
 	}
 
 	for iter_12_0, iter_12_1 in ipairs(arg_12_0.mapTFs) do
 		iter_12_1:GetComponent(typeof(Image)).enabled = false
 	end
 
-	arg_12_0.UIFXList = arg_12_0:findTF("maps/UI_FX_list")
+	arg_12_0.UIFXList = arg_12_0._tf:Find("maps/UI_FX_list")
 
 	local var_12_0 = arg_12_0.UIFXList:GetComponentsInChildren(typeof(Renderer)):ToTable()
 
@@ -317,13 +318,13 @@ function var_0_0.initUI(arg_12_0)
 	setActive(arg_12_0.levelGrid, true)
 
 	arg_12_0.dragLayer = arg_12_0.levelGrid:Find("DragLayer")
-	arg_12_0.float = arg_12_0:findTF("float")
-	arg_12_0.clouds = arg_12_0:findTF("clouds", arg_12_0.float)
+	arg_12_0.float = arg_12_0._tf:Find("float")
+	arg_12_0.clouds = arg_12_0.float:Find("clouds")
 
 	setActive(arg_12_0.clouds, true)
 	setActive(arg_12_0.float:Find("levels"), false)
 
-	arg_12_0.resources = arg_12_0:findTF("resources"):GetComponent("ItemList")
+	arg_12_0.resources = arg_12_0._tf:Find("resources"):GetComponent("ItemList")
 	arg_12_0.arrowTarget = arg_12_0.resources.prefabItem[0]
 	arg_12_0.destinationMarkTpl = arg_12_0.resources.prefabItem[1]
 	arg_12_0.championTpl = arg_12_0.resources.prefabItem[3]
@@ -334,7 +335,7 @@ function var_0_0.initUI(arg_12_0)
 	arg_12_0.subTpl = arg_12_0.resources.prefabItem[9]
 	arg_12_0.transportTpl = arg_12_0.resources.prefabItem[11]
 
-	setText(arg_12_0:findTF("fighting/Text", arg_12_0.enemyTpl), i18n("ui_word_levelui2_inevent"))
+	setText(tf(arg_12_0.enemyTpl):Find("fighting/Text"), i18n("ui_word_levelui2_inevent"))
 	arg_12_0:HideBtns()
 	setAnchoredPosition(arg_12_0.topChapter, {
 		y = 0
@@ -467,7 +468,7 @@ end
 function var_0_0.didEnter(arg_36_0)
 	arg_36_0.openedCommanerSystem = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(arg_36_0.player.level, "CommanderCatMediator")
 
-	onButton(arg_36_0, arg_36_0:findTF("back_button", arg_36_0.topChapter), function()
+	onButton(arg_36_0, arg_36_0.topChapter:Find("back_button"), function()
 		if arg_36_0:isfrozen() then
 			return
 		end
@@ -849,7 +850,7 @@ function var_0_0.onBackPressed(arg_62_0)
 		return
 	end
 
-	triggerButton(arg_62_0:findTF("back_button", arg_62_0.topChapter))
+	triggerButton(arg_62_0.topChapter:Find("back_button"))
 end
 
 function var_0_0.ShowEntranceUI(arg_63_0, arg_63_1)
@@ -922,7 +923,7 @@ end
 
 function var_0_0.setEliteQuota(arg_69_0, arg_69_1, arg_69_2)
 	local var_69_0 = arg_69_2 - arg_69_1
-	local var_69_1 = arg_69_0:findTF("bg/Text", arg_69_0.eliteQuota):GetComponent(typeof(Text))
+	local var_69_1 = arg_69_0.eliteQuota:Find("bg/Text"):GetComponent(typeof(Text))
 
 	if arg_69_1 == arg_69_2 then
 		var_69_1.color = Color.red
@@ -1052,7 +1053,7 @@ function var_0_0.updateClouds(arg_73_0)
 	arg_73_0.cloudTimer = {}
 
 	for iter_73_0 = 1, 6 do
-		local var_73_0 = arg_73_0:findTF("cloud_" .. iter_73_0, arg_73_0.clouds)
+		local var_73_0 = arg_73_0.clouds:Find("cloud_" .. iter_73_0)
 		local var_73_1 = rtf(var_73_0)
 
 		table.insert(arg_73_0.cloudRTFs, var_73_1)
@@ -1219,6 +1220,8 @@ function var_0_0.updateActivityBtns(arg_82_0)
 	local var_82_7 = setmetatable({}, MainActMapBtn)
 	local var_82_8 = var_82_7:InShowTime() and not var_82_1 and not var_82_4 and not var_82_5
 
+	arg_82_0.activityBtnLinkAct = var_82_7:GetActivity()
+
 	if var_82_8 then
 		var_82_7.image = arg_82_0.activityBtn:Find("Image"):GetComponent(typeof(Image))
 		var_82_7.subImage = arg_82_0.activityBtn:Find("sub_Image"):GetComponent(typeof(Image))
@@ -1384,7 +1387,6 @@ function var_0_0.updateRemasterInfo(arg_93_0)
 					type = var_93_5,
 					id = var_93_6
 				},
-				weight = LayerWeightConst.TOP_LAYER,
 				remaster = {
 					word = i18n("level_remaster_tip4", pg.chapter_template[var_93_4].chapter_name),
 					number = var_93_8.count .. "/" .. var_93_7,
@@ -1471,6 +1473,12 @@ function var_0_0.registerActBtn(arg_99_0)
 	end, SFX_PANEL)
 	onButton(arg_99_0, arg_99_0.activityBtn, function()
 		if arg_99_0:isfrozen() then
+			return
+		end
+
+		if arg_99_0.activityBtnLinkAct and arg_99_0.activityBtnLinkAct:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
+
 			return
 		end
 
@@ -1858,9 +1866,7 @@ function var_0_0.DisplaySPAnim(arg_134_0, arg_134_1, arg_134_2, arg_134_3)
 
 		local var_135_0 = tf(var_134_0)
 
-		pg.UIMgr.GetInstance():OverlayPanel(var_135_0, {
-			groupName = LayerWeightConst.GROUP_LEVELUI
-		})
+		pg.UIMgr.GetInstance():OverlayPanel(var_135_0)
 
 		if arg_134_3 then
 			arg_134_3(var_134_0)
@@ -2182,16 +2188,10 @@ function var_0_0.switchToChapter(arg_172_0, arg_172_1)
 			function(arg_175_0)
 				setActive(arg_172_0.clouds, false)
 				arg_172_0.mapBuilder:HideFloat()
-				pg.UIMgr.GetInstance():BlurPanel(arg_172_0.topPanel, false, {
+				arg_172_0:BlurPanel(arg_172_0.topPanel, {
 					blurCamList = {
 						pg.UIMgr.CameraUI
-					},
-					groupName = LayerWeightConst.GROUP_LEVELUI
-				})
-				pg.playerResUI:SetActive({
-					active = true,
-					groupName = LayerWeightConst.GROUP_LEVELUI,
-					showType = PlayerResUI.TYPE_ALL
+					}
 				})
 				arg_172_0.levelStageView:updateStageInfo()
 				arg_172_0.levelStageView:updateAmbushRate(arg_172_1.fleet.line, true)
@@ -2398,10 +2398,7 @@ function var_0_0.switchToMap(arg_190_0, arg_190_1)
 			arg_190_0.mapBuilder:UpdateMapItems()
 		end
 	})
-	pg.UIMgr.GetInstance():UnblurPanel(arg_190_0.topPanel, arg_190_0._tf)
-	pg.playerResUI:SetActive({
-		active = false
-	})
+	arg_190_0:UnOverlayPanel(arg_190_0.topPanel, arg_190_0._tf)
 
 	arg_190_0.canvasGroup.blocksRaycasts = arg_190_0.frozenCount == 0
 	arg_190_0.canvasGroup.interactable = true
@@ -2700,9 +2697,7 @@ function var_0_0.PlayMapTransition(arg_212_0, arg_212_1, arg_212_2, arg_212_3, a
 
 		local var_213_0 = tf(var_212_0)
 
-		pg.UIMgr.GetInstance():OverlayPanel(var_213_0, {
-			groupName = LayerWeightConst.GROUP_LEVELUI
-		})
+		pg.UIMgr.GetInstance():OverlayPanel(var_213_0)
 		var_212_0:GetComponent(typeof(Animator)):Play(arg_212_2 and "Sequence" or "Inverted", -1, 0)
 		var_213_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_214_0)
 			pg.UIMgr.GetInstance():UnOverlayPanel(var_213_0, arg_212_0._tf)
@@ -3056,9 +3051,7 @@ function var_0_0.doPlayAnim(arg_250_0, arg_250_1, arg_250_2, arg_250_3)
 
 		local var_251_0 = tf(var_250_0)
 
-		pg.UIMgr.GetInstance():OverlayPanel(var_251_0, {
-			groupName = LayerWeightConst.GROUP_LEVELUI
-		})
+		pg.UIMgr.GetInstance():OverlayPanel(var_251_0)
 
 		if arg_250_3 then
 			arg_250_3(var_250_0)
@@ -3564,7 +3557,7 @@ function var_0_0.enableLevelCamera(arg_301_0)
 	if arg_301_0.levelCamIndices == 0 then
 		arg_301_0.levelCam.enabled = true
 
-		pg.LayerWeightMgr.GetInstance():switchOriginParent()
+		pg.LayerWeightMgr.GetInstance():CreateRefreshHandler()
 	end
 end
 
@@ -3574,7 +3567,7 @@ function var_0_0.disableLevelCamera(arg_302_0)
 	if arg_302_0.levelCamIndices > 0 then
 		arg_302_0.levelCam.enabled = false
 
-		pg.LayerWeightMgr.GetInstance():switchOriginParent()
+		pg.LayerWeightMgr.GetInstance():CreateRefreshHandler()
 	end
 end
 
@@ -3744,10 +3737,7 @@ function var_0_0.willExit(arg_318_0)
 	arg_318_0.loader:Clear()
 
 	if arg_318_0.contextData.chapterVO then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_318_0.topPanel, arg_318_0._tf)
-		pg.playerResUI:SetActive({
-			active = false
-		})
+		arg_318_0:UnOverlayPanel(arg_318_0.topPanel, arg_318_0._tf)
 	end
 
 	if arg_318_0.levelFleetView and arg_318_0.levelFleetView.selectIds then

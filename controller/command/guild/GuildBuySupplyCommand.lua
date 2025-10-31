@@ -5,19 +5,19 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_1 = getProxy(GuildProxy):getData()
 
 	if not var_1_1 then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_no_exist"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_no_exist"))
 
 		return
 	end
 
 	if not GuildMember.IsAdministrator(var_1_1:getSelfDuty()) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_op_only_administrator"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_op_only_administrator"))
 
 		return
 	end
 
 	if var_1_1:getSupplyConsume() > var_1_1:getCapital() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("common_no_resource"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end

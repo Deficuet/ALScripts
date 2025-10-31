@@ -1,9 +1,9 @@
-local var_0_0 = class("IslandSeekGameResultView", import("Mod.Island.Core.View.IslandBaseSubView"))
+local var_0_0 = class("IslandSeekGameResultView", import("Mod.Island.Core.View.IslandASynLoadSubView"))
 
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
-	var_0_0.super.Ctor(arg_1_0, arg_1_1)
-
 	arg_1_0.uiName = arg_1_2
+
+	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 end
 
 function var_0_0.GetUIName(arg_2_0)
@@ -11,8 +11,6 @@ function var_0_0.GetUIName(arg_2_0)
 end
 
 function var_0_0.FirstFlush(arg_3_0)
-	arg_3_0:Hide()
-
 	arg_3_0.animation = arg_3_0._tf:GetComponent(typeof(Animation))
 
 	local var_3_0 = arg_3_0._tf:GetComponent(typeof(DftAniEvent))
@@ -42,6 +40,8 @@ function var_0_0.FirstFlush(arg_3_0)
 end
 
 function var_0_0.Flush(arg_6_0)
+	arg_6_0.animation:Play("anim_IslandSeekGameUI_in")
+
 	arg_6_0.clickableTime = pg.island_set.seek_game_reset_cd.key_value_int + pg.TimeMgr.GetInstance():GetServerTime()
 end
 

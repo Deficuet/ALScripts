@@ -5,15 +5,15 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.icon = arg_2_0:findTF("window/cover/icon"):GetComponent(typeof(Image))
-	arg_2_0.signature = arg_2_0:findTF("window/cover/signature"):GetComponent(typeof(Image))
-	arg_2_0.name = arg_2_0:findTF("window/cover/name"):GetComponent(typeof(Text))
-	arg_2_0.shipname = arg_2_0:findTF("window/cover/shipname"):GetComponent(typeof(Text))
-	arg_2_0.gemToggle = arg_2_0:findTF("window/gem")
-	arg_2_0.ticketToggle = arg_2_0:findTF("window/ticket")
+	arg_2_0.icon = arg_2_0._tf:Find("window/cover/icon"):GetComponent(typeof(Image))
+	arg_2_0.signature = arg_2_0._tf:Find("window/cover/signature"):GetComponent(typeof(Image))
+	arg_2_0.name = arg_2_0._tf:Find("window/cover/name"):GetComponent(typeof(Text))
+	arg_2_0.shipname = arg_2_0._tf:Find("window/cover/shipname"):GetComponent(typeof(Text))
+	arg_2_0.gemToggle = arg_2_0._tf:Find("window/gem")
+	arg_2_0.ticketToggle = arg_2_0._tf:Find("window/ticket")
 	arg_2_0.gemCntTxt = arg_2_0.gemToggle:Find("Text"):GetComponent(typeof(Text))
 	arg_2_0.ticketCntTxt = arg_2_0.ticketToggle:Find("Text"):GetComponent(typeof(Text))
-	arg_2_0.exchangeBtn = arg_2_0:findTF("exchange")
+	arg_2_0.exchangeBtn = arg_2_0._tf:Find("exchange")
 
 	setText(arg_2_0.gemToggle:Find("title"), i18n("cryptolalia_use_gem_title"))
 	setText(arg_2_0.ticketToggle:Find("title"), i18n("cryptolalia_use_ticket_title"))
@@ -41,9 +41,7 @@ end
 
 function var_0_0.Show(arg_7_0, arg_7_1)
 	var_0_0.super.Show(arg_7_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf)
 	triggerToggle(arg_7_0.gemToggle, true)
 
 	arg_7_0.name.text = arg_7_1:GetName()
@@ -86,7 +84,7 @@ end
 
 function var_0_0.Hide(arg_10_0)
 	var_0_0.super.Hide(arg_10_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf, arg_10_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_11_0)

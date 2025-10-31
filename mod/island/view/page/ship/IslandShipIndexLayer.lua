@@ -55,9 +55,9 @@ var_0_0.SortIndexs = {
 	var_0_0.SortEnergy
 }
 var_0_0.SortNames = {
-	"word_lv",
-	"word_synthesize_power",
-	"sort_energy"
+	"island_chara_list_level",
+	"island_chara_list_attribute",
+	"island_index_name"
 }
 var_0_0.ExtraPotency = bit.lshift(1, 0)
 var_0_0.ExtraCanUpgSkill = bit.lshift(1, 1)
@@ -139,9 +139,7 @@ function var_0_0.init(arg_13_0)
 end
 
 function var_0_0.BlurPanel(arg_14_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_14_0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER + 1
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_14_0._tf)
 end
 
 function var_0_0.DoEnterAnimation(arg_15_0)

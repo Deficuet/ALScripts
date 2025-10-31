@@ -15,25 +15,25 @@ function var_0_0.setPlayerVO(arg_3_0, arg_3_1)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0.guildViewRect = arg_4_0:findTF("add_panel/view")
-	arg_4_0.refreshBtn = arg_4_0:findTF("add_panel/center/refresh")
-	arg_4_0.searchBtn = arg_4_0:findTF("add_panel/center/search")
-	arg_4_0.searchBar = arg_4_0:findTF("add_panel/center/search_bar"):GetComponent(typeof(InputField))
-	arg_4_0.backBtn = arg_4_0:findTF("blur_panel/adapt/top/back")
-	arg_4_0.sortBtn = arg_4_0:findTF("add_panel/center/sort_button")
-	arg_4_0.sortBtnContainer = arg_4_0:findTF("add_panel/sort_panel/mask/content")
+	arg_4_0.guildViewRect = arg_4_0._tf:Find("add_panel/view")
+	arg_4_0.refreshBtn = arg_4_0._tf:Find("add_panel/center/refresh")
+	arg_4_0.searchBtn = arg_4_0._tf:Find("add_panel/center/search")
+	arg_4_0.searchBar = arg_4_0._tf:Find("add_panel/center/search_bar"):GetComponent(typeof(InputField))
+	arg_4_0.backBtn = arg_4_0._tf:Find("blur_panel/adapt/top/back")
+	arg_4_0.sortBtn = arg_4_0._tf:Find("add_panel/center/sort_button")
+	arg_4_0.sortBtnContainer = arg_4_0._tf:Find("add_panel/sort_panel/mask/content")
 	arg_4_0.sortBtnTpl = arg_4_0:getTpl("add_panel/sort_panel/mask/content/tpl")
-	arg_4_0.sortPanel = arg_4_0:findTF("add_panel/sort_panel")
+	arg_4_0.sortPanel = arg_4_0._tf:Find("add_panel/sort_panel")
 	arg_4_0.applyRedPage = GuildApplyRedPage.New(arg_4_0._tf, arg_4_0.event)
 	arg_4_0.applyBluePage = GuildApplyBluePage.New(arg_4_0._tf, arg_4_0.event)
-	arg_4_0.listEmptyTF = arg_4_0:findTF("empty")
+	arg_4_0.listEmptyTF = arg_4_0._tf:Find("empty")
 
 	setActive(arg_4_0.listEmptyTF, false)
 
-	arg_4_0.listEmptyTxt = arg_4_0:findTF("Text", arg_4_0.listEmptyTF)
+	arg_4_0.listEmptyTxt = arg_4_0.listEmptyTF:Find("Text")
 
 	setText(arg_4_0.listEmptyTxt, i18n("list_empty_tip_joinguildui"))
-	setText(arg_4_0:findTF("tip"), var_0_2)
+	setText(arg_4_0._tf:Find("tip"), var_0_2)
 
 	arg_4_0.viewRect = arg_4_0.guildViewRect:GetComponent("LScrollRect")
 
@@ -205,7 +205,7 @@ function var_0_0.filter(arg_23_0, arg_23_1)
 
 		local var_23_1 = GetSpriteFromAtlas("ui/joinguildui_atlas", "index_all")
 
-		setImageSprite(arg_23_0:findTF("Image", arg_23_0.sortBtn), var_23_1, true)
+		setImageSprite(arg_23_0.sortBtn:Find("Image"), var_23_1, true)
 	else
 		for iter_23_0, iter_23_1 in ipairs(arg_23_0.guildVOs) do
 			if iter_23_1[var_23_0[2][1]] == var_23_0[2][2] then
@@ -215,7 +215,7 @@ function var_0_0.filter(arg_23_0, arg_23_1)
 
 		local var_23_2 = GetSpriteFromAtlas("ui/joinguildui_atlas", var_23_0[1])
 
-		setImageSprite(arg_23_0:findTF("Image", arg_23_0.sortBtn), var_23_2, true)
+		setImageSprite(arg_23_0.sortBtn:Find("Image"), var_23_2, true)
 	end
 
 	local var_23_3 = _.all(arg_23_0.sortVOs, function(arg_24_0)

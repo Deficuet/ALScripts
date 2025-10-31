@@ -204,10 +204,7 @@ function var_0_0.init(arg_11_0)
 	setText(arg_11_0.rtMainPanel:Find("top_panel/title/name"), i18n("equipcode_share_title"))
 	setText(arg_11_0.rtMainPanel:Find("top_panel/title/name/name_en"), i18n("equipcode_share_titleeng"))
 	arg_11_0:initImpeachPanel()
-	pg.UIMgr.GetInstance():BlurPanel(arg_11_0._tf, false, {
-		groupName = arg_11_0:getGroupNameFromData(),
-		weight = arg_11_0:getWeightFromData()
-	})
+	arg_11_0:BlurPanel(arg_11_0._tf)
 end
 
 function var_0_0.refreshLikeCommand(arg_22_0, arg_22_1, arg_22_2)
@@ -411,7 +408,7 @@ function var_0_0.refreshCodes(arg_36_0)
 end
 
 function var_0_0.willExit(arg_40_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_40_0._tf)
+	arg_40_0:UnOverlayPanel(arg_40_0._tf)
 end
 
 return var_0_0

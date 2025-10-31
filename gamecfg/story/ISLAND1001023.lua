@@ -1,10 +1,12 @@
 return {
-	id = "ISLAND1001023",
+	fadeOut = 1.5,
 	mode = 10,
+	id = "ISLAND1001023",
+	fadeIn = 1,
 	map = {
 		{
 			100300,
-			10020004
+			10020034
 		}
 	},
 	look_weight = {
@@ -19,9 +21,9 @@ return {
 	},
 	scripts = {
 		{
-			subName = "货运管理员",
+			subName = "Manager of Logistics",
 			characterId = 100300,
-			say = "呀？！指、指挥官——你怎么来了？",
+			say = "Whoa?! C-Commander, why are you here?",
 			animation = "scare",
 			face2Face = {
 				{
@@ -36,7 +38,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "来看看斯蒂芬妮是如何努力工作的……",
+			say = "I came to see how your \"work\" was going.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,17 +47,17 @@ return {
 		{
 			animation = "embarrass",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "啊哈哈……我、我很努力的哦！",
+			subName = "Manager of Logistics",
+			say = "Hahaha... I-I'm working hard, I promise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "货运管理员",
+			subName = "Manager of Logistics",
 			characterId = 100300,
-			say = "只是中途有点……嗯……有点累了，休息一下而已~",
+			say = "I just got a little, uh, tired... so I'm on break!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,15 +65,16 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "唔……劳逸结合确实是值得提倡的好习惯。",
+			say = "Hmm... To be fair, it's important to separate work and rest.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			animation = "talk",
 			characterId = 0,
-			say = "只是你“逸”的时间，是不是稍微长了那么一点点？船上的货仓里空无一物啊~",
+			say = "Long break you're on, though. The cargo holds are plumb empty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,17 +83,17 @@ return {
 		{
 			animation = "amaze",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "空、空的？！天呐！",
+			subName = "Manager of Logistics",
+			say = "EMPTY?! No way...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "货运管理员",
+			subName = "Manager of Logistics",
 			characterId = 100300,
-			say = "我之前……我之前居然完全没在工作吗？难道是在梦里……",
+			say = "Have I not been working at all? Was I just... dreaming of work?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +101,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "…………梦里……",
+			say = "Dreaming?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +109,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "旁边的这些木材和矿石……不会还是我昨天送到港口的那一批吧？",
+			say = "Wait a minute. Are you telling me that the lumber and ore piled up at the pier are the same materials I brought over just yesterday?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,44 +118,45 @@ return {
 		{
 			animation = "embarrass",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "……应、应该……也许……可能……是？",
+			subName = "Manager of Logistics",
+			say = "M-maybe... Possibly... Yeah.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "唉，这应该不是“逸”的时间长……完全就是一直逸啊。",
+			say = "Ugh. You're not on a long break – you're just not working entirely.",
 			characterId = 0,
-			animation = "hakehead",
+			animation = "talk",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "embarrass",
+			animation = "weep",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "呜……指挥官，别说了……我知道错了啦~",
+			subName = "Manager of Logistics",
+			say = "Aww... You don't have to say anymore, Commander. I feel really bad...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			subName = "货运管理员",
+			subName = "Manager of Logistics",
 			characterId = 100300,
-			say = "我立刻劳动，立刻劳动！",
+			say = "I'll get to work right now! Right this second!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			say = "We need that cargo loaded NOW! I'll help you do it.",
 			characterId = 0,
-			say = "好了，现在目标明确——把这些资材尽快装船！我也来帮忙。",
+			animation = "nod",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,18 +165,17 @@ return {
 		{
 			animation = "nod",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "真、真的吗？！指挥官你真是太好了！",
+			subName = "Manager of Logistics",
+			say = "R-really?! You're too kind, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			animation = "clap",
+			subName = "Manager of Logistics",
 			characterId = 100300,
-			subName = "货运管理员",
-			say = "我、我这次一定会好好干的！看我的吧！",
+			say = "I-I'll get it done right this time! Just you watch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +183,7 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "……慢点，斯蒂芬妮，安全第一，效率第二。",
+			say = "Not so fast, Stephen. Remember: Safety first.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

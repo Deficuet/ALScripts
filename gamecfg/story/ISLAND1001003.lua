@@ -19,10 +19,9 @@ return {
 	},
 	scripts = {
 		{
-			subName = "林场管理员",
-			characterId = 100700,
-			animation = "amaze",
-			say = "啊——突然出现的指挥官！真的假的？",
+			characterId = 0,
+			animation = "hi",
+			say = "O'Brien! Hey there.",
 			face2Face = {
 				{
 					0,
@@ -35,29 +34,10 @@ return {
 			}
 		},
 		{
-			say = "当然是真的！",
-			characterId = 0,
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "嘿嘿~好久不见，我还以为你都把我们忘了呢~",
+			say = "Ah... C-Commander? That is you, isn't it?",
 			characterId = 100700,
-			subName = "林场管理员",
-			animation = "hi",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "这半年来，我们可是一直都在很努力地建设这里哦~没有偷懒的。",
-			characterId = 100700,
-			subName = "林场管理员",
-			animation = "elation",
+			subName = "Manager of the Forest",
+			animation = "amaze",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,43 +45,70 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "半年？",
+			say = "The one and only.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "是啊，虽然这里看着是有些不明显，不过港口那边可是被我们建得超漂亮的，指挥官一定要去看看哦~",
+			say = "Thank goodness! Long time no see. We all missed you so much! God, we were starting to worry that you'd forgotten about us.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
+			animation = "shy",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Forest",
+			characterId = 100700,
+			say = "Over these six months, we've been hard at work developing the island.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "Did you just say six months?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Yeah... It might not look very different, but we built an entire harbor on the shore. You should totally check it out when you get the chance!",
+			characterId = 100700,
+			subName = "Manager of the Forest",
+			animation = "embarrass",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "(Outside, it's just been a week... The flow of time must be different here. No wonder the aircraft malfunctioned.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			animation = "talk",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			characterId = 0,
-			say = "（是时间流速不同的原因么……这么大的差值也难怪飞行器会故障了。）",
+			say = "I'll do that. By the way, you've been here for a long time. Have you noticed anything strange?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "嗯……你们在这里待了这么久，就没有发现什么异常吗？",
-			characterId = 0,
-			animation = "nod",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "异常么……之前岛屿上一直都很正常的。",
+			say = "Strange? I can't think of anything in particular during these six months.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			animation = "doubt",
 			typewriter = {
 				speed = 0.05,
@@ -109,21 +116,29 @@ return {
 			}
 		},
 		{
-			say = "倒是指挥官你来之前，附近刚刚发生了大爆炸哦，好像是有一艘飞行器坠毁在这附近了！",
+			subName = "Manager of the Forest",
 			characterId = 100700,
-			subName = "林场管理员",
-			animation = "idea",
+			say = "Except for the huge explosion that happened just before you got here, that is.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 100700,
+			subName = "Manager of the Forest",
+			say = "I'm told that an aircraft crashed nearby?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "实不相瞒……",
+					content = "Funny you should mention that...",
 					flag = 1
 				},
 				{
-					content = "有么？我怎么没听到。",
+					content = "Oh, really? I didn't know that.",
 					flag = 2
 				}
 			}
@@ -131,7 +146,7 @@ return {
 		{
 			characterId = 0,
 			optionFlag = 1,
-			say = "其实那是我来时乘坐的飞行器，出了点小意外。",
+			say = "I was on that aircraft. Things went a little awry, as you can tell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,28 +155,27 @@ return {
 		{
 			characterId = 100700,
 			optionFlag = 1,
-			subName = "林场管理员",
-			say = "欸？原来是指挥官的飞行器啊，爆炸时散落的零件把到港口交通线都给砸坏了呢。",
+			subName = "Manager of the Forest",
+			say = "Oh, my. That was your ride? Well, unfortunately, shrapnel from the explosion destroyed the bus stop leading to the harbor...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "肯定有啦！爆炸散落的零件把到港口交通线都破坏了。",
-			subName = "林场管理员",
 			characterId = 100700,
 			optionFlag = 2,
-			animation = "talk",
+			subName = "Manager of the Forest",
+			say = "Really! Shrapnel from the explosion destroyed the bus stop leading to the harbor!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "因为是{namecode:98:明石}订单期限的最后一天，现在原材料运送受阻，乔安正在矿场那边发愁呢~",
+			say = "Worse, today is the deadline for Akashi's request. This is definitely going to delay our materials shipment...",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			animation = "sad",
 			typewriter = {
 				speed = 0.05,
@@ -170,16 +184,16 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "{namecode:98:明石}的订单么……你知道她在哪吗？",
+			say = "Akashi's request? Speaking of her, do you know where she is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "她一般都会待在港口那边的，指挥官想去找她也得等交通线修复后哦~",
+			say = "She's usually around the harbor, but with the bus stop as wrecked as it is, you'll have to wait for the time being.",
 			characterId = 100700,
-			subName = "林场管理员",
+			subName = "Manager of the Forest",
 			animation = "think",
 			typewriter = {
 				speed = 0.05,
@@ -187,16 +201,15 @@ return {
 			},
 			options = {
 				{
-					content = "我过去看看。",
+					content = "The bus stop, huh? I'll go check it out.",
 					flag = 1
 				}
 			}
 		},
 		{
-			say = "好哦~指挥官可以去矿场找乔安问问~车站的修复工作是她在负责的。",
+			subName = "Manager of the Forest",
 			characterId = 100700,
-			subName = "林场管理员",
-			animation = "nod",
+			say = "O-okay... You might wanna talk to John over in Rockheap Mine. She's the one in charge of repairing the stop.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

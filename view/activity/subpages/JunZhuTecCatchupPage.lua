@@ -1,12 +1,12 @@
 local var_0_0 = class("JunZhuTecCatchupPage", import("...base.BaseActivityPage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.itemTF = arg_1_0:findTF("Award", arg_1_0.bg)
-	arg_1_0.sliderTF = arg_1_0:findTF("Slider", arg_1_0.bg)
-	arg_1_0.progressText = arg_1_0:findTF("Progress", arg_1_0.bg)
-	arg_1_0.goBtn = arg_1_0:findTF("GoBtn", arg_1_0.bg)
-	arg_1_0.finishBtn = arg_1_0:findTF("FinishBtn", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.itemTF = arg_1_0.bg:Find("Award")
+	arg_1_0.sliderTF = arg_1_0.bg:Find("Slider")
+	arg_1_0.progressText = arg_1_0.bg:Find("Progress")
+	arg_1_0.goBtn = arg_1_0.bg:Find("GoBtn")
+	arg_1_0.finishBtn = arg_1_0.bg:Find("FinishBtn")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)

@@ -8,19 +8,27 @@ end
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
-	arg_2_0.idTxt = arg_2_0:findTF("top/id/Text"):GetComponent(typeof(Text))
-	arg_2_0.copyBtn = arg_2_0:findTF("top/id/copy")
-	arg_2_0.saerchBtn = arg_2_0:findTF("top/search/copy")
-	arg_2_0.searchBar = arg_2_0:findTF("top/search/input")
+	arg_2_0.idTxt = arg_2_0._tf:Find("top/id/Text"):GetComponent(typeof(Text))
+	arg_2_0.copyBtn = arg_2_0._tf:Find("top/id/copy")
+	arg_2_0.saerchBtn = arg_2_0._tf:Find("top/search/copy")
+	arg_2_0.refreshBtn = arg_2_0._tf:Find("top/refresh")
+	arg_2_0.searchBar = arg_2_0._tf:Find("top/search/input")
 	arg_2_0.displays = {}
 
-	setText(arg_2_0:findTF("top/id/copy/Text"), i18n("island_btn_label_copy"))
-	setText(arg_2_0:findTF("top/search/copy/Text"), i18n("island_search"))
-	setText(arg_2_0:findTF("top/search/input/Text"), i18n("island_input_my_id"))
-	setText(arg_2_0:findTF("top/id/label"), i18n("island_my_id"))
+	setText(arg_2_0._tf:Find("top/id/copy/Text"), i18n("island_btn_label_copy"))
+	setText(arg_2_0._tf:Find("top/search/copy/Text"), i18n("island_search"))
+	setText(arg_2_0._tf:Find("top/search/input/Text"), i18n("island_input_my_id"))
+	setText(arg_2_0._tf:Find("top/id/label"), i18n("island_my_id"))
+	setText(arg_2_0._tf:Find("top/refresh/Text"), i18n("island_visit_set_refresh"))
+
+	arg_2_0.requestFriendBox = IslandRequestFriendBox.New(arg_2_0._tf, arg_2_0.event)
 end
 
 function var_0_0.OnSearch(arg_3_0, arg_3_1)
+	if not arg_3_1.list then
+		return
+	end
+
 	arg_3_0.displays = arg_3_1.list
 
 	arg_3_0:InitList()
@@ -36,7 +44,7 @@ function var_0_0.OnInitItem(arg_5_0, arg_5_1)
 	local var_5_0 = arg_5_0.cards[arg_5_1]
 
 	onButton(arg_5_0, var_5_0.addBtn, function()
-		arg_5_0:emit(IslandMediator.ADD_FRIEND, var_5_0.player.id, "")
+		arg_5_0.requestFriendBox:ExecuteAction("Show", var_5_0.player.id)
 	end, SFX_PANEL)
 end
 
@@ -82,8 +90,36 @@ function var_0_0.OnInit(arg_11_0)
 			return
 		end
 
-		arg_11_0:emit(IslandMediator.SEARCH_FRIEND, 3, var_13_1)
+		arg_11_0:emit(IslandMediator.SEARCH_FRIEND, SearchFriendCommand.SEARCH_TYPE_FRIEND, var_13_1)
 	end, SFX_PANEL)
+	onButton(arg_11_0, arg_11_0.refreshBtn, function()
+		local var_14_0 = pg.TimeMgr.GetInstance():GetServerTime()
+
+		if arg_11_0.waitTimer and arg_11_0.waitTimer - var_14_0 > 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("friend_searchFriend_wait_time", arg_11_0.waitTimer - var_14_0))
+
+			return
+		end
+
+		arg_11_0.waitTimer = var_14_0 + var_0_1
+
+		arg_11_0:emit(IslandMediator.SEARCH_FRIEND, SearchFriendCommand.SEARCH_TYPE_LIST, "")
+	end, SFX_PANEL)
+	arg_11_0:emit(IslandMediator.SEARCH_FRIEND, SearchFriendCommand.SEARCH_TYPE_LIST, "")
+end
+
+function var_0_0.HideRequestBox(arg_15_0)
+	arg_15_0.requestFriendBox:ExecuteAction("Hide")
+end
+
+function var_0_0.OnDestroy(arg_16_0)
+	var_0_0.super.OnDestroy(arg_16_0)
+
+	if arg_16_0.requestFriendBox then
+		arg_16_0.requestFriendBox:Destroy()
+
+		arg_16_0.requestFriendBox = nil
+	end
 end
 
 return var_0_0

@@ -8,183 +8,198 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.closeBtn = arg_2_0._tf:Find("top/back")
 	arg_2_0.setMealList = UIItemList.New(arg_2_0._tf:Find("setMealList/Viewport/Content"), arg_2_0._tf:Find("setMealList/Viewport/Content/setMealTpl"))
 	arg_2_0.detail = arg_2_0._tf:Find("detail")
-	arg_2_0.detailName = arg_2_0.detail:Find("name")
+	arg_2_0.detailName = arg_2_0.detail:Find("name/text")
 	arg_2_0.formulaList1 = arg_2_0.detail:Find("formulaList1")
 	arg_2_0.formulaList2 = arg_2_0.detail:Find("formulaList2")
 	arg_2_0.detailDesc = arg_2_0.detail:Find("desc")
 	arg_2_0.conditionList = UIItemList.New(arg_2_0.detail:Find("conditionList"), arg_2_0.detail:Find("conditionList/condition"))
 
 	setActive(arg_2_0.detail, false)
-	setText(arg_2_0._tf:Find("top/title/Text"), i18n1("套餐图鉴"))
+	setText(arg_2_0._tf:Find("top/title/Text"), i18n("island_setmeal_title"))
 	setText(arg_2_0._tf:Find("top/title/Text/en"), i18n1("HANDBOOK"))
+	setText(arg_2_0._tf:Find("detail/condition"), i18n("island_tech_detail_unlocktitle"))
+	setText(arg_2_0._tf:Find("detail/decoration2/text"), i18n("island_setmeal_benifit_title"))
 end
 
 function var_0_0.OnInit(arg_3_0)
+	onButton(arg_3_0, arg_3_0._tf:Find("top/title/help"), function()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.island_help_combo.tip
+		})
+	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.closeBtn, function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
 	arg_3_0:InitData()
 end
 
-function var_0_0.InitData(arg_5_0)
-	arg_5_0.formulaNums = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetFormulaNums()
-	arg_5_0.formulas = {}
+function var_0_0.InitData(arg_6_0)
+	arg_6_0.formulaNums = getProxy(IslandProxy):GetIsland():GetBuildingAgency():GetFormulaNums()
+	arg_6_0.formulas = {}
 
-	for iter_5_0, iter_5_1 in ipairs(pg.island_combo.all) do
-		local var_5_0 = Clone(pg.island_formula[iter_5_1])
+	for iter_6_0, iter_6_1 in ipairs(pg.island_combo.all) do
+		local var_6_0 = Clone(pg.island_formula[iter_6_1])
 
-		var_5_0.unlock_condition = pg.island_combo[iter_5_1].unlock_condition
-		var_5_0.is_hide = pg.island_combo[iter_5_1].is_hide
+		var_6_0.unlock_condition = pg.island_combo[iter_6_1].unlock_condition
+		var_6_0.is_hide = pg.island_combo[iter_6_1].is_hide
 
-		table.insert(arg_5_0.formulas, var_5_0)
+		table.insert(arg_6_0.formulas, var_6_0)
 	end
 
-	table.sort(arg_5_0.formulas, CompareFuncs({
-		function(arg_6_0)
-			local var_6_0 = arg_6_0
-			local var_6_1 = var_6_0.is_hide == 1
-			local var_6_2 = true
-			local var_6_3 = true
+	table.sort(arg_6_0.formulas, CompareFuncs({
+		function(arg_7_0)
+			local var_7_0 = arg_7_0
+			local var_7_1 = var_7_0.is_hide == 1
+			local var_7_2 = true
+			local var_7_3 = true
 
-			for iter_6_0, iter_6_1 in ipairs(var_6_0.unlock_condition) do
-				local var_6_4 = iter_6_1[1]
-				local var_6_5 = iter_6_1[2]
+			for iter_7_0, iter_7_1 in ipairs(var_7_0.unlock_condition) do
+				local var_7_4 = iter_7_1[1]
+				local var_7_5 = iter_7_1[2]
 
-				if not arg_5_0.formulaNums[var_6_4] or arg_5_0.formulaNums[var_6_4] < 1 then
-					var_6_2 = false
+				if not arg_6_0.formulaNums[var_7_4] or arg_6_0.formulaNums[var_7_4] < 1 then
+					var_7_2 = false
 				end
 
-				if not arg_5_0.formulaNums[var_6_4] or var_6_5 > arg_5_0.formulaNums[var_6_4] then
-					var_6_3 = false
+				if not arg_6_0.formulaNums[var_7_4] or var_7_5 > arg_6_0.formulaNums[var_7_4] then
+					var_7_3 = false
 				end
 			end
 
-			return (not var_6_1 and var_6_2 or var_6_1 and var_6_3) and 0 or 1
+			return (not var_7_1 and var_7_2 or var_7_1 and var_7_3) and 0 or 1
 		end,
-		function(arg_7_0)
-			return arg_7_0.id
+		function(arg_8_0)
+			return arg_8_0.id
 		end
 	}))
 end
 
-function var_0_0.SetFormulaList(arg_8_0)
-	arg_8_0.setMealList:make(function(arg_9_0, arg_9_1, arg_9_2)
-		if arg_9_0 == UIItemList.EventUpdate then
-			local var_9_0 = arg_8_0.formulas[arg_9_1 + 1]
-			local var_9_1 = var_9_0.is_hide == 1
-			local var_9_2 = true
-			local var_9_3 = true
+function var_0_0.SetFormulaList(arg_9_0)
+	arg_9_0.setMealList:make(function(arg_10_0, arg_10_1, arg_10_2)
+		if arg_10_0 == UIItemList.EventUpdate then
+			local var_10_0 = arg_9_0.formulas[arg_10_1 + 1]
+			local var_10_1 = var_10_0.is_hide == 1
+			local var_10_2 = true
+			local var_10_3 = true
 
-			for iter_9_0, iter_9_1 in ipairs(var_9_0.unlock_condition) do
-				local var_9_4 = iter_9_1[1]
-				local var_9_5 = iter_9_1[2]
+			for iter_10_0, iter_10_1 in ipairs(var_10_0.unlock_condition) do
+				local var_10_4 = iter_10_1[1]
+				local var_10_5 = iter_10_1[2]
 
-				if not arg_8_0.formulaNums[var_9_4] or arg_8_0.formulaNums[var_9_4] < 1 then
-					var_9_2 = false
+				if not arg_9_0.formulaNums[var_10_4] or arg_9_0.formulaNums[var_10_4] < 1 then
+					var_10_2 = false
 				end
 
-				if not arg_8_0.formulaNums[var_9_4] or var_9_5 > arg_8_0.formulaNums[var_9_4] then
-					var_9_3 = false
+				if not arg_9_0.formulaNums[var_10_4] or var_10_5 > arg_9_0.formulaNums[var_10_4] then
+					var_10_3 = false
 				end
 			end
 
-			local var_9_6 = not var_9_1 and var_9_2 or var_9_1 and var_9_3
+			local var_10_6 = not var_10_1 and var_10_2 or var_10_1 and var_10_3
 
-			setActive(arg_9_2:Find("special"), var_9_1 and var_9_3)
-			setActive(arg_9_2:Find("name"), var_9_6)
-			setActive(arg_9_2:Find("IslandItemTpl"), var_9_6)
-			setActive(arg_9_2:Find("lock"), not var_9_6)
+			setActive(arg_10_2:Find("special"), var_10_1 and var_10_3)
+			setActive(arg_10_2:Find("name"), var_10_6)
+			setActive(arg_10_2:Find("IslandItemTpl"), var_10_6)
+			setActive(arg_10_2:Find("lock"), not var_10_6)
 
-			if var_9_6 then
-				setText(arg_9_2:Find("name"), var_9_0.name)
+			if var_10_6 then
+				setScrollText(arg_10_2:Find("name/text"), var_10_0.name)
 
-				local var_9_7 = {
+				local var_10_7 = {
 					count = 0,
 					type = DROP_TYPE_ISLAND_ITEM,
-					id = var_9_0.item_id
+					id = var_10_0.item_id
 				}
 
-				updateCustomDrop(arg_9_2:Find("IslandItemTpl"), var_9_7)
+				updateCustomDrop(arg_10_2:Find("IslandItemTpl"), var_10_7)
 			end
 
-			if var_9_6 then
-				onToggle(arg_8_0, arg_9_2, function(arg_10_0)
-					setActive(arg_9_2:Find("select"), arg_10_0)
+			if var_10_6 then
+				onToggle(arg_9_0, arg_10_2, function(arg_11_0)
+					setActive(arg_10_2:Find("select"), arg_11_0)
 
-					if arg_10_0 then
-						arg_8_0:SetDetail(var_9_0)
+					if arg_11_0 then
+						arg_9_0:SetDetail(var_10_0)
 					end
 				end, SFX_PANEL)
 			else
-				removeOnToggle(arg_9_2)
+				removeOnToggle(arg_10_2)
 			end
 		end
 	end)
-	arg_8_0.setMealList:align(#arg_8_0.formulas)
+	arg_9_0.setMealList:align(#arg_9_0.formulas)
 end
 
-function var_0_0.SetDetail(arg_11_0, arg_11_1)
-	setActive(arg_11_0.detail, true)
-	setText(arg_11_0.detailName, arg_11_1.name)
-	setActive(arg_11_0.formulaList1, #arg_11_1.unlock_condition == 2)
-	setActive(arg_11_0.formulaList2, #arg_11_1.unlock_condition == 3)
+function var_0_0.SetDetail(arg_12_0, arg_12_1)
+	setActive(arg_12_0.detail, true)
+	setScrollText(arg_12_0.detailName, arg_12_1.name)
+	setActive(arg_12_0.formulaList1, #arg_12_1.unlock_condition == 2)
+	setActive(arg_12_0.formulaList2, #arg_12_1.unlock_condition == 3)
 
-	if #arg_11_1.unlock_condition == 2 then
-		for iter_11_0 = 1, 2 do
-			local var_11_0 = pg.island_formula[arg_11_1.unlock_condition[iter_11_0][1]]
-			local var_11_1 = pg.island_item_data_template[var_11_0.item_id]
+	if #arg_12_1.unlock_condition == 2 then
+		for iter_12_0 = 1, 2 do
+			local var_12_0 = pg.island_formula[arg_12_1.unlock_condition[iter_12_0][1]]
+			local var_12_1 = pg.island_item_data_template[var_12_0.item_id]
 
-			GetImageSpriteFromAtlasAsync("island/" .. var_11_1.icon, "", arg_11_0.formulaList1:Find("formula" .. iter_11_0 .. "/icon"))
+			GetImageSpriteFromAtlasAsync("island/" .. var_12_1.icon, "", arg_12_0.formulaList1:Find("formula" .. iter_12_0 .. "/icon"))
 		end
-	elseif #arg_11_1.unlock_condition == 3 then
-		for iter_11_1 = 1, 3 do
-			local var_11_2 = pg.island_formula[arg_11_1.unlock_condition[iter_11_1][1]]
-			local var_11_3 = pg.island_item_data_template[var_11_2.item_id]
+	elseif #arg_12_1.unlock_condition == 3 then
+		for iter_12_1 = 1, 3 do
+			local var_12_2 = pg.island_formula[arg_12_1.unlock_condition[iter_12_1][1]]
+			local var_12_3 = pg.island_item_data_template[var_12_2.item_id]
 
-			GetImageSpriteFromAtlasAsync("island/" .. var_11_3.icon, "", arg_11_0.formulaList2:Find("formula" .. iter_11_1 .. "/icon"))
+			GetImageSpriteFromAtlasAsync("island/" .. var_12_3.icon, "", arg_12_0.formulaList2:Find("formula" .. iter_12_1 .. "/icon"))
 		end
 	end
 
-	local var_11_4 = true
+	local var_12_4 = true
 
-	arg_11_0.conditionList:make(function(arg_12_0, arg_12_1, arg_12_2)
-		if arg_12_0 == UIItemList.EventUpdate then
-			local var_12_0 = arg_11_1.unlock_condition[arg_12_1 + 1][1]
-			local var_12_1 = arg_11_1.unlock_condition[arg_12_1 + 1][2]
-			local var_12_2 = pg.island_formula[var_12_0]
+	arg_12_0.conditionList:make(function(arg_13_0, arg_13_1, arg_13_2)
+		if arg_13_0 == UIItemList.EventUpdate then
+			local var_13_0 = arg_12_1.unlock_condition[arg_13_1 + 1][1]
+			local var_13_1 = arg_12_1.unlock_condition[arg_13_1 + 1][2]
+			local var_13_2 = pg.island_formula[var_13_0]
 
-			setText(arg_12_2:Find("name"), "制作" .. var_12_2.name)
+			setScrollText(arg_13_2:Find("name/text"), i18n("island_combo_produced") .. var_13_2.name)
 
-			local var_12_3 = arg_11_0.formulaNums[var_12_0] or 0
+			local var_13_3 = arg_12_0.formulaNums[var_13_0] or 0
 
-			if var_12_1 < var_12_3 then
-				formulaNum = var_12_1
+			setActive(arg_13_2:Find("notComplete"), var_13_3 < var_13_1)
+			setActive(arg_13_2:Find("complete"), var_13_1 <= var_13_3)
+
+			if var_13_1 < var_13_3 then
+				formulaNum = var_13_1
 			end
 
-			setText(arg_12_2:Find("count"), "" .. var_12_3 .. "/" .. var_12_1 .. "次")
+			setText(arg_13_2:Find("count"), i18n("island_combo_produced_times", "" .. var_13_3 .. "/" .. var_13_1))
 
-			if var_12_3 < var_12_1 then
-				var_11_4 = false
+			if var_13_3 < var_13_1 then
+				var_12_4 = false
 			end
 		end
 	end)
-	arg_11_0.conditionList:align(#arg_11_1.unlock_condition)
+	arg_12_0.conditionList:align(#arg_12_1.unlock_condition)
 
-	if var_11_4 == true then
-		setText(arg_11_0.detailDesc, i18n1("已解锁套餐制作"))
+	if var_12_4 == true then
+		setText(arg_12_0.detailDesc, i18n("island_combo_unlock"))
 	else
-		setText(arg_11_0.detailDesc, arg_11_1.desc or "")
+		setText(arg_12_0.detailDesc, arg_12_1.desc or "")
 	end
 end
 
-function var_0_0.OnShow(arg_13_0)
-	arg_13_0:InitData()
-	arg_13_0:SetFormulaList()
-	pg.UIMgr.GetInstance():BlurPanel(arg_13_0._tf)
+function var_0_0.OnShow(arg_14_0)
+	arg_14_0:InitData()
+	arg_14_0:SetFormulaList()
+	pg.UIMgr.GetInstance():BlurPanel(arg_14_0._tf)
 end
 
-function var_0_0.OnHide(arg_14_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_14_0._tf)
+function var_0_0.OnHide(arg_15_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf)
+end
+
+function var_0_0.OnDestroy(arg_16_0)
+	arg_16_0:OnHide()
 end
 
 return var_0_0

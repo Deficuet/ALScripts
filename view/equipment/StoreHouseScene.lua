@@ -34,22 +34,22 @@ function var_0_0.init(arg_4_0)
 
 	local var_4_0 = arg_4_0.contextData
 
-	arg_4_0.topItems = arg_4_0:findTF("topItems")
-	arg_4_0.equipmentView = arg_4_0:findTF("equipment_scrollview")
-	arg_4_0.blurPanel = arg_4_0:findTF("blur_panel")
-	arg_4_0.topPanel = arg_4_0:findTF("adapt/top", arg_4_0.blurPanel)
-	arg_4_0.indexBtn = arg_4_0:findTF("buttons/index_button", arg_4_0.topPanel)
-	arg_4_0.sortBtn = arg_4_0:findTF("buttons/sort_button", arg_4_0.topPanel)
-	arg_4_0.sortPanel = arg_4_0:findTF("sort", arg_4_0.topItems)
+	arg_4_0.topItems = arg_4_0._tf:Find("topItems")
+	arg_4_0.equipmentView = arg_4_0._tf:Find("adapt/equipment_scrollview")
+	arg_4_0.blurPanel = arg_4_0._tf:Find("blur_panel")
+	arg_4_0.topPanel = arg_4_0.blurPanel:Find("adapt/top")
+	arg_4_0.indexBtn = arg_4_0.topPanel:Find("buttons/index_button")
+	arg_4_0.sortBtn = arg_4_0.topPanel:Find("buttons/sort_button")
+	arg_4_0.sortPanel = arg_4_0.topItems:Find("sort")
 	arg_4_0.sortPanelTG = arg_4_0.sortPanel:GetComponent("ToggleGroup")
 	arg_4_0.sortPanelTG.allowSwitchOff = true
-	arg_4_0.sortContain = arg_4_0:findTF("adapt/mask/panel", arg_4_0.sortPanel)
-	arg_4_0.sortTpl = arg_4_0:findTF("tpl", arg_4_0.sortContain)
+	arg_4_0.sortContain = arg_4_0.sortPanel:Find("adapt/mask/panel")
+	arg_4_0.sortTpl = arg_4_0.sortContain:Find("tpl")
 
 	setActive(arg_4_0.sortTpl, false)
 
-	arg_4_0.equipSkinFilteBtn = arg_4_0:findTF("buttons/EquipSkinFilteBtn", arg_4_0.topPanel)
-	arg_4_0.itemView = arg_4_0:findTF("item_scrollview")
+	arg_4_0.equipSkinFilteBtn = arg_4_0.topPanel:Find("buttons/EquipSkinFilteBtn")
+	arg_4_0.itemView = arg_4_0._tf:Find("adapt/item_scrollview")
 
 	local var_4_1
 	local var_4_2 = getProxy(SettingsProxy)
@@ -78,19 +78,19 @@ function var_0_0.init(arg_4_0)
 	setActive(arg_4_0.designTabRoot, false)
 
 	arg_4_0.designTabs = CustomIndexLayer.Clone2Full(arg_4_0.designTabRoot, 2)
-	arg_4_0.bottomBack = arg_4_0:findTF("adapt/bottom_back", arg_4_0.topItems)
-	arg_4_0.bottomPanel = arg_4_0:findTF("types", arg_4_0.bottomBack)
+	arg_4_0.bottomBack = arg_4_0.topItems:Find("adapt/bottom_back")
+	arg_4_0.bottomPanel = arg_4_0.bottomBack:Find("types")
 	arg_4_0.materialToggle = arg_4_0.bottomPanel:Find("material")
 	arg_4_0.weaponToggle = arg_4_0.bottomPanel:Find("weapon")
 	arg_4_0.designToggle = arg_4_0.bottomPanel:Find("design")
-	arg_4_0.capacityTF = arg_4_0:findTF("bottom_left/tip/capcity/Text", arg_4_0.bottomBack)
-	arg_4_0.tipTF = arg_4_0:findTF("bottom_left/tip", arg_4_0.bottomBack)
+	arg_4_0.capacityTF = arg_4_0.bottomBack:Find("bottom_left/tip/capcity/Text")
+	arg_4_0.tipTF = arg_4_0.bottomBack:Find("bottom_left/tip")
 	arg_4_0.tip = arg_4_0.tipTF:Find("label")
-	arg_4_0.helpBtn = arg_4_0:findTF("adapt/help_btn", arg_4_0.topItems)
+	arg_4_0.helpBtn = arg_4_0.topItems:Find("adapt/help_btn")
 
 	setActive(arg_4_0.helpBtn, true)
 
-	arg_4_0.backBtn = arg_4_0:findTF("blur_panel/adapt/top/back_btn")
+	arg_4_0.backBtn = arg_4_0._tf:Find("blur_panel/adapt/top/back_btn")
 	arg_4_0.selectedMin = defaultValue(var_4_0.selectedMin, 1)
 	arg_4_0.selectedMax = defaultValue(var_4_0.selectedMax, pg.gameset.equip_select_limit.key_value or 0)
 	arg_4_0.selectedIds = Clone(var_4_0.selectedIds or {})
@@ -100,28 +100,28 @@ function var_0_0.init(arg_4_0)
 	arg_4_0.onSelected = var_4_0.onSelected or function()
 		warning("not implemented.")
 	end
-	arg_4_0.BatchDisposeBtn = arg_4_0:findTF("dispos", arg_4_0.bottomPanel)
+	arg_4_0.BatchDisposeBtn = arg_4_0.bottomPanel:Find("dispos")
 
 	if not arg_4_0.BatchDisposeBtn then
-		arg_4_0.BatchDisposeBtn = arg_4_0:findTF("dispos", arg_4_0.bottomBack)
+		arg_4_0.BatchDisposeBtn = arg_4_0.bottomBack:Find("dispos")
 	end
 
-	arg_4_0.selectPanel = arg_4_0:findTF("adapt/select_panel", arg_4_0.topItems)
+	arg_4_0.selectPanel = arg_4_0.topItems:Find("adapt/select_panel")
 
 	setActive(arg_4_0.selectPanel, true)
 	setAnchoredPosition(arg_4_0.selectPanel, {
 		y = -124
 	})
 
-	arg_4_0.selectTransformPanel = arg_4_0:findTF("adapt/select_transform_panel", arg_4_0.topItems)
+	arg_4_0.selectTransformPanel = arg_4_0.topItems:Find("adapt/select_transform_panel")
 
 	setActive(arg_4_0.selectTransformPanel, false)
 
-	arg_4_0.listEmptyTF = arg_4_0:findTF("empty")
+	arg_4_0.listEmptyTF = arg_4_0._tf:Find("adapt/empty")
 
 	setActive(arg_4_0.listEmptyTF, false)
 
-	arg_4_0.listEmptyTxt = arg_4_0:findTF("Text", arg_4_0.listEmptyTF)
+	arg_4_0.listEmptyTxt = arg_4_0.listEmptyTF:Find("Text")
 	arg_4_0.destroyConfirmView = DestroyConfirmView.New(arg_4_0.topItems, arg_4_0.event)
 	arg_4_0.assignedItemView = AssignedItemView.New(arg_4_0.topItems, arg_4_0.event)
 	arg_4_0.blueprintAssignedItemView = BlueprintAssignedItemView.New(arg_4_0.topItems, arg_4_0.event)
@@ -224,9 +224,9 @@ function var_0_0.SetSpWeaponUpdate(arg_14_0)
 end
 
 function var_0_0.didEnter(arg_15_0)
-	setText(arg_15_0:findTF("tip", arg_15_0.selectPanel), i18n("equipment_select_device_destroy_tip"))
-	setActive(arg_15_0:findTF("adapt/stamp", arg_15_0.topItems), getProxy(TaskProxy):mingshiTouchFlagEnabled())
-	onButton(arg_15_0, arg_15_0:findTF("adapt/stamp", arg_15_0.topItems), function()
+	setText(arg_15_0.selectPanel:Find("tip"), i18n("equipment_select_device_destroy_tip"))
+	setActive(arg_15_0.topItems:Find("adapt/stamp"), getProxy(TaskProxy):mingshiTouchFlagEnabled())
+	onButton(arg_15_0, arg_15_0.topItems:Find("adapt/stamp"), function()
 		getProxy(TaskProxy):dealMingshiTouchFlag(2)
 	end, SFX_CONFIRM)
 	onButton(arg_15_0, arg_15_0.helpBtn, function()
@@ -315,15 +315,13 @@ function var_0_0.didEnter(arg_15_0)
 	end, SFX_CANCEL)
 	onToggle(arg_15_0, arg_15_0.sortBtn, function(arg_24_0)
 		if arg_24_0 then
-			pg.UIMgr.GetInstance():OverlayPanel(arg_15_0.sortPanel, {
-				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-			})
+			arg_15_0:OverlayPanel(arg_15_0.sortPanel)
 			setActive(arg_15_0.sortPanel, true)
 			onNextTick(function()
 				arg_15_0.sortPanelTG.allowSwitchOff = false
 			end)
 		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0.sortPanel, arg_15_0.topItems)
+			arg_15_0:UnOverlayPanel(arg_15_0.sortPanel, arg_15_0.topItems)
 			setActive(arg_15_0.sortPanel, false)
 
 			arg_15_0.sortPanelTG.allowSwitchOff = true
@@ -537,12 +535,9 @@ function var_0_0.didEnter(arg_15_0)
 			end)
 		end)
 	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_15_0.blurPanel, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
-	pg.UIMgr.GetInstance():OverlayPanel(arg_15_0.topItems, {
-		groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
-	})
+	arg_15_0:OverlayPanel(arg_15_0.blurPanel)
+	arg_15_0:PlayUIAnimation(arg_15_0.blurPanel, "enter")
+	arg_15_0:OverlayPanel(arg_15_0.topItems)
 
 	local var_15_0 = arg_15_0.contextData.warp or StoreHouseConst.WARP_TO_MATERIAL
 	local var_15_1 = arg_15_0.contextData.mode or StoreHouseConst.OVERVIEW
@@ -920,7 +915,7 @@ function var_0_0.filterEquipment(arg_78_0)
 
 	arg_78_0:updateSelected()
 	arg_78_0:updateEquipmentCount()
-	setImageSprite(arg_78_0:findTF("Image", arg_78_0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", var_78_4.spr), true)
+	setImageSprite(arg_78_0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", var_78_4.spr), true)
 	setActive(arg_78_0.sortImgAsc, arg_78_0.asc)
 	setActive(arg_78_0.sortImgDec, not arg_78_0.asc)
 	arg_78_0:updateCapacity()
@@ -1014,7 +1009,7 @@ function var_0_0.filterSpWeapon(arg_81_0)
 
 	arg_81_0:updateSelected()
 	arg_81_0:updateEquipmentCount()
-	setImageSprite(arg_81_0:findTF("Image", arg_81_0.sortBtn), GetSpriteFromAtlas("ui/equipmentui_atlas", var_81_3.spr), true)
+	setImageSprite(arg_81_0.sortBtn:Find("Image"), GetSpriteFromAtlas("ui/equipmentui_atlas", var_81_3.spr), true)
 	setActive(arg_81_0.sortImgAsc, arg_81_0.asc)
 	setActive(arg_81_0.sortImgDec, not arg_81_0.asc)
 	arg_81_0:UpdateSpweaponCapacity()
@@ -1435,8 +1430,8 @@ function var_0_0.SwitchToSpWeaponStoreHouse(arg_127_0)
 end
 
 function var_0_0.willExit(arg_128_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_128_0.blurPanel, arg_128_0._tf)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_128_0.topItems, arg_128_0._tf)
+	arg_128_0:UnOverlayPanel(arg_128_0.blurPanel, arg_128_0._tf)
+	arg_128_0:UnOverlayPanel(arg_128_0.topItems, arg_128_0._tf)
 
 	if arg_128_0.bulinTip then
 		arg_128_0.bulinTip:Destroy()

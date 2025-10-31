@@ -67,23 +67,23 @@ function var_0_0.LoadUIFromPool(arg_2_0, arg_2_1, arg_2_2)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.title = arg_3_0:findTF("main/right_panel/title/main"):GetComponent(typeof(Text))
-	arg_3_0.titleBg1 = arg_3_0:findTF("main/right_panel/title/title_bg1")
-	arg_3_0.titleBg2 = arg_3_0:findTF("main/right_panel/title/title_bg2")
-	arg_3_0.titleBg3 = arg_3_0:findTF("main/right_panel/title/title_bg3")
-	arg_3_0.subTitle = arg_3_0:findTF("main/right_panel/title/Text"):GetComponent(typeof(Text))
-	arg_3_0.tagtimeTF = arg_3_0:findTF("main/right_panel/title/main/sub"):GetComponent(typeof(Text))
-	arg_3_0.backBtn = arg_3_0:findTF("blur_panel/adapt/top/back_btn")
-	arg_3_0.helpBtn = arg_3_0:findTF("main/right_panel/title/help")
-	arg_3_0.filterBtn = arg_3_0:findTF("main/right_panel/filter_bg/filter_btn")
-	arg_3_0.filterSel = arg_3_0:findTF("main/right_panel/filter_bg/filter_btn/Image")
-	arg_3_0.scheduleBtn = arg_3_0:findTF("main/right_panel/title/schedule")
-	arg_3_0.awardBtn = arg_3_0:findTF("main/right_panel/filter_bg/award_btn")
-	arg_3_0.ticketBtn = arg_3_0:findTF("main/right_panel/filter_bg/ticket")
-	arg_3_0.numberTxt = arg_3_0:findTF("main/right_panel/filter_bg/Text"):GetComponent(typeof(Text))
-	arg_3_0.search = arg_3_0:findTF("main/right_panel/filter_bg/search")
+	arg_3_0.title = arg_3_0._tf:Find("main/right_panel/title/main"):GetComponent(typeof(Text))
+	arg_3_0.titleBg1 = arg_3_0._tf:Find("main/right_panel/title/title_bg1")
+	arg_3_0.titleBg2 = arg_3_0._tf:Find("main/right_panel/title/title_bg2")
+	arg_3_0.titleBg3 = arg_3_0._tf:Find("main/right_panel/title/title_bg3")
+	arg_3_0.subTitle = arg_3_0._tf:Find("main/right_panel/title/Text"):GetComponent(typeof(Text))
+	arg_3_0.tagtimeTF = arg_3_0._tf:Find("main/right_panel/title/main/sub"):GetComponent(typeof(Text))
+	arg_3_0.backBtn = arg_3_0._tf:Find("blur_panel/adapt/top/back_btn")
+	arg_3_0.helpBtn = arg_3_0._tf:Find("main/right_panel/title/help")
+	arg_3_0.filterBtn = arg_3_0._tf:Find("main/right_panel/filter_bg/filter_btn")
+	arg_3_0.filterSel = arg_3_0._tf:Find("main/right_panel/filter_bg/filter_btn/Image")
+	arg_3_0.scheduleBtn = arg_3_0._tf:Find("main/right_panel/title/schedule")
+	arg_3_0.awardBtn = arg_3_0._tf:Find("main/right_panel/filter_bg/award_btn")
+	arg_3_0.ticketBtn = arg_3_0._tf:Find("main/right_panel/filter_bg/ticket")
+	arg_3_0.numberTxt = arg_3_0._tf:Find("main/right_panel/filter_bg/Text"):GetComponent(typeof(Text))
+	arg_3_0.search = arg_3_0._tf:Find("main/right_panel/filter_bg/search")
 
-	setText(arg_3_0:findTF("main/right_panel/filter_bg/search/hold"), i18n("dockyard_search_holder"))
+	setText(arg_3_0._tf:Find("main/right_panel/filter_bg/search/hold"), i18n("dockyard_search_holder"))
 end
 
 function var_0_0.GetPageMap(arg_4_0)
@@ -121,7 +121,7 @@ function var_0_0.didEnter(arg_5_0)
 	local var_5_2 = var_5_0[var_5_1][1]
 	local var_5_3 = var_5_0[var_5_1][2]
 
-	arg_5_0.shipsPage = var_5_2.New(arg_5_0:findTF("main/right_panel"), arg_5_0.event, arg_5_0.contextData)
+	arg_5_0.shipsPage = var_5_2.New(arg_5_0._tf:Find("main/right_panel"), arg_5_0.event, arg_5_0.contextData)
 
 	arg_5_0.shipsPage:SetCallBack(function(arg_6_0, arg_6_1)
 		seriesAsync({
@@ -133,7 +133,7 @@ function var_0_0.didEnter(arg_5_0)
 		end)
 	end)
 
-	arg_5_0.rankPage = var_5_3.New(arg_5_0:findTF("main/left_panel"), arg_5_0.event, arg_5_0.contextData)
+	arg_5_0.rankPage = var_5_3.New(arg_5_0._tf:Find("main/left_panel"), arg_5_0.event, arg_5_0.contextData)
 	arg_5_0.voteMsgBox = VoteDiaplayPage.New(arg_5_0._tf, arg_5_0.event)
 	arg_5_0.awardWindowPage = VoteAwardWindowPage.New(arg_5_0._tf, arg_5_0.event)
 

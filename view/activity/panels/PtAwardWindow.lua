@@ -150,7 +150,7 @@ end
 
 function var_0_0.Hide(arg_10_0)
 	if arg_10_0.blur then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf)
 	end
 
 	setActive(arg_10_0._tf, false)

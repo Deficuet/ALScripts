@@ -51,7 +51,7 @@ function var_0_0.OnInit(arg_2_0)
 
 	var_0_0.keepFateTog = arg_2_0._tf:Find("control/condition/keep_tog")
 
-	setText(arg_2_0:findTF("label", arg_2_0.keepFateTog), i18n("keep_fate_tip"))
+	setText(arg_2_0.keepFateTog:Find("label"), i18n("keep_fate_tip"))
 
 	local var_2_5 = GetComponent(arg_2_0.keepFateTog, typeof(Toggle))
 
@@ -72,7 +72,7 @@ function var_0_0.OnShow(arg_6_0)
 end
 
 function var_0_0.OnHide(arg_7_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_7_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0._tf)
 end
 
 function var_0_0.Reset(arg_8_0)

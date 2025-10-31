@@ -5,12 +5,12 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.painting = arg_2_0:findTF("main/Painting")
-	arg_2_0.shipList = arg_2_0:findTF("main/ship_list")
-	arg_2_0.cardTF = arg_2_0:findTF("ship_card", arg_2_0.shipList)
+	arg_2_0.painting = arg_2_0._tf:Find("main/Painting")
+	arg_2_0.shipList = arg_2_0._tf:Find("main/ship_list")
+	arg_2_0.cardTF = arg_2_0.shipList:Find("ship_card")
 	arg_2_0.itemList = UIItemList.New(arg_2_0.shipList, arg_2_0.cardTF)
-	arg_2_0.wordTF = arg_2_0:findTF("main/word")
-	arg_2_0.touchBtn = arg_2_0:findTF("touch_btn")
+	arg_2_0.wordTF = arg_2_0._tf:Find("main/word")
+	arg_2_0.touchBtn = arg_2_0._tf:Find("touch_btn")
 
 	pg.UIMgr.GetInstance():OverlayPanel(arg_2_0._tf)
 end

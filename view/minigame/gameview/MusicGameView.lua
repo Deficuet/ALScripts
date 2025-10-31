@@ -48,7 +48,6 @@ function var_0_0.MyStoreDataToServer(arg_3_0)
 end
 
 function var_0_0.init(arg_4_0)
-	arg_4_0.UIMgr = pg.UIMgr.GetInstance()
 	arg_4_0.useGetKey_flag = true
 	arg_4_0.game_playingflag = false
 	arg_4_0.countingfive_flag = false
@@ -97,15 +96,15 @@ function var_0_0.init(arg_4_0)
 
 	arg_4_0.game_speed = PlayerPrefs.GetInt("musicgame_idol_speed") > 0 and PlayerPrefs.GetInt("musicgame_idol_speed") or 1
 	arg_4_0.game_dgree = 1
-	arg_4_0.countContent = arg_4_0:findTF("countContent")
+	arg_4_0.countContent = arg_4_0._tf:Find("countContent")
 	arg_4_0.countTf = nil
-	arg_4_0.top = arg_4_0:findTF("top")
+	arg_4_0.top = arg_4_0._tf:Find("top")
 	arg_4_0.btn_pause = arg_4_0.top:Find("pause")
 	arg_4_0.score = arg_4_0.top:Find("score")
-	arg_4_0.game_content = arg_4_0:findTF("GameContent")
+	arg_4_0.game_content = arg_4_0._tf:Find("GameContent")
 	arg_4_0.noteTpl = arg_4_0.game_content:Find("noteTpl")
-	arg_4_0.pauseview = arg_4_0:findTF("Pauseview")
-	arg_4_0.selectview = arg_4_0:findTF("Selectview")
+	arg_4_0.pauseview = arg_4_0._tf:Find("Pauseview")
+	arg_4_0.selectview = arg_4_0._tf:Find("Selectview")
 
 	local var_4_2 = findTF(arg_4_0.selectview, "bg")
 
@@ -115,8 +114,8 @@ function var_0_0.init(arg_4_0)
 		setActive(var_4_2, true)
 	end)
 
-	arg_4_0.firstview = arg_4_0:findTF("firstview")
-	arg_4_0.scoreview = arg_4_0:findTF("ScoreView")
+	arg_4_0.firstview = arg_4_0._tf:Find("firstview")
+	arg_4_0.scoreview = arg_4_0._tf:Find("ScoreView")
 
 	setActive(arg_4_0.scoreview, false)
 
@@ -200,7 +199,7 @@ function var_0_0.didEnter(arg_7_0)
 		setActive(arg_7_0.bottonLeftBg, false)
 	end)
 	onButton(arg_7_0, arg_7_0.top:Find("pause"), function()
-		arg_7_0.UIMgr:BlurPanel(arg_7_0.pauseview)
+		pg.UIMgr.GetInstance():BlurPanel(arg_7_0.pauseview)
 		setActive(arg_7_0.pauseview, true)
 
 		arg_7_0.game_playingflag = false
@@ -266,7 +265,7 @@ function var_0_0.didEnter(arg_7_0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("reselect_music_game"),
 			onYes = function()
-				arg_7_0.UIMgr:UnblurPanel(arg_7_0.pauseview, arg_7_0._tf)
+				pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0.pauseview, arg_7_0._tf)
 				setActive(arg_7_0.pauseview, false)
 				arg_7_0:stopTimer()
 
@@ -294,7 +293,7 @@ function var_0_0.didEnter(arg_7_0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("restart_music_game"),
 			onYes = function()
-				arg_7_0.UIMgr:UnblurPanel(arg_7_0.pauseview, arg_7_0._tf)
+				pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0.pauseview, arg_7_0._tf)
 				setActive(arg_7_0.pauseview, false)
 				arg_7_0:stopTimer()
 
@@ -311,7 +310,7 @@ function var_0_0.didEnter(arg_7_0)
 		})
 	end, SFX_UI_CLICK)
 	onButton(arg_7_0, arg_7_0.pauseview:Find("bottom/resume"), function()
-		arg_7_0.UIMgr:UnblurPanel(arg_7_0.pauseview, arg_7_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_7_0.pauseview, arg_7_0._tf)
 		setActive(arg_7_0.pauseview, false)
 		arg_7_0:effect_play("prepare")
 

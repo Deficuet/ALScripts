@@ -5,6 +5,10 @@ var_0_0.YUMIA_MATERIAL_DROP_TYPE_LIST = {
 }
 
 function var_0_0.NeedShowYumiaMaterailDrop(arg_1_0)
+	if not arg_1_0 then
+		return false
+	end
+
 	for iter_1_0, iter_1_1 in ipairs(arg_1_0) do
 		if table.contains(var_0_0.YUMIA_MATERIAL_DROP_TYPE_LIST, iter_1_1.type) then
 			return true
@@ -20,10 +24,10 @@ end
 
 function var_0_0.OnLoaded(arg_3_0)
 	arg_3_0.parentTr = arg_3_0._tf.parent
-	arg_3_0.itemContainer = arg_3_0:findTF("item/container")
-	arg_3_0.itemTpl = arg_3_0:findTF("item/tpl")
-	arg_3_0.confirmBtn = arg_3_0:findTF("confirm_btn")
-	arg_3_0.lineTxt = arg_3_0:findTF("words/text")
+	arg_3_0.itemContainer = arg_3_0._tf:Find("item/container")
+	arg_3_0.itemTpl = arg_3_0._tf:Find("item/tpl")
+	arg_3_0.confirmBtn = arg_3_0._tf:Find("confirm_btn")
+	arg_3_0.lineTxt = arg_3_0._tf:Find("words/text")
 
 	setText(arg_3_0.confirmBtn:Find("text"), i18n("word_ok"))
 end

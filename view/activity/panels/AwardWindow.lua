@@ -5,12 +5,12 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.closeBtn = arg_2_0:findTF("window/top/btnBack")
-	arg_2_0.uiItemList = UIItemList.New(arg_2_0:findTF("window/panel/list"), arg_2_0:findTF("window/panel/list/item"))
-	arg_2_0.currentTitle = arg_2_0:findTF("window/pt/title"):GetComponent(typeof(Text))
-	arg_2_0.currentTxt = arg_2_0:findTF("window/pt/Text"):GetComponent(typeof(Text))
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/btnBack")
+	arg_2_0.uiItemList = UIItemList.New(arg_2_0._tf:Find("window/panel/list"), arg_2_0._tf:Find("window/panel/list/item"))
+	arg_2_0.currentTitle = arg_2_0._tf:Find("window/pt/title"):GetComponent(typeof(Text))
+	arg_2_0.currentTxt = arg_2_0._tf:Find("window/pt/Text"):GetComponent(typeof(Text))
 
-	setText(arg_2_0:findTF("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
+	setText(arg_2_0._tf:Find("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -66,7 +66,7 @@ end
 
 function var_0_0.Hide(arg_11_0)
 	var_0_0.super.Hide(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf, arg_11_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf, arg_11_0._parentTf)
 end
 
 function var_0_0.OnDestroy(arg_12_0)

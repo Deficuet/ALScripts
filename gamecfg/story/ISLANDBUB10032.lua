@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "希望下一班运输船能准时回来啊……",
+			say = "I sure hope the next transport ship returns on schedule.",
 			characterId = 100300,
 			hideType = 2
 		}

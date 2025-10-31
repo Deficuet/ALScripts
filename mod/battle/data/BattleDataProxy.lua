@@ -2194,7 +2194,7 @@ function var_0_9.SpawnLastingColumnArea(arg_119_0, arg_119_1, arg_119_2, arg_119
 	return var_119_1
 end
 
-function var_0_9.SpawnLastingCubeArea(arg_120_0, arg_120_1, arg_120_2, arg_120_3, arg_120_4, arg_120_5, arg_120_6, arg_120_7, arg_120_8, arg_120_9, arg_120_10, arg_120_11, arg_120_12)
+function var_0_9.SpawnLastingEllipseArea(arg_120_0, arg_120_1, arg_120_2, arg_120_3, arg_120_4, arg_120_5, arg_120_6, arg_120_7, arg_120_8, arg_120_9, arg_120_10, arg_120_11, arg_120_12)
 	arg_120_9 = arg_120_9 or false
 
 	local var_120_0 = arg_120_0:GenerateAreaID()
@@ -2204,7 +2204,7 @@ function var_0_9.SpawnLastingCubeArea(arg_120_0, arg_120_1, arg_120_2, arg_120_3
 	var_120_1:SetPosition(var_120_2)
 	var_120_1:SetWidth(arg_120_4)
 	var_120_1:SetHeight(arg_120_5)
-	var_120_1:SetAreaType(var_0_3.AreaType.CUBE)
+	var_120_1:SetAreaType(var_0_3.AreaType.ELLIPSE)
 	var_120_1:SetLifeTime(arg_120_6)
 	var_120_1:SetFieldType(arg_120_1)
 	var_120_1:SetOpponentAffected(not arg_120_9)
@@ -2222,25 +2222,26 @@ function var_0_9.SpawnLastingCubeArea(arg_120_0, arg_120_1, arg_120_2, arg_120_3
 	return var_120_1
 end
 
-function var_0_9.SpawnTriggerColumnArea(arg_121_0, arg_121_1, arg_121_2, arg_121_3, arg_121_4, arg_121_5, arg_121_6, arg_121_7, arg_121_8)
-	arg_121_6 = arg_121_6 or false
+function var_0_9.SpawnLastingCubeArea(arg_121_0, arg_121_1, arg_121_2, arg_121_3, arg_121_4, arg_121_5, arg_121_6, arg_121_7, arg_121_8, arg_121_9, arg_121_10, arg_121_11, arg_121_12)
+	arg_121_9 = arg_121_9 or false
 
 	local var_121_0 = arg_121_0:GenerateAreaID()
-	local var_121_1 = var_0_0.Battle.BattleTriggerAOEData.New(var_121_0, arg_121_2, arg_121_8)
+	local var_121_1 = var_0_0.Battle.BattleLastingAOEData.New(var_121_0, arg_121_2, arg_121_7, arg_121_8, arg_121_11, arg_121_12)
 	local var_121_2 = Clone(arg_121_3)
 
 	var_121_1:SetPosition(var_121_2)
-	var_121_1:SetRange(arg_121_4)
-	var_121_1:SetAreaType(var_0_3.AreaType.COLUMN)
-	var_121_1:SetLifeTime(arg_121_5)
+	var_121_1:SetWidth(arg_121_4)
+	var_121_1:SetHeight(arg_121_5)
+	var_121_1:SetAreaType(var_0_3.AreaType.CUBE)
+	var_121_1:SetLifeTime(arg_121_6)
 	var_121_1:SetFieldType(arg_121_1)
-	var_121_1:SetOpponentAffected(not arg_121_6)
+	var_121_1:SetOpponentAffected(not arg_121_9)
 	arg_121_0:CreateAreaOfEffect(var_121_1)
 
-	if arg_121_7 and arg_121_7 ~= "" then
+	if arg_121_10 and arg_121_10 ~= "" then
 		local var_121_3 = {
 			area = var_121_1,
-			FXID = arg_121_7
+			FXID = arg_121_10
 		}
 
 		arg_121_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_AREA, var_121_3))
@@ -2249,197 +2250,215 @@ function var_0_9.SpawnTriggerColumnArea(arg_121_0, arg_121_1, arg_121_2, arg_121
 	return var_121_1
 end
 
-function var_0_9.CreateAreaOfEffect(arg_122_0, arg_122_1)
-	arg_122_0._AOEList[arg_122_1:GetUniqueID()] = arg_122_1
+function var_0_9.SpawnTriggerColumnArea(arg_122_0, arg_122_1, arg_122_2, arg_122_3, arg_122_4, arg_122_5, arg_122_6, arg_122_7, arg_122_8)
+	arg_122_6 = arg_122_6 or false
 
-	arg_122_0._cldSystem:InitAOECld(arg_122_1)
-	arg_122_1:StartTimer()
+	local var_122_0 = arg_122_0:GenerateAreaID()
+	local var_122_1 = var_0_0.Battle.BattleTriggerAOEData.New(var_122_0, arg_122_2, arg_122_8)
+	local var_122_2 = Clone(arg_122_3)
+
+	var_122_1:SetPosition(var_122_2)
+	var_122_1:SetRange(arg_122_4)
+	var_122_1:SetAreaType(var_0_3.AreaType.COLUMN)
+	var_122_1:SetLifeTime(arg_122_5)
+	var_122_1:SetFieldType(arg_122_1)
+	var_122_1:SetOpponentAffected(not arg_122_6)
+	arg_122_0:CreateAreaOfEffect(var_122_1)
+
+	if arg_122_7 and arg_122_7 ~= "" then
+		local var_122_3 = {
+			area = var_122_1,
+			FXID = arg_122_7
+		}
+
+		arg_122_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_AREA, var_122_3))
+	end
+
+	return var_122_1
 end
 
-function var_0_9.RemoveAreaOfEffect(arg_123_0, arg_123_1)
-	local var_123_0 = arg_123_0._AOEList[arg_123_1]
+function var_0_9.CreateAreaOfEffect(arg_123_0, arg_123_1)
+	arg_123_0._AOEList[arg_123_1:GetUniqueID()] = arg_123_1
 
-	if not var_123_0 then
+	arg_123_0._cldSystem:InitAOECld(arg_123_1)
+	arg_123_1:StartTimer()
+end
+
+function var_0_9.RemoveAreaOfEffect(arg_124_0, arg_124_1)
+	local var_124_0 = arg_124_0._AOEList[arg_124_1]
+
+	if not var_124_0 then
 		return
 	end
 
-	var_123_0:Dispose()
+	var_124_0:Dispose()
 
-	arg_123_0._AOEList[arg_123_1] = nil
+	arg_124_0._AOEList[arg_124_1] = nil
 
-	arg_123_0._cldSystem:DeleteAOECld(var_123_0)
-	arg_123_0:DispatchEvent(var_0_0.Event.New(var_0_1.REMOVE_AREA, {
-		id = arg_123_1
+	arg_124_0._cldSystem:DeleteAOECld(var_124_0)
+	arg_124_0:DispatchEvent(var_0_0.Event.New(var_0_1.REMOVE_AREA, {
+		id = arg_124_1
 	}))
 end
 
-function var_0_9.GetAOEList(arg_124_0)
-	return arg_124_0._AOEList
+function var_0_9.GetAOEList(arg_125_0)
+	return arg_125_0._AOEList
 end
 
-function var_0_9.GenerateAreaID(arg_125_0)
-	arg_125_0._AOECount = arg_125_0._AOECount + 1
+function var_0_9.GenerateAreaID(arg_126_0)
+	arg_126_0._AOECount = arg_126_0._AOECount + 1
 
-	return arg_125_0._AOECount
+	return arg_126_0._AOECount
 end
 
-function var_0_9.SpawnWall(arg_126_0, arg_126_1, arg_126_2, arg_126_3, arg_126_4)
-	local var_126_0 = arg_126_0:GenerateWallID()
-	local var_126_1 = var_0_0.Battle.BattleWallData.New(var_126_0, arg_126_1, arg_126_2, arg_126_3, arg_126_4)
+function var_0_9.SpawnWall(arg_127_0, arg_127_1, arg_127_2, arg_127_3, arg_127_4)
+	local var_127_0 = arg_127_0:GenerateWallID()
+	local var_127_1 = var_0_0.Battle.BattleWallData.New(var_127_0, arg_127_1, arg_127_2, arg_127_3, arg_127_4)
 
-	arg_126_0._wallList[var_126_0] = var_126_1
+	arg_127_0._wallList[var_127_0] = var_127_1
 
-	arg_126_0._cldSystem:InitWallCld(var_126_1)
+	arg_127_0._cldSystem:InitWallCld(var_127_1)
 
-	return var_126_1
+	return var_127_1
 end
 
-function var_0_9.RemoveWall(arg_127_0, arg_127_1)
-	local var_127_0 = arg_127_0._wallList[arg_127_1]
+function var_0_9.RemoveWall(arg_128_0, arg_128_1)
+	local var_128_0 = arg_128_0._wallList[arg_128_1]
 
-	arg_127_0._wallList[arg_127_1] = nil
+	arg_128_0._wallList[arg_128_1] = nil
 
-	arg_127_0._cldSystem:DeleteWallCld(var_127_0)
+	arg_128_0._cldSystem:DeleteWallCld(var_128_0)
 end
 
-function var_0_9.SpawnShelter(arg_128_0, arg_128_1, arg_128_2)
-	local var_128_0 = arg_128_0:GernerateShelterID()
-	local var_128_1 = var_0_0.Battle.BattleShelterData.New(var_128_0)
+function var_0_9.SpawnShelter(arg_129_0, arg_129_1, arg_129_2)
+	local var_129_0 = arg_129_0:GernerateShelterID()
+	local var_129_1 = var_0_0.Battle.BattleShelterData.New(var_129_0)
 
-	arg_128_0._shelterList[var_128_0] = var_128_1
+	arg_129_0._shelterList[var_129_0] = var_129_1
 
-	return var_128_1
+	return var_129_1
 end
 
-function var_0_9.RemoveShelter(arg_129_0, arg_129_1)
-	local var_129_0 = arg_129_0._shelterList[arg_129_1]
-	local var_129_1 = {
-		uid = arg_129_1
+function var_0_9.RemoveShelter(arg_130_0, arg_130_1)
+	local var_130_0 = arg_130_0._shelterList[arg_130_1]
+	local var_130_1 = {
+		uid = arg_130_1
 	}
 
-	arg_129_0:DispatchEvent(var_0_0.Event.New(var_0_1.REMOVE_SHELTER, var_129_1))
-	var_129_0:Deactive()
+	arg_130_0:DispatchEvent(var_0_0.Event.New(var_0_1.REMOVE_SHELTER, var_130_1))
+	var_130_0:Deactive()
 
-	arg_129_0._shelterList[arg_129_1] = nil
+	arg_130_0._shelterList[arg_130_1] = nil
 end
 
-function var_0_9.GetWallList(arg_130_0)
-	return arg_130_0._wallList
+function var_0_9.GetWallList(arg_131_0)
+	return arg_131_0._wallList
 end
 
-function var_0_9.GenerateWallID(arg_131_0)
-	arg_131_0._wallIndex = arg_131_0._wallIndex + 1
+function var_0_9.GenerateWallID(arg_132_0)
+	arg_132_0._wallIndex = arg_132_0._wallIndex + 1
 
-	return arg_131_0._wallIndex
+	return arg_132_0._wallIndex
 end
 
-function var_0_9.GernerateShelterID(arg_132_0)
-	arg_132_0._shelterIndex = arg_132_0._shelterIndex + 1
+function var_0_9.GernerateShelterID(arg_133_0)
+	arg_133_0._shelterIndex = arg_133_0._shelterIndex + 1
 
-	return arg_132_0._shelterIndex
+	return arg_133_0._shelterIndex
 end
 
-function var_0_9.SpawnEnvironment(arg_133_0, arg_133_1)
-	local var_133_0 = arg_133_0:GernerateEnvironmentID()
-	local var_133_1 = var_0_0.Battle.BattleEnvironmentUnit.New(var_133_0, var_0_4.FOE_CODE)
+function var_0_9.SpawnEnvironment(arg_134_0, arg_134_1)
+	local var_134_0 = arg_134_0:GernerateEnvironmentID()
+	local var_134_1 = var_0_0.Battle.BattleEnvironmentUnit.New(var_134_0, var_0_4.FOE_CODE)
 
-	var_133_1:SetTemplate(arg_133_1)
+	var_134_1:SetTemplate(arg_134_1)
 
-	local var_133_2 = var_133_1:GetBehaviours()
-	local var_133_3 = Vector3(arg_133_1.coordinate[1], arg_133_1.coordinate[2], arg_133_1.coordinate[3])
+	local var_134_2 = var_134_1:GetBehaviours()
+	local var_134_3 = Vector3(arg_134_1.coordinate[1], arg_134_1.coordinate[2], arg_134_1.coordinate[3])
 
-	local function var_133_4(arg_134_0)
-		local var_134_0 = {}
+	local function var_134_4(arg_135_0)
+		local var_135_0 = {}
 
-		for iter_134_0, iter_134_1 in ipairs(arg_134_0) do
-			if iter_134_1.Active then
-				local var_134_1 = arg_133_0._unitList[iter_134_1.UID]
+		for iter_135_0, iter_135_1 in ipairs(arg_135_0) do
+			if iter_135_1.Active then
+				local var_135_1 = arg_134_0._unitList[iter_135_1.UID]
 
-				if not var_134_1:IsSpectre() then
-					table.insert(var_134_0, var_134_1)
+				if not var_135_1:IsSpectre() then
+					table.insert(var_135_0, var_135_1)
 				end
 			end
 		end
 
-		var_133_1:UpdateFrequentlyCollide(var_134_0)
+		var_134_1:UpdateFrequentlyCollide(var_135_0)
 	end
 
-	local function var_133_5()
+	local function var_134_5()
 		return
 	end
 
-	local function var_133_6()
+	local function var_134_6()
 		return
 	end
 
-	local var_133_7 = arg_133_1.field_type or var_0_3.BulletField.SURFACE
-	local var_133_8 = arg_133_1.IFF or var_0_4.FOE_CODE
-	local var_133_9 = 0
-	local var_133_10
+	local var_134_7 = arg_134_1.field_type or var_0_3.BulletField.SURFACE
+	local var_134_8 = arg_134_1.IFF or var_0_4.FOE_CODE
+	local var_134_9 = 0
+	local var_134_10
 
-	if #arg_133_1.cld_data == 1 then
-		local var_133_11 = arg_133_1.cld_data[1]
+	if #arg_134_1.cld_data == 1 then
+		local var_134_11 = arg_134_1.cld_data[1]
 
-		var_133_10 = arg_133_0:SpawnLastingColumnArea(var_133_7, var_133_8, var_133_3, var_133_11, var_133_9, var_133_4, var_133_5, false, arg_133_1.prefab, var_133_6, true)
+		var_134_10 = arg_134_0:SpawnLastingColumnArea(var_134_7, var_134_8, var_134_3, var_134_11, var_134_9, var_134_4, var_134_5, false, arg_134_1.prefab, var_134_6, true)
 	else
-		local var_133_12 = arg_133_1.cld_data[1]
-		local var_133_13 = arg_133_1.cld_data[2]
+		local var_134_12 = arg_134_1.cld_data[1]
+		local var_134_13 = arg_134_1.cld_data[2]
 
-		var_133_10 = arg_133_0:SpawnLastingCubeArea(var_133_7, var_133_8, var_133_3, var_133_12, var_133_13, var_133_9, var_133_4, var_133_5, false, arg_133_1.prefab, var_133_6, true)
+		var_134_10 = arg_134_0:SpawnLastingCubeArea(var_134_7, var_134_8, var_134_3, var_134_12, var_134_13, var_134_9, var_134_4, var_134_5, false, arg_134_1.prefab, var_134_6, true)
 	end
 
-	var_133_1:SetAOEData(var_133_10)
+	var_134_1:SetAOEData(var_134_10)
 
-	arg_133_0._environmentList[var_133_0] = var_133_1
+	arg_134_0._environmentList[var_134_0] = var_134_1
 
-	return var_133_1
+	return var_134_1
 end
 
-function var_0_9.RemoveEnvironment(arg_137_0, arg_137_1)
-	local var_137_0 = arg_137_0._environmentList[arg_137_1]
-	local var_137_1 = var_137_0:GetAOEData()
+function var_0_9.RemoveEnvironment(arg_138_0, arg_138_1)
+	local var_138_0 = arg_138_0._environmentList[arg_138_1]
+	local var_138_1 = var_138_0:GetAOEData()
 
-	arg_137_0:RemoveAreaOfEffect(var_137_1:GetUniqueID())
-	var_137_0:Dispose()
+	arg_138_0:RemoveAreaOfEffect(var_138_1:GetUniqueID())
+	var_138_0:Dispose()
 
-	arg_137_0._environmentList[arg_137_1] = nil
+	arg_138_0._environmentList[arg_138_1] = nil
 end
 
-function var_0_9.DispatchWarning(arg_138_0, arg_138_1, arg_138_2)
-	arg_138_0:DispatchEvent(var_0_0.Event.New(var_0_1.UPDATE_ENVIRONMENT_WARNING, {
-		isActive = arg_138_1
+function var_0_9.DispatchWarning(arg_139_0, arg_139_1, arg_139_2)
+	arg_139_0:DispatchEvent(var_0_0.Event.New(var_0_1.UPDATE_ENVIRONMENT_WARNING, {
+		isActive = arg_139_1
 	}))
 end
 
-function var_0_9.GetEnvironmentList(arg_139_0)
-	return arg_139_0._environmentList
+function var_0_9.GetEnvironmentList(arg_140_0)
+	return arg_140_0._environmentList
 end
 
-function var_0_9.GernerateEnvironmentID(arg_140_0)
-	arg_140_0._environmentIndex = arg_140_0._environmentIndex + 1
+function var_0_9.GernerateEnvironmentID(arg_141_0)
+	arg_141_0._environmentIndex = arg_141_0._environmentIndex + 1
 
-	return arg_140_0._environmentIndex
+	return arg_141_0._environmentIndex
 end
 
-function var_0_9.SpawnEffect(arg_141_0, arg_141_1, arg_141_2, arg_141_3)
-	arg_141_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_EFFECT, {
-		FXID = arg_141_1,
-		position = arg_141_2,
-		localScale = arg_141_3
-	}))
-end
-
-function var_0_9.SpawnUIFX(arg_142_0, arg_142_1, arg_142_2, arg_142_3, arg_142_4)
-	arg_142_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_UI_FX, {
+function var_0_9.SpawnEffect(arg_142_0, arg_142_1, arg_142_2, arg_142_3)
+	arg_142_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_EFFECT, {
 		FXID = arg_142_1,
 		position = arg_142_2,
-		localScale = arg_142_3,
-		orderDiff = arg_142_4
+		localScale = arg_142_3
 	}))
 end
 
-function var_0_9.SpawnCameraFX(arg_143_0, arg_143_1, arg_143_2, arg_143_3, arg_143_4)
-	arg_143_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_CAMERA_FX, {
+function var_0_9.SpawnUIFX(arg_143_0, arg_143_1, arg_143_2, arg_143_3, arg_143_4)
+	arg_143_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_UI_FX, {
 		FXID = arg_143_1,
 		position = arg_143_2,
 		localScale = arg_143_3,
@@ -2447,212 +2466,221 @@ function var_0_9.SpawnCameraFX(arg_143_0, arg_143_1, arg_143_2, arg_143_3, arg_1
 	}))
 end
 
-function var_0_9.GetFriendlyCode(arg_144_0)
-	return arg_144_0._friendlyCode
+function var_0_9.SpawnCameraFX(arg_144_0, arg_144_1, arg_144_2, arg_144_3, arg_144_4)
+	arg_144_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_CAMERA_FX, {
+		FXID = arg_144_1,
+		position = arg_144_2,
+		localScale = arg_144_3,
+		orderDiff = arg_144_4
+	}))
 end
 
-function var_0_9.GetFoeCode(arg_145_0)
-	return arg_145_0._foeCode
+function var_0_9.GetFriendlyCode(arg_145_0)
+	return arg_145_0._friendlyCode
 end
 
-function var_0_9.GetOppoSideCode(arg_146_0)
-	if arg_146_0 == var_0_4.FRIENDLY_CODE then
+function var_0_9.GetFoeCode(arg_146_0)
+	return arg_146_0._foeCode
+end
+
+function var_0_9.GetOppoSideCode(arg_147_0)
+	if arg_147_0 == var_0_4.FRIENDLY_CODE then
 		return var_0_4.FOE_CODE
-	elseif arg_146_0 == var_0_4.FOE_CODE then
+	elseif arg_147_0 == var_0_4.FOE_CODE then
 		return var_0_4.FRIENDLY_CODE
 	end
 end
 
-function var_0_9.GetStatistics(arg_147_0)
-	return arg_147_0._statistics
+function var_0_9.GetStatistics(arg_148_0)
+	return arg_148_0._statistics
 end
 
-function var_0_9.BlockManualCast(arg_148_0, arg_148_1)
-	local var_148_0 = arg_148_1 and 1 or -1
+function var_0_9.BlockManualCast(arg_149_0, arg_149_1)
+	local var_149_0 = arg_149_1 and 1 or -1
 
-	for iter_148_0, iter_148_1 in pairs(arg_148_0._fleetList) do
-		iter_148_1:SetWeaponBlock(var_148_0)
+	for iter_149_0, iter_149_1 in pairs(arg_149_0._fleetList) do
+		iter_149_1:SetWeaponBlock(var_149_0)
 	end
 end
 
-function var_0_9.JamManualCast(arg_149_0, arg_149_1)
-	arg_149_0:DispatchEvent(var_0_0.Event.New(var_0_1.JAMMING, {
-		jammingFlag = arg_149_1
+function var_0_9.JamManualCast(arg_150_0, arg_150_1)
+	arg_150_0:DispatchEvent(var_0_0.Event.New(var_0_1.JAMMING, {
+		jammingFlag = arg_150_1
 	}))
 end
 
-function var_0_9.SubmarineStrike(arg_150_0, arg_150_1)
-	local var_150_0 = arg_150_0:GetFleetByIFF(arg_150_1)
-	local var_150_1 = var_150_0:GetSubAidVO()
+function var_0_9.SubmarineStrike(arg_151_0, arg_151_1)
+	local var_151_0 = arg_151_0:GetFleetByIFF(arg_151_1)
+	local var_151_1 = var_151_0:GetSubAidVO()
 
-	if var_150_0:GetWeaponBlock() or var_150_1:GetCurrent() < 1 then
+	if var_151_0:GetWeaponBlock() or var_151_1:GetCurrent() < 1 then
 		return
 	end
 
-	local var_150_2 = var_150_0:GetSubUnitData()
+	local var_151_2 = var_151_0:GetSubUnitData()
 
-	for iter_150_0, iter_150_1 in ipairs(var_150_2) do
-		local var_150_3 = arg_150_0:SpawnSub(iter_150_1, arg_150_1)
+	for iter_151_0, iter_151_1 in ipairs(var_151_2) do
+		local var_151_3 = arg_151_0:SpawnSub(iter_151_1, arg_151_1)
 
-		arg_150_0:InitAidUnitStatistics(var_150_3)
+		arg_151_0:InitAidUnitStatistics(var_151_3)
 	end
 
-	var_150_0:SubWarcry()
+	var_151_0:SubWarcry()
 
-	local var_150_4 = var_150_0:GetSubList()
+	local var_151_4 = var_151_0:GetSubList()
 
-	for iter_150_2, iter_150_3 in ipairs(var_150_4) do
-		if iter_150_2 == 1 then
-			iter_150_3:TriggerBuff(var_0_3.BuffEffectType.ON_SUB_LEADER)
-		elseif iter_150_2 == 2 then
-			iter_150_3:TriggerBuff(var_0_3.BuffEffectType.ON_UPPER_SUB_CONSORT)
-		elseif iter_150_2 == 3 then
-			iter_150_3:TriggerBuff(var_0_3.BuffEffectType.ON_LOWER_SUB_CONSORT)
+	for iter_151_2, iter_151_3 in ipairs(var_151_4) do
+		if iter_151_2 == 1 then
+			iter_151_3:TriggerBuff(var_0_3.BuffEffectType.ON_SUB_LEADER)
+		elseif iter_151_2 == 2 then
+			iter_151_3:TriggerBuff(var_0_3.BuffEffectType.ON_UPPER_SUB_CONSORT)
+		elseif iter_151_2 == 3 then
+			iter_151_3:TriggerBuff(var_0_3.BuffEffectType.ON_LOWER_SUB_CONSORT)
 		end
 
-		if iter_150_3:GetAimBias() then
-			arg_150_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_AIM_BIAS, {
-				aimBias = iter_150_3:GetAimBias()
+		if iter_151_3:GetAimBias() then
+			arg_151_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_AIM_BIAS, {
+				aimBias = iter_151_3:GetAimBias()
 			}))
 		end
 	end
 
-	local var_150_5 = var_150_4[1]
+	local var_151_5 = var_151_4[1]
 
-	var_150_1:Cast()
+	var_151_1:Cast()
 end
 
-function var_0_9.GetWaveFlags(arg_151_0)
-	return arg_151_0._waveFlags
+function var_0_9.GetWaveFlags(arg_152_0)
+	return arg_152_0._waveFlags
 end
 
-function var_0_9.AddWaveFlag(arg_152_0, arg_152_1)
-	if not arg_152_1 then
-		return
-	end
-
-	local var_152_0 = arg_152_0:GetWaveFlags()
-
-	if table.contains(var_152_0, arg_152_1) then
-		return
-	end
-
-	table.insert(var_152_0, arg_152_1)
-end
-
-function var_0_9.RemoveFlag(arg_153_0, arg_153_1)
+function var_0_9.AddWaveFlag(arg_153_0, arg_153_1)
 	if not arg_153_1 then
 		return
 	end
 
 	local var_153_0 = arg_153_0:GetWaveFlags()
 
-	if not table.contains(var_153_0, arg_153_1) then
+	if table.contains(var_153_0, arg_153_1) then
 		return
 	end
 
-	table.removebyvalue(var_153_0, arg_153_1)
+	table.insert(var_153_0, arg_153_1)
 end
 
-function var_0_9.DispatchCustomWarning(arg_154_0, arg_154_1)
-	arg_154_0:DispatchEvent(var_0_0.Event.New(var_0_1.EDIT_CUSTOM_WARNING_LABEL, {
-		labelData = arg_154_1
-	}))
-end
-
-function var_0_9.DispatchGridmanSkill(arg_155_0, arg_155_1, arg_155_2)
-	arg_155_0:DispatchEvent(var_0_0.Event.New(var_0_1.GRIDMAN_SKILL_FLOAT, {
-		type = arg_155_1,
-		IFF = arg_155_2
-	}))
-end
-
-function var_0_9.SpawnFusionUnit(arg_156_0, arg_156_1, arg_156_2, arg_156_3, arg_156_4)
-	local var_156_0 = Clone(arg_156_1:GetPosition())
-	local var_156_1 = arg_156_1:GetIFF()
-	local var_156_2 = arg_156_0:generatePlayerUnit(arg_156_2, var_156_1, var_156_0, arg_156_0._commanderBuff)
-
-	var_0_6.SetFusionAttrFromElement(var_156_2, arg_156_1, arg_156_3, arg_156_4)
-	var_156_2:SetCurrentHP(var_156_2:GetMaxHP())
-	arg_156_1:GetFleetVO():AppendPlayerUnit(var_156_2)
-	arg_156_0:setShipUnitBound(var_156_2)
-	var_0_5.AttachWeather(var_156_2, arg_156_0._weahter)
-	arg_156_0._cldSystem:InitShipCld(var_156_2)
-
-	local var_156_3 = {
-		type = var_0_3.UnitType.PLAYER_UNIT,
-		unit = var_156_2
-	}
-
-	arg_156_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_UNIT, var_156_3))
-
-	return var_156_2
-end
-
-function var_0_9.DefusionUnit(arg_157_0, arg_157_1)
-	local var_157_0 = arg_157_1:GetIFF()
-	local var_157_1 = arg_157_0:GetFleetByIFF(var_157_0)
-
-	var_157_1:RemovePlayerUnit(arg_157_1)
-
-	local var_157_2 = {}
-
-	if var_157_1:GetFleetAntiAirWeapon():GetRange() == 0 then
-		var_157_2.isShow = false
+function var_0_9.RemoveFlag(arg_154_0, arg_154_1)
+	if not arg_154_1 then
+		return
 	end
 
-	arg_157_0:DispatchEvent(var_0_0.Event.New(var_0_1.ANTI_AIR_AREA, var_157_2))
-	arg_157_1:SetDeathReason(var_0_3.UnitDeathReason.DEFUSION)
-	arg_157_0:KillUnit(arg_157_1:GetUniqueID())
+	local var_154_0 = arg_154_0:GetWaveFlags()
+
+	if not table.contains(var_154_0, arg_154_1) then
+		return
+	end
+
+	table.removebyvalue(var_154_0, arg_154_1)
 end
 
-function var_0_9.FreezeUnit(arg_158_0, arg_158_1)
-	var_0_6.SetCurrent(arg_158_1, var_0_0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY, var_0_4.FUSION_ELEMENT_UNIT_TYPE)
-	arg_158_1:UpdateBlindInvisibleBySpectre()
-	arg_158_0:SwitchSpectreUnit(arg_158_1)
+function var_0_9.DispatchCustomWarning(arg_155_0, arg_155_1)
+	arg_155_0:DispatchEvent(var_0_0.Event.New(var_0_1.EDIT_CUSTOM_WARNING_LABEL, {
+		labelData = arg_155_1
+	}))
+end
 
-	if arg_158_1:GetAimBias() then
-		local var_158_0 = arg_158_1:GetAimBias()
+function var_0_9.DispatchGridmanSkill(arg_156_0, arg_156_1, arg_156_2)
+	arg_156_0:DispatchEvent(var_0_0.Event.New(var_0_1.GRIDMAN_SKILL_FLOAT, {
+		type = arg_156_1,
+		IFF = arg_156_2
+	}))
+end
 
-		var_158_0:RemoveCrew(arg_158_1)
+function var_0_9.SpawnFusionUnit(arg_157_0, arg_157_1, arg_157_2, arg_157_3, arg_157_4)
+	local var_157_0 = Clone(arg_157_1:GetPosition())
+	local var_157_1 = arg_157_1:GetIFF()
+	local var_157_2 = arg_157_0:generatePlayerUnit(arg_157_2, var_157_1, var_157_0, arg_157_0._commanderBuff)
 
-		if var_158_0:GetCurrentState() == var_158_0.STATE_EXPIRE then
-			arg_158_0:DispatchEvent(var_0_0.Event.New(var_0_1.REMOVE_AIM_BIAS, {
-				aimBias = arg_158_1:GetAimBias()
+	var_0_6.SetFusionAttrFromElement(var_157_2, arg_157_1, arg_157_3, arg_157_4)
+	var_157_2:SetCurrentHP(var_157_2:GetMaxHP())
+	arg_157_1:GetFleetVO():AppendPlayerUnit(var_157_2)
+	arg_157_0:setShipUnitBound(var_157_2)
+	var_0_5.AttachWeather(var_157_2, arg_157_0._weahter)
+	arg_157_0._cldSystem:InitShipCld(var_157_2)
+
+	local var_157_3 = {
+		type = var_0_3.UnitType.PLAYER_UNIT,
+		unit = var_157_2
+	}
+
+	arg_157_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_UNIT, var_157_3))
+
+	return var_157_2
+end
+
+function var_0_9.DefusionUnit(arg_158_0, arg_158_1)
+	local var_158_0 = arg_158_1:GetIFF()
+	local var_158_1 = arg_158_0:GetFleetByIFF(var_158_0)
+
+	var_158_1:RemovePlayerUnit(arg_158_1)
+
+	local var_158_2 = {}
+
+	if var_158_1:GetFleetAntiAirWeapon():GetRange() == 0 then
+		var_158_2.isShow = false
+	end
+
+	arg_158_0:DispatchEvent(var_0_0.Event.New(var_0_1.ANTI_AIR_AREA, var_158_2))
+	arg_158_1:SetDeathReason(var_0_3.UnitDeathReason.DEFUSION)
+	arg_158_0:KillUnit(arg_158_1:GetUniqueID())
+end
+
+function var_0_9.FreezeUnit(arg_159_0, arg_159_1)
+	var_0_6.SetCurrent(arg_159_1, var_0_0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY, var_0_4.FUSION_ELEMENT_UNIT_TYPE)
+	arg_159_1:UpdateBlindInvisibleBySpectre()
+	arg_159_0:SwitchSpectreUnit(arg_159_1)
+
+	if arg_159_1:GetAimBias() then
+		local var_159_0 = arg_159_1:GetAimBias()
+
+		var_159_0:RemoveCrew(arg_159_1)
+
+		if var_159_0:GetCurrentState() == var_159_0.STATE_EXPIRE then
+			arg_159_0:DispatchEvent(var_0_0.Event.New(var_0_1.REMOVE_AIM_BIAS, {
+				aimBias = arg_159_1:GetAimBias()
 			}))
 		end
 	end
 
-	arg_158_1:Freeze()
+	arg_159_1:Freeze()
 
-	local var_158_1 = arg_158_1:GetFleetVO()
+	local var_159_1 = arg_159_1:GetFleetVO()
 
-	if var_158_1 then
-		var_158_1:FreezeUnit(arg_158_1)
+	if var_159_1 then
+		var_159_1:FreezeUnit(arg_159_1)
 	end
 end
 
-function var_0_9.ActiveFreezeUnit(arg_159_0, arg_159_1)
-	var_0_6.SetCurrent(arg_159_1, var_0_0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY, var_0_4.PLAYER_DEFAULT)
-	arg_159_1:UpdateBlindInvisibleBySpectre()
-	arg_159_0:SwitchSpectreUnit(arg_159_1)
-	var_0_5.AttachWeather(arg_159_1, arg_159_0._weahter)
-	arg_159_1:ActiveFreeze()
+function var_0_9.ActiveFreezeUnit(arg_160_0, arg_160_1)
+	var_0_6.SetCurrent(arg_160_1, var_0_0.Battle.BattleBuffSetBattleUnitType.ATTR_KEY, var_0_4.PLAYER_DEFAULT)
+	arg_160_1:UpdateBlindInvisibleBySpectre()
+	arg_160_0:SwitchSpectreUnit(arg_160_1)
+	var_0_5.AttachWeather(arg_160_1, arg_160_0._weahter)
+	arg_160_1:ActiveFreeze()
 
-	local var_159_0 = arg_159_1:GetFleetVO()
+	local var_160_0 = arg_160_1:GetFleetVO()
 
-	if var_159_0 then
-		var_159_0:ActiveFreezeUnit(arg_159_1)
+	if var_160_0 then
+		var_160_0:ActiveFreezeUnit(arg_160_1)
 	end
 end
 
-function var_0_9.GetFleetLegal(arg_160_0, arg_160_1, arg_160_2)
-	if arg_160_2 == SYSTEM_DUEL or arg_160_2 == SYSTEM_PERFORM or arg_160_2 == SYSTEM_SUB_ROUTINE or arg_160_2 == SYSTEM_CARDPUZZLE or arg_160_2 == SYSTEM_PROLOGUE or arg_160_2 == SYSTEM_DODGEM or arg_160_2 == SYSTEM_SIMULATION or arg_160_2 == SYSTEM_SUBMARINE_RUN or arg_160_2 == SYSTEM_DEBUG or arg_160_2 == SYSTEM_AIRFIGHT then
+function var_0_9.GetFleetLegal(arg_161_0, arg_161_1, arg_161_2)
+	if arg_161_2 == SYSTEM_DUEL or arg_161_2 == SYSTEM_PERFORM or arg_161_2 == SYSTEM_SUB_ROUTINE or arg_161_2 == SYSTEM_CARDPUZZLE or arg_161_2 == SYSTEM_PROLOGUE or arg_161_2 == SYSTEM_DODGEM or arg_161_2 == SYSTEM_SIMULATION or arg_161_2 == SYSTEM_SUBMARINE_RUN or arg_161_2 == SYSTEM_DEBUG or arg_161_2 == SYSTEM_AIRFIGHT then
 		return true
 	else
-		local var_160_0 = arg_160_0:GetFleetByIFF(arg_160_1)
+		local var_161_0 = arg_161_0:GetFleetByIFF(arg_161_1)
 
-		if #var_160_0:GetScoutList() == 0 or not var_160_0:GetFlagShip():IsAlive() then
+		if #var_161_0:GetScoutList() == 0 or not var_161_0:GetFlagShip():IsAlive() then
 			return false
 		else
 			return true

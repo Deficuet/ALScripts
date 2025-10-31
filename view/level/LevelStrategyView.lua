@@ -14,7 +14,7 @@ function var_0_0.OnDestroy(arg_3_0)
 	arg_3_0.onConfirm = nil
 	arg_3_0.onCancel = nil
 
-	pg.UIMgr.GetInstance():UnblurPanel(arg_3_0._tf, arg_3_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_3_0._tf, arg_3_0._parentTf)
 end
 
 function var_0_0.setCBFunc(arg_4_0, arg_4_1, arg_4_2)
@@ -23,14 +23,14 @@ function var_0_0.setCBFunc(arg_4_0, arg_4_1, arg_4_2)
 end
 
 function var_0_0.InitUI(arg_5_0)
-	arg_5_0.icon = arg_5_0:findTF("window/panel/item/icon_bg/icon")
-	arg_5_0.count = arg_5_0:findTF("window/panel/item/icon_bg/count")
-	arg_5_0.name = arg_5_0:findTF("window/panel/item/name")
-	arg_5_0.desc = arg_5_0:findTF("window/panel/item/desc")
-	arg_5_0.btnCancel = arg_5_0:findTF("window/panel/actions/cancel_button")
-	arg_5_0.btnUse = arg_5_0:findTF("window/panel/actions/use_button")
-	arg_5_0.btnBack = arg_5_0:findTF("top/btnBack")
-	arg_5_0.tips = arg_5_0:findTF("window/panel/tips")
+	arg_5_0.icon = arg_5_0._tf:Find("window/panel/item/icon_bg/icon")
+	arg_5_0.count = arg_5_0._tf:Find("window/panel/item/icon_bg/count")
+	arg_5_0.name = arg_5_0._tf:Find("window/panel/item/name")
+	arg_5_0.desc = arg_5_0._tf:Find("window/panel/item/desc")
+	arg_5_0.btnCancel = arg_5_0._tf:Find("window/panel/actions/cancel_button")
+	arg_5_0.btnUse = arg_5_0._tf:Find("window/panel/actions/use_button")
+	arg_5_0.btnBack = arg_5_0._tf:Find("top/btnBack")
+	arg_5_0.tips = arg_5_0._tf:Find("window/panel/tips")
 	arg_5_0.txSwitch = findTF(arg_5_0.btnUse, "switch")
 	arg_5_0.txUse = findTF(arg_5_0.btnUse, "use")
 end

@@ -50,8 +50,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				if var_1_0.closeFunc then
 					var_1_0.closeFunc()
 				end
-			end,
-			weight = LayerWeightConst.TOP_LAYER
+			end
 		})
 	end
 

@@ -9,7 +9,7 @@ function var_0_0.OnInit(arg_2_0)
 		arg_2_0:Hide()
 	end, SFX_PANEL)
 
-	arg_2_0.closeBtn = arg_2_0:findTF("adapt/window_overflow/top/btnBack")
+	arg_2_0.closeBtn = arg_2_0._tf:Find("adapt/window_overflow/top/btnBack")
 
 	onButton(arg_2_0, arg_2_0.closeBtn, function()
 		arg_2_0:Hide()
@@ -58,7 +58,7 @@ function var_0_0.showConformMsgBox(arg_6_0, arg_6_1)
 			local var_8_0 = getInputText(arg_6_0._confireInput)
 
 			if arg_6_0.key ~= tonumber(var_8_0) then
-				pg.TipsMgr:GetInstance():ShowTips(i18n("mail_input_erro"))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("mail_input_erro"))
 
 				return
 			end
@@ -94,7 +94,7 @@ function var_0_0.Show(arg_10_0, arg_10_1)
 end
 
 function var_0_0.Hide(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf, arg_11_0._parentTf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0._tf, arg_11_0._parentTf)
 	var_0_0.super.Hide(arg_11_0)
 	setInputText(arg_11_0._confireInput, "")
 end

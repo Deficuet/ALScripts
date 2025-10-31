@@ -45,8 +45,7 @@ function var_0_0.register(arg_1_0)
 			data = {
 				fromNewShip = true,
 				skillOnShip = arg_5_2,
-				skillId = arg_5_1,
-				LayerWeightMgr_weight = arg_1_0.viewComponent:getWeightFromData()
+				skillId = arg_5_1
 			}
 		}))
 	end)
@@ -88,8 +87,7 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 			viewComponent = ShipEvaluationLayer,
 			data = {
 				groupId = var_8_1,
-				showTrans = arg_8_0.showTrans,
-				LayerWeightMgr_weight = arg_8_0.viewComponent:getWeightFromData()
+				showTrans = arg_8_0.showTrans
 			}
 		}))
 	end

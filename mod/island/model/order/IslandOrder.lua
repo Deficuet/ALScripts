@@ -14,6 +14,7 @@ function var_0_0.Flush(arg_2_0, arg_2_1)
 	arg_2_0.tendency = arg_2_1.cur_select
 	arg_2_0.startTime = arg_2_1.start_time
 	arg_2_0.submitTime = arg_2_1.submit_time
+	arg_2_0.reduceTime = 0
 	arg_2_0.showFlag = arg_2_1.view_flag
 	arg_2_0.consumeList = {}
 
@@ -62,11 +63,13 @@ end
 function var_0_0.GetDisplayAwards(arg_10_0)
 	local var_10_0, var_10_1 = arg_10_0:GetAwardItemAndExp()
 
-	table.insert(var_10_0, {
-		id = 2,
-		type = DROP_TYPE_ISLAND_ITEM,
-		count = var_10_1
-	})
+	if var_10_1 > 0 then
+		table.insert(var_10_0, {
+			id = 2,
+			type = DROP_TYPE_ISLAND_ITEM,
+			count = var_10_1
+		})
+	end
 
 	return var_10_0
 end
@@ -128,36 +131,48 @@ function var_0_0.IsUrgency(arg_16_0)
 	return false
 end
 
-function var_0_0.IsFirm(arg_17_0)
+function var_0_0.IsActivity(arg_17_0)
 	return false
 end
 
-function var_0_0.GetTitle(arg_18_0)
+function var_0_0.IsFirm(arg_18_0)
+	return false
+end
+
+function var_0_0.GetTitle(arg_19_0)
 	return i18n("island_order_type_1")
 end
 
-function var_0_0.IsEmpty(arg_19_0)
-	return arg_19_0.showFlag == IslandOrderSlot.SHOW_FLAG_TOMORROW and arg_19_0:IsLoading()
+function var_0_0.IsEmpty(arg_20_0)
+	return arg_20_0.showFlag == IslandOrderSlot.SHOW_FLAG_TOMORROW and arg_20_0:IsLoading()
 end
 
-function var_0_0.IsLoading(arg_20_0)
-	return pg.TimeMgr.GetInstance():GetServerTime() < arg_20_0.submitTime
+function var_0_0.IsLoading(arg_21_0)
+	return pg.TimeMgr.GetInstance():GetServerTime() < arg_21_0:GetCanSubmitTime()
 end
 
-function var_0_0.CanReplace(arg_21_0)
-	return not arg_21_0:IsEmpty() and not arg_21_0:IsLoading()
+function var_0_0.CanReplace(arg_22_0)
+	return not arg_22_0:IsEmpty() and not arg_22_0:IsLoading()
 end
 
-function var_0_0.GetTotalTime(arg_22_0)
-	return arg_22_0.submitTime - arg_22_0.startTime
+function var_0_0.GetTotalTime(arg_23_0)
+	return arg_23_0.submitTime - arg_23_0.startTime
 end
 
-function var_0_0.GetDisappearTime(arg_23_0)
+function var_0_0.GetDisappearTime(arg_24_0)
 	return -1
 end
 
-function var_0_0.GetCanSubmitTime(arg_24_0)
-	return arg_24_0.submitTime
+function var_0_0.GetCanSubmitTime(arg_25_0)
+	return arg_25_0.submitTime - arg_25_0.reduceTime
+end
+
+function var_0_0.SetReduceTime(arg_26_0, arg_26_1)
+	arg_26_0.reduceTime = arg_26_1
+end
+
+function var_0_0.AddReduceTime(arg_27_0, arg_27_1)
+	arg_27_0.reduceTime = arg_27_0.reduceTime + arg_27_1
 end
 
 return var_0_0

@@ -9,7 +9,6 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 	pg.ConnectionMgr.GetInstance():Send(21619, {
 		ship_id = var_1_1,
-		skin_id = var_1_2,
 		color_id = var_1_3
 	}, 21620, function(arg_2_0)
 		if arg_2_0.result == 0 then

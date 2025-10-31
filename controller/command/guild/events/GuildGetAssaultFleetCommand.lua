@@ -45,7 +45,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			var_1_1:updateGuild(var_2_0)
 			arg_1_0:sendNotification(GAME.GUILD_GET_ASSAULT_FLEET_DONE)
-			pg.ShipFlagMgr:GetInstance():UpdateFlagShips("inGuildEvent")
+			pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inGuildEvent")
 
 			if var_1_0 then
 				var_1_0()

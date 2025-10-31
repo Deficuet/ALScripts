@@ -16,10 +16,10 @@ local var_0_2 = {
 }
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.countTF = arg_1_0:findTF("count", arg_1_0.bg)
-	arg_1_0.item = arg_1_0:findTF("item", arg_1_0.bg)
-	arg_1_0.items = arg_1_0:findTF("items", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.countTF = arg_1_0.bg:Find("count")
+	arg_1_0.item = arg_1_0.bg:Find("item")
+	arg_1_0.items = arg_1_0.bg:Find("items")
 	arg_1_0.itemList = UIItemList.New(arg_1_0.items, arg_1_0.item)
 end
 
@@ -45,7 +45,7 @@ function var_0_0.OnFirstFlush(arg_3_0)
 		assert(var_4_1, "without this task by id: " .. var_4_0)
 
 		if arg_4_0 == UIItemList.EventInit then
-			local var_4_2 = arg_3_0:findTF("item", arg_4_2)
+			local var_4_2 = arg_4_2:Find("item")
 
 			arg_4_2.anchoredPosition = Vector2(var_0_2[arg_4_1][1], var_0_2[arg_4_1][2])
 
@@ -62,8 +62,8 @@ function var_0_0.OnFirstFlush(arg_3_0)
 			end, SFX_PANEL)
 		elseif arg_4_0 == UIItemList.EventUpdate then
 			local var_4_5 = var_4_1:getTaskStatus()
-			local var_4_6 = arg_3_0:findTF("got", arg_4_2)
-			local var_4_7 = arg_3_0:findTF("get", arg_4_2)
+			local var_4_6 = arg_4_2:Find("got")
+			local var_4_7 = arg_4_2:Find("get")
 
 			setActive(var_4_7, var_4_5 == 1 and arg_3_0.remainCnt > 0)
 			setActive(var_4_6, var_4_5 == 2)
@@ -114,25 +114,13 @@ function var_0_0.OnUpdateFlush(arg_7_0)
 	arg_7_0.itemList:align(#arg_7_0.taskList)
 end
 
-function var_0_0.OnLoadLayers(arg_8_0)
+function var_0_0.OnShowFlush(arg_8_0)
 	arg_8_0.itemList:each(function(arg_9_0, arg_9_1)
-		setActive(arg_9_1, false)
+		setActive(arg_9_1, true)
 	end)
 end
 
-function var_0_0.OnRemoveLayers(arg_10_0)
-	arg_10_0.itemList:each(function(arg_11_0, arg_11_1)
-		setActive(arg_11_1, true)
-	end)
-end
-
-function var_0_0.OnShowFlush(arg_12_0)
-	arg_12_0.itemList:each(function(arg_13_0, arg_13_1)
-		setActive(arg_13_1, true)
-	end)
-end
-
-function var_0_0.OnDestroy(arg_14_0)
+function var_0_0.OnDestroy(arg_10_0)
 	return
 end
 

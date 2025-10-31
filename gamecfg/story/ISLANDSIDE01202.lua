@@ -1,0 +1,92 @@
+return {
+	id = "ISLANDSIDE01202",
+	mode = 10,
+	map = {
+		{
+			100400,
+			10010040
+		}
+	},
+	look_weight = {
+		{
+			0.7,
+			0
+		},
+		{
+			0.3,
+			0
+		}
+	},
+	scripts = {
+		{
+			animation = "think",
+			characterId = 100400,
+			subName = "Manager of the Farm",
+			say = "So Lusitania's shears broke, and she'd like to borrow mine?",
+			face2Face = {
+				{
+					0,
+					100400
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Farm",
+			characterId = 100400,
+			say = "Well, she can certainly borrow them, but she should've bought new ones. I said she should've just the other day.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Farm",
+			characterId = 100400,
+			say = "She's been quite the busy bee lately, so maybe she didn't have the time...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			characterId = 100400,
+			subName = "Manager of the Farm",
+			say = "Here. The shears have rather sharp blades, so be very careful with them.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "Noted. Thanks for the help.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Farm",
+			characterId = 100400,
+			say = "Also, once she's done with them, please return them.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "talk",
+			characterId = 0,
+			say = "Don't worry. I'll tell her to do that.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		}
+	}
+}

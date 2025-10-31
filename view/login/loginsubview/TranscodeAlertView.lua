@@ -14,10 +14,10 @@ end
 
 function var_0_0.OnInit(arg_4_0)
 	arg_4_0.transcodeAlert = arg_4_0._tf
-	arg_4_0.tcSureBtn = arg_4_0:findTF("transcode_sure", arg_4_0.transcodeAlert)
-	arg_4_0.uidTxt = arg_4_0:findTF("uid_input_txt", arg_4_0.transcodeAlert):GetComponent(typeof(InputField))
-	arg_4_0.transcodeTxt = arg_4_0:findTF("transcode_input_txt", arg_4_0.transcodeAlert):GetComponent(typeof(InputField))
-	arg_4_0.tcDesc = arg_4_0:findTF("desc", arg_4_0.transcodeAlert)
+	arg_4_0.tcSureBtn = arg_4_0.transcodeAlert:Find("transcode_sure")
+	arg_4_0.uidTxt = arg_4_0.transcodeAlert:Find("uid_input_txt"):GetComponent(typeof(InputField))
+	arg_4_0.transcodeTxt = arg_4_0.transcodeAlert:Find("transcode_input_txt"):GetComponent(typeof(InputField))
+	arg_4_0.tcDesc = arg_4_0.transcodeAlert:Find("desc")
 
 	setText(arg_4_0.tcDesc, i18n("transcode_desc"))
 	arg_4_0:InitEvent()

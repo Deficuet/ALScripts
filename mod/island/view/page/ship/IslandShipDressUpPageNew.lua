@@ -34,10 +34,14 @@ function var_0_0.Sort2CN(arg_2_0)
 end
 
 function var_0_0.OnLoaded(arg_3_0)
-	arg_3_0.rightPanel = arg_3_0:findTF("adapt/right_panel")
+	arg_3_0.rightPanel = arg_3_0._tf:Find("adapt/right_panel")
 	arg_3_0.togglePanel = arg_3_0.rightPanel:Find("toggles/select_toggles")
-	arg_3_0.saveBtn = arg_3_0:findTF("adapt/save")
-	arg_3_0.restBtn = arg_3_0:findTF("adapt/reset")
+	arg_3_0.saveBtn = arg_3_0._tf:Find("adapt/save")
+	arg_3_0.restBtn = arg_3_0._tf:Find("adapt/reset")
+
+	setText(arg_3_0.saveBtn:Find("Text"), i18n("word_save"))
+	setText(arg_3_0.restBtn:Find("Text"), i18n("island_word_reset"))
+
 	arg_3_0.toggles = {
 		arg_3_0.togglePanel:Find("hair"),
 		arg_3_0.togglePanel:Find("face"),
@@ -68,6 +72,7 @@ function var_0_0.OnLoaded(arg_3_0)
 	arg_3_0.skinRect = arg_3_0.skinTF:Find("dress_container/dress"):GetComponent("LScrollRect")
 	arg_3_0.skinRectTF = arg_3_0.skinTF:Find("dress_container")
 	arg_3_0.skinEmpty = arg_3_0.skinTF:Find("skinEmpty")
+	arg_3_0.skinEmptyTips = arg_3_0.skinEmpty:Find("layout/empty_tips")
 
 	function arg_3_0.skinRect.onInitItem(arg_6_0)
 		arg_3_0:OnSkinInitItem(arg_6_0)
@@ -81,576 +86,695 @@ function var_0_0.OnLoaded(arg_3_0)
 	arg_3_0.orderBtn = arg_3_0.sortBtn:Find("icon")
 	arg_3_0.orderTxt = arg_3_0.sortBtn:Find("Text_1"):GetComponent(typeof(Text))
 	arg_3_0.sortPage = IslandShipDressUpSortPage.New(arg_3_0._tf)
-	arg_3_0.dressUpConfireBtn = arg_3_0:findTF("confire")
-	arg_3_0.colorList = arg_3_0:findTF("adapt/left_color_panel/colorList")
-	arg_3_0.colorItem = arg_3_0:findTF("adapt/left_color_panel/colorList/item")
-	arg_3_0.color_listPanel = arg_3_0:findTF("adapt/left_color_panel")
-	arg_3_0.color_bg_unlock = arg_3_0:findTF("adapt/left_color_panel/bg1")
-	arg_3_0.color_bg_locked = arg_3_0:findTF("adapt/left_color_panel/bglocked")
+	arg_3_0.dressUpConfireBtn = arg_3_0._tf:Find("adapt/confire")
+	arg_3_0.dressUpConfireText = arg_3_0._tf:Find("adapt/confire/Text")
+
+	setText(arg_3_0.dressUpConfireText, i18n("island_dress_initial_makesure"))
+
+	arg_3_0.colorList = arg_3_0._tf:Find("adapt/left_color_panel/colorList")
+	arg_3_0.colorItem = arg_3_0._tf:Find("adapt/left_color_panel/colorList/item")
+	arg_3_0.color_listPanel = arg_3_0._tf:Find("adapt/left_color_panel")
+	arg_3_0.color_bg_unlock = arg_3_0._tf:Find("adapt/left_color_panel/bg1")
+	arg_3_0.color_bg_locked = arg_3_0._tf:Find("adapt/left_color_panel/bglocked")
 	arg_3_0.color_lockedBtn = arg_3_0.color_bg_locked:Find("unlockedBtn")
 	arg_3_0.color_cost_item_icon = arg_3_0.color_bg_locked:Find("itemcost")
 	arg_3_0.color_cost_item_count = arg_3_0.color_bg_locked:Find("cost_num")
 
 	setActive(arg_3_0.sortBtn, false)
+	setText(arg_3_0.color_bg_locked:Find("tips"), i18n("island_dresscolorunlock_tips"))
+	setText(arg_3_0.color_lockedBtn:Find("Text"), i18n("island_dresscolorunlock"))
 
 	arg_3_0.colorItemUIList = UIItemList.New(arg_3_0.colorList, arg_3_0.colorItem)
-	arg_3_0.hatTF = arg_3_0:findTF("adapt/hat")
+	arg_3_0.hatTF = arg_3_0._tf:Find("adapt/hat")
 	arg_3_0.hatOn = arg_3_0.hatTF:Find("hatOn")
 	arg_3_0.hatOff = arg_3_0.hatTF:Find("hatOff")
 end
 
-function var_0_0.ClickDressCardItem(arg_8_0, arg_8_1)
-	local var_8_0 = table.contains(IslandShipDressHelperNew.CommanderCustom, arg_8_0.dressType)
+function var_0_0.CheckDressIsExclusive(arg_8_0, arg_8_1)
+	local var_8_0 = pg.island_dress_template[arg_8_1]
+	local var_8_1 = var_8_0.exclusive_skin
 
-	if arg_8_0.curDressTypeDataDic[arg_8_0.dressType] == arg_8_1 then
-		if var_8_0 then
-			return
-		else
-			arg_8_1 = 0
-		end
-	end
-
-	arg_8_0.curDressTypeDataDic[arg_8_0.dressType] = arg_8_1
-
-	local var_8_1 = getProxy(IslandProxy):GetIsland()
-	local var_8_2 = (function()
-		local var_9_0 = 0
-
-		if arg_8_1 ~= 0 and arg_8_0.shipId == 0 then
-			var_9_0 = var_8_1:GetDressUpAgency():GetCurrentColorByDressId(arg_8_1)
-			arg_8_0.dressColorDic[arg_8_1] = var_9_0
-		end
-
-		return var_9_0
-	end)()
-
-	arg_8_0.shipDressHelper:ChangeDressByType(arg_8_0.dressType, {
-		id = arg_8_1,
-		colorId = var_8_2
-	})
-
-	local var_8_3 = #arg_8_0.dressList
-
-	arg_8_0.dressRect:SetTotalCount(var_8_3, 0)
-	arg_8_0:UpdateHatDisplay()
-	arg_8_0:UpdateColorList(true)
-end
-
-function var_0_0.UpdateHatToggleDisplay(arg_10_0, arg_10_1)
-	setActive(arg_10_0.hatOn, not arg_10_1)
-	setActive(arg_10_0.hatOff, arg_10_1)
-end
-
-function var_0_0.UpdateHatDisplay(arg_11_0)
-	if arg_11_0.dressType ~= IslandShipDressHelperNew.DressType.Body then
-		setActive(arg_11_0.hatTF, false)
-
-		return
-	end
-
-	local var_11_0 = arg_11_0.curDressTypeDataDic[arg_11_0.dressType]
-
-	if not var_11_0 or var_11_0 == 0 then
-		setActive(arg_11_0.hatTF, false)
-
-		return
-	end
-
-	local var_11_1 = (pg.island_dress_template.get_id_list_by_related_dress[var_11_0] or {})[1]
-
-	if not var_11_1 then
-		setActive(arg_11_0.hatTF, false)
-
-		return
-	end
-
-	setActive(arg_11_0.hatTF, true)
-
-	local var_11_2 = pg.island_dress_template[var_11_1].type
-	local var_11_3 = getProxy(IslandProxy):GetIsland():GetDressUpAgency():GetBodyHatIsOn(var_11_0, var_11_1)
-
-	arg_11_0.shipDressHelper:ChangeDressByType(var_11_2, {
-		id = var_11_3 and var_11_1 or 0
-	})
-
-	arg_11_0.curDressTypeDataDic[var_11_2] = var_11_3 and var_11_1 or 0
-
-	arg_11_0:UpdateHatToggleDisplay(var_11_3)
-	onButton(arg_11_0, arg_11_0.hatOn, function()
-		if arg_11_0.curDressTypeDataDic[var_11_2] ~= var_11_1 then
-			arg_11_0.curDressTypeDataDic[var_11_2] = var_11_1
-
-			arg_11_0.shipDressHelper:ChangeDressByType(var_11_2, {
-				id = var_11_1
-			})
-			arg_11_0:UpdateHatToggleDisplay(true)
-		end
-	end)
-	onButton(arg_11_0, arg_11_0.hatOff, function()
-		if arg_11_0.curDressTypeDataDic[var_11_2] ~= 0 then
-			arg_11_0.curDressTypeDataDic[var_11_2] = 0
-
-			arg_11_0.shipDressHelper:ChangeDressByType(var_11_2, {
-				id = 0
-			})
-			arg_11_0:UpdateHatToggleDisplay(false)
-		end
-	end)
-end
-
-function var_0_0.OnDressInitItem(arg_14_0, arg_14_1)
-	local var_14_0 = IslandDressCard.New(arg_14_1)
-
-	arg_14_0.dressCards[arg_14_1] = var_14_0
-end
-
-function var_0_0.OnDressUpdateItem(arg_15_0, arg_15_1, arg_15_2)
-	local var_15_0 = arg_15_0.dressCards[arg_15_2]
-
-	if not var_15_0 then
-		arg_15_0:OnDressInitItem(arg_15_2)
-
-		var_15_0 = arg_15_0.dressCards[arg_15_2]
-	end
-
-	local var_15_1 = arg_15_0.dressList[arg_15_1 + 1]
-
-	setActive(var_15_0.canSendTF, not var_15_1.hasSend)
-
-	local var_15_2 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
-
-	setText(var_15_0.ownNum, string.format("×%d", var_15_2:GetOwnDressCountByDressId(var_15_1.id)))
-
-	local var_15_3
-	local var_15_4 = var_15_1.id
-	local var_15_5 = tf(arg_15_2)
-
-	if var_15_1.hasSend then
-		onButton(arg_15_0, var_15_5, function()
-			arg_15_0:ClickDressCardItem(var_15_4)
-		end)
-
-		var_15_3 = arg_15_0.curDressTypeDataDic[arg_15_0.dressType]
-	else
-		onButton(arg_15_0, var_15_5, function()
-			if var_15_2:GetHasDressData(var_15_4).read == 0 then
-				local var_17_0 = {
-					var_15_4
-				}
-
-				pg.m02:sendNotification(GAME.ISLAND_SEND_ROLE_DRESS_READ, {
-					dress_List = var_17_0
-				})
+	if var_8_1 ~= "" then
+		for iter_8_0, iter_8_1 in ipairs(var_8_1) do
+			if iter_8_1 == arg_8_0.curSkinId then
+				return false, true
 			end
+		end
+	end
 
-			arg_15_0:ShowMsgBox({
-				content = "是否赠送？",
-				type = IslandMsgBox.TYPE_SEND_DRESS,
-				onYes = function()
-					pg.m02:sendNotification(GAME.ISLAND_SEND_ROLE_DRESS, {
-						ship_id = arg_15_0.shipId,
-						dress_id = var_15_4
-					})
-				end,
-				onNo = function()
-					return
-				end,
-				configId = var_15_4
+	local var_8_2 = var_8_0.exclusive_default_skin
+	local var_8_3 = arg_8_0.curSkinId == nil or arg_8_0.curSkinId == 0
+
+	if var_8_2 ~= "" and var_8_3 then
+		for iter_8_2, iter_8_3 in ipairs(var_8_2) do
+			if iter_8_3 == arg_8_0.shipId then
+				return true, false
+			end
+		end
+	end
+
+	return false, false
+end
+
+function var_0_0.ClickDressCardItem(arg_9_0, arg_9_1)
+	if arg_9_0.shipId ~= 0 then
+		if arg_9_1.needRedDot then
+			local var_9_0 = {}
+
+			table.insert(var_9_0, arg_9_1.id)
+			pg.m02:sendNotification(GAME.ISLAND_SEND_ROLE_DRESS_READ, {
+				dress_List = var_9_0
 			})
-		end)
-	end
+		end
 
-	local var_15_6 = var_15_3 ~= 0 and var_15_3 or nil
+		local var_9_1, var_9_2 = arg_9_0:CheckDressIsExclusive(arg_9_1.id)
 
-	var_15_0:Update(var_15_4, var_15_6, var_15_1.hasSend)
-end
+		if var_9_2 or var_9_1 then
+			local var_9_3 = pg.island_dress_template[arg_9_1.id]
 
-function var_0_0.OnSkinInitItem(arg_20_0, arg_20_1)
-	local var_20_0 = IslandSkinCard.New(arg_20_1)
+			if var_9_1 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_mutually_exclusive1", var_9_3.name))
 
-	arg_20_0.skinCards[arg_20_1] = var_20_0
-end
+				return
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_mutually_exclusive1", var_9_3.name))
 
-function var_0_0.OnSkinUpdateItem(arg_21_0, arg_21_1, arg_21_2)
-	local var_21_0 = arg_21_0.skinCards[arg_21_2]
-
-	if not var_21_0 then
-		arg_21_0:OnSkinInitItem(arg_21_2)
-
-		var_21_0 = arg_21_0.skinCards[arg_21_2]
-	end
-
-	local var_21_1 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
-	local var_21_2 = arg_21_0.skinList[arg_21_1 + 1]
-	local var_21_3 = tf(arg_21_2)
-	local var_21_4 = #pg.island_skin_colordiff_template.get_id_list_by_skin_group[var_21_2] or {}
-
-	setActive(var_21_3:Find("changeColor"), var_21_4 > 0)
-
-	local var_21_5 = var_21_1:CheckSkinIsOwned(var_21_2)
-	local var_21_6 = arg_21_0.curSkinId
-	local var_21_7 = var_21_6 ~= 0 and var_21_6 or nil
-
-	var_21_0:Update(var_21_2, var_21_7, var_21_5)
-	onButton(arg_21_0, var_21_3, function()
-		arg_21_0:ClickSkinCardItem(var_21_2)
-	end)
-	onButton(arg_21_0, var_21_0.buyTF, function()
-		local var_23_0 = pg.island_skin_template[var_21_2]
-		local var_23_1 = {
-			{
-				value2 = 1,
-				key = var_23_0.shop_id,
-				value1 = var_23_0.shop_goods_id
-			}
-		}
-		local var_23_2 = pg.island_shop_goods[var_23_0.shop_goods_id]
-
-		arg_21_0:ShowMsgBox({
-			type = IslandMsgBox.TYPE_COMMON,
-			content = i18n("island_dress_skin_buy", "钻石x" .. var_23_2.resource_consume[3], var_23_0.name),
-			onYes = function()
-				arg_21_0:emit(IslandMediator.BUY_COMMODITY, var_23_1)
-			end,
-			onNo = function()
 				return
 			end
+		end
+
+		local var_9_4 = arg_9_0.curShipDressTypeDataDic[arg_9_0.dressType]
+
+		if var_9_4:CheckIsEqualByShipIdAndDressId(arg_9_1.holdedShipId or 0, arg_9_1.id) then
+			var_9_4:SetShipAndDressId(nil, nil)
+		else
+			var_9_4:SetShipAndDressId(arg_9_1.holdedShipId or 0, arg_9_1.id)
+		end
+
+		arg_9_0.shipDressHelper:ChangeDressByType(arg_9_0.dressType, {
+			colorId = 0,
+			id = var_9_4.dress_id or 0
 		})
+
+		local var_9_5 = #arg_9_0.dressList
+
+		arg_9_0.dressRect:SetTotalCount(var_9_5, 0)
+
+		return
+	end
+
+	if arg_9_1.needRedDot then
+		local var_9_6 = {}
+
+		table.insert(var_9_6, arg_9_1.id)
+		pg.m02:sendNotification(GAME.ISLAND_SEND_COMMANDER_DRESS_READ, {
+			dress_List = var_9_6
+		})
+	end
+
+	local var_9_7 = arg_9_1.id
+	local var_9_8 = table.contains(IslandShipDressHelperNew.CommanderCustom, arg_9_0.dressType)
+
+	if arg_9_0.curDressTypeDataDic[arg_9_0.dressType] == var_9_7 then
+		if var_9_8 then
+			return
+		else
+			var_9_7 = 0
+		end
+	end
+
+	arg_9_0.curDressTypeDataDic[arg_9_0.dressType] = var_9_7
+
+	local var_9_9 = (function()
+		local var_10_0 = 0
+
+		if var_9_7 ~= 0 and arg_9_0.shipId == 0 then
+			var_10_0 = arg_9_0.dressUpAgency:GetCurrentColorByDressId(var_9_7)
+			arg_9_0.dressColorDic[var_9_7] = var_10_0
+		end
+
+		return var_10_0
+	end)()
+
+	arg_9_0.shipDressHelper:ChangeDressByType(arg_9_0.dressType, {
+		id = var_9_7,
+		colorId = var_9_9
+	})
+
+	local var_9_10 = #arg_9_0.dressList
+
+	arg_9_0.dressRect:SetTotalCount(var_9_10, 0)
+	arg_9_0:UpdateHatDisplay()
+	arg_9_0:UpdateColorList(true)
+end
+
+function var_0_0.UpdateHatToggleDisplay(arg_11_0, arg_11_1)
+	setActive(arg_11_0.hatOn, not arg_11_1)
+	setActive(arg_11_0.hatOff, arg_11_1)
+end
+
+function var_0_0.UpdateHatDisplay(arg_12_0)
+	if arg_12_0.dressType ~= IslandShipDressHelperNew.DressType.Body then
+		setActive(arg_12_0.hatTF, false)
+
+		return
+	end
+
+	local var_12_0 = arg_12_0.curDressTypeDataDic[arg_12_0.dressType]
+
+	if not var_12_0 or var_12_0 == 0 then
+		setActive(arg_12_0.hatTF, false)
+
+		return
+	end
+
+	local var_12_1 = (pg.island_dress_template.get_id_list_by_related_dress[var_12_0] or {})[1]
+
+	if not var_12_1 then
+		setActive(arg_12_0.hatTF, false)
+
+		return
+	end
+
+	setActive(arg_12_0.hatTF, true)
+
+	local var_12_2 = pg.island_dress_template[var_12_1].type
+	local var_12_3 = arg_12_0.dressUpAgency:GetBodyHatIsOn(var_12_0, var_12_1)
+
+	arg_12_0.shipDressHelper:ChangeDressByType(var_12_2, {
+		id = var_12_3 and var_12_1 or 0
+	})
+
+	arg_12_0.curDressTypeDataDic[var_12_2] = var_12_3 and var_12_1 or 0
+
+	arg_12_0:UpdateHatToggleDisplay(var_12_3)
+	onButton(arg_12_0, arg_12_0.hatOn, function()
+		if arg_12_0.curDressTypeDataDic[var_12_2] ~= var_12_1 then
+			arg_12_0.curDressTypeDataDic[var_12_2] = var_12_1
+
+			arg_12_0.shipDressHelper:ChangeDressByType(var_12_2, {
+				id = var_12_1
+			})
+			arg_12_0:UpdateHatToggleDisplay(true)
+		end
+	end)
+	onButton(arg_12_0, arg_12_0.hatOff, function()
+		if arg_12_0.curDressTypeDataDic[var_12_2] ~= 0 then
+			arg_12_0.curDressTypeDataDic[var_12_2] = 0
+
+			arg_12_0.shipDressHelper:ChangeDressByType(var_12_2, {
+				id = 0
+			})
+			arg_12_0:UpdateHatToggleDisplay(false)
+		end
 	end)
 end
 
-function var_0_0.ChangeModelBySkinAndSkinColor(arg_26_0)
-	local var_26_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_26_0.shipId):GetModelBySkinAndColorId(arg_26_0.curSkinId, arg_26_0.curskinColorId)
+function var_0_0.OnDressInitItem(arg_15_0, arg_15_1)
+	local var_15_0 = IslandDressCard.New(arg_15_1)
 
-	arg_26_0.shipDressHelper:ChangeModelTransfromByUnitId(var_26_0)
+	arg_15_0.dressCards[arg_15_1] = var_15_0
 end
 
-function var_0_0.ClickSkinCardItem(arg_27_0, arg_27_1)
-	if arg_27_1 == arg_27_0.curSkinId then
-		arg_27_0.curSkinId = 0
+function var_0_0.OnDressUpdateItem(arg_16_0, arg_16_1, arg_16_2)
+	local var_16_0 = arg_16_0.dressCards[arg_16_2]
+
+	if not var_16_0 then
+		arg_16_0:OnDressInitItem(arg_16_2)
+
+		var_16_0 = arg_16_0.dressCards[arg_16_2]
+	end
+
+	local var_16_1 = arg_16_0.dressList[arg_16_1 + 1]
+
+	setActive(var_16_0.canSendTF, false)
+
+	local var_16_2 = var_16_1.ownCount ~= nil
+
+	setActive(var_16_0.ownNumTF, var_16_2)
+
+	if var_16_2 then
+		setText(var_16_0.ownNumText, "×" .. var_16_1.ownCount)
+	end
+
+	local var_16_3 = var_16_1.holdedShipId ~= nil
+
+	setActive(var_16_0.shipHoldTF, var_16_3)
+
+	if var_16_3 then
+		local var_16_4 = IslandShip.StaticGetPrefab(var_16_1.holdedShipId)
+
+		GetImageSpriteFromAtlasAsync("island/IslandShipIcon/" .. var_16_4, "", var_16_0.shipIcon)
+	end
+
+	setActive(var_16_0.redDot, var_16_1.needRedDot)
+
+	local var_16_5
+	local var_16_6 = var_16_1.id
+	local var_16_7 = tf(arg_16_2)
+
+	onButton(arg_16_0, var_16_7, function()
+		arg_16_0:ClickDressCardItem(var_16_1)
+	end)
+
+	local var_16_8 = false
+
+	if arg_16_0.shipId == 0 then
+		local var_16_9 = arg_16_0.curDressTypeDataDic[arg_16_0.dressType]
+
+		var_16_8 = (var_16_9 ~= 0 and var_16_9 or nil) == var_16_1.id
+
+		setActive(var_16_0.exclusionTF, false)
 	else
-		arg_27_0.curSkinId = arg_27_1
+		local var_16_10, var_16_11 = arg_16_0:CheckDressIsExclusive(var_16_1.id)
+		local var_16_12 = var_16_10 or var_16_11
+
+		setActive(var_16_0.exclusionTF, var_16_12)
+
+		var_16_8 = arg_16_0.curShipDressTypeDataDic[arg_16_0.dressType]:CheckIsEqualByShipIdAndDressId(var_16_1.holdedShipId or 0, var_16_1.id)
 	end
 
-	arg_27_0:UpdateSkinList()
-
-	if arg_27_0.curSkinId ~= 0 then
-		arg_27_0.curskinColorId = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetCurrentSkinColorByShipId(arg_27_0.shipId, arg_27_0.curSkinId)
-	end
-
-	arg_27_0:ChangeModelBySkinAndSkinColor()
-	arg_27_0:UpdateColorList()
-	arg_27_0:UpdateHatDisplay()
+	var_16_0:Update(var_16_6, var_16_8)
 end
 
-function var_0_0.ClearSkinSelected(arg_28_0, arg_28_1)
+function var_0_0.OnSkinInitItem(arg_18_0, arg_18_1)
+	local var_18_0 = IslandSkinCard.New(arg_18_1)
+
+	arg_18_0.skinCards[arg_18_1] = var_18_0
+end
+
+function var_0_0.OnSkinUpdateItem(arg_19_0, arg_19_1, arg_19_2)
+	local var_19_0 = arg_19_0.skinCards[arg_19_2]
+
+	if not var_19_0 then
+		arg_19_0:OnSkinInitItem(arg_19_2)
+
+		var_19_0 = arg_19_0.skinCards[arg_19_2]
+	end
+
+	local var_19_1 = arg_19_0.skinList[arg_19_1 + 1]
+	local var_19_2 = tf(arg_19_2)
+	local var_19_3 = #pg.island_skin_colordiff_template.get_id_list_by_skin_group[var_19_1] or {}
+
+	setActive(var_19_2:Find("changeColor"), var_19_3 > 0)
+
+	local var_19_4 = arg_19_0.curSkinId
+	local var_19_5 = var_19_4 ~= 0 and var_19_4 or nil
+
+	var_19_0:Update(var_19_1, var_19_5)
+	onButton(arg_19_0, var_19_2, function()
+		arg_19_0:ClickSkinCardItem(var_19_1)
+	end)
+end
+
+function var_0_0.ChangeModelBySkinAndSkinColor(arg_21_0)
+	local var_21_0 = arg_21_0.characterAgency:GetShipById(arg_21_0.shipId)
+	local var_21_1 = {}
+
+	if arg_21_0.curSkinId ~= 0 then
+		local var_21_2 = {
+			IslandShipDressHelperNew.DressType.BackDecorate,
+			IslandShipDressHelperNew.DressType.Flotage,
+			IslandShipDressHelperNew.DressType.Footprint
+		}
+
+		for iter_21_0, iter_21_1 in ipairs(var_21_2) do
+			local var_21_3 = arg_21_0.curShipDressTypeDataDic[iter_21_1]
+
+			if var_21_3 and var_21_3.dress_id and var_21_3.dress_id ~= 0 then
+				local var_21_4 = pg.island_dress_template[var_21_3.dress_id].exclusive_skin
+				local var_21_5 = var_21_4 == "" and {} or var_21_4
+
+				for iter_21_2, iter_21_3 in ipairs(var_21_5) do
+					if iter_21_3 == arg_21_0.curSkinId then
+						table.insert(var_21_1, var_21_3.dress_id)
+						var_21_3:SetShipAndDressId(nil, nil)
+					end
+				end
+			end
+		end
+
+		if #var_21_1 > 0 then
+			local var_21_6 = ""
+
+			for iter_21_4, iter_21_5 in ipairs(var_21_1) do
+				local var_21_7 = pg.island_dress_template[iter_21_5].name
+
+				if iter_21_4 > 1 then
+					var_21_7 = "," .. var_21_7
+				end
+
+				var_21_6 = var_21_6 .. var_21_7
+			end
+
+			pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_mutually_exclusive", var_21_6))
+		end
+	end
+
+	local var_21_8 = var_21_0:GetModelBySkinAndColorId(arg_21_0.curSkinId, arg_21_0.curskinColorId)
+
+	if #var_21_1 > 0 then
+		arg_21_0.shipDressHelper:ChangeModelTransfromByUnitIdAndChangeDress(var_21_8, var_21_1, nil, nil, true)
+	else
+		arg_21_0.shipDressHelper:ChangeModelTransfromByUnitId(var_21_8, nil, true)
+	end
+end
+
+function var_0_0.ClickSkinCardItem(arg_22_0, arg_22_1)
+	if arg_22_1 == arg_22_0.curSkinId then
+		arg_22_0.curSkinId = 0
+	else
+		arg_22_0.curSkinId = arg_22_1
+	end
+
+	arg_22_0:UpdateSkinList()
+
+	if arg_22_0.curSkinId ~= 0 then
+		arg_22_0.curskinColorId = arg_22_0.characterAgency:GetCurrentSkinColorByShipId(arg_22_0.shipId, arg_22_0.curSkinId)
+	end
+
+	arg_22_0:ChangeModelBySkinAndSkinColor()
+	arg_22_0:UpdateColorList()
+	arg_22_0:UpdateHatDisplay()
+end
+
+function var_0_0.ClearSkinSelected(arg_23_0, arg_23_1)
 	return
 end
 
-function var_0_0.AddListeners(arg_29_0)
-	arg_29_0:AddListener(GAME.ISLAND_SEND_ROLE_DRESS_DONE, arg_29_0.OnSendRoleDressDone)
-	arg_29_0:AddListener(GAME.ISLAND_SEND_ROLE_DRESS_READ_DONE, arg_29_0.OnSendRoleDressReadDone)
-	arg_29_0:AddListener(GAME.ISLAND_BUY_ROLE_SKIN_COLOR_DONE, arg_29_0.OnBuyRoleSkinColorDone)
-	arg_29_0:AddListener(GAME.ISLAND_BUY_ROLE_DRESS_COLOR_DONE, arg_29_0.OnBuyRoleDressColorDone)
-	arg_29_0:AddListener(GAME.ISLAND_SHOP_OP_DONE, arg_29_0.GetBuySkindDone)
+function var_0_0.AddListeners(arg_24_0)
+	arg_24_0:AddListener(GAME.ISLAND_CHANGE_ROLE_DRESS_DONE, arg_24_0.OnChangeRoleDressDone)
+	arg_24_0:AddListener(GAME.ISLAND_SEND_ROLE_DRESS_READ_DONE, arg_24_0.OnSendRoleDressReadDone)
+	arg_24_0:AddListener(GAME.ISLAND_SEND_COMMANDER_DRESS_READ_DONE, arg_24_0.OnSendRoleDressReadDone)
+	arg_24_0:AddListener(GAME.ISLAND_BUY_ROLE_SKIN_COLOR_DONE, arg_24_0.OnBuyRoleSkinColorDone)
+	arg_24_0:AddListener(GAME.ISLAND_BUY_ROLE_DRESS_COLOR_DONE, arg_24_0.OnBuyRoleDressColorDone)
+	arg_24_0:AddListener(GAME.ISLAND_SHOP_OP_DONE, arg_24_0.GetBuySkindDone)
 end
 
-function var_0_0.RemoveListeners(arg_30_0)
-	arg_30_0:RemoveListener(GAME.ISLAND_SEND_ROLE_DRESS_DONE, arg_30_0.OnSendRoleDressDone)
-	arg_30_0:RemoveListener(GAME.ISLAND_SEND_ROLE_DRESS_READ_DONE, arg_30_0.OnSendRoleDressReadDone)
-	arg_30_0:RemoveListener(GAME.ISLAND_BUY_ROLE_SKIN_COLOR_DONE, arg_30_0.OnBuyRoleSkinColorDone)
-	arg_30_0:RemoveListener(GAME.ISLAND_BUY_ROLE_DRESS_COLOR_DONE, arg_30_0.OnBuyRoleDressColorDone)
-	arg_30_0:RemoveListener(GAME.ISLAND_SHOP_OP_DONE, arg_30_0.GetBuySkindDone)
+function var_0_0.RemoveListeners(arg_25_0)
+	arg_25_0:RemoveListener(GAME.ISLAND_CHANGE_ROLE_DRESS_DONE, arg_25_0.OnChangeRoleDressDone)
+	arg_25_0:RemoveListener(GAME.ISLAND_SEND_ROLE_DRESS_READ_DONE, arg_25_0.OnSendRoleDressReadDone)
+	arg_25_0:RemoveListener(GAME.ISLAND_SEND_COMMANDER_DRESS_READ_DONE, arg_25_0.OnSendRoleDressReadDone)
+	arg_25_0:RemoveListener(GAME.ISLAND_BUY_ROLE_SKIN_COLOR_DONE, arg_25_0.OnBuyRoleSkinColorDone)
+	arg_25_0:RemoveListener(GAME.ISLAND_BUY_ROLE_DRESS_COLOR_DONE, arg_25_0.OnBuyRoleDressColorDone)
+	arg_25_0:RemoveListener(GAME.ISLAND_SHOP_OP_DONE, arg_25_0.GetBuySkindDone)
 end
 
-function var_0_0.OnClosePage(arg_31_0, arg_31_1)
+function var_0_0.OnClosePage(arg_26_0, arg_26_1)
 	return
 end
 
-function var_0_0.OnInit(arg_32_0)
-	onButton(arg_32_0, arg_32_0.saveBtn, function()
-		if not arg_32_0:CheckDressIsDirty() then
+function var_0_0.OnInit(arg_27_0)
+	onButton(arg_27_0, arg_27_0.saveBtn, function()
+		if not arg_27_0:CheckDressIsDirty() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_save1"))
 
 			return
 		end
 
-		arg_32_0:SaveDressUpDataHandle()
+		arg_27_0:SaveDressUpDataHandle()
 	end, SFX_PANEL)
-	onButton(arg_32_0, arg_32_0.dressUpConfireBtn, function()
-		arg_32_0:ShowMsgBox({
+	onButton(arg_27_0, arg_27_0.dressUpConfireBtn, function()
+		arg_27_0:ShowMsgBox({
 			type = IslandMsgBox.TYPE_COMMON,
 			content = i18n("island_dressup_tip"),
 			onYes = function()
-				arg_32_0:SaveDressUpDataHandle()
+				arg_27_0:SaveDressUpDataHandle()
 			end,
 			onNo = function()
 				return
 			end
 		})
 	end, SFX_PANEL)
-	onButton(arg_32_0, arg_32_0.restBtn, function()
-		arg_32_0:ResetDressUp()
+	onButton(arg_27_0, arg_27_0.restBtn, function()
+		arg_27_0:ResetDressUp()
 	end, SFX_PANEL)
 
-	for iter_32_0, iter_32_1 in ipairs(arg_32_0.toggles) do
-		onToggle(arg_32_0, iter_32_1, function(arg_38_0)
-			if arg_38_0 then
-				arg_32_0:SwitchPage(iter_32_0)
+	for iter_27_0, iter_27_1 in ipairs(arg_27_0.toggles) do
+		onToggle(arg_27_0, iter_27_1, function(arg_33_0)
+			if arg_33_0 then
+				arg_27_0:SwitchPage(iter_27_0)
 			end
 		end, SFX_PANEL)
 	end
 
-	onButton(arg_32_0, arg_32_0.sortBtn, function()
-		arg_32_0.sortPage:ExecuteAction("Show", arg_32_0.indexData, function(arg_40_0)
-			arg_32_0:OnSort(arg_40_0)
+	onButton(arg_27_0, arg_27_0.sortBtn, function()
+		arg_27_0.sortPage:ExecuteAction("Show", arg_27_0.indexData, function(arg_35_0)
+			arg_27_0:OnSort(arg_35_0)
 		end)
 	end, SFX_PANEL)
-	onButton(arg_32_0, arg_32_0.orderBtn, function()
-		local var_41_0 = 1 - arg_32_0.indexData.order
+	onButton(arg_27_0, arg_27_0.orderBtn, function()
+		local var_36_0 = 1 - arg_27_0.indexData.order
 
-		arg_32_0:OnOrder(var_41_0)
+		arg_27_0:OnOrder(var_36_0)
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnSort(arg_42_0, arg_42_1)
-	arg_42_0.indexData.sortKey = arg_42_1
+function var_0_0.OnSort(arg_37_0, arg_37_1)
+	arg_37_0.indexData.sortKey = arg_37_1
 
-	arg_42_0:UpdateOrderTxt()
-	arg_42_0:UpdateDressUpList()
+	arg_37_0:UpdateOrderTxt()
+	arg_37_0:UpdateDressUpList()
 end
 
-function var_0_0.OnOrder(arg_43_0, arg_43_1)
-	arg_43_0.indexData.order = arg_43_1
-	arg_43_0.orderBtn.localScale = Vector3(1, arg_43_1 == 1 and 1 or -1, 1)
+function var_0_0.OnOrder(arg_38_0, arg_38_1)
+	arg_38_0.indexData.order = arg_38_1
+	arg_38_0.orderBtn.localScale = Vector3(1, arg_38_1 == 1 and 1 or -1, 1)
 
-	arg_43_0:UpdateDressUpList()
+	arg_38_0:UpdateDressUpList()
 end
 
-function var_0_0.UpdateOrderTxt(arg_44_0)
-	arg_44_0.orderTxt.text = var_0_0.SORTCN[arg_44_0.indexData.sortKey]
+function var_0_0.UpdateOrderTxt(arg_39_0)
+	arg_39_0.orderTxt.text = var_0_0.SORTCN[arg_39_0.indexData.sortKey]
 end
 
-function var_0_0.SwitchPage(arg_45_0, arg_45_1)
-	arg_45_0.currentToggleIndex = arg_45_1
+function var_0_0.SwitchPage(arg_40_0, arg_40_1)
+	arg_40_0.currentToggleIndex = arg_40_1
 
-	if arg_45_0.currentToggleIndex == 4 then
-		setActive(arg_45_0.dressTF, false)
-		setActive(arg_45_0.skinTF, true)
-		arg_45_0:GetSkinList()
-		arg_45_0:UpdateSkinList()
-		arg_45_0:UpdateColorList()
+	if arg_40_0.currentToggleIndex == 4 then
+		setActive(arg_40_0.dressTF, false)
+		setActive(arg_40_0.skinTF, true)
+		setActive(arg_40_0.hatTF, false)
+		arg_40_0:GetSkinList()
+		arg_40_0:UpdateSkinList()
+		arg_40_0:UpdateColorList()
 	else
-		arg_45_0.dressType = var_0_1[arg_45_0.currentToggleIndex]
+		arg_40_0.dressType = var_0_1[arg_40_0.currentToggleIndex]
 
-		if arg_45_0.SmoothFunc then
-			if arg_45_0.dressType == IslandShipDressHelperNew.DressType.BackDecorate then
-				arg_45_0.SmoothFunc(Quaternion.Euler(0, 0, 0))
+		if arg_40_0.SmoothFunc then
+			if arg_40_0.dressType == IslandShipDressHelperNew.DressType.BackDecorate then
+				arg_40_0.SmoothFunc(Quaternion.Euler(0, 0, 0))
 			else
-				arg_45_0.SmoothFunc(Quaternion.Euler(0, 180, 0))
+				arg_40_0.SmoothFunc(Quaternion.Euler(0, 180, 0))
 			end
 		end
 
-		setActive(arg_45_0.dressTF, true)
-		setActive(arg_45_0.skinTF, false)
-		arg_45_0:GetDressUpList()
-		arg_45_0:UpdateDressUpList()
-		arg_45_0:UpdateHatDisplay()
-		arg_45_0:UpdateOrderTxt()
-		arg_45_0:UpdateColorList(true)
+		setActive(arg_40_0.dressTF, true)
+		setActive(arg_40_0.skinTF, false)
+		arg_40_0:GetDressUpList()
+		arg_40_0:UpdateDressUpList()
+		arg_40_0:UpdateHatDisplay()
+		arg_40_0:UpdateOrderTxt()
+		arg_40_0:UpdateColorList(true)
 	end
 end
 
-function var_0_0.GetDressUpList(arg_46_0)
-	local var_46_0 = getProxy(IslandProxy):GetIsland()
+function var_0_0.GetDressUpList(arg_41_0)
+	arg_41_0.dressList = {}
 
-	arg_46_0.dressList = {}
+	if arg_41_0.shipId == 0 then
+		for iter_41_0, iter_41_1 in ipairs(arg_41_0.dressUpAgency:GetHasDressByType(arg_41_0.dressType)) do
+			local var_41_0 = pg.island_dress_template[iter_41_1.id].quality
 
-	if arg_46_0.shipId == 0 then
-		local var_46_1 = var_46_0:GetDressUpAgency()
-
-		for iter_46_0, iter_46_1 in ipairs(var_46_1:GetHasDressByType(arg_46_0.dressType)) do
-			table.insert(arg_46_0.dressList, IslandDressItem.New({
-				hasSend = true,
-				id = iter_46_1.id
+			table.insert(arg_41_0.dressList, IslandDressItem.New({
+				id = iter_41_1.id,
+				quality = var_41_0,
+				needRedDot = iter_41_1.state == 0
 			}))
 		end
 	else
-		local var_46_2 = var_46_0:GetCharacterAgency():GetShipById(arg_46_0.shipId)
-		local var_46_3 = var_46_2:GetAllOwnDressList()
-		local var_46_4 = var_46_2:GetALLHasSendToShipDress()
+		for iter_41_2, iter_41_3 in pairs(arg_41_0.characterAgency:GetAllOwnDressDic()) do
+			if iter_41_3:getConfigTable().type == arg_41_0.dressType and iter_41_3.num > 0 then
+				local var_41_1 = pg.island_dress_template[iter_41_3.id].quality
 
-		for iter_46_2, iter_46_3 in ipairs(var_46_3) do
-			if pg.island_dress_template[iter_46_3].type == arg_46_0.dressType then
-				table.insert(arg_46_0.dressList, IslandDressItem.New({
-					hasSend = false,
-					id = iter_46_3
+				table.insert(arg_41_0.dressList, IslandDressItem.New({
+					id = iter_41_3.id,
+					ownCount = iter_41_3.num,
+					needRedDot = iter_41_3.read == 0,
+					quality = var_41_1
 				}))
 			end
 		end
 
-		for iter_46_4, iter_46_5 in ipairs(var_46_4) do
-			if pg.island_dress_template[iter_46_5].type == arg_46_0.dressType then
-				table.insert(arg_46_0.dressList, IslandDressItem.New({
-					hasSend = true,
-					id = iter_46_5
-				}))
+		for iter_41_4, iter_41_5 in pairs(arg_41_0.characterAgency:GetShipHoldedDressDic()) do
+			for iter_41_6, iter_41_7 in ipairs(iter_41_5) do
+				if iter_41_7:getConfigTable().type == arg_41_0.dressType then
+					local var_41_2 = pg.island_dress_template[iter_41_7.dress_id].quality
+
+					table.insert(arg_41_0.dressList, IslandDressItem.New({
+						id = iter_41_7.dress_id,
+						holdedShipId = iter_41_7.ship_id,
+						quality = var_41_2
+					}))
+				end
 			end
 		end
 	end
 
-	local var_46_5
+	local var_41_3
 
-	if arg_46_0.indexData.sortKey == var_0_0.SORT_DEFAULT then
-		var_46_5 = {
-			function(arg_47_0)
-				return arg_47_0.id
+	if arg_41_0.indexData.sortKey == var_0_0.SORT_DEFAULT then
+		var_41_3 = {
+			function(arg_42_0)
+				return arg_42_0.holdedShipId and 0 or 1
+			end,
+			function(arg_43_0)
+				return arg_43_0.needRedDot and 0 or 1
+			end,
+			function(arg_44_0)
+				return -arg_44_0.quality
+			end,
+			function(arg_45_0)
+				return -arg_45_0.id
 			end
 		}
-	else
-		var_46_5 = {
-			function(arg_48_0)
-				return arg_48_0:GetSortValue(arg_46_0.indexData.sortKey, arg_46_0.indexData.order)
+	end
+
+	table.sort(arg_41_0.dressList, CompareFuncs(var_41_3))
+end
+
+function var_0_0.GetSkinList(arg_46_0)
+	if arg_46_0.shipId ~= 0 then
+		arg_46_0.skinList = {}
+
+		for iter_46_0, iter_46_1 in ipairs(pg.island_skin_template.get_id_list_by_ship_group[arg_46_0.shipId] or {}) do
+			if arg_46_0.characterAgency:CheckSkinIsOwned(iter_46_1) then
+				table.insert(arg_46_0.skinList, iter_46_1)
 			end
-		}
-	end
-
-	table.sort(arg_46_0.dressList, CompareFuncs(var_46_5))
-end
-
-function var_0_0.GetSkinList(arg_49_0)
-	if arg_49_0.shipId ~= 0 then
-		local var_49_0 = getProxy(IslandProxy):GetIsland()
-
-		arg_49_0.skinList = pg.island_skin_template.get_id_list_by_ship_group[arg_49_0.shipId] or {}
+		end
 	end
 end
 
-function var_0_0.UpdateSkinList(arg_50_0)
-	local var_50_0 = #arg_50_0.skinList
+function var_0_0.UpdateSkinList(arg_47_0)
+	local var_47_0 = #arg_47_0.skinList
 
-	setActive(arg_50_0.skinRectTF, var_50_0 ~= 0)
-	setActive(arg_50_0.skinEmpty, var_50_0 == 0)
-	arg_50_0.skinRect:SetTotalCount(var_50_0)
+	setActive(arg_47_0.skinRectTF, var_47_0 ~= 0)
+	setActive(arg_47_0.skinEmpty, var_47_0 == 0)
+	arg_47_0.skinRect:SetTotalCount(var_47_0)
+	setText(arg_47_0.skinEmptyTips, i18n("island_dress_no_item"))
 end
 
-function var_0_0.UpdateDressUpList(arg_51_0)
-	local var_51_0 = #arg_51_0.dressList
+function var_0_0.UpdateDressUpList(arg_48_0)
+	local var_48_0 = #arg_48_0.dressList
 
-	setActive(arg_51_0.dressRectTF, var_51_0 ~= 0)
-	setActive(arg_51_0.dressEmpty, var_51_0 == 0)
-	setText(arg_51_0.dressEmptyTips, i18n("island_dress_no_item"))
-	setActive(arg_51_0.sortBtn, false)
+	setActive(arg_48_0.dressRectTF, var_48_0 ~= 0)
+	setActive(arg_48_0.dressEmpty, var_48_0 == 0)
+	setText(arg_48_0.dressEmptyTips, i18n("island_dress_no_item"))
+	setActive(arg_48_0.sortBtn, false)
 
-	if var_51_0 ~= 0 then
-		arg_51_0.dressRect:SetTotalCount(var_51_0, 0)
+	if var_48_0 ~= 0 then
+		arg_48_0.dressRect:SetTotalCount(var_48_0, 0)
 	end
 end
 
-function var_0_0.OnShow(arg_52_0, arg_52_1, arg_52_2, arg_52_3, arg_52_4)
-	arg_52_0.SmoothFunc = arg_52_4
-	arg_52_0.isFirstDressUp = arg_52_2
+function var_0_0.OnShow(arg_49_0, arg_49_1, arg_49_2, arg_49_3, arg_49_4)
+	arg_49_0.SmoothFunc = arg_49_4
+	arg_49_0.isFirstDressUp = arg_49_2
 
-	setActive(arg_52_0.color_listPanel, false)
-	setActive(arg_52_0.saveBtn, not arg_52_2)
-	setActive(arg_52_0.restBtn, not arg_52_2)
+	setActive(arg_49_0.color_listPanel, false)
+	setActive(arg_49_0.saveBtn, not arg_49_2)
+	setActive(arg_49_0.restBtn, not arg_49_2)
 
-	arg_52_0.shipDressHelper = arg_52_3
-	arg_52_0.shipId = arg_52_1
-	arg_52_0.indexData = {
+	arg_49_0.shipDressHelper = arg_49_3
+	arg_49_0.island = getProxy(IslandProxy):GetIsland()
+	arg_49_0.characterAgency = arg_49_0.island:GetCharacterAgency()
+	arg_49_0.dressUpAgency = arg_49_0.island:GetDressUpAgency()
+	arg_49_0.shipId = arg_49_1
+	arg_49_0.indexData = {
 		order = 1,
 		sortKey = var_0_0.SORT_DEFAULT
 	}
-	arg_52_0.smothObj = smothObj
+	arg_49_0.smothObj = smothObj
 
-	arg_52_0:InitCurDressData()
-	setActive(arg_52_0.dressUpConfireBtn, arg_52_2)
+	arg_49_0:InitCurDressData()
+	setActive(arg_49_0.dressUpConfireBtn, arg_49_2)
 
-	if arg_52_1 == 0 then
-		setActive(arg_52_0.toggles[4], false)
-		setActive(arg_52_0.toggles[5], not arg_52_2)
-		setActive(arg_52_0.toggles[6], not arg_52_2)
-		setActive(arg_52_0.toggles[7], not arg_52_2)
-		triggerToggle(arg_52_0.toggles[1], true)
+	if arg_49_1 == 0 then
+		setActive(arg_49_0.toggles[4], false)
+		setActive(arg_49_0.toggles[5], not arg_49_2)
+		setActive(arg_49_0.toggles[6], not arg_49_2)
+		setActive(arg_49_0.toggles[7], not arg_49_2)
+		triggerToggle(arg_49_0.toggles[1], true)
 	else
-		setActive(arg_52_0.toggles[4], true)
-		triggerToggle(arg_52_0.toggles[4], true)
+		setActive(arg_49_0.toggles[4], true)
+		triggerToggle(arg_49_0.toggles[4], true)
 	end
 
-	setActive(arg_52_0.toggles[1], arg_52_1 == 0)
-	setActive(arg_52_0.toggles[2], arg_52_1 == 0)
-	setActive(arg_52_0.toggles[3], arg_52_1 == 0)
-	arg_52_0:UpdateRightReddot()
+	setActive(arg_49_0.toggles[1], arg_49_1 == 0)
+	setActive(arg_49_0.toggles[2], arg_49_1 == 0)
+	setActive(arg_49_0.toggles[3], arg_49_1 == 0)
+	arg_49_0:UpdateRightReddot()
 end
 
-function var_0_0.InitCurDressData(arg_53_0)
-	arg_53_0.curDressTypeDataDic = {}
-	arg_53_0.dressColorDic = {}
+function var_0_0.InitCurDressData(arg_50_0)
+	arg_50_0.curDressTypeDataDic = {}
+	arg_50_0.curShipDressTypeDataDic = {}
+	arg_50_0.dressColorDic = {}
 
-	local var_53_0 = getProxy(IslandProxy):GetIsland()
+	if arg_50_0.shipId == 0 then
+		local var_50_0 = arg_50_0.isFirstDressUp and IslandShipDressHelperNew.CommanderCustom or IslandShipDressHelperNew.DressType
 
-	if arg_53_0.shipId == 0 then
-		local var_53_1 = var_53_0:GetDressUpAgency()
-		local var_53_2 = arg_53_0.isFirstDressUp and IslandShipDressHelperNew.CommanderCustom or IslandShipDressHelperNew.DressType
+		for iter_50_0, iter_50_1 in pairs(var_50_0) do
+			local var_50_1 = arg_50_0.isFirstDressUp and IslandShipDressHelperNew.GetInitDressByType(iter_50_1) or arg_50_0.dressUpAgency:GetDressByType(iter_50_1)
 
-		for iter_53_0, iter_53_1 in pairs(var_53_2) do
-			local var_53_3 = arg_53_0.isFirstDressUp and IslandShipDressHelperNew.GetInitDressByType(iter_53_1) or var_53_1:GetDressByType(iter_53_1)
+			arg_50_0.curDressTypeDataDic[iter_50_1] = var_50_1
 
-			arg_53_0.curDressTypeDataDic[iter_53_1] = var_53_3
-
-			if var_53_3 then
-				arg_53_0.dressColorDic[var_53_3] = var_53_1:GetCurrentColorByDressId(var_53_3)
+			if var_50_1 then
+				arg_50_0.dressColorDic[var_50_1] = arg_50_0.dressUpAgency:GetCurrentColorByDressId(var_50_1)
 			end
 		end
-
-		print(123)
 	else
-		local var_53_4 = var_53_0:GetCharacterAgency()
-		local var_53_5 = var_53_4:GetShipById(arg_53_0.shipId)
+		arg_50_0.curSkinId = arg_50_0.characterAgency:GetShipById(arg_50_0.shipId):GetCurSkinId()
 
-		arg_53_0.curSkinId = var_53_5:GetCurSkinId()
-
-		if arg_53_0.curSkinId == 0 then
-			arg_53_0.curskinColorId = 0
+		if arg_50_0.curSkinId == 0 then
+			arg_50_0.curskinColorId = 0
 		else
-			arg_53_0.curskinColorId = var_53_4:GetCurrentSkinColorByShipId(arg_53_0.shipId, arg_53_0.curSkinId)
+			arg_50_0.curskinColorId = arg_50_0.characterAgency:GetCurrentSkinColorByShipId(arg_50_0.shipId, arg_50_0.curSkinId)
 		end
 
-		for iter_53_2, iter_53_3 in pairs(IslandShipDressHelperNew.DressType) do
-			arg_53_0.curDressTypeDataDic[iter_53_3] = var_53_5:GetDressByType(iter_53_3)
+		for iter_50_2, iter_50_3 in pairs(IslandShipDressHelperNew.ExtraDressType) do
+			local var_50_2 = arg_50_0.characterAgency:GetCurDressIdByShipId(arg_50_0.shipId, iter_50_3) or {}
+
+			arg_50_0.curShipDressTypeDataDic[iter_50_3] = IslandShipDressItem.New(var_50_2)
 		end
 	end
 end
 
-function var_0_0.CheckDressIsDirty(arg_54_0)
-	local var_54_0 = getProxy(IslandProxy):GetIsland()
-
-	if arg_54_0.shipId == 0 then
-		local var_54_1 = var_54_0:GetDressUpAgency()
-
-		for iter_54_0, iter_54_1 in pairs(arg_54_0.curDressTypeDataDic) do
-			if (var_54_1:GetDressByType(iter_54_0) or 0) ~= iter_54_1 then
+function var_0_0.CheckDressIsDirty(arg_51_0)
+	if arg_51_0.shipId == 0 then
+		for iter_51_0, iter_51_1 in pairs(arg_51_0.curDressTypeDataDic) do
+			if (arg_51_0.dressUpAgency:GetDressByType(iter_51_0) or 0) ~= iter_51_1 then
 				return true
 			end
 
-			if iter_54_1 ~= 0 and var_54_1:GetCurrentColorByDressId(iter_54_1) ~= (arg_54_0.dressColorDic[iter_54_1] or 0) then
+			if iter_51_1 ~= 0 and arg_51_0.dressUpAgency:GetCurrentColorByDressId(iter_51_1) ~= (arg_51_0.dressColorDic[iter_51_1] or 0) then
 				return true
 			end
 		end
 
 		return false
 	else
-		local var_54_2 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
-		local var_54_3 = var_54_2:GetShipById(arg_54_0.shipId)
-		local var_54_4 = var_54_3:GetCurSkinId()
-		local var_54_5 = var_54_2:GetCurrentSkinColorByShipId(arg_54_0.shipId, var_54_4)
+		local var_51_0 = arg_51_0.characterAgency:GetShipById(arg_51_0.shipId):GetCurSkinId()
+		local var_51_1 = arg_51_0.characterAgency:GetCurrentSkinColorByShipId(arg_51_0.shipId, var_51_0)
 
-		if var_54_4 ~= arg_54_0.curSkinId or var_54_5 ~= arg_54_0.curskinColorId then
+		if var_51_0 ~= arg_51_0.curSkinId or var_51_1 ~= arg_51_0.curskinColorId then
 			return true
 		end
 
-		for iter_54_2, iter_54_3 in pairs(arg_54_0.curDressTypeDataDic) do
-			if (var_54_3:GetDressByType(iter_54_2) or 0) ~= iter_54_3 then
+		for iter_51_2, iter_51_3 in pairs(arg_51_0.curShipDressTypeDataDic) do
+			local var_51_2 = arg_51_0.characterAgency:GetCurDressIdByShipId(arg_51_0.shipId, iter_51_2) or {}
+
+			if not iter_51_3:CheckIsEqualByShipDressItem(var_51_2) then
 				return true
 			end
 		end
@@ -659,204 +783,241 @@ function var_0_0.CheckDressIsDirty(arg_54_0)
 	end
 end
 
-function var_0_0.ResetDressUp(arg_55_0)
-	local var_55_0 = getProxy(IslandProxy):GetIsland()
+function var_0_0.ResetDressUp(arg_52_0)
+	if arg_52_0.shipId == 0 then
+		for iter_52_0, iter_52_1 in pairs(IslandShipDressHelperNew.DressType) do
+			local var_52_0 = arg_52_0.dressUpAgency:GetDressByType(iter_52_1) or 0
+			local var_52_1 = arg_52_0.dressUpAgency:GetCurrentColorByDressId(var_52_0)
+			local var_52_2 = arg_52_0.curDressTypeDataDic[iter_52_1]
+			local var_52_3 = arg_52_0.dressColorDic[var_52_2]
 
-	if arg_55_0.shipId == 0 then
-		local var_55_1 = var_55_0:GetDressUpAgency()
-
-		for iter_55_0, iter_55_1 in pairs(IslandShipDressHelperNew.DressType) do
-			local var_55_2 = var_55_1:GetDressByType(iter_55_1) or 0
-			local var_55_3 = var_55_1:GetCurrentColorByDressId(var_55_2)
-			local var_55_4 = arg_55_0.curDressTypeDataDic[iter_55_1]
-			local var_55_5 = arg_55_0.dressColorDic[var_55_4]
-
-			if var_55_2 == var_55_4 and var_55_5 ~= var_55_3 then
-				arg_55_0.shipDressHelper:ChangeCommanderPartColor(iter_55_1, var_55_3)
+			if var_52_0 == var_52_2 and var_52_3 ~= var_52_1 then
+				arg_52_0.shipDressHelper:ChangeCommanderPartColor(iter_52_1, var_52_1)
 
 				return
 			end
 
-			arg_55_0.shipDressHelper:ChangeDressByType(iter_55_1, {
-				id = var_55_2,
-				colorId = var_55_3
+			arg_52_0.shipDressHelper:ChangeDressByType(iter_52_1, {
+				id = var_52_0,
+				colorId = var_52_1
 			})
 
-			arg_55_0.curDressTypeDataDic[iter_55_1] = var_55_2
-			arg_55_0.dressColorDic[var_55_2] = var_55_3
+			arg_52_0.curDressTypeDataDic[iter_52_1] = var_52_0
+			arg_52_0.dressColorDic[var_52_0] = var_52_1
 		end
 
-		local var_55_6 = arg_55_0.curDressTypeDataDic[IslandShipDressHelperNew.DressType.Body]
-		local var_55_7 = var_55_1:GetBodyHatIsOn(var_55_6)
+		local var_52_4 = arg_52_0.curDressTypeDataDic[IslandShipDressHelperNew.DressType.Body]
+		local var_52_5 = arg_52_0.dressUpAgency:GetBodyHatIsOn(var_52_4)
 
-		arg_55_0:UpdateHatToggleDisplay(var_55_7)
-		arg_55_0:UpdateDressUpList()
+		arg_52_0:UpdateHatToggleDisplay(var_52_5)
+		arg_52_0:UpdateDressUpList()
 	else
-		local var_55_8 = var_55_0:GetCharacterAgency()
-		local var_55_9 = var_55_8:GetShipById(arg_55_0.shipId)
+		local var_52_6 = arg_52_0.characterAgency:GetShipById(arg_52_0.shipId)
 
 		if (function()
-			local var_56_0 = var_55_9:GetCurSkinId()
-			local var_56_1 = var_55_8:GetCurrentSkinColorByShipId(arg_55_0.shipId, var_56_0)
+			local var_53_0 = var_52_6:GetCurSkinId()
+			local var_53_1 = arg_52_0.characterAgency:GetCurrentSkinColorByShipId(arg_52_0.shipId, var_53_0)
 
-			if var_56_0 ~= arg_55_0.curSkinId or var_56_1 ~= arg_55_0.curskinColorId then
-				arg_55_0.curSkinId = var_56_0
-				arg_55_0.curskinColorId = var_56_1
+			if var_53_0 ~= arg_52_0.curSkinId or var_53_1 ~= arg_52_0.curskinColorId then
+				arg_52_0.curSkinId = var_53_0
+				arg_52_0.curskinColorId = var_53_1
 
 				return true
 			end
 
 			return false
 		end)() then
-			local var_55_10 = var_55_9:GetModelBySkinAndColorId(arg_55_0.curSkinId, arg_55_0.curskinColorId)
+			local var_52_7 = var_52_6:GetModelBySkinAndColorId(arg_52_0.curSkinId, arg_52_0.curskinColorId)
 
-			arg_55_0.shipDressHelper:ChangeModelTransfromByUnitId(var_55_10)
-			arg_55_0:UpdateSkinList()
-			arg_55_0:UpdateColorList()
+			arg_52_0.shipDressHelper:ChangeModelTransfromByUnitId(var_52_7)
+			arg_52_0:UpdateSkinList()
+			arg_52_0:UpdateColorList()
 		end
 
-		local var_55_11 = {
+		local var_52_8 = {
 			IslandShipDressHelperNew.DressType.BackDecorate,
 			IslandShipDressHelperNew.DressType.Flotage,
 			IslandShipDressHelperNew.DressType.Footprint
 		}
 
-		for iter_55_2, iter_55_3 in ipairs(var_55_11) do
-			local var_55_12 = var_55_9:GetDressByType(iter_55_3) or 0
-			local var_55_13 = 0
+		for iter_52_2, iter_52_3 in ipairs(var_52_8) do
+			local var_52_9 = arg_52_0.characterAgency:GetCurDressIdByShipId(arg_52_0.shipId, iter_52_3) or {}
 
-			if var_55_12 ~= 0 then
-				local var_55_14 = dressUpAgency:GetCurrentColorByDressId(var_55_12)
-
-				var_55_13 = arg_55_0.dressColorDic[var_55_12] or 0
-			end
-
-			arg_55_0.shipDressHelper:ChangeDressByType(iter_55_3, {
-				id = var_55_13,
-				colorId = var_55_13
+			arg_52_0.shipDressHelper:ChangeDressByType(iter_52_3, {
+				colorId = 0,
+				id = var_52_9.dress_id or 0
 			})
 
-			arg_55_0.curDressTypeDataDic[iter_55_3] = var_55_12
-			arg_55_0.dressColorDic[var_55_12] = var_55_13
+			arg_52_0.curShipDressTypeDataDic[iter_52_3] = IslandShipDressItem.New(var_52_9)
 		end
 
-		arg_55_0:UpdateDressUpList()
+		arg_52_0:UpdateDressUpList()
 	end
 end
 
-function var_0_0.CheckShipCanSave(arg_57_0)
-	local var_57_0 = true
-	local var_57_1 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
+function var_0_0.CheckShipCanSave(arg_54_0)
+	local var_54_0 = true
 
-	if not var_57_1:CheckSkinIsOwned(arg_57_0.curSkinId) then
-		arg_57_0.curSkinId = var_57_1:GetShipById(arg_57_0.shipId):GetCurSkinId()
-		var_57_0 = false
+	if not arg_54_0.characterAgency:CheckSkinIsOwned(arg_54_0.curSkinId) then
+		arg_54_0.curSkinId = arg_54_0.characterAgency:GetShipById(arg_54_0.shipId):GetCurSkinId()
+		var_54_0 = false
 	end
 
-	if arg_57_0.curSkinId ~= 0 and not var_57_1:CheckSkinColorIsOwned(arg_57_0.curSkinId, arg_57_0.curskinColorId) then
-		arg_57_0.curskinColorId = var_57_1:GetCurrentSkinColorByShipId(arg_57_0.shipId, arg_57_0.curSkinId)
-		var_57_0 = false
+	if arg_54_0.curSkinId ~= 0 and not arg_54_0.characterAgency:CheckSkinColorIsOwned(arg_54_0.curSkinId, arg_54_0.curskinColorId) then
+		arg_54_0.curskinColorId = arg_54_0.characterAgency:GetCurrentSkinColorByShipId(arg_54_0.shipId, arg_54_0.curSkinId)
+		var_54_0 = false
 	end
 
-	return var_57_0
+	return var_54_0
 end
 
-function var_0_0.SaveDressUpDataHandle(arg_58_0)
-	if arg_58_0.shipId == 0 then
-		arg_58_0:SaveDressUpData()
+function var_0_0.SaveDressUpDataHandle(arg_55_0, arg_55_1)
+	if arg_55_0.shipId == 0 then
+		arg_55_0:SaveDressUpData(arg_55_1)
 	else
-		if not arg_58_0:CheckShipCanSave() then
-			local var_58_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_58_0.shipId):GetModelBySkinAndColorId(arg_58_0.curSkinId, arg_58_0.curskinColorId)
+		if not arg_55_0:CheckShipCanSave() then
+			local var_55_0 = arg_55_0.characterAgency:GetShipById(arg_55_0.shipId):GetModelBySkinAndColorId(arg_55_0.curSkinId, arg_55_0.curskinColorId)
 
-			arg_58_0.shipDressHelper:ChangeModelTransfromByUnitId(var_58_0)
-			arg_58_0:UpdateSkinList()
+			arg_55_0.shipDressHelper:ChangeModelTransfromByUnitId(var_55_0)
+			arg_55_0:UpdateSkinList()
+			arg_55_0:UpdateColorList()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_save2"))
+			existCall(arg_55_1)
 
 			return
 		end
 
-		arg_58_0:SaveDressUpData()
+		arg_55_0:SaveDressUpData(arg_55_1)
 	end
 end
 
-function var_0_0.SaveDressUpData(arg_59_0)
-	local var_59_0 = getProxy(IslandProxy):GetIsland()
+function var_0_0.SaveDressUpData(arg_56_0, arg_56_1)
+	if arg_56_0.shipId == 0 then
+		local var_56_0, var_56_1 = (function()
+			local var_57_0 = {}
+			local var_57_1 = {}
 
-	local function var_59_1()
-		local var_60_0 = {}
-		local var_60_1 = {}
-		local var_60_2 = var_59_0:GetDressUpAgency()
+			for iter_57_0, iter_57_1 in pairs(arg_56_0.curDressTypeDataDic) do
+				local var_57_2 = arg_56_0.dressUpAgency:GetDressByType(iter_57_0)
+				local var_57_3 = false
 
-		for iter_60_0, iter_60_1 in pairs(arg_59_0.curDressTypeDataDic) do
-			local var_60_3 = var_60_2:GetDressByType(iter_60_0)
-			local var_60_4 = false
+				if iter_57_1 ~= var_57_2 then
+					var_57_3 = true
+				end
 
-			if iter_60_1 ~= var_60_3 then
-				var_60_4 = true
+				if iter_57_0 == IslandShipDressHelperNew.DressType.Hat and iter_57_1 == 0 then
+					var_57_3 = true
+				end
+
+				if var_57_3 then
+					table.insert(var_57_0, {
+						type = iter_57_0,
+						id = iter_57_1
+					})
+				end
+
+				local var_57_4 = arg_56_0.dressColorDic[iter_57_1] or 0
+
+				if arg_56_0.dressUpAgency:GetCurrentColorByDressId(iter_57_1) ~= var_57_4 then
+					table.insert(var_57_1, {
+						id = iter_57_1,
+						color = var_57_4
+					})
+				end
 			end
 
-			if iter_60_0 == IslandShipDressHelperNew.DressType.Hat and iter_60_1 == 0 then
-				var_60_4 = true
-			end
+			return var_57_0, var_57_1
+		end)()
 
-			if var_60_4 then
-				table.insert(var_60_0, {
-					type = iter_60_0,
-					id = iter_60_1
-				})
-			end
+		pg.m02:sendNotification(GAME.ISLAND_CHANGE_COMMANDER_DRESS, {
+			dress_List = var_56_0,
+			color_list = var_56_1,
+			island_id = arg_56_0.island.id
+		})
+		existCall(arg_56_1)
+	else
+		local var_56_2 = {}
+		local var_56_3 = {}
+		local var_56_4 = {}
+		local var_56_5 = {}
 
-			local var_60_5 = arg_59_0.dressColorDic[iter_60_1] or 0
+		for iter_56_0, iter_56_1 in pairs(arg_56_0.curShipDressTypeDataDic) do
+			local var_56_6 = arg_56_0.characterAgency:GetCurDressIdByShipId(arg_56_0.shipId, iter_56_0) or {}
 
-			if var_60_2:GetCurrentColorByDressId(iter_60_1) ~= var_60_5 then
-				table.insert(var_60_1, {
-					id = iter_60_1,
-					color = var_60_5
-				})
+			if not iter_56_1:CheckIsEqualByShipDressItem(var_56_6) then
+				if not iter_56_1.dress_id then
+					table.insert(var_56_3, var_56_6.dress_id)
+				elseif iter_56_1.ship_id ~= 0 then
+					if var_56_6.dress_id then
+						table.insert(var_56_5, var_56_6.dress_id)
+					end
+
+					table.insert(var_56_4, {
+						ship_id = iter_56_1.ship_id,
+						dress_id = iter_56_1.dress_id
+					})
+				else
+					if var_56_6.dress_id then
+						table.insert(var_56_3, var_56_6.dress_id)
+					end
+
+					table.insert(var_56_2, {
+						ship_id = iter_56_1.ship_id,
+						dress_id = iter_56_1.dress_id
+					})
+				end
 			end
 		end
 
-		return var_60_0, var_60_1
-	end
+		local function var_56_7()
+			pg.m02:sendNotification(GAME.ISLAND_CHANGE_DRESS, {
+				dress_List = var_56_2,
+				unload_dress = var_56_3,
+				ship_id = arg_56_0.shipId,
+				skin_id = arg_56_0.curSkinId,
+				color_id = arg_56_0.curskinColorId
+			})
+		end
 
-	if arg_59_0.shipId == 0 then
-		local var_59_2, var_59_3 = var_59_1()
+		if #var_56_4 == 0 then
+			var_56_7()
+			existCall(arg_56_1)
 
-		pg.m02:sendNotification(GAME.ISLAND_CHANGE_COMMANDER_DRESS, {
-			dress_List = var_59_2,
-			color_list = var_59_3,
-			island_id = var_59_0.id
-		})
-	else
-		local var_59_4 = var_59_1()
-		local var_59_5 = {}
+			return
+		end
 
-		pg.m02:sendNotification(GAME.ISLAND_CHANGE_DRESS, {
-			dress_List = var_59_4,
-			color_list = var_59_5,
-			ship_id = arg_59_0.shipId,
-			skin_id = arg_59_0.curSkinId,
-			color_id = arg_59_0.curskinColorId
+		arg_56_0:ShowMsgBox({
+			type = IslandMsgBox.TYPE_DRESS_WEAR_CONFIRE,
+			content = i18n("island_dress_replace_tip"),
+			needconfirmDressList = var_56_4,
+			onYes = function()
+				for iter_59_0, iter_59_1 in ipairs(var_56_4) do
+					table.insert(var_56_2, iter_59_1)
+				end
+
+				for iter_59_2, iter_59_3 in ipairs(var_56_5) do
+					table.insert(var_56_3, iter_59_3)
+				end
+
+				var_56_7()
+				existCall(arg_56_1)
+			end,
+			onNo = function()
+				existCall(arg_56_1)
+			end
 		})
 	end
 end
 
 function var_0_0.CheckInReturn(arg_61_0, arg_61_1)
 	if not arg_61_0:CheckDressIsDirty() then
-		if arg_61_1 then
-			arg_61_1()
-		end
+		existCall(arg_61_1)
 
 		return
 	end
 
-	local var_61_0 = getProxy(IslandProxy):GetIsland()
-
 	if not arg_61_0:CheckShipCanSave() then
-		if arg_61_1 then
-			arg_61_1()
-		end
-
+		existCall(arg_61_1)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("island_dress_exit2"))
 
 		return
@@ -866,29 +1027,34 @@ function var_0_0.CheckInReturn(arg_61_0, arg_61_1)
 		type = IslandMsgBox.TYPE_COMMON,
 		content = i18n("island_dressup_tip_1"),
 		onYes = function()
-			arg_61_0:SaveDressUpDataHandle()
-
-			if arg_61_1 then
-				arg_61_1()
-			end
+			arg_61_0:SaveDressUpDataHandle(arg_61_1)
 		end,
 		onNo = function()
-			if arg_61_1 then
-				arg_61_1()
-			end
+			existCall(arg_61_1)
 		end
 	})
 end
 
-function var_0_0.OnSendRoleDressDone(arg_64_0, arg_64_1)
-	local var_64_0 = pg.island_dress_template[arg_64_1.dress_id]
+function var_0_0.OnChangeRoleDressDone(arg_64_0)
+	for iter_64_0, iter_64_1 in pairs(arg_64_0.curShipDressTypeDataDic) do
+		local var_64_0 = arg_64_0.characterAgency:GetCurDressIdByShipId(arg_64_0.shipId, iter_64_0) or {}
 
-	arg_64_0.shipDressHelper:ChangeDressByType(var_64_0.type, arg_64_1.dress_id)
+		arg_64_0.curShipDressTypeDataDic[iter_64_0] = IslandShipDressItem.New(var_64_0)
+	end
+
 	arg_64_0:GetDressUpList()
 	arg_64_0:UpdateDressUpList()
 end
 
-function var_0_0.OnSendRoleDressReadDone(arg_65_0)
+function var_0_0.OnSendRoleDressReadDone(arg_65_0, arg_65_1)
+	for iter_65_0, iter_65_1 in ipairs(arg_65_1) do
+		for iter_65_2, iter_65_3 in ipairs(arg_65_0.dressList) do
+			if iter_65_3.id == iter_65_1 and iter_65_3.needRedDot then
+				iter_65_3.needRedDot = false
+			end
+		end
+	end
+
 	arg_65_0:UpdateDressUpList()
 	arg_65_0:UpdateRightReddot()
 end
@@ -906,7 +1072,14 @@ function var_0_0.GetBuySkindDone(arg_68_0)
 end
 
 function var_0_0.UpdateRightReddot(arg_69_0)
-	local var_69_0 = {
+	local var_69_0 = arg_69_0.shipId == 0 and {
+		1,
+		2,
+		3,
+		5,
+		6,
+		7
+	} or {
 		5,
 		6,
 		7
@@ -914,14 +1087,16 @@ function var_0_0.UpdateRightReddot(arg_69_0)
 
 	for iter_69_0, iter_69_1 in ipairs(var_69_0) do
 		local var_69_1 = arg_69_0.toggles[iter_69_1]:Find("red_dot")
+		local var_69_2 = false
+		local var_69_3 = var_0_1[iter_69_1]
 
 		if arg_69_0.shipId == 0 then
-			setActive(var_69_1, false)
+			var_69_2 = arg_69_0.dressUpAgency:CheckRedDotByDressType(var_69_3)
 		else
-			local var_69_2 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():CheckRedDotByDressType(arg_69_0.dressType)
-
-			setActive(var_69_1, var_69_2)
+			var_69_2 = arg_69_0.characterAgency:CheckRedDotByDressType(var_69_3)
 		end
+
+		setActive(var_69_1, var_69_2)
 	end
 end
 
@@ -970,10 +1145,12 @@ function var_0_0.UpdateColorUnlockState(arg_72_0)
 	end
 
 	local var_72_3, var_72_4 = (function()
-		local var_73_0 = getProxy(IslandProxy):GetIsland()
-
 		if arg_72_0.isDressColor then
-			if arg_72_0.shipId == 0 and var_73_0:GetDressUpAgency():CheckDressColorIsOwned(var_72_2, var_72_1) then
+			if arg_72_0.shipId == 0 then
+				if arg_72_0.dressUpAgency:CheckDressColorIsOwned(var_72_2, var_72_1) then
+					return true
+				end
+			else
 				return true
 			end
 
@@ -983,15 +1160,13 @@ function var_0_0.UpdateColorUnlockState(arg_72_0)
 				return true
 			end
 
-			local var_73_1 = var_73_0:GetCharacterAgency()
-
-			if var_73_1:CheckSkinColorIsOwned(arg_72_0.curSkinId, arg_72_0.curskinColorId) then
+			if arg_72_0.characterAgency:CheckSkinColorIsOwned(arg_72_0.curSkinId, arg_72_0.curskinColorId) then
 				return true
 			end
 
-			local var_73_2 = var_73_1:CheckSkinIsOwned(arg_72_0.curSkinId)
+			local var_73_0 = arg_72_0.characterAgency:CheckSkinIsOwned(arg_72_0.curSkinId)
 
-			return false, var_73_2
+			return false, var_73_0
 		end
 	end)()
 
@@ -1023,8 +1198,8 @@ function var_0_0.UpdateColorUnlockState(arg_72_0)
 			else
 				pg.m02:sendNotification(GAME.ISLAND_BUY_ROLE_SKIN_COLOR, {
 					ship_id = arg_72_0.shipId,
-					skin_id = selectSkinId,
-					color_id = currentColorId
+					skin_id = arg_72_0.curSkinId,
+					color_id = arg_72_0.curskinColorId
 				})
 			end
 		end
@@ -1049,7 +1224,7 @@ function var_0_0.UpdateColorUnlockState(arg_72_0)
 
 					return true
 				end)(var_72_0.cost) then
-					pg.TipsMgr.GetInstance():ShowTips("消耗不够")
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 					return
 				end
@@ -1065,60 +1240,56 @@ end
 
 function var_0_0.UpdateColorItemList(arg_79_0)
 	(function()
-		local var_80_0 = getProxy(IslandProxy):GetIsland()
-
 		arg_79_0.colorItemList = {}
 
 		if arg_79_0.isDressColor then
-			local var_80_1 = var_80_0:GetDressUpAgency()
-			local var_80_2 = arg_79_0.curDressTypeDataDic[arg_79_0.dressType]
-			local var_80_3 = arg_79_0.dressColorDic[var_80_2]
-			local var_80_4 = pg.island_dress_colordiff_template.get_id_list_by_belongto_dress[var_80_2] or {}
+			local var_80_0 = arg_79_0.curDressTypeDataDic[arg_79_0.dressType]
+			local var_80_1 = arg_79_0.dressColorDic[var_80_0]
+			local var_80_2 = pg.island_dress_colordiff_template.get_id_list_by_belongto_dress[var_80_0] or {}
 
-			if #var_80_4 > 0 then
-				local var_80_5 = var_80_3 == 0
-				local var_80_6 = true
+			if #var_80_2 > 0 then
+				local var_80_3 = var_80_1 == 0
+				local var_80_4 = true
 
 				table.insert(arg_79_0.colorItemList, {
 					itemId = 0,
-					selected = var_80_5,
-					owned = var_80_6
+					selected = var_80_3,
+					owned = var_80_4
 				})
 
-				for iter_80_0, iter_80_1 in ipairs(var_80_4) do
-					local var_80_7 = var_80_3 == iter_80_1
-					local var_80_8 = var_80_1:CheckDressColorIsOwned(var_80_2, iter_80_1)
+				for iter_80_0, iter_80_1 in ipairs(var_80_2) do
+					local var_80_5 = var_80_1 == iter_80_1
+					local var_80_6 = arg_79_0.dressUpAgency:CheckDressColorIsOwned(var_80_0, iter_80_1)
 
 					table.insert(arg_79_0.colorItemList, {
 						itemId = iter_80_1,
-						selected = var_80_7,
-						owned = var_80_8,
+						selected = var_80_5,
+						owned = var_80_6,
 						costItemIcon = pg.island_dress_colordiff_template[iter_80_1].color_icon
 					})
 				end
 			end
 		else
-			local var_80_9 = var_80_0:GetCharacterAgency()
-			local var_80_10 = pg.island_skin_colordiff_template.get_id_list_by_skin_group[arg_79_0.curSkinId] or {}
+			local var_80_7 = pg.island_skin_colordiff_template.get_id_list_by_skin_group[arg_79_0.curSkinId] or {}
 
-			if #var_80_10 > 0 then
-				local var_80_11 = arg_79_0.curskinColorId == 0
-				local var_80_12 = var_80_9:CheckSkinIsOwned(arg_79_0.curSkinId)
+			if #var_80_7 > 0 then
+				local var_80_8 = arg_79_0.curskinColorId == 0
+				local var_80_9 = arg_79_0.characterAgency:CheckSkinIsOwned(arg_79_0.curSkinId)
 
 				table.insert(arg_79_0.colorItemList, {
 					itemId = 0,
-					selected = var_80_11,
-					owned = var_80_12
+					selected = var_80_8,
+					owned = var_80_9
 				})
 
-				for iter_80_2, iter_80_3 in ipairs(var_80_10) do
-					local var_80_13 = arg_79_0.curskinColorId == iter_80_3
-					local var_80_14 = var_80_9:CheckSkinColorIsOwned(arg_79_0.curSkinId, iter_80_3)
+				for iter_80_2, iter_80_3 in ipairs(var_80_7) do
+					local var_80_10 = arg_79_0.curskinColorId == iter_80_3
+					local var_80_11 = arg_79_0.characterAgency:CheckSkinColorIsOwned(arg_79_0.curSkinId, iter_80_3)
 
 					table.insert(arg_79_0.colorItemList, {
 						itemId = iter_80_3,
-						selected = var_80_13,
-						owned = var_80_14,
+						selected = var_80_10,
+						owned = var_80_11,
 						costItemIcon = pg.island_skin_colordiff_template[iter_80_3].color_icon
 					})
 				end
@@ -1137,19 +1308,18 @@ function var_0_0.UpdateColorItemList(arg_79_0)
 
 			setActive(arg_81_2:Find("orginName"), var_81_1 == 0)
 			setActive(arg_81_2:Find("locked"), var_81_1 == 0)
-			setText(arg_81_2:Find("orginName"), i18n("island_skin_original_desc"))
 			setActive(arg_81_2:Find("icon"), false)
 
 			if var_81_0.costItemIcon then
 				setActive(arg_81_2:Find("icon"), true)
-				GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. pg.island_dress_colordiff_template[var_81_1].color_icon, "", arg_81_2:Find("icon"))
+				GetImageSpriteFromAtlasAsync("island/IslandDressIcon/" .. var_81_0.costItemIcon, "", arg_81_2:Find("icon"))
 			end
 
 			setActive(arg_81_2:Find("locked"), not var_81_0.owned)
 			onButton(arg_79_0, arg_81_2, function()
 				if arg_79_0.isDressColor then
 					local var_82_0 = arg_79_0.curDressTypeDataDic[arg_79_0.dressType]
-					local var_82_1 = arg_79_0.dressColorDic[dressColorId]
+					local var_82_1 = arg_79_0.dressColorDic[var_82_0]
 
 					if var_81_1 == var_82_1 then
 						return
@@ -1188,8 +1358,11 @@ function var_0_0.OnHide(arg_84_0)
 end
 
 function var_0_0.OnDestroy(arg_85_0)
+	ClearLScrollrect(arg_85_0.dressRect)
+	ClearLScrollrect(arg_85_0.skinRect)
+
 	for iter_85_0, iter_85_1 in pairs(arg_85_0.dressCards or {}) do
-		-- block empty
+		iter_85_1:Dispose()
 	end
 
 	arg_85_0.dressCards = nil

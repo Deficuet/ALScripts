@@ -21,8 +21,8 @@ return {
 		{
 			animation = "hi",
 			characterId = 101000,
-			say = "您好，是有新的探索需求需要协助吗？",
-			subName = "集会岛接待员",
+			say = "Hello. Do you need assistance with a new exploration request?",
+			subName = "Get-Together Island Receptionist",
 			face2Face = {
 				{
 					0,

@@ -18,9 +18,7 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf, false, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
 	arg_2_0.awards = _.select(arg_2_0.contextData.items or {}, function(arg_3_0)
 		return arg_3_0.type ~= DROP_TYPE_ICON_FRAME and arg_3_0.type ~= DROP_TYPE_CHAT_FRAME and arg_3_0.type ~= DROP_TYPE_LIVINGAREA_COVER
@@ -68,7 +66,7 @@ function var_0_0.init(arg_2_0)
 
 	setActive(arg_2_0.extraBouns, arg_2_0.contextData.extraBonus)
 
-	arg_2_0.continueBtn = arg_2_0:findTF("items/close")
+	arg_2_0.continueBtn = arg_2_0._tf:Find("items/close")
 
 	local var_2_1 = arg_2_0._tf:Find("decorations")
 
@@ -84,7 +82,7 @@ function var_0_0.init(arg_2_0)
 
 	arg_2_0._tf:SetAsLastSibling()
 
-	arg_2_0.metaRepeatAwardTF = arg_2_0:findTF("MetaShipRepeatAward")
+	arg_2_0.metaRepeatAwardTF = arg_2_0._tf:Find("MetaShipRepeatAward")
 end
 
 function var_0_0.doAnim(arg_5_0, arg_5_1)
@@ -306,7 +304,7 @@ function var_0_0.displayAwards(arg_24_0)
 				setLocalPosition(var_24_8, Vector3.zero)
 				setLocalScale(var_24_8, Vector3.zero)
 
-				local var_24_9 = arg_24_0:findTF("item_tpl/bg", var_24_8)
+				local var_24_9 = var_24_8:Find("item_tpl/bg")
 
 				updateDrop(var_24_9, var_24_7)
 				setActive(var_24_9:Find("name"), false)
@@ -349,7 +347,7 @@ end
 function var_0_0.willExit(arg_30_0)
 	arg_30_0:RemoveCloseTimer()
 	setActive(arg_30_0.spriteMask, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_30_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_30_0._tf)
 
 	if arg_30_0.title ~= var_0_0.TITLE.SHIP then
 		for iter_30_0 = 0, arg_30_0.container.childCount - 1 do

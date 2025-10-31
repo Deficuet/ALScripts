@@ -5,9 +5,9 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.yesBtn = arg_2_0:findTF("Box/ConfirmBtn")
-	arg_2_0.cancelBtn = arg_2_0:findTF("Box/CancelBtn")
-	arg_2_0.contentTxt = arg_2_0:findTF("Box/Text"):GetComponent(typeof(Text))
+	arg_2_0.yesBtn = arg_2_0._tf:Find("Box/ConfirmBtn")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("Box/CancelBtn")
+	arg_2_0.contentTxt = arg_2_0._tf:Find("Box/Text"):GetComponent(typeof(Text))
 end
 
 function var_0_0.OnInit(arg_3_0)

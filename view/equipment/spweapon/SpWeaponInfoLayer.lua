@@ -45,13 +45,13 @@ function var_0_0.init(arg_2_0)
 	arg_2_0.toggles = {}
 
 	for iter_2_0, iter_2_1 in ipairs(var_2_0) do
-		arg_2_0[iter_2_1 .. "Panel"] = arg_2_0:findTF(iter_2_1)
-		arg_2_0.toggles[iter_2_1 .. "Panel"] = arg_2_0:findTF("toggle_controll/" .. iter_2_1)
+		arg_2_0[iter_2_1 .. "Panel"] = arg_2_0._tf:Find(iter_2_1)
+		arg_2_0.toggles[iter_2_1 .. "Panel"] = arg_2_0._tf:Find("toggle_controll/" .. iter_2_1)
 	end
 
 	Canvas.ForceUpdateCanvases()
 
-	arg_2_0.sample = arg_2_0:findTF("sample")
+	arg_2_0.sample = arg_2_0._tf:Find("sample")
 
 	setActive(arg_2_0.sample, false)
 
@@ -111,9 +111,7 @@ function var_0_0.didEnter(arg_8_0)
 		arg_8_0:updateOperation4()
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_8_0._tf, false, {
-		weight = arg_8_0:getWeightFromData()
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_8_0._tf)
 end
 
 local var_0_1 = {
@@ -137,10 +135,10 @@ local var_0_1 = {
 
 function var_0_0.initAndSetBtn(arg_10_0, arg_10_1)
 	if arg_10_1 == var_0_0.TYPE_DEFAULT or arg_10_1 == var_0_0.TYPE_SHIP then
-		arg_10_0.defaultEquipTF = arg_10_0:findTF("equipment", arg_10_0.defaultPanel) or arg_10_0:cloneSampleTo(arg_10_0.defaultPanel, var_0_0.Middle, "equipment")
+		arg_10_0.defaultEquipTF = arg_10_0.defaultPanel:Find("equipment") or arg_10_0:cloneSampleTo(arg_10_0.defaultPanel, var_0_0.Middle, "equipment")
 
 		table.Foreach(var_0_1, function(arg_11_0, arg_11_1)
-			local var_11_0 = arg_10_0:findTF("actions/action_button_" .. arg_11_0, arg_10_0.defaultPanel)
+			local var_11_0 = arg_10_0.defaultPanel:Find("actions/action_button_" .. arg_11_0)
 
 			arg_10_0["default" .. arg_11_1[1] .. "Btn"] = var_11_0
 
@@ -159,10 +157,10 @@ function var_0_0.initAndSetBtn(arg_10_0, arg_10_1)
 			arg_10_0:emit(SpWeaponInfoMediator.ON_MODIFY)
 		end, SFX_PANEL)
 	elseif arg_10_1 == var_0_0.TYPE_REPLACE then
-		arg_10_0.replaceSrcEquipTF = arg_10_0:findTF("equipment", arg_10_0.replacePanel) or arg_10_0:cloneSampleTo(arg_10_0.replacePanel, var_0_0.Left, "equipment")
-		arg_10_0.replaceDstEquipTF = arg_10_0:findTF("equipment_on_ship", arg_10_0.replacePanel) or arg_10_0:cloneSampleTo(arg_10_0.replacePanel, var_0_0.Right, "equipment_on_ship")
-		arg_10_0.replaceCancelBtn = arg_10_0:findTF("actions/cancel_button", arg_10_0.replacePanel)
-		arg_10_0.replaceConfirmBtn = arg_10_0:findTF("actions/action_button_2", arg_10_0.replacePanel)
+		arg_10_0.replaceSrcEquipTF = arg_10_0.replacePanel:Find("equipment") or arg_10_0:cloneSampleTo(arg_10_0.replacePanel, var_0_0.Left, "equipment")
+		arg_10_0.replaceDstEquipTF = arg_10_0.replacePanel:Find("equipment_on_ship") or arg_10_0:cloneSampleTo(arg_10_0.replacePanel, var_0_0.Right, "equipment_on_ship")
+		arg_10_0.replaceCancelBtn = arg_10_0.replacePanel:Find("actions/cancel_button")
+		arg_10_0.replaceConfirmBtn = arg_10_0.replacePanel:Find("actions/action_button_2")
 
 		setText(arg_10_0.replaceConfirmBtn:Find("label"), i18n("msgbox_text_confirm"))
 		setText(arg_10_0.replaceCancelBtn:Find("label"), i18n("msgbox_text_cancel"))
@@ -178,8 +176,8 @@ function var_0_0.initAndSetBtn(arg_10_0, arg_10_1)
 			end
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	elseif arg_10_1 == var_0_0.TYPE_DISPLAY then
-		arg_10_0.displayEquipTF = arg_10_0:findTF("equipment", arg_10_0.displayPanel) or arg_10_0:cloneSampleTo(arg_10_0.displayPanel, var_0_0.Middle, "equipment")
-		arg_10_0.displayMoveBtn = arg_10_0:findTF("actions/move_button", arg_10_0.displayPanel)
+		arg_10_0.displayEquipTF = arg_10_0.displayPanel:Find("equipment") or arg_10_0:cloneSampleTo(arg_10_0.displayPanel, var_0_0.Middle, "equipment")
+		arg_10_0.displayMoveBtn = arg_10_0.displayPanel:Find("actions/move_button")
 
 		setText(arg_10_0.displayMoveBtn:Find("label"), i18n("msgbox_text_equipdetail"))
 		onButton(arg_10_0, arg_10_0.displayMoveBtn, function()
@@ -208,7 +206,7 @@ function var_0_0.updateOperation2(arg_20_0)
 	setActive(arg_20_0.defaultUnloadBtn, true)
 	setActive(arg_20_0.defaultModifyBtn, true)
 
-	local var_20_1 = arg_20_0:findTF("head", arg_20_0.defaultEquipTF)
+	local var_20_1 = arg_20_0.defaultEquipTF:Find("head")
 
 	setActive(var_20_1, arg_20_0.shipVO)
 
@@ -232,7 +230,7 @@ function var_0_0.updateOperation3(arg_21_0)
 		arg_21_0:updateEquipmentPanel(arg_21_0.replaceDstEquipTF, arg_21_0.oldEquipmentVO, SpWeaponHelper.TransformNormalInfo(arg_21_0.oldEquipmentVO))
 	end
 
-	local var_21_3 = arg_21_0:findTF("head", arg_21_0.replaceDstEquipTF)
+	local var_21_3 = arg_21_0.replaceDstEquipTF:Find("head")
 
 	setActive(var_21_3, arg_21_0.oldShipVO)
 
@@ -246,7 +244,7 @@ function var_0_0.updateOperation4(arg_22_0)
 	arg_22_0:updateEquipmentPanel(arg_22_0.displayEquipTF, arg_22_0.equipmentVO, SpWeaponHelper.TransformNormalInfo(arg_22_0.equipmentVO))
 	setActive(arg_22_0.displayMoveBtn, arg_22_0.shipVO)
 
-	local var_22_0 = arg_22_0:findTF("head", arg_22_0.displayEquipTF)
+	local var_22_0 = arg_22_0.displayEquipTF:Find("head")
 
 	setActive(var_22_0, arg_22_0.shipVO)
 
@@ -279,8 +277,8 @@ function var_0_0.updateOperationAward(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
 end
 
 function var_0_0.updateEquipmentPanel(arg_25_0, arg_25_1, arg_25_2, arg_25_3)
-	local var_25_0 = arg_25_0:findTF("info", arg_25_1)
-	local var_25_1 = arg_25_0:findTF("empty", arg_25_1)
+	local var_25_0 = arg_25_1:Find("info")
+	local var_25_1 = arg_25_1:Find("empty")
 
 	setActive(var_25_0, arg_25_2)
 	setActive(var_25_1, not arg_25_2)
@@ -304,7 +302,7 @@ function var_0_0.updateEquipmentPanel(arg_25_0, arg_25_1, arg_25_2, arg_25_3)
 	setActive(findTF(var_25_3, "slv/next"), false)
 	setText(findTF(var_25_3, "slv/next/Text"), arg_25_2:GetLevel() - 1)
 
-	local var_25_4 = arg_25_0:findTF("tier", var_25_3)
+	local var_25_4 = var_25_3:Find("tier")
 
 	setActive(var_25_4, arg_25_2)
 
@@ -329,7 +327,7 @@ function var_0_0.cloneSampleTo(arg_27_0, arg_27_1, arg_27_2, arg_27_3, arg_27_4)
 end
 
 function var_0_0.willExit(arg_28_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_28_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_28_0._tf)
 end
 
 function var_0_0.onBackPressed(arg_29_0)

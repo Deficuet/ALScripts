@@ -12,26 +12,20 @@ function var_0_0.OnStart(arg_2_0)
 		LuaHelper.NodeCanvasSetIntVariableValue(arg_2_0.behaviourTreeOwner, "worker", arg_2_0.workerCnt)
 
 		local var_2_0 = {
-			IslandProductSystemVO.FellingPlaceId,
-			IslandProductSystemVO.MilkTeaPlaceId,
-			IslandProductSystemVO.MealPlaceId,
-			IslandProductSystemVO.TechnologyPlaceId,
-			IslandProductSystemVO.PasturePlaceId,
-			IslandProductSystemVO.FarmlandPlaceId,
-			IslandProductSystemVO.CoffeePlaceId
+			IslandProductConst.FarmlandPlaceId,
+			IslandProductConst.OrchardPlaceId,
+			IslandProductConst.GardenPlaceId
 		}
-		local var_2_1 = {
-			IslandProductSystemVO.FarmlandPlaceId
-		}
+		local var_2_1 = arg_2_0.data:GetWorkerList() or {}
 
-		if table.contains(var_2_0, arg_2_0.data.id) then
-			local var_2_2 = arg_2_0.data:GetWorkerList() or {}
+		if arg_2_0.data.id == IslandProductConst.MinePlaceId then
+			return
+		end
 
-			for iter_2_0, iter_2_1 in ipairs(var_2_2) do
-				iter_2_1.nextIn = table.contains(var_2_1, arg_2_0.data.id)
+		for iter_2_0, iter_2_1 in ipairs(var_2_1) do
+			iter_2_1.nextIn = table.contains(var_2_0, arg_2_0.data.id)
 
-				arg_2_0:StartDelegation(iter_2_1)
-			end
+			arg_2_0:StartDelegation(iter_2_1)
 		end
 	end
 end
@@ -47,32 +41,33 @@ end
 function var_0_0.ExecuteDelegation(arg_4_0, arg_4_1)
 	arg_4_0.workerCnt = arg_4_0.workerCnt + 1
 
-	local var_4_0 = arg_4_0:GetView():GetSystemUnitModule(arg_4_1.ship_id)
-	local var_4_1 = arg_4_0.data:GetperformanceObjidList(arg_4_1.area_id)
-	local var_4_2 = System.Collections.Generic.List_IslandUnitNode()
+	local var_4_0 = arg_4_0.data:GetUnitShipIdBySlotId(arg_4_1.ship_id, arg_4_1.area_id)
+	local var_4_1 = arg_4_0:GetView():GetSystemUnitModule(var_4_0)
+	local var_4_2 = arg_4_0.data:GetperformanceObjidList(arg_4_1.area_id)
+	local var_4_3 = System.Collections.Generic.List_IslandUnitNode()
 
-	if var_4_0 then
-		local var_4_3 = IslandUnitNode.New()
-
-		var_4_3.unitId = arg_4_1.ship_id
-		var_4_3.unitType = IslandConst.UNIT_LIST_DELEGATION
-
-		var_4_2:Add(var_4_3)
-	end
-
-	for iter_4_0, iter_4_1 in ipairs(var_4_1) do
+	if var_4_1 then
 		local var_4_4 = IslandUnitNode.New()
 
-		var_4_4.unitId = iter_4_1.unitId
-		var_4_4.unitType = iter_4_1.unitType
+		var_4_4.unitId = var_4_0
+		var_4_4.unitType = IslandConst.UNIT_LIST_DELEGATION
 
-		var_4_2:Add(var_4_4)
+		var_4_3:Add(var_4_4)
+	end
+
+	for iter_4_0, iter_4_1 in ipairs(var_4_2) do
+		local var_4_5 = IslandUnitNode.New()
+
+		var_4_5.unitId = iter_4_1.unitId
+		var_4_5.unitType = iter_4_1.unitType
+
+		var_4_3:Add(var_4_5)
 	end
 
 	if arg_4_1.nextIn then
-		arg_4_0.behaviourTreeOwner:SendEvent("system_unit_add_nextIn", var_4_2, nil)
+		arg_4_0.behaviourTreeOwner:SendEvent("system_unit_add_nextIn", var_4_3, nil)
 	else
-		arg_4_0.behaviourTreeOwner:SendEvent("system_unit_add", var_4_2, nil)
+		arg_4_0.behaviourTreeOwner:SendEvent("system_unit_add", var_4_3, nil)
 	end
 end
 

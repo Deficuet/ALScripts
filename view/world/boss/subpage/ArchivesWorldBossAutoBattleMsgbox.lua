@@ -5,16 +5,16 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.contentTxt = arg_2_0:findTF("window/msg_panel/content/time"):GetComponent(typeof(Text))
-	arg_2_0.startBtn = arg_2_0:findTF("window/btns/start")
+	arg_2_0.contentTxt = arg_2_0._tf:Find("window/msg_panel/content/time"):GetComponent(typeof(Text))
+	arg_2_0.startBtn = arg_2_0._tf:Find("window/btns/start")
 	arg_2_0.startTxt = arg_2_0.startBtn:Find("pic"):GetComponent(typeof(Text))
-	arg_2_0.cancelBtn = arg_2_0:findTF("window/btns/cancel")
+	arg_2_0.cancelBtn = arg_2_0._tf:Find("window/btns/cancel")
 	arg_2_0.cancelTxt = arg_2_0.cancelBtn:Find("pic"):GetComponent(typeof(Text))
-	arg_2_0.closeBtn = arg_2_0:findTF("window/top/close")
-	arg_2_0.titleTxt = arg_2_0:findTF("window/top/title"):GetComponent(typeof(Text))
+	arg_2_0.closeBtn = arg_2_0._tf:Find("window/top/close")
+	arg_2_0.titleTxt = arg_2_0._tf:Find("window/top/title"):GetComponent(typeof(Text))
 
-	setText(arg_2_0:findTF("window/msg_panel/content/label"), i18n("world_boss_archives_stop_auto_battle_tip"))
-	setText(arg_2_0:findTF("window/msg_panel/label1"), i18n("world_boss_archives_stop_auto_battle_tip1"))
+	setText(arg_2_0._tf:Find("window/msg_panel/content/label"), i18n("world_boss_archives_stop_auto_battle_tip"))
+	setText(arg_2_0._tf:Find("window/msg_panel/label1"), i18n("world_boss_archives_stop_auto_battle_tip1"))
 end
 
 function var_0_0.OnInit(arg_3_0)

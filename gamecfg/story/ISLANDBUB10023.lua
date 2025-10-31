@@ -13,7 +13,7 @@ return {
 			characterId = 100200,
 			animation = "slack",
 			hideType = 2,
-			say = "嗯哼~今天的订单又创新高了~"
+			say = "Heheh – today's another new record in number of requests made."
 		}
 	}
 }

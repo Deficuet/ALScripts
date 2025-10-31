@@ -1063,6 +1063,88 @@ pg.commander_ability_template = {
 			}
 		}
 	},
+	[321] = {
+		cost = 0,
+		name = "Azure Sky Affinity - Rookie",
+		next = 322,
+		worth = 2,
+		id = 321,
+		group_id = 32,
+		icon = "teshu_hangkong_1",
+		desc = "Your <color=#3dc6ff>CVs and CVLs</color> gain 7 AVI and your <color=#3dc6ff>IXMs</color> gain 7 FP.",
+		add = {
+			{
+				1,
+				{},
+				{
+					6,
+					7
+				},
+				5,
+				7
+			},
+			{
+				1,
+				{},
+				{
+					24
+				},
+				2,
+				7
+			}
+		},
+		add_desc = {
+			{
+				"CVs, CVLs: AVI",
+				7
+			},
+			{
+				"IXMs: FP",
+				7
+			}
+		}
+	},
+	[322] = {
+		cost = 0,
+		name = "Azure Sky Affinity - Ace",
+		next = 0,
+		worth = 3,
+		id = 322,
+		group_id = 32,
+		icon = "teshu_hangkong_2",
+		desc = "Your <color=#3dc6ff>CVs and CVLs</color> gain 10 AVI and your <color=#3dc6ff>IXMs</color> gain 10 FP.",
+		add = {
+			{
+				1,
+				{},
+				{
+					6,
+					7
+				},
+				5,
+				10
+			},
+			{
+				1,
+				{},
+				{
+					24
+				},
+				2,
+				10
+			}
+		},
+		add_desc = {
+			{
+				"CVs, CVLs: AVI",
+				10
+			},
+			{
+				"IXMs: FP",
+				10
+			}
+		}
+	},
 	[401] = {
 		cost = 0,
 		name = "Anti-Air Rookie - Vanguard",
@@ -2829,6 +2911,102 @@ pg.commander_ability_template = {
 			},
 			{
 				"IXs: HP",
+				60
+			}
+		}
+	},
+	[771] = {
+		cost = 0,
+		name = "Rookie Engineer - Vanguard",
+		next = 772,
+		worth = 1,
+		id = 771,
+		group_id = 77,
+		icon = "quzhu_naijiu_1",
+		desc = "Your <color=#3dc6ff>Vanguard</color> gains 30 HP.",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					2,
+					3,
+					18,
+					20,
+					23
+				},
+				1,
+				30
+			}
+		},
+		add_desc = {
+			{
+				"Vanguard: HP",
+				30
+			}
+		}
+	},
+	[772] = {
+		cost = 0,
+		name = "Adept Engineer - Vanguard",
+		next = 773,
+		worth = 2,
+		id = 772,
+		group_id = 77,
+		icon = "quzhu_naijiu_2",
+		desc = "Your <color=#3dc6ff>Vanguard</color> gains 42 HP.",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					2,
+					3,
+					18,
+					20,
+					23
+				},
+				1,
+				42
+			}
+		},
+		add_desc = {
+			{
+				"Vanguard: HP",
+				42
+			}
+		}
+	},
+	[773] = {
+		cost = 0,
+		name = "Ace Engineer - Vanguard",
+		next = 0,
+		worth = 3,
+		id = 773,
+		group_id = 77,
+		icon = "quzhu_naijiu_3",
+		desc = "Your <color=#3dc6ff>Vanguard</color> gains 60 HP.",
+		add = {
+			{
+				1,
+				{},
+				{
+					1,
+					2,
+					3,
+					18,
+					20,
+					23
+				},
+				1,
+				60
+			}
+		},
+		add_desc = {
+			{
+				"Vanguard: HP",
 				60
 			}
 		}
@@ -6236,6 +6414,121 @@ pg.commander_ability_template = {
 			}
 		}
 	},
+	[5171] = {
+		cost = 0,
+		name = "A Bold Challenge",
+		next = 0,
+		worth = 1,
+		id = 5171,
+		group_id = 517,
+		icon = "special_one",
+		desc = "Your <color=#3dc6ff>CVs</color> gain 10 AVI and RLD and your <color=#3dc6ff>IXs</color> gain 15 FP.",
+		add = {
+			{
+				1,
+				{},
+				{
+					7
+				},
+				5,
+				10
+			},
+			{
+				1,
+				{},
+				{
+					7
+				},
+				6,
+				10
+			},
+			{
+				1,
+				{},
+				{
+					22,
+					23,
+					24
+				},
+				2,
+				15
+			}
+		},
+		add_desc = {
+			{
+				"CVs: AVI",
+				10
+			},
+			{
+				"CVs: RLD",
+				10
+			},
+			{
+				"IXs: FP",
+				15
+			}
+		}
+	},
+	[5181] = {
+		cost = 0,
+		name = "Hoist Sails Again",
+		next = 0,
+		worth = 1,
+		id = 5181,
+		group_id = 518,
+		icon = "special_one",
+		desc = "Your <color=#3dc6ff>CLs, CAs, and IXVs</color> gain 10 FP and 10 RLD.",
+		add = {
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					23
+				},
+				2,
+				10
+			},
+			{
+				1,
+				{},
+				{
+					2,
+					3,
+					18
+				},
+				6,
+				10
+			}
+		},
+		add_desc = {
+			{
+				"CLs: FP",
+				10
+			},
+			{
+				"CAs: FP",
+				10
+			},
+			{
+				"IXVs: FP",
+				10
+			},
+			{
+				"CLs: RLD",
+				10
+			},
+			{
+				"CAs: RLD",
+				10
+			},
+			{
+				"IXVs: RLD",
+				10
+			}
+		}
+	},
 	all = {
 		101,
 		102,
@@ -6267,6 +6560,8 @@ pg.commander_ability_template = {
 		311,
 		312,
 		313,
+		321,
+		322,
 		401,
 		402,
 		403,
@@ -6318,6 +6613,9 @@ pg.commander_ability_template = {
 		761,
 		762,
 		763,
+		771,
+		772,
+		773,
 		801,
 		802,
 		803,
@@ -6393,6 +6691,8 @@ pg.commander_ability_template = {
 		5131,
 		5141,
 		5151,
-		5161
+		5161,
+		5171,
+		5181
 	}
 }

@@ -137,6 +137,51 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 18,
+		param = {
+			"scene core activity",
+			{
+				coreName = "EighthAnniversaryJpCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 19,
+		param = {
+			"scene core activity",
+			{
+				coreName = "TianYuTianYuanCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 20,
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		}
+	},
+	{
+		id = 21,
+		param = {
+			"scene core activity",
+			{
+				coreName = "AEBCSCoreActivityUI"
+			}
+		}
+	},
+	{
+		id = 22,
+		param = {
+			"scene core activity",
+			{
+				coreName = "SailingShip3CoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -154,6 +199,11 @@ pg.activity_banner_notice = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18,
+		19,
+		20,
+		21,
+		22
 	}
 }

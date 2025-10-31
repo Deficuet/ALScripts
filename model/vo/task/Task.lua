@@ -155,29 +155,32 @@ function var_0_0.getProgress(arg_15_0)
 			end) then
 				return 1
 			end
+		end,
+		[TASK_SUB_TYPE_JOIN_GUILD] = function()
+			return getProxy(GuildProxy):getData() and 1 or 0
 		end
 	}, function()
 		return arg_15_0.progress
 	end) or 0
 end
 
-function var_0_0.getTargetNumber(arg_28_0)
-	return arg_28_0:getConfig("target_num")
+function var_0_0.getTargetNumber(arg_29_0)
+	return arg_29_0:getConfig("target_num")
 end
 
-function var_0_0.isReceive(arg_29_0)
-	return arg_29_0.submitTime > 0
+function var_0_0.isReceive(arg_30_0)
+	return arg_30_0.submitTime > 0
 end
 
-function var_0_0.isCircle(arg_30_0)
-	if arg_30_0:isActivityTask() then
-		if arg_30_0:getConfig("type") == 16 and arg_30_0:getConfig("sub_type") == 1006 then
+function var_0_0.isCircle(arg_31_0)
+	if arg_31_0:isActivityTask() then
+		if arg_31_0:getConfig("type") == 16 and arg_31_0:getConfig("sub_type") == 1006 then
 			return true
-		elseif arg_30_0:getConfig("type") == 16 and arg_30_0:getConfig("sub_type") == 20 then
+		elseif arg_31_0:getConfig("type") == 16 and arg_31_0:getConfig("sub_type") == 20 then
 			return true
-		elseif arg_30_0:getConfig("type") == 16 and arg_30_0:getConfig("sub_type") == 1007 then
+		elseif arg_31_0:getConfig("type") == 16 and arg_31_0:getConfig("sub_type") == 1007 then
 			return true
-		elseif arg_30_0:getConfig("type") == 16 and arg_30_0:getConfig("sub_type") == 122 then
+		elseif arg_31_0:getConfig("type") == 16 and arg_31_0:getConfig("sub_type") == 122 then
 			return true
 		end
 	end
@@ -185,67 +188,66 @@ function var_0_0.isCircle(arg_30_0)
 	return false
 end
 
-function var_0_0.isDaily(arg_31_0)
-	return arg_31_0:getConfig("sub_type") == 415 or arg_31_0:getConfig("sub_type") == 412
+function var_0_0.isDaily(arg_32_0)
+	return arg_32_0:getConfig("sub_type") == 415 or arg_32_0:getConfig("sub_type") == 412
 end
 
-function var_0_0.getTaskStatus(arg_32_0)
-	if arg_32_0:isLock() then
+function var_0_0.getTaskStatus(arg_33_0)
+	if arg_33_0:isLock() then
 		return -1
 	end
 
-	if arg_32_0:isReceive() then
+	if arg_33_0:isReceive() then
 		return 2
 	end
 
-	if arg_32_0:isFinish() then
+	if arg_33_0:isFinish() then
 		return 1
 	end
 
 	return 0
 end
 
-function var_0_0.onAdded(arg_33_0)
-	local function var_33_0()
-		if arg_33_0:getConfig("sub_type") == 29 then
-			local var_34_0 = getProxy(SkirmishProxy):getRawData()
+function var_0_0.onAdded(arg_34_0)
+	local function var_34_0()
+		if arg_34_0:getConfig("sub_type") == 29 then
+			local var_35_0 = getProxy(SkirmishProxy):getRawData()
 
-			if _.any(var_34_0, function(arg_35_0)
-				return arg_35_0:getConfig("task_id") == arg_33_0.id
+			if _.any(var_35_0, function(arg_36_0)
+				return arg_36_0:getConfig("task_id") == arg_34_0.id
 			end) then
 				return
 			end
 
 			pg.m02:sendNotification(GAME.TASK_GO, {
-				taskVO = arg_33_0
+				taskVO = arg_34_0
 			})
-		elseif arg_33_0:getConfig("added_tip") > 0 then
-			local var_34_1
+		elseif arg_34_0:getConfig("added_tip") > 0 then
+			local var_35_1
 
 			if getProxy(ContextProxy):getCurrentContext().mediator.__cname ~= TaskMediator.__cname then
-				function var_34_1()
+				function var_35_1()
 					pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK, {
-						page = var_0_1[arg_33_0:GetRealType()]
+						page = var_0_1[arg_34_0:GetRealType()]
 					})
 				end
 			end
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				noText = "text_iknow",
 				yesText = "text_forward",
-				content = i18n("tip_add_task", arg_33_0:getConfig("name")),
-				onYes = var_34_1,
-				weight = LayerWeightConst.TOP_LAYER
+				noText = "text_iknow",
+				content = i18n("tip_add_task", arg_34_0:getConfig("name")),
+				onYes = var_35_1
 			})
 		end
 
-		if arg_33_0:IsCommanderManualType() then
-			getProxy(CommanderManualProxy):AddPageTaskDone(arg_33_0)
+		if arg_34_0:IsCommanderManualType() then
+			getProxy(CommanderManualProxy):AddPageTaskDone(arg_34_0)
 		end
 	end
 
-	local function var_33_1()
-		local var_37_0 = getProxy(ContextProxy):getCurrentContext()
+	local function var_34_1()
+		local var_38_0 = getProxy(ContextProxy):getCurrentContext()
 
 		if not table.contains({
 			"LevelScene",
@@ -253,134 +255,134 @@ function var_0_0.onAdded(arg_33_0)
 			"EventListScene",
 			"MilitaryExerciseScene",
 			"DailyLevelScene"
-		}, var_37_0.viewComponent.__cname) then
+		}, var_38_0.viewComponent.__cname) then
 			return true
 		end
 
 		return false
 	end
 
-	local var_33_2 = arg_33_0:getConfig("story_id")
+	local var_34_2 = arg_34_0:getConfig("story_id")
 
-	if var_33_2 and var_33_2 ~= "" and var_33_1() then
-		pg.NewStoryMgr.GetInstance():Play(var_33_2, var_33_0, true, true)
+	if var_34_2 and var_34_2 ~= "" and var_34_1() then
+		pg.NewStoryMgr.GetInstance():Play(var_34_2, var_34_0, true, true)
 	else
-		var_33_0()
+		var_34_0()
 	end
 end
 
-function var_0_0.updateProgress(arg_38_0, arg_38_1)
-	arg_38_0.progress = arg_38_1
+function var_0_0.updateProgress(arg_39_0, arg_39_1)
+	arg_39_0.progress = arg_39_1
 end
 
-function var_0_0.isSelectable(arg_39_0)
-	local var_39_0 = arg_39_0:getConfig("award_choice")
+function var_0_0.isSelectable(arg_40_0)
+	local var_40_0 = arg_40_0:getConfig("award_choice")
 
-	return var_39_0 ~= nil and type(var_39_0) == "table" and #var_39_0 > 0
+	return var_40_0 ~= nil and type(var_40_0) == "table" and #var_40_0 > 0
 end
 
-function var_0_0.judgeOverflow(arg_40_0, arg_40_1, arg_40_2, arg_40_3)
-	local var_40_0 = arg_40_0:getTaskStatus() == 1
-	local var_40_1 = arg_40_0:ShowOnTaskScene()
+function var_0_0.judgeOverflow(arg_41_0, arg_41_1, arg_41_2, arg_41_3)
+	local var_41_0 = arg_41_0:getTaskStatus() == 1
+	local var_41_1 = arg_41_0:ShowOnTaskScene()
 
-	return var_0_0.StaticJudgeOverflow(arg_40_1, arg_40_2, arg_40_3, var_40_0, var_40_1, arg_40_0:getConfig("award_display"))
+	return var_0_0.StaticJudgeOverflow(arg_41_1, arg_41_2, arg_41_3, var_41_0, var_41_1, arg_41_0:getConfig("award_display"))
 end
 
-function var_0_0.StaticJudgeOverflow(arg_41_0, arg_41_1, arg_41_2, arg_41_3, arg_41_4, arg_41_5)
-	if arg_41_3 and arg_41_4 then
-		local var_41_0 = getProxy(PlayerProxy):getData()
-		local var_41_1 = pg.gameset.urpt_chapter_max.description[1]
-		local var_41_2 = arg_41_0 or var_41_0.gold
-		local var_41_3 = arg_41_1 or var_41_0.oil
-		local var_41_4 = arg_41_2 or not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(var_41_1) or 0
-		local var_41_5 = pg.gameset.max_gold.key_value
-		local var_41_6 = pg.gameset.max_oil.key_value
-		local var_41_7 = not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0
-		local var_41_8 = false
-		local var_41_9 = false
-		local var_41_10 = false
-		local var_41_11 = false
-		local var_41_12 = false
-		local var_41_13 = {}
-		local var_41_14 = arg_41_5
+function var_0_0.StaticJudgeOverflow(arg_42_0, arg_42_1, arg_42_2, arg_42_3, arg_42_4, arg_42_5)
+	if arg_42_3 and arg_42_4 then
+		local var_42_0 = getProxy(PlayerProxy):getData()
+		local var_42_1 = pg.gameset.urpt_chapter_max.description[1]
+		local var_42_2 = arg_42_0 or var_42_0.gold
+		local var_42_3 = arg_42_1 or var_42_0.oil
+		local var_42_4 = arg_42_2 or not LOCK_UR_SHIP and getProxy(BagProxy):GetLimitCntById(var_42_1) or 0
+		local var_42_5 = pg.gameset.max_gold.key_value
+		local var_42_6 = pg.gameset.max_oil.key_value
+		local var_42_7 = not LOCK_UR_SHIP and pg.gameset.urpt_chapter_max.description[2] or 0
+		local var_42_8 = false
+		local var_42_9 = false
+		local var_42_10 = false
+		local var_42_11 = false
+		local var_42_12 = false
+		local var_42_13 = {}
+		local var_42_14 = arg_42_5
 
-		for iter_41_0, iter_41_1 in ipairs(var_41_14) do
-			local var_41_15, var_41_16, var_41_17 = unpack(iter_41_1)
+		for iter_42_0, iter_42_1 in ipairs(var_42_14) do
+			local var_42_15, var_42_16, var_42_17 = unpack(iter_42_1)
 
-			if var_41_15 == DROP_TYPE_RESOURCE then
-				if var_41_16 == PlayerConst.ResGold then
-					local var_41_18 = var_41_2 + var_41_17 - var_41_5
+			if var_42_15 == DROP_TYPE_RESOURCE then
+				if var_42_16 == PlayerConst.ResGold then
+					local var_42_18 = var_42_2 + var_42_17 - var_42_5
 
-					if var_41_18 > 0 then
-						var_41_8 = true
+					if var_42_18 > 0 then
+						var_42_8 = true
 
-						local var_41_19 = {
+						local var_42_19 = {
 							type = DROP_TYPE_RESOURCE,
 							id = PlayerConst.ResGold,
-							count = setColorStr(var_41_18, COLOR_RED)
+							count = setColorStr(var_42_18, COLOR_RED)
 						}
 
-						table.insert(var_41_13, var_41_19)
+						table.insert(var_42_13, var_42_19)
 					end
-				elseif var_41_16 == PlayerConst.ResOil then
-					local var_41_20 = var_41_3 + var_41_17 - var_41_6
+				elseif var_42_16 == PlayerConst.ResOil then
+					local var_42_20 = var_42_3 + var_42_17 - var_42_6
 
-					if var_41_20 > 0 then
-						var_41_9 = true
+					if var_42_20 > 0 then
+						var_42_9 = true
 
-						local var_41_21 = {
+						local var_42_21 = {
 							type = DROP_TYPE_RESOURCE,
 							id = PlayerConst.ResOil,
-							count = setColorStr(var_41_20, COLOR_RED)
+							count = setColorStr(var_42_20, COLOR_RED)
 						}
 
-						table.insert(var_41_13, var_41_21)
+						table.insert(var_42_13, var_42_21)
 					end
 				end
-			elseif not LOCK_UR_SHIP and var_41_15 == DROP_TYPE_VITEM then
-				if Item.getConfigData(var_41_16).virtual_type == 20 then
-					local var_41_22 = var_41_4 + var_41_17 - var_41_7
+			elseif not LOCK_UR_SHIP and var_42_15 == DROP_TYPE_VITEM then
+				if Item.getConfigData(var_42_16).virtual_type == 20 then
+					local var_42_22 = var_42_4 + var_42_17 - var_42_7
 
-					if var_41_22 > 0 then
-						var_41_10 = true
+					if var_42_22 > 0 then
+						var_42_10 = true
 
-						local var_41_23 = {
+						local var_42_23 = {
 							type = DROP_TYPE_VITEM,
-							id = var_41_1,
-							count = setColorStr(var_41_22, COLOR_RED)
+							id = var_42_1,
+							count = setColorStr(var_42_22, COLOR_RED)
 						}
 
-						table.insert(var_41_13, var_41_23)
+						table.insert(var_42_13, var_42_23)
 					end
 				end
-			elseif var_41_15 == DROP_TYPE_ITEM and Item.getConfigData(var_41_16).type == Item.EXP_BOOK_TYPE then
-				local var_41_24 = getProxy(BagProxy):getItemCountById(var_41_16) + var_41_17
-				local var_41_25 = Item.getConfigData(var_41_16).max_num
+			elseif var_42_15 == DROP_TYPE_ITEM and Item.getConfigData(var_42_16).type == Item.EXP_BOOK_TYPE then
+				local var_42_24 = getProxy(BagProxy):getItemCountById(var_42_16) + var_42_17
+				local var_42_25 = Item.getConfigData(var_42_16).max_num
 
-				if var_41_25 < var_41_24 then
-					var_41_11 = true
+				if var_42_25 < var_42_24 then
+					var_42_11 = true
 
-					local var_41_26 = {
+					local var_42_26 = {
 						type = DROP_TYPE_ITEM,
-						id = var_41_16,
-						count = setColorStr(math.min(var_41_17, var_41_24 - var_41_25), COLOR_RED)
+						id = var_42_16,
+						count = setColorStr(math.min(var_42_17, var_42_24 - var_42_25), COLOR_RED)
 					}
 
-					table.insert(var_41_13, var_41_26)
+					table.insert(var_42_13, var_42_26)
 				end
 			end
 		end
 
-		return var_41_8 or var_41_9 or var_41_10 or var_41_11, var_41_13
+		return var_42_8 or var_42_9 or var_42_10 or var_42_11, var_42_13
 	end
 end
 
-function var_0_0.IsUrTask(arg_42_0)
+function var_0_0.IsUrTask(arg_43_0)
 	if not LOCK_UR_SHIP then
-		local var_42_0 = pg.gameset.urpt_chapter_max.description[1]
+		local var_43_0 = pg.gameset.urpt_chapter_max.description[1]
 
-		do return _.any(arg_42_0:getConfig("award_display"), function(arg_43_0)
-			return arg_43_0[1] == DROP_TYPE_ITEM and arg_43_0[2] == var_42_0
+		do return _.any(arg_43_0:getConfig("award_display"), function(arg_44_0)
+			return arg_44_0[1] == DROP_TYPE_ITEM and arg_44_0[2] == var_43_0
 		end) end
 		return
 	end
@@ -388,29 +390,29 @@ function var_0_0.IsUrTask(arg_42_0)
 	return false
 end
 
-function var_0_0.GetRealType(arg_44_0)
-	local var_44_0 = arg_44_0:getConfig("priority_type")
+function var_0_0.GetRealType(arg_45_0)
+	local var_45_0 = arg_45_0:getConfig("priority_type")
 
-	if var_44_0 == 0 then
-		var_44_0 = arg_44_0:getConfig("type")
+	if var_45_0 == 0 then
+		var_45_0 = arg_45_0:getConfig("type")
 	end
 
-	return var_44_0
+	return var_45_0
 end
 
-function var_0_0.IsOverflowShipExpItem(arg_45_0)
-	local function var_45_0(arg_46_0, arg_46_1)
-		return getProxy(BagProxy):getItemCountById(arg_46_0) + arg_46_1 > Item.getConfigData(arg_46_0).max_num
+function var_0_0.IsOverflowShipExpItem(arg_46_0)
+	local function var_46_0(arg_47_0, arg_47_1)
+		return getProxy(BagProxy):getItemCountById(arg_47_0) + arg_47_1 > Item.getConfigData(arg_47_0).max_num
 	end
 
-	local var_45_1 = arg_45_0:getConfig("award_display")
+	local var_46_1 = arg_46_0:getConfig("award_display")
 
-	for iter_45_0, iter_45_1 in ipairs(var_45_1) do
-		local var_45_2 = iter_45_1[1]
-		local var_45_3 = iter_45_1[2]
-		local var_45_4 = iter_45_1[3]
+	for iter_46_0, iter_46_1 in ipairs(var_46_1) do
+		local var_46_2 = iter_46_1[1]
+		local var_46_3 = iter_46_1[2]
+		local var_46_4 = iter_46_1[3]
 
-		if var_45_2 == DROP_TYPE_ITEM and Item.getConfigData(var_45_3).type == Item.EXP_BOOK_TYPE and var_45_0(var_45_3, var_45_4) then
+		if var_46_2 == DROP_TYPE_ITEM and Item.getConfigData(var_46_3).type == Item.EXP_BOOK_TYPE and var_46_0(var_46_3, var_46_4) then
 			return true
 		end
 	end
@@ -418,71 +420,71 @@ function var_0_0.IsOverflowShipExpItem(arg_45_0)
 	return false
 end
 
-function var_0_0.ShowOnTaskScene(arg_47_0)
-	local var_47_0 = arg_47_0:getConfig("visibility") == 1
+function var_0_0.ShowOnTaskScene(arg_48_0)
+	local var_48_0 = arg_48_0:getConfig("visibility") == 1
 
-	if arg_47_0.id == 17268 then
-		var_47_0 = false
+	if arg_48_0.id == 17268 then
+		var_48_0 = false
 
-		local var_47_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.BUILDING_NEWYEAR_2022)
+		local var_48_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.BUILDING_NEWYEAR_2022)
 
-		if var_47_1 and not var_47_1:isEnd() then
-			local var_47_2 = var_47_1.data1KeyValueList[2][17] or 1
-			local var_47_3 = var_47_1.data1KeyValueList[2][18] or 1
+		if var_48_1 and not var_48_1:isEnd() then
+			local var_48_2 = var_48_1.data1KeyValueList[2][17] or 1
+			local var_48_3 = var_48_1.data1KeyValueList[2][18] or 1
 
-			var_47_0 = var_47_2 >= 4 and var_47_3 >= 4
+			var_48_0 = var_48_2 >= 4 and var_48_3 >= 4
 		end
 	end
 
-	return var_47_0
+	return var_48_0
 end
 
-function var_0_0.setTaskFinish(arg_48_0)
-	arg_48_0.submitTime = 1
+function var_0_0.setTaskFinish(arg_49_0)
+	arg_49_0.submitTime = 1
 
-	arg_48_0:updateProgress(arg_48_0:getConfig("target_num"))
+	arg_49_0:updateProgress(arg_49_0:getConfig("target_num"))
 end
 
-function var_0_0.isAvatarTask(arg_49_0)
+function var_0_0.isAvatarTask(arg_50_0)
 	return false
 end
 
-function var_0_0.getActId(arg_50_0)
-	return arg_50_0._actId
+function var_0_0.getActId(arg_51_0)
+	return arg_51_0._actId
 end
 
-function var_0_0.setActId(arg_51_0, arg_51_1)
-	arg_51_0._actId = arg_51_1
+function var_0_0.setActId(arg_52_0, arg_52_1)
+	arg_52_0._actId = arg_52_1
 end
 
-function var_0_0.isActivityTask(arg_52_0)
-	return arg_52_0._actId and arg_52_0._actId > 0
+function var_0_0.isActivityTask(arg_53_0)
+	return arg_53_0._actId and arg_53_0._actId > 0
 end
 
-function var_0_0.setAutoSubmit(arg_53_0, arg_53_1)
-	arg_53_0._autoSubmit = arg_53_1
+function var_0_0.setAutoSubmit(arg_54_0, arg_54_1)
+	arg_54_0._autoSubmit = arg_54_1
 end
 
-function var_0_0.getAutoSubmit(arg_54_0)
-	return arg_54_0._autoSubmit
+function var_0_0.getAutoSubmit(arg_55_0)
+	return arg_55_0._autoSubmit
 end
 
-function var_0_0.getGiveDrops(arg_55_0)
-	local var_55_0 = {}
+function var_0_0.getGiveDrops(arg_56_0)
+	local var_56_0 = {}
 
-	if arg_55_0:getConfig("sub_type") == TASK_SUB_TYPE_VITEMS then
-		local var_55_1 = tonumber(arg_55_0:getConfig("target_id"))
+	if arg_56_0:getConfig("sub_type") == TASK_SUB_TYPE_VITEMS then
+		local var_56_1 = tonumber(arg_56_0:getConfig("target_id"))
 
-		for iter_55_0, iter_55_1 in ipairs(arg_55_0:getConfig("target_id_2")) do
-			table.insert(var_55_0, Drop.New({
-				type = var_55_1,
-				id = iter_55_1[1],
-				count = iter_55_1[2]
+		for iter_56_0, iter_56_1 in ipairs(arg_56_0:getConfig("target_id_2")) do
+			table.insert(var_56_0, Drop.New({
+				type = var_56_1,
+				id = iter_56_1[1],
+				count = iter_56_1[2]
 			}))
 		end
 	end
 
-	return var_55_0
+	return var_56_0
 end
 
 return var_0_0

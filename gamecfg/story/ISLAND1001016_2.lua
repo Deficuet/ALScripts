@@ -5,24 +5,24 @@ return {
 	scripts = {
 		{
 			characterId = 0,
-			say = "（咖啡馆下面居然隐藏着一个研究所……这就是{namecode:98:明石}不可告人的秘密？）",
+			say = "(There's an entire research lab hidden under Café Manjuu... So this is what Akashi's secret is.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			characterId = 0,
-			say = "（虽然不知道这是在加工什么，但她连我都瞒着，一定所图甚大！）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "是时候找她问个清楚了！",
-			characterId = 0,
 			animation = "nod",
+			characterId = 0,
+			say = "(It's anyone's guess as to what she's researching, but it's safe to assume it's something devious if she keeps it secret even from me.)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "I'm gonna get her to spill the beans!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

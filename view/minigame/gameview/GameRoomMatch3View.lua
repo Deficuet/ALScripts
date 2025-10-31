@@ -37,50 +37,50 @@ function var_0_0.getBGM(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.matchEffect = arg_3_0:findTF("effects/sanxiaoxiaoshi")
-	arg_3_0.goodEffect = arg_3_0:findTF("effects/sanxiaoGood")
-	arg_3_0.greatEffect = arg_3_0:findTF("effects/sanxiaoGreat")
-	arg_3_0.perfectEffect = arg_3_0:findTF("effects/sanxiaoPerfect")
-	arg_3_0.hintEffect = arg_3_0:findTF("effects/hint")
-	arg_3_0.selectedEffect = arg_3_0:findTF("effects/selected")
-	arg_3_0.whitenMat = arg_3_0:findTF("effects/whiten"):GetComponent("Image").material
-	arg_3_0.backBtn = arg_3_0:findTF("button/back")
-	arg_3_0.mainPage = arg_3_0:findTF("main")
-	arg_3_0.startBtn = arg_3_0:findTF("main/start")
-	arg_3_0.helpBtn = arg_3_0:findTF("main/rule")
-	arg_3_0.countdownPage = arg_3_0:findTF("countdown")
-	arg_3_0.countdownAnim = arg_3_0:findTF("countdown")
-	arg_3_0.gamePage = arg_3_0:findTF("game")
-	arg_3_0.gameMask = arg_3_0:findTF("game/mask")
-	arg_3_0.warning = arg_3_0:findTF("game/warning")
-	arg_3_0.countdownTf = arg_3_0:findTF("game/countdown")
-	arg_3_0.countdownText = arg_3_0:findTF("game/countdown/Text")
-	arg_3_0.inf = arg_3_0:findTF("game/countdown/inf")
-	arg_3_0.scoreText = arg_3_0:findTF("game/score/Text")
-	arg_3_0.floatText = arg_3_0:findTF("game/floatText")
+	arg_3_0.matchEffect = arg_3_0._tf:Find("effects/sanxiaoxiaoshi")
+	arg_3_0.goodEffect = arg_3_0._tf:Find("effects/sanxiaoGood")
+	arg_3_0.greatEffect = arg_3_0._tf:Find("effects/sanxiaoGreat")
+	arg_3_0.perfectEffect = arg_3_0._tf:Find("effects/sanxiaoPerfect")
+	arg_3_0.hintEffect = arg_3_0._tf:Find("effects/hint")
+	arg_3_0.selectedEffect = arg_3_0._tf:Find("effects/selected")
+	arg_3_0.whitenMat = arg_3_0._tf:Find("effects/whiten"):GetComponent("Image").material
+	arg_3_0.backBtn = arg_3_0._tf:Find("button/back")
+	arg_3_0.mainPage = arg_3_0._tf:Find("main")
+	arg_3_0.startBtn = arg_3_0._tf:Find("main/start")
+	arg_3_0.helpBtn = arg_3_0._tf:Find("main/rule")
+	arg_3_0.countdownPage = arg_3_0._tf:Find("countdown")
+	arg_3_0.countdownAnim = arg_3_0._tf:Find("countdown")
+	arg_3_0.gamePage = arg_3_0._tf:Find("game")
+	arg_3_0.gameMask = arg_3_0._tf:Find("game/mask")
+	arg_3_0.warning = arg_3_0._tf:Find("game/warning")
+	arg_3_0.countdownTf = arg_3_0._tf:Find("game/countdown")
+	arg_3_0.countdownText = arg_3_0._tf:Find("game/countdown/Text")
+	arg_3_0.inf = arg_3_0._tf:Find("game/countdown/inf")
+	arg_3_0.scoreText = arg_3_0._tf:Find("game/score/Text")
+	arg_3_0.floatText = arg_3_0._tf:Find("game/floatText")
 	arg_3_0.floatChar = {}
-	arg_3_0.pausePage = arg_3_0:findTF("game/pause")
-	arg_3_0.pauseYes = arg_3_0:findTF("game/pause/yes")
-	arg_3_0.pauseNo = arg_3_0:findTF("game/pause/no")
+	arg_3_0.pausePage = arg_3_0._tf:Find("game/pause")
+	arg_3_0.pauseYes = arg_3_0._tf:Find("game/pause/yes")
+	arg_3_0.pauseNo = arg_3_0._tf:Find("game/pause/no")
 
 	for iter_3_0 = 0, 9 do
-		arg_3_0.floatChar[iter_3_0] = arg_3_0:findTF("game/floatText/" .. iter_3_0)
+		arg_3_0.floatChar[iter_3_0] = arg_3_0._tf:Find("game/floatText/" .. iter_3_0)
 	end
 
-	arg_3_0.tilesRoot = arg_3_0:findTF("game/tiles")
+	arg_3_0.tilesRoot = arg_3_0._tf:Find("game/tiles")
 	arg_3_0.gameListener = arg_3_0.tilesRoot:GetComponent("EventTriggerListener")
 	arg_3_0.longPressListener = arg_3_0.tilesRoot:GetComponent("UILongPressTrigger")
-	arg_3_0.endPage = arg_3_0:findTF("end")
-	arg_3_0.endBtn = arg_3_0:findTF("end/end_btn")
-	arg_3_0.endScore = arg_3_0:findTF("end/score/Text")
-	arg_3_0.newSign = arg_3_0:findTF("end/score/Text/new")
-	arg_3_0.bestScore = arg_3_0:findTF("end/highest/Text")
+	arg_3_0.endPage = arg_3_0._tf:Find("end")
+	arg_3_0.endBtn = arg_3_0._tf:Find("end/end_btn")
+	arg_3_0.endScore = arg_3_0._tf:Find("end/score/Text")
+	arg_3_0.newSign = arg_3_0._tf:Find("end/score/Text/new")
+	arg_3_0.bestScore = arg_3_0._tf:Find("end/highest/Text")
 	arg_3_0.tiles = {
-		arg_3_0:findTF("tiles/Akashi"),
-		arg_3_0:findTF("tiles/Ayanami"),
-		arg_3_0:findTF("tiles/Javelin"),
-		arg_3_0:findTF("tiles/Laffey"),
-		arg_3_0:findTF("tiles/Z23")
+		arg_3_0._tf:Find("tiles/Akashi"),
+		arg_3_0._tf:Find("tiles/Ayanami"),
+		arg_3_0._tf:Find("tiles/Javelin"),
+		arg_3_0._tf:Find("tiles/Laffey"),
+		arg_3_0._tf:Find("tiles/Z23")
 	}
 end
 

@@ -36,10 +36,10 @@ function var_0_0.init(arg_2_0)
 		end
 	end
 
-	arg_2_0.rtBg = arg_2_0:findTF("bg")
+	arg_2_0.rtBg = arg_2_0._tf:Find("bg")
 	arg_2_0.rtEnterIcon = arg_2_0.rtBg:Find("enter_icon")
 	arg_2_0.rtBgNShop = arg_2_0._tf:Find("bg_2")
-	arg_2_0.rtBlurPanel = arg_2_0:findTF("blur_panel")
+	arg_2_0.rtBlurPanel = arg_2_0._tf:Find("blur_panel")
 	arg_2_0.rtTasks = arg_2_0.rtBlurPanel:Find("adapt/tasks")
 	arg_2_0.rtShop = arg_2_0.rtBlurPanel:Find("adapt/shop")
 	arg_2_0.rtPainting = arg_2_0.rtShop:Find("paint")
@@ -94,7 +94,7 @@ function var_0_0.init(arg_2_0)
 
 	arg_2_0.resPanel._tf:SetParent(arg_2_0.rtTop:Find("title/resources"), false)
 
-	arg_2_0.rtTaskWindow = arg_2_0:findTF("task_window")
+	arg_2_0.rtTaskWindow = arg_2_0._tf:Find("task_window")
 	arg_2_0.wsTasks = {}
 	arg_2_0.wsGoods = {}
 	arg_2_0.page = -1
@@ -105,15 +105,13 @@ function var_0_0.init(arg_2_0)
 
 	setActive(arg_2_0.refreshBtn, false)
 
-	arg_2_0.glitchArtMaterial = arg_2_0:findTF("resource/material1"):GetComponent(typeof(Image)).material
+	arg_2_0.glitchArtMaterial = arg_2_0._tf:Find("resource/material1"):GetComponent(typeof(Image)).material
 	arg_2_0.singleWindow = OriginShopSingleWindow.New(arg_2_0._tf, arg_2_0.event)
 	arg_2_0.multiWindow = OriginShopMultiWindow.New(arg_2_0._tf, arg_2_0.event)
 end
 
 function var_0_0.didEnter(arg_4_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf, false, {
-		groupName = arg_4_0:getGroupNameFromData()
-	})
+	arg_4_0:BlurPanel(arg_4_0._tf)
 	onButton(arg_4_0, arg_4_0.btnBack, function()
 		if arg_4_0.isTweening then
 			return
@@ -160,7 +158,7 @@ function var_0_0.onBackPressed(arg_10_0)
 end
 
 function var_0_0.willExit(arg_11_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_11_0._tf)
+	arg_11_0:UnOverlayPanel(arg_11_0._tf)
 	arg_11_0:RecyclePainting(arg_11_0.rtPainting)
 	arg_11_0.singleWindow:Destroy()
 	arg_11_0.multiWindow:Destroy()
@@ -168,7 +166,7 @@ function var_0_0.willExit(arg_11_0)
 	arg_11_0.contextData.isEnter = true
 
 	if var_0_0.BlurPages[arg_11_0.page] then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_11_0.rtBlurPanel, arg_11_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_11_0.rtBlurPanel, arg_11_0._tf)
 	end
 
 	arg_11_0:CancelUITween()
@@ -502,9 +500,9 @@ function var_0_0.SetPage(arg_40_0, arg_40_1)
 	if arg_40_0.page ~= arg_40_1 then
 		if var_0_0.BlurPages[arg_40_0.page or 0] ~= var_0_0.BlurPages[arg_40_1] then
 			if var_0_0.BlurPages[arg_40_1] then
-				pg.UIMgr.GetInstance():BlurPanel(arg_40_0.rtBlurPanel, false)
+				pg.UIMgr.GetInstance():BlurPanel(arg_40_0.rtBlurPanel)
 			else
-				pg.UIMgr.GetInstance():UnblurPanel(arg_40_0.rtBlurPanel, arg_40_0._tf)
+				pg.UIMgr.GetInstance():UnOverlayPanel(arg_40_0.rtBlurPanel, arg_40_0._tf)
 			end
 		end
 
@@ -835,12 +833,12 @@ function var_0_0.showTaskWindow(arg_73_0, arg_73_1)
 	end, SFX_PANEL)
 	setButtonEnabled(var_73_2:Find("btn_go"), arg_73_1:GetFollowingAreaId() or arg_73_1:GetFollowingEntrance())
 	setActive(arg_73_0.rtTaskWindow, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_73_0.rtTaskWindow, arg_73_0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(arg_73_0.rtTaskWindow)
 end
 
 function var_0_0.hideTaskWindow(arg_78_0)
 	setActive(arg_78_0.rtTaskWindow, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_78_0.rtTaskWindow, arg_78_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_78_0.rtTaskWindow, arg_78_0._tf)
 end
 
 return var_0_0

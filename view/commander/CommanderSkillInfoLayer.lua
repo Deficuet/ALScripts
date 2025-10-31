@@ -7,20 +7,20 @@ end
 function var_0_0.init(arg_2_0)
 	pg.UIMgr.GetInstance():BlurPanel(arg_2_0._tf)
 
-	arg_2_0.skillNameTxt = arg_2_0:findTF("panel/bg/skill_name"):GetComponent(typeof(Text))
-	arg_2_0.skillLevelTxt = arg_2_0:findTF("panel/bg/skill_lv"):GetComponent(typeof(Text))
-	arg_2_0.skillDescTxt = arg_2_0:findTF("panel/bg/help_panel/skill_intro"):GetComponent(typeof(Text))
-	arg_2_0.skillIcon = arg_2_0:findTF("panel/bg/skill_icon")
+	arg_2_0.skillNameTxt = arg_2_0._tf:Find("panel/bg/skill_name"):GetComponent(typeof(Text))
+	arg_2_0.skillLevelTxt = arg_2_0._tf:Find("panel/bg/skill_lv"):GetComponent(typeof(Text))
+	arg_2_0.skillDescTxt = arg_2_0._tf:Find("panel/bg/help_panel/skill_intro"):GetComponent(typeof(Text))
+	arg_2_0.skillIcon = arg_2_0._tf:Find("panel/bg/skill_icon")
 end
 
 function var_0_0.didEnter(arg_3_0)
 	onButton(arg_3_0, arg_3_0._tf, function()
 		arg_3_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(arg_3_0, arg_3_0:findTF("panel/top/btnBack"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("panel/top/btnBack"), function()
 		arg_3_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_CANCEL)
-	onButton(arg_3_0, arg_3_0:findTF("panel/ok_button"), function()
+	onButton(arg_3_0, arg_3_0._tf:Find("panel/ok_button"), function()
 		arg_3_0:emit(var_0_0.ON_CLOSE)
 	end, SFX_CONFIRM)
 	arg_3_0:updateSkill()
@@ -41,7 +41,7 @@ function var_0_0.close(arg_8_0)
 end
 
 function var_0_0.willExit(arg_9_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_9_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_9_0._tf)
 end
 
 return var_0_0

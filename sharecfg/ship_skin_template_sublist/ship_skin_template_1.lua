@@ -34,7 +34,7 @@ pg.base.ship_skin_template_1 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "900512",
+		desc = "Universal Bulin. Can be used to limit break all ships of Elite rarity or below.",
 		voice_actor = 72,
 		spine_offset = "",
 		change_skin = "",
@@ -11984,6 +11984,163 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101472] = {
+		ship_group = 10147,
+		name = "Technology or Ninjutsu?",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		id = 101472,
+		l2d_drag_rate = "",
+		group_index = 2,
+		purchase_offset = "",
+		painting = "molisen_3",
+		part_scale = "",
+		prefab = "molisen_3",
+		shop_id = 71213,
+		shop_type_id = 28,
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "320",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "This looks like the perfect place to film a ninja training scene... Ahem! Allow me to demonstrate my ninjutsu to you, Commander! Pl-please keep your eyes peeled! Transformation ninjutsu! Hiyah!",
+		voice_actor = 277,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			7,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			354,
+			-1050,
+			0,
+			1.16
+		},
+		spine_offset_profile = {
+			417,
+			-1066,
+			0,
+			1.17
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.697,
+					0.683,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.461,
+					0.938,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.822,
+							2.495,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-30,
+			-626,
+			0,
+			0.7
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1350,
+					-873,
+					2,
+					0,
+					120,
+					2
+				},
+				{
+					-1038,
+					172,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					175,
+					32,
+					2,
+					0,
+					-120,
+					2
+				}
+			}
+		}
+	},
 	[101480] = {
 		ship_group = 10148,
 		name = "Ingraham",
@@ -13059,6 +13216,208 @@ pg.base.ship_skin_template_1 = {
 			10151120,
 			10151121,
 			10151122
+		}
+	},
+	[101512] = {
+		ship_group = 10151,
+		name = "Lady Laffey's Languid Tour",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		id = 101512,
+		l2d_drag_rate = "",
+		group_index = 2,
+		purchase_offset = "",
+		painting = "lafeiII_4",
+		part_scale = "",
+		prefab = "lafeiII_4",
+		shop_id = 71216,
+		shop_type_id = 10,
+		illustrator = -1,
+		lip_smoothing = 0,
+		bg = "552",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Mmm, eepy... The honorable Lady Laffey of the Castle of the Bunnies requires rest... Commander... I mean, Magistrate... Our tour must wait for now...",
+		voice_actor = 35,
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		shop_offset = {
+			-62.2,
+			-512.2,
+			0,
+			0.47
+		},
+		spine_offset_profile = {
+			-1.7,
+			-507.4,
+			0,
+			0.46
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.367,
+					1.057,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.477,
+					0.959,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.637,
+					2.247,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.833,
+							2.413,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		spine_offset = {
+			40.6,
+			-598.5,
+			0,
+			0.526
+		},
+		ship_l2d_id = {
+			10151101,
+			10151102,
+			10151103,
+			10151104,
+			10151105,
+			10151106,
+			10151107,
+			10151108,
+			10151109,
+			10151110,
+			10151111,
+			10151112,
+			10151113,
+			10151114,
+			10151115,
+			10151116,
+			10151117,
+			10151118,
+			10151119,
+			10151120,
+			10151121,
+			10151122
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-730,
+					602,
+					2,
+					120,
+					0,
+					2
+				},
+				{
+					409.5,
+					132,
+					2,
+					0,
+					-156,
+					2
+				},
+				{
+					-519,
+					-577,
+					2,
+					-100,
+					0,
+					2
+				}
+			}
 		}
 	},
 	[101520] = {
@@ -14894,6 +15253,117 @@ pg.base.ship_skin_template_1 = {
 						{
 							-0.825,
 							1.901,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[102059] = {
+		ship_group = 10205,
+		name = "Helena (Retrofit)",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 102059,
+		group_index = 9,
+		purchase_offset = "",
+		painting = "hailunna_g",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "hailunna_g",
+		shop_type_id = 9997,
+		shop_id = 0,
+		illustrator = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "This new equipment... might take some time to get used to... N-no, I'm sure I can handle it now! Commander, Helena will... meet your expectations!",
+		voice_actor = 34,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.315,
+					1.072,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.32,
+					1.085,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.34,
+					1.091,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.289,
 							0
 						}
 					}

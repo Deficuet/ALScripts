@@ -48,14 +48,14 @@ function var_0_0.TransformColor(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.top = arg_3_0:findTF("top")
-	arg_3_0.plate = arg_3_0:findTF("plate")
-	arg_3_0.storage = arg_3_0:findTF("storage")
-	arg_3_0.dispenseView = arg_3_0:findTF("top/dispenseView")
+	arg_3_0.top = arg_3_0._tf:Find("top")
+	arg_3_0.plate = arg_3_0._tf:Find("plate")
+	arg_3_0.storage = arg_3_0._tf:Find("storage")
+	arg_3_0.dispenseView = arg_3_0._tf:Find("top/dispenseView")
 
 	setActive(arg_3_0.dispenseView, false)
 
-	arg_3_0.resultWindow = arg_3_0:findTF("top/resultwindow")
+	arg_3_0.resultWindow = arg_3_0._tf:Find("top/resultwindow")
 
 	setActive(arg_3_0.resultWindow, false)
 
@@ -80,8 +80,8 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.lastSelectedBall = nil
 	arg_3_0.ballStoragePanel = arg_3_0.storage:Find("house/layout")
 	arg_3_0.ballStorages = CustomIndexLayer.Clone2Full(arg_3_0.ballStoragePanel, 6)
-	arg_3_0.screen_mask = arg_3_0:findTF("mask")
-	arg_3_0.btn_next = arg_3_0:findTF("Button")
+	arg_3_0.screen_mask = arg_3_0._tf:Find("mask")
+	arg_3_0.btn_next = arg_3_0._tf:Find("Button")
 	arg_3_0.btn_next_text = arg_3_0.btn_next:Find("Image")
 	arg_3_0.desc_dispense = arg_3_0.dispenseView:Find("intro/Scroll View/Viewport/text")
 
@@ -235,9 +235,7 @@ function var_0_0.didEnter(arg_8_0)
 	end
 
 	arg_8_0:ResetView()
-	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0.top, {
-		groupName = LayerWeightConst.GROUP_FIREWORK_PRODUCE
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0.top)
 
 	local var_8_2 = arg_8_0:GetMGData():GetSimpleValue("score_reference")
 	local var_8_3 = {}

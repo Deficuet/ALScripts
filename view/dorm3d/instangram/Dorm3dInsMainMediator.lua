@@ -20,7 +20,7 @@ function var_0_0.register(arg_1_0)
 			mediator = Dorm3dChatMediator,
 			data = {
 				chatId = arg_2_1,
-				tf = arg_1_0.viewComponent._tf
+				groupName = arg_1_0.viewComponent:getGroupName()
 			},
 			onRemoved = function()
 				arg_1_0.viewComponent:OpenMain()
@@ -33,7 +33,7 @@ function var_0_0.register(arg_1_0)
 			mediator = Dorm3dInstagramMediator,
 			data = {
 				apartmentGroupId = arg_4_1,
-				tf = arg_1_0.viewComponent._tf
+				groupName = arg_1_0.viewComponent:getGroupName()
 			},
 			onRemoved = function()
 				arg_1_0.viewComponent:OpenMain()
@@ -46,7 +46,7 @@ function var_0_0.register(arg_1_0)
 			mediator = Dorm3dInsPhoneMediator,
 			data = {
 				groupId = arg_6_1,
-				tf = arg_1_0.viewComponent._tf
+				groupName = arg_1_0.viewComponent:getGroupName()
 			},
 			onRemoved = function()
 				arg_1_0.viewComponent:OpenMain()

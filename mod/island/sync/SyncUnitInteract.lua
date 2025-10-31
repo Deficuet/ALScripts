@@ -34,26 +34,29 @@ end
 function var_0_0.UpdateOwner(arg_7_0, arg_7_1)
 	local var_7_0 = #arg_7_1 > arg_7_0:OwnerCount()
 	local var_7_1
+	local var_7_2
 
 	if var_7_0 then
 		for iter_7_0, iter_7_1 in ipairs(arg_7_1) do
 			if not arg_7_0.owners[iter_7_1.slot_id] then
 				arg_7_0.owners[iter_7_1.slot_id] = iter_7_1.owner_id
 				var_7_1 = iter_7_1.owner_id
+				var_7_2 = iter_7_1.slot_id
 
 				break
 			end
 		end
 	else
-		local var_7_2 = {}
+		local var_7_3 = {}
 
 		for iter_7_2, iter_7_3 in ipairs(arg_7_1) do
-			var_7_2[iter_7_3.slot_id] = iter_7_3.owner_id
+			var_7_3[iter_7_3.slot_id] = iter_7_3.owner_id
 		end
 
 		for iter_7_4, iter_7_5 in pairs(arg_7_0.owners) do
-			if not var_7_2[iter_7_4] then
+			if not var_7_3[iter_7_4] then
 				var_7_1 = iter_7_5
+				var_7_2 = iter_7_4
 				arg_7_0.owners[iter_7_4] = nil
 
 				break
@@ -61,7 +64,7 @@ function var_0_0.UpdateOwner(arg_7_0, arg_7_1)
 		end
 	end
 
-	return var_7_0, var_7_1
+	return var_7_0, var_7_1, var_7_2
 end
 
 function var_0_0.RemoveOwner(arg_8_0, arg_8_1)

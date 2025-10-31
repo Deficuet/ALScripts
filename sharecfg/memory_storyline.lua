@@ -2297,20 +2297,45 @@ pg.memory_storyline = {
 	{
 		description = "COMING SOON",
 		name = "COMING SOON",
-		column = 55,
-		memory_id = "",
 		world_id = "",
-		shipnation = 0,
-		memory_lock = 1,
-		bgm = "",
+		memory_lock = 0,
+		column = 55,
+		bgm = "story-amahara-stage1",
 		row = 0,
 		chapter = 4,
 		id = 90,
-		icon = "",
-		sort = 0,
+		icon = "ChapterFour_9",
+		sort = 1,
+		memory_id = {
+			1,
+			339
+		},
+		shipnation = {
+			1,
+			3,
+			97
+		},
 		link_event = {
-			88
+			88,
+			89,
+			91
 		}
+	},
+	{
+		description = "Coming Soon",
+		name = "Coming Soon",
+		column = 56,
+		memory_id = "",
+		link_event = "",
+		shipnation = 0,
+		world_id = "",
+		bgm = "",
+		row = 0,
+		chapter = 4,
+		memory_lock = 1,
+		id = 91,
+		icon = "",
+		sort = 0
 	},
 	all = {
 		1,
@@ -2402,6 +2427,7 @@ pg.memory_storyline = {
 		87,
 		88,
 		89,
-		90
+		90,
+		91
 	}
 }

@@ -325,8 +325,7 @@ function var_0_0.ShowExtraChapterActSocre(arg_20_0, arg_20_1)
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("extra_chapter_socre_tip", var_20_6, var_20_7, var_20_8),
-				weight = LayerWeightConst.SECOND_LAYER
+				content = i18n("extra_chapter_socre_tip", var_20_6, var_20_7, var_20_8)
 			})
 		end
 	end

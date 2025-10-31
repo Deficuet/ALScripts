@@ -15,7 +15,7 @@ function var_0_0.init(arg_2_0)
 	arg_2_0._ticket = arg_2_0._startBtn:Find("ticket")
 	arg_2_0._bonus = arg_2_0._startBtn:Find("bonus")
 	arg_2_0._costTip = arg_2_0._startBtn:Find("cost_container/popup/tip")
-	arg_2_0._continuousBtn = arg_2_0:findTF("right/multiple")
+	arg_2_0._continuousBtn = arg_2_0._tf:Find("right/multiple")
 
 	setText(arg_2_0._continuousBtn:Find("text"), i18n("multiple_sorties_title"))
 	setText(arg_2_0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))
@@ -392,8 +392,7 @@ function var_0_0.didEnter(arg_35_0)
 					onNo = function()
 						arg_35_0:emit(ActivityBossPreCombatMediator.ON_ABORT_EDIT)
 						arg_37_0()
-					end,
-					weight = LayerWeightConst.TOP_LAYER
+					end
 				})
 			end)
 		end
@@ -591,8 +590,7 @@ function var_0_0.displayFleetInfo(arg_54_0)
 		onButton(arg_54_0, arg_54_0._costTip, function()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("use_oil_limit_help", var_54_12, var_54_11),
-				weight = LayerWeightConst.SECOND_LAYER
+				content = i18n("use_oil_limit_help", var_54_12, var_54_11)
 			})
 		end)
 	end
@@ -611,7 +609,7 @@ function var_0_0.onBackPressed(arg_58_0)
 end
 
 function var_0_0.willExit(arg_59_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_59_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_59_0._tf)
 	arg_59_0._formationLogic:Destroy()
 
 	arg_59_0._formationLogic = nil

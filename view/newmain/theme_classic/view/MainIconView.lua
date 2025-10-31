@@ -24,13 +24,13 @@ end
 function var_0_0.Init(arg_3_0, arg_3_1)
 	arg_3_0.ship = arg_3_1
 
-	local var_3_0 = arg_3_0:GetIconType(arg_3_1)
-
 	if arg_3_0.iconInstance then
 		arg_3_0.iconInstance:Unload()
 
 		arg_3_0.iconInstance = nil
 	end
+
+	local var_3_0 = arg_3_0:GetIconType(arg_3_1)
 
 	arg_3_0.iconInstance = arg_3_0.iconList[var_3_0]
 

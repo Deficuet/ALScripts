@@ -11,6 +11,15 @@ var_0_0.LINE_TYPE = {
 	C1 = 2
 }
 var_0_0.DEFAULT_MAX_Y = 10
+var_0_0.EDGE_X = 2
+var_0_0.EDGE_Y = 1
+var_0_0.FocusPriorities = {
+	IslandTechnology.STATUS.RECEIVE,
+	IslandTechnology.STATUS.STUDYING,
+	IslandTechnology.STATUS.NORMAL,
+	IslandTechnology.STATUS.LOCK,
+	IslandTechnology.STATUS.FINISHED
+}
 
 function var_0_0.getUIName(arg_1_0)
 	return "IslandTechTreePanel"
@@ -47,10 +56,8 @@ function var_0_0.OnInit(arg_3_0)
 		arg_3_0.maxY = math.max(arg_3_0.maxY, var_3_0[2])
 	end
 
-	arg_3_0.maxX = arg_3_0.maxX + 1
-	arg_3_0.maxY = math.max(var_0_0.DEFAULT_MAX_Y, arg_3_0.maxY + 1)
-
-	arg_3_0:InitTreeCS(arg_3_0.maxX, arg_3_0.maxY)
+	arg_3_0.maxX = arg_3_0.maxX + var_0_0.EDGE_X
+	arg_3_0.maxY = math.max(var_0_0.DEFAULT_MAX_Y, arg_3_0.maxY + var_0_0.EDGE_Y)
 end
 
 function var_0_0.UpdateItem(arg_5_0, arg_5_1, arg_5_2)
@@ -62,12 +69,13 @@ function var_0_0.UpdateItem(arg_5_0, arg_5_1, arg_5_2)
 
 	setAnchoredPosition(arg_5_2, arg_5_0:GetPositionById(var_5_1.id))
 	setActive(arg_5_2:Find("selected"), false)
-	setText(arg_5_2:Find("name"), var_5_1:getConfig("tech_name"))
+	var_0_0.SetTechName(arg_5_2:Find("name"), var_5_1:getConfig("tech_name"))
 
 	local var_5_2 = var_5_1:GetStatus()
 	local var_5_3 = var_5_2 == IslandTechnology.STATUS.FINISHED
 
-	setTextColor(arg_5_2:Find("name"), Color.NewHex(var_5_3 and "1b3650" or "ffffff"))
+	setTextColor(arg_5_2:Find("name/Text"), Color.NewHex(var_5_3 and "1b3650" or "ffffff"))
+	setTextColor(arg_5_2:Find("name/ScrollText"), Color.NewHex(var_5_3 and "1b3650" or "ffffff"))
 	LoadImageSpriteAsync("island/IslandTechnology/" .. var_5_1:getConfig("tech_icon"), arg_5_2:Find("icon"), true)
 	setImageColor(arg_5_2:Find("icon"), Color.NewHex(var_5_3 and "455a81" or "ffffff"))
 	setActive(arg_5_2:Find("icon"), var_5_2 ~= IslandTechnology.STATUS.STUDYING and var_5_2 ~= IslandTechnology.STATUS.RECEIVE)
@@ -88,10 +96,15 @@ end
 function var_0_0.Show(arg_9_0)
 	arg_9_0.super.Show(arg_9_0)
 	arg_9_0:Flush()
+	arg_9_0:AutoFocus()
 end
 
 function var_0_0.Flush(arg_10_0)
 	arg_10_0.techAgency = getProxy(IslandProxy):GetIsland():GetTechnologyAgency()
+
+	if not arg_10_0.idx2pos then
+		arg_10_0:InitTreeCS(arg_10_0.maxX, arg_10_0.maxY)
+	end
 
 	arg_10_0.itemUIList:align(#arg_10_0.displays)
 end
@@ -109,26 +122,9 @@ function var_0_0.InitTreeCS(arg_11_0, arg_11_1, arg_11_2)
 
 	arg_11_0.idx2pos = {}
 
-	for iter_11_0 = 0, arg_11_1 do
-		for iter_11_1 = 0, arg_11_2 do
-			local var_11_0 = iter_11_0 .. "_" .. iter_11_1
-
-			arg_11_0.idx2pos[var_11_0] = {
-				x = arg_11_0.gridSize.x * iter_11_0,
-				y = -arg_11_0.gridSize.y * iter_11_1
-			}
-
-			local var_11_1 = cloneTplTo(arg_11_0.debugContainer:Find("tpl"), arg_11_0.debugContainer)
-
-			var_11_1.name = var_11_0
-
-			setLocalPosition(var_11_1, arg_11_0.idx2pos[var_11_0])
-		end
-	end
-
-	for iter_11_2, iter_11_3 in pairs(arg_11_0:GetTechTreeLineData()) do
-		for iter_11_4, iter_11_5 in ipairs(iter_11_3) do
-			arg_11_0:UpdateLineTpl(iter_11_2, iter_11_5)
+	for iter_11_0, iter_11_1 in pairs(arg_11_0:GetTechTreeLineData()) do
+		for iter_11_2, iter_11_3 in ipairs(iter_11_1) do
+			arg_11_0:UpdateLineTpl(iter_11_0, iter_11_3)
 		end
 	end
 end
@@ -192,41 +188,89 @@ function var_0_0.GetTechTreeLineData(arg_16_0)
 
 	for iter_16_0, iter_16_1 in ipairs(var_16_0.get_id_list_by_tech_belong[arg_16_0.contextData.type]) do
 		local var_16_2 = var_16_0[iter_16_1]
+		local var_16_3 = {}
 
-		for iter_16_2, iter_16_3 in ipairs(var_16_2.ex_tech) do
-			assert(var_16_0[iter_16_3], "配置了不存在的ex_tech: " .. iter_16_3)
-
-			if not var_16_1[iter_16_3] then
-				var_16_1[iter_16_3] = {}
-			end
-
-			if not table.contains(var_16_1[iter_16_3], iter_16_1) then
-				table.insert(var_16_1[iter_16_3], iter_16_1)
+		for iter_16_2, iter_16_3 in ipairs(var_16_2.sys_unlock) do
+			if iter_16_3[1] == IslandTechnology.UNLOCK_TYPE.FINISH_TECHNOLOGY then
+				table.insert(var_16_3, iter_16_3[2])
 			end
 		end
 
-		if not var_16_1[iter_16_1] then
-			var_16_1[iter_16_1] = {}
-		end
+		for iter_16_4, iter_16_5 in ipairs(var_16_3) do
+			assert(var_16_0[iter_16_5], iter_16_1 .. "科研配置了不存在的前置科研id: " .. iter_16_5)
 
-		var_16_1[iter_16_1] = table.mergeArray(var_16_1[iter_16_1], var_16_2.next_tech, true)
+			if var_16_0[iter_16_5].tech_belong == arg_16_0.contextData.type then
+				if not var_16_1[iter_16_5] then
+					var_16_1[iter_16_5] = {}
+				end
 
-		local var_16_3 = var_16_2.axis[1]
-
-		for iter_16_4, iter_16_5 in ipairs(var_16_1[iter_16_1]) do
-			assert(var_16_0[iter_16_5], "配置了不存在的next_tech: " .. iter_16_5)
-
-			local var_16_4 = var_16_0[iter_16_5].axis[1]
-
-			assert(var_16_4 - var_16_3 > 2, string.format("岛屿科技树框体点位间隔过近,请检查配置: %d->%d", iter_16_1, iter_16_5))
+				if not table.contains(var_16_1[iter_16_5], iter_16_1) then
+					table.insert(var_16_1[iter_16_5], iter_16_1)
+				end
+			end
 		end
 	end
 
 	return var_16_1
 end
 
-function var_0_0.OnDestroy(arg_17_0)
+function var_0_0.AutoFocus(arg_17_0)
+	local var_17_0 = arg_17_0:GetFocusTechId()
+	local var_17_1 = math.max(arg_17_0:GetPositionById(var_17_0).x - var_0_0.ELEMENT_SIZE.x / 2, 0)
+
+	scrollTo(arg_17_0.treeView, var_17_1 / arg_17_0.showContent.rect.width, 0)
+end
+
+function var_0_0.GetFocusTechId(arg_18_0)
+	local var_18_0 = {}
+
+	for iter_18_0, iter_18_1 in ipairs(arg_18_0.displays) do
+		local var_18_1 = arg_18_0.techAgency:GetTechnology(iter_18_1):GetStatus()
+
+		if not var_18_0[var_18_1] then
+			var_18_0[var_18_1] = {}
+		end
+
+		table.insert(var_18_0[var_18_1], iter_18_1)
+	end
+
+	for iter_18_2, iter_18_3 in ipairs(var_0_0.FocusPriorities) do
+		local var_18_2 = var_18_0[iter_18_3]
+
+		if var_18_2 and #var_18_2 > 0 then
+			table.sort(var_18_2, CompareFuncs({
+				function(arg_19_0)
+					return arg_18_0:GetPositionById(arg_19_0).x
+				end,
+				function(arg_20_0)
+					return arg_20_0
+				end
+			}))
+
+			return var_18_2[1]
+		end
+	end
+
+	return arg_18_0.displays[1]
+end
+
+function var_0_0.OnDestroy(arg_21_0)
 	return
+end
+
+function var_0_0.SetTechName(arg_22_0, arg_22_1)
+	local var_22_0 = GetPerceptualSize(arg_22_1)
+
+	GetComponent(arg_22_0:Find("Text"), typeof(Text)).fontSize = var_22_0 > 8 and 28 or 32
+
+	setActive(arg_22_0:Find("Text"), var_22_0 <= 10)
+	setActive(arg_22_0:Find("ScrollText"), var_22_0 > 10)
+
+	if var_22_0 > 10 then
+		setScrollText(arg_22_0:Find("ScrollText"), arg_22_1)
+	else
+		setText(arg_22_0:Find("Text"), arg_22_1)
+	end
 end
 
 return var_0_0

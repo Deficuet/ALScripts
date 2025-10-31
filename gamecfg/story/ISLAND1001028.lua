@@ -20,8 +20,8 @@ return {
 	scripts = {
 		{
 			characterId = 0,
-			say = "你看我把谁带回来了？",
-			animation = "hi",
+			say = "Amerigo! Guess who I brought along.",
+			animation = "talk",
 			face2Face = {
 				{
 					0,
@@ -36,8 +36,25 @@ return {
 		{
 			animation = "amaze",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "哇啊啊！指挥官！你真的抓到它了！太厉害了！",
+			subName = "Manager of the Ranch",
+			say = "Wow! Commander! You actually caught her! You're amazing!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Ranch",
+			characterId = 100500,
+			say = "I was SO freaked out, thinking the ranch was done for when it just got off the ground!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "You should know she's a skilled hider. She was hiding in the shade over there this whole time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,8 +63,55 @@ return {
 		{
 			animation = "nod",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "可把我吓一跳！还以为自己的牧场才刚开始就要倒闭了呢！",
+			subName = "Manager of the Ranch",
+			say = "Man, I can't thank you enough for finding her!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Please, it's nothing to write home about. Still, you need to keep an eye on her from now on.",
+			characterId = 0,
+			animation = "talk",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "sad",
+			characterId = 100500,
+			subName = "Manager of the Ranch",
+			say = "Of course! I'm never letting her go far away again.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Clucky Clucky Bird",
+			withoutIcon = true,
+			say = "Cluck-cluck-cluck!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Ranch",
+			characterId = 100500,
+			say = "Alright, you must be pretty hungry, huh? Let's get you some–",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "scare",
+			characterId = 100500,
+			subName = "Manager of the Ranch",
+			say = "Wait, what the heck?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +119,70 @@ return {
 		},
 		{
 			characterId = 0,
-			say = "这家伙还挺能藏的，躲在那边的墙角里跟我捉迷藏……",
+			say = "What's up?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "embarrass",
+			characterId = 100500,
+			subName = "Manager of the Ranch",
+			say = "The feed... It's run out! It's empty! Not a single grain left!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "It's one thing after another on this ranch...",
+			characterId = 0,
+			animation = "shakehead",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "Where do you usually top up your feed?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			animation = "think",
+			characterId = 100500,
+			subName = "Manager of the Ranch",
+			say = "Uhh... Homeric usually just drops by and gives me some.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of the Ranch",
+			characterId = 100500,
+			say = "Ah, right! She said she takes some wheat to the mill to get it ground up!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			say = "Grinds the wheat? So she makes flour. Alright. Wait right here.",
+			characterId = 0,
+			animation = "nod",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			characterId = 0,
+			say = "She just finished growing some new wheat at the farm, so I'll head over to the mill.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,46 +191,17 @@ return {
 		{
 			animation = "clap",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "指挥官！你就是梅莉的救命恩人！",
+			subName = "Manager of the Ranch",
+			say = "Thank gosh you're so reliable, Commander!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			characterId = 0,
-			say = "只是举手之劳，也算是为牧场做努力了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
+			subName = "Manager of the Ranch",
 			characterId = 100500,
-			subName = "牧场管理员",
-			say = "之后我绝对不会让它跑太远了，真是让人担心。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "doubt",
-			characterId = 100500,
-			subName = "牧场管理员",
-			say = "哦——指挥官！你听到什么声音了吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "curious",
-			characterId = 100500,
-			subName = "牧场管理员",
-			say = "啊，是咯咯鸡下蛋了！我们快去看看！",
+			say = "Me and little clucky here will be waiting for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

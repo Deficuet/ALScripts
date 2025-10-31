@@ -122,7 +122,7 @@ function var_0_0.UpdateActiveBuffItem(arg_19_0, arg_19_1, arg_19_2)
 end
 
 function var_0_0.willExit(arg_20_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_20_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_20_0._tf)
 end
 
 return var_0_0

@@ -3,8 +3,8 @@ local var_0_0 = class("BlackFridayWithManualSignPage", import(".BlackFridayPage"
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.signList = UIItemList.New(arg_1_0:findTF("AD/singlist"), arg_1_0:findTF("AD/singlist/Award"))
-	arg_1_0.signBtn = arg_1_0:findTF("AD/signBtn")
+	arg_1_0.signList = UIItemList.New(arg_1_0._tf:Find("AD/singlist"), arg_1_0._tf:Find("AD/singlist/Award"))
+	arg_1_0.signBtn = arg_1_0._tf:Find("AD/signBtn")
 
 	setText(arg_1_0.signBtn:Find("Text"), i18n("SkinMagazinePage2_tip"))
 end

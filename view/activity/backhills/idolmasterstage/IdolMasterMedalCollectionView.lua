@@ -61,18 +61,18 @@ function var_0_0.initData(arg_5_0)
 end
 
 function var_0_0.findUI(arg_6_0)
-	arg_6_0.bg = arg_6_0:findTF("BG")
+	arg_6_0.bg = arg_6_0._tf:Find("BG")
 
-	local var_6_0 = arg_6_0:findTF("NotchAdapt")
+	local var_6_0 = arg_6_0._tf:Find("NotchAdapt")
 
-	arg_6_0.backBtn = arg_6_0:findTF("BackBtn", var_6_0)
-	arg_6_0.progressText = arg_6_0:findTF("ProgressImg/ProgressText", var_6_0)
-	arg_6_0.helpBtn = arg_6_0:findTF("HelpBtn", var_6_0)
+	arg_6_0.backBtn = var_6_0:Find("BackBtn")
+	arg_6_0.progressText = var_6_0:Find("ProgressImg/ProgressText")
+	arg_6_0.helpBtn = var_6_0:Find("HelpBtn")
 
-	local var_6_1 = arg_6_0:findTF("SwitchBtnList", arg_6_0._tf)
+	local var_6_1 = arg_6_0._tf:Find("SwitchBtnList")
 
 	arg_6_0.tplButtom = findTF(var_6_1, "tplButtom")
-	arg_6_0.imgGot = arg_6_0:findTF("ProgressImg/got", var_6_0)
+	arg_6_0.imgGot = var_6_0:Find("ProgressImg/got")
 	arg_6_0.switchBtnList = {}
 
 	for iter_6_0 = 1, var_0_0.PAGE_NUM do
@@ -93,9 +93,9 @@ function var_0_0.findUI(arg_6_0)
 		table.insert(arg_6_0.switchBtnList, var_6_2)
 	end
 
-	arg_6_0.infoNode = arg_6_0:findTF("book/info")
-	arg_6_0.photoNode = arg_6_0:findTF("book/photo")
-	arg_6_0.photo = arg_6_0:findTF("got", arg_6_0.photoNode)
+	arg_6_0.infoNode = arg_6_0._tf:Find("book/info")
+	arg_6_0.photoNode = arg_6_0._tf:Find("book/photo")
+	arg_6_0.photo = arg_6_0.photoNode:Find("got")
 end
 
 function var_0_0.addListener(arg_9_0)
@@ -149,9 +149,9 @@ function var_0_0.getMedalStatus(arg_15_0, arg_15_1)
 end
 
 function var_0_0.updatePhotoNode(arg_16_0, arg_16_1, arg_16_2)
-	local var_16_0 = arg_16_0:findTF("task", arg_16_0.photoNode)
-	local var_16_1 = arg_16_0:findTF("get", arg_16_0.photoNode)
-	local var_16_2 = arg_16_0:findTF("got", arg_16_0.photoNode)
+	local var_16_0 = arg_16_0.photoNode:Find("task")
+	local var_16_1 = arg_16_0.photoNode:Find("get")
+	local var_16_2 = arg_16_0.photoNode:Find("got")
 	local var_16_3 = arg_16_0:getMedalStatus(arg_16_1)
 	local var_16_4 = (arg_16_0.curPage - 1) * var_0_0.MEDAL_NUM_PER_PAGE + 1
 
@@ -204,9 +204,9 @@ function var_0_0.updatePhotoNode(arg_16_0, arg_16_1, arg_16_2)
 end
 
 function var_0_0.updateInfoNode(arg_22_0, arg_22_1)
-	local var_22_0 = arg_22_0:findTF("task", arg_22_0.infoNode)
-	local var_22_1 = arg_22_0:findTF("get", arg_22_0.infoNode)
-	local var_22_2 = arg_22_0:findTF("got", arg_22_0.infoNode)
+	local var_22_0 = arg_22_0.infoNode:Find("task")
+	local var_22_1 = arg_22_0.infoNode:Find("get")
+	local var_22_2 = arg_22_0.infoNode:Find("got")
 	local var_22_3 = arg_22_0:getMedalStatus(arg_22_1)
 	local var_22_4 = (arg_22_0.curPage - 1) * var_0_0.MEDAL_NUM_PER_PAGE + 2
 
@@ -242,7 +242,7 @@ end
 
 function var_0_0.updateSwitchBtnTF(arg_26_0)
 	for iter_26_0, iter_26_1 in ipairs(arg_26_0.switchBtnList) do
-		local var_26_0 = arg_26_0:findTF("tip", iter_26_1)
+		local var_26_0 = iter_26_1:Find("tip")
 		local var_26_1 = arg_26_0:caculateActivatable(iter_26_0)
 
 		if var_26_1 == 0 or iter_26_0 == arg_26_0.curPage then
@@ -255,8 +255,8 @@ function var_0_0.updateSwitchBtnTF(arg_26_0)
 
 		local var_26_2 = iter_26_0 == arg_26_0.curPage
 
-		setActive(arg_26_0:findTF("icon", iter_26_1), not var_26_2)
-		setActive(arg_26_0:findTF("iconSelect", iter_26_1), var_26_2)
+		setActive(iter_26_1:Find("icon"), not var_26_2)
+		setActive(iter_26_1:Find("iconSelect"), var_26_2)
 	end
 end
 

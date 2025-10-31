@@ -141,9 +141,7 @@ function var_0_0.didEnter(arg_8_0)
 	setText(arg_8_0._tf:Find("Window/Content"), var_8_0)
 	setText(arg_8_0._tf:Find("Window/Confirm/Text"), i18n("msgbox_text_confirm"))
 	setText(arg_8_0._tf:Find("Window/Cancel/Text"), i18n("msgbox_text_cancel"))
-	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0._tf, {
-		weight = LayerWeightConst.THIRD_LAYER
-	})
+	pg.UIMgr.GetInstance():OverlayPanel(arg_8_0._tf)
 end
 
 function var_0_0.InitBanner(arg_16_0)

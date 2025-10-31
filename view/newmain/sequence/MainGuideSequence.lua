@@ -107,6 +107,10 @@ local var_0_1 = {
 		args = function()
 			local var_15_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK)
 
+			if not tobool(var_15_0) then
+				return false
+			end
+
 			return PlayerPrefs.GetInt(string.format("first_enter_ryza_atelier_%s_%s", getProxy(PlayerProxy):getRawData().id, var_15_0.id), 0) == 0 and {
 				1,
 				2
@@ -182,7 +186,7 @@ local var_0_1 = {
 	{
 		id = "ISLAND_GUIDE_1",
 		condition = function()
-			return not LOCK_ISLAND_GUIDE and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "IslandMediator")
+			return not LOCK_ISLAND_DISPLAY and not LOCK_ISLAND_GUIDE and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "IslandMediator")
 		end,
 		args = function()
 			return {}

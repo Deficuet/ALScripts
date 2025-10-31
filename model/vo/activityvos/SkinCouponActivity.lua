@@ -112,182 +112,99 @@ function var_0_0.ShopId2SkinId(arg_18_0, arg_18_1)
 	return pg.shop_template[arg_18_1].effect_args[1]
 end
 
-function var_0_0.OwnAllSkin(arg_19_0)
-	local var_19_0 = arg_19_0:GetShopIdList()
-	local var_19_1 = _.map(var_19_0, function(arg_20_0)
+function var_0_0.GetOwnCount(arg_19_0)
+	local var_19_0 = underscore.map(arg_19_0:GetShopIdList(), function(arg_20_0)
 		return arg_19_0:ShopId2SkinId(arg_20_0)
 	end)
 
-	return _.all(var_19_1, function(arg_21_0)
-		return getProxy(ShipSkinProxy):hasSkin(arg_21_0)
-	end)
+	return #underscore.filter(var_19_0, function(arg_21_0)
+		return getProxy(ShipSkinProxy):hasNonLimitSkin(arg_21_0)
+	end), #var_19_0
 end
 
-function var_0_0.GetSkinCouponAct()
-	local var_22_0 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] or {}
+function var_0_0.OwnAllSkin(arg_22_0)
+	local var_22_0, var_22_1 = arg_22_0:GetOwnCount()
 
-	if #var_22_0 <= 0 then
-		return nil
-	end
+	return var_22_0 == var_22_1
+end
 
-	for iter_22_0 = #var_22_0, 1, -1 do
-		local var_22_1 = var_22_0[iter_22_0]
-		local var_22_2 = getProxy(ActivityProxy):RawGetActivityById(var_22_1)
+function var_0_0.GetSkinCouponAct(arg_23_0)
+	for iter_23_0, iter_23_1 in ipairs(pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] or {}) do
+		local var_23_0 = getProxy(ActivityProxy):RawGetActivityById(iter_23_1)
 
-		if var_22_2 and not var_22_2:isEnd() then
-			return var_22_2
+		if var_23_0 and not var_23_0:isEnd() and (not arg_23_0 or var_23_0:IncludeShop(arg_23_0)) then
+			return var_23_0
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.GetSkinCouponEncoreAct()
-	local var_23_0 = pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] or {}
+function var_0_0.GetSkinCouponEncoreAct(arg_24_0)
+	for iter_24_0, iter_24_1 in ipairs(pg.activity_template.get_id_list_by_type[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] or {}) do
+		local var_24_0 = getProxy(ActivityProxy):RawGetActivityById(iter_24_1)
 
-	if #var_23_0 <= 0 then
-		return nil
-	end
-
-	for iter_23_0 = #var_23_0, 1, -1 do
-		local var_23_1 = var_23_0[iter_23_0]
-		local var_23_2 = getProxy(ActivityProxy):RawGetActivityById(var_23_1)
-
-		if var_23_2 and not var_23_2:isEnd() then
-			return var_23_2
+		if var_24_0 and not var_24_0:isEnd() and (not arg_24_0 or table.contains(var_24_0:getConfig("config_data")[2], arg_24_0)) then
+			return var_24_0
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.StaticExistActivity()
-	local var_24_0 = var_0_0.GetSkinCouponAct()
+function var_0_0.StaticExistActivityAndCoupon(arg_25_0)
+	local var_25_0 = var_0_0.GetSkinCouponAct(arg_25_0)
 
-	return var_24_0 and not var_24_0:isEnd()
+	return var_25_0 and var_25_0:GetCanUsageCnt() > 0
 end
 
-function var_0_0.StaticExistActivityAndCoupon()
-	if not var_0_0.StaticExistActivity() then
-		return false
-	end
+function var_0_0.StaticOwnMaxCntSkinCoupon(arg_26_0)
+	local var_26_0 = var_0_0.GetSkinCouponAct(arg_26_0)
 
-	return var_0_0.GetSkinCouponAct():GetCanUsageCnt() > 0
+	return var_26_0 and var_26_0:IsMaxCnt()
 end
 
-function var_0_0.StaticOwnMaxCntSkinCoupon()
-	if not var_0_0.StaticExistActivity() then
-		return false
-	end
+function var_0_0.StaticCanUsageSkinCoupon(arg_27_0)
+	local var_27_0 = var_0_0.GetSkinCouponAct(arg_27_0)
 
-	return var_0_0.GetSkinCouponAct():IsMaxCnt()
+	return var_27_0 and var_27_0:CanUsageSkinCoupon(arg_27_0)
 end
 
-function var_0_0.StaticOwnAllSkin()
-	if not var_0_0.StaticExistActivity() then
-		return false
-	end
+function var_0_0.StaticGetItemDrop(arg_28_0)
+	local var_28_0 = var_0_0.GetSkinCouponAct(arg_28_0)
 
-	return var_0_0.GetSkinCouponAct():OwnAllSkin()
-end
-
-function var_0_0.StaticGetEquivalentRes()
-	if not var_0_0.StaticExistActivity() then
-		return false
-	end
-
-	return var_0_0.GetSkinCouponAct():GetEquivalentRes()
-end
-
-function var_0_0.StaticCanUsageSkinCoupon(arg_29_0)
-	if not var_0_0.StaticExistActivity() then
-		return false
-	end
-
-	return var_0_0.GetSkinCouponAct():CanUsageSkinCoupon(arg_29_0)
-end
-
-function var_0_0.StaticIsShop(arg_30_0)
-	if not var_0_0.StaticExistActivity() then
-		return false
-	end
-
-	return var_0_0.GetSkinCouponAct():IncludeShop(arg_30_0)
-end
-
-function var_0_0.StaticGetNewPrice(arg_31_0)
-	if not var_0_0.StaticExistActivity() then
-		return arg_31_0
-	end
-
-	return var_0_0.GetSkinCouponAct():GetNewPrice(arg_31_0)
-end
-
-function var_0_0.StaticGetItemConfig()
-	if not var_0_0.StaticExistActivity() then
-		return {}
-	end
-
-	return var_0_0.GetSkinCouponAct():GetItemConfig()
-end
-
-function var_0_0.StaticGetItemDrop()
-	if not var_0_0.StaticExistActivity() then
-		return {}
-	end
-
-	local var_33_0 = var_0_0.GetSkinCouponAct()
-
-	return Drop.New({
+	return var_28_0 and Drop.New({
 		type = DROP_TYPE_VITEM,
-		id = var_33_0:GetItemId(),
-		count = var_33_0:GetCanUsageCnt()
+		id = var_28_0:GetItemId(),
+		count = var_28_0:GetCanUsageCnt()
 	})
 end
 
-function var_0_0.StaticEncoreActTip(arg_34_0)
-	if not var_0_0.StaticExistActivity() then
+function var_0_0.StaticEncoreActTip(arg_29_0)
+	assert(arg_29_0)
+
+	local var_29_0 = var_0_0.GetSkinCouponAct(arg_29_0)
+	local var_29_1 = var_0_0.GetSkinCouponEncoreAct(arg_29_0)
+
+	if not var_29_0 or not var_29_1 then
 		return false
 	end
 
-	local var_34_0 = var_0_0.GetSkinCouponAct()
-	local var_34_1 = var_0_0.GetSkinCouponEncoreAct()
-
-	return var_34_0:IncludeShop(arg_34_0) and var_34_0:GetCanUsageCnt() <= 0 and var_34_1:getData1() > 0
+	return var_29_0:GetCanUsageCnt() <= 0 and var_29_1:getData1() > 0
 end
 
-function var_0_0.AddSkinCoupon(arg_35_0, arg_35_1)
-	if not var_0_0.StaticExistActivity() then
+function var_0_0.UseSkinCoupon(arg_30_0)
+	local var_30_0 = var_0_0.GetSkinCouponAct(arg_30_0)
+
+	if not var_30_0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 		return
 	end
 
-	local var_35_0 = var_0_0.GetSkinCouponAct()
+	var_30_0.data2 = var_30_0.data2 + 1
 
-	if var_35_0:IsMaxCnt() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_already owned"))
-
-		return
-	end
-
-	var_35_0.data1 = var_35_0.data1 + arg_35_1
-
-	getProxy(ActivityProxy):updateActivity(var_35_0)
-end
-
-function var_0_0.UseSkinCoupon()
-	if not var_0_0.StaticExistActivity() then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
-
-		return
-	end
-
-	local var_36_0 = var_0_0.GetSkinCouponAct()
-
-	var_36_0.data2 = var_36_0.data2 + 1
-
-	getProxy(ActivityProxy):updateActivity(var_36_0)
+	getProxy(ActivityProxy):updateActivity(var_30_0)
 end
 
 return var_0_0

@@ -19,10 +19,10 @@ return {
 	},
 	scripts = {
 		{
-			subName = "订单管理员",
+			animation = "doubt",
 			characterId = 100200,
-			say = "嗯？指挥官这么快就把我要的东西都准备好了吗？",
-			animation = "curious",
+			subName = "Manager of Requests",
+			say = "Hm? You've already gotten everything I requested?",
 			face2Face = {
 				{
 					0,
@@ -35,30 +35,28 @@ return {
 			}
 		},
 		{
+			subName = "Manager of Requests",
+			characterId = 100200,
+			say = "Let's have a look-see... Yep, it's all here! You work fast!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			subName = "Manager of Requests",
+			characterId = 100200,
+			say = "Thank gosh you're here. I would've never gotten this done on my own.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			animation = "talk",
 			characterId = 100200,
-			subName = "订单管理员",
-			say = "我看看……数量上没有问题！指挥官的效率真的很高呢~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "sad",
-			characterId = 100200,
-			subName = "订单管理员",
-			say = "还好有你在，不然港口这么忙，都不知道该怎么办才好。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			animation = "nod",
-			characterId = 100200,
-			subName = "订单管理员",
-			say = "还好有你在，不然港口这么忙，都不知道该怎么办才好。",
+			subName = "Manager of Requests",
+			say = "Great work! Keep it up!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

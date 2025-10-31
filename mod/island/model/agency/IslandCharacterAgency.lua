@@ -3,6 +3,7 @@ local var_0_0 = class("IslandCharacterAgency", import(".IslandBaseAgency"))
 var_0_0.ADD_SHIP = "IslandCharacterAgency:ADD_SHIP"
 var_0_0.SHIP_LEVEL_UP = "IslandCharacterAgency:SHIP_LEVEL_UP"
 var_0_0.SHIP_GET_STATE = "IslandCharacterAgency:SHIP_GET_STATE"
+var_0_0.CHANGE_CHARACTER_DRESS = "IslandCharacterAgency:CHANGE_CHARACTER_DRESS"
 var_0_0.NPC_CONFIG_ID = 1
 
 function var_0_0.OnInit(arg_1_0, arg_1_1)
@@ -42,220 +43,255 @@ function var_0_0.OnInit(arg_1_0, arg_1_1)
 
 		arg_1_0.shipSkinDic[iter_1_7.ship_id] = var_1_2
 	end
+
+	arg_1_0.shipWearDressData = {}
+
+	for iter_1_10, iter_1_11 in ipairs(arg_1_1.ship_sys.wear_list or {}) do
+		local var_1_3 = arg_1_0.shipWearDressData[iter_1_11.ship_id] or {}
+
+		table.insert(var_1_3, IslandShipDressItem.New(iter_1_11))
+
+		arg_1_0.shipWearDressData[iter_1_11.ship_id] = var_1_3
+	end
 end
 
-function var_0_0.GetInviteList(arg_2_0)
-	return arg_2_0.inviteList
+function var_0_0.CanFollowPlayer(arg_2_0, arg_2_1)
+	local var_2_0 = arg_2_0.ships[arg_2_1]
+
+	if not var_2_0 then
+		return false
+	end
+
+	local var_2_1 = var_2_0:GetCantFollowTaskIdList()
+	local var_2_2 = false
+
+	if #var_2_1 > 0 then
+		local var_2_3 = arg_2_0:GetHost():GetTaskAgency()
+
+		var_2_2 = _.any(var_2_1, function(arg_3_0)
+			return var_2_3:GetTask(arg_3_0) ~= nil
+		end)
+	end
+
+	return var_2_0:GetState() == IslandShip.STATE_NORMAL and not var_2_2
 end
 
-function var_0_0.AddInvite(arg_3_0, arg_3_1)
-	table.insert(arg_3_0.inviteList, arg_3_1)
+function var_0_0.GetInviteList(arg_4_0)
+	return arg_4_0.inviteList
 end
 
-function var_0_0.HasInvite(arg_4_0, arg_4_1)
-	return _.any(arg_4_0.inviteList, function(arg_5_0)
-		return arg_4_1 == arg_5_0
+function var_0_0.AddInvite(arg_5_0, arg_5_1)
+	table.insert(arg_5_0.inviteList, arg_5_1)
+end
+
+function var_0_0.HasInvite(arg_6_0, arg_6_1)
+	return _.any(arg_6_0.inviteList, function(arg_7_0)
+		return arg_6_1 == arg_7_0
 	end)
 end
 
-function var_0_0.RemoveInvite(arg_6_0, arg_6_1)
-	table.removebyvalue(arg_6_0.inviteList, arg_6_1)
+function var_0_0.RemoveInvite(arg_8_0, arg_8_1)
+	table.removebyvalue(arg_8_0.inviteList, arg_8_1)
 end
 
-function var_0_0.GetShips(arg_7_0)
-	local var_7_0 = {}
+function var_0_0.GetShips(arg_9_0)
+	local var_9_0 = {}
 
-	for iter_7_0, iter_7_1 in pairs(arg_7_0.ships) do
-		if iter_7_1.id ~= var_0_0.NPC_CONFIG_ID then
-			table.insert(var_7_0, iter_7_1)
+	for iter_9_0, iter_9_1 in pairs(arg_9_0.ships) do
+		if iter_9_1.id ~= var_0_0.NPC_CONFIG_ID then
+			table.insert(var_9_0, iter_9_1)
 		end
 	end
 
-	return var_7_0
+	return var_9_0
 end
 
-function var_0_0.GetShipsContainNpc(arg_8_0)
-	local var_8_0 = {}
+function var_0_0.GetShipsContainNpc(arg_10_0)
+	local var_10_0 = {}
 
-	for iter_8_0, iter_8_1 in pairs(arg_8_0.ships) do
-		table.insert(var_8_0, iter_8_1)
+	for iter_10_0, iter_10_1 in pairs(arg_10_0.ships) do
+		table.insert(var_10_0, iter_10_1)
 	end
 
-	return var_8_0
+	return var_10_0
 end
 
-function var_0_0.AddShip(arg_9_0, arg_9_1)
-	arg_9_0.ships[arg_9_1.id] = arg_9_1
+function var_0_0.AddShip(arg_11_0, arg_11_1)
+	arg_11_0.ships[arg_11_1.id] = arg_11_1
 
-	arg_9_0:DispatchEvent(var_0_0.ADD_SHIP, arg_9_1)
+	arg_11_0:DispatchEvent(var_0_0.ADD_SHIP, arg_11_1)
 end
 
-function var_0_0.GetShipById(arg_10_0, arg_10_1)
-	return arg_10_0.ships[arg_10_1]
+function var_0_0.GetShipById(arg_12_0, arg_12_1)
+	return arg_12_0.ships[arg_12_1]
 end
 
-function var_0_0.GetUnlockOrCanUnlockShipConfigIds(arg_11_0)
-	local var_11_0 = {}
+function var_0_0.GetUnlockOrCanUnlockShipConfigIds(arg_13_0)
+	local var_13_0 = {}
 
-	for iter_11_0, iter_11_1 in ipairs(pg.island_chara_template.all) do
-		if iter_11_1 ~= var_0_0.NPC_CONFIG_ID and (arg_11_0.ships[iter_11_1] or arg_11_0:HasInvite(iter_11_1)) then
-			table.insert(var_11_0, iter_11_1)
+	for iter_13_0, iter_13_1 in ipairs(pg.island_chara_template.all) do
+		if iter_13_1 ~= var_0_0.NPC_CONFIG_ID and (arg_13_0.ships[iter_13_1] or arg_13_0:HasInvite(iter_13_1)) then
+			table.insert(var_13_0, iter_13_1)
 		end
 	end
 
-	table.sort(var_11_0, CompareFuncs({
-		function(arg_12_0)
-			return arg_11_0.ships[arg_12_0] and 0 or 1
+	table.sort(var_13_0, CompareFuncs({
+		function(arg_14_0)
+			return arg_13_0.ships[arg_14_0] and 0 or 1
 		end,
-		function(arg_13_0)
-			return arg_13_0
-		end
-	}))
-
-	return var_11_0
-end
-
-function var_0_0.GetUnlockOrCanUnlockShipConfigIdsContainNpc(arg_14_0)
-	local var_14_0 = {}
-
-	for iter_14_0, iter_14_1 in ipairs(pg.island_chara_template.all) do
-		if arg_14_0.ships[iter_14_1] or arg_14_0:HasInvite(iter_14_1) then
-			table.insert(var_14_0, iter_14_1)
-		end
-	end
-
-	table.sort(var_14_0, CompareFuncs({
 		function(arg_15_0)
-			return arg_14_0.ships[arg_15_0] and 0 or 1
-		end,
-		function(arg_16_0)
-			return arg_16_0
+			return arg_15_0
 		end
 	}))
 
-	return var_14_0
+	return var_13_0
 end
 
-function var_0_0.GetAllSkinCnt(arg_17_0)
-	local var_17_0 = 0
+function var_0_0.GetUnlockOrCanUnlockShipConfigIdsContainNpc(arg_16_0)
+	local var_16_0 = {}
 
-	for iter_17_0, iter_17_1 in pairs(arg_17_0.shipSkinDic) do
-		var_17_0 = var_17_0 + #iter_17_1
+	for iter_16_0, iter_16_1 in ipairs(pg.island_chara_template.all) do
+		if arg_16_0.ships[iter_16_1] or arg_16_0:HasInvite(iter_16_1) then
+			table.insert(var_16_0, iter_16_1)
+		end
 	end
 
-	return var_17_0
+	table.sort(var_16_0, CompareFuncs({
+		function(arg_17_0)
+			return arg_16_0.ships[arg_17_0] and 0 or 1
+		end,
+		function(arg_18_0)
+			return arg_18_0
+		end
+	}))
+
+	return var_16_0
 end
 
-function var_0_0.GetOwnSkinListByShipId(arg_18_0, arg_18_1)
-	return arg_18_0.shipSkinDic[arg_18_1] or {}
+function var_0_0.GetAllSkinCnt(arg_19_0)
+	local var_19_0 = 0
+
+	for iter_19_0, iter_19_1 in pairs(arg_19_0.shipSkinDic) do
+		var_19_0 = var_19_0 + #iter_19_1
+	end
+
+	return var_19_0
 end
 
-function var_0_0.AddSkin(arg_19_0, arg_19_1)
-	local var_19_0 = pg.island_skin_template[arg_19_1].ship_group
-	local var_19_1 = arg_19_0.shipSkinDic[var_19_0] or {}
+function var_0_0.GetOwnSkinListByShipId(arg_20_0, arg_20_1)
+	return arg_20_0.shipSkinDic[arg_20_1] or {}
+end
 
-	table.insert(var_19_1, IslandShipSkin.New({
+function var_0_0.AddSkin(arg_21_0, arg_21_1)
+	local var_21_0 = pg.island_skin_template[arg_21_1].ship_group
+	local var_21_1 = arg_21_0.shipSkinDic[var_21_0] or {}
+
+	table.insert(var_21_1, IslandShipSkin.New({
 		color_id = 0,
-		id = arg_19_1,
+		id = arg_21_1,
 		color_list = {}
 	}))
 
-	arg_19_0.shipSkinDic[var_19_0] = var_19_1
+	arg_21_0.shipSkinDic[var_21_0] = var_21_1
 end
 
-function var_0_0.AddSkinColor(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
-	local var_20_0 = arg_20_0.shipSkinDic[arg_20_1] or {}
+function var_0_0.AddSkinColor(arg_22_0, arg_22_1, arg_22_2, arg_22_3)
+	local var_22_0 = arg_22_0.shipSkinDic[arg_22_1] or {}
 
-	for iter_20_0, iter_20_1 in ipairs(var_20_0) do
-		if iter_20_1.id == arg_20_2 then
-			iter_20_1:AddSkinColor(arg_20_3)
+	for iter_22_0, iter_22_1 in ipairs(var_22_0) do
+		if iter_22_1.id == arg_22_2 then
+			iter_22_1:AddSkinColor(arg_22_3)
 		end
 	end
 end
 
-function var_0_0.GetCurrentSkinColorByShipId(arg_21_0, arg_21_1, arg_21_2)
-	for iter_21_0, iter_21_1 in ipairs(arg_21_0.shipSkinDic[arg_21_1] or {}) do
-		if iter_21_1.id == arg_21_2 then
-			return iter_21_1.color_id
+function var_0_0.GetCurrentSkinColorByShipId(arg_23_0, arg_23_1, arg_23_2)
+	for iter_23_0, iter_23_1 in ipairs(arg_23_0.shipSkinDic[arg_23_1] or {}) do
+		if iter_23_1.id == arg_23_2 then
+			return iter_23_1.color_id
 		end
 	end
 
 	return 0
 end
 
-function var_0_0.GetAllOwnDressDic(arg_22_0)
-	return arg_22_0.hasDressData
+function var_0_0.GetAllOwnDressDic(arg_24_0)
+	return arg_24_0.hasDressData
 end
 
-function var_0_0.GetDiffDressCnt(arg_23_0)
-	return #underscore.keys(arg_23_0.hasDressData)
+function var_0_0.GetDiffDressCnt(arg_25_0)
+	return #underscore.keys(arg_25_0.hasDressData)
 end
 
-function var_0_0.GetDiffDressCntByType(arg_24_0, arg_24_1)
-	local var_24_0 = {}
+function var_0_0.GetDiffDressCntByType(arg_26_0, arg_26_1)
+	local var_26_0 = {}
 
-	for iter_24_0, iter_24_1 in pairs(arg_24_0.hasDressData) do
-		if pg.island_dress_template[iter_24_0].type == arg_24_1 and not table.contains(var_24_0, iter_24_0) then
-			table.insert(var_24_0, iter_24_0)
+	for iter_26_0, iter_26_1 in pairs(arg_26_0.hasDressData) do
+		if pg.island_dress_template[iter_26_0].type == arg_26_1 and not table.contains(var_26_0, iter_26_0) then
+			table.insert(var_26_0, iter_26_0)
 		end
 	end
 
-	for iter_24_2, iter_24_3 in pairs(arg_24_0.ships) do
-		local var_24_1 = iter_24_3:GetHasSendToShipDressByType(arg_24_1)
-
-		var_24_0 = table.mergeArray(var_24_0, var_24_1, true)
-	end
-
-	return #var_24_0
+	return #var_26_0
 end
 
-function var_0_0.ExistDressId(arg_25_0, arg_25_1)
-	if arg_25_0.hasDressData[arg_25_1] then
-		return true
-	end
+function var_0_0.ExistDressId(arg_27_0, arg_27_1)
+	return arg_27_0.hasDressData[arg_27_1] ~= nil
+end
 
-	for iter_25_0, iter_25_1 in pairs(arg_25_0.ships) do
-		if iter_25_1:CheckHasOwnDressByDressId(arg_25_1) then
-			return true
+function var_0_0.GetDressIdRealCount(arg_28_0, arg_28_1)
+	local var_28_0 = arg_28_0:GetOwnDressCountByDressId()
+
+	for iter_28_0, iter_28_1 in pairs(arg_28_0.shipWearDressData) do
+		for iter_28_2, iter_28_3 in ipairs(iter_28_1) do
+			if iter_28_3.dress_id == arg_28_1 then
+				var_28_0 = var_28_0 + 1
+			end
 		end
 	end
 
-	return false
+	return var_28_0
 end
 
-function var_0_0.GetOwnDressCountByDressId(arg_26_0, arg_26_1)
-	return arg_26_0.hasDressData[arg_26_1] and arg_26_0.hasDressData[arg_26_1].num or 0
+function var_0_0.GetOwnDressCountByDressId(arg_29_0, arg_29_1)
+	return arg_29_0.hasDressData[arg_29_1] and arg_29_0.hasDressData[arg_29_1].num or 0
 end
 
-function var_0_0.AddDressItem(arg_27_0, arg_27_1, arg_27_2)
-	if not arg_27_0.hasDressData[arg_27_1] then
-		arg_27_0.hasDressData[arg_27_1] = IslandOwnedDressItem.New({
-			read = 0,
-			id = arg_27_1,
-			num = arg_27_2
+function var_0_0.AddDressItem(arg_30_0, arg_30_1, arg_30_2, arg_30_3)
+	if not arg_30_0.hasDressData[arg_30_1] then
+		local var_30_0 = arg_30_3 and 0 or 1
+
+		arg_30_0.hasDressData[arg_30_1] = IslandOwnedDressItem.New({
+			id = arg_30_1,
+			num = arg_30_2,
+			read = var_30_0
 		})
 	else
-		arg_27_0.hasDressData[arg_27_1].num = arg_27_0.hasDressData[arg_27_1].num + arg_27_2
+		arg_30_0.hasDressData[arg_30_1].num = arg_30_0.hasDressData[arg_30_1].num + arg_30_2
+
+		if arg_30_3 then
+			arg_30_0.hasDressData[arg_30_1].read = 1
+		end
 	end
 end
 
-function var_0_0.ReduceDressItem(arg_28_0, arg_28_1, arg_28_2)
-	if not arg_28_0.hasDressData[arg_28_1] then
+function var_0_0.ReduceDressItem(arg_31_0, arg_31_1, arg_31_2)
+	if not arg_31_0.hasDressData[arg_31_1] then
 		return
 	end
 
-	arg_28_0.hasDressData[arg_28_1].num = arg_28_0.hasDressData[arg_28_1].num - arg_28_2
+	arg_31_0.hasDressData[arg_31_1].num = arg_31_0.hasDressData[arg_31_1].num - arg_31_2
 end
 
-function var_0_0.CheckSkinIsOwned(arg_29_0, arg_29_1)
-	if arg_29_1 == 0 then
+function var_0_0.CheckSkinIsOwned(arg_32_0, arg_32_1)
+	if arg_32_1 == 0 then
 		return true
 	end
 
-	local var_29_0 = pg.island_skin_template[arg_29_1].ship_group
+	local var_32_0 = pg.island_skin_template[arg_32_1].ship_group
 
-	for iter_29_0, iter_29_1 in pairs(arg_29_0:GetOwnSkinListByShipId(var_29_0)) do
-		if iter_29_1.id == arg_29_1 then
+	for iter_32_0, iter_32_1 in pairs(arg_32_0:GetOwnSkinListByShipId(var_32_0)) do
+		if iter_32_1.id == arg_32_1 then
 			return true
 		end
 	end
@@ -263,64 +299,122 @@ function var_0_0.CheckSkinIsOwned(arg_29_0, arg_29_1)
 	return false
 end
 
-function var_0_0.GetSkinData(arg_30_0, arg_30_1)
-	if arg_30_1 == 0 then
+function var_0_0.GetSkinData(arg_33_0, arg_33_1)
+	if arg_33_1 == 0 then
 		return nil
 	end
 
-	local var_30_0 = pg.island_skin_template[arg_30_1].ship_group
+	local var_33_0 = pg.island_skin_template[arg_33_1].ship_group
 
-	for iter_30_0, iter_30_1 in pairs(arg_30_0:GetOwnSkinListByShipId(var_30_0)) do
-		if iter_30_1.id == arg_30_1 then
-			return iter_30_1
+	for iter_33_0, iter_33_1 in pairs(arg_33_0:GetOwnSkinListByShipId(var_33_0)) do
+		if iter_33_1.id == arg_33_1 then
+			return iter_33_1
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.SetSkinCurrentColor(arg_31_0, arg_31_1, arg_31_2)
-	if arg_31_1 == 0 then
+function var_0_0.SetSkinCurrentColor(arg_34_0, arg_34_1, arg_34_2)
+	if arg_34_1 == 0 then
 		return
 	end
 
-	local var_31_0 = arg_31_0:GetSkinData(arg_31_1)
+	local var_34_0 = arg_34_0:GetSkinData(arg_34_1)
 
-	if var_31_0 then
-		var_31_0:SetCurrentColor(arg_31_2)
+	if var_34_0 then
+		var_34_0:SetCurrentColor(arg_34_2)
 	end
 end
 
-function var_0_0.CheckSkinColorIsOwned(arg_32_0, arg_32_1, arg_32_2)
-	local var_32_0 = arg_32_0:GetSkinData(arg_32_1)
+function var_0_0.GetSkinCurrentColor(arg_35_0, arg_35_1)
+	if arg_35_1 == 0 then
+		return 0
+	end
 
-	if not var_32_0 then
+	local var_35_0 = arg_35_0:GetSkinData(arg_35_1)
+
+	if var_35_0 then
+		return var_35_0:GetCurrentColor()
+	end
+
+	return 0
+end
+
+function var_0_0.CheckSkinColorIsOwned(arg_36_0, arg_36_1, arg_36_2)
+	local var_36_0 = arg_36_0:GetSkinData(arg_36_1)
+
+	if not var_36_0 then
 		return false
 	end
 
-	return var_32_0:CheckColorOwned(arg_32_2)
+	return var_36_0:CheckColorOwned(arg_36_2)
 end
 
-function var_0_0.GetHasDressData(arg_33_0, arg_33_1)
-	return arg_33_0.hasDressData[arg_33_1]
+function var_0_0.GetHasDressData(arg_37_0, arg_37_1)
+	return arg_37_0.hasDressData[arg_37_1]
 end
 
-function var_0_0.SetDressHasRead(arg_34_0, arg_34_1)
-	if not arg_34_0.hasDressData[arg_34_1] then
+function var_0_0.SetDressHasRead(arg_38_0, arg_38_1)
+	if not arg_38_0.hasDressData[arg_38_1] then
 		return
 	end
 
-	arg_34_0.hasDressData[arg_34_1].read = 1
+	arg_38_0.hasDressData[arg_38_1].read = 1
 end
 
-function var_0_0.CheckRedDotByDressType(arg_35_0, arg_35_1)
-	for iter_35_0, iter_35_1 in pairs(arg_35_0.hasDressData) do
-		if pg.island_dress_template[iter_35_0].type == arg_35_1 and iter_35_1.read == 0 then
+function var_0_0.CheckRedDotByDressType(arg_39_0, arg_39_1)
+	for iter_39_0, iter_39_1 in pairs(arg_39_0.hasDressData) do
+		if iter_39_1:getConfigTable().type == arg_39_1 and iter_39_1.read == 0 then
 			return true
 		end
 	end
 
 	return false
+end
+
+function var_0_0.GetCurDressIdByShipId(arg_40_0, arg_40_1, arg_40_2)
+	local var_40_0 = arg_40_0.shipWearDressData[arg_40_1] or {}
+
+	for iter_40_0, iter_40_1 in ipairs(var_40_0) do
+		if iter_40_1:getConfigTable().type == arg_40_2 then
+			return iter_40_1
+		end
+	end
+
+	return nil
+end
+
+function var_0_0.DischargeDressOnShip(arg_41_0, arg_41_1, arg_41_2)
+	local var_41_0 = arg_41_0.shipWearDressData[arg_41_1] or {}
+	local var_41_1 = -1
+
+	for iter_41_0, iter_41_1 in ipairs(var_41_0) do
+		if iter_41_1.dress_id == arg_41_2 then
+			var_41_1 = iter_41_0
+		end
+	end
+
+	if var_41_1 ~= -1 then
+		table.remove(var_41_0, var_41_1)
+	end
+
+	arg_41_0.shipWearDressData[arg_41_1] = var_41_0
+end
+
+function var_0_0.ChargeDressOnShip(arg_42_0, arg_42_1, arg_42_2)
+	local var_42_0 = arg_42_0.shipWearDressData[arg_42_1] or {}
+
+	table.insert(var_42_0, IslandShipDressItem.New({
+		ship_id = arg_42_1,
+		dress_id = arg_42_2
+	}))
+
+	arg_42_0.shipWearDressData[arg_42_1] = var_42_0
+end
+
+function var_0_0.GetShipHoldedDressDic(arg_43_0)
+	return arg_43_0.shipWearDressData
 end
 
 return var_0_0

@@ -13,7 +13,7 @@ end
 
 function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4)
 	arg_2_0.item = arg_2_1
-	arg_2_0.nameTxt.text = arg_2_1:GetName()
+	arg_2_0.nameTxt.text = arg_2_0:ShortenString(arg_2_1:GetName(), 6)
 
 	updateCustomDrop(arg_2_0._tf, Drop.New({
 		type = DROP_TYPE_ISLAND_ITEM,
@@ -53,6 +53,38 @@ end
 
 function var_0_0.Dispose(arg_5_0)
 	return
+end
+
+function var_0_0.ShortenString(arg_6_0, arg_6_1, arg_6_2)
+	local var_6_0 = 1
+	local var_6_1 = 0
+	local var_6_2 = 0
+	local var_6_3 = #arg_6_1
+	local var_6_4 = false
+
+	while var_6_0 <= var_6_3 do
+		local var_6_5 = string.byte(arg_6_1, var_6_0)
+		local var_6_6, var_6_7 = GetPerceptualSize(var_6_5)
+
+		var_6_0 = var_6_0 + var_6_6
+		var_6_1 = var_6_1 + var_6_7
+
+		local var_6_8 = math.ceil(var_6_1)
+
+		if var_6_8 == arg_6_2 - 1 then
+			var_6_2 = var_6_0
+		elseif arg_6_2 < var_6_8 then
+			var_6_4 = true
+
+			break
+		end
+	end
+
+	if var_6_2 == 0 or var_6_3 < var_6_2 or not var_6_4 then
+		return arg_6_1
+	end
+
+	return string.sub(arg_6_1, 1, var_6_2 - 1) .. ".."
 end
 
 return var_0_0

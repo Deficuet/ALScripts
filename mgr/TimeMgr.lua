@@ -386,11 +386,15 @@ function var_0_1.IsPassTimeByZero(arg_45_0, arg_45_1, arg_45_2)
 	return arg_45_2 < math.fmod(arg_45_1 - arg_45_0._sAnchorTime, var_0_3)
 end
 
-function var_0_1.CalcMonthDays(arg_46_0, arg_46_1, arg_46_2)
-	local var_46_0 = 30
+function var_0_1.GetZeroTimeStamp(arg_46_0, arg_46_1)
+	return arg_46_1 - (arg_46_1 - arg_46_0._sAnchorTime) % var_0_3
+end
 
-	if arg_46_2 == 2 then
-		var_46_0 = (arg_46_1 % 4 == 0 and arg_46_1 % 100 ~= 0 or arg_46_1 % 400 == 0) and 29 or 28
+function var_0_1.CalcMonthDays(arg_47_0, arg_47_1, arg_47_2)
+	local var_47_0 = 30
+
+	if arg_47_2 == 2 then
+		var_47_0 = (arg_47_1 % 4 == 0 and arg_47_1 % 100 ~= 0 or arg_47_1 % 400 == 0) and 29 or 28
 	elseif _.include({
 		1,
 		3,
@@ -399,64 +403,64 @@ function var_0_1.CalcMonthDays(arg_46_0, arg_46_1, arg_46_2)
 		8,
 		10,
 		12
-	}, arg_46_2) then
-		var_46_0 = 31
+	}, arg_47_2) then
+		var_47_0 = 31
 	end
 
-	return var_46_0
+	return var_47_0
 end
 
-function var_0_1.inPeriod(arg_47_0, arg_47_1, arg_47_2)
-	if arg_47_1 and type(arg_47_1) == "string" then
-		return arg_47_1 == "always"
+function var_0_1.inPeriod(arg_48_0, arg_48_1, arg_48_2)
+	if arg_48_1 and type(arg_48_1) == "string" then
+		return arg_48_1 == "always"
 	end
 
-	if not arg_47_1 or not arg_47_2 then
+	if not arg_48_1 or not arg_48_2 then
 		return true
 	end
 
-	local function var_47_0(arg_48_0)
-		return arg_48_0[1] * var_0_2 + arg_48_0[2] * 60 + arg_48_0[3]
+	local function var_48_0(arg_49_0)
+		return arg_49_0[1] * var_0_2 + arg_49_0[2] * 60 + arg_49_0[3]
 	end
 
-	local var_47_1 = (arg_47_0:GetServerTime() - arg_47_0._sAnchorTime) % var_0_3
-	local var_47_2 = var_47_0(arg_47_1)
-	local var_47_3 = var_47_0(arg_47_2)
+	local var_48_1 = (arg_48_0:GetServerTime() - arg_48_0._sAnchorTime) % var_0_3
+	local var_48_2 = var_48_0(arg_48_1)
+	local var_48_3 = var_48_0(arg_48_2)
 
-	return var_47_2 <= var_47_1 and var_47_1 <= var_47_3
+	return var_48_2 <= var_48_1 and var_48_1 <= var_48_3
 end
 
-function var_0_1.inTime(arg_49_0, arg_49_1, arg_49_2)
-	if not arg_49_1 then
+function var_0_1.inTime(arg_50_0, arg_50_1, arg_50_2)
+	if not arg_50_1 then
 		return true
 	end
 
-	if type(arg_49_1) == "string" then
-		return arg_49_1 == "always"
+	if type(arg_50_1) == "string" then
+		return arg_50_1 == "always"
 	end
 
-	if type(arg_49_1[1]) == "string" then
-		arg_49_1 = {
-			arg_49_1[2],
-			arg_49_1[3]
+	if type(arg_50_1[1]) == "string" then
+		arg_50_1 = {
+			arg_50_1[2],
+			arg_50_1[3]
 		}
 	end
 
-	local function var_49_0(arg_50_0)
+	local function var_50_0(arg_51_0)
 		return {
-			year = arg_50_0[1][1],
-			month = arg_50_0[1][2],
-			day = arg_50_0[1][3],
-			hour = arg_50_0[2][1],
-			min = arg_50_0[2][2],
-			sec = arg_50_0[2][3]
+			year = arg_51_0[1][1],
+			month = arg_51_0[1][2],
+			day = arg_51_0[1][3],
+			hour = arg_51_0[2][1],
+			min = arg_51_0[2][2],
+			sec = arg_51_0[2][3]
 		}
 	end
 
-	local var_49_1
+	local var_50_1
 
-	if #arg_49_1 > 0 then
-		var_49_1 = var_49_0(arg_49_1[1] or {
+	if #arg_50_1 > 0 then
+		var_50_1 = var_50_0(arg_50_1[1] or {
 			{
 				2000,
 				1,
@@ -470,10 +474,10 @@ function var_0_1.inTime(arg_49_0, arg_49_1, arg_49_2)
 		})
 	end
 
-	local var_49_2
+	local var_50_2
 
-	if #arg_49_1 > 1 then
-		var_49_2 = var_49_0(arg_49_1[2] or {
+	if #arg_50_1 > 1 then
+		var_50_2 = var_50_0(arg_50_1[2] or {
 			{
 				2000,
 				1,
@@ -487,40 +491,40 @@ function var_0_1.inTime(arg_49_0, arg_49_1, arg_49_2)
 		})
 	end
 
-	local var_49_3
+	local var_50_3
 
-	if var_49_1 and var_49_2 then
-		local var_49_4 = arg_49_2 or arg_49_0:GetServerTime()
-		local var_49_5 = arg_49_0:Table2ServerTime(var_49_1)
-		local var_49_6 = arg_49_0:Table2ServerTime(var_49_2)
+	if var_50_1 and var_50_2 then
+		local var_50_4 = arg_50_2 or arg_50_0:GetServerTime()
+		local var_50_5 = arg_50_0:Table2ServerTime(var_50_1)
+		local var_50_6 = arg_50_0:Table2ServerTime(var_50_2)
 
-		if var_49_4 < var_49_5 then
-			return false, var_49_1
+		if var_50_4 < var_50_5 then
+			return false, var_50_1
 		end
 
-		if var_49_6 < var_49_4 then
+		if var_50_6 < var_50_4 then
 			return false, nil
 		end
 
-		var_49_3 = var_49_2
+		var_50_3 = var_50_2
 	end
 
-	return true, var_49_3
+	return true, var_50_3
 end
 
-function var_0_1.passTime(arg_51_0, arg_51_1)
-	if not arg_51_1 then
+function var_0_1.passTime(arg_52_0, arg_52_1)
+	if not arg_52_1 then
 		return true
 	end
 
-	local var_51_0 = (function(arg_52_0)
-		local var_52_0 = {}
+	local var_52_0 = (function(arg_53_0)
+		local var_53_0 = {}
 
-		var_52_0.year, var_52_0.month, var_52_0.day = unpack(arg_52_0[1])
-		var_52_0.hour, var_52_0.min, var_52_0.sec = unpack(arg_52_0[2])
+		var_53_0.year, var_53_0.month, var_53_0.day = unpack(arg_53_0[1])
+		var_53_0.hour, var_53_0.min, var_53_0.sec = unpack(arg_53_0[2])
 
-		return var_52_0
-	end)(arg_51_1 or {
+		return var_53_0
+	end)(arg_52_1 or {
 		{
 			2000,
 			1,
@@ -533,8 +537,8 @@ function var_0_1.passTime(arg_51_0, arg_51_1)
 		}
 	})
 
-	if var_51_0 then
-		return arg_51_0:GetServerTime() > arg_51_0:Table2ServerTime(var_51_0)
+	if var_52_0 then
+		return arg_52_0:GetServerTime() > arg_52_0:Table2ServerTime(var_52_0)
 	end
 
 	return true

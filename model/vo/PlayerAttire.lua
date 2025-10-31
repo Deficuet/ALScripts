@@ -41,6 +41,13 @@ function var_0_0.Flush(arg_2_0, arg_2_1)
 	arg_2_0.iconFrame = arg_2_1.icon_frame or var_2_0.icon_frame or 0
 	arg_2_0.chatFrame = arg_2_1.chat_frame or var_2_0.chat_frame or 0
 	arg_2_0.iconTheme = arg_2_1.icon_theme or var_2_0.icon_theme or 0
+	arg_2_0.attireInfo = {}
+	arg_2_0.attireInfo[AttireConst.TYPE_ICON_FRAME] = arg_2_0.iconFrame
+	arg_2_0.attireInfo[AttireConst.TYPE_CHAT_FRAME] = arg_2_0.chatFrame
+end
+
+function var_0_0.getPainting(arg_5_0)
+	return pg.ship_skin_template[arg_5_0.skinId].painting
 end
 
 return var_0_0

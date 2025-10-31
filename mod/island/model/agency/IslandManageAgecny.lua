@@ -1,7 +1,8 @@
 local var_0_0 = class("IslandManageAgecny", import(".IslandBaseAgency"))
 
 var_0_0.UPDATE_RESTAURANT = "IslandManageAgecny.UPDATE_RESTAURANT"
-var_0_0.ADD_RESTAURANT = "IslandManageAgecny.UPDATE_RESTAURANT"
+var_0_0.ADD_RESTAURANT = "IslandManageAgecny.ADD_RESTAURANT"
+var_0_0.ADD_ASSISTANT = "IslandManageAgecny.ADD_ASSISTANT"
 var_0_0.ON_DAILY_REFRESH = "IslandManageAgecny.ON_DAILY_REFRESH"
 
 function var_0_0.OnInit(arg_1_0, arg_1_1)
@@ -25,7 +26,7 @@ function var_0_0.InitEventData(arg_2_0, arg_2_1)
 	local var_2_2 = {}
 
 	for iter_2_0, iter_2_1 in ipairs(arg_2_1.effect or {}) do
-		var_2_2[iter_2_1.food_id] = iter_2_1.add_per
+		var_2_2[iter_2_1.food_id] = iter_2_1.add_per / 100
 	end
 
 	for iter_2_2, iter_2_3 in pairs(arg_2_0.restaurants) do
@@ -84,6 +85,9 @@ function var_0_0.UnlockNewRestaurant(arg_9_0, arg_9_1)
 		id = arg_9_1
 	})
 
+	var_9_0:InitEventData(0, {})
+	var_9_0:InitRemainCnt(0)
+
 	arg_9_0.restaurants[var_9_0.id] = var_9_0
 
 	arg_9_0:DispatchEvent(var_0_0.ADD_RESTAURANT)
@@ -94,6 +98,7 @@ function var_0_0.UnlockNewAssistant(arg_10_0, arg_10_1)
 
 	assert(arg_10_0.restaurants[var_10_0], string.format("未解锁%d餐厅,提前解锁了%d餐厅岗位", var_10_0, arg_10_1))
 	arg_10_0.restaurants[var_10_0]:UnlockNewAssistant(arg_10_1)
+	arg_10_0:DispatchEvent(var_0_0.ADD_ASSISTANT)
 end
 
 function var_0_0.DailyRefresh(arg_11_0, arg_11_1)
@@ -104,6 +109,34 @@ end
 
 function var_0_0.UnlockDailyEvent(arg_12_0, arg_12_1)
 	arg_12_0:InitEventData(arg_12_1)
+end
+
+function var_0_0.GetTipInfos(arg_13_0)
+	local var_13_0 = 0
+	local var_13_1 = 0
+	local var_13_2 = {}
+
+	for iter_13_0, iter_13_1 in ipairs(pg.island_set.post_manage_operate.key_value_varchar) do
+		local var_13_3 = arg_13_0.restaurants[iter_13_1]
+
+		if var_13_3 then
+			local var_13_4 = var_13_3:GetStatus()
+
+			if var_13_4 == IslandRestaurant.STATUS.CLOSE then
+				var_13_0 = var_13_0 + 1
+			elseif var_13_4 == IslandRestaurant.STATUS.PREPARE then
+				var_13_1 = var_13_1 + #var_13_3:GetAssistants()
+			elseif var_13_4 == IslandRestaurant.STATUS.OPENING then
+				table.insert(var_13_2, var_13_3:GetEndTime())
+			end
+		end
+	end
+
+	return {
+		awardCnt = var_13_0,
+		emptyCnt = var_13_1,
+		timestamps = var_13_2
+	}
 end
 
 return var_0_0

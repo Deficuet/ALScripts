@@ -41,39 +41,39 @@ end
 function var_0_0.init(arg_3_0)
 	var_0_0.super.init(arg_3_0)
 
-	arg_3_0.mapTF = arg_3_0:findTF("map")
-	arg_3_0.bgTF = arg_3_0:findTF("bg", arg_3_0.mapTF)
-	arg_3_0.mapContent = arg_3_0:findTF("content", arg_3_0.mapTF)
-	arg_3_0.storiesTF = arg_3_0:findTF("stories", arg_3_0.mapContent)
-	arg_3_0.storyTpl = arg_3_0:findTF("story_node", arg_3_0.storiesTF)
+	arg_3_0.mapTF = arg_3_0._tf:Find("map")
+	arg_3_0.bgTF = arg_3_0.mapTF:Find("bg")
+	arg_3_0.mapContent = arg_3_0.mapTF:Find("content")
+	arg_3_0.storiesTF = arg_3_0.mapContent:Find("stories")
+	arg_3_0.storyTpl = arg_3_0.storiesTF:Find("story_node")
 
 	setActive(arg_3_0.storyTpl, false)
 
-	arg_3_0.strongholdsTF = arg_3_0:findTF("strongholds", arg_3_0.mapContent)
-	arg_3_0.locationsTF = arg_3_0:findTF("locations", arg_3_0.mapContent)
-	arg_3_0.uiTF = arg_3_0:findTF("ui")
-	arg_3_0.focusTF = arg_3_0:findTF("focus", arg_3_0.uiTF)
+	arg_3_0.strongholdsTF = arg_3_0.mapContent:Find("strongholds")
+	arg_3_0.locationsTF = arg_3_0.mapContent:Find("locations")
+	arg_3_0.uiTF = arg_3_0._tf:Find("ui")
+	arg_3_0.focusTF = arg_3_0.uiTF:Find("focus")
 
-	setActive(arg_3_0:findTF("tpl", arg_3_0.focusTF), false)
+	setActive(arg_3_0.focusTF:Find("tpl"), false)
 
-	arg_3_0.topUI = arg_3_0:findTF("top", arg_3_0.uiTF)
-	arg_3_0.ptIconTF = arg_3_0:findTF("res_panel/icon", arg_3_0.topUI)
-	arg_3_0.ptValueTF = arg_3_0:findTF("res_panel/Text", arg_3_0.topUI)
-	arg_3_0.leftUI = arg_3_0:findTF("left", arg_3_0.uiTF)
-	arg_3_0.battleBtn = arg_3_0:findTF("battle_btn", arg_3_0.leftUI)
-	arg_3_0.storyBtn = arg_3_0:findTF("story_btn", arg_3_0.leftUI)
-	arg_3_0.leftArrow = arg_3_0:findTF("arrow", arg_3_0.leftUI)
-	arg_3_0.rightArrow = arg_3_0:findTF("right/arrow", arg_3_0.uiTF)
+	arg_3_0.topUI = arg_3_0.uiTF:Find("top")
+	arg_3_0.ptIconTF = arg_3_0.topUI:Find("res_panel/icon")
+	arg_3_0.ptValueTF = arg_3_0.topUI:Find("res_panel/Text")
+	arg_3_0.leftUI = arg_3_0.uiTF:Find("left")
+	arg_3_0.battleBtn = arg_3_0.leftUI:Find("battle_btn")
+	arg_3_0.storyBtn = arg_3_0.leftUI:Find("story_btn")
+	arg_3_0.leftArrow = arg_3_0.leftUI:Find("arrow")
+	arg_3_0.rightArrow = arg_3_0.uiTF:Find("right/arrow")
 	arg_3_0.playerId = getProxy(PlayerProxy):getRawData().id
 	arg_3_0.battleHideLocations = {
-		arg_3_0:findTF("2/xifangjudian", arg_3_0.locationsTF),
-		arg_3_0:findTF("3/zhongbujudian", arg_3_0.locationsTF),
-		arg_3_0:findTF("4/dongfangjudian", arg_3_0.locationsTF),
-		arg_3_0:findTF("5/julongchaoxue", arg_3_0.locationsTF),
-		arg_3_0:findTF("5/mowangcheng", arg_3_0.locationsTF),
-		arg_3_0:findTF("wangdu", arg_3_0.locationsTF)
+		arg_3_0.locationsTF:Find("2/xifangjudian"),
+		arg_3_0.locationsTF:Find("3/zhongbujudian"),
+		arg_3_0.locationsTF:Find("4/dongfangjudian"),
+		arg_3_0.locationsTF:Find("5/julongchaoxue"),
+		arg_3_0.locationsTF:Find("5/mowangcheng"),
+		arg_3_0.locationsTF:Find("wangdu")
 	}
-	arg_3_0.clickMask = arg_3_0:findTF("click_mask", arg_3_0.uiTF)
+	arg_3_0.clickMask = arg_3_0.uiTF:Find("click_mask")
 
 	setActive(arg_3_0.clickMask, false)
 end
@@ -81,13 +81,13 @@ end
 function var_0_0.didEnter(arg_4_0)
 	var_0_0.super.didEnter(arg_4_0)
 	arg_4_0:SetNativeSizes()
-	onButton(arg_4_0, arg_4_0:findTF("return_btn", arg_4_0.topUI), function()
+	onButton(arg_4_0, arg_4_0.topUI:Find("return_btn"), function()
 		arg_4_0:onBackPressed()
 	end, SFX_PANEL)
-	onButton(arg_4_0, arg_4_0:findTF("home_btn", arg_4_0.topUI), function()
+	onButton(arg_4_0, arg_4_0.topUI:Find("home_btn"), function()
 		arg_4_0:quickExitFunc()
 	end, SFX_CANCEL)
-	onButton(arg_4_0, arg_4_0:findTF("help_btn", arg_4_0.topUI), function()
+	onButton(arg_4_0, arg_4_0.topUI:Find("help_btn"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.otherworld_map_help.tip
@@ -109,7 +109,7 @@ function var_0_0.didEnter(arg_4_0)
 			arg_4_0:ShowStoryMode()
 		end)
 	end, SFX_CANCEL)
-	onButton(arg_4_0, arg_4_0:findTF("terminal_btn", arg_4_0.leftUI), function()
+	onButton(arg_4_0, arg_4_0.leftUI:Find("terminal_btn"), function()
 		arg_4_0:OpenTerminal()
 	end, SFX_CANCEL)
 	onScroll(arg_4_0, arg_4_0.mapTF, function(arg_13_0)
@@ -253,8 +253,8 @@ function var_0_0.SetNativeSizes(arg_20_0)
 end
 
 function var_0_0.BindStronghold(arg_26_0, arg_26_1, arg_26_2)
-	onButton(arg_26_0, arg_26_0:findTF(arg_26_1 .. "/icon", arg_26_0.strongholdsTF), arg_26_2, SFX_PANEL)
-	onButton(arg_26_0, arg_26_0:findTF(arg_26_1 .. "/name", arg_26_0.strongholdsTF), arg_26_2, SFX_PANEL)
+	onButton(arg_26_0, arg_26_0.strongholdsTF:Find(arg_26_1 .. "/icon"), arg_26_2, SFX_PANEL)
+	onButton(arg_26_0, arg_26_0.strongholdsTF:Find(arg_26_1 .. "/name"), arg_26_2, SFX_PANEL)
 end
 
 function var_0_0.InitStrongholds(arg_27_0, arg_27_1, arg_27_2)
@@ -405,7 +405,7 @@ function var_0_0.onDragFunction(arg_35_0)
 
 	if arg_35_0.contextData.mode == var_0_0.MODE_BATTLE then
 		local var_35_12
-		local var_35_13 = arg_35_0._tf:InverseTransformPoint(arg_35_0:findTF("wangdu", arg_35_0.strongholdsTF).position)
+		local var_35_13 = arg_35_0._tf:InverseTransformPoint(arg_35_0.strongholdsTF:Find("wangdu").position)
 
 		var_35_13.x = var_35_13.x + 150
 
@@ -420,10 +420,10 @@ function var_0_0.onDragFunction(arg_35_0)
 			end
 		end
 
-		setActive(arg_35_0:findTF("tip", arg_35_0.leftArrow), arg_35_0.isShowWangduTip and var_35_12)
+		setActive(arg_35_0.leftArrow:Find("tip"), arg_35_0.isShowWangduTip and var_35_12)
 
 		local var_35_18
-		local var_35_19 = arg_35_0._tf:InverseTransformPoint(arg_35_0:findTF("mowangcheng", arg_35_0.strongholdsTF).position)
+		local var_35_19 = arg_35_0._tf:InverseTransformPoint(arg_35_0.strongholdsTF:Find("mowangcheng").position)
 
 		var_35_19.x = var_35_19.x + 100
 
@@ -438,7 +438,7 @@ function var_0_0.onDragFunction(arg_35_0)
 			end
 		end
 
-		setActive(arg_35_0:findTF("tip", arg_35_0.rightArrow), arg_35_0.isShowSpTip and var_35_18)
+		setActive(arg_35_0.rightArrow:Find("tip"), arg_35_0.isShowSpTip and var_35_18)
 	end
 end
 
@@ -548,8 +548,8 @@ end
 
 function var_0_0.UpdateToggleTip(arg_52_0)
 	if not arg_52_0.eventAct then
-		setActive(arg_52_0:findTF("new", arg_52_0.storyBtn), false)
-		setActive(arg_52_0:findTF("new", arg_52_0.battleBtn), false)
+		setActive(arg_52_0.storyBtn:Find("new"), false)
+		setActive(arg_52_0.battleBtn:Find("new"), false)
 
 		return
 	end
@@ -566,8 +566,8 @@ function var_0_0.UpdateToggleTip(arg_52_0)
 		return var_54_0 and arg_52_0.eventAct:CheckTrigger(var_54_0.id) and var_54_0:GetMode() == SingleEvent.MODE_TYPE.BATTLE
 	end)
 
-	setActive(arg_52_0:findTF("new", arg_52_0.storyBtn), var_52_1)
-	setActive(arg_52_0:findTF("new", arg_52_0.battleBtn), var_52_2)
+	setActive(arg_52_0.storyBtn:Find("new"), var_52_1)
+	setActive(arg_52_0.battleBtn:Find("new"), var_52_2)
 end
 
 function var_0_0.UpdateMapArea(arg_55_0)
@@ -581,15 +581,15 @@ function var_0_0.UpdateMapArea(arg_55_0)
 	for iter_55_0 = var_0_0.MAP_AREA_START, var_0_0.MAP_AREA_CNT do
 		local var_55_2 = table.contains(var_55_1, iter_55_0)
 
-		setActive(arg_55_0:findTF(tostring(iter_55_0), arg_55_0.locationsTF), not var_55_0 or not var_55_2)
-		setActive(arg_55_0:findTF(tostring(iter_55_0), arg_55_0.bgTF), var_55_2 and var_55_0)
+		setActive(arg_55_0._tf:Find(tostring(iter_55_0), arg_55_0.locationsTF), not var_55_0 or not var_55_2)
+		setActive(arg_55_0._tf:Find(tostring(iter_55_0), arg_55_0.bgTF), var_55_2 and var_55_0)
 	end
 end
 
 function var_0_0.PlayMapAnim(arg_56_0, arg_56_1, arg_56_2)
 	local var_56_0 = arg_56_0.eventAct:GetEventById(arg_56_1):GetMapOptions()
-	local var_56_1 = arg_56_0:findTF(var_56_0, arg_56_0.bgTF)
-	local var_56_2 = arg_56_0:findTF(var_56_0, arg_56_0.locationsTF)
+	local var_56_1 = arg_56_0.bgTF:Find(var_56_0)
+	local var_56_2 = arg_56_0.locationsTF:Find(var_56_0)
 
 	if var_56_1 and var_56_2 then
 		setActive(var_56_1, true)
@@ -617,8 +617,8 @@ end
 function var_0_0.UpdateWangduBtn(arg_61_0)
 	arg_61_0.isShowWangduTip = OtherworldBackHillScene.IsShowTip()
 
-	setActive(arg_61_0:findTF("wangdu/name/tip", arg_61_0.strongholdsTF), arg_61_0.isShowWangduTip)
-	setActive(arg_61_0:findTF("tip", arg_61_0.leftArrow), arg_61_0.isShowWangduTip and arg_61_0.contextData.mode == var_0_0.MODE_BATTLE)
+	setActive(arg_61_0.strongholdsTF:Find("wangdu/name/tip"), arg_61_0.isShowWangduTip)
+	setActive(arg_61_0.leftArrow:Find("tip"), arg_61_0.isShowWangduTip and arg_61_0.contextData.mode == var_0_0.MODE_BATTLE)
 end
 
 function var_0_0.UpdateEntrances(arg_62_0)
@@ -627,24 +627,24 @@ function var_0_0.UpdateEntrances(arg_62_0)
 	for iter_62_0, iter_62_1 in pairs(var_62_0:GetEnemyDatas()) do
 		local var_62_1 = var_62_0:IsUnlockByEnemyId(iter_62_1.id)
 		local var_62_2 = iter_62_1:GetType()
-		local var_62_3 = arg_62_0:findTF(var_0_0.TYPE2NAME[var_62_2], arg_62_0.strongholdsTF)
-		local var_62_4 = arg_62_0:findTF("lock", var_62_3)
+		local var_62_3 = arg_62_0.strongholdsTF:Find(var_0_0.TYPE2NAME[var_62_2])
+		local var_62_4 = var_62_3:Find("lock")
 
 		if var_62_4 then
 			setActive(var_62_4, not var_62_1)
 		end
 
 		if var_62_2 == BossSingleEnemyData.TYPE.SP then
-			setActive(arg_62_0:findTF("count", var_62_3), var_62_1 and iter_62_1:InTime())
+			setActive(var_62_3:Find("count"), var_62_1 and iter_62_1:InTime())
 
 			local var_62_5, var_62_6 = var_62_0:GetCounts(iter_62_1.id)
 
-			setText(arg_62_0:findTF("count/Text", var_62_3), i18n("levelScene_chapter_count_tip") .. var_62_5 .. "/" .. var_62_6)
+			setText(var_62_3:Find("count/Text"), i18n("levelScene_chapter_count_tip") .. var_62_5 .. "/" .. var_62_6)
 
 			local var_62_7 = var_62_1 and var_62_5 > 0 and iter_62_1:InTime()
 
-			setActive(arg_62_0:findTF("name/tip", var_62_3), var_62_7)
-			setActive(arg_62_0:findTF("tip", arg_62_0.rightArrow), var_62_7 and arg_62_0.contextData.mode == var_0_0.MODE_BATTLE)
+			setActive(var_62_3:Find("name/tip"), var_62_7)
+			setActive(arg_62_0.rightArrow:Find("tip"), var_62_7 and arg_62_0.contextData.mode == var_0_0.MODE_BATTLE)
 		end
 	end
 end
@@ -779,7 +779,7 @@ function var_0_0.UpdateRes(arg_79_0)
 end
 
 function var_0_0.UpdateTerminalTip(arg_80_0)
-	setActive(arg_80_0:findTF("terminal_btn/tip", arg_80_0.leftUI), TerminalAdventurePage.IsTip())
+	setActive(arg_80_0.leftUI:Find("terminal_btn/tip"), TerminalAdventurePage.IsTip())
 end
 
 function var_0_0.ShowBattleMode(arg_81_0)
@@ -807,8 +807,8 @@ function var_0_0.ShowBattleMode(arg_81_0)
 		arg_81_0.isShowSpTip = var_81_2 > 0
 	end
 
-	setActive(arg_81_0:findTF("tip", arg_81_0.rightArrow), arg_81_0.isShowSpTip)
-	setActive(arg_81_0:findTF("tip", arg_81_0.leftArrow), arg_81_0.isShowWangduTip)
+	setActive(arg_81_0.rightArrow:Find("tip"), arg_81_0.isShowSpTip)
+	setActive(arg_81_0.leftArrow:Find("tip"), arg_81_0.isShowWangduTip)
 	PlayerPrefs.SetInt(var_0_2 .. arg_81_0.playerId, arg_81_0.contextData.mode)
 	PlayerPrefs.Save()
 end
@@ -826,8 +826,8 @@ function var_0_0.ShowStoryMode(arg_82_0)
 
 	arg_82_0:UpdateEvents()
 	arg_82_0:UpdateMapArea()
-	setActive(arg_82_0:findTF("tip", arg_82_0.rightArrow), false)
-	setActive(arg_82_0:findTF("tip", arg_82_0.leftArrow), false)
+	setActive(arg_82_0.rightArrow:Find("tip"), false)
+	setActive(arg_82_0.leftArrow:Find("tip"), false)
 	PlayerPrefs.SetInt(var_0_2 .. arg_82_0.playerId, arg_82_0.contextData.mode)
 	PlayerPrefs.Save()
 end

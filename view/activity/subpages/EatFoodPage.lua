@@ -4,29 +4,29 @@ local var_0_2 = 31
 
 function var_0_0.OnInit(arg_1_0)
 	arg_1_0.icons = {
-		arg_1_0:findTF("AD/bg/npc1"),
-		arg_1_0:findTF("AD/bg/npc2"),
-		arg_1_0:findTF("AD/bg/npc3"),
-		arg_1_0:findTF("AD/bg/npc4"),
-		arg_1_0:findTF("AD/bg/npc5"),
-		arg_1_0:findTF("AD/bg/npc6"),
-		arg_1_0:findTF("AD/bg/npc7")
+		arg_1_0._tf:Find("AD/bg/npc1"),
+		arg_1_0._tf:Find("AD/bg/npc2"),
+		arg_1_0._tf:Find("AD/bg/npc3"),
+		arg_1_0._tf:Find("AD/bg/npc4"),
+		arg_1_0._tf:Find("AD/bg/npc5"),
+		arg_1_0._tf:Find("AD/bg/npc6"),
+		arg_1_0._tf:Find("AD/bg/npc7")
 	}
 	arg_1_0.locks = {
-		arg_1_0:findTF("AD/bg/lock1"),
-		arg_1_0:findTF("AD/bg/lock2"),
-		arg_1_0:findTF("AD/bg/lock3"),
-		arg_1_0:findTF("AD/bg/lock4"),
-		arg_1_0:findTF("AD/bg/lock5"),
-		arg_1_0:findTF("AD/bg/lock6"),
-		arg_1_0:findTF("AD/bg/lock7")
+		arg_1_0._tf:Find("AD/bg/lock1"),
+		arg_1_0._tf:Find("AD/bg/lock2"),
+		arg_1_0._tf:Find("AD/bg/lock3"),
+		arg_1_0._tf:Find("AD/bg/lock4"),
+		arg_1_0._tf:Find("AD/bg/lock5"),
+		arg_1_0._tf:Find("AD/bg/lock6"),
+		arg_1_0._tf:Find("AD/bg/lock7")
 	}
-	arg_1_0.helpBtn = arg_1_0:findTF("AD/help")
-	arg_1_0.goBtn = arg_1_0:findTF("AD/go")
+	arg_1_0.helpBtn = arg_1_0._tf:Find("AD/help")
+	arg_1_0.goBtn = arg_1_0._tf:Find("AD/go")
 
 	local var_1_0 = pg.mini_game_hub[var_0_1].reward_display
 	local var_1_1 = Drop.Create(var_1_0)
-	local var_1_2 = arg_1_0:findTF("AD/btnFinalAward")
+	local var_1_2 = arg_1_0._tf:Find("AD/btnFinalAward")
 
 	onButton(arg_1_0, var_1_2, function()
 		arg_1_0:emit(BaseUI.ON_DROP, var_1_1)

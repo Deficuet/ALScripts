@@ -123,64 +123,35 @@ function var_0_0.CalcPosition(arg_11_0, arg_11_1)
 	end
 end
 
-function var_0_0.DrawLine(arg_12_0, arg_12_1, arg_12_2)
-	local var_12_0 = IslandCalcUtil.GetNavPath(arg_12_1, arg_12_2)
-
-	local function var_12_1(arg_13_0, arg_13_1)
-		local var_13_0 = 1
-		local var_13_1 = var_12_0[arg_13_1 + 1] or arg_12_2
-		local var_13_2 = var_12_0[arg_13_1]
-		local var_13_3 = (var_13_1 - var_13_2).normalized
-		local var_13_4 = Quaternion.FromToRotation(arg_13_0.transform.right * -1, var_13_3)
-		local var_13_5 = Vector3.Distance(var_13_1, var_13_2)
-
-		return var_13_4, var_13_5
+function var_0_0.ClearLine(arg_12_0)
+	for iter_12_0, iter_12_1 in pairs(arg_12_0.lines) do
+		Object.Destroy(iter_12_1.gameObject)
 	end
 
-	for iter_12_0, iter_12_1 in ipairs(var_12_0) do
-		local var_12_2 = Object.Instantiate(arg_12_0.lineTpl)
-		local var_12_3, var_12_4 = var_12_1(var_12_2, iter_12_0)
-
-		var_12_2.transform.rotation = var_12_2.transform.rotation * var_12_3
-		var_12_2.transform.localScale = Vector3(var_12_4, 1, 1)
-
-		local var_12_5 = var_12_2.transform.right * -1 * (var_12_4 * 0.5)
-
-		var_12_2.transform.position = iter_12_1 + var_12_5
-
-		table.insert(arg_12_0.lines, var_12_2)
-	end
+	arg_12_0.lines = {}
 end
 
-function var_0_0.ClearLine(arg_14_0)
-	for iter_14_0, iter_14_1 in pairs(arg_14_0.lines) do
-		Object.Destroy(iter_14_1.gameObject)
+function var_0_0.ShutDown(arg_13_0)
+	if arg_13_0.timer then
+		arg_13_0.timer:Stop()
+
+		arg_13_0.timer = nil
 	end
 
-	arg_14_0.lines = {}
+	arg_13_0.cg.alpha = 0
+	arg_13_0.trackId = nil
+
+	arg_13_0:ClearLine()
 end
 
-function var_0_0.ShutDown(arg_15_0)
-	if arg_15_0.timer then
-		arg_15_0.timer:Stop()
-
-		arg_15_0.timer = nil
-	end
-
-	arg_15_0.cg.alpha = 0
-	arg_15_0.trackId = nil
-
-	arg_15_0:ClearLine()
+function var_0_0.Clear(arg_14_0)
+	arg_14_0:ShutDown()
 end
 
-function var_0_0.Clear(arg_16_0)
-	arg_16_0:ShutDown()
-end
+function var_0_0.Dispose(arg_15_0)
+	arg_15_0.showHudDic = nil
 
-function var_0_0.Dispose(arg_17_0)
-	arg_17_0.showHudDic = nil
-
-	arg_17_0:Clear()
+	arg_15_0:Clear()
 end
 
 return var_0_0

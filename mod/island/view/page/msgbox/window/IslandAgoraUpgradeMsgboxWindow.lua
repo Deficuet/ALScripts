@@ -6,14 +6,14 @@ end
 
 function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
-	setText(arg_2_0:findTF("confirm/Text"), i18n("island_agora_extend"))
-	setText(arg_2_0:findTF("condition/title/Text"), i18n("island_agora_extend_consume"))
-	setText(arg_2_0:findTF("capacity/Text"), i18n("island_agora_extend_capacity"))
+	setText(arg_2_0._tf:Find("confirm/Text"), i18n("island_agora_extend"))
+	setText(arg_2_0._tf:Find("condition/title/Text"), i18n("island_agora_extend_consume"))
+	setText(arg_2_0._tf:Find("capacity/Text"), i18n("island_agora_extend_capacity"))
 
-	arg_2_0.dropTpl = arg_2_0:findTF("condition/tpl")
-	arg_2_0.dropCntTxt = arg_2_0:findTF("condition/tpl/icon_bg/count_bg/count"):GetComponent(typeof(Text))
-	arg_2_0.oldCapacityTxt = arg_2_0:findTF("capacity/Text_1"):GetComponent(typeof(Text))
-	arg_2_0.newCapacityTxt = arg_2_0:findTF("capacity/Text_2"):GetComponent(typeof(Text))
+	arg_2_0.dropTpl = arg_2_0._tf:Find("condition/tpl")
+	arg_2_0.dropCntTxt = arg_2_0._tf:Find("condition/tpl/icon_bg/count_bg/count"):GetComponent(typeof(Text))
+	arg_2_0.oldCapacityTxt = arg_2_0._tf:Find("capacity/Text_1"):GetComponent(typeof(Text))
+	arg_2_0.newCapacityTxt = arg_2_0._tf:Find("capacity/Text_2"):GetComponent(typeof(Text))
 end
 
 function var_0_0.OnShow(arg_3_0)

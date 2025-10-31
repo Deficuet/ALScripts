@@ -79,6 +79,15 @@ end
 function var_0_0.InitData(arg_8_0)
 	arg_8_0.skins = getProxy(ShipSkinProxy):GetOwnSkins()
 
+	for iter_8_0 = #arg_8_0.skins, 1, -1 do
+		local var_8_0 = arg_8_0.skins[iter_8_0]
+		local var_8_1 = ShipSkin.GetChangeSkinIndex(var_8_0.id)
+
+		if var_8_1 and var_8_1 ~= 1 then
+			table.remove(arg_8_0.skins, iter_8_0)
+		end
+	end
+
 	arg_8_0:GetSkinClassify()
 
 	arg_8_0.filterValues = {
@@ -151,9 +160,11 @@ function var_0_0.RegisterIndex(arg_17_0, arg_17_1)
 
 	local var_17_0 = arg_17_0.scrollShowClassifyIds[arg_17_1]
 
-	arg_17_0.groupDic[var_17_0] = arg_17_0.groupDic[var_17_0] or {}
+	if var_17_0 then
+		arg_17_0.groupDic[var_17_0] = arg_17_0.groupDic[var_17_0] or {}
 
-	table.insert(arg_17_0.groupDic[var_17_0], arg_17_1)
+		table.insert(arg_17_0.groupDic[var_17_0], arg_17_1)
+	end
 end
 
 function var_0_0.ChangeClassifyName(arg_18_0, arg_18_1)
@@ -242,24 +253,26 @@ function var_0_0.OnUpdateItem(arg_21_0, arg_21_1, arg_21_2)
 	table.insert(var_21_6, arg_21_1)
 	arg_21_0:ChangeClassifyName(var_21_6)
 
-	local var_21_7 = UIItemList.New(tf(arg_21_2):Find("skins"), tf(arg_21_2):Find("skins/SkinAtlasCard"))
+	if var_21_0 then
+		local var_21_7 = UIItemList.New(tf(arg_21_2):Find("skins"), tf(arg_21_2):Find("skins/SkinAtlasCard"))
 
-	var_21_7:make(function(arg_22_0, arg_22_1, arg_22_2)
-		if arg_22_0 == UIItemList.EventUpdate then
-			local var_22_0 = var_21_0[arg_22_1 + 1]
-			local var_22_1 = SkinAtlasCard.New(arg_22_2)
+		var_21_7:make(function(arg_22_0, arg_22_1, arg_22_2)
+			if arg_22_0 == UIItemList.EventUpdate then
+				local var_22_0 = var_21_0[arg_22_1 + 1]
+				local var_22_1 = SkinAtlasCard.New(arg_22_2)
 
-			table.insert(arg_21_0.cards, var_22_1)
-			var_22_1:Update(var_22_0, arg_22_1 + 1)
-			onButton(arg_21_0, arg_22_2, function()
-				arg_21_0:ClickTrigger(var_22_1, var_22_0)
-			end, SFX_PANEL)
-			onButton(arg_21_0, var_22_1.changeSkinUI, function()
-				var_22_1:changeSkinNext()
-			end, SFX_PANEL)
-		end
-	end)
-	var_21_7:align(#var_21_0)
+				table.insert(arg_21_0.cards, var_22_1)
+				var_22_1:Update(var_22_0, arg_22_1 + 1)
+				onButton(arg_21_0, arg_22_2, function()
+					arg_21_0:ClickTrigger(var_22_1, var_22_0)
+				end, SFX_PANEL)
+				onButton(arg_21_0, var_22_1.changeSkinUI, function()
+					var_22_1:changeSkinNext()
+				end, SFX_PANEL)
+			end
+		end)
+		var_21_7:align(#var_21_0)
+	end
 end
 
 function var_0_0.OnReturnItem(arg_25_0, arg_25_1, arg_25_2)

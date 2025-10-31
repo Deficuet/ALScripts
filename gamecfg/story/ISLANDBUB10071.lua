@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "哈~密实又匀称！上等木料！",
+			say = "Yep, this is top-rate lumber. It's solid and well-balanced.",
 			characterId = 100700,
 			hideType = 2
 		}

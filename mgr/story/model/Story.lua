@@ -139,7 +139,7 @@ function var_0_0.Ctor(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4, arg_2_5, arg_
 	if UnGamePlayState then
 		arg_2_0.isPlayed = false
 	else
-		arg_2_0.isPlayed = pg.NewStoryMgr:GetInstance():IsPlayed(arg_2_0.name)
+		arg_2_0.isPlayed = pg.NewStoryMgr.GetInstance():IsPlayed(arg_2_0.name)
 	end
 
 	arg_2_0.nextScriptName = nil

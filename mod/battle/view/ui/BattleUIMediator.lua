@@ -39,7 +39,7 @@ function var_0_7.Reinitialize(arg_4_0)
 end
 
 function var_0_7.EnableComponent(arg_5_0, arg_5_1)
-	arg_5_0._ui:findTF("PauseBtn"):GetComponent(typeof(Button)).enabled = arg_5_1
+	arg_5_0._ui._tf:Find("PauseBtn"):GetComponent(typeof(Button)).enabled = arg_5_1
 
 	arg_5_0._skillView:EnableWeaponButton(arg_5_1)
 end
@@ -85,11 +85,11 @@ function var_0_7.GetAppearFX(arg_9_0)
 end
 
 function var_0_7.DisableComponent(arg_10_0)
-	arg_10_0._ui:findTF("PauseBtn"):GetComponent(typeof(Button)).enabled = false
+	arg_10_0._ui._tf:Find("PauseBtn"):GetComponent(typeof(Button)).enabled = false
 
 	arg_10_0._skillView:DisableWeapnButton()
-	SetActive(arg_10_0._ui:findTF("HPBarContainer"), false)
-	SetActive(arg_10_0._ui:findTF("flagShipMark"), false)
+	SetActive(arg_10_0._ui._tf:Find("HPBarContainer"), false)
+	SetActive(arg_10_0._ui._tf:Find("flagShipMark"), false)
 
 	if arg_10_0._jammingView then
 		arg_10_0._jammingView:Eliminate(false)
@@ -152,7 +152,7 @@ function var_0_7.InitScene(arg_14_0)
 end
 
 function var_0_7.InitJoystick(arg_15_0)
-	arg_15_0._joystick = arg_15_0._ui:findTF("Stick")
+	arg_15_0._joystick = arg_15_0._ui._tf:Find("Stick")
 
 	local var_15_0 = var_0_5.JOY_STICK_DEFAULT_PREFERENCE
 	local var_15_1 = arg_15_0._joystick
@@ -192,36 +192,36 @@ end
 
 function var_0_7.InitTimer(arg_17_0)
 	if arg_17_0._dataProxy:GetInitData().battleType == SYSTEM_DUEL then
-		arg_17_0._timerView = var_0_0.Battle.BattleTimerView.New(arg_17_0._ui:findTF("DuelTimer"))
+		arg_17_0._timerView = var_0_0.Battle.BattleTimerView.New(arg_17_0._ui._tf:Find("DuelTimer"))
 	else
-		arg_17_0._timerView = var_0_0.Battle.BattleTimerView.New(arg_17_0._ui:findTF("Timer"))
+		arg_17_0._timerView = var_0_0.Battle.BattleTimerView.New(arg_17_0._ui._tf:Find("Timer"))
 	end
 end
 
 function var_0_7.InitEnemyHpBar(arg_18_0)
-	arg_18_0._enemyHpBar = var_0_0.Battle.BattleEnmeyHpBarView.New(arg_18_0._ui:findTF("EnemyHPBar"))
+	arg_18_0._enemyHpBar = var_0_0.Battle.BattleEnmeyHpBarView.New(arg_18_0._ui._tf:Find("EnemyHPBar"))
 end
 
 function var_0_7.InitAirStrikeIcon(arg_19_0)
-	arg_19_0._airStrikeView = var_0_0.Battle.BattleAirStrikeIconView.New(arg_19_0._ui:findTF("AirFighterContainer/AirStrikeIcon"))
-	arg_19_0._airSupportTF = arg_19_0._ui:findTF("AirSupportLabel")
+	arg_19_0._airStrikeView = var_0_0.Battle.BattleAirStrikeIconView.New(arg_19_0._ui._tf:Find("AirFighterContainer/AirStrikeIcon"))
+	arg_19_0._airSupportTF = arg_19_0._ui._tf:Find("AirSupportLabel")
 end
 
 function var_0_7.InitCommonWarning(arg_20_0)
-	arg_20_0._warningView = var_0_0.Battle.BattleCommonWarningView.New(arg_20_0._ui:findTF("WarningView"))
+	arg_20_0._warningView = var_0_0.Battle.BattleCommonWarningView.New(arg_20_0._ui._tf:Find("WarningView"))
 	arg_20_0._updateViewList[arg_20_0._warningView] = true
 end
 
 function var_0_7.InitScoreBar(arg_21_0)
-	arg_21_0._scoreBarView = var_0_0.Battle.BattleScoreBarView.New(arg_21_0._ui:findTF("DodgemCountBar"))
+	arg_21_0._scoreBarView = var_0_0.Battle.BattleScoreBarView.New(arg_21_0._ui._tf:Find("DodgemCountBar"))
 end
 
 function var_0_7.InitAirFightScoreBar(arg_22_0)
-	arg_22_0._scoreBarView = var_0_0.Battle.BattleScoreBarView.New(arg_22_0._ui:findTF("AirFightCountBar"))
+	arg_22_0._scoreBarView = var_0_0.Battle.BattleScoreBarView.New(arg_22_0._ui._tf:Find("AirFightCountBar"))
 end
 
 function var_0_7.InitAutoBtn(arg_23_0)
-	arg_23_0._autoBtn = arg_23_0._ui:findTF("AutoBtn")
+	arg_23_0._autoBtn = arg_23_0._ui._tf:Find("AutoBtn")
 
 	local var_23_0 = var_0_5.AUTO_DEFAULT_PREFERENCE
 	local var_23_1 = PlayerPrefs.GetFloat("auto_scale", var_23_0.scale)
@@ -234,33 +234,33 @@ function var_0_7.InitAutoBtn(arg_23_0)
 end
 
 function var_0_7.InitDuelRateBar(arg_24_0)
-	arg_24_0._duelRateBar = var_0_0.Battle.BattleDuelDamageRateView.New(arg_24_0._ui:findTF("DuelDamageRate"))
+	arg_24_0._duelRateBar = var_0_0.Battle.BattleDuelDamageRateView.New(arg_24_0._ui._tf:Find("DuelDamageRate"))
 
 	return arg_24_0._duelRateBar
 end
 
 function var_0_7.InitSimulationBuffCounting(arg_25_0)
-	arg_25_0._simulationBuffCountView = var_0_0.Battle.BattleSimulationBuffCountView.New(arg_25_0._ui:findTF("SimulationWarning"))
+	arg_25_0._simulationBuffCountView = var_0_0.Battle.BattleSimulationBuffCountView.New(arg_25_0._ui._tf:Find("SimulationWarning"))
 
 	return arg_25_0._simulationBuffCountView
 end
 
 function var_0_7.InitMainDamagedView(arg_26_0)
-	arg_26_0._mainDamagedView = var_0_0.Battle.BattleMainDamagedView.New(arg_26_0._ui:findTF("HPWarning"))
+	arg_26_0._mainDamagedView = var_0_0.Battle.BattleMainDamagedView.New(arg_26_0._ui._tf:Find("HPWarning"))
 end
 
 function var_0_7.InitInkView(arg_27_0, arg_27_1)
-	arg_27_0._inkView = var_0_0.Battle.BattleInkView.New(arg_27_0._ui:findTF("InkContainer"))
+	arg_27_0._inkView = var_0_0.Battle.BattleInkView.New(arg_27_0._ui._tf:Find("InkContainer"))
 
 	arg_27_1:RegisterEventListener(arg_27_0, var_0_1.FLEET_HORIZON_UPDATE, arg_27_0.onFleetHorizonUpdate)
 end
 
 function var_0_7.InitDebugConsole(arg_28_0)
-	arg_28_0._debugConsoleView = arg_28_0._debugConsoleView or var_0_0.Battle.BattleDebugConsole.New(arg_28_0._ui:findTF("Debug_Console"), arg_28_0._state)
+	arg_28_0._debugConsoleView = arg_28_0._debugConsoleView or var_0_0.Battle.BattleDebugConsole.New(arg_28_0._ui._tf:Find("Debug_Console"), arg_28_0._state)
 end
 
 function var_0_7.InitCameraGestureSlider(arg_29_0)
-	arg_29_0._gesture = var_0_0.Battle.BattleCameraSlider.New(arg_29_0._ui:findTF("CameraController"))
+	arg_29_0._gesture = var_0_0.Battle.BattleCameraSlider.New(arg_29_0._ui._tf:Find("CameraController"))
 
 	var_0_0.Battle.BattleCameraUtil.GetInstance():SetCameraSilder(arg_29_0._gesture)
 	arg_29_0._cameraUtil:SwitchCameraPos("FOLLOW_GESTURE")
@@ -411,7 +411,7 @@ function var_0_7.ShowSimulationView(arg_44_0)
 end
 
 function var_0_7.ShowPauseButton(arg_45_0, arg_45_1)
-	setActive(arg_45_0._ui:findTF("PauseBtn"), arg_45_1)
+	setActive(arg_45_0._ui._tf:Find("PauseBtn"), arg_45_1)
 end
 
 function var_0_7.ShowDodgemScoreBar(arg_46_0)
@@ -431,13 +431,13 @@ function var_0_7.ShowAirFightScoreBar(arg_47_0)
 end
 
 function var_0_7.ScaleUISpeed(arg_48_0, arg_48_1)
-	local var_48_0 = arg_48_0._ui:findTF("AutoBtn/on"):GetComponent(typeof(Animation))
+	local var_48_0 = arg_48_0._ui._tf:Find("AutoBtn/on"):GetComponent(typeof(Animation))
 
 	if var_48_0 then
 		var_48_0:get_Item("autobtn_toOn").speed = arg_48_1
 	end
 
-	local var_48_1 = arg_48_0._ui:findTF("AutoBtn/off"):GetComponent(typeof(Animation))
+	local var_48_1 = arg_48_0._ui._tf:Find("AutoBtn/off"):GetComponent(typeof(Animation))
 
 	if var_48_1 then
 		var_48_1:get_Item("autobtn_toOff").speed = arg_48_1
@@ -513,7 +513,7 @@ function var_0_7.onCommonInit(arg_54_0, arg_54_1)
 	arg_54_0._userFleet:RegisterEventListener(arg_54_0, var_0_1.FLEET_BLIND, arg_54_0.onFleetBlind)
 	arg_54_0._userFleet:RegisterEventListener(arg_54_0, var_0_1.UPDATE_FLEET_ATTR, arg_54_0.onFleetAttrUpdate)
 
-	arg_54_0._sightView = var_0_0.Battle.BattleOpticalSightView.New(arg_54_0._ui:findTF("ChargeAreaContainer"))
+	arg_54_0._sightView = var_0_0.Battle.BattleOpticalSightView.New(arg_54_0._ui._tf:Find("ChargeAreaContainer"))
 
 	arg_54_0._sightView:SetFleetVO(arg_54_0._userFleet)
 
@@ -992,7 +992,7 @@ function var_0_7.Dispose(arg_94_0)
 		arg_94_0._gridmanSkillFloat:Dispose()
 	end
 
-	if go(arg_94_0._ui:findTF("CardPuzzleConsole")).activeSelf then
+	if go(arg_94_0._ui._tf:Find("CardPuzzleConsole")).activeSelf then
 		arg_94_0:DisposeCardPuzzleComponent()
 	end
 
@@ -1014,7 +1014,7 @@ function var_0_7.RegisterCardPuzzleEvent(arg_96_0)
 end
 
 function var_0_7.ShowCardPuzzleComponent(arg_97_0)
-	setActive(arg_97_0._ui:findTF("CardPuzzleConsole"), true)
+	setActive(arg_97_0._ui._tf:Find("CardPuzzleConsole"), true)
 	arg_97_0:InitCardPuzzleCommonHPBar()
 	arg_97_0:InitCardPuzzleEnergyBar()
 	arg_97_0:IntCardPuzzleFleetHead()
@@ -1028,7 +1028,7 @@ function var_0_7.ShowCardPuzzleComponent(arg_97_0)
 end
 
 function var_0_7.InitCardPuzzleCommonHPBar(arg_98_0)
-	arg_98_0._cardPuzzleHPBar = var_0_0.Battle.CardPuzzleCommonHPBar.New(arg_98_0._ui:findTF("CardPuzzleConsole/commonHP"))
+	arg_98_0._cardPuzzleHPBar = var_0_0.Battle.CardPuzzleCommonHPBar.New(arg_98_0._ui._tf:Find("CardPuzzleConsole/commonHP"))
 
 	arg_98_0._cardPuzzleHPBar:SetCardPuzzleComponent(arg_98_0._cardPuzzleComponent)
 
@@ -1036,7 +1036,7 @@ function var_0_7.InitCardPuzzleCommonHPBar(arg_98_0)
 end
 
 function var_0_7.InitCardPuzzleEnergyBar(arg_99_0)
-	arg_99_0._cardPuzzleEnergyBar = var_0_0.Battle.CardPuzzleEnergyBar.New(arg_99_0._ui:findTF("CardPuzzleConsole/energy_block"))
+	arg_99_0._cardPuzzleEnergyBar = var_0_0.Battle.CardPuzzleEnergyBar.New(arg_99_0._ui._tf:Find("CardPuzzleConsole/energy_block"))
 
 	arg_99_0._cardPuzzleEnergyBar:SetCardPuzzleComponent(arg_99_0._cardPuzzleComponent)
 
@@ -1044,19 +1044,19 @@ function var_0_7.InitCardPuzzleEnergyBar(arg_99_0)
 end
 
 function var_0_7.InitCameraCardBoardClicker(arg_100_0)
-	arg_100_0._cardPuzzleBoardClicker = var_0_0.Battle.CardPuzzleBoardClicker.New(arg_100_0._ui:findTF("CardBoardController"))
+	arg_100_0._cardPuzzleBoardClicker = var_0_0.Battle.CardPuzzleBoardClicker.New(arg_100_0._ui._tf:Find("CardBoardController"))
 
 	arg_100_0._cardPuzzleBoardClicker:SetCardPuzzleComponent(arg_100_0._cardPuzzleComponent)
 end
 
 function var_0_7.IntCardPuzzleFleetHead(arg_101_0)
-	arg_101_0._cardPuzzleFleetHead = var_0_0.Battle.CardPuzzleFleetHead.New(arg_101_0._ui:findTF("CardPuzzleConsole/fleet"))
+	arg_101_0._cardPuzzleFleetHead = var_0_0.Battle.CardPuzzleFleetHead.New(arg_101_0._ui._tf:Find("CardPuzzleConsole/fleet"))
 
 	arg_101_0._cardPuzzleFleetHead:SetCardPuzzleComponent(arg_101_0._cardPuzzleComponent)
 end
 
 function var_0_7.InitCardPuzzleMovePile(arg_102_0)
-	arg_102_0._cardPuzzleMovePile = var_0_0.Battle.CardPuzzleMovePile.New(arg_102_0._ui:findTF("CardPuzzleConsole/movedeck"))
+	arg_102_0._cardPuzzleMovePile = var_0_0.Battle.CardPuzzleMovePile.New(arg_102_0._ui._tf:Find("CardPuzzleConsole/movedeck"))
 
 	arg_102_0._cardPuzzleMovePile:SetCardPuzzleComponent(arg_102_0._cardPuzzleComponent)
 
@@ -1064,13 +1064,13 @@ function var_0_7.InitCardPuzzleMovePile(arg_102_0)
 end
 
 function var_0_7.InitCardPuzzleDeckPile(arg_103_0)
-	arg_103_0._cardPuzzleDeckPile = var_0_0.Battle.CardPuzzleDeckPool.New(arg_103_0._ui:findTF("CardPuzzleConsole/deck"))
+	arg_103_0._cardPuzzleDeckPile = var_0_0.Battle.CardPuzzleDeckPool.New(arg_103_0._ui._tf:Find("CardPuzzleConsole/deck"))
 
 	arg_103_0._cardPuzzleDeckPile:SetCardPuzzleComponent(arg_103_0._cardPuzzleComponent)
 end
 
 function var_0_7.InitCardPuzzleIconList(arg_104_0)
-	arg_104_0._cardPuzzleStatusIcon = var_0_0.Battle.CardPuzzleFleetIconList.New(arg_104_0._ui:findTF("CardPuzzleConsole/statusIcon"))
+	arg_104_0._cardPuzzleStatusIcon = var_0_0.Battle.CardPuzzleFleetIconList.New(arg_104_0._ui._tf:Find("CardPuzzleConsole/statusIcon"))
 
 	arg_104_0._cardPuzzleStatusIcon:SetCardPuzzleComponent(arg_104_0._cardPuzzleComponent)
 
@@ -1078,7 +1078,7 @@ function var_0_7.InitCardPuzzleIconList(arg_104_0)
 end
 
 function var_0_7.InitCardPuzzleHandBoard(arg_105_0)
-	arg_105_0._cardPuzzleHandBoard = var_0_0.Battle.CardPuzzleHandBoard.New(arg_105_0._ui:findTF("CardPuzzleConsole/cardboard"), arg_105_0._ui:findTF("CardPuzzleConsole/hand"))
+	arg_105_0._cardPuzzleHandBoard = var_0_0.Battle.CardPuzzleHandBoard.New(arg_105_0._ui._tf:Find("CardPuzzleConsole/cardboard"), arg_105_0._ui._tf:Find("CardPuzzleConsole/hand"))
 
 	arg_105_0._cardPuzzleHandBoard:SetCardPuzzleComponent(arg_105_0._cardPuzzleComponent)
 
@@ -1086,13 +1086,13 @@ function var_0_7.InitCardPuzzleHandBoard(arg_105_0)
 end
 
 function var_0_7.InitCardPuzzleGoalRemind(arg_106_0)
-	arg_106_0._cardPuzzleGoalRemind = var_0_0.Battle.CardPuzzleGoalRemind.New(arg_106_0._ui:findTF("CardPuzzleConsole/goal"))
+	arg_106_0._cardPuzzleGoalRemind = var_0_0.Battle.CardPuzzleGoalRemind.New(arg_106_0._ui._tf:Find("CardPuzzleConsole/goal"))
 
 	arg_106_0._cardPuzzleGoalRemind:SetCardPuzzleComponent(arg_106_0._cardPuzzleComponent)
 end
 
 function var_0_7.InitCardPuzzleCardDetail(arg_107_0)
-	arg_107_0._cardPuzzleCardDetail = var_0_0.Battle.CardPuzzleCardDetail.New(arg_107_0._ui:findTF("CardPuzzleConsole/cardDetail"))
+	arg_107_0._cardPuzzleCardDetail = var_0_0.Battle.CardPuzzleCardDetail.New(arg_107_0._ui._tf:Find("CardPuzzleConsole/cardDetail"))
 end
 
 function var_0_7.DisposeCardPuzzleComponent(arg_108_0)

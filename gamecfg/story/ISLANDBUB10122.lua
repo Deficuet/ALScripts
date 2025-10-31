@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "水流稳定，萃取才会均匀。",
+			say = "A steady water flow ensures a uniform extraction.",
 			characterId = 101200,
 			hideType = 2
 		}

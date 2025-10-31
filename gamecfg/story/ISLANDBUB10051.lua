@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "牧场上的微风很舒服呢~",
+			say = "Ah, I love the breeze that blows through the ranch.",
 			characterId = 100500,
 			hideType = 2
 		}

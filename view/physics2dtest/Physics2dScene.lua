@@ -5,14 +5,14 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0._backBtn = arg_2_0:findTF("back_btn")
-	arg_2_0._box = arg_2_0:findTF("box")
+	arg_2_0._backBtn = arg_2_0._tf:Find("back_btn")
+	arg_2_0._box = arg_2_0._tf:Find("box")
 	arg_2_0._boxRig = GetComponent(arg_2_0._box, "Rigidbody2D")
 	arg_2_0._boxPhyItem = GetComponent(arg_2_0._box, "Physics2DItem")
 
 	Physics2DMgr.Inst:AddSimulateItem(arg_2_0._boxPhyItem)
 
-	arg_2_0._gizmos = arg_2_0:findTF("res/gizmos")
+	arg_2_0._gizmos = arg_2_0._tf:Find("res/gizmos")
 end
 
 function var_0_0.didEnter(arg_3_0)

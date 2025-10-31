@@ -11,13 +11,13 @@ function var_0_0.OnLoaded(arg_2_0)
 		arg_2_0:Selected(arg_3_1)
 	end)
 
-	arg_2_0._bg = arg_2_0:findTF("frame")
-	arg_2_0.scrollRect = arg_2_0:findTF("frame/frame/scrollrect"):GetComponent("LScrollRect")
-	arg_2_0.scrollRectTF = arg_2_0:findTF("frame/frame/scrollrect")
-	arg_2_0.emptyTF = arg_2_0:findTF("frame/frame/empty")
-	arg_2_0.arr = arg_2_0:findTF("frame/frame/arr")
+	arg_2_0._bg = arg_2_0._tf:Find("frame")
+	arg_2_0.scrollRect = arg_2_0._tf:Find("frame/frame/scrollrect"):GetComponent("LScrollRect")
+	arg_2_0.scrollRectTF = arg_2_0._tf:Find("frame/frame/scrollrect")
+	arg_2_0.emptyTF = arg_2_0._tf:Find("frame/frame/empty")
+	arg_2_0.arr = arg_2_0._tf:Find("frame/frame/arr")
 
-	setText(arg_2_0:findTF("frame/title/Text"), i18n("courtyard_label_putlist_title"))
+	setText(arg_2_0._tf:Find("frame/title/Text"), i18n("courtyard_label_putlist_title"))
 end
 
 function var_0_0.OnInit(arg_4_0)
@@ -183,6 +183,9 @@ function var_0_0.OnDisplayList(arg_19_0)
 		return arg_20_0:getConfig("type") < arg_20_1:getConfig("type")
 	end)
 	setActive(arg_19_0.emptyTF, #arg_19_0.displays == 0)
+
+	arg_19_0.scrollRect.enabled = true
+
 	arg_19_0.scrollRect:SetTotalCount(#arg_19_0.displays)
 end
 

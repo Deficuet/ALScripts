@@ -1,18 +1,18 @@
-local var_0_0 = class("AgoraPaveTileView", import("Mod.Island.Core.View.IslandBaseSubView"))
+local var_0_0 = class("AgoraPaveTileView", import("Mod.Island.Core.View.IslandASynLoadSubView"))
 
 function var_0_0.GetUIName(arg_1_0)
 	return "IslandAgoraPaveTileUI"
 end
 
 function var_0_0.FirstFlush(arg_2_0)
-	arg_2_0.nameTxt = arg_2_0:findTF("name"):GetComponent(typeof(Text))
-	arg_2_0.icon = arg_2_0:findTF("icon"):GetComponent(typeof(Image))
-	arg_2_0.exitBtn = arg_2_0:findTF("exit")
-	arg_2_0.rotation = arg_2_0:findTF("revert")
-	arg_2_0.confirmBtn = arg_2_0:findTF("confirm")
-	arg_2_0.mode = arg_2_0:findTF("mode")
+	arg_2_0.nameTxt = arg_2_0._tf:Find("name"):GetComponent(typeof(Text))
+	arg_2_0.icon = arg_2_0._tf:Find("icon"):GetComponent(typeof(Image))
+	arg_2_0.exitBtn = arg_2_0._tf:Find("exit")
+	arg_2_0.rotation = arg_2_0._tf:Find("revert")
+	arg_2_0.confirmBtn = arg_2_0._tf:Find("confirm")
+	arg_2_0.mode = arg_2_0._tf:Find("mode")
 
-	setText(arg_2_0:findTF("desc"), i18n("island_agora_pave_tip"))
+	setText(arg_2_0._tf:Find("desc"), i18n("island_agora_pave_tip"))
 	arg_2_0:RegisterEvent()
 end
 

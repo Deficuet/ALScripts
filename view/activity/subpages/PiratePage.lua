@@ -4,14 +4,14 @@ var_0_0.PROGRESS_TEXT = "%d/7"
 var_0_0.DIALOG_DELAY = 15
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.progress = arg_1_0:findTF("progress", arg_1_0.bg)
-	arg_1_0.progressText = arg_1_0:findTF("Text", arg_1_0.progress)
-	arg_1_0.complete = arg_1_0:findTF("complete", arg_1_0.bg)
-	arg_1_0.goBtn = arg_1_0:findTF("go_btn", arg_1_0.bg)
-	arg_1_0.red = arg_1_0:findTF("red", arg_1_0.goBtn)
-	arg_1_0.dialogTf = arg_1_0:findTF("dialog", arg_1_0.bg)
-	arg_1_0.dialogText = arg_1_0:findTF("Text", arg_1_0.dialogTf)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.progress = arg_1_0.bg:Find("progress")
+	arg_1_0.progressText = arg_1_0.progress:Find("Text")
+	arg_1_0.complete = arg_1_0.bg:Find("complete")
+	arg_1_0.goBtn = arg_1_0.bg:Find("go_btn")
+	arg_1_0.red = arg_1_0.goBtn:Find("red")
+	arg_1_0.dialogTf = arg_1_0.bg:Find("dialog")
+	arg_1_0.dialogText = arg_1_0.dialogTf:Find("Text")
 end
 
 function var_0_0.OnDataSetting(arg_2_0)

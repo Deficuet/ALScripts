@@ -32,12 +32,11 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_5_0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_5_0._tf, {
+	arg_5_0:OverlayPanel(arg_5_0._tf, {
+		groupDelta = 1,
 		pbList = {
 			arg_5_0.bgTF
-		},
-		groupName = LayerWeightConst.GROUP_EDUCATE,
-		weight = arg_5_0:getWeightFromData() + 1
+		}
 	})
 	NewEducateGuideSequence.CheckGuide(arg_5_0.__cname)
 end
@@ -148,7 +147,7 @@ function var_0_0.onBackPressed(arg_21_0)
 end
 
 function var_0_0.willExit(arg_22_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_22_0._tf)
+	arg_22_0:UnOverlayPanel(arg_22_0._tf)
 	existCall(arg_22_0.contextData.onExit)
 end
 

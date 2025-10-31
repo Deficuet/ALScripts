@@ -554,8 +554,7 @@ function var_0_0.register(arg_1_0)
 					getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.GOLD_MAX)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						content = var_61_0,
-						onYes = arg_61_0,
-						weight = LayerWeightConst.SECOND_LAYER
+						onYes = arg_61_0
 					})
 				else
 					arg_61_0()
@@ -1436,7 +1435,6 @@ function var_0_0.OnExitChapter(arg_118_0, arg_118_1, arg_118_2, arg_118_3)
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
 							yesText = "text_go",
 							content = i18n("levelScene_remaster_story_tip", pg.memory_group[var_125_4].title),
-							weight = LayerWeightConst.SECOND_LAYER,
 							onYes = function()
 								arg_118_0:sendNotification(GAME.GO_SCENE, SCENE.WORLD_COLLECTION, {
 									page = WorldMediaCollectionScene.PAGE_MEMORTY,
@@ -1694,7 +1692,6 @@ function var_0_0.OnEventUpdate(arg_137_0, arg_137_1)
 				modal = false,
 				hideNo = true,
 				content = i18n("event_special_update", var_137_3),
-				weight = LayerWeightConst.SECOND_LAYER,
 				onYes = arg_137_1,
 				onNo = arg_137_1
 			})

@@ -8,8 +8,8 @@ function var_0_0.OnInit(arg_2_0)
 	var_0_0.super.OnInit(arg_2_0)
 	assert(arg_2_0.viewParent, "Need assign ViewParent for " .. arg_2_0.__cname)
 
-	arg_2_0._top = arg_2_0:findTF("Top")
-	arg_2_0.memoryMask = arg_2_0:findTF("StoryMask", arg_2_0._top)
+	arg_2_0._top = arg_2_0._tf:Find("Top")
+	arg_2_0.memoryMask = arg_2_0._top:Find("StoryMask")
 
 	setActive(arg_2_0.memoryMask, false)
 end

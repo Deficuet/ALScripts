@@ -9,22 +9,22 @@ function var_0_0.initConfig(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.anim = arg_3_0:findTF("anim_root"):GetComponent(typeof(Animation))
-	arg_3_0.animEvent = arg_3_0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
+	arg_3_0.anim = arg_3_0._tf:Find("anim_root"):GetComponent(typeof(Animation))
+	arg_3_0.animEvent = arg_3_0._tf:Find("anim_root"):GetComponent(typeof(DftAniEvent))
 
 	arg_3_0.animEvent:SetEndEvent(function()
 		arg_3_0:emit(var_0_0.ON_CLOSE)
 	end)
 
-	arg_3_0.closeBtn = arg_3_0:findTF("anim_root/bg")
-	arg_3_0.windowTF = arg_3_0:findTF("anim_root/window")
-	arg_3_0.curCntTF = arg_3_0:findTF("collect/cur", arg_3_0.windowTF)
-	arg_3_0.allCntTF = arg_3_0:findTF("collect/all", arg_3_0.windowTF)
-	arg_3_0.pageTF = arg_3_0:findTF("page", arg_3_0.windowTF)
-	arg_3_0.nextBtn = arg_3_0:findTF("next_btn", arg_3_0.windowTF)
-	arg_3_0.lastBtn = arg_3_0:findTF("last_btn", arg_3_0.windowTF)
-	arg_3_0.paginationTF = arg_3_0:findTF("pagination", arg_3_0.windowTF)
-	arg_3_0.performTF = arg_3_0:findTF("anim_root/perform")
+	arg_3_0.closeBtn = arg_3_0._tf:Find("anim_root/bg")
+	arg_3_0.windowTF = arg_3_0._tf:Find("anim_root/window")
+	arg_3_0.curCntTF = arg_3_0.windowTF:Find("collect/cur")
+	arg_3_0.allCntTF = arg_3_0.windowTF:Find("collect/all")
+	arg_3_0.pageTF = arg_3_0.windowTF:Find("page")
+	arg_3_0.nextBtn = arg_3_0.windowTF:Find("next_btn")
+	arg_3_0.lastBtn = arg_3_0.windowTF:Find("last_btn")
+	arg_3_0.paginationTF = arg_3_0.windowTF:Find("pagination")
+	arg_3_0.performTF = arg_3_0._tf:Find("anim_root/perform")
 
 	setActive(arg_3_0.performTF, false)
 	arg_3_0:initConfig()
@@ -50,9 +50,8 @@ function var_0_0.init(arg_3_0)
 
 		arg_3_0:updatePage()
 	end, SFX_PANEL)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_3_0._tf, {
-		groupName = arg_3_0:getGroupNameFromData(),
-		weight = LayerWeightConst.SECOND_LAYER + 2
+	arg_3_0:OverlayPanel(arg_3_0._tf, {
+		groupDelta = 2
 	})
 end
 
@@ -64,7 +63,7 @@ function var_0_0.updatePage(arg_8_0)
 	local var_8_0 = (arg_8_0.curPageIndex - 1) * arg_8_0.onePageCnt
 
 	for iter_8_0 = 1, arg_8_0.onePageCnt do
-		local var_8_1 = arg_8_0:findTF("frame_" .. iter_8_0, arg_8_0.pageTF)
+		local var_8_1 = arg_8_0.pageTF:Find("frame_" .. iter_8_0)
 		local var_8_2 = arg_8_0.config[arg_8_0.config.all[var_8_0 + iter_8_0]]
 
 		if var_8_2 then
@@ -94,7 +93,7 @@ end
 
 function var_0_0.willExit(arg_13_0)
 	arg_13_0.animEvent:SetEndEvent(nil)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf)
+	arg_13_0:UnOverlayPanel(arg_13_0._tf)
 end
 
 return var_0_0

@@ -5,17 +5,17 @@ var_0_0.TYPEWRITE_SPEED = 0.05
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	var_0_0.super.Ctor(arg_1_0, arg_1_1)
 
-	arg_1_0.eventTipBig = arg_1_0:findTF("event_tip", arg_1_0._tf)
-	arg_1_0.content = arg_1_0:findTF("content", arg_1_0._tf)
-	arg_1_0.image = arg_1_0:findTF("Image", arg_1_0.content)
-	arg_1_0.nameTF = arg_1_0:findTF("name_bg", arg_1_0.content)
-	arg_1_0.nameText = arg_1_0:findTF("name", arg_1_0.nameTF)
-	arg_1_0.next = arg_1_0:findTF("next", arg_1_0.content)
-	arg_1_0.eventTipSmall = arg_1_0:findTF("event_tip", arg_1_0.content)
-	arg_1_0.text = arg_1_0:findTF("Text", arg_1_0.content)
-	arg_1_0.text2 = arg_1_0:findTF("Text2", arg_1_0.content)
-	arg_1_0.resultTF = arg_1_0:findTF("result", arg_1_0.content)
-	arg_1_0.resultTpl = arg_1_0:findTF("tpl", arg_1_0.content)
+	arg_1_0.eventTipBig = arg_1_0._tf:Find("event_tip")
+	arg_1_0.content = arg_1_0._tf:Find("content")
+	arg_1_0.image = arg_1_0.content:Find("Image")
+	arg_1_0.nameTF = arg_1_0.content:Find("name_bg")
+	arg_1_0.nameText = arg_1_0.nameTF:Find("name")
+	arg_1_0.next = arg_1_0.content:Find("next")
+	arg_1_0.eventTipSmall = arg_1_0.content:Find("event_tip")
+	arg_1_0.text = arg_1_0.content:Find("Text")
+	arg_1_0.text2 = arg_1_0.content:Find("Text2")
+	arg_1_0.resultTF = arg_1_0.content:Find("result")
+	arg_1_0.resultTpl = arg_1_0.content:Find("tpl")
 end
 
 function var_0_0.Play(arg_2_0, arg_2_1, arg_2_2)
@@ -97,18 +97,18 @@ function var_0_0._play(arg_4_0, arg_4_1, arg_4_2, arg_4_3)
 
 		for iter_5_0 = 1, #arg_4_0.drops do
 			table.insert(var_5_0, function(arg_6_0)
-				arg_4_0.resultTF = arg_4_0:findTF("result", arg_4_0.content)
-				arg_4_0.resultTpl = arg_4_0:findTF("tpl", arg_4_0.content)
+				arg_4_0.resultTF = arg_4_0.content:Find("result")
+				arg_4_0.resultTpl = arg_4_0.content:Find("tpl")
 
 				local var_6_0 = arg_4_0.drops[iter_5_0]
 				local var_6_1 = iter_5_0 < arg_4_0.resultTF.childCount and arg_4_0.resultTF:GetChild(iter_5_0 - 1) or cloneTplTo(arg_4_0.resultTpl, arg_4_0.resultTF)
 
 				if var_6_0.type == EducateConst.DROP_TYPE_BUFF then
-					setActive(arg_4_0:findTF("icon", var_6_1), false)
-					setText(arg_4_0:findTF("name", var_6_1), pg.child_buff[var_6_0.id].name)
-					setText(arg_4_0:findTF("value", var_6_1), "")
+					setActive(var_6_1:Find("icon"), false)
+					setText(var_6_1:Find("name"), pg.child_buff[var_6_0.id].name)
+					setText(var_6_1:Find("value"), "")
 				else
-					setActive(arg_4_0:findTF("icon", var_6_1), true)
+					setActive(var_6_1:Find("icon"), true)
 					EducateHelper.UpdateDropShowForAttr(var_6_1, var_6_0)
 				end
 

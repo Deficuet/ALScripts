@@ -26,6 +26,10 @@ return {
 		name = "ISLAND1001007"
 	},
 	{
+		type = 3,
+		name = "ISLAND1001007_1"
+	},
+	{
 		type = 4,
 		show = true,
 		unitIdList = {

@@ -38,6 +38,10 @@ pg.ship_meta_breakout = setmetatable({
 		9701092,
 		9701093,
 		9701094,
+		9701101,
+		9701102,
+		9701103,
+		9701104,
 		9702011,
 		9702012,
 		9702013,
@@ -775,6 +779,69 @@ pg.base.ship_meta_breakout = {
 		id = 9701094,
 		item1 = 21051,
 		pre_id = 9701093,
+		weapon_ids = {}
+	},
+	[9701101] = {
+		breakout_view = "Unlock Ashen Might - Dewey/All weapons' efficiency +2%",
+		gold = 500,
+		breakout_id = 9701102,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701101,
+		item1 = 21052,
+		pre_id = 0,
+		weapon_ids = {
+			170861
+		}
+	},
+	[9701102] = {
+		breakout_view = "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+		gold = 1500,
+		breakout_id = 9701103,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701102,
+		item1 = 21052,
+		pre_id = 9701101,
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[9701103] = {
+		breakout_view = "Improve Ashen Might - Dewey/All weapons' efficiency +5%",
+		gold = 2500,
+		breakout_id = 9701104,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701103,
+		item1 = 21052,
+		pre_id = 9701102,
+		weapon_ids = {
+			170862
+		}
+	},
+	[9701104] = {
+		breakout_view = "None",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701104,
+		item1 = 21052,
+		pre_id = 9701103,
 		weapon_ids = {}
 	},
 	[9702011] = {

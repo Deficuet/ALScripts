@@ -8,7 +8,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_4 = getProxy(PlayerProxy):getRawData().id
 
 	if var_1_3:getMemberById(var_1_4):IsRecruit() then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_duty_is_too_low"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_duty_is_too_low"))
 
 		return
 	end
@@ -16,7 +16,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	if _.any(var_1_1, function(arg_2_0)
 		return not var_1_2:GetReportById(arg_2_0):CanSubmit()
 	end) then
-		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_get_report_failed"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_get_report_failed"))
 
 		return
 	end

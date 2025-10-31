@@ -59,7 +59,6 @@ function var_0_0.Play(arg_4_0, arg_4_1)
 end
 
 function var_0_0.OnDestroy(arg_6_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_6_0._tf)
 	LeanTween.cancel(arg_6_0._go)
 end
 

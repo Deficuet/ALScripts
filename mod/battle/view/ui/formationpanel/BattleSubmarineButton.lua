@@ -26,7 +26,6 @@ end
 function var_0_1.ConfigCallback(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4)
 	local function var_4_0()
 		arg_4_2()
-		quickCheckAndPlayAnimator(arg_4_0._skin, "weapon_button_use")
 	end
 
 	var_0_1.super.ConfigCallback(arg_4_0, arg_4_1, var_4_0, arg_4_3, arg_4_4)
@@ -37,6 +36,8 @@ function var_0_1.OnOverLoadChange(arg_6_0, arg_6_1)
 
 	if arg_6_0._progressInfo:GetTotal() == arg_6_0._progressInfo:GetCount() then
 		quickCheckAndPlayAnimator(arg_6_0._skin, "weapon_button_into")
+	elseif arg_6_0._progressInfo:GetCount() == 0 then
+		quickCheckAndPlayAnimator(arg_6_0._skin, "weapon_button_use")
 	end
 end
 

@@ -5,11 +5,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.nameTxt = arg_2_0:findTF("frame/name"):GetComponent(typeof(Text))
-	arg_2_0.descTxt = arg_2_0:findTF("frame/desc"):GetComponent(typeof(Text))
-	arg_2_0.emojiContainer = arg_2_0:findTF("frame/icon_bg")
+	arg_2_0.nameTxt = arg_2_0._tf:Find("frame/name"):GetComponent(typeof(Text))
+	arg_2_0.descTxt = arg_2_0._tf:Find("frame/desc"):GetComponent(typeof(Text))
+	arg_2_0.emojiContainer = arg_2_0._tf:Find("frame/icon_bg")
 
-	setText(arg_2_0:findTF("frame/tip"), i18n("word_click_to_close"))
+	setText(arg_2_0._tf:Find("frame/tip"), i18n("word_click_to_close"))
 end
 
 function var_0_0.didEnter(arg_3_0)
@@ -66,7 +66,7 @@ function var_0_0.onBackPressed(arg_9_0)
 end
 
 function var_0_0.willExit(arg_10_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf)
 	arg_10_0:ReturnEmoji()
 end
 

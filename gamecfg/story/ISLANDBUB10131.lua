@@ -13,7 +13,7 @@ return {
 			characterId = 101300,
 			animation = "slap",
 			hideType = 2,
-			say = "嘀嘀嗒~嘀嘀嗒~♪ 今天又会发生什么新鲜事呢？"
+			say = "Tick, tock, tick, tock♪ I wonder what new things will happen today!"
 		}
 	}
 }

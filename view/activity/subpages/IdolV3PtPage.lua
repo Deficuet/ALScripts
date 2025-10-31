@@ -11,48 +11,48 @@ local var_0_1 = {
 function var_0_0.OnInit(arg_1_0)
 	var_0_0.super.OnInit(arg_1_0)
 
-	arg_1_0.trainEntranceBtn = arg_1_0:findTF("train_btn", arg_1_0.bg)
-	arg_1_0.skills = arg_1_0:findTF("skill", arg_1_0.bg)
+	arg_1_0.trainEntranceBtn = arg_1_0.bg:Find("train_btn")
+	arg_1_0.skills = arg_1_0.bg:Find("skill")
 	arg_1_0.skillBtns = {}
 
 	for iter_1_0 = 0, arg_1_0.skills.childCount - 1 do
 		table.insert(arg_1_0.skillBtns, arg_1_0.skills:GetChild(iter_1_0))
 	end
 
-	arg_1_0.helpBtn = arg_1_0:findTF("help_btn", arg_1_0.bg)
-	arg_1_0.idol1 = arg_1_0:findTF("idol1", arg_1_0.bg)
-	arg_1_0.buffInfoBox = arg_1_0:findTF("BuffInfoBox")
-	arg_1_0.mask = arg_1_0:findTF("mengban", arg_1_0.buffInfoBox)
-	arg_1_0.buffWindow = arg_1_0:findTF("panel", arg_1_0.buffInfoBox)
-	arg_1_0.buffName = arg_1_0:findTF("title/name", arg_1_0.buffWindow)
-	arg_1_0.titleLv = arg_1_0:findTF("title/lv", arg_1_0.buffWindow)
-	arg_1_0.titleIcon = arg_1_0:findTF("title/icon", arg_1_0.buffWindow)
-	arg_1_0.buffTip = arg_1_0:findTF("content/tip", arg_1_0.buffWindow)
-	arg_1_0.desc = arg_1_0:findTF("content/desc", arg_1_0.buffWindow)
-	arg_1_0.buffAwardTF = arg_1_0:findTF("award_bg/award", arg_1_0.buffWindow)
-	arg_1_0.trainWindow = arg_1_0:findTF("IdolTrainWindow")
-	arg_1_0.trainTitle = arg_1_0:findTF("panel/title/Text", arg_1_0.trainWindow)
-	arg_1_0.trainBtn = arg_1_0:findTF("panel/train_btn", arg_1_0.trainWindow)
-	arg_1_0.trainSkills = arg_1_0:findTF("panel/skills", arg_1_0.trainWindow)
+	arg_1_0.helpBtn = arg_1_0.bg:Find("help_btn")
+	arg_1_0.idol1 = arg_1_0.bg:Find("idol1")
+	arg_1_0.buffInfoBox = arg_1_0._tf:Find("BuffInfoBox")
+	arg_1_0.mask = arg_1_0.buffInfoBox:Find("mengban")
+	arg_1_0.buffWindow = arg_1_0.buffInfoBox:Find("panel")
+	arg_1_0.buffName = arg_1_0.buffWindow:Find("title/name")
+	arg_1_0.titleLv = arg_1_0.buffWindow:Find("title/lv")
+	arg_1_0.titleIcon = arg_1_0.buffWindow:Find("title/icon")
+	arg_1_0.buffTip = arg_1_0.buffWindow:Find("content/tip")
+	arg_1_0.desc = arg_1_0.buffWindow:Find("content/desc")
+	arg_1_0.buffAwardTF = arg_1_0.buffWindow:Find("award_bg/award")
+	arg_1_0.trainWindow = arg_1_0._tf:Find("IdolTrainWindow")
+	arg_1_0.trainTitle = arg_1_0.trainWindow:Find("panel/title/Text")
+	arg_1_0.trainBtn = arg_1_0.trainWindow:Find("panel/train_btn")
+	arg_1_0.trainSkills = arg_1_0.trainWindow:Find("panel/skills")
 	arg_1_0.trainSkillBtns = {}
 
 	for iter_1_1 = 0, arg_1_0.trainSkills.childCount - 1 do
 		table.insert(arg_1_0.trainSkillBtns, arg_1_0.trainSkills:GetChild(iter_1_1))
 	end
 
-	arg_1_0.info = arg_1_0:findTF("panel/info", arg_1_0.trainWindow)
-	arg_1_0.curBuff = arg_1_0:findTF("preview/current", arg_1_0.info)
-	arg_1_0.nextBuff = arg_1_0:findTF("preview/next", arg_1_0.info)
-	arg_1_0.msgBox = arg_1_0:findTF("MsgBox")
-	arg_1_0.msgIcon = arg_1_0:findTF("panel/title/icon", arg_1_0.msgBox)
+	arg_1_0.info = arg_1_0.trainWindow:Find("panel/info")
+	arg_1_0.curBuff = arg_1_0.info:Find("preview/current")
+	arg_1_0.nextBuff = arg_1_0.info:Find("preview/next")
+	arg_1_0.msgBox = arg_1_0._tf:Find("MsgBox")
+	arg_1_0.msgIcon = arg_1_0.msgBox:Find("panel/title/icon")
 
-	setText(arg_1_0:findTF("panel/title/Text", arg_1_0.msgBox), i18n("title_info"))
+	setText(arg_1_0.msgBox:Find("panel/title/Text"), i18n("title_info"))
 
-	arg_1_0.msgContent = arg_1_0:findTF("panel/content", arg_1_0.msgBox)
-	arg_1_0.msgBoxMask = arg_1_0:findTF("mengban", arg_1_0.msgBox)
-	arg_1_0.cancelBtn = arg_1_0:findTF("panel/cancel_btn", arg_1_0.msgBox)
-	arg_1_0.confirmBtn = arg_1_0:findTF("panel/confirm_btn", arg_1_0.msgBox)
-	arg_1_0.tipPanel = arg_1_0:findTF("Tip")
+	arg_1_0.msgContent = arg_1_0.msgBox:Find("panel/content")
+	arg_1_0.msgBoxMask = arg_1_0.msgBox:Find("mengban")
+	arg_1_0.cancelBtn = arg_1_0.msgBox:Find("panel/cancel_btn")
+	arg_1_0.confirmBtn = arg_1_0.msgBox:Find("panel/confirm_btn")
+	arg_1_0.tipPanel = arg_1_0._tf:Find("Tip")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -177,19 +177,19 @@ function var_0_0.OnUpdateFlush(arg_12_0)
 	end, SFX_PANEL)
 
 	for iter_12_0, iter_12_1 in ipairs(arg_12_0.ptData:GetCurBuffInfos()) do
-		setActive(arg_12_0:findTF("lv1", arg_12_0.skillBtns[iter_12_1.group]), false)
-		setActive(arg_12_0:findTF("lv2", arg_12_0.skillBtns[iter_12_1.group]), false)
-		setActive(arg_12_0:findTF("lv3", arg_12_0.skillBtns[iter_12_1.group]), false)
+		setActive(arg_12_0.skillBtns[iter_12_1.group]:Find("lv1"), false)
+		setActive(arg_12_0.skillBtns[iter_12_1.group]:Find("lv2"), false)
+		setActive(arg_12_0.skillBtns[iter_12_1.group]:Find("lv3"), false)
 
 		if iter_12_1.next then
-			setActive(arg_12_0:findTF("lv" .. iter_12_1.lv, arg_12_0.skillBtns[iter_12_1.group]), true)
+			setActive(arg_12_0.skillBtns[iter_12_1.group]:Find("lv" .. iter_12_1.lv), true)
 		else
-			setActive(arg_12_0:findTF("lv3", arg_12_0.skillBtns[iter_12_1.group]), true)
+			setActive(arg_12_0.skillBtns[iter_12_1.group]:Find("lv3"), true)
 		end
 
 		local var_12_13 = pg.benefit_buff_template[iter_12_1.id].icon
 
-		setImageSprite(arg_12_0:findTF("icon", arg_12_0.skillBtns[iter_12_1.group]), LoadSprite(var_12_13))
+		setImageSprite(arg_12_0.skillBtns[iter_12_1.group]:Find("icon"), LoadSprite(var_12_13))
 	end
 end
 
@@ -241,30 +241,30 @@ function var_0_0.flushTrainPanel(arg_19_0)
 
 	if var_19_0 then
 		for iter_19_0, iter_19_1 in ipairs(var_19_0) do
-			setActive(arg_19_0:findTF("lv1", arg_19_0.trainSkillBtns[iter_19_1.group]), false)
-			setActive(arg_19_0:findTF("lv2", arg_19_0.trainSkillBtns[iter_19_1.group]), false)
-			setActive(arg_19_0:findTF("lv3", arg_19_0.trainSkillBtns[iter_19_1.group]), false)
+			setActive(arg_19_0.trainSkillBtns[iter_19_1.group]:Find("lv1"), false)
+			setActive(arg_19_0.trainSkillBtns[iter_19_1.group]:Find("lv2"), false)
+			setActive(arg_19_0.trainSkillBtns[iter_19_1.group]:Find("lv3"), false)
 
 			if iter_19_1.next then
-				setActive(arg_19_0:findTF("lv" .. iter_19_1.lv, arg_19_0.trainSkillBtns[iter_19_1.group]), true)
+				setActive(arg_19_0.trainSkillBtns[iter_19_1.group]:Find("lv" .. iter_19_1.lv), true)
 			else
-				setActive(arg_19_0:findTF("lv3", arg_19_0.trainSkillBtns[iter_19_1.group]), true)
+				setActive(arg_19_0.trainSkillBtns[iter_19_1.group]:Find("lv3"), true)
 			end
 
 			local var_19_1 = pg.benefit_buff_template[iter_19_1.id].icon
 
-			setImageSprite(arg_19_0:findTF("icon", arg_19_0.trainSkillBtns[iter_19_1.group]), LoadSprite(var_19_1))
-			setText(arg_19_0:findTF("name", arg_19_0.trainSkillBtns[iter_19_1.group]), shortenString(pg.benefit_buff_template[iter_19_1.id].name, 12))
+			setImageSprite(arg_19_0.trainSkillBtns[iter_19_1.group]:Find("icon"), LoadSprite(var_19_1))
+			setText(arg_19_0.trainSkillBtns[iter_19_1.group]:Find("name"), shortenString(pg.benefit_buff_template[iter_19_1.id].name, 7))
 		end
 	end
 
 	for iter_19_2, iter_19_3 in ipairs(arg_19_0.trainSkillBtns) do
 		if iter_19_2 == arg_19_0.selectIndex then
-			setActive(arg_19_0:findTF("selected", iter_19_3), true)
-			setActive(arg_19_0:findTF("name", iter_19_3), true)
+			setActive(iter_19_3:Find("selected"), true)
+			setActive(iter_19_3:Find("name"), true)
 		else
-			setActive(arg_19_0:findTF("selected", iter_19_3), false)
-			setActive(arg_19_0:findTF("name", iter_19_3), false)
+			setActive(iter_19_3:Find("selected"), false)
+			setActive(iter_19_3:Find("name"), false)
 		end
 	end
 
@@ -299,10 +299,10 @@ function var_0_0.showBuffInfoBox(arg_20_0, arg_20_1)
 
 	if arg_20_1.next then
 		setText(arg_20_0.titleLv, "Lv." .. arg_20_1.lv)
-		setActive(arg_20_0:findTF("icon_bg/got_mask", arg_20_0.buffAwardTF), false)
+		setActive(arg_20_0.buffAwardTF:Find("icon_bg/got_mask"), false)
 	else
 		setText(arg_20_0.titleLv, "MAX")
-		setActive(arg_20_0:findTF("icon_bg/got_mask", arg_20_0.buffAwardTF), true)
+		setActive(arg_20_0.buffAwardTF:Find("icon_bg/got_mask"), true)
 		removeOnButton(arg_20_0.buffAwardTF)
 	end
 
@@ -370,7 +370,7 @@ function var_0_0.showTip(arg_31_0, arg_31_1)
 	local var_31_0 = cloneTplTo(arg_31_0.tipPanel, arg_31_0._tf)
 
 	setActive(var_31_0, true)
-	setText(arg_31_0:findTF("Text", var_31_0), arg_31_1)
+	setText(var_31_0:Find("Text"), arg_31_1)
 
 	var_31_0.transform.localScale = Vector3(0, 0.1, 1)
 

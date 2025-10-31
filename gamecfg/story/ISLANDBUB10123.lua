@@ -13,7 +13,7 @@ return {
 			characterId = 101200,
 			animation = "nod",
 			hideType = 2,
-			say = "嗯……柑橘的香味，很清晰。"
+			say = "Mmm. That citrus aroma is so refreshing."
 		}
 	}
 }

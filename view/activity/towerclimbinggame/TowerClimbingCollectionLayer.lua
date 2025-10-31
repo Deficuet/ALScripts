@@ -71,18 +71,18 @@ function var_0_0.GetAwardState(arg_5_0, arg_5_1)
 end
 
 function var_0_0.init(arg_6_0)
-	arg_6_0.bookContainer = arg_6_0:findTF("books")
-	arg_6_0.book = arg_6_0:findTF("book")
-	arg_6_0.nextPageBtn = arg_6_0:findTF("book/next")
-	arg_6_0.prevPageBtn = arg_6_0:findTF("book/prev")
-	arg_6_0.scoreList = UIItemList.New(arg_6_0:findTF("book/list"), arg_6_0:findTF("book/list/tpl"))
-	arg_6_0.getBtn = arg_6_0:findTF("book/get")
-	arg_6_0.gotBtn = arg_6_0:findTF("book/got")
-	arg_6_0.goBtn = arg_6_0:findTF("book/go")
+	arg_6_0.bookContainer = arg_6_0._tf:Find("books")
+	arg_6_0.book = arg_6_0._tf:Find("book")
+	arg_6_0.nextPageBtn = arg_6_0._tf:Find("book/next")
+	arg_6_0.prevPageBtn = arg_6_0._tf:Find("book/prev")
+	arg_6_0.scoreList = UIItemList.New(arg_6_0._tf:Find("book/list"), arg_6_0._tf:Find("book/list/tpl"))
+	arg_6_0.getBtn = arg_6_0._tf:Find("book/get")
+	arg_6_0.gotBtn = arg_6_0._tf:Find("book/got")
+	arg_6_0.goBtn = arg_6_0._tf:Find("book/go")
 	arg_6_0.books = {
-		arg_6_0:findTF("books/1"),
-		arg_6_0:findTF("books/2"),
-		arg_6_0:findTF("books/3")
+		arg_6_0._tf:Find("books/1"),
+		arg_6_0._tf:Find("books/2"),
+		arg_6_0._tf:Find("books/3")
 	}
 	arg_6_0.parent = arg_6_0._tf.parent
 
@@ -194,7 +194,7 @@ function var_0_0.CloseBook(arg_19_0)
 end
 
 function var_0_0.willExit(arg_20_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_20_0._tf, arg_20_0.parent)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_20_0._tf, arg_20_0.parent)
 end
 
 return var_0_0

@@ -12,34 +12,34 @@ function var_0_0.ResUISettings(arg_2_0)
 end
 
 function var_0_0.init(arg_3_0)
-	arg_3_0.blurPanel = arg_3_0:findTF("blur_panel")
-	arg_3_0.topPanel = arg_3_0:findTF("blur_panel/adapt/top")
-	arg_3_0.backBtn = arg_3_0:findTF("back_button", arg_3_0.topPanel)
-	arg_3_0.listPanel = arg_3_0:findTF("list_panel")
-	arg_3_0.content = arg_3_0:findTF("list", arg_3_0.listPanel)
+	arg_3_0.blurPanel = arg_3_0._tf:Find("blur_panel")
+	arg_3_0.topPanel = arg_3_0._tf:Find("blur_panel/adapt/top")
+	arg_3_0.backBtn = arg_3_0.topPanel:Find("back_button")
+	arg_3_0.listPanel = arg_3_0._tf:Find("list_panel")
+	arg_3_0.content = arg_3_0.listPanel:Find("list")
 
 	setActive(arg_3_0.content, true)
 
 	arg_3_0.dailylevelTpl = arg_3_0:getTpl("list_panel/list/captertpl")
-	arg_3_0.descPanel = arg_3_0:findTF("desc_panel")
+	arg_3_0.descPanel = arg_3_0._tf:Find("desc_panel")
 	arg_3_0.selectedPanel = arg_3_0.descPanel:Find("selected")
-	arg_3_0.descMain = arg_3_0:findTF("main_mask/main", arg_3_0.descPanel)
+	arg_3_0.descMain = arg_3_0.descPanel:Find("main_mask/main")
 	arg_3_0.stageTpl = arg_3_0:getTpl("scrollview/content/stagetpl", arg_3_0.descMain)
-	arg_3_0.stageScrollRect = arg_3_0:findTF("scrollview", arg_3_0.descMain):GetComponent(typeof(ScrollRect))
-	arg_3_0.stageContain = arg_3_0:findTF("scrollview/content", arg_3_0.descMain)
-	arg_3_0.arrows = arg_3_0:findTF("arrows")
+	arg_3_0.stageScrollRect = arg_3_0.descMain:Find("scrollview"):GetComponent(typeof(ScrollRect))
+	arg_3_0.stageContain = arg_3_0.descMain:Find("scrollview/content")
+	arg_3_0.arrows = arg_3_0._tf:Find("arrows")
 	arg_3_0.itemTpl = arg_3_0:getTpl("item_tpl")
 	arg_3_0.selStageTF = arg_3_0.selectedPanel:Find("stagetpl/info")
 	arg_3_0.selQuicklyTF = arg_3_0.selStageTF.parent:Find("quickly/bg")
 	arg_3_0.selQuicklyTFSizeDeltaY = arg_3_0.selQuicklyTF.sizeDelta.y
-	arg_3_0.descChallengeNum = arg_3_0:findTF("challenge_count", arg_3_0.descMain)
-	arg_3_0.descChallengeText = arg_3_0:findTF("Text", arg_3_0.descChallengeNum)
-	arg_3_0.challengeQuotaDaily = arg_3_0:findTF("challenge_count/label", arg_3_0.descMain)
-	arg_3_0.challengeQuotaWeekly = arg_3_0:findTF("challenge_count/week_label", arg_3_0.descMain)
-	arg_3_0.fleetEditView = arg_3_0:findTF("fleet_edit")
-	arg_3_0.resource = arg_3_0:findTF("resource")
-	arg_3_0.rightBtn = arg_3_0:findTF("arrows/arrow1")
-	arg_3_0.leftBtn = arg_3_0:findTF("arrows/arrow2")
+	arg_3_0.descChallengeNum = arg_3_0.descMain:Find("challenge_count")
+	arg_3_0.descChallengeText = arg_3_0.descChallengeNum:Find("Text")
+	arg_3_0.challengeQuotaDaily = arg_3_0.descMain:Find("challenge_count/label")
+	arg_3_0.challengeQuotaWeekly = arg_3_0.descMain:Find("challenge_count/week_label")
+	arg_3_0.fleetEditView = arg_3_0._tf:Find("fleet_edit")
+	arg_3_0.resource = arg_3_0._tf:Find("resource")
+	arg_3_0.rightBtn = arg_3_0._tf:Find("arrows/arrow1")
+	arg_3_0.leftBtn = arg_3_0._tf:Find("arrows/arrow2")
 
 	arg_3_0:initItems()
 end
@@ -65,7 +65,7 @@ function var_0_0.updateRes(arg_8_0, arg_8_1)
 end
 
 function var_0_0.didEnter(arg_9_0)
-	onButton(arg_9_0, arg_9_0:findTF("help_btn"), function()
+	onButton(arg_9_0, arg_9_0._tf:Find("help_btn"), function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_daily_task.tip
@@ -117,7 +117,7 @@ function var_0_0.initItems(arg_14_0)
 		local var_14_3 = var_14_1[arg_14_0.dailyList[iter_14_0]].insert_daily
 
 		if var_14_2 and type(var_14_2) == "table" then
-			if not pg.TimeMgr:GetInstance():inTime(var_14_2) then
+			if not pg.TimeMgr.GetInstance():inTime(var_14_2) then
 				table.remove(arg_14_0.dailyList, iter_14_0)
 			end
 		elseif var_14_3 == 1 then
@@ -236,11 +236,11 @@ function var_0_0.displayDailyLevels(arg_18_0)
 					arg_18_0.centerCardId = iter_20_2
 				end
 
-				local var_20_3 = arg_18_0:findTF("icon/card", iter_20_3)
+				local var_20_3 = iter_20_3:Find("icon/card")
 
 				if var_20_3 then
-					local var_20_4 = arg_18_0:findTF("mask/char", var_20_3):GetComponent(typeof(Animator))
-					local var_20_5 = arg_18_0:findTF("effect", var_20_3)
+					local var_20_4 = var_20_3:Find("mask/char"):GetComponent(typeof(Animator))
+					local var_20_5 = var_20_3:Find("effect")
 
 					setActive(var_20_5, var_20_2)
 
@@ -340,10 +340,10 @@ function var_0_0.initDailyLevel(arg_24_0, arg_24_1)
 	local var_24_5 = Clone(var_24_0.limit_period)
 	local var_24_6
 
-	if var_24_5 and type(var_24_5) == "table" and pg.TimeMgr:GetInstance():inTime(var_24_5) then
-		local var_24_7 = pg.TimeMgr:GetInstance():GetServerTime()
+	if var_24_5 and type(var_24_5) == "table" and pg.TimeMgr.GetInstance():inTime(var_24_5) then
+		local var_24_7 = pg.TimeMgr.GetInstance():GetServerTime()
 
-		var_24_6 = pg.TimeMgr:GetInstance():Table2ServerTime({
+		var_24_6 = pg.TimeMgr.GetInstance():Table2ServerTime({
 			year = var_24_5[2][1][1],
 			month = var_24_5[2][1][2],
 			day = var_24_5[2][1][3],
@@ -462,19 +462,19 @@ function var_0_0.updateStageTF(arg_32_0, arg_32_1, arg_32_2)
 	setText(findTF(arg_32_1, "left_panel/name"), var_32_0.name)
 	setText(findTF(arg_32_1, "left_panel/lv/Text"), "Lv." .. arg_32_2.level)
 
-	local var_32_1 = arg_32_0:findTF("mask", arg_32_1)
+	local var_32_1 = arg_32_1:Find("mask")
 
 	setActive(var_32_1, arg_32_2.level > arg_32_0.player.level)
 
 	if arg_32_2.level > arg_32_0.player.level then
-		setText(arg_32_0:findTF("msg/msg_contain/Text", var_32_1), "Lv." .. arg_32_2.level .. " ")
+		setText(var_32_1:Find("msg/msg_contain/Text"), "Lv." .. arg_32_2.level .. " ")
 
 		if PLATFORM_CODE == PLATFORM_US then
-			arg_32_0:findTF("msg/msg_contain/Text", var_32_1):SetAsLastSibling()
+			var_32_1:Find("msg/msg_contain/Text"):SetAsLastSibling()
 		end
 	end
 
-	local var_32_2 = UIItemList.New(arg_32_0:findTF("scrollView/right_panel", arg_32_1), arg_32_0.itemTpl)
+	local var_32_2 = UIItemList.New(arg_32_1:Find("scrollView/right_panel"), arg_32_0.itemTpl)
 
 	var_32_2:make(function(arg_33_0, arg_33_1, arg_33_2)
 		if arg_33_0 == UIItemList.EventUpdate then
@@ -577,10 +577,7 @@ function var_0_0.DoSelectedAnimation(arg_44_0, arg_44_1, arg_44_2, arg_44_3)
 		function(arg_45_0)
 			arg_44_0.stageScrollRect.enabled = false
 
-			pg.UIMgr.GetInstance():BlurPanel(arg_44_0.selectedPanel, false, {
-				groupName = LayerWeightConst.GROUP_DAILY,
-				weight = LayerWeightConst.BASE_LAYER - 1
-			})
+			pg.UIMgr.GetInstance():BlurPanel(arg_44_0.selectedPanel)
 
 			arg_44_1.sizeDelta = Vector2(arg_44_1.sizeDelta.x, 0)
 
@@ -618,7 +615,7 @@ function var_0_0.DoUnselectAnimtion(arg_49_0, arg_49_1, arg_49_2)
 
 	seriesAsync({
 		function(arg_50_0)
-			pg.UIMgr.GetInstance():UnblurPanel(arg_49_0.selectedPanel, arg_49_0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(arg_49_0.selectedPanel, arg_49_0._tf)
 			setActive(arg_49_0.selectedPanel, false)
 
 			local var_50_0 = arg_49_1:GetComponent(typeof(LayoutElement))
@@ -698,7 +695,7 @@ end
 function var_0_0.enableDescMode(arg_61_0, arg_61_1, arg_61_2)
 	arg_61_0.descMode = arg_61_1
 
-	setActive(arg_61_0:findTF("help_btn"), not arg_61_1)
+	setActive(arg_61_0._tf:Find("help_btn"), not arg_61_1)
 
 	local function var_61_0(arg_62_0, arg_62_1, arg_62_2)
 		if LeanTween.isTweening(go(arg_62_0)) then
@@ -775,7 +772,7 @@ end
 
 function var_0_0.tryPlayGuide(arg_70_0)
 	pg.SystemGuideMgr.GetInstance():PlayDailyLevel(function()
-		triggerButton(arg_70_0:findTF("help_btn"))
+		triggerButton(arg_70_0._tf:Find("help_btn"))
 	end)
 end
 
@@ -818,7 +815,7 @@ end
 
 function var_0_0.willExit(arg_76_0)
 	if arg_76_0.selectedStage then
-		pg.UIMgr.GetInstance():UnblurPanel(arg_76_0.selectedPanel, arg_76_0._tf)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_76_0.selectedPanel, arg_76_0._tf)
 	end
 
 	arg_76_0:clearTween()

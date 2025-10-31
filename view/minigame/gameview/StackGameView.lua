@@ -8,11 +8,11 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
-	arg_2_0.backBtn = arg_2_0:findTF("overview/back")
-	arg_2_0.scrollrect = arg_2_0:findTF("overview/levels"):GetComponent(typeof(ScrollRect))
-	arg_2_0.levelUIlist = UIItemList.New(arg_2_0:findTF("overview/levels/mask/content"), arg_2_0:findTF("overview/levels/mask/content/1"))
-	arg_2_0.topArrBtn = arg_2_0:findTF("overview/levels/top")
-	arg_2_0.bottomArrBtn = arg_2_0:findTF("overview/levels/bottom")
+	arg_2_0.backBtn = arg_2_0._tf:Find("overview/back")
+	arg_2_0.scrollrect = arg_2_0._tf:Find("overview/levels"):GetComponent(typeof(ScrollRect))
+	arg_2_0.levelUIlist = UIItemList.New(arg_2_0._tf:Find("overview/levels/mask/content"), arg_2_0._tf:Find("overview/levels/mask/content/1"))
+	arg_2_0.topArrBtn = arg_2_0._tf:Find("overview/levels/top")
+	arg_2_0.bottomArrBtn = arg_2_0._tf:Find("overview/levels/bottom")
 end
 
 local var_0_1 = 7

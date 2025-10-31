@@ -156,6 +156,42 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		get_tips = "You obtained an Intimacy wallpaper."
 	},
+	[101201] = {
+		rarity = 3,
+		name = "Invitation to Obsession",
+		nighttime_res = "101201_bg_night",
+		id = 101201,
+		icon_res = "101201_icon",
+		desc = "Unlocks the Invitation to Obsession wallpaper for the port.",
+		unlock_text = "Reach Taihou Intimacy Lv. 2",
+		daytime_res = "101201_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "You obtained an Intimacy wallpaper."
+	},
+	[101202] = {
+		rarity = 3,
+		name = "Mutual Codependence",
+		nighttime_res = "101202_bg_night",
+		id = 101202,
+		icon_res = "101202_icon",
+		desc = "Unlocks the Mutual Codependence wallpaper for the port.",
+		unlock_text = "Reach Taihou Intimacy Lv. 7",
+		daytime_res = "101202_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "You obtained an Intimacy wallpaper."
+	},
+	[101203] = {
+		rarity = 3,
+		name = "Passion at Your Fingertips",
+		nighttime_res = "101203_bg_night",
+		id = 101203,
+		icon_res = "101203_icon",
+		desc = "Unlocks the Passion at Your Fingertips wallpaper for the port.",
+		unlock_text = "Reach Taihou Intimacy Lv. 10",
+		daytime_res = "101203_bg_day",
+		icon = "Props/drom3d_camera1003",
+		get_tips = "You obtained an Intimacy wallpaper."
+	},
 	all = {
 		0,
 		100101,
@@ -169,6 +205,9 @@ pg.livingarea_cover = {
 		100303,
 		101101,
 		101102,
-		101103
+		101103,
+		101201,
+		101202,
+		101203
 	}
 }

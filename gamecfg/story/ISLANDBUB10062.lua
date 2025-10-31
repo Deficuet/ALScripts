@@ -13,7 +13,7 @@ return {
 			characterId = 100600,
 			animation = "rest",
 			hideType = 2,
-			say = "最后一车……就快能歇口气了……"
+			say = "Last minecart! C'mon, you can do it! You're almost there!"
 		}
 	}
 }

@@ -5,16 +5,16 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
-	arg_2_0.mainTr = arg_2_0:findTF("main")
-	arg_2_0.cntTxt = arg_2_0:findTF("main/name/count"):GetComponent(typeof(Text))
-	arg_2_0.submitBtn = arg_2_0:findTF("main/btn/btn_1")
-	arg_2_0.noResBtn = arg_2_0:findTF("main/btn/btn_2")
-	arg_2_0.awardCntTxt = arg_2_0:findTF("main/price/Text"):GetComponent(typeof(Text))
-	arg_2_0.nameTxt = arg_2_0:findTF("main/name"):GetComponent(typeof(Text))
+	arg_2_0.mainTr = arg_2_0._tf:Find("main")
+	arg_2_0.cntTxt = arg_2_0._tf:Find("main/name/count"):GetComponent(typeof(Text))
+	arg_2_0.submitBtn = arg_2_0._tf:Find("main/btn/btn_1")
+	arg_2_0.noResBtn = arg_2_0._tf:Find("main/btn/btn_2")
+	arg_2_0.awardCntTxt = arg_2_0._tf:Find("main/price/Text"):GetComponent(typeof(Text))
+	arg_2_0.nameTxt = arg_2_0._tf:Find("main/name"):GetComponent(typeof(Text))
 
-	setText(arg_2_0:findTF("main/title/Text"), i18n("island_order_ship_loadup_award"))
-	setText(arg_2_0:findTF("main/btn/btn_2/Text"), i18n("island_order_ship_loadup_nores"))
-	setText(arg_2_0:findTF("main/btn/btn_1/Text"), i18n("island_order_ship_loadup"))
+	setText(arg_2_0._tf:Find("main/title/Text"), i18n("island_order_ship_loadup_award"))
+	setText(arg_2_0._tf:Find("main/btn/btn_2/Text"), i18n("island_order_ship_loadup_nores"))
+	setText(arg_2_0._tf:Find("main/btn/btn_1/Text"), i18n("island_order_ship_loadup"))
 end
 
 function var_0_0.OnInit(arg_3_0)

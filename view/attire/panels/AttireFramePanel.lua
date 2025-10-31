@@ -122,8 +122,8 @@ function var_0_0.GetData(arg_14_0)
 end
 
 function var_0_0.OnInit(arg_15_0)
-	arg_15_0.listPanel = arg_15_0:findTF("list_panel")
-	arg_15_0.scolrect = arg_15_0:findTF("scrollrect", arg_15_0.listPanel):GetComponent("LScrollRect")
+	arg_15_0.listPanel = arg_15_0._tf:Find("list_panel")
+	arg_15_0.scolrect = arg_15_0.listPanel:Find("scrollrect"):GetComponent("LScrollRect")
 
 	function arg_15_0.scolrect.onInitItem(arg_16_0)
 		arg_15_0:OnInitItem(arg_16_0)
@@ -139,10 +139,10 @@ function var_0_0.OnInit(arg_15_0)
 
 	arg_15_0.cards = {}
 
-	local var_15_0 = arg_15_0:findTF("desc_panel")
+	local var_15_0 = arg_15_0._tf:Find("desc_panel")
 
 	arg_15_0.descPanel = AttireDescPanel.New(var_15_0)
-	arg_15_0.totalCount = arg_15_0:findTF("total_count/Text"):GetComponent(typeof(Text))
+	arg_15_0.totalCount = arg_15_0._tf:Find("total_count/Text"):GetComponent(typeof(Text))
 end
 
 function var_0_0.OnInitItem(arg_19_0, arg_19_1)

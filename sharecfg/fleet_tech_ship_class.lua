@@ -1452,7 +1452,8 @@ pg.fleet_tech_ship_class = {
 			30186,
 			30183,
 			30154,
-			30191
+			30191,
+			30192
 		}
 	},
 	[30112] = {
@@ -1529,7 +1530,8 @@ pg.fleet_tech_ship_class = {
 			30212,
 			30213,
 			30214,
-			30226
+			30226,
+			30227
 		}
 	},
 	[30205] = {
@@ -1627,7 +1629,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 87,
 		t_level = 8,
 		ships = {
-			39901
+			39901,
+			30320
 		}
 	},
 	[30306] = {
@@ -1757,7 +1760,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			30514,
 			30512,
-			30513
+			30513,
+			30516
 		}
 	},
 	[30508] = {
@@ -1952,6 +1956,17 @@ pg.fleet_tech_ship_class = {
 			30715
 		}
 	},
+	[30711] = {
+		shiptype = 7,
+		name = "Hakuhou",
+		nation = 3,
+		id = 30711,
+		t_level_1 = 1,
+		t_level = 10,
+		ships = {
+			30716
+		}
+	},
 	[30801] = {
 		shiptype = 8,
 		name = "Type B1",
@@ -1998,6 +2013,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			31701
+		}
+	},
+	[31702] = {
+		shiptype = 17,
+		name = "Sentoku Type",
+		nation = 3,
+		id = 31702,
+		t_level_1 = 111,
+		t_level = 10,
+		ships = {
+			31702
 		}
 	},
 	[31801] = {
@@ -3788,6 +3814,61 @@ pg.fleet_tech_ship_class = {
 			960011
 		}
 	},
+	[960012] = {
+		shiptype = 24,
+		name = "Queen Anne's Revenge",
+		nation = 96,
+		id = 960012,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			960012
+		}
+	},
+	[960013] = {
+		shiptype = 23,
+		name = "Lyme",
+		nation = 96,
+		id = 960013,
+		t_level_1 = 1,
+		t_level = 1,
+		ships = {
+			960013
+		}
+	},
+	[960014] = {
+		shiptype = 24,
+		name = "Pearl",
+		nation = 96,
+		id = 960014,
+		t_level_1 = 1,
+		t_level = 2,
+		ships = {
+			960014
+		}
+	},
+	[960015] = {
+		shiptype = 23,
+		name = "Royal James",
+		nation = 96,
+		id = 960015,
+		t_level_1 = 15,
+		t_level = 1,
+		ships = {
+			960015
+		}
+	},
+	[960016] = {
+		shiptype = 22,
+		name = "Adventure",
+		nation = 96,
+		id = 960016,
+		t_level_1 = 11,
+		t_level = 1,
+		ships = {
+			960016
+		}
+	},
 	[970101] = {
 		shiptype = 1,
 		name = "Hunter META",
@@ -3885,6 +3966,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 1,
 		ships = {
 			970109
+		}
+	},
+	[970110] = {
+		shiptype = 1,
+		name = "Dewey META",
+		nation = 97,
+		id = 970110,
+		t_level_1 = 16,
+		t_level = 1,
+		ships = {
+			970110
 		}
 	},
 	[970201] = {
@@ -4506,10 +4598,12 @@ pg.fleet_tech_ship_class = {
 		30708,
 		30709,
 		30710,
+		30711,
 		30801,
 		30802,
 		31201,
 		31701,
+		31702,
 		31801,
 		31901,
 		40101,
@@ -4665,6 +4759,11 @@ pg.fleet_tech_ship_class = {
 		960009,
 		960010,
 		960011,
+		960012,
+		960013,
+		960014,
+		960015,
+		960016,
 		970101,
 		970102,
 		970103,
@@ -4674,6 +4773,7 @@ pg.fleet_tech_ship_class = {
 		970107,
 		970108,
 		970109,
+		970110,
 		970201,
 		970202,
 		970203,

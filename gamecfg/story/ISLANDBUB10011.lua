@@ -10,7 +10,7 @@ return {
 	scripts = {
 		{
 			hideTime = 3,
-			say = "风车转啊转……看得人……更困了……",
+			say = "Watching the windmill go round and round... makes me sleepier.",
 			characterId = 100100,
 			hideType = 2
 		}

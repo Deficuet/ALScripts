@@ -57,10 +57,8 @@ function var_0_0.init(arg_4_0)
 		arg_4_0:Op(...)
 	end)
 
-	local var_4_0 = pg.UIMgr.GetInstance()
-
-	arg_4_0.camera = var_4_0.levelCamera:GetComponent(typeof(Camera))
-	arg_4_0.rtUIMain = var_4_0.LevelMain
+	arg_4_0.camera = pg.UIMgr.GetInstance().levelCamera:GetComponent(typeof(Camera))
+	arg_4_0.rtUIMain = pg.UIMgr.GetInstance().LevelMain
 
 	setActive(arg_4_0.rtUIMain, false)
 
@@ -133,7 +131,7 @@ function var_0_0.init(arg_4_0)
 
 	arg_4_0.wsPool = WSPool.New()
 
-	arg_4_0.wsPool:Setup(arg_4_0:findTF("resources"))
+	arg_4_0.wsPool:Setup(arg_4_0._tf:Find("resources"))
 
 	arg_4_0.wsAnim = WSAnim.New()
 
@@ -183,7 +181,7 @@ function var_0_0.init(arg_4_0)
 end
 
 function var_0_0.InitSubView(arg_11_0)
-	arg_11_0.rtPanelList = arg_11_0:findTF("panel_list")
+	arg_11_0.rtPanelList = arg_11_0._tf:Find("panel_list")
 	arg_11_0.svOrderPanel = SVOrderPanel.New(arg_11_0.rtPanelList, arg_11_0.event, {
 		wsPool = arg_11_0.wsPool
 	})
@@ -254,7 +252,7 @@ function var_0_0.InitSubView(arg_11_0)
 end
 
 function var_0_0.didEnter(arg_22_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_22_0.rtTop)
+	arg_22_0:OverlayPanel(arg_22_0.rtTop)
 
 	arg_22_0.warningSairen = not arg_22_0.contextData.inSave
 
@@ -366,7 +364,7 @@ end
 function var_0_0.willExit(arg_37_0)
 	arg_37_0:SaveState()
 	arg_37_0:RemoveWorldListener()
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_37_0.rtTop, arg_37_0._tf)
+	arg_37_0:UnOverlayPanel(arg_37_0.rtTop, arg_37_0._tf)
 	arg_37_0.svOrderPanel:Destroy()
 	arg_37_0.svScannerPanel:Destroy()
 	arg_37_0.svAchievement:Destroy()
@@ -1907,13 +1905,13 @@ function var_0_0.BuildCutInAnim(arg_240_0, arg_240_1, arg_240_2)
 			if not IsNil(arg_240_0.tfAnim) then
 				arg_240_0.inCutIn = false
 
-				pg.UIMgr.GetInstance():UnOverlayPanel(arg_240_0.tfAnim, arg_240_0.rtPanelList)
+				arg_240_0:UnOverlayPanel(arg_240_0.tfAnim, arg_240_0.rtPanelList)
 				setActive(arg_240_0.tfAnim, false)
 
 				return arg_243_0()
 			end
 		end)
-		pg.UIMgr.GetInstance():OverlayPanel(arg_240_0.tfAnim)
+		arg_240_0:OverlayPanel(arg_240_0.tfAnim)
 		setActive(arg_240_0.tfAnim, true)
 	end)
 	seriesAsync(var_240_0, function()
@@ -1936,7 +1934,7 @@ function var_0_0.PlaySound(arg_246_0, arg_246_1, arg_246_2)
 end
 
 function var_0_0.ChangeTopRaycasts(arg_248_0, arg_248_1)
-	GetComponent(arg_248_0.rtTop, typeof(CanvasGroup)).blocksRaycasts = tobool(arg_248_1)
+	GetOrAddComponent(arg_248_0.rtTop, typeof(CanvasGroup)).blocksRaycasts = tobool(arg_248_1)
 end
 
 function var_0_0.DoTopBlock(arg_249_0, arg_249_1)

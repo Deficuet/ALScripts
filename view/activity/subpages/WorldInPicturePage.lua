@@ -1,14 +1,14 @@
 local var_0_0 = class("WorldInPicturePage", import(".TemplatePage.SkinTemplatePage"))
 
 function var_0_0.OnInit(arg_1_0)
-	arg_1_0.bg = arg_1_0:findTF("AD")
-	arg_1_0.item = arg_1_0:findTF("items/item", arg_1_0.bg)
-	arg_1_0.items = arg_1_0:findTF("items", arg_1_0.bg)
+	arg_1_0.bg = arg_1_0._tf:Find("AD")
+	arg_1_0.item = arg_1_0.bg:Find("items/item")
+	arg_1_0.items = arg_1_0.bg:Find("items")
 	arg_1_0.uilist = UIItemList.New(arg_1_0.items, arg_1_0.item)
-	arg_1_0.help = arg_1_0:findTF("AD/help")
-	arg_1_0.start = arg_1_0:findTF("AD/start")
-	arg_1_0.dayTF = arg_1_0:findTF("Text", arg_1_0.bg)
-	arg_1_0.tip = arg_1_0:findTF("AD/tip")
+	arg_1_0.help = arg_1_0._tf:Find("AD/help")
+	arg_1_0.start = arg_1_0._tf:Find("AD/start")
+	arg_1_0.dayTF = arg_1_0.bg:Find("Text")
+	arg_1_0.tip = arg_1_0._tf:Find("AD/tip")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -28,7 +28,7 @@ end
 
 function var_0_0.UpdateTask(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_0 = arg_5_1 + 1
-	local var_5_1 = arg_5_0:findTF("item", arg_5_2)
+	local var_5_1 = arg_5_2:Find("item")
 	local var_5_2 = arg_5_0.taskGroup[arg_5_0.nday][var_5_0]
 	local var_5_3 = arg_5_0.taskProxy:getTaskById(var_5_2) or arg_5_0.taskProxy:getFinishTaskById(var_5_2)
 
@@ -49,12 +49,12 @@ function var_0_0.UpdateTask(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_6 = var_5_3:getProgress()
 	local var_5_7 = var_5_3:getConfig("target_num")
 
-	setText(arg_5_0:findTF("description", arg_5_2), var_5_3:getConfig("desc"))
-	setSlider(arg_5_0:findTF("progress", arg_5_2), 0, var_5_7, var_5_6)
+	setText(arg_5_2:Find("description"), var_5_3:getConfig("desc"))
+	setSlider(arg_5_2:Find("progress"), 0, var_5_7, var_5_6)
 
-	local var_5_8 = arg_5_0:findTF("go_btn", arg_5_2)
-	local var_5_9 = arg_5_0:findTF("get_btn", arg_5_2)
-	local var_5_10 = arg_5_0:findTF("got_btn", arg_5_2)
+	local var_5_8 = arg_5_2:Find("go_btn")
+	local var_5_9 = arg_5_2:Find("get_btn")
+	local var_5_10 = arg_5_2:Find("got_btn")
 	local var_5_11 = var_5_3:getTaskStatus()
 
 	setActive(var_5_8, var_5_11 == 0)
@@ -66,7 +66,7 @@ function var_0_0.UpdateTask(arg_5_0, arg_5_1, arg_5_2)
 	onButton(arg_5_0, var_5_9, function()
 		arg_5_0:emit(ActivityMediator.ON_TASK_SUBMIT, var_5_3)
 	end, SFX_PANEL)
-	setText(arg_5_0:findTF("progressText", arg_5_2), "<color=#789143>" .. var_5_6 .. "</color><color=#a3876f>/" .. var_5_7 .. "</color>")
+	setText(arg_5_2:Find("progressText"), "<color=#789143>" .. var_5_6 .. "</color><color=#a3876f>/" .. var_5_7 .. "</color>")
 end
 
 function var_0_0.OnUpdateFlush(arg_9_0)

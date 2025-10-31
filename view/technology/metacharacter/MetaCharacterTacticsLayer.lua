@@ -45,14 +45,13 @@ function var_0_0.onBackPressed(arg_5_0)
 end
 
 function var_0_0.initUITextTips(arg_6_0)
-	local var_6_0 = arg_6_0:findTF("ExpPanel")
-	local var_6_1 = arg_6_0:findTF("ExpEveryDay", var_6_0)
+	local var_6_0 = arg_6_0._tf:Find("ExpPanel"):Find("ExpEveryDay")
 
-	setText(var_6_1, i18n("meta_exp_per_day"))
+	setText(var_6_0, i18n("meta_exp_per_day"))
 
-	local var_6_2 = arg_6_0:findTF("TaskPanel/StudySkillTip/TipText")
+	local var_6_1 = arg_6_0._tf:Find("TaskPanel/StudySkillTip/TipText")
 
-	setText(var_6_2, i18n("meta_skill_unlock"))
+	setText(var_6_1, i18n("meta_skill_unlock"))
 end
 
 function var_0_0.initData(arg_7_0)
@@ -108,50 +107,50 @@ function var_0_0.clearTaskInfo(arg_13_0, arg_13_1)
 end
 
 function var_0_0.initUI(arg_14_0)
-	arg_14_0.shipImg = arg_14_0:findTF("ShipImg")
-	arg_14_0.nameTF = arg_14_0:findTF("NamePanel")
-	arg_14_0.nameScrollText = arg_14_0:findTF("NameMask/NameText", arg_14_0.nameTF)
-	arg_14_0.shipTypeImg = arg_14_0:findTF("TypeImg", arg_14_0.nameTF)
-	arg_14_0.enNameText = arg_14_0:findTF("NameENText", arg_14_0.nameTF)
+	arg_14_0.shipImg = arg_14_0._tf:Find("ShipImg")
+	arg_14_0.nameTF = arg_14_0._tf:Find("NamePanel")
+	arg_14_0.nameScrollText = arg_14_0.nameTF:Find("NameMask/NameText")
+	arg_14_0.shipTypeImg = arg_14_0.nameTF:Find("TypeImg")
+	arg_14_0.enNameText = arg_14_0.nameTF:Find("NameENText")
 
-	local var_14_0 = arg_14_0:findTF("StarTpl", arg_14_0.nameTF)
-	local var_14_1 = arg_14_0:findTF("StarContainer", arg_14_0.nameTF)
+	local var_14_0 = arg_14_0.nameTF:Find("StarTpl")
+	local var_14_1 = arg_14_0.nameTF:Find("StarContainer")
 
 	arg_14_0.nameTFStarUIList = UIItemList.New(var_14_1, var_14_0)
-	arg_14_0.expPanel = arg_14_0:findTF("ExpPanel")
-	arg_14_0.expText = arg_14_0:findTF("ExpText", arg_14_0.expPanel)
-	arg_14_0.expDoubleTag = arg_14_0:findTF("DoubleTag", arg_14_0.expText)
-	arg_14_0.taskPanel = arg_14_0:findTF("TaskPanel")
-	arg_14_0.qCharContainer = arg_14_0:findTF("QChar", arg_14_0.taskPanel)
-	arg_14_0.taskTpl = arg_14_0:findTF("TaskTpl", arg_14_0.taskPanel)
-	arg_14_0.taskScrollTF = arg_14_0:findTF("ScrollView", arg_14_0.taskPanel)
-	arg_14_0.taskTplContainer = arg_14_0:findTF("ScrollView/Viewport/Content", arg_14_0.taskPanel)
-	arg_14_0.taskScrollBar = arg_14_0:findTF("ScrollView/Scrollbar Vertical", arg_14_0.taskPanel)
+	arg_14_0.expPanel = arg_14_0._tf:Find("ExpPanel")
+	arg_14_0.expText = arg_14_0.expPanel:Find("ExpText")
+	arg_14_0.expDoubleTag = arg_14_0.expText:Find("DoubleTag")
+	arg_14_0.taskPanel = arg_14_0._tf:Find("TaskPanel")
+	arg_14_0.qCharContainer = arg_14_0.taskPanel:Find("QChar")
+	arg_14_0.taskTpl = arg_14_0.taskPanel:Find("TaskTpl")
+	arg_14_0.taskScrollTF = arg_14_0.taskPanel:Find("ScrollView")
+	arg_14_0.taskTplContainer = arg_14_0.taskPanel:Find("ScrollView/Viewport/Content")
+	arg_14_0.taskScrollBar = arg_14_0.taskPanel:Find("ScrollView/Scrollbar Vertical")
 	arg_14_0.taskUIItemList = UIItemList.New(arg_14_0.taskTplContainer, arg_14_0.taskTpl)
-	arg_14_0.skillInfoPanel = arg_14_0:findTF("SkillInfo", arg_14_0.taskPanel)
-	arg_14_0.curSkillIcon = arg_14_0:findTF("Skill/Icon", arg_14_0.skillInfoPanel)
-	arg_14_0.curSkillNameScrollText = arg_14_0:findTF("NameMask/Name", arg_14_0.skillInfoPanel)
-	arg_14_0.curSkillLevelText = arg_14_0:findTF("LevelInfo/CurLevel", arg_14_0.skillInfoPanel)
-	arg_14_0.nextSkillLevelText = arg_14_0:findTF("LevelInfo/NextLevel", arg_14_0.skillInfoPanel)
-	arg_14_0.curSkillDescText = arg_14_0:findTF("DescView/Viewport/SkillDesc", arg_14_0.skillInfoPanel)
-	arg_14_0.curSkillProgressText = arg_14_0:findTF("ExpProgress/Text", arg_14_0.skillInfoPanel)
-	arg_14_0.curSkillProgressSlider = arg_14_0:findTF("ExpSlider", arg_14_0.skillInfoPanel)
-	arg_14_0.curSkillQuickBtn = arg_14_0:findTF("QuickBtn", arg_14_0.skillInfoPanel)
-	arg_14_0.studySkillTip = arg_14_0:findTF("StudySkillTip", arg_14_0.taskPanel)
-	arg_14_0.startSkillTip = arg_14_0:findTF("StartLearn", arg_14_0.taskPanel)
-	arg_14_0.maxSkillTip = arg_14_0:findTF("SkillMax", arg_14_0.taskPanel)
-	arg_14_0.studySkillBtn = arg_14_0:findTF("StartLearnBtn", arg_14_0.startSkillTip)
-	arg_14_0.skillPanel = arg_14_0:findTF("SkillPanel")
-	arg_14_0.skillTpl = arg_14_0:findTF("SkillTpl", arg_14_0.skillPanel)
-	arg_14_0.skillContainer = arg_14_0:findTF("Skills/Content", arg_14_0.skillPanel)
+	arg_14_0.skillInfoPanel = arg_14_0.taskPanel:Find("SkillInfo")
+	arg_14_0.curSkillIcon = arg_14_0.skillInfoPanel:Find("Skill/Icon")
+	arg_14_0.curSkillNameScrollText = arg_14_0.skillInfoPanel:Find("NameMask/Name")
+	arg_14_0.curSkillLevelText = arg_14_0.skillInfoPanel:Find("LevelInfo/CurLevel")
+	arg_14_0.nextSkillLevelText = arg_14_0.skillInfoPanel:Find("LevelInfo/NextLevel")
+	arg_14_0.curSkillDescText = arg_14_0.skillInfoPanel:Find("DescView/Viewport/SkillDesc")
+	arg_14_0.curSkillProgressText = arg_14_0.skillInfoPanel:Find("ExpProgress/Text")
+	arg_14_0.curSkillProgressSlider = arg_14_0.skillInfoPanel:Find("ExpSlider")
+	arg_14_0.curSkillQuickBtn = arg_14_0.skillInfoPanel:Find("QuickBtn")
+	arg_14_0.studySkillTip = arg_14_0.taskPanel:Find("StudySkillTip")
+	arg_14_0.startSkillTip = arg_14_0.taskPanel:Find("StartLearn")
+	arg_14_0.maxSkillTip = arg_14_0.taskPanel:Find("SkillMax")
+	arg_14_0.studySkillBtn = arg_14_0.startSkillTip:Find("StartLearnBtn")
+	arg_14_0.skillPanel = arg_14_0._tf:Find("SkillPanel")
+	arg_14_0.skillTpl = arg_14_0.skillPanel:Find("SkillTpl")
+	arg_14_0.skillContainer = arg_14_0.skillPanel:Find("Skills/Content")
 	arg_14_0.skillUIItemList = UIItemList.New(arg_14_0.skillContainer, arg_14_0.skillTpl)
-	arg_14_0.skillUnlockPanel = arg_14_0:findTF("SkillLearnBox")
-	arg_14_0.skillUnlockPanelBG = arg_14_0:findTF("BG", arg_14_0.skillUnlockPanel)
-	arg_14_0.skillUnlockPanelTipText = arg_14_0:findTF("Box/TipText", arg_14_0.skillUnlockPanel)
-	arg_14_0.skillUnlockPanelCancelBtn = arg_14_0:findTF("Box/Btns/CancenBtn", arg_14_0.skillUnlockPanel)
-	arg_14_0.skillUnlockPanelConfirmBtn = arg_14_0:findTF("Box/Btns/ConfirmBtn", arg_14_0.skillUnlockPanel)
-	arg_14_0.materialTpl = arg_14_0:findTF("Box/Material", arg_14_0.skillUnlockPanel)
-	arg_14_0.materialTplContainer = arg_14_0:findTF("Box/MaterialContainer", arg_14_0.skillUnlockPanel)
+	arg_14_0.skillUnlockPanel = arg_14_0._tf:Find("SkillLearnBox")
+	arg_14_0.skillUnlockPanelBG = arg_14_0.skillUnlockPanel:Find("BG")
+	arg_14_0.skillUnlockPanelTipText = arg_14_0.skillUnlockPanel:Find("Box/TipText")
+	arg_14_0.skillUnlockPanelCancelBtn = arg_14_0.skillUnlockPanel:Find("Box/Btns/CancenBtn")
+	arg_14_0.skillUnlockPanelConfirmBtn = arg_14_0.skillUnlockPanel:Find("Box/Btns/ConfirmBtn")
+	arg_14_0.materialTpl = arg_14_0.skillUnlockPanel:Find("Box/Material")
+	arg_14_0.materialTplContainer = arg_14_0.skillUnlockPanel:Find("Box/MaterialContainer")
 	arg_14_0.materialUIItemList = UIItemList.New(arg_14_0.materialTplContainer, arg_14_0.materialTpl)
 end
 
@@ -238,8 +237,8 @@ function var_0_0.updateNamePanel(arg_21_0)
 
 	arg_21_0.nameTFStarUIList:make(function(arg_22_0, arg_22_1, arg_22_2)
 		if arg_22_0 == UIItemList.EventUpdate then
-			local var_22_0 = arg_21_0:findTF("empty", arg_22_2)
-			local var_22_1 = arg_21_0:findTF("on", arg_22_2)
+			local var_22_0 = arg_22_2:Find("empty")
+			local var_22_1 = arg_22_2:Find("on")
 
 			arg_22_1 = arg_22_1 + 1
 
@@ -284,12 +283,12 @@ end
 function var_0_0.updateSkillTF(arg_27_0, arg_27_1, arg_27_2)
 	local var_27_0 = arg_27_0.curShipVO
 	local var_27_1 = arg_27_0.curMetaCharacterVO
-	local var_27_2 = arg_27_0:findTF("Skill/Icon", arg_27_1)
-	local var_27_3 = arg_27_0:findTF("Skill/Level", arg_27_1)
-	local var_27_4 = arg_27_0:findTF("Skill/Mask/Name", arg_27_1)
-	local var_27_5 = arg_27_0:findTF("Skill/Arrow", arg_27_1)
-	local var_27_6 = arg_27_0:findTF("Lock", arg_27_1)
-	local var_27_7 = arg_27_0:findTF("Learning", arg_27_1)
+	local var_27_2 = arg_27_1:Find("Skill/Icon")
+	local var_27_3 = arg_27_1:Find("Skill/Level")
+	local var_27_4 = arg_27_1:Find("Skill/Mask/Name")
+	local var_27_5 = arg_27_1:Find("Skill/Arrow")
+	local var_27_6 = arg_27_1:Find("Lock")
+	local var_27_7 = arg_27_1:Find("Learning")
 	local var_27_8 = getSkillConfig(arg_27_2)
 	local var_27_9 = var_27_0:getMetaSkillLevelBySkillID(arg_27_2)
 
@@ -302,7 +301,7 @@ function var_0_0.updateSkillTF(arg_27_0, arg_27_1, arg_27_2)
 		onButton(arg_27_0, arg_27_1, function()
 			if not isActive(var_27_5) then
 				eachChild(arg_27_0.skillContainer, function(arg_29_0)
-					local var_29_0 = arg_27_0:findTF("Skill/Arrow", arg_29_0)
+					local var_29_0 = arg_29_0:Find("Skill/Arrow")
 
 					setActive(var_29_0, false)
 				end)
@@ -323,7 +322,7 @@ function var_0_0.updateSkillTFLearning(arg_31_0)
 	local var_31_0 = arg_31_0.curShipVO
 
 	for iter_31_0, iter_31_1 in pairs(arg_31_0.skillBtnList) do
-		local var_31_1 = arg_31_0:findTF("Learning", iter_31_1)
+		local var_31_1 = iter_31_1:Find("Learning")
 		local var_31_2 = var_31_0:isSkillLevelMax(iter_31_0)
 		local var_31_3 = iter_31_0 == arg_31_0.curSkillID
 
@@ -400,9 +399,9 @@ function var_0_0.updateTaskListPanel(arg_36_0, arg_36_1)
 
 	arg_36_0.taskUIItemList:make(function(arg_37_0, arg_37_1, arg_37_2)
 		if arg_37_0 == UIItemList.EventUpdate then
-			local var_37_0 = arg_36_0:findTF("Desc", arg_37_2)
-			local var_37_1 = arg_36_0:findTF("AddExp", arg_37_2)
-			local var_37_2 = arg_36_0:findTF("Text", arg_37_2)
+			local var_37_0 = arg_37_2:Find("Desc")
+			local var_37_1 = arg_37_2:Find("AddExp")
+			local var_37_2 = arg_37_2:Find("Text")
 
 			arg_37_1 = arg_37_1 + 1
 
@@ -460,8 +459,7 @@ function var_0_0.updateTaskPanel(arg_38_0, arg_38_1)
 							shipID = var_38_0.id,
 							skillID = arg_38_1
 						})
-					end,
-					weight = LayerWeightConst.TOP_LAYER
+					end
 				})
 			end
 		end, SFX_PANEL)
@@ -553,9 +551,9 @@ function var_0_0.openUnlockSkillPanel(arg_45_0, arg_45_1)
 			arg_46_1 = arg_46_1 + 1
 
 			local var_46_0 = var_45_6[arg_46_1]
-			local var_46_1 = arg_45_0:findTF("Item", arg_46_2)
-			local var_46_2 = arg_45_0:findTF("SelectedTag", arg_46_2)
-			local var_46_3 = arg_45_0:findTF("Count/Text", arg_46_2)
+			local var_46_1 = arg_46_2:Find("Item")
+			local var_46_2 = arg_46_2:Find("SelectedTag")
+			local var_46_3 = arg_46_2:Find("Count/Text")
 			local var_46_4 = {
 				type = DROP_TYPE_ITEM,
 				id = var_46_0[2],
@@ -578,9 +576,7 @@ function var_0_0.openUnlockSkillPanel(arg_45_0, arg_45_1)
 	end)
 	arg_45_0.materialUIItemList:align(#var_45_6)
 	setActive(arg_45_0.skillUnlockPanel, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_45_0.skillUnlockPanel, false, {
-		weight = LayerWeightConst.TOP_LAYER
-	})
+	pg.UIMgr.GetInstance():BlurPanel(arg_45_0.skillUnlockPanel)
 end
 
 function var_0_0.closeUnlockSkillPanel(arg_47_0)
@@ -589,7 +585,7 @@ function var_0_0.closeUnlockSkillPanel(arg_47_0)
 	arg_47_0.curUnlockMaterialNeedCount = nil
 
 	setActive(arg_47_0.skillUnlockPanel, false)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_47_0.skillUnlockPanel, arg_47_0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_47_0.skillUnlockPanel, arg_47_0._tf)
 end
 
 function var_0_0.enablePartialBlur(arg_48_0)
@@ -598,17 +594,16 @@ function var_0_0.enablePartialBlur(arg_48_0)
 
 		table.insert(var_48_0, arg_48_0.taskPanel)
 		table.insert(var_48_0, arg_48_0.skillPanel)
-		pg.UIMgr.GetInstance():OverlayPanelPB(arg_48_0._tf, {
-			pbList = var_48_0,
-			groupName = LayerWeightConst.GROUP_META,
-			weight = LayerWeightConst.BASE_LAYER - 1
+		arg_48_0:OverlayPanel(arg_48_0._tf, {
+			groupDelta = -1,
+			pbList = var_48_0
 		})
 	end
 end
 
 function var_0_0.disablePartialBlur(arg_49_0)
 	if arg_49_0._tf then
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_49_0._tf)
+		arg_49_0:UnOverlayPanel(arg_49_0._tf)
 	end
 end
 

@@ -13,7 +13,7 @@ return {
 			characterId = 100100,
 			animation = "slack",
 			hideType = 2,
-			say = "面粉都在袋子里……应该……没少吧……"
+			say = "All the flour's in the bag... probably. I hope nothing's missing..."
 		}
 	}
 }

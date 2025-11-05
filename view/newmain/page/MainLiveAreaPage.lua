@@ -99,63 +99,83 @@ function var_0_0.OnInit(arg_7_0)
 			return
 		end
 
-		local function var_13_0()
-			arg_7_0.mediator:GoIsland(getProxy(PlayerProxy):getRawData().id)
-			arg_7_0:Hide()
-		end
-
+		local var_13_0 = {}
 		local var_13_1 = "MAP"
 
 		if Application.isEditor or GroupHelper.IsGroupVerLastest(var_13_1) or not GroupHelper.IsGroupWaitToUpdate(var_13_1) then
-			var_13_0()
+			-- block empty
+		else
+			local var_13_2 = GroupHelper.GetGroupSize(var_13_1)
+			local var_13_3 = HashUtil.BytesToString(var_13_2)
 
-			return
+			if var_13_2 > 0 then
+				table.insert(var_13_0, function(arg_14_0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						modal = true,
+						locked = true,
+						type = MSGBOX_TYPE_FILE_DOWNLOAD,
+						content = string.format(i18n("group_download_tip", var_13_3)),
+						onYes = arg_14_0
+					})
+				end)
+			end
+
+			table.insert(var_13_0, function(arg_15_0)
+				local var_15_0 = {}
+				local var_15_1 = GroupHelper.GetGroupMgrByName(var_13_1)
+
+				if var_15_1.toUpdate then
+					local var_15_2 = var_15_1.toUpdate.Count
+
+					for iter_15_0 = 0, var_15_2 - 1 do
+						local var_15_3 = var_15_1.toUpdate[iter_15_0][0]
+
+						table.insert(var_15_0, var_15_3)
+					end
+				end
+
+				local var_15_4 = {
+					groupName = var_13_1,
+					fileNameList = var_15_0
+				}
+				local var_15_5 = {
+					dataList = {
+						var_15_4
+					},
+					onFinish = arg_15_0
+				}
+
+				pg.FileDownloadMgr.GetInstance():Main(var_15_5)
+			end)
 		end
 
-		local var_13_2 = {}
-		local var_13_3 = GroupHelper.GetGroupSize(var_13_1)
-		local var_13_4 = HashUtil.BytesToString(var_13_3)
+		local var_13_4 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d", true)
 
-		if var_13_3 > 0 then
-			table.insert(var_13_2, function(arg_15_0)
+		if not LOCK_ISLAND_ENTER_TIP_WINDOW and PlayerPrefs.GetString("ISLAND_ENTER_TIP_WINDOW", "") ~= var_13_4 then
+			table.insert(var_13_0, function(arg_16_0)
+				local function var_16_0()
+					if pg.MsgboxMgr.GetInstance().stopRemindToggle.isOn then
+						PlayerPrefs.SetString("ISLAND_ENTER_TIP_WINDOW", var_13_4)
+					end
+
+					arg_16_0()
+				end
+
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					modal = true,
-					locked = true,
-					type = MSGBOX_TYPE_FILE_DOWNLOAD,
-					content = string.format(i18n("group_download_tip", var_13_4)),
-					onYes = arg_15_0
+					toggleStatus = true,
+					showStopRemind = true,
+					type = MSGBOX_TYPE_HELP,
+					helps = i18n("island_urgent_notice"),
+					onYes = var_16_0,
+					onNo = var_16_0
 				})
 			end)
 		end
 
-		table.insert(var_13_2, function(arg_16_0)
-			local var_16_0 = {}
-			local var_16_1 = GroupHelper.GetGroupMgrByName(var_13_1)
-
-			if var_16_1.toUpdate then
-				local var_16_2 = var_16_1.toUpdate.Count
-
-				for iter_16_0 = 0, var_16_2 - 1 do
-					local var_16_3 = var_16_1.toUpdate[iter_16_0][0]
-
-					table.insert(var_16_0, var_16_3)
-				end
-			end
-
-			local var_16_4 = {
-				groupName = var_13_1,
-				fileNameList = var_16_0
-			}
-			local var_16_5 = {
-				dataList = {
-					var_16_4
-				},
-				onFinish = arg_16_0
-			}
-
-			pg.FileDownloadMgr.GetInstance():Main(var_16_5)
+		seriesAsync(var_13_0, function()
+			arg_7_0.mediator:GoIsland(getProxy(PlayerProxy):getRawData().id)
+			arg_7_0:Hide()
 		end)
-		seriesAsync(var_13_2, var_13_0)
 	end, SFX_MAIN)
 	onButton(arg_7_0, arg_7_0._dormBtn, function()
 		arg_7_0.mediator:OpenDormSelectLayer()
@@ -166,198 +186,198 @@ function var_0_0.OnInit(arg_7_0)
 	end, SFX_PANEL)
 end
 
-function var_0_0.Show(arg_19_0, arg_19_1, arg_19_2)
-	var_0_0.super.Show(arg_19_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_19_0._tf, {
+function var_0_0.Show(arg_21_0, arg_21_1, arg_21_2)
+	var_0_0.super.Show(arg_21_0)
+	pg.UIMgr.GetInstance():BlurPanel(arg_21_0._tf, {
 		staticBlur = true
 	})
 
-	local var_19_0 = getProxy(PlayerProxy):getRawData()
+	local var_21_0 = getProxy(PlayerProxy):getRawData()
 
-	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(var_19_0.level, "CommanderCatMediator") then
-		arg_19_0._commanderBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(var_21_0.level, "CommanderCatMediator") then
+		arg_21_0._commanderBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
 	else
-		arg_19_0._commanderBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
+		arg_21_0._commanderBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
-	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(var_19_0.level, "CourtYardMediator") then
-		arg_19_0._haremBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(var_21_0.level, "CourtYardMediator") then
+		arg_21_0._haremBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
 	else
-		arg_19_0._haremBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
+		arg_21_0._haremBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
-	local var_19_1 = LOCK_NEW_EDUCATE_SYSTEM and "EducateMediator" or "NewEducateSelectMediator"
+	local var_21_1 = LOCK_NEW_EDUCATE_SYSTEM and "EducateMediator" or "NewEducateSelectMediator"
 
-	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(var_19_0.level, var_19_1) then
-		arg_19_0._educateBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(var_21_0.level, var_21_1) then
+		arg_21_0._educateBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
 	else
-		arg_19_0._educateBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
+		arg_21_0._educateBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
-	setActive(arg_19_0._educateBtn:Find("tip"), NewEducateHelper.IsShowNewChildTip())
+	setActive(arg_21_0._educateBtn:Find("tip"), NewEducateHelper.IsShowNewChildTip())
 
-	local var_19_2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(var_19_0.level, "SelectDorm3DMediator")
+	local var_21_2 = pg.SystemOpenMgr.GetInstance():isOpenSystem(var_21_0.level, "SelectDorm3DMediator")
 
-	if not var_19_2 then
-		arg_19_0._dormBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
+	if not var_21_2 then
+		arg_21_0._dormBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
 	else
-		arg_19_0._dormBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
+		arg_21_0._dormBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
 	;(function()
-		local var_20_0 = var_19_2 and Dorm3dShopUI.ShouldShowAllTip()
-		local var_20_1 = var_19_2 and Dorm3dFurniture.IsTimelimitShopTip()
+		local var_22_0 = var_21_2 and Dorm3dShopUI.ShouldShowAllTip()
+		local var_22_1 = var_21_2 and Dorm3dFurniture.IsTimelimitShopTip()
 
-		setActive(arg_19_0._dormBtn:Find("tip"), var_20_0)
-		setActive(arg_19_0._dormBtn:Find("tagFurniture"), var_20_1)
+		setActive(arg_21_0._dormBtn:Find("tip"), var_22_0)
+		setActive(arg_21_0._dormBtn:Find("tagFurniture"), var_22_1)
 	end)()
 
-	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(var_19_0.level, "IslandMediator") then
-		arg_19_0._islandBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(var_21_0.level, "IslandMediator") then
+		arg_21_0._islandBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
 	else
-		arg_19_0._islandBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
+		arg_21_0._islandBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
-	arg_19_0:UpdataIslandTip()
-	arg_19_0:UpdateCover()
-	arg_19_0:UpdateCoverTip()
-	arg_19_0:UpdateTime()
+	arg_21_0:UpdataIslandTip()
+	arg_21_0:UpdateCover()
+	arg_21_0:UpdateCoverTip()
+	arg_21_0:UpdateTime()
 
-	arg_19_0.timer = Timer.New(function()
-		arg_19_0:UpdateTime()
+	arg_21_0.timer = Timer.New(function()
+		arg_21_0:UpdateTime()
 	end, 60, -1)
 
-	arg_19_0.timer:Start()
-	setActive(arg_19_0._islandBtnEffect, tobool(arg_19_1))
+	arg_21_0.timer:Start()
+	setActive(arg_21_0._islandBtnEffect, tobool(arg_21_1))
 
-	if arg_19_2 then
-		arg_19_2()
+	if arg_21_2 then
+		arg_21_2()
 	end
 end
 
-function var_0_0.UpdateTime(arg_22_0)
-	local var_22_0 = pg.TimeMgr.GetInstance()
-	local var_22_1 = var_22_0:GetServerHour()
-	local var_22_2 = var_22_1 < 12
+function var_0_0.UpdateTime(arg_24_0)
+	local var_24_0 = pg.TimeMgr.GetInstance()
+	local var_24_1 = var_24_0:GetServerHour()
+	local var_24_2 = var_24_1 < 12
 
-	setActive(arg_22_0._bg:Find("AM"), var_22_2)
-	setActive(arg_22_0._bg:Find("PM"), not var_22_2)
+	setActive(arg_24_0._bg:Find("AM"), var_24_2)
+	setActive(arg_24_0._bg:Find("PM"), not var_24_2)
 
-	local var_22_3 = arg_22_0:getCoverType(var_22_1)
+	local var_24_3 = arg_24_0:getCoverType(var_24_1)
 
-	setActive(arg_22_0._bg:Find("day"), var_22_3 == LivingAreaCover.TYPE_DAY)
-	setActive(arg_22_0._bg:Find("night"), var_22_3 == LivingAreaCover.TYPE_NIGHT)
-	setActive(arg_22_0._islandBtn:Find("lock/day"), var_22_3 == LivingAreaCover.TYPE_DAY)
-	setActive(arg_22_0._islandBtn:Find("lock/night"), var_22_3 ~= LivingAreaCover.TYPE_DAY)
+	setActive(arg_24_0._bg:Find("day"), var_24_3 == LivingAreaCover.TYPE_DAY)
+	setActive(arg_24_0._bg:Find("night"), var_24_3 == LivingAreaCover.TYPE_NIGHT)
+	setActive(arg_24_0._islandBtn:Find("lock/day"), var_24_3 == LivingAreaCover.TYPE_DAY)
+	setActive(arg_24_0._islandBtn:Find("lock/night"), var_24_3 ~= LivingAreaCover.TYPE_DAY)
 
-	local var_22_4 = var_22_0:CurrentSTimeDesc("%Y/%m/%d", true)
+	local var_24_4 = var_24_0:CurrentSTimeDesc("%Y/%m/%d", true)
 
-	setText(arg_22_0._bg:Find("date"), var_22_4)
+	setText(arg_24_0._bg:Find("date"), var_24_4)
 
-	local var_22_5 = var_22_0:CurrentSTimeDesc(":%M", true)
+	local var_24_5 = var_24_0:CurrentSTimeDesc(":%M", true)
 
-	if var_22_1 > 12 then
-		var_22_1 = var_22_1 - 12
+	if var_24_1 > 12 then
+		var_24_1 = var_24_1 - 12
 	end
 
-	setText(arg_22_0._bg:Find("time"), var_22_1 .. var_22_5)
+	setText(arg_24_0._bg:Find("time"), var_24_1 .. var_24_5)
 
-	local var_22_6 = EducateHelper.GetWeekStrByNumber(var_22_0:GetServerWeek())
+	local var_24_6 = EducateHelper.GetWeekStrByNumber(var_24_0:GetServerWeek())
 
-	setText(arg_22_0._bg:Find("date/week"), var_22_6)
+	setText(arg_24_0._bg:Find("date/week"), var_24_6)
 end
 
-function var_0_0.getCoverType(arg_23_0, arg_23_1)
-	for iter_23_0, iter_23_1 in ipairs(arg_23_0.timeCfg) do
-		local var_23_0 = iter_23_1[1]
+function var_0_0.getCoverType(arg_25_0, arg_25_1)
+	for iter_25_0, iter_25_1 in ipairs(arg_25_0.timeCfg) do
+		local var_25_0 = iter_25_1[1]
 
-		if arg_23_1 >= var_23_0[1] and arg_23_1 < var_23_0[2] then
-			return iter_23_1[2]
+		if arg_25_1 >= var_25_0[1] and arg_25_1 < var_25_0[2] then
+			return iter_25_1[2]
 		end
 	end
 
 	return LivingAreaCover.TYPE_DAY
 end
 
-function var_0_0.UpdateCover(arg_24_0)
-	local var_24_0 = getProxy(LivingAreaCoverProxy):GetCurCover()
+function var_0_0.UpdateCover(arg_26_0)
+	local var_26_0 = getProxy(LivingAreaCoverProxy):GetCurCover()
 
-	if arg_24_0.cover and arg_24_0.cover.id == var_24_0.id then
+	if arg_26_0.cover and arg_26_0.cover.id == var_26_0.id then
 		return
 	end
 
-	arg_24_0.cover = var_24_0
+	arg_26_0.cover = var_26_0
 
-	arg_24_0:_loadBg()
+	arg_26_0:_loadBg()
 end
 
-function var_0_0.UpdateCoverTemp(arg_25_0, arg_25_1)
-	if arg_25_0.cover and arg_25_0.cover.id == arg_25_1.id then
+function var_0_0.UpdateCoverTemp(arg_27_0, arg_27_1)
+	if arg_27_0.cover and arg_27_0.cover.id == arg_27_1.id then
 		return
 	end
 
-	arg_25_0.cover = arg_25_1
+	arg_27_0.cover = arg_27_1
 
-	arg_25_0:_loadBg()
+	arg_27_0:_loadBg()
 end
 
-function var_0_0._loadBg(arg_26_0)
-	setImageSprite(arg_26_0._bg:Find("day"), GetSpriteFromAtlas(arg_26_0.cover:GetBg(LivingAreaCover.TYPE_DAY), ""), true)
-	setImageSprite(arg_26_0._bg:Find("night"), GetSpriteFromAtlas(arg_26_0.cover:GetBg(LivingAreaCover.TYPE_NIGHT), ""), true)
+function var_0_0._loadBg(arg_28_0)
+	setImageSprite(arg_28_0._bg:Find("day"), GetSpriteFromAtlas(arg_28_0.cover:GetBg(LivingAreaCover.TYPE_DAY), ""), true)
+	setImageSprite(arg_28_0._bg:Find("night"), GetSpriteFromAtlas(arg_28_0.cover:GetBg(LivingAreaCover.TYPE_NIGHT), ""), true)
 end
 
-function var_0_0.UpdateCoverTip(arg_27_0)
-	setActive(arg_27_0._coverBtn:Find("tip"), getProxy(LivingAreaCoverProxy):IsTip())
+function var_0_0.UpdateCoverTip(arg_29_0)
+	setActive(arg_29_0._coverBtn:Find("tip"), getProxy(LivingAreaCoverProxy):IsTip())
 end
 
-function var_0_0.UpdataIslandTip(arg_28_0)
-	setActive(arg_28_0._islandBtn:Find("banners"), not LOCK_ISLAND_DISPLAY)
+function var_0_0.UpdataIslandTip(arg_30_0)
+	setActive(arg_30_0._islandBtn:Find("banners"), not LOCK_ISLAND_DISPLAY)
 
 	if LOCK_ISLAND_DISPLAY then
 		return
 	end
 
-	local var_28_0, var_28_1 = getProxy(SystemTipProxy):GetIslandTipInfos()
+	local var_30_0, var_30_1 = getProxy(SystemTipProxy):GetIslandTipInfos()
 
-	setActive(arg_28_0.islandAwardTF, var_28_0 > 0)
-	setActive(arg_28_0.islandEmptyTF, var_28_1 > 0)
+	setActive(arg_30_0.islandAwardTF, var_30_0 > 0)
+	setActive(arg_30_0.islandEmptyTF, var_30_1 > 0)
 end
 
-function var_0_0.Hide(arg_29_0)
-	if arg_29_0.coverPage and arg_29_0.coverPage:GetLoaded() and arg_29_0.coverPage:isShowing() then
-		arg_29_0.coverPage:Hide()
+function var_0_0.Hide(arg_31_0)
+	if arg_31_0.coverPage and arg_31_0.coverPage:GetLoaded() and arg_31_0.coverPage:isShowing() then
+		arg_31_0.coverPage:Hide()
 
 		return
 	end
 
-	if arg_29_0:isShowing() then
-		var_0_0.super.Hide(arg_29_0)
-		pg.UIMgr.GetInstance():UnOverlayPanel(arg_29_0._tf, arg_29_0._parentTf)
+	if arg_31_0:isShowing() then
+		var_0_0.super.Hide(arg_31_0)
+		pg.UIMgr.GetInstance():UnOverlayPanel(arg_31_0._tf, arg_31_0._parentTf)
 	end
 
-	if arg_29_0.timer ~= nil then
-		arg_29_0.timer:Stop()
+	if arg_31_0.timer ~= nil then
+		arg_31_0.timer:Stop()
 
-		arg_29_0.timer = nil
+		arg_31_0.timer = nil
 	end
 end
 
-function var_0_0.OnDestroy(arg_30_0)
-	for iter_30_0, iter_30_1 in ipairs(arg_30_0.redList) do
-		pg.redDotHelper:RemoveNode(iter_30_1)
+function var_0_0.OnDestroy(arg_32_0)
+	for iter_32_0, iter_32_1 in ipairs(arg_32_0.redList) do
+		pg.redDotHelper:RemoveNode(iter_32_1)
 	end
 
-	arg_30_0.redList = nil
+	arg_32_0.redList = nil
 
-	arg_30_0.mediator:Dispose()
+	arg_32_0.mediator:Dispose()
 
-	arg_30_0.mediator = nil
+	arg_32_0.mediator = nil
 
-	arg_30_0:Hide()
-	arg_30_0.coverPage:Destroy()
+	arg_32_0:Hide()
+	arg_32_0.coverPage:Destroy()
 
-	arg_30_0.coverPage = nil
-	arg_30_0.cover = nil
+	arg_32_0.coverPage = nil
+	arg_32_0.cover = nil
 end
 
 return var_0_0

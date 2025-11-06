@@ -9,18 +9,24 @@ function var_0_0.SetUIParent(arg_2_0, arg_2_1)
 end
 
 function var_0_0.OnInit(arg_3_0, arg_3_1)
-	arg_3_0.targetTracker = IslandTargetTracker.New(arg_3_0._tf)
+	arg_3_0.targetTracker = IslandTargetTracker.New(arg_3_0._tf:Find("distance"))
 	arg_3_0.iconImg = arg_3_0._tf:Find("distance/Image"):GetComponent(typeof(Image))
 	arg_3_0.arrImg = arg_3_0._tf:Find("distance/arr/arr"):GetComponent(typeof(Image))
+	arg_3_0.mainTargetTracker = IslandTargetTracker.New(arg_3_0._tf:Find("main_distance"))
 end
 
 function var_0_0.OnUpdate(arg_4_0)
-	arg_4_0.targetTracker:Update()
+	arg_4_0.mainTargetTracker:Update()
+	arg_4_0.targetTracker:Update(arg_4_0.mainTargetTracker:GetShowTargetPosition())
 end
 
-function var_0_0.SetTrackingTarget(arg_5_0, arg_5_1, arg_5_2, arg_5_3, arg_5_4)
-	arg_5_0:UpdateTrackerStyle(arg_5_4)
-	arg_5_0.targetTracker:Tracking(arg_5_1._go, arg_5_2._go, arg_5_3)
+function var_0_0.SetTrackingTarget(arg_5_0, arg_5_1, arg_5_2, arg_5_3, arg_5_4, arg_5_5)
+	if arg_5_5 == IslandTaskTrackCard.TYPES.MAIN then
+		arg_5_0.mainTargetTracker:Tracking(arg_5_1._go, arg_5_2._go, arg_5_3)
+	elseif arg_5_5 == IslandTaskTrackCard.TYPES.OTHER then
+		arg_5_0:UpdateTrackerStyle(arg_5_4)
+		arg_5_0.targetTracker:Tracking(arg_5_1._go, arg_5_2._go, arg_5_3)
+	end
 end
 
 function var_0_0.UpdateTrackerStyle(arg_6_0, arg_6_1)
@@ -38,15 +44,21 @@ function var_0_0.UpdateTrackerStyle(arg_6_0, arg_6_1)
 	arg_6_0.arrImg:SetNativeSize()
 end
 
-function var_0_0.CancelTracking(arg_7_0)
-	arg_7_0.targetTracker:UnTracking()
+function var_0_0.CancelTracking(arg_7_0, arg_7_1)
+	if arg_7_1 == IslandTaskTrackCard.TYPES.MAIN then
+		arg_7_0.mainTargetTracker:UnTracking()
+	elseif arg_7_1 == IslandTaskTrackCard.TYPES.OTHER then
+		arg_7_0.targetTracker:UnTracking()
+	end
 end
 
 function var_0_0.ShowHud(arg_8_0, arg_8_1)
+	arg_8_0.mainTargetTracker:OnShowHud(arg_8_1)
 	arg_8_0.targetTracker:OnShowHud(arg_8_1)
 end
 
 function var_0_0.HideHud(arg_9_0, arg_9_1)
+	arg_9_0.mainTargetTracker:OnHideHud(arg_9_1)
 	arg_9_0.targetTracker:OnHideHud(arg_9_1)
 end
 
@@ -55,6 +67,12 @@ function var_0_0.OnDestroy(arg_10_0)
 		arg_10_0.targetTracker:Dispose()
 
 		arg_10_0.targetTracker = nil
+	end
+
+	if arg_10_0.mainTargetTracker then
+		arg_10_0.mainTargetTracker:Dispose()
+
+		arg_10_0.mainTargetTracker = nil
 	end
 end
 

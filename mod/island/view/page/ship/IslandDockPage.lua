@@ -199,17 +199,22 @@ end
 
 function var_0_0.GetShips(arg_29_0)
 	local var_29_0 = {}
-	local var_29_1 = arg_29_0.characterAgency:GetUnlockOrCanUnlockShipConfigIds()
+	local var_29_1 = {}
+	local var_29_2 = arg_29_0.characterAgency:GetShipsContainNpc()
 
-	for iter_29_0, iter_29_1 in ipairs(var_29_1) do
-		if var_0_1(iter_29_1, arg_29_0.searchKey) and var_0_2(arg_29_0, iter_29_1, arg_29_0.sortData) then
-			table.insert(var_29_0, iter_29_1)
+	for iter_29_0, iter_29_1 in ipairs(var_29_2) do
+		if var_0_1(iter_29_1.id, arg_29_0.searchKey) and var_0_2(arg_29_0, iter_29_1.id, arg_29_0.sortData) then
+			table.insert(var_29_1, iter_29_1)
 		end
 	end
 
-	local var_29_2 = IslandShipIndexLayer.getSortFuncAndName(arg_29_0.sortData.sortIndex, arg_29_0.selectAsc)
+	local var_29_3 = IslandShipIndexLayer.getSortFuncAndName(arg_29_0.sortData.sortIndex, arg_29_0.selectAsc)
 
-	table.sort(var_29_0, CompareFuncs(var_29_2))
+	table.sort(var_29_1, CompareFuncs(var_29_3))
+
+	for iter_29_2, iter_29_3 in ipairs(var_29_1) do
+		table.insert(var_29_0, iter_29_3.id)
+	end
 
 	return var_29_0
 end

@@ -44,7 +44,7 @@ function var_0_0.InitUS()
 end
 
 function var_0_0.CheckAudit()
-	return var_0_0.isAudit
+	return NetConst.getwayType == 1
 end
 
 function var_0_0.CheckPreAudit()

@@ -260,7 +260,7 @@ function var_0_0.FlushInfos(arg_19_0)
 			local var_19_13 = var_19_5.main_num
 
 			if var_19_13 and var_19_13 > 0 then
-				var_19_12 = string.format("%s+%d", var_19_12, var_19_13)
+				var_19_12 = string.format("×(%d<color=#7df39f>+%d</color>)", var_19_10, var_19_13)
 			end
 
 			setText(arg_19_0.canRewardNum, var_19_12)
@@ -351,6 +351,7 @@ function var_0_0.OpenShipSelectPage(arg_23_0)
 
 	arg_23_0:emit(IslandMediator.OPEN_PAGE, "IslandShipSelectPage", {
 		{
+			needWorkSpeed = true,
 			attrType = var_23_0,
 			confirmFunc = function(arg_24_0)
 				arg_23_0:AfterShipSelect(arg_24_0[1])
@@ -411,7 +412,7 @@ function var_0_0.UpdateTime(arg_27_0)
 	local var_27_8 = "×" .. tostring(var_27_6.commission_product[1][2] * var_27_4)
 
 	if var_27_7 and var_27_7 > 0 then
-		var_27_8 = string.format("%s+%d", var_27_8, var_27_7)
+		var_27_8 = string.format("×(%d<color=#7df39f>+%d</color>)", var_27_6.commission_product[1][2] * var_27_4, var_27_7)
 	end
 
 	setText(arg_27_0.canRewardNum, var_27_8)
@@ -437,7 +438,7 @@ function var_0_0.UpdateTime(arg_27_0)
 		var_27_15 = string.format("×(%s<color=#7df39f>+%d</color>)", var_27_6.commission_product[1][2], var_27_14)
 	end
 
-	setText(arg_27_0.currentFormulaNum, var_27_15)
+	setText(arg_27_0.currentFormulaNum, var_27_15 .. i18n("island_production_tip"))
 
 	if #var_27_6.second_product > 0 and getProxy(IslandProxy):GetIsland():GetAblityAgency():IsUnlcokSecondProduct(var_27_5) then
 		local var_27_16 = var_27_1:GetExtraExtraProduct(var_27_9)
@@ -447,7 +448,7 @@ function var_0_0.UpdateTime(arg_27_0)
 			var_27_17 = string.format("×(%s<color=#7df39f>+%d</color>)", var_27_6.second_product_display[1][2], var_27_16)
 		end
 
-		setText(arg_27_0.extraProductNum, var_27_17)
+		setText(arg_27_0.extraProductNum, var_27_17 .. i18n("island_production_tip"))
 	end
 
 	if var_27_4 > 0 then

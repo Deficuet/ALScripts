@@ -156,7 +156,7 @@ function var_0_0.update(arg_3_0, arg_3_1)
 					Destroy(arg_8_0)
 				end)
 
-				local var_7_1 = string.gmatch(arg_3_1.content, ChatConst.EmojiIconCodeMatch)
+				local var_7_1 = string.gmatch(arg_3_1.content or "", ChatConst.EmojiIconCodeMatch)
 				local var_7_2 = false
 
 				for iter_7_0 in var_7_1 do

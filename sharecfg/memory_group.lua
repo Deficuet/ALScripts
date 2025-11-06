@@ -364,6 +364,7 @@ pg.memory_group = setmetatable({
 		613,
 		614,
 		615,
+		616,
 		1000,
 		1001,
 		1002,
@@ -8479,6 +8480,26 @@ pg.base.memory_group = {
 			4705,
 			4706,
 			4707
+		},
+		group_id = {
+			10000
+		}
+	},
+	[616] = {
+		id = 616,
+		subtype = 0,
+		icon = "title_chara_qisheng",
+		type = 3,
+		link_event = 0,
+		title = "花开电器城",
+		memories = {
+			4751,
+			4752,
+			4753,
+			4754,
+			4755,
+			4756,
+			4757
 		},
 		group_id = {
 			10000

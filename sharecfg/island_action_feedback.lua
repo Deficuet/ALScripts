@@ -1,6 +1,7 @@
 pg = pg or {}
 pg.island_action_feedback = {
 	[101] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 1,
 		state_name = "hi",
@@ -8,6 +9,7 @@ pg.island_action_feedback = {
 		drop_id = 3001
 	},
 	[102] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 1,
 		state_name = "happy",
@@ -15,6 +17,7 @@ pg.island_action_feedback = {
 		drop_id = 3001
 	},
 	[103] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 1,
 		state_name = "elation",
@@ -22,6 +25,7 @@ pg.island_action_feedback = {
 		drop_id = 3001
 	},
 	[104] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 1,
 		state_name = "happy",
@@ -29,6 +33,7 @@ pg.island_action_feedback = {
 		drop_id = 3001
 	},
 	[105] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 1,
 		state_name = "shy",
@@ -36,6 +41,7 @@ pg.island_action_feedback = {
 		drop_id = 3001
 	},
 	[106] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 1,
 		state_name = "curious",
@@ -43,6 +49,7 @@ pg.island_action_feedback = {
 		drop_id = 3001
 	},
 	[107] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 1,
 		state_name = "idea",
@@ -50,6 +57,7 @@ pg.island_action_feedback = {
 		drop_id = 3001
 	},
 	[108] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 1,
 		state_name = "think",
@@ -57,6 +65,7 @@ pg.island_action_feedback = {
 		drop_id = 3001
 	},
 	[201] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 2,
 		state_name = "embarrass",
@@ -64,6 +73,7 @@ pg.island_action_feedback = {
 		drop_id = 0
 	},
 	[202] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 2,
 		state_name = "sad",
@@ -71,6 +81,7 @@ pg.island_action_feedback = {
 		drop_id = 0
 	},
 	[203] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 2,
 		state_name = "scare",
@@ -78,6 +89,7 @@ pg.island_action_feedback = {
 		drop_id = 0
 	},
 	[204] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 2,
 		state_name = "amaze",
@@ -85,6 +97,7 @@ pg.island_action_feedback = {
 		drop_id = 0
 	},
 	[205] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 2,
 		state_name = "weep",
@@ -92,6 +105,7 @@ pg.island_action_feedback = {
 		drop_id = 0
 	},
 	[206] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 2,
 		state_name = "angry",
@@ -99,6 +113,7 @@ pg.island_action_feedback = {
 		drop_id = 0
 	},
 	[207] = {
+		emoji = "",
 		feedback_type = 1,
 		condition = 2,
 		state_name = "doubt",

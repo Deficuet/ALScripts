@@ -10330,6 +10330,42 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.shop_template[43057] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 4,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "8000功勋兑换深雪",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 3,
+		group_buy_count = 0,
+		tag = 0,
+		limit_args2 = "",
+		time_second = 0,
+		order = 4,
+		genre = "arena_shop",
+		akashi_pick = 0,
+		time = "always",
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 43057,
+		resource_num = 8000,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {},
+		effect_args = {
+			301041
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.shop_template[50002] = {
 		first_text = "",
 		package_sort_id = 0,
@@ -27160,6 +27196,72 @@ end)()
 					2025,
 					11,
 					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.shop_template[60697] = {
+		first_text = "",
+		package_sort_id = 0,
+		collaboration_skin_time = "",
+		type = 2,
+		second_text = "",
+		package_tag = "",
+		first_icon = "",
+		desc = "120钻石购买限时攻略补给（马赛曲SP轻量化复刻）",
+		group_limit = 0,
+		type_order = 0,
+		resource_type = 14,
+		group_buy_count = 0,
+		tag = 2,
+		limit_args2 = "",
+		time_second = 0,
+		order = 0,
+		genre = "gift_package",
+		akashi_pick = 0,
+		group = 0,
+		num = 1,
+		discount = 0,
+		group_type = 0,
+		id = 60697,
+		resource_num = 120,
+		package_tag_open = 0,
+		discount_time = {},
+		limit_args = {
+			{
+				"time",
+				2
+			}
+		},
+		effect_args = {
+			40117
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
 				},
 				{
 					23,
@@ -68967,7 +69069,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 10,
+		order = 6,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -68986,8 +69088,8 @@ end)()
 			{
 				{
 					2025,
-					5,
-					20
+					11,
+					6
 				},
 				{
 					0,
@@ -68998,8 +69100,8 @@ end)()
 			{
 				{
 					2025,
-					5,
-					24
+					11,
+					12
 				},
 				{
 					23,
@@ -69028,7 +69130,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 10,
+		order = 7,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -69047,8 +69149,8 @@ end)()
 			{
 				{
 					2025,
-					5,
-					20
+					11,
+					6
 				},
 				{
 					0,
@@ -69059,8 +69161,8 @@ end)()
 			{
 				{
 					2025,
-					5,
-					24
+					11,
+					12
 				},
 				{
 					23,
@@ -69089,7 +69191,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 10,
+		order = 6,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -69108,8 +69210,8 @@ end)()
 			{
 				{
 					2025,
-					5,
-					20
+					11,
+					6
 				},
 				{
 					0,
@@ -69120,8 +69222,8 @@ end)()
 			{
 				{
 					2025,
-					5,
-					24
+					11,
+					12
 				},
 				{
 					23,
@@ -69150,7 +69252,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 6,
+		order = 7,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -69168,9 +69270,9 @@ end)()
 		time = {
 			{
 				{
-					2024,
-					12,
-					12
+					2025,
+					11,
+					6
 				},
 				{
 					0,
@@ -69180,9 +69282,9 @@ end)()
 			},
 			{
 				{
-					2024,
-					12,
-					18
+					2025,
+					11,
+					12
 				},
 				{
 					23,
@@ -69211,7 +69313,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 10,
+		order = 7,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -69230,8 +69332,8 @@ end)()
 			{
 				{
 					2025,
-					5,
-					20
+					11,
+					6
 				},
 				{
 					0,
@@ -69242,8 +69344,8 @@ end)()
 			{
 				{
 					2025,
-					5,
-					24
+					11,
+					12
 				},
 				{
 					23,
@@ -69272,7 +69374,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 6,
+		order = 7,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -69290,9 +69392,9 @@ end)()
 		time = {
 			{
 				{
-					2024,
-					12,
-					12
+					2025,
+					11,
+					6
 				},
 				{
 					0,
@@ -69302,9 +69404,9 @@ end)()
 			},
 			{
 				{
-					2024,
-					12,
-					18
+					2025,
+					11,
+					12
 				},
 				{
 					23,
@@ -69333,7 +69435,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 6,
+		order = 7,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -69351,9 +69453,9 @@ end)()
 		time = {
 			{
 				{
-					2024,
-					5,
-					21
+					2025,
+					11,
+					6
 				},
 				{
 					0,
@@ -69363,9 +69465,9 @@ end)()
 			},
 			{
 				{
-					2024,
-					5,
-					26
+					2025,
+					11,
+					12
 				},
 				{
 					23,
@@ -69394,7 +69496,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 6,
+		order = 7,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -69412,9 +69514,9 @@ end)()
 		time = {
 			{
 				{
-					2024,
-					5,
-					21
+					2025,
+					11,
+					6
 				},
 				{
 					0,
@@ -69424,9 +69526,9 @@ end)()
 			},
 			{
 				{
-					2024,
-					5,
-					26
+					2025,
+					11,
+					12
 				},
 				{
 					23,
@@ -69455,7 +69557,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 6,
+		order = 7,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -69473,9 +69575,9 @@ end)()
 		time = {
 			{
 				{
-					2024,
-					12,
-					12
+					2025,
+					11,
+					6
 				},
 				{
 					0,
@@ -69485,9 +69587,9 @@ end)()
 			},
 			{
 				{
-					2024,
-					12,
-					18
+					2025,
+					11,
+					12
 				},
 				{
 					23,
@@ -76220,7 +76322,7 @@ end)()
 		tag = 1,
 		limit_args2 = "",
 		time_second = 0,
-		order = 9,
+		order = 5,
 		genre = "skin_shop",
 		akashi_pick = 0,
 		group = 0,
@@ -76239,8 +76341,8 @@ end)()
 			{
 				{
 					2025,
-					9,
-					25
+					11,
+					6
 				},
 				{
 					0,
@@ -76251,8 +76353,8 @@ end)()
 			{
 				{
 					2025,
-					10,
-					22
+					11,
+					12
 				},
 				{
 					23,

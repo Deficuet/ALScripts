@@ -1022,20 +1022,20 @@ pg.base.island_technology_template = {
 		}
 	},
 	[130301] = {
-		tech_desc = "日常补给的空投数量增加，快去收获新惊喜吧！",
+		tech_desc = "每日领取好友日常补给的次数上限增加1次，快去收获新惊喜吧！",
 		tech_chara = 1,
 		tech_level = "1",
 		complete_character_id = "",
 		tech_icon = "tech_130301",
 		auto_finish = 1,
-		tech_name = "日常补给数量增加I",
-		complete_tips = "日常补给物资增加，可前往<color=#1E8FFE>集会岛日常补给</color>处查看",
+		tech_name = "补给领取次数增加I",
+		complete_tips = "领取<color=#1E8FFE>好友日常补给</color>的次数增加，可前往<color=#1E8FFE>好友拜访界面</color>查看",
 		formula_id = 7130301,
-		complete_title = "日常补给物资增加，可前往<color=#1E8FFE>集会岛日常补给</color>处查看",
+		complete_title = "领取<color=#1E8FFE>好友日常补给</color>的次数增加，可前往<color=#1E8FFE>好友拜访界面</color>查看",
 		tech_belong = 1,
 		id = 130301,
 		island_level = 19,
-		complete_map_id = 1003,
+		complete_map_id = 0,
 		sys_unlock = {
 			{
 				1,
@@ -1124,20 +1124,20 @@ pg.base.island_technology_template = {
 		}
 	},
 	[130302] = {
-		tech_desc = "日常补给的空投数量增加，快去收获新惊喜吧！",
+		tech_desc = "每日领取好友日常补给的次数上限增加1次，快去收获新惊喜吧！",
 		tech_chara = 1,
 		tech_level = "2",
 		complete_character_id = "",
 		tech_icon = "tech_130301",
 		auto_finish = 1,
-		tech_name = "日常补给数量增加II",
-		complete_tips = "日常补给物资增加，可前往<color=#1E8FFE>集会岛日常补给</color>处查看",
+		tech_name = "补给领取次数增加II",
+		complete_tips = "领取<color=#1E8FFE>好友日常补给</color>的次数增加，可前往<color=#1E8FFE>好友拜访界面</color>查看",
 		formula_id = 7130302,
-		complete_title = "日常补给物资增加，可前往<color=#1E8FFE>集会岛日常补给</color>处查看",
+		complete_title = "领取<color=#1E8FFE>好友日常补给</color>的次数增加，可前往<color=#1E8FFE>好友拜访界面</color>查看",
 		tech_belong = 1,
 		id = 130302,
 		island_level = 22,
-		complete_map_id = 1003,
+		complete_map_id = 0,
 		sys_unlock = {
 			{
 				1,
@@ -3805,7 +3805,7 @@ pg.base.island_technology_template = {
 		tech_name = "蜂蜜采集点增加I",
 		complete_tips = "可前往<color=#1E8FFE>晨露农场</color>蜂蜜采集点采集<color=#1E8FFE>蜂蜜</color>",
 		formula_id = 7450301,
-		complete_title = "可前往<color=#1E8FFE>晨露农场蜂蜜采集</color>点采集<color=#1E8FFE>蜂蜜</color>",
+		complete_title = "可前往<color=#1E8FFE>晨露农场</color>蜂蜜采集点采集<color=#1E8FFE>蜂蜜</color>",
 		tech_belong = 4,
 		id = 450301,
 		island_level = 26,
@@ -3862,7 +3862,7 @@ pg.base.island_technology_template = {
 		tech_name = "蜂蜜采集点增加II",
 		complete_tips = "可前往<color=#1E8FFE>栖风原野</color>蜂蜜采集点采集<color=#1E8FFE>蜂蜜</color>",
 		formula_id = 7450302,
-		complete_title = "可前往<color=#1E8FFE>栖风原野蜂蜜采集点采集<color=#1E8FFE>蜂蜜</color>",
+		complete_title = "可前往<color=#1E8FFE>栖风原野</color>蜂蜜采集点采集<color=#1E8FFE>蜂蜜</color>",
 		tech_belong = 4,
 		id = 450302,
 		island_level = 30,
@@ -4493,7 +4493,7 @@ pg.base.island_technology_template = {
 		complete_title = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处在<color=#1E8FFE>有鱼餐馆</color>中查看",
 		id = 510204,
 		island_level = 14,
-		complete_map_id = 1005,
+		complete_map_id = 1006,
 		sys_unlock = {
 			{
 				3,
@@ -4741,7 +4741,7 @@ pg.base.island_technology_template = {
 		complete_title = "可前往<color=#1E8FFE>繁荫农圃露西</color>处购买<color=#1E8FFE>牛油果树种</color>",
 		id = 500236,
 		island_level = 18,
-		complete_map_id = 1006,
+		complete_map_id = 1005,
 		sys_unlock = {
 			{
 				1,
@@ -4809,7 +4809,7 @@ pg.base.island_technology_template = {
 		complete_title = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>白熊饮品</color>中查看",
 		id = 520205,
 		island_level = 19,
-		complete_map_id = 1005,
+		complete_map_id = 1006,
 		sys_unlock = {
 			{
 				3,
@@ -4873,7 +4873,7 @@ pg.base.island_technology_template = {
 		complete_title = "可前往<color=#1E8FFE>港口商区阿莫玛</color>处<color=#1E8FFE>啾啾简餐</color>中查看",
 		id = 530202,
 		island_level = 20,
-		complete_map_id = 1005,
+		complete_map_id = 1006,
 		sys_unlock = {
 			{
 				3,

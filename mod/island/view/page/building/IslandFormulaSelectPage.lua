@@ -622,16 +622,23 @@ function var_0_0.RefreshCurSelectCount(arg_40_0)
 		var_40_2 = string.format("×(%s<color=#7df39f>+%d</color>)", arg_40_0.formulaCfg.commission_product[1][2], var_40_3)
 	end
 
-	setText(arg_40_0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), var_40_2)
+	setText(arg_40_0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), var_40_2 .. i18n("island_production_tip"))
 
-	local var_40_4 = arg_40_0:CacaluteProductTime()
-	local var_40_5 = 0
+	local var_40_4, var_40_5 = arg_40_0:CacaluteProductTime()
+	local var_40_6 = 0
 
 	for iter_40_0, iter_40_1 in ipairs(var_40_4) do
-		var_40_5 = var_40_5 + iter_40_1
+		var_40_6 = var_40_6 + iter_40_1
 	end
 
-	setText(arg_40_0.needTimeText, pg.TimeMgr.GetInstance():DescCDTime(var_40_5))
+	local var_40_7 = var_40_5 - var_40_6
+	local var_40_8 = pg.TimeMgr.GetInstance():DescCDTime(var_40_6)
+
+	if var_40_7 > 0 then
+		var_40_8 = string.format("%s(<color=#7df39f>-%s</color>)", var_40_8, pg.TimeMgr.GetInstance():DescCDTime(var_40_7))
+	end
+
+	setText(arg_40_0.needTimeText, var_40_8)
 end
 
 function var_0_0.RefreshExtraProduct(arg_41_0)
@@ -670,7 +677,7 @@ function var_0_0.RefreshExtraProduct(arg_41_0)
 		var_41_5 = string.format("×(%s<color=#7df39f>+%d</color>)", var_41_2, var_41_6)
 	end
 
-	setText(arg_41_0.extraProductNum, var_41_5)
+	setText(arg_41_0.extraProductNum, var_41_5 .. i18n("island_production_tip"))
 	setText(arg_41_0.currentformulaIcon:Find("icon_bg/product_count_bg/product_count"), curCountStr)
 
 	local var_41_7 = pg.island_production_slot[arg_41_0.slotId].place
@@ -700,8 +707,10 @@ end
 
 function var_0_0.CacaluteProductTime(arg_43_0)
 	local var_43_0 = arg_43_0.addDelegateFormulaTimes and arg_43_0.curSelectCount - arg_43_0.addDelegateFormulaTimes or arg_43_0.curSelectCount
+	local var_43_1 = pg.island_set.base_efficiency.key_value_int
+	local var_43_2 = math.ceil(arg_43_0.formulaCfg.workload / var_43_1)
 
-	return IslandProductTimeHelper.CalculateTimeToProductFormula(arg_43_0.selectedShipId, arg_43_0.selectFormulaId, var_43_0, arg_43_0.placeId, arg_43_0.slotId)
+	return IslandProductTimeHelper.CalculateTimeToProductFormula(arg_43_0.selectedShipId, arg_43_0.selectFormulaId, var_43_0, arg_43_0.placeId, arg_43_0.slotId), var_43_2 * var_43_0
 end
 
 function var_0_0.CheckInPlace(arg_44_0, arg_44_1, arg_44_2)

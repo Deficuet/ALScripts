@@ -27,7 +27,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 301000,
 		efficiency_gains_bonus_num = 0,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15003
 	},
 	{
@@ -47,7 +47,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 301000,
 		efficiency_gains_bonus_num = 0,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15005
 	},
 	{
@@ -67,7 +67,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 301000,
 		efficiency_gains_bonus_num = 0,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15007
 	},
 	{
@@ -107,7 +107,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15013
 	},
 	[14] = {
@@ -117,7 +117,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15014
 	},
 	[15] = {
@@ -127,7 +127,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15015
 	},
 	[16] = {
@@ -137,7 +137,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15016
 	},
 	[17] = {
@@ -147,7 +147,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15017
 	},
 	[18] = {
@@ -157,7 +157,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15018
 	},
 	[19] = {
@@ -167,7 +167,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15019
 	},
 	[20] = {
@@ -177,7 +177,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15020
 	},
 	[21] = {
@@ -187,7 +187,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15021
 	},
 	[22] = {
@@ -197,7 +197,7 @@ pg.island_ranch_animal = {
 		efficiency_gains = 0,
 		unit_id = 302000,
 		efficiency_gains_bonus_num = 2,
-		efficiency_cost = 2,
+		efficiency_cost = 1,
 		unlock = 15022
 	},
 	[31] = {
@@ -302,7 +302,7 @@ pg.island_ranch_animal = {
 	},
 	[43] = {
 		id = 43,
-		efficiency_gains_num = 1,
+		efficiency_gains_num = 2,
 		slot_id = 9034,
 		efficiency_gains = 0,
 		unit_id = 301300,
@@ -312,7 +312,7 @@ pg.island_ranch_animal = {
 	},
 	[44] = {
 		id = 44,
-		efficiency_gains_num = 1,
+		efficiency_gains_num = 2,
 		slot_id = 9034,
 		efficiency_gains = 0,
 		unit_id = 301300,
@@ -322,7 +322,7 @@ pg.island_ranch_animal = {
 	},
 	[45] = {
 		id = 45,
-		efficiency_gains_num = 1,
+		efficiency_gains_num = 2,
 		slot_id = 9034,
 		efficiency_gains = 0,
 		unit_id = 301300,
@@ -332,7 +332,7 @@ pg.island_ranch_animal = {
 	},
 	[46] = {
 		id = 46,
-		efficiency_gains_num = 1,
+		efficiency_gains_num = 2,
 		slot_id = 9034,
 		efficiency_gains = 0,
 		unit_id = 301300,
@@ -342,7 +342,7 @@ pg.island_ranch_animal = {
 	},
 	[47] = {
 		id = 47,
-		efficiency_gains_num = 1,
+		efficiency_gains_num = 2,
 		slot_id = 9034,
 		efficiency_gains = 0,
 		unit_id = 301300,
@@ -352,7 +352,7 @@ pg.island_ranch_animal = {
 	},
 	[48] = {
 		id = 48,
-		efficiency_gains_num = 1,
+		efficiency_gains_num = 2,
 		slot_id = 9034,
 		efficiency_gains = 0,
 		unit_id = 301300,

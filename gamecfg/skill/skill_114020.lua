@@ -22,7 +22,7 @@ return {
 			target_choise = "TargetNil",
 			targetAniEffect = "",
 			arg_list = {
-				weapon_id = 180016
+				weapon_id = 180020
 			}
 		},
 		{

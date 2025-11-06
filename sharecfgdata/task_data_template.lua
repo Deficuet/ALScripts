@@ -163036,6 +163036,335 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21861] = {
+		name = "【马赛曲SP轻量化复刻】通关SP1",
+		guild_coin_award = 0,
+		award = 907598,
+		type = 6,
+		desc = "击败SP1旗舰1次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730001",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21861,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21862] = {
+		name = "【马赛曲SP轻量化复刻】通关SP2",
+		guild_coin_award = 0,
+		award = 907599,
+		type = 6,
+		desc = "击败SP2旗舰1次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730002",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21862,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21863] = {
+		name = "【马赛曲SP轻量化复刻】通关SP3",
+		guild_coin_award = 0,
+		award = 907600,
+		type = 6,
+		desc = "击败SP3旗舰1次",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21863,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				200
+			},
+			{
+				2,
+				18013,
+				1
+			},
+			{
+				14,
+				604,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730003
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21864] = {
+		name = "【马赛曲SP轻量化复刻】SP1三星",
+		guild_coin_award = 0,
+		award = 907601,
+		type = 6,
+		desc = "完成SP1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730001",
+		next_task = "21865",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21864,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730001
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21865] = {
+		name = "【马赛曲SP轻量化复刻】SP1三星",
+		guild_coin_award = 0,
+		award = 907602,
+		type = 6,
+		desc = "完成SP2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730002",
+		next_task = "21866",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21865,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730002
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21866] = {
+		name = "【马赛曲SP轻量化复刻】SP1三星",
+		guild_coin_award = 0,
+		award = 907603,
+		type = 6,
+		desc = "完成SP3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1730003",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 21866,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1730001,
+				chapterId = 1730003
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -322029,6 +322358,360 @@ end)()
 		story_icon_shift = {
 			0,
 			30
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500181] = {
+		name = "误闯电器城",
+		guild_coin_award = 0,
+		award = 500181,
+		type = 5,
+		desc = "提交3个《鱼雷天妇罗》",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500182",
+		auto_commit = 0,
+		target_id = "50003",
+		story_id = "QISHENG1",
+		tutorial_handbook_pic = "",
+		id = 500181,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500182] = {
+		name = "全自动浇水器",
+		guild_coin_award = 0,
+		award = 500182,
+		type = 5,
+		desc = "强化任意角色10次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG2",
+		ryza_icon = "",
+		next_task = "500183",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500182,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500183] = {
+		name = "毫不意外地出了意外",
+		guild_coin_award = 0,
+		award = 500183,
+		type = 5,
+		desc = "七省上阵出击(关卡)胜利20次",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG3",
+		ryza_icon = "",
+		next_task = "500184",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "110201",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500183,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500184] = {
+		name = "想要为恋人泡好喝的咖啡",
+		guild_coin_award = 0,
+		award = 500184,
+		type = 5,
+		desc = "累计消耗石油500",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG4",
+		ryza_icon = "",
+		next_task = "500185",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500184,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500185] = {
+		name = "咖啡机试用",
+		guild_coin_award = 0,
+		award = 500185,
+		type = 5,
+		desc = "七省好感度达到100",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG5",
+		ryza_icon = "",
+		next_task = "500186",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "110201",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500185,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16022,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500186] = {
+		name = "小小的愿望",
+		guild_coin_award = 0,
+		award = 500186,
+		type = 5,
+		desc = "七省突破至满星",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG6",
+		ryza_icon = "",
+		next_task = "500187",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "110201",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500186,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18012,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500187] = {
+		name = "咖啡机大作战！",
+		guild_coin_award = 0,
+		award = 500187,
+		type = 5,
+		desc = "七省等级达到100",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "qisheng",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "QISHENG7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		fix_task = 0,
+		target_id = "110201",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 500187,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18013,
+				1
+			}
+		},
+		story_icon_shift = {
+			0,
+			50
 		}
 	}
 end)()

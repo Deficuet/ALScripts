@@ -4,6 +4,16 @@ var_0_0.MOVE_TASK_ID = 10001000
 var_0_0.FIRST_TASK_ID = 10001010
 var_0_0.ORDER_TASK_ID = 10001071
 var_0_0.ORDER_TASK_PRE_ID = 10001070
+var_0_0.ORDER_NEED_ITEMS = {
+	{
+		2700,
+		1
+	},
+	{
+		2800,
+		1
+	}
+}
 var_0_0.TECH_TASK_ID = 10001141
 var_0_0.MAP_GUIDE_ABILITY_ID = 5004
 var_0_0.INVITE_TASK_ID = 10001151
@@ -201,30 +211,40 @@ function var_0_0.CheckGuide(arg_20_0, arg_20_1, arg_20_2)
 	var_0_0._PlayGuide(arg_20_0, var_20_0, arg_20_2)
 end
 
-function var_0_0._PlayGuide(arg_21_0, arg_21_1, arg_21_2)
+function var_0_0.CheckGuideWithArgs(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
+	if pg.NewStoryMgr.GetInstance():IsPlayed(arg_21_0) then
+		return
+	end
+
+	local var_21_0 = arg_21_1 or var_0_0.FINISH_TYPE.ON_BEGIN
+
+	var_0_0._PlayGuide(arg_21_0, var_21_0, arg_21_2, arg_21_3)
+end
+
+function var_0_0._PlayGuide(arg_22_0, arg_22_1, arg_22_2, arg_22_3)
 	if LOCK_ISLAND_GUIDE then
-		if arg_21_2 then
-			arg_21_2()
+		if arg_22_2 then
+			arg_22_2()
 		end
 
 		return
 	end
 
 	if pg.SeriesGuideMgr.GetInstance():isRunning() then
-		existCall(arg_21_2)
+		existCall(arg_22_2)
 
 		return
 	end
 
 	if not pg.NewGuideMgr.GetInstance():CanPlay() then
-		existCall(arg_21_2)
+		existCall(arg_22_2)
 
 		return
 	end
 
-	if arg_21_1 and arg_21_1 == var_0_0.FINISH_TYPE.ON_BEGIN then
+	if arg_22_1 and arg_22_1 == var_0_0.FINISH_TYPE.ON_BEGIN then
 		pg.m02:sendNotification(GAME.STORY_UPDATE, {
-			storyId = arg_21_0
+			storyId = arg_22_0
 		})
 	end
 
@@ -232,25 +252,25 @@ function var_0_0._PlayGuide(arg_21_0, arg_21_1, arg_21_2)
 		_IslandCore:Link(ISLAND_EVT.START_GUIDE)
 	end
 
-	pg.NewGuideMgr.GetInstance():Play(arg_21_0, nil, function()
+	pg.NewGuideMgr.GetInstance():Play(arg_22_0, arg_22_3, function()
 		if _IslandCore then
 			_IslandCore:Link(ISLAND_EVT.END_GUIDE)
 		end
 
-		if arg_21_1 and arg_21_1 == var_0_0.FINISH_TYPE.ON_END then
+		if arg_22_1 and arg_22_1 == var_0_0.FINISH_TYPE.ON_END then
 			pg.m02:sendNotification(GAME.STORY_UPDATE, {
-				storyId = arg_21_0
+				storyId = arg_22_0
 			})
 		end
-	end, arg_21_2, function(arg_23_0, arg_23_1)
-		var_0_0.Record(arg_23_0, arg_23_1, arg_21_0)
+	end, arg_22_2, function(arg_24_0, arg_24_1)
+		var_0_0.Record(arg_24_0, arg_24_1, arg_22_0)
 	end)
 end
 
-function var_0_0.Record(arg_24_0, arg_24_1, arg_24_2)
-	local var_24_0 = pg.TimeMgr.GetInstance():GetServerTime() - arg_24_1
+function var_0_0.Record(arg_25_0, arg_25_1, arg_25_2)
+	local var_25_0 = pg.TimeMgr.GetInstance():GetServerTime() - arg_25_1
 
-	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandGuide(arg_24_0, var_24_0, arg_24_2))
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildIslandGuide(arg_25_0, var_25_0, arg_25_2))
 end
 
 return var_0_0

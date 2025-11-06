@@ -828,6 +828,12 @@ function var_0_0.GetRecommendShip(arg_64_0, arg_64_1, arg_64_2, arg_64_3)
 		return var_64_1[arg_65_0] < var_64_1[arg_65_1]
 	end)
 
+	if getProxy(SettingsProxy):GetRecommendLowEnerySkipEnable() then
+		var_64_0 = underscore.filter(var_64_0, function(arg_66_0)
+			return not arg_66_0:isLowEnergy()
+		end)
+	end
+
 	local var_64_2 = {}
 
 	for iter_64_2, iter_64_3 in ipairs(arg_64_2) do
@@ -854,414 +860,414 @@ function var_0_0.GetRecommendShip(arg_64_0, arg_64_1, arg_64_2, arg_64_3)
 	return var_64_4
 end
 
-function var_0_0.getActivityRecommendShips(arg_66_0, arg_66_1, arg_66_2, arg_66_3, arg_66_4)
-	local var_66_0 = arg_66_0:getShipsByTypes(arg_66_1)
-	local var_66_1 = {}
+function var_0_0.getActivityRecommendShips(arg_67_0, arg_67_1, arg_67_2, arg_67_3, arg_67_4)
+	local var_67_0 = arg_67_0:getShipsByTypes(arg_67_1)
+	local var_67_1 = {}
 
-	for iter_66_0, iter_66_1 in ipairs(var_66_0) do
-		var_66_1[iter_66_1] = iter_66_1:getShipCombatPower()
+	for iter_67_0, iter_67_1 in ipairs(var_67_0) do
+		var_67_1[iter_67_1] = iter_67_1:getShipCombatPower()
 	end
 
-	table.sort(var_66_0, function(arg_67_0, arg_67_1)
-		return var_66_1[arg_67_0] < var_66_1[arg_67_1]
+	table.sort(var_67_0, function(arg_68_0, arg_68_1)
+		return var_67_1[arg_68_0] < var_67_1[arg_68_1]
 	end)
 
-	local var_66_2 = {}
+	local var_67_2 = {}
 
-	for iter_66_2, iter_66_3 in ipairs(arg_66_2) do
-		local var_66_3 = arg_66_0.data[iter_66_3]
+	for iter_67_2, iter_67_3 in ipairs(arg_67_2) do
+		local var_67_3 = arg_67_0.data[iter_67_3]
 
-		var_66_2[#var_66_2 + 1] = var_66_3:getGroupId()
+		var_67_2[#var_67_2 + 1] = var_67_3:getGroupId()
 	end
 
-	local var_66_4 = #var_66_0
-	local var_66_5 = {}
+	local var_67_4 = #var_67_0
+	local var_67_5 = {}
 
-	while var_66_4 > 0 and arg_66_3 > 0 do
-		local var_66_6 = var_66_0[var_66_4]
-		local var_66_7 = var_66_6.id
-		local var_66_8 = var_66_6:getGroupId()
+	while var_67_4 > 0 and arg_67_3 > 0 do
+		local var_67_6 = var_67_0[var_67_4]
+		local var_67_7 = var_67_6.id
+		local var_67_8 = var_67_6:getGroupId()
 
-		if not table.contains(arg_66_2, var_66_7) and not table.contains(var_66_2, var_66_8) and ShipStatus.ShipStatusCheck("inActivity", var_66_6, nil, {
-			inActivity = arg_66_4
+		if not table.contains(arg_67_2, var_67_7) and not table.contains(var_67_2, var_67_8) and ShipStatus.ShipStatusCheck("inActivity", var_67_6, nil, {
+			inActivity = arg_67_4
 		}) then
-			table.insert(var_66_5, var_66_6)
-			table.insert(var_66_2, var_66_8)
+			table.insert(var_67_5, var_67_6)
+			table.insert(var_67_2, var_67_8)
 
-			arg_66_3 = arg_66_3 - 1
+			arg_67_3 = arg_67_3 - 1
 		end
 
-		var_66_4 = var_66_4 - 1
+		var_67_4 = var_67_4 - 1
 	end
 
-	return var_66_5
+	return var_67_5
 end
 
-function var_0_0.getDelegationRecommendShips(arg_68_0, arg_68_1)
-	local var_68_0 = 6 - #arg_68_1.shipIds
-	local var_68_1 = arg_68_1.template.ship_type
-	local var_68_2 = arg_68_1.template.ship_lv
-	local var_68_3 = math.max(var_68_2, 2)
-	local var_68_4 = Clone(arg_68_1.shipIds)
-	local var_68_5 = arg_68_0:getShipsByTypes(var_68_1)
+function var_0_0.getDelegationRecommendShips(arg_69_0, arg_69_1)
+	local var_69_0 = 6 - #arg_69_1.shipIds
+	local var_69_1 = arg_69_1.template.ship_type
+	local var_69_2 = arg_69_1.template.ship_lv
+	local var_69_3 = math.max(var_69_2, 2)
+	local var_69_4 = Clone(arg_69_1.shipIds)
+	local var_69_5 = arg_69_0:getShipsByTypes(var_69_1)
 
-	table.sort(var_68_5, function(arg_69_0, arg_69_1)
-		return arg_69_0.level > arg_69_1.level
+	table.sort(var_69_5, function(arg_70_0, arg_70_1)
+		return arg_70_0.level > arg_70_1.level
 	end)
 
-	local var_68_6 = {}
-	local var_68_7 = false
+	local var_69_6 = {}
+	local var_69_7 = false
 
-	for iter_68_0, iter_68_1 in ipairs(var_68_4) do
-		local var_68_8 = arg_68_0.data[iter_68_1]
+	for iter_69_0, iter_69_1 in ipairs(var_69_4) do
+		local var_69_8 = arg_69_0.data[iter_69_1]
 
-		if var_68_3 <= var_68_8.level then
-			var_68_7 = true
+		if var_69_3 <= var_69_8.level then
+			var_69_7 = true
 		end
 
-		var_68_6[#var_68_6 + 1] = var_68_8:getGroupId()
+		var_69_6[#var_69_6 + 1] = var_69_8:getGroupId()
 	end
 
-	if var_68_7 then
-		var_68_3 = 2
+	if var_69_7 then
+		var_69_3 = 2
 	end
 
-	local var_68_9 = {}
-	local var_68_10 = #var_68_5
+	local var_69_9 = {}
+	local var_69_10 = #var_69_5
 
-	while var_68_10 > 0 do
-		if var_68_0 <= 0 then
+	while var_69_10 > 0 do
+		if var_69_0 <= 0 then
 			break
 		end
 
-		local var_68_11 = var_68_5[var_68_10]
-		local var_68_12 = var_68_11.id
-		local var_68_13 = var_68_11:getGroupId()
+		local var_69_11 = var_69_5[var_69_10]
+		local var_69_12 = var_69_11.id
+		local var_69_13 = var_69_11:getGroupId()
 
-		if var_68_3 <= var_68_11.level and var_68_11.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(var_68_4, var_68_12) and not table.contains(var_68_6, var_68_13) and not table.contains(var_68_9, var_68_12) and not var_68_11:getFlag("inElite") and not var_68_11:getFlag("inActivity") and ShipStatus.ShipStatusCheck("inEvent", var_68_11) then
-			table.insert(var_68_6, var_68_13)
-			table.insert(var_68_9, var_68_12)
+		if var_69_3 <= var_69_11.level and var_69_11.lockState ~= Ship.LOCK_STATE_UNLOCK and not table.contains(var_69_4, var_69_12) and not table.contains(var_69_6, var_69_13) and not table.contains(var_69_9, var_69_12) and not var_69_11:getFlag("inElite") and not var_69_11:getFlag("inActivity") and ShipStatus.ShipStatusCheck("inEvent", var_69_11) then
+			table.insert(var_69_6, var_69_13)
+			table.insert(var_69_9, var_69_12)
 
-			var_68_0 = var_68_0 - 1
+			var_69_0 = var_69_0 - 1
 
-			if var_68_7 == false then
-				var_68_7 = true
-				var_68_3 = 2
-				var_68_10 = #var_68_5
+			if var_69_7 == false then
+				var_69_7 = true
+				var_69_3 = 2
+				var_69_10 = #var_69_5
 			end
 		else
-			var_68_10 = var_68_10 - 1
+			var_69_10 = var_69_10 - 1
 		end
 	end
 
-	return var_68_9
+	return var_69_9
 end
 
-function var_0_0.getDelegationRecommendShipsLV1(arg_70_0, arg_70_1)
-	local var_70_0 = 6 - #arg_70_1.shipIds
-	local var_70_1 = arg_70_1.template.ship_type
-	local var_70_2 = Clone(arg_70_1.shipIds)
-	local var_70_3 = arg_70_0:getShipsByTypes(var_70_1)
-	local var_70_4 = _.select(var_70_3, function(arg_71_0)
-		return arg_71_0.level == 1
+function var_0_0.getDelegationRecommendShipsLV1(arg_71_0, arg_71_1)
+	local var_71_0 = 6 - #arg_71_1.shipIds
+	local var_71_1 = arg_71_1.template.ship_type
+	local var_71_2 = Clone(arg_71_1.shipIds)
+	local var_71_3 = arg_71_0:getShipsByTypes(var_71_1)
+	local var_71_4 = _.select(var_71_3, function(arg_72_0)
+		return arg_72_0.level == 1
 	end)
 
-	table.sort(var_70_4, CompareFuncs({
-		function(arg_72_0)
-			return arg_72_0.lockState == arg_72_0.LOCK_STATE_UNLOCK and 0 or 1
+	table.sort(var_71_4, CompareFuncs({
+		function(arg_73_0)
+			return arg_73_0.lockState == arg_73_0.LOCK_STATE_UNLOCK and 0 or 1
 		end
 	}))
 
-	local var_70_5 = {}
+	local var_71_5 = {}
 
-	for iter_70_0, iter_70_1 in ipairs(var_70_2) do
-		local var_70_6 = arg_70_0.data[iter_70_1]
+	for iter_71_0, iter_71_1 in ipairs(var_71_2) do
+		local var_71_6 = arg_71_0.data[iter_71_1]
 
-		var_70_5[#var_70_5 + 1] = var_70_6:getGroupId()
+		var_71_5[#var_71_5 + 1] = var_71_6:getGroupId()
 	end
 
-	local var_70_7 = {}
-	local var_70_8 = #var_70_4
+	local var_71_7 = {}
+	local var_71_8 = #var_71_4
 
-	while var_70_8 > 0 do
-		if var_70_0 <= 0 then
+	while var_71_8 > 0 do
+		if var_71_0 <= 0 then
 			break
 		end
 
-		local var_70_9 = var_70_4[var_70_8]
-		local var_70_10 = var_70_9.id
-		local var_70_11 = var_70_9:getGroupId()
+		local var_71_9 = var_71_4[var_71_8]
+		local var_71_10 = var_71_9.id
+		local var_71_11 = var_71_9:getGroupId()
 
-		if not table.contains(var_70_2, var_70_10) and not table.contains(var_70_5, var_70_11) and not table.contains(var_70_7, var_70_10) and not var_70_9:getFlag("inElite") and not var_70_9:getFlag("inActivity") and ShipStatus.ShipStatusCheck("inEvent", var_70_9) then
-			table.insert(var_70_5, var_70_11)
-			table.insert(var_70_7, var_70_10)
+		if not table.contains(var_71_2, var_71_10) and not table.contains(var_71_5, var_71_11) and not table.contains(var_71_7, var_71_10) and not var_71_9:getFlag("inElite") and not var_71_9:getFlag("inActivity") and ShipStatus.ShipStatusCheck("inEvent", var_71_9) then
+			table.insert(var_71_5, var_71_11)
+			table.insert(var_71_7, var_71_10)
 
-			var_70_0 = var_70_0 - 1
+			var_71_0 = var_71_0 - 1
 		else
-			var_70_8 = var_70_8 - 1
+			var_71_8 = var_71_8 - 1
 		end
 	end
 
-	return var_70_7
+	return var_71_7
 end
 
-function var_0_0.getWorldRecommendShip(arg_73_0, arg_73_1, arg_73_2)
-	local var_73_0 = arg_73_0:getShipsByTeamType(arg_73_1)
-	local var_73_1 = {}
+function var_0_0.getWorldRecommendShip(arg_74_0, arg_74_1, arg_74_2)
+	local var_74_0 = arg_74_0:getShipsByTeamType(arg_74_1)
+	local var_74_1 = {}
 
-	for iter_73_0, iter_73_1 in ipairs(var_73_0) do
-		var_73_1[iter_73_1] = iter_73_1:getShipCombatPower()
+	for iter_74_0, iter_74_1 in ipairs(var_74_0) do
+		var_74_1[iter_74_1] = iter_74_1:getShipCombatPower()
 	end
 
-	table.sort(var_73_0, function(arg_74_0, arg_74_1)
-		return var_73_1[arg_74_0] < var_73_1[arg_74_1]
+	table.sort(var_74_0, function(arg_75_0, arg_75_1)
+		return var_74_1[arg_75_0] < var_74_1[arg_75_1]
 	end)
 
-	local var_73_2 = {}
+	local var_74_2 = {}
 
-	for iter_73_2, iter_73_3 in ipairs(arg_73_2) do
-		var_73_2[#var_73_2 + 1] = arg_73_0.data[iter_73_3]:getGroupId()
+	for iter_74_2, iter_74_3 in ipairs(arg_74_2) do
+		var_74_2[#var_74_2 + 1] = arg_74_0.data[iter_74_3]:getGroupId()
 	end
 
-	local var_73_3 = #var_73_0
-	local var_73_4
+	local var_74_3 = #var_74_0
+	local var_74_4
 
-	while var_73_3 > 0 do
-		local var_73_5 = var_73_0[var_73_3]
-		local var_73_6 = var_73_5.id
-		local var_73_7 = var_73_5:getGroupId()
+	while var_74_3 > 0 do
+		local var_74_5 = var_74_0[var_74_3]
+		local var_74_6 = var_74_5.id
+		local var_74_7 = var_74_5:getGroupId()
 
-		if not table.contains(arg_73_2, var_73_6) and not table.contains(var_73_2, var_73_7) and ShipStatus.ShipStatusCheck("inWorld", var_73_5) then
-			var_73_4 = var_73_5
+		if not table.contains(arg_74_2, var_74_6) and not table.contains(var_74_2, var_74_7) and ShipStatus.ShipStatusCheck("inWorld", var_74_5) then
+			var_74_4 = var_74_5
 
 			break
 		else
-			var_73_3 = var_73_3 - 1
+			var_74_3 = var_74_3 - 1
 		end
 	end
 
-	return var_73_4
+	return var_74_4
 end
 
-function var_0_0.getModRecommendShip(arg_75_0, arg_75_1, arg_75_2)
-	local var_75_0 = underscore.map(arg_75_2, function(arg_76_0)
-		return arg_75_0.data[arg_76_0]
+function var_0_0.getModRecommendShip(arg_76_0, arg_76_1, arg_76_2)
+	local var_76_0 = underscore.map(arg_76_2, function(arg_77_0)
+		return arg_76_0.data[arg_77_0]
 	end)
-	local var_75_1 = Clone(arg_75_1)
+	local var_76_1 = Clone(arg_76_1)
 
-	for iter_75_0, iter_75_1 in pairs(ShipModLayer.getModExpAdditions(var_75_1, var_75_0)) do
-		var_75_1:addModAttrExp(iter_75_0, iter_75_1)
+	for iter_76_0, iter_76_1 in pairs(ShipModLayer.getModExpAdditions(var_76_1, var_76_0)) do
+		var_76_1:addModAttrExp(iter_76_0, iter_76_1)
 	end
 
-	local var_75_2 = var_75_1:getNeedModExp()
-	local var_75_3 = 0
+	local var_76_2 = var_76_1:getNeedModExp()
+	local var_76_3 = 0
 
-	for iter_75_2, iter_75_3 in pairs(var_75_2) do
-		var_75_3 = var_75_3 + iter_75_3
+	for iter_76_2, iter_76_3 in pairs(var_76_2) do
+		var_76_3 = var_76_3 + iter_76_3
 	end
 
-	local var_75_4 = {}
+	local var_76_4 = {}
 
-	for iter_75_4, iter_75_5 in pairs(arg_75_0.data) do
-		if iter_75_5:isSameKind(arg_75_1) then
-			var_75_4.sameKind = var_75_4.sameKind or {}
+	for iter_76_4, iter_76_5 in pairs(arg_76_0.data) do
+		if iter_76_5:isSameKind(arg_76_1) then
+			var_76_4.sameKind = var_76_4.sameKind or {}
 
-			table.insert(var_75_4.sameKind, iter_75_5)
+			table.insert(var_76_4.sameKind, iter_76_5)
 		else
-			local var_75_5 = iter_75_5:getShipType()
+			local var_76_5 = iter_76_5:getShipType()
 
-			var_75_4[var_75_5] = var_75_4[var_75_5] or {}
+			var_76_4[var_76_5] = var_76_4[var_76_5] or {}
 
-			table.insert(var_75_4[var_75_5], iter_75_5)
+			table.insert(var_76_4[var_76_5], iter_76_5)
 		end
 	end
 
-	local var_75_6 = arg_75_1:getConfig("type")
+	local var_76_6 = arg_76_1:getConfig("type")
 
-	for iter_75_6, iter_75_7 in ipairs(table.mergeArray({
+	for iter_76_6, iter_76_7 in ipairs(table.mergeArray({
 		"sameKind"
-	}, pg.ship_data_by_type[var_75_6].strengthen_choose_type)) do
-		if #var_75_0 == 12 or var_75_3 == 0 then
+	}, pg.ship_data_by_type[var_76_6].strengthen_choose_type)) do
+		if #var_76_0 == 12 or var_76_3 == 0 then
 			break
 		end
 
-		local var_75_7 = var_75_4[iter_75_7] or {}
-		local var_75_8 = {}
+		local var_76_7 = var_76_4[iter_76_7] or {}
+		local var_76_8 = {}
 
-		for iter_75_8, iter_75_9 in ipairs(pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_2, underscore.map(var_75_7, function(arg_77_0)
-			return arg_77_0.id
+		for iter_76_8, iter_76_9 in ipairs(pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_2, underscore.map(var_76_7, function(arg_78_0)
+			return arg_78_0.id
 		end))) do
-			var_75_8[iter_75_9] = true
+			var_76_8[iter_76_9] = true
 		end
 
-		local var_75_9 = underscore.filter(var_75_7, function(arg_78_0)
-			return arg_78_0.level == 1 and arg_78_0:getRarity() <= ShipRarity.Gray and arg_78_0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(arg_75_2, arg_78_0.id) and arg_75_1.id ~= arg_78_0.id and not var_75_8[arg_78_0.id]
+		local var_76_9 = underscore.filter(var_76_7, function(arg_79_0)
+			return arg_79_0.level == 1 and arg_79_0:getRarity() <= ShipRarity.Gray and arg_79_0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(arg_76_2, arg_79_0.id) and arg_76_1.id ~= arg_79_0.id and not var_76_8[arg_79_0.id]
 		end)
 
-		for iter_75_10, iter_75_11 in ipairs(var_75_9) do
-			if #var_75_0 == 12 or var_75_3 == 0 then
+		for iter_76_10, iter_76_11 in ipairs(var_76_9) do
+			if #var_76_0 == 12 or var_76_3 == 0 then
 				break
 			end
 
-			local var_75_10 = ShipModLayer.getModExpAdditions(var_75_1, {
-				iter_75_11
+			local var_76_10 = ShipModLayer.getModExpAdditions(var_76_1, {
+				iter_76_11
 			})
-			local var_75_11 = false
+			local var_76_11 = false
 
-			for iter_75_12, iter_75_13 in pairs(var_75_10) do
-				if iter_75_13 > 0 and var_75_2[iter_75_12] > 0 then
-					var_75_11 = true
-					var_75_3 = var_75_3 - math.min(var_75_2[iter_75_12], iter_75_13)
-					var_75_2[iter_75_12] = math.max(var_75_2[iter_75_12] - iter_75_13, 0)
+			for iter_76_12, iter_76_13 in pairs(var_76_10) do
+				if iter_76_13 > 0 and var_76_2[iter_76_12] > 0 then
+					var_76_11 = true
+					var_76_3 = var_76_3 - math.min(var_76_2[iter_76_12], iter_76_13)
+					var_76_2[iter_76_12] = math.max(var_76_2[iter_76_12] - iter_76_13, 0)
 				end
 			end
 
-			if var_75_11 then
-				table.insert(var_75_0, iter_75_11)
+			if var_76_11 then
+				table.insert(var_76_0, iter_76_11)
 			end
 		end
 	end
 
-	return underscore.map(var_75_0, function(arg_79_0)
-		return arg_79_0.id
+	return underscore.map(var_76_0, function(arg_80_0)
+		return arg_80_0.id
 	end)
 end
 
-function var_0_0.getUpgradeRecommendShip(arg_80_0, arg_80_1, arg_80_2, arg_80_3)
-	local var_80_0 = arg_80_0:getUpgradeShips(arg_80_1)
-	local var_80_1 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_4, underscore.keys(arg_80_0.data))
+function var_0_0.getUpgradeRecommendShip(arg_81_0, arg_81_1, arg_81_2, arg_81_3)
+	local var_81_0 = arg_81_0:getUpgradeShips(arg_81_1)
+	local var_81_1 = pg.ShipFlagMgr.GetInstance():FilterShips(ShipStatus.FILTER_SHIPS_FLAGS_4, underscore.keys(arg_81_0.data))
 
-	local function var_80_2(arg_81_0)
-		return arg_81_0.level == 1 and arg_81_0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(arg_80_2, arg_81_0.id) and arg_80_1.id ~= arg_81_0.id and not table.contains(var_80_1, arg_81_0.id)
+	local function var_81_2(arg_82_0)
+		return arg_82_0.level == 1 and arg_82_0:GetLockState() ~= Ship.LOCK_STATE_LOCK and not table.contains(arg_81_2, arg_82_0.id) and arg_81_1.id ~= arg_82_0.id and not table.contains(var_81_1, arg_82_0.id)
 	end
 
-	local var_80_3 = {}
+	local var_81_3 = {}
 
-	for iter_80_0, iter_80_1 in ipairs(var_80_0) do
-		if var_80_2(iter_80_1) then
-			table.insert(var_80_3, iter_80_1)
+	for iter_81_0, iter_81_1 in ipairs(var_81_0) do
+		if var_81_2(iter_81_1) then
+			table.insert(var_81_3, iter_81_1)
 		end
 	end
 
-	local var_80_4 = {
-		function(arg_82_0)
-			return arg_82_0:isSameKind(arg_80_1) and 0 or 1
+	local var_81_4 = {
+		function(arg_83_0)
+			return arg_83_0:isSameKind(arg_81_1) and 0 or 1
 		end
 	}
 
-	table.sort(var_80_3, CompareFuncs(var_80_4))
+	table.sort(var_81_3, CompareFuncs(var_81_4))
 
-	local var_80_5 = {}
+	local var_81_5 = {}
 
-	for iter_80_2, iter_80_3 in pairs(arg_80_2) do
-		table.insert(var_80_5, arg_80_0.data[iter_80_3])
+	for iter_81_2, iter_81_3 in pairs(arg_81_2) do
+		table.insert(var_81_5, arg_81_0.data[iter_81_3])
 	end
 
-	for iter_80_4, iter_80_5 in ipairs(var_80_3) do
-		if #var_80_5 == arg_80_3 then
+	for iter_81_4, iter_81_5 in ipairs(var_81_3) do
+		if #var_81_5 == arg_81_3 then
 			break
 		end
 
-		table.insert(var_80_5, iter_80_5)
+		table.insert(var_81_5, iter_81_5)
 	end
 
-	return underscore.map(var_80_5, function(arg_83_0)
-		return arg_83_0.id
+	return underscore.map(var_81_5, function(arg_84_0)
+		return arg_84_0.id
 	end)
 end
 
-function var_0_0.getGroupPropose(arg_84_0, arg_84_1)
-	local var_84_0 = false
+function var_0_0.getGroupPropose(arg_85_0, arg_85_1)
+	local var_85_0 = false
 
-	if arg_84_0.data then
-		for iter_84_0, iter_84_1 in ipairs(arg_84_0.data) do
-			if pg.ship_data_template[iter_84_1.configId].group_type == arg_84_1 and iter_84_1.propose then
+	if arg_85_0.data then
+		for iter_85_0, iter_85_1 in ipairs(arg_85_0.data) do
+			if pg.ship_data_template[iter_85_1.configId].group_type == arg_85_1 and iter_85_1.propose then
 				return true
 			end
 		end
 	end
 
-	return var_84_0
+	return var_85_0
 end
 
-function var_0_0.updateRandomFlagShips(arg_85_0, arg_85_1)
-	for iter_85_0, iter_85_1 in ipairs(arg_85_1) do
-		arg_85_0.data[iter_85_1.ship_id]:updateRandomFlag(iter_85_1.flag, iter_85_1.shadow)
+function var_0_0.updateRandomFlagShips(arg_86_0, arg_86_1)
+	for iter_86_0, iter_86_1 in ipairs(arg_86_1) do
+		arg_86_0.data[iter_86_1.ship_id]:updateRandomFlag(iter_86_1.flag, iter_86_1.shadow)
 	end
 end
 
-function var_0_0.getRandomFlagShipPhantomMarks(arg_86_0)
-	local var_86_0 = {}
-
-	for iter_86_0, iter_86_1 in pairs(arg_86_0.data) do
-		table.insertto(var_86_0, iter_86_1:getRandomFlagShipPhantomMarks())
-	end
-
-	return var_86_0
-end
-
-function var_0_0.getAllShipPhantomMarks(arg_87_0)
+function var_0_0.getRandomFlagShipPhantomMarks(arg_87_0)
 	local var_87_0 = {}
 
 	for iter_87_0, iter_87_1 in pairs(arg_87_0.data) do
-		table.insertto(var_87_0, iter_87_1:getAllShipPhantomMarks())
+		table.insertto(var_87_0, iter_87_1:getRandomFlagShipPhantomMarks())
 	end
 
 	return var_87_0
 end
 
-function var_0_0.GetShipPhantom(arg_88_0, arg_88_1)
-	local var_88_0, var_88_1 = ShipPhantom.UnpackMark(arg_88_1)
+function var_0_0.getAllShipPhantomMarks(arg_88_0)
+	local var_88_0 = {}
 
-	return arg_88_0.data[var_88_0] and ShipPhantom.Create(arg_88_0.data[var_88_0], var_88_1) or nil
+	for iter_88_0, iter_88_1 in pairs(arg_88_0.data) do
+		table.insertto(var_88_0, iter_88_1:getAllShipPhantomMarks())
+	end
+
+	return var_88_0
 end
 
-function var_0_0.getShipPhantomList(arg_89_0, arg_89_1)
-	return underscore.map(arg_89_1, function(arg_90_0)
-		return arg_89_0:GetShipPhantom(arg_90_0)
+function var_0_0.GetShipPhantom(arg_89_0, arg_89_1)
+	local var_89_0, var_89_1 = ShipPhantom.UnpackMark(arg_89_1)
+
+	return arg_89_0.data[var_89_0] and ShipPhantom.Create(arg_89_0.data[var_89_0], var_89_1) or nil
+end
+
+function var_0_0.getShipPhantomList(arg_90_0, arg_90_1)
+	return underscore.map(arg_90_1, function(arg_91_0)
+		return arg_90_0:GetShipPhantom(arg_91_0)
 	end)
 end
 
-function var_0_0.updateShipSkin(arg_91_0, arg_91_1, arg_91_2, arg_91_3)
-	local var_91_0 = arg_91_0.data[arg_91_1]
+function var_0_0.updateShipSkin(arg_92_0, arg_92_1, arg_92_2, arg_92_3)
+	local var_92_0 = arg_92_0.data[arg_92_1]
 
-	assert(var_91_0)
-	var_91_0:updateSkinId(arg_91_3, arg_91_2)
-	arg_91_0:sendNotification(var_0_0.SHIP_UPDATED, var_91_0:clone())
+	assert(var_92_0)
+	var_92_0:updateSkinId(arg_92_3, arg_92_2)
+	arg_92_0:sendNotification(var_0_0.SHIP_UPDATED, var_92_0:clone())
 end
 
-function var_0_0.CanUseShareSkinPhantoms(arg_92_0, arg_92_1)
-	local var_92_0 = ShipSkin.New({
-		id = arg_92_1
+function var_0_0.CanUseShareSkinPhantoms(arg_93_0, arg_93_1)
+	local var_93_0 = ShipSkin.New({
+		id = arg_93_1
 	})
-	local var_92_1 = var_92_0:IsTransSkin()
-	local var_92_2 = var_92_0:IsProposeSkin()
-	local var_92_3, var_92_4 = var_92_0:GetShareGroupIds()
-	local var_92_5 = {}
+	local var_93_1 = var_93_0:IsTransSkin()
+	local var_93_2 = var_93_0:IsProposeSkin()
+	local var_93_3, var_93_4 = var_93_0:GetShareGroupIds()
+	local var_93_5 = {}
 
-	for iter_92_0, iter_92_1 in ipairs(var_92_4) do
-		var_92_5[iter_92_1] = true
+	for iter_93_0, iter_93_1 in ipairs(var_93_4) do
+		var_93_5[iter_93_1] = true
 	end
 
-	local var_92_6 = {}
+	local var_93_6 = {}
 
-	for iter_92_2, iter_92_3 in ipairs(underscore.filter(underscore.values(arg_92_0:getRawData()), function(arg_93_0)
-		if not arg_93_0 then
+	for iter_93_2, iter_93_3 in ipairs(underscore.filter(underscore.values(arg_93_0:getRawData()), function(arg_94_0)
+		if not arg_94_0 then
 			return false
 		end
 
-		if var_92_1 then
-			return arg_93_0.groupId == var_92_3 and arg_93_0:isRemoulded()
-		elseif arg_93_0.groupId == var_92_3 or var_92_5[arg_93_0.groupId] and math.floor(arg_93_0:getIntimacy() / 100) >= arg_93_0:GetNoProposeIntimacyMax() then
-			return not var_92_2 or tobool(arg_93_0.propose)
+		if var_93_1 then
+			return arg_94_0.groupId == var_93_3 and arg_94_0:isRemoulded()
+		elseif arg_94_0.groupId == var_93_3 or var_93_5[arg_94_0.groupId] and math.floor(arg_94_0:getIntimacy() / 100) >= arg_94_0:GetNoProposeIntimacyMax() then
+			return not var_93_2 or tobool(arg_94_0.propose)
 		else
 			return false
 		end
 	end)) do
-		table.insertto(var_92_6, iter_92_3:getAllShipPhantom())
+		table.insertto(var_93_6, iter_93_3:getAllShipPhantom())
 	end
 
-	return var_92_6
+	return var_93_6
 end
 
 return var_0_0

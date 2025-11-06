@@ -1226,9 +1226,9 @@ function var_0_0.GetMainSceneScreenSleepTime(arg_130_0)
 		return SleepTimeout.SystemSetting
 	end
 
-	local var_130_0 = pg.settings_other_template[20].name
+	local var_130_0 = pg.settings_other_template[20]
 
-	if PlayerPrefs.GetInt(var_130_0, 1) == 1 then
+	if PlayerPrefs.GetInt(_G[var_130_0.name], var_130_0.default) == 1 then
 		return SleepTimeout.NeverSleep
 	else
 		return SleepTimeout.SystemSetting
@@ -1236,23 +1236,29 @@ function var_0_0.GetMainSceneScreenSleepTime(arg_130_0)
 end
 
 function var_0_0.ShowL2dResetInMainScene(arg_131_0)
-	local var_131_0 = pg.settings_other_template[21].name
+	local var_131_0 = pg.settings_other_template[21]
 
-	return PlayerPrefs.GetInt(var_131_0, 0) == 1
+	return PlayerPrefs.GetInt(_G[var_131_0.name], var_131_0.default) == 1
 end
 
-function var_0_0.Reset(arg_132_0)
-	arg_132_0:resetEquipSceneIndex()
-	arg_132_0:resetActivityLayerIndex()
+function var_0_0.GetRecommendLowEnerySkipEnable(arg_132_0)
+	local var_132_0 = pg.settings_other_template[25]
 
-	arg_132_0.isStopBuildSpeedupReamind = false
+	return PlayerPrefs.GetInt(_G[var_132_0.name], var_132_0.default) == 1
+end
 
-	arg_132_0:RestoreFrameRate()
+function var_0_0.Reset(arg_133_0)
+	arg_133_0:resetEquipSceneIndex()
+	arg_133_0:resetActivityLayerIndex()
 
-	arg_132_0.randomFlagShipList = nil
-	arg_132_0.prevRandomFlagShipTime = nil
-	arg_132_0.randomFlagShipMap = nil
-	arg_132_0.educateCharTipList = {}
+	arg_133_0.isStopBuildSpeedupReamind = false
+
+	arg_133_0:RestoreFrameRate()
+
+	arg_133_0.randomFlagShipList = nil
+	arg_133_0.prevRandomFlagShipTime = nil
+	arg_133_0.randomFlagShipMap = nil
+	arg_133_0.educateCharTipList = {}
 end
 
 return var_0_0

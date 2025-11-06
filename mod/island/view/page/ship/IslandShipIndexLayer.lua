@@ -3,32 +3,41 @@ local var_0_0 = class("IslandShipIndexLayer", import("view.common.CustomIndexLay
 function var_0_0.SortFunc(arg_1_0)
 	return {
 		function(arg_2_0)
-			local var_2_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_2_0)
+			if arg_2_0 then
+				local var_2_0 = arg_2_0["Get" .. arg_1_0](arg_2_0)
 
-			if var_2_0 then
-				return var_2_0["Get" .. arg_1_0](var_2_0)
+				return arg_2_0["Get" .. arg_1_0](arg_2_0)
 			else
 				return 0
 			end
 		end,
 		function(arg_3_0)
-			return arg_3_0
+			return arg_3_0.configId
 		end
 	}
 end
 
+var_0_0.SortNames = {
+	"island_chara_list_level",
+	"island_chara_list_attribute",
+	"island_index_name"
+}
 var_0_0.sort = {
 	{
 		sortFuncs = var_0_0.SortFunc("Level"),
-		name = ShipIndexConst.SortNames[2]
+		name = var_0_0.SortNames[1]
 	},
 	{
 		sortFuncs = var_0_0.SortFunc("Power"),
-		name = ShipIndexConst.SortNames[3]
+		name = var_0_0.SortNames[2]
 	},
 	{
-		sortFuncs = var_0_0.SortFunc("Energy"),
-		name = ShipIndexConst.SortNames[6]
+		sortFuncs = var_0_0.SortFunc("CurrentEnergy"),
+		name = var_0_0.SortNames[3]
+	},
+	{
+		name = "island_chara_list_workspeed",
+		sortFuncs = var_0_0.SortFunc("WorkSpeed")
 	}
 }
 
@@ -39,6 +48,8 @@ function var_0_0.getSortFuncAndName(arg_4_0, arg_4_1)
 		if bit.band(var_4_0, arg_4_0) > 0 then
 			return underscore.map(var_0_0.sort[iter_4_0].sortFuncs, function(arg_5_0)
 				return function(arg_6_0)
+					local var_6_0 = arg_5_0(arg_6_0)
+
 					return (arg_4_1 and -1 or 1) * arg_5_0(arg_6_0)
 				end
 			end), var_0_0.sort[iter_4_0].name
@@ -49,15 +60,11 @@ end
 var_0_0.SortLevel = bit.lshift(1, 0)
 var_0_0.SortPower = bit.lshift(1, 1)
 var_0_0.SortEnergy = bit.lshift(1, 2)
+var_0_0.SortWorkSpeed = bit.lshift(1, 3)
 var_0_0.SortIndexs = {
 	var_0_0.SortLevel,
 	var_0_0.SortPower,
 	var_0_0.SortEnergy
-}
-var_0_0.SortNames = {
-	"island_chara_list_level",
-	"island_chara_list_attribute",
-	"island_index_name"
 }
 var_0_0.ExtraPotency = bit.lshift(1, 0)
 var_0_0.ExtraCanUpgSkill = bit.lshift(1, 1)
@@ -136,6 +143,7 @@ function var_0_0.init(arg_13_0)
 
 	arg_13_0.OnFilter = var_13_0.OnFilter
 	arg_13_0.indexDatas = var_13_0.defaultIndex or {}
+	arg_13_0.needWorkSpeed = var_13_0.needWorkSpeed or false
 end
 
 function var_0_0.BlurPanel(arg_14_0)
@@ -179,14 +187,22 @@ function var_0_0.InitGroup(arg_18_0)
 end
 
 function var_0_0.InitData(arg_20_0)
+	local var_20_0 = Clone(var_0_0.SortNames)
+	local var_20_1 = Clone(var_0_0.SortIndexs)
+
+	if arg_20_0.needWorkSpeed then
+		table.insert(var_20_0, "island_chara_list_workspeed")
+		table.insert(var_20_1, var_0_0.SortWorkSpeed)
+	end
+
 	return {
 		indexDatas = Clone(arg_20_0.indexDatas),
 		customPanels = {
 			sortIndex = {
 				isSort = true,
 				mode = CustomIndexLayer.Mode.OR,
-				options = var_0_0.SortIndexs,
-				names = var_0_0.SortNames
+				options = var_20_1,
+				names = var_20_0
 			},
 			extraIndex = {
 				blueSeleted = true,

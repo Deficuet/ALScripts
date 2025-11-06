@@ -5,16 +5,16 @@ pg.island_formula = {
 		name = "小麦",
 		hitpoint = 0,
 		unlock_type = 0,
-		ship_exp = 30,
+		ship_exp = 40,
 		harvest_vfx = 60021,
-		workload = 18000,
+		workload = 24000,
 		pt_award = 0,
-		stamina_cost = 6,
+		stamina_cost = 8,
 		item_id = 2000,
 		affected_vfx_offset = "",
 		collectable_vfx = 60002,
 		id = 101001,
-		production_limit = 5,
+		production_limit = 12,
 		attribute = 1,
 		is_condition = 0,
 		cost = {
@@ -26,7 +26,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2000,
-				1
+				9
 			}
 		},
 		commission_cost = {
@@ -38,7 +38,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2000,
-				9
+				162
 			}
 		},
 		second_product_display = {},
@@ -72,14 +72,14 @@ pg.island_formula = {
 		name = "玉米",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 36000,
-		stamina_cost = 12,
+		workload = 24000,
+		stamina_cost = 8,
 		item_id = 2001,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3101002,
 		affected_vfx = "",
-		ship_exp = 60,
+		ship_exp = 40,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101002,
@@ -94,7 +94,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2001,
-				2
+				18
 			}
 		},
 		commission_cost = {
@@ -106,7 +106,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2001,
-				18
+				162
 			}
 		},
 		second_product_display = {},
@@ -139,7 +139,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 2008,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3101003,
 		affected_vfx = "",
 		ship_exp = 40,
@@ -157,7 +157,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2008,
-				1
+				9
 			}
 		},
 		commission_cost = {
@@ -169,7 +169,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2008,
-				9
+				108
 			}
 		},
 		second_product_display = {},
@@ -198,14 +198,14 @@ pg.island_formula = {
 		name = "咖啡豆",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 120000,
-		stamina_cost = 40,
+		workload = 84000,
+		stamina_cost = 28,
 		item_id = 2009,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3101004,
 		affected_vfx = "",
-		ship_exp = 200,
+		ship_exp = 140,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101004,
@@ -220,7 +220,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2009,
-				1
+				9
 			}
 		},
 		commission_cost = {
@@ -232,7 +232,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2009,
-				9
+				81
 			}
 		},
 		second_product_display = {},
@@ -261,14 +261,14 @@ pg.island_formula = {
 		name = "大米",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 72000,
-		stamina_cost = 24,
+		workload = 48000,
+		stamina_cost = 16,
 		item_id = 2002,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3101005,
 		affected_vfx = "",
-		ship_exp = 120,
+		ship_exp = 80,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101005,
@@ -283,7 +283,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2002,
-				2
+				18
 			}
 		},
 		commission_cost = {
@@ -295,7 +295,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2002,
-				18
+				162
 			}
 		},
 		second_product_display = {},
@@ -324,14 +324,14 @@ pg.island_formula = {
 		name = "白菜",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 30000,
-		stamina_cost = 10,
+		workload = 24000,
+		stamina_cost = 8,
 		item_id = 2003,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3101006,
 		affected_vfx = "",
-		ship_exp = 50,
+		ship_exp = 40,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101006,
@@ -346,7 +346,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2003,
-				1
+				9
 			}
 		},
 		commission_cost = {
@@ -358,7 +358,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2003,
-				9
+				81
 			}
 		},
 		second_product_display = {},
@@ -387,14 +387,14 @@ pg.island_formula = {
 		name = "土豆",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 216000,
-		stamina_cost = 72,
+		workload = 108000,
+		stamina_cost = 36,
 		item_id = 2005,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3101008,
 		affected_vfx = "",
-		ship_exp = 360,
+		ship_exp = 180,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101007,
@@ -409,7 +409,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2005,
-				3
+				27
 			}
 		},
 		commission_cost = {
@@ -421,7 +421,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2005,
-				9
+				243
 			}
 		},
 		second_product_display = {},
@@ -450,14 +450,14 @@ pg.island_formula = {
 		name = "大豆",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 60000,
-		stamina_cost = 20,
+		workload = 42000,
+		stamina_cost = 14,
 		item_id = 2006,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3101007,
 		affected_vfx = "",
-		ship_exp = 100,
+		ship_exp = 70,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101008,
@@ -472,7 +472,7 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2006,
-				1
+				27
 			}
 		},
 		commission_cost = {
@@ -484,7 +484,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2006,
-				27
+				243
 			}
 		},
 		second_product_display = {},
@@ -514,14 +514,14 @@ pg.island_formula = {
 		unitid = "",
 		attribute = 3,
 		harvest_vfx = 0,
-		workload = 48000,
-		stamina_cost = 16,
+		workload = 36000,
+		stamina_cost = 12,
 		item_id = 2601,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 80,
+		ship_exp = 60,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101013,
@@ -532,7 +532,7 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				3000,
-				4
+				2
 			}
 		},
 		commission_product = {
@@ -561,14 +561,14 @@ pg.island_formula = {
 		unitid = "",
 		attribute = 3,
 		harvest_vfx = 0,
-		workload = 108000,
-		stamina_cost = 36,
+		workload = 72000,
+		stamina_cost = 24,
 		item_id = 2600,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 180,
+		ship_exp = 120,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101015,
@@ -579,7 +579,7 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				3001,
-				3
+				2
 			}
 		},
 		commission_product = {
@@ -597,14 +597,14 @@ pg.island_formula = {
 		unitid = "",
 		attribute = 3,
 		harvest_vfx = 0,
-		workload = 216000,
-		stamina_cost = 72,
+		workload = 54000,
+		stamina_cost = 18,
 		item_id = 2603,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 360,
+		ship_exp = 90,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101016,
@@ -644,14 +644,14 @@ pg.island_formula = {
 		unitid = "",
 		attribute = 3,
 		harvest_vfx = 0,
-		workload = 282000,
-		stamina_cost = 94,
+		workload = 180000,
+		stamina_cost = 60,
 		item_id = 2605,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 470,
+		ship_exp = 300,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 101018,
@@ -668,7 +668,7 @@ pg.island_formula = {
 		commission_product = {
 			{
 				2605,
-				2
+				4
 			}
 		},
 		second_product_display = {},
@@ -687,20 +687,15 @@ pg.island_formula = {
 		item_id = 2700,
 		hitpoint = 80,
 		id = 401001,
-		production_limit = 5,
+		production_limit = 12,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2700,
-				8
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2700,
-				2
+				8
 			}
 		},
 		second_product_display = {},
@@ -754,21 +749,16 @@ pg.island_formula = {
 		affected_vfx_offset = "",
 		collectable_vfx = 60005,
 		id = 401002,
-		production_limit = 5,
+		production_limit = 12,
 		attribute = 2,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2701,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2701,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -802,17 +792,12 @@ pg.island_formula = {
 		attribute = 2,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2702,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2702,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -842,21 +827,16 @@ pg.island_formula = {
 		affected_vfx_offset = "",
 		collectable_vfx = 60005,
 		id = 401005,
-		production_limit = 5,
+		production_limit = 8,
 		attribute = 2,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2703,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2703,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -890,17 +870,12 @@ pg.island_formula = {
 		attribute = 2,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2704,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2704,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -934,17 +909,12 @@ pg.island_formula = {
 		attribute = 2,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2705,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2705,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -973,20 +943,15 @@ pg.island_formula = {
 		item_id = 2800,
 		hitpoint = 80,
 		id = 402001,
-		production_limit = 5,
+		production_limit = 12,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2800,
-				8
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2800,
-				2
+				8
 			}
 		},
 		second_product_display = {},
@@ -1040,21 +1005,16 @@ pg.island_formula = {
 		affected_vfx_offset = "",
 		collectable_vfx = 60006,
 		id = 402002,
-		production_limit = 5,
+		production_limit = 9,
 		attribute = 2,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2801,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2801,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -1088,17 +1048,12 @@ pg.island_formula = {
 		attribute = 2,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2802,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2802,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -1132,17 +1087,12 @@ pg.island_formula = {
 		attribute = 2,
 		is_condition = 0,
 		cost = {},
-		drop_display = {
-			{
-				2803,
-				1
-			}
-		},
+		drop_display = {},
 		commission_cost = {},
 		commission_product = {
 			{
 				2803,
-				1
+				4
 			}
 		},
 		second_product_display = {},
@@ -1163,14 +1113,14 @@ pg.island_formula = {
 		name = "苹果",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 72000,
-		stamina_cost = 24,
+		workload = 45000,
+		stamina_cost = 15,
 		item_id = 2016,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 120,
+		ship_exp = 75,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 501001,
@@ -1191,13 +1141,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1016,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2016,
-				8
+				32
 			}
 		},
 		second_product_display = {},
@@ -1226,14 +1176,14 @@ pg.island_formula = {
 		name = "柑橘",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 96000,
-		stamina_cost = 32,
+		workload = 45000,
+		stamina_cost = 15,
 		item_id = 2017,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3501002,
 		affected_vfx = "",
-		ship_exp = 160,
+		ship_exp = 75,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 501002,
@@ -1254,13 +1204,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1017,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2017,
-				8
+				32
 			}
 		},
 		second_product_display = {},
@@ -1289,14 +1239,14 @@ pg.island_formula = {
 		name = "香蕉",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 120000,
-		stamina_cost = 40,
+		workload = 60000,
+		stamina_cost = 20,
 		item_id = 2018,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3501003,
 		affected_vfx = "",
-		ship_exp = 200,
+		ship_exp = 100,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 501003,
@@ -1317,13 +1267,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1018,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2018,
-				8
+				32
 			}
 		},
 		second_product_display = {},
@@ -1352,14 +1302,14 @@ pg.island_formula = {
 		name = "芒果",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 180000,
-		stamina_cost = 60,
+		workload = 90000,
+		stamina_cost = 30,
 		item_id = 2019,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3501004,
 		affected_vfx = "",
-		ship_exp = 300,
+		ship_exp = 150,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 501004,
@@ -1374,19 +1324,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2019,
-				6
+				8
 			}
 		},
 		commission_cost = {
 			{
 				1019,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2019,
-				6
+				32
 			}
 		},
 		second_product_display = {},
@@ -1415,14 +1365,14 @@ pg.island_formula = {
 		name = "柠檬",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 60000,
-		stamina_cost = 20,
+		workload = 36000,
+		stamina_cost = 12,
 		item_id = 2020,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3501005,
 		affected_vfx = "",
-		ship_exp = 100,
+		ship_exp = 60,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 501005,
@@ -1443,13 +1393,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1020,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2020,
-				12
+				48
 			}
 		},
 		second_product_display = {},
@@ -1478,14 +1428,14 @@ pg.island_formula = {
 		name = "牛油果",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 216000,
-		stamina_cost = 72,
+		workload = 120000,
+		stamina_cost = 40,
 		item_id = 2021,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3501006,
 		affected_vfx = "",
-		ship_exp = 360,
+		ship_exp = 200,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 501006,
@@ -1506,13 +1456,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1021,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2021,
-				4
+				16
 			}
 		},
 		second_product_display = {},
@@ -1541,14 +1491,14 @@ pg.island_formula = {
 		name = "橡胶",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 294000,
-		stamina_cost = 98,
+		workload = 96000,
+		stamina_cost = 32,
 		item_id = 2022,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3501007,
 		affected_vfx = "",
-		ship_exp = 490,
+		ship_exp = 160,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 501007,
@@ -1569,13 +1519,13 @@ pg.island_formula = {
 		commission_cost = {
 			{
 				1022,
-				1
+				4
 			}
 		},
 		commission_product = {
 			{
 				2022,
-				8
+				32
 			}
 		},
 		second_product_display = {},
@@ -1604,14 +1554,14 @@ pg.island_formula = {
 		name = "亚麻",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 42000,
-		stamina_cost = 14,
+		workload = 24000,
+		stamina_cost = 8,
 		item_id = 2010,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
-		ship_exp = 70,
+		ship_exp = 40,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 502001,
@@ -1626,19 +1576,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2010,
-				3
+				6
 			}
 		},
 		commission_cost = {
 			{
 				1010,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2010,
-				3
+				18
 			}
 		},
 		second_product_display = {},
@@ -1667,14 +1617,14 @@ pg.island_formula = {
 		name = "草莓",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 96000,
-		stamina_cost = 32,
+		workload = 54000,
+		stamina_cost = 18,
 		item_id = 2011,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3502002,
 		affected_vfx = "",
-		ship_exp = 160,
+		ship_exp = 90,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 502002,
@@ -1689,19 +1639,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2011,
-				9
+				18
 			}
 		},
 		commission_cost = {
 			{
 				1011,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2011,
-				9
+				54
 			}
 		},
 		second_product_display = {},
@@ -1730,14 +1680,14 @@ pg.island_formula = {
 		name = "棉花",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 54000,
-		stamina_cost = 18,
+		workload = 36000,
+		stamina_cost = 12,
 		item_id = 2012,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3502003,
 		affected_vfx = "",
-		ship_exp = 90,
+		ship_exp = 60,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 502003,
@@ -1752,19 +1702,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2012,
-				3
+				6
 			}
 		},
 		commission_cost = {
 			{
 				1012,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2012,
-				3
+				18
 			}
 		},
 		second_product_display = {},
@@ -1793,14 +1743,14 @@ pg.island_formula = {
 		name = "茶叶",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 180000,
-		stamina_cost = 60,
+		workload = 54000,
+		stamina_cost = 18,
 		item_id = 2014,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3502004,
 		affected_vfx = "",
-		ship_exp = 300,
+		ship_exp = 90,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 502004,
@@ -1815,19 +1765,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2014,
-				9
+				12
 			}
 		},
 		commission_cost = {
 			{
 				1014,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2014,
-				9
+				36
 			}
 		},
 		second_product_display = {},
@@ -1856,14 +1806,14 @@ pg.island_formula = {
 		name = "薰衣草",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 300000,
-		stamina_cost = 100,
+		workload = 108000,
+		stamina_cost = 36,
 		item_id = 2015,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3502005,
 		affected_vfx = "",
-		ship_exp = 500,
+		ship_exp = 180,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 502005,
@@ -1878,19 +1828,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2015,
-				6
+				8
 			}
 		},
 		commission_cost = {
 			{
 				1015,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2015,
-				6
+				24
 			}
 		},
 		second_product_display = {},
@@ -1919,14 +1869,14 @@ pg.island_formula = {
 		name = "胡萝卜",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 72000,
-		stamina_cost = 24,
+		workload = 24000,
+		stamina_cost = 8,
 		item_id = 2004,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3502006,
 		affected_vfx = "",
-		ship_exp = 120,
+		ship_exp = 40,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 502006,
@@ -1941,19 +1891,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2004,
-				9
+				12
 			}
 		},
 		commission_cost = {
 			{
 				1004,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2004,
-				9
+				36
 			}
 		},
 		second_product_display = {},
@@ -1982,14 +1932,14 @@ pg.island_formula = {
 		name = "洋葱",
 		attribute = 1,
 		harvest_vfx = 60021,
-		workload = 144000,
-		stamina_cost = 48,
+		workload = 54000,
+		stamina_cost = 18,
 		item_id = 2007,
 		affected_vfx_offset = "",
 		production_limit = 5,
 		unlock_type = 3502007,
 		affected_vfx = "",
-		ship_exp = 240,
+		ship_exp = 90,
 		vfx_offset = "",
 		pt_award = 0,
 		id = 502007,
@@ -2004,19 +1954,19 @@ pg.island_formula = {
 		drop_display = {
 			{
 				2007,
-				3
+				4
 			}
 		},
 		commission_cost = {
 			{
 				1007,
-				1
+				3
 			}
 		},
 		commission_product = {
 			{
 				2007,
-				3
+				12
 			}
 		},
 		second_product_display = {},
@@ -2086,7 +2036,7 @@ pg.island_formula = {
 		stamina_cost = 16,
 		item_id = 3012,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3601002,
 		affected_vfx = "",
 		ship_exp = 80,
@@ -2126,7 +2076,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3013,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3601003,
 		affected_vfx = "",
 		ship_exp = 40,
@@ -2166,7 +2116,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3014,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3601004,
 		affected_vfx = "",
 		ship_exp = 60,
@@ -2206,7 +2156,7 @@ pg.island_formula = {
 		stamina_cost = 4,
 		item_id = 3015,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3601005,
 		affected_vfx = "",
 		ship_exp = 20,
@@ -2250,7 +2200,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3101,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -2290,7 +2240,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3102,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -2330,7 +2280,7 @@ pg.island_formula = {
 		stamina_cost = 4,
 		item_id = 3017,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 20,
@@ -2366,7 +2316,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3018,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3602002,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -2406,7 +2356,7 @@ pg.island_formula = {
 		stamina_cost = 4,
 		item_id = 3019,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3602003,
 		affected_vfx = "",
 		ship_exp = 20,
@@ -2446,7 +2396,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3020,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3602004,
 		affected_vfx = "",
 		ship_exp = 40,
@@ -2486,7 +2436,7 @@ pg.island_formula = {
 		stamina_cost = 16,
 		item_id = 3021,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3602005,
 		affected_vfx = "",
 		ship_exp = 80,
@@ -2526,7 +2476,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3022,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3602006,
 		affected_vfx = "",
 		ship_exp = 60,
@@ -2566,7 +2516,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3103,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -2606,7 +2556,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3104,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -2646,7 +2596,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3105,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -2686,7 +2636,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3023,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -2726,7 +2676,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3009,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3603002,
 		affected_vfx = "",
 		ship_exp = 60,
@@ -2766,7 +2716,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3024,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3603003,
 		affected_vfx = "",
 		ship_exp = 60,
@@ -2806,7 +2756,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3025,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3603004,
 		affected_vfx = "",
 		ship_exp = 40,
@@ -2846,7 +2796,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3026,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3603005,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -2886,7 +2836,7 @@ pg.island_formula = {
 		stamina_cost = 14,
 		item_id = 3028,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3603006,
 		affected_vfx = "",
 		ship_exp = 70,
@@ -2930,7 +2880,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3106,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -2970,7 +2920,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3107,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -3010,7 +2960,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3108,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -3050,7 +3000,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3029,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 40,
@@ -3086,7 +3036,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3030,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 3604002,
 		affected_vfx = "",
 		ship_exp = 60,
@@ -3126,7 +3076,7 @@ pg.island_formula = {
 		stamina_cost = 10,
 		item_id = 3032,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 9,
 		unlock_type = 3604004,
 		affected_vfx = "",
 		ship_exp = 50,
@@ -3166,7 +3116,7 @@ pg.island_formula = {
 		stamina_cost = 4,
 		item_id = 3033,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3604005,
 		affected_vfx = "",
 		ship_exp = 20,
@@ -3206,7 +3156,7 @@ pg.island_formula = {
 		stamina_cost = 10,
 		item_id = 3034,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 9,
 		unlock_type = 3604006,
 		affected_vfx = "",
 		ship_exp = 50,
@@ -3250,7 +3200,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3109,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -3290,7 +3240,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3110,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -3330,7 +3280,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3035,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -3566,7 +3516,7 @@ pg.island_formula = {
 		stamina_cost = 16,
 		item_id = 3041,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 6,
 		unlock_type = 3701007,
 		affected_vfx = "",
 		ship_exp = 80,
@@ -3610,7 +3560,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3042,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 60,
@@ -3838,7 +3788,7 @@ pg.island_formula = {
 		stamina_cost = 12,
 		item_id = 3048,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 8,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 60,
@@ -4206,7 +4156,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3059,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -4242,7 +4192,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3005,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 0,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -4314,7 +4264,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3007,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3901004,
 		affected_vfx = "",
 		ship_exp = 40,
@@ -4354,7 +4304,7 @@ pg.island_formula = {
 		stamina_cost = 6,
 		item_id = 3008,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3901005,
 		affected_vfx = "",
 		ship_exp = 30,
@@ -4394,7 +4344,7 @@ pg.island_formula = {
 		stamina_cost = 8,
 		item_id = 3010,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = 3901006,
 		affected_vfx = "",
 		ship_exp = 40,
@@ -4438,7 +4388,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3111,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -4478,7 +4428,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3112,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,
@@ -4518,7 +4468,7 @@ pg.island_formula = {
 		stamina_cost = 2,
 		item_id = 3113,
 		affected_vfx_offset = "",
-		production_limit = 5,
+		production_limit = 12,
 		unlock_type = -1,
 		affected_vfx = "",
 		ship_exp = 10,

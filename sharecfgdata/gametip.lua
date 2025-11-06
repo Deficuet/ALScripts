@@ -3578,6 +3578,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_time = {
+		tip = "委托列表自动刷新时间："
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.workbench_tips7 = {
 		tip = "素材"
 	}
@@ -5010,6 +5016,12 @@ end)()
 (function()
 	_G.pg.base.gametip.player_changePlayerIcon_ok = {
 		tip = "秘书舰更换成功！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_simulated_btn = {
+		tip = "是否进入当前信标META的模拟战斗？\n战斗强度：Lv$1\n*该战斗不消耗石油，不会获得任何奖励"
 	}
 end)()
 
@@ -8305,6 +8317,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.equip_enhancement_lv = {
+		tip = "级"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.main_playerInfoLayer_error_changeNameNoGem = {
 		tip = "钻石不足"
 	}
@@ -8313,6 +8331,12 @@ end)()
 (function()
 	_G.pg.base.gametip.Supplement_pay4 = {
 		tip = "前往处理"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_production_speed_tip1 = {
+		tip = "工作速度 <color=#39bfff>+$1%</color>"
 	}
 end)()
 
@@ -10559,6 +10583,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_guide_help_npc = {
+		tip = "积累收集点可以提升收藏等级，并解锁对应的收藏奖励。\n与NPC互动并解锁图鉴可以领取收集点"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battlepass_main_tip2 = {
 		tip = "购买<icon name=pass w=1 h=1/>可解锁\n<color=#92fc63>「约克城」限定换装</color>、<color=#92fc63>钻石</color>\n<color=#92fc63>心智魔方</color>在内的额外奖励"
 	}
@@ -10779,6 +10809,12 @@ end)()
 (function()
 	_G.pg.base.gametip.common_buy_success = {
 		tip = "购买成功！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_production_speed_addition2 = {
+		tip = "科技加成"
 	}
 end)()
 
@@ -11695,6 +11731,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_agora_no_interact_point = {
+		tip = "此处已被占用，暂时无法交互 "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_order_ship_exchange_tip_1 = {
+		tip = "该委托已装载资材，更换将消耗一次运输次数且已装载资材无法取回，是否确认更换新的货运委托？"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.world_instruction_submarine_9 = {
 		tip = "自律寻敌时，当潜艇支援的消耗小于等于\n时自动召唤"
 	}
@@ -11715,6 +11763,18 @@ end)()
 (function()
 	_G.pg.base.gametip.tip_build_ticket_exchange_expired = {
 		tip = "限时建造已结束，无法兑换「$1」"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_order_ship_exchange_tip_2 = {
+		tip = "无可运输次数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.player_changeManifesto_error = {
+		tip = "宣言更换失败:"
 	}
 end)()
 
@@ -11743,6 +11803,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_order_ship_exchange_tip = {
+		tip = "是否确认更换新的货运委托？"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.help_sub_display = {
 		tip = "自主寻敌/待机模式"
 	}
@@ -11751,6 +11817,12 @@ end)()
 (function()
 	_G.pg.base.gametip.child_mind_empty_tip = {
 		tip = "-当前暂无任何心事-"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.child_btn_mind = {
+		tip = "心事"
 	}
 end)()
 
@@ -11785,6 +11857,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_blackList = {
+		tip = "黑名单"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.longxiang_count = {
 		tip = "目标式符-J："
 	}
@@ -11805,6 +11883,12 @@ end)()
 (function()
 	_G.pg.base.gametip.island_manage_attr_effect = {
 		tip = "影响能力："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_order_ship_sel_delegate_label = {
+		tip = "- 点击选择货运委托 -"
 	}
 end)()
 
@@ -11861,8 +11945,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_atelier_tip17 = {
+		tip = "点击材料槽放入对应素材"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.commander_lock_tip = {
 		tip = "是否<color=#92fc63>锁定</color>该指挥喵？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_order_delegate_auto_refresh_label = {
+		tip = "当前无可运输的货运委托"
 	}
 end)()
 
@@ -11891,6 +11987,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_ship_order_toggle_label_request = {
+		tip = "查看需求"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity_2 = {
 		tip = "中"
 	}
@@ -11907,14 +12009,60 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.faest_nothing_to_get = {
+		tip = "暂无可领取的奖励"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_new_category = {
+		tip = "舰种"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.venusvolleyball_help = {
+		tip = {
+			{
+				info = "活动规则：\n1.<color=#92fc63>5月3日</color>为止每日0点开放<color=#92fc63>1</color>场新的比赛，总计<color=#92fc63>7</color>场，可累计。全部完成后可以获得限定装备<color=#92fc63>「觉醒宝珠」</color>以及角色喜好道具-<color=#92fc63>「喜好食物(莫妮卡)」</color>\n2.点击开始游戏，选择两名角色后开始比赛，任意一方获得<color=#92fc63>5</color>分后即可完成游戏\n3.指挥官在接球和击球时会出现判定圈，点击屏幕任意位置完成判定\n4.判定圈缩至外圈与内圈之间时点击视为good，判定圈缩至内圈后点击视为perfect，未进行点击或判定圈未缩到外圈时点击视为miss接球时：判定miss为失分，判定good和perfect成功接球击球时：判定miss击球但不得分，判定good和perfect击球得分\n5.未开放全部比赛前，可重复挑战当日比赛，在完成全部比赛后开启自由挑战，指挥官可自由选择角色进行比赛"
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_shipType_weiXiu = {
 		tip = "维修"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.yumia_stronghold_4 = {
+		tip = "收集度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_enhancement_required = {
+		tip = "需要素材："
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_start_tech_group_tip = {
 		tip = "即将开始【$1】的研发，是否确定？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_enhancement_title = {
+		tip = "强化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.equip_enhancement_finish = {
+		tip = "强化完成"
 	}
 end)()
 
@@ -11937,6 +12085,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.skin_discount_desc = {
+		tip = "是否消耗$1*1 购买折后价 $2 的 $3"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.battle_preCombatLayer_damage_before_end = {
 		tip = "战斗结束前尽可能取得更高伤害"
 	}
@@ -11949,8 +12103,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.equip_enhancement_lv1 = {
+		tip = "强化至下一级"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.click_back_tip = {
+		tip = "点击任意位置返回"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_reproduce_btn = {
+		tip = "是否进入当前信标META的档案重现战斗？\n战斗强度：Lv15\n*该战斗不消耗石油，不会获得任何奖励"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.elite_condition_reload = {
 		tip = "装填总值"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_trans_not = {
+		tip = "运力不足，前往重建任务获取"
 	}
 end)()
 
@@ -11961,8 +12139,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.read_the_user_agreement = {
+		tip = "请先阅读完用户协议"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.challenge_share_progress = {
 		tip = "本次限界挑战进度："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_time_remaining_tip = {
+		tip = "作战剩余时间:"
 	}
 end)()
 
@@ -11973,14 +12163,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_quickselect_tip = {
+		tip = "*长按图标可快速增加选择数量"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_selectall = {
+		tip = "全选"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.ship_shipModMediator_noticeLvOver1 = {
 		tip = "等级大于1"
 	}
 end)()
 
 (function()
+	_G.pg.base.gametip.word_cannon = {
+		tip = "舰炮"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.level_chapter_state_safety = {
 		tip = "<color=#92fc63>【安全海域】</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_attr_help = {
+		tip = "1.角色<color=#39bfff>能力值</color>越高，对应的<color=#39bfff>能力评级</color>越高\n2.<color=#39bfff>能力评级</color>越高，进行<color=#39bfff>对应能力的工作</color>时<color=#39bfff>效率</color>越高\n3.<color=#39bfff>能力评级</color>对应<color=#39bfff>能力值</color>范围：\n\t<color=#E79CC6>S</color>  能力值>=200\n\t<color=#FFDC1C>A</color>  120<=能力值<200\n\t<color=#B7A4FF>B</color>  80<=能力值<120\n\t<color=#97CFF6>C</color>  50<=能力值<80\n\t<color=#757577>D</color>  25<=能力值<50\n\t<color=#757577>E</color>  0<=能力值<25"
 	}
 end)()
 
@@ -12021,56 +12235,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.courtyard_label_shop_1 = {
-		tip = "家具商店"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_dresscolorunlock = {
-		tip = "解锁"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.index_not_obtained = {
-		tip = "未获取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_guide_character_help = {
-		tip = "信息"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_cannon = {
-		tip = "舰炮"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_chara_attr_help = {
-		tip = "1.角色<color=#39bfff>能力值</color>越高，对应的<color=#39bfff>能力评级</color>越高\n2.<color=#39bfff>能力评级</color>越高，进行<color=#39bfff>对应能力的工作</color>时<color=#39bfff>效率</color>越高\n3.<color=#39bfff>能力评级</color>对应<color=#39bfff>能力值</color>范围：\n\t<color=#E79CC6>S</color>  能力值>=200\n\t<color=#FFDC1C>A</color>  120<=能力值<200\n\t<color=#B7A4FF>B</color>  80<=能力值<120\n\t<color=#97CFF6>C</color>  50<=能力值<80\n\t<color=#757577>D</color>  25<=能力值<50\n\t<color=#757577>E</color>  0<=能力值<25"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_shop_tag8 = {
 		tip = "解锁丝袜互动"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_shop_tip1 = {
-		tip = "※此商店商品每$1周刷新"
+	_G.pg.base.gametip.battle_result_undefeated = {
+		tip = "全员未被重创"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_end_title = {
-		tip = "战斗统计"
+	_G.pg.base.gametip.courtyard_label_shop_1 = {
+		tip = "家具商店"
 	}
 end)()
 
@@ -12081,14 +12259,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cryptolalia_label_downloading = {
-		tip = "下载中loading....."
+	_G.pg.base.gametip.island_shiporder_refresh_tip2 = {
+		tip = "是否更换货运委托"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_shiporder_refresh_tip2 = {
-		tip = "是否更换货运委托"
+	_G.pg.base.gametip.index_not_obtained = {
+		tip = "未获取"
 	}
 end)()
 
@@ -12099,42 +12277,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_extend = {
-		tip = "扩建"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resourceSite_beginScanMap_ok = {
-		tip = "扫描成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_draw_last = {
-		tip = "剩余："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attribute_healthy = {
-		tip = "治疗"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_helpbtn_card = {
 		tip = {
 			{
 				info = "名片中可查看指挥官的各类信息，指挥官可以通过<color=#39bfff>聊天</color>或<color=#39bfff>拜访</color>功能查看他人的名片。\n<color=#E58A00>成就展示</color>：点击后可以选择已获得的<color=#39bfff>成就</color>在名片中进行展示。\n<color=#E58A00>修改名称</color>：点击<color=#39bfff>修改名称</color>可对岛屿名称进行修改。\n<color=#E58A00>修改签名</color>：点击<color=#39bfff>修改签名</color>可对名片中的签名进行修改。\n<color=#E58A00>评价标签</color>：点击查看已获得的所有评价标签。\n<color=#E58A00>岛屿形象</color>：点击切换按钮可重新选择岛屿形象。"
 			}
 		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.challenge_casual_click_switch = {
-		tip = "当前模式:普通模式\n累积得分:$1\n是否切换模式?"
 	}
 end)()
 
@@ -12151,20 +12299,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_story_tip_1 = {
-		tip = "解锁剧情(未使用)"
+	_G.pg.base.gametip.child_shop_tip1 = {
+		tip = "※此商店商品每$1周刷新"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_helpbtn_order = {
 		tip = "<color=#E58A00>岛屿订单</color>：通过交付对应数量的<color=#39bfff>资材</color>即可完成岛屿订单，获得岛屿<color=#39bfff>开发资金</color>和<color=#39bfff>开发经验</color>的奖励。\n<color=#E58A00>加急订单</color>：在<color=#39bfff>岛屿科技</color>中开启加急订单后，在岛屿中<color=#39bfff>游玩一定时长</color>、<color=#39bfff>交付普通订单</color>和<color=#39bfff>装载货运委托</color>均有概率刷出加急订单。\n<color=#E58A00>订单上限</color>：普通订单与加急订单均有上限，普通订单为<color=#39bfff>每日上限</color>，加急订单为<color=#39bfff>每周上限</color>。\n<color=#E58A00>订单倾向</color>：可在订单倾向中选择订单的整体交付难度，改变后的倾向将在<color=#39bfff>下次出现订单时</color>生效。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.amusementpark_shop_enter = {
-		tip = "欢迎来到兑换屋。今天想要兑换什么奖品呢？"
 	}
 end)()
 
@@ -12227,14 +12369,104 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_furniture_sure_save = {
-		tip = "是否确认保存家具"
+	_G.pg.base.gametip.cryptolalia_label_downloading = {
+		tip = "下载中loading....."
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.danmachi_award_unget = {
 		tip = "未获得"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_award_name2 = {
+		tip = "琉·璃昂"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_agora_extend = {
+		tip = "扩建"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resourceSite_beginScanMap_ok = {
+		tip = "扫描成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_draw_last = {
+		tip = "剩余："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.attribute_healthy = {
+		tip = "治疗"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_award_name1 = {
+		tip = "赫斯缇雅"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.challenge_casual_click_switch = {
+		tip = "当前模式:普通模式\n累积得分:$1\n是否切换模式?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_award_4 = {
+		tip = "特殊兵装"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_award_1 = {
+		tip = "舰船"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_story_tip_1 = {
+		tip = "解锁剧情(未使用)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_main_time = {
+		tip = "剩余$1小时"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.amusementpark_shop_enter = {
+		tip = "欢迎来到兑换屋。今天想要兑换什么奖品呢？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_main_sheet5 = {
+		tip = "奖励汇总"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_furniture_sure_save = {
+		tip = "是否确认保存家具"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.danmachi_main_sheet4 = {
+		tip = "邂逅之旅"
 	}
 end)()
 
@@ -12263,8 +12495,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_name2 = {
-		tip = "琉·璃昂"
+	_G.pg.base.gametip.danmachi_main_sheet3 = {
+		tip = "疾风不息"
 	}
 end)()
 
@@ -12293,14 +12525,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_name1 = {
-		tip = "赫斯缇雅"
+	_G.pg.base.gametip.danmachi_main_sheet2 = {
+		tip = "圣火不灭"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_4 = {
-		tip = "特殊兵装"
+	_G.pg.base.gametip.child_plan_perform_title = {
+		tip = "行程安排"
 	}
 end)()
 
@@ -12317,20 +12549,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_award_1 = {
-		tip = "舰船"
+	_G.pg.base.gametip.island_dresscolorunlock = {
+		tip = "解锁"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_time = {
-		tip = "剩余$1小时"
+	_G.pg.base.gametip.island_dresscolorunlock_tips = {
+		tip = "解锁消耗"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_sheet5 = {
-		tip = "奖励汇总"
+	_G.pg.base.gametip.island_shipselect_confirm = {
+		tip = "确认"
 	}
 end)()
 
@@ -12347,20 +12579,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_sheet4 = {
-		tip = "邂逅之旅"
+	_G.pg.base.gametip.island_setmeal_title = {
+		tip = "套餐图鉴"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_sheet3 = {
-		tip = "疾风不息"
+	_G.pg.base.gametip.world_inventory_tip = {
+		tip = "重置后可转换的兑换券"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.danmachi_main_sheet2 = {
-		tip = "圣火不灭"
+	_G.pg.base.gametip.island_commontips_close = {
+		tip = "点击空白处关闭"
 	}
 end)()
 
@@ -12383,8 +12615,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_plan_perform_title = {
-		tip = "行程安排"
+	_G.pg.base.gametip.blueprint_simulation_confirm_39906 = {
+		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型三联装150mm五式高平两用炮\n四联装610mm鱼雷\n100mm连装高炮\n</color></size>"
 	}
 end)()
 
@@ -12408,20 +12640,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dresscolorunlock_tips = {
-		tip = "解锁消耗"
+	_G.pg.base.gametip.island_combo_produced = {
+		tip = "制作"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_shipselect_confirm = {
-		tip = "确认"
+	_G.pg.base.gametip.island_manage_item_select = {
+		tip = "已选择食材"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_setmeal_title = {
-		tip = "套餐图鉴"
+	_G.pg.base.gametip.empty_tip_mailboxui_en = {
+		tip = "C O M M A N D E R ， N O   M A I L   H A S   B E E N   A C Q U I R E D   Y E T "
 	}
 end)()
 
@@ -12432,8 +12664,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.world_inventory_tip = {
-		tip = "重置后可转换的兑换券"
+	_G.pg.base.gametip.island_additional_production_tip2 = {
+		tip = "当前生产已结束，无法进行追加"
 	}
 end)()
 
@@ -12450,20 +12682,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_commontips_close = {
-		tip = "点击空白处关闭"
+	_G.pg.base.gametip.island_agora_no_size = {
+		tip = "剩余空间不足"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_39906 = {
-		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型三联装150mm五式高平两用炮\n四联装610mm鱼雷\n100mm连装高炮\n</color></size>"
+	_G.pg.base.gametip.tolovegame_buff_name_6 = {
+		tip = "时限超级upup！"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_no_interact_point = {
-		tip = "此处已被占用，暂时无法交互 "
+	_G.pg.base.gametip.island_dress_initial_makesure = {
+		tip = "确认"
 	}
 end)()
 
@@ -12474,14 +12706,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_combo_produced = {
-		tip = "制作"
+	_G.pg.base.gametip.dorm3d_dafeng_bed = {
+		tip = "卧室"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_item_select = {
-		tip = "已选择食材"
+	_G.pg.base.gametip.dorm3d_dafeng_chair = {
+		tip = "客厅"
 	}
 end)()
 
@@ -12510,8 +12742,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_dev_finish = {
-		tip = "已研发"
+	_G.pg.base.gametip.dorm3d_publicroom_unlock = {
+		tip = "请先解锁公共房间 "
 	}
 end)()
 
@@ -12546,8 +12778,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_additional_production_tip2 = {
-		tip = "当前生产已结束，无法进行追加"
+	_G.pg.base.gametip.charge_ship_bag_max = {
+		tip = "船坞已达最大扩展上限"
 	}
 end)()
 
@@ -12564,8 +12796,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_no_size = {
-		tip = "剩余空间不足"
+	_G.pg.base.gametip.island_card_no_label_tip = {
+		tip = "暂未获得岛屿评价标签"
 	}
 end)()
 
@@ -12582,8 +12814,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tolovegame_buff_name_6 = {
-		tip = "时限超级upup！"
+	_G.pg.base.gametip.ship_exchange_tip = {
+		tip = "1.角色退役可以获得荣誉勋章\n2.使用荣誉勋章可以在兑换系统雇佣新的角色\n3.兑换系统每天<color=#92fc63>6点</color>和<color=#92fc63>18点</color>刷新"
 	}
 end)()
 
@@ -12606,8 +12838,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dress_initial_makesure = {
-		tip = "确认"
+	_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
+		tip = "为了ar录像的使用，需要有权限访问相机、录音和媒体权限"
 	}
 end)()
 
@@ -12636,8 +12868,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_dafeng_bed = {
-		tip = "卧室"
+	_G.pg.base.gametip.vote_lable_not_start = {
+		tip = "未开启"
 	}
 end)()
 
@@ -12666,8 +12898,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_dafeng_chair = {
-		tip = "客厅"
+	_G.pg.base.gametip.ninja_game_ptcount = {
+		tip = "经济余额："
 	}
 end)()
 
@@ -12678,8 +12910,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_publicroom_unlock = {
-		tip = "请先解锁公共房间 "
+	_G.pg.base.gametip.ninja_game_update_failed = {
+		tip = "材料不足，请完成任务或者前往戍卫防线拾取材料"
 	}
 end)()
 
@@ -12690,14 +12922,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.map_event_memory_collected = {
-		tip = "隐藏剧情<color=#92fc63>$1</color>收集成功！"
+	_G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
+		tip = "航母"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_no_label_tip = {
-		tip = "暂未获得岛屿评价标签"
+	_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
+		tip = "暂未收藏任何邮件"
 	}
 end)()
 
@@ -12726,26 +12958,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_exchange_tip = {
-		tip = "1.角色退役可以获得荣誉勋章\n2.使用荣誉勋章可以在兑换系统雇佣新的角色\n3.兑换系统每天<color=#92fc63>6点</color>和<color=#92fc63>18点</color>刷新"
+	_G.pg.base.gametip.ninja_game_buffcost = {
+		tip = "到下级所需"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.apply_permission_record_audio_tip1 = {
-		tip = "为了ar录像的使用，需要有权限访问相机、录音和媒体权限"
+	_G.pg.base.gametip.ninja_game_buffeffect = {
+		tip = "当前效果"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.vote_lable_not_start = {
-		tip = "未开启"
+	_G.pg.base.gametip.ninja_game_income = {
+		tip = "经济收益："
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_ptcount = {
-		tip = "经济余额："
+	_G.pg.base.gametip.ninja_game_dps = {
+		tip = "每秒伤害："
 	}
 end)()
 
@@ -12762,26 +12994,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_update_failed = {
-		tip = "材料不足，请完成任务或者前往戍卫防线拾取材料"
+	_G.pg.base.gametip.ninja_game_allydmg = {
+		tip = "援军伤害："
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
-		tip = "航母"
+	_G.pg.base.gametip.ninja_game_citydmg = {
+		tip = "城防伤害："
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
-		tip = "暂未收藏任何邮件"
+	_G.pg.base.gametip.ninja_game_allycost = {
+		tip = "招募需消耗"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_buffcost = {
-		tip = "到下级所需"
+	_G.pg.base.gametip.world_task_goto0 = {
+		tip = "当前海域并非任务目标海域"
 	}
 end)()
 
@@ -12886,8 +13118,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_game_buffeffect = {
-		tip = "当前效果"
+	_G.pg.base.gametip.ninja_game_citylevel = {
+		tip = "城市修复阶段"
 	}
 end)()
 
@@ -12900,109 +13132,6 @@ end)()
 (function()
 	_G.pg.base.gametip.card_pairs_tips = {
 		tip = "再次进行游戏也无法获得任务道具了哟，是否开启新的一轮游戏？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninja_game_income = {
-		tip = "经济收益："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninja_game_dps = {
-		tip = "每秒伤害："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninja_game_allydmg = {
-		tip = "援军伤害："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninja_game_citydmg = {
-		tip = "城防伤害："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_new_gift = {
-		tip = "赠送"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninja_game_allycost = {
-		tip = "招募需消耗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_automode_title_2 = {
-		tip = "OPERATION"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2210 = {
-		tip = "2022.10.1-2022.11.30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「猎人·META」</color>在内的丰富奖励"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_discount_item_notice = {
-		tip = {
-			{
-				info = "说明："
-			},
-			{
-				info = "1.当仓库内有特定换装的换装体验券、换装抵扣券的有效期不足24小时时，会弹出道具即将超时的预告弹窗。"
-			},
-			{
-				info = "2.特定换装的换装体验券过期后将消失，特定换装的换装抵扣券过期后将兑换为指定数量的钻石。"
-			},
-			{
-				info = "3.各道具实际过期时间与详情请在道具描述中确认。"
-			}
-		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.charge_error = {
-		tip = "充值失败："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.juuschat_reddot_title = {
-		tip = "啾信功能"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_using = {
-		tip = "使用中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.airforce_desc_2 = {
-		tip = "歼-20战斗机搭载的相控阵雷达系统代表了当今航空电子技术的顶尖水平，采用了氮化镓有源相控阵雷达技术，有探测距离远、散热性能优越、多功能性强等诸多优点。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_morale_4 = {
-		tip = "※指令使用后，一段时间内无法使用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninja_game_citylevel = {
-		tip = "城市修复阶段"
 	}
 end)()
 
@@ -13044,14 +13173,117 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.commander_exp_limit = {
+		tip = "该指挥喵已达最大等级，无法添加指挥喵"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_new_gift = {
+		tip = "赠送"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_friend = {
+		tip = "好友"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_automode_title_2 = {
+		tip = "OPERATION"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2210 = {
+		tip = "2022.10.1-2022.11.30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「猎人·META」</color>在内的丰富奖励"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_discount_item_notice = {
+		tip = {
+			{
+				info = "说明："
+			},
+			{
+				info = "1.当仓库内有特定换装的换装体验券、换装抵扣券的有效期不足24小时时，会弹出道具即将超时的预告弹窗。"
+			},
+			{
+				info = "2.特定换装的换装体验券过期后将消失，特定换装的换装抵扣券过期后将兑换为指定数量的钻石。"
+			},
+			{
+				info = "3.各道具实际过期时间与详情请在道具描述中确认。"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.charge_error = {
+		tip = "充值失败："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_name_exist_special_word = {
+		tip = "岛屿名称不可含特殊字符，请重新输入"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_agora_using = {
+		tip = "使用中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.airforce_desc_2 = {
+		tip = "歼-20战斗机搭载的相控阵雷达系统代表了当今航空电子技术的顶尖水平，采用了氮化镓有源相控阵雷达技术，有探测距离远、散热性能优越、多功能性强等诸多优点。"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_morale_4 = {
+		tip = "※指令使用后，一段时间内无法使用"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.activity_return_reward_pt = {
+		tip = "集结积分："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.holiday_tip_task_now = {
+		tip = "当前目标"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_text_common_2 = {
+		tip = "警告：侦测到<color=#ffc038>战斗数据异常</color>，我方<color=#f1f102>特定装备与技能效果失效！</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.map_event_stop_story_tip = {
+		tip = "触发附近<color=#92fc63>剧情点</color>可解除禁止通行状态"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_japanese_2 = {
 		tip = "日文2"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_exp_limit = {
-		tip = "该指挥喵已达最大等级，无法添加指挥喵"
+	_G.pg.base.gametip.activity_ninjia_main_sheet1 = {
+		tip = "激战！忍者之城！"
 	}
 end)()
 
@@ -13068,8 +13300,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_code = {
-		tip = "访问码"
+	_G.pg.base.gametip.activity_ninjia_main_title_en = {
+		tip = "ACTIVITY"
 	}
 end)()
 
@@ -13092,8 +13324,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_name_exist_special_word = {
-		tip = "岛屿名称不可含特殊字符，请重新输入"
+	_G.pg.base.gametip.activity_ninjia_main_title = {
+		tip = "活动汇总"
 	}
 end)()
 
@@ -13104,8 +13336,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_return_reward_pt = {
-		tip = "集结积分："
+	_G.pg.base.gametip.daily_level_quick_battle_label1 = {
+		tip = "快速挑战<color=$2>$1</color>次"
 	}
 end)()
 
@@ -13116,8 +13348,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_tip_task_now = {
-		tip = "当前目标"
+	_G.pg.base.gametip.ninja_buff_effect9 = {
+		tip = "战备建筑\n伤害+$1%"
 	}
 end)()
 
@@ -13128,20 +13360,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_text_common_2 = {
-		tip = "警告：侦测到<color=#ffc038>战斗数据异常</color>，我方<color=#f1f102>特定装备与技能效果失效！</color>"
+	_G.pg.base.gametip.beach_guard_e4_desc = {
+		tip = "塞壬执行者，拥有出色的攻击力和生命值，但行动缓慢。"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.map_event_stop_story_tip = {
-		tip = "触发附近<color=#92fc63>剧情点</color>可解除禁止通行状态"
+	_G.pg.base.gametip.ninja_buff_effect7 = {
+		tip = "战备建筑\n造成伤害+$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_ninjia_main_sheet1 = {
-		tip = "激战！忍者之城！"
+	_G.pg.base.gametip.ninja_buff_effect6 = {
+		tip = "升级所需忍者金币\n消耗-$1%"
 	}
 end)()
 
@@ -13152,8 +13384,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_ninjia_main_title_en = {
-		tip = "ACTIVITY"
+	_G.pg.base.gametip.juuschat_reddot_title = {
+		tip = "啾信功能"
 	}
 end)()
 
@@ -13182,8 +13414,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.activity_ninjia_main_title = {
-		tip = "活动汇总"
+	_G.pg.base.gametip.ninja_buff_effect4 = {
+		tip = "忍者金币\n收益+$1%"
 	}
 end)()
 
@@ -13200,8 +13432,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.daily_level_quick_battle_label1 = {
-		tip = "快速挑战<color=$2>$1</color>次"
+	_G.pg.base.gametip.ninja_buff_effect3 = {
+		tip = "敌方\n血量-$1%"
 	}
 end)()
 
@@ -13218,14 +13450,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect9 = {
-		tip = "战备建筑\n伤害+$1%"
+	_G.pg.base.gametip.ninja_buff_effect2 = {
+		tip = "上阵角色\n伤害+$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.beach_guard_e4_desc = {
-		tip = "塞壬执行者，拥有出色的攻击力和生命值，但行动缓慢。"
+	_G.pg.base.gametip.ninja_buff_effect1 = {
+		tip = "上阵角色\n伤害+$1%"
 	}
 end)()
 
@@ -13242,14 +13474,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect7 = {
-		tip = "战备建筑\n造成伤害+$1"
+	_G.pg.base.gametip.ninja_buff_name10 = {
+		tip = "构筑城防"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect6 = {
-		tip = "升级所需忍者金币\n消耗-$1%"
+	_G.pg.base.gametip.ninja_buff_name9 = {
+		tip = "强化重橹"
 	}
 end)()
 
@@ -13266,8 +13498,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect4 = {
-		tip = "忍者金币\n收益+$1%"
+	_G.pg.base.gametip.msgbox_text_inconsume = {
+		tip = "不消耗"
 	}
 end)()
 
@@ -13306,14 +13538,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect3 = {
-		tip = "敌方\n血量-$1%"
+	_G.pg.base.gametip.ninja_buff_name4 = {
+		tip = "金钱滚滚"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect2 = {
-		tip = "上阵角色\n伤害+$1"
+	_G.pg.base.gametip.battle_levelScene_hard_lock = {
+		tip = "目标地图对应主线章节未通关，无法挑战。请通关<color=#92fc63>前置关卡</color>"
 	}
 end)()
 
@@ -13366,54 +13598,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ninja_buff_effect1 = {
-		tip = "上阵角色\n伤害+$1%"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninja_buff_name10 = {
-		tip = "构筑城防"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninja_buff_name9 = {
-		tip = "强化重橹"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_task_goto0 = {
-		tip = "当前海域并非任务目标海域"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.msgbox_text_inconsume = {
-		tip = "不消耗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ninja_buff_name4 = {
-		tip = "金钱滚滚"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battle_levelScene_hard_lock = {
-		tip = "目标地图对应主线章节未通关，无法挑战。请通关<color=#92fc63>前置关卡</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.level_chapter_state_risk = {
-		tip = "<color=#ffde38>【危险海域】</color>"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.ninja_buff_name2 = {
 		tip = "天下布武"
 	}
@@ -13422,18 +13606,6 @@ end)()
 (function()
 	_G.pg.base.gametip.ninja_buff_name1 = {
 		tip = "极限突破"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pt_count = {
-		tip = "$1："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blueprint_researching = {
-		tip = "研究进行中..."
 	}
 end)()
 
@@ -13462,14 +13634,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_index_shipType_quZhu = {
-		tip = "驱逐"
+	_G.pg.base.gametip.AR_plane_distance_near = {
+		tip = "距离过近角色将会隐藏"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.AR_plane_distance_near = {
-		tip = "距离过近角色将会隐藏"
+	_G.pg.base.gametip.level_chapter_state_risk = {
+		tip = "<color=#ffde38>【危险海域】</color>"
 	}
 end)()
 
@@ -13482,6 +13654,66 @@ end)()
 (function()
 	_G.pg.base.gametip.Outpost_20250904_Sidebar4 = {
 		tip = "作战准备"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pt_count = {
+		tip = "$1："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blueprint_researching = {
+		tip = "研究进行中..."
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_energy_low_desc = {
+		tip = "疲惫\n心情较低出击将减少好感度且获得经验减半"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_condition_antisub = {
+		tip = "反潜总值"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
+		tip = "辉光强度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
+		tip = "极高"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_index_shipType_quZhu = {
+		tip = "驱逐"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname1 = {
+		tip = "中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname0 = {
+		tip = "低"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
+		tip = "全局画质"
 	}
 end)()
 
@@ -13500,84 +13732,6 @@ end)()
 (function()
 	_G.pg.base.gametip.word_attacker = {
 		tip = "鱼雷机"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_energy_low_desc = {
-		tip = "疲惫\n心情较低出击将减少好感度且获得经验减半"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ranking_word_1 = {
-		tip = "综合实力"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_condition_antisub = {
-		tip = "反潜总值"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.area_anquan = {
-		tip = "安全海域"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.win_condition_display_tuoli_tip = {
-		tip = "成功到达脱离点，关卡攻略完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_bloom_intensity = {
-		tip = "辉光强度"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname3 = {
-		tip = "极高"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname1 = {
-		tip = "中"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_dectect_mode1x1 = {
-		tip = "切换到单块模式"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_global_illumination_optionname0 = {
-		tip = "低"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.grapihcs3d_setting_global_illumination = {
-		tip = "全局画质"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_nonew_calls = {
-		tip = "暂无新通话"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tec_target_catchup_selected_x = {
-		tip = "定向追赶:$1期/进行"
 	}
 end)()
 
@@ -13607,8 +13761,86 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.ranking_word_1 = {
+		tip = "综合实力"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip["3ddorm_beach_slide_tip7"] = {
 		tip = "沙滩滑梯"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.area_anquan = {
+		tip = "安全海域"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.win_condition_display_tuoli_tip = {
+		tip = "成功到达脱离点，关卡攻略完成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["3ddorm_beach_slide_tip6"] = {
+		tip = "当前邀请人数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["3ddorm_beach_slide_tip5"] = {
+		tip = "滑梯邀请"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["3ddorm_beach_slide_tip4"] = {
+		tip = "游玩选择"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_dectect_mode1x1 = {
+		tip = "切换到单块模式"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["3ddorm_beach_slide_tip3"] = {
+		tip = "滑梯"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["3ddorm_beach_slide_tip2"] = {
+		tip = "游玩中角色"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_privatechat_nonew_calls = {
+		tip = "暂无新通话"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tec_target_catchup_selected_x = {
+		tip = "定向追赶:$1期/进行"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["3ddorm_beach_slide_tip1"] = {
+		tip = "游玩滑梯"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.liner_log_event_title = {
+		tip = "·神秘事件调查"
 	}
 end)()
 
@@ -13635,8 +13867,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip6"] = {
-		tip = "当前邀请人数"
+	_G.pg.base.gametip.text_shop_enoughRes_tip = {
+		tip = "指挥官的物资已经补充齐全了喵！"
 	}
 end)()
 
@@ -13647,14 +13879,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip5"] = {
-		tip = "滑梯邀请"
+	_G.pg.base.gametip.island_3Dshop_lack_gem = {
+		tip = "钻石不足"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip4"] = {
-		tip = "游玩选择"
+	_G.pg.base.gametip.exercise_replace_rivals_question = {
+		tip = "是否花费<color=#92fc63>$1</color>钻石更换对手?"
 	}
 end)()
 
@@ -13701,8 +13933,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip3"] = {
-		tip = "滑梯"
+	_G.pg.base.gametip.island_3Dshop_bag_max = {
+		tip = "岛屿仓库已满"
 	}
 end)()
 
@@ -13725,8 +13957,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip2"] = {
-		tip = "游玩中角色"
+	_G.pg.base.gametip.island_3Dshop_buy_have = {
+		tip = "持有"
 	}
 end)()
 
@@ -13743,8 +13975,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip["3ddorm_beach_slide_tip1"] = {
-		tip = "游玩滑梯"
+	_G.pg.base.gametip.school_title_xiaoyouxiting = {
+		tip = "游戏屋"
 	}
 end)()
 
@@ -13755,8 +13987,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.liner_log_event_title = {
-		tip = "·神秘事件调查"
+	_G.pg.base.gametip.island_cancel_queue = {
+		tip = "取消拜访"
 	}
 end)()
 
@@ -13809,14 +14041,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.text_shop_enoughRes_tip = {
-		tip = "指挥官的物资已经补充齐全了喵！"
+	_G.pg.base.gametip.island_3Dshop_buy_tip0 = {
+		tip = "获得"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_lack_gem = {
-		tip = "钻石不足"
+	_G.pg.base.gametip.island_3Dshop_buy = {
+		tip = "购买"
 	}
 end)()
 
@@ -13833,14 +14065,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.exercise_replace_rivals_question = {
-		tip = "是否花费<color=#92fc63>$1</color>钻石更换对手?"
+	_G.pg.base.gametip.class_label_oilfield = {
+		tip = "石油生产"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_bag_max = {
-		tip = "岛屿仓库已满"
+	_G.pg.base.gametip.blackfriday_shop_tip = {
+		tip = "$1日$2时解锁"
 	}
 end)()
 
@@ -13875,20 +14107,84 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_buy_have = {
-		tip = "持有"
+	_G.pg.base.gametip.island_3Dshop_no_have = {
+		tip = "拥有数量($1)"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.school_title_xiaoyouxiting = {
-		tip = "游戏屋"
+	_G.pg.base.gametip.island_3Dshop_close = {
+		tip = "点击空白处关闭"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_own = {
-		tip = "持有：$1"
+	_G.pg.base.gametip.help_shipinfo_equip = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/strength",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/break",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/bullet",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/energy",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/maxlevel",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/levelup",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/fanqian",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/equip",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 8,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
@@ -13905,8 +14201,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_buy_tip0 = {
-		tip = "获得"
+	_G.pg.base.gametip.island_3Dshop_time_unlock = {
+		tip = "剩余$1解锁"
 	}
 end)()
 
@@ -13917,8 +14213,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_buy = {
-		tip = "购买"
+	_G.pg.base.gametip.levelscene_airexpel_cancel = {
+		tip = "取消驱逐"
 	}
 end)()
 
@@ -13953,8 +14249,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.class_label_oilfield = {
-		tip = "石油生产"
+	_G.pg.base.gametip.meta_shop_tip = {
+		tip = "结晶商品可兑换次数随已获得结晶数量变化"
 	}
 end)()
 
@@ -14041,8 +14337,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blackfriday_shop_tip = {
-		tip = "$1日$2时解锁"
+	_G.pg.base.gametip.island_agora_label_capacity = {
+		tip = "容量"
 	}
 end)()
 
@@ -14059,8 +14355,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_no_have = {
-		tip = "拥有数量($1)"
+	_G.pg.base.gametip.island_3Dshop_time_close = {
+		tip = "商店剩余$1关闭"
 	}
 end)()
 
@@ -14071,8 +14367,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_close = {
-		tip = "点击空白处关闭"
+	_G.pg.base.gametip.island_3Dshop_res_have = {
+		tip = "该资源最大持有数："
 	}
 end)()
 
@@ -14093,72 +14389,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.help_shipinfo_equip = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/strength",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/break",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/bullet",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/energy",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/maxlevel",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/levelup",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/fanqian",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/equip",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 8,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.island_3Dshop_chara_choose = {
+		tip = "选择角色"
 	}
 end)()
 
@@ -14169,8 +14401,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_time_unlock = {
-		tip = "剩余$1解锁"
+	_G.pg.base.gametip.island_sign_text = {
+		tip = "- 岛屿开发之星 -"
 	}
 end)()
 
@@ -14242,48 +14474,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelscene_airexpel_cancel = {
-		tip = "取消驱逐"
+	_G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
+		tip = "勋章数量不足"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_shop_tip = {
-		tip = "结晶商品可兑换次数随已获得结晶数量变化"
+	_G.pg.base.gametip.island_guide_lock_desc = {
+		tip = "未解锁"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.NewMusic_help = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/music_help",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.island_guide_do_active = {
+		tip = "解锁"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_time_close = {
-		tip = "商店剩余$1关闭"
+	_G.pg.base.gametip.island_book_award_title = {
+		tip = "奖励详情"
 	}
 end)()
 
@@ -14330,8 +14540,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_res_have = {
-		tip = "该资源最大持有数："
+	_G.pg.base.gametip.island_book_collection_award_title = {
+		tip = "收藏等级奖励-Lv$1"
 	}
 end)()
 
@@ -14366,14 +14576,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_3Dshop_chara_choose = {
-		tip = "选择角色"
+	_G.pg.base.gametip.island_get_collect_point_success = {
+		tip = "获得$1收集点"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_sign_text = {
-		tip = "- 岛屿开发之星 -"
+	_G.pg.base.gametip.island_guide_collectionpoint = {
+		tip = "领取收集点"
 	}
 end)()
 
@@ -14408,8 +14618,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
-		tip = "勋章数量不足"
+	_G.pg.base.gametip.island_guide_item = {
+		tip = "资材"
 	}
 end)()
 
@@ -14420,20 +14630,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_lock_desc = {
-		tip = "未解锁"
+	_G.pg.base.gametip.mini_game_leave = {
+		tip = "是否退出游戏?"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_do_active = {
-		tip = "解锁"
+	_G.pg.base.gametip.island_guide_npc = {
+		tip = "岛屿开发团队"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_book_award_title = {
-		tip = "奖励详情"
+	_G.pg.base.gametip.island_guide_character_en = {
+		tip = "CHARACTER"
 	}
 end)()
 
@@ -14456,8 +14666,12 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_book_collection_award_title = {
-		tip = "收藏等级奖励-Lv$1"
+	_G.pg.base.gametip.dream_land_tip = {
+		tip = {
+			{
+				info = "活动规则：\n·<color=#92fc63>9.12-10.2</color>期间开启限时活动「梦幻乐园的梦幻假日」\n·随剧情解锁梦幻乐园的各个区域，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励\n·梦幻乐园各区域地图上均有可交互的探索点。指挥官在享受梦幻假日的同时，可通过留意地图上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>乐园手册</color>中的探索指引，进行梦幻乐园探索，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励\n·部分探索仅在特殊时间内触发，在完成「梦幻乐园的梦幻假日」全部剧情后，可以通过<color=#92fc63>时间转换</color>调整梦幻乐园时间\n·邀请角色进入安眠梦境，加快心情回复。安眠梦境随梦幻乐园区域解锁扩展"
+			}
+		}
 	}
 end)()
 
@@ -14490,8 +14704,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_get_collect_point_success = {
-		tip = "获得$1收集点"
+	_G.pg.base.gametip.island_guide_character_help = {
+		tip = "信息"
 	}
 end)()
 
@@ -14556,68 +14770,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guide_collectionpoint = {
-		tip = "领取收集点"
+	_G.pg.base.gametip.island_guide_help_item = {
+		tip = "积累收集点可以提升收藏等级，并解锁对应的收藏奖励。\n达成以下条件可以领取资材收集点：\n\n1.<color=#39bfff>获取</color>资材：每种资材解锁后可领取<color=#39bfff>20</color>收集点\n2.<color=#39bfff>累计获取某种资材达到一定数量</color>：获取某种资材的数量达到奖励阶段的目标数量后可领取收集点，每种资材都有各自的奖励阶段及其对应的目标数量，可在图鉴中查看"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.child_target_set_skip = {
 		tip = "点击跳转至<color=#39BFFF>目标设定</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_guide_item = {
-		tip = "资材"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mini_game_leave = {
-		tip = "是否退出游戏?"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_guide_npc = {
-		tip = "岛屿开发团队"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_guide_character_en = {
-		tip = "CHARACTER"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_season_charts = {
-		tip = "开发排行榜"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_skin_original_desc = {
-		tip = "默认"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_sell_ended = {
-		tip = "不可购买"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_label_tile = {
-		tip = "地饰"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.resource_max_tip_retire = {
-		tip = "无法退役"
 	}
 end)()
 
@@ -14646,26 +14806,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_save_ok = {
-		tip = "保存成功，请至相册查看"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_exp_per_day = {
-		tip = "每日经验"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_ticket_expired_day = {
 		tip = "到期时间：$1天"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_stronghold_4 = {
-		tip = "收集度"
+	_G.pg.base.gametip.island_skin_original_desc = {
+		tip = "默认"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.shop_sell_ended = {
+		tip = "不可购买"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_agora_label_tile = {
+		tip = "地饰"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.resource_max_tip_retire = {
+		tip = "无法退役"
 	}
 end)()
 
@@ -14688,68 +14854,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_invite_confirm_free = {
-		tip = "$1<color=#fc4670><size=34>免费</size></color>(原价$2)解锁<color=#39bfff>$3</color>的$4邀约"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.tolovegame_puzzle_finished = {
-		tip = "已完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_settings_unlock_ship = {
-		tip = "解锁角色"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_task_title = {
-		tip = "开发区计划"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_ticket_expiration_tip2 = {
 		tip = "以下加速券已过期"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_prosperity_level_display = {
-		tip = "小岛当前繁荣度：$1"
+	_G.pg.base.gametip.word_save_ok = {
+		tip = "保存成功，请至相册查看"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_exp_per_day = {
+		tip = "每日经验"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.eva_count_limit = {
 		tip = "已达到每日评论数量上限"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_input_code_tip_1 = {
-		tip = "输入访问码"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.change_skin_secretary_ship = {
-		tip = "更换同时设为秘书舰"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior12 = {
-		tip = "睡觉 "
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail_oil_res = {
-		tip = "石油"
 	}
 end)()
 
@@ -14778,14 +14902,104 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_kick = {
-		tip = "请离"
+	_G.pg.base.gametip.dorm3d_invite_confirm_free = {
+		tip = "$1<color=#fc4670><size=34>免费</size></color>(原价$2)解锁<color=#39bfff>$3</color>的$4邀约"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.tolovegame_puzzle_finished = {
+		tip = "已完成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.words_settings_unlock_ship = {
+		tip = "解锁角色"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_task_title = {
+		tip = "开发区计划"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_visitor_num = {
+		tip = "当前人数："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_prosperity_level_display = {
+		tip = "小岛当前繁荣度：$1"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.archives_whether_to_retreat = {
 		tip = "真的要<color=#92fc63>撤退</color>吗?\n（撤退不返还档案密钥）"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_input_code_tip_1 = {
+		tip = "输入访问码"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.change_skin_secretary_ship = {
+		tip = "更换同时设为秘书舰"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior12 = {
+		tip = "睡觉 "
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.mail_oil_res = {
+		tip = "石油"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ticket_auto_select = {
+		tip = "自动选择"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_result_dead_score = {
+		tip = "我方阵亡*$1："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_freight_btn_idle = {
+		tip = "待运输"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_stronghold_7 = {
+		tip = "制作完成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_freight_btn_locked = {
+		tip = "未解锁"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_draw_tip4 = {
+		tip = "钻石不足，是否前往购买"
 	}
 end)()
 
@@ -14802,8 +15016,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ticket_auto_select = {
-		tip = "自动选择"
+	_G.pg.base.gametip.shop_new_wear = {
+		tip = "穿戴"
 	}
 end)()
 
@@ -14820,8 +15034,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_dead_score = {
-		tip = "我方阵亡*$1："
+	_G.pg.base.gametip.commandercat_label_display_name = {
+		tip = "自定义名称"
 	}
 end)()
 
@@ -14868,54 +15082,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_freight_btn_idle = {
-		tip = "待运输"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.blackfriday_pack_select_skinall = {
-		tip = "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将转为抵扣券！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.yumia_stronghold_7 = {
-		tip = "制作完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_freight_btn_locked = {
-		tip = "未解锁"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_draw_tip4 = {
-		tip = "钻石不足，是否前往购买"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shop_new_wear = {
-		tip = "穿戴"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commandercat_label_display_name = {
-		tip = "自定义名称"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.help_summer_stamp = {
 		tip = {
 			{
 				info = "通过游戏券参与射击游戏、烟花工坊、祭典美食三种\n小游戏获得的印花会显示在印花手册中\n当集齐14枚印花后点击左侧领取按钮可以获得天后限定换\n装"
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.blackfriday_pack_select_skinall = {
+		tip = "促销换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将转为抵扣券！"
 	}
 end)()
 
@@ -14944,26 +15122,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.skinshop_live2d_fliter_failed = {
-		tip = "当前没有匹配换装可筛选"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_draw_S = {
 		tip = "S奖"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_day4 = {
-		tip = "周四"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_filter_type3 = {
-		tip = "消耗类型"
 	}
 end)()
 
@@ -14980,41 +15140,41 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cattery_op_feed_success = {
-		tip = "喂食成功"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_draw_time_1 = {
 		tip = "维护"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_help_commission = {
+	_G.pg.base.gametip.island_help_ship_order = {
 		tip = {
 			{
 				icon = {
-					atlas = "helpbg/island_help_commission1",
+					atlas = "helpbg/island_help_ship_order1",
 					path = ""
 				}
 			},
 			{
 				icon = {
-					atlas = "helpbg/island_help_commission2",
+					atlas = "helpbg/island_help_ship_order2",
 					path = ""
 				}
 			},
 			{
 				icon = {
-					atlas = "helpbg/island_help_commission3",
+					atlas = "helpbg/island_help_ship_order3",
 					path = ""
 				}
 			},
 			{
 				icon = {
-					atlas = "helpbg/island_help_commission4",
+					atlas = "helpbg/island_help_ship_order4",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_ship_order5",
 					path = ""
 				}
 			},
@@ -15038,26 +15198,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_count_2 = {
-		tip = "<color=$1>$2个</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.senran_pt_consume_tip = {
-		tip = "是否消耗<icon name=renzhinan_pt w=0.6 h=0.6/><color=#3fbe0d>$1</color>提升属性至<color=#3fbe0d>Lv.$2</color>?"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
 		tip = "$1的即兴舞蹈"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_exit = {
-		tip = "退 出"
+	_G.pg.base.gametip.skinshop_live2d_fliter_failed = {
+		tip = "当前没有匹配换装可筛选"
 	}
 end)()
 
@@ -15068,14 +15216,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_main_tip_5 = {
-		tip = "活动汇总"
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_day4 = {
+		tip = "周四"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.text_apply = {
-		tip = "申 请"
+	_G.pg.base.gametip.child_filter_type3 = {
+		tip = "消耗类型"
 	}
 end)()
 
@@ -15092,14 +15240,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_follow_btn_State_disable = {
-		tip = "占用中"
+	_G.pg.base.gametip.cattery_op_feed_success = {
+		tip = "喂食成功"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_reset_talent_tip = {
-		tip = "是否确定重置天赋?"
+	_G.pg.base.gametip.island_follow_btn_State_disable = {
+		tip = "占用中"
 	}
 end)()
 
@@ -15110,14 +15258,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_attribute_develop = {
-		tip = "能力提升"
+	_G.pg.base.gametip.word_count_2 = {
+		tip = "<color=$1>$2个</color>"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_charts_refresh = {
-		tip = "*开发排名每半小时更新一次"
+	_G.pg.base.gametip.senran_pt_consume_tip = {
+		tip = "是否消耗<icon name=renzhinan_pt w=0.6 h=0.6/><color=#3fbe0d>$1</color>提升属性至<color=#3fbe0d>Lv.$2</color>?"
 	}
 end)()
 
@@ -15128,14 +15276,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_exchange_question = {
-		tip = "是否花费<color=#92fc63>$1</color>个勋章兑换<color=#92fc63>$2</color>"
+	_G.pg.base.gametip.msgbox_text_exit = {
+		tip = "退 出"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_cancel_follow_tip = {
 		tip = "所选角色正在跟随中，是否取消跟随？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.yumia_main_tip_5 = {
+		tip = "活动汇总"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.text_apply = {
+		tip = "申 请"
 	}
 end)()
 
@@ -15152,14 +15312,74 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_spoperation_item_2509_4 = {
+		tip = "松茸"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_reset_talent_tip = {
+		tip = "是否确定重置天赋?"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.elite_condition_antiaircraft = {
+		tip = "防空总值"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_chara_attribute_develop = {
+		tip = "能力提升"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_charts_refresh = {
+		tip = "*开发排名每半小时更新一次"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_spoperation_item_2509_2 = {
+		tip = "芦苇花"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_exchange_question = {
+		tip = "是否花费<color=#92fc63>$1</color>个勋章兑换<color=#92fc63>$2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.msgbox_text_shop = {
+		tip = "商 店"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_spoperation_btn_2509_3 = {
+		tip = "活动管理员"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_spoperation_btn_2509_2 = {
+		tip = "特产采集"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_status_inTactics = {
 		tip = "进修中"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_item_2509_4 = {
-		tip = "松茸"
+	_G.pg.base.gametip.island_spoperation_btn_2509_1 = {
+		tip = "特产制作"
 	}
 end)()
 
@@ -15188,8 +15408,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.elite_condition_antiaircraft = {
-		tip = "防空总值"
+	_G.pg.base.gametip.island_spoperation_tip_2509_3 = {
+		tip = "活动期间，在【坠香果园】【有鱼餐馆】【白熊饮品】【手工制作设备】中可生产对应特产"
 	}
 end)()
 
@@ -15222,8 +15442,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_item_2509_2 = {
-		tip = "芦苇花"
+	_G.pg.base.gametip.island_spoperation_tip_2509_2 = {
+		tip = "活动期间，岛屿特定区域中每天都会生长出新的活动采集物，快去寻找吧！"
 	}
 end)()
 
@@ -15234,8 +15454,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_shop = {
-		tip = "商 店"
+	_G.pg.base.gametip.settings_battle_Btn_edit = {
+		tip = "编 辑"
 	}
 end)()
 
@@ -15246,20 +15466,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_btn_2509_3 = {
-		tip = "活动管理员"
+	_G.pg.base.gametip.island_no_activity = {
+		tip = "暂无活动"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_btn_2509_2 = {
-		tip = "特产采集"
+	_G.pg.base.gametip.island_activity_decorative_word = {
+		tip = "SPECIAL EVENT"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_btn_2509_1 = {
-		tip = "特产制作"
+	_G.pg.base.gametip.shipyard_favorability_max = {
+		tip = "好感度已达当前上限。"
 	}
 end)()
 
@@ -15372,8 +15592,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_tip_2509_3 = {
-		tip = "活动期间，在【坠香果园】【有鱼餐馆】【白熊饮品】【手工制作设备】中可生产对应特产"
+	_G.pg.base.gametip.msgbox_text_noPos_clear = {
+		tip = "整 理"
 	}
 end)()
 
@@ -15384,74 +15604,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_spoperation_tip_2509_2 = {
-		tip = "活动期间，岛屿特定区域中每天都会生长出新的活动采集物，快去寻找吧！"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.settings_battle_Btn_edit = {
-		tip = "编 辑"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.exit_backyard_exp_display = {
-		tip = "$1通过训练获得了$2经验"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_no_activity = {
-		tip = "暂无活动"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_activity_decorative_word = {
-		tip = "SPECIAL EVENT"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.shipyard_favorability_max = {
-		tip = "好感度已达当前上限。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.meta_energy_preview_tip = {
-		tip = "*不包含好感度及誓约等额外加成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ryza_task_tag_daily = {
-		tip = "每日"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.battlepass_main_tip_2408 = {
-		tip = "2024/8/1-2024/9/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「蕸·META」</color>在内的丰富奖励"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.shipyard_favorability_exceed = {
 		tip = "好感度将溢出，确认继续吗？"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.world_port_inbattle = {
-		tip = "当前舰队正在行动中，无法进入港口"
+	_G.pg.base.gametip.shipyard_gift_non_existent = {
+		tip = "没有可赠送的礼物。"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shipyard_gift_non_existent = {
-		tip = "没有可赠送的礼物。"
+	_G.pg.base.gametip.exit_backyard_exp_display = {
+		tip = "$1通过训练获得了$2经验"
 	}
 end)()
 
@@ -15468,18 +15634,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.other_world_task_got = {
-		tip = "已领取"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.couplete_task = {
-		tip = "指挥官，完成任务可以解锁对联哦~"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.ship_gift = {
 		tip = "礼物赠送"
 	}
@@ -15492,14 +15646,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.pass_times = {
-		tip = "通关次数"
+	_G.pg.base.gametip.ryza_task_tag_daily = {
+		tip = "每日"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battlepass_main_tip_2408 = {
+		tip = "2024/8/1-2024/9/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「蕸·META」</color>在内的丰富奖励"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_repeat_blacklist = {
 		tip = "该玩家已在黑名单中"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_port_inbattle = {
+		tip = "当前舰队正在行动中，无法进入港口"
 	}
 end)()
 
@@ -15522,8 +15688,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.workbench_tips1 = {
-		tip = "制作次数已用完"
+	_G.pg.base.gametip.other_world_task_got = {
+		tip = "已领取"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.couplete_task = {
+		tip = "指挥官，完成任务可以解锁对联哦~"
 	}
 end)()
 
@@ -15536,6 +15708,54 @@ end)()
 (function()
 	_G.pg.base.gametip.island_card_label_done = {
 		tip = "本周已评价~"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.pass_times = {
+		tip = "通关次数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_card_like_done = {
+		tip = "今日已点赞~"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_card_choose_label = {
+		tip = "已选择：$1/$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_card_choose_achievement = {
+		tip = "已选择：$1/4"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_card_label_list = {
+		tip = "岛屿评价标签"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.workbench_tips1 = {
+		tip = "制作次数已用完"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_lock = {
+		tip = "未解锁"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_card_choose_photo = {
+		tip = "岛屿形象选择"
 	}
 end)()
 
@@ -15558,8 +15778,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_like_done = {
-		tip = "今日已点赞~"
+	_G.pg.base.gametip.island_card_close = {
+		tip = "点击屏幕任意空白处关闭"
 	}
 end)()
 
@@ -15570,8 +15790,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_choose_label = {
-		tip = "已选择：$1/$2"
+	_G.pg.base.gametip.island_card_default_word = {
+		tip = "欢迎来到岛屿开发区~"
 	}
 end)()
 
@@ -15588,14 +15808,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_choose_achievement = {
-		tip = "已选择：$1/4"
+	_G.pg.base.gametip.island_card_edit_word = {
+		tip = "修改签名"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_label_list = {
-		tip = "岛屿评价标签"
+	_G.pg.base.gametip.island_achv_finish_tip = {
+		tip = "成就：【$1】已达成"
 	}
 end)()
 
@@ -15616,20 +15836,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_lock = {
-		tip = "未解锁"
+	_G.pg.base.gametip.cryptolalia_unopen = {
+		tip = "暂未开放"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_choose_photo = {
-		tip = "岛屿形象选择"
+	_G.pg.base.gametip.island_achievement_title = {
+		tip = "岛屿成就"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_close = {
-		tip = "点击屏幕任意空白处关闭"
+	_G.pg.base.gametip.multiple_sorties_end_status = {
+		tip = "计划出击<color=#92fc63>$1</color>次，实际完成出击<color=#92fc63>$2</color>次。"
 	}
 end)()
 
@@ -15652,8 +15872,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_default_word = {
-		tip = "欢迎来到岛屿开发区~"
+	_G.pg.base.gametip.equipcode_slot_unmatch = {
+		tip = "装备码对应了当前角色无法使用的装备"
 	}
 end)()
 
@@ -15664,8 +15884,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_card_edit_word = {
-		tip = "修改签名"
+	_G.pg.base.gametip.island_production_speed_addition3 = {
+		tip = "增益效果"
 	}
 end)()
 
@@ -15736,20 +15956,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_achv_finish_tip = {
-		tip = "成就：【$1】已达成"
+	_G.pg.base.gametip.island_production_speed_addition1 = {
+		tip = "<color=#39bfff>$1</color>能力"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cryptolalia_unopen = {
-		tip = "暂未开放"
+	_G.pg.base.gametip.island_production_tip = {
+		tip = "/次"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_achievement_title = {
-		tip = "岛屿成就"
+	_G.pg.base.gametip.island_production_seeds_empty = {
+		tip = "未拥有种子，请前往商店购买"
 	}
 end)()
 
@@ -15812,8 +16032,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.multiple_sorties_end_status = {
-		tip = "计划出击<color=#92fc63>$1</color>次，实际完成出击<color=#92fc63>$2</color>次。"
+	_G.pg.base.gametip.autofight_rewards_none = {
+		tip = "本次作战未获得奖励"
 	}
 end)()
 
@@ -15824,8 +16044,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_seeds_empty = {
-		tip = "未拥有种子，请前往商店购买"
+	_G.pg.base.gametip.island_production_harvestable = {
+		tip = "可收获"
 	}
 end)()
 
@@ -15842,24 +16062,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.autofight_rewards_none = {
-		tip = "本次作战未获得奖励"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_production_harvestable = {
-		tip = "可收获"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.quota_shop_description = {
-		tip = "可兑换部分活动限定奖励，兑换不可超过<color=#fd8a62>持有上限</color>"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_production_manually_cancel = {
 		tip = "当前已在种植中，是否确认移除作物并进行委派种植？"
 	}
@@ -15872,8 +16074,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_tech_change_log = {
-		tip = "[$1] $2 将科技研发切换为$3"
+	_G.pg.base.gametip.quota_shop_description = {
+		tip = "可兑换部分活动限定奖励，兑换不可超过<color=#fd8a62>持有上限</color>"
 	}
 end)()
 
@@ -15884,26 +16086,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.draw_little_luck_2 = {
-		tip = "努力和运气都是很重要的喵～"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_production_log_recover = {
 		tip = "采集次数已耗尽，恢复时间：$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.empty_tip_mailboxui_en = {
-		tip = "C O M M A N D E R ， N O   M A I L   H A S   B E E N   A C Q U I R E D   Y E T "
+	_G.pg.base.gametip.guild_tech_change_log = {
+		tip = "[$1] $2 将科技研发切换为$3"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_preference_non = {
-		tip = "已将<color=#92fc63>$1</color>取消常用"
+	_G.pg.base.gametip.island_tech_unlock_dev = {
+		tip = "解锁研发"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.draw_little_luck_2 = {
+		tip = "努力和运气都是很重要的喵～"
 	}
 end)()
 
@@ -15914,20 +16116,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_propose_changename_tip1 = {
-		tip = "显示自定角色名称(可在设置中更改)"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_production_selected_tip1 = {
 		tip = "暂无符合条件的角色"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_package_sort_2 = {
-		tip = "等级礼包"
+	_G.pg.base.gametip.ship_preference_non = {
+		tip = "已将<color=#92fc63>$1</color>取消常用"
 	}
 end)()
 
@@ -15938,8 +16134,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ins_word_like = {
-		tip = "$1 次赞"
+	_G.pg.base.gametip.word_propose_changename_tip1 = {
+		tip = "显示自定角色名称(可在设置中更改)"
 	}
 end)()
 
@@ -15950,8 +16146,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.shop_package_sort_2 = {
+		tip = "等级礼包"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.skin_discount_item_repeat_remind_label = {
 		tip = "今日不再提示"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ins_word_like = {
+		tip = "$1 次赞"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_production_finish = {
+		tip = "本轮委派已完成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_attrName_1 = {
+		tip = "种植"
 	}
 end)()
 
@@ -16002,24 +16222,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_production_finish = {
-		tip = "本轮委派已完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_ship_attrName_3 = {
-		tip = "养护"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mini_game_time = {
-		tip = "倒计时:"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.cryptolalia_download_done = {
 		tip = "下载完成"
 	}
@@ -16032,8 +16234,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.mini_game_time = {
+		tip = "倒计时:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.yumia_atelier_tip9 = {
 		tip = "返回配方列表"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_post_operate = {
+		tip = "经营"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_click_to_close = {
+		tip = "点击空白关闭"
 	}
 end)()
 
@@ -16050,8 +16270,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_post_operate = {
-		tip = "经营"
+	_G.pg.base.gametip.search_sp_equipment = {
+		tip = "搜索特殊兵装名"
 	}
 end)()
 
@@ -16068,14 +16288,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_click_to_close = {
-		tip = "点击空白关闭"
+	_G.pg.base.gametip.island_request = {
+		tip = "申请"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.read_the_user_agreement = {
-		tip = "请先阅读完用户协议"
+	_G.pg.base.gametip.challenge_rule = {
+		tip = {
+			{
+				info = "挑战模式规则\n\n玩家仅能编成一名前排角色进行挑战\n仅有前排角色会受到伤害，当前排角色被击沉时，挑战失败\n后排角色中，不能出现两名以上相同定位的角色\n*战列、战巡视为相同定位的角色\n*正航、轻航视为相同定位的角色\n挑战模式不消耗石油与角色心情，不限制挑战次数\n中途退出战斗会结束本次挑战\n\n挑战模式编队的战斗力会影响最终得分\n编队战斗力越低，同条件下获得的分数越高\n调节作战难度会影响最终积分：\n等级限制：影响关卡敌方等级\n受伤倍率：增加受到的伤害"
+			}
+		}
 	}
 end)()
 
@@ -16092,8 +16316,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_request = {
-		tip = "申请"
+	_G.pg.base.gametip.guild_new_member_get_award_tip = {
+		tip = "新成员进入大舰队当日无法领取大舰队补给"
 	}
 end)()
 
@@ -16122,12 +16346,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.challenge_rule = {
-		tip = {
-			{
-				info = "挑战模式规则\n\n玩家仅能编成一名前排角色进行挑战\n仅有前排角色会受到伤害，当前排角色被击沉时，挑战失败\n后排角色中，不能出现两名以上相同定位的角色\n*战列、战巡视为相同定位的角色\n*正航、轻航视为相同定位的角色\n挑战模式不消耗石油与角色心情，不限制挑战次数\n中途退出战斗会结束本次挑战\n\n挑战模式编队的战斗力会影响最终得分\n编队战斗力越低，同条件下获得的分数越高\n调节作战难度会影响最终积分：\n等级限制：影响关卡敌方等级\n受伤倍率：增加受到的伤害"
-			}
-		}
+	_G.pg.base.gametip.island_friend_add = {
+		tip = "添加"
 	}
 end)()
 
@@ -16148,14 +16368,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_new_member_get_award_tip = {
-		tip = "新成员进入大舰队当日无法领取大舰队补给"
+	_G.pg.base.gametip.island_submit_order_cd_tip = {
+		tip = "$1后可以交付"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_friend_add = {
-		tip = "添加"
+	_G.pg.base.gametip.word_which_month = {
+		tip = "第$1月"
 	}
 end)()
 
@@ -16166,8 +16386,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_submit_order_cd_tip = {
-		tip = "$1后可以交付"
+	_G.pg.base.gametip.dorm3d_shop_gift1 = {
+		tip = "礼物"
 	}
 end)()
 
@@ -16190,24 +16410,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_which_month = {
-		tip = "第$1月"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_gift1 = {
-		tip = "礼物"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.npc_breakout_tip = {
-		tip = "临时角色离开港区时，突破/强化所消耗的物资、材料无法返还，是否确认突破?"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_tech_unlock_tip3 = {
 		tip = "研发完成：$1"
 	}
@@ -16220,14 +16422,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Supplement_pay6 = {
-		tip = "购买时间："
+	_G.pg.base.gametip.npc_breakout_tip = {
+		tip = "临时角色离开港区时，突破/强化所消耗的物资、材料无法返还，是否确认突破?"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_tech_unlock_tip1 = {
 		tip = "完成计划：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_tech_unlock_tip0 = {
+		tip = "岛屿开发等级：$1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.Supplement_pay6 = {
+		tip = "购买时间："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_tech_unlock_tip = {
+		tip = "未满足所需等级&道具条件"
 	}
 end)()
 
@@ -16268,20 +16488,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_tip0 = {
-		tip = "岛屿开发等级：$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_tech_unlock_tip = {
-		tip = "未满足所需等级&道具条件"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_visit_on = {
 		tip = "开启"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_visit_off = {
+		tip = "关闭"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_tech_can_get = {
+		tip = "可领取"
 	}
 end)()
 
@@ -16320,8 +16540,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_off = {
-		tip = "关闭"
+	_G.pg.base.gametip.island_tech_nodev = {
+		tip = "无研发"
 	}
 end)()
 
@@ -16338,8 +16558,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_can_get = {
-		tip = "可领取"
+	_G.pg.base.gametip.island_tech_detail_unlocktitle = {
+		tip = "解锁条件"
 	}
 end)()
 
@@ -16356,14 +16576,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_nodev = {
-		tip = "无研发"
+	_G.pg.base.gametip.island_tech_detail_desctitle = {
+		tip = "科技成果"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_detail_unlocktitle = {
-		tip = "解锁条件"
+	_G.pg.base.gametip.island_tech_dev_cost = {
+		tip = "科研消耗"
 	}
 end)()
 
@@ -16374,8 +16594,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_detail_desctitle = {
-		tip = "科技成果"
+	_G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
+		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n四联装380mm主炮Mle1935\n三联装152mm主炮Mle1930\n双联37mm高射炮Mle1936\n</color></size>"
 	}
 end)()
 
@@ -16386,8 +16606,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_dev_cost = {
-		tip = "科研消耗"
+	_G.pg.base.gametip.island_tech_dev_finish = {
+		tip = "已研发"
 	}
 end)()
 
@@ -16404,8 +16624,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
-		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n四联装380mm主炮Mle1935\n三联装152mm主炮Mle1930\n双联37mm高射炮Mle1936\n</color></size>"
+	_G.pg.base.gametip.island_tech_dev_success = {
+		tip = "研发完成"
 	}
 end)()
 
@@ -16440,8 +16660,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_dev_success = {
-		tip = "研发完成"
+	_G.pg.base.gametip.island_tech_dev_start = {
+		tip = "开始研发"
 	}
 end)()
 
@@ -16452,14 +16672,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_dev_start = {
-		tip = "开始研发"
+	_G.pg.base.gametip.island_tech_unlock_need = {
+		tip = "科技研发条件"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_dev = {
-		tip = "解锁研发"
+	_G.pg.base.gametip.island_tech_noauthority = {
+		tip = "权限未解锁"
 	}
 end)()
 
@@ -16488,20 +16708,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_tech_unlock_need = {
-		tip = "科技研发条件"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_tech_noauthority = {
-		tip = "权限未解锁"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_technology_title = {
 		tip = "岛屿科技"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_invite_title = {
+		tip = "岛屿权限认证装置"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_dev_level_tip = {
+		tip = "提升岛屿开发等级将会同步提高中枢权限等级，解锁更多岛屿科技的研发许可。"
 	}
 end)()
 
@@ -16518,8 +16738,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_invite_title = {
-		tip = "岛屿权限认证装置"
+	_G.pg.base.gametip.child_attr_name1 = {
+		tip = "属性"
 	}
 end)()
 
@@ -16530,26 +16750,26 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_dev_level_tip = {
-		tip = "提升岛屿开发等级将会同步提高中枢权限等级，解锁更多岛屿科技的研发许可。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.child_attr_name1 = {
-		tip = "属性"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_bag_max_level = {
-		tip = "已是最大等级"
+	_G.pg.base.gametip.island_order_cant_replace = {
+		tip = "当前不可替换"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_task_tracking = {
 		tip = "追踪"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.skin_exchange_confirm = {
+		tip = "是否使用 <color=#92fc63>$1 *1</color> 兑换 <color=#92fc63>$2</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_remould_warning_520014 = {
+		tip = "此次改造操作后舰艇类型变化为：\n导弹驱逐舰（先锋舰队模式）\n舰船数值及特性将有部分调整\n是否确认继续操作？"
 	}
 end)()
 
@@ -16562,36 +16782,6 @@ end)()
 (function()
 	_G.pg.base.gametip.index_not_lvmax = {
 		tip = "未满级"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.skin_exchange_confirm = {
-		tip = "是否使用 <color=#92fc63>$1 *1</color> 兑换 <color=#92fc63>$2</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.volleyball_end_award = {
-		tip = "精力-1，$1契合度+40"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_remould_warning_520014 = {
-		tip = "此次改造操作后舰艇类型变化为：\n导弹驱逐舰（先锋舰队模式）\n舰船数值及特性将有部分调整\n是否确认继续操作？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.MonopolyCar2024Game_total_award_title = {
-		tip = "合计获得奖励"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.newserver_time = {
-		tip = "$1天$2时"
 	}
 end)()
 
@@ -16617,6 +16807,36 @@ end)()
 				info = "    5.在活动结束后，未完成转化的临时角色【芙米露露】将离开\n    港区，不返还已经消耗的强化、突破等培养材料；"
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.volleyball_end_award = {
+		tip = "精力-1，$1契合度+40"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_word_ship_rank = {
+		tip = "当前星级"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.MonopolyCar2024Game_total_award_title = {
+		tip = "合计获得奖励"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.newserver_time = {
+		tip = "$1天$2时"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_word_ship_level_upgrade_1 = {
+		tip = "每级提升时"
 	}
 end)()
 
@@ -16651,8 +16871,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_ship_rank = {
-		tip = "当前星级"
+	_G.pg.base.gametip.dorm3d_beach_role = {
+		tip = "解锁后可以与<color=#39bfff>$1</color>进行互动"
 	}
 end)()
 
@@ -16681,8 +16901,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_ship_level_upgrade_1 = {
-		tip = "每级提升时"
+	_G.pg.base.gametip.island_word_ship_enengy_recover = {
+		tip = "体力恢复"
 	}
 end)()
 
@@ -16727,8 +16947,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_beach_role = {
-		tip = "解锁后可以与<color=#39bfff>$1</color>进行互动"
+	_G.pg.base.gametip.island_select_ship_gift = {
+		tip = "请选择想要赠送的礼物"
 	}
 end)()
 
@@ -16739,14 +16959,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_ship_enengy_recover = {
-		tip = "体力恢复"
+	_G.pg.base.gametip.island_need_ship_level = {
+		tip = "需要角色等级达到$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_select_ship_gift = {
-		tip = "请选择想要赠送的礼物"
+	_G.pg.base.gametip.island_word_ship_desc = {
+		tip = "角色详情"
 	}
 end)()
 
@@ -16757,8 +16977,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_need_ship_level = {
-		tip = "需要角色等级达到$1"
+	_G.pg.base.gametip.setting_interface_cancel_check = {
+		tip = "确定放弃当前修改设置？"
 	}
 end)()
 
@@ -16785,18 +17005,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_ship_desc = {
-		tip = "角色详情"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.setting_interface_cancel_check = {
-		tip = "确定放弃当前修改设置？"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.attribute_expend = {
 		tip = "消耗"
 	}
@@ -16805,6 +17013,18 @@ end)()
 (function()
 	_G.pg.base.gametip.island_dressup_tip = {
 		tip = "是否确认选择当前形象?后续可在岛屿中进行调整"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_unlock_ship_skill_color = {
+		tip = "是否解锁装扮颜色"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_destroy = {
+		tip = "退役"
 	}
 end)()
 
@@ -16827,14 +17047,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_unlock_ship_skill_color = {
-		tip = "是否解锁装扮颜色"
+	_G.pg.base.gametip.island_ship_newskill_unlock = {
+		tip = "技能解锁："
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.word_destroy = {
-		tip = "退役"
+	_G.pg.base.gametip.words_bg_fit_mode = {
+		tip = "过场图适应屏幕最小边"
 	}
 end)()
 
@@ -16863,8 +17083,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_newskill_unlock = {
-		tip = "技能解锁："
+	_G.pg.base.gametip.island_ship_breakout = {
+		tip = "突破"
 	}
 end)()
 
@@ -16881,8 +17101,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.index_spweapon = {
-		tip = "专属兵装"
+	_G.pg.base.gametip.island_ship_lock_attr_tip = {
+		tip = "点击选择需要提升的能力"
 	}
 end)()
 
@@ -16905,8 +17125,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_breakout = {
-		tip = "突破"
+	_G.pg.base.gametip.masaina_main_sheet2 = {
+		tip = "奇渊补给站"
 	}
 end)()
 
@@ -16923,14 +17143,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_lock_attr_tip = {
-		tip = "点击选择需要提升的能力"
+	_G.pg.base.gametip.ship_remould_max_level = {
+		tip = "已达最大改造次数"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.masaina_main_sheet2 = {
-		tip = "奇渊补给站"
+	_G.pg.base.gametip.island_ship_title1 = {
+		tip = "能力养成"
 	}
 end)()
 
@@ -16941,8 +17161,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_max_level = {
-		tip = "已达最大改造次数"
+	_G.pg.base.gametip.island_word_own = {
+		tip = "持有：$1"
 	}
 end)()
 
@@ -16953,8 +17173,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_title1 = {
-		tip = "能力养成"
+	_G.pg.base.gametip.word_gem_icon = {
+		tip = "<icon name=diamond w=0.7 h=0.7/>"
 	}
 end)()
 
@@ -16977,8 +17197,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_tip2 = {
-		tip = "未获得该岛屿拜访许可"
+	_G.pg.base.gametip.island_order_ship_page_award = {
+		tip = "查看委托奖励"
 	}
 end)()
 
@@ -16989,14 +17209,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_cancel_queue = {
-		tip = "取消拜访"
+	_G.pg.base.gametip.island_order_ship_page_req = {
+		tip = "查看委托需求"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_ship_page_award = {
-		tip = "查看委托奖励"
+	_G.pg.base.gametip.backyard_shipAlreadyExit = {
+		tip = "该船已经离开"
 	}
 end)()
 
@@ -17011,14 +17231,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_ship_page_req = {
-		tip = "查看委托需求"
+	_G.pg.base.gametip.Valentine_minigame_label2 = {
+		tip = "完成次数"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.backyard_shipAlreadyExit = {
-		tip = "该船已经离开"
+	_G.pg.base.gametip.Supplement_pay8 = {
+		tip = "剩余 $1"
 	}
 end)()
 
@@ -17053,8 +17273,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Valentine_minigame_label2 = {
-		tip = "完成次数"
+	_G.pg.base.gametip.island_order_ship_worktime = {
+		tip = "待开始     运输时间 $1"
 	}
 end)()
 
@@ -17065,8 +17285,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.Supplement_pay8 = {
-		tip = "剩余 $1"
+	_G.pg.base.gametip.island_order_ship_end_work = {
+		tip = "已完成..."
 	}
 end)()
 
@@ -17077,26 +17297,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_ship_worktime = {
-		tip = "待开始     运输时间 $1"
+	_G.pg.base.gametip.levelscene_airexpel_outrange = {
+		tip = "目标点不在驱离范围内"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.world_shop_init_notice = {
 		tip = "大型作战已经重置，是否打开特别兑换商店？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_order_ship_end_work = {
-		tip = "已完成..."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.levelscene_airexpel_outrange = {
-		tip = "目标点不在驱离范围内"
 	}
 end)()
 
@@ -17113,12 +17321,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_desc_2 = {
-		tip = "能够轻松完成的订单，但报酬也会减少一些"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_order_difficulty = {
 		tip = "订单倾向"
 	}
@@ -17131,14 +17333,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_resourceSiteLayer_startError_not5Ship = {
-		tip = "角色不足<color=#92fc63> 5 人</color>"
+	_G.pg.base.gametip.island_order_desc_2 = {
+		tip = "能够轻松完成的订单，但报酬也会减少一些"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.guild_event_is_lock = {
 		tip = "事件未解锁"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.levelScene_unselect_SP_OP = {
+		tip = "不使用作战道具"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.battle_resourceSiteLayer_startError_not5Ship = {
+		tip = "角色不足<color=#92fc63> 5 人</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_skill_desc = {
+		tip = "技能详情"
 	}
 end)()
 
@@ -17167,8 +17387,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.levelScene_unselect_SP_OP = {
-		tip = "不使用作战道具"
+	_G.pg.base.gametip.island_custom_theme_name_tip = {
+		tip = "是否要将当前布置保存为模板"
 	}
 end)()
 
@@ -17203,18 +17423,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_skill_desc = {
-		tip = "技能详情"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_custom_theme_name_tip = {
-		tip = "是否要将当前布置保存为模板"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_custom_theme_name = {
 		tip = "自定义主题$1"
 	}
@@ -17233,14 +17441,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_word_convert = {
+		tip = "转化"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_own_cnt = {
+		tip = "已拥有:"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.random_ship_custom_mode_remove_tip1 = {
 		tip = "选择角色从秘书舰列表中移除"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_convert = {
-		tip = "转化"
+	_G.pg.base.gametip.map_event_memory_collected = {
+		tip = "隐藏剧情<color=#92fc63>$1</color>收集成功！"
 	}
 end)()
 
@@ -17257,8 +17477,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_own_cnt = {
-		tip = "已拥有:"
+	_G.pg.base.gametip.island_msg_info = {
+		tip = "信息"
 	}
 end)()
 
@@ -17269,8 +17489,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_msg_info = {
-		tip = "信息"
+	_G.pg.base.gametip.dorm3d_role_manage = {
+		tip = "宿舍管理"
 	}
 end)()
 
@@ -17293,18 +17513,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_ship_bag_max = {
-		tip = "船坞已达最大扩展上限"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_role_manage = {
-		tip = "宿舍管理"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.sort_energy = {
 		tip = "心情值"
 	}
@@ -17317,14 +17525,26 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_label_furniture_exit = {
+		tip = "直接退出"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_fit = {
+		tip = "适用"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.words_autoFIght_down_frame = {
 		tip = "暗屏模式降帧"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_label_furniture_exit = {
-		tip = "直接退出"
+	_G.pg.base.gametip.pre_combat_targets = {
+		tip = "目标"
 	}
 end)()
 
@@ -17347,20 +17567,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_fit = {
-		tip = "适用"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pre_combat_targets = {
-		tip = "目标"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_photo_lighting = {
 		tip = "灯光"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_label_furniture_cnt = {
+		tip = "数量"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_label_furniture = {
+		tip = "家具"
 	}
 end)()
 
@@ -17383,8 +17603,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_label_furniture_cnt = {
-		tip = "数量"
+	_G.pg.base.gametip.island_map_title = {
+		tip = "岛屿地图"
 	}
 end)()
 
@@ -17401,8 +17621,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_label_furniture = {
-		tip = "家具"
+	_G.pg.base.gametip.island_word_go = {
+		tip = "前往"
 	}
 end)()
 
@@ -17413,8 +17633,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_map_title = {
-		tip = "岛屿地图"
+	_G.pg.base.gametip.island_manage_help_tip = {
+		tip = "餐品的吸引力会影响餐品的销售情况，吸引力越高，餐品售出概率越大。\n每种餐品的吸引力会受到角色两种能力的加成，分主加成能力和次加成能力。\n主加成能力：能够显著提升餐品的吸引力。\n次加成能力：能够小幅提升餐品的吸引力。"
 	}
 end)()
 
@@ -17425,8 +17645,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_go = {
-		tip = "前往"
+	_G.pg.base.gametip.island_manage_shop_exp = {
+		tip = "店铺经验"
 	}
 end)()
 
@@ -17447,18 +17667,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_help_tip = {
-		tip = "餐品的吸引力会影响餐品的销售情况，吸引力越高，餐品售出概率越大。\n每种餐品的吸引力会受到角色两种能力的加成，分主加成能力和次加成能力。\n主加成能力：能够显著提升餐品的吸引力。\n次加成能力：能够小幅提升餐品的吸引力。"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_shop_exp = {
-		tip = "店铺经验"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_manage_word_cnt = {
 		tip = "销量"
 	}
@@ -17467,18 +17675,6 @@ end)()
 (function()
 	_G.pg.base.gametip.island_manage_result_3 = {
 		tip = "销售情况"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip1 = {
-		tip = "(中途结束自动作战不会对信标造成伤害且油耗不返还)"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_donate_techpoint_toplimit = {
-		tip = "本日军需筹备可获取的筹备进度已达到上限，无法继续获取"
 	}
 end)()
 
@@ -17495,14 +17691,38 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.commander_total_gold = {
-		tip = "合计价格："
+	_G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip1 = {
+		tip = "(中途结束自动作战不会对信标造成伤害且油耗不返还)"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_donate_techpoint_toplimit = {
+		tip = "本日军需筹备可获取的筹备进度已达到上限，无法继续获取"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.guild_no_exist = {
 		tip = "大舰队不存在"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.idolmaster_voice_name_feeling4 = {
+		tip = "协作"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_total_gold = {
+		tip = "合计价格："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_worker_cnt = {
+		tip = "店员数量"
 	}
 end)()
 
@@ -17525,8 +17745,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.idolmaster_voice_name_feeling4 = {
-		tip = "协作"
+	_G.pg.base.gametip.island_manage_food_cnt = {
+		tip = "餐品数量"
 	}
 end)()
 
@@ -17565,20 +17785,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_worker_cnt = {
-		tip = "店员数量"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_food_cnt = {
-		tip = "餐品数量"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_manage_slot = {
 		tip = "餐品格数量"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_ui_autoselect = {
+		tip = "自动选择"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_item_type_consume = {
+		tip = "消耗品"
 	}
 end)()
 
@@ -17693,8 +17913,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_autoselect = {
-		tip = "自动选择"
+	_G.pg.base.gametip.blackfriday_ptshop = {
+		tip = "PT商店"
 	}
 end)()
 
@@ -17705,8 +17925,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_attrName_1 = {
-		tip = "种植"
+	_G.pg.base.gametip.word_live2dfiles_checkend_title = {
+		tip = "Live2D角色包校验完毕"
 	}
 end)()
 
@@ -17717,26 +17937,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blackfriday_ptshop = {
-		tip = "PT商店"
+	_G.pg.base.gametip.island_manage_start_work = {
+		tip = "开始经营"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.activityboss_sp_active_buff = {
 		tip = "已选词条"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_live2dfiles_checkend_title = {
-		tip = "Live2D角色包校验完毕"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_start_work = {
-		tip = "开始经营"
 	}
 end)()
 
@@ -17749,6 +17957,18 @@ end)()
 (function()
 	_G.pg.base.gametip.metaskill_overflow_tip = {
 		tip = "本次研习会溢出<color=#FFDE60>$1</color>经验，是否继续？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_addition = {
+		tip = "角色加成汇总"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_manage_cnt = {
+		tip = "数量："
 	}
 end)()
 
@@ -17771,24 +17991,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_addition = {
-		tip = "角色加成汇总"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_cnt = {
-		tip = "数量："
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_equipment_torpedo = {
-		tip = "鱼雷"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_manage_predict_saleroom = {
 		tip = "预计收益"
 	}
@@ -17801,14 +18003,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.meta_shop_exchange_limit = {
-		tip = "未拥有角色"
+	_G.pg.base.gametip.word_equipment_torpedo = {
+		tip = "鱼雷"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.login_loginMediator_dataExpired = {
-		tip = "登录数据失效"
+	_G.pg.base.gametip.meta_shop_exchange_limit = {
+		tip = "未拥有角色"
 	}
 end)()
 
@@ -17819,14 +18021,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_manage_upgrade_worker_level = {
+		tip = "需提升至金牌店铺"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.login_loginMediator_dataExpired = {
+		tip = "登录数据失效"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.no_open_system_tip = {
+		tip = "<color=#92fc63>$1</color>将在指挥官等级达到<color=#92fc63>$2级</color>后开放"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.towerclimbing_book_tip = {
 		tip = "完成前一本收集手册后可解锁"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_manage_upgrade_worker_level = {
-		tip = "需提升至金牌店铺"
+	_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
+		tip = "电光石火：角色每造成1次消除便会减少风雷之刃的冷却时间0.5秒"
 	}
 end)()
 
@@ -17867,14 +18087,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.no_open_system_tip = {
-		tip = "<color=#92fc63>$1</color>将在指挥官等级达到<color=#92fc63>$2级</color>后开放"
+	_G.pg.base.gametip.island_manage_result = {
+		tip = "营业结算"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
-		tip = "电光石火：角色每造成1次消除便会减少风雷之刃的冷却时间0.5秒"
+	_G.pg.base.gametip.island_manage_view = {
+		tip = "经营情况"
 	}
 end)()
 
@@ -17887,18 +18107,6 @@ end)()
 (function()
 	_G.pg.base.gametip.player_manifesto_placeholder = {
 		tip = "点击修改签名..."
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_result = {
-		tip = "营业结算"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_manage_view = {
-		tip = "经营情况"
 	}
 end)()
 
@@ -17921,18 +18129,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_nowenergy = {
-		tip = "当前心情值"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.indexsort_rarity = {
-		tip = "稀有度"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_word_get = {
 		tip = "领取"
 	}
@@ -17945,8 +18141,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.stage_finishStage_error = {
-		tip = "由于不明原因关卡无法结束："
+	_G.pg.base.gametip.word_nowenergy = {
+		tip = "当前心情值"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.indexsort_rarity = {
+		tip = "稀有度"
 	}
 end)()
 
@@ -17959,6 +18161,24 @@ end)()
 (function()
 	_G.pg.base.gametip.island_upgrade_exp = {
 		tip = "岛屿开发经验"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.stage_finishStage_error = {
+		tip = "由于不明原因关卡无法结束："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_upgrade_preview = {
+		tip = "升级预览"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_rename_consutme_tip = {
+		tip = "名称最长为9个汉字"
 	}
 end)()
 
@@ -18051,18 +18271,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_upgrade_preview = {
-		tip = "升级预览"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_rename_consutme_tip = {
-		tip = "名称最长为9个汉字"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_rename_input_tip = {
 		tip = "点击输入名称"
 	}
@@ -18087,12 +18295,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guardian_sure_limit_tip = {
-		tip = "守护神装备数量已达上限"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.courtyard_label_placed_furniture = {
 		tip = "已放入家具"
 	}
@@ -18105,8 +18307,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.airforce_title_3 = {
-		tip = "涡轮发动机"
+	_G.pg.base.gametip.guardian_sure_limit_tip = {
+		tip = "守护神装备数量已达上限"
 	}
 end)()
 
@@ -18117,6 +18319,24 @@ end)()
 				info = "巡游任务说明\n\n·<color=#92fc63>开放时间</color>\n    2022.12.1 0点 ~ 2023.1.31 23:59:59\n\n·<color=#92fc63>巡游任务分为两种</color>\n（1）每周任务\n    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。\n（2）S.P.任务\n    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。\n（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励\n\n·<color=#92fc63>「巡游任务快速完成券」说明</color>\n（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务\n（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐\n（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关\n（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>"
 			}
 		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_word_temp = {
+		tip = "临时"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.airforce_title_3 = {
+		tip = "涡轮发动机"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_total_price = {
+		tip = "合计价格:"
 	}
 end)()
 
@@ -18139,8 +18359,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_temp = {
-		tip = "临时"
+	_G.pg.base.gametip.island_batch_covert = {
+		tip = "批量转化"
 	}
 end)()
 
@@ -18197,8 +18417,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_total_price = {
-		tip = "合计价格:"
+	_G.pg.base.gametip.island_word_reset = {
+		tip = "重置"
 	}
 end)()
 
@@ -18227,20 +18447,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_batch_covert = {
-		tip = "批量转化"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_word_reset = {
-		tip = "重置"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_word_sort = {
 		tip = "排序"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_open_settings_tip2 = {
+		tip = "岛屿不对任何人开放"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_open_settings_tip1 = {
+		tip = "请选择来访许可开放范围"
 	}
 end)()
 
@@ -18251,8 +18471,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_open_settings_tip2 = {
-		tip = "岛屿不对任何人开放"
+	_G.pg.base.gametip.island_open_settings = {
+		tip = "岛屿来访许可"
 	}
 end)()
 
@@ -18281,26 +18501,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_open_settings_tip1 = {
-		tip = "请选择来访许可开放范围"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_open_settings = {
-		tip = "岛屿来访许可"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_input_my_id = {
 		tip = "点击输入ID"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_energy_low_warn_no_exp = {
-		tip = "编队中<color=#92fc63FF>$2</color>处于<color=#ff5c5c>低心情状态</color>，强制出击将<color=#ff5c5c>降低好感</color>，确定要继续出击吗？"
+	_G.pg.base.gametip.common_compare_not_more_than = {
+		tip = "小于等于"
 	}
 end)()
 
@@ -18311,32 +18519,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior3 = {
-		tip = "学习 "
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_input_code_erro = {
 		tip = "请输入访问码"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_attr_skillupgrade = {
-		tip = "技能强化"
+	_G.pg.base.gametip.island_order_ship_finish_cnt_not_enough = {
+		tip = "停止装载"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.buleprint_need_level_tip = {
-		tip = "需角色到达$1级"
+	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior3 = {
+		tip = "学习 "
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.vote_vote_time = {
 		tip = "投票时间:$1—$2"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.spweapon_attr_skillupgrade = {
+		tip = "技能强化"
 	}
 end)()
 
@@ -18359,6 +18567,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_btn_label_kick = {
+		tip = "请离"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_btn_label_online = {
+		tip = "在线"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.main_notificationLayer_noFriend = {
 		tip = "当前没有好友"
 	}
@@ -18377,8 +18597,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_btn_label_kick = {
-		tip = "请离"
+	_G.pg.base.gametip.island_btn_label_invitation_already = {
+		tip = "已邀请"
 	}
 end)()
 
@@ -18389,14 +18609,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_btn_label_online = {
-		tip = "在线"
+	_G.pg.base.gametip.word_live2dfiles_checkend = {
+		tip = "点击更新"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_btn_label_invitation_already = {
-		tip = "已邀请"
+	_G.pg.base.gametip.island_btn_label_more = {
+		tip = "更多"
 	}
 end)()
 
@@ -18419,24 +18639,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_live2dfiles_checkend = {
-		tip = "点击更新"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_btn_label_more = {
-		tip = "更多"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.equip_info_18 = {
-		tip = "散布角度"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.list_empty_tip_friendui_black = {
 		tip = "暂无黑名单成员"
 	}
@@ -18449,8 +18651,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.military_forbid_when_in_chapter = {
-		tip = "舰队出击中，当前无法参与演习"
+	_G.pg.base.gametip.equip_info_18 = {
+		tip = "散布角度"
 	}
 end)()
 
@@ -18461,14 +18663,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_close_access_state = {
+		tip = "当前已是关闭状态"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.military_forbid_when_in_chapter = {
+		tip = "舰队出击中，当前无法参与演习"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.cruise_tip_base = {
+		tip = "-基础巡游奖励-"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_tech_is_max_level = {
 		tip = "舰队科技等级已达到上限"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_close_access_state = {
-		tip = "当前已是关闭状态"
+	_G.pg.base.gametip.island_close_visit = {
+		tip = "关闭拜访"
 	}
 end)()
 
@@ -18479,8 +18699,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.cruise_tip_base = {
-		tip = "-基础巡游奖励-"
+	_G.pg.base.gametip.mail = {
+		tip = "邮件\n提醒"
 	}
 end)()
 
@@ -18497,36 +18717,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_close_visit = {
-		tip = "关闭拜访"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.idolmaster_voice_name_feeling5 = {
-		tip = "应援"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.mail = {
-		tip = "邮件\n提醒"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_visitor_log = {
 		tip = "访客记录"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.cadpa_help = {
-		tip = {
-			{
-				info = "1.本游戏是一款角色养成类游戏，适用于年满 16 周岁及以上的用户，建议未成年人在家长监护下使用游戏产品。\n2.本游戏以虚拟世界为背景，不与现实生活相关。游戏玩法基于弹幕射击，鼓励玩家收集和养成。游戏中有基于文字的陌生人社交系统。\n3.游戏中有用户实名认证系统，认证为未成年人的用户将接受以下管理：\n①游戏中部分玩法和道具需要付费。未满 8 周岁的用户不能付费；\n②8 周岁以上未满 16 周岁的未成年人用户，单次充值金额不得超过 50 元人民币，每月充值金额累计不得超过 200元人民币；\n③16 周岁以上的未成年人用户，单次充值金额不得超过 100 元人民币，每月充值金额累计不得超过 400 元人民币；\n④未成年用户每周五、周六、周日和法定节假日的20时至21时可使用1小时，其他时间不得使用。\n4.本游戏在玩法上强调策略搭配，有助于培养玩家的思维能力；在美术上有着极高的品质追求，有助于玩家获得积极向上的情感体验。"
-			}
-		}
+	_G.pg.base.gametip.idolmaster_voice_name_feeling5 = {
+		tip = "应援"
 	}
 end)()
 
@@ -18543,20 +18741,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.cadpa_help = {
+		tip = {
+			{
+				info = "1.本游戏是一款角色养成类游戏，适用于年满 16 周岁及以上的用户，建议未成年人在家长监护下使用游戏产品。\n2.本游戏以虚拟世界为背景，不与现实生活相关。游戏玩法基于弹幕射击，鼓励玩家收集和养成。游戏中有基于文字的陌生人社交系统。\n3.游戏中有用户实名认证系统，认证为未成年人的用户将接受以下管理：\n①游戏中部分玩法和道具需要付费。未满 8 周岁的用户不能付费；\n②8 周岁以上未满 16 周岁的未成年人用户，单次充值金额不得超过 50 元人民币，每月充值金额累计不得超过 200元人民币；\n③16 周岁以上的未成年人用户，单次充值金额不得超过 100 元人民币，每月充值金额累计不得超过 400 元人民币；\n④未成年用户每周五、周六、周日和法定节假日的20时至21时可使用1小时，其他时间不得使用。\n4.本游戏在玩法上强调策略搭配，有助于培养玩家的思维能力；在美术上有着极高的品质追求，有助于玩家获得积极向上的情感体验。"
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.jiujiu_expedition_reward_tip = {
 		tip = "完成手册收集后可领取奖励"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_shop_title = {
-		tip = "宿舍商店"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.world_instruction_submarine_5 = {
-		tip = "潜艇舰队已撤离"
 	}
 end)()
 
@@ -18573,6 +18769,30 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.dorm3d_shop_title = {
+		tip = "宿舍商店"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.world_instruction_submarine_5 = {
+		tip = "潜艇舰队已撤离"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.buleprint_need_level_tip = {
+		tip = "需角色到达$1级"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_settings = {
+		tip = "设置"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_set_like = {
 		tip = "设为常用"
 	}
@@ -18585,20 +18805,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_settings = {
-		tip = "设置"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_blackList = {
-		tip = "黑名单"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_whiteList = {
 		tip = "白名单"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_code = {
+		tip = "访问码"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_guild = {
+		tip = "大舰队"
 	}
 end)()
 
@@ -18615,32 +18835,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_guild = {
-		tip = "大舰队"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_friend = {
-		tip = "好友"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.tactics_lesson_cancel = {
 		tip = "取消训练将返还部分经验并<color=#92fc63>消耗教材</color>，是否确认？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_apply_sucess = {
-		tip = "申请成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.ship_book = {
-		tip = "<color=#92fc63>教材</color>"
 	}
 end)()
 
@@ -18657,8 +18853,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.guild_apply_sucess = {
+		tip = "申请成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_book = {
+		tip = "<color=#92fc63>教材</color>"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_select_ship = {
 		tip = "选择角色"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_sub_product_cnt = {
+		tip = "副产物 × $1"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_select_product = {
+		tip = "产物选择"
 	}
 end)()
 
@@ -18693,14 +18913,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_sub_product_cnt = {
-		tip = "副产物 × $1"
+	_G.pg.base.gametip.airforce_title_1 = {
+		tip = "航电系统"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_select_product = {
-		tip = "产物选择"
+	_G.pg.base.gametip.battle_end_title = {
+		tip = "战斗统计"
 	}
 end)()
 
@@ -18717,8 +18937,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.airforce_title_1 = {
-		tip = "航电系统"
+	_G.pg.base.gametip.island_word_working = {
+		tip = "工作中"
 	}
 end)()
 
@@ -18747,8 +18967,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_word_working = {
-		tip = "工作中"
+	_G.pg.base.gametip.island_building_title_info = {
+		tip = "建筑信息"
 	}
 end)()
 
@@ -18759,26 +18979,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.battle_result_undefeated = {
-		tip = "全员未被重创"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_building_title_info = {
-		tip = "建筑信息"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_unlock_skill = {
 		tip = "<color=#39bfff>[ 技能解锁 ]</color>"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.five_choose_one = {
-		tip = "指挥官只能邀请一人共度平安夜，\n是否确认邀请<color=#92fc63>$1</color>？\n邀请后会获得对应角色和回礼"
 	}
 end)()
 
@@ -18791,6 +18993,24 @@ end)()
 (function()
 	_G.pg.base.gametip.island_ship_no_energy = {
 		tip = "疲惫"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.five_choose_one = {
+		tip = "指挥官只能邀请一人共度平安夜，\n是否确认邀请<color=#92fc63>$1</color>？\n邀请后会获得对应角色和回礼"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.meta_energy_preview_tip = {
+		tip = "*不包含好感度及誓约等额外加成"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_item_overflow = {
+		tip = "超出x$1"
 	}
 end)()
 
@@ -18819,14 +19039,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_item_overflow = {
-		tip = "超出x$1"
+	_G.pg.base.gametip.island_lock_map_tip = {
+		tip = "地图尚未解锁"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.msgbox_text_noPos_clear = {
-		tip = "整 理"
+	_G.pg.base.gametip.island_toast_ship = {
+		tip = "$2正式加入$1"
 	}
 end)()
 
@@ -18843,14 +19063,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_lock_map_tip = {
-		tip = "地图尚未解锁"
+	_G.pg.base.gametip.island_toast_level = {
+		tip = "$2提升至等级$1"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_toast_ship = {
-		tip = "$2正式加入$1"
+	_G.pg.base.gametip.reduce_sp3_pass_count = {
+		tip = "累计通关sp3次数："
 	}
 end)()
 
@@ -18867,20 +19087,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_toast_level = {
-		tip = "$2提升至等级$1"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.reduce_sp3_pass_count = {
-		tip = "累计通关sp3次数："
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_prosperity_level = {
 		tip = "繁荣度"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_set_manifesto_success = {
+		tip = "修改成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_task_lefttime = {
+		tip = "$1天$2小时"
 	}
 end)()
 
@@ -18963,8 +19183,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_set_manifesto_success = {
-		tip = "修改成功"
+	_G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
+		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型三联装305mmSKC39主炮\n四联装533mm磁性鱼雷\n双联105mmSKC高炮\n</color></size>"
 	}
 end)()
 
@@ -18981,8 +19201,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_lefttime = {
-		tip = "$1天$2小时"
+	_G.pg.base.gametip.multiple_sorties_locked_tip = {
+		tip = "通关一次该难度后解锁<color=#92fc63>连续作战</color>"
 	}
 end)()
 
@@ -18999,8 +19219,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
-		tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型三联装305mmSKC39主炮\n四联装533mm磁性鱼雷\n双联105mmSKC高炮\n</color></size>"
+	_G.pg.base.gametip.island_order_difficulty_2 = {
+		tip = "轻松"
 	}
 end)()
 
@@ -19011,26 +19231,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.multiple_sorties_locked_tip = {
-		tip = "通关一次该难度后解锁<color=#92fc63>连续作战</color>"
+	_G.pg.base.gametip.island_order_difficulty_1 = {
+		tip = "标准"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.commander_material_is_maxLevel = {
 		tip = "指挥喵已满级，陪玩将不会获得指挥喵经验，是否确定？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_order_difficulty_2 = {
-		tip = "轻松"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_order_difficulty_1 = {
-		tip = "标准"
 	}
 end)()
 
@@ -19043,6 +19251,18 @@ end)()
 (function()
 	_G.pg.base.gametip.tag_ship_locked = {
 		tip = "图鉴未解锁"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.ship_energy_low_warn_no_exp = {
+		tip = "编队中<color=#92fc63FF>$2</color>处于<color=#ff5c5c>低心情状态</color>，强制出击将<color=#ff5c5c>降低好感</color>，确定要继续出击吗？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.islandnode_tips5 = {
+		tip = "好可惜，没能猜对呢……下次一定能猜对！"
 	}
 end)()
 
@@ -19077,8 +19297,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.islandnode_tips5 = {
-		tip = "好可惜，没能猜对呢……下次一定能猜对！"
+	_G.pg.base.gametip.island_task_type_5 = {
+		tip = "每周计划"
 	}
 end)()
 
@@ -19101,8 +19321,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.common_compare_not_more_than = {
-		tip = "小于等于"
+	_G.pg.base.gametip.shop_new_skin_permanent = {
+		tip = "热门换装"
 	}
 end)()
 
@@ -19113,8 +19333,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_type_5 = {
-		tip = "每周计划"
+	_G.pg.base.gametip.island_task_type_3 = {
+		tip = "岛屿时光"
 	}
 end)()
 
@@ -19125,8 +19345,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_skin_permanent = {
-		tip = "热门换装"
+	_G.pg.base.gametip.island_task_type_2 = {
+		tip = "岛屿开发"
 	}
 end)()
 
@@ -19137,8 +19357,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_type_3 = {
-		tip = "岛屿时光"
+	_G.pg.base.gametip.guild_shop_title = {
+		tip = "舰队"
 	}
 end)()
 
@@ -19149,32 +19369,32 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_task_type_2 = {
-		tip = "岛屿开发"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_shop_title = {
-		tip = "舰队"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_task_title_en = {
 		tip = "MISSIONS"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_save_success = {
-		tip = "保存成功"
+	_G.pg.base.gametip.island_bag_max_level = {
+		tip = "已是最大等级"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_ship_attrName_4 = {
 		tip = "烹饪"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_attrName_3 = {
+		tip = "养护"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_attrName_2 = {
+		tip = "采集"
 	}
 end)()
 
@@ -19191,8 +19411,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_attrName_2 = {
-		tip = "采集"
+	_G.pg.base.gametip.island_item_type_spe = {
+		tip = "特殊"
 	}
 end)()
 
@@ -19215,8 +19435,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_item_type_spe = {
-		tip = "特殊"
+	_G.pg.base.gametip.island_item_type_res = {
+		tip = "资材"
 	}
 end)()
 
@@ -19239,18 +19459,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_item_type_consume = {
-		tip = "消耗品"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_item_type_res = {
-		tip = "资材"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_log_exit = {
 		tip = " 离开了你的岛屿"
 	}
@@ -19259,6 +19467,18 @@ end)()
 (function()
 	_G.pg.base.gametip.island_log_visit = {
 		tip = " 拜访了你的岛屿"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_buff_cover_3 = {
+		tip = "当前拥有品质更高的增益效果，是否确定使用礼物？"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_ship_buff_cover_2 = {
+		tip = "当前拥有品质更高的增益效果，是否确定使用礼物？"
 	}
 end)()
 
@@ -19275,8 +19495,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_buff_cover_3 = {
-		tip = "当前拥有品质更高的增益效果，是否确定使用礼物？"
+	_G.pg.base.gametip.island_ship_buff_cover_1 = {
+		tip = "将会覆盖当前生效的增益效果，是否确定使用礼物？"
 	}
 end)()
 
@@ -19287,20 +19507,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_ship_buff_cover_2 = {
-		tip = "当前拥有品质更高的增益效果，是否确定使用礼物？"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_ship_buff_cover_1 = {
-		tip = "将会覆盖当前生效的增益效果，是否确定使用礼物？"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_dectect_mode3x3 = {
 		tip = "切换到3*3模式"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_invitation_gift_success = {
+		tip = "已经成功发送领取补给邀请"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip["not yet completed"] = {
+		tip = "尚未完成"
 	}
 end)()
 
@@ -19351,32 +19571,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_invitation_gift_success = {
-		tip = "已经成功发送领取补给邀请"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip["not yet completed"] = {
-		tip = "尚未完成"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.attrset_reset = {
-		tip = "全部重置"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_inviteCode_refresh = {
 		tip = "今日已刷新"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_back = {
-		tip = "返回"
 	}
 end)()
 
@@ -19387,8 +19583,32 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.attrset_reset = {
+		tip = "全部重置"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.trade_card_tips2 = {
 		tip = "重大提醒！\n指挥官，贸易许可证已经在$1到期喵！\n许可证到期之后，各种各样的便利就无法继续享受了喵.....\n要不要考虑继续签订贸易许可呢喵~\n{namecode:98}会随时在商店等着您哦，喵~！"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_back = {
+		tip = "返回"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_agora_save_success = {
+		tip = "保存成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_bag_uprade_success = {
+		tip = "升级成功"
 	}
 end)()
 
@@ -19417,8 +19637,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_bag_uprade_success = {
-		tip = "升级成功"
+	_G.pg.base.gametip.spweapon_tip_create_sussess = {
+		tip = "获得特殊兵装:<color=#92fc63>$1 X1</color>"
 	}
 end)()
 
@@ -19435,14 +19655,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_tip_create_sussess = {
-		tip = "获得特殊兵装:<color=#92fc63>$1 X1</color>"
+	_G.pg.base.gametip.island_agora_pave_tip = {
+		tip = "请以拖拽地砖的方式将它布置在地面上"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_order_cant_replace = {
-		tip = "当前不可替换"
+	_G.pg.base.gametip.island_agora_no_pos_place = {
+		tip = "没有可以保存的位置"
 	}
 end)()
 
@@ -19453,8 +19673,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_pave_tip = {
-		tip = "请以拖拽地砖的方式将它布置在地面上"
+	_G.pg.base.gametip.island_agora_exit_and_unsave = {
+		tip = "放弃修改"
 	}
 end)()
 
@@ -19489,26 +19709,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_no_pos_place = {
-		tip = "没有可以保存的位置"
+	_G.pg.base.gametip.word_soundfiles_download = {
+		tip = "开始下载"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip["2023spring_minigame_nenjuu_skill1"] = {
 		tip = "传送|当年兽四周被封闭或距离角色较远时，会传送到角色附近"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_exit_and_unsave = {
-		tip = "放弃修改"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_soundfiles_download = {
-		tip = "开始下载"
 	}
 end)()
 
@@ -19541,6 +19749,18 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_agora_label_search = {
+		tip = "点击搜索"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_agora_title = {
+		tip = "集会岛"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.login_createNewPlayer_full = {
 		tip = "服务器注册人数已满"
 	}
@@ -19553,8 +19773,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_search = {
-		tip = "点击搜索"
+	_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
+		tip = "汐语小筑"
 	}
 end)()
 
@@ -19577,8 +19797,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_title = {
-		tip = "集会岛"
+	_G.pg.base.gametip.island_agora_btn_label_revert = {
+		tip = "还原"
 	}
 end)()
 
@@ -19620,8 +19840,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
-		tip = "汐语小筑"
+	_G.pg.base.gametip.list_empty_tip_dockyardui = {
+		tip = "暂无符合条件的舰船"
 	}
 end)()
 
@@ -19634,18 +19854,6 @@ end)()
 (function()
 	_G.pg.base.gametip.list_empty_tip_guildrequestui = {
 		tip = "暂无大舰队申请"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_btn_label_revert = {
-		tip = "还原"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.list_empty_tip_dockyardui = {
-		tip = "暂无符合条件的舰船"
 	}
 end)()
 
@@ -19666,6 +19874,40 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.NewMusic_help = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/music_help",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_agora_capacity = {
+		tip = "占据容量"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.coloring_lock = {
 		tip = "未解锁"
 	}
@@ -19678,8 +19920,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_capacity = {
-		tip = "占据容量"
+	_G.pg.base.gametip.island_agora_label_gettime = {
+		tip = "获取时间"
 	}
 end)()
 
@@ -19696,14 +19938,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_capacity = {
-		tip = "容量"
+	_G.pg.base.gametip.island_agora_label_rarity = {
+		tip = "稀有度"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_gettime = {
-		tip = "获取时间"
+	_G.pg.base.gametip.island_agora_label_default = {
+		tip = "默认排序"
 	}
 end)()
 
@@ -19730,8 +19972,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_rarity = {
-		tip = "稀有度"
+	_G.pg.base.gametip.equip_info_28 = {
+		tip = "伤害修正比例"
 	}
 end)()
 
@@ -19742,8 +19984,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_default = {
-		tip = "默认排序"
+	_G.pg.base.gametip.island_agora_label_dec = {
+		tip = "装饰"
 	}
 end)()
 
@@ -19775,8 +20017,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equip_info_28 = {
-		tip = "伤害修正比例"
+	_G.pg.base.gametip.island_agora_label_furniture = {
+		tip = "庭具"
 	}
 end)()
 
@@ -19787,32 +20029,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_agora_label_dec = {
-		tip = "装饰"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_agora_label_furniture = {
-		tip = "庭具"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_agora_label_building = {
 		tip = "活动区"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.guild_fire_succeed = {
-		tip = "开除成功"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.no_share_skin_jiahezhanlie = {
-		tip = "{namecode:92}(战列)"
 	}
 end)()
 
@@ -19825,6 +20043,18 @@ end)()
 (function()
 	_G.pg.base.gametip.dorm3d_collection_cafe = {
 		tip = "咖啡馆"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.guild_fire_succeed = {
+		tip = "开除成功"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.no_share_skin_jiahezhanlie = {
+		tip = "{namecode:92}(战列)"
 	}
 end)()
 
@@ -19865,12 +20095,6 @@ end)()
 				y = 1024
 			}
 		}
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.elite_disable_unsatisfied = {
-		tip = "需达成该章节关卡全满星通关"
 	}
 end)()
 
@@ -19961,26 +20185,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.spweapon_ui_index_shipType_zhanLie = {
-		tip = "战列"
+	_G.pg.base.gametip.elite_disable_unsatisfied = {
+		tip = "需达成该章节关卡全满星通关"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.feast_click_to_close = {
 		tip = "*点击空白处关闭弹窗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.islandshop_tips4 = {
-		tip = "$1不足"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.word_tired = {
-		tip = "<color=#FCD400>疲惫</color>"
 	}
 end)()
 
@@ -20019,6 +20231,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.spweapon_ui_index_shipType_zhanLie = {
+		tip = "战列"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_help_signin = {
 		tip = {
 			{
@@ -20053,8 +20271,60 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_draw_time = {
-		tip = "开启时间："
+	_G.pg.base.gametip.islandshop_tips4 = {
+		tip = "$1不足"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.word_tired = {
+		tip = "<color=#FCD400>疲惫</color>"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_help_commission = {
+		tip = {
+			{
+				icon = {
+					atlas = "helpbg/island_help_commission1",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_commission2",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_commission3",
+					path = ""
+				}
+			},
+			{
+				icon = {
+					atlas = "helpbg/island_help_commission4",
+					path = ""
+				}
+			},
+			disableScroll = true,
+			pageMode = true,
+			ImageMode = true,
+			defaultpage = 1,
+			windowSize = {
+				x = 1263,
+				y = 873
+			},
+			windowPos = {
+				y = -70
+			},
+			helpSize = {
+				x = 1176,
+				y = 1024
+			}
+		}
 	}
 end)()
 
@@ -20087,42 +20357,20 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_help_ship_order = {
-		tip = {
-			{
-				icon = {
-					atlas = "helpbg/island_help_ship_order1",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_ship_order2",
-					path = ""
-				}
-			},
-			{
-				icon = {
-					atlas = "helpbg/island_help_ship_order3",
-					path = ""
-				}
-			},
-			disableScroll = true,
-			pageMode = true,
-			ImageMode = true,
-			defaultpage = 1,
-			windowSize = {
-				x = 1263,
-				y = 873
-			},
-			windowPos = {
-				y = -70
-			},
-			helpSize = {
-				x = 1176,
-				y = 1024
-			}
-		}
+	_G.pg.base.gametip.island_draw_time = {
+		tip = "开启时间："
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.build_ticket_description = {
+		tip = "※活动结束后清空"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_season_review_miss = {
+		tip = "尚未参与该开发季"
 	}
 end)()
 
@@ -20133,8 +20381,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.build_ticket_description = {
-		tip = "※活动结束后清空"
+	_G.pg.base.gametip.island_season_window_out = {
+		tip = "未上榜"
 	}
 end)()
 
@@ -20157,8 +20405,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_miss = {
-		tip = "尚未参与该开发季"
+	_G.pg.base.gametip.island_season_window_award = {
+		tip = "排名奖励"
 	}
 end)()
 
@@ -20175,14 +20423,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_window_out = {
-		tip = "未上榜"
+	_G.pg.base.gametip.island_season_window_ranking = {
+		tip = "最终排名"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_window_award = {
-		tip = "排名奖励"
+	_G.pg.base.gametip.shop_filter_trial = {
+		tip = "体验"
 	}
 end)()
 
@@ -20193,8 +20441,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_window_ranking = {
-		tip = "最终排名"
+	_G.pg.base.gametip.dorm3d_privatechat_telephone = {
+		tip = "暂未开放，敬请期待"
 	}
 end)()
 
@@ -20211,26 +20459,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_filter_trial = {
-		tip = "体验"
+	_G.pg.base.gametip.island_season_window_end = {
+		tip = "岛屿开发季即将结束！"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.world_reset_success = {
 		tip = "大型作战已重置"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.dorm3d_privatechat_telephone = {
-		tip = "暂未开放，敬请期待"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_season_window_end = {
-		tip = "岛屿开发季即将结束！"
 	}
 end)()
 
@@ -20243,6 +20479,22 @@ end)()
 (function()
 	_G.pg.base.gametip.island_season_review_fishnum = {
 		tip = "总渔获数"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.AR_plane_check = {
+		tip = "请检测一个平面"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.bulin_help = {
+		tip = {
+			{
+				info = "活动说明：\n1.活动期间，在特定界面或关卡中可收集相应的密码\n2.当收集密码遇到困难时，可以点击密码格解锁提示\n注意：20分钟内只能解锁一个提示哦\n3.密码收集完成可以开启特别关卡，挑战特别关卡并取\n得胜利可以获得特殊奖励"
+			}
+		}
 	}
 end)()
 
@@ -20283,8 +20535,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.AR_plane_check = {
-		tip = "请检测一个平面"
+	_G.pg.base.gametip.island_season_review_ptnum = {
+		tip = "开发PT"
 	}
 end)()
 
@@ -20347,12 +20599,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.bulin_help = {
-		tip = {
-			{
-				info = "活动说明：\n1.活动期间，在特定界面或关卡中可收集相应的密码\n2.当收集密码遇到困难时，可以点击密码格解锁提示\n注意：20分钟内只能解锁一个提示哦\n3.密码收集完成可以开启特别关卡，挑战特别关卡并取\n得胜利可以获得特殊奖励"
-			}
-		}
+	_G.pg.base.gametip.island_season_review_projuctnum = {
+		tip = "研发项目"
 	}
 end)()
 
@@ -20411,8 +20659,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_ptnum = {
-		tip = "开发PT"
+	_G.pg.base.gametip.island_season_review_charnum = {
+		tip = "角色数量"
 	}
 end)()
 
@@ -20429,8 +20677,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_projuctnum = {
-		tip = "研发项目"
+	_G.pg.base.gametip.island_season_charts_out = {
+		tip = "暂未上榜"
 	}
 end)()
 
@@ -20481,8 +20729,18 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_review_charnum = {
-		tip = "角色数量"
+	_G.pg.base.gametip.doa_collection = {
+		tip = {
+			{
+				info = "活动时间：<color=#92fc63>4.27-5.11维护</color>\n1.活动期间，参与活动收集「角色喜好」，收集全部<color=#92fc63>18</color>个后可获得限定家具<color=#92fc63>「维纳斯假期纪念像」、「外观装备箱(维纳斯假期)*3」</color>\n※「维纳斯假期纪念像」无法重复获取"
+			},
+			{
+				info = "2.参与以下内容可以收集「角色喜好」：\n①通过活动关卡\n②完成活动任务\n③累积维纳斯点数\n④完成维纳斯排球练习赛\n⑤完成砰砰咚挑战赛"
+			},
+			{
+				info = "3.领取时间截止5月17日23点59分"
+			}
+		}
 	}
 end)()
 
@@ -20509,22 +20767,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.doa_collection = {
-		tip = {
-			{
-				info = "活动时间：<color=#92fc63>4.27-5.11维护</color>\n1.活动期间，参与活动收集「角色喜好」，收集全部<color=#92fc63>18</color>个后可获得限定家具<color=#92fc63>「维纳斯假期纪念像」、「外观装备箱(维纳斯假期)*3」</color>\n※「维纳斯假期纪念像」无法重复获取"
-			},
-			{
-				info = "2.参与以下内容可以收集「角色喜好」：\n①通过活动关卡\n②完成活动任务\n③累积维纳斯点数\n④完成维纳斯排球练习赛\n⑤完成砰砰咚挑战赛"
-			},
-			{
-				info = "3.领取时间截止5月17日23点59分"
-			}
-		}
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.liner_log_event_group_title3 = {
 		tip = "记录·三"
 	}
@@ -20537,14 +20779,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_season_shop_stage2 = {
+		tip = "阶段二"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.guild_tip_grand_fleet_is_frozen = {
 		tip = "该大舰队已被冻结，无法申请加入"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_shop_stage2 = {
-		tip = "阶段二"
+	_G.pg.base.gametip.mail_storeroom_max_3 = {
+		tip = "※本次领取后，将无法领取来自食堂的石油"
 	}
 end)()
 
@@ -20573,8 +20821,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mail_storeroom_max_3 = {
-		tip = "※本次领取后，将无法领取来自食堂的石油"
+	_G.pg.base.gametip.ship_remould_need_level = {
+		tip = "需要等级:$1"
 	}
 end)()
 
@@ -20585,14 +20833,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.ship_remould_need_level = {
-		tip = "需要等级:$1"
+	_G.pg.base.gametip.tec_notice = {
+		tip = "完成科研$1研发加速所有任务后解锁"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_notice = {
-		tip = "完成科研$1研发加速所有任务后解锁"
+	_G.pg.base.gametip.island_season_charts = {
+		tip = "开发排行榜"
 	}
 end)()
 
@@ -20621,12 +20869,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.dream_land_tip = {
-		tip = {
-			{
-				info = "活动规则：\n·<color=#92fc63>9.12-10.2</color>期间开启限时活动「梦幻乐园的梦幻假日」\n·随剧情解锁梦幻乐园的各个区域，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励\n·梦幻乐园各区域地图上均有可交互的探索点。指挥官在享受梦幻假日的同时，可通过留意地图上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>乐园手册</color>中的探索指引，进行梦幻乐园探索，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励\n·部分探索仅在特殊时间内触发，在完成「梦幻乐园的梦幻假日」全部剧情后，可以通过<color=#92fc63>时间转换</color>调整梦幻乐园时间\n·邀请角色进入安眠梦境，加快心情回复。安眠梦境随梦幻乐园区域解锁扩展"
-			}
-		}
+	_G.pg.base.gametip.island_season_task = {
+		tip = "开发计划"
 	}
 end)()
 
@@ -20647,8 +20891,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_task = {
-		tip = "开发计划"
+	_G.pg.base.gametip.technology_task_none_tip = {
+		tip = "-无-"
 	}
 end)()
 
@@ -20677,8 +20921,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.technology_task_none_tip = {
-		tip = "-无-"
+	_G.pg.base.gametip.island_season_pt_collectall = {
+		tip = "全部领取"
 	}
 end)()
 
@@ -20689,20 +20933,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_season_pt_collectall = {
-		tip = "全部领取"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.child2_status_time2 = {
 		tip = "永久"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.pre_combat_start_en = {
-		tip = "WEIGH ANCHOR"
 	}
 end)()
 
@@ -20713,8 +20945,14 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.pre_combat_start_en = {
+		tip = "WEIGH ANCHOR"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_season_help = {
-		tip = "新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>。\n开发季持续时间内，可通过<color=#39bfff>资材转化</color>、<color=#39bfff>生产指定资材</color>、<color=#39bfff>参与岛屿活动</color>、以及<color=#39bfff>在开发季商店购买商品</color>获得岛屿开发PT。\n岛屿开发季结束后，资材仓库中的资材将<color=#FD5650>自动转化</color>为岛屿开发PT并计入当前开发排行。\n岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>。"
+		tip = "1.新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>\n2.开发季持续时间内，可通过<color=#39bfff>资材转化</color>、<color=#39bfff>生产指定资材</color>、<color=#39bfff>参与岛屿活动</color>以及<color=#39bfff>在开发季商店购买商品</color>获得岛屿开发PT\n3.岛屿开发季结束后，临时仓库中的物品将直接清空，资材仓库中的资材将<color=#FD5650>自动转化</color>为岛屿开发PT并计入当前开发排行\n4.岛屿开发季结束后，正在进行的<color=#39bfff>岛屿订单、货运委托、角色委派、手动种植、店铺经营</color>等将清理重置\n5.岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>"
 	}
 end)()
 
@@ -20725,14 +20963,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_visit_tip6 = {
+		tip = "操作成功"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.word_billboard = {
 		tip = "排行榜"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_tip6 = {
-		tip = "操作成功"
+	_G.pg.base.gametip.game_room_shooting_tip = {
+		tip = "当前积分："
 	}
 end)()
 
@@ -20789,8 +21033,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.game_room_shooting_tip = {
-		tip = "当前积分："
+	_G.pg.base.gametip.attr_antisub = {
+		tip = "反潜"
 	}
 end)()
 
@@ -20811,8 +21055,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.attr_antisub = {
-		tip = "反潜"
+	_G.pg.base.gametip.island_visit_tip2 = {
+		tip = "未获得该岛屿拜访许可"
 	}
 end)()
 
@@ -20829,14 +21073,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.word_gem_icon = {
-		tip = "<icon name=diamond w=0.7 h=0.7/>"
+	_G.pg.base.gametip.island_lineup_button = {
+		tip = "取消拜访"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_lineup_button = {
-		tip = "取消拜访"
+	_G.pg.base.gametip.island_lineup_tip = {
+		tip = "当前目标岛屿访客已达上限，进入等候队列中"
 	}
 end)()
 
@@ -20853,8 +21097,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_lineup_tip = {
-		tip = "当前目标岛屿访客已达上限，进入等候队列中"
+	_G.pg.base.gametip.siren_chase_warning = {
+		tip = "危险区域扩展中"
 	}
 end)()
 
@@ -20871,14 +21115,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.siren_chase_warning = {
-		tip = "危险区域扩展中"
+	_G.pg.base.gametip.island_visitor_kickall = {
+		tip = "全部请离"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_kickall = {
-		tip = "全部请离"
+	_G.pg.base.gametip.island_visitor_kick = {
+		tip = "请离"
 	}
 end)()
 
@@ -20913,8 +21157,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_num = {
-		tip = "当前人数："
+	_G.pg.base.gametip.island_visitor_record = {
+		tip = "访客记录"
 	}
 end)()
 
@@ -20937,12 +21181,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visitor_record = {
-		tip = "访客记录"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior6 = {
 		tip = "跑步 "
 	}
@@ -20957,6 +21195,12 @@ end)()
 (function()
 	_G.pg.base.gametip.dorm3d_shop_tag5 = {
 		tip = "解锁额外对话内容"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_visit_set_refresh = {
+		tip = "刷新"
 	}
 end)()
 
@@ -20985,8 +21229,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_set_refresh = {
-		tip = "刷新"
+	_G.pg.base.gametip.island_visit_set_tip = {
+		tip = "请选择来访许可开放范围"
 	}
 end)()
 
@@ -21009,12 +21253,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_set_tip = {
-		tip = "请选择来访许可开放范围"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_visit_set_title = {
 		tip = "岛屿来访许可"
 	}
@@ -21027,8 +21265,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_breakout = {
-		tip = "突破"
+	_G.pg.base.gametip.island_chara_now_rank = {
+		tip = "当前星级"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.commander_material_is_rarity = {
+		tip = "列表中有SSR以上的的指挥喵，是否确定？"
 	}
 end)()
 
@@ -21047,12 +21291,6 @@ end)()
 (function()
 	_G.pg.base.gametip.guild_create_error_noname = {
 		tip = "大舰队代号不能为空"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.commander_material_is_rarity = {
-		tip = "列表中有SSR以上的的指挥喵，是否确定？"
 	}
 end)()
 
@@ -21081,14 +21319,20 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_visit_more = {
+		tip = "更多"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.emoji_type_3 = {
 		tip = "像素"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_more = {
-		tip = "更多"
+	_G.pg.base.gametip.island_visit_delete = {
+		tip = "删除"
 	}
 end)()
 
@@ -21099,8 +21343,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_visit_delete = {
-		tip = "删除"
+	_G.pg.base.gametip.yumia_atelier_tip20 = {
+		tip = "是否确认调合 $1 * $2？"
 	}
 end)()
 
@@ -21123,12 +21367,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip20 = {
-		tip = "是否确认调合 $1 * $2？"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_visit_balcklist = {
 		tip = "黑名单"
 	}
@@ -21137,6 +21375,12 @@ end)()
 (function()
 	_G.pg.base.gametip.island_visit_teammate = {
 		tip = "大舰队"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_visit_friend = {
+		tip = "好友"
 	}
 end)()
 
@@ -21155,12 +21399,6 @@ end)()
 (function()
 	_G.pg.base.gametip.guild_word_home = {
 		tip = "主页"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.island_visit_friend = {
-		tip = "好友"
 	}
 end)()
 
@@ -21201,6 +21439,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.charge_limit_lv = {
+		tip = "$1级解锁"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.fleet_error_no_fleet = {
 		tip = "舰队不存在"
 	}
@@ -21213,8 +21457,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.charge_limit_lv = {
-		tip = "$1级解锁"
+	_G.pg.base.gametip.tec_catchup_6 = {
+		tip = "六期"
 	}
 end)()
 
@@ -21237,8 +21481,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.tec_catchup_6 = {
-		tip = "六期"
+	_G.pg.base.gametip.island_chara_skill_unlock = {
+		tip = "技能解锁"
 	}
 end)()
 
@@ -21319,14 +21563,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_skill_unlock = {
-		tip = "技能解锁"
+	_G.pg.base.gametip.child_random_polaroid_drop = {
+		tip = "瞬间"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.child_random_polaroid_drop = {
-		tip = "瞬间"
+	_G.pg.base.gametip.island_chara_power_limit = {
+		tip = "体力上限"
 	}
 end)()
 
@@ -21349,20 +21593,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_power_limit = {
-		tip = "体力上限"
+	_G.pg.base.gametip.index_spweapon = {
+		tip = "专属兵装"
 	}
 end)()
 
 (function()
 	_G.pg.base.gametip.island_ship_breakout_consume = {
 		tip = "消耗"
-	}
-end)()
-
-(function()
-	_G.pg.base.gametip.words_bg_fit_mode = {
-		tip = "过场图适应屏幕最小边"
 	}
 end)()
 
@@ -21379,6 +21617,12 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.gametip.island_chara_breakout = {
+		tip = "突破"
+	}
+end)()
+
+(function()
 	_G.pg.base.gametip.island_visit_whitelist_tip = {
 		tip = "名单成员将在来访许可开启时被自动允许入内"
 	}
@@ -21391,14 +21635,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_now_rank = {
-		tip = "当前星级"
+	_G.pg.base.gametip.island_chara_up_button = {
+		tip = "升级"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_chara_up_button = {
-		tip = "升级"
+	_G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
+		tip = "游戏奖券数量不足，是否前往游戏屋获取？"
 	}
 end)()
 
@@ -21409,8 +21653,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
-		tip = "游戏奖券数量不足，是否前往游戏屋获取？"
+	_G.pg.base.gametip.island_cancel = {
+		tip = "取消"
 	}
 end)()
 
@@ -21427,12 +21671,6 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_cancel = {
-		tip = "取消"
-	}
-end)()
-
-(function()
 	_G.pg.base.gametip.island_confirm = {
 		tip = "确定"
 	}
@@ -21441,6 +21679,12 @@ end)()
 (function()
 	_G.pg.base.gametip.island_index_skill = {
 		tip = "技能可升级"
+	}
+end)()
+
+(function()
+	_G.pg.base.gametip.island_index_extra_all = {
+		tip = "无限制"
 	}
 end)()
 
@@ -21457,14 +21701,14 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.island_index_extra_all = {
-		tip = "无限制"
+	_G.pg.base.gametip.island_index_name = {
+		tip = "剩余体力"
 	}
 end)()
 
 (function()
-	_G.pg.base.gametip.island_index_name = {
-		tip = "剩余体力"
+	_G.pg.base.gametip.island_chara_list_workspeed = {
+		tip = "工作速度"
 	}
 end)()
 
@@ -21948,8 +22192,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.shop_new_category = {
-		tip = "舰种"
+	_G.pg.base.gametip.island_taskjump_placenoopen_tips = {
+		tip = "地点未解锁，无法跳转"
 	}
 end)()
 
@@ -23015,8 +23259,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.yumia_atelier_tip17 = {
-		tip = "点击材料槽放入对应素材"
+	_G.pg.base.gametip.island_order_ship_finish_cnt = {
+		tip = "运输次数$1/$2"
 	}
 end)()
 
@@ -24491,8 +24735,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.holiday_tip_trans_not = {
-		tip = "运力不足，前往重建任务获取"
+	_G.pg.base.gametip.search_equipment_appearance = {
+		tip = "搜索装备外观名"
 	}
 end)()
 
@@ -25481,7 +25725,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_heavy_tip = {
-		tip = "圣马丁号 建造追加！"
+		tip = "{namecode:84}、{namecode:65} 建造追加！"
 	}
 end)()
 
@@ -26333,7 +26577,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.island_season_window_rule = {
-		tip = "1.岛屿开发季结束时，资材仓库中的<color=#39bfff>资材</color>将<color=#FD5650>自动转化</color>为岛屿开发PT并计入<color=#FD5650>当前开发排行</color>，<color=#39bfff>临时仓库</color>中的物品将直接<color=#FD5650>清空</color>，正在进行的<color=#39bfff>岛屿订单、货运委托、餐品制作、角色委派</color>等将<color=#FD5650>清理重置</color>，请注意安排避免浪费\n2.岛屿开发季结束后，当前开发季<color=#39bfff>未领取的开发计划奖励和累积PT奖励</color>将<color=#FD5650>不再可领取</color>\n3.新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>"
+		tip = "1.岛屿开发季结束后，<color=#39bfff>临时仓库</color>中的物品将<color=#FD5650>直接清空</color>，资材仓库中的<color=#39bfff>资材</color>将自动转化为岛屿开发PT并计入当前开发排行\n2.岛屿开发季结束后，正在进行的<color=#39bfff>岛屿订单、货运委托、角色委派、手动种植、店铺经营</color>等将清理重置\n3.岛屿开发季结束后，当前开发季未领取的开发计划奖励和累积PT奖励将<color=#FD5650>不再可领取</color>\n4.新的岛屿开发季开启时，岛屿开发PT将会<color=#FD5650>自动重置</color>"
 	}
 end)()
 
@@ -30343,12 +30587,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.venusvolleyball_help = {
-		tip = {
-			{
-				info = "活动规则：\n1.<color=#92fc63>5月3日</color>为止每日0点开放<color=#92fc63>1</color>场新的比赛，总计<color=#92fc63>7</color>场，可累计。全部完成后可以获得限定装备<color=#92fc63>「觉醒宝珠」</color>以及角色喜好道具-<color=#92fc63>「喜好食物(莫妮卡)」</color>\n2.点击开始游戏，选择两名角色后开始比赛，任意一方获得<color=#92fc63>5</color>分后即可完成游戏\n3.指挥官在接球和击球时会出现判定圈，点击屏幕任意位置完成判定\n4.判定圈缩至外圈与内圈之间时点击视为good，判定圈缩至内圈后点击视为perfect，未进行点击或判定圈未缩到外圈时点击视为miss接球时：判定miss为失分，判定good和perfect成功接球击球时：判定miss击球但不得分，判定good和perfect击球得分\n5.未开放全部比赛前，可重复挑战当日比赛，在完成全部比赛后开启自由挑战，指挥官可自由选择角色进行比赛"
-			}
-		}
+	_G.pg.base.gametip.island_taskjump_systemnoopen_tips = {
+		tip = "系统未解锁，无法跳转"
 	}
 end)()
 
@@ -31850,8 +32090,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.skin_discount_desc = {
-		tip = "是否消耗$1*1 购买折后价 $2 的 $3"
+	_G.pg.base.gametip.equip_enhancement_lvx = {
+		tip = "强化至$1级"
 	}
 end)()
 
@@ -32655,8 +32895,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.equipcode_slot_unmatch = {
-		tip = "装备码对应了当前角色无法使用的装备"
+	_G.pg.base.gametip.island_production_speed_tip2 = {
+		tip = "工作速度加成"
 	}
 end)()
 
@@ -33798,8 +34038,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.child_btn_mind = {
-		tip = "心事"
+	_G.pg.base.gametip.island_order_ship_reset_all = {
+		tip = "是否确认刷新委托列表中的全部委托"
 	}
 end)()
 
@@ -34392,8 +34632,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.faest_nothing_to_get = {
-		tip = "暂无可领取的奖励"
+	_G.pg.base.gametip.island_ship_order_toggle_label_award = {
+		tip = "查看奖励"
 	}
 end)()
 
@@ -36175,8 +36415,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.player_changeManifesto_error = {
-		tip = "宣言更换失败:"
+	_G.pg.base.gametip.island_order_ship_btn_replace = {
+		tip = "更换委托"
 	}
 end)()
 
@@ -41011,7 +41251,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
-		tip = "是否确定要清除已经选择的编队，使用推荐的配置？"
+		tip = "是否采用推荐配置补齐空余位置?"
 	}
 end)()
 
@@ -43566,7 +43806,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_light_tip = {
-		tip = "金鹿号 建造追加！"
+		tip = "{namecode:225}、{namecode:226} 建造追加！"
 	}
 end)()
 
@@ -45089,7 +45329,7 @@ end)()
 
 (function()
 	_G.pg.base.gametip.buildship_special_tip = {
-		tip = "玛丽·西莱斯特号、维达号 建造追加！"
+		tip = "{namecode:84} 建造追加！"
 	}
 end)()
 
@@ -46544,8 +46784,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.guild_time_remaining_tip = {
-		tip = "作战剩余时间:"
+	_G.pg.base.gametip.search_equipment = {
+		tip = "搜索装备名"
 	}
 end)()
 
@@ -47706,8 +47946,8 @@ end)()
 end)()
 
 (function()
-	_G.pg.base.gametip.click_back_tip = {
-		tip = "点击任意位置返回"
+	_G.pg.base.gametip.equip_enhancement_tip = {
+		tip = "材料不足"
 	}
 end)()
 

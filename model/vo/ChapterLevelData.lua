@@ -2719,14 +2719,14 @@ function var_0_0.GetAllEnemies(arg_199_0, arg_199_1)
 	return var_199_0
 end
 
-function var_0_0.GetFleetofDuty(arg_200_0, arg_200_1)
+function var_0_0.GetFleetOfDuty(arg_200_0, arg_200_1)
 	local var_200_0
 
 	for iter_200_0, iter_200_1 in ipairs(arg_200_0.fleets) do
 		if iter_200_1:isValid() and iter_200_1:getFleetType() == FleetType.Normal then
 			local var_200_1 = arg_200_0.duties[iter_200_1.id] or 0
 
-			if var_200_1 == ChapterFleet.DUTY_KILLALL or arg_200_1 and var_200_1 == ChapterFleet.DUTY_KILLBOSS or not arg_200_1 and var_200_1 == ChapterFleet.DUTY_CLEANPATH then
+			if var_200_1 == ChapterFleet.DUTY_KILLALL or var_200_1 == ChapterFleet.DUTY_KILLBOSS and tobool(arg_200_1) or var_200_1 == ChapterFleet.DUTY_CLEANPATH and not tobool(arg_200_1) then
 				return iter_200_1
 			end
 

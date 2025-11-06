@@ -370,4 +370,12 @@ function var_0_0.CalculateHistoryPt(arg_48_0, arg_48_1)
 	end))
 end
 
+function var_0_0.IsMatchKey(arg_51_0, arg_51_1)
+	local var_51_0 = {
+		arg_51_0:getConfig("name")
+	}
+
+	return EquipmentTools.IsMatchKey(var_51_0, arg_51_1)
+end
+
 return var_0_0

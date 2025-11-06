@@ -132,6 +132,30 @@ pg.island_item_timeline = {
 			1
 		}
 	},
+	{
+		id = 14,
+		name = "Island/Timeline/05/interative_sit/pla_interative_sit",
+		is_loop = 1,
+		model = "",
+		binding_path = {},
+		binding_track = {}
+	},
+	{
+		id = 15,
+		name = "Island/Timeline/05/interative_lie/pla_interative_lie",
+		is_loop = 1,
+		model = "",
+		binding_path = {},
+		binding_track = {}
+	},
+	{
+		id = 16,
+		name = "Island/Timeline/05/interative_lay/pla_interative_lay",
+		is_loop = 1,
+		model = "",
+		binding_path = {},
+		binding_track = {}
+	},
 	all = {
 		1,
 		2,
@@ -145,6 +169,9 @@ pg.island_item_timeline = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14,
+		15,
+		16
 	}
 }

@@ -8,6 +8,7 @@ var_0_0.ANIMATION_MOVEMENT = "movement"
 var_0_0.ANIMATION_JUMP_START = "jumpstart"
 var_0_0.ANIMATION_JUMP_LOOP = "jumploop"
 var_0_0.ANIMATION_JUMP_LAND = "jumpland"
+var_0_0.ANIMATION_HEROCOMING = "herocoming"
 var_0_0.LAYER_GROUND = "Ground"
 var_0_0.LAYER_WORLDMAP3D = "WorldMap3D"
 var_0_0.CANT_SWITCH_TO_MOVEMENT_STATES = {

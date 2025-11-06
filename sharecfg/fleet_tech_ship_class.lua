@@ -3831,7 +3831,7 @@ pg.fleet_tech_ship_class = {
 		nation = 96,
 		id = 960013,
 		t_level_1 = 1,
-		t_level = 1,
+		t_level = 2,
 		ships = {
 			960013
 		}

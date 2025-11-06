@@ -233,7 +233,8 @@ function var_0_0.handleNotification(arg_23_0, arg_23_1)
 					backyardView = true,
 					friend = var_23_1.list[1],
 					pos = arg_23_0.contextData.pos,
-					msg = arg_23_0.contextData.themeName
+					msg = arg_23_0.contextData.themeName,
+					groupName = arg_23_0.viewComponent:getGroupName()
 				}
 			}))
 

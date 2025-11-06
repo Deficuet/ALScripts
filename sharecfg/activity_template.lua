@@ -30115,12 +30115,13 @@ pg.activity_template = {
 	},
 	[50181] = {
 		mark = 20251023,
-		id = 50181,
 		title_res_tag = "StormSeaMainPage",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 1,
+		id = 50181,
 		page_core = "SailingShip3CoreActivityUI",
 		config_data = {
 			1970001,
@@ -30132,33 +30133,6 @@ pg.activity_template = {
 			1970041,
 			1970051,
 			1970052
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "SailingShip3MainPage",
@@ -30172,12 +30146,13 @@ pg.activity_template = {
 	},
 	[50182] = {
 		mark = 20251023,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50182,
 		page_core = "",
@@ -30205,33 +30180,6 @@ pg.activity_template = {
 			24599,
 			24600,
 			24601
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[50183] = {
@@ -30323,41 +30271,15 @@ pg.activity_template = {
 	},
 	[50202] = {
 		mark = 20251023,
-		id = 50202,
 		title_res_tag = "GhostSkinStory",
+		time = "stop",
 		type = 117,
 		login_pop = 0,
 		config_id = 65720,
 		is_show = 3,
+		id = 50202,
 		page_core = "SailingShip3CoreActivityUI",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		page_info = {
 			class_name = "SailingShip3SkinActPage",
 			ui_name = "SailingShip3SkinActUI"
@@ -30416,12 +30338,13 @@ pg.activity_template = {
 	},
 	[50203] = {
 		mark = 20251023,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50203,
 		page_core = "",
@@ -30443,74 +30366,21 @@ pg.activity_template = {
 			24575,
 			24576,
 			24577
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50204] = {
 		mark = 20251023,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 57,
 		login_pop = 0,
 		config_id = 58,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50204,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50205] = {
 		mark = 20251023,
@@ -30649,12 +30519,13 @@ pg.activity_template = {
 	},
 	[50208] = {
 		mark = 20251023,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50208,
 		page_core = "",
@@ -30662,33 +30533,6 @@ pg.activity_template = {
 			{
 				31930,
 				100
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -30745,42 +30589,16 @@ pg.activity_template = {
 	},
 	[50210] = {
 		mark = 20251023,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		id = 50210,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -30810,42 +30628,16 @@ pg.activity_template = {
 	},
 	[50211] = {
 		mark = 20251023,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 5,
 		is_show = 0,
+		title_res_tag = "",
 		id = 50211,
 		page_core = "",
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					10,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					11,
-					6
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		},
 		config_client = {
 			id = 5,
 			bg = "loadingbg/bg_build_5_act",
@@ -30867,12 +30659,13 @@ pg.activity_template = {
 	},
 	[50212] = {
 		mark = 20251023,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50212,
 		page_core = "",
@@ -30881,14 +30674,30 @@ pg.activity_template = {
 				31942,
 				100
 			}
+		}
+	},
+	[50213] = {
+		mark = 20251106,
+		title_res_tag = "",
+		page_info = "",
+		type = 12,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 50213,
+		page_core = "",
+		config_data = {
+			1730001,
+			1730002,
+			1730003
 		},
 		time = {
 			"timer",
 			{
 				{
 					2025,
-					10,
-					23
+					11,
+					6
 				},
 				{
 					0,
@@ -30900,12 +30709,239 @@ pg.activity_template = {
 				{
 					2025,
 					11,
-					5
+					13
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[50214] = {
+		mark = 20251106,
+		id = 50214,
+		title_res_tag = "Marseillaise_sp",
+		type = 74,
+		login_pop = 0,
+		config_id = 50214,
+		is_show = 47,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
 				},
 				{
 					23,
 					59,
 					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MarseillaiseSpRePage",
+			ui_name = "MarseillaiseSpRePage"
+		},
+		config_client = {
+			linkPoolActID = 50217,
+			linkActID = 50213
+		}
+	},
+	[50215] = {
+		mark = 20251106,
+		title_res_tag = "",
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 581,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		id = 50215,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50216] = {
+		mark = 20251106,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 50216,
+		page_core = "",
+		config_data = {
+			21861,
+			21862,
+			21863,
+			21864,
+			21865,
+			21866
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					13
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[50217] = {
+		mark = 20251106,
+		title_res_tag = "",
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_50217",
+		id = 50217,
+		page_core = "",
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					13
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "马赛曲 建造概率UP！",
+			rate_tip = {
+				"<color=#ffde38>超稀有舰船</color>：7%",
+				"<color=#d797ff>精锐舰船</color>：12%",
+				"<color=#3dc6ff>稀有舰船</color>：26%",
+				"普通舰船：55%",
+				"<color=#ffde38>马赛曲</color>：1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[50218] = {
+		mark = 20251106,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 73,
+		is_show = 0,
+		config_client = "",
+		id = 50218,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					11,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -39369,8 +39405,8 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -39425,8 +39461,8 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -39474,8 +39510,8 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -39523,8 +39559,8 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -39563,8 +39599,8 @@ pg.activity_template = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -39844,6 +39880,7 @@ pg.activity_template = {
 			50182,
 			50203,
 			50209,
+			50216,
 			1079,
 			1080,
 			1081,
@@ -40016,6 +40053,7 @@ pg.activity_template = {
 			50153,
 			50169,
 			50205,
+			50214,
 			1086,
 			6006,
 			6010,
@@ -40214,7 +40252,8 @@ pg.activity_template = {
 			50090,
 			50131,
 			50172,
-			50183
+			50183,
+			50215
 		},
 		[12] = {
 			4898,
@@ -40279,7 +40318,8 @@ pg.activity_template = {
 			50115,
 			50166,
 			50167,
-			50181
+			50181,
+			50213
 		},
 		[27] = {
 			4900,
@@ -40538,6 +40578,7 @@ pg.activity_template = {
 			5959,
 			50045,
 			50122,
+			50218,
 			8046,
 			8047,
 			8058,
@@ -40551,7 +40592,8 @@ pg.activity_template = {
 			4946,
 			5181,
 			5546,
-			5766
+			5766,
+			50217
 		},
 		[69] = {
 			4950,
@@ -41717,6 +41759,12 @@ pg.activity_template = {
 		50210,
 		50211,
 		50212,
+		50213,
+		50214,
+		50215,
+		50216,
+		50217,
+		50218,
 		7011,
 		7012,
 		7013,

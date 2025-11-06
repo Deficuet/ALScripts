@@ -9,6 +9,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.scrollNameTF = arg_1_0._tf:Find("scrollName/Text")
 	arg_1_0.iconTF = arg_1_0._tf:Find("mask/icon")
 	arg_1_0.selectedTF = arg_1_0._tf:Find("selected")
+	arg_1_0.phaseTF = arg_1_0._tf:Find("phase")
 	arg_1_0.lockTF = arg_1_0._tf:Find("lock")
 	arg_1_0.canUnLockTF = arg_1_0._tf:Find("can_unlock")
 
@@ -41,16 +42,30 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
 	setActive(arg_2_0.canUnLockTF, var_2_2 == IslandIllustration.STATUS.CAN_UNLOCK)
 	setActive(arg_2_0.tipTF, arg_2_0.illustration:IsTip())
 
-	if not var_2_3 and var_2_2 ~= IslandIllustration.STATUS.CAN_UNLOCK then
-		local var_2_4 = arg_2_0.illustration:GetName()
+	local var_2_4 = var_2_0 and not var_2_3
 
-		if GetPerceptualSize(var_2_4) < 7 then
+	setActive(arg_2_0.phaseTF, var_2_4)
+
+	if var_2_4 then
+		local var_2_5 = arg_2_0.illustration:GetCurPhase()
+
+		setActive(arg_2_0.phaseTF, var_2_5 > 0)
+
+		if var_2_5 > 0 then
+			GetImageSpriteFromAtlasAsync("ui/islandbookui_atlas", "item_phase_" .. var_2_5, arg_2_0.phaseTF, true)
+		end
+	end
+
+	if not var_2_3 and var_2_2 ~= IslandIllustration.STATUS.CAN_UNLOCK then
+		local var_2_6 = arg_2_0.illustration:GetName()
+
+		if GetPerceptualSize(var_2_6) < 7 then
 			setActive(arg_2_0.nameTF, true)
-			setText(arg_2_0.nameTF, var_2_4)
+			setText(arg_2_0.nameTF, var_2_6)
 			setActive(arg_2_0.scrollNameTF, false)
 		else
 			setActive(arg_2_0.scrollNameTF, true)
-			setScrollText(arg_2_0.scrollNameTF, var_2_4)
+			setScrollText(arg_2_0.scrollNameTF, var_2_6)
 			setActive(arg_2_0.nameTF, false)
 		end
 	else
@@ -68,7 +83,7 @@ function var_0_0.UpdateSelected(arg_3_0, arg_3_1)
 end
 
 function var_0_0.PlayUnlockAnim(arg_4_0, arg_4_1)
-	if arg_4_0.illustration.id ~= arg_4_1 then
+	if not table.contains(arg_4_1, arg_4_0.illustration.id) then
 		return
 	end
 

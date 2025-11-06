@@ -1,5 +1,5 @@
 return {
-	id = "ISLANDTALK10131",
+	id = "ISLANDTALK10141",
 	mode = 9,
 	map = {
 		{

@@ -79,6 +79,7 @@ function var_0_0.Show(arg_8_0, arg_8_1)
 	arg_8_0.story = arg_8_1
 
 	setActive(arg_8_0.speedBtn, true)
+	setActiveByCanvasGroup(arg_8_0.speedBtn, true)
 
 	arg_8_0.speedImg.sprite = GetSpriteFromAtlas("ui/story_atlas", var_0_7(arg_8_1))
 
@@ -98,7 +99,7 @@ function var_0_0.Hide(arg_10_0)
 end
 
 function var_0_0.ShowSettings(arg_11_0)
-	setActive(arg_11_0.speedBtn, false)
+	setActiveByCanvasGroup(arg_11_0.speedBtn, false)
 	setActive(arg_11_0.speedPanel, true)
 
 	local var_11_0 = var_0_7(arg_11_0.story)
@@ -161,6 +162,7 @@ end
 function var_0_0.Clear(arg_17_0)
 	arg_17_0:RemoveTimer()
 	setActive(arg_17_0.speedBtn, false)
+	setActiveByCanvasGroup(arg_17_0.speedBtn, true)
 	setActive(arg_17_0.speedPanel, false)
 	arg_17_0.speedAnim:Stop()
 	arg_17_0.speedPanelAnim:Stop()

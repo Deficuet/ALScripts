@@ -24,6 +24,7 @@ var_0_0.Gates = {
 	[SYSTEM_LIMIT_CHALLENGE] = ys.Battle.BattleGateLimitChallenge,
 	[SYSTEM_WORLD] = ys.Battle.BattleGateWorld,
 	[SYSTEM_WORLD_BOSS] = ys.Battle.BattleGateWorldBoss,
+	[SYSTEM_WORLD_BOSS_SIMULATE] = ys.Battle.BattleGateWorldBossSimulate,
 	[SYSTEM_GUILD] = ys.Battle.BattleGateGuild,
 	[SYSTEM_DEBUG] = ys.Battle.BattleGateDebug,
 	[SYSTEM_TEST] = ys.Battle.BattleGateTest,

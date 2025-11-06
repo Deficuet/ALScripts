@@ -35,7 +35,7 @@ end
 function var_0_0.init(arg_10_0)
 	arg_10_0.visitorBtn = arg_10_0._tf:Find("top/visitor")
 	arg_10_0.levelPanel = IslandLevelPanel.New(arg_10_0._tf, arg_10_0.event)
-	arg_10_0.taskTrackPanel = Island3dTaskTrackPanel.New(arg_10_0._tf, arg_10_0.event)
+	arg_10_0.taskTrackPanel = Island3dTaskTrackPanel.New(arg_10_0._tf:Find("track_container"), arg_10_0.event)
 	arg_10_0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(arg_10_0._tf, arg_10_0.event)
 	arg_10_0.btnContainer = IslandMainBtnContainer.New(arg_10_0._tf:Find("top/btn_container"), arg_10_0.event)
 end
@@ -243,14 +243,18 @@ function var_0_0.OnApproachObject(arg_37_0, arg_37_1)
 	IslandTaskHelper.OnApproach(arg_37_1)
 end
 
-function var_0_0.OnUpdateTrackTask(arg_38_0, arg_38_1)
-	arg_38_0.traceTaskId = arg_38_1
+function var_0_0.OnUpdateTrackTask(arg_38_0, arg_38_1, arg_38_2)
+	if arg_38_2 == IslandTaskTrackCard.TYPES.MAIN then
+		arg_38_0.mainTraceTaskId = arg_38_1
+	elseif arg_38_2 == IslandTaskTrackCard.TYPES.OTHER then
+		arg_38_0.otherTraceTaskId = arg_38_1
+	end
 
-	if arg_38_0.traceTaskId ~= 0 then
+	if arg_38_0.mainTraceTaskId and arg_38_0.mainTraceTaskId ~= 0 or arg_38_0.otherTraceTaskId and arg_38_0.otherTraceTaskId ~= 0 then
 		if not arg_38_0.taskTrackPanel:isShowing() then
 			arg_38_0.taskTrackPanel:ExecuteAction("Show")
 		else
-			arg_38_0.taskTrackPanel:ExecuteAction("UpdateTask")
+			arg_38_0.taskTrackPanel:ExecuteAction("UpdateTask", arg_38_2)
 		end
 	end
 
@@ -258,35 +262,42 @@ function var_0_0.OnUpdateTrackTask(arg_38_0, arg_38_1)
 end
 
 function var_0_0.OnAddedTask(arg_39_0, arg_39_1)
-	arg_39_0.btnContainer:OnTrackTaskChange()
+	return
 end
 
 function var_0_0.OnUpdateTask(arg_40_0, arg_40_1)
-	if arg_40_0.traceTaskId and arg_40_0.traceTaskId ~= arg_40_1.id then
-		return
+	if arg_40_0.mainTraceTaskId and arg_40_0.mainTraceTaskId == arg_40_1.id then
+		arg_40_0.taskTrackPanel:ExecuteAction("UpdateProgress", IslandTaskTrackCard.TYPES.MAIN)
+		arg_40_0.btnContainer:OnTrackTaskChange()
+	elseif arg_40_0.otherTraceTaskId and arg_40_0.otherTraceTaskId == arg_40_1.id then
+		arg_40_0.taskTrackPanel:ExecuteAction("UpdateProgress", IslandTaskTrackCard.TYPES.OTHER)
+		arg_40_0.btnContainer:OnTrackTaskChange()
 	end
-
-	arg_40_0.taskTrackPanel:ExecuteAction("UpdateProgress", arg_40_1)
-	arg_40_0.btnContainer:OnTrackTaskChange()
 end
 
 function var_0_0.OnRemoveTask(arg_41_0, arg_41_1)
-	if arg_41_0.traceTaskId and arg_41_0.traceTaskId ~= arg_41_1.id then
-		return
+	if arg_41_0.mainTraceTaskId and arg_41_0.mainTraceTaskId == arg_41_1.id then
+		arg_41_0.taskTrackPanel:ExecuteAction("RemoveTask", IslandTaskTrackCard.TYPES.MAIN)
+		arg_41_0.btnContainer:OnTrackTaskChange()
+	elseif arg_41_0.otherTraceTaskId and arg_41_0.otherTraceTaskId == arg_41_1.id then
+		arg_41_0.taskTrackPanel:ExecuteAction("RemoveTask", IslandTaskTrackCard.TYPES.OTHER)
+		arg_41_0.btnContainer:OnTrackTaskChange()
 	end
-
-	arg_41_0.taskTrackPanel:ExecuteAction("RemoveTask")
-	arg_41_0.btnContainer:OnTrackTaskChange()
 end
 
 function var_0_0.UpdateTaskInfo(arg_42_0)
-	local var_42_0 = arg_42_0:GetIsland():GetTaskAgency():GetTraceTask()
+	local var_42_0 = arg_42_0:GetIsland():GetTaskAgency():GetMainTraceTask()
+	local var_42_1 = arg_42_0:GetIsland():GetTaskAgency():GetTraceTask()
 
 	if var_42_0 then
-		arg_42_0.traceTaskId = var_42_0.id
+		arg_42_0.mainTraceTaskId = var_42_0.id
 	end
 
-	if arg_42_0.traceTaskId and arg_42_0.traceTaskId ~= 0 then
+	if var_42_1 then
+		arg_42_0.otherTraceTaskId = var_42_1.id
+	end
+
+	if arg_42_0.otherTraceTaskId and arg_42_0.otherTraceTaskId ~= 0 or arg_42_0.mainTraceTaskId and arg_42_0.mainTraceTaskId ~= 0 then
 		arg_42_0.taskTrackPanel:ExecuteAction("Show")
 	else
 		arg_42_0.taskTrackPanel:ExecuteAction("Hide")

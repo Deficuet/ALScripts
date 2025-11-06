@@ -455,7 +455,9 @@ function var_0_0.UpdateTime(arg_27_0)
 		setActive(arg_27_0.getBtn, true)
 		setActive(arg_27_0.addBtn, false)
 	else
-		setActive(arg_27_0.addBtn, var_27_13 < 5)
+		local var_27_18 = var_27_6.production_limit or 5
+
+		setActive(arg_27_0.addBtn, var_27_13 < var_27_18)
 		onButton(arg_27_0, arg_27_0.addBtn, function()
 			arg_27_0:OpenFormulaSelectPage(var_27_5, var_27_13, var_27_4, var_27_1.ship_id)
 		end, SFX_PANEL)
@@ -465,20 +467,20 @@ function var_0_0.UpdateTime(arg_27_0)
 		return
 	end
 
-	local var_27_18 = var_27_0:GetFromulaTatalCount(var_27_6.id) + var_27_4
-	local var_27_19 = var_27_6.second_product[1]
-	local var_27_20 = math.floor(var_27_18 / var_27_19)
-	local var_27_21 = var_27_18 % var_27_19
+	local var_27_19 = var_27_0:GetFromulaTatalCount(var_27_6.id) + var_27_4
+	local var_27_20 = var_27_6.second_product[1]
+	local var_27_21 = math.floor(var_27_19 / var_27_20)
+	local var_27_22 = var_27_19 % var_27_20
 
-	if var_27_21 ~= arg_27_0.extraProcess then
-		arg_27_0.extraProcess = var_27_21
+	if var_27_22 ~= arg_27_0.extraProcess then
+		arg_27_0.extraProcess = var_27_22
 
-		arg_27_0.extraProductList:align(var_27_19)
+		arg_27_0.extraProductList:align(var_27_20)
 	end
 
-	local var_27_22 = math.floor((var_27_13 + var_27_21) / var_27_19)
+	local var_27_23 = math.floor((var_27_13 + var_27_22) / var_27_20)
 
-	setText(arg_27_0.extraProductLastNum, "×" .. var_27_22)
+	setText(arg_27_0.extraProductLastNum, "×" .. var_27_23)
 end
 
 function var_0_0.StartTimer(arg_29_0)

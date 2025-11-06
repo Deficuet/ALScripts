@@ -469,9 +469,10 @@ function var_0_0.OnShow(arg_35_0, arg_35_1)
 	if arg_35_0.addDelegateFormulaTimes then
 		setActive(arg_35_0.barLimit, true)
 
-		local var_35_0 = arg_35_0.addDelegateFormulaTimes / 5 * 352.6
+		local var_35_0 = pg.island_formula[arg_35_0.addDelegateFormula].production_limit or 5
+		local var_35_1 = arg_35_0.addDelegateFormulaTimes / var_35_0 * 352.6
 
-		arg_35_0.barLimit.sizeDelta = Vector2(var_35_0, 22)
+		arg_35_0.barLimit.sizeDelta = Vector2(var_35_1, 22)
 
 		setActive(arg_35_0.addCountTips, true)
 	else
@@ -479,9 +480,9 @@ function var_0_0.OnShow(arg_35_0, arg_35_1)
 		setActive(arg_35_0.addCountTips, false)
 	end
 
-	local var_35_1 = arg_35_0.addDelegateFormulaTimes and i18n("island_additional_production_tip1") or i18n("island_production_start")
+	local var_35_2 = arg_35_0.addDelegateFormulaTimes and i18n("island_additional_production_tip1") or i18n("island_production_start")
 
-	setText(arg_35_0.sureBtn:Find("adapt/time/Text"), var_35_1)
+	setText(arg_35_0.sureBtn:Find("adapt/time/Text"), var_35_2)
 
 	arg_35_0.slotId = pg.island_production_commission[arg_35_0.commissionId].slot
 	arg_35_0.placeId = pg.island_production_slot[arg_35_0.slotId].place

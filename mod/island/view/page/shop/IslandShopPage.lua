@@ -570,8 +570,6 @@ end
 function var_0_0.SetCommodity(arg_35_0, arg_35_1, arg_35_2)
 	var_0_0.StaticUpdateCommodityTpl(arg_35_1, arg_35_2)
 	setActive(arg_35_1:Find("notInTime"), not arg_35_0.showingShop:IsInTime())
-	setText(arg_35_1:Find("sellOut/Text"), i18n("common_sale_out"))
-	setText(arg_35_1:Find("hold/Text"), i18n("common_already owned"))
 
 	local var_35_0 = false
 
@@ -1384,6 +1382,8 @@ function var_0_0.StaticUpdateCommodityTpl(arg_90_0, arg_90_1)
 	setActive(arg_90_0:Find("sellOut"), arg_90_1:GetMaxNum() ~= 0 and var_90_0 == 0 and not isActive(arg_90_0:Find("hold")))
 	setActive(arg_90_0:Find("cost"), not isActive(arg_90_0:Find("sellOut")) and not isActive(arg_90_0:Find("hold")))
 	setActive(arg_90_0:Find("select"), false)
+	setText(arg_90_0:Find("sellOut/Text"), i18n("common_sale_out"))
+	setText(arg_90_0:Find("hold/Text"), i18n("common_already owned"))
 end
 
 function var_0_0.SortShopCommodities(arg_91_0)

@@ -313,56 +313,59 @@ local function var_0_2(arg_14_0)
 			pg.RedDotMgr.GetInstance():Init(arg_29_0)
 		end,
 		function(arg_30_0)
-			pg.UserAgreementMgr.GetInstance():Init(arg_30_0)
+			pg.EasyRedDotMgr.GetInstance():Init(arg_30_0)
 		end,
 		function(arg_31_0)
-			pg.BrightnessMgr.GetInstance():Init(arg_31_0)
+			pg.UserAgreementMgr.GetInstance():Init(arg_31_0)
 		end,
 		function(arg_32_0)
-			pg.ConfigTablePreloadMgr.GetInstance():Init(arg_32_0)
+			pg.BrightnessMgr.GetInstance():Init(arg_32_0)
 		end,
 		function(arg_33_0)
-			pg.CameraFixMgr.GetInstance():Init(arg_33_0)
+			pg.ConfigTablePreloadMgr.GetInstance():Init(arg_33_0)
 		end,
 		function(arg_34_0)
-			pg.BgmMgr.GetInstance():Init(arg_34_0)
+			pg.CameraFixMgr.GetInstance():Init(arg_34_0)
 		end,
 		function(arg_35_0)
-			pg.SettingsGroupMgr.GetInstance():Init()
-			pg.FileDownloadMgr.GetInstance():Init(arg_35_0)
+			pg.BgmMgr.GetInstance():Init(arg_35_0)
 		end,
 		function(arg_36_0)
-			pg.RepairResMgr.GetInstance():Init(arg_36_0)
+			pg.SettingsGroupMgr.GetInstance():Init()
+			pg.FileDownloadMgr.GetInstance():Init(arg_36_0)
 		end,
 		function(arg_37_0)
-			pg.NodeCanvasMgr.GetInstance():Init(arg_37_0)
+			pg.RepairResMgr.GetInstance():Init(arg_37_0)
 		end,
 		function(arg_38_0)
-			pg.SceneAnimMgr.GetInstance():Init(arg_38_0)
+			pg.NodeCanvasMgr.GetInstance():Init(arg_38_0)
 		end,
 		function(arg_39_0)
-			pg.PerformMgr.GetInstance():Init(arg_39_0)
+			pg.SceneAnimMgr.GetInstance():Init(arg_39_0)
 		end,
 		function(arg_40_0)
-			pg.ClickEffectMgr.GetInstance():Init(arg_40_0)
+			pg.PerformMgr.GetInstance():Init(arg_40_0)
 		end,
 		function(arg_41_0)
-			pg.CameraRTMgr.GetInstance():Init(arg_41_0)
+			pg.ClickEffectMgr.GetInstance():Init(arg_41_0)
 		end,
 		function(arg_42_0)
-			pg.GameTrackerMgr.GetInstance():Init(arg_42_0)
+			pg.CameraRTMgr.GetInstance():Init(arg_42_0)
 		end,
 		function(arg_43_0)
-			pg.GMTMgr.GetInstance():Init(arg_43_0)
+			pg.GameTrackerMgr.GetInstance():Init(arg_43_0)
 		end,
 		function(arg_44_0)
-			pg.ChangeSkinMgr.GetInstance():Init(arg_44_0)
+			pg.GMTMgr.GetInstance():Init(arg_44_0)
 		end,
 		function(arg_45_0)
+			pg.ChangeSkinMgr.GetInstance():Init(arg_45_0)
+		end,
+		function(arg_46_0)
 			if LOCK_ISLAND_DISPLAY then
-				arg_45_0()
+				arg_46_0()
 			else
-				pg.IslandVisitorNotificationMgr.GetInstance():Init(arg_45_0)
+				pg.IslandVisitorNotificationMgr.GetInstance():Init(arg_46_0)
 			end
 		end
 	}, arg_14_0)
@@ -374,24 +377,24 @@ seriesAsync({
 	var_0_0,
 	var_0_1,
 	var_0_2
-}, function(arg_46_0)
+}, function(arg_47_0)
 	pg.SdkMgr.GetInstance():QueryWithProduct()
 	print("loading cost: " .. os.clock() - var_0_3)
 	VersionMgr.Inst:DestroyUI()
 
-	local var_46_0 = GameObject.Find("OverlayCamera/Overlay/UIMain/ServerChoosePanel")
+	local var_47_0 = GameObject.Find("OverlayCamera/Overlay/UIMain/ServerChoosePanel")
 
-	if not IsNil(var_46_0) then
-		Object.Destroy(var_46_0)
+	if not IsNil(var_47_0) then
+		Object.Destroy(var_47_0)
 	end
 
 	Screen.sleepTimeout = SleepTimeout.SystemSetting
 
 	pg.UIMgr.GetInstance():displayLoadingBG(true)
 
-	if arg_46_0 then
-		pg.UIMgr.GetInstance():Loading(arg_46_0)
-		error(arg_46_0)
+	if arg_47_0 then
+		pg.UIMgr.GetInstance():Loading(arg_47_0)
+		error(arg_47_0)
 
 		return
 	end

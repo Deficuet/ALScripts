@@ -173,8 +173,8 @@ function var_0_0.onRegister(arg_5_0)
 	end
 
 	local function var_5_1(arg_20_0, arg_20_1)
-		for iter_20_0, iter_20_1 in pairs(arg_20_0) do
-			if iter_20_1.type == DROP_TYPE_SKIN and pg.ship_skin_template[iter_20_1.id].skin_type ~= ShipSkin.SKIN_TYPE_REMAKE and not getProxy(ShipSkinProxy):hasOldNonLimitSkin(iter_20_1.id) then
+		for iter_20_0, iter_20_1 in ipairs(arg_20_0) do
+			if iter_20_1.type == DROP_TYPE_SKIN and pg.ship_skin_template[iter_20_1.id].skin_type ~= ShipSkin.SKIN_TYPE_REMAKE then
 				table.insert(arg_20_1, function(arg_21_0)
 					arg_5_0:addSubLayers(Context.New({
 						mediator = NewSkinMediator,
@@ -188,7 +188,7 @@ function var_0_0.onRegister(arg_5_0)
 			end
 
 			if iter_20_1.type == DROP_TYPE_SKIN_TIMELIMIT then
-				if iter_20_1.count > 0 and not getProxy(ShipSkinProxy):hasOldNonLimitSkin(iter_20_1.id) then
+				if iter_20_1.count > 0 and not getProxy(ShipSkinProxy):hasNonLimitSkin(iter_20_1.id) then
 					table.insert(arg_20_1, function(arg_22_0)
 						arg_5_0:addSubLayers(Context.New({
 							mediator = NewSkinMediator,

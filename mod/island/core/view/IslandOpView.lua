@@ -468,6 +468,7 @@ function var_0_0.StartInteraction(arg_43_0)
 	arg_43_0:ShowOrHideGameObject(arg_43_0.moveBtn, false)
 	arg_43_0:ShowOrHideGameObject(arg_43_0.opPanel, false)
 	arg_43_0.playerInputManager:DisablePlayerHandle()
+	arg_43_0:GetView().player:StopMoveHandle()
 end
 
 function var_0_0.EndInteraction(arg_44_0)

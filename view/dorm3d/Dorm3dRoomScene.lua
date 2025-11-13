@@ -2871,6 +2871,10 @@ function var_0_0.CheckGuide(arg_342_0)
 		return
 	end
 
+	if DORM_LOCK_GUIDE then
+		return false
+	end
+
 	for iter_342_0, iter_342_1 in ipairs({
 		{
 			name = "DORM3D_GUIDE_03",

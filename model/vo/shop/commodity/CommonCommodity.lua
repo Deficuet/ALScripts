@@ -20,11 +20,11 @@ end
 
 function var_0_0.canPurchase(arg_3_0)
 	if arg_3_0.type == Goods.TYPE_MILITARY then
-		return arg_3_0.buyCount == 0
+		return arg_3_0:getBuyCount() == 0
 	elseif arg_3_0.type == Goods.TYPE_GIFT_PACKAGE or arg_3_0.type == Goods.TYPE_SKIN or arg_3_0.type == Goods.TYPE_WORLD or arg_3_0.type == Goods.TYPE_NEW_SERVER then
 		local var_3_0 = arg_3_0:getLimitCount()
 
-		return var_3_0 <= 0 or var_3_0 > arg_3_0.buyCount
+		return var_3_0 <= 0 or var_3_0 > arg_3_0:getBuyCount()
 	elseif arg_3_0.type == Goods.TYPE_CRUISE then
 		return arg_3_0:getLimitCount() - arg_3_0:GetOwnedCnt() > 0
 	else
@@ -92,8 +92,8 @@ function var_0_0.GetPrice(arg_9_0)
 
 	if arg_9_0:isDisCount() then
 		if arg_9_0:IsItemDiscountType() then
-			var_9_0 = SkinCouponActivity.GetSkinCouponAct(arg_9_0.id):GetNewPrice(var_9_1)
-			var_9_2 = (var_9_1 - var_9_0) / var_9_1 * 100
+			var_9_0 = SkinCouponActivity.GetBestReadySkinCouponAct(arg_9_0.id):GetNewPrice(var_9_1)
+			var_9_2 = (var_9_1 - var_9_0) * 100 / var_9_1
 		else
 			var_9_2 = arg_9_0:getConfig("discount")
 			var_9_0 = var_9_1 * (100 - var_9_2) / 100
@@ -130,7 +130,7 @@ function var_0_0.GetConsume(arg_13_0)
 end
 
 function var_0_0.IsItemDiscountType(arg_14_0)
-	return arg_14_0:getConfig("genre") == ShopArgs.SkinShop and SkinCouponActivity.StaticCanUsageSkinCoupon(arg_14_0.id)
+	return arg_14_0:getConfig("genre") == ShopArgs.SkinShop and SkinCouponActivity.StaticExistActivityAndCoupon(arg_14_0.id)
 end
 
 function var_0_0.CanUseVoucherType(arg_15_0)
@@ -182,40 +182,38 @@ function var_0_0.getLimitCount(arg_19_0)
 	return 0
 end
 
-function var_0_0.GetDiscountItem(arg_20_0)
-	if arg_20_0:IsItemDiscountType() then
-		return SkinCouponActivity.StaticGetItemConfig(arg_20_0.id)
+function var_0_0.getBuyCount(arg_20_0)
+	return arg_20_0.buyCount or 0
+end
+
+function var_0_0.GetDiscountItem(arg_21_0)
+	if arg_21_0:IsItemDiscountType() then
+		return SkinCouponActivity.StaticGetItemConfig(arg_21_0.id)
 	end
 
 	return nil
 end
 
-function var_0_0.isLevelLimit(arg_21_0, arg_21_1, arg_21_2)
-	local var_21_0, var_21_1 = arg_21_0:getLevelLimit()
+function var_0_0.isLevelLimit(arg_22_0, arg_22_1, arg_22_2)
+	local var_22_0, var_22_1 = arg_22_0:getLevelLimit()
 
-	if arg_21_2 and var_21_1 then
+	if arg_22_2 and var_22_1 then
 		return false
 	end
 
-	return var_21_0 > 0 and arg_21_1 < var_21_0
+	return var_22_0 > 0 and arg_22_1 < var_22_0
 end
 
-function var_0_0.getLevelLimit(arg_22_0)
-	local var_22_0 = arg_22_0:getConfig("limit_args")
+function var_0_0.getLevelLimit(arg_23_0)
+	local var_23_0 = arg_23_0:getConfig("limit_args")
 
-	for iter_22_0, iter_22_1 in ipairs(var_22_0) do
-		if type(iter_22_1) == "table" and iter_22_1[1] == "level" then
-			return iter_22_1[2], iter_22_1[3]
+	for iter_23_0, iter_23_1 in ipairs(var_23_0) do
+		if type(iter_23_1) == "table" and iter_23_1[1] == "level" then
+			return iter_23_1[2], iter_23_1[3]
 		end
 	end
 
 	return 0
-end
-
-function var_0_0.isTimeLimit(arg_23_0)
-	local var_23_0 = arg_23_0:getLimitCount()
-
-	return var_23_0 <= 0 or var_23_0 < arg_23_0.buyCount
 end
 
 function var_0_0.getSkinId(arg_24_0)
@@ -330,7 +328,7 @@ end
 
 function var_0_0.GetLimitDesc(arg_35_0)
 	local var_35_0 = arg_35_0:getLimitCount()
-	local var_35_1 = arg_35_0.buyCount or 0
+	local var_35_1 = arg_35_0:getBuyCount()
 
 	if var_35_0 > 0 then
 		return i18n("charge_limit_all", var_35_0 - var_35_1, var_35_0)
@@ -370,6 +368,19 @@ function var_0_0.GetPackageTag(arg_37_0)
 		return ""
 	else
 		return arg_37_0:getConfig("package_tag")
+	end
+end
+
+function var_0_0.isTip(arg_38_0)
+	if arg_38_0:isGiftPackage() or arg_38_0:isActGiftPackage() then
+		local var_38_0 = arg_38_0:getConfig("akashi_pick") > 0 and "payshop_pack_red_dot" or "gemshop_pack_red_dot"
+		local var_38_1, var_38_2 = unpack(getGameset(var_38_0))
+
+		if PlayerPrefs.GetInt(var_38_0, 0) ~= var_38_1 and table.contains(var_38_2[1], arg_38_0.id) then
+			return true
+		end
+
+		return arg_38_0:isFree()
 	end
 end
 

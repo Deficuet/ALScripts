@@ -85,6 +85,7 @@ function var_0_0.HandleFirmOrder(arg_6_0, arg_6_1)
 			local var_7_0 = arg_6_0:HandleDrops(arg_6_1)
 
 			arg_6_0:HandleConsume(arg_6_1)
+			arg_6_0:HandleFirmActivityOrder(arg_6_1)
 			var_6_0:RemoveSlot(arg_6_1.id)
 			var_6_0:RecordNextCanSubmitTime()
 
@@ -118,6 +119,18 @@ function var_0_0.HandleConsume(arg_9_0, arg_9_1)
 
 	for iter_9_0, iter_9_1 in ipairs(var_9_0) do
 		arg_9_0:sendNotification(GAME.CONSUME_ITEM, iter_9_1)
+	end
+end
+
+function var_0_0.HandleFirmActivityOrder(arg_10_0, arg_10_1)
+	local var_10_0 = arg_10_1:GetOrder()
+
+	if isa(var_10_0, IslandFirmActivityOrder) then
+		if var_10_0:getConfig("next_order") == 0 then
+			getProxy(IslandProxy):GetIsland():GetOrderAgency():AddFinishedActGroupId(var_10_0:GetActivityId(), var_10_0:GetGroupId())
+		end
+
+		IslandTaskHelper.UpdateRuntimeTaskByTargetType(IslandTaskTargetType.ACTIVITY_ORDER)
 	end
 end
 

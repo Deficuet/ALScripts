@@ -23,54 +23,66 @@ function var_0_0.InitData(arg_2_0, arg_2_1)
 		table.insert(arg_2_0.awardIndexList, iter_2_1)
 	end
 
+	arg_2_0.actFinishedGroupsMap = {}
+
+	for iter_2_2, iter_2_3 in ipairs(arg_2_1.act_group or {}) do
+		local var_2_0 = {}
+
+		for iter_2_4, iter_2_5 in ipairs(iter_2_3.groups) do
+			table.insert(var_2_0, iter_2_5)
+		end
+
+		arg_2_0.actFinishedGroupsMap[iter_2_3.act_id] = var_2_0
+	end
+
 	arg_2_0.slotList = {}
 
-	for iter_2_2, iter_2_3 in ipairs(arg_2_1.slot_list or {}) do
-		local var_2_0 = IslandOrderSlot.New(iter_2_3)
+	for iter_2_6, iter_2_7 in ipairs(arg_2_1.slot_list or {}) do
+		local var_2_1 = IslandOrderSlot.New(iter_2_7)
 
-		arg_2_0.slotList[var_2_0.id] = var_2_0
+		arg_2_0.slotList[var_2_1.id] = var_2_1
 	end
 
 	arg_2_0.shipSlotList = {}
 
-	for iter_2_4, iter_2_5 in ipairs(pg.island_order_list.get_id_list_by_type[var_0_0.SHIP_ORDER_TYPE]) do
-		local var_2_1 = IslandShipOrderSlot.New({
-			id = iter_2_5
+	for iter_2_8, iter_2_9 in ipairs(pg.island_order_list.get_id_list_by_type[var_0_0.SHIP_ORDER_TYPE]) do
+		local var_2_2 = IslandShipOrderSlot.New({
+			id = iter_2_9
 		})
 
-		arg_2_0.shipSlotList[var_2_1.id] = var_2_1
+		arg_2_0.shipSlotList[var_2_2.id] = var_2_2
 	end
 
-	for iter_2_6, iter_2_7 in ipairs(arg_2_1.ship_slot_list or {}) do
-		local var_2_2 = arg_2_0.shipSlotList[iter_2_7.id]
+	for iter_2_10, iter_2_11 in ipairs(arg_2_1.ship_slot_list or {}) do
+		local var_2_3 = arg_2_0.shipSlotList[iter_2_11.id]
 
-		if var_2_2 then
-			var_2_2:Init(iter_2_7, true)
+		if var_2_3 then
+			var_2_3:Init(iter_2_11, true)
 		end
 	end
 
 	arg_2_0.shipOrderDelegateSlots = {}
 
-	for iter_2_8, iter_2_9 in ipairs(arg_2_1.appoint_list or {}) do
-		local var_2_3 = IslandShipOrderDelegateSlot.New(iter_2_9)
+	for iter_2_12, iter_2_13 in ipairs(arg_2_1.appoint_list or {}) do
+		local var_2_4 = IslandShipOrderDelegateSlot.New(iter_2_13)
 
-		arg_2_0.shipOrderDelegateSlots[var_2_3.id] = var_2_3
+		arg_2_0.shipOrderDelegateSlots[var_2_4.id] = var_2_4
 	end
 
-	for iter_2_10, iter_2_11 in ipairs(arg_2_1.speed_list or {}) do
-		local var_2_4 = iter_2_11.slot_id
-		local var_2_5 = iter_2_11.speed_time
-		local var_2_6 = pg.island_order_list[var_2_4].type
+	for iter_2_14, iter_2_15 in ipairs(arg_2_1.speed_list or {}) do
+		local var_2_5 = iter_2_15.slot_id
+		local var_2_6 = iter_2_15.speed_time
+		local var_2_7 = pg.island_order_list[var_2_5].type
 
-		if var_2_6 == var_0_0.COMMON_ORDER_TYPE then
-			arg_2_0.slotList[var_2_4]:SetReduceTime(var_2_5)
-		elseif var_2_6 == var_0_0.SHIP_ORDER_TYPE then
-			local var_2_7 = arg_2_0.shipSlotList[var_2_4]
+		if var_2_7 == var_0_0.COMMON_ORDER_TYPE then
+			arg_2_0.slotList[var_2_5]:SetReduceTime(var_2_6)
+		elseif var_2_7 == var_0_0.SHIP_ORDER_TYPE then
+			local var_2_8 = arg_2_0.shipSlotList[var_2_5]
 
-			if var_2_7 and var_2_7:IsWaiting() then
-				var_2_7:SetReloadingReduceTime(var_2_5)
-			elseif var_2_7 and var_2_7:IsSubmited() then
-				var_2_7:SetReduceTime(var_2_5)
+			if var_2_8 and var_2_8:IsWaiting() then
+				var_2_8:SetReloadingReduceTime(var_2_6)
+			elseif var_2_8 and var_2_8:IsSubmited() then
+				var_2_8:SetReduceTime(var_2_6)
 			end
 		end
 	end
@@ -355,19 +367,65 @@ function var_0_0.SetCacheSelectedId(arg_46_0, arg_46_1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.UpdatePerDay(arg_47_0)
-	arg_47_0.finishCnt = 0
-
-	if pg.TimeMgr.GetInstance():GetServerWeek() == 1 then
-		arg_47_0.urgencyFinishCnt = 0
-		arg_47_0.exp = 0
+function var_0_0.AddFinishedActGroupId(arg_47_0, arg_47_1, arg_47_2)
+	if not arg_47_0.actFinishedGroupsMap[arg_47_1] then
+		arg_47_0.actFinishedGroupsMap[arg_47_1] = {}
 	end
 
-	arg_47_0:DispatchEvent(var_0_0.ORDER_FINISH_UPDATE)
+	if not table.contains(arg_47_0.actFinishedGroupsMap[arg_47_1], arg_47_2) then
+		table.insert(arg_47_0.actFinishedGroupsMap[arg_47_1], arg_47_2)
+	end
 end
 
-function var_0_0.OnSeasonReset(arg_48_0, arg_48_1)
-	arg_48_0:InitData(arg_48_1)
+function var_0_0.GetFinishedCntByActId(arg_48_0, arg_48_1)
+	local var_48_0 = pg.island_order
+	local var_48_1 = var_48_0.get_id_list_by_activity_id[arg_48_1]
+	local var_48_2 = {}
+
+	for iter_48_0, iter_48_1 in ipairs(var_48_1) do
+		local var_48_3 = var_48_0[iter_48_1].group_id
+
+		if not var_48_2[var_48_3] then
+			var_48_2[var_48_3] = {}
+		end
+
+		table.insert(var_48_2[var_48_3], iter_48_1)
+	end
+
+	local var_48_4 = 0
+
+	for iter_48_2, iter_48_3 in ipairs(arg_48_0.actFinishedGroupsMap[arg_48_1] or {}) do
+		var_48_4 = var_48_4 + #var_48_2[iter_48_3]
+	end
+
+	for iter_48_4, iter_48_5 in pairs(arg_48_0.slotList) do
+		local var_48_5 = iter_48_5:GetOrder()
+
+		if isa(var_48_5, IslandFirmActivityOrder) and var_48_5:GetActivityId() == arg_48_1 then
+			local var_48_6 = var_48_2[var_48_5:GetGroupId()]
+
+			table.sort(var_48_6)
+
+			var_48_4 = var_48_4 + table.indexof(var_48_6, var_48_5.id) - 1
+		end
+	end
+
+	return var_48_4
+end
+
+function var_0_0.UpdatePerDay(arg_49_0)
+	arg_49_0.finishCnt = 0
+
+	if pg.TimeMgr.GetInstance():GetServerWeek() == 1 then
+		arg_49_0.urgencyFinishCnt = 0
+		arg_49_0.exp = 0
+	end
+
+	arg_49_0:DispatchEvent(var_0_0.ORDER_FINISH_UPDATE)
+end
+
+function var_0_0.OnSeasonReset(arg_50_0, arg_50_1)
+	arg_50_0:InitData(arg_50_1)
 end
 
 return var_0_0

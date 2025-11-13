@@ -106,7 +106,7 @@ function var_0_0.CalculateTimeToProductFormula(arg_13_0, arg_13_1, arg_13_2, arg
 	local var_13_12 = var_13_1:GetAttr(IslandShipAttr.ATTRS[var_13_4])
 	local var_13_13 = var_13_1:GetAttrGradeByValue(var_13_12)
 	local var_13_14 = pg.island_chara_att[var_13_13].effect
-	local var_13_15 = var_13_2 * (1 + 0.01 * (var_13_5 + var_13_9 + var_13_11))
+	local var_13_15 = var_13_5 + var_13_9 + var_13_11
 	local var_13_16 = var_13_1:GetVaildStatusByType(IslandBuffType.SHIP_ATTR)
 
 	table.sort(var_13_16, function(arg_15_0, arg_15_1)
@@ -164,7 +164,7 @@ function var_0_0.CalculateTimeToProductFormula(arg_13_0, arg_13_1, arg_13_2, arg
 			break
 		end
 
-		local var_13_29 = var_13_15 * (1 + 0.01 * pg.island_chara_att[var_13_28].effect)
+		local var_13_29 = var_13_2 * (1 + 0.01 * (pg.island_chara_att[var_13_28].effect + var_13_15))
 
 		table.insert(var_13_22, {
 			buffSpeed = var_13_29,
@@ -196,7 +196,7 @@ function var_0_0.CalculateTimeToProductFormula(arg_13_0, arg_13_1, arg_13_2, arg
 		end
 
 		if var_13_32 > 0 then
-			local var_13_35 = var_13_15 * (1 + 0.01 * var_13_14)
+			local var_13_35 = var_13_2 * (1 + 0.01 * (var_13_14 + var_13_15))
 
 			var_13_33 = var_13_33 + math.floor(var_13_32 / var_13_35)
 		end

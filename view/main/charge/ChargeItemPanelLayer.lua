@@ -126,7 +126,7 @@ function var_0_0.addListener(arg_8_0)
 
 					table.insert(var_11_0, function(arg_13_0)
 						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("SkinDiscount_Owned_Tips", var_11_8, var_11_9),
+							content = i18n(iter_11_1:GetConfigClientSetting("gift_tip")[arg_8_0.panelConfig.commodity.id], var_11_8, var_11_9),
 							onYes = arg_13_0
 						})
 					end)

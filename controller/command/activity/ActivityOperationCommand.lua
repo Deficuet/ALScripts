@@ -44,8 +44,18 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				return
 			end
 		end
-	elseif var_1_2 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 and var_1_0.cmd == 2 and not var_1_1:CanRequest() then
-		return
+	elseif var_1_2 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
+		if var_1_0.cmd == 2 and not var_1_1:CanRequest() then
+			return
+		end
+	elseif var_1_2 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+		local var_1_9 = var_1_0.costDrop
+
+		if var_1_9.count > var_1_9:getOwnedCount() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
+
+			return
+		end
 	end
 
 	pg.ConnectionMgr.GetInstance():Send(11202, {
@@ -676,6 +686,12 @@ function var_0_0.updateActivityData(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 		elseif arg_3_1.cmd == 2 then
 			arg_3_3:updateKVPList(1, arg_3_1.arg1, arg_3_1.canGetIndex)
 		end
+	elseif var_3_0 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+		assert(arg_3_3.data1 == 0)
+
+		arg_3_3.data1 = 1
+
+		reducePlayerOwn(arg_3_1.costDrop)
 	end
 
 	return arg_3_3
@@ -814,6 +830,9 @@ function var_0_0.performance(arg_6_0, arg_6_1, arg_6_2, arg_6_3, arg_6_4)
 					var_8_9:updateActivity(var_8_11)
 				end
 			end
+		elseif var_6_0 == ActivityConst.ACTIVITY_TYPE_SKIN_FAKE_PACKAGE then
+			getProxy(ActivityProxy):updateActivity(arg_6_3)
+			arg_6_0:sendNotification(NewShopMainMediator.NOTI_UPDATE_CURRENT)
 		end
 
 		if #arg_6_4 > 0 then

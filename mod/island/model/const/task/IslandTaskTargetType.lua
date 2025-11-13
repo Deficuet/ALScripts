@@ -66,7 +66,8 @@ function var_0_0.GetRuntimeTypes()
 		var_0_0.STORY,
 		var_0_0.ACTION,
 		var_0_0.COMMANDER_DRESS_ID,
-		var_0_0.SHIP_DRESS_ID
+		var_0_0.SHIP_DRESS_ID,
+		var_0_0.ACTIVITY_ORDER
 	}
 end
 

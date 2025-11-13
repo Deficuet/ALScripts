@@ -36,7 +36,11 @@ function var_0_0.init(arg_10_0)
 	arg_10_0.visitorBtn = arg_10_0._tf:Find("top/visitor")
 	arg_10_0.levelPanel = IslandLevelPanel.New(arg_10_0._tf, arg_10_0.event)
 	arg_10_0.taskTrackPanel = Island3dTaskTrackPanel.New(arg_10_0._tf:Find("track_container"), arg_10_0.event)
-	arg_10_0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(arg_10_0._tf, arg_10_0.event)
+	arg_10_0.awardDisplayPanel = IslandAwardDisplayInMainPanel.New(arg_10_0._tf, arg_10_0.event, setmetatable({
+		needAdapt = true
+	}, {
+		__index = arg_10_0.contextData
+	}))
 	arg_10_0.btnContainer = IslandMainBtnContainer.New(arg_10_0._tf:Find("top/btn_container"), arg_10_0.event)
 end
 

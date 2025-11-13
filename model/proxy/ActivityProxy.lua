@@ -709,6 +709,15 @@ function var_0_0.updateActivity(arg_65_0, arg_65_1)
 				ptCount = arg_65_1.data1 - arg_65_0.data[arg_65_1.id].data1
 			})
 		end
+	elseif arg_65_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_HEI5 then
+		local var_65_1 = pg.black_friday_battlepass_event_pt[arg_65_1.id].target
+
+		if arg_65_0.data[arg_65_1.id].data1 < var_65_1[#var_65_1] and arg_65_1.data1 - arg_65_0.data[arg_65_1.id].data1 > 0 then
+			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_CRUSING, {
+				ptId = pg.black_friday_battlepass_event_pt[arg_65_1.id].pt,
+				ptCount = arg_65_1.data1 - arg_65_0.data[arg_65_1.id].data1
+			})
+		end
 	end
 
 	arg_65_0.data[arg_65_1.id] = arg_65_1

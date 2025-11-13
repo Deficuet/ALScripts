@@ -161,10 +161,10 @@ function var_0_0.onListenerEvent(arg_2_0, arg_2_1, arg_2_2)
 							if arg_2_0.actionTrigger.change_focus == false then
 								arg_2_0.prepareTargetValue = var_2_14
 
-								print(arg_2_0.parameterName .. "等待动作结束后的target赋值" .. arg_2_0.parameterTargetValue)
+								print(arg_2_0.id .. "=" .. arg_2_0.parameterName .. "等待动作结束后的target赋值" .. arg_2_0.parameterTargetValue)
 							else
 								arg_2_0:setTargetValue(var_2_14)
-								print(arg_2_0.parameterName .. "监听 数值变更为" .. arg_2_0.parameterTargetValue)
+								print(arg_2_0.id .. "=" .. arg_2_0.parameterName .. "监听 数值变更为" .. arg_2_0.parameterTargetValue)
 							end
 						end
 

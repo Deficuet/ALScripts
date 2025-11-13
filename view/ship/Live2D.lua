@@ -849,10 +849,16 @@ function var_0_0.Ctor(arg_38_0, arg_38_1, arg_38_2)
 	arg_38_0.modelName = arg_38_0.live2dData:GetShipName()
 
 	local function var_38_0(arg_39_0)
-		var_0_20(arg_38_0, arg_39_0)
+		if arg_39_0 then
+			if arg_38_0.state == var_0_0.STATE_LOADING then
+				var_0_20(arg_38_0, arg_39_0)
 
-		if arg_38_2 then
-			arg_38_2(arg_38_0)
+				if arg_38_2 then
+					arg_38_2(arg_38_0)
+				end
+			else
+				pg.Live2DMgr.GetInstance():ReturnLive2DModel(arg_38_0.modelName, arg_39_0)
+			end
 		end
 	end
 
@@ -1285,14 +1291,14 @@ function var_0_0.changeIdleIndex(arg_67_0, arg_67_1)
 		end
 	end
 
-	arg_67_0:onListenerHandle(Live2D.ON_ACTION_CHANGE_IDLE, {
-		idle = arg_67_0.idleIndex,
-		idle_change = var_67_0
-	})
 	print("live2d 待机动作设置为 = " .. arg_67_1)
 
 	arg_67_0.idleIndex = arg_67_1
 
+	arg_67_0:onListenerHandle(Live2D.ON_ACTION_CHANGE_IDLE, {
+		idle = arg_67_0.idleIndex,
+		idle_change = var_67_0
+	})
 	arg_67_0:updateDragsSateData()
 end
 

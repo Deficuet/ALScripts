@@ -49734,6 +49734,44 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[40141] = {
+		open_directly = 1,
+		name = "疾速狂热特别礼包",
+		display = "购买三件指定换装可获得永恒礼盒*1",
+		type = 17,
+		display_effect = "",
+		id = 40141,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 50242,
+		icon = "Props/black5bundle1",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				15006,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[40701] = {
 		open_directly = 1,
 		name = "回归补给礼包",
@@ -123943,6 +123981,366 @@ end)()
 		combination_display = {},
 		usage_arg = {
 			90392
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68136] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(漆黑的超极速前奏)",
+		display = "购买后可获得<color=#92fc63FF>{namecode:199}</color>换装<color=#92fc63FF>漆黑的超极速前奏</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68136,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "906563",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68139,
+				1
+			},
+			{
+				2,
+				68142,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68137] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(机械师的满分应援)",
+		display = "购买后可获得<color=#92fc63FF>纳希莫夫海军上将</color>换装<color=#92fc63FF>机械师的满分应援</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68137,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "906564",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68140,
+				1
+			},
+			{
+				2,
+				68143,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68138] = {
+		open_directly = 1,
+		name = "换装抵扣礼包(水漾在疾驰之前)",
+		display = "购买后可获得<color=#92fc63FF>埃塞克斯</color>换装<color=#92fc63FF>水漾在疾驰之前</color>的钻石抵扣券等道具",
+		type = 17,
+		display_effect = "",
+		id = 68138,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_drop",
+		link_id = 0,
+		icon = "ChargeIcon/skin_ticket_package",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "906565",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {
+			{
+				2,
+				68141,
+				1
+			},
+			{
+				2,
+				68144,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68139] = {
+		open_directly = 0,
+		name = "换装抵扣券(漆黑的超极速前奏)",
+		display = "持有此道具时，购买<color=#92fc63FF>{namecode:199}</color>换装<color=#92fc63FF>漆黑的超极速前奏</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68139,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71234
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68140] = {
+		open_directly = 0,
+		name = "换装抵扣券(机械师的满分应援)",
+		display = "持有此道具时，购买<color=#92fc63FF>纳希莫夫海军上将</color>换装<color=#92fc63FF>机械师的满分应援</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68140,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71235
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68141] = {
+		open_directly = 0,
+		name = "换装抵扣券(水漾在疾驰之前)",
+		display = "持有此道具时，购买<color=#92fc63FF>埃塞克斯</color>换装<color=#92fc63FF>水漾在疾驰之前</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+		type = 1,
+		display_effect = "",
+		id = 68141,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_shop_discount",
+		link_id = 0,
+		icon = "Props/limit_skin_300",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			14,
+			300
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			{
+				71236
+			},
+			300
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68142] = {
+		open_directly = 0,
+		name = "换装体验券(漆黑的超极速前奏)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:199}</color>换装<color=#92fc63FF>漆黑的超极速前奏</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68142,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90396
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68143] = {
+		open_directly = 0,
+		name = "换装体验券(机械师的满分应援)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>纳希莫夫海军上将</color>换装<color=#92fc63FF>机械师的满分应援</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68143,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90397
+		},
+		limit = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_data_statistics[68144] = {
+		open_directly = 0,
+		name = "换装体验券(水漾在疾驰之前)",
+		display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>埃塞克斯</color>换装<color=#92fc63FF>水漾在疾驰之前</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年12月3日 23:59，过期后此道具将消失</color>",
+		type = 1,
+		display_effect = "",
+		id = 68144,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_skin_exp",
+		link_id = 0,
+		icon = "Props/limit_skinticket",
+		order = 1,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 1,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {
+			1,
+			0
+		},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		usage_arg = {
+			90398
 		},
 		limit = {}
 	}

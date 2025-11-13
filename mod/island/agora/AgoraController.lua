@@ -122,6 +122,7 @@ end
 
 function var_0_0.InitSyncMgr(arg_10_0)
 	arg_10_0.islandSyncMgr:Init(arg_10_0.sceneData.unitList, arg_10_0.agora:GetAllVirtualInteractUnitData())
+	arg_10_0:NotifiyCore(ISLAND_EVT.INIT_INTERACTION_OP_VIEW)
 end
 
 function var_0_0.PaveLayers(arg_11_0, arg_11_1, arg_11_2)

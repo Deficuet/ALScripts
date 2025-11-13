@@ -178580,6 +178580,227 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65732] = {
+		display = "用于「须臾望月抄」复刻活动兑换，活动结束后将会消失",
+		name = "樱花签",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/yunxian_pt",
+		id = 65732,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65733] = {
+		display = "于「须臾望月抄」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+		name = "单次建造券",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 50236,
+		virtual_type = 22,
+		is_world = 0,
+		icon = "Props/buildTicket",
+		id = 65733,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65734] = {
+		display = "用于头像框活动兑换，活动结束后将会消失",
+		name = "训练点数",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/xunliandianshu_rv3",
+		id = 65734,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65735] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65735,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65736] = {
+		display = "随机获得一件「常世夜游」主题外观装备",
+		name = "外观装备(常世夜游)",
+		max_num = 0,
+		type = 99,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/equipskin_drop_display",
+		id = 65736,
+		order = 0,
+		display_icon = {
+			{
+				9,
+				830,
+				1
+			},
+			{
+				9,
+				831,
+				1
+			},
+			{
+				9,
+				832,
+				1
+			},
+			{
+				9,
+				833,
+				1
+			},
+			{
+				9,
+				834,
+				1
+			},
+			{
+				9,
+				835,
+				1
+			},
+			{
+				9,
+				836,
+				1
+			},
+			{
+				9,
+				837,
+				1
+			},
+			{
+				9,
+				838,
+				1
+			},
+			{
+				9,
+				839,
+				1
+			},
+			{
+				9,
+				840,
+				1
+			},
+			{
+				9,
+				841,
+				1
+			},
+			{
+				9,
+				842,
+				1
+			},
+			{
+				9,
+				843,
+				1
+			},
+			{
+				9,
+				844,
+				1
+			},
+			{
+				9,
+				845,
+				1
+			},
+			{
+				9,
+				846,
+				1
+			},
+			{
+				9,
+				847,
+				1
+			}
+		},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66001] = {
 		display = "重要的重建物资之一，木香与海风更配哦",
 		name = "木料",

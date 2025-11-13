@@ -5,6 +5,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0._tf = arg_1_1.transform
 	arg_1_0.usingTr = findTF(arg_1_0._tf, "using")
 	arg_1_0.unavailableTr = findTF(arg_1_0._tf, "unavailable")
+	arg_1_0.have = arg_1_0._tf:Find("have")
 	arg_1_0.icon = findTF(arg_1_0._tf, "mask/icon")
 	arg_1_0.name = findTF(arg_1_0._tf, "name/Text"):GetComponent(typeof(Text))
 	arg_1_0.enName = findTF(arg_1_0._tf, "name/en"):GetComponent(typeof(Text))
@@ -14,9 +15,11 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 
 	setText(arg_1_0.usingTr:Find("Text"), i18n("shop_new_in_use"))
 	setText(arg_1_0.unavailableTr:Find("Text"), i18n("shop_new_unable_to_use"))
+	setText(arg_1_0.have:Find("Text"), i18n("shop_new_owned"))
+	setActive()
 end
 
-function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
+function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 	arg_2_0.index = arg_2_2
 	arg_2_0.skin = arg_2_1
 
@@ -38,23 +41,31 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
 	setActive(arg_2_0.usingTr, var_2_1)
 	setActive(arg_2_0.unavailableTr, var_2_2)
 
-	local var_2_7 = arg_2_1:getConfig("name")
+	if arg_2_3 then
+		local var_2_7 = getProxy(ShipSkinProxy):hasSkin(arg_2_0.skin.id)
 
-	arg_2_0.name.text = shortenString(var_2_7, 7)
+		setActive(arg_2_0.have, var_2_7)
+	else
+		setActive(arg_2_0.have, false)
+	end
+
+	local var_2_8 = arg_2_1:getConfig("name")
+
+	arg_2_0.name.text = shortenString(var_2_8, 7)
 
 	if var_2_0.skin_type == ShipSkin.SKIN_TYPE_TB then
 		arg_2_0.enName.text = NewEducateHelper.GetShipNameBySecId(NewEducateHelper.GetSecIdBySkinId(arg_2_0.skinId))
 	else
-		local var_2_8 = ShipGroup.getDefaultShipConfig(var_2_0.ship_group)
+		local var_2_9 = ShipGroup.getDefaultShipConfig(var_2_0.ship_group)
 
-		arg_2_0.enName.text = var_2_8.english_name
+		arg_2_0.enName.text = var_2_9.english_name
 	end
 
-	local var_2_9 = ShipSkin.GetChangeSkinData(arg_2_0.skin.id)
+	local var_2_10 = ShipSkin.GetChangeSkinData(arg_2_0.skin.id)
 
-	setActive(arg_2_0.changeSkinUI, var_2_9 and true or false)
+	setActive(arg_2_0.changeSkinUI, var_2_10 and true or false)
 
-	if var_2_9 then
+	if var_2_10 then
 		if not arg_2_0.changeSkinToggle then
 			arg_2_0.changeSkinToggle = ChangeSkinToggle.New(findTF(arg_2_0.changeSkinUI, "ChangeSkinToggleUI"))
 		end

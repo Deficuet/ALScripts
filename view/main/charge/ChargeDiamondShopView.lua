@@ -227,87 +227,70 @@ function var_0_0.sortDiamondGoodsVOList(arg_17_0)
 		end
 	end
 
-	table.sort(arg_17_0.diamondGoodsVOListForShow, function(arg_18_0, arg_18_1)
-		local var_18_0 = not table.contains(arg_17_0.firstChargeIds, arg_18_0.id) and arg_18_0:firstPayDouble() and 1 or 0
-		local var_18_1 = not table.contains(arg_17_0.firstChargeIds, arg_18_1.id) and arg_18_1:firstPayDouble() and 1 or 0
-		local var_18_2 = 0
-		local var_18_3 = 0
+	table.sort(arg_17_0.diamondGoodsVOListForShow, CompareFuncs({
+		function(arg_18_0)
+			return arg_18_0:isFree() and 0 or 1
+		end,
+		function(arg_19_0)
+			if arg_19_0:isChargeType() and arg_19_0:isMonthCard() then
+				local var_19_0 = arg_17_0.player:getCardById(VipCard.MONTH)
 
-		if arg_18_0:isFree() then
-			return true
-		elseif arg_18_1:isFree() then
-			return false
-		end
+				if var_19_0 then
+					local var_19_1 = var_19_0:getLeftDate()
+					local var_19_2 = pg.TimeMgr.GetInstance():GetServerTime()
 
-		if arg_18_0:isChargeType() and arg_18_0:isMonthCard() then
-			local var_18_4 = arg_17_0.player:getCardById(VipCard.MONTH)
-
-			if var_18_4 then
-				local var_18_5 = var_18_4:getLeftDate()
-				local var_18_6 = pg.TimeMgr.GetInstance():GetServerTime()
-
-				var_18_2 = math.floor((var_18_5 - var_18_6) / 86400) > (arg_18_0:getConfig("limit_arg") or 0) and 1 or 0
+					if math.floor((var_19_1 - var_19_2) / 86400) > (arg_19_0:getConfig("limit_arg") or 0) then
+						return 1
+					end
+				end
 			end
+
+			return 0
+		end,
+		function(arg_20_0)
+			return not table.contains(arg_17_0.firstChargeIds, arg_20_0.id) and arg_20_0:firstPayDouble() and 0 or 1
+		end,
+		function(arg_21_0)
+			return arg_21_0:getConfig("tag") == 2 and 0 or 1
+		end,
+		function(arg_22_0)
+			return arg_22_0.id
 		end
-
-		if arg_18_1:isChargeType() and arg_18_1:isMonthCard() then
-			local var_18_7 = arg_17_0.player:getCardById(VipCard.MONTH)
-
-			if var_18_7 then
-				local var_18_8 = var_18_7:getLeftDate()
-				local var_18_9 = pg.TimeMgr.GetInstance():GetServerTime()
-
-				var_18_3 = math.floor((var_18_8 - var_18_9) / 86400) > (arg_18_1:getConfig("limit_arg") or 0) and 1 or 0
-			end
-		end
-
-		if var_18_2 ~= var_18_3 then
-			return var_18_2 < var_18_3
-		end
-
-		local var_18_10 = arg_18_0:getConfig("tag") == 2 and 1 or 0
-		local var_18_11 = arg_18_1:getConfig("tag") == 2 and 1 or 0
-
-		if var_18_0 == var_18_1 and var_18_10 == var_18_11 then
-			return arg_18_0.id < arg_18_1.id
-		else
-			return var_18_1 < var_18_0 or var_18_0 == var_18_1 and var_18_11 < var_18_10
-		end
-	end)
+	}))
 end
 
-function var_0_0.updateGoodsData(arg_19_0)
-	arg_19_0.firstChargeIds = arg_19_0.contextData.firstChargeIds
-	arg_19_0.chargedList = arg_19_0.contextData.chargedList
-	arg_19_0.normalList = arg_19_0.contextData.normalList
-	arg_19_0.normalGroupList = arg_19_0.contextData.normalGroupList
+function var_0_0.updateGoodsData(arg_23_0)
+	arg_23_0.firstChargeIds = arg_23_0.contextData.firstChargeIds
+	arg_23_0.chargedList = arg_23_0.contextData.chargedList
+	arg_23_0.normalList = arg_23_0.contextData.normalList
+	arg_23_0.normalGroupList = arg_23_0.contextData.normalGroupList
 end
 
-function var_0_0.setGoodData(arg_20_0, arg_20_1, arg_20_2, arg_20_3, arg_20_4)
-	arg_20_0.firstChargeIds = arg_20_1
-	arg_20_0.chargedList = arg_20_2
-	arg_20_0.normalList = arg_20_3
-	arg_20_0.normalGroupList = arg_20_4
+function var_0_0.setGoodData(arg_24_0, arg_24_1, arg_24_2, arg_24_3, arg_24_4)
+	arg_24_0.firstChargeIds = arg_24_1
+	arg_24_0.chargedList = arg_24_2
+	arg_24_0.normalList = arg_24_3
+	arg_24_0.normalGroupList = arg_24_4
 end
 
-function var_0_0.updateData(arg_21_0)
-	arg_21_0.player = getProxy(PlayerProxy):getData()
+function var_0_0.updateData(arg_25_0)
+	arg_25_0.player = getProxy(PlayerProxy):getData()
 
-	arg_21_0:updateDiamondGoodsVOList()
-	arg_21_0:sortDiamondGoodsVOList()
+	arg_25_0:updateDiamondGoodsVOList()
+	arg_25_0:sortDiamondGoodsVOList()
 end
 
-function var_0_0.IsSupplyShop(arg_22_0)
+function var_0_0.IsSupplyShop(arg_26_0)
 	return false
 end
 
-function var_0_0.reUpdateAll(arg_23_0)
-	arg_23_0:updateData()
-	arg_23_0:updateView()
+function var_0_0.reUpdateAll(arg_27_0)
+	arg_27_0:updateData()
+	arg_27_0:updateView()
 end
 
-function var_0_0.ShowPanel(arg_24_0, arg_24_1)
-	setActive(arg_24_0._go, arg_24_1)
+function var_0_0.ShowPanel(arg_28_0, arg_28_1)
+	setActive(arg_28_0._go, arg_28_1)
 end
 
 return var_0_0

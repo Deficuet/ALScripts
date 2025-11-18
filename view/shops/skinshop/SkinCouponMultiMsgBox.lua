@@ -1,4 +1,4 @@
-local var_0_0 = class("SkinCouponMultiMsgBox", import("view.base.BaseSubView"))
+local var_0_0 = class("SkinCouponMultiMsgBox", import("view.shops.skinShop.SkinCouponMsgBox"))
 local var_0_1 = 0
 local var_0_2 = 1
 

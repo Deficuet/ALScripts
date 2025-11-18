@@ -19,7 +19,7 @@ function var_0_0.OnInit(arg_1_0, arg_1_1)
 		arg_1_0.tasks[var_1_1.id] = var_1_1
 	end
 
-	arg_1_0:InitFutureTasks()
+	arg_1_0:InitFutureTasks(var_1_0.task_list_random or {})
 	arg_1_0:SetMainTraceId(arg_1_0:GetPriorityMainTraceTaskId())
 
 	arg_1_0.acceptCheckTimestampTags = {}
@@ -33,7 +33,7 @@ function var_0_0.OnInit(arg_1_0, arg_1_1)
 	end
 end
 
-function var_0_0.InitFutureTasks(arg_2_0)
+function var_0_0.InitFutureTasks(arg_2_0, arg_2_1)
 	arg_2_0.mutexIds = Clone(arg_2_0.finishedIds)
 
 	for iter_2_0, iter_2_1 in pairs(arg_2_0.tasks) do
@@ -41,14 +41,25 @@ function var_0_0.InitFutureTasks(arg_2_0)
 	end
 
 	arg_2_0.futureTasks = {}
+	arg_2_0.randomTaskTimes = {}
 
-	for iter_2_2, iter_2_3 in ipairs(IslandTaskType.GetPermanentTypes()) do
-		local var_2_0 = pg.island_task.get_id_list_by_type[iter_2_3] or {}
-		local var_2_1 = underscore.select(var_2_0, function(arg_3_0)
+	for iter_2_2, iter_2_3 in ipairs(arg_2_1) do
+		arg_2_0.randomTaskTimes[iter_2_3.task_id] = iter_2_3.timestamp
+
+		if not arg_2_0:CheckMutex(iter_2_3.task_id) then
+			local var_2_0 = IslandFutureTask.New(iter_2_3)
+
+			arg_2_0.futureTasks[var_2_0.id] = var_2_0
+		end
+	end
+
+	for iter_2_4, iter_2_5 in ipairs(IslandTaskType.GetPermanentTypes()) do
+		local var_2_1 = pg.island_task.get_id_list_by_type[iter_2_5] or {}
+		local var_2_2 = underscore.select(var_2_1, function(arg_3_0)
 			return pg.island_task[arg_3_0].unlock_time ~= "stop" and not var_0_0.IsServerAcceptType(arg_3_0) and not arg_2_0:CheckMutex(arg_3_0)
 		end)
 
-		underscore.each(var_2_1, function(arg_4_0)
+		underscore.each(var_2_2, function(arg_4_0)
 			local var_4_0 = IslandFutureTask.New({
 				task_id = arg_4_0
 			})
@@ -219,6 +230,11 @@ end
 
 function var_0_0.AddTask(arg_30_0, arg_30_1)
 	arg_30_0.tasks[arg_30_1.id] = arg_30_1
+
+	if arg_30_0.randomTaskTimes[arg_30_1.id] then
+		arg_30_0.tasks[arg_30_1.id]:SetEndTime(arg_30_0.randomTaskTimes[arg_30_1.id])
+	end
+
 	arg_30_0.futureTasks[arg_30_1.id] = nil
 
 	table.insert(arg_30_0.mutexIds, arg_30_1.id)
@@ -234,6 +250,10 @@ end
 
 function var_0_0.UpdateTask(arg_31_0, arg_31_1)
 	arg_31_0.tasks[arg_31_1.id] = arg_31_1
+
+	if arg_31_0.randomTaskTimes[arg_31_1.id] then
+		arg_31_0.tasks[arg_31_1.id]:SetEndTime(arg_31_0.randomTaskTimes[arg_31_1.id])
+	end
 
 	arg_31_0:DispatchEvent(var_0_0.TASK_UPDATED, arg_31_1)
 
@@ -311,6 +331,8 @@ function var_0_0.UpdateRandomRefreshTask(arg_39_0, arg_39_1)
 	for iter_39_2, iter_39_3 in ipairs(arg_39_1.remove_task_finish or {}) do
 		table.removebyvalue(arg_39_0.finishedIds, iter_39_3)
 	end
+
+	arg_39_0:InitFutureTasks(arg_39_1.task_list_random or {})
 
 	for iter_39_4, iter_39_5 in ipairs(arg_39_1.task_list or {}) do
 		local var_39_0 = IslandTask.New(iter_39_5)

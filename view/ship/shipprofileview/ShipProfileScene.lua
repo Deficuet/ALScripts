@@ -701,7 +701,7 @@ function var_0_0.OnCVBtnClick(arg_53_0, arg_53_1)
 						function(arg_58_0)
 							arg_53_0:RemoveLive2DTimer()
 
-							if arg_53_0.l2dChar:checkActionExist(var_54_0) then
+							if arg_53_0.l2dChar:checkActionProfile(var_54_0) then
 								arg_53_0.l2dActioning = arg_53_0.l2dChar:TriggerAction(var_54_0, arg_58_0, nil, function(arg_59_0)
 									arg_53_0:PlayVoice(arg_53_1, var_54_3)
 									arg_53_0:ShowDailogue(arg_53_1, var_54_3, arg_58_0)

@@ -87,6 +87,7 @@ end
 
 function var_0_0.OnLoaded(arg_7_0)
 	arg_7_0.parentTr = arg_7_0._tf.parent
+	arg_7_0._bg = arg_7_0._tf:Find("BG")
 	arg_7_0._stageName = arg_7_0._tf:Find("Panel/Progress/name")
 	arg_7_0._delta = arg_7_0._tf:Find("Panel/Progress/delta")
 	arg_7_0._hpRate = arg_7_0._tf:Find("Panel/Progress/value")
@@ -129,13 +130,16 @@ function var_0_0.RegisterEvent(arg_8_0)
 		arg_8_0._series:SetDifficulty(CollabrateBossRushSeriesData.DIFF.HARD)
 		arg_8_0.event:emit(BossRushDALCollabMediator.ON_FLEET_SELECT, arg_8_0._series)
 	end, SFX_PANEL)
+	onButton(arg_8_0, arg_8_0._bg, function()
+		arg_8_0:Hide()
+	end, SFX_PANEL)
 end
 
-function var_0_0.OnDestroy(arg_12_0)
-	arg_12_0.exited = true
+function var_0_0.OnDestroy(arg_13_0)
+	arg_13_0.exited = true
 
-	if arg_12_0:isShowing() then
-		arg_12_0:Hide()
+	if arg_13_0:isShowing() then
+		arg_13_0:Hide()
 	end
 end
 

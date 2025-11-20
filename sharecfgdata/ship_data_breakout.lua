@@ -55671,7 +55671,7 @@ end)()
 		breakout_id = 11500053,
 		use_char_num = 1,
 		use_char = 1150005,
-		breakout_view = "主炮底座+1//主炮效率提高10%",
+		breakout_view = "主炮底座+1/主炮效率提高10%",
 		level = 30,
 		id = 11500052,
 		icon = "10001",

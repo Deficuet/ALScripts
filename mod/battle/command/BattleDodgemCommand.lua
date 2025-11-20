@@ -49,6 +49,7 @@ function var_0_3.initWaveModule(arg_6_0)
 			return
 		end
 
+		arg_6_0._dataProxy:TriggerFinishBattle()
 		arg_6_0._dataProxy:CalcDodgemScore()
 		arg_6_0._state:BattleEnd()
 	end

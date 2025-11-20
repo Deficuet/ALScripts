@@ -46,18 +46,19 @@ end
 function var_0_0.LoadShip(arg_8_0, arg_8_1, arg_8_2)
 	local var_8_0 = pg.ship_skin_template[arg_8_1].prefab
 
-	pg.PoolMgr.GetInstance():GetSpineChar(var_8_0, true, function(arg_9_0)
+	arg_8_0.loadedShip = SpineAnimChar.New()
+
+	arg_8_0.loadedShip:SetPaint(var_8_0)
+	arg_8_0.loadedShip:Load(true, function(arg_9_0)
 		if arg_8_0.loadedAnimator then
-			setParent(arg_9_0, arg_8_0.loadedAnimator)
+			arg_9_0:SetParent(arg_8_0.loadedAnimator)
 		else
-			setParent(arg_9_0, arg_8_0.loadedFurniture)
+			arg_9_0:SetParent(arg_8_0.loadedFurniture)
 		end
 
-		arg_9_0.name = var_8_0
-		arg_9_0.transform.localScale = Vector3(var_0_1, var_0_1, 1)
-		arg_8_0.loadedShip = arg_9_0
-		arg_9_0.transform.localPosition = Vector3()
-
+		arg_9_0:SetName(var_8_0)
+		arg_9_0:SetLocalScale(Vector3(var_0_1, var_0_1, 1))
+		arg_9_0:SetLocalPosition(Vector3())
 		arg_8_2()
 	end)
 end
@@ -238,26 +239,26 @@ function var_0_0.StartFollowBone(arg_25_0, arg_25_1)
 	local var_25_2 = var_25_0[2]
 	local var_25_3 = arg_25_0.loadedFurniture.transform
 
-	arg_25_0.loadedShip.transform.localScale = Vector3(var_25_2 * var_0_1, var_0_1, 1)
+	arg_25_0.loadedShip:SetLocalScale(Vector3(var_25_2 * var_0_1, var_0_1, 1))
+
 	SpineAnimUI.AddFollower(var_25_1, var_25_3:Find("spine"), arg_25_0.loadedShip.transform):GetComponent("Spine.Unity.BoneFollowerGraphic").followLocalScale = true
-	arg_25_0.loadedShip.transform.localPosition = Vector3(0, 0, 0)
+
+	arg_25_0.loadedShip:SetLocalPosition(Vector3(0, 0, 0))
 end
 
 function var_0_0.PlayAction(arg_26_0, arg_26_1, arg_26_2, arg_26_3)
-	local var_26_0 = GetOrAddComponent(arg_26_1, typeof(SpineAnimUI))
-
-	var_26_0:SetActionCallBack(function(arg_27_0)
+	arg_26_1:SetActionCallBack(function(arg_27_0)
 		if arg_27_0 == "finish" then
-			var_26_0:SetActionCallBack(nil)
+			arg_26_1:SetActionCallBack(nil)
 			arg_26_3()
 		end
 	end)
-	var_26_0:SetAction(arg_26_2, 0)
+	arg_26_1:SetAction(arg_26_2, 0)
 end
 
 function var_0_0.UnloadSpines(arg_28_0)
 	if not IsNil(arg_28_0.loadedShip) then
-		pg.PoolMgr.GetInstance():ReturnSpineChar(arg_28_0.loadedShip.name, arg_28_0.loadedShip)
+		arg_28_0.loadedShip:Dispose()
 	end
 
 	if not IsNil(arg_28_0.loadedAnimator) then

@@ -7,9 +7,12 @@ function var_0_0.__call(arg_1_0)
 
 	local var_1_0 = arg_1_0.name
 
-	PoolMgr.GetInstance():GetSpineChar(var_1_0, true, function(arg_2_0)
+	arg_1_0.spineChar = SpineAnimChar.New()
+
+	arg_1_0.spineChar:SetPaint(var_1_0)
+	arg_1_0.spineChar:Load(true, function(arg_2_0)
 		if arg_1_0.stopped then
-			PoolMgr.GetInstance():ReturnSpineChar(var_1_0, arg_2_0)
+			arg_2_0:Dispose()
 
 			return
 		end

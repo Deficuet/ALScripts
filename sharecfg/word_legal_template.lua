@@ -2196,6 +2196,17 @@ function temp()
 							}
 						}
 					}
+				},
+				· = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -2223,6 +2234,17 @@ function temp()
 					兵 = {
 						装 = {
 							[")"] = {
+								this = true
+							}
+						}
+					}
+				}
+			},
+			· = {
+				M = {
+					E = {
+						T = {
+							A = {
 								this = true
 							}
 						}
@@ -5925,6 +5947,13 @@ function temp()
 					}
 				}
 			}
+		},
+		一 = {
+			折 = {
+				纸 = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -8622,6 +8651,13 @@ function temp()
 			空 = {
 				this = true
 			}
+		},
+		崎 = {
+			狂 = {
+				三 = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -8884,6 +8920,74 @@ function temp()
 			璃 = {
 				昂 = {
 					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.夜 = {
+		刀 = {
+			神 = {
+				十 = {
+					香 = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.五 = {
+		河 = {
+			琴 = {
+				里 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.四 = {
+		糸 = {
+			乃 = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.八 = {
+		舞 = {
+			耶 = {
+				俱 = {
+					矢 = {
+						· = {
+							八 = {
+								舞 = {
+									夕 = {
+										弦 = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}

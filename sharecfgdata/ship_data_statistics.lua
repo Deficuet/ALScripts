@@ -438906,6 +438906,534 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[9702081] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "博伊西·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702080,
+		english_name = "Boise.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 2,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702081,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			684,
+			28,
+			0,
+			70,
+			0,
+			69,
+			0,
+			43,
+			22,
+			33,
+			70,
+			34
+		},
+		attrs_growth = {
+			11785,
+			390,
+			0,
+			879,
+			0,
+			479,
+			0,
+			604,
+			386,
+			0,
+			0,
+			475
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"BoiseMETA"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702082] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "博伊西·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702080,
+		english_name = "Boise.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702082,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			851,
+			35,
+			0,
+			87,
+			0,
+			69,
+			0,
+			43,
+			22,
+			33,
+			70,
+			43
+		},
+		attrs_growth = {
+			11785,
+			390,
+			0,
+			879,
+			0,
+			479,
+			0,
+			604,
+			386,
+			0,
+			0,
+			475
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"BoiseMETA"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702083] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "博伊西·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702080,
+		english_name = "Boise.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702083,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1185,
+			49,
+			0,
+			121,
+			0,
+			69,
+			0,
+			43,
+			22,
+			33,
+			70,
+			60
+		},
+		attrs_growth = {
+			11785,
+			390,
+			0,
+			879,
+			0,
+			479,
+			0,
+			604,
+			386,
+			0,
+			0,
+			475
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"BoiseMETA"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9702084] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "博伊西·META",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 9702080,
+		english_name = "Boise.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 4,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 9702084,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1686,
+			70,
+			0,
+			172,
+			0,
+			69,
+			0,
+			43,
+			22,
+			33,
+			70,
+			85
+		},
+		attrs_growth = {
+			11785,
+			390,
+			0,
+			879,
+			0,
+			479,
+			0,
+			604,
+			386,
+			0,
+			0,
+			475
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.65,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"BoiseMETA"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[9703011] = {
 		raid_distance = 0,
 		oxy_max = 0,
@@ -501253,6 +501781,3162 @@ end)()
 			{}
 		},
 		tag_list = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500011] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "夜刀神十香",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 11500010,
+		english_name = "Tohka Yatogami",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500011,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			796,
+			51,
+			0,
+			40,
+			0,
+			73,
+			0,
+			46,
+			18,
+			28,
+			84,
+			0
+		},
+		attrs_growth = {
+			22690,
+			695,
+			0,
+			879,
+			0,
+			510,
+			0,
+			660,
+			560,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.6,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL",
+			"Yatogami Tōka"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500012] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "夜刀神十香",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 11500010,
+		english_name = "Tohka Yatogami",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500012,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			990,
+			64,
+			0,
+			50,
+			0,
+			73,
+			0,
+			46,
+			18,
+			28,
+			84,
+			0
+		},
+		attrs_growth = {
+			22690,
+			695,
+			0,
+			879,
+			0,
+			510,
+			0,
+			660,
+			560,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.02,
+			0.62,
+			1.02
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL",
+			"Yatogami Tōka"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500013] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "夜刀神十香",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 11500010,
+		english_name = "Tohka Yatogami",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500013,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1379,
+			89,
+			0,
+			70,
+			0,
+			73,
+			0,
+			46,
+			18,
+			28,
+			84,
+			0
+		},
+		attrs_growth = {
+			22690,
+			695,
+			0,
+			879,
+			0,
+			510,
+			0,
+			660,
+			560,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.65,
+			1.05
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL",
+			"Yatogami Tōka"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500014] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "夜刀神十香",
+		type = 3,
+		oxy_cost = 0,
+		skin_id = 11500010,
+		english_name = "Tohka Yatogami",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500014,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1962,
+			127,
+			0,
+			99,
+			0,
+			73,
+			0,
+			46,
+			18,
+			28,
+			84,
+			0
+		},
+		attrs_growth = {
+			22690,
+			695,
+			0,
+			879,
+			0,
+			510,
+			0,
+			660,
+			560,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			102,
+			100,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.1,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL",
+			"Yatogami Tōka"
+		},
+		gift_dislike = {
+			180007,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500021] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "鸢一折纸",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 11500020,
+		english_name = "Origami Tobiichi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500021,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1169,
+			0,
+			0,
+			58,
+			80,
+			53,
+			0,
+			32,
+			11,
+			28,
+			75,
+			0
+		},
+		attrs_growth = {
+			31374,
+			0,
+			0,
+			1245,
+			991,
+			372,
+			0,
+			479,
+			297,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.25,
+			1.15,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180002,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500022] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "鸢一折纸",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 11500020,
+		english_name = "Origami Tobiichi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500022,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1454,
+			0,
+			0,
+			72,
+			100,
+			53,
+			0,
+			32,
+			11,
+			28,
+			75,
+			0
+		},
+		attrs_growth = {
+			31374,
+			0,
+			0,
+			1245,
+			991,
+			372,
+			0,
+			479,
+			297,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.28,
+			1.18,
+			1.18
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180002,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500023] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "鸢一折纸",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 11500020,
+		english_name = "Origami Tobiichi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500023,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2024,
+			0,
+			0,
+			101,
+			139,
+			53,
+			0,
+			32,
+			11,
+			28,
+			75,
+			0
+		},
+		attrs_growth = {
+			31374,
+			0,
+			0,
+			1245,
+			991,
+			372,
+			0,
+			479,
+			297,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.33,
+			1.23,
+			1.23
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180002,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500024] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "鸢一折纸",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 11500020,
+		english_name = "Origami Tobiichi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500024,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2879,
+			0,
+			0,
+			144,
+			199,
+			53,
+			0,
+			32,
+			11,
+			28,
+			75,
+			0
+		},
+		attrs_growth = {
+			31374,
+			0,
+			0,
+			1245,
+			991,
+			372,
+			0,
+			479,
+			297,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180002,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500031] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "五河琴里",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 11500030,
+		english_name = "Kotori Itsuka",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 11500031,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1284,
+			86,
+			0,
+			34,
+			0,
+			54,
+			0,
+			22,
+			6,
+			25,
+			72,
+			0
+		},
+		attrs_growth = {
+			36573,
+			1041,
+			0,
+			745,
+			0,
+			375,
+			0,
+			310,
+			129,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180008,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500032] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "五河琴里",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 11500030,
+		english_name = "Kotori Itsuka",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 11500032,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1597,
+			107,
+			0,
+			42,
+			0,
+			54,
+			0,
+			22,
+			6,
+			25,
+			72,
+			0
+		},
+		attrs_growth = {
+			36573,
+			1041,
+			0,
+			745,
+			0,
+			375,
+			0,
+			310,
+			129,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180008,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500033] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "五河琴里",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 11500030,
+		english_name = "Kotori Itsuka",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 11500033,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2223,
+			150,
+			0,
+			59,
+			0,
+			54,
+			0,
+			22,
+			6,
+			25,
+			72,
+			0
+		},
+		attrs_growth = {
+			36573,
+			1041,
+			0,
+			745,
+			0,
+			375,
+			0,
+			310,
+			129,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180008,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500034] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "五河琴里",
+		type = 5,
+		oxy_cost = 0,
+		skin_id = 11500030,
+		english_name = "Kotori Itsuka",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 3,
+		huntingrange_level = 0,
+		id = 11500034,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			3163,
+			213,
+			0,
+			84,
+			0,
+			54,
+			0,
+			22,
+			6,
+			25,
+			72,
+			0
+		},
+		attrs_growth = {
+			36573,
+			1041,
+			0,
+			745,
+			0,
+			375,
+			0,
+			310,
+			129,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			103,
+			101,
+			104
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			3,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.45,
+			2,
+			1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180008,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500041] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "四糸乃",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 11500040,
+		english_name = "Yoshino",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500041,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			992,
+			0,
+			0,
+			54,
+			74,
+			71,
+			0,
+			32,
+			18,
+			30,
+			73,
+			20
+		},
+		attrs_growth = {
+			28272,
+			0,
+			0,
+			1167,
+			935,
+			492,
+			0,
+			466,
+			240,
+			0,
+			0,
+			249
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.15,
+			1.15
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500042] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "四糸乃",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 11500040,
+		english_name = "Yoshino",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500042,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1234,
+			0,
+			0,
+			67,
+			92,
+			71,
+			0,
+			32,
+			18,
+			30,
+			73,
+			25
+		},
+		attrs_growth = {
+			28272,
+			0,
+			0,
+			1167,
+			935,
+			492,
+			0,
+			466,
+			240,
+			0,
+			0,
+			249
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.23,
+			1.18,
+			1.18
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500043] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "四糸乃",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 11500040,
+		english_name = "Yoshino",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500043,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1718,
+			0,
+			0,
+			94,
+			129,
+			71,
+			0,
+			32,
+			18,
+			30,
+			73,
+			35
+		},
+		attrs_growth = {
+			28272,
+			0,
+			0,
+			1167,
+			935,
+			492,
+			0,
+			466,
+			240,
+			0,
+			0,
+			249
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.28,
+			1.23,
+			1.23
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500044] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "四糸乃",
+		type = 6,
+		oxy_cost = 0,
+		skin_id = 11500040,
+		english_name = "Yoshino",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 11500044,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2444,
+			0,
+			0,
+			134,
+			184,
+			71,
+			0,
+			32,
+			18,
+			30,
+			73,
+			50
+		},
+		attrs_growth = {
+			28272,
+			0,
+			0,
+			1167,
+			935,
+			492,
+			0,
+			466,
+			240,
+			0,
+			0,
+			249
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			117,
+			119,
+			118
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			2,
+			3
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.3,
+			1.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180004,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500051] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "时崎狂三",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11500050,
+		english_name = "Tokisaki Kurumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11500051,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			519,
+			30,
+			0,
+			75,
+			0,
+			73,
+			0,
+			55,
+			31,
+			35.5,
+			87,
+			38
+		},
+		attrs_growth = {
+			13933,
+			412,
+			0,
+			1547,
+			0,
+			505,
+			0,
+			799,
+			572,
+			0,
+			0,
+			446
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL",
+			"Kurumi Tokisaki"
+		},
+		gift_dislike = {
+			180009,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500052] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "时崎狂三",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11500050,
+		english_name = "Tokisaki Kurumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11500052,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			646,
+			37,
+			0,
+			93,
+			0,
+			73,
+			0,
+			55,
+			31,
+			35.5,
+			87,
+			47
+		},
+		attrs_growth = {
+			13933,
+			412,
+			0,
+			1547,
+			0,
+			505,
+			0,
+			799,
+			572,
+			0,
+			0,
+			446
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.05,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL",
+			"Kurumi Tokisaki"
+		},
+		gift_dislike = {
+			180009,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500053] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "时崎狂三",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11500050,
+		english_name = "Tokisaki Kurumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11500053,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			899,
+			52,
+			0,
+			130,
+			0,
+			73,
+			0,
+			55,
+			31,
+			35.5,
+			87,
+			66
+		},
+		attrs_growth = {
+			13933,
+			412,
+			0,
+			1547,
+			0,
+			505,
+			0,
+			799,
+			572,
+			0,
+			0,
+			446
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.15,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL",
+			"Kurumi Tokisaki"
+		},
+		gift_dislike = {
+			180009,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500054] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "时崎狂三",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11500050,
+		english_name = "Tokisaki Kurumi",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11500054,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1279,
+			75,
+			0,
+			186,
+			0,
+			73,
+			0,
+			55,
+			31,
+			35.5,
+			87,
+			95
+		},
+		attrs_growth = {
+			13933,
+			412,
+			0,
+			1547,
+			0,
+			505,
+			0,
+			799,
+			572,
+			0,
+			0,
+			446
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"torpedo",
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			101,
+			100,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.3,
+			0.7,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL",
+			"Kurumi Tokisaki"
+		},
+		gift_dislike = {
+			180009,
+			180002
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500061] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "八舞耶俱矢·八舞夕弦",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11500060,
+		english_name = "Kaguya Yamai·Yuzuru Yamai",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11500061,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			744,
+			35,
+			64,
+			65,
+			0,
+			80,
+			0,
+			57,
+			37,
+			35,
+			80,
+			38
+		},
+		attrs_growth = {
+			21199,
+			490,
+			833,
+			1375,
+			0,
+			554,
+			0,
+			817,
+			699,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			211
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.3,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500062] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "八舞耶俱矢·八舞夕弦",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11500060,
+		english_name = "Kaguya Yamai·Yuzuru Yamai",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11500062,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			926,
+			44,
+			80,
+			81,
+			0,
+			80,
+			0,
+			57,
+			37,
+			35,
+			80,
+			47
+		},
+		attrs_growth = {
+			21199,
+			490,
+			833,
+			1375,
+			0,
+			554,
+			0,
+			817,
+			699,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			212
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.3,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500063] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "八舞耶俱矢·八舞夕弦",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11500060,
+		english_name = "Kaguya Yamai·Yuzuru Yamai",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11500063,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1289,
+			61,
+			111,
+			113,
+			0,
+			80,
+			0,
+			57,
+			37,
+			35,
+			80,
+			66
+		},
+		attrs_growth = {
+			21199,
+			490,
+			833,
+			1375,
+			0,
+			554,
+			0,
+			817,
+			699,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			213
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.4,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[11500064] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "八舞耶俱矢·八舞夕弦",
+		type = 2,
+		oxy_cost = 0,
+		skin_id = 11500060,
+		english_name = "Kaguya Yamai·Yuzuru Yamai",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 115,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 11500064,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1833,
+			88,
+			159,
+			161,
+			0,
+			80,
+			0,
+			57,
+			37,
+			35,
+			80,
+			94
+		},
+		attrs_growth = {
+			21199,
+			490,
+			833,
+			1375,
+			0,
+			554,
+			0,
+			817,
+			699,
+			0,
+			0,
+			447
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {
+			214
+		},
+		default_equip_list = {
+			101,
+			106,
+			104
+		},
+		depth_charge_list = {
+			147
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			1.55,
+			1.4,
+			1.1,
+			0.3
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"DAL"
+		},
+		gift_dislike = {
+			180006,
+			180008
+		}
 	}
 end)()
 

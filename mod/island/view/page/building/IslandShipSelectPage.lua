@@ -440,21 +440,21 @@ function var_0_0.FlushAddPercent(arg_33_0)
 		return
 	end
 
-	local var_33_0, var_33_1, var_33_2 = IslandProductTimeHelper.GetAllAddPercent(arg_33_0.showId, arg_33_0.placeId, arg_33_0.attrType)
-	local var_33_3 = var_33_0 + var_33_1 + var_33_2
+	local var_33_0, var_33_1, var_33_2, var_33_3 = IslandProductTimeHelper.GetAllAddPercent(arg_33_0.showId, arg_33_0.placeId, arg_33_0.attrType)
+	local var_33_4 = var_33_0 + var_33_1 + var_33_2 + var_33_3
 
 	setActive(arg_33_0.addStutasTF, true)
-	setText(arg_33_0.addStutasNum, i18n("island_production_speed_tip1", var_33_3))
+	setText(arg_33_0.addStutasNum, i18n("island_production_speed_tip1", var_33_4))
 
 	arg_33_0.buffInfos = {}
 
-	local var_33_4 = IslandProductTimeHelper.GetAttributeAddPercent(arg_33_0.showId, arg_33_0.attrType)
+	local var_33_5 = IslandProductTimeHelper.GetAttributeAddPercent(arg_33_0.showId, arg_33_0.attrType)
 
 	if var_33_0 > 0 then
-		local var_33_5 = IslandShipAttr.GetAtrrName(arg_33_0.attrType)
+		local var_33_6 = IslandShipAttr.GetAtrrName(arg_33_0.attrType)
 
 		table.insert(arg_33_0.buffInfos, {
-			name = i18n("island_production_speed_addition1", IslandShipAttr.ToChinese(var_33_5)),
+			name = i18n("island_production_speed_addition1", IslandShipAttr.ToChinese(var_33_6)),
 			effect = "+" .. var_33_0 .. "%"
 		})
 	end
@@ -467,11 +467,18 @@ function var_0_0.FlushAddPercent(arg_33_0)
 	end
 
 	if var_33_2 > 0 then
-		local var_33_6 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_33_0.showId):GetSkill():GetName()
+		local var_33_7 = getProxy(IslandProxy):GetIsland():GetCharacterAgency():GetShipById(arg_33_0.showId):GetSkill():GetName()
 
 		table.insert(arg_33_0.buffInfos, {
-			name = var_33_6,
+			name = var_33_7,
 			effect = "+" .. var_33_2 .. "%"
+		})
+	end
+
+	if var_33_3 > 0 then
+		table.insert(arg_33_0.buffInfos, {
+			name = i18n("island_production_speed_addition3"),
+			effect = "+" .. var_33_3 .. "%"
 		})
 	end
 
@@ -560,9 +567,9 @@ function var_0_0.GetShips(arg_43_0)
 			if arg_43_0.needWorkSpeed then
 				local var_43_3 = setmetatable({
 					GetWorkSpeed = function()
-						local var_44_0, var_44_1, var_44_2 = IslandProductTimeHelper.GetAllAddPercent(iter_43_1.id, arg_43_0.placeId, arg_43_0.attrType)
+						local var_44_0, var_44_1, var_44_2, var_44_3 = IslandProductTimeHelper.GetAllAddPercent(iter_43_1.id, arg_43_0.placeId, arg_43_0.attrType)
 
-						return var_44_0 + var_44_1 + var_44_2
+						return var_44_0 + var_44_1 + var_44_2 + var_44_3
 					end
 				}, {
 					__index = iter_43_1

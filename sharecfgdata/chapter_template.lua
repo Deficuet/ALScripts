@@ -323942,7 +323942,7 @@ end)()
 			}
 		},
 		icon = {
-			"sairenboss27"
+			"weixu_baojian_2"
 		},
 		awards = {
 			{
@@ -324973,7 +324973,7 @@ end)()
 			}
 		},
 		icon = {
-			"sairenboss27"
+			"weixu_baojian_2"
 		},
 		awards = {},
 		grids = {
@@ -325342,7 +325342,7 @@ end)()
 			}
 		},
 		icon = {
-			"sairenboss27"
+			"weixu_baojian_2"
 		},
 		awards = {},
 		grids = {

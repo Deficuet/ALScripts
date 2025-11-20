@@ -87,6 +87,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				pg.TipsMgr.GetInstance():ShowTips("错误!:" .. arg_2_0.result)
 			elseif var_1_2 == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("activity_op_error", arg_2_0.result))
+			elseif var_1_2 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF then
+				if var_1_1:getConfig("config_client").resource_ID == BossRushDALUpgradeView.RES_ID then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("DAL_upgrade_not_enough"))
+				end
 			elseif arg_2_0.result == 3 or arg_2_0.result == 4 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 			else

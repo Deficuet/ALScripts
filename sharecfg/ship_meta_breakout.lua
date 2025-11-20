@@ -70,6 +70,10 @@ pg.ship_meta_breakout = setmetatable({
 		9702072,
 		9702073,
 		9702074,
+		9702081,
+		9702082,
+		9702083,
+		9702084,
 		9703011,
 		9703012,
 		9703013,
@@ -1283,6 +1287,69 @@ pg.base.ship_meta_breakout = {
 		id = 9702074,
 		item1 = 21030,
 		pre_id = 9702073,
+		weapon_ids = {}
+	},
+	[9702081] = {
+		breakout_view = "习得技能【构造之理·{namecode:197}】/主炮效率提高5%",
+		gold = 500,
+		breakout_id = 9702082,
+		repair = 0,
+		item2 = 21053,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702081,
+		item1 = 21053,
+		pre_id = 0,
+		weapon_ids = {
+			70121
+		}
+	},
+	[9702082] = {
+		breakout_view = "主炮底座+1/主炮效率提高10%",
+		gold = 1500,
+		breakout_id = 9702083,
+		repair = 0,
+		item2 = 21053,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702082,
+		item1 = 21053,
+		pre_id = 9702081,
+		weapon_ids = {
+			12100,
+			12100
+		}
+	},
+	[9702083] = {
+		breakout_view = "【构造之理·{namecode:197}】升级/主炮效率提高15%",
+		gold = 2500,
+		breakout_id = 9702084,
+		repair = 0,
+		item2 = 21053,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702083,
+		item1 = 21053,
+		pre_id = 9702082,
+		weapon_ids = {
+			70122
+		}
+	},
+	[9702084] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21053,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702084,
+		item1 = 21053,
+		pre_id = 9702083,
 		weapon_ids = {}
 	},
 	[9703011] = {

@@ -1,10 +1,12 @@
 local var_0_0 = class("GuildBossFormationShipCard")
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
-	arg_1_0._go = arg_1_1
-	tf(arg_1_1).pivot = Vector2(0.5, 0)
-	tf(arg_1_1).sizeDelta = Vector2(200, 300)
-	tf(arg_1_1).localScale = Vector3(0.6, 0.6, 0.6)
+	arg_1_0.char = arg_1_1
+	arg_1_0._go = arg_1_1:GetModel()
+	tf(arg_1_0._go).pivot = Vector2(0.5, 0)
+	tf(arg_1_0._go).sizeDelta = Vector2(200, 300)
+
+	arg_1_1:SetLocalScale(Vector3(0.6, 0.6, 0.6))
 end
 
 function var_0_0.RefreshPosition(arg_2_0, arg_2_1, arg_2_2)
@@ -46,7 +48,10 @@ function var_0_0.Dispose(arg_8_0)
 	end
 
 	ClearEventTrigger(GetOrAddComponent(arg_8_0._go, "EventTriggerListener"))
-	PoolMgr.GetInstance():ReturnSpineChar(arg_8_0._go.name, arg_8_0._go)
+
+	if arg_8_0._char then
+		arg_8_0._char:Dispose()
+	end
 end
 
 return var_0_0

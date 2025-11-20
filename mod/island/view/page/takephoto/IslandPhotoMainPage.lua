@@ -399,13 +399,9 @@ end
 
 function var_0_0.SetMute(arg_45_0)
 	if arg_45_0 then
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
+		pg.CriMgr.GetInstance():MuteAllVolume()
 	else
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", pg.CriMgr.GetInstance():getCVVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", pg.CriMgr.GetInstance():getBGMVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", pg.CriMgr.GetInstance():getSEVolume())
+		pg.CriMgr.GetInstance():ResetAllVolume()
 	end
 end
 

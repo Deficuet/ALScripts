@@ -67,6 +67,7 @@ function var_0_4.initWaveModule(arg_7_0)
 			return
 		end
 
+		arg_7_0._dataProxy:TriggerFinishBattle()
 		arg_7_0._dataProxy:CalcSubRunScore()
 		arg_7_0._state:BattleEnd()
 	end
@@ -156,6 +157,7 @@ function var_0_4.onSubmarineShift(arg_16_0, arg_16_1)
 end
 
 function var_0_4.onShutDownPlayer(arg_17_0)
+	arg_17_0._dataProxy:TriggerFinishBattle()
 	arg_17_0._dataProxy:CalcSubRunDead()
 	arg_17_0._state:BattleEnd()
 end

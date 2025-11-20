@@ -705,15 +705,15 @@ function var_0_0.RegisterEvent(arg_38_0)
 				local var_39_0 = pg.ship_skin_template[arg_38_0.skinId].purchase_offset
 
 				if var_39_0 and #var_39_0 >= 3 then
-					arg_38_0.spineChar.localPosition = Vector3(var_39_0[1], var_39_0[2], var_39_0[3])
+					arg_38_0.spineChar:SetLocalPosition(Vector3(var_39_0[1], var_39_0[2], var_39_0[3]))
 				end
 
 				if var_39_0 and #var_39_0 >= 4 then
-					arg_38_0.spineChar.localScale = Vector3(var_39_0[4], var_39_0[4], var_39_0[4])
+					arg_38_0.spineChar:SetLocalScale(Vector3(var_39_0[4], var_39_0[4], var_39_0[4]))
 				end
 			else
-				arg_38_0.spineChar.localScale = Vector3(0.9, 0.9, 1)
-				arg_38_0.spineChar.localPosition = Vector3(0, 0, 0)
+				arg_38_0.spineChar:SetLocalScale(Vector3(0.9, 0.9, 1))
+				arg_38_0.spineChar:SetLocalPosition(Vector3(0, 0, 0))
 			end
 		end
 
@@ -927,35 +927,36 @@ function var_0_0.FlushChar(arg_52_0, arg_52_1, arg_52_2)
 
 	arg_52_0.prefabName = arg_52_1
 
-	PoolMgr.GetInstance():GetSpineChar(arg_52_1, true, function(arg_53_0)
+	local var_52_0 = SpineAnimChar.New()
+
+	var_52_0:SetPaint(arg_52_1)
+	var_52_0:Load(true, function(arg_53_0)
 		if arg_52_0.prefabName ~= arg_52_1 then
-			PoolMgr.GetInstance():ReturnSpineChar(arg_52_1, arg_53_0)
+			arg_53_0:Dispose()
 
 			return
 		end
 
-		arg_52_0.spineChar = tf(arg_53_0)
+		arg_52_0.spineChar = arg_53_0
 
 		local var_53_0 = pg.skinshop_spine_scale[arg_52_2]
 
 		if var_53_0 then
-			arg_52_0.spineChar.localScale = Vector3(var_53_0.skinshop_scale, var_53_0.skinshop_scale, 1)
+			arg_52_0.spineChar:SetLocalScale(Vector3(var_53_0.skinshop_scale, var_53_0.skinshop_scale, 1))
 		else
-			arg_52_0.spineChar.localScale = Vector3(0.9, 0.9, 1)
+			arg_52_0.spineChar:SetLocalScale(Vector3(0.9, 0.9, 1))
 		end
 
-		arg_52_0.spineChar.localPosition = Vector3(0, 0, 0)
-
-		pg.ViewUtils.SetLayer(arg_52_0.spineChar, Layer.UI)
-		setParent(arg_52_0.spineChar, arg_52_0.charTf)
-		arg_53_0:GetComponent("SpineAnimUI"):SetAction("normal", 0)
+		arg_52_0.spineChar:SetLocalPosition(Vector3(0, 0, 0))
+		arg_52_0.spineChar:SetLayer(Layer.UI)
+		arg_52_0.spineChar:SetParent(arg_52_0.charTf)
+		arg_52_0.spineChar:SetAction("normal", 0)
 	end)
 end
 
 function var_0_0.ReturnChar(arg_54_0)
-	if not IsNil(arg_54_0.spineChar) then
-		arg_54_0.spineChar.gameObject:GetComponent("SpineAnimUI"):SetActionCallBack(nil)
-		PoolMgr.GetInstance():ReturnSpineChar(arg_54_0.prefabName, arg_54_0.spineChar.gameObject)
+	if arg_54_0.spineChar then
+		arg_54_0.spineChar:Dispose()
 
 		arg_54_0.spineChar = nil
 		arg_54_0.prefabName = nil

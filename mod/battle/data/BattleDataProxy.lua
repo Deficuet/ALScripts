@@ -851,7 +851,7 @@ function var_0_9.updateLoop(arg_55_0, arg_55_1)
 			else
 				arg_55_0:RemoveBulletUnit(iter_55_5:GetUniqueID())
 			end
-		elseif var_55_14 == var_0_3.BulletOutBound.COMMON and (var_55_12.x > arg_55_0._bulletRightBound and var_55_11.x > 0 or var_55_12.z < arg_55_0._bulletLowerBound and var_55_11.z < 0) then
+		elseif (var_55_14 == var_0_3.BulletOutBound.COMMON or var_55_14 == var_0_3.BulletOutBound.SHIFT_SPLIT) and (var_55_12.x > arg_55_0._bulletRightBound and var_55_11.x > 0 or var_55_12.z < arg_55_0._bulletLowerBound and var_55_11.z < 0) then
 			arg_55_0:RemoveBulletUnit(iter_55_5:GetUniqueID())
 		elseif var_55_12.x < arg_55_0._bulletLeftBound and var_55_11.x < 0 and var_55_13 ~= var_0_3.BulletType.BOMB then
 			if var_55_14 == var_0_3.BulletOutBound.RANDOM then
@@ -872,7 +872,7 @@ function var_0_9.updateLoop(arg_55_0, arg_55_1)
 				-- block empty
 			elseif var_55_16 == var_0_0.Battle.BattleShrapnelBulletUnit.STATE_SPLIT and not iter_55_5:IsFragile() then
 				-- block empty
-			elseif var_55_14 == var_0_3.BulletOutBound.COMMON and var_55_12.z > arg_55_0._bulletUpperBound and var_55_11.z > 0 or var_55_14 == var_0_3.BulletOutBound.VISION and var_55_12.z > arg_55_0._bulletUpperBoundVision and var_55_11.z > 0 or iter_55_5:IsOutRange(arg_55_1) then
+			elseif (var_55_14 == var_0_3.BulletOutBound.COMMON or var_55_14 == var_0_3.BulletOutBound.SHIFT_SPLIT) and var_55_12.z > arg_55_0._bulletUpperBound and var_55_11.z > 0 or var_55_14 == var_0_3.BulletOutBound.VISION and var_55_12.z > arg_55_0._bulletUpperBoundVision and var_55_11.z > 0 or iter_55_5:IsOutRange(arg_55_1) then
 				if iter_55_5:GetExist() then
 					iter_55_5:OutRange()
 				else
@@ -2685,5 +2685,19 @@ function var_0_9.GetFleetLegal(arg_161_0, arg_161_1, arg_161_2)
 		else
 			return true
 		end
+	end
+end
+
+function var_0_9.TriggerFinishBattle(arg_162_0)
+	for iter_162_0, iter_162_1 in pairs(arg_162_0._fleetList) do
+		local var_162_0 = iter_162_1:GetUnitList()
+
+		for iter_162_2, iter_162_3 in ipairs(var_162_0) do
+			iter_162_3:TriggerBuff(var_0_3.BuffEffectType.ON_FINISH_GAME)
+		end
+	end
+
+	for iter_162_4, iter_162_5 in pairs(arg_162_0._minionShipList) do
+		iter_162_5:TriggerBuff(var_0_3.BuffEffectType.ON_FINISH_GAME)
 	end
 end

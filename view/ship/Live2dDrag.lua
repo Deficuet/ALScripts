@@ -1126,7 +1126,7 @@ function var_0_0.updateTrigger(arg_52_0)
 			local var_52_8 = var_52_3[1]
 			local var_52_9 = var_52_3[2]
 
-			if math.abs(var_52_6 - var_52_8) < math.abs(var_52_8) * 0.25 and math.abs(var_52_7 - var_52_9) < math.abs(var_52_9) * 0.25 then
+			if math.abs(var_52_6 - var_52_8) <= math.abs(var_52_8) * 0.25 and math.abs(var_52_7 - var_52_9) <= math.abs(var_52_9) * 0.25 then
 				arg_52_0.triggerActionTime = arg_52_0.triggerActionTime + Time.deltaTime
 
 				if var_52_2 < arg_52_0.triggerActionTime and not arg_52_0.l2dIsPlaying then

@@ -357,8 +357,10 @@ function var_0_0.clearSkin(arg_41_0)
 		retPaintingPrefab(arg_41_0.paint, arg_41_0.paintSkin)
 	end
 
-	if arg_41_0.spineSkin and arg_41_0.showType == var_0_0.SHOW_SPINE then
-		PoolMgr.GetInstance():ReturnSpineChar(arg_41_0.spineSkin, go(arg_41_0.spine:Find("model")))
+	if arg_41_0.spineSkin and arg_41_0.showType == var_0_0.SHOW_SPINE and arg_41_0.spineChar then
+		arg_41_0.spineChar:Dispose()
+
+		arg_41_0.spineChar = nil
 	end
 
 	if arg_41_0.live2dCom then
@@ -562,16 +564,15 @@ function var_0_0.updateSkin(arg_48_0)
 	elseif arg_48_0.showType == var_0_0.SHOW_SPINE then
 		SetActive(arg_48_0.live2d, false)
 		SetActive(arg_48_0.spine, true)
-		PoolMgr.GetInstance():GetSpineChar(arg_48_0.spineSkin, true, function(arg_51_0)
-			arg_51_0.name = "model"
 
-			local var_51_0 = arg_51_0.transform
+		arg_48_0.spineChar = SpineAnimChar.New()
 
-			var_51_0:SetParent(arg_48_0.spine, true)
-
-			var_51_0.localScale = Vector3(0.5, 0.5, 0.5)
-			var_51_0.localPosition = Vector3.zero
-
+		arg_48_0.spineChar:SetPaint(arg_48_0.spineSkin)
+		arg_48_0.spineChar:Load(true, function(arg_51_0)
+			arg_51_0:SetName("model")
+			arg_51_0:SetParent(arg_48_0.spine, true)
+			arg_51_0:SetLocalScale(Vector3(0.5, 0.5, 0.5))
+			arg_51_0:SetLocalPosition(Vector3.zero)
 			arg_48_0:playAction("normal")
 		end)
 	end
@@ -582,7 +583,9 @@ function var_0_0.playAction(arg_52_0, arg_52_1)
 		return
 	end
 
-	GetOrAddComponent(arg_52_0.spine:Find("model"), typeof(SpineAnimUI)):SetAction(arg_52_1, 0)
+	if arg_52_0.spineChar then
+		arg_52_0.spineChar:SetAction(arg_52_1, 0)
+	end
 end
 
 function var_0_0.ResetL2dPanel(arg_53_0)
@@ -828,13 +831,9 @@ end
 
 function var_0_0.SetMute(arg_68_0, arg_68_1)
 	if arg_68_1 then
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
+		pg.CriMgr.GetInstance():MuteAllVolume()
 	else
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", pg.CriMgr.GetInstance():getCVVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", pg.CriMgr.GetInstance():getBGMVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", pg.CriMgr.GetInstance():getSEVolume())
+		pg.CriMgr.GetInstance():ResetAllVolume()
 	end
 end
 

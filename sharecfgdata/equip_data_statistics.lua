@@ -134537,6 +134537,118 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[61151] = {
+		type = 99,
+		name = "航空攻击展示-鸢一折纸I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "航母空袭展示用",
+		id = 61151,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61151
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61152] = {
+		id = 61152,
+		name = "航空攻击展示-鸢一折纸II",
+		base = 61151,
+		weapon_id = {
+			61152
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61153] = {
+		id = 61153,
+		name = "航空攻击展示-鸢一折纸II",
+		base = 61151,
+		weapon_id = {
+			61153
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61161] = {
+		type = 99,
+		name = "航空攻击展示-四糸乃I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "航母空袭展示用",
+		id = 61161,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61161
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61162] = {
+		id = 61162,
+		name = "航空攻击展示-四糸乃II",
+		base = 61161,
+		weapon_id = {
+			61162
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61163] = {
+		id = 61163,
+		name = "航空攻击展示-四糸乃II",
+		base = 61161,
+		weapon_id = {
+			61163
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[61501] = {
 		type = 99,
 		name = "轰炸机外观预览飞机",
@@ -187299,6 +187411,509 @@ end)()
 		anti_siren = 100,
 		value_1 = "530",
 		base = 150840,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150860] = {
+		type = 10,
+		name = "<封解主（Michael）>",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 0,
+		ammo = 10,
+		descrip = "一件镶嵌着闪烁星辰、仿若钥匙形状的未知之物。它总是在奏响着如同星空般悠远而神秘的旋律。",
+		nationality = 115,
+		rarity = 5,
+		id = 150860,
+		value_3 = 0,
+		attribute_1 = "durability",
+		icon = "150860",
+		value_1 = "250",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60950,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150861] = {
+		id = 150861,
+		value_1 = "280",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150862] = {
+		id = 150862,
+		value_1 = "310",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150863] = {
+		id = 150863,
+		value_1 = "340",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150864] = {
+		id = 150864,
+		value_1 = "370",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150865] = {
+		id = 150865,
+		value_1 = "400",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150866] = {
+		id = 150866,
+		value_1 = "430",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150867] = {
+		id = 150867,
+		value_1 = "460",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150868] = {
+		id = 150868,
+		value_1 = "490",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150869] = {
+		id = 150869,
+		value_1 = "520",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150870] = {
+		id = 150870,
+		value_1 = "550",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150871] = {
+		id = 150871,
+		anti_siren = 100,
+		value_1 = "580",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150872] = {
+		id = 150872,
+		anti_siren = 200,
+		value_1 = "610",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150873] = {
+		id = 150873,
+		anti_siren = 300,
+		value_1 = "640",
+		base = 150860,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150880] = {
+		type = 10,
+		name = "灵结晶",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 1,
+		ammo = 10,
+		nationality = 115,
+		descrip = "这是凝聚了港区全部科技精华制成的灵结晶。其散发出的神秘波动，会将周围的人们温柔地笼罩其中。",
+		rarity = 5,
+		attribute_1 = "dodge",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 150880,
+		icon = "150880",
+		value_1 = "13",
+		attribute_2 = "speed",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60960,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150881] = {
+		id = 150881,
+		value_1 = "14",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150882] = {
+		id = 150882,
+		value_1 = "15",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150883] = {
+		id = 150883,
+		value_2 = 2,
+		value_1 = "16",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150884] = {
+		id = 150884,
+		value_2 = 2,
+		value_1 = "17",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150885] = {
+		id = 150885,
+		value_2 = 2,
+		value_1 = "18",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150886] = {
+		id = 150886,
+		value_2 = 3,
+		value_1 = "20",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150887] = {
+		id = 150887,
+		value_2 = 3,
+		value_1 = "22",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150888] = {
+		id = 150888,
+		value_2 = 4,
+		value_1 = "24",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150889] = {
+		id = 150889,
+		value_2 = 4,
+		value_1 = "26",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150890] = {
+		id = 150890,
+		value_2 = 5,
+		value_1 = "28",
+		base = 150880,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150891] = {
+		value_2 = 5,
+		anti_siren = 100,
+		base = 150880,
+		id = 150891,
+		value_1 = "30",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150892] = {
+		value_2 = 5,
+		anti_siren = 200,
+		base = 150880,
+		id = 150892,
+		value_1 = "32",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150893] = {
+		value_2 = 5,
+		anti_siren = 300,
+		base = 150880,
+		id = 150893,
+		value_1 = "34",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150900] = {
+		type = 10,
+		name = "超大饭团",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 1,
+		ammo = 10,
+		nationality = 115,
+		descrip = "这是一个看起来再普通不过的饭团。它唯一特别之处在于它是出自夜刀神十香之手。或许正是这一点，才让它蕴含有某种未知的特殊力量。",
+		rarity = 5,
+		attribute_1 = "durability",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 150900,
+		icon = "150900",
+		value_1 = "100",
+		attribute_2 = "speed",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60970,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150901] = {
+		id = 150901,
+		value_1 = "130",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150902] = {
+		id = 150902,
+		value_1 = "160",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150903] = {
+		id = 150903,
+		value_1 = "190",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150904] = {
+		id = 150904,
+		value_2 = 2,
+		value_1 = "220",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150905] = {
+		id = 150905,
+		value_2 = 2,
+		value_1 = "250",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150906] = {
+		id = 150906,
+		value_2 = 2,
+		value_1 = "280",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150907] = {
+		id = 150907,
+		value_2 = 3,
+		value_1 = "310",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150908] = {
+		id = 150908,
+		value_2 = 3,
+		value_1 = "340",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150909] = {
+		id = 150909,
+		value_2 = 3,
+		value_1 = "370",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150910] = {
+		id = 150910,
+		value_2 = 4,
+		value_1 = "400",
+		base = 150900,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150911] = {
+		value_2 = 4,
+		anti_siren = 100,
+		base = 150900,
+		id = 150911,
+		value_1 = "424",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150912] = {
+		value_2 = 4,
+		anti_siren = 200,
+		base = 150900,
+		id = 150912,
+		value_1 = "448",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150913] = {
+		value_2 = 4,
+		anti_siren = 300,
+		base = 150900,
+		id = 150913,
+		value_1 = "472",
 		hidden_skill_id = {}
 	}
 end)()

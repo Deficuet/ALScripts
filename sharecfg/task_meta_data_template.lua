@@ -327,6 +327,11 @@ pg.task_meta_data_template = setmetatable({
 		100473,
 		100474,
 		100475,
+		100481,
+		100482,
+		100483,
+		100484,
+		100485,
 		200001,
 		200002,
 		200003,
@@ -478,7 +483,11 @@ pg.task_meta_data_template = setmetatable({
 		200381,
 		200382,
 		200383,
-		200384
+		200384,
+		200391,
+		200392,
+		200393,
+		200394
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3083,6 +3092,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100481] = {
+		target_id_2 = "970208",
+		sub_type = 180,
+		desc = "使用{namecode:551}获得1次胜利",
+		id = 100481,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100482] = {
+		target_id_2 = "970208",
+		sub_type = 180,
+		desc = "使用{namecode:551}击破等级＞30的敌方1次",
+		id = 100482,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100483] = {
+		target_id_2 = "970208",
+		sub_type = 180,
+		desc = "使用{namecode:551}击破等级＞55的敌方1次",
+		id = 100483,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100484] = {
+		target_id_2 = "970208",
+		sub_type = 180,
+		desc = "使用{namecode:551}击破等级＞80的敌方1次",
+		id = 100484,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100485] = {
+		target_id_2 = "970208",
+		sub_type = 180,
+		desc = "使用{namecode:551}击破等级＞100的敌方1次",
+		id = 100485,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -4296,6 +4345,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用杜威·META击破等级＞100的敌方1次",
 		id = 200384,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200391] = {
+		target_id_2 = "970208",
+		sub_type = 302,
+		desc = "大型作战内使用{namecode:551}获得1次胜利",
+		id = 200391,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200392] = {
+		target_id_2 = "970208",
+		sub_type = 302,
+		desc = "大型作战内使用{namecode:551}击破等级＞70的敌方1次",
+		id = 200392,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200393] = {
+		target_id_2 = "970208",
+		sub_type = 302,
+		desc = "大型作战内使用{namecode:551}击破等级＞90的敌方1次",
+		id = 200393,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200394] = {
+		target_id_2 = "970208",
+		sub_type = 302,
+		desc = "大型作战内使用{namecode:551}击破等级＞100的敌方1次",
+		id = 200394,
 		target_num = 1,
 		target_id = "100"
 	}

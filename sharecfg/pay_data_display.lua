@@ -123,6 +123,7 @@ pg.pay_data_display = setmetatable({
 		1022,
 		1023,
 		1024,
+		1025,
 		2001,
 		2002,
 		2003,
@@ -183,6 +184,7 @@ pg.pay_data_display = setmetatable({
 		2058,
 		2059,
 		2063,
+		2064,
 		5001,
 		5002,
 		5003,
@@ -13855,6 +13857,91 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1025] = {
+		limit_group = 0,
+		name = "特许巡游凭证(2025.12)",
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		second_text = "解锁特许奖励",
+		type_order = 6,
+		subject = "特许巡游凭证",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 68,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 1025,
+		name_display = "特许巡游凭证",
+		limit_type = 2,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "battlepass_1",
+		extra_service = 4,
+		skin_inquire_relation = 0,
+		show_group = "",
+		id_str = "com.bilibili.blhx.battlepass27",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·十纱限定换装和其他奖励",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.seasonpass26",
+		extra_service_item = {
+			{
+				1,
+				4026,
+				1500
+			},
+			{
+				8,
+				65108,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7026,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		limit_group = 1,
 		name = "最高方案研发礼包(一期)",
@@ -19081,6 +19168,124 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40070,
+				1
+			}
+		}
+	},
+	[2064] = {
+		limit_group = 0,
+		name = "舰艇教材礼包(2025秋)",
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		second_text = "",
+		type_order = 0,
+		subject = "舰艇教材礼包",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 4,
+		money = 18,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2064,
+		name_display = "舰艇教材礼包",
+		limit_type = 2,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "boxSkill",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "",
+		id_str = "com.bilibili.blhx.libao127",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得大量教材奖励",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.package127",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					4,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

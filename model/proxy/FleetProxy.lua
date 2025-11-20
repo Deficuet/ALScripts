@@ -340,16 +340,18 @@ function var_0_0.addActivityFleet(arg_26_0, arg_26_1, arg_26_2)
 	local var_26_2 = getProxy(BayProxy)
 	local var_26_3
 	local var_26_4
+	local var_26_5 = pg.activity_template[var_26_0]
 
-	local function var_26_5()
+	local function var_26_6()
 		if var_26_4 then
 			return var_26_4
 		end
 
 		local var_27_0 = arg_26_1:GetActiveSeriesIds()
+		local var_27_1 = var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB and CollabrateBossRushSeriesData or BossRushSeriesData
 
 		var_26_4 = _.map(var_27_0, function(arg_28_0)
-			return table.lastof(BossRushSeriesData.New({
+			return table.lastof(var_27_1.New({
 				id = arg_28_0,
 				actId = arg_26_1.id
 			}):GetFleetIds())
@@ -358,19 +360,19 @@ function var_0_0.addActivityFleet(arg_26_0, arg_26_1, arg_26_2)
 		return var_26_4
 	end
 
-	local var_26_6 = pg.activity_template[var_26_0]
-
 	for iter_26_0, iter_26_1 in ipairs(arg_26_2) do
 		local var_26_7 = CreateShell(iter_26_1)
 
-		if var_26_6.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
-			var_26_7.fleetType = table.contains(var_26_5(), iter_26_1.id) and FleetType.Submarine or FleetType.Normal
-		elseif var_26_6.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+		if var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+			var_26_7.fleetType = table.contains(var_26_6(), iter_26_1.id) and FleetType.Submarine or FleetType.Normal
+		elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 			var_26_7.fleetType = iter_26_1.id >= Fleet.SUBMARINE_FLEET_ID and FleetType.Submarine or FleetType.Normal
-		elseif var_26_6.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
+		elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
 			var_26_7.fleetType = iter_26_1.id >= Fleet.SUBMARINE_FLEET_ID and FleetType.Submarine or FleetType.Normal
-		elseif var_26_6.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
+		elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
 			var_26_7.fleetType = iter_26_1.id >= Fleet.MEGA_SUBMARINE_FLEET_OFFSET and FleetType.Submarine or FleetType.Normal
+		elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
+			var_26_7.fleetType = table.contains(var_26_6(), iter_26_1.id) and FleetType.Submarine or FleetType.Normal
 		else
 			local var_26_8 = {
 				id = iter_26_1.id
@@ -399,19 +401,22 @@ function var_0_0.addActivityFleet(arg_26_0, arg_26_1, arg_26_2)
 	local var_26_10
 	local var_26_11
 
-	if var_26_6.type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
+	if var_26_5.type == ActivityConst.ACTIVITY_TYPE_CHALLENGE then
 		var_26_10 = 2
 		var_26_11 = 2
-	elseif var_26_6.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
+	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 		var_26_10 = 0
 		var_26_11 = 0
-	elseif var_26_6.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
 		var_26_10 = 0
 		var_26_11 = 0
-	elseif var_26_6.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
+	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
 		var_26_10 = 0
 		var_26_11 = 0
-	elseif var_26_6.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
+	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
+		var_26_10 = 0
+		var_26_11 = 0
+	elseif var_26_5.type == ActivityConst.ACTIVITY_TYPE_BOSS_RUSH_DAL_COLLAB then
 		var_26_10 = 0
 		var_26_11 = 0
 	end

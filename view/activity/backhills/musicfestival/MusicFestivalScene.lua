@@ -275,13 +275,12 @@ function var_0_0.updateStageShip(arg_27_0)
 
 	if var_27_0 then
 		local var_27_2 = GetSpineRequestPackage.New(var_27_0, function(arg_28_0)
-			arg_28_0.transform.localScale = Vector3(0.5, 0.5, 1)
-			arg_28_0.transform.localPosition = Vector3.zero
-
-			arg_28_0.transform:SetParent(arg_27_0._stageShip, false)
-			arg_28_0.transform:SetSiblingIndex(1)
+			arg_28_0:SetLocalScale(Vector3(0.5, 0.5, 1))
+			arg_28_0:SetLocalPosition(Vector3.zero)
+			arg_28_0:SetParent(arg_27_0._stageShip)
+			arg_28_0:SetSiblingIndex(1)
 			setActive(arg_27_0._stageShip, true)
-			arg_28_0:GetComponent(typeof(SpineAnimUI)):SetAction(var_27_1, 0)
+			arg_28_0:SetAction(var_27_1, 0)
 
 			arg_27_0._loadingRequest[var_27_0] = nil
 			arg_27_0._ReturnRequest[var_27_0] = ReturnSpineRequestPackage.New(var_27_0, arg_28_0)

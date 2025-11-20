@@ -554,14 +554,17 @@ function var_0_0.LoadModel(arg_47_0, arg_47_1)
 
 	arg_47_0.inLoading = true
 
-	PoolMgr.GetInstance():GetSpineChar(var_47_0, true, function(arg_48_0)
-		arg_47_0.inLoading = false
-		arg_48_0.name = var_47_0
-		arg_48_0.transform.localPosition = Vector3.zero
-		arg_48_0.transform.localScale = Vector3(0.8, 0.8, 1)
+	local var_47_1 = SpineAnimChar.New()
 
-		arg_48_0.transform:SetParent(arg_47_0.modelContainer, false)
-		arg_48_0:GetComponent(typeof(SpineAnimUI)):SetAction(arg_47_1.show_skin or "stand", 0)
+	var_47_1:SetPaint(var_47_0)
+	var_47_1:Load(true, function(arg_48_0)
+		arg_47_0.inLoading = false
+
+		arg_48_0:SetName(var_47_0)
+		arg_48_0:SetLocalPosition(Vector3.zero)
+		arg_48_0:SetLocalScale(Vector3(0.8, 0.8, 1))
+		arg_48_0:SetParent(arg_47_0.modelContainer)
+		arg_48_0:SetAction(arg_47_1.show_skin or "stand", 0)
 
 		arg_47_0.characterModel = arg_48_0
 		arg_47_0.modelName = var_47_0
@@ -569,8 +572,10 @@ function var_0_0.LoadModel(arg_47_0, arg_47_1)
 end
 
 function var_0_0.ReturnModel(arg_49_0)
-	if not IsNil(arg_49_0.characterModel) then
-		PoolMgr.GetInstance():ReturnSpineChar(arg_49_0.modelName, arg_49_0.characterModel)
+	if arg_49_0.characterModel then
+		arg_49_0.characterModel:Dispose()
+
+		arg_49_0.characterModel = nil
 	end
 end
 
@@ -671,7 +676,7 @@ function var_0_0.OnCVBtnClick(arg_53_0, arg_53_1)
 		if arg_53_0.characterModel then
 			local var_54_2 = arg_53_0:GetModelAction(var_53_0)
 
-			arg_53_0.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(var_54_2, 0)
+			arg_53_0.characterModel:SetAction(var_54_2, 0)
 		end
 
 		local var_54_3 = {

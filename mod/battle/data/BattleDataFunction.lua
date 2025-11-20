@@ -474,6 +474,9 @@ function var_0_3.GetResFromSkill(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 	if var_14_1.focus_duration then
 		if var_14_1.cutin_cover then
 			var_14_0[#var_14_0 + 1] = var_0_0.Battle.BattleResourceManager.GetInstance().GetPaintingPath(var_14_1.cutin_cover)
+		elseif var_14_1.cutin_cover_DAL then
+			var_14_0[#var_14_0 + 1] = var_0_0.Battle.BattleResourceManager.GetInstance().GetPaintingPath(var_14_1.cutin_cover_DAL)
+			var_14_0[#var_14_0 + 1] = "UI/SkillPaintingDAL"
 		elseif arg_14_3 then
 			local var_14_3 = var_0_3.GetPlayerShipSkinDataFromID(arg_14_3).painting
 

@@ -95,17 +95,14 @@ function var_0_0.LoadSpine(arg_5_0, arg_5_1)
 			return
 		end
 
-		local var_6_0 = var_5_2.modelRoot.transform
-
-		var_5_2.model:GetComponent("SkeletonGraphic").raycastTarget = false
-		var_6_0.anchoredPosition3D = Vector3.zero
-		var_6_0.localScale = Vector3.one
-
-		pg.ViewUtils.SetLayer(var_6_0, Layer.UI)
+		var_5_2:SetRaycastTarget(false)
+		var_5_2:SetAnchoredPosition3D(Vector3.zero)
+		var_5_2:SetLocalScale(Vector3.one)
+		var_5_2:SetLayer(Layer.UI)
 		var_5_2:SetParent(arg_5_0.model)
 
 		arg_5_0.modelComps = {
-			var_5_2.model:GetComponent("SpineAnimUI")
+			var_5_2:GetSpineAnimUI()
 		}
 		arg_5_0.spineRole = var_5_2
 

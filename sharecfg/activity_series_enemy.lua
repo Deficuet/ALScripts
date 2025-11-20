@@ -983,6 +983,1014 @@ pg.activity_series_enemy = {
 			0.8
 		}
 	},
+	[4001] = {
+		pre_chapter = 0,
+		name = "普通难度（LV 20）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4001,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-1】虚像塔周边突现时空异常海域，带领白鹰舰队展开武装侦察。",
+		limitation = {},
+		expedition_id = {
+			1980001,
+			1980002
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				30
+			},
+			{
+				1,
+				587,
+				11
+			},
+			{
+				2,
+				200619,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				5
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4002] = {
+		pre_chapter = 0,
+		name = "困难难度（LV 35）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4002,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-1】虚像塔周边突现时空异常海域，带领白鹰舰队展开武装侦察。",
+		limitation = {},
+		expedition_id = {
+			1980101,
+			1980102
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				40
+			},
+			{
+				1,
+				587,
+				11
+			},
+			{
+				2,
+				200625,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				10
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4011] = {
+		pre_chapter = 0,
+		name = "普通难度（LV 50）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4011,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-2】战役已经开始，与鸢尾舰队和东煌舰队一同清理这片区域。 ",
+		limitation = {},
+		expedition_id = {
+			1981001,
+			1981002,
+			1981003
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			},
+			{
+				"weixu_baojian_3",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				60
+			},
+			{
+				1,
+				587,
+				14
+			},
+			{
+				2,
+				200620,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				15
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4012] = {
+		pre_chapter = 0,
+		name = "困难难度（LV 65）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4012,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-2】战役已经开始，与鸢尾舰队和东煌舰队一同清理这片区域。 ",
+		limitation = {},
+		expedition_id = {
+			1982001,
+			1982002,
+			1982003
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			},
+			{
+				"weixu_baojian_3",
+				2
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				80
+			},
+			{
+				1,
+				587,
+				14
+			},
+			{
+				2,
+				200626,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				20
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4021] = {
+		pre_chapter = 0,
+		name = "普通难度（LV 50）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4021,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-3】战役已经开始，与铁血舰队和撒丁舰队一同清理这片区域。 ",
+		limitation = {},
+		expedition_id = {
+			1981001,
+			1981002,
+			1981004
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			},
+			{
+				"weixu_baojian_4",
+				12
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				60
+			},
+			{
+				1,
+				587,
+				14
+			},
+			{
+				2,
+				200621,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				15
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4022] = {
+		pre_chapter = 0,
+		name = "困难难度（LV 65）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4022,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-3】战役已经开始，与铁血舰队和撒丁舰队一同清理这片区域。 ",
+		limitation = {},
+		expedition_id = {
+			1982001,
+			1982002,
+			1982004
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			},
+			{
+				"weixu_baojian_4",
+				12
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				80
+			},
+			{
+				1,
+				587,
+				14
+			},
+			{
+				2,
+				200627,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				20
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4031] = {
+		pre_chapter = 0,
+		name = "普通难度（LV 50）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4031,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-4】战役已经开始，与皇家舰队和北联舰队一同清理这片区域。",
+		limitation = {},
+		expedition_id = {
+			1981001,
+			1981002,
+			1981005
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			},
+			{
+				"weixu_baojian_5",
+				3
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				60
+			},
+			{
+				1,
+				587,
+				14
+			},
+			{
+				2,
+				200622,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				15
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4032] = {
+		pre_chapter = 0,
+		name = "困难难度（LV 65）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4032,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-4】战役已经开始，与皇家舰队和北联舰队一同清理这片区域。",
+		limitation = {},
+		expedition_id = {
+			1982001,
+			1982002,
+			1982005
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			},
+			{
+				"weixu_baojian_5",
+				3
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				80
+			},
+			{
+				1,
+				587,
+				14
+			},
+			{
+				2,
+				200628,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				20
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4041] = {
+		pre_chapter = 0,
+		name = "普通难度（LV 50）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4041,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-5】战役已经开始，与重樱舰队和郁金舰队一同清理这片区域。",
+		limitation = {},
+		expedition_id = {
+			1981001,
+			1981002,
+			1981006
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			},
+			{
+				"weixu_baojian_6",
+				13
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				60
+			},
+			{
+				1,
+				587,
+				14
+			},
+			{
+				2,
+				200623,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				15
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4042] = {
+		pre_chapter = 0,
+		name = "困难难度（LV 65）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4042,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-5】战役已经开始，与重樱舰队和郁金舰队一同清理这片区域。",
+		limitation = {},
+		expedition_id = {
+			1982001,
+			1982002,
+			1982006
+		},
+		boss_icon = {
+			{
+				"qinraozhe_IV",
+				2
+			},
+			{
+				"weixu_baojian_2",
+				2
+			},
+			{
+				"weixu_baojian_6",
+				13
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				80
+			},
+			{
+				1,
+				587,
+				14
+			},
+			{
+				2,
+				200629,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				20
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[4051] = {
+		pre_chapter = 0,
+		name = "普通难度（LV 80）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4051,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-6】决战之时已到，带领港区联合舰队击破梦魇迷宫。",
+		limitation = {},
+		expedition_id = {
+			1983001,
+			1983002,
+			1983003,
+			1983004
+		},
+		boss_icon = {
+			{
+				"weixu_baojian_3",
+				2
+			},
+			{
+				"weixu_baojian_5",
+				3
+			},
+			{
+				"weixu_baojian_6",
+				13
+			},
+			{
+				"weixu_baojian_7",
+				6
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				120
+			},
+			{
+				1,
+				587,
+				16
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				200624,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200631,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				25
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			22,
+			15
+		}
+	},
+	[4052] = {
+		pre_chapter = 0,
+		name = "困难难度（LV 100）",
+		chapter_name = "无用",
+		type = 1,
+		pos_x = "0",
+		count = 0,
+		id = 4052,
+		pos_y = "0",
+		whether_singlefight = 1,
+		ex_count = "",
+		oil = 0,
+		profiles = "【AREA-6】决战之时已到，带领港区联合舰队击破梦魇迷宫。",
+		limitation = {},
+		expedition_id = {
+			1984001,
+			1984002,
+			1984003,
+			1984004
+		},
+		boss_icon = {
+			{
+				"weixu_baojian_3",
+				2
+			},
+			{
+				"weixu_baojian_5",
+				3
+			},
+			{
+				"weixu_baojian_6",
+				13
+			},
+			{
+				"weixu_baojian_7",
+				6
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				588,
+				160
+			},
+			{
+				1,
+				587,
+				16
+			},
+			{
+				2,
+				200633,
+				0
+			},
+			{
+				2,
+				200630,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			},
+			{
+				2,
+				200632,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				588,
+				30
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -998,6 +2006,18 @@ pg.activity_series_enemy = {
 		3002,
 		3003,
 		3004,
-		3005
+		3005,
+		4001,
+		4002,
+		4011,
+		4012,
+		4021,
+		4022,
+		4031,
+		4032,
+		4041,
+		4042,
+		4051,
+		4052
 	}
 }

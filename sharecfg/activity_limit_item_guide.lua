@@ -2565,6 +2565,191 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[171] = {
+		id = 171,
+		activity = 50249,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150860,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"完成活动任务"
+			}
+		}
+	},
+	[172] = {
+		id = 172,
+		activity = 50249,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150880,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 50246,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	},
+	[173] = {
+		id = 173,
+		activity = 50249,
+		count = 1,
+		type = 3,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 150900,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene shop",
+					{
+						actId = 50246,
+						warp = 1
+					}
+				},
+				"补给商店兑换"
+			}
+		}
+	},
+	[174] = {
+		id = 174,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14780,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「异常海域·1号战区」完全压制奖励"
+			}
+		}
+	},
+	[175] = {
+		id = 175,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14760,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「异常海域·2号战区」完全压制奖励"
+			}
+		}
+	},
+	[176] = {
+		id = 176,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14800,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「异常海域·3号战区」完全压制奖励"
+			}
+		}
+	},
+	[177] = {
+		id = 177,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14840,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「异常海域·4号战区」完全压制奖励"
+			}
+		}
+	},
+	[178] = {
+		id = 178,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14860,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「异常海域·5号战区」完全压制奖励"
+			}
+		}
+	},
+	[179] = {
+		id = 179,
+		activity = 50249,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14820,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"bossrush dal collab",
+					{}
+				},
+				"「异常海域·6号战区」完全压制奖励"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -2716,6 +2901,17 @@ pg.activity_limit_item_guide = {
 			163,
 			164,
 			165
+		},
+		[50249] = {
+			171,
+			172,
+			173,
+			174,
+			175,
+			176,
+			177,
+			178,
+			179
 		}
 	},
 	all = {
@@ -2857,6 +3053,15 @@ pg.activity_limit_item_guide = {
 		162,
 		163,
 		164,
-		165
+		165,
+		171,
+		172,
+		173,
+		174,
+		175,
+		176,
+		177,
+		178,
+		179
 	}
 }

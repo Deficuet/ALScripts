@@ -69,22 +69,26 @@ function var_0_0.loadChar(arg_6_0)
 		local var_6_0 = arg_6_0.shipVO:getPrefab()
 
 		pg.UIMgr.GetInstance():LoadingOn()
-		PoolMgr.GetInstance():GetSpineChar(var_6_0, true, function(arg_7_0)
+
+		local var_6_1 = SpineAnimChar.New()
+
+		var_6_1:SetPaint(var_6_0)
+		var_6_1:Load(true, function(arg_7_0)
 			pg.UIMgr.GetInstance():LoadingOff()
 
 			arg_6_0.shipPrefab = var_6_0
 			arg_6_0.shipModel = arg_7_0
-			tf(arg_7_0).localScale = Vector3(0.8, 0.8, 1)
 
-			arg_7_0:GetComponent("SpineAnimUI"):SetAction("stand", 0)
-			setParent(arg_7_0, arg_6_0.qCharaContain)
+			arg_7_0:SetLocalScale(Vector3(0.8, 0.8, 1))
+			arg_7_0:SetParent(arg_6_0.qCharaContain)
+			arg_7_0:SetAction("stand", 0)
 		end)
 	end
 end
 
 function var_0_0.recycleSpineChar(arg_8_0)
 	if arg_8_0.shipPrefab and arg_8_0.shipModel then
-		PoolMgr.GetInstance():ReturnSpineChar(arg_8_0.shipPrefab, arg_8_0.shipModel)
+		arg_8_0.shipModel:Dispose()
 
 		arg_8_0.shipPrefab = nil
 		arg_8_0.shipModel = nil

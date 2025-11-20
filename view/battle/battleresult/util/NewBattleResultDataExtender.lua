@@ -1,7 +1,7 @@
 local var_0_0 = class("NewBattleResultDataExtender")
 
 function var_0_0.NeedCloseCamera(arg_1_0)
-	return arg_1_0 ~= SYSTEM_BOSS_RUSH and arg_1_0 ~= SYSTEM_BOSS_RUSH_EX and arg_1_0 ~= SYSTEM_ACT_BOSS and arg_1_0 ~= SYSTEM_WORLD_BOSS and arg_1_0 ~= SYSTEM_BOSS_SINGLE and arg_1_0 ~= SYSTEM_BOSS_SINGLE_VARIABLE
+	return arg_1_0 ~= SYSTEM_BOSS_RUSH and arg_1_0 ~= SYSTEM_BOSS_RUSH_EX and arg_1_0 ~= SYSTEM_BOSS_RUSH_COLLABRATE and arg_1_0 ~= SYSTEM_ACT_BOSS and arg_1_0 ~= SYSTEM_WORLD_BOSS and arg_1_0 ~= SYSTEM_BOSS_SINGLE and arg_1_0 ~= SYSTEM_BOSS_SINGLE_VARIABLE
 end
 
 function var_0_0.NeedVibrate(arg_2_0)
@@ -217,7 +217,7 @@ function var_0_0.GetNewMainShips(arg_18_0)
 		var_18_1 = var_0_5(arg_18_0)
 	elseif var_18_0 == SYSTEM_GUILD then
 		var_18_1 = var_0_6()
-	elseif var_18_0 == SYSTEM_BOSS_RUSH or var_18_0 == SYSTEM_BOSS_RUSH_EX then
+	elseif var_18_0 == SYSTEM_BOSS_RUSH or var_18_0 == SYSTEM_BOSS_RUSH_COLLABRATE or var_18_0 == SYSTEM_BOSS_RUSH_EX then
 		var_18_1 = var_0_7(arg_18_0)
 	elseif var_18_0 == SYSTEM_DODGEM or var_18_0 == SYSTEM_SUBMARINE_RUN or var_18_0 == SYSTEM_REWARD_PERFORM or var_18_0 == SYSTEM_AIRFIGHT or var_18_0 == SYSTEM_CARDPUZZLE or var_18_0 == SYSTEM_CHALLENGE then
 		-- block empty

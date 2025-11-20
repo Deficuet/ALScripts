@@ -93,7 +93,7 @@ function var_0_0.PlayModelAction(arg_10_0, arg_10_1, arg_10_2, arg_10_3)
 		if arg_10_0.modelType == WorldConst.ModelSpine then
 			local var_10_1 = arg_10_0.modelComps and arg_10_0.modelComps[1]
 
-			if var_10_1 and var_10_1.transform.gameObject.activeInHierarchy then
+			if var_10_1 and var_10_1:GetModel().transform.gameObject.activeInHierarchy then
 				table.insert(var_10_0, function(arg_11_0)
 					var_10_1:SetAction(arg_10_1, 0)
 
@@ -215,24 +215,27 @@ function var_0_0.LoadSpine(arg_20_0, arg_20_1)
 	local var_20_0 = arg_20_0.modelResPath
 	local var_20_1 = arg_20_0.modelResAsync
 
-	PoolMgr.GetInstance():GetSpineChar(var_20_0, var_20_1, function(arg_21_0)
+	arg_20_0.spineChar = SpineAnimChar.New()
+
+	arg_20_0.spineChar:SetPaint(var_20_0)
+	arg_20_0.spineChar:Load(var_20_1, function(arg_21_0)
 		if arg_20_0.modelType ~= WorldConst.ModelSpine or arg_20_0.modelResPath ~= var_20_0 then
-			PoolMgr.GetInstance():ReturnSpineChar(var_20_0, arg_21_0)
+			arg_21_0:Dispose()
+
+			arg_20_0.spineChar = nil
 
 			return
 		end
 
-		local var_21_0 = arg_21_0.transform
+		arg_21_0:GetSkeletonGraphic().raycastTarget = false
 
-		var_21_0:GetComponent("SkeletonGraphic").raycastTarget = false
-		var_21_0.anchoredPosition3D = Vector3.zero
-		var_21_0.localScale = Vector3.one
-
-		pg.ViewUtils.SetLayer(var_21_0, Layer.UI)
-		var_21_0:SetParent(arg_20_0.model, false)
+		arg_21_0:SetAnchoredPosition3D(Vector3.zero)
+		arg_21_0:SetLocalScale(Vector3.one)
+		arg_21_0:SetLayer(Layer.UI)
+		arg_21_0:SetParent(arg_20_0.model)
 
 		arg_20_0.modelComps = {
-			var_21_0:GetComponent("SpineAnimUI")
+			arg_21_0
 		}
 
 		arg_20_1()
@@ -277,8 +280,10 @@ function var_0_0.LoadPrefab(arg_22_0, arg_22_1)
 end
 
 function var_0_0.UnloadSpine(arg_24_0)
-	arg_24_0.modelComps[1]:SetActionCallBack(nil)
-	PoolMgr.GetInstance():ReturnSpineChar(arg_24_0.modelResPath, arg_24_0.model:GetChild(0).gameObject)
+	local var_24_0 = arg_24_0.modelComps[1]
+
+	var_24_0:SetActionCallBack(nil)
+	var_24_0:Dispose()
 end
 
 function var_0_0.UnloadPrefab(arg_25_0)

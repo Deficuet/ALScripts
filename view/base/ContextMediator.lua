@@ -126,27 +126,31 @@ function var_0_0.onRegister(arg_5_0)
 		underscore.each(arg_17_0, function(arg_18_0)
 			if arg_18_0.type == DROP_TYPE_OPERATION then
 				table.insert(var_17_1, var_17_0:getShipById(arg_18_0.count))
+			elseif arg_18_0.type == DROP_TYPE_VITEM and arg_18_0:getConfig("virtual_type") == 17 then
+				local var_18_0 = getProxy(ActivityProxy):getActivityById(arg_18_0:getConfig("link_id"))
+
+				table.insert(var_17_1, var_17_0:getShipById(var_18_0.data2))
 			elseif arg_18_0.type == DROP_TYPE_SHIP then
-				local var_18_0 = arg_18_0.configId or arg_18_0.id
+				local var_18_1 = arg_18_0.configId or arg_18_0.id
 
-				if Ship.isMetaShipByConfigID(var_18_0) then
-					local var_18_1 = table.indexof(var_17_2, var_18_0)
+				if Ship.isMetaShipByConfigID(var_18_1) then
+					local var_18_2 = table.indexof(var_17_2, var_18_1)
 
-					if var_18_1 then
-						table.remove(var_17_2, var_18_1)
+					if var_18_2 then
+						table.remove(var_17_2, var_18_2)
 
 						var_17_3 = var_17_3 - 1
 					else
-						local var_18_2 = Ship.New({
-							configId = var_18_0
+						local var_18_3 = Ship.New({
+							configId = var_18_1
 						})
-						local var_18_3 = getProxy(BayProxy):getMetaTransItemMap(var_18_2.configId)
+						local var_18_4 = getProxy(BayProxy):getMetaTransItemMap(var_18_3.configId)
 
-						if var_18_3 then
-							var_18_2:setReMetaSpecialItemVO(var_18_3)
+						if var_18_4 then
+							var_18_3:setReMetaSpecialItemVO(var_18_4)
 						end
 
-						table.insert(var_17_1, var_18_2)
+						table.insert(var_17_1, var_18_3)
 					end
 				else
 					var_17_3 = var_17_3 - 1

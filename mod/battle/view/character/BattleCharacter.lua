@@ -762,7 +762,20 @@ function var_0_6.OnActionChange(arg_64_0, arg_64_1)
 end
 
 function var_0_6.PlayAction(arg_65_0, arg_65_1)
-	arg_65_0._animator:SetAction(arg_65_1, 0, var_0_2.ActionLoop[arg_65_1])
+	local var_65_0 = arg_65_1
+	local var_65_1 = false
+
+	if arg_65_0._skeleton then
+		var_65_0, var_65_1 = SpineAnimUtil.GetCharAnimDirect(arg_65_0._skeleton, math.sign(arg_65_0._modelScale.x), var_65_0)
+	end
+
+	if var_65_1 then
+		local var_65_2 = Vector3(math.abs(arg_65_0._modelScale.x), arg_65_0._modelScale.y, arg_65_0._modelScale.z)
+
+		arg_65_0:setLocalScale(var_65_2, true)
+	end
+
+	arg_65_0._animator:SetAction(var_65_0, 0, var_0_2.ActionLoop[arg_65_1])
 
 	arg_65_0._actionIndex = arg_65_1
 
@@ -772,21 +785,21 @@ function var_0_6.PlayAction(arg_65_0, arg_65_1)
 
 	if #arg_65_0._orbitActionUpdateList > 0 then
 		for iter_65_0, iter_65_1 in ipairs(arg_65_0._orbitActionUpdateList) do
-			local var_65_0 = iter_65_1.orbit
-			local var_65_1 = iter_65_1.change
-			local var_65_2 = var_65_1.condition.param
-			local var_65_3 = false
+			local var_65_3 = iter_65_1.orbit
+			local var_65_4 = iter_65_1.change
+			local var_65_5 = var_65_4.condition.param
+			local var_65_6 = false
 
-			for iter_65_2, iter_65_3 in ipairs(var_65_2) do
+			for iter_65_2, iter_65_3 in ipairs(var_65_5) do
 				if string.find(arg_65_1, iter_65_3) then
-					var_65_3 = true
+					var_65_6 = true
 
 					break
 				end
 			end
 
-			if var_65_3 then
-				arg_65_0:changeOrbitAction(var_65_0, var_65_1)
+			if var_65_6 then
+				arg_65_0:changeOrbitAction(var_65_3, var_65_4)
 
 				break
 			end
@@ -1042,6 +1055,7 @@ function var_0_6.AddModel(arg_81_0, arg_81_1)
 
 	arg_81_0._hpBarOffset = Vector3(0, arg_81_0._unitData:GetBoxSize().y, 0)
 	arg_81_0._animator = arg_81_0:GetTf():GetComponent(typeof(SpineAnim))
+	arg_81_0._skeleton = arg_81_0:GetTf():GetComponent("SkeletonAnimation")
 
 	if arg_81_0._animator then
 		arg_81_0._animator:Start()
@@ -1053,7 +1067,7 @@ function var_0_6.AddModel(arg_81_0, arg_81_1)
 
 	local var_81_0 = arg_81_0:GetInitScale()
 
-	arg_81_0._tf.localScale = Vector3(var_81_0 * arg_81_0._unitData:GetDirection(), var_81_0, var_81_0)
+	arg_81_0:setLocalScale(Vector3(var_81_0 * arg_81_0._unitData:GetDirection(), var_81_0, var_81_0))
 
 	local var_81_1 = arg_81_0._unitData:GetOxyState()
 
@@ -1079,6 +1093,7 @@ function var_0_6.SwitchModel(arg_83_0, arg_83_1, arg_83_2)
 	arg_83_0:SetGO(arg_83_1)
 
 	arg_83_0._animator = arg_83_0:GetTf():GetComponent(typeof(SpineAnim))
+	arg_83_0._skeleton = arg_83_0:GetTf():GetComponent("SkeletonAnimation")
 
 	if arg_83_0._animator then
 		arg_83_0._animator:Start()
@@ -1096,8 +1111,7 @@ function var_0_6.SwitchModel(arg_83_0, arg_83_1, arg_83_2)
 
 	local var_83_1 = arg_83_0:GetInitScale()
 
-	arg_83_0._tf.localScale = Vector3(var_83_1 * arg_83_0._unitData:GetDirection(), var_83_1, var_83_1)
-
+	arg_83_0:setLocalScale(Vector3(var_83_1 * arg_83_0._unitData:GetDirection(), var_83_1, var_83_1))
 	arg_83_0._animator:SetActionCallBack(function(arg_84_0)
 		if arg_84_0 == "finish" then
 			arg_83_0:OnAnimatorEnd()
@@ -1132,8 +1146,13 @@ function var_0_6.SwitchModel(arg_83_0, arg_83_1, arg_83_2)
 	var_0_4.GetInstance():DestroyOb(var_83_0)
 end
 
-function var_0_6.AddOrbit(arg_85_0, arg_85_1, arg_85_2)
+function var_0_6.AddOrbit(arg_85_0, arg_85_1, arg_85_2, arg_85_3)
 	local var_85_0 = arg_85_2.orbit_combat_bound[1]
+
+	if arg_85_3 then
+		var_85_0 = arg_85_3 .. "_" .. var_85_0
+	end
+
 	local var_85_1 = arg_85_2.orbit_combat_bound[2]
 	local var_85_2 = arg_85_2.orbit_hidden_action
 
@@ -1371,349 +1390,370 @@ function var_0_6.AddAimBiasBar(arg_108_0, arg_108_1)
 	arg_108_0._aimBiarBar:UpdateAimBiasProgress()
 end
 
-function var_0_6.UpdateAimBiasBar(arg_109_0)
-	if arg_109_0._aimBiarBar then
-		arg_109_0._aimBiarBar:UpdateAimBiasProgress()
+function var_0_6.IsDoubleChar(arg_109_0)
+	if arg_109_0._skeleton then
+		local var_109_0 = arg_109_0._skeleton.skeleton:FindBoneIndex("char1_face")
+		local var_109_1 = arg_109_0._skeleton.skeleton:FindBoneIndex("char2_face")
+
+		if var_109_0 >= 0 or var_109_1 >= 0 then
+			return true
+		end
+	end
+
+	return false
+end
+
+function var_0_6.UpdateAimBiasBar(arg_110_0)
+	if arg_110_0._aimBiarBar then
+		arg_110_0._aimBiarBar:UpdateAimBiasProgress()
 	end
 end
 
-function var_0_6.UpdateBuffClock(arg_110_0)
-	if arg_110_0._buffClock and arg_110_0._buffClock:IsActive() then
-		arg_110_0._buffClock:UpdateCastClockPosition(arg_110_0._referenceVector)
-		arg_110_0._buffClock:UpdateCastClock()
+function var_0_6.UpdateBuffClock(arg_111_0)
+	if arg_111_0._buffClock and arg_111_0._buffClock:IsActive() then
+		arg_111_0._buffClock:UpdateCastClockPosition(arg_111_0._referenceVector)
+		arg_111_0._buffClock:UpdateCastClock()
 	end
 end
 
-function var_0_6.onUpdateAimBiasLock(arg_111_0, arg_111_1)
-	arg_111_0._aimBiarBar:UpdateLockStateView()
+function var_0_6.onUpdateAimBiasLock(arg_112_0, arg_112_1)
+	arg_112_0._aimBiarBar:UpdateLockStateView()
 end
 
-function var_0_6.onInitAimBias(arg_112_0, arg_112_1)
-	if arg_112_0._unitData:GetAimBias():GetHost() == arg_112_0._unitData then
-		arg_112_0._factory:MakeAimBiasBar(arg_112_0)
+function var_0_6.onInitAimBias(arg_113_0, arg_113_1)
+	if arg_113_0._unitData:GetAimBias():GetHost() == arg_113_0._unitData then
+		arg_113_0._factory:MakeAimBiasBar(arg_113_0)
 	end
 end
 
-function var_0_6.onHostAimBias(arg_113_0, arg_113_1)
-	arg_113_0._factory:MakeAimBiasBar(arg_113_0)
+function var_0_6.onHostAimBias(arg_114_0, arg_114_1)
+	arg_114_0._factory:MakeAimBiasBar(arg_114_0)
 end
 
-function var_0_6.onRemoveAimBias(arg_114_0, arg_114_1)
-	arg_114_0._aimBiarBar:SetActive(false)
-	arg_114_0._aimBiarBar:Dispose()
+function var_0_6.onRemoveAimBias(arg_115_0, arg_115_1)
+	arg_115_0._aimBiarBar:SetActive(false)
+	arg_115_0._aimBiarBar:Dispose()
 
-	arg_114_0._aimBiarBar = nil
-	arg_114_0._aimBiarBarTF = nil
+	arg_115_0._aimBiarBar = nil
+	arg_115_0._aimBiarBarTF = nil
 end
 
-function var_0_6.AddAimBiasFogFX(arg_115_0)
-	local var_115_0 = arg_115_0._unitData:GetTemplate().fog_fx
+function var_0_6.AddAimBiasFogFX(arg_116_0)
+	local var_116_0 = arg_116_0._unitData:GetTemplate().fog_fx
 
-	if var_115_0 and var_115_0 ~= "" then
-		arg_115_0._fogFx = arg_115_0:AddFX(var_115_0)
+	if var_116_0 and var_116_0 ~= "" then
+		arg_116_0._fogFx = arg_116_0:AddFX(var_116_0)
 	end
 end
 
-function var_0_6.OnUpdateHP(arg_116_0, arg_116_1)
-	arg_116_0:_DealHPPop(arg_116_1.Data)
+function var_0_6.OnUpdateHP(arg_117_0, arg_117_1)
+	arg_117_0:_DealHPPop(arg_117_1.Data)
 end
 
-function var_0_6._DealHPPop(arg_117_0, arg_117_1)
-	if arg_117_0._hpPopIndex_put == arg_117_0._hpPopIndex_get and arg_117_0._hpPopCount == 0 then
-		arg_117_0:_PlayHPPop(arg_117_1)
+function var_0_6._DealHPPop(arg_118_0, arg_118_1)
+	if arg_118_0._hpPopIndex_put == arg_118_0._hpPopIndex_get and arg_118_0._hpPopCount == 0 then
+		arg_118_0:_PlayHPPop(arg_118_1)
 
-		arg_117_0._hpPopCount = 1
-	elseif arg_117_0._unitData:IsAlive() then
-		arg_117_0._hpPopCatch[arg_117_0._hpPopIndex_put] = arg_117_1
-		arg_117_0._hpPopIndex_put = arg_117_0._hpPopIndex_put + 1
+		arg_118_0._hpPopCount = 1
+	elseif arg_118_0._unitData:IsAlive() then
+		arg_118_0._hpPopCatch[arg_118_0._hpPopIndex_put] = arg_118_1
+		arg_118_0._hpPopIndex_put = arg_118_0._hpPopIndex_put + 1
 	else
-		arg_117_0:_PlayHPPop(arg_117_1)
+		arg_118_0:_PlayHPPop(arg_118_1)
 	end
 end
 
-function var_0_6.UpdateHPPop(arg_118_0)
-	if arg_118_0._hpPopIndex_put == arg_118_0._hpPopIndex_get then
+function var_0_6.UpdateHPPop(arg_119_0)
+	if arg_119_0._hpPopIndex_put == arg_119_0._hpPopIndex_get then
 		return
 	else
-		arg_118_0._hpPopCount = arg_118_0._hpPopCount + 1
+		arg_119_0._hpPopCount = arg_119_0._hpPopCount + 1
 
-		if arg_118_0:_CalcHPPopCount() <= arg_118_0._hpPopCount then
-			arg_118_0:_PlayHPPop(arg_118_0._hpPopCatch[arg_118_0._hpPopIndex_get])
+		if arg_119_0:_CalcHPPopCount() <= arg_119_0._hpPopCount then
+			arg_119_0:_PlayHPPop(arg_119_0._hpPopCatch[arg_119_0._hpPopIndex_get])
 
-			arg_118_0._hpPopCatch[arg_118_0._hpPopIndex_get] = nil
-			arg_118_0._hpPopIndex_get = arg_118_0._hpPopIndex_get + 1
-			arg_118_0._hpPopCount = 0
+			arg_119_0._hpPopCatch[arg_119_0._hpPopIndex_get] = nil
+			arg_119_0._hpPopIndex_get = arg_119_0._hpPopIndex_get + 1
+			arg_119_0._hpPopCount = 0
 		end
 	end
 end
 
-function var_0_6._PlayHPPop(arg_119_0, arg_119_1)
-	if arg_119_0._popNumBundle:IsScorePop() then
+function var_0_6._PlayHPPop(arg_120_0, arg_120_1)
+	if arg_120_0._popNumBundle:IsScorePop() then
 		return
 	end
 
-	local var_119_0 = arg_119_1.dHP
-	local var_119_1 = arg_119_1.isCri
-	local var_119_2 = arg_119_1.isMiss
-	local var_119_3 = arg_119_1.isHeal
-	local var_119_4 = arg_119_1.posOffset or Vector3.zero
-	local var_119_5 = arg_119_1.font
-	local var_119_6 = arg_119_0._popNumBundle:GetPop(var_119_3, var_119_1, var_119_2, var_119_0, var_119_5)
+	local var_120_0 = arg_120_1.dHP
+	local var_120_1 = arg_120_1.isCri
+	local var_120_2 = arg_120_1.isMiss
+	local var_120_3 = arg_120_1.isHeal
+	local var_120_4 = arg_120_1.posOffset or Vector3.zero
+	local var_120_5 = arg_120_1.font
+	local var_120_6 = arg_120_0._popNumBundle:GetPop(var_120_3, var_120_1, var_120_2, var_120_0, var_120_5)
 
-	var_119_6:SetReferenceCharacter(arg_119_0, var_119_4)
-	var_119_6:Play()
+	var_120_6:SetReferenceCharacter(arg_120_0, var_120_4)
+	var_120_6:Play()
 end
 
-function var_0_6._CalcHPPopCount(arg_120_0)
-	if arg_120_0._hpPopIndex_put - arg_120_0._hpPopIndex_get > 5 then
+function var_0_6._CalcHPPopCount(arg_121_0)
+	if arg_121_0._hpPopIndex_put - arg_121_0._hpPopIndex_get > 5 then
 		return 1
 	else
 		return 5
 	end
 end
 
-function var_0_6.onUpdateScore(arg_121_0, arg_121_1)
-	local var_121_0 = arg_121_1.Data.score
-	local var_121_1 = arg_121_0._popNumBundle:GetScorePop(var_121_0)
+function var_0_6.onUpdateScore(arg_122_0, arg_122_1)
+	local var_122_0 = arg_122_1.Data.score
+	local var_122_1 = arg_122_0._popNumBundle:GetScorePop(var_122_0)
 
-	var_121_1:SetReferenceCharacter(arg_121_0, Vector3.zero)
-	var_121_1:Play()
+	var_122_1:SetReferenceCharacter(arg_122_0, Vector3.zero)
+	var_122_1:Play()
 end
 
-function var_0_6.UpdateHpBar(arg_122_0)
-	local var_122_0 = arg_122_0._unitData:GetCurrentHP()
+function var_0_6.UpdateHpBar(arg_123_0)
+	local var_123_0 = arg_123_0._unitData:GetCurrentHP()
 
-	if arg_122_0._HPProgress and arg_122_0._cacheHP ~= var_122_0 then
-		local var_122_1 = arg_122_0._unitData:GetHPRate()
+	if arg_123_0._HPProgress and arg_123_0._cacheHP ~= var_123_0 then
+		local var_123_1 = arg_123_0._unitData:GetHPRate()
 
-		arg_122_0._HPProgress.fillAmount = var_122_1
-		arg_122_0._cacheHP = var_122_0
+		arg_123_0._HPProgress.fillAmount = var_123_1
+		arg_123_0._cacheHP = var_123_0
 	end
 end
 
-function var_0_6.onChangeSize(arg_123_0, arg_123_1)
-	arg_123_0:doChangeSize(arg_123_1)
+function var_0_6.onChangeSize(arg_124_0, arg_124_1)
+	arg_124_0:doChangeSize(arg_124_1)
 end
 
-function var_0_6.updateSomkeFX(arg_124_0)
-	local var_124_0 = arg_124_0._unitData:GetHPRate()
+function var_0_6.updateSomkeFX(arg_125_0)
+	local var_125_0 = arg_125_0._unitData:GetHPRate()
 
-	for iter_124_0, iter_124_1 in ipairs(arg_124_0._smokeList) do
-		if var_124_0 < iter_124_1.rate then
-			if iter_124_1.active == false then
-				iter_124_1.active = true
+	for iter_125_0, iter_125_1 in ipairs(arg_125_0._smokeList) do
+		if var_125_0 < iter_125_1.rate then
+			if iter_125_1.active == false then
+				iter_125_1.active = true
 
-				local var_124_1 = iter_124_1.smokes
+				local var_125_1 = iter_125_1.smokes
 
-				for iter_124_2, iter_124_3 in pairs(var_124_1) do
-					if iter_124_2.unInitialize then
-						local var_124_2 = arg_124_0:AddFX(iter_124_2.resID)
+				for iter_125_2, iter_125_3 in pairs(var_125_1) do
+					if iter_125_2.unInitialize then
+						local var_125_2 = arg_125_0:AddFX(iter_125_2.resID)
 
-						var_124_2.transform.localPosition = iter_124_2.pos
-						var_124_1[iter_124_2] = var_124_2
+						var_125_2.transform.localPosition = iter_125_2.pos
+						var_125_1[iter_125_2] = var_125_2
 
-						SetActive(var_124_2, true)
+						SetActive(var_125_2, true)
 
-						iter_124_2.unInitialize = false
+						iter_125_2.unInitialize = false
 					else
-						SetActive(iter_124_3, true)
+						SetActive(iter_125_3, true)
 					end
 				end
 			end
-		elseif iter_124_1.active == true then
-			iter_124_1.active = false
+		elseif iter_125_1.active == true then
+			iter_125_1.active = false
 
-			local var_124_3 = iter_124_1.smokes
+			local var_125_3 = iter_125_1.smokes
 
-			for iter_124_4, iter_124_5 in pairs(var_124_3) do
-				if iter_124_4.unInitialize then
+			for iter_125_4, iter_125_5 in pairs(var_125_3) do
+				if iter_125_4.unInitialize then
 					-- block empty
 				else
-					SetActive(iter_124_5, false)
+					SetActive(iter_125_5, false)
 				end
 			end
 		end
 	end
 end
 
-function var_0_6.doChangeSize(arg_125_0, arg_125_1)
-	local var_125_0 = arg_125_1.Data.size_ratio
+function var_0_6.doChangeSize(arg_126_0, arg_126_1)
+	local var_126_0 = arg_126_1.Data.size_ratio
 
-	arg_125_0._tf.localScale = arg_125_0._tf.localScale * var_125_0
+	arg_126_0:setLocalScale(arg_126_0._tf.localScale * var_126_0)
 end
 
-function var_0_6.InitEffectView(arg_126_0)
-	arg_126_0._effectOb = var_0_0.Battle.BattleEffectComponent.New(arg_126_0)
+function var_0_6.InitEffectView(arg_127_0)
+	arg_127_0._effectOb = var_0_0.Battle.BattleEffectComponent.New(arg_127_0)
 end
 
-function var_0_6.UpdateAniEffect(arg_127_0, arg_127_1)
-	arg_127_0._effectOb:Update(arg_127_1)
+function var_0_6.UpdateAniEffect(arg_128_0, arg_128_1)
+	arg_128_0._effectOb:Update(arg_128_1)
 end
 
-function var_0_6.UpdateTagEffect(arg_128_0, arg_128_1)
-	local var_128_0 = arg_128_0._unitData:GetBoxSize().y * 0.5
+function var_0_6.UpdateTagEffect(arg_129_0, arg_129_1)
+	local var_129_0 = arg_129_0._unitData:GetBoxSize().y * 0.5
 
-	for iter_128_0, iter_128_1 in pairs(arg_128_0._tagFXList) do
-		iter_128_1:Update(arg_128_1)
-		iter_128_1:SetPosition(arg_128_0._referenceVector + Vector3(0, var_128_0, 0))
+	for iter_129_0, iter_129_1 in pairs(arg_129_0._tagFXList) do
+		iter_129_1:Update(arg_129_1)
+		iter_129_1:SetPosition(arg_129_0._referenceVector + Vector3(0, var_129_0, 0))
 	end
 end
 
-function var_0_6.SetPopup(arg_129_0, arg_129_1, arg_129_2, arg_129_3)
-	if arg_129_0._voiceTimer then
-		if arg_129_0._voiceKey == arg_129_3 then
-			arg_129_0._voiceKey = nil
+function var_0_6.SetPopup(arg_130_0, arg_130_1, arg_130_2, arg_130_3)
+	if arg_130_0._voiceTimer then
+		if arg_130_0._voiceKey == arg_130_3 then
+			arg_130_0._voiceKey = nil
 		else
 			return
 		end
 	end
 
-	if arg_129_0._popGO then
-		LeanTween.cancel(arg_129_0._popGO)
+	if arg_130_0._popGO then
+		LeanTween.cancel(arg_130_0._popGO)
 
-		local var_129_0 = arg_129_0._popGO.transform:GetComponent(typeof(Animation))
+		local var_130_0 = arg_130_0._popGO.transform:GetComponent(typeof(Animation))
 
-		if var_129_0 then
-			var_129_0:Play("popup_out")
-			arg_129_0._popGO:GetComponent("DftAniEvent"):SetEndEvent(function(arg_130_0)
-				arg_129_0.ChatPopAnimation(arg_129_0._popGO, arg_129_2)
+		if var_130_0 then
+			var_130_0:Play("popup_out")
+			arg_130_0._popGO:GetComponent("DftAniEvent"):SetEndEvent(function(arg_131_0)
+				arg_130_0.ChatPopAnimation(arg_130_0._popGO, arg_130_2)
 			end)
 		else
-			LeanTween.cancel(arg_129_0._popGO)
-			LeanTween.scale(rtf(arg_129_0._popGO.gameObject), Vector3.New(0, 0, 1), 0.1):setEase(LeanTweenType.easeInBack):setOnComplete(System.Action(function()
-				arg_129_0.ChatPop(arg_129_0._popGO, arg_129_2)
+			LeanTween.cancel(arg_130_0._popGO)
+			LeanTween.scale(rtf(arg_130_0._popGO.gameObject), Vector3.New(0, 0, 1), 0.1):setEase(LeanTweenType.easeInBack):setOnComplete(System.Action(function()
+				arg_130_0.ChatPop(arg_130_0._popGO, arg_130_2)
 			end))
 		end
 	else
-		arg_129_0._popGO = arg_129_0._factory:MakePopup()
-		arg_129_0._popTF = arg_129_0._popGO.transform
+		arg_130_0._popGO = arg_130_0._factory:MakePopup()
+		arg_130_0._popTF = arg_130_0._popGO.transform
 
-		if arg_129_0._popGO.transform:GetComponent(typeof(Animation)) then
-			arg_129_0.ChatPopAnimation(arg_129_0._popGO, arg_129_2)
+		if arg_130_0._popGO.transform:GetComponent(typeof(Animation)) then
+			arg_130_0.ChatPopAnimation(arg_130_0._popGO, arg_130_2)
 		else
-			arg_129_0._popTF.localScale = Vector3(0, 0, 0)
+			arg_130_0._popTF.localScale = Vector3(0, 0, 0)
 
-			arg_129_0.ChatPop(arg_129_0._popGO, arg_129_2)
+			arg_130_0.ChatPop(arg_130_0._popGO, arg_130_2)
 		end
 	end
 
-	var_0_6.setChatText(arg_129_0._popGO, arg_129_1)
-	SetActive(arg_129_0._popGO, true)
+	var_0_6.setChatText(arg_130_0._popGO, arg_130_1)
+	SetActive(arg_130_0._popGO, true)
 end
 
-function var_0_6.ChatPopAnimation(arg_132_0, arg_132_1)
-	local var_132_0 = arg_132_0.transform:GetComponent(typeof(Animation))
+function var_0_6.ChatPopAnimation(arg_133_0, arg_133_1)
+	local var_133_0 = arg_133_0.transform:GetComponent(typeof(Animation))
 
-	var_132_0:Play("popup_in")
-	LeanTween.delayedCall(arg_132_0.gameObject, arg_132_1, System.Action(function()
-		var_132_0:Play("popup_out")
-		arg_132_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_134_0)
-			SetActive(arg_132_0, false)
+	var_133_0:Play("popup_in")
+	LeanTween.delayedCall(arg_133_0.gameObject, arg_133_1, System.Action(function()
+		var_133_0:Play("popup_out")
+		arg_133_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_135_0)
+			SetActive(arg_133_0, false)
 		end)
 	end))
 end
 
-function var_0_6.ChatPop(arg_135_0, arg_135_1)
-	arg_135_1 = arg_135_1 or 2.5
+function var_0_6.ChatPop(arg_136_0, arg_136_1)
+	arg_136_1 = arg_136_1 or 2.5
 
-	LeanTween.scale(rtf(arg_135_0.gameObject), Vector3.New(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function()
-		LeanTween.scale(rtf(arg_135_0.gameObject), Vector3.New(0, 0, 1), 0.3):setEase(LeanTweenType.easeInBack):setDelay(arg_135_1):setOnComplete(System.Action(function()
-			SetActive(arg_135_0, false)
+	LeanTween.scale(rtf(arg_136_0.gameObject), Vector3.New(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function()
+		LeanTween.scale(rtf(arg_136_0.gameObject), Vector3.New(0, 0, 1), 0.3):setEase(LeanTweenType.easeInBack):setDelay(arg_136_1):setOnComplete(System.Action(function()
+			SetActive(arg_136_0, false)
 		end))
 	end))
 end
 
-function var_0_6.setChatText(arg_138_0, arg_138_1)
-	local var_138_0 = findTF(arg_138_0, "Text"):GetComponent(typeof(Text))
+function var_0_6.setChatText(arg_139_0, arg_139_1)
+	local var_139_0 = findTF(arg_139_0, "Text"):GetComponent(typeof(Text))
 
-	var_138_0.text = arg_138_1
+	var_139_0.text = arg_139_1
 
-	if #var_138_0.text > CHAT_POP_STR_LEN then
-		var_138_0.alignment = TextAnchor.MiddleLeft
+	if #var_139_0.text > CHAT_POP_STR_LEN then
+		var_139_0.alignment = TextAnchor.MiddleLeft
 	else
-		var_138_0.alignment = TextAnchor.MiddleCenter
+		var_139_0.alignment = TextAnchor.MiddleCenter
 	end
 end
 
-function var_0_6.Voice(arg_139_0, arg_139_1, arg_139_2)
-	if arg_139_0._voiceTimer then
+function var_0_6.Voice(arg_140_0, arg_140_1, arg_140_2)
+	if arg_140_0._voiceTimer then
 		return
 	end
 
-	pg.CriMgr.GetInstance():PlayMultipleSound_V3(arg_139_1, function(arg_140_0)
-		if arg_140_0 then
-			arg_139_0._voiceKey = arg_139_2
-			arg_139_0._voicePlaybackInfo = arg_140_0
-			arg_139_0._voiceTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 0, arg_139_0._voicePlaybackInfo:GetLength() * 0.001, function()
-				pg.TimeMgr.GetInstance():RemoveBattleTimer(arg_139_0._voiceTimer)
+	pg.CriMgr.GetInstance():PlayMultipleSound_V3(arg_140_1, function(arg_141_0)
+		if arg_141_0 then
+			arg_140_0._voiceKey = arg_140_2
+			arg_140_0._voicePlaybackInfo = arg_141_0
+			arg_140_0._voiceTimer = pg.TimeMgr.GetInstance():AddBattleTimer("", 0, arg_140_0._voicePlaybackInfo:GetLength() * 0.001, function()
+				pg.TimeMgr.GetInstance():RemoveBattleTimer(arg_140_0._voiceTimer)
 
-				arg_139_0._voiceTimer = nil
-				arg_139_0._voiceKey = nil
-				arg_139_0._voicePlaybackInfo = nil
+				arg_140_0._voiceTimer = nil
+				arg_140_0._voiceKey = nil
+				arg_140_0._voicePlaybackInfo = nil
 			end)
 		end
 	end)
 end
 
-function var_0_6.SonarAcitve(arg_142_0, arg_142_1)
+function var_0_6.setLocalScale(arg_143_0, arg_143_1, arg_143_2)
+	arg_143_0._tf.localScale = arg_143_1
+
+	if not arg_143_2 then
+		arg_143_0._modelScale = arg_143_1
+	end
+end
+
+function var_0_6.SonarAcitve(arg_144_0, arg_144_1)
 	return
 end
 
-function var_0_6.SwitchShader(arg_143_0, arg_143_1, arg_143_2, arg_143_3)
-	LeanTween.cancel(arg_143_0._go)
+function var_0_6.SwitchShader(arg_145_0, arg_145_1, arg_145_2, arg_145_3)
+	LeanTween.cancel(arg_145_0._go)
 
-	arg_143_2 = arg_143_2 or Color.New(0, 0, 0, 0)
+	arg_145_2 = arg_145_2 or Color.New(0, 0, 0, 0)
 
-	if arg_143_1 then
-		local var_143_0 = var_0_4.GetInstance():GetShader(arg_143_1)
+	if arg_145_1 then
+		local var_145_0 = var_0_4.GetInstance():GetShader(arg_145_1)
 
-		arg_143_0._animator:ShiftShader(var_143_0, arg_143_2)
+		arg_145_0._animator:ShiftShader(var_145_0, arg_145_2)
 
-		if arg_143_3 then
-			arg_143_0:spineSemiTransparentFade(0, arg_143_3.invisible, 0)
+		if arg_145_3 then
+			arg_145_0:spineSemiTransparentFade(0, arg_145_3.invisible, 0)
 		end
 	end
 
-	arg_143_0._shaderType = arg_143_1
-	arg_143_0._color = arg_143_2
+	arg_145_0._shaderType = arg_145_1
+	arg_145_0._color = arg_145_2
 end
 
-function var_0_6.PauseActionAnimation(arg_144_0, arg_144_1)
-	local var_144_0 = arg_144_1 and 0 or 1
+function var_0_6.PauseActionAnimation(arg_146_0, arg_146_1)
+	local var_146_0 = arg_146_1 and 0 or 1
 
-	arg_144_0._animator:GetAnimationState().TimeScale = var_144_0
+	arg_146_0._animator:GetAnimationState().TimeScale = var_146_0
 end
 
-function var_0_6.GetFactory(arg_145_0)
-	return arg_145_0._factory
+function var_0_6.GetFactory(arg_147_0)
+	return arg_147_0._factory
 end
 
-function var_0_6.SetFactory(arg_146_0, arg_146_1)
-	arg_146_0._factory = arg_146_1
+function var_0_6.SetFactory(arg_148_0, arg_148_1)
+	arg_148_0._factory = arg_148_1
 end
 
-function var_0_6.onSwitchSpine(arg_147_0, arg_147_1)
-	local var_147_0 = arg_147_1.Data
-	local var_147_1 = var_147_0.skin
+function var_0_6.onSwitchSpine(arg_149_0, arg_149_1)
+	local var_149_0 = arg_149_1.Data
+	local var_149_1 = var_149_0.skin
 
-	arg_147_0._coverSpineHPBarOffset = var_147_0.HPBarOffset or 0
+	arg_149_0._coverSpineHPBarOffset = var_149_0.HPBarOffset or 0
 
-	arg_147_0:SwitchSpine(var_147_1)
+	arg_149_0:SwitchSpine(var_149_1)
 end
 
-function var_0_6.SwitchSpine(arg_148_0, arg_148_1)
-	for iter_148_0, iter_148_1 in pairs(arg_148_0._blinkDict) do
-		SpineAnim.RemoveBlink(arg_148_0._go, iter_148_0)
+function var_0_6.SwitchSpine(arg_150_0, arg_150_1)
+	for iter_150_0, iter_150_1 in pairs(arg_150_0._blinkDict) do
+		SpineAnim.RemoveBlink(arg_150_0._go, iter_150_0)
 	end
 
-	arg_148_0._factory:SwitchCharacterSpine(arg_148_0, arg_148_1)
+	arg_150_0._factory:SwitchCharacterSpine(arg_150_0, arg_150_1)
 end
 
-function var_0_6.onSwitchShader(arg_149_0, arg_149_1)
-	local var_149_0 = arg_149_1.Data
-	local var_149_1 = var_149_0.shader
-	local var_149_2 = var_149_0.color
-	local var_149_3 = var_149_0.args
+function var_0_6.onSwitchShader(arg_151_0, arg_151_1)
+	local var_151_0 = arg_151_1.Data
+	local var_151_1 = var_151_0.shader
+	local var_151_2 = var_151_0.color
+	local var_151_3 = var_151_0.args
 
-	arg_149_0:SwitchShader(var_149_1, var_149_2, var_149_3)
+	arg_151_0:SwitchShader(var_151_1, var_151_2, var_151_3)
 end

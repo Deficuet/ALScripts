@@ -34,6 +34,16 @@ return {
 				skill_id = 17002,
 				target = "TargetPlayerVanguardFleet"
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAllInStrikeSteady"
+			},
+			arg_list = {
+				skill_id = 17003,
+				target = "TargetSelf"
+			}
 		}
 	},
 	{},

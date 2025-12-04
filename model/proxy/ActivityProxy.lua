@@ -1098,7 +1098,8 @@ end
 function var_0_0.GetBossRushRuntime(arg_106_0, arg_106_1)
 	if not arg_106_0.extraDatas[arg_106_1] then
 		arg_106_0.extraDatas[arg_106_1] = {
-			record = 0
+			record = 0,
+			diff = 1
 		}
 	end
 

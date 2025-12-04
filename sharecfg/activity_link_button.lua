@@ -321,17 +321,17 @@ pg.activity_link_button = {
 		}
 	},
 	[110] = {
-		param = "ALYCoreActivityUI",
+		param = "HelenaCoreActivityUI",
 		name = "event_core_2",
 		type = 16,
-		text_pic = "text_event_yumia",
+		text_pic = "text_event_core2",
 		id = 110,
 		group_id = 2,
-		pic = "event_yumia",
+		pic = "event_core2",
 		order = 2,
 		time = {
 			"default",
-			50058
+			50261
 		}
 	},
 	[111] = {

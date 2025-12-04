@@ -38,14 +38,13 @@ function var_0_0.Load(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
 			arg_3_0._modelRoot:AddComponent(typeof(RectTransform))
 
 			arg_3_0._model = arg_4_0
-			arg_3_0._model.transform.localScale = Vector3.one
-			arg_3_0._modelScale = Vector3.one
 
+			arg_3_0:Init()
+			arg_3_0:SetLocalScale(Vector3.one)
+			arg_3_0:SetModelScale(Vector3.one)
 			arg_3_0._model.transform:SetParent(arg_3_0._modelRoot.transform, false)
 
 			arg_3_0._model.transform.localPosition = Vector3.zero
-
-			arg_3_0:Init()
 
 			if arg_3_1 then
 				arg_3_1()
@@ -70,11 +69,12 @@ function var_0_0.LoadLite(arg_5_0, arg_5_1, arg_5_2)
 		else
 			arg_5_0._modelRoot = arg_6_0
 			arg_5_0._model = arg_6_0
-			arg_5_0._model.transform.localScale = Vector3.one
-			arg_5_0._modelScale = Vector3.one
-			arg_5_0._model.transform.localPosition = Vector3.zero
 
 			arg_5_0:Init()
+			arg_5_0:SetLocalScale(Vector3.one)
+			arg_5_0:SetModelScale(Vector3.one)
+
+			arg_5_0._model.transform.localPosition = Vector3.zero
 
 			if arg_5_1 then
 				arg_5_1()
@@ -107,25 +107,26 @@ function var_0_0.AttachOrbit(arg_8_0, arg_8_1)
 
 		if var_8_4 ~= "" then
 			local var_8_5 = var_8_2.orbit_ui_bound[1]
-			local var_8_6 = arg_8_0._modleGraphic.Skeleton:FindBoneIndex("char1_" .. var_8_5)
-			local var_8_7 = arg_8_0._modleGraphic.Skeleton:FindBoneIndex("char2_" .. var_8_5)
-			local var_8_8 = var_8_2.double_char_bone
-			local var_8_9 = ys.Battle.BattleResourceManager.GetOrbitPath(var_8_4)
+			local var_8_6 = arg_8_0.ship and arg_8_0.ship:IsDoubleSkin() and true or false
+			local var_8_7 = arg_8_0._modleGraphic.Skeleton:FindBoneIndex("char1_" .. var_8_5)
+			local var_8_8 = arg_8_0._modleGraphic.Skeleton:FindBoneIndex("char2_" .. var_8_5)
+			local var_8_9 = var_8_2.double_char_bone
+			local var_8_10 = ys.Battle.BattleResourceManager.GetOrbitPath(var_8_4)
 
-			if var_8_6 >= 0 or var_8_7 > 0 then
-				if var_8_7 >= 0 and var_8_8 and #var_8_8 > 0 and var_8_8[1] == 1 then
-					arg_8_0:loadOrbitUI(var_8_9, var_8_0, var_8_4, "char2" .. "_" .. var_8_5, var_8_3, var_8_2)
+			if var_8_6 and (var_8_7 >= 0 or var_8_8 > 0) or var_8_7 >= 0 and var_8_8 > 0 then
+				if var_8_8 >= 0 and var_8_9 and #var_8_9 > 0 and var_8_9[1] == 1 then
+					arg_8_0:loadOrbitUI(var_8_10, var_8_0, var_8_4, "char2" .. "_" .. var_8_5, var_8_3, var_8_2)
 				end
 
-				if var_8_8 and #var_8_8 > 0 and var_8_8[2] == 1 then
-					arg_8_0:loadOrbitUI(var_8_9, var_8_0, var_8_4, var_8_5, var_8_3, var_8_2)
+				if var_8_9 and #var_8_9 > 0 and var_8_9[2] == 1 then
+					arg_8_0:loadOrbitUI(var_8_10, var_8_0, var_8_4, var_8_5, var_8_3, var_8_2)
 				end
 
-				if var_8_6 >= 0 and var_8_8 and #var_8_8 > 0 and var_8_8[3] == 1 then
-					arg_8_0:loadOrbitUI(var_8_9, var_8_0, var_8_4, "char1" .. "_" .. var_8_5, var_8_3, var_8_2)
+				if var_8_7 >= 0 and var_8_9 and #var_8_9 > 0 and var_8_9[3] == 1 then
+					arg_8_0:loadOrbitUI(var_8_10, var_8_0, var_8_4, "char1" .. "_" .. var_8_5, var_8_3, var_8_2)
 				end
 			else
-				arg_8_0:loadOrbitUI(var_8_9, var_8_0, var_8_4, var_8_5, var_8_3, var_8_2)
+				arg_8_0:loadOrbitUI(var_8_10, var_8_0, var_8_4, var_8_5, var_8_3, var_8_2)
 			end
 		end
 	end
@@ -309,21 +310,21 @@ function var_0_0.SetAction(arg_27_0, arg_27_1)
 		return
 	end
 
-	local var_27_0 = math.sign(arg_27_0._modelRoot.transform.localScale.x)
+	local var_27_0 = math.sign(arg_27_0._rootScale.x)
 	local var_27_1, var_27_2 = SpineAnimUtil.GetCharAnimationDirect(arg_27_0._modleGraphic, var_27_0, arg_27_1)
 
 	if var_27_2 then
-		arg_27_0._model.transform.localScale = Vector3(var_27_0, arg_27_0._modelScale.y, arg_27_0._modelScale.z)
+		arg_27_0._model.transform.localScale = Vector3(var_27_0 * math.abs(arg_27_0._modelScale.x), arg_27_0._modelScale.y, arg_27_0._modelScale.z)
 	else
 		arg_27_0._model.transform.localScale = arg_27_0._modelScale
 	end
 
-	print("root朝向 =" .. var_27_0 .. "，model朝向 =" .. var_27_0 .. "播放动作:" .. var_27_1)
 	arg_27_0._modleAnim:SetAction(var_27_1, 0)
 
 	arg_27_0._action = arg_27_1
 
 	arg_27_0:HiddenAttachmentByAction(arg_27_1)
+	arg_27_0:SetActionCallBack(nil)
 end
 
 function var_0_0.SetActionOnce(arg_28_0, arg_28_1)
@@ -340,186 +341,217 @@ function var_0_0.SetActionCallBack(arg_29_0, arg_29_1)
 		return
 	end
 
-	arg_29_0._modleAnim:SetActionCallBack(arg_29_1)
+	arg_29_0._modleAnim:SetActionCallBack(function(arg_30_0)
+		arg_29_0:changeAttachLListVisible(arg_30_0)
+
+		if arg_29_1 then
+			arg_29_1(arg_30_0)
+		end
+	end)
 end
 
-function var_0_0.HiddenAttachmentByAction(arg_30_0, arg_30_1)
-	for iter_30_0, iter_30_1 in pairs(arg_30_0._attachmentList) do
-		SetActive(iter_30_0, not table.contains(iter_30_1.hiddenActionList, arg_30_1))
+function var_0_0.changeAttachLListVisible(arg_31_0, arg_31_1)
+	local var_31_0
+
+	if arg_31_1 == "skin_on" then
+		var_31_0 = true
+	elseif arg_31_1 == "skin_off" then
+		var_31_0 = false
+	else
+		return
+	end
+
+	for iter_31_0, iter_31_1 in pairs(arg_31_0._attachmentList) do
+		SetActive(iter_31_0, var_31_0)
 	end
 end
 
-function var_0_0.SetSizeDelta(arg_31_0, arg_31_1)
-	if arg_31_0:CheckInited() then
-		rtf(arg_31_0._modelRoot).sizeDelta = arg_31_1
+function var_0_0.HiddenAttachmentByAction(arg_32_0, arg_32_1)
+	for iter_32_0, iter_32_1 in pairs(arg_32_0._attachmentList) do
+		SetActive(iter_32_0, not table.contains(iter_32_1.hiddenActionList, arg_32_1))
 	end
 end
 
-function var_0_0.SetLocalScale(arg_32_0, arg_32_1)
-	if arg_32_0:CheckInited() then
-		arg_32_0._modelRoot.transform.localScale = arg_32_1
+function var_0_0.SetSizeDelta(arg_33_0, arg_33_1)
+	if arg_33_0:CheckInited() then
+		rtf(arg_33_0._modelRoot).sizeDelta = arg_33_1
+	end
+end
 
-		if arg_32_0._action then
-			arg_32_0:SetAction(arg_32_0._action)
+function var_0_0.SetModelScale(arg_34_0, arg_34_1)
+	if arg_34_0:CheckInited() then
+		arg_34_0._model.transform.localScale = arg_34_1
+		arg_34_0._modelScale = arg_34_1
+	end
+end
+
+function var_0_0.SetLocalScale(arg_35_0, arg_35_1)
+	if arg_35_0:CheckInited() then
+		arg_35_0._rootScale = arg_35_1
+		arg_35_0._modelRoot.transform.localScale = arg_35_1
+
+		if arg_35_0._action then
+			arg_35_0:SetAction(arg_35_0._action)
 		end
 	end
 end
 
-function var_0_0.GetLocalScale(arg_33_0)
-	if arg_33_0:CheckInited() then
-		return arg_33_0._modelRoot.transform.localScale
-	end
-end
-
-function var_0_0.SetLocalPosition(arg_34_0, arg_34_1)
-	if arg_34_0:CheckInited() then
-		arg_34_0._modelRoot.transform.localPosition = arg_34_1
-	end
-end
-
-function var_0_0.SetAsFirstSibling(arg_35_0)
-	if arg_35_0:CheckInited() then
-		arg_35_0._modelRoot.transform:SetAsFirstSibling()
-	end
-end
-
-function var_0_0.SetLayer(arg_36_0, arg_36_1)
+function var_0_0.GetLocalScale(arg_36_0)
 	if arg_36_0:CheckInited() then
-		pg.ViewUtils.SetLayer(arg_36_0._modelRoot.transform, arg_36_1)
+		return arg_36_0._modelRoot.transform.localScale
 	end
 end
 
-function var_0_0.TweenShining(arg_37_0, arg_37_1, arg_37_2, arg_37_3, arg_37_4, arg_37_5, arg_37_6, arg_37_7, arg_37_8, arg_37_9, arg_37_10)
+function var_0_0.SetLocalPosition(arg_37_0, arg_37_1)
 	if arg_37_0:CheckInited() then
-		arg_37_0:StopTweenShining()
+		arg_37_0._modelRoot.transform.localPosition = arg_37_1
+	end
+end
 
-		local var_37_0 = arg_37_0._modleGraphic.material
-		local var_37_1 = LeanTween.value(arg_37_0._modelRoot, arg_37_3, arg_37_4, arg_37_1):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function(arg_38_0)
-			if arg_37_7 then
-				var_37_0:SetColor("_Color", Color.Lerp(arg_37_5, arg_37_6, arg_38_0))
+function var_0_0.SetAsFirstSibling(arg_38_0)
+	if arg_38_0:CheckInited() then
+		arg_38_0._modelRoot.transform:SetAsFirstSibling()
+	end
+end
+
+function var_0_0.SetLayer(arg_39_0, arg_39_1)
+	if arg_39_0:CheckInited() then
+		pg.ViewUtils.SetLayer(arg_39_0._modelRoot.transform, arg_39_1)
+	end
+end
+
+function var_0_0.TweenShining(arg_40_0, arg_40_1, arg_40_2, arg_40_3, arg_40_4, arg_40_5, arg_40_6, arg_40_7, arg_40_8, arg_40_9, arg_40_10)
+	if arg_40_0:CheckInited() then
+		arg_40_0:StopTweenShining()
+
+		local var_40_0 = arg_40_0._modleGraphic.material
+		local var_40_1 = LeanTween.value(arg_40_0._modelRoot, arg_40_3, arg_40_4, arg_40_1):setEase(LeanTweenType.easeInOutSine):setOnUpdate(System.Action_float(function(arg_41_0)
+			if arg_40_7 then
+				var_40_0:SetColor("_Color", Color.Lerp(arg_40_5, arg_40_6, arg_41_0))
 			else
-				arg_37_0._modleGraphic.color = Color.Lerp(arg_37_5, arg_37_6, arg_38_0)
+				arg_40_0._modleGraphic.color = Color.Lerp(arg_40_5, arg_40_6, arg_41_0)
 			end
 
-			existCall(arg_37_9, arg_38_0)
+			existCall(arg_40_9, arg_41_0)
 		end)):setOnComplete(System.Action(function()
-			arg_37_0._tweenShiningId = nil
+			arg_40_0._tweenShiningId = nil
 
-			if arg_37_8 then
-				if arg_37_7 then
-					var_37_0:SetColor("_Color", arg_37_5)
+			if arg_40_8 then
+				if arg_40_7 then
+					var_40_0:SetColor("_Color", arg_40_5)
 				else
-					arg_37_0._modleGraphic.color = arg_37_5
+					arg_40_0._modleGraphic.color = arg_40_5
 				end
 			end
 
-			existCall(arg_37_10)
+			existCall(arg_40_10)
 		end))
 
-		if arg_37_2 then
-			var_37_1:setLoopPingPong(arg_37_2)
+		if arg_40_2 then
+			var_40_1:setLoopPingPong(arg_40_2)
 		end
 
-		arg_37_0._tweenShiningId = var_37_1.uniqueId
+		arg_40_0._tweenShiningId = var_40_1.uniqueId
 	end
 end
 
-function var_0_0.StopTweenShining(arg_40_0)
-	if arg_40_0:CheckInited() and arg_40_0._tweenShiningId then
-		LeanTween.cancel(arg_40_0._tweenShiningId, true)
+function var_0_0.StopTweenShining(arg_43_0)
+	if arg_43_0:CheckInited() and arg_43_0._tweenShiningId then
+		LeanTween.cancel(arg_43_0._tweenShiningId, true)
 
-		arg_40_0._tweenShiningId = nil
+		arg_43_0._tweenShiningId = nil
 	end
 end
 
-function var_0_0.ChangeMaterial(arg_41_0, arg_41_1)
-	if not arg_41_0:CheckInited() then
+function var_0_0.ChangeMaterial(arg_44_0, arg_44_1)
+	if not arg_44_0:CheckInited() then
 		return
 	end
 
-	if not arg_41_0._stageMaterial then
-		arg_41_0._stageMaterial = arg_41_0._modleGraphic.material
+	if not arg_44_0._stageMaterial then
+		arg_44_0._stageMaterial = arg_44_0._modleGraphic.material
 	end
 
-	arg_41_0._modleGraphic.material = arg_41_1
+	arg_44_0._modleGraphic.material = arg_44_1
 end
 
-function var_0_0.RevertMaterial(arg_42_0)
-	if not arg_42_0:CheckInited() then
+function var_0_0.RevertMaterial(arg_45_0)
+	if not arg_45_0:CheckInited() then
 		return
 	end
 
-	if not arg_42_0._stageMaterial then
+	if not arg_45_0._stageMaterial then
 		return
 	end
 
-	arg_42_0._modleGraphic.material = arg_42_0._stageMaterial
+	arg_45_0._modleGraphic.material = arg_45_0._stageMaterial
 end
 
-function var_0_0.CreateInterface(arg_43_0)
-	arg_43_0._mouseChild = GameObject("mouseChild")
+function var_0_0.CreateInterface(arg_46_0)
+	arg_46_0._mouseChild = GameObject("mouseChild")
 
-	arg_43_0._mouseChild.transform:SetParent(arg_43_0._modelRoot.transform, false)
+	arg_46_0._mouseChild.transform:SetParent(arg_46_0._modelRoot.transform, false)
 
-	arg_43_0._mouseChild.transform.localPosition = Vector3.zero
-	arg_43_0._modelClick = GetOrAddComponent(arg_43_0._mouseChild, "ModelDrag")
-	arg_43_0._modelPress = GetOrAddComponent(arg_43_0._mouseChild, "UILongPressTrigger")
-	arg_43_0._dragDelegate = GetOrAddComponent(arg_43_0._mouseChild, "EventTriggerListener")
+	arg_46_0._mouseChild.transform.localPosition = Vector3.zero
+	arg_46_0._modelClick = GetOrAddComponent(arg_46_0._mouseChild, "ModelDrag")
+	arg_46_0._modelPress = GetOrAddComponent(arg_46_0._mouseChild, "UILongPressTrigger")
+	arg_46_0._dragDelegate = GetOrAddComponent(arg_46_0._mouseChild, "EventTriggerListener")
 
-	arg_43_0._modelClick:Init()
+	arg_46_0._modelClick:Init()
 
-	local var_43_0 = GetOrAddComponent(arg_43_0._mouseChild, typeof(RectTransform))
+	local var_46_0 = GetOrAddComponent(arg_46_0._mouseChild, typeof(RectTransform))
 
-	var_43_0.pivot = Vector2(0.5, 0)
-	var_43_0.anchoredPosition = Vector2(0, 0)
-	var_43_0.localScale = Vector2(100, 100)
-	var_43_0.sizeDelta = Vector2(3, 3)
+	var_46_0.pivot = Vector2(0.5, 0)
+	var_46_0.anchoredPosition = Vector2(0, 0)
+	var_46_0.localScale = Vector2(100, 100)
+	var_46_0.sizeDelta = Vector2(3, 3)
 
-	return arg_43_0._modelClick, arg_43_0._modelPress, arg_43_0._dragDelegate
+	return arg_46_0._modelClick, arg_46_0._modelPress, arg_46_0._dragDelegate
 end
 
-function var_0_0.resumeRole(arg_44_0)
-	if arg_44_0._modleAnim and arg_44_0._modleAnim:GetAnimationState() then
-		arg_44_0._modleAnim:Resume()
+function var_0_0.resumeRole(arg_47_0)
+	if arg_47_0._modleAnim and arg_47_0._modleAnim:GetAnimationState() then
+		arg_47_0._modleAnim:Resume()
 	end
 end
 
-function var_0_0.GetInterface(arg_45_0)
-	return arg_45_0._modelClick, arg_45_0._modelPress, arg_45_0._dragDelegate
+function var_0_0.GetInterface(arg_48_0)
+	return arg_48_0._modelClick, arg_48_0._modelPress, arg_48_0._dragDelegate
 end
 
-function var_0_0.EnableInterface(arg_46_0)
-	arg_46_0._mouseChild:GetComponent(typeof(Image)).enabled = true
+function var_0_0.EnableInterface(arg_49_0)
+	arg_49_0._mouseChild:GetComponent(typeof(Image)).enabled = true
 end
 
-function var_0_0.DisableInterface(arg_47_0)
-	arg_47_0._mouseChild:GetComponent(typeof(Image)).enabled = false
+function var_0_0.DisableInterface(arg_50_0)
+	arg_50_0._mouseChild:GetComponent(typeof(Image)).enabled = false
 end
 
-function var_0_0.Dispose(arg_48_0)
-	if arg_48_0.state == var_0_0.STATE_INITED then
-		arg_48_0:StopTweenShining()
-		arg_48_0:RevertMaterial()
-		PoolMgr.GetInstance():ReturnSpineChar(arg_48_0.prefabName, arg_48_0._model)
-		arg_48_0:SetVisible(true)
-		arg_48_0._modleGraphic.material:SetColor("_Color", Color.New(0, 0, 0, 0))
+function var_0_0.Dispose(arg_51_0)
+	if arg_51_0.state == var_0_0.STATE_INITED then
+		arg_51_0._modleAnim:SetActionCallBack(nil)
+		arg_51_0:StopTweenShining()
+		arg_51_0:RevertMaterial()
+		PoolMgr.GetInstance():ReturnSpineChar(arg_51_0.prefabName, arg_51_0._model)
+		arg_51_0:SetVisible(true)
+		arg_51_0._modleGraphic.material:SetColor("_Color", Color.New(0, 0, 0, 0))
 
-		arg_48_0._modleGraphic.color = Color.New(1, 1, 1, 1)
+		arg_51_0._modleGraphic.color = Color.New(1, 1, 1, 1)
 
-		for iter_48_0, iter_48_1 in pairs(arg_48_0._attachmentList) do
-			Object.Destroy(iter_48_0.gameObject)
+		for iter_51_0, iter_51_1 in pairs(arg_51_0._attachmentList) do
+			Object.Destroy(iter_51_0.gameObject)
 		end
 
-		arg_48_0._model = nil
-		arg_48_0.prefabName = nil
-		arg_48_0.ship = nil
-		arg_48_0.attachmentData = nil
-		arg_48_0._modleGraphic = nil
-		arg_48_0._modleAnim = nil
-		arg_48_0._attachmentList = nil
+		arg_51_0._model = nil
+		arg_51_0.prefabName = nil
+		arg_51_0.ship = nil
+		arg_51_0.attachmentData = nil
+		arg_51_0._modleGraphic = nil
+		arg_51_0._modleAnim = nil
+		arg_51_0._attachmentList = nil
 	end
 
-	arg_48_0.state = var_0_0.STATE_DISPOSE
+	arg_51_0.state = var_0_0.STATE_DISPOSE
 end
 
 return var_0_0

@@ -142,25 +142,27 @@ end
 
 function var_0_0.AddShip(arg_18_0, arg_18_1, arg_18_2)
 	local function var_18_0(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
-		tf(arg_19_2):SetParent(arg_18_0.pathContainer)
+		local var_19_0 = arg_19_2:GetModel()
 
-		tf(arg_19_2).localScale = Vector3(0.5, 0.5, 1)
+		arg_19_2:SetParent(arg_18_0.pathContainer)
+		arg_19_2:SetLocalScale(Vector3(0.5, 0.5, 1))
 
-		local var_19_0 = GuildDynamicBgShip.New({
+		local var_19_1 = GuildDynamicBgShip.New({
 			stand = arg_19_0.stand,
 			auto = arg_19_0.auto,
-			go = arg_19_2,
+			go = var_19_0,
 			grid = arg_19_1,
 			path = arg_18_0.path,
 			furnitures = arg_18_0.furnitures,
 			name = arg_19_0.name,
-			isCommander = arg_19_0.isCommander
+			isCommander = arg_19_0.isCommander,
+			char = arg_19_2
 		})
 
-		var_19_0:SetOnMoveCallBack(function()
+		var_19_1:SetOnMoveCallBack(function()
 			arg_18_0:SortScene()
 		end)
-		table.insert(arg_18_0.ships, var_19_0)
+		table.insert(arg_18_0.ships, var_19_1)
 		arg_19_3()
 	end
 
@@ -172,17 +174,25 @@ function var_0_0.AddShip(arg_18_0, arg_18_1, arg_18_2)
 	end
 
 	var_18_2:Lock()
-	PoolMgr.GetInstance():GetSpineChar(var_18_1, true, function(arg_21_0)
+
+	local var_18_3 = SpineAnimChar.New()
+
+	var_18_3:SetPaint(var_18_1)
+	var_18_3:Load(true, function(arg_21_0)
 		if IsNil(arg_18_0.nameTF) then
+			arg_21_0:Dispose()
+
 			return
 		end
 
-		arg_21_0.name = var_18_1
+		local var_21_0 = arg_21_0:GetModel()
 
-		cloneTplTo(arg_18_0.nameTF, arg_21_0.transform, "name")
+		var_21_0.name = var_18_1
+
+		cloneTplTo(arg_18_0.nameTF, var_21_0.transform, "name")
 
 		if arg_18_1.isCommander then
-			cloneTplTo(arg_18_0.commanderTag, arg_21_0.transform, "tag")
+			cloneTplTo(arg_18_0.commanderTag, var_21_0.transform, "tag")
 		end
 
 		var_18_0(arg_18_1, var_18_2, arg_21_0, arg_18_2)
@@ -192,7 +202,6 @@ end
 function var_0_0.ExitShip(arg_22_0, arg_22_1)
 	for iter_22_0, iter_22_1 in pairs(arg_22_0.ships) do
 		if iter_22_1.name == arg_22_1 then
-			PoolMgr.GetInstance():ReturnSpineChar(iter_22_1._go.name, iter_22_1._go)
 			iter_22_1:Dispose()
 
 			arg_22_0.ships[iter_22_0] = nil
@@ -234,7 +243,6 @@ end
 
 function var_0_0.Dispose(arg_25_0)
 	for iter_25_0, iter_25_1 in pairs(arg_25_0.ships) do
-		PoolMgr.GetInstance():ReturnSpineChar(iter_25_1._go.name, iter_25_1._go)
 		iter_25_1:Dispose()
 	end
 

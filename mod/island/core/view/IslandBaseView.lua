@@ -1,12 +1,11 @@
 local var_0_0 = class("IslandBaseView")
 
-function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
+function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.core = arg_1_1
 	arg_1_0.callbacks = {}
 	arg_1_0.unitRegister = {}
 	arg_1_0.registerIndex = 0
-	arg_1_0.opCount = arg_1_3 or 1
-	arg_1_0.baseContainer = arg_1_2
+	arg_1_0.opCount = arg_1_2 or 1
 end
 
 function var_0_0.GetCacheOpCount(arg_2_0)
@@ -14,16 +13,18 @@ function var_0_0.GetCacheOpCount(arg_2_0)
 end
 
 function var_0_0.SetUp(arg_3_0)
+	local var_3_0 = pg.UIMgr.GetInstance().UIMain:Find("UIIsland")
+
 	arg_3_0.poolMgr = arg_3_0.core:GetPoolMgr()
-	arg_3_0.layer1Container = arg_3_0.baseContainer:Find("layer1")
+	arg_3_0.layer1Container = var_3_0:Find("layer1")
 	arg_3_0.layer1ContainerCg = GetOrAddComponent(arg_3_0.layer1Container, typeof(CanvasGroup))
-	arg_3_0.topContainer = arg_3_0.baseContainer:Find("layer1/top")
-	arg_3_0.opContainer = arg_3_0.baseContainer:Find("layer1/op")
-	arg_3_0.interactionContainer = arg_3_0.baseContainer:Find("layer1/interaction")
-	arg_3_0.hudContainer = arg_3_0.baseContainer:Find("layer1/hud")
-	arg_3_0.pageContianer = arg_3_0.baseContainer:Find("layer1/page")
-	arg_3_0.layer2UIContianer = arg_3_0.baseContainer:Find("layer2/ui")
-	arg_3_0.layer2OpContianer = arg_3_0.baseContainer:Find("layer2/op")
+	arg_3_0.topContainer = var_3_0:Find("layer1/top")
+	arg_3_0.opContainer = var_3_0:Find("layer1/op")
+	arg_3_0.interactionContainer = var_3_0:Find("layer1/interaction")
+	arg_3_0.hudContainer = var_3_0:Find("layer1/hud")
+	arg_3_0.pageContianer = var_3_0:Find("layer1/page")
+	arg_3_0.layer2UIContianer = var_3_0:Find("layer2/ui")
+	arg_3_0.layer2OpContianer = var_3_0:Find("layer2/op")
 	arg_3_0.root = arg_3_0:CreateRoot()
 
 	arg_3_0:Init()
@@ -123,79 +124,83 @@ function var_0_0.GetIsland(arg_20_0)
 	return arg_20_0:GetCore():GetController():GetIsland()
 end
 
-function var_0_0.GetController(arg_21_0)
-	return arg_21_0.core:GetController()
+function var_0_0.GetSelfIsland(arg_21_0)
+	return getProxy(IslandProxy):GetIsland()
 end
 
-function var_0_0.ShowMsgbox(arg_22_0, arg_22_1)
-	arg_22_0:NotifiyIsland(ISLAND_EX_EVT.SHOW_MSG, arg_22_1)
+function var_0_0.GetController(arg_22_0)
+	return arg_22_0.core:GetController()
 end
 
-function var_0_0.GetCore(arg_23_0)
-	return arg_23_0.core
+function var_0_0.ShowMsgbox(arg_23_0, arg_23_1)
+	arg_23_0:NotifiyIsland(ISLAND_EX_EVT.SHOW_MSG, arg_23_1)
 end
 
-function var_0_0.InMap(arg_24_0, arg_24_1)
-	return arg_24_0:GetCore():GetMapId() == arg_24_1
+function var_0_0.GetCore(arg_24_0)
+	return arg_24_0.core
 end
 
-function var_0_0.GetMapId(arg_25_0)
-	return arg_25_0:GetCore():GetMapId()
+function var_0_0.InMap(arg_25_0, arg_25_1)
+	return arg_25_0:GetCore():GetMapId() == arg_25_1
 end
 
-function var_0_0.AddListener(arg_26_0, arg_26_1, arg_26_2)
-	local function var_26_0(arg_27_0, ...)
-		arg_26_2(arg_26_0, ...)
+function var_0_0.GetMapId(arg_26_0)
+	return arg_26_0:GetCore():GetMapId()
+end
+
+function var_0_0.AddListener(arg_27_0, arg_27_1, arg_27_2)
+	local function var_27_0(arg_28_0, ...)
+		arg_27_2(arg_27_0, ...)
 	end
 
-	assert(arg_26_0.callbacks[arg_26_2] == nil, "This method has been monitored. Please use another one" .. arg_26_1)
+	assert(arg_27_0.callbacks[arg_27_2] == nil, "This method has been monitored. Please use another one" .. arg_27_1)
 
-	arg_26_0.callbacks[arg_26_2] = var_26_0
+	arg_27_0.callbacks[arg_27_2] = var_27_0
 
-	arg_26_0.core:AddListener(arg_26_1, var_26_0)
+	arg_27_0.core:AddListener(arg_27_1, var_27_0)
 end
 
-function var_0_0.RemoveListener(arg_28_0, arg_28_1, arg_28_2)
-	local var_28_0 = arg_28_0.callbacks[arg_28_2]
+function var_0_0.RemoveListener(arg_29_0, arg_29_1, arg_29_2)
+	local var_29_0 = arg_29_0.callbacks[arg_29_2]
 
-	if var_28_0 then
-		arg_28_0.core:RemoveListener(arg_28_1, var_28_0)
+	if var_29_0 then
+		arg_29_0.core:RemoveListener(arg_29_1, var_29_0)
 
-		arg_28_0.callbacks[var_28_0] = nil
+		arg_29_0.callbacks[var_29_0] = nil
 	end
 end
 
-function var_0_0.Dispose(arg_29_0)
+function var_0_0.Dispose(arg_30_0)
 	pg.BgmMgr.GetInstance():StopPlay()
-	arg_29_0:RemoveListeners()
-	arg_29_0:OnDispose()
+	arg_30_0:RemoveListeners()
+	arg_30_0:OnDispose()
 
-	arg_29_0.callbacks = nil
-	arg_29_0.unitRegister = nil
-	arg_29_0.registerIndex = 0
+	arg_30_0.callbacks = nil
+	arg_30_0.unitRegister = nil
+	arg_30_0.registerIndex = 0
 end
 
-function var_0_0.Init(arg_30_0)
+function var_0_0.Init(arg_31_0)
 	return
 end
 
-function var_0_0.Update(arg_31_0)
+function var_0_0.Update(arg_32_0)
 	return
 end
 
-function var_0_0.LateUpdate(arg_32_0)
+function var_0_0.LateUpdate(arg_33_0)
 	return
 end
 
-function var_0_0.AddListeners(arg_33_0)
+function var_0_0.AddListeners(arg_34_0)
 	return
 end
 
-function var_0_0.RemoveListeners(arg_34_0)
+function var_0_0.RemoveListeners(arg_35_0)
 	return
 end
 
-function var_0_0.OnDispose(arg_35_0)
+function var_0_0.OnDispose(arg_36_0)
 	return
 end
 

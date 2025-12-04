@@ -5,9 +5,8 @@
 		name = "泛用型布里",
 		type = 1,
 		oxy_cost = 0,
-		gift_dislike = "",
-		english_name = "UNIV Universal Bulin",
 		skin_id = 100000,
+		english_name = "UNIV Universal Bulin",
 		oxy_recovery_surface = 0,
 		attack_duration = 0,
 		star = 4,
@@ -118,7 +117,11 @@
 		hunting_range = {
 			{}
 		},
-		tag_list = {}
+		tag_list = {},
+		gift_dislike = {
+			180007,
+			180006
+		}
 	}
 end)()
 

@@ -76,183 +76,225 @@ function var_0_0.CreateClass(arg_4_0, arg_4_1, arg_4_2)
 		end,
 		[IslandIllustration.TYPES.ITEM] = function()
 			return IslandItemIllustration.New(arg_4_2)
+		end,
+		[IslandIllustration.TYPES.FISH] = function()
+			return IslandFishIllustration.New(arg_4_2)
 		end
 	}, function()
 		return IslandIllustration.New(arg_4_2)
 	end)
 end
 
-function var_0_0.SetRecordDatas(arg_8_0, arg_8_1)
-	local var_8_0 = {}
+function var_0_0.SetRecordDatas(arg_9_0, arg_9_1)
+	local var_9_0 = {}
 
-	for iter_8_0, iter_8_1 in ipairs(arg_8_1) do
-		var_8_0[iter_8_1.id] = iter_8_1.num
+	for iter_9_0, iter_9_1 in ipairs(arg_9_1) do
+		var_9_0[iter_9_1.id] = iter_9_1.num
 	end
 
-	for iter_8_2, iter_8_3 in pairs(arg_8_0.dataMap[IslandIllustration.TYPES.ITEM] or {}) do
-		iter_8_3:SetHistoryCnt(var_8_0[iter_8_3:GetLinkConfigID()] or 0)
-	end
-end
-
-function var_0_0.SetPointDatas(arg_9_0, arg_9_1)
-	for iter_9_0, iter_9_1 in ipairs(arg_9_1 or {}) do
-		local var_9_0, var_9_1 = IslandIllustration.GetTypeAndLinkId(iter_9_1.id)
-
-		arg_9_0.dataMap[var_9_0][var_9_1]:SetPointData(iter_9_1)
+	for iter_9_2, iter_9_3 in pairs(arg_9_0.dataMap[IslandIllustration.TYPES.ITEM] or {}) do
+		iter_9_3:SetHistoryCnt(var_9_0[iter_9_3:GetLinkConfigID()] or 0)
 	end
 end
 
-function var_0_0.InitShipTypeData(arg_10_0)
-	local var_10_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
+function var_0_0.SetPointDatas(arg_10_0, arg_10_1)
+	for iter_10_0, iter_10_1 in ipairs(arg_10_1 or {}) do
+		local var_10_0, var_10_1 = IslandIllustration.GetTypeAndLinkId(iter_10_1.id)
 
-	for iter_10_0, iter_10_1 in pairs(arg_10_0.dataMap[IslandIllustration.TYPES.CHAR] or {}) do
-		if var_10_0:GetShipById(iter_10_1:GetLinkConfigID()) then
-			local var_10_1 = iter_10_1:GetStatus()
+		arg_10_0.dataMap[var_10_0][var_10_1]:SetPointData(iter_10_1)
+	end
+end
 
-			if var_10_1 == IslandIllustration.STATUS.UNLOCK then
-				iter_10_1:CheckTip()
-			elseif var_10_1 == IslandIllustration.STATUS.LOCK then
-				iter_10_1:SetStatus(IslandIllustration.STATUS.CAN_UNLOCK)
+function var_0_0.InitRuntimeTypesData(arg_11_0)
+	arg_11_0:InitShipTypeData()
+	arg_11_0:InitFishTypeData()
+end
+
+function var_0_0.InitShipTypeData(arg_12_0)
+	local var_12_0 = getProxy(IslandProxy):GetIsland():GetCharacterAgency()
+
+	for iter_12_0, iter_12_1 in pairs(arg_12_0.dataMap[IslandIllustration.TYPES.CHAR] or {}) do
+		if var_12_0:GetShipById(iter_12_1:GetLinkConfigID()) then
+			local var_12_1 = iter_12_1:GetStatus()
+
+			if var_12_1 == IslandIllustration.STATUS.UNLOCK then
+				iter_12_1:CheckTip()
+			elseif var_12_1 == IslandIllustration.STATUS.LOCK then
+				iter_12_1:SetStatus(IslandIllustration.STATUS.CAN_UNLOCK)
 			end
 		end
 	end
 end
 
-function var_0_0.GetListByType(arg_11_0, arg_11_1)
-	return underscore.values(arg_11_0.dataMap[arg_11_1])
+function var_0_0.InitFishTypeData(arg_13_0)
+	local var_13_0 = getProxy(IslandProxy):GetIsland():GetFishingAgency()
+
+	for iter_13_0, iter_13_1 in pairs(arg_13_0.dataMap[IslandIllustration.TYPES.FISH] or {}) do
+		if var_13_0:GetFish(iter_13_1:GetLinkConfigID()) then
+			local var_13_1 = iter_13_1:GetStatus()
+
+			if var_13_1 == IslandIllustration.STATUS.UNLOCK then
+				iter_13_1:CheckTip()
+			elseif var_13_1 == IslandIllustration.STATUS.LOCK then
+				iter_13_1:SetStatus(IslandIllustration.STATUS.CAN_UNLOCK)
+			end
+		end
+	end
 end
 
-function var_0_0.GetIllustration(arg_12_0, arg_12_1, arg_12_2)
-	return arg_12_0.dataMap[arg_12_1] and arg_12_0.dataMap[arg_12_1][arg_12_2]
+function var_0_0.GetListByType(arg_14_0, arg_14_1)
+	return underscore.values(arg_14_0.dataMap[arg_14_1])
 end
 
-function var_0_0.GetTotalPoints(arg_13_0)
-	local var_13_0 = 0
+function var_0_0.GetIllustration(arg_15_0, arg_15_1, arg_15_2)
+	return arg_15_0.dataMap[arg_15_1] and arg_15_0.dataMap[arg_15_1][arg_15_2]
+end
 
-	for iter_13_0, iter_13_1 in pairs(arg_13_0.dataMap) do
-		for iter_13_2, iter_13_3 in pairs(iter_13_1) do
-			var_13_0 = var_13_0 + iter_13_3:GetPoints()
+function var_0_0.GetTotalPoints(arg_16_0)
+	local var_16_0 = 0
+
+	for iter_16_0, iter_16_1 in pairs(arg_16_0.dataMap) do
+		for iter_16_2, iter_16_3 in pairs(iter_16_1) do
+			var_16_0 = var_16_0 + iter_16_3:GetPoints()
 		end
 	end
 
-	return var_13_0
+	return var_16_0
 end
 
-function var_0_0.GetAllPoints(arg_14_0, arg_14_1)
-	local var_14_0 = 0
+function var_0_0.GetAllPoints(arg_17_0, arg_17_1)
+	local var_17_0 = 0
 
-	for iter_14_0, iter_14_1 in pairs(arg_14_0.dataMap[arg_14_1]) do
-		var_14_0 = var_14_0 + iter_14_1:GetPoints()
+	for iter_17_0, iter_17_1 in pairs(arg_17_0.dataMap[arg_17_1]) do
+		var_17_0 = var_17_0 + iter_17_1:GetPoints()
 	end
 
-	return var_14_0
+	return var_17_0
 end
 
-function var_0_0.GetPoints(arg_15_0, arg_15_1, arg_15_2)
-	return arg_15_0.dataMap[arg_15_1][arg_15_2]:GetPoints()
+function var_0_0.GetPoints(arg_18_0, arg_18_1, arg_18_2)
+	return arg_18_0.dataMap[arg_18_1][arg_18_2]:GetPoints()
 end
 
-function var_0_0.GetCurLevelPointAwardId(arg_16_0, arg_16_1)
-	for iter_16_0, iter_16_1 in ipairs(arg_16_0.pointAwardIdsMaps[arg_16_1]) do
-		if not table.contains(arg_16_0.pointAwardGotMaps[arg_16_1], iter_16_1) then
-			return iter_16_1
+function var_0_0.GetCurLevelPointAwardId(arg_19_0, arg_19_1)
+	for iter_19_0, iter_19_1 in ipairs(arg_19_0.pointAwardIdsMaps[arg_19_1]) do
+		if not table.contains(arg_19_0.pointAwardGotMaps[arg_19_1], iter_19_1) then
+			return iter_19_1
 		end
 	end
 
-	return arg_16_0.pointAwardIdsMaps[arg_16_1][#arg_16_0.pointAwardIdsMaps[arg_16_1]]
+	return arg_19_0.pointAwardIdsMaps[arg_19_1][#arg_19_0.pointAwardIdsMaps[arg_19_1]]
 end
 
-function var_0_0.GetPointAwardIds(arg_17_0, arg_17_1)
-	return arg_17_0.pointAwardIdsMaps[arg_17_1]
+function var_0_0.GetPointAwardIds(arg_20_0, arg_20_1)
+	return arg_20_0.pointAwardIdsMaps[arg_20_1]
 end
 
-function var_0_0.GetPointAwardGotIds(arg_18_0, arg_18_1)
-	return arg_18_0.pointAwardGotMaps[arg_18_1]
+function var_0_0.GetPointAwardGotIds(arg_21_0, arg_21_1)
+	return arg_21_0.pointAwardGotMaps[arg_21_1]
 end
 
-function var_0_0.IsGotAllPointAward(arg_19_0, arg_19_1)
-	return table.contains(arg_19_0.pointAwardGotMaps[arg_19_1], arg_19_0.pointAwardIdsMaps[arg_19_1][#arg_19_0.pointAwardIdsMaps[arg_19_1]])
+function var_0_0.IsGotAllPointAward(arg_22_0, arg_22_1)
+	return table.contains(arg_22_0.pointAwardGotMaps[arg_22_1], arg_22_0.pointAwardIdsMaps[arg_22_1][#arg_22_0.pointAwardIdsMaps[arg_22_1]])
 end
 
-function var_0_0.GetCurPointInfos(arg_20_0, arg_20_1)
-	local var_20_0 = arg_20_0:GetCurLevelPointAwardId(arg_20_1)
+function var_0_0.GetCurPointInfos(arg_23_0, arg_23_1)
+	local var_23_0 = arg_23_0:GetCurLevelPointAwardId(arg_23_1)
 
-	return arg_20_0:GetAllPoints(arg_20_1), pg.island_collection_reward[var_20_0].need_exp
+	return arg_23_0:GetAllPoints(arg_23_1), pg.island_collection_reward[var_23_0].need_exp
 end
 
-function var_0_0.AddCanUnlock(arg_21_0, arg_21_1, arg_21_2)
-	arg_21_0.dataMap[arg_21_1][arg_21_2]:SetStatus(IslandIllustration.STATUS.CAN_UNLOCK)
+function var_0_0.AddCanUnlock(arg_24_0, arg_24_1, arg_24_2)
+	arg_24_0.dataMap[arg_24_1][arg_24_2]:SetStatus(IslandIllustration.STATUS.CAN_UNLOCK)
 end
 
-function var_0_0.HandlePushData(arg_22_0, arg_22_1)
-	local var_22_0 = IslandIllustration.TYPES.ITEM
+function var_0_0.HandlePushData(arg_25_0, arg_25_1)
+	local var_25_0 = IslandIllustration.TYPES.ITEM
 
-	for iter_22_0, iter_22_1 in ipairs(arg_22_1) do
-		local var_22_1 = arg_22_0.dataMap[var_22_0][iter_22_1.id]
+	for iter_25_0, iter_25_1 in ipairs(arg_25_1) do
+		local var_25_1 = arg_25_0.dataMap[var_25_0][iter_25_1.id]
 
-		if var_22_1 then
-			if var_22_1:GetStatus() == IslandIllustration.STATUS.LOCK then
-				arg_22_0:AddCanUnlock(var_22_0, iter_22_1.id)
+		if var_25_1 then
+			if var_25_1:GetStatus() == IslandIllustration.STATUS.LOCK then
+				arg_25_0:AddCanUnlock(var_25_0, iter_25_1.id)
 			end
 
-			var_22_1:AddHistoryCnt(iter_22_1.num)
-			var_22_1:CheckTip()
+			var_25_1:AddHistoryCnt(iter_25_1.num)
+			var_25_1:CheckTip()
 		end
 	end
 end
 
-function var_0_0.AddUnlock(arg_23_0, arg_23_1)
-	for iter_23_0, iter_23_1 in ipairs(arg_23_1) do
-		local var_23_0, var_23_1 = IslandIllustration.GetTypeAndLinkId(iter_23_1)
+function var_0_0.AddUnlock(arg_26_0, arg_26_1)
+	for iter_26_0, iter_26_1 in ipairs(arg_26_1) do
+		local var_26_0, var_26_1 = IslandIllustration.GetTypeAndLinkId(iter_26_1)
 
-		arg_23_0.dataMap[var_23_0][var_23_1]:SetStatus(IslandIllustration.STATUS.UNLOCK)
-		arg_23_0.dataMap[var_23_0][var_23_1]:CheckTip()
+		arg_26_0.dataMap[var_26_0][var_26_1]:SetStatus(IslandIllustration.STATUS.UNLOCK)
+		arg_26_0.dataMap[var_26_0][var_26_1]:CheckTip()
 	end
 end
 
-function var_0_0.AddPointAwardGotId(arg_24_0, arg_24_1)
-	local var_24_0 = pg.island_collection_reward[arg_24_1].type
+function var_0_0.AddPointAwardGotId(arg_27_0, arg_27_1)
+	local var_27_0 = pg.island_collection_reward[arg_27_1].type
 
-	table.insert(arg_24_0.pointAwardGotMaps[var_24_0], arg_24_1)
+	table.insert(arg_27_0.pointAwardGotMaps[var_27_0], arg_27_1)
 end
 
-function var_0_0.OnGetPointDone(arg_25_0, arg_25_1)
-	arg_25_0:SetPointDatas(arg_25_1)
+function var_0_0.OnGetPointDone(arg_28_0, arg_28_1)
+	arg_28_0:SetPointDatas(arg_28_1)
 
-	for iter_25_0, iter_25_1 in ipairs(arg_25_1 or {}) do
-		local var_25_0, var_25_1 = IslandIllustration.GetTypeAndLinkId(iter_25_1.id)
+	for iter_28_0, iter_28_1 in ipairs(arg_28_1 or {}) do
+		local var_28_0, var_28_1 = IslandIllustration.GetTypeAndLinkId(iter_28_1.id)
 
-		arg_25_0.dataMap[var_25_0][var_25_1]:CheckTip()
+		arg_28_0.dataMap[var_28_0][var_28_1]:CheckTip()
 	end
 end
 
-function var_0_0.OnAddNewShip(arg_26_0, arg_26_1)
-	local var_26_0 = arg_26_0.dataMap[IslandIllustration.TYPES.CHAR][arg_26_1]
+function var_0_0.OnAddNewShip(arg_29_0, arg_29_1)
+	local var_29_0 = arg_29_0.dataMap[IslandIllustration.TYPES.CHAR][arg_29_1]
 
-	if var_26_0 then
-		var_26_0:SetStatus(IslandIllustration.STATUS.CAN_UNLOCK)
+	if var_29_0 then
+		var_29_0:SetStatus(IslandIllustration.STATUS.CAN_UNLOCK)
 	end
 end
 
-function var_0_0.OnShipUpgradeOrBreakOut(arg_27_0, arg_27_1)
-	local var_27_0 = arg_27_0.dataMap[IslandIllustration.TYPES.CHAR][arg_27_1]
+function var_0_0.OnShipUpgradeOrBreakOut(arg_30_0, arg_30_1)
+	local var_30_0 = arg_30_0.dataMap[IslandIllustration.TYPES.CHAR][arg_30_1]
 
-	if var_27_0 then
-		var_27_0:CheckTip()
+	if var_30_0 then
+		var_30_0:CheckTip()
 	end
 end
 
-function var_0_0.IsTipFromTypes(arg_28_0, arg_28_1)
-	for iter_28_0, iter_28_1 in ipairs(arg_28_1) do
-		local var_28_0, var_28_1 = arg_28_0:GetCurPointInfos(iter_28_1)
+function var_0_0.OnFishingEnd(arg_31_0, arg_31_1)
+	if not arg_31_0.dataMap[IslandIllustration.TYPES.FISH] then
+		arg_31_0.dataMap[IslandIllustration.TYPES.FISH] = {}
+	end
 
-		if not arg_28_0:IsGotAllPointAward(iter_28_1) and var_28_1 <= var_28_0 then
-			return true
+	local var_31_0 = arg_31_0.dataMap[IslandIllustration.TYPES.FISH][arg_31_1]
+
+	if var_31_0 then
+		if var_31_0:GetStatus() == IslandIllustration.STATUS.LOCK then
+			arg_31_0:AddCanUnlock(IslandIllustration.TYPES.FISH, arg_31_1)
 		end
 
-		for iter_28_2, iter_28_3 in pairs(arg_28_0.dataMap[iter_28_1] or {}) do
-			if iter_28_3:IsTip() then
+		var_31_0:CheckTip()
+	end
+end
+
+function var_0_0.IsTipFromTypes(arg_32_0, arg_32_1)
+	for iter_32_0, iter_32_1 in ipairs(arg_32_1) do
+		if iter_32_1 ~= IslandIllustration.TYPES.FISH or IslandMainBtnTipHelper.IsUnlock("book_fish") then
+			local var_32_0, var_32_1 = arg_32_0:GetCurPointInfos(iter_32_1)
+
+			if not arg_32_0:IsGotAllPointAward(iter_32_1) and var_32_1 <= var_32_0 then
 				return true
+			end
+
+			for iter_32_2, iter_32_3 in pairs(arg_32_0.dataMap[iter_32_1] or {}) do
+				if iter_32_3:IsTip() then
+					return true
+				end
 			end
 		end
 	end

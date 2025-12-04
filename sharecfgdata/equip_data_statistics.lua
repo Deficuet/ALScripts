@@ -187919,6 +187919,159 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[150920] = {
+		type = 10,
+		name = "海蓝色之谜",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 6,
+		ammo = 10,
+		nationality = 1,
+		descrip = "",
+		rarity = 4,
+		attribute_1 = "cannon",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 150920,
+		icon = "150920",
+		value_1 = "5",
+		attribute_2 = "dodge",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60980,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150921] = {
+		id = 150921,
+		value_2 = 7,
+		value_1 = "5",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150922] = {
+		id = 150922,
+		value_2 = 7,
+		value_1 = "6",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150923] = {
+		id = 150923,
+		value_2 = 8,
+		value_1 = "6",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150924] = {
+		id = 150924,
+		value_2 = 9,
+		value_1 = "7",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150925] = {
+		id = 150925,
+		value_2 = 10,
+		value_1 = "7",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150926] = {
+		id = 150926,
+		value_2 = 11,
+		value_1 = "8",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150927] = {
+		id = 150927,
+		value_2 = 12,
+		value_1 = "9",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150928] = {
+		id = 150928,
+		value_2 = 13,
+		value_1 = "10",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150929] = {
+		id = 150929,
+		value_2 = 14,
+		value_1 = "11",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150930] = {
+		id = 150930,
+		value_2 = 15,
+		value_1 = "12",
+		base = 150920,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150931] = {
+		value_2 = 16,
+		anti_siren = 100,
+		base = 150920,
+		id = 150931,
+		value_1 = "13",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[170001] = {
 		type = 1,
 		name = "专属弹幕-古比雪夫I",

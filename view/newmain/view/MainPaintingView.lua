@@ -129,6 +129,8 @@ function var_0_0.Init(arg_18_0, arg_18_1, arg_18_2, arg_18_3)
 	else
 		arg_18_0:AdjustPosition(arg_18_1)
 	end
+
+	arg_18_0.painting:SetShift(arg_18_0.shift)
 end
 
 function var_0_0.Reload(arg_19_0, arg_19_1)

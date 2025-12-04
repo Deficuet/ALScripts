@@ -43,7 +43,7 @@ function var_0_0.GetCollabSeriesDataList(arg_6_0)
 end
 
 function var_0_0.HasAwards(arg_7_0)
-	return arg_7_0.data1 == 1
+	return arg_7_0.data2 == 1
 end
 
 function var_0_0.GetPassCounts(arg_8_0)

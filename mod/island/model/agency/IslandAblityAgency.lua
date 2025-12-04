@@ -26,6 +26,8 @@ var_0_0.TYPE_POST_MANAGE = 37
 var_0_0.TYPE_PRODUCT_FARM = 38
 var_0_0.TYPE_PRODUCT_ORCHARD = 39
 var_0_0.TYPE_PRODUCT_GARDEN = 40
+var_0_0.TYPE_FISHING_ROD = 41
+var_0_0.TYPE_PRODUCT_FISH = 42
 var_0_0.ANIMATION_OP_ID = 40
 
 function var_0_0.OnInit(arg_1_0, arg_1_1)
@@ -97,142 +99,148 @@ function var_0_0.IsUnlockAreaPlant(arg_17_0)
 	end)
 end
 
-function var_0_0.HasAbility(arg_19_0, arg_19_1)
-	if arg_19_1 == 0 then
-		return true
-	end
-
+function var_0_0.IsUnlockFishing(arg_19_0)
 	return _.any(arg_19_0.abilitys, function(arg_20_0)
-		return arg_19_1 == arg_20_0
+		return var_0_0.GetAblityType(arg_20_0) == var_0_0.TYPE_SYSTEM and var_0_0.GetEffect(arg_20_0) == 25
 	end)
 end
 
-function var_0_0.GetOrderDailyCntAddition(arg_21_0)
-	local var_21_0 = 0
-
-	for iter_21_0, iter_21_1 in ipairs(arg_21_0.abilitys) do
-		if var_0_0.IsOrderDailyCntType(iter_21_1) then
-			var_21_0 = var_21_0 + pg.island_ability_template[iter_21_1].effect
-		end
+function var_0_0.HasAbility(arg_21_0, arg_21_1)
+	if arg_21_1 == 0 then
+		return true
 	end
 
-	return var_21_0
+	return _.any(arg_21_0.abilitys, function(arg_22_0)
+		return arg_21_1 == arg_22_0
+	end)
 end
 
-function var_0_0.GetProductAdditionSpeedByAblityType(arg_22_0, arg_22_1)
-	local var_22_0 = 0
-
-	for iter_22_0, iter_22_1 in ipairs(arg_22_0.abilitys) do
-		local var_22_1 = pg.island_ability_template[iter_22_1]
-
-		if var_22_1.type == arg_22_1 then
-			var_22_0 = var_22_0 + var_22_1.effect
-		end
-	end
-
-	return var_22_0
-end
-
-function var_0_0.GetAdditionEffectByAblityType(arg_23_0, arg_23_1)
+function var_0_0.GetOrderDailyCntAddition(arg_23_0)
 	local var_23_0 = 0
 
 	for iter_23_0, iter_23_1 in ipairs(arg_23_0.abilitys) do
-		local var_23_1 = pg.island_ability_template[iter_23_1]
-
-		if var_23_1.type == arg_23_1 then
-			var_23_0 = var_23_0 + var_23_1.effect
+		if var_0_0.IsOrderDailyCntType(iter_23_1) then
+			var_23_0 = var_23_0 + pg.island_ability_template[iter_23_1].effect
 		end
 	end
 
 	return var_23_0
 end
 
-function var_0_0.GetSignInGiftAddition(arg_24_0)
+function var_0_0.GetProductAdditionSpeedByAblityType(arg_24_0, arg_24_1)
 	local var_24_0 = 0
 
 	for iter_24_0, iter_24_1 in ipairs(arg_24_0.abilitys) do
-		if var_0_0.IsSignInGiftType(iter_24_1) then
-			var_24_0 = var_24_0 + pg.island_ability_template[iter_24_1].effect
+		local var_24_1 = pg.island_ability_template[iter_24_1]
+
+		if var_24_1.type == arg_24_1 then
+			var_24_0 = var_24_0 + var_24_1.effect
 		end
 	end
 
 	return var_24_0
 end
 
-function var_0_0.GetInventoryMaxCntAddition(arg_25_0)
+function var_0_0.GetAdditionEffectByAblityType(arg_25_0, arg_25_1)
 	local var_25_0 = 0
 
 	for iter_25_0, iter_25_1 in ipairs(arg_25_0.abilitys) do
-		if var_0_0.IsInventoryMaxCntType(iter_25_1) then
-			var_25_0 = var_25_0 + pg.island_ability_template[iter_25_1].effect
+		local var_25_1 = pg.island_ability_template[iter_25_1]
+
+		if var_25_1.type == arg_25_1 then
+			var_25_0 = var_25_0 + var_25_1.effect
 		end
 	end
 
 	return var_25_0
 end
 
-function var_0_0.IsInventoryMaxCntType(arg_26_0)
-	return pg.island_ability_template[arg_26_0].type == var_0_0.TYPE_INVENTORY_MAXCNT
+function var_0_0.GetSignInGiftAddition(arg_26_0)
+	local var_26_0 = 0
+
+	for iter_26_0, iter_26_1 in ipairs(arg_26_0.abilitys) do
+		if var_0_0.IsSignInGiftType(iter_26_1) then
+			var_26_0 = var_26_0 + pg.island_ability_template[iter_26_1].effect
+		end
+	end
+
+	return var_26_0
 end
 
-function var_0_0.IsSignInGiftType(arg_27_0)
-	local var_27_0 = pg.island_ability_template[arg_27_0]
+function var_0_0.GetInventoryMaxCntAddition(arg_27_0)
+	local var_27_0 = 0
 
-	assert(var_27_0, "island_ability_template" .. arg_27_0)
+	for iter_27_0, iter_27_1 in ipairs(arg_27_0.abilitys) do
+		if var_0_0.IsInventoryMaxCntType(iter_27_1) then
+			var_27_0 = var_27_0 + pg.island_ability_template[iter_27_1].effect
+		end
+	end
 
-	return var_27_0.type == var_0_0.TYPE_SIGN_GIFT_CNT
+	return var_27_0
 end
 
-function var_0_0.IsOrderDailyCntType(arg_28_0)
-	return pg.island_ability_template[arg_28_0].type == var_0_0.TYPE_ORDER_DAILY_CNT
+function var_0_0.IsInventoryMaxCntType(arg_28_0)
+	return pg.island_ability_template[arg_28_0].type == var_0_0.TYPE_INVENTORY_MAXCNT
 end
 
-function var_0_0.IsMapType(arg_29_0)
+function var_0_0.IsSignInGiftType(arg_29_0)
 	local var_29_0 = pg.island_ability_template[arg_29_0]
 
-	assert(var_29_0, "island_ability_template >>>>" .. arg_29_0)
+	assert(var_29_0, "island_ability_template" .. arg_29_0)
 
-	return var_29_0.type == var_0_0.TYPE_MAP
+	return var_29_0.type == var_0_0.TYPE_SIGN_GIFT_CNT
 end
 
-function var_0_0.IsOrderType(arg_30_0)
-	return pg.island_ability_template[arg_30_0].type == var_0_0.TYPE_ORDER
+function var_0_0.IsOrderDailyCntType(arg_30_0)
+	return pg.island_ability_template[arg_30_0].type == var_0_0.TYPE_ORDER_DAILY_CNT
 end
 
-function var_0_0.IsShopTypeNormal(arg_31_0)
-	return pg.island_ability_template[arg_31_0].type == var_0_0.TYPE_SHOP_NORMAL
+function var_0_0.IsMapType(arg_31_0)
+	local var_31_0 = pg.island_ability_template[arg_31_0]
+
+	assert(var_31_0, "island_ability_template >>>>" .. arg_31_0)
+
+	return var_31_0.type == var_0_0.TYPE_MAP
 end
 
-function var_0_0.IsShopTypeTemporary(arg_32_0)
-	return pg.island_ability_template[arg_32_0].type == var_0_0.TYPE_SHOP_TEMPORARY
+function var_0_0.IsOrderType(arg_32_0)
+	return pg.island_ability_template[arg_32_0].type == var_0_0.TYPE_ORDER
 end
 
-function var_0_0.IsCommodityType(arg_33_0)
-	return pg.island_ability_template[arg_33_0].type == var_0_0.TYPE_COMMODITY
+function var_0_0.IsShopTypeNormal(arg_33_0)
+	return pg.island_ability_template[arg_33_0].type == var_0_0.TYPE_SHOP_NORMAL
 end
 
-function var_0_0.IsFormuateType(arg_34_0)
-	return pg.island_ability_template[arg_34_0].type == var_0_0.TYPE_FORMULA
+function var_0_0.IsShopTypeTemporary(arg_34_0)
+	return pg.island_ability_template[arg_34_0].type == var_0_0.TYPE_SHOP_TEMPORARY
 end
 
-function var_0_0.IsSecondProductType(arg_35_0)
-	return pg.island_ability_template[arg_35_0].type == var_0_0.TYPE_SECOND_PRODUCT
+function var_0_0.IsCommodityType(arg_35_0)
+	return pg.island_ability_template[arg_35_0].type == var_0_0.TYPE_COMMODITY
 end
 
-function var_0_0.IsCollectToolType(arg_36_0)
-	return pg.island_ability_template[arg_36_0].type == var_0_0.TYPE_COLLECT_TOOL
+function var_0_0.IsFormuateType(arg_36_0)
+	return pg.island_ability_template[arg_36_0].type == var_0_0.TYPE_FORMULA
 end
 
-function var_0_0.GetAblityType(arg_37_0)
-	return pg.island_ability_template[arg_37_0].type
+function var_0_0.IsSecondProductType(arg_37_0)
+	return pg.island_ability_template[arg_37_0].type == var_0_0.TYPE_SECOND_PRODUCT
 end
 
-function var_0_0.GetEffect(arg_38_0)
-	return pg.island_ability_template[arg_38_0].effect
+function var_0_0.IsCollectToolType(arg_38_0)
+	return pg.island_ability_template[arg_38_0].type == var_0_0.TYPE_COLLECT_TOOL
 end
 
-function var_0_0.IsOrderExpType(arg_39_0)
-	return pg.island_ability_template[arg_39_0].type == var_0_0.TYPE_ORDER_EXP
+function var_0_0.GetAblityType(arg_39_0)
+	return pg.island_ability_template[arg_39_0].type
+end
+
+function var_0_0.GetEffect(arg_40_0)
+	return pg.island_ability_template[arg_40_0].effect
+end
+
+function var_0_0.IsOrderExpType(arg_41_0)
+	return pg.island_ability_template[arg_41_0].type == var_0_0.TYPE_ORDER_EXP
 end
 
 return var_0_0

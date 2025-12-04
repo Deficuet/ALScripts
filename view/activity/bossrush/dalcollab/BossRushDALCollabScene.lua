@@ -232,7 +232,7 @@ function var_0_0.UpdateMap(arg_27_0)
 
 		for iter_27_0, iter_27_1 in pairs(arg_27_0.maps) do
 			if iter_27_0 ~= 1 and iter_27_0 ~= 6 then
-				setActive(arg_27_0.mapFX:Find("state_4/k"), false)
+				setActive(arg_27_0.mapFX:Find("state_4/" .. iter_27_0), false)
 			end
 
 			setActive(iter_27_1, true)
@@ -351,50 +351,52 @@ function var_0_0.UpdateBattle(arg_28_0)
 			setActive(arg_30_1:Find("active/current"), false)
 
 			arg_30_1:Find("active/current/progress"):GetComponent(typeof(Image)).fillAmount = var_30_1:IsPass() and 1 or var_30_1:GetBossHpRate()
+		end
 
-			local var_30_7 = arg_30_1:Find("active/common/bullets")
-
+		local function var_30_7(arg_31_0)
 			if var_30_5 > 3 then
-				setActive(var_30_7, false)
+				setActive(arg_31_0, false)
 			else
-				setActive(var_30_7, true)
+				setActive(arg_31_0, true)
 
-				local var_30_8 = _.map(_.range(var_30_7.childCount), function(arg_31_0)
-					return var_30_7:GetChild(arg_31_0 - 1)
+				local var_31_0 = _.map(_.range(arg_31_0.childCount), function(arg_32_0)
+					return arg_31_0:GetChild(arg_32_0 - 1)
 				end)
 
-				table.Foreach(var_30_8, function(arg_32_0, arg_32_1)
-					setActive(arg_32_1, arg_32_0 <= 4 - var_30_5)
+				table.Foreach(var_31_0, function(arg_33_0, arg_33_1)
+					setActive(arg_33_1, arg_33_0 <= 4 - var_30_5)
 				end)
 			end
 		end
 
+		var_30_7(arg_30_1:Find("active/common/bullets"))
+		var_30_7(arg_30_1:Find("clear/common/bullets"))
 		onButton(arg_28_0, arg_30_1, function()
 			if not var_30_2 then
-				local var_33_0 = var_30_1:GetPreSeriesId()
-				local var_33_1 = ""
-				local var_33_2 = 1
-				local var_33_3 = var_30_1:GetPreSeriesId()
-				local var_33_4 = CollabrateBossRushSeriesData.New({
-					id = var_33_3[var_33_2]
+				local var_34_0 = var_30_1:GetPreSeriesId()
+				local var_34_1 = ""
+				local var_34_2 = 1
+				local var_34_3 = var_30_1:GetPreSeriesId()
+				local var_34_4 = CollabrateBossRushSeriesData.New({
+					id = var_34_3[var_34_2]
 				}):GetSeriesCode()
 
-				while var_33_2 < #var_33_3 do
-					var_33_2 = var_33_2 + 1
+				while var_34_2 < #var_34_3 do
+					var_34_2 = var_34_2 + 1
 
-					local var_33_5 = CollabrateBossRushSeriesData.New({
-						id = var_33_3[var_33_2]
+					local var_34_5 = CollabrateBossRushSeriesData.New({
+						id = var_34_3[var_34_2]
 					})
 
-					var_33_4 = var_33_4 .. "、" .. var_33_5:GetSeriesCode()
+					var_34_4 = var_34_4 .. "、" .. var_34_5:GetSeriesCode()
 				end
 
-				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_unlock", var_33_4))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("series_enemy_unlock", var_34_4))
 
 				return
 			end
 
-			local function var_33_6()
+			local function var_34_6()
 				arg_28_0._openSeriesData = var_30_1
 
 				PlayerPrefs.SetInt("DAL_ship_position", arg_30_0)
@@ -407,195 +409,183 @@ function var_0_0.UpdateBattle(arg_28_0)
 				end
 			end
 
-			local var_33_7 = var_30_1:GetInitStory()
+			local var_34_7 = var_30_1:GetInitStory()
 
-			if var_33_7 then
-				arg_28_0:PlayStory(var_33_7, var_33_6)
+			if var_34_7 then
+				arg_28_0:PlayStory(var_34_7, var_34_6)
 			else
-				var_33_6()
+				var_34_6()
 			end
 		end, SFX_PANEL)
 	end)
 	arg_28_0:updateShipPosition()
 	arg_28_0:addbubbleMsgBoxList({
-		function(arg_35_0)
-			arg_28_0:checkAllStory()
-			arg_35_0()
-		end,
 		function(arg_36_0)
-			local var_36_0 = arg_28_0.activity:getConfig("config_client").first_story
-			local var_36_1 = arg_28_0.activity:getConfig("config_client").first_guide
+			arg_28_0:checkAllStory()
+			arg_36_0()
+		end,
+		function(arg_37_0)
+			local var_37_0 = arg_28_0.activity:getConfig("config_client").first_story
+			local var_37_1 = arg_28_0.activity:getConfig("config_client").first_guide
 
 			if first_guide then
-				local function var_36_2()
-					pg.SystemGuideMgr.GetInstance():PlayByGuideId(var_36_1, nil, arg_36_0)
+				local function var_37_2()
+					pg.SystemGuideMgr.GetInstance():PlayByGuideId(var_37_1, nil, arg_37_0)
 				end
 
-				arg_28_0:PlayStory(var_36_0, var_36_2)
+				arg_28_0:PlayStory(var_37_0, var_37_2)
 			else
-				arg_28_0:PlayStory(var_36_0, arg_36_0)
+				arg_28_0:PlayStory(var_37_0, arg_37_0)
 			end
 		end
 	})
 end
 
-function var_0_0.updateCurrent(arg_38_0, arg_38_1)
-	table.Foreach(arg_38_0.seriesNodes, function(arg_39_0, arg_39_1)
-		setActive(arg_39_1:Find("clear/common"), arg_38_1 ~= arg_39_1)
-		setActive(arg_39_1:Find("clear/current"), arg_38_1 == arg_39_1)
-		setActive(arg_39_1:Find("active/common"), arg_38_1 ~= arg_39_1)
-		setActive(arg_39_1:Find("active/current"), arg_38_1 == arg_39_1)
+function var_0_0.updateCurrent(arg_39_0, arg_39_1)
+	table.Foreach(arg_39_0.seriesNodes, function(arg_40_0, arg_40_1)
+		setActive(arg_40_1:Find("clear/common"), arg_39_1 ~= arg_40_1)
+		setActive(arg_40_1:Find("clear/current"), arg_39_1 == arg_40_1)
+		setActive(arg_40_1:Find("active/common"), arg_39_1 ~= arg_40_1)
+		setActive(arg_40_1:Find("active/current"), arg_39_1 == arg_40_1)
 
-		if arg_38_1 == arg_39_1 then
-			arg_38_0:playAnima(arg_38_1, "anim_BossRushDALCollabUI_battle_in")
+		if arg_39_1 == arg_40_1 then
+			arg_39_0:playAnima(arg_39_1, "anim_BossRushDALCollabUI_battle_in")
 		end
 	end)
 end
 
-function var_0_0.updateShipPosition(arg_40_0)
-	local var_40_0 = PlayerPrefs.GetInt("DAL_ship_position", 1)
-	local var_40_1 = arg_40_0.activity:GetActiveSeriesIds()
+function var_0_0.updateShipPosition(arg_41_0)
+	local var_41_0 = PlayerPrefs.GetInt("DAL_ship_position", 1)
+	local var_41_1 = arg_41_0.activity:GetActiveSeriesIds()
 
-	table.Foreach(arg_40_0.seriesNodes, function(arg_41_0, arg_41_1)
-		local var_41_0 = var_40_1[arg_41_0]
-		local var_41_1 = arg_41_1:Find("ship")
+	table.Foreach(arg_41_0.seriesNodes, function(arg_42_0, arg_42_1)
+		local var_42_0 = var_41_1[arg_42_0]
+		local var_42_1 = arg_42_1:Find("ship")
 
-		var_41_1:GetComponent(typeof(Animation)):Stop()
+		var_42_1:GetComponent(typeof(Animation)):Stop()
 
-		if var_40_0 == var_41_0 then
-			arg_40_0:updateCurrent(arg_41_1)
+		if var_41_0 == var_42_0 then
+			arg_41_0:updateCurrent(arg_42_1)
 
-			arg_40_0._currentShip = var_41_1
-		elseif var_41_1 ~= arg_40_0._lastShip then
-			setActive(arg_41_1:Find("ship"), false)
+			arg_41_0._currentShip = var_42_1
+		elseif var_42_1 ~= arg_41_0._lastShip then
+			setActive(arg_42_1:Find("ship"), false)
 		end
 	end)
 
-	if arg_40_0._lastShip then
-		if arg_40_0._lastShip ~= arg_40_0._currentShip then
-			arg_40_0:playAnima(arg_40_0._lastShip, "anim_BossRushDALCollabUI_ship_out")
-			setActive(arg_40_0._lastShip:Find("vx_teleport_2"), true)
+	if arg_41_0._lastShip then
+		if arg_41_0._lastShip ~= arg_41_0._currentShip then
+			arg_41_0:playAnima(arg_41_0._lastShip, "anim_BossRushDALCollabUI_ship_out")
+			setActive(arg_41_0._lastShip:Find("vx_teleport_2"), true)
 
-			arg_40_0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = false
+			arg_41_0.battleNodes:GetComponent(typeof(CanvasGroup)).interactable = false
 		end
 	else
-		setActive(arg_40_0._currentShip, true)
-		setActive(arg_40_0._currentShip:Find("vx_teleport_1"), true)
-		arg_40_0:playAnima(arg_40_0._currentShip, "anim_BossRushDALCollabUI_ship_in")
+		setActive(arg_41_0._currentShip, true)
+		setActive(arg_41_0._currentShip:Find("vx_teleport_1"), true)
+		arg_41_0:playAnima(arg_41_0._currentShip, "anim_BossRushDALCollabUI_ship_in")
 	end
 
-	return arg_40_0._lastShip ~= arg_40_0._currentShip
+	return arg_41_0._lastShip ~= arg_41_0._currentShip
 end
 
-function var_0_0.checkAllStory(arg_42_0)
-	local var_42_0 = arg_42_0.activity:GetCollabSeriesDataList()
-	local var_42_1 = {}
+function var_0_0.checkAllStory(arg_43_0)
+	local var_43_0 = arg_43_0.activity:GetCollabSeriesDataList()
+	local var_43_1 = {}
 
-	for iter_42_0, iter_42_1 in pairs(var_42_0) do
-		if table.contains(arg_42_0.activity:GetPassCounts(), iter_42_0) then
-			local var_42_2 = iter_42_1:GetStorys()
+	for iter_43_0, iter_43_1 in pairs(var_43_0) do
+		if table.contains(arg_43_0.activity:GetPassCounts(), iter_43_0) then
+			local var_43_2 = iter_43_1:GetStorys()
 
-			for iter_42_2, iter_42_3 in ipairs(var_42_2) do
-				table.insert(var_42_1, iter_42_3)
+			for iter_43_2, iter_43_3 in ipairs(var_43_2) do
+				table.insert(var_43_1, iter_43_3)
 			end
 		end
 	end
 
-	local var_42_3 = 1
+	local var_43_3 = 1
 
-	local function var_42_4()
-		var_42_3 = var_42_3 + 1
+	local function var_43_4()
+		var_43_3 = var_43_3 + 1
 
-		local var_43_0 = var_42_1[var_42_3]
-		local var_43_1
-		local var_43_2 = arg_42_0.activity:getConfig("config_client").storys_unlock_story
+		local var_44_0 = var_43_1[var_43_3]
+		local var_44_1
+		local var_44_2 = arg_43_0.activity:getConfig("config_client").storys_unlock_story
 
-		if var_43_0 == nil and var_43_2 then
-			local var_43_3 = pg.NewStoryMgr.GetInstance()
+		if var_44_0 == nil and var_44_2 then
+			local var_44_3 = pg.NewStoryMgr.GetInstance()
 
-			var_43_1 = true
+			var_44_1 = true
 
-			for iter_43_0, iter_43_1 in ipairs(var_43_2[2]) do
-				var_43_1 = var_43_1 and var_43_3:IsPlayed(iter_43_1)
+			for iter_44_0, iter_44_1 in ipairs(var_44_2[2]) do
+				var_44_1 = var_44_1 and var_44_3:IsPlayed(iter_44_1)
 			end
 
-			var_43_1 = var_43_1 and not var_43_3:IsPlayed(var_43_2[1])
+			var_44_1 = var_44_1 and not var_44_3:IsPlayed(var_44_2[1])
 		end
 
-		if var_43_1 then
-			local function var_43_4()
-				setActive(arg_42_0.shiftMap:Find("map_6"), false)
-				arg_42_0:PlayMapShiftAnima("", "_3")
+		if var_44_1 then
+			local function var_44_4()
+				setActive(arg_43_0.shiftMap:Find("map_6"), false)
+				arg_43_0:PlayMapShiftAnima("", "_3")
 			end
 
-			arg_42_0:PlayStory(var_43_2[1], var_43_4)
+			arg_43_0:PlayStory(var_44_2[1], var_44_4)
 		else
-			arg_42_0:PlayStory(var_43_0, var_42_4)
+			arg_43_0:PlayStory(var_44_0, var_43_4)
 		end
 	end
 
-	arg_42_0:PlayStory(var_42_1[var_42_3], var_42_4)
+	arg_43_0:PlayStory(var_43_1[var_43_3], var_43_4)
 end
 
-function var_0_0.GetFinalStoryName(arg_45_0)
-	local var_45_0 = arg_45_0.activity:GetCollabSeriesDataList()[6]
-	local var_45_1 = Clone(var_45_0:getConfig("story_worldboss"))
+function var_0_0.GetFinalStoryName(arg_46_0)
+	local var_46_0 = arg_46_0.activity:GetCollabSeriesDataList()[6]
+	local var_46_1 = Clone(var_46_0:getConfig("story_worldboss"))
 
-	table.sort(var_45_1, function(arg_46_0, arg_46_1)
-		return arg_46_0[2] < arg_46_1[2]
+	table.sort(var_46_1, function(arg_47_0, arg_47_1)
+		return arg_47_0[2] < arg_47_1[2]
 	end)
 
-	return var_45_1[1][1]
+	return var_46_1[1][1]
 end
 
-function var_0_0.PlayStory(arg_47_0, arg_47_1, arg_47_2)
-	if not arg_47_1 then
+function var_0_0.PlayStory(arg_48_0, arg_48_1, arg_48_2)
+	if not arg_48_1 then
 		return
 	end
 
-	local var_47_0 = pg.NewStoryMgr.GetInstance()
+	local var_48_0 = pg.NewStoryMgr.GetInstance()
 
-	if var_47_0:IsPlayed(arg_47_1) then
-		return existCall(arg_47_2)
+	if var_48_0:IsPlayed(arg_48_1) then
+		return existCall(arg_48_2)
 	end
 
-	if arg_47_1 == arg_47_0:GetFinalStoryName() then
-		local function var_47_1()
-			arg_47_0:PlayMapShiftAnima("_3", "")
+	if arg_48_1 == arg_48_0:GetFinalStoryName() then
+		local function var_48_1()
+			arg_48_0:PlayMapShiftAnima("_3", "")
 		end
 
-		var_47_0:Play(arg_47_1, var_47_1)
+		var_48_0:Play(arg_48_1, var_48_1)
 	else
-		var_47_0:Play(arg_47_1, arg_47_2)
+		var_48_0:Play(arg_48_1, arg_48_2)
 	end
 end
 
-function var_0_0.UpdateTasks(arg_49_0, arg_49_1)
-	if _.any(arg_49_1, function(arg_50_0)
-		return arg_49_0.storyTask and arg_49_0.storyTask.id == arg_50_0
+function var_0_0.UpdateTasks(arg_50_0, arg_50_1)
+	if _.any(arg_50_1, function(arg_51_0)
+		return arg_50_0.storyTask and arg_50_0.storyTask.id == arg_51_0
 	end) then
-		arg_49_0.storyTask.submitTime = 1
+		arg_50_0.storyTask.submitTime = 1
 
-		arg_49_0:UpdateView()
+		arg_50_0:UpdateView()
 	end
 end
 
-function var_0_0.addbubbleMsgBoxList(arg_51_0, arg_51_1)
-	local var_51_0 = #arg_51_0.ActionSequence == 0
-
-	table.insertto(arg_51_0.ActionSequence, arg_51_1)
-
-	if not var_51_0 then
-		return
-	end
-
-	arg_51_0:resumeBubble()
-end
-
-function var_0_0.addbubbleMsgBox(arg_52_0, arg_52_1)
+function var_0_0.addbubbleMsgBoxList(arg_52_0, arg_52_1)
 	local var_52_0 = #arg_52_0.ActionSequence == 0
 
-	table.insert(arg_52_0.ActionSequence, arg_52_1)
+	table.insertto(arg_52_0.ActionSequence, arg_52_1)
 
 	if not var_52_0 then
 		return
@@ -604,37 +594,49 @@ function var_0_0.addbubbleMsgBox(arg_52_0, arg_52_1)
 	arg_52_0:resumeBubble()
 end
 
-function var_0_0.resumeBubble(arg_53_0)
-	if #arg_53_0.ActionSequence == 0 then
+function var_0_0.addbubbleMsgBox(arg_53_0, arg_53_1)
+	local var_53_0 = #arg_53_0.ActionSequence == 0
+
+	table.insert(arg_53_0.ActionSequence, arg_53_1)
+
+	if not var_53_0 then
 		return
 	end
 
-	local var_53_0
+	arg_53_0:resumeBubble()
+end
 
-	local function var_53_1()
-		local var_54_0 = arg_53_0.ActionSequence[1]
+function var_0_0.resumeBubble(arg_54_0)
+	if #arg_54_0.ActionSequence == 0 then
+		return
+	end
 
-		if var_54_0 then
-			var_54_0(function()
-				table.remove(arg_53_0.ActionSequence, 1)
-				var_53_1()
+	local var_54_0
+
+	local function var_54_1()
+		local var_55_0 = arg_54_0.ActionSequence[1]
+
+		if var_55_0 then
+			var_55_0(function()
+				table.remove(arg_54_0.ActionSequence, 1)
+				var_54_1()
 			end)
 		end
 	end
 
-	var_53_1()
+	var_54_1()
 end
 
-function var_0_0.CleanBubbleMsgbox(arg_56_0)
-	table.clean(arg_56_0.ActionSequence)
+function var_0_0.CleanBubbleMsgbox(arg_57_0)
+	table.clean(arg_57_0.ActionSequence)
 end
 
-function var_0_0.willExit(arg_57_0)
-	arg_57_0:OverlayComponent(false)
-	arg_57_0.stageView:Destroy()
-	arg_57_0.upgradeView:Destroy()
-	arg_57_0.loader:Clear()
-	var_0_0.super.willExit(arg_57_0)
+function var_0_0.willExit(arg_58_0)
+	arg_58_0:OverlayComponent(false)
+	arg_58_0.stageView:Destroy()
+	arg_58_0.upgradeView:Destroy()
+	arg_58_0.loader:Clear()
+	var_0_0.super.willExit(arg_58_0)
 end
 
 return var_0_0

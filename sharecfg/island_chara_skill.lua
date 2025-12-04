@@ -4,7 +4,7 @@ pg.island_chara_skill = {
 		id = 1000,
 		name = "制造技艺",
 		icon = "chara_all_skill_14",
-		desc = "在基地工厂使用手工制作设备时，产品生产时间缩短$1%",
+		desc = "在基地工厂使用手工制作设备时，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -398,7 +398,7 @@ pg.island_chara_skill = {
 		id = 1003,
 		name = "育果技艺",
 		icon = "chara_all_skill_10",
-		desc = "在坠香果园工作时，果实成熟时间缩短$1%",
+		desc = "在坠香果园工作时，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -526,7 +526,7 @@ pg.island_chara_skill = {
 		id = 1004,
 		name = "伐木技艺",
 		icon = "chara_all_skill_2",
-		desc = "在翠土林场工作时，木材产出所需时间缩短$1%",
+		desc = "在翠土林场工作时，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -654,7 +654,7 @@ pg.island_chara_skill = {
 		id = 1005,
 		name = "畜牧技艺",
 		icon = "chara_all_skill_6",
-		desc = "在悠然牧场工作时，动物产出时间缩短$1%",
+		desc = "在悠然牧场工作时，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -782,7 +782,7 @@ pg.island_chara_skill = {
 		id = 1006,
 		name = "烹饪技艺",
 		icon = "chara_all_skill_7",
-		desc = "在有鱼餐馆工作时，餐品制作时间缩短$1%",
+		desc = "在有鱼餐馆工作时，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -910,7 +910,7 @@ pg.island_chara_skill = {
 		id = 1007,
 		name = "研发技艺",
 		icon = "chara_all_skill_3",
-		desc = "研究岛屿科技时，研发时间缩短$1%",
+		desc = "研究岛屿科技时，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -1038,7 +1038,7 @@ pg.island_chara_skill = {
 		id = 1008,
 		name = "采矿技艺",
 		icon = "chara_all_skill_1",
-		desc = "在沉石矿山工作时，矿物产出时间缩短$1%",
+		desc = "在沉石矿山工作时，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -1166,7 +1166,7 @@ pg.island_chara_skill = {
 		id = 1009,
 		name = "耕作技艺",
 		icon = "chara_all_skill_5",
-		desc = "在丰壤农田工作时，作物成熟时间缩短$1%",
+		desc = "在丰壤农田工作时，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -1422,7 +1422,7 @@ pg.island_chara_skill = {
 		id = 1011,
 		name = "培育技艺",
 		icon = "chara_all_skill_9",
-		desc = "在青芽苗圃工作时，作物成熟时间缩短$1%",
+		desc = "在青芽苗圃工作时，工作速度提高$1%",
 		desc_add = {
 			{
 				{
@@ -1942,9 +1942,9 @@ pg.island_chara_skill = {
 	},
 	[99999] = {
 		id = 99999,
-		name = "无限体力",
+		name = "无限活力",
 		icon = "chara_all_skill_8",
-		desc = "工作时，无体力上限",
+		desc = "工作啾们拥有无限体力，且可同时委派至不同岗位，无数量限制",
 		desc_add = {},
 		material = {},
 		skill_effect = {

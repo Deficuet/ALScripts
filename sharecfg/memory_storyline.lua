@@ -2322,18 +2322,41 @@ pg.memory_storyline = {
 		}
 	},
 	{
+		description = "「我马上就要出远门了」\n「今天的基调呢，就是坦诚一点，随意一点」\n「想到哪里，就说到哪里」\n「那么……开始了」",
+		name = "忆海留声",
+		world_id = "",
+		memory_lock = 0,
+		column = 56,
+		bgm = "theme-helena ",
+		row = 0,
+		chapter = 4,
+		id = 91,
+		icon = "ChapterFour_10",
+		sort = 1,
+		memory_id = {
+			1,
+			349
+		},
+		shipnation = {
+			97
+		},
+		link_event = {
+			92
+		}
+	},
+	{
 		description = "敬请期待",
 		name = "敬请期待",
-		column = 56,
+		column = 57,
 		memory_id = "",
 		link_event = "",
 		shipnation = 0,
 		world_id = "",
 		bgm = "",
 		row = 0,
-		chapter = 4,
+		chapter = 0,
 		memory_lock = 1,
-		id = 91,
+		id = 92,
 		icon = "",
 		sort = 0
 	},
@@ -2428,6 +2451,7 @@ pg.memory_storyline = {
 		88,
 		89,
 		90,
-		91
+		91,
+		92
 	}
 }

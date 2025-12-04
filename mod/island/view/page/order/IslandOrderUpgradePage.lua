@@ -18,8 +18,8 @@ end
 function var_0_0.Show(arg_5_0, arg_5_1, arg_5_2)
 	var_0_0.super.Show(arg_5_0)
 
-	arg_5_0.levelTxt.text = arg_5_1 - 1
-	arg_5_0.nextLevelTxt.text = arg_5_1
+	arg_5_0.levelTxt.text = arg_5_1
+	arg_5_0.nextLevelTxt.text = arg_5_1 + 1
 	arg_5_0.callback = arg_5_2
 end
 

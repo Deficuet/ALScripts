@@ -321,10 +321,11 @@ function var_0_0.BuildIslandShipBreakout(arg_35_0, arg_35_1)
 	}, {})
 end
 
-function var_0_0.BuildIslandShipSkillUpgrade(arg_36_0, arg_36_1)
+function var_0_0.BuildIslandShipSkillUpgrade(arg_36_0, arg_36_1, arg_36_2)
 	return var_0_3(30016, {
 		arg_36_0,
-		arg_36_1
+		arg_36_1,
+		arg_36_2
 	}, {})
 end
 
@@ -571,6 +572,52 @@ end
 function var_0_0.BuildIslandTakeThoto(arg_61_0)
 	return var_0_3(30060, {
 		arg_61_0
+	}, {})
+end
+
+function var_0_0.BuildIslandFishingEnter(arg_62_0)
+	return var_0_3(30065, {
+		arg_62_0,
+		0,
+		0
+	}, {})
+end
+
+function var_0_0.BuildIslandFishingExit(arg_63_0, arg_63_1)
+	return var_0_3(30065, {
+		arg_63_0,
+		1,
+		arg_63_1
+	}, {})
+end
+
+function var_0_0.BuildIslandFishingChangeLure(arg_64_0, arg_64_1, arg_64_2)
+	return var_0_3(30066, {
+		arg_64_0,
+		arg_64_1,
+		arg_64_2
+	}, {})
+end
+
+function var_0_0.BuildIslandFishingResult(arg_65_0, arg_65_1, arg_65_2, arg_65_3, arg_65_4, arg_65_5, arg_65_6, arg_65_7, arg_65_8, arg_65_9)
+	return var_0_3(30067, {
+		arg_65_0,
+		arg_65_1,
+		arg_65_2,
+		arg_65_3,
+		arg_65_4,
+		arg_65_5,
+		arg_65_6,
+		arg_65_7,
+		arg_65_8,
+		arg_65_9
+	}, {})
+end
+
+function var_0_0.BuildIslandFishingCancel(arg_66_0, arg_66_1)
+	return var_0_3(30068, {
+		arg_66_0,
+		arg_66_1
 	}, {})
 end
 

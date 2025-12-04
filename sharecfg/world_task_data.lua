@@ -9744,6 +9744,754 @@ pg.world_task_data = {
 		},
 		reset_task = {}
 	},
+	[10080] = {
+		server_type = 4,
+		name = "档案任务150-4",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10080,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003781,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			54
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			54
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10081
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10081] = {
+		server_type = 4,
+		name = "档案任务151-5",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10081,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003782,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			53
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			53
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10082
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10082] = {
+		server_type = 4,
+		name = "档案任务151-6",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10082,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003783,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			51
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			51
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10083
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10083] = {
+		server_type = 4,
+		name = "档案任务180-1",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10083,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003784,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			32
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			32
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10084
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10084] = {
+		server_type = 4,
+		name = "档案任务190-1",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10084,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003785,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			25
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			25
+		},
+		following_random = {
+			20020
+		},
+		task_event = {},
+		complete_parameter = {
+			2501000
+		},
+		next_task = {
+			10085
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				2
+			},
+			{
+				2,
+				150002,
+				2
+			},
+			{
+				2,
+				150001,
+				2
+			}
+		},
+		reset_task = {}
+	},
+	[10085] = {
+		server_type = 4,
+		name = "档案任务190-2",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10085,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003786,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			23
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			23
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10086
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10086] = {
+		server_type = 4,
+		name = "档案任务190-3",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10086,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003787,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			83
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			83
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10087
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10087] = {
+		server_type = 4,
+		name = "档案任务190-4",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10087,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003788,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			85
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			85
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10088
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10088] = {
+		server_type = 4,
+		name = "档案任务190-5",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10088,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003789,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			82
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			82
+		},
+		following_random = {
+			20021
+		},
+		task_event = {},
+		complete_parameter = {
+			2501001
+		},
+		next_task = {
+			10089
+		},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				3
+			},
+			{
+				2,
+				150001,
+				5
+			}
+		},
+		reset_task = {}
+	},
+	[10089] = {
+		server_type = 4,
+		name = "档案任务190-6",
+		continuity = 1,
+		type = 6,
+		log_text = "",
+		intimacy = 0,
+		sharing = 1,
+		id = 10089,
+		complete_condition = 8,
+		exp = 0,
+		rare_task_text = "前往指定海域，击破海域中所有塞壬舰队，回收海域中的战利品。 ",
+		priority = 10,
+		complete_stage = 0,
+		complete_parameter_num = 1,
+		target_map_lock = 0,
+		task_ed = "",
+		description = "前往指定海域，回收海域中的战利品。",
+		item_retrieve = 1,
+		need_level = 0,
+		auto_complete = 1,
+		task_icon = "",
+		rare_task_icon = "tbniang",
+		task_op = "",
+		countdown = 0,
+		drop = 1003790,
+		rank = 0,
+		task_panel_BG = "",
+		need_task_complete = 0,
+		condition_text = "",
+		task_random_enter = {
+			91
+		},
+		task_target_map = {},
+		following_region = {},
+		following_map = {
+			91
+		},
+		following_random = {
+			20022
+		},
+		task_event = {},
+		complete_parameter = {
+			2501002
+		},
+		next_task = {},
+		task_goto = {
+			3
+		},
+		show = {
+			{
+				12,
+				2100030,
+				1
+			},
+			{
+				2,
+				30915,
+				1
+			},
+			{
+				12,
+				2100021,
+				5
+			},
+			{
+				2,
+				150002,
+				5
+			}
+		},
+		reset_task = {}
+	},
 	[210000] = {
 		server_type = 3,
 		name = "航道维护·I",
@@ -13041,6 +13789,16 @@ pg.world_task_data = {
 		10077,
 		10078,
 		10079,
+		10080,
+		10081,
+		10082,
+		10083,
+		10084,
+		10085,
+		10086,
+		10087,
+		10088,
+		10089,
 		210000,
 		210100,
 		210200,

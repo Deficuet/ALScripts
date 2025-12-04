@@ -71,7 +71,22 @@ function var_0_0.SetData(arg_3_0, arg_3_1)
 		local var_4_1 = Drop.Create(var_4_0)
 
 		updateDrop(arg_4_2, var_4_1)
-		setActive(arg_4_2:Find("got"), arg_3_0._series:GetBossTimeStamp() ~= 0)
+
+		local var_4_2 = arg_3_0._series:GetReplaceTaskIDList()[1]
+		local var_4_3 = getProxy(TaskProxy):getTaskById(var_4_2)
+
+		if arg_3_0._series:IsPass() then
+			if var_4_3 then
+				setActive(arg_3_0._rewardRemind, true)
+				setActive(arg_4_2:Find("got"), false)
+			else
+				setActive(arg_3_0._rewardRemind, false)
+				setActive(arg_4_2:Find("got"), true)
+			end
+		else
+			setActive(arg_3_0._rewardRemind, false)
+			setActive(arg_4_2:Find("got"), false)
+		end
 	end)
 end
 
@@ -108,6 +123,10 @@ function var_0_0.OnLoaded(arg_7_0)
 	setText(arg_7_0._tf:Find("Panel/StageInfo/label/label/text"), i18n("DAL_stage_label_data"))
 	setText(arg_7_0._tf:Find("Panel/StageInfo/commander_label/label/text"), i18n("DAL_stage_label_commander"))
 	setText(arg_7_0._tf:Find("Panel/StageInfo/label_2/label/text"), i18n("DAL_stage_label_support"))
+
+	arg_7_0._rewardRemind = arg_7_0._tf:Find("Panel/Reward/remind")
+
+	setText(arg_7_0._rewardRemind:Find("text"), i18n("dal_chapter_tip2"))
 	setText(arg_7_0._tf:Find("Panel/Reward/label"), i18n("item_type17_tip1"))
 
 	arg_7_0._arwardList = arg_7_0._tf:Find("Panel/Reward/Items")

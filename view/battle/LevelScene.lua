@@ -2022,6 +2022,7 @@ function var_0_0.DisplayLevelInfoSPPanel(arg_156_0, arg_156_1, arg_156_2, arg_15
 			if not arg_156_0.levelInfoSPView then
 				arg_156_0.levelInfoSPView = LevelInfoSPView.New(arg_156_0.topPanel, arg_156_0.event, arg_156_0.contextData)
 
+				arg_156_0.levelInfoSPView:RegisterView(arg_156_0)
 				arg_156_0:frozen()
 				arg_156_0.levelInfoSPView:Load()
 				arg_156_0.levelInfoSPView:CallbackInvoke(function()

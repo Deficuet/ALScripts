@@ -664,6 +664,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1004,
 		unlock_time = "always",
@@ -696,6 +697,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1004,
 		com_perform = "",
@@ -729,6 +731,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1004,
 		unlock_time = "always",
@@ -772,6 +775,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1004,
 		unlock_time = "always",
@@ -815,6 +819,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1004,
 		unlock_time = "always",
@@ -858,6 +863,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1004,
 		com_perform = "",
@@ -898,6 +904,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1004,
 		com_perform = "",
@@ -938,6 +945,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		is_tech_task = 1,
 		reward_show = "",
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1002,
 		com_perform = "",
@@ -976,6 +984,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1002,
 		com_perform = "",
@@ -1009,6 +1018,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1052,6 +1062,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1002,
 		com_perform = "",
@@ -1092,6 +1103,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1135,6 +1147,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1002,
 		com_perform = "",
@@ -1175,6 +1188,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1007,
 		unlock_time = "always",
@@ -1224,6 +1238,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1007,
 		com_perform = "",
@@ -1257,6 +1272,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "初临篇",
 		navigation = 1007,
 		unlock_time = "always",
@@ -1300,6 +1316,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1007,
 		unlock_time = "always",
@@ -1343,6 +1360,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "初临篇",
 		navigation = 1007,
 		unlock_time = "always",
@@ -1387,6 +1405,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1007,
 		com_perform = "",
@@ -1420,6 +1439,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1002,
 		com_perform = "",
@@ -1460,6 +1480,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "初临篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1514,6 +1535,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "初临篇",
 		navigation = 1002,
 		com_perform = "",
@@ -1547,6 +1569,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -1592,6 +1615,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1636,6 +1660,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -1670,6 +1695,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -1703,6 +1729,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1752,6 +1779,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -1786,6 +1814,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1823,6 +1852,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "债务篇",
 		navigation = 0,
 		com_perform = "",
@@ -1856,6 +1886,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -1899,6 +1930,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1001,
 		com_perform = "",
@@ -1940,6 +1972,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "债务篇",
 		navigation = 1001,
 		com_perform = "",
@@ -1973,6 +2006,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1001,
 		unlock_time = "always",
@@ -2016,6 +2050,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1001,
 		com_perform = "",
@@ -2056,6 +2091,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1001,
 		unlock_time = "always",
@@ -2099,6 +2135,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1001,
 		com_perform = "",
@@ -2139,6 +2176,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1001,
 		unlock_time = "always",
@@ -2182,6 +2220,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "债务篇",
 		navigation = 1001,
 		com_perform = "",
@@ -2222,6 +2261,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1001,
 		com_perform = "",
@@ -2262,6 +2302,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1001,
 		com_perform = "",
@@ -2308,6 +2349,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "债务篇",
 		navigation = 0,
 		com_perform = "",
@@ -2341,6 +2383,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -2381,6 +2424,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -2421,6 +2465,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2464,6 +2509,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2507,6 +2553,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -2547,6 +2594,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2590,6 +2638,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -2641,6 +2690,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "债务篇",
 		navigation = 0,
 		com_perform = "",
@@ -2674,6 +2724,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -2714,6 +2765,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2759,6 +2811,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1004,
 		unlock_time = "always",
@@ -2805,6 +2858,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1001,
 		unlock_time = "always",
@@ -2852,6 +2906,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -2892,6 +2947,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -2933,6 +2989,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -2969,6 +3026,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		com_perform = "",
@@ -3009,6 +3067,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3052,6 +3111,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3095,6 +3155,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1003,
 		com_perform = "",
@@ -3135,6 +3196,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3178,6 +3240,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3221,6 +3284,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3264,6 +3328,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1003,
 		unlock_time = "always",
@@ -3308,6 +3373,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1003,
 		com_perform = "",
@@ -3348,6 +3414,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1003,
 		com_perform = "",
@@ -3388,6 +3455,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "债务篇",
 		navigation = 1002,
 		unlock_time = "always",
@@ -3437,6 +3505,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "债务篇",
 		navigation = 0,
 		com_perform = "",
@@ -3471,6 +3540,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "新枝篇",
 		navigation = 1002,
 		com_perform = "",
@@ -3504,6 +3574,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1006,
 		unlock_time = "always",
@@ -3547,6 +3618,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1006,
 		com_perform = "",
@@ -3587,6 +3659,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1006,
 		unlock_time = "always",
@@ -3630,6 +3703,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1006,
 		unlock_time = "always",
@@ -3674,6 +3748,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "新枝篇",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3710,6 +3785,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1005,
 		com_perform = "",
@@ -3750,6 +3826,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3793,6 +3870,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3841,6 +3919,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3885,6 +3964,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "新枝篇",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3921,6 +4001,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1005,
 		unlock_time = "always",
@@ -3964,6 +4045,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "新枝篇",
 		navigation = 1005,
 		unlock_time = "always",
@@ -4018,6 +4100,7 @@ pg.base.island_task = {
 		com_page = "",
 		reward_show = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "新枝篇",
 		navigation = 0,
 		com_perform = "",
@@ -4051,6 +4134,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "发展篇",
 		navigation = 1007,
 		com_perform = "",
@@ -4091,6 +4175,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "发展篇",
 		navigation = 1007,
 		unlock_time = "always",
@@ -4134,6 +4219,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 1,
+		count_offset = 1,
 		series = "发展篇",
 		navigation = 1007,
 		unlock_time = "always",
@@ -4182,6 +4268,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -4230,6 +4317,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -4295,6 +4383,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -4365,6 +4454,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -4437,6 +4527,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -4509,6 +4600,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -4581,6 +4673,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -4658,6 +4751,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -4735,6 +4829,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -4812,6 +4907,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -4882,6 +4978,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -4954,6 +5051,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -5026,6 +5124,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -5098,6 +5197,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -5175,6 +5275,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -5252,6 +5353,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -5329,6 +5431,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -5399,6 +5502,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -5471,6 +5575,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -5543,6 +5648,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "【秋季特产经营】",
 		navigation = 0,
 		com_perform = "",
@@ -5615,6 +5721,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -5660,6 +5767,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -5705,6 +5813,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -5750,6 +5859,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -5795,6 +5905,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -5840,6 +5951,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -5885,6 +5997,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -5930,6 +6043,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -5975,6 +6089,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6020,6 +6135,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6065,6 +6181,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6110,6 +6227,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6155,6 +6273,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6200,6 +6319,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6245,6 +6365,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6290,6 +6411,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6335,6 +6457,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6370,6 +6493,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6410,6 +6534,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6450,6 +6575,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6490,6 +6616,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6530,6 +6657,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6570,6 +6698,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6615,6 +6744,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6650,6 +6780,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6690,6 +6821,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6730,6 +6862,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6770,6 +6903,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6810,6 +6944,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6855,6 +6990,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6900,6 +7036,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6945,6 +7082,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -6990,6 +7128,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7035,6 +7174,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7080,6 +7220,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7125,6 +7266,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7170,6 +7312,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7215,6 +7358,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7260,6 +7404,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7305,6 +7450,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7350,6 +7496,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7395,6 +7542,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7440,6 +7588,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7485,6 +7634,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7530,6 +7680,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7575,6 +7726,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7620,6 +7772,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7655,6 +7808,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7695,6 +7849,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7735,6 +7890,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7775,6 +7931,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7815,6 +7972,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7855,6 +8013,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7900,6 +8059,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7935,6 +8095,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -7975,6 +8136,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -8015,6 +8177,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -8055,6 +8218,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -8095,6 +8259,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -8140,6 +8305,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -8185,6 +8351,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -8222,6 +8389,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8270,6 +8438,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -8304,6 +8473,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -8338,6 +8508,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -8372,6 +8543,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8420,6 +8592,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -8454,6 +8627,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8502,6 +8676,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -8560,6 +8735,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -8594,6 +8770,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -8628,6 +8805,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -8665,6 +8843,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8702,6 +8881,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8739,6 +8919,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -8794,6 +8975,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -8828,6 +9010,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -8865,6 +9048,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -8902,6 +9086,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -8957,6 +9142,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -8997,6 +9183,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -9031,6 +9218,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -9068,6 +9256,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -9123,6 +9312,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9157,6 +9347,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9194,6 +9385,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9228,6 +9420,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9262,6 +9455,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9299,6 +9493,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9333,6 +9528,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9367,6 +9563,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9404,6 +9601,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9459,6 +9657,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9493,6 +9692,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9527,6 +9727,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9564,6 +9765,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9601,6 +9803,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9635,6 +9838,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9672,6 +9876,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9711,6 +9916,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -9745,6 +9951,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -9798,6 +10005,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -9846,6 +10054,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -9894,6 +10103,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -9942,6 +10152,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -9976,6 +10187,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		unlock_time = "always",
@@ -10013,6 +10225,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -10051,6 +10264,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -10085,6 +10299,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		unlock_time = "always",
@@ -10122,6 +10337,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10156,6 +10372,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -10206,6 +10423,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10240,6 +10458,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -10277,6 +10496,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -10314,6 +10534,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10364,6 +10585,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -10405,6 +10627,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		com_perform = "",
@@ -10439,6 +10662,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10473,6 +10697,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10523,6 +10748,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -10557,6 +10783,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -10594,6 +10821,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -10631,6 +10859,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10665,6 +10894,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -10702,6 +10932,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		unlock_time = "always",
@@ -10739,6 +10970,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -10776,6 +11008,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -10839,6 +11072,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -10873,6 +11107,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		unlock_time = "always",
@@ -10910,6 +11145,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -10944,6 +11180,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -10993,6 +11230,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -11047,6 +11285,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1001,
 		com_perform = "",
@@ -11081,6 +11320,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		unlock_time = "always",
@@ -11118,6 +11358,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -11152,6 +11393,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		unlock_time = "always",
@@ -11189,6 +11431,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -11237,6 +11480,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11271,6 +11515,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -11305,6 +11550,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11339,6 +11585,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -11373,6 +11620,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		unlock_time = "always",
@@ -11426,6 +11674,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11462,6 +11711,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11496,6 +11746,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -11530,6 +11781,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11564,6 +11816,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11598,6 +11851,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1005,
 		com_perform = "",
@@ -11632,6 +11886,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -11669,6 +11924,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -11706,6 +11962,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -11756,6 +12013,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -11803,6 +12061,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -11840,6 +12099,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1004,
 		unlock_time = "always",
@@ -11888,6 +12148,7 @@ pg.base.island_task = {
 		trigger_type = 1,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11933,6 +12194,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		unlock_time = "always",
@@ -11981,6 +12243,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -11996,6 +12259,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12021,6 +12288,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12036,6 +12304,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12061,6 +12333,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12076,6 +12349,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12101,6 +12378,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12116,6 +12394,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12141,6 +12423,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12156,6 +12439,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12181,6 +12468,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -12196,6 +12484,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12215,6 +12507,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12230,6 +12523,10 @@ pg.base.island_task = {
 			{
 				2,
 				30000006
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12256,6 +12553,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12271,6 +12569,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12296,6 +12598,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12311,6 +12614,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12336,6 +12643,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12351,6 +12659,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12376,6 +12688,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12391,6 +12704,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12416,6 +12733,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -12431,6 +12749,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12456,6 +12778,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -12471,6 +12794,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12490,6 +12817,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -12505,6 +12833,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501001
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12532,6 +12864,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -12547,6 +12880,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12566,6 +12903,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -12581,6 +12919,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501011
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12608,6 +12950,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -12629,6 +12972,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12648,6 +12995,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -12663,6 +13011,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501021
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12690,6 +13042,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -12711,6 +13064,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12730,6 +13087,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1002,
 		com_perform = "",
@@ -12745,6 +13103,10 @@ pg.base.island_task = {
 			{
 				2,
 				30501031
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12772,6 +13134,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -12793,6 +13156,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12812,6 +13179,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -12827,6 +13195,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502001
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12854,6 +13226,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -12875,6 +13248,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12894,6 +13271,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -12909,6 +13287,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502011
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12936,6 +13318,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -12957,6 +13340,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -12976,6 +13363,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -12991,6 +13379,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502021
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13018,6 +13410,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 0,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -13039,6 +13432,10 @@ pg.base.island_task = {
 					2,
 					10001160
 				}
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13058,6 +13455,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 1006,
 		com_perform = "",
@@ -13073,6 +13471,10 @@ pg.base.island_task = {
 			{
 				2,
 				30502031
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13100,6 +13502,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13115,6 +13518,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13140,6 +13547,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13155,6 +13563,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13180,6 +13592,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13195,6 +13608,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13220,6 +13637,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13235,6 +13653,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13260,6 +13682,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13275,6 +13698,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13300,6 +13727,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13315,6 +13743,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13340,6 +13772,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13359,6 +13792,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13384,6 +13821,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13403,6 +13841,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13428,6 +13870,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13447,6 +13890,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13472,6 +13919,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13491,6 +13939,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13516,6 +13968,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13531,6 +13984,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13556,6 +14013,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13571,6 +14029,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13596,6 +14058,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13615,6 +14078,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13640,6 +14107,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13659,6 +14127,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13684,6 +14156,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13703,6 +14176,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13728,6 +14205,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13747,6 +14225,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13772,6 +14254,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13791,6 +14274,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13816,6 +14303,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13835,6 +14323,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13860,6 +14352,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13879,6 +14372,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13904,6 +14401,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13923,6 +14421,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13948,6 +14450,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -13963,6 +14466,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -13988,6 +14495,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -14003,6 +14511,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -14028,6 +14540,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -14043,6 +14556,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -14068,6 +14585,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -14083,6 +14601,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},
@@ -14113,6 +14635,7 @@ pg.base.island_task = {
 		trigger_type = 2,
 		com_page = "",
 		is_tech_task = 0,
+		count_offset = 1,
 		series = "",
 		navigation = 0,
 		com_perform = "",
@@ -14128,6 +14651,10 @@ pg.base.island_task = {
 			{
 				2,
 				10001160
+			},
+			{
+				3,
+				30001
 			}
 		},
 		link_task = {},

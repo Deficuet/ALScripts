@@ -3,73 +3,23 @@ pg.activity_banner = {
 	{
 		id = 1,
 		pic = "temp1",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
 		id = 2,
 		pic = "temp2",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene get boat",
 			{
 				projectName = "new",
 				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					4
-				},
-				{
-					12,
-					0,
-					0
-				}
 			}
 		}
 	},
@@ -80,15 +30,15 @@ pg.activity_banner = {
 		param = {
 			"scene core activity",
 			{
-				coreName = "DALCoreActivityUI"
+				coreName = "HelenaCoreActivityUI"
 			}
 		},
 		time = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					4
 				},
 				{
 					0,
@@ -100,7 +50,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					4
+					11
 				},
 				{
 					12,
@@ -113,74 +63,24 @@ pg.activity_banner = {
 	{
 		id = 4,
 		pic = "temp4",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene charge",
 			{
 				wrap = 2
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
 		id = 5,
 		pic = "temp5",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					11,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -189,14 +89,14 @@ pg.activity_banner = {
 		pic = "temp6",
 		type = 2,
 		param = {
-			"scene court yard"
+			"scene vote entrance"
 		},
 		time = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					4
 				},
 				{
 					0,
@@ -208,12 +108,12 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					3
+					11
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -253,21 +153,16 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "https://game.bilibili.com/blhx/2025sd/?channel=yxbanner",
 		id = 8,
 		pic = "temp8",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
+		type = 1,
 		time = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					4
 				},
 				{
 					0,
@@ -279,12 +174,12 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					3
+					11
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
@@ -304,8 +199,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					11,
-					20
+					12,
+					4
 				},
 				{
 					0,
@@ -317,7 +212,7 @@ pg.activity_banner = {
 				{
 					2025,
 					12,
-					4
+					11
 				},
 				{
 					12,
@@ -431,8 +326,10 @@ pg.activity_banner = {
 			5,
 			6,
 			7,
-			8,
 			9
+		},
+		{
+			8
 		},
 		[9] = {
 			90,

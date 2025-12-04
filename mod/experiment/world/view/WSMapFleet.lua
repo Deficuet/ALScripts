@@ -102,7 +102,7 @@ function var_0_0.LoadSpine(arg_5_0, arg_5_1)
 		var_5_2:SetParent(arg_5_0.model)
 
 		arg_5_0.modelComps = {
-			var_5_2:GetSpineAnimUI()
+			var_5_2
 		}
 		arg_5_0.spineRole = var_5_2
 

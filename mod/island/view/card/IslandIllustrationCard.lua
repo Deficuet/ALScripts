@@ -24,48 +24,49 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2)
 
 	GetImageSpriteFromAtlasAsync(arg_2_0.illustration:GetIcon(), "", arg_2_0.iconTF, true)
 
-	local var_2_0 = arg_2_0.illustration:getConfig("type") == IslandIllustration.TYPES.ITEM
+	local var_2_0 = arg_2_0.illustration:getConfig("type")
+	local var_2_1 = var_2_0 == IslandIllustration.TYPES.ITEM
 
-	if var_2_0 then
-		local var_2_1 = arg_2_0.illustration:getLinkConfig("rarity")
+	if var_2_1 then
+		local var_2_2 = arg_2_0.illustration:getLinkConfig("rarity")
 
-		GetImageSpriteFromAtlasAsync("ui/islandbookui_atlas", "item_bg_" .. var_2_1, arg_2_0.bgTF, true)
+		GetImageSpriteFromAtlasAsync("ui/islandbookui_atlas", "item_bg_" .. var_2_2, arg_2_0.bgTF, true)
 	end
 
-	local var_2_2 = arg_2_0.illustration:GetStatus()
-	local var_2_3 = var_2_2 == IslandIllustration.STATUS.LOCK
+	local var_2_3 = arg_2_0.illustration:GetStatus()
+	local var_2_4 = var_2_3 == IslandIllustration.STATUS.LOCK
 
-	setActive(arg_2_0.lockTF, var_2_3)
-	setGray(arg_2_0.iconTF, var_2_3, true)
-	setImageAlpha(arg_2_0.iconTF, var_2_3 and 0.5 or 1)
-	setActive(arg_2_0.bottomTF, not var_2_3 and not var_2_0)
-	setActive(arg_2_0.canUnLockTF, var_2_2 == IslandIllustration.STATUS.CAN_UNLOCK)
+	setActive(arg_2_0.lockTF, var_2_4)
+	setGray(arg_2_0.iconTF, var_2_4, true)
+	setImageAlpha(arg_2_0.iconTF, var_2_4 and 0.5 or 1)
+	setActive(arg_2_0.bottomTF, not var_2_4 and not var_2_1 and var_2_0 ~= IslandIllustration.TYPES.FISH)
+	setActive(arg_2_0.canUnLockTF, var_2_3 == IslandIllustration.STATUS.CAN_UNLOCK)
 	setActive(arg_2_0.tipTF, arg_2_0.illustration:IsTip())
 
-	local var_2_4 = var_2_0 and not var_2_3
+	local var_2_5 = var_2_1 and not var_2_4
 
-	setActive(arg_2_0.phaseTF, var_2_4)
+	setActive(arg_2_0.phaseTF, var_2_5)
 
-	if var_2_4 then
-		local var_2_5 = arg_2_0.illustration:GetCurPhase()
+	if var_2_5 then
+		local var_2_6 = arg_2_0.illustration:GetCurPhase()
 
-		setActive(arg_2_0.phaseTF, var_2_5 > 0)
+		setActive(arg_2_0.phaseTF, var_2_6 > 0)
 
-		if var_2_5 > 0 then
-			GetImageSpriteFromAtlasAsync("ui/islandbookui_atlas", "item_phase_" .. var_2_5, arg_2_0.phaseTF, true)
+		if var_2_6 > 0 then
+			GetImageSpriteFromAtlasAsync("ui/islandbookui_atlas", "item_phase_" .. var_2_6, arg_2_0.phaseTF, true)
 		end
 	end
 
-	if not var_2_3 and var_2_2 ~= IslandIllustration.STATUS.CAN_UNLOCK then
-		local var_2_6 = arg_2_0.illustration:GetName()
+	if not var_2_4 and var_2_3 ~= IslandIllustration.STATUS.CAN_UNLOCK then
+		local var_2_7 = arg_2_0.illustration:GetName()
 
-		if GetPerceptualSize(var_2_6) < 7 then
+		if GetPerceptualSize(var_2_7) < 7 then
 			setActive(arg_2_0.nameTF, true)
-			setText(arg_2_0.nameTF, var_2_6)
+			setText(arg_2_0.nameTF, var_2_7)
 			setActive(arg_2_0.scrollNameTF, false)
 		else
 			setActive(arg_2_0.scrollNameTF, true)
-			setScrollText(arg_2_0.scrollNameTF, var_2_6)
+			setScrollText(arg_2_0.scrollNameTF, var_2_7)
 			setActive(arg_2_0.nameTF, false)
 		end
 	else

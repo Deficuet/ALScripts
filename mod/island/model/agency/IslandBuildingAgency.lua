@@ -7,6 +7,7 @@ var_0_0.SLOT_HANDPLABT_SLOT_UNIT_CHANGE = "IslandBuildingAgency:SLOT_HANDPLABT_S
 var_0_0.SLOT_RESET_DELEGATION_STATE_DONE = "IslandBuildingAgency:SLOT_RESET_DELEGATION_STATE_DONE"
 var_0_0.GEN_ANIMAL_INT = "IslandBuildingAgency:GEN_ANIMAL_INT"
 var_0_0.CHANGE_PRODUCT_MODEL = "IslandBuildingAgency:CHANGE_PRODUCT_MODEL"
+var_0_0.SLOT_DELEGATE_INIT = "IslandBuildingAgency:SLOT_DELEGATE_INIT"
 
 function var_0_0.OnInit(arg_1_0, arg_1_1)
 	arg_1_0.buildings = {}
@@ -126,6 +127,10 @@ function var_0_0.InitBuildData(arg_10_0, arg_10_1)
 				slotId = iter_10_5.id
 			})
 		end
+
+		var_10_1:DispatchEvent(IslandBuildingAgency.SLOT_DELEGATE_INIT, {
+			slotId = iter_10_5.id
+		})
 	end
 end
 

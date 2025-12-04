@@ -3,6 +3,7 @@ local var_0_0 = class("IslandIllustration", import("model.vo.BaseVO"))
 var_0_0.TYPES = {
 	ITEM = 3,
 	CHAR = 1,
+	FISH = 4,
 	NPC = 2
 }
 var_0_0.STATUS = {
@@ -21,14 +22,20 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.levelPointGotData = {}
 	arg_1_0.starPoints = 0
 	arg_1_0.starPointGotData = {}
+
+	arg_1_0:InitConfigData()
 end
 
 function var_0_0.bindConfigTable(arg_2_0)
 	return pg.island_illustrated_guide
 end
 
-function var_0_0.bindLinkConfigTable(arg_3_0)
-	return switch(arg_3_0:getConfig("type"), {
+function var_0_0.InitConfigData(arg_3_0)
+	return
+end
+
+function var_0_0.bindLinkConfigTable(arg_4_0)
+	return switch(arg_4_0:getConfig("type"), {
 		[var_0_0.TYPES.CHAR] = function()
 			return pg.island_chara_template
 		end,
@@ -37,143 +44,162 @@ function var_0_0.bindLinkConfigTable(arg_3_0)
 		end,
 		[var_0_0.TYPES.ITEM] = function()
 			return pg.island_item_data_template
+		end,
+		[var_0_0.TYPES.FISH] = function()
+			return pg.island_fish
 		end
 	})
 end
 
-function var_0_0.GetLinkConfigID(arg_7_0)
-	return arg_7_0:getConfig("unlock_id")
+function var_0_0.GetLinkConfigID(arg_9_0)
+	return arg_9_0:getConfig("unlock_id")
 end
 
-function var_0_0.getLinkConfigTable(arg_8_0)
-	local var_8_0 = arg_8_0:bindLinkConfigTable()
+function var_0_0.getLinkConfigTable(arg_10_0)
+	local var_10_0 = arg_10_0:bindLinkConfigTable()
 
-	assert(var_8_0, "should bindLinkConfigTable() first: " .. arg_8_0.__cname)
+	assert(var_10_0, "should bindLinkConfigTable() first: " .. arg_10_0.__cname)
 
-	return var_8_0[arg_8_0:GetLinkConfigID()]
+	return var_10_0[arg_10_0:GetLinkConfigID()]
 end
 
-function var_0_0.getLinkConfig(arg_9_0, arg_9_1)
-	local var_9_0 = arg_9_0:getLinkConfigTable()
+function var_0_0.getLinkConfig(arg_11_0, arg_11_1)
+	local var_11_0 = arg_11_0:getLinkConfigTable()
 
-	assert(var_9_0 ~= nil, "LinkConfig missed, type -" .. arg_9_0.__cname .. " configId: " .. tostring(arg_9_0.configId))
+	assert(var_11_0 ~= nil, "LinkConfig missed, type -" .. arg_11_0.__cname .. " configId: " .. tostring(arg_11_0.configId))
 
-	return var_9_0[arg_9_1]
+	return var_11_0[arg_11_1]
 end
 
-function var_0_0.GetName(arg_10_0)
-	return switch(arg_10_0:getConfig("type"), {
+function var_0_0.GetName(arg_12_0)
+	return switch(arg_12_0:getConfig("type"), {
 		[var_0_0.TYPES.CHAR] = function()
-			local var_11_0 = arg_10_0:getLinkConfig("unit_id")
+			local var_13_0 = arg_12_0:getLinkConfig("unit_id")
 
-			return pg.island_unit_character[var_11_0].name
+			return pg.island_unit_character[var_13_0].name
 		end,
 		[var_0_0.TYPES.NPC] = function()
-			return arg_10_0:getLinkConfig("name")
+			return arg_12_0:getLinkConfig("name")
 		end,
 		[var_0_0.TYPES.ITEM] = function()
-			return arg_10_0:getLinkConfig("name")
+			return arg_12_0:getLinkConfig("name")
+		end,
+		[var_0_0.TYPES.FISH] = function()
+			return arg_12_0:getLinkConfig("name")
 		end
 	})
 end
 
-function var_0_0.GetEnName(arg_14_0)
-	return switch(arg_14_0:getConfig("type"), {
+function var_0_0.GetEnName(arg_17_0)
+	return switch(arg_17_0:getConfig("type"), {
 		[var_0_0.TYPES.CHAR] = function()
-			local var_15_0 = arg_14_0:getLinkConfig("unit_id")
+			local var_18_0 = arg_17_0:getLinkConfig("unit_id")
 
-			return pg.island_unit_character[var_15_0].english_name
+			return pg.island_unit_character[var_18_0].english_name
 		end,
 		[var_0_0.TYPES.NPC] = function()
-			return arg_14_0:getLinkConfig("english_name")
+			return arg_17_0:getLinkConfig("english_name")
 		end,
 		[var_0_0.TYPES.ITEM] = function()
+			return ""
+		end,
+		[var_0_0.TYPES.FISH] = function()
 			return ""
 		end
 	})
 end
 
-function var_0_0.GetDesc(arg_18_0)
-	return switch(arg_18_0:getConfig("type"), {
-		[var_0_0.TYPES.CHAR] = function()
-			local var_19_0 = arg_18_0:getLinkConfig("unit_id")
-
-			return pg.island_unit_character[var_19_0].describe_illustrated_guid
-		end,
-		[var_0_0.TYPES.NPC] = function()
-			return arg_18_0:getLinkConfig("describe_illustrated_guid")
-		end,
-		[var_0_0.TYPES.ITEM] = function()
-			return arg_18_0:getLinkConfig("desc")
-		end
-	})
-end
-
-function var_0_0.GetIcon(arg_22_0)
+function var_0_0.GetDesc(arg_22_0)
 	return switch(arg_22_0:getConfig("type"), {
 		[var_0_0.TYPES.CHAR] = function()
-			local var_23_0 = arg_22_0:GetLinkConfigID()
+			local var_23_0 = arg_22_0:getLinkConfig("unit_id")
 
-			return "ShipYardIcon/" .. IslandShip.StaticGetPrefab(var_23_0)
+			return pg.island_unit_character[var_23_0].describe_illustrated_guid
 		end,
 		[var_0_0.TYPES.NPC] = function()
-			return "island/IslandCharIcon/" .. arg_22_0:getLinkConfig("rendering")
+			return arg_22_0:getLinkConfig("describe_illustrated_guid")
 		end,
 		[var_0_0.TYPES.ITEM] = function()
-			return "island/" .. arg_22_0:getLinkConfig("icon")
+			return arg_22_0:getLinkConfig("desc")
+		end,
+		[var_0_0.TYPES.FISH] = function()
+			local var_26_0 = arg_22_0:getLinkConfig("item_id")
+
+			return pg.island_item_data_template[var_26_0].desc
 		end
 	})
 end
 
-function var_0_0.SetPointData(arg_26_0, arg_26_1)
-	arg_26_0.basePoint = arg_26_1.base
-	arg_26_0.levelPoints = 0
-	arg_26_0.levelPointGotData = {}
+function var_0_0.GetIcon(arg_27_0)
+	return switch(arg_27_0:getConfig("type"), {
+		[var_0_0.TYPES.CHAR] = function()
+			local var_28_0 = arg_27_0:GetLinkConfigID()
 
-	for iter_26_0, iter_26_1 in ipairs(arg_26_1.lv_list) do
-		arg_26_0.levelPoints = arg_26_0.levelPoints + iter_26_1.value
-		arg_26_0.levelPointGotData[iter_26_1.lv] = iter_26_1.value
+			return "ShipYardIcon/" .. IslandShip.StaticGetPrefab(var_28_0)
+		end,
+		[var_0_0.TYPES.NPC] = function()
+			return "island/IslandCharIcon/" .. arg_27_0:getLinkConfig("rendering")
+		end,
+		[var_0_0.TYPES.ITEM] = function()
+			return "island/" .. arg_27_0:getLinkConfig("icon")
+		end,
+		[var_0_0.TYPES.FISH] = function()
+			local var_31_0 = arg_27_0:getLinkConfig("item_id")
+
+			return "island/" .. pg.island_item_data_template[var_31_0].icon
+		end
+	})
+end
+
+function var_0_0.SetPointData(arg_32_0, arg_32_1)
+	arg_32_0.basePoint = arg_32_1.base
+	arg_32_0.levelPoints = 0
+	arg_32_0.levelPointGotData = {}
+
+	for iter_32_0, iter_32_1 in ipairs(arg_32_1.lv_list) do
+		arg_32_0.levelPoints = arg_32_0.levelPoints + iter_32_1.value
+		arg_32_0.levelPointGotData[iter_32_1.lv] = iter_32_1.value
 	end
 
-	arg_26_0.starPoints = 0
-	arg_26_0.starPointGotData = {}
+	arg_32_0.starPoints = 0
+	arg_32_0.starPointGotData = {}
 
-	for iter_26_2, iter_26_3 in ipairs(arg_26_1.star_list) do
-		arg_26_0.starPoints = arg_26_0.starPoints + iter_26_3.value
-		arg_26_0.starPointGotData[iter_26_3.lv] = iter_26_3.value
+	for iter_32_2, iter_32_3 in ipairs(arg_32_1.star_list) do
+		arg_32_0.starPoints = arg_32_0.starPoints + iter_32_3.value
+		arg_32_0.starPointGotData[iter_32_3.lv] = iter_32_3.value
 	end
 end
 
-function var_0_0.SetStatus(arg_27_0, arg_27_1)
-	arg_27_0.status = arg_27_1
+function var_0_0.SetStatus(arg_33_0, arg_33_1)
+	arg_33_0.status = arg_33_1
 
-	if arg_27_0.status == var_0_0.STATUS.CAN_UNLOCK then
-		arg_27_0.isTip = true
-	elseif arg_27_0.status == var_0_0.STATUS.UNLOCK then
-		arg_27_0.basePoint = arg_27_0:getConfig("collect_add")
+	if arg_33_0.status == var_0_0.STATUS.CAN_UNLOCK then
+		arg_33_0.isTip = true
+	elseif arg_33_0.status == var_0_0.STATUS.UNLOCK then
+		arg_33_0.basePoint = arg_33_0:getConfig("collect_add")
 	end
 end
 
-function var_0_0.GetStatus(arg_28_0)
-	return arg_28_0.status
+function var_0_0.GetStatus(arg_34_0)
+	return arg_34_0.status
 end
 
-function var_0_0.CheckTip(arg_29_0)
-	arg_29_0.isTip = arg_29_0.status == var_0_0.STATUS.CAN_UNLOCK
+function var_0_0.CheckTip(arg_35_0)
+	arg_35_0.isTip = arg_35_0.status == var_0_0.STATUS.CAN_UNLOCK
 end
 
-function var_0_0.IsTip(arg_30_0)
-	return arg_30_0.isTip
+function var_0_0.IsTip(arg_36_0)
+	return arg_36_0.isTip
 end
 
-function var_0_0.GetPoints(arg_31_0)
-	return arg_31_0.basePoint + arg_31_0.levelPoints + arg_31_0.starPoints
+function var_0_0.GetPoints(arg_37_0)
+	return arg_37_0.basePoint + arg_37_0.levelPoints + arg_37_0.starPoints
 end
 
-function var_0_0.GetTypeAndLinkId(arg_32_0)
-	local var_32_0 = pg.island_illustrated_guide[arg_32_0]
+function var_0_0.GetTypeAndLinkId(arg_38_0)
+	local var_38_0 = pg.island_illustrated_guide[arg_38_0]
 
-	return var_32_0.type, var_32_0.unlock_id
+	return var_38_0.type, var_38_0.unlock_id
 end
 
 return var_0_0

@@ -26,7 +26,6 @@ function var_0_0.Ctor(arg_2_0, arg_2_1)
 	arg_2_0.trafficPerHour = 0
 	arg_2_0.damagePerHour = 0
 	arg_2_0.actId = arg_2_1.actId
-	arg_2_0.diff = 1
 end
 
 function var_0_0.UpdateCollabBossData(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
@@ -105,9 +104,10 @@ function var_0_0.GetFleets(arg_18_0)
 end
 
 function var_0_0.GetExpeditionIds(arg_19_0)
-	local var_19_0 = arg_19_0:getConfig("activity_series_enemy_id")[arg_19_0.diff]
+	local var_19_0 = getProxy(ActivityProxy):GetBossRushRuntime(arg_19_0.actId).diff
+	local var_19_1 = arg_19_0:getConfig("activity_series_enemy_id")[var_19_0]
 
-	return var_0_1[var_19_0].expedition_id
+	return var_0_1[var_19_1].expedition_id
 end
 
 function var_0_0.GetFleetIds(arg_20_0)
@@ -214,35 +214,37 @@ function var_0_0.GetCurrentProfile(arg_28_0)
 end
 
 function var_0_0.SetDifficulty(arg_29_0, arg_29_1)
-	arg_29_0.diff = arg_29_1
+	getProxy(ActivityProxy):GetBossRushRuntime(arg_29_0.actId).diff = arg_29_1
 end
 
-function var_0_0.GetDifficulty(arg_30_0)
-	return arg_30_0.diff
+function var_0_0.GetSeriesCode(arg_30_0)
+	return arg_30_0:getConfig("chapter_name")
 end
 
-function var_0_0.GetSeriesCode(arg_31_0)
-	return arg_31_0:getConfig("chapter_name")
+function var_0_0.GetSeriesName(arg_31_0)
+	return arg_31_0:getConfig("chapter_name2")
 end
 
-function var_0_0.GetSeriesName(arg_32_0)
-	return arg_32_0:getConfig("chapter_name2")
+function var_0_0.GetCollabBossID(arg_32_0)
+	return arg_32_0:getConfig("boss_id")[1]
 end
 
-function var_0_0.GetCollabBossID(arg_33_0)
-	return arg_33_0:getConfig("boss_id")[1]
+function var_0_0.GetActivitySeriesID(arg_33_0, arg_33_1)
+	local var_33_0 = arg_33_1 or getProxy(ActivityProxy):GetBossRushRuntime(arg_33_0.actId).diff
+
+	return arg_33_0:getConfig("activity_series_enemy_id")[var_33_0]
 end
 
-function var_0_0.GetActivitySeriesID(arg_34_0, arg_34_1)
-	local var_34_0 = arg_34_1 or arg_34_0.diff
+function var_0_0.GetName(arg_34_0, arg_34_1)
+	local var_34_0 = arg_34_0:GetActivitySeriesID(arg_34_1)
 
-	return arg_34_0:getConfig("activity_series_enemy_id")[var_34_0]
+	return var_0_1[var_34_0].name
 end
 
-function var_0_0.GetName(arg_35_0, arg_35_1)
-	local var_35_0 = arg_35_0:GetActivitySeriesID(arg_35_1)
+function var_0_0.GetReplaceTaskIDList(arg_35_0)
+	local var_35_0 = arg_35_0:getConfig("boss_id")[1]
 
-	return var_0_1[var_35_0].name
+	return var_0_2[var_35_0].replace_task
 end
 
 function var_0_0.GetRewardDisplay(arg_36_0)
@@ -251,74 +253,74 @@ function var_0_0.GetRewardDisplay(arg_36_0)
 	return var_0_2[var_36_0].reward_display
 end
 
-function var_0_0.GetLimitations(arg_37_0, arg_37_1)
-	local var_37_0 = arg_37_0:GetActivitySeriesID(arg_37_1)
+function var_0_0.GetLimitations(arg_37_0)
+	local var_37_0 = arg_37_0:GetActivitySeriesID()
 
 	return var_0_1[var_37_0].limitation
 end
 
-function var_0_0.GetOilCost(arg_38_0, arg_38_1)
-	local var_38_0 = arg_38_0:GetActivitySeriesID(arg_38_1)
+function var_0_0.GetOilCost(arg_38_0)
+	local var_38_0 = arg_38_0:GetActivitySeriesID()
 
 	return var_0_1[var_38_0].oil
 end
 
-function var_0_0.GetDescription(arg_39_0, arg_39_1)
-	local var_39_0 = arg_39_0:GetActivitySeriesID(arg_39_1)
+function var_0_0.GetDescription(arg_39_0)
+	local var_39_0 = arg_39_0:GetActivitySeriesID()
 
 	return var_0_1[var_39_0].profiles
 end
 
-function var_0_0.IsSingleFight(arg_40_0, arg_40_1)
-	local var_40_0 = arg_40_0:GetActivitySeriesID(arg_40_1)
+function var_0_0.IsSingleFight(arg_40_0)
+	local var_40_0 = arg_40_0:GetActivitySeriesID()
 
 	return var_0_1[var_40_0].whether_singlefight == 1
 end
 
-function var_0_0.GetBossIcons(arg_41_0, arg_41_1)
-	local var_41_0 = arg_41_0:GetActivitySeriesID(arg_41_1)
+function var_0_0.GetBossIcons(arg_41_0)
+	local var_41_0 = arg_41_0:GetActivitySeriesID()
 
 	return var_0_1[var_41_0].boss_icon
 end
 
-function var_0_0.GetPassAwards(arg_42_0, arg_42_1)
-	local var_42_0 = arg_42_0:GetActivitySeriesID(arg_42_1)
+function var_0_0.GetPassAwards(arg_42_0)
+	local var_42_0 = arg_42_0:GetActivitySeriesID()
 
 	return var_0_1[var_42_0].pass_awards_display
 end
 
-function var_0_0.GetAdditionalAwards(arg_43_0, arg_43_1)
-	local var_43_0 = arg_43_0:GetActivitySeriesID(arg_43_1)
+function var_0_0.GetAdditionalAwards(arg_43_0)
+	local var_43_0 = arg_43_0:GetActivitySeriesID()
 
 	return var_0_1[var_43_0].additional_awards_display
 end
 
-function var_0_0.GetDefeatStories(arg_44_0, arg_44_1)
-	local var_44_0 = arg_44_0:GetActivitySeriesID(arg_44_1)
+function var_0_0.GetDefeatStories(arg_44_0)
+	local var_44_0 = arg_44_0:GetActivitySeriesID()
 
 	return var_0_1[var_44_0].defeat_story
 end
 
-function var_0_0.GetDefeatStoriesCount(arg_45_0, arg_45_1)
-	local var_45_0 = arg_45_0:GetActivitySeriesID(arg_45_1)
+function var_0_0.GetDefeatStoriesCount(arg_45_0)
+	local var_45_0 = arg_45_0:GetActivitySeriesID()
 
 	return var_0_1[var_45_0].defeat_story_count
 end
 
-function var_0_0.GetMaxBonusCount(arg_46_0, arg_46_1)
-	local var_46_0 = arg_46_0:GetActivitySeriesID(arg_46_1)
+function var_0_0.GetMaxBonusCount(arg_46_0)
+	local var_46_0 = arg_46_0:GetActivitySeriesID()
 
 	return var_0_1[var_46_0].count
 end
 
-function var_0_0.GetOilLimit(arg_47_0, arg_47_1)
-	local var_47_0 = arg_47_0:GetActivitySeriesID(arg_47_1)
+function var_0_0.GetOilLimit(arg_47_0)
+	local var_47_0 = arg_47_0:GetActivitySeriesID()
 
 	return var_0_1[var_47_0].use_oil_limit
 end
 
-function var_0_0.GetEXParamater(arg_48_0, arg_48_1)
-	local var_48_0 = arg_48_0:GetActivitySeriesID(arg_48_1)
+function var_0_0.GetEXParamater(arg_48_0)
+	local var_48_0 = arg_48_0:GetActivitySeriesID()
 
 	return var_0_1[var_48_0].ex_count
 end

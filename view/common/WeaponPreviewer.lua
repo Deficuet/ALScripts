@@ -205,7 +205,7 @@ function var_0_0.setSeaAction(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 	if arg_12_0.seaAnimator then
 		local var_12_0 = SpineAnimUtil.GetCharAnimDirect(arg_12_0.skeletonAnimation, 1, arg_12_1)
 
-		arg_12_0.seaAnimator:SetAction(var_12_0, 0, true)
+		arg_12_0.seaAnimator:SetAction(var_12_0, 0, arg_12_3)
 	end
 end
 

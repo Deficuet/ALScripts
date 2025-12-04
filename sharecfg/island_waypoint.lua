@@ -323,6 +323,500 @@ pg.island_waypoint = {
 		process_action = {},
 		arrive_action = {}
 	},
+	[10050001] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050001,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			73.56,
+			2.331,
+			119.19
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050002] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050002,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			74.2,
+			2.331,
+			98.2
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050003] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050003,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			91.44,
+			2.331,
+			88.41
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050004] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050004,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			125.78,
+			2.331,
+			94.82
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050005] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050005,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			79.88,
+			2.331,
+			95.92
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050006] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 1,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050006,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			71.82,
+			2.331,
+			87.41
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050007] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 1,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050007,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			86.92,
+			2.331,
+			78.17
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050008] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 1,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050008,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			131.1,
+			2.331,
+			94.7
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050009] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 1,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050009,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			103.5,
+			2.331,
+			95.4
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050010] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 1,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050010,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			72.8,
+			2.331,
+			93.5
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050011] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 2,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050011,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			104.6,
+			2.347,
+			124.41
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050012] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 2,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050012,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			104.47,
+			2.347,
+			96.19
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10050013] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 2,
+		disappear = 0,
+		mapId = 1005,
+		id = 10050013,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			130.8,
+			2.347,
+			95.79
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040001] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040001,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			87.38,
+			3.391,
+			86.51
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040002] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040002,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			66.81,
+			2.978,
+			87.66
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040003] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040003,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			38.55,
+			2.978,
+			98.58
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040004] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040004,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			45.96,
+			2.827,
+			138.13
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040005] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 0,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040005,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			70.4,
+			2.9,
+			116.1
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040006] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 1,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040006,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			84.58,
+			2.813,
+			104.7
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040007] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 1,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040007,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			81.53,
+			2.62,
+			84.67
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040008] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 1,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040008,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			46.46,
+			2.93,
+			78.68
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040009] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 2,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040009,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			43.308,
+			3.439,
+			144.38
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040010] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 2,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040010,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			40.49,
+			2.419,
+			99.75
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040011] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 2,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040011,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			73.75,
+			2.787,
+			89.46
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040012] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 2,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040012,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			63.4,
+			3.596,
+			146.9
+		},
+		process_action = {},
+		arrive_action = {}
+	},
+	[10040013] = {
+		turn_to = 0,
+		process_time = 0,
+		wait = 0,
+		process_dialogue = "",
+		group = 1,
+		disappear = 0,
+		mapId = 1004,
+		id = 10040013,
+		arrive_dialogue = "",
+		rotation = 0,
+		position = {
+			66.28,
+			0,
+			82.39
+		},
+		process_action = {},
+		arrive_action = {}
+	},
 	[10020001] = {
 		turn_to = 0,
 		process_time = 0,
@@ -988,481 +1482,6 @@ pg.island_waypoint = {
 		process_action = {},
 		arrive_action = {}
 	},
-	[10050001] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050001,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			73.56,
-			2.331,
-			119.19
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050002] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050002,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			74.2,
-			2.331,
-			98.2
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050003] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050003,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			91.44,
-			2.331,
-			88.41
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050004] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050004,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			125.78,
-			2.331,
-			94.82
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050005] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050005,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			79.88,
-			2.331,
-			95.92
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050006] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 1,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050006,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			71.82,
-			2.331,
-			87.41
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050007] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 1,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050007,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			86.92,
-			2.331,
-			78.17
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050008] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 1,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050008,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			131.1,
-			2.331,
-			94.7
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050009] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 1,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050009,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			103.5,
-			2.331,
-			95.4
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050010] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 1,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050010,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			72.8,
-			2.331,
-			93.5
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050011] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 2,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050011,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			104.6,
-			2.347,
-			124.41
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050012] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 2,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050012,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			104.47,
-			2.347,
-			96.19
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10050013] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 2,
-		disappear = 0,
-		mapId = 1005,
-		id = 10050013,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			130.8,
-			2.347,
-			95.79
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040001] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040001,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			87.38,
-			3.391,
-			86.51
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040002] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040002,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			66.81,
-			2.978,
-			87.66
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040003] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040003,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			38.55,
-			2.978,
-			98.58
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040004] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040004,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			45.96,
-			2.827,
-			138.13
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040005] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 0,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040005,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			70.4,
-			2.9,
-			116.1
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040006] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 1,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040006,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			98.1,
-			2.813,
-			70.89
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040007] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 1,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040007,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			77.36,
-			2.62,
-			87.93
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040008] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 1,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040008,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			47.39,
-			2.93,
-			79.54
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040009] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 2,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040009,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			43.308,
-			3.439,
-			144.38
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040010] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 2,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040010,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			40.49,
-			2.419,
-			99.75
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040011] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 2,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040011,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			73.75,
-			2.787,
-			89.46
-		},
-		process_action = {},
-		arrive_action = {}
-	},
-	[10040012] = {
-		turn_to = 0,
-		process_time = 0,
-		wait = 0,
-		process_dialogue = "",
-		group = 2,
-		disappear = 0,
-		mapId = 1004,
-		id = 10040012,
-		arrive_dialogue = "",
-		rotation = 0,
-		position = {
-			63.4,
-			3.596,
-			146.9
-		},
-		process_action = {},
-		arrive_action = {}
-	},
 	get_id_list_by_mapId = {
 		[1001] = {
 			10010001,
@@ -1482,6 +1501,36 @@ pg.island_waypoint = {
 			10010015,
 			10010016,
 			10010017
+		},
+		[1005] = {
+			10050001,
+			10050002,
+			10050003,
+			10050004,
+			10050005,
+			10050006,
+			10050007,
+			10050008,
+			10050009,
+			10050010,
+			10050011,
+			10050012,
+			10050013
+		},
+		[1004] = {
+			10040001,
+			10040002,
+			10040003,
+			10040004,
+			10040005,
+			10040006,
+			10040007,
+			10040008,
+			10040009,
+			10040010,
+			10040011,
+			10040012,
+			10040013
 		},
 		[1002] = {
 			10020001,
@@ -1519,35 +1568,6 @@ pg.island_waypoint = {
 			10020033,
 			10020034,
 			10020035
-		},
-		[1005] = {
-			10050001,
-			10050002,
-			10050003,
-			10050004,
-			10050005,
-			10050006,
-			10050007,
-			10050008,
-			10050009,
-			10050010,
-			10050011,
-			10050012,
-			10050013
-		},
-		[1004] = {
-			10040001,
-			10040002,
-			10040003,
-			10040004,
-			10040005,
-			10040006,
-			10040007,
-			10040008,
-			10040009,
-			10040010,
-			10040011,
-			10040012
 		}
 	},
 	all = {
@@ -1568,6 +1588,32 @@ pg.island_waypoint = {
 		10010015,
 		10010016,
 		10010017,
+		10050001,
+		10050002,
+		10050003,
+		10050004,
+		10050005,
+		10050006,
+		10050007,
+		10050008,
+		10050009,
+		10050010,
+		10050011,
+		10050012,
+		10050013,
+		10040001,
+		10040002,
+		10040003,
+		10040004,
+		10040005,
+		10040006,
+		10040007,
+		10040008,
+		10040009,
+		10040010,
+		10040011,
+		10040012,
+		10040013,
 		10020001,
 		10020002,
 		10020003,
@@ -1602,31 +1648,6 @@ pg.island_waypoint = {
 		10020032,
 		10020033,
 		10020034,
-		10020035,
-		10050001,
-		10050002,
-		10050003,
-		10050004,
-		10050005,
-		10050006,
-		10050007,
-		10050008,
-		10050009,
-		10050010,
-		10050011,
-		10050012,
-		10050013,
-		10040001,
-		10040002,
-		10040003,
-		10040004,
-		10040005,
-		10040006,
-		10040007,
-		10040008,
-		10040009,
-		10040010,
-		10040011,
-		10040012
+		10020035
 	}
 }

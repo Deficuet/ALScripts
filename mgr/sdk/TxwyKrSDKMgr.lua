@@ -39,11 +39,25 @@ function var_0_0.GetClientVer()
 	return (BundleWizard.Inst:GetGroupMgr(GroupMainHelper.DefaultGroupName).CurrentVersion:ToString())
 end
 
+function var_0_0.GetSDKServerID()
+	local var_4_0 = {
+		[0] = "1",
+		"2001",
+		"1001",
+		"not_define"
+	}
+	local var_4_1 = var_4_0[NetConst.getwayType]
+
+	originalPrint("SDK ServerID:" .. tostring(var_4_1))
+
+	return var_4_0[var_4_1]
+end
+
 function var_0_0.GoSDkLoginScene()
 	var_0_1:GoLoginScene()
 end
 
-function var_0_0.LoginSdk(arg_5_0)
+function var_0_0.LoginSdk(arg_6_0)
 	var_0_1:Login()
 end
 
@@ -59,37 +73,39 @@ function var_0_0.LogoutSDK()
 	var_0_1:LocalLogout()
 end
 
-function var_0_0.EnterServer(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4, arg_9_5, arg_9_6)
+function var_0_0.EnterServer(arg_10_0, arg_10_1, arg_10_2, arg_10_3, arg_10_4, arg_10_5, arg_10_6)
 	return
 end
 
-function var_0_0.SdkLevelUp(arg_10_0, arg_10_1)
+function var_0_0.SdkLevelUp(arg_11_0, arg_11_1)
 	return
 end
 
 function var_0_0.UserCenter()
-	local var_11_0 = var_0_0.GetPNInfo()
-	local var_11_1 = var_0_0.GetClientVer()
-
-	var_0_1:UserCenter(var_11_0.playerName, var_11_1, var_11_0.serverID, var_11_0.info)
-end
-
-function var_0_0.BugReport()
 	local var_12_0 = var_0_0.GetPNInfo()
 	local var_12_1 = var_0_0.GetClientVer()
 
-	var_0_1:BugReport(var_12_0.playerName, var_12_1, var_12_0.serverID, var_12_0.info)
+	var_0_1:UserCenter(var_12_0.playerName, var_12_1, var_12_0.serverID, var_12_0.info)
 end
 
-function var_0_0.StoreReview()
+function var_0_0.BugReport()
 	local var_13_0 = var_0_0.GetPNInfo()
 	local var_13_1 = var_0_0.GetClientVer()
 
-	var_0_1:StoreReview(var_13_0.playerName, var_13_1, var_13_0.serverID, var_13_0.info)
+	var_0_1:BugReport(var_13_0.playerName, var_13_1, var_13_0.serverID, var_13_0.info)
 end
 
-function var_0_0.ShareImg(arg_14_0)
-	var_0_1:ShareImg(arg_14_0, "")
+function var_0_0.StoreReview()
+	if var_0_0.GetIsPlatform() then
+		local var_14_0 = var_0_0.GetPNInfo()
+		local var_14_1 = var_0_0.GetClientVer()
+
+		var_0_1:StoreReview(var_14_0.playerName, var_14_1, var_14_0.serverID, var_14_0.info)
+	end
+end
+
+function var_0_0.ShareImg(arg_15_0)
+	var_0_1:ShareImg(arg_15_0, "")
 end
 
 function var_0_0.CompletedTutorial()
@@ -114,12 +130,15 @@ function var_0_0.QueryPendingTransaction()
 	end
 end
 
-function var_0_0.SdkPay(arg_20_0, arg_20_1, arg_20_2, arg_20_3, arg_20_4, arg_20_5, arg_20_6, arg_20_7, arg_20_8, arg_20_9)
-	local var_20_0 = var_0_0.GetPNInfo()
-	local var_20_1 = var_20_0.serverID .. "-" .. var_20_0.playerID .. "-" .. arg_20_4
+function var_0_0.SdkPay(arg_21_0, arg_21_1, arg_21_2, arg_21_3, arg_21_4, arg_21_5, arg_21_6, arg_21_7, arg_21_8, arg_21_9)
+	local var_21_0 = var_0_0.GetPNInfo()
+	local var_21_1 = var_21_0.serverID .. "-" .. var_21_0.playerID .. "-" .. arg_21_4
 
-	originalPrint("SdkPay nonce", tostring(var_20_1))
-	var_0_1:Pay(arg_20_0, var_20_1, var_20_0.info)
+	originalPrint("SdkPay nonce", tostring(var_21_1))
+
+	local var_21_2 = var_0_0.GetSDKServerID()
+
+	var_0_1:SDK_PayWithProductID(arg_21_0, var_21_2, var_21_1, var_21_0.info:GetJson())
 end
 
 function var_0_0.BindCPU()
@@ -127,27 +146,30 @@ function var_0_0.BindCPU()
 end
 
 function var_0_0.SwitchAccount()
-	var_0_1:SwitchAccount()
+	var_0_1:LocalLogout()
+	onDelayTick(function()
+		var_0_1:Login()
+	end, 0.1)
 end
 
-function var_0_0.EventTrack(arg_23_0)
-	var_0_1:SDK_EvtTrack(arg_23_0)
+function var_0_0.EventTrack(arg_25_0)
+	var_0_1:SDK_EvtTrack(arg_25_0)
 end
 
 function var_0_0.GetBiliServerId()
-	local var_24_0 = var_0_1.serverId
+	local var_26_0 = var_0_1.serverId
 
-	originalPrint("serverId : " .. var_24_0)
+	originalPrint("serverId : " .. var_26_0)
 
-	return var_24_0
+	return var_26_0
 end
 
 function var_0_0.GetChannelUID()
-	local var_25_0 = var_0_1.channelUID
+	local var_27_0 = var_0_1.channelUID
 
-	originalPrint("channelUID : " .. var_25_0)
+	originalPrint("channelUID : " .. var_27_0)
 
-	return var_25_0
+	return var_27_0
 end
 
 function var_0_0.GetLoginType()
@@ -177,27 +199,27 @@ function GoLoginScene()
 	gcAll()
 end
 
-function SDKLogined(arg_31_0, arg_31_1, arg_31_2, arg_31_3)
+function SDKLogined(arg_33_0, arg_33_1, arg_33_2, arg_33_3)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
 		return
 	end
 
-	local var_31_0 = User.New({
+	local var_33_0 = User.New({
 		type = 1,
-		arg1 = arg_31_0,
-		arg2 = arg_31_1,
-		arg3 = arg_31_2,
-		arg4 = arg_31_3
+		arg1 = arg_33_0,
+		arg2 = arg_33_1,
+		arg3 = arg_33_2,
+		arg4 = arg_33_3
 	})
 
 	pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
-		user = var_31_0
+		user = var_33_0
 	})
 end
 
-function SDKLogouted(arg_32_0)
+function SDKLogouted(arg_34_0)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -205,11 +227,11 @@ function SDKLogouted(arg_32_0)
 	end
 
 	pg.m02:sendNotification(GAME.LOGOUT, {
-		code = arg_32_0
+		code = arg_34_0
 	})
 end
 
-function PaySuccess(arg_33_0, arg_33_1)
+function PaySuccess(arg_35_0, arg_35_1)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -219,68 +241,71 @@ function PaySuccess(arg_33_0, arg_33_1)
 	getProxy(ShopsProxy):removeWaitTimer()
 end
 
-function PayFailed(arg_34_0, arg_34_1)
+function PayFailed(arg_36_0, arg_36_1)
 	getProxy(ShopsProxy):removeWaitTimer()
 
-	arg_34_1 = tonumber(arg_34_1)
+	arg_36_1 = tonumber(arg_36_1)
 
-	if not arg_34_1 then
+	if not arg_36_1 then
 		return
 	end
 
 	pg.m02:sendNotification(GAME.CHARGE_FAILED, {
-		payId = arg_34_0,
-		code = arg_34_1
+		payId = arg_36_0,
+		code = arg_36_1
 	})
 
-	if arg_34_1 == -202 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("pay_cancel") .. arg_34_1)
+	if arg_36_1 == -202 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("pay_cancel") .. arg_36_1)
 	end
 end
 
-function var_0_0.Survey(arg_35_0)
-	Application.OpenURL(arg_35_0)
+function var_0_0.Survey(arg_37_0)
+	Application.OpenURL(arg_37_0)
 end
 
-function OnQueryProductsSucess(arg_36_0)
-	local function var_36_0(arg_37_0, arg_37_1)
-		for iter_37_0, iter_37_1 in ipairs(pg.pay_data_display.all) do
-			local var_37_0 = pg.pay_data_display[iter_37_1]
+function OnQueryProductsSucess(arg_38_0)
+	local function var_38_0(arg_39_0, arg_39_1)
+		for iter_39_0, iter_39_1 in ipairs(pg.pay_data_display.all) do
+			local var_39_0 = pg.pay_data_display[iter_39_1]
 
-			if var_37_0.id_str == arg_37_0 and var_37_0.money ~= arg_37_1 then
+			if var_39_0.id_str == arg_39_0 and var_39_0.money ~= arg_39_1 then
 				-- block empty
 			end
 		end
 	end
 
-	local var_36_1 = arg_36_0.Count
+	local var_38_1 = arg_38_0.Count
 
-	for iter_36_0 = 0, var_36_1 - 1 do
-		local var_36_2 = arg_36_0[iter_36_0]
-		local var_36_3 = var_36_2.ProductID
-		local var_36_4 = var_36_2.Price
+	for iter_38_0 = 0, var_38_1 - 1 do
+		local var_38_2 = arg_38_0[iter_38_0]
+		local var_38_3 = var_38_2.ProductID
+		local var_38_4 = var_38_2.Price
 
-		var_36_0(var_36_3, var_36_4)
+		var_38_0(var_38_3, var_38_4)
 	end
 end
 
-function OnAdRewards(arg_38_0)
+function OnAdRewards(arg_40_0)
 	return
 end
 
-function OnQuerySubscriptionSuccess(arg_39_0)
+function OnQuerySubscriptionSuccess(arg_41_0)
 	return
 end
 
-function OnRequestPayment(arg_40_0)
-	local var_40_0 = var_0_0.GetPNInfo()
-	local var_40_1 = ""
+function OnRequestPayment(arg_42_0)
+	local var_42_0 = var_0_0.GetPNInfo()
+	local var_42_1 = ""
 
 	originalPrint("SdkPay OnRequestPayment")
-	var_0_1:Pay(arg_40_0, var_40_1, var_40_0.info)
+
+	local var_42_2 = var_0_0.GetSDKServerID()
+
+	var_0_1:SDK_PayWithProductID(arg_42_0, var_42_2, var_42_1, var_42_0.info:GetJson())
 end
 
-function OnQuerySuccess(arg_41_0, arg_41_1)
+function OnQuerySuccess(arg_43_0, arg_43_1)
 	return
 end
 

@@ -208,7 +208,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 10703,
@@ -239,7 +240,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 20403,
@@ -270,7 +272,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 20603,
@@ -301,7 +304,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 29903,
@@ -332,7 +336,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 30129,
@@ -363,7 +368,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 30407,
@@ -394,7 +400,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 30707,
@@ -425,7 +432,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 31201,
@@ -456,7 +464,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 40303,
@@ -487,7 +496,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 50204,
@@ -518,7 +528,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 50205,
@@ -549,7 +560,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 60802,
@@ -580,7 +592,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 70104,
@@ -611,7 +624,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 90111,
@@ -642,7 +656,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100100,
@@ -651,7 +666,8 @@ pg.base.island_illustrated_guide = {
 		id = 16,
 		order = 1,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100200,
@@ -660,7 +676,8 @@ pg.base.island_illustrated_guide = {
 		id = 17,
 		order = 2,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100300,
@@ -669,7 +686,8 @@ pg.base.island_illustrated_guide = {
 		id = 18,
 		order = 3,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100400,
@@ -678,7 +696,8 @@ pg.base.island_illustrated_guide = {
 		id = 19,
 		order = 4,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100500,
@@ -687,7 +706,8 @@ pg.base.island_illustrated_guide = {
 		id = 20,
 		order = 5,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100600,
@@ -696,7 +716,8 @@ pg.base.island_illustrated_guide = {
 		id = 21,
 		order = 6,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100700,
@@ -705,7 +726,8 @@ pg.base.island_illustrated_guide = {
 		id = 22,
 		order = 7,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100800,
@@ -714,7 +736,8 @@ pg.base.island_illustrated_guide = {
 		id = 23,
 		order = 8,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100900,
@@ -723,7 +746,8 @@ pg.base.island_illustrated_guide = {
 		id = 24,
 		order = 9,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101000,
@@ -732,7 +756,8 @@ pg.base.island_illustrated_guide = {
 		id = 25,
 		order = 10,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101100,
@@ -741,7 +766,8 @@ pg.base.island_illustrated_guide = {
 		id = 26,
 		order = 11,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101200,
@@ -750,7 +776,8 @@ pg.base.island_illustrated_guide = {
 		id = 27,
 		order = 12,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101300,
@@ -759,7 +786,8 @@ pg.base.island_illustrated_guide = {
 		id = 28,
 		order = 13,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101400,
@@ -768,7 +796,8 @@ pg.base.island_illustrated_guide = {
 		id = 29,
 		order = 14,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101600,
@@ -777,7 +806,8 @@ pg.base.island_illustrated_guide = {
 		id = 30,
 		order = 15,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1000,
@@ -795,7 +825,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1001,
@@ -813,7 +844,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1002,
@@ -831,7 +863,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1003,
@@ -849,7 +882,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1004,
@@ -867,7 +901,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1005,
@@ -885,7 +920,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1006,
@@ -903,7 +939,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1007,
@@ -921,7 +958,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1008,
@@ -939,7 +977,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1009,
@@ -957,7 +996,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1010,
@@ -975,7 +1015,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1011,
@@ -993,7 +1034,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1012,
@@ -1011,7 +1053,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1014,
@@ -1029,7 +1072,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1015,
@@ -1047,7 +1091,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1016,
@@ -1065,7 +1110,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1017,
@@ -1083,7 +1129,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1018,
@@ -1101,7 +1148,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1019,
@@ -1119,7 +1167,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1020,
@@ -1137,7 +1186,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1021,
@@ -1155,7 +1205,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1022,
@@ -1173,7 +1224,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[57] = {
 		unlock_id = 2000,
@@ -1191,7 +1243,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[58] = {
 		unlock_id = 2001,
@@ -1209,7 +1262,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[59] = {
 		unlock_id = 2002,
@@ -1227,7 +1281,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[60] = {
 		unlock_id = 2003,
@@ -1245,7 +1300,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[61] = {
 		unlock_id = 2004,
@@ -1263,7 +1319,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[62] = {
 		unlock_id = 2005,
@@ -1281,7 +1338,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[63] = {
 		unlock_id = 2006,
@@ -1299,7 +1357,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[64] = {
 		unlock_id = 2007,
@@ -1317,7 +1376,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[65] = {
 		unlock_id = 2008,
@@ -1335,7 +1395,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[66] = {
 		unlock_id = 2009,
@@ -1353,7 +1414,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[67] = {
 		unlock_id = 2010,
@@ -1371,7 +1433,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[68] = {
 		unlock_id = 2011,
@@ -1389,7 +1452,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[69] = {
 		unlock_id = 2012,
@@ -1407,7 +1471,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[70] = {
 		unlock_id = 2014,
@@ -1425,7 +1490,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[71] = {
 		unlock_id = 2015,
@@ -1443,7 +1509,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[72] = {
 		unlock_id = 2016,
@@ -1461,7 +1528,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[73] = {
 		unlock_id = 2017,
@@ -1479,7 +1547,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[74] = {
 		unlock_id = 2018,
@@ -1497,7 +1566,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[75] = {
 		unlock_id = 2019,
@@ -1515,7 +1585,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[76] = {
 		unlock_id = 2020,
@@ -1533,7 +1604,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[77] = {
 		unlock_id = 2021,
@@ -1551,7 +1623,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[78] = {
 		unlock_id = 2022,
@@ -1569,7 +1642,8 @@ pg.base.island_illustrated_guide = {
 				5000,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[86] = {
 		unlock_id = 2600,
@@ -1587,7 +1661,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[87] = {
 		unlock_id = 2601,
@@ -1605,7 +1680,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[88] = {
 		unlock_id = 2602,
@@ -1623,7 +1699,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[89] = {
 		unlock_id = 2603,
@@ -1641,7 +1718,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[90] = {
 		unlock_id = 2604,
@@ -1659,7 +1737,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[91] = {
 		unlock_id = 2605,
@@ -1677,7 +1756,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[92] = {
 		unlock_id = 2606,
@@ -1695,7 +1775,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[93] = {
 		unlock_id = 2700,
@@ -1713,7 +1794,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[94] = {
 		unlock_id = 2701,
@@ -1731,7 +1813,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[95] = {
 		unlock_id = 2702,
@@ -1749,7 +1832,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[96] = {
 		unlock_id = 2703,
@@ -1767,7 +1851,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[97] = {
 		unlock_id = 2704,
@@ -1785,7 +1870,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[98] = {
 		unlock_id = 2705,
@@ -1803,7 +1889,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[99] = {
 		unlock_id = 2800,
@@ -1821,7 +1908,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[100] = {
 		unlock_id = 2801,
@@ -1839,7 +1927,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[101] = {
 		unlock_id = 2802,
@@ -1857,7 +1946,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[102] = {
 		unlock_id = 2803,
@@ -1875,7 +1965,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[103] = {
 		unlock_id = 3000,
@@ -1893,7 +1984,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[104] = {
 		unlock_id = 3001,
@@ -1911,7 +2003,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[105] = {
 		unlock_id = 3002,
@@ -1929,7 +2022,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[106] = {
 		unlock_id = 3003,
@@ -1947,7 +2041,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[107] = {
 		unlock_id = 3004,
@@ -1965,7 +2060,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[108] = {
 		unlock_id = 3005,
@@ -1983,7 +2079,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[109] = {
 		unlock_id = 3006,
@@ -2001,7 +2098,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[110] = {
 		unlock_id = 3007,
@@ -2019,7 +2117,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[111] = {
 		unlock_id = 3008,
@@ -2037,7 +2136,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[112] = {
 		unlock_id = 3009,
@@ -2055,7 +2155,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[113] = {
 		unlock_id = 3010,
@@ -2073,7 +2174,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[114] = {
 		unlock_id = 3011,
@@ -2091,7 +2193,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[115] = {
 		unlock_id = 3012,
@@ -2109,7 +2212,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[116] = {
 		unlock_id = 3013,
@@ -2127,7 +2231,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[117] = {
 		unlock_id = 3014,
@@ -2145,7 +2250,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[118] = {
 		unlock_id = 3015,
@@ -2163,7 +2269,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[120] = {
 		unlock_id = 3017,
@@ -2181,7 +2288,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[121] = {
 		unlock_id = 3018,
@@ -2199,7 +2307,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[122] = {
 		unlock_id = 3019,
@@ -2217,7 +2326,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[123] = {
 		unlock_id = 3020,
@@ -2235,7 +2345,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[124] = {
 		unlock_id = 3021,
@@ -2253,7 +2364,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[125] = {
 		unlock_id = 3022,
@@ -2271,7 +2383,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[126] = {
 		unlock_id = 3023,
@@ -2289,7 +2402,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[127] = {
 		unlock_id = 3024,
@@ -2307,7 +2421,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[128] = {
 		unlock_id = 3025,
@@ -2325,7 +2440,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[129] = {
 		unlock_id = 3026,
@@ -2343,7 +2459,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[130] = {
 		unlock_id = 3028,
@@ -2361,7 +2478,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[131] = {
 		unlock_id = 3029,
@@ -2379,7 +2497,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[132] = {
 		unlock_id = 3030,
@@ -2397,7 +2516,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[134] = {
 		unlock_id = 3032,
@@ -2415,7 +2535,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[135] = {
 		unlock_id = 3033,
@@ -2433,7 +2554,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[136] = {
 		unlock_id = 3034,
@@ -2451,7 +2573,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[137] = {
 		unlock_id = 3035,
@@ -2469,7 +2592,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[138] = {
 		unlock_id = 3036,
@@ -2487,7 +2611,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[139] = {
 		unlock_id = 3037,
@@ -2505,7 +2630,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[140] = {
 		unlock_id = 3038,
@@ -2523,7 +2649,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[141] = {
 		unlock_id = 3039,
@@ -2541,7 +2668,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[142] = {
 		unlock_id = 3040,
@@ -2559,7 +2687,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[143] = {
 		unlock_id = 3041,
@@ -2577,7 +2706,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[144] = {
 		unlock_id = 3042,
@@ -2595,7 +2725,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[145] = {
 		unlock_id = 3043,
@@ -2613,7 +2744,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[146] = {
 		unlock_id = 3044,
@@ -2631,7 +2763,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[147] = {
 		unlock_id = 3045,
@@ -2649,7 +2782,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[148] = {
 		unlock_id = 3046,
@@ -2667,7 +2801,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[149] = {
 		unlock_id = 3047,
@@ -2685,7 +2820,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[150] = {
 		unlock_id = 3048,
@@ -2703,7 +2839,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[151] = {
 		unlock_id = 3049,
@@ -2721,7 +2858,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[152] = {
 		unlock_id = 3050,
@@ -2739,7 +2877,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[153] = {
 		unlock_id = 3051,
@@ -2757,7 +2896,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[154] = {
 		unlock_id = 3052,
@@ -2775,7 +2915,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[155] = {
 		unlock_id = 3053,
@@ -2793,7 +2934,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[156] = {
 		unlock_id = 3054,
@@ -2811,7 +2953,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[157] = {
 		unlock_id = 3055,
@@ -2829,7 +2972,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[158] = {
 		unlock_id = 3056,
@@ -2847,7 +2991,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[159] = {
 		unlock_id = 3059,
@@ -2865,7 +3010,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[160] = {
 		unlock_id = 3101,
@@ -2883,7 +3029,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[161] = {
 		unlock_id = 3102,
@@ -2901,7 +3048,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[162] = {
 		unlock_id = 3103,
@@ -2919,7 +3067,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[163] = {
 		unlock_id = 3104,
@@ -2937,7 +3086,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[164] = {
 		unlock_id = 3105,
@@ -2955,7 +3105,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[165] = {
 		unlock_id = 3106,
@@ -2973,7 +3124,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[166] = {
 		unlock_id = 3107,
@@ -2991,7 +3143,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[167] = {
 		unlock_id = 3108,
@@ -3009,7 +3162,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[168] = {
 		unlock_id = 3109,
@@ -3027,7 +3181,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[169] = {
 		unlock_id = 3110,
@@ -3045,7 +3200,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[170] = {
 		unlock_id = 3111,
@@ -3063,7 +3219,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[171] = {
 		unlock_id = 3112,
@@ -3081,7 +3238,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[172] = {
 		unlock_id = 3113,
@@ -3099,7 +3257,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[173] = {
 		unlock_id = 4001,
@@ -3117,7 +3276,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[174] = {
 		unlock_id = 4002,
@@ -3135,7 +3295,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[175] = {
 		unlock_id = 4003,
@@ -3153,7 +3314,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[176] = {
 		unlock_id = 4004,
@@ -3171,7 +3333,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[177] = {
 		unlock_id = 4005,
@@ -3189,7 +3352,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[178] = {
 		unlock_id = 4006,
@@ -3207,7 +3371,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[179] = {
 		unlock_id = 4007,
@@ -3225,7 +3390,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[180] = {
 		unlock_id = 4008,
@@ -3243,7 +3409,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[181] = {
 		unlock_id = 4009,
@@ -3261,7 +3428,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[182] = {
 		unlock_id = 4010,
@@ -3279,7 +3447,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[183] = {
 		unlock_id = 4011,
@@ -3297,7 +3466,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[184] = {
 		unlock_id = 4012,
@@ -3315,7 +3485,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[185] = {
 		unlock_id = 4013,
@@ -3333,7 +3504,8 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	[186] = {
 		unlock_id = 4014,
@@ -3351,6 +3523,7 @@ pg.base.island_illustrated_guide = {
 				100,
 				10
 			}
-		}
+		},
+		award_unlock = {}
 	}
 }

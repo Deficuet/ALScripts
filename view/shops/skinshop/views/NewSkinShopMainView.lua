@@ -332,10 +332,6 @@ function var_0_0.FlushPaintingToggle(arg_23_0, arg_23_1)
 
 	local var_23_2 = var_23_0:IsSpine() or var_23_0:IsLive2d()
 
-	if LOCK_SKIN_SHOP_ANIM_PREVIEW == "all" or LOCK_SKIN_SHOP_ANIM_PREVIEW and table.contains(LOCK_SKIN_SHOP_ANIM_PREVIEW, var_23_0.id) then
-		var_23_2 = false
-	end
-
 	if var_23_2 and PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1 then
 		arg_23_0.isToggleDynamic = true
 	end

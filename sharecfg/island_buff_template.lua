@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.island_buff_template = {
 	{
-		buff_desc = "角色全能力提高3%，持续8小时。",
+		buff_desc = "角色全能力提高3%，持续8小时",
 		name = "全能力提升",
 		buff_type = 1,
 		buff_level = 1,
@@ -39,7 +39,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	{
-		buff_desc = "角色生产基础资材时，产出所需时间缩短5%，持续8小时。",
+		buff_desc = "角色生产基础资材时，工作速度提高5%，持续8小时",
 		name = "生产效率提升",
 		buff_type = 102,
 		buff_level = 1,
@@ -62,7 +62,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	{
-		buff_desc = "角色在基地工厂制作产品时，产出所需时间缩短5%，持续8小时。",
+		buff_desc = "角色在基地工厂制作产品时，工作速度提高5%，持续8小时",
 		name = "制造效率提升",
 		buff_type = 102,
 		buff_level = 1,
@@ -83,7 +83,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	{
-		buff_desc = "角色制作店铺餐品时，烹饪所需时间缩短5%，持续8小时。",
+		buff_desc = "角色制作店铺餐品时，工作速度提高5%，持续8小时",
 		name = "烹饪效率提升",
 		buff_type = 102,
 		buff_level = 1,

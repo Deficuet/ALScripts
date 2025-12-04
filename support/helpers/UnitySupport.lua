@@ -1024,7 +1024,7 @@ function getSceneRootTFDic(arg_125_0)
 end
 
 function bindComponent(arg_126_0, arg_126_1)
-	local var_126_0 = GetComponent(arg_126_1, "ComponentBinding")
+	local var_126_0 = tf(arg_126_1):GetComponent(typeof(ComponentBinding))
 
 	if var_126_0 == nil then
 		return

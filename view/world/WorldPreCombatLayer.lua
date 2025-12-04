@@ -413,16 +413,16 @@ function var_0_0.loadAllCharacter(arg_33_0, arg_33_1)
 			return
 		end
 
-		local var_34_0 = arg_34_0:GetRoleModel()
+		local var_34_0 = arg_34_0:GetRootModel()
 		local var_34_1 = WorldConst.FetchWorldShip(arg_34_1.id)
 
 		arg_33_0.characterList[arg_34_2][arg_34_3] = arg_34_0
 
 		arg_34_0:SetParent(arg_33_0.heroContainer, false)
-		arg_34_0:SetLocalScale(Vector3(0.65, 0.65, 1))
+		arg_34_0:SetModelScale(Vector3(0.65, 0.65, 1))
 		pg.ViewUtils.SetLayer(tf(var_34_0), Layer.UI)
-		arg_33_0:enabledCharacter(var_34_0, true, arg_34_2)
-		arg_33_0:setCharacterPos(arg_34_2, arg_34_3, var_34_0)
+		arg_33_0:enabledCharacter(arg_34_0, true, arg_34_2)
+		arg_33_0:setCharacterPos(arg_34_2, arg_34_3, arg_34_0)
 		arg_33_0:sortSiblingIndex()
 
 		local var_34_2 = cloneTplTo(arg_33_0.heroInfo, var_34_0)
@@ -553,34 +553,36 @@ end
 
 function var_0_0.setAllCharacterPos(arg_41_0, arg_41_1)
 	for iter_41_0, iter_41_1 in ipairs(arg_41_0.characterList[TeamType.Vanguard]) do
-		arg_41_0:setCharacterPos(TeamType.Vanguard, iter_41_0, tf(iter_41_1:GetRootModel()), arg_41_1)
+		arg_41_0:setCharacterPos(TeamType.Vanguard, iter_41_0, iter_41_1, arg_41_1)
 	end
 
 	for iter_41_2, iter_41_3 in ipairs(arg_41_0.characterList[TeamType.Main]) do
-		arg_41_0:setCharacterPos(TeamType.Main, iter_41_2, tf(iter_41_3:GetRootModel()), arg_41_1)
+		arg_41_0:setCharacterPos(TeamType.Main, iter_41_2, iter_41_3, arg_41_1)
 	end
 
 	arg_41_0:sortSiblingIndex()
 end
 
 function var_0_0.setCharacterPos(arg_42_0, arg_42_1, arg_42_2, arg_42_3, arg_42_4)
-	SetActive(arg_42_3, true)
+	local var_42_0 = arg_42_3:GetRootModel()
 
-	local var_42_0 = arg_42_0.gridTFs[arg_42_1][arg_42_2]
-	local var_42_1 = var_42_0.localPosition
+	SetActive(var_42_0, true)
 
-	LeanTween.cancel(go(arg_42_3))
+	local var_42_1 = arg_42_0.gridTFs[arg_42_1][arg_42_2]
+	local var_42_2 = var_42_1.localPosition
+
+	LeanTween.cancel(go(var_42_0))
 
 	if arg_42_4 then
-		tf(arg_42_3).localPosition = Vector3(var_42_1.x + 2, var_42_1.y - 80, var_42_1.z)
+		tf(var_42_0).localPosition = Vector3(var_42_2.x + 2, var_42_2.y - 80, var_42_2.z)
 
-		LeanTween.moveLocalY(go(arg_42_3), var_42_1.y - 110, 0.5):setDelay(0.5)
+		LeanTween.moveLocalY(go(var_42_0), var_42_2.y - 110, 0.5):setDelay(0.5)
 	else
-		tf(arg_42_3).localPosition = Vector3(var_42_1.x + 2, var_42_1.y - 110, var_42_1.z)
+		tf(var_42_0).localPosition = Vector3(var_42_2.x + 2, var_42_2.y - 110, var_42_2.z)
 	end
 
-	SetActive(var_42_0:Find("shadow"), true)
-	arg_42_3:GetComponent("SpineAnimUI"):SetAction("stand", 0)
+	SetActive(var_42_1:Find("shadow"), true)
+	arg_42_3:SetAction("stand", 0)
 end
 
 function var_0_0.resetGrid(arg_43_0, arg_43_1)
@@ -659,7 +661,7 @@ function var_0_0.switchToShiftMode(arg_46_0, arg_46_1, arg_46_2)
 			tf(var_46_3):Find("mouseChild"):GetComponent(typeof(Image)).enabled = false
 		end
 
-		var_46_3:GetComponent("SpineAnimUI"):SetAction("normal", 0)
+		iter_46_2:SetAction("normal", 0)
 	end
 end
 
@@ -717,66 +719,67 @@ function var_0_0.enabledTeamCharacter(arg_50_0, arg_50_1, arg_50_2)
 	local var_50_0 = arg_50_0.characterList[arg_50_1]
 
 	for iter_50_0, iter_50_1 in ipairs(var_50_0) do
-		arg_50_0:enabledCharacter(iter_50_1:GetRootModel(), arg_50_2, arg_50_1)
+		arg_50_0:enabledCharacter(iter_50_1, arg_50_2, arg_50_1)
 	end
 end
 
 function var_0_0.enabledCharacter(arg_51_0, arg_51_1, arg_51_2, arg_51_3)
 	if arg_51_2 then
-		local var_51_0, var_51_1, var_51_2 = tf(arg_51_1):Find("mouseChild")
+		local var_51_0 = arg_51_1:GetRootModel()
+		local var_51_1, var_51_2, var_51_3 = tf(var_51_0):Find("mouseChild")
 
-		if var_51_0 then
-			SetActive(var_51_0, true)
+		if var_51_1 then
+			SetActive(var_51_1, true)
 		else
-			local var_51_3 = GameObject("mouseChild")
+			local var_51_4 = GameObject("mouseChild")
 
-			tf(var_51_3):SetParent(tf(arg_51_1))
+			tf(var_51_4):SetParent(tf(var_51_0))
 
-			tf(var_51_3).localPosition = Vector3.zero
+			tf(var_51_4).localPosition = Vector3.zero
 
-			local var_51_4 = GetOrAddComponent(var_51_3, "ModelDrag")
-			local var_51_5 = GetOrAddComponent(var_51_3, "EventTriggerListener")
+			local var_51_5 = GetOrAddComponent(var_51_4, "ModelDrag")
+			local var_51_6 = GetOrAddComponent(var_51_4, "EventTriggerListener")
 
-			arg_51_0.eventTriggers[var_51_5] = true
+			arg_51_0.eventTriggers[var_51_6] = true
 
-			var_51_4:Init()
+			var_51_5:Init()
 
-			local var_51_6 = var_51_3:GetComponent(typeof(RectTransform))
+			local var_51_7 = var_51_4:GetComponent(typeof(RectTransform))
 
-			var_51_6.sizeDelta = Vector2(2.5, 2.5)
-			var_51_6.pivot = Vector2(0.5, 0)
-			var_51_6.anchoredPosition = Vector2(0, 0)
+			var_51_7.sizeDelta = Vector2(2.5, 2.5)
+			var_51_7.pivot = Vector2(0.5, 0)
+			var_51_7.anchoredPosition = Vector2(0, 0)
 
-			local var_51_7
 			local var_51_8
 			local var_51_9
 			local var_51_10
+			local var_51_11
 
-			var_51_5:AddBeginDragFunc(function()
-				var_51_7 = UnityEngine.Screen.width
-				var_51_8 = UnityEngine.Screen.height
-				var_51_9 = rtf(arg_51_0._tf).rect.width / var_51_7
-				var_51_10 = rtf(arg_51_0._tf).rect.height / var_51_8
+			var_51_6:AddBeginDragFunc(function()
+				var_51_8 = UnityEngine.Screen.width
+				var_51_9 = UnityEngine.Screen.height
+				var_51_10 = rtf(arg_51_0._tf).rect.width / var_51_8
+				var_51_11 = rtf(arg_51_0._tf).rect.height / var_51_9
 
-				LeanTween.cancel(go(arg_51_1))
-				arg_51_0:switchToShiftMode(arg_51_1, arg_51_3)
-				arg_51_1:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
-				tf(arg_51_1):SetParent(arg_51_0.moveLayer, false)
+				LeanTween.cancel(go(var_51_0))
+				arg_51_0:switchToShiftMode(var_51_0, arg_51_3)
+				arg_51_1:SetAction("tuozhuai", 0)
+				arg_51_1:SetParent(arg_51_0.moveLayer, false)
 				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
 			end)
-			var_51_5:AddDragFunc(function(arg_53_0, arg_53_1)
-				rtf(arg_51_1).anchoredPosition = Vector2((arg_53_1.position.x - var_51_7 / 2) * var_51_9 + 20, (arg_53_1.position.y - var_51_8 / 2) * var_51_10 - 20)
+			var_51_6:AddDragFunc(function(arg_53_0, arg_53_1)
+				rtf(var_51_0).anchoredPosition = Vector2((arg_53_1.position.x - var_51_8 / 2) * var_51_10 + 20, (arg_53_1.position.y - var_51_9 / 2) * var_51_11 - 20)
 			end)
-			var_51_5:AddDragEndFunc(function(arg_54_0, arg_54_1)
-				arg_51_1:GetComponent("SpineAnimUI"):SetAction("tuozhuai", 0)
-				tf(arg_51_1):SetParent(arg_51_0.heroContainer, false)
+			var_51_6:AddDragEndFunc(function(arg_54_0, arg_54_1)
+				arg_51_1:SetAction("tuozhuai", 0)
+				tf(var_51_0):SetParent(arg_51_0.heroContainer, false)
 				arg_51_0:switchToEditMode()
 				arg_51_0:sortSiblingIndex()
 				pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_PUT)
 			end)
 		end
 	else
-		SetActive(tf(arg_51_1):Find("mouseChild"), false)
+		SetActive(tf(model):Find("mouseChild"), false)
 	end
 end
 

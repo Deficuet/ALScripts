@@ -102,7 +102,7 @@ function var_0_0.AddTimer(arg_11_0, arg_11_1, arg_11_2)
 end
 
 function var_0_0.RemoveTimers(arg_13_0)
-	for iter_13_0, iter_13_1 in pairs(arg_13_0.timers) do
+	for iter_13_0, iter_13_1 in pairs(arg_13_0.timers or {}) do
 		iter_13_1:Stop()
 	end
 

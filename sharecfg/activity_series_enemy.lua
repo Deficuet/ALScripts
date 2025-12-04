@@ -1156,8 +1156,8 @@ pg.activity_series_enemy = {
 		profiles = "【AREA-2】战役已经开始，与鸢尾舰队和东煌舰队一同清理这片区域。 ",
 		limitation = {},
 		expedition_id = {
-			1981001,
-			1981002,
+			1981007,
+			1981011,
 			1981003
 		},
 		boss_icon = {
@@ -1240,8 +1240,8 @@ pg.activity_series_enemy = {
 		profiles = "【AREA-2】战役已经开始，与鸢尾舰队和东煌舰队一同清理这片区域。 ",
 		limitation = {},
 		expedition_id = {
-			1982001,
-			1982002,
+			1982007,
+			1982011,
 			1982003
 		},
 		boss_icon = {
@@ -1324,8 +1324,8 @@ pg.activity_series_enemy = {
 		profiles = "【AREA-3】战役已经开始，与铁血舰队和撒丁舰队一同清理这片区域。 ",
 		limitation = {},
 		expedition_id = {
-			1981001,
-			1981002,
+			1981008,
+			1981012,
 			1981004
 		},
 		boss_icon = {
@@ -1408,8 +1408,8 @@ pg.activity_series_enemy = {
 		profiles = "【AREA-3】战役已经开始，与铁血舰队和撒丁舰队一同清理这片区域。 ",
 		limitation = {},
 		expedition_id = {
-			1982001,
-			1982002,
+			1982008,
+			1982012,
 			1982004
 		},
 		boss_icon = {
@@ -1492,8 +1492,8 @@ pg.activity_series_enemy = {
 		profiles = "【AREA-4】战役已经开始，与皇家舰队和北联舰队一同清理这片区域。",
 		limitation = {},
 		expedition_id = {
-			1981001,
-			1981002,
+			1981009,
+			1981013,
 			1981005
 		},
 		boss_icon = {
@@ -1576,8 +1576,8 @@ pg.activity_series_enemy = {
 		profiles = "【AREA-4】战役已经开始，与皇家舰队和北联舰队一同清理这片区域。",
 		limitation = {},
 		expedition_id = {
-			1982001,
-			1982002,
+			1982009,
+			1982013,
 			1982005
 		},
 		boss_icon = {
@@ -1660,8 +1660,8 @@ pg.activity_series_enemy = {
 		profiles = "【AREA-5】战役已经开始，与重樱舰队和郁金舰队一同清理这片区域。",
 		limitation = {},
 		expedition_id = {
-			1981001,
-			1981002,
+			1981010,
+			1981014,
 			1981006
 		},
 		boss_icon = {
@@ -1744,8 +1744,8 @@ pg.activity_series_enemy = {
 		profiles = "【AREA-5】战役已经开始，与重樱舰队和郁金舰队一同清理这片区域。",
 		limitation = {},
 		expedition_id = {
-			1982001,
-			1982002,
+			1982010,
+			1982014,
 			1982006
 		},
 		boss_icon = {

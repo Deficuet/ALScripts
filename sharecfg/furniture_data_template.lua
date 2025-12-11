@@ -214,6 +214,7 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
+			322,
 			100001,
 			100002,
 			100003,
@@ -3963,6 +3964,7 @@ pg.furniture_data_template = setmetatable({
 			310,
 			313,
 			317,
+			322,
 			100001,
 			100002,
 			100003,
@@ -7604,6 +7606,7 @@ pg.furniture_data_template = setmetatable({
 			318,
 			319,
 			321,
+			322,
 			100001,
 			100002,
 			100004,
@@ -11246,6 +11249,7 @@ pg.furniture_data_template = setmetatable({
 		318,
 		319,
 		321,
+		322,
 		100001,
 		100002,
 		100003,
@@ -25411,6 +25415,75 @@ pg.base.furniture_data_template = {
 				"dalxunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[322] = {
+		gain_by = "",
+		name = "MuMu街机",
+		count = 1,
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		comfortable = 2,
+		is_3d_obj = 0,
+		spine_combine_action_replace = "",
+		themeId = 0,
+		icon = "mumujiejiicon",
+		deblocking = 1,
+		level = 1,
+		describe = "与MuMu一起，来一场酣畅淋漓的街机对战吧！",
+		effect = "",
+		can_rotate = 1,
+		tag = 6,
+		spine_action_replace = "",
+		picture = "",
+		spine_extra = "",
+		canputon = 0,
+		id = 322,
+		advice = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mumujieji",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

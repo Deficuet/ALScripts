@@ -321,7 +321,7 @@ function var_0_0.AddListener(arg_10_0)
 					for iter_24_0, iter_24_1 in ipairs(pg.memory_template.all) do
 						local var_24_2 = pg.memory_template[iter_24_1]
 
-						if var_24_2.story == var_20_12 then
+						if table.contains(var_24_2.unlock_pre, var_20_12) then
 							var_24_1 = var_24_2.title
 						end
 					end

@@ -19,7 +19,6 @@ function var_0_0.OnInit(arg_2_0)
 	arg_2_0:InitDetail()
 	arg_2_0:InitEvent()
 	setParent(arg_2_0.randomFlagToggle, arg_2_0._tf.parent)
-	setActive(arg_2_0.randomFlagToggle, true)
 	triggerToggle(arg_2_0.showQuickBtn, false)
 	triggerToggle(arg_2_0.showRecordBtn, false)
 end
@@ -476,7 +475,11 @@ function var_0_0.UpdateUI(arg_40_0)
 	arg_40_0:UpdateEquipments(var_40_0)
 	arg_40_0:UpdateLock()
 	arg_40_0:UpdatePreferenceTag()
-	triggerToggle(arg_40_0.randomFlagToggle, arg_40_0:GetShipVO():getRandomFlag())
+
+	arg_40_0.activeRandomFlag = not var_40_0:isActivityNpc()
+
+	setActive(arg_40_0.randomFlagToggle, arg_40_0.activeRandomFlag)
+	triggerToggle(arg_40_0.randomFlagToggle, var_40_0:getRandomFlag())
 end
 
 function var_0_0.UpdateIntimacy(arg_41_0, arg_41_1)
@@ -776,7 +779,7 @@ end
 
 function var_0_0.Show(arg_64_0)
 	var_0_0.super.Show(arg_64_0)
-	setActive(arg_64_0.randomFlagToggle, true)
+	setActive(arg_64_0.randomFlagToggle, arg_64_0.activeRandomFlag)
 end
 
 function var_0_0.Hide(arg_65_0)

@@ -325,7 +325,7 @@ function var_0_0.onUpdateMemoryGroup(arg_28_0, arg_28_1, arg_28_2)
 	local var_28_4 = _.reduce(var_28_0.memories, 0, function(arg_29_0, arg_29_1)
 		local var_29_0 = pg.memory_template[arg_29_1]
 
-		if var_29_0.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(var_29_0.story, true) then
+		if var_29_0.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(var_29_0.unlock_pre, true) then
 			arg_29_0 = arg_29_0 + 1
 		end
 

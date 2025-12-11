@@ -12,171 +12,180 @@ function var_0_0.UpdateActivity(arg_2_0, arg_2_1)
 	end
 end
 
-function var_0_0.OnLoaded(arg_3_0)
-	arg_3_0:UpdateActivity()
+function var_0_0.initTplVar(arg_3_0)
+	arg_3_0.btnAllTip = "blackfriday_cruise_btn_all"
+end
 
-	local var_3_0 = arg_3_0._tf:Find("frame")
+function var_0_0.OnLoaded(arg_4_0)
+	arg_4_0:initTplVar()
+	arg_4_0:UpdateActivity()
 
-	arg_3_0.nextAwardTF = var_3_0:Find("next")
-	arg_3_0.btnAll = var_3_0:Find("btns/btn_all")
+	local var_4_0 = arg_4_0._tf:Find("frame")
 
-	setText(arg_3_0.btnAll:Find("Text"), i18n("blackfriday_cruise_btn_all"))
+	arg_4_0.nextAwardTF = var_4_0:Find("next")
+	arg_4_0.btnAll = var_4_0:Find("btns/btn_all")
 
-	arg_3_0.scrollCom = GetComponent(var_3_0:Find("view/content"), "LScrollRect")
+	setText(arg_4_0.btnAll:Find("Text"), i18n(arg_4_0.btnAllTip))
 
-	function arg_3_0.scrollCom.onUpdateItem(arg_4_0, arg_4_1)
-		arg_3_0:UpdateAwardInfo(arg_4_0, tf(arg_4_1), arg_3_0.awardList[arg_4_0 + 1])
+	arg_4_0.scrollCom = GetComponent(var_4_0:Find("view/content"), "LScrollRect")
+
+	function arg_4_0.scrollCom.onUpdateItem(arg_5_0, arg_5_1)
+		arg_4_0:UpdateAwardInfo(arg_5_0, tf(arg_5_1), arg_4_0.awardList[arg_5_0 + 1])
 	end
 end
 
-function var_0_0.OnInit(arg_5_0)
-	onButton(arg_5_0, arg_5_0.btnAll, function()
-		arg_5_0:GetAllAward()
+function var_0_0.OnInit(arg_6_0)
+	onButton(arg_6_0, arg_6_0.btnAll, function()
+		arg_6_0:GetAllAward()
 	end, SFX_CONFIRM)
 
-	local var_5_0 = arg_5_0.scrollCom.onValueChanged
+	local var_6_0 = arg_6_0.scrollCom.onValueChanged
 
-	var_5_0:RemoveAllListeners()
-	pg.DelegateInfo.Add(arg_5_0, var_5_0)
-	var_5_0:AddListener(function(arg_7_0)
-		arg_5_0:UpdateNextAward(arg_7_0.x)
+	var_6_0:RemoveAllListeners()
+	pg.DelegateInfo.Add(arg_6_0, var_6_0)
+	var_6_0:AddListener(function(arg_8_0)
+		arg_6_0:UpdateNextAward(arg_8_0.x)
 	end)
 end
 
-function var_0_0.Flush(arg_8_0, arg_8_1)
-	arg_8_0:Show()
+function var_0_0.Flush(arg_9_0, arg_9_1)
+	arg_9_0:Show()
 
-	if arg_8_1 then
-		arg_8_0:UpdateActivity(arg_8_1)
+	if arg_9_1 then
+		arg_9_0:UpdateActivity(arg_9_1)
 	end
 
-	arg_8_0.scrollCom:SetTotalCount(#arg_8_0.awardList)
-	arg_8_0:BuildPhaseAwardScrollPos()
+	arg_9_0.scrollCom:SetTotalCount(#arg_9_0.awardList)
+	arg_9_0:BuildPhaseAwardScrollPos()
 
-	arg_8_0.nextAwardIndex = nil
+	arg_9_0.nextAwardIndex = nil
 
-	local var_8_0 = #arg_8_0.activity:GetHei5UnreceiveAward() > 0
+	local var_9_0 = #arg_9_0.activity:GetHei5UnreceiveAward() > 0
 
-	setActive(arg_8_0.btnAll, var_8_0)
-	arg_8_0:UpdateNextAward(arg_8_0.scrollCom.value)
+	setGray(arg_9_0.btnAll, not var_9_0)
+	setTextColor(arg_9_0.btnAll:Find("Text"), var_9_0 and Color.NewHex("#ffffff") or Color.NewHex("#7df39f"))
+	setButtonEnabled(arg_9_0.btnAll, var_9_0)
+	arg_9_0:UpdateNextAward(arg_9_0.scrollCom.value)
 end
 
-function var_0_0.BuildPhaseAwardScrollPos(arg_9_0)
-	if arg_9_0.phasePos then
+function var_0_0.BuildPhaseAwardScrollPos(arg_10_0)
+	if arg_10_0.phasePos then
 		return
 	end
 
-	arg_9_0.phasePos = {}
-	arg_9_0.nextPhasePos = {}
+	arg_10_0.phasePos = {}
+	arg_10_0.nextPhasePos = {}
 
-	local var_9_0 = arg_9_0.scrollCom:HeadIndexToValue(#arg_9_0.awardList) - arg_9_0.scrollCom:HeadIndexToValue(0)
-	local var_9_1 = arg_9_0.scrollCom:HeadIndexToValue(#arg_9_0.awardList - 6) - arg_9_0.scrollCom:HeadIndexToValue(0)
+	local var_10_0 = arg_10_0.scrollCom:HeadIndexToValue(#arg_10_0.awardList) - arg_10_0.scrollCom:HeadIndexToValue(0)
+	local var_10_1 = arg_10_0.scrollCom:HeadIndexToValue(#arg_10_0.awardList - 6) - arg_10_0.scrollCom:HeadIndexToValue(0)
 
-	for iter_9_0 = 1, #arg_9_0.awardList - 1 do
-		table.insert(arg_9_0.phasePos, arg_9_0.scrollCom:HeadIndexToValue(iter_9_0 - 1) / var_9_0)
-		table.insert(arg_9_0.nextPhasePos, arg_9_0.scrollCom:HeadIndexToValue(iter_9_0 - 1) / var_9_1)
+	for iter_10_0 = 1, #arg_10_0.awardList - 1 do
+		table.insert(arg_10_0.phasePos, arg_10_0.scrollCom:HeadIndexToValue(iter_10_0 - 1) / var_10_0)
+		table.insert(arg_10_0.nextPhasePos, arg_10_0.scrollCom:HeadIndexToValue(iter_10_0 - 1) / var_10_1)
 	end
 end
 
-function var_0_0.IsSpecialMask(arg_10_0, arg_10_1)
-	return arg_10_1 == DROP_TYPE_COMBAT_UI_STYLE or arg_10_1 == DROP_TYPE_SKIN or arg_10_1 == DROP_TYPE_EQUIPMENT_SKIN
+function var_0_0.IsSpecialMask(arg_11_0, arg_11_1)
+	return arg_11_1 == DROP_TYPE_COMBAT_UI_STYLE or arg_11_1 == DROP_TYPE_SKIN or arg_11_1 == DROP_TYPE_EQUIPMENT_SKIN
 end
 
-function var_0_0.UpdateAwardInfo(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
-	if arg_11_3.id < 10 then
-		setText(arg_11_2:Find("Text"), "0" .. arg_11_3.id)
+function var_0_0.UpdateAwardInfo(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
+	if arg_12_3.id < 10 then
+		setText(arg_12_2:Find("Text"), "0" .. arg_12_3.id)
 	else
-		setText(arg_11_2:Find("Text"), arg_11_3.id)
+		setText(arg_12_2:Find("Text"), arg_12_3.id)
 	end
 
-	local var_11_0 = arg_11_3.pt <= arg_11_0.pt
-	local var_11_1 = Drop.Create(arg_11_3.award)
+	local var_12_0 = arg_12_3.pt <= arg_12_0.pt
+	local var_12_1 = Drop.Create(arg_12_3.award)
 
-	onButton(arg_11_0, arg_11_2:Find("base"), function()
-		arg_11_0:emit(BaseUI.ON_NEW_STYLE_DROP, {
-			drop = var_11_1
+	var_12_1.desc = cancelColorRich(var_12_1.desc)
+
+	onButton(arg_12_0, arg_12_2:Find("base"), function()
+		arg_12_0:emit(BaseUI.ON_NEW_STYLE_DROP, {
+			drop = var_12_1
 		})
 	end, SFX_CONFIRM)
-	setActive(arg_11_2:Find("base/lock"), not var_11_0)
-	updateDrop(arg_11_2:Find("base/mask/IconTpl"), var_11_1)
-	setActive(arg_11_2:Find("base/get"), var_11_0 and not arg_11_0.awardDic[arg_11_3.pt])
-	setActive(arg_11_2:Find("base/got"), arg_11_0.awardDic[arg_11_3.pt])
+	setActive(arg_12_2:Find("base/lock"), not var_12_0)
+	updateDrop(arg_12_2:Find("base/mask/IconTpl"), var_12_1)
+	setActive(arg_12_2:Find("base/get"), var_12_0 and not arg_12_0.awardDic[arg_12_3.pt])
+	setActive(arg_12_2:Find("base/got"), arg_12_0.awardDic[arg_12_3.pt])
 
-	local var_11_2 = Drop.Create(arg_11_3.award_pay)
+	local var_12_2 = Drop.Create(arg_12_3.award_pay)
 
-	onButton(arg_11_0, arg_11_2:Find("pay"), function()
-		arg_11_0:emit(BaseUI.ON_NEW_STYLE_DROP, {
-			drop = var_11_2
+	onButton(arg_12_0, arg_12_2:Find("pay"), function()
+		arg_12_0:emit(BaseUI.ON_NEW_STYLE_DROP, {
+			drop = var_12_2
 		})
 	end, SFX_CONFIRM)
-	updateDrop(arg_11_2:Find("pay/mask/IconTpl"), var_11_2)
-	setActive(arg_11_2:Find("pay/no_pay"), not arg_11_0.isPay and not arg_11_0:IsSpecialMask(var_11_2.type))
-	setActive(arg_11_2:Find("pay/get"), arg_11_0.isPay and var_11_0 and not arg_11_0.awardPayDic[arg_11_3.pt])
-	setActive(arg_11_2:Find("pay/got"), arg_11_0.awardPayDic[arg_11_3.pt])
+	updateDrop(arg_12_2:Find("pay/mask/IconTpl"), var_12_2)
+	setActive(arg_12_2:Find("pay/no_pay"), not arg_12_0.isPay and not arg_12_0:IsSpecialMask(var_12_2.type))
+	setActive(arg_12_2:Find("pay/get"), arg_12_0.isPay and var_12_0 and not arg_12_0.awardPayDic[arg_12_3.pt])
+	setActive(arg_12_2:Find("pay/got"), arg_12_0.awardPayDic[arg_12_3.pt])
 end
 
-function var_0_0.UpdateNextAward(arg_14_0, arg_14_1)
-	if not arg_14_0.nextPhasePos then
+function var_0_0.UpdateNextAward(arg_15_0, arg_15_1)
+	if not arg_15_0.nextPhasePos then
 		return
 	end
 
-	local var_14_0 = arg_14_0.nextPhasePos[#arg_14_0.nextPhasePos] - 1
-	local var_14_1 = #arg_14_0.awardList
+	local var_15_0 = arg_15_0.nextPhasePos[#arg_15_0.nextPhasePos] - 1
+	local var_15_1 = #arg_15_0.awardList
 
-	for iter_14_0 = var_14_1 - 1, 1, -1 do
-		local var_14_2 = arg_14_0.awardList[iter_14_0]
+	for iter_15_0 = var_15_1 - 1, 1, -1 do
+		local var_15_2 = arg_15_0.awardList[iter_15_0]
 
-		if arg_14_0.nextPhasePos[iter_14_0] < arg_14_1 + var_14_0 or var_14_2.pt <= arg_14_0.pt then
+		if arg_15_0.nextPhasePos[iter_15_0] < arg_15_1 + var_15_0 or var_15_2.pt <= arg_15_0.pt then
 			break
-		elseif var_14_2.isImportent then
-			var_14_1 = iter_14_0
+		elseif var_15_2.isImportent then
+			var_15_1 = iter_15_0
 		end
 	end
 
-	arg_14_0:UpdateAwardInfo(arg_14_0.nextAwardIndex, arg_14_0.nextAwardTF, arg_14_0.awardList[var_14_1])
+	arg_15_0:UpdateAwardInfo(arg_15_0.nextAwardIndex, arg_15_0.nextAwardTF, arg_15_0.awardList[var_15_1])
 end
 
-function var_0_0.GetAllAward(arg_15_0)
-	local var_15_0 = arg_15_0.activity:GetHei5UnreceiveAward()
+function var_0_0.GetAllAward(arg_16_0)
+	local var_16_0 = arg_16_0.activity:GetHei5UnreceiveAward()
 
-	if #var_15_0 > 0 then
-		local var_15_1 = {}
+	if #var_16_0 > 0 then
+		local var_16_1 = {}
 
-		if arg_15_0:CheckLimitMax(var_15_0) then
-			table.insert(var_15_1, function(arg_16_0)
+		if arg_16_0:CheckLimitMax(var_16_0) then
+			table.insert(var_16_1, function(arg_17_0)
 				pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
 					contentText = i18n("player_expResource_mail_fullBag"),
-					onConfirm = arg_16_0
+					onConfirm = arg_17_0
 				})
 			end)
 		end
 
-		seriesAsync(var_15_1, function()
-			arg_15_0:emit(PSSHei5Mediator.EVENT_GET_AWARD_ALL)
+		seriesAsync(var_16_1, function()
+			arg_16_0:emit(PSSHei5Mediator.EVENT_GET_AWARD_ALL)
 		end)
 	end
 end
 
-function var_0_0.CheckLimitMax(arg_18_0, arg_18_1)
-	local var_18_0 = getProxy(PlayerProxy):getData()
+function var_0_0.CheckLimitMax(arg_19_0, arg_19_1)
+	local var_19_0 = getProxy(PlayerProxy):getData()
 
-	for iter_18_0, iter_18_1 in ipairs(arg_18_1) do
-		if iter_18_1.type == DROP_TYPE_RESOURCE then
-			if iter_18_1.id == 1 then
-				if var_18_0:GoldMax(iter_18_1.count) then
+	for iter_19_0, iter_19_1 in ipairs(arg_19_1) do
+		if iter_19_1.type == DROP_TYPE_RESOURCE then
+			if iter_19_1.id == 1 then
+				if var_19_0:GoldMax(iter_19_1.count) then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title"))
 
 					return true
 				end
-			elseif iter_18_1.id == 2 and var_18_0:OilMax(iter_18_1.count) then
+			elseif iter_19_1.id == 2 and var_19_0:OilMax(iter_19_1.count) then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title"))
 
 				return true
 			end
-		elseif iter_18_1.type == DROP_TYPE_ITEM then
-			local var_18_1 = Item.getConfigData(iter_18_1.id)
+		elseif iter_19_1.type == DROP_TYPE_ITEM then
+			local var_19_1 = Item.getConfigData(iter_19_1.id)
 
-			if var_18_1.type == Item.EXP_BOOK_TYPE and getProxy(BagProxy):getItemCountById(iter_18_1.id) + iter_18_1.count > var_18_1.max_num then
+			if var_19_1.type == Item.EXP_BOOK_TYPE and getProxy(BagProxy):getItemCountById(iter_19_1.id) + iter_19_1.count > var_19_1.max_num then
 				return true
 			end
 		end
@@ -185,7 +194,7 @@ function var_0_0.CheckLimitMax(arg_18_0, arg_18_1)
 	return false
 end
 
-function var_0_0.OnDestroy(arg_19_0)
+function var_0_0.OnDestroy(arg_20_0)
 	return
 end
 

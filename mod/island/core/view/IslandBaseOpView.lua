@@ -16,7 +16,7 @@ function var_0_0.DoInit(arg_2_0, arg_2_1, arg_2_2)
 	end
 end
 
-function var_0_0.SetUIParent(arg_3_0, arg_3_1)
+function var_0_0.GetUIParent(arg_3_0, arg_3_1)
 	return arg_3_0:GetView().opContainer
 end
 

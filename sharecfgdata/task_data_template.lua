@@ -163660,6 +163660,135 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21870] = {
+		name = "20251211国服冬日返场 登陆奖励1",
+		guild_coin_award = 0,
+		award = 907733,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21870,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54016,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21871] = {
+		name = "20251211国服冬日返场 登陆奖励2",
+		guild_coin_award = 0,
+		award = 907734,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21871,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54051,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21872] = {
+		name = "20251211国服冬日返场 登陆奖励3",
+		guild_coin_award = 0,
+		award = 907735,
+		type = 6,
+		desc = "不应该被看到",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21872,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				3
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -207992,6 +208121,612 @@ end)()
 			{
 				id = 50261
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24781] = {
+		name = "『20251211』前哨战七日任务1",
+		guild_coin_award = 0,
+		award = 908181,
+		type = 26,
+		desc = "舰队出征，以S评价通关10次",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24781,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24782] = {
+		name = "『20251211』前哨战七日任务2",
+		guild_coin_award = 0,
+		award = 908182,
+		type = 26,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24782,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24783] = {
+		name = "『20251211』前哨战七日任务3",
+		guild_coin_award = 0,
+		award = 908183,
+		type = 26,
+		desc = "进行2次演习",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24783,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24784] = {
+		name = "『20251211』前哨战七日任务4",
+		guild_coin_award = 0,
+		award = 908184,
+		type = 26,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24784,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24785] = {
+		name = "『20251211』前哨战七日任务5",
+		guild_coin_award = 0,
+		award = 908185,
+		type = 26,
+		desc = "舰船退役2次",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24785,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24786] = {
+		name = "『20251211』前哨战七日任务6",
+		guild_coin_award = 0,
+		award = 908186,
+		type = 26,
+		desc = "完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24786,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24787] = {
+		name = "『20251211』前哨战七日任务7",
+		guild_coin_award = 0,
+		award = 908187,
+		type = 26,
+		desc = "舰船强化5次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24787,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24788] = {
+		name = "『20251211』前哨战七日任务8",
+		guild_coin_award = 0,
+		award = 908188,
+		type = 26,
+		desc = "进行战术训练2次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24788,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24789] = {
+		name = "『20251211』前哨战七日任务9",
+		guild_coin_award = 0,
+		award = 908189,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24789,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24790] = {
+		name = "『20251211』前哨战七日任务10",
+		guild_coin_award = 0,
+		award = 908190,
+		type = 26,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24790,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24791] = {
+		name = "『20251211』前哨战七日任务11",
+		guild_coin_award = 0,
+		award = 908191,
+		type = 26,
+		desc = "建造舰船2次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24791,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24792] = {
+		name = "『20251211』前哨战七日任务12",
+		guild_coin_award = 0,
+		award = 908192,
+		type = 26,
+		desc = "打开任意科技箱1个",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24792,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24793] = {
+		name = "『20251211』前哨战七日任务13",
+		guild_coin_award = 0,
+		award = 908193,
+		type = 26,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24793,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24794] = {
+		name = "『20251211』前哨战七日任务14",
+		guild_coin_award = 0,
+		award = 908194,
+		type = 26,
+		desc = "击败旗舰3次 ",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24794,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				3,
+				150940,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
 		}
 	}
 end)()
@@ -256654,6 +257389,2992 @@ end)()
 				59599,
 				240
 			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43860] = {
+		name = "冬日通行证第一日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "进行战术训练4次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43860,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43861] = {
+		name = "冬日通行证第一日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "舰队出征，获得3次胜利",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43861,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43862] = {
+		name = "冬日通行证第一日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "完成4次军事委托",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43862,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43863] = {
+		name = "冬日通行证第一日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "建造舰船3次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43863,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43864] = {
+		name = "冬日通行证第二日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "强化装备2次",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43864,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43865] = {
+		name = "冬日通行证第二日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "通关3次「困难副本」",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43865,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43866] = {
+		name = "冬日通行证第二日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "分解10件装备",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43866,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43867] = {
+		name = "冬日通行证第二日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "训练指挥喵1只",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43867,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43868] = {
+		name = "冬日通行证第三日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "完成6次「每日挑战」关卡",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43868,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43869] = {
+		name = "冬日通行证第三日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43869,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43870] = {
+		name = "冬日通行证第三日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "退役2艘舰船",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43870,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43871] = {
+		name = "冬日通行证第三日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "进行4次科研",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43871,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43872] = {
+		name = "冬日通行证第四日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "进行战术训练4次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43872,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43873] = {
+		name = "冬日通行证第四日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "舰队出征，获得3次胜利",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43873,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43874] = {
+		name = "冬日通行证第四日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "完成4次军事委托",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43874,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43875] = {
+		name = "冬日通行证第四日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "建造舰船3次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43875,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43876] = {
+		name = "冬日通行证第五日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "强化装备2次",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43876,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43877] = {
+		name = "冬日通行证第五日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "通关3次「困难副本」",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43877,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43878] = {
+		name = "冬日通行证第五日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "分解10件装备",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43878,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43879] = {
+		name = "冬日通行证第五日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "训练指挥喵1只",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43879,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43880] = {
+		name = "冬日通行证第六日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "完成6次「每日挑战」关卡",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43880,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43881] = {
+		name = "冬日通行证第六日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43881,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43882] = {
+		name = "冬日通行证第六日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "退役2艘舰船",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43882,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43883] = {
+		name = "冬日通行证第六日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "进行4次科研",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43883,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43884] = {
+		name = "冬日通行证第七日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "进行战术训练4次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43884,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43885] = {
+		name = "冬日通行证第七日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "舰队出征，获得3次胜利",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43885,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43886] = {
+		name = "冬日通行证第七日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "完成4次军事委托",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43886,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43887] = {
+		name = "冬日通行证第七日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "建造舰船3次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43887,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43888] = {
+		name = "冬日通行证第八日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "强化装备2次",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43888,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43889] = {
+		name = "冬日通行证第八日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "通关3次「困难副本」",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43889,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43890] = {
+		name = "冬日通行证第八日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "分解10件装备",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43890,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43891] = {
+		name = "冬日通行证第八日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "训练指挥喵1只",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43891,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43892] = {
+		name = "冬日通行证第九日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "完成6次「每日挑战」关卡",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43892,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43893] = {
+		name = "冬日通行证第九日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43893,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43894] = {
+		name = "冬日通行证第九日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "退役2艘舰船",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43894,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43895] = {
+		name = "冬日通行证第九日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "进行4次科研",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43895,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43896] = {
+		name = "冬日通行证第十日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "进行战术训练4次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43896,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43897] = {
+		name = "冬日通行证第十日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "舰队出征，获得3次胜利",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43897,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43898] = {
+		name = "冬日通行证第十日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "完成4次军事委托",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43898,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43899] = {
+		name = "冬日通行证第十日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "建造舰船3次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43899,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43900] = {
+		name = "冬日通行证第十一日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "强化装备2次",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43900,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43901] = {
+		name = "冬日通行证第十一日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "通关3次「困难副本」",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43901,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43902] = {
+		name = "冬日通行证第十一日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "分解10件装备",
+		count_inherit = 0,
+		sub_type = 41,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43902,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43903] = {
+		name = "冬日通行证第十一日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "训练指挥喵1只",
+		count_inherit = 0,
+		sub_type = 170,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43903,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43904] = {
+		name = "冬日通行证第十二日任务1（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "完成6次「每日挑战」关卡",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43904,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43905] = {
+		name = "冬日通行证第十二日任务2（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43905,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43906] = {
+		name = "冬日通行证第十二日任务3（仅国服）",
+		guild_coin_award = 0,
+		award = 104541,
+		type = 6,
+		desc = "退役2艘舰船",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43906,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				30
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43907] = {
+		name = "冬日通行证第十二日任务4（仅国服）",
+		guild_coin_award = 0,
+		award = 104542,
+		type = 6,
+		desc = "进行4次科研",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43907,
+		target_num = 4,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				60
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43908] = {
+		name = "冬日通行证·【SP任务1】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "累计消耗石油5000",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43908,
+		target_num = 5000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43909] = {
+		name = "冬日通行证·【SP任务2】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "累计消耗石油10000",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43909,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43910] = {
+		name = "冬日通行证·【SP任务3】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "在任意关卡中累计获得50万经验",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43910,
+		target_num = 500000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43911] = {
+		name = "冬日通行证·【SP任务4】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "在任意关卡中累计获得100万经验",
+		count_inherit = 0,
+		sub_type = 1041,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43911,
+		target_num = 1000000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43912] = {
+		name = "冬日通行证·【SP任务5】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "建造舰船20次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43912,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43913] = {
+		name = "冬日通行证·【SP任务6】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "建造舰船40次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43913,
+		target_num = 40,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43914] = {
+		name = "冬日通行证·【SP任务7】（仅国服）",
+		guild_coin_award = 0,
+		award = 104544,
+		type = 6,
+		desc = "建造舰船80次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 43914,
+		target_num = 80,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43915] = {
+		name = "冬日通行证·【SP任务8】（仅国服）",
+		guild_coin_award = 0,
+		award = 104543,
+		type = 6,
+		desc = "累计登录1天",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43915,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				50
+			}
+		},
+		scene = {
+			"MAINUI"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43916] = {
+		name = "冬日通行证·【SP任务9】（仅国服）",
+		guild_coin_award = 0,
+		award = 104544,
+		type = 6,
+		desc = "累计登录7天",
+		count_inherit = 0,
+		sub_type = 106,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43916,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				100
+			}
+		},
+		scene = {
+			"MAINUI"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[43917] = {
+		name = "冬日通行证·【SP任务10】（仅国服）",
+		guild_coin_award = 0,
+		award = 104545,
+		type = 6,
+		desc = "通过换装商店累计购买3个换装",
+		count_inherit = 0,
+		sub_type = 156,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 43917,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			70022,
+			70081,
+			70083,
+			70089,
+			70124,
+			70135,
+			70138,
+			70144,
+			70154,
+			70156,
+			70159,
+			70182,
+			70189,
+			70192,
+			70202,
+			70215,
+			70222,
+			70227,
+			70231,
+			70232,
+			70241,
+			70246,
+			70248,
+			70258,
+			70281,
+			70288,
+			70289,
+			70299,
+			70307,
+			70310,
+			70324,
+			70325,
+			70346,
+			70366,
+			70367,
+			70381,
+			70391,
+			70396,
+			70404,
+			70434,
+			70443,
+			70444,
+			70453,
+			70455,
+			70470,
+			70471,
+			70472,
+			70475,
+			70481,
+			70483,
+			70484,
+			70486,
+			70490,
+			70492,
+			70494,
+			70495,
+			70498,
+			70501,
+			70507,
+			70510,
+			70513,
+			70526,
+			70528,
+			70535,
+			70538,
+			70539,
+			70579,
+			70580,
+			70582,
+			70583,
+			70589,
+			70592,
+			70593,
+			70599,
+			70602,
+			70603,
+			70605,
+			70606,
+			70607,
+			70611,
+			70612,
+			70627,
+			70629,
+			70630,
+			70631,
+			70633,
+			70634,
+			70636,
+			70638,
+			70639,
+			70640,
+			70642,
+			70643,
+			70644,
+			70645,
+			70646,
+			70651,
+			70657,
+			70659,
+			70673,
+			70683,
+			70684,
+			70694,
+			70695,
+			70696,
+			70697,
+			70698,
+			70701,
+			70703,
+			70704,
+			70705,
+			70706,
+			70708,
+			70709,
+			70711,
+			70712,
+			70713,
+			70737,
+			70738,
+			70757,
+			70758,
+			70759,
+			70763,
+			70764,
+			70765,
+			70767,
+			70774,
+			70822,
+			70823,
+			70824,
+			70825,
+			70828,
+			70829,
+			70830,
+			70831,
+			70833,
+			70835,
+			70836,
+			70837,
+			70844,
+			70847,
+			70848,
+			70849,
+			70855,
+			70858,
+			70861,
+			70862,
+			70863,
+			70864,
+			70866,
+			70867,
+			70890,
+			70898,
+			70910,
+			70913,
+			70921,
+			70935,
+			70956,
+			70959,
+			70970,
+			70975,
+			70978,
+			70979,
+			70980,
+			70981,
+			70982,
+			70983,
+			70984,
+			70985,
+			70987,
+			70988,
+			70989,
+			70990,
+			70991,
+			70992,
+			70993,
+			70994,
+			70995,
+			70996,
+			70997,
+			70998,
+			71000,
+			71001,
+			71002,
+			71003,
+			71004,
+			71005,
+			71006,
+			71007,
+			71010,
+			71013,
+			71014,
+			71017,
+			71018,
+			71019,
+			71024,
+			71025,
+			71026,
+			71027,
+			71028,
+			71029,
+			71030,
+			71031,
+			71033,
+			71041,
+			71042,
+			71043,
+			71044,
+			71056,
+			71060,
+			71061,
+			71067,
+			71070,
+			71071,
+			71078,
+			71079,
+			71080,
+			71081,
+			71082,
+			71083,
+			71084,
+			71085,
+			71086,
+			71090,
+			71091,
+			71092,
+			71093,
+			71094,
+			71095,
+			71096,
+			71097,
+			71099,
+			71100,
+			71101,
+			71102,
+			71103,
+			71104,
+			71105,
+			71106,
+			71107,
+			71108,
+			71109,
+			71110,
+			71111,
+			71113,
+			71114,
+			71115,
+			71116,
+			71117,
+			71118,
+			71119,
+			71120,
+			71121,
+			71122,
+			71123,
+			71124,
+			71125,
+			71127,
+			71128,
+			71129,
+			71130,
+			71131,
+			71132,
+			71133,
+			71134,
+			71135,
+			71136,
+			71137,
+			71138,
+			71140,
+			71144,
+			71146,
+			71147,
+			71151,
+			71154,
+			71173,
+			71174,
+			70001,
+			70016,
+			70017,
+			70018,
+			70019,
+			70023,
+			70025,
+			70033,
+			70034,
+			70035,
+			70045,
+			70049,
+			70050,
+			70051,
+			70052,
+			70053,
+			70055,
+			70056,
+			70057,
+			70058,
+			70059,
+			70062,
+			70063,
+			70064,
+			70065,
+			70066,
+			70067,
+			70068,
+			70069,
+			70070,
+			70071,
+			70082,
+			70084,
+			70096,
+			70098,
+			70099,
+			70100,
+			70101,
+			70102,
+			70105,
+			70107,
+			70108,
+			70111,
+			70112,
+			70114,
+			70117,
+			70125,
+			70126,
+			70127,
+			70128,
+			70130,
+			70131,
+			70133,
+			70136,
+			70137,
+			70139,
+			70140,
+			70142,
+			70147,
+			70148,
+			70149,
+			70153,
+			70161,
+			70164,
+			70167,
+			70170,
+			70173,
+			70175,
+			70176,
+			70177,
+			70178,
+			70187,
+			70188,
+			70190,
+			70191,
+			70194,
+			70196,
+			70197,
+			70198,
+			70199,
+			70200,
+			70201,
+			70207,
+			70208,
+			70209,
+			70210,
+			70211,
+			70217,
+			70239,
+			70249,
+			70254,
+			70256,
+			70261,
+			70263,
+			70264,
+			70265,
+			70278,
+			70282,
+			70283,
+			70287,
+			70290,
+			70291,
+			70292,
+			70293,
+			70294,
+			70295,
+			70296,
+			70297,
+			70298,
+			70315,
+			70316,
+			70318,
+			70319,
+			70347,
+			70370,
+			70380,
+			70382,
+			70405,
+			70420,
+			70425,
+			70436,
+			70437,
+			70438,
+			70439,
+			70440,
+			70441,
+			70442,
+			70454,
+			70456,
+			70457,
+			70461,
+			70462,
+			70465,
+			70466,
+			70477,
+			70503,
+			70504,
+			70516,
+			70518,
+			70519,
+			70520,
+			70521,
+			70523,
+			70524,
+			70525,
+			70553,
+			70554,
+			70555,
+			70556,
+			70557,
+			70558,
+			70559,
+			70560,
+			70561,
+			70562,
+			70563,
+			70565,
+			70566,
+			70568,
+			70569,
+			70570,
+			70608,
+			70609,
+			70610,
+			70623,
+			70624,
+			70647,
+			70648,
+			70649,
+			70650,
+			70652,
+			70653,
+			70654,
+			70655,
+			70658,
+			70662,
+			70663,
+			70664,
+			70665,
+			70666,
+			70676,
+			70677,
+			70678,
+			70679,
+			70680,
+			70681,
+			70682,
+			70748,
+			70749,
+			70750,
+			70751,
+			70752,
+			70753,
+			70754,
+			70755,
+			70756
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65112,
+				200
+			}
+		},
+		scene = {
+			"NEW_SHOP"
 		}
 	}
 end)()

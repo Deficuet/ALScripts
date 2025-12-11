@@ -74,7 +74,7 @@ function var_0_6.SetHost(arg_6_0, arg_6_1)
 		end
 	end
 
-	if var_6_0 then
+	if var_6_0 and var_6_0 ~= "" then
 		local var_6_6 = arg_6_0._skill:GetSkillEffectList()
 
 		for iter_6_2, iter_6_3 in ipairs(var_6_6) do

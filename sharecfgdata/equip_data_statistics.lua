@@ -188072,6 +188072,155 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[150940] = {
+		type = 10,
+		name = "导演的剧本书",
+		speciality = "<[NA]>",
+		tech = 0,
+		value_2 = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "某不愿意透露姓名的导演留下的剧本书，内容由十六进制加密编写，无法阅读。",
+		rarity = 4,
+		attribute_1 = "durability",
+		value_3 = 0,
+		torpedo_ammo = 0,
+		id = 150940,
+		icon = "150940",
+		value_1 = "150",
+		attribute_2 = "speed",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {
+			6
+		},
+		weapon_id = {},
+		skill_id = {
+			{
+				60990,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {
+			"DEV"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150941] = {
+		id = 150941,
+		value_1 = "180",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150942] = {
+		id = 150942,
+		value_1 = "210",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150943] = {
+		id = 150943,
+		value_1 = "240",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150944] = {
+		id = 150944,
+		value_2 = 2,
+		value_1 = "270",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150945] = {
+		id = 150945,
+		value_2 = 2,
+		value_1 = "300",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150946] = {
+		id = 150946,
+		value_2 = 2,
+		value_1 = "330",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150947] = {
+		id = 150947,
+		value_2 = 3,
+		value_1 = "360",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150948] = {
+		id = 150948,
+		value_2 = 3,
+		value_1 = "390",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150949] = {
+		id = 150949,
+		value_2 = 3,
+		value_1 = "420",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150950] = {
+		id = 150950,
+		value_2 = 3,
+		value_1 = "450",
+		base = 150940,
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[150951] = {
+		value_2 = 3,
+		anti_siren = 100,
+		base = 150940,
+		id = 150951,
+		value_1 = "475",
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[170001] = {
 		type = 1,
 		name = "专属弹幕-古比雪夫I",

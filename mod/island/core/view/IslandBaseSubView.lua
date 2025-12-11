@@ -10,10 +10,9 @@ end
 
 function var_0_0.LoadUI(arg_3_0, arg_3_1)
 	arg_3_0.loadingId = IslandAssetLoadDispatcher.Instance:Enqueue("UI/" .. arg_3_0:GetUIName(), "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_4_0)
-		local var_4_0 = arg_3_0:SetUIParent()
-		local var_4_1 = cloneTplTo(arg_4_0, var_4_0).gameObject
+		local var_4_0 = arg_3_0:GetUIParent()
 
-		arg_3_1(var_4_1)
+		arg_3_0.insId = FrameAsyncInstantiateManager.Instance:EnqueueInstantiateUI(arg_4_0, var_4_0, Vector3.zero, arg_3_1)
 	end), true, true)
 end
 
@@ -49,6 +48,12 @@ function var_0_0.UnloadUI(arg_7_0)
 
 		arg_7_0.loadingId = nil
 	end
+
+	if arg_7_0.insId then
+		FrameAsyncInstantiateManager.Instance:Cancel(arg_7_0.insId)
+
+		arg_7_0.insId = nil
+	end
 end
 
 function var_0_0.ShowMsgbox(arg_8_0, arg_8_1)
@@ -67,7 +72,7 @@ function var_0_0.GetUIName(arg_11_0)
 	assert(false, "overwrite me")
 end
 
-function var_0_0.SetUIParent(arg_12_0, arg_12_1)
+function var_0_0.GetUIParent(arg_12_0, arg_12_1)
 	assert(false, "overwrite me")
 end
 

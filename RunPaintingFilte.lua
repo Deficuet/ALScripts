@@ -446,7 +446,9 @@ function SpecialFilteForActStory()
 	for iter_35_4, iter_35_5 in ipairs(var_35_2) do
 		local var_35_4 = pg.memory_template[iter_35_5]
 
-		table.insert(var_35_3, var_35_4.story)
+		for iter_35_6, iter_35_7 in ipairs(var_35_4.unlock_pre) do
+			table.insert(var_35_3, iter_35_7)
+		end
 	end
 
 	return pg.NewStoryMgr.GetInstance():GetStoryPaintingsByNameList(var_35_3)

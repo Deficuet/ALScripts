@@ -64163,7 +64163,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Yorktown-Class"
+			"Yorktown-Class",
+			"Yorktown"
 		},
 		gift_dislike = {
 			180004,
@@ -64294,7 +64295,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Yorktown-Class"
+			"Yorktown-Class",
+			"Yorktown"
 		},
 		gift_dislike = {
 			180004,
@@ -64425,7 +64427,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Yorktown-Class"
+			"Yorktown-Class",
+			"Yorktown"
 		},
 		gift_dislike = {
 			180004,
@@ -64556,7 +64559,8 @@ end)()
 			{}
 		},
 		tag_list = {
-			"Yorktown-Class"
+			"Yorktown-Class",
+			"Yorktown"
 		},
 		gift_dislike = {
 			180004,
@@ -456267,6 +456271,538 @@ end)()
 		},
 		tag_list = {
 			"GloriousMETA"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9707081] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "约克城·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707080,
+		english_name = "Yorktown.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707081,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1114,
+			0,
+			0,
+			67,
+			82,
+			48,
+			0,
+			25,
+			9,
+			30,
+			39,
+			0
+		},
+		attrs_growth = {
+			21233,
+			0,
+			0,
+			848,
+			1011,
+			332,
+			0,
+			402,
+			291,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.2,
+			1.1,
+			1.1
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YorktownMETA",
+			"TOC",
+			"Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9707082] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "约克城·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707080,
+		english_name = "Yorktown.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707082,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1386,
+			0,
+			0,
+			83,
+			102,
+			48,
+			0,
+			25,
+			9,
+			30,
+			39,
+			0
+		},
+		attrs_growth = {
+			21233,
+			0,
+			0,
+			848,
+			1011,
+			332,
+			0,
+			402,
+			291,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.23,
+			1.13,
+			1.13
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YorktownMETA",
+			"TOC",
+			"Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9707083] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "约克城·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707080,
+		english_name = "Yorktown.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707083,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			1929,
+			0,
+			0,
+			116,
+			143,
+			48,
+			0,
+			25,
+			9,
+			30,
+			39,
+			0
+		},
+		attrs_growth = {
+			21233,
+			0,
+			0,
+			848,
+			1011,
+			332,
+			0,
+			402,
+			291,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			2,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.28,
+			1.18,
+			1.18
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YorktownMETA",
+			"TOC",
+			"Yorktown"
+		},
+		gift_dislike = {
+			180009,
+			180005
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[9707084] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "约克城·META",
+		type = 7,
+		oxy_cost = 0,
+		skin_id = 9707080,
+		english_name = "Yorktown.META",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.3",
+		rarity = 5,
+		nationality = 97,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 2,
+		huntingrange_level = 0,
+		id = 9707084,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			2744,
+			0,
+			0,
+			165,
+			204,
+			48,
+			0,
+			25,
+			9,
+			30,
+			39,
+			0
+		},
+		attrs_growth = {
+			21233,
+			0,
+			0,
+			848,
+			1011,
+			332,
+			0,
+			402,
+			291,
+			0,
+			0,
+			0
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"cannon",
+			"torpedo",
+			"antisub"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			109,
+			111,
+			110
+		},
+		depth_charge_list = {},
+		base_list = {
+			3,
+			3,
+			2
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			1.35,
+			1.25,
+			1.25
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"YorktownMETA",
+			"TOC",
+			"Yorktown"
 		},
 		gift_dislike = {
 			180009,

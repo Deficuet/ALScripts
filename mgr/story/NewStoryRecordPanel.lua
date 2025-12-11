@@ -61,7 +61,7 @@ function var_0_0.Init(arg_10_0, arg_10_1)
 	arg_10_0.tplPools = {
 		arg_10_0.tpl
 	}
-	arg_10_0.closeBtn = arg_10_0._tf:Find("close")
+	arg_10_0.closeBtn = arg_10_0._tf:Find("adapt/close")
 	arg_10_0.bgImage = arg_10_0._tf:GetComponent(typeof(Image))
 	arg_10_0.scrollrect = arg_10_0._tf:GetComponent(typeof(ScrollRect))
 	arg_10_0.contentSizeFitter = arg_10_0._tf:Find("content"):GetComponent(typeof(ContentSizeFitter))
@@ -70,47 +70,47 @@ function var_0_0.Init(arg_10_0, arg_10_1)
 		setButtonEnabled(arg_10_0.closeBtn, false)
 		arg_10_0:Hide()
 	end, SFX_PANEL)
-	arg_10_0.pageAniEvent:SetEndEvent(function()
-		arg_10_0:OnHide()
-	end)
 
 	arg_10_0.state = var_0_4
 
 	arg_10_0:UpdateAll()
 end
 
-function var_0_0.UpdateAll(arg_13_0)
-	arg_13_0.cg.blocksRaycasts = false
+function var_0_0.UpdateAll(arg_12_0)
+	arg_12_0.cg.blocksRaycasts = false
 
 	seriesAsync({
-		function(arg_14_0)
-			arg_13_0.cg.alpha = 0
+		function(arg_13_0)
+			arg_12_0.cg.alpha = 0
 
-			arg_13_0:UpdateList(arg_14_0)
+			arg_12_0:UpdateList(arg_13_0)
+		end,
+		function(arg_14_0)
+			onNextTick(arg_14_0)
 		end,
 		function(arg_15_0)
-			onNextTick(arg_15_0)
-		end,
-		function(arg_16_0)
-			arg_13_0.cg.alpha = 1
+			arg_12_0.cg.alpha = 1
 
-			arg_13_0:PlayAnimation(arg_16_0)
+			arg_12_0:PlayAnimation(arg_15_0)
 		end
 	}, function()
-		arg_13_0.cg.blocksRaycasts = true
+		arg_12_0.cg.blocksRaycasts = true
 
-		arg_13_0:BlurPanel()
+		arg_12_0:BlurPanel()
 	end)
 end
 
-local function var_0_8(arg_18_0)
-	setActive(arg_18_0._tf, true)
-	setButtonEnabled(arg_18_0.closeBtn, true)
-	arg_18_0.pageAnim:Play("anim_storyrecordUI_record_in")
+local function var_0_8(arg_17_0)
+	setActive(arg_17_0._tf, true)
+	setButtonEnabled(arg_17_0.closeBtn, true)
+	arg_17_0.pageAniEvent:SetEndEvent(function()
+		arg_17_0.pageAniEvent:SetEndEvent(nil)
+	end)
+	arg_17_0.pageAnim:Play("anim_storyrecordUI_record_in")
 
-	arg_18_0.state = var_0_4
+	arg_17_0.state = var_0_4
 
-	arg_18_0:UpdateAll()
+	arg_17_0:UpdateAll()
 end
 
 function var_0_0.Show(arg_19_0, arg_19_1)
@@ -294,71 +294,75 @@ end
 
 function var_0_0.Hide(arg_33_0)
 	if arg_33_0:IsShowing() then
+		arg_33_0.pageAniEvent:SetEndEvent(nil)
+		arg_33_0.pageAniEvent:SetEndEvent(function()
+			arg_33_0:OnHide()
+		end)
 		arg_33_0.pageAnim:Play("anim_storyrecordUI_record_out")
 	end
 end
 
-function var_0_0.BlurPanel(arg_34_0)
+function var_0_0.BlurPanel(arg_35_0)
 	setParent(pg.NewStoryMgr.GetInstance()._tf, pg.UIMgr.GetInstance().UIMain)
 
-	local var_34_0 = pg.UIMgr.GetInstance().OverlayMain
-
-	arg_34_0.hideNodes = {}
-
-	for iter_34_0 = 1, var_34_0.childCount do
-		local var_34_1 = var_34_0:GetChild(iter_34_0 - 1)
-
-		if isActive(var_34_1) then
-			table.insert(arg_34_0.hideNodes, var_34_1)
-			setActive(var_34_1, false)
-		end
-	end
-
-	pg.UIMgr.GetInstance():BlurPanel(arg_34_0._tf)
-end
-
-function var_0_0.UnblurPanel(arg_35_0)
-	setParent(pg.NewStoryMgr.GetInstance()._tf, pg.UIMgr.GetInstance().OverlayToast)
-
-	if arg_35_0.hideNodes and #arg_35_0.hideNodes > 0 then
-		for iter_35_0, iter_35_1 in ipairs(arg_35_0.hideNodes) do
-			setActive(iter_35_1, true)
-		end
-	end
+	local var_35_0 = pg.UIMgr.GetInstance().OverlayMain
 
 	arg_35_0.hideNodes = {}
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_35_0._tf, arg_35_0.parentTF)
-end
+	for iter_35_0 = 1, var_35_0.childCount do
+		local var_35_1 = var_35_0:GetChild(iter_35_0 - 1)
 
-function var_0_0.Clear(arg_36_0)
-	for iter_36_0, iter_36_1 in ipairs(arg_36_0.usingTpls) do
-		var_0_10(arg_36_0, iter_36_1)
+		if isActive(var_35_1) then
+			table.insert(arg_35_0.hideNodes, var_35_1)
+			setActive(var_35_1, false)
+		end
 	end
 
-	arg_36_0.usingTpls = {}
+	pg.UIMgr.GetInstance():BlurPanel(arg_35_0._tf)
 end
 
-function var_0_0.Unload(arg_37_0)
-	if arg_37_0.state > var_0_2 then
-		arg_37_0.state = var_0_6
+function var_0_0.UnblurPanel(arg_36_0)
+	setParent(pg.NewStoryMgr.GetInstance()._tf, pg.UIMgr.GetInstance().OverlayToast)
 
-		if not IsNil(arg_37_0.closeBtn) then
-			removeOnButton(arg_37_0.closeBtn)
+	if arg_36_0.hideNodes and #arg_36_0.hideNodes > 0 then
+		for iter_36_0, iter_36_1 in ipairs(arg_36_0.hideNodes) do
+			setActive(iter_36_1, true)
+		end
+	end
+
+	arg_36_0.hideNodes = {}
+
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_36_0._tf, arg_36_0.parentTF)
+end
+
+function var_0_0.Clear(arg_37_0)
+	for iter_37_0, iter_37_1 in ipairs(arg_37_0.usingTpls) do
+		var_0_10(arg_37_0, iter_37_1)
+	end
+
+	arg_37_0.usingTpls = {}
+end
+
+function var_0_0.Unload(arg_38_0)
+	if arg_38_0.state > var_0_2 then
+		arg_38_0.state = var_0_6
+
+		if not IsNil(arg_38_0.closeBtn) then
+			removeOnButton(arg_38_0.closeBtn)
 		end
 
-		Object.Destroy(arg_37_0._go)
+		Object.Destroy(arg_38_0._go)
 
-		arg_37_0._go = nil
-		arg_37_0._tf = nil
-		arg_37_0.container = nil
-		arg_37_0.tpl = nil
+		arg_38_0._go = nil
+		arg_38_0._tf = nil
+		arg_38_0.container = nil
+		arg_38_0.tpl = nil
 	end
 end
 
-function var_0_0.Dispose(arg_38_0)
-	arg_38_0:Hide()
-	arg_38_0:Unload()
+function var_0_0.Dispose(arg_39_0)
+	arg_39_0:Hide()
+	arg_39_0:Unload()
 end
 
 return var_0_0

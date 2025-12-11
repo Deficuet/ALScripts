@@ -33,7 +33,7 @@ function var_0_0.Load(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 		end
 	}
 
-	for iter_1_0 = #arg_1_3, 1, -1 do
+	for iter_1_0 = 1, #arg_1_3 do
 		table.insert(var_1_0, #var_1_0, arg_1_3[iter_1_0])
 	end
 

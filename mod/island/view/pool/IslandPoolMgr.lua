@@ -33,7 +33,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 		[var_0_16] = IslandObjectPoolSet.New(arg_1_1, 6, 2),
 		[var_0_2] = IslandAssetPoolSet.New(arg_1_1, 5, 2),
 		[var_0_4] = IslandAssetPoolSet.New(arg_1_1, 5, 2),
-		[var_0_5] = IslandAssetPoolSet.New(arg_1_1, 5, 2)
+		[var_0_5] = IslandBtAssetPoolSet.New(arg_1_1, 5, 2)
 	}
 	arg_1_0.loadingIdList = {}
 end

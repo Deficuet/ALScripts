@@ -6,6 +6,7 @@ function var_0_0.OnInit(arg_1_0)
 	arg_1_0.item = arg_1_0.items:Find("item")
 	arg_1_0.btn = arg_1_0.bg:Find("btn")
 	arg_1_0.itemList = UIItemList.New(arg_1_0.items, arg_1_0.item)
+	arg_1_0.red = arg_1_0.btn:Find("red")
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
@@ -27,6 +28,8 @@ function var_0_0.OnFirstFlush(arg_2_0)
 	if arg_2_0.coreActivityUI.contextData.openPass then
 		triggerButton(arg_2_0.btn)
 	end
+
+	SetActive(arg_2_0.red, #arg_2_0.activity:GetHei5UnreceiveAward() > 0)
 end
 
 function var_0_0.OnUpdateFlush(arg_4_0)

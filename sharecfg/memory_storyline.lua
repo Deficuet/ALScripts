@@ -2377,9 +2377,37 @@ pg.memory_storyline = {
 		}
 	},
 	{
+		description = "「过去虽不完美，未来仍有挑战」\n「但是此刻」\n「我们团结一致，我们共同向前」\n「过去、现在与未来的所有朋友们」\n「让我们一同谱写这曲壮丽的乐章吧——」",
+		name = "响彻于天穹之音",
+		world_id = "",
+		memory_lock = 0,
+		column = 58,
+		bgm = "story-weimu-link",
+		row = 0,
+		chapter = 4,
+		id = 93,
+		icon = "ChapterFour_12",
+		sort = 1,
+		memory_id = {
+			1,
+			351
+		},
+		shipnation = {
+			97,
+			2,
+			1,
+			4,
+			6,
+			7
+		},
+		link_event = {
+			94
+		}
+	},
+	{
 		description = "敬请期待",
 		name = "敬请期待",
-		column = 58,
+		column = 59,
 		memory_id = "",
 		link_event = "",
 		shipnation = 0,
@@ -2388,7 +2416,7 @@ pg.memory_storyline = {
 		row = 0,
 		chapter = 0,
 		memory_lock = 1,
-		id = 93,
+		id = 94,
 		icon = "",
 		sort = 0
 	},
@@ -2485,6 +2513,7 @@ pg.memory_storyline = {
 		90,
 		91,
 		92,
-		93
+		93,
+		94
 	}
 }

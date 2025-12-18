@@ -263,6 +263,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[206] = {
+		key = "SkinElite_20251218",
+		name = "甜点女仆屋",
+		desc = "享用着甜甜女仆准备的甜甜点心，轻松惬意地面对挑战吧！",
+		display_icon = "ui_206",
+		is_unlock = 1,
+		rare = 4,
+		unlock = "甜点女仆屋战斗主题礼包获取",
+		id = 206,
+		icon = "206",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -280,6 +297,7 @@ pg.item_data_battleui = {
 		202,
 		203,
 		204,
-		205
+		205,
+		206
 	}
 }

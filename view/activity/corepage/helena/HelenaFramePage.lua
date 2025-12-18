@@ -11,6 +11,10 @@ function var_0_0.OnInit(arg_1_0)
 	arg_1_0.bar = arg_1_0._tf:Find("AD/switcher/phase2/task_bg_2/Image/barContent/bar")
 	arg_1_0.cur = arg_1_0._tf:Find("AD/switcher/phase2/task_bg_2/Image/step")
 	arg_1_0.target = arg_1_0._tf:Find("AD/switcher/phase2/task_bg_2/Image/progress")
+
+	setText(arg_1_0._tf:Find("AD/switcher/phase2/task_bg_2/battle_btn/Text"), i18n("other_world_task_go"))
+	setText(arg_1_0._tf:Find("AD/switcher/phase2/task_bg_2/get_btn/Text"), i18n("other_world_task_get"))
+	setText(arg_1_0._tf:Find("AD/switcher/phase2/task_bg_2/got_btn/Text"), i18n("other_world_task_got"))
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)

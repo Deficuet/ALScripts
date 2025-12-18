@@ -13,7 +13,7 @@ function var_0_0.GetHeadOffset(arg_3_0)
 end
 
 function var_0_0.OnInit(arg_4_0, arg_4_1)
-	arg_4_0.cancelAnimationOpTpl = arg_4_0._tf:GetComponent(typeof(ItemList)).prefabItem[4]
+	arg_4_0.cancelAnimationOpTpl = arg_4_0._tf:Find("tpls/IslandCancelAnimationOpTpl")
 	arg_4_0.cancelAnimationOpTpls = {}
 
 	var_0_0.super.OnInit(arg_4_0, arg_4_1)

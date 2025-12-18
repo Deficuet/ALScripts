@@ -1947,5 +1947,17 @@ pg.voice_actor_CN = {
 	{
 		code = 487,
 		actor_name = "内田真礼&布里德卡特·塞拉·惠美 "
+	},
+	{
+		code = 488,
+		actor_name = "宫崎日和"
+	},
+	{
+		code = 489,
+		actor_name = "羽澄奈奈"
+	},
+	{
+		code = 490,
+		actor_name = "深川芹亚 "
 	}
 }

@@ -150,10 +150,16 @@ function var_0_0.UpdateDrop(arg_9_0)
 		arg_9_0:emit(BaseUI.ON_DROP, var_9_1)
 	end)
 
-	local var_9_2 = var_9_0:isReceive()
+	local var_9_2 = {}
 
-	setActive(arg_9_0.awardTf:Find("got"), var_9_2)
-	setActive(arg_9_0.awardTf:Find("get"), arg_9_0.remainCnt > 0 and not var_9_2)
+	for iter_9_0, iter_9_1 in ipairs(arg_9_0.taskList) do
+		var_9_2[iter_9_1] = tobool(arg_9_0.taskProxy:getFinishTaskById(iter_9_1))
+	end
+
+	local var_9_3 = var_9_2[arg_9_0.taskList[arg_9_0.index]]
+
+	setActive(arg_9_0.awardTf:Find("got"), var_9_3)
+	setActive(arg_9_0.awardTf:Find("get"), arg_9_0.remainCnt > 0 and not var_9_3)
 end
 
 function var_0_0.OnDestroy(arg_12_0)

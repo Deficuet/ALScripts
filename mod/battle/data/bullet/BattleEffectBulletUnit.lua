@@ -70,6 +70,8 @@ function var_0_1.spawnArea(arg_5_0, arg_5_1)
 		arg_5_0._flare = var_5_7
 	end
 
+	var_5_7:SetSource(var_5_7.SOURCE_BULLET_9)
+
 	return var_5_7
 end
 

@@ -103,6 +103,8 @@ pg.pay_data_display = setmetatable({
 		9004,
 		9005,
 		9006,
+		9007,
+		9008,
 		1000,
 		1001,
 		1002,
@@ -191,6 +193,10 @@ pg.pay_data_display = setmetatable({
 		2059,
 		2063,
 		2064,
+		2068,
+		2069,
+		2070,
+		2071,
 		5001,
 		5002,
 		5003,
@@ -12335,6 +12341,274 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[9007] = {
+		limit_group = 0,
+		name = "庆典狂欢夜礼盒·I",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		second_text = "大量奖励",
+		type_order = 2,
+		subject = "庆典狂欢夜礼盒·I",
+		first_text = "随机换装和大量钻石",
+		limit_arg = 1,
+		tip = "",
+		money = 198,
+		tip_open = 0,
+		tag = 2,
+		id = 9007,
+		gem = 0,
+		name_display = "庆典狂欢夜礼盒·I",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai30",
+		show_group = "",
+		skin_inquire_relation = 86222,
+		package_tag_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi206",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得一件角色换装，2026钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond189",
+		extra_service_item = {
+			{
+				2,
+				86222,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			},
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42076,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81230,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86222,
+				1
+			},
+			{
+				1,
+				14,
+				2026
+			}
+		}
+	},
+	[9008] = {
+		limit_group = 0,
+		name = "港区游戏之夜礼盒·I复刻",
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		second_text = "大量奖励",
+		type_order = 2,
+		subject = "港区游戏之夜礼盒·I复刻",
+		first_text = "随机换装和大量钻石",
+		limit_arg = 1,
+		tip = "",
+		money = 198,
+		tip_open = 0,
+		tag = 2,
+		id = 9008,
+		gem = 0,
+		name_display = "港区游戏之夜礼盒·I复刻",
+		package_sort_id = 0,
+		limit_type = 2,
+		akashi_pick = 1,
+		extra_service = 3,
+		package_tag = "",
+		picture = "fudai19",
+		show_group = "",
+		skin_inquire_relation = 86208,
+		package_tag_open = 0,
+		id_str = "com.bilibili.blhx.zuanshi207",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		airijp_id = "com.yostarjp.azurlane.diamond190",
+		extra_service_item = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81208,
+				1
+			}
+		},
+		first_icon = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			}
+		}
+	},
 	[1000] = {
 		limit_group = 0,
 		name = "特许巡游凭证",
@@ -19974,6 +20248,387 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2068] = {
+		limit_group = 107,
+		name = "甜点女仆屋主题礼包",
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "甜点女仆屋主题礼包",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 0,
+		money = 78,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2068,
+		name_display = "甜点女仆屋主题礼包",
+		limit_type = 5,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "ui7",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "uigift",
+		id_str = "com.bilibili.blhx.ui18",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得战斗界面主题 甜点女仆屋*1",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.ui18",
+		extra_service_item = {
+			{
+				31,
+				206,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				206,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2069] = {
+		limit_group = 107,
+		name = "甜点女仆屋主题礼包(基础版)",
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "甜点女仆屋主题礼包(基础版)",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 78,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2069,
+		name_display = "甜点女仆屋主题礼包(基础版)",
+		limit_type = 5,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "ui7",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "uigift",
+		id_str = "com.bilibili.blhx.ui19",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得战斗界面主题 甜点女仆屋*1,1000物资",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.ui19",
+		extra_service_item = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40074,
+				1
+			}
+		}
+	},
+	[2070] = {
+		limit_group = 107,
+		name = "甜点女仆屋主题礼包(豪华版)",
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "甜点女仆屋主题礼包(豪华版)",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 258,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2070,
+		name_display = "甜点女仆屋主题礼包(豪华版)",
+		limit_type = 5,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "ui7",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "uigift",
+		id_str = "com.bilibili.blhx.ui20",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得战斗界面主题 甜点女仆屋*1,3060钻石",
+		package_tag_open = 0,
+		airijp_id = "com.yostarjp.azurlane.ui20",
+		extra_service_item = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				206,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40075,
+				1
+			}
+		}
+	},
+	[2071] = {
+		limit_group = 0,
+		name = "冬至礼包(2025冬)",
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		second_text = "",
+		type_order = 4,
+		subject = "冬至礼包(2025冬)",
+		first_text = "",
+		first_icon = "",
+		limit_arg = 1,
+		money = 258,
+		tip = "",
+		tag = 2,
+		tip_open = 0,
+		gem = 0,
+		id = 2071,
+		name_display = "冬至礼包(2025冬)",
+		limit_type = 2,
+		package_sort_id = 0,
+		akashi_pick = 1,
+		package_tag = "",
+		picture = "dongzhi3",
+		extra_service = 3,
+		skin_inquire_relation = 0,
+		show_group = "",
+		id_str = "com.bilibili.blhx.libao128",
+		first_pay_double = 0,
+		extra_gem = 0,
+		descrip = "可获得3880钻，和特装型布里MKIII*1和其他奖励",
+		package_tag_open = 0,
+		airijp_id = "com.bilibili.blhx.libao128",
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					12,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					1,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40076,
 				1
 			}
 		}

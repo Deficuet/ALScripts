@@ -14,11 +14,8 @@ end
 
 function var_0_0.OnInit(arg_4_0, arg_4_1)
 	arg_4_0.time = 0
-
-	local var_4_0 = arg_4_0._tf:GetComponent(typeof(ItemList))
-
-	arg_4_0.chatTpl = var_4_0.prefabItem[3]
-	arg_4_0.animationOpTpl = var_4_0.prefabItem[1]
+	arg_4_0.chatTpl = arg_4_0._tf:Find("tpls/IslandChatWithEmojiTpl")
+	arg_4_0.animationOpTpl = arg_4_0._tf:Find("tpls/IslandAnimationOpTpl")
 	arg_4_0.animationOpTpls = {}
 	arg_4_0.animationOpShowFlags = {}
 	arg_4_0.isResponeAnimationOp = {}

@@ -520,8 +520,26 @@ end
 
 function var_0_0.GetShareSkinsForShip(arg_44_0, arg_44_1)
 	local var_44_0 = arg_44_1.groupId
+	local var_44_1 = arg_44_0:GetShareSkinsForShipGroup(var_44_0)
 
-	return arg_44_0:GetShareSkinsForShipGroup(var_44_0)
+	for iter_44_0 = #var_44_1, 1, -1 do
+		local var_44_2 = var_44_1[iter_44_0]
+		local var_44_3 = ShipSkin.GetChangeSkinGroupId(var_44_2.id)
+
+		if var_44_3 then
+			local var_44_4 = ShipSkin.GetStoreChangeSkinId(var_44_3, arg_44_1:GetShipPhantomMark())
+
+			if not var_44_4 then
+				if var_44_2.change_skin.index ~= 1 then
+					table.remove(var_44_1, iter_44_0)
+				end
+			elseif var_44_4 ~= var_44_2.id then
+				table.remove(var_44_1, iter_44_0)
+			end
+		end
+	end
+
+	return var_44_1
 end
 
 function var_0_0.GetAllSkinForARCamera(arg_45_0, arg_45_1)
@@ -809,6 +827,33 @@ function var_0_0.GetPermanentSkins(arg_57_0)
 	end
 
 	return var_57_0
+end
+
+function var_0_0.GetShareSkinsForShipGroupInJuus(arg_58_0, arg_58_1)
+	local var_58_0 = pg.ship_data_group.get_id_list_by_group_type[arg_58_1][1]
+	local var_58_1 = pg.ship_data_group[var_58_0]
+
+	if not var_58_1.share_group_id or #var_58_1.share_group_id <= 0 then
+		return {}
+	end
+
+	local var_58_2 = {}
+
+	for iter_58_0, iter_58_1 in ipairs(var_58_1.share_group_id) do
+		local var_58_3 = pg.ship_skin_template.get_id_list_by_ship_group[iter_58_1]
+
+		for iter_58_2, iter_58_3 in ipairs(var_58_3) do
+			local var_58_4 = ShipSkin.New({
+				id = iter_58_3
+			})
+
+			if var_58_4:CanShareInJuus() then
+				table.insert(var_58_2, var_58_4)
+			end
+		end
+	end
+
+	return var_58_2
 end
 
 return var_0_0

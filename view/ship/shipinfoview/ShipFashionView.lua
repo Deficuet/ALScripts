@@ -147,9 +147,8 @@ function var_0_0.UpdateAllFashion(arg_13_0, arg_13_1)
 			onButton(arg_13_0, var_13_6.changeSkinTF, function(arg_14_0)
 				local var_14_0 = ShipSkin.GetChangeSkinNextId(var_13_4.id)
 
-				ShipSkin.SetStoreChangeSkinId(var_14_0, var_13_0:GetShipPhantomMark())
-
 				if var_13_9 then
+					ShipSkin.SetStoreChangeSkinId(var_14_0, var_13_0:GetShipPhantomMark())
 					pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, arg_13_0:GetShipVO():GetShipPhantomMark())
 				end
 			end, SFX_PANEL)
@@ -208,7 +207,7 @@ function var_0_0.clickCell(arg_16_0, arg_16_1, arg_16_2)
 		local var_16_1 = arg_16_0.fashionCellMap[var_16_0]
 
 		var_16_1:updateSelected(iter_16_1.id == arg_16_0.fashionSkinId)
-		var_16_1:updateUsing(arg_16_0:GetShipVO():getSkinId() == iter_16_1.id)
+		var_16_1:updateUsing(arg_16_0:GetShipVO():useSkin(iter_16_1.id))
 	end
 
 	local var_16_2 = arg_16_2.painting

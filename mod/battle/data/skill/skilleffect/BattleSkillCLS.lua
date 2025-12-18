@@ -8,6 +8,7 @@ var_0_1.__name = "BattleSkillCLS"
 var_0_1.TYPE_BULLET = 1
 var_0_1.TYPE_AIRCRAFT = 2
 var_0_1.TYPE_MINION = 3
+var_0_1.TYPE_AOE = 4
 
 function var_0_1.Ctor(arg_1_0, arg_1_1)
 	var_0_1.super.Ctor(arg_1_0, arg_1_1, lv)
@@ -34,6 +35,8 @@ function var_0_1.doCls(arg_4_0, arg_4_1)
 			var_4_0:CLSAircraft(var_4_1)
 		elseif iter_4_1 == var_0_1.TYPE_MINION then
 			var_4_0:CLSMinion()
+		elseif iter_4_1 == var_0_1.TYPE_AOE then
+			var_4_0:CLSAOE()
 		end
 	end
 end

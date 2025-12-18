@@ -263,6 +263,10 @@ function PayFailed(arg_42_0, arg_42_1)
 		return
 	end
 
+	if PLATFORM_CODE == PLATFORM_CHT and var_0_0.GetChannelUID() == "2" then
+		return
+	end
+
 	pg.m02:sendNotification(GAME.CHARGE_FAILED, {
 		payId = arg_42_0,
 		code = arg_42_1

@@ -77279,6 +77279,237 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.barrage_template[82206] = {
+		offset_prioritise = false,
+		delta_offset_x = 3,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 2,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82206,
+		senior_delay = 0.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82207] = {
+		offset_prioritise = false,
+		delta_offset_x = 3,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = -3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 2,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82207,
+		senior_delay = 0.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82208] = {
+		offset_prioritise = false,
+		delta_offset_x = 3,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 2,
+		first_delay = 0.2,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82208,
+		senior_delay = 0.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82209] = {
+		offset_prioritise = false,
+		delta_offset_x = 3,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = -3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 2,
+		first_delay = 0.2,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82209,
+		senior_delay = 0.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82210] = {
+		offset_prioritise = false,
+		delta_offset_x = 3,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 2,
+		first_delay = 0.4,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82210,
+		senior_delay = 0.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82211] = {
+		offset_prioritise = false,
+		delta_offset_x = 3,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = -3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 2,
+		first_delay = 0.4,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82211,
+		senior_delay = 0.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82212] = {
+		offset_prioritise = false,
+		delta_offset_x = 3,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 2,
+		first_delay = 0.6,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82212,
+		senior_delay = 0.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82213] = {
+		offset_prioritise = false,
+		delta_offset_x = 3,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = -3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 2,
+		first_delay = 0.6,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82213,
+		senior_delay = 0.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82217] = {
+		offset_prioritise = false,
+		delta_offset_x = -2,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = -2,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = 12,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82217,
+		senior_delay = 0.5,
+		angle = -20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82218] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -6,
+		delta_offset_z = -5,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = 5,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82218,
+		senior_delay = 0.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82219] = {
+		offset_prioritise = false,
+		delta_offset_x = -2,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 2,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = -12,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 82219,
+		senior_delay = 0.5,
+		angle = 20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
 	_G.pg.base.barrage_template[82200] = {
 		offset_prioritise = false,
 		delta_offset_x = 0,
@@ -77421,6 +77652,132 @@ end)()
 		id = 82214,
 		senior_delay = 0.08,
 		angle = 7,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82215] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.05,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 5,
+		primal_repeat = 9,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 82215,
+		senior_delay = 0,
+		angle = -20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82216] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.05,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -5,
+		primal_repeat = 9,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 82216,
+		senior_delay = 0,
+		angle = 20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82220] = {
+		offset_prioritise = false,
+		delta_offset_x = -6,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = -5,
+		delta_angle = 0,
+		primal_repeat = 5,
+		offset_z = 12.5,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 82220,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82221] = {
+		offset_prioritise = false,
+		delta_offset_x = -6,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 5,
+		delta_angle = 0,
+		primal_repeat = 5,
+		offset_z = -12.5,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 82221,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82222] = {
+		offset_prioritise = false,
+		delta_offset_x = -6,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = -5,
+		delta_angle = 0,
+		primal_repeat = 5,
+		offset_z = 12.5,
+		first_delay = 0.5,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 82222,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[82223] = {
+		offset_prioritise = false,
+		delta_offset_x = -6,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 5,
+		delta_angle = 0,
+		primal_repeat = 5,
+		offset_z = -12.5,
+		first_delay = 0.5,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 82223,
+		senior_delay = 0,
+		angle = 0,
 		trans_ID = -1
 	}
 end)()
@@ -81976,6 +82333,48 @@ end)()
 		random_angle = false,
 		senior_repeat = 0,
 		id = 168224,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[168225] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 168225,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[168226] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 168226,
 		senior_delay = 0,
 		angle = 0,
 		trans_ID = -1
@@ -89180,6 +89579,237 @@ end)()
 		senior_repeat = 0,
 		id = 170902,
 		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170903] = {
+		offset_prioritise = false,
+		delta_offset_x = -3,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 8,
+		delta_offset_z = 3,
+		delta_angle = 0,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 170903,
+		senior_delay = 0.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170904] = {
+		offset_prioritise = false,
+		delta_offset_x = -3,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 8,
+		delta_offset_z = -3,
+		delta_angle = 0,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 170904,
+		senior_delay = 0.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170905] = {
+		offset_prioritise = false,
+		delta_offset_x = -1,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 2,
+		delta_offset_z = 6,
+		delta_angle = 0,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 170905,
+		senior_delay = 0.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170906] = {
+		offset_prioritise = false,
+		delta_offset_x = -1,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 2,
+		delta_offset_z = -6,
+		delta_angle = 0,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 170906,
+		senior_delay = 0.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170907] = {
+		offset_prioritise = false,
+		delta_offset_x = -2,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 8,
+		delta_offset_z = 4,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 170907,
+		senior_delay = 0.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170908] = {
+		offset_prioritise = false,
+		delta_offset_x = -2,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 8,
+		delta_offset_z = -4,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 170908,
+		senior_delay = 0.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170909] = {
+		offset_prioritise = false,
+		delta_offset_x = -2,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 8,
+		delta_offset_z = 4,
+		delta_angle = 0,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 2,
+		id = 170909,
+		senior_delay = 0.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170910] = {
+		offset_prioritise = false,
+		delta_offset_x = -2,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 8,
+		delta_offset_z = -4,
+		delta_angle = 0,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 2,
+		id = 170910,
+		senior_delay = 0.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170921] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = -10,
+		delta_offset_z = -5,
+		delta_angle = 0,
+		primal_repeat = 8,
+		offset_z = 20,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 170921,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170922] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 170922,
+		senior_delay = 1,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[170923] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = -10,
+		delta_offset_z = -5,
+		delta_angle = 0,
+		primal_repeat = 8,
+		offset_z = 20,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 170923,
+		senior_delay = 1,
 		angle = 0,
 		trans_ID = -1
 	}
@@ -97495,6 +98125,342 @@ end)()
 		random_angle = false,
 		senior_repeat = 0,
 		id = 350216,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350221] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350221,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350222] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.06,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350222,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350223] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.12,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350223,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350224] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.18,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350224,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350225] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.24,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350225,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350226] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.3,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350226,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350227] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.36,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350227,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350228] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.42,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350228,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350229] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.48,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350229,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350230] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.54,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350230,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350231] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.6,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350231,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350232] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.66,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350232,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350233] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.72,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350233,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350234] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.78,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350234,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350235] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.84,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350235,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[350236] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.9,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 350236,
 		senior_delay = 0,
 		angle = 0,
 		trans_ID = -1
@@ -541731,6 +542697,4857 @@ end)()
 		id = 3335027,
 		senior_delay = 0.5,
 		angle = -45,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340001] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -5,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 3340001,
+		senior_delay = 4,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340101] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3340101,
+		senior_delay = 2,
+		angle = -40,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340102] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 0.5,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3340102,
+		senior_delay = 2,
+		angle = -30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340103] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 6,
+		offset_z = -4,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3340103,
+		senior_delay = 2,
+		angle = -56,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340104] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 6,
+		offset_z = -2,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3340104,
+		senior_delay = 2,
+		angle = -58,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340105] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 6,
+		offset_z = 0,
+		first_delay = 1,
+		random_angle = "",
+		senior_repeat = 6,
+		id = 3340105,
+		senior_delay = 2,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340106] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 6,
+		offset_z = 2,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3340106,
+		senior_delay = 2,
+		angle = -62,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340107] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 6,
+		offset_z = 4,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3340107,
+		senior_delay = 2,
+		angle = -64,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340108] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.05,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3340108,
+		senior_delay = 1.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340109] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 1,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -8,
+		primal_repeat = 12,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340109,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340110] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 1,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 8,
+		primal_repeat = 12,
+		offset_z = 0,
+		first_delay = 0.5,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340110,
+		senior_delay = 0,
+		angle = -15,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340111] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 40,
+		primal_repeat = 8,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340111,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340112] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340112,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340113] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340113,
+		senior_delay = 0,
+		angle = -3,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340114] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340114,
+		senior_delay = 0,
+		angle = -6,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340115] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340115,
+		senior_delay = 0,
+		angle = -9,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340116] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340116,
+		senior_delay = 0,
+		angle = -12,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340117] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340117,
+		senior_delay = 0,
+		angle = -15,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340118] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 11,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3340118,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340119] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = true,
+		senior_repeat = 0,
+		id = 3340119,
+		senior_delay = 0,
+		angle = 30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340120] = {
+		offset_prioritise = true,
+		delta_offset_x = 1,
+		delta_delay = 0.2,
+		delay = 1.9,
+		offset_x = -1.5,
+		delta_offset_z = 1,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 6,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340120,
+		senior_delay = 0,
+		angle = -25,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340121] = {
+		offset_prioritise = true,
+		delta_offset_x = 1,
+		delta_delay = 0.2,
+		delay = 1.9,
+		offset_x = -1.5,
+		delta_offset_z = 1,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 6,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340121,
+		senior_delay = 0,
+		angle = 25,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340122] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 2.5,
+		offset_x = -1.5,
+		delta_offset_z = 2,
+		delta_angle = 2,
+		primal_repeat = 0,
+		offset_z = 6,
+		first_delay = 1.9,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340122,
+		senior_delay = 0,
+		angle = -25,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340123] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 2.5,
+		offset_x = -1.5,
+		delta_offset_z = 2,
+		delta_angle = -2,
+		primal_repeat = 0,
+		offset_z = 6,
+		first_delay = 1.9,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340123,
+		senior_delay = 0,
+		angle = 25,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340124] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5.2,
+		offset_x = -1.5,
+		delta_offset_z = 5,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 6,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340124,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340201] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 40,
+		primal_repeat = 3,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340201,
+		senior_delay = 0,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340202] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 40,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 2,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340202,
+		senior_delay = 0,
+		angle = -40,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340203] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5,
+		offset_x = -3,
+		delta_offset_z = 4,
+		delta_angle = -1.6,
+		primal_repeat = 0,
+		offset_z = 4,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340203,
+		senior_delay = 2,
+		angle = 100,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340204] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5,
+		offset_x = -3,
+		delta_offset_z = 4,
+		delta_angle = -0.8,
+		primal_repeat = 0,
+		offset_z = 4,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340204,
+		senior_delay = 2,
+		angle = 50,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340205] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5,
+		offset_x = -3,
+		delta_offset_z = 4,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 4,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340205,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340206] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5,
+		offset_x = -3,
+		delta_offset_z = 4,
+		delta_angle = 0.8,
+		primal_repeat = 0,
+		offset_z = 4,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340206,
+		senior_delay = 2,
+		angle = -50,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340207] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5,
+		offset_x = -3,
+		delta_offset_z = 4,
+		delta_angle = 1.6,
+		primal_repeat = 0,
+		offset_z = 4,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340207,
+		senior_delay = 2,
+		angle = -100,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340208] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.12,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340208,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340301] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 3340301,
+		senior_delay = 1.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340302] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 15,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340302,
+		senior_delay = 0,
+		angle = -15,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340303] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 15,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 2,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3340303,
+		senior_delay = 0,
+		angle = -15,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340304] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.05,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -5,
+		primal_repeat = 40,
+		offset_z = -10,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 3340304,
+		senior_delay = 1,
+		angle = -45,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340305] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.05,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 5,
+		primal_repeat = 40,
+		offset_z = 10,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 3340305,
+		senior_delay = 1,
+		angle = 45,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3340306] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3340306,
+		senior_delay = 1,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341001] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.1,
+		delay = 5.2,
+		offset_x = -18.5,
+		delta_offset_z = 4,
+		delta_angle = 1.2,
+		primal_repeat = 0,
+		offset_z = 12,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341001,
+		senior_delay = 2,
+		angle = -50,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341002] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.1,
+		delay = 5.2,
+		offset_x = -3.5,
+		delta_offset_z = 4,
+		delta_angle = -1.2,
+		primal_repeat = 0,
+		offset_z = 28.5,
+		first_delay = 0.5,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341002,
+		senior_delay = 2,
+		angle = 50,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341003] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.1,
+		delay = 5.2,
+		offset_x = 4.5,
+		delta_offset_z = 4,
+		delta_angle = 1.2,
+		primal_repeat = 0,
+		offset_z = 2.5,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341003,
+		senior_delay = 2,
+		angle = -50,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341004] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.1,
+		delay = 5.2,
+		offset_x = 12.5,
+		delta_offset_z = 4,
+		delta_angle = -1.2,
+		primal_repeat = 0,
+		offset_z = 17,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341004,
+		senior_delay = 2,
+		angle = 50,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341005] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341005,
+		senior_delay = 0,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341006] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3341006,
+		senior_delay = 1.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341007] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3341007,
+		senior_delay = 0.04,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341008] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0.4,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3341008,
+		senior_delay = 0.04,
+		angle = -15,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341009] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0.4,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3341009,
+		senior_delay = 0.04,
+		angle = 15,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341010] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 3,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0.8,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3341010,
+		senior_delay = 0.04,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341011] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 2,
+		id = 3341011,
+		senior_delay = 1.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341012] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 24,
+		primal_repeat = 8,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 3341012,
+		senior_delay = 2,
+		angle = -96,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341013] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -24,
+		primal_repeat = 8,
+		offset_z = 0,
+		first_delay = 2,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 3341013,
+		senior_delay = 2,
+		angle = 96,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341014] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341014,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341015] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 160,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341015,
+		senior_delay = 0,
+		angle = -80,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341016] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 140,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341016,
+		senior_delay = 0,
+		angle = -70,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341017] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341017,
+		senior_delay = 0,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341018] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 100,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341018,
+		senior_delay = 0,
+		angle = -50,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341019] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 80,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341019,
+		senior_delay = 0,
+		angle = -40,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341020] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 60,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341020,
+		senior_delay = 0,
+		angle = -30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341021] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 40,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341021,
+		senior_delay = 0,
+		angle = -20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341022] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341022,
+		senior_delay = 0,
+		angle = -10,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341023] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341023,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341024] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3341024,
+		senior_delay = 2.2,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341025] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.4,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 13,
+		primal_repeat = 99,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341025,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341026] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.4,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 13,
+		primal_repeat = 99,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341026,
+		senior_delay = 0,
+		angle = 60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341027] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341027,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341028] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341028,
+		senior_delay = 0,
+		angle = 10,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341029] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341029,
+		senior_delay = 0,
+		angle = 20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341030] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341030,
+		senior_delay = 0,
+		angle = 30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341031] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341031,
+		senior_delay = 0,
+		angle = 40,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341032] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341032,
+		senior_delay = 0,
+		angle = 50,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341033] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341033,
+		senior_delay = 0,
+		angle = 60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341034] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341034,
+		senior_delay = 0,
+		angle = 70,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341035] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341035,
+		senior_delay = 0,
+		angle = 80,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341036] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341036,
+		senior_delay = 0,
+		angle = 90,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341037] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341037,
+		senior_delay = 0,
+		angle = 100,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341038] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341038,
+		senior_delay = 0,
+		angle = 110,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341039] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5.2,
+		offset_x = -18.5,
+		delta_offset_z = 4,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 12,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341039,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341040] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5.2,
+		offset_x = -3.5,
+		delta_offset_z = 4,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 28.5,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341040,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341041] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5.2,
+		offset_x = 4.5,
+		delta_offset_z = 4,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 2.5,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341041,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341042] = {
+		offset_prioritise = true,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 5.2,
+		offset_x = 12.5,
+		delta_offset_z = 4,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 17,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341042,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341043] = {
+		offset_prioritise = false,
+		delta_offset_x = 150,
+		delta_delay = 0.2,
+		delay = 9.5,
+		offset_x = -7,
+		delta_offset_z = 8,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 3,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341043,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341101] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -20,
+		delta_offset_z = 6,
+		delta_angle = 0,
+		primal_repeat = 12,
+		offset_z = -36,
+		first_delay = 0.5,
+		random_angle = false,
+		senior_repeat = 11,
+		id = 3341101,
+		senior_delay = 1,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341102] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -20,
+		delta_offset_z = 6,
+		delta_angle = 0,
+		primal_repeat = 13,
+		offset_z = -39,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3341102,
+		senior_delay = 1,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341103] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 60,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 15,
+		id = 3341103,
+		senior_delay = 1.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341104] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 60,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 15,
+		id = 3341104,
+		senior_delay = 1.2,
+		angle = 30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341201] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 40,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 99,
+		id = 3341201,
+		senior_delay = 3,
+		angle = -40,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341202] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 24,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 2,
+		id = 3341202,
+		senior_delay = 3,
+		angle = -48,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341203] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 24,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3341203,
+		senior_delay = 2,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341204] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 11,
+		offset_z = 0,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341204,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341205] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.3,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 11,
+		primal_repeat = 30,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341205,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341206] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 90,
+		primal_repeat = 3,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341206,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341207] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -7,
+		primal_repeat = 45,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341207,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341208] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 20,
+		id = 3341208,
+		senior_delay = 3,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341209] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 20,
+		id = 3341209,
+		senior_delay = 3,
+		angle = 60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341210] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.2,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3341210,
+		senior_delay = 0.2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341211] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 40,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3341211,
+		senior_delay = 4,
+		angle = -40,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341212] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 60,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 7,
+		id = 3341212,
+		senior_delay = 1,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341213] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 60,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 7,
+		id = 3341213,
+		senior_delay = 1,
+		angle = 30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341214] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3341214,
+		senior_delay = 1,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341301] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = true,
+		senior_repeat = 99,
+		id = 3341301,
+		senior_delay = 2.5,
+		angle = 360,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341302] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 99,
+		id = 3341302,
+		senior_delay = 2.5,
+		angle = -30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341303] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -5,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 5,
+		random_angle = false,
+		senior_repeat = 20,
+		id = 3341303,
+		senior_delay = 10,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341304] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.05,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 2,
+		random_angle = false,
+		senior_repeat = 99,
+		id = 3341304,
+		senior_delay = 2.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341305] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 1.6,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -8,
+		primal_repeat = 99,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341305,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341306] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 1.6,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 8,
+		primal_repeat = 99,
+		offset_z = 0,
+		first_delay = 0.8,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3341306,
+		senior_delay = 0,
+		angle = -15,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341307] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 60,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 99,
+		id = 3341307,
+		senior_delay = 4,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341308] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 3,
+		offset_z = -20,
+		first_delay = 2,
+		random_angle = false,
+		senior_repeat = 99,
+		id = 3341308,
+		senior_delay = 4,
+		angle = -30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341309] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 3,
+		offset_z = 20,
+		first_delay = 2,
+		random_angle = false,
+		senior_repeat = 99,
+		id = 3341309,
+		senior_delay = 4,
+		angle = -30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341310] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 2,
+		offset_z = -20,
+		first_delay = 4,
+		random_angle = false,
+		senior_repeat = 99,
+		id = 3341310,
+		senior_delay = 4,
+		angle = -20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341311] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 2,
+		offset_z = 20,
+		first_delay = 4,
+		random_angle = false,
+		senior_repeat = 99,
+		id = 3341311,
+		senior_delay = 4,
+		angle = -20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341312] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 6,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 99,
+		id = 3341312,
+		senior_delay = 4,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341313] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 10,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 3341313,
+		senior_delay = 4,
+		angle = -25,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341314] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = -20,
+		first_delay = 0,
+		random_angle = true,
+		senior_repeat = 99,
+		id = 3341314,
+		senior_delay = 6,
+		angle = 360,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3341315] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 20,
+		first_delay = 3,
+		random_angle = true,
+		senior_repeat = 99,
+		id = 3341315,
+		senior_delay = 6,
+		angle = 360,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345195] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 12,
+		offset_z = -20,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 30,
+		id = 3345195,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345196] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 12,
+		offset_z = 20,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 30,
+		id = 3345196,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345201] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -10,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345201,
+		senior_delay = 0,
+		angle = 40,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345202] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -10,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345202,
+		senior_delay = 0,
+		angle = 20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345203] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -10,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345203,
+		senior_delay = 0,
+		angle = -20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345204] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -10,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345204,
+		senior_delay = 0,
+		angle = -40,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345205] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.4,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 10,
+		primal_repeat = 9,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345205,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345206] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.3,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 9,
+		primal_repeat = 12,
+		offset_z = 0,
+		first_delay = 4,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345206,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345207] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 8,
+		primal_repeat = 19,
+		offset_z = 0,
+		first_delay = 7.9,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345207,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345208] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.4,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -10,
+		primal_repeat = 9,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345208,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345209] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.3,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -9,
+		primal_repeat = 12,
+		offset_z = 0,
+		first_delay = 4,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345209,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345210] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -8,
+		primal_repeat = 21,
+		offset_z = 0,
+		first_delay = 8,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345210,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345211] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345211,
+		senior_delay = 0,
+		angle = 120,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345212] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 24,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345212,
+		senior_delay = 3,
+		angle = -48,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345213] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.1,
+		random_angle = false,
+		senior_repeat = 8,
+		id = 3345213,
+		senior_delay = 0.06,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345214] = {
+		offset_prioritise = false,
+		delta_offset_x = 150,
+		delta_delay = 0.1,
+		delay = 6,
+		offset_x = 0,
+		delta_offset_z = 12,
+		delta_angle = -1.8,
+		primal_repeat = 0,
+		offset_z = 20,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345214,
+		senior_delay = 2,
+		angle = 100,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345215] = {
+		offset_prioritise = false,
+		delta_offset_x = 150,
+		delta_delay = 0.1,
+		delay = 6,
+		offset_x = 0,
+		delta_offset_z = 12,
+		delta_angle = 1.8,
+		primal_repeat = 0,
+		offset_z = 20,
+		first_delay = 4.5,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345215,
+		senior_delay = 2,
+		angle = -80,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345216] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = -3,
+		delta_offset_z = 0,
+		delta_angle = -3.6,
+		primal_repeat = 19,
+		offset_z = 14,
+		first_delay = 1.6,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345216,
+		senior_delay = 0,
+		angle = 94,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345217] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = -3,
+		delta_offset_z = 0,
+		delta_angle = -3.6,
+		primal_repeat = 19,
+		offset_z = 14,
+		first_delay = 1.6,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345217,
+		senior_delay = 0,
+		angle = -12,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345218] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = -3,
+		delta_offset_z = 0,
+		delta_angle = 3.6,
+		primal_repeat = 19,
+		offset_z = 14,
+		first_delay = 6.1,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345218,
+		senior_delay = 0,
+		angle = -74,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345219] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = -3,
+		delta_offset_z = 0,
+		delta_angle = 3.6,
+		primal_repeat = 19,
+		offset_z = 14,
+		first_delay = 6.1,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345219,
+		senior_delay = 0,
+		angle = 12,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345220] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 6,
+		primal_repeat = 8,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345220,
+		senior_delay = 0,
+		angle = -24,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345221] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 35,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = true,
+		senior_repeat = 0,
+		id = 3345221,
+		senior_delay = 0,
+		angle = 360,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345222] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345222,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345223] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -9,
+		primal_repeat = 26,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345223,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345224] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 180,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345224,
+		senior_delay = 0,
+		angle = 186,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345225] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 120,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 6,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345225,
+		senior_delay = 0,
+		angle = 90,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345226] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 6,
+		primal_repeat = 59,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345226,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345227] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 180,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345227,
+		senior_delay = 0,
+		angle = 174,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345228] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 3345228,
+		senior_delay = 6.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345229] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 35,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345229,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345230] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 35,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345230,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345231] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345231,
+		senior_delay = 2.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345232] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -36.86,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345232,
+		senior_delay = 0.12,
+		angle = 18.43,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345233] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -32.38,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345233,
+		senior_delay = 0.12,
+		angle = 16.19,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345234] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -28.08,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345234,
+		senior_delay = 0.12,
+		angle = 14.04,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345235] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -23.96,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345235,
+		senior_delay = 0.12,
+		angle = 11.98,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345236] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -20.02,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345236,
+		senior_delay = 0.12,
+		angle = 10.01,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345237] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -16.26,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345237,
+		senior_delay = 0.12,
+		angle = 8.13,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345238] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -12.68,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345238,
+		senior_delay = 0.12,
+		angle = 6.34,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345239] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -9.28,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345239,
+		senior_delay = 0.12,
+		angle = 4.64,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345240] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -6.02,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345240,
+		senior_delay = 0.12,
+		angle = 3.01,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345241] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -2.94,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345241,
+		senior_delay = 0.12,
+		angle = 1.47,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345242] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345242,
+		senior_delay = 0.12,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345243] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.04,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 6,
+		primal_repeat = 25,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345243,
+		senior_delay = 0,
+		angle = -180,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345244] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.04,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -6,
+		primal_repeat = 25,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345244,
+		senior_delay = 0,
+		angle = 180,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345245] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.04,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 5,
+		primal_repeat = 25,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345245,
+		senior_delay = 0,
+		angle = -144,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345246] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.04,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -5,
+		primal_repeat = 25,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345246,
+		senior_delay = 0,
+		angle = 144,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345247] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -20,
+		delta_offset_z = 6,
+		delta_angle = 0,
+		primal_repeat = 12,
+		offset_z = -36,
+		first_delay = 0.8,
+		random_angle = false,
+		senior_repeat = 7,
+		id = 3345247,
+		senior_delay = 1.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345248] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -20,
+		delta_offset_z = 6,
+		delta_angle = 0,
+		primal_repeat = 13,
+		offset_z = -39,
+		first_delay = 1.6,
+		random_angle = false,
+		senior_repeat = 6,
+		id = 3345248,
+		senior_delay = 1.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345249] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345249,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345250] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.5,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 3,
+		random_angle = false,
+		senior_repeat = 3,
+		id = 3345250,
+		senior_delay = 1.6,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345251] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345251,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345252] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 66,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = 24,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345252,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345253] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 54,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = 12,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345253,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345254] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 66,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345254,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345255] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 54,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = -12,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345255,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345256] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 66,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = -24,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345256,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345257] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 54,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = -36,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345257,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345258] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 54,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = 24,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345258,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345259] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 66,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = 12,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345259,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345260] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 54,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345260,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345261] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 66,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = -12,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345261,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345262] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 54,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = -24,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345262,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345263] = {
+		offset_prioritise = false,
+		delta_offset_x = -24,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 66,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 3,
+		offset_z = -36,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345263,
+		senior_delay = 3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345264] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 17.12,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345264,
+		senior_delay = 0,
+		angle = -8.56,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345265] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 14.98,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345265,
+		senior_delay = 0,
+		angle = -7.49,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345266] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 12.84,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345266,
+		senior_delay = 0,
+		angle = -6.42,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345267] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 10.7,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345267,
+		senior_delay = 0,
+		angle = -5.35,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345268] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 8.56,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345268,
+		senior_delay = 0,
+		angle = -4.28,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345269] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 6.42,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345269,
+		senior_delay = 0,
+		angle = -3.21,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345270] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 4.28,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345270,
+		senior_delay = 0,
+		angle = -2.14,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345271] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 2.14,
+		primal_repeat = 1,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345271,
+		senior_delay = 0,
+		angle = -1.07,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345272] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345272,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345273] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 60,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345273,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345274] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 60,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 10,
+		id = 3345274,
+		senior_delay = 2,
+		angle = 30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345275] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = true,
+		senior_repeat = 99,
+		id = 3345275,
+		senior_delay = 1.6,
+		angle = 360,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345276] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 24,
+		primal_repeat = 14,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345276,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345277] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 24,
+		primal_repeat = 14,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345277,
+		senior_delay = 0,
+		angle = 12,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345278] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345278,
+		senior_delay = 0,
+		angle = 60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345279] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345279,
+		senior_delay = 0,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345280] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.08,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345280,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345281] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.08,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 5,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345281,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345282] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345282,
+		senior_delay = 0,
+		angle = -30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345283] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 5,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 1.5,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345283,
+		senior_delay = 0,
+		angle = -5,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345284] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 3,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345284,
+		senior_delay = 0,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345285] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 4,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 4.5,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345285,
+		senior_delay = 0,
+		angle = -8,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345286] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 6,
+		offset_z = 0,
+		first_delay = 6,
+		random_angle = false,
+		senior_repeat = 1,
+		id = 3345286,
+		senior_delay = 1,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345287] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 2,
+		id = 3345287,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345288] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -5,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.5,
+		random_angle = false,
+		senior_repeat = 2,
+		id = 3345288,
+		senior_delay = 1.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345289] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = -5,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 5.5,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3345289,
+		senior_delay = 0.5,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345290] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 12,
+		offset_z = -20,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 30,
+		id = 3345290,
+		senior_delay = 2,
+		angle = 15,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345291] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 12,
+		offset_z = 20,
+		first_delay = 1,
+		random_angle = false,
+		senior_repeat = 30,
+		id = 3345291,
+		senior_delay = 2,
+		angle = 15,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345292] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 3,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345292,
+		senior_delay = 0,
+		angle = -7,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345293] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 3,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345293,
+		senior_delay = 0,
+		angle = -6,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345294] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 3,
+		primal_repeat = 4,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3345294,
+		senior_delay = 0,
+		angle = -5,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345295] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 12,
+		offset_z = -20,
+		first_delay = 99,
+		random_angle = false,
+		senior_repeat = 30,
+		id = 3345295,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3345296] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 30,
+		primal_repeat = 12,
+		offset_z = 20,
+		first_delay = 99,
+		random_angle = false,
+		senior_repeat = 30,
+		id = 3345296,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346001] = {
+		offset_prioritise = false,
+		delta_offset_x = 100,
+		delta_delay = 0.1,
+		delay = 5.2,
+		offset_x = 4,
+		delta_offset_z = 5,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 10,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3346001,
+		senior_delay = 2,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346002] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 20,
+		primal_repeat = 6,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3346002,
+		senior_delay = 0,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346003] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = -4,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = -4,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3346003,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346004] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.2,
+		offset_x = 0,
+		delta_offset_z = 4,
+		delta_angle = 0,
+		primal_repeat = 2,
+		offset_z = 4,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3346004,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346005] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 5,
+		id = 3346005,
+		senior_delay = 0.12,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346006] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 2,
+		id = 3346006,
+		senior_delay = 0.3,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346007] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 4,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3346007,
+		senior_delay = 0,
+		angle = 70,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346008] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = -4,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3346008,
+		senior_delay = 0,
+		angle = -70,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346009] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 9,
+		id = 3346009,
+		senior_delay = 0.08,
+		angle = -20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346010] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 9,
+		id = 3346010,
+		senior_delay = 0.08,
+		angle = 20,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346011] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -30,
+		primal_repeat = 3,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3346011,
+		senior_delay = 0,
+		angle = 45,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346012] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = -30,
+		primal_repeat = 2,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3346012,
+		senior_delay = 0,
+		angle = 30,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346013] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.6,
+		offset_x = 0,
+		delta_offset_z = 16,
+		delta_angle = 0,
+		primal_repeat = 1,
+		offset_z = -8,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3346013,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3346014] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 4,
+		id = 3346014,
+		senior_delay = 0.12,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3347001] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 10,
+		delta_angle = 0,
+		primal_repeat = 7,
+		offset_z = -45,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3347001,
+		senior_delay = 0,
+		angle = 0,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3347002] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 15,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3347002,
+		senior_delay = 0,
+		angle = -60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3347003] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0.1,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 15,
+		offset_z = 0,
+		first_delay = 0,
+		random_angle = false,
+		senior_repeat = 0,
+		id = 3347003,
+		senior_delay = 0,
+		angle = 60,
+		trans_ID = -1
+	}
+end)()
+
+(function()
+	_G.pg.base.barrage_template[3347004] = {
+		offset_prioritise = false,
+		delta_offset_x = 0,
+		delta_delay = 0,
+		delay = 0,
+		offset_x = 0,
+		delta_offset_z = 0,
+		delta_angle = 0,
+		primal_repeat = 0,
+		offset_z = 0,
+		first_delay = 0.3,
+		random_angle = false,
+		senior_repeat = 7,
+		id = 3347004,
+		senior_delay = 0.3,
+		angle = 0,
 		trans_ID = -1
 	}
 end)()

@@ -337,6 +337,11 @@ pg.task_meta_data_template = setmetatable({
 		100493,
 		100494,
 		100495,
+		100501,
+		100502,
+		100503,
+		100504,
+		100505,
 		200001,
 		200002,
 		200003,
@@ -496,7 +501,11 @@ pg.task_meta_data_template = setmetatable({
 		200401,
 		200402,
 		200403,
-		200404
+		200404,
+		200411,
+		200412,
+		200413,
+		200414
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3181,6 +3190,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100501] = {
+		target_id_2 = "970209",
+		sub_type = 180,
+		desc = "使用克利夫兰·META获得1次胜利",
+		id = 100501,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100502] = {
+		target_id_2 = "970209",
+		sub_type = 180,
+		desc = "使用克利夫兰·META击破等级＞30的敌方1次",
+		id = 100502,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100503] = {
+		target_id_2 = "970209",
+		sub_type = 180,
+		desc = "使用克利夫兰·META击破等级＞55的敌方1次",
+		id = 100503,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100504] = {
+		target_id_2 = "970209",
+		sub_type = 180,
+		desc = "使用克利夫兰·META击破等级＞80的敌方1次",
+		id = 100504,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100505] = {
+		target_id_2 = "970209",
+		sub_type = 180,
+		desc = "使用克利夫兰·META击破等级＞100的敌方1次",
+		id = 100505,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -4458,6 +4507,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用约克城·META击破等级＞100的敌方1次",
 		id = 200404,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200411] = {
+		target_id_2 = "970209",
+		sub_type = 302,
+		desc = "大型作战内使用克利夫兰·META获得1次胜利",
+		id = 200411,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200412] = {
+		target_id_2 = "970209",
+		sub_type = 302,
+		desc = "大型作战内使用克利夫兰·META击破等级＞70的敌方1次",
+		id = 200412,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200413] = {
+		target_id_2 = "970209",
+		sub_type = 302,
+		desc = "大型作战内使用克利夫兰·META击破等级＞90的敌方1次",
+		id = 200413,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200414] = {
+		target_id_2 = "970209",
+		sub_type = 302,
+		desc = "大型作战内使用克利夫兰·META击破等级＞100的敌方1次",
+		id = 200414,
 		target_num = 1,
 		target_id = "100"
 	}

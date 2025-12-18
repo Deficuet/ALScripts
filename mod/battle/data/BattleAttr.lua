@@ -337,6 +337,8 @@ function var_0_0.SetPlayerAttrFromOutBattle(arg_34_0, arg_34_1, arg_34_2)
 	var_34_0.barrageCounterMod = 1
 	var_34_0.TargetChoise = {}
 	var_34_0.guardian = {}
+	var_34_0.injureRatioKamikazeAir = 1
+	var_34_0.injureRatioKamikazeShip = 1
 
 	var_0_0.SetBaseAttr(arg_34_0)
 end

@@ -48803,6 +48803,421 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[17280] = {
+		rarity = 5,
+		name = "F4U海盗（VBF-94中队）",
+		speciality = "<[BOMB]>",
+		type = 9,
+		tech = 0,
+		ammo = 5,
+		nationality = 1,
+		descrip = "曾经服役于列克星敦号的VBF-94中队",
+		id = 17280,
+		torpedo_ammo = 0,
+		value_3 = 0,
+		value_2 = 45,
+		icon = "17280",
+		attribute_2 = "air",
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {
+			{
+				6,
+				50460
+			},
+			{
+				5,
+				52380
+			}
+		},
+		equip_info = {
+			6,
+			7,
+			8,
+			9
+		},
+		weapon_id = {
+			19320
+		},
+		skill_id = {
+			{
+				61000,
+				1
+			}
+		},
+		hidden_skill_id = {},
+		part_main = {
+			6,
+			7
+		},
+		part_sub = {
+			6,
+			7
+		},
+		equip_parameters = {},
+		label = {
+			"USS",
+			"CV",
+			"DB"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17281] = {
+		id = 17281,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50461
+			},
+			{
+				5,
+				52381
+			}
+		},
+		weapon_id = {
+			19321
+		},
+		skill_id = {
+			{
+				61000,
+				2
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17282] = {
+		id = 17282,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50462
+			},
+			{
+				5,
+				52382
+			}
+		},
+		weapon_id = {
+			19322
+		},
+		skill_id = {
+			{
+				61000,
+				3
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17283] = {
+		id = 17283,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50463
+			},
+			{
+				5,
+				52383
+			}
+		},
+		weapon_id = {
+			19323
+		},
+		skill_id = {
+			{
+				61000,
+				4
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17284] = {
+		id = 17284,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50464
+			},
+			{
+				5,
+				52384
+			}
+		},
+		weapon_id = {
+			19324
+		},
+		skill_id = {
+			{
+				61000,
+				5
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17285] = {
+		id = 17285,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50465
+			},
+			{
+				5,
+				52385
+			}
+		},
+		weapon_id = {
+			19325
+		},
+		skill_id = {
+			{
+				61000,
+				6
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17286] = {
+		id = 17286,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50466
+			},
+			{
+				5,
+				52386
+			}
+		},
+		weapon_id = {
+			19326
+		},
+		skill_id = {
+			{
+				61000,
+				7
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17287] = {
+		id = 17287,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50467
+			},
+			{
+				5,
+				52387
+			}
+		},
+		weapon_id = {
+			19327
+		},
+		skill_id = {
+			{
+				61000,
+				8
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17288] = {
+		id = 17288,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50468
+			},
+			{
+				5,
+				52388
+			}
+		},
+		weapon_id = {
+			19328
+		},
+		skill_id = {
+			{
+				61000,
+				9
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17289] = {
+		id = 17289,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50469
+			},
+			{
+				5,
+				52389
+			}
+		},
+		weapon_id = {
+			19329
+		},
+		skill_id = {
+			{
+				61000,
+				10
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17290] = {
+		id = 17290,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50470
+			},
+			{
+				5,
+				52390
+			}
+		},
+		weapon_id = {
+			19330
+		},
+		skill_id = {
+			{
+				61000,
+				11
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17291] = {
+		id = 17291,
+		anti_siren = 100,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50471
+			},
+			{
+				5,
+				52391
+			}
+		},
+		weapon_id = {
+			19331
+		},
+		skill_id = {
+			{
+				61000,
+				12
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17292] = {
+		id = 17292,
+		anti_siren = 200,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50472
+			},
+			{
+				5,
+				52392
+			}
+		},
+		weapon_id = {
+			19332
+		},
+		skill_id = {
+			{
+				61000,
+				13
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[17293] = {
+		id = 17293,
+		anti_siren = 300,
+		base = 17280,
+		ammo_info = {
+			{
+				6,
+				50473
+			},
+			{
+				5,
+				52393
+			}
+		},
+		weapon_id = {
+			19333
+		},
+		skill_id = {
+			{
+				61000,
+				14
+			}
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[17300] = {
 		rarity = 3,
 		name = "F6F地狱猫",
@@ -134649,6 +135064,62 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[61171] = {
+		type = 99,
+		name = "航空攻击展示-埃塞克斯-列克星敦I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "航母空袭展示用",
+		id = 61171,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61171
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {},
+		part_sub = {},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61172] = {
+		id = 61172,
+		name = "航空攻击展示-埃塞克斯-列克星敦II",
+		base = 61171,
+		weapon_id = {
+			61172
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[61173] = {
+		id = 61173,
+		name = "航空攻击展示-埃塞克斯-列克星敦II",
+		base = 61171,
+		weapon_id = {
+			61173
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[61501] = {
 		type = 99,
 		name = "轰炸机外观预览飞机",
@@ -150368,6 +150839,120 @@ end)()
 		base = 80541,
 		weapon_id = {
 			170892
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80551] = {
+		type = 2,
+		name = "专属弹幕-克利夫兰METAⅠ",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80551,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			170911
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80552] = {
+		id = 80552,
+		name = "专属弹幕-克利夫兰METAⅠⅠ",
+		base = 80551,
+		weapon_id = {
+			170912
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80561] = {
+		type = 1,
+		name = "专属弹幕-威廉D波特I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80561,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61801
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80562] = {
+		id = 80562,
+		name = "专属弹幕-威廉D波特II",
+		base = 80561,
+		weapon_id = {
+			61802
 		},
 		hidden_skill_id = {}
 	}

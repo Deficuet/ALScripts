@@ -6790,6 +6790,267 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.aircraft_template[17280] = {
+		attack_power = 2,
+		name = "F4U海盗（VBF-94中队）",
+		type = 3,
+		accuracy = 23,
+		model_ID = "F4U94",
+		ACC_growth = 0,
+		crash_DMG = 200,
+		dodge = 3.15,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 17280,
+		icon = "F4U94",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 1.5,
+		hp_growth = 1916,
+		speed = 45,
+		max_hp = 50,
+		scale = 1,
+		weapon_ID = {
+			50460,
+			52380
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.88,
+					-1.34,
+					0
+				},
+				{
+					0.93,
+					1.44,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17281] = {
+		max_hp = 57,
+		hp_growth = 2203,
+		base = 17280,
+		id = 17281,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50461,
+			52381
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17282] = {
+		max_hp = 65,
+		hp_growth = 2491,
+		base = 17280,
+		id = 17282,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50462,
+			52382
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17283] = {
+		max_hp = 72,
+		hp_growth = 2778,
+		base = 17280,
+		id = 17283,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50463,
+			52383
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17284] = {
+		max_hp = 80,
+		hp_growth = 3066,
+		base = 17280,
+		id = 17284,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50464,
+			52384
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17285] = {
+		max_hp = 87,
+		hp_growth = 3353,
+		base = 17280,
+		id = 17285,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50465,
+			52385
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17286] = {
+		max_hp = 95,
+		hp_growth = 3640,
+		base = 17280,
+		id = 17286,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50466,
+			52386
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17287] = {
+		max_hp = 102,
+		hp_growth = 3928,
+		base = 17280,
+		id = 17287,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50467,
+			52387
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17288] = {
+		max_hp = 110,
+		hp_growth = 4215,
+		base = 17280,
+		id = 17288,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50468,
+			52388
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17289] = {
+		max_hp = 117,
+		hp_growth = 4503,
+		base = 17280,
+		id = 17289,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50469,
+			52389
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17290] = {
+		max_hp = 125,
+		hp_growth = 4790,
+		base = 17280,
+		id = 17290,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50470,
+			52390
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17291] = {
+		max_hp = 132,
+		hp_growth = 5077,
+		base = 17280,
+		id = 17291,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50471,
+			52391
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17292] = {
+		max_hp = 139,
+		hp_growth = 5365,
+		base = 17280,
+		id = 17292,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50472,
+			52392
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[17293] = {
+		max_hp = 147,
+		hp_growth = 5652,
+		base = 17280,
+		id = 17293,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50473,
+			52393
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.aircraft_template[17300] = {
 		attack_power = 2,
 		name = "F6F地狱猫",
@@ -13938,6 +14199,267 @@ end)()
 			50673,
 			52693,
 			59893
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19320] = {
+		attack_power = 2,
+		name = "F4U海盗（VBF-94中队）",
+		type = 3,
+		accuracy = 23,
+		model_ID = "F4U94",
+		ACC_growth = 0,
+		crash_DMG = 200,
+		dodge = 3.15,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 19320,
+		icon = "F4U94",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 1.5,
+		hp_growth = 1916,
+		speed = 45,
+		max_hp = 50,
+		scale = 1,
+		weapon_ID = {
+			50460,
+			53440
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.88,
+					-1.34,
+					0
+				},
+				{
+					0.93,
+					1.44,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19321] = {
+		max_hp = 57,
+		hp_growth = 2203,
+		base = 19320,
+		id = 19321,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50461,
+			53441
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19322] = {
+		max_hp = 65,
+		hp_growth = 2491,
+		base = 19320,
+		id = 19322,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50462,
+			53442
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19323] = {
+		max_hp = 72,
+		hp_growth = 2778,
+		base = 19320,
+		id = 19323,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50463,
+			53443
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19324] = {
+		max_hp = 80,
+		hp_growth = 3066,
+		base = 19320,
+		id = 19324,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50464,
+			53444
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19325] = {
+		max_hp = 87,
+		hp_growth = 3353,
+		base = 19320,
+		id = 19325,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50465,
+			53445
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19326] = {
+		max_hp = 95,
+		hp_growth = 3640,
+		base = 19320,
+		id = 19326,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50466,
+			53446
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19327] = {
+		max_hp = 102,
+		hp_growth = 3928,
+		base = 19320,
+		id = 19327,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50467,
+			53447
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19328] = {
+		max_hp = 110,
+		hp_growth = 4215,
+		base = 19320,
+		id = 19328,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50468,
+			53448
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19329] = {
+		max_hp = 117,
+		hp_growth = 4503,
+		base = 19320,
+		id = 19329,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50469,
+			53449
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19330] = {
+		max_hp = 125,
+		hp_growth = 4790,
+		base = 19320,
+		id = 19330,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50470,
+			53450
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19331] = {
+		max_hp = 132,
+		hp_growth = 5077,
+		base = 19320,
+		id = 19331,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50471,
+			53451
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19332] = {
+		max_hp = 139,
+		hp_growth = 5365,
+		base = 19320,
+		id = 19332,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50472,
+			53452
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[19333] = {
+		max_hp = 147,
+		hp_growth = 5652,
+		base = 19320,
+		id = 19333,
+		spawn_brownian = 1,
+		weapon_ID = {
+			50473,
+			53453
 		}
 	}
 end)()
@@ -96602,6 +97124,804 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.aircraft_template[169761] = {
+		attack_power = 2,
+		name = "科本斯技能鱼雷机1Lv1",
+		type = 2,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 169761,
+		icon = "tbf",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1615,
+		speed = 48,
+		max_hp = 42,
+		scale = 1,
+		weapon_ID = {
+			169781
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169762] = {
+		id = 169762,
+		name = "科本斯技能鱼雷机1Lv2",
+		hp_growth = 1826,
+		base = 169761,
+		max_hp = 47,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169782
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169763] = {
+		id = 169763,
+		name = "科本斯技能鱼雷机1Lv3",
+		hp_growth = 2036,
+		base = 169761,
+		max_hp = 53,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169783
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169764] = {
+		id = 169764,
+		name = "科本斯技能鱼雷机1Lv4",
+		hp_growth = 2247,
+		base = 169761,
+		max_hp = 58,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169784
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169765] = {
+		id = 169765,
+		name = "科本斯技能鱼雷机1Lv5",
+		hp_growth = 2458,
+		base = 169761,
+		max_hp = 64,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169785
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169766] = {
+		id = 169766,
+		name = "科本斯技能鱼雷机1Lv6",
+		hp_growth = 2669,
+		base = 169761,
+		max_hp = 69,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169786
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169767] = {
+		id = 169767,
+		name = "科本斯技能鱼雷机1Lv7",
+		hp_growth = 2879,
+		base = 169761,
+		max_hp = 75,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169787
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169768] = {
+		id = 169768,
+		name = "科本斯技能鱼雷机1Lv8",
+		hp_growth = 3090,
+		base = 169761,
+		max_hp = 80,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169788
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169769] = {
+		id = 169769,
+		name = "科本斯技能鱼雷机1Lv9",
+		hp_growth = 3301,
+		base = 169761,
+		max_hp = 86,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169789
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169770] = {
+		id = 169770,
+		name = "科本斯技能鱼雷机1Lv10",
+		hp_growth = 3511,
+		base = 169761,
+		max_hp = 91,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169790
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169771] = {
+		attack_power = 2,
+		name = "科本斯技能鱼雷机2Lv1",
+		type = 2,
+		accuracy = 23,
+		model_ID = "tbf",
+		ACC_growth = 0,
+		crash_DMG = 406,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 169771,
+		icon = "tbf",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1615,
+		speed = 48,
+		max_hp = 42,
+		scale = 1,
+		weapon_ID = {
+			169791
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.52,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169772] = {
+		id = 169772,
+		name = "科本斯技能鱼雷机2Lv2",
+		hp_growth = 1826,
+		base = 169771,
+		max_hp = 47,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169792
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169773] = {
+		id = 169773,
+		name = "科本斯技能鱼雷机2Lv3",
+		hp_growth = 2036,
+		base = 169771,
+		max_hp = 53,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169793
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169774] = {
+		id = 169774,
+		name = "科本斯技能鱼雷机2Lv4",
+		hp_growth = 2247,
+		base = 169771,
+		max_hp = 58,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169794
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169775] = {
+		id = 169775,
+		name = "科本斯技能鱼雷机2Lv5",
+		hp_growth = 2458,
+		base = 169771,
+		max_hp = 64,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169795
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169776] = {
+		id = 169776,
+		name = "科本斯技能鱼雷机2Lv6",
+		hp_growth = 2669,
+		base = 169771,
+		max_hp = 69,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169796
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169777] = {
+		id = 169777,
+		name = "科本斯技能鱼雷机2Lv7",
+		hp_growth = 2879,
+		base = 169771,
+		max_hp = 75,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169797
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169778] = {
+		id = 169778,
+		name = "科本斯技能鱼雷机2Lv8",
+		hp_growth = 3090,
+		base = 169771,
+		max_hp = 80,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169798
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169779] = {
+		id = 169779,
+		name = "科本斯技能鱼雷机2Lv9",
+		hp_growth = 3301,
+		base = 169771,
+		max_hp = 86,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169799
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169780] = {
+		id = 169780,
+		name = "科本斯技能鱼雷机2Lv10",
+		hp_growth = 3511,
+		base = 169771,
+		max_hp = 91,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169800
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169811] = {
+		attack_power = 2,
+		name = "列克星敦Ⅱ技能弹幕",
+		type = 1,
+		accuracy = 23,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 0.315,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 169811,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 11,
+		hp_growth = 2076,
+		speed = 50,
+		max_hp = 54,
+		scale = 1,
+		weapon_ID = {
+			169821
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169812] = {
+		max_hp = 62,
+		hp_growth = 2387,
+		base = 169811,
+		id = 169812,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169822
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169813] = {
+		max_hp = 70,
+		hp_growth = 2698,
+		base = 169811,
+		id = 169813,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169823
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169814] = {
+		max_hp = 78,
+		hp_growth = 3010,
+		base = 169811,
+		id = 169814,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169824
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169815] = {
+		max_hp = 86,
+		hp_growth = 3321,
+		base = 169811,
+		id = 169815,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169825
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169816] = {
+		max_hp = 94,
+		hp_growth = 3632,
+		base = 169811,
+		id = 169816,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169826
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169817] = {
+		max_hp = 103,
+		hp_growth = 3944,
+		base = 169811,
+		id = 169817,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169827
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169818] = {
+		max_hp = 111,
+		hp_growth = 4255,
+		base = 169811,
+		id = 169818,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169828
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169819] = {
+		max_hp = 119,
+		hp_growth = 4566,
+		base = 169811,
+		id = 169819,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169829
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169820] = {
+		max_hp = 127,
+		hp_growth = 4878,
+		base = 169811,
+		id = 169820,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169830
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169831] = {
+		attack_power = 2,
+		name = "列克星敦Ⅱ技能弹幕",
+		type = 3,
+		accuracy = 24,
+		model_ID = "f6f",
+		ACC_growth = 0,
+		crash_DMG = 156,
+		dodge = 0.315,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 169831,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 11,
+		hp_growth = 1785,
+		speed = 50,
+		max_hp = 54,
+		scale = 1,
+		weapon_ID = {
+			169841
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					-1.28,
+					1.62,
+					0
+				},
+				{
+					-1.12,
+					-1,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169832] = {
+		max_hp = 62,
+		hp_growth = 2018,
+		base = 169831,
+		id = 169832,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169842
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169833] = {
+		max_hp = 70,
+		hp_growth = 2251,
+		base = 169831,
+		id = 169833,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169843
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169834] = {
+		max_hp = 78,
+		hp_growth = 2484,
+		base = 169831,
+		id = 169834,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169844
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169835] = {
+		max_hp = 86,
+		hp_growth = 2717,
+		base = 169831,
+		id = 169835,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169845
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169836] = {
+		max_hp = 94,
+		hp_growth = 2949,
+		base = 169831,
+		id = 169836,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169846
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169837] = {
+		max_hp = 103,
+		hp_growth = 3182,
+		base = 169831,
+		id = 169837,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169847
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169838] = {
+		max_hp = 111,
+		hp_growth = 3415,
+		base = 169831,
+		id = 169838,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169848
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169839] = {
+		max_hp = 119,
+		hp_growth = 3648,
+		base = 169831,
+		id = 169839,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169849
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[169840] = {
+		max_hp = 127,
+		hp_growth = 3881,
+		base = 169831,
+		id = 169840,
+		spawn_brownian = 1,
+		weapon_ID = {
+			169850
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.aircraft_template[170844] = {
 		attack_power = 2,
 		name = "伊404雷击晴岚-专属弹幕用",
@@ -96838,6 +98158,84 @@ end)()
 			{
 				0.72,
 				-0.15,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[180023] = {
+		attack_power = 2,
+		name = "威廉D波特 跨队自己飞",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_bote",
+		ACC_growth = 0,
+		crash_DMG = 188,
+		dodge = 1.05,
+		funnel_behavior = "",
+		nationality = 1,
+		id = 180023,
+		icon = "f6f",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 5,
+		hp_growth = 1386,
+		speed = 52,
+		max_hp = 99999,
+		scale = 1,
+		weapon_ID = {
+			180024
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.68,
+					-0.667,
+					0
+				},
+				{
+					0.97,
+					0.584,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.26,
+				0,
 				0
 			},
 			{
@@ -295625,6 +297023,564 @@ end)()
 		weapon_ID = {
 			3335008,
 			3335009
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.71,
+					-1.73,
+					0
+				},
+				{
+					0.82,
+					2.04,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3341005] = {
+		attack_power = 2,
+		name = "【2025列克星敦II活动B1】BOSS 拟态兽-女皇 第二波 大批量舰载机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_unknownV03",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3341005,
+		icon = "feiji_unknownV03",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1680,
+		speed = 33,
+		max_hp = 60,
+		scale = 0.75,
+		weapon_ID = {
+			3341006,
+			3341007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3341201] = {
+		attack_power = 2,
+		name = "【2025列克星敦II活动B3】BOSS 拟态兽-魔术师 常驻舰载机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_boss_magician_feiji",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3341201,
+		icon = "unknownV_boss_magician_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1680,
+		speed = 33,
+		max_hp = 80,
+		scale = 0.75,
+		weapon_ID = {
+			3341202,
+			3341203
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3341210] = {
+		attack_power = 2,
+		name = "【2025列克星敦II活动B3】BOSS 拟态兽-魔术师 第三波 浮游炮舰载机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_boss_magician_feiji",
+		ACC_growth = 0,
+		crash_DMG = 108,
+		dodge = 1,
+		nationality = 3,
+		id = 3341210,
+		icon = "unknownV_boss_magician_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2760,
+		speed = 70,
+		max_hp = 250,
+		scale = 0.75,
+		funnel_behavior = {
+			exist = 8,
+			stay = 2
+		},
+		weapon_ID = {
+			3341211,
+			3341212
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3343005] = {
+		attack_power = 2,
+		name = "【2025列克星敦II活动D1】BOSS 拟态兽-女皇 第二波 大批量舰载机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "feiji_unknownV03",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3343005,
+		icon = "feiji_unknownV03",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1680,
+		speed = 33,
+		max_hp = 80,
+		scale = 0.75,
+		weapon_ID = {
+			3343006,
+			3343007
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3343201] = {
+		attack_power = 2,
+		name = "【2025列克星敦II活动D3】BOSS 拟态兽-魔术师 常驻舰载机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_boss_magician_feiji",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3343201,
+		icon = "unknownV_boss_magician_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1680,
+		speed = 33,
+		max_hp = 100,
+		scale = 0.75,
+		weapon_ID = {
+			3343202,
+			3343203
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3343210] = {
+		attack_power = 2,
+		name = "【2025列克星敦II活动D3】BOSS 拟态兽-魔术师 第三波 浮游炮舰载机",
+		type = 1,
+		accuracy = 23,
+		model_ID = "unknownV_boss_magician_feiji",
+		ACC_growth = 0,
+		crash_DMG = 108,
+		dodge = 1,
+		nationality = 3,
+		id = 3343210,
+		icon = "unknownV_boss_magician_feiji",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 2760,
+		speed = 70,
+		max_hp = 250,
+		scale = 0.75,
+		funnel_behavior = {
+			exist = 8,
+			stay = 2
+		},
+		weapon_ID = {
+			3343211,
+			3343212
+		},
+		position_offset = {
+			0,
+			5,
+			0
+		},
+		cld_box = {
+			1,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			weapon = {
+				{
+					0.56,
+					-0.76,
+					0
+				},
+				{
+					0.48,
+					0.99,
+					0
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.aircraft_template[3347001] = {
+		attack_power = 2,
+		name = "【2025列克星敦II活动 剧情战】大黄蜂META 全图轰炸 飞机",
+		type = 3,
+		accuracy = 23,
+		model_ID = "udf_feiji02",
+		ACC_growth = 0,
+		crash_DMG = 10,
+		dodge = 1,
+		funnel_behavior = "",
+		nationality = 3,
+		id = 3347001,
+		icon = "udf_feiji02",
+		spawn_brownian = 1,
+		AP_growth = 2000,
+		dodge_limit = 0,
+		hp_growth = 1680,
+		speed = 60,
+		max_hp = 80,
+		scale = 0.75,
+		weapon_ID = {
+			3347002
 		},
 		position_offset = {
 			0,

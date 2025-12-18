@@ -83,131 +83,148 @@ function var_0_0.OnInit(arg_2_0)
 
 		local var_10_0 = {}
 
-		for iter_10_0, iter_10_1 in ipairs(arg_2_0.displayList) do
-			if arg_2_0.countList[iter_10_0] > 0 then
-				table.insert(var_10_0, {
-					id = iter_10_1.id,
-					count = arg_2_0.countList[iter_10_0],
-					arg = Item.getConfigData(iter_10_1.id).usage_arg[arg_2_0.awardList[iter_10_0].index]
+		if arg_2_0.isSwitch and not arg_2_0.blueprintVO:IsFate() then
+			table.insert(var_10_0, function(arg_11_0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("blueprint_lab_exchange_fate_unlock"),
+					onYes = arg_11_0
 				})
-			end
+			end)
 		end
 
-		arg_2_0:emit(ShipBluePrintMediator.QUICK_EXCHAGE_BLUEPRINT, var_10_0)
-		arg_2_0:Hide()
+		seriesAsync(var_10_0, function()
+			local var_12_0 = {}
+
+			for iter_12_0, iter_12_1 in ipairs(arg_2_0.displayList) do
+				if arg_2_0.countList[iter_12_0] > 0 then
+					table.insert(var_12_0, {
+						id = iter_12_1.id,
+						count = arg_2_0.countList[iter_12_0],
+						arg = Item.getConfigData(iter_12_1.id).usage_arg[arg_2_0.awardList[iter_12_0].index]
+					})
+				end
+			end
+
+			arg_2_0:emit(ShipBluePrintMediator.QUICK_EXCHAGE_BLUEPRINT, var_12_0)
+			arg_2_0:Hide()
+		end)
 	end, SFX_CANCEL)
 
 	arg_2_0.rtResult = arg_2_0._tf:Find("window/result")
 	arg_2_0.rtTarget = arg_2_0.rtResult:Find("target")
 	arg_2_0.rtExchange = arg_2_0.rtResult:Find("exchange")
+	arg_2_0.fate = arg_2_0.rtResult:Find("fate")
+	arg_2_0.fateText = arg_2_0.fate:Find("Text")
 
 	setText(arg_2_0.rtExchange:Find("bg/title"), i18n("blueprint_exchange_select_display"))
 
 	arg_2_0.toggleSwitch = arg_2_0.rtResult:Find("switch")
 
-	setText(arg_2_0.toggleSwitch:Find("front/Text_off"), i18n("show_design_demand_count"))
-	setText(arg_2_0.toggleSwitch:Find("front/Text_on"), i18n("show_fate_demand_count"))
-	onToggle(arg_2_0, arg_2_0.toggleSwitch, function(arg_11_0)
-		arg_2_0.isSwitch = arg_11_0
+	setText(arg_2_0.toggleSwitch:Find("front/Text_off"), i18n("show_fate_demand_count"))
+	setText(arg_2_0.toggleSwitch:Find("front/Text_on"), i18n("show_design_demand_count"))
+	onToggle(arg_2_0, arg_2_0.toggleSwitch, function(arg_13_0)
+		arg_2_0.isSwitch = arg_13_0
 
 		arg_2_0:UpdateResult()
+		setActive(arg_2_0.fate, arg_2_0.isSwitch)
 	end)
 end
 
-function var_0_0.Show(arg_12_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_12_0._tf)
-	setActive(arg_12_0._tf, true)
+function var_0_0.Show(arg_14_0)
+	pg.UIMgr.GetInstance():BlurPanel(arg_14_0._tf)
+	setActive(arg_14_0._tf, true)
 end
 
-function var_0_0.Hide(arg_13_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_13_0._tf, arg_13_0._parentTf)
-	setActive(arg_13_0._tf, false)
+function var_0_0.Hide(arg_15_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_15_0._tf, arg_15_0._parentTf)
+	setActive(arg_15_0._tf, false)
 end
 
-function var_0_0.UpdateBlueprint(arg_14_0, arg_14_1)
-	arg_14_0.blueprintVO = arg_14_1
+function var_0_0.UpdateBlueprint(arg_16_0, arg_16_1)
+	arg_16_0.blueprintVO = arg_16_1
 
-	local var_14_0 = Drop.New({
+	local var_16_0 = Drop.New({
 		type = DROP_TYPE_ITEM,
-		id = arg_14_1:getItemId()
+		id = arg_16_1:getItemId()
 	})
 
-	changeToScrollText(arg_14_0.rtResult:Find("title/Text"), var_14_0:getName())
+	changeToScrollText(arg_16_0.rtResult:Find("title/Text"), var_16_0:getName())
 
-	arg_14_0.displayList = {}
-	arg_14_0.awardList = {}
+	arg_16_0.displayList = {}
+	arg_16_0.awardList = {}
 
-	local var_14_1 = getProxy(BagProxy)
+	local var_16_1 = getProxy(BagProxy)
 
-	for iter_14_0, iter_14_1 in ipairs(pg.gameset.general_blueprint_list.description) do
-		local var_14_2 = var_14_1:getItemCountById(iter_14_1)
+	for iter_16_0, iter_16_1 in ipairs(pg.gameset.general_blueprint_list.description) do
+		local var_16_2 = var_16_1:getItemCountById(iter_16_1)
 
-		if var_14_2 > 0 then
-			local var_14_3
+		if var_16_2 > 0 then
+			local var_16_3
 
-			for iter_14_2, iter_14_3 in ipairs(Drop.New({
+			for iter_16_2, iter_16_3 in ipairs(Drop.New({
 				type = DROP_TYPE_ITEM,
-				id = iter_14_1
+				id = iter_16_1
 			}):getConfig("display_icon")) do
-				if iter_14_3[1] == DROP_TYPE_ITEM and iter_14_3[2] == var_14_0.id then
-					var_14_3 = {
-						index = iter_14_2,
-						count = iter_14_3[3]
+				if iter_16_3[1] == DROP_TYPE_ITEM and iter_16_3[2] == var_16_0.id then
+					var_16_3 = {
+						index = iter_16_2,
+						count = iter_16_3[3]
 					}
 				end
 			end
 
-			if var_14_3 then
-				table.insert(arg_14_0.displayList, {
+			if var_16_3 then
+				table.insert(arg_16_0.displayList, {
 					type = DROP_TYPE_ITEM,
-					id = iter_14_1,
-					count = var_14_2
+					id = iter_16_1,
+					count = var_16_2
 				})
-				table.insert(arg_14_0.awardList, var_14_3)
+				table.insert(arg_16_0.awardList, var_16_3)
 			end
 		end
 	end
 
-	setActive(arg_14_0.rtEmpty, #arg_14_0.displayList == 0)
-	setActive(arg_14_0.itemList.container, #arg_14_0.displayList > 0)
-	updateDrop(arg_14_0.rtResult:Find("target/IconTpl"), var_14_0)
-	GetImageSpriteFromAtlasAsync("ui/fragresolveui_atlas", "bg_" .. ItemRarity.Rarity2Print(var_14_0:getConfig("rarity")), arg_14_0.rtResult:Find("target/bg"))
+	setActive(arg_16_0.rtEmpty, #arg_16_0.displayList == 0)
+	setActive(arg_16_0.itemList.container, #arg_16_0.displayList > 0)
+	updateDrop(arg_16_0.rtResult:Find("target/IconTpl"), var_16_0)
+	GetImageSpriteFromAtlasAsync("ui/fragresolveui_atlas", "bg_" .. ItemRarity.Rarity2Print(var_16_0:getConfig("rarity")), arg_16_0.rtResult:Find("target/bg"))
 
-	arg_14_0.countList = underscore.map(arg_14_0.displayList, function(arg_15_0)
+	arg_16_0.countList = underscore.map(arg_16_0.displayList, function(arg_17_0)
 		return 0
 	end)
-	arg_14_0.count = 0
+	arg_16_0.count = 0
 
-	arg_14_0.itemList:align(#arg_14_0.displayList)
-	triggerToggle(arg_14_0.toggleSwitch, arg_14_1:canFateSimulation())
+	arg_16_0.itemList:align(#arg_16_0.displayList)
+	triggerToggle(arg_16_0.toggleSwitch, arg_16_1:canFateSimulation())
+	setText(arg_16_0.fateText, arg_16_1:IsFate() and i18n("blueprint_lab_fate_unlock") or i18n("blueprint_lab_fate_lock"))
 end
 
-function var_0_0.UpdateResult(arg_16_0)
-	arg_16_0.bagProxy = arg_16_0.bagProxy or getProxy(BagProxy)
-	arg_16_0.need = math.max(arg_16_0.blueprintVO:getUseageMaxItem() + (arg_16_0.isSwitch and arg_16_0.blueprintVO:getFateMaxLeftOver() or 0) - arg_16_0.bagProxy:getItemCountById(arg_16_0.blueprintVO:getItemId()), 0)
+function var_0_0.UpdateResult(arg_18_0)
+	arg_18_0.bagProxy = arg_18_0.bagProxy or getProxy(BagProxy)
+	arg_18_0.need = math.max(arg_18_0.blueprintVO:getUseageMaxItem() + (arg_18_0.isSwitch and arg_18_0.blueprintVO:getFateMaxLeftOver() or 0) - arg_18_0.bagProxy:getItemCountById(arg_18_0.blueprintVO:getItemId()), 0)
 
-	local var_16_0 = #arg_16_0.displayList
+	local var_18_0 = #arg_18_0.displayList
 
-	while var_16_0 > 0 and arg_16_0.count > arg_16_0.need do
-		if arg_16_0.countList[var_16_0] > 0 then
-			local var_16_1 = arg_16_0.awardList[var_16_0].count
-			local var_16_2 = math.floor((arg_16_0.count - arg_16_0.need + var_16_1 - 1) / var_16_1)
+	while var_18_0 > 0 and arg_18_0.count > arg_18_0.need do
+		if arg_18_0.countList[var_18_0] > 0 then
+			local var_18_1 = arg_18_0.awardList[var_18_0].count
+			local var_18_2 = math.floor((arg_18_0.count - arg_18_0.need + var_18_1 - 1) / var_18_1)
 
-			if var_16_2 > arg_16_0.countList[var_16_0] then
-				arg_16_0.count = arg_16_0.count - var_16_1 * arg_16_0.countList[var_16_0]
-				arg_16_0.countList[var_16_0] = 0
+			if var_18_2 > arg_18_0.countList[var_18_0] then
+				arg_18_0.count = arg_18_0.count - var_18_1 * arg_18_0.countList[var_18_0]
+				arg_18_0.countList[var_18_0] = 0
 			else
-				arg_16_0.count = arg_16_0.count - var_16_1 * var_16_2
-				arg_16_0.countList[var_16_0] = arg_16_0.countList[var_16_0] - var_16_2
+				arg_18_0.count = arg_18_0.count - var_18_1 * var_18_2
+				arg_18_0.countList[var_18_0] = arg_18_0.countList[var_18_0] - var_18_2
 			end
 
-			setText(arg_16_0.itemList.container:GetChild(var_16_0 - 1):Find("calc/value"), arg_16_0.countList[var_16_0])
+			setText(arg_18_0.itemList.container:GetChild(var_18_0 - 1):Find("calc/value"), arg_18_0.countList[var_18_0])
 		end
 
-		var_16_0 = var_16_0 - 1
+		var_18_0 = var_18_0 - 1
 	end
 
-	setText(arg_16_0.rtExchange:Find("bg/count"), setColorStr(arg_16_0.count, "#FFEC6E") .. "/" .. arg_16_0.need)
+	setText(arg_18_0.rtExchange:Find("bg/count"), setColorStr(arg_18_0.count, "#FFEC6E") .. "/" .. arg_18_0.need)
 end
 
 return var_0_0

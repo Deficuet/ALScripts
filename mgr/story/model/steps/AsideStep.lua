@@ -15,8 +15,11 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.signDate = arg_1_1.signDate
 	arg_1_0.hideBgAlpha = arg_1_1.hideBgAlpha
 	arg_1_0.rectOffset = arg_1_1.rectOffset
+	arg_1_0.rectMargin = arg_1_1.rectMargin
+	arg_1_0.rectAlpha = arg_1_1.rectAlpha or 1
 	arg_1_0.spacing = arg_1_1.spacing
 	arg_1_0.typewriterSpeed = arg_1_1.typewriterTime
+	arg_1_0.actor = arg_1_1.actor or -1
 
 	if arg_1_0.asideType == var_0_0.ASIDE_TYPE_LEFTBOTTOMVEC and not arg_1_1.showMode then
 		arg_1_0.showMode = var_0_0.SHOW_MODE_BUBBLE
@@ -29,62 +32,92 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	end
 end
 
-function var_0_0.GetMode(arg_2_0)
+function var_0_0.GetPainting(arg_2_0)
+	if arg_2_0.actor < 0 then
+		return nil
+	end
+
+	local var_2_0 = pg.ship_skin_template[arg_2_0.actor]
+	local var_2_1 = var_2_0.ship_group
+	local var_2_2 = ShipGroup.getDefaultShipConfig(var_2_1)
+
+	return var_2_0.painting
+end
+
+function var_0_0.GetMode(arg_3_0)
 	return Story.MODE_ASIDE
 end
 
-function var_0_0.GetTypewriterSpeed(arg_3_0)
-	return arg_3_0.typewriterSpeed or 0.1
+function var_0_0.GetTypewriterSpeed(arg_4_0)
+	return arg_4_0.typewriterSpeed or 0.1
 end
 
-function var_0_0.GetSequence(arg_4_0)
-	local var_4_0 = {}
-	local var_4_1 = arg_4_0:ShouldReplacePlayer()
+function var_0_0.GetSequence(arg_5_0)
+	local var_5_0 = {}
+	local var_5_1 = arg_5_0:ShouldReplacePlayer()
 
-	for iter_4_0, iter_4_1 in ipairs(arg_4_0.sequence or {}) do
-		local var_4_2 = var_4_1 and arg_4_0:ReplacePlayerName(iter_4_1[1]) or iter_4_1[1]
+	for iter_5_0, iter_5_1 in ipairs(arg_5_0.sequence or {}) do
+		local var_5_2 = var_5_1 and arg_5_0:ReplacePlayerName(iter_5_1[1]) or iter_5_1[1]
 
-		table.insert(var_4_0, {
-			HXSet.hxLan(var_4_2),
-			iter_4_1[2]
+		table.insert(var_5_0, {
+			HXSet.hxLan(var_5_2),
+			iter_5_1[2]
 		})
 	end
 
-	return var_4_0
+	return var_5_0
 end
 
-function var_0_0.GetAsideType(arg_5_0)
-	return arg_5_0.asideType
+function var_0_0.GetAsideType(arg_6_0)
+	return arg_6_0.asideType
 end
 
-function var_0_0.GetDateSign(arg_6_0)
-	return arg_6_0.signDate
+function var_0_0.GetDateSign(arg_7_0)
+	return arg_7_0.signDate
 end
 
-function var_0_0.GetShowMode(arg_7_0)
-	return arg_7_0.showMode
+function var_0_0.GetShowMode(arg_8_0)
+	return arg_8_0.showMode
 end
 
-function var_0_0.ShouldHideBGAlpha(arg_8_0)
-	return arg_8_0.hideBgAlpha
+function var_0_0.ShouldHideBGAlpha(arg_9_0)
+	return arg_9_0.hideBgAlpha
 end
 
-function var_0_0.ShouldUpdateSpacing(arg_9_0)
-	return arg_9_0.spacing ~= nil
+function var_0_0.ShouldUpdateSpacing(arg_10_0)
+	return arg_10_0.spacing ~= nil
 end
 
-function var_0_0.GetSpacing(arg_10_0)
-	return arg_10_0.spacing
+function var_0_0.GetSpacing(arg_11_0)
+	return arg_11_0.spacing
 end
 
-function var_0_0.ShouldUpdatePadding(arg_11_0)
-	return arg_11_0.rectOffset ~= nil
+function var_0_0.ShouldUpdatePadding(arg_12_0)
+	if arg_12_0:ShouldUpdateMargin() then
+		return false
+	end
+
+	return arg_12_0.rectOffset ~= nil
 end
 
-function var_0_0.GetPadding(arg_12_0)
-	local var_12_0 = arg_12_0.rectOffset
+function var_0_0.ShouldUpdateMargin(arg_13_0)
+	return arg_13_0.rectMargin ~= nil
+end
 
-	return var_12_0[1] or 0, var_12_0[2] or 0, var_12_0[3] or 0, var_12_0[4] or 0
+function var_0_0.GetMargin(arg_14_0)
+	local var_14_0 = arg_14_0.rectMargin
+
+	return var_14_0[1] or 0, var_14_0[2] or 0, var_14_0[3] or 0, var_14_0[4] or 0
+end
+
+function var_0_0.GetPadding(arg_15_0)
+	local var_15_0 = arg_15_0.rectOffset
+
+	return var_15_0[1] or 0, var_15_0[2] or 0, var_15_0[3] or 0, var_15_0[4] or 0
+end
+
+function var_0_0.GetRectAlpha(arg_16_0)
+	return arg_16_0.rectAlpha
 end
 
 return var_0_0

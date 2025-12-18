@@ -163789,6 +163789,574 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.task_data_template[21873] = {
+		name = "『列克星敦II活动』纪念任务1",
+		guild_coin_award = 0,
+		award = 908277,
+		type = 26,
+		desc = "收集全套「响彻于天穹之音」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 1,
+		story_icon_shift = "",
+		target_id = "50295",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21873,
+		target_num = 8,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65785,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21874] = {
+		name = "『列克星敦II活动』纪念贴纸获取1",
+		guild_coin_award = 0,
+		award = 908278,
+		type = 26,
+		desc = "收集7个「响彻于天穹之音」纪念贴纸",
+		count_inherit = 0,
+		sub_type = 131,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50295",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21874,
+		target_num = 7,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65786,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21875] = {
+		name = "『列克星敦II活动』纪念贴纸获取2",
+		guild_coin_award = 0,
+		award = 908279,
+		type = 26,
+		desc = "完成「响彻于天穹之音」剧情模式",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21875,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7431
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65787,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21876] = {
+		name = "『列克星敦II活动』纪念贴纸获取3",
+		guild_coin_award = 0,
+		award = 908280,
+		type = 26,
+		desc = "通关A3/C3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21876,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990003,
+			1990023
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65788,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21877] = {
+		name = "『列克星敦II活动』纪念贴纸获取4",
+		guild_coin_award = 0,
+		award = 908281,
+		type = 26,
+		desc = "在活动关卡中累计击沉敌人300次",
+		count_inherit = 0,
+		sub_type = 12,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21877,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			16800001,
+			16800002,
+			16800003,
+			16800004,
+			16800005,
+			16800006,
+			16800007,
+			16800201,
+			16800202,
+			16800203,
+			16800301,
+			16800302,
+			16800303,
+			16801001,
+			16801002,
+			16801003,
+			16801004,
+			16801005,
+			16801006,
+			16801007,
+			16801101,
+			16801102,
+			16801103,
+			16801104,
+			16801105,
+			16801106,
+			16801107,
+			16801201,
+			16801202,
+			16801203,
+			16801204,
+			16801205,
+			16801206,
+			16801301,
+			16801302,
+			16801303,
+			16802001,
+			16802002,
+			16802003,
+			16802004,
+			16802005,
+			16802006,
+			16802007,
+			16802201,
+			16802202,
+			16802203,
+			16802301,
+			16802302,
+			16802303,
+			16803001,
+			16803002,
+			16803003,
+			16803004,
+			16803005,
+			16803006,
+			16803007,
+			16803101,
+			16803102,
+			16803103,
+			16803104,
+			16803105,
+			16803106,
+			16803107,
+			16803201,
+			16803202,
+			16803203,
+			16803204,
+			16803205,
+			16803206,
+			16803301,
+			16803302,
+			16803303,
+			16804001,
+			16804002,
+			16804003,
+			16804004,
+			16804005,
+			16804006,
+			16804007,
+			16804101,
+			16804102,
+			16804103,
+			16804104,
+			16804105,
+			16804106,
+			16804107,
+			16804201,
+			16804202,
+			16804203,
+			16804301,
+			16804302,
+			16804303,
+			16804304,
+			16805001,
+			16805002,
+			16805003,
+			16805004,
+			16805101,
+			16805102,
+			16805103,
+			16805104,
+			16806001,
+			16806002,
+			16806003,
+			16806004,
+			16806101,
+			16806102,
+			16806103,
+			16806104,
+			16806201,
+			16806202,
+			16806203,
+			16806204
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65789,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21878] = {
+		name = "『列克星敦II活动』纪念贴纸获取5",
+		guild_coin_award = 0,
+		award = 908282,
+		type = 26,
+		desc = "通关50次「响彻于天穹之音」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21878,
+		target_num = 50,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041,
+			1990051,
+			1990052
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65790,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21879] = {
+		name = "『列克星敦II活动』纪念贴纸获取6",
+		guild_coin_award = 0,
+		award = 908283,
+		type = 26,
+		desc = "通关B3/D3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21879,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990006,
+			1990026
+		},
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65791,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21880] = {
+		name = "『列克星敦II活动』纪念贴纸获取7",
+		guild_coin_award = 0,
+		award = 908284,
+		type = 26,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1990041",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21880,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65792,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21881] = {
+		name = "『列克星敦II活动』纪念贴纸获取8",
+		guild_coin_award = 0,
+		award = 908285,
+		type = 26,
+		desc = "累计获取10000个「理事会PT」",
+		count_inherit = 0,
+		sub_type = 1001,
+		target_id_2 = "50288",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "596",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21881,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				8,
+				65793,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[21882] = {
+		name = "『列克星敦II活动』大佬章获取任务",
+		guild_coin_award = 0,
+		award = 908286,
+		type = 26,
+		desc = "通关D3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "1990026",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 21882,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				5,
+				323,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.task_data_template[22011] = {
 		name = "新手任务阶段1-任务1",
 		guild_coin_award = 0,
@@ -208722,6 +209290,3259 @@ end)()
 			{
 				3,
 				150940,
+				1
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24801] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动1",
+		guild_coin_award = 0,
+		award = 908244,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24801,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24802] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动2",
+		guild_coin_award = 0,
+		award = 908245,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24802,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24803] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动3",
+		guild_coin_award = 0,
+		award = 908246,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24803,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24804] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动4",
+		guild_coin_award = 0,
+		award = 908247,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24804,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24805] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动5",
+		guild_coin_award = 0,
+		award = 908248,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24805,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24806] = {
+		name = "『列克星敦II活动』-日常建造",
+		guild_coin_award = 0,
+		award = 908249,
+		type = 36,
+		desc = "建造舰船3次。",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24806,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				300
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24807] = {
+		name = "『列克星敦II活动』-日常出击",
+		guild_coin_award = 0,
+		award = 908250,
+		type = 36,
+		desc = "舰队出征，获得15次胜利。",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24807,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				300
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24808] = {
+		name = "『列克星敦II活动』-日常困难本",
+		guild_coin_award = 0,
+		award = 908251,
+		type = 36,
+		desc = "通关1次任意困难关卡 ",
+		count_inherit = 0,
+		sub_type = 182,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "10101",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24808,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				150
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24809] = {
+		name = "『列克星敦II活动』通关A1/C1",
+		guild_coin_award = 0,
+		award = 908252,
+		type = 6,
+		desc = "通关A1或C1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24810",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24809,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990021
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65781,
+				200
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24810] = {
+		name = "『列克星敦II活动』通关A2/C2",
+		guild_coin_award = 0,
+		award = 908253,
+		type = 6,
+		desc = "通关A2或C2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24811",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24810,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990002,
+			1990022
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65781,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24811] = {
+		name = "『列克星敦II活动』通关A3/C3",
+		guild_coin_award = 0,
+		award = 908254,
+		type = 6,
+		desc = "通关A3或C3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24812",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24811,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990003,
+			1990023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65781,
+				600
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24812] = {
+		name = "『列克星敦II活动』通关B1/D1",
+		guild_coin_award = 0,
+		award = 908255,
+		type = 6,
+		desc = "通关B1或D1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24813",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24812,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990004,
+			1990024
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65781,
+				400
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24813] = {
+		name = "『列克星敦II活动』通关B2/D2",
+		guild_coin_award = 0,
+		award = 908256,
+		type = 6,
+		desc = "通关B2或D2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24814",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24813,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990005,
+			1990025
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				2,
+				65781,
+				600
+			},
+			{
+				1,
+				1,
+				600
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24814] = {
+		name = "『列克星敦II活动』通关B3/D3",
+		guild_coin_award = 0,
+		award = 908257,
+		type = 6,
+		desc = "通关B3或D3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24815",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24814,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990006,
+			1990026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				2,
+				65781,
+				800
+			},
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24815] = {
+		name = "『列克星敦II活动』通关SP",
+		guild_coin_award = 0,
+		award = 908258,
+		type = 6,
+		desc = "通关SP",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1990041",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24815,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1500
+			},
+			{
+				1,
+				597,
+				50
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1990025,
+				chapterId = 1990041
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24816] = {
+		name = "『列克星敦II活动』通关EX",
+		guild_coin_award = 0,
+		award = 908259,
+		type = 6,
+		desc = "通关EX关卡",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24816,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990051,
+			1990052
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				15008,
+				500
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 1990026,
+				chapterId = 1990051
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24817] = {
+		name = "『列克星敦II活动』A1/C1的3星",
+		guild_coin_award = 0,
+		award = 908260,
+		type = 6,
+		desc = "完成A1或C1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24818",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24817,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990021
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24818] = {
+		name = "『列克星敦II活动』A2/C2的3星",
+		guild_coin_award = 0,
+		award = 908261,
+		type = 6,
+		desc = "完成A2或C2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24819",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24818,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990002,
+			1990022
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100001,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24819] = {
+		name = "『列克星敦II活动』A3/C3的3星",
+		guild_coin_award = 0,
+		award = 908262,
+		type = 6,
+		desc = "完成A3或C3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24820",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24819,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990003,
+			1990023
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24820] = {
+		name = "『列克星敦II活动』B1/D1的3星",
+		guild_coin_award = 0,
+		award = 908263,
+		type = 6,
+		desc = "完成B1或D1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24821",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24820,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990004,
+			1990024
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				2,
+				500
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24821] = {
+		name = "『列克星敦II活动』B2/D2的3星",
+		guild_coin_award = 0,
+		award = 908264,
+		type = 6,
+		desc = "完成B2或D2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "24822",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24821,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990005,
+			1990025
+		},
+		open_need = {},
+		award_display = {
+			{
+				4,
+				100011,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24822] = {
+		name = "『列克星敦II活动』B3/D3的3星",
+		guild_coin_award = 0,
+		award = 908265,
+		type = 6,
+		desc = "完成B3或D3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24822,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990006,
+			1990026
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				1
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50282
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24823] = {
+		name = "『列克星敦II活动』外观装备箱保底",
+		guild_coin_award = 0,
+		award = 908266,
+		type = 6,
+		desc = "开启20个外观装备箱(玫粉女仆屋)",
+		count_inherit = 0,
+		sub_type = 52,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "30378",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24823,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				30562,
+				1
+			}
+		},
+		scene = {
+			"SHOP",
+			{
+				warp = "shopstreet"
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24824] = {
+		name = "『列克星敦II活动』剧情模式",
+		guild_coin_award = 0,
+		award = 908267,
+		type = 6,
+		desc = "完成「响彻于天穹之音」的「剧情模式」",
+		count_inherit = 0,
+		sub_type = 1005,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24824,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			7431
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24825] = {
+		name = "『列克星敦II活动』通关任务10次",
+		guild_coin_award = 0,
+		award = 908268,
+		type = 6,
+		desc = "通关10次「响彻于天穹之音」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24825,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24826] = {
+		name = "『列克星敦II活动』通关任务30次",
+		guild_coin_award = 0,
+		award = 908269,
+		type = 6,
+		desc = "通关30次「响彻于天穹之音」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24826,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				1500
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24827] = {
+		name = "『列克星敦II活动』通关任务60次",
+		guild_coin_award = 0,
+		award = 908270,
+		type = 6,
+		desc = "通关60次「响彻于天穹之音」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24827,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041
+		},
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65781,
+				3000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24830] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "通过3次任意活动关卡",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24830,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990001,
+			1990002,
+			1990003,
+			1990004,
+			1990005,
+			1990006,
+			1990021,
+			1990022,
+			1990023,
+			1990024,
+			1990025,
+			1990026,
+			1990041
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24831] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "强化装备2次 ",
+		count_inherit = 0,
+		sub_type = 40,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24831,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24832] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24832,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24833] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "进行2次演习",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24833,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24834] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "舰船退役2次",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24834,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24835] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "建造舰船1次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24835,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24836] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24836,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24837] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24837,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24838] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24838,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24839] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "累计消耗300石油",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24839,
+		target_num = 300,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24840] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "舰船强化5次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24840,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24841] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "打开任意科技箱1个",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24841,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24842] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "进行1次科研",
+		count_inherit = 0,
+		sub_type = 110,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24842,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24843] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "与后宅的舰船互动1次",
+		count_inherit = 0,
+		sub_type = 2010,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24843,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24844] = {
+		name = "『列克星敦II活动』进阶PT每日随机任务",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "与秘书舰互动1次",
+		count_inherit = 0,
+		sub_type = 2011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24844,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24845] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-列克星敦II",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用列克星敦II击败B3或D3敌方旗舰",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24845,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			107161,
+			107162,
+			107163,
+			107164
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24846] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-科本斯",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用科本斯击败B3或D3敌方旗舰",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24846,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			107251,
+			107252,
+			107253,
+			107254
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24847] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-克拉伦斯·K·布朗森",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用克拉伦斯·K·布朗森击败B3或D3敌方旗舰",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24847,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			101551,
+			101552,
+			101553,
+			101554
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24848] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-帕萨迪纳",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用帕萨迪纳击败B3或D3敌方旗舰",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24848,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			102351,
+			102352,
+			102353,
+			102354
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24849] = {
+		name = "『列克星敦II活动』进阶PT挑战任务-克利夫兰·META",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		sub_type = 16,
+		count_inherit = 0,
+		story_icon = "",
+		desc = "使用克利夫兰·META击败B3或D3敌方旗舰",
+		award_choice = "",
+		is_head = 1,
+		task_fold = 0,
+		visibility = 1,
+		ryza_type = 0,
+		ryza_icon = "",
+		quick_finish = 0,
+		level = 1,
+		fix_task = 0,
+		priority_type = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24849,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1991213,
+			1993213
+		},
+		target_id_2 = {
+			9702091,
+			9702092,
+			9702093,
+			9702094
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24851] = {
+		name = "『列克星敦II活动』通关任意活动关卡5次",
+		guild_coin_award = 0,
+		award = 908272,
+		type = 6,
+		desc = "通关5次「响彻于天穹之音」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24851,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				5
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24852] = {
+		name = "『列克星敦II活动』通关任意活动关卡15次",
+		guild_coin_award = 0,
+		award = 908273,
+		type = 6,
+		desc = "通关15次「响彻于天穹之音」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24852,
+		target_num = 15,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				10
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24853] = {
+		name = "『列克星敦II活动』通关任意活动关卡30次",
+		guild_coin_award = 0,
+		award = 908274,
+		type = 6,
+		desc = "通关30次「响彻于天穹之音」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24853,
+		target_num = 30,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				20
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24854] = {
+		name = "『列克星敦II活动』通关任意活动关卡45次",
+		guild_coin_award = 0,
+		award = 908275,
+		type = 6,
+		desc = "通关45次「响彻于天穹之音」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24854,
+		target_num = 45,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				30
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24855] = {
+		name = "『列克星敦II活动』通关任意活动关卡60次",
+		guild_coin_award = 0,
+		award = 908276,
+		type = 6,
+		desc = "通关60次「响彻于天穹之音」特别作战关卡",
+		count_inherit = 0,
+		sub_type = 20,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24855,
+		target_num = 60,
+		activity_client_config = "",
+		added_tip = 0,
+		target_id = {
+			1990013,
+			1990113,
+			1990213,
+			1991013,
+			1991113,
+			1991213,
+			1992013,
+			1992113,
+			1992213,
+			1993013,
+			1993113,
+			1993213,
+			1994013
+		},
+		open_need = {},
+		award_display = {
+			{
+				1,
+				597,
+				40
+			}
+		},
+		scene = {
+			"ACTIVITY_MAP",
+			{
+				50281
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24856] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动1",
+		guild_coin_award = 0,
+		award = 908287,
+		type = 26,
+		desc = "舰队出征，以S评价通关10次",
+		count_inherit = 0,
+		sub_type = 24,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24856,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24857] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动2",
+		guild_coin_award = 0,
+		award = 908288,
+		type = 26,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24857,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24858] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动3",
+		guild_coin_award = 0,
+		award = 908289,
+		type = 26,
+		desc = "完成军事委托2次",
+		count_inherit = 0,
+		sub_type = 80,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24858,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24859] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动4",
+		guild_coin_award = 0,
+		award = 908290,
+		type = 26,
+		desc = "进行2次演习",
+		count_inherit = 0,
+		sub_type = 27,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24859,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54049,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24860] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动5",
+		guild_coin_award = 0,
+		award = 908291,
+		type = 26,
+		desc = "完成3次每日挑战",
+		count_inherit = 0,
+		sub_type = 26,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24860,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24861] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动6",
+		guild_coin_award = 0,
+		award = 908292,
+		type = 26,
+		desc = "舰船退役2次",
+		count_inherit = 0,
+		sub_type = 31,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24861,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54015,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24862] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动7",
+		guild_coin_award = 0,
+		award = 908293,
+		type = 26,
+		desc = "进行战术训练2次",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24862,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24863] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动8",
+		guild_coin_award = 0,
+		award = 908294,
+		type = 26,
+		desc = "舰船强化5次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24863,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54033,
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24864] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动9",
+		guild_coin_award = 0,
+		award = 908295,
+		type = 26,
+		desc = "击沉任意敌人20艘",
+		count_inherit = 0,
+		sub_type = 11,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24864,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24865] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动10",
+		guild_coin_award = 0,
+		award = 908296,
+		type = 26,
+		desc = "后宅补充食物5次",
+		count_inherit = 0,
+		sub_type = 61,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24865,
+		target_num = 5,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				17003,
+				10
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24866] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动11",
+		guild_coin_award = 0,
+		award = 908297,
+		type = 26,
+		desc = "打开任意科技箱1个",
+		count_inherit = 0,
+		sub_type = 50,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24866,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24867] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动12",
+		guild_coin_award = 0,
+		award = 908298,
+		type = 26,
+		desc = "建造舰船2次",
+		count_inherit = 0,
+		sub_type = 30,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24867,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				54006,
+				5
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24868] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动13",
+		guild_coin_award = 0,
+		award = 908299,
+		type = 26,
+		desc = "进行2次战术训练",
+		count_inherit = 0,
+		sub_type = 71,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24868,
+		target_num = 2,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24869] = {
+		name = "『列克星敦II活动』七天双任务送哈曼女仆皮肤活动14",
+		guild_coin_award = 0,
+		award = 908300,
+		type = 26,
+		desc = "击败旗舰3次 ",
+		count_inherit = 0,
+		sub_type = 21,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "0",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 24869,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				7,
+				101502,
 				1
 			}
 		},
@@ -286817,7 +290638,7 @@ end)()
 		guild_coin_award = 0,
 		award = 0,
 		type = 15,
-		desc = "将一式穿甲弹强化至+11",
+		desc = "获得装备「一式穿甲弹」并强化至+11以上",
 		count_inherit = 0,
 		sub_type = 45,
 		target_id_2 = "",
@@ -286836,13 +290657,17 @@ end)()
 		next_task = "0",
 		auto_commit = 0,
 		story_icon_shift = "",
-		target_id = "611",
 		scene = "",
 		tutorial_handbook_pic = "",
 		id = 56063,
 		target_num = 1,
 		activity_client_config = "",
 		added_tip = 0,
+		target_id = {
+			611,
+			612,
+			613
+		},
 		open_need = {},
 		award_display = {}
 	}

@@ -69,7 +69,7 @@ function var_0_0.onUpdateMemoryItem(arg_7_0, arg_7_1, arg_7_2)
 		var_7_1:Find("normal/title"):GetComponent(typeof(Text)).text = var_7_0.title
 
 		arg_7_0.loader:GetSpriteQuiet("memoryicon/" .. var_7_0.icon, "", var_7_1:Find("normal"))
-		setText(var_7_1:Find("normal/id"), string.format("#%u", arg_7_1 + 1))
+		setText(var_7_1:Find("normal/id"), "#" .. arg_7_0.memoryIds[arg_7_1 + 1])
 	else
 		setActive(var_7_1:Find("normal"), false)
 		setActive(var_7_1:Find("lock"), true)
@@ -117,68 +117,81 @@ function var_0_0.ShowSubMemories(arg_11_0, arg_11_1, arg_11_2)
 
 	local var_11_0 = 0
 
+	arg_11_0.memoryIds = _.map(arg_11_1.memories, function(arg_13_0)
+		local var_13_0 = pg.memory_template[arg_13_0].number
+		local var_13_1 = var_13_0 and var_13_0 > 0
+
+		if not var_13_1 then
+			var_11_0 = var_11_0 + 1
+		end
+
+		return var_13_1 and var_13_0 or var_11_0
+	end)
+
+	local var_11_1 = 0
+
 	if arg_11_2 then
-		local var_11_1 = 0
+		local var_11_2 = 0
 
 		for iter_11_0 = 1, #arg_11_0.memories do
 			if arg_11_0.memories[iter_11_0].id == arg_11_2 then
-				var_11_1 = iter_11_0
+				var_11_2 = iter_11_0
 
 				break
 			end
 		end
 
-		if var_11_1 > 0 then
-			local var_11_2 = arg_11_0.memoryItemList
-			local var_11_3 = arg_11_0.memoryItemsGrid.cellSize.y + arg_11_0.memoryItemsGrid.spacing.y
-			local var_11_4 = arg_11_0.memoryItemsGrid.constraintCount
-			local var_11_5 = var_11_3 * math.ceil(#arg_11_0.memories / var_11_4)
+		if var_11_2 > 0 then
+			local var_11_3 = arg_11_0.memoryItemList
+			local var_11_4 = arg_11_0.memoryItemsGrid.cellSize.y + arg_11_0.memoryItemsGrid.spacing.y
+			local var_11_5 = arg_11_0.memoryItemsGrid.constraintCount
+			local var_11_6 = var_11_4 * math.ceil(#arg_11_0.memories / var_11_5)
 
-			var_11_0 = (var_11_3 * math.floor((var_11_1 - 1) / var_11_4) + var_11_2.paddingFront) / (var_11_5 - arg_11_0.memoryItemViewport.rect.height)
-			var_11_0 = Mathf.Clamp01(var_11_0)
+			var_11_1 = (var_11_4 * math.floor((var_11_2 - 1) / var_11_5) + var_11_3.paddingFront) / (var_11_6 - arg_11_0.memoryItemViewport.rect.height)
+			var_11_1 = Mathf.Clamp01(var_11_1)
 		end
 	end
 
-	arg_11_0.memoryItemList:SetTotalCount(#arg_11_0.memories, var_11_0)
+	arg_11_0.memoryItemList:SetTotalCount(#arg_11_0.memories, var_11_1)
 
-	local var_11_6 = #arg_11_0.memories
-	local var_11_7 = _.reduce(arg_11_0.memories, 0, function(arg_13_0, arg_13_1)
-		if arg_13_1.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(arg_13_1.unlock_pre, true) then
-			arg_13_0 = arg_13_0 + 1
+	local var_11_7 = #arg_11_0.memories
+	local var_11_8 = _.reduce(arg_11_0.memories, 0, function(arg_14_0, arg_14_1)
+		if arg_14_1.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(arg_14_1.unlock_pre, true) then
+			arg_14_0 = arg_14_0 + 1
 		end
 
-		return arg_13_0
+		return arg_14_0
 	end)
 
-	setText(arg_11_0._tf:Find("ItemRect/ProgressText"), var_11_7 .. "/" .. var_11_6)
+	setText(arg_11_0._tf:Find("ItemRect/ProgressText"), var_11_8 .. "/" .. var_11_7)
 
-	local var_11_8 = _.filter(pg.re_map_template.all, function(arg_14_0)
-		return pg.re_map_template[arg_14_0].memory_group == arg_11_1.id
+	local var_11_9 = _.filter(pg.re_map_template.all, function(arg_15_0)
+		return pg.re_map_template[arg_15_0].memory_group == arg_11_1.id
 	end)
-	local var_11_9 = var_11_7 < var_11_6 and #var_11_8 > 0
+	local var_11_10 = var_11_8 < var_11_7 and #var_11_9 > 0
 
-	setActive(arg_11_0._tf:Find("ItemRect/UnlockTip"), var_11_9)
+	setActive(arg_11_0._tf:Find("ItemRect/UnlockTip"), var_11_10)
 
-	if var_11_9 then
-		local var_11_10 = _.map(_.sort(Map.GetRearChaptersOfRemaster(var_11_8[1])), function(arg_15_0)
-			return getProxy(ChapterProxy):getChapterById(arg_15_0, true):getConfig("chapter_name")
+	if var_11_10 then
+		local var_11_11 = _.map(_.sort(Map.GetRearChaptersOfRemaster(var_11_9[1])), function(arg_16_0)
+			return getProxy(ChapterProxy):getChapterById(arg_16_0, true):getConfig("chapter_name")
 		end)
 
-		setText(arg_11_0._tf:Find("ItemRect/UnlockTip"), i18n("levelScene_remaster_unlock_tip", arg_11_1.title, table.concat(var_11_10, "/")))
+		setText(arg_11_0._tf:Find("ItemRect/UnlockTip"), i18n("levelScene_remaster_unlock_tip", arg_11_1.title, table.concat(var_11_11, "/")))
 	end
 end
 
-function var_0_0.CleanList(arg_16_0)
-	arg_16_0.memories = nil
+function var_0_0.CleanList(arg_17_0)
+	arg_17_0.memories = nil
 
-	arg_16_0.memoryItemList:SetTotalCount(0)
+	arg_17_0.memoryItemList:SetTotalCount(0)
 end
 
-function var_0_0.UpdateView(arg_17_0)
-	local var_17_0 = WorldMediaCollectionScene.WorldRecordLock()
+function var_0_0.UpdateView(arg_18_0)
+	local var_18_0 = WorldMediaCollectionScene.WorldRecordLock()
 
-	setAnchoredPosition(arg_17_0._tf:Find("ItemRect"), {
-		x = var_17_0 and 0 or arg_17_0.rectAnchorX
+	setAnchoredPosition(arg_18_0._tf:Find("ItemRect"), {
+		x = var_18_0 and 0 or arg_18_0.rectAnchorX
 	})
 end
 

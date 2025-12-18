@@ -215,6 +215,9 @@ function var_0_0.Dispose(arg_29_0)
 		PoolMgr.GetInstance():ReturnSpineChar(arg_29_0.prefab, arg_29_0._model)
 	end
 
+	arg_29_0._animUI = nil
+	arg_29_0.prefab = nil
+	arg_29_0._model = nil
 	arg_29_0.state = var_0_0.state_dispose
 	arg_29_0.parent = nil
 end

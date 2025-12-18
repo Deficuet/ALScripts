@@ -1299,6 +1299,8 @@ function var_0_0.handleNotification(arg_84_0, arg_84_1)
 		arg_84_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_84_1)
 	elseif var_84_0 == GAME.STORY_UPDATE_DONE then
 		arg_84_0.cachedStoryAwards = var_84_1
+
+		arg_84_0.viewComponent.mapBuilder:UpdateView()
 	elseif var_84_0 == GAME.STORY_END then
 		if arg_84_0.cachedStoryAwards then
 			arg_84_0.viewComponent:emit(BaseUI.ON_ACHIEVE, arg_84_0.cachedStoryAwards.awards)

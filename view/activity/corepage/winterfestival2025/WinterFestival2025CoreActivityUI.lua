@@ -20,4 +20,9 @@ function var_0_0.didEnter(arg_3_0)
 	end
 end
 
+function var_0_0.CustomInit(arg_4_0)
+	setText(arg_4_0._tf:Find("adapt/TopPage/top/deco/Text"), i18n("HelenaCoreActivity_title"))
+	setText(arg_4_0._tf:Find("adapt/TopPage/top/deco/Text/Text_1"), i18n("HelenaCoreActivity_title2"))
+end
+
 return var_0_0

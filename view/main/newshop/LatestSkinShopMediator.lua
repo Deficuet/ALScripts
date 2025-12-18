@@ -85,15 +85,11 @@ function var_0_0.register(arg_1_0)
 		}))
 	end)
 	arg_1_0:bind(var_0_0.OPEN_GIFT_PACK_LAYER, function(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
-		arg_1_0:addSubLayers(Context.New({
-			viewComponent = LatestSkinGiftPackLayer,
-			mediator = LatestSkinGiftPackMediator,
-			data = {
-				giftPackCommodity = arg_12_1,
-				skinCommodities = arg_12_2,
-				skinProbabilitys = arg_12_3
-			}
-		}))
+		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.PROBABILITY_SKINSHOP, {
+			giftPackCommodity = arg_12_1,
+			skinCommodities = arg_12_2,
+			skinProbabilitys = arg_12_3
+		})
 	end)
 	arg_1_0:bind(var_0_0.OPEN_CHARGE_BIRTHDAY, function(arg_13_0, arg_13_1)
 		arg_1_0:addSubLayers(Context.New({

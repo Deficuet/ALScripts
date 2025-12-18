@@ -18,37 +18,56 @@ function var_0_0.OnInit(arg_1_0)
 end
 
 function var_0_0.OnFirstFlush(arg_2_0)
-	var_0_0.super.OnFirstFlush(arg_2_0)
+	onButton(arg_2_0, arg_2_0.battleBtn, function()
+		arg_2_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK)
+	end, SFX_PANEL)
+	onButton(arg_2_0, arg_2_0.getBtn, function()
+		arg_2_0:emit(ActivityMediator.EVENT_OPERATION, {
+			cmd = 1,
+			activity_id = arg_2_0.activity.id
+		})
+	end, SFX_PANEL)
+	onToggle(arg_2_0, arg_2_0.switchBtn, function(arg_5_0)
+		if arg_2_0.isSwitching then
+			return
+		end
+
+		arg_2_0:Switch(arg_5_0)
+	end, SFX_PANEL)
+
+	arg_2_0.inPhase2 = arg_2_0.timeStamp and pg.TimeMgr.GetInstance():GetServerTime() - arg_2_0.timeStamp > 0
+
+	triggerToggle(arg_2_0.switchBtn, arg_2_0.inPhase2)
 end
 
-function var_0_0.OnUpdateFlush(arg_3_0)
-	var_0_0.super.OnUpdateFlush(arg_3_0)
+function var_0_0.OnUpdateFlush(arg_6_0)
+	var_0_0.super.OnUpdateFlush(arg_6_0)
 
-	local var_3_0 = arg_3_0.activity.data1
-	local var_3_1 = arg_3_0.avatarConfig.target
+	local var_6_0 = arg_6_0.activity.data1
+	local var_6_1 = arg_6_0.avatarConfig.target
 
-	var_3_0 = var_3_1 < var_3_0 and var_3_1 or var_3_0
+	var_6_0 = var_6_1 < var_6_0 and var_6_1 or var_6_0
 
-	local var_3_2 = var_3_0 / var_3_1
+	local var_6_2 = var_6_0 / var_6_1
 
-	setText(arg_3_0.cur, (var_3_2 >= 1 and setColorStr(var_3_0, "#FCE87A") or setColorStr(var_3_0, "#FCE87A")) .. setColorStr("/" .. var_3_1, "#FFFFFF"))
-	setActive(arg_3_0.target, false)
+	setText(arg_6_0.cur, (var_6_2 >= 1 and setColorStr(var_6_0, "#FCE87A") or setColorStr(var_6_0, "#FCE87A")) .. setColorStr("/" .. var_6_1, "#FFFFFF"))
+	setActive(arg_6_0.target, false)
 end
 
-function var_0_0.Switch(arg_4_0, arg_4_1)
-	arg_4_0.isSwitching = true
+function var_0_0.Switch(arg_7_0, arg_7_1)
+	arg_7_0.isSwitching = true
 
-	setToggleEnabled(arg_4_0.switchBtn, false)
+	setToggleEnabled(arg_7_0.switchBtn, false)
 
-	if arg_4_1 then
-		quickPlayAnimation(arg_4_0.bg:Find("switcher"), "anim_HelenaFramePage_switcher")
+	if arg_7_1 then
+		quickPlayAnimation(arg_7_0.bg:Find("switcher"), "anim_HelenaFramePage_switcher")
 	else
-		quickPlayAnimation(arg_4_0.bg:Find("switcher"), "anim_HelenaFramePage_switcher2")
+		quickPlayAnimation(arg_7_0.bg:Find("switcher"), "anim_HelenaFramePage_switcher2")
 	end
 
-	arg_4_0.isSwitching = nil
+	arg_7_0.isSwitching = nil
 
-	setToggleEnabled(arg_4_0.switchBtn, true)
+	setToggleEnabled(arg_7_0.switchBtn, true)
 end
 
 return var_0_0

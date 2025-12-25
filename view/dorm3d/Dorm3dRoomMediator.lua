@@ -58,6 +58,8 @@ function var_0_0.register(arg_1_0)
 					SlideExtraSystem
 				})
 				arg_1_0.viewComponent:TempHideUI(false, arg_5_2)
+
+				arg_1_0.viewComponent.isInFurnitureSelect = false
 			end
 		}), nil, function()
 			arg_1_0.viewComponent:TempHideUI(true)

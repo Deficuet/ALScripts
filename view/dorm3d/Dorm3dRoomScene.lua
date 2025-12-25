@@ -126,6 +126,8 @@ function var_0_0.init(arg_4_0)
 		arg_4_0:emit(Dorm3dRoomMediator.OPEN_FURNITURE_SELECT, {
 			apartment = arg_4_0.apartment
 		})
+
+		arg_4_0.isInFurnitureSelect = true
 	end, SFX_PANEL)
 
 	if not arg_4_0.room:isPersonalRoom() then

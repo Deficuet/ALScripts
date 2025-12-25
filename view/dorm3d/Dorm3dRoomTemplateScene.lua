@@ -1777,7 +1777,7 @@ function var_0_0.ActiveCameraByName(arg_161_0, arg_161_1)
 	end)
 	setActive(var_161_0, true)
 
-	arg_161_0.cameras[var_0_0.CAMERA.CUSTOM] = var_161_0
+	arg_161_0.cameras[var_0_0.CAMERA.CUSTOM] = var_161_0:GetComponent(typeof(Cinemachine.CinemachineVirtualCamera))
 end
 
 function var_0_0.ShowBlackScreen(arg_163_0, arg_163_1, arg_163_2)

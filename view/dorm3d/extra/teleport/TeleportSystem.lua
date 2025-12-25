@@ -26,6 +26,10 @@ function var_0_0.BindClickFunc(arg_2_0)
 
 		assert(var_3_2, "invalid zone:" .. tostring(var_3_0.teleport_zone))
 		GetOrAddComponent(var_3_1, typeof(EventTriggerListener)):AddPointClickFunc(function(arg_4_0, arg_4_1)
+			if arg_2_0:Get("isInFurnitureSelect") then
+				return
+			end
+
 			arg_2_0:Emit(Dorm3dRoomTemplateScene.SHIFT_ZONE_SAFE, var_3_2)
 		end)
 	end)

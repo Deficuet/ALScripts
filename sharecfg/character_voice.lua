@@ -961,5 +961,135 @@ pg.character_voice = {
 			0,
 			0
 		}
+	},
+	asmr_001 = {
+		resource_key = "asmr_001",
+		key = "asmr_001",
+		voice_name = "asmr语音1",
+		spine_action = "asmr_001",
+		profile_index = 68,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	asmr_002 = {
+		resource_key = "asmr_002",
+		key = "asmr_002",
+		voice_name = "asmr语音2",
+		spine_action = "asmr_002",
+		profile_index = 69,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	asmr_003 = {
+		resource_key = "asmr_003",
+		key = "asmr_003",
+		voice_name = "asmr语音3",
+		spine_action = "asmr_003",
+		profile_index = 70,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	asmr_004 = {
+		resource_key = "asmr_004",
+		key = "asmr_004",
+		voice_name = "asmr语音4",
+		spine_action = "asmr_004",
+		profile_index = 71,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	asmr_005 = {
+		resource_key = "asmr_005",
+		key = "asmr_005",
+		voice_name = "asmr语音5",
+		spine_action = "asmr_005",
+		profile_index = 72,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	asmr_006 = {
+		resource_key = "asmr_006",
+		key = "asmr_006",
+		voice_name = "asmr语音6",
+		spine_action = "asmr_006",
+		profile_index = 73,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	asmr_007 = {
+		resource_key = "asmr_007",
+		key = "asmr_007",
+		voice_name = "asmr语音7",
+		spine_action = "asmr_007",
+		profile_index = 74,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	asmr_008 = {
+		resource_key = "asmr_008",
+		key = "asmr_008",
+		voice_name = "asmr语音8",
+		spine_action = "asmr_008",
+		profile_index = 75,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	asmr_009 = {
+		resource_key = "asmr_009",
+		key = "asmr_009",
+		voice_name = "asmr语音9",
+		spine_action = "asmr_009",
+		profile_index = 76,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
+	},
+	asmr_010 = {
+		resource_key = "asmr_010",
+		key = "asmr_010",
+		voice_name = "asmr语音10",
+		spine_action = "asmr_010",
+		profile_index = 77,
+		sp_trans_l2d = 0,
+		l2d_action = "",
+		unlock_condition = {
+			0,
+			0
+		}
 	}
 }

@@ -41,7 +41,7 @@ pg.dorm3d_dance = {
 		timeline_scene = "Dance_30707",
 		finish_anim = "weixiao",
 		id = 30707,
-		song_name = "今日之凤_shade ",
+		song_name = "今日之凤_shade",
 		cucoloris_group = {
 			{
 				201,
@@ -70,8 +70,44 @@ pg.dorm3d_dance = {
 			"镜头3"
 		}
 	},
+	[49905] = {
+		default_camera = "dance_camera1",
+		director_name = "[sequence]",
+		timeline_scene = "Dance_49905",
+		finish_anim = "weixiao",
+		id = 49905,
+		song_name = "深渊的期待",
+		cucoloris_group = {
+			{
+				301,
+				304,
+				307
+			},
+			{
+				302,
+				305,
+				308
+			},
+			{
+				303,
+				306,
+				309
+			}
+		},
+		camera_tracks = {
+			"dance_camera1",
+			"dance_camera2",
+			"dance_camera3"
+		},
+		camera_names = {
+			"镜头1",
+			"镜头2",
+			"镜头3"
+		}
+	},
 	all = {
 		10517,
-		30707
+		30707,
+		49905
 	}
 }

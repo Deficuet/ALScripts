@@ -71,6 +71,7 @@ function var_0_0.Update(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 		end
 
 		arg_2_0.changeSkinToggle:setSkinData(arg_2_0.skin.id)
+		setActive(arg_2_0.changeSkinUI, not arg_2_0.changeSkinToggle:IsAsmrSkin())
 	end
 
 	arg_2_0:FlushTags(arg_2_1:getConfig("tag"))

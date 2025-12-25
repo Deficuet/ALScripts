@@ -14,6 +14,25 @@ function var_0_0.OnFirstFlush(arg_1_0)
 		setActive(var_1_0, false)
 		setActive(var_1_1, false)
 	end
+
+	local var_1_2 = arg_1_0.activity:getConfig("config_client").story
+
+	for iter_1_2, iter_1_3 in ipairs(arg_1_0.taskList) do
+		local var_1_3 = arg_1_0.taskProxy:getFinishTaskById(iter_1_3)
+
+		if var_1_3 and var_1_3:getTaskStatus() == 2 and checkExist(var_1_2, {
+			iter_1_2
+		}, {
+			1
+		}) then
+			local var_1_4 = var_1_2[iter_1_2][1]
+			local var_1_5, var_1_6 = pg.NewStoryMgr.GetInstance():StoryName2StoryId(var_1_4)
+
+			pg.m02:sendNotification(GAME.STORY_UPDATE, {
+				storyId = var_1_4
+			})
+		end
+	end
 end
 
 function var_0_0.OnUpdateFlush(arg_2_0)
@@ -41,7 +60,9 @@ function var_0_0.OnUpdateFlush(arg_2_0)
 				}, {
 					1
 				}) then
-					playStory(var_3_0[iter_3_0][1])
+					local var_3_1 = var_3_0[iter_3_0][1]
+
+					playStory(var_3_1)
 				end
 			end
 		end

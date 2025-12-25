@@ -3267,7 +3267,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1401",
-		next_task = "[57,3053]",
+		next_task = "[57,3053,6053]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -3326,7 +3326,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1402",
-		next_task = "[58,3054]",
+		next_task = "[58,3054,6054]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -3385,7 +3385,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1403",
-		next_task = "[59,3055]",
+		next_task = "[59,3055,6055]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -3444,7 +3444,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1404",
-		next_task = "[60,3056]",
+		next_task = "[60,3056,6056]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -42654,6 +42654,222 @@ end)()
 			{
 				mapIdx = 213,
 				chapterId = 11304
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[6053] = {
+		name = "困难·夜间遭遇",
+		guild_coin_award = 0,
+		award = 6053,
+		type = 2,
+		desc = "完成困难14-1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "11401",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 6053,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18003,
+				2
+			},
+			{
+				2,
+				51001,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 214,
+				chapterId = 11401
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[6054] = {
+		name = "困难·T字对决",
+		guild_coin_award = 0,
+		award = 6054,
+		type = 2,
+		desc = "完成困难14-2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "11402",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 6054,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				51002,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 214,
+				chapterId = 11402
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[6055] = {
+		name = "困难·缠斗",
+		guild_coin_award = 0,
+		award = 6055,
+		type = 2,
+		desc = "完成困难14-3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "11403",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 6055,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18023,
+				2
+			},
+			{
+				2,
+				51003,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 214,
+				chapterId = 11403
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[6056] = {
+		name = "困难·晨曦下的追击",
+		guild_coin_award = 0,
+		award = 6056,
+		type = 2,
+		desc = "完成困难14-4的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "11404",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 6056,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				18033,
+				2
+			},
+			{
+				2,
+				51004,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 214,
+				chapterId = 11404
 			}
 		}
 	}
@@ -212548,6 +212764,264 @@ end)()
 		},
 		scene = {
 			"LEVEL"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24871] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动6",
+		guild_coin_award = 0,
+		award = 908244,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24871,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24872] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动7",
+		guild_coin_award = 0,
+		award = 908245,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24872,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24873] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动8",
+		guild_coin_award = 0,
+		award = 908246,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24873,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24874] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动9",
+		guild_coin_award = 0,
+		award = 908247,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24874,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24875] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动10",
+		guild_coin_award = 0,
+		award = 908248,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24875,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[24877] = {
+		name = "『列克星敦II活动』皮肤剧情签到活动11",
+		guild_coin_award = 0,
+		award = 908248,
+		type = 14,
+		desc = "登录游戏",
+		count_inherit = 0,
+		sub_type = 1011,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 1,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 0,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		story_id = "",
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "0",
+		scene = "",
+		tutorial_handbook_pic = "",
+		id = 24877,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				65783,
+				1
+			}
 		}
 	}
 end)()

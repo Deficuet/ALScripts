@@ -155,6 +155,7 @@ function var_0_0.Show(arg_16_0, arg_16_1, arg_16_2)
 
 	setActive(arg_16_0.changeSkinUI, var_16_2 and true or false)
 	arg_16_0.changeSkinToggle:setSkinData(arg_16_0.skin.id)
+	setActive(arg_16_0.changeSkinUI, not arg_16_0.changeSkinToggle:IsAsmrSkin())
 	setActive(arg_16_0.obtainBtn, not arg_16_0.skin:OwnShip())
 end
 

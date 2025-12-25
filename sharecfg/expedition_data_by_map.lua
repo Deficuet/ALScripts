@@ -30,6 +30,7 @@ pg.expedition_data_by_map = setmetatable({
 		211,
 		212,
 		213,
+		214,
 		10000,
 		70000,
 		80000,
@@ -1241,7 +1242,7 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		story_inactive_color = "",
 		animtor = 1,
-		bind_map = 0,
+		bind_map = 214,
 		clouds_pos = {},
 		drop_by_map_display = {}
 	},
@@ -1942,6 +1943,35 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		},
+		drop_by_map_display = {}
+	},
+	[214] = {
+		map = 214,
+		name = "苏里高夜战",
+		level_limit = 80,
+		type = 2,
+		anchor = "",
+		title = "14",
+		map_name = "",
+		bgm = "level",
+		ani_name = "map_14",
+		ani_controller = "",
+		guide_id = "",
+		enter_story = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "UIhuohua2",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_214",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 14,
+		clouds_pos = {},
 		drop_by_map_display = {}
 	},
 	[10000] = {
@@ -13280,7 +13310,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990001] = {
 		map = 1990001,
-		name = "响彻于天穹之歌·上篇|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·上篇|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13370,7 +13400,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990002] = {
 		map = 1990002,
-		name = "响彻于天穹之歌·下篇|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·下篇|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 4,
 		anchor = "",
@@ -13460,7 +13490,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990011] = {
 		map = 1990011,
-		name = "响彻于天穹之歌·上篇|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·上篇|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13550,7 +13580,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990012] = {
 		map = 1990012,
-		name = "响彻于天穹之歌·下篇|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·下篇|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 5,
 		anchor = "",
@@ -13640,7 +13670,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990025] = {
 		map = 1990025,
-		name = "响彻于天穹之歌·SP|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -13721,7 +13751,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1990026] = {
 		map = 1990026,
-		name = "响彻于天穹之歌·EX|| ||CHAPTER EX||E.X.",
+		name = "响彻于天穹之音·EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

@@ -142,6 +142,7 @@ function var_0_0.FlushChangeSkin(arg_14_0)
 	arg_14_0._toggleIndex = ShipSkin.GetChangeSkinIndex(arg_14_0.skinId)
 
 	arg_14_0.changeSkinToggle:setSkinData(arg_14_0.skinId)
+	setActive(arg_14_0.changeSkin, not arg_14_0.changeSkinToggle:IsAsmrSkin())
 end
 
 function var_0_0.FlushName(arg_15_0)

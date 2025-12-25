@@ -35,6 +35,8 @@ function var_0_1.SetBlackboradValue(arg_5_0, arg_5_1, arg_5_2, arg_5_3)
 
 	if arg_5_2 == nil then
 		arg_5_3:RemoveVariable(arg_5_1)
+	elseif arg_5_3:GetVariable(arg_5_1) == nil then
+		arg_5_3:AddVariable(arg_5_1, arg_5_2)
 	else
 		arg_5_3:SetVariableValue(arg_5_1, arg_5_2)
 	end

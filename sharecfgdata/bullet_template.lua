@@ -15228,6 +15228,61 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.bullet_template[1716] = {
+		hit_sfx = "battle/hit",
+		range_offset = 10,
+		modle_ID = "Bullet1",
+		type = 1,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "Clhit",
+		effect_type = 1,
+		id = 1716,
+		random_damage_rate = 0,
+		miss_sfx = "battle/sink",
+		range = 70,
+		miss_fx = "ShellMiss",
+		pierce_count = 1,
+		ammo_type = 2,
+		alert_fx = "",
+		velocity = 23,
+		damage_type = {
+			1.15,
+			0.85,
+			0.65
+		},
+		DMG_font = {
+			{
+				2,
+				1.2
+			},
+			{
+				2,
+				0.9
+			},
+			{
+				4,
+				0.7
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			6,
+			2,
+			2
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {},
+		attach_buff = {},
+		extra_param = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.bullet_template[1800] = {
 		hit_sfx = "battle/torpedo-hit",
 		range_offset = 20,
@@ -21238,6 +21293,68 @@ end)()
 			offsetY = 60,
 			randomOffsetX = 36,
 			randomOffsetZ = 36,
+			diveFilter = {
+				2
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.bullet_template[2147] = {
+		hit_sfx = "battle/hit",
+		range_offset = 0,
+		modle_ID = "Torpedoairjp_tantiao",
+		type = 3,
+		out_bound = 0,
+		antisub_enhancement = 0,
+		hit_fx = "ShellHit",
+		effect_type = 1,
+		id = 2147,
+		random_damage_rate = 0,
+		miss_sfx = "",
+		range = 60,
+		miss_fx = "ShellHit",
+		pierce_count = 0,
+		ammo_type = 6,
+		alert_fx = "AlertArea",
+		velocity = 6,
+		damage_type = {
+			0.8,
+			1,
+			1.3
+		},
+		DMG_font = {
+			{
+				3,
+				0.8
+			},
+			{
+				3,
+				1
+			},
+			{
+				3,
+				1.2
+			}
+		},
+		acceleration = {},
+		cld_box = {
+			1.8,
+			1,
+			1
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		hit_type = {
+			time = -1,
+			range = 8
+		},
+		attach_buff = {},
+		extra_param = {
 			diveFilter = {
 				2
 			}

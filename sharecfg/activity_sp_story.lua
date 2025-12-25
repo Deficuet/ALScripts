@@ -6480,7 +6480,7 @@ pg.activity_sp_story = {
 		}
 	},
 	[364] = {
-		story_type = 1,
+		story_type = 3,
 		name = "EPS-2-A 选择-完美未来",
 		unlock_conditions = "？",
 		change_bgm = "story-weimu-link",
@@ -6500,7 +6500,7 @@ pg.activity_sp_story = {
 		}
 	},
 	[365] = {
-		story_type = 1,
+		story_type = 3,
 		name = "EPS-2-B 选择-梦醒",
 		unlock_conditions = "？",
 		change_bgm = "theme-weimu",

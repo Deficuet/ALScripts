@@ -12,7 +12,8 @@ function var_0_0.register(arg_1_0)
 			data = {
 				roomId = arg_1_0.contextData.roomId,
 				groupId = arg_1_0.contextData.groupId,
-				arCheckState = arg_1_0.contextData.ARCheckState
+				arCheckState = arg_1_0.contextData.ARCheckState,
+				holyLightRoot = arg_1_0.viewComponent.holyLightRoot
 			}
 		}))
 	end)

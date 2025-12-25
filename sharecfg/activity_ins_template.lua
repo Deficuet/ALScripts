@@ -23149,6 +23149,126 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[615] = {
+		ship_group = 119901,
+		name = "Gouden leeuw",
+		message_persist = "",
+		sculpture = "jinshi",
+		picture_persist = "",
+		group_id = 615,
+		id = 615,
+		is_active = 1,
+		time = {
+			{
+				2025,
+				12,
+				25
+			},
+			{
+				10,
+				34,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[616] = {
+		ship_group = 49910,
+		name = "Mecklenburg",
+		message_persist = "",
+		sculpture = "meikelunbao",
+		picture_persist = "",
+		group_id = 616,
+		id = 616,
+		is_active = 1,
+		time = {
+			{
+				2025,
+				12,
+				26
+			},
+			{
+				9,
+				40,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[617] = {
+		ship_group = 79903,
+		name = "Dmitri Donskoi",
+		message_persist = "",
+		sculpture = "dimiteli",
+		picture_persist = "",
+		group_id = 617,
+		id = 617,
+		is_active = 1,
+		time = {
+			{
+				2025,
+				12,
+				27
+			},
+			{
+				12,
+				59,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[618] = {
+		ship_group = 19906,
+		name = "Kansas",
+		message_persist = "",
+		sculpture = "kansasi",
+		picture_persist = "",
+		group_id = 618,
+		id = 618,
+		is_active = 1,
+		time = {
+			{
+				2025,
+				12,
+				28
+			},
+			{
+				21,
+				35,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[619] = {
+		ship_group = 69903,
+		name = "Cuniberti",
+		message_persist = "",
+		sculpture = "kunibeierdi",
+		picture_persist = "",
+		group_id = 619,
+		id = 619,
+		is_active = 1,
+		time = {
+			{
+				2025,
+				12,
+				29
+			},
+			{
+				10,
+				14,
+				0
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -23753,6 +23873,11 @@ pg.activity_ins_template = {
 		611,
 		612,
 		613,
-		614
+		614,
+		615,
+		616,
+		617,
+		618,
+		619
 	}
 }

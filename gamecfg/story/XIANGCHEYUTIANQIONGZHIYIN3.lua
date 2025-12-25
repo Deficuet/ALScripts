@@ -144,7 +144,7 @@ return {
 		},
 		{
 			expression = 10,
-			side = 0,
+			side = 2,
 			bgName = "bg_port_ny_future",
 			hidePaintObj = true,
 			dir = 1,
@@ -219,10 +219,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			actorScale = 0.6,
 			actor = 107160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……指挥官！",
 			typewriter = {
 				speed = 0.05,

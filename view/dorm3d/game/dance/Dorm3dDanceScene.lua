@@ -54,6 +54,13 @@ function var_0_0.init(arg_7_0)
 	arg_7_0.canvas = var_7_0:GetChild(0)
 
 	pg.BgmMgr.GetInstance():StopPlay()
+
+	local var_7_1 = Dorm3dHxHelper.GetTimelineMainCharacter()
+
+	Dorm3dHxHelper.ReplaceCharacterParts(var_7_1)
+	Dorm3dHxHelper.ShowHolyLight({
+		var_7_1
+	}, arg_7_0.holyLightRoot)
 end
 
 function var_0_0.InitUI(arg_8_0)
@@ -123,6 +130,7 @@ function var_0_0.InitUI(arg_8_0)
 	}, {
 		__index = arg_8_0.contextData
 	}))
+	arg_8_0.holyLightRoot = arg_8_0._tf:Find("HolyLightRoot")
 end
 
 function var_0_0.InitScene(arg_22_0)
@@ -312,7 +320,9 @@ function var_0_0.TakePhoto(arg_37_0)
 		arg_37_0.gameView:Flush()
 	end
 
-	BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(arg_37_0.timelineCamera, var_37_0)
+	local var_37_1, var_37_2 = Dorm3dHxHelper.GetHolyLightScreenShotInfo(arg_37_0.holyLightRoot)
+
+	GraphicsInterface.Instance:TakePhotoWithPost(arg_37_0.timelineCamera, var_37_1, var_37_2, var_37_0)
 end
 
 function var_0_0.GamePause(arg_39_0)

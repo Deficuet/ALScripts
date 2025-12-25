@@ -1133,6 +1133,8 @@ function SCENE.GetInvitationPage(arg_201_0)
 		var_201_1 = AssignedShipForChristmasScene
 	elseif var_201_0 == "shrine_year" then
 		var_201_1 = AssignedShipForShrineScene
+	elseif var_201_0 == "shrine_year_winterfestival_2025" then
+		var_201_1 = AssignedShipForWinterFestival2025Scene
 	elseif var_201_0 == "greeting_year" then
 		var_201_1 = AssignedShipForGreetingScene
 	elseif var_201_0 == "build_ur" then

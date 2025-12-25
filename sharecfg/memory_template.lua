@@ -3970,6 +3970,12 @@ pg.memory_template = setmetatable({
 		4933,
 		4934,
 		4935,
+		4941,
+		4942,
+		4943,
+		4944,
+		4945,
+		4946,
 		10011,
 		10012,
 		10013,
@@ -63702,6 +63708,96 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANZHUANSHUXINDONGSHIKE5"
+		}
+	},
+	[4941] = {
+		type = 1,
+		subtitle = "",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII1",
+		mask = "bg/bg_memory",
+		title = "朦胧的宠溺时刻",
+		condition = "完成「港区时尚特刊：专属心动时刻[2]」金狮的签到",
+		number = 0,
+		id = 4941,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII1"
+		}
+	},
+	[4942] = {
+		type = 1,
+		subtitle = "",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII2",
+		mask = "bg/bg_memory",
+		title = "午夜的招待",
+		condition = "完成「港区时尚特刊：专属心动时刻[2]」堪萨斯的签到",
+		number = 0,
+		id = 4942,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII2"
+		}
+	},
+	[4943] = {
+		type = 1,
+		subtitle = "",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII3",
+		mask = "bg/bg_memory",
+		title = "笨女仆大危机？！",
+		condition = "完成「港区时尚特刊：专属心动时刻[2]」{namecode:510}的签到",
+		number = 0,
+		id = 4943,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII3"
+		}
+	},
+	[4944] = {
+		type = 1,
+		subtitle = "",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII4",
+		mask = "bg/bg_memory",
+		title = "烙印之刻",
+		condition = "完成「港区时尚特刊：专属心动时刻[2]」{namecode:550}的签到",
+		number = 0,
+		id = 4944,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII4"
+		}
+	},
+	[4945] = {
+		type = 1,
+		subtitle = "",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII5",
+		mask = "bg/bg_memory",
+		title = "侍你入梦",
+		condition = "完成「港区时尚特刊：专属心动时刻[2]」吉尚的签到",
+		number = 0,
+		id = 4945,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII5"
+		}
+	},
+	[4946] = {
+		type = 1,
+		subtitle = "",
+		story = "SHISHANGTEKANZHUANSHUXINDONGSHIKEII6",
+		mask = "bg/bg_memory",
+		title = "夜阑诱语",
+		condition = "完成「港区时尚特刊：专属心动时刻[2]」{namecode:427}的签到",
+		number = 0,
+		id = 4946,
+		icon = "memory_gangqushishangtekan",
+		is_open = 0,
+		unlock_pre = {
+			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII6"
 		}
 	},
 	[10011] = {

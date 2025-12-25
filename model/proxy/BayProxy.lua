@@ -37,6 +37,7 @@ function var_0_0.register(arg_1_0)
 			end
 		end
 
+		arg_1_0:ClearChangeSkinAsmr()
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("isActivityNpc")
 	end)
 	arg_1_0:on(12031, function(arg_3_0)
@@ -1236,46 +1237,52 @@ function var_0_0.getShipPhantomList(arg_91_0, arg_91_1)
 	end)
 end
 
-function var_0_0.updateShipSkin(arg_93_0, arg_93_1, arg_93_2, arg_93_3)
-	local var_93_0 = arg_93_0.data[arg_93_1]
-
-	assert(var_93_0)
-	var_93_0:updateSkinId(arg_93_3, arg_93_2)
-	arg_93_0:sendNotification(var_0_0.SHIP_UPDATED, var_93_0:clone())
+function var_0_0.ClearChangeSkinAsmr(arg_93_0)
+	for iter_93_0, iter_93_1 in pairs(arg_93_0.data) do
+		iter_93_1:RevertAsmrSkin()
+	end
 end
 
-function var_0_0.CanUseShareSkinPhantoms(arg_94_0, arg_94_1)
-	local var_94_0 = ShipSkin.New({
-		id = arg_94_1
-	})
-	local var_94_1 = var_94_0:IsTransSkin()
-	local var_94_2 = var_94_0:IsProposeSkin()
-	local var_94_3, var_94_4 = var_94_0:GetShareGroupIds()
-	local var_94_5 = {}
+function var_0_0.updateShipSkin(arg_94_0, arg_94_1, arg_94_2, arg_94_3)
+	local var_94_0 = arg_94_0.data[arg_94_1]
 
-	for iter_94_0, iter_94_1 in ipairs(var_94_4) do
-		var_94_5[iter_94_1] = true
+	assert(var_94_0)
+	var_94_0:updateSkinId(arg_94_3, arg_94_2)
+	arg_94_0:sendNotification(var_0_0.SHIP_UPDATED, var_94_0:clone())
+end
+
+function var_0_0.CanUseShareSkinPhantoms(arg_95_0, arg_95_1)
+	local var_95_0 = ShipSkin.New({
+		id = arg_95_1
+	})
+	local var_95_1 = var_95_0:IsTransSkin()
+	local var_95_2 = var_95_0:IsProposeSkin()
+	local var_95_3, var_95_4 = var_95_0:GetShareGroupIds()
+	local var_95_5 = {}
+
+	for iter_95_0, iter_95_1 in ipairs(var_95_4) do
+		var_95_5[iter_95_1] = true
 	end
 
-	local var_94_6 = {}
+	local var_95_6 = {}
 
-	for iter_94_2, iter_94_3 in ipairs(underscore.filter(underscore.values(arg_94_0:getRawData()), function(arg_95_0)
-		if not arg_95_0 then
+	for iter_95_2, iter_95_3 in ipairs(underscore.filter(underscore.values(arg_95_0:getRawData()), function(arg_96_0)
+		if not arg_96_0 then
 			return false
 		end
 
-		if var_94_1 then
-			return arg_95_0.groupId == var_94_3 and arg_95_0:isRemoulded()
-		elseif arg_95_0.groupId == var_94_3 or var_94_5[arg_95_0.groupId] and math.floor(arg_95_0:getIntimacy() / 100) >= arg_95_0:GetNoProposeIntimacyMax() then
-			return not var_94_2 or tobool(arg_95_0.propose)
+		if var_95_1 then
+			return arg_96_0.groupId == var_95_3 and arg_96_0:isRemoulded()
+		elseif arg_96_0.groupId == var_95_3 or var_95_5[arg_96_0.groupId] and math.floor(arg_96_0:getIntimacy() / 100) >= arg_96_0:GetNoProposeIntimacyMax() then
+			return not var_95_2 or tobool(arg_96_0.propose)
 		else
 			return false
 		end
 	end)) do
-		table.insertto(var_94_6, iter_94_3:getAllShipPhantom())
+		table.insertto(var_95_6, iter_95_3:getAllShipPhantom())
 	end
 
-	return var_94_6
+	return var_95_6
 end
 
 return var_0_0

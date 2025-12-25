@@ -528,12 +528,17 @@ function var_0_0.GetShareSkinsForShip(arg_44_0, arg_44_1)
 
 		if var_44_3 then
 			local var_44_4 = ShipSkin.GetStoreChangeSkinId(var_44_3, arg_44_1:GetShipPhantomMark())
+			local var_44_5 = var_44_2:getConfig("change_skin")
 
 			if not var_44_4 then
-				if var_44_2.change_skin.index ~= 1 then
+				if var_44_5 and var_44_5 ~= "" and var_44_5.index ~= 1 then
 					table.remove(var_44_1, iter_44_0)
 				end
-			elseif var_44_4 ~= var_44_2.id then
+			elseif not arg_44_0:hasSkin(var_44_2.id) then
+				if var_44_4 ~= var_44_2.id then
+					table.remove(var_44_1, iter_44_0)
+				end
+			elseif var_44_5 and var_44_5 ~= "" and var_44_5.index ~= 1 then
 				table.remove(var_44_1, iter_44_0)
 			end
 		end

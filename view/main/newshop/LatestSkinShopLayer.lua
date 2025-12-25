@@ -842,6 +842,7 @@ function var_0_0.FlushChangeSkin(arg_46_0, arg_46_1)
 	end
 
 	arg_46_0.changeSkinToggle:setSkinData(arg_46_0.skinId)
+	setActive(arg_46_0.changeSkin, not arg_46_0.changeSkinToggle:IsAsmrSkin())
 end
 
 function var_0_0.GCHandle(arg_47_0)

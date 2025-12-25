@@ -247,6 +247,7 @@ function var_0_0.showSkinProfile(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
 
 	if var_23_0 then
 		arg_23_0.changeSkinToggle:setSkinData(arg_23_2.id)
+		setActive(arg_23_0.btnChangeSkin, not arg_23_0.changeSkinToggle:IsAsmrSkin())
 	end
 
 	arg_23_0.contextData.skinIndex = arg_23_1 + 1

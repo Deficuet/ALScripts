@@ -145,7 +145,8 @@ function var_0_0.listNotificationInterests(arg_19_0)
 		GAME.SKIN_SHOPPIGN_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
 		GAME.BUY_FURNITURE_DONE,
-		NewShopMainMediator.NOTI_UPDATE_CURRENT
+		NewShopMainMediator.NOTI_UPDATE_CURRENT,
+		GAME.CHARGE_OPERATION_DONE
 	}
 end
 
@@ -207,6 +208,8 @@ function var_0_0.handleNotification(arg_20_0, arg_20_1)
 	elseif var_20_0 == NewShopMainMediator.NOTI_UPDATE_CURRENT then
 		arg_20_0.viewComponent:GetAllCommodities()
 		arg_20_0.viewComponent:Refresh(true)
+	elseif var_20_0 == GAME.CHARGE_OPERATION_DONE then
+		arg_20_0.viewComponent:closeView()
 	end
 end
 

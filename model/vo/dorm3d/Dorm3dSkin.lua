@@ -82,15 +82,7 @@ function var_0_0.GetRarity(arg_15_0)
 end
 
 function var_0_0.GetModelName(arg_16_0)
-	if HXSet.isHx() then
-		return arg_16_0:getConfig("hx_model") ~= "" and arg_16_0:getConfig("hx_model") or arg_16_0:getConfig("model_id")
-	else
-		return arg_16_0:getConfig("model_id")
-	end
-end
-
-function var_0_0.GetHXModel(arg_17_0)
-	return arg_17_0:getConfig("hx_model")
+	return arg_16_0:getConfig("model_id")
 end
 
 return var_0_0

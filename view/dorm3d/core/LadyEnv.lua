@@ -1,4 +1,4 @@
-local var_0_0 = class("LadyEnv", import("view.dorm3d.Extra.BaseExtraSystem"))
+local var_0_0 = class("LadyEnv", import("view.dorm3d.Core.BaseLadyEnv"))
 
 function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.super.Ctor(arg_1_0, arg_1_1.event, arg_1_1)
@@ -139,24 +139,21 @@ function var_0_0.InitCharacter(arg_2_0, arg_2_1)
 		end
 
 		if arg_10_0.stringParameter ~= "" then
-			switch(arg_10_0.stringParameter, arg_2_0.animExtraEvent, function()
-				arg_2_0:Func("OnAnimationEvent", arg_10_0)
-			end)
+			arg_2_0:Func("OnAnimationEvent", arg_10_0)
 		end
 	end)
 
 	arg_2_0.animEventCallbacks = {}
 	arg_2_0.animCallbacks = {}
-	arg_2_0.animExtraEvent = {}
 
-	local function var_2_3(arg_12_0, arg_12_1, arg_12_2)
-		arg_2_0:Get("loader"):GetPrefab(arg_12_0, arg_12_1, function(arg_13_0)
-			arg_13_0.name = arg_12_2
-			arg_2_0[arg_12_2] = tf(arg_13_0)
+	local function var_2_3(arg_11_0, arg_11_1, arg_11_2)
+		arg_2_0:Get("loader"):GetPrefab(arg_11_0, arg_11_1, function(arg_12_0)
+			arg_12_0.name = arg_11_2
+			arg_2_0[arg_11_2] = tf(arg_12_0)
 
-			setActive(arg_13_0, false)
+			setActive(arg_12_0, false)
 			onNextTick(function()
-				setParent(arg_2_0[arg_12_2], arg_2_0.ladyHeadCenter)
+				setParent(arg_2_0[arg_11_2], arg_2_0.ladyHeadCenter)
 			end)
 		end)
 	end
@@ -170,7 +167,7 @@ function var_0_0.InitCharacter(arg_2_0, arg_2_1)
 	arg_2_0.ladyWatchFloat = arg_2_0.ladyHeadCenter:Find("ladyWatchFloat")
 
 	if not arg_2_0.ladyWatchFloat then
-		var_2_3("dorm3d/effect/prefab/scene/vfx_talk_mark", "vfx_talk_mark", "ladyWatchFloat")
+		var_2_3("dorm3d/effect/prefab/function/vfx_talk_mark", "vfx_talk_mark", "ladyWatchFloat")
 	end
 
 	if arg_2_0.tfPendintItem then
@@ -198,335 +195,334 @@ function var_0_0.InitCharacter(arg_2_0, arg_2_1)
 	arg_2_0.transparencyComp.player = arg_2_0:Get("player")
 	arg_2_0.transparencyComp.minDistance = DormConst.TRANSPARENCY_MIN_DISTANCE
 	arg_2_0.transparencyComp.maxDistance = DormConst.TRANSPARENCY_MAX_DISTANCE
+	arg_2_0.animationEventDispatcher = GetOrAddComponent(arg_2_0.lady, typeof(DormAnimationEventDispatcher))
+	arg_2_0.animationEventDispatcher.listenLayer = arg_2_0.ladyAnimBaseLayerIndex
 end
 
-function var_0_0.SetZone(arg_17_0, arg_17_1, arg_17_2)
-	arg_17_0.ladyBaseZone = arg_17_1
-	arg_17_0.ladyActiveZone = arg_17_2 or arg_17_1
+function var_0_0.SetZone(arg_16_0, arg_16_1, arg_16_2)
+	arg_16_0.ladyBaseZone = arg_16_1
+	arg_16_0.ladyActiveZone = arg_16_2 or arg_16_1
 end
 
-function var_0_0.SwitchCharacterSkin(arg_18_0, arg_18_1, arg_18_2, arg_18_3)
-	local var_18_0 = arg_18_0.skinIdList
+function var_0_0.SwitchCharacterSkin(arg_17_0, arg_17_1, arg_17_2, arg_17_3)
+	local var_17_0 = arg_17_0.skinIdList
 
-	assert(table.contains(var_18_0, arg_18_2))
+	assert(table.contains(var_17_0, arg_17_2))
 
-	local var_18_1 = arg_18_0:GetCurrentAnim()
-	local var_18_2 = arg_18_0.skinId
-	local var_18_3 = arg_18_0:Get("skinDict")[var_18_2].ladyGameObject
-	local var_18_4 = var_18_3.transform.position
-	local var_18_5 = var_18_3.transform.rotation
-	local var_18_6 = arg_18_0.ladyBlackboard
+	local var_17_1 = arg_17_0:GetCurrentAnim()
+	local var_17_2 = arg_17_0.skinId
+	local var_17_3 = arg_17_0:Get("skinDict")[var_17_2].ladyGameObject
+	local var_17_4 = var_17_3.transform.position
+	local var_17_5 = var_17_3.transform.rotation
+	local var_17_6 = arg_17_0.ladyBlackboard
 
-	setActive(var_18_3, false)
+	setActive(var_17_3, false)
 
-	arg_18_0.skinId = arg_18_2
+	arg_17_0.skinId = arg_17_2
 
-	setActive(arg_18_0:Get("skinDict")[arg_18_2].ladyGameObject, true)
+	setActive(arg_17_0:Get("skinDict")[arg_17_2].ladyGameObject, true)
 
-	arg_18_0.ladyGameObject = arg_18_0:Get("skinDict")[arg_18_2].ladyGameObject
-	arg_18_0.ladyCollider = nil
+	arg_17_0.ladyGameObject = arg_17_0:Get("skinDict")[arg_17_2].ladyGameObject
+	arg_17_0.ladyCollider = nil
 
-	arg_18_0:InitCharacter(arg_18_1)
-	pg.NodeCanvasMgr.GetInstance():CopyAllBlackBoardValue(var_18_6, arg_18_0.ladyBlackboard)
-	arg_18_0.ladyAnimator:Play(var_18_1, arg_18_0.ladyAnimBaseLayerIndex)
-	arg_18_0.ladyAnimator:Update(0)
-	arg_18_0.lady:SetPositionAndRotation(var_18_4, var_18_5)
-	existCall(arg_18_3)
+	arg_17_0:InitCharacter(arg_17_1)
+	pg.NodeCanvasMgr.GetInstance():CopyAllBlackBoardValue(var_17_6, arg_17_0.ladyBlackboard)
+	arg_17_0.ladyAnimator:Play(var_17_1, arg_17_0.ladyAnimBaseLayerIndex)
+	arg_17_0.ladyAnimator:Update(0)
+	arg_17_0.lady:SetPositionAndRotation(var_17_4, var_17_5)
+	arg_17_0:Func("InitHolyLight")
+	existCall(arg_17_3)
 end
 
-function var_0_0.SetBlackboardValue(arg_19_0, arg_19_1, arg_19_2)
+function var_0_0.SetBlackboardValue(arg_18_0, arg_18_1, arg_18_2)
+	arg_18_0.blackboard = arg_18_0.blackboard or {}
+	arg_18_0.blackboard[arg_18_1] = arg_18_2
+
+	pg.NodeCanvasMgr.GetInstance():SetBlackboradValue(arg_18_1, arg_18_2, arg_18_0.ladyBlackboard)
+end
+
+function var_0_0.GetBlackboardValue(arg_19_0, arg_19_1)
 	arg_19_0.blackboard = arg_19_0.blackboard or {}
-	arg_19_0.blackboard[arg_19_1] = arg_19_2
 
-	pg.NodeCanvasMgr.GetInstance():SetBlackboradValue(arg_19_1, arg_19_2, arg_19_0.ladyBlackboard)
+	return arg_19_0.blackboard[arg_19_1]
 end
 
-function var_0_0.GetBlackboardValue(arg_20_0, arg_20_1)
-	arg_20_0.blackboard = arg_20_0.blackboard or {}
+function var_0_0.HideCharacterPart(arg_20_0, arg_20_1, arg_20_2)
+	local var_20_0, var_20_1 = Dorm3dSkin.New({
+		configId = arg_20_1
+	}):GetActiveAndHiddenPartNames(arg_20_2)
 
-	return arg_20_0.blackboard[arg_20_1]
-end
-
-function var_0_0.HideCharacterPart(arg_21_0, arg_21_1, arg_21_2)
-	local var_21_0, var_21_1 = Dorm3dSkin.New({
-		configId = arg_21_1
-	}):GetActiveAndHiddenPartNames(arg_21_2)
-
-	if arg_21_0.lady == nil then
-		arg_21_0.lady = arg_21_0.ladyGameObject.transform
+	if arg_20_0.lady == nil then
+		arg_20_0.lady = arg_20_0.ladyGameObject.transform
 	end
 
-	_.each(var_21_0, function(arg_22_0)
-		setActive(arg_21_0.lady:Find(arg_22_0), true)
+	_.each(var_20_0, function(arg_21_0)
+		setActive(arg_20_0.lady:Find(arg_21_0), true)
 	end)
-	_.each(var_21_1, function(arg_23_0)
-		setActive(arg_21_0.lady:Find(arg_23_0), false)
+	_.each(var_20_1, function(arg_22_0)
+		setActive(arg_20_0.lady:Find(arg_22_0), false)
 	end)
 end
 
-function var_0_0.GetCurrentAnim(arg_24_0)
-	return arg_24_0.ladyAnimator:GetCurrentAnimatorStateInfo(arg_24_0.ladyAnimBaseLayerIndex).shortNameHash
+function var_0_0.GetCurrentAnim(arg_23_0)
+	return arg_23_0.ladyAnimator:GetCurrentAnimatorStateInfo(arg_23_0.ladyAnimBaseLayerIndex).shortNameHash
 end
 
-function var_0_0.EnableCloth(arg_25_0, arg_25_1, arg_25_2)
-	arg_25_1 = arg_25_1 or {}
+function var_0_0.EnableCloth(arg_24_0, arg_24_1, arg_24_2)
+	arg_24_1 = arg_24_1 or {}
 
-	table.Foreach(arg_25_0.clothComps, function(arg_26_0, arg_26_1)
+	table.Foreach(arg_24_0.clothComps, function(arg_25_0, arg_25_1)
+		if arg_25_1 == nil then
+			return
+		end
+
+		setActive(arg_25_1, arg_24_1[arg_25_0] == 1)
+	end)
+	table.Foreach(arg_24_0.clothColliderDict, function(arg_26_0, arg_26_1)
 		if arg_26_1 == nil then
 			return
 		end
 
-		setActive(arg_26_1, arg_25_1[arg_26_0] == 1)
-	end)
-	table.Foreach(arg_25_0.clothColliderDict, function(arg_27_0, arg_27_1)
-		if arg_27_1 == nil then
-			return
-		end
-
-		setActive(arg_27_1, false)
+		setActive(arg_26_1, false)
 	end)
 
-	if arg_25_2 then
-		table.Foreach(arg_25_2, function(arg_28_0, arg_28_1)
-			local var_28_0 = arg_25_0.clothColliderDict[arg_28_1[1]]
+	if arg_24_2 then
+		table.Foreach(arg_24_2, function(arg_27_0, arg_27_1)
+			local var_27_0 = arg_24_0.clothColliderDict[arg_27_1[1]]
 
-			if var_28_0 == nil then
+			if var_27_0 == nil then
 				return
 			end
 
-			setActive(var_28_0, arg_28_1[2] == 1)
+			setActive(var_27_0, arg_27_1[2] == 1)
 
-			if arg_28_1[2] ~= 1 then
+			if arg_27_1[2] ~= 1 then
 				return
 			end
 
-			var_0_0.SetMagicaCollider(var_28_0, arg_28_1[3], arg_28_1[4])
+			var_0_0.SetMagicaCollider(var_27_0, arg_27_1[3], arg_27_1[4])
 		end)
 	end
 end
 
-function var_0_0.PlaySingleAction(arg_29_0, arg_29_1, arg_29_2, arg_29_3)
-	warning("Play", arg_29_1)
+function var_0_0.PlaySingleAction(arg_28_0, arg_28_1, arg_28_2, arg_28_3)
+	warning("Play", arg_28_1)
 
-	local var_29_0 = string.find(arg_29_1, "^Face_")
-	local var_29_1 = tobool(var_29_0)
+	local var_28_0 = string.find(arg_28_1, "^Face_")
+	local var_28_1 = tobool(var_28_0)
 
-	if not var_29_1 then
-		local var_29_2 = string.find(arg_29_1, "^face_")
+	if not var_28_1 then
+		local var_28_2 = string.find(arg_28_1, "^face_")
 
-		var_29_1 = tobool(var_29_2)
+		var_28_1 = tobool(var_28_2)
 	end
 
-	if var_29_1 then
-		arg_29_0:PlayFaceAnim(arg_29_1, arg_29_2)
+	if var_28_1 then
+		arg_28_0:PlayFaceAnim(arg_28_1, arg_28_2)
 
 		return
 	end
 
-	if arg_29_0.ladyAnimator:GetCurrentAnimatorStateInfo(arg_29_0.ladyAnimBaseLayerIndex):IsName(arg_29_1) then
+	if arg_28_0.ladyAnimator:GetCurrentAnimatorStateInfo(arg_28_0.ladyAnimBaseLayerIndex):IsName(arg_28_1) then
 		return
 	end
 
-	existCall(arg_29_0.animExtraItemCallback)
+	existCall(arg_28_0.animExtraItemCallback)
 
-	arg_29_0.animExtraItemCallback = nil
+	arg_28_0.animExtraItemCallback = nil
 
-	local var_29_3 = arg_29_0:GetBlackboardValue("groupId")
-	local var_29_4 = _.detect(pg.dorm3d_anim_extraitem.get_id_list_by_ship_id[var_29_3] or {}, function(arg_30_0)
-		return pg.dorm3d_anim_extraitem[arg_30_0].anim == arg_29_1
+	local var_28_3 = arg_28_0:GetBlackboardValue("groupId")
+	local var_28_4 = _.detect(pg.dorm3d_anim_extraitem.get_id_list_by_ship_id[var_28_3] or {}, function(arg_29_0)
+		return pg.dorm3d_anim_extraitem[arg_29_0].anim == arg_28_1
 	end)
-	local var_29_5 = var_29_4 and pg.dorm3d_anim_extraitem[var_29_4]
-	local var_29_6
+	local var_28_5 = var_28_4 and pg.dorm3d_anim_extraitem[var_28_4]
+	local var_28_6
 
-	arg_29_3 = arg_29_3 or DormConst.DEFAULT_ANIM_FADE_IN_TIME
+	arg_28_3 = arg_28_3 or DormConst.DEFAULT_ANIM_FADE_IN_TIME
 
 	seriesAsync({
-		function(arg_31_0)
-			if not var_29_5 or var_29_5.item_prefab == "" then
-				arg_31_0()
+		function(arg_30_0)
+			if not var_28_5 or var_28_5.item_prefab == "" then
+				arg_30_0()
 
 				return
 			end
 
-			local var_31_0 = string.lower("dorm3d/furniture/item/" .. var_29_5.item_prefab)
+			local var_30_0 = string.lower("dorm3d/furniture/item/" .. var_28_5.item_prefab)
 
-			arg_29_0:Get("loader"):GetPrefab(var_31_0, "", function(arg_32_0)
-				setParent(arg_32_0, arg_29_0.lady)
+			arg_28_0:Get("loader"):GetPrefab(var_30_0, "", function(arg_31_0)
+				setParent(arg_31_0, arg_28_0.lady)
 
-				if var_29_5.item_shield ~= "" then
-					var_29_6 = {}
+				if var_28_5.item_shield ~= "" then
+					var_28_6 = {}
 
-					for iter_32_0, iter_32_1 in ipairs(var_29_5.item_shield) do
-						local var_32_0 = arg_29_0:Get("modelRoot"):Find(iter_32_1)
+					for iter_31_0, iter_31_1 in ipairs(var_28_5.item_shield) do
+						local var_31_0 = arg_28_0:Get("modelRoot"):Find(iter_31_1)
 
-						if not var_32_0 then
-							warning(string.format("dorm3d_anim_extraitem:%d without hide item:%s", var_29_5.id, iter_32_1))
+						if not var_31_0 then
+							warning(string.format("dorm3d_anim_extraitem:%d without hide item:%s", var_28_5.id, iter_31_1))
 						else
-							var_29_6[iter_32_1] = isActive(var_32_0)
+							var_28_6[iter_31_1] = isActive(var_31_0)
 
-							setActive(var_32_0, false)
+							setActive(var_31_0, false)
 						end
 					end
 				end
 
-				function arg_29_0.animExtraItemCallback()
-					arg_29_0:Get("loader"):ClearRequest("AnimExtraItem")
+				function arg_28_0.animExtraItemCallback()
+					arg_28_0:Get("loader"):ClearRequest("AnimExtraItem")
 
-					if var_29_6 then
-						for iter_33_0, iter_33_1 in pairs(var_29_6) do
-							setActive(arg_29_0:Get("modelRoot"):Find(iter_33_0), iter_33_1)
+					if var_28_6 then
+						for iter_32_0, iter_32_1 in pairs(var_28_6) do
+							setActive(arg_28_0:Get("modelRoot"):Find(iter_32_0), iter_32_1)
 						end
 					end
 				end
 
-				arg_31_0()
+				arg_30_0()
 			end, "AnimExtraItem")
 		end,
-		function(arg_34_0)
-			arg_29_0.nowState = arg_29_1
-			arg_29_0.stateCallback = arg_34_0
+		function(arg_33_0)
+			arg_28_0.nowState = arg_28_1
+			arg_28_0.stateCallback = arg_33_0
 
-			if IsUnityEditor and not arg_29_0.ladyAnimator:HasState(arg_29_0.ladyAnimBaseLayerIndex, Animator.StringToHash(arg_29_1)) then
-				errorMsg("！！！！！！！！动画不存在>>>>>>>>>>>>>", arg_29_1)
+			if IsUnityEditor and not arg_28_0.ladyAnimator:HasState(arg_28_0.ladyAnimBaseLayerIndex, Animator.StringToHash(arg_28_1)) then
+				errorMsg("！！！！！！！！动画不存在>>>>>>>>>>>>>", arg_28_1)
 			end
 
-			arg_29_0.ladyAnimator:CrossFadeInFixedTime(arg_29_1, arg_29_3, arg_29_0.ladyAnimBaseLayerIndex)
+			arg_28_0.ladyAnimator:CrossFadeInFixedTime(arg_28_1, arg_28_3, arg_28_0.ladyAnimBaseLayerIndex)
 		end,
-		function(arg_35_0)
-			arg_29_0.nowState = nil
-			arg_29_0.stateCallback = nil
+		function(arg_34_0)
+			arg_28_0.nowState = nil
+			arg_28_0.stateCallback = nil
 
-			existCall(arg_29_0.animExtraItemCallback)
+			existCall(arg_28_0.animExtraItemCallback)
 
-			arg_29_0.animExtraItemCallback = nil
+			arg_28_0.animExtraItemCallback = nil
 
-			arg_35_0()
+			arg_34_0()
 		end,
-		arg_29_2
+		arg_28_2
 	})
 end
 
-function var_0_0.PlayFaceAnim(arg_36_0, arg_36_1, arg_36_2)
-	if IsUnityEditor and not arg_36_0.ladyAnimator:HasState(arg_36_0.ladyAnimFaceLayerIndex, Animator.StringToHash(arg_36_1)) then
-		errorMsg("！！！！！！！！动画不存在>>>>>>>>>>>>>", arg_36_1)
+function var_0_0.PlayFaceAnim(arg_35_0, arg_35_1, arg_35_2)
+	if IsUnityEditor and not arg_35_0.ladyAnimator:HasState(arg_35_0.ladyAnimFaceLayerIndex, Animator.StringToHash(arg_35_1)) then
+		errorMsg("！！！！！！！！动画不存在>>>>>>>>>>>>>", arg_35_1)
 	end
 
-	arg_36_0.ladyAnimator:CrossFadeInFixedTime(arg_36_1, 0, arg_36_0.ladyAnimFaceLayerIndex)
-	existCall(arg_36_2)
+	arg_35_0.ladyAnimator:CrossFadeInFixedTime(arg_35_1, 0, arg_35_0.ladyAnimFaceLayerIndex)
+	existCall(arg_35_2)
 end
 
-function var_0_0.SwitchAnim(arg_37_0, arg_37_1, arg_37_2)
-	local var_37_0 = string.find(arg_37_1, "^Face_")
+function var_0_0.SwitchAnim(arg_36_0, arg_36_1, arg_36_2)
+	local var_36_0 = string.find(arg_36_1, "^Face_")
 
-	if tobool(var_37_0) then
-		arg_37_0:PlayFaceAnim(arg_37_1, arg_37_2)
+	if tobool(var_36_0) then
+		arg_36_0:PlayFaceAnim(arg_36_1, arg_36_2)
 
 		return
 	end
 
-	existCall(arg_37_0.animExtraItemCallback)
+	existCall(arg_36_0.animExtraItemCallback)
 
-	arg_37_0.animExtraItemCallback = nil
+	arg_36_0.animExtraItemCallback = nil
 
-	local var_37_1 = {}
+	local var_36_1 = {}
 
-	table.insert(var_37_1, function(arg_38_0)
-		arg_37_0.nowState = arg_37_1
-		arg_37_0.stateCallback = arg_38_0
+	table.insert(var_36_1, function(arg_37_0)
+		arg_36_0.nowState = arg_36_1
+		arg_36_0.stateCallback = arg_37_0
 
-		arg_37_0.ladyAnimator:PlayInFixedTime(arg_37_1, arg_37_0.ladyAnimBaseLayerIndex)
+		arg_36_0.ladyAnimator:PlayInFixedTime(arg_36_1, arg_36_0.ladyAnimBaseLayerIndex)
 	end)
-	table.insert(var_37_1, function(arg_39_0)
-		arg_37_0.nowState = nil
-		arg_37_0.stateCallback = nil
+	table.insert(var_36_1, function(arg_38_0)
+		arg_36_0.nowState = nil
+		arg_36_0.stateCallback = nil
 
-		arg_39_0()
+		arg_38_0()
 	end)
-	seriesAsync(var_37_1, arg_37_2)
+	seriesAsync(var_36_1, arg_36_2)
 end
 
-function var_0_0.RegisterAnimExtraEvent(arg_40_0, arg_40_1, arg_40_2)
-	arg_40_0.animExtraEvent[arg_40_1] = arg_40_2
-end
-
-function var_0_0.RevertClothComps(arg_41_0)
-	table.Foreach(arg_41_0.ladyClothCompSettings, function(arg_42_0, arg_42_1)
-		arg_42_0.enabled = arg_42_1.enabled
+function var_0_0.RevertClothComps(arg_39_0)
+	table.Foreach(arg_39_0.ladyClothCompSettings, function(arg_40_0, arg_40_1)
+		arg_40_0.enabled = arg_40_1.enabled
 	end)
-	table.Foreach(arg_41_0.ladyClothColliderSettings, function(arg_43_0, arg_43_1)
-		arg_43_0.enabled = arg_43_1.enabled
+	table.Foreach(arg_39_0.ladyClothColliderSettings, function(arg_41_0, arg_41_1)
+		arg_41_0.enabled = arg_41_1.enabled
 
-		var_0_0.SetMagicaCollider(arg_43_0, arg_43_1.StartRadius, arg_43_1.EndRadius)
+		var_0_0.SetMagicaCollider(arg_41_0, arg_41_1.StartRadius, arg_41_1.EndRadius)
 	end)
 end
 
-function var_0_0.SetMagicaCollider(arg_44_0, arg_44_1, arg_44_2)
-	local var_44_0 = typeof("MagicaCloth2.MagicaCapsuleCollider")
-	local var_44_1 = arg_44_0:GetSize()
+function var_0_0.SetMagicaCollider(arg_42_0, arg_42_1, arg_42_2)
+	local var_42_0 = typeof("MagicaCloth2.MagicaCapsuleCollider")
+	local var_42_1 = arg_42_0:GetSize()
 
-	var_44_1.x = arg_44_1
-	var_44_1.y = arg_44_2
+	var_42_1.x = arg_42_1
+	var_42_1.y = arg_42_2
 
-	arg_44_0:SetSize(var_44_1)
+	arg_42_0:SetSize(var_42_1)
 end
 
-function var_0_0.MoveToTarget(arg_45_0, arg_45_1, arg_45_2, arg_45_3)
-	arg_45_2 = arg_45_2 or DormConst.LADY_MOVE_SPEED
-	arg_45_3 = arg_45_3 or DormConst.LADY_ROTATE_SPEED
+function var_0_0.MoveToTarget(arg_43_0, arg_43_1, arg_43_2, arg_43_3)
+	arg_43_2 = arg_43_2 or DormConst.LADY_MOVE_SPEED
+	arg_43_3 = arg_43_3 or DormConst.LADY_ROTATE_SPEED
 
-	local var_45_0 = arg_45_1 - arg_45_0.lady.position
+	local var_43_0 = arg_43_1 - arg_43_0.lady.position
 
-	var_45_0.y = 0
+	var_43_0.y = 0
 
-	if var_45_0 ~= Vector3.zero then
-		local var_45_1 = Quaternion.LookRotation(var_45_0)
+	if var_43_0 ~= Vector3.zero then
+		local var_43_1 = Quaternion.LookRotation(var_43_0)
 
-		arg_45_0.lady.rotation = Quaternion.Slerp(arg_45_0.lady.rotation, var_45_1, Time.deltaTime * arg_45_3)
+		arg_43_0.lady.rotation = Quaternion.Slerp(arg_43_0.lady.rotation, var_43_1, Time.deltaTime * arg_43_3)
 	end
 
-	local var_45_2 = var_45_0.normalized * arg_45_2
+	local var_43_2 = var_43_0.normalized * arg_43_2
 
-	arg_45_0.characterController:Move(var_45_2 * Time.deltaTime)
+	arg_43_0.characterController:Move(var_43_2 * Time.deltaTime)
 end
 
-function var_0_0.SetCurrentIkTimelineStatus(arg_46_0, arg_46_1)
-	arg_46_0.currentIkTimelineStatus = arg_46_1
+function var_0_0.SetCurrentIkTimelineStatus(arg_44_0, arg_44_1)
+	arg_44_0.currentIkTimelineStatus = arg_44_1
 end
 
-function var_0_0.CheckIkTimelineStatus(arg_47_0, arg_47_1)
-	if not arg_47_0.currentIkTimelineStatus then
+function var_0_0.CheckIkTimelineStatus(arg_45_0, arg_45_1)
+	if not arg_45_0.currentIkTimelineStatus then
 		return true
 	end
 
-	return arg_47_0.currentIkTimelineStatus ~= arg_47_1
+	return arg_45_0.currentIkTimelineStatus ~= arg_45_1
 end
 
-function var_0_0.SetCollisible(arg_48_0, arg_48_1)
-	local var_48_0 = arg_48_0.ladyCollider:GetComponent(typeof(UnityEngine.CapsuleCollider))
+function var_0_0.SetCollisible(arg_46_0, arg_46_1)
+	local var_46_0 = arg_46_0.ladyCollider:GetComponent(typeof(UnityEngine.CapsuleCollider))
 
-	if arg_48_1 then
-		var_48_0.excludeLayers = LayerMask.GetMask("Nothing")
-		arg_48_0.characterController.excludeLayers = LayerMask.GetMask("Nothing")
+	if arg_46_1 then
+		var_46_0.excludeLayers = LayerMask.GetMask("Nothing")
+		arg_46_0.characterController.excludeLayers = LayerMask.GetMask("Nothing")
 	else
-		var_48_0.excludeLayers = LayerMask.GetMask("Player")
-		arg_48_0.characterController.excludeLayers = LayerMask.GetMask("Player")
+		var_46_0.excludeLayers = LayerMask.GetMask("Player")
+		arg_46_0.characterController.excludeLayers = LayerMask.GetMask("Player")
 	end
 end
 
-function var_0_0.EnableCharacterTransparency(arg_49_0, arg_49_1)
-	arg_49_0.transparencyComp.Enable = arg_49_1
+function var_0_0.EnableCharacterTransparency(arg_47_0, arg_47_1)
+	arg_47_0.transparencyComp.Enable = arg_47_1
 end
 
-function var_0_0.BlockCanWatch(arg_50_0, arg_50_1)
-	arg_50_0.blockCanWatch = arg_50_1
+function var_0_0.BlockCanWatch(arg_48_0, arg_48_1)
+	arg_48_0.blockCanWatch = arg_48_1
 end
 
-function var_0_0.SetPosition(arg_51_0, arg_51_1)
-	arg_51_0.lady.position = arg_51_1
+function var_0_0.SetPosition(arg_49_0, arg_49_1)
+	arg_49_0.lady.position = arg_49_1
 end
 
-function var_0_0.SetRotation(arg_52_0, arg_52_1)
-	arg_52_0.lady.rotation = arg_52_1
+function var_0_0.SetRotation(arg_50_0, arg_50_1)
+	arg_50_0.lady.rotation = arg_50_1
 end
 
 return var_0_0

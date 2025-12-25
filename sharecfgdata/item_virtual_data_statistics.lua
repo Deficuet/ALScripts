@@ -179789,6 +179789,58 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_virtual_data_statistics[65794] = {
+		display = "收集7次后，可以得到「心愿卡」",
+		name = "冬日的心愿",
+		max_num = 0,
+		type = 0,
+		time_limit = 0,
+		rarity = 2,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/65794",
+		id = 65794,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[65795] = {
+		display = "用于「限时体验商店」兑换角色限时换装",
+		name = "换装体验券",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = 1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/skinTicket",
+		id = 65795,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_virtual_data_statistics[66001] = {
 		display = "重要的重建物资之一，木香与海风更配哦",
 		name = "木料",
@@ -188204,6 +188256,69 @@ end)()
 			{
 				102234,
 				2000
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.item_virtual_data_statistics[86223] = {
+		display = "不会被看到",
+		name = "随机换装",
+		max_num = 0,
+		type = 98,
+		time_limit = 0,
+		rarity = 4,
+		shop_id = -1,
+		replace_item = 0,
+		drop_gold_max = 0,
+		drop_oil_max = 0,
+		link_id = 0,
+		virtual_type = 0,
+		is_world = 0,
+		icon = "Props/clothIcon",
+		id = 86223,
+		order = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {
+			{
+				1199011,
+				1000
+			},
+			{
+				499101,
+				1000
+			},
+			{
+				403037,
+				1000
+			},
+			{
+				802032,
+				1000
+			},
+			{
+				401992,
+				1000
+			},
+			{
+				199061,
+				1000
+			},
+			{
+				702052,
+				1340
+			},
+			{
+				799031,
+				1330
+			},
+			{
+				699031,
+				1330
 			}
 		}
 	}

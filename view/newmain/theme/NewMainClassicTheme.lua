@@ -8,6 +8,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	var_0_0.super.OnLoaded(arg_2_0)
 
 	arg_2_0.adapterView = MainAdpterView.New(arg_2_0._tf:Find("top_bg"), arg_2_0._tf:Find("bottom_bg"), arg_2_0._tf:Find("bg/right"))
+
+	arg_2_0.changeView:SetAsmrTurnningParent(arg_2_0._tf:Find("frame/right/asmrToggleContainer"))
 end
 
 function var_0_0.PlayEnterAnimation(arg_3_0, arg_3_1, arg_3_2)
@@ -33,7 +35,7 @@ end
 function var_0_0.SetEffectPanelVisible(arg_6_0, arg_6_1)
 	for iter_6_0, iter_6_1 in ipairs(arg_6_0.panels) do
 		if isa(iter_6_1, MainRightPanel) then
-			iter_6_1:SetVisible(arg_6_1)
+			iter_6_1:SetEffectVisible(arg_6_1)
 		end
 	end
 end
@@ -112,49 +114,53 @@ function var_0_0.GetCalibrationView(arg_21_0)
 end
 
 function var_0_0.GetChangeSkinView(arg_22_0)
-	return MainChangeSkinView.New(arg_22_0._tf:Find("frame/left/change_skin"), arg_22_0.event)
+	return MainChangeSkinView.New(arg_22_0._tf:Find("frame/bottom/change_skin"), arg_22_0.event)
 end
 
-function var_0_0.GetRedDots(arg_23_0)
+function var_0_0.GetAsmrChatView(arg_23_0)
+	return MainAsmrChatView.New(arg_23_0._tf:Find("frame/bottom/asmr_chat"), arg_23_0.event)
+end
+
+function var_0_0.GetRedDots(arg_24_0)
 	return {
-		RedDotNode.New(arg_23_0._tf:Find("frame/bottom/taskButton/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/bottom/taskButton/tip"), {
 			pg.RedDotMgr.TYPES.TASK
 		}),
-		MailRedDotNode.New(arg_23_0._tf:Find("frame/right/mailButton")),
-		RedDotNode.New(arg_23_0._tf:Find("frame/bottom/buildButton/tip"), {
+		MailRedDotNode.New(arg_24_0._tf:Find("frame/right/mailButton")),
+		RedDotNode.New(arg_24_0._tf:Find("frame/bottom/buildButton/tip"), {
 			pg.RedDotMgr.TYPES.BUILD
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/bottom/guildButton/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/bottom/guildButton/tip"), {
 			pg.RedDotMgr.TYPES.GUILD
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/top/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/top/tip"), {
 			pg.RedDotMgr.TYPES.ATTIRE
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/right/memoryButton/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/right/memoryButton/tip"), {
 			pg.RedDotMgr.TYPES.MEMORY_REVIEW
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/right/collectionButton/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/right/collectionButton/tip"), {
 			pg.RedDotMgr.TYPES.COLLECTION
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/right/friendButton/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/right/friendButton/tip"), {
 			pg.RedDotMgr.TYPES.FRIEND
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/left/commissionButton/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/left/commissionButton/tip"), {
 			pg.RedDotMgr.TYPES.COMMISSION
 		}),
-		SettingsRedDotNode.New(arg_23_0._tf:Find("frame/right/settingButton/tip"), {
+		SettingsRedDotNode.New(arg_24_0._tf:Find("frame/right/settingButton/tip"), {
 			pg.RedDotMgr.TYPES.SETTTING
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/right/noticeButton/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/right/noticeButton/tip"), {
 			pg.RedDotMgr.TYPES.SERVER
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/bottom/technologyButton/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/bottom/technologyButton/tip"), {
 			pg.RedDotMgr.TYPES.BLUEPRINT
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/right/combatBtn/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/right/combatBtn/tip"), {
 			pg.RedDotMgr.TYPES.EVENT
 		}),
-		RedDotNode.New(arg_23_0._tf:Find("frame/bottom/liveButton/tip"), {
+		RedDotNode.New(arg_24_0._tf:Find("frame/bottom/liveButton/tip"), {
 			pg.RedDotMgr.TYPES.COURTYARD,
 			pg.RedDotMgr.TYPES.SCHOOL,
 			pg.RedDotMgr.TYPES.COMMANDER,
@@ -163,6 +169,16 @@ function var_0_0.GetRedDots(arg_23_0)
 			pg.RedDotMgr.TYPES.ISLAND_3D
 		})
 	}
+end
+
+function var_0_0.OnAsmrTurnning(arg_25_0, arg_25_1)
+	var_0_0.super.OnAsmrTurnning(arg_25_0, arg_25_1)
+	setActive(findTF(arg_25_0._tf, "top_bg"), not arg_25_1)
+	setActive(findTF(arg_25_0._tf, "bottom_bg"), not arg_25_1)
+	setActive(findTF(arg_25_0._tf, "bg"), not arg_25_1)
+
+	GetOrAddComponent(findTF(arg_25_0._tf, "frame"), typeof(CanvasGroup)).alpha = arg_25_1 ~= true and 1 or 0
+	GetOrAddComponent(findTF(arg_25_0._tf, "frame"), typeof(CanvasGroup)).interactable = arg_25_1 ~= true and true or false
 end
 
 return var_0_0

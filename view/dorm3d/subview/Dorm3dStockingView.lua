@@ -9,7 +9,7 @@ function var_0_0.Init(arg_1_0)
 	arg_1_0.clickTF = arg_1_0.controlTF:Find("ClickTips")
 
 	onButton(arg_1_0, arg_1_0.uiTF:Find("btn_back"), function()
-		arg_1_0:emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "ExitStockingStatus")
+		arg_1_0:emit(Dorm3dStockingMgr.EXIT_STOCKING_STATUS)
 	end, SFX_CANCEL)
 	arg_1_0:InitDragEvent()
 	arg_1_0:InitHint()
@@ -22,14 +22,14 @@ function var_0_0.InitDragEvent(arg_3_0)
 	var_3_0:AddBeginDragFunc(function(arg_4_0, arg_4_1)
 		setActive(arg_3_0.tipTF, false)
 		arg_3_0.timer:Stop()
-		arg_3_0:emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "OnBeginDrag", arg_4_0, arg_4_1)
+		arg_3_0:emit(Dorm3dStockingMgr.ON_BEGIN_DRAG, arg_4_0, arg_4_1)
 	end)
 	var_3_0:AddDragFunc(function(arg_5_0, arg_5_1)
-		arg_3_0:emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "OnDrag", arg_5_0, arg_5_1)
+		arg_3_0:emit(Dorm3dStockingMgr.ON_DRAG, arg_5_0, arg_5_1)
 	end)
 	var_3_0:AddDragEndFunc(function(arg_6_0, arg_6_1)
 		arg_3_0.timer:Start()
-		arg_3_0:emit(Dorm3dRoomTemplateScene.STOCKING_EVENT, "OnEndDrag", arg_6_0, arg_6_1)
+		arg_3_0:emit(Dorm3dStockingMgr.ON_END_DRAG, arg_6_0, arg_6_1)
 	end)
 end
 
@@ -54,29 +54,34 @@ function var_0_0.InitHint(arg_7_0)
 end
 
 function var_0_0.FlushHint(arg_9_0)
-	local var_9_0, var_9_1 = arg_9_0.contextData.GetTipShowInfo()
+	local var_9_0 = {}
 
-	UIItemList.StaticAlign(arg_9_0.tipTF, arg_9_0.tipTF:GetChild(0), #var_9_0, function(arg_10_0, arg_10_1, arg_10_2)
+	arg_9_0:emit(Dorm3dStockingMgr.GET_TIP_SHOW_INFO, var_9_0)
+
+	local var_9_1 = var_9_0[1]
+	local var_9_2 = var_9_0[2]
+
+	UIItemList.StaticAlign(arg_9_0.tipTF, arg_9_0.tipTF:GetChild(0), #var_9_1, function(arg_10_0, arg_10_1, arg_10_2)
 		if arg_10_0 ~= UIItemList.EventUpdate then
 			return
 		end
 
 		arg_10_1 = arg_10_1 + 1
 
-		setLocalPosition(arg_10_2, LuaHelper.ScreenToLocal(arg_9_0.tipTF, var_9_0[arg_10_1].pos, pg.UIMgr.GetInstance().uiCameraComp))
+		setLocalPosition(arg_10_2, LuaHelper.ScreenToLocal(arg_9_0.tipTF, var_9_1[arg_10_1].pos, pg.UIMgr.GetInstance().uiCameraComp))
 
-		local var_10_0 = Mathf.Atan2(var_9_0[arg_10_1].dir.y, var_9_0[arg_10_1].dir.x) * Mathf.Rad2Deg
+		local var_10_0 = Mathf.Atan2(var_9_1[arg_10_1].dir.y, var_9_1[arg_10_1].dir.x) * Mathf.Rad2Deg
 
 		setLocalRotation(arg_10_2, Quaternion.Euler(0, 0, var_10_0 - 90))
 	end)
-	UIItemList.StaticAlign(arg_9_0.clickTF, arg_9_0.clickTF:GetChild(0), #var_9_1, function(arg_11_0, arg_11_1, arg_11_2)
+	UIItemList.StaticAlign(arg_9_0.clickTF, arg_9_0.clickTF:GetChild(0), #var_9_2, function(arg_11_0, arg_11_1, arg_11_2)
 		if arg_11_0 ~= UIItemList.EventUpdate then
 			return
 		end
 
 		arg_11_1 = arg_11_1 + 1
 
-		setLocalPosition(arg_11_2, LuaHelper.ScreenToLocal(arg_9_0.clickTF, var_9_1[arg_11_1].pos, pg.UIMgr.GetInstance().uiCameraComp))
+		setLocalPosition(arg_11_2, LuaHelper.ScreenToLocal(arg_9_0.clickTF, var_9_2[arg_11_1].pos, pg.UIMgr.GetInstance().uiCameraComp))
 	end)
 end
 

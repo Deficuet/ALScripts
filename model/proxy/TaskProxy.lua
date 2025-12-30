@@ -25,7 +25,6 @@ function var_0_0.register(arg_1_0)
 	end)
 	arg_1_0:on(20002, function(arg_3_0)
 		arg_1_0:updateProgress(arg_3_0.info)
-		arg_1_0:sendNotification(GAME.TASK_PROGRESS_UPDATE)
 	end)
 	arg_1_0:on(20003, function(arg_4_0)
 		for iter_4_0, iter_4_1 in ipairs(arg_4_0.info) do

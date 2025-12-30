@@ -26,6 +26,12 @@ function var_0_0.GetHalfBodyOffsetY(arg_3_0)
 end
 
 function var_0_0.OnLoad(arg_4_0, arg_4_1)
+	if arg_4_0.live2dChar then
+		arg_4_0.live2dChar:Dispose()
+
+		arg_4_0.live2dChar = nil
+	end
+
 	local var_4_0 = Live2D.GenerateData({
 		loadPrefs = true,
 		ship = arg_4_0.ship,
@@ -129,16 +135,36 @@ function var_0_0.RemoveScreenChangeTimer(arg_12_0)
 end
 
 function var_0_0.UpdateContainerPosition(arg_13_0)
-	local var_13_0 = arg_13_0:IslimitYPos() and arg_13_0:GetHalfBodyOffsetY() or 0
-	local var_13_1 = arg_13_0.live2dContainer.localPosition
+	local var_13_0
 
-	arg_13_0.live2dContainer.localPosition = Vector3(var_13_1.x, var_13_0, var_13_1.z)
+	if arg_13_0._shift then
+		var_13_0 = arg_13_0._shift:GetL2dShift()
+	else
+		var_13_0 = arg_13_0.live2dContainer.localPosition
+	end
+
+	if arg_13_0:IslimitYPos() then
+		var_13_0.y = arg_13_0:GetHalfBodyOffsetY()
+	end
+
+	arg_13_0.live2dContainer.localPosition = var_13_0
 end
 
 function var_0_0.ResetContainerPosition(arg_14_0)
-	local var_14_0 = arg_14_0.live2dContainer.localPosition
+	local var_14_0
 
-	arg_14_0.live2dContainer.localPosition = Vector3(var_14_0.x, arg_14_0:GetHalfBodyOffsetY(), 0)
+	if arg_14_0._shift then
+		var_14_0 = arg_14_0._shift:GetL2dShift()
+	else
+		var_14_0 = arg_14_0.live2dContainer.localPosition
+		var_14_0.z = 0
+	end
+
+	if arg_14_0:IslimitYPos() then
+		var_14_0.y = arg_14_0:GetHalfBodyOffsetY()
+	end
+
+	arg_14_0.live2dContainer.localPosition = var_14_0
 end
 
 function var_0_0.OnUnload(arg_15_0)
@@ -331,6 +357,7 @@ function var_0_0.OnDisplayWorld(arg_28_0)
 end
 
 function var_0_0.OnPause(arg_29_0)
+	print("pause")
 	arg_29_0:RemoveScreenChangeTimer()
 	arg_29_0:ResetContainerPosition()
 

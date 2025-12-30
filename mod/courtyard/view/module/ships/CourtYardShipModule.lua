@@ -6,22 +6,21 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 
 	var_0_0.super.Ctor(arg_1_0, arg_1_1, arg_1_2)
 
-	arg_1_0.role = arg_1_3
+	arg_1_0._role = arg_1_3
 end
 
 function var_0_0.OnInit(arg_2_0)
 	var_0_0.super.OnInit(arg_2_0)
 	pg.ViewUtils.SetLayer(arg_2_0._tf, Layer.UI)
 	arg_2_0._tf:SetParent(arg_2_0.floor)
+	arg_2_0._role:SetLocalPosition(Vector3(0, 25, 0))
 
-	arg_2_0.model = arg_2_0._tf:Find("model")
-	arg_2_0.model.localPosition = Vector3(0, 25, 0)
 	arg_2_0.shadow = arg_2_0._tf:Find("shadow")
 	arg_2_0.shadow.localPosition = Vector3(0, 25, 0)
 
 	arg_2_0.shadow:SetAsFirstSibling()
 
-	arg_2_0.spineAnimUI = arg_2_0.role.model:GetComponent(typeof(SpineAnimUI))
+	arg_2_0.spineAnimUI = arg_2_0._role:GetSpineAnimUI()
 	arg_2_0.clickTF = arg_2_0._tf:Find("click")
 	arg_2_0.chatTF = arg_2_0._tf:Find("chat")
 	arg_2_0.chatTF.localScale = Vector3.zero
@@ -46,15 +45,15 @@ function var_0_0.OnInit(arg_2_0)
 end
 
 function var_0_0.AdjustYForInteraction(arg_3_0)
-	arg_3_0.model.localPosition = Vector3(0, 0, 0)
+	arg_3_0._role:SetLocalPosition(Vector3(0, 0, 0))
 end
 
 function var_0_0.ResetYForInteraction(arg_4_0)
-	arg_4_0.model.localPosition = Vector3(0, 25, 0)
+	arg_4_0._role:SetLocalPosition(Vector3(0, 25, 0))
 end
 
 function var_0_0.GetSpine(arg_5_0)
-	return arg_5_0.spineAnimUI.gameObject.transform
+	return arg_5_0._role:GetRoleModel()
 end
 
 function var_0_0.AddListeners(arg_6_0)
@@ -172,7 +171,7 @@ function var_0_0.OnMove(arg_22_0, arg_22_1, arg_22_2)
 	local var_22_2 = arg_22_0.data:GetMoveTime()
 	local var_22_3 = arg_22_1.x < var_22_0.x and arg_22_1.y == var_22_0.y or arg_22_1.x == var_22_0.x and arg_22_1.y > var_22_0.y
 
-	arg_22_0.model.transform.localScale = Vector3(var_22_3 and -1 or 1, 1, 1)
+	arg_22_0._role:SetLocalScale(Vector3(var_22_3 == false and 1 or -1, 1, 1))
 
 	local var_22_4 = Vector3(var_22_1.x, var_22_1.y, 0) + arg_22_2
 	local var_22_5 = CourtYardCalcUtil.TrPosition2LocalPos(arg_22_0:GetParentTF(), arg_22_0._tf.parent, var_22_4)
@@ -185,7 +184,7 @@ function var_0_0.OnMove(arg_22_0, arg_22_1, arg_22_2)
 		var_22_6.localScale = Vector3(math.abs(var_22_6.localScale.x), var_22_6.localScale.y, var_22_6.localScale.z)
 	end
 
-	arg_22_0.interactionTF.localScale = arg_22_0.model.transform.localScale
+	arg_22_0.interactionTF.localScale = arg_22_0._role:GetLocalScale()
 end
 
 function var_0_0.OnAddAward(arg_23_0, arg_23_1, arg_23_2)
@@ -273,8 +272,7 @@ function var_0_0.StartInterAction(arg_30_0, arg_30_1)
 	local var_30_1 = arg_30_1:GetOwner():GetNormalDirection()
 	local var_30_2 = arg_30_1:GetScale()
 
-	arg_30_0.model.localScale = Vector3(var_30_1 * var_30_2.x, var_30_2.y, var_30_2.z)
-
+	arg_30_0._role:SetLocalScale(Vector3(var_30_1 * var_30_2.x, var_30_2.y, var_30_2.z))
 	arg_30_0:AdjustYForInteraction()
 end
 
@@ -290,8 +288,8 @@ function var_0_0.ResetTransform(arg_32_0)
 end
 
 function var_0_0.HideAttachment(arg_33_0, arg_33_1)
-	if arg_33_0.role then
-		arg_33_0.role:SetVisible(not arg_33_1)
+	if arg_33_0._role then
+		arg_33_0._role:SetVisible(not arg_33_1)
 	end
 end
 
@@ -314,10 +312,10 @@ function var_0_0.OnDispose(arg_34_0)
 
 	arg_34_0:ClearMove()
 
-	if arg_34_0.role then
-		arg_34_0.role:Dispose()
+	if arg_34_0._role then
+		arg_34_0._role:Dispose()
 
-		arg_34_0.role = nil
+		arg_34_0._role = nil
 	end
 end
 

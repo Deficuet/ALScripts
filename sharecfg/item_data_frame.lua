@@ -522,6 +522,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「天域に初訪し鳳鳴く。その姿翩翩なりしアマハラに響く」</color>\n「アマハラに舞い奉れ」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[337] = {
+		time_limit_type = 0,
+		name = "ダークシースペクター",
+		gain_by = "天穹に響く音謡",
+		id = 337,
+		time_second = 0,
+		desc = "<color=#ffffff>「久しぶりね、指揮官——ただいま」</color>\n「天穹に響く音謡」イベント参加",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂入り：エンタープライズ",
@@ -603,6 +612,33 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2023」殿堂入りページで入手可能",
 		scene = {}
 	},
+	[424] = {
+		time_limit_type = 0,
+		name = "殿堂入り：武蔵",
+		gain_by = "",
+		id = 424,
+		time_second = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2025」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[426] = {
+		time_limit_type = 0,
+		name = "殿堂入り：大鳳",
+		gain_by = "",
+		id = 426,
+		time_second = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2025」殿堂入りページで入手可能",
+		scene = {}
+	},
+	[429] = {
+		time_limit_type = 0,
+		name = "殿堂入り：雲仙",
+		gain_by = "",
+		id = 429,
+		time_second = 0,
+		desc = "<color=#ffffff>前回人気投票殿堂入り艦船テーマのチャットフレーム</color>\n「アズールレーン人気投票2025」殿堂入りページで入手可能",
+		scene = {}
+	},
 	[501] = {
 		time_limit_type = 0,
 		name = "饅頭ピザ屋記念枠",
@@ -637,6 +673,15 @@ pg.item_data_frame = {
 		id = 603,
 		time_second = 0,
 		desc = "<color=#ffffff>母港パーティーの参加記念。特別な日には参加者に特別な祝福を！</color>\n「宴会会場」イベントに参加した指揮官に贈る",
+		scene = {}
+	},
+	[604] = {
+		time_limit_type = 0,
+		name = "ストレッチアワード",
+		gain_by = "",
+		id = 604,
+		time_second = 0,
+		desc = "<color=#ffffff>ともに汗をかいた証ーー</color>",
 		scene = {}
 	},
 	[605] = {
@@ -781,6 +826,24 @@ pg.item_data_frame = {
 		id = 1010,
 		time_second = 0,
 		desc = "<color=#ffffff>金色の翼を広げ、羽根が輝ききらめく。優雅にしてどこか神秘的</color>\n「交流宿舎」大鳳の親愛度Lv報酬",
+		scene = {}
+	},
+	[1011] = {
+		time_limit_type = 0,
+		name = "深淵の鎖",
+		gain_by = "",
+		id = 1011,
+		time_second = 0,
+		desc = "<color=#ffffff>漆黒の鎖に不滅の怒雷を纏い、熾烈なる龍が深淵より来たれり</color>\n「交流宿舎」でエーギルの親密度を上げると入手可能",
+		scene = {}
+	},
+	[1012] = {
+		time_limit_type = 0,
+		name = "碧海の王冠",
+		gain_by = "",
+		id = 1012,
+		time_second = 0,
+		desc = "<color=#ffffff>荒波の中で鋼色の旗が翻り、戴かれる黄金の冠は至高なる海の権能を示せり</color>\n「交流宿舎」でエーギルの親密度を上げると入手可能",
 		scene = {}
 	},
 	[10001] = {
@@ -950,6 +1013,7 @@ pg.item_data_frame = {
 		334,
 		335,
 		336,
+		337,
 		401,
 		402,
 		403,
@@ -959,10 +1023,14 @@ pg.item_data_frame = {
 		416,
 		418,
 		419,
+		424,
+		426,
+		429,
 		501,
 		601,
 		602,
 		603,
+		604,
 		605,
 		606,
 		607,
@@ -979,6 +1047,8 @@ pg.item_data_frame = {
 		1008,
 		1009,
 		1010,
+		1011,
+		1012,
 		10001,
 		10002,
 		10003,

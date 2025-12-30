@@ -44,11 +44,11 @@ end
 function var_0_0.GetAssetPath(arg_8_0)
 	local var_8_0
 
-	if arg_8_0.type == IslandConst.UNIT_TYPE_CHAR or arg_8_0.type == IslandConst.UNIT_TYPE_PLAYER or arg_8_0.type == IslandConst.UNIT_TYPE_VISITOR or arg_8_0.type == IslandConst.UNIT_TYPE_SYSTEM or arg_8_0.type == IslandConst.UNIT_TYPE_STROLL or arg_8_0.type == IslandConst.UNIT_TYPE_MANAGE_CHARA or arg_8_0.type == IslandConst.UNIT_TYPE_MANAGE_CUSTOMER or arg_8_0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION or arg_8_0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION_ANIMATION or arg_8_0.type == IslandConst.UNIT_TYPE_FOLLOWER then
+	if arg_8_0.type == IslandConst.UNIT_TYPE_CHAR or arg_8_0.type == IslandConst.UNIT_TYPE_PLAYER or arg_8_0.type == IslandConst.UNIT_TYPE_VISITOR or arg_8_0.type == IslandConst.UNIT_TYPE_SYSTEM or arg_8_0.type == IslandConst.UNIT_TYPE_STROLL or arg_8_0.type == IslandConst.UNIT_TYPE_MANAGE_CHARA or arg_8_0.type == IslandConst.UNIT_TYPE_MANAGE_CUSTOMER or arg_8_0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION or arg_8_0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION_ANIMATION or arg_8_0.type == IslandConst.UNIT_TYPE_FOLLOWER or arg_8_0.type == IslandConst.UNIT_TYPE_DELEGATE_FISH then
 		assert(pg.island_unit_character[arg_8_0.modelId], arg_8_0.modelId)
 
 		var_8_0 = pg.island_unit_character[arg_8_0.modelId].model
-	elseif arg_8_0.type == IslandConst.UNIT_TYPE_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_HANDLE_COLLECT or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_HANDLE_PLANTING or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_PRODUCT_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_GATHER_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_WILD_COLLECT_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_MANAGE_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_DELAY_RECYCLE or arg_8_0.type == IslandConst.UNIT_TYPE_FIRST_TAKE_PHOTO_ITEM then
+	elseif arg_8_0.type == IslandConst.UNIT_TYPE_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_HANDLE_COLLECT or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_HANDLE_PLANTING or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_PRODUCT_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_GATHER_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_WILD_COLLECT_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_MANAGE_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_DELAY_RECYCLE or arg_8_0.type == IslandConst.UNIT_TYPE_FIRST_TAKE_PHOTO_ITEM or arg_8_0.type == IslandConst.UNIT_TYPE_FISH_POINT then
 		var_8_0 = pg.island_unit_item[arg_8_0.modelId].model
 	elseif arg_8_0.type == IslandConst.UNIT_TYPE_ITEM_INTERACT then
 		var_8_0 = pg.island_unit_interactive_item[arg_8_0.modelId].model
@@ -64,7 +64,7 @@ function var_0_0.GetBehaviourTree(arg_9_0)
 end
 
 function var_0_0.GetAnimator(arg_10_0)
-	if arg_10_0.type == IslandConst.UNIT_TYPE_PLAYER or arg_10_0.type == IslandConst.UNIT_TYPE_VISITOR or arg_10_0.type == IslandConst.UNIT_TYPE_CHAR or arg_10_0.type == IslandConst.UNIT_TYPE_STROLL or arg_10_0.type == IslandConst.UNIT_TYPE_MANAGE_CHARA or arg_10_0.type == IslandConst.UNIT_TYPE_MANAGE_CUSTOMER or arg_10_0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION or arg_10_0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION_ANIMATION or arg_10_0.type == IslandConst.UNIT_TYPE_FOLLOWER then
+	if arg_10_0.type == IslandConst.UNIT_TYPE_PLAYER or arg_10_0.type == IslandConst.UNIT_TYPE_VISITOR or arg_10_0.type == IslandConst.UNIT_TYPE_CHAR or arg_10_0.type == IslandConst.UNIT_TYPE_STROLL or arg_10_0.type == IslandConst.UNIT_TYPE_MANAGE_CHARA or arg_10_0.type == IslandConst.UNIT_TYPE_MANAGE_CUSTOMER or arg_10_0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION or arg_10_0.type == IslandConst.UNIT_TYPE_SYSTEM_DELEAGTION_ANIMATION or arg_10_0.type == IslandConst.UNIT_TYPE_FOLLOWER or arg_10_0.type == IslandConst.UNIT_TYPE_DELEGATE_FISH then
 		return pg.island_unit_character[arg_10_0.modelId].animator
 	elseif arg_10_0.type == IslandConst.UNIT_TYPE_SYSTEM then
 		return pg.island_unit_character[arg_10_0.modelId].animator

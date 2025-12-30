@@ -2709,7 +2709,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "輸送委託を<color=#cd7900><b>$2</b></color>個完遂する",
 		id = 2021,
-		target_num = 20,
+		target_num = 10,
 		award = {
 			{
 				45,
@@ -2734,7 +2734,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "輸送委託を<color=#cd7900><b>$2</b></color>個完遂する",
 		id = 2022,
-		target_num = 100,
+		target_num = 50,
 		award = {
 			{
 				41,
@@ -2759,7 +2759,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "輸送委託を<color=#cd7900><b>$2</b></color>個完遂する",
 		id = 2023,
-		target_num = 250,
+		target_num = 180,
 		award = {
 			{
 				41,
@@ -2784,7 +2784,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "輸送委託を<color=#cd7900><b>$2</b></color>個完遂する",
 		id = 2024,
-		target_num = 500,
+		target_num = 350,
 		award = {
 			{
 				1,
@@ -2809,7 +2809,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "輸送委託を<color=#cd7900><b>$2</b></color>個完遂する",
 		id = 2025,
-		target_num = 1000,
+		target_num = 750,
 		award = {
 			{
 				41,
@@ -2834,7 +2834,7 @@ pg.island_achievement = {
 		show_type = 1,
 		desc = "輸送委託を<color=#cd7900><b>$2</b></color>個完遂する",
 		id = 2026,
-		target_num = 1500,
+		target_num = 1000,
 		award = {
 			{
 				1,

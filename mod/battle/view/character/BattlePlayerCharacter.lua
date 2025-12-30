@@ -118,6 +118,20 @@ function var_0_5.UpdateArrowBarPosition(arg_6_0)
 			arg_6_0._arrowCG.alpha = 1
 		end
 	end
+
+	if arg_6_0._unitData:GetGroupID() and table.contains(var_0_2.MIRROR_QICON_SHIP_GROUP, arg_6_0._unitData:GetGroupID()) then
+		local var_6_1
+
+		if arg_6_0._arrowVector.x > 0 then
+			var_6_1 = arg_6_0._unitData:GetTemplate().painting .. var_0_2.MIRROR_QICON_KEY
+		else
+			var_6_1 = arg_6_0._unitData:GetTemplate().painting
+		end
+
+		local var_6_2 = var_0_0.Battle.BattleResourceManager.GetInstance():GetCharacterQIcon(var_6_1)
+
+		setImageSprite(findTF(arg_6_0._arrowBar, "icon"), var_6_2)
+	end
 end
 
 function var_0_5.UpdateHpBar(arg_7_0)

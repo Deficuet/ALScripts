@@ -49,6 +49,10 @@ function var_0_0.OnInit(arg_5_0)
 
 		arg_5_0.unlockDic[var_5_2] = var_5_0[var_5_3] and var_5_0[var_5_3].talkDic[var_5_2] or false
 
+		if DORM_LOCK_GUIDE and var_5_2 == 10010 then
+			arg_5_0.unlockDic[var_5_2] = true
+		end
+
 		if arg_5_0.unlockDic[var_5_2] then
 			var_5_1 = var_5_1 + 1
 		end

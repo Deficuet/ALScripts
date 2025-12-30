@@ -7,7 +7,9 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.vetList = UIItemList.New(arg_1_0.asidePanel:Find("aside_2"), arg_1_0.asidePanel:Find("aside_2/aside_txt_tpl_2"))
 	arg_1_0.leftBotomVetList = UIItemList.New(arg_1_0.asidePanel:Find("aside_3"), arg_1_0.asidePanel:Find("aside_3/aside_txt_tpl"))
 	arg_1_0.centerWithFrameVetList = UIItemList.New(arg_1_0.asidePanel:Find("aside_4"), arg_1_0.asidePanel:Find("aside_4/aside_txt_tpl"))
+	arg_1_0.centerWithFrameVetListMargin = UIItemList.New(arg_1_0.asidePanel:Find("aside_4_1"), arg_1_0.asidePanel:Find("aside_4_1/aside_txt_tpl"))
 	arg_1_0.dataTxt = arg_1_0.asidePanel:Find("aside_sign_date")
+	arg_1_0.meshImagePaintingContainer = arg_1_0.asidePanel:Find("actor_middle")
 end
 
 function var_0_0.OnReset(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
@@ -17,6 +19,7 @@ function var_0_0.OnReset(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 	setActive(arg_2_0.vetList.container, false)
 	setActive(arg_2_0.leftBotomVetList.container, false)
 	setActive(arg_2_0.centerWithFrameVetList.container, false)
+	setActive(arg_2_0.centerWithFrameVetListMargin.container, false)
 	setActive(arg_2_0.actorPanel, false)
 
 	arg_2_0.curtainCg.alpha = 1
@@ -33,192 +36,264 @@ function var_0_0.OnInit(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
 
 	local var_3_0 = {
 		function(arg_4_0)
-			if arg_3_1:GetShowMode() == AsideStep.SHOW_MODE_DEFAUT then
-				arg_3_0:PlayAside(arg_3_1, arg_4_0)
-			else
-				arg_3_0:PlayBubbleAside(arg_3_1, arg_4_0)
-			end
+			arg_3_0:LoadPainting(arg_3_1, arg_4_0)
 		end,
 		function(arg_5_0)
-			arg_3_0:PlayDateSign(arg_3_1, arg_5_0)
+			if arg_3_1:GetShowMode() == AsideStep.SHOW_MODE_DEFAUT then
+				arg_3_0:PlayAside(arg_3_1, arg_5_0)
+			else
+				arg_3_0:PlayBubbleAside(arg_3_1, arg_5_0)
+			end
+		end,
+		function(arg_6_0)
+			arg_3_0:PlayDateSign(arg_3_1, arg_6_0)
 		end
 	}
 
-	parallelAsync(var_3_0, arg_3_3)
+	seriesAsync(var_3_0, arg_3_3)
 end
 
-function var_0_0.GetAsideList(arg_6_0, arg_6_1)
-	local var_6_0
+function var_0_0.LoadPainting(arg_7_0, arg_7_1, arg_7_2)
+	local var_7_0 = arg_7_1:GetPainting()
 
-	if arg_6_1 == AsideStep.ASIDE_TYPE_HRZ then
-		var_6_0 = arg_6_0.hrzList
-	elseif arg_6_1 == AsideStep.ASIDE_TYPE_VEC then
-		var_6_0 = arg_6_0.vetList
-	elseif arg_6_1 == AsideStep.ASIDE_TYPE_LEFTBOTTOMVEC then
-		var_6_0 = arg_6_0.leftBotomVetList
-	elseif arg_6_1 == AsideStep.ASIDE_TYPE_CENTERWITHFRAME then
-		var_6_0 = arg_6_0.centerWithFrameVetList
-	end
-
-	return var_6_0
-end
-
-function var_0_0.PlayAside(arg_7_0, arg_7_1, arg_7_2)
-	local var_7_0 = {}
-	local var_7_1 = arg_7_0:GetAsideList(arg_7_1:GetAsideType())
-
-	arg_7_0:UpdateLayoutPaddingAndSpacing(arg_7_1, var_7_1.container)
-
-	local var_7_2 = Mathf.Sign(var_7_1.container.localScale.x)
-
-	setActive(var_7_1.container, true)
-
-	local var_7_3 = arg_7_1:GetSequence()
-
-	var_7_1:make(function(arg_8_0, arg_8_1, arg_8_2)
-		if arg_8_0 == UIItemList.EventUpdate then
-			local var_8_0 = var_7_3[arg_8_1 + 1]
-			local var_8_1 = HXSet.hxLan(var_8_0[1])
-			local var_8_2 = var_8_0[2]
-
-			setText(arg_8_2, var_8_1)
-
-			local var_8_3 = GetOrAddComponent(arg_8_2, typeof(CanvasGroup))
-
-			var_8_3.alpha = 0
-
-			table.insert(var_7_0, function(arg_9_0)
-				arg_7_0:TweenValueForcanvasGroup(var_8_3, 0, 1, arg_7_1.sequenceSpd or 1, var_8_2, arg_9_0)
-			end)
-
-			if var_7_2 ~= Mathf.Sign(arg_8_2.localScale.x) then
-				arg_8_2.localScale = Vector3(var_7_2 * arg_8_2.localScale.x, arg_8_2.localScale.y, 1)
-			end
-		end
-	end)
-	var_7_1:align(#var_7_3)
-	parallelAsync(var_7_0, arg_7_2)
-end
-
-function var_0_0.PlayBubbleAside(arg_10_0, arg_10_1, arg_10_2)
-	local var_10_0 = arg_10_0:GetAsideList(arg_10_1:GetAsideType())
-
-	arg_10_0:UpdateLayoutPaddingAndSpacing(arg_10_1, var_10_0.container)
-
-	local var_10_1 = Mathf.Sign(var_10_0.container.localScale.x)
-	local var_10_2 = arg_10_1:GetSequence()
-
-	setActive(var_10_0.container, true)
-
-	for iter_10_0 = var_10_0.container.childCount, 1, -1 do
-		local var_10_3 = var_10_0.container:GetChild(iter_10_0 - 1)
-
-		if var_10_3 ~= var_10_0.item then
-			Object.Destroy(var_10_3.gameObject)
-		end
-	end
-
-	local var_10_4 = {}
-	local var_10_5 = 0
-
-	for iter_10_1 = 1, #var_10_2 do
-		table.insert(var_10_4, function(arg_11_0)
-			local var_11_0 = cloneTplTo(var_10_0.item, var_10_0.container, iter_10_1)
-
-			setText(var_11_0, var_10_2[iter_10_1][1])
-
-			local var_11_1 = GetOrAddComponent(var_11_0, typeof(Typewriter))
-
-			function var_11_1.endFunc()
-				arg_11_0()
-			end
-
-			var_11_1:setSpeed(arg_10_1:GetTypewriterSpeed())
-			var_11_1:Play()
-		end)
-	end
-
-	seriesAsync(var_10_4, arg_10_2)
-end
-
-function var_0_0.UpdateLayoutPaddingAndSpacing(arg_13_0, arg_13_1, arg_13_2)
-	local var_13_0 = arg_13_1:ShouldUpdateSpacing()
-	local var_13_1 = arg_13_1:ShouldUpdatePadding()
-
-	if var_13_0 or var_13_1 then
-		local var_13_2 = arg_13_2:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
-
-		if var_13_0 then
-			var_13_2.spacing, arg_13_0.spacing = arg_13_1:GetSpacing(), var_13_2.spacing
-		end
-
-		if var_13_1 then
-			local var_13_3, var_13_4, var_13_5, var_13_6 = arg_13_1:GetPadding()
-			local var_13_7 = UnityEngine.RectOffset.New()
-
-			var_13_7.bottom = var_13_4
-			var_13_7.left = var_13_5
-			var_13_7.right = var_13_6
-			var_13_7.top = var_13_3
-			arg_13_0.padding = var_13_2.padding
-			var_13_2.padding = var_13_7
-		end
-	end
-end
-
-function var_0_0.PlayDateSign(arg_14_0, arg_14_1, arg_14_2)
-	local var_14_0 = arg_14_1:GetDateSign()
-
-	if not var_14_0 then
-		arg_14_2()
+	if not var_7_0 or var_7_0 == "" then
+		arg_7_2()
 
 		return
 	end
 
-	local var_14_1 = HXSet.hxLan(var_14_0[1])
-	local var_14_2 = var_14_0[2]
-	local var_14_3 = var_14_0[3] or {}
+	arg_7_0.paitingName = var_7_0
 
-	setText(arg_14_0.dataTxt, var_14_1)
+	setPaintingPrefabAsync(arg_7_0.meshImagePaintingContainer, var_7_0, "duihua", function(arg_8_0)
+		arg_7_0.rtPaint = arg_8_0
 
-	local var_14_4 = GetOrAddComponent(arg_14_0.dataTxt, typeof(CanvasGroup))
+		if arg_7_0.paitingName == nil then
+			retPaintingPrefab(arg_7_0.rtPaint, var_7_0)
 
-	var_14_4.alpha = 0
+			return
+		end
 
-	arg_14_0:TweenValueForcanvasGroup(var_14_4, 1, 0, arg_14_1.sequenceSpd or 1, var_14_2, arg_14_2)
-	setAnchoredPosition(arg_14_0.dataTxt, Vector3(var_14_3[1], var_14_3[2], 0))
+		arg_7_2()
+	end)
 end
 
-function var_0_0.OnWillClear(arg_15_0, arg_15_1, arg_15_2, arg_15_3)
-	if arg_15_0.color then
-		arg_15_0.mainImg.color = arg_15_0.color
+function var_0_0.GetAsideList(arg_9_0, arg_9_1, arg_9_2)
+	local var_9_0
+
+	if arg_9_1 == AsideStep.ASIDE_TYPE_HRZ then
+		var_9_0 = arg_9_0.hrzList
+	elseif arg_9_1 == AsideStep.ASIDE_TYPE_VEC then
+		var_9_0 = arg_9_0.vetList
+	elseif arg_9_1 == AsideStep.ASIDE_TYPE_LEFTBOTTOMVEC then
+		var_9_0 = arg_9_0.leftBotomVetList
+	elseif arg_9_1 == AsideStep.ASIDE_TYPE_CENTERWITHFRAME then
+		if arg_9_2:ShouldUpdateMargin() then
+			var_9_0 = arg_9_0.centerWithFrameVetListMargin
+		else
+			var_9_0 = arg_9_0.centerWithFrameVetList
+		end
 	end
 
-	arg_15_0.color = nil
-
-	if arg_15_0.padding or arg_15_0.spacing then
-		local var_15_0 = arg_15_0:GetAsideList(arg_15_1:GetAsideType())
-
-		arg_15_0:ResetPaddingAndSpacing(var_15_0.container, arg_15_0.padding, arg_15_0.spacing)
-	end
-
-	arg_15_0.padding = nil
-	arg_15_0.spacing = nil
+	return var_9_0
 end
 
-function var_0_0.ResetPaddingAndSpacing(arg_16_0, arg_16_1, arg_16_2, arg_16_3)
-	local var_16_0 = arg_16_1:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
+function var_0_0.PlayAside(arg_10_0, arg_10_1, arg_10_2)
+	local var_10_0 = {}
+	local var_10_1 = arg_10_0:GetAsideList(arg_10_1:GetAsideType(), arg_10_1)
 
-	if arg_16_2 then
-		var_16_0.padding = arg_16_2
+	arg_10_0:UpdateLayoutPaddingAndSpacing(arg_10_1, var_10_1.container)
+
+	local var_10_2 = Mathf.Sign(var_10_1.container.localScale.x)
+
+	setActive(var_10_1.container, true)
+
+	local var_10_3 = arg_10_1:GetSequence()
+
+	var_10_1:make(function(arg_11_0, arg_11_1, arg_11_2)
+		if arg_11_0 == UIItemList.EventUpdate then
+			local var_11_0 = var_10_3[arg_11_1 + 1]
+			local var_11_1 = HXSet.hxLan(var_11_0[1])
+			local var_11_2 = var_11_0[2]
+
+			setText(arg_11_2, var_11_1)
+
+			local var_11_3 = GetOrAddComponent(arg_11_2, typeof(CanvasGroup))
+
+			var_11_3.alpha = 0
+
+			table.insert(var_10_0, function(arg_12_0)
+				arg_10_0:TweenValueForcanvasGroup(var_11_3, 0, 1, arg_10_1.sequenceSpd or 1, var_11_2, arg_12_0)
+			end)
+
+			if var_10_2 ~= Mathf.Sign(arg_11_2.localScale.x) then
+				arg_11_2.localScale = Vector3(var_10_2 * arg_11_2.localScale.x, arg_11_2.localScale.y, 1)
+			end
+		end
+	end)
+	var_10_1:align(#var_10_3)
+	parallelAsync(var_10_0, arg_10_2)
+end
+
+function var_0_0.PlayBubbleAside(arg_13_0, arg_13_1, arg_13_2)
+	local var_13_0 = arg_13_0:GetAsideList(arg_13_1:GetAsideType(), arg_13_1)
+
+	arg_13_0:UpdateLayoutPaddingAndSpacing(arg_13_1, var_13_0.container)
+
+	local var_13_1 = Mathf.Sign(var_13_0.container.localScale.x)
+	local var_13_2 = arg_13_1:GetSequence()
+
+	setActive(var_13_0.container, true)
+
+	for iter_13_0 = var_13_0.container.childCount, 1, -1 do
+		local var_13_3 = var_13_0.container:GetChild(iter_13_0 - 1)
+
+		if var_13_3 ~= var_13_0.item then
+			Object.Destroy(var_13_3.gameObject)
+		end
 	end
 
-	if arg_16_3 then
-		var_16_0.spacing = arg_16_3
+	local var_13_4 = {}
+	local var_13_5 = 0
+
+	for iter_13_1 = 1, #var_13_2 do
+		table.insert(var_13_4, function(arg_14_0)
+			local var_14_0 = cloneTplTo(var_13_0.item, var_13_0.container, iter_13_1)
+
+			setText(var_14_0, var_13_2[iter_13_1][1])
+
+			local var_14_1 = GetOrAddComponent(var_14_0, typeof(Typewriter))
+
+			function var_14_1.endFunc()
+				arg_14_0()
+			end
+
+			var_14_1:setSpeed(arg_13_1:GetTypewriterSpeed())
+			var_14_1:Play()
+		end)
+	end
+
+	seriesAsync(var_13_4, arg_13_2)
+end
+
+function var_0_0.UpdateLayoutPaddingAndSpacing(arg_16_0, arg_16_1, arg_16_2)
+	local var_16_0 = arg_16_1:ShouldUpdateSpacing()
+	local var_16_1 = arg_16_1:ShouldUpdatePadding()
+	local var_16_2 = arg_16_1:ShouldUpdateMargin()
+
+	if (var_16_0 or var_16_1) and not var_16_2 then
+		local var_16_3 = arg_16_2:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
+
+		if var_16_0 then
+			var_16_3.spacing, arg_16_0.spacing = arg_16_1:GetSpacing(), var_16_3.spacing
+		end
+
+		if var_16_1 then
+			local var_16_4, var_16_5, var_16_6, var_16_7 = arg_16_1:GetPadding()
+			local var_16_8 = UnityEngine.RectOffset.New()
+
+			var_16_8.bottom = var_16_5
+			var_16_8.left = var_16_6
+			var_16_8.right = var_16_7
+			var_16_8.top = var_16_4
+			arg_16_0.padding = var_16_3.padding
+			var_16_3.padding = var_16_8
+		end
+	elseif var_16_2 then
+		local var_16_9 = 0
+		local var_16_10 = arg_16_2:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
+
+		if var_16_0 then
+			var_16_9 = arg_16_1:GetSpacing()
+		end
+
+		var_16_10.spacing = var_16_9
+
+		local var_16_11, var_16_12, var_16_13, var_16_14 = arg_16_1:GetMargin()
+		local var_16_15 = rtf(arg_16_2)
+
+		var_16_15.offsetMin = Vector2(var_16_13, var_16_12)
+		var_16_15.offsetMax = Vector2(-var_16_14, -var_16_11)
+
+		eachChild(arg_16_2, function(arg_17_0)
+			GetOrAddComponent(arg_17_0, typeof(LayoutElement)).preferredWidth = var_16_15.rect.width - 50
+		end)
+	end
+
+	arg_16_0:UpdateRectAlhpa(arg_16_1, arg_16_2)
+end
+
+function var_0_0.UpdateRectAlhpa(arg_18_0, arg_18_1, arg_18_2)
+	local var_18_0 = arg_18_2:GetComponent(typeof(Image))
+
+	if not var_18_0 then
+		return
+	end
+
+	local var_18_1 = arg_18_1:GetRectAlpha()
+
+	var_18_0.color = Color.New(1, 1, 1, var_18_1)
+end
+
+function var_0_0.PlayDateSign(arg_19_0, arg_19_1, arg_19_2)
+	local var_19_0 = arg_19_1:GetDateSign()
+
+	if not var_19_0 then
+		arg_19_2()
+
+		return
+	end
+
+	local var_19_1 = HXSet.hxLan(var_19_0[1])
+	local var_19_2 = var_19_0[2]
+	local var_19_3 = var_19_0[3] or {}
+
+	setText(arg_19_0.dataTxt, var_19_1)
+
+	local var_19_4 = GetOrAddComponent(arg_19_0.dataTxt, typeof(CanvasGroup))
+
+	var_19_4.alpha = 0
+
+	arg_19_0:TweenValueForcanvasGroup(var_19_4, 1, 0, arg_19_1.sequenceSpd or 1, var_19_2, arg_19_2)
+	setAnchoredPosition(arg_19_0.dataTxt, Vector3(var_19_3[1], var_19_3[2], 0))
+end
+
+function var_0_0.OnWillClear(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
+	if arg_20_0.color then
+		arg_20_0.mainImg.color = arg_20_0.color
+	end
+
+	arg_20_0.color = nil
+
+	if arg_20_0.padding or arg_20_0.spacing then
+		local var_20_0 = arg_20_0:GetAsideList(arg_20_1:GetAsideType(), arg_20_1)
+
+		arg_20_0:ResetPaddingAndSpacing(var_20_0.container, arg_20_0.padding, arg_20_0.spacing)
+	end
+
+	arg_20_0.padding = nil
+	arg_20_0.spacing = nil
+
+	if arg_20_0.paitingName and arg_20_0.rtPaint then
+		retPaintingPrefab(arg_20_0.meshImagePaintingContainer, arg_20_0.paitingName)
+	end
+
+	arg_20_0.paitingName = nil
+	arg_20_0.rtPaint = nil
+end
+
+function var_0_0.ResetPaddingAndSpacing(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
+	local var_21_0 = arg_21_1:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup))
+
+	if arg_21_2 then
+		var_21_0.padding = arg_21_2
+	end
+
+	if arg_21_3 then
+		var_21_0.spacing = arg_21_3
 	end
 end
 
-function var_0_0.OnEnd(arg_17_0)
+function var_0_0.OnEnd(arg_22_0)
 	return
 end
 

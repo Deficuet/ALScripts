@@ -21,7 +21,6 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 			if var_2_4.win then
 				var_2_0:AddPassSeries(var_2_4.seriesId)
-				var_2_0:AddUsedBonus(var_2_4.seriesId)
 			end
 
 			for iter_2_0, iter_2_1 in ipairs(var_2_4) do
@@ -62,9 +61,26 @@ end
 function var_0_0.ConcludeEXP(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_0 = arg_5_0.system
 	local var_5_1 = arg_5_0.arg1
-	local var_5_2 = BossRushSeriesData.New({
-		id = var_5_1
-	})
+	local var_5_2
+
+	if var_5_0 == SYSTEM_BOSS_RUSH_COLLABRATE then
+		for iter_5_0, iter_5_1 in pairs(pg.extraenemy_series_template) do
+			if table.contains(iter_5_1.activity_series_enemy_id, var_5_1) then
+				var_5_2 = CollabrateBossRushSeriesData.New({
+					id = iter_5_0,
+					actId = arg_5_1.id
+				})
+				var_5_1 = iter_5_0
+
+				break
+			end
+		end
+	else
+		var_5_2 = BossRushSeriesData.New({
+			id = var_5_1
+		})
+	end
+
 	local var_5_3 = {
 		seriesId = var_5_1
 	}
@@ -77,24 +93,24 @@ function var_0_0.ConcludeEXP(arg_5_0, arg_5_1, arg_5_2)
 
 	var_5_3.win = var_5_4
 
-	for iter_5_0, iter_5_1 in ipairs(arg_5_0.re40004) do
-		var_5_3[iter_5_0] = {}
+	for iter_5_2, iter_5_3 in ipairs(arg_5_0.re40004) do
+		var_5_3[iter_5_2] = {}
 
-		local var_5_6, var_5_7 = var_0_0.addShipsExp(iter_5_1.ship_exp_list, var_5_0 == SYSTEM_BOSS_RUSH)
+		local var_5_6, var_5_7 = var_0_0.addShipsExp(iter_5_3.ship_exp_list, var_5_0 == SYSTEM_BOSS_RUSH or var_5_0 == SYSTEM_BOSS_RUSH_COLLABRATE)
 
-		var_5_3[iter_5_0].oldShips = var_5_6
-		var_5_3[iter_5_0].newShips = var_5_7
+		var_5_3[iter_5_2].oldShips = var_5_6
+		var_5_3[iter_5_2].newShips = var_5_7
 
-		local var_5_8, var_5_9 = var_0_0.GenerateCommanderExp(iter_5_1.commander_exp)
+		local var_5_8, var_5_9 = var_0_0.GenerateCommanderExp(iter_5_3.commander_exp)
 
-		var_5_3[iter_5_0].oldCmds = var_5_8
-		var_5_3[iter_5_0].newCmds = var_5_9
-		var_5_3[iter_5_0].mvp = iter_5_1.mvp
+		var_5_3[iter_5_2].oldCmds = var_5_8
+		var_5_3[iter_5_2].newCmds = var_5_9
+		var_5_3[iter_5_2].mvp = iter_5_3.mvp
 
-		local var_5_10, var_5_11 = var_0_0.GeneralLoot(iter_5_1)
+		local var_5_10, var_5_11 = var_0_0.GeneralLoot(iter_5_3)
 
-		var_5_3[iter_5_0].drops = var_5_10
-		var_5_3[iter_5_0].extraDrops = var_5_11
+		var_5_3[iter_5_2].drops = var_5_10
+		var_5_3[iter_5_2].extraDrops = var_5_11
 
 		local var_5_12 = 0
 
@@ -135,7 +151,7 @@ function var_0_0.ConcludeEXP(arg_5_0, arg_5_1, arg_5_2)
 			var_5_12 = var_5_15 + var_5_16
 		end
 
-		var_5_3[iter_5_0].playerExp = var_0_0.GeneralPlayerCosume(var_5_0, var_5_4, var_5_12, iter_5_1.player_exp)
+		var_5_3[iter_5_2].playerExp = var_0_0.GeneralPlayerCosume(var_5_0, var_5_4, var_5_12, iter_5_3.player_exp)
 	end
 
 	return var_5_3

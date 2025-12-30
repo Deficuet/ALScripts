@@ -77,7 +77,7 @@ end
 
 function var_0_0._CollectExpiredItems(arg_11_0, arg_11_1)
 	local var_11_0 = {}
-	local var_11_1 = pg.shop_template.get_id_list_by_genre.gift_package
+	local var_11_1 = pg.shop_template.get_id_list_by_genre[ShopArgs.GiftPackage]
 
 	for iter_11_0, iter_11_1 in pairs(var_11_1) do
 		local var_11_2 = pg.shop_template[iter_11_1]

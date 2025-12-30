@@ -122,7 +122,6 @@ function var_0_1.Add2Overlay(arg_8_0, arg_8_1, arg_8_2)
 
 	local var_8_1 = arg_8_0:DelList(arg_8_1)
 
-	arg_8_0:ClearBlurData(var_8_1)
 	table.insert(arg_8_0.storeUIs, arg_8_2)
 	arg_8_0:CreateRefreshHandler()
 
@@ -144,7 +143,6 @@ function var_0_1.DelFromOverlay(arg_9_0, arg_9_1, arg_9_2)
 		end
 
 		arg_9_0:CheckRecycleAdaptObj(var_9_1, arg_9_2)
-		arg_9_0:ClearBlurData(var_9_0)
 	end
 
 	arg_9_0:CreateRefreshHandler()
@@ -166,161 +164,152 @@ function var_0_1.DelList(arg_10_0, arg_10_1)
 	return var_10_0
 end
 
-function var_0_1.ClearBlurData(arg_11_0, arg_11_1)
-	if arg_11_1 == nil then
-		return
-	end
-
-	if arg_11_1.pbList ~= nil then
-		var_0_0.UIMgr.GetInstance():RevertPBMaterial(arg_11_1.pbList)
-	end
-
-	local var_11_0 = arg_11_1.lockGlobalBlur
-
-	if var_11_0 then
-		local var_11_1 = arg_11_1.blurCamList
-
-		for iter_11_0, iter_11_1 in ipairs({
-			var_0_0.UIMgr.CameraUI,
-			var_0_0.UIMgr.CameraLevel
-		}) do
-			if table.contains(var_11_1, iter_11_1) then
-				var_0_0.UIMgr.GetInstance():UnblurCamera(iter_11_1, var_11_0)
-			end
-		end
-	end
-end
-
-function var_0_1.SortStoreUIs(arg_12_0)
-	arg_12_0:Log("-----------------------------------------")
-	mergeSort(arg_12_0.storeUIs, CompareFuncs({
-		function(arg_13_0)
-			return arg_12_0.groupWeightDic[arg_13_0.groupName]
+function var_0_1.SortStoreUIs(arg_11_0)
+	arg_11_0:Log("-----------------------------------------")
+	mergeSort(arg_11_0.storeUIs, CompareFuncs({
+		function(arg_12_0)
+			return arg_11_0.groupWeightDic[arg_12_0.groupName]
 		end,
-		function(arg_14_0)
-			return arg_14_0.groupDelta
+		function(arg_13_0)
+			return arg_13_0.groupDelta
 		end
 	}, true))
-	arg_12_0:Log(PrintTable(arg_12_0.storeUIs))
-	arg_12_0:Log("-----------------------------------------")
+	arg_11_0:Log(PrintTable(arg_11_0.storeUIs))
+	arg_11_0:Log("-----------------------------------------")
 end
 
-function var_0_1.LayerSortHandler(arg_15_0)
-	arg_15_0:SortStoreUIs()
+function var_0_1.LayerSortHandler(arg_14_0)
+	arg_14_0:SortStoreUIs()
 
-	local var_15_0
-	local var_15_1
-	local var_15_2 = {}
-	local var_15_3 = false
-	local var_15_4 = false
-	local var_15_5 = false
-	local var_15_6 = {}
+	arg_14_0.indexDic = {}
 
-	for iter_15_0 = #arg_15_0.storeUIs, 1, -1 do
-		local var_15_7 = arg_15_0.storeUIs[iter_15_0]
-		local var_15_8 = var_15_7.ui
-		local var_15_9 = var_15_7.parent
-		local var_15_10 = var_15_7.type
-		local var_15_11 = var_15_7.overlayType
-		local var_15_12 = var_15_7.groupName
-		local var_15_13 = var_15_7.globalBlur
-		local var_15_14 = var_15_7.lockGlobalBlur
-		local var_15_15 = var_15_7.staticBlur
-		local var_15_16 = var_15_7.blurCamList
-		local var_15_17 = var_15_7.pbList
-		local var_15_18 = var_15_7.stopTop
+	local var_14_0
+	local var_14_1
+	local var_14_2 = {}
+	local var_14_3 = false
+	local var_14_4 = false
+	local var_14_5 = false
+	local var_14_6 = {}
 
-		var_15_1 = var_15_1 or var_15_12
+	for iter_14_0 = #arg_14_0.storeUIs, 1, -1 do
+		local var_14_7 = arg_14_0.storeUIs[iter_14_0]
+		local var_14_8 = var_14_7.ui
+		local var_14_9 = var_14_7.parent
+		local var_14_10 = var_14_7.type
+		local var_14_11 = var_14_7.overlayType
+		local var_14_12 = var_14_7.groupName
+		local var_14_13 = var_14_7.globalBlur
+		local var_14_14 = var_14_7.lockGlobalBlur
+		local var_14_15 = var_14_7.staticBlur
+		local var_14_16 = var_14_7.blurCamList
+		local var_14_17 = var_14_7.pbList
+		local var_14_18 = var_14_7.stopTop
 
-		if not var_15_0 then
-			if var_15_12 ~= var_15_1 then
-				var_15_0 = iter_15_0 + 1
-			elseif var_15_13 or var_15_18 or var_15_1 == LayerWeightConst.GROUP_TOP then
-				var_15_0 = iter_15_0
+		var_14_1 = var_14_1 or var_14_12
+
+		if not var_14_0 then
+			if var_14_12 ~= var_14_1 then
+				var_14_0 = iter_14_0 + 1
+			elseif var_14_13 or var_14_18 or var_14_1 == LayerWeightConst.GROUP_TOP then
+				var_14_0 = iter_14_0
 			end
 		end
 
-		local var_15_19 = not var_15_0 or var_15_0 <= iter_15_0
+		local var_14_19 = not var_14_0 or var_14_0 <= iter_14_0
 
-		if var_15_19 then
-			var_15_3 = var_15_3 or var_15_13
-			var_15_4 = var_15_4 or var_15_14
-			var_15_5 = var_15_5 or var_15_15
+		var_14_4 = var_14_4 or var_14_14
 
-			table.insertto(var_15_6, var_15_16)
-		end
+		if var_14_19 then
+			var_14_3 = var_14_3 or var_14_13
+			var_14_5 = var_14_5 or var_14_15
 
-		if #var_15_17 > 0 then
-			if var_15_19 then
-				table.insertto(var_15_2, var_15_17)
-			else
-				var_0_0.UIMgr.GetInstance():RevertPBMaterial(var_15_17)
+			table.insertto(var_14_6, var_14_16)
+
+			if #var_14_17 > 0 then
+				table.insertto(var_14_2, var_14_17)
 			end
 		end
 
-		local var_15_20 = var_15_8
+		local var_14_20 = var_14_8
 
-		if var_15_11 == LayerWeightConst.OVERLAY_UI_ADAPT then
-			var_15_20 = arg_15_0:GetAdaptObjFromUI(var_15_8) or arg_15_0:GetAdaptObj(var_15_8)
+		if var_14_11 == LayerWeightConst.OVERLAY_UI_ADAPT then
+			var_14_20 = arg_14_0:GetAdaptObjFromUI(var_14_8) or arg_14_0:GetAdaptObj(var_14_8)
 		end
 
-		local var_15_21 = switch(var_15_10, {
+		local var_14_21 = switch(var_14_10, {
 			[LayerWeightConst.UI_TYPE_SUB] = function()
-				if var_15_19 then
-					if var_15_9 then
-						arg_15_0:SetSpecificParent(var_15_20, var_15_9)
+				if var_14_19 then
+					if var_14_9 then
+						arg_14_0:SetSpecificParent(var_14_20, var_14_9)
 					else
-						return arg_15_0.OverlayMain
+						return arg_14_0.OverlayMain
 					end
 				else
-					return arg_15_0.lvCamera.enabled and arg_15_0.lvOrigin or arg_15_0.uiOrigin
+					return arg_14_0.lvCamera.enabled and arg_14_0.lvOrigin or arg_14_0.uiOrigin
 				end
 			end,
 			[LayerWeightConst.UI_TYPE_SYSTEM] = function()
-				return arg_15_0.uiMain
+				return arg_14_0.uiMain
 			end
 		}, function()
 			assert(false)
 		end)
 
-		if var_15_21 then
-			arg_15_0:SetSpecificParent(var_15_20, var_15_21, 0)
+		if var_14_21 then
+			arg_14_0:SetSpecificParent(var_14_20, var_14_21, 0)
 		end
 	end
 
-	if not var_15_3 and #var_15_2 > 0 then
-		var_0_0.UIMgr.GetInstance():PartialBlurTfs(var_15_2)
+	arg_14_0:SequentizationUIIndex()
+
+	if not var_14_4 then
+		var_0_0.UIMgr.GetInstance():SetCameraBlurLock(var_14_4)
+	end
+
+	if not var_14_3 and #var_14_2 > 0 then
+		var_0_0.UIMgr.GetInstance():PartialBlurTfs(var_14_2)
 	else
 		var_0_0.UIMgr.GetInstance():ShutdownPartialBlur()
 	end
 
-	if var_15_3 then
-		for iter_15_1, iter_15_2 in ipairs({
-			var_0_0.UIMgr.CameraUI,
-			var_0_0.UIMgr.CameraLevel
-		}) do
-			if table.contains(var_15_6, iter_15_2) then
-				var_0_0.UIMgr.GetInstance():BlurCamera(iter_15_2, var_15_5, var_15_4)
-			else
-				var_0_0.UIMgr.GetInstance():UnblurCamera(iter_15_2)
-			end
+	for iter_14_1, iter_14_2 in ipairs({
+		var_0_0.UIMgr.CameraUI,
+		var_0_0.UIMgr.CameraLevel
+	}) do
+		if var_14_3 and table.contains(var_14_6, iter_14_2) then
+			var_0_0.UIMgr.GetInstance():BlurCamera(iter_14_2, var_14_5)
+		else
+			var_0_0.UIMgr.GetInstance():UnblurCamera(iter_14_2)
 		end
-	else
-		for iter_15_3, iter_15_4 in ipairs({
-			var_0_0.UIMgr.CameraUI,
-			var_0_0.UIMgr.CameraLevel
-		}) do
-			var_0_0.UIMgr.GetInstance():UnblurCamera(iter_15_4)
-		end
+	end
+
+	if var_14_4 then
+		var_0_0.UIMgr.GetInstance():SetCameraBlurLock(var_14_4)
 	end
 end
 
-function var_0_1.SetSpecificParent(arg_19_0, arg_19_1, arg_19_2, arg_19_3)
-	SetParent(arg_19_1, arg_19_2, false)
+function var_0_1.SetSpecificParent(arg_18_0, arg_18_1, arg_18_2, arg_18_3)
+	if arg_18_3 then
+		arg_18_0.indexDic[arg_18_2] = arg_18_0.indexDic[arg_18_2] or {}
 
-	if arg_19_3 then
-		arg_19_1:SetSiblingIndex(arg_19_3)
+		table.insert(arg_18_0.indexDic[arg_18_2], 1, arg_18_1)
+	else
+		SetParent(arg_18_1, arg_18_2, false)
 	end
+end
+
+function var_0_1.SequentizationUIIndex(arg_19_0)
+	for iter_19_0, iter_19_1 in pairs(arg_19_0.indexDic) do
+		for iter_19_2, iter_19_3 in ipairs(iter_19_1) do
+			SetParent(iter_19_3, iter_19_0, false)
+
+			if iter_19_3:GetSiblingIndex() ~= iter_19_2 - 1 then
+				iter_19_3:SetSiblingIndex(iter_19_2 - 1)
+			end
+		end
+	end
+
+	arg_19_0.indexDic = nil
 end
 
 function var_0_1.GetAdaptObj(arg_20_0, arg_20_1)

@@ -165,6 +165,7 @@ function var_0_0.listNotificationInterests(arg_21_0)
 		GAME.BEGIN_STAGE_DONE,
 		GAME.SEND_MINI_GAME_OP_DONE,
 		GAME.FETCH_NPC_SHIP_DONE,
+		GAME.FETCH_NPC_SHIP_ACTIVITY_DONE,
 		GAME.ZERO_HOUR_OP_DONE,
 		GAME.CONFIRM_GET_SHIP,
 		GAME.WILL_LOGOUT,
@@ -232,7 +233,7 @@ function var_0_0.handleNotification(arg_22_0, arg_22_1)
 		MainTechnologySequence.New():Execute(function()
 			return
 		end)
-	elseif var_22_0 == GAME.FETCH_NPC_SHIP_DONE then
+	elseif var_22_0 == GAME.FETCH_NPC_SHIP_DONE or var_22_0 == GAME.FETCH_NPC_SHIP_ACTIVITY_DONE then
 		arg_22_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_22_1.items, var_22_1.callback)
 	elseif var_22_0 == var_0_0.REFRESH_VIEW then
 		arg_22_0.viewComponent:setVisible(false)
@@ -259,8 +260,8 @@ function var_0_0.handleNotification(arg_22_0, arg_22_1)
 	elseif var_22_0 == NewMainMediator.ON_AWRADS then
 		arg_22_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_22_1.items, var_22_1.callback)
 	elseif var_22_0 == GAME.PLAY_CHANGE_SKIN_OUT then
-		arg_22_0.viewComponent:HidePanel(true)
 		arg_22_0.viewComponent:SetEffectPanelVisible(false)
+		arg_22_0.viewComponent:HidePanel(true)
 		arg_22_0.viewComponent:PlayChangeSkinActionOut(var_22_1)
 	elseif var_22_0 == GAME.PLAY_CHANGE_SKIN_IN then
 		arg_22_0.viewComponent:PlayChangeSkinActionIn(var_22_1)
@@ -268,11 +269,14 @@ function var_0_0.handleNotification(arg_22_0, arg_22_1)
 		arg_22_0.viewComponent:SetEffectPanelVisible(true)
 		arg_22_0.viewComponent:HidePanel(false)
 	elseif var_22_0 == GAME.CHANGE_SKIN_EXCHANGE then
-		local var_22_3 = arg_22_0.viewComponent:GetFlagShip()
+		local var_22_3 = var_22_1.asmr and true or false
+		local var_22_4 = arg_22_0.viewComponent:GetFlagShip()
 
 		if arg_22_0.viewComponent then
-			arg_22_0.viewComponent:UpdateFlagShip(var_22_3, var_22_1)
+			arg_22_0.viewComponent:UpdateFlagShip(var_22_4, var_22_1)
 		end
+
+		arg_22_0.viewComponent:AsmrTurning(var_22_3)
 	elseif var_22_0 == MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION then
 		arg_22_0.viewComponent:CheckAndReplayBgm()
 	elseif var_22_0 == NewMainMediator.FOLD_PANEL then

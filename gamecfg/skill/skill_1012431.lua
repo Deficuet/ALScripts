@@ -16,7 +16,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169261,
+					weapon_id = 169601,
 					emitter = "BattleBulletEmitter"
 				}
 			},
@@ -50,7 +50,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169262,
+					weapon_id = 169602,
 					emitter = "BattleBulletEmitter"
 				}
 			},
@@ -84,7 +84,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169263,
+					weapon_id = 169603,
 					emitter = "BattleBulletEmitter"
 				}
 			},
@@ -118,7 +118,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169264,
+					weapon_id = 169604,
 					emitter = "BattleBulletEmitter"
 				}
 			},
@@ -152,7 +152,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169265,
+					weapon_id = 169605,
 					emitter = "BattleBulletEmitter"
 				}
 			},
@@ -186,7 +186,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169266,
+					weapon_id = 169606,
 					emitter = "BattleBulletEmitter"
 				}
 			},
@@ -220,7 +220,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169267,
+					weapon_id = 169607,
 					emitter = "BattleBulletEmitter"
 				}
 			},
@@ -254,7 +254,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169268,
+					weapon_id = 169608,
 					emitter = "BattleBulletEmitter"
 				}
 			},
@@ -288,7 +288,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169269,
+					weapon_id = 169609,
 					emitter = "BattleBulletEmitter"
 				}
 			},
@@ -322,7 +322,7 @@ return {
 				target_choise = "TargetHarmRandomByWeight",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 169270,
+					weapon_id = 169610,
 					emitter = "BattleBulletEmitter"
 				}
 			},

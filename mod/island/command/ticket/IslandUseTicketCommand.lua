@@ -82,7 +82,7 @@ function var_0_0.Send(arg_4_0, arg_4_1, arg_4_2, arg_4_3, arg_4_4)
 					getProxy(IslandProxy):GetIsland():GetManageAgency():GetRestaurant(arg_4_2):UpdateEndTime(arg_4_4)
 				end,
 				[var_0_0.TYPES.SHIP_ORDER_RELOAD] = function()
-					getProxy(IslandProxy):GetIsland():GetOrderAgency():GetShipOrderSlot(arg_4_2):AddReduceReloadingTime(arg_4_4)
+					getProxy(IslandProxy):GetIsland():GetOrderAgency():ReduceNextManualReloadDelegateTime(arg_4_4)
 				end
 			})
 

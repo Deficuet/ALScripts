@@ -14,6 +14,8 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.npcTip = arg_2_0.npcBtn:Find("tip")
 	arg_2_0.itemBtn = arg_2_0._tf:Find("view/content/item")
 	arg_2_0.itemTip = arg_2_0.itemBtn:Find("tip")
+	arg_2_0.fishBtn = arg_2_0._tf:Find("view/content/fish")
+	arg_2_0.fishTip = arg_2_0.fishBtn:Find("tip")
 end
 
 function var_0_0.OnInit(arg_3_0)
@@ -29,35 +31,43 @@ function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0.itemBtn, function()
 		arg_3_0:OpenPage(IslandBookItemPage)
 	end, SFX_PANEL)
+	onButton(arg_3_0, arg_3_0.fishBtn, function()
+		arg_3_0:OpenPage(IslandBookFishPage)
+	end, SFX_PANEL)
 end
 
-function var_0_0.AddListeners(arg_8_0)
-	arg_8_0:AddListener(GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE, arg_8_0.FlushTips)
-	arg_8_0:AddListener(GAME.ISLAND_GET_COLLECT_POINT_DONE, arg_8_0.FlushTips)
-	arg_8_0:AddListener(GAME.ISLAND_GET_POINT_AWARD_DONE, arg_8_0.FlushTips)
+function var_0_0.AddListeners(arg_9_0)
+	arg_9_0:AddListener(GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE, arg_9_0.FlushTips)
+	arg_9_0:AddListener(GAME.ISLAND_GET_COLLECT_POINT_DONE, arg_9_0.FlushTips)
+	arg_9_0:AddListener(GAME.ISLAND_GET_POINT_AWARD_DONE, arg_9_0.FlushTips)
 end
 
-function var_0_0.RemoveListeners(arg_9_0)
-	arg_9_0:RemoveListener(GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE, arg_9_0.FlushTips)
-	arg_9_0:RemoveListener(GAME.ISLAND_GET_COLLECT_POINT_DONE, arg_9_0.FlushTips)
-	arg_9_0:RemoveListener(GAME.ISLAND_GET_POINT_AWARD_DONE, arg_9_0.FlushTips)
+function var_0_0.RemoveListeners(arg_10_0)
+	arg_10_0:RemoveListener(GAME.ISLAND_UNLOCK_ILLUSTRATION_DONE, arg_10_0.FlushTips)
+	arg_10_0:RemoveListener(GAME.ISLAND_GET_COLLECT_POINT_DONE, arg_10_0.FlushTips)
+	arg_10_0:RemoveListener(GAME.ISLAND_GET_POINT_AWARD_DONE, arg_10_0.FlushTips)
 end
 
-function var_0_0.OnShow(arg_10_0)
-	arg_10_0:FlushTips()
+function var_0_0.OnShow(arg_11_0)
+	arg_11_0:FlushTips()
 end
 
-function var_0_0.FlushTips(arg_11_0)
-	arg_11_0.bookAgency = getProxy(IslandProxy):GetIsland():GetBookAgency()
+function var_0_0.FlushTips(arg_12_0)
+	setActive(arg_12_0.fishBtn, IslandMainBtnTipHelper.IsUnlock("book_fish"))
 
-	setActive(arg_11_0.charTip, arg_11_0.bookAgency:IsTipFromTypes({
+	arg_12_0.bookAgency = getProxy(IslandProxy):GetIsland():GetBookAgency()
+
+	setActive(arg_12_0.charTip, arg_12_0.bookAgency:IsTipFromTypes({
 		IslandIllustration.TYPES.CHAR
 	}))
-	setActive(arg_11_0.npcTip, arg_11_0.bookAgency:IsTipFromTypes({
+	setActive(arg_12_0.npcTip, arg_12_0.bookAgency:IsTipFromTypes({
 		IslandIllustration.TYPES.NPC
 	}))
-	setActive(arg_11_0.itemTip, arg_11_0.bookAgency:IsTipFromTypes({
+	setActive(arg_12_0.itemTip, arg_12_0.bookAgency:IsTipFromTypes({
 		IslandIllustration.TYPES.ITEM
+	}))
+	setActive(arg_12_0.fishTip, arg_12_0.bookAgency:IsTipFromTypes({
+		IslandIllustration.TYPES.FISH
 	}))
 end
 

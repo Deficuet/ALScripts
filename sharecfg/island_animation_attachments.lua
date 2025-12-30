@@ -21,13 +21,6 @@ pg.island_animation_attachments = {
 		animator = "island/animator/ani_item_1_10007",
 		unlock = 0
 	},
-	[10008] = {
-		attack = 0,
-		model = "island/item/01/10008/prefab/pre_item_01_10008",
-		id = 10008,
-		animator = "island/animator/ani_item_1_10008",
-		unlock = 0
-	},
 	[10009] = {
 		attack = 0,
 		model = "island/item/01/10009/prefab/pre_item_01_10009",
@@ -161,11 +154,17 @@ pg.island_animation_attachments = {
 		animator = "island/animator/ani_item_1_02_10005",
 		unlock = 0
 	},
+	[200000] = {
+		attack = 0,
+		model = "island/effect/prefab/timeline/juqing/vfx_chuchang01",
+		id = 200000,
+		animator = "",
+		unlock = 0
+	},
 	all = {
 		10004,
 		10006,
 		10007,
-		10008,
 		10009,
 		10010,
 		10011,
@@ -184,6 +183,7 @@ pg.island_animation_attachments = {
 		100041,
 		100042,
 		100051,
-		100052
+		100052,
+		200000
 	}
 }

@@ -82,7 +82,7 @@ function var_0_0.Show(arg_6_0)
 		end
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(arg_6_0._tf)
+	arg_6_0:BlurPanel(arg_6_0._tf)
 	arg_6_0:TryPlaySupportGuide()
 	arg_6_0:CheckGuideElement()
 end
@@ -121,7 +121,7 @@ function var_0_0.Hide(arg_10_0)
 
 	arg_10_0.spItemID = nil
 
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
+	arg_10_0:UnOverlayPanel(arg_10_0._tf, arg_10_0._parentTf)
 end
 
 function var_0_0.setOpenCommanderTag(arg_11_0, arg_11_1)

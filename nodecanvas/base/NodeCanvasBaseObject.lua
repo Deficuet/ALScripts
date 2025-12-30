@@ -63,8 +63,9 @@ function var_0_0.GetBlackboardVariable(arg_8_0, arg_8_1)
 	end
 
 	local var_8_1 = arg_8_0:GetNodeInstance()
+	local var_8_2 = var_8_0:GetVariable(arg_8_1)
 
-	return var_8_0:GetVariable(arg_8_1).value
+	return var_8_2 and var_8_2.value
 end
 
 function var_0_0.SetBlackboardVariable(arg_9_0, arg_9_1, arg_9_2)

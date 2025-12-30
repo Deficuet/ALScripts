@@ -2322,18 +2322,101 @@ pg.memory_storyline = {
 		}
 	},
 	{
+		description = "「私はもうすぐ遠出するわ」\n「だから今日はもっと率直に、もっと気楽に……」\n「思いついたことを、そのまま話してみるわ」\n「……始めるね」",
+		name = "追憶の残響",
+		world_id = "",
+		memory_lock = 0,
+		column = 56,
+		bgm = "theme-helena ",
+		row = 0,
+		chapter = 4,
+		id = 91,
+		icon = "ChapterFour_10",
+		sort = 1,
+		memory_id = {
+			1,
+			349
+		},
+		shipnation = {
+			97
+		},
+		link_event = {
+			92
+		}
+	},
+	{
+		description = "「セイレーンとの戦いが終わった」\n「再結成の会議もついに終了した」\n「美しい世界」\n「新しい世界」",
+		name = "美しい世界へ",
+		world_id = "",
+		memory_lock = 0,
+		column = 57,
+		bgm = "login",
+		row = 0,
+		chapter = 4,
+		id = 92,
+		icon = "ChapterFour_11",
+		sort = 1,
+		memory_id = {
+			1,
+			350
+		},
+		shipnation = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			10,
+			11
+		},
+		link_event = {
+			91,
+			93
+		}
+	},
+	{
+		description = "「過去は完璧ではなく、未来には困難が待ち受けている」\n「だが今は」\n「我々は団結し、共に前へと進もうとしている」\n「過去、現在、未来のすべての仲間たちよ」\n「共にこの雄大な楽章を奏でよう——」",
+		name = "天穹に響く音謡",
+		world_id = "",
+		memory_lock = 0,
+		column = 58,
+		bgm = "story-weimu-link",
+		row = 0,
+		chapter = 4,
+		id = 93,
+		icon = "ChapterFour_12",
+		sort = 1,
+		memory_id = {
+			1,
+			351
+		},
+		shipnation = {
+			97,
+			2,
+			1,
+			4,
+			6,
+			7
+		},
+		link_event = {
+			94
+		}
+	},
+	{
 		description = "敬请期待",
 		name = "敬请期待",
-		column = 56,
+		column = 59,
 		memory_id = "",
 		link_event = "",
 		shipnation = 0,
 		world_id = "",
 		bgm = "",
 		row = 0,
-		chapter = 4,
+		chapter = 0,
 		memory_lock = 1,
-		id = 91,
+		id = 94,
 		icon = "",
 		sort = 0
 	},
@@ -2428,6 +2511,9 @@ pg.memory_storyline = {
 		88,
 		89,
 		90,
-		91
+		91,
+		92,
+		93,
+		94
 	}
 }

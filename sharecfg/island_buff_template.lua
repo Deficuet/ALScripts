@@ -39,7 +39,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	{
-		buff_desc = "8時間の間、基本資源を生産する場合、生産に必要な時間が5%短縮する",
+		buff_desc = "8時間の間、基本資源を生産時、作業時間が5%短縮",
 		name = "生産効率アップ",
 		buff_type = 102,
 		buff_level = 1,
@@ -62,7 +62,7 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	{
-		buff_desc = "8時間の間、基地工場でアイテムを制作する場合、制作に必要な時間が5%短縮する",
+		buff_desc = "8時間の間、基地工場でアイテムを制作時、作業時間が5%短縮",
 		name = "制作効率アップ",
 		buff_type = 102,
 		buff_level = 1,
@@ -83,13 +83,35 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	{
-		buff_desc = "8時間の間、料理アイテムを制作時、制作に必要な時間が5%短縮する",
+		buff_desc = "8時間の間、料理アイテムを制作時、作業時間が5%短縮",
 		name = "料理効率アップ",
 		buff_type = 102,
 		buff_level = 1,
 		buff_color = 2,
 		buff_time = 28800,
 		id = 4,
+		buff_group = 1,
+		type_use = {
+			{
+				601,
+				602,
+				603,
+				604,
+				901
+			},
+			5
+		},
+		type_duel = {},
+		buff_duel = {}
+	},
+	{
+		buff_desc = "店舗スタッフとして配置された場合、その店舗の売上が8時間の間5%アップ",
+		name = "売上上昇",
+		buff_type = 601,
+		buff_level = 1,
+		buff_color = 2,
+		buff_time = 28800,
+		id = 5,
 		buff_group = 1,
 		type_use = {
 			{
@@ -2125,150 +2147,170 @@ pg.island_buff_template = {
 		buff_duel = {}
 	},
 	[10100] = {
-		type_use = "3",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 1,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10100,
+		buff_group = 1010,
+		type_use = {
+			3
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10101] = {
-		type_use = "3.2",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 2,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10101,
+		buff_group = 1010,
+		type_use = {
+			3.2
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10102] = {
-		type_use = "3.5",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 3,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10102,
+		buff_group = 1010,
+		type_use = {
+			3.5
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10103] = {
-		type_use = "3.7",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 4,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10103,
+		buff_group = 1010,
+		type_use = {
+			3.7
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10104] = {
-		type_use = "4",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 5,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10104,
+		buff_group = 1010,
+		type_use = {
+			4
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10105] = {
-		type_use = "4.2",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 6,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10105,
+		buff_group = 1010,
+		type_use = {
+			4.2
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10106] = {
-		type_use = "4.5",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 7,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10106,
+		buff_group = 1010,
+		type_use = {
+			4.5
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10107] = {
-		type_use = "5",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 8,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10107,
+		buff_group = 1010,
+		type_use = {
+			5
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10108] = {
-		type_use = "5.5",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 9,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10108,
+		buff_group = 1010,
+		type_use = {
+			5.5
+		},
 		type_duel = {
 			1010
 		},
 		buff_duel = {}
 	},
 	[10109] = {
-		type_use = "6",
-		name = "高効率回復",
 		buff_desc = "无需本地化，角色技能读skill表",
+		name = "高効率回復",
 		buff_type = 2,
-		buff_color = 0,
-		buff_group = 1010,
-		buff_time = 0,
 		buff_level = 10,
+		buff_color = 0,
+		buff_time = 0,
 		id = 10109,
+		buff_group = 1010,
+		type_use = {
+			6
+		},
 		type_duel = {
 			1010
 		},
@@ -3139,6 +3181,7 @@ pg.island_buff_template = {
 		2,
 		3,
 		4,
+		5,
 		10000,
 		10001,
 		10002,

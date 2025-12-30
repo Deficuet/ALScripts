@@ -159,6 +159,23 @@ pg.island_action = {
 		responder_feedback = "",
 		jump_page = {}
 	},
+	[1013] = {
+		tech_id = 0,
+		name = "ヒーロー登場",
+		respond_point = "",
+		type = 1,
+		feedback_type = 1,
+		desc = "キャラクターアクションヒーロー登場。自分の感情をアピールしましょう！",
+		resource = "herocoming",
+		id = 1013,
+		responder_feedback = "",
+		jump_page = {
+			{
+				"ショップ",
+				{}
+			}
+		}
+	},
 	[2000] = {
 		tech_id = 0,
 		name = "ハイタッチ",
@@ -225,7 +242,8 @@ pg.island_action = {
 			1008,
 			1009,
 			1011,
-			1012
+			1012,
+			1013
 		},
 		{
 			2000,
@@ -246,6 +264,7 @@ pg.island_action = {
 		1009,
 		1011,
 		1012,
+		1013,
 		2000,
 		2001,
 		2002

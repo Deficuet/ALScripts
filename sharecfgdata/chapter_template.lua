@@ -239,6 +239,7 @@
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -615,6 +616,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"UI10202"
 		},
@@ -1029,6 +1031,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -1528,6 +1531,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -2115,6 +2119,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -2755,6 +2760,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -3370,6 +3376,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -3959,6 +3966,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -4567,6 +4575,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -5199,6 +5208,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -5826,6 +5836,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -6439,6 +6450,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -6971,6 +6983,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHUXIAN040103"
@@ -7500,6 +7513,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHUXIAN040203"
@@ -7974,6 +7988,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHUXIAN040303"
@@ -8585,6 +8600,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHUXIAN040403",
@@ -9203,6 +9219,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -9753,6 +9770,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -10273,6 +10291,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -10818,6 +10837,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -11401,6 +11421,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -12040,6 +12061,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -12603,6 +12625,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -13210,6 +13233,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -13640,6 +13664,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -14173,6 +14198,7 @@ end)()
 			1,
 			2
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -14777,6 +14803,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -15365,6 +15392,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -15817,6 +15845,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -16355,6 +16384,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -16956,6 +16986,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -17620,6 +17651,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -18166,6 +18198,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -18751,6 +18787,10 @@ end)()
 		box_refresh = {
 			0,
 			1
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -19360,6 +19400,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -19992,6 +20036,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -20557,6 +20605,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -21179,6 +21231,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -21818,6 +21874,10 @@ end)()
 		box_refresh = {
 			0,
 			1
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -22472,6 +22532,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -23086,6 +23150,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -23817,6 +23885,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -24516,6 +24588,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -25326,6 +25402,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -25918,6 +25998,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -26624,6 +26708,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -27366,6 +27454,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -28225,6 +28317,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -28824,6 +28920,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -29530,6 +29630,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -30280,6 +30384,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -31140,6 +31248,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -31786,6 +31898,10 @@ end)()
 		},
 		box_refresh = {
 			1
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -32565,6 +32681,10 @@ end)()
 		},
 		box_refresh = {
 			1
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -33393,6 +33513,10 @@ end)()
 		},
 		box_refresh = {
 			1
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -34345,6 +34469,10 @@ end)()
 			5002
 		},
 		box_refresh = {
+			2
+		},
+		box_auto_pick = {
+			3,
 			2
 		},
 		story_refresh = {},
@@ -35522,6 +35650,10 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -36283,6 +36415,10 @@ end)()
 		},
 		box_refresh = {
 			1
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -37097,6 +37233,10 @@ end)()
 		},
 		box_refresh = {
 			1
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -38027,6 +38167,10 @@ end)()
 		box_refresh = {
 			2
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -38457,6 +38601,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"TACT10001"
 		},
@@ -38935,6 +39080,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"TACT10004"
 		},
@@ -39443,6 +39589,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"TACT10007"
 		},
@@ -39737,6 +39884,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -40153,6 +40301,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -40605,6 +40754,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -41140,6 +41290,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -41775,6 +41926,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -42463,6 +42615,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -43128,6 +43281,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -43763,6 +43917,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -44419,6 +44574,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -45099,6 +45255,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -45774,6 +45931,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -46435,6 +46593,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -47013,6 +47172,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -47584,6 +47744,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -48100,6 +48261,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -48753,6 +48915,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -49411,6 +49574,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -50007,6 +50171,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -50573,6 +50738,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -51164,6 +51330,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -51794,6 +51961,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -52480,6 +52648,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -53090,6 +53259,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -53744,6 +53914,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -54223,6 +54394,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -54805,6 +54977,7 @@ end)()
 			1,
 			2
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -55458,6 +55631,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -56095,6 +56269,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -56600,6 +56775,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -57191,6 +57367,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -57845,6 +58022,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -58562,6 +58740,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -59160,6 +59339,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -59797,6 +59980,10 @@ end)()
 		box_refresh = {
 			0,
 			1
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -60458,6 +60645,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -61142,6 +61333,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -61759,6 +61954,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -62433,6 +62632,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -63124,6 +63327,10 @@ end)()
 		box_refresh = {
 			0,
 			1
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -63830,6 +64037,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -64496,6 +64707,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -65279,6 +65494,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -66030,6 +66249,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -66892,6 +67115,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -67536,6 +67763,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -68294,6 +68525,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -69088,6 +69323,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -69999,6 +70238,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -70647,6 +70890,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -71402,6 +71649,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -72201,6 +72452,10 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			3,
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -73110,6 +73365,10 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			3,
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -73136,6 +73395,3958 @@ end)()
 		chapter_strategy = {},
 		alarm_cell = {},
 		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[11401] = {
+		special_operation_list = "",
+		name = "夜間戦闘",
+		count = 0,
+		pop_pic = "",
+		act_id = 0,
+		pos_y = "0.462962963",
+		model = 1,
+		progress_boss = 34,
+		is_ai = 0,
+		boss_refresh = 6,
+		is_limit_move = 0,
+		oil = 10,
+		chapter_fx = "",
+		bgm = "",
+		chapter_name = "14–1",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		type = 2,
+		chapter_tag = 0,
+		enter_story = "",
+		bg = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		friendly_id = 0,
+		id = 11401,
+		ammo_total = 5,
+		is_air_attack = 1,
+		mitigation_level = 10,
+		map = 214,
+		pos_x = "0.182291667",
+		formation = 214,
+		pre_story = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_1 = 1,
+		collection_team = 4,
+		star_require_3 = 3,
+		num_1 = 1,
+		best_air_dominance = 3741,
+		investigation_ratio = 37,
+		profiles = "魚雷艇の突撃で陣形が乱され、罠にハマった敵艦隊をーー撃つ！",
+		support_group_num = 0,
+		difficulty = 6,
+		num_2 = 30,
+		star_require_2 = 2,
+		avoid_ratio = 22,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		avoid_require = 160,
+		num_3 = 1,
+		unlocklevel = 90,
+		air_dominance = 2878,
+		submarine_num = 0,
+		uifx = "UIhuohua2",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.35,
+			0.35,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			},
+			{
+				{
+					"zhan",
+					6,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				114
+			},
+			{
+				"torpedo",
+				1,
+				2200
+			},
+			{
+				"dodge",
+				1,
+				900
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11401010,
+				80,
+				0
+			},
+			{
+				11401020,
+				210,
+				0
+			},
+			{
+				11401030,
+				160,
+				0
+			},
+			{
+				11401040,
+				100,
+				0
+			},
+			{
+				11401050,
+				210,
+				0
+			},
+			{
+				11401060,
+				200,
+				0
+			},
+			{
+				11401100,
+				10,
+				3
+			},
+			{
+				11401110,
+				20,
+				3
+			},
+			{
+				11401120,
+				10,
+				3
+			}
+		},
+		ambush_expedition_list = {
+			11401210,
+			11401211
+		},
+		guarder_expedition_list = {
+			11401100,
+			11401110,
+			11401120
+		},
+		elite_expedition_list = {
+			11401020,
+			11401030,
+			11401050
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			11401000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			2,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			0,
+			62,
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"fusang_g"
+		},
+		awards = {
+			{
+				2,
+				54045
+			},
+			{
+				2,
+				21131
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56053
+			},
+			{
+				2,
+				55053
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				1
+			},
+			{
+				8,
+				6,
+				true,
+				1
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				6
+			},
+			{
+				8,
+				1,
+				true,
+				8
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				4
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				4
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				2
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				false,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				16
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				8,
+				5,
+				"suligao_2x1_1",
+				-40,
+				0
+			},
+			{
+				6,
+				2,
+				"suligao_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				8,
+				"suligao_1x2_1",
+				0,
+				-40
+			},
+			{
+				4,
+				5,
+				"suligao_1x1_dengta_close",
+				0,
+				50
+			},
+			{
+				2,
+				3,
+				"suligao_2x2_2",
+				-40,
+				-40
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_suligao",
+			45,
+			20,
+			-250,
+			150,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {
+			{
+				6,
+				3,
+				{
+					5002
+				}
+			}
+		},
+		random_box_list = {
+			5002
+		},
+		box_refresh = {
+			1
+		},
+		box_auto_pick = {
+			3,
+			2
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[20] = {
+				"close",
+				"open"
+			}
+		},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {
+			{
+				0,
+				101,
+				{
+					{
+						0,
+						0,
+						12,
+						12
+					}
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[11402] = {
+		special_operation_list = "",
+		name = "T字火力",
+		count = 0,
+		pop_pic = "",
+		act_id = 0,
+		pos_y = "0.262962963",
+		model = 1,
+		progress_boss = 34,
+		is_ai = 0,
+		boss_refresh = 6,
+		is_limit_move = 0,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		chapter_name = "14–2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 1,
+		id = 11402,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 214,
+		pos_x = "0.361458333",
+		formation = 214,
+		mitigation_level = 10,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 4,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 3930,
+		investigation_ratio = 37,
+		profiles = "戦艦隊と巡洋艦隊の一直線の陣形ーー火力を最大限に発揮せよ！",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 35,
+		star_require_2 = 2,
+		avoid_ratio = 22,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 160,
+		unlocklevel = 90,
+		air_dominance = 3023,
+		submarine_num = 0,
+		uifx = "UIhuohua2",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.66,
+			0.62,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			},
+			{
+				{
+					"zhan",
+					6,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				116
+			},
+			{
+				"torpedo",
+				1,
+				2300
+			},
+			{
+				"dodge",
+				1,
+				1000
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11402010,
+				40,
+				0
+			},
+			{
+				11402020,
+				180,
+				0
+			},
+			{
+				11402030,
+				220,
+				0
+			},
+			{
+				11402040,
+				60,
+				0
+			},
+			{
+				11402050,
+				200,
+				0
+			},
+			{
+				11402060,
+				250,
+				0
+			},
+			{
+				11402100,
+				10,
+				3
+			},
+			{
+				11402110,
+				20,
+				3
+			},
+			{
+				11402120,
+				10,
+				3
+			}
+		},
+		ambush_expedition_list = {
+			11402210,
+			11402211
+		},
+		guarder_expedition_list = {
+			11402100,
+			11402110,
+			11402120
+		},
+		elite_expedition_list = {
+			11402020,
+			11402030,
+			11402050
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			11402000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			0,
+			63,
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"shancheng_g"
+		},
+		awards = {
+			{
+				2,
+				54046
+			},
+			{
+				2,
+				21121
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56054
+			},
+			{
+				2,
+				55054
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				9,
+				9,
+				true,
+				6
+			},
+			{
+				9,
+				8,
+				false,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				true,
+				6
+			},
+			{
+				9,
+				5,
+				true,
+				6
+			},
+			{
+				9,
+				4,
+				true,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				6
+			},
+			{
+				8,
+				9,
+				true,
+				6
+			},
+			{
+				8,
+				8,
+				true,
+				2
+			},
+			{
+				8,
+				7,
+				true,
+				4
+			},
+			{
+				8,
+				6,
+				true,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				16
+			},
+			{
+				8,
+				3,
+				true,
+				6
+			},
+			{
+				8,
+				2,
+				true,
+				8
+			},
+			{
+				8,
+				1,
+				true,
+				4
+			},
+			{
+				7,
+				9,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				true,
+				2
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				4
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				16
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				4
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				1
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				false,
+				0
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				8
+			}
+		},
+		float_items = {
+			{
+				9,
+				7,
+				"suligao_2x1_2",
+				50,
+				0
+			},
+			{
+				7,
+				5,
+				"suligao_1x1_3",
+				0,
+				0
+			},
+			{
+				7,
+				1,
+				"suligao_3x1_2",
+				100,
+				0
+			},
+			{
+				6,
+				9,
+				"suligao_1x1_2",
+				0,
+				0
+			},
+			{
+				3,
+				3,
+				"suligao_1x2_1",
+				0,
+				40
+			},
+			{
+				2,
+				9,
+				"suligao_2x1_1",
+				-60,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_suligao",
+			45,
+			20,
+			-350,
+			50,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {
+			{
+				8,
+				8,
+				{
+					5002
+				}
+			},
+			{
+				6,
+				1,
+				{
+					5002
+				}
+			}
+		},
+		random_box_list = {
+			5002
+		},
+		box_refresh = {
+			1
+		},
+		box_auto_pick = {
+			3,
+			2
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {
+			{
+				0,
+				101,
+				{
+					{
+						0,
+						0,
+						12,
+						12
+					}
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[11403] = {
+		special_operation_list = "",
+		name = "乱戦",
+		count = 0,
+		pop_pic = "",
+		act_id = 0,
+		pos_y = "0.156481481",
+		model = 1,
+		progress_boss = 34,
+		is_ai = 0,
+		boss_refresh = 6,
+		is_limit_move = 0,
+		oil = 10,
+		chapter_fx = "",
+		bgm = "",
+		chapter_name = "14–3",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		type = 2,
+		chapter_tag = 0,
+		enter_story = "",
+		bg = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		friendly_id = 0,
+		id = 11403,
+		ammo_total = 5,
+		is_air_attack = 1,
+		mitigation_level = 10,
+		map = 214,
+		pos_x = "0.655208333",
+		formation = 214,
+		pre_story = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_1 = 1,
+		collection_team = 4,
+		star_require_3 = 3,
+		num_1 = 1,
+		best_air_dominance = 4118,
+		investigation_ratio = 38,
+		profiles = "入り乱れるそれぞれの艦隊が乱戦に入った。勝利まであと少し、警戒を厳とせよーー",
+		support_group_num = 0,
+		difficulty = 8,
+		num_2 = 40,
+		star_require_2 = 2,
+		avoid_ratio = 23,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		avoid_require = 164,
+		num_3 = 1,
+		unlocklevel = 90,
+		air_dominance = 3168,
+		submarine_num = 0,
+		uifx = "UIhuohua2",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.66,
+			0.38,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			},
+			{
+				{
+					"zhan",
+					6,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				118
+			},
+			{
+				"torpedo",
+				1,
+				2400
+			},
+			{
+				"dodge",
+				1,
+				1100
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11403010,
+				25,
+				0
+			},
+			{
+				11403020,
+				155,
+				0
+			},
+			{
+				11403030,
+				270,
+				0
+			},
+			{
+				11403040,
+				35,
+				0
+			},
+			{
+				11403050,
+				185,
+				0
+			},
+			{
+				11403060,
+				290,
+				0
+			},
+			{
+				11403100,
+				10,
+				3
+			},
+			{
+				11403110,
+				20,
+				3
+			},
+			{
+				11403120,
+				10,
+				3
+			}
+		},
+		ambush_expedition_list = {
+			11403210,
+			11403211
+		},
+		guarder_expedition_list = {
+			11403100,
+			11403110,
+			11403120
+		},
+		elite_expedition_list = {
+			11403020,
+			11403030,
+			11403060
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			11403000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			1,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			0,
+			64,
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"shiyu",
+			"manchao"
+		},
+		awards = {
+			{
+				2,
+				54047
+			},
+			{
+				2,
+				21101
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56055
+			},
+			{
+				2,
+				55055
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				6
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				0
+			},
+			{
+				9,
+				4,
+				true,
+				8
+			},
+			{
+				9,
+				3,
+				true,
+				8
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				8
+			},
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				6
+			},
+			{
+				8,
+				8,
+				true,
+				4
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				4
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				true,
+				16
+			},
+			{
+				8,
+				3,
+				true,
+				6
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				false,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				6
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				4
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				4
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				4
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				2
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				8
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				6
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				16
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				4
+			},
+			{
+				4,
+				9,
+				true,
+				6
+			},
+			{
+				4,
+				8,
+				true,
+				1
+			},
+			{
+				4,
+				7,
+				true,
+				1
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				8
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				6
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				false,
+				0
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"suligao_2x1_2",
+				40,
+				0
+			},
+			{
+				8,
+				10,
+				"suligao_1x1_dengta_close",
+				0,
+				50
+			},
+			{
+				8,
+				7,
+				"suligao_1x1_2",
+				0,
+				0
+			},
+			{
+				8,
+				1,
+				"suligao_1x1_1",
+				0,
+				0
+			},
+			{
+				6,
+				9,
+				"suligao_2x2_2",
+				50,
+				-40
+			},
+			{
+				5,
+				4,
+				"suligao_1x1_3",
+				0,
+				0
+			},
+			{
+				3,
+				7,
+				"suligao_2x2_1",
+				50,
+				50
+			},
+			{
+				2,
+				2,
+				"suligao_3x1_2",
+				100,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_suligao",
+			45,
+			20,
+			-380,
+			115,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {
+			{
+				6,
+				4,
+				{
+					5002
+				}
+			}
+		},
+		random_box_list = {
+			5002
+		},
+		box_refresh = {
+			1
+		},
+		box_auto_pick = {
+			3,
+			2
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[20] = {
+				"close",
+				"open"
+			}
+		},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {
+			{
+				0,
+				101,
+				{
+					{
+						0,
+						0,
+						12,
+						12
+					}
+				}
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[11404] = {
+		special_operation_list = "",
+		name = "追撃",
+		count = 0,
+		pop_pic = "",
+		act_id = 0,
+		pos_y = "0.555555555",
+		model = 1,
+		progress_boss = 34,
+		is_ai = 0,
+		boss_refresh = 7,
+		is_limit_move = 0,
+		oil = 10,
+		chapter_fx = "",
+		bgm = "",
+		chapter_name = "14–4",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 1,
+		type = 2,
+		chapter_tag = 0,
+		enter_story = "",
+		bg = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		friendly_id = 0,
+		id = 11404,
+		ammo_total = 5,
+		is_air_attack = 1,
+		mitigation_level = 10,
+		map = 214,
+		pos_x = "0.5140625",
+		formation = 214,
+		pre_story = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_1 = 1,
+		collection_team = 4,
+		star_require_3 = 3,
+		num_1 = 1,
+		best_air_dominance = 4495,
+		investigation_ratio = 39,
+		profiles = "暁が訪れた。一夜の戦いのあとは、勝利を確固たるものにするための追撃である",
+		support_group_num = 0,
+		difficulty = 9,
+		num_2 = 50,
+		star_require_2 = 2,
+		avoid_ratio = 24,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		avoid_require = 168,
+		num_3 = 1,
+		unlocklevel = 90,
+		air_dominance = 3458,
+		submarine_num = 0,
+		uifx = "UIhuohua2",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.66,
+			0.34,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					5,
+					7,
+					0
+				},
+				{
+					2,
+					0,
+					0
+				}
+			},
+			{
+				{
+					"zhan",
+					6,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				120
+			},
+			{
+				"torpedo",
+				1,
+				2500
+			},
+			{
+				"dodge",
+				1,
+				1250
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				11404010,
+				10,
+				0
+			},
+			{
+				11404020,
+				130,
+				0
+			},
+			{
+				11404030,
+				310,
+				0
+			},
+			{
+				11404040,
+				20,
+				0
+			},
+			{
+				11404050,
+				160,
+				0
+			},
+			{
+				11404060,
+				330,
+				0
+			},
+			{
+				11404100,
+				10,
+				3
+			},
+			{
+				11404110,
+				10,
+				3
+			},
+			{
+				11404120,
+				10,
+				3
+			}
+		},
+		ambush_expedition_list = {
+			11404210,
+			11404211
+		},
+		guarder_expedition_list = {
+			11404100,
+			11404110,
+			11404120
+		},
+		elite_expedition_list = {
+			11404020,
+			11404030,
+			11404060
+		},
+		ai_expedition_list = {
+			0
+		},
+		patrolai_expedition_list = {
+			0
+		},
+		submarine_expedition_list = {
+			0
+		},
+		boss_expedition_id = {
+			11404000
+		},
+		enemy_refresh = {
+			0,
+			2,
+			1,
+			2,
+			1,
+			1
+		},
+		elite_refresh = {
+			3,
+			1,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			0,
+			65,
+			0
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"zuishang_g"
+		},
+		awards = {
+			{
+				2,
+				54048
+			},
+			{
+				2,
+				21111
+			},
+			{
+				2,
+				59900
+			},
+			{
+				2,
+				56056
+			},
+			{
+				2,
+				55056
+			},
+			{
+				2,
+				54017
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				9,
+				11,
+				true,
+				6
+			},
+			{
+				9,
+				10,
+				true,
+				6
+			},
+			{
+				9,
+				9,
+				true,
+				6
+			},
+			{
+				9,
+				8,
+				true,
+				2
+			},
+			{
+				9,
+				7,
+				false,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				true,
+				8
+			},
+			{
+				9,
+				4,
+				true,
+				8
+			},
+			{
+				9,
+				3,
+				false,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				8,
+				11,
+				true,
+				6
+			},
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				true,
+				6
+			},
+			{
+				8,
+				8,
+				true,
+				6
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				16
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				11,
+				false,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				11,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				6
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				6
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				11,
+				true,
+				6
+			},
+			{
+				5,
+				10,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				3
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				4
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				2
+			},
+			{
+				4,
+				11,
+				true,
+				6
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				8
+			},
+			{
+				3,
+				11,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				16
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			},
+			{
+				2,
+				11,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				1
+			},
+			{
+				2,
+				9,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				true,
+				6
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				11,
+				false,
+				0
+			},
+			{
+				1,
+				10,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				9,
+				6,
+				"suligao_2x1_2",
+				40,
+				0
+			},
+			{
+				9,
+				3,
+				"suligao_1x1_3",
+				0,
+				11
+			},
+			{
+				9,
+				1,
+				"suligao_1x1_dengta_close",
+				1,
+				55
+			},
+			{
+				7,
+				11,
+				"suligao_1x1_3",
+				-10,
+				0
+			},
+			{
+				7,
+				1,
+				"suligao_1x2_1",
+				5,
+				50
+			},
+			{
+				6,
+				5,
+				"suligao_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				8,
+				"suligao_2x2_1",
+				75,
+				75
+			},
+			{
+				1,
+				10,
+				"suligao_3x1_2",
+				-2,
+				0
+			},
+			{
+				1,
+				3,
+				"suligao_2x1_1",
+				40,
+				0
+			}
+		},
+		ambush_event_ratio = {
+			{
+				3001,
+				5000
+			}
+		},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_suligao",
+			45,
+			20,
+			-500,
+			87,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {
+			{
+				9,
+				8,
+				{
+					5002
+				}
+			},
+			{
+				5,
+				1,
+				{
+					5002
+				}
+			}
+		},
+		random_box_list = {
+			5002
+		},
+		box_refresh = {
+			2
+		},
+		box_auto_pick = {
+			3,
+			2
+		},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				10,
+				7
+			},
+			{
+				6,
+				4
+			},
+			{
+				3,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		ItemTransformPattern = {
+			[20] = {
+				"close",
+				"open"
+			}
+		},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {
+			{
+				0,
+				101,
+				{
+					{
+						0,
+						0,
+						12,
+						12
+					}
+				}
+			},
+			{
+				0,
+				102,
+				{
+					{
+						2,
+						3
+					},
+					{
+						2,
+						4
+					},
+					{
+						3,
+						4
+					},
+					{
+						4,
+						4
+					},
+					{
+						7,
+						2,
+						8,
+						3
+					}
+				}
+			},
+			{
+				1,
+				0,
+				{
+					{
+						2,
+						3
+					},
+					{
+						2,
+						4
+					},
+					{
+						3,
+						4
+					},
+					{
+						4,
+						4
+					},
+					{
+						7,
+						2,
+						8,
+						3
+					}
+				}
+			},
+			{
+				1,
+				101,
+				{
+					{
+						2,
+						3
+					},
+					{
+						2,
+						4
+					},
+					{
+						3,
+						4
+					},
+					{
+						4,
+						4
+					},
+					{
+						7,
+						2,
+						8,
+						3
+					}
+				}
+			},
+			{
+				1,
+				102,
+				{
+					{
+						7,
+						8,
+						8,
+						9
+					},
+					{
+						8,
+						7
+					},
+					{
+						9,
+						9
+					},
+					{
+						6,
+						2,
+						7,
+						2
+					},
+					{
+						7,
+						3
+					},
+					{
+						8,
+						3
+					}
+				}
+			},
+			{
+				2,
+				0,
+				{
+					{
+						7,
+						8,
+						8,
+						9
+					},
+					{
+						8,
+						7
+					},
+					{
+						9,
+						9
+					},
+					{
+						6,
+						2,
+						7,
+						2
+					},
+					{
+						7,
+						3
+					},
+					{
+						8,
+						3
+					}
+				}
+			},
+			{
+				2,
+				101,
+				{
+					{
+						7,
+						8,
+						8,
+						9
+					},
+					{
+						8,
+						7
+					},
+					{
+						9,
+						9
+					},
+					{
+						6,
+						2,
+						7,
+						2
+					},
+					{
+						7,
+						3
+					},
+					{
+						8,
+						3
+					}
+				}
+			},
+			{
+				2,
+				102,
+				{
+					{
+						1,
+						1,
+						3,
+						1
+					},
+					{
+						2,
+						2
+					},
+					{
+						4,
+						6,
+						6,
+						7
+					},
+					{
+						8,
+						9
+					},
+					{
+						8,
+						10
+					},
+					{
+						9,
+						10
+					}
+				}
+			},
+			{
+				3,
+				0,
+				{
+					{
+						1,
+						1,
+						3,
+						1
+					},
+					{
+						2,
+						2
+					},
+					{
+						4,
+						6,
+						6,
+						7
+					},
+					{
+						8,
+						9
+					},
+					{
+						8,
+						10
+					},
+					{
+						9,
+						10
+					}
+				}
+			},
+			{
+				3,
+				101,
+				{
+					{
+						1,
+						1,
+						3,
+						1
+					},
+					{
+						2,
+						2
+					},
+					{
+						4,
+						6,
+						6,
+						7
+					},
+					{
+						8,
+						9
+					},
+					{
+						8,
+						10
+					},
+					{
+						9,
+						10
+					}
+				}
+			},
+			{
+				3,
+				102,
+				{
+					{
+						2,
+						3,
+						4,
+						4
+					},
+					{
+						8,
+						9,
+						9,
+						10
+					},
+					{
+						3,
+						5
+					},
+					{
+						8,
+						8
+					},
+					{
+						7,
+						9
+					}
+				}
+			},
+			{
+				4,
+				0,
+				{
+					{
+						2,
+						3,
+						4,
+						4
+					},
+					{
+						8,
+						9,
+						9,
+						10
+					},
+					{
+						3,
+						5
+					},
+					{
+						8,
+						8
+					},
+					{
+						7,
+						9
+					}
+				}
+			},
+			{
+				4,
+				101,
+				{
+					{
+						2,
+						3,
+						4,
+						4
+					},
+					{
+						8,
+						9,
+						9,
+						10
+					},
+					{
+						3,
+						5
+					},
+					{
+						8,
+						8
+					},
+					{
+						7,
+						9
+					}
+				}
+			},
+			{
+				4,
+				102,
+				{
+					{
+						5,
+						3,
+						6,
+						3
+					},
+					{
+						5,
+						4
+					},
+					{
+						1,
+						6,
+						2,
+						7
+					},
+					{
+						2,
+						8
+					},
+					{
+						4,
+						11,
+						5,
+						11
+					},
+					{
+						5,
+						10
+					}
+				}
+			},
+			{
+				5,
+				0,
+				{
+					{
+						5,
+						3,
+						6,
+						3
+					},
+					{
+						5,
+						4
+					},
+					{
+						1,
+						6,
+						2,
+						7
+					},
+					{
+						2,
+						8
+					},
+					{
+						4,
+						11,
+						5,
+						11
+					},
+					{
+						5,
+						10
+					}
+				}
+			},
+			{
+				5,
+				101,
+				{
+					{
+						5,
+						3,
+						6,
+						3
+					},
+					{
+						5,
+						4
+					},
+					{
+						1,
+						6,
+						2,
+						7
+					},
+					{
+						2,
+						8
+					},
+					{
+						4,
+						11,
+						5,
+						11
+					},
+					{
+						5,
+						10
+					}
+				}
+			},
+			{
+				5,
+				102,
+				{
+					{
+						5,
+						3,
+						6,
+						4
+					},
+					{
+						7,
+						5,
+						8,
+						7
+					}
+				}
+			}
+		}
 	}
 end)()
 
@@ -73619,6 +77830,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -74162,6 +78374,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -74797,6 +79010,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -75281,6 +79495,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -75811,6 +80026,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -76433,6 +80649,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -76917,6 +81134,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -77452,6 +81670,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -78024,6 +82243,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -78535,6 +82755,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -79091,6 +83312,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -79691,6 +83913,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -80203,6 +84426,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -80759,6 +84983,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -81359,6 +85584,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -81888,6 +86114,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -82520,6 +86747,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -83145,6 +87373,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -83883,6 +88112,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -84668,6 +88898,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -85179,6 +89410,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LINKPREHEAT2"
@@ -85828,6 +90060,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LINKPREHEAT4"
@@ -86387,6 +90620,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LINKPREHEAT5-2"
 		},
@@ -87204,6 +91438,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LINKPREHEAT16-2",
@@ -87799,6 +92034,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -88406,6 +92642,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"JIARIHANGXIAN4"
 		},
@@ -89090,6 +93327,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -89773,6 +94011,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -90537,6 +94776,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JIARIHANGXIAN15",
@@ -91218,6 +95458,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -91681,6 +95922,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -92151,6 +96393,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -92767,6 +97010,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"OUXIANGDASHIGUANQIA4"
@@ -93459,6 +97703,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"OUXIANGDASHIGUANQIA8"
@@ -94153,6 +98398,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"OUXIANGDASHIGUANQIA10"
@@ -94928,6 +99174,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"OUXIANGDASHIGUANQIA16"
@@ -95641,6 +99888,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -96104,6 +100352,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -96713,6 +100962,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"GULITEGUANQIA6"
@@ -97391,6 +101641,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"GULITEGUANQIA11"
@@ -98080,6 +102331,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"GULITEGUANQIA13",
@@ -98894,6 +103146,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"GULITEGUANQIA20"
 		},
@@ -99382,6 +103635,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -99752,6 +104006,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -100136,6 +104391,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -100580,6 +104836,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -101059,6 +105316,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -101783,6 +106041,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -102252,6 +106511,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -102917,6 +107177,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YUANHUIDIANZUOZHAN5"
@@ -103660,6 +107921,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YUANHUIDIANZUOZHAN8",
@@ -104350,6 +108612,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"YUANHUIDIANZUOZHAN11"
 		},
@@ -105166,6 +109429,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YUANHUIDIANZUOZHAN15",
@@ -105804,6 +110068,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -106198,6 +110463,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -106910,6 +111176,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LAISHAGUANQIA4",
@@ -107585,6 +111852,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LAISHAGUANQIA8",
@@ -108321,6 +112589,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LAISHAGUANQIA12",
@@ -109059,6 +113328,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LAISHAGUANQIA18"
 		},
@@ -109755,6 +114025,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LAISHAGUANQIA25",
@@ -110612,6 +114883,9 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -111300,6 +115574,9 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -112051,6 +116328,9 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -112801,6 +117081,9 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -113503,6 +117786,9 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -114040,6 +118326,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LAISHAGUANQIA16"
@@ -114749,6 +119036,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -115197,6 +119485,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -115860,6 +120149,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DINGXIANGZHEDIE4",
@@ -116547,6 +120837,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DINGXIANGZHEDIE8"
@@ -117293,6 +121584,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DINGXIANGZHEDIE12"
@@ -118033,6 +122325,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DINGXIANGZHEDIE15"
 		},
@@ -118840,6 +123133,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DINGXIANGZHEDIE20"
 		},
@@ -119667,6 +123961,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DINGXIANGZHEDIE27",
@@ -120411,6 +124706,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DINGXIANGZHEDIE4",
@@ -121139,6 +125435,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DINGXIANGZHEDIE8"
@@ -121926,6 +126223,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DINGXIANGZHEDIE12"
@@ -122711,6 +127009,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DINGXIANGZHEDIE15"
 		},
@@ -123565,6 +127864,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DINGXIANGZHEDIE20"
 		},
@@ -124439,6 +128739,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DINGXIANGZHEDIE27",
@@ -125347,6 +129648,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -125808,6 +130110,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -126477,6 +130780,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"YANJINCHENXU3"
 		},
@@ -127167,6 +131471,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YANJINCHENXU10",
@@ -127902,6 +132207,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YANJINCHENXU14"
@@ -128650,6 +132956,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YANJINCHENXU18"
@@ -129447,6 +133754,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YANJINCHENXU21",
@@ -130327,6 +134635,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1715003,
@@ -131072,6 +135381,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"YANJINCHENXU3"
 		},
@@ -131803,6 +136113,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YANJINCHENXU10",
@@ -132579,6 +136890,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YANJINCHENXU14"
@@ -133372,6 +137684,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YANJINCHENXU18"
@@ -134217,6 +138530,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YANJINCHENXU21",
@@ -135145,6 +139459,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1715003,
@@ -136015,6 +140330,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -136407,6 +140723,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -137192,6 +141509,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"KONGXIANGJIAOHUIDIAN3"
 		},
@@ -137990,6 +142308,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN10",
@@ -138835,6 +143154,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN17",
@@ -139640,6 +143960,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN21",
@@ -140479,6 +144800,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN24",
@@ -141277,6 +145599,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1725003,
@@ -142084,6 +146407,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN14"
@@ -142887,6 +147211,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN28"
@@ -143737,6 +148062,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"KONGXIANGJIAOHUIDIAN3"
 		},
@@ -144577,6 +148903,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN10",
@@ -145463,6 +149790,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN17",
@@ -146313,6 +150641,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN21",
@@ -147199,6 +151528,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN24",
@@ -148044,6 +152374,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1725003,
@@ -148892,6 +153223,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN14"
@@ -149738,6 +154070,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"KONGXIANGJIAOHUIDIAN28"
@@ -150563,6 +154896,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -151288,6 +155622,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -151307,10 +155642,10 @@ end)()
 		name = "記憶、そして今は",
 		count = 0,
 		pop_pic = "",
-		act_id = 4940,
+		act_id = 50213,
 		pos_y = "0.458333333",
 		model = 2,
-		progress_boss = 50,
+		progress_boss = 100,
 		is_ai = 1,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -151350,7 +155685,7 @@ end)()
 		profiles = "アイリスの「聖座の冠」を求め、そして仲間を助けるために、リシュリューたちは出撃した",
 		star_require_3 = 3,
 		difficulty = 6,
-		num_2 = 10,
+		num_2 = 6,
 		star_require_2 = 2,
 		avoid_ratio = 12,
 		time = 43200,
@@ -151886,6 +156221,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZOUXIANGYUANWEIZHIGE3"
@@ -151928,10 +156264,10 @@ end)()
 		name = "燃ゆる聖都の回想曲",
 		count = 0,
 		pop_pic = "",
-		act_id = 4940,
+		act_id = 50213,
 		pos_y = "0.094444444",
 		model = 2,
-		progress_boss = 50,
+		progress_boss = 100,
 		is_ai = 1,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -151971,7 +156307,7 @@ end)()
 		profiles = "回想の中の聖都が燃えた日。そして時は流れ、戦場は秘密要塞の島へ。",
 		star_require_3 = 3,
 		difficulty = 7,
-		num_2 = 12,
+		num_2 = 8,
 		star_require_2 = 2,
 		avoid_ratio = 14,
 		time = 43200,
@@ -152520,6 +156856,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZOUXIANGYUANWEIZHIGE6"
@@ -152562,7 +156899,7 @@ end)()
 		name = "エクソダス",
 		count = 0,
 		pop_pic = "",
-		act_id = 4940,
+		act_id = 50213,
 		pos_y = "0.295833333",
 		model = 2,
 		progress_boss = 34,
@@ -153283,6 +157620,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZOUXIANGYUANWEIZHIGE8",
@@ -154065,6 +158403,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YUZHEDETIANPING7",
@@ -154949,6 +159288,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -155877,6 +160217,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YUZHEDETIANPING20",
@@ -156573,6 +160914,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YUZHEDETIANPING25",
@@ -157355,6 +161697,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -158674,6 +163017,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1745002,
@@ -159944,6 +164288,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YUZHEDETIANPING7",
@@ -160869,6 +165214,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -161838,6 +166184,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YUZHEDETIANPING20",
@@ -162579,6 +166926,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YUZHEDETIANPING25",
@@ -163408,6 +167756,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -164774,6 +169123,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1745002,
@@ -166025,6 +170375,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -166577,6 +170928,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -166596,10 +170948,10 @@ end)()
 		name = "再現の戦い",
 		count = 0,
 		pop_pic = "",
-		act_id = 5001,
+		act_id = 50222,
 		pos_y = "0.470277777",
 		model = 2,
-		progress_boss = 50,
+		progress_boss = 100,
 		is_ai = 1,
 		boss_refresh = 3,
 		is_limit_move = 1,
@@ -166639,7 +170991,7 @@ end)()
 		profiles = "神木を救うべく聖域に向かう長門たち。「ワタツミ」にまつわる昔話を思い浮かべる",
 		star_require_3 = 3,
 		difficulty = 3,
-		num_2 = 10,
+		num_2 = 7,
 		star_require_2 = 2,
 		avoid_ratio = 8,
 		time = 43200,
@@ -167300,6 +171652,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -167336,10 +171689,10 @@ end)()
 		name = "侵食の根源",
 		count = 0,
 		pop_pic = "",
-		act_id = 5001,
+		act_id = 50222,
 		pos_y = "0.201111107",
 		model = 2,
-		progress_boss = 50,
+		progress_boss = 100,
 		is_ai = 1,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -167379,7 +171732,7 @@ end)()
 		profiles = "侵食をもたらす正体――災いをもたらす闇靄、そして作られし「穢れの影」の軍勢によるものだった",
 		star_require_3 = 3,
 		difficulty = 4,
-		num_2 = 11,
+		num_2 = 7,
 		star_require_2 = 2,
 		avoid_ratio = 9,
 		time = 43200,
@@ -167939,6 +172292,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUYUWANGYUECHAO6"
@@ -167979,7 +172333,7 @@ end)()
 		name = "大神木の聖域",
 		count = 0,
 		pop_pic = "",
-		act_id = 5001,
+		act_id = 50222,
 		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
@@ -168622,6 +172976,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUYUWANGYUECHAO9",
@@ -168666,7 +173021,7 @@ end)()
 		name = "穢れの影",
 		count = 0,
 		pop_pic = "",
-		act_id = 5002,
+		act_id = 50223,
 		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 50,
@@ -169303,6 +173658,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUYUWANGYUECHAO14",
@@ -169347,7 +173703,7 @@ end)()
 		name = "安全の庭",
 		count = 0,
 		pop_pic = "",
-		act_id = 5002,
+		act_id = 50223,
 		pos_y = "0.201111107",
 		model = 2,
 		progress_boss = 50,
@@ -170053,6 +174409,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUYUWANGYUECHAO19",
@@ -170097,7 +174454,7 @@ end)()
 		name = "半影のエックス",
 		count = 0,
 		pop_pic = "",
-		act_id = 5002,
+		act_id = 50223,
 		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
@@ -171014,6 +175371,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XUYUWANGYUECHAO22"
 		},
@@ -171074,10 +175432,10 @@ end)()
 		name = "再現の戦い",
 		count = 0,
 		pop_pic = "",
-		act_id = 5001,
+		act_id = 50222,
 		pos_y = "0.470277777",
 		model = 2,
-		progress_boss = 50,
+		progress_boss = 100,
 		is_ai = 1,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -171117,7 +175475,7 @@ end)()
 		profiles = "神木を救うべく聖域に向かう長門たち。「ワタツミ」にまつわる昔話を思い浮かべる",
 		star_require_3 = 3,
 		difficulty = 6,
-		num_2 = 13,
+		num_2 = 9,
 		star_require_2 = 2,
 		avoid_ratio = 12,
 		time = 43200,
@@ -171819,6 +176177,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -171855,10 +176214,10 @@ end)()
 		name = "侵食の根源",
 		count = 0,
 		pop_pic = "",
-		act_id = 5001,
+		act_id = 50222,
 		pos_y = "0.201111107",
 		model = 2,
-		progress_boss = 50,
+		progress_boss = 100,
 		is_ai = 1,
 		boss_refresh = 4,
 		is_limit_move = 1,
@@ -171898,7 +176257,7 @@ end)()
 		profiles = "侵食をもたらす正体――災いをもたらす闇靄、そして作られし「穢れの影」の軍勢によるものだった",
 		star_require_3 = 3,
 		difficulty = 7,
-		num_2 = 13,
+		num_2 = 9,
 		star_require_2 = 2,
 		avoid_ratio = 13,
 		time = 43200,
@@ -172499,6 +176858,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUYUWANGYUECHAO6"
@@ -172539,7 +176899,7 @@ end)()
 		name = "大神木の聖域",
 		count = 0,
 		pop_pic = "",
-		act_id = 5001,
+		act_id = 50222,
 		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
@@ -173223,6 +177583,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUYUWANGYUECHAO9",
@@ -173267,10 +177628,10 @@ end)()
 		name = "穢れの影",
 		count = 0,
 		pop_pic = "",
-		act_id = 5002,
+		act_id = 50223,
 		pos_y = "0.470277777",
 		model = 2,
-		progress_boss = 34,
+		progress_boss = 50,
 		is_ai = 1,
 		boss_refresh = 5,
 		is_limit_move = 1,
@@ -173310,7 +177671,7 @@ end)()
 		profiles = "封印が破られ、無形なる闇靄が満ち溢れ、神木の結界を穢れの獣たちが蹂躙する",
 		star_require_3 = 3,
 		difficulty = 8,
-		num_2 = 21,
+		num_2 = 16,
 		star_require_2 = 2,
 		avoid_ratio = 14,
 		time = 43200,
@@ -173950,6 +178311,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUYUWANGYUECHAO14",
@@ -173957,7 +178319,7 @@ end)()
 		},
 		defeat_story_count = {
 			1,
-			3
+			2
 		},
 		npc_data = {},
 		risk_levels = {
@@ -173994,10 +178356,10 @@ end)()
 		name = "安全の庭",
 		count = 0,
 		pop_pic = "",
-		act_id = 5002,
+		act_id = 50223,
 		pos_y = "0.201111107",
 		model = 2,
-		progress_boss = 34,
+		progress_boss = 50,
 		is_ai = 1,
 		boss_refresh = 6,
 		is_limit_move = 1,
@@ -174037,7 +178399,7 @@ end)()
 		profiles = "無明の暗黒に残された最後の浄土。躊躇いを捨て、湮滅の終末を受け入れるか、それとも――",
 		star_require_3 = 3,
 		difficulty = 9,
-		num_2 = 24,
+		num_2 = 18,
 		star_require_2 = 2,
 		avoid_ratio = 15,
 		time = 43200,
@@ -174747,6 +179109,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUYUWANGYUECHAO19",
@@ -174754,7 +179117,7 @@ end)()
 		},
 		defeat_story_count = {
 			1,
-			3
+			2
 		},
 		npc_data = {},
 		risk_levels = {
@@ -174791,7 +179154,7 @@ end)()
 		name = "半影のエックス",
 		count = 0,
 		pop_pic = "",
-		act_id = 5002,
+		act_id = 50223,
 		pos_y = "0.470277777",
 		model = 2,
 		progress_boss = 34,
@@ -175755,6 +180118,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XUYUWANGYUECHAO22"
 		},
@@ -175815,7 +180179,7 @@ end)()
 		name = "須臾の安息",
 		count = 1,
 		pop_pic = "",
-		act_id = 5002,
+		act_id = 50223,
 		pos_y = "0.3972",
 		model = 2,
 		progress_boss = 100,
@@ -176332,6 +180696,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -176353,7 +180718,7 @@ end)()
 		name = "永久の望月",
 		count = 0,
 		pop_pic = "",
-		act_id = 5002,
+		act_id = 50223,
 		pos_y = "0.3972",
 		model = 5,
 		progress_boss = 100,
@@ -176419,18 +180784,6 @@ end)()
 			1.5
 		},
 		limitation = {
-			{
-				{
-					5,
-					"zhan",
-					0
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					0,
@@ -176725,6 +181078,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -177437,6 +181791,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JUFENGYUQINGCHUNZHIQUAN6"
@@ -178172,6 +182527,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JUFENGYUQINGCHUNZHIQUAN10"
@@ -178977,6 +183333,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JUFENGYUQINGCHUNZHIQUAN13"
@@ -179777,6 +184134,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JUFENGYUQINGCHUNZHIQUAN17"
@@ -180662,6 +185020,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"JUFENGYUQINGCHUNZHIQUAN19"
 		},
@@ -181570,6 +185929,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"JUFENGYUQINGCHUNZHIQUAN23"
 		},
@@ -182250,6 +186610,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -182715,6 +187076,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -183425,6 +187787,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"CANGSHANRENFATIEGUANQIA4"
@@ -184116,6 +188479,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"CANGSHANRENFATIEGUANQIA7"
@@ -184856,6 +189220,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"CANGSHANRENFATIEGUANQIA9"
 		},
@@ -185615,6 +189980,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"CANGSHANRENFATIEGUANQIA14",
 			"CANGSHANRENFATIEGUANQIA15"
@@ -186495,6 +190861,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"CANGSHANRENFATIEGUANQIA22",
@@ -186893,6 +191260,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -187266,6 +191634,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -187639,6 +192008,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -188012,6 +192382,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -188385,6 +192756,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -189289,6 +193661,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -189710,6 +194083,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -190433,6 +194807,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XINGHAIZHUGUANG3"
 		},
@@ -191073,6 +195448,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XINGHAIZHUGUANG10",
@@ -191821,6 +196197,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XINGHAIZHUGUANG13"
 		},
@@ -192513,6 +196890,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XINGHAIZHUGUANG21"
@@ -193269,6 +197647,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XINGHAIZHUGUANG24",
@@ -194187,6 +198566,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XINGHAIZHUGUANG27"
 		},
@@ -194993,6 +199373,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XINGHAIZHUGUANG3"
 		},
@@ -195675,6 +200056,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XINGHAIZHUGUANG10",
@@ -196465,6 +200847,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XINGHAIZHUGUANG13"
 		},
@@ -197202,6 +201585,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XINGHAIZHUGUANG21"
@@ -198005,6 +202389,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XINGHAIZHUGUANG24",
@@ -198970,6 +203355,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XINGHAIZHUGUANG27"
 		},
@@ -199721,6 +204107,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -200115,6 +204502,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -200839,6 +205227,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XUEJINGMIZONG3"
 		},
@@ -201581,6 +205970,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUEJINGMIZONG8"
@@ -202323,6 +206713,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XUEJINGMIZONG10"
 		},
@@ -203075,6 +207466,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUEJINGMIZONG18"
@@ -203815,6 +208207,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUEJINGMIZONG21",
@@ -204750,6 +209143,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUEJINGMIZONG25",
@@ -205559,6 +209953,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XUEJINGMIZONG3"
 		},
@@ -206342,6 +210737,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUEJINGMIZONG8"
@@ -207125,6 +211521,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XUEJINGMIZONG10"
 		},
@@ -207922,6 +212319,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUEJINGMIZONG18"
@@ -208709,6 +213107,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUEJINGMIZONG21",
@@ -209691,6 +214090,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUEJINGMIZONG25",
@@ -211365,6 +215765,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -211775,6 +216176,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -212495,6 +216897,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"GONGMINGDEPASSION4"
@@ -213172,6 +217575,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"GONGMINGDEPASSION7"
@@ -213924,6 +218328,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"GONGMINGDEPASSION10"
@@ -214677,6 +219082,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"GONGMINGDEPASSION13"
@@ -215496,6 +219902,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"GONGMINGDEPASSION16",
@@ -215896,6 +220303,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -216273,6 +220681,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -216650,6 +221059,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -217027,6 +221437,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -217404,6 +221815,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -217781,6 +222193,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -218672,6 +223085,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -219119,6 +223533,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -219912,6 +224327,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHANFANGYUHUIGUANGZHICHENG4",
@@ -220659,6 +225075,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"ZHANFANGYUHUIGUANGZHICHENG7"
 		},
@@ -221455,6 +225872,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHANFANGYUHUIGUANGZHICHENG13",
@@ -222281,6 +226699,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHANFANGYUHUIGUANGZHICHENG18",
@@ -223012,6 +227431,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"ZHANFANGYUHUIGUANGZHICHENG21"
 		},
@@ -223933,6 +228353,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHANFANGYUHUIGUANGZHICHENG27",
@@ -224806,6 +229227,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHANFANGYUHUIGUANGZHICHENG4",
@@ -225594,6 +230016,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"ZHANFANGYUHUIGUANGZHICHENG7"
 		},
@@ -226431,6 +230854,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHANFANGYUHUIGUANGZHICHENG13",
@@ -227302,6 +231726,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHANFANGYUHUIGUANGZHICHENG18",
@@ -228080,6 +232505,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"ZHANFANGYUHUIGUANGZHICHENG21"
 		},
@@ -229048,6 +233474,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZHANFANGYUHUIGUANGZHICHENG27",
@@ -229685,6 +234112,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -230216,6 +234644,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -230871,6 +235300,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -231558,6 +235988,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -232306,6 +236737,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -233018,6 +237450,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -233752,6 +238185,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -234547,6 +238981,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -235364,6 +239799,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -235867,6 +240303,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -236578,6 +241015,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG4",
@@ -237319,6 +241757,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG8",
@@ -238099,6 +242538,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG17",
@@ -239024,6 +243464,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"TIEYIQINGFENG21"
 		},
@@ -239833,6 +244274,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG27",
@@ -240753,6 +245195,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG31",
@@ -241541,6 +245984,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG4",
@@ -242324,6 +246768,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG8",
@@ -243146,6 +247591,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG17",
@@ -244116,6 +248562,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"TIEYIQINGFENG21"
 		},
@@ -244972,6 +249419,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG27",
@@ -245939,6 +250387,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEYIQINGFENG31",
@@ -246823,6 +251272,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -247446,6 +251896,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -248100,6 +252551,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -248836,6 +253288,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -249698,6 +254151,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -250502,6 +254956,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -251154,6 +255609,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -251898,6 +256354,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -252574,6 +257031,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -253428,6 +257886,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -254290,6 +258749,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -255090,6 +259550,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -255801,6 +260262,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -256586,6 +261048,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -257303,6 +261766,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -258202,6 +262666,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -259111,6 +263576,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -259958,6 +264424,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -260613,6 +265080,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -261082,6 +265550,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -261547,6 +266016,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -262277,6 +266747,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -263026,6 +267497,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -263835,6 +268307,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -264595,6 +269068,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -265456,6 +269930,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -266417,6 +270892,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -267077,6 +271553,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -267514,6 +271991,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -268219,6 +272697,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -268895,6 +273374,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -269632,6 +274112,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -270370,6 +274851,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -271188,6 +275670,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -271578,6 +276061,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -271951,6 +276435,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -272324,6 +276809,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -272697,6 +277183,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -273070,6 +277557,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -273784,6 +278272,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -274219,6 +278708,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -274654,6 +279144,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -275389,6 +279880,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -276139,6 +280631,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -277073,6 +281566,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -277936,6 +282430,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -278812,6 +283307,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -279747,6 +284243,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -280543,6 +285040,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -281335,6 +285833,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -282311,6 +286810,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -283219,6 +287719,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -284142,6 +288643,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -285124,6 +289626,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -285970,6 +290473,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -286406,6 +290910,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -286836,6 +291341,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -287544,6 +292050,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -288270,6 +292777,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -289065,6 +293573,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -289926,6 +294435,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -290757,6 +295267,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -291684,6 +296195,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -292452,6 +296964,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -293219,6 +297732,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -294055,6 +298569,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -294961,6 +299476,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -295839,6 +300355,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -296813,6 +301330,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -297647,6 +302165,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -298100,6 +302619,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -298551,6 +303071,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -299209,6 +303730,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -299887,6 +304409,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -300625,6 +305148,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -301344,6 +305868,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -302069,6 +306594,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -302854,6 +307380,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -303620,6 +308147,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -304342,6 +308870,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -305085,6 +309614,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -305875,6 +310405,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -306734,6 +311265,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -307599,6 +312131,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -308493,6 +313026,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -309284,6 +313818,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -310069,6 +314604,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -310901,6 +315437,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -311805,6 +316342,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -312717,6 +317255,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -313658,6 +318197,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -314556,6 +319096,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -315018,6 +319559,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -315476,6 +320018,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -316198,6 +320741,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -316942,6 +321486,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -317686,6 +322231,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -318431,6 +322977,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -319242,6 +323789,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -320000,6 +324548,9 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -320767,6 +325318,9 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -321533,6 +326087,9 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -322298,6 +326855,9 @@ end)()
 		},
 		box_refresh = {
 			0
+		},
+		box_auto_pick = {
+			2
 		},
 		story_refresh = {},
 		defeat_story = {},
@@ -323126,6 +327686,9 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {
+			2
+		},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -323353,7 +327916,7 @@ end)()
 			}
 		},
 		icon = {
-			"sairenboss27"
+			"weixu_baojian_2"
 		},
 		awards = {
 			{
@@ -324227,6 +328790,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -324383,7 +328947,7 @@ end)()
 			}
 		},
 		icon = {
-			"sairenboss27"
+			"weixu_baojian_2"
 		},
 		awards = {},
 		grids = {
@@ -324593,6 +329157,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -324751,7 +329316,7 @@ end)()
 			}
 		},
 		icon = {
-			"sairenboss27"
+			"weixu_baojian_2"
 		},
 		awards = {},
 		grids = {
@@ -324961,6 +329526,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -325616,6 +330182,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -326338,6 +330905,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -327000,6 +331568,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -327845,6 +332414,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -328585,6 +333155,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -329393,6 +333964,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -330104,6 +334676,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -330867,6 +335440,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -331570,6 +336144,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -332460,6 +337035,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -333247,6 +337823,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -334102,6 +338679,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -334939,6 +339517,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -335309,6 +339888,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -335681,6 +340261,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -336409,6 +340990,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -337159,6 +341741,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -337943,6 +342526,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -338743,6 +343327,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -339549,6 +344134,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -340518,6 +345104,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -341308,6 +345895,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -342100,6 +346688,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -342926,6 +347515,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -343771,6 +348361,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -344624,6 +349215,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -345640,6 +350232,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -346401,6 +350994,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -346828,6 +351422,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -347251,6 +351846,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -347988,6 +352584,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -348735,6 +353332,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -349538,6 +354136,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -350334,6 +354933,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -351135,6 +355735,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -351925,6 +356526,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -352776,6 +357378,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -353149,6 +357752,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -353521,6 +358125,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -353529,6 +358134,12591 @@ end)()
 		land_based = {},
 		chapter_strategy = {
 			201552
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990001] = {
+		special_operation_list = "",
+		name = "特殊実験場",
+		count = 0,
+		pop_pic = "",
+		act_id = 50281,
+		pos_y = "0.523611111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 3,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-weimu",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "A1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990001,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990001,
+		pos_x = "0.2515625",
+		formation = 1990001,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 150,
+		investigation_ratio = 0,
+		profiles = "ここは仲裁機構の実験場、実験機構のものとは全く異なる実験場なのだ",
+		star_require_3 = 3,
+		difficulty = 3,
+		num_2 = 7,
+		star_require_2 = 2,
+		avoid_ratio = 8,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 100,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1990001,
+				15,
+				0
+			},
+			{
+				1990002,
+				10,
+				0
+			},
+			{
+				1990003,
+				30,
+				1
+			},
+			{
+				1990004,
+				15,
+				0
+			},
+			{
+				1990005,
+				10,
+				0
+			},
+			{
+				1990006,
+				30,
+				1
+			},
+			{
+				1990007,
+				15,
+				0
+			},
+			{
+				1990008,
+				10,
+				0
+			},
+			{
+				1990009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1990002,
+			1990005,
+			1990008
+		},
+		ai_expedition_list = {
+			1990301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1990013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_hermit"
+		},
+		awards = {
+			{
+				2,
+				200660
+			},
+			{
+				2,
+				200634
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				8
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				16
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				1
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"liekexingdun_1_3x1_1",
+				99,
+				2
+			},
+			{
+				7,
+				3,
+				"liekexingdun_1_1x1_1",
+				0,
+				-6
+			},
+			{
+				5,
+				6,
+				"liekexingdun_1_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				2,
+				"liekexingdun_1_2x2_1",
+				54,
+				-47
+			},
+			{
+				4,
+				0,
+				"liekexingdun_1_1x1_1",
+				0,
+				-6
+			},
+			{
+				3,
+				8,
+				"liekexingdun_1_2x2_2",
+				60,
+				-48
+			},
+			{
+				1,
+				2,
+				"liekexingdun_1_3x1_2",
+				120,
+				9
+			},
+			{
+				0,
+				6,
+				"liekexingdun_1_1x1_2",
+				0,
+				10
+			},
+			{
+				0,
+				0,
+				"liekexingdun_1_1x2_2",
+				-7,
+				-37
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_1",
+			45,
+			20,
+			-388,
+			-304,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			201377,
+			200735
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990002] = {
+		special_operation_list = "",
+		name = "理事会艦隊",
+		count = 0,
+		pop_pic = "",
+		act_id = 50281,
+		pos_y = "0.202777777",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-weimu",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "A2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990002,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990001,
+		pos_x = "0.38203125",
+		formation = 1990001,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 170,
+		investigation_ratio = 0,
+		profiles = "プロトコルウォーフェアと艦船の組み合わせが、浮遊艦隊の正体を明らかにした……だが、実験場に本当に理事会艦隊がいるのか？",
+		star_require_3 = 3,
+		difficulty = 4,
+		num_2 = 7,
+		star_require_2 = 2,
+		avoid_ratio = 9,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 130,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990001
+			},
+			{
+				1990021
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1990101,
+				15,
+				0
+			},
+			{
+				1990102,
+				10,
+				0
+			},
+			{
+				1990103,
+				30,
+				1
+			},
+			{
+				1990104,
+				15,
+				0
+			},
+			{
+				1990105,
+				10,
+				0
+			},
+			{
+				1990106,
+				30,
+				1
+			},
+			{
+				1990107,
+				15,
+				0
+			},
+			{
+				1990108,
+				10,
+				0
+			},
+			{
+				1990109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1990102,
+			1990105,
+			1990108
+		},
+		ai_expedition_list = {
+			1990302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1990113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_lovers"
+		},
+		awards = {
+			{
+				2,
+				200661
+			},
+			{
+				2,
+				200635
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				16
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"liekexingdun_1_2x2_2",
+				58,
+				-48
+			},
+			{
+				6,
+				5,
+				"liekexingdun_1_1x1_2",
+				0,
+				7
+			},
+			{
+				6,
+				0,
+				"liekexingdun_1_1x2_1",
+				-15,
+				-35
+			},
+			{
+				3,
+				7,
+				"liekexingdun_1_3x1_1",
+				102,
+				0
+			},
+			{
+				2,
+				3,
+				"liekexingdun_1_2x2_1",
+				53,
+				-46
+			},
+			{
+				2,
+				1,
+				"liekexingdun_1_1x1_1",
+				0,
+				-6
+			},
+			{
+				2,
+				0,
+				"liekexingdun_1_1x2_2",
+				-7,
+				-41
+			},
+			{
+				0,
+				7,
+				"liekexingdun_1_1x1_3",
+				0,
+				-2
+			},
+			{
+				0,
+				5,
+				"liekexingdun_1_1x1_1",
+				0,
+				2
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_1",
+			45,
+			20,
+			-216,
+			-71,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			201377,
+			200735
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990003] = {
+		special_operation_list = "",
+		name = "時空異常エリア",
+		count = 0,
+		pop_pic = "",
+		act_id = 50281,
+		pos_y = "0.459722223",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-weimu",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "A3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990003,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990001,
+		pos_x = "0.665625",
+		formation = 1990001,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 215,
+		investigation_ratio = 0,
+		profiles = "侵食天象及び原因不明の時空間異常現象を確認。すぐに調査を！",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 7,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 165,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990002
+			},
+			{
+				1990022
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1990201,
+				15,
+				0
+			},
+			{
+				1990202,
+				10,
+				0
+			},
+			{
+				1990203,
+				30,
+				1
+			},
+			{
+				1990204,
+				15,
+				0
+			},
+			{
+				1990205,
+				10,
+				0
+			},
+			{
+				1990206,
+				30,
+				1
+			},
+			{
+				1990207,
+				15,
+				0
+			},
+			{
+				1990208,
+				10,
+				0
+			},
+			{
+				1990209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1990202,
+			1990205,
+			1990208
+		},
+		ai_expedition_list = {
+			1990303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1990213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_chariot"
+		},
+		awards = {
+			{
+				2,
+				200662
+			},
+			{
+				2,
+				200636
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				false,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				4
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"liekexingdun_1_1x1_1",
+				0,
+				0
+			},
+			{
+				8,
+				1,
+				"liekexingdun_1_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				4,
+				"liekexingdun_1_sp",
+				108,
+				-71
+			},
+			{
+				5,
+				9,
+				"liekexingdun_1_2x2_2",
+				54,
+				-38
+			},
+			{
+				5,
+				0,
+				"liekexingdun_1_2x2_2",
+				54,
+				-38
+			},
+			{
+				3,
+				8,
+				"liekexingdun_1_1x2_2",
+				0,
+				-39
+			},
+			{
+				3,
+				2,
+				"liekexingdun_1_1x2_1",
+				-9,
+				-37
+			},
+			{
+				1,
+				9,
+				"liekexingdun_1_1x1_3",
+				0,
+				-7
+			},
+			{
+				1,
+				1,
+				"liekexingdun_1_1x1_3",
+				0,
+				-7
+			},
+			{
+				0,
+				7,
+				"liekexingdun_1_3x1_2",
+				116,
+				7
+			},
+			{
+				0,
+				1,
+				"liekexingdun_1_3x1_1",
+				105,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_1",
+			45,
+			20,
+			-377,
+			-58,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			201377,
+			200735
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990004] = {
+		special_operation_list = "",
+		name = "ヴェールでの戦い・上",
+		count = 0,
+		pop_pic = "",
+		act_id = 50282,
+		pos_y = "0.369444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "story-weimu-link",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "B1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990004,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990002,
+		pos_x = "0.23125",
+		formation = 1990002,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 275,
+		investigation_ratio = 0,
+		profiles = "越境実験NO3：偽相者――第一段階：第二種偽相体",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 10,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 210,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990003
+			},
+			{
+				1990023
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1991001,
+				15,
+				0
+			},
+			{
+				1991002,
+				10,
+				0
+			},
+			{
+				1991003,
+				20,
+				0
+			},
+			{
+				1991004,
+				15,
+				0
+			},
+			{
+				1991005,
+				10,
+				0
+			},
+			{
+				1991006,
+				20,
+				0
+			},
+			{
+				1991007,
+				15,
+				0
+			},
+			{
+				1991008,
+				10,
+				0
+			},
+			{
+				1991009,
+				20,
+				0
+			},
+			{
+				1991021,
+				12,
+				0
+			},
+			{
+				1991022,
+				8,
+				0
+			},
+			{
+				1991023,
+				15,
+				0
+			},
+			{
+				1991024,
+				12,
+				0
+			},
+			{
+				1991025,
+				8,
+				0
+			},
+			{
+				1991026,
+				15,
+				0
+			},
+			{
+				1991027,
+				12,
+				0
+			},
+			{
+				1991028,
+				8,
+				0
+			},
+			{
+				1991029,
+				15,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1991002,
+			1991005,
+			1991008,
+			1991022,
+			1991025,
+			1991028
+		},
+		ai_expedition_list = {
+			1991301,
+			1991302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1991013
+		},
+		enemy_refresh = {
+			6
+		},
+		elite_refresh = {
+			3
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_empress"
+		},
+		awards = {
+			{
+				2,
+				200663
+			},
+			{
+				2,
+				200637
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				8
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				16
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				1
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"liekexingdun_2_3x1_1",
+				99,
+				-8
+			},
+			{
+				7,
+				3,
+				"liekexingdun_2_1x1_1",
+				0,
+				-6
+			},
+			{
+				5,
+				6,
+				"liekexingdun_2_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				2,
+				"liekexingdun_2_2x2_1",
+				54,
+				-47
+			},
+			{
+				4,
+				0,
+				"liekexingdun_2_1x1_1",
+				0,
+				-6
+			},
+			{
+				3,
+				8,
+				"liekexingdun_2_2x2_2",
+				60,
+				-48
+			},
+			{
+				1,
+				2,
+				"liekexingdun_2_3x1_2",
+				93,
+				-7
+			},
+			{
+				0,
+				6,
+				"liekexingdun_2_1x1_2",
+				0,
+				-5
+			},
+			{
+				0,
+				0,
+				"liekexingdun_2_1x2_2",
+				0,
+				-40
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_2",
+			45,
+			20,
+			-388,
+			-304,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			205002,
+			200926,
+			201377,
+			201650,
+			201651
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990005] = {
+		special_operation_list = "",
+		name = "ヴェールでの戦い・中",
+		count = 0,
+		pop_pic = "",
+		act_id = 50282,
+		pos_y = "0.202777777",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "story-weimu-link",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "B2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990005,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990002,
+		pos_x = "0.5390625",
+		formation = 1990002,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 350,
+		investigation_ratio = 0,
+		profiles = "越境実験NO3：偽相者――第二段階：免疫性ヴェール",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 10,
+		star_require_2 = 2,
+		avoid_ratio = 11,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 270,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990004
+			},
+			{
+				1990024
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1991101,
+				15,
+				0
+			},
+			{
+				1991102,
+				10,
+				0
+			},
+			{
+				1991103,
+				20,
+				0
+			},
+			{
+				1991104,
+				15,
+				0
+			},
+			{
+				1991105,
+				10,
+				0
+			},
+			{
+				1991106,
+				20,
+				0
+			},
+			{
+				1991107,
+				15,
+				0
+			},
+			{
+				1991108,
+				10,
+				0
+			},
+			{
+				1991109,
+				20,
+				0
+			},
+			{
+				1991121,
+				12,
+				0
+			},
+			{
+				1991122,
+				8,
+				0
+			},
+			{
+				1991123,
+				15,
+				0
+			},
+			{
+				1991124,
+				12,
+				0
+			},
+			{
+				1991125,
+				8,
+				0
+			},
+			{
+				1991126,
+				15,
+				0
+			},
+			{
+				1991127,
+				12,
+				0
+			},
+			{
+				1991128,
+				8,
+				0
+			},
+			{
+				1991129,
+				15,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1991102,
+			1991105,
+			1991108,
+			1991122,
+			1991125,
+			1991128
+		},
+		ai_expedition_list = {
+			1991303,
+			1991304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1991113
+		},
+		enemy_refresh = {
+			6
+		},
+		elite_refresh = {
+			3
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_strength"
+		},
+		awards = {
+			{
+				2,
+				200664
+			},
+			{
+				2,
+				200638
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				16
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"liekexingdun_2_2x2_2",
+				54,
+				-50
+			},
+			{
+				6,
+				5,
+				"liekexingdun_2_1x1_2",
+				0,
+				-5
+			},
+			{
+				6,
+				0,
+				"liekexingdun_2_1x2_1",
+				5,
+				-50
+			},
+			{
+				3,
+				7,
+				"liekexingdun_2_3x1_1",
+				102,
+				-9
+			},
+			{
+				2,
+				3,
+				"liekexingdun_2_2x2_1",
+				53,
+				-53
+			},
+			{
+				2,
+				1,
+				"liekexingdun_2_1x1_1",
+				0,
+				-6
+			},
+			{
+				2,
+				0,
+				"liekexingdun_2_1x2_2",
+				0,
+				-47
+			},
+			{
+				0,
+				7,
+				"liekexingdun_2_1x1_3",
+				0,
+				-7
+			},
+			{
+				0,
+				5,
+				"liekexingdun_2_1x1_1",
+				0,
+				-4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_2",
+			45,
+			20,
+			-216,
+			-71,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			205002,
+			200926,
+			201377,
+			201650,
+			201651
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990006] = {
+		special_operation_list = "",
+		name = "ヴェールでの戦い・下",
+		count = 0,
+		pop_pic = "",
+		act_id = 50282,
+		pos_y = "0.511111111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "story-weimu-link",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "B3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990006,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990002,
+		pos_x = "0.67109375",
+		formation = 1990002,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 430,
+		investigation_ratio = 0,
+		profiles = "越境実験NO3：偽相者――第三段階：偽相捕食",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 11,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 330,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990005
+			},
+			{
+				1990025
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1991201,
+				15,
+				0
+			},
+			{
+				1991202,
+				10,
+				0
+			},
+			{
+				1991203,
+				20,
+				0
+			},
+			{
+				1991204,
+				15,
+				0
+			},
+			{
+				1991205,
+				10,
+				0
+			},
+			{
+				1991206,
+				20,
+				0
+			},
+			{
+				1991207,
+				15,
+				0
+			},
+			{
+				1991208,
+				10,
+				0
+			},
+			{
+				1991209,
+				20,
+				0
+			},
+			{
+				1991221,
+				12,
+				0
+			},
+			{
+				1991222,
+				8,
+				0
+			},
+			{
+				1991223,
+				15,
+				0
+			},
+			{
+				1991224,
+				12,
+				0
+			},
+			{
+				1991225,
+				8,
+				0
+			},
+			{
+				1991226,
+				15,
+				0
+			},
+			{
+				1991227,
+				12,
+				0
+			},
+			{
+				1991228,
+				8,
+				0
+			},
+			{
+				1991229,
+				15,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1991202,
+			1991205,
+			1991208,
+			1991222,
+			1991225,
+			1991228
+		},
+		ai_expedition_list = {
+			1991305,
+			1991306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1991213
+		},
+		enemy_refresh = {
+			6
+		},
+		elite_refresh = {
+			3
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_magician"
+		},
+		awards = {
+			{
+				2,
+				200665
+			},
+			{
+				2,
+				200639
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				false,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				4
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"liekexingdun_2_1x1_1",
+				0,
+				0
+			},
+			{
+				8,
+				1,
+				"liekexingdun_2_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				4,
+				"liekexingdun_2_sp",
+				108,
+				-77
+			},
+			{
+				5,
+				9,
+				"liekexingdun_2_2x2_2",
+				54,
+				-38
+			},
+			{
+				5,
+				0,
+				"liekexingdun_2_2x2_2",
+				54,
+				-38
+			},
+			{
+				3,
+				8,
+				"liekexingdun_2_1x2_2",
+				0,
+				-48
+			},
+			{
+				3,
+				2,
+				"liekexingdun_2_1x2_1",
+				-9,
+				-53
+			},
+			{
+				1,
+				9,
+				"liekexingdun_2_1x1_3",
+				0,
+				-7
+			},
+			{
+				1,
+				1,
+				"liekexingdun_2_1x1_3",
+				0,
+				-7
+			},
+			{
+				0,
+				7,
+				"liekexingdun_2_3x1_2",
+				100,
+				-6
+			},
+			{
+				0,
+				1,
+				"liekexingdun_2_3x1_1",
+				105,
+				-7
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_2",
+			45,
+			20,
+			-377,
+			-58,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			205002,
+			200926,
+			201377,
+			201650,
+			201651
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990021] = {
+		special_operation_list = "",
+		name = "特殊実験場",
+		count = 0,
+		pop_pic = "",
+		act_id = 50281,
+		pos_y = "0.523611111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-weimu",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "C1",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990021,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990011,
+		pos_x = "0.2515625",
+		formation = 1990011,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 590,
+		investigation_ratio = 0,
+		profiles = "ここは仲裁機構の実験場、実験機構のものとは全く異なる実験場なのだ",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 9,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 455,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"dodge",
+				1,
+				350
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1992001,
+				15,
+				0
+			},
+			{
+				1992002,
+				10,
+				0
+			},
+			{
+				1992003,
+				30,
+				1
+			},
+			{
+				1992004,
+				15,
+				0
+			},
+			{
+				1992005,
+				10,
+				0
+			},
+			{
+				1992006,
+				30,
+				1
+			},
+			{
+				1992007,
+				15,
+				0
+			},
+			{
+				1992008,
+				10,
+				0
+			},
+			{
+				1992009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1992002,
+			1992005,
+			1992008
+		},
+		ai_expedition_list = {
+			1992301
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1992013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_hermit"
+		},
+		awards = {
+			{
+				2,
+				200666
+			},
+			{
+				2,
+				200640
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				8
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				16
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				1
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"liekexingdun_1_3x1_1",
+				99,
+				2
+			},
+			{
+				7,
+				3,
+				"liekexingdun_1_1x1_1",
+				0,
+				-6
+			},
+			{
+				5,
+				6,
+				"liekexingdun_1_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				2,
+				"liekexingdun_1_2x2_1",
+				54,
+				-47
+			},
+			{
+				4,
+				0,
+				"liekexingdun_1_1x1_1",
+				0,
+				-6
+			},
+			{
+				3,
+				8,
+				"liekexingdun_1_2x2_2",
+				60,
+				-48
+			},
+			{
+				1,
+				2,
+				"liekexingdun_1_3x1_2",
+				120,
+				9
+			},
+			{
+				0,
+				6,
+				"liekexingdun_1_1x1_2",
+				0,
+				10
+			},
+			{
+				0,
+				0,
+				"liekexingdun_1_1x2_2",
+				-7,
+				-37
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_1",
+			45,
+			20,
+			-388,
+			-304,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			201377,
+			200735
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990022] = {
+		special_operation_list = "",
+		name = "理事会艦隊",
+		count = 0,
+		pop_pic = "",
+		act_id = 50281,
+		pos_y = "0.202777777",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-weimu",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "C2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990022,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990011,
+		pos_x = "0.38203125",
+		formation = 1990011,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 785,
+		investigation_ratio = 0,
+		profiles = "プロトコルウォーフェアと艦船の組み合わせが、浮遊艦隊の正体を明らかにした……だが、実験場に本当に理事会艦隊がいるのか？",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 9,
+		star_require_2 = 2,
+		avoid_ratio = 13,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 605,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990001
+			},
+			{
+				1990021
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1992101,
+				15,
+				0
+			},
+			{
+				1992102,
+				10,
+				0
+			},
+			{
+				1992103,
+				30,
+				1
+			},
+			{
+				1992104,
+				15,
+				0
+			},
+			{
+				1992105,
+				10,
+				0
+			},
+			{
+				1992106,
+				30,
+				1
+			},
+			{
+				1992107,
+				15,
+				0
+			},
+			{
+				1992108,
+				10,
+				0
+			},
+			{
+				1992109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1992102,
+			1992105,
+			1992108
+		},
+		ai_expedition_list = {
+			1992302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1992113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_lovers"
+		},
+		awards = {
+			{
+				2,
+				200667
+			},
+			{
+				2,
+				200641
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				16
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"liekexingdun_1_2x2_2",
+				58,
+				-48
+			},
+			{
+				6,
+				5,
+				"liekexingdun_1_1x1_2",
+				0,
+				7
+			},
+			{
+				6,
+				0,
+				"liekexingdun_1_1x2_1",
+				-15,
+				-35
+			},
+			{
+				3,
+				7,
+				"liekexingdun_1_3x1_1",
+				102,
+				0
+			},
+			{
+				2,
+				3,
+				"liekexingdun_1_2x2_1",
+				53,
+				-46
+			},
+			{
+				2,
+				1,
+				"liekexingdun_1_1x1_1",
+				0,
+				-6
+			},
+			{
+				2,
+				0,
+				"liekexingdun_1_1x2_2",
+				-7,
+				-41
+			},
+			{
+				0,
+				7,
+				"liekexingdun_1_1x1_3",
+				0,
+				-2
+			},
+			{
+				0,
+				5,
+				"liekexingdun_1_1x1_1",
+				0,
+				2
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_1",
+			45,
+			20,
+			-216,
+			-71,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			201377,
+			200735
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990023] = {
+		special_operation_list = "",
+		name = "時空異常エリア",
+		count = 0,
+		pop_pic = "",
+		act_id = 50281,
+		pos_y = "0.459722223",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-weimu",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "C3",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990023,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990011,
+		pos_x = "0.665625",
+		formation = 1990011,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1010,
+		investigation_ratio = 0,
+		profiles = "侵食天象及び原因不明の時空間異常現象を確認。すぐに調査を！",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 9,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 775,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990002
+			},
+			{
+				1990022
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1750
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1992201,
+				15,
+				0
+			},
+			{
+				1992202,
+				10,
+				0
+			},
+			{
+				1992203,
+				30,
+				1
+			},
+			{
+				1992204,
+				15,
+				0
+			},
+			{
+				1992205,
+				10,
+				0
+			},
+			{
+				1992206,
+				30,
+				1
+			},
+			{
+				1992207,
+				15,
+				0
+			},
+			{
+				1992208,
+				10,
+				0
+			},
+			{
+				1992209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1992202,
+			1992205,
+			1992208
+		},
+		ai_expedition_list = {
+			1992303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1992213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_chariot"
+		},
+		awards = {
+			{
+				2,
+				200668
+			},
+			{
+				2,
+				200642
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				false,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				4
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"liekexingdun_1_1x1_1",
+				0,
+				0
+			},
+			{
+				8,
+				1,
+				"liekexingdun_1_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				4,
+				"liekexingdun_1_sp",
+				108,
+				-71
+			},
+			{
+				5,
+				9,
+				"liekexingdun_1_2x2_2",
+				54,
+				-38
+			},
+			{
+				5,
+				0,
+				"liekexingdun_1_2x2_2",
+				54,
+				-38
+			},
+			{
+				3,
+				8,
+				"liekexingdun_1_1x2_2",
+				0,
+				-39
+			},
+			{
+				3,
+				2,
+				"liekexingdun_1_1x2_1",
+				-9,
+				-37
+			},
+			{
+				1,
+				9,
+				"liekexingdun_1_1x1_3",
+				0,
+				-7
+			},
+			{
+				1,
+				1,
+				"liekexingdun_1_1x1_3",
+				0,
+				-7
+			},
+			{
+				0,
+				7,
+				"liekexingdun_1_3x1_2",
+				116,
+				7
+			},
+			{
+				0,
+				1,
+				"liekexingdun_1_3x1_1",
+				105,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_1",
+			45,
+			20,
+			-377,
+			-58,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			201377,
+			200735
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990024] = {
+		special_operation_list = "",
+		name = "ヴェールでの戦い・上",
+		count = 0,
+		pop_pic = "",
+		act_id = 50282,
+		pos_y = "0.369444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "story-weimu-link",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "D1",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990024,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990012,
+		pos_x = "0.23125",
+		formation = 1990012,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1105,
+		investigation_ratio = 0,
+		profiles = "越境実験NO3：偽相者――第一段階：第二種偽相体",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 11,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 850,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990003
+			},
+			{
+				1990023
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					5,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			},
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"air",
+				1,
+				1200
+			},
+			{
+				"antiaircraft",
+				1,
+				1900
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1993001,
+				15,
+				0
+			},
+			{
+				1993002,
+				10,
+				0
+			},
+			{
+				1993003,
+				20,
+				0
+			},
+			{
+				1993004,
+				15,
+				0
+			},
+			{
+				1993005,
+				10,
+				0
+			},
+			{
+				1993006,
+				20,
+				0
+			},
+			{
+				1993007,
+				15,
+				0
+			},
+			{
+				1993008,
+				10,
+				0
+			},
+			{
+				1993009,
+				20,
+				0
+			},
+			{
+				1993021,
+				12,
+				0
+			},
+			{
+				1993022,
+				8,
+				0
+			},
+			{
+				1993023,
+				15,
+				0
+			},
+			{
+				1993024,
+				12,
+				0
+			},
+			{
+				1993025,
+				8,
+				0
+			},
+			{
+				1993026,
+				15,
+				0
+			},
+			{
+				1993027,
+				12,
+				0
+			},
+			{
+				1993028,
+				8,
+				0
+			},
+			{
+				1993029,
+				15,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1993002,
+			1993005,
+			1993008,
+			1993022,
+			1993025,
+			1993028
+		},
+		ai_expedition_list = {
+			1993301,
+			1993302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1993013
+		},
+		enemy_refresh = {
+			6
+		},
+		elite_refresh = {
+			3
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_empress"
+		},
+		awards = {
+			{
+				2,
+				200669
+			},
+			{
+				2,
+				200643
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				6
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				9,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				8
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				4
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				16
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				1
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"liekexingdun_2_3x1_1",
+				99,
+				-8
+			},
+			{
+				7,
+				3,
+				"liekexingdun_2_1x1_1",
+				0,
+				-6
+			},
+			{
+				5,
+				6,
+				"liekexingdun_2_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				2,
+				"liekexingdun_2_2x2_1",
+				54,
+				-47
+			},
+			{
+				4,
+				0,
+				"liekexingdun_2_1x1_1",
+				0,
+				-6
+			},
+			{
+				3,
+				8,
+				"liekexingdun_2_2x2_2",
+				60,
+				-48
+			},
+			{
+				1,
+				2,
+				"liekexingdun_2_3x1_2",
+				93,
+				-7
+			},
+			{
+				0,
+				6,
+				"liekexingdun_2_1x1_2",
+				0,
+				-5
+			},
+			{
+				0,
+				0,
+				"liekexingdun_2_1x2_2",
+				0,
+				-40
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_2",
+			45,
+			20,
+			-388,
+			-304,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			205004,
+			200926,
+			201377,
+			201650,
+			201651
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990025] = {
+		special_operation_list = "",
+		name = "ヴェールでの戦い・中",
+		count = 0,
+		pop_pic = "",
+		act_id = 50282,
+		pos_y = "0.202777777",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "story-weimu-link",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "D2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990025,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990012,
+		pos_x = "0.5390625",
+		formation = 1990012,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1430,
+		investigation_ratio = 0,
+		profiles = "越境実験NO3：偽相者――第二段階：免疫性ヴェール",
+		star_require_3 = 3,
+		difficulty = 9,
+		num_2 = 12,
+		star_require_2 = 2,
+		avoid_ratio = 15,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1100,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990004
+			},
+			{
+				1990024
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					5,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			},
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"air",
+				1,
+				1350
+			},
+			{
+				"antiaircraft",
+				1,
+				2200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1993101,
+				15,
+				0
+			},
+			{
+				1993102,
+				10,
+				0
+			},
+			{
+				1993103,
+				20,
+				0
+			},
+			{
+				1993104,
+				15,
+				0
+			},
+			{
+				1993105,
+				10,
+				0
+			},
+			{
+				1993106,
+				20,
+				0
+			},
+			{
+				1993107,
+				15,
+				0
+			},
+			{
+				1993108,
+				10,
+				0
+			},
+			{
+				1993109,
+				20,
+				0
+			},
+			{
+				1993121,
+				12,
+				0
+			},
+			{
+				1993122,
+				8,
+				0
+			},
+			{
+				1993123,
+				15,
+				0
+			},
+			{
+				1993124,
+				12,
+				0
+			},
+			{
+				1993125,
+				8,
+				0
+			},
+			{
+				1993126,
+				15,
+				0
+			},
+			{
+				1993127,
+				12,
+				0
+			},
+			{
+				1993128,
+				8,
+				0
+			},
+			{
+				1993129,
+				15,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1993102,
+			1993105,
+			1993108,
+			1993122,
+			1993125,
+			1993128
+		},
+		ai_expedition_list = {
+			1993303,
+			1993304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1993113
+		},
+		enemy_refresh = {
+			6
+		},
+		elite_refresh = {
+			3
+		},
+		ai_refresh = {
+			3
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_strength"
+		},
+		awards = {
+			{
+				2,
+				200670
+			},
+			{
+				2,
+				200644
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				9,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				1
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				12
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				4
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				false,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				16
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				8
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				6
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				8,
+				"liekexingdun_2_2x2_2",
+				54,
+				-50
+			},
+			{
+				6,
+				5,
+				"liekexingdun_2_1x1_2",
+				0,
+				-5
+			},
+			{
+				6,
+				0,
+				"liekexingdun_2_1x2_1",
+				5,
+				-50
+			},
+			{
+				3,
+				7,
+				"liekexingdun_2_3x1_1",
+				102,
+				-9
+			},
+			{
+				2,
+				3,
+				"liekexingdun_2_2x2_1",
+				53,
+				-53
+			},
+			{
+				2,
+				1,
+				"liekexingdun_2_1x1_1",
+				0,
+				-6
+			},
+			{
+				2,
+				0,
+				"liekexingdun_2_1x2_2",
+				0,
+				-47
+			},
+			{
+				0,
+				7,
+				"liekexingdun_2_1x1_3",
+				0,
+				-7
+			},
+			{
+				0,
+				5,
+				"liekexingdun_2_1x1_1",
+				0,
+				-4
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_2",
+			45,
+			20,
+			-216,
+			-71,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			205004,
+			200926,
+			201377,
+			201650,
+			201651
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990026] = {
+		special_operation_list = "",
+		name = "ヴェールでの戦い・下",
+		count = 0,
+		pop_pic = "",
+		act_id = 50282,
+		pos_y = "0.511111111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "story-weimu-link",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "D3",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990026,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990012,
+		pos_x = "0.67109375",
+		formation = 1990012,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1835,
+		investigation_ratio = 0,
+		profiles = "越境実験NO3：偽相者――第三段階：偽相捕食",
+		star_require_3 = 3,
+		difficulty = 10,
+		num_2 = 12,
+		star_require_2 = 2,
+		avoid_ratio = 16,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1410,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990005
+			},
+			{
+				1990025
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					5,
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			},
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"air",
+				1,
+				1700
+			},
+			{
+				"dodge",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1993201,
+				15,
+				0
+			},
+			{
+				1993202,
+				10,
+				0
+			},
+			{
+				1993203,
+				20,
+				0
+			},
+			{
+				1993204,
+				15,
+				0
+			},
+			{
+				1993205,
+				10,
+				0
+			},
+			{
+				1993206,
+				20,
+				0
+			},
+			{
+				1993207,
+				15,
+				0
+			},
+			{
+				1993208,
+				10,
+				0
+			},
+			{
+				1993209,
+				20,
+				0
+			},
+			{
+				1993221,
+				12,
+				0
+			},
+			{
+				1993222,
+				8,
+				0
+			},
+			{
+				1993223,
+				15,
+				0
+			},
+			{
+				1993224,
+				12,
+				0
+			},
+			{
+				1993225,
+				8,
+				0
+			},
+			{
+				1993226,
+				15,
+				0
+			},
+			{
+				1993227,
+				12,
+				0
+			},
+			{
+				1993228,
+				8,
+				0
+			},
+			{
+				1993229,
+				15,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1993202,
+			1993205,
+			1993208,
+			1993222,
+			1993225,
+			1993228
+		},
+		ai_expedition_list = {
+			1993305,
+			1993306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1993213
+		},
+		enemy_refresh = {
+			6
+		},
+		elite_refresh = {
+			3
+		},
+		ai_refresh = {
+			3
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_magician"
+		},
+		awards = {
+			{
+				2,
+				200671
+			},
+			{
+				2,
+				200645
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				9,
+				10,
+				true,
+				0
+			},
+			{
+				9,
+				9,
+				true,
+				0
+			},
+			{
+				9,
+				8,
+				true,
+				0
+			},
+			{
+				9,
+				7,
+				true,
+				0
+			},
+			{
+				9,
+				6,
+				false,
+				0
+			},
+			{
+				9,
+				5,
+				false,
+				0
+			},
+			{
+				9,
+				4,
+				false,
+				0
+			},
+			{
+				9,
+				3,
+				true,
+				0
+			},
+			{
+				9,
+				2,
+				true,
+				0
+			},
+			{
+				9,
+				1,
+				true,
+				0
+			},
+			{
+				9,
+				0,
+				true,
+				0
+			},
+			{
+				8,
+				10,
+				true,
+				0
+			},
+			{
+				8,
+				9,
+				false,
+				0
+			},
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				false,
+				0
+			},
+			{
+				8,
+				4,
+				false,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				true,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				10,
+				true,
+				0
+			},
+			{
+				7,
+				9,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				6
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				6
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				10,
+				false,
+				0
+			},
+			{
+				6,
+				9,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				1
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				1
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				0
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				0
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				4
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				4
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				false,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				4
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				8
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				4
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				10,
+				true,
+				0
+			},
+			{
+				0,
+				9,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				9,
+				"liekexingdun_2_1x1_1",
+				0,
+				0
+			},
+			{
+				8,
+				1,
+				"liekexingdun_2_1x1_1",
+				0,
+				0
+			},
+			{
+				7,
+				4,
+				"liekexingdun_2_sp",
+				108,
+				-77
+			},
+			{
+				5,
+				9,
+				"liekexingdun_2_2x2_2",
+				54,
+				-38
+			},
+			{
+				5,
+				0,
+				"liekexingdun_2_2x2_2",
+				54,
+				-38
+			},
+			{
+				3,
+				8,
+				"liekexingdun_2_1x2_2",
+				0,
+				-48
+			},
+			{
+				3,
+				2,
+				"liekexingdun_2_1x2_1",
+				-9,
+				-53
+			},
+			{
+				1,
+				9,
+				"liekexingdun_2_1x1_3",
+				0,
+				-7
+			},
+			{
+				1,
+				1,
+				"liekexingdun_2_1x1_3",
+				0,
+				-7
+			},
+			{
+				0,
+				7,
+				"liekexingdun_2_3x1_2",
+				100,
+				-6
+			},
+			{
+				0,
+				1,
+				"liekexingdun_2_3x1_1",
+				105,
+				-7
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_2",
+			45,
+			20,
+			-377,
+			-58,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			205004,
+			200926,
+			201377,
+			201650,
+			201651
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990041] = {
+		special_operation_list = "",
+		name = "「天穹に響く音謡」",
+		count = 1,
+		pop_pic = "",
+		act_id = 50282,
+		pos_y = "0.3972",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 7,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		bgm = "theme-uc",
+		chapter_name = "SP",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		type = 2,
+		chapter_tag = 0,
+		enter_story = "",
+		bg = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		friendly_id = 0,
+		id = 1990041,
+		ammo_total = 5,
+		is_air_attack = 0,
+		mitigation_level = 0,
+		map = 1990025,
+		pos_x = "0.44",
+		formation = 1990025,
+		pre_story = 0,
+		group_num = 2,
+		enter_story_limit = "",
+		star_require_1 = 0,
+		collection_team = 0,
+		star_require_3 = 0,
+		num_1 = 0,
+		best_air_dominance = 2365,
+		investigation_ratio = 0,
+		profiles = "「青き炎が舞い踊り、響け、天穹に贈る歌――」",
+		support_group_num = 0,
+		difficulty = 10,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 16,
+		time = 43200,
+		win_condition_display = "win_condition_display_qijian",
+		avoid_require = 0,
+		num_3 = 0,
+		unlocklevel = 0,
+		air_dominance = 1820,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990026
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				110
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1994001,
+				15,
+				0
+			},
+			{
+				1994002,
+				10,
+				0
+			},
+			{
+				1994003,
+				24,
+				0
+			},
+			{
+				1994004,
+				15,
+				0
+			},
+			{
+				1994005,
+				10,
+				0
+			},
+			{
+				1994006,
+				24,
+				0
+			},
+			{
+				1994007,
+				15,
+				0
+			},
+			{
+				1994008,
+				10,
+				0
+			},
+			{
+				1994009,
+				24,
+				0
+			},
+			{
+				1994021,
+				12,
+				0
+			},
+			{
+				1994022,
+				8,
+				0
+			},
+			{
+				1994023,
+				18,
+				0
+			},
+			{
+				1994024,
+				12,
+				0
+			},
+			{
+				1994025,
+				8,
+				0
+			},
+			{
+				1994026,
+				18,
+				0
+			},
+			{
+				1994027,
+				12,
+				0
+			},
+			{
+				1994028,
+				8,
+				0
+			},
+			{
+				1994029,
+				18,
+				0
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1994301,
+			1994302,
+			1994303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1994013
+		},
+		enemy_refresh = {
+			10
+		},
+		elite_refresh = {
+			0
+		},
+		ai_refresh = {
+			3
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_creep"
+		},
+		awards = {
+			{
+				2,
+				200672
+			},
+			{
+				2,
+				200646
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				8
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				12
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				1
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				12
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				1
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"liekexingdun_3_2x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				3,
+				"liekexingdun_3_1x2_1",
+				0,
+				50
+			},
+			{
+				5,
+				6,
+				"liekexingdun_3_2x2_1",
+				50,
+				40
+			},
+			{
+				5,
+				0,
+				"liekexingdun_3_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				4,
+				"liekexingdun_3_1x1_1",
+				0,
+				0
+			},
+			{
+				2,
+				3,
+				"liekexingdun_3_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				1,
+				"liekexingdun_3_3x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_liekexingdun_2",
+			45,
+			20,
+			-260,
+			-245,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {},
+		land_based = {},
+		ItemTransformPattern = {
+			[38] = {
+				"liekexingdun_3",
+				"meixiII_I_hard",
+				0.5
+			}
+		},
+		chapter_strategy = {
+			205005,
+			200926,
+			201377,
+			201650,
+			201651,
+			200735
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990051] = {
+		special_operation_list = "",
+		name = "越境実験NO3",
+		count = 0,
+		pop_pic = "",
+		act_id = 50282,
+		pos_y = "0.3972",
+		model = 5,
+		progress_boss = 100,
+		is_ai = 0,
+		boss_refresh = 0,
+		is_limit_move = 0,
+		oil = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-objectX-spread",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "EXTRA",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990051,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990026,
+		pos_x = "0.44",
+		formation = 1990026,
+		mitigation_level = 0,
+		friendly_id = 0,
+		group_num = 1,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 810,
+		investigation_ratio = 0,
+		profiles = "越境実験NO3：偽相者――実験目的：最終勝利を得る\n<color=#5caaff>（ランキングに計算されない）</color>",
+		star_require_3 = 0,
+		difficulty = 10,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 17,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 620,
+		submarine_num = 0,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990041
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1995001
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_creep"
+		},
+		awards = {},
+		grids = {
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				3,
+				"guandao_3_2x2_2",
+				55,
+				-35
+			},
+			{
+				4,
+				0,
+				"guandao_3_2x2_2",
+				51,
+				-37
+			},
+			{
+				3,
+				4,
+				"guandao_3_1x1_3",
+				0,
+				6
+			},
+			{
+				3,
+				0,
+				"guandao_3_1x1_3",
+				0,
+				6
+			},
+			{
+				0,
+				4,
+				"guandao_3_1x2_2",
+				4,
+				-36
+			},
+			{
+				0,
+				0,
+				"guandao_3_1x2_2",
+				-5,
+				-36
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_guandao_3",
+			45,
+			20,
+			-53,
+			-162,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_strategy = {
+			201654
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[1990052] = {
+		special_operation_list = "",
+		name = "越境実験NO3",
+		count = 0,
+		pop_pic = "",
+		act_id = 50282,
+		pos_y = "0.3972",
+		model = 5,
+		progress_boss = 100,
+		is_ai = 0,
+		boss_refresh = 0,
+		is_limit_move = 0,
+		oil = 0,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-objectX-spread",
+		icon_outline = 0,
+		story_refresh_boss = "",
+		is_ambush = 0,
+		chapter_name = "EXTRA",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 0,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 1990052,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 1990026,
+		pos_x = "0.44",
+		formation = 1990026,
+		mitigation_level = 0,
+		friendly_id = 0,
+		group_num = 1,
+		star_require_1 = 0,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 0,
+		best_air_dominance = 810,
+		investigation_ratio = 0,
+		profiles = "越境実験NO3：偽相者――実験目的：最終勝利を得る\n<color=#5caaff>（高難易度ステージ）</color>",
+		star_require_3 = 0,
+		difficulty = 10,
+		num_2 = 0,
+		star_require_2 = 0,
+		avoid_ratio = 17,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 0,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 620,
+		submarine_num = 0,
+		uifx = "",
+		pre_chapter = {
+			{
+				1990041
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {},
+		expedition_id_weight_list = {},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {},
+		ai_expedition_list = {
+			1
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1995002
+		},
+		enemy_refresh = {
+			0
+		},
+		elite_refresh = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			0
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknownV_boss_creep"
+		},
+		awards = {},
+		grids = {
+			{
+				5,
+				4,
+				false,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				1
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				false,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				8
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				false,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				4,
+				3,
+				"guandao_3_2x2_2",
+				55,
+				-35
+			},
+			{
+				4,
+				0,
+				"guandao_3_2x2_2",
+				51,
+				-37
+			},
+			{
+				3,
+				4,
+				"guandao_3_1x1_3",
+				0,
+				6
+			},
+			{
+				3,
+				0,
+				"guandao_3_1x1_3",
+				0,
+				6
+			},
+			{
+				0,
+				4,
+				"guandao_3_1x2_2",
+				4,
+				-36
+			},
+			{
+				0,
+				0,
+				"guandao_3_1x2_2",
+				-5,
+				-36
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_guandao_3",
+			45,
+			20,
+			-53,
+			-162,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {},
+		defeat_story_count = {},
+		npc_data = {},
+		risk_levels = {},
+		land_based = {},
+		chapter_strategy = {
+			201655
 		},
 		wall_prefab = {},
 		alarm_cell = {},
@@ -354060,6 +371250,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -354669,6 +371860,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -355345,6 +372537,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -355971,6 +373164,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -356699,6 +373893,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -357422,6 +374617,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -358015,6 +375211,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -358665,6 +375862,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -359383,6 +376581,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -360055,6 +377254,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -360829,6 +378029,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -361597,6 +378798,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -362099,6 +379301,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -362664,6 +379867,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -363319,6 +380523,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -363997,6 +381202,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -364693,6 +381899,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -365564,6 +382771,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -366108,6 +383316,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -366714,6 +383923,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -367410,6 +384620,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -368133,6 +385344,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -368874,6 +386086,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -369790,6 +387003,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -370355,6 +387569,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -371059,6 +388274,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -371730,6 +388946,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -372519,6 +389736,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -373103,6 +390321,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -373695,6 +390914,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -374342,6 +391562,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -375145,6 +392366,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -375750,6 +392972,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -376497,6 +393720,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -377209,6 +394433,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -378039,6 +395264,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -378668,6 +395894,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -379305,6 +396532,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -379997,6 +397225,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -380845,6 +398074,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -381437,6 +398667,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"DONGHUO13"
@@ -382093,6 +399324,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -382837,6 +400069,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -383519,6 +400752,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -384342,6 +401576,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -385338,6 +402573,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1060600,
@@ -385977,6 +403213,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"DONGHUO13"
@@ -386674,6 +403911,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -387459,6 +404697,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -388186,6 +405425,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -389054,6 +406294,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -390095,6 +407336,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1060600,
@@ -390657,6 +407899,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -391319,6 +408562,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -392093,6 +409337,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -392662,6 +409907,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -393336,6 +410582,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -394131,6 +411378,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FAXI11"
@@ -394733,6 +411981,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -395436,6 +412685,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -396251,6 +413501,7 @@ end)()
 			1,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -396865,6 +414116,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -397586,6 +414838,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -398429,6 +415682,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FAXI11"
@@ -399042,6 +416296,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -399618,6 +416873,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -400292,6 +417548,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -400965,6 +418222,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -401689,6 +418947,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -402473,6 +419732,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -403127,6 +420387,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -403746,6 +421007,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -404462,6 +421724,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -405177,6 +422440,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -405949,6 +423213,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -406781,6 +424046,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -407387,6 +424653,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -407964,6 +425231,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -408633,6 +425901,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIANCHENGHUODONG9-2"
@@ -409312,6 +426581,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -410030,6 +427300,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -410714,6 +427985,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIANCHENGHUODONG19",
@@ -411370,6 +428642,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -411989,6 +429262,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -412700,6 +429974,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIANCHENGHUODONG9-2"
@@ -413425,6 +430700,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -414191,6 +431467,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -414923,6 +432200,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIANCHENGHUODONG19",
@@ -415501,6 +432779,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEXUEYUYINFU4"
@@ -416083,6 +433362,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -416746,6 +434026,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -417415,6 +434696,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEXUEYUYINFU13"
@@ -418131,6 +435413,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEXUEYUYINFU15"
@@ -418813,6 +436096,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEXUEYUYINFU19",
@@ -419437,6 +436721,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEXUEYUYINFU4"
@@ -420061,6 +437346,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -420766,6 +438052,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -421481,6 +438768,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEXUEYUYINFU13"
@@ -422245,6 +439533,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEXUEYUYINFU15"
@@ -422975,6 +440264,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"TIEXUEYUYINFU19",
@@ -423564,6 +440854,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU3"
@@ -424160,6 +441451,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -424853,6 +442145,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU12"
@@ -425428,6 +442721,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU5"
@@ -426030,6 +443324,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU9"
@@ -426630,6 +443925,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -427285,6 +444581,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -427900,6 +445197,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU22",
@@ -428528,6 +445826,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU3"
@@ -429164,6 +446463,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -429898,6 +447198,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU12"
@@ -430515,6 +447816,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU5"
@@ -431160,6 +448462,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU9"
@@ -431805,6 +449108,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -432508,6 +449812,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -433170,6 +450475,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENSHENGDEBEIXIJU22",
@@ -433760,6 +451066,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA5"
@@ -434402,6 +451709,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA11"
@@ -435141,6 +452449,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA15"
@@ -435779,6 +453088,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA19"
@@ -436454,6 +453764,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA24"
@@ -437095,6 +454406,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA30",
@@ -437665,6 +454977,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA7"
@@ -438268,6 +455581,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA13"
@@ -438864,6 +456178,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA21"
@@ -439517,6 +456832,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA26"
@@ -440130,6 +457446,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA5"
@@ -440814,6 +458131,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA11"
@@ -441590,6 +458908,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA15"
@@ -442274,6 +459593,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA19"
@@ -442997,6 +460317,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA24"
@@ -443686,6 +461007,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA30",
@@ -444298,6 +461620,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA7"
@@ -444943,6 +462266,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA13"
@@ -445581,6 +462905,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA21"
@@ -446278,6 +463603,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIANGTINGLIAOFA26"
@@ -446843,6 +464169,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -447435,6 +464762,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUYINGYINGHUA8"
@@ -448054,6 +465382,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUYINGYINGHUA12"
@@ -448687,6 +466016,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUYINGYINGHUA15"
 		},
@@ -449370,6 +466700,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUYINGYINGHUA21"
@@ -450010,6 +467341,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUYINGYINGHUA26",
@@ -450639,6 +467971,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -451274,6 +468607,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUYINGYINGHUA8"
@@ -451936,6 +469270,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUYINGYINGHUA12"
@@ -452615,6 +469950,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUYINGYINGHUA15"
 		},
@@ -453346,6 +470682,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUYINGYINGHUA21"
@@ -454034,6 +471371,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUYINGYINGHUA26",
@@ -454593,6 +471931,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"WEICENGHUNHE3",
 			"WEICENGHUNHE4"
@@ -455181,6 +472520,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"WEICENGHUNHE10",
@@ -455788,6 +473128,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"WEICENGHUNHE13"
 		},
@@ -456432,6 +473773,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"WEICENGHUNHE19"
 		},
@@ -457064,6 +474406,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"WEICENGHUNHE24"
 		},
@@ -457766,6 +475109,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"WEICENGHUNHE31",
@@ -458372,6 +475716,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"WEICENGHUNHE3",
 			"WEICENGHUNHE4"
@@ -459002,6 +476347,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"WEICENGHUNHE10",
@@ -459652,6 +476998,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"WEICENGHUNHE13"
 		},
@@ -460342,6 +477689,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"WEICENGHUNHE19"
 		},
@@ -461022,6 +478370,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"WEICENGHUNHE24"
 		},
@@ -461772,6 +479121,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"WEICENGHUNHE31",
@@ -462373,6 +479723,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"SHENGYONGQU3"
 		},
@@ -462992,6 +480343,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"SHENGYONGQU7",
@@ -463625,6 +480977,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENGYONGQU14",
@@ -464329,6 +481682,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENGYONGQU19",
@@ -465178,6 +482532,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENGYONGQU24",
@@ -466592,6 +483947,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			1393214
 		},
@@ -467840,6 +485196,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"SHENGYONGQU3"
 		},
@@ -468501,6 +485858,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"SHENGYONGQU7",
@@ -469177,6 +486535,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENGYONGQU14",
@@ -469926,6 +487285,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENGYONGQU19",
@@ -470822,6 +488182,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENGYONGQU24",
@@ -472283,6 +489644,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			1393214
 		},
@@ -473492,6 +490854,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"MAOZIHUODONG3"
 		},
@@ -474075,6 +491438,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"MAOZIHUODONG8"
@@ -474694,6 +492058,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"MAOZIHUODONG9",
 			"MAOZIHUODONG10"
@@ -475340,6 +492705,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"MAOZIHUODONG17"
@@ -475924,6 +493290,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"MAOZIHUODONG18",
 			"MAOZIHUODONG19"
@@ -476566,6 +493933,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"MAOZIHUODONG23",
 			"MAOZIHUODONG24"
@@ -477214,6 +494582,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"MAOZIHUODONG3"
 		},
@@ -477840,6 +495209,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"MAOZIHUODONG8"
@@ -478501,6 +495871,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"MAOZIHUODONG9",
 			"MAOZIHUODONG10"
@@ -479193,6 +496564,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"MAOZIHUODONG17"
@@ -479825,6 +497197,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"MAOZIHUODONG18",
 			"MAOZIHUODONG19"
@@ -480515,6 +497888,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"MAOZIHUODONG23",
 			"MAOZIHUODONG24"
@@ -481211,6 +498585,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"YONGYEHUANGUANG3"
 		},
@@ -481886,6 +499261,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"YONGYEHUANGUANG9",
 			"YONGYEHUANGUANG10"
@@ -482583,6 +499959,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YONGYEHUANGUANG19"
@@ -483333,6 +500710,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"YONGYEHUANGUANG22"
@@ -484111,6 +501489,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"YONGYEHUANGUANG27"
@@ -484982,6 +502361,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YONGYEHUANGUANG36",
@@ -485717,6 +503097,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"YONGYEHUANGUANG3"
 		},
@@ -486431,6 +503812,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"YONGYEHUANGUANG9",
 			"YONGYEHUANGUANG10"
@@ -487167,6 +504549,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YONGYEHUANGUANG19"
@@ -487961,6 +505344,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"YONGYEHUANGUANG22"
@@ -488785,6 +506169,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"YONGYEHUANGUANG27"
@@ -489703,6 +507088,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YONGYEHUANGUANG36",
@@ -490385,6 +507771,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"",
@@ -491059,6 +508446,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXIANGXIANZUOZHAN9"
@@ -491721,6 +509109,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"",
@@ -492482,6 +509871,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXIANGXIANZUOZHAN20"
@@ -493284,6 +510674,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXIANGXIANZUOZHAN24",
@@ -494253,6 +511644,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXIANGXIANZUOZHAN29",
@@ -494986,6 +512378,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"",
@@ -495701,6 +513094,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXIANGXIANZUOZHAN9"
@@ -496406,6 +513800,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"",
@@ -497212,6 +514607,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXIANGXIANZUOZHAN20"
@@ -498061,6 +515457,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXIANGXIANZUOZHAN24",
@@ -499077,6 +516474,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXIANGXIANZUOZHAN29",
@@ -499892,6 +517290,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DIEHAIMENGHUA9"
@@ -500567,6 +517966,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA11"
 		},
@@ -501422,6 +518822,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA16"
 		},
@@ -502438,6 +519839,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA22"
 		},
@@ -503358,6 +520760,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DIEHAIMENGHUA34"
@@ -504380,6 +521783,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA36"
 		},
@@ -504936,6 +522340,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA3"
 		},
@@ -505593,6 +522998,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DIEHAIMENGHUA30"
@@ -506412,6 +523818,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DIEHAIMENGHUA9"
@@ -507129,6 +524536,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA11"
 		},
@@ -508026,6 +525434,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA16"
 		},
@@ -509087,6 +526496,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA22"
 		},
@@ -510054,6 +527464,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DIEHAIMENGHUA34"
@@ -511124,6 +528535,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA36"
 		},
@@ -511680,6 +529092,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"DIEHAIMENGHUA3"
 		},
@@ -512337,6 +529750,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"DIEHAIMENGHUA30"
@@ -513009,6 +530423,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"JINGWEILUOXUAN3"
 		},
@@ -513725,6 +531140,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"JINGWEILUOXUAN9"
 		},
@@ -514558,6 +531974,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JINGWEILUOXUAN15",
@@ -515377,6 +532794,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JINGWEILUOXUAN20",
@@ -516210,6 +533628,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JINGWEILUOXUAN24",
@@ -517043,6 +534462,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JINGWEILUOXUAN29",
@@ -517786,6 +535206,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"JINGWEILUOXUAN3"
 		},
@@ -518544,6 +535965,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"JINGWEILUOXUAN9"
 		},
@@ -519420,6 +536842,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JINGWEILUOXUAN15",
@@ -520285,6 +537708,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JINGWEILUOXUAN20",
@@ -521166,6 +538590,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JINGWEILUOXUAN24",
@@ -522046,6 +539471,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JINGWEILUOXUAN29",
@@ -522740,6 +540166,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"POXIAOBINGHUA4"
@@ -523436,6 +540863,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"POXIAOBINGHUA7",
@@ -524345,6 +541773,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"POXIAOBINGHUA12",
@@ -525135,6 +542564,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"POXIAOBINGHUA17"
@@ -525952,6 +543382,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"POXIAOBINGHUA19"
 		},
@@ -526871,6 +544302,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"POXIAOBINGHUA23"
 		},
@@ -527615,6 +545047,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"POXIAOBINGHUA4"
@@ -528353,6 +545786,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"POXIAOBINGHUA7",
@@ -529305,6 +546739,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"POXIAOBINGHUA12",
@@ -530140,6 +547575,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"POXIAOBINGHUA17"
@@ -531004,6 +548440,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"POXIAOBINGHUA19"
 		},
@@ -531970,6 +549407,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"POXIAOBINGHUA23"
 		},
@@ -532630,6 +550068,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN5",
@@ -533327,6 +550766,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN10"
@@ -534175,6 +551615,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN15",
@@ -534993,6 +552434,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN21",
@@ -535832,6 +553274,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN25",
@@ -536748,6 +554191,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"BIHAIGUANGLIN28"
 		},
@@ -537441,6 +554885,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN5",
@@ -538180,6 +555625,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN10"
@@ -539071,6 +556517,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN15",
@@ -539935,6 +557382,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN21",
@@ -540822,6 +558270,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"BIHAIGUANGLIN25",
@@ -541785,6 +559234,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"BIHAIGUANGLIN28"
 		},
@@ -542471,6 +559921,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUXINGDEZANMEISHI3"
 		},
@@ -543169,6 +560620,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXINGDEZANMEISHI9"
@@ -543974,6 +561426,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUXINGDEZANMEISHI11"
 		},
@@ -544875,6 +562328,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXINGDEZANMEISHI18"
@@ -545801,6 +563255,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUXINGDEZANMEISHI20"
 		},
@@ -546741,6 +564196,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUXINGDEZANMEISHI27"
 		},
@@ -547488,6 +564944,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUXINGDEZANMEISHI3"
 		},
@@ -548228,6 +565685,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXINGDEZANMEISHI9"
@@ -549076,6 +566534,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUXINGDEZANMEISHI11"
 		},
@@ -550023,6 +567482,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"FUXINGDEZANMEISHI18"
@@ -550997,6 +568457,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUXINGDEZANMEISHI20"
 		},
@@ -551984,6 +569445,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"FUXINGDEZANMEISHI27"
 		},
@@ -552642,6 +570104,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"NIZHUANCAIHONGZHITA3"
 		},
@@ -553335,6 +570798,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"NIZHUANCAIHONGZHITA8"
 		},
@@ -554157,6 +571621,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA14",
@@ -554961,6 +572426,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA20",
@@ -555785,6 +573251,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA24",
@@ -556543,6 +574010,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA28"
@@ -557307,6 +574775,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA34",
@@ -557985,6 +575454,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"NIZHUANCAIHONGZHITA3"
 		},
@@ -558720,6 +576190,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"NIZHUANCAIHONGZHITA8"
 		},
@@ -559584,6 +577055,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA14",
@@ -560434,6 +577906,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA20",
@@ -561306,6 +578779,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA24",
@@ -562108,6 +579582,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA28"
@@ -562918,6 +580393,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NIZHUANCAIHONGZHITA34",
@@ -563597,6 +581073,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"SHENDUHUIYIN3"
 		},
@@ -564394,6 +581871,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"SHENDUHUIYIN8"
@@ -565212,6 +582690,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENDUHUIYIN14",
@@ -565843,6 +583322,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"SHENDUHUIYIN18"
 		},
@@ -566527,6 +584007,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENDUHUIYIN24",
@@ -567375,6 +584856,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENDUHUIYIN28",
@@ -568107,6 +585589,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"SHENDUHUIYIN3"
 		},
@@ -568945,6 +586428,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"",
 			"SHENDUHUIYIN8"
@@ -569804,6 +587288,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENDUHUIYIN14",
@@ -570480,6 +587965,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"SHENDUHUIYIN18"
 		},
@@ -571211,6 +588697,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENDUHUIYIN24",
@@ -572106,6 +589593,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"SHENDUHUIYIN28",
@@ -572766,6 +590254,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LINGSHIGUANGTING3"
 		},
@@ -573453,6 +590942,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LINGSHIGUANGTING9"
@@ -574247,6 +591737,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LINGSHIGUANGTING11"
 		},
@@ -574930,6 +592421,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LINGSHIGUANGTING20",
@@ -575632,6 +593124,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LINGSHIGUANGTING23",
 			"LINGSHIGUANGTING24"
@@ -576495,6 +593988,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LINGSHIGUANGTING29"
 		},
@@ -577190,6 +594684,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LINGSHIGUANGTING3"
 		},
@@ -577919,6 +595414,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LINGSHIGUANGTING9"
@@ -578755,6 +596251,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LINGSHIGUANGTING11"
 		},
@@ -579484,6 +596981,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LINGSHIGUANGTING20",
@@ -580234,6 +597732,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LINGSHIGUANGTING23",
 			"LINGSHIGUANGTING24"
@@ -581144,6 +598643,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LINGSHIGUANGTING29"
 		},
@@ -581838,6 +599338,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIONGYINGDEXUSHIGE4",
@@ -582657,6 +600158,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIONGYINGDEXUSHIGE9",
@@ -583390,6 +600892,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XIONGYINGDEXUSHIGE12"
 		},
@@ -584182,6 +601685,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIONGYINGDEXUSHIGE21",
@@ -584930,6 +602434,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIONGYINGDEXUSHIGE26"
@@ -585758,6 +603263,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XIONGYINGDEXUSHIGE28"
 		},
@@ -586498,6 +604004,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIONGYINGDEXUSHIGE4",
@@ -587359,6 +604866,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIONGYINGDEXUSHIGE9",
@@ -588134,6 +605642,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XIONGYINGDEXUSHIGE12"
 		},
@@ -588971,6 +606480,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIONGYINGDEXUSHIGE21",
@@ -589766,6 +607276,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIONGYINGDEXUSHIGE26"
@@ -590641,6 +608152,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XIONGYINGDEXUSHIGE28"
 		},
@@ -591298,6 +608810,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"HONGCAIDEZHONGMUQU5",
@@ -591990,6 +609503,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"HONGCAIDEZHONGMUQU10",
@@ -592793,6 +610307,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"HONGCAIDEZHONGMUQU13"
 		},
@@ -593489,6 +611004,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"HONGCAIDEZHONGMUQU20",
@@ -594170,6 +611686,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"HONGCAIDEZHONGMUQU23",
 			"HONGCAIDEZHONGMUQU24"
@@ -595009,6 +612526,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1645002,
@@ -595702,6 +613220,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"HONGCAIDEZHONGMUQU5",
@@ -596436,6 +613955,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"HONGCAIDEZHONGMUQU10",
@@ -597281,6 +614801,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"HONGCAIDEZHONGMUQU13"
 		},
@@ -598023,6 +615544,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"HONGCAIDEZHONGMUQU20",
@@ -598752,6 +616274,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"HONGCAIDEZHONGMUQU23",
 			"HONGCAIDEZHONGMUQU24"
@@ -599639,6 +617162,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			1645002,
@@ -599677,6 +617201,18322 @@ end)()
 		chapter_strategy = {
 			8943,
 			8959
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100521] = {
+		special_operation_list = "",
+		name = "結界碁盤",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.523611111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 3,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-1",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN4",
+		is_ambush = 0,
+		chapter_name = "A1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN2",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100521,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100521,
+		pos_x = "0.2515625",
+		formation = 2100521,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 150,
+		investigation_ratio = 0,
+		profiles = "聖地の楼閣で繰り広げられる盤上の演習、競われるのは采配、そして各々の覚悟にあり",
+		star_require_3 = 3,
+		difficulty = 3,
+		num_2 = 10,
+		star_require_2 = 2,
+		avoid_ratio = 8,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 100,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1680001,
+				15,
+				0
+			},
+			{
+				1680002,
+				20,
+				0
+			},
+			{
+				1680003,
+				30,
+				1
+			},
+			{
+				1680004,
+				15,
+				0
+			},
+			{
+				1680005,
+				20,
+				0
+			},
+			{
+				1680006,
+				30,
+				1
+			},
+			{
+				1680007,
+				15,
+				0
+			},
+			{
+				1680008,
+				20,
+				0
+			},
+			{
+				1680009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1680005,
+			1680008
+		},
+		ai_expedition_list = {
+			1680301,
+			1680302
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1680013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58692
+			},
+			{
+				2,
+				58680
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				1
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				8
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				12
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"wuzang_normal_II_2x2_2",
+				50,
+				-50
+			},
+			{
+				4,
+				2,
+				"wuzang_normal_II_1x2_2",
+				0,
+				-50
+			},
+			{
+				1,
+				5,
+				"wuzang_normal_sp2",
+				65,
+				-8
+			},
+			{
+				0,
+				1,
+				"wuzang_normal_II_2x2_1",
+				66,
+				-39
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_normal",
+			45,
+			20,
+			-143,
+			-8,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"ZIJIANGJINLAN3"
+		},
+		defeat_story = {
+			"ZIJIANGJINLAN6",
+			"ZIJIANGJINLAN7"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100522] = {
+		special_operation_list = "",
+		name = "霧隠れの真意",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-1",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN10",
+		is_ambush = 0,
+		chapter_name = "A2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN8",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100522,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100521,
+		pos_x = "0.38203125",
+		formation = 2100521,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 170,
+		investigation_ratio = 0,
+		profiles = "真意を隠す海霧に包まれし演習場。降り立つ少女たちの目指す目標は異なるが…？",
+		star_require_3 = 3,
+		difficulty = 4,
+		num_2 = 11,
+		star_require_2 = 2,
+		avoid_ratio = 9,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 130,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100521
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1680101,
+				15,
+				0
+			},
+			{
+				1680102,
+				20,
+				0
+			},
+			{
+				1680103,
+				30,
+				1
+			},
+			{
+				1680104,
+				15,
+				0
+			},
+			{
+				1680105,
+				20,
+				0
+			},
+			{
+				1680106,
+				30,
+				1
+			},
+			{
+				1680107,
+				15,
+				0
+			},
+			{
+				1680108,
+				20,
+				0
+			},
+			{
+				1680109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1680105,
+			1680108
+		},
+		ai_expedition_list = {
+			1680303,
+			1680304
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1680113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown5"
+		},
+		awards = {
+			{
+				2,
+				58693
+			},
+			{
+				2,
+				58681
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				8
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"wuzang_normal_I_1x1_2",
+				11,
+				0
+			},
+			{
+				7,
+				2,
+				"wuzang_normal_I_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				5,
+				"wuzang_normal_sp3",
+				53,
+				-23
+			},
+			{
+				5,
+				1,
+				"wuzang_normal_I_3x1_2",
+				99,
+				-8
+			},
+			{
+				2,
+				7,
+				"wuzang_normal_I_1x2_2",
+				2,
+				-54
+			},
+			{
+				0,
+				2,
+				"wuzang_normal_I_2x2_1",
+				54,
+				-50
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_normal",
+			45,
+			20,
+			-174,
+			-392,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"ZIJIANGJINLAN9"
+		},
+		defeat_story = {
+			"ZIJIANGJINLAN12",
+			"ZIJIANGJINLAN13"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100523] = {
+		special_operation_list = "",
+		name = "変革目指す先見",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.459722223",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-1",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN16",
+		is_ambush = 0,
+		chapter_name = "A3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN14",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100523,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100521,
+		pos_x = "0.665625",
+		formation = 2100521,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 215,
+		investigation_ratio = 0,
+		profiles = "采配者の特権を捨て、仲間とともに戦う。黙示の覚悟は千の言葉にも勝るか",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 11,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 165,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100522
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1680201,
+				15,
+				0
+			},
+			{
+				1680202,
+				20,
+				0
+			},
+			{
+				1680203,
+				30,
+				1
+			},
+			{
+				1680204,
+				15,
+				0
+			},
+			{
+				1680205,
+				20,
+				0
+			},
+			{
+				1680206,
+				30,
+				1
+			},
+			{
+				1680207,
+				15,
+				0
+			},
+			{
+				1680208,
+				20,
+				0
+			},
+			{
+				1680209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1680205,
+			1680208
+		},
+		ai_expedition_list = {
+			1680305,
+			1680306,
+			1680307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1680213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"qingchuzhe"
+		},
+		awards = {
+			{
+				2,
+				58694
+			},
+			{
+				2,
+				58682
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				8
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				1
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				1
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"wuzang_normal_I_2x2_2",
+				64,
+				-52
+			},
+			{
+				4,
+				1,
+				"wuzang_normal_sp4",
+				107,
+				-67
+			},
+			{
+				2,
+				5,
+				"wuzang_normal_I_1x1_1",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"wuzang_normal_I_3x1_2",
+				104,
+				-8
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_normal",
+			45,
+			20,
+			-179,
+			-355,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"ZIJIANGJINLAN15"
+		},
+		defeat_story = {
+			"ZIJIANGJINLAN17",
+			"ZIJIANGJINLAN18"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100524] = {
+		special_operation_list = "",
+		name = "相争わぬ誓い",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.302777777",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-2",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN21",
+		is_ambush = 0,
+		chapter_name = "B1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN20",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100524,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100522,
+		pos_x = "0.23125",
+		formation = 2100522,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 275,
+		investigation_ratio = 0,
+		profiles = "無益なる争いをせず敵に立ち向かう――理想論と言わしめるのは現実か？それともエゴか？",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 14,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 210,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100523
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1681001,
+				15,
+				0
+			},
+			{
+				1681002,
+				20,
+				0
+			},
+			{
+				1681003,
+				30,
+				1
+			},
+			{
+				1681004,
+				15,
+				0
+			},
+			{
+				1681005,
+				20,
+				0
+			},
+			{
+				1681006,
+				30,
+				1
+			},
+			{
+				1681007,
+				15,
+				0
+			},
+			{
+				1681008,
+				20,
+				0
+			},
+			{
+				1681009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1681005,
+			1681008
+		},
+		ai_expedition_list = {
+			1681301,
+			1681302,
+			1681303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1681013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown3"
+		},
+		awards = {
+			{
+				2,
+				58695
+			},
+			{
+				2,
+				58683
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				1
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				4
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				16
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				1,
+				"wuzang_normal_I_3x1_1",
+				95,
+				6
+			},
+			{
+				5,
+				5,
+				"wuzang_normal_I_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				0,
+				"wuzang_normal_I_1x1_3",
+				5,
+				-23
+			},
+			{
+				2,
+				1,
+				"wuzang_normal_sp1",
+				53,
+				40
+			},
+			{
+				1,
+				6,
+				"wuzang_normal_I_1x2_2",
+				0,
+				-54
+			},
+			{
+				0,
+				0,
+				"wuzang_normal_I_1x1_2",
+				10,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_normal",
+			45,
+			20,
+			-206,
+			35,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"ZIJIANGJINLAN22",
+			"ZIJIANGJINLAN23"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100525] = {
+		special_operation_list = "",
+		name = "推移する対局",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-2",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN26",
+		is_ambush = 0,
+		chapter_name = "B2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN24",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100525,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100522,
+		pos_x = "0.5390625",
+		formation = 2100522,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 350,
+		investigation_ratio = 0,
+		profiles = "推移する対局、激しくなる戦況、攻守逆転の盤上で勝利を収めるのは果たして――",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 15,
+		star_require_2 = 2,
+		avoid_ratio = 11,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 270,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100524
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1681101,
+				15,
+				0
+			},
+			{
+				1681102,
+				20,
+				0
+			},
+			{
+				1681103,
+				30,
+				1
+			},
+			{
+				1681104,
+				15,
+				0
+			},
+			{
+				1681105,
+				20,
+				0
+			},
+			{
+				1681106,
+				30,
+				1
+			},
+			{
+				1681107,
+				15,
+				0
+			},
+			{
+				1681108,
+				20,
+				0
+			},
+			{
+				1681109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1681105,
+			1681108
+		},
+		ai_expedition_list = {
+			1681304,
+			1681305,
+			1681306,
+			1681307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1681113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sanli"
+		},
+		awards = {
+			{
+				2,
+				58696
+			},
+			{
+				2,
+				58684
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				12,
+				false,
+				0
+			},
+			{
+				5,
+				11,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				12,
+				true,
+				0
+			},
+			{
+				4,
+				11,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				12,
+				false,
+				0
+			},
+			{
+				3,
+				11,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				12,
+				false,
+				0
+			},
+			{
+				2,
+				11,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				1
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				12,
+				true,
+				0
+			},
+			{
+				1,
+				11,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				12
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				12,
+				false,
+				0
+			},
+			{
+				0,
+				11,
+				false,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				4
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				10,
+				"wuzang_normal_II_3x1_2",
+				106,
+				-1
+			},
+			{
+				5,
+				3,
+				"wuzang_normal_II_1x1_2",
+				0,
+				6
+			},
+			{
+				4,
+				6,
+				"wuzang_normal_II_2x2_2",
+				49,
+				-45
+			},
+			{
+				2,
+				11,
+				"wuzang_normal_sp2",
+				55,
+				-8
+			},
+			{
+				1,
+				0,
+				"wuzang_normal_sp4",
+				111,
+				-66
+			},
+			{
+				0,
+				10,
+				"wuzang_normal_II_3x1_1",
+				102,
+				3
+			},
+			{
+				0,
+				6,
+				"wuzang_normal_II_2x2_2",
+				57,
+				-37
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_normal",
+			45,
+			20,
+			-736,
+			-198,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"ZIJIANGJINLAN25"
+		},
+		defeat_story = {
+			"ZIJIANGJINLAN28",
+			"ZIJIANGJINLAN29"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100526] = {
+		special_operation_list = "",
+		name = "赫月の暁風",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.511111111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-2",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN31",
+		is_ambush = 0,
+		chapter_name = "B3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN30",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100526,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100522,
+		pos_x = "0.67109375",
+		formation = 2100522,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 430,
+		investigation_ratio = 0,
+		profiles = "意思の激突で巻き起こす戦火の嵐。暁風を乗り越えた先に見る終焉の赫月は勝利者のみ照らし出す",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 21,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 330,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100525
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1681201,
+				15,
+				0
+			},
+			{
+				1681202,
+				20,
+				0
+			},
+			{
+				1681203,
+				30,
+				1
+			},
+			{
+				1681204,
+				15,
+				0
+			},
+			{
+				1681205,
+				20,
+				0
+			},
+			{
+				1681206,
+				30,
+				1
+			},
+			{
+				1681207,
+				15,
+				0
+			},
+			{
+				1681208,
+				20,
+				0
+			},
+			{
+				1681209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1681205,
+			1681208
+		},
+		ai_expedition_list = {
+			1681308,
+			1681309,
+			1681310,
+			1681311
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1681213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss5"
+		},
+		awards = {
+			{
+				2,
+				58697
+			},
+			{
+				2,
+				58685
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				1
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				16
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				8
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				6,
+				"wuzang_normal_II_3x1_2",
+				112,
+				0
+			},
+			{
+				8,
+				0,
+				"wuzang_normal_II_3x1_1",
+				106,
+				0
+			},
+			{
+				6,
+				6,
+				"wuzang_normal_II_1x1_2",
+				0,
+				7
+			},
+			{
+				6,
+				2,
+				"wuzang_normal_II_1x1_2",
+				0,
+				11
+			},
+			{
+				4,
+				4,
+				"wuzang_normal_sp5",
+				-36,
+				57
+			},
+			{
+				2,
+				6,
+				"wuzang_normal_II_1x1_3",
+				0,
+				6
+			},
+			{
+				2,
+				2,
+				"wuzang_normal_II_1x1_3",
+				-9,
+				4
+			},
+			{
+				0,
+				8,
+				"wuzang_normal_I_1x1_2",
+				11,
+				0
+			},
+			{
+				0,
+				0,
+				"wuzang_normal_I_1x1_2",
+				14,
+				-3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_normal",
+			45,
+			20,
+			-242,
+			123,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"ZIJIANGJINLAN32",
+			"ZIJIANGJINLAN33",
+			"ZIJIANGJINLAN34",
+			"ZIJIANGJINLAN35",
+			"ZIJIANGJINLAN36",
+			"ZIJIANGJINLAN37",
+			"ZIJIANGJINLAN38",
+			"ZIJIANGJINLAN39"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100531] = {
+		special_operation_list = "",
+		name = "結界碁盤",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.523611111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-1",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN4",
+		is_ambush = 0,
+		chapter_name = "C1",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN2",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100531,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100531,
+		pos_x = "0.2515625",
+		formation = 2100531,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 590,
+		investigation_ratio = 0,
+		profiles = "聖地の楼閣で繰り広げられる盤上の演習、競われるのは采配、そして各々の覚悟にあり",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 13,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 455,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				500
+			},
+			{
+				"dodge",
+				1,
+				350
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1682001,
+				15,
+				0
+			},
+			{
+				1682002,
+				20,
+				0
+			},
+			{
+				1682003,
+				30,
+				1
+			},
+			{
+				1682004,
+				15,
+				0
+			},
+			{
+				1682005,
+				20,
+				0
+			},
+			{
+				1682006,
+				30,
+				1
+			},
+			{
+				1682007,
+				15,
+				0
+			},
+			{
+				1682008,
+				20,
+				0
+			},
+			{
+				1682009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1682005,
+			1682008
+		},
+		ai_expedition_list = {
+			1682301,
+			1682302,
+			1682303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1682013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown1"
+		},
+		awards = {
+			{
+				2,
+				58710
+			},
+			{
+				2,
+				58698
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				1
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				4
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				12
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				6
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				8
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				12
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				12
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				6
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				false,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				5,
+				"wuzang_hard_II_2x2_2",
+				50,
+				-50
+			},
+			{
+				4,
+				2,
+				"wuzang_hard_II_1x2_2",
+				0,
+				-50
+			},
+			{
+				1,
+				5,
+				"wuzang_hard_sp2",
+				65,
+				-8
+			},
+			{
+				0,
+				1,
+				"wuzang_hard_II_2x2_1",
+				66,
+				-39
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_hard",
+			45,
+			20,
+			-143,
+			-8,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"ZIJIANGJINLAN3"
+		},
+		defeat_story = {
+			"ZIJIANGJINLAN6",
+			"ZIJIANGJINLAN7"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100532] = {
+		special_operation_list = "",
+		name = "霧隠れの真意",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-1",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN10",
+		is_ambush = 0,
+		chapter_name = "C2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN8",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100532,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100531,
+		pos_x = "0.38203125",
+		formation = 2100531,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 785,
+		investigation_ratio = 0,
+		profiles = "真意を隠す海霧に包まれし演習場。降り立つ少女たちの目指す目標は異なるが…？",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 13,
+		star_require_2 = 2,
+		avoid_ratio = 13,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 605,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100531
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				650
+			},
+			{
+				"reload",
+				1,
+				720
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1682101,
+				15,
+				0
+			},
+			{
+				1682102,
+				20,
+				0
+			},
+			{
+				1682103,
+				30,
+				1
+			},
+			{
+				1682104,
+				15,
+				0
+			},
+			{
+				1682105,
+				20,
+				0
+			},
+			{
+				1682106,
+				30,
+				1
+			},
+			{
+				1682107,
+				15,
+				0
+			},
+			{
+				1682108,
+				20,
+				0
+			},
+			{
+				1682109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1682105,
+			1682108
+		},
+		ai_expedition_list = {
+			1682304,
+			1682305,
+			1682306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1682113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown5"
+		},
+		awards = {
+			{
+				2,
+				58711
+			},
+			{
+				2,
+				58699
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				6
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				6
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				false,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				8
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				4
+			},
+			{
+				4,
+				1,
+				true,
+				12
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				false,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				16
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				false,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				12
+			},
+			{
+				2,
+				2,
+				true,
+				6
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				4
+			},
+			{
+				1,
+				3,
+				false,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				1
+			},
+			{
+				0,
+				7,
+				true,
+				6
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				false,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				1
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"wuzang_hard_I_1x1_2",
+				11,
+				0
+			},
+			{
+				7,
+				2,
+				"wuzang_hard_I_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				5,
+				"wuzang_hard_sp3",
+				53,
+				-23
+			},
+			{
+				5,
+				1,
+				"wuzang_hard_I_3x1_2",
+				99,
+				-8
+			},
+			{
+				2,
+				7,
+				"wuzang_hard_I_1x2_2",
+				2,
+				-54
+			},
+			{
+				0,
+				2,
+				"wuzang_hard_I_2x2_1",
+				54,
+				-50
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_hard",
+			45,
+			20,
+			-174,
+			-392,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"ZIJIANGJINLAN9"
+		},
+		defeat_story = {
+			"ZIJIANGJINLAN12",
+			"ZIJIANGJINLAN13"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100533] = {
+		special_operation_list = "",
+		name = "変革目指す先見",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.459722223",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-1",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN16",
+		is_ambush = 0,
+		chapter_name = "C3",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN14",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100533,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100531,
+		pos_x = "0.665625",
+		formation = 2100531,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1010,
+		investigation_ratio = 0,
+		profiles = "采配者の特権を捨て、仲間とともに戦う。黙示の覚悟は千の言葉にも勝るか",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 14,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 775,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100532
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					0,
+					0
+				},
+				{
+					3,
+					0,
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				850
+			},
+			{
+				"torpedo",
+				1,
+				1000
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1682201,
+				15,
+				0
+			},
+			{
+				1682202,
+				20,
+				0
+			},
+			{
+				1682203,
+				30,
+				1
+			},
+			{
+				1682204,
+				15,
+				0
+			},
+			{
+				1682205,
+				20,
+				0
+			},
+			{
+				1682206,
+				30,
+				1
+			},
+			{
+				1682207,
+				15,
+				0
+			},
+			{
+				1682208,
+				20,
+				0
+			},
+			{
+				1682209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1682205,
+			1682208
+		},
+		ai_expedition_list = {
+			1682307,
+			1682308,
+			1682309
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1682213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"qingchuzhe"
+		},
+		awards = {
+			{
+				2,
+				58712
+			},
+			{
+				2,
+				58700
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				4
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				false,
+				0
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				6
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				8
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				false,
+				0
+			},
+			{
+				5,
+				1,
+				false,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				16
+			},
+			{
+				4,
+				4,
+				true,
+				6
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				false,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				12
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				4
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				false,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				1
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				1
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				6,
+				6,
+				"wuzang_hard_I_2x2_2",
+				64,
+				-52
+			},
+			{
+				4,
+				1,
+				"wuzang_hard_sp4",
+				107,
+				-67
+			},
+			{
+				2,
+				5,
+				"wuzang_hard_I_1x1_1",
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				"wuzang_hard_I_3x1_2",
+				104,
+				-8
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_hard",
+			45,
+			20,
+			-179,
+			-355,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"ZIJIANGJINLAN15"
+		},
+		defeat_story = {
+			"ZIJIANGJINLAN17",
+			"ZIJIANGJINLAN18"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100534] = {
+		special_operation_list = "",
+		name = "相争わぬ誓い",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.302777777",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-2",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN21",
+		is_ambush = 0,
+		chapter_name = "D1",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN20",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100534,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100532,
+		pos_x = "0.23125",
+		formation = 2100532,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1105,
+		investigation_ratio = 0,
+		profiles = "無益なる争いをせず敵に立ち向かう――理想論と言わしめるのは現実か？それともエゴか？",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 16,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 850,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100533
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					5,
+					0
+				},
+				{
+					"quzhu",
+					0,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"cannon",
+				1,
+				1000
+			},
+			{
+				"dodge",
+				1,
+				650
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1683001,
+				15,
+				0
+			},
+			{
+				1683002,
+				20,
+				0
+			},
+			{
+				1683003,
+				30,
+				1
+			},
+			{
+				1683004,
+				15,
+				0
+			},
+			{
+				1683005,
+				20,
+				0
+			},
+			{
+				1683006,
+				30,
+				1
+			},
+			{
+				1683007,
+				15,
+				0
+			},
+			{
+				1683008,
+				20,
+				0
+			},
+			{
+				1683009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1683005,
+			1683008
+		},
+		ai_expedition_list = {
+			1683301,
+			1683302,
+			1683303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1683013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"unknown3"
+		},
+		awards = {
+			{
+				2,
+				58713
+			},
+			{
+				2,
+				58701
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				1
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				false,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				1
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				4
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				0
+			},
+			{
+				5,
+				5,
+				false,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				6
+			},
+			{
+				4,
+				4,
+				true,
+				4
+			},
+			{
+				4,
+				3,
+				true,
+				16
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				8
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				1,
+				"wuzang_hard_I_3x1_1",
+				95,
+				6
+			},
+			{
+				5,
+				5,
+				"wuzang_hard_I_1x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				0,
+				"wuzang_hard_I_1x1_3",
+				5,
+				-23
+			},
+			{
+				2,
+				1,
+				"wuzang_hard_sp1",
+				53,
+				40
+			},
+			{
+				1,
+				6,
+				"wuzang_hard_I_1x2_2",
+				0,
+				-54
+			},
+			{
+				0,
+				0,
+				"wuzang_hard_I_1x1_2",
+				10,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_hard",
+			45,
+			20,
+			-206,
+			35,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"ZIJIANGJINLAN22",
+			"ZIJIANGJINLAN23"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100535] = {
+		special_operation_list = "",
+		name = "推移する対局",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-2",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN26",
+		is_ambush = 0,
+		chapter_name = "D2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN24",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100535,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100532,
+		pos_x = "0.5390625",
+		formation = 2100532,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1430,
+		investigation_ratio = 0,
+		profiles = "推移する対局、激しくなる戦況、攻守逆転の盤上で勝利を収めるのは果たして――",
+		star_require_3 = 3,
+		difficulty = 9,
+		num_2 = 18,
+		star_require_2 = 2,
+		avoid_ratio = 15,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1100,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100534
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					5,
+					0
+				},
+				{
+					"quzhu",
+					0,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"cannon",
+				1,
+				1300
+			},
+			{
+				"reload",
+				1,
+				1050
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1683101,
+				15,
+				0
+			},
+			{
+				1683102,
+				20,
+				0
+			},
+			{
+				1683103,
+				30,
+				1
+			},
+			{
+				1683104,
+				15,
+				0
+			},
+			{
+				1683105,
+				20,
+				0
+			},
+			{
+				1683106,
+				30,
+				1
+			},
+			{
+				1683107,
+				15,
+				0
+			},
+			{
+				1683108,
+				20,
+				0
+			},
+			{
+				1683109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1683105,
+			1683108
+		},
+		ai_expedition_list = {
+			1683304,
+			1683305,
+			1683306,
+			1683307
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1683113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sanli"
+		},
+		awards = {
+			{
+				2,
+				58714
+			},
+			{
+				2,
+				58702
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				5,
+				12,
+				false,
+				0
+			},
+			{
+				5,
+				11,
+				false,
+				0
+			},
+			{
+				5,
+				10,
+				false,
+				0
+			},
+			{
+				5,
+				9,
+				true,
+				4
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				false,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				6
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				12,
+				true,
+				0
+			},
+			{
+				4,
+				11,
+				true,
+				0
+			},
+			{
+				4,
+				10,
+				true,
+				0
+			},
+			{
+				4,
+				9,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				12
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				4
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				12,
+				false,
+				0
+			},
+			{
+				3,
+				11,
+				false,
+				0
+			},
+			{
+				3,
+				10,
+				true,
+				1
+			},
+			{
+				3,
+				9,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				16
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				8
+			},
+			{
+				3,
+				1,
+				false,
+				0
+			},
+			{
+				3,
+				0,
+				false,
+				0
+			},
+			{
+				2,
+				12,
+				false,
+				0
+			},
+			{
+				2,
+				11,
+				false,
+				0
+			},
+			{
+				2,
+				10,
+				true,
+				1
+			},
+			{
+				2,
+				9,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				12
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				6
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				false,
+				0
+			},
+			{
+				1,
+				12,
+				true,
+				0
+			},
+			{
+				1,
+				11,
+				true,
+				0
+			},
+			{
+				1,
+				10,
+				true,
+				0
+			},
+			{
+				1,
+				9,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				12
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				false,
+				0
+			},
+			{
+				1,
+				1,
+				false,
+				0
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				12,
+				false,
+				0
+			},
+			{
+				0,
+				11,
+				false,
+				0
+			},
+			{
+				0,
+				10,
+				false,
+				0
+			},
+			{
+				0,
+				9,
+				true,
+				4
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				5,
+				10,
+				"wuzang_hard_II_3x1_2",
+				106,
+				-1
+			},
+			{
+				5,
+				3,
+				"wuzang_hard_II_1x1_2",
+				0,
+				6
+			},
+			{
+				4,
+				6,
+				"wuzang_hard_II_2x2_2",
+				49,
+				-45
+			},
+			{
+				2,
+				11,
+				"wuzang_hard_sp2",
+				55,
+				-8
+			},
+			{
+				1,
+				0,
+				"wuzang_hard_sp4",
+				111,
+				-66
+			},
+			{
+				0,
+				10,
+				"wuzang_hard_II_3x1_1",
+				102,
+				3
+			},
+			{
+				0,
+				6,
+				"wuzang_hard_II_2x2_2",
+				57,
+				-37
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_hard",
+			45,
+			20,
+			-736,
+			-198,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"ZIJIANGJINLAN25"
+		},
+		defeat_story = {
+			"ZIJIANGJINLAN28",
+			"ZIJIANGJINLAN29"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100536] = {
+		special_operation_list = "",
+		name = "赫月の暁風",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.511111111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "musashi-2",
+		icon_outline = 0,
+		story_refresh_boss = "ZIJIANGJINLAN31",
+		is_ambush = 0,
+		chapter_name = "D3",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "ZIJIANGJINLAN30",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100536,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100532,
+		pos_x = "0.67109375",
+		formation = 2100532,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1835,
+		investigation_ratio = 0,
+		profiles = "意思の激突で巻き起こす戦火の嵐。暁風を乗り越えた先に見る終焉の赫月は勝利者のみ照らし出す",
+		star_require_3 = 3,
+		difficulty = 10,
+		num_2 = 24,
+		star_require_2 = 2,
+		avoid_ratio = 16,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1410,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100535
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"zhan",
+					5,
+					0
+				},
+				{
+					"quzhu",
+					0,
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					"quzhu",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"cannon",
+				1,
+				1800
+			},
+			{
+				"torpedo",
+				1,
+				1500
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1683201,
+				15,
+				0
+			},
+			{
+				1683202,
+				20,
+				0
+			},
+			{
+				1683203,
+				30,
+				1
+			},
+			{
+				1683204,
+				15,
+				0
+			},
+			{
+				1683205,
+				20,
+				0
+			},
+			{
+				1683206,
+				30,
+				1
+			},
+			{
+				1683207,
+				15,
+				0
+			},
+			{
+				1683208,
+				20,
+				0
+			},
+			{
+				1683209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1683205,
+			1683208
+		},
+		ai_expedition_list = {
+			1683308,
+			1683309,
+			1683310,
+			1683311
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1683213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss5"
+		},
+		awards = {
+			{
+				2,
+				58715
+			},
+			{
+				2,
+				58703
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				1
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				1
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				false,
+				0
+			},
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				16
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				false,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				6
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				8
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				4
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				12
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				4
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				0
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				6
+			},
+			{
+				2,
+				6,
+				false,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				4
+			},
+			{
+				2,
+				4,
+				true,
+				12
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				6
+			},
+			{
+				1,
+				6,
+				true,
+				6
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				6
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				6,
+				"wuzang_hard_II_3x1_2",
+				112,
+				0
+			},
+			{
+				8,
+				0,
+				"wuzang_hard_II_3x1_1",
+				106,
+				0
+			},
+			{
+				6,
+				6,
+				"wuzang_hard_II_1x1_2",
+				0,
+				7
+			},
+			{
+				6,
+				2,
+				"wuzang_hard_II_1x1_2",
+				0,
+				11
+			},
+			{
+				4,
+				4,
+				"wuzang_hard_sp5",
+				-36,
+				57
+			},
+			{
+				2,
+				6,
+				"wuzang_hard_II_1x1_3",
+				0,
+				6
+			},
+			{
+				2,
+				2,
+				"wuzang_hard_II_1x1_3",
+				-9,
+				4
+			},
+			{
+				0,
+				8,
+				"wuzang_hard_I_1x1_2",
+				11,
+				0
+			},
+			{
+				0,
+				0,
+				"wuzang_hard_I_1x1_2",
+				14,
+				-3
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_wuzang_hard",
+			45,
+			20,
+			-242,
+			123,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"ZIJIANGJINLAN32",
+			"ZIJIANGJINLAN33",
+			"ZIJIANGJINLAN34",
+			"ZIJIANGJINLAN35",
+			"ZIJIANGJINLAN36",
+			"ZIJIANGJINLAN37",
+			"ZIJIANGJINLAN38",
+			"ZIJIANGJINLAN39"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200052
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100541] = {
+		special_operation_list = "",
+		name = "イマジナリー・シティ",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.523611111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 3,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-schoolfuture",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE3",
+		is_ambush = 0,
+		chapter_name = "A1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE2",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100541,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100541,
+		pos_x = "0.2515625",
+		formation = 2100541,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 150,
+		investigation_ratio = 0,
+		profiles = "「星の海」にいたはずの指揮官は、見知らぬ海上都市の繁華街で目覚める。そこで待つのはいつもと違う姿の仲間……？",
+		star_require_3 = 3,
+		difficulty = 3,
+		num_2 = 10,
+		star_require_2 = 2,
+		avoid_ratio = 8,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 100,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1700001,
+				15,
+				0
+			},
+			{
+				1700002,
+				20,
+				0
+			},
+			{
+				1700003,
+				30,
+				1
+			},
+			{
+				1700004,
+				15,
+				0
+			},
+			{
+				1700005,
+				20,
+				0
+			},
+			{
+				1700006,
+				30,
+				1
+			},
+			{
+				1700007,
+				15,
+				0
+			},
+			{
+				1700008,
+				20,
+				0
+			},
+			{
+				1700009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1700002,
+			1700005,
+			1700008
+		},
+		ai_expedition_list = {
+			1700301,
+			1700302,
+			1700303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1700013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ofs_daqu"
+		},
+		awards = {
+			{
+				2,
+				58782
+			},
+			{
+				2,
+				58755
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				1
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				3,
+				"meixiII_I_normal_3x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				6,
+				"meixiII_I_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				2,
+				"meixiII_I_normal_1x2_1",
+				0,
+				40
+			},
+			{
+				2,
+				4,
+				"meixiII_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				6,
+				"meixiII_I_normal_2x2_1",
+				55,
+				12
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_normal_I",
+			45,
+			20,
+			-143,
+			-8,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"DINGXIANGZHEDIE4",
+			"DINGXIANGZHEDIE5"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100542] = {
+		special_operation_list = "",
+		name = "トリビュート・スター",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-schoolfuture",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE7",
+		is_ambush = 0,
+		chapter_name = "A2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE6",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100542,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100541,
+		pos_x = "0.38203125",
+		formation = 2100541,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 170,
+		investigation_ratio = 0,
+		profiles = "記録なき未来の「NYシティ」。街に出て観光を楽しむ指揮官と艦船たち。そこで一行が目にしたものは――",
+		star_require_3 = 3,
+		difficulty = 4,
+		num_2 = 7,
+		star_require_2 = 2,
+		avoid_ratio = 9,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 130,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100541
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1700101,
+				15,
+				0
+			},
+			{
+				1700102,
+				20,
+				0
+			},
+			{
+				1700103,
+				30,
+				1
+			},
+			{
+				1700104,
+				15,
+				0
+			},
+			{
+				1700105,
+				20,
+				0
+			},
+			{
+				1700106,
+				30,
+				1
+			},
+			{
+				1700107,
+				15,
+				0
+			},
+			{
+				1700108,
+				20,
+				0
+			},
+			{
+				1700109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1700102,
+			1700105,
+			1700108
+		},
+		ai_expedition_list = {
+			1700304,
+			1700305,
+			1700306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1700113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ofs_zhanlie"
+		},
+		awards = {
+			{
+				2,
+				58783
+			},
+			{
+				2,
+				58756
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				8
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				8
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				12
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				4
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				6,
+				1,
+				"meixiII_I_normal_3x1_2",
+				0,
+				0
+			},
+			{
+				4,
+				5,
+				"meixiII_I_normal_2x2_2",
+				50,
+				20
+			},
+			{
+				3,
+				3,
+				"meixiII_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				1,
+				"meixiII_I_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				0,
+				7,
+				"meixiII_I_normal_2x1_1",
+				40,
+				-15
+			},
+			{
+				0,
+				4,
+				"meixiII_I_normal_1x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_normal_I",
+			45,
+			20,
+			-174,
+			-90,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"DINGXIANGZHEDIE8"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100543] = {
+		special_operation_list = "",
+		name = "フリート・エクササイズ",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.459722223",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-schoolfuture",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE10",
+		is_ambush = 0,
+		chapter_name = "A3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE9",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100543,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100541,
+		pos_x = "0.665625",
+		formation = 2100541,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 215,
+		investigation_ratio = 0,
+		profiles = "違う「素体」の力を身につける「Ⅱ（セカンド）」艤装をテストすべく、指揮官が率いる艦船たちは対抗演習に挑む",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 7,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 165,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100542
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1700201,
+				15,
+				0
+			},
+			{
+				1700202,
+				20,
+				0
+			},
+			{
+				1700203,
+				30,
+				1
+			},
+			{
+				1700204,
+				15,
+				0
+			},
+			{
+				1700205,
+				20,
+				0
+			},
+			{
+				1700206,
+				30,
+				1
+			},
+			{
+				1700207,
+				15,
+				0
+			},
+			{
+				1700208,
+				20,
+				0
+			},
+			{
+				1700209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1700202,
+			1700205,
+			1700208
+		},
+		ai_expedition_list = {
+			1700307,
+			1700308,
+			1700309
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1700213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			0,
+			0,
+			0
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ofs_shenshuijian"
+		},
+		awards = {
+			{
+				2,
+				58784
+			},
+			{
+				2,
+				58757
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54022
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				8
+			},
+			{
+				7,
+				0,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				16
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				1
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				4
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				1
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"meixiII_I_normal_2x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				3,
+				"meixiII_I_normal_1x2_1",
+				0,
+				50
+			},
+			{
+				5,
+				6,
+				"meixiII_I_normal_2x2_1",
+				50,
+				20
+			},
+			{
+				5,
+				0,
+				"meixiII_I_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				4,
+				"meixiII_I_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				2,
+				3,
+				"meixiII_I_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				1,
+				"meixiII_I_normal_3x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_normal_I",
+			45,
+			20,
+			-229,
+			-130,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			4,
+			22,
+			102,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"DINGXIANGZHEDIE12"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100544] = {
+		special_operation_list = "",
+		name = "ドクター・セイレーン",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.302777777",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-aostelab",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE16",
+		is_ambush = 0,
+		chapter_name = "B1",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE14",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100544,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100542,
+		pos_x = "0.23125",
+		formation = 2100542,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 275,
+		investigation_ratio = 0,
+		profiles = "艦船の「創造主」であるアンジュ博士にサモス島へと案内された指揮官。セイレーンを設計した「審判者」と対面する。",
+		star_require_3 = 3,
+		difficulty = 5,
+		num_2 = 14,
+		star_require_2 = 2,
+		avoid_ratio = 10,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 210,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100543
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1701001,
+				15,
+				0
+			},
+			{
+				1701002,
+				20,
+				0
+			},
+			{
+				1701003,
+				30,
+				1
+			},
+			{
+				1701004,
+				15,
+				0
+			},
+			{
+				1701005,
+				20,
+				0
+			},
+			{
+				1701006,
+				30,
+				1
+			},
+			{
+				1701007,
+				15,
+				0
+			},
+			{
+				1701008,
+				20,
+				0
+			},
+			{
+				1701009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1701002,
+			1701005,
+			1701008
+		},
+		ai_expedition_list = {
+			1701301,
+			1701302,
+			1701303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1701013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss15"
+		},
+		awards = {
+			{
+				2,
+				58785
+			},
+			{
+				2,
+				58758
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				1
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				8
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				4
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				4
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"meixiII_II_normal_3x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				0,
+				"meixiII_II_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				3,
+				"meixiII_II_normal_3x1_1",
+				100,
+				0
+			},
+			{
+				3,
+				3,
+				"meixiII_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				7,
+				"meixiII_II_normal_2x2_1",
+				50,
+				15
+			},
+			{
+				0,
+				2,
+				"meixiII_II_normal_1x1_3",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_normal_II",
+			45,
+			20,
+			-206,
+			35,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"DINGXIANGZHEDIE15"
+		},
+		defeat_story = {
+			"DINGXIANGZHEDIE17",
+			"DINGXIANGZHEDIE18"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200239
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100545] = {
+		special_operation_list = "",
+		name = "デビル・オン・ザ・タワー",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-threat-typeV",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE21",
+		is_ambush = 0,
+		chapter_name = "B2",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE19",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100545,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100542,
+		pos_x = "0.5390625",
+		formation = 2100542,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 350,
+		investigation_ratio = 0,
+		profiles = "オースタ博士の新兵器「デビルXV」との演習をする艦船たち。狙いを定めて、アンチエックスの魔弾が静かに撃ち出された。",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 15,
+		star_require_2 = 2,
+		avoid_ratio = 11,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 270,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100544
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1701101,
+				15,
+				0
+			},
+			{
+				1701102,
+				20,
+				0
+			},
+			{
+				1701103,
+				30,
+				1
+			},
+			{
+				1701104,
+				15,
+				0
+			},
+			{
+				1701105,
+				20,
+				0
+			},
+			{
+				1701106,
+				30,
+				1
+			},
+			{
+				1701107,
+				15,
+				0
+			},
+			{
+				1701108,
+				20,
+				0
+			},
+			{
+				1701109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1701102,
+			1701105,
+			1701108
+		},
+		ai_expedition_list = {
+			1701304,
+			1701305,
+			1701306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1701113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss16"
+		},
+		awards = {
+			{
+				2,
+				58786
+			},
+			{
+				2,
+				58759
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54023
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				4
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				8
+			},
+			{
+				7,
+				1,
+				true,
+				8
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				4
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				1
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				4
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				8,
+				2,
+				"meixiII_II_normal_2x1_2",
+				-50,
+				-10
+			},
+			{
+				7,
+				8,
+				"meixiII_II_normal_1x2_1",
+				0,
+				-20
+			},
+			{
+				6,
+				0,
+				"meixiII_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				5,
+				6,
+				"meixiII_II_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				8,
+				"meixiII_II_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				3,
+				2,
+				"meixiII_II_normal_2x2_2",
+				40,
+				50
+			},
+			{
+				0,
+				5,
+				"meixiII_II_normal_2x1_1",
+				40,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_normal_II",
+			45,
+			20,
+			-290,
+			-34,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"DINGXIANGZHEDIE20"
+		},
+		defeat_story = {
+			"DINGXIANGZHEDIE22",
+			"DINGXIANGZHEDIE23"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200240
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100546] = {
+		special_operation_list = "",
+		name = "カウンティング・ダウン",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.511111111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-thedevilXV",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE25",
+		is_ambush = 0,
+		chapter_name = "B3",
+		type = 1,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE24",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100546,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100542,
+		pos_x = "0.67109375",
+		formation = 2100542,
+		mitigation_level = 5,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 430,
+		investigation_ratio = 0,
+		profiles = "「アビータ」、そして「再現」の出現により崩れつつある仮初の平和。未来への希望を指揮官は現実に持ち帰る事ができるのだろうか",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 21,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 330,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100545
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {},
+		property_limitation = {},
+		expedition_id_weight_list = {
+			{
+				1701201,
+				15,
+				0
+			},
+			{
+				1701202,
+				20,
+				0
+			},
+			{
+				1701203,
+				30,
+				1
+			},
+			{
+				1701204,
+				15,
+				0
+			},
+			{
+				1701205,
+				20,
+				0
+			},
+			{
+				1701206,
+				30,
+				1
+			},
+			{
+				1701207,
+				15,
+				0
+			},
+			{
+				1701208,
+				20,
+				0
+			},
+			{
+				1701209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1701202,
+			1701205,
+			1701208
+		},
+		ai_expedition_list = {
+			1701307,
+			1701308
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1701213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss17"
+		},
+		awards = {
+			{
+				2,
+				58787
+			},
+			{
+				2,
+				58760
+			},
+			{
+				2,
+				54012
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				8
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				7,
+				"meixiII_II_normal_2x1_2",
+				-50,
+				0
+			},
+			{
+				8,
+				1,
+				"meixiII_II_normal_3x1_2",
+				100,
+				0
+			},
+			{
+				7,
+				8,
+				"meixiII_II_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				7,
+				0,
+				"meixiII_II_normal_1x2_1",
+				20,
+				60
+			},
+			{
+				6,
+				4,
+				"meixiII_II_normal_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				2,
+				"meixiII_II_normal_1x1_2",
+				0,
+				0
+			},
+			{
+				3,
+				5,
+				"meixiII_II_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				1,
+				7,
+				"meixiII_II_normal_2x2_1",
+				60,
+				15
+			},
+			{
+				1,
+				0,
+				"meixiII_II_normal_1x1_3",
+				0,
+				0
+			},
+			{
+				0,
+				1,
+				"meixiII_II_normal_2x1_1",
+				60,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_normal_II",
+			45,
+			20,
+			-242,
+			123,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			5,
+			22,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"DINGXIANGZHEDIE27",
+			"DINGXIANGZHEDIE28",
+			"DINGXIANGZHEDIE29",
+			"DINGXIANGZHEDIE30",
+			"DINGXIANGZHEDIE31",
+			"DINGXIANGZHEDIE32",
+			"DINGXIANGZHEDIE33",
+			"DINGXIANGZHEDIE34",
+			"DINGXIANGZHEDIE35"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				5,
+				4
+			},
+			{
+				3,
+				2
+			},
+			{
+				1,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200241,
+			200242
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100551] = {
+		special_operation_list = "",
+		name = "イマジナリー・シティ",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.523611111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-schoolfuture",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE3",
+		is_ambush = 0,
+		chapter_name = "C1",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE2",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100551,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100551,
+		pos_x = "0.2515625",
+		formation = 2100551,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 590,
+		investigation_ratio = 0,
+		profiles = "「星の海」にいたはずの指揮官は、見知らぬ海上都市の繁華街で目覚める。そこで待つのはいつもと違う姿の仲間……？",
+		star_require_3 = 3,
+		difficulty = 6,
+		num_2 = 13,
+		star_require_2 = 2,
+		avoid_ratio = 12,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 455,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				0
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				70
+			},
+			{
+				"cannon",
+				1,
+				700
+			},
+			{
+				"dodge",
+				1,
+				350
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1702001,
+				15,
+				0
+			},
+			{
+				1702002,
+				20,
+				0
+			},
+			{
+				1702003,
+				30,
+				1
+			},
+			{
+				1702004,
+				15,
+				0
+			},
+			{
+				1702005,
+				20,
+				0
+			},
+			{
+				1702006,
+				30,
+				1
+			},
+			{
+				1702007,
+				15,
+				0
+			},
+			{
+				1702008,
+				20,
+				0
+			},
+			{
+				1702009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1702002,
+			1702005,
+			1702008
+		},
+		ai_expedition_list = {
+			1702301,
+			1702302,
+			1702303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1702013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ofs_daqu"
+		},
+		awards = {
+			{
+				2,
+				58788
+			},
+			{
+				2,
+				58761
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				false,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				4
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				1
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				16
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				6
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				12
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				8
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				false,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				false,
+				0
+			},
+			{
+				1,
+				6,
+				false,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				4
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				6
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				true,
+				6
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				3,
+				"meixiII_I_hard_3x1_1",
+				0,
+				0
+			},
+			{
+				5,
+				6,
+				"meixiII_I_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				2,
+				"meixiII_I_hard_1x2_1",
+				0,
+				40
+			},
+			{
+				2,
+				4,
+				"meixiII_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				6,
+				"meixiII_I_hard_2x2_1",
+				55,
+				12
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_hard_I",
+			45,
+			20,
+			-143,
+			-8,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"DINGXIANGZHEDIE4",
+			"DINGXIANGZHEDIE5"
+		},
+		defeat_story_count = {
+			1,
+			2
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100552] = {
+		special_operation_list = "",
+		name = "トリビュート・スター",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 4,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-schoolfuture",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE7",
+		is_ambush = 0,
+		chapter_name = "C2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE6",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100552,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100551,
+		pos_x = "0.38203125",
+		formation = 2100551,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 785,
+		investigation_ratio = 0,
+		profiles = "記録なき未来の「NYシティ」。街に出て観光を楽しむ指揮官と艦船たち。そこで一行が目にしたものは――",
+		star_require_3 = 3,
+		difficulty = 7,
+		num_2 = 9,
+		star_require_2 = 2,
+		avoid_ratio = 13,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 605,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100551
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				75
+			},
+			{
+				"cannon",
+				1,
+				800
+			},
+			{
+				"reload",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1702101,
+				15,
+				0
+			},
+			{
+				1702102,
+				20,
+				0
+			},
+			{
+				1702103,
+				30,
+				1
+			},
+			{
+				1702104,
+				15,
+				0
+			},
+			{
+				1702105,
+				20,
+				0
+			},
+			{
+				1702106,
+				30,
+				1
+			},
+			{
+				1702107,
+				15,
+				0
+			},
+			{
+				1702108,
+				20,
+				0
+			},
+			{
+				1702109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1702102,
+			1702105,
+			1702108
+		},
+		ai_expedition_list = {
+			1702304,
+			1702305,
+			1702306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1702113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ofs_zhanlie"
+		},
+		awards = {
+			{
+				2,
+				58789
+			},
+			{
+				2,
+				58762
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				6
+			},
+			{
+				6,
+				2,
+				false,
+				0
+			},
+			{
+				6,
+				1,
+				false,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				6
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				6
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				6
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				4
+			},
+			{
+				4,
+				7,
+				true,
+				8
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				12
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				6
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				1
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				8
+			},
+			{
+				3,
+				6,
+				false,
+				0
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				1
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				12
+			},
+			{
+				2,
+				5,
+				true,
+				16
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				false,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				4
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				12
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				4
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				4
+			},
+			{
+				0,
+				4,
+				false,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				6,
+				1,
+				"meixiII_I_hard_3x1_2",
+				0,
+				0
+			},
+			{
+				4,
+				5,
+				"meixiII_I_hard_2x2_2",
+				50,
+				20
+			},
+			{
+				3,
+				3,
+				"meixiII_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				2,
+				1,
+				"meixiII_I_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				0,
+				7,
+				"meixiII_I_hard_2x1_1",
+				40,
+				-15
+			},
+			{
+				0,
+				4,
+				"meixiII_I_hard_1x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_hard_I",
+			45,
+			20,
+			-174,
+			-90,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"DINGXIANGZHEDIE8"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100553] = {
+		special_operation_list = "",
+		name = "フリート・エクササイズ",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.459722223",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-schoolfuture",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE10",
+		is_ambush = 0,
+		chapter_name = "C3",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE9",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100553,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100551,
+		pos_x = "0.665625",
+		formation = 2100551,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1010,
+		investigation_ratio = 0,
+		profiles = "違う「素体」の力を身につける「Ⅱ（セカンド）」艤装をテストすべく、指揮官が率いる艦船たちは対抗演習に挑む",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 9,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 775,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100552
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					0,
+					0
+				},
+				{
+					2,
+					"fanqian",
+					0
+				}
+			},
+			{
+				{
+					0,
+					0,
+					0
+				},
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				80
+			},
+			{
+				"cannon",
+				1,
+				1100
+			},
+			{
+				"antiaircraft",
+				1,
+				1750
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1702201,
+				15,
+				0
+			},
+			{
+				1702202,
+				20,
+				0
+			},
+			{
+				1702203,
+				30,
+				1
+			},
+			{
+				1702204,
+				15,
+				0
+			},
+			{
+				1702205,
+				20,
+				0
+			},
+			{
+				1702206,
+				30,
+				1
+			},
+			{
+				1702207,
+				15,
+				0
+			},
+			{
+				1702208,
+				20,
+				0
+			},
+			{
+				1702209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1702202,
+			1702205,
+			1702208
+		},
+		ai_expedition_list = {
+			1702307,
+			1702308,
+			1702309
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1702213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			0
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"ofs_shenshuijian"
+		},
+		awards = {
+			{
+				2,
+				58790
+			},
+			{
+				2,
+				58763
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				false,
+				0
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				6
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				false,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				8
+			},
+			{
+				7,
+				0,
+				true,
+				8
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				6
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				4
+			},
+			{
+				6,
+				3,
+				false,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				false,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				16
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				6
+			},
+			{
+				4,
+				7,
+				false,
+				0
+			},
+			{
+				4,
+				6,
+				false,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				12
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				4
+			},
+			{
+				3,
+				8,
+				true,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				4
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				true,
+				6
+			},
+			{
+				3,
+				4,
+				true,
+				0
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				6
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				1
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				6
+			},
+			{
+				1,
+				3,
+				true,
+				12
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				4
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				1
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				false,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				7,
+				"meixiII_I_hard_2x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				3,
+				"meixiII_I_hard_1x2_1",
+				0,
+				50
+			},
+			{
+				5,
+				6,
+				"meixiII_I_hard_2x2_1",
+				50,
+				20
+			},
+			{
+				5,
+				0,
+				"meixiII_I_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				4,
+				4,
+				"meixiII_I_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				2,
+				3,
+				"meixiII_I_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				0,
+				1,
+				"meixiII_I_hard_3x1_1",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_hard_I",
+			45,
+			20,
+			-229,
+			-130,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			7,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"DINGXIANGZHEDIE12"
+		},
+		defeat_story_count = {
+			1
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100554] = {
+		special_operation_list = "",
+		name = "ドクター・セイレーン",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.302777777",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 5,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-aostelab",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE16",
+		is_ambush = 0,
+		chapter_name = "D1",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE14",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100554,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100552,
+		pos_x = "0.23125",
+		formation = 2100552,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1105,
+		investigation_ratio = 0,
+		profiles = "艦船の「創造主」であるアンジュ博士にサモス島へと案内された指揮官。セイレーンを設計した「審判者」と対面する。",
+		star_require_3 = 3,
+		difficulty = 8,
+		num_2 = 16,
+		star_require_2 = 2,
+		avoid_ratio = 14,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 850,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100553
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					"hang",
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				90
+			},
+			{
+				"air",
+				1,
+				1200
+			},
+			{
+				"antiaircraft",
+				1,
+				1900
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1703001,
+				15,
+				0
+			},
+			{
+				1703002,
+				20,
+				0
+			},
+			{
+				1703003,
+				30,
+				1
+			},
+			{
+				1703004,
+				15,
+				0
+			},
+			{
+				1703005,
+				20,
+				0
+			},
+			{
+				1703006,
+				30,
+				1
+			},
+			{
+				1703007,
+				15,
+				0
+			},
+			{
+				1703008,
+				20,
+				0
+			},
+			{
+				1703009,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1703002,
+			1703005,
+			1703008
+		},
+		ai_expedition_list = {
+			1703301,
+			1703302,
+			1703303
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1703013
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			29,
+			39,
+			15
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss15"
+		},
+		awards = {
+			{
+				2,
+				58791
+			},
+			{
+				2,
+				58764
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				7,
+				8,
+				true,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				false,
+				0
+			},
+			{
+				7,
+				5,
+				false,
+				0
+			},
+			{
+				7,
+				4,
+				false,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				6
+			},
+			{
+				7,
+				2,
+				true,
+				0
+			},
+			{
+				7,
+				1,
+				true,
+				1
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				6
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				6
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				12
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				true,
+				1
+			},
+			{
+				5,
+				8,
+				true,
+				0
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				12
+			},
+			{
+				5,
+				5,
+				true,
+				6
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				6
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				false,
+				0
+			},
+			{
+				4,
+				4,
+				false,
+				0
+			},
+			{
+				4,
+				3,
+				false,
+				0
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				4
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				4
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				6
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				4
+			},
+			{
+				2,
+				8,
+				true,
+				4
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				0
+			},
+			{
+				2,
+				2,
+				true,
+				12
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				8
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				6
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				0
+			},
+			{
+				1,
+				0,
+				true,
+				6
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				4
+			},
+			{
+				0,
+				5,
+				true,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				4
+			},
+			{
+				0,
+				3,
+				true,
+				0
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				6
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				7,
+				5,
+				"meixiII_II_hard_3x1_2",
+				0,
+				0
+			},
+			{
+				7,
+				0,
+				"meixiII_II_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				3,
+				"meixiII_II_hard_3x1_1",
+				100,
+				0
+			},
+			{
+				3,
+				3,
+				"meixiII_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				1,
+				7,
+				"meixiII_II_hard_2x2_1",
+				50,
+				15
+			},
+			{
+				0,
+				2,
+				"meixiII_II_hard_1x1_3",
+				0,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_hard_II",
+			45,
+			20,
+			-206,
+			35,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"DINGXIANGZHEDIE15"
+		},
+		defeat_story = {
+			"DINGXIANGZHEDIE17",
+			"DINGXIANGZHEDIE18"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200239
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100555] = {
+		special_operation_list = "",
+		name = "デビル・オン・ザ・タワー",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.069444444",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-threat-typeV",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE21",
+		is_ambush = 0,
+		chapter_name = "D2",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE19",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100555,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100552,
+		pos_x = "0.5390625",
+		formation = 2100552,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1430,
+		investigation_ratio = 0,
+		profiles = "オースタ博士の新兵器「デビルXV」との演習をする艦船たち。狙いを定めて、アンチエックスの魔弾が静かに撃ち出された。",
+		star_require_3 = 3,
+		difficulty = 9,
+		num_2 = 18,
+		star_require_2 = 2,
+		avoid_ratio = 15,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1100,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100554
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					"hang",
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				95
+			},
+			{
+				"air",
+				1,
+				1350
+			},
+			{
+				"antiaircraft",
+				1,
+				2200
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1703101,
+				15,
+				0
+			},
+			{
+				1703102,
+				20,
+				0
+			},
+			{
+				1703103,
+				30,
+				1
+			},
+			{
+				1703104,
+				15,
+				0
+			},
+			{
+				1703105,
+				20,
+				0
+			},
+			{
+				1703106,
+				30,
+				1
+			},
+			{
+				1703107,
+				15,
+				0
+			},
+			{
+				1703108,
+				20,
+				0
+			},
+			{
+				1703109,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1703102,
+			1703105,
+			1703108
+		},
+		ai_expedition_list = {
+			1703304,
+			1703305,
+			1703306
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1703113
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			32,
+			43,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss16"
+		},
+		awards = {
+			{
+				2,
+				58792
+			},
+			{
+				2,
+				58765
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				false,
+				0
+			},
+			{
+				8,
+				7,
+				true,
+				0
+			},
+			{
+				8,
+				6,
+				true,
+				4
+			},
+			{
+				8,
+				5,
+				true,
+				0
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				true,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				0
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				4
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				8
+			},
+			{
+				7,
+				1,
+				true,
+				8
+			},
+			{
+				7,
+				0,
+				true,
+				0
+			},
+			{
+				6,
+				8,
+				false,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				12
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				0
+			},
+			{
+				6,
+				4,
+				true,
+				6
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				0
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				false,
+				0
+			},
+			{
+				5,
+				5,
+				true,
+				12
+			},
+			{
+				5,
+				4,
+				true,
+				0
+			},
+			{
+				5,
+				3,
+				true,
+				16
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				4
+			},
+			{
+				5,
+				0,
+				true,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				6
+			},
+			{
+				4,
+				6,
+				true,
+				6
+			},
+			{
+				4,
+				5,
+				true,
+				0
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				true,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				6
+			},
+			{
+				3,
+				8,
+				false,
+				0
+			},
+			{
+				3,
+				7,
+				true,
+				12
+			},
+			{
+				3,
+				6,
+				true,
+				0
+			},
+			{
+				3,
+				5,
+				true,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				6
+			},
+			{
+				3,
+				3,
+				false,
+				0
+			},
+			{
+				3,
+				2,
+				false,
+				0
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				6
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				0
+			},
+			{
+				2,
+				5,
+				true,
+				0
+			},
+			{
+				2,
+				4,
+				true,
+				6
+			},
+			{
+				2,
+				3,
+				false,
+				0
+			},
+			{
+				2,
+				2,
+				false,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				true,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				0
+			},
+			{
+				1,
+				6,
+				true,
+				1
+			},
+			{
+				1,
+				5,
+				true,
+				1
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				6
+			},
+			{
+				1,
+				1,
+				true,
+				4
+			},
+			{
+				1,
+				0,
+				true,
+				0
+			},
+			{
+				0,
+				8,
+				true,
+				0
+			},
+			{
+				0,
+				7,
+				true,
+				0
+			},
+			{
+				0,
+				6,
+				false,
+				0
+			},
+			{
+				0,
+				5,
+				false,
+				0
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				true,
+				0
+			},
+			{
+				0,
+				1,
+				true,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				6
+			}
+		},
+		float_items = {
+			{
+				8,
+				2,
+				"meixiII_II_hard_2x1_2",
+				-50,
+				-10
+			},
+			{
+				7,
+				8,
+				"meixiII_II_hard_1x2_1",
+				0,
+				-20
+			},
+			{
+				6,
+				0,
+				"meixiII_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				5,
+				6,
+				"meixiII_II_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				3,
+				8,
+				"meixiII_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				3,
+				2,
+				"meixiII_II_hard_2x2_2",
+				40,
+				50
+			},
+			{
+				0,
+				5,
+				"meixiII_II_hard_2x1_1",
+				40,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_hard_II",
+			45,
+			20,
+			-290,
+			-34,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {
+			"DINGXIANGZHEDIE20"
+		},
+		defeat_story = {
+			"DINGXIANGZHEDIE22",
+			"DINGXIANGZHEDIE23"
+		},
+		defeat_story_count = {
+			1,
+			3
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200240
+		},
+		wall_prefab = {},
+		alarm_cell = {},
+		weather_grids = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.chapter_template[2100556] = {
+		special_operation_list = "",
+		name = "カウンティング・ダウン",
+		count = 0,
+		pop_pic = "",
+		act_id = 100001,
+		pos_y = "0.511111111",
+		model = 2,
+		progress_boss = 100,
+		is_ai = 1,
+		boss_refresh = 6,
+		is_limit_move = 1,
+		oil = 10,
+		chapter_fx = "",
+		ItemTransformPattern = "",
+		bgm = "theme-thedevilXV",
+		icon_outline = 0,
+		story_refresh_boss = "DINGXIANGZHEDIE25",
+		is_ambush = 0,
+		chapter_name = "D3",
+		type = 2,
+		chapter_tag = 0,
+		bg = "",
+		enter_story = "DINGXIANGZHEDIE24",
+		levelstage_bar = "",
+		event_skip = 0,
+		mitigation_rate = 2,
+		ammo_submarine = 0,
+		is_air_attack = 0,
+		id = 2100556,
+		ammo_total = 5,
+		pre_story = 0,
+		lose_condition_display = "lose_condition_display_quanmie",
+		map = 2100552,
+		pos_x = "0.67109375",
+		formation = 2100552,
+		mitigation_level = 8,
+		friendly_id = 0,
+		group_num = 2,
+		star_require_1 = 1,
+		collection_team = 0,
+		enter_story_limit = "",
+		num_1 = 1,
+		best_air_dominance = 1835,
+		investigation_ratio = 0,
+		profiles = "「アビータ」、そして「再現」の出現により崩れつつある仮初の平和。未来への希望を指揮官は現実に持ち帰る事ができるのだろうか",
+		star_require_3 = 3,
+		difficulty = 10,
+		num_2 = 24,
+		star_require_2 = 2,
+		avoid_ratio = 16,
+		time = 43200,
+		support_group_num = 0,
+		win_condition_display = "win_condition_display_qijian",
+		num_3 = 1,
+		avoid_require = 0,
+		unlocklevel = 0,
+		air_dominance = 1410,
+		submarine_num = 1,
+		uifx = "",
+		pre_chapter = {
+			{
+				2100555
+			}
+		},
+		scale = {
+			0.34,
+			0.53,
+			1.5
+		},
+		limitation = {
+			{
+				{
+					"hang",
+					"hang",
+					0
+				},
+				{
+					2,
+					"quzhu",
+					0
+				}
+			},
+			{
+				{
+					5,
+					0,
+					0
+				},
+				{
+					3,
+					"fanqian",
+					0
+				}
+			}
+		},
+		property_limitation = {
+			{
+				"level",
+				1,
+				100
+			},
+			{
+				"air",
+				1,
+				1700
+			},
+			{
+				"dodge",
+				1,
+				800
+			}
+		},
+		expedition_id_weight_list = {
+			{
+				1703201,
+				15,
+				0
+			},
+			{
+				1703202,
+				20,
+				0
+			},
+			{
+				1703203,
+				30,
+				1
+			},
+			{
+				1703204,
+				15,
+				0
+			},
+			{
+				1703205,
+				20,
+				0
+			},
+			{
+				1703206,
+				30,
+				1
+			},
+			{
+				1703207,
+				15,
+				0
+			},
+			{
+				1703208,
+				20,
+				0
+			},
+			{
+				1703209,
+				30,
+				1
+			}
+		},
+		ambush_expedition_list = {},
+		guarder_expedition_list = {},
+		elite_expedition_list = {
+			1703202,
+			1703205,
+			1703208
+		},
+		ai_expedition_list = {
+			1703307,
+			1703308
+		},
+		patrolai_expedition_list = {
+			1
+		},
+		submarine_expedition_list = {
+			1
+		},
+		boss_expedition_id = {
+			1703213
+		},
+		enemy_refresh = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		elite_refresh = {
+			1,
+			0,
+			1,
+			0,
+			1
+		},
+		ai_refresh = {
+			2,
+			0,
+			1
+		},
+		patrolai_refresh = {
+			0
+		},
+		submarine_refresh = {
+			0
+		},
+		use_oil_limit = {
+			35,
+			47,
+			16
+		},
+		win_condition = {
+			{
+				1,
+				1
+			}
+		},
+		lose_condition = {
+			{
+				1,
+				0
+			}
+		},
+		icon = {
+			"sairenboss17"
+		},
+		awards = {
+			{
+				2,
+				58793
+			},
+			{
+				2,
+				58766
+			},
+			{
+				2,
+				54013
+			},
+			{
+				2,
+				54024
+			},
+			{
+				2,
+				59001
+			}
+		},
+		grids = {
+			{
+				8,
+				8,
+				true,
+				0
+			},
+			{
+				8,
+				7,
+				false,
+				0
+			},
+			{
+				8,
+				6,
+				false,
+				0
+			},
+			{
+				8,
+				5,
+				true,
+				6
+			},
+			{
+				8,
+				4,
+				true,
+				0
+			},
+			{
+				8,
+				3,
+				false,
+				0
+			},
+			{
+				8,
+				2,
+				false,
+				0
+			},
+			{
+				8,
+				1,
+				false,
+				0
+			},
+			{
+				8,
+				0,
+				true,
+				0
+			},
+			{
+				7,
+				8,
+				false,
+				0
+			},
+			{
+				7,
+				7,
+				true,
+				6
+			},
+			{
+				7,
+				6,
+				true,
+				0
+			},
+			{
+				7,
+				5,
+				true,
+				0
+			},
+			{
+				7,
+				4,
+				true,
+				0
+			},
+			{
+				7,
+				3,
+				true,
+				0
+			},
+			{
+				7,
+				2,
+				true,
+				1
+			},
+			{
+				7,
+				1,
+				true,
+				0
+			},
+			{
+				7,
+				0,
+				false,
+				0
+			},
+			{
+				6,
+				8,
+				true,
+				0
+			},
+			{
+				6,
+				7,
+				true,
+				0
+			},
+			{
+				6,
+				6,
+				true,
+				0
+			},
+			{
+				6,
+				5,
+				true,
+				4
+			},
+			{
+				6,
+				4,
+				false,
+				0
+			},
+			{
+				6,
+				3,
+				true,
+				0
+			},
+			{
+				6,
+				2,
+				true,
+				0
+			},
+			{
+				6,
+				1,
+				true,
+				1
+			},
+			{
+				6,
+				0,
+				false,
+				0
+			},
+			{
+				5,
+				8,
+				true,
+				6
+			},
+			{
+				5,
+				7,
+				true,
+				0
+			},
+			{
+				5,
+				6,
+				true,
+				4
+			},
+			{
+				5,
+				5,
+				true,
+				0
+			},
+			{
+				5,
+				4,
+				true,
+				12
+			},
+			{
+				5,
+				3,
+				true,
+				0
+			},
+			{
+				5,
+				2,
+				true,
+				0
+			},
+			{
+				5,
+				1,
+				true,
+				0
+			},
+			{
+				5,
+				0,
+				false,
+				0
+			},
+			{
+				4,
+				8,
+				true,
+				0
+			},
+			{
+				4,
+				7,
+				true,
+				0
+			},
+			{
+				4,
+				6,
+				true,
+				0
+			},
+			{
+				4,
+				5,
+				true,
+				12
+			},
+			{
+				4,
+				4,
+				true,
+				0
+			},
+			{
+				4,
+				3,
+				true,
+				12
+			},
+			{
+				4,
+				2,
+				false,
+				0
+			},
+			{
+				4,
+				1,
+				true,
+				0
+			},
+			{
+				4,
+				0,
+				true,
+				0
+			},
+			{
+				3,
+				8,
+				true,
+				6
+			},
+			{
+				3,
+				7,
+				true,
+				0
+			},
+			{
+				3,
+				6,
+				true,
+				6
+			},
+			{
+				3,
+				5,
+				false,
+				0
+			},
+			{
+				3,
+				4,
+				true,
+				12
+			},
+			{
+				3,
+				3,
+				true,
+				0
+			},
+			{
+				3,
+				2,
+				true,
+				4
+			},
+			{
+				3,
+				1,
+				true,
+				0
+			},
+			{
+				3,
+				0,
+				true,
+				6
+			},
+			{
+				2,
+				8,
+				true,
+				0
+			},
+			{
+				2,
+				7,
+				true,
+				0
+			},
+			{
+				2,
+				6,
+				true,
+				16
+			},
+			{
+				2,
+				5,
+				true,
+				6
+			},
+			{
+				2,
+				4,
+				true,
+				0
+			},
+			{
+				2,
+				3,
+				true,
+				4
+			},
+			{
+				2,
+				2,
+				true,
+				0
+			},
+			{
+				2,
+				1,
+				true,
+				0
+			},
+			{
+				2,
+				0,
+				true,
+				0
+			},
+			{
+				1,
+				8,
+				false,
+				0
+			},
+			{
+				1,
+				7,
+				true,
+				8
+			},
+			{
+				1,
+				6,
+				true,
+				0
+			},
+			{
+				1,
+				5,
+				true,
+				0
+			},
+			{
+				1,
+				4,
+				true,
+				0
+			},
+			{
+				1,
+				3,
+				true,
+				0
+			},
+			{
+				1,
+				2,
+				true,
+				0
+			},
+			{
+				1,
+				1,
+				true,
+				6
+			},
+			{
+				1,
+				0,
+				false,
+				0
+			},
+			{
+				0,
+				8,
+				false,
+				0
+			},
+			{
+				0,
+				7,
+				false,
+				0
+			},
+			{
+				0,
+				6,
+				true,
+				0
+			},
+			{
+				0,
+				5,
+				true,
+				6
+			},
+			{
+				0,
+				4,
+				true,
+				0
+			},
+			{
+				0,
+				3,
+				true,
+				6
+			},
+			{
+				0,
+				2,
+				false,
+				0
+			},
+			{
+				0,
+				1,
+				false,
+				0
+			},
+			{
+				0,
+				0,
+				true,
+				0
+			}
+		},
+		float_items = {
+			{
+				8,
+				7,
+				"meixiII_II_hard_2x1_2",
+				-50,
+				0
+			},
+			{
+				8,
+				1,
+				"meixiII_II_hard_3x1_2",
+				100,
+				0
+			},
+			{
+				7,
+				8,
+				"meixiII_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				7,
+				0,
+				"meixiII_II_hard_1x2_1",
+				20,
+				60
+			},
+			{
+				6,
+				4,
+				"meixiII_II_hard_1x1_1",
+				0,
+				0
+			},
+			{
+				4,
+				2,
+				"meixiII_II_hard_1x1_2",
+				0,
+				0
+			},
+			{
+				3,
+				5,
+				"meixiII_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				1,
+				7,
+				"meixiII_II_hard_2x2_1",
+				60,
+				15
+			},
+			{
+				1,
+				0,
+				"meixiII_II_hard_1x1_3",
+				0,
+				0
+			},
+			{
+				0,
+				1,
+				"meixiII_II_hard_2x1_1",
+				60,
+				0
+			}
+		},
+		ambush_event_ratio = {},
+		ambush_ratio_extra = {},
+		theme = {
+			"sea_meixiII_hard_II",
+			45,
+			20,
+			-242,
+			123,
+			100,
+			100,
+			4,
+			4,
+			""
+		},
+		box_list = {},
+		random_box_list = {
+			9,
+			23,
+			103,
+			1004,
+			5001
+		},
+		box_refresh = {
+			0
+		},
+		box_auto_pick = {},
+		story_refresh = {},
+		defeat_story = {
+			"DINGXIANGZHEDIE27",
+			"DINGXIANGZHEDIE28",
+			"DINGXIANGZHEDIE29",
+			"DINGXIANGZHEDIE30",
+			"DINGXIANGZHEDIE31",
+			"DINGXIANGZHEDIE32",
+			"DINGXIANGZHEDIE33",
+			"DINGXIANGZHEDIE34",
+			"DINGXIANGZHEDIE35"
+		},
+		defeat_story_count = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9
+		},
+		npc_data = {},
+		risk_levels = {
+			{
+				8,
+				6
+			},
+			{
+				5,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				0,
+				0
+			}
+		},
+		land_based = {},
+		chapter_strategy = {
+			200241,
+			200242
 		},
 		wall_prefab = {},
 		alarm_cell = {},
@@ -600073,6 +635913,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"TACT10001"
 		},
@@ -600569,6 +636410,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"TACT10004"
 		},
@@ -601094,6 +636936,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"TACT10007"
 		},
@@ -601690,6 +637533,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -602383,6 +638227,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -603134,6 +638979,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -603834,6 +639680,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"ZHUNUO2"
 		},
@@ -604553,6 +640400,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -605278,6 +641126,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -605801,6 +641650,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -606383,6 +642233,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -607003,6 +642854,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -607606,6 +643458,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"OUXIANGHUODONG3"
 		},
@@ -608306,6 +644159,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -609004,6 +644858,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"OUXIANGHUODONG14"
@@ -609708,6 +645563,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -610406,6 +646262,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"OUXIANGHUODONG23",
@@ -610951,6 +646808,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"LONGXIANGHUODONG2"
 		},
@@ -611553,6 +647411,7 @@ end)()
 		box_refresh = {
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LONGXIANGHUODONG7"
@@ -612196,6 +648055,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"LONGXIANGHUODONG11"
@@ -612776,6 +648636,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZUIZHENGUIDEBAOWU2"
@@ -613462,6 +649323,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -614104,6 +649966,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"ZUIZHENGUIDEBAOWU9",
@@ -614702,6 +650565,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JICHANG5"
@@ -615386,6 +651250,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JICHANG9"
@@ -616077,6 +651942,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JICHANG13"
@@ -616783,6 +652649,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JICHANG17"
@@ -617705,6 +653572,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JICHANG21",
@@ -618305,6 +654173,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NAERWEIKE2"
@@ -619040,6 +654909,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -619804,6 +655674,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {},
 		defeat_story_count = {},
@@ -620560,6 +656431,7 @@ end)()
 			0,
 			1
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"NAERWEIKE12"
@@ -621202,6 +657074,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YESEXIADEGUITU3"
@@ -621883,6 +657756,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YESEXIADEGUITU6"
@@ -622565,6 +658439,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"YESEXIADEGUITU9"
@@ -623318,6 +659193,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIAWANJIANDEFANJI4"
@@ -624079,6 +659955,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIAWANJIANDEFANJI8"
@@ -624839,6 +660716,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XIAWANJIANDEFANJI12",
@@ -625453,6 +661331,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"HUAPOHAIKONGZHIYI3"
@@ -626077,6 +661956,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"HUAPOHAIKONGZHIYI6"
@@ -626702,6 +662582,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"HUAPOHAIKONGZHIYI10"
@@ -627329,6 +663210,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JIENUOWADEYANHUO4"
@@ -628005,6 +663887,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JIENUOWADEYANHUO7"
@@ -628741,6 +664624,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JIENUOWADEYANHUO11",
@@ -629367,6 +665251,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUXIANGGOUZHUZHITAXUZHANG3"
@@ -630053,6 +665938,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"XUXIANGGOUZHUZHITAXUZHANG5"
 		},
@@ -630741,6 +666627,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUXIANGGOUZHUZHITAXUZHANG9"
@@ -631439,6 +667326,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"XUXIANGGOUZHUZHITAXUZHANG11"
@@ -632172,6 +668060,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JUFENGYUQINGCHUNZHIQUAN6"
@@ -632907,6 +668796,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JUFENGYUQINGCHUNZHIQUAN10"
@@ -633712,6 +669602,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JUFENGYUQINGCHUNZHIQUAN13"
@@ -634512,6 +670403,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {},
 		defeat_story = {
 			"JUFENGYUQINGCHUNZHIQUAN17"
@@ -635397,6 +671289,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"JUFENGYUQINGCHUNZHIQUAN19"
 		},
@@ -636305,6 +672198,7 @@ end)()
 		box_refresh = {
 			0
 		},
+		box_auto_pick = {},
 		story_refresh = {
 			"JUFENGYUQINGCHUNZHIQUAN23"
 		},

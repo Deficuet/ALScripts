@@ -11,8 +11,9 @@ return {
 	},
 	scripts = {
 		{
-			say = "このティーセットをシリアスに…？シリアス、恐縮千万でございます…気前よきご主人様{dorm3d}",
 			actorName = 20220,
+			nameColor = "#FFFFFF",
+			say = "このティーセットをシリアスに…？シリアス、恐縮千万でございます…気前よきご主人様{dorm3d}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +24,7 @@ return {
 					op_list = {
 						{
 							skip = true,
-							name = "jidong",
+							name = "ganjin",
 							type = "action"
 						},
 						{
@@ -45,8 +46,9 @@ return {
 			}
 		},
 		{
-			say = "大事に使わせていただきます！シリアス、美味しい紅茶でご奉仕できよう精進いたします！",
 			actorName = 20220,
+			nameColor = "#FFFFFF",
+			say = "大事に使わせていただきます！シリアス、美味しい紅茶でご奉仕できよう精進いたします！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

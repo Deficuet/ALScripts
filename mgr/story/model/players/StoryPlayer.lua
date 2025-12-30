@@ -840,20 +840,18 @@ function var_0_0.MoveAllNode(arg_75_0, arg_75_1, arg_75_2, arg_75_3)
 end
 
 local function var_0_12(arg_78_0, arg_78_1, arg_78_2, arg_78_3, arg_78_4)
-	PoolMgr.GetInstance():GetSpineChar(arg_78_1, true, function(arg_79_0)
-		arg_79_0.transform:SetParent(arg_78_0.movePanel)
+	arg_78_0.spineChar = SpineAnimChar.New()
 
-		local var_79_0 = arg_78_2.scale
-
-		arg_79_0.transform.localScale = Vector3(var_79_0, var_79_0, 0)
-		arg_79_0.transform.localPosition = arg_78_3
-
-		arg_79_0:GetComponent(typeof(SpineAnimUI)):SetAction(arg_78_2.action, 0)
-
-		arg_79_0.name = arg_78_1
+	arg_78_0.spineChar:SetPaint(arg_78_1)
+	arg_78_0.spineChar:Load(true, function(arg_79_0)
+		arg_79_0:SetParent(arg_78_0.movePanel)
+		arg_79_0:SetLocalScale(Vector3(arg_78_2.scale, arg_78_2.scale, 0))
+		arg_79_0:SetLocalPosition(arg_78_3)
+		arg_79_0:SetAction(arg_78_2.action, 0)
+		arg_79_0:SetName(arg_78_1)
 
 		if arg_78_4 then
-			arg_78_4(arg_79_0)
+			arg_78_4(arg_78_0.spineChar:GetModel())
 		end
 	end)
 end

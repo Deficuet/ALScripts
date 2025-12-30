@@ -31,7 +31,7 @@ function var_0_0.ExecuteFuncList(arg_4_0)
 	arg_4_0.__funcList = {}
 end
 
-function var_0_0.SetUIParent(arg_5_0, arg_5_1)
+function var_0_0.GetUIParent(arg_5_0, arg_5_1)
 	return arg_5_0:GetView().pageContianer
 end
 
@@ -52,21 +52,26 @@ end
 
 function var_0_0.Hide(arg_8_0)
 	arg_8_0:ShowOrHideGameObject(arg_8_0._go, false)
+	arg_8_0:OnHide()
 end
 
-function var_0_0.ShowOrHideGameObject(arg_9_0, arg_9_1, arg_9_2)
-	local var_9_0 = GetOrAddComponent(arg_9_1, typeof(CanvasGroup))
-
-	var_9_0.alpha = arg_9_2 and 1 or 0
-	var_9_0.blocksRaycasts = arg_9_2
+function var_0_0.OnHide(arg_9_0)
+	return
 end
 
-function var_0_0.Execute(arg_10_0, arg_10_1, ...)
-	if arg_10_0:IsLoaded() or not arg_10_0:IsLoaded() and #arg_10_0.__funcList == 0 and arg_10_1 == "Show" then
-		arg_10_0[arg_10_1](arg_10_0, ...)
-	elseif arg_10_0.isloading then
-		table.insert(arg_10_0.__funcList, {
-			name = arg_10_1,
+function var_0_0.ShowOrHideGameObject(arg_10_0, arg_10_1, arg_10_2)
+	local var_10_0 = GetOrAddComponent(arg_10_1, typeof(CanvasGroup))
+
+	var_10_0.alpha = arg_10_2 and 1 or 0
+	var_10_0.blocksRaycasts = arg_10_2
+end
+
+function var_0_0.Execute(arg_11_0, arg_11_1, ...)
+	if arg_11_0:IsLoaded() or not arg_11_0:IsLoaded() and #arg_11_0.__funcList == 0 and arg_11_1 == "Show" then
+		arg_11_0[arg_11_1](arg_11_0, ...)
+	elseif arg_11_0.isloading then
+		table.insert(arg_11_0.__funcList, {
+			name = arg_11_1,
 			args = packEx(...)
 		})
 	end

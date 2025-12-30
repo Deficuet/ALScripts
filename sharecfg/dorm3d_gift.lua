@@ -30,6 +30,10 @@ pg.dorm3d_gift = {
 			{
 				30707,
 				120301
+			},
+			{
+				49905,
+				140301
 			}
 		},
 		unlock_tips = {},
@@ -63,6 +67,12 @@ pg.dorm3d_gift = {
 				{
 					"banner_dafeng"
 				}
+			},
+			{
+				49905,
+				{
+					"banner_aijier"
+				}
 			}
 		}
 	},
@@ -94,7 +104,11 @@ pg.dorm3d_gift = {
 			},
 			{
 				30707,
-				120301
+				120302
+			},
+			{
+				49905,
+				140302
 			}
 		},
 		shop_id = {
@@ -135,6 +149,12 @@ pg.dorm3d_gift = {
 				{
 					"banner_dafeng"
 				}
+			},
+			{
+				49905,
+				{
+					"banner_aijier"
+				}
 			}
 		}
 	},
@@ -166,7 +186,11 @@ pg.dorm3d_gift = {
 			},
 			{
 				30707,
-				120301
+				120303
+			},
+			{
+				49905,
+				140303
 			}
 		},
 		shop_id = {
@@ -203,6 +227,12 @@ pg.dorm3d_gift = {
 				30707,
 				{
 					"banner_dafeng"
+				}
+			},
+			{
+				49905,
+				{
+					"banner_aijier"
 				}
 			}
 		}
@@ -263,6 +293,36 @@ pg.dorm3d_gift = {
 				20220,
 				{
 					"banner_gift2022002"
+				}
+			}
+		}
+	},
+	[2022003] = {
+		ship_group_id = 20220,
+		display = "踏み込んだ考察と事例で、完璧なメイドになるにはいかなる教養・スキル・心構えが必要かを詳しく説明してくれている。\n日常生活の中でもメイドとしての奉仕精神を十分に発揮すべきだとも訴えている。",
+		rarity = 4,
+		unlock_dialogue_id = 10080,
+		id = 2022003,
+		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift4",
+		name = "『完璧なメイド心得』",
+		favor_trigger_id = 1004,
+		reply_dialogue_id = {
+			{
+				20220,
+				1506
+			}
+		},
+		shop_id = {
+			260303
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				20220,
+				{
+					"banner_gift2022003"
 				}
 			}
 		}
@@ -447,6 +507,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[4990501] = {
+		ship_group_id = 49905,
+		display = "まるで朝の光に包まれた蕾の如く、優雅で可憐なグラス。\n二人の思い出の全てが優しさとなり、曲線にそっと溶け込む",
+		rarity = 4,
+		unlock_dialogue_id = 140541,
+		id = 4990501,
+		icon = "dorm3dicon/3Ddrom_aijier_FancyGift1",
+		name = "チューリップグラス",
+		favor_trigger_id = 1004,
+		reply_dialogue_id = {
+			{
+				49905,
+				140304
+			}
+		},
+		shop_id = {
+			260601
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				49905,
+				{
+					"banner_gift4990501"
+				}
+			}
+		}
+	},
 	get_id_list_by_ship_group_id = {
 		[0] = {
 			1021001,
@@ -455,7 +545,8 @@ pg.dorm3d_gift = {
 		},
 		[20220] = {
 			2022001,
-			2022002
+			2022002,
+			2022003
 		},
 		[30221] = {
 			3022101,
@@ -470,6 +561,9 @@ pg.dorm3d_gift = {
 		},
 		[30707] = {
 			3070701
+		},
+		[49905] = {
+			4990501
 		}
 	},
 	all = {
@@ -478,11 +572,13 @@ pg.dorm3d_gift = {
 		1021003,
 		2022001,
 		2022002,
+		2022003,
 		3022101,
 		3022102,
 		1990301,
 		1990302,
 		1051701,
-		3070701
+		3070701,
+		4990501
 	}
 }

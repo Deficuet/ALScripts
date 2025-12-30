@@ -53,6 +53,7 @@ function var_0_0.OnInit(arg_4_0)
 		onToggle(arg_4_0, arg_9_0, function(arg_10_0)
 			if arg_10_0 then
 				arg_4_0.curPage = arg_9_0.name
+				arg_4_0.contextData.curPage = arg_4_0.curPage
 
 				arg_4_0:SwitchPage()
 			end
@@ -97,7 +98,7 @@ end
 
 function var_0_0.OnShow(arg_14_0)
 	arg_14_0:BlurPanel()
-	triggerToggle(arg_14_0.togglesTF:Find(var_0_0.PAGE_PROD), true)
+	triggerToggle(arg_14_0.togglesTF:Find(arg_14_0.contextData.curPage or var_0_0.PAGE_PROD), true)
 	arg_14_0:FlushTips()
 	setActive(arg_14_0.signInNoticeTF, getProxy(IslandProxy):GetIsland():GetSignInAgency():CanSignIn())
 end

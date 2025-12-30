@@ -15,6 +15,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 
 	setText(arg_1_0.visitBtn:Find("Text"), i18n("island_btn_label_visit"))
 	setText(arg_1_0.moreBtn:Find("Text"), i18n("island_btn_label_more"))
+	setText(arg_1_0.onlineTr:Find("Text"), i18n("island_btn_label_online"))
 end
 
 function var_0_0.Update(arg_2_0, arg_2_1)

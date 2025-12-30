@@ -97,8 +97,20 @@ function var_0_0.init(arg_7_0)
 end
 
 function var_0_0.didEnter(arg_11_0)
-	LoadImageSpriteAtlasAsync("bg/" .. pg.battlepass_event_pt[arg_11_0.activity.id].bg, "", arg_11_0._tf:Find("bg"), true)
-	onButton(arg_11_0, arg_11_0.topUI:Find("title/back"), function()
+	local var_11_0 = pg.battlepass_event_pt[arg_11_0.activity.id]
+
+	LoadImageSpriteAtlasAsync("bg/" .. var_11_0.bg, "", arg_11_0._tf:Find("bg/bg_1"), true)
+
+	local var_11_1 = arg_11_0._tf:Find("bg/bg_2")
+
+	if var_11_0.bg_tips ~= "" then
+		LoadImageSpriteAtlasAsync("bg/" .. var_11_0.bg_tips, "", var_11_1, true)
+		setActive(var_11_1, true)
+	else
+		setActive(var_11_1, false)
+	end
+
+	onButton(arg_11_0, arg_11_0.topUI:Find("back"), function()
 		arg_11_0:closeView()
 	end, SFX_CANCEL)
 	onButton(arg_11_0, arg_11_0.helpBtn, function()
@@ -115,9 +127,9 @@ function var_0_0.didEnter(arg_11_0)
 		}, 20, "build_ship_quickly_buy_stone")
 	end, SFX_PANEL)
 
-	local var_11_0 = arg_11_0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
+	local var_11_2 = arg_11_0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 
-	arg_11_0.dayTxt.text = i18n("battlepass_main_time_title") .. i18n("battlepass_main_time", math.floor(var_11_0 / 86400), math.floor(var_11_0 % 86400 / 3600))
+	arg_11_0.dayTxt.text = i18n("battlepass_main_time_title") .. i18n("battlepass_main_time", math.floor(var_11_2 / 86400), math.floor(var_11_2 % 86400 / 3600))
 
 	arg_11_0:UpdateRes()
 	arg_11_0:UpdatePhase()

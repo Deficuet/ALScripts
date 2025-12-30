@@ -79,7 +79,8 @@ function var_0_0.listNotificationInterests(arg_8_0)
 	return {
 		GAME.SUBMIT_TASK_DONE,
 		GAME.ON_NEW_VOTE_DONE,
-		GAME.STORY_END
+		GAME.STORY_END,
+		GAME.SUBMIT_ACTIVITY_TASK_DONE
 	}
 end
 
@@ -87,11 +88,11 @@ function var_0_0.handleNotification(arg_9_0, arg_9_1)
 	local var_9_0 = arg_9_1:getName()
 	local var_9_1 = arg_9_1:getBody()
 
-	if var_9_0 == GAME.SUBMIT_TASK_DONE then
+	if var_9_0 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
 		arg_9_0.viewComponent:UpdateHonorTip()
 		arg_9_0.viewComponent:UpdateMainAward()
 		arg_9_0.viewComponent:UpdateMainStageTip()
-		arg_9_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_9_1, nil)
+		arg_9_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_9_1.awards, nil)
 	elseif var_9_0 == GAME.ON_NEW_VOTE_DONE then
 		arg_9_0.viewComponent:UpdateVotes()
 		arg_9_0.viewComponent:UpdateMainStageTip()

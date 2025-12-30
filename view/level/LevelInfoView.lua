@@ -29,13 +29,13 @@ end
 
 function var_0_0.Show(arg_4_0)
 	setActive(arg_4_0._tf, true)
-	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf)
+	arg_4_0:BlurPanel(arg_4_0._tf)
 end
 
 function var_0_0.Hide(arg_5_0)
 	arg_5_0:clear()
 	setActive(arg_5_0._tf, false)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_5_0._tf, arg_5_0._parentTf)
+	arg_5_0:UnOverlayPanel(arg_5_0._tf, arg_5_0._parentTf)
 end
 
 function var_0_0.setCBFunc(arg_6_0, arg_6_1, arg_6_2)

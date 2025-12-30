@@ -236,6 +236,11 @@ end
 
 function var_0_0.PlayAnimation(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
 	local var_21_0 = defaultValue(arg_21_2, 0.25)
+
+	if arg_21_1 == IslandConst.ANIMATION_HEROCOMING then
+		var_21_0 = 0
+	end
+
 	local var_21_1 = arg_21_0:GetAnimator()
 	local var_21_2 = Animator.StringToHash(arg_21_1)
 
@@ -244,6 +249,8 @@ function var_0_0.PlayAnimation(arg_21_0, arg_21_1, arg_21_2, arg_21_3)
 	end
 
 	if arg_21_3 then
+		arg_21_0:ClearSatetCallback()
+
 		arg_21_0.stateCallback = {
 			state = arg_21_1,
 			callback = arg_21_3
@@ -264,8 +271,8 @@ function var_0_0.CheckAnimationState(arg_22_0)
 	end
 
 	if arg_22_0.endTime and arg_22_0:GetElapsedTime() >= arg_22_0.endTime then
-		var_22_1()
 		arg_22_0:ClearSatetCallback()
+		var_22_1()
 	end
 end
 

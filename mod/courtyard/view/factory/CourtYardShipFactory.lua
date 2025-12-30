@@ -33,14 +33,11 @@ function var_0_0.Make(arg_2_0, arg_2_1)
 			return
 		end
 
-		local var_5_0 = var_2_1.modelRoot
-
-		var_5_0.name = "model"
-		var_5_0.transform.localScale = Vector3.one
-		rtf(var_5_0).sizeDelta = Vector2.New(200, 500)
-
-		SetParent(var_5_0, var_2_0)
-		var_5_0.transform:SetSiblingIndex(2)
+		var_2_1:SetName("model")
+		var_2_1:SetLocalScale(Vector3.one)
+		var_2_1:SetSizeDelta(Vector2.New(200, 500))
+		var_2_1:SetParent(var_2_0)
+		var_2_1:SetSiblingIndex(2)
 		setActive(var_2_0, true)
 		var_2_2:OnIconLoaed()
 		var_2_2:Init()

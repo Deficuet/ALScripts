@@ -76,15 +76,13 @@ pg.ship_data_create_material = {
 			"<color=#d797ff>Sレア</color>：12%",
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：30%",
-			"<color=#ffde38>クレマンソー</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>夜刀神十香</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>ギシャン</color>：2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>鳶一折紙</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>パンルヴェ</color>：0.5%",
+			"<color=#ffde38>五河琴里</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#d797ff>リヨン</color>：2.5%<color=#92FC63>(up!)</color>",
-			" ",
-			"<color=#d797ff>シュフラン</color>：2.5%<color=#92FC63>(up!)</color>"
+			"<color=#ffde38>八舞耶倶矢・八舞夕弦</color>：0.5%"
 		}
 	},
 	{
@@ -202,13 +200,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：28.8%",
 			" ",
-			"<color=#ff5e39>白鳳</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>レキシントンⅡ</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>近江</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>カウペンス</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>浅間</color>：0.5%",
+			"<color=#ffde38>クリーブランド(META)</color>：0.5%",
 			" ",
-			"<color=#d797ff>水無瀬</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>パサデナ</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

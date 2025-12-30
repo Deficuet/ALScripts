@@ -10,6 +10,10 @@ end
 function var_0_0.Update(arg_2_0, arg_2_1)
 	local var_2_0 = arg_2_1.player
 
+	if not var_2_0 then
+		return
+	end
+
 	if arg_2_0.data and var_2_0.id == arg_2_0.data.player.id and arg_2_0.data.timestamp == arg_2_1.timestamp then
 		return
 	end

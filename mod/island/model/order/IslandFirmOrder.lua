@@ -46,4 +46,12 @@ function var_0_0.GenPtAwards(arg_6_0)
 	return nil
 end
 
+function var_0_0.GetActivityId(arg_7_0)
+	return arg_7_0:getConfig("activity_id")
+end
+
+function var_0_0.GetGroupId(arg_8_0)
+	return arg_8_0:getConfig("group_id")
+end
+
 return var_0_0

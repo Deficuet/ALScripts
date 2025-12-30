@@ -19,13 +19,31 @@ return {
 		{
 			type = "BattleSkillAddBuff",
 			casterAniEffect = "",
+			target_choise = "TargetFleetIndex",
 			targetAniEffect = "",
-			target_choise = {
-				"TargetAllHelp",
-				"TargetPlayerMainFleet"
-			},
 			arg_list = {
-				buff_id = 150970
+				buff_id = 150971,
+				fleetPos = "FlagShip"
+			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			target_choise = "TargetFleetIndex",
+			targetAniEffect = "",
+			arg_list = {
+				buff_id = 150972,
+				fleetPos = "UpperConsort"
+			}
+		},
+		{
+			type = "BattleSkillAddBuff",
+			casterAniEffect = "",
+			target_choise = "TargetFleetIndex",
+			targetAniEffect = "",
+			arg_list = {
+				buff_id = 150973,
+				fleetPos = "LowerConsort"
 			}
 		},
 		{

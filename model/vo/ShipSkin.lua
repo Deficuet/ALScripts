@@ -18,6 +18,7 @@ var_0_0.WITH_SPINE_PLUS = 7
 var_0_0.WITH_CHANGE = 8
 var_0_0.WITH_LIVE2D_PLUS = 9
 var_0_0.WITH_DOUBLE_VIOCE = 10
+var_0_0.WITH_ASMR = 11
 
 function var_0_0.Tag2Name(arg_1_0)
 	if not var_0_0.Tag2NameTab then
@@ -31,7 +32,8 @@ function var_0_0.Tag2Name(arg_1_0)
 			[var_0_0.WITH_SPINE_PLUS] = "spine_plus",
 			[var_0_0.WITH_CHANGE] = "change",
 			[var_0_0.WITH_LIVE2D_PLUS] = "live2d_plus",
-			[var_0_0.WITH_DOUBLE_VIOCE] = "double_voice"
+			[var_0_0.WITH_DOUBLE_VIOCE] = "double_voice",
+			[var_0_0.WITH_ASMR] = "asmr_skin"
 		}
 	end
 
@@ -122,7 +124,6 @@ function var_0_0.Ctor(arg_7_0, arg_7_1)
 	arg_7_0.id = arg_7_1.id
 	arg_7_0.configId = arg_7_1.id
 	arg_7_0.endTime = arg_7_1.end_time or arg_7_1.time or 0
-	arg_7_0.isNew = true
 
 	if arg_7_0:getConfig("skin_type") == var_0_0.SKIN_TYPE_TB then
 		arg_7_0.shipName = NewEducateHelper.GetShipNameBySecId(NewEducateHelper.GetSecIdBySkinId(arg_7_0.id))
@@ -136,228 +137,228 @@ function var_0_0.Ctor(arg_7_0, arg_7_1)
 	arg_7_0.skinName = arg_7_0:getConfig("name")
 end
 
-function var_0_0.HasNewFlag(arg_8_0)
-	return arg_8_0.isNew
-end
-
-function var_0_0.SetIsNew(arg_9_0, arg_9_1)
-	arg_9_0.isNew = arg_9_1
-end
-
-function var_0_0.bindConfigTable(arg_10_0)
+function var_0_0.bindConfigTable(arg_8_0)
 	return pg.ship_skin_template
 end
 
-function var_0_0.isExpireType(arg_11_0)
-	return arg_11_0.endTime > 0
+function var_0_0.isExpireType(arg_9_0)
+	return arg_9_0.endTime > 0
 end
 
-function var_0_0.getExpireTime(arg_12_0)
-	return arg_12_0.endTime
+function var_0_0.getExpireTime(arg_10_0)
+	return arg_10_0.endTime
 end
 
-function var_0_0.isExpired(arg_13_0)
-	return pg.TimeMgr.GetInstance():GetServerTime() >= arg_13_0.endTime
+function var_0_0.isExpired(arg_11_0)
+	return pg.TimeMgr.GetInstance():GetServerTime() >= arg_11_0.endTime
 end
 
-function var_0_0.getRemainTime(arg_14_0)
-	return arg_14_0:getExpireTime() - pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.getRemainTime(arg_12_0)
+	return arg_12_0:getExpireTime() - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function var_0_0.getIcon(arg_15_0)
-	return arg_15_0:getConfig("painting")
+function var_0_0.getIcon(arg_13_0)
+	return arg_13_0:getConfig("painting")
 end
 
-function var_0_0.InShowTime(arg_16_0)
-	return getProxy(ShipSkinProxy):InShowTime(arg_16_0.id)
+function var_0_0.InShowTime(arg_14_0)
+	return getProxy(ShipSkinProxy):InShowTime(arg_14_0.id)
 end
 
-function var_0_0.IsDefault(arg_17_0)
-	return arg_17_0:getConfig("skin_type") == var_0_0.SKIN_TYPE_DEFAULT
+function var_0_0.IsDefault(arg_15_0)
+	return arg_15_0:getConfig("skin_type") == var_0_0.SKIN_TYPE_DEFAULT
 end
 
-function var_0_0.IsType(arg_18_0, arg_18_1)
-	return arg_18_0:getConfig("shop_type_id") == arg_18_1
+function var_0_0.IsType(arg_16_0, arg_16_1)
+	return arg_16_0:getConfig("shop_type_id") == arg_16_1
 end
 
-function var_0_0.IsMatchKey(arg_19_0, arg_19_1)
-	if not arg_19_1 or arg_19_1 == "" then
+function var_0_0.IsMatchKey(arg_17_0, arg_17_1)
+	if not arg_17_1 or arg_17_1 == "" then
 		return true
 	end
 
-	arg_19_1 = string.lower(string.gsub(arg_19_1, "%.", "%%."))
-	arg_19_1 = string.lower(string.gsub(arg_19_1, "%-", "%%-"))
+	arg_17_1 = string.lower(string.gsub(arg_17_1, "%.", "%%."))
+	arg_17_1 = string.lower(string.gsub(arg_17_1, "%-", "%%-"))
 
-	return string.find(string.lower(arg_19_0.shipName), arg_19_1) or string.find(string.lower(arg_19_0.skinName), arg_19_1)
+	return string.find(string.lower(arg_17_0.shipName), arg_17_1) or string.find(string.lower(arg_17_0.skinName), arg_17_1)
 end
 
-function var_0_0.ToShip(arg_20_0)
-	local var_20_0 = arg_20_0:getConfig("ship_group")
-	local var_20_1 = ShipGroup.getDefaultShipConfig(var_20_0)
+function var_0_0.ToShip(arg_18_0)
+	local var_18_0 = arg_18_0:getConfig("ship_group")
+	local var_18_1 = ShipGroup.getDefaultShipConfig(var_18_0)
 
-	if var_20_1 then
+	if var_18_1 then
 		return Ship.New({
 			id = 1,
 			intimacy = 10000,
-			template_id = var_20_1.id,
-			skin_id = arg_20_0.id
+			template_id = var_18_1.id,
+			skin_id = arg_18_0.id
 		})
 	else
 		return nil
 	end
 end
 
-function var_0_0.GetDefaultShipConfig(arg_21_0)
-	local var_21_0 = arg_21_0:getConfig("ship_group")
+function var_0_0.GetDefaultShipConfig(arg_19_0)
+	local var_19_0 = arg_19_0:getConfig("ship_group")
 
-	return (ShipGroup.getDefaultShipConfig(var_21_0))
+	return (ShipGroup.getDefaultShipConfig(var_19_0))
 end
 
-function var_0_0.IsLive2d(arg_22_0)
-	if not arg_22_0.isLive2dTag then
-		arg_22_0.isLive2dTag = table.contains(arg_22_0:getConfig("tag"), var_0_0.WITH_LIVE2D)
+function var_0_0.IsLive2d(arg_20_0)
+	if not arg_20_0.isLive2dTag then
+		arg_20_0.isLive2dTag = table.contains(arg_20_0:getConfig("tag"), var_0_0.WITH_LIVE2D)
 	end
 
-	return arg_22_0.isLive2dTag
+	return arg_20_0.isLive2dTag
 end
 
-function var_0_0.IsDbg(arg_23_0)
-	if not arg_23_0.isDGBTag then
-		arg_23_0.isDGBTag = table.contains(arg_23_0:getConfig("tag"), var_0_0.WITH_DYNAMIC_BG)
+function var_0_0.IsDbg(arg_21_0)
+	if not arg_21_0.isDGBTag then
+		arg_21_0.isDGBTag = table.contains(arg_21_0:getConfig("tag"), var_0_0.WITH_DYNAMIC_BG)
 	end
 
-	return arg_23_0.isDGBTag
+	return arg_21_0.isDGBTag
 end
 
-function var_0_0.IsBG(arg_24_0)
-	if not arg_24_0.isBGTag then
-		arg_24_0.isBGTag = table.contains(arg_24_0:getConfig("tag"), var_0_0.WITH_BG)
+function var_0_0.IsBG(arg_22_0)
+	if not arg_22_0.isBGTag then
+		arg_22_0.isBGTag = table.contains(arg_22_0:getConfig("tag"), var_0_0.WITH_BG)
 	end
 
-	return arg_24_0.isBGTag
+	return arg_22_0.isBGTag
 end
 
-function var_0_0.IsEffect(arg_25_0)
-	if not arg_25_0.isEffectTag then
-		arg_25_0.isEffectTag = table.contains(arg_25_0:getConfig("tag"), var_0_0.WITH_EFFECT)
+function var_0_0.IsEffect(arg_23_0)
+	if not arg_23_0.isEffectTag then
+		arg_23_0.isEffectTag = table.contains(arg_23_0:getConfig("tag"), var_0_0.WITH_EFFECT)
 	end
 
-	return arg_25_0.isEffectTag
+	return arg_23_0.isEffectTag
 end
 
-function var_0_0.isBgm(arg_26_0)
-	if not arg_26_0.isBgmTag then
-		arg_26_0.isBgmTag = table.contains(arg_26_0:getConfig("tag"), var_0_0.WITH_BGM)
+function var_0_0.isBgm(arg_24_0)
+	if not arg_24_0.isBgmTag then
+		arg_24_0.isBgmTag = table.contains(arg_24_0:getConfig("tag"), var_0_0.WITH_BGM)
 	end
 
-	return arg_26_0.isBgmTag
+	return arg_24_0.isBgmTag
 end
 
-function var_0_0.IsSpine(arg_27_0)
-	if not arg_27_0.isSpine then
-		arg_27_0.isSpine = table.contains(arg_27_0:getConfig("tag"), var_0_0.WITH_SPINE)
+function var_0_0.IsSpine(arg_25_0)
+	if not arg_25_0.isSpine then
+		arg_25_0.isSpine = table.contains(arg_25_0:getConfig("tag"), var_0_0.WITH_SPINE)
 	end
 
-	return arg_27_0.isSpine
+	return arg_25_0.isSpine
 end
 
-function var_0_0.IsSpinePlus(arg_28_0)
-	if not arg_28_0.isSpinePlus then
-		arg_28_0.isSpinePlus = table.contains(arg_28_0:getConfig("tag"), var_0_0.WITH_SPINE_PLUS)
+function var_0_0.IsSpinePlus(arg_26_0)
+	if not arg_26_0.isSpinePlus then
+		arg_26_0.isSpinePlus = table.contains(arg_26_0:getConfig("tag"), var_0_0.WITH_SPINE_PLUS)
 	end
 
-	return arg_28_0.isSpinePlus
+	return arg_26_0.isSpinePlus
 end
 
-function var_0_0.IsLive2dPlus(arg_29_0)
-	if not arg_29_0.isLive2dPlusTag then
-		arg_29_0.isLive2dPlusTag = table.contains(arg_29_0:getConfig("tag"), var_0_0.WITH_LIVE2D_PLUS)
+function var_0_0.IsLive2dPlus(arg_27_0)
+	if not arg_27_0.isLive2dPlusTag then
+		arg_27_0.isLive2dPlusTag = table.contains(arg_27_0:getConfig("tag"), var_0_0.WITH_LIVE2D_PLUS)
 	end
 
-	return arg_29_0.isLive2dPlusTag
+	return arg_27_0.isLive2dPlusTag
 end
 
-function var_0_0.CantUse(arg_30_0)
-	local var_30_0 = arg_30_0:IsTransSkin()
-	local var_30_1 = arg_30_0:IsProposeSkin()
-	local var_30_2 = arg_30_0:getConfig("ship_group")
-	local var_30_3 = getProxy(BayProxy):_ExistGroupShip(var_30_2, var_30_0, var_30_1)
-	local var_30_4 = getProxy(CollectionProxy).shipGroups[var_30_2] == nil
+function var_0_0.CantUse(arg_28_0)
+	local var_28_0 = arg_28_0:IsTransSkin()
+	local var_28_1 = arg_28_0:IsProposeSkin()
+	local var_28_2 = arg_28_0:getConfig("ship_group")
+	local var_28_3 = getProxy(BayProxy):_ExistGroupShip(var_28_2, var_28_0, var_28_1)
+	local var_28_4 = getProxy(CollectionProxy).shipGroups[var_28_2] == nil
 
-	return not var_30_3 or var_30_4
+	return not var_28_3 or var_28_4
 end
 
-function var_0_0.OwnShip(arg_31_0)
-	local var_31_0 = arg_31_0:IsTransSkin()
-	local var_31_1 = arg_31_0:IsProposeSkin()
-	local var_31_2 = arg_31_0:getConfig("ship_group")
+function var_0_0.OwnShip(arg_29_0)
+	local var_29_0 = arg_29_0:IsTransSkin()
+	local var_29_1 = arg_29_0:IsProposeSkin()
+	local var_29_2 = arg_29_0:getConfig("ship_group")
 
-	return (getProxy(BayProxy):_ExistGroupShip(var_31_2, var_31_0, var_31_1))
+	return (getProxy(BayProxy):_ExistGroupShip(var_29_2, var_29_0, var_29_1))
 end
 
-function var_0_0.WithoutUse(arg_32_0)
+function var_0_0.WithoutUse(arg_30_0)
+	local var_30_0 = getProxy(BayProxy):CanUseShareSkinPhantoms(arg_30_0.id)
+
+	return #var_30_0 > 0 and underscore.all(var_30_0, function(arg_31_0)
+		return arg_31_0:getSkinId() ~= arg_30_0.id and not var_0_0.IsSameChangeSkinGroup(arg_31_0:getSkinId(), arg_30_0.id)
+	end)
+end
+
+function var_0_0.NoUse(arg_32_0)
 	local var_32_0 = getProxy(BayProxy):CanUseShareSkinPhantoms(arg_32_0.id)
 
-	return #var_32_0 > 0 and underscore.all(var_32_0, function(arg_33_0)
+	return #var_32_0 == 0 or #var_32_0 > 0 and underscore.all(var_32_0, function(arg_33_0)
 		return arg_33_0:getSkinId() ~= arg_32_0.id and not var_0_0.IsSameChangeSkinGroup(arg_33_0:getSkinId(), arg_32_0.id)
 	end)
 end
 
-function var_0_0.NoUse(arg_34_0)
-	local var_34_0 = getProxy(BayProxy):CanUseShareSkinPhantoms(arg_34_0.id)
+function var_0_0.ExistShip(arg_34_0)
+	local var_34_0 = arg_34_0:getConfig("ship_group")
 
-	return #var_34_0 == 0 or #var_34_0 > 0 and underscore.all(var_34_0, function(arg_35_0)
-		return arg_35_0:getSkinId() ~= arg_34_0.id and not var_0_0.IsSameChangeSkinGroup(arg_35_0:getSkinId(), arg_34_0.id)
-	end)
+	return pg.ship_data_statistics[tonumber(var_34_0 .. 1)] ~= nil
 end
 
-function var_0_0.ExistShip(arg_36_0)
-	local var_36_0 = arg_36_0:getConfig("ship_group")
-
-	return pg.ship_data_statistics[tonumber(var_36_0 .. 1)] ~= nil
+function var_0_0.IsTransSkin(arg_35_0)
+	return arg_35_0:getConfig("skin_type") == var_0_0.SKIN_TYPE_REMAKE
 end
 
-function var_0_0.IsTransSkin(arg_37_0)
-	return arg_37_0:getConfig("skin_type") == var_0_0.SKIN_TYPE_REMAKE
+function var_0_0.IsProposeSkin(arg_36_0)
+	return arg_36_0:getConfig("skin_type") == var_0_0.SKIN_TYPE_PROPOSE
 end
 
-function var_0_0.IsProposeSkin(arg_38_0)
-	return arg_38_0:getConfig("skin_type") == var_0_0.SKIN_TYPE_PROPOSE
-end
-
-function var_0_0.IsChangeSkinMainIndex(arg_39_0)
-	if var_0_0.IsChangeSkin(arg_39_0.id) then
-		return arg_39_0:getConfig("change_skin").index == 1
+function var_0_0.IsHxDynamicPreview(arg_37_0)
+	if HXSet.isHx() then
+		return arg_37_0:getConfig("shop_dynamic_hx") == 1
 	end
 
 	return false
 end
 
-function var_0_0.MatchChangeSkinMain(arg_40_0)
-	if var_0_0.IsChangeSkin(arg_40_0.id) and not arg_40_0:IsChangeSkinMainIndex() then
+function var_0_0.IsChangeSkinMainIndex(arg_38_0)
+	if var_0_0.IsChangeSkin(arg_38_0.id) then
+		return arg_38_0:getConfig("change_skin").index == 1
+	end
+
+	return false
+end
+
+function var_0_0.MatchChangeSkinMain(arg_39_0)
+	if var_0_0.IsChangeSkin(arg_39_0.id) and not arg_39_0:IsChangeSkinMainIndex() then
 		return false
 	end
 
 	return true
 end
 
-function var_0_0.CanShare(arg_41_0)
-	local var_41_0 = getProxy(ShipSkinProxy):hasSkin(arg_41_0.configId)
+function var_0_0.CanShare(arg_40_0)
+	local var_40_0 = getProxy(ShipSkinProxy):hasSkin(arg_40_0.configId)
 
-	local function var_41_1()
-		if var_41_0 then
+	local function var_40_1()
+		if var_40_0 then
 			return true
 		end
 
-		return arg_41_0:InShowTime()
+		return arg_40_0:InShowTime()
 	end
 
-	local function var_41_2()
-		local var_43_0 = arg_41_0:getConfig("ship_group")
-		local var_43_1 = getProxy(BayProxy):getRawData()
+	local function var_40_2()
+		local var_42_0 = arg_40_0:getConfig("ship_group")
+		local var_42_1 = getProxy(BayProxy):getRawData()
 
-		for iter_43_0, iter_43_1 in pairs(var_43_1) do
-			if iter_43_1.groupId == var_43_0 and iter_43_1.propose then
+		for iter_42_0, iter_42_1 in pairs(var_42_1) do
+			if iter_42_1.groupId == var_42_0 and iter_42_1.propose then
 				return true
 			end
 		end
@@ -365,9 +366,16 @@ function var_0_0.CanShare(arg_41_0)
 		return false
 	end
 
-	local var_41_3 = arg_41_0:getConfig("skin_type")
+	local var_40_3 = arg_40_0:getConfig("skin_type")
 
-	return not (var_41_3 == var_0_0.SKIN_TYPE_DEFAULT or var_41_3 == var_0_0.SKIN_TYPE_REMAKE or var_41_3 == var_0_0.SKIN_TYPE_OLD or var_41_3 == var_0_0.SKIN_TYPE_NOT_HAVE_HIDE and not var_41_0 or var_41_3 == var_0_0.SKIN_TYPE_SHOW_IN_TIME and not var_41_1())
+	return not (var_40_3 == var_0_0.SKIN_TYPE_DEFAULT or var_40_3 == var_0_0.SKIN_TYPE_REMAKE or var_40_3 == var_0_0.SKIN_TYPE_OLD or var_40_3 == var_0_0.SKIN_TYPE_NOT_HAVE_HIDE and not var_40_0 or var_40_3 == var_0_0.SKIN_TYPE_SHOW_IN_TIME and not var_40_1())
+end
+
+function var_0_0.CanShareInJuus(arg_43_0)
+	local var_43_0 = getProxy(ShipSkinProxy):hasSkin(arg_43_0.configId)
+	local var_43_1 = arg_43_0:getConfig("skin_type")
+
+	return not (var_43_1 == var_0_0.SKIN_TYPE_REMAKE or var_43_1 == var_0_0.SKIN_TYPE_OLD or var_43_1 == var_0_0.SKIN_TYPE_NOT_HAVE_HIDE and not var_43_0 or var_43_1 == var_0_0.SKIN_TYPE_SHOW_IN_TIME and not var_43_0)
 end
 
 function var_0_0.IsShareSkin(arg_44_0, arg_44_1)
@@ -484,7 +492,7 @@ function var_0_0.IsChangeSkin(arg_52_0)
 		warning("skin not exist " .. arg_52_0)
 	end
 
-	return table.contains(var_52_0.tag, var_0_0.WITH_CHANGE) or table.contains(var_52_0.tag, var_0_0.WITH_DOUBLE_VIOCE)
+	return table.contains(var_52_0.tag, var_0_0.WITH_CHANGE) or table.contains(var_52_0.tag, var_0_0.WITH_DOUBLE_VIOCE) or table.contains(var_52_0.tag, var_0_0.WITH_ASMR)
 end
 
 function var_0_0.GetChangeSkinMainId(arg_53_0)
@@ -570,11 +578,15 @@ function var_0_0.GetStoreChangeSkinId(arg_62_0, arg_62_1)
 end
 
 function var_0_0.SetStoreChangeSkinId(arg_63_0, arg_63_1)
-	local var_63_0, var_63_1 = ShipPhantom.UnpackMark(arg_63_1)
-	local var_63_2 = var_0_0.GetChangeSkinGroupId(arg_63_0)
-	local var_63_3 = var_0_0.GetStoreChangeSkinPrefsName(var_63_2, arg_63_1)
+	local var_63_0
 
-	PlayerPrefs.SetInt(var_63_3, arg_63_0)
+	var_63_0 = ShipSkin.GetChangeSkinCustomDataId(arg_63_0, "asmr") == 1 and true or false
+
+	local var_63_1, var_63_2 = ShipPhantom.UnpackMark(arg_63_1)
+	local var_63_3 = var_0_0.GetChangeSkinGroupId(arg_63_0)
+	local var_63_4 = var_0_0.GetStoreChangeSkinPrefsName(var_63_3, arg_63_1)
+
+	PlayerPrefs.SetInt(var_63_4, arg_63_0)
 end
 
 function var_0_0.GetStoreChangeSkinPrefsName(...)

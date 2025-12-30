@@ -55,7 +55,7 @@ function var_0_0.PlayAction(arg_7_0, arg_7_1, arg_7_2)
 	end
 
 	arg_7_0.spineAnimUI:SetActionCallBack(var_7_0)
-	arg_7_0.role:SetAction(arg_7_1)
+	arg_7_0._role:SetAction(arg_7_1)
 
 	arg_7_0.name = arg_7_1
 end

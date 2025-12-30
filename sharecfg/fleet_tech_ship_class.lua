@@ -67,7 +67,9 @@ pg.fleet_tech_ship_class = {
 			10111,
 			10152,
 			10143,
-			19905
+			10155,
+			19905,
+			10110
 		}
 	},
 	[10105] = {
@@ -164,7 +166,8 @@ pg.fleet_tech_ship_class = {
 			10223,
 			10225,
 			10231,
-			10234
+			10234,
+			10235
 		}
 	},
 	[10203] = {
@@ -494,6 +497,7 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			10722,
 			10723,
+			10725,
 			10729,
 			10727,
 			10730
@@ -560,6 +564,7 @@ pg.fleet_tech_ship_class = {
 			10712,
 			10713,
 			10714,
+			10716,
 			10717,
 			10738
 		}
@@ -3831,7 +3836,7 @@ pg.fleet_tech_ship_class = {
 		nation = 96,
 		id = 960013,
 		t_level_1 = 1,
-		t_level = 1,
+		t_level = 2,
 		ships = {
 			960013
 		}
@@ -4054,6 +4059,28 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			970207
+		}
+	},
+	[970208] = {
+		shiptype = 2,
+		name = "ボイシ(META)",
+		nation = 97,
+		id = 970208,
+		t_level_1 = 7,
+		t_level = 2,
+		ships = {
+			970208
+		}
+	},
+	[970209] = {
+		shiptype = 2,
+		name = "クリーブランド(META)",
+		nation = 97,
+		id = 970209,
+		t_level_1 = 17,
+		t_level = 1,
+		ships = {
+			970209
 		}
 	},
 	[970301] = {
@@ -4406,6 +4433,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 3,
 		ships = {
 			970707
+		}
+	},
+	[970708] = {
+		shiptype = 7,
+		name = "ヨークタウン(META)",
+		nation = 97,
+		id = 970708,
+		t_level_1 = 1,
+		t_level = 2,
+		ships = {
+			970708
 		}
 	},
 	[970801] = {
@@ -4781,6 +4819,8 @@ pg.fleet_tech_ship_class = {
 		970205,
 		970206,
 		970207,
+		970208,
+		970209,
 		970301,
 		970302,
 		970303,
@@ -4813,6 +4853,7 @@ pg.fleet_tech_ship_class = {
 		970705,
 		970706,
 		970707,
+		970708,
 		970801,
 		971201,
 		971301

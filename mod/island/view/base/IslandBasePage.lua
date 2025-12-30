@@ -113,6 +113,8 @@ function var_0_0.PlayGetShipTimeline(arg_19_0, arg_19_1, arg_19_2)
 end
 
 function var_0_0.OpenPage(arg_20_0, arg_20_1, ...)
+	IslandGuideChecker.CheckOnOpenPage(arg_20_1.__cname)
+
 	return arg_20_0.islandScene.sceneMgr:OpenPage(arg_20_0, arg_20_1, ...)
 end
 

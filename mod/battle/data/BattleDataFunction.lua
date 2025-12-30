@@ -131,7 +131,7 @@ function var_0_3.GetBuffBulletRes(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4)
 				var_10_0 = 1
 			end
 
-			iter_10_1 = arg_9_4 and arg_9_4:RemapSkillId(iter_10_1) or iter_10_1
+			iter_10_1 = arg_9_4 and arg_9_4:RemapSkillId(iter_10_1, true) or iter_10_1
 
 			local var_10_1 = var_0_3.SkillTranform(arg_9_2, iter_10_1)
 			local var_10_2 = var_0_3.GetResFromBuff(var_10_1, var_10_0, var_9_1, arg_9_3)
@@ -474,6 +474,9 @@ function var_0_3.GetResFromSkill(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
 	if var_14_1.focus_duration then
 		if var_14_1.cutin_cover then
 			var_14_0[#var_14_0 + 1] = var_0_0.Battle.BattleResourceManager.GetInstance().GetPaintingPath(var_14_1.cutin_cover)
+		elseif var_14_1.cutin_cover_DAL then
+			var_14_0[#var_14_0 + 1] = var_0_0.Battle.BattleResourceManager.GetInstance().GetPaintingPath(var_14_1.cutin_cover_DAL)
+			var_14_0[#var_14_0 + 1] = "UI/SkillPaintingDAL"
 		elseif arg_14_3 then
 			local var_14_3 = var_0_3.GetPlayerShipSkinDataFromID(arg_14_3).painting
 

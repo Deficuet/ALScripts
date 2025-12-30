@@ -110,12 +110,36 @@ function var_0_0.UpdateView(arg_4_0)
 		end
 	end
 
+	arg_4_0:ShowShips(var_4_1)
 	seriesAsync(var_4_2, function()
 		arg_4_0:SkipAnim()
 	end)
 end
 
-function var_0_0.willExit(arg_11_0)
+function var_0_0.ShowShips(arg_11_0, arg_11_1, arg_11_2)
+	local var_11_0 = #_.filter(arg_11_1, function(arg_12_0)
+		return arg_12_0.type == DROP_TYPE_SHIP
+	end)
+	local var_11_1 = getProxy(BayProxy):getNewShip(true)
+	local var_11_2 = {}
+
+	for iter_11_0 = math.max(1, #var_11_1 - var_11_0 + 1), #var_11_1 do
+		local var_11_3 = var_11_1[iter_11_0]
+		local var_11_4 = PlayerPrefs.GetInt(DISPLAY_SHIP_GET_EFFECT) == 1 or var_11_3.virgin or var_11_3:getRarity() >= ShipRarity.Purple
+
+		print(var_11_4)
+
+		if var_11_4 then
+			table.insert(var_11_2, function(arg_13_0)
+				arg_11_0:emit(BossRushTotalRewardPanelMediator.GET_NEW_SHIP, var_11_3, arg_13_0)
+			end)
+		end
+	end
+
+	seriesAsync(var_11_2, arg_11_2)
+end
+
+function var_0_0.willExit(arg_14_0)
 	pg.m02:sendNotification(BossRushTotalRewardPanelMediator.ON_WILL_EXIT)
 end
 

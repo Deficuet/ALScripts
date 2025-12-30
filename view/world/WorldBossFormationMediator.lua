@@ -66,37 +66,44 @@ function var_0_0.register(arg_1_0)
 		arg_1_0:onAutoBtn(arg_6_1)
 	end)
 	arg_1_0:bind(var_0_0.ON_START, function(arg_7_0)
-		local var_7_0, var_7_1 = var_1_1:GetFleet(arg_1_0.contextData.bossId):isLegalToFight()
+		local var_7_0 = SYSTEM_WORLD_BOSS
 
-		if var_7_0 ~= true then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
+		if not arg_1_0.contextData.isSimulate then
+			local var_7_1, var_7_2 = var_1_1:GetFleet(arg_1_0.contextData.bossId):isLegalToFight()
 
-			return
-		end
+			if var_7_1 ~= true then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_no_fleet"))
 
-		local var_7_2 = nowWorld():GetBossProxy():GetBossById(arg_1_0.contextData.bossId)
+				return
+			end
 
-		if not var_7_2 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_not_found"))
+			local var_7_3 = nowWorld():GetBossProxy():GetBossById(arg_1_0.contextData.bossId)
 
-			return
-		end
+			if not var_7_3 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_boss_not_found"))
 
-		if arg_1_0.contextData.isOther and var_1_1:GetPt() <= 0 and WorldBossConst._IsCurrBoss(var_7_2) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
+				return
+			end
 
-			return
-		end
+			if arg_1_0.contextData.isOther and var_1_1:GetPt() <= 0 and WorldBossConst._IsCurrBoss(var_7_3) then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("world_joint_count_no_enough"))
 
-		if arg_1_0.contextData.isOther then
-			WorldBossScene.inOtherBossBattle = arg_1_0.contextData.bossId
+				return
+			end
+
+			if arg_1_0.contextData.isOther then
+				WorldBossScene.inOtherBossBattle = arg_1_0.contextData.bossId
+			end
+		else
+			var_7_0 = SYSTEM_WORLD_BOSS_SIMULATE
 		end
 
 		arg_1_0:sendNotification(GAME.BEGIN_STAGE, {
 			actId = 0,
 			bossId = arg_1_0.contextData.bossId,
-			system = SYSTEM_WORLD_BOSS,
-			hpRate = arg_1_0.contextData.hpRate
+			system = var_7_0,
+			hpRate = arg_1_0.contextData.hpRate,
+			isSimulate = isSimulate
 		})
 	end)
 	arg_1_0:bind(var_0_0.CHANGE_FLEET_SHIP, function(arg_8_0, arg_8_1, arg_8_2, arg_8_3)

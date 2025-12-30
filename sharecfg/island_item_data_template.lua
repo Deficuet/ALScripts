@@ -12,6 +12,7 @@ pg.island_item_data_template = setmetatable({
 			7,
 			8,
 			9,
+			10,
 			1000,
 			1001,
 			1002,
@@ -277,6 +278,7 @@ pg.island_item_data_template = setmetatable({
 			300006
 		},
 		{
+			10,
 			1000,
 			1001,
 			1002,
@@ -437,6 +439,7 @@ pg.island_item_data_template = setmetatable({
 		7,
 		8,
 		9,
+		10,
 		1000,
 		1001,
 		1002,
@@ -897,6 +900,32 @@ pg.base.island_item_data_template = {
 		sub_attribute = {},
 		jump_page = {}
 	},
+	{
+		pt_num = 1,
+		name = "離島シーズンPt交換チケット",
+		group_max = 0,
+		type = 1,
+		tech_id = 0,
+		convert = 1,
+		manage_influence = 0,
+		desc = "離島シーズン開発Ptの交換チケット。シーズン終了時に自動で当シーズンの開発Ptに返還されます（倉庫で手動で変換可能）",
+		usage = "usage_undefined",
+		resource_type = 1,
+		order_price = 0,
+		icon = "islandprops/Item_6",
+		price = 1,
+		icon_normal = "props/item_island_6",
+		rarity = 1,
+		drop_after_use = 0,
+		usage_arg = "[]",
+		id = 10,
+		have_max = 0,
+		filter = {
+			10114
+		},
+		sub_attribute = {},
+		jump_page = {}
+	},
 	[1000] = {
 		pt_num = 1,
 		name = "小麦の種",
@@ -919,15 +948,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -954,15 +992,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -989,15 +1036,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1024,15 +1080,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1059,15 +1124,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1094,15 +1168,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1129,15 +1212,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1164,15 +1256,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1199,15 +1300,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1234,15 +1344,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10022
+					}
 				}
 			}
 		}
@@ -1269,15 +1388,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1304,15 +1432,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1339,15 +1476,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1374,15 +1520,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1409,15 +1564,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10028
+					}
 				}
 			}
 		}
@@ -1444,15 +1608,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1479,15 +1652,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1514,15 +1696,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1549,15 +1740,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1584,15 +1784,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1619,15 +1828,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1654,15 +1872,24 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10114,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -1817,7 +2044,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -1913,7 +2140,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2009,7 +2236,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2041,7 +2268,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2073,7 +2300,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2105,7 +2332,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2137,7 +2364,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10132
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2169,7 +2396,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2201,7 +2428,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2233,7 +2460,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2265,7 +2492,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2297,7 +2524,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2329,7 +2556,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2361,7 +2588,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2585,7 +2812,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2916,7 +3143,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3000] = {
-		pt_num = 1,
+		pt_num = 3,
 		name = "コッコートリの餌",
 		group_max = 0,
 		type = 1,
@@ -2937,7 +3164,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -2948,7 +3175,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3001] = {
-		pt_num = 1,
+		pt_num = 3,
 		name = "ブーブーブタの餌",
 		group_max = 0,
 		type = 1,
@@ -2969,7 +3196,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3001,7 +3228,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3033,7 +3260,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3044,7 +3271,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3004] = {
-		pt_num = 1,
+		pt_num = 6,
 		name = "小麦粉",
 		group_max = 0,
 		type = 1,
@@ -3065,7 +3292,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10112,
-			10127
+			10140
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -3076,7 +3303,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3005] = {
-		pt_num = 1,
+		pt_num = 15,
 		name = "アイスコーヒー",
 		group_max = 0,
 		type = 1,
@@ -3181,7 +3408,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3008] = {
-		pt_num = 20,
+		pt_num = 25,
 		name = "シトラスコーヒー",
 		group_max = 0,
 		type = 1,
@@ -3237,7 +3464,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -3251,7 +3478,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3010] = {
-		pt_num = 25,
+		pt_num = 60,
 		name = "いちごミルクシェイク",
 		group_max = 0,
 		type = 1,
@@ -3307,7 +3534,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -3342,7 +3569,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			3,
@@ -3377,7 +3604,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			4,
@@ -3391,7 +3618,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3014] = {
-		pt_num = 40,
+		pt_num = 65,
 		name = "白菜と豆腐のスープ",
 		group_max = 0,
 		type = 1,
@@ -3412,7 +3639,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -3447,7 +3674,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			3,
@@ -3482,7 +3709,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -3496,7 +3723,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3018] = {
-		pt_num = 20,
+		pt_num = 25,
 		name = "バナナマンゴージュース",
 		group_max = 0,
 		type = 1,
@@ -3517,7 +3744,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -3552,7 +3779,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3566,7 +3793,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3020] = {
-		pt_num = 25,
+		pt_num = 50,
 		name = "いちごレモンドリンク",
 		group_max = 0,
 		type = 1,
@@ -3587,7 +3814,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3622,7 +3849,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -3657,7 +3884,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			4,
@@ -3671,7 +3898,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3023] = {
-		pt_num = 4,
+		pt_num = 7,
 		name = "コーンカップ",
 		group_max = 0,
 		type = 1,
@@ -3692,7 +3919,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -3727,7 +3954,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -3762,7 +3989,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			4,
@@ -3797,7 +4024,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -3832,7 +4059,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10126
+			10129
 		},
 		sub_attribute = {
 			4,
@@ -3867,7 +4094,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -3902,7 +4129,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -3937,7 +4164,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -3972,7 +4199,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -4007,7 +4234,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			4,
@@ -4042,7 +4269,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4074,7 +4301,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4106,7 +4333,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4138,7 +4365,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4170,7 +4397,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4202,7 +4429,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4234,7 +4461,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4266,7 +4493,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4298,7 +4525,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4330,7 +4557,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4362,7 +4589,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4394,7 +4621,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4426,7 +4653,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4437,7 +4664,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3048] = {
-		pt_num = 1,
+		pt_num = 6,
 		name = "紙",
 		group_max = 0,
 		type = 1,
@@ -4458,7 +4685,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4490,7 +4717,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4522,7 +4749,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4554,7 +4781,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4586,7 +4813,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4618,7 +4845,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4650,7 +4877,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4682,7 +4909,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4714,7 +4941,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10131
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -4725,7 +4952,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3059] = {
-		pt_num = 1,
+		pt_num = 2,
 		name = "オムレツ",
 		group_max = 0,
 		type = 1,
@@ -4760,7 +4987,7 @@ pg.base.island_item_data_template = {
 		}
 	},
 	[3101] = {
-		pt_num = 200,
+		pt_num = 230,
 		name = "定番豆腐セット",
 		group_max = 0,
 		type = 1,
@@ -4781,7 +5008,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -4789,7 +5016,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"有魚飯店",
 				{}
 			}
 		}
@@ -4816,7 +5043,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -4824,13 +5051,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"有魚飯店",
 				{}
 			}
 		}
 	},
 	[3103] = {
-		pt_num = 200,
+		pt_num = 250,
 		name = "香りも楽しめるフルーツセット",
 		group_max = 0,
 		type = 1,
@@ -4851,7 +5078,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			3,
@@ -4859,7 +5086,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"白クマ茶房",
 				{}
 			}
 		}
@@ -4886,7 +5113,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -4894,13 +5121,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"白クマ茶房",
 				{}
 			}
 		}
 	},
 	[3105] = {
-		pt_num = 60,
+		pt_num = 70,
 		name = "太陽のハニー",
 		group_max = 0,
 		type = 1,
@@ -4921,7 +5148,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10128
 		},
 		sub_attribute = {
 			5,
@@ -4929,13 +5156,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"白クマ茶房",
 				{}
 			}
 		}
 	},
 	[3106] = {
-		pt_num = 65,
+		pt_num = 70,
 		name = "スイートテイスト",
 		group_max = 0,
 		type = 1,
@@ -4956,7 +5183,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			3,
@@ -4964,7 +5191,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"饅頭軽食",
 				{}
 			}
 		}
@@ -4991,7 +5218,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -4999,7 +5226,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"饅頭軽食",
 				{}
 			}
 		}
@@ -5026,7 +5253,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10129
 		},
 		sub_attribute = {
 			5,
@@ -5034,7 +5261,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"饅頭軽食",
 				{}
 			}
 		}
@@ -5061,7 +5288,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			3,
@@ -5069,7 +5296,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"烏魚焼肉",
 				{}
 			}
 		}
@@ -5096,7 +5323,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10130
 		},
 		sub_attribute = {
 			5,
@@ -5104,7 +5331,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"烏魚焼肉",
 				{}
 			}
 		}
@@ -5131,7 +5358,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			5,
@@ -5139,7 +5366,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"饅頭カフェ",
 				{}
 			}
 		}
@@ -5166,7 +5393,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			3,
@@ -5174,13 +5401,13 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"饅頭カフェ",
 				{}
 			}
 		}
 	},
 	[3113] = {
-		pt_num = 65,
+		pt_num = 90,
 		name = "フルーツツインズ",
 		group_max = 0,
 		type = 1,
@@ -5201,7 +5428,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10125
+			10126
 		},
 		sub_attribute = {
 			3,
@@ -5209,7 +5436,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"セット図鑑",
+				"饅頭カフェ",
 				{}
 			}
 		}
@@ -5360,7 +5587,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -5398,8 +5625,17 @@ pg.base.island_item_data_template = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -5426,7 +5662,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10111,
-			10121
+			10125
 		},
 		sub_attribute = {},
 		jump_page = {
@@ -5464,8 +5700,17 @@ pg.base.island_item_data_template = {
 			{
 				"ショップ購入",
 				{
-					"IslandShopScene",
-					"page = 1"
+					"IslandShopPage",
+					{
+						1,
+						2,
+						3,
+						4,
+						5
+					},
+					{
+						10025
+					}
 				}
 			}
 		}
@@ -5492,7 +5737,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10129
+			10127
 		},
 		sub_attribute = {
 			4,
@@ -5500,7 +5745,7 @@ pg.base.island_item_data_template = {
 		},
 		jump_page = {
 			{
-				"有鱼餐馆",
+				"有魚飯店",
 				{}
 			}
 		}
@@ -5527,7 +5772,7 @@ pg.base.island_item_data_template = {
 		have_max = 0,
 		filter = {
 			10113,
-			10129
+			10127
 		},
 		sub_attribute = {
 			5,
@@ -6591,7 +6836,7 @@ pg.base.island_item_data_template = {
 		tech_id = 0,
 		convert = 0,
 		manage_influence = 0,
-		desc = "体力が50回復し、8時間、基本資源生産時に生産に必要な時間を5％短縮する。いちごの甘い香りで今日も元気いっぱい",
+		desc = "体力が50回復し、8時間、基本資源生産時に作業速度が5％アップ。いちごの甘い香りで今日も元気いっぱい",
 		usage = "usage_island_gift",
 		order_price = 0,
 		icon = "IslandProps/item_110003",
@@ -6633,7 +6878,7 @@ pg.base.island_item_data_template = {
 		tech_id = 0,
 		convert = 0,
 		manage_influence = 0,
-		desc = "体力が50回復し、8時間、基地工場でアイテム制作時に制作に必要な時間を5％短縮する。キンカンの渋みもあるけど、後味が甘く気分も爽やかに",
+		desc = "体力が50回復し、8時間、基地工場でアイテム制作時に作業速度が5％アップ。キンカンの渋みもあるけど、後味が甘く気分も爽やかに",
 		usage = "usage_island_gift",
 		order_price = 0,
 		icon = "IslandProps/item_110004",
@@ -6675,7 +6920,7 @@ pg.base.island_item_data_template = {
 		tech_id = 0,
 		convert = 0,
 		manage_influence = 0,
-		desc = "体力が50回復し、8時間、店舗で料理アイテム制作時に制作に必要な時間を5％短縮する。酸っぱくて甘い、フルーティーなベリーの嬉しい味覚",
+		desc = "体力が50回復し、8時間、店舗で料理アイテム制作時に作業速度が5％アップ。酸っぱくて甘い、フルーティーなベリーの嬉しい味覚",
 		usage = "usage_island_gift",
 		order_price = 0,
 		icon = "IslandProps/item_110005",
@@ -6735,7 +6980,9 @@ pg.base.island_item_data_template = {
 		usage_arg = {
 			{
 				50,
-				{}
+				{
+					5
+				}
 			},
 			{
 				50,

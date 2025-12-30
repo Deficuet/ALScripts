@@ -158,8 +158,19 @@ function var_0_0.GetRoleShipData(arg_17_0)
 	return nil
 end
 
-function var_0_0.GetPartList(arg_18_0)
-	return arg_18_0.part_list or {}
+function var_0_0.GetRoleSlotAndFormulaData(arg_18_0)
+	if arg_18_0.islandRoleDelegationData then
+		return {
+			formula_id = arg_18_0.islandRoleDelegationData.formula_id,
+			area_id = arg_18_0.id
+		}
+	end
+
+	return nil
+end
+
+function var_0_0.GetPartList(arg_19_0)
+	return arg_19_0.part_list or {}
 end
 
 return var_0_0

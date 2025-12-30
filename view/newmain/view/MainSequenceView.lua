@@ -5,6 +5,7 @@ function var_0_0.Ctor(arg_1_0)
 		MainAwakeGuideSequence.New(),
 		MainRefundSequence.New(),
 		MainForcePlayerNameModificationSequence.New(),
+		MainRequestNPCShipSequence.New(),
 		MainRequestVoteInfoSequence.New(),
 		MainStroySequence.New(),
 		MainRequestActDataSequence.New(),

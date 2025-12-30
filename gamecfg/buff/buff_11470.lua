@@ -6,7 +6,7 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minTargetNumber = 1,
+				minTargetNumber = 2,
 				target = "TargetSelf",
 				skill_id = 11470,
 				check_target = {

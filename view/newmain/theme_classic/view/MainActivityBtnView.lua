@@ -190,7 +190,12 @@ function var_0_0.Flush(arg_20_0)
 
 	arg_20_0._tf.localScale = Vector3(var_20_4, var_20_4, 1)
 	arg_20_0.initPos = arg_20_0.initPos or arg_20_0._tf.localPosition
-	arg_20_0._tf.localPosition = Vector3(arg_20_0.initPos.x, var_20_5, 0)
+
+	onNextTick(function()
+		if not IsNil(arg_20_0._tf) then
+			arg_20_0._tf.localPosition = Vector3(arg_20_0.initPos.x, var_20_5, 0)
+		end
+	end)
 
 	local var_20_6, var_20_7 = arg_20_0:FilterSpActivityBtns()
 
@@ -203,50 +208,50 @@ function var_0_0.Flush(arg_20_0)
 	end
 end
 
-function var_0_0.Refresh(arg_21_0)
-	if not arg_21_0.isInit then
+function var_0_0.Refresh(arg_22_0)
+	if not arg_22_0.isInit then
 		return
 	end
 
-	arg_21_0:Flush()
+	arg_22_0:Flush()
 
-	for iter_21_0, iter_21_1 in ipairs(arg_21_0.specailBtns) do
-		if iter_21_1:InShowTime() then
-			iter_21_1:Refresh()
-		end
-	end
-end
-
-function var_0_0.Disable(arg_22_0)
 	for iter_22_0, iter_22_1 in ipairs(arg_22_0.specailBtns) do
 		if iter_22_1:InShowTime() then
-			iter_22_1:Disable()
+			iter_22_1:Refresh()
 		end
 	end
 end
 
-function var_0_0.Dispose(arg_23_0)
-	var_0_0.super.Dispose(arg_23_0)
-	arg_23_0.linkBtnTopFoldableHelper:Dispose()
-
-	for iter_23_0, iter_23_1 in ipairs(arg_23_0.activityBtns) do
-		iter_23_1:Dispose()
+function var_0_0.Disable(arg_23_0)
+	for iter_23_0, iter_23_1 in ipairs(arg_23_0.specailBtns) do
+		if iter_23_1:InShowTime() then
+			iter_23_1:Disable()
+		end
 	end
-
-	for iter_23_2, iter_23_3 in ipairs(arg_23_0.specailBtns) do
-		iter_23_3:Dispose()
-	end
-
-	arg_23_0.specailBtns = nil
-	arg_23_0.activityBtns = nil
 end
 
-function var_0_0.Fold(arg_24_0, arg_24_1, arg_24_2)
-	var_0_0.super.Fold(arg_24_0, arg_24_1, arg_24_2)
-	arg_24_0.linkBtnTopFoldableHelper:Fold(arg_24_1, arg_24_2)
+function var_0_0.Dispose(arg_24_0)
+	var_0_0.super.Dispose(arg_24_0)
+	arg_24_0.linkBtnTopFoldableHelper:Dispose()
+
+	for iter_24_0, iter_24_1 in ipairs(arg_24_0.activityBtns) do
+		iter_24_1:Dispose()
+	end
+
+	for iter_24_2, iter_24_3 in ipairs(arg_24_0.specailBtns) do
+		iter_24_3:Dispose()
+	end
+
+	arg_24_0.specailBtns = nil
+	arg_24_0.activityBtns = nil
 end
 
-function var_0_0.GetDirection(arg_25_0)
+function var_0_0.Fold(arg_25_0, arg_25_1, arg_25_2)
+	var_0_0.super.Fold(arg_25_0, arg_25_1, arg_25_2)
+	arg_25_0.linkBtnTopFoldableHelper:Fold(arg_25_1, arg_25_2)
+end
+
+function var_0_0.GetDirection(arg_26_0)
 	return Vector2(1, 0)
 end
 

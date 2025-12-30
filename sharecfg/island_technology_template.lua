@@ -1022,20 +1022,20 @@ pg.base.island_technology_template = {
 		}
 	},
 	[130301] = {
-		tech_desc = "定期補給の投下数が増加。新しい驚きを収穫しに行こう！",
+		tech_desc = "友達定期補給の入手可能回数が1増加。新しいサプライズを手に入れよう！",
 		tech_chara = 1,
 		tech_level = "1",
 		complete_character_id = "",
 		tech_icon = "tech_130301",
 		auto_finish = 1,
 		tech_name = "定期補給数＋I",
-		complete_tips = "集会島の定期補給の投下物資が増えました。<color=#1E8FFE>集会島の受領ポイント</color>で確認できます",
+		complete_tips = "<color=#1E8FFE>友達定期補給</color>の入手可能回数が1増加。<color=#1E8FFE>友達訪問</color>画面で確認可能",
 		formula_id = 7130301,
-		complete_title = "集会島の定期補給の投下物資が増えました。<color=#1E8FFE>集会島の受領ポイント</color>で確認できます",
+		complete_title = "<color=#1E8FFE>友達定期補給</color>の入手可能回数が1増加。<color=#1E8FFE>友達訪問</color>画面で確認可能",
 		tech_belong = 1,
 		id = 130301,
 		island_level = 19,
-		complete_map_id = 1003,
+		complete_map_id = 0,
 		sys_unlock = {
 			{
 				1,
@@ -1124,20 +1124,20 @@ pg.base.island_technology_template = {
 		}
 	},
 	[130302] = {
-		tech_desc = "定期補給の投下数が増加。新しい驚きを収穫しに行こう！",
+		tech_desc = "友達定期補給の入手可能回数が1増加。新しいサプライズを手に入れよう！",
 		tech_chara = 1,
 		tech_level = "2",
 		complete_character_id = "",
 		tech_icon = "tech_130301",
 		auto_finish = 1,
 		tech_name = "定期補給数＋II",
-		complete_tips = "集会島の定期補給の投下物資が増えました。<color=#1E8FFE>集会島の受領ポイント</color>で確認できます",
+		complete_tips = "<color=#1E8FFE>友達定期補給</color>の入手可能回数が1増加。<color=#1E8FFE>友達訪問</color>画面で確認可能",
 		formula_id = 7130302,
-		complete_title = "集会島の定期補給の投下物資が増えました。<color=#1E8FFE>集会島の受領ポイント</color>で確認できます",
+		complete_title = "<color=#1E8FFE>友達定期補給</color>の入手可能回数が1増加。<color=#1E8FFE>友達訪問</color>画面で確認可能",
 		tech_belong = 1,
 		id = 130302,
 		island_level = 22,
-		complete_map_id = 1003,
+		complete_map_id = 0,
 		sys_unlock = {
 			{
 				1,
@@ -4493,7 +4493,7 @@ pg.base.island_technology_template = {
 		complete_title = "<color=#1E8FFE>港商店街のアムマーマー</color>のところの<color=#1E8FFE>有魚飯店</color>で確認できます",
 		id = 510204,
 		island_level = 14,
-		complete_map_id = 1005,
+		complete_map_id = 1006,
 		sys_unlock = {
 			{
 				3,
@@ -4741,7 +4741,7 @@ pg.base.island_technology_template = {
 		complete_title = "<color=#1E8FFE>繁荫農圃のルシタニア</color>から<color=#1E8FFE>アボカドの木の種</color>を入手できるようになりました",
 		id = 500236,
 		island_level = 18,
-		complete_map_id = 1006,
+		complete_map_id = 1005,
 		sys_unlock = {
 			{
 				1,
@@ -4809,7 +4809,7 @@ pg.base.island_technology_template = {
 		complete_title = "<color=#1E8FFE>港商店街のアムマーマー</color>のところの<color=#1E8FFE>白クマ茶房</color>で確認できます",
 		id = 520205,
 		island_level = 19,
-		complete_map_id = 1005,
+		complete_map_id = 1006,
 		sys_unlock = {
 			{
 				3,
@@ -4873,7 +4873,7 @@ pg.base.island_technology_template = {
 		complete_title = "<color=#1E8FFE>港商店街のアムマーマー</color>のところの<color=#1E8FFE>饅頭軽食</color>で確認できます",
 		id = 530202,
 		island_level = 20,
-		complete_map_id = 1005,
+		complete_map_id = 1006,
 		sys_unlock = {
 			{
 				3,

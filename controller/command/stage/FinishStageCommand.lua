@@ -8,6 +8,10 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		return
 	end
 
+	if var_1_1 == SYSTEM_WORLD_BOSS and var_1_0.isSimulate then
+		var_1_1 = SYSTEM_WORLD_BOSS_SIMULATE
+	end
+
 	ys.Battle.BattleGate.Gates[var_1_1].Exit(var_1_0, arg_1_0)
 end
 

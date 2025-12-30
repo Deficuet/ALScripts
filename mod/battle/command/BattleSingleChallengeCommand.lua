@@ -58,6 +58,7 @@ function var_0_4.initWaveModule(arg_4_0)
 			return
 		end
 
+		arg_4_0._dataProxy:TriggerFinishBattle()
 		arg_4_0._dataProxy:CalcChallengeScore(true)
 		arg_4_0._state:BattleEnd()
 	end
@@ -98,6 +99,7 @@ function var_0_4.onPlayerShutDown(arg_13_0, arg_13_1)
 	end
 
 	if arg_13_1.Data.unit == arg_13_0._userFleet:GetFlagShip() then
+		arg_13_0._dataProxy:TriggerFinishBattle()
 		arg_13_0._dataProxy:CalcChallengeScore(false)
 		arg_13_0._state:BattleEnd()
 
@@ -105,6 +107,7 @@ function var_0_4.onPlayerShutDown(arg_13_0, arg_13_1)
 	end
 
 	if #arg_13_0._userFleet:GetScoutList() == 0 then
+		arg_13_0._dataProxy:TriggerFinishBattle()
 		arg_13_0._dataProxy:CalcChallengeScore(false)
 		arg_13_0._state:BattleEnd()
 	end
@@ -112,6 +115,7 @@ end
 
 function var_0_4.onUpdateCountDown(arg_14_0, arg_14_1)
 	if arg_14_0._dataProxy:GetCountDown() <= 0 then
+		arg_14_0._dataProxy:TriggerFinishBattle()
 		arg_14_0._dataProxy:CalcChallengeScore(false)
 		arg_14_0._state:BattleEnd()
 	end

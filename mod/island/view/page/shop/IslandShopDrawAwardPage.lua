@@ -400,7 +400,7 @@ function var_0_0.ShowDrawAwardWindow(arg_37_0, arg_37_1)
 			eachChild(var_40_0:Find("front"), function(arg_47_0, arg_47_1)
 				setActive(arg_47_0, arg_47_0.name == var_40_4)
 			end)
-			var_40_0:Find("Book"):GetComponent("Book"):SetCurrentPage(2)
+			var_40_0:Find("Book"):GetComponent(typeof(Book)):SetCurrentPage(2)
 			setCanvasGroupAlpha(var_40_0, 0)
 			setCanvasGroupAlpha(var_40_0:Find("Book"), 1)
 
@@ -476,7 +476,7 @@ function var_0_0.ShowDrawAwardWindow(arg_37_0, arg_37_1)
 				end
 
 				table.insert(var_59_0, function(arg_61_0)
-					local var_61_0 = var_58_1:Find("Book"):GetComponent("AutoFlip")
+					local var_61_0 = var_58_1:Find("Book"):GetComponent(typeof(AutoFlip))
 
 					var_61_0:StartControl()
 					var_58_1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function()

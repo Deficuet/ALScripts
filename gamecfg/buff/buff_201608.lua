@@ -1,0 +1,44 @@
+return {
+	time = 29.5,
+	name = "2025约战联动 角色支援 夜刀神十香",
+	init_effect = "",
+	stack = 1,
+	id = 201608,
+	picture = "",
+	last_effect = "",
+	effect_list = {
+		{
+			id = 1,
+			type = "BattleBuffShieldWall",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				do_when_hit = "intercept",
+				effect = "shield02",
+				count = 8,
+				bulletType = 1,
+				cld_list = {
+					{
+						box = {
+							4,
+							6,
+							9
+						},
+						offset = {
+							0,
+							0,
+							0
+						}
+					}
+				},
+				centerPosFun = function(arg_1_0)
+					return Vector3(3, -1.8, 0.5)
+				end,
+				rotationFun = function(arg_2_0)
+					return Vector3(0, 192, 0)
+				end
+			}
+		}
+	}
+}

@@ -43,9 +43,11 @@ function var_0_0.GetPools(arg_3_0)
 			end
 		end)
 		table.insert(var_3_2, function(arg_5_0)
-			local var_5_0 = pg.ship_data_create_exchange[iter_3_1.id] or {}
+			local var_5_0 = pg.ship_data_create_exchange[iter_3_1.id]
 
-			if iter_3_1:getConfig("type") ~= ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD or iter_3_1.data2 < (var_5_0.exchange_available_times or 0) then
+			if iter_3_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_NEWSERVER_BUILD and iter_3_1.data2 >= var_5_0.exchange_available_times then
+				-- block empty
+			else
 				arg_5_0()
 			end
 		end)

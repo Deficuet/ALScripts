@@ -2653,6 +2653,27 @@ pg.medal_template = {
 		target_num = 8,
 		target_id = "50209"
 	},
+	[200111] = {
+		explain1 = "「天穹に響く音謡」",
+		name = "天穹の星記念章",
+		explain2 = "イベント",
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "アンカレッジ天文台をモチーフにした記念勲章。\n——あなたはヴェールをめくり、天穹を越えた\n——過去と未来はこの瞬間に繋いだ\n——新たな時代がやってきた",
+		next = 0,
+		icon = "9111",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9111",
+		condition = "「天穹に響く音謡」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200111,
+		target_num = 8,
+		target_id = "50295"
+	},
 	all = {
 		10011,
 		10012,
@@ -2774,6 +2795,7 @@ pg.medal_template = {
 		200071,
 		200081,
 		200091,
-		200101
+		200101,
+		200111
 	}
 }

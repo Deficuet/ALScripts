@@ -169,13 +169,12 @@ function var_0_0.updateStageShip(arg_16_0)
 	end
 
 	arg_16_0.loader:GetSpine(var_16_0, function(arg_17_0)
-		arg_17_0.transform.localScale = Vector3(0.63, 0.63, 1)
-		arg_17_0.transform.localPosition = Vector3.zero
-
-		arg_17_0.transform:SetParent(arg_16_0._stageShip, false)
-		arg_17_0.transform:SetSiblingIndex(1)
+		arg_17_0:SetLocalScale(Vector3(0.63, 0.63, 1))
+		arg_17_0:SetLocalPosition(Vector3.zero)
+		arg_17_0:SetParent(arg_16_0._stageShip)
+		arg_17_0:SetSiblingIndex(1)
 		setActive(arg_16_0._stageShip, true)
-		arg_17_0:GetComponent(typeof(SpineAnimUI)):SetAction(var_16_1, 0)
+		arg_17_0:SetAction(var_16_1, 0)
 	end, arg_16_0._stageShip)
 end
 

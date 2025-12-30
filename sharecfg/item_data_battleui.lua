@@ -140,9 +140,24 @@ pg.item_data_battleui = {
 		display_icon = "ui_109",
 		is_unlock = 1,
 		rare = 3,
-		unlock = "世界巡游二十五期获取",
+		unlock = "クルーズパス25期報酬",
 		id = 109,
 		icon = "109",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
+	[111] = {
+		key = "SkinNormal_20251120",
+		name = "影絵",
+		desc = "シンプルな影絵は無限の幻想を描き出し、簡単な物語は素晴らしい希望を与える",
+		display_icon = "ui_111",
+		is_unlock = 1,
+		rare = 3,
+		unlock = "クルーズパス26期報酬",
+		id = 111,
+		icon = "111",
 		scene = {},
 		rare_display = {
 			1
@@ -233,6 +248,23 @@ pg.item_data_battleui = {
 			3
 		}
 	},
+	[206] = {
+		key = "SkinElite_20251218",
+		name = "メイドカフェ",
+		desc = "甘やかしメイドの甘いお菓子を食べながら、甘々なチャレンジに挑んでみよう！",
+		display_icon = "ui_206",
+		is_unlock = 1,
+		rare = 4,
+		unlock = "ショップ購入（戦闘UI・メイドカフェ）",
+		id = 206,
+		icon = "206",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	all = {
 		0,
 		101,
@@ -244,10 +276,12 @@ pg.item_data_battleui = {
 		107,
 		108,
 		109,
+		111,
 		201,
 		202,
 		203,
 		204,
-		205
+		205,
+		206
 	}
 }

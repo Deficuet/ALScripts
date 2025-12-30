@@ -168,6 +168,8 @@ function var_0_2.EnterBattle(arg_9_0, arg_9_1, arg_9_2)
 		arg_9_0._battleCommand = arg_9_0:AddCommand(var_0_0.Battle.BattleGuildBossCommand.New())
 	elseif arg_9_1.battleType == SYSTEM_CARDPUZZLE then
 		arg_9_0._battleCommand = arg_9_0:AddCommand(var_0_0.Battle.BattleCardPuzzleCommand.New())
+	elseif arg_9_1.battleType == SYSTEM_BOSS_RUSH_COLLABRATE then
+		arg_9_0._battleCommand = arg_9_0:AddCommand(var_0_0.Battle.BattleDALCollabSingleDungeonCommand.New())
 	else
 		arg_9_0._battleCommand = arg_9_0:AddCommand(var_0_0.Battle.BattleSingleDungeonCommand.New())
 	end

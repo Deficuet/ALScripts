@@ -30,6 +30,7 @@ pg.expedition_data_by_map = setmetatable({
 		211,
 		212,
 		213,
+		214,
 		10000,
 		70000,
 		90000,
@@ -183,6 +184,12 @@ pg.expedition_data_by_map = setmetatable({
 		1970002,
 		1970003,
 		1970004,
+		1990001,
+		1990002,
+		1990011,
+		1990012,
+		1990025,
+		1990026,
 		2100000,
 		2100001,
 		2100010,
@@ -287,6 +294,14 @@ pg.expedition_data_by_map = setmetatable({
 		2100502,
 		2100511,
 		2100512,
+		2100521,
+		2100522,
+		2100531,
+		2100532,
+		2100541,
+		2100542,
+		2100551,
+		2100552,
 		2200000,
 		2200010,
 		2200020,
@@ -1226,7 +1241,7 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		story_inactive_color = "",
 		animtor = 1,
-		bind_map = 0,
+		bind_map = 214,
 		clouds_pos = {},
 		drop_by_map_display = {}
 	},
@@ -1927,6 +1942,35 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		},
+		drop_by_map_display = {}
+	},
+	[214] = {
+		map = 214,
+		name = "スリガオ夜戦",
+		level_limit = 80,
+		type = 2,
+		anchor = "",
+		title = "14",
+		map_name = "",
+		bgm = "level",
+		ani_name = "map_14",
+		ani_controller = "",
+		guide_id = "",
+		enter_story = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "UIhuohua2",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_214",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 14,
+		clouds_pos = {},
 		drop_by_map_display = {}
 	},
 	[10000] = {
@@ -4369,7 +4413,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 4940,
+		on_activity = 50213,
 		ui_type = 1,
 		bg = "Map_1730001",
 		story_id = "",
@@ -5113,7 +5157,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 5001,
+		on_activity = 50222,
 		ui_type = 1,
 		bg = "Map_1750001",
 		story_id = "",
@@ -5163,7 +5207,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 5001,
+		on_activity = 50222,
 		ui_type = 1,
 		bg = "Map_1750002",
 		story_id = "",
@@ -5213,7 +5257,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 5001,
+		on_activity = 50222,
 		ui_type = 1,
 		bg = "Map_1750003",
 		story_id = "",
@@ -5263,7 +5307,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 5001,
+		on_activity = 50222,
 		ui_type = 1,
 		bg = "Map_1750004",
 		story_id = "",
@@ -5313,7 +5357,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 5001,
+		on_activity = 50222,
 		ui_type = 1,
 		bg = "Map_1750004",
 		story_id = "",
@@ -5363,7 +5407,7 @@ pg.base.expedition_data_by_map = {
 		cloud_suffix = "",
 		default_bgm = "",
 		uifx = "",
-		on_activity = 5001,
+		on_activity = 50222,
 		ui_type = 1,
 		bg = "Map_1750004",
 		story_id = "",
@@ -13213,6 +13257,529 @@ pg.base.expedition_data_by_map = {
 			319
 		}
 	},
+	[1990001] = {
+		map = 1990001,
+		name = "天穹に響く音謡·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-weimu",
+		enter_story = "",
+		ani_name = "Map_1990001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part1",
+		default_background = "star_level_bg_115",
+		cloud_suffix = "",
+		default_bgm = "battle-eagleunion",
+		uifx = "",
+		on_activity = 50281,
+		ui_type = 10,
+		bg = "Map_1990001",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1990011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1990001,
+				1990021
+			},
+			{
+				1990002,
+				1990022
+			},
+			{
+				1990003,
+				1990023
+			}
+		},
+		story_id = {
+			341,
+			342,
+			343,
+			344,
+			345,
+			346,
+			347,
+			348,
+			349,
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356,
+			357,
+			358,
+			359,
+			360,
+			361,
+			362,
+			363,
+			364,
+			365,
+			366
+		}
+	},
+	[1990002] = {
+		map = 1990002,
+		name = "天穹に響く音謡·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-weimu-link",
+		enter_story = "",
+		ani_name = "Map_1990002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part2",
+		default_background = "star_level_bg_115",
+		cloud_suffix = "",
+		default_bgm = "battle-eagleunion",
+		uifx = "",
+		on_activity = 50281,
+		ui_type = 10,
+		bg = "Map_1990002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1990012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1990004,
+				1990024
+			},
+			{
+				1990005,
+				1990025
+			},
+			{
+				1990006,
+				1990026
+			}
+		},
+		story_id = {
+			341,
+			342,
+			343,
+			344,
+			345,
+			346,
+			347,
+			348,
+			349,
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356,
+			357,
+			358,
+			359,
+			360,
+			361,
+			362,
+			363,
+			364,
+			365,
+			366
+		}
+	},
+	[1990011] = {
+		map = 1990011,
+		name = "天穹に響く音謡·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-weimu",
+		enter_story = "",
+		ani_name = "Map_1990001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part1",
+		default_background = "star_level_bg_115",
+		cloud_suffix = "",
+		default_bgm = "battle-eagleunion",
+		uifx = "",
+		on_activity = 50281,
+		ui_type = 10,
+		bg = "Map_1990001",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1990001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1990001,
+				1990021
+			},
+			{
+				1990002,
+				1990022
+			},
+			{
+				1990003,
+				1990023
+			}
+		},
+		story_id = {
+			341,
+			342,
+			343,
+			344,
+			345,
+			346,
+			347,
+			348,
+			349,
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356,
+			357,
+			358,
+			359,
+			360,
+			361,
+			362,
+			363,
+			364,
+			365,
+			366
+		}
+	},
+	[1990012] = {
+		map = 1990012,
+		name = "天穹に響く音謡·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "story-weimu-link",
+		enter_story = "",
+		ani_name = "Map_1990002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_part2",
+		default_background = "star_level_bg_115",
+		cloud_suffix = "",
+		default_bgm = "battle-eagleunion",
+		uifx = "",
+		on_activity = 50281,
+		ui_type = 10,
+		bg = "Map_1990002",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1990002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1990004,
+				1990024
+			},
+			{
+				1990005,
+				1990025
+			},
+			{
+				1990006,
+				1990026
+			}
+		},
+		story_id = {
+			341,
+			342,
+			343,
+			344,
+			345,
+			346,
+			347,
+			348,
+			349,
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356,
+			357,
+			358,
+			359,
+			360,
+			361,
+			362,
+			363,
+			364,
+			365,
+			366
+		}
+	},
+	[1990025] = {
+		map = 1990025,
+		name = "天穹に響く音謡·SP|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-uc",
+		enter_story = "",
+		ani_name = "Map_1990003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_sp",
+		default_background = "star_level_bg_115",
+		cloud_suffix = "",
+		default_bgm = "battle-eagleunion",
+		uifx = "",
+		on_activity = 50281,
+		ui_type = 10,
+		bg = "Map_1990003",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1990012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1990041
+			}
+		},
+		story_id = {
+			341,
+			342,
+			343,
+			344,
+			345,
+			346,
+			347,
+			348,
+			349,
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356,
+			357,
+			358,
+			359,
+			360,
+			361,
+			362,
+			363,
+			364,
+			365,
+			366
+		}
+	},
+	[1990026] = {
+		map = 1990026,
+		name = "天穹に響く音謡·EX|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-objectX-spread",
+		enter_story = "",
+		ani_name = "Map_1990004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "levelscene_mapselect_ex",
+		default_background = "star_level_bg_115",
+		cloud_suffix = "",
+		default_bgm = "battle-eagleunion",
+		uifx = "",
+		on_activity = 50281,
+		ui_type = 10,
+		bg = "Map_1780005",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "162443",
+		animtor = 1,
+		bind_map = 1990012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1990051,
+				1990052
+			}
+		},
+		story_id = {
+			341,
+			342,
+			343,
+			344,
+			345,
+			346,
+			347,
+			348,
+			349,
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356,
+			357,
+			358,
+			359,
+			360,
+			361,
+			362,
+			363,
+			364,
+			365,
+			366
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染の来訪者』-前編|| ||CHAPTER EX||E.X.",
@@ -18487,6 +19054,446 @@ pg.base.expedition_data_by_map = {
 		anchor = {
 			0.5,
 			0.5
+		}
+	},
+	[2100521] = {
+		map = 2100521,
+		name = "赫の涙月　菫の暁風·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-musashi-inside",
+		enter_story = "ZIJIANGJINLAN1",
+		ani_name = "Map_1680001",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1680001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100531,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100522] = {
+		map = 2100522,
+		name = "赫の涙月　菫の暁風·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-1",
+		enter_story = "ZIJIANGJINLAN19",
+		ani_name = "Map_1680002",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1680002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100532,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100531] = {
+		map = 2100531,
+		name = "赫の涙月　菫の暁風·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-musashi-inside",
+		enter_story = "ZIJIANGJINLAN1",
+		ani_name = "Map_1680003",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1680003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100521,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100532] = {
+		map = 2100532,
+		name = "赫の涙月　菫の暁風·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "musashi-1",
+		enter_story = "ZIJIANGJINLAN19",
+		ani_name = "Map_1680004",
+		guide_id = "",
+		ani_controller = "",
+		map_name = "",
+		default_background = "",
+		cloud_suffix = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1680004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100522,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100541] = {
+		map = 2100541,
+		name = "積重なる事象の幻界·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-schoolfuture",
+		enter_story = "DINGXIANGZHEDIE1",
+		ani_name = "Map_1700001",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1700001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100551,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100543
+					},
+					"map_1700001_zhuanzhi"
+				}
+			}
+		}
+	},
+	[2100542] = {
+		map = 2100542,
+		name = "積重なる事象の幻界·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-aostelab",
+		enter_story = "DINGXIANGZHEDIE13",
+		ani_name = "Map_1700002",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1700002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100552,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100546
+					},
+					"map_1700002_zhuanzhi"
+				}
+			}
+		}
+	},
+	[2100551] = {
+		map = 2100551,
+		name = "積重なる事象の幻界·前編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-schoolfuture",
+		enter_story = "DINGXIANGZHEDIE1",
+		ani_name = "Map_1700003",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1700003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100541,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100553
+					},
+					"map_1700003_zhuanzhi"
+				}
+			}
+		}
+	},
+	[2100552] = {
+		map = 2100552,
+		name = "積重なる事象の幻界·後編|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "theme-aostelab",
+		enter_story = "DINGXIANGZHEDIE13",
+		ani_name = "Map_1700004",
+		guide_id = "",
+		map_name = "",
+		cloud_suffix = "",
+		default_background = "",
+		default_bgm = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1700004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		story_inactive_color = "",
+		animtor = 1,
+		bind_map = 2100542,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					{
+						2100556
+					},
+					"map_1700004_zhuanzhi"
+				}
+			}
 		}
 	},
 	[2200000] = {

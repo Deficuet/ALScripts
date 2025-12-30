@@ -389,25 +389,23 @@ function var_0_0.OnHide(arg_43_0)
 
 		return
 	end
-
-	arg_43_0.takePhotoModel = nil
-
-	arg_43_0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, IslandConst.TakePhotoModel.None)
 end
 
-function var_0_0.SetMute(arg_44_0)
-	if arg_44_0 then
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
+function var_0_0.OnExit(arg_44_0)
+	arg_44_0.takePhotoModel = nil
+
+	arg_44_0:emitCore(ISLAND_EVT.Change_TakePhoto_Model, IslandConst.TakePhotoModel.None)
+end
+
+function var_0_0.SetMute(arg_45_0)
+	if arg_45_0 then
+		pg.CriMgr.GetInstance():MuteAllVolume()
 	else
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", pg.CriMgr.GetInstance():getCVVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", pg.CriMgr.GetInstance():getBGMVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", pg.CriMgr.GetInstance():getSEVolume())
+		pg.CriMgr.GetInstance():ResetAllVolume()
 	end
 end
 
-function var_0_0.OnDestroy(arg_45_0)
+function var_0_0.OnDestroy(arg_46_0)
 	return
 end
 

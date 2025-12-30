@@ -407,7 +407,6 @@ local var_0_1 = {
 		inElite = 0
 	},
 	inActivity = {
-		isActivityNpc = 0,
 		inEvent = 0
 	},
 	inChallenge = {

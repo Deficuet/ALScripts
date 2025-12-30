@@ -1835,5 +1835,49 @@ pg.voice_actor_CN = {
 	[481] = {
 		code = 481,
 		actor_name = "山田美鈴"
+	},
+	[482] = {
+		code = 482,
+		actor_name = "本田貴子"
+	},
+	[483] = {
+		code = 483,
+		actor_name = "富樫美鈴"
+	},
+	[484] = {
+		code = 484,
+		actor_name = "竹達彩奈"
+	},
+	[485] = {
+		code = 485,
+		actor_name = "野水伊織"
+	},
+	[486] = {
+		code = 486,
+		actor_name = "真田アサミ"
+	},
+	[487] = {
+		code = 487,
+		actor_name = "内田真礼&ブリドカット セーラ 恵美"
+	},
+	[488] = {
+		code = 488,
+		actor_name = "宮崎ヒヨリ"
+	},
+	[489] = {
+		code = 489,
+		actor_name = "羽澄なな"
+	},
+	[490] = {
+		code = 490,
+		actor_name = "深川芹亜"
+	},
+	[491] = {
+		code = 491,
+		actor_name = "萧清源 "
+	},
+	[492] = {
+		code = 492,
+		actor_name = "曾彤 "
 	}
 }

@@ -49,7 +49,7 @@ function var_0_0.register(arg_1_0)
 	arg_1_0.freeGiftIdList = {}
 
 	for iter_1_0, iter_1_1 in pairs(var_1_0.all) do
-		if var_1_0[iter_1_1].genre == "gift_package" and var_1_0[iter_1_1].discount == 100 then
+		if var_1_0[iter_1_1].genre == ShopArgs.GiftPackage and var_1_0[iter_1_1].discount == 100 then
 			table.insert(arg_1_0.freeGiftIdList, iter_1_1)
 		end
 	end
@@ -564,6 +564,175 @@ function var_0_0.SpecialBannerBlockCheck(arg_68_0, arg_68_1)
 	local var_68_0, var_68_1 = unpack(getGameset("levellimit_shopbanner"))
 
 	return var_68_0 <= arg_68_1.level or arg_68_0.name ~= "banner_big" or table.contains(var_68_1, arg_68_0.id)
+end
+
+function var_0_0.GiftPackageRedDotTip(arg_69_0, arg_69_1, arg_69_2)
+	local var_69_0 = {}
+
+	if arg_69_0:ShouldRefreshChargeList() then
+		table.insert(var_69_0, function(arg_70_0)
+			pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+				callback = arg_70_0
+			})
+		end)
+	end
+
+	seriesAsync(var_69_0, function()
+		local var_71_0 = underscore.any(arg_69_0:GetAllShowGiftPackages(arg_69_2), function(arg_72_0)
+			return arg_72_0:isTip()
+		end)
+
+		for iter_71_0, iter_71_1 in ipairs(arg_69_1) do
+			setActive(iter_71_1, var_71_0)
+		end
+	end)
+end
+
+function var_0_0.GetAllShowGiftPackages(arg_73_0, arg_73_1)
+	assert(not arg_73_0:ShouldRefreshChargeList())
+
+	local var_73_0 = {}
+	local var_73_1 = RefluxShopView.getAllRefluxPackID()
+	local var_73_2 = getProxy(PlayerProxy):getRawData()
+	local var_73_3 = pg.pay_data_display
+
+	for iter_73_0, iter_73_1 in pairs(var_73_3.all) do
+		if not table.contains(var_73_1, iter_73_1) then
+			local var_73_4 = var_73_3[iter_73_1]
+			local var_73_5 = var_73_4.extra_service
+			local var_73_6 = var_73_4.akashi_pick > 0
+
+			if (arg_73_1 == nil or var_73_6 == arg_73_1) and (var_73_5 == Goods.ITEM_BOX or var_73_5 == Goods.PASS_ITEM) then
+				local var_73_7 = Goods.Create({
+					shop_id = iter_73_1
+				}, Goods.TYPE_CHARGE)
+
+				if arg_73_0:filterLimitTypeGoods(var_73_7, var_73_2) then
+					table.insert(var_73_0, var_73_7)
+				end
+			end
+		end
+	end
+
+	for iter_73_2, iter_73_3 in pairs(pg.shop_template.get_id_list_by_genre[ShopArgs.GiftPackage] or {}) do
+		local var_73_8 = pg.shop_template[iter_73_3].akashi_pick > 0
+
+		if (arg_73_1 == nil or var_73_8 == arg_73_1) and not table.contains(var_73_1, iter_73_3) then
+			local var_73_9 = Goods.Create({
+				shop_id = iter_73_3
+			}, Goods.TYPE_GIFT_PACKAGE)
+
+			table.insert(var_73_0, var_73_9)
+		end
+	end
+
+	for iter_73_4, iter_73_5 in pairs(pg.shop_template.get_id_list_by_genre[ShopArgs.GiftActPackage] or {}) do
+		local var_73_10 = pg.shop_template[iter_73_5].akashi_pick > 0
+
+		if (arg_73_1 == nil or var_73_10 == arg_73_1) and not table.contains(var_73_1, iter_73_5) then
+			local var_73_11 = Goods.Create({
+				shop_id = iter_73_5
+			}, Goods.TYPE_GIFT_PACKAGE_ACT)
+
+			table.insert(var_73_0, var_73_11)
+		end
+	end
+
+	local var_73_12 = {}
+	local var_73_13 = {}
+
+	for iter_73_6, iter_73_7 in ipairs(var_73_0) do
+		if iter_73_7:isChargeType() then
+			local var_73_14 = ChargeConst.getBuyCount(arg_73_0.chargeList, iter_73_7.id)
+
+			iter_73_7:updateBuyCount(var_73_14)
+
+			if iter_73_7:canPurchase() and iter_73_7:inTime() then
+				table.insert(var_73_12, iter_73_7)
+			end
+		elseif not iter_73_7:isLevelLimit(var_73_2.level, true) then
+			local var_73_15 = ChargeConst.getBuyCount(arg_73_0.normalList, iter_73_7.id)
+
+			iter_73_7:updateBuyCount(var_73_15)
+
+			local var_73_16 = iter_73_7:getConfig("group") or 0
+			local var_73_17 = false
+
+			if var_73_16 > 0 then
+				local var_73_18 = iter_73_7:getConfig("group_limit")
+				local var_73_19 = ChargeConst.getGroupLimit(arg_73_0.normalGroupList, var_73_16)
+
+				iter_73_7:updateGroupCount(var_73_19)
+
+				var_73_17 = var_73_18 > 0 and var_73_18 <= var_73_19
+			end
+
+			local var_73_20, var_73_21 = pg.TimeMgr.GetInstance():inTime(iter_73_7:getConfig("time"))
+
+			if var_73_21 then
+				table.insert(var_73_13, iter_73_7)
+			end
+
+			if var_73_20 and iter_73_7:canPurchase() and not var_73_17 then
+				table.insert(var_73_12, iter_73_7)
+			end
+		end
+	end
+
+	return var_73_12, var_73_13
+end
+
+function var_0_0.filterLimitTypeGoods(arg_74_0, arg_74_1, arg_74_2)
+	local var_74_0 = arg_74_1:getConfig("limit_type")
+
+	return switch(var_74_0, {
+		[3] = function()
+			if arg_74_1:getConfig("limit_arg") ~= 0 or arg_74_1:isLevelLimit(arg_74_2.level, true) then
+				return false
+			end
+
+			local var_75_0
+			local var_75_1
+			local var_75_2
+
+			for iter_75_0, iter_75_1 in ipairs(arg_74_1:getSameLimitGroupTecGoods()) do
+				if iter_75_1:getConfig("limit_arg") == 1 then
+					var_75_1 = iter_75_1
+				elseif iter_75_1:getConfig("limit_arg") == 2 then
+					var_75_0 = iter_75_1
+				elseif iter_75_1:getConfig("limit_arg") == 3 then
+					var_75_2 = iter_75_1
+				end
+			end
+
+			local var_75_3 = ChargeConst.getBuyCount(arg_74_0.chargeList, var_75_0.id)
+			local var_75_4 = ChargeConst.getBuyCount(arg_74_0.chargeList, var_75_1.id)
+			local var_75_5 = ChargeConst.getBuyCount(arg_74_0.chargeList, var_75_2.id)
+
+			if var_75_4 > 0 then
+				return false
+			elseif var_75_3 > 0 and var_75_5 > 0 then
+				return false
+			else
+				return true
+			end
+		end,
+		[5] = function()
+			if arg_74_1:getConfig("limit_arg") ~= 0 or arg_74_1:isLevelLimit(arg_74_2.level, true) then
+				return false
+			end
+
+			for iter_76_0, iter_76_1 in ipairs(arg_74_1:getSameLimitGroupTecGoods()) do
+				if iter_76_1:getConfig("limit_arg") ~= 0 and ChargeConst.getBuyCount(arg_74_0.chargeList, iter_76_1.id) > 0 then
+					return false
+				end
+			end
+
+			return true
+		end
+	}, function()
+		return true
+	end)
 end
 
 return var_0_0

@@ -40,40 +40,22 @@ function var_0_0.Build(arg_2_0, arg_2_1, arg_2_2)
 	return var_2_1
 end
 
-function var_0_0.SetupBT(arg_7_0, arg_7_1, arg_7_2, arg_7_3)
-	if not arg_7_2 or arg_7_2 == "" then
-		arg_7_3()
-
-		return
-	end
-
-	local var_7_0 = IslandAssetLoadDispatcher.Instance:Enqueue(arg_7_2, "", typeof(NodeCanvas.BehaviourTrees.BehaviourTree), UnityEngine.Events.UnityAction_UnityEngine_Object(function(arg_8_0)
-		assert(arg_8_0, arg_7_2)
-
-		GetOrAddComponent(arg_7_1, typeof(NodeCanvas.BehaviourTrees.BehaviourTreeOwner)).graph = Object.Instantiate(arg_8_0)
-
-		arg_7_3()
-	end), true, true)
-
-	arg_7_0:AddLoadingID(var_7_0)
+function var_0_0.GetModule(arg_7_0, arg_7_1, arg_7_2)
+	return AgoraFurnitrueMould.New(arg_7_0.view, arg_7_1, arg_7_2)
 end
 
-function var_0_0.GetModule(arg_9_0, arg_9_1, arg_9_2)
-	return AgoraFurnitrueMould.New(arg_9_0.view, arg_9_1, arg_9_2)
+function var_0_0.Load(arg_8_0, arg_8_1, arg_8_2)
+	arg_8_0:GetPoolMgr():GetAgoraObj(arg_8_1:GetResPath(), arg_8_2)
 end
 
-function var_0_0.Load(arg_10_0, arg_10_1, arg_10_2)
-	arg_10_0:GetPoolMgr():GetAgoraObj(arg_10_1:GetResPath(), arg_10_2)
-end
-
-function var_0_0.Recycle(arg_11_0, arg_11_1, arg_11_2)
-	if arg_11_2 then
-		arg_11_0:GetPoolMgr():ReturnAgoraObj(arg_11_1:GetResPath(), arg_11_2)
+function var_0_0.Recycle(arg_9_0, arg_9_1, arg_9_2)
+	if arg_9_2 then
+		arg_9_0:GetPoolMgr():ReturnAgoraObj(arg_9_1:GetResPath(), arg_9_2)
 	end
 end
 
-function var_0_0.RecycleRoot(arg_12_0, arg_12_1)
-	arg_12_0:GetPoolMgr():ReturnAgoraRoot(arg_12_1)
+function var_0_0.RecycleRoot(arg_10_0, arg_10_1)
+	arg_10_0:GetPoolMgr():ReturnAgoraRoot(arg_10_1)
 end
 
 return var_0_0

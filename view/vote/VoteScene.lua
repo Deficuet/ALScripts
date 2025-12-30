@@ -1,10 +1,5 @@
 local var_0_0 = class("VoteScene", import("..base.BaseUI"))
 
-var_0_0.ShipIndex = {
-	typeIndex = ShipIndexConst.TypeAll,
-	campIndex = ShipIndexConst.CampAll,
-	rarityIndex = ShipIndexConst.RarityAll
-}
 var_0_0.ShipIndexData = {
 	customPanels = {
 		typeIndex = {
@@ -84,6 +79,12 @@ function var_0_0.init(arg_3_0)
 	arg_3_0.search = arg_3_0._tf:Find("main/right_panel/filter_bg/search")
 
 	setText(arg_3_0._tf:Find("main/right_panel/filter_bg/search/hold"), i18n("dockyard_search_holder"))
+
+	arg_3_0.ShipIndex = {
+		typeIndex = ShipIndexConst.TypeAll,
+		campIndex = ShipIndexConst.CampAll,
+		rarityIndex = ShipIndexConst.RarityAll
+	}
 end
 
 function var_0_0.GetPageMap(arg_4_0)
@@ -152,12 +153,12 @@ function var_0_0.didEnter(arg_5_0)
 	onButton(arg_5_0, arg_5_0.filterBtn, function()
 		local var_11_0 = Clone(var_0_0.ShipIndexData)
 
-		var_11_0.indexDatas = Clone(var_0_0.ShipIndex)
+		var_11_0.indexDatas = Clone(arg_5_0.ShipIndex)
 
 		function var_11_0.callback(arg_12_0)
-			var_0_0.ShipIndex.typeIndex = arg_12_0.typeIndex
-			var_0_0.ShipIndex.rarityIndex = arg_12_0.rarityIndex
-			var_0_0.ShipIndex.campIndex = arg_12_0.campIndex
+			arg_5_0.ShipIndex.typeIndex = arg_12_0.typeIndex
+			arg_5_0.ShipIndex.rarityIndex = arg_12_0.rarityIndex
+			arg_5_0.ShipIndex.campIndex = arg_12_0.campIndex
 
 			arg_5_0:initShips()
 		end
@@ -236,12 +237,12 @@ function var_0_0.initShips(arg_22_0)
 	local var_22_1 = getInputText(arg_22_0.search)
 
 	for iter_22_0, iter_22_1 in ipairs(var_22_0) do
-		if var_0_0.ShipIndex.typeIndex == ShipIndexConst.TypeAll and var_0_0.ShipIndex.rarityIndex == ShipIndexConst.RarityAll and var_0_0.ShipIndex.campIndex == ShipIndexConst.CampAll and iter_22_1:IsMatchSearchKey(var_22_1) then
+		if arg_22_0.ShipIndex.typeIndex == ShipIndexConst.TypeAll and arg_22_0.ShipIndex.rarityIndex == ShipIndexConst.RarityAll and arg_22_0.ShipIndex.campIndex == ShipIndexConst.CampAll and iter_22_1:IsMatchSearchKey(var_22_1) then
 			table.insert(arg_22_0.displays, iter_22_1)
 		else
 			local var_22_2 = iter_22_1
 
-			if ShipIndexConst.filterByType(var_22_2, var_0_0.ShipIndex.typeIndex) and ShipIndexConst.filterByRarity(var_22_2, var_0_0.ShipIndex.rarityIndex) and ShipIndexConst.filterByCamp(var_22_2, var_0_0.ShipIndex.campIndex) and iter_22_1:IsMatchSearchKey(var_22_1) then
+			if ShipIndexConst.filterByType(var_22_2, arg_22_0.ShipIndex.typeIndex) and ShipIndexConst.filterByRarity(var_22_2, arg_22_0.ShipIndex.rarityIndex) and ShipIndexConst.filterByCamp(var_22_2, arg_22_0.ShipIndex.campIndex) and iter_22_1:IsMatchSearchKey(var_22_1) then
 				table.insert(arg_22_0.displays, iter_22_1)
 			end
 		end
@@ -250,7 +251,7 @@ function var_0_0.initShips(arg_22_0)
 	local var_22_3 = arg_22_0:GetVotes()
 
 	arg_22_0.shipsPage:ExecuteAction("Update", arg_22_0.contextData.voteGroup, arg_22_0.displays, var_22_3)
-	setActive(arg_22_0.filterSel, var_0_0.ShipIndex.typeIndex ~= ShipIndexConst.TypeAll or var_0_0.ShipIndex.campIndex ~= ShipIndexConst.CampAll or var_0_0.ShipIndex.rarityIndex ~= ShipIndexConst.RarityAll)
+	setActive(arg_22_0.filterSel, arg_22_0.ShipIndex.typeIndex ~= ShipIndexConst.TypeAll or arg_22_0.ShipIndex.campIndex ~= ShipIndexConst.CampAll or arg_22_0.ShipIndex.rarityIndex ~= ShipIndexConst.RarityAll)
 end
 
 function var_0_0.initTitles(arg_23_0)

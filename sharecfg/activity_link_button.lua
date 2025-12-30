@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50166
+			50222
 		}
 	},
 	{
@@ -47,7 +47,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			50181
+			50281
 		}
 	},
 	[11] = {
@@ -305,31 +305,31 @@ pg.activity_link_button = {
 		}
 	},
 	[109] = {
-		param = "SailingShip3CoreActivityUI",
+		param = "WinterFestival2025CoreActivityUI",
 		name = "event_core",
 		type = 16,
-		text_pic = "text_event_core",
+		text_pic = "text_event_core3",
 		id = 109,
 		group_id = 1,
 		pic = "event_core",
 		order = 1,
 		time = {
 			"default",
-			50205
+			50301
 		}
 	},
 	[110] = {
-		param = "ALYCoreActivityUI",
+		param = "HelenaCoreActivityUI",
 		name = "event_core_2",
 		type = 16,
-		text_pic = "text_event_yumia",
+		text_pic = "text_event_core2",
 		id = 110,
 		group_id = 2,
-		pic = "event_yumia",
+		pic = "event_core2",
 		order = 2,
 		time = {
 			"default",
-			50058
+			50261
 		}
 	},
 	[111] = {
@@ -372,6 +372,20 @@ pg.activity_link_button = {
 		time = {
 			"default",
 			50118
+		}
+	},
+	[114] = {
+		param = "WinterFestival2025CoreActivityUI",
+		name = "event_core",
+		type = 16,
+		text_pic = "text_event_core3",
+		id = 114,
+		group_id = 1,
+		pic = "event_core3",
+		order = 1,
+		time = {
+			"default",
+			50298
 		}
 	},
 	get_id_list_by_name = {
@@ -436,7 +450,8 @@ pg.activity_link_button = {
 			107
 		},
 		event_core = {
-			109
+			109,
+			114
 		},
 		event_core_2 = {
 			110,
@@ -476,6 +491,7 @@ pg.activity_link_button = {
 		110,
 		111,
 		112,
-		113
+		113,
+		114
 	}
 }

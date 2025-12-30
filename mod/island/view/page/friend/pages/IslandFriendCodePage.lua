@@ -80,7 +80,7 @@ function var_0_0.RemoveCode(arg_8_0, arg_8_1)
 end
 
 function var_0_0.SaveCodeList(arg_9_0)
-	local var_9_0 = table.concat(arg_9_0.frequentlyUsedList, ",#")
+	local var_9_0 = table.concat(arg_9_0.frequentlyUsedList, "#")
 	local var_9_1 = getProxy(PlayerProxy):getRawData().id
 	local var_9_2 = PlayerPrefs.SetString("_ISLAND_CODE_" .. var_9_1, var_9_0)
 

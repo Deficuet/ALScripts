@@ -72,6 +72,30 @@ pg.vote_champion = {
 		group = 2021,
 		story = "RENQICHAIJUN"
 	},
+	{
+		ship_group = 30510,
+		task = 31048,
+		rank = 1,
+		id = 10,
+		group = 2023,
+		story = "RENQIYUNXIAN"
+	},
+	{
+		ship_group = 30707,
+		task = 31049,
+		rank = 2,
+		id = 11,
+		group = 2023,
+		story = "RENQIWUZANG"
+	},
+	{
+		ship_group = 30319,
+		task = 31050,
+		rank = 3,
+		id = 12,
+		group = 2023,
+		story = "RENQIDAFENG"
+	},
 	get_id_list_by_group = {
 		[2017] = {
 			1,
@@ -87,6 +111,11 @@ pg.vote_champion = {
 			7,
 			8,
 			9
+		},
+		[2023] = {
+			10,
+			11,
+			12
 		}
 	},
 	all = {
@@ -98,6 +127,9 @@ pg.vote_champion = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10,
+		11,
+		12
 	}
 }

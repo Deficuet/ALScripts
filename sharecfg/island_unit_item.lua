@@ -520,6 +520,11 @@ pg.island_unit_item = {
 		navAgentParam = "",
 		model = "island/item/02/20158/prefab/pre_item_02_20158"
 	},
+	[20159] = {
+		id = 20159,
+		navAgentParam = "",
+		model = "island/item/02/20159/prefab/pre_item_02_20159"
+	},
 	[60001] = {
 		id = 60001,
 		navAgentParam = "",
@@ -685,6 +690,11 @@ pg.island_unit_item = {
 		navAgentParam = "",
 		model = "island/item/collider/1004/prefab/station"
 	},
+	[100403] = {
+		id = 100403,
+		navAgentParam = "",
+		model = "island/item/collider/1004/prefab/pre_miningdir"
+	},
 	[100701] = {
 		id = 100701,
 		navAgentParam = "",
@@ -709,6 +719,11 @@ pg.island_unit_item = {
 		id = 100902,
 		navAgentParam = "",
 		model = "Island/Unit_Item/Infrastructure/Farm/pre_coffeeshop01_03C"
+	},
+	[100501] = {
+		id = 100501,
+		navAgentParam = "",
+		model = "island/item/collider/1005/prefab/pre_collider"
 	},
 	all = {
 		1001,
@@ -815,6 +830,7 @@ pg.island_unit_item = {
 		20153,
 		20154,
 		20158,
+		20159,
 		60001,
 		60002,
 		60003,
@@ -848,10 +864,12 @@ pg.island_unit_item = {
 		100204,
 		100401,
 		100402,
+		100403,
 		100701,
 		100702,
 		100703,
 		100901,
-		100902
+		100902,
+		100501
 	}
 }

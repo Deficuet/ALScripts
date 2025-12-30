@@ -12,6 +12,7 @@ var_0_0.OPEN_CHATROOM = "FriendMediator:OPEN_CHATROOM"
 var_0_0.VISIT_BACKYARD = "FriendMediator:VISIT_BACKYRAD"
 var_0_0.RELIEVE_BLACKLIST = "FriendMediator:RELIEVE_BLACKLIST"
 var_0_0.GET_BLACK_LIST = "FriendMediator:GET_BLACK_LIST"
+var_0_0.INFORM = "FriendMediator:INFORM"
 
 function var_0_0.register(arg_1_0)
 	local var_1_0 = getProxy(FriendProxy)
@@ -85,26 +86,33 @@ function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.RELIEVE_BLACKLIST, function(arg_13_0, arg_13_1)
 		arg_1_0:sendNotification(GAME.FRIEND_RELIEVE_BLACKLIST, arg_13_1)
 	end)
+	arg_1_0:bind(var_0_0.INFORM, function(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
+		arg_1_0:sendNotification(GAME.INFORM, {
+			playerId = arg_14_1,
+			info = arg_14_2,
+			content = arg_14_3
+		})
+	end)
 	arg_1_0:updateChatNotification()
 end
 
-function var_0_0.updateChatNotification(arg_14_0)
-	local var_14_0 = getProxy(FriendProxy):getNewMsgCount()
+function var_0_0.updateChatNotification(arg_15_0)
+	local var_15_0 = getProxy(FriendProxy):getNewMsgCount()
 
-	arg_14_0.viewComponent:updateChatNotification(var_14_0)
+	arg_15_0.viewComponent:updateChatNotification(var_15_0)
 end
 
-function var_0_0.openResume(arg_15_0, arg_15_1)
-	arg_15_0:addSubLayers(Context.New({
+function var_0_0.openResume(arg_16_0, arg_16_1)
+	arg_16_0:addSubLayers(Context.New({
 		mediator = resumeMediator,
 		viewComponent = resumeLayer,
 		data = {
-			player = arg_15_1
+			player = arg_16_1
 		}
 	}))
 end
 
-function var_0_0.listNotificationInterests(arg_16_0)
+function var_0_0.listNotificationInterests(arg_17_0)
 	return {
 		GAME.FRIEND_SEARCH_DONE,
 		GAME.FRIEND_SEND_REQUEST_DONE,
@@ -117,53 +125,61 @@ function var_0_0.listNotificationInterests(arg_16_0)
 		GAME.FRIEND_RELIEVE_BLACKLIST_DONE,
 		FriendProxy.RELIEVE_BLACKLIST,
 		FriendProxy.BLACK_LIST_UPDATED,
-		FriendProxy.ADD_INTO_BLACKLIST
+		FriendProxy.ADD_INTO_BLACKLIST,
+		GAME.INFORM_DONE
 	}
 end
 
-function var_0_0.handleNotification(arg_17_0, arg_17_1)
-	local var_17_0 = arg_17_1:getName()
-	local var_17_1 = arg_17_1:getBody()
+function var_0_0.handleNotification(arg_18_0, arg_18_1)
+	local var_18_0 = arg_18_1:getName()
+	local var_18_1 = arg_18_1:getBody()
 
-	if var_17_0 == GAME.FRIEND_SEARCH_DONE then
-		if var_17_1.type == SearchFriendCommand.SEARCH_TYPE_RESUME then
-			arg_17_0:openResume(var_17_1.list[1])
+	if var_18_0 == GAME.FRIEND_SEARCH_DONE then
+		if var_18_1.type == SearchFriendCommand.SEARCH_TYPE_RESUME then
+			arg_18_0:openResume(var_18_1.list[1])
 		else
-			arg_17_0.viewComponent:setSearchResult(var_17_1.list)
-			arg_17_0.viewComponent:updatePage(FriendScene.SEARCH_PAGE)
+			arg_18_0.viewComponent:setSearchResult(var_18_1.list)
+			arg_18_0.viewComponent:updatePage(FriendScene.SEARCH_PAGE)
 
-			if table.getCount(var_17_1.list) > 0 then
+			if table.getCount(var_18_1.list) > 0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("friend_search_succeed"))
 			end
 		end
-	elseif var_17_0 == GAME.FRIEND_SEND_REQUEST_DONE then
-		arg_17_0.viewComponent:removeSearchResult(var_17_1)
-		arg_17_0.viewComponent:updatePage(FriendScene.SEARCH_PAGE)
-	elseif var_17_0 == NotificationProxy.FRIEND_REQUEST_REMOVED or var_17_0 == NotificationProxy.FRIEND_REQUEST_ADDED then
-		local var_17_2 = getProxy(NotificationProxy):getRequests()
+	elseif var_18_0 == GAME.FRIEND_SEND_REQUEST_DONE then
+		arg_18_0.viewComponent:removeSearchResult(var_18_1)
+		arg_18_0.viewComponent:updatePage(FriendScene.SEARCH_PAGE)
+	elseif var_18_0 == NotificationProxy.FRIEND_REQUEST_REMOVED or var_18_0 == NotificationProxy.FRIEND_REQUEST_ADDED then
+		local var_18_2 = getProxy(NotificationProxy):getRequests()
 
-		arg_17_0.viewComponent:setRequests(var_17_2)
-		arg_17_0.viewComponent:updatePage(FriendScene.REQUEST_PAGE)
-		arg_17_0.viewComponent:updateRequestTip()
-	elseif var_17_0 == FriendProxy.FRIEND_REMOVED or var_17_0 == FriendProxy.FRIEND_ADDED or var_17_0 == FriendProxy.FRIEND_UPDATED then
-		local var_17_3 = getProxy(FriendProxy):getAllFriends()
+		arg_18_0.viewComponent:setRequests(var_18_2)
+		arg_18_0.viewComponent:updatePage(FriendScene.REQUEST_PAGE)
+		arg_18_0.viewComponent:updateRequestTip()
+	elseif var_18_0 == FriendProxy.FRIEND_REMOVED or var_18_0 == FriendProxy.FRIEND_ADDED or var_18_0 == FriendProxy.FRIEND_UPDATED then
+		local var_18_3 = getProxy(FriendProxy):getAllFriends()
 
-		arg_17_0.viewComponent:setFriendVOs(var_17_3)
-		arg_17_0.viewComponent:updatePage(FriendScene.FRIEND_PAGE)
+		arg_18_0.viewComponent:setFriendVOs(var_18_3)
+		arg_18_0.viewComponent:updatePage(FriendScene.FRIEND_PAGE)
 
-		if var_17_0 == FriendProxy.FRIEND_UPDATED then
-			arg_17_0:updateChatNotification()
+		if var_18_0 == FriendProxy.FRIEND_UPDATED then
+			arg_18_0:updateChatNotification()
 		end
-	elseif var_17_0 == FriendProxy.RELIEVE_BLACKLIST or var_17_0 == FriendProxy.BLACK_LIST_UPDATED or var_17_0 == FriendProxy.ADD_INTO_BLACKLIST then
-		local var_17_4 = getProxy(FriendProxy):getBlackList()
+	elseif var_18_0 == FriendProxy.RELIEVE_BLACKLIST or var_18_0 == FriendProxy.BLACK_LIST_UPDATED or var_18_0 == FriendProxy.ADD_INTO_BLACKLIST then
+		local var_18_4 = getProxy(FriendProxy):getBlackList()
 
-		arg_17_0.viewComponent:setBlackList(var_17_4)
-		arg_17_0.viewComponent:updatePage(FriendScene.BLACKLIST_PAGE)
-	elseif var_17_0 == GAME.VISIT_BACKYARD_DONE then
-		arg_17_0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD, {
-			player = var_17_1.player,
-			dorm = var_17_1.dorm,
+		arg_18_0.viewComponent:setBlackList(var_18_4)
+		arg_18_0.viewComponent:updatePage(FriendScene.BLACKLIST_PAGE)
+	elseif var_18_0 == GAME.VISIT_BACKYARD_DONE then
+		arg_18_0:sendNotification(GAME.GO_SCENE, SCENE.COURTYARD, {
+			player = var_18_1.player,
+			dorm = var_18_1.dorm,
 			mode = CourtYardConst.SYSTEM_VISIT
+		})
+	elseif var_18_0 == GAME.INFORM_DONE then
+		arg_18_0.viewComponent:closeInfromPanel()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideNo = true,
+			parent = arg_18_0.contextData.parent,
+			content = i18n("inform_sueecss_tip")
 		})
 	end
 end

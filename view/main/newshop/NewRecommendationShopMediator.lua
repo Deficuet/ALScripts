@@ -10,7 +10,8 @@ end
 
 function var_0_0.listNotificationInterests(arg_3_0)
 	return {
-		NewShopMainScene.CLOSE_ALL_LAYER
+		NewShopMainScene.CLOSE_ALL_LAYER,
+		PlayerProxy.UPDATED
 	}
 end
 
@@ -20,6 +21,8 @@ function var_0_0.handleNotification(arg_4_0, arg_4_1)
 
 	if var_4_0 == NewShopMainScene.CLOSE_ALL_LAYER then
 		arg_4_0.viewComponent:closeView()
+	elseif var_4_0 == PlayerProxy.UPDATED then
+		arg_4_0.viewComponent:ShowResUI()
 	end
 end
 

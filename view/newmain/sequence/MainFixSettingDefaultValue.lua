@@ -19,7 +19,9 @@ function var_0_0.Execute(arg_2_0, arg_2_1)
 		local var_2_1 = _G[var_2_0[iter_2_1].name]
 		local var_2_2 = var_2_0[iter_2_1].default
 
-		if var_2_1 ~= "" and not PlayerPrefs.HasKey(var_2_1) then
+		if not noEmptyStr(var_2_1) then
+			print("settings_other_template without register this key:", var_2_0[iter_2_1].name)
+		elseif not PlayerPrefs.HasKey(var_2_1) then
 			PlayerPrefs.SetInt(var_2_1, var_2_2)
 		end
 	end

@@ -176,6 +176,33 @@ pg.dorm3d_collection_template = setmetatable({
 			1607,
 			1608,
 			1609
+		},
+		[14] = {
+			1401,
+			1402,
+			1403,
+			1404,
+			1405,
+			1406,
+			1407,
+			1408,
+			1409,
+			1410,
+			1411,
+			1412,
+			1413,
+			1414,
+			1415,
+			1416,
+			1417,
+			1418,
+			1419,
+			1420,
+			1421,
+			1422,
+			1423,
+			1424,
+			1425
 		}
 	},
 	all = {
@@ -339,7 +366,32 @@ pg.dorm3d_collection_template = setmetatable({
 		1606,
 		1607,
 		1608,
-		1609
+		1609,
+		1401,
+		1402,
+		1403,
+		1404,
+		1405,
+		1406,
+		1407,
+		1408,
+		1409,
+		1410,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1416,
+		1417,
+		1418,
+		1419,
+		1420,
+		1421,
+		1422,
+		1423,
+		1424,
+		1425
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3687,6 +3739,531 @@ pg.base.dorm3d_collection_template = {
 		unlock = {},
 		vfx_prefab = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
+		}
+	},
+	[1401] = {
+		text = "dorm3d_aijier_chair",
+		name = "レトロ蓄音機",
+		award = 0,
+		time = 0,
+		id = 1401,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item1",
+		desc = "精巧なレトロ蓄音機。そのクリアな音質はクラシックレコードの再生に最適。",
+		model = {
+			"fbx/litmap_01/pre_db_decoration25"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration25/vfx_wupintishi01"
+		}
+	},
+	[1402] = {
+		text = "dorm3d_aijier_chair",
+		name = "古典的な燭台",
+		award = 0,
+		time = 2,
+		id = 1402,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item2",
+		desc = "精巧にデザインされた三本立てキャンドルスタンド。真鍮色の台座に三本の長いキャンドルが立っており、温かく柔らかな光を放っている。",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration26_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration26_on/vfx_wupintishi01"
+		}
+	},
+	[1403] = {
+		text = "dorm3d_aijier_table",
+		name = "レコードコレクション",
+		award = 0,
+		time = 0,
+		id = 1403,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item3",
+		desc = "厳選されたレコードコレクション。ジャケットデザインは秀逸でジャンルも多彩。蓄音機で再生するのにピッタリだ。",
+		model = {
+			"fbx/litmap_05/pre_db_decoration28"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_decoration28/vfx_wupintishi01"
+		}
+	},
+	[1404] = {
+		text = "dorm3d_aijier_table",
+		name = "ツインベル目覚まし",
+		award = 0,
+		time = 0,
+		id = 1404,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item4",
+		desc = "ベッドサイドにある目覚まし時計。澄んだ音色が夢まですり抜け、深い眠りから目を覚ましてくれる。",
+		model = {
+			"fbx/litmap_05/pre_db_clock04"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_clock04/vfx_wupintishi01"
+		}
+	},
+	[1405] = {
+		text = "dorm3d_aijier_chair",
+		name = "カッパーグラス",
+		award = 0,
+		time = 2,
+		id = 1405,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item5",
+		desc = "優雅な銅製グラス。美しい曲線的なシルエットを持ち、赤ワインやリキュールなどを味わう際によく使われる。",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration23"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration23/vfx_wupintishi01"
+		}
+	},
+	[1406] = {
+		text = "dorm3d_aijier_chair",
+		name = "ティーカップ",
+		award = 0,
+		time = 0,
+		id = 1406,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item6",
+		desc = "陶磁器のティーカップ。シンプルながらも精緻なデザインで、ソーサーと一緒にティータイムを至福の時間に変えてくれる。",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_aijier_living01_0/pre_db_ceram28_group02/pre_db_ceram28a/vfx_wupintishi01"
+		}
+	},
+	[1407] = {
+		text = "dorm3d_aijier_chair",
+		name = "壁掛け額縁",
+		award = 0,
+		time = 0,
+		id = 1407,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item7",
+		desc = "額縁に飾られている絵。数々の古典的な芸術作品が、室内に芸術的な雰囲気を添えている。",
+		model = {
+			"fbx/litmap_01/pre_db_billboard_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard_group/vfx_wupintishi01"
+		}
+	},
+	[1408] = {
+		text = "dorm3d_aijier_bed",
+		name = "木製クローゼット",
+		award = 0,
+		time = 0,
+		id = 1408,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item8",
+		desc = "広々とした木製クローゼット。その表面には模様が施され、内部も十分なスペースを備えており、様々な衣類が収納されている。",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard38"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard38/vfx_wupintishi01"
+		}
+	},
+	[1409] = {
+		text = "dorm3d_aijier_bed",
+		name = "手鏡",
+		award = 0,
+		time = 0,
+		id = 1409,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item9",
+		desc = "綺麗な模様が彫刻された手鏡。表面は滑らかで光沢があり、毎日の身支度をより便利で優雅なものにしてくれる。",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_mirror05/vfx_wupintishi01"
+		}
+	},
+	[1410] = {
+		text = "dorm3d_aijier_chair",
+		name = "装飾画A",
+		award = 0,
+		time = 0,
+		id = 1410,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item10",
+		desc = "精巧な装飾画。油絵の技法で描かれた風景がリアルに表現され、画家の卓越した技量が感じられる。",
+		model = {
+			"fbx/litmap_01/pre_db_billboard32"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard32/vfx_wupintishi01"
+		}
+	},
+	[1411] = {
+		text = "dorm3d_aijier_chair",
+		name = "装飾画B",
+		award = 0,
+		time = 0,
+		id = 1411,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item11",
+		desc = "精巧な装飾画。油絵の技法で描かれた風景がリアルに表現され、画家の卓越した技量が感じられる。",
+		model = {
+			"fbx/litmap_01/pre_db_billboard31"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_billboard31/vfx_wupintishi01"
+		}
+	},
+	[1412] = {
+		text = "dorm3d_aijier_bed",
+		name = "ジュエリーケース",
+		award = 0,
+		time = 1,
+		id = 1412,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item12",
+		desc = "精緻なデザインのジュエリーケース。内部のスペースは間仕切りが施されており、エーギルの様々なジュエリーを収納している。",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_jewelrybox02/vfx_wupintishi01"
+		}
+	},
+	[1413] = {
+		text = "dorm3d_aijier_table",
+		name = "トランクケース",
+		award = 0,
+		time = 0,
+		id = 1413,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item13",
+		desc = "実用的なトランクケース。柔らかくも耐久性のある素材で、容量も大きい。普段の外出や日帰り旅行などでよく使われている。",
+		model = {
+			"fbx/litmap_03/pre_db_bag08"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bag08/vfx_wupintishi01"
+		}
+	},
+	[1414] = {
+		text = "dorm3d_aijier_table",
+		name = "小型キャビネット",
+		award = 0,
+		time = 0,
+		id = 1414,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item14",
+		desc = "小型のキャビネット。内部には引き出しと仕切りが設けられ、本や書類などが収納されている。",
+		model = {
+			"fbx/litmap_05/pre_db_cupboard39"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_cupboard39/vfx_wupintishi01"
+		}
+	},
+	[1415] = {
+		text = "dorm3d_aijier_chair",
+		name = "壁炉",
+		award = 0,
+		time = 0,
+		id = 1415,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item15",
+		desc = "大理石で作られた黒の暖炉。滑らかでひんやりとしているさわり心地。いつでも火を着けられるように薪も用意されている。",
+		model = {
+			"fbx/litmap_01/pre_db_fireplace02"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fireplace02/vfx_wupintishi01"
+		}
+	},
+	[1416] = {
+		text = "dorm3d_aijier_chair",
+		name = "フロアランプ",
+		award = 0,
+		time = 0,
+		id = 1416,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item16",
+		desc = "高さのあるフロアランプ。透光性のあるシェードから柔らかな光が外へと広がっている。",
+		model = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/day/pre_db_floorlamp04_2/vfx_wupintishi01"
+		}
+	},
+	[1417] = {
+		text = "dorm3d_aijier_bed",
+		name = "生花",
+		award = 0,
+		time = 0,
+		id = 1417,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item17",
+		desc = "丹精込めて作られた生花の花束。赤と白のバラがぎっしりと飾られており、清々しい花の香りが漂っている。",
+		model = {
+			"fbx/litmap_01/pre_db_flowers17"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers17/vfx_wupintishi01"
+		}
+	},
+	[1418] = {
+		text = "dorm3d_aijier_chair",
+		name = "装飾花",
+		award = 0,
+		time = 0,
+		id = 1418,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item18",
+		desc = "くすんだ色合いをしている装飾花。珍しい種類であるため、特殊な品物の装飾に用いられるようだ。",
+		model = {
+			"fbx/litmap_01/pre_db_flowers18"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_flowers18/vfx_wupintishi01"
+		}
+	},
+	[1419] = {
+		text = "dorm3d_aijier_bed",
+		name = "アロマキャンドル",
+		award = 0,
+		time = 2,
+		id = 1419,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item19",
+		desc = "照明と装飾の両方を兼ね備えたキャンドル。温かく柔らかな明かりと清々しい香りを放っている。",
+		model = {
+			"fbx/litmap_01/night/pre_db_decoration24_on"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_decoration24_on/vfx_wupintishi01"
+		}
+	},
+	[1420] = {
+		text = "dorm3d_aijier_bed",
+		name = "スクエアキャビネット",
+		award = 0,
+		time = 0,
+		id = 1420,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item20",
+		desc = "二段式の木製キャビネット。表面に模様が施されており、内部には彼女の様々な小物が収納されている。",
+		model = {
+			"fbx/litmap_01/pre_db_cupboard37"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cupboard37/vfx_wupintishi01"
+		}
+	},
+	[1421] = {
+		text = "dorm3d_aijier_table",
+		name = "ウォールランプ",
+		award = 0,
+		time = 0,
+		id = 1421,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item21",
+		desc = "シンプルなウォールランプ。部屋の照明として用いられ、空間に温もりを添えている。",
+		model = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_aijier_lamp01_7/vfx_wupintishi01"
+		}
+	},
+	[1422] = {
+		text = "dorm3d_aijier_bed",
+		name = "化粧品セット",
+		award = 0,
+		time = 1,
+		id = 1422,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item22",
+		desc = "化粧品セット。見た目は上品で、品質も中々、彼女の普段使いの定番品となっている。",
+		model = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/entertainment/pre_db_aje_entertainment01_0/pre_db_cosmetic19/vfx_wupintishi01"
+		}
+	},
+	[1423] = {
+		text = "dorm3d_aijier_bed",
+		name = "雑誌？",
+		award = 0,
+		time = 0,
+		id = 1423,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item23",
+		desc = "美しく装丁された一冊の本。暇な時に読むそうで、聞いた話では何かの雑誌らしい？",
+		model = {
+			"fbx/litmap_01/book_group"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/book_group/vfx_wupintishi01"
+		}
+	},
+	[1424] = {
+		text = "dorm3d_aijier_table",
+		name = "油絵",
+		award = 0,
+		time = 0,
+		id = 1424,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item24",
+		desc = "名匠による精巧な油絵。彼女が特に好きな作品の一つでもある。",
+		model = {
+			"fbx/litmap_05/pre_db_billboard29a"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_05/pre_db_billboard29a/vfx_wupintishi01"
+		}
+	},
+	[1425] = {
+		text = "dorm3d_aijier_chair",
+		name = "金のトロフィー",
+		award = 0,
+		time = 0,
+		id = 1425,
+		room_id = 14,
+		icon = "3Ddrom_aijier_item25",
+		desc = "何らかの功績で授与された金色のトロフィー。無作為に置かれているため、あまり大事にされていないようだ。",
+		model = {
+			"fbx/litmap_01/pre_db_decoration21"
+		},
+		unlock = {
+			1,
+			49905,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_decoration21/vfx_wupintishi01"
 		}
 	}
 }

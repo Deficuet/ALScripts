@@ -201,6 +201,14 @@ function var_0_0.HXCharacter(arg_20_0, arg_20_1)
 		return
 	end
 
+	Dorm3dHxHelper.ShowHolyLight({
+		arg_20_1
+	}, arg_20_0.holyLightRoot)
+
+	if Dorm3dHxHelper.ReplaceCharacterParts(arg_20_1) then
+		return
+	end
+
 	local var_20_0 = arg_20_1:GetComponentsInChildren(typeof(SkinnedMeshRenderer))
 
 	table.IpairsCArray(var_20_0, function(arg_21_0, arg_21_1)
@@ -458,6 +466,7 @@ function var_0_0.findUI(arg_41_0)
 	arg_41_0.aiHelperSC = GetComponent(var_41_0, "ARHelper")
 	arg_41_0.aiHelperSC.tplPrefab = GameObject.Find("Tpl")
 	arg_41_0.tpl = GameObject.Find("Tpl").transform
+	arg_41_0.holyLightRoot = arg_41_0._tf:Find("HolyLightRoot")
 end
 
 function var_0_0.addListener(arg_42_0)

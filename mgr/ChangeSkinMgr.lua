@@ -78,6 +78,11 @@ function var_0_0.play(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 	arg_7_0.changeState = ShipSkin.GetChangeSkinState(arg_7_1)
 	arg_7_0.changAction = ShipSkin.GetChangeSkinAction(arg_7_1)
 	arg_7_0.delayIn = ShipSkin.GetChangeSkinCustomDataId(arg_7_1, "delay_in")
+	arg_7_0.finishDelay = ShipSkin.GetChangeSkinCustomDataId(arg_7_1, "finish_delay")
+
+	if not arg_7_0.finishDelay or arg_7_0.finishDelay == "" or arg_7_0.finishDelay <= 0 then
+		arg_7_0.finishDelay = 0.5
+	end
 
 	if arg_7_0.changeState == var_0_1 then
 		arg_7_0._loadObjectName = "changeskin/" .. arg_7_0.changAction
@@ -160,34 +165,41 @@ function var_0_0.play(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 					arg_7_0:finish(arg_7_4)
 				end
 			end)
+			arg_7_0:localizationUI(arg_7_0._aniamtorTf, arg_7_0.changAction, arg_7_0.changeIndex)
 		end)
 	end
 end
 
-function var_0_0.finish(arg_14_0, arg_14_1)
-	if LeanTween.isTweening(arg_14_0._go) then
-		LeanTween.cancel(arg_14_0._go)
+function var_0_0.localizationUI(arg_14_0, arg_14_1, arg_14_2, arg_14_3)
+	if arg_14_2 == "changeAsmr" then
+		setText(findTF(arg_14_1, "ad/animator/desc"), i18n("change_skin_asmr_desc_" .. arg_14_3))
+	end
+end
+
+function var_0_0.finish(arg_15_0, arg_15_1)
+	if LeanTween.isTweening(arg_15_0._go) then
+		LeanTween.cancel(arg_15_0._go)
 	end
 
-	LeanTween.delayedCall(0.5, System.Action(function()
-		if arg_14_0._spineAnimUI then
-			arg_14_0._spineAnimUI:SetActionCallBack(nil)
+	LeanTween.delayedCall(arg_15_0.finishDelay, System.Action(function()
+		if arg_15_0._spineAnimUI then
+			arg_15_0._spineAnimUI:SetActionCallBack(nil)
 
-			arg_14_0._spineAnimUI = nil
+			arg_15_0._spineAnimUI = nil
 		end
 
-		if arg_14_0._loadObject then
-			PoolMgr.GetInstance():ReturnPrefab(arg_14_0._loadObjectName, "", arg_14_0._loadObject, true)
+		if arg_15_0._loadObject then
+			PoolMgr.GetInstance():ReturnPrefab(arg_15_0._loadObjectName, "", arg_15_0._loadObject, true)
 		end
 
-		arg_14_0._inPlaying = false
+		arg_15_0._inPlaying = false
 
-		if arg_14_0._go then
-			arg_14_0._go:SetActive(false)
+		if arg_15_0._go then
+			arg_15_0._go:SetActive(false)
 		end
 
-		if arg_14_1 then
-			arg_14_1()
+		if arg_15_1 then
+			arg_15_1()
 		end
 	end))
 end

@@ -338,7 +338,9 @@ function var_0_0.didEnter(arg_8_0)
 			var_33_2(var_37_0, arg_37_0)
 		end
 
-		BLHX.Rendering.HotUpdate.ScreenShooterPass.TakePhoto(arg_8_0.mainCamera, var_33_3)
+		local var_33_4, var_33_5 = Dorm3dHxHelper.GetHolyLightScreenShotInfo(arg_8_0.contextData.holyLightRoot)
+
+		GraphicsInterface.Instance:TakePhotoWithPost(arg_8_0.mainCamera, var_33_4, var_33_5, var_33_3)
 	end, "ui-dorm_photograph")
 
 	GetOrAddComponent(arg_8_0._tf:Find("RightTop/Film"), typeof(CanvasGroup)).blocksRaycasts = false
@@ -637,13 +639,9 @@ end
 
 function var_0_0.SetMute(arg_70_0)
 	if arg_70_0 then
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
+		pg.CriMgr.GetInstance():MuteAllVolume()
 	else
-		CriWare.CriAtom.SetCategoryVolume("Category_CV", pg.CriMgr.GetInstance():getCVVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_BGM", pg.CriMgr.GetInstance():getBGMVolume())
-		CriWare.CriAtom.SetCategoryVolume("Category_SE", pg.CriMgr.GetInstance():getSEVolume())
+		pg.CriMgr.GetInstance():ResetAllVolume()
 	end
 end
 

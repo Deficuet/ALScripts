@@ -131,7 +131,7 @@ function var_0_0.updateAwardTpl(arg_14_0, arg_14_1, arg_14_2)
 	end, SFX_PANEL)
 	setText(var_14_5, var_14_15)
 	setText(var_14_7, var_14_15)
-	setText(var_14_10, "PHASE " .. math.floor(var_14_15 / arg_14_0.curMetaProgressVO.unlockPTNum * 100) .. "%")
+	setText(var_14_10, "PHASE " .. calcFloor(var_14_15 / arg_14_0.curMetaProgressVO.unlockPTNum * 100) .. "%")
 
 	if arg_14_2 < arg_14_0.ptData.level + 1 then
 		setActive(var_14_1, true)

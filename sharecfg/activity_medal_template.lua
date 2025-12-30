@@ -1044,6 +1044,102 @@ pg.activity_medal_template = {
 		id = 5020908,
 		activity_medal_desc = "トレジャーハンターのステッカー！"
 	},
+	[5029501] = {
+		prefab_node = "1",
+		next_medal = 0,
+		item = 65786,
+		remake_task_id = 0,
+		group = 50295,
+		task_id = 21874,
+		medal_asset = "ActivityMedal/5029501",
+		activity_medal_name = "ステッカー：天穹の星",
+		id = 5029501,
+		activity_medal_desc = "ヴェールの下で、天穹の星々が今もなお輝いている"
+	},
+	[5029502] = {
+		prefab_node = "2",
+		next_medal = 0,
+		item = 65787,
+		remake_task_id = 0,
+		group = 50295,
+		task_id = 21875,
+		medal_asset = "ActivityMedal/5029502",
+		activity_medal_name = "ステッカー：ブルーゴースト",
+		id = 5029502,
+		activity_medal_desc = "長い夢を、見ていたような……"
+	},
+	[5029503] = {
+		prefab_node = "3",
+		next_medal = 0,
+		item = 65788,
+		remake_task_id = 0,
+		group = 50295,
+		task_id = 21876,
+		medal_asset = "ActivityMedal/5029503",
+		activity_medal_name = "ステッカー：銀河の星",
+		id = 5029503,
+		activity_medal_desc = "ここにて星々の声に耳を傾けよう"
+	},
+	[5029504] = {
+		prefab_node = "4",
+		next_medal = 0,
+		item = 65789,
+		remake_task_id = 0,
+		group = 50295,
+		task_id = 21877,
+		medal_asset = "ActivityMedal/5029504",
+		activity_medal_name = "ステッカー：死神",
+		id = 5029504,
+		activity_medal_desc = "死神にして、死神にあらず"
+	},
+	[5029505] = {
+		prefab_node = "5",
+		next_medal = 0,
+		item = 65790,
+		remake_task_id = 0,
+		group = 50295,
+		task_id = 21878,
+		medal_asset = "ActivityMedal/5029505",
+		activity_medal_name = "ステッカー：月と玉輪",
+		id = 5029505,
+		activity_medal_desc = "「今人は見ず　古時の月　今月は曾経て　古人を照らせり」"
+	},
+	[5029506] = {
+		prefab_node = "6",
+		next_medal = 0,
+		item = 65791,
+		remake_task_id = 0,
+		group = 50295,
+		task_id = 21879,
+		medal_asset = "ActivityMedal/5029506",
+		activity_medal_name = "ステッカー：ギンギツネ",
+		id = 5029506,
+		activity_medal_desc = "はじめまして、アズールレーンの指揮官。私のことは「ギンギツネ」と呼んでください"
+	},
+	[5029507] = {
+		prefab_node = "7",
+		next_medal = 0,
+		item = 65792,
+		remake_task_id = 0,
+		group = 50295,
+		task_id = 21880,
+		medal_asset = "ActivityMedal/5029507",
+		activity_medal_name = "ステッカー：ヘレナ",
+		id = 5029507,
+		activity_medal_desc = "いつかまた出会えるから"
+	},
+	[5029508] = {
+		prefab_node = "8",
+		next_medal = 0,
+		item = 65793,
+		remake_task_id = 0,
+		group = 50295,
+		task_id = 21881,
+		medal_asset = "ActivityMedal/5029508",
+		activity_medal_name = "ステッカー：理事評議会",
+		id = 5029508,
+		activity_medal_desc = "ここにミサイルが落ちてきたら……"
+	},
 	get_id_list_by_group = {
 		[5711] = {
 			571101,
@@ -1153,6 +1249,16 @@ pg.activity_medal_template = {
 			5020906,
 			5020907,
 			5020908
+		},
+		[50295] = {
+			5029501,
+			5029502,
+			5029503,
+			5029504,
+			5029505,
+			5029506,
+			5029507,
+			5029508
 		}
 	},
 	all = {
@@ -1242,6 +1348,14 @@ pg.activity_medal_template = {
 		5020905,
 		5020906,
 		5020907,
-		5020908
+		5020908,
+		5029501,
+		5029502,
+		5029503,
+		5029504,
+		5029505,
+		5029506,
+		5029507,
+		5029508
 	}
 }

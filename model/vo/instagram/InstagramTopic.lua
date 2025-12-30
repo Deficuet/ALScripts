@@ -27,6 +27,8 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	else
 		arg_1_0.active = false
 	end
+
+	arg_1_0.isII = arg_1_1.group_ii ~= 0
 end
 
 function var_0_0.SetWordList(arg_2_0)

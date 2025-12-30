@@ -208,7 +208,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 10703,
@@ -239,7 +240,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 20403,
@@ -270,7 +272,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 20603,
@@ -301,7 +304,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 29903,
@@ -332,7 +336,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 30129,
@@ -363,7 +368,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 30407,
@@ -394,7 +400,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 30707,
@@ -425,7 +432,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 31201,
@@ -456,7 +464,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 40303,
@@ -487,7 +496,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 50204,
@@ -518,7 +528,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 50205,
@@ -549,7 +560,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 60802,
@@ -580,7 +592,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 70104,
@@ -611,7 +624,8 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 90111,
@@ -642,1428 +656,2874 @@ pg.base.island_illustrated_guide = {
 				5,
 				40
 			}
-		}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100100,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 16,
 		order = 1,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100200,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 17,
 		order = 2,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100300,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 18,
 		order = 3,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100400,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 19,
 		order = 4,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100500,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 20,
 		order = 5,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100600,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 21,
 		order = 6,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100700,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 22,
 		order = 7,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100800,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 23,
 		order = 8,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 100900,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 24,
 		order = 9,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101000,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 25,
 		order = 10,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101100,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 26,
 		order = 11,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101200,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 27,
 		order = 12,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101300,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 28,
 		order = 13,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101400,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 29,
 		order = 14,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 101600,
-		collect_add = 0,
+		collect_add = 20,
 		type = 2,
 		id = 30,
 		order = 15,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1000,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 31,
 		order = 1,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1001,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 32,
 		order = 2,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1002,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 33,
 		order = 3,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1003,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 34,
 		order = 4,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1004,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 35,
 		order = 5,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1005,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 36,
 		order = 6,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1006,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 37,
 		order = 7,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1007,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 38,
 		order = 8,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1008,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 39,
 		order = 9,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1009,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 40,
 		order = 10,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1010,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 41,
 		order = 11,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1011,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 42,
 		order = 12,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1012,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 43,
 		order = 13,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1014,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 44,
 		order = 14,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1015,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 45,
 		order = 15,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1016,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 46,
 		order = 16,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1017,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 47,
 		order = 17,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1018,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 48,
 		order = 18,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1019,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 49,
 		order = 19,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1020,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 50,
 		order = 20,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1021,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 51,
 		order = 21,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	{
 		unlock_id = 1022,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 52,
 		order = 22,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[57] = {
 		unlock_id = 2000,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 57,
 		order = 27,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[58] = {
 		unlock_id = 2001,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 58,
 		order = 28,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[59] = {
 		unlock_id = 2002,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 59,
 		order = 29,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[60] = {
 		unlock_id = 2003,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 60,
 		order = 30,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[61] = {
 		unlock_id = 2004,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 61,
 		order = 31,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[62] = {
 		unlock_id = 2005,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 62,
 		order = 32,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[63] = {
 		unlock_id = 2006,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 63,
 		order = 33,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[64] = {
 		unlock_id = 2007,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 64,
 		order = 34,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[65] = {
 		unlock_id = 2008,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 65,
 		order = 35,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[66] = {
 		unlock_id = 2009,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 66,
 		order = 36,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[67] = {
 		unlock_id = 2010,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 67,
 		order = 37,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[68] = {
 		unlock_id = 2011,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 68,
 		order = 38,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[69] = {
 		unlock_id = 2012,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 69,
 		order = 39,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[70] = {
 		unlock_id = 2014,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 70,
 		order = 40,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[71] = {
 		unlock_id = 2015,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 71,
 		order = 41,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[72] = {
 		unlock_id = 2016,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 72,
 		order = 42,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[73] = {
 		unlock_id = 2017,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 73,
 		order = 43,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[74] = {
 		unlock_id = 2018,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 74,
 		order = 44,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[75] = {
 		unlock_id = 2019,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 75,
 		order = 45,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[76] = {
 		unlock_id = 2020,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 76,
 		order = 46,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[77] = {
 		unlock_id = 2021,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 77,
 		order = 47,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[78] = {
 		unlock_id = 2022,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 78,
 		order = 48,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				300,
+				10
+			},
+			{
+				5000,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[86] = {
 		unlock_id = 2600,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 86,
 		order = 56,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[87] = {
 		unlock_id = 2601,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 87,
 		order = 57,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[88] = {
 		unlock_id = 2602,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 88,
 		order = 58,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[89] = {
 		unlock_id = 2603,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 89,
 		order = 59,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[90] = {
 		unlock_id = 2604,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 90,
 		order = 60,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[91] = {
 		unlock_id = 2605,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 91,
 		order = 61,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[92] = {
 		unlock_id = 2606,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 92,
 		order = 62,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[93] = {
 		unlock_id = 2700,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 93,
 		order = 63,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[94] = {
 		unlock_id = 2701,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 94,
 		order = 64,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[95] = {
 		unlock_id = 2702,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 95,
 		order = 65,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[96] = {
 		unlock_id = 2703,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 96,
 		order = 66,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[97] = {
 		unlock_id = 2704,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 97,
 		order = 67,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[98] = {
 		unlock_id = 2705,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 98,
 		order = 68,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[99] = {
 		unlock_id = 2800,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 99,
 		order = 69,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[100] = {
 		unlock_id = 2801,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 100,
 		order = 70,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[101] = {
 		unlock_id = 2802,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 101,
 		order = 71,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[102] = {
 		unlock_id = 2803,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 102,
 		order = 72,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[103] = {
 		unlock_id = 3000,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 103,
 		order = 73,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[104] = {
 		unlock_id = 3001,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 104,
 		order = 74,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[105] = {
 		unlock_id = 3002,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 105,
 		order = 75,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[106] = {
 		unlock_id = 3003,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 106,
 		order = 76,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[107] = {
 		unlock_id = 3004,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 107,
 		order = 77,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[108] = {
 		unlock_id = 3005,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 108,
 		order = 78,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[109] = {
 		unlock_id = 3006,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 109,
 		order = 79,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[110] = {
 		unlock_id = 3007,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 110,
 		order = 80,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[111] = {
 		unlock_id = 3008,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 111,
 		order = 81,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[112] = {
 		unlock_id = 3009,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 112,
 		order = 82,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[113] = {
 		unlock_id = 3010,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 113,
 		order = 83,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[114] = {
 		unlock_id = 3011,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 114,
 		order = 84,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[115] = {
 		unlock_id = 3012,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 115,
 		order = 85,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[116] = {
 		unlock_id = 3013,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 116,
 		order = 86,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[117] = {
 		unlock_id = 3014,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 117,
 		order = 87,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[118] = {
 		unlock_id = 3015,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 118,
 		order = 88,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[120] = {
 		unlock_id = 3017,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 120,
 		order = 90,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[121] = {
 		unlock_id = 3018,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 121,
 		order = 91,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[122] = {
 		unlock_id = 3019,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 122,
 		order = 92,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[123] = {
 		unlock_id = 3020,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 123,
 		order = 93,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[124] = {
 		unlock_id = 3021,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 124,
 		order = 94,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[125] = {
 		unlock_id = 3022,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 125,
 		order = 95,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[126] = {
 		unlock_id = 3023,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 126,
 		order = 96,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[127] = {
 		unlock_id = 3024,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 127,
 		order = 97,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[128] = {
 		unlock_id = 3025,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 128,
 		order = 98,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[129] = {
 		unlock_id = 3026,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 129,
 		order = 99,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[130] = {
 		unlock_id = 3028,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 130,
 		order = 100,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[131] = {
 		unlock_id = 3029,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 131,
 		order = 101,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[132] = {
 		unlock_id = 3030,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 132,
 		order = 102,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[134] = {
 		unlock_id = 3032,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 134,
 		order = 104,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[135] = {
 		unlock_id = 3033,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 135,
 		order = 105,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[136] = {
 		unlock_id = 3034,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 136,
 		order = 106,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[137] = {
 		unlock_id = 3035,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 137,
 		order = 107,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[138] = {
 		unlock_id = 3036,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 138,
 		order = 108,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[139] = {
 		unlock_id = 3037,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 139,
 		order = 109,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[140] = {
 		unlock_id = 3038,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 140,
 		order = 110,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[141] = {
 		unlock_id = 3039,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 141,
 		order = 111,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[142] = {
 		unlock_id = 3040,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 142,
 		order = 112,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[143] = {
 		unlock_id = 3041,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 143,
 		order = 113,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[144] = {
 		unlock_id = 3042,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 144,
 		order = 114,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[145] = {
 		unlock_id = 3043,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 145,
 		order = 115,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[146] = {
 		unlock_id = 3044,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 146,
 		order = 116,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[147] = {
 		unlock_id = 3045,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 147,
 		order = 117,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[148] = {
 		unlock_id = 3046,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 148,
 		order = 118,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[149] = {
 		unlock_id = 3047,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 149,
 		order = 119,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[150] = {
 		unlock_id = 3048,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 150,
 		order = 120,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[151] = {
 		unlock_id = 3049,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 151,
 		order = 121,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[152] = {
 		unlock_id = 3050,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 152,
 		order = 122,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[153] = {
 		unlock_id = 3051,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 153,
 		order = 123,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[154] = {
 		unlock_id = 3052,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 154,
 		order = 124,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[155] = {
 		unlock_id = 3053,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 155,
 		order = 125,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[156] = {
 		unlock_id = 3054,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 156,
 		order = 126,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[157] = {
 		unlock_id = 3055,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 157,
 		order = 127,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[158] = {
 		unlock_id = 3056,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 158,
 		order = 128,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[159] = {
 		unlock_id = 3059,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 159,
 		order = 129,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[160] = {
 		unlock_id = 3101,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 160,
 		order = 130,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[161] = {
 		unlock_id = 3102,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 161,
 		order = 131,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[162] = {
 		unlock_id = 3103,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 162,
 		order = 132,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[163] = {
 		unlock_id = 3104,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 163,
 		order = 133,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[164] = {
 		unlock_id = 3105,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 164,
 		order = 134,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[165] = {
 		unlock_id = 3106,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 165,
 		order = 135,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[166] = {
 		unlock_id = 3107,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 166,
 		order = 136,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[167] = {
 		unlock_id = 3108,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 167,
 		order = 137,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[168] = {
 		unlock_id = 3109,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 168,
 		order = 138,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[169] = {
 		unlock_id = 3110,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 169,
 		order = 139,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[170] = {
 		unlock_id = 3111,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 170,
 		order = 140,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[171] = {
 		unlock_id = 3112,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 171,
 		order = 141,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[172] = {
 		unlock_id = 3113,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 172,
 		order = 142,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[173] = {
 		unlock_id = 4001,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 173,
 		order = 143,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[174] = {
 		unlock_id = 4002,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 174,
 		order = 144,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[175] = {
 		unlock_id = 4003,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 175,
 		order = 145,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[176] = {
 		unlock_id = 4004,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 176,
 		order = 146,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[177] = {
 		unlock_id = 4005,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 177,
 		order = 147,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[178] = {
 		unlock_id = 4006,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 178,
 		order = 148,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[179] = {
 		unlock_id = 4007,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 179,
 		order = 149,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[180] = {
 		unlock_id = 4008,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 180,
 		order = 150,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[181] = {
 		unlock_id = 4009,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 181,
 		order = 151,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[182] = {
 		unlock_id = 4010,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 182,
 		order = 152,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[183] = {
 		unlock_id = 4011,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 183,
 		order = 153,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[184] = {
 		unlock_id = 4012,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 184,
 		order = 154,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[185] = {
 		unlock_id = 4013,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 185,
 		order = 155,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	},
 	[186] = {
 		unlock_id = 4014,
-		collect_add = 0,
+		collect_add = 20,
 		type = 3,
 		id = 186,
 		order = 156,
 		collect_upgrade = {},
-		collect_star = {}
+		collect_star = {
+			{
+				30,
+				10
+			},
+			{
+				100,
+				10
+			}
+		},
+		award_unlock = {}
 	}
 }

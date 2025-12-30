@@ -370,7 +370,13 @@ function var_0_7.ShowSkillPainting(arg_37_0, arg_37_1, arg_37_2, arg_37_3)
 	local var_37_0
 
 	if arg_37_2 then
-		var_37_0 = arg_37_2.cutin_cover
+		if arg_37_2.cutin_cover then
+			var_37_0 = arg_37_2.cutin_cover
+		elseif arg_37_2.cutin_cover_DAL then
+			arg_37_0._ui:CutInPaintingDAL(arg_37_1:GetTemplate(), arg_37_3, arg_37_1:GetIFF(), arg_37_2)
+
+			return
+		end
 	end
 
 	arg_37_0._ui:CutInPainting(arg_37_1:GetTemplate(), arg_37_3, arg_37_1:GetIFF(), var_37_0)

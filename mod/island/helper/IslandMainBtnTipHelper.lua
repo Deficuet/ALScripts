@@ -39,8 +39,19 @@ function var_0_0.IsMapTip()
 		local var_11_2 = var_11_1:GetTraceParam()
 		local var_11_3 = tonumber(var_11_2)
 
-		if var_11_3 then
-			return var_11_0:GetMapId() ~= pg.island_world_objects[var_11_3].mapId
+		if var_11_3 and var_11_0:GetMapId() ~= pg.island_world_objects[var_11_3].mapId then
+			return true
+		end
+	end
+
+	local var_11_4 = var_11_0:GetTaskAgency():GetMainTraceTask()
+
+	if var_11_4 then
+		local var_11_5 = var_11_4:GetTraceParam()
+		local var_11_6 = tonumber(var_11_5)
+
+		if var_11_6 and var_11_0:GetMapId() ~= pg.island_world_objects[var_11_6].mapId then
+			return true
 		end
 	end
 
@@ -55,14 +66,8 @@ function var_0_0.IsDeviceTip()
 		local var_12_2 = var_12_1.btn_name
 		local var_12_3 = var_12_1.ability_id
 
-		if var_12_0:HasAbility(var_12_3) then
-			if var_12_2 == "book" then
-				if var_0_0.IsBookTipInDeviceBtn() then
-					return true
-				end
-			elseif var_0_0.IsTip(var_12_2) then
-				return true
-			end
+		if var_12_0:HasAbility(var_12_3) and var_0_0.IsTip(var_12_2) then
+			return true
 		end
 	end
 
@@ -115,28 +120,23 @@ function var_0_0.IsBookTip()
 	return getProxy(IslandProxy):GetIsland():GetBookAgency():IsTipFromTypes({
 		IslandIllustration.TYPES.CHAR,
 		IslandIllustration.TYPES.NPC,
-		IslandIllustration.TYPES.ITEM
+		IslandIllustration.TYPES.ITEM,
+		IslandIllustration.TYPES.FISH
 	})
 end
 
-function var_0_0.IsBookTipInDeviceBtn()
-	return getProxy(IslandProxy):GetIsland():GetBookAgency():IsTipFromTypes({
-		IslandIllustration.TYPES.CHAR
-	})
-end
-
-function var_0_0.IsUnlock(arg_24_0)
-	local var_24_0 = underscore.detect(pg.island_main_btns.all, function(arg_25_0)
-		return pg.island_main_btns[arg_25_0].btn_name == arg_24_0
+function var_0_0.IsUnlock(arg_23_0)
+	local var_23_0 = underscore.detect(pg.island_main_btns.all, function(arg_24_0)
+		return pg.island_main_btns[arg_24_0].btn_name == arg_23_0
 	end)
 
-	if not var_24_0 then
+	if not var_23_0 then
 		return false
 	end
 
-	local var_24_1 = pg.island_main_btns[var_24_0].ability_id
+	local var_23_1 = pg.island_main_btns[var_23_0].ability_id
 
-	return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_24_1)
+	return getProxy(IslandProxy):GetIsland():GetAblityAgency():HasAbility(var_23_1)
 end
 
 return var_0_0

@@ -243,75 +243,110 @@ function var_0_0.UpdateLevelAndExp(arg_29_0, arg_29_1)
 	setActive(arg_29_0.breakoutBtn, arg_29_1:IsMaxLevel() and not arg_29_1:IsMaxBreakLevel())
 end
 
-function var_0_0.UpdateAttrs(arg_30_0, arg_30_1)
-	local var_30_0 = IslandShipAttr.ATTRS
+function var_0_0.RemoveAttrTimer(arg_30_0)
+	if arg_30_0.attrTimer then
+		arg_30_0.attrTimer:Stop()
 
-	arg_30_0.uiAttrList:make(function(arg_31_0, arg_31_1, arg_31_2)
-		if arg_31_0 == UIItemList.EventUpdate then
-			local var_31_0 = arg_31_1 + 1
+		arg_30_0.attrTimer = nil
+	end
+end
 
-			arg_30_0:UpdateAttr(arg_31_2, var_30_0, var_31_0, arg_30_1)
+function var_0_0.UpdateAttrs(arg_31_0, arg_31_1)
+	local var_31_0 = IslandShipAttr.ATTRS
+
+	arg_31_0.uiAttrList:make(function(arg_32_0, arg_32_1, arg_32_2)
+		if arg_32_0 == UIItemList.EventUpdate then
+			local var_32_0 = arg_32_1 + 1
+
+			arg_31_0:UpdateAttr(arg_32_2, var_31_0, var_32_0, arg_31_1)
 		end
 	end)
-	arg_30_0.uiAttrList:align(#var_30_0)
+	arg_31_0.uiAttrList:align(#var_31_0)
 end
 
-function var_0_0.UpdateAttr(arg_32_0, arg_32_1, arg_32_2, arg_32_3, arg_32_4)
-	local var_32_0 = arg_32_2[arg_32_3]
-	local var_32_1 = arg_32_4:GetAttr(var_32_0)
+function var_0_0.UpdateAttr(arg_33_0, arg_33_1, arg_33_2, arg_33_3, arg_33_4)
+	local var_33_0 = arg_33_2[arg_33_3]
+	local var_33_1 = arg_33_4:GetAttr(var_33_0)
 
-	setText(arg_32_1:Find("name"), IslandShipAttr.ToChinese(var_32_0))
-	setText(arg_32_1:Find("value"), var_32_1)
+	setText(arg_33_1:Find("name"), IslandShipAttr.ToChinese(var_33_0))
 
-	local var_32_2 = arg_32_4:GetAttrGrade(var_32_0)
-	local var_32_3 = IslandShipAttr.Grade2Img(var_32_2)
+	local var_33_2 = IslandProductTimeHelper.GetAttributeAddPercentByAttribute(arg_33_4.id, arg_33_3)
+	local var_33_3
+	local var_33_4 = var_33_2 > 0 and "#00B91E" or var_33_2 < 0 and "#FF6767" or "#393A3C"
 
-	GetImageSpriteFromAtlasAsync("ui/IslandShipUI_atlas", var_32_3[1], arg_32_1:Find("grade"))
-	GetImageSpriteFromAtlasAsync("ui/IslandShipUI_atlas", var_32_3[2], arg_32_1:Find("grade_bg"))
+	setTextColor(arg_33_1:Find("value"), Color.NewHex(var_33_4))
+
+	local var_33_5 = var_33_2 ~= 0 and math.floor(var_33_1 * (1 + 0.01 * var_33_2)) or var_33_1
+
+	setText(arg_33_1:Find("value"), var_33_5)
+
+	if var_33_2 ~= 0 then
+		local var_33_6 = arg_33_4:GetDisplayStatus()
+		local var_33_7 = _.select(var_33_6, function(arg_34_0)
+			return arg_34_0:GetBuffType() == IslandBuffType.SHIP_ATTR
+		end)
+
+		onButton(arg_33_0, arg_33_1, function()
+			arg_33_0:ShowMsgBox({
+				hideNo = true,
+				type = IslandMsgBox.TYPE_SHIP_OWN_STATUS,
+				title = i18n("island_word_ship_buff_desc"),
+				statusList = var_33_7
+			})
+		end, SFX_PANEL)
+	else
+		removeOnButton(arg_33_1)
+	end
+
+	local var_33_8 = arg_33_4:GetAttrGradeByValue(var_33_5)
+	local var_33_9 = IslandShipAttr.Grade2Img(var_33_8)
+
+	GetImageSpriteFromAtlasAsync("ui/IslandShipUI_atlas", var_33_9[1], arg_33_1:Find("grade"))
+	GetImageSpriteFromAtlasAsync("ui/IslandShipUI_atlas", var_33_9[2], arg_33_1:Find("grade_bg"))
 end
 
-function var_0_0.UpdateSkill(arg_33_0, arg_33_1)
-	local var_33_0 = arg_33_1:GetSkill()
+function var_0_0.UpdateSkill(arg_36_0, arg_36_1)
+	local var_36_0 = arg_36_1:GetSkill()
 
-	GetImageSpriteFromAtlasAsync("island/IslandSkillIcon/" .. var_33_0:GetIcon(), "", arg_33_0.skillIconImg)
+	GetImageSpriteFromAtlasAsync("island/IslandSkillIcon/" .. var_36_0:GetIcon(), "", arg_36_0.skillIconImg)
 
-	arg_33_0.skillName.text = var_33_0:GetName()
-	arg_33_0.skillLevel.text = "[Lv." .. var_33_0:GetLevel() .. "]"
-	arg_33_0.skillDesc.text = var_33_0:GetEffectDesc()
+	arg_36_0.skillName.text = var_36_0:GetName()
+	arg_36_0.skillLevel.text = "[Lv." .. var_36_0:GetLevel() .. "]"
+	arg_36_0.skillDesc.text = var_36_0:GetEffectDesc()
 
-	local var_33_1 = var_33_0:IsUnlock()
+	local var_36_1 = var_36_0:IsUnlock()
 
-	setActive(arg_33_0.skillTr, var_33_1)
-	setActive(arg_33_0.skillMask, not var_33_1)
-	setText(arg_33_0.skillMaskLabel, i18n("island_need_star", arg_33_1:GetSkillUnlockLevel()))
-	setActive(arg_33_0.skillUpgradeBtn, not var_33_0:IsMaxLevel())
+	setActive(arg_36_0.skillTr, var_36_1)
+	setActive(arg_36_0.skillMask, not var_36_1)
+	setText(arg_36_0.skillMaskLabel, i18n("island_need_star", arg_36_1:GetSkillUnlockLevel()))
+	setActive(arg_36_0.skillUpgradeBtn, not var_36_0:IsMaxLevel())
 end
 
-function var_0_0.UpdateStatus(arg_34_0, arg_34_1)
-	arg_34_0.statusPanel:Flush(arg_34_1)
+function var_0_0.UpdateStatus(arg_37_0, arg_37_1)
+	arg_37_0.statusPanel:Flush(arg_37_1)
 
-	local var_34_0 = arg_34_1:GetDisplayStatus()
+	local var_37_0 = arg_37_1:GetDisplayStatus()
 
-	onButton(arg_34_0, arg_34_0.statusPanel.viewBtn, function()
-		arg_34_0:ShowMsgBox({
+	onButton(arg_37_0, arg_37_0.statusPanel.viewBtn, function()
+		arg_37_0:ShowMsgBox({
 			hideNo = true,
 			type = IslandMsgBox.TYPE_SHIP_OWN_STATUS,
 			title = i18n("island_word_ship_buff_desc"),
-			statusList = var_34_0
+			statusList = var_37_0
 		})
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnHide(arg_36_0)
-	arg_36_0:RemoveCloseEnergyTipTimer()
+function var_0_0.OnHide(arg_39_0)
+	arg_39_0:RemoveCloseEnergyTipTimer()
 end
 
-function var_0_0.OnDestroy(arg_37_0)
-	arg_37_0.statusPanel:Dispose()
+function var_0_0.OnDestroy(arg_40_0)
+	arg_40_0.statusPanel:Dispose()
 
-	arg_37_0.statusPanel = nil
+	arg_40_0.statusPanel = nil
 
-	arg_37_0:RemoveCloseEnergyTipTimer()
+	arg_40_0:RemoveCloseEnergyTipTimer()
 end
 
 return var_0_0

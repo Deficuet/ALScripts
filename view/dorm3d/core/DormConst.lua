@@ -38,14 +38,15 @@ var_0_0.BONE_TO_TOUCH = {
 	LeftCalf = "leg",
 	Belly = "belly"
 }
-var_0_0.EXTRA_SYSTEMS = {
-	StockingMgr = "StockingMgr",
-	FurnitureSlide = "FurnitureSlide"
-}
-var_0_0.SYSTEM_LIST = {
-	var_0_0.EXTRA_SYSTEMS.FurnitureSlide,
-	var_0_0.EXTRA_SYSTEMS.StockingMgr
-}
+
+function var_0_0.GetDefaultSystemClasses()
+	return {
+		SlideExtraSystem,
+		Dorm3dStockingMgr,
+		TeleportSystem
+	}
+end
+
 var_0_0.DEFAULT_ANIM_FADE_IN_TIME = 0.25
 var_0_0.LADY_MOVE_SPEED = 0.85
 var_0_0.LADY_ROTATE_SPEED = 10

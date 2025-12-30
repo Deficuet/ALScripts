@@ -2080,6 +2080,136 @@ pg.player_resource = {
 		name = "activity_xunzhang11",
 		itemid = 65722
 	},
+	[581] = {
+		id = 581,
+		name = "masaiqu_pt2",
+		itemid = 65731
+	},
+	[582] = {
+		id = 582,
+		name = "yunxian_pt2",
+		itemid = 65732
+	},
+	[583] = {
+		id = 583,
+		name = "limit_skinticket46",
+		itemid = 68142
+	},
+	[584] = {
+		id = 584,
+		name = "limit_skinticket47",
+		itemid = 68143
+	},
+	[585] = {
+		id = 585,
+		name = "limit_skinticket48",
+		itemid = 68144
+	},
+	[586] = {
+		id = 586,
+		name = "skinTicket100",
+		itemid = 65735
+	},
+	[587] = {
+		id = 587,
+		name = "dal_kuangsan_pt",
+		itemid = 65743
+	},
+	[588] = {
+		id = 588,
+		name = "dal_pt",
+		itemid = 65741
+	},
+	[589] = {
+		id = 589,
+		name = "dal_upgrade_pt",
+		itemid = 65742
+	},
+	[590] = {
+		id = 590,
+		name = "limit_skinticket49",
+		itemid = 68151
+	},
+	[591] = {
+		id = 591,
+		name = "limit_skinticket50",
+		itemid = 68152
+	},
+	[592] = {
+		id = 592,
+		name = "limit_skinticket51",
+		itemid = 68153
+	},
+	[593] = {
+		id = 593,
+		name = "skinTicket101",
+		itemid = 65746
+	},
+	[594] = {
+		id = 594,
+		name = "newserver_pt_251120",
+		itemid = 65110
+	},
+	[595] = {
+		id = 595,
+		name = "hailunna1204_pt",
+		itemid = 65111
+	},
+	[596] = {
+		id = 596,
+		name = "261218_pt1",
+		itemid = 65781
+	},
+	[597] = {
+		id = 597,
+		name = "261218_pt2",
+		itemid = 65782
+	},
+	[598] = {
+		id = 598,
+		name = "limit_skinticket52",
+		itemid = 68160
+	},
+	[599] = {
+		id = 599,
+		name = "limit_skinticket53",
+		itemid = 68161
+	},
+	[600] = {
+		id = 600,
+		name = "limit_skinticket54",
+		itemid = 68162
+	},
+	[601] = {
+		id = 601,
+		name = "skinTicket102",
+		itemid = 65784
+	},
+	[602] = {
+		id = 602,
+		name = "activity_xunzhang12",
+		itemid = 65785
+	},
+	[603] = {
+		id = 603,
+		name = "limit_skinticket55",
+		itemid = 68169
+	},
+	[604] = {
+		id = 604,
+		name = "limit_skinticket56",
+		itemid = 68170
+	},
+	[605] = {
+		id = 605,
+		name = "limit_skinticket57",
+		itemid = 68171
+	},
+	[606] = {
+		id = 606,
+		name = "skinTicket103",
+		itemid = 65795
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2345,6 +2475,11 @@ pg.player_resource = {
 		name = "synchronize_xili",
 		itemid = 21920
 	},
+	[3022] = {
+		id = 3022,
+		name = "synchronize_yuekecheng",
+		itemid = 21921
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -2475,10 +2610,25 @@ pg.player_resource = {
 		name = "Battlepass_24",
 		itemid = 65101
 	},
+	[4101] = {
+		id = 4101,
+		name = "Battlepass_black_friday",
+		itemid = 65107
+	},
+	[4102] = {
+		id = 4102,
+		name = "Battlepass_winter",
+		itemid = 65112
+	},
 	[4025] = {
 		id = 4025,
 		name = "Battlepass_25",
 		itemid = 65106
+	},
+	[4026] = {
+		id = 4026,
+		name = "Battlepass_26",
+		itemid = 65108
 	},
 	[4186] = {
 		id = 4186,
@@ -3889,6 +4039,84 @@ pg.player_resource = {
 		activity_xunzhang11 = {
 			578
 		},
+		masaiqu_pt2 = {
+			581
+		},
+		yunxian_pt2 = {
+			582
+		},
+		limit_skinticket46 = {
+			583
+		},
+		limit_skinticket47 = {
+			584
+		},
+		limit_skinticket48 = {
+			585
+		},
+		skinTicket100 = {
+			586
+		},
+		dal_kuangsan_pt = {
+			587
+		},
+		dal_pt = {
+			588
+		},
+		dal_upgrade_pt = {
+			589
+		},
+		limit_skinticket49 = {
+			590
+		},
+		limit_skinticket50 = {
+			591
+		},
+		limit_skinticket51 = {
+			592
+		},
+		skinTicket101 = {
+			593
+		},
+		newserver_pt_251120 = {
+			594
+		},
+		hailunna1204_pt = {
+			595
+		},
+		["261218_pt1"] = {
+			596
+		},
+		["261218_pt2"] = {
+			597
+		},
+		limit_skinticket52 = {
+			598
+		},
+		limit_skinticket53 = {
+			599
+		},
+		limit_skinticket54 = {
+			600
+		},
+		skinTicket102 = {
+			601
+		},
+		activity_xunzhang12 = {
+			602
+		},
+		limit_skinticket55 = {
+			603
+		},
+		limit_skinticket56 = {
+			604
+		},
+		limit_skinticket57 = {
+			605
+		},
+		skinTicket103 = {
+			606
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4048,6 +4276,9 @@ pg.player_resource = {
 		synchronize_xili = {
 			3021
 		},
+		synchronize_yuekecheng = {
+			3022
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -4126,8 +4357,17 @@ pg.player_resource = {
 		Battlepass_24 = {
 			4024
 		},
+		Battlepass_black_friday = {
+			4101
+		},
+		Battlepass_winter = {
+			4102
+		},
 		Battlepass_25 = {
 			4025
+		},
+		Battlepass_26 = {
+			4026
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -4643,6 +4883,32 @@ pg.player_resource = {
 		576,
 		577,
 		578,
+		581,
+		582,
+		583,
+		584,
+		585,
+		586,
+		587,
+		588,
+		589,
+		590,
+		591,
+		592,
+		593,
+		594,
+		595,
+		596,
+		597,
+		598,
+		599,
+		600,
+		601,
+		602,
+		603,
+		604,
+		605,
+		606,
 		950,
 		951,
 		952,
@@ -4696,6 +4962,7 @@ pg.player_resource = {
 		3019,
 		3020,
 		3021,
+		3022,
 		3106,
 		3137,
 		4001,
@@ -4722,7 +4989,10 @@ pg.player_resource = {
 		4022,
 		4023,
 		4024,
+		4101,
+		4102,
 		4025,
+		4026,
 		4186,
 		4276,
 		4599,

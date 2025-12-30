@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 10137
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 50154
+		act_id = 50254
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 10232
@@ -982,7 +982,7 @@ pg.activity_const = {
 		act_id = 5096
 	},
 	VOTE_ENTRANCE_ACT_ID = {
-		act_id = 1068
+		act_id = 1092
 	},
 	MINIGAME_COOKGAME2_ID = {
 		act_id = 5141
@@ -1154,5 +1154,8 @@ pg.activity_const = {
 	},
 	SAILING_SHIP_3_SKIN_ACT_ID = {
 		act_id = 50202
+	},
+	HelenaPT_ACT_ID = {
+		act_id = 50261
 	}
 }

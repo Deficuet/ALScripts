@@ -16,6 +16,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.cvLoader = MainCVLoader.New()
 	arg_1_0.longPressEvent = arg_1_1:GetComponent("UILongPressTrigger").onLongPressed
 	arg_1_0.replaceWord = false
+	arg_1_0._asmrFlag = false
 end
 
 function var_0_0.IsUnload(arg_2_0)
@@ -91,6 +92,10 @@ function var_0_0.InitClickEvent(arg_11_0)
 	end)
 	arg_11_0.longPressEvent:RemoveAllListeners()
 	arg_11_0.longPressEvent:AddListener(function()
+		if arg_11_0._asmrFlag then
+			return
+		end
+
 		if getProxy(ContextProxy):getCurrentContext().viewComponent.__cname == "NewMainScene" then
 			arg_11_0:OnLongPress()
 		end
@@ -211,382 +216,404 @@ function var_0_0._TriggerEvent(arg_24_0, arg_24_1)
 	end
 end
 
-function var_0_0.TriggerEvent(arg_25_0, arg_25_1)
-	if arg_25_0.isDragAndZoomState then
-		return
-	end
-
-	if arg_25_0.chatting then
-		return
-	end
-
-	arg_25_0:RemoveTimer()
-	arg_25_0:PrepareTriggerAction(arg_25_1)
-	arg_25_0:OnTriggerEvent()
+function var_0_0.SetShift(arg_25_0, arg_25_1)
+	arg_25_0._shift = arg_25_1
 end
 
-function var_0_0.TriggerNextEventAuto(arg_26_0)
-	if arg_26_0.isPuase or arg_26_0.isExited then
+function var_0_0.TriggerEvent(arg_26_0, arg_26_1)
+	if arg_26_0.isDragAndZoomState then
 		return
 	end
 
-	arg_26_0:OnEndChatting()
-	arg_26_0:RemoveTimer()
+	if arg_26_0.chatting then
+		return
+	end
 
-	arg_26_0.timer = Timer.New(function()
-		arg_26_0:OnTimerTriggerEvent()
+	arg_26_0:RemoveTimer()
+	arg_26_0:PrepareTriggerAction(arg_26_1)
+	arg_26_0:OnTriggerEvent()
+end
+
+function var_0_0.TriggerNextEventAuto(arg_27_0)
+	if arg_27_0.isPuase or arg_27_0.isExited and arg_27_0._asmrFlag then
+		return
+	end
+
+	arg_27_0:OnEndChatting()
+	arg_27_0:RemoveTimer()
+
+	arg_27_0.timer = Timer.New(function()
+		arg_27_0:OnTimerTriggerEvent()
 	end, 30, 1, true)
 
-	arg_26_0.timer:Start()
+	arg_27_0.timer:Start()
 end
 
-function var_0_0.OnTimerTriggerEvent(arg_28_0)
-	if arg_28_0:OnEnableTimerEvent() then
-		local var_28_0 = arg_28_0:CollectIdleEvents(arg_28_0.lastChatEvent)
+function var_0_0.OnTimerTriggerEvent(arg_29_0)
+	if arg_29_0:OnEnableTimerEvent() then
+		local var_29_0 = arg_29_0:CollectIdleEvents(arg_29_0.lastChatEvent)
 
-		arg_28_0.lastChatEvent = var_28_0[math.ceil(math.random(#var_28_0))]
+		arg_29_0.lastChatEvent = var_29_0[math.ceil(math.random(#var_29_0))]
 
-		arg_28_0:_TriggerEvent(arg_28_0.lastChatEvent)
-		arg_28_0:OnTriggerEventAuto()
-		arg_28_0:RemoveTimer()
+		arg_29_0:_TriggerEvent(arg_29_0.lastChatEvent)
+		arg_29_0:OnTriggerEventAuto()
+		arg_29_0:RemoveTimer()
 	end
 end
 
-function var_0_0.OnEnableTimerEvent(arg_29_0)
+function var_0_0.OnEnableTimerEvent(arg_30_0)
 	return true
 end
 
-function var_0_0.OnStartChatting(arg_30_0)
-	arg_30_0.chatting = true
+function var_0_0.OnStartChatting(arg_31_0)
+	arg_31_0.chatting = true
 end
 
-function var_0_0.OnEndChatting(arg_31_0)
-	arg_31_0.chatting = false
+function var_0_0.OnEndChatting(arg_32_0)
+	arg_32_0.chatting = false
 end
 
-function var_0_0.GetWordAndCv(arg_32_0, arg_32_1, arg_32_2)
-	local var_32_0, var_32_1, var_32_2, var_32_3, var_32_4, var_32_5 = ShipWordHelper.GetCvDataForShip(arg_32_0.ship, arg_32_2)
+function var_0_0.GetWordAndCv(arg_33_0, arg_33_1, arg_33_2)
+	local var_33_0, var_33_1, var_33_2, var_33_3, var_33_4, var_33_5 = ShipWordHelper.GetCvDataForShip(arg_33_0.ship, arg_33_2)
 
-	return var_32_0, var_32_1, var_32_2, var_32_3, var_32_4, var_32_5
+	return var_33_0, var_33_1, var_33_2, var_33_3, var_33_4, var_33_5
 end
 
-function var_0_0.DisplayWord(arg_33_0, arg_33_1)
-	arg_33_0:OnStartChatting()
+function var_0_0.DisplayWord(arg_34_0, arg_34_1)
+	arg_34_0:OnStartChatting()
 
-	local var_33_0, var_33_1, var_33_2, var_33_3, var_33_4, var_33_5 = arg_33_0:GetWordAndCv(arg_33_0.ship, arg_33_1)
+	local var_34_0, var_34_1, var_34_2, var_34_3, var_34_4, var_34_5 = arg_34_0:GetWordAndCv(arg_34_0.ship, arg_34_1)
 
-	if not var_33_2 or var_33_2 == nil or var_33_2 == "" or var_33_2 == "nil" then
-		arg_33_0:OnEndChatting()
-
-		return
-	end
-
-	arg_33_0:OnDisplayWorld(arg_33_1)
-	arg_33_0:emit(MainWordView.SET_CONTENT, arg_33_1, var_33_2)
-	arg_33_0:PlayCvAndAnimation(var_33_4, var_33_3, var_33_1)
-end
-
-function var_0_0.PlayCvAndAnimation(arg_34_0, arg_34_1, arg_34_2, arg_34_3)
-	if getProxy(ContextProxy):getContextByMediator(NewShipMediator) then
+	if not var_34_2 or var_34_2 == nil or var_34_2 == "" or var_34_2 == "nil" then
 		arg_34_0:OnEndChatting()
 
 		return
 	end
 
-	local var_34_0 = -1
+	arg_34_0:OnDisplayWorld(arg_34_1)
+
+	if arg_34_0._asmrFlag then
+		arg_34_0:emit(MainAsmrChatView.SET_CONTENT, arg_34_1, var_34_2)
+	else
+		arg_34_0:emit(MainWordView.SET_CONTENT, arg_34_1, var_34_2)
+	end
+
+	arg_34_0:PlayCvAndAnimation(var_34_4, var_34_3, var_34_1)
+end
+
+function var_0_0.PlayCvAndAnimation(arg_35_0, arg_35_1, arg_35_2, arg_35_3)
+	if getProxy(ContextProxy):getContextByMediator(NewShipMediator) then
+		arg_35_0:OnEndChatting()
+
+		return
+	end
+
+	local var_35_0 = -1
 
 	seriesAsync({
-		function(arg_35_0)
-			if not arg_34_3 or not not pg.NewStoryMgr.GetInstance():IsRunning() then
-				arg_35_0()
+		function(arg_36_0)
+			if not arg_35_3 or not not pg.NewStoryMgr.GetInstance():IsRunning() then
+				arg_36_0()
 
 				return
 			end
 
-			arg_34_0:PlayCV(arg_34_1, arg_34_2, arg_34_3, function(arg_36_0)
-				var_34_0 = arg_36_0
+			arg_35_0:PlayCV(arg_35_1, arg_35_2, arg_35_3, function(arg_37_0)
+				var_35_0 = arg_37_0
 
-				arg_35_0()
+				arg_36_0()
 			end)
 		end,
-		function(arg_37_0)
-			arg_34_0:StartChatAnimtion(var_34_0, arg_37_0)
+		function(arg_38_0)
+			arg_35_0:StartChatAnimtion(var_35_0, arg_38_0)
 		end
 	}, function()
-		arg_34_0:OnDisplayWordEnd()
+		arg_35_0:OnDisplayWordEnd()
 	end)
 end
 
-function var_0_0.OnDisplayWordEnd(arg_39_0)
-	arg_39_0:TriggerNextEventAuto()
+function var_0_0.OnDisplayWordEnd(arg_40_0)
+	arg_40_0:TriggerNextEventAuto()
 end
 
-function var_0_0.PlayCV(arg_40_0, arg_40_1, arg_40_2, arg_40_3, arg_40_4)
-	local var_40_0 = ShipWordHelper.RawGetCVKey(arg_40_0.ship:getSkinId())
-	local var_40_1 = pg.CriMgr.GetCVBankName(var_40_0)
-
-	arg_40_0.cvLoader:Load(var_40_1, arg_40_3, 0, arg_40_4)
-end
-
-function var_0_0.preloadCv(arg_41_0, arg_41_1)
+function var_0_0.PlayCV(arg_41_0, arg_41_1, arg_41_2, arg_41_3, arg_41_4)
 	local var_41_0 = ShipWordHelper.RawGetCVKey(arg_41_0.ship:getSkinId())
 	local var_41_1 = pg.CriMgr.GetCVBankName(var_41_0)
 
-	arg_41_0.cvLoader:preloadCv(var_41_1, arg_41_1)
+	arg_41_0.cvLoader:Load(var_41_1, arg_41_3, 0, arg_41_4)
 end
 
-function var_0_0.setReplaceWord(arg_42_0, arg_42_1)
-	arg_42_0.replaceWord = arg_42_1
+function var_0_0.preloadCv(arg_42_0, arg_42_1)
+	local var_42_0 = ShipWordHelper.RawGetCVKey(arg_42_0.ship:getSkinId())
+	local var_42_1 = pg.CriMgr.GetCVBankName(var_42_0)
+
+	arg_42_0.cvLoader:preloadCv(var_42_1, arg_42_1)
 end
 
-function var_0_0.getReplaceWord(arg_43_0)
-	return arg_43_0.replaceWord
+function var_0_0.OnAsmrTurnning(arg_43_0, arg_43_1)
+	arg_43_0._asmrFlag = arg_43_1
 end
 
-function var_0_0.StartChatAnimtion(arg_44_0, arg_44_1, arg_44_2)
-	local var_44_0 = 0.3
-	local var_44_1 = arg_44_1 > 0 and arg_44_1 or 3
+function var_0_0.setReplaceWord(arg_44_0, arg_44_1)
+	arg_44_0.replaceWord = arg_44_1
+end
 
-	arg_44_0:emit(MainWordView.START_ANIMATION, var_44_0, var_44_1)
-	arg_44_0:AddCharTimer(function()
-		if arg_44_0:IsUnload() then
+function var_0_0.getReplaceWord(arg_45_0)
+	return arg_45_0.replaceWord
+end
+
+function var_0_0.StartChatAnimtion(arg_46_0, arg_46_1, arg_46_2)
+	local var_46_0 = 0.3
+	local var_46_1 = arg_46_1 > 0 and arg_46_1 or 3
+
+	if arg_46_0._asmrFlag then
+		arg_46_0:emit(MainAsmrChatView.START_CHAT, var_46_0, var_46_1)
+	else
+		arg_46_0:emit(MainWordView.START_ANIMATION, var_46_0, var_46_1)
+	end
+
+	arg_46_0:AddCharTimer(function()
+		if arg_46_0:IsUnload() then
 			return
 		end
 
-		arg_44_2()
-	end, var_44_0 * 3 + var_44_1)
+		arg_46_2()
+	end, var_46_0 * 3 + var_46_1)
 end
 
-function var_0_0.AddCharTimer(arg_46_0, arg_46_1, arg_46_2)
-	arg_46_0:RemoveChatTimer()
+function var_0_0.AddCharTimer(arg_48_0, arg_48_1, arg_48_2)
+	arg_48_0:RemoveChatTimer()
 
-	arg_46_0.chatTimer = Timer.New(arg_46_1, arg_46_2, 1)
+	arg_48_0.chatTimer = Timer.New(arg_48_1, arg_48_2, 1)
 
-	arg_46_0.chatTimer:Start()
+	arg_48_0.chatTimer:Start()
 end
 
-function var_0_0.RemoveChatTimer(arg_47_0)
-	if arg_47_0.chatTimer then
-		arg_47_0.chatTimer:Stop()
+function var_0_0.RemoveChatTimer(arg_49_0)
+	if arg_49_0.chatTimer then
+		arg_49_0.chatTimer:Stop()
 
-		arg_47_0.chatTimer = nil
+		arg_49_0.chatTimer = nil
 	end
 end
 
-function var_0_0.StopChatAnimtion(arg_48_0)
-	arg_48_0:emit(MainWordView.STOP_ANIMATION)
-	arg_48_0:OnEndChatting()
+function var_0_0.StopChatAnimtion(arg_50_0)
+	if not arg_50_0._asmrFlag then
+		arg_50_0:emit(MainWordView.STOP_ANIMATION)
+	end
+
+	arg_50_0:OnEndChatting()
 end
 
-function var_0_0.OnStopVoice(arg_49_0)
-	arg_49_0.cvLoader:Stop()
+function var_0_0.OnStopVoice(arg_51_0)
+	arg_51_0.cvLoader:Stop()
 end
 
-function var_0_0.CollectIdleEvents(arg_50_0, arg_50_1)
-	local var_50_0 = {}
+function var_0_0.CollectIdleEvents(arg_52_0, arg_52_1)
+	local var_52_0 = {}
 
-	if getProxy(EventProxy):hasFinishState() and arg_50_1 ~= "event_complete" then
-		table.insert(var_50_0, "event_complete")
+	if getProxy(EventProxy):hasFinishState() and arg_52_1 ~= "event_complete" then
+		table.insert(var_52_0, "event_complete")
 	else
-		if getProxy(TaskProxy):getCanReceiveCount() > 0 and arg_50_1 ~= "mission_complete" then
-			table.insert(var_50_0, "mission_complete")
+		if getProxy(TaskProxy):getCanReceiveCount() > 0 and arg_52_1 ~= "mission_complete" then
+			table.insert(var_52_0, "mission_complete")
 		end
 
-		if getProxy(MailProxy):GetUnreadCount() > 0 and arg_50_1 ~= "mail" then
-			table.insert(var_50_0, "mail")
+		if getProxy(MailProxy):GetUnreadCount() > 0 and arg_52_1 ~= "mail" then
+			table.insert(var_52_0, "mail")
 		end
 
-		if #var_50_0 == 0 then
-			local var_50_1 = arg_50_0.ship:getCVIntimacy()
+		if #var_52_0 == 0 then
+			local var_52_1 = arg_52_0.ship:getCVIntimacy()
 
-			var_50_0 = var_0_5.filterAssistantEvents(Clone(var_0_5.IdleEvents), arg_50_0.ship:getSkinId(), var_50_1)
+			var_52_0 = var_0_5.filterAssistantEvents(Clone(var_0_5.IdleEvents), arg_52_0.ship:getSkinId(), var_52_1)
 
-			if getProxy(TaskProxy):getNotFinishCount() and getProxy(TaskProxy):getNotFinishCount() > 0 and arg_50_1 ~= "mission" then
-				table.insert(var_50_0, "mission")
+			if getProxy(TaskProxy):getNotFinishCount() and getProxy(TaskProxy):getNotFinishCount() > 0 and arg_52_1 ~= "mission" then
+				table.insert(var_52_0, "mission")
 			end
 		end
 	end
 
-	return var_50_0
+	return var_52_0
 end
 
-function var_0_0.CollectTouchEvents(arg_51_0)
-	local var_51_0 = arg_51_0.ship:getCVIntimacy()
+function var_0_0.CollectTouchEvents(arg_53_0)
+	local var_53_0 = arg_53_0.ship:getCVIntimacy()
 
-	return (var_0_5.filterAssistantEvents(var_0_5.PaintingTouchEvents, arg_51_0.ship:getSkinId(), var_51_0))
+	return (var_0_5.filterAssistantEvents(var_0_5.PaintingTouchEvents, arg_53_0.ship:getSkinId(), var_53_0))
 end
 
-function var_0_0.GetTouchEvent(arg_52_0, arg_52_1)
-	return (var_0_5.filterAssistantEvents(var_0_5.getAssistantTouchEvents(arg_52_1, arg_52_0.ship:getSkinId()), arg_52_0.ship:getSkinId(), 0))
+function var_0_0.GetTouchEvent(arg_54_0, arg_54_1)
+	return (var_0_5.filterAssistantEvents(var_0_5.getAssistantTouchEvents(arg_54_1, arg_54_0.ship:getSkinId()), arg_54_0.ship:getSkinId(), 0))
 end
 
-function var_0_0.GetIdleEvents(arg_53_0)
-	return (var_0_5.filterAssistantEvents(var_0_5.IdleEvents, arg_53_0.ship:getSkinId(), 0))
+function var_0_0.GetIdleEvents(arg_55_0)
+	return (var_0_5.filterAssistantEvents(var_0_5.IdleEvents, arg_55_0.ship:getSkinId(), 0))
 end
 
-function var_0_0.GetEventConfig(arg_54_0, arg_54_1)
-	return var_0_5.assistantEvents[arg_54_1]
+function var_0_0.GetEventConfig(arg_56_0, arg_56_1)
+	return var_0_5.assistantEvents[arg_56_1]
 end
 
-function var_0_0.GetSpecialTouchEvent(arg_55_0, arg_55_1)
-	return var_0_5.getPaintingTouchEvents(arg_55_1)
+function var_0_0.GetSpecialTouchEvent(arg_57_0, arg_57_1)
+	return var_0_5.getPaintingTouchEvents(arg_57_1)
 end
 
-function var_0_0.RemoveTimer(arg_56_0)
-	if arg_56_0.timer then
-		arg_56_0.timer:Stop()
+function var_0_0.RemoveTimer(arg_58_0)
+	if arg_58_0.timer then
+		arg_58_0.timer:Stop()
 
-		arg_56_0.timer = nil
+		arg_58_0.timer = nil
 	end
 end
 
-function var_0_0.IsExited(arg_57_0)
-	return arg_57_0.isExited
+function var_0_0.IsExited(arg_59_0)
+	return arg_59_0.isExited
 end
 
-function var_0_0.Fold(arg_58_0, arg_58_1, arg_58_2)
-	arg_58_0.isFoldState = arg_58_1
-
-	arg_58_0:RemoveMoveTimer()
-	arg_58_0:OnFold(arg_58_1)
-end
-
-function var_0_0.RemoveMoveTimer(arg_59_0)
-	if arg_59_0.moveTimer then
-		arg_59_0.moveTimer:Stop()
-
-		arg_59_0.moveTimer = nil
-	end
-end
-
-function var_0_0.EnableOrDisableMove(arg_60_0, arg_60_1)
-	arg_60_0.isDragAndZoomState = arg_60_1
+function var_0_0.Fold(arg_60_0, arg_60_1, arg_60_2)
+	arg_60_0.isFoldState = arg_60_1
 
 	arg_60_0:RemoveMoveTimer()
-
-	if arg_60_1 then
-		arg_60_0:StopChatAnimtion()
-		arg_60_0:RemoveTimer()
-		arg_60_0.cvLoader:Stop()
-	else
-		arg_60_0:TriggerNextEventAuto()
-	end
-
-	arg_60_0:OnEnableOrDisableDragAndZoom(arg_60_1)
+	arg_60_0:OnFold(arg_60_1)
 end
 
-function var_0_0.GetOffset(arg_61_0)
+function var_0_0.RemoveMoveTimer(arg_61_0)
+	if arg_61_0.moveTimer then
+		arg_61_0.moveTimer:Stop()
+
+		arg_61_0.moveTimer = nil
+	end
+end
+
+function var_0_0.EnableOrDisableMove(arg_62_0, arg_62_1)
+	arg_62_0.isDragAndZoomState = arg_62_1
+
+	arg_62_0:RemoveMoveTimer()
+
+	if arg_62_1 then
+		arg_62_0:StopChatAnimtion()
+		arg_62_0:RemoveTimer()
+		arg_62_0.cvLoader:Stop()
+	else
+		arg_62_0:TriggerNextEventAuto()
+	end
+
+	arg_62_0:OnEnableOrDisableDragAndZoom(arg_62_1)
+end
+
+function var_0_0.GetOffset(arg_63_0)
 	return 0
 end
 
-function var_0_0.IslimitYPos(arg_62_0)
+function var_0_0.IslimitYPos(arg_64_0)
 	return false
 end
 
-function var_0_0.PlayChangeSkinActionIn(arg_63_0, arg_63_1)
+function var_0_0.PlayChangeSkinActionIn(arg_65_0, arg_65_1)
 	return
 end
 
-function var_0_0.PlayChangeSkinActionOut(arg_64_0, arg_64_1)
+function var_0_0.PlayChangeSkinActionOut(arg_66_0, arg_66_1)
 	return
 end
 
-function var_0_0.PauseForSilent(arg_65_0)
+function var_0_0.PauseForSilent(arg_67_0)
 	if SettingsMainScenePanel.IsEnableFlagShipInteraction() then
 		return
 	end
 
-	if arg_65_0:IsLoaded() then
-		arg_65_0:_Pause()
+	if arg_67_0:IsLoaded() then
+		arg_67_0:_Pause()
 	end
 end
 
-function var_0_0._Pause(arg_66_0)
-	arg_66_0.isPuase = true
+function var_0_0._Pause(arg_68_0)
+	arg_68_0.isPuase = true
 
-	arg_66_0:RemoveMoveTimer()
-	arg_66_0:StopChatAnimtion()
-	arg_66_0:RemoveChatTimer()
-	arg_66_0:RemoveTimer()
-	arg_66_0.cvLoader:Stop()
+	arg_68_0:RemoveMoveTimer()
+	arg_68_0:StopChatAnimtion()
+	arg_68_0:RemoveChatTimer()
+	arg_68_0:RemoveTimer()
+	arg_68_0.cvLoader:Stop()
 end
 
-function var_0_0.Pause(arg_67_0)
-	arg_67_0:_Pause()
-	arg_67_0:OnPause()
+function var_0_0.Pause(arg_69_0)
+	arg_69_0:_Pause()
+	arg_69_0:OnPause()
 end
 
-function var_0_0.ResumeForSilent(arg_68_0)
+function var_0_0.ResumeForSilent(arg_70_0)
 	if SettingsMainScenePanel.IsEnableFlagShipInteraction() then
 		return
 	end
 
-	if arg_68_0:IsLoaded() then
-		arg_68_0:_Resume()
+	if arg_70_0:IsLoaded() then
+		arg_70_0:_Resume()
 	end
 end
 
-function var_0_0._Resume(arg_69_0)
-	arg_69_0.isPuase = false
+function var_0_0._Resume(arg_71_0)
+	arg_71_0.isPuase = false
 
-	arg_69_0:TriggerNextEventAuto()
+	arg_71_0:TriggerNextEventAuto()
 end
 
-function var_0_0.Resume(arg_70_0)
-	arg_70_0:_Resume()
-	arg_70_0:OnResume()
+function var_0_0.Resume(arg_72_0)
+	arg_72_0:_Resume()
+	arg_72_0:OnResume()
 end
 
-function var_0_0.updateShip(arg_71_0, arg_71_1)
-	if arg_71_1 and arg_71_0.ship.id == arg_71_1.id then
-		arg_71_0.ship = arg_71_1
+function var_0_0.updateShip(arg_73_0, arg_73_1)
+	if arg_73_1 and arg_73_0.ship.id == arg_73_1.id then
+		arg_73_0.ship = arg_73_1
 	end
 
-	arg_71_0:OnUpdateShip(arg_71_1)
+	arg_73_0:OnUpdateShip(arg_73_1)
 end
 
-function var_0_0.OnUpdateShip(arg_72_0, arg_72_1)
+function var_0_0.OnUpdateShip(arg_74_0, arg_74_1)
 	return
 end
 
-function var_0_0.InitScalePart(arg_73_0)
-	local var_73_0 = arg_73_0:GetPartScaleData()
+function var_0_0.InitScalePart(arg_75_0)
+	local var_75_0 = arg_75_0:GetPartScaleData()
 
-	if var_73_0 and #var_73_0 > 0 then
-		arg_73_0.partScaleList = {}
-		arg_73_0.partScaleSelectList = {}
+	if var_75_0 and #var_75_0 > 0 then
+		arg_75_0.partScaleList = {}
+		arg_75_0.partScaleSelectList = {}
 
-		local var_73_1 = arg_73_0:GetPaintingTransform()
+		local var_75_1 = arg_75_0:GetPaintingTransform()
 
-		if var_73_1 then
-			for iter_73_0, iter_73_1 in ipairs(var_73_0) do
-				local var_73_2 = findTF(var_73_1, iter_73_1)
+		if var_75_1 then
+			for iter_75_0, iter_75_1 in ipairs(var_75_0) do
+				local var_75_2 = findTF(var_75_1, iter_75_1)
 
-				if var_73_2 then
-					local var_73_3 = GetOrAddComponent(var_73_2, typeof(PinchZoom))
+				if var_75_2 then
+					local var_75_3 = GetOrAddComponent(var_75_2, typeof(PinchZoom))
 
-					var_73_3.enabled = false
+					var_75_3.enabled = false
 
-					PoolMgr.GetInstance():GetUI("mainuiscalepart", false, function(arg_74_0)
-						SetParent(arg_74_0, var_73_2)
-						setActive(arg_74_0, false)
-						table.insert(arg_73_0.partScaleSelectList, {
-							tf = tf(arg_74_0),
-							name = iter_73_1
+					PoolMgr.GetInstance():GetUI("mainuiscalepart", false, function(arg_76_0)
+						SetParent(arg_76_0, var_75_2)
+						setActive(arg_76_0, false)
+						table.insert(arg_75_0.partScaleSelectList, {
+							tf = tf(arg_76_0),
+							name = iter_75_1
 						})
 					end)
-					onButton(arg_73_0._event, var_73_2, function()
-						if arg_73_0.partScaleFlag then
-							arg_73_0.selectPartName = iter_73_1
+					onButton(arg_75_0._event, var_75_2, function()
+						if arg_75_0.partScaleFlag then
+							arg_75_0.selectPartName = iter_75_1
 
-							arg_73_0:updateSelectPartScale()
+							arg_75_0:updateSelectPartScale()
 						end
 					end)
-					arg_73_0:ResetPartScale(true)
-					table.insert(arg_73_0.partScaleList, {
-						name = iter_73_1,
-						tf = var_73_2,
-						com = var_73_3
+					arg_75_0:ResetPartScale(true)
+					table.insert(arg_75_0.partScaleList, {
+						name = iter_75_1,
+						tf = var_75_2,
+						com = var_75_3
 					})
 				end
 			end
@@ -594,175 +621,175 @@ function var_0_0.InitScalePart(arg_73_0)
 	end
 end
 
-function var_0_0.updatePartCotent(arg_76_0, arg_76_1)
-	for iter_76_0 = 1, #arg_76_0.partScaleSelectList do
-		if arg_76_1 then
-			arg_76_0:emit(NewMainScene.SET_SCALE_PART_CONTENT, arg_76_0.partScaleSelectList[iter_76_0].tf)
+function var_0_0.updatePartCotent(arg_78_0, arg_78_1)
+	for iter_78_0 = 1, #arg_78_0.partScaleSelectList do
+		if arg_78_1 then
+			arg_78_0:emit(NewMainScene.SET_SCALE_PART_CONTENT, arg_78_0.partScaleSelectList[iter_78_0].tf)
 		else
-			setParent(arg_76_0.partScaleSelectList[iter_76_0].tf, arg_76_0:GetPaintingTransform(), true)
+			setParent(arg_78_0.partScaleSelectList[iter_78_0].tf, arg_78_0:GetPaintingTransform(), true)
 		end
 	end
 end
 
-function var_0_0.updateSelectPartScale(arg_77_0)
-	for iter_77_0 = 1, #arg_77_0.partScaleList do
-		local var_77_0 = arg_77_0.partScaleList[iter_77_0]
-		local var_77_1 = arg_77_0.partScaleFlag and var_77_0.name == arg_77_0.selectPartName
+function var_0_0.updateSelectPartScale(arg_79_0)
+	for iter_79_0 = 1, #arg_79_0.partScaleList do
+		local var_79_0 = arg_79_0.partScaleList[iter_79_0]
+		local var_79_1 = arg_79_0.partScaleFlag and var_79_0.name == arg_79_0.selectPartName
 
-		var_77_0.com.enabled = var_77_1
+		var_79_0.com.enabled = var_79_1
 
-		setActive(arg_77_0.partScaleSelectList[iter_77_0].tf, arg_77_0.partScaleFlag and arg_77_0.partScaleSelectList[iter_77_0].name == arg_77_0.selectPartName)
+		setActive(arg_79_0.partScaleSelectList[iter_79_0].tf, arg_79_0.partScaleFlag and arg_79_0.partScaleSelectList[iter_79_0].name == arg_79_0.selectPartName)
 	end
 end
 
-function var_0_0.ClearScalePart(arg_78_0)
-	if arg_78_0.partScaleList and #arg_78_0.partScaleList > 0 then
-		for iter_78_0 = 1, #arg_78_0.partScaleList do
-			if arg_78_0.partScaleList[iter_78_0].tf then
-				removeOnButton(arg_78_0.partScaleList[iter_78_0].tf)
-			end
-		end
-
-		arg_78_0.partScaleList = nil
-	end
-
-	if arg_78_0.partScaleSelectList and #arg_78_0.partScaleSelectList > 0 then
-		for iter_78_1 = 1, #arg_78_0.partScaleSelectList do
-			if arg_78_0.partScaleSelectList[iter_78_1].tf then
-				PoolMgr.GetInstance():ReturnUI("mainuiscalepart", go(arg_78_0.partScaleSelectList[iter_78_1].tf))
-			end
-		end
-
-		arg_78_0.partScaleSelectList = nil
-	end
-end
-
-function var_0_0.OnEnablePartScale(arg_79_0, arg_79_1)
-	if arg_79_0.partScaleList then
-		arg_79_0.partScaleFlag = arg_79_1
-		arg_79_0.selectPartName = nil
-
-		for iter_79_0 = 1, #arg_79_0.partScaleList do
-			local var_79_0 = arg_79_0.partScaleList[iter_79_0].tf
-
-			GetOrAddComponent(var_79_0, typeof(CanvasGroup)).blocksRaycasts = arg_79_1
-		end
-
-		arg_79_0:updateSelectPartScale()
-		arg_79_0:updatePartCotent(arg_79_1)
-
-		if not arg_79_1 then
-			arg_79_0:ResetPartScale(true)
-		end
-	end
-end
-
-function var_0_0.ResetPartScale(arg_80_0, arg_80_1)
+function var_0_0.ClearScalePart(arg_80_0)
 	if arg_80_0.partScaleList and #arg_80_0.partScaleList > 0 then
 		for iter_80_0 = 1, #arg_80_0.partScaleList do
-			local var_80_0 = arg_80_0.partScaleList[iter_80_0].tf
-			local var_80_1 = arg_80_0.partScaleList[iter_80_0].name
-			local var_80_2 = arg_80_1 and getProxy(SettingsProxy):getSkinScaleSetting(arg_80_0.ship, arg_80_0:GetPartStateType(), var_80_1) or 1
+			if arg_80_0.partScaleList[iter_80_0].tf then
+				removeOnButton(arg_80_0.partScaleList[iter_80_0].tf)
+			end
+		end
 
-			var_80_0.localScale = Vector3(var_80_2, var_80_2, var_80_2)
+		arg_80_0.partScaleList = nil
+	end
+
+	if arg_80_0.partScaleSelectList and #arg_80_0.partScaleSelectList > 0 then
+		for iter_80_1 = 1, #arg_80_0.partScaleSelectList do
+			if arg_80_0.partScaleSelectList[iter_80_1].tf then
+				PoolMgr.GetInstance():ReturnUI("mainuiscalepart", go(arg_80_0.partScaleSelectList[iter_80_1].tf))
+			end
+		end
+
+		arg_80_0.partScaleSelectList = nil
+	end
+end
+
+function var_0_0.OnEnablePartScale(arg_81_0, arg_81_1)
+	if arg_81_0.partScaleList then
+		arg_81_0.partScaleFlag = arg_81_1
+		arg_81_0.selectPartName = nil
+
+		for iter_81_0 = 1, #arg_81_0.partScaleList do
+			local var_81_0 = arg_81_0.partScaleList[iter_81_0].tf
+
+			GetOrAddComponent(var_81_0, typeof(CanvasGroup)).blocksRaycasts = arg_81_1
+		end
+
+		arg_81_0:updateSelectPartScale()
+		arg_81_0:updatePartCotent(arg_81_1)
+
+		if not arg_81_1 then
+			arg_81_0:ResetPartScale(true)
 		end
 	end
 end
 
-function var_0_0.SavePartScaleData(arg_81_0)
-	if not arg_81_0.partScaleList or #arg_81_0.partScaleList == 0 then
+function var_0_0.ResetPartScale(arg_82_0, arg_82_1)
+	if arg_82_0.partScaleList and #arg_82_0.partScaleList > 0 then
+		for iter_82_0 = 1, #arg_82_0.partScaleList do
+			local var_82_0 = arg_82_0.partScaleList[iter_82_0].tf
+			local var_82_1 = arg_82_0.partScaleList[iter_82_0].name
+			local var_82_2 = arg_82_1 and getProxy(SettingsProxy):getSkinScaleSetting(arg_82_0.ship, arg_82_0:GetPartStateType(), var_82_1) or 1
+
+			var_82_0.localScale = Vector3(var_82_2, var_82_2, var_82_2)
+		end
+	end
+end
+
+function var_0_0.SavePartScaleData(arg_83_0)
+	if not arg_83_0.partScaleList or #arg_83_0.partScaleList == 0 then
 		return
 	end
 
-	if not arg_81_0.ship then
+	if not arg_83_0.ship then
 		return
 	end
 
-	for iter_81_0 = 1, #arg_81_0.partScaleList do
-		local var_81_0 = arg_81_0.partScaleList[iter_81_0]
-		local var_81_1 = arg_81_0:GetPartStateType()
-		local var_81_2 = var_81_0.name
-		local var_81_3 = var_81_0.tf.localScale.x
+	for iter_83_0 = 1, #arg_83_0.partScaleList do
+		local var_83_0 = arg_83_0.partScaleList[iter_83_0]
+		local var_83_1 = arg_83_0:GetPartStateType()
+		local var_83_2 = var_83_0.name
+		local var_83_3 = var_83_0.tf.localScale.x
 
-		getProxy(SettingsProxy):setSkinScaleSetting(arg_81_0.ship, var_81_1, var_81_2, var_81_3)
+		getProxy(SettingsProxy):setSkinScaleSetting(arg_83_0.ship, var_83_1, var_83_2, var_83_3)
 	end
 end
 
-function var_0_0.GetPaintingTransform(arg_82_0)
+function var_0_0.GetPaintingTransform(arg_84_0)
 	return nil
 end
 
-function var_0_0.GetPartScaleData(arg_83_0)
+function var_0_0.GetPartScaleData(arg_85_0)
 	return nil
 end
 
-function var_0_0.GetPartStateType(arg_84_0)
+function var_0_0.GetPartStateType(arg_86_0)
 	return
 end
 
-function var_0_0.Dispose(arg_85_0)
-	arg_85_0:disposeEvent()
+function var_0_0.Dispose(arg_87_0)
+	arg_87_0:disposeEvent()
 
-	arg_85_0.isExited = true
+	arg_87_0.isExited = true
 
-	pg.DelegateInfo.Dispose(arg_85_0)
+	pg.DelegateInfo.Dispose(arg_87_0)
 
-	if arg_85_0.state == var_0_3 then
-		arg_85_0:UnLoad()
+	if arg_87_0.state == var_0_3 then
+		arg_87_0:UnLoad()
 	end
 
-	arg_85_0.cvLoader:Dispose()
+	arg_87_0.cvLoader:Dispose()
 
-	arg_85_0.cvLoader = nil
-	arg_85_0.triggerWhenLoaded = false
+	arg_87_0.cvLoader = nil
+	arg_87_0.triggerWhenLoaded = false
 
-	arg_85_0:RemoveTimer()
-	arg_85_0:RemoveMoveTimer()
-	arg_85_0:RemoveChatTimer()
-	arg_85_0:ClearScalePart()
+	arg_87_0:RemoveTimer()
+	arg_87_0:RemoveMoveTimer()
+	arg_87_0:RemoveChatTimer()
+	arg_87_0:ClearScalePart()
 end
 
-function var_0_0.OnLoad(arg_86_0, arg_86_1)
-	arg_86_1()
+function var_0_0.OnLoad(arg_88_0, arg_88_1)
+	arg_88_1()
 end
 
-function var_0_0.OnUnload(arg_87_0)
+function var_0_0.OnUnload(arg_89_0)
 	return
 end
 
-function var_0_0.OnClick(arg_88_0)
+function var_0_0.OnClick(arg_90_0)
 	return
 end
 
-function var_0_0.OnLongPress(arg_89_0)
+function var_0_0.OnLongPress(arg_91_0)
 	return
 end
 
-function var_0_0.OnTriggerEvent(arg_90_0)
+function var_0_0.OnTriggerEvent(arg_92_0)
 	return
 end
 
-function var_0_0.OnTriggerEventAuto(arg_91_0)
+function var_0_0.OnTriggerEventAuto(arg_93_0)
 	return
 end
 
-function var_0_0.OnDisplayWorld(arg_92_0, arg_92_1)
+function var_0_0.OnDisplayWorld(arg_94_0, arg_94_1)
 	return
 end
 
-function var_0_0.OnFold(arg_93_0, arg_93_1)
+function var_0_0.OnFold(arg_95_0, arg_95_1)
 	return
 end
 
-function var_0_0.OnEnableOrDisableDragAndZoom(arg_94_0, arg_94_1)
+function var_0_0.OnEnableOrDisableDragAndZoom(arg_96_0, arg_96_1)
 	return
 end
 
-function var_0_0.OnPause(arg_95_0)
+function var_0_0.OnPause(arg_97_0)
 	return
 end
 
-function var_0_0.OnResume(arg_96_0)
+function var_0_0.OnResume(arg_98_0)
 	return
 end
 

@@ -90,6 +90,13 @@ pg.benefit_buff_template = setmetatable({
 		86,
 		87,
 		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
 		101,
 		102,
 		103,
@@ -127,6 +134,9 @@ pg.benefit_buff_template = setmetatable({
 		140,
 		141,
 		142,
+		143,
+		144,
+		145,
 		300001,
 		300002,
 		300003,
@@ -201,7 +211,35 @@ pg.benefit_buff_template = setmetatable({
 		300218,
 		300219,
 		300220,
-		300221
+		300221,
+		300300,
+		300301,
+		300302,
+		300303,
+		300304,
+		300305,
+		300306,
+		300307,
+		300308,
+		300309,
+		300310,
+		300311,
+		300312,
+		300313,
+		300314,
+		300315,
+		300316,
+		300317,
+		300318,
+		300319,
+		300320,
+		300321,
+		300322,
+		300323,
+		300324,
+		300325,
+		300326,
+		300327
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1412,12 +1450,12 @@ pg.base.benefit_buff_template = {
 	},
 	{
 		type_priority = 0,
-		name = "夏日运动饮料",
+		name = "スポーツドリンク",
 		hide = 0,
 		max_time = 0,
 		act_id = 0,
 		benefit_condition = "",
-		desc = "后宅所有角色心情恢复增加",
+		desc = "寮舎でのコンディション回復速度が増加",
 		benefit_effect = "1",
 		id = 73,
 		icon = "Props/60413",
@@ -1671,6 +1709,125 @@ pg.base.benefit_buff_template = {
 		benefit_condition = {
 			"activity",
 			5720,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "{namecode:435}的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "ビスマルクの願い――メイン海域・イベント・作戦履歴ステージで受けるダメージが3%ダウン\n残り時間:$1",
+		benefit_effect = "520",
+		id = 89,
+		icon = "Props/jianchuanxinyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "南达科他的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "サウスダコタの願い――メイン海域・イベント・作戦履歴ステージで入手できる経験値が3%アップ\n残り時間:$1",
+		benefit_effect = "3",
+		id = 90,
+		icon = "Props/jianchuanxinyuan",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "古比雪夫的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "クイビシェフの願い――寮舎で入手できる経験値が3%アップ\n残り時間:$1",
+		benefit_effect = "3",
+		id = 91,
+		icon = "Props/jianchuanxinyuan",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "帝国的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "インペロの願い――寮舎で入手できる経験値が3%アップ\n残り時間:$1",
+		benefit_effect = "3",
+		id = 92,
+		icon = "Props/jianchuanxinyuan",
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "贝尔法斯特的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "ベルファストの願い――メイン海域・イベント・作戦履歴ステージで受けるダメージが3%ダウン\n残り時間:$1",
+		benefit_effect = "520",
+		id = 93,
+		icon = "Props/jianchuanxinyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "黎塞留的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "リシュリューの願い――メイン海域・イベント・作戦履歴ステージで受けるダメージが3%ダウン\n残り時間:$1",
+		benefit_effect = "520",
+		id = 94,
+		icon = "Props/jianchuanxinyuan",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			50298,
+			0
+		}
+	},
+	{
+		type_priority = 0,
+		name = "{namecode:437}的心愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "グラーフ・ツェッペリンの願い――メイン海域・イベント・作戦履歴ステージで入手できる経験値が3%アップ\n残り時間:$1",
+		benefit_effect = "3",
+		id = 95,
+		icon = "Props/jianchuanxinyuan",
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			50298,
 			0
 		}
 	},
@@ -2382,6 +2539,45 @@ pg.base.benefit_buff_template = {
 		id = 142,
 		icon = "Props/yanhuiyaoyue",
 		benefit_type = "ship_battle_intimacy"
+	},
+	[143] = {
+		type_priority = 0,
+		name = "学業祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "戦術教室でスキルを新たに強化する場合、所要時間が少し短縮\n残り時間:$1",
+		benefit_effect = "300",
+		id = 143,
+		icon = "Props/buff_qiaozhong_10",
+		benefit_type = "skill_learncost_up"
+	},
+	[144] = {
+		type_priority = 0,
+		name = "開運招福",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "メイン海域及び作戦履歴海域戦闘時、味方が与えるダメージが微増\n残り時間:$1",
+		benefit_effect = "522",
+		id = 144,
+		icon = "Props/buff_qiaozhong_11",
+		benefit_type = "battle_buff"
+	},
+	[145] = {
+		type_priority = 0,
+		name = "良縁祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "秘書艦の親密度上昇スピードがアップ\n残り時間:$1",
+		benefit_effect = "1",
+		id = 145,
+		icon = "Props/buff_qiaozhong_12",
+		benefit_type = "intimacy_up_extra"
 	},
 	[300001] = {
 		type_priority = 0,
@@ -3859,5 +4055,504 @@ pg.base.benefit_buff_template = {
 		id = 300221,
 		icon = "Props/buff_yumia_ryzare",
 		benefit_type = "desc"
+	},
+	[300300] = {
+		type_priority = 0,
+		name = "无效效果",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		benefit_condition = "",
+		desc = "占位用buff",
+		benefit_effect = "0",
+		id = 300300,
+		icon = "Props/xinshou",
+		benefit_type = "desc"
+	},
+	[300301] = {
+		type_priority = 0,
+		name = "ユニオン技術モジュールLV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラが累計で上限の40％分のダメージを受けた時に1度だけ、耐久が上限の3%分回復する（1キャラにつき1度まで）",
+		benefit_effect = "201561",
+		id = 300301,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300302] = {
+		type_priority = 0,
+		name = "ユニオン技術モジュールLV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラが累計で上限の30％分のダメージを受けた時に1度だけ、耐久が上限の3%分回復する（1キャラにつき1度まで）",
+		benefit_effect = "201562",
+		id = 300302,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300303] = {
+		type_priority = 0,
+		name = "ユニオン技術モジュールLVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラが累計で上限の20％分のダメージを受けた時に1度だけ、耐久が上限の3%分回復する（1キャラにつき1度まで）",
+		benefit_effect = "201563",
+		id = 300303,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300304] = {
+		type_priority = 0,
+		name = "ロイヤル技術モジュールLV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの航空が2%アップ",
+		benefit_effect = "201565",
+		id = 300304,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300305] = {
+		type_priority = 0,
+		name = "ロイヤル技術モジュールLV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの航空が4%アップ",
+		benefit_effect = "201566",
+		id = 300305,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300306] = {
+		type_priority = 0,
+		name = "ロイヤル技術モジュールLVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの航空が6%アップ",
+		benefit_effect = "201567",
+		id = 300306,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300307] = {
+		type_priority = 0,
+		name = "アイリス技術モジュールLV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラが受けるダメージを1%軽減する",
+		benefit_effect = "201568",
+		id = 300307,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300308] = {
+		type_priority = 0,
+		name = "アイリス技術モジュールLV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラが受けるダメージを2%軽減する",
+		benefit_effect = "201569",
+		id = 300308,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300309] = {
+		type_priority = 0,
+		name = "アイリス技術モジュールLVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラが受けるダメージを3%軽減する",
+		benefit_effect = "201570",
+		id = 300309,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300310] = {
+		type_priority = 0,
+		name = "鉄血技術モジュールLV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの火力が2%アップ",
+		benefit_effect = "201571",
+		id = 300310,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300311] = {
+		type_priority = 0,
+		name = "鉄血技術モジュールLV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの火力が4%アップ",
+		benefit_effect = "201572",
+		id = 300311,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300312] = {
+		type_priority = 0,
+		name = "鉄血技術モジュールLVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの火力が6%アップ",
+		benefit_effect = "201573",
+		id = 300312,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300313] = {
+		type_priority = 0,
+		name = "東煌技術モジュールLV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの命中が2%アップ",
+		benefit_effect = "201586",
+		id = 300313,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300314] = {
+		type_priority = 0,
+		name = "東煌技術モジュールLV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの命中が4%アップ",
+		benefit_effect = "201587",
+		id = 300314,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300315] = {
+		type_priority = 0,
+		name = "東煌技術モジュールLVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの命中が6%アップ",
+		benefit_effect = "201588",
+		id = 300315,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300316] = {
+		type_priority = 0,
+		name = "サディア技術モジュールLV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘開始から10秒間、味方キャラの装填が15%アップ",
+		benefit_effect = "201574",
+		id = 300316,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300317] = {
+		type_priority = 0,
+		name = "サディア技術モジュールLV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘開始から15秒間、味方キャラの装填が15%アップ",
+		benefit_effect = "201575",
+		id = 300317,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300318] = {
+		type_priority = 0,
+		name = "サディア技術モジュールLVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘開始から20秒間、味方キャラの装填が15%アップ",
+		benefit_effect = "201576",
+		id = 300318,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300319] = {
+		type_priority = 0,
+		name = "チュリッパ技術モジュールLV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの速力が2アップ",
+		benefit_effect = "201580",
+		id = 300319,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300320] = {
+		type_priority = 0,
+		name = "チュリッパ技術モジュールLV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの速力が4アップ",
+		benefit_effect = "201581",
+		id = 300320,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300321] = {
+		type_priority = 0,
+		name = "チュリッパ技術モジュールLVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの速力が6アップ",
+		benefit_effect = "201582",
+		id = 300321,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300322] = {
+		type_priority = 0,
+		name = "北方連合技術モジュールLV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラが与えるダメージが1%アップ",
+		benefit_effect = "201577",
+		id = 300322,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300323] = {
+		type_priority = 0,
+		name = "北方連合技術モジュールLV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラが与えるダメージが2%アップ",
+		benefit_effect = "201578",
+		id = 300323,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300324] = {
+		type_priority = 0,
+		name = "北方連合技術モジュールLVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラが与えるダメージが3%アップ",
+		benefit_effect = "201579",
+		id = 300324,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300325] = {
+		type_priority = 0,
+		name = "重桜技術モジュールLV1",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの雷装が2%アップ",
+		benefit_effect = "201589",
+		id = 300325,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300326] = {
+		type_priority = 0,
+		name = "重桜技術モジュールLV2",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの雷装が4%アップ",
+		benefit_effect = "201590",
+		id = 300326,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
+	},
+	[300327] = {
+		type_priority = 0,
+		name = "重桜技術モジュールLVMAX",
+		hide = 1,
+		max_time = 0,
+		act_id = 0,
+		desc = "戦闘中、味方キャラの雷装が6%アップ",
+		benefit_effect = "201591",
+		id = 300327,
+		icon = "Props/xinshou",
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"chapter",
+			{
+				1940023
+			}
+		}
 	}
 }

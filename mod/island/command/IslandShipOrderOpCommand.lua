@@ -49,6 +49,19 @@ function var_0_0.HandleUnlock(arg_2_0, arg_2_1)
 
 			arg_2_0:sendNotification(GAME.CONSUME_ITEM, var_2_1)
 			arg_2_1:Init(arg_3_0.slot, true)
+
+			local var_3_1 = arg_3_0.appoint_list
+
+			if var_3_1 and #var_3_1 > 0 then
+				local var_3_2 = {}
+
+				for iter_3_0, iter_3_1 in ipairs(arg_3_0.appoint_list) do
+					var_3_2[iter_3_1.id] = IslandShipOrderDelegateSlot.New(iter_3_1)
+				end
+
+				getProxy(IslandProxy):GetIsland():GetOrderAgency():AddDelegateSlotList(var_3_2)
+			end
+
 			arg_2_0:sendNotification(GAME.ISLAND_SHIP_ORDER_OP_DONE, {
 				op = IslandShipOrder.OP_TYPE_UNLOCK,
 				dropData = var_3_0,
@@ -85,6 +98,10 @@ function var_0_0.HandleGetAward(arg_4_0, arg_4_1)
 end
 
 function var_0_0.HandleLoadUpAll(arg_6_0, arg_6_1)
+	if not arg_6_1:CanTransport() then
+		return
+	end
+
 	local var_6_0 = arg_6_1:GetOrder()
 	local var_6_1 = 0
 	local var_6_2 = {}
@@ -145,6 +162,10 @@ function var_0_0.HandleLoadUpAll(arg_6_0, arg_6_1)
 end
 
 function var_0_0.HandleLoadUp(arg_8_0, arg_8_1, arg_8_2)
+	if not arg_8_1:CanTransport() then
+		return
+	end
+
 	local var_8_0 = arg_8_1:GetOrder()
 	local var_8_1 = var_8_0:GetComsume(arg_8_2)
 	local var_8_2 = Drop.New(var_8_1)

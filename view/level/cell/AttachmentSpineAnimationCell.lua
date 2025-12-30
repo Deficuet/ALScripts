@@ -8,7 +8,6 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 
 	arg_1_0.name = nil
 	arg_1_0.model = nil
-	arg_1_0.anim = nil
 	arg_1_0.AnimIndex = nil
 	arg_1_0.group = {}
 	arg_1_0.timer = nil
@@ -35,14 +34,12 @@ function var_0_0.Set(arg_3_0, arg_3_1)
 	end
 
 	arg_3_0:GetLoader():GetSpine(arg_3_1, function(arg_4_0)
-		arg_3_0.model = arg_4_0
-		arg_3_0.anim = arg_4_0:GetComponent("SpineAnimUI")
+		arg_3_0.spineChar = arg_4_0
+		arg_3_0.model = arg_4_0:GetModel()
 
-		setParent(arg_4_0, arg_3_0.go)
-
-		arg_4_0.transform.anchoredPosition = arg_3_0.SDPosition
-		arg_4_0.transform.localScale = arg_3_0.SDScale
-
+		arg_4_0:SetParent(arg_3_0.go)
+		arg_4_0:SetAnchoredPosition(arg_3_0.SDPosition)
+		arg_4_0:SetLocalScale(arg_3_0.SDScale)
 		arg_3_0:PlayAction(arg_3_0.AnimIndex)
 	end, "SD")
 end
@@ -73,7 +70,7 @@ function var_0_0.PlayAction(arg_6_0, arg_6_1)
 
 	arg_6_0.AnimIndex = arg_6_1
 
-	if not arg_6_0.loader or arg_6_0.loader:GetLoadingRP("SD") or not arg_6_0.anim then
+	if not arg_6_0.loader or arg_6_0.loader:GetLoadingRP("SD") or not arg_6_0.spineChar then
 		return
 	end
 
@@ -91,7 +88,7 @@ function var_0_0.PlayAction(arg_6_0, arg_6_1)
 		arg_6_0:PlayAction(arg_6_1)
 	end, var_6_0.duration)
 
-	arg_6_0.anim:SetAction(var_6_0.action, 0)
+	arg_6_0.spineChar:SetAction(var_6_0.action, 0)
 	arg_6_0.timer:Start()
 
 	arg_6_0.AnimIndexPlaying = arg_6_1

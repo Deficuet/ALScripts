@@ -4,39 +4,32 @@ pg.island_shop_normal_template = {
 		refresh_player = "",
 		id = 10012,
 		refresh_free = 0,
+		unlock = "",
 		refresh_set = 0,
 		refresh_time = 0,
-		unlock = "",
-		exist_time = {
-			{
-				{
-					2025,
-					9,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
+		exist_time = "stop"
 	},
 	[10013] = {
 		refresh_player = "",
 		id = 10013,
+		refresh_free = 0,
+		unlock = "",
+		refresh_set = 0,
+		refresh_time = 0,
+		exist_time = "stop"
+	},
+	[10014] = {
+		refresh_player = "",
+		id = 10014,
+		refresh_free = 0,
+		unlock = "",
+		refresh_set = 0,
+		refresh_time = 0,
+		exist_time = "stop"
+	},
+	[10015] = {
+		refresh_player = "",
+		id = 10015,
 		refresh_free = 0,
 		refresh_set = 0,
 		refresh_time = 0,
@@ -57,8 +50,8 @@ pg.island_shop_normal_template = {
 			{
 				{
 					2026,
-					1,
-					8
+					2,
+					5
 				},
 				{
 					12,
@@ -68,9 +61,9 @@ pg.island_shop_normal_template = {
 			}
 		}
 	},
-	[10014] = {
+	[10016] = {
 		refresh_player = "",
-		id = 10014,
+		id = 10016,
 		refresh_free = 0,
 		refresh_set = 0,
 		refresh_time = 0,
@@ -91,8 +84,42 @@ pg.island_shop_normal_template = {
 			{
 				{
 					2026,
+					2,
+					5
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[10017] = {
+		refresh_player = "",
+		id = 10017,
+		refresh_free = 0,
+		refresh_set = 0,
+		refresh_time = 0,
+		unlock = "",
+		exist_time = {
+			{
+				{
+					2026,
 					1,
 					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2026,
+					2,
+					5
 				},
 				{
 					12,
@@ -218,6 +245,9 @@ pg.island_shop_normal_template = {
 		10012,
 		10013,
 		10014,
+		10015,
+		10016,
+		10017,
 		10021,
 		10111,
 		10112,

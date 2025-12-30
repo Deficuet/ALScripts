@@ -73,7 +73,7 @@ end
 function var_0_0.SetEffectPanelVisible(arg_13_0, arg_13_1)
 	for iter_13_0, iter_13_1 in ipairs(arg_13_0.panels) do
 		if isa(iter_13_1, MainRightPanel4Mellow) then
-			iter_13_1:SetEffectVisible(false)
+			iter_13_1:SetEffectVisible(arg_13_1)
 		end
 	end
 end

@@ -1,5 +1,7 @@
 local var_0_0 = class("TeleportSystem", import("view.dorm3d.Extra.BaseExtraSystem"))
 
+var_0_0.MAX_DISTANCE = 1.5
+
 function var_0_0.OnInit(arg_1_0)
 	local var_1_0 = arg_1_0:GetRoom().id
 
@@ -30,7 +32,22 @@ function var_0_0.BindClickFunc(arg_2_0)
 				return
 			end
 
-			arg_2_0:Emit(Dorm3dRoomTemplateScene.SHIFT_ZONE_SAFE, var_3_2)
+			local var_4_0 = arg_4_1.position
+			local var_4_1 = CameraMgr.instance:Raycast(arg_2_0:Get("sceneRaycaster"), var_4_0):ToTable()
+
+			if #var_4_1 > 0 then
+				if var_4_1[1].gameObject.transform ~= var_3_1.transform then
+					return
+				end
+
+				local var_4_2 = arg_2_0:Get("player")
+
+				if Vector3.Distance(var_4_2.transform.position, var_3_1.transform.position) > var_0_0.MAX_DISTANCE then
+					return
+				end
+
+				arg_2_0:Emit(Dorm3dRoomTemplateScene.SHIFT_ZONE_SAFE, var_3_2)
+			end
 		end)
 	end)
 end

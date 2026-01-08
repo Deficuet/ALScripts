@@ -3,111 +3,17 @@ pg.activity_banner = {
 	{
 		id = 1,
 		pic = "temp1",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					12,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
 		id = 2,
 		pic = "temp2",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					1,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 3,
-		pic = "temp11",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2026,
-					1,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 4,
-		pic = "temp3",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene get boat",
@@ -115,158 +21,75 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	{
-		id = 5,
-		pic = "temp4",
+		id = 3,
+		pic = "temp3",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene core activity",
 			{
 				coreName = "HelenaCoreActivityUI"
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	{
-		id = 6,
-		pic = "temp5",
+		id = 4,
+		pic = "temp4",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene charge",
 			{
 				wrap = 4
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
-		id = 7,
-		pic = "temp6",
+		id = 5,
+		pic = "temp5",
+		time = "stop",
 		type = 2,
 		param = {
 			"scene shop",
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					12,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+		}
+	},
+	{
+		id = 6,
+		pic = "temp6",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene court yard"
+		}
+	},
+	{
+		id = 7,
+		pic = "temp7",
+		time = "stop",
+		type = 2,
+		param = {
+			"dorm 3d select"
 		}
 	},
 	{
 		id = 8,
-		pic = "temp7",
+		pic = "temp8",
 		type = 2,
 		param = {
-			"scene court yard"
+			"scene level"
 		},
 		time = {
 			{
 				{
-					2025,
-					12,
-					18
+					2026,
+					1,
+					8
 				},
 				{
 					0,
@@ -278,29 +101,33 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					7
+					15
 				},
 				{
-					23,
-					59,
-					59
+					12,
+					0,
+					0
 				}
 			}
 		}
 	},
 	{
 		id = 9,
-		pic = "temp8",
+		pic = "temp9",
 		type = 2,
 		param = {
-			"dorm 3d select"
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
 		},
 		time = {
 			{
 				{
-					2025,
-					12,
-					25
+					2026,
+					1,
+					8
 				},
 				{
 					0,
@@ -312,39 +139,7 @@ pg.activity_banner = {
 				{
 					2026,
 					1,
-					8
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		param = "50298",
-		id = 10,
-		pic = "temp9",
-		type = 3,
-		time = {
-			{
-				{
-					2025,
-					12,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2026,
-					1,
-					8
+					15
 				},
 				{
 					12,
@@ -391,15 +186,8 @@ pg.activity_banner = {
 	},
 	[101] = {
 		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
-		time = "stop",
-		type = 10,
 		id = 101,
-		pic = "jingbing"
-	},
-	[102] = {
-		param = "拐杖糖|据说最原始的拐杖糖是白色的呢。<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
-		id = 102,
-		pic = "christmas",
+		pic = "jingbing",
 		type = 10,
 		time = {
 			{
@@ -428,6 +216,13 @@ pg.activity_banner = {
 			}
 		}
 	},
+	[102] = {
+		param = "拐杖糖|据说最原始的拐杖糖是白色的呢。<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		time = "stop",
+		type = 10,
+		id = 102,
+		pic = "christmas"
+	},
 	[200] = {
 		param = "",
 		time = "stop",
@@ -438,7 +233,7 @@ pg.activity_banner = {
 	[201] = {
 		param = "",
 		id = 201,
-		pic = "christmas",
+		pic = "newyear",
 		type = 13,
 		time = {
 			{
@@ -469,7 +264,7 @@ pg.activity_banner = {
 	},
 	[202] = {
 		param = "",
-		time = "stop",
+		time = "always",
 		type = 13,
 		id = 202,
 		pic = "winter"
@@ -485,9 +280,6 @@ pg.activity_banner = {
 			7,
 			8,
 			9
-		},
-		[3] = {
-			10
 		},
 		[9] = {
 			90,
@@ -520,7 +312,6 @@ pg.activity_banner = {
 		7,
 		8,
 		9,
-		10,
 		90,
 		91,
 		95,

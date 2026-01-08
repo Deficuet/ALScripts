@@ -192,7 +192,6 @@ function var_0_0.initBtn(arg_5_0)
 
 				if var_31_2 and var_31_3 and var_31_4 then
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						iconPreservedAspect = true,
 						hideNo = true,
 						yesText = "text_confirm",
 						type = MSGBOX_TYPE_DROP_ITEM,

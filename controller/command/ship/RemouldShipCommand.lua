@@ -93,7 +93,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	end
 
 	if var_1_14 and var_1_15 then
-		var_1_16 = TeamType.GetTeamFromShipType(pg.ship_data_statistics[var_1_14].type) ~= TeamType.GetTeamFromShipType(pg.ship_data_statistics[var_1_15].type)
+		var_1_16 = ShipType.GetTeamFromShipType(pg.ship_data_statistics[var_1_14].type) ~= ShipType.GetTeamFromShipType(pg.ship_data_statistics[var_1_15].type)
 	end
 
 	local var_1_17 = {}

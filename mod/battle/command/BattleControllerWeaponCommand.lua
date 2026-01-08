@@ -86,6 +86,12 @@ function var_0_2.onUnitInitFinish(arg_11_0, arg_11_1)
 	arg_11_0._manualWeaponAutoBot = var_0_0.Battle.BattleManualWeaponAutoBot.New(var_11_0)
 	arg_11_0._joyStickAutoBot = var_0_0.Battle.BattleJoyStickAutoBot.New(arg_11_0._dataProxy, var_11_0)
 
+	if arg_11_0._dataProxy:GetInitData().battleType == SYSTEM_SCENARIO_SUB_STRIKE then
+		arg_11_0._joyStickAutoBot:SwitchStrategy(arg_11_0._joyStickAutoBot.IDLE)
+	else
+		arg_11_0._joyStickAutoBot:SwitchStrategy(arg_11_0._joyStickAutoBot.RANDOM)
+	end
+
 	var_0_0.Battle.BattleCameraUtil.GetInstance():RegisterEventListener(arg_11_0, var_0_1.CAMERA_FOCUS, arg_11_0.onCameraFocus)
 end
 

@@ -10,6 +10,7 @@ var_0_1.__name = "BattleJoyStickAutoBot"
 var_0_1.COUNTER_MAIN = "CounterMainRandomStrategy"
 var_0_1.RANDOM = "RandomStrategy"
 var_0_1.AUTO_PILOT = "AutoPilotStrategy"
+var_0_1.IDLE = "IdleStrategy"
 
 function var_0_1.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0._dataProxy = arg_1_1
@@ -49,7 +50,6 @@ function var_0_1.SwitchStrategy(arg_6_0, arg_6_1)
 		arg_6_0._strategy:Dispose()
 	end
 
-	arg_6_1 = arg_6_1 or var_0_1.RANDOM
 	arg_6_0._strategy = var_0_0.Battle[arg_6_1].New(arg_6_0._fleetVO)
 
 	arg_6_0:UpdateFleetArea()
@@ -59,8 +59,6 @@ end
 function var_0_1.init(arg_7_0)
 	arg_7_0._active = false
 	arg_7_0._uiMgr = pg.UIMgr.GetInstance()
-
-	arg_7_0:SwitchStrategy()
 end
 
 function var_0_1.Dispose(arg_8_0)

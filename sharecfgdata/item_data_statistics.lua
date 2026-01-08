@@ -10623,6 +10623,38 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.item_data_statistics[13055] = {
+		open_directly = 0,
+		name = "九六式25mm三连装暴风避盾机炮T0设计图",
+		display = "九六式25mm三连装暴风避盾机炮T0设计图",
+		type = 9,
+		display_effect = "",
+		id = 13055,
+		other_resource_cost = "[]",
+		replace_item = 0,
+		usage = "usage_undefined",
+		link_id = 0,
+		icon = "Equips/36360",
+		order = 0,
+		rarity = 4,
+		max_num = 0,
+		time_limit = 0,
+		virtual_type = 0,
+		other_item_cost = "[]",
+		usage_arg = "[]",
+		is_world = 0,
+		compose_number = 0,
+		target_id = 0,
+		display_icon = {},
+		price = {},
+		index = {},
+		shiptrans_id = {},
+		combination_display = {},
+		limit = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.item_data_statistics[14001] = {
 		open_directly = 0,
 		name = "原型科研图纸·S-I",

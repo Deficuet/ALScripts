@@ -368,14 +368,18 @@ function var_0_0.Ctor(arg_41_0, arg_41_1)
 		arg_41_0.name = pg.ship_data_statistics[arg_41_0.configId].name
 	end
 
-	arg_41_0.bluePrintFlag = arg_41_1.blue_print_flag or 0
+	arg_41_0.groupId = pg.ship_data_template[arg_41_0.configId].group_type
+
+	local var_41_0 = pg.ship_data_group.get_id_list_by_group_type[arg_41_0.groupId][1]
+
+	arg_41_0.bluePrintFlag = pg.ship_data_group[var_41_0].handbook_type == 2
 	arg_41_0.strengthList = {}
 
 	for iter_41_0, iter_41_1 in ipairs(arg_41_1.strength_list or {}) do
 		if not arg_41_0:isBluePrintShip() then
-			local var_41_0 = ShipModAttr.ID_TO_ATTR[iter_41_1.id]
+			local var_41_1 = ShipModAttr.ID_TO_ATTR[iter_41_1.id]
 
-			arg_41_0.strengthList[var_41_0] = iter_41_1.exp
+			arg_41_0.strengthList[var_41_1] = iter_41_1.exp
 		else
 			table.insert(arg_41_0.strengthList, {
 				level = iter_41_1.id,
@@ -384,13 +388,13 @@ function var_0_0.Ctor(arg_41_0, arg_41_1)
 		end
 	end
 
-	local var_41_1 = arg_41_1.state or {}
+	local var_41_2 = arg_41_1.state or {}
 
-	arg_41_0.state = var_41_1.state or 0
-	arg_41_0.state_info_1 = var_41_1.state_info_1 or 0
-	arg_41_0.state_info_2 = var_41_1.state_info_2 or 0
-	arg_41_0.state_info_3 = var_41_1.state_info_3 or 0
-	arg_41_0.state_info_4 = var_41_1.state_info_4 or 0
+	arg_41_0.state = var_41_2.state or 0
+	arg_41_0.state_info_1 = var_41_2.state_info_1 or 0
+	arg_41_0.state_info_2 = var_41_2.state_info_2 or 0
+	arg_41_0.state_info_3 = var_41_2.state_info_3 or 0
+	arg_41_0.state_info_4 = var_41_2.state_info_4 or 0
 	arg_41_0.equipmentSkins = {}
 	arg_41_0.equipments = {}
 
@@ -430,31 +434,30 @@ function var_0_0.Ctor(arg_41_0, arg_41_1)
 		}
 	end
 
-	arg_41_0.groupId = pg.ship_data_template[arg_41_0.configId].group_type
 	arg_41_0.createTime = arg_41_1.create_time or 0
 
-	local var_41_2 = getProxy(CollectionProxy)
+	local var_41_3 = getProxy(CollectionProxy)
 
-	arg_41_0.virgin = var_41_2 and var_41_2.shipGroups[arg_41_0.groupId] == nil
+	arg_41_0.virgin = var_41_3 and var_41_3.shipGroups[arg_41_0.groupId] == nil
 
-	local var_41_3 = {
+	local var_41_4 = {
 		pg.gameset.test_ship_config_1.key_value,
 		pg.gameset.test_ship_config_2.key_value,
 		pg.gameset.test_ship_config_3.key_value
 	}
-	local var_41_4 = table.indexof(var_41_3, arg_41_0.configId)
+	local var_41_5 = table.indexof(var_41_4, arg_41_0.configId)
 
-	if var_41_4 == 1 then
+	if var_41_5 == 1 then
 		arg_41_0.testShip = {
 			2,
 			3,
 			4
 		}
-	elseif var_41_4 == 2 then
+	elseif var_41_5 == 2 then
 		arg_41_0.testShip = {
 			5
 		}
-	elseif var_41_4 == 3 then
+	elseif var_41_5 == 3 then
 		arg_41_0.testShip = {
 			6
 		}
@@ -464,15 +467,15 @@ function var_0_0.Ctor(arg_41_0, arg_41_1)
 
 	arg_41_0.maxIntimacy = pg.intimacy_template[#pg.intimacy_template.all].upper_bound
 
-	local var_41_5 = 0
+	local var_41_6 = 0
 
 	if not HXSet.isHxSkin() then
-		var_41_5 = arg_41_1.skin_id or 0
+		var_41_6 = arg_41_1.skin_id or 0
 	end
 
 	arg_41_0.phantomDic = {}
 
-	arg_41_0:updateSkinId(var_41_5, 0)
+	arg_41_0:updateSkinId(var_41_6, 0)
 
 	for iter_41_8, iter_41_9 in ipairs(arg_41_1.skin_shadow_list or {}) do
 		arg_41_0:updateSkinId(iter_41_9.value, iter_41_9.key)
@@ -503,10 +506,10 @@ function var_0_0.Ctor(arg_41_0, arg_41_1)
 	arg_41_0.activityNpc = arg_41_1.activity_npc or 0
 
 	if var_0_0.isMetaShipByConfigID(arg_41_0.configId) then
-		local var_41_6 = MetaCharacterConst.GetMetaShipGroupIDByConfigID(arg_41_0.configId)
+		local var_41_7 = MetaCharacterConst.GetMetaShipGroupIDByConfigID(arg_41_0.configId)
 
 		arg_41_0.metaCharacter = MetaCharacter.New({
-			id = var_41_6,
+			id = var_41_7,
 			repair_attr_info = arg_41_1.meta_repair_list
 		}, arg_41_0)
 	end
@@ -571,7 +574,7 @@ function var_0_0.getAllEquipments(arg_48_0)
 end
 
 function var_0_0.isBluePrintShip(arg_49_0)
-	return arg_49_0.bluePrintFlag == 1
+	return arg_49_0.bluePrintFlag
 end
 
 function var_0_0.getSkinId(arg_50_0, arg_50_1)
@@ -1846,7 +1849,7 @@ function var_0_0.getTotalExp(arg_144_0)
 end
 
 function var_0_0.getStartBattleExpend(arg_145_0)
-	if table.contains(TeamType.SubShipType, arg_145_0:getShipType()) then
+	if table.contains(ShipType.SubShipType, arg_145_0:getShipType()) then
 		return 0
 	else
 		return pg.ship_data_template[arg_145_0.configId].oil_at_start
@@ -2183,7 +2186,7 @@ function var_0_0.upgrade(arg_174_0)
 end
 
 function var_0_0.getTeamType(arg_175_0)
-	return TeamType.GetTeamFromShipType(arg_175_0:getShipType())
+	return ShipType.GetTeamFromShipType(arg_175_0:getShipType())
 end
 
 function var_0_0.getFleetName(arg_176_0)
@@ -2678,7 +2681,7 @@ function var_0_0.GetMapStrikeAnim(arg_229_0)
 	local var_229_0
 	local var_229_1 = arg_229_0:getShipType()
 
-	switch(TeamType.GetTeamFromShipType(var_229_1), {
+	switch(ShipType.GetTeamFromShipType(var_229_1), {
 		[TeamType.Main] = function()
 			if ShipType.IsTypeQuZhu(var_229_1) then
 				var_229_0 = "SubTorpedoUI"

@@ -9357,6 +9357,127 @@ pg.base.ship_skin_template_8 = {
 			}
 		}
 	},
+	[301940] = {
+		ship_group = 30194,
+		name = "{namecode:310}",
+		hand_id = 14,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		shop_offset = "",
+		id = 301940,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "tengbo",
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "tengbo",
+		shop_type_id = 0,
+		shop_dynamic_hx = 0,
+		double_char = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		shop_id = 0,
+		skeleton_default_skin = "",
+		bg = "",
+		illustrator = -1,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = -1,
+		l2d_para_range = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_voice_calibrate = "",
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "{namecode:35}级驱逐舰一一{namecode:310}",
+		voice_actor = 493,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.207,
+					0.823,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.376,
+					1.126,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.666,
+					2.447,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.741,
+							2.512,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[302010] = {
 		ship_group = 30201,
 		name = "{namecode:37}",
@@ -16285,127 +16406,6 @@ pg.base.ship_skin_template_8 = {
 			-112,
 			0,
 			0.9
-		}
-	},
-	[302270] = {
-		ship_group = 30227,
-		name = "{namecode:306}",
-		hand_id = 14,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		shop_offset = "",
-		id = 302270,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "shuiwulai",
-		l2d_drag_rate = "",
-		part_scale = "",
-		prefab = "shuiwulai",
-		shop_type_id = 0,
-		shop_dynamic_hx = 0,
-		double_char = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		shop_id = 0,
-		skeleton_default_skin = "",
-		bg = "",
-		illustrator = -1,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = -1,
-		l2d_para_range = "",
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_voice_calibrate = "",
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:38}级轻巡洋舰——{namecode:306}",
-		voice_actor = 475,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.167,
-					0.874,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					0.911,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.105,
-					0.018,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.898,
-					2.346,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.748,
-							2.431,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

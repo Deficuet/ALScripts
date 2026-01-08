@@ -163,7 +163,7 @@ function var_0_0.getRarity(arg_13_0, arg_13_1)
 end
 
 function var_0_0.getTeamType(arg_14_0)
-	return TeamType.GetTeamFromShipType(arg_14_0:getShipType())
+	return ShipType.GetTeamFromShipType(arg_14_0:getShipType())
 end
 
 function var_0_0.getPainting(arg_15_0, arg_15_1)

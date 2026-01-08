@@ -151261,6 +151261,63 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.equip_data_statistics[80571] = {
+		type = 1,
+		name = "专属弹幕-藤波I",
+		speciality = "<[NA]>",
+		tech = 1,
+		rarity = 1,
+		ammo = 10,
+		nationality = 0,
+		descrip = "技能弹幕",
+		id = 80571,
+		value_3 = 0,
+		value_2 = 0,
+		icon = "1",
+		value_1 = "0",
+		torpedo_ammo = 0,
+		property_rate = {},
+		ammo_icon = {},
+		ammo_info = {},
+		equip_info = {},
+		weapon_id = {
+			61811
+		},
+		skill_id = {},
+		hidden_skill_id = {},
+		part_main = {
+			1,
+			19,
+			20,
+			21
+		},
+		part_sub = {
+			2,
+			3,
+			4,
+			5,
+			8,
+			13,
+			18
+		},
+		equip_parameters = {},
+		label = {}
+	}
+end)()
+
+(function()
+	_G.pg.base.equip_data_statistics[80572] = {
+		id = 80572,
+		name = "专属弹幕-藤波II",
+		base = 80571,
+		weapon_id = {
+			61812
+		},
+		hidden_skill_id = {}
+	}
+end)()
+
+(function()
 	_G.pg.base.equip_data_statistics[85000] = {
 		tech = 1,
 		name = "B-13 双联装130mm主炮B-2LM",

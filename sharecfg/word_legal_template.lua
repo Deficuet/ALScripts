@@ -5377,6 +5377,16 @@ end
 temp()
 
 function temp()
+	var_0_1.藤 = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.貊 = {
 		this = {
 			this = true

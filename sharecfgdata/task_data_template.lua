@@ -3680,7 +3680,7 @@ end)()
 		priority_type = 0,
 		fix_task = 0,
 		target_id = "1504",
-		next_task = "3060",
+		next_task = "[64,3060]",
 		auto_commit = 0,
 		story_icon_shift = "",
 		story_id = "",
@@ -3712,6 +3712,242 @@ end)()
 			{
 				mapIdx = 15,
 				chapterId = 1504
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[64] = {
+		name = "第十六章1图",
+		guild_coin_award = 0,
+		award = 64,
+		type = 1,
+		desc = "通关16-1",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1601",
+		next_task = "[65,3061]",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 64,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[65] = {
+		name = "第十六章2图",
+		guild_coin_award = 0,
+		award = 65,
+		type = 1,
+		desc = "通关16-2",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1602",
+		next_task = "[66,3062]",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 65,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1602
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[66] = {
+		name = "第十六章3图",
+		guild_coin_award = 0,
+		award = 66,
+		type = 1,
+		desc = "通关16-3",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1603",
+		next_task = "[67,3063]",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 66,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				1
+			},
+			{
+				1,
+				1,
+				300
+			},
+			{
+				1,
+				2,
+				50
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1603
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[67] = {
+		name = "第十六章4图",
+		guild_coin_award = 0,
+		award = 67,
+		type = 1,
+		desc = "通关16-4",
+		count_inherit = 0,
+		sub_type = 1020,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1604",
+		next_task = "3064",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 67,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				2,
+				20001,
+				2
+			},
+			{
+				1,
+				1,
+				1000
+			},
+			{
+				1,
+				2,
+				150
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1604
 			}
 		}
 	}
@@ -7461,6 +7697,242 @@ end)()
 			{
 				mapIdx = 15,
 				chapterId = 1504
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[3061] = {
+		name = "第十六章1图",
+		guild_coin_award = 0,
+		award = 3061,
+		type = 2,
+		desc = "完成16-1的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1601",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 3061,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54034,
+				1
+			},
+			{
+				2,
+				51001,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1601
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[3062] = {
+		name = "第十六章2图",
+		guild_coin_award = 0,
+		award = 3062,
+		type = 2,
+		desc = "完成16-2的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1602",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 3062,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				4,
+				100001,
+				1
+			},
+			{
+				2,
+				51002,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1602
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[3063] = {
+		name = "第十六章3图",
+		guild_coin_award = 0,
+		award = 3063,
+		type = 2,
+		desc = "完成16-3的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1603",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 3063,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				50
+			},
+			{
+				2,
+				54035,
+				1
+			},
+			{
+				2,
+				51003,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1603
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[3064] = {
+		name = "第十六章4图",
+		guild_coin_award = 0,
+		award = 3064,
+		type = 2,
+		desc = "完成16-4的3星收集",
+		count_inherit = 0,
+		sub_type = 1021,
+		target_id_2 = "",
+		story_icon = "",
+		is_head = 0,
+		task_fold = 0,
+		award_choice = "",
+		visibility = 1,
+		ryza_type = 0,
+		quick_finish = 0,
+		level = 1,
+		ryza_icon = "",
+		priority_type = 0,
+		fix_task = 0,
+		target_id = "1604",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		story_id = "",
+		tutorial_handbook_pic = "",
+		id = 3064,
+		target_num = 1,
+		activity_client_config = "",
+		added_tip = 0,
+		open_need = {},
+		award_display = {
+			{
+				1,
+				14,
+				100
+			},
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				2,
+				51004,
+				1
+			}
+		},
+		scene = {
+			"LEVEL",
+			{
+				mapIdx = 16,
+				chapterId = 1604
 			}
 		}
 	}
@@ -346481,6 +346953,339 @@ end)()
 			{
 				2,
 				18013,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500201] = {
+		name = "指挥室的“威光”计划",
+		guild_coin_award = 0,
+		award = 500201,
+		type = 5,
+		desc = "提交3个《鱼雷天妇罗》",
+		count_inherit = 0,
+		sub_type = 1000,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 1,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		ryza_icon = "",
+		fix_task = 0,
+		next_task = "500202",
+		auto_commit = 0,
+		story_icon_shift = "",
+		target_id = "50003",
+		story_id = "WEINEITUO1",
+		tutorial_handbook_pic = "",
+		id = 500201,
+		target_num = 3,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		},
+		scene = {
+			"BACKYARD"
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500202] = {
+		name = "花园中的精致时光",
+		guild_coin_award = 0,
+		award = 500202,
+		type = 5,
+		desc = "强化任意角色10次",
+		count_inherit = 0,
+		sub_type = 34,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO2",
+		ryza_icon = "",
+		next_task = "500203",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500202,
+		target_num = 10,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500203] = {
+		name = "艺术的共鸣",
+		guild_coin_award = 0,
+		award = 500203,
+		type = 5,
+		desc = "维托里奥·维内托上阵出击(关卡)胜利20次",
+		count_inherit = 0,
+		sub_type = 18,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO3",
+		ryza_icon = "",
+		next_task = "500204",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "60501",
+		tutorial_handbook_pic = "",
+		id = 500203,
+		target_num = 20,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500204] = {
+		name = "浴场前的准备",
+		guild_coin_award = 0,
+		award = 500204,
+		type = 5,
+		desc = "累计消耗石油500",
+		count_inherit = 0,
+		sub_type = 121,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO4",
+		ryza_icon = "",
+		next_task = "500205",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "0",
+		tutorial_handbook_pic = "",
+		id = 500204,
+		target_num = 500,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500205] = {
+		name = "温水浸润",
+		guild_coin_award = 0,
+		award = 500205,
+		type = 5,
+		desc = "维托里奥·维内托好感度达到100",
+		count_inherit = 0,
+		sub_type = 1012,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO5",
+		ryza_icon = "",
+		next_task = "500206",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "60501",
+		tutorial_handbook_pic = "",
+		id = 500205,
+		target_num = 10000,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				5
+			},
+			{
+				2,
+				16002,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500206] = {
+		name = "指尖的韵律",
+		guild_coin_award = 0,
+		award = 500206,
+		type = 5,
+		desc = "维托里奥·维内托突破至满星",
+		count_inherit = 0,
+		sub_type = 33,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO6",
+		ryza_icon = "",
+		next_task = "500207",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "60501",
+		tutorial_handbook_pic = "",
+		id = 500206,
+		target_num = 6,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18022,
+				1
+			}
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.task_data_template[500207] = {
+		name = "“进阶”邀请",
+		guild_coin_award = 0,
+		award = 500207,
+		type = 5,
+		desc = "维托里奥·维内托等级达到100",
+		count_inherit = 0,
+		sub_type = 1013,
+		target_id_2 = "",
+		story_icon = "weineituo",
+		is_head = 0,
+		task_fold = 0,
+		open_need = "",
+		award_choice = "",
+		visibility = 1,
+		quick_finish = 0,
+		level = 1,
+		ryza_type = 0,
+		priority_type = 0,
+		story_id = "WEINEITUO7",
+		ryza_icon = "",
+		next_task = "0",
+		auto_commit = 0,
+		story_icon_shift = "",
+		fix_task = 0,
+		scene = "",
+		target_id = "60501",
+		tutorial_handbook_pic = "",
+		id = 500207,
+		target_num = 100,
+		activity_client_config = "",
+		added_tip = 1,
+		award_display = {
+			{
+				1,
+				1,
+				100
+			},
+			{
+				1,
+				6,
+				10
+			},
+			{
+				2,
+				18023,
 				1
 			}
 		}

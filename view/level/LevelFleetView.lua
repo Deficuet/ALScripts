@@ -94,7 +94,7 @@ function var_0_0.CheckGuideElement(arg_7_0)
 
 	local var_7_0 = {
 		"panel/Fixed/start_button",
-		"panel/ShipList/support/1/support"
+		"panel/ShipList/support/1/main"
 	}
 
 	_.each(var_7_0, function(arg_8_0)
@@ -371,9 +371,11 @@ function var_0_0.InitUI(arg_19_0)
 	arg_19_0.supportFleetHelp = arg_19_0._tf:Find("panel/Fixed/title/Image/Help")
 
 	onButton(arg_19_0, arg_19_0.supportFleetHelp, function()
+		local var_23_0 = arg_19_0.chapter:IsSupportSubmarineStage() and "help_supportfleet_16_submarine" or arg_19_0.chapter:IsFogStage() and "help_supportfleet_16" or "help_supportfleet"
+
 		arg_19_0:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.help_supportfleet.tip
+			helps = i18n(var_23_0)
 		})
 	end, SFX_PANEL)
 
@@ -613,10 +615,10 @@ end
 function var_0_0.updateFleets(arg_45_0)
 	for iter_45_0, iter_45_1 in pairs(arg_45_0.tfFleets) do
 		for iter_45_2 = 1, #iter_45_1 do
-			if iter_45_0 ~= FleetType.Support then
-				arg_45_0:updateFleet(iter_45_0, iter_45_2)
-			else
+			if iter_45_0 == FleetType.Support then
 				arg_45_0:UpdateEliteFleet(iter_45_0, iter_45_2)
+			else
+				arg_45_0:updateFleet(iter_45_0, iter_45_2)
 			end
 		end
 	end
@@ -719,7 +721,6 @@ function var_0_0.updateFleet(arg_51_0, arg_51_1, arg_51_2)
 
 	local var_51_16 = var_51_7:Find(TeamType.Main)
 	local var_51_17 = var_51_7:Find(TeamType.Vanguard)
-	local var_51_18 = var_51_7:Find(TeamType.Submarine)
 
 	if not var_51_6 then
 		setActive(var_51_11, false)
@@ -727,11 +728,9 @@ function var_0_0.updateFleet(arg_51_0, arg_51_1, arg_51_2)
 		setActive(var_51_14, false)
 		setActive(var_51_15, false)
 		setActive(var_51_12, true)
+		setActive(var_51_16, false)
 
-		if arg_51_1 == FleetType.Submarine then
-			setActive(var_51_18, false)
-		else
-			setActive(var_51_16, false)
+		if arg_51_1 == FleetType.Normal then
 			setActive(var_51_17, false)
 		end
 
@@ -744,17 +743,15 @@ function var_0_0.updateFleet(arg_51_0, arg_51_1, arg_51_2)
 	setActive(var_51_15, var_51_3)
 	setActive(var_51_12, var_51_2 or var_51_3 or var_51_1 and not var_51_5)
 	setText(var_51_8, var_51_5 and var_51_5:GetName() or "")
+	setActive(var_51_16, var_51_5)
 
-	if arg_51_1 == FleetType.Submarine then
-		setActive(var_51_18, var_51_5)
-	else
-		setActive(var_51_16, var_51_5)
+	if arg_51_1 == FleetType.Normal then
 		setActive(var_51_17, var_51_5)
 	end
 
 	if var_51_5 then
 		if arg_51_1 == FleetType.Submarine then
-			arg_51_0:updateShips(var_51_18, var_51_5.subShips)
+			arg_51_0:updateShips(var_51_16, var_51_5.subShips)
 		else
 			arg_51_0:updateShips(var_51_16, var_51_5.mainShips)
 			arg_51_0:updateShips(var_51_17, var_51_5.vanguardShips)
@@ -1057,24 +1054,28 @@ end
 
 function var_0_0.UpdateEliteSonarRange(arg_77_0)
 	for iter_77_0 = 1, 2 do
-		local var_77_0 = arg_77_0.eliteFleetList[iter_77_0]
-		local var_77_1 = {}
+		if not arg_77_0.eliteFleetList[iter_77_0] then
+			arg_77_0:UpdateSonarRangeValues(iter_77_0, 0)
+		else
+			local var_77_0 = arg_77_0.eliteFleetList[iter_77_0]
+			local var_77_1 = {}
 
-		for iter_77_1, iter_77_2 in pairs(arg_77_0.eliteCommanderList[iter_77_0]) do
-			table.insert(var_77_1, {
-				pos = iter_77_1,
-				id = iter_77_2
+			for iter_77_1, iter_77_2 in pairs(arg_77_0.eliteCommanderList[iter_77_0]) do
+				table.insert(var_77_1, {
+					pos = iter_77_1,
+					id = iter_77_2
+				})
+			end
+
+			local var_77_2 = TypedFleet.New({
+				ship_list = var_77_0,
+				commanders = var_77_1,
+				fleetType = FleetType.Normal
 			})
+			local var_77_3 = var_77_2 and math.floor(var_77_2:GetFleetSonarRange()) or 0
+
+			arg_77_0:UpdateSonarRangeValues(iter_77_0, var_77_3)
 		end
-
-		local var_77_2 = TypedFleet.New({
-			ship_list = var_77_0,
-			commanders = var_77_1,
-			fleetType = FleetType.Normal
-		})
-		local var_77_3 = var_77_2 and math.floor(var_77_2:GetFleetSonarRange()) or 0
-
-		arg_77_0:UpdateSonarRangeValues(iter_77_0, var_77_3)
 	end
 end
 
@@ -1087,7 +1088,6 @@ end
 function var_0_0.clearFleet(arg_79_0, arg_79_1)
 	local var_79_0 = arg_79_1:Find(TeamType.Main)
 	local var_79_1 = arg_79_1:Find(TeamType.Vanguard)
-	local var_79_2 = arg_79_1:Find(TeamType.Submarine)
 
 	if var_79_0 then
 		removeAllChildren(var_79_0)
@@ -1095,10 +1095,6 @@ function var_0_0.clearFleet(arg_79_0, arg_79_1)
 
 	if var_79_1 then
 		removeAllChildren(var_79_1)
-	end
-
-	if var_79_2 then
-		removeAllChildren(var_79_2)
 	end
 end
 
@@ -1122,11 +1118,11 @@ end
 function var_0_0.setOnHard(arg_83_0, arg_83_1)
 	arg_83_0.chapter = arg_83_1
 	arg_83_0.mode = var_0_2.EDIT
-	arg_83_0.propetyLimitation = arg_83_0.chapter:getConfig("property_limitation")
 	arg_83_0.eliteFleetList = arg_83_0.chapter:getEliteFleetList()
+	arg_83_0.eliteCommanderList = arg_83_0.chapter:getEliteFleetCommanders()
+	arg_83_0.propetyLimitation = arg_83_0.chapter:getConfig("property_limitation")
 	arg_83_0.chapterASValue = arg_83_0.chapter:getConfig("air_dominance")
 	arg_83_0.suggestionValue = arg_83_0.chapter:getConfig("best_air_dominance")
-	arg_83_0.eliteCommanderList = arg_83_0.chapter:getEliteFleetCommanders()
 	arg_83_0.typeLimitations = arg_83_0.chapter:getConfig("limitation")
 
 	arg_83_0:SetDutyTabEnabled(arg_83_1:isLoop())
@@ -1349,112 +1345,110 @@ function var_0_0.initAddButton(arg_100_0, arg_100_1, arg_100_2, arg_100_3, arg_1
 	for iter_100_0, iter_100_1 in ipairs(var_100_0) do
 		var_100_1[arg_100_0.shipVOs[iter_100_1]] = true
 
-		if arg_100_2 == arg_100_0.shipVOs[iter_100_1]:getTeamType() then
+		if not arg_100_2 or arg_100_2 == arg_100_0.shipVOs[iter_100_1]:getTeamType() then
 			table.insert(var_100_2, iter_100_1)
 		end
 	end
 
-	local var_100_3 = findTF(arg_100_1, arg_100_2)
+	removeAllChildren(arg_100_1)
 
-	removeAllChildren(var_100_3)
-
-	local var_100_4 = 0
-	local var_100_5 = false
-	local var_100_6 = 0
+	local var_100_3 = 0
+	local var_100_4 = false
+	local var_100_5 = 0
 
 	arg_100_3 = var_0_0.sortTeamLimitation(arg_100_3)
 
-	local var_100_7 = var_100_3:GetComponent("ContentSizeFitter")
-	local var_100_8 = var_100_3:GetComponent("HorizontalLayoutGroup")
+	local var_100_6 = arg_100_1:GetComponent("ContentSizeFitter")
+	local var_100_7 = arg_100_1:GetComponent("HorizontalLayoutGroup")
 
+	var_100_6.enabled = true
 	var_100_7.enabled = true
-	var_100_8.enabled = true
 	arg_100_0.isDraging = false
 
 	for iter_100_2 = 1, 3 do
+		local var_100_8
 		local var_100_9
 		local var_100_10
-		local var_100_11
-		local var_100_12 = var_100_2[iter_100_2] and arg_100_0.shipVOs[var_100_2[iter_100_2]] or nil
+		local var_100_11 = var_100_2[iter_100_2] and arg_100_0.shipVOs[var_100_2[iter_100_2]] or nil
 
-		if var_100_12 then
+		if var_100_11 then
 			for iter_100_3, iter_100_4 in ipairs(arg_100_3) do
-				if ShipType.ContainInLimitBundle(iter_100_4, var_100_12:getShipType()) then
-					var_100_10 = var_100_12
-					var_100_11 = iter_100_4
+				if ShipType.ContainInLimitBundle(iter_100_4, var_100_11:getShipType()) then
+					var_100_9 = var_100_11
+					var_100_10 = iter_100_4
 
 					table.remove(arg_100_3, iter_100_3)
 
-					var_100_5 = var_100_5 or iter_100_4 ~= 0
+					var_100_4 = var_100_4 or iter_100_4 ~= 0
 
 					break
 				end
 			end
 		else
-			var_100_11 = arg_100_3[1]
+			var_100_10 = arg_100_3[1]
 
 			table.remove(arg_100_3, 1)
 		end
 
-		if var_100_11 == 0 then
-			var_100_6 = var_100_6 + 1
+		if var_100_10 == 0 then
+			var_100_5 = var_100_5 + 1
 		end
 
-		local var_100_13 = var_100_10 and cloneTplTo(arg_100_0.tfShipTpl, var_100_3) or cloneTplTo(arg_100_0.tfEmptyTpl, var_100_3)
+		local var_100_12 = var_100_9 and cloneTplTo(arg_100_0.tfShipTpl, arg_100_1) or cloneTplTo(arg_100_0.tfEmptyTpl, arg_100_1)
 
-		setActive(var_100_13, true)
+		setActive(var_100_12, true)
 
-		if var_100_10 then
-			updateShip(var_100_13, var_100_10)
-			setActive(var_100_13:Find("event_block"), var_100_10:getFlag("inEvent"))
+		if var_100_9 then
+			updateShip(var_100_12, var_100_9)
+			setActive(var_100_12:Find("event_block"), var_100_9:getFlag("inEvent"))
 
-			var_100_1[var_100_10] = true
+			var_100_1[var_100_9] = true
 		else
-			var_100_4 = var_100_4 + 1
+			var_100_3 = var_100_3 + 1
 		end
 
-		setActive(var_100_13:Find("ship_type"), var_100_11 and var_100_11 ~= 0)
+		setActive(var_100_12:Find("ship_type"), var_100_10 and var_100_10 ~= 0)
 
-		if var_100_11 and var_100_11 ~= 0 then
-			if type(var_100_11) == "number" then
-				local var_100_14 = GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(var_100_11))
+		if var_100_10 and var_100_10 ~= 0 then
+			if type(var_100_10) == "number" then
+				local var_100_13 = GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(var_100_10))
 
-				setImageSprite(var_100_13:Find("ship_type"), var_100_14, true)
-			elseif type(var_100_11) == "string" then
-				local var_100_15 = GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(var_100_11))
+				setImageSprite(var_100_12:Find("ship_type"), var_100_13, true)
+			elseif type(var_100_10) == "string" then
+				local var_100_14 = GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(var_100_10))
 
-				setImageSprite(var_100_13:Find("ship_type"), var_100_15, true)
+				setImageSprite(var_100_12:Find("ship_type"), var_100_14, true)
 			end
 		end
 
-		local var_100_16 = _.map(var_100_0, function(arg_101_0)
+		local var_100_15 = _.map(var_100_0, function(arg_101_0)
 			return arg_100_0.shipVOs[arg_101_0]
 		end)
 
-		table.sort(var_100_16, function(arg_102_0, arg_102_1)
+		table.sort(var_100_15, function(arg_102_0, arg_102_1)
 			return var_0_1[arg_102_0:getTeamType()] < var_0_1[arg_102_1:getTeamType()] or var_0_1[arg_102_0:getTeamType()] == var_0_1[arg_102_1:getTeamType()] and table.indexof(var_100_0, arg_102_0.id) < table.indexof(var_100_0, arg_102_1.id)
 		end)
 
-		local var_100_17 = GetOrAddComponent(var_100_13, typeof(UILongPressTrigger))
+		local var_100_16 = GetOrAddComponent(var_100_12, typeof(UILongPressTrigger))
 
-		var_100_17.onLongPressed:RemoveAllListeners()
+		var_100_16.onLongPressed:RemoveAllListeners()
 
-		if var_100_10 and arg_100_0.contextData.tabIndex ~= var_0_0.TabIndex.Adjustment then
-			var_100_17.onLongPressed:AddListener(function()
+		if var_100_9 and arg_100_0.contextData.tabIndex ~= var_0_0.TabIndex.Adjustment then
+			var_100_16.onLongPressed:AddListener(function()
 				arg_100_0:onCancelHard(true)
 				arg_100_0:emit(LevelMediator2.ON_FLEET_SHIPINFO, {
-					shipId = var_100_10.id,
-					shipVOs = var_100_16,
+					shipId = var_100_9.id,
+					shipVOs = var_100_15,
 					chapter = arg_100_0.chapter
 				})
 			end)
 		end
 
-		local var_100_18 = GetOrAddComponent(var_100_13, "EventTriggerListener")
+		local var_100_17 = GetOrAddComponent(var_100_12, "EventTriggerListener")
 
-		var_100_18:RemovePointClickFunc()
-		var_100_18:AddPointClickFunc(function(arg_104_0, arg_104_1)
-			if arg_104_0 ~= var_100_13.gameObject then
+		var_100_17:RemovePointClickFunc()
+		var_100_17:AddPointClickFunc(function(arg_104_0, arg_104_1)
+			if arg_104_0 ~= var_100_12.gameObject then
 				return
 			end
 
@@ -1464,25 +1458,25 @@ function var_0_0.initAddButton(arg_100_0, arg_100_1, arg_100_2, arg_100_3, arg_1
 
 			arg_100_0:onCancelHard()
 			arg_100_0:emit(LevelMediator2.ON_ELITE_OEPN_DECK, {
-				shipType = var_100_11,
+				shipType = var_100_10,
 				fleet = var_100_1,
 				chapter = arg_100_0.chapter,
-				shipVO = var_100_10,
+				shipVO = var_100_9,
 				fleetIndex = arg_100_4,
 				teamType = arg_100_2
 			})
 		end)
-		var_100_18:RemoveBeginDragFunc()
-		var_100_18:RemoveDragFunc()
-		var_100_18:RemoveDragEndFunc()
+		var_100_17:RemoveBeginDragFunc()
+		var_100_17:RemoveDragFunc()
+		var_100_17:RemoveDragEndFunc()
 
-		if var_100_10 and arg_100_0.contextData.tabIndex == var_0_0.TabIndex.Adjustment then
-			local var_100_19 = var_100_13.rect.width * 0.5
+		if var_100_9 and arg_100_0.contextData.tabIndex == var_0_0.TabIndex.Adjustment then
+			local var_100_18 = var_100_12.rect.width * 0.5
+			local var_100_19 = {}
 			local var_100_20 = {}
-			local var_100_21 = {}
 
-			var_100_18:AddBeginDragFunc(function(arg_105_0, arg_105_1)
-				if arg_105_0 ~= var_100_13.gameObject then
+			var_100_17:AddBeginDragFunc(function(arg_105_0, arg_105_1)
+				if arg_105_0 ~= var_100_12.gameObject then
 					return
 				end
 
@@ -1491,22 +1485,22 @@ function var_0_0.initAddButton(arg_100_0, arg_100_1, arg_100_2, arg_100_3, arg_1
 				end
 
 				arg_100_0.isDraging = true
+				var_100_6.enabled = false
 				var_100_7.enabled = false
-				var_100_8.enabled = false
 
 				for iter_105_0 = 1, 3 do
-					local var_105_0 = var_100_3:GetChild(iter_105_0 - 1)
+					local var_105_0 = arg_100_1:GetChild(iter_105_0 - 1)
 
-					if var_100_13 == var_105_0 then
+					if var_100_12 == var_105_0 then
 						arg_100_0.dragIndex = iter_105_0
 					end
 
-					var_100_20[iter_105_0] = var_105_0.anchoredPosition
-					var_100_21[iter_105_0] = var_105_0
+					var_100_19[iter_105_0] = var_105_0.anchoredPosition
+					var_100_20[iter_105_0] = var_105_0
 				end
 			end)
-			var_100_18:AddDragFunc(function(arg_106_0, arg_106_1)
-				if arg_106_0 ~= var_100_13.gameObject then
+			var_100_17:AddDragFunc(function(arg_106_0, arg_106_1)
+				if arg_106_0 ~= var_100_12.gameObject then
 					return
 				end
 
@@ -1514,16 +1508,16 @@ function var_0_0.initAddButton(arg_100_0, arg_100_1, arg_100_2, arg_100_3, arg_1
 					return
 				end
 
-				local var_106_0 = var_100_13.localPosition
+				local var_106_0 = var_100_12.localPosition
 
-				var_106_0.x = arg_100_0:change2ScrPos(var_100_13.parent, arg_106_1.position).x
-				var_106_0.x = math.clamp(var_106_0.x, var_100_20[1].x, var_100_20[3].x)
-				var_100_13.localPosition = var_106_0
+				var_106_0.x = arg_100_0:change2ScrPos(var_100_12.parent, arg_106_1.position).x
+				var_106_0.x = math.clamp(var_106_0.x, var_100_19[1].x, var_100_19[3].x)
+				var_100_12.localPosition = var_106_0
 
 				local var_106_1 = 1
 
 				for iter_106_0 = 1, 3 do
-					if var_100_13 ~= var_100_21[iter_106_0] and var_100_13.localPosition.x > var_100_21[iter_106_0].localPosition.x + (var_106_1 < arg_100_0.dragIndex and 1.1 or -1.1) * var_100_19 then
+					if var_100_12 ~= var_100_20[iter_106_0] and var_100_12.localPosition.x > var_100_20[iter_106_0].localPosition.x + (var_106_1 < arg_100_0.dragIndex and 1.1 or -1.1) * var_100_18 then
 						var_106_1 = var_106_1 + 1
 					end
 				end
@@ -1536,19 +1530,19 @@ function var_0_0.initAddButton(arg_100_0, arg_100_1, arg_100_2, arg_100_3, arg_1
 						local var_106_4 = arg_100_0.dragIndex + var_106_2
 
 						var_100_2[var_106_3], var_100_2[var_106_4] = var_100_2[var_106_4], var_100_2[var_106_3]
-						var_100_21[var_106_3], var_100_21[var_106_4] = var_100_21[var_106_4], var_100_21[var_106_3]
+						var_100_20[var_106_3], var_100_20[var_106_4] = var_100_20[var_106_4], var_100_20[var_106_3]
 						arg_100_0.dragIndex = arg_100_0.dragIndex + var_106_2
 					end
 
 					for iter_106_1 = 1, 3 do
-						if var_100_13 ~= var_100_21[iter_106_1] then
-							var_100_21[iter_106_1].anchoredPosition = var_100_20[iter_106_1]
+						if var_100_12 ~= var_100_20[iter_106_1] then
+							var_100_20[iter_106_1].anchoredPosition = var_100_19[iter_106_1]
 						end
 					end
 				end
 			end)
-			var_100_18:AddDragEndFunc(function(arg_107_0, arg_107_1)
-				if arg_107_0 ~= var_100_13.gameObject then
+			var_100_17:AddDragEndFunc(function(arg_107_0, arg_107_1)
+				if arg_107_0 ~= var_100_12.gameObject then
 					return
 				end
 
@@ -1563,7 +1557,7 @@ function var_0_0.initAddButton(arg_100_0, arg_100_1, arg_100_2, arg_100_3, arg_1
 						for iter_107_1 = iter_107_0 + 1, 3 do
 							if var_100_2[iter_107_1] then
 								var_100_2[iter_107_0], var_100_2[iter_107_1] = var_100_2[iter_107_1], var_100_2[iter_107_0]
-								var_100_21[iter_107_0], var_100_21[iter_107_1] = var_100_21[iter_107_1], var_100_21[iter_107_0]
+								var_100_20[iter_107_0], var_100_20[iter_107_1] = var_100_20[iter_107_1], var_100_20[iter_107_0]
 							end
 						end
 					end
@@ -1577,11 +1571,11 @@ function var_0_0.initAddButton(arg_100_0, arg_100_1, arg_100_2, arg_100_3, arg_1
 				end
 
 				for iter_107_2 = 1, 3 do
-					var_100_21[iter_107_2]:SetSiblingIndex(iter_107_2 - 1)
+					var_100_20[iter_107_2]:SetSiblingIndex(iter_107_2 - 1)
 				end
 
+				var_100_6.enabled = true
 				var_100_7.enabled = true
-				var_100_8.enabled = true
 				arg_100_0.dragIndex = nil
 
 				arg_100_0:emit(LevelMediator2.ON_ELITE_ADJUSTMENT, arg_100_0.chapter)
@@ -1589,7 +1583,7 @@ function var_0_0.initAddButton(arg_100_0, arg_100_1, arg_100_2, arg_100_3, arg_1
 		end
 	end
 
-	if (var_100_5 == true or var_100_6 == 3) and var_100_4 ~= 3 then
+	if (var_100_4 == true or var_100_5 == 3) and var_100_3 ~= 3 then
 		return true
 	else
 		return false
@@ -1632,8 +1626,6 @@ function var_0_0.UpdateEliteFleet(arg_110_0, arg_110_1, arg_110_2)
 
 	local var_110_14 = var_110_5:Find(TeamType.Main)
 	local var_110_15 = var_110_5:Find(TeamType.Vanguard)
-	local var_110_16 = var_110_5:Find(TeamType.Submarine)
-	local var_110_17 = var_110_5:Find(TeamType.Support)
 
 	if not var_110_4 then
 		setActive(var_110_9, false)
@@ -1643,107 +1635,101 @@ function var_0_0.UpdateEliteFleet(arg_110_0, arg_110_1, arg_110_2)
 		setActive(var_110_10, true)
 		setActive(var_110_11, false)
 		setText(var_110_6, "")
+		setActive(var_110_14, false)
 
 		if arg_110_1 == FleetType.Normal then
-			setActive(var_110_14, false)
 			setActive(var_110_15, false)
-		elseif arg_110_1 == FleetType.Submarine then
-			setActive(var_110_16, false)
-		elseif arg_110_1 == FleetType.Support then
-			setActive(var_110_17, false)
 		end
 
 		return
 	end
 
-	local var_110_18 = arg_110_1 == FleetType.Support
+	local var_110_16 = arg_110_1 == FleetType.Support
 
 	setActive(var_110_9, var_110_0)
 	setActive(var_110_8, var_110_0)
-	setActive(var_110_12, var_110_1 and not var_110_18)
+	setActive(var_110_12, var_110_1 and not var_110_16)
 	setActive(var_110_13, var_110_3)
-	setActive(var_110_10, var_110_2 or var_110_3 or var_110_1 and var_110_18)
+	setActive(var_110_10, var_110_2 or var_110_3 or var_110_1 and var_110_16)
 
-	local var_110_19 = arg_110_2
+	local var_110_17 = arg_110_2
 
 	if arg_110_1 == FleetType.Normal then
 		setText(var_110_6, Fleet.DEFAULT_NAME[arg_110_2])
 		setActive(var_110_14, true)
 		setActive(var_110_15, true)
 	elseif arg_110_1 == FleetType.Submarine then
-		var_110_19 = 3
+		var_110_17 = 3
 
 		setText(var_110_6, Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID + arg_110_2 - 1])
-		setActive(var_110_16, true)
+		setActive(var_110_14, true)
 	elseif arg_110_1 == FleetType.Support then
-		var_110_19 = 4
+		var_110_17 = 4
 
-		setText(var_110_6, "")
-		setActive(var_110_17, true)
+		setText(var_110_6, i18n("ship_formationUI_fleetName13"))
+		setActive(var_110_14, true)
 	end
 
-	local var_110_20 = 6
+	local var_110_18 = 6
 
 	if arg_110_1 == FleetType.Normal then
-		local var_110_21 = arg_110_0.typeLimitations[arg_110_2]
-		local var_110_22 = var_110_21[1]
-		local var_110_23 = var_110_21[2]
-		local var_110_24 = arg_110_0:initAddButton(var_110_5, TeamType.Main, var_110_22, var_110_19)
-		local var_110_25 = arg_110_0:initAddButton(var_110_5, TeamType.Vanguard, var_110_23, var_110_19)
+		local var_110_19 = arg_110_0.typeLimitations[arg_110_2]
+		local var_110_20 = var_110_19[1]
+		local var_110_21 = var_110_19[2]
+		local var_110_22 = arg_110_0:initAddButton(var_110_5:Find(TeamType.Main), TeamType.Main, var_110_20, var_110_17)
+		local var_110_23 = arg_110_0:initAddButton(var_110_5:Find(TeamType.Vanguard), TeamType.Vanguard, var_110_21, var_110_17)
 
-		setActive(var_110_11, var_110_24 and var_110_25)
+		setActive(var_110_11, var_110_22 and var_110_23)
 	elseif arg_110_1 == FleetType.Submarine then
-		var_110_20 = 3
+		var_110_18 = 3
 
-		local var_110_26 = arg_110_0:initAddButton(var_110_5, TeamType.Submarine, {
+		local var_110_24 = arg_110_0:initAddButton(var_110_5:Find(TeamType.Main), TeamType.Submarine, {
 			0,
 			0,
 			0
-		}, var_110_19)
+		}, var_110_17)
 
-		setActive(var_110_11, var_110_26)
+		setActive(var_110_11, var_110_24)
 	elseif arg_110_1 == FleetType.Support then
-		var_110_20 = 3
+		var_110_18 = 3
 
-		local var_110_27 = arg_110_0:initSupportAddButton(var_110_5, TeamType.Support, {
+		local var_110_25 = arg_110_0.chapter:getConfigMiscArg("submarine_support") and {
+			"qian",
+			"qian",
+			"qian"
+		} or {
 			"hang",
 			"hang",
 			"hang"
-		})
+		}
+		local var_110_26 = arg_110_0:initSupportAddButton(var_110_5:Find(TeamType.Main), nil, var_110_25, var_110_17)
 
-		setActive(var_110_11, arg_110_0.mode == var_0_2.EDIT and var_110_27)
+		setActive(var_110_11, arg_110_0.mode == var_0_2.EDIT and var_110_26)
 	end
 
-	if not var_110_18 then
-		arg_110_0:initCommander(var_110_19, var_110_12, arg_110_0.chapter)
+	if not var_110_16 then
+		arg_110_0:initCommander(var_110_17, var_110_12, arg_110_0.chapter)
 	end
 
 	onButton(arg_110_0, var_110_9, function()
-		if #(not var_110_18 and arg_110_0.eliteFleetList[var_110_19] or arg_110_0.supportFleet) == 0 then
+		if #(not var_110_16 and arg_110_0.eliteFleetList[var_110_17] or arg_110_0.supportFleet) == 0 then
 			return
 		end
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("battle_preCombatLayer_clear_confirm"),
 			onYes = function()
-				if not var_110_18 then
-					arg_110_0:emit(LevelMediator2.ON_ELITE_CLEAR, {
-						index = var_110_19,
-						chapterVO = arg_110_0.chapter
-					})
-				else
-					arg_110_0:emit(LevelMediator2.ON_SUPPORT_CLEAR, {
-						index = var_110_19,
-						chapterVO = arg_110_0.chapter
-					})
-				end
+				arg_110_0:emit(LevelMediator2.ON_ELITE_CLEAR, {
+					index = var_110_17,
+					chapterVO = arg_110_0.chapter
+				})
 			end
 		})
 	end)
 	onButton(arg_110_0, var_110_8, function()
-		local var_113_0 = #(not var_110_18 and arg_110_0.eliteFleetList[var_110_19] or arg_110_0.supportFleet)
+		local var_113_0 = #(not var_110_16 and arg_110_0.eliteFleetList[var_110_17] or arg_110_0.supportFleet)
 
-		if var_113_0 == var_110_20 then
+		if var_113_0 == var_110_18 then
 			return
 		end
 
@@ -1759,17 +1745,10 @@ function var_0_0.UpdateEliteFleet(arg_110_0, arg_110_1, arg_110_2)
 				})
 			end,
 			function()
-				if not var_110_18 then
-					arg_110_0:emit(LevelMediator2.ON_ELITE_RECOMMEND, {
-						index = var_110_19,
-						chapterVO = arg_110_0.chapter
-					})
-				else
-					arg_110_0:emit(LevelMediator2.ON_SUPPORT_RECOMMEND, {
-						index = var_110_19,
-						chapterVO = arg_110_0.chapter
-					})
-				end
+				arg_110_0:emit(LevelMediator2.ON_ELITE_RECOMMEND, {
+					index = var_110_17,
+					chapterVO = arg_110_0.chapter
+				})
 			end
 		})
 	end)
@@ -1811,104 +1790,104 @@ function var_0_0.initCommander(arg_116_0, arg_116_1, arg_116_2, arg_116_3)
 	end
 end
 
-function var_0_0.initSupportAddButton(arg_119_0, arg_119_1, arg_119_2, arg_119_3)
+function var_0_0.initSupportAddButton(arg_119_0, arg_119_1, arg_119_2, arg_119_3, arg_119_4)
 	local var_119_0 = {}
 	local var_119_1 = {}
 
 	for iter_119_0, iter_119_1 in ipairs(arg_119_0.supportFleet) do
 		var_119_0[arg_119_0.shipVOs[iter_119_1]] = true
 
-		table.insert(var_119_1, iter_119_1)
+		if not arg_119_2 or arg_119_2 == arg_119_0.shipVOs[iter_119_1]:getTeamType() then
+			table.insert(var_119_1, iter_119_1)
+		end
 	end
 
-	local var_119_2 = findTF(arg_119_1, arg_119_2)
+	removeAllChildren(arg_119_1)
 
-	removeAllChildren(var_119_2)
-
-	local var_119_3 = 0
-	local var_119_4 = false
-	local var_119_5 = 0
+	local var_119_2 = 0
+	local var_119_3 = false
+	local var_119_4 = 0
 
 	arg_119_3 = var_0_0.sortTeamLimitation(arg_119_3)
 
 	for iter_119_2 = 1, 3 do
+		local var_119_5
 		local var_119_6
-		local var_119_7
-		local var_119_8 = var_119_1[iter_119_2] and arg_119_0.shipVOs[var_119_1[iter_119_2]] or nil
+		local var_119_7 = var_119_1[iter_119_2] and arg_119_0.shipVOs[var_119_1[iter_119_2]] or nil
 
-		if var_119_8 then
+		if var_119_7 then
 			for iter_119_3, iter_119_4 in ipairs(arg_119_3) do
-				if ShipType.ContainInLimitBundle(iter_119_4, var_119_8:getShipType()) then
-					var_119_6 = var_119_8
-					var_119_7 = iter_119_4
+				if ShipType.ContainInLimitBundle(iter_119_4, var_119_7:getShipType()) then
+					var_119_5 = var_119_7
+					var_119_6 = iter_119_4
 
 					table.remove(arg_119_3, iter_119_3)
 
-					var_119_4 = var_119_4 or iter_119_4 ~= 0
+					var_119_3 = var_119_3 or iter_119_4 ~= 0
 
 					break
 				end
 			end
 		else
-			var_119_7 = arg_119_3[1]
+			var_119_6 = arg_119_3[1]
 
 			table.remove(arg_119_3, 1)
 		end
 
-		if var_119_7 == 0 then
-			var_119_5 = var_119_5 + 1
+		if var_119_6 == 0 then
+			var_119_4 = var_119_4 + 1
 		end
 
-		local var_119_9 = var_119_6 and cloneTplTo(arg_119_0.tfShipTpl, var_119_2) or cloneTplTo(arg_119_0.tfEmptyTpl, var_119_2)
+		local var_119_8 = var_119_5 and cloneTplTo(arg_119_0.tfShipTpl, arg_119_1) or cloneTplTo(arg_119_0.tfEmptyTpl, arg_119_1)
 
-		setActive(var_119_9, true)
+		setActive(var_119_8, true)
 
-		if var_119_6 then
-			updateShip(var_119_9, var_119_6)
-			setActive(var_119_9:Find("event_block"), var_119_6:getFlag("inEvent"))
+		if var_119_5 then
+			updateShip(var_119_8, var_119_5)
+			setActive(var_119_8:Find("event_block"), var_119_5:getFlag("inEvent"))
 
-			var_119_0[var_119_6] = true
+			var_119_0[var_119_5] = true
 		else
-			var_119_3 = var_119_3 + 1
+			var_119_2 = var_119_2 + 1
 		end
 
-		setActive(var_119_9:Find("ship_type"), var_119_7 and var_119_7 ~= 0)
+		setActive(var_119_8:Find("ship_type"), var_119_6 and var_119_6 ~= 0)
 
-		if var_119_7 and var_119_7 ~= 0 then
-			if type(var_119_7) == "number" then
-				local var_119_10 = GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(var_119_7))
+		if var_119_6 and var_119_6 ~= 0 then
+			if type(var_119_6) == "number" then
+				local var_119_9 = GetSpriteFromAtlas("shiptype", ShipType.Type2CNLabel(var_119_6))
 
-				setImageSprite(var_119_9:Find("ship_type"), var_119_10, true)
-			elseif type(var_119_7) == "string" then
-				local var_119_11 = GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(var_119_7))
+				setImageSprite(var_119_8:Find("ship_type"), var_119_9, true)
+			elseif type(var_119_6) == "string" then
+				local var_119_10 = GetSpriteFromAtlas("shiptype", ShipType.BundleType2CNLabel(var_119_6))
 
-				setImageSprite(var_119_9:Find("ship_type"), var_119_11, true)
+				setImageSprite(var_119_8:Find("ship_type"), var_119_10, true)
 			end
 		end
 
-		local var_119_12 = _.map(arg_119_0.supportFleet, function(arg_120_0)
+		local var_119_11 = _.map(arg_119_0.supportFleet, function(arg_120_0)
 			return arg_119_0.shipVOs[arg_120_0]
 		end)
-		local var_119_13 = GetOrAddComponent(var_119_9, typeof(UILongPressTrigger))
+		local var_119_12 = GetOrAddComponent(var_119_8, typeof(UILongPressTrigger))
 
-		var_119_13.onLongPressed:RemoveAllListeners()
+		var_119_12.onLongPressed:RemoveAllListeners()
 
-		if var_119_6 and arg_119_0.contextData.tabIndex ~= var_0_0.TabIndex.Adjustment then
-			var_119_13.onLongPressed:AddListener(function()
+		if var_119_5 and arg_119_0.contextData.tabIndex ~= var_0_0.TabIndex.Adjustment then
+			var_119_12.onLongPressed:AddListener(function()
 				arg_119_0:onCancelSupport(true)
 				arg_119_0:emit(LevelMediator2.ON_SUPPORT_SHIPINFO, {
-					shipId = var_119_6.id,
-					shipVOs = var_119_12,
+					shipId = var_119_5.id,
+					shipVOs = var_119_11,
 					chapter = arg_119_0.chapter
 				})
 			end)
 		end
 
-		local var_119_14 = GetOrAddComponent(var_119_9, "EventTriggerListener")
+		local var_119_13 = GetOrAddComponent(var_119_8, "EventTriggerListener")
 
-		var_119_14:RemovePointClickFunc()
-		var_119_14:AddPointClickFunc(function(arg_122_0, arg_122_1)
-			if arg_122_0 ~= var_119_9.gameObject then
+		var_119_13:RemovePointClickFunc()
+		var_119_13:AddPointClickFunc(function(arg_122_0, arg_122_1)
+			if arg_122_0 ~= var_119_8.gameObject then
 				return
 			end
 
@@ -1918,18 +1897,18 @@ function var_0_0.initSupportAddButton(arg_119_0, arg_119_1, arg_119_2, arg_119_3
 
 			arg_119_0:onCancelSupport()
 			arg_119_0:emit(LevelMediator2.ON_SUPPORT_OPEN_DECK, {
-				shipType = var_119_7,
+				shipType = var_119_6,
 				fleet = var_119_0,
 				chapter = arg_119_0.chapter,
-				shipVO = var_119_6
+				shipVO = var_119_5
 			})
 		end)
-		var_119_14:RemoveBeginDragFunc()
-		var_119_14:RemoveDragFunc()
-		var_119_14:RemoveDragEndFunc()
+		var_119_13:RemoveBeginDragFunc()
+		var_119_13:RemoveDragFunc()
+		var_119_13:RemoveDragEndFunc()
 	end
 
-	if (var_119_4 == true or var_119_5 == 3) and var_119_3 ~= 3 then
+	if (var_119_3 == true or var_119_4 == 3) and var_119_2 ~= 3 then
 		return true
 	else
 		return false

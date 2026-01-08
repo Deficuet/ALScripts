@@ -1329,45 +1329,49 @@ function var_0_9.FlushRequireByInverse(arg_127_0, arg_127_1)
 	return var_127_0 + var_0_3.CalculateReloadTime(var_127_2, var_0_7.GetCurrent(arg_127_0._host, "loadSpeed"))
 end
 
-function var_0_9.SetCardPuzzleDamageEnhance(arg_128_0, arg_128_1)
-	arg_128_0._cardPuzzleEnhance = arg_128_1
+function var_0_9.SetSupportWeapon(arg_128_0)
+	arg_128_0._isSupportWeapon = true
 end
 
-function var_0_9.GetCardPuzzleDamageEnhance(arg_129_0)
-	return arg_129_0._cardPuzzleEnhance or 1
+function var_0_9.SetCardPuzzleDamageEnhance(arg_129_0, arg_129_1)
+	arg_129_0._cardPuzzleEnhance = arg_129_1
 end
 
-function var_0_9.GetReloadRate(arg_130_0)
-	if arg_130_0._currentState == arg_130_0.STATE_READY then
+function var_0_9.GetCardPuzzleDamageEnhance(arg_130_0)
+	return arg_130_0._cardPuzzleEnhance or 1
+end
+
+function var_0_9.GetReloadRate(arg_131_0)
+	if arg_131_0._currentState == arg_131_0.STATE_READY then
 		return 0
-	elseif arg_130_0._CDstartTime then
-		return (arg_130_0:GetReloadFinishTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime()) / arg_130_0._reloadRequire
+	elseif arg_131_0._CDstartTime then
+		return (arg_131_0:GetReloadFinishTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime()) / arg_131_0._reloadRequire
 	else
 		return 1
 	end
 end
 
-function var_0_9.WeaponStatistics(arg_131_0, arg_131_1, arg_131_2, arg_131_3)
-	arg_131_0._CLDCount = arg_131_0._CLDCount + 1
-	arg_131_0._damageSum = arg_131_1 + arg_131_0._damageSum
+function var_0_9.WeaponStatistics(arg_132_0, arg_132_1, arg_132_2, arg_132_3)
+	arg_132_0._CLDCount = arg_132_0._CLDCount + 1
+	arg_132_0._damageSum = arg_132_1 + arg_132_0._damageSum
 
-	if arg_131_2 then
-		arg_131_0._CTSum = arg_131_0._CTSum + 1
+	if arg_132_2 then
+		arg_132_0._CTSum = arg_132_0._CTSum + 1
 	end
 
-	if not arg_131_3 then
-		arg_131_0._ACCSum = arg_131_0._ACCSum + 1
+	if not arg_132_3 then
+		arg_132_0._ACCSum = arg_132_0._ACCSum + 1
 	end
 end
 
-function var_0_9.GetDamageSUM(arg_132_0)
-	return arg_132_0._damageSum
+function var_0_9.GetDamageSUM(arg_133_0)
+	return arg_133_0._damageSum
 end
 
-function var_0_9.GetCTRate(arg_133_0)
-	return arg_133_0._CTSum / arg_133_0._CLDCount
+function var_0_9.GetCTRate(arg_134_0)
+	return arg_134_0._CTSum / arg_134_0._CLDCount
 end
 
-function var_0_9.GetACCRate(arg_134_0)
-	return arg_134_0._ACCSum / arg_134_0._CLDCount
+function var_0_9.GetACCRate(arg_135_0)
+	return arg_135_0._ACCSum / arg_135_0._CLDCount
 end

@@ -969,6 +969,7 @@ function var_0_0.updateChapterVO(arg_73_0, arg_73_1, arg_73_2)
 			if arg_73_0.grid then
 				arg_73_0.grid:RefreshFleetCells()
 				arg_73_0.grid:UpdateFloor()
+				arg_73_0.grid:UpdateWeatherCells()
 
 				var_73_0 = true
 			end
@@ -1044,6 +1045,10 @@ function var_0_0.updateChapterVO(arg_73_0, arg_73_1, arg_73_2)
 
 		if arg_73_2 < 0 or bit.band(arg_73_2, ChapterConst.DirtyFloatItems) > 0 then
 			arg_73_0.grid:UpdateItemCells()
+		end
+
+		if arg_73_2 < 0 or bit.band(arg_73_2, ChapterConst.DirtyWeather) > 0 then
+			arg_73_0.grid:UpdateWeatherCells()
 		end
 
 		if var_73_2 then
@@ -2342,9 +2347,18 @@ function var_0_0.switchToChapter(arg_173_0, arg_173_1)
 
 				arg_173_0.FirstEnterChapter = nil
 
-				arg_173_0.levelStageView:tryAutoTrigger(true)
+				arg_190_0()
+			end,
+			function(arg_191_0)
+				if arg_173_1:NeedSupportSubmarineStage() then
+					arg_173_0.levelStageView:TryEnterChapterSupportSubmarineStage(arg_191_0)
+				else
+					arg_191_0()
+				end
 			end
-		})
+		}, function()
+			arg_173_0.levelStageView:tryAutoTrigger(true)
+		end)
 	end
 
 	arg_173_0.levelStageView:ActionInvoke("SetSeriesOperation", var_173_0)
@@ -2352,117 +2366,117 @@ function var_0_0.switchToChapter(arg_173_0, arg_173_1)
 	arg_173_0.levelStageView:ActionInvoke("SwitchToChapter", arg_173_1)
 end
 
-function var_0_0.switchToMap(arg_191_0, arg_191_1)
-	arg_191_0:frozen()
-	arg_191_0:destroyGrid()
-	arg_191_0:setChapter(nil)
-	LeanTween.cancel(go(arg_191_0.map))
+function var_0_0.switchToMap(arg_193_0, arg_193_1)
+	arg_193_0:frozen()
+	arg_193_0:destroyGrid()
+	arg_193_0:setChapter(nil)
+	LeanTween.cancel(go(arg_193_0.map))
 
-	local var_191_0 = LeanTween.value(go(arg_191_0.map), arg_191_0.map.localScale, Vector3.one, var_0_1):setOnUpdateVector3(function(arg_192_0)
-		arg_191_0.map.localScale = arg_192_0
-		arg_191_0.float.localScale = arg_192_0
+	local var_193_0 = LeanTween.value(go(arg_193_0.map), arg_193_0.map.localScale, Vector3.one, var_0_1):setOnUpdateVector3(function(arg_194_0)
+		arg_193_0.map.localScale = arg_194_0
+		arg_193_0.float.localScale = arg_194_0
 	end):setOnComplete(System.Action(function()
-		arg_191_0:unfrozen()
-		arg_191_0.mapBuilder:PlayEnterAnim()
-		existCall(arg_191_1)
+		arg_193_0:unfrozen()
+		arg_193_0.mapBuilder:PlayEnterAnim()
+		existCall(arg_193_1)
 	end)):setEase(LeanTweenType.easeOutSine)
 
-	arg_191_0:RecordTween("mapScale", var_191_0.uniqueId)
+	arg_193_0:RecordTween("mapScale", var_193_0.uniqueId)
 
-	local var_191_1 = arg_191_0.contextData.map:getConfig("anchor")
-	local var_191_2
+	local var_193_1 = arg_193_0.contextData.map:getConfig("anchor")
+	local var_193_2
 
-	if var_191_1 == "" then
-		var_191_2 = Vector2.zero
+	if var_193_1 == "" then
+		var_193_2 = Vector2.zero
 	else
-		var_191_2 = Vector2(unpack(var_191_1))
+		var_193_2 = Vector2(unpack(var_193_1))
 	end
 
-	local var_191_3 = LeanTween.value(go(arg_191_0.map), arg_191_0.map.pivot, var_191_2, var_0_1)
+	local var_193_3 = LeanTween.value(go(arg_193_0.map), arg_193_0.map.pivot, var_193_2, var_0_1)
 
-	var_191_3:setOnUpdateVector2(function(arg_194_0)
-		arg_191_0.map.pivot = arg_194_0
-		arg_191_0.float.pivot = arg_194_0
+	var_193_3:setOnUpdateVector2(function(arg_196_0)
+		arg_193_0.map.pivot = arg_196_0
+		arg_193_0.float.pivot = arg_196_0
 	end):setEase(LeanTweenType.easeOutSine)
-	arg_191_0:RecordTween("mapPivot", var_191_3.uniqueId)
-	setActive(arg_191_0.topChapter, true)
-	setActive(arg_191_0.leftChapter, true)
-	setActive(arg_191_0.rightChapter, true)
-	shiftPanel(arg_191_0.leftChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-	shiftPanel(arg_191_0.rightChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-	shiftPanel(arg_191_0.topChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
-	assert(arg_191_0.levelStageView, "LevelStageView Doesnt Exist On SwitchToMap")
+	arg_193_0:RecordTween("mapPivot", var_193_3.uniqueId)
+	setActive(arg_193_0.topChapter, true)
+	setActive(arg_193_0.leftChapter, true)
+	setActive(arg_193_0.rightChapter, true)
+	shiftPanel(arg_193_0.leftChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	shiftPanel(arg_193_0.rightChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	shiftPanel(arg_193_0.topChapter, 0, 0, 0.3, 0, true, nil, LeanTweenType.easeOutSine)
+	assert(arg_193_0.levelStageView, "LevelStageView Doesnt Exist On SwitchToMap")
 
-	if arg_191_0.levelStageView then
-		arg_191_0.levelStageView:ActionInvoke("ShiftStagePanelOut", function()
-			arg_191_0:DestroyLevelStageView()
+	if arg_193_0.levelStageView then
+		arg_193_0.levelStageView:ActionInvoke("ShiftStagePanelOut", function()
+			arg_193_0:DestroyLevelStageView()
 		end)
-		arg_191_0.levelStageView:ActionInvoke("SwitchToMap")
+		arg_193_0.levelStageView:ActionInvoke("SwitchToMap")
 	end
 
-	arg_191_0:SwitchMapBG(arg_191_0.contextData.map)
-	arg_191_0:PlayBGM()
+	arg_193_0:SwitchMapBG(arg_193_0.contextData.map)
+	arg_193_0:PlayBGM()
 	seriesAsync({
-		function(arg_196_0)
-			arg_191_0.mapBuilder:CallbackInvoke(arg_196_0)
+		function(arg_198_0)
+			arg_193_0.mapBuilder:CallbackInvoke(arg_198_0)
 		end,
-		function(arg_197_0)
-			arg_191_0.mapBuilder:Show()
-			arg_191_0.mapBuilder:UpdateView()
-			arg_191_0.mapBuilder:UpdateMapItems()
+		function(arg_199_0)
+			arg_193_0.mapBuilder:Show()
+			arg_193_0.mapBuilder:UpdateView()
+			arg_193_0.mapBuilder:UpdateMapItems()
 		end
 	})
-	arg_191_0:UnOverlayPanel(arg_191_0.topPanel, arg_191_0._tf)
+	arg_193_0:UnOverlayPanel(arg_193_0.topPanel, arg_193_0._tf)
 
-	arg_191_0.canvasGroup.blocksRaycasts = arg_191_0.frozenCount == 0
-	arg_191_0.canvasGroup.interactable = true
+	arg_193_0.canvasGroup.blocksRaycasts = arg_193_0.frozenCount == 0
+	arg_193_0.canvasGroup.interactable = true
 
-	if arg_191_0.ambushWarning and arg_191_0.ambushWarning.activeSelf then
-		arg_191_0.ambushWarning:SetActive(false)
-		arg_191_0:unfrozen()
+	if arg_193_0.ambushWarning and arg_193_0.ambushWarning.activeSelf then
+		arg_193_0.ambushWarning:SetActive(false)
+		arg_193_0:unfrozen()
 	end
 end
 
-function var_0_0.SwitchBG(arg_198_0, arg_198_1, arg_198_2, arg_198_3)
-	if not arg_198_1 or #arg_198_1 <= 0 then
-		existCall(arg_198_2)
+function var_0_0.SwitchBG(arg_200_0, arg_200_1, arg_200_2, arg_200_3)
+	if not arg_200_1 or #arg_200_1 <= 0 then
+		existCall(arg_200_2)
 
 		return
-	elseif arg_198_3 then
+	elseif arg_200_3 then
 		-- block empty
-	elseif table.equal(arg_198_0.currentBG, arg_198_1) then
+	elseif table.equal(arg_200_0.currentBG, arg_200_1) then
 		return
 	end
 
-	arg_198_0.currentBG = arg_198_1
+	arg_200_0.currentBG = arg_200_1
 
-	for iter_198_0, iter_198_1 in ipairs(arg_198_0.mapGroup) do
-		arg_198_0.loader:ClearRequest(iter_198_1)
+	for iter_200_0, iter_200_1 in ipairs(arg_200_0.mapGroup) do
+		arg_200_0.loader:ClearRequest(iter_200_1)
 	end
 
-	table.clear(arg_198_0.mapGroup)
+	table.clear(arg_200_0.mapGroup)
 
-	local var_198_0 = {}
+	local var_200_0 = {}
 
-	table.ParallelIpairsAsync(arg_198_1, function(arg_199_0, arg_199_1, arg_199_2)
-		local var_199_0 = arg_198_0.mapTFs[arg_199_0]
-		local var_199_1 = arg_199_1.bgPrefix and arg_199_1.bgPrefix .. "/" or "levelmap/"
-		local var_199_2 = arg_198_0.loader:GetSpriteDirect(var_199_1 .. arg_199_1.BG, "", function(arg_200_0)
-			var_198_0[arg_199_0] = arg_200_0
+	table.ParallelIpairsAsync(arg_200_1, function(arg_201_0, arg_201_1, arg_201_2)
+		local var_201_0 = arg_200_0.mapTFs[arg_201_0]
+		local var_201_1 = arg_201_1.bgPrefix and arg_201_1.bgPrefix .. "/" or "levelmap/"
+		local var_201_2 = arg_200_0.loader:GetSpriteDirect(var_201_1 .. arg_201_1.BG, "", function(arg_202_0)
+			var_200_0[arg_201_0] = arg_202_0
 
-			arg_199_2()
-		end, var_199_0)
+			arg_201_2()
+		end, var_201_0)
 
-		table.insert(arg_198_0.mapGroup, var_199_2)
-		arg_198_0:updateCouldAnimator(arg_199_1.Animator, arg_199_0)
+		table.insert(arg_200_0.mapGroup, var_201_2)
+		arg_200_0:updateCouldAnimator(arg_201_1.Animator, arg_201_0)
 	end, function()
-		for iter_201_0, iter_201_1 in ipairs(arg_198_0.mapTFs) do
-			setImageSprite(iter_201_1, var_198_0[iter_201_0])
-			setActive(iter_201_1, arg_198_1[iter_201_0])
-			SetCompomentEnabled(iter_201_1, typeof(Image), true)
+		for iter_203_0, iter_203_1 in ipairs(arg_200_0.mapTFs) do
+			setImageSprite(iter_203_1, var_200_0[iter_203_0])
+			setActive(iter_203_1, arg_200_1[iter_203_0])
+			SetCompomentEnabled(iter_203_1, typeof(Image), true)
 		end
 
-		existCall(arg_198_2)
+		existCall(arg_200_2)
 	end)
 end
 
@@ -2491,153 +2505,153 @@ local var_0_9 = {
 	1420011
 }
 
-function var_0_0.ClearMapTransitions(arg_202_0)
-	if not arg_202_0.mapTransitions then
+function var_0_0.ClearMapTransitions(arg_204_0)
+	if not arg_204_0.mapTransitions then
 		return
 	end
 
-	for iter_202_0, iter_202_1 in pairs(arg_202_0.mapTransitions) do
-		if iter_202_1 then
-			PoolMgr.GetInstance():ReturnPrefab("ui/" .. iter_202_0, iter_202_0, iter_202_1, true)
+	for iter_204_0, iter_204_1 in pairs(arg_204_0.mapTransitions) do
+		if iter_204_1 then
+			PoolMgr.GetInstance():ReturnPrefab("ui/" .. iter_204_0, iter_204_0, iter_204_1, true)
 		else
-			PoolMgr.GetInstance():DestroyPrefab("ui/" .. iter_202_0, iter_202_0)
+			PoolMgr.GetInstance():DestroyPrefab("ui/" .. iter_204_0, iter_204_0)
 		end
 	end
 
-	arg_202_0.mapTransitions = nil
+	arg_204_0.mapTransitions = nil
 end
 
-function var_0_0.SwitchMapBG(arg_203_0, arg_203_1, arg_203_2, arg_203_3)
-	local var_203_0, var_203_1, var_203_2 = arg_203_0:GetMapBG(arg_203_1, arg_203_2)
+function var_0_0.SwitchMapBG(arg_205_0, arg_205_1, arg_205_2, arg_205_3)
+	local var_205_0, var_205_1, var_205_2 = arg_205_0:GetMapBG(arg_205_1, arg_205_2)
 
-	if not var_203_1 then
-		arg_203_0:SwitchBG(var_203_0, nil, arg_203_3)
+	if not var_205_1 then
+		arg_205_0:SwitchBG(var_205_0, nil, arg_205_3)
 
 		return
 	end
 
-	arg_203_0:PlayMapTransition("LevelMapTransition_" .. var_203_1, var_203_2, function()
-		arg_203_0:SwitchBG(var_203_0, nil, arg_203_3)
+	arg_205_0:PlayMapTransition("LevelMapTransition_" .. var_205_1, var_205_2, function()
+		arg_205_0:SwitchBG(var_205_0, nil, arg_205_3)
 	end)
 end
 
-function var_0_0.GetMapBG(arg_205_0, arg_205_1, arg_205_2)
-	if not table.contains(var_0_7, arg_205_1.id) then
+function var_0_0.GetMapBG(arg_207_0, arg_207_1, arg_207_2)
+	if not table.contains(var_0_7, arg_207_1.id) then
 		return {
-			arg_205_0:GetMapElement(arg_205_1)
+			arg_207_0:GetMapElement(arg_207_1)
 		}
 	end
 
-	local var_205_0 = arg_205_1.id
-	local var_205_1 = table.indexof(var_0_7, var_205_0) - 1
-	local var_205_2 = bit.lshift(bit.rshift(var_205_1, 1), 1) + 1
-	local var_205_3 = {
-		var_0_7[var_205_2],
-		var_0_7[var_205_2 + 1]
+	local var_207_0 = arg_207_1.id
+	local var_207_1 = table.indexof(var_0_7, var_207_0) - 1
+	local var_207_2 = bit.lshift(bit.rshift(var_207_1, 1), 1) + 1
+	local var_207_3 = {
+		var_0_7[var_207_2],
+		var_0_7[var_207_2 + 1]
 	}
-	local var_205_4 = _.map(var_205_3, function(arg_206_0)
-		return getProxy(ChapterProxy):getMapById(arg_206_0)
+	local var_207_4 = _.map(var_207_3, function(arg_208_0)
+		return getProxy(ChapterProxy):getMapById(arg_208_0)
 	end)
 
-	if _.all(var_205_4, function(arg_207_0)
-		return arg_207_0:isAllChaptersClear()
+	if _.all(var_207_4, function(arg_209_0)
+		return arg_209_0:isAllChaptersClear()
 	end) then
-		local var_205_5 = {
-			arg_205_0:GetMapElement(arg_205_1)
+		local var_207_5 = {
+			arg_207_0:GetMapElement(arg_207_1)
 		}
 
-		if not arg_205_2 or math.abs(var_205_0 - arg_205_2) ~= 1 then
-			return var_205_5
+		if not arg_207_2 or math.abs(var_207_0 - arg_207_2) ~= 1 then
+			return var_207_5
 		end
 
-		local var_205_6 = var_0_9[bit.rshift(var_205_2 - 1, 1) + 1]
-		local var_205_7 = bit.band(var_205_1, 1) == 1
+		local var_207_6 = var_0_9[bit.rshift(var_207_2 - 1, 1) + 1]
+		local var_207_7 = bit.band(var_207_1, 1) == 1
 
-		return var_205_5, var_205_6, var_205_7
+		return var_207_5, var_207_6, var_207_7
 	else
-		local var_205_8 = 0
+		local var_207_8 = 0
 
 		;(function()
-			local var_208_0 = var_205_4[1]:getChapters()
+			local var_210_0 = var_207_4[1]:getChapters()
 
-			for iter_208_0, iter_208_1 in ipairs(var_208_0) do
-				if not iter_208_1:isClear() then
+			for iter_210_0, iter_210_1 in ipairs(var_210_0) do
+				if not iter_210_1:isClear() then
 					return
 				end
 
-				var_205_8 = var_205_8 + 1
+				var_207_8 = var_207_8 + 1
 			end
 
-			if not var_205_4[2]:isAnyChapterUnlocked(true) then
+			if not var_207_4[2]:isAnyChapterUnlocked(true) then
 				return
 			end
 
-			var_205_8 = var_205_8 + 1
+			var_207_8 = var_207_8 + 1
 
-			local var_208_1 = var_205_4[2]:getChapters()
+			local var_210_1 = var_207_4[2]:getChapters()
 
-			for iter_208_2, iter_208_3 in ipairs(var_208_1) do
-				if not iter_208_3:isClear() then
+			for iter_210_2, iter_210_3 in ipairs(var_210_1) do
+				if not iter_210_3:isClear() then
 					return
 				end
 
-				var_205_8 = var_205_8 + 1
+				var_207_8 = var_207_8 + 1
 			end
 		end)()
 
-		local var_205_9
+		local var_207_9
 
-		if var_205_8 > 0 then
-			local var_205_10 = var_0_8[bit.rshift(var_205_2 - 1, 1) + 1]
+		if var_207_8 > 0 then
+			local var_207_10 = var_0_8[bit.rshift(var_207_2 - 1, 1) + 1]
 
-			var_205_9 = {
+			var_207_9 = {
 				{
-					BG = "map_" .. var_205_10[1],
-					Animator = var_205_10[2]
+					BG = "map_" .. var_207_10[1],
+					Animator = var_207_10[2]
 				},
 				{
-					BG = "map_" .. var_205_10[3] + var_205_8,
-					Animator = var_205_10[4]
+					BG = "map_" .. var_207_10[3] + var_207_8,
+					Animator = var_207_10[4]
 				}
 			}
 		else
-			var_205_9 = {
-				arg_205_0:GetMapElement(arg_205_1)
+			var_207_9 = {
+				arg_207_0:GetMapElement(arg_207_1)
 			}
 		end
 
-		return var_205_9
+		return var_207_9
 	end
 end
 
-function var_0_0.GetMapElement(arg_209_0, arg_209_1)
-	local var_209_0 = arg_209_1:getConfig("bg")
-	local var_209_1 = arg_209_1:getConfig("ani_controller")
+function var_0_0.GetMapElement(arg_211_0, arg_211_1)
+	local var_211_0 = arg_211_1:getConfig("bg")
+	local var_211_1 = arg_211_1:getConfig("ani_controller")
 
-	if var_209_1 and #var_209_1 > 0 then
+	if var_211_1 and #var_211_1 > 0 then
 		(function()
-			local var_210_0 = getProxy(ChapterProxy)
+			local var_212_0 = getProxy(ChapterProxy)
 
-			for iter_210_0, iter_210_1 in ipairs(var_209_1) do
-				local var_210_1 = _.rest(iter_210_1[2], 2)
+			for iter_212_0, iter_212_1 in ipairs(var_211_1) do
+				local var_212_1 = _.rest(iter_212_1[2], 2)
 
-				for iter_210_2, iter_210_3 in ipairs(var_210_1) do
-					if string.find(iter_210_3, "^map_") and iter_210_1[1] == var_0_3 then
-						local var_210_2 = iter_210_1[2][1]
-						local var_210_3 = false
+				for iter_212_2, iter_212_3 in ipairs(var_212_1) do
+					if string.find(iter_212_3, "^map_") and iter_212_1[1] == var_0_3 then
+						local var_212_2 = iter_212_1[2][1]
+						local var_212_3 = false
 
-						for iter_210_4, iter_210_5 in ipairs(var_210_2) do
-							local var_210_4 = var_210_0:GetChapterItemById(iter_210_5)
+						for iter_212_4, iter_212_5 in ipairs(var_212_2) do
+							local var_212_4 = var_212_0:GetChapterItemById(iter_212_5)
 
-							if var_210_4 and var_210_4:isClear() then
-								var_210_3 = true
+							if var_212_4 and var_212_4:isClear() then
+								var_212_3 = true
 
 								break
 							end
 						end
 
-						if not var_210_3 then
-							var_209_0 = iter_210_3
+						if not var_212_3 then
+							var_211_0 = iter_212_3
 
 							return
 						end
@@ -2647,45 +2661,45 @@ function var_0_0.GetMapElement(arg_209_0, arg_209_1)
 		end)()
 	end
 
-	local var_209_2 = {
-		BG = var_209_0
+	local var_211_2 = {
+		BG = var_211_0
 	}
 
-	var_209_2.Animator, var_209_2.AnimatorController = arg_209_0:GetMapAnimator(arg_209_1)
+	var_211_2.Animator, var_211_2.AnimatorController = arg_211_0:GetMapAnimator(arg_211_1)
 
-	return var_209_2
+	return var_211_2
 end
 
-function var_0_0.GetMapAnimator(arg_211_0, arg_211_1)
-	local var_211_0 = arg_211_1:getConfig("ani_name")
+function var_0_0.GetMapAnimator(arg_213_0, arg_213_1)
+	local var_213_0 = arg_213_1:getConfig("ani_name")
 
-	if arg_211_1:getConfig("animtor") == 1 and var_211_0 and #var_211_0 > 0 then
-		local var_211_1 = arg_211_1:getConfig("ani_controller")
+	if arg_213_1:getConfig("animtor") == 1 and var_213_0 and #var_213_0 > 0 then
+		local var_213_1 = arg_213_1:getConfig("ani_controller")
 
-		if var_211_1 and #var_211_1 > 0 then
+		if var_213_1 and #var_213_1 > 0 then
 			(function()
-				local var_212_0 = getProxy(ChapterProxy)
+				local var_214_0 = getProxy(ChapterProxy)
 
-				for iter_212_0, iter_212_1 in ipairs(var_211_1) do
-					local var_212_1 = _.rest(iter_212_1[2], 2)
+				for iter_214_0, iter_214_1 in ipairs(var_213_1) do
+					local var_214_1 = _.rest(iter_214_1[2], 2)
 
-					for iter_212_2, iter_212_3 in ipairs(var_212_1) do
-						if string.find(iter_212_3, "^effect_") and iter_212_1[1] == var_0_3 then
-							local var_212_2 = iter_212_1[2][1]
-							local var_212_3 = false
+					for iter_214_2, iter_214_3 in ipairs(var_214_1) do
+						if string.find(iter_214_3, "^effect_") and iter_214_1[1] == var_0_3 then
+							local var_214_2 = iter_214_1[2][1]
+							local var_214_3 = false
 
-							for iter_212_4, iter_212_5 in ipairs(var_212_2) do
-								local var_212_4 = var_212_0:GetChapterItemById(iter_212_5)
+							for iter_214_4, iter_214_5 in ipairs(var_214_2) do
+								local var_214_4 = var_214_0:GetChapterItemById(iter_214_5)
 
-								if var_212_4 and var_212_4:isClear() then
-									var_212_3 = true
+								if var_214_4 and var_214_4:isClear() then
+									var_214_3 = true
 
 									break
 								end
 							end
 
-							if not var_212_3 then
-								var_211_0 = "map_" .. string.sub(iter_212_3, 8)
+							if not var_214_3 then
+								var_213_0 = "map_" .. string.sub(iter_214_3, 8)
 
 								return
 							end
@@ -2695,85 +2709,85 @@ function var_0_0.GetMapAnimator(arg_211_0, arg_211_1)
 			end)()
 		end
 
-		return var_211_0, var_211_1
+		return var_213_0, var_213_1
 	end
 end
 
-function var_0_0.PlayMapTransition(arg_213_0, arg_213_1, arg_213_2, arg_213_3, arg_213_4)
-	arg_213_0.mapTransitions = arg_213_0.mapTransitions or {}
+function var_0_0.PlayMapTransition(arg_215_0, arg_215_1, arg_215_2, arg_215_3, arg_215_4)
+	arg_215_0.mapTransitions = arg_215_0.mapTransitions or {}
 
-	local var_213_0
+	local var_215_0
 
-	local function var_213_1()
-		arg_213_0:frozen()
-		existCall(arg_213_3, var_213_0)
-		var_213_0:SetActive(true)
+	local function var_215_1()
+		arg_215_0:frozen()
+		existCall(arg_215_3, var_215_0)
+		var_215_0:SetActive(true)
 
-		local var_214_0 = tf(var_213_0)
+		local var_216_0 = tf(var_215_0)
 
-		pg.UIMgr.GetInstance():OverlayPanel(var_214_0)
-		var_213_0:GetComponent(typeof(Animator)):Play(arg_213_2 and "Sequence" or "Inverted", -1, 0)
-		var_214_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_215_0)
-			pg.UIMgr.GetInstance():UnOverlayPanel(var_214_0, arg_213_0._tf)
-			existCall(arg_213_4, var_213_0)
-			PoolMgr.GetInstance():ReturnPrefab("ui/" .. arg_213_1, arg_213_1, var_213_0)
+		pg.UIMgr.GetInstance():OverlayPanel(var_216_0)
+		var_215_0:GetComponent(typeof(Animator)):Play(arg_215_2 and "Sequence" or "Inverted", -1, 0)
+		var_216_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_217_0)
+			pg.UIMgr.GetInstance():UnOverlayPanel(var_216_0, arg_215_0._tf)
+			existCall(arg_215_4, var_215_0)
+			PoolMgr.GetInstance():ReturnPrefab("ui/" .. arg_215_1, arg_215_1, var_215_0)
 
-			arg_213_0.mapTransitions[arg_213_1] = false
+			arg_215_0.mapTransitions[arg_215_1] = false
 
-			arg_213_0:unfrozen()
+			arg_215_0:unfrozen()
 		end)
 	end
 
-	PoolMgr.GetInstance():GetPrefab("ui/" .. arg_213_1, arg_213_1, true, function(arg_216_0)
-		var_213_0 = arg_216_0
-		arg_213_0.mapTransitions[arg_213_1] = arg_216_0
+	PoolMgr.GetInstance():GetPrefab("ui/" .. arg_215_1, arg_215_1, true, function(arg_218_0)
+		var_215_0 = arg_218_0
+		arg_215_0.mapTransitions[arg_215_1] = arg_218_0
 
-		var_213_1()
+		var_215_1()
 	end)
 end
 
-function var_0_0.DestroyLevelStageView(arg_217_0)
-	if arg_217_0.levelStageView then
-		arg_217_0.levelStageView:Destroy()
+function var_0_0.DestroyLevelStageView(arg_219_0)
+	if arg_219_0.levelStageView then
+		arg_219_0.levelStageView:Destroy()
 
-		arg_217_0.levelStageView = nil
+		arg_219_0.levelStageView = nil
 	end
 end
 
-function var_0_0.displayAmbushInfo(arg_218_0, arg_218_1)
-	arg_218_0.levelAmbushView = LevelAmbushView.New(arg_218_0.topPanel, arg_218_0.event, arg_218_0.contextData)
+function var_0_0.displayAmbushInfo(arg_220_0, arg_220_1)
+	arg_220_0.levelAmbushView = LevelAmbushView.New(arg_220_0.topPanel, arg_220_0.event, arg_220_0.contextData)
 
-	arg_218_0.levelAmbushView:Load()
-	arg_218_0.levelAmbushView:ActionInvoke("SetFuncOnComplete", arg_218_1)
+	arg_220_0.levelAmbushView:Load()
+	arg_220_0.levelAmbushView:ActionInvoke("SetFuncOnComplete", arg_220_1)
 end
 
-function var_0_0.hideAmbushInfo(arg_219_0)
-	if arg_219_0.levelAmbushView then
-		arg_219_0.levelAmbushView:Destroy()
+function var_0_0.hideAmbushInfo(arg_221_0)
+	if arg_221_0.levelAmbushView then
+		arg_221_0.levelAmbushView:Destroy()
 
-		arg_219_0.levelAmbushView = nil
+		arg_221_0.levelAmbushView = nil
 	end
 end
 
-function var_0_0.doAmbushWarning(arg_220_0, arg_220_1)
-	arg_220_0:frozen()
+function var_0_0.doAmbushWarning(arg_222_0, arg_222_1)
+	arg_222_0:frozen()
 
-	local function var_220_0()
-		arg_220_0.ambushWarning:SetActive(true)
+	local function var_222_0()
+		arg_222_0.ambushWarning:SetActive(true)
 
-		local var_221_0 = tf(arg_220_0.ambushWarning)
+		local var_223_0 = tf(arg_222_0.ambushWarning)
 
-		var_221_0:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
-		var_221_0:SetSiblingIndex(1)
+		var_223_0:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
+		var_223_0:SetSiblingIndex(1)
 
-		local var_221_1 = var_221_0:GetComponent("DftAniEvent")
+		local var_223_1 = var_223_0:GetComponent("DftAniEvent")
 
-		var_221_1:SetTriggerEvent(function(arg_222_0)
-			arg_220_1()
+		var_223_1:SetTriggerEvent(function(arg_224_0)
+			arg_222_1()
 		end)
-		var_221_1:SetEndEvent(function(arg_223_0)
-			arg_220_0.ambushWarning:SetActive(false)
-			arg_220_0:unfrozen()
+		var_223_1:SetEndEvent(function(arg_225_0)
+			arg_222_0.ambushWarning:SetActive(false)
+			arg_222_0:unfrozen()
 		end)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 		Timer.New(function()
@@ -2781,1058 +2795,1058 @@ function var_0_0.doAmbushWarning(arg_220_0, arg_220_1)
 		end, 1, 1):Start()
 	end
 
-	if not arg_220_0.ambushWarning then
-		PoolMgr.GetInstance():GetUI("ambushwarnui", true, function(arg_225_0)
-			arg_225_0:SetActive(true)
+	if not arg_222_0.ambushWarning then
+		PoolMgr.GetInstance():GetUI("ambushwarnui", true, function(arg_227_0)
+			arg_227_0:SetActive(true)
 
-			arg_220_0.ambushWarning = arg_225_0
+			arg_222_0.ambushWarning = arg_227_0
 
-			var_220_0()
+			var_222_0()
 		end)
 	else
-		var_220_0()
+		var_222_0()
 	end
 end
 
-function var_0_0.destroyAmbushWarn(arg_226_0)
-	if arg_226_0.ambushWarning then
-		PoolMgr.GetInstance():ReturnUI("ambushwarnui", arg_226_0.ambushWarning)
+function var_0_0.destroyAmbushWarn(arg_228_0)
+	if arg_228_0.ambushWarning then
+		PoolMgr.GetInstance():ReturnUI("ambushwarnui", arg_228_0.ambushWarning)
 
-		arg_226_0.ambushWarning = nil
+		arg_228_0.ambushWarning = nil
 	end
 end
 
-function var_0_0.displayStrategyInfo(arg_227_0, arg_227_1)
-	arg_227_0.levelStrategyView = LevelStrategyView.New(arg_227_0.topPanel, arg_227_0.event, arg_227_0.contextData)
+function var_0_0.displayStrategyInfo(arg_229_0, arg_229_1)
+	arg_229_0.levelStrategyView = LevelStrategyView.New(arg_229_0.topPanel, arg_229_0.event, arg_229_0.contextData)
 
-	arg_227_0.levelStrategyView:Load()
-	arg_227_0.levelStrategyView:ActionInvoke("set", arg_227_1)
+	arg_229_0.levelStrategyView:Load()
+	arg_229_0.levelStrategyView:ActionInvoke("set", arg_229_1)
 
-	local function var_227_0()
-		local var_228_0 = arg_227_0.contextData.chapterVO.fleet
-		local var_228_1 = pg.strategy_data_template[arg_227_1.id]
+	local function var_229_0()
+		local var_230_0 = arg_229_0.contextData.chapterVO.fleet
+		local var_230_1 = pg.strategy_data_template[arg_229_1.id]
 
-		if not var_228_0:canUseStrategy(arg_227_1) then
+		if not var_230_0:canUseStrategy(arg_229_1) then
 			return
 		end
 
-		local var_228_2 = var_228_0:getNextStgUser(arg_227_1.id)
+		local var_230_2 = var_230_0:getNextStgUser(arg_229_1.id)
 
-		if var_228_1.type == ChapterConst.StgTypeForm then
-			arg_227_0:emit(LevelMediator2.ON_OP, {
+		if var_230_1.type == ChapterConst.StgTypeForm then
+			arg_229_0:emit(LevelMediator2.ON_OP, {
 				type = ChapterConst.OpStrategy,
-				id = var_228_2,
-				arg1 = arg_227_1.id
+				id = var_230_2,
+				arg1 = arg_229_1.id
 			})
-		elseif var_228_1.type == ChapterConst.StgTypeConsume then
-			arg_227_0:emit(LevelMediator2.ON_OP, {
+		elseif var_230_1.type == ChapterConst.StgTypeConsume then
+			arg_229_0:emit(LevelMediator2.ON_OP, {
 				type = ChapterConst.OpStrategy,
-				id = var_228_2,
-				arg1 = arg_227_1.id
+				id = var_230_2,
+				arg1 = arg_229_1.id
 			})
 		end
 
-		arg_227_0:hideStrategyInfo()
+		arg_229_0:hideStrategyInfo()
 	end
 
-	local function var_227_1()
-		arg_227_0:hideStrategyInfo()
+	local function var_229_1()
+		arg_229_0:hideStrategyInfo()
 	end
 
-	arg_227_0.levelStrategyView:ActionInvoke("setCBFunc", var_227_0, var_227_1)
+	arg_229_0.levelStrategyView:ActionInvoke("setCBFunc", var_229_0, var_229_1)
 end
 
-function var_0_0.hideStrategyInfo(arg_230_0)
-	if arg_230_0.levelStrategyView then
-		arg_230_0.levelStrategyView:Destroy()
+function var_0_0.hideStrategyInfo(arg_232_0)
+	if arg_232_0.levelStrategyView then
+		arg_232_0.levelStrategyView:Destroy()
 
-		arg_230_0.levelStrategyView = nil
+		arg_232_0.levelStrategyView = nil
 	end
 end
 
-function var_0_0.displayRepairWindow(arg_231_0, arg_231_1)
-	local var_231_0 = arg_231_0.contextData.chapterVO
-	local var_231_1 = getProxy(ChapterProxy)
-	local var_231_2
-	local var_231_3
-	local var_231_4
-	local var_231_5
-	local var_231_6 = var_231_1.repairTimes
-	local var_231_7, var_231_8, var_231_9 = ChapterConst.GetRepairParams()
+function var_0_0.displayRepairWindow(arg_233_0, arg_233_1)
+	local var_233_0 = arg_233_0.contextData.chapterVO
+	local var_233_1 = getProxy(ChapterProxy)
+	local var_233_2
+	local var_233_3
+	local var_233_4
+	local var_233_5
+	local var_233_6 = var_233_1.repairTimes
+	local var_233_7, var_233_8, var_233_9 = ChapterConst.GetRepairParams()
 
-	arg_231_0.levelRepairView = LevelRepairView.New(arg_231_0.topPanel, arg_231_0.event, arg_231_0.contextData)
+	arg_233_0.levelRepairView = LevelRepairView.New(arg_233_0.topPanel, arg_233_0.event, arg_233_0.contextData)
 
-	arg_231_0.levelRepairView:Load()
-	arg_231_0.levelRepairView:ActionInvoke("set", var_231_6, var_231_7, var_231_8, var_231_9)
+	arg_233_0.levelRepairView:Load()
+	arg_233_0.levelRepairView:ActionInvoke("set", var_233_6, var_233_7, var_233_8, var_233_9)
 
-	local function var_231_10()
-		if var_231_7 - math.min(var_231_6, var_231_7) == 0 and arg_231_0.player:getTotalGem() < var_231_9 then
+	local function var_233_10()
+		if var_233_7 - math.min(var_233_6, var_233_7) == 0 and arg_233_0.player:getTotalGem() < var_233_9 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_rmb"))
 
 			return
 		end
 
-		arg_231_0:emit(LevelMediator2.ON_OP, {
+		arg_233_0:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpRepair,
-			id = var_231_0.fleet.id,
-			arg1 = arg_231_1.id
+			id = var_233_0.fleet.id,
+			arg1 = arg_233_1.id
 		})
-		arg_231_0:hideRepairWindow()
+		arg_233_0:hideRepairWindow()
 	end
 
-	local function var_231_11()
-		arg_231_0:hideRepairWindow()
+	local function var_233_11()
+		arg_233_0:hideRepairWindow()
 	end
 
-	arg_231_0.levelRepairView:ActionInvoke("setCBFunc", var_231_10, var_231_11)
+	arg_233_0.levelRepairView:ActionInvoke("setCBFunc", var_233_10, var_233_11)
 end
 
-function var_0_0.hideRepairWindow(arg_234_0)
-	if arg_234_0.levelRepairView then
-		arg_234_0.levelRepairView:Destroy()
+function var_0_0.hideRepairWindow(arg_236_0)
+	if arg_236_0.levelRepairView then
+		arg_236_0.levelRepairView:Destroy()
 
-		arg_234_0.levelRepairView = nil
-	end
-end
-
-function var_0_0.displayRemasterPanel(arg_235_0, arg_235_1)
-	arg_235_0.levelRemasterView:Load()
-
-	local function var_235_0(arg_236_0)
-		arg_235_0:ShowSelectedMap(arg_236_0)
-	end
-
-	arg_235_0.levelRemasterView:ActionInvoke("Show")
-	arg_235_0.levelRemasterView:ActionInvoke("set", var_235_0, arg_235_1)
-end
-
-function var_0_0.hideRemasterPanel(arg_237_0)
-	if arg_237_0.levelRemasterView:isShowing() then
-		arg_237_0.levelRemasterView:ActionInvoke("Hide")
+		arg_236_0.levelRepairView = nil
 	end
 end
 
-function var_0_0.initGrid(arg_238_0, arg_238_1)
-	local var_238_0 = arg_238_0.contextData.chapterVO
+function var_0_0.displayRemasterPanel(arg_237_0, arg_237_1)
+	arg_237_0.levelRemasterView:Load()
 
-	if not var_238_0 then
+	local function var_237_0(arg_238_0)
+		arg_237_0:ShowSelectedMap(arg_238_0)
+	end
+
+	arg_237_0.levelRemasterView:ActionInvoke("Show")
+	arg_237_0.levelRemasterView:ActionInvoke("set", var_237_0, arg_237_1)
+end
+
+function var_0_0.hideRemasterPanel(arg_239_0)
+	if arg_239_0.levelRemasterView:isShowing() then
+		arg_239_0.levelRemasterView:ActionInvoke("Hide")
+	end
+end
+
+function var_0_0.initGrid(arg_240_0, arg_240_1)
+	local var_240_0 = arg_240_0.contextData.chapterVO
+
+	if not var_240_0 then
 		return
 	end
 
-	arg_238_0:enableLevelCamera()
-	setActive(arg_238_0.uiMain, true)
+	arg_240_0:enableLevelCamera()
+	setActive(arg_240_0.uiMain, true)
 
-	arg_238_0.levelGrid.localEulerAngles = Vector3(var_238_0.theme.angle, 0, 0)
-	arg_238_0.grid = LevelGrid.New(arg_238_0.dragLayer)
+	arg_240_0.levelGrid.localEulerAngles = Vector3(var_240_0.theme.angle, 0, 0)
+	arg_240_0.grid = LevelGrid.New(arg_240_0.dragLayer)
 
-	arg_238_0.grid:attach(arg_238_0)
-	arg_238_0.grid:ExtendItem("shipTpl", arg_238_0.shipTpl)
-	arg_238_0.grid:ExtendItem("subTpl", arg_238_0.subTpl)
-	arg_238_0.grid:ExtendItem("transportTpl", arg_238_0.transportTpl)
-	arg_238_0.grid:ExtendItem("enemyTpl", arg_238_0.enemyTpl)
-	arg_238_0.grid:ExtendItem("championTpl", arg_238_0.championTpl)
-	arg_238_0.grid:ExtendItem("oniTpl", arg_238_0.oniTpl)
-	arg_238_0.grid:ExtendItem("arrowTpl", arg_238_0.arrowTarget)
-	arg_238_0.grid:ExtendItem("destinationMarkTpl", arg_238_0.destinationMarkTpl)
+	arg_240_0.grid:attach(arg_240_0)
+	arg_240_0.grid:ExtendItem("shipTpl", arg_240_0.shipTpl)
+	arg_240_0.grid:ExtendItem("subTpl", arg_240_0.subTpl)
+	arg_240_0.grid:ExtendItem("transportTpl", arg_240_0.transportTpl)
+	arg_240_0.grid:ExtendItem("enemyTpl", arg_240_0.enemyTpl)
+	arg_240_0.grid:ExtendItem("championTpl", arg_240_0.championTpl)
+	arg_240_0.grid:ExtendItem("oniTpl", arg_240_0.oniTpl)
+	arg_240_0.grid:ExtendItem("arrowTpl", arg_240_0.arrowTarget)
+	arg_240_0.grid:ExtendItem("destinationMarkTpl", arg_240_0.destinationMarkTpl)
 
-	function arg_238_0.grid.onShipStepChange(arg_239_0)
-		arg_238_0.levelStageView:updateAmbushRate(arg_239_0)
+	function arg_240_0.grid.onShipStepChange(arg_241_0)
+		arg_240_0.levelStageView:updateAmbushRate(arg_241_0)
 	end
 
-	arg_238_0.grid:initAll(arg_238_1)
+	arg_240_0.grid:initAll(arg_240_1)
 end
 
-function var_0_0.destroyGrid(arg_240_0)
-	if arg_240_0.grid then
-		arg_240_0.grid:detach()
+function var_0_0.destroyGrid(arg_242_0)
+	if arg_242_0.grid then
+		arg_242_0.grid:detach()
 
-		arg_240_0.grid = nil
+		arg_242_0.grid = nil
 
-		arg_240_0:disableLevelCamera()
-		setActive(arg_240_0.dragLayer, true)
-		setActive(arg_240_0.uiMain, false)
+		arg_242_0:disableLevelCamera()
+		setActive(arg_242_0.dragLayer, true)
+		setActive(arg_242_0.uiMain, false)
 	end
 end
 
-function var_0_0.doTracking(arg_241_0, arg_241_1)
-	arg_241_0:frozen()
+function var_0_0.doTracking(arg_243_0, arg_243_1)
+	arg_243_0:frozen()
 
-	local function var_241_0()
-		arg_241_0.radar:SetActive(true)
+	local function var_243_0()
+		arg_243_0.radar:SetActive(true)
 
-		local var_242_0 = tf(arg_241_0.radar)
+		local var_244_0 = tf(arg_243_0.radar)
 
-		var_242_0:SetParent(arg_241_0.topPanel, false)
-		var_242_0:SetSiblingIndex(1)
-		var_242_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_243_0)
-			arg_241_0.radar:SetActive(false)
-			arg_241_0:unfrozen()
-			arg_241_1()
+		var_244_0:SetParent(arg_243_0.topPanel, false)
+		var_244_0:SetSiblingIndex(1)
+		var_244_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_245_0)
+			arg_243_0.radar:SetActive(false)
+			arg_243_0:unfrozen()
+			arg_243_1()
 		end)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WEIGHANCHOR_SEARCH)
 	end
 
-	if not arg_241_0.radar then
-		PoolMgr.GetInstance():GetUI("RadarEffectUI", true, function(arg_244_0)
-			arg_244_0:SetActive(true)
+	if not arg_243_0.radar then
+		PoolMgr.GetInstance():GetUI("RadarEffectUI", true, function(arg_246_0)
+			arg_246_0:SetActive(true)
 
-			arg_241_0.radar = arg_244_0
+			arg_243_0.radar = arg_246_0
 
-			var_241_0()
+			var_243_0()
 		end)
 	else
-		var_241_0()
+		var_243_0()
 	end
 end
 
-function var_0_0.destroyTracking(arg_245_0)
-	if arg_245_0.radar then
-		PoolMgr.GetInstance():ReturnUI("RadarEffectUI", arg_245_0.radar)
+function var_0_0.destroyTracking(arg_247_0)
+	if arg_247_0.radar then
+		PoolMgr.GetInstance():ReturnUI("RadarEffectUI", arg_247_0.radar)
 
-		arg_245_0.radar = nil
+		arg_247_0.radar = nil
 	end
 end
 
-function var_0_0.doPlayAirStrike(arg_246_0, arg_246_1, arg_246_2, arg_246_3)
-	local function var_246_0()
-		arg_246_0.playing = true
+function var_0_0.doPlayAirStrike(arg_248_0, arg_248_1, arg_248_2, arg_248_3)
+	local function var_248_0()
+		arg_248_0.playing = true
 
-		arg_246_0:frozen()
-		arg_246_0.airStrike:SetActive(true)
+		arg_248_0:frozen()
+		arg_248_0.airStrike:SetActive(true)
 
-		local var_247_0 = tf(arg_246_0.airStrike)
+		local var_249_0 = tf(arg_248_0.airStrike)
 
-		var_247_0:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
-		var_247_0:SetAsLastSibling()
-		setActive(var_247_0:Find("words/be_striked"), arg_246_1 == ChapterConst.SubjectChampion)
-		setActive(var_247_0:Find("words/strike_enemy"), arg_246_1 == ChapterConst.SubjectPlayer)
+		var_249_0:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
+		var_249_0:SetAsLastSibling()
+		setActive(var_249_0:Find("words/be_striked"), arg_248_1 == ChapterConst.SubjectChampion)
+		setActive(var_249_0:Find("words/strike_enemy"), arg_248_1 == ChapterConst.SubjectPlayer)
 
-		local function var_247_1()
-			arg_246_0.playing = false
+		local function var_249_1()
+			arg_248_0.playing = false
 
-			SetActive(arg_246_0.airStrike, false)
+			SetActive(arg_248_0.airStrike, false)
 
-			if arg_246_3 then
-				arg_246_3()
+			if arg_248_3 then
+				arg_248_3()
 			end
 
-			arg_246_0:unfrozen()
+			arg_248_0:unfrozen()
 		end
 
-		var_247_0:GetComponent("DftAniEvent"):SetEndEvent(var_247_1)
+		var_249_0:GetComponent("DftAniEvent"):SetEndEvent(var_249_1)
 
-		if arg_246_2 then
-			onButton(arg_246_0, var_247_0, var_247_1, SFX_PANEL)
+		if arg_248_2 then
+			onButton(arg_248_0, var_249_0, var_249_1, SFX_PANEL)
 		else
-			removeOnButton(var_247_0)
+			removeOnButton(var_249_0)
 		end
 
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 	end
 
-	if not arg_246_0.airStrike then
-		PoolMgr.GetInstance():GetUI("AirStrike", true, function(arg_249_0)
-			arg_249_0:SetActive(true)
+	if not arg_248_0.airStrike then
+		PoolMgr.GetInstance():GetUI("AirStrike", true, function(arg_251_0)
+			arg_251_0:SetActive(true)
 
-			arg_246_0.airStrike = arg_249_0
+			arg_248_0.airStrike = arg_251_0
 
-			var_246_0()
+			var_248_0()
 		end)
 	else
-		var_246_0()
+		var_248_0()
 	end
 end
 
-function var_0_0.destroyAirStrike(arg_250_0)
-	if arg_250_0.airStrike then
-		arg_250_0.airStrike:GetComponent("DftAniEvent"):SetEndEvent(nil)
-		PoolMgr.GetInstance():ReturnUI("AirStrike", arg_250_0.airStrike)
+function var_0_0.destroyAirStrike(arg_252_0)
+	if arg_252_0.airStrike then
+		arg_252_0.airStrike:GetComponent("DftAniEvent"):SetEndEvent(nil)
+		PoolMgr.GetInstance():ReturnUI("AirStrike", arg_252_0.airStrike)
 
-		arg_250_0.airStrike = nil
+		arg_252_0.airStrike = nil
 	end
 end
 
-function var_0_0.doPlayAnim(arg_251_0, arg_251_1, arg_251_2, arg_251_3)
-	arg_251_0.uiAnims = arg_251_0.uiAnims or {}
+function var_0_0.doPlayAnim(arg_253_0, arg_253_1, arg_253_2, arg_253_3)
+	arg_253_0.uiAnims = arg_253_0.uiAnims or {}
 
-	local var_251_0 = arg_251_0.uiAnims[arg_251_1]
+	local var_253_0 = arg_253_0.uiAnims[arg_253_1]
 
-	local function var_251_1()
-		arg_251_0.playing = true
+	local function var_253_1()
+		arg_253_0.playing = true
 
-		arg_251_0:frozen()
-		var_251_0:SetActive(true)
+		arg_253_0:frozen()
+		var_253_0:SetActive(true)
 
-		local var_252_0 = tf(var_251_0)
+		local var_254_0 = tf(var_253_0)
 
-		pg.UIMgr.GetInstance():OverlayPanel(var_252_0)
+		pg.UIMgr.GetInstance():OverlayPanel(var_254_0)
 
-		if arg_251_3 then
-			arg_251_3(var_251_0)
+		if arg_253_3 then
+			arg_253_3(var_253_0)
 		end
 
-		var_252_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_253_0)
-			arg_251_0.playing = false
+		var_254_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_255_0)
+			arg_253_0.playing = false
 
-			pg.UIMgr.GetInstance():UnOverlayPanel(var_252_0, arg_251_0._tf)
+			pg.UIMgr.GetInstance():UnOverlayPanel(var_254_0, arg_253_0._tf)
 
-			if arg_251_2 then
-				arg_251_2(var_251_0)
+			if arg_253_2 then
+				arg_253_2(var_253_0)
 			end
 
-			arg_251_0:unfrozen()
+			arg_253_0:unfrozen()
 		end)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 	end
 
-	if not var_251_0 then
-		PoolMgr.GetInstance():GetUI(arg_251_1, true, function(arg_254_0)
-			arg_254_0:SetActive(true)
+	if not var_253_0 then
+		PoolMgr.GetInstance():GetUI(arg_253_1, true, function(arg_256_0)
+			arg_256_0:SetActive(true)
 
-			arg_251_0.uiAnims[arg_251_1] = arg_254_0
-			var_251_0 = arg_251_0.uiAnims[arg_251_1]
+			arg_253_0.uiAnims[arg_253_1] = arg_256_0
+			var_253_0 = arg_253_0.uiAnims[arg_253_1]
 
-			var_251_1()
+			var_253_1()
 		end)
 	else
-		var_251_1()
+		var_253_1()
 	end
 end
 
-function var_0_0.destroyUIAnims(arg_255_0)
-	if arg_255_0.uiAnims then
-		for iter_255_0, iter_255_1 in pairs(arg_255_0.uiAnims) do
-			pg.UIMgr.GetInstance():UnOverlayPanel(tf(iter_255_1), arg_255_0._tf)
-			iter_255_1:GetComponent("DftAniEvent"):SetEndEvent(nil)
-			PoolMgr.GetInstance():ReturnUI(iter_255_0, iter_255_1)
+function var_0_0.destroyUIAnims(arg_257_0)
+	if arg_257_0.uiAnims then
+		for iter_257_0, iter_257_1 in pairs(arg_257_0.uiAnims) do
+			pg.UIMgr.GetInstance():UnOverlayPanel(tf(iter_257_1), arg_257_0._tf)
+			iter_257_1:GetComponent("DftAniEvent"):SetEndEvent(nil)
+			PoolMgr.GetInstance():ReturnUI(iter_257_0, iter_257_1)
 		end
 
-		arg_255_0.uiAnims = nil
+		arg_257_0.uiAnims = nil
 	end
 end
 
-function var_0_0.doPlayTorpedo(arg_256_0, arg_256_1)
-	local function var_256_0()
-		arg_256_0.playing = true
+function var_0_0.doPlayTorpedo(arg_258_0, arg_258_1)
+	local function var_258_0()
+		arg_258_0.playing = true
 
-		arg_256_0:frozen()
-		arg_256_0.torpetoAni:SetActive(true)
+		arg_258_0:frozen()
+		arg_258_0.torpetoAni:SetActive(true)
 
-		local var_257_0 = tf(arg_256_0.torpetoAni)
+		local var_259_0 = tf(arg_258_0.torpetoAni)
 
-		var_257_0:SetParent(arg_256_0.topPanel, false)
-		var_257_0:SetAsLastSibling()
-		var_257_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_258_0)
-			arg_256_0.playing = false
+		var_259_0:SetParent(arg_258_0.topPanel, false)
+		var_259_0:SetAsLastSibling()
+		var_259_0:GetComponent("DftAniEvent"):SetEndEvent(function(arg_260_0)
+			arg_258_0.playing = false
 
-			SetActive(arg_256_0.torpetoAni, false)
+			SetActive(arg_258_0.torpetoAni, false)
 
-			if arg_256_1 then
-				arg_256_1()
+			if arg_258_1 then
+				arg_258_1()
 			end
 
-			arg_256_0:unfrozen()
+			arg_258_0:unfrozen()
 		end)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 	end
 
-	if not arg_256_0.torpetoAni then
-		PoolMgr.GetInstance():GetUI("Torpeto", true, function(arg_259_0)
-			arg_259_0:SetActive(true)
+	if not arg_258_0.torpetoAni then
+		PoolMgr.GetInstance():GetUI("Torpeto", true, function(arg_261_0)
+			arg_261_0:SetActive(true)
 
-			arg_256_0.torpetoAni = arg_259_0
+			arg_258_0.torpetoAni = arg_261_0
 
-			var_256_0()
+			var_258_0()
 		end)
 	else
-		var_256_0()
+		var_258_0()
 	end
 end
 
-function var_0_0.destroyTorpedo(arg_260_0)
-	if arg_260_0.torpetoAni then
-		arg_260_0.torpetoAni:GetComponent("DftAniEvent"):SetEndEvent(nil)
-		PoolMgr.GetInstance():ReturnUI("Torpeto", arg_260_0.torpetoAni)
+function var_0_0.destroyTorpedo(arg_262_0)
+	if arg_262_0.torpetoAni then
+		arg_262_0.torpetoAni:GetComponent("DftAniEvent"):SetEndEvent(nil)
+		PoolMgr.GetInstance():ReturnUI("Torpeto", arg_262_0.torpetoAni)
 
-		arg_260_0.torpetoAni = nil
+		arg_262_0.torpetoAni = nil
 	end
 end
 
-function var_0_0.doPlayStrikeAnim(arg_261_0, arg_261_1, arg_261_2, arg_261_3)
-	arg_261_0.strikeAnims = arg_261_0.strikeAnims or {}
+function var_0_0.doPlayStrikeAnim(arg_263_0, arg_263_1, arg_263_2, arg_263_3)
+	arg_263_0.strikeAnims = arg_263_0.strikeAnims or {}
 
-	local var_261_0
-	local var_261_1
-	local var_261_2
+	local var_263_0
+	local var_263_1
+	local var_263_2
 
-	local function var_261_3()
-		if coroutine.status(var_261_2) == "suspended" then
-			local var_262_0, var_262_1 = coroutine.resume(var_261_2)
+	local function var_263_3()
+		if coroutine.status(var_263_2) == "suspended" then
+			local var_264_0, var_264_1 = coroutine.resume(var_263_2)
 
-			assert(var_262_0, debug.traceback(var_261_2, var_262_1))
+			assert(var_264_0, debug.traceback(var_263_2, var_264_1))
 		end
 	end
 
-	var_261_2 = coroutine.create(function()
-		arg_261_0.playing = true
+	var_263_2 = coroutine.create(function()
+		arg_263_0.playing = true
 
-		arg_261_0:frozen()
+		arg_263_0:frozen()
 
-		local var_263_0 = arg_261_0.strikeAnims[arg_261_2]
+		local var_265_0 = arg_263_0.strikeAnims[arg_263_2]
 
-		setActive(var_263_0, true)
+		setActive(var_265_0, true)
 
-		local var_263_1 = tf(var_263_0)
-		local var_263_2 = findTF(var_263_1, "torpedo")
-		local var_263_3 = findTF(var_263_1, "mask/painting")
-		local var_263_4 = findTF(var_263_1, "ship")
+		local var_265_1 = tf(var_265_0)
+		local var_265_2 = findTF(var_265_1, "torpedo")
+		local var_265_3 = findTF(var_265_1, "mask/painting")
+		local var_265_4 = findTF(var_265_1, "ship")
 
-		setParent(var_261_0, var_263_3:Find("fitter"), false)
-		var_261_1:SetParent(var_263_4)
-		setActive(var_263_4, false)
-		setActive(var_263_2, false)
-		var_263_1:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
-		var_263_1:SetAsLastSibling()
+		setParent(var_263_0, var_265_3:Find("fitter"), false)
+		var_263_1:SetParent(var_265_4)
+		setActive(var_265_4, false)
+		setActive(var_265_2, false)
+		var_265_1:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
+		var_265_1:SetAsLastSibling()
 
-		local var_263_5 = var_263_1:GetComponent("DftAniEvent")
-		local var_263_6 = var_261_1:GetSkeletonGraphic()
+		local var_265_5 = var_265_1:GetComponent("DftAniEvent")
+		local var_265_6 = var_263_1:GetSkeletonGraphic()
 
-		var_263_5:SetStartEvent(function(arg_264_0)
-			var_261_1:SetAction("attack", 0)
+		var_265_5:SetStartEvent(function(arg_266_0)
+			var_263_1:SetAction("attack", 0)
 
-			var_263_6.freeze = true
+			var_265_6.freeze = true
 		end)
-		var_263_5:SetTriggerEvent(function(arg_265_0)
-			var_263_6.freeze = false
+		var_265_5:SetTriggerEvent(function(arg_267_0)
+			var_265_6.freeze = false
 
-			var_261_1:SetActionCallBack(function(arg_266_0)
-				if arg_266_0 == "action" then
+			var_263_1:SetActionCallBack(function(arg_268_0)
+				if arg_268_0 == "action" then
 					-- block empty
-				elseif arg_266_0 == "finish" then
-					var_263_6.freeze = true
+				elseif arg_268_0 == "finish" then
+					var_265_6.freeze = true
 				end
 			end)
 		end)
-		var_263_5:SetEndEvent(function(arg_267_0)
-			var_263_6.freeze = false
+		var_265_5:SetEndEvent(function(arg_269_0)
+			var_265_6.freeze = false
 
-			var_261_3()
+			var_263_3()
 		end)
-		onButton(arg_261_0, var_263_1, var_261_3, SFX_CANCEL)
+		onButton(arg_263_0, var_265_1, var_263_3, SFX_CANCEL)
 		coroutine.yield()
-		retPaintingPrefab(var_263_3, arg_261_1:getPainting())
-		var_261_1:SetActionCallBack(nil)
+		retPaintingPrefab(var_265_3, arg_263_1:getPainting())
+		var_263_1:SetActionCallBack(nil)
 
-		var_263_6.freeze = false
+		var_265_6.freeze = false
 
-		var_261_1:Dispose()
-		setActive(var_263_0, false)
+		var_263_1:Dispose()
+		setActive(var_265_0, false)
 
-		arg_261_0.playing = false
+		arg_263_0.playing = false
 
-		arg_261_0:unfrozen()
+		arg_263_0:unfrozen()
 
-		if arg_261_3 then
-			arg_261_3()
+		if arg_263_3 then
+			arg_263_3()
 		end
 	end)
 
-	local function var_261_4()
-		if arg_261_0.strikeAnims[arg_261_2] and var_261_0 and var_261_1 then
-			var_261_3()
+	local function var_263_4()
+		if arg_263_0.strikeAnims[arg_263_2] and var_263_0 and var_263_1 then
+			var_263_3()
 		end
 	end
 
-	PoolMgr.GetInstance():GetPainting(arg_261_1:getPainting(), true, function(arg_269_0)
-		var_261_0 = arg_269_0
+	PoolMgr.GetInstance():GetPainting(arg_263_1:getPainting(), true, function(arg_271_0)
+		var_263_0 = arg_271_0
 
-		ShipExpressionHelper.SetExpression(var_261_0, arg_261_1:getPainting())
-		var_261_4()
+		ShipExpressionHelper.SetExpression(var_263_0, arg_263_1:getPainting())
+		var_263_4()
 	end)
 
-	var_261_1 = SpineAnimChar.New()
+	var_263_1 = SpineAnimChar.New()
 
-	var_261_1:SetPaint(arg_261_1:getPrefab())
-	var_261_1:Load(true, function(arg_270_0)
-		var_261_1:SetLocalScale(Vector3.one)
-		var_261_4()
+	var_263_1:SetPaint(arg_263_1:getPrefab())
+	var_263_1:Load(true, function(arg_272_0)
+		var_263_1:SetLocalScale(Vector3.one)
+		var_263_4()
 	end)
 
-	if not arg_261_0.strikeAnims[arg_261_2] then
-		PoolMgr.GetInstance():GetUI(arg_261_2, true, function(arg_271_0)
-			arg_261_0.strikeAnims[arg_261_2] = arg_271_0
+	if not arg_263_0.strikeAnims[arg_263_2] then
+		PoolMgr.GetInstance():GetUI(arg_263_2, true, function(arg_273_0)
+			arg_263_0.strikeAnims[arg_263_2] = arg_273_0
 
-			var_261_4()
+			var_263_4()
 		end)
 	end
 end
 
-function var_0_0.destroyStrikeAnim(arg_272_0)
-	if arg_272_0.strikeAnims then
-		for iter_272_0, iter_272_1 in pairs(arg_272_0.strikeAnims) do
-			iter_272_1:GetComponent("DftAniEvent"):SetEndEvent(nil)
-			PoolMgr.GetInstance():ReturnUI(iter_272_0, iter_272_1)
+function var_0_0.destroyStrikeAnim(arg_274_0)
+	if arg_274_0.strikeAnims then
+		for iter_274_0, iter_274_1 in pairs(arg_274_0.strikeAnims) do
+			iter_274_1:GetComponent("DftAniEvent"):SetEndEvent(nil)
+			PoolMgr.GetInstance():ReturnUI(iter_274_0, iter_274_1)
 		end
 
-		arg_272_0.strikeAnims = nil
+		arg_274_0.strikeAnims = nil
 	end
 end
 
-function var_0_0.doPlayEnemyAnim(arg_273_0, arg_273_1, arg_273_2, arg_273_3)
-	arg_273_0.strikeAnims = arg_273_0.strikeAnims or {}
+function var_0_0.doPlayEnemyAnim(arg_275_0, arg_275_1, arg_275_2, arg_275_3)
+	arg_275_0.strikeAnims = arg_275_0.strikeAnims or {}
 
-	local var_273_0
-	local var_273_1
+	local var_275_0
+	local var_275_1
 
-	local function var_273_2()
-		if coroutine.status(var_273_1) == "suspended" then
-			local var_274_0, var_274_1 = coroutine.resume(var_273_1)
+	local function var_275_2()
+		if coroutine.status(var_275_1) == "suspended" then
+			local var_276_0, var_276_1 = coroutine.resume(var_275_1)
 
-			assert(var_274_0, debug.traceback(var_273_1, var_274_1))
+			assert(var_276_0, debug.traceback(var_275_1, var_276_1))
 		end
 	end
 
-	var_273_1 = coroutine.create(function()
-		arg_273_0.playing = true
+	var_275_1 = coroutine.create(function()
+		arg_275_0.playing = true
 
-		arg_273_0:frozen()
+		arg_275_0:frozen()
 
-		local var_275_0 = arg_273_0.strikeAnims[arg_273_2]
+		local var_277_0 = arg_275_0.strikeAnims[arg_275_2]
 
-		setActive(var_275_0, true)
+		setActive(var_277_0, true)
 
-		local var_275_1 = tf(var_275_0)
-		local var_275_2 = findTF(var_275_1, "torpedo")
-		local var_275_3 = findTF(var_275_1, "ship")
+		local var_277_1 = tf(var_277_0)
+		local var_277_2 = findTF(var_277_1, "torpedo")
+		local var_277_3 = findTF(var_277_1, "ship")
 
-		var_273_0:SetParent(var_275_3)
-		setActive(var_275_3, false)
-		setActive(var_275_2, false)
-		var_275_1:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
-		var_275_1:SetAsLastSibling()
+		var_275_0:SetParent(var_277_3)
+		setActive(var_277_3, false)
+		setActive(var_277_2, false)
+		var_277_1:SetParent(pg.UIMgr.GetInstance().OverlayMain.transform, false)
+		var_277_1:SetAsLastSibling()
 
-		local var_275_4 = var_275_1:GetComponent("DftAniEvent")
-		local var_275_5 = var_273_0:GetSkeletonGraphic()
+		local var_277_4 = var_277_1:GetComponent("DftAniEvent")
+		local var_277_5 = var_275_0:GetSkeletonGraphic()
 
-		var_275_4:SetStartEvent(function(arg_276_0)
-			var_273_0:SetAction("attack", 0)
+		var_277_4:SetStartEvent(function(arg_278_0)
+			var_275_0:SetAction("attack", 0)
 
-			var_275_5.freeze = true
+			var_277_5.freeze = true
 		end)
-		var_275_4:SetTriggerEvent(function(arg_277_0)
-			var_275_5.freeze = false
+		var_277_4:SetTriggerEvent(function(arg_279_0)
+			var_277_5.freeze = false
 
-			var_273_0:SetActionCallBack(function(arg_278_0)
-				if arg_278_0 == "action" then
+			var_275_0:SetActionCallBack(function(arg_280_0)
+				if arg_280_0 == "action" then
 					-- block empty
-				elseif arg_278_0 == "finish" then
-					var_275_5.freeze = true
+				elseif arg_280_0 == "finish" then
+					var_277_5.freeze = true
 				end
 			end)
 		end)
-		var_275_4:SetEndEvent(function(arg_279_0)
-			var_275_5.freeze = false
+		var_277_4:SetEndEvent(function(arg_281_0)
+			var_277_5.freeze = false
 
-			var_273_2()
+			var_275_2()
 		end)
-		onButton(arg_273_0, var_275_1, var_273_2, SFX_CANCEL)
+		onButton(arg_275_0, var_277_1, var_275_2, SFX_CANCEL)
 		coroutine.yield()
-		var_273_0:SetActionCallBack(nil)
+		var_275_0:SetActionCallBack(nil)
 
-		var_275_5.freeze = false
+		var_277_5.freeze = false
 
-		var_273_0:Dispose()
-		setActive(var_275_0, false)
+		var_275_0:Dispose()
+		setActive(var_277_0, false)
 
-		arg_273_0.playing = false
+		arg_275_0.playing = false
 
-		arg_273_0:unfrozen()
+		arg_275_0:unfrozen()
 
-		if arg_273_3 then
-			arg_273_3()
+		if arg_275_3 then
+			arg_275_3()
 		end
 	end)
 
-	local function var_273_3()
-		if arg_273_0.strikeAnims[arg_273_2] and var_273_0 then
-			var_273_2()
+	local function var_275_3()
+		if arg_275_0.strikeAnims[arg_275_2] and var_275_0 then
+			var_275_2()
 		end
 	end
 
-	var_273_0 = SpineAnimChar.New()
+	var_275_0 = SpineAnimChar.New()
 
-	var_273_0:SetPaint(arg_273_1:getPrefab())
-	var_273_0:Load(true, function(arg_281_0)
-		arg_281_0:SetLocalScale(Vector3.one)
-		var_273_3()
+	var_275_0:SetPaint(arg_275_1:getPrefab())
+	var_275_0:Load(true, function(arg_283_0)
+		arg_283_0:SetLocalScale(Vector3.one)
+		var_275_3()
 	end)
 
-	if not arg_273_0.strikeAnims[arg_273_2] then
-		PoolMgr.GetInstance():GetUI(arg_273_2, true, function(arg_282_0)
-			arg_273_0.strikeAnims[arg_273_2] = arg_282_0
+	if not arg_275_0.strikeAnims[arg_275_2] then
+		PoolMgr.GetInstance():GetUI(arg_275_2, true, function(arg_284_0)
+			arg_275_0.strikeAnims[arg_275_2] = arg_284_0
 
-			var_273_3()
+			var_275_3()
 		end)
 	end
 end
 
-function var_0_0.doPlayCommander(arg_283_0, arg_283_1, arg_283_2)
-	arg_283_0:frozen()
-	setActive(arg_283_0.commanderTinkle, true)
+function var_0_0.doPlayCommander(arg_285_0, arg_285_1, arg_285_2)
+	arg_285_0:frozen()
+	setActive(arg_285_0.commanderTinkle, true)
 
-	local var_283_0 = arg_283_1:getSkills()
+	local var_285_0 = arg_285_1:getSkills()
 
-	setText(arg_283_0.commanderTinkle:Find("name"), #var_283_0 > 0 and var_283_0[1]:getConfig("name") or "")
-	setImageSprite(arg_283_0.commanderTinkle:Find("icon"), GetSpriteFromAtlas("commanderhrz/" .. arg_283_1:getConfig("painting"), ""))
+	setText(arg_285_0.commanderTinkle:Find("name"), #var_285_0 > 0 and var_285_0[1]:getConfig("name") or "")
+	setImageSprite(arg_285_0.commanderTinkle:Find("icon"), GetSpriteFromAtlas("commanderhrz/" .. arg_285_1:getConfig("painting"), ""))
 
-	local var_283_1 = arg_283_0.commanderTinkle:GetComponent(typeof(CanvasGroup))
+	local var_285_1 = arg_285_0.commanderTinkle:GetComponent(typeof(CanvasGroup))
 
-	var_283_1.alpha = 0
+	var_285_1.alpha = 0
 
-	local var_283_2 = Vector2(248, 237)
+	local var_285_2 = Vector2(248, 237)
 
-	LeanTween.value(go(arg_283_0.commanderTinkle), 0, 1, 0.5):setOnUpdate(System.Action_float(function(arg_284_0)
-		local var_284_0 = arg_283_0.commanderTinkle.localPosition
+	LeanTween.value(go(arg_285_0.commanderTinkle), 0, 1, 0.5):setOnUpdate(System.Action_float(function(arg_286_0)
+		local var_286_0 = arg_285_0.commanderTinkle.localPosition
 
-		var_284_0.x = var_283_2.x + -100 * (1 - arg_284_0)
-		arg_283_0.commanderTinkle.localPosition = var_284_0
-		var_283_1.alpha = arg_284_0
+		var_286_0.x = var_285_2.x + -100 * (1 - arg_286_0)
+		arg_285_0.commanderTinkle.localPosition = var_286_0
+		var_285_1.alpha = arg_286_0
 	end)):setEase(LeanTweenType.easeOutSine)
-	LeanTween.value(go(arg_283_0.commanderTinkle), 0, 1, 0.3):setDelay(0.7):setOnUpdate(System.Action_float(function(arg_285_0)
-		local var_285_0 = arg_283_0.commanderTinkle.localPosition
+	LeanTween.value(go(arg_285_0.commanderTinkle), 0, 1, 0.3):setDelay(0.7):setOnUpdate(System.Action_float(function(arg_287_0)
+		local var_287_0 = arg_285_0.commanderTinkle.localPosition
 
-		var_285_0.x = var_283_2.x + 100 * arg_285_0
-		arg_283_0.commanderTinkle.localPosition = var_285_0
-		var_283_1.alpha = 1 - arg_285_0
+		var_287_0.x = var_285_2.x + 100 * arg_287_0
+		arg_285_0.commanderTinkle.localPosition = var_287_0
+		var_285_1.alpha = 1 - arg_287_0
 	end)):setOnComplete(System.Action(function()
-		if arg_283_2 then
-			arg_283_2()
+		if arg_285_2 then
+			arg_285_2()
 		end
 
-		arg_283_0:unfrozen()
+		arg_285_0:unfrozen()
 	end))
 end
 
-function var_0_0.strikeEnemy(arg_287_0, arg_287_1, arg_287_2, arg_287_3)
-	local var_287_0 = arg_287_0.grid:shakeCell(arg_287_1)
+function var_0_0.strikeEnemy(arg_289_0, arg_289_1, arg_289_2, arg_289_3)
+	local var_289_0 = arg_289_0.grid:shakeCell(arg_289_1)
 
-	if not var_287_0 then
-		arg_287_3()
+	if not var_289_0 then
+		arg_289_3()
 
 		return
 	end
 
-	arg_287_0:easeDamage(var_287_0, arg_287_2, function()
-		arg_287_3()
+	arg_289_0:easeDamage(var_289_0, arg_289_2, function()
+		arg_289_3()
 	end)
 end
 
-function var_0_0.easeDamage(arg_289_0, arg_289_1, arg_289_2, arg_289_3)
-	arg_289_0:frozen()
+function var_0_0.easeDamage(arg_291_0, arg_291_1, arg_291_2, arg_291_3)
+	arg_291_0:frozen()
 
-	local var_289_0 = arg_289_0.levelCam:WorldToScreenPoint(arg_289_1.position)
-	local var_289_1 = tf(arg_289_0:GetDamageText())
+	local var_291_0 = arg_291_0.levelCam:WorldToScreenPoint(arg_291_1.position)
+	local var_291_1 = tf(arg_291_0:GetDamageText())
 
-	var_289_1.position = arg_289_0.uiCam:ScreenToWorldPoint(var_289_0)
+	var_291_1.position = arg_291_0.uiCam:ScreenToWorldPoint(var_291_0)
 
-	local var_289_2 = var_289_1.localPosition
+	local var_291_2 = var_291_1.localPosition
 
-	var_289_2.y = var_289_2.y + 40
-	var_289_2.z = 0
+	var_291_2.y = var_291_2.y + 40
+	var_291_2.z = 0
 
-	setText(var_289_1, arg_289_2)
+	setText(var_291_1, arg_291_2)
 
-	var_289_1.localPosition = var_289_2
+	var_291_1.localPosition = var_291_2
 
-	LeanTween.value(go(var_289_1), 0, 1, 1):setOnUpdate(System.Action_float(function(arg_290_0)
-		local var_290_0 = var_289_1.localPosition
+	LeanTween.value(go(var_291_1), 0, 1, 1):setOnUpdate(System.Action_float(function(arg_292_0)
+		local var_292_0 = var_291_1.localPosition
 
-		var_290_0.y = var_289_2.y + 60 * arg_290_0
-		var_289_1.localPosition = var_290_0
+		var_292_0.y = var_291_2.y + 60 * arg_292_0
+		var_291_1.localPosition = var_292_0
 
-		setTextAlpha(var_289_1, 1 - arg_290_0)
+		setTextAlpha(var_291_1, 1 - arg_292_0)
 	end)):setOnComplete(System.Action(function()
-		arg_289_0:ReturnDamageText(var_289_1)
-		arg_289_0:unfrozen()
+		arg_291_0:ReturnDamageText(var_291_1)
+		arg_291_0:unfrozen()
 
-		if arg_289_3 then
-			arg_289_3()
+		if arg_291_3 then
+			arg_291_3()
 		end
 	end))
 end
 
-function var_0_0.easeAvoid(arg_292_0, arg_292_1, arg_292_2)
-	arg_292_0:frozen()
+function var_0_0.easeAvoid(arg_294_0, arg_294_1, arg_294_2)
+	arg_294_0:frozen()
 
-	local var_292_0 = arg_292_0.levelCam:WorldToScreenPoint(arg_292_1)
+	local var_294_0 = arg_294_0.levelCam:WorldToScreenPoint(arg_294_1)
 
-	arg_292_0.avoidText.position = arg_292_0.uiCam:ScreenToWorldPoint(var_292_0)
+	arg_294_0.avoidText.position = arg_294_0.uiCam:ScreenToWorldPoint(var_294_0)
 
-	local var_292_1 = arg_292_0.avoidText.localPosition
+	local var_294_1 = arg_294_0.avoidText.localPosition
 
-	var_292_1.z = 0
-	arg_292_0.avoidText.localPosition = var_292_1
+	var_294_1.z = 0
+	arg_294_0.avoidText.localPosition = var_294_1
 
-	setActive(arg_292_0.avoidText, true)
+	setActive(arg_294_0.avoidText, true)
 
-	local var_292_2 = arg_292_0.avoidText:Find("avoid")
+	local var_294_2 = arg_294_0.avoidText:Find("avoid")
 
-	LeanTween.value(go(arg_292_0.avoidText), 0, 1, 1):setOnUpdate(System.Action_float(function(arg_293_0)
-		local var_293_0 = arg_292_0.avoidText.localPosition
+	LeanTween.value(go(arg_294_0.avoidText), 0, 1, 1):setOnUpdate(System.Action_float(function(arg_295_0)
+		local var_295_0 = arg_294_0.avoidText.localPosition
 
-		var_293_0.y = var_292_1.y + 100 * arg_293_0
-		arg_292_0.avoidText.localPosition = var_293_0
+		var_295_0.y = var_294_1.y + 100 * arg_295_0
+		arg_294_0.avoidText.localPosition = var_295_0
 
-		setImageAlpha(arg_292_0.avoidText, 1 - arg_293_0)
-		setImageAlpha(var_292_2, 1 - arg_293_0)
+		setImageAlpha(arg_294_0.avoidText, 1 - arg_295_0)
+		setImageAlpha(var_294_2, 1 - arg_295_0)
 	end)):setOnComplete(System.Action(function()
-		setActive(arg_292_0.avoidText, false)
-		arg_292_0:unfrozen()
+		setActive(arg_294_0.avoidText, false)
+		arg_294_0:unfrozen()
 
-		if arg_292_2 then
-			arg_292_2()
+		if arg_294_2 then
+			arg_294_2()
 		end
 	end))
 end
 
-function var_0_0.GetDamageText(arg_295_0)
-	local var_295_0 = table.remove(arg_295_0.damageTextPool)
+function var_0_0.GetDamageText(arg_297_0)
+	local var_297_0 = table.remove(arg_297_0.damageTextPool)
 
-	if not var_295_0 then
-		var_295_0 = Instantiate(arg_295_0.damageTextTemplate)
+	if not var_297_0 then
+		var_297_0 = Instantiate(arg_297_0.damageTextTemplate)
 
-		local var_295_1 = tf(arg_295_0.damageTextTemplate):GetSiblingIndex()
+		local var_297_1 = tf(arg_297_0.damageTextTemplate):GetSiblingIndex()
 
-		setParent(var_295_0, tf(arg_295_0.damageTextTemplate).parent)
-		tf(var_295_0):SetSiblingIndex(var_295_1 + 1)
+		setParent(var_297_0, tf(arg_297_0.damageTextTemplate).parent)
+		tf(var_297_0):SetSiblingIndex(var_297_1 + 1)
 	end
 
-	table.insert(arg_295_0.damageTextActive, var_295_0)
-	setActive(var_295_0, true)
+	table.insert(arg_297_0.damageTextActive, var_297_0)
+	setActive(var_297_0, true)
 
-	return var_295_0
+	return var_297_0
 end
 
-function var_0_0.ReturnDamageText(arg_296_0, arg_296_1)
-	assert(arg_296_1)
+function var_0_0.ReturnDamageText(arg_298_0, arg_298_1)
+	assert(arg_298_1)
 
-	if not arg_296_1 then
+	if not arg_298_1 then
 		return
 	end
 
-	arg_296_1 = go(arg_296_1)
+	arg_298_1 = go(arg_298_1)
 
-	table.removebyvalue(arg_296_0.damageTextActive, arg_296_1)
-	table.insert(arg_296_0.damageTextPool, arg_296_1)
-	setActive(arg_296_1, false)
+	table.removebyvalue(arg_298_0.damageTextActive, arg_298_1)
+	table.insert(arg_298_0.damageTextPool, arg_298_1)
+	setActive(arg_298_1, false)
 end
 
-function var_0_0.resetLevelGrid(arg_297_0)
-	arg_297_0.dragLayer.localPosition = Vector3.zero
+function var_0_0.resetLevelGrid(arg_299_0)
+	arg_299_0.dragLayer.localPosition = Vector3.zero
 end
 
-function var_0_0.ShowCurtains(arg_298_0, arg_298_1)
-	setActive(arg_298_0.curtain, arg_298_1)
+function var_0_0.ShowCurtains(arg_300_0, arg_300_1)
+	setActive(arg_300_0.curtain, arg_300_1)
 end
 
-function var_0_0.frozen(arg_299_0)
-	local var_299_0 = arg_299_0.frozenCount
+function var_0_0.frozen(arg_301_0)
+	local var_301_0 = arg_301_0.frozenCount
 
-	arg_299_0.frozenCount = arg_299_0.frozenCount + 1
-	arg_299_0.canvasGroup.blocksRaycasts = arg_299_0.frozenCount == 0
+	arg_301_0.frozenCount = arg_301_0.frozenCount + 1
+	arg_301_0.canvasGroup.blocksRaycasts = arg_301_0.frozenCount == 0
 
-	if var_299_0 == 0 and arg_299_0.frozenCount ~= 0 then
-		arg_299_0:emit(LevelUIConst.ON_FROZEN)
+	if var_301_0 == 0 and arg_301_0.frozenCount ~= 0 then
+		arg_301_0:emit(LevelUIConst.ON_FROZEN)
 	end
 end
 
-function var_0_0.unfrozen(arg_300_0, arg_300_1)
-	if arg_300_0.exited then
+function var_0_0.unfrozen(arg_302_0, arg_302_1)
+	if arg_302_0.exited then
 		return
 	end
 
-	local var_300_0 = arg_300_0.frozenCount
-	local var_300_1 = arg_300_1 == -1 and arg_300_0.frozenCount or arg_300_1 or 1
+	local var_302_0 = arg_302_0.frozenCount
+	local var_302_1 = arg_302_1 == -1 and arg_302_0.frozenCount or arg_302_1 or 1
 
-	arg_300_0.frozenCount = arg_300_0.frozenCount - var_300_1
-	arg_300_0.canvasGroup.blocksRaycasts = arg_300_0.frozenCount == 0
+	arg_302_0.frozenCount = arg_302_0.frozenCount - var_302_1
+	arg_302_0.canvasGroup.blocksRaycasts = arg_302_0.frozenCount == 0
 
-	if var_300_0 ~= 0 and arg_300_0.frozenCount == 0 then
-		arg_300_0:emit(LevelUIConst.ON_UNFROZEN)
+	if var_302_0 ~= 0 and arg_302_0.frozenCount == 0 then
+		arg_302_0:emit(LevelUIConst.ON_UNFROZEN)
 	end
 end
 
-function var_0_0.isfrozen(arg_301_0)
-	return arg_301_0.frozenCount > 0
+function var_0_0.isfrozen(arg_303_0)
+	return arg_303_0.frozenCount > 0
 end
 
-function var_0_0.enableLevelCamera(arg_302_0)
-	arg_302_0.levelCamIndices = math.max(arg_302_0.levelCamIndices - 1, 0)
+function var_0_0.enableLevelCamera(arg_304_0)
+	arg_304_0.levelCamIndices = math.max(arg_304_0.levelCamIndices - 1, 0)
 
-	if arg_302_0.levelCamIndices == 0 then
-		arg_302_0.levelCam.enabled = true
+	if arg_304_0.levelCamIndices == 0 then
+		arg_304_0.levelCam.enabled = true
 
 		pg.LayerWeightMgr.GetInstance():CreateRefreshHandler()
 	end
 end
 
-function var_0_0.disableLevelCamera(arg_303_0)
-	arg_303_0.levelCamIndices = arg_303_0.levelCamIndices + 1
+function var_0_0.disableLevelCamera(arg_305_0)
+	arg_305_0.levelCamIndices = arg_305_0.levelCamIndices + 1
 
-	if arg_303_0.levelCamIndices > 0 then
-		arg_303_0.levelCam.enabled = false
+	if arg_305_0.levelCamIndices > 0 then
+		arg_305_0.levelCam.enabled = false
 
 		pg.LayerWeightMgr.GetInstance():CreateRefreshHandler()
 	end
 end
 
-function var_0_0.RecordTween(arg_304_0, arg_304_1, arg_304_2)
-	arg_304_0.tweens[arg_304_1] = arg_304_2
+function var_0_0.RecordTween(arg_306_0, arg_306_1, arg_306_2)
+	arg_306_0.tweens[arg_306_1] = arg_306_2
 end
 
-function var_0_0.DeleteTween(arg_305_0, arg_305_1)
-	local var_305_0 = arg_305_0.tweens[arg_305_1]
+function var_0_0.DeleteTween(arg_307_0, arg_307_1)
+	local var_307_0 = arg_307_0.tweens[arg_307_1]
 
-	if var_305_0 then
-		LeanTween.cancel(var_305_0)
+	if var_307_0 then
+		LeanTween.cancel(var_307_0)
 
-		arg_305_0.tweens[arg_305_1] = nil
+		arg_307_0.tweens[arg_307_1] = nil
 	end
 end
 
-function var_0_0.openCommanderPanel(arg_306_0, arg_306_1, arg_306_2, arg_306_3)
-	local var_306_0 = arg_306_2.id
+function var_0_0.openCommanderPanel(arg_308_0, arg_308_1, arg_308_2, arg_308_3)
+	local var_308_0 = arg_308_2.id
 
-	arg_306_0.levelCMDFormationView:setCallback(function(arg_307_0)
-		if not arg_306_3 then
-			if arg_307_0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
-				arg_306_0:emit(LevelMediator2.ON_COMMANDER_SKILL, arg_307_0.skill)
-			elseif arg_307_0.type == LevelUIConst.COMMANDER_OP_ADD then
-				arg_306_0.contextData.commanderSelected = {
-					chapterId = var_306_0,
-					fleetId = arg_306_1.id
+	arg_308_0.levelCMDFormationView:setCallback(function(arg_309_0)
+		if not arg_308_3 then
+			if arg_309_0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
+				arg_308_0:emit(LevelMediator2.ON_COMMANDER_SKILL, arg_309_0.skill)
+			elseif arg_309_0.type == LevelUIConst.COMMANDER_OP_ADD then
+				arg_308_0.contextData.commanderSelected = {
+					chapterId = var_308_0,
+					fleetId = arg_308_1.id
 				}
 
-				arg_306_0:emit(LevelMediator2.ON_SELECT_COMMANDER, arg_307_0.pos, arg_306_1.id, arg_306_2)
-				arg_306_0:closeCommanderPanel()
+				arg_308_0:emit(LevelMediator2.ON_SELECT_COMMANDER, arg_309_0.pos, arg_308_1.id, arg_308_2)
+				arg_308_0:closeCommanderPanel()
 			else
-				arg_306_0:emit(LevelMediator2.ON_COMMANDER_OP, {
+				arg_308_0:emit(LevelMediator2.ON_COMMANDER_OP, {
 					FleetType = LevelUIConst.FLEET_TYPE_SELECT,
-					data = arg_307_0,
-					fleetId = arg_306_1.id,
-					chapterId = var_306_0
-				}, arg_306_2)
+					data = arg_309_0,
+					fleetId = arg_308_1.id,
+					chapterId = var_308_0
+				}, arg_308_2)
 			end
-		elseif arg_307_0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
-			arg_306_0:emit(LevelMediator2.ON_COMMANDER_SKILL, arg_307_0.skill)
-		elseif arg_307_0.type == LevelUIConst.COMMANDER_OP_ADD then
-			arg_306_0.contextData.eliteCommanderSelected = {
-				index = arg_306_3,
-				pos = arg_307_0.pos,
-				chapterId = var_306_0
+		elseif arg_309_0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
+			arg_308_0:emit(LevelMediator2.ON_COMMANDER_SKILL, arg_309_0.skill)
+		elseif arg_309_0.type == LevelUIConst.COMMANDER_OP_ADD then
+			arg_308_0.contextData.eliteCommanderSelected = {
+				index = arg_308_3,
+				pos = arg_309_0.pos,
+				chapterId = var_308_0
 			}
 
-			arg_306_0:emit(LevelMediator2.ON_SELECT_ELITE_COMMANDER, arg_306_3, arg_307_0.pos, arg_306_2)
-			arg_306_0:closeCommanderPanel()
+			arg_308_0:emit(LevelMediator2.ON_SELECT_ELITE_COMMANDER, arg_308_3, arg_309_0.pos, arg_308_2)
+			arg_308_0:closeCommanderPanel()
 		else
-			arg_306_0:emit(LevelMediator2.ON_COMMANDER_OP, {
+			arg_308_0:emit(LevelMediator2.ON_COMMANDER_OP, {
 				FleetType = LevelUIConst.FLEET_TYPE_EDIT,
-				data = arg_307_0,
-				index = arg_306_3,
-				chapterId = var_306_0
-			}, arg_306_2)
+				data = arg_309_0,
+				index = arg_308_3,
+				chapterId = var_308_0
+			}, arg_308_2)
 		end
 	end)
-	arg_306_0.levelCMDFormationView:Load()
-	arg_306_0.levelCMDFormationView:ActionInvoke("update", arg_306_1, arg_306_0.commanderPrefabs)
-	arg_306_0.levelCMDFormationView:ActionInvoke("Show")
+	arg_308_0.levelCMDFormationView:Load()
+	arg_308_0.levelCMDFormationView:ActionInvoke("update", arg_308_1, arg_308_0.commanderPrefabs)
+	arg_308_0.levelCMDFormationView:ActionInvoke("Show")
 end
 
-function var_0_0.updateCommanderPrefab(arg_308_0)
-	if arg_308_0.levelCMDFormationView:isShowing() then
-		arg_308_0.levelCMDFormationView:ActionInvoke("updatePrefabs", arg_308_0.commanderPrefabs)
+function var_0_0.updateCommanderPrefab(arg_310_0)
+	if arg_310_0.levelCMDFormationView:isShowing() then
+		arg_310_0.levelCMDFormationView:ActionInvoke("updatePrefabs", arg_310_0.commanderPrefabs)
 	end
 end
 
-function var_0_0.closeCommanderPanel(arg_309_0)
-	arg_309_0.levelCMDFormationView:ActionInvoke("Hide")
+function var_0_0.closeCommanderPanel(arg_311_0)
+	arg_311_0.levelCMDFormationView:ActionInvoke("Hide")
 end
 
-function var_0_0.destroyCommanderPanel(arg_310_0)
-	arg_310_0.levelCMDFormationView:Destroy()
+function var_0_0.destroyCommanderPanel(arg_312_0)
+	arg_312_0.levelCMDFormationView:Destroy()
 
-	arg_310_0.levelCMDFormationView = nil
+	arg_312_0.levelCMDFormationView = nil
 end
 
-function var_0_0.setSpecialOperationTickets(arg_311_0, arg_311_1)
-	arg_311_0.spTickets = arg_311_1
+function var_0_0.setSpecialOperationTickets(arg_313_0, arg_313_1)
+	arg_313_0.spTickets = arg_313_1
 end
 
-function var_0_0.HandleShowMsgBox(arg_312_0, arg_312_1)
-	pg.MsgboxMgr.GetInstance():ShowMsgBox(arg_312_1)
+function var_0_0.HandleShowMsgBox(arg_314_0, arg_314_1)
+	pg.MsgboxMgr.GetInstance():ShowMsgBox(arg_314_1)
 end
 
-function var_0_0.updatePoisonAreaTip(arg_313_0)
-	local var_313_0 = arg_313_0.contextData.chapterVO
-	local var_313_1 = (function(arg_314_0)
-		local var_314_0 = {}
-		local var_314_1 = pg.map_event_list[var_313_0.id] or {}
-		local var_314_2
+function var_0_0.updatePoisonAreaTip(arg_315_0)
+	local var_315_0 = arg_315_0.contextData.chapterVO
+	local var_315_1 = (function(arg_316_0)
+		local var_316_0 = {}
+		local var_316_1 = pg.map_event_list[var_315_0.id] or {}
+		local var_316_2
 
-		if var_313_0:isLoop() then
-			var_314_2 = var_314_1.event_list_loop or {}
+		if var_315_0:isLoop() then
+			var_316_2 = var_316_1.event_list_loop or {}
 		else
-			var_314_2 = var_314_1.event_list or {}
+			var_316_2 = var_316_1.event_list or {}
 		end
 
-		for iter_314_0, iter_314_1 in ipairs(var_314_2) do
-			local var_314_3 = pg.map_event_template[iter_314_1]
+		for iter_316_0, iter_316_1 in ipairs(var_316_2) do
+			local var_316_3 = pg.map_event_template[iter_316_1]
 
-			if var_314_3.c_type == arg_314_0 then
-				table.insert(var_314_0, var_314_3)
+			if var_316_3.c_type == arg_316_0 then
+				table.insert(var_316_0, var_316_3)
 			end
 		end
 
-		return var_314_0
+		return var_316_0
 	end)(ChapterConst.EvtType_Poison)
 
-	if var_313_1 then
-		for iter_313_0, iter_313_1 in ipairs(var_313_1) do
-			local var_313_2 = iter_313_1.round_gametip
+	if var_315_1 then
+		for iter_315_0, iter_315_1 in ipairs(var_315_1) do
+			local var_315_2 = iter_315_1.round_gametip
 
-			if var_313_2 ~= nil and var_313_2 ~= "" and var_313_0:getRoundNum() == var_313_2[1] then
-				pg.TipsMgr.GetInstance():ShowTips(i18n(var_313_2[2]))
+			if var_315_2 ~= nil and var_315_2 ~= "" and var_315_0:getRoundNum() == var_315_2[1] then
+				pg.TipsMgr.GetInstance():ShowTips(i18n(var_315_2[2]))
 			end
 		end
 	end
 end
 
-function var_0_0.updateVoteBookBtn(arg_315_0)
-	setActive(arg_315_0._voteBookBtn, false)
+function var_0_0.updateVoteBookBtn(arg_317_0)
+	setActive(arg_317_0._voteBookBtn, false)
 end
 
-function var_0_0.RecordLastMapOnExit(arg_316_0)
-	local var_316_0 = getProxy(ChapterProxy)
+function var_0_0.RecordLastMapOnExit(arg_318_0)
+	local var_318_0 = getProxy(ChapterProxy)
 
-	if var_316_0 and not arg_316_0.contextData.noRecord then
-		local var_316_1 = arg_316_0.contextData.map
+	if var_318_0 and not arg_318_0.contextData.noRecord then
+		local var_318_1 = arg_318_0.contextData.map
 
-		if not var_316_1 then
+		if not var_318_1 then
 			return
 		end
 
-		if var_316_1:NeedRecordMap() then
-			var_316_0:recordLastMap(ChapterProxy.LAST_MAP, var_316_1.id)
+		if var_318_1:NeedRecordMap() then
+			var_318_0:recordLastMap(ChapterProxy.LAST_MAP, var_318_1.id)
 		end
 
-		if var_316_1:isActivity() and not var_316_1:isActExtra() then
-			var_316_0:recordLastMap(ChapterProxy.LAST_MAP_FOR_ACTIVITY, var_316_1.id)
+		if var_318_1:isActivity() and not var_318_1:isActExtra() then
+			var_318_0:recordLastMap(ChapterProxy.LAST_MAP_FOR_ACTIVITY, var_318_1.id)
 		end
 	end
 end
 
-function var_0_0.IsActShopActive(arg_317_0)
-	local var_317_0 = arg_317_0.contextData.map and getProxy(ActivityProxy):getActivityById(arg_317_0.contextData.map:getConfig("on_activity")) or nil
-	local var_317_1 = var_317_0 and not var_317_0:isEnd() and var_317_0:GetConfigClientSetting("PTID")
-	local var_317_2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY)
+function var_0_0.IsActShopActive(arg_319_0)
+	local var_319_0 = arg_319_0.contextData.map and getProxy(ActivityProxy):getActivityById(arg_319_0.contextData.map:getConfig("on_activity")) or nil
+	local var_319_1 = var_319_0 and not var_319_0:isEnd() and var_319_0:GetConfigClientSetting("PTID")
+	local var_319_2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY)
 
-	if var_317_2 and not var_317_2:isEnd() and var_317_2:getConfig("config_client").resId == var_317_1 then
+	if var_319_2 and not var_319_2:isEnd() and var_319_2:getConfig("config_client").resId == var_319_1 then
 		return true
 	end
 
-	if _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_318_0)
-		return not arg_318_0:isEnd() and arg_318_0:getConfig("config_client").pt_id == var_317_1
+	if _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function(arg_320_0)
+		return not arg_320_0:isEnd() and arg_320_0:getConfig("config_client").pt_id == var_319_1
 	end) then
 		return true
 	end
 end
 
-function var_0_0.willExit(arg_319_0)
-	arg_319_0:ClearMapTransitions()
-	arg_319_0.loader:Clear()
+function var_0_0.willExit(arg_321_0)
+	arg_321_0:ClearMapTransitions()
+	arg_321_0.loader:Clear()
 
-	if arg_319_0.contextData.chapterVO then
-		arg_319_0:UnOverlayPanel(arg_319_0.topPanel, arg_319_0._tf)
+	if arg_321_0.contextData.chapterVO then
+		arg_321_0:UnOverlayPanel(arg_321_0.topPanel, arg_321_0._tf)
 	end
 
-	if arg_319_0.levelFleetView and arg_319_0.levelFleetView.selectIds then
-		arg_319_0.contextData.selectedFleetIDs = {}
+	if arg_321_0.levelFleetView and arg_321_0.levelFleetView.selectIds then
+		arg_321_0.contextData.selectedFleetIDs = {}
 
-		for iter_319_0, iter_319_1 in pairs(arg_319_0.levelFleetView.selectIds) do
-			for iter_319_2, iter_319_3 in pairs(iter_319_1) do
-				arg_319_0.contextData.selectedFleetIDs[#arg_319_0.contextData.selectedFleetIDs + 1] = iter_319_3
+		for iter_321_0, iter_321_1 in pairs(arg_321_0.levelFleetView.selectIds) do
+			for iter_321_2, iter_321_3 in pairs(iter_321_1) do
+				arg_321_0.contextData.selectedFleetIDs[#arg_321_0.contextData.selectedFleetIDs + 1] = iter_321_3
 			end
 		end
 	end
 
-	arg_319_0:destroyChapterPanel()
-	arg_319_0:DestroyLevelInfoSPPanel()
-	arg_319_0:destroyFleetEdit()
-	arg_319_0:destroyCommanderPanel()
-	arg_319_0:DestroyLevelStageView()
-	arg_319_0:hideRepairWindow()
-	arg_319_0:hideStrategyInfo()
-	arg_319_0:hideRemasterPanel()
-	arg_319_0:hideSpResult()
-	arg_319_0:destroyGrid()
-	arg_319_0:destroyAmbushWarn()
-	arg_319_0:destroyAirStrike()
-	arg_319_0:destroyTorpedo()
-	arg_319_0:destroyStrikeAnim()
-	arg_319_0:destroyTracking()
-	arg_319_0:destroyUIAnims()
+	arg_321_0:destroyChapterPanel()
+	arg_321_0:DestroyLevelInfoSPPanel()
+	arg_321_0:destroyFleetEdit()
+	arg_321_0:destroyCommanderPanel()
+	arg_321_0:DestroyLevelStageView()
+	arg_321_0:hideRepairWindow()
+	arg_321_0:hideStrategyInfo()
+	arg_321_0:hideRemasterPanel()
+	arg_321_0:hideSpResult()
+	arg_321_0:destroyGrid()
+	arg_321_0:destroyAmbushWarn()
+	arg_321_0:destroyAirStrike()
+	arg_321_0:destroyTorpedo()
+	arg_321_0:destroyStrikeAnim()
+	arg_321_0:destroyTracking()
+	arg_321_0:destroyUIAnims()
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad_mark", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell_quad", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/cell", "")
 	PoolMgr.GetInstance():DestroyPrefab("chapter/plane", "")
 
-	for iter_319_4, iter_319_5 in pairs(arg_319_0.mbDict) do
-		iter_319_5:Destroy()
+	for iter_321_4, iter_321_5 in pairs(arg_321_0.mbDict) do
+		iter_321_5:Destroy()
 	end
 
-	arg_319_0.mbDict = nil
+	arg_321_0.mbDict = nil
 
-	for iter_319_6, iter_319_7 in pairs(arg_319_0.tweens) do
-		LeanTween.cancel(iter_319_7)
+	for iter_321_6, iter_321_7 in pairs(arg_321_0.tweens) do
+		LeanTween.cancel(iter_321_7)
 	end
 
-	arg_319_0.tweens = nil
+	arg_321_0.tweens = nil
 
-	if arg_319_0.cloudTimer then
-		_.each(arg_319_0.cloudTimer, function(arg_320_0)
-			LeanTween.cancel(arg_320_0)
+	if arg_321_0.cloudTimer then
+		_.each(arg_321_0.cloudTimer, function(arg_322_0)
+			LeanTween.cancel(arg_322_0)
 		end)
 
-		arg_319_0.cloudTimer = nil
+		arg_321_0.cloudTimer = nil
 	end
 
-	if arg_319_0.newChapterCDTimer then
-		arg_319_0.newChapterCDTimer:Stop()
+	if arg_321_0.newChapterCDTimer then
+		arg_321_0.newChapterCDTimer:Stop()
 
-		arg_319_0.newChapterCDTimer = nil
+		arg_321_0.newChapterCDTimer = nil
 	end
 
-	for iter_319_8, iter_319_9 in ipairs(arg_319_0.damageTextActive) do
-		LeanTween.cancel(iter_319_9)
+	for iter_321_8, iter_321_9 in ipairs(arg_321_0.damageTextActive) do
+		LeanTween.cancel(iter_321_9)
 	end
 
-	LeanTween.cancel(go(arg_319_0.avoidText))
+	LeanTween.cancel(go(arg_321_0.avoidText))
 
-	arg_319_0.map.localScale = Vector3.one
-	arg_319_0.map.pivot = Vector2(0.5, 0.5)
-	arg_319_0.float.localScale = Vector3.one
-	arg_319_0.float.pivot = Vector2(0.5, 0.5)
+	arg_321_0.map.localScale = Vector3.one
+	arg_321_0.map.pivot = Vector2(0.5, 0.5)
+	arg_321_0.float.localScale = Vector3.one
+	arg_321_0.float.pivot = Vector2(0.5, 0.5)
 
-	for iter_319_10, iter_319_11 in ipairs(arg_319_0.mapTFs) do
-		clearImageSprite(iter_319_11)
+	for iter_321_10, iter_321_11 in ipairs(arg_321_0.mapTFs) do
+		clearImageSprite(iter_321_11)
 	end
 
-	_.each(arg_319_0.cloudRTFs, function(arg_321_0)
-		clearImageSprite(arg_321_0)
+	_.each(arg_321_0.cloudRTFs, function(arg_323_0)
+		clearImageSprite(arg_323_0)
 	end)
-	Destroy(arg_319_0.enemyTpl)
-	arg_319_0:RecordLastMapOnExit()
-	arg_319_0.levelRemasterView:Destroy()
+	Destroy(arg_321_0.enemyTpl)
+	arg_321_0:RecordLastMapOnExit()
+	arg_321_0.levelRemasterView:Destroy()
 end
 
 return var_0_0

@@ -3976,6 +3976,13 @@ pg.memory_template = setmetatable({
 		4944,
 		4945,
 		4946,
+		4951,
+		4952,
+		4953,
+		4954,
+		4955,
+		4956,
+		4957,
 		10011,
 		10012,
 		10013,
@@ -63798,6 +63805,111 @@ pg.base.memory_template = {
 		is_open = 0,
 		unlock_pre = {
 			"SHISHANGTEKANZHUANSHUXINDONGSHIKEII6"
+		}
+	},
+	[4951] = {
+		type = 1,
+		subtitle = "",
+		story = "WEINEITUO1",
+		mask = "bg/bg_memory",
+		title = "指挥室的“威光”计划",
+		condition = "解锁「撒丁威光入门指南」任务1",
+		number = 0,
+		id = 4951,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO1"
+		}
+	},
+	[4952] = {
+		type = 1,
+		subtitle = "",
+		story = "WEINEITUO2",
+		mask = "bg/bg_memory",
+		title = "花园中的精致时光",
+		condition = "解锁「撒丁威光入门指南」任务2",
+		number = 0,
+		id = 4952,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO2"
+		}
+	},
+	[4953] = {
+		type = 1,
+		subtitle = "",
+		story = "WEINEITUO3",
+		mask = "bg/bg_memory",
+		title = "艺术的共鸣",
+		condition = "解锁「撒丁威光入门指南」任务3",
+		number = 0,
+		id = 4953,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO3"
+		}
+	},
+	[4954] = {
+		type = 1,
+		subtitle = "",
+		story = "WEINEITUO4",
+		mask = "bg/bg_memory",
+		title = "浴场前的准备",
+		condition = "解锁「撒丁威光入门指南」任务4",
+		number = 0,
+		id = 4954,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO4"
+		}
+	},
+	[4955] = {
+		type = 1,
+		subtitle = "",
+		story = "WEINEITUO5",
+		mask = "bg/bg_memory",
+		title = "温水浸润",
+		condition = "解锁「撒丁威光入门指南」任务5",
+		number = 0,
+		id = 4955,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO5"
+		}
+	},
+	[4956] = {
+		type = 1,
+		subtitle = "",
+		story = "WEINEITUO6",
+		mask = "bg/bg_memory",
+		title = "指尖的韵律",
+		condition = "解锁「撒丁威光入门指南」任务6",
+		number = 0,
+		id = 4956,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO6"
+		}
+	},
+	[4957] = {
+		type = 1,
+		subtitle = "",
+		story = "WEINEITUO7",
+		mask = "bg/bg_memory",
+		title = "“进阶”邀请",
+		condition = "解锁「撒丁威光入门指南」任务7",
+		number = 0,
+		id = 4957,
+		icon = "memory_weineituo",
+		is_open = 0,
+		unlock_pre = {
+			"WEINEITUO7"
 		}
 	},
 	[10011] = {

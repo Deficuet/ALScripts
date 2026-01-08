@@ -339,15 +339,14 @@ function var_0_0.initAddButton(arg_35_0, arg_35_1, arg_35_2, arg_35_3)
 		return var_0_0.fleetNames[arg_37_0:getTeamType()] < var_0_0.fleetNames[arg_37_1:getTeamType()] or var_0_0.fleetNames[arg_37_0:getTeamType()] == var_0_0.fleetNames[arg_37_1:getTeamType()] and table.indexof(var_35_0, arg_37_0.id) < table.indexof(var_35_0, arg_37_1.id)
 	end)
 
-	local var_35_4 = findTF(arg_35_1, arg_35_2)
-	local var_35_5 = var_35_4:GetComponent("ContentSizeFitter")
-	local var_35_6 = var_35_4:GetComponent("HorizontalLayoutGroup")
+	local var_35_4 = arg_35_1:GetComponent("ContentSizeFitter")
+	local var_35_5 = arg_35_1:GetComponent("HorizontalLayoutGroup")
 
+	var_35_4.enabled = true
 	var_35_5.enabled = true
-	var_35_6.enabled = true
 	arg_35_0.isDraging = false
 
-	UIItemList.StaticAlign(var_35_4, var_35_4:GetChild(0), 3, function(arg_38_0, arg_38_1, arg_38_2)
+	UIItemList.StaticAlign(arg_35_1, arg_35_1:GetChild(0), 3, function(arg_38_0, arg_38_1, arg_38_2)
 		if arg_38_0 ~= UIItemList.EventUpdate then
 			return
 		end
@@ -427,14 +426,14 @@ function var_0_0.updateEliteFleets(arg_41_0)
 		local var_41_8 = arg_41_0.tfFleets[FleetType.Normal]
 
 		setText(var_41_8:Find("bg/name"), Fleet.DEFAULT_NAME[var_41_1])
-		arg_41_0:initAddButton(var_41_8, TeamType.Main, var_41_1)
-		arg_41_0:initAddButton(var_41_8, TeamType.Vanguard, var_41_1)
+		arg_41_0:initAddButton(var_41_8:Find(TeamType.Main), TeamType.Main, var_41_1)
+		arg_41_0:initAddButton(var_41_8:Find(TeamType.Vanguard), TeamType.Vanguard, var_41_1)
 	else
 		local var_41_9 = arg_41_0.tfFleets[FleetType.Submarine]
 		local var_41_10 = #arg_41_0.contextData.fleets
 
 		setText(var_41_9:Find("bg/name"), Fleet.DEFAULT_NAME[Fleet.SUBMARINE_FLEET_ID])
-		arg_41_0:initAddButton(var_41_9, TeamType.Submarine, var_41_10)
+		arg_41_0:initAddButton(var_41_9:Find(TeamType.Main), TeamType.Submarine, var_41_10)
 	end
 
 	arg_41_0:initCommander(var_41_2, var_41_7)

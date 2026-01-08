@@ -311,4 +311,52 @@ function var_0_0.MergeFengFanType(arg_14_0, arg_14_1, arg_14_2)
 	return arg_14_0
 end
 
+var_0_0.VanguardShipType = {
+	var_0_0.QuZhu,
+	var_0_0.QingXun,
+	var_0_0.ZhongXun,
+	var_0_0.HangXun,
+	var_0_0.LeiXun,
+	var_0_0.ChaoXun,
+	var_0_0.Yunshu,
+	var_0_0.DaoQuV,
+	var_0_0.FengFanV
+}
+var_0_0.MainShipType = {
+	var_0_0.ZhanXun,
+	var_0_0.ZhanLie,
+	var_0_0.QingHang,
+	var_0_0.ZhengHang,
+	var_0_0.HangZhan,
+	var_0_0.WeiXiu,
+	var_0_0.ZhongPao,
+	var_0_0.DaoQuM,
+	var_0_0.FengFanM
+}
+var_0_0.SubShipType = {
+	var_0_0.QianTing,
+	var_0_0.QianMu,
+	var_0_0.FengFanS
+}
+
+local var_0_1
+
+function var_0_0.GetTeamFromShipType(arg_17_0)
+	if not var_0_1 then
+		var_0_1 = {}
+
+		for iter_17_0, iter_17_1 in pairs({
+			[TeamType.Vanguard] = var_0_0.VanguardShipType,
+			[TeamType.Main] = var_0_0.MainShipType,
+			[TeamType.Submarine] = var_0_0.SubShipType
+		}) do
+			for iter_17_2, iter_17_3 in ipairs(iter_17_1) do
+				var_0_1[iter_17_3] = iter_17_0
+			end
+		end
+	end
+
+	return var_0_1[arg_17_0]
+end
+
 return var_0_0

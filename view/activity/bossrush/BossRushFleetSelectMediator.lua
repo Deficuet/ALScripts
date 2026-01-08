@@ -108,7 +108,7 @@ function var_0_0.register(arg_1_0)
 
 		for iter_9_0, iter_9_1 in ipairs(var_9_1:GetRawShipIds()) do
 			local var_9_10 = var_9_9[iter_9_1]:getShipType()
-			local var_9_11 = TeamType.GetTeamFromShipType(var_9_10)
+			local var_9_11 = ShipType.GetTeamFromShipType(var_9_10)
 			local var_9_12 = 0
 			local var_9_13 = var_9_8[var_9_11]
 
@@ -130,7 +130,7 @@ function var_0_0.register(arg_1_0)
 		end
 
 		local function var_9_14(arg_11_0, arg_11_1)
-			local var_11_0 = underscore.filter(TeamType.GetShipTypeListFromTeam(arg_11_1), function(arg_12_0)
+			local var_11_0 = underscore.filter(arg_11_1, function(arg_12_0)
 				return ShipType.ContainInLimitBundle(arg_11_0, arg_12_0)
 			end)
 			local var_11_1 = arg_1_0:getRecommendShip(var_11_0, var_9_7)
@@ -145,20 +145,10 @@ function var_0_0.register(arg_1_0)
 		local var_9_15
 
 		if var_9_0 == #arg_1_0.contextData.fleets then
-			var_9_15 = {
-				[TeamType.Submarine] = var_9_5
-			}
+			var_9_14(var_9_5, ShipType.SubShipType)
 		else
-			var_9_15 = {
-				[TeamType.Main] = var_9_3,
-				[TeamType.Vanguard] = var_9_4
-			}
-		end
-
-		for iter_9_6, iter_9_7 in pairs(var_9_15) do
-			for iter_9_8, iter_9_9 in ipairs(iter_9_7) do
-				var_9_14(iter_9_9, iter_9_6)
-			end
+			var_9_14(var_9_3, ShipType.MainShipType)
+			var_9_14(var_9_4, ShipType.VanguardShipType)
 		end
 
 		arg_1_0.viewComponent:updateEliteFleets()

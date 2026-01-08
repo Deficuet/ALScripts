@@ -127,10 +127,17 @@ function var_0_0.RemoveListeners(arg_15_0)
 	arg_15_0:RemoveListener(GAME.ISLAND_GET_SEASON_RANK_DONE, arg_15_0.OnGetRankData)
 end
 
-function var_0_0.OnShow(arg_16_0)
+function var_0_0.OnShow(arg_16_0, arg_16_1)
 	arg_16_0.contextData.season = getProxy(IslandProxy):GetIsland():GetSeasonAgency():GetSeason()
 
-	triggerToggle(arg_16_0.togglesTF:Find(var_0_0.PAGE_ACTIVITY), true)
+	local var_16_0 = arg_16_0.contextData
+
+	if arg_16_1 and arg_16_1.target_act_id then
+		triggerToggle(arg_16_0.togglesTF:Find(var_0_0.PAGE_ACTIVITY), true)
+		arg_16_0.pages[var_0_0.PAGE_ACTIVITY]:ExecuteAction("verifyTabs", arg_16_1.target_act_id)
+	else
+		triggerToggle(arg_16_0.togglesTF:Find(var_0_0.PAGE_ACTIVITY), true)
+	end
 end
 
 local var_0_1 = {

@@ -180415,6 +180415,530 @@ end)()
 end)()
 
 (function()
+	_G.pg.base.ship_data_statistics[301941] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "藤波",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301940,
+		english_name = "IJN Fujinami",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 3,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301941,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			361,
+			13,
+			108,
+			29,
+			0,
+			82,
+			0,
+			73,
+			71,
+			42,
+			46,
+			44
+		},
+		attrs_growth = {
+			10279,
+			179,
+			1299,
+			642,
+			0,
+			574,
+			0,
+			1125,
+			1306,
+			0,
+			0,
+			515
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.4,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301942] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "藤波",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301940,
+		english_name = "IJN Fujinami",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 4,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301942,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			449,
+			16,
+			135,
+			36,
+			0,
+			82,
+			0,
+			73,
+			71,
+			42,
+			46,
+			55
+		},
+		attrs_growth = {
+			10279,
+			179,
+			1299,
+			642,
+			0,
+			574,
+			0,
+			1125,
+			1306,
+			0,
+			0,
+			515
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			1,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			0,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.45,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301943] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "藤波",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301940,
+		english_name = "IJN Fujinami",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 5,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301943,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			625,
+			23,
+			189,
+			51,
+			0,
+			82,
+			0,
+			73,
+			71,
+			42,
+			46,
+			77
+		},
+		attrs_growth = {
+			10279,
+			179,
+			1299,
+			642,
+			0,
+			574,
+			0,
+			1125,
+			1306,
+			0,
+			0,
+			515
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.8,
+			1.55,
+			0.75
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
+	_G.pg.base.ship_data_statistics[301944] = {
+		raid_distance = 0,
+		oxy_max = 0,
+		name = "藤波",
+		type = 1,
+		oxy_cost = 0,
+		skin_id = 301940,
+		english_name = "IJN Fujinami",
+		oxy_recovery_surface = 0,
+		attack_duration = 0,
+		star = 6,
+		oxy_recovery = 0,
+		backyard_speed = "0.5",
+		rarity = 5,
+		nationality = 3,
+		oxy_recovery_bench = 0,
+		ammo = 0,
+		armor_type = 1,
+		huntingrange_level = 0,
+		id = 301944,
+		summon_offset = 0,
+		scale = 100,
+		attrs = {
+			889,
+			32,
+			269,
+			72,
+			0,
+			82,
+			0,
+			73,
+			71,
+			42,
+			46,
+			110
+		},
+		attrs_growth = {
+			10279,
+			179,
+			1299,
+			642,
+			0,
+			574,
+			0,
+			1125,
+			1306,
+			0,
+			0,
+			515
+		},
+		attrs_growth_extra = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		lock = {
+			"air"
+		},
+		cld_box = {
+			4,
+			5,
+			5
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		fix_equip_list = {},
+		default_equip_list = {
+			100,
+			107,
+			104
+		},
+		depth_charge_list = {
+			141
+		},
+		base_list = {
+			1,
+			2,
+			1
+		},
+		parallel_max = {
+			1,
+			1,
+			1
+		},
+		preload_count = {
+			0,
+			1,
+			0
+		},
+		equipment_proficiency = {
+			0.85,
+			1.6,
+			0.8
+		},
+		strategy_list = {},
+		hunting_range = {
+			{}
+		},
+		tag_list = {
+			"Yugumo-Class"
+		},
+		gift_dislike = {
+			180006,
+			180004
+		}
+	}
+end)()
+
+(function()
 	_G.pg.base.ship_data_statistics[302011] = {
 		raid_distance = 0,
 		oxy_max = 0,

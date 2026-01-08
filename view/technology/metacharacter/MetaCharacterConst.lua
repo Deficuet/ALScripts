@@ -437,7 +437,7 @@ function var_0_0.filteMetaByType(arg_23_0, arg_23_1)
 	end
 
 	local function var_23_1(arg_25_0)
-		return TeamType.GetTeamFromShipType(arg_25_0)
+		return ShipType.GetTeamFromShipType(arg_25_0)
 	end
 
 	for iter_23_0 = 2, #ShipIndexCfg.type do

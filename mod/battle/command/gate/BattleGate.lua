@@ -17,6 +17,7 @@ var_0_0.Gates = {
 	[SYSTEM_BOSS_RUSH_EX] = ys.Battle.BattleGateBossRushEX,
 	[SYSTEM_BOSS_RUSH_COLLABRATE] = ys.Battle.BattleGateBossRushCollabrate,
 	[SYSTEM_DUEL] = ys.Battle.BattleGateDuel,
+	[SYSTEM_SCENARIO_SUB_STRIKE] = ys.Battle.BattleGateScenarioSubStrike,
 	[SYSTEM_ACT_BOSS] = ys.Battle.BattleGateActBoss,
 	[SYSTEM_HP_SHARE_ACT_BOSS] = ys.Battle.BattleGateHPShareActBoss,
 	[SYSTEM_BOSS_EXPERIMENT] = ys.Battle.BattleGateBossExperiment,

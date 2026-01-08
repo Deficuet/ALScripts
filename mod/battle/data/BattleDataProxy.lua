@@ -136,10 +136,12 @@ function var_0_9.TirggerBattleStartBuffs(arg_6_0)
 
 		for iter_6_10, iter_6_11 in ipairs(var_6_12) do
 			underscore.each(arg_6_0._battleInitData.ChapterBuffIDs or {}, function(arg_9_0)
-				if var_0_5.GetSLGStrategyBuffByCombatBuffID(arg_9_0).type == ChapterConst.AirDominanceStrategyBuffType then
-					local var_9_0 = var_0_0.Battle.BattleBuffUnit.New(arg_9_0)
+				local var_9_0 = var_0_5.GetSLGStrategyBuffByCombatBuffID(arg_9_0)
 
-					iter_6_11:AddBuff(var_9_0)
+				if var_9_0 and var_9_0.type == ChapterConst.AirDominanceStrategyBuffType then
+					local var_9_1 = var_0_0.Battle.BattleBuffUnit.New(arg_9_0)
+
+					iter_6_11:AddBuff(var_9_1)
 				end
 			end)
 		end
@@ -508,10 +510,12 @@ function var_0_9.InitUserShipsData(arg_24_0, arg_24_1, arg_24_2, arg_24_3, arg_2
 end
 
 function var_0_9.InitUserSupportShipsData(arg_25_0, arg_25_1, arg_25_2)
-	local var_25_0 = arg_25_0:GetFleetByIFF(arg_25_1)
-
 	for iter_25_0, iter_25_1 in ipairs(arg_25_2) do
-		local var_25_1 = arg_25_0:SpawnSupportUnit(iter_25_1, arg_25_1)
+		local var_25_0 = var_0_5.GetPlayerShipTmpDataFromID(iter_25_1.tmpID).type
+
+		if table.contains(ShipType.BundleList.hang, var_25_0) then
+			local var_25_1 = arg_25_0:SpawnSupportUnit(iter_25_1, arg_25_1)
+		end
 	end
 end
 
@@ -1118,7 +1122,7 @@ function var_0_9.SpawnMonster(arg_60_0, arg_60_1, arg_60_2, arg_60_3, arg_60_4, 
 	var_60_8:SetAI(arg_60_1.pilotAITemplateID or var_60_1.pilot_ai_template_id)
 	arg_60_0:setShipUnitBound(var_60_8)
 
-	if table.contains(TeamType.SubShipType, var_60_1.type) then
+	if table.contains(ShipType.SubShipType, var_60_1.type) then
 		var_60_8:InitOxygen()
 		arg_60_0:UpdateHostileSubmarine(true)
 	end
@@ -1276,7 +1280,7 @@ function var_0_9.SpawnNPC(arg_63_0, arg_63_1, arg_63_2)
 	var_63_4:SetAI(arg_63_1.pilotAITemplateID or var_63_2.pilot_ai_template_id)
 	arg_63_0:setShipUnitBound(var_63_4)
 
-	if table.contains(TeamType.SubShipType, var_63_2.type) then
+	if table.contains(ShipType.SubShipType, var_63_2.type) then
 		var_63_4:InitOxygen()
 
 		if var_63_4:GetIFF() ~= var_0_4.FRIENDLY_CODE then
@@ -1476,8 +1480,24 @@ end
 
 function var_0_9.SpawnSupportUnit(arg_72_0, arg_72_1, arg_72_2)
 	local var_72_0 = arg_72_0:generateSupportPlayerUnit(arg_72_1, arg_72_2)
+	local var_72_1 = arg_72_0:GetFleetByIFF(arg_72_2)
 
-	arg_72_0:GetFleetByIFF(arg_72_2):AppendSupportUnit(var_72_0)
+	var_72_1:AppendSupportUnit(var_72_0)
+
+	local var_72_2 = var_72_0:GetTemplate().type
+
+	if table.contains(ShipType.BundleList.qian, var_72_2) then
+		var_72_0:SetPosition(Clone(var_0_4.SubSupportUnitPosList[#var_72_1:GetSupportUnitList()]))
+	else
+		var_72_0:SetPosition(Clone(var_0_4.AirSupportUnitPos))
+	end
+
+	local var_72_3 = {
+		type = var_0_3.UnitType.SUPPORT_UNIT,
+		unit = var_72_0
+	}
+
+	arg_72_0:DispatchEvent(var_0_0.Event.New(var_0_1.ADD_UNIT, var_72_3))
 
 	return var_72_0
 end
@@ -1560,7 +1580,7 @@ function var_0_9.KillUnit(arg_75_0, arg_75_1)
 
 			local var_75_5 = var_75_0:GetTemplate().type
 
-			if table.contains(TeamType.SubShipType, var_75_5) then
+			if table.contains(ShipType.SubShipType, var_75_5) then
 				arg_75_0:UpdateHostileSubmarine(false)
 			end
 
@@ -1595,7 +1615,7 @@ end
 
 function var_0_9.KillSubmarineByIFF(arg_77_0, arg_77_1)
 	for iter_77_0, iter_77_1 in pairs(arg_77_0._unitList) do
-		if iter_77_1:GetIFF() == arg_77_1 and iter_77_1:IsAlive() and table.contains(TeamType.SubShipType, iter_77_1:GetTemplate().type) and not iter_77_1:IsBoss() then
+		if iter_77_1:GetIFF() == arg_77_1 and iter_77_1:IsAlive() and table.contains(ShipType.SubShipType, iter_77_1:GetTemplate().type) and not iter_77_1:IsBoss() then
 			iter_77_1:DeadAction()
 		end
 	end
@@ -1744,8 +1764,6 @@ function var_0_9.generateSupportPlayerUnit(arg_85_0, arg_85_1, arg_85_2)
 	var_85_3:SetShipName(arg_85_1.name)
 
 	arg_85_0._spectreShipList[var_85_0] = var_85_3
-
-	var_85_3:SetPosition(Clone(var_0_4.AirSupportUnitPos))
 
 	return var_85_3
 end
@@ -2521,7 +2539,7 @@ function var_0_9.SubmarineStrike(arg_152_0, arg_152_1)
 	local var_152_0 = arg_152_0:GetFleetByIFF(arg_152_1)
 	local var_152_1 = var_152_0:GetSubAidVO()
 
-	if var_152_0:GetWeaponBlock() or var_152_1:GetCurrent() < 1 then
+	if arg_152_0._battleInitData.battleType ~= SYSTEM_SCENARIO_SUB_STRIKE and (var_152_0:GetWeaponBlock() or var_152_1:GetCurrent() < 1) then
 		return
 	end
 
@@ -2683,7 +2701,7 @@ function var_0_9.ActiveFreezeUnit(arg_161_0, arg_161_1)
 end
 
 function var_0_9.GetFleetLegal(arg_162_0, arg_162_1, arg_162_2)
-	if arg_162_2 == SYSTEM_DUEL or arg_162_2 == SYSTEM_PERFORM or arg_162_2 == SYSTEM_SUB_ROUTINE or arg_162_2 == SYSTEM_CARDPUZZLE or arg_162_2 == SYSTEM_PROLOGUE or arg_162_2 == SYSTEM_DODGEM or arg_162_2 == SYSTEM_SIMULATION or arg_162_2 == SYSTEM_SUBMARINE_RUN or arg_162_2 == SYSTEM_DEBUG or arg_162_2 == SYSTEM_AIRFIGHT then
+	if arg_162_2 == SYSTEM_DUEL or arg_162_2 == SYSTEM_PERFORM or arg_162_2 == SYSTEM_SUB_ROUTINE or arg_162_2 == SYSTEM_CARDPUZZLE or arg_162_2 == SYSTEM_PROLOGUE or arg_162_2 == SYSTEM_DODGEM or arg_162_2 == SYSTEM_SIMULATION or arg_162_2 == SYSTEM_SUBMARINE_RUN or arg_162_2 == SYSTEM_SCENARIO_SUB_STRIKE or arg_162_2 == SYSTEM_DEBUG or arg_162_2 == SYSTEM_AIRFIGHT then
 		return true
 	else
 		local var_162_0 = arg_162_0:GetFleetByIFF(arg_162_1)
@@ -2707,5 +2725,29 @@ function var_0_9.TriggerFinishBattle(arg_163_0)
 
 	for iter_163_4, iter_163_5 in pairs(arg_163_0._minionShipList) do
 		iter_163_5:TriggerBuff(var_0_3.BuffEffectType.ON_FINISH_GAME)
+	end
+end
+
+function var_0_9.ChapterSupportBarrage(arg_164_0, arg_164_1, arg_164_2)
+	local var_164_0
+
+	local function var_164_1(...)
+		for iter_165_0, iter_165_1 in ipairs(arg_164_0._battleInitData.SupportUnitList) do
+			local var_165_0 = var_0_5.GetPlayerShipTmpDataFromID(iter_165_1.tmpID).type
+
+			if table.contains(ShipType.BundleList.qian, var_165_0) then
+				local var_165_1 = arg_164_0:SpawnSupportUnit(iter_165_1, arg_164_1)
+
+				var_0_6.SetCurrent(var_165_1, "loadSpeed", 0)
+			end
+		end
+
+		pg.TimeMgr.GetInstance():RemoveBattleTimer(var_164_0)
+	end
+
+	if arg_164_2 then
+		var_164_0 = pg.TimeMgr.GetInstance():AddBattleTimer("supportBarrageTimer", -1, arg_164_2, var_164_1)
+	else
+		var_164_1()
 	end
 end

@@ -925,24 +925,29 @@ function var_0_0.UpdateEliteInvestigation(arg_69_0)
 	local var_69_0 = 0
 
 	for iter_69_0 = 1, 2 do
-		local var_69_1 = arg_69_0.eliteFleetList[iter_69_0]
-		local var_69_2 = {}
+		local var_69_1 = 0
 
-		for iter_69_1, iter_69_2 in pairs(arg_69_0.eliteCommanderList[iter_69_0]) do
-			table.insert(var_69_2, {
-				pos = iter_69_1,
-				id = iter_69_2
+		if iter_69_0 <= arg_69_0.chapter:GetNomralFleetMaxCount() then
+			local var_69_2 = arg_69_0.eliteFleetList[iter_69_0]
+			local var_69_3 = {}
+
+			for iter_69_1, iter_69_2 in pairs(arg_69_0.eliteCommanderList[iter_69_0]) do
+				table.insert(var_69_3, {
+					pos = iter_69_1,
+					id = iter_69_2
+				})
+			end
+
+			local var_69_4 = TypedFleet.New({
+				ship_list = var_69_2,
+				commanders = var_69_3,
+				fleetType = FleetType.Normal
 			})
+
+			var_69_1 = math.floor(var_69_4:getInvestSums())
 		end
 
-		local var_69_3 = TypedFleet.New({
-			ship_list = var_69_1,
-			commanders = var_69_2,
-			fleetType = FleetType.Normal
-		})
-		local var_69_4 = var_69_3 and math.floor(var_69_3:getInvestSums()) or 0
-
-		var_69_0 = math.max(var_69_0, var_69_4)
+		var_69_0 = math.max(var_69_0, var_69_1)
 	end
 
 	local var_69_5 = arg_69_0.chapter:getConfig("avoid_require")
@@ -1578,6 +1583,12 @@ function var_0_0.initAddButton(arg_100_0, arg_100_1, arg_100_2, arg_100_3, arg_1
 				var_100_7.enabled = true
 				arg_100_0.dragIndex = nil
 
+				arg_100_0.chapter:setEliteFleetByIndex(arg_100_4, {
+					{
+						TeamType.FormShips,
+						underscore.to_array(var_100_0)
+					}
+				})
 				arg_100_0:emit(LevelMediator2.ON_ELITE_ADJUSTMENT, arg_100_0.chapter)
 			end)
 		end

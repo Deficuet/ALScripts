@@ -67,7 +67,12 @@ function var_0_0.InitBanner(arg_8_0)
 		local var_8_1 = var_8_0[iter_8_0 + 1]
 		local var_8_2 = arg_8_0.scrollSnap:AddChild()
 
-		LoadImageSpriteAsync("island/islandbanner/" .. var_8_1.pic, var_8_2)
+		if var_8_1.id == 3 then
+			LoadImageSpriteAsync("activitybanner/island_temp4", var_8_2)
+		else
+			LoadImageSpriteAsync("island/islandbanner/" .. var_8_1.pic, var_8_2)
+		end
+
 		onButton(arg_8_0, var_8_2, function()
 			arg_8_0:BannerSkip(var_8_1)
 		end, SFX_MAIN)

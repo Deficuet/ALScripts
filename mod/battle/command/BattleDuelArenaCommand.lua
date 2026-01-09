@@ -33,6 +33,8 @@ function var_0_3.DoPrologue(arg_3_0)
 	arg_3_0._rivalWeaponBot = var_0_0.Battle.BattleManualWeaponAutoBot.New(arg_3_0._rivalFleet)
 	arg_3_0._rivalJoyStickBot = var_0_0.Battle.BattleJoyStickAutoBot.New(arg_3_0._dataProxy, arg_3_0._rivalFleet)
 
+	arg_3_0._rivalJoyStickBot:SwitchStrategy(arg_3_0._rivalJoyStickBot.RANDOM)
+
 	local var_3_1 = arg_3_0._uiMediator:InitDuelRateBar()
 	local var_3_2 = getProxy(PlayerProxy):getData()
 

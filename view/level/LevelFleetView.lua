@@ -423,11 +423,13 @@ function var_0_0.set(arg_27_0, arg_27_1, arg_27_2, arg_27_3)
 
 	arg_27_0:SwitchDisplayMode()
 
-	arg_27_0.fleets = _(_.values(arg_27_2)):chain():filter(function(arg_28_0)
+	arg_27_0.fleets = underscore(arg_27_2):chain():values():filter(function(arg_28_0)
 		return arg_28_0:isRegularFleet()
-	end):sort(function(arg_29_0, arg_29_1)
-		return arg_29_0.id < arg_29_1.id
-	end):value()
+	end):sort(CompareFuncs({
+		function(arg_29_0)
+			return arg_29_0.id
+		end
+	})):value()
 	arg_27_0.selectIds = {
 		[FleetType.Normal] = {},
 		[FleetType.Submarine] = {}
@@ -1770,12 +1772,7 @@ function var_0_0.initCommander(arg_116_0, arg_116_1, arg_116_2, arg_116_3)
 
 	for iter_116_0 = 1, 2 do
 		local var_116_1 = var_116_0[iter_116_0]
-		local var_116_2
-
-		if var_116_1 then
-			var_116_2 = getProxy(CommanderProxy):getCommanderById(var_116_1)
-		end
-
+		local var_116_2 = var_116_1 and getProxy(CommanderProxy):getCommanderById(var_116_1)
 		local var_116_3 = arg_116_2:Find("pos" .. iter_116_0)
 		local var_116_4 = var_116_3:Find("add")
 		local var_116_5 = var_116_3:Find("info")
